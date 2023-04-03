@@ -5,7 +5,7 @@ author: James Lex
 date: "2016-02-23"
 categories: 
   - "freebies"
-coverImage: "2016/02/apple-desk-laptop-working-large.jpg"
+coverImage: "apple-desk-laptop-working-large.jpg"
 published: true
 ---
 

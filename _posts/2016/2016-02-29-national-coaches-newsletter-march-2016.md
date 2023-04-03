@@ -5,7 +5,7 @@ author: James Lex
 date: "2016-02-29"
 categories: 
   - "newsletter"
-coverImage: "2016/02/ireland-saint-patrick-s-day-large.jpg"
+coverImage: "ireland-saint-patrick-s-day-large.jpg"
 published: true
 ---
 

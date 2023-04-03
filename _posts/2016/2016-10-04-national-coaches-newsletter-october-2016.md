@@ -5,7 +5,7 @@ author: James Lex
 date: "2016-10-04"
 categories: 
   - "newsletter"
-coverImage: "2016/10/fall-autumn-red-season-large.jpg"
+coverImage: "fall-autumn-red-season-large.jpg"
 published: true
 ---
 

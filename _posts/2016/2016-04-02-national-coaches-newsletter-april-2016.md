@@ -5,7 +5,7 @@ author: James Lex
 date: "2016-04-02"
 categories: 
   - "newsletter"
-coverImage: "2016/04/green-water-drop-rain-large.jpg"
+coverImage: "green-water-drop-rain-large.jpg"
 published: true
 ---
 
