@@ -18,7 +18,6 @@ That man was Robert Laurens. If you've ever enjoyed a moment on BibleQuiz.com, y
 After our website went down last month, he, Joey Bohanon (the other admin), and I agreed it was time to make a change.
 
 ### The News
-
 Because of [my work on the site the past 5 years](https://www.biblequiz.com/blog/welcome-to-the-new-biblequiz-com/), we agreed that I would become the new owner of BibleQuiz.com (and its sister BibleQuiz.org) and will maintain it for the foreseeable future.
 
 **My commitment is to do what we've always done: provide quality Bible Quiz training and preserve the rich history of Bible Quiz.**
@@ -28,7 +27,6 @@ Neither of those will change as long as I am the owner.
 The history section will continued be managed by Joey, who has done an outstanding job gathering and preserving Bible Quiz history while I work to maintain the rest of the site.
 
 ### The Transition
-
 Because of the issues with the previous host, I (obviously) had to move BibleQuiz.com to a new host. If that's confusing, picture moving a family of six out of their house.
 
 Now turn the lights off and try to pack and move out. That's where we were.
@@ -40,7 +38,6 @@ The Nationals area of the History is still being setup, but the [Current Season]
 This Blog, unfortunately, lost all the pictures and PDF uploads. I'll do my best to reupload, but no promises.
 
 ### Epic Conclusion
-
 If you're still reading this, thank you. It's good to know people love the content we produce.
 
 I would like to thank everyone who has been so patient throughout this process, especially Pastor Bernie Elliot who counts on us to distribute the BQ National Coaches' Newsletter each month.
