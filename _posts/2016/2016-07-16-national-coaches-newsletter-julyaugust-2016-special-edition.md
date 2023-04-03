@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "National Coaches’ Newsletter – July/August 2016 [SPECIAL EDITION]"
+title: "Coaches’ Newsletter – July/August 2016 [SPECIAL EDITION]"
 author: James Lex
 date: "2016-07-16"
 categories: 
