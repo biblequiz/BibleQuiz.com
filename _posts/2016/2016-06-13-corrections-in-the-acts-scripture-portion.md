@@ -6,7 +6,7 @@ date: "2016-06-13"
 categories: 
   - "general"
   - "nationals"
-coverImage: "2016/06/default-header.jpg"
+coverImage: "default-header.jpg"
 published: true
 ---
 

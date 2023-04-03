@@ -5,7 +5,7 @@ author: James Lex
 date: "2016-09-03"
 categories: 
   - "newsletter"
-coverImage: "2016/09/fall.jpg"
+coverImage: "fall.jpg"
 published: true
 ---
 
