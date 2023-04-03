@@ -6,7 +6,7 @@ date: "2016-02-18"
 categories: 
   - "site-updates"
 coverImage: "2016/02/motherboard.jpg"
-published: false
+published: true
 ---
 
 BibleQuiz.com was registered 20 years ago, back when sites like google.com weren't around.
@@ -20,8 +20,6 @@ After our website went down last month, he, Joey Bohanon (the other admin), and 
 ### The News
 
 Because of [my work on the site the past 5 years](https://www.biblequiz.com/blog/welcome-to-the-new-biblequiz-com/), we agreed that I would become the new owner of BibleQuiz.com (and its sister BibleQuiz.org) and will maintain it for the foreseeable future.
-
-[2023-March.pdf](https://github.com/biblequiz/BibleQuiz.com/files/11141143/2023-March.pdf)
 
 **My commitment is to do what we've always done: provide quality Bible Quiz training and preserve the rich history of Bible Quiz.**
 
