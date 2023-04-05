@@ -5,7 +5,7 @@ layout: default
 <article class="post detailed">
 
   {% if page.coverImage %}
-  <div><img src="assets/{{ page.coverImage }}" alt="{{ page.title }}"></div>
+  <div><img src="{{ site.baseurl }}/assets/{{ page.date | date: "%Y" }}/{{ page.coverImage }}" alt="{{ page.title }}"></div>
   {% endif %}
 
   <h1>{{ page.title }}</h1>
