@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Tips on the Rules"
 date: "2016-05-02"
 ---

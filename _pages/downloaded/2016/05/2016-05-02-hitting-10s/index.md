@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Hitting 10s"
 date: "2016-05-02"
 ---

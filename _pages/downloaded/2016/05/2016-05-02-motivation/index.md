@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Motivation"
 date: "2016-05-02"
 ---

@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Reviewing what you've learned [VIDEO]"
 date: "2016-05-03"
 ---

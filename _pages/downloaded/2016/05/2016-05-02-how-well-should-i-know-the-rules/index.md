@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "How well should I know the rules?"
 date: "2016-05-02"
 ---

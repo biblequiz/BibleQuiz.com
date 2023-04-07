@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Concordance Work, Part 3"
 date: "2016-05-02"
 ---

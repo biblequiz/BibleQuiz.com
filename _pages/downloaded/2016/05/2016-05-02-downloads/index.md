@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Downloads & Forms"
 date: "2016-05-02"
 coverImage: "laptop.jpeg"

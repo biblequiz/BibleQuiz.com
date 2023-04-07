@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "How do I know when to contest a ruling?"
 date: "2016-05-03"
 ---

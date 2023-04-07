@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Buzzing Techniques [VIDEO]"
 date: "2016-05-03"
 ---

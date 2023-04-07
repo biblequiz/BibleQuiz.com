@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "How do I retain the material I've learned?"
 date: "2016-05-03"
 ---

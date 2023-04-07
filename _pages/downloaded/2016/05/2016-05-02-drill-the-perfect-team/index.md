@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Drill: The Perfect Team"
 date: "2016-05-02"
 ---

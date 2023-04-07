@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Drill: Analysis"
 date: "2016-05-02"
 ---

@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "What else should I be studying?"
 date: "2016-05-03"
 ---

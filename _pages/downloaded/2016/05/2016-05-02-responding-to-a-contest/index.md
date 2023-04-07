@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Responding to a Contest"
 date: "2016-05-02"
 ---

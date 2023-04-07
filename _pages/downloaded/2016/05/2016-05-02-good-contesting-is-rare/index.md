@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Why Good Contesting is R.A.R.E."
 date: "2016-05-02"
 ---

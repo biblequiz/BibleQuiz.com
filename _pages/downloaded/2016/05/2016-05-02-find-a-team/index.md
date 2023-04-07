@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Find a Team"
 date: "2016-05-02"
 ---

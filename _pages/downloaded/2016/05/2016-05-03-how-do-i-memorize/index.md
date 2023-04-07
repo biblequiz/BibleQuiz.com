@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "How Do I Memorize?"
 date: "2016-05-03"
 ---

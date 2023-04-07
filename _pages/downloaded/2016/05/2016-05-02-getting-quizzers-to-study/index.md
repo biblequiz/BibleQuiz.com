@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Getting Quizzers to Study"
 date: "2016-05-02"
 ---

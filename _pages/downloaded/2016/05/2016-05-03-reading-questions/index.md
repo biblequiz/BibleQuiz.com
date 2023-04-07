@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "How to Read Questions"
 date: "2016-05-03"
 ---

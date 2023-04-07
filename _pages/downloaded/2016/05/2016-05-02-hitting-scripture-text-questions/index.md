@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Hitting Scripture Text Questions"
 date: "2016-05-02"
 ---

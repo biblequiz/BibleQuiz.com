@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Drill: Offense/Defense"
 date: "2016-05-02"
 ---

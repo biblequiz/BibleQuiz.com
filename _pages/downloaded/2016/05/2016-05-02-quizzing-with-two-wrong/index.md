@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Quizzing with two wrong"
 date: "2016-05-02"
 ---

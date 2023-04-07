@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "How do I quote fast?"
 date: "2016-05-03"
 ---

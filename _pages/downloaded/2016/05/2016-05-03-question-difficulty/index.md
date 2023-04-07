@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "What difficulty should I expect at each level?"
 date: "2016-05-03"
 ---

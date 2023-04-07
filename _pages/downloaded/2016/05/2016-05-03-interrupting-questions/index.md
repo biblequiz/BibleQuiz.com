@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "How do I interrupt questions?"
 date: "2016-05-03"
 ---

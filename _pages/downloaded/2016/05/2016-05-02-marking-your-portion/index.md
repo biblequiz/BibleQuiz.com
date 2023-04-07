@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "How do I mark my Scripture Portion?"
 date: "2016-05-02"
 ---

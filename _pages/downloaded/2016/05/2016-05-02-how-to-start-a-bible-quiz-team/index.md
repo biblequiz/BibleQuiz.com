@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "How to Start a Bible Quiz Team"
 date: "2016-05-02"
 ---

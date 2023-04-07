@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Questions"
 date: "2016-05-01"
 ---

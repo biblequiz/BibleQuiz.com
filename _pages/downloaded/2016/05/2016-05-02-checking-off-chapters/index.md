@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Checking off chapters"
 date: "2016-05-02"
 ---

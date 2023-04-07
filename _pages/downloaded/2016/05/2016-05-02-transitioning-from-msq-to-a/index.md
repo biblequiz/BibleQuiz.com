@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Transitioning from Middle School Quiz to A League"
 date: "2016-05-02"
 ---

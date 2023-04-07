@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Hitting 20 point \"complete answer\" questions"
 date: "2016-05-02"
 ---

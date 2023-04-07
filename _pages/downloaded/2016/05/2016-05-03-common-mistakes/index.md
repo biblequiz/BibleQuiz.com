@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Most Common Mistakes Made By Officials"
 date: "2016-05-03"
 ---

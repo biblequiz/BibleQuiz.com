@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Understanding the Introductory Remarks"
 date: "2016-05-03"
 ---

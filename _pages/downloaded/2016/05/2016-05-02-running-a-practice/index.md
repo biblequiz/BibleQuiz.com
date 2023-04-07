@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Running a Practice"
 date: "2016-05-02"
 ---

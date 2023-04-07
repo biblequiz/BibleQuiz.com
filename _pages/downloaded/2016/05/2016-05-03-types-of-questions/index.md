@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Types of Questions"
 date: "2016-05-03"
 ---

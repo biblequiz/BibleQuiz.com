@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Nationals Grand Central"
 date: "2016-05-02"
 coverImage: "pexels-chicago.jpg"

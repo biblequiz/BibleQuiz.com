@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Hitting \"describe\" questions"
 date: "2016-05-02"
 ---

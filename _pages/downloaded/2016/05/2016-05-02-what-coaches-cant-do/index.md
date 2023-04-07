@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "What Coaches Can't Do"
 date: "2016-05-02"
 ---

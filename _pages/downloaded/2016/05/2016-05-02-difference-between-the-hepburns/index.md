@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "What's the difference between Audrey and Katherine Hepburn?"
 date: "2016-05-02"
 ---

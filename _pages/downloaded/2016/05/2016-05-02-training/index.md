@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Training"
 date: "2016-05-02"
 ---

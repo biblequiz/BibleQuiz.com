@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Quoting by Reference"
 date: "2016-05-03"
 ---

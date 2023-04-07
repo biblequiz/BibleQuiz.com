@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "What books are we currently quizzing over?"
 date: "2016-05-02"
 ---

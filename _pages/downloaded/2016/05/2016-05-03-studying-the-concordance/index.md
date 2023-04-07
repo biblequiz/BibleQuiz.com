@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Studying the concordance"
 date: "2016-05-03"
 ---

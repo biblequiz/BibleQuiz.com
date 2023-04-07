@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Yogi Berra's Coaching Tips"
 date: "2016-05-02"
 ---

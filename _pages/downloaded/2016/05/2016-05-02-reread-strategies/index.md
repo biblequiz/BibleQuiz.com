@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Reread Strategies"
 date: "2016-05-02"
 ---

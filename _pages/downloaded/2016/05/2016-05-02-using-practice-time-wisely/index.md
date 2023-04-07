@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: 
 title: "Using Practice Time Wisely"
 date: "2016-05-02"
 ---
