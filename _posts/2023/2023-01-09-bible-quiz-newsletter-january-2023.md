@@ -13,7 +13,7 @@ Here is the January 2023 edition of the National Bible Quiz Newsletter.
 
 \[btn icon="kt-icon-cloud-download" text=" Download Now" link="{% link assets/2023/2023-January.pdf %}" tcolor="#ffffff" bcolor="#2f865c" thovercolor="#ffffff" bhovercolor="#004403"\]
 
-You can quickly subscribe to the National Bible Quiz Newsletter by visiting [BibleQuiz.com/subscribe](https://www.biblequiz.com/subscribe).
+You can quickly subscribe to the National Bible Quiz Newsletter by visiting [BibleQuiz.com/subscribe]({% link _pages/subscribe.md %}).
 
 Find us on Facebook under groups [agbiblequiz.](https://www.facebook.com/groups/agbiblequiz)
 

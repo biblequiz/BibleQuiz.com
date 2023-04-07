@@ -22,7 +22,7 @@ New to Bible Quiz? We highly recommend reaching out to the National Bible Quiz C
 
 Find an event to attend for the upcoming season
 
-[Go now](https://www.biblequiz.com/events)
+[Go now]({% link _pages/events.md %})
 
 ![]({{ site.baseurl }}/assets/pages/pexels-markus-winkler-4052195-1024x683.jpg)
 
@@ -38,4 +38,4 @@ Download the rulebook for the 2022-2023 Season.
 
 Browse the archives and discover the rich history of Bible Quiz
 
-[Browse](https://www.biblequiz.com/history)
+[Browse]({% link _pages/history/index.md %})
