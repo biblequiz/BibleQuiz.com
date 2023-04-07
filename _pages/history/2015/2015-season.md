@@ -7,7 +7,7 @@ date: "2020-02-11"
 
 ## Romans & James
 
-[National Finals]({% link _pages/history/2015-season/2015-nationals.md %})
+[National Finals]({% link _pages/history/2015/2015-nationals.md %})
 
 Tournaments
 

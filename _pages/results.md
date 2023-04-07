@@ -9,4 +9,4 @@ date: "2016-05-02"
 
 [Send results from your event](mailto:hello@biblequiz.com)
 
-Visit the [Events]({% link _pages/competitions.md %}) page to find upcoming competitions for your team!
+Visit the [Events]({% link _pages/events.md %}) page to find upcoming competitions for your team!

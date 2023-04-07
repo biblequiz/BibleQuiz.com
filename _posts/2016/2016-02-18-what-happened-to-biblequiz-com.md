@@ -18,7 +18,7 @@ That man was Robert Laurens. If you've ever enjoyed a moment on BibleQuiz.com, y
 After our website went down last month, he, Joey Bohanon (the other admin), and I agreed it was time to make a change.
 
 ### The News
-Because of [my work on the site the past 5 years]({% link _pages/blog/welcome-to-the-new-biblequiz-com.md %}), we agreed that I would become the new owner of BibleQuiz.com (and its sister BibleQuiz.org) and will maintain it for the foreseeable future.
+Because of [my work on the site the past 5 years]({% post_url 2014/2014-06-05-welcome-to-the-new-biblequiz-com %}), we agreed that I would become the new owner of BibleQuiz.com (and its sister BibleQuiz.org) and will maintain it for the foreseeable future.
 
 **My commitment is to do what we've always done: provide quality Bible Quiz training and preserve the rich history of Bible Quiz.**
 
@@ -33,7 +33,7 @@ Now turn the lights off and try to pack and move out. That's where we were.
 
 Joey and I have done the best we can to get moved over, but we're still getting things moved into the new place, so give us a little time.
 
-The Nationals area of the History is still being setup, but the [Current Season](/currentseason) and [Training](/training) sections are up-and-running with no issues as far as I know.
+The Nationals area of the History is still being setup, but the [Current Season]({% link _pages/current-season.md %}) and [Training]({% link _pages/training/index.md %}) sections are up-and-running with no issues as far as I know.
 
 This Blog, unfortunately, lost all the pictures and PDF uploads. I'll do my best to reupload, but no promises.
 

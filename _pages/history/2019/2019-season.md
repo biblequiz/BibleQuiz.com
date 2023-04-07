@@ -7,13 +7,13 @@ date: "2020-02-09"
 
 ## I & II Corinthians
 
-[National Finals]({% link _pages/history/2019-season/2019-nationals.md %})
+[National Finals]({% link _pages/history/2019/2019-nationals.md %})
 
 Tournaments
 
 [2018 Liberty Classic]({% link assets/2020/libertyclassic18.pdf %}) [Download]({% link assets/2020/libertyclassic18.pdf %})
 
-[2018 Bluegrass Classic]({% link assets/2020/bluegrassclassic18.pdf %}) [Download]({% link assets/uploads/2020/bluegrassclassic18.pdf %})
+[2018 Bluegrass Classic]({% link assets/2020/bluegrassclassic18.pdf %}) [Download]({% link assets/2020/bluegrassclassic18.pdf %})
 
 [2018 Gold Cup]({% link assets/2020/goldcup18.pdf %}) [Download]({% link assets/2020/goldcup18.pdf %})
 

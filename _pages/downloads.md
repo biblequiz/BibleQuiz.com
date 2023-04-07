@@ -70,14 +70,12 @@ A free spreadsheet for tracking scores in a match.
 * * *
 
 ## Graphics
-
 ![]({% link assets/pages/TsJs.jpeg %})
 
 ### Artwork
-
 [Download]({% link assets/2022/TsJs.jpeg %})
 
-![]({{ site.baseurl }}/assets/pages/22-23-TsJs-Banner-1024x128.png)
+![]({% link assets/pages/22-23-TsJs-Banner-1024x128.png %})
 
 ### Banner
 
@@ -93,19 +91,19 @@ A free spreadsheet for tracking scores in a match.
 
 ## Videos
 
-![]({{ site.baseurl }}/assets/pages/15-minutes-a-day-1024x576.jpg)
+![]({% link assets/pages/15-minutes-a-day-1024x576.jpg %})
 
 ### Promo: 15 Minutes a Day
 
 [Download](https://drive.google.com/file/d/1HqJsgHlyLT-G-0Ir32BzjMNs4AgjewtC/view?usp=sharing)
 
-![]({{ site.baseurl }}/assets/pages/palm-of-your-hand-1024x576.jpg)
+![]({% link assets/pages/palm-of-your-hand-1024x576.jpg %})
 
 ### Promo: Palm of Your Hand
 
 [Download](https://drive.google.com/file/d/17Lg2J1CBuL66NuzUrwJCX2vSLZ2LbNDX/view?usp=sharing)
 
-![]({{ site.baseurl }}/assets/pages/promo-therefore-i-run-1024x590.jpg)
+![]({% link assets/pages/promo-therefore-i-run-1024x590.jpg %})
 
 ### Promo: Therefore I Run
 

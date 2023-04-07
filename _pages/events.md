@@ -5,8 +5,6 @@ title: "Events"
 date: "2019-04-02"
 ---
 
-TODO: {% link _pages/events.md %}
-
 Regionals
 
 2023 REGIONAL LOCATIONS  

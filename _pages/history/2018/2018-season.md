@@ -7,7 +7,7 @@ date: "2020-02-09"
 
 ## The Gospel of Mark
 
-[National Finals]({% link _pages/history/2018-season/2018-nationals.md %})
+[National Finals]({% link _pages/history/2018/2018-nationals.md %})
 
 Tournaments
 

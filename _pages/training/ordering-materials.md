@@ -7,7 +7,7 @@ date: "2016-05-02"
 
 Official Bible Quiz materials can be ordered through Gospel Publishing House (GPH).
 
-Be sure to check out the [products](/products/) and [questions](/questions/) posts in our [Current Season](/current-season/) section.
+Be sure to check out the [products]({% link _pages/products.md %}) and [questions]({% link _pages/questions.md %}) posts in our [Current Season]({% link _pages/current-season.md %}) section.
 
 #### Order Online
 

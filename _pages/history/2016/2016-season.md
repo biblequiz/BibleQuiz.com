@@ -7,7 +7,7 @@ date: "2020-02-11"
 
 ## Acts
 
-[National Finals]({% link _pages/history/2016-season/2016-nationals.md %})
+[National Finals]({% link _pages/history/2016/2016-nationals.md %})
 
 Tournaments
 

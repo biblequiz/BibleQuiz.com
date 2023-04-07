@@ -47,7 +47,7 @@ Suppose the required answer comes from verses 1, 2, 3, and 5 of a chapter. The q
 
 Even though verses 1-3 happen to be consecutive, the **entirety of the answer** is not from consecutive verses. Therefore, it is labeled "From separate verses."
 
-See [page 25 of the Bible Quiz Rules]({% link artifacts/2022/22-23-BQ-Rules.pdf %}) for the complete list of rules pertaining to this introductory remark.
+See [page 25 of the Bible Quiz Rules]({% link assets/2022/22-23-BQ-Rules.pdf %}) for the complete list of rules pertaining to this introductory remark.
 
 * * *
 
