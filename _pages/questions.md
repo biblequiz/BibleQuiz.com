@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 
+permalink: /questions/
 title: "Questions"
 date: "2016-05-01"
 ---

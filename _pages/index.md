@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 
+permalink: /
 title: "Home"
 date: "2016-05-01"
 ---

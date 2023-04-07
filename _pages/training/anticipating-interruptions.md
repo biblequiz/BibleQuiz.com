@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 
+permalink: /training/anticipating-interruptions/
 title: "Anticipating Interruptions"
 date: "2016-05-02"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 
+permalink: /training/concordance-part-3/
 title: "Concordance Work, Part 3"
 date: "2016-05-02"
 ---

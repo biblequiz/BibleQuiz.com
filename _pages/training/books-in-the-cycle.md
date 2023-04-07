@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 
+permalink: /training/books-in-the-cycle/
 title: "What books are we currently quizzing over?"
 date: "2016-05-02"
 ---
