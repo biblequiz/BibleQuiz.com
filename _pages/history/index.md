@@ -7,23 +7,23 @@ date: "2020-02-09"
 
 ## Nationals History
 
-[National Champions]({% link _pages/history/team-champions.md %})  
-[Top Scorers]({% link _pages/history.md %}top-scorers)  
-[Individual Tournament Winners]({% link _pages/history.md %}individual-tournament)  
-[Quoting Bee Winners]({% link _pages/history.md %}quoting-bee)  
-[Quizzers of the Year]({% link _pages/history.md %}quizzers-of-the-year)  
-[One-on-One Tournament]({% link _pages/history.md %}one-on-one)  
-[Scholarship Recipients]({% link _pages/history.md %}scholarship-recipients)  
-[East vs West and Boys vs Girls]({% link _pages/history.md %}east-west)  
-[Discontinued Competitions]({% link _pages/history.md %}discontinued-competitions)  
-[National Finals Locations]({% link _pages/history.md %}locations)
+[National Champions]({% link _pages/history/team-champions.md %})
+[Top Scorers]({% link _pages/history/top-scorers.md %})
+[Individual Tournament Winners]({% link _pages/history/individual-tournament.md %})  
+[Quoting Bee Winners]({% link _pages/history/quoting-bee.md %})  
+[Quizzers of the Year]({% link _pages/history/quizzers-of-the-year.md %})  
+[One-on-One Tournament]({% link _pages/history/one-on-one-tournament.md %})  
+[Scholarship Recipients]({% link _pages/history/scholarship-recipients.md %})  
+[East vs West and Boys vs Girls]({% link _pages/history/east-west.md %})  
+[Discontinued Competitions]({% link _pages/history/discontinued-competitions.md %})  
+[National Finals Locations]({% link _pages/history/locations.md %})
 
 ## General History
 
-[Books Studied]({% link _pages/history.md %}books-studied)  
-[Memorization and Discipleship Awards]({% link _pages/history.md %}national-awards)  
-[National Coordinators]({% link _pages/history.md %}coordinators)  
-[Question Writers]({% link _pages/history.md %}question-writers)
+[Books Studied]({% link _pages/history/books-studied.md %})  
+[Memorization and Discipleship Awards]({% link _pages/history/national-awards.md %})  
+[National Coordinators]({% link _pages/history/coordinators.md %})  
+[Question Writers]({% link _pages/history/question-writers.md %})
 
 ## History by Season
 
@@ -151,6 +151,6 @@ date: "2020-02-09"
 
 2017: Galatians, Ephesians, Philippians, Colossians, Philemon
 
-[2018: Gospel of Mark]({% link _pages/history/2018-season.md %})
+[2018: Gospel of Mark]({% link _pages/history/2018/2018-season.md %})
 
-[2019: 1 & II Corinthians]({% link _pages/history/2019-season.md %})
+[2019: 1 & II Corinthians]({% link _pages/history/2019/2019-season.md %})

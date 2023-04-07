@@ -17,7 +17,6 @@ The fastest way to learn about Bible Quiz!
 [Download]({% link assets/2021/BQ-Cheat-Sheet.pdf %})
 
 ## Rules & Guidelines
-
 **Official Rules**  
 For use in all Bible Quiz matches, all year long.
 
@@ -36,7 +35,6 @@ A few minor rule changes for XP5 competitions. All rules from the full set of Of
 * * *
 
 ## Award Guidelines and Forms
-
 **Memorization Award**  
 All of the material must be quoted one chapter at at time and in one sitting, with four mistakes or fewer. No time limit!
 
@@ -73,38 +71,32 @@ A free spreadsheet for tracking scores in a match.
 ![]({% link assets/pages/TsJs.jpeg %})
 
 ### Artwork
-[Download]({% link assets/2022/TsJs.jpeg %})
+[Download]({% link assets/pages/TsJs.jpeg %})
 
 ![]({% link assets/pages/22-23-TsJs-Banner-1024x128.png %})
 
 ### Banner
+[Download]({% link assets/pages/TsJs.jpeg %})
 
-[Download]({% link assets/2022/TsJs.jpeg %})
-
-![Bible Quiz Logo]({% assets/pages/biblequizlogo-805x1024.jpg %})
+![Bible Quiz Logo]({% link assets/pages/biblequizlogo-805x1024.jpg %})
 
 ### Bible Quiz Logo
-
 [Download]({% link assets/pages/biblequizlogo-805x1024.jpg %})
 
 * * *
 
 ## Videos
-
 ![]({% link assets/pages/15-minutes-a-day-1024x576.jpg %})
 
 ### Promo: 15 Minutes a Day
-
 [Download](https://drive.google.com/file/d/1HqJsgHlyLT-G-0Ir32BzjMNs4AgjewtC/view?usp=sharing)
 
 ![]({% link assets/pages/palm-of-your-hand-1024x576.jpg %})
 
 ### Promo: Palm of Your Hand
-
 [Download](https://drive.google.com/file/d/17Lg2J1CBuL66NuzUrwJCX2vSLZ2LbNDX/view?usp=sharing)
 
 ![]({% link assets/pages/promo-therefore-i-run-1024x590.jpg %})
 
 ### Promo: Therefore I Run
-
 [Download](https://drive.google.com/open?id=1uU3XdXI2CAroXMdkgUNeHIbNQM5JbFk8)
