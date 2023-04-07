@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 
+permalink: /bible-quiz-leadership/
 title: "Bible Quiz Leadership"
 date: "2020-02-11"
 ---

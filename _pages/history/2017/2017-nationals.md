@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 
+permalink: /history/2017-season/2017-nationals/
 title: "2017 Nationals"
 date: "2020-02-11"
 ---

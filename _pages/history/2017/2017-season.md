@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 
+permalink: /history/2017-season/
 title: "2017 Season"
 date: "2020-02-11"
 ---
