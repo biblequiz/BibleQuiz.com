@@ -45,25 +45,25 @@ It's the easy way to stay up-to-date with schedule changes, see results from mee
 
 ![]({{ site.baseurl }}/assets/pages/Champ-Match-1024x444.jpg)
 
-### [Find Competitions](https://www.biblequiz.com/events/)
+### [Find Competitions]({% link _pages/events.md %})
 
 Take your team to a tournament and event [register online](https://registration.biblequiz.com/)
 
 ![]({{ site.baseurl }}/assets/pages/pexels-photo-1516440-1024x678.jpg)
 
-### [See the Breakdown](https://www.biblequiz.com/breakdown/)
+### [See the Breakdown]({% link _pages/breakdown.md %})
 
 Find out which chapters A League, Middle School Quiz, and XP will quiz on for league meets
 
 ![]({{ site.baseurl }}/assets/pages/53071283_10219563230890930_5429076264029782016_n.jpg)
 
-### [Get questions](https://www.biblequiz.com/questions/)
+### [Get questions]({% link _pages/questions.md %})
 
 Prepare your team for league meets with application questions and for competitions with hundreds of practice questions
 
 ![]({{ site.baseurl }}/assets/pages/promo-therefore-i-run-copy-1024x590.jpg)
 
-### [Download resources](https://www.biblequiz.com/downloads/)
+### [Download resources]({% link _pages/downloads.md %})
 
 Get the rulebook, memorization forms, videos, media, and more
 
@@ -71,4 +71,4 @@ Get the rulebook, memorization forms, videos, media, and more
 
 ### Want more information?
 
-Go to [Current Season](https://www.biblequiz.com/current-season/) to get all the details you need
+Go to [Current Season]({% link _pages/current-season.md %}) to get all the details you need

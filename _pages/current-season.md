@@ -24,12 +24,12 @@ The word “**Quote**” is missing in the Application Question.
 
 ## Updated Rulebook
 
-[Download Rulebook](https://www.biblequiz.com/wp-content/uploads/2022/05/22-23-BQ-Rules.pdf)
+[Download Rulebook]({% link assets/2022/22-23-BQ-Rules.pdf %})
 
-[Explanation of Rule Changes](https://www.biblequiz.com/changes-to-the-rulebook-for-the-2022-2023-season/)
+[Explanation of Rule Changes]({% link _pages/changes-to-the-rulebook-for-the-2022-2023-season.md %})
 
 ## National Finals
 
 ![]({{ site.baseurl }}/assets/pages/st-louis-renaissance-hotel.jpg)
 
-[National Finals Info](https://www.biblequiz.com/national-finals/)
+[National Finals Info]({% link _pages/national-finals.md %})

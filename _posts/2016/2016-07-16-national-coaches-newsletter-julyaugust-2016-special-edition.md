@@ -18,7 +18,7 @@ We have a HUGE special edition of the Coaches' Newsletter for you with important
 - Requirements for the Master Memorization Award.
 - And much, much more
 
-[\[icon icon="kt-icon-arrow-right5" size="14px"\] Go here to download](https://www.biblequiz.com/wp-content/uploads/2016/07/Jul-Aug-2016.pdf).
+[\[icon icon="kt-icon-arrow-right5" size="14px"\] Go here to download]({% link assets/2016/Jul-Aug-2016.pdf %}).
 
 The Nationals 2016 recap video will be coming in the next week.
 

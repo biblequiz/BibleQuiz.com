@@ -8,7 +8,7 @@ categories:
 published: true
 ---
 
-[![Nationals 2014](images/SWFIMG_140422_09581295_MSL1U.jpg)](https://www.biblequiz.com/blog/nationals-2014-preview/)
+[![Nationals 2014](images/SWFIMG_140422_09581295_MSL1U.jpg)]({% link _pages/blog/nationals-2014-preview.md %})
 
 It's hard to believe it's been almost a year since we all gathered in Chicago, IL to watch 40 teams compete for the national championship, but the 52nd National Finals begin one week from today.
 

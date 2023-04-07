@@ -6,7 +6,7 @@ date: "2014-06-05"
 published: true
 ---
 
-[![banner1](images/banner1.jpg)](https://www.biblequiz.com/blog/nationals-2014-participants/)
+[![banner1](images/banner1.jpg)]({% link _pages/blog/nationals-2014-participants.md %})
 
 Pastor Bernie Elliot, the National A/G Bible Quiz Coordinator, just posted the "Final 40" teams participating at National Finals in Ft. Lauderdale on the [TBQ Peoples Facebook group](https://www.facebook.com/groups/218515878185610/permalink/690398737663986/). You can see the list below.
 

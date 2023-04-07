@@ -40,7 +40,7 @@ coverImage: "pexels-chicago.jpg"
 
 [Nationals Registration & Information](https://youth.ag.org/Participate/Bible-Quiz/Nationals)
 
-[Order National-level Practice Questions from Former Quizzers](https://www.biblequiz.com/questions/)
+[Order National-level Practice Questions from Former Quizzers]({% link _pages/questions.md %})
 
 [\[VIDEOS\] Training for Scorekeepers](https://www.youtube.com/watch?v=u1jXAshiqwA&list=PLKq6sDn4qSnqA1mzlYV8Ny1xj0sxfDsdI)
 

@@ -14,4 +14,4 @@ In this edition:
 
 \- Top Ten Predictions for 2016 - Chapter Sampler for Mark - Corrections in Scripture Portion - Bible Quiz Tournaments - Missouri Classic Results - December - National Finals Information - Nuts & Bolts - Quotables - Just For Laughs
 
-Download here: [January 2016](https://www.biblequiz.com/blog/wp-content/uploads/2016/01/January-2016.pdf)
+Download here: [January 2016]({% link _pages/blog/wp-content/uploads/2016/01.md %}January-2016.pdf)

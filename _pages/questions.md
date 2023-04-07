@@ -13,7 +13,7 @@ For new teams, memorizing all Application Questions guarantees at least two ques
 
 Recommended for all teams competing at League Meets.
 
-[Download PDF](https://www.biblequiz.com/wp-content/uploads/2022/07/22-23-Application-Questions.pdf)
+[Download PDF]({% link assets/2022/22-23-Application-Questions.pdf %})
 
 * * *
 

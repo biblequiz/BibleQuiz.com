@@ -5,7 +5,7 @@ title: "Events"
 date: "2019-04-02"
 ---
 
-TODO: https://www.biblequiz.com/events/
+TODO: {% link _pages/events.md %}
 
 Regionals
 

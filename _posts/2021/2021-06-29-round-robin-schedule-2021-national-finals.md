@@ -6,4 +6,4 @@ date: "2021-06-29"
 published: true
 ---
 
-[Round-robin schedule](https://www.biblequiz.com/wp-content/uploads/2021/06/2021schedule.pdf)[Download](https://www.biblequiz.com/wp-content/uploads/2021/06/2021schedule.pdf)
+[Round-robin schedule]({% link assets/2021/2021schedule.pdf %}) [Download]({% link assets/2021/2021schedule.pdf %})

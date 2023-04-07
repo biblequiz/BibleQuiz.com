@@ -18,4 +18,4 @@ date: "2022-07-23"
 ****XP5 Starter Kit**  
 **Single page scripture portion for first meet over 1Thessalonians 1-2. Feel free to edit and make it your own.
 
-[Download](https://www.biblequiz.com/wp-content/uploads/2022/07/22-23_Starter.docx)
+[Download]({% link assets/2022/22-23_Starter.docx %})

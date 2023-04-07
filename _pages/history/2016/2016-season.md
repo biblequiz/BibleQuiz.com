@@ -7,7 +7,7 @@ date: "2020-02-11"
 
 ## Acts
 
-[National Finals](https://www.biblequiz.com/history/2016-season/2016-nationals/)
+[National Finals]({% link _pages/history/2016-season/2016-nationals.md %})
 
 Tournaments
 

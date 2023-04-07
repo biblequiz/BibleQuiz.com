@@ -7,7 +7,7 @@ date: "2020-02-11"
 
 ## Romans & James
 
-[National Finals](https://www.biblequiz.com/history/2015-season/2015-nationals/)
+[National Finals]({% link _pages/history/2015-season/2015-nationals.md %})
 
 Tournaments
 

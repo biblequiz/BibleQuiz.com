@@ -7,23 +7,23 @@ date: "2020-02-09"
 
 ## Nationals History
 
-[National Champions](https://www.biblequiz.com/history/team-champions/)  
-[Top Scorers](https://www.biblequiz.com/history/top-scorers)  
-[Individual Tournament Winners](https://www.biblequiz.com/history/individual-tournament)  
-[Quoting Bee Winners](https://www.biblequiz.com/history/quoting-bee)  
-[Quizzers of the Year](https://www.biblequiz.com/history/quizzers-of-the-year)  
-[One-on-One Tournament](https://www.biblequiz.com/history/one-on-one)  
-[Scholarship Recipients](https://www.biblequiz.com/history/scholarship-recipients)  
-[East vs West and Boys vs Girls](https://www.biblequiz.com/history/east-west)  
-[Discontinued Competitions](https://www.biblequiz.com/history/discontinued-competitions)  
-[National Finals Locations](https://www.biblequiz.com/history/locations)
+[National Champions]({% link _pages/history/team-champions.md %})  
+[Top Scorers]({% link _pages/history.md %}top-scorers)  
+[Individual Tournament Winners]({% link _pages/history.md %}individual-tournament)  
+[Quoting Bee Winners]({% link _pages/history.md %}quoting-bee)  
+[Quizzers of the Year]({% link _pages/history.md %}quizzers-of-the-year)  
+[One-on-One Tournament]({% link _pages/history.md %}one-on-one)  
+[Scholarship Recipients]({% link _pages/history.md %}scholarship-recipients)  
+[East vs West and Boys vs Girls]({% link _pages/history.md %}east-west)  
+[Discontinued Competitions]({% link _pages/history.md %}discontinued-competitions)  
+[National Finals Locations]({% link _pages/history.md %}locations)
 
 ## General History
 
-[Books Studied](https://www.biblequiz.com/history/books-studied)  
-[Memorization and Discipleship Awards](https://www.biblequiz.com/history/national-awards)  
-[National Coordinators](https://www.biblequiz.com/history/coordinators)  
-[Question Writers](https://www.biblequiz.com/history/question-writers)
+[Books Studied]({% link _pages/history.md %}books-studied)  
+[Memorization and Discipleship Awards]({% link _pages/history.md %}national-awards)  
+[National Coordinators]({% link _pages/history.md %}coordinators)  
+[Question Writers]({% link _pages/history.md %}question-writers)
 
 ## History by Season
 
@@ -151,6 +151,6 @@ date: "2020-02-09"
 
 2017: Galatians, Ephesians, Philippians, Colossians, Philemon
 
-[2018: Gospel of Mark](https://www.biblequiz.com/history/2018-season/)
+[2018: Gospel of Mark]({% link _pages/history/2018-season.md %})
 
-[2019: 1 & II Corinthians](https://www.biblequiz.com/history/2019-season/)
+[2019: 1 & II Corinthians]({% link _pages/history/2019-season.md %})

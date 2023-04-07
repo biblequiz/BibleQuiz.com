@@ -10,7 +10,7 @@ date: "2016-05-01"
 
 Get all the materials and information you need for the season
 
-[Go Now](https://www.biblequiz.com/current-season/)
+[Go Now]({% link _pages/current-season.md %})
 
 New to Bible Quiz? We highly recommend reaching out to the National Bible Quiz Coordinator: Pastor Bernie Elliot!
 
@@ -30,7 +30,7 @@ Find an event to attend for the upcoming season
 
 Download the rulebook for the 2022-2023 Season.
 
-[Go now](https://www.biblequiz.com/changes-to-the-rulebook-for-the-2022-2023-season/)
+[Go now]({% link _pages/changes-to-the-rulebook-for-the-2022-2023-season.md %})
 
 ![]({{ site.baseurl }}/assets/pages/50-greatest.png)
 

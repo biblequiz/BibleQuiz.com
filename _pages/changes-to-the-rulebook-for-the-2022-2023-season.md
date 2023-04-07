@@ -10,7 +10,7 @@ coverImage: "pexels-markus-winkler-4052195-scaled.jpg"
 
 ## **1\. Remove the Reference Question**
 
-For many years, the Reference Question has been problematic for a [number of reasons](https://www.biblequiz.com/why-the-reference-question-is-changing/). To solve these problems, we've removed the Reference Question introductory remark in favor of a new introductory remark that gives information about the _location_ of the answers instead of the _question_.
+For many years, the Reference Question has been problematic for a [number of reasons]({% link _pages/why-the-reference-question-is-changing.md %}). To solve these problems, we've removed the Reference Question introductory remark in favor of a new introductory remark that gives information about the _location_ of the answers instead of the _question_.
 
 This new introductory remark will simply say “from consecutive verses” or “from separate verses" if a question has an answer from multiple verses. This information is given to the quizzers in the **_location_** part of the introductory remark.
 
@@ -47,7 +47,7 @@ Suppose the required answer comes from verses 1, 2, 3, and 5 of a chapter. The q
 
 Even though verses 1-3 happen to be consecutive, the **entirety of the answer** is not from consecutive verses. Therefore, it is labeled "From separate verses."
 
-See [page 25 of the Bible Quiz Rules](https://www.biblequiz.com/wp-content/uploads/2022/05/22-23-BQ-Rules.pdf) for the complete list of rules pertaining to this introductory remark.
+See [page 25 of the Bible Quiz Rules]({% link artifacts/2022/22-23-BQ-Rules.pdf %}) for the complete list of rules pertaining to this introductory remark.
 
 * * *
 
@@ -78,19 +78,19 @@ In testing, quizzers picked up on this very quickly, and we have received a lot 
 
 Download Rules
 
-[Download 2022-2023 Rules](https://www.biblequiz.com/wp-content/uploads/2022/05/22-23-BQ-Rules.pdf)
+[Download 2022-2023 Rules]({% link assets/2022/22-23-BQ-Rules.pdf %})
 
-NOTE: These rules are for the 2022-2023 season. If you're looking for the 2021-2022 rules for the Gospel of Matthew, [go here](https://www.biblequiz.com/wp-content/uploads/2021/08/21-22-Bible-Quiz-Rules.pdf)!
+NOTE: These rules are for the 2022-2023 season. If you're looking for the 2021-2022 rules for the Gospel of Matthew, [go here]({% link assets/2022/22-23-BQ-Rules.pdf %})!
 
 Further explanation
 
 For a list of example questions rewritten to match the new rules, go here
 
-[Example Questions](https://www.biblequiz.com/question-examples-under-proposed-rule-changes/)
+[Example Questions]({% link _pages/question-examples-under-proposed-rule-changes.md %})
 
 For more information on why the reference question was removed, go here
 
-[Why the Reference Question is Changing](https://www.biblequiz.com/why-the-reference-question-is-changing/)
+[Why the Reference Question is Changing]({% link _pages/why-the-reference-question-is-changing.md %})
 
 Have questions?
 
