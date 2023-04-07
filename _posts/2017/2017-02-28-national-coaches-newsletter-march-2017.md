@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "National Coaches' Newsletter - March 2017"
+author: James Lex
 date: "2017-02-28"
 categories: 
   - "newsletter"
 coverImage: "pexels-photo-24556.jpg"
+published: true
 ---
 
 Here is the March 2017 edition of the National Coaches' Newsletter.

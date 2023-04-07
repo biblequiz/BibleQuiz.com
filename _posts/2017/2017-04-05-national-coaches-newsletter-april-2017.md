@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "National Coaches' Newsletter - April 2017"
+author: James Lex
 date: "2017-04-05"
 categories: 
   - "newsletter"
 coverImage: "Rain.jpeg"
+published: true
 ---
 
 Here is the April 2017 edition of the National Coaches' Newsletter. It is much shorter than previous editions and contains important updates to Regional Finals.

@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - November 2022"
+author: BibleQuiz.com Admin
 date: "2022-10-31"
 categories: 
   - "newsletter"
 coverImage: "BQ-Newsletter-Graphics_Page_06-scaled.jpg"
+published: true
 ---
 
 Here is the November 2022 edition of the National Bible Quiz Newsletter.

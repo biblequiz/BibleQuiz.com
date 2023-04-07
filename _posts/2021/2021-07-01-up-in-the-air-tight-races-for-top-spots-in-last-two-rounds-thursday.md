@@ -1,11 +1,12 @@
 ---
+layout: post
 title: "Up in the air: Tight races for top spots in last two rounds Thursday"
+author: Robert Carter
 date: "2021-07-01"
 tags: 
   - "2021-nationals"
+published: true
 ---
-
-By Robert Carter
 
 ST. LOUIS, MO — The 2021 AG Teen Bible Quiz National Finals has come down to the last two rounds of play, and which team will win it all is still very much undecided.
 

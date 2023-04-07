@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - September 2017"
+author: James Lex
 date: "2017-08-30"
 categories: 
   - "newsletter"
 coverImage: "pexels-photo-223023.jpg"
+published: true
 ---
 
 Here is the September 2017 edition of the National Bible Quiz Newsletter.

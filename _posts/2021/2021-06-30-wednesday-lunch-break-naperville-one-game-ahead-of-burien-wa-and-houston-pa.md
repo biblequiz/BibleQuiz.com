@@ -1,11 +1,12 @@
 ---
+layout: post
 title: "Wednesday lunch break: Naperville one game ahead of Burien WA and Houston PA"
+author: Robert Carter
 date: "2021-06-30"
 tags: 
   - "2021-nationals"
+published: true
 ---
-
-By Robert Carter
 
 ST. LOUIS, MO — We have reached the halfway point of Wednesday's play at the 2021 AG Teen Bible Quiz National Finals, and Calvary Church's "J" team from Naperville, Illinois remains at the top of the leaderboard.
 

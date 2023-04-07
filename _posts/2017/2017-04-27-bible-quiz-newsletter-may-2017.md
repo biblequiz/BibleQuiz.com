@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - May 2017"
+author: James Lex
 date: "2017-04-27"
 categories: 
   - "newsletter"
 coverImage: "pexels-photo-29017.jpg"
+published: true
 ---
 
 Here is the May 2017 edition of the National Bible Quiz Newsletter.

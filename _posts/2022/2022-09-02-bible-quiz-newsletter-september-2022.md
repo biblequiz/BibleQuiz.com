@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - September 2022"
+author: Larry Mullins
 date: "2022-09-02"
 categories: 
   - "newsletter"
 coverImage: "BQ-Newsletter-Graphics_Page_04-scaled.jpg"
+published: true
 ---
 
 Here is the September 2022 edition of the National Bible Quiz Newsletter.

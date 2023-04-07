@@ -1,10 +1,13 @@
 ---
+layout: post
 title: "National Coaches' Newsletter - SPECIAL EDITION"
+author: James Lex
 date: "2017-04-11"
 categories: 
   - "nationals"
   - "newsletter"
 coverImage: "Nationals-2017.png"
+published: true
 ---
 
 If you plan on attending National Finals this year, then you **need** to read this special edition of the Coaches' Newsletter!

@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - October 2017"
+author: James Lex
 date: "2017-10-04"
 categories: 
   - "newsletter"
 coverImage: "pexels-photo-265315.jpg"
+published: true
 ---
 
 Here is the October 2017 edition of the National Bible Quiz Newsletter.

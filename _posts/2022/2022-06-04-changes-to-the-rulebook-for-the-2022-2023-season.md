@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "Changes to the Rulebook for the 2022-2023 Season"
+author: James Lex
 date: "2022-06-04"
 coverImage: "pexels-markus-winkler-4052195-scaled.jpg"
+published: true
 ---
 
 The rulebook for next season has been posted!

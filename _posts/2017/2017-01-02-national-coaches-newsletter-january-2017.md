@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "National Coaches' Newsletter - January 2017"
+author: James Lex
 date: "2017-01-02"
 categories: 
   - "newsletter"
 coverImage: "pexels-photo.jpg"
+published: true
 ---
 
 Here is the January 2017 edition of the National Coaches' Newsletter.

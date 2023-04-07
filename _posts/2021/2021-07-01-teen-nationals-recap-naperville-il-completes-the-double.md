@@ -1,13 +1,14 @@
 ---
+layout: post
 title: "Teen Nationals Recap: Naperville, IL completes \"The Double\""
+author: Robert Carter
 date: "2021-07-01"
 tags: 
   - "2021-nationals"
+published: true
 ---
 
 ### Calvary Church wins 2021 Teen and Junior titles, first time in AG Bible Quiz history; Atlanta Tamil Church wins Challenger Division in playoff
-
-By Robert Carter
 
 _Note: This update of our original story includes corrections and adjustments to the Challenger Division individual standings that were made later Thursday afternoon._
 

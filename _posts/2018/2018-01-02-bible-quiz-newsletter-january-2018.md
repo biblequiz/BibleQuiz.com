@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - January 2018"
+author: James Lex
 date: "2018-01-02"
 categories: 
   - "newsletter"
 coverImage: "January.jpg"
+published: true
 ---
 
 Here is the January 2018 edition of the National Bible Quiz Newsletter.

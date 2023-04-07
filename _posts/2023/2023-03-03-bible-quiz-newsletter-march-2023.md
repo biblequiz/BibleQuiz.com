@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - March 2023"
+author: BibleQuiz.com Admin
 date: "2023-03-03"
 categories: 
   - "newsletter"
 coverImage: "BQ-Newsletter-Graphics_Page_12-scaled.jpg"
+published: true
 ---
 
 Here is the March 2023 edition of the National Bible Quiz Newsletter.

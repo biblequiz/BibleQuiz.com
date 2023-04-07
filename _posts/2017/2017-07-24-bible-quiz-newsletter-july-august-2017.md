@@ -1,10 +1,13 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - July-August 2017"
+author: James Lex
 date: "2017-07-24"
 categories: 
   - "nationals"
   - "newsletter"
 coverImage: "Screen-Shot-2017-07-24-at-7.12.19-AM.png"
+published: true
 ---
 
 Here is the July-August 2017 edition of the National Bible Quiz Newsletter.

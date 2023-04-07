@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - December 2017"
+author: James Lex
 date: "2017-12-06"
 categories: 
   - "newsletter"
 coverImage: "decmber.jpg"
+published: true
 ---
 
 Here is the December 2017 edition of the National Bible Quiz Newsletter.

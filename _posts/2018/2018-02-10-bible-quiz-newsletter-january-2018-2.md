@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - February 2018"
+author: BibleQuiz.com Admin
 date: "2018-02-10"
 categories: 
   - "newsletter"
 coverImage: "olympic.jpg"
+published: true
 ---
 
 Here is the February 2018 edition of the National Bible Quiz Newsletter.

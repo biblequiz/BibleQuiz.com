@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - December 2022"
+author: BibleQuiz.com Admin
 date: "2022-12-02"
 categories: 
   - "newsletter"
 coverImage: "BQ-Newsletter-Graphics_Page_09-scaled.jpg"
+published: true
 ---
 
 Here is the December 2022 edition of the National Bible Quiz Newsletter.

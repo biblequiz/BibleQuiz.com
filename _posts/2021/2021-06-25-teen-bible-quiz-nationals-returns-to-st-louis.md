@@ -1,6 +1,9 @@
 ---
+layout: post
 title: "Teen Bible Quiz Nationals returns to St. Louis"
+author: Robert Carter
 date: "2021-06-25"
+published: true
 ---
 
 The Assemblies of God Teen Bible Quiz National Finals returns to the Renaissance St. Louis Airport Hotel for 2021, the second time the facility has hosted the national championship tournament and the fourth Finals in metro St. Louis.

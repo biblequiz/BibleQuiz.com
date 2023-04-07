@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "The Bible Quiz Newsletter Has Moved!"
+author: Jamex Lex
 date: "2018-05-31"
 categories: 
   - "newsletter"
 coverImage: "Banner.jpg"
+published: true
 ---
 
 If you haven’t noticed, the last time we sent out a Newsletter was February. Obviously a lot has happened since then (tournaments, memorization award deadlines, Districts, Regionals, etc.) so where’s the Newsletter?

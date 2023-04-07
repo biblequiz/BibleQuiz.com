@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - May 2022"
+author: Larry Mullins
 date: "2022-05-03"
 categories: 
   - "newsletter"
 coverImage: "BQ-Newsletter-Graphics_May_2022-scaled.jpg"
+published: true
 ---
 
 Here is the May 2022 edition of the National Bible Quiz Newsletter.

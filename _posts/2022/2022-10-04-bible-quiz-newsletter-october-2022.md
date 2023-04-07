@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "Bible Quiz Newsletter - October 2022"
+author: Larry Mullins
 date: "2022-10-04"
 categories: 
   - "newsletter"
 coverImage: "BQ-Newsletter-Graphics_Page_05-scaled.jpg"
+published: true
 ---
 
 Here is the October 2022 edition of the National Bible Quiz Newsletter.
