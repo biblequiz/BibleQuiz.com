@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Bible Quiz Newsletter - July-August 2017"
+author: James Lex
+date: "2017-07-24"
+categories: 
+  - "nationals"
+  - "newsletter"
+coverImage: "Screen-Shot-2017-07-24-at-7.12.19-AM.png"
+published: true
+---
+
+Here is the July-August 2017 edition of the National Bible Quiz Newsletter.
+
+\[btn icon="kt-icon-cloud-download" text=" Download Now" link="{% link assets/2017/Jul-Aug-2017.pdf %}" tcolor="#ffffff" bcolor="#2f865c" thovercolor="#ffffff" bhovercolor="#004403"\]
+
+You can quickly subscribe to the National Coaches' Newsletter by visiting [BibleQuiz.com/subscribe]({% link _pages/subscribe.md %}).
+
+If you have results from your league meet or tournament, send them to [hello@biblequiz.com](mailto:hello@biblequiz.com).

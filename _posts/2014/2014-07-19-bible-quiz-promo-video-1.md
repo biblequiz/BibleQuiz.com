@@ -8,7 +8,7 @@ categories:
 published: true
 ---
 
-Recruiting quizzers for the [Romans and James season](/current-season)?
+Recruiting quizzers for the [Romans and James season]({% link _pages/current-season.md %})?
 
 Here is a fabulous Bible Quiz promotional video to show in your church service or youth group. And it's absolutely FREE.
 
@@ -16,7 +16,7 @@ Here is a fabulous Bible Quiz promotional video to show in your church service o
 
 Share the YouTube link with your friends on Facebook, Twitter, email, and more.
 
-You can also download it for free by going to [BibleQuiz.com/downloads](/downloads).
+You can also download it for free by going to [BibleQuiz.com/downloads]({% link _pages/downloads.md %}).
 
 More videos are on the way! Don't miss out by [subscribing to BibleQuiz.com on YouTube](https://www.youtube.com/user/biblequizvids?sub_confirmation=1).
 

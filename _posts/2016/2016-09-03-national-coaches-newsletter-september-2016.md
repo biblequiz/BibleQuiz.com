@@ -13,8 +13,8 @@ September is (already) here, which means it's time for another edition of the Na
 
  
 
-\[btn icon="kt-icon-cloud-download" text=" Download Now" link="https://www.biblequiz.com/wp-content/uploads/2016/09/Sept.pdf" tcolor="#ffffff" bcolor="#2f865c" thovercolor="#ffffff" bhovercolor="#004403"\]
+\[btn icon="kt-icon-cloud-download" text=" Download Now" link="{% link assets/2016/Sept.pdf %}" tcolor="#ffffff" bcolor="#2f865c" thovercolor="#ffffff" bhovercolor="#004403"\]
 
  
 
-Start planning what tournaments you need to attend by visiting the [Competitions](https://www.biblequiz.com/competitions/) page on BibleQuiz.com.
+Start planning what tournaments you need to attend by visiting the [Competitions]({% link _pages/events.md %}) page on BibleQuiz.com.
