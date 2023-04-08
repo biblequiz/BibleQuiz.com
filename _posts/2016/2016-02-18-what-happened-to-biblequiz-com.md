@@ -33,7 +33,7 @@ Now turn the lights off and try to pack and move out. That's where we were.
 
 Joey and I have done the best we can to get moved over, but we're still getting things moved into the new place, so give us a little time.
 
-The Nationals area of the History is still being setup, but the [Current Season]({% link _pages/current-season.md %}) and [Training]({% link _pages/training/index.md %}) sections are up-and-running with no issues as far as I know.
+The Nationals area of the History is still being setup, but the [Current Season]({% link _pages/current-season.md %}) and [Training]({% link _pages/training/coaches/index.md %}) sections are up-and-running with no issues as far as I know.
 
 This Blog, unfortunately, lost all the pictures and PDF uploads. I'll do my best to reupload, but no promises.
 

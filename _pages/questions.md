@@ -15,7 +15,7 @@ For new teams, memorizing all Application Questions guarantees at least two ques
 
 Recommended for all teams competing at League Meets.
 
-[Download PDF]({% link assets/2022/22-23-Application-Questions.pdf %})
+<a href="{% link assets/2022/22-23-Application-Questions.pdf %}" class="button is-primary">Download PDF</a>
 
 * * *
 
@@ -33,7 +33,7 @@ The Basic Five includes:
 
 Duplication allowed within a single church. 
 
-[Buy now](https://digital.myhealthychurch.com/Digital-Items/TBQ/Basic_Five_Ts-J_2022_2023)
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/Basic_Five_Ts-J_2022_2023" class="button is-primary">Buy Now</a>
 
 * * *
 
@@ -43,7 +43,7 @@ Duplication allowed within a single church. 
 
 Questions are written by the official Championship league writer.
 
-[Buy now](https://digital.myhealthychurch.com/Digital-Items/TBQ/A_League_Practice_Sets_Ts-J_2022_2023)
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/A_League_Practice_Sets_Ts-J_2022_2023" class="button is-primary">Buy Now</a>
 
 * * *
 
@@ -53,7 +53,7 @@ Questions are written by the official Championship league writer.
 
 Questions were written by the official Contender Quiz and XP5 league writer.
 
-[Buy now](https://digital.myhealthychurch.com/Digital-Items/TBQ/MSQ_Practice_Sets__Ts-J_2022_2023)
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/MSQ_Practice_Sets__Ts-J_2022_2023" class="button is-primary">Buy Now</a>
 
 * * *
 
@@ -67,17 +67,17 @@ Includes:
 
 For Experience teams, there are additional assets that can supercharge your team!
 
-[Buy now](https://digital.myhealthychurch.com/Digital-Items/TBQ/Study_Guide_Plus_Ts-J_2022_2023)
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/Study_Guide_Plus_Ts-J_2022_2023" class="button is-primary">By Now</a>
 
 * * *
 
 ## District/Regional/National Practice Questions
-
 Designed for Championship league teams ready to compete at the highest level, the "DRN" Practice Questions are written by the official Championship league writer to prepare teams for specific question types and difficulty for Districts, Regionals, and Nationals.
 
-_Note: This product is created in December/January near the end of the season to be ready for the final competitions of the season._ 
-
-Available in 2023
+{% include notification.html
+   message="This product is created in December/January near the end of the season to be ready for the final competitions of the season."
+   icon="fas fa-info-circle"
+   status="is-success" %}
 
 * * *
 
