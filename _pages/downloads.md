@@ -65,21 +65,22 @@ A free spreadsheet for tracking scores in a match.
 
 * * *
 
-## Graphics
-![]({% link assets/pages/TsJs.jpeg %})
+# Graphics
 
 ### Scripture Portion Artwork
-![]({% link assets/pages/22-23-TsJs-Banner-1024x128.png %}
+![]({% link assets/pages/TsJs.jpeg %})
 
 <a href="{% link assets/pages/TsJs.jpeg %}" class="button is-primary">Download Scripture Portion Artwork</a>
 
 ### Banner
+![]({% link assets/pages/22-23-TsJs-Banner-1024x128.png %}
+
 <a href="{% link assets/pages/TsJs.jpeg %}" class="button is-primary">Download</a>
 
+### Bible Quiz Logo
 ![Bible Quiz Logo]({% link assets/pages/biblequizlogo-805x1024.jpg %})
 
-### Bible Quiz Logo
-<a href="{% link assets/pages/biblequizlogo-805x1024.jpg %}" class="button is-primary">Download</a>
+<a href="{% link assets/pages/biblequizlogo-805x1024.jpg %}" class="button is-primary">Download Logo</a>
 
 * * *
 
