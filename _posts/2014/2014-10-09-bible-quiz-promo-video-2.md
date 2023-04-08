@@ -12,8 +12,9 @@ Recruiting quizzers for the [Romans and James season]({% link _pages/current-sea
 
 Here is a fabulous Bible Quiz promotional video to show in your church service or youth group. And it's absolutely FREE.
 
-<iframe src="//www.youtube.com/embed/K5Gh63BDJkE?rel=0" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
+{% include youtube.html
+   video="K5Gh63BDJkE" %}
+   
 [Share the YouTube link](http://www.youtube.com/v=K5Gh63BDJkE?rel=0) with your friends on Facebook, Twitter, email, and more.
 
 You can also download it for free by going to [BibleQuiz.com/downloads]({% link _pages/downloads.md %}).

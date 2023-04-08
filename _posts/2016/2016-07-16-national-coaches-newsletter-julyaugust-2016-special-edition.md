@@ -26,4 +26,5 @@ The Nationals 2016 recap video will be coming in the next week.
 
 But if you just can't wait, here's the Nationals 2017 video showed at the end of the Awards Banquet. It's now available to watch on our YouTube channel.
 
-\[kad\_youtube url="https://www.youtube.com/watch?v=LLG-T0RXVR0"\]
+{% include youtube.html
+   video="LLG-T0RXVR0" %}
