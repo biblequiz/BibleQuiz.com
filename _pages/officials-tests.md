@@ -15,9 +15,8 @@ Created by an experienced team of National-level officials, these tests are a gr
 
 Test your knowledge on the basics of Bible Quiz.
 
-[Download Test]({% link assets/2021/2021-Bible-Quiz-Test.pdf %})
-
-[Download Answers]({% link assets/2021/2021-Bible-Quiz-Test-KEY.pdf %})
+<a href="{% link assets/2021/2021-Bible-Quiz-Test.pdf %}" class="button is-primary">Download Test</a>
+<a href="{% link assets/2021/2021-Bible-Quiz-Test-KEY.pdf %}" class="button is-primary">Download Answers</a>
 
 * * *
 
@@ -27,9 +26,8 @@ Test your knowledge on the basics of officiating a match and answering questions
 
 If you want to look over the rules before taking the test, [review pages 11-19]({% link _pages/downloads.md %}).
 
-[Download Test]({% link assets/2021/Officials-Test-Phase-2.pdf %})
-
-[Download Answers]({% link assets/2021/Officials-Test-Phase-2-Answer-Key.pdf %})
+<a href="{% link assets/2021/Officials-Test-Phase-2.pdf %}" class="button is-primary">Download Test</a>
+<a href="{% link assets/2021/Officials-Test-Phase-2-Answer-Key.pdf %}" class="button is-primary">Download Answers</a>
 
 ## Chapter Analysis Answers and Corrective Procedures
 
@@ -37,9 +35,8 @@ How well do you know know the contesting process? Do you know what it takes to r
 
 If you want to brush-up on the rules, [check out pages 17-19 and 28-31]({% link _pages/downloads.md %}).
 
-[Download Test]({% link assets/2019/Officials-Test-Phase-1-2.pdf %})
-
-[Download Answers]({% link assets/2019/Officials-Test-Phase-1-Answer-Key-1.pdf %})
+<a href="{% link assets/2019/Officials-Test-Phase-1-2.pdf %}" class="button is-primary">Download Test</a>
+<a href="{% link assets/2019/Officials-Test-Phase-1-Answer-Key-1.pdf %}" class="button is-primary">Download Answers</a>
 
 ## Want to discuss further?
 

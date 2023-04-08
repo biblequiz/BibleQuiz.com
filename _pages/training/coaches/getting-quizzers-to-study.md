@@ -5,9 +5,8 @@ title: "Getting Quizzers to Study"
 date: "2016-05-02"
 ---
 
-<div class="video-responsive">
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/BmRmPYXVov0"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% include youtube.html
+   video="BmRmPYXVov0" %}
 
 Well, let's get right to the heart of the matter. How do you get teenagers to memorize and review material on a daily basis? This is the critical element required to have a successful Bible Quiz team. Without it, you're just showing up and getting pummeled.
 

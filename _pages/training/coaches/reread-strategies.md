@@ -16,11 +16,10 @@ My more pressing concern is teaching my team to quiz against these teams. It can
 There are three keys for winning games against chuckers:
 
 1. #### Don't Panic
-    
     Your first instinct is to speed up to try and beat them to questions, but most often if you hit ahead of them you are not going to get the question right. Instead, you just keep playing your game. Eventually, the tide will turn against these teams.
+
 2. #### Keep the pressure on
-    
     You need to practice making the right hits. There are lots of questions that are designed to be hit on the second word. You can't just let all of those go to the opposition. You need to practice being aggressive on the right kinds of questions.
+
 3. #### Take advantage of mistakes
-    
     Believe me, a chucking team will give up lots of turnovers, so you need to be prepared to capitalize on those mistakes. Take everything they give you, and let them dig their own grave.
