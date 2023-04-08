@@ -11,7 +11,7 @@ If you would like to make a tax-deductible donation to the Endowment Fund, you m
 
 ## Three Easy Ways to Give!
 
-![]({{ site.baseurl }}/assets/pages/pexels-photo-259130-1024x683.jpg)
+![]({% link assets/pages/pexels-photo-259130-1024x683.jpg %})
 
 ### Donate by Check
 
@@ -22,7 +22,7 @@ If you would like to make a tax-deductible donation to the Endowment Fund, you m
     3900 S Overland Ave.  
     Springfield, MO 65807
 
-![]({{ site.baseurl }}/assets/pages/pexels-photo-919436-1024x617.jpg)
+![]({% link assets/pages/pexels-photo-919436-1024x617.jpg %})
 
 ### Donate Online
 

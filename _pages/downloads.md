@@ -73,9 +73,9 @@ A free spreadsheet for tracking scores in a match.
 <a href="{% link assets/pages/TsJs.jpeg %}" class="button is-primary">Download Scripture Portion Artwork</a>
 
 ### Banner
-![]({% link assets/pages/22-23-TsJs-Banner-1024x128.png %}
+![]({% link assets/pages/22-23-TsJs-Banner-1024x128.png %})
 
-<a href="{% link assets/pages/TsJs.jpeg %}" class="button is-primary">Download</a>
+<a href="{% link assets/pages/22-23-TsJs-Banner-1024x128.png %}" class="button is-primary">Download</a>
 
 ### Bible Quiz Logo
 ![Bible Quiz Logo]({% link assets/pages/biblequizlogo-805x1024.jpg %})
@@ -84,18 +84,19 @@ A free spreadsheet for tracking scores in a match.
 
 * * *
 
-## Videos
-![]({% link assets/pages/15-minutes-a-day-1024x576.jpg %})
+# Videos
 
 ### Promo: 15 Minutes a Day
+![]({% link assets/pages/15-minutes-a-day-1024x576.jpg %})
+
 <a href="https://drive.google.com/file/d/1HqJsgHlyLT-G-0Ir32BzjMNs4AgjewtC/view?usp=sharing" class="button is-primary">Download</a>
 
+### Promo: Palm of Your Hand
 ![]({% link assets/pages/palm-of-your-hand-1024x576.jpg %})
 
-### Promo: Palm of Your Hand
 <a href="https://drive.google.com/file/d/17Lg2J1CBuL66NuzUrwJCX2vSLZ2LbNDX/view?usp=sharing" class="button is-primary">Download</a>
 
+### Promo: Therefore I Run
 ![]({% link assets/pages/promo-therefore-i-run-1024x590.jpg %})
 
-### Promo: Therefore I Run
 <a href="https://drive.google.com/open?id=1uU3XdXI2CAroXMdkgUNeHIbNQM5JbFk8" class="button is-primary">Download</a>

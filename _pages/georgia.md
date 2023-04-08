@@ -43,31 +43,31 @@ It's the easy way to stay up-to-date with schedule changes, see results from mee
 
 ## Already have a team?
 
-![]({{ site.baseurl }}/assets/pages/Champ-Match-1024x444.jpg)
+![]({% link assets/pages/Champ-Match-1024x444.jpg %})
 
 ### [Find Competitions]({% link _pages/events/index.md %})
 
 Take your team to a tournament and event [register online](https://registration.biblequiz.com/)
 
-![]({{ site.baseurl }}/assets/pages/pexels-photo-1516440-1024x678.jpg)
+![]({% link assets/pages/pexels-photo-1516440-1024x678.jpg %})
 
 ### [See the Breakdown]({% link _pages/breakdown.md %})
 
 Find out which chapters A League, Middle School Quiz, and XP will quiz on for league meets
 
-![]({{ site.baseurl }}/assets/pages/53071283_10219563230890930_5429076264029782016_n.jpg)
+![]({% link assets/pages/53071283_10219563230890930_5429076264029782016_n.jpg %})
 
 ### [Get questions]({% link _pages/questions.md %})
 
 Prepare your team for league meets with application questions and for competitions with hundreds of practice questions
 
-![]({{ site.baseurl }}/assets/pages/promo-therefore-i-run-copy-1024x590.jpg)
+![]({% link assets/pages/promo-therefore-i-run-copy-1024x590.jpg %})
 
 ### [Download resources]({% link _pages/downloads.md %})
 
 Get the rulebook, memorization forms, videos, media, and more
 
-![]({{ site.baseurl }}/assets/pages/nationals2020.png)
+![]({% link assets/pages/nationals2020.png %})
 
 ### Want more information?
 

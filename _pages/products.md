@@ -9,7 +9,7 @@ menubar_ads: ads_simple
 
 ## Question-Pro/Writer
 
-![]({{ site.baseurl }}/assets/pages/TsJs.jpeg)
+![]({% link assets/pages/TsJs-300x300.jpeg %})
 
 This amazing program allows coaches to create custom sets for both practice and individual study. Choose only 10-pointers for beginning quizzers, or quotation questions for veterans. Select by point value, question type, and chapter range. _Question-Pro_ monitors questions already used and includes printing capabilities. It also comes with two databases of practice questions containing over 2,000 questions! Includes _Question-Writer_, which allows coaches to create and modify their own question databases, which can then be loaded into _Question-Pro_. Unique words and misspelled words are automatically highlighted as you type.
 
@@ -31,7 +31,7 @@ Get starter bundles, scripture portions, questions, and valuable study resources
 
 ## E-Score
 
-![]({{ site.baseurl }}/assets/pages/E-Score-1080-1024x576.jpg)
+![]({% link assets/pages/E-Score-1080-1024x576.jpg %})
 
 The powerful, easy to use Bible Quiz scoresheet for Microsoft Excel. One license covers an entire church forever! Available for digital download.
 
@@ -41,7 +41,7 @@ The powerful, easy to use Bible Quiz scoresheet for Microsoft Excel. One license
 
 ## QuizEquipment.com
 
-![]({{ site.baseurl }}/assets/pages/kirkman.jpg)
+![]({% link assets/pages/kirkman.jpg %})
 
 Steve Kirkman's buzzer set is the most popular set used in AG quizzing.
 
@@ -51,7 +51,7 @@ Steve Kirkman's buzzer set is the most popular set used in AG quizzing.
 
 ## BibleQuizShop.com
 
-![]({{ site.baseurl }}/assets/pages/smith.jpg)
+![]({% link assets/pages/smith.jpg %})
 
 A myriad of helpful products for AG Bible Quiz! Recently popular for selling paper quote cards, BibleQuizShop.com is famous for apps to write questions, generate sets, study with electronic quote cards, and even quiz with online buzzers! Available for Windows, iOS, Android, and Amazon.
 

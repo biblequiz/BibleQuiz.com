@@ -11,7 +11,7 @@ published: true
 
 Here is the December edition of the National Coaches' Newsletter.
 
-[Download Now]({{ site.baseurl }}/assets/2016/Dec-2016.pdf)
+[Download Now]({% link assets/2016/Dec-2016.pdf %})
 
 \[btn icon="kt-icon-cloud-download" text=" Download Now" link="{% link assets/2016/Dec-2016.pdf %}" tcolor="#ffffff" bcolor="#2f865c" thovercolor="#ffffff" bhovercolor="#004403"\]
 

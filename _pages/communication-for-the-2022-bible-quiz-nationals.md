@@ -52,21 +52,21 @@ Discord lets you control your notifications, so you only get the notifications y
 
 On desktop, click on a channel, and look for the bell icon at the top right
 
-![]({{ site.baseurl }}/assets/pages/discord-notifications-location-1024x410.jpg)
+![]({% link assets/pages/discord-notifications-location-1024x410.jpg %})
 
 Click on the bell, and you will have an option to Mute the channel (which will stop notifications).
 
-![]({{ site.baseurl }}/assets/pages/discord-desktop-notifications-1024x333.jpg)
+![]({% link assets/pages/discord-desktop-notifications-1024x333.jpg %})
 
 You can also hit "All Messages" to make sure you don't miss anything!
 
 On mobile, press and hold the channel you want to adjust. A menu will pop up from the bottom. Tap "Notification Settings."
 
-![]({{ site.baseurl }}/assets/pages/discord-mobile-notifications-473x1024.jpg)
+![]({% link assets/pages/discord-mobile-notifications-473x1024.jpg %})
 
 Tap the first option to select your mute settings, or All Messages to get all notifications from a channel.
 
-![]({{ site.baseurl }}/assets/pages/IMG_FD246132044B-1-920x1024.jpeg)
+![]({% link assets/pages/IMG_FD246132044B-1-920x1024.jpeg %})
 
 ## Questions?
 
@@ -74,4 +74,4 @@ Email hello@biblequiz.com
 
 If you're in the Discord server, go to the channel called **#tech-support** and post your issue, and one of the admins will help you out!
 
-![]({{ site.baseurl }}/assets/pages/tech-support-channel-1024x681.jpg)
+![]({% link assets/pages/tech-support-channel-1024x681.jpg %})

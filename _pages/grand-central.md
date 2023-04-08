@@ -46,7 +46,7 @@ coverImage: "pexels-chicago.jpg"
 
 ### 2017 NATIONAL CHAMPIONS
 
-![]({{ site.baseurl }}/assets/pages/2017-JRC-The-Flames.jpg)
+![]({% link assets/pages/2017-JRC-The-Flames.jpg %})
 
 ### Participants
 

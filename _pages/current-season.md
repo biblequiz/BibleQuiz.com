@@ -32,6 +32,6 @@ The word “**Quote**” is missing in the Application Question.
 
 ## National Finals
 
-![]({{ site.baseurl }}/assets/pages/st-louis-renaissance-hotel.jpg)
+![]({% link assets/pages/st-louis-renaissance-hotel.jpg %})
 
 [National Finals Info]({% link _pages/national-finals.md %})
