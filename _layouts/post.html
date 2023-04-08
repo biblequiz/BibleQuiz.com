@@ -2,43 +2,31 @@
 layout: default
 ---
 
-<article class="post detailed">
+<div class="content">
 
-  {% if page.coverImage %}
-  <div><img src="{{ site.baseurl }}/assets/{{ page.date | date: "%Y" }}/{{ page.coverImage }}" alt="{{ page.title }}"></div>
-  {% endif %}
-
-  <h1>{{ page.title }}</h1>
-
-  <div>
-    <p class="author_title">{{page.author}}  ·  {{ page.date | date: "%B %e, %Y" }}</p>
-    {% if page.last_modified_at %}
-    <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">(Updated: {{ page.last_modified_at | date: "%b %-d, %Y" }})</p>
+    {% if page.coverImage %}
+    <div><img src="{{ site.baseurl }}/assets/{{ page.date | date: "%Y" }}/{{ page.coverImage }}" alt="{{ page.title }}"></div>
     {% endif %}
-    <div class="post-tags">
-      {% if post %}
-        {% assign categories = post.categories %}
-      {% else %}
-        {% assign categories = page.categories %}
-      {% endif %}
-      {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-        {% unless forloop.last %}&nbsp;{% endunless %}
-      {% endfor %}
-    </div>
-  </div>
-    
-  <div class="entry">
+
+    <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
+
+    {% if page.series %}
+        {% include series.html %}
+    {% endif %}
+
     {{ content }}
-  </div>
+</div>
 
-  <div>
-    <p><span class="share-box">Share:</span> <a href="http://twitter.com/share?text={{ page.title }}&url={{site.url}}{{page.url}}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}" target="_blank">Facebook</a></p>
-  </div>
+<div class="tags">
+    {% for tag in page.tags %}
+      {% include tag.html tag=tag %}
+    {% endfor %}
+</div>
 
-  <!--<div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>-->
+{% unless site.hide_share_buttons %}
+{% include share-buttons.html %}
+{% endunless %}
 
+{% if site.disqus.shortname %}
   {% include disqus.html %}
-</article>
+{% endif %}

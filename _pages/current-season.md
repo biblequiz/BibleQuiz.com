@@ -3,6 +3,8 @@ layout: page
 permalink: /current-season/
 title: "Current Season"
 date: "2016-05-01"
+menubar: menu_current_season
+menubar_ads: ads_simple
 ---
 
 Use the menu to find information on the 2022-2023 Bible Quiz season covering I & II Thessalonians, I & II Timothy, Titus, and I, II, and III John.

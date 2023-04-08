@@ -22,7 +22,7 @@ Because of the way BibleQuiz.com has been maintained over the years, every page 
 
 ### A New Home for the Current Season
 
-Grand Central brought all of Nationals to one place. Now enjoy [Current Season]({% link _pages/index.md %}), a section of BibleQuiz.com bringing all of the current quiz year to one unified location.
+Grand Central brought all of Nationals to one place. Now enjoy [Current Season]({% link index.md %}), a section of BibleQuiz.com bringing all of the current quiz year to one unified location.
 
 Need to find questions for your team? Curious what's been happening at tournaments around the country? Can't remember what material the next league meet will cover? It's all at [BibleQuiz.com/currentseason]({% link _pages/current-season.md %}).
 

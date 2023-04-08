@@ -3,6 +3,8 @@ layout: page
 permalink: /questions/
 title: "Questions"
 date: "2016-05-01"
+menubar: menu_current_season
+menubar_ads: ads_simple
 ---
 
 ## Application Questions - Free

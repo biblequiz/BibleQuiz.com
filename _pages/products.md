@@ -3,6 +3,8 @@ layout: page
 permalink: /products/
 title: "Products"
 date: "2016-05-02"
+menubar: menu_current_season
+menubar_ads: ads_simple
 ---
 
 ## Question-Pro/Writer

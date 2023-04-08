@@ -3,85 +3,83 @@ layout: page
 permalink: /downloads/
 title: "Downloads & Forms"
 date: "2016-05-02"
-coverImage: "laptop.jpeg"
+menubar: menu_current_season
+menubar_ads: ads_simple
 ---
 
-**XP5 Starter Kit**  
-Single page scripture portion for first meet over 1Thessalonians 1-2. Feel free to edit and make it your own.
+### XP5 Starter Kit
+Single page scripture portion for first meet over 1 Thessalonians 1-2. Feel free to edit and make it your own.
 
-[Download]({% link assets/2022/22-23_Starter.docx %})
+<a href="{% link assets/2022/22-23_Starter.docx %}" class="button is-primary">Download XP5 Starter Kit</a>
 
-**Bible Quiz Cheat Sheet**  
+### Bible Quiz Cheat Sheet
 The fastest way to learn about Bible Quiz!
 
-[Download]({% link assets/2021/BQ-Cheat-Sheet.pdf %})
+<a href="{% link assets/2021/BQ-Cheat-Sheet.pdf %}" class="button is-primary">Download Cheat Sheet</a>
 
-## Rules & Guidelines
-**Official Rules**  
+# Rules & Guidelines
+### Official Rules
 For use in all Bible Quiz matches, all year long.
 
-[Download]({% link assets/2022/22-23-BQ-Rules.pdf %})
+<a href="{% link assets/2022/22-23-BQ-Rules.pdf %}" class="button is-primary">Download Official Rules</a>
 
-**Simplified Rules**  
+### Simplified Rules
 Only 10 pages long, these rules are great for getting started in Bible Quiz! All rules from the full set of Official Rules above are still in effect.
 
-[Download](https://youth.ag.org/-/media/Youth/Ministries/BQ-Content/Final-Simplified-Rules.pdf?la=en)
+<a href="https://youth.ag.org/-/media/Youth/Ministries/BQ-Content/Final-Simplified-Rules.pdf?la=en" class="button is-primary">Download Simplified Rules</a>
 
-**XP5 Division Rules**  
+### XP5 Division Rules
 A few minor rule changes for XP5 competitions. All rules from the full set of Official Rules above are still in effect.
 
-[Download]({% link assets/2022/XP5-Division-Rules-2022-2023.pdf %})
+<a href="{% link assets/2022/XP5-Division-Rules-2022-2023.pdf %}" class="button is-primary">Download XP5 Division Rules</a>
 
 * * *
 
-## Award Guidelines and Forms
-**Memorization Award**  
+# Award Guidelines and Forms
+### Memorization Award
 All of the material must be quoted one chapter at at time and in one sitting, with four mistakes or fewer. No time limit!
 
-**Master Memorization Award**  
+<a href="{% link assets/2022/22-23-Memorization-Award-Guidelines.pdf %}" class="button is-primary">Memorization Award Guidelines</a>
+
+### Master Memorization Award
 All of the material must be quoted consecutively in one sitting, within 45 minutes, with 5 mistakes or fewer
 
-[Memorization Award Guidelines]({% link assets/2022/22-23-Memorization-Award-Guidelines.pdf %})
+<a href="{% link assets/2022/22-23-Master-Memorization-Guidelines.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
+<a href="{% link assets/2022/22-23-Memorization-Award-Form.pdf %}" class="button is-primary">Memorization Award Form</a>
 
-[Master Memorization Award Guidelines]({% link assets/2022/22-23-Master-Memorization-Guidelines.pdf %})
-
-[Memorization Award Form]({% link assets/2022/22-23-Memorization-Award-Form.pdf %})
-
-**Discipleship Award**  
-
-[Award Form]({% link assets/2022/DiscipleshipAward.pdf %})
+### Discipleship Award
+<a href="{% link assets/2022/DiscipleshipAward.pdf %}" class="button is-primary">Award Form</a>
 
 * * *
 
-## Scoresheets
-
-**Paper Scoresheet**  
+# Scoresheets
+### Paper Scoresheet
 The tested-and-true paper scoresheet has been a classic in Bible Quiz for decades.
 
-[Download]({% link assets/2016/free-paper-scoresheet.pdf %})
+<a href="{% link assets/2016/free-paper-scoresheet.pdf %}" class="button is-primary">Download Scoresheet</a>
 
-**Excel Scoresheet**  
+### Excel Scoresheet
 A free spreadsheet for tracking scores in a match.
 
-[Download]({% link assets/2016/free-excel-scoresheet-v34.xls %})
+<a href="{% link assets/2016/free-excel-scoresheet-v34.xls %}" class="button is-primary">Download Excel File</a>
 
 * * *
 
 ## Graphics
 ![]({% link assets/pages/TsJs.jpeg %})
 
-### Artwork
-[Download]({% link assets/pages/TsJs.jpeg %})
+### Scripture Portion Artwork
+![]({% link assets/pages/22-23-TsJs-Banner-1024x128.png %}
 
-![]({% link assets/pages/22-23-TsJs-Banner-1024x128.png %})
+<a href="{% link assets/pages/TsJs.jpeg %}" class="button is-primary">Download Scripture Portion Artwork</a>
 
 ### Banner
-[Download]({% link assets/pages/TsJs.jpeg %})
+<a href="{% link assets/pages/TsJs.jpeg %}" class="button is-primary">Download</a>
 
 ![Bible Quiz Logo]({% link assets/pages/biblequizlogo-805x1024.jpg %})
 
 ### Bible Quiz Logo
-[Download]({% link assets/pages/biblequizlogo-805x1024.jpg %})
+<a href="{% link assets/pages/biblequizlogo-805x1024.jpg %}" class="button is-primary">Download</a>
 
 * * *
 
@@ -89,14 +87,14 @@ A free spreadsheet for tracking scores in a match.
 ![]({% link assets/pages/15-minutes-a-day-1024x576.jpg %})
 
 ### Promo: 15 Minutes a Day
-[Download](https://drive.google.com/file/d/1HqJsgHlyLT-G-0Ir32BzjMNs4AgjewtC/view?usp=sharing)
+<a href="https://drive.google.com/file/d/1HqJsgHlyLT-G-0Ir32BzjMNs4AgjewtC/view?usp=sharing" class="button is-primary">Download</a>
 
 ![]({% link assets/pages/palm-of-your-hand-1024x576.jpg %})
 
 ### Promo: Palm of Your Hand
-[Download](https://drive.google.com/file/d/17Lg2J1CBuL66NuzUrwJCX2vSLZ2LbNDX/view?usp=sharing)
+<a href="https://drive.google.com/file/d/17Lg2J1CBuL66NuzUrwJCX2vSLZ2LbNDX/view?usp=sharing" class="button is-primary">Download</a>
 
 ![]({% link assets/pages/promo-therefore-i-run-1024x590.jpg %})
 
 ### Promo: Therefore I Run
-[Download](https://drive.google.com/open?id=1uU3XdXI2CAroXMdkgUNeHIbNQM5JbFk8)
+<a href="https://drive.google.com/open?id=1uU3XdXI2CAroXMdkgUNeHIbNQM5JbFk8" class="button is-primary">Download</a>

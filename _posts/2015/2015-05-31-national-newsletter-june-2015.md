@@ -146,7 +146,7 @@ _**2016 River Classic**_ James River A/G, Ozark, MO, March 4-5, 2016 A League: a
     - Steve Kirkman: www.quizequipment.com
 - Need to find other BQ information?
     - [biblequiz.ag.org](http://www.biblequiz.ag.org)
-    - [biblequiz.com]({% link _pages/index.md %})
+    - [biblequiz.com]({% link index.md %})
 - Need to some BQ promo videos for church or youth group? {% link _pages/blog.md %} QUOTABLES"In the end, it's not the years in your life that count, it's the life in your years.” –Unknown “The habit of persistence is the habit of victory.” –Herbert Kaufman “To be faithful in little things is the big thing.” –Unknown
     
     ## PASTOR BERNIE'S LAST WORD

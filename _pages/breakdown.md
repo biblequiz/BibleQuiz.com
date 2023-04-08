@@ -3,20 +3,26 @@ layout: page
 permalink: /breakdown/
 title: "Material Breakdown"
 date: "2016-05-01"
+menubar: menu_current_season
+menubar_ads: ads_simple
 ---
 
 League Meet breakdown for the 2022-23 Bible Quiz season.
 
-<table><tbody><tr><td><strong>Meet</strong></td><td><strong>Championship (formerly A)</strong></td><td><strong>Contender (formerly MSQ)</strong></td><td><strong>Experience (XP5</strong>)</td></tr><tr><td>League Meet 1</td><td>I &amp; II Thess.</td><td>I &amp; II Thess.</td><td>I Thess. 1-2</td></tr><tr><td>League Meet 2</td><td>I Tim. 1 - II Tim 1</td><td>I Timothy</td><td>I Thess. 3-4</td></tr><tr><td>League Meet 3</td><td>II Tim. 2 - Titus 3</td><td>II Timothy</td><td>I Thess. 5</td></tr><tr><td>League Meet 4</td><td>I, II, III John</td><td>Titus</td><td>II Tim. 2</td></tr><tr><td>TOTAL</td><td>511 verses</td><td>378 verses</td><td>115 verses</td></tr></tbody></table>
+| **Meet**      | **Championship (formerly A)** | **Contender (formerly MSQ)** | **Experience (XP5)** |
+|---------------|-------------------------------|------------------------------|----------------------|
+| League Meet 1 | I & II Thess.                 | I & II Thess.                | I Thess. 1-2         |
+| League Meet 2 | I Tim. 1 - II Tim 1           | I Timothy                    | I Thess. 3-4         |
+| League Meet 3 | II Tim. 2 - Titus 3           | II Timothy                   | I Thess. 5           |
+| League Meet 4 | I, II, III John               | Titus                        | II Tim. 2            |
+| **TOTAL**	    | **511 verses**                | **378 verses**               | **115 verses**       |
 
 For the Championship and Contender divisions at League Meets 2-4, five questions each set will be from material at previous League Meets.
 
 ## WRITER'S TIPS & BREAKDOWN
 
 ### Championship written by Joshua Forsman and Joshua Gallo
-
 **General**
-
 - Generally, questions will be easy to interrupt except Scripture-text Questions, but these will be interruptible before the quote in many cases. All questions will be predictable to finish.
 - Knowing unique words, chapter analysis by section, chapter, and book, and “if” conditional statements will be valuable for teams.
 - Application Questions will be used for Leagues 1 – 4 only
@@ -24,12 +30,10 @@ For the Championship and Contender divisions at League Meets 2-4, five questions
 - Locators will broaden towards regionals/nationals
 
 **10-point Questions**
-
 - The difficulty will be very similar for all levels
 - Generally, answers will come from a single verse and be no longer than 7 words
 
 **20-point Questions**
-
 - Leagues: These questions will typically be 8 words or more and will come from a single verse. It will be important to know verse references and chapter analysis. Questions will come from sections more so than chapters.
 - League finals: The difficulty will increase slightly from leagues. Statement and Essence/Quotation questions will be introduced.
 - Districts: Question difficulty will increase significantly, with questions coming from 2 verses on average. Chapter analysis will be used in greater capacity and basic concordance will be introduced.
@@ -37,7 +41,6 @@ For the Championship and Contender divisions at League Meets 2-4, five questions
 - Nationals: Mastery of the material will be required. Questions will cover 1 – 5 verses, along with knowing chapter analysis over all the material. Concordance questions will all need to be studied beforehand.
 
 **30-point Questions**
-
 - Leagues: These questions will come from a single verse but answers will be longer than 20-point questions. It will be important to know verse references and chapter analysis. Questions will come from chapters more so than sections.
 - League finals: The difficulty will increase slightly, with locators becoming less used. Knowing section analysis will give quizzers an advantage. Statement and Essence/Quotation questions will be introduced.
 - Districts: Question difficulty will increase significantly, with questions coming from 3 verses on average. Chapter analysis will be used in greater capacity and basic concordance will be introduced.
@@ -45,7 +48,6 @@ For the Championship and Contender divisions at League Meets 2-4, five questions
 - Nationals: Mastery of the material will be required. Questions will cover 4 – 7 verses, along with knowing chapter analysis over all the material. Concordance questions will all need to be studied beforehand.
 
 ### Contender/XP5 written by Heather Cox
-
 **General Style**  
 I like to make quizzers think about the meaning of the text. Pay close attention to the “whys” of Paul’s arguments. While all questions will be solely based on the text itself, taking the time to study and truly understand each chapter will prove beneficial for many questions, especially ones that require quizzers to think “backwards.” Also expect “standard” questions that do not require as much analytical thinking. The best tool for understanding what to expect will be the Contender Study Questions. Scripture Text Questions and blind questions should be interrupted cautiously.
 
@@ -59,7 +61,6 @@ Expect the difficulty of 20- and 30-point questions to increase. 30-point questi
 Expect Regional 20-point questions to be similar to 30-point questions at District Finals. 30-point questions will span up to 3 consecutive verses (or longer if verse length is small) and may require larger chapter analysis lists, giving sections, and “of”-type concordance answers.
 
 **STRUCTURE OF XP5**
-
 - 10 Contender Study Questions, all within the first 12 questions
 - No review questions (all questions come from current meet’s material)
 - The first 12 questions should be paired by point value since the teams will alternate answering. There should be two 10s in a row, then two 20s, then two 10s, etc.

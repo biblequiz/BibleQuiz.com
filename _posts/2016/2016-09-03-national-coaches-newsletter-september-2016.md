@@ -17,4 +17,4 @@ September is (already) here, which means it's time for another edition of the Na
 
  
 
-Start planning what tournaments you need to attend by visiting the [Competitions]({% link _pages/events.md %}) page on BibleQuiz.com.
+Start planning what tournaments you need to attend by visiting the [Competitions]({% link _pages/events/index.md %}) page on BibleQuiz.com.

@@ -45,7 +45,7 @@ It's the easy way to stay up-to-date with schedule changes, see results from mee
 
 ![]({{ site.baseurl }}/assets/pages/Champ-Match-1024x444.jpg)
 
-### [Find Competitions]({% link _pages/events.md %})
+### [Find Competitions]({% link _pages/events/index.md %})
 
 Take your team to a tournament and event [register online](https://registration.biblequiz.com/)
 
