@@ -7,7 +7,7 @@ lang: en
 
 # Pagination
 paginate: 6
-paginate_path: "/blog/page/:num"
+paginate_path: "/blog/:num"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /favicon.png
