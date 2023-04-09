@@ -1,16 +1,20 @@
 ---
 layout: page
 permalink: /history/2015-season/
-title: "2015 Season"
+title: "2015 Season - Romans & James"
 date: "2020-02-11"
+menubar: menu_history
 ---
 
-## Romans & James
+## Nationals
 
-[National Finals]({% link _pages/history/2015/2015-nationals.md %})
+<a href="{% link _pages/history/2015/2015-nationals.md %}" class="button is-primary">National Finals</a>
 
-Tournaments
+## Tournaments
+If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
 
-District Finals
+## District Finals
+If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
 
-Regional Finals
+## Regional Finals
+If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).

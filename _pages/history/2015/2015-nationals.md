@@ -3,25 +3,27 @@ layout: page
 permalink: /history/2015-season/2015-nationals/
 title: "2015 Nationals"
 date: "2020-02-11"
+toc_title: Results
+menubar_toc: true
 ---
 
 Championship Division
 
-## Team Results
+## Teams
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
-## Individual Results
+## Individuals
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 Challenger Results
 
-## Team Results
+## Teams
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
-## Individual Results
+## Individuals
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
@@ -29,66 +31,70 @@ Preliminary Results
 
 ## Group A
 
-### Team Results
+### Teams
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
-### Individual Results
+### Individuals
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ## Group B
 
-### Team Results
+### Teams
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
-### Individual Results
+### Individuals
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ## Group C
 
-### Team Results
+### Teams
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
-### Individual Results
+### Individuals
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ## Group D
 
-### Team Results
+### Teams
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
-### Individual Results
+### Individuals
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ## Group E
 
-### Team Results
+### Teams
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
-### Individual Results
+### Individuals
 
 <table class=""><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
-Special Events
+## Special Events
 
-## Individual Tournament
+### Individual Tournament
 
-## Quoting Bee
+If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
 
-Advanced Results
+### Quoting Bee
 
-## Round-by-Round Stats
+If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+
+## Advanced Results
+
+### Round-by-Round Stats
 
 Coming soon
 
-## Team Schedules
+### Team Schedules
 
 Coming soon
