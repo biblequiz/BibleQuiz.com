@@ -11,7 +11,7 @@ published: true
 
 Here is the February 2018 edition of the National Bible Quiz Newsletter.
 
-\[btn icon="kt-icon-cloud-download" text=" Download Now" link="{% link assets/2018/Feb-2018.pdf %}" tcolor="#ffffff" bcolor="#2f865c" thovercolor="#ffffff" bhovercolor="#004403"\]
+<a href="{% link assets/2018/Feb-2018.pdf %}" class="button is-primary">Download Now</a>
 
 You can quickly subscribe to the National Bible Quiz Newsletter by visiting [BibleQuiz.com/subscribe]({% link _pages/subscribe.md %}).
 

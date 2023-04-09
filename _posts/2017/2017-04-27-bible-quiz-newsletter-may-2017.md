@@ -11,7 +11,7 @@ published: true
 
 Here is the May 2017 edition of the National Bible Quiz Newsletter.
 
-\[btn icon="kt-icon-cloud-download" text=" Download Now" link="{% link assets/2017/May-2017.pdf %}" tcolor="#ffffff" bcolor="#2f865c" thovercolor="#ffffff" bhovercolor="#004403"\]
+<a href="{% link assets/2017/May-2017.pdf %}" class="button is-primary">Download Now</a>
 
 Please note the **Last Word** section:
 

@@ -4,11 +4,10 @@ layout: default
 
 <div class="content">
     <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
-
-    {% if page.coverImage %}
-    <div><img src="{{ site.baseurl }}/assets/{{ page.date | date: "%Y" }}/{{ page.coverImage }}" alt="{{ page.title }}"></div>
+    {% if page.image %}
+    <div><img src="{{ site.baseurl }}/assets/{{ page.date | date: "%Y" }}/{{ page.image }}" alt="{{ page.title }}"></div>
     {% endif %}
-
+        
     {% if page.series %}
         {% include series.html %}
     {% endif %}

@@ -13,7 +13,7 @@ September is (already) here, which means it's time for another edition of the Na
 
  
 
-\[btn icon="kt-icon-cloud-download" text=" Download Now" link="{% link assets/2016/Sept.pdf %}" tcolor="#ffffff" bcolor="#2f865c" thovercolor="#ffffff" bhovercolor="#004403"\]
+<a href="{% link assets/2016/Sept.pdf %}" class="button is-primary">Download Now</a>
 
  
 
