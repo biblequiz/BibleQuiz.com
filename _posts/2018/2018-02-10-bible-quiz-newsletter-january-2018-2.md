@@ -5,7 +5,7 @@ author: BibleQuiz.com Admin
 date: "2018-02-10"
 categories: 
   - "newsletter"
-coverImage: "olympic.jpg"
+image: "olympic.jpg"
 published: true
 ---
 

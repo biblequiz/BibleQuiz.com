@@ -5,7 +5,7 @@ author: James Lex
 date: "2017-12-06"
 categories: 
   - "newsletter"
-coverImage: "decmber.jpg"
+image: "decmber.jpg"
 published: true
 ---
 

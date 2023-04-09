@@ -5,7 +5,7 @@ author: James Lex
 date: "2017-02-06"
 categories: 
   - "newsletter"
-coverImage: "rose-invitation-coupon-pink.jpg"
+image: "rose-invitation-coupon-pink.jpg"
 published: true
 ---
 

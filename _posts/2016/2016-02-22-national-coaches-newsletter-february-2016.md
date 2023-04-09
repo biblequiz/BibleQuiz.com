@@ -5,7 +5,7 @@ author: James Lex
 date: "2016-02-22"
 categories: 
   - "newsletter"
-coverImage: "sunset-hands-love-woman-large.jpg"
+image: "sunset-hands-love-woman-large.jpg"
 published: true
 ---
 

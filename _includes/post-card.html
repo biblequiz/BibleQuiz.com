@@ -1,7 +1,10 @@
 <div class="card">
     {% if post.image %}
-    <div class="card-image">
-        <img src="{{ site.baseurl }}/assets/{{ post.date | date: "%Y" }}/{{ post.image }}" alt="{{ post.title }}">
+    {{ image_max_height }}
+    <div class="card-image"{% if image_max_height %} style="max-height:{{ image_max_height }}"{% endif %}>
+        <a class="card-header-title" href="{{ site.baseurl }}{{ post.url }}">
+            <img src="{{ site.baseurl }}/assets/{{ post.date | date: "%Y" }}/{{ post.image }}" alt="{{ post.title }}">
+        </a>
     </div>
     {% else %}
     <header class="card-header">

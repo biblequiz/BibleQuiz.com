@@ -5,7 +5,7 @@ author: James Lex
 date: "2018-01-02"
 categories: 
   - "newsletter"
-coverImage: "January.jpg"
+image: "January.jpg"
 published: true
 ---
 

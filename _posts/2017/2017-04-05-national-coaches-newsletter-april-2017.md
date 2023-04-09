@@ -5,7 +5,7 @@ author: James Lex
 date: "2017-04-05"
 categories: 
   - "newsletter"
-coverImage: "Rain.jpeg"
+image: "Rain.jpeg"
 published: true
 ---
 

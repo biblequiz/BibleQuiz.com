@@ -63,6 +63,7 @@ defaults:
     type: "posts"
   values:
     hero_height: is-small
+    image_max_height: 500px
 
 # Set the Sass partials directory, as we're using @imports
 sass:

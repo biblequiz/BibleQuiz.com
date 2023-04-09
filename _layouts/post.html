@@ -5,7 +5,8 @@ layout: default
 <div class="content">
     <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
     {% if page.image %}
-    <div><img src="{{ site.baseurl }}/assets/{{ page.date | date: "%Y" }}/{{ page.image }}" alt="{{ page.title }}"></div>
+    {{ image_max_height }}
+    <div><img src="{{ site.baseurl }}/assets/{{ page.date | date: "%Y" }}/{{ page.image }}" alt="{{ page.title }}"{% if image_max_height %} style="max-height:{{ image_max_height }}"{% endif %}></div>
     {% endif %}
         
     {% if page.series %}

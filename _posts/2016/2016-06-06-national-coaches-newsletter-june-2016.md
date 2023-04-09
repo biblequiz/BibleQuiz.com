@@ -6,7 +6,7 @@ date: "2016-06-06"
 categories: 
   - "nationals"
   - "newsletter"
-coverImage: "dock.jpg"
+image: "dock.jpg"
 published: true
 ---
 

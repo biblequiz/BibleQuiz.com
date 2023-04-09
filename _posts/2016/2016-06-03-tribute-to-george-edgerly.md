@@ -5,7 +5,7 @@ author: James Lex
 date: "2016-06-03"
 categories: 
   - "general"
-coverImage: "george-edgerly.jpg"
+image: "george-edgerly.jpg"
 published: true
 ---
 

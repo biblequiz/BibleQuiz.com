@@ -5,7 +5,7 @@ author: Larry Mullins
 date: "2022-10-04"
 categories: 
   - "newsletter"
-coverImage: "BQ-Newsletter-Graphics_Page_05-scaled.jpg"
+image: "BQ-Newsletter-Graphics_Page_05-scaled.jpg"
 published: true
 ---
 

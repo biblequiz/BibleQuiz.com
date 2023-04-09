@@ -5,7 +5,7 @@ author: Jamex Lex
 date: "2018-05-31"
 categories: 
   - "newsletter"
-coverImage: "Banner.jpg"
+image: "Banner-848x221.jpg"
 published: true
 ---
 

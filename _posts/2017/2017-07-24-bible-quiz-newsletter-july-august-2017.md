@@ -6,7 +6,7 @@ date: "2017-07-24"
 categories: 
   - "nationals"
   - "newsletter"
-coverImage: "Screen-Shot-2017-07-24-at-7.12.19-AM.png"
+image: "Screen-Shot-2017-07-24-at-7.12.19-AM.png"
 published: true
 ---
 

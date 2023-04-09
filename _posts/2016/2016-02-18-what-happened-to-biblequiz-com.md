@@ -5,7 +5,7 @@ author: James Lex
 date: "2016-02-18"
 categories: 
   - "site-updates"
-coverImage: "motherboard.jpg"
+image: "motherboard.jpg"
 published: true
 ---
 

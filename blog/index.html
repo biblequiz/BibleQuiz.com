@@ -9,7 +9,8 @@ title: Blog
     </div>
     {% for post in paginator.posts %}
     <div class="column is-12">
-        {% include post-card.html %}
+        {% include post-card.html
+                   image_max_height="400px" %}
     </div>
     {% endfor %}
     <div class="column is-12">

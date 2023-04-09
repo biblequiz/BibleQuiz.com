@@ -5,7 +5,7 @@ author: James Lex
 date: "2017-07-26"
 categories: 
   - "general"
-coverImage: "dallas-texas-skyline-dusk-45182.jpg"
+image: "dallas-texas-skyline-dusk-45182.jpg"
 published: true
 ---
 

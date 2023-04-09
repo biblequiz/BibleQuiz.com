@@ -6,4 +6,4 @@ date: "2021-06-29"
 published: true
 ---
 
-[Round-robin schedule]({% link assets/2021/2021schedule.pdf %}) [Download]({% link assets/2021/2021schedule.pdf %})
+<a href="{% link assets/2021/2021schedule.pdf %}" class="button is-primary">Download Round-robin schedule&nbsp;<i class="fas fa-download"></i></a>

@@ -6,7 +6,7 @@ date: "2016-07-16"
 categories: 
   - "nationals"
   - "newsletter"
-coverImage: "New-Day-web.jpg"
+image: "New-Day-web.jpg"
 published: true
 ---
 

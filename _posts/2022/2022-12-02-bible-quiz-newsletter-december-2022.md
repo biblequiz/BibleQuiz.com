@@ -5,7 +5,7 @@ author: BibleQuiz.com Admin
 date: "2022-12-02"
 categories: 
   - "newsletter"
-coverImage: "BQ-Newsletter-Graphics_Page_09-scaled.jpg"
+image: "BQ-Newsletter-Graphics_Page_09-scaled.jpg"
 published: true
 ---
 
