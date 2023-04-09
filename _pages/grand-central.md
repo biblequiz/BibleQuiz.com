@@ -3,7 +3,6 @@ layout: page
 permalink: /grand-central/
 title: "Nationals Grand Central"
 date: "2016-05-02"
-coverImage: "pexels-chicago.jpg"
 ---
 
 \[siteorigin\_widget class="kad\_imgmenu\_widget"\]\[/siteorigin\_widget\]

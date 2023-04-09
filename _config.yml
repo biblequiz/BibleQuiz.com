@@ -58,6 +58,11 @@ defaults:
     type: "pages"
   values:
     hero_height: is-small
+- scope:
+    path: ""
+    type: "posts"
+  values:
+    hero_height: is-small
 
 # Set the Sass partials directory, as we're using @imports
 sass:

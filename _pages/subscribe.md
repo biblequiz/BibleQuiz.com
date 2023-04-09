@@ -3,7 +3,6 @@ layout: page
 permalink: /subscribe/
 title: "Subscribe"
 date: "2016-08-19"
-coverImage: "blog-1.jpg"
 ---
 
 Official newsletter from BibleQuiz.AG.org

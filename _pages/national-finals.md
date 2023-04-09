@@ -3,10 +3,11 @@ layout: page
 permalink: /national-finals/
 title: "2023 National Finals"
 date: "2022-04-14"
-coverImage: st-louis-renaissance-hotel.jpg
 ---
 
 ## Renaissance St. Louis Airport Hotel
+
+![]({% link assets/pages/st-louis-renaissance-hotel.jpg %})
 
 July 1-7, 2023
 

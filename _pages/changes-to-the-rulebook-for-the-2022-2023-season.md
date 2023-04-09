@@ -3,7 +3,6 @@ layout: page
 permalink: /changes-to-the-rulebook-for-the-2022-2023-season/
 title: "Changes to the Rulebook for the 2022-2023 Season"
 date: "2021-12-23"
-coverImage: "pexels-markus-winkler-4052195-scaled.jpg"
 ---
 
 > The following changes will be in effect starting with the 2022-2023 season over I & II Thessalonians, I & II Timothy, Titus, and I, II, & III John.
