@@ -17,11 +17,14 @@ Use the menu to find information on the 2022-2023 Bible Quiz season covering I &
 2. Please note Crete in Titus 1:5 is not in “Italics”- It should be. It is listed as such in the CA, and the new Entire CA. It also italicized in vs 12.
 
 
-## Updated Rulebook
+## Updated Rules
 
-<a href="{% link assets/2022/22-23-BQ-Rules.pdf %}" class="button is-primary">Download Rulebook</a>
+<a href="{% link _pages/contesting-changes %}" class="button is-primary">Changes to Contesting Procedures</a>
 
-<a href="{% link _pages/changes-to-the-rulebook-for-the-2022-2023-season.md %}" class="button is-primary">Explanation of Rule Changes</a>
+<a href="{% link _pages/changes-to-the-rulebook-for-the-2022-2023-season.md %}" class="button is-primary">Changes to Introductory Remarks</a>
+
+<a href="{% link assets/2022/22-23-BQ-Rules.pdf %}" class="button is-primary">Download Rules</a>
+
 
 ## National Finals
 
