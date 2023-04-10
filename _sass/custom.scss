@@ -2,7 +2,14 @@ a {
 	color: #0a6665;
 }
 
-a:hover,
+a:hover {
+	color: #044948;
+}
+
+a:visited {
+	color: #0d9795;
+}
+
 .menu-list a.is-active,
 .tabs.is-toggle li.is-active a {
 	color: #ffffff;
