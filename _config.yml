@@ -85,6 +85,7 @@ plugins:
 
 # Exclude these files from your production _site
 exclude:
+  - docs
   - Gemfile
   - Gemfile.lock
   - LICENSE
