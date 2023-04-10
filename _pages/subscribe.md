@@ -15,4 +15,4 @@ Highly recommended! The official AG Bible Quiz newsletter keeps you up-to-date o
 
 Get the blog delivered straight to your inbox, as well as other great content and news from BibleQuiz.com!
 
-{% include subscribe-newsletter.html %}
+<a href="http://eepurl.com/boQolv" class="button is-primary">Sign up for updates to the BibleQuiz.com Blog</a>
