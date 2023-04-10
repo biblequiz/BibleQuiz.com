@@ -3,6 +3,8 @@ layout: page
 permalink: /results/
 title: "Results"
 date: "2016-05-02"
+menubar: menu_current_season
+menubar_ads: ads_simple
 ---
 
 ## Tournaments
