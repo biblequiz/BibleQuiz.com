@@ -74,20 +74,4 @@ So there you have it! We've hopefully simplified a confusing introductory remark
 
 * * *
 
-Download Rules
-
-[Download 2022-2023 Rules]({% link assets/2022/22-23-BQ-Rules.pdf %})
-
-NOTE: These rules are for the 2022-2023 season. If you're looking for the 2021-2022 rules for the Gospel of Matthew, [go here]({% link assets/2021/21-22-Bible-Quiz-Rules.pdf %}).
-
-Further explanation
-
-For a list of example questions rewritten to match the new rules, go here
-
-[Example Questions]({% link _pages/question-examples-under-proposed-rule-changes.md %})
-
-Have questions?
-
-If you have questions about the changes, please feel free to ask a question in the Facebook group.
-
-[Join the AG Bible Quiz Community](https://www.facebook.com/groups/agbiblequiz)
+{% include 2022-rules.md %}
