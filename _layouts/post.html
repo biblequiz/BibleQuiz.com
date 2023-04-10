@@ -5,7 +5,6 @@ layout: default
 <div class="content">
     <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
     {% if page.image %}
-    {{ page.image_max_height }}
     <div><img src="{{ site.baseurl }}/assets/{{ page.date | date: "%Y" }}/{{ page.image }}" alt="{{ page.title }}"{% if page.image_max_height %} style="max-height:{{ page.image_max_height }}"{% endif %}></div>
     {% endif %}
         
@@ -20,7 +19,20 @@ layout: default
     {% for tag in page.tags %}
       {% include tag.html tag=tag %}
     {% endfor %}
-</div>
+
+    {% if post %}
+      {% assign categories = post.categories %}
+    {% else %}
+      {% assign categories = page.categories %}
+    {% endif %}
+    {% if categories %}
+    <i class="fas fa-inbox"></i>&nbsp;
+    {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
+    {% endif %}
+  </div>
 
 {% unless site.hide_share_buttons %}
 {% include share-buttons.html %}

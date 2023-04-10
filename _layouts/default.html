@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{% if page.menubar or page.menubar_ads or page.menubar_toc %}
+{% if page.menubar or page.menubar_ads or page.menubar_toc or page.menubar_subscribe or page.menubar_categories %}
 {% assign has_left_sidebar = true %}
 {% endif %}
 
@@ -30,9 +30,25 @@
                     {% assign contentsTitle = page.toc_title | default: 'Contents' %}
                     {% include toc.html html=content class='menu-list' h_min=2 h_max=3 contents_title=contentsTitle %}
                 </div>
-                {% elsif page.menubar or page.menubar_ads %}
+                {% elsif page.menubar or page.menubar_ads or page.menubar_subscribe or page.menubar_categories %}
                 <div class="column is-4-desktop is-4-tablet">
+                    {% if page.menubar_subscribe %}
+                    {% include subscribe-newsletter.html %}
+                    {% endif %}
+                    {% if page.menubar_categories %}
+                    <aside class="menu"{% if page.menubar_subscribe or page.menubar or page.menubar_ads %} style="{% if page.menubar_subscribe %}margin-top:30px;{% endif %}{% if page.menubar or page.menubar_ads %}margin-bottom:30px;{% endif %}"{% endif %}>
+                        <p class="menu-label">Categories</p>
+                        <ul class="menu-list">
+                            {% for category in site.categories %}
+                            {% capture category_name %}{{ category | first }}{% endcapture %}
+                            <li><a href="{% link _pages/categories.md %}#{{ category_name | slugize }}">{{ category_name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </aside>
+                    {% endif %}
+                    {% if page.menubar or page.menubar_ads %}
                     {% include menubar.html %}
+                    {% endif %}
                 </div>
                 {% endif %}
                 <div class="column {{ content_width }}">

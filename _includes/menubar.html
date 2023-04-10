@@ -41,6 +41,9 @@
 {% if ads %}
     <section style="text-align:center;{% if menus %}margin-top:30px{% endif %}">
     {% for item in ads %}
+        {% unless forloop.first %}
+        <div style="margin-top:30px">
+        {% endunless %}
         <a href="{{ item.link | relative_url }}">
             {% if item.image %}
             <img src="{{ item.image | relative_url }}"{% if item.width %} width="{{ item.width }}"{% endif %}{% if item.height %} height="{{ item.height }}"{% endif %}/>
@@ -57,6 +60,7 @@
             </div>
             {% endif %}
         </a>
+        {% unless forloop.first %}</div>{% endunless %}
     {% endfor %}
     </section>
 {% endif %}

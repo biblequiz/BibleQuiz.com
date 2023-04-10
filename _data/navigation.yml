@@ -40,7 +40,7 @@
   icon: fas fa-pencil-alt
   dropdown:
   - name: Newsletter
-    link: /category/newsletter/
+    link: /categories/#newsletter
     icon: far fa-newspaper
   - name: Blog
     link: /blog/
@@ -48,3 +48,6 @@
   - name: Subscribe
     link: /subscribe/
     icon: fas fa-mail-bulk
+- name: Search
+  link: /search/
+  icon: fas fa-search

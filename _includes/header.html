@@ -37,7 +37,12 @@
                         </div>
                     </div>
                     {% else %}
-                    <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
+                    <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">
+                        {% if item.icon %}
+                        <i class="{{ item.icon }}"></i>&nbsp;
+                        {% endif %}
+                        {{ item.name }}
+                    </a>
                     {% endif %}
                 {% endfor %}
             </div>
