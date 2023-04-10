@@ -17,7 +17,7 @@ Create a branch with all of your changes and submit a Pull Request for the `Bibl
 2. **Direct Changes**\
 Add or Update a file in the appropriate path and commit it directly to `main`.
 
-*If the command line is unfamiliar/too daunting, use the [free GitHub Desktop app](https://desktop.github.com/).*
+*If the command line is unfamiliar or too daunting, use the [free GitHub Desktop app](https://desktop.github.com/).*
 
 Regardless of the method chosen, please ensure the commit messages are meaningful for the changes being made. This will help future users to understand why something was added or changed.
 
