@@ -3,7 +3,8 @@ a {
 }
 
 a:hover,
-.menu-list a.is-active {
+.menu-list a.is-active,
+.tabs.is-toggle li.is-active a {
 	color: #ffffff;
 	background-color: #0a6665;
 }
