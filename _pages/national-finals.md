@@ -5,17 +5,15 @@ title: "2023 National Finals"
 date: "2022-04-14"
 ---
 
-## Renaissance St. Louis Airport Hotel
-
-![]({% link assets/pages/st-louis-renaissance-hotel.jpg %})
+## Date
 
 July 1-7, 2023
 
-We'll be returning to St. Louis, MO for National Finals next year. Rooms will be $99/night, and parking will be free.
+## Venue
 
+![]({% link assets/pages/st-louis-renaissance-hotel.jpg %})
 
-
-[Hotel Website](https://www.marriott.com/en-us/hotels/stlsa-renaissance-st-louis-airport-hotel/overview/)
+We'll be returning to the [Renaissance St. Louis Airport Hotel](https://www.marriott.com/en-us/hotels/stlsa-renaissance-st-louis-airport-hotel/overview/) for National Finals this year. Rooms will be $99/night, and parking will be free.
 
 ---
 
@@ -44,7 +42,7 @@ Changes have been made to the contesting process for Official Competition.
 ---
 
 
-## **SPONSORSHIP & SCHOLARSHIPS OPPORTUNITIES**
+## Sponsorship and Scholarship Opportunities
 
 **SPONSORSHIP**
 
