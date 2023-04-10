@@ -75,7 +75,7 @@ In testing, quizzers picked up on this very quickly, and we have received a lot 
 
 * * *
 
-Download Rules
+### Download Rules
 
 <a href="{% link assets/2022/22-23-BQ-Rules.pdf %}" class="button is-primary">Download 2022-2023 Rules</a>
 
@@ -90,7 +90,7 @@ For more information on why the reference question was removed, go here
 
 <a href="{% link _pages/why-the-reference-question-is-changing.md %}" class="button is-primary">Why the Reference Question is Changing</a>
 
-Have questions?
+### Have questions?
 
 If you have questions about the changes, please feel free to ask a question in the Facebook group.
 
