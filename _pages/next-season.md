@@ -10,6 +10,7 @@ For the 2023-2024 season we will be quizzing over Romans and James.
 This page will be updated as information becomes available.
 
 ## Material Breakdown
+
 | **Meet**      | **Championship (formerly A)** | **Contender (formerly MSQ)** | **Experience (XP5)** |
 |---------------|-------------------------------|------------------------------|----------------------|
 | League Meet 1 | Romans 1-7 (186 vs)           | Romans 1-5 (138 vs)          | Romans 8 (39 vs)     |
