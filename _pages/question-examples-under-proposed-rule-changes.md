@@ -7,17 +7,17 @@ date: "2022-01-17"
 
 To help quizzers, coaches, officials, and question writers understand the latest changes, we have compiled many of the common questions with answers from multiple verses to show the differences. The following examples will feature two questions in a before/after format.
 
-Multiple part question
+## Multiple part question
 
 Here's a before-and-after for a multiple-part question from the same chapter.
 
-**20 points. 2-part reference question. From First Peter chapter 1. 
-**What**** will be revealed, and ****who**** will be revealed?
-\[1P 1:5\]      the salvation that is ready to be revealed in the last time.
+> **20 points. 2-part reference question. From First Peter chapter 1.  
+**What**** will be revealed, and ****who**** will be revealed?  
+\[1P 1:5\]      the salvation that is ready to be revealed in the last time.  
 \[1P 1:13\]    Jesus Christ 
 
-********20 points. 2-part question. From separate verses of First Peter chapter 1.********
-******What****** will be revealed, and ******who****** will be revealed?
+> **20 points. 2-part question. From separate verses of First Peter chapter 1.**  
+**What** will be revealed, and ***who** will be revealed?
 
 * * *
 
@@ -25,7 +25,7 @@ If the introductory remarks specify multiple chapters, you may not hear "From se
 
 ✅ Required to state if the answer will come from consecutive/separate verses\*
 
-Give a complete answer
+## Give a complete answer
 
 - If the answer comes from consecutive verses, the introductory remark will state "From \_\_\_ consecutive verses..."
 - If the answer comes from separate verses, the introductory remark will state "From \_\_\_ separate verses..."
@@ -33,18 +33,18 @@ Give a complete answer
 
 #### From consecutive verses
 
-**20 points. 2-part question. Give a complete answer from 2 consecutive verses. From First Peter chapter 2. 
-**Like newborn babies, what should you do, and why?
+> **20 points. 2-part question. Give a complete answer from 2 consecutive verses. From First Peter chapter 2.**  
+Like newborn babies, what should you do, and why?
 
-**20 points. 2-part question. Give a complete answer.  From 2 consecutive verses of First Peter chapter 2.**
+> **20 points. 2-part question. Give a complete answer.  From 2 consecutive verses of First Peter chapter 2.**  
 Like newborn babies, what should you do, and why?
 
 * * *
 
-**30 points. Give a complete answer from 2 consecutive verses. From Jude.**
+> **30 points. Give a complete answer from 2 consecutive verses. From Jude.**  
 Give all Enoch's words.
 
-**30 points. Give a complete answer. From 2 consecutive verses **of Jude.****
+> **30 points. Give a complete answer. From 2 consecutive verses of Jude.**  
 Give all Enoch's words.
 
 #### From separate verses of the same chapter
