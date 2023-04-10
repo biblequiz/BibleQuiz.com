@@ -9,4 +9,4 @@ date: "2023-04-10"
 
 The back-end system for BibleQuiz.com has migrated off of WordPress to use GitHub Pages, which changes how content is managed.
 
-For more information, [see these docs](https://github.com/biblequiz/).
+For more information, [see these docs](https://github.com/biblequiz/BibleQuiz.com/blob/main/docs/development.md).
