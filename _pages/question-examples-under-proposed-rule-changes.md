@@ -239,7 +239,16 @@ This question remains the same.
 
 ## Summary
 
-<table><tbody><tr><td>Type</td><td>States number of verses</td><td>States consecutive/separate verses</td></tr><tr><td>Give a complete answer</td><td>✅</td><td>✅</td></tr><tr><td>Quotation/Essence (by verse number)</td><td>✅</td><td>✅</td></tr><tr><td>Quotation/Essence (all others)</td><td>⚠️</td><td>✅</td></tr><tr><td>Quotation/Essence Completion</td><td>⚠️&nbsp;</td><td>⚠️&nbsp;</td></tr><tr><td>Chapter analysis answer</td><td>⚠️</td><td>✅&nbsp;</td></tr><tr><td>Others</td><td>⚠️</td><td>✅</td></tr><tr><td>Answer demands books, chapters, or references</td><td>🚫</td><td>🚫</td></tr></tbody></table>
+| Type                                          | States number of verses | States consecutive/separate verses |
+|-----------------------------------------------|-------------------------|------------------------------------|
+| Give a complete answer                        | ✅                       | ✅                                  |
+| Quotation/Essence (by verse number)           | ✅                       | ✅                                  |
+| Quotation/Essence (all others)                | ⚠️                      | ✅                                  |
+| Quotation/Essence Completion                  | ⚠️		                | ⚠️		                         |
+| Chapter analysis answer                       | ⚠️                      | ✅	                            |
+| Others                                        | ⚠️                      | ✅                                  |
+| Answer demands books, chapters, or references | 🚫                      | 🚫                                 |
+
 
 ✅ = Required  
 ⚠️ = Not required, but optional  
