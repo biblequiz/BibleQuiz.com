@@ -17,7 +17,7 @@ Use the menu to find information on the 2022-2023 Bible Quiz season covering I &
 
 ## Updated Rules
 
-<a href="{% link _pages/contesting-changes %}" class="button is-primary">Changes to Contesting Procedures</a>
+<a href="{% link _pages/contesting-changes.md %}" class="button is-primary">Changes to Contesting Procedures</a>
 
 <a href="{% link _pages/changes-to-the-rulebook-for-the-2022-2023-season.md %}" class="button is-primary">Changes to Introductory Remarks</a>
 
@@ -26,6 +26,6 @@ Use the menu to find information on the 2022-2023 Bible Quiz season covering I &
 
 ## National Finals
 
-![St. Louis Reinaissance Hotel]({% link assets/pages/st-louis-renaissance-hotel.jpg %})
+[![St. Louis Reinaissance Hotel]({% link assets/pages/st-louis-renaissance-hotel.jpg %})]({% link _pages/national-finals.md %})
 
 <a href="{% link _pages/national-finals.md %}" class="button is-primary">National Finals Info</a>
