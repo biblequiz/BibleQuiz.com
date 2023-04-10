@@ -11,13 +11,13 @@ To help quizzers, coaches, officials, and question writers understand the latest
 
 Here's a before-and-after for a multiple-part question from the same chapter.
 
-> **20 points. 2-part reference question. From First Peter chapter 1.  
+> **20 points. 2-part reference question. From First Peter chapter 1.**  
 **What** will be revealed, and **who** will be revealed?  
 \[1P 1:5\]      the salvation that is ready to be revealed in the last time.  
 \[1P 1:13\]    Jesus Christ 
 
 > **20 points. 2-part question. From separate verses of First Peter chapter 1.**  
-**What** will be revealed, and ***who** will be revealed?
+**What** will be revealed, and **who** will be revealed?
 
 ---
 
