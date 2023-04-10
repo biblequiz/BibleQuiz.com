@@ -77,7 +77,7 @@ In testing, quizzers picked up on this very quickly, and we have received a lot 
 
 Download Rules
 
-[Download 2022-2023 Rules]({% link assets/2022/22-23-BQ-Rules.pdf %})
+<a href="{% link assets/2022/22-23-BQ-Rules.pdf %}" class="button is-primary">Download 2022-2023 Rules</a>
 
 
 ### Further explanation
