@@ -6,7 +6,7 @@ date: "2017-04-11"
 categories: 
   - "nationals"
   - "newsletter"
-image: "Nationals-2017.png"
+image: "Nationals-2017-848x523.png"
 published: true
 ---
 

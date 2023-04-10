@@ -10,25 +10,74 @@ published: true
 
 ### PHOENIX 2015 NATIONAL FINALS TEAMS
 
-_**NORTHEAST REGION**_ 1. Upper St. Clair, PA 2. Deposit, NY 3. Wyckoff, NJ 4. Newport, PA \[Wild cards\] Swedesboro, NJ Sarver, PA Mechanicsville, VA Newark, NJ Bowie, MD
+_**NORTHEAST REGION**_
+1. Upper St. Clair, PA
+2. Deposit, NY
+3. Wyckoff, NJ
+4. Newport, PA
 
-**_SOUTHEAST REGION_** 1\. Wesley Chapel, FL 3. Jacksonville, FL 6. Greensboro, NC
+\[Wild cards\] Swedesboro, NJ\
+Sarver, PA\
+Mechanicsville, VA\
+Newark, NJ\
+Bowie, MD
 
-_**GREAT LAKES REGION**_ 1\. Lexington, KY 2. East Lansing, MI 3. Naperville, IL 4. Grant, MI \[Wild cards\] Georgetown, KY Dublin, OH Orland Park, IL
+**_SOUTHEAST REGION_**
+1. Wesley Chapel, FL
+3. Jacksonville, FL
+6. Greensboro, NC
 
-**_GULF REGION_** 1\. Ozark, MO Team 1 2. Ozark, MO Team 2 3. Kansas City, MO 4. Kings Chapel, Springfield, MO
+_**GREAT LAKES REGION**_
+1. Lexington, KY
+2. East Lansing, MI
+3. Naperville, IL
+4. Grant, MI
 
-**_NORTH CENTRAL REGION_** 1\. Racine, WI 2. Rapid City, SD 3. Bismarck, ND 4. Sioux Falls, SD
+\[Wild cards\] Georgetown, KY\
+Dublin, OH\
+Orland Park, IL
 
-**_SOUTH CENTRAL REGION_** 1\. Houston, TX (Braeswood) 2. Muskogee, OK Team 1 3. Muskogee, OK Team 2 4. CT, Houston, TX (CT) Wild card: Cedar Hill, TX
+**_GULF REGION_**
+1. Ozark, MO Team 1
+2. Ozark, MO Team 2
+3. Kansas City, MO
+4. Kings Chapel, Springfield, MO
 
-**_NORTHWEST REGION_** 1\. Bothell, WA Team 1 2. Tacoma, WA 3. Bellevue, WA 5. Bothell, WA Team 2
+**_NORTH CENTRAL REGION_**
+1. Racine, WI
+2. Rapid City, SD
+3. Bismarck, ND
+4. Sioux Falls, SD
 
-**SOUTHWEST REGION** 1\. North Scottsdale, AZ Team 1 2. Phoenix, AZ 3. North Scottsdale, AZ Team 2 4. Costa Mesa, CA
+**_SOUTH CENTRAL REGION_**
+1. Houston, TX (Braeswood)
+2. Muskogee, OK Team 1
+3. Muskogee, OK Team 2
+4. CT, Houston, TX (CT)
 
-**_REGIONAL CHAMPIONS_** Northeast: New Day AG, Upper St. Clair, PA Southeast: Victorious Life Church, Wesley Chapel, FL Great Lakes: First A/G, Lexington, KY
+Wild card: Cedar Hill, TX
 
-Gulf: James River Church, Ozark, MO North Central: Racine Assembly of God, Racine, WI South Central: Braeswood Assembly, Houston, TX Northwest: Cedar Park AG, Bothell, WA Southwest: North Scottsdale Christian, Scottsdale, AZ
+**_NORTHWEST REGION_**
+1. Bothell, WA Team 1
+2. Tacoma, WA
+3. Bellevue, WA
+5. Bothell, WA Team 2
+
+**SOUTHWEST REGION**
+1. North Scottsdale, AZ Team 1
+2. Phoenix, AZ
+3. North Scottsdale, AZ Team 2
+4. Costa Mesa, CA
+
+**_REGIONAL CHAMPIONS_**
+Northeast: New Day AG, Upper St. Clair, PA\
+Southeast: Victorious Life Church, Wesley Chapel, FL\
+Great Lakes: First A/G, Lexington, KY
+Gulf: James River Church, Ozark, MO\
+North Central: Racine Assembly of God, Racine, WI\
+South Central: Braeswood Assembly, Houston, TX\
+Northwest: Cedar Park AG, Bothell, WA\
+Southwest: North Scottsdale Christian, Scottsdale, AZ
 
 ### QUESTIONS AVALIABLE
 
@@ -46,13 +95,18 @@ Contact John Nardozzi at [JohnJoan@Juno.com](mailto:JohnJoan@Juno.com) for a tou
 
 Here is a breakdown of both the Veteran and Novice divisions of adult quiz at the 2015 National Finals event. Bryan Turner will be writing the questions again this year.
 
-**Veteran**: Romans 8, 12, and all of James (168 verses) **Novice**: James only (108 verses) BREAKDOWN AND WRITERS' TIPS for BOOK OF ACTS
+**Veteran**: Romans 8, 12, and all of James (168 verses)\
+**Novice**: James only (108 verses) BREAKDOWN AND WRITERS' TIPS for BOOK OF ACTS
 
 Meet # 1 Meet # 2 Meet # 3 Meet # 4
 
 A League
 
-A 1-8 (292 verses) A 9-15 (266) A 16-21 (221) A 22-28 (224) Total 1,003 verses
+A 1-8 (292 verses)\
+A 9-15 (266)\
+A 16-21 (221)\
+A 22-28 (224)\
+Total 1,003 verses
 
 Middle School Acts Experience
 
@@ -106,35 +160,75 @@ As you listen and look around there are tremendous challenges for many involved 
 
 ### BIBLE QUIZ TRAINING OPPORTUNITIES
 
-_**Penn-Del BQ camp**_ Aug 14-16, 2015 Bongiorno Conference Center – Carlisle, PA Training for first year up to national quizzers. Also training for officials and coaches. Limited to 300 people. Contact Bernie Elliot at [ElliotBQ@aol.com](mailto:elliotbq@aol.com)
+_**Penn-Del BQ camp**_\
+Aug 14-16, 2015\
+Bongiorno Conference Center – Carlisle, PA\
+Training for first year up to national quizzers. Also training for officials and coaches. Limited to 300 people.\
+Contact Bernie Elliot at [ElliotBQ@aol.com](mailto:elliotbq@aol.com)
 
 _**ReACTion BQ CampAug 20-22, 2015**_
 
-Bethel A/G – Rapid City, SD Limited to 50 quizzers Contact Denise & David Sullivan at [sullivan@rap.midco.net](mailto:sullivan@rap.midco.net)
+Bethel A/G – Rapid City, SD\
+Limited to 50 quizzers\
+Contact Denise & David Sullivan at [sullivan@rap.midco.net](mailto:sullivan@rap.midco.net)
 
-**_Great Lakes Region TBQ Camp_** Aug 28-30, 2015 Pokagon State Park – Angola, IN Something for quizzers at every level-even adults! Limited to 100 quizzers and 20 adults. Contact Julie Steel at [juliesteel@gmail.com](mailto:juliesteel@gmail.com)
+**_Great Lakes Region TBQ Camp_**\
+Aug 28-30, 2015\
+Pokagon State Park – Angola, IN\
+Something for quizzers at every level-even adults! Limited to 100 quizzers and 20 adults. Contact Julie Steel at [juliesteel@gmail.com](mailto:juliesteel@gmail.com)
 
-_**Northern New England Bible Quiz Retreat**_ September 11-12, 2015 Milton A/G – Milton, New Hampshire Something for everyone, but especially geared towards new quizzers and coaches. Contact Nancy Lambert at [jlnl@myfairpoint.net](mailto:jlnl@myfairpoint.net)
+_**Northern New England Bible Quiz Retreat**_\
+September 11-12, 2015\
+Milton A/G – Milton, New Hampshire\
+Something for everyone, but especially geared towards new quizzers and coaches.\
+Contact Nancy Lambert at [jlnl@myfairpoint.net](mailto:jlnl@myfairpoint.net)
 
-_**Georgia Bible Quiz Retreat**_ September 18-19, 2015 Camp Timberlake – Forsyth, Georgia Training for new, intermediate and advanced quizzers. Classes for coaches.
-
+_**Georgia Bible Quiz Retreat**_\
+September 18-19, 2015\
+Camp Timberlake – Forsyth, Georgia\
+Training for new, intermediate and advanced quizzers. Classes for coaches.\
 Contact Doug Black at [dougbq@comcast.net](mailto:dougbq@comcast.net)
 
 ### BIBLE QUIZ TOURNAMENTS
 
-_**Trinity Gold Cup**_ Trinity Church, Cedar Hill, TX October 23-24, 2015 “A” Acts 1-9; Second division covering Acts 1-4; Newcomer division covering Acts 2 only Contact Lori Sullivan [safkids@gmail.com](mailto:safkids@gmail.com)
+_**Trinity Gold Cup**_\
+Trinity Church, Cedar Hill, TX\
+October 23-24, 2015\
+“A” Acts 1-9; Second division covering Acts 1-4; Newcomer division covering Acts 2 only\
+Contact Lori Sullivan [safkids@gmail.com](mailto:safkids@gmail.com)
 
-_**22nd Gobblefest BQ Tournament**_ University of Valley Forge, PA, Nov 20-21, 2015 A League: Acts 1-13; Middle School: Acts 1-6 Limited to 48 teams (2 per church) Contact Bernie Elliot at [ElliotBQ@aol.com](mailto:ElliotBQ@aol.com)
+_**22nd Gobblefest BQ Tournament**_\
+University of Valley Forge, PA, Nov 20-21, 2015\
+A League: Acts 1-13; Middle School: Acts 1-6 Limited to 48 teams (2 per church)\
+Contact Bernie Elliot at [ElliotBQ@aol.com](mailto:ElliotBQ@aol.com)
 
-_**Missouri Classic**_ Central Assembly, Springfield, MO, Nov 20-21, 2015 Registration is $70 before November 13th; after that date registration is $80. A League: Acts 1 -15; Middle School/B League: Acts 1 -7; Experience League: Acts 2 and 4 Limits: A League, 20 teams; B/MSQ, 16 teams; Experience, 10 teams Contact Marci Woodward at [somojbq@gmail.com](mailto:somojbq@gmail.com)
+_**Missouri Classic**_\
+Central Assembly, Springfield, MO, Nov 20-21, 2015\
+Registration is $70 before November 13th; after that date registration is $80.\
+A League: Acts 1 -15; Middle School/B League: Acts 1 -7; Experience League: Acts 2 and 4\
+Limits: A League, 20 teams; B/MSQ, 16 teams; Experience, 10 teams\
+Contact Marci Woodward at [somojbq@gmail.com](mailto:somojbq@gmail.com)
 
-_**South Texas Invitational**_ Dallas, TX, January 9, 2016 A Division: Acts 1-20; Second division covering Acts 1-6 Contact Steve Fowler at [slf1106@aol.com](mailto:slf1106@aol.com)
+_**South Texas Invitational**_\
+Dallas, TX, January 9, 2016\
+A Division: Acts 1-20; Second division covering Acts 1-6\
+Contact Steve Fowler at [slf1106@aol.com](mailto:slf1106@aol.com)
 
-_**2016 Mid-Winter Classic**_ UW-Oshkosh Campus in Oshkosh, WI, January 15-16, 2016 Contact Don Batty at [debatty00@gmail.com](mailto:debatty00@gmail.com) 608-429-3958
+_**2016 Mid-Winter Classic**_
+UW-Oshkosh Campus in Oshkosh, WI, January 15-16, 2016\
+Contact Don Batty at [debatty00@gmail.com](mailto:debatty00@gmail.com)\
+608-429-3958
 
-_**31st Friendship Classic**_ Pittsburgh, PA, Jan 29-30, 2016 Acts 1-23 Limited to 24 National “A” teams Contact Bernie Elliot at [ElliotBQ@aol.com](mailto:ElliotBQ@aol.com)
+_**31st Friendship Classic**_\
+Pittsburgh, PA, Jan 29-30, 2016\
+Acts 1-23\
+Limited to 24 National “A” teams\
+Contact Bernie Elliot at [ElliotBQ@aol.com](mailto:ElliotBQ@aol.com)
 
-_**2016 River Classic**_ James River A/G, Ozark, MO, March 4-5, 2016 A League: all of Acts; Middle School: Acts 1-10 “Acts Experience” Contact John Porter at [jporter4@us.ibm.com](mailto:jporter4@us.ibm.com)
+_**2016 River Classic**_\
+James River A/G, Ozark, MO, March 4-5, 2016\
+A League: all of Acts; Middle School: Acts 1-10 “Acts Experience”\
+Contact John Porter at [jporter4@us.ibm.com](mailto:jporter4@us.ibm.com)
 
 ### NUTS & BOLTS
 

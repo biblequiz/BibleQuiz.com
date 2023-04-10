@@ -5,7 +5,7 @@ author: James Lex
 date: "2017-04-27"
 categories: 
   - "newsletter"
-image: "pexels-photo-29017.jpg"
+image: "pexels-photo-29017-848x492.jpg"
 published: true
 ---
 

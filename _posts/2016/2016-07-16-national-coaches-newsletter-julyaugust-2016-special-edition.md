@@ -18,11 +18,11 @@ We have a HUGE special edition of the Coaches' Newsletter for you with important
 - Requirements for the Master Memorization Award.
 - And much, much more
 
-[\[icon icon="kt-icon-arrow-right5" size="14px"\] Go here to download]({% link assets/2016/Jul-Aug-2016.pdf %}).
+<a href="{% link assets/2016/Jul-Aug-2016.pdf %}"><i class="far fa-arrow-alt-circle-right"></i>&nbsp;Go here to download</a>.
 
 The Nationals 2016 recap video will be coming in the next week.
 
-![Nationals 2016 RECAP](images/Nationals-2016-RECAP.jpg)
+![Nationals 2016 RECAP]({% link assets/2016/Nationals-2016-RECAP.jpg %})
 
 But if you just can't wait, here's the Nationals 2017 video showed at the end of the Awards Banquet. It's now available to watch on our YouTube channel.
 

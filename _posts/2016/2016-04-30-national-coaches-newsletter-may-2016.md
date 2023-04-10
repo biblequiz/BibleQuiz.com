@@ -13,18 +13,26 @@ published: true
 
 ### Regionals At A Glance
 
-NORTHEAST: May 6-7, 2016 First A/G, Binghamton, New York Coordinator: Elisa Napierala, elisa.napierala@gmail.com
+NORTHEAST: May 6-7, 2016 First A/G, Binghamton, New York\
+Coordinator: Elisa Napierala, elisa.napierala@gmail.com
 
-SOUTHEAST: May 14, 2016 Evangel Temple, Jacksonville, Florida Coordinator: Tim McDaniel, Tim@PFBibleQuiz.com
+SOUTHEAST: May 14, 2016 Evangel Temple, Jacksonville, Florida\
+Coordinator: Tim McDaniel, Tim@PFBibleQuiz.com
 
-GREAT LAKES: May 13-14, 2016 Lakeview A/G, Indianapolis, Indiana Coordinator: Julie Steel, juliesteel@gmail.com
+GREAT LAKES: May 13-14, 2016 Lakeview A/G, Indianapolis, Indiana\
+Coordinator: Julie Steel, juliesteel@gmail.com
 
-GULF: May 7, 2016 Central Assembly of God, Springfield, Missouri Coordinator: Dilla Dawson, dilladawson@me.com
+GULF: May 7, 2016 Central Assembly of God, Springfield, Missouri\
+Coordinator: Dilla Dawson, dilladawson@me.com
 
-NORTH CENTRAL: April 29-30, 2016 Summit Church, St. Paul, Minnesota Coordinator: Don Jones, donvjones@comcast.net
+NORTH CENTRAL: April 29-30, 2016 Summit Church, St. Paul, Minnesota\
+Coordinator: Don Jones, donvjones@comcast.net
 
-SOUTH CENTRAL: April 29-30, 2016 The Oaks Fellowship, Red Oak, Texas Coordinator: Steve Fowler, slf1106@Aol.com
+SOUTH CENTRAL: April 29-30, 2016 The Oaks Fellowship, Red Oak, Texas\
+Coordinator: Steve Fowler, slf1106@Aol.com
 
-NORTHWEST: April 29-30, 2016 Bellevue Neighborhood Church, Bellevue, WA Coordinator: Ron Philips, repmp@yahoo.com
+NORTHWEST: April 29-30, 2016 Bellevue Neighborhood Church, Bellevue, WA\
+Coordinator: Ron Philips, repmp@yahoo.com
 
-SOUTHWEST: April 29-30, 2016 The Champion Center, Las Vegas, NV Coordinator: Eric Lind, ericthelind@gmail.com
+SOUTHWEST: April 29-30, 2016 The Champion Center, Las Vegas, NV\
+Coordinator: Eric Lind, ericthelind@gmail.com

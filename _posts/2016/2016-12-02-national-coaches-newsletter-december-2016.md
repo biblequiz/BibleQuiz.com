@@ -5,13 +5,11 @@ author: James Lex
 date: "2016-12-02"
 categories: 
   - "newsletter"
-image: "pexels-photo-24571.jpg"
+image: "pexels-photo-24571-848x566.jpg"
 published: true
 ---
 
 Here is the December edition of the National Coaches' Newsletter.
-
-[Download Now]({% link assets/2016/Dec-2016.pdf %})
 
 <a href="{% link assets/2016/Dec-2016.pdf %}" class="button is-primary">Download Now</a>
 

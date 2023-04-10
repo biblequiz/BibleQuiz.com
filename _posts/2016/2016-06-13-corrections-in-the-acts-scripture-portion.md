@@ -18,7 +18,9 @@ First 7 words in Unique Word list are repeated twice. Delete first 7 words.
 
 ### Chapter Analysis
 
-Acts 1:23 Behind Joseph, insert the words, (Barsabbas, Justus) Acts 3:12 Questions-should be "we HAD made this man walk? HAD not have _(Scripture Portion-Correct)_ Acts 7:49–50 Heaven is my throne, and the earth is my footstool. What kind of house will you build for me? says the Lord. Or where will my resting place be? Has not my hand made all these things? Phrase says the Lord must be inserted. _(Scripture Portion-Correct)_
+Acts 1:23 Behind Joseph, insert the words, (Barsabbas, Justus)\
+Acts 3:12 Questions-should be "we HAD made this man walk? HAD not have _(Scripture Portion-Correct)_\
+Acts 7:49–50 Heaven is my throne, and the earth is my footstool. What kind of house will you build for me? says the Lord. Or where will my resting place be? Has not my hand made all these things? Phrase says the Lord must be inserted. _(Scripture Portion-Correct)_
 
 ### Clarifications
 

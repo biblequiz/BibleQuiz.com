@@ -8,8 +8,6 @@ categories:
 published: true
 ---
 
-[![Nationals 2014](images/SWFIMG_140422_09581295_MSL1U.jpg)]({% post_url 2014/2014-06-23-nationals-2014-preview %})
-
 It's hard to believe it's been almost a year since we all gathered in Chicago, IL to watch 40 teams compete for the national championship, but the 52nd National Finals begin one week from today.
 
 This will be my 20th National Finals as a participant. I quizzed 1995-1997 and 1999-2000 and officiated at all others, having quizmastered every year since 2005. A lot has changed about quiz since my first year. The questions are much more consistent from year to year, you only need 5 for a quiz out, there's 40 teams, etc. It's hard to compare the level of competition from year to year, but the one constant is the amazing amount of work that people are willing to put into memorizing God's word. Thousands of hours of studying, listening to people quoting, reading questions, riding in vans to tournaments, etc, will finally culminate in a week-long assault by some of the hardest questions they'll hear all year. There's few things as awesome as the feeling of nailing a 30-pointer that you've been anticipating all year. What's amazing is that for the best quizzers, for every question that DOES come up, there are probably 10 questions that didn't come up, but they still know. Even having been a participant many years ago, I'm still in awe of the achievements of these quizzers. It really does reap dividends years down the road. As often as it's been said, the trophies will eventually gather dust, but the verses that you learn will never leave you.
