@@ -93,3 +93,7 @@ Additional functionality and documentation is available for the [bulma-clean-the
 
 * **Running Site Locally**\
 When making large changes or debugging an issue, it can be helpful to [run the site locally](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+
+### Credits / Special thanks
+
+- Theme built by [C.S. Rhymes](https://www.csrhymes.com)
