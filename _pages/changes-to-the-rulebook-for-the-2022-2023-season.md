@@ -23,21 +23,21 @@ This operates just like the "From consecutive verses" introductory remark we're 
 
 Here is an example of how this question has been asked previously.
 
-**30 points. Give 4 complete answers. From Hebrews chapter 12.**
-According to separate verses, let us do what?
-\[H 12:1\] Therefore, since we are surrounded by such a great cloud of witnesses, let us throw off everything that hinders and the sin that so easily entangles. And let us run with perseverance the race marked out for us,
-\[H 12:28\] Therefore, since we are receiving a kingdom that cannot be shaken, let us be thankful, and so worship God acceptably with reverence and awe,
+> **30 points. Give 4 complete answers. From Hebrews chapter 12.**  
+According to separate verses, let us do what?  
+> \[H 12:1\] Therefore, since we are surrounded by such a great cloud of witnesses, let us throw off everything that hinders and the sin that so easily entangles. And let us run with perseverance the race marked out for us,  
+> \[H 12:28\] Therefore, since we are receiving a kingdom that cannot be shaken, let us be thankful, and so worship God acceptably with reverence and awe,
 
 And here is how it will be asked now.
 
-**30 points. Give 4 complete answers. From 2 separate verses of Hebrews chapter 12.**
+> **30 points. Give 4 complete answers. From 2 separate verses of Hebrews chapter 12.**  
 Let us do what?
 
 "From separate verses" will be used for other types of questions as well.
 
-**20 points. 2-part chapter analysis answer. From separate verses of Hebrews chapter 5.**
-Which individuals are named?
-\[H 5:4\] Aaron
+> **20 points. 2-part chapter analysis answer. From separate verses of Hebrews chapter 5.**  
+Which individuals are named?  
+\[H 5:4\] Aaron  
 \[H 5:6\] Melchizedek
 
 ### What happens if some of the verses are consecutive?
