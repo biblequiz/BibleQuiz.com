@@ -1,16 +1,8 @@
-a {
-	color: #0a6665
-}
-
-a:hover {
-  background-color: #0a6665;
-}
-
-a:active {
-  background-color: #0a6665;
-}
-
-.menu-list a.is-active {
+a,
+a:hover,
+a:active,
+.menu-list,
+a.is-active {
 	background-color: #0a6665;
 }
 
