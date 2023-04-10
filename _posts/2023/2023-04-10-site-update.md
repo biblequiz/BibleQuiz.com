@@ -21,6 +21,6 @@ This is the largest change in BibleQuiz.com in several years. While we would nor
 
 Our Technology Team found a solution that not only improves the speed of the site significantly but also cut our costs down to $0!
 
-As always with any change to a website, there could be some formatting issues or broken links that need to be fixed. If you find one, send a quick email to hello@biblequiz.com. We have reviewed the Current Season and Next Season pages to verify all information and links are working. 
+As always with any change to a website, there could be some formatting issues or broken links that need to be fixed. If you find one, send a quick email to [hello@biblequiz.com](mailto:hello@biblequiz.com). We have reviewed the Current Season and Next Season pages to verify all information and links are working. 
 
 Many thanks to the Technology Team for their time and expertise to enhance the Bible Quiz experience. This site has never been in better hands!
