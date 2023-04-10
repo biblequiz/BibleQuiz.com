@@ -75,7 +75,7 @@ In testing, quizzers picked up on this very quickly, and we have received a lot 
 
 * * *
 
-{% include_relative 2022-rules.md %}
+{% include 2022-rules.md %}
 
 
 ### Download Rules
