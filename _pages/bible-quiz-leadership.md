@@ -10,16 +10,16 @@ date: "2020-02-11"
 | Name | Position | Location |
 | --- | --- | --- |
 | Josh Wellborn | National Youth Director | Springfield, MO |
-| Darin Poe | National Student Discipleship Director | Springfield, MO |
+| Austin Westlake | National Student Discipleship Director | Springfield, MO |
 | Bernie Elliot | National Bible Quiz Coordinator | West Mifflin, PA |
 | Rosina Albanese | On-Ramping Coordinator | Lower Burrell, PA |
 | Steve Fowler | Bible Quiz Coordinator, South Texas District; Alumni Coordinator | Baytown, TX |
-| Paul Frietag | National Finals Coordinator | Minneapolis, MN |
+| Dr. Paul Frietag | National Finals Coordinator | Minneapolis, MN |
 | Kevin Gallo | Bible Quiz Coordinator, Northwest District; Technology Coordinator | Bellevue, WA |
+| Dr. LaJoie Lex | Materials Coordinator | Waxahachie, TX |
 | Jason Martin | Assistant Bible Quiz Coordinator, Pennsylvania-Delaware District; Quality Assurance Advisor | Wexford, PA |
 | John Porter | Operational Director, National Steering Committee |  |
 | Bryan Turner | Coordinator, Bible Quiz Rules Committee | Tulsa, OK |
-| LaJoie Lex | Materials Coordinator | Waxahachie, TX |
 
 ## District Coordinators
 
@@ -58,7 +58,7 @@ South Central
 | --- | --- |
 | Michelle Gill | Oklahoma |
 | John Jobe | New Mexico |
-| [Michael Pearson](info@northtexasbq.com) | [North Texas](http://northtexasbq.com) |
+| [Micah Van Gorp](info@northtexasbq.com) | [North Texas](http://northtexasbq.com) |
 | [Steve Fowler](slf1106@aol.com) | South Texas |
 
 Great Lakes
