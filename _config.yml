@@ -6,7 +6,7 @@ tagline: BibleQuiz.com Tagline
 lang: en
 
 # Pagination
-paginate: 6
+paginate: 10
 paginate_path: "/blog/:num"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
@@ -58,6 +58,7 @@ defaults:
     type: "pages"
   values:
     hero_height: is-small
+    image_max_height: 500px
 - scope:
     path: ""
     type: "posts"
