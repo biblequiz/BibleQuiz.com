@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Bible Quiz Promo Video #2"
+author: James Lex
+date: "2014-10-09"
+categories: 
+  - "promo"
+published: true
+---
+
+Recruiting quizzers for the [Romans and James season]({% link _pages/current-season.md %})?
+
+Here is a fabulous Bible Quiz promotional video to show in your church service or youth group. And it's absolutely FREE.
+
+{% include youtube.html
+   video="K5Gh63BDJkE" %}
+   
+[Share the YouTube link](http://www.youtube.com/v=K5Gh63BDJkE?rel=0) with your friends on Facebook, Twitter, email, and more.
+
+You can also download it for free by going to [BibleQuiz.com/downloads]({% link _pages/downloads.md %}).
+
+More videos are on the way! Don't miss out by [subscribing to BibleQuiz.com on YouTube](https://www.youtube.com/user/biblequizvids?sub_confirmation=1).
+
+What do you think of this video? Leave a comment and let us know.

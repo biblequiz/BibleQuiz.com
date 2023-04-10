@@ -1,0 +1,53 @@
+- name: Seasons
+  link: /#
+  icon: far fa-calendar-alt
+  dropdown:
+  - name: Current Season
+    link: /current-season/
+    icon: fas fa-calendar-day
+    dropdown:
+    - name: Home
+      link: /current-season/
+    - name: Events
+      link: /events/
+    - name: Event Registration
+      link: https://registration.biblequiz.com
+    - name: Material Breakdown
+      link: /breakdown/
+    - name: Downloads & Forms
+      link: /downloads/
+    - name: Questions
+      link: /questions/
+    - name: Products
+      link: /products/
+    - name: Results
+      link: /results/
+  - name: Next Season
+    link: /next-season/
+    icon: fas fa-hourglass-start
+  - name: Past Seasons
+    link: /history/
+    icon: fas fa-history
+- name: Training
+  link: /training/
+  icon: fas fa-dumbbell
+  dropdown:
+  - name: Officials' Test
+    link: /officials-test/
+    icon: fas fa-chalkboard-teacher
+- name: Blog
+  link: /blog/
+  icon: fas fa-pencil-alt
+  dropdown:
+  - name: Newsletter
+    link: /categories/#newsletter
+    icon: far fa-newspaper
+  - name: Blog
+    link: /blog/
+    icon: fas fa-book-reader
+  - name: Subscribe
+    link: /subscribe/
+    icon: fas fa-mail-bulk
+- name: Search
+  link: /search/
+  icon: fas fa-search
