@@ -21,7 +21,7 @@ Use the menu to find information on the 2022-2023 Bible Quiz season covering I &
 
 <a href="{% link assets/2022/22-23-BQ-Rules.pdf %}" class="button is-primary">Download Rulebook</a>
 
-[Explanation of Rule Changes]({% link _pages/changes-to-the-rulebook-for-the-2022-2023-season.md %})
+<a href="{% link _pages/changes-to-the-rulebook-for-the-2022-2023-season.md %}" class="button is-primary">Explanation of Rule Changes</a>
 
 ## National Finals
 
