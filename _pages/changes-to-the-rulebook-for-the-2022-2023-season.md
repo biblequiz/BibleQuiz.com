@@ -75,6 +75,9 @@ In testing, quizzers picked up on this very quickly, and we have received a lot 
 
 * * *
 
+{% include_relative 2022-rules.md %}
+
+
 ### Download Rules
 
 <a href="{% link assets/2022/22-23-BQ-Rules.pdf %}" class="button is-primary">Download 2022-2023 Rules</a>
