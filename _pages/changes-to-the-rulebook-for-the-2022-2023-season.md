@@ -65,10 +65,10 @@ We adjusted the syntax so #3 tells you what _kind_ of answer to give: Chapter an
 
 #4 tells you if the answer comes from consecutive or separate verses as well as _where_ to find the answers.
 
-**20 points. 2-part question. Give a complete answer from 2 consecutive verses. From First Peter chapter 2. 
-**Like newborn babies, what should you do, and why?
+> **20 points. 2-part question. Give a complete answer from 2 consecutive verses. From First Peter chapter 2.**  
+Like newborn babies, what should you do, and why?
 
-**20 points. 2-part question. Give a complete answer. From 2 consecutive verses of First Peter chapter 2.**
+> **20 points. 2-part question. Give a complete answer. From 2 consecutive verses of First Peter chapter 2.**  
 Like newborn babies, what should you do, and why?
 
 In testing, quizzers picked up on this very quickly, and we have received a lot of positive feedback on the introductory remarks having a better flow. You will see this syntax used in all of the examples.
@@ -79,20 +79,19 @@ Download Rules
 
 [Download 2022-2023 Rules]({% link assets/2022/22-23-BQ-Rules.pdf %})
 
-NOTE: These rules are for the 2022-2023 season. If you're looking for the 2021-2022 rules for the Gospel of Matthew, [go here]({% link assets/2022/22-23-BQ-Rules.pdf %})!
 
-Further explanation
+### Further explanation
 
 For a list of example questions rewritten to match the new rules, go here
 
-[Example Questions]({% link _pages/question-examples-under-proposed-rule-changes.md %})
+<a href="{% link _pages/question-examples-under-proposed-rule-changes.md %}" class="button is-primary">Example Questions</a>
 
 For more information on why the reference question was removed, go here
 
-[Why the Reference Question is Changing]({% link _pages/why-the-reference-question-is-changing.md %})
+<a href="{% link _pages/why-the-reference-question-is-changing.md %}" class="button is-primary">Why the Reference Question is Changing</a>
 
 Have questions?
 
 If you have questions about the changes, please feel free to ask a question in the Facebook group.
 
-[Join the AG Bible Quiz Community](https://www.facebook.com/groups/agbiblequiz)
+<a href="https://www.facebook.com/groups/agbiblequiz" class="button is-primary">Why the Reference Question is Changing</a>
