@@ -9,9 +9,7 @@ menubar_ads: ads_simple
 
 Use the menu to find information on the 2022-2023 Bible Quiz season covering I & II Thessalonians, I & II Timothy, Titus, and I, II, and III John.
 
-## Corrections
-
-**Scripture Portion:**
+## Scripture Portion Corrections
 
 1. Error in 1 Timothy 3:12. There should not be the word “his” before household.” Please delete it.
 2. Please note Crete in Titus 1:5 is not in “Italics”- It should be. It is listed as such in the CA, and the new Entire CA. It also italicized in vs 12.
@@ -28,6 +26,6 @@ Use the menu to find information on the 2022-2023 Bible Quiz season covering I &
 
 ## National Finals
 
-[![({% link assets/pages/st-louis-renaissance-hotel.jpg %})]({% link _pages/national-finals.md %})
+[![St. Louis Reinaissance Hotel]({% link assets/pages/st-louis-renaissance-hotel.jpg %})]({% link _pages/national-finals.md %})
 
 <a href="{% link _pages/national-finals.md %}" class="button is-primary">National Finals Info</a>
