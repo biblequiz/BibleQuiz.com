@@ -136,6 +136,8 @@ Quote the verses in which Peter is named.
 > **30 points. Quotation question. 2-part answer. From separate verses.**  
 Quote the verses in which Peter is named.
 
+---
+
 > **30 points. Statement and 2-part reference essence question. 4-part answer.**  
 People are governed by kings and emperors. Give in essence the two verses which mention kings and the two verses which mention emperors.
 
@@ -192,7 +194,9 @@ Excluding Hebrews, which questions are found?
 
 In the case where an individual or geographical location is named multiple times, unless all of the occurrences of the required answers are consecutive, it must be labeled "From separate verses."
 
-> Suppose Jesus is named in verses 31 and 35, and Peter is named in verse 32. In theory, the question writer could demand verses 31 and 32 **_or_** verses 32 and 35, both with the same answer of "Peter, Jesus." This is required to be labeled "From separate verses."
+> Suppose Jesus is named in verses 31 and 35, and Peter is named in verse 32.  
+In theory, the question writer could demand verses 31 and 32 **_or_** verses 32 and 35, both with the same answer of "Peter, Jesus."  
+This is required to be labeled "From separate verses."
 
 ## Questions that require multiple answers from multiple verses (not Chapter Analysis, GCA, QQ/EQ, or QCQ/ECQ)
 
