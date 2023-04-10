@@ -17,4 +17,4 @@ For more information on why the reference question was removed, go here
 
 If you have questions about the changes, please feel free to ask a question in the Facebook group.
 
-<a href="https://www.facebook.com/groups/agbiblequiz" class="button is-primary">Why the Reference Question is Changing</a>
+<a href="https://www.facebook.com/groups/agbiblequiz" class="button is-primary">Join the Facebook group</a>
