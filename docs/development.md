@@ -73,6 +73,7 @@ The most common type of contribution will be creating a new blog post.
     >   
     >   Some text.
     >   ```
+    >* E-mail links won't render automatically (e.g., email@domain.com). If you want an e-mail address to be clickable, use this format `[email@domain.com](mailto:email@domain.com)`.
     >* If you need HTML, you can add HTML within a markdown document without issues.
     >* [Excel to Markdown Table Converter](https://tableconvert.com/excel-to-markdown) is the easiest way to generate a Markdown table from existing data. If you just need to format a table, use [Markdown Table Formatter](http://markdowntable.com).
 
