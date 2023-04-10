@@ -129,8 +129,8 @@ Quote the verse in which **David** is named, and the verse in which **Joshua** i
 #### Requiring separate verses in different chapters
 
 > **30 points. Quotation question. 2-part answer.**  
-Quote the verses in which Peter is named.
-\[1P 1:1\]    Peter, an apostle of Jesus Christ, To God's elect, exiles scattered throughout the provinces of Pontus, Galatia, Cappadocia, Asia and Bithynia,
+Quote the verses in which Peter is named.  
+\[1P 1:1\]    Peter, an apostle of Jesus Christ, To God's elect, exiles scattered throughout the provinces of Pontus, Galatia, Cappadocia, Asia and Bithynia,  
 \[2P 1:1\]    Simon Peter, a servant and apostle of Jesus Christ, To those who through the righteousness of our God and Savior Jesus Christ have received a faith as precious as ours
 
 > **30 points. Quotation question. 2-part answer. From separate verses.**  
@@ -160,7 +160,7 @@ Quote, and give the complete references for, the two verses in which Balaam is n
 
 ✅ Required to state if the answer will come from consecutive/separate verses\*
 
-Chapter Analysis Answer
+## Chapter Analysis Answer
 
 > **20 points. 2-part reference question. Chapter analysis answer. From the section titled, The Living Stone and a Chosen People.**  
 Which Old Testament Scripture **precedes** the word “And,” and which Old Testament Scripture **follows** the word “And”?
@@ -168,11 +168,15 @@ Which Old Testament Scripture **precedes** the word “And,” and which Old Tes
 > **20 points. 2-part question. Chapter analysis answer. From separate verses of the section titled, The Living Stone and a Chosen People.**  
 Which Old Testament Scripture **precedes** the word “And,” and which Old Testament Scripture **follows** the word “And”?
 
+---
+
 > **30 points. 2-part reference question. 7-part chapter analysis answer. From Hebrews chapter 7.**  
 Which individuals and geographical location are named?
 
 > **30 points. 2-part question. 7-part chapter analysis answer. From separate verses of Hebrews chapter 7.**  
 Which individuals and geographical location are named?
+
+---
 
 > **30 points. 6-part chapter analysis answer.**  
 Excluding Hebrews, which questions are found?
@@ -190,7 +194,7 @@ In the case where an individual or geographical location is named multiple times
 
 > Suppose Jesus is named in verses 31 and 35, and Peter is named in verse 32. In theory, the question writer could demand verses 31 and 32 **_or_** verses 32 and 35, both with the same answer of "Peter, Jesus." This is required to be labeled "From separate verses."
 
-Questions that require multiple answers from multiple verses (not Chapter Analysis, GCA, QQ/EQ, or QCQ/ECQ)
+## Questions that require multiple answers from multiple verses (not Chapter Analysis, GCA, QQ/EQ, or QCQ/ECQ)
 
 This works in the same way it does under the existing rules, with the addition of "From separate verses" or "From consecutive verses."
 
@@ -207,7 +211,7 @@ Who were persecuted?
 \[H 10:33\]   Sometimes you (Hebrews) were publicly exposed to insult and persecution; at other times you stood side by side with those who were so treated.  
 \[H 11:37\]   They (the faithful) were put to death by stoning; they were sawed in two; they were killed by the sword. They went about in sheepskins and goatskins, destitute, persecuted and mistreated—
 
-**20 points. 3-Part answer. From separate verses of Hebrews.**
+> **20 points. 3-Part answer. From separate verses of Hebrews.**  
 Who were persecuted?
 
 #### ⚠️ Exception
@@ -220,9 +224,9 @@ In the case where an answer appears multiple times in a chapter, unless all of t
 
 ✅ Required to state if the answer will come from consecutive/separate verses\*  
 
-Questions that require books, chapters, or references
+## Questions that require books, chapters, or references
 
-Because the question is asking for a _location_ and not the content of book, chapter, or verse itself, the introductory remarks cannot state "From consecutive/separate verses."
+Because the question is asking for a *location* and not the content of book, chapter, or verse itself, the introductory remarks cannot state "From consecutive/separate verses."
 
 The introductory remarks remain unchanged.
 
