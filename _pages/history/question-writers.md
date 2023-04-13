@@ -7,12 +7,16 @@ menubar: menu_history
 ---
 
 | Season | Material                                                  | A League                                        | MSQ/Novice         |
-|--------|-----------------------------------------------------------|-------------------------------------------------|--------------------|
+| ------ | --------------------------------------------------------- | ----------------------------------------------- | ------------------ |
+| 2024   | Romans and James                                          | Jesse Czubkowski                                | Micah Van Gorp     |
+| 2023   | 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John | Josh Forsman and Josh Gallo                     | Heather Cox        |
+| 2022   | Matthew                                                   | Selena Davis                                    | Josh Gallo         |
+| 2021   | Hebrews, 1 & 2 Peter, Jude                                | James and LaJoie Lex                            | Jared Hill         |
 | 2020   | John                                                      | Jesse Czubkowski                                | Danielle Mori      |
 | 2019   | 1 & 2 Corinthians                                         | Aaron and Katie Kohler                          | Selena Rodriguez   |
 | 2018   | Mark                                                      | Seth Sundell                                    | Doug Black         |
 | 2017   | Galatians, Ephesians, Philippians, Colossians & Philemon  | Jesse Czubkowski                                | Danielle Brozovich |
-| 2016   | Acts                                                      | Kent Kloefkorn                                  | LaJoie Ward (Lex)  |
+| 2016   | Acts                                                      | Kent Kloefkorn                                  | LaJoie Lex         |
 | 2015   | Romans and James                                          | Seth Sundell                                    | Katie Kohler       |
 | 2014   | 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John | Kent Kloefkorn                                  | Doug Black         |
 | 2013   | Matthew                                                   | Kent Kloefkorn                                  | Mark Whitehead     |

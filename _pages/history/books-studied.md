@@ -8,6 +8,9 @@ menubar: menu_history
 
 | Year | Material Studied                                          |
 |------|-----------------------------------------------------------|
+| 2024 | Romans and James                                          |
+| 2023 | 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John |
+| 2022 | Matthew                                                   |
 | 2021 | Hebrews, 1 & 2 Peter, Jude                                |
 | 2020 | John                                                      |
 | 2019 | 1 & 2 Corinthians                                         |

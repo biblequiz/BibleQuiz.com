@@ -7,8 +7,11 @@ menubar: menu_history
 ---
 
 | Year | Team                            | City                 | Region        |
-|------|---------------------------------|----------------------|---------------|
-| 2019 |                                 | Lee's Summit, MO     | Gulf          |
+| ---- | ------------------------------- | -------------------- | ------------- |
+| 2022 | New Life                        | Colorado Springs, CO | Southwest     |
+| 2021 | Calvary Church                  | Naperville, IL       | Great Lakes   |
+| 2020 | No Nationals due to COVID-19    |                      |               |
+| 2019 | Crown Pointe                    | Lee's Summit, MO     | Gulf          |
 | 2018 | Life 360                        | Springfield, MO      | Gulf          |
 | 2017 | James River Church "The Flames" | Ozark, MO            | Gulf          |
 | 2016 | New Day AG                      | Upper St. Clair, PA  | Northeast     |

@@ -8,18 +8,18 @@ menubar: menu_history
 
 ## Preaching Competition
 
-| Year | Individual       | Church                   | City             |
-|------|------------------|--------------------------|------------------|
-| 2011 | Kory Witter      | Timberline Church        | Fort Collins, CO |
-| 2010 | Ross Toeller     | Racine AG                | Racine, WI       |
-| 2009 | LaJoie Ward      | First AG                 | Binghamton, NY   |
-| 2008 | Lindsey Brower\* | Manassas Assembly of God | Bristow, VA      |
-| 2008 | LaJoie Ward \*   | First AG                 | Binghamton, NY   |
+| Year | Individual     | Church                   | City             |
+| ---- | -------------- | ------------------------ | ---------------- |
+| 2011 | Kory Witter    | Timberline Church        | Fort Collins, CO |
+| 2010 | Ross Toeller   | Racine AG                | Racine, WI       |
+| 2009 | LaJoie Ward    | First AG                 | Binghamton, NY   |
+| 2008 | Lindsey Brower | Manassas Assembly of God | Bristow, VA      |
+| 2008 | LaJoie Ward    | First AG                 | Binghamton, NY   |
 
 ## Dramatized Quoting
 
 | Year | Quizzer        | Church                        | City               |
-|------|----------------|-------------------------------|--------------------|
+| ---- | -------------- | ----------------------------- | ------------------ |
 | 2011 | Luke Hamilton  | Northfield Church             | Gering, NE         |
 | 2010 | Tori Beye      | Northridge AG                 | Grand Island, NE   |
 | 2009 | Tori Beye      | Northridge AG                 | Grand Island, NE   |
@@ -31,6 +31,6 @@ menubar: menu_history
 ## Team Dramatized Quoting
 
 | Year | Church      | City        |
-|------|-------------|-------------|
+| ---- | ----------- | ----------- |
 | 2007 | Manassas AG | Bristow, VA |
 

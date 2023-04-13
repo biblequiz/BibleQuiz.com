@@ -7,19 +7,23 @@ menubar: menu_history
 ---
 
 | Year | Location                            | City                       |
-|------|-------------------------------------|----------------------------|
+| ---- | ----------------------------------- | -------------------------- |
+| 2023 | Renaissance St. Louis Hotel Airport | St. Louis, MO              |
+| 2022 | Renaissance Palm Springs            | Palm Springs, CA           |
+| 2021 | Renaissance St. Louis Hotel Airport | St. Louis, MO              |
+| 2020 | No Nationals due to COVID-19        |                            |
 | 2019 | North Central University            | Minneapolis, MN            |
 | 2018 | Calvary Church                      | Naperville, IL             |
-| 2017 | Sandy Cove Ministries               | North East, Maryland       |
+| 2017 | Sandy Cove Ministries               | North East, MD             |
 | 2016 | Evangel University                  | Springfield, MO            |
 | 2015 | Hyatt Regency                       | Phoenix, AZ                |
 | 2014 | Bonaventure Resort & Spa            | Fort Lauderdale, FL        |
 | 2013 | Hyatt Regency O'Hare                | Chicago, IL                |
-| 2012 | Hyatt Regency                       | Columbus, Ohio             |
-| 2011 | Sheraton Dallas Hotel               | Dallas, Texas              |
-| 2010 | Detroit Marriott Troy               | Troy, Michigan             |
-| 2009 | Renaissance St. Louis Hotel Airport | St. Louis, Missouri        |
-| 2008 | Hotel Sierra                        | Green Bay, Wisconsin       |
+| 2012 | Hyatt Regency                       | Columbus, OH               |
+| 2011 | Sheraton Dallas Hotel               | Dallas, TX                 |
+| 2010 | Detroit Marriott Troy               | Troy, MI                   |
+| 2009 | Renaissance St. Louis Hotel Airport | St. Louis, MO              |
+| 2008 | Hotel Sierra                        | Green Bay, WI              |
 | 2007 | Loews Ventana Canyon Resort         | Tucson, Arizona            |
 | 2006 | Griffin Gate - Marriot              | Lexington, Kentucky        |
 | 2005 | Valley Forge Christian College      | Phoenixville, Pennsylvania |
