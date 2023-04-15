@@ -11,7 +11,7 @@ menubar_toc: true
 
 The 47th National Bible Quiz Finals took place July 12-17, 2009 in St. Louis, Missouri at the Renaissance Marriott Hotel covering the gospel of Mark. Bernie Elliot was the National Coordinator and Aaron Kohler was the official question writer. This was the second year in which Aaron wrote questions. It was also the first year since 1969 that the gospel of Mark was studied.
 
-The championship division was won by Owasso First Assembly of God, Owasso, OK (pictured). This was the second consecutive year that this church won nationals. They are only the seventh team to do so in the history of Bible Quiz, although they are the third to do so in the previous ten years. They join teams from Denver, CO (1966 and 1967), New Orleans, LA (1983 and 1984), Tempe, AZ (1986 and 1987), Lakeland, FL (1990 and 1991), Orange, CA (2002 and 2003) and Colorado Springs, CO (2006 and 2007). If wins during the preliminary rounds are included, Owasso won 48 consecutive games at national finals which is a record. Counting the wins only during the regular rounds, Owasso has the second-best two-year record of all time with 37 wins and 1 loss (the best was Orange, CA, in 2002 and 2003, who was undefeated both years). The second place team was Cedar Park A/G, Bothell, WA. This marks the fourth straight year that Bothell has been in second place. This breaks a 30-year old record held by Riverside, CA for longest second place streak (they were second in 1978, 1979 and 1980). Bothell was the national champion in 2005, though, a feat that Riverside never accomplished. The third place team was Faith A/G, Orlando, FL. The challenger division was won by Lakeside A/G, Menominee, MI. Menominee was the first known team to make it to nationals from the Upper Peninsula of Michigan.
+The championship division was won by Owasso First Assembly of God, Owasso, OK (pictured). This was the second consecutive year that this church won nationals. They are only the seventh team to do so in the history of Bible Quiz, although they are the third to do so in the previous ten years. They join teams from Denver, CO (1966 and 1967), New Orleans, LA (1983 and 1984), Tempe, AZ (1986 and 1987), Lakeland, FL (1990 and 1991), Orange, CA (2002 and 2003) and Colorado Springs, CO (2006 and 2007). If wins during the preliminary rounds are included, Owasso won 48 consecutive games at national finals which is a record. Counting the wins only during the regular rounds, Owasso has the second-best two-year record of all time with 37 wins and 1 loss (the best was Orange, CA, in 2002 and 2003, who was undefeated both years). The second place team was Cedar Park AG, Bothell, WA. This marks the fourth straight year that Bothell has been in second place. This breaks a 30-year old record held by Riverside, CA for longest second place streak (they were second in 1978, 1979 and 1980). Bothell was the national champion in 2005, though, a feat that Riverside never accomplished. The third place team was Faith AG, Orlando, FL. The challenger division was won by Lakeside AG, Menominee, MI. Menominee was the first known team to make it to nationals from the Upper Peninsula of Michigan.
 
 This marks the second consecutive and fifth overall year in which the South Central region has won nationals. The Owasso team had one of the most balanced teams in history with Josh, Daniel and Jesse Wagner scoring 38%, 34% and 26% of their team's total points, respectively.
 
@@ -26,33 +26,33 @@ The individual tournament was won by Daniel Wagner of Owasso, OK. This was the n
 
 ### Teams
 
-| Rank | Team                                                    | Record | Total Pts | Avg Pts | Margin | Avg Margin |
-| ---- | ------------------------------------------------------- | ------ | --------- | ------- | ------ | ---------- |
-| 1    | Owasso First A/G, Owasso, OK                            | 18-1   | 4460      | 234.74  | 2940   | 154.74     |
-| 2    | Cedar Park A/G, Bothell, WA                             | 17-2   | 4260      | 224.21  | 2435   | 128.16     |
-| 3    | Faith A/G, Orlando, FL                                  | 15-4   | 3775      | 198.68  | 1235   | 65.00      |
-| 4    | James River A/G, "Greatly Puzzled", Ozark, MO           | 14-5   | 3605      | 189.74  | 1505   | 79.21      |
-| 5    | Praise A/G, Garfield, NJ                                | 13-6   | 3150      | 165.79  | 1060   | 55.78      |
-| 6    | Victorious Life Church, "Four Winds", Wesley Chapel, FL | 11-8   | 3095      | 162.89  | 60     | 3.16       |
-| 7    | Orange County Worship Center, Santa Ana, CA             | 10-9   | 2295      | 120.79  | (590)  | (31.05)    |
-| 8    | O'Fallon A/G, O'Fallon, IL                              | 10-9   | 2840      | 149.47  | 210    | 11.05      |
-| 9    | Overland Park First A/G, Overland Park, KS              | 9-10   | 2590      | 136.32  | (275)  | (14.47)    |
-| 10   | Manassas A/G, Bristow, VA                               | 9-10   | 2660      | 140.00  | (365)  | (19.21)    |
-| 11   | Northridge A/G, Grand Island, NE                        | 9-10   | 2485      | 130.79  | (780)  | (41.05)    |
-| 12   | James River A/G, "Trembling and Bewildered", Ozark, MO  | 8-11   | 2445      | 128.68  | (675)  | (35.53)    |
-| 13   | First A/G, Binghamton, NY                               | 8-11   | 2715      | 142.89  | (195)  | (10.26)    |
-| 14   | Faith A/G, West Plains, MO                              | 8-11   | 2525      | 132.89  | (90)   | (4.74)     |
-| 15   | Christian Chapel, Tulsa, OK                             | 7-12   | 2105      | 110.79  | (530)  | (27.89)    |
-| 16   | Central A/G, Springfield, MO                            | 6-13   | 2270      | 119.47  | (915)  | (48.16)    |
-| 17   | Faith Family Church, Acworth, GA                        | 5-14   | 2305      | 121.31  | (1235) | (65.00)    |
-| 18   | Braeswood A/G, Houston, TX                              | 5-14   | 1885      | 99.21   | (1365) | (71.84)    |
-| 19   | Journey Church, Bridgeville, PA                         | 5-14   | 2370      | 124.74  | (1000) | (52.63)    |
-| 20   | The Church at Briargate, Colorado Springs, CO           | 3-16   | 1695      | 89.21   | (1430) | (75.26)    |
+| Rank | Team                                      | City                 | Record | Total Pts | Avg Pts | Margin | Avg Margin |
+| ---- | ----------------------------------------- | -------------------- | ------ | --------- | ------- | ------ | ---------- |
+| 1    | Owasso First AG,                          | Owasso, OK           | 18-1   | 4460      | 234.74  | 2940   | 154.74     |
+| 2    | Cedar Park AG                             | Bothell, WA          | 17-2   | 4260      | 224.21  | 2435   | 128.16     |
+| 3    | Faith AG                                  | Orlando, FL          | 15-4   | 3775      | 198.68  | 1235   | 65.00      |
+| 4    | James River AG "Greatly Puzzled",         | Ozark, MO            | 14-5   | 3605      | 189.74  | 1505   | 79.21      |
+| 5    | Praise AG                                 | Garfield, NJ         | 13-6   | 3150      | 165.79  | 1060   | 55.78      |
+| 6    | Victorious Life Church, "Four Winds"      | Wesley Chapel, FL    | 11-8   | 3095      | 162.89  | 60     | 3.16       |
+| 7    | Orange County Worship Center              | Santa Ana, CA        | 10-9   | 2295      | 120.79  | (590)  | (31.05)    |
+| 8    | O'Fallon AG                               | O'Fallon, IL         | 10-9   | 2840      | 149.47  | 210    | 11.05      |
+| 9    | Overland Park First AG                    | Overland Park, KS    | 9-10   | 2590      | 136.32  | (275)  | (14.47)    |
+| 10   | Manassas AG                               | Bristow, VA          | 9-10   | 2660      | 140.00  | (365)  | (19.21)    |
+| 11   | Northridge AG                             | Grand Island, NE     | 9-10   | 2485      | 130.79  | (780)  | (41.05)    |
+| 12   | James River AG "Trembling and Bewildered" | Ozark, MO            | 8-11   | 2445      | 128.68  | (675)  | (35.53)    |
+| 13   | First AG                                  | Binghamton, NY       | 8-11   | 2715      | 142.89  | (195)  | (10.26)    |
+| 14   | Faith AG                                  | West Plains, MO      | 8-11   | 2525      | 132.89  | (90)   | (4.74)     |
+| 15   | Christian Chapel                          | Tulsa, OK            | 7-12   | 2105      | 110.79  | (530)  | (27.89)    |
+| 16   | Central AG                                | Springfield, MO      | 6-13   | 2270      | 119.47  | (915)  | (48.16)    |
+| 17   | Faith Family Church                       | Acworth, GA          | 5-14   | 2305      | 121.31  | (1235) | (65.00)    |
+| 18   | Braeswood AG                              | Houston, TX          | 5-14   | 1885      | 99.21   | (1365) | (71.84)    |
+| 19   | Journey Church                            | Bridgeville, PA      | 5-14   | 2370      | 124.74  | (1000) | (52.63)    |
+| 20   | The Church at Briargate                   | Colorado Springs, CO | 3-16   | 1695      | 89.21   | (1430) | (75.26)    |
 
 
 ### Individuals
 
-| Position | Quizzer             | Church                 | Total Pts | Avg Pts | Q/out |
+| Position | Quizzer             | City                   | Total Pts | Avg Pts | Q/out |
 | -------- | ------------------- | ---------------------- | --------- | ------- | ----- |
 | 1        | Jared Burkhalter    | Orlando, FL            | 2200      | 115.79  | 15    |
 | 2        | James Lex           | Acworth, GA            | 2095      | 110.26  | 17    |
@@ -137,3 +137,31 @@ The individual tournament was won by Daniel Wagner of Owasso, OK. This was the n
 | 70       | Oseikhuemen         | Omobhude Houston, TX   | 0         | 0.00    | 0     |
 | 81       | Jordan Lemons       | O'Fallon, IL           | (5)       | (0.26)  | 0     |
 | 82       | Miki Beye           | Grand Island, NE       | (10)      | (0.53)  | 0     |
+
+## Challenger Division
+
+### Teams
+
+| Rank | Team                                       | City              | Record | Total Pts | Avg Pts | Total Margin | Avg Margin |
+| ---- | ------------------------------------------ | ----------------- | ------ | --------- | ------- | ------------ | ---------- |
+| 1    | Lakeside AG                                | Menominee, MI*    | 14-5   | 2925      | 153.95  | 1105         | 58.15      |
+| 2    | Nyssa Christian Fellowship                 | Nyssa, OR         | 14-5   | 2440      | 128.42  | 805          | 42.37      |
+| 3    | Montgomery First AG                        | Montgomery, AL    | 13-6   | 2345      | 123.42  | 820          | 43.15      |
+| 4    | Victorious Life Church "His Elect"         | Wesley Chapel, FL | 13-6   | 3245      | 170.79  | 1580         | 83.15      |
+| 5    | The Stone Church                           | Palos Heights, IL | 13-6   | 2535      | 133.42  | 670          | 35.26      |
+| 6    | Living Hope Worship Center                 | Swedesboro, NJ    | 12-7   | 2495      | 131.32  | 580          | 30.53      |
+| 7    | Racine AG                                  | Racine, WI        | 12-7   | 2120      | 115.58  | 380          | 20.00      |
+| 8    | Dayspring AG                               | Bowling Green, OH | 11-8   | 2620      | 137.89  | 855          | 45.00      |
+| 9    | First AG                                   | Lexington, KY     | 11-8   | 2230      | 117.37  | 205          | 10.79      |
+| 10   | Noble AG                                   | Noble, OK         | 10-9   | 2105      | 110.79  | 30           | 1.58       |
+| 11   | Hosanna Family Worship Center              | Shreveport, LA    | 9-10   | 2105      | 110.79  | (105)        | (5.53)     |
+| 12   | New Life AG                                | White Cloud, MI   | 9-10   | 2150      | 113.16  | 180          | 9.47       |
+| 13   | New Life AG                                | Sparta, WI        | 9-10   | 1490      | 78.42   | (755)        | (39.74)    |
+| 14   | The Worship Center                         | Brighton, CO      | 8-11   | 2040      | 107.37  | (65)         | (3.42)     |
+| 15   | Turning Point Christian Center             | Vancouver, WA     | 8-11   | 1385      | 72.89   | (825)        | (43.42)    |
+| 16   | Corydon AG                                 | Corydon, IA       | 6-13   | 1840      | 96.84   | (565)        | (29.74)    |
+| 17   | Kuna Life Church                           | Kuna, ID          | 5-14   | 1600      | 84.21   | (865)        | (45.53)    |
+| 18   | Bellevue Neighborhood Church               | Bellevue, WA      | 5-14   | 1445      | 76.05   | (1260)       | (66.32)    |
+| 19   | Living Water AG                            | Fort Lupton, CO   | 5-14   | 1375      | 72.37   | (1300)       | (68.42)    |
+| 20   | Orange County Christian Evangelical Church | Irvine, CA        | 3-16   | 1485      | 78.16   | (1470)       | (77.37)    |
+
