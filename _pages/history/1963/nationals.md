@@ -109,7 +109,7 @@ menubar_toc: true
     * Barbara Gregg
     * Brenda Gregg
     * Rusty Laurens
-    * Scott Laurens
+    * [Scott Laurens]({% link _pages/history/1963/memories/scott-laurens.md %})
     * Ronnie Pruett
 
 ### Southwest Region
@@ -122,3 +122,6 @@ menubar_toc: true
     * Kenneth Crosswaite
     * Mary Dine
     * Ruth Dine
+
+## Memories
+* [Scott Laurens]({% link _pages/history/1963/memories/scott-laurens.md %})
