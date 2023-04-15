@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/2019/gold-cup/
 title: "2018 Gold Cup"
-date: "20-10-20"
+date: "2018-10-20"
 toc_title: Results
 menubar_toc: true
 ---

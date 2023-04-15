@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /history/2018-season/2018-nationals/
+permalink: /history/2018/nationals/
 title: "2018 Nationals"
 date: "2020-02-09"
 toc_title: Results
@@ -34,7 +34,7 @@ menubar_toc: true
 | 19 | 1st AG of Greater Lansing (Greater Lansing, MI)      | 5/14 | 1870 | 98.4  | 11  | 56  | 72  |
 | 20 | Bethany Church (Wyckoff, NJ)                         | 5/14 | 1405 | 73.9  | 3   | 49  | 66  |
 
-## Individuals
+### Individuals
 
 | #  | Quizzer               | Team Church                                             | Pts  | AVG  | QO | 30s | 20s | 10s |
 |----|-----------------------|---------------------------------------------------------|------|------|----|-----|-----|-----|
