@@ -81,5 +81,5 @@ toc_title: Decades
 * 1966: Romans
 * 1965: Gospel of Mark
 * 1964: I & II Corinthians
-* 1963: Gospel of Luke
+* [1963: Gospel of Luke]({% link _pages/history/1963/index.md %})
 * 1962: Acts of the Apostles
