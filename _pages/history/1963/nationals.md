@@ -8,7 +8,7 @@ menubar_toc: true
 ---
 
 The 1st National Bible Quiz Finals took place August 23-24, 1963 at First A/G in Memphis, Tennessee
-covering the book of Luke. Lee Schultz was the [National Coordinator]({% link _pages/history/coordinators.md %}) and Stan Walters was the [official question writer]{% link _pages/history/question-writers.md %}].
+covering the book of Luke. Lee Schultz was the [National Coordinator]({% link _pages/history/coordinators.md %}) and Stan Walters was the [official question writer]({% link _pages/history/question-writers.md %}).
 
 The event was won by [Bouldercrest A/G, Atlanta, GA](#southeast-region). The second place team was [First A/G, Plainview, TX](#south-central-region).
 
