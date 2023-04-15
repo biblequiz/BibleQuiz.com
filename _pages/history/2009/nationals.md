@@ -7,7 +7,7 @@ toc_title: Navigation
 menubar_toc: true
 ---
 
-![]({% link assets/2009/Owasso.jpg %})
+![](https://biblequiz.com/assets/2009/Owasso.jpg)
 
 ## Summary
 
