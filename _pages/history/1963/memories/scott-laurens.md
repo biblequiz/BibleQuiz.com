@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /history/1963/memories/scott-laurens/
-title: "1963 Nationals - Scott Laurens's Memories"
+title: "1963 Nationals - Scott Laurens' Memories"
 author: Scott Laurens
 ---
 
 {% include notification.html
-   message="The following are the recollections on the very first National Bible Quiz Finals of Scott Laurens, captain and top scorer of the 1st place team from <a href="/history/1963/nationals/#southeast-region">Bouldercrest A/G, Atlanta, GA</a>"
+   message="The following are the recollections on the very first National Bible Quiz Finals of Scott Laurens, captain and top scorer of the 1st place team from <a href='/history/1963/nationals/#southeast-region'>Bouldercrest A/G, Atlanta, GA</a>"
    icon="fas fa-info-circle"
    status="is-success" %}
 
