@@ -21,7 +21,7 @@ toc_title: Decades
 * [2016: Acts of the Apostles]({% link _pages/history/2016/index.md %})
 * [2015: Romans and James]({% link _pages/history/2015/index.md %})
 * [2014: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John]({% link _pages/history/2014/index.md %})
-* 2013: Gospel of Matthew
+* [2013: Gospel of Matthew]({% link _pages/history/2013/index.md %})
 * 2012: Hebrews, I & II Peter, Jude
 * 2011: Gospel of John
 * 2010: I & II Corinthians
