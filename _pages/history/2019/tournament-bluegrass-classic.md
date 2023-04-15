@@ -16,9 +16,8 @@ menubar_toc: true
 
 ### Teams
 
-|   |                                                       |        |           |         |    |     |     |     |     |
+| # | Team / Church                                         | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |---|-------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
-| # | Team / Church                                         | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
 | 1 | OH-MI (Journey Life Church)                           | May-00 | 855       | 171     | 8  | 71% | 6   | 25  | 24  |
 | 2 | Ah Yes Judges (Lexington First Assembly)              | 1-Apr  | 880       | 176     | 9  | 81% | 6   | 24  | 16  |
 | 3 | Life Church (Life Church Germantown)                  | 3-Feb  | 380       | 76      | 4  | 56% | 4   | 14  | 13  |
@@ -32,7 +31,7 @@ menubar_toc: true
 
 ### Individuals
 
-| #   | Quizzer            | Team / Church                                         | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #   | Quizzer            | Team / Church                                         |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |-----|--------------------|-------------------------------------------------------|-----------|---------|----|-----|-----|-----|-----|
 | 1   | Josiah Smith       | Ah Yes Judges (Lexington First Assembly)              | 450       | 90      | 4  | 72% | 5   | 16  |     |
 | 2   | Tyler McCracken    | Ah Yes Judges (Lexington First Assembly)              | 430       | 86      | 5  | 89% | 1   | 8   | 16  |
@@ -64,7 +63,7 @@ menubar_toc: true
 
 ### Teams
 
-| # | Team / Church                            | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| # | Team / Church                            | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |---|------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1 | Ah Yes Judges (Lexington First Assembly) | Feb-00 | 450       | 224.9   | 4  | 87% | 5   | 10  | 5   |
 | 2 | OH-MI (Journey Life Church)              | 1-Jan  | 265       | 132.4   | 2  | 69% | 1   | 9   | 10  |
@@ -72,7 +71,7 @@ menubar_toc: true
 
 ### Individuals
 
-| #  | Quizzer            | Team / Church                            | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #  | Quizzer            | Team / Church                            |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |----|--------------------|------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1  | Josiah Smith       | Ah Yes Judges (Lexington First Assembly) | 255       | 127.5   | 2  | 83%  | 4   | 6   |     |
 | 2  | Tyler McCracken    | Ah Yes Judges (Lexington First Assembly) | 195       | 97.5    | 2  | 91%  | 1   | 4   | 5   |
@@ -83,13 +82,13 @@ menubar_toc: true
 | 7  | Zoie Mafe          | OH-MI (Journey Life Church)              | 30        | 15      |    | 100% |     | 1   | 1   |
 | 8  | Aaron Lane         | Life Church (Life Church Germantown)     | 0         |         |    | %    |     |     |     |
 | *8 | Natatlie Carnevale | Ah Yes Judges (Lexington First Assembly) | 0         |         |    | %    |     |     |     |
-| 9  | Darcie Harr        | OH-MI (Journey Life Church)              | -5        | -2.5    |    | 33%  |     | 2   |
+| 9  | Darcie Harr        | OH-MI (Journey Life Church)              | -5        | -2.5    |    | 33%  |     | 2   |     |
 
 ## Advanced 2
 
 ### Teams
 
-| # | Team / Church                                         | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| # | Team / Church                                         | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |---|-------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1 | Physically Present (1st Assembly of God-Rolla)        | Feb-00 | 330       | 164.9   | 3  | 78% | 1   | 10  | 7   |
 | 2 | My Freedom is Being Judged (Lexington First Assembly) | 1-Jan  | 270       | 134.9   | 2  | 81% | 3   | 7   | 3   |
@@ -97,7 +96,7 @@ menubar_toc: true
 
 ### Individuals
 
-| # | Quizzer          | Team / Church                                         | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| # | Quizzer          | Team / Church                                         |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |---|------------------|-------------------------------------------------------|-----------|---------|----|-----|-----|-----|-----|
 | 1 | Josiah Laakkonen | My Freedom is Being Judged (Lexington First Assembly) | 245       | 122.5   | 2  | 83% | 3   | 7   |     |
 | 2 | Gannon Breig     | Physically Present (1st Assembly of God-Rolla)        | 240       | 120     | 2  | 91% | 1   | 9   |     |
@@ -106,20 +105,20 @@ menubar_toc: true
 | 5 | Aaron Lin        | My Freedom is Being Judged (Lexington First Assembly) | 15        | 7.5     |    | 66% |     |     | 2   |
 | 6 | Ben Tighe        | My Freedom is Being Judged (Lexington First Assembly) | 10        | 5       |    | 99% |     |     | 1   |
 | 7 | Shannon Tinney   | Sensible People (Trinity A/G)                         | 5         | 2.5     |    | 50% |     |     | 1   |
-| 8 | Abby Harrison    | Physically Present (1st Assembly of God-Rolla)        | 0         |         |    | %   |
+| 8 | Abby Harrison    | Physically Present (1st Assembly of God-Rolla)        | 0         |         |    | %   |     |     |     |
 
 ## Middle School
 
 ### Teams
 
-| # | Team / Church                                  | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| # | Team / Church                                  | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |---|------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1 | M-Slave to Everyone (Lexington First Assembly) | Mar-00 | 470       | 156.6   | 3  | 81% | 4   | 13  | 8   |
 | 2 | M-Running Batty (Central Assembly )            | 0 / 3  | 120       | 40      |    | 64% |     | 5   | 11  |
 
 ### Individuals
 
-| #  | Quizzer        | Team / Church                                  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #  | Quizzer        | Team / Church                                  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |----|----------------|------------------------------------------------|-----------|---------|----|-----|-----|-----|-----|
 | 1  | Caleb Song     | M-Slave to Everyone (Lexington First Assembly) | 365       | 121.7   | 3  | 88% | 3   | 12  |     |
 | 2  | Sarah Lin      | M-Slave to Everyone (Lexington First Assembly) | 105       | 35      |    | 90% | 1   |     | 8   |
@@ -127,4 +126,4 @@ menubar_toc: true
 | 4  | Makayla Butler | M-Running Batty (Central Assembly )            | 35        | 11.7    |    | 75% |     |     | 6   |
 | 5  | Emma Butler    | M-Running Batty (Central Assembly )            | 0         |         |    | 50% |     |     | 1   |
 | *5 | Josiah Horn    | M-Slave to Everyone (Lexington First Assembly) | 0         |         |    | 25% |     | 1   |     |
-| *5 | Lexi Butler    | M-Running Batty (Central Assembly )            | 0         |         |    | %   |
+| *5 | Lexi Butler    | M-Running Batty (Central Assembly )            | 0         |         |    | %   |     |     |     \

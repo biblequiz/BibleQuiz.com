@@ -11,7 +11,7 @@ menubar_toc: true
 
 ### Teams
 
-| #    | Team / Church                                                         | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #    | Team / Church                                                         | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |------|-----------------------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1    | Maple Lane A/G - Deposit, NY (Final Greetings)                        | 17 / 2 | 3490      | 183.7   | 23 | 73% | 29  | 104 | 81  |
 | 2    | 1st AG - Lexington, KY (I Do Not Know!)                               | 15 / 4 | 3235      | 170.3   | 23 | 74% | 19  | 98  | 90  |
@@ -36,7 +36,7 @@ menubar_toc: true
 
 ### Individuals
 
-| #   | Quizzer               | Team / Church                                                         | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #   | Quizzer               | Team / Church                                                         |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|-----------------------|-----------------------------------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1   | Halle J. Reisinger    | Newport AG - Newport, PA (Torn Between the Two)                       | 2175      | 114.5   | 15 | 85%  | 26  | 62  | 2   |
 | 2   | Zak Kellock           | Dream City Church - Scottsdale, AZ (Made the Two Groups One)          | 2095      | 110.3   | 14 | 87%  | 24  | 61  | 3   |
@@ -116,7 +116,7 @@ menubar_toc: true
 
 ### Teams
 
-| #   | Team / Church                                                   | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #   | Team / Church                                                   | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |-----|-----------------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1.1 | Neighborhood Church - Bellevue, WA (Squared Swordfish)          | 14 / 5 | 2160      | 113.7   | 14 | 70% | 13  | 62  | 80  |
 | 1   | James River Church - Ozark, MO (Goals)                          | 14 / 5 | 2510      | 132.1   | 17 | 73% | 16  | 72  | 74  |
@@ -141,7 +141,7 @@ menubar_toc: true
 
 ### Individuals
 
-| #   | Quizzer              | Team / Church                                                   | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #   | Quizzer              | Team / Church                                                   |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|----------------------|-----------------------------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1   | Zach Ponraj          | Tacoma Life Center - Tacoma, WA (Unknown Males)                 | 1520      | 80      | 10 | 76%  | 18  | 44  | 15  |
 | 2   | Theodore Arasavelli  | Neighborhood Church - Bellevue, WA (Squared Swordfish)          | 1470      | 77.4    | 12 | 75%  | 12  | 41  | 31  |
@@ -218,7 +218,7 @@ menubar_toc: true
 
 #### Teams
 
-| #   | Team / Church                                                | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #   | Team / Church                                                | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |-----|--------------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1   | 1st AG - Lexington, KY (I Do Not Know!)                      | Jul-00 | 1670      | 238.5   | 15 | 78% | 12  | 44  | 37  |
 | 2   | Christian Center - Mechanicsville, VA (Fine Sounding Four)   | 1-Jun  | 1005      | 143.6   | 8  | 77% | 7   | 25  | 31  |
@@ -231,7 +231,7 @@ menubar_toc: true
 
 #### Individuals
 
-| #   | Quizzer               | Team / Church                                                | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #   | Quizzer               | Team / Church                                                |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|-----------------------|--------------------------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1   | Anna Kelly            | 1st AG - Lexington, KY (I Do Not Know!)                      | 810       | 115.7   | 6  | 94%  | 10  | 17  | 7   |
 | 2   | Phoebe Hoffman        | Christian Center - Mechanicsville, VA (Fine Sounding Four)   | 625       | 89.3    | 6  | 83%  | 6   | 13  | 15  |
@@ -267,7 +267,7 @@ menubar_toc: true
 
 #### Teams
 
-| # | Team / Church                                              | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| # | Team / Church                                              | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |---|------------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1 | James River - Ozark, MO (The Flames)                       | Jul-00 | 1620      | 231.4   | 12 | 78% | 12  | 45  | 37  |
 | 2 | Kuna Life Center - Kuna, ID (Their Destiny is Destruction) | 1-Jun  | 1150      | 164.3   | 7  | 80% | 9   | 33  | 26  |
@@ -280,7 +280,7 @@ menubar_toc: true
 
 #### Individuals
 
-| #   | Quizzer            | Team / Church                                              | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #   | Quizzer            | Team / Church                                              |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|--------------------|------------------------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1   | Hannah Quick       | James River - Ozark, MO (The Flames)                       | 670       | 95.7    | 5  | 86%  | 5   | 21  | 6   |
 | 2   | Cameron Berta      | The Oaks Fellowship - Red Oak, TX (Pure and Blameless)     | 605       | 86.4    | 4  | 81%  | 6   | 18  | 6   |
@@ -315,7 +315,7 @@ menubar_toc: true
 
 #### Teams
 
-| #   | Team / Church                                                   | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #   | Team / Church                                                   | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |-----|-----------------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1   | Newport AG - Newport, PA (Torn Between the Two)                 | Jul-00 | 1310      | 187.1   | 10 | 86% | 15  | 24  | 27  |
 | 2   | Calvary Church - Naperville, IL (Calvary Church)                | 1-Jun  | 1460      | 208.5   | 12 | 85% | 9   | 35  | 38  |
@@ -328,7 +328,7 @@ menubar_toc: true
 
 #### Individuals
 
-| #   | Quizzer            | Team / Church                                                   | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #   | Quizzer            | Team / Church                                                   |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|--------------------|-----------------------------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1   | Halle J. Reisinger | Newport AG - Newport, PA (Torn Between the Two)                 | 950       | 135.7   | 7  | 92%  | 15  | 20  |     |
 | 2   | Josiah Schwarz     | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)           | 725       | 120.8   | 5  | 85%  | 11  | 17  | 1   |
@@ -362,7 +362,7 @@ menubar_toc: true
 
 #### Teams
 
-| #   | Team / Church                                                         | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #   | Team / Church                                                         | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |-----|-----------------------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1   | Living Hope Worship - Swedesboro, NJ (Depth of Nsyte)                 | Jul-00 | 1145      | 163.5   | 8  | 83% | 11  | 27  | 24  |
 | 2.1 | Evangel Temple - Springfield, MO (The Church That Meets in Your Home) | 2-May  | 995       | 142.1   | 7  | 76% | 7   | 28  | 27  |
@@ -375,7 +375,7 @@ menubar_toc: true
 
 #### Individuals
 
-| #  | Quizzer            | Team / Church                                                         | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #  | Quizzer            | Team / Church                                                         |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |----|--------------------|-----------------------------------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1  | Katrina Dowdy      | Living Hope Worship - Swedesboro, NJ (Depth of Nsyte)                 | 830       | 118.6   | 6  | 87%  | 10  | 23  | 1   |
 | 2  | Kelise Braithwaite | Evangel Temple - Springfield, MO (The Church That Meets in Your Home) | 580       | 82.9    | 4  | 74%  | 6   | 21  | 1   |
@@ -409,7 +409,7 @@ menubar_toc: true
 
 #### Teams
 
-| #   | Team / Church                                                         | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #   | Team / Church                                                         | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |-----|-----------------------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1   | Living Hope Worship - Swedesboro, NJ (Depth of Nsyte)                 | Jul-00 | 1145      | 163.5   | 8  | 83% | 11  | 27  | 24  |
 | 2.1 | Evangel Temple - Springfield, MO (The Church That Meets in Your Home) | 2-May  | 995       | 142.1   | 7  | 76% | 7   | 28  | 27  |
@@ -422,7 +422,7 @@ menubar_toc: true
 
 #### Individuals
 
-| #   | Quizzer              | Team / Church                                                | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #   | Quizzer              | Team / Church                                                |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|----------------------|--------------------------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1   | Zak Kellock          | Dream City Church - Scottsdale, AZ (Made the Two Groups One) | 695       | 99.3    | 5  | 76%  | 9   | 21  | 1   |
 | 2   | Solomon Stevens      | Maple Lane A/G - Deposit, NY (Final Greetings)               | 600       | 85.7    | 5  | 83%  | 5   | 16  | 9   |

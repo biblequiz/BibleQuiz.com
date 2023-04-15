@@ -11,7 +11,7 @@ menubar_toc: true
 
 ### Teams
 
-| #    | Team / Church                                                     | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #    | Team / Church                                                     | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |------|-------------------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1.1  | Calvary Church Naperville (J) (IL,Naperville - Calvary Church)    | 15 / 4 | 3495      | 183.9   | 29 | 78% | 25  | 88  | 90  |
 | 2    | Central (PA,Houston - Central AG)                                 | 15 / 4 | 2970      | 156.3   | 26 | 80% | 21  | 76  | 67  |
@@ -36,7 +36,7 @@ menubar_toc: true
 
 ### Individuals
 
-| #   | Quizzer             | Team / Church                                                     | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #   | Quizzer             | Team / Church                                                     |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|---------------------|-------------------------------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1   | Zak Kellock         | Dream City Church Scottsdale (AZ,Scottsdale - Dream City Church)  | 2095      | 110.3   | 17 | 83%  | 26  | 53  | 11  |
 | 2   | Cameron Ramsey      | Badly Mistaken (MO,Springfield - Life360 A/G)                     | 2090      | 110     | 16 | 88%  | 24  | 53  | 13  |
@@ -109,7 +109,7 @@ menubar_toc: true
 
 ### Teams
 
-| #   | Team / Church                                             | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #   | Team / Church                                             | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |-----|-----------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1   | Straight Up Salty (PA,BethelPark - South Hills AG)        | 13 / 1 | 2030      | 145     | 17 | 77% | 7   | 55  | 77  |
 | 2   | No Money In Our Belts (SD,SiouxFalls - Sioux Falls First) | 5-Sep  | 1785      | 127.5   | 11 | 78% | 14  | 46  | 53  |
@@ -122,7 +122,7 @@ menubar_toc: true
 
 ### Individuals
 
-| #   | Quizzer              | Team / Church                                             | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #   | Quizzer              | Team / Church                                             |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|----------------------|-----------------------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1   | Grace Fabian         | Straight Up Salty (PA,BethelPark - South Hills AG)        | 1230      | 87.9    | 11 | 77%  | 7   | 42  | 17  |
 | 2   | Matthew McKinley     | No Money In Our Belts (SD,SiouxFalls - Sioux Falls First) | 1140      | 81.4    | 8  | 78%  | 12  | 32  | 16  |
@@ -157,7 +157,7 @@ menubar_toc: true
 
 ### Teams
 
-| #   | Team / Church                                                        | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #   | Team / Church                                                        | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |-----|----------------------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1   | Rolla First Assembly (MO,Rolla - First Assembly Of God)              | Dec-00 | 2010      | 167.5   | 20 | 77% | 17  | 54  | 37  |
 | 2.1 | We Have Never Seen Anything Like This (CO,ColoradoSprings - Radiant) | 6-Jun  | 1105      | 92.1    | 9  | 78% | 14  | 32  | 6   |
@@ -167,7 +167,7 @@ menubar_toc: true
 
 ## Individuals
 
-| #   | Quizzer             | Team / Church                                                        | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #   | Quizzer             | Team / Church                                                        |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |-----|---------------------|----------------------------------------------------------------------|-----------|---------|----|-----|-----|-----|-----|
 | 1   | Gannon Breig        | Rolla First Assembly (MO,Rolla - First Assembly Of God)              | 1340      | 111.7   | 12 | 76% | 17  | 42  | 1   |
 | 2   | Joshua Phaneuf      | We Have Never Seen Anything Like This (CO,ColoradoSprings - Radiant) | 1115      | 92.9    | 9  | 78% | 14  | 32  | 6   |

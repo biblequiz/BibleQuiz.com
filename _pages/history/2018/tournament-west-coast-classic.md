@@ -32,7 +32,7 @@ menubar_toc: true
 | 8  | Vivian Ju         | OCCEC-A1        | OCCEC                  | 40    | 6.67  |    |
 | 9  | Hannah Royer      | Tucson-A1       | Victory Worship Center | 25    | 4.17  |    |
 | 10 | Grace Gephart     | Tucson-A1       | Victory Worship Center | 20    | 3.33  |    |
-| 11 | Jonathan Baskette | Newport Mesa-A2 | NMC                    | 5     | 0.83  |
+| 11 | Jonathan Baskette | Newport Mesa-A2 | NMC                    | 5     | 0.83  |    |
 
 ## March-M
 

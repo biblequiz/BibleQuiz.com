@@ -11,7 +11,7 @@ menubar_toc: true
 
 ### Teams
 
-| #    | Team / Church                          | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #    | Team / Church                          | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |------|----------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1    | Calvary Church (Naperville, IL)        | 17 / 2 | 3750      | 197.4   | 30 | 75% | 35  | 91  | 79  |
 | 2.1  | Redeemer Church (Utica, NY)            | 15 / 4 | 3435      | 180.8   | 25 | 69% | 28  | 106 | 89  |
@@ -38,7 +38,7 @@ menubar_toc: true
 
 ### Individuals
 
-| #   | Quizzer              | Team / Church                          | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #   | Quizzer              | Team / Church                          |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|----------------------|----------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1   | Zak Kellock          | MCC (Jason) (Mechanicsville, VA)       | 2145      | 112.9   | 17 | 83%  | 26  | 57  | 7   |
 | 2   | Anna Kelly           | MCC (Monica) (Mechanicsville, VA)      | 2075      | 109.2   | 17 | 81%  | 25  | 58  | 7   |

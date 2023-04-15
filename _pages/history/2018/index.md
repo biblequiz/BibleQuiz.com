@@ -6,6 +6,7 @@ date: "2020-02-09"
 menubar: menu_history
 ---
 
+
 ## Nationals
 
 <a href="{% link _pages/history/2018/nationals.md %}" class="button is-primary">National Finals</a>

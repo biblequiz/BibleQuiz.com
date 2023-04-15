@@ -11,7 +11,7 @@ menubar_toc: true
 
 ### Teams
 
-| #   | Team / Church                                          | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #   | Team / Church                                          | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |-----|--------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1   | To Win As Many As Possible (Redeemer Church-Utica, NY) | Nov-00 | 2655      | 241.3   | 23 | 79% | 22  | 68  | 56  |
 | 2   | The Imposters (Redeemer Church-Utica, NY)              | 2-Sep  | 2165      | 196.8   | 15 | 77% | 21  | 55  | 44  |
@@ -28,7 +28,7 @@ menubar_toc: true
 
 ### Individuals
 
-| #   | Quizzer            | Team / Church                                          | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #   | Quizzer            | Team / Church                                          |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|--------------------|--------------------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1   | Judah Stevens      | To Win As Many As Possible (Redeemer Church-Utica, NY) | 1305      | 118.6   | 10 | 81%  | 21  | 32  | 1   |
 | 2   | Julia Martello     | Calvary Church (Greensboro, NC)                        | 1265      | 115     | 8  | 87%  | 17  | 33  | 2   |
@@ -73,7 +73,7 @@ menubar_toc: true
 
 ### Teams
 
-| #   | Team / Church                               | W / L  | - Total - | - AVG - | QO | Q%  | 30s | 20s | 10s |
+| #   | Team / Church                               | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |-----|---------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
 | 1   | Praise Church (Garfield, NJ)                | Jul-00 | 1285      | 183.5   | 10 | 83% | 17  | 25  | 21  |
 | 2   | CTI The Lord's People (Wayne, NJ)           | 1-Jun  | 1595      | 227.8   | 13 | 88% | 11  | 39  | 31  |
@@ -86,7 +86,7 @@ menubar_toc: true
 
 ### Individuals
 
-| #   | Quizzer           | Team / Church                               | - Total - | - AVG - | QO | Q%   | 30s | 20s | 10s |
+| #   | Quizzer           | Team / Church                               |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|-------------------|---------------------------------------------|-----------|---------|----|------|-----|-----|-----|
 | 1   | Ryan Schiebel     | Praise Church (Garfield, NJ)                | 935       | 133.6   | 7  | 92%  | 16  | 17  | 2   |
 | 2   | Joanna Paulraj    | CTI The Lord's People (Wayne, NJ)           | 870       | 124.3   | 7  | 95%  | 9   | 22  | 4   |
