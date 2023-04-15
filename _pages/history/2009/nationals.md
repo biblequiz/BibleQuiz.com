@@ -3,9 +3,11 @@ layout: page
 permalink: /history/2009/nationals/
 title: "2009 Nationals"
 date: "2009-07-31"
-toc_title: Results
+toc_title: Navigation
 menubar_toc: true
 ---
+
+## Summary
 
 The 47th National Bible Quiz Finals took place July 12-17, 2009 in St. Louis, Missouri at the Renaissance Marriott Hotel covering the gospel of Mark. Bernie Elliot was the National Coordinator and Aaron Kohler was the official question writer. This was the second year in which Aaron wrote questions. It was also the first year since 1969 that the gospel of Mark was studied.
 
@@ -50,77 +52,86 @@ The individual tournament was won by Daniel Wagner of Owasso, OK. This was the n
 
 ### Individuals
 
-|Position|Quizzer/Church|Total Pts|Avg Pts|Q/out|
-|--- |--- |--- |--- |--- |
-|1|Jared Burkhalter Orlando, FL|2200|115.79|15|
-|2|James Lex Acworth, GA|2095|110.26|17|
-|3|Abby Rogers Wesley Chapel, FL (FW)|1990|104.74|14|
-|4|Brandon Duffy Bothell, WA|1945|102.37|14|
-|5|Grant Warnock Bridgeville, PA|1810|95.26|16|
-|6|Catherine Harris Bristow, VA|1720|90.53|13|
-|7|Joshua Wagner Owasso, OK|1695|89.21|11|
-|8|Blake Porter Ozark, MO (GP)|1665|87.63|13|
-|9|Hannah Swanson Grand Island, NE|1575|82.89|11|
-|10|Jenna-Jo Duffy Bothell, WA|1570|82.63|11|
-|11|Daniel Wagner Owasso, OK|1540|81.05|11|
-|12|LaJoie Ward Binghamton, NY|1445|76.05|12|
-|13|Zach Mang Santa Ana, CA|1425|75|9|
-|14|Tamera Burkhalter Orlando, FL|1345|70.79|12|
-|15|Kyler Sederwall Garfield, NJ|1330|70|9|
-|16|Whitney Garrison Ozark, MO (TB)|1235|65|9|
-|16|Joshua George West Plains, MO|1235|65|9|
-|17|Alyssa Batchelder Tulsa, OK|1215|63.95|11|
-|18|Jesse Wagner Owasso, OK|1180|62.11|10|
-|19|Kourtni Wyatt O'Fallon, IL|1125|59.21|6|
-|20|Justin Czubkowski Garfield, NJ|1100|57.89|8|
-|21|Chelsea Brookbank Overland Park, KS|1070|56.32|7|
-|22|Colin Knoth Ozark, MO (GP)|1045|55|10|
-|23|Isaac Ward Binghamton, NY|1015|53.42|6|
-|24|Jacob Wyatt O'Fallon, IL|1005|52.89|7|
-|25|Emily Murray Springfield, MO|1005|52.89|6|
-|26|Cara Brower Bristow, VA|950|50|7|
-|27|Tori Beye Grand Island, NE|915|48.16|10|
-|28|Matthew Klika Springfield, MO|865|45.53|5|
-|29|Ariel Brookbank Overland Park, KS|855|45|6|
-|30|Danielle Brozovich Ozark, MO (GP)|830|43.68|4|
-|31|Meg Pace Colorado Springs, CO|770|40.53|4|
-|32|Erinn Wolf Wesley Chapel, FL (FW)|760|40|4|
-|33|Joshua Echebiri Houston, TX|725|38.16|6|
-|34|Hillari Wyatt O'Fallon, IL|720|37.89|8|
-|35|Jonathan George West Plains, MO Zachariah Brookbank Overland Park, KS|700|36.84|6|
-|37|Abram Benj Songsong Garfield, NJ|670|35.26|7|
-|38|Braden McCready Tulsa, OK|670|35.26|5|
-|39|Roysan Easo Houston, TX|655|34.47|5|
-|40|Ellen Oss Colorado Springs, CO|645|33.95|2|
-|41|Natalie Garrison Ozark, MO (TB)|635|33.42|5|
-|42|Karan Bhargava West Plains, MO|570|30|3|
-|43|Dana Warnock Bridgeville, PA|555|29.21|4|
-|44|James Lynch Santa Ana, CA|505|26.58|5|
-|45|Justin Napper Ozark, MO (TB)|465|24.47|4|
-|46|Obidinma Kpando Houston, TX|465|24.47|2|
-|47|Nathan Mori Bothell, WA|415|21.84|3|
-|48|Brianna Riley Springfield, MO|415|21.84|2|
-|49|Reesie Owens Wesley Chapel, FL (FW)|340|17.89|1|
-|50|Heather Karnes Bothell, WA|330|17.37|2|
-|51|Julianne Kelley Colorado Springs, CO|290|15.26|1|
-|52|Colin Kuroishi Santa Ana, CA|260|13.68|2|
-|53|Victoria Myrick Binghamton, NY|255|13.42|0|
-|54|Isabella Lex Acworth, GA|210|11.05|0|
-|54|Michelle Paulson Tulsa, OK|185|9.74|1|
-|55|Sabrina Burkhalter Orlando, FL|130|6.84|0|
-|56|Koree Dickson Ozark, MO (TB)|115|6.05|0|
-|57|Jessica Lynch Santa Ana, CA|105|5.53|0|
-|58|Jeremy Butler Orlando, FL|100|5.26|0|
-|59|Unwana Ekpa Houston, TX|80|4.21|0|
-|60|Christopher Knoth Ozark, MO (GP)|70|3.68|0|
-|61|Luke Wagner Owasso, OK|50|2.63|0|
-|62|Christopher Galea Garfield, NJ|45|2.37|0|
-|63|Michael Chorley Tulsa, OK|30|1.58|0|
-|64|David Batchelder Tulsa, OK|25|1.32|0|
-|65|Hannah Hutchison Wesley Chapel, FL (FW)|20|1.05|0|
-|66|Jeremiah George West Plains, MO|15|0.79|0|
-|67|Robert Mitchell Garfield, NJ Heather Murdy West Plains, MO|10|0.53|0|
-|68|Jessica Sikes Bridgeville, PA Jacob Morrow Grand Island, NE|5|0.26|0|
-|70|Brandy Snavely Owasso, OK Alexander Cheski Garfield, NJ Shane Warnock Bridgeville, PA Michael Rose Colorado Springs, CO Rose Oehlerking West Plains, MO Tiny Lopez Overland Park, KS Brooke Greney Bristow, VA LeeAnn Thomas Grand Island, NE Oseikhuemen Omobhude Houston, TX|0|0.00|0|
-|81|Jordan Lemons O'Fallon, IL|(5)|(0.26)|0|
-|82|Miki Beye Grand Island, NE|(10)|(0.53)|0|
+| Position | Quizzer/Church                                              | Total Pts | Avg Pts | Q/out |
+| -------- | ----------------------------------------------------------- | --------- | ------- | ----- |
+| 1        | Jared Burkhalter Orlando, FL                                | 2200      | 115.79  | 15    |
+| 2        | James Lex Acworth, GA                                       | 2095      | 110.26  | 17    |
+| 3        | Abby Rogers Wesley Chapel, FL (FW)                          | 1990      | 104.74  | 14    |
+| 4        | Brandon Duffy Bothell, WA                                   | 1945      | 102.37  | 14    |
+| 5        | Grant Warnock Bridgeville, PA                               | 1810      | 95.26   | 16    |
+| 6        | Catherine Harris Bristow, VA                                | 1720      | 90.53   | 13    |
+| 7        | Joshua Wagner Owasso, OK                                    | 1695      | 89.21   | 11    |
+| 8        | Blake Porter Ozark, MO (GP)                                 | 1665      | 87.63   | 13    |
+| 9        | Hannah Swanson Grand Island, NE                             | 1575      | 82.89   | 11    |
+| 10       | Jenna-Jo Duffy Bothell, WA                                  | 1570      | 82.63   | 11    |
+| 11       | Daniel Wagner Owasso, OK                                    | 1540      | 81.05   | 11    |
+| 12       | LaJoie Ward Binghamton, NY                                  | 1445      | 76.05   | 12    |
+| 13       | Zach Mang Santa Ana, CA                                     | 1425      | 75      | 9     |
+| 14       | Tamera Burkhalter Orlando, FL                               | 1345      | 70.79   | 12    |
+| 15       | Kyler Sederwall Garfield, NJ                                | 1330      | 70      | 9     |
+| 16       | Whitney Garrison Ozark, MO (TB)                             | 1235      | 65      | 9     |
+| 16       | Joshua George West Plains, MO                               | 1235      | 65      | 9     |
+| 17       | Alyssa Batchelder Tulsa, OK                                 | 1215      | 63.95   | 11    |
+| 18       | Jesse Wagner Owasso, OK                                     | 1180      | 62.11   | 10    |
+| 19       | Kourtni Wyatt O'Fallon, IL                                  | 1125      | 59.21   | 6     |
+| 20       | Justin Czubkowski Garfield, NJ                              | 1100      | 57.89   | 8     |
+| 21       | Chelsea Brookbank Overland Park, KS                         | 1070      | 56.32   | 7     |
+| 22       | Colin Knoth Ozark, MO (GP)                                  | 1045      | 55      | 10    |
+| 23       | Isaac Ward Binghamton, NY                                   | 1015      | 53.42   | 6     |
+| 24       | Jacob Wyatt O'Fallon, IL                                    | 1005      | 52.89   | 7     |
+| 25       | Emily Murray Springfield, MO                                | 1005      | 52.89   | 6     |
+| 26       | Cara Brower Bristow, VA                                     | 950       | 50      | 7     |
+| 27       | Tori Beye Grand Island, NE                                  | 915       | 48.16   | 10    |
+| 28       | Matthew Klika Springfield, MO                               | 865       | 45.53   | 5     |
+| 29       | Ariel Brookbank Overland Park, KS                           | 855       | 45      | 6     |
+| 30       | Danielle Brozovich Ozark, MO (GP)                           | 830       | 43.68   | 4     |
+| 31       | Meg Pace Colorado Springs, CO                               | 770       | 40.53   | 4     |
+| 32       | Erinn Wolf Wesley Chapel, FL (FW)                           | 760       | 40      | 4     |
+| 33       | Joshua Echebiri Houston, TX                                 | 725       | 38.16   | 6     |
+| 34       | Hillari Wyatt O'Fallon, IL                                  | 720       | 37.89   | 8     |
+| 35       | Jonathan George West Plains, MO                             | 700       | 36.84   | 6     |
+| 35       | Zachariah Brookbank Overland Park, KS                       | 700       | 36.84   | 6     |
+| 37       | Abram Benj Songsong Garfield, NJ                            | 670       | 35.26   | 7     |
+| 38       | Braden McCready Tulsa, OK                                   | 670       | 35.26   | 5     |
+| 39       | Roysan Easo Houston, TX                                     | 655       | 34.47   | 5     |
+| 40       | Ellen Oss Colorado Springs, CO                              | 645       | 33.95   | 2     |
+| 41       | Natalie Garrison Ozark, MO (TB)                             | 635       | 33.42   | 5     |
+| 42       | Karan Bhargava West Plains, MO                              | 570       | 30      | 3     |
+| 43       | Dana Warnock Bridgeville, PA                                | 555       | 29.21   | 4     |
+| 44       | James Lynch Santa Ana, CA                                   | 505       | 26.58   | 5     |
+| 45       | Justin Napper Ozark, MO (TB)                                | 465       | 24.47   | 4     |
+| 46       | Obidinma Kpando Houston, TX                                 | 465       | 24.47   | 2     |
+| 47       | Nathan Mori Bothell, WA                                     | 415       | 21.84   | 3     |
+| 48       | Brianna Riley Springfield, MO                               | 415       | 21.84   | 2     |
+| 49       | Reesie Owens Wesley Chapel, FL (FW)                         | 340       | 17.89   | 1     |
+| 50       | Heather Karnes Bothell, WA                                  | 330       | 17.37   | 2     |
+| 51       | Julianne Kelley Colorado Springs, CO                        | 290       | 15.26   | 1     |
+| 52       | Colin Kuroishi Santa Ana, CA                                | 260       | 13.68   | 2     |
+| 53       | Victoria Myrick Binghamton, NY                              | 255       | 13.42   | 0     |
+| 54       | Isabella Lex Acworth, GA                                    | 210       | 11.05   | 0     |
+| 54       | Michelle Paulson Tulsa, OK                                  | 185       | 9.74    | 1     |
+| 55       | Sabrina Burkhalter Orlando, FL                              | 130       | 6.84    | 0     |
+| 56       | Koree Dickson Ozark, MO (TB)                                | 115       | 6.05    | 0     |
+| 57       | Jessica Lynch Santa Ana, CA                                 | 105       | 5.53    | 0     |
+| 58       | Jeremy Butler Orlando, FL                                   | 100       | 5.26    | 0     |
+| 59       | Unwana Ekpa Houston, TX                                     | 80        | 4.21    | 0     |
+| 60       | Christopher Knoth Ozark, MO (GP)                            | 70        | 3.68    | 0     |
+| 61       | Luke Wagner Owasso, OK                                      | 50        | 2.63    | 0     |
+| 62       | Christopher Galea Garfield, NJ                              | 45        | 2.37    | 0     |
+| 63       | Michael Chorley Tulsa, OK                                   | 30        | 1.58    | 0     |
+| 64       | David Batchelder Tulsa, OK                                  | 25        | 1.32    | 0     |
+| 65       | Hannah Hutchison Wesley Chapel, FL (FW)                     | 20        | 1.05    | 0     |
+| 66       | Jeremiah George West Plains, MO                             | 15        | 0.79    | 0     |
+| 67       | Robert Mitchell Garfield, NJ Heather Murdy West Plains, MO  | 10        | 0.53    | 0     |
+| 68       | Jessica Sikes Bridgeville, PA Jacob Morrow Grand Island, NE | 5         | 0.26    | 0     |
+| 70       | Brandy Snavely Owasso, OK                                   | 0         | 0.00    | 0     |
+| 70       | Alexander Cheski Garfield, NJ                               | 0         | 0.00    | 0     |
+| 70       | Shane Warnock Bridgeville, PA                               | 0         | 0.00    | 0     |
+| 70       | Michael Rose Colorado Springs, CO                           | 0         | 0.00    | 0     |
+| 70       | Rose Oehlerking West Plains, MO                             | 0         | 0.00    | 0     |
+| 70       | Tiny Lopez Overland Park, KS                                | 0         | 0.00    | 0     |
+| 70       | Brooke Greney Bristow, VA                                   | 0         | 0.00    | 0     |
+| 70       | LeeAnn Thomas Grand Island, NE                              | 0         | 0.00    | 0     |
+| 70       | Oseikhuemen Omobhude Houston, TX                            | 0         | 0.00    | 0     |
+| 81       | Jordan Lemons O'Fallon, IL                                  | (5)       | (0.26)  | 0     |
+| 82       | Miki Beye Grand Island, NE                                  | (10)      | (0.53)  | 0     |
