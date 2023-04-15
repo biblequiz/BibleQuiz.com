@@ -12,9 +12,7 @@ menubar: menu_history
 
 ## Tournaments
 
-<!-- <a href="{% link _pages/history/2009/tournaments/gold-cup.md %}" class="button is-primary">Gold Cup</a> -->
-
-
+Coming soon
 
 ## District Finals
 If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
