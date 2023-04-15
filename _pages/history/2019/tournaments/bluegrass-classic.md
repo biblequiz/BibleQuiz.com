@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /history/2019/bluegrass-classic/
+permalink: /history/2019/tournaments/bluegrass-classic/
 title: "2019 Bluegrass Classic"
 date: "2018-10-27"
 toc_title: Results

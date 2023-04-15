@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /history/2018/nationals/
+permalink: /history/2018/tournaments/river-classic/
 title: "2018 River Classic"
 date: "2018-03-03"
 toc_title: Results

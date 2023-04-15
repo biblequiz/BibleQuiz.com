@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /history/2019/liberty-classic/
+permalink: /history/2019/tournaments/liberty-classic/
 title: "2019 Liberty Classic"
 date: "2018-09-24"
 toc_title: Results

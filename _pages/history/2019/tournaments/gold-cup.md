@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /history/2019/gold-cup/
+permalink: /history/2019/tournaments/gold-cup/
 title: "2018 Gold Cup"
 date: "2018-10-20"
 toc_title: Results

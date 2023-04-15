@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /history/2019/friendship-classic/
+permalink: /history/2019/tournaments/friendship-classic/
 title: "2019 Friendship Classic"
 date: "2019-01-26"
 toc_title: Results
