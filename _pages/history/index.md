@@ -17,10 +17,10 @@ toc_title: Decades
 ## 2010
 * [2019: 1 & II Corinthians]({% link _pages/history/2019/index.md %})
 * [2018: Gospel of Mark]({% link _pages/history/2018/index.md %})
-* 2017: Galatians, Ephesians, Philippians, Colossians, Philemon
-* 2016: Acts of the Apostles
-* 2015: Romans and James
-* 2014: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John
+* [2017: Galatians, Ephesians, Philippians, Colossians, Philemon]({% link _pages/history/2017/index.md %})
+* [2016: Acts of the Apostles]({% link _pages/history/2016/index.md %})
+* [2015: Romans and James]({% link _pages/history/2015/index.md %})
+* [2014: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John]({% link _pages/history/2014/index.md %})
 * 2013: Gospel of Matthew
 * 2012: Hebrews, I & II Peter, Jude
 * 2011: Gospel of John
