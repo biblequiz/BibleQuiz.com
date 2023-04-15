@@ -12,9 +12,8 @@ menubar: menu_history
 
 ## Tournaments
 
-<a href="{% link _pages/history/2009/tournaments/gold-cup.md %}" class="button is-primary">Gold Cup</a>
+<!-- <a href="{% link _pages/history/2009/tournaments/gold-cup.md %}" class="button is-primary">Gold Cup</a> -->
 
-<a href="{% link _pages/history/2009/tournaments/friendship-classic.md %}" class="button is-primary">Friendship Classic</a>
 
 
 ## District Finals
