@@ -7,6 +7,8 @@ toc_title: Navigation
 menubar_toc: true
 ---
 
+![]({% link assets/2009/Owasso.jpg %})
+
 ## Summary
 
 The 47th National Bible Quiz Finals took place July 12-17, 2009 in St. Louis, Missouri at the Renaissance Marriott Hotel covering the gospel of Mark. Bernie Elliot was the National Coordinator and Aaron Kohler was the official question writer. This was the second year in which Aaron wrote questions. It was also the first year since 1969 that the gospel of Mark was studied.
