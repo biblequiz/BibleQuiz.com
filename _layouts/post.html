@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="content">
-    <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
+    <p>Published: {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} by {{ page.author }}{% endif %}</p>
     {% if page.image %}
     <div><img src="{{ site.baseurl }}/assets/{{ page.date | date: "%Y" }}/{{ page.image }}" alt="{{ page.title }}"{% if page.image_max_height %} style="max-height:{{ page.image_max_height }}"{% endif %}></div>
     {% endif %}
