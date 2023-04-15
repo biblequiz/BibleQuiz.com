@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /history/2019-season/2019-nationals/
+permalink: /history/2019/nationals/
 title: "2019 Nationals"
 date: "2020-02-09"
 toc_title: Results
