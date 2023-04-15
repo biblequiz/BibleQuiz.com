@@ -27,7 +27,7 @@ toc_title: Decades
 * 2010: I & II Corinthians
 
 ## 2000
-* 2009: Gospel of Mark
+* [2009: Gospel of Mark]({% link _pages/history/2009/index.md %})
 * 2008: Galatians, Ephesians, Philippians, Colossians, and Philemon 
 * 2007: Acts of the Apostles
 * 2006: Romans and James
