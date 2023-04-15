@@ -15,7 +15,7 @@ toc_title: Decades
 * 2020: Gospel of John
 
 ## 2010
-* [2019: 1 & II Corinthians]({% link _pages/history/2019/2019-season.md %})
+* [2019: 1 & II Corinthians]({% link _pages/history/2019/index.md %})
 * [2018: Gospel of Mark]({% link _pages/history/2018/2018-season.md %})
 * 2017: Galatians, Ephesians, Philippians, Colossians, Philemon
 * 2016: Acts of the Apostles
