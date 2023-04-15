@@ -11,28 +11,29 @@ menubar_toc: true
 
 ### Teams
 
-| #    | Team / Church                                                         | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
-|------|-----------------------------------------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
-| 1    | Maple Lane A/G - Deposit, NY (Final Greetings)                        | 17 / 2 | 3490      | 183.7   | 23 | 73% | 29  | 104 | 81  |
-| 2    | 1st AG - Lexington, KY (I Do Not Know!)                               | 15 / 4 | 3235      | 170.3   | 23 | 74% | 19  | 98  | 90  |
-| 3    | Calvary Church - Naperville, IL (Calvary Church)                      | 14 / 5 | 3065      | 161.3   | 23 | 78% | 26  | 71  | 83  |
-| 4    | James River - Ozark, MO (The Flames)                                  | 13 / 6 | 3290      | 173.1   | 24 | 73% | 23  | 102 | 83  |
-| 5.1  | Newport AG - Newport, PA (Torn Between the Two)                       | 7-Dec  | 2985      | 157.1   | 22 | 77% | 26  | 73  | 71  |
-| 5    | Dream City Church - Scottsdale, AZ (Made the Two Groups One)          | 7-Dec  | 3090      | 162.6   | 20 | 78% | 26  | 83  | 67  |
-| 6.1  | Kuna Life Center - Kuna, ID (Their Destiny is Destruction)            | 8-Nov  | 2430      | 127.9   | 15 | 72% | 17  | 75  | 72  |
-| 6    | Cedar Park - Bothell, WA (Those Dogs)                                 | 8-Nov  | 2435      | 128.2   | 15 | 68% | 18  | 72  | 85  |
-| 7.1  | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)                 | 9-Oct  | 2625      | 138.2   | 16 | 74% | 26  | 62  | 84  |
-| 7    | Living Hope Worship - Swedesboro, NJ (Depth of Nsyte)                 | 9-Oct  | 2560      | 134.7   | 18 | 78% | 22  | 58  | 79  |
-| 8    | Cedar Park - Bothell, WA (Obligated to Answer)                        | 10-Sep | 2285      | 120.3   | 15 | 75% | 13  | 62  | 79  |
-| 9.1  | Evangel Temple - Springfield, MO (The Church That Meets in Your Home) | 11-Aug | 1535      | 80.8    | 8  | 62% | 17  | 42  | 72  |
-| 9    | 1st AG - East Lansing, MI (Horseradish, Breadsticks & Pickles)        | 11-Aug | 1925      | 101.3   | 10 | 72% | 11  | 61  | 64  |
-| 10.1 | Christian Center - Mechanicsville, VA (Fine Sounding Four)            | 12-Jul | 1905      | 100.3   | 14 | 69% | 9   | 62  | 70  |
-| 10   | Central A/G - Houston, PA (Great Endurance)                           | 12-Jul | 1865      | 98.2    | 13 | 69% | 10  | 59  | 60  |
-| 11   | Crown Pointe - Lee`s Summit, MO (Crown Pointe)                        | 13-Jun | 2020      | 106.3   | 15 | 70% | 17  | 48  | 78  |
-| 11   | Evangel Heights - Sarver, PA (Without Wrinkle or Blemish)             | 13-Jun | 1900      | 100     | 13 | 77% | 12  | 46  | 69  |
-| 11   | Word of Life - Springfield, VA (Ambassadors in Chains)                | 13-Jun | 1820      | 95.8    | 13 | 66% | 8   | 71  | 52  |
-| 13.1 | The Oaks Fellowship - Red Oak, TX (Pure and Blameless)                | 15-Apr | 1625      | 85.5    | 11 | 68% | 13  | 39  | 71  |
-| 12   | Life 360 - Springfield, MO (Exasperated Children)                     | 15-Apr | 1710      | 90      | 8  | 66% | 11  | 61  | 70  |
+| #    | Team / Church                                                         | W / L  | Total | AVG   | QO | Q%  | 30s | 20s | 10s |
+|------|-----------------------------------------------------------------------|--------|-------|-------|----|-----|-----|-----|-----|
+| 1    | Maple Lane A/G - Deposit, NY (Final Greetings)                        | 17 / 2 | 3490  | 183.7 | 23 | 73% | 29  | 104 | 81  |
+| 2    | 1st AG - Lexington, KY (I Do Not Know!)                               | 15 / 4 | 3235  | 170.3 | 23 | 74% | 19  | 98  | 90  |
+| 3    | Calvary Church - Naperville, IL (Calvary Church)                      | 14 / 5 | 3065  | 161.3 | 23 | 78% | 26  | 71  | 83  |
+| 4    | James River - Ozark, MO (The Flames)                                  | 13 / 6 | 3290  | 173.1 | 24 | 73% | 23  | 102 | 83  |
+| 5    | Newport AG - Newport, PA (Torn Between the Two)                       | 12 / 7 | 2985  | 157.1 | 22 | 77% | 26  | 73  | 71  |
+| 5    | Dream City Church - Scottsdale, AZ (Made the Two Groups One)          | 12 / 7 | 3090  | 162.6 | 20 | 78% | 26  | 83  | 67  |
+| 7    | Kuna Life Center - Kuna, ID (Their Destiny is Destruction)            | 11 / 8 | 2430  | 127.9 | 15 | 72% | 17  | 75  | 72  |
+| 7    | Cedar Park - Bothell, WA (Those Dogs)                                 | 11 / 8 | 2435  | 128.2 | 15 | 68% | 18  | 72  | 85  |
+| 9    | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)                 | 10 / 9 | 2625  | 138.2 | 16 | 74% | 26  | 62  | 84  |
+| 9    | Living Hope Worship - Swedesboro, NJ (Depth of Nsyte)                 | 10 / 9 | 2560  | 134.7 | 18 | 78% | 22  | 58  | 79  |
+| 11   | Cedar Park - Bothell, WA (Obligated to Answer)                        | 9 / 10 | 2285  | 120.3 | 15 | 75% | 13  | 62  | 79  |
+| 12   | Evangel Temple - Springfield, MO (The Church That Meets in Your Home) | 8 / 11 | 1535  | 80.8  | 8  | 62% | 17  | 42  | 72  |
+| 12   | 1st AG - East Lansing, MI (Horseradish, Breadsticks & Pickles)        | 8 / 11 | 1925  | 101.3 | 10 | 72% | 11  | 61  | 64  |
+| 14   | Christian Center - Mechanicsville, VA (Fine Sounding Four)            | 7 / 12 | 1905  | 100.3 | 14 | 69% | 9   | 62  | 70  |
+| 14   | Central A/G - Houston, PA (Great Endurance)                           | 7 / 12 | 1865  | 98.2  | 13 | 69% | 10  | 59  | 60  |
+| 16   | Crown Pointe - Lee`s Summit, MO (Crown Pointe)                        | 6 / 13 | 2020  | 106.3 | 15 | 70% | 17  | 48  | 78  |
+| 16   | Evangel Heights - Sarver, PA (Without Wrinkle or Blemish)             | 6 / 13 | 1900  | 100   | 13 | 77% | 12  | 46  | 69  |
+| 16   | Word of Life - Springfield, VA (Ambassadors in Chains)                | 6 / 13 | 1820  | 95.8  | 13 | 66% | 8   | 71  | 52  |
+| 19   | The Oaks Fellowship - Red Oak, TX (Pure and Blameless)                | 4 / 15 | 1625  | 85.5  | 11 | 68% | 13  | 39  | 71  |
+| 20   | Life 360 - Springfield, MO (Exasperated Children)                     | 4 / 15 | 1710  | 90    | 8  | 66% | 11  | 61  | 70  |
+
 
 ### Individuals
 
