@@ -43,6 +43,7 @@ by [Scott Laurens]({% link _pages/history/1963/memories/scott-laurens.md %}), ca
    icon="fas fa-info-circle"
    status="is-success" %}
 
+
 | Rank | Team                              | Record | Total Pts | Avg Pts | Margin | Avg Margin |
 |------|-----------------------------------|--------|-----------|---------|--------|------------|
 | 1    | Bouldercrest A/G, Atlanta, GA     | 3-0    | 520       | 173.33  | 195    | 65         |
@@ -53,6 +54,12 @@ by [Scott Laurens]({% link _pages/history/1963/memories/scott-laurens.md %}), ca
 | 5    | First A/G, Lima, OH               | 0-1    | 140       | 140     | -20    | -20        |
 | 5    | Glad Tidings A/G, Omaha, NE       | 0-1    | ?         | ?       | ?      | ?          |
 | 5    | Rose Bud A/G, Rose Bud, AR        | 0-1    | ?         | ?       | ?      | ?          |
+
+### Individuals
+
+The first National Bible Quiz Tournament in 1963 did not announce the top quizzers. The tournament was single elimination meaning that the maximum number of quizzes a team could play was 3. Therefore, it is difficult to determine who was the top quizzer. In the final quiz for first place, [Scott Laurens]({% link _pages/history/1963/memories/scott-laurens.md %}) of [Bouldercrest A/G, Atlanta, GA](#southeast-region), who had been the top scorer on his team in the previous two rounds, was the top quizzer as his team won the tournament.
+
+## Teams
 
 ### Great Lakes Region
 
@@ -149,10 +156,6 @@ by [Scott Laurens]({% link _pages/history/1963/memories/scott-laurens.md %}), ca
     * Kenneth Crosswaite
     * Mary Dine
     * Ruth Dine
-
-### Individuals
-
-The first National Bible Quiz Tournament in 1963 did not announce the top quizzers. The tournament was single elimination meaning that the maximum number of quizzes a team could play was 3. Therefore, it is difficult to determine who was the top quizzer. In the final quiz for first place, [Scott Laurens]({% link _pages/history/1963/memories/scott-laurens.md %}) of [Bouldercrest A/G, Atlanta, GA](#southeast-region), who had been the top scorer on his team in the previous two rounds, was the top quizzer as his team won the tournament.
 
 ## Memories
 * [Scott Laurens]({% link _pages/history/1963/memories/scott-laurens.md %})
