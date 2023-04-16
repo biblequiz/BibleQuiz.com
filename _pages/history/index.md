@@ -9,6 +9,7 @@ toc_title: Decades
 ---
 
 ## 2020
+* 2024: Romans and James
 * 2023: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John
 * 2022: Gospel of Matthew
 * 2021: Hebrews, I & II Peter, Jude
