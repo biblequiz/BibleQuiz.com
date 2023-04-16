@@ -6,6 +6,7 @@ date: "2020-02-09"
 menubar: menu_history
 ---
 
+<img src="{% link assets/scripture-portions/2018.jpg %}" alt="Cover Art" style="max-height:400px" />
 
 ## Nationals
 
