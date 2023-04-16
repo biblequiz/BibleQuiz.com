@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /history/2012/
+permalink: /history/2010/
 title: "2010: I & II Corinthians"
 date: "2010-07-15"
 menubar: menu_history

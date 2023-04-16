@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /history/2012/
+permalink: /history/2011/
 title: "2011: Gospel of John"
 date: "2011-07-15"
 menubar: menu_history
