@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /history/1997/
+permalink: /history/1977/
 title: "1977: Gospel of Luke"
-date: "1997-07-31"
+date: "1977-07-31"
 menubar: menu_history
 ---
 
