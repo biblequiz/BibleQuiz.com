@@ -65,7 +65,7 @@ toc_title: Decades
 
 ## 1970
 * [1979: Gospel of John]({% link _pages/history/1979/index.md %})
-* [1978: I & II Corinthians]]({% link _pages/history/1978/index.md %})
+* [1978: I & II Corinthians]({% link _pages/history/1978/index.md %})
 * [1977: Gospel of Luke]({% link _pages/history/1977/index.md %})
 * [1976: Galatians, Ephesians, Philippians, and Colossians]({% link _pages/history/1976/index.md %})
 * [1975: Acts of the Apostles]({% link _pages/history/1975/index.md %})
