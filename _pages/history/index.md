@@ -29,27 +29,27 @@ toc_title: Decades
 
 ## 2000
 * [2009: Gospel of Mark]({% link _pages/history/2009/index.md %})
-* 2008: Galatians, Ephesians, Philippians, Colossians, and Philemon 
-* 2007: Acts of the Apostles
-* 2006: Romans and James
-* 2005: Gospel of Matthew
-* 2004: Hebrews, I & II Peter
-* 2003: Gospel of John
-* 2002: I & II Corinthians
-* 2001: Gospel of Luke
-* 2000: Galatians, Ephesians, Philippians, Colossians, and Philemon
+* [2008: Galatians, Ephesians, Philippians, Colossians, and Philemon]({% link _pages/history/2008/index.md %})
+* [2007: Acts of the Apostles]({% link _pages/history/2007/index.md %})
+* [2006: Romans and James]({% link _pages/history/2006/index.md %})
+* [2005: Gospel of Matthew]({% link _pages/history/2005/index.md %})
+* [2004: Hebrews, I & II Peter]({% link _pages/history/2004/index.md %})
+* [2003: Gospel of John]({% link _pages/history/2003/index.md %})
+* [2002: I & II Corinthians]({% link _pages/history/2002/index.md %})
+* [2001: Gospel of Luke]({% link _pages/history/2001/index.md %})
+* [2000: Galatians, Ephesians, Philippians, Colossians, and Philemon]({% link _pages/history/2000/index.md %})
 
 ## 1990
-* 1999: Acts of the Apostles
-* 1998: Romans and James
-* 1997: Gospel of Matthew
-* 1996: Hebrews, I & II Peter
-* 1995: Gospel of John
-* 1994: I & II Corinthians
-* 1993: Gospel of Luke
-* 1992: Galatians, Ephesians, Philippians, Colossians, and Philemon
-* 1991: Acts of the Apostles
-* 1990: James and Romans
+* [1999: Acts of the Apostles]({% link _pages/history/1999/index.md %})
+* [1998: Romans and James]({% link _pages/history/1998/index.md %})
+* [1997: Gospel of Matthew]({% link _pages/history/1997/index.md %})
+* [1996: Hebrews, I & II Peter]({% link _pages/history/1996/index.md %})
+* [1995: Gospel of John]({% link _pages/history/1995/index.md %})
+* [1994: I & II Corinthians]({% link _pages/history/1994/index.md %})
+* [1993: Gospel of Luke]({% link _pages/history/1993/index.md %})
+* [1992: Galatians, Ephesians, Philippians, Colossians, and Philemon]]({% link _pages/history/1992/index.md %})
+* [1991: Acts of the Apostles]({% link _pages/history/1991/index.md %})
+* [1990: James and Romans]({% link _pages/history/1990/index.md %})
 
 ## 1980
 * 1989: Gospel of Matthew
