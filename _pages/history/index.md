@@ -47,40 +47,40 @@ toc_title: Decades
 * [1995: Gospel of John]({% link _pages/history/1995/index.md %})
 * [1994: I & II Corinthians]({% link _pages/history/1994/index.md %})
 * [1993: Gospel of Luke]({% link _pages/history/1993/index.md %})
-* [1992: Galatians, Ephesians, Philippians, Colossians, and Philemon]]({% link _pages/history/1992/index.md %})
+* [1992: Galatians, Ephesians, Philippians, Colossians, and Philemon]({% link _pages/history/1992/index.md %})
 * [1991: Acts of the Apostles]({% link _pages/history/1991/index.md %})
 * [1990: James and Romans]({% link _pages/history/1990/index.md %})
 
 ## 1980
-* 1989: Gospel of Matthew
-* 1988: Hebrews, I & II Peter
-* 1987: Gospel of John
-* 1986: I & II Corinthians
-* 1985: Gospel of Luke
-* 1984: Galatians, Ephesians, Philippians, and Colossians
-* 1983: Acts of the Apostles
-* 1982: I & II Thessalonians, I & II Peter, James
-* 1981: Gospel of Matthew
-* 1980: Romans and James
+* [1989: Gospel of Matthew]({% link _pages/history/1989/index.md %})
+* [1988: Hebrews, I & II Peter]({% link _pages/history/1988/index.md %})
+* [1987: Gospel of John]({% link _pages/history/1987/index.md %})
+* [1986: I & II Corinthians]({% link _pages/history/1986/index.md %})
+* [1985: Gospel of Luke]({% link _pages/history/1985/index.md %})
+* [1984: Galatians, Ephesians, Philippians, and Colossians]({% link _pages/history/1984/index.md %})
+* [1983: Acts of the Apostles]({% link _pages/history/1983/index.md %})
+* [1982: I & II Thessalonians, I & II Peter, James]({% link _pages/history/1982/index.md %})
+* [1981: Gospel of Matthew]({% link _pages/history/1981/index.md %})
+* [1980: Romans and James]({% link _pages/history/1980/index.md %})
 
 ## 1970
-* 1979: Gospel of John
-* 1978: I & II Corinthians
-* 1977: Gospel of Luke
-* 1976: Galatians, Ephesians, Philippians, and Colossians
-* 1975: Acts of the Apostles
-* 1974: I & II Thessalonians, I & II Peter, James
-* 1973: Gospel of John
-* 1972: Romans and Galatians
-* 1971: Gospel of Matthew
-* 1970: I & II Corinthians
+* [1979: Gospel of John]({% link _pages/history/1979/index.md %})
+* [1978: I & II Corinthians]]({% link _pages/history/1978/index.md %})
+* [1977: Gospel of Luke]({% link _pages/history/1977/index.md %})
+* [1976: Galatians, Ephesians, Philippians, and Colossians]({% link _pages/history/1976/index.md %})
+* [1975: Acts of the Apostles]({% link _pages/history/1975/index.md %})
+* [1974: I & II Thessalonians, I & II Peter, James]({% link _pages/history/1974/index.md %})
+* [1973: Gospel of John]({% link _pages/history/1973/index.md %})
+* [1972: Romans and Galatians]({% link _pages/history/1972/index.md %})
+* [1971: Gospel of Matthew]({% link _pages/history/1971/index.md %})
+* [1970: I & II Corinthians]({% link _pages/history/1970/index.md %})
 
 ## 1960
-* 1969: Gospel of Mark
-* 1968: Ephesians, Philippians, Colossians, I & II Timothy, Titus
-* 1967: John
-* 1966: Romans
-* 1965: Gospel of Mark
-* 1964: I & II Corinthians
+* [1969: Gospel of Mark]({% link _pages/history/1969/index.md %})
+* [1968: Ephesians, Philippians, Colossians, I & II Timothy, Titus]({% link _pages/history/1968/index.md %})
+* [1967: John]({% link _pages/history/1967/index.md %})
+* [1966: Romans]({% link _pages/history/1966/index.md %})
+* [1965: Gospel of Mark]({% link _pages/history/1965/index.md %})
+* [1964: I & II Corinthians]({% link _pages/history/1964/index.md %})
 * [1963: Gospel of Luke]({% link _pages/history/1963/index.md %})
-* 1962: Acts of the Apostles
+* [1962: Acts of the Apostles]({% link _pages/history/1962/index.md %})
