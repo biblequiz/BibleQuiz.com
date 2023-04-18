@@ -3,6 +3,8 @@ layout: page
 permalink: /national-finals/
 title: "2023 National Finals"
 date: "2022-04-14"
+menubar: menu_current_season
+menubar_ads: ads_simple
 ---
 
 ## Date

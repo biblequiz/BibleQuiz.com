@@ -1,3 +1,12 @@
+---
+layout: page
+permalink: /discord/
+title: "Discord"
+date: "2023-04-18"
+menubar: menu_current_season
+menubar_ads: ads_simple
+---
+
 This year at National Finals, we are organizing all communication using an app called [Discord](http://discord.com).
 
 Discord is 100% free to use on computers, phones, and tablets, and there is no advertising.
