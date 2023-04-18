@@ -4,7 +4,6 @@ permalink: /discord/
 title: "Discord"
 date: "2023-04-18"
 menubar: menu_current_season
-menubar_ads: ads_simple
 ---
 
 ![]({% link /assets/pages/discord-header.jpg %})
