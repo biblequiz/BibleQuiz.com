@@ -61,7 +61,7 @@ Tap the first option to select your mute settings, or All Messages to get all no
 
 ## Questions?
 
-[Email hello@biblequiz.com](mailto:hello@biblequiz.com)
+<a href="mailto:hello@biblequiz.com" class="button is-primary">Email hello@biblequiz.com</a>
 
 If you're in the Discord server, go to the channel called **#tech-support** and post your issue, and one of the admins will help you out!
 
