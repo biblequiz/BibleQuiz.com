@@ -7,6 +7,9 @@ menubar: menu_current_season
 menubar_ads: ads_simple
 ---
 
+![]({% link /assets/pages/discord-header.jpg %})
+
+
 This year at National Finals, we are organizing all communication using an app called [Discord](http://discord.com).
 
 Discord is 100% free to use on computers, phones, and tablets, and there is no advertising.
@@ -26,13 +29,14 @@ Here's how you can join the Bible Quiz Nationals Discord server.
 
 Like everything these days, you'll need an account. Here's a link to walk you through the process of setting up a free Discord account.
 
-[Create Discord Account](https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started)
+<a href="https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started" class="button is-primary">Create Discord Account</a>
+
 
 ## Join the server
 
 Once you have your account setup, hit this link to request access to the Discord server.
 
-[Request access](https://forms.gle/xfWLZniwpVP2pAEp9)
+<a href="https://forms.gle/xfWLZniwpVP2pAEp9" class="button is-primary">Request access</a>
 
 ## Manage notifications
 
