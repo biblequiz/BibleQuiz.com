@@ -3,6 +3,7 @@ layout: page
 permalink: /contesting-changes/
 title: "Contesting Changes for Official Competition"
 date: "2023-04-10"
+menubar: menu_current_season
 ---
 
 ## Two Unsuccessful Contests
