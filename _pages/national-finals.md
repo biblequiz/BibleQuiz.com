@@ -23,7 +23,14 @@ We'll be returning to the [Renaissance St. Louis Airport Hotel](https://www.marr
 
 <a href="https://brushfire.com/agusa/NBQ/551064" class="button is-primary">Register for National Finals</a>
 
-Coach & Quizzer registration remains the same at $195.00. Registration includes 4 lunches (Mon-Thur), Friday’s formal banquet, ice cream fellowship, Thursday night fellowship, finals program, T-shirt, lanyard and more.
+Coach & Quizzer registration remains the same at $195.00. Registration includes:
+
+- 4 lunches (Mon-Thur)
+- Friday’s formal banquet
+- Ice cream fellowship
+- Thursday Night Fellowship
+- National Finals program
+- T-shirt
 
 
 ---
@@ -32,6 +39,10 @@ Coach & Quizzer registration remains the same at $195.00. Registration includes 
 
 Veteran Division: I Timothy 1-6  
 Novice Division: I Timothy 1-4
+
+Both divisions written by Solomon Stevens.
+
+Contact [Katie Randolph](mailto:kaitlyn.randolph@gmail.com) for more information.
 
 ---
 
