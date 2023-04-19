@@ -1,14 +1,17 @@
 ---
 layout: post
 title: "A Prayer from the Official Question Writer"
-author: James Lex
+author: Kent Kloefkorn
 date: "2013-06-29"
 categories: 
   - "nationals"
 published: true
 ---
 
-_Official Writer for the 2013 National Finals Kent Kloefkorn posted the following on Facebook. It's a rare opportunity to hear from an official writer like this before Nationals, so we hope you enjoy his thoughts and prayers._  
+{% include notification.html
+   message="Official Writer for the 2013 National Finals  posted the following on Facebook. It's a rare opportunity to hear from an official writer like this before Nationals, so we hope you enjoy his thoughts and prayers."
+   icon="fas fa-info-circle"
+   status="is-success" %}
   
 Lord, I pray for BQ Nationals 2013. 
   

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: "The Thrill of Victory, and . . . The Thrill of Victory"
-author: James Lex
+author: Greg House
 date: "2012-07-04"
 categories: 
   - "nationals"
 published: true
 ---
-
-_by Greg House_
 
 Who would have though that a 9th grade young lady would win her way to tie with Kent Piacenti for the most 1st place finishes (3) in the Individual High Score category?  But win and tie she did.
 
