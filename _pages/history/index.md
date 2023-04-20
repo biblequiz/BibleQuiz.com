@@ -12,8 +12,8 @@ toc_title: Decades
 * 2024: Romans and James
 * 2023: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John
 * 2022: Gospel of Matthew
-* 2021: Hebrews, I & II Peter, Jude
-* 2020: Gospel of John
+* [2021: Hebrews, I & II Peter, Jude]({% link _pages/history/2021/index.md %})
+* [2020: Gospel of John]({% link _pages/history/2020/index.md %})
 
 ## 2010
 * [2019: I & II Corinthians]({% link _pages/history/2019/index.md %})
