@@ -8,14 +8,14 @@ toc: true
 toc_title: Decades
 ---
 
-## 2020
+## 2020s
 * 2024: Romans and James
 * [2023: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John]({% link _pages/national-finals.md %})
 * [2022: Gospel of Matthew]({% link _pages/history/2022/index.md %})
 * [2021: Hebrews, I & II Peter, Jude]({% link _pages/history/2021/index.md %})
 * [2020: Gospel of John]({% link _pages/history/2020/index.md %})
 
-## 2010
+## 2010s
 * [2019: I & II Corinthians]({% link _pages/history/2019/index.md %})
 * [2018: Gospel of Mark]({% link _pages/history/2018/index.md %})
 * [2017: Galatians, Ephesians, Philippians, Colossians, Philemon]({% link _pages/history/2017/index.md %})
@@ -27,7 +27,7 @@ toc_title: Decades
 * [2011: Gospel of John]({% link _pages/history/2011/index.md %})
 * [2010: I & II Corinthians]({% link _pages/history/2010/index.md %})
 
-## 2000
+## 2000s
 * [2009: Gospel of Mark]({% link _pages/history/2009/index.md %})
 * [2008: Galatians, Ephesians, Philippians, Colossians, and Philemon]({% link _pages/history/2008/index.md %})
 * [2007: Acts of the Apostles]({% link _pages/history/2007/index.md %})
@@ -39,7 +39,7 @@ toc_title: Decades
 * [2001: Gospel of Luke]({% link _pages/history/2001/index.md %})
 * [2000: Galatians, Ephesians, Philippians, Colossians, and Philemon]({% link _pages/history/2000/index.md %})
 
-## 1990
+## 1990s
 * [1999: Acts of the Apostles]({% link _pages/history/1999/index.md %})
 * [1998: Romans and James]({% link _pages/history/1998/index.md %})
 * [1997: Gospel of Matthew]({% link _pages/history/1997/index.md %})
@@ -51,7 +51,7 @@ toc_title: Decades
 * [1991: Acts of the Apostles]({% link _pages/history/1991/index.md %})
 * [1990: James and Romans]({% link _pages/history/1990/index.md %})
 
-## 1980
+## 1980s
 * [1989: Gospel of Matthew]({% link _pages/history/1989/index.md %})
 * [1988: Hebrews, I & II Peter]({% link _pages/history/1988/index.md %})
 * [1987: Gospel of John]({% link _pages/history/1987/index.md %})
@@ -63,7 +63,7 @@ toc_title: Decades
 * [1981: Gospel of Matthew]({% link _pages/history/1981/index.md %})
 * [1980: Romans and James]({% link _pages/history/1980/index.md %})
 
-## 1970
+## 1970s
 * [1979: Gospel of John]({% link _pages/history/1979/index.md %})
 * [1978: I & II Corinthians]({% link _pages/history/1978/index.md %})
 * [1977: Gospel of Luke]({% link _pages/history/1977/index.md %})
@@ -75,7 +75,7 @@ toc_title: Decades
 * [1971: Gospel of Matthew]({% link _pages/history/1971/index.md %})
 * [1970: I & II Corinthians]({% link _pages/history/1970/index.md %})
 
-## 1960
+## 1960s
 * [1969: Gospel of Mark]({% link _pages/history/1969/index.md %})
 * [1968: Ephesians, Philippians, Colossians, I & II Timothy, Titus]({% link _pages/history/1968/index.md %})
 * [1967: John]({% link _pages/history/1967/index.md %})
