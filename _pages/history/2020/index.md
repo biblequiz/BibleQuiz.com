@@ -10,10 +10,10 @@ menubar: menu_history
 National Finals was cancelled this year due to the COVID-19 pandemic.
 
 ## Tournaments
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+If you have results, please email <hello@biblequiz.com>.
 
 ## District Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+If you have results, please email <hello@biblequiz.com>.
 
 ## Regional Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+If you have results, please email <hello@biblequiz.com>.

@@ -11,10 +11,10 @@ menubar: menu_history
 <a href="{% link _pages/history/2021/nationals.md %}" class="button is-primary">National Finals</a>
 
 ## Tournaments
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+If you have results, please email <hello@biblequiz.com>.
 
 ## District Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+If you have results, please email <hello@biblequiz.com>.
 
 ## Regional Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+If you have results, please email <hello@biblequiz.com>.

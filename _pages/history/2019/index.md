@@ -21,7 +21,7 @@ menubar: menu_history
 <a href="{% link _pages/history/2019/tournaments/liberty-classic.md %}" class="button is-primary">Liberty Classic</a>
 
 ## District Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+If you have results, please email <hello@biblequiz.com>.
 
 ## Regional Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+If you have results, please email <hello@biblequiz.com>.

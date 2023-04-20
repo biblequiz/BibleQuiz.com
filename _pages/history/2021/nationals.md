@@ -11,7 +11,6 @@ menubar_toc: true
 
 ### Teams
 
-
 |     | Team / Church                                               | W / L  | Pts  | Avg   | QO  | Q%  | 30s | 20s | 10s |
 | --- | ----------------------------------------------------------- | ------ | ---- | ----- | --- | --- | --- | --- | --- |
 | 1   | Calvary Church - J (Naperville, IL)                         | 17 / 2 | 4030 | 212.1 | 34  | 74% | 37  | 104 | 80  |
@@ -212,7 +211,6 @@ menubar_toc: true
 | 50  | Sasha Mobley         | Imitators (Deeper Church, Burien, WA)                                 | -5   | -.3   |    | 50%  |     |     | 1   |
 | *50 | Brandon Ukonu        | Braeswood Assembly (Houston, TX)                                      | -5   | -.3   |    | %    |     |     |     |
 | 51  | Jonathan Shtyrkalo   | Braeswood Assembly (Houston, TX)                                      | -10  | -.5   |    | 25%  |     |     | 1   |
-
 
 
 ## Special Events
