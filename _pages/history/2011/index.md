@@ -13,7 +13,8 @@ Coming Soon
 <!-- <a href="{% link _pages/history/2013/nationals.md %}" class="button is-primary">National Finals</a> -->
 
 ## Tournaments
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+
+* [River Classic]({% link _pages/history/2011/tournaments/river-classic.md %})
 
 ## District Finals
 If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).

@@ -14,9 +14,8 @@ menubar: menu_history
 
 ## Tournaments
 
-<a href="{% link _pages/history/2018/tournaments/river-classic.md %}" class="button is-primary">River Classic</a>
-
-<a href="{% link _pages/history/2018/tournaments/west-coast-classic.md %}" class="button is-primary">West Coast Classic</a>
+* [River Classic]({% link _pages/history/2018/tournaments/river-classic.md %})
+* [West Coast Classic]({% link _pages/history/2018/tournaments/west-coast-classic.md %})
 
 ## District Finals
 If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).

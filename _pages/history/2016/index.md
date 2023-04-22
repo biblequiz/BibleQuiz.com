@@ -13,7 +13,8 @@ menubar: menu_history
 <a href="{% link _pages/history/2016/nationals.md %}" class="button is-primary">National Finals</a>
 
 ## Tournaments
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+
+* [River Classic]({% link _pages/history/2016/tournaments/river-classic.md %})
 
 ## District Finals
 If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
