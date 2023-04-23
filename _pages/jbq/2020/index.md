@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "2022 JBQ Season"
-permalink: /jbq/2022/
+title: "2020 JBQ Season"
+permalink: /jbq/2020/
 date: "2023-04-10"
 ---
 
 ## Nationals
-<a href="{% link _pages/jbq/2022/nationals.md %}" class="button is-primary">National Finals</a>
+National Festival was cancelled this year due to the COVID-19 pandemic.
 
 ## Tournaments
 If you have results, please email <hello@biblequiz.com>.
