@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "2014 River Classic"
+permalink: /history/2014/river-classic/
 date: "2017-05-17"
 toc_title: Results
 menubar_toc: true
