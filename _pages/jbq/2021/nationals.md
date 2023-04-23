@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "2021 National Festival: Kansas City, MO"
-date: "2023-04-22"
+permalink: /jbq/2021/nationals/
+date: "2021-06-12"
 toc_title: Results
 menubar_toc: true
 ---
@@ -547,7 +548,7 @@ menubar_toc: true
 | **\*34** | Isabella Darko       | Garland, TX (Keepers of the Command)            | 0     |       |    |      |
 
 
-### Lavendar
+### Lavender
 
 #### Teams
 

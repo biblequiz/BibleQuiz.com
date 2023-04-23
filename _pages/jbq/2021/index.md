@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "2021 JBQ Season"
+permalink: /jbq/2021/
 date: "2023-04-10"
 ---
 

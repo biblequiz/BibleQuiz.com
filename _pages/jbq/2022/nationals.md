@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "2022 National Festival: Oak Creek, WI"
-date: "2023-04-22"
+permalink: /jbq/2022/nationals/
+date: "2022-06-11"
 toc_title: Results
 menubar_toc: true
 ---
@@ -630,7 +631,7 @@ menubar_toc: true
 | **\*35** | Benjamin Adu-gyamfi     | Houston, TX (The Chosen Warriors)           | -5    | -.6   |    |      |
 
 
-### Lavendar
+### Lavender
 
 #### Teams
 
