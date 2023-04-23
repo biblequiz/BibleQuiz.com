@@ -1,17 +1,14 @@
 ---
 layout: page
-title: "JBQ"
+title: "Junior Bible Quiz (JBQ)"
 permalink: /jbq/
 date: "2023-04-22"
+hero_image: /assets/images/jbq-logo-small.jpg
 toc: true
 toc_title: Decades
 ---
 
-<div class="has-text-centered">
-    <a href="https://kidmin.ag.org/ministries/JBQ/overview">
-        <img src="{% link assets/images/jbq-logo.png %}" alt="JBQ Logo" style="max-height:200px" />
-    </a>
-</div>
+<a href="https://kidmin.ag.org/ministries/JBQ/overview" class="button is-primary">Main AG JBQ Site</a>
 
 ## 2020s
 * [2022]({% link _pages/jbq/2022/index.md %})
@@ -28,7 +25,7 @@ toc_title: Decades
 * [2013]({% link _pages/jbq/2013/index.md %})
 * [2012]({% link _pages/jbq/2012/index.md %})
 * [2011]({% link _pages/jbq/2011/index.md %})
-* [2010]({% link _pages/jbq/2011/index.md %})
+* [2010]({% link _pages/jbq/2010/index.md %})
 
 ## 2000s
 * [2009]({% link _pages/jbq/2009/index.md %})
