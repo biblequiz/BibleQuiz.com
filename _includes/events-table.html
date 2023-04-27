@@ -1,0 +1,79 @@
+{% if include.year == 'live' %}
+    {% assign groups = site.data.generated[include.type]['events_live'] %}
+{% elsif include.scope %}
+    {% assign scope_filename = 'events_' | append: include.scope %}
+    {% assign groups = site.data.generated[include.type][include.year][scope_filename] %}
+{% endif %}
+
+<h1 id="tbq-2023-district-events">TBQ 2023 District Events</h1>
+
+<h2 id="northwest">Northwest</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scope</th>
+      <th>Event</th>
+      <th>Location</th>
+      <th>Date(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-</td>
+      <td>District Finals</td>
+      <td>Spokane Valley Assembly of God<br><em>Spokane Valley, WA</em></td>
+      <td>Mar 31 - Apr 1, 2023</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>League #4</td>
+      <td>Cedar Park Assembly of God<br><em>Bothell, WA</em></td>
+      <td>Feb 25, 2023</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>League #3</td>
+      <td>Bellevue Neighborhood Church<br><em>Bellevue, WA</em></td>
+      <td>Jan 21, 2023</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="pen-florida">Pen Florida</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scope</th>
+      <th>Event</th>
+      <th>Location</th>
+      <th>Date(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-</td>
+      <td>District Finals</td>
+      <td>Southeastern University<br><em>Lakeland, FL</em></td>
+      <td>Apr 1, 2023</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="tbq-live-events">TBQ Live Events</h1>
+
+
+</div>
+
+{% if groups %}
+{% for group in groups %}
+{% if group.header %}## {{ group.header }}{% endif %}
+{% if group.events %}
+| Scope | Event | Location | Date(s) |
+|-------|-------|----------|---------|
+{% for event in group.events %}| {{ event.scope | include.scope | default: '-' }} | {{ event.name }} | {{ event.locationName }}<br />*{{ event.locationCity }}* | {{ event.dates }} |
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% endif %}
