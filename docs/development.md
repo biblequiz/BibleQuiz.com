@@ -99,4 +99,4 @@ Additional functionality and documentation is available for the [bulma-clean-the
     My primary machine is Windows, so I use the Linux commands with the [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) and it works quite well. This [article](https://davemateer.com/2020/10/20/running-jekyll-on-wsl2) provides some straightforward instructions on setting up the necessary parts.
 
 * **Jekyll Filters**\
-Use the list of the [Jekyll Filters](https://jekyllrb.com/docs/liquid/filters/#:~:text=You%20can%20use%20Liquid%20binary%20operators%20or%20and,%22item.genre%20%3D%3D%20%27horror%27%20and%20item.language%20%3D%3D%20%27English%27%22%20%7D%7D) if you want to do more complicated Jekyll filtering.
+Use the list of the [Jekyll Filters](https://jekyllrb.com/docs/liquid/filters/) if you want to do more complicated Jekyll filtering.

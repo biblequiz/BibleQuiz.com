@@ -16,7 +16,7 @@ toc: true
 
 # TBQ 2023 District Events
 
-{% include events-table.html type="tbq" year="2023" scope="district" %}
+{% include events-table.html type="tbq" year="2023" scope="district" addGroupHeaders="true" %}
 
 # TBQ Live Events
 

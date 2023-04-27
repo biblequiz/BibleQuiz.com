@@ -1,3 +1,36 @@
+
+{% assign events = site.data.generated.events[include.year] %}
+
+{% if include.addGroupHeaders %}
+  {% assign grouped_events = events | group_by: 'group' %}
+  {% for group in grouped_events %}
+<h2 id="{{ group.name | slugify }}">{{ group.name }}</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Scope</th>
+      <th>Event</th>
+      <th>Location</th>
+      <th>Date(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+  {% endfor %}
+{% else %}
+<table>
+  <thead>
+    <tr>
+      <th>Scope</th>
+      <th>Event</th>
+      <th>Location</th>
+      <th>Date(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+{% endif %}
+
 {% if include.year == 'live' %}
     {% assign groups = site.data.generated[include.type]['events_live'] %}
 {% elsif include.scope %}
@@ -5,11 +38,8 @@
     {% assign groups = site.data.generated[include.type][include.year][scope_filename] %}
 {% endif %}
 
-{% assign events = site.data.generated.events[include.year] %}
 
-{% if include.type %}
-  {% assign events = events | where: "type",include.type %}
-{% endif %}
+<pre>{{ events }}</pre>
 
 {% if include.scope %}
   {% assign events = events | where: "groupScope",include.scope %}
