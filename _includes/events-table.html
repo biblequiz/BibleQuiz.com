@@ -5,6 +5,27 @@
     {% assign groups = site.data.generated[include.type][include.year][scope_filename] %}
 {% endif %}
 
+{% assign events = site.data.generated.events[include.year] %}
+
+{% if include.type %}
+  {% assign events = events | where: "type",include.type %}
+{% endif %}
+
+{% if include.scope %}
+  {% assign events = events | where: "groupScope",include.scope %}
+{% endif %}
+
+{% if include.addGroupHeaders %}
+  {% assign events = events | sort: "group" %}
+{% endif %}
+
+<pre>{{ events }}</pre>
+
+{% assign events_by_scope = site.data.generated.events_2023.jbq | group_by: 'groupScope' %}
+
+<pre>{{ events_by_scope }}</pre>
+<pre>{{ site.data.generated.events_2023.jbq }}</pre>
+
 <h1 id="tbq-2023-district-events">TBQ 2023 District Events</h1>
 
 <h2 id="northwest">Northwest</h2>
