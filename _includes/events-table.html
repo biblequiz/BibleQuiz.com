@@ -1,130 +1,57 @@
-
 {% assign events = site.data.generated.events[include.year] %}
 
 {% if include.addGroupHeaders %}
-  {% assign grouped_events = events | group_by: 'group' %}
-  {% for group in grouped_events %}
-<h2 id="{{ group.name | slugify }}">{{ group.name }}</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Scope</th>
-      <th>Event</th>
-      <th>Location</th>
-      <th>Date(s)</th>
-    </tr>
-  </thead>
-  <tbody>
+  {% assign events = events | sort: 'group' %}
+{% endif %}
+
+{% assign isTableStarted = false %}
+{% assign lastHeader = '' %}
+{% for event in events %}
+  {% if include.type and event.type != include.type %}{% continue %}{% endif %}
+  {% if include.scope and event.groupScope != include.scope %}{% continue %}{% endif %}
+
+  {% if (include.addHeaders and event.group != lastHeader) or forloop.index == 0 %}
+    {% if include.addHeaders and event.group != lastHeader %}
+      {% assign lastHeader = event.group %}
+<h2 id="{{ event.name | slugify }}">{{ event.name }}</h2>
+    {% endif %}
+    {% if isTableStarted == true %}
   </tbody>
 </table>
-  {% endfor %}
-{% else %}
+    {% endif %}
 <table>
   <thead>
     <tr>
+      {% if !include.scope %}
       <th>Scope</th>
+      {% endif %}
       <th>Event</th>
       <th>Location</th>
       <th>Date(s)</th>
     </tr>
   </thead>
   <tbody>
-{% endif %}
-
-{% if include.year == 'live' %}
-    {% assign groups = site.data.generated[include.type]['events_live'] %}
-{% elsif include.scope %}
-    {% assign scope_filename = 'events_' | append: include.scope %}
-    {% assign groups = site.data.generated[include.type][include.year][scope_filename] %}
-{% endif %}
-
-
-<pre>{{ events }}</pre>
-
-{% if include.scope %}
-  {% assign events = events | where: "groupScope",include.scope %}
-{% endif %}
-
-{% if include.addGroupHeaders %}
-  {% assign events = events | sort: "group" %}
-{% endif %}
-
-<pre>{{ events }}</pre>
-
-{% assign events_by_scope = site.data.generated.events_2023.jbq | group_by: 'groupScope' %}
-
-<pre>{{ events_by_scope }}</pre>
-<pre>{{ site.data.generated.events_2023.jbq }}</pre>
-
-<h1 id="tbq-2023-district-events">TBQ 2023 District Events</h1>
-
-<h2 id="northwest">Northwest</h2>
-
-<table>
-  <thead>
+    {% assign isTableStarted = true %}
+  {% endif %}
     <tr>
-      <th>Scope</th>
-      <th>Event</th>
-      <th>Location</th>
-      <th>Date(s)</th>
+    {% if !include.scope %}
+      <td>
+          {% if event.groupScope == "tournament" %}
+          <span class="badge badge-warning">TOURNAMENT</span>
+          {% elsif event.groupScope == "region" %}
+          <span class="badge badge-info">REGIONAL</span>
+          {% elsif event.groupScope == "district" %}
+          <span class="badge badge-success">DISTRICT</span>
+          {% endif %}
+      </td>
+    {% endif %}
+      <td>{{ event.name }}</td>
+      <td>{{ event.locationName }}<br><em>{{ event.locationCity }}</em></td>
+      <td>{{ event.dates }}</td>
     </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>-</td>
-      <td>District Finals</td>
-      <td>Spokane Valley Assembly of God<br><em>Spokane Valley, WA</em></td>
-      <td>Mar 31 - Apr 1, 2023</td>
-    </tr>
-    <tr>
-      <td>-</td>
-      <td>League #4</td>
-      <td>Cedar Park Assembly of God<br><em>Bothell, WA</em></td>
-      <td>Feb 25, 2023</td>
-    </tr>
-    <tr>
-      <td>-</td>
-      <td>League #3</td>
-      <td>Bellevue Neighborhood Church<br><em>Bellevue, WA</em></td>
-      <td>Jan 21, 2023</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="pen-florida">Pen Florida</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Scope</th>
-      <th>Event</th>
-      <th>Location</th>
-      <th>Date(s)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>-</td>
-      <td>District Finals</td>
-      <td>Southeastern University<br><em>Lakeland, FL</em></td>
-      <td>Apr 1, 2023</td>
-    </tr>
-  </tbody>
-</table>
-
-<h1 id="tbq-live-events">TBQ Live Events</h1>
-
-
-</div>
-
-{% if groups %}
-{% for group in groups %}
-{% if group.header %}## {{ group.header }}{% endif %}
-{% if group.events %}
-| Scope | Event | Location | Date(s) |
-|-------|-------|----------|---------|
-{% for event in group.events %}| {{ event.scope | include.scope | default: '-' }} | {{ event.name }} | {{ event.locationName }}<br />*{{ event.locationCity }}* | {{ event.dates }} |
 {% endfor %}
-{% endif %}
-{% endfor %}
+
+{% if isTableStarted == true %}
+  </tbody>
+</table>
 {% endif %}
