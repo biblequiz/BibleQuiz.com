@@ -1,0 +1,12 @@
+<div class="has-text-centered" id="loadingPane">
+  <p><b>Loading Events ...</b></p>
+  <progress class="progress is-medium is-primary" max="100">30%</progress>
+</div>
+
+<div style="display:none" id="resultsPane">
+  Event is loaded ...
+</div>
+
+<script type="text/javascript">
+  loadEventScores("{{ include.id }}");
+</script>
