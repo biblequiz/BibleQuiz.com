@@ -32,6 +32,11 @@ Coach & Quizzer registration remains the same at $195.00. Registration includes:
 - National Finals program
 - T-shirt
 
+---
+
+## Applying for Scholarships
+
+<a href="{% link assets/Scholarship-National-Finals.docx %}" class="button is-primary">National Bible Quiz Scholarship Applications</a>
 
 ---
 
@@ -55,7 +60,7 @@ Changes have been made to the contesting process for Official Competition.
 ---
 
 
-## Sponsorship and Scholarship Opportunities
+## Sponsorship and Scholarship Giving Opportunities
 
 **SPONSORSHIP**
 
