@@ -32,6 +32,8 @@ Coach & Quizzer registration remains the same at $195.00. Registration includes:
 - National Finals program
 - T-shirt
 
+<a href="{% link assets/2023/National-Finals-Week-Schedule.pdf %}" class="button is-primary">National Finals Week Schedule</a>
+
 ---
 
 ## Scholarship Applications
