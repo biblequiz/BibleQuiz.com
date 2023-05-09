@@ -37,6 +37,7 @@ Coach & Quizzer registration remains the same at $195.00. Registration includes:
 ## Applying for Scholarships
 
 <a href="{% link assets/2023/Scholarship-National-Finals.docx %}" class="button is-primary">National Bible Quiz Scholarship Applications</a>
+
 <a href="{% link assets/2023/Scholarship-National-Lindenwood.docx %}" class="button is-primary">National Bible Quiz Scholarship Applications - Lindenwood</a>
 
 ---
