@@ -15,7 +15,7 @@ July 1-7, 2023
 
 ![]({% link assets/pages/st-louis-renaissance-hotel.jpg %})
 
-We'll be returning to the [Renaissance St. Louis Airport Hotel](https://www.marriott.com/en-us/hotels/stlsa-renaissance-st-louis-airport-hotel/overview/) for National Finals this year. Rooms will be $99/night, and parking will be free.
+We'll be returning to the [Renaissance St. Louis Airport Hotel](https://www.marriott.com/events/start.mi?id=1683745765249&key=GRP) for National Finals this year. Rooms will be $99/night, and parking will be free.
 
 ---
 
