@@ -72,6 +72,8 @@ Changes have been made to the contesting process for Official Competition.
 
 ## Sponsorship and Scholarship Giving Opportunities
 
+As of May 12
+
 **SPONSORSHIP**
 
 - ~~Need 1 Platinum Sponsor of at least $3,000.00~~ 
