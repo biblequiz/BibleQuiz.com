@@ -83,10 +83,10 @@ Changes have been made to the contesting process for Official Competition.
 
 - ~~George Edgerly Scholarship $1,000~~
 - ~~Mark and Becky Gilmer Scholarship $1,000~~
-- Hollis Kelly Scholarship $1,000
+- ~~Hollis Kelly Scholarship $1,000~~
 - ~~Kent Kloefkorn Scholarship $ 1,000~~
 - ~~Individual Tournament $850~~
-- Male Quizzer of the year $1,000
+- ~~Male Quizzer of the year $1,000~~
 - ~~Female Quizzer of the year $1,000~~
 - ~~Quoting Bee $850~~
 
