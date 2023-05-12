@@ -1,4 +1,6 @@
 ---
+<a href="https://www.nationaljbqfestival.com/" class="button is-primary">JBQ National Festival Site</a>
+---
 layout: page
 title: "Junior Bible Quiz (JBQ)"
 permalink: /jbq/
