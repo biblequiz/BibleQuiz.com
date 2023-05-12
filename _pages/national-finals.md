@@ -40,7 +40,7 @@ Coach & Quizzer registration remains the same at $195.00. Registration includes:
 
 NEW: Submit your application for all scholarships online!
 
-<a href="https://forms.gle/ty7uPszGL43CqAue7" class="button is-primary">Online Application</a>
+<a href="https://forms.gle/ty7uPszGL43CqAue7" class="button is-primary">Online Scholarship Application</a>
 
 If you want to print and submit via fax or email, download the following:
 
