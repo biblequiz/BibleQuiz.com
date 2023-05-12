@@ -74,10 +74,10 @@ Changes have been made to the contesting process for Official Competition.
 
 **SPONSORSHIP**
 
-- Need 1 Platinum Sponsor of at least $3,000.00 
+- ~~Need 1 Platinum Sponsor of at least $3,000.00~~ 
 - Need 1 Diamond Sponsor of at least $1,500.00
-- Need 14 Silver Sponsors for Quiz Rooms sponsored at $300.00 
-- 20 Bible Boosters of at least $25.00 Plus 
+- Need 7 Silver Sponsors for Quiz Rooms sponsored at $300.00 
+- Need 8 Bible Boosters of at least $25.00 Plus 
 
 **SCHOLARSHIP**
 
@@ -85,9 +85,9 @@ Changes have been made to the contesting process for Official Competition.
 - ~~Mark and Becky Gilmer Scholarship $1,000~~
 - Hollis Kelly Scholarship $1,000
 - ~~Kent Kloefkorn Scholarship $ 1,000~~
-- Individual Tournament $850
+- ~~Individual Tournament $850~~
 - Male Quizzer of the year $1,000
-- Female Quizzer of the year $1,000
+- ~~Female Quizzer of the year $1,000~~
 - ~~Quoting Bee $850~~
 
 To donate, go to <https://giving.ag.org/donate/nym> and then select “24 NATL BIBLE QUIZ OFF” for Sponsorship. Scholarships are marked “Youth-Bible Quiz”
