@@ -1,4 +1,4 @@
-{% assign events = site.data.generated.events[include.year][include.type][include.scope] %}
+{% assign events = site.data.generated[include.year][include.type][include.scope] %}
 {% assign event_count = events | size %}
 
 {% if event_count > 0 %}
@@ -15,7 +15,9 @@
     {% for event in events %}
     <tr>
       <td>
-        {% if event.scope == "tournament" or include.scope == "tournament" %}
+        {% if event.scope == "nation" or include.scope == "nation" %}
+        <span class="tag is-dark">NATIONAL</span>
+        {% elsif event.scope == "tournament" or include.scope == "tournament" %}
         <span class="tag is-warning">TOURNAMENT</span>
         {% elsif event.scope == "region" or include.scope == "regionFinals" %}
         <span class="tag is-info">REGIONAL</span>
@@ -27,7 +29,7 @@
         {% endif %}
       </td>
       <td>
-        <a href="{{ event.link }}">
+        <a href="{{ event.scoresLink }}">
           {% if include.scope == "regionFinals" or include.scope == "districtFinals" %}
           {{ event.scopeLabel }}
           {% else %}

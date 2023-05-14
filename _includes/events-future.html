@@ -1,4 +1,4 @@
-{% assign events = site.data.generated.events.future[include.type] %}
+{% assign events = site.data.generated.future[include.type] %}
 {% assign event_count = events | size %}
 
 {% if event_count > 0 %}
@@ -6,7 +6,7 @@
   <thead>
     <tr>
       <th>&nbsp;</th>
-      <th>Reg. / Dist.</th>
+      <th>Area</th>
       <th>Event</th>
       <th>Location</th>
       <th>Registration</th>
@@ -17,7 +17,9 @@
     {% for event in events %}
     <tr>
       <td>
-        {% if event.scope == "tournament" %}
+        {% if event.scope == "nation" %}
+        <span class="tag is-dark">NATIONAL</span>
+        {% elsif event.scope == "tournament" %}
         <span class="tag is-warning">TOURNAMENT</span>
         {% elsif event.scope == "region" %}
         <span class="tag is-info">REGIONAL</span>
@@ -29,18 +31,14 @@
       </td>
       <td>{{ event.scopeLabel }}</td>
       <td>
-        {% if event.eventLink %}
-        <a href="{{ event.eventLink }}">
-        {% endif %}
+        <a href="https://registration.biblequiz.com/#/Registration/{{ event.id }}">
           {{ event.name }}
-        {% if event.eventLink %}
         </a>
-        {% endif %}
       </td>
       <td>{{ event.locationName }}<br><em>{{ event.locationCity }}</em></td>
       <td>
-        {% if event.scoresLink %}
-        <a href="{{ event.scoresLink }}">
+        {% if event.isLive %}
+        <a href="{{ include.liveScoresLink }}/#/{{ event.id }}">
           <i class="fas fa-stopwatch"></i>&nbsp;Scores &amp; Schedule
         </a>
         {% else %}
