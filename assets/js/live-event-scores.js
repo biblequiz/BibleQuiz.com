@@ -124,7 +124,7 @@ function ensureMainTableIsLoaded(eventId, urlParts, callback) {
     // Retrieve the latest information for the table.
     mainTablePane.style.display = "none";
 
-    fetch("https://localhost:5001/api/Events/" + eventId + "/Reports")
+    fetch("https://registration.biblequiz.com/api/Events/" + eventId + "/Reports")
         .then(response => response.json())
         .then(data => {
             const eventTitle = document.getElementById("eventTitle");
@@ -198,7 +198,7 @@ function renderHtmlReport(eventId, databaseId, teamFragment, includeQrCode, url,
 
     resultsPane.style.display = "none";
 
-    fetch("https://localhost:5001/api/Events" + url)
+    fetch("https://registration.biblequiz.com/api/Events" + url)
         .then(response => response.json())
         .then(data => {
 
