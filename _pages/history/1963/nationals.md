@@ -101,7 +101,7 @@ The first National Bible Quiz Tournament in 1963 did not announce the top quizze
 ### Northeast Region
 
 * **Church**: Central Assembly, Cumberland, MD
-* **Pastor**:	Frank J. Fratto
+* **Pastor**: Frank J. Fratto
 * **Coach**: Wendel Cover
 * **Team**:
     * Rebecca Blubaugh

@@ -1,5 +1,10 @@
 {% if page.gallery %}
     {% assign galleries=site.data.[page.gallery] %}
+    {% if not galleries %}
+        {% assign galleries = page.gallery %}
+    {% endif %}
+{% endif %}
+{% if galleries %}
     {% for gallery in galleries %}
     <div class="columns is-multiline">
         <div class="column is-12">
