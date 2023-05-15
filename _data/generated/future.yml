@@ -1,7 +1,18 @@
 jbq:
+- id: a9f5866a-6e7d-4508-a89b-08da456dc18f
+  season: 2023
+  registrationDates: Closed
+  isLive: true
+  name: Oklahoma JBQ League 22-23
+  scope: district
+  scopeLabel: Oklahoma
+  locationName: Woodlake Church Bixby
+  locationCity: Tulsa, OK
+  dates: Jun 1, 2023
 - id: fed88e12-d2ed-411b-b865-08db1f7caa98
   season: 2023
   registrationDates: Closes May 31, 2023
+  isVisible: true
   name: 2023 National JBQ Festival
   scope: nation
   locationName: First Assembly of God
@@ -11,15 +22,27 @@ tbq:
 - id: 973ba7dd-e57d-4701-07e3-08db24343015
   season: 2023
   registrationDates: Closed
+  isVisible: true
   name: 2023 Southeast Regional Finals
   scope: region
   scopeLabel: Southeast
   locationName: Parkway Assembly of God
   locationCity: Macon, GA
   dates: May 20, 2023
+- id: 834e120e-5a3a-483f-b52e-08da16743725
+  season: 2023
+  registrationDates: Closed
+  isLive: true
+  name: 2022 TEST
+  scope: region
+  scopeLabel: Northwest
+  locationName: Renaissance Hotel
+  locationCity: Palm Springs, CA
+  dates: May 21 - 23, 2023
 - id: 130849fb-86a8-421a-e700-08db500139d0
   season: 2023
   registrationDates: Closes May 31, 2023
+  isVisible: true
   name: 2023 Jersey Shore Pre-Nationals
   scope: tournament
   locationName: GT Church
