@@ -18,3 +18,5 @@ This page will be updated as information becomes available.
 | League Meet 3 | Romans 12-16 (117 vs)         | Romans 12-14 (58 vs)         | James 2-3 (44 vs)    |
 | League Meet 4 | James 1-5 (108 vs)            | James 1-5 (108 vs)           | James 4-5 (37 vs)    |
 | **TOTAL**     | **540 verses**                | **391 verses**               | **147 verses**       |
+
+*Note: No Romans 16:24 in NLT*
