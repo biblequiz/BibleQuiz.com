@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /live-events
+permalink: /live-events/
 title: Live TBQ Events
 ---
 
