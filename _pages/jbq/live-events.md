@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /jbq/live-events
+permalink: /jbq/live-events/
 title: Live JBQ Events
 ---
 
