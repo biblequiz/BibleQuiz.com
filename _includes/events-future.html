@@ -1,0 +1,56 @@
+{% assign events = site.data.generated.future[include.type] %}
+{% assign event_count = events | size %}
+
+{% if event_count > 0 %}
+<table class="table is-striped is-narrow is-hoverable is-fullwidth">
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th>Area</th>
+      <th>Event</th>
+      <th>Location</th>
+      <th>Registration</th>
+      <th>Date(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for event in events %}
+    <tr>
+      <td>
+        {% if event.scope == "nation" %}
+        <span class="tag is-dark">NATIONAL</span>
+        {% elsif event.scope == "tournament" %}
+        <span class="tag is-warning">TOURNAMENT</span>
+        {% elsif event.scope == "region" %}
+        <span class="tag is-info">REGIONAL</span>
+        {% elsif event.scope == "district" %}
+        <span class="tag is-success">DISTRICT</span>
+        {% else %}
+        {% continue %}
+        {% endif %}
+      </td>
+      <td>{{ event.scopeLabel }}</td>
+      <td>
+        <a href="https://registration.biblequiz.com/#/Registration/{{ event.id }}">
+          {{ event.name }}
+        </a>
+      </td>
+      <td>{{ event.locationName }}<br><em>{{ event.locationCity }}</em></td>
+      <td>
+        {% if event.isLive %}
+        <a href="{{ include.liveScoresLink }}/#/{{ event.id }}">
+          <i class="fas fa-stopwatch"></i>&nbsp;Scores &amp; Schedule
+        </a>
+        {% else %}
+        {{ event.registrationDates }}
+        {% endif %}
+      </td>
+      <td>{{ event.dates }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+If your events used electronic scoring and <a href="https://registration.biblequiz.com/">registration.biblequiz.com</a>,
+edit the settings for the event to start publishing to BibleQuiz.com.
+{% endif %}

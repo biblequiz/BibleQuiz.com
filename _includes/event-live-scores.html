@@ -1,0 +1,31 @@
+<div style="display:none" id="mainTablePane">
+  <h1 id="eventTitle"></h1>
+  <table class="table is-striped is-narrow is-hoverable is-fullwidth" id="mainTable">
+    <thead>
+      <tr>
+        <td>Name</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+
+<div style="display:none" id="resultsPane" style="margin-top:30px">
+</div>
+
+<div class="has-text-centered" id="loadingPane" style="margin-top:30px">
+  <p><b>Retrieving Latest Information for Event ...</b></p>
+  <progress class="progress is-medium is-primary" max="100">30%</progress>
+</div>
+
+<div class="notification is-danger" id="errorPane" style="margin-top:30px;display:none">
+  Failed to retrieve the latest information. Please try again ...
+</div>
+
+<script type="text/javascript">
+  loadLiveEventsFromCurrentHash();
+</script>
