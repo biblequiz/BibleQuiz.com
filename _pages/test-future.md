@@ -3,7 +3,6 @@ layout: page
 permalink: /beta/future/
 title: "Upcoming & Live Events"
 date: "2023-04-26"
-toc: true
 ---
 
 ## Junior Bible Quiz (JBQ)
