@@ -142,13 +142,6 @@ The third National Bible Quiz Tournament in 1965 did not announce the top quizze
     * Ann Sorensen
     * Stan Sorensen
 
-
-* **Church**: Full Gospel Chapel, Denver, CO
-* **Team**:
-    * Dave Eland
-    * Nancy Eland
-    * Rich Peterson
-
 ## Pictures
 
 {% capture image_url %}{% link assets/1965/GU-GL.jpg %}{% endcapture %}
