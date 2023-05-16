@@ -28,8 +28,7 @@ of a crowd like that?!
 Complete records for this event are available on this site. However, we only have the scores of the rounds
 involving the championship team although we do know the competitors and results of each round. Therefore,
 if you have any additional information related to this please e-mail
-[hello@biblequiz.com](mailto:hello@biblequiz.com). To view a larger image of the
-program cover, please select the image at left.
+[hello@biblequiz.com](mailto:hello@biblequiz.com).
 
 Please read a personal account of the first National Bible Quiz Finals 
 by [Scott Laurens]({% link _pages/history/1963/memories/scott-laurens.md %}), captain and top scorer of the first place team.

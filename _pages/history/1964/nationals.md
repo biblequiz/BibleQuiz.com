@@ -11,7 +11,7 @@ The 2nd National Bible Quiz Finals took place August 17-21, 1964 in Springfield,
 
 The event was won by Burlington A/G, Burlington, NC marking the second consecutive year the Southeast won the championship. The second place team was East Gary A/G, East Gary, IN.
 
-We have nearly complete results from this even as well as pictures of almost all matches and all teams. We are missing some small data items like who coached some of the teams. We also have one recollection written by Joyce Lufkin from Winthrop, WA. If you have any additional information, please e-mail biblequiz@me.com. For images of several matches, please see the memories section.
+We have nearly complete results from this even as well as pictures of almost all matches and all teams. We are missing some small data items like who coached some of the teams. We also have one recollection written by [Joyce Lufkin]({% link _pages/history/1964/memories/joyce-lufkin.md %}) from Winthrop, WA.
 
 ## Results
 
@@ -19,10 +19,10 @@ We have nearly complete results from this even as well as pictures of almost all
 
 | Rank | Team                           | Record | Total Pts | Avg Pts | Margin | Avg Margin |
 |------|--------------------------------|--------|-----------|---------|--------|------------|
-| 1    | Burlington A/G, Burlington, NC | Mar-00 | 580       | 193.33  | 235    | 78.33      |
-| 2    | East Gary A/G, East Gary, IN   | 1-Feb  | 460       | 153.33  | -25    | -8.33      |
-| 3    | Winthrop, WA                   | 1-Jan  | 305       | 149.5   | -40    | -20        |
-| 3    | Full Gospel Chapel, Denver, CO | 1-Jan  | 335       | 167.5   | 10     | 5          |
+| 1    | Burlington A/G, Burlington, NC | 3-0    | 580       | 193.33  | 235    | 78.33      |
+| 2    | East Gary A/G, East Gary, IN   | 2-1    | 460       | 153.33  | -25    | -8.33      |
+| 3    | Winthrop, WA                   | 1-1    | 305       | 149.5   | -40    | -20        |
+| 3    | Full Gospel Chapel, Denver, CO | 1-1    | 335       | 167.5   | 10     | 5          |
 | 5    | Conway, AR                     | 0-1    | 80        | 80      | -115   | -115       |
 | 5    | Little York A/G, Houston, TX   | 0-1    | 180       | 180     | -15    | -15        |
 | 5    | Bonesteel, SD                  | 0-1    | 120       | 120     | -20    | -20        |
@@ -90,3 +90,22 @@ The second National Bible Quiz Tournament in 1964 did not announce the top quizz
 
 ## Memories
 * [Joyce Lufkin]({% link _pages/history/1964/memories/joyce-lufkin.md %})
+
+## Pictures
+{% capture image_url %}{% link assets/1964/SE-GU.jpg %}{% endcapture %}
+{% include image-card.html link=image_url alt="Burlington vs. Conway" html="<p class='title is-6'>Burlington vs. Conway</p>" %}
+
+{% capture image_url %}{% link assets/1964/SW-NE.jpg %}{% endcapture %}
+{% include image-card.html link=image_url alt="Denver vs. Lonaconing" html="<p class='title is-6'>Denver vs. Lonaconing</p>" %}
+
+{% capture image_url %}{% link assets/1964/GL-NC.jpg %}{% endcapture %}
+{% include image-card.html link=image_url alt="East Gary vs. Bonesteel" html="<p class='title is-6'>East Gary vs. Bonesteel</p>" %}
+
+{% capture image_url %}{% link assets/1964/NW-SC.jpg %}{% endcapture %}
+{% include image-card.html link=image_url alt="'>Winthrop vs. Houston" html="<p class='title is-6'>Winthrop vs. Houston</p>" %}
+
+{% capture image_url %}{% link assets/1964/SE-NW.jpg %}{% endcapture %}
+{% include image-card.html link=image_url alt="Burlington vs. Winthrop" html="<p class='title is-6'>Burlington vs. Winthrop</p>" %}
+
+{% capture image_url %}{% link assets/1964/GL-SW.jpg %}{% endcapture %}
+{% include image-card.html link=image_url alt="East Gary vs. Denver" html="<p class='title is-6'>East Gary vs. Denver</p>" %}
