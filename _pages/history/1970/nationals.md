@@ -34,6 +34,16 @@ Top scorers for the 1970 National Bible Quiz Finals are unknown.
 
 ### Great Lakes Region
 
+* **Church**: First A/G, Wadsworth, OH
+* **Pastor**: John S. Palmer
+* **Coach**: Mrs. John Palmer
+* **Team**:
+    * Ed Hartman
+    * Larry Hartman
+    * Sherry Hartman
+    * Jim Palmer
+    * John Palmer
+
 This information is unknown.
 
 ### Gulf Region
@@ -51,15 +61,16 @@ This information is unknown.
 
 ### North Central Region
 
-* **Church**: First A/G, Wadsworth, OH
-* **Pastor**: John S. Palmer
-* **Coach**: Mrs. John Palmer
+* **Church**: First A/G, Newton, IA
+* **Pastor**: W.C. Hamilton
+* **Coach**: Gretta S
 * **Team**:
-    * Ed Hartman
-    * Larry Hartman
-    * Sherry Hartman
-    * Jim Palmer
-    * John Palmer
+    * Kathy Hamilton
+    * Joe Jorris
+    * Eugene Kelsey
+    * Becky Peterson
+    * Pat Stevens
+    * Rick Thompson
 
 ### Northeast Region
 
