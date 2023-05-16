@@ -5,20 +5,6 @@ title: "1964 Nationals"
 date: "2013-07-11"
 toc_title: Results
 menubar_toc: true
-gallery:
-- title: Memories
-  images:
-    - link: https://via.placeholder.com/800x450
-      large_link: https://via.placeholder.com/1200x675
-      alt: The alt text for the image
-      description: |-
-        The image description can be written in **markdown** if required
-      ratio: is-16by9
-    - link: https://via.placeholder.com/800x600
-      large_link: https://via.placeholder.com/1200x900
-      alt: The alt text for the image
-      description: The image description
-      ratio: is-4by3
 ---
 
 The 2nd National Bible Quiz Finals took place August 17-21, 1964 in Springfield, MO covering the books of 1,2 Corinthians. Donald F. Johns was the official question writer.
@@ -30,11 +16,6 @@ We have nearly complete results from this even as well as pictures of almost all
 ## Results
 
 ### Teams
-
-{% include notification.html
-   message="The final team results from the 1963 National Bible Quiz Tournament are listed below. There are ties for 3rd and 5th place because of the single elimination format."
-   icon="fas fa-info-circle"
-   status="is-success" %}
 
 | Rank | Team                           | Record | Total Pts | Avg Pts | Margin | Avg Margin |
 |------|--------------------------------|--------|-----------|---------|--------|------------|
