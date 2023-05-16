@@ -23,8 +23,7 @@ While the complete list of participants, as well as the round by round schedule,
 ### Teams
 
 {% include notification.html
-   message="
-While we have complete records of the participants and the schedule, we don't have records of the results."
+   message="While we have complete records of the participants and the schedule, we don't have records of the results."
    icon="fas fa-info-circle"
    status="is-success" %}
 

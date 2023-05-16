@@ -22,8 +22,7 @@ All of the participants are known and we also have pictures of all of the teams.
 ### Teams
 
 {% include notification.html
-   message="
-While we have nearly complete records of the participants and the schedule, we don't have records of the results."
+   message="While we have nearly complete records of the participants and the schedule, we don't have records of the results."
    icon="fas fa-info-circle"
    status="is-success" %}
 
