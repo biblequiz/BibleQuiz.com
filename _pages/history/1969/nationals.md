@@ -7,8 +7,15 @@ toc_title: Results
 menubar_toc: true
 ---
 
-![]({% link assets/1969/nats1969smcover.jpg %}) ![]({% link assets/1969/CA-Wilmington.jpg %})
-
+<div class="columns">
+  <div class="column">
+    <img src="{% link assets/1969/nats1969smcover.jpg %}" />
+  </div>
+  <div class="column">
+    <img src="{% link assets/1969/CA-Wilmington.jpg %}" />
+  </div>
+</div>
+ 
 The 7th National Bible Quiz Finals took place August 19-20, 1969 in Dallas, TX covering the book of Mark. Norman Correll was the National Coordinator and George Edgerly was the official question writer.
 
 The event was won by First A/G, Wilmington, CA (pictured). The second place team was Bethel A/G, Arlington, TX who won the previous year.
