@@ -24,9 +24,11 @@ While the complete list of participants, as well as the round by round schedule,
 
 {% include notification.html
    message="
-The 1st place winner from the 1967 National Bible Quiz Tournament was Full Gospel Chapel, Denver, CO. Second place went to Central A/G, Albuquerque, NM. While we have complete records of the participants and the schedule, we don't have records of the results."
+While we have complete records of the participants and the schedule, we don't have records of the results."
    icon="fas fa-info-circle"
    status="is-success" %}
+
+The 1st place winner from the 1967 National Bible Quiz Tournament was Full Gospel Chapel, Denver, CO. Second place went to Central A/G, Albuquerque, NM.
 
 ### Individuals
 
