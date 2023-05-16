@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /history/1965/nationals/
-title: "1965 Nationals"
+title: "1965 National Finals"
 date: "2013-07-11"
 toc_title: Results
 menubar_toc: true
