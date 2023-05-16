@@ -34,7 +34,7 @@ The 1st place winner from the 1968 National Bible Quiz Tournament was Bethel A/G
 
 ## Teams
 
-{% capture image_url %}{% link assets/1968/IN-Indianapolis.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/1968/IL-Columbia.jpg %}{% endcapture %}
 {% capture image_html %}
 ### Great Lakes Region
 
