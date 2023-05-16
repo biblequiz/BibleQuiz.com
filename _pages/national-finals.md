@@ -15,8 +15,9 @@ July 1-7, 2023
 
 ![]({% link assets/pages/st-louis-renaissance-hotel.jpg %})
 
-We'll be returning to the [Renaissance St. Louis Airport Hotel](https://www.marriott.com/events/start.mi?id=1683745765249&key=GRP) for National Finals this year. Rooms will be $99/night, and parking will be free.
+We'll be returning to the Renaissance St. Louis Airport Hotel for National Finals this year. Rooms will be $99/night, and parking will be free.
 
+<a href="https://www.marriott.com/events/start.mi?id=1683745765249&key=GRP" class="button is-primary">Hotel Reservation Link</a>
 ---
 
 ## Registration
@@ -46,7 +47,7 @@ If you want to print and submit via fax or email, download the following:
 
 <a href="{% link assets/2023/Scholarship-National-Finals.docx %}" class="button is-primary">Bible Quiz Scholarship Application and Instructions</a>
 
-<a href="{% link assets/2023/Scholarship-Nationals-Lindenwood.docx %}" class="button is-primary">Lindenwood Bible Quiz Scholarship Application</a>
+<a href="{% link assets/2023/Scholarship-Nationals-Lindenwood.docx %}" class="button is-primary">Lindenwood Bible Quiz Scholarship Application</a> <a href="{% link assets/2023/Scholarship-Nationals-Lindenwood-info.pdf %}" class="button is-primary">Learn about Lindenwood University</a>
 
 ---
 
@@ -72,12 +73,12 @@ Changes have been made to the contesting process for Official Competition.
 
 ## Sponsorship and Scholarship Giving Opportunities
 
-As of May 12
+As of May 15
 
 **SPONSORSHIP**
 
 - ~~Need 1 Platinum Sponsor of at least $3,000.00~~ 
-- Need 1 Diamond Sponsor of at least $1,500.00
+- ~~Need 1 Diamond Sponsor of at least $1,500.00~~
 - Need 7 Silver Sponsors for Quiz Rooms sponsored at $300.00 
 - Need 8 Bible Boosters of at least $25.00 Plus 
 
@@ -85,10 +86,10 @@ As of May 12
 
 - ~~George Edgerly Scholarship $1,000~~
 - ~~Mark and Becky Gilmer Scholarship $1,000~~
-- Hollis Kelly Scholarship $1,000
+- ~~Hollis Kelly Scholarship $1,000~~
 - ~~Kent Kloefkorn Scholarship $ 1,000~~
 - ~~Individual Tournament $850~~
-- Male Quizzer of the year $1,000
+- ~~Male Quizzer of the year $1,000~~
 - ~~Female Quizzer of the year $1,000~~
 - ~~Quoting Bee $850~~
 
