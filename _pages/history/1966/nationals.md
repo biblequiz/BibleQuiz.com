@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /history/1966/nationals/
-title: "1965 Nationals"
+title: "1966 Nationals"
 date: "2013-07-11"
 toc_title: Results
 menubar_toc: true
