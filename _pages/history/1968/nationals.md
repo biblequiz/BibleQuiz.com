@@ -170,4 +170,3 @@ The 1st place winner from the 1968 National Bible Quiz Tournament was Bethel A/G
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Full Gospel Chapel, Denver, CO" html=image_html %}
-

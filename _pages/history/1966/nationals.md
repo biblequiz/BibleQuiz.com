@@ -158,4 +158,3 @@ Top scorers were not officially announced until 1968 so information on this will
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Full Gospel Chapel, Denver, CO" html=image_html %}
-
