@@ -47,7 +47,7 @@ If you want to print and submit via fax or email, download the following:
 
 <a href="{% link assets/2023/Scholarship-National-Finals.docx %}" class="button is-primary">Bible Quiz Scholarship Application and Instructions</a>
 
-<a href="{% link assets/2023/Scholarship-Nationals-Lindenwood.docx %}" class="button is-primary">Lindenwood Bible Quiz Scholarship Application</a> <a href="{% link assets/2023/Scholarship-Nationals-Lindenwood-info.pdf %}" class="button is-primary">Learn about Lindenwood University</a>
+<a href="{% link assets/2023/Scholarship-Nationals-Lindenwood.docx %}" class="button is-primary">Lindenwood Bible Quiz Scholarship Application</a> <a href="{% link assets/2023/Scholarship-Nationals-Lindenwood-Info.pdf %}" class="button is-primary">Learn about Lindenwood University</a>
 
 ---
 
