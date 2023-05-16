@@ -5,7 +5,7 @@ author: BibleQuiz.com Admin
 date: "2023-03-03"
 categories: 
   - "newsletter"
-image: "BQ-Newsletter-Graphics_Page_12-scaled.jpg"
+image: "2023-March-banner.jpg"
 published: true
 ---
 
