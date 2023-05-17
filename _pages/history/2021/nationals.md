@@ -5,6 +5,11 @@ title: "2021 National Finals"
 date: "2021-07-31"
 toc_title: National Finals 2021
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2021 Season
+    link: /history/2021/
+    icon: fas fa-home
 ---
 
 ## Championship Division

@@ -5,6 +5,11 @@ title: "1963 National Finals"
 date: "2013-07-11"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 1963 Season
+    link: /history/1963/
+    icon: fas fa-home
 ---
 
 The 1st National Bible Quiz Finals took place August 23-24, 1963 at First A/G in Memphis, Tennessee

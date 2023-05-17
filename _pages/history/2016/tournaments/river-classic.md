@@ -5,6 +5,11 @@ permalink: /history/2016/river-classic/
 date: "2017-05-17"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2016 Season
+    link: /history/2016/
+    icon: fas fa-home
 ---
 
 ## A-Championship

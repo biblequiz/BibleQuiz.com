@@ -3,6 +3,12 @@ layout: page
 permalink: /history/1963/memories/scott-laurens/
 title: "1963 Nationals - Scott Laurens' Memories"
 author: Scott Laurens
+menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 1963 Season
+    link: /history/1963/
+    icon: fas fa-home
 ---
 
 {% include notification.html

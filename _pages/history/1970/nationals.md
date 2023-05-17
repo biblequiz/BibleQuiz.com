@@ -5,6 +5,11 @@ title: "1970 National Finals"
 date: "2013-07-11"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 1970 Season
+    link: /history/1970/
+    icon: fas fa-home
 ---
 
 ![]({% link assets/1970/IA-Newton.jpg %})

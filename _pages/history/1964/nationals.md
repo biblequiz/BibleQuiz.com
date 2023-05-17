@@ -5,6 +5,11 @@ title: "1964 National Finals"
 date: "2013-07-11"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 1964 Season
+    link: /history/1964/
+    icon: fas fa-home
 ---
 
 The 2nd National Bible Quiz Finals took place August 17-21, 1964 in Springfield, MO covering the books of 1,2 Corinthians. Donald F. Johns was the official question writer.

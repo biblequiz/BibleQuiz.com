@@ -5,6 +5,11 @@ permalink: /history/2018/river-classic/
 date: "2018-03-03"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2018 Season
+    link: /history/2018/
+    icon: fas fa-home
 ---
 
 ## Championship

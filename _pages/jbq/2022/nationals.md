@@ -5,6 +5,11 @@ permalink: /jbq/2022/nationals/
 date: "2022-06-11"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2022 Season
+    link: /jbq/2022/
+    icon: fas fa-home
 ---
 
 ## Friday

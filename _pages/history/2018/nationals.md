@@ -5,6 +5,11 @@ title: "2018 Nationals"
 date: "2020-02-09"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2018 Season
+    link: /history/2018/
+    icon: fas fa-home
 ---
 
 ## Championship Division

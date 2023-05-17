@@ -5,6 +5,11 @@ permalink: /jbq/2021/nationals/
 date: "2021-06-12"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2021 Season
+    link: /jbq/2021/
+    icon: fas fa-home
 ---
 
 ## Friday

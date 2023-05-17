@@ -5,6 +5,11 @@ title: "2022 National Finals"
 date: "2022-07-31"
 toc_title: National Finals 2022
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2022 Season
+    link: /history/2022/
+    icon: fas fa-home
 ---
 
 31 teams participated in National Finals this year, so the competition format changed to a full round-robin with no Challenger division. 

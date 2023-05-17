@@ -5,6 +5,11 @@ title: "2009 Nationals"
 date: "2009-07-31"
 toc_title: Navigation
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2009 Season
+    link: /history/2009/
+    icon: fas fa-home
 ---
 
 ![](https://biblequiz.com/assets/2009/Owasso.jpg)
