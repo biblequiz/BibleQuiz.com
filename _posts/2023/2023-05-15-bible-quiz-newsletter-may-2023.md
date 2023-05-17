@@ -5,7 +5,7 @@ author: BibleQuiz.com Admin
 date: "2023-05-15"
 categories: 
   - "newsletter"
-image: "2023-May-banner.jpg"
+image: "2023-05.jpg"
 published: true
 ---
 
