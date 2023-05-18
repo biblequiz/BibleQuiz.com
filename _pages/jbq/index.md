@@ -4,12 +4,10 @@ title: "Junior Bible Quiz (JBQ)"
 permalink: /jbq/
 date: "2023-04-22"
 hero_image: /assets/images/jbq-logo-small.jpg
+menubar: menu_jbq
 toc: true
 toc_title: Decades
 ---
-<a href="https://www.nationaljbqfestival.com/" class="button is-primary">JBQ National Festival Site</a>
-
-<a href="https://kidmin.ag.org/ministries/JBQ/overview" class="button is-primary">Main AG JBQ Site</a>
 
 ## 2020s
 * [2022]({% link _pages/jbq/2022/index.md %})

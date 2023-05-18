@@ -5,6 +5,11 @@ permalink: /jbq/2019/nationals/
 date: "2019-06-08"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2020 Season
+    link: /jbq/2020/
+    icon: fas fa-home
 ---
 
 ## Friday

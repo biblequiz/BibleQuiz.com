@@ -5,6 +5,11 @@ title: "1968 National Finals"
 date: "2013-07-11"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 1968 Season
+    link: /history/1968/
+    icon: fas fa-home
 ---
 
 ![]({% link assets/1968/TX-Arlington.jpg %})

@@ -5,6 +5,11 @@ title: "2015 Nationals"
 date: "2015-07-10"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2015 Season
+    link: /history/2015/
+    icon: fas fa-home
 ---
 
 ## Championship

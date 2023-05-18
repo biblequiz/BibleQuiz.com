@@ -5,6 +5,11 @@ title: "2019 Friendship Classic"
 date: "2019-01-26"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2019 Season
+    link: /history/2019/
+    icon: fas fa-home
 ---
 
 ## Champion

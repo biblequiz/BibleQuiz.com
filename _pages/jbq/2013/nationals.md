@@ -5,6 +5,11 @@ permalink: /jbq/2013/nationals/
 date: "2015-06-10"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2013 Season
+    link: /jbq/2013/
+    icon: fas fa-home
 ---
 
 ## Friday (AM)

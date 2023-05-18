@@ -4,6 +4,11 @@ title: "2014 National Festival: Concord, NC"
 permalink: /jbq/2014/nationals/
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2014 Season
+    link: /jbq/2014/
+    icon: fas fa-home
 ---
 
 ## Friday

@@ -5,6 +5,11 @@ title: "1965 National Finals"
 date: "2013-07-11"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 1965 Season
+    link: /history/1965/
+    icon: fas fa-home
 ---
 
 ![]({% link assets/1965/CA-Inglewood.jpg %})

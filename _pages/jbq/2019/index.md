@@ -3,6 +3,7 @@ layout: page
 title: "2019 JBQ Season"
 permalink: /jbq/2019/
 date: "2023-04-10"
+menubar: menu_jbq
 ---
 
 ## Nationals

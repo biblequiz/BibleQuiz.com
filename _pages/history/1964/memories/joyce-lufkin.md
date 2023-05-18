@@ -1,8 +1,14 @@
 ---
 layout: page
 permalink: /history/1964/memories/joyce-lufkin/
-title: "1963 Nationals - Joyce Lufkin's Memories"
-author: Scott Laurens
+title: "1964 Nationals - Joyce Lufkin's Memories"
+author: Joyce Lufkin
+menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 1964 Season
+    link: /history/1964/
+    icon: fas fa-home
 ---
 
 {% include notification.html

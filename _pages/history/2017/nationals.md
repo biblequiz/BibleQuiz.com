@@ -5,6 +5,11 @@ title: "2017 Nationals"
 date: "2017-07-06"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2017 Season
+    link: /history/2017/
+    icon: fas fa-home
 ---
 
 ## Championship

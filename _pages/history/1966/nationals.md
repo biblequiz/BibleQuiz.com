@@ -5,6 +5,11 @@ title: "1966 National Finals"
 date: "2013-07-11"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 1966 Season
+    link: /history/1966/
+    icon: fas fa-home
 ---
 
 ![]({% link assets/1966/CO-Denver.jpg %})

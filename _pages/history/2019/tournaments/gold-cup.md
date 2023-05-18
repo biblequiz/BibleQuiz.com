@@ -5,6 +5,11 @@ title: "2018 Gold Cup"
 date: "2018-10-20"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2019 Season
+    link: /history/2019/
+    icon: fas fa-home
 ---
 
 {% include notification.html

@@ -5,6 +5,11 @@ title: "2019 Bluegrass Classic"
 date: "2018-10-27"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 2019 Season
+    link: /history/2019/
+    icon: fas fa-home
 ---
 
 {% include notification.html

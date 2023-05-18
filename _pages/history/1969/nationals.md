@@ -5,6 +5,11 @@ title: "1969 National Finals"
 date: "2013-07-11"
 toc_title: Results
 menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 1969 Season
+    link: /history/1969/
+    icon: fas fa-home
 ---
 
 <div class="columns">

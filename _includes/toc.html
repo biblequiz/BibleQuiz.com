@@ -71,12 +71,47 @@
 {{ my_toc | lstrip }}{% endcapture %}
     {% endif %}
 {% endcapture %}{% assign tocWorkspace = '' %}
+{% assign my_toc = my_toc | markdownify | strip %}
 
 <div class="contents">
     <div class="menu">
+        {% comment %}Mimics the generation of menubar.html{% endcomment %}
+        {% if include.static_nodes %}
+        {% for menu in include.static_nodes %}
+        {% if menu.label %}
+        <p class="menu-label">{{ menu.label }}</p>
+        {% endif %}
+        <ul class="menu-list">
+            {% for item in menu.items %}
+            <li>
+                <a href="{{ item.link | relative_url }}" class="{% if item.link == page.url %}is-active{% endif %}">
+                    {% if item.icon %}
+                    <i class="{{ item.icon }}"></i>&nbsp;
+                    {% endif %}
+                    {{ item.name }}
+                </a>
+                {% if item.items %}
+                <ul>
+                    {% for subitem in item.items %}
+                    <li>
+                        <a href="{{ subitem.link | relative_url }}" class="{% if subitem.link == page.url %}is-active{% endif %}">
+                            {% if subitem.icon %}
+                            <i class="{{ subitem.icon }}"></i>&nbsp;
+                            {% endif %}
+                            {{ subitem.name }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+            {% endfor %}    
+        </ul>
+        {% endfor %}
+        {% endif %}
+        {% if my_toc != "" %}
         <p class="menu-label">{{ include.contents_title }}</p>
-        {{ my_toc | markdownify | strip }}
+        {{ my_toc }}
+        {% endif %}
     </div>
 </div>
-
-
