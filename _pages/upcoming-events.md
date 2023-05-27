@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /beta/future/
+permalink: /upcoming-events/
 title: "Upcoming & Live Events"
 date: "2023-04-26"
 ---

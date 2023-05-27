@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /beta/jbq/season/
-title: "Season Preview"
-date: "2023-04-26"
-toc: true
+title: "2023 JBQ Season"
+permalink: /jbq/2023/
+date: "2023-05-27"
+menubar: menu_jbq
 ---
 
 ## Tournaments
