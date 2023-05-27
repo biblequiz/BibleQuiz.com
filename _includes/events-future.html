@@ -31,9 +31,7 @@
       </td>
       <td>{{ event.scopeLabel }}</td>
       <td>
-        <a href="https://registration.biblequiz.com/#/Registration/{{ event.id }}">
-          {{ event.name }}
-        </a>
+        {% if event.isVisible %}<a href="https://registration.biblequiz.com/#/Registration/{{ event.id }}">{% endif %}{{ event.name }}{% if event.isVisible %}</a>{% endif %}
       </td>
       <td>{{ event.locationName }}<br><em>{{ event.locationCity }}</em></td>
       <td>
