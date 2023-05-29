@@ -7,7 +7,7 @@ menubar: menu_current_season
 menubar_ads: ads_simple
 ---
 
-<a href="{% link _pages/national-finals.md %}" class="button is-primary">Back to Nationals 2023</a>
+<a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
 
 
 ## Saturday, July 1
@@ -104,3 +104,5 @@ menubar_ads: ads_simple
 ---
 
 *Note: Any additional evening meetings will be announced during the morning services.*
+
+<a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
