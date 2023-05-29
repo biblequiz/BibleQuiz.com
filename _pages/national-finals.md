@@ -11,7 +11,7 @@ menubar_ads: ads_simple
 
 July 1-7, 2023
 
-<a href="{% link assets/2023/National-Finals-Week-Schedule.pdf %}" class="button is-primary">Nationals Schedule</a>
+<a href="{% link _pages/national-finals-schedule.md %}" class="button is-primary">Full Event Schedule</a>
 
 ---
 
