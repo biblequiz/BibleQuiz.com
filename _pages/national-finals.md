@@ -7,14 +7,13 @@ menubar: menu_current_season
 menubar_ads: ads_simple
 ---
 
-## Date
+## Schedule
 
 July 1-7, 2023
 
-## Schedule
+<a href="{% link assets/2023/National-Finals-Week-Schedule.pdf %}" class="button is-primary">Nationals Schedule</a>
 
-<a href="{% link assets/2023/National-Finals-Week-Schedule.pdf %}" class="button is-primary">National Finals Week Schedule</a>
-
+---
 
 ## Venue
 
