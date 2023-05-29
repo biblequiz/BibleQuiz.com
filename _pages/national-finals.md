@@ -7,21 +7,20 @@ menubar: menu_current_season
 menubar_ads: ads_simple
 ---
 
-![]({% link assets/2023/stl-hotel.jpg %})
+![]({% link assets/2023/stl-hotel-promo.jpg %})
 
-<a href="{% link _pages/national-finals-schedule.md %}" class="button is-primary">Full Event Schedule</a>
 
 ## Schedule
 
 July 1-7, 2023
 
+<a href="{% link _pages/national-finals-schedule.md %}" class="button is-primary">Full Event Schedule</a>
 
 ---
 
 ## Venue
 
-
-Renaissance St. Louis Airport Hotel. Rooms are $99/night, and parking is free.
+All quizzing will take place at the Renaissance St. Louis Airport Hotel. Rooms are $99/night, and parking is free.
 
 <a href="https://www.marriott.com/events/start.mi?id=1683745765249&key=GRP" class="button is-primary">Hotel Reservation Link</a>
 
