@@ -14,7 +14,7 @@ menubar_ads: ads_simple
 
 | Time           | Description                                                                                              |
 | -------------- | -------------------------------------------------------------------------------------------------------- |
-| 5:00-7:00 p.m. | Team & Officials Registration *(Bring Quiz Sets at this time, marked with Church Name, City, and State)* |
+| 5:00-7:00 p.m. | Team & Officials Registration<br />*(Bring Quiz Sets at this time, marked with Church Name, City, and State)* |
 | 7:15 p.m.      | First Time Coaches to National Finals Mtg. *(Location TBA at Registration)*                              |
 | 8:00 p.m.      | Ice Cream Fellowship                                                                                     |
 
@@ -89,11 +89,11 @@ menubar_ads: ads_simple
 | 8:50 a.m.  | Worship                                                                                      |
 | 9:30 a.m.  | Round 18 Championship/Challenger                                                             |
 | 10:15 a.m. | Round 19                                                                                     |
-| 11:00 a.m. | Playoff *(Only if needed to decide National Champion. If not, Individual Tournament begins)* |
+| 11:00 a.m. | Playoff<br />*(Only if needed to decide National Champion. If not, Individual Tournament begins)* |
 | 11:45 a.m. | Individual Tournament                                                                        |
 | 1:00 p.m   | Lunch                                                                                        |
 | 1:30 p.m.  | Finish Individual Tournament, if needed; if not, Adult Quizzing begins                       |
-| 6:00 p.m.  | Fellowship night off-site *(more information will be announced later)*                       |
+| 6:00 p.m.  | Fellowship night off-site<br />*(more information will be announced later)*                       |
 
 ## Friday, July 7
 
