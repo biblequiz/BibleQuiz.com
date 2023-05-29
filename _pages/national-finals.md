@@ -11,13 +11,19 @@ menubar_ads: ads_simple
 
 July 1-7, 2023
 
+## Schedule
+
+<a href="{% link assets/2023/National-Finals-Week-Schedule.pdf %}" class="button is-primary">National Finals Week Schedule</a>
+
+
 ## Venue
 
-![]({% link assets/pages/st-louis-renaissance-hotel.jpg %})
+<!-- ![]({% link assets/pages/st-louis-renaissance-hotel.jpg %}) -->
 
-We'll be returning to the Renaissance St. Louis Airport Hotel for National Finals this year. Rooms will be $99/night, and parking will be free.
+Renaissance St. Louis Airport Hotel. Rooms are $99/night, and parking is free.
 
 <a href="https://www.marriott.com/events/start.mi?id=1683745765249&key=GRP" class="button is-primary">Hotel Reservation Link</a>
+
 ---
 
 ## Registration
@@ -33,7 +39,6 @@ Coach & Quizzer registration remains the same at $195.00. Registration includes:
 - National Finals program
 - T-shirt
 
-<a href="{% link assets/2023/National-Finals-Week-Schedule.pdf %}" class="button is-primary">National Finals Week Schedule</a>
 
 ---
 
@@ -62,11 +67,12 @@ Contact [Katie Randolph](mailto:kaitlyn.randolph@gmail.com) for more information
 
 ---
 
-## Contesting changes
+## Rules
 
-Changes have been made to the contesting process for Official Competition. 
+<a href="{% link _pages/contesting-changes.md %}" class="button is-primary">Changes to Conferring and Contesting</a>
 
-<a href="{% link _pages/contesting-changes.md %}" class="button is-primary">See the changes</a>
+<a href="{% link assets/2023/2023 National Finals Tie Breaker Rules.pdf %}" class="button is-primary">Tiebreakers</a>
+
 
 ---
 
