@@ -29,7 +29,7 @@ Renaissance St. Louis Airport Hotel. Rooms are $99/night, and parking is free.
 
 <a href="https://brushfire.com/agusa/NBQ/551064" class="button is-primary">Register for National Finals</a>
 
-Coach & Quizzer registration remains the same at $195.00. Registration includes:
+Coach & Quizzer registration remains the same at $195 and includes:
 
 - 4 lunches (Mon-Thur)
 - Friday’s formal banquet
