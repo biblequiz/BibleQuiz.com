@@ -7,17 +7,19 @@ menubar: menu_current_season
 menubar_ads: ads_simple
 ---
 
+![]({% link assets/2023/stl-hotel.jpg %})
+
+<a href="{% link _pages/national-finals-schedule.md %}" class="button is-primary">Full Event Schedule</a>
+
 ## Schedule
 
 July 1-7, 2023
 
-<a href="{% link _pages/national-finals-schedule.md %}" class="button is-primary">Full Event Schedule</a>
 
 ---
 
 ## Venue
 
-<!-- ![]({% link assets/pages/st-louis-renaissance-hotel.jpg %}) -->
 
 Renaissance St. Louis Airport Hotel. Rooms are $99/night, and parking is free.
 
