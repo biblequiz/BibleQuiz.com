@@ -101,5 +101,6 @@ menubar_ads: ads_simple
 | --------- | -------------- |
 | 6:30 p.m. | Awards Banquet |
 
+---
 
-Any additional evening meetings will be announced during the morning services.
+*Note: Any additional evening meetings will be announced during the morning services.*
