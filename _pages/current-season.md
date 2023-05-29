@@ -26,6 +26,6 @@ Use the menu to find information on the 2022-2023 Bible Quiz season covering I &
 
 ## National Finals
 
-[![St. Louis Reinaissance Hotel]({% link assets/pages/st-louis-renaissance-hotel.jpg %})]({% link _pages/national-finals.md %})
+[![St. Louis Reinaissance Hotel]({% link assets/2023/stl-hotel-promo.jpg %})]({% link _pages/national-finals.md %})
 
 <a href="{% link _pages/national-finals.md %}" class="button is-primary">National Finals Info</a>
