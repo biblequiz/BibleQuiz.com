@@ -12,11 +12,11 @@ menubar: menu_current_season
 
 ## Saturday, July 1
 
-| Time           | Description                                                                                              |
-| -------------- | -------------------------------------------------------------------------------------------------------- |
+| Time           | Description                                                                                                   |
+| -------------- | ------------------------------------------------------------------------------------------------------------- |
 | 5:00-7:00 p.m. | Team & Officials Registration<br />*(Bring Quiz Sets at this time, marked with Church Name, City, and State)* |
-| 7:15 p.m.      | First Time Coaches to National Finals Mtg. *(Location TBA at Registration)*                              |
-| 8:00 p.m.      | Ice Cream Fellowship                                                                                     |
+| 7:15 p.m.      | First Time Coaches to National Finals Mtg. *(Location TBA at Registration)*                                   |
+| 8:00 p.m.      | Ice Cream Fellowship                                                                                          |
 
 ## Sunday, July 2
 
@@ -42,9 +42,8 @@ menubar: menu_current_season
 | 1:00 p.m.  | Lunch                     |
 | 1:45 p.m.  | Round 6                   |
 | 2:30 p.m.  | Round 7                   |
-| 3:15 p.m.  | Round 8                   |
-| 4:00 p.m.  | Round 9                   |
-| 4:45 p.m.  | Playoffs off if necessary |
+| 3:15 p.m.  | Playoffs off if necessary |
+
 
 ## Tuesday, July 4
 
@@ -83,16 +82,16 @@ menubar: menu_current_season
 
 ## Thursday, July 6
 
-| Time       | Description                                                                                  |
-| ---------- | -------------------------------------------------------------------------------------------- |
-| 8:30 a.m.  | Prayer                                                                                       |
-| 8:50 a.m.  | Worship                                                                                      |
-| 9:30 a.m.  | Round 18 Championship/Challenger                                                             |
-| 10:15 a.m. | Round 19                                                                                     |
+| Time       | Description                                                                                       |
+| ---------- | ------------------------------------------------------------------------------------------------- |
+| 8:30 a.m.  | Prayer                                                                                            |
+| 8:50 a.m.  | Worship                                                                                           |
+| 9:30 a.m.  | Round 18 Championship/Challenger                                                                  |
+| 10:15 a.m. | Round 19                                                                                          |
 | 11:00 a.m. | Playoff<br />*(Only if needed to decide National Champion. If not, Individual Tournament begins)* |
-| 11:45 a.m. | Individual Tournament                                                                        |
-| 1:00 p.m   | Lunch                                                                                        |
-| 1:30 p.m.  | Finish Individual Tournament, if needed; if not, Adult Quizzing begins                       |
+| 11:45 a.m. | Individual Tournament                                                                             |
+| 1:00 p.m   | Lunch                                                                                             |
+| 1:30 p.m.  | Finish Individual Tournament, if needed; if not, Adult Quizzing begins                            |
 | 6:00 p.m.  | Fellowship night off-site<br />*(more information will be announced later)*                       |
 
 ## Friday, July 7
