@@ -49,8 +49,6 @@ Top scorers for the 1970 National Bible Quiz Finals are unknown.
     * Jim Palmer
     * John Palmer
 
-This information is unknown.
-
 ### Gulf Region
 
 * **Church**: Glad Tidings A/G, Lake Charles, LA
