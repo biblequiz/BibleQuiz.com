@@ -12,8 +12,6 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-![]({% link assets/1970/IA-Newton.jpg %})
-
 The 9th National Bible Quiz Finals took place August 17-18, 1971 in Kansas City, Missouri covering the book of Matthew. Current A/G Superintendent George O. Wood was the official question writer.
 
 The event was won by First A/G, New Orleans, LA. The second place team was Centerville A/G, Centreville, VA. The championship was decided in a playoff between these two teams.
