@@ -11,10 +11,17 @@ menubar: menu_history
 <a href="{% link _pages/history/2021/nationals.md %}" class="button is-primary">National Finals</a>
 
 ## Tournaments
-If you have results, please email <hello@biblequiz.com>.
 
-## District Finals
-If you have results, please email <hello@biblequiz.com>.
+{% include events-season.html type="tbq" year="2019" scope="tournament" source="imported" %}
 
 ## Regional Finals
-If you have results, please email <hello@biblequiz.com>.
+
+{% include events-season.html type="tbq" year="2019" scope="regionFinals" source="imported" %}
+
+## District Finals
+
+{% include events-season.html type="tbq" year="2019" scope="districtFinals" source="imported" %}
+
+## Other Competitions
+
+{% include events-season.html type="tbq" year="2019" scope="other" source="imported" %}
