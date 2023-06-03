@@ -10,6 +10,22 @@ toc: true
 
 ## Tournaments
 
+{% include events-season.html type="tbq" year="2023" scope="tournament" source="imported" %}
+
+## Regional Finals
+
+{% include events-season.html type="tbq" year="2023" scope="regionFinals" source="imported" %}
+
+## District Finals
+
+{% include events-season.html type="tbq" year="2023" scope="districtFinals" source="imported" %}
+
+## Other Competitions
+
+{% include events-season.html type="tbq" year="2023" scope="other" source="imported" %}
+
+## Tournaments
+
 | Name                                                                                                                 | Location                                | Dates                | Contact                                                  |
 | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | -------------------- |
 | [Windy City Classic](https://www.jbq.org/registration/epost.aspx?l=WindyCity&d=WindyCityClassic2023)                 | Calvary Church, Naperville, IL          | March 3-4, 2023      | [David & Jolene Powell](mailto:wheatonpowells@yahoo.com) |
