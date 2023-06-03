@@ -10,7 +10,7 @@ toc_title: Decades
 
 ## 2020s
 * 2024: Romans and James
-* [2023: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John]({% link _pages/national-finals.md %})
+* [2023: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John]({% link _pages/events/index.md %})
 * [2022: Gospel of Matthew]({% link _pages/history/2022/index.md %})
 * [2021: Hebrews, I & II Peter, Jude]({% link _pages/history/2021/index.md %})
 * [2020: Gospel of John]({% link _pages/history/2020/index.md %})

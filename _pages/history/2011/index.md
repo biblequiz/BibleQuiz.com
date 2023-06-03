@@ -14,10 +14,16 @@ Coming Soon
 
 ## Tournaments
 
-* [River Classic]({% link _pages/history/2011/tournaments/river-classic.md %})
-
-## District Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+{% include events-season.html type="tbq" year="2011" scope="tournament" source="imported" %}
 
 ## Regional Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+
+{% include events-season.html type="tbq" year="2011" scope="regionFinals" source="imported" %}
+
+## District Finals
+
+{% include events-season.html type="tbq" year="2011" scope="districtFinals" source="imported" %}
+
+## Other Competitions
+
+{% include events-season.html type="tbq" year="2011" scope="other" source="imported" %}

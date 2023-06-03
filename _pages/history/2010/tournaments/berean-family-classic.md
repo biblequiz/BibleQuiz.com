@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /history/2010/tournaments/berean-family-classic/
 title: "2010 Berean Family Classic"
+permalink: /history/2010/tournaments/berean-family-classic/
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

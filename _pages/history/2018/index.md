@@ -14,11 +14,16 @@ menubar: menu_history
 
 ## Tournaments
 
-* [River Classic]({% link _pages/history/2018/tournaments/river-classic.md %})
-* [West Coast Classic]({% link _pages/history/2018/tournaments/west-coast-classic.md %})
-
-## District Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+{% include events-season.html type="tbq" year="2018" scope="tournament" source="imported" %}
 
 ## Regional Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+
+{% include events-season.html type="tbq" year="2018" scope="regionFinals" source="imported" %}
+
+## District Finals
+
+{% include events-season.html type="tbq" year="2018" scope="districtFinals" source="imported" %}
+
+## Other Competitions
+
+{% include events-season.html type="tbq" year="2018" scope="other" source="imported" %}

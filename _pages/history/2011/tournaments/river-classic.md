@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "2011 River Classic"
-permalink: /history/2011/river-classic/
+permalink: /history/2011/tournaments/river-classic/
 date: "2017-05-17"
 toc_title: Results
 menubar_toc: true

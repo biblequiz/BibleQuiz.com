@@ -10,10 +10,17 @@ menubar: menu_history
 National Finals was cancelled this year due to the COVID-19 pandemic.
 
 ## Tournaments
-If you have results, please email <hello@biblequiz.com>.
 
-## District Finals
-If you have results, please email <hello@biblequiz.com>.
+{% include events-season.html type="tbq" year="2020" scope="tournament" source="imported" %}
 
 ## Regional Finals
-If you have results, please email <hello@biblequiz.com>.
+
+{% include events-season.html type="tbq" year="2020" scope="regionFinals" source="imported" %}
+
+## District Finals
+
+{% include events-season.html type="tbq" year="2020" scope="districtFinals" source="imported" %}
+
+## Other Competitions
+
+{% include events-season.html type="tbq" year="2020" scope="other" source="imported" %}
