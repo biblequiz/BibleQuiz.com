@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Gobblefest"
+title: "29th Annual Gobblefest"
 permalink: /history/2023/tournaments/gobblefest/
 date: "2022-11-20"
 toc_title: Results

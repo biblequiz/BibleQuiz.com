@@ -38,7 +38,7 @@
           {% endif %}
         </a>
       </td>
-      <td>{{ event.locationName }}<br><em>{{ event.locationCity }}</em></td>
+      <td>{% if event.locationName %}{{ event.locationName }}<br>{% endif %}<em>{{ event.locationCity }}</em></td>
       <td>{{ event.dates }}</td>
     </tr>
     {% endfor %}
