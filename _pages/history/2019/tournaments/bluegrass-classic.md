@@ -1,7 +1,7 @@
 ---
 layout: page
+title: "1st Annual Bluegrass Classic"
 permalink: /history/2019/tournaments/bluegrass-classic/
-title: "2019 Bluegrass Classic"
 date: "2018-10-27"
 toc_title: Results
 menubar_toc: true
