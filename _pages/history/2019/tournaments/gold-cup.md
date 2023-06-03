@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /history/2019/tournaments/gold-cup/
-title: "2019 Gold Cup"
+title: "35th Annual Gold Cup Tournament"
 date: "2018-10-20"
 toc_title: Results
 menubar_toc: true
