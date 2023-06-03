@@ -12,9 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## Championship
-
-### Teams
+## Teams
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
@@ -35,7 +33,7 @@ menubar_toc_static:
 | 13 | Faith (Faith AG Orlando-FL)                      | 1 / 12 | 8%   | 405   | 31.2  | 1  | 71% |
 | 14 | Ghost Stooges (Spirit Church)                    | 0 / 13 |      | 0     |       |    |     |
 
-### Individuals
+## Individuals
 
 *Ranked by average points, then by total quiz outs, then by answer success rate.*
 

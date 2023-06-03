@@ -11,63 +11,6 @@ menubar_toc_static:
     link: /history/2017/
     icon: fas fa-home
 ---
-
-## Bronze
-
-### Teams
-
-*Final team rank was determined by playoffs.*
-
-| # | Team                     | Church                     | W/L | Total | Avg    |
-|--:|--------------------------|----------------------------|-----|------:|-------:|
-| 1 | Trinity Bros             | Trinity Cedar Hill         | 7/0 | 1655  | 236.43 |
-| 2 | Trinity Sistas           | Trinity Cedar Hill         | 6/1 | 1715  | 245.00 |
-| 3 | Transformers             | Garland-First @ Firewheel  | 5/2 | 835   | 119.29 |
-| 4 | Muskogee Exp             | Muskogee 1st AG            | 4/3 | 620   | 88.57  |
-| 5 | In Custody Under the Law | Living Hope Church         | 3/4 | 210   | 30.00  |
-| 6 | The Oaks XP              | The Oaks Fellowship        | 2/5 | 520   | 74.29  |
-| 7 | Redemption Church        | (Crosby) Redemption Church | 1/6 | 460   | 65.71  |
-| 8 | Christian Temple         | Christian Temple           | 0/7 | 85    | 12.14  |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by TOTAL)*
-
-| #  | Quizzer                | Team                     | Church                     | Total | Avg    | QO |
-|---:|------------------------|--------------------------|----------------------------|------:|-------:|---:|
-| 1  | Joseph Hames           | Trinity Bros             | Trinity Cedar Hill         | 825   | 117.86 | 6  |
-| 2  | Juliet Amadi           | Trinity Sistas           | Trinity Cedar Hill         | 675   | 96.43  | 5  |
-| 3  | Madison Claunch        | Trinity Sistas           | Trinity Cedar Hill         | 585   | 83.57  | 6  |
-| 4  | Hailey Janssens        | The Oaks XP              | The Oaks Fellowship        | 505   | 72.14  | 4  |
-| 5  | Ndubueze Echefu        | Transformers             | Garland-First @ Firewheel  | 470   | 67.14  | 5  |
-| 6  | Christian Hames        | Trinity Bros             | Trinity Cedar Hill         | 470   | 67.14  | 4  |
-| 7  | John Cohen             | Redemption Church        | (Crosby) Redemption Church | 465   | 66.43  | 4  |
-| 8  | Natalie Nailor         | Trinity Sistas           | Trinity Cedar Hill         | 415   | 59.29  | 1  |
-| 9  | Elijah Lee             | Trinity Bros             | Trinity Cedar Hill         | 360   | 51.43  | 4  |
-| 10 | Michael Fritts         | Muskogee Exp             | Muskogee 1st AG            | 280   | 40.00  | 2  |
-| 11 | Daniyy\'El Gonzalez    | Transformers             | Garland-First @ Firewheel  | 255   | 36.43  | 3  |
-| 12 | Aodhyn Allen           | Muskogee Exp             | Muskogee 1st AG            | 250   | 35.71  | 1  |
-| 13 | Alex Bruno             | Transformers             | Garland-First @ Firewheel  | 125   | 17.86  | 1  |
-| 14 | Elise Bennett          | In Custody Under the Law | Living Hope Church         | 115   | 16.43  | 1  |
-| 15 | William Fritts         | Muskogee Exp             | Muskogee 1st AG            | 90    | 12.86  |    |
-| 16 | Conner Steiger         | In Custody Under the Law | Living Hope Church         | 65    | 9.29   |    |
-| 17 | Sarah Pyle             | Christian Temple         | Christian Temple           | 50    | 7.14   |    |
-| 18 | Frida Ouedraogo        | Trinity Sistas           | Trinity Cedar Hill         | 40    | 5.71   |    |
-| 19 | Sebastian Bettis       | Christian Temple         | Christian Temple           | 35    | 5.00   |    |
-| 20 | Justin Vines           | In Custody Under the Law | Living Hope Church         | 30    | 4.29   |    |
-| 21 | Ciara Cohen            | The Oaks XP              | The Oaks Fellowship        | 15    | 2.14   |    |
-| 22 | James Fox              | The Oaks XP              | The Oaks Fellowship        |       | .00    |    |
-| 22 | Hannah Burnett         | Muskogee Exp             | Muskogee 1st AG            |       | .00    |    |
-| 22 | Charles Nwokocha       | Transformers             | Garland-First @ Firewheel  |       | .00    |    |
-| 22 | Bryna Cohen            | The Oaks XP              | The Oaks Fellowship        |       | .00    |    |
-| 22 | Leah Gunkel            | Muskogee Exp             | Muskogee 1st AG            |       | .00    |    |
-| 22 | Jr. Moreno             | Redemption Church        | (Crosby) Redemption Church |       | .00    |    |
-| 22 | Isaac Davenport        | Trinity Bros             | Trinity Cedar Hill         |       | .00    |    |
-| 22 | Danielle Sauls         | The Oaks XP              | The Oaks Fellowship        |       | .00    |    |
-| 22 | Isaiah Wood            | Trinity Bros             | Trinity Cedar Hill         |       | .00    |    |
-| 23 | Kiara Esteves-Negro\'n | Transformers             | Garland-First @ Firewheel  | -15   | -2.14  |    |
-
-
 ## Gold
 
 ### Teams
@@ -134,4 +77,61 @@ menubar_toc_static:
 | 33 | Lillien White       | ORANGE HILLS            | Orange Hills              |       | .00    |    |
 | 34 | Esperance Ngira     | Justified Gentiles      | Fort Worth, Harvest AG    | -30   | -3.75  |    |
 | 35 | Nick DeFreitas      | Trinity Juan            | Trinity Cedar Hill        | -20   | -2.5   |    |
+
+
+
+## Bronze
+
+### Teams
+
+*Final team rank was determined by playoffs.*
+
+| # | Team                     | Church                     | W/L | Total | Avg    |
+|--:|--------------------------|----------------------------|-----|------:|-------:|
+| 1 | Trinity Bros             | Trinity Cedar Hill         | 7/0 | 1655  | 236.43 |
+| 2 | Trinity Sistas           | Trinity Cedar Hill         | 6/1 | 1715  | 245.00 |
+| 3 | Transformers             | Garland-First @ Firewheel  | 5/2 | 835   | 119.29 |
+| 4 | Muskogee Exp             | Muskogee 1st AG            | 4/3 | 620   | 88.57  |
+| 5 | In Custody Under the Law | Living Hope Church         | 3/4 | 210   | 30.00  |
+| 6 | The Oaks XP              | The Oaks Fellowship        | 2/5 | 520   | 74.29  |
+| 7 | Redemption Church        | (Crosby) Redemption Church | 1/6 | 460   | 65.71  |
+| 8 | Christian Temple         | Christian Temple           | 0/7 | 85    | 12.14  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer                | Team                     | Church                     | Total | Avg    | QO |
+|---:|------------------------|--------------------------|----------------------------|------:|-------:|---:|
+| 1  | Joseph Hames           | Trinity Bros             | Trinity Cedar Hill         | 825   | 117.86 | 6  |
+| 2  | Juliet Amadi           | Trinity Sistas           | Trinity Cedar Hill         | 675   | 96.43  | 5  |
+| 3  | Madison Claunch        | Trinity Sistas           | Trinity Cedar Hill         | 585   | 83.57  | 6  |
+| 4  | Hailey Janssens        | The Oaks XP              | The Oaks Fellowship        | 505   | 72.14  | 4  |
+| 5  | Ndubueze Echefu        | Transformers             | Garland-First @ Firewheel  | 470   | 67.14  | 5  |
+| 6  | Christian Hames        | Trinity Bros             | Trinity Cedar Hill         | 470   | 67.14  | 4  |
+| 7  | John Cohen             | Redemption Church        | (Crosby) Redemption Church | 465   | 66.43  | 4  |
+| 8  | Natalie Nailor         | Trinity Sistas           | Trinity Cedar Hill         | 415   | 59.29  | 1  |
+| 9  | Elijah Lee             | Trinity Bros             | Trinity Cedar Hill         | 360   | 51.43  | 4  |
+| 10 | Michael Fritts         | Muskogee Exp             | Muskogee 1st AG            | 280   | 40.00  | 2  |
+| 11 | Daniyy\'El Gonzalez    | Transformers             | Garland-First @ Firewheel  | 255   | 36.43  | 3  |
+| 12 | Aodhyn Allen           | Muskogee Exp             | Muskogee 1st AG            | 250   | 35.71  | 1  |
+| 13 | Alex Bruno             | Transformers             | Garland-First @ Firewheel  | 125   | 17.86  | 1  |
+| 14 | Elise Bennett          | In Custody Under the Law | Living Hope Church         | 115   | 16.43  | 1  |
+| 15 | William Fritts         | Muskogee Exp             | Muskogee 1st AG            | 90    | 12.86  |    |
+| 16 | Conner Steiger         | In Custody Under the Law | Living Hope Church         | 65    | 9.29   |    |
+| 17 | Sarah Pyle             | Christian Temple         | Christian Temple           | 50    | 7.14   |    |
+| 18 | Frida Ouedraogo        | Trinity Sistas           | Trinity Cedar Hill         | 40    | 5.71   |    |
+| 19 | Sebastian Bettis       | Christian Temple         | Christian Temple           | 35    | 5.00   |    |
+| 20 | Justin Vines           | In Custody Under the Law | Living Hope Church         | 30    | 4.29   |    |
+| 21 | Ciara Cohen            | The Oaks XP              | The Oaks Fellowship        | 15    | 2.14   |    |
+| 22 | James Fox              | The Oaks XP              | The Oaks Fellowship        |       | .00    |    |
+| 22 | Hannah Burnett         | Muskogee Exp             | Muskogee 1st AG            |       | .00    |    |
+| 22 | Charles Nwokocha       | Transformers             | Garland-First @ Firewheel  |       | .00    |    |
+| 22 | Bryna Cohen            | The Oaks XP              | The Oaks Fellowship        |       | .00    |    |
+| 22 | Leah Gunkel            | Muskogee Exp             | Muskogee 1st AG            |       | .00    |    |
+| 22 | Jr. Moreno             | Redemption Church        | (Crosby) Redemption Church |       | .00    |    |
+| 22 | Isaac Davenport        | Trinity Bros             | Trinity Cedar Hill         |       | .00    |    |
+| 22 | Danielle Sauls         | The Oaks XP              | The Oaks Fellowship        |       | .00    |    |
+| 22 | Isaiah Wood            | Trinity Bros             | Trinity Cedar Hill         |       | .00    |    |
+| 23 | Kiara Esteves-Negro\'n | Transformers             | Garland-First @ Firewheel  | -15   | -2.14  |    |
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "2018 West Coast Classic"
-permalink: /history/2018/west-coast-classic/
+permalink: /history/2018/tournaments/west-coast-classic/
 date: "2018-03-05"
 toc_title: Results
 menubar_toc: true

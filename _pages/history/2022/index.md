@@ -12,16 +12,16 @@ menubar: menu_history
 
 ## Tournaments
 
-{% include events-season.html type="tbq" year="2019" scope="tournament" source="imported" %}
+{% include events-season.html type="tbq" year="2022" scope="tournament" source="imported" %}
 
 ## Regional Finals
 
-{% include events-season.html type="tbq" year="2019" scope="regionFinals" source="imported" %}
+{% include events-season.html type="tbq" year="2022" scope="regionFinals" source="imported" %}
 
 ## District Finals
 
-{% include events-season.html type="tbq" year="2019" scope="districtFinals" source="imported" %}
+{% include events-season.html type="tbq" year="2022" scope="districtFinals" source="imported" %}
 
 ## Other Competitions
 
-{% include events-season.html type="tbq" year="2019" scope="other" source="imported" %}
+{% include events-season.html type="tbq" year="2022" scope="other" source="imported" %}

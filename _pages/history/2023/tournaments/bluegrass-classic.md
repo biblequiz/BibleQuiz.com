@@ -105,8 +105,7 @@ menubar_toc_static:
 | **\*20** | Quizzer-3           | Night and Day (Lighthouse Assembly of God)                    | 0     |       |    |      |
 | 21       | Luci Mjos           | Flaming Fire (King\'s Way Assembly of God)                    | -5    | -.7   |    |      |
 
-
-## XP lower 4
+## XP Lower 4
 
 ### Teams
 

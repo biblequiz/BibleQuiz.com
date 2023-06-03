@@ -74,42 +74,6 @@ menubar_toc_static:
 | 31       | Robson Yoder     | Never Ashamed (Assembly of God - Ypsilanti-MI)           | 0     |       |    |     |
 | **\*31** | Sedona Yoder     | Never Ashamed (Assembly of God - Ypsilanti-MI)           | 0     |       |    |     |
 
-
-## Adult
-
-### Teams
-
-*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
-
-| # | Team / Church                                             | W/L   | W%  | Total | Avg   | QO | Q%  |
-|--:|-----------------------------------------------------------|-------|----:|------:|------:|---:|----:|
-| 1 | Asleep Like the Others (Bethel AG - Rapid City-SD)        | 3 / 1 | 75% | 585   | 146.2 | 5  | 83% |
-| 2 | Sioux Falls #2 (1st AG - Sioux Falls-SD)                  | 3 / 1 | 75% | 520   | 130   | 2  | 89% |
-| 3 | CrossPoint #1 (CrossPoint AG - Portage-WI)                | 3 / 1 | 75% | 515   | 128.8 | 3  | 90% |
-| 4 | In Spite of Great Opposition (Open Bible - Rapid City-SD) | 1 / 3 | 25% | 225   | 56.2  | 1  | 83% |
-| 5 | Holy Opposition (-)                                       | 0 / 4 |     | 385   | 96.2  | 2  | 81% |
-
-### Individuals
-
-*Ties broken by Average Points then by Total Quiz Outs*
-
-| #        | Quizzer              | Team / Church                                             | Total | Avg   | QO | Q%   |
-|---------:|----------------------|-----------------------------------------------------------|------:|------:|---:|-----:|
-| 1        | \*Karrin Sullivan    | Asleep Like the Others (Bethel AG - Rapid City-SD)        | 450   | 112.5 | 4  | 95%  |
-| 2        | \*Emma Schoessow     | CrossPoint #1 (CrossPoint AG - Portage-WI)                | 440   | 110   | 3  | 100% |
-| 3        | Laura Rodriguez      | Holy Opposition (-)                                       | 360   | 90    | 2  | 82%  |
-| 4        | \*Matthew McKinley   | Sioux Falls #2 (1st AG - Sioux Falls-SD)                  | 310   | 77.5  | 1  | 94%  |
-| 5        | \*Angie Ladd         | In Spite of Great Opposition (Open Bible - Rapid City-SD) | 220   | 55    | 1  | 100% |
-| 6        | \*Emily McKinley     | Sioux Falls #2 (1st AG - Sioux Falls-SD)                  | 210   | 52.5  | 1  | 82%  |
-| 7        | \*David Sullivan     | Asleep Like the Others (Bethel AG - Rapid City-SD)        | 110   | 27.5  | 1  | 75%  |
-| 8        | Don Batty            | CrossPoint #1 (CrossPoint AG - Portage-WI)                | 75    | 18.8  |    | 75%  |
-| 9        | \*Emily Holle        | In Spite of Great Opposition (Open Bible - Rapid City-SD) | 30    | 7.5   |    | 100% |
-| 10       | \*Teresa Plaggemeyer | Asleep Like the Others (Bethel AG - Rapid City-SD)        | 25    | 6.2   |    | 60%  |
-| **\*10** | Bekah Fischer        | Holy Opposition (-)                                       | 25    | 6.2   |    | 75%  |
-| 11       | Terry Schoessow      | CrossPoint #1 (CrossPoint AG - Portage-WI)                | 0     |       |    |      |
-| 12       | \*Denise Sullivan    | In Spite of Great Opposition (Open Bible - Rapid City-SD) | -25   | -6.2  |    |      |
-
-
 ## XP5
 
 ### Teams
@@ -171,4 +135,38 @@ menubar_toc_static:
 | 32       | Keenan Beautiful Bald Eagle | Caught up in the Clouds (Open Bible - Rapid City-SD)         | 25    | 2.3   |    | 64%  |
 | 33       | Jackson Schramm             | The Broken Utensil (Harvest AG - Oconto-WI)                  | 0     |       |    |      |
 | **\*33** | Justus Beautiful Bald Eagle | Not Asleep (Open Bible - Rapid City-SD)                      | 0     |       |    | 50%  |
+
+## Adult
+
+### Teams
+
+*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
+
+| # | Team / Church                                             | W/L   | W%  | Total | Avg   | QO | Q%  |
+|--:|-----------------------------------------------------------|-------|----:|------:|------:|---:|----:|
+| 1 | Asleep Like the Others (Bethel AG - Rapid City-SD)        | 3 / 1 | 75% | 585   | 146.2 | 5  | 83% |
+| 2 | Sioux Falls #2 (1st AG - Sioux Falls-SD)                  | 3 / 1 | 75% | 520   | 130   | 2  | 89% |
+| 3 | CrossPoint #1 (CrossPoint AG - Portage-WI)                | 3 / 1 | 75% | 515   | 128.8 | 3  | 90% |
+| 4 | In Spite of Great Opposition (Open Bible - Rapid City-SD) | 1 / 3 | 25% | 225   | 56.2  | 1  | 83% |
+| 5 | Holy Opposition (-)                                       | 0 / 4 |     | 385   | 96.2  | 2  | 81% |
+
+### Individuals
+
+*Ties broken by Average Points then by Total Quiz Outs*
+
+| #        | Quizzer              | Team / Church                                             | Total | Avg   | QO | Q%   |
+|---------:|----------------------|-----------------------------------------------------------|------:|------:|---:|-----:|
+| 1        | \*Karrin Sullivan    | Asleep Like the Others (Bethel AG - Rapid City-SD)        | 450   | 112.5 | 4  | 95%  |
+| 2        | \*Emma Schoessow     | CrossPoint #1 (CrossPoint AG - Portage-WI)                | 440   | 110   | 3  | 100% |
+| 3        | Laura Rodriguez      | Holy Opposition (-)                                       | 360   | 90    | 2  | 82%  |
+| 4        | \*Matthew McKinley   | Sioux Falls #2 (1st AG - Sioux Falls-SD)                  | 310   | 77.5  | 1  | 94%  |
+| 5        | \*Angie Ladd         | In Spite of Great Opposition (Open Bible - Rapid City-SD) | 220   | 55    | 1  | 100% |
+| 6        | \*Emily McKinley     | Sioux Falls #2 (1st AG - Sioux Falls-SD)                  | 210   | 52.5  | 1  | 82%  |
+| 7        | \*David Sullivan     | Asleep Like the Others (Bethel AG - Rapid City-SD)        | 110   | 27.5  | 1  | 75%  |
+| 8        | Don Batty            | CrossPoint #1 (CrossPoint AG - Portage-WI)                | 75    | 18.8  |    | 75%  |
+| 9        | \*Emily Holle        | In Spite of Great Opposition (Open Bible - Rapid City-SD) | 30    | 7.5   |    | 100% |
+| 10       | \*Teresa Plaggemeyer | Asleep Like the Others (Bethel AG - Rapid City-SD)        | 25    | 6.2   |    | 60%  |
+| **\*10** | Bekah Fischer        | Holy Opposition (-)                                       | 25    | 6.2   |    | 75%  |
+| 11       | Terry Schoessow      | CrossPoint #1 (CrossPoint AG - Portage-WI)                | 0     |       |    |      |
+| 12       | \*Denise Sullivan    | In Spite of Great Opposition (Open Bible - Rapid City-SD) | -25   | -6.2  |    |      |
 
