@@ -12,75 +12,6 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## A League - Blue
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points*
-
-| #    | Team / Church                                       | W/L    | Total | Avg   | QO | Q%  |
-|-----:|-----------------------------------------------------|--------|------:|------:|---:|----:|
-| 1.0  | 6\. Mechanicsville CC, Mechanicsville, VA ()        | 10 / 1 | 2775  | 252.2 | 21 | 86% |
-| 2.0  | 4\. Redeemer Church, Utica. NY \"Without Honor\" () | 8 / 3  | 1800  | 163.6 | 14 | 73% |
-| 3.1  | 10\. Evangel Heights AG, Sarver, PA ()              | 7 / 4  | 1985  | 180.4 | 17 | 86% |
-| 4.0  | 1.Central AG, Houston, PA \"Don't you care?\" ()    | 7 / 4  | 2080  | 189.1 | 16 | 80% |
-| 5.0  | 9\. Smithtown Gospel Tabernacle, Smithtown, NY ()   | 6 / 5  | 1720  | 156.3 | 11 | 74% |
-| 6.0  | 11\. Charleston Pentecostal, Charleston, ME ()      | 6 / 5  | 1705  | 155   | 11 | 76% |
-| 7.0  | 12\. South Hills AG, Bethel Park, PA ()             | 6 / 5  | 1650  | 150   | 11 | 76% |
-| 8.0  | 5\. Cornerstone A/G, Bowie, MD ()                   | 6 / 5  | 1525  | 138.6 | 10 | 67% |
-| 9.0  | 8\. Burien First A/G, WA ()                         | 5 / 6  | 1535  | 139.5 | 11 | 78% |
-| 10.0 | 7\. First A/G, Louisville, OH ()                    | 4 / 7  | 1090  | 99.1  | 6  | 66% |
-| 11.0 | 2\. Bethlehem Church, Richmond Hill, NY ()          | 1 / 10 | 1115  | 101.4 | 7  | 66% |
-| 12.0 | 3\. Trinity A/G, Georgetown, KY ()                  | 0 / 11 | 535   | 48.6  | 2  | 77% |
-
-### Individuals
-
-*Ties broken by Average Points then Total Quiz Outs*
-
-| #        | Quizzer             | Team / Church                                       | Total | Avg   | QO | Q%   |
-|---------:|---------------------|-----------------------------------------------------|------:|------:|---:|-----:|
-| 1        | Seth Robertson      | 1.Central AG, Houston, PA \"Don't you care?\" ()    | 1280  | 116.4 | 9  | 81%  |
-| 2        | Anna Kelly          | 6\. Mechanicsville CC, Mechanicsville, VA ()        | 1270  | 115.5 | 10 | 84%  |
-| 3        | Madison Holcomb     | 10\. Evangel Heights AG, Sarver, PA ()              | 1045  | 95    | 9  | 83%  |
-| 4        | Christian Stevens   | 4\. Redeemer Church, Utica. NY \"Without Honor\" () | 1005  | 91.4  | 9  | 73%  |
-| 5        | Grace Fabian        | 12\. South Hills AG, Bethel Park, PA ()             | 970   | 88.2  | 8  | 77%  |
-| 6        | Sydney Bollinger    | 10\. Evangel Heights AG, Sarver, PA ()              | 925   | 84.1  | 8  | 89%  |
-| 7        | Tina Churchill      | 11\. Charleston Pentecostal, Charleston, ME ()      | 905   | 82.3  | 6  | 77%  |
-| 8        | Phoebe Hoffman      | 6\. Mechanicsville CC, Mechanicsville, VA ()        | 880   | 80    | 7  | 85%  |
-| 9        | Zach Ponraj         | 8\. Burien First A/G, WA ()                         | 860   | 78.2  | 6  | 87%  |
-| 10       | Joy Okafor          | 2\. Bethlehem Church, Richmond Hill, NY ()          | 790   | 71.8  | 6  | 77%  |
-| 11       | Jackson DeMasi      | 9\. Smithtown Gospel Tabernacle, Smithtown, NY ()   | 785   | 71.4  | 6  | 70%  |
-| 12       | Marc Smith          | 5\. Cornerstone A/G, Bowie, MD ()                   | 740   | 67.3  | 6  | 74%  |
-| 13       | Logan Webb          | 1.Central AG, Houston, PA \"Don't you care?\" ()    | 705   | 64.1  | 7  | 84%  |
-| 14       | Caleb Cullins       | 7\. First A/G, Louisville, OH ()                    | 690   | 62.7  | 5  | 65%  |
-| 15       | Samuel Thrift       | 11\. Charleston Pentecostal, Charleston, ME ()      | 625   | 56.8  | 5  | 73%  |
-| 16       | Madison Steele      | 6\. Mechanicsville CC, Mechanicsville, VA ()        | 625   | 56.8  | 4  | 91%  |
-| 17       | Wyatt Peterson      | 8\. Burien First A/G, WA ()                         | 615   | 55.9  | 5  | 71%  |
-| 18       | Sarah Wong          | 9\. Smithtown Gospel Tabernacle, Smithtown, NY ()   | 480   | 43.6  | 3  | 73%  |
-| 19       | Pete Spiak          | 4\. Redeemer Church, Utica. NY \"Without Honor\" () | 460   | 41.8  | 3  | 68%  |
-| 20       | Hannah Tinney       | 3\. Trinity A/G, Georgetown, KY ()                  | 445   | 40.5  | 2  | 74%  |
-| 21       | Mateo Smith         | 5\. Cornerstone A/G, Bowie, MD ()                   | 430   | 39.1  | 3  | 62%  |
-| 22       | Molly Pellegrino    | 9\. Smithtown Gospel Tabernacle, Smithtown, NY ()   | 360   | 32.7  | 1  | 76%  |
-| 23       | Krysta Tower        | 12\. South Hills AG, Bethel Park, PA ()             | 355   | 32.3  | 2  | 71%  |
-| 24       | Justin Henry        | 5\. Cornerstone A/G, Bowie, MD ()                   | 355   | 32.3  | 1  | 64%  |
-| 25       | Noah Alguire        | 4\. Redeemer Church, Utica. NY \"Without Honor\" () | 340   | 30.9  | 2  | 80%  |
-| 26       | Alexandria Thornton | 12\. South Hills AG, Bethel Park, PA ()             | 255   | 23.2  | 1  | 77%  |
-| 27       | Emily Singh         | 2\. Bethlehem Church, Richmond Hill, NY ()          | 235   | 21.4  | 1  | 75%  |
-| 28       | Darren Hester       | 7\. First A/G, Louisville, OH ()                    | 150   | 13.6  | 1  | 64%  |
-| 29       | Bekah Gross         | 7\. First A/G, Louisville, OH ()                    | 145   | 13.2  |    | 83%  |
-| 30       | Gwendalynn Costlow  | 7\. First A/G, Louisville, OH ()                    | 105   | 9.5   |    | 60%  |
-| 31       | Kathryn Pellegrino  | 9\. Smithtown Gospel Tabernacle, Smithtown, NY ()   | 100   | 9.1   | 1  | 100% |
-| 32       | Shannon Tinney      | 3\. Trinity A/G, Georgetown, KY ()                  | 95    | 8.6   |    | 90%  |
-| **\*32** | Graham Malone       | 1.Central AG, Houston, PA \"Don't you care?\" ()    | 95    | 8.6   |    | 60%  |
-| 33       | Faith Buchanan      | 2\. Bethlehem Church, Richmond Hill, NY ()          | 90    | 8.2   |    | 48%  |
-| 34       | Mark Churchill      | 11\. Charleston Pentecostal, Charleston, ME ()      | 70    | 6.4   |    | 100% |
-| **\*34** | Hannah Tower        | 12\. South Hills AG, Bethel Park, PA ()             | 70    | 6.4   |    | 100% |
-| 35       | Kalena Parks        | 11\. Charleston Pentecostal, Charleston, ME ()      | 60    | 5.5   |    | 100% |
-| **\*35** | Samuel Dawson       | 8\. Burien First A/G, WA ()                         | 60    | 5.5   |    | 70%  |
-| 36       | Hannah Thrift       | 11\. Charleston Pentecostal, Charleston, ME ()      | 45    | 4.1   |    | 64%  |
-| 37       | Mason Holcomb       | 10\. Evangel Heights AG, Sarver, PA ()              | 20    | 1.8   |    | 100% |
-| 38       | Hope Fuller         | 7\. First A/G, Louisville, OH ()                    | 0     |       |    |      |
-
 
 ## A League - Gold
 
@@ -149,6 +80,76 @@ menubar_toc_static:
 | 37       | Rachel Jager              | 7\. Bethel Church, Blackwood, NJ ()                   | 0     |       |    |      |
 | **\*37** | Sheldon McCollum          | 3\. Calvary Church, Greensboro, NC ()                 | 0     |       |    |      |
 | 38       | Giselle Sheomangal        | 2\. Calvary A/G, Queens, NY ()                        | -20   | -1.8  |    |      |
+
+
+## A League - Blue
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #    | Team / Church                                       | W/L    | Total | Avg   | QO | Q%  |
+|-----:|-----------------------------------------------------|--------|------:|------:|---:|----:|
+| 1.0  | 6\. Mechanicsville CC, Mechanicsville, VA ()        | 10 / 1 | 2775  | 252.2 | 21 | 86% |
+| 2.0  | 4\. Redeemer Church, Utica. NY \"Without Honor\" () | 8 / 3  | 1800  | 163.6 | 14 | 73% |
+| 3.1  | 10\. Evangel Heights AG, Sarver, PA ()              | 7 / 4  | 1985  | 180.4 | 17 | 86% |
+| 4.0  | 1.Central AG, Houston, PA \"Don't you care?\" ()    | 7 / 4  | 2080  | 189.1 | 16 | 80% |
+| 5.0  | 9\. Smithtown Gospel Tabernacle, Smithtown, NY ()   | 6 / 5  | 1720  | 156.3 | 11 | 74% |
+| 6.0  | 11\. Charleston Pentecostal, Charleston, ME ()      | 6 / 5  | 1705  | 155   | 11 | 76% |
+| 7.0  | 12\. South Hills AG, Bethel Park, PA ()             | 6 / 5  | 1650  | 150   | 11 | 76% |
+| 8.0  | 5\. Cornerstone A/G, Bowie, MD ()                   | 6 / 5  | 1525  | 138.6 | 10 | 67% |
+| 9.0  | 8\. Burien First A/G, WA ()                         | 5 / 6  | 1535  | 139.5 | 11 | 78% |
+| 10.0 | 7\. First A/G, Louisville, OH ()                    | 4 / 7  | 1090  | 99.1  | 6  | 66% |
+| 11.0 | 2\. Bethlehem Church, Richmond Hill, NY ()          | 1 / 10 | 1115  | 101.4 | 7  | 66% |
+| 12.0 | 3\. Trinity A/G, Georgetown, KY ()                  | 0 / 11 | 535   | 48.6  | 2  | 77% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer             | Team / Church                                       | Total | Avg   | QO | Q%   |
+|---------:|---------------------|-----------------------------------------------------|------:|------:|---:|-----:|
+| 1        | Seth Robertson      | 1.Central AG, Houston, PA \"Don't you care?\" ()    | 1280  | 116.4 | 9  | 81%  |
+| 2        | Anna Kelly          | 6\. Mechanicsville CC, Mechanicsville, VA ()        | 1270  | 115.5 | 10 | 84%  |
+| 3        | Madison Holcomb     | 10\. Evangel Heights AG, Sarver, PA ()              | 1045  | 95    | 9  | 83%  |
+| 4        | Christian Stevens   | 4\. Redeemer Church, Utica. NY \"Without Honor\" () | 1005  | 91.4  | 9  | 73%  |
+| 5        | Grace Fabian        | 12\. South Hills AG, Bethel Park, PA ()             | 970   | 88.2  | 8  | 77%  |
+| 6        | Sydney Bollinger    | 10\. Evangel Heights AG, Sarver, PA ()              | 925   | 84.1  | 8  | 89%  |
+| 7        | Tina Churchill      | 11\. Charleston Pentecostal, Charleston, ME ()      | 905   | 82.3  | 6  | 77%  |
+| 8        | Phoebe Hoffman      | 6\. Mechanicsville CC, Mechanicsville, VA ()        | 880   | 80    | 7  | 85%  |
+| 9        | Zach Ponraj         | 8\. Burien First A/G, WA ()                         | 860   | 78.2  | 6  | 87%  |
+| 10       | Joy Okafor          | 2\. Bethlehem Church, Richmond Hill, NY ()          | 790   | 71.8  | 6  | 77%  |
+| 11       | Jackson DeMasi      | 9\. Smithtown Gospel Tabernacle, Smithtown, NY ()   | 785   | 71.4  | 6  | 70%  |
+| 12       | Marc Smith          | 5\. Cornerstone A/G, Bowie, MD ()                   | 740   | 67.3  | 6  | 74%  |
+| 13       | Logan Webb          | 1.Central AG, Houston, PA \"Don't you care?\" ()    | 705   | 64.1  | 7  | 84%  |
+| 14       | Caleb Cullins       | 7\. First A/G, Louisville, OH ()                    | 690   | 62.7  | 5  | 65%  |
+| 15       | Samuel Thrift       | 11\. Charleston Pentecostal, Charleston, ME ()      | 625   | 56.8  | 5  | 73%  |
+| 16       | Madison Steele      | 6\. Mechanicsville CC, Mechanicsville, VA ()        | 625   | 56.8  | 4  | 91%  |
+| 17       | Wyatt Peterson      | 8\. Burien First A/G, WA ()                         | 615   | 55.9  | 5  | 71%  |
+| 18       | Sarah Wong          | 9\. Smithtown Gospel Tabernacle, Smithtown, NY ()   | 480   | 43.6  | 3  | 73%  |
+| 19       | Pete Spiak          | 4\. Redeemer Church, Utica. NY \"Without Honor\" () | 460   | 41.8  | 3  | 68%  |
+| 20       | Hannah Tinney       | 3\. Trinity A/G, Georgetown, KY ()                  | 445   | 40.5  | 2  | 74%  |
+| 21       | Mateo Smith         | 5\. Cornerstone A/G, Bowie, MD ()                   | 430   | 39.1  | 3  | 62%  |
+| 22       | Molly Pellegrino    | 9\. Smithtown Gospel Tabernacle, Smithtown, NY ()   | 360   | 32.7  | 1  | 76%  |
+| 23       | Krysta Tower        | 12\. South Hills AG, Bethel Park, PA ()             | 355   | 32.3  | 2  | 71%  |
+| 24       | Justin Henry        | 5\. Cornerstone A/G, Bowie, MD ()                   | 355   | 32.3  | 1  | 64%  |
+| 25       | Noah Alguire        | 4\. Redeemer Church, Utica. NY \"Without Honor\" () | 340   | 30.9  | 2  | 80%  |
+| 26       | Alexandria Thornton | 12\. South Hills AG, Bethel Park, PA ()             | 255   | 23.2  | 1  | 77%  |
+| 27       | Emily Singh         | 2\. Bethlehem Church, Richmond Hill, NY ()          | 235   | 21.4  | 1  | 75%  |
+| 28       | Darren Hester       | 7\. First A/G, Louisville, OH ()                    | 150   | 13.6  | 1  | 64%  |
+| 29       | Bekah Gross         | 7\. First A/G, Louisville, OH ()                    | 145   | 13.2  |    | 83%  |
+| 30       | Gwendalynn Costlow  | 7\. First A/G, Louisville, OH ()                    | 105   | 9.5   |    | 60%  |
+| 31       | Kathryn Pellegrino  | 9\. Smithtown Gospel Tabernacle, Smithtown, NY ()   | 100   | 9.1   | 1  | 100% |
+| 32       | Shannon Tinney      | 3\. Trinity A/G, Georgetown, KY ()                  | 95    | 8.6   |    | 90%  |
+| **\*32** | Graham Malone       | 1.Central AG, Houston, PA \"Don't you care?\" ()    | 95    | 8.6   |    | 60%  |
+| 33       | Faith Buchanan      | 2\. Bethlehem Church, Richmond Hill, NY ()          | 90    | 8.2   |    | 48%  |
+| 34       | Mark Churchill      | 11\. Charleston Pentecostal, Charleston, ME ()      | 70    | 6.4   |    | 100% |
+| **\*34** | Hannah Tower        | 12\. South Hills AG, Bethel Park, PA ()             | 70    | 6.4   |    | 100% |
+| 35       | Kalena Parks        | 11\. Charleston Pentecostal, Charleston, ME ()      | 60    | 5.5   |    | 100% |
+| **\*35** | Samuel Dawson       | 8\. Burien First A/G, WA ()                         | 60    | 5.5   |    | 70%  |
+| 36       | Hannah Thrift       | 11\. Charleston Pentecostal, Charleston, ME ()      | 45    | 4.1   |    | 64%  |
+| 37       | Mason Holcomb       | 10\. Evangel Heights AG, Sarver, PA ()              | 20    | 1.8   |    | 100% |
+| 38       | Hope Fuller         | 7\. First A/G, Louisville, OH ()                    | 0     |       |    |      |
 
 
 ## MS-PD-B League "Purple"

@@ -71,10 +71,10 @@ menubar_toc_static:
 | 34  | Darren Assopiah    | Metuchen AG 1 (Metuchen, NJ)                           | 15        | 1.4     |    | 75%  |     |     | 3   |
 | *34 | Nick Velicky       | NZ (Bethany Church-Wyckoff, NJ)                        | 15        | 1.4     |    | 50%  |     | 1   |     |
 | 35  | Andy McCollum      | Calvary Church (Greensboro, NC)                        | 10        | 0.9     |    | 99%  |     |     | 1   |
-| 36  | Camille Bello      | AM (Bethany Church-Wyckoff, NJ)                        | 0         |         |    | %    |     |     |     |
+| 36  | Camille Bello      | AM (Bethany Church-Wyckoff, NJ)                        | 0         |         |    |      |     |     |     |
 | 37  | Anthony DePasquale | Metuchen AG 1 (Metuchen, NJ)                           | -40       | -3.6    |    | 27%  |     |     | 4   |
 
-## MS / Liberty
+## MS
 
 ### Teams
 
@@ -112,7 +112,7 @@ menubar_toc_static:
 | 17  | Douglas Straub    | Living Hope (Swedesboro, NJ)                | 50        | 7.1     |    | 50%  |     | 5   | 2   |
 | 18  | Daniel Wong       | Smithtown Jim (Smithtown, NY)               | 20        | 2.9     |    | 75%  |     |     | 3   |
 | 19  | Luna Suarez       | Bethany Church (Wyckoff, NJ)                | 10        | 1.4     |    | 99%  |     |     | 1   |
-| 20  | Melody Botros     | CTI The Lord's People (Wayne, NJ)           | 0         |         |    | %    |     |     |     |
-| *20 | Solenni Gonzalez  | Bethany Church (Wyckoff, NJ)                | 0         |         |    | %    |     |     |     |
+| 20  | Melody Botros     | CTI The Lord's People (Wayne, NJ)           | 0         |         |    |      |     |     |     |
+| *20 | Solenni Gonzalez  | Bethany Church (Wyckoff, NJ)                | 0         |         |    |      |     |     |     |
 | 21  | Luci Pellegrino   | Smithtown Damaris (Smithtown, NY)           | -10       | -1.4    |    | 33%  |     |     | 1   |
-| *21 | Adely             | Bethany Church (Wyckoff, NJ)                | -10       | -1.4    |    | %    |
+| *21 | Adely             | Bethany Church (Wyckoff, NJ)                | -10       | -1.4    |    |      |

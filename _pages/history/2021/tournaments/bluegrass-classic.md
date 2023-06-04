@@ -12,9 +12,11 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## A League - Preliminaries
+## Preliminaries
 
-### Teams
+### A League
+
+#### Teams
 
 | Team                             | W / L |   Avg | Total |
 | -------------------------------- | ----- | ----: | ----: |
@@ -26,7 +28,7 @@ menubar_toc_static:
 | Order of Aaron - Lexington, KY   | 2 / 4 |   105 |   630 |
 | Hidden Word - Sandston, VA       | 1 / 5 |  95.8 |   575 |
 
-### Individuals
+#### Individuals
 
 |    # | Quizzer           | Team                             |   QO |   Avg | Total |
 | ---: | ----------------- | -------------------------------- | ---: | ----: | ----: |
@@ -52,9 +54,9 @@ menubar_toc_static:
 |   20 | Robson Yoder      | Calvary Church - Marinette, WI   |    0 |     0 |     0 |
 |   21 | Maycee Vradenburg | Hidden Word - Standston, VA      |    0 |     0 |     0 |
 
-## XP - League - Preliminaries
+### XP League
 
-### Teams
+#### Teams
 
 | Team                                   | W / L |   Avg | Total |
 | -------------------------------------- | ----- | ----: | ----: |
@@ -66,7 +68,7 @@ menubar_toc_static:
 | Trinity - Georgetown, KY               | 2 / 4 | 139.2 |   835 |
 | Hidden Word - Sandston, VA             | 0 / 6 |  78.3 |   470 |
 
-### Individuals
+#### Individuals
 
 |    # | Quizzer             | Team                                   |   QO |  Avg | Total |
 | ---: | ------------------- | -------------------------------------- | ---: | ---: | ----: |
