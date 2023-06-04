@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "2014_District_Qualifying"
-permalink: /jbq/?//?/?/
+title: "2014 Arkansas Districts Qualifiers"
+permalink: /jbq/2014/other/arkansas-districts-qualifying/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2014 Season
+    link: /jbq/2014/
     icon: fas fa-home
 ---
 
-## NCDQ 2-U
+## North Central Area - 2nd & Under
 
 ### Teams
 
@@ -59,7 +59,7 @@ menubar_toc_static:
 | 21 | Carter Higgins    | McArthur KAS   | McArthur     | 10    | 1.67   |    |
 
 
-## NCDQ 3-4
+## North Central Area - 3rd & 4th Grade
 
 ### Teams
 
@@ -93,7 +93,7 @@ menubar_toc_static:
 | 13 | Nehemiah Page      | Buzz Hogs   | River of Life | 20    | 3.33   |    |
 
 
-## NCDQ 5-6
+## North Central Area - 5th & 6th
 
 ### Teams
 

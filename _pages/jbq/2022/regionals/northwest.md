@@ -1,20 +1,18 @@
 ---
 layout: page
-title: "NorthWest_Regional"
-permalink: /jbq/?//regionals/?/
+title: "2022 Northwest Regionals"
+permalink: /jbq/2022/regionals/northwest/
 date: "2022-04-30"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2022 Season
+    link: /jbq/2022/
     icon: fas fa-home
 ---
 
-## 2022 Regional Finals
-
-### Teams
+## Teams
 
 *2-way ties broken by head-to-head matches, 3+-way ties broken by points*
 
@@ -27,7 +25,7 @@ menubar_toc_static:
 | 5 | Deeper Church (Deeper Church)                               | 3 / 7  | 30%  | 975   | 97.5  | 4  | 76% |
 | 6 | Kelso Christian Assembly Bombers (Kelso Christian Assembly) | 0 / 10 |      | 370   | 37    |    | 88% |
 
-### Individuals
+## Individuals
 
 *Ties broken by Average Points then by Total Quiz Outs*
 

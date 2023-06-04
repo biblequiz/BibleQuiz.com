@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "2017_District_Finals"
-permalink: /jbq/?//?/?/
+title: "2017 Arkansas District Finals"
+permalink: /jbq/2017/districts/arkansas/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2017 Season
+    link: /jbq/2017/
     icon: fas fa-home
 ---
 
@@ -84,7 +84,7 @@ menubar_toc_static:
 | 33       | Gabe Fernandez       | Starburst (First NLR)                                  | -20   | -2.2  |    | 43%  |
 
 
-## 3rd & 4th
+## 3rd & 4th Grade
 
 ### Teams
 
@@ -169,7 +169,7 @@ menubar_toc_static:
 | **\*41** | Addyson Herbert      | Bethel Bombers (Bethel AG)                          | -15   | -1.5  |    |      |
 
 
-## 5th & 6th
+## 5th & 6th Grade
 
 ### Teams
 

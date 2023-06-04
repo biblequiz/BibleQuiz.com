@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "2022_Arkansas_District_Tournament"
-permalink: /jbq/?//?/?/
+title: "2022 Arkansas District Finals"
+permalink: /jbq/2022/districts/arkansas/
 date: "2022-04-02"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2022 Season
+    link: /jbq/2022/
     icon: fas fa-home
 ---
 

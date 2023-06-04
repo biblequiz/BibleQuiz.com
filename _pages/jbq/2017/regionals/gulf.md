@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Gulf_Regional"
-permalink: /jbq/?//regionals/?/
+title: "2017 Gulf Regionals"
+permalink: /jbq/2017/regionals/gulf/
 date: "2017-04-29"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2017 Season
+    link: /jbq/2017/
     icon: fas fa-home
 ---
 

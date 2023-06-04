@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "2022_23_North_Carolina_JBQ"
-permalink: /jbq/?//?/?/
+title: "2021 North Carolina Semi Finals"
+permalink: /jbq/2021/other/north-carolina-semi-finals/
 date: "2023-04-16"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2021 Season
+    link: /jbq/2021/
     icon: fas fa-home
 ---
 
-## Semi Finals - Novice
+## Novice
 
 ### Teams
 

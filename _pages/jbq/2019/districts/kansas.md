@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "2019_District_Finals_A_and_I_Divisions"
-permalink: /jbq/?//?/?/
+title: "2019 Kansas District Finals"
+permalink: /jbq/2019/districts/kansas/
 date: "2019-03-03"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2019 Season
+    link: /jbq/2019/
     icon: fas fa-home
 ---
 
-## 2019 District Finals A Division
+## A Division
 
 ### Teams
 
@@ -56,7 +56,7 @@ menubar_toc_static:
 | **\*19** | Jade Yielding    | Every Word (Manhattan First A/G)      | 0     |       |    |      |
 
 
-## 2019 District Finals I Division
+## I Division
 
 ### Teams
 
@@ -105,7 +105,7 @@ menubar_toc_static:
 | **\*21** | Zada Oatney         | 365/247 (Village West Family Church)         | 0     |      |    |      |
 
 
-## 2019 District Finals B Division
+## B Division
 
 ### Teams
 

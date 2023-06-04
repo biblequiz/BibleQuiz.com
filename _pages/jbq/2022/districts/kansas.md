@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "2022_Kansas_District_Finals"
-permalink: /jbq/?//?/?/
+title: "2022 Kansas District Finals"
+permalink: /jbq/2022/districts/kansas/
 date: "2022-03-19"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2022 Season
+    link: /jbq/2022/
     icon: fas fa-home
 ---
 
-## A Div
+## A Division
 
 ### Teams
 
@@ -39,7 +39,7 @@ menubar_toc_static:
 | 7       | Karsynn Bennett | FC Volts (Faith Chapel)      | -5    | -1.3  |    |      |
 
 
-## I Div
+## I Division
 
 ### Teams
 

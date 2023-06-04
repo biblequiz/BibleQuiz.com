@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "PenFlorida_18_District_Finals"
-permalink: /jbq/?//?/?/
+title: "2018 Peninsular-Florida District Finals"
+permalink: /jbq/2018/districts/peninsular-florida/
 date: "2018-03-05"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2018 Season
+    link: /jbq/2018/
     icon: fas fa-home
 ---
 
-## 2018 Championship Flight
+## Championship Flight
 
 ### Teams
 
@@ -84,7 +84,7 @@ menubar_toc_static:
 | 39       | Kaelyn Sosebee     | First Coast Christian Center - Blue (First Coast Christian Center (203) ) | -10   | -1.1  |    |      |
 
 
-## 2018 Flight 2
+## Flight 2
 
 ### Teams
 
@@ -141,7 +141,7 @@ menubar_toc_static:
 | 25       | Aaron Lopez       | The Buzzer Boys (LIFE Church AG (303))        | -10   | -1.7  |    |      |
 
 
-## 2018 Flight 3
+## Flight 3
 
 ### Teams
 
@@ -195,7 +195,7 @@ menubar_toc_static:
 | 24       | Seth Massey       | FCF J (Freedom Christian Fellowship (207) )    | -25   | -4.2 |    | 25%  |
 
 
-## 2018 Flight 4
+## Flight 4
 
 ### Teams
 
@@ -251,7 +251,7 @@ menubar_toc_static:
 | 20       | Tenly Stith          | Wayfinders (Palatka 1st AG (209) )            | -5    | -.8  |    | 50%  |
 
 
-## 2018 Flight 5
+## Flight 5
 
 ### Teams
 
@@ -310,7 +310,7 @@ menubar_toc_static:
 | 20       | Bryan Boileau          | CLC Heat (Christian Life Center (404))                                      | -5    | -.8  |    |      |
 
 
-## 2018 Flight 6
+## Flight 6
 
 ### Teams
 
@@ -365,7 +365,7 @@ menubar_toc_static:
 | **\*18** | Hannah Lozano        | New Life Team B (New Life AG (504))                             | 0     |       |    |      |
 
 
-## 2018 X League Flight 1
+## Flight X1
 
 ### Teams
 

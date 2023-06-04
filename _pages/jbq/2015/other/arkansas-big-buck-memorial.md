@@ -1,14 +1,12 @@
 ---
 layout: page
-title: "Big_Buck"
-permalink: /jbq/?//?/?/
-date: "2019-05-14"
-toc_title: Results
+title: "2015 Big Buck Memorial (Arkansas)"
+permalink: /jbq/2015/other/arkansas-big-buck-memorial/
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2015 Season
+    link: /jbq/2015/
     icon: fas fa-home
 ---
 

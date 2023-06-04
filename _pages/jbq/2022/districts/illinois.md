@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "District_Finals_2022"
-permalink: /jbq/?//?/?/
+title: "2022 Illinois District Finals"
+permalink: /jbq/2022/districts/illinois/
 date: "2022-04-15"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2022 Season
+    link: /jbq/2022/
     icon: fas fa-home
 ---
 

@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Razorback"
-permalink: /jbq/?//?/?/
+title: "2014 Razorback (Arkansas)"
+permalink: /jbq/2014/other/arkansas-razorback/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2014 Season
+    link: /jbq/2014/
     icon: fas fa-home
 ---
 

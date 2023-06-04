@@ -1,54 +1,18 @@
 ---
 layout: page
-title: "PenFlorida_21_District_Finals"
-permalink: /jbq/?//?/?/
+title: "2021 Peninsular-Florida District Finals"
+permalink: /jbq/2021/districts/peninsular-florida/
 date: "2021-03-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2021 Season
+    link: /jbq/2021/
     icon: fas fa-home
 ---
 
-## Flight 2 2021
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points*
-
-| #   | Team / Church                                                  | W/L   | Total | Avg   | QO | Q%  |
-|----:|----------------------------------------------------------------|-------|------:|------:|---:|----:|
-| 1.1 | Captain Unicorn Quizzers (Faith Assembly of God)               | 4 / 2 | 665   | 110.8 | 3  | 74% |
-| 2.1 | God\'s Gamers (Faith Assembly of God)                          | 4 / 2 | 630   | 105   | 1  | 88% |
-| 3.0 | God\'s Army (Faith Assembly of God)                            | 2 / 4 | 475   | 79.2  | 3  | 71% |
-| 4.0 | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) | 2 / 4 | 460   | 76.7  | 1  | 87% |
-
-### Individuals
-
-*Ties broken by Average Points then Total Quiz Outs*
-
-| #        | Quizzer           | Team / Church                                                  | Total | Avg  | QO | Q%   |
-|---------:|-------------------|----------------------------------------------------------------|------:|-----:|---:|-----:|
-| 1        | Camden Spence     | God\'s Gamers (Faith Assembly of God)                          | 540   | 90   | 1  | 93%  |
-| 2        | Joseph Bland      | Captain Unicorn Quizzers (Faith Assembly of God)               | 435   | 72.5 | 3  | 84%  |
-| 3        | Sirayah Williams  | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) | 335   | 55.8 | 1  | 89%  |
-| 4        | Alicia Johnson    | God\'s Army (Faith Assembly of God)                            | 275   | 45.8 | 2  | 80%  |
-| 5        | Jasmine Archinihu | Captain Unicorn Quizzers (Faith Assembly of God)               | 210   | 35   |    | 75%  |
-| 6        | J.D. Pereira      | God\'s Army (Faith Assembly of God)                            | 190   | 31.7 | 1  | 61%  |
-| 7        | Kirra Perry       | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) | 95    | 15.8 |    | 80%  |
-| 8        | Zoey Morales      | God\'s Gamers (Faith Assembly of God)                          | 50    | 8.3  |    | 80%  |
-| 9        | Benjamin Reilly   | God\'s Gamers (Faith Assembly of God)                          | 40    | 6.7  |    | 71%  |
-| 10       | Guillermo Diaz    | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) | 30    | 5    |    | 100% |
-| 11       | Michael Reilly    | God\'s Army (Faith Assembly of God)                            | 15    | 2.5  |    | 50%  |
-| 12       | Liam Morales      | Captain Unicorn Quizzers (Faith Assembly of God)               | 10    | 1.7  |    | 99%  |
-| **\*12** | Andrea Bonilla    | Captain Unicorn Quizzers (Faith Assembly of God)               | 10    | 1.7  |    | 36%  |
-| 13       | Allison Crouch    | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) | 0     |      |    |      |
-| 14       | Daniel Bonilla    | God\'s Army (Faith Assembly of God)                            | -5    | -.8  |    |      |
-
-
-## Flight of Champions 2021
+## Flight of Champions
 
 ### Teams
 
@@ -104,4 +68,40 @@ menubar_toc_static:
 | **\*27** | Allen Crouch      | The Wise Guys (LIFE Church AG) (LIFE Church Assembly of God)         | 0     |       |    |      |
 | 28       | Katelynn Wolf     | Double Edge (Oxford Assembly of God)                                 | -5    | -.7   |    |      |
 | 29       | Alexia Robinson   | First Assembly of God (New Port Richey) #1 (First Assembly of God)   | -10   | -1.4  |    |      |
+
+## Flight 2
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                                  | W/L   | Total | Avg   | QO | Q%  |
+|----:|----------------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.1 | Captain Unicorn Quizzers (Faith Assembly of God)               | 4 / 2 | 665   | 110.8 | 3  | 74% |
+| 2.1 | God\'s Gamers (Faith Assembly of God)                          | 4 / 2 | 630   | 105   | 1  | 88% |
+| 3.0 | God\'s Army (Faith Assembly of God)                            | 2 / 4 | 475   | 79.2  | 3  | 71% |
+| 4.0 | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) | 2 / 4 | 460   | 76.7  | 1  | 87% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer           | Team / Church                                                  | Total | Avg  | QO | Q%   |
+|---------:|-------------------|----------------------------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Camden Spence     | God\'s Gamers (Faith Assembly of God)                          | 540   | 90   | 1  | 93%  |
+| 2        | Joseph Bland      | Captain Unicorn Quizzers (Faith Assembly of God)               | 435   | 72.5 | 3  | 84%  |
+| 3        | Sirayah Williams  | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) | 335   | 55.8 | 1  | 89%  |
+| 4        | Alicia Johnson    | God\'s Army (Faith Assembly of God)                            | 275   | 45.8 | 2  | 80%  |
+| 5        | Jasmine Archinihu | Captain Unicorn Quizzers (Faith Assembly of God)               | 210   | 35   |    | 75%  |
+| 6        | J.D. Pereira      | God\'s Army (Faith Assembly of God)                            | 190   | 31.7 | 1  | 61%  |
+| 7        | Kirra Perry       | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) | 95    | 15.8 |    | 80%  |
+| 8        | Zoey Morales      | God\'s Gamers (Faith Assembly of God)                          | 50    | 8.3  |    | 80%  |
+| 9        | Benjamin Reilly   | God\'s Gamers (Faith Assembly of God)                          | 40    | 6.7  |    | 71%  |
+| 10       | Guillermo Diaz    | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) | 30    | 5    |    | 100% |
+| 11       | Michael Reilly    | God\'s Army (Faith Assembly of God)                            | 15    | 2.5  |    | 50%  |
+| 12       | Liam Morales      | Captain Unicorn Quizzers (Faith Assembly of God)               | 10    | 1.7  |    | 99%  |
+| **\*12** | Andrea Bonilla    | Captain Unicorn Quizzers (Faith Assembly of God)               | 10    | 1.7  |    | 36%  |
+| 13       | Allison Crouch    | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) | 0     |      |    |      |
+| 14       | Daniel Bonilla    | God\'s Army (Faith Assembly of God)                            | -5    | -.8  |    |      |
+
 

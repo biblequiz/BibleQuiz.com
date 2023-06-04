@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "2019_District_Qualifying"
-permalink: /jbq/?//?/?/
+title: "2019 Arkansas Districts Qualifiers"
+permalink: /jbq/2019/other/arkansas-districts-qualifying/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2019 Season
+    link: /jbq/2019/
     icon: fas fa-home
 ---
 
-## NC Area 2-Under
+## North Central Area - 2nd & Under
 
 ### Teams
 
@@ -61,7 +61,7 @@ menubar_toc_static:
 | 15       | Karaline Porter      | Changepoint Assembly of God (Cabot) #1 (Changepoint Assembly of God) | -5    | -1.3  |    |      |
 
 
-## NC Area 5th - 6th
+## North Central Area - 5th & 6th
 
 ### Teams
 

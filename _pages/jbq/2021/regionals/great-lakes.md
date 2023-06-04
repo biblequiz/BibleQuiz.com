@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "GreatLakes_Regional"
-permalink: /jbq/?//regionals/?/
+title: "2021 Great Lakes Regionals"
+permalink: /jbq/2021/regionals/great-lakes/
 date: "2022-05-07"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2021 Season
+    link: /jbq/2021/
     icon: fas fa-home
 ---
 

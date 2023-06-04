@@ -1,19 +1,19 @@
 ---
 layout: page
-title: "Razorback"
-permalink: /jbq/?//?/?/
+title: "2013 Razorback (Arkansas)"
+permalink: /jbq/2013/other/arkansas-razorback/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2013 Season
+    link: /jbq/2013/
     icon: fas fa-home
 ---
 
 
-## 3rd - 4th Grade
+## 3rd & 4th Grade
 
 ### Preliminaries
 

@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "2018_District_Qualifying"
-permalink: /jbq/?//?/?/
+title: "2018 Arkansas Districts Qualifiers"
+permalink: /jbq/2018/other/arkansas-districts-qualifying/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2018 Season
+    link: /jbq/2018/
     icon: fas fa-home
 ---
 
-## NC Area 3rd & 4th
+## North Central Area - 3rd & 4th Grade
 
 ### Teams
 
@@ -46,7 +46,7 @@ menubar_toc_static:
 | **\*11** | Chloe            | Jesus Freaks (McArthur )      | 0     |      |    |      |
 
 
-## NW Area 3rd & 4th
+## Northwest Area - 3rd & 4th Grade
 
 ### Teams
 

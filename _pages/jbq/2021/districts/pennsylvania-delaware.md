@@ -1,20 +1,18 @@
 ---
 layout: page
-title: "JBQ_DistrictFinals_2020-21"
-permalink: /jbq/?//?/?/
+title: "2021 Pennsylvania-Delaware District Finals"
+permalink: /jbq/2021/districts/pennsylvania-delaware/
 date: "2021-02-06"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2021 Season
+    link: /jbq/2021/
     icon: fas fa-home
 ---
 
-## JBQ District Finals 2021
-
-### Teams
+## Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
@@ -34,7 +32,7 @@ menubar_toc_static:
 | 12 | Spirit Warriors     | New Covenant AG, Montgomery PA        | 2/10 | 1370  | 114.17 |
 | 13 | Sword of the Spirit | New Covenant AG, Montgomery PA        | 1/11 | 1080  | 90.00  |
 
-### Individuals
+## Individuals
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 

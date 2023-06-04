@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "2023_District_Qualifying"
-permalink: /jbq/?//?/?/
+title: "2023 Arkansas Districts Qualifiers"
+permalink: /jbq/2023/other/arkansas-districts-qualifying/
 date: "2023-03-04"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2023 Season
+    link: /jbq/2023/
     icon: fas fa-home
 ---
 

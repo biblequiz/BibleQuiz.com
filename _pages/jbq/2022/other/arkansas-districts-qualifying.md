@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "2022_District_Qualifying"
-permalink: /jbq/?//?/?/
+title: "2022 Arkansas Districts Qualifiers"
+permalink: /jbq/2022/other/arkansas-districts-qualifying/
 date: "2022-03-05"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2022 Season
+    link: /jbq/2022/
     icon: fas fa-home
 ---
 

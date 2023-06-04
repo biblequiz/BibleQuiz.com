@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "2021_22_North_Carolina"
-permalink: /jbq/?//?/?/
+title: "2022 North Carolina Semi Finals"
+permalink: /jbq/2022/other/north-carolina-semi-finals/
 date: "2022-04-11"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2022 Season
+    link: /jbq/2022/
     icon: fas fa-home
 ---
 
-## District Exp Semi Finals
+## Experienced
 
 ### Teams
 
@@ -62,7 +62,7 @@ menubar_toc_static:
 | 25       | Sara Villars       | Honor Rollers (Tabernacle of Praise)       | -5    | -.8   |    |      |
 | 26       | Grace Olson        | Askewville ( )                             | -5    | -1    |    |      |
 
-## District Novice Semi Finals
+## Novice
 
 ### Teams
 

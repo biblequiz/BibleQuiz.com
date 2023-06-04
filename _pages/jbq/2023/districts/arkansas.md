@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "2023_Arkansas_District_Tournament"
-permalink: /jbq/?//?/?/
+title: "2023 Arkansas District Finals"
+permalink: /jbq/2023/districts/arkansas/
 date: "2023-04-02"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2023 Season
+    link: /jbq/2023/
     icon: fas fa-home
 ---
 

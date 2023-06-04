@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "NorthEast_Regional"
-permalink: /jbq/?//regionals/?/
+title: "2022 Northeast Regionals"
+permalink: /jbq/2022/regionals/northeast/
 date: "2017-05-10"
 toc_title: Results
 menubar_toc: true

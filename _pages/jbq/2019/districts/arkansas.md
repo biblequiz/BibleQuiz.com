@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "2019_District_Finals"
-permalink: /jbq/?//?/?/
+title: "2019 Arkansas District Finals"
+permalink: /jbq/2019/districts/arkansas/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2019 Season
+    link: /jbq/2019/
     icon: fas fa-home
 ---
 

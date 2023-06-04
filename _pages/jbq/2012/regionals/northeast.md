@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "NorthEast_Regional"
-permalink: /jbq/?//regionals/?/
+title: "2012 Northeast Regionals"
+permalink: /jbq/2012/regionals/northeast/
 date: "2017-05-10"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2012 Season
+    link: /jbq/2012/
     icon: fas fa-home
 ---
 

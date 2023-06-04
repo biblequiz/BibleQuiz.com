@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "SouthWest_Regional"
-permalink: /jbq/?//regionals/?/
+title: "2014 Southwest Regionals"
+permalink: /jbq/2014/regionals/southwest/
 date: "2017-05-10"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2014 Season
+    link: /jbq/2014/
     icon: fas fa-home
 ---
 

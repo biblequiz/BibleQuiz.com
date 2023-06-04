@@ -1,20 +1,110 @@
 ---
 layout: page
-title: "2012_Arkansas_District"
-permalink: /jbq/?//?/?/
+title: "2012 Arkansas District Finals"
+permalink: /jbq/2012/districts/arkansas/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2012 Season
+    link: /jbq/2012/
     icon: fas fa-home
 ---
 
-## 2nd & Under Division 1
 
-### Teams
+## 2nd and Under
+
+### Blue Division (AM)
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team                           | Church                          | W/L | Total | Avg    |
+|--:|--------------------------------|---------------------------------|-----|------:|-------:|
+| 1 | NLR-First Assembly of God      | NLR First Assembly of God       | 5/0 | 1145  | 229.00 |
+| 2 | SuperNatural Kidz              | Harrison Faith Assembly of God  | 4/1 | 1140  | 228.00 |
+| 3 | McArthur Team 1                | McArthur Assembly of God        | 3/2 | 850   | 170.00 |
+| 4 | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God  | 2/3 | 300   | 60.00  |
+| 5 | Pottsville Assembly of God     | Pottsville Assembly of God      | 1/4 | 340   | 68.00  |
+| 6 | Faithbuilders                  | Texarkana Faith Assembly of God | 0/5 | 180   | 36.00  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer              | Team                           | Church                          | Total | Avg    | QO |
+|---:|----------------------|--------------------------------|---------------------------------|------:|-------:|---:|
+| 1  | Jacob Blackburn      | NLR-First Assembly of God      | NLR First Assembly of God       | 600   | 120.00 | 3  |
+| 2  | Jake Bellou          | McArthur Team 1                | McArthur Assembly of God        | 545   | 109.00 | 3  |
+| 3  | Kamryn Bradshaw      | SuperNatural Kidz              | Harrison Faith Assembly of God  | 430   | 86.00  |    |
+| 4  | Jordan Henley        | SuperNatural Kidz              | Harrison Faith Assembly of God  | 390   | 78.00  | 2  |
+| 5  | Brooke Zermatten     | NLR-First Assembly of God      | NLR First Assembly of God       | 300   | 60.00  | 2  |
+| 6  | TORI MCDIARMID       | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God  | 270   | 54.00  | 2  |
+| 7  | MaKayla Mattix       | SuperNatural Kidz              | Harrison Faith Assembly of God  | 255   | 51.00  | 2  |
+| 7  | Stephen Guyse        | Pottsville Assembly of God     | Pottsville Assembly of God      | 255   | 51.00  | 2  |
+| 8  | Aubree Johnson       | NLR-First Assembly of God      | NLR First Assembly of God       | 225   | 45.00  | 2  |
+| 9  | Kamelia Skinner      | McArthur Team 1                | McArthur Assembly of God        | 205   | 41.00  | 2  |
+| 10 | Lexie Lansdell       | Faithbuilders                  | Texarkana Faith Assembly of God | 150   | 30.00  |    |
+| 11 | Austin Ford          | Pottsville Assembly of God     | Pottsville Assembly of God      | 85    | 17.00  |    |
+| 12 | Patience Boryschtsck | McArthur Team 1                | McArthur Assembly of God        | 75    | 15.00  |    |
+| 13 | MaKya Mattix         | SuperNatural Kidz              | Harrison Faith Assembly of God  | 40    | 8.00   |    |
+| 14 | Ann-Marie Sheek      | Faithbuilders                  | Texarkana Faith Assembly of God | 30    | 6.00   |    |
+| 14 | Lakin Shaw           | McArthur Team 1                | McArthur Assembly of God        | 30    | 6.00   |    |
+| 15 | Cody Paul            | SuperNatural Kidz              | Harrison Faith Assembly of God  | 25    | 5.00   |    |
+| 15 | CECE SHARP           | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God  | 25    | 5.00   |    |
+| 16 | Ian Sharps           | NLR-First Assembly of God      | NLR First Assembly of God       | 20    | 4.00   |    |
+| 17 | JAYCI DRUMMOND       | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God  | 5     | 1.00   |    |
+
+
+### Red Division (AM)
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team                           | Church                          | W/L | Total | Avg    |
+|--:|--------------------------------|---------------------------------|-----|------:|-------:|
+| 1 | Bible Bugs                     | Fordyce First A/G               | 5/0 | 1100  | 220.00 |
+| 2 | Kung Fu Quizzers               | Benton First Assembly           | 4/1 | 900   | 180.00 |
+| 3 | Ring Tail Tooters              | McArthur Assembly of God        | 3/2 | 840   | 168.00 |
+| 4 | Trinity Fellowship             | Trinity Fellowship              | 2/3 | 640   | 128.00 |
+| 5 | VBFA                           | Van Buren First Assembly of God | 1/4 | 455   | 91.00  |
+| 6 | Prescott First Assembly of God | Prescott First Assembly of God  | 0/5 | 75    | 15.00  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer            | Team                           | Church                          | Total | Avg    | QO |
+|---:|--------------------|--------------------------------|---------------------------------|------:|-------:|---:|
+| 1  | Allie Turner       | Bible Bugs                     | Fordyce First A/G               | 645   | 129.00 | 4  |
+| 2  | Bobbie Jean Barnes | Kung Fu Quizzers               | Benton First Assembly           | 595   | 119.00 | 4  |
+| 3  | McKenzie Minor     | Trinity Fellowship             | Trinity Fellowship              | 430   | 86.00  | 2  |
+| 4  | Garrett Richardson | Ring Tail Tooters              | McArthur Assembly of God        | 410   | 82.00  | 3  |
+| 5  | Aubrey Hornaday    | Bible Bugs                     | Fordyce First A/G               | 350   | 70.00  | 5  |
+| 6  | Lexie Grace Hunt   | Ring Tail Tooters              | McArthur Assembly of God        | 320   | 64.00  | 4  |
+| 7  | Ethan Davis        | VBFA                           | Van Buren First Assembly of God | 255   | 51.00  | 2  |
+| 8  | Briton Glover      | Kung Fu Quizzers               | Benton First Assembly           | 200   | 40.00  | 2  |
+| 9  | Landon Semrad      | Trinity Fellowship             | Trinity Fellowship              | 150   | 30.00  | 1  |
+| 10 | Ben Cantrell       | VBFA                           | Van Buren First Assembly of God | 120   | 24.00  |    |
+| 11 | Gage Hunt          | Ring Tail Tooters              | McArthur Assembly of God        | 110   | 22.00  |    |
+| 12 | Ansley Hornaday    | Bible Bugs                     | Fordyce First A/G               | 100   | 20.00  |    |
+| 13 | Andrew Greenwell   | Kung Fu Quizzers               | Benton First Assembly           | 70    | 14.00  |    |
+| 14 | Caden Adair        | Trinity Fellowship             | Trinity Fellowship              | 60    | 12.00  |    |
+| 15 | Tatum Burris       | VBFA                           | Van Buren First Assembly of God | 50    | 10.00  |    |
+| 16 | Hailey Gatliff     | Prescott First Assembly of God | Prescott First Assembly of God  | 30    | 6.00   |    |
+| 16 | Caden Sanders      | Kung Fu Quizzers               | Benton First Assembly           | 30    | 6.00   |    |
+| 16 | Gracie Crabtree    | VBFA                           | Van Buren First Assembly of God | 30    | 6.00   |    |
+| 17 | Kaelyn Hill        | Prescott First Assembly of God | Prescott First Assembly of God  | 25    | 5.00   |    |
+| 18 | Joseph Carpenter   | Prescott First Assembly of God | Prescott First Assembly of God  | 20    | 4.00   |    |
+| 19 | Caitlyn Jendrajas  | Bible Bugs                     | Fordyce First A/G               | 10    | 2.00   |    |
+| 19 | Noah Sanders       | Kung Fu Quizzers               | Benton First Assembly           | 10    | 2.00   |    |
+
+### Division 1
+
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
@@ -27,7 +117,7 @@ menubar_toc_static:
 | 5 | McArthur Team 1           | McArthur Assembly of God       | 2/3 | 490   | 98.00  |
 | 6 | SuperNatural Kidz         | Harrison Faith Assembly of God | 0/5 | 605   | 121.00 |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
@@ -57,9 +147,9 @@ menubar_toc_static:
 | 18 | Cody Paul          | SuperNatural Kidz         | Harrison Faith Assembly of God | 5     | 1.00   |    |
 
 
-## 2nd & Under Division 2
+### Division 2
 
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
@@ -72,7 +162,7 @@ menubar_toc_static:
 | 5 | Faithbuilders                  | Texarkana Faith Assembly of God | 1/4 | 325   | 65.00  |
 | 6 | Prescott First Assembly of God | Prescott First Assembly of God  | 0/5 | 65    | 13.00  |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
@@ -97,9 +187,124 @@ menubar_toc_static:
 | 15 | Hailey Gatliff   | Prescott First Assembly of God | Prescott First Assembly of God  | 5     | 1.00   |    |
 
 
-## 3rd & 4th Division 1
+### 3rd and 4th Grade
 
-### Teams
+### Blue Division (AM)
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team                             | Church                             | W/L | Total | Avg    |
+|--:|----------------------------------|------------------------------------|-----|------:|-------:|
+| 1 | Springdale First Assembly of God | Springdale First Assembly of God   | 7/0 | 1730  | 247.14 |
+| 2 | NLR 1st                          | North Little Rock 1st Assembly     | 6/1 | 1410  | 201.43 |
+| 3 | Team-Faith Assembly              | Harrison Faith Assembly            | 5/2 | 1425  | 203.57 |
+| 4 | Jonesboro 1st                    | Jonesboro First Assembly of God    | 3/4 | 925   | 132.14 |
+| 5 | Faithbuilders                    | Texarkana Faith Assembly of God    | 3/4 | 885   | 126.43 |
+| 6 | Russellville First Assembly      | Russellville First Assembly Of God | 3/4 | 735   | 105.00 |
+| 7 | Buzz Hogs                        | River of Life                      | 1/6 | 615   | 87.86  |
+| 8 | Bible Bugs                       | Fordyce First A/G Church           | 0/7 | 245   | 35.00  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer          | Team                             | Church                             | Total | Avg    | QO |
+|---:|------------------|----------------------------------|------------------------------------|------:|-------:|---:|
+| 1  | Ryan Yumang      | Springdale First Assembly of God | Springdale First Assembly of God   | 915   | 130.71 | 7  |
+| 2  | Aedan Moore      | NLR 1st                          | North Little Rock 1st Assembly     | 880   | 125.71 | 6  |
+| 3  | Aubrey Decker    | Jonesboro 1st                    | Jonesboro First Assembly of God    | 785   | 112.14 | 4  |
+| 4  | Isabelle Yumang  | Springdale First Assembly of God | Springdale First Assembly of God   | 650   | 92.86  | 5  |
+| 5  | Dalton Rowe      | Team-Faith Assembly              | Harrison Faith Assembly            | 515   | 73.57  | 5  |
+| 6  | Sarah McDonald   | Faithbuilders                    | Texarkana Faith Assembly of God    | 445   | 63.57  | 1  |
+| 7  | Kris Duran       | Russellville First Assembly      | Russellville First Assembly Of God | 440   | 62.86  | 2  |
+| 8  | Hailey Wilson    | Team-Faith Assembly              | Harrison Faith Assembly            | 385   | 55.00  | 1  |
+| 9  | Hannah Miller    | Team-Faith Assembly              | Harrison Faith Assembly            | 370   | 52.86  |    |
+| 10 | Sydney Sheek     | Faithbuilders                    | Texarkana Faith Assembly of God    | 350   | 50.00  | 3  |
+| 11 | Levi Biniakewitz | Buzz Hogs                        | River of Life                      | 325   | 46.43  |    |
+| 12 | Haven Jackson    | Buzz Hogs                        | River of Life                      | 280   | 40.00  |    |
+| 13 | Morganne Jumper  | NLR 1st                          | North Little Rock 1st Assembly     | 250   | 35.71  | 1  |
+| 14 | Alexis Sharps    | NLR 1st                          | North Little Rock 1st Assembly     | 140   | 20.00  | 1  |
+| 15 | Brandon Bunton   | Russellville First Assembly      | Russellville First Assembly Of God | 135   | 19.29  |    |
+| 15 | Trent Conn       | Springdale First Assembly of God | Springdale First Assembly of God   | 135   | 19.29  |    |
+| 16 | Cade Womack      | NLR 1st                          | North Little Rock 1st Assembly     | 120   | 17.14  |    |
+| 17 | Caden Lemley     | Russellville First Assembly      | Russellville First Assembly Of God | 115   | 16.43  | 1  |
+| 18 | Luke Hendryx     | Bible Bugs                       | Fordyce First A/G Church           | 115   | 16.43  |    |
+| 19 | Brittany Norman  | Jonesboro 1st                    | Jonesboro First Assembly of God    | 110   | 15.71  |    |
+| 20 | Ian Hendryx      | Bible Bugs                       | Fordyce First A/G Church           | 95    | 13.57  |    |
+| 20 | Kayden Powers    | Team-Faith Assembly              | Harrison Faith Assembly            | 95    | 13.57  |    |
+| 21 | Madalyn Dowell   | Faithbuilders                    | Texarkana Faith Assembly of God    | 60    | 8.57   |    |
+| 21 | Madison Herring  | Team-Faith Assembly              | Harrison Faith Assembly            | 60    | 8.57   |    |
+| 22 | Mallory Metcalf  | Bible Bugs                       | Fordyce First A/G Church           | 35    | 5.00   |    |
+| 23 | Seth McDonald    | Faithbuilders                    | Texarkana Faith Assembly of God    | 30    | 4.29   |    |
+| 23 | Mattea Cliff     | Jonesboro 1st                    | Jonesboro First Assembly of God    | 30    | 4.29   |    |
+| 23 | Abby Bradford    | Springdale First Assembly of God | Springdale First Assembly of God   | 30    | 4.29   |    |
+| 24 | Noah Freeman     | Russellville First Assembly      | Russellville First Assembly Of God | 25    | 3.57   |    |
+| 25 | Grant Wilson     | NLR 1st                          | North Little Rock 1st Assembly     | 20    | 2.86   |    |
+| 26 | Jacob Partridge  | Russellville First Assembly      | Russellville First Assembly Of God | 15    | 2.14   |    |
+| 27 | Lauryn Jackson   | Buzz Hogs                        | River of Life                      | 10    | 1.43   |    |
+| 28 | Ryan Fraley      | Russellville First Assembly      | Russellville First Assembly Of God | 5     | .71    |    |
+
+### Red Division (AM)
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team                           | Church                           | W/L | Total | Avg    |
+|--:|--------------------------------|----------------------------------|-----|------:|-------:|
+| 1 | Kung Fu Quizzers               | Benton First Assembly            | 6/1 | 1545  | 220.71 |
+| 2 | Rogers 1st                     | Rogers First Assembly            | 6/1 | 1500  | 214.29 |
+| 3 | Jesus Freaks                   | McArthur Assembly of God         | 6/1 | 1400  | 200.00 |
+| 4 | VBFA                           | Van Buren First Assembly of God  | 4/3 | 1220  | 174.29 |
+| 5 | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God   | 3/4 | 1050  | 150.00 |
+| 6 | Pocahontas                     | Pocahontas First Assembly of God | 2/5 | 915   | 130.71 |
+| 7 | Changepoint                    | Changepoint                      | 1/6 | 550   | 78.57  |
+| 8 | Nashville                      | Nashville First Assembly of God  | 0/7 | 85    | 12.14  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer             | Team                           | Church                           | Total | Avg    | QO |
+|---:|---------------------|--------------------------------|----------------------------------|------:|-------:|---:|
+| 1  | Emily Greenwell     | Kung Fu Quizzers               | Benton First Assembly            | 950   | 135.71 | 4  |
+| 2  | Seth Swain          | Jesus Freaks                   | McArthur Assembly of God         | 905   | 129.29 | 5  |
+| 3  | HAYDEN MCDIARMID    | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God   | 790   | 112.86 | 7  |
+| 4  | Logan Tharp         | Pocahontas                     | Pocahontas First Assembly of God | 700   | 100.00 | 3  |
+| 5  | Ethan Lancelot      | Rogers 1st                     | Rogers First Assembly            | 540   | 77.14  |    |
+| 6  | Sydney Shockley     | Rogers 1st                     | Rogers First Assembly            | 525   | 75.00  |    |
+| 7  | Christian Robertson | VBFA                           | Van Buren First Assembly of God  | 510   | 72.86  | 2  |
+| 8  | Amberlie Ming       | VBFA                           | Van Buren First Assembly of God  | 495   | 70.71  | 2  |
+| 9  | Joseph Skinner      | Jesus Freaks                   | McArthur Assembly of God         | 395   | 56.43  | 5  |
+| 9  | Elizabeth Riggins   | Rogers 1st                     | Rogers First Assembly            | 395   | 56.43  | 5  |
+| 10 | Collin Hines        | Changepoint                    | Changepoint                      | 395   | 56.43  | 1  |
+| 11 | Alexis Rowland      | Kung Fu Quizzers               | Benton First Assembly            | 300   | 42.86  | 1  |
+| 12 | Jared Watson        | Kung Fu Quizzers               | Benton First Assembly            | 275   | 39.29  | 2  |
+| 13 | ABBY SIPES          | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God   | 230   | 32.86  |    |
+| 14 | Kimberly Sullinger  | Pocahontas                     | Pocahontas First Assembly of God | 155   | 22.14  | 1  |
+| 15 | Layton McClure      | VBFA                           | Van Buren First Assembly of God  | 145   | 20.71  |    |
+| 16 | Nicholas Brady      | Changepoint                    | Changepoint                      | 95    | 13.57  |    |
+| 17 | Logan Fatherree     | Nashville                      | Nashville First Assembly of God  | 70    | 10.00  |    |
+| 17 | Lena Davis          | VBFA                           | Van Buren First Assembly of God  | 70    | 10.00  |    |
+| 18 | Pierce Brinker      | Jesus Freaks                   | McArthur Assembly of God         | 55    | 7.86   |    |
+| 19 | Julia Morgan        | Pocahontas                     | Pocahontas First Assembly of God | 45    | 6.43   |    |
+| 20 | Caleb Whitener      | Jesus Freaks                   | McArthur Assembly of God         | 40    | 5.71   |    |
+| 20 | Lizzie Hankerson    | Changepoint                    | Changepoint                      | 40    | 5.71   |    |
+| 21 | Tinley Boysen       | Rogers 1st                     | Rogers First Assembly            | 30    | 4.29   |    |
+| 21 | CALEB CAIN          | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God   | 30    | 4.29   |    |
+| 22 | Addison Gordon      | Changepoint                    | Changepoint                      | 20    | 2.86   |    |
+| 22 | Chalice Sanders     | Kung Fu Quizzers               | Benton First Assembly            | 20    | 2.86   |    |
+| 23 | Matt Henderson      | Pocahontas                     | Pocahontas First Assembly of God | 15    | 2.14   |    |
+| 24 | Amber Ross          | Nashville                      | Nashville First Assembly of God  | 10    | 1.43   |    |
+| 24 | Taryn Boysen        | Rogers 1st                     | Rogers First Assembly            | 10    | 1.43   |    |
+| 25 | James Lindner       | Jesus Freaks                   | McArthur Assembly of God         | 5     | .71    |    |
+| 25 | Tray Turbeville     | Nashville                      | Nashville First Assembly of God  | 5     | .71    |    |
+
+### Division 1
+
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
@@ -110,7 +315,7 @@ menubar_toc_static:
 | 3 | NLR 1st                          | North Little Rock 1st Assembly   | 1/2 | 405   | 135.00 |
 | 4 | Kung Fu Quizzers                 | Benton First Assembly            | 0/3 | 265   | 88.33  |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
@@ -132,9 +337,9 @@ menubar_toc_static:
 | 12 | Alexis Rowland    | Kung Fu Quizzers                 | Benton First Assembly            | 5     | 1.67  |    |
 
 
-## 3rd & 4th Division 2
+### Division 2
 
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
@@ -145,7 +350,7 @@ menubar_toc_static:
 | 3 | VBFA                | Van Buren First Assembly of God | 1/2 | 380   | 126.67 |
 | 4 | Jonesboro 1st       | Jonesboro First Assembly of God | 0/3 | 305   | 101.67 |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
@@ -167,9 +372,9 @@ menubar_toc_static:
 | 11 | Mattea Cliff        | Jonesboro 1st       | Jonesboro First Assembly of God | 10    | 3.33   |    |
 
 
-## 3rd & 4th Division 3
+### Division 3
 
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
@@ -180,7 +385,7 @@ menubar_toc_static:
 | 3 | Russellville First Assembly    | Russellville First Assembly Of God | 1/2 | 425   | 141.67 |
 | 4 | Faithbuilders                  | Texarkana Faith Assembly of God    | 1/2 | 420   | 140.00 |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
@@ -202,9 +407,9 @@ menubar_toc_static:
 | 12 | Jacob Partridge    | Russellville First Assembly    | Russellville First Assembly Of God | 10    | 3.33   |    |
 
 
-## 3rd & 4th Division 4
+### Division 4
 
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
@@ -215,7 +420,7 @@ menubar_toc_static:
 | 3 | Bible Bugs  | Fordyce First A/G Church        | 1/2 | 260   | 86.67  |
 | 4 | Nashville   | Nashville First Assembly of God | 0/3 | 110   | 36.67  |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
@@ -237,7 +442,7 @@ menubar_toc_static:
 | 10 | Allie Metcalf    | Bible Bugs  | Fordyce First A/G Church        | 10    | 3.33   |    |
 
 
-## 5th & 6th
+## 5th and 6th Grade
 
 ### Teams
 
@@ -331,207 +536,4 @@ menubar_toc_static:
 | 52 | Ausitn Faunce       | Bible Bugs                       | Fordyce First A/G                  | 5     | .33    |    |
 | 52 | Jordan Lindner      | McArthur Team A                  | McArthur Assembly of God           | 5     | .33    |    |
 | 52 | Parker Edwards      | Team-Butterfield Assembly Of God | Butterfield Assembly Of God        | 5     | .33    |    |
-
-
-## AM 2nd & Under Blue Division
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
-
-| # | Team                           | Church                          | W/L | Total | Avg    |
-|--:|--------------------------------|---------------------------------|-----|------:|-------:|
-| 1 | NLR-First Assembly of God      | NLR First Assembly of God       | 5/0 | 1145  | 229.00 |
-| 2 | SuperNatural Kidz              | Harrison Faith Assembly of God  | 4/1 | 1140  | 228.00 |
-| 3 | McArthur Team 1                | McArthur Assembly of God        | 3/2 | 850   | 170.00 |
-| 4 | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God  | 2/3 | 300   | 60.00  |
-| 5 | Pottsville Assembly of God     | Pottsville Assembly of God      | 1/4 | 340   | 68.00  |
-| 6 | Faithbuilders                  | Texarkana Faith Assembly of God | 0/5 | 180   | 36.00  |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
-
-| #  | Quizzer              | Team                           | Church                          | Total | Avg    | QO |
-|---:|----------------------|--------------------------------|---------------------------------|------:|-------:|---:|
-| 1  | Jacob Blackburn      | NLR-First Assembly of God      | NLR First Assembly of God       | 600   | 120.00 | 3  |
-| 2  | Jake Bellou          | McArthur Team 1                | McArthur Assembly of God        | 545   | 109.00 | 3  |
-| 3  | Kamryn Bradshaw      | SuperNatural Kidz              | Harrison Faith Assembly of God  | 430   | 86.00  |    |
-| 4  | Jordan Henley        | SuperNatural Kidz              | Harrison Faith Assembly of God  | 390   | 78.00  | 2  |
-| 5  | Brooke Zermatten     | NLR-First Assembly of God      | NLR First Assembly of God       | 300   | 60.00  | 2  |
-| 6  | TORI MCDIARMID       | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God  | 270   | 54.00  | 2  |
-| 7  | MaKayla Mattix       | SuperNatural Kidz              | Harrison Faith Assembly of God  | 255   | 51.00  | 2  |
-| 7  | Stephen Guyse        | Pottsville Assembly of God     | Pottsville Assembly of God      | 255   | 51.00  | 2  |
-| 8  | Aubree Johnson       | NLR-First Assembly of God      | NLR First Assembly of God       | 225   | 45.00  | 2  |
-| 9  | Kamelia Skinner      | McArthur Team 1                | McArthur Assembly of God        | 205   | 41.00  | 2  |
-| 10 | Lexie Lansdell       | Faithbuilders                  | Texarkana Faith Assembly of God | 150   | 30.00  |    |
-| 11 | Austin Ford          | Pottsville Assembly of God     | Pottsville Assembly of God      | 85    | 17.00  |    |
-| 12 | Patience Boryschtsck | McArthur Team 1                | McArthur Assembly of God        | 75    | 15.00  |    |
-| 13 | MaKya Mattix         | SuperNatural Kidz              | Harrison Faith Assembly of God  | 40    | 8.00   |    |
-| 14 | Ann-Marie Sheek      | Faithbuilders                  | Texarkana Faith Assembly of God | 30    | 6.00   |    |
-| 14 | Lakin Shaw           | McArthur Team 1                | McArthur Assembly of God        | 30    | 6.00   |    |
-| 15 | Cody Paul            | SuperNatural Kidz              | Harrison Faith Assembly of God  | 25    | 5.00   |    |
-| 15 | CECE SHARP           | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God  | 25    | 5.00   |    |
-| 16 | Ian Sharps           | NLR-First Assembly of God      | NLR First Assembly of God       | 20    | 4.00   |    |
-| 17 | JAYCI DRUMMOND       | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God  | 5     | 1.00   |    |
-
-
-## AM 2nd & Under Red Division
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
-
-| # | Team                           | Church                          | W/L | Total | Avg    |
-|--:|--------------------------------|---------------------------------|-----|------:|-------:|
-| 1 | Bible Bugs                     | Fordyce First A/G               | 5/0 | 1100  | 220.00 |
-| 2 | Kung Fu Quizzers               | Benton First Assembly           | 4/1 | 900   | 180.00 |
-| 3 | Ring Tail Tooters              | McArthur Assembly of God        | 3/2 | 840   | 168.00 |
-| 4 | Trinity Fellowship             | Trinity Fellowship              | 2/3 | 640   | 128.00 |
-| 5 | VBFA                           | Van Buren First Assembly of God | 1/4 | 455   | 91.00  |
-| 6 | Prescott First Assembly of God | Prescott First Assembly of God  | 0/5 | 75    | 15.00  |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
-
-| #  | Quizzer            | Team                           | Church                          | Total | Avg    | QO |
-|---:|--------------------|--------------------------------|---------------------------------|------:|-------:|---:|
-| 1  | Allie Turner       | Bible Bugs                     | Fordyce First A/G               | 645   | 129.00 | 4  |
-| 2  | Bobbie Jean Barnes | Kung Fu Quizzers               | Benton First Assembly           | 595   | 119.00 | 4  |
-| 3  | McKenzie Minor     | Trinity Fellowship             | Trinity Fellowship              | 430   | 86.00  | 2  |
-| 4  | Garrett Richardson | Ring Tail Tooters              | McArthur Assembly of God        | 410   | 82.00  | 3  |
-| 5  | Aubrey Hornaday    | Bible Bugs                     | Fordyce First A/G               | 350   | 70.00  | 5  |
-| 6  | Lexie Grace Hunt   | Ring Tail Tooters              | McArthur Assembly of God        | 320   | 64.00  | 4  |
-| 7  | Ethan Davis        | VBFA                           | Van Buren First Assembly of God | 255   | 51.00  | 2  |
-| 8  | Briton Glover      | Kung Fu Quizzers               | Benton First Assembly           | 200   | 40.00  | 2  |
-| 9  | Landon Semrad      | Trinity Fellowship             | Trinity Fellowship              | 150   | 30.00  | 1  |
-| 10 | Ben Cantrell       | VBFA                           | Van Buren First Assembly of God | 120   | 24.00  |    |
-| 11 | Gage Hunt          | Ring Tail Tooters              | McArthur Assembly of God        | 110   | 22.00  |    |
-| 12 | Ansley Hornaday    | Bible Bugs                     | Fordyce First A/G               | 100   | 20.00  |    |
-| 13 | Andrew Greenwell   | Kung Fu Quizzers               | Benton First Assembly           | 70    | 14.00  |    |
-| 14 | Caden Adair        | Trinity Fellowship             | Trinity Fellowship              | 60    | 12.00  |    |
-| 15 | Tatum Burris       | VBFA                           | Van Buren First Assembly of God | 50    | 10.00  |    |
-| 16 | Hailey Gatliff     | Prescott First Assembly of God | Prescott First Assembly of God  | 30    | 6.00   |    |
-| 16 | Caden Sanders      | Kung Fu Quizzers               | Benton First Assembly           | 30    | 6.00   |    |
-| 16 | Gracie Crabtree    | VBFA                           | Van Buren First Assembly of God | 30    | 6.00   |    |
-| 17 | Kaelyn Hill        | Prescott First Assembly of God | Prescott First Assembly of God  | 25    | 5.00   |    |
-| 18 | Joseph Carpenter   | Prescott First Assembly of God | Prescott First Assembly of God  | 20    | 4.00   |    |
-| 19 | Caitlyn Jendrajas  | Bible Bugs                     | Fordyce First A/G               | 10    | 2.00   |    |
-| 19 | Noah Sanders       | Kung Fu Quizzers               | Benton First Assembly           | 10    | 2.00   |    |
-
-
-## AM 3rd & 4th Blue Division
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
-
-| # | Team                             | Church                             | W/L | Total | Avg    |
-|--:|----------------------------------|------------------------------------|-----|------:|-------:|
-| 1 | Springdale First Assembly of God | Springdale First Assembly of God   | 7/0 | 1730  | 247.14 |
-| 2 | NLR 1st                          | North Little Rock 1st Assembly     | 6/1 | 1410  | 201.43 |
-| 3 | Team-Faith Assembly              | Harrison Faith Assembly            | 5/2 | 1425  | 203.57 |
-| 4 | Jonesboro 1st                    | Jonesboro First Assembly of God    | 3/4 | 925   | 132.14 |
-| 5 | Faithbuilders                    | Texarkana Faith Assembly of God    | 3/4 | 885   | 126.43 |
-| 6 | Russellville First Assembly      | Russellville First Assembly Of God | 3/4 | 735   | 105.00 |
-| 7 | Buzz Hogs                        | River of Life                      | 1/6 | 615   | 87.86  |
-| 8 | Bible Bugs                       | Fordyce First A/G Church           | 0/7 | 245   | 35.00  |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
-
-| #  | Quizzer          | Team                             | Church                             | Total | Avg    | QO |
-|---:|------------------|----------------------------------|------------------------------------|------:|-------:|---:|
-| 1  | Ryan Yumang      | Springdale First Assembly of God | Springdale First Assembly of God   | 915   | 130.71 | 7  |
-| 2  | Aedan Moore      | NLR 1st                          | North Little Rock 1st Assembly     | 880   | 125.71 | 6  |
-| 3  | Aubrey Decker    | Jonesboro 1st                    | Jonesboro First Assembly of God    | 785   | 112.14 | 4  |
-| 4  | Isabelle Yumang  | Springdale First Assembly of God | Springdale First Assembly of God   | 650   | 92.86  | 5  |
-| 5  | Dalton Rowe      | Team-Faith Assembly              | Harrison Faith Assembly            | 515   | 73.57  | 5  |
-| 6  | Sarah McDonald   | Faithbuilders                    | Texarkana Faith Assembly of God    | 445   | 63.57  | 1  |
-| 7  | Kris Duran       | Russellville First Assembly      | Russellville First Assembly Of God | 440   | 62.86  | 2  |
-| 8  | Hailey Wilson    | Team-Faith Assembly              | Harrison Faith Assembly            | 385   | 55.00  | 1  |
-| 9  | Hannah Miller    | Team-Faith Assembly              | Harrison Faith Assembly            | 370   | 52.86  |    |
-| 10 | Sydney Sheek     | Faithbuilders                    | Texarkana Faith Assembly of God    | 350   | 50.00  | 3  |
-| 11 | Levi Biniakewitz | Buzz Hogs                        | River of Life                      | 325   | 46.43  |    |
-| 12 | Haven Jackson    | Buzz Hogs                        | River of Life                      | 280   | 40.00  |    |
-| 13 | Morganne Jumper  | NLR 1st                          | North Little Rock 1st Assembly     | 250   | 35.71  | 1  |
-| 14 | Alexis Sharps    | NLR 1st                          | North Little Rock 1st Assembly     | 140   | 20.00  | 1  |
-| 15 | Brandon Bunton   | Russellville First Assembly      | Russellville First Assembly Of God | 135   | 19.29  |    |
-| 15 | Trent Conn       | Springdale First Assembly of God | Springdale First Assembly of God   | 135   | 19.29  |    |
-| 16 | Cade Womack      | NLR 1st                          | North Little Rock 1st Assembly     | 120   | 17.14  |    |
-| 17 | Caden Lemley     | Russellville First Assembly      | Russellville First Assembly Of God | 115   | 16.43  | 1  |
-| 18 | Luke Hendryx     | Bible Bugs                       | Fordyce First A/G Church           | 115   | 16.43  |    |
-| 19 | Brittany Norman  | Jonesboro 1st                    | Jonesboro First Assembly of God    | 110   | 15.71  |    |
-| 20 | Ian Hendryx      | Bible Bugs                       | Fordyce First A/G Church           | 95    | 13.57  |    |
-| 20 | Kayden Powers    | Team-Faith Assembly              | Harrison Faith Assembly            | 95    | 13.57  |    |
-| 21 | Madalyn Dowell   | Faithbuilders                    | Texarkana Faith Assembly of God    | 60    | 8.57   |    |
-| 21 | Madison Herring  | Team-Faith Assembly              | Harrison Faith Assembly            | 60    | 8.57   |    |
-| 22 | Mallory Metcalf  | Bible Bugs                       | Fordyce First A/G Church           | 35    | 5.00   |    |
-| 23 | Seth McDonald    | Faithbuilders                    | Texarkana Faith Assembly of God    | 30    | 4.29   |    |
-| 23 | Mattea Cliff     | Jonesboro 1st                    | Jonesboro First Assembly of God    | 30    | 4.29   |    |
-| 23 | Abby Bradford    | Springdale First Assembly of God | Springdale First Assembly of God   | 30    | 4.29   |    |
-| 24 | Noah Freeman     | Russellville First Assembly      | Russellville First Assembly Of God | 25    | 3.57   |    |
-| 25 | Grant Wilson     | NLR 1st                          | North Little Rock 1st Assembly     | 20    | 2.86   |    |
-| 26 | Jacob Partridge  | Russellville First Assembly      | Russellville First Assembly Of God | 15    | 2.14   |    |
-| 27 | Lauryn Jackson   | Buzz Hogs                        | River of Life                      | 10    | 1.43   |    |
-| 28 | Ryan Fraley      | Russellville First Assembly      | Russellville First Assembly Of God | 5     | .71    |    |
-
-
-## AM 3rd & 4th Red Division
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
-
-| # | Team                           | Church                           | W/L | Total | Avg    |
-|--:|--------------------------------|----------------------------------|-----|------:|-------:|
-| 1 | Kung Fu Quizzers               | Benton First Assembly            | 6/1 | 1545  | 220.71 |
-| 2 | Rogers 1st                     | Rogers First Assembly            | 6/1 | 1500  | 214.29 |
-| 3 | Jesus Freaks                   | McArthur Assembly of God         | 6/1 | 1400  | 200.00 |
-| 4 | VBFA                           | Van Buren First Assembly of God  | 4/3 | 1220  | 174.29 |
-| 5 | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God   | 3/4 | 1050  | 150.00 |
-| 6 | Pocahontas                     | Pocahontas First Assembly of God | 2/5 | 915   | 130.71 |
-| 7 | Changepoint                    | Changepoint                      | 1/6 | 550   | 78.57  |
-| 8 | Nashville                      | Nashville First Assembly of God  | 0/7 | 85    | 12.14  |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
-
-| #  | Quizzer             | Team                           | Church                           | Total | Avg    | QO |
-|---:|---------------------|--------------------------------|----------------------------------|------:|-------:|---:|
-| 1  | Emily Greenwell     | Kung Fu Quizzers               | Benton First Assembly            | 950   | 135.71 | 4  |
-| 2  | Seth Swain          | Jesus Freaks                   | McArthur Assembly of God         | 905   | 129.29 | 5  |
-| 3  | HAYDEN MCDIARMID    | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God   | 790   | 112.86 | 7  |
-| 4  | Logan Tharp         | Pocahontas                     | Pocahontas First Assembly of God | 700   | 100.00 | 3  |
-| 5  | Ethan Lancelot      | Rogers 1st                     | Rogers First Assembly            | 540   | 77.14  |    |
-| 6  | Sydney Shockley     | Rogers 1st                     | Rogers First Assembly            | 525   | 75.00  |    |
-| 7  | Christian Robertson | VBFA                           | Van Buren First Assembly of God  | 510   | 72.86  | 2  |
-| 8  | Amberlie Ming       | VBFA                           | Van Buren First Assembly of God  | 495   | 70.71  | 2  |
-| 9  | Joseph Skinner      | Jesus Freaks                   | McArthur Assembly of God         | 395   | 56.43  | 5  |
-| 9  | Elizabeth Riggins   | Rogers 1st                     | Rogers First Assembly            | 395   | 56.43  | 5  |
-| 10 | Collin Hines        | Changepoint                    | Changepoint                      | 395   | 56.43  | 1  |
-| 11 | Alexis Rowland      | Kung Fu Quizzers               | Benton First Assembly            | 300   | 42.86  | 1  |
-| 12 | Jared Watson        | Kung Fu Quizzers               | Benton First Assembly            | 275   | 39.29  | 2  |
-| 13 | ABBY SIPES          | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God   | 230   | 32.86  |    |
-| 14 | Kimberly Sullinger  | Pocahontas                     | Pocahontas First Assembly of God | 155   | 22.14  | 1  |
-| 15 | Layton McClure      | VBFA                           | Van Buren First Assembly of God  | 145   | 20.71  |    |
-| 16 | Nicholas Brady      | Changepoint                    | Changepoint                      | 95    | 13.57  |    |
-| 17 | Logan Fatherree     | Nashville                      | Nashville First Assembly of God  | 70    | 10.00  |    |
-| 17 | Lena Davis          | VBFA                           | Van Buren First Assembly of God  | 70    | 10.00  |    |
-| 18 | Pierce Brinker      | Jesus Freaks                   | McArthur Assembly of God         | 55    | 7.86   |    |
-| 19 | Julia Morgan        | Pocahontas                     | Pocahontas First Assembly of God | 45    | 6.43   |    |
-| 20 | Caleb Whitener      | Jesus Freaks                   | McArthur Assembly of God         | 40    | 5.71   |    |
-| 20 | Lizzie Hankerson    | Changepoint                    | Changepoint                      | 40    | 5.71   |    |
-| 21 | Tinley Boysen       | Rogers 1st                     | Rogers First Assembly            | 30    | 4.29   |    |
-| 21 | CALEB CAIN          | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God   | 30    | 4.29   |    |
-| 22 | Addison Gordon      | Changepoint                    | Changepoint                      | 20    | 2.86   |    |
-| 22 | Chalice Sanders     | Kung Fu Quizzers               | Benton First Assembly            | 20    | 2.86   |    |
-| 23 | Matt Henderson      | Pocahontas                     | Pocahontas First Assembly of God | 15    | 2.14   |    |
-| 24 | Amber Ross          | Nashville                      | Nashville First Assembly of God  | 10    | 1.43   |    |
-| 24 | Taryn Boysen        | Rogers 1st                     | Rogers First Assembly            | 10    | 1.43   |    |
-| 25 | James Lindner       | Jesus Freaks                   | McArthur Assembly of God         | 5     | .71    |    |
-| 25 | Tray Turbeville     | Nashville                      | Nashville First Assembly of God  | 5     | .71    |    |
 

@@ -1,16 +1,82 @@
 ---
 layout: page
-title: "PenFlorida_23_District_Finals"
-permalink: /jbq/?//?/?/
+title: "2022 Peninsular-Florida District Finals"
+permalink: /jbq/2022/districts/peninsular-florida/
 date: "2023-04-02"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2022 Season
+    link: /jbq/2022/
     icon: fas fa-home
 ---
+
+## Achiever: Flight of Champions
+
+### Teams
+
+*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
+
+**COMPLETE:** All Room(s) Reported.
+
+| #  | Team / Church                                                               | W/L   | W%   | Total | Avg   | QO | Q%  |
+|---:|-----------------------------------------------------------------------------|-------|-----:|------:|------:|---:|----:|
+| 1  | Fruit of the Spirit (Faith Assembly of God)                                 | 9 / 0 | 100% | 1895  | 210.6 | 9  | 85% |
+| 2  | Fire of the Spirit (Haven Worship Center)                                   | 7 / 2 | 78%  | 1595  | 177.2 | 4  | 87% |
+| 3  | Battling Bears (Victory Church)                                             | 7 / 2 | 78%  | 1745  | 193.9 | 13 | 87% |
+| 4  | Candy Quizzers (Faith Assembly of God)                                      | 6 / 3 | 67%  | 1635  | 181.7 | 8  | 75% |
+| 5  | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 5 / 4 | 56%  | 1355  | 150.6 | 5  | 78% |
+| 6  | Banana Buzzers (Life Church)                                                | 4 / 5 | 44%  | 1405  | 156.1 | 9  | 80% |
+| 7  | Scripture Seekers #1 (First Assembly of God)                                | 3 / 6 | 33%  | 910   | 101.1 | 3  | 81% |
+| 8  | Triple Threat (LIFE Church Assembly of God)                                 | 3 / 6 | 33%  | 1315  | 146.1 | 5  | 76% |
+| 9  | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 1 / 8 | 11%  | 975   | 108.3 | 3  | 82% |
+| 10 | Squiggly Worms (Independent)                                                | 0 / 9 |      | -40   | -4.4  |    |     |
+
+### Individuals
+
+*Ties broken by Average Points then by Total Quiz Outs*
+
+| #        | Quizzer           | Team / Church                                                               | Total | Avg   | QO | Q%   |
+|---------:|-------------------|-----------------------------------------------------------------------------|------:|------:|---:|-----:|
+| 1        | Isabella Kirchon  | Battling Bears (Victory Church)                                             | 1095  | 121.7 | 7  | 84%  |
+| 2        | Camden Spence     | Fruit of the Spirit (Faith Assembly of God)                                 | 1070  | 118.9 | 4  | 89%  |
+| 3        | Joel Villalba     | Fire of the Spirit (Haven Worship Center)                                   | 1025  | 113.9 | 3  | 92%  |
+| 4        | Vicente Rivera    | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 950   | 105.6 | 3  | 88%  |
+| 5        | Ian Victor        | Scripture Seekers #1 (First Assembly of God)                                | 620   | 68.9  | 3  | 83%  |
+| 6        | Benjamin Reilly   | Candy Quizzers (Faith Assembly of God)                                      | 595   | 66.1  | 2  | 76%  |
+| 7        | J.D. Pereira      | Candy Quizzers (Faith Assembly of God)                                      | 580   | 64.4  |    | 74%  |
+| 8        | Jessa LoGiudice   | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 560   | 62.2  | 1  | 86%  |
+| 9        | Briella LoGiudice | Triple Threat (LIFE Church Assembly of God)                                 | 510   | 56.7  | 2  | 72%  |
+| 10       | James Groves      | Battling Bears (Victory Church)                                             | 505   | 56.1  | 5  | 90%  |
+| 11       | Leah Manns        | Banana Buzzers (Life Church)                                                | 470   | 52.2  | 2  | 92%  |
+| 12       | Autumn Weiler     | Triple Threat (LIFE Church Assembly of God)                                 | 470   | 52.2  | 1  | 76%  |
+| 13       | Micah Wise        | Candy Quizzers (Faith Assembly of God)                                      | 455   | 50.6  | 6  | 78%  |
+| 14       | Miguel Rios       | Fruit of the Spirit (Faith Assembly of God)                                 | 455   | 50.6  | 5  | 80%  |
+| 15       | Johana Bull       | Banana Buzzers (Life Church)                                                | 430   | 47.8  | 2  | 72%  |
+| 16       | Jordan Cessous    | Banana Buzzers (Life Church)                                                | 380   | 42.2  | 4  | 76%  |
+| 17       | Arie Weiler       | Triple Threat (LIFE Church Assembly of God)                                 | 335   | 37.2  | 2  | 80%  |
+| 18       | Nathan Thompson   | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 300   | 33.3  | 2  | 82%  |
+| 19       | Naomi Rivera      | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 235   | 26.1  | 2  | 70%  |
+| 20       | Lillian Martin    | Fire of the Spirit (Haven Worship Center)                                   | 200   | 22.2  |    | 74%  |
+| **\*20** | Malakai Sifford   | Scripture Seekers #1 (First Assembly of God)                                | 200   | 22.2  |    | 74%  |
+| 21       | Eli Smith         | Fruit of the Spirit (Faith Assembly of God)                                 | 190   | 21.1  |    | 100% |
+| **\*21** | Jesiah Gonzalez   | Fire of the Spirit (Haven Worship Center)                                   | 190   | 21.1  |    | 100% |
+| 22       | Kynlee Hayes      | Fire of the Spirit (Haven Worship Center)                                   | 180   | 20    | 1  | 88%  |
+| 23       | Aila Smith        | Fruit of the Spirit (Faith Assembly of God)                                 | 180   | 20    |    | 67%  |
+| 24       | Claire Kirchon    | Battling Bears (Victory Church)                                             | 145   | 16.1  | 1  | 91%  |
+| 25       | Gabe Thompson     | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 120   | 13.3  |    | 78%  |
+| 26       | Gideon Rodriguez  | Banana Buzzers (Life Church)                                                | 115   | 12.8  | 1  | 92%  |
+| 27       | Wyatt Davenport   | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 110   | 12.2  |    | 70%  |
+| 28       | River Skinner     | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 60    | 6.7   |    | 80%  |
+| 29       | Cassidy Johnson   | Scripture Seekers #1 (First Assembly of God)                                | 50    | 5.6   |    | 100% |
+| 30       | Aveah Caylor      | Scripture Seekers #1 (First Assembly of God)                                | 40    | 4.4   |    | 100% |
+| 31       | Alicia Johnson    | Candy Quizzers (Faith Assembly of God)                                      | 10    | 1.1   |    | 50%  |
+| **\*31** | Josiah Ojo        | Banana Buzzers (Life Church)                                                | 10    | 1.1   |    | 100% |
+| 32       | Maria Moreira     | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 0     |       |    |      |
+| **\*32** | Maya Castro       | Squiggly Worms (Independent)                                                | 0     |       |    |      |
+| **\*32** | Zion Castro       | Squiggly Worms (Independent)                                                | 0     |       |    |      |
+| 33       | Caroline Thompson | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | -5    | -.6   |    |      |
 
 ## Achiever: Flight 2
 
@@ -249,74 +315,6 @@ menubar_toc_static:
 | **\*16** | Farrah Nemer        | Redeemers (Faith Assembly of God)                                        | -10   | -2  |    |      |
 | **\*16** | Jacksyn Jackson     | Super Sharp (Oxford Assembly of God)                                     | -10   | -2  |    |      |
 | **\*16** | Phillip Chevere     | Redeemers (Faith Assembly of God)                                        | -10   | -2  |    |      |
-
-
-## Achiever: Flight of Champions
-
-### Teams
-
-*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
-
-**COMPLETE:** All Room(s) Reported.
-
-| #  | Team / Church                                                               | W/L   | W%   | Total | Avg   | QO | Q%  |
-|---:|-----------------------------------------------------------------------------|-------|-----:|------:|------:|---:|----:|
-| 1  | Fruit of the Spirit (Faith Assembly of God)                                 | 9 / 0 | 100% | 1895  | 210.6 | 9  | 85% |
-| 2  | Fire of the Spirit (Haven Worship Center)                                   | 7 / 2 | 78%  | 1595  | 177.2 | 4  | 87% |
-| 3  | Battling Bears (Victory Church)                                             | 7 / 2 | 78%  | 1745  | 193.9 | 13 | 87% |
-| 4  | Candy Quizzers (Faith Assembly of God)                                      | 6 / 3 | 67%  | 1635  | 181.7 | 8  | 75% |
-| 5  | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 5 / 4 | 56%  | 1355  | 150.6 | 5  | 78% |
-| 6  | Banana Buzzers (Life Church)                                                | 4 / 5 | 44%  | 1405  | 156.1 | 9  | 80% |
-| 7  | Scripture Seekers #1 (First Assembly of God)                                | 3 / 6 | 33%  | 910   | 101.1 | 3  | 81% |
-| 8  | Triple Threat (LIFE Church Assembly of God)                                 | 3 / 6 | 33%  | 1315  | 146.1 | 5  | 76% |
-| 9  | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 1 / 8 | 11%  | 975   | 108.3 | 3  | 82% |
-| 10 | Squiggly Worms (Independent)                                                | 0 / 9 |      | -40   | -4.4  |    |     |
-
-### Individuals
-
-*Ties broken by Average Points then by Total Quiz Outs*
-
-| #        | Quizzer           | Team / Church                                                               | Total | Avg   | QO | Q%   |
-|---------:|-------------------|-----------------------------------------------------------------------------|------:|------:|---:|-----:|
-| 1        | Isabella Kirchon  | Battling Bears (Victory Church)                                             | 1095  | 121.7 | 7  | 84%  |
-| 2        | Camden Spence     | Fruit of the Spirit (Faith Assembly of God)                                 | 1070  | 118.9 | 4  | 89%  |
-| 3        | Joel Villalba     | Fire of the Spirit (Haven Worship Center)                                   | 1025  | 113.9 | 3  | 92%  |
-| 4        | Vicente Rivera    | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 950   | 105.6 | 3  | 88%  |
-| 5        | Ian Victor        | Scripture Seekers #1 (First Assembly of God)                                | 620   | 68.9  | 3  | 83%  |
-| 6        | Benjamin Reilly   | Candy Quizzers (Faith Assembly of God)                                      | 595   | 66.1  | 2  | 76%  |
-| 7        | J.D. Pereira      | Candy Quizzers (Faith Assembly of God)                                      | 580   | 64.4  |    | 74%  |
-| 8        | Jessa LoGiudice   | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 560   | 62.2  | 1  | 86%  |
-| 9        | Briella LoGiudice | Triple Threat (LIFE Church Assembly of God)                                 | 510   | 56.7  | 2  | 72%  |
-| 10       | James Groves      | Battling Bears (Victory Church)                                             | 505   | 56.1  | 5  | 90%  |
-| 11       | Leah Manns        | Banana Buzzers (Life Church)                                                | 470   | 52.2  | 2  | 92%  |
-| 12       | Autumn Weiler     | Triple Threat (LIFE Church Assembly of God)                                 | 470   | 52.2  | 1  | 76%  |
-| 13       | Micah Wise        | Candy Quizzers (Faith Assembly of God)                                      | 455   | 50.6  | 6  | 78%  |
-| 14       | Miguel Rios       | Fruit of the Spirit (Faith Assembly of God)                                 | 455   | 50.6  | 5  | 80%  |
-| 15       | Johana Bull       | Banana Buzzers (Life Church)                                                | 430   | 47.8  | 2  | 72%  |
-| 16       | Jordan Cessous    | Banana Buzzers (Life Church)                                                | 380   | 42.2  | 4  | 76%  |
-| 17       | Arie Weiler       | Triple Threat (LIFE Church Assembly of God)                                 | 335   | 37.2  | 2  | 80%  |
-| 18       | Nathan Thompson   | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 300   | 33.3  | 2  | 82%  |
-| 19       | Naomi Rivera      | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 235   | 26.1  | 2  | 70%  |
-| 20       | Lillian Martin    | Fire of the Spirit (Haven Worship Center)                                   | 200   | 22.2  |    | 74%  |
-| **\*20** | Malakai Sifford   | Scripture Seekers #1 (First Assembly of God)                                | 200   | 22.2  |    | 74%  |
-| 21       | Eli Smith         | Fruit of the Spirit (Faith Assembly of God)                                 | 190   | 21.1  |    | 100% |
-| **\*21** | Jesiah Gonzalez   | Fire of the Spirit (Haven Worship Center)                                   | 190   | 21.1  |    | 100% |
-| 22       | Kynlee Hayes      | Fire of the Spirit (Haven Worship Center)                                   | 180   | 20    | 1  | 88%  |
-| 23       | Aila Smith        | Fruit of the Spirit (Faith Assembly of God)                                 | 180   | 20    |    | 67%  |
-| 24       | Claire Kirchon    | Battling Bears (Victory Church)                                             | 145   | 16.1  | 1  | 91%  |
-| 25       | Gabe Thompson     | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 120   | 13.3  |    | 78%  |
-| 26       | Gideon Rodriguez  | Banana Buzzers (Life Church)                                                | 115   | 12.8  | 1  | 92%  |
-| 27       | Wyatt Davenport   | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 110   | 12.2  |    | 70%  |
-| 28       | River Skinner     | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 60    | 6.7   |    | 80%  |
-| 29       | Cassidy Johnson   | Scripture Seekers #1 (First Assembly of God)                                | 50    | 5.6   |    | 100% |
-| 30       | Aveah Caylor      | Scripture Seekers #1 (First Assembly of God)                                | 40    | 4.4   |    | 100% |
-| 31       | Alicia Johnson    | Candy Quizzers (Faith Assembly of God)                                      | 10    | 1.1   |    | 50%  |
-| **\*31** | Josiah Ojo        | Banana Buzzers (Life Church)                                                | 10    | 1.1   |    | 100% |
-| 32       | Maria Moreira     | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 0     |       |    |      |
-| **\*32** | Maya Castro       | Squiggly Worms (Independent)                                                | 0     |       |    |      |
-| **\*32** | Zion Castro       | Squiggly Worms (Independent)                                                | 0     |       |    |      |
-| 33       | Caroline Thompson | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | -5    | -.6   |    |      |
-
 
 ## Rising Stars: Flight 1
 

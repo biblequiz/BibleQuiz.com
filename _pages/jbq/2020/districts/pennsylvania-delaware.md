@@ -1,20 +1,18 @@
 ---
 layout: page
-title: "JBQ_District_Finals_2020"
-permalink: /jbq/?//?/?/
+title: "2020 Pennsylvania-Delaware District Finals"
+permalink: /jbq/2020/districts/pennsylvania-delaware/
 date: "2020-02-01"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2020 Season
+    link: /jbq/2020/
     icon: fas fa-home
 ---
 
-## JBQ District Finals 2020
-
-### Teams
+## Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -39,7 +37,7 @@ menubar_toc_static:
 | 17.0 | Quiz Whiz Kids (Mifflinburg AG, Mifflinburg PA)              | 3 / 14 | 1930  | 113.5 | 11 | 88% |
 | 18.0 | The Mighty Connection Kids (Connection Church, Pottstown PA) | 2 / 15 | 2265  | 133.2 | 15 | 92% |
 
-### Individuals
+## Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 

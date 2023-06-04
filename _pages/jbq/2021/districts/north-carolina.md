@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "2021_NC_JBQ"
-permalink: /jbq/?//?/?/
+title: "2021 North Carolina District Finals"
+permalink: /jbq/2021/districts/north-carolina/
 date: "2021-04-10"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2021 Season
+    link: /jbq/2021/
     icon: fas fa-home
 ---
 
-## District Finals
+## Experienced
 
 ### Teams
 
@@ -58,7 +58,7 @@ menubar_toc_static:
 | 21       | Katherine Harmston | Calvary Church (Calvary Church Greensboro)                  | -5    | -.7   |    |      |
 
 
-## District Finals - Novice
+## Novice
 
 ### Teams
 

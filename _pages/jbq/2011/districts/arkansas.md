@@ -1,20 +1,134 @@
 ---
 layout: page
-title: "2011_Arkansas_District"
-permalink: /jbq/?//?/?/
+title: "2011 Arkansas District Finals"
+permalink: /jbq/2011/districts/arkansas/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2011 Season
+    link: /jbq/2011/
     icon: fas fa-home
 ---
 
-## 2011 State Meet 3-4 Championship
+## 2nd and Under
 
-### Teams
+### Gold Division
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team                | Church         | W/L | Total | Avg    |
+|--:|---------------------|----------------|-----|------:|-------:|
+| 1 | FayettevilleTrinity | (Fayetteville) | 3/0 | 595   | 198.33 |
+| 2 | McArthur Green      | (Jacksonville) | 2/1 | 450   | 150.00 |
+| 3 | McArthur Red        | (Jacksonville) | 1/2 | 400   | 133.33 |
+| 4 | Jonesboro 1st       | (Jonesboro)    | 0/3 | 205   | 68.33  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer            | Team                | Church         | Total | Avg    | QO |
+|---:|--------------------|---------------------|----------------|------:|-------:|---:|
+| 1  | Ryan Yumang        | FayettevilleTrinity | (Fayetteville) | 350   | 116.67 | 2  |
+| 2  | Seth Swain         | McArthur Red        | (Jacksonville) | 245   | 81.67  | 1  |
+| 3  | Garrett Richardson | McArthur Green      | (Jacksonville) | 190   | 63.33  | 2  |
+| 4  | David Rubottom     | Jonesboro 1st       | (Jonesboro)    | 180   | 60.00  |    |
+| 5  | Madison Shaw       | McArthur Green      | (Jacksonville) | 170   | 56.67  | 1  |
+| 6  | Lorelei Kellhofer  | FayettevilleTrinity | (Fayetteville) | 140   | 46.67  | 1  |
+| 7  | Ashlyn Wilson      | McArthur Red        | (Jacksonville) | 115   | 38.33  |    |
+| 8  | McKenzie Minor     | FayettevilleTrinity | (Fayetteville) | 85    | 28.33  |    |
+| 9  | Grayson Young      | McArthur Green      | (Jacksonville) | 50    | 16.67  |    |
+| 10 | Caleb Whitener     | McArthur Green      | (Jacksonville) | 40    | 13.33  |    |
+| 11 | Jake Bellou        | McArthur Red        | (Jacksonville) | 35    | 11.67  |    |
+| 12 | Nick Shipley       | Jonesboro 1st       | (Jonesboro)    | 25    | 8.33   |    |
+| 13 | Landon Semrad      | FayettevilleTrinity | (Fayetteville) | 10    | 3.33   |    |
+| 13 | Janna Morse        | FayettevilleTrinity | (Fayetteville) | 10    | 3.33   |    |
+| 14 | Heaven Stone       | McArthur Red        | (Jacksonville) | 5     | 1.67   |    |
+
+### Silver Division
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team                  | Church              | W/L | Total | Avg    |
+|--:|-----------------------|---------------------|-----|------:|-------:|
+| 1 | Benton 1st            | (Benton)            | 3/0 | 405   | 135.00 |
+| 2 | Harrison Faith        | (Harrison)          | 2/1 | 395   | 131.67 |
+| 3 | North Little Rock 1st | (North Little Rock) | 1/2 | 420   | 140.00 |
+| 4 | Van Buren             | (Van Buren)         | 0/3 | 215   | 71.67  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer           | Team                  | Church              | Total | Avg    | QO |
+|---:|-------------------|-----------------------|---------------------|------:|-------:|---:|
+| 1  | Bobbi Jean Barnes | Benton 1st            | (Benton)            | 310   | 103.33 | 2  |
+| 2  | Grant Wilson      | North Little Rock 1st | (North Little Rock) | 235   | 78.33  | 1  |
+| 3  | Kamryn Bradshaw   | Harrison Faith        | (Harrison)          | 220   | 73.33  |    |
+| 4  | Morgan Liles      | North Little Rock 1st | (North Little Rock) | 175   | 58.33  | 2  |
+| 5  | Jordan Henley     | Harrison Faith        | (Harrison)          | 155   | 51.67  | 2  |
+| 6  | Addison Buttress  | Van Buren             | (Van Buren)         | 110   | 36.67  |    |
+| 7  | Layton McClure    | Van Buren             | (Van Buren)         | 100   | 33.33  |    |
+| 8  | Andrew Greenwell  | Benton 1st            | (Benton)            | 50    | 16.67  |    |
+| 9  | Britton Glover    | Benton 1st            | (Benton)            | 30    | 10.00  |    |
+| 10 | Jack Berryhill    | Benton 1st            | (Benton)            | 20    | 6.67   |    |
+| 11 | Eli Wilson        | Harrison Faith        | (Harrison)          | 15    | 5.00   |    |
+| 12 | Mekayla Henley    | Harrison Faith        | (Harrison)          | 10    | 3.33   |    |
+| 12 | Gabby Ahne        | North Little Rock 1st | (North Little Rock) | 10    | 3.33   |    |
+| 13 | Ethan Davis       | Van Buren             | (Van Buren)         | 5     | 1.67   |    |
+
+### Blue Division
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team                | Church         | W/L | Total | Avg    |
+|--:|---------------------|----------------|-----|------:|-------:|
+| 1 | McArthur Red        | (Jacksonville) | 5/0 | 1035  | 207.00 |
+| 2 | FayettevilleTrinity | (Fayetteville) | 4/1 | 1070  | 214.00 |
+| 3 | Benton 1st          | (Benton)       | 3/2 | 485   | 97.00  |
+| 4 | Van Buren           | (Van Buren)    | 2/3 | 365   | 73.00  |
+| 5 | Searcy 1st          | (Searcy)       | 1/4 | 310   | 62.00  |
+| 6 | Texarkana 1st       | (Texarkana)    | 0/5 | 160   | 32.00  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer           | Team                | Church         | Total | Avg    | QO |
+|---:|-------------------|---------------------|----------------|------:|-------:|---:|
+| 1  | Ryan Yumang       | FayettevilleTrinity | (Fayetteville) | 645   | 129.00 | 4  |
+| 2  | Seth Swain        | McArthur Red        | (Jacksonville) | 585   | 117.00 | 3  |
+| 3  | Bobbi Jean Barnes | Benton 1st          | (Benton)       | 420   | 84.00  | 3  |
+| 4  | MiKayla Shaw      | Searcy 1st          | (Searcy)       | 315   | 63.00  | 3  |
+| 5  | Lorelei Kellhofer | FayettevilleTrinity | (Fayetteville) | 255   | 51.00  | 2  |
+| 6  | Ashlyn Wilson     | McArthur Red        | (Jacksonville) | 235   | 47.00  | 2  |
+| 7  | Layton McClure    | Van Buren           | (Van Buren)    | 180   | 36.00  |    |
+| 8  | McKenzie Minor    | FayettevilleTrinity | (Fayetteville) | 145   | 29.00  |    |
+| 8  | Gracie Sisemore   | Texarkana 1st       | (Texarkana)    | 145   | 29.00  |    |
+| 9  | Addison Buttress  | Van Buren           | (Van Buren)    | 140   | 28.00  | 1  |
+| 10 | Jake Bellou       | McArthur Red        | (Jacksonville) | 130   | 26.00  |    |
+| 11 | Heaven Stone      | McArthur Red        | (Jacksonville) | 85    | 17.00  |    |
+| 12 | Britton Glover    | Benton 1st          | (Benton)       | 50    | 10.00  |    |
+| 13 | Josh King         | Van Buren           | (Van Buren)    | 40    | 8.00   |    |
+| 14 | Landon Semrad     | FayettevilleTrinity | (Fayetteville) | 30    | 6.00   |    |
+| 15 | Rilyn Poage       | Texarkana 1st       | (Texarkana)    | 15    | 3.00   |    |
+| 15 | Jack Berryhill    | Benton 1st          | (Benton)       | 15    | 3.00   |    |
+| 16 | Ethan Davis       | Van Buren           | (Van Buren)    | 5     | 1.00   |    |
+| 16 | Seth West         | Searcy 1st          | (Searcy)       | 5     | 1.00   |    |
+
+## 3rd and 4th Grade
+
+### Championship Division
+
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
@@ -27,7 +141,7 @@ menubar_toc_static:
 | 5 | North Little Rock 1st | (North Little Rock) | 2/3 | 670   | 134.00 |
 | 6 | Van Buren             | (Van Buren)         | 1/4 | 525   | 105.00 |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
@@ -58,10 +172,9 @@ menubar_toc_static:
 | 21 | Kayla Freeman       | Van Buren             | (Van Buren)         | 10    | 2.00   |    |
 | 21 | Lexi Dusharm        | North Little Rock 1st | (North Little Rock) | 10    | 2.00   |    |
 
+### Challenger Division
 
-## 2011 State Meet 3-4 Challenger
-
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
@@ -74,7 +187,7 @@ menubar_toc_static:
 | 5 | Paris           | (Paris)        | 1/4 | 465   | 93.00  |
 | 6 | Searcy 1st      | (Searcy)       | 1/4 | 325   | 65.00  |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
@@ -102,9 +215,9 @@ menubar_toc_static:
 | 17 | Alyiah Kirkwood   | Paris           | (Paris)        | 10    | 2.00   |    |
 
 
-## 2011 State Meet 3-4 Blue
+### Blue Division
 
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
@@ -117,7 +230,7 @@ menubar_toc_static:
 | 5 | River of Life   | (Mabelvale) | 1/4 | 620   | 124.00 |
 | 6 | Searcy 1st      | (Searcy)    | 0/5 | 185   | 37.00  |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
@@ -149,9 +262,9 @@ menubar_toc_static:
 | 21 | Seth McDonald       | Texarkana Faith | (Texarkana) | 10    | 2.00   |    |
 
 
-## 2011 State Meet 3-4 Red
+### Red Division
 
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
@@ -164,7 +277,7 @@ menubar_toc_static:
 | 5 | Sand Hill A/G         | (Sand Hill)         | 1/4 | 440   | 88.00  |
 | 6 | Paris                 | (Paris)             | 0/5 | 295   | 59.00  |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
@@ -192,8 +305,7 @@ menubar_toc_static:
 | 17 | Alyiah Kirkwood     | Paris                 | (Paris)             | 10    | 2.00   |    |
 | 17 | Alexis Sharps       | North Little Rock 1st | (North Little Rock) | 10    | 2.00   |    |
 
-
-## 2011 State Meet 5-6
+## 5th and 6th Grade
 
 ### Teams
 
@@ -295,117 +407,3 @@ menubar_toc_static:
 | 61 | Trent Ross          | McArthur A            | (Jacksonville)       | 5     | .31    |    |
 | 61 | Iasiah Knapp        | Texarkana 1st         | (Texarkana)          | 5     | .31    |    |
 | 61 | Allie Frisby        | North Little Rock 1st | (North Little Rock)  | 5     | .31    |    |
-
-
-## 2011 State Meet K-2 Blue
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
-
-| # | Team                | Church         | W/L | Total | Avg    |
-|--:|---------------------|----------------|-----|------:|-------:|
-| 1 | McArthur Red        | (Jacksonville) | 5/0 | 1035  | 207.00 |
-| 2 | FayettevilleTrinity | (Fayetteville) | 4/1 | 1070  | 214.00 |
-| 3 | Benton 1st          | (Benton)       | 3/2 | 485   | 97.00  |
-| 4 | Van Buren           | (Van Buren)    | 2/3 | 365   | 73.00  |
-| 5 | Searcy 1st          | (Searcy)       | 1/4 | 310   | 62.00  |
-| 6 | Texarkana 1st       | (Texarkana)    | 0/5 | 160   | 32.00  |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
-
-| #  | Quizzer           | Team                | Church         | Total | Avg    | QO |
-|---:|-------------------|---------------------|----------------|------:|-------:|---:|
-| 1  | Ryan Yumang       | FayettevilleTrinity | (Fayetteville) | 645   | 129.00 | 4  |
-| 2  | Seth Swain        | McArthur Red        | (Jacksonville) | 585   | 117.00 | 3  |
-| 3  | Bobbi Jean Barnes | Benton 1st          | (Benton)       | 420   | 84.00  | 3  |
-| 4  | MiKayla Shaw      | Searcy 1st          | (Searcy)       | 315   | 63.00  | 3  |
-| 5  | Lorelei Kellhofer | FayettevilleTrinity | (Fayetteville) | 255   | 51.00  | 2  |
-| 6  | Ashlyn Wilson     | McArthur Red        | (Jacksonville) | 235   | 47.00  | 2  |
-| 7  | Layton McClure    | Van Buren           | (Van Buren)    | 180   | 36.00  |    |
-| 8  | McKenzie Minor    | FayettevilleTrinity | (Fayetteville) | 145   | 29.00  |    |
-| 8  | Gracie Sisemore   | Texarkana 1st       | (Texarkana)    | 145   | 29.00  |    |
-| 9  | Addison Buttress  | Van Buren           | (Van Buren)    | 140   | 28.00  | 1  |
-| 10 | Jake Bellou       | McArthur Red        | (Jacksonville) | 130   | 26.00  |    |
-| 11 | Heaven Stone      | McArthur Red        | (Jacksonville) | 85    | 17.00  |    |
-| 12 | Britton Glover    | Benton 1st          | (Benton)       | 50    | 10.00  |    |
-| 13 | Josh King         | Van Buren           | (Van Buren)    | 40    | 8.00   |    |
-| 14 | Landon Semrad     | FayettevilleTrinity | (Fayetteville) | 30    | 6.00   |    |
-| 15 | Rilyn Poage       | Texarkana 1st       | (Texarkana)    | 15    | 3.00   |    |
-| 15 | Jack Berryhill    | Benton 1st          | (Benton)       | 15    | 3.00   |    |
-| 16 | Ethan Davis       | Van Buren           | (Van Buren)    | 5     | 1.00   |    |
-| 16 | Seth West         | Searcy 1st          | (Searcy)       | 5     | 1.00   |    |
-
-
-## 2011 State Meet K-2 Gold
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
-
-| # | Team                | Church         | W/L | Total | Avg    |
-|--:|---------------------|----------------|-----|------:|-------:|
-| 1 | FayettevilleTrinity | (Fayetteville) | 3/0 | 595   | 198.33 |
-| 2 | McArthur Green      | (Jacksonville) | 2/1 | 450   | 150.00 |
-| 3 | McArthur Red        | (Jacksonville) | 1/2 | 400   | 133.33 |
-| 4 | Jonesboro 1st       | (Jonesboro)    | 0/3 | 205   | 68.33  |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
-
-| #  | Quizzer            | Team                | Church         | Total | Avg    | QO |
-|---:|--------------------|---------------------|----------------|------:|-------:|---:|
-| 1  | Ryan Yumang        | FayettevilleTrinity | (Fayetteville) | 350   | 116.67 | 2  |
-| 2  | Seth Swain         | McArthur Red        | (Jacksonville) | 245   | 81.67  | 1  |
-| 3  | Garrett Richardson | McArthur Green      | (Jacksonville) | 190   | 63.33  | 2  |
-| 4  | David Rubottom     | Jonesboro 1st       | (Jonesboro)    | 180   | 60.00  |    |
-| 5  | Madison Shaw       | McArthur Green      | (Jacksonville) | 170   | 56.67  | 1  |
-| 6  | Lorelei Kellhofer  | FayettevilleTrinity | (Fayetteville) | 140   | 46.67  | 1  |
-| 7  | Ashlyn Wilson      | McArthur Red        | (Jacksonville) | 115   | 38.33  |    |
-| 8  | McKenzie Minor     | FayettevilleTrinity | (Fayetteville) | 85    | 28.33  |    |
-| 9  | Grayson Young      | McArthur Green      | (Jacksonville) | 50    | 16.67  |    |
-| 10 | Caleb Whitener     | McArthur Green      | (Jacksonville) | 40    | 13.33  |    |
-| 11 | Jake Bellou        | McArthur Red        | (Jacksonville) | 35    | 11.67  |    |
-| 12 | Nick Shipley       | Jonesboro 1st       | (Jonesboro)    | 25    | 8.33   |    |
-| 13 | Landon Semrad      | FayettevilleTrinity | (Fayetteville) | 10    | 3.33   |    |
-| 13 | Janna Morse        | FayettevilleTrinity | (Fayetteville) | 10    | 3.33   |    |
-| 14 | Heaven Stone       | McArthur Red        | (Jacksonville) | 5     | 1.67   |    |
-
-
-## 2011 State Meet K-2 Silver
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
-
-| # | Team                  | Church              | W/L | Total | Avg    |
-|--:|-----------------------|---------------------|-----|------:|-------:|
-| 1 | Benton 1st            | (Benton)            | 3/0 | 405   | 135.00 |
-| 2 | Harrison Faith        | (Harrison)          | 2/1 | 395   | 131.67 |
-| 3 | North Little Rock 1st | (North Little Rock) | 1/2 | 420   | 140.00 |
-| 4 | Van Buren             | (Van Buren)         | 0/3 | 215   | 71.67  |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
-
-| #  | Quizzer           | Team                  | Church              | Total | Avg    | QO |
-|---:|-------------------|-----------------------|---------------------|------:|-------:|---:|
-| 1  | Bobbi Jean Barnes | Benton 1st            | (Benton)            | 310   | 103.33 | 2  |
-| 2  | Grant Wilson      | North Little Rock 1st | (North Little Rock) | 235   | 78.33  | 1  |
-| 3  | Kamryn Bradshaw   | Harrison Faith        | (Harrison)          | 220   | 73.33  |    |
-| 4  | Morgan Liles      | North Little Rock 1st | (North Little Rock) | 175   | 58.33  | 2  |
-| 5  | Jordan Henley     | Harrison Faith        | (Harrison)          | 155   | 51.67  | 2  |
-| 6  | Addison Buttress  | Van Buren             | (Van Buren)         | 110   | 36.67  |    |
-| 7  | Layton McClure    | Van Buren             | (Van Buren)         | 100   | 33.33  |    |
-| 8  | Andrew Greenwell  | Benton 1st            | (Benton)            | 50    | 16.67  |    |
-| 9  | Britton Glover    | Benton 1st            | (Benton)            | 30    | 10.00  |    |
-| 10 | Jack Berryhill    | Benton 1st            | (Benton)            | 20    | 6.67   |    |
-| 11 | Eli Wilson        | Harrison Faith        | (Harrison)          | 15    | 5.00   |    |
-| 12 | Mekayla Henley    | Harrison Faith        | (Harrison)          | 10    | 3.33   |    |
-| 12 | Gabby Ahne        | North Little Rock 1st | (North Little Rock) | 10    | 3.33   |    |
-| 13 | Ethan Davis       | Van Buren             | (Van Buren)         | 5     | 1.67   |    |
-

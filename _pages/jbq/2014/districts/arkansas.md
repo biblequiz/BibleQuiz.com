@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "2015_Arkansas_District"
-permalink: /jbq/?//?/?/
+title: "2014 Arkansas District Finals"
+permalink: /jbq/2014/districts/arkansas/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2014 Season
+    link: /jbq/2014/
     icon: fas fa-home
 ---
 
@@ -16,221 +16,235 @@ menubar_toc_static:
 
 ### Teams
 
-*2 way ties broken by head to head, 3+ way ties broken by points*
-
-| #   | Team / Church                          | W/L   | Total | Avg   | QO | Qs  |
-|----:|----------------------------------------|-------|------:|------:|---:|----:|
-| 1.0 | Team-Rogers First AG (Rogers 1st AG)   | 8 / 0 | 1705  | 189.4 | 13 | 104 |
-| 2.0 | Wild Jirafoons (Harrison Faith AG)     | 7 / 1 | 1345  | 149.4 | 6  | 89  |
-| 3.1 | Butterfield (Butterfield)              | 5 / 3 | 1045  | 116.1 | 3  | 79  |
-| 3.0 | McArthur (McArthur AG)                 | 5 / 3 | 1090  | 121.1 | 8  | 73  |
-| 4.0 | Sparklers (Miracle Lighthouse Church)  | 4 / 4 | 805   | 89.4  | 3  | 53  |
-| 5.1 | Trinity Believers (Trinity Fellowship) | 3 / 5 | 845   | 93.9  | 5  | 73  |
-| 5.0 | Kung Fu Quizzers (Benton 1st AG)       | 3 / 5 | 985   | 109.4 | 5  | 80  |
-| 6.0 | Word Warriors (Bella Vista AG)         | 1 / 7 | 235   | 26.1  |    | 21  |
-| 7.0 | The Jesus League (Bella Vista AG)      | 0 / 8 | 85    | 9.4   | 1  | 26  |
-
-### Individuals
-
-*Ties broken by Average Points then Total Quiz Outs*
-
-| #        | Quizzer              | Team / Church                          | Total | Avg   | QO | Qs |
-|---------:|----------------------|----------------------------------------|------:|------:|---:|---:|
-| 1        | Jayden Reed          | Team-Rogers First AG (Rogers 1st AG)   | 905   | 113.1 | 8  | 48 |
-| 2        | Elijah Yates         | McArthur (McArthur AG)                 | 770   | 96.3  | 6  | 46 |
-| 3        | Zachary Bernardini   | Team-Rogers First AG (Rogers 1st AG)   | 670   | 83.8  | 5  | 44 |
-| 4        | Samuel Dean          | Butterfield (Butterfield)              | 655   | 81.9  | 3  | 37 |
-| 5        | Lucas Paul           | Wild Jirafoons (Harrison Faith AG)     | 625   | 78.1  | 5  | 40 |
-| 6        | James Faries         | Trinity Believers (Trinity Fellowship) | 510   | 63.8  | 5  | 44 |
-| 7        | Kadence Still        | Wild Jirafoons (Harrison Faith AG)     | 490   | 61.3  |    | 26 |
-| 8        | Alyssa Martin        | Sparklers (Miracle Lighthouse Church)  | 480   | 60    | 1  | 24 |
-| 9        | Lorelei Davis        | Kung Fu Quizzers (Benton 1st AG)       | 395   | 49.4  | 4  | 39 |
-| 10       | Isabel Morris        | Kung Fu Quizzers (Benton 1st AG)       | 300   | 37.5  |    | 17 |
-| 11       | Cort Roberts         | Sparklers (Miracle Lighthouse Church)  | 295   | 36.9  | 2  | 26 |
-| 12       | Kelli Jackson        | Kung Fu Quizzers (Benton 1st AG)       | 270   | 33.8  | 1  | 22 |
-| 13       | Hannah Harvey        | McArthur (McArthur AG)                 | 210   | 26.3  | 1  | 17 |
-| 14       | Evelyn Brumley       | Butterfield (Butterfield)              | 175   | 21.9  |    | 17 |
-| 15       | Jaylea Rich          | Butterfield (Butterfield)              | 170   | 21.3  |    | 19 |
-| 16       | Rachel Gregg         | Trinity Believers (Trinity Fellowship) | 160   | 20    |    | 9  |
-| 17       | Tate Dixon           | Wild Jirafoons (Harrison Faith AG)     | 140   | 17.5  |    | 12 |
-| **\*17** | Afton Tharp          | Word Warriors (Bella Vista AG)         | 140   | 17.5  |    | 10 |
-| 18       | Miles Brannan        | Team-Rogers First AG (Rogers 1st AG)   | 130   | 16.3  |    | 12 |
-| 19       | Bella Bruton         | Trinity Believers (Trinity Fellowship) | 125   | 15.6  |    | 15 |
-| 20       | Caleb Cunningham     | The Jesus League (Bella Vista AG)      | 120   | 15    | 1  | 16 |
-| 21       | Sara Swain           | McArthur (McArthur AG)                 | 110   | 13.8  | 1  | 10 |
-| 22       | Andi Wilson          | Wild Jirafoons (Harrison Faith AG)     | 70    | 8.8   | 1  | 8  |
-| 23       | Adrianna Daniels     | Word Warriors (Bella Vista AG)         | 50    | 6.3   |    | 5  |
-| 24       | Libby Rose           | Butterfield (Butterfield)              | 45    | 5.6   |    | 6  |
-| 25       | Zechariah Cunningham | Word Warriors (Bella Vista AG)         | 40    | 5     |    | 5  |
-| 26       | Lydia Roberts        | Sparklers (Miracle Lighthouse Church)  | 30    | 3.8   |    | 3  |
-| 27       | Addison Paul         | Wild Jirafoons (Harrison Faith AG)     | 20    | 2.5   |    | 2  |
-| **\*27** | Macee Earnest        | Kung Fu Quizzers (Benton 1st AG)       | 20    | 2.5   |    | 2  |
-| **\*27** | Avery Daehn          | Trinity Believers (Trinity Fellowship) | 20    | 2.5   |    | 2  |
-| **\*27** | Drizden Stout        | Trinity Believers (Trinity Fellowship) | 20    | 2.5   |    | 2  |
-| 28       | Matthew Hernandez    | Trinity Believers (Trinity Fellowship) | 10    | 1.3   |    | 1  |
-| 29       | Isaiah Phillips      | The Jesus League (Bella Vista AG)      | 5     | .6    |    | 4  |
-| **\*29** | Avalon Coller        | The Jesus League (Bella Vista AG)      | 5     | .6    |    | 2  |
-| **\*29** | Adam Bailey          | Wild Jirafoons (Harrison Faith AG)     | 5     | .6    |    | 1  |
-| **\*29** | Lucy Rustad          | Word Warriors (Bella Vista AG)         | 5     | .6    |    | 1  |
-| 30       | Timothy Donley       | McArthur (McArthur AG)                 | 0     |       |    |    |
-| **\*30** | Kayla Batres         | Trinity Believers (Trinity Fellowship) | 0     |       |    |    |
-| **\*30** | Drew Daehn           | Trinity Believers (Trinity Fellowship) | 0     |       |    |    |
-| **\*30** | Nate Welborn         | Word Warriors (Bella Vista AG)         | 0     |       |    |    |
-| **\*30** | Selah Coller         | The Jesus League (Bella Vista AG)      | 0     |       |    |    |
-| 31       | Lillian Fairchild    | Wild Jirafoons (Harrison Faith AG)     | -5    | -.6   |    |    |
-| 32       | Vianny Diaz          | The Jesus League (Bella Vista AG)      | -45   | -5.6  |    | 4  |
-
-
-## 3rd and 4th
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points*
-
-| #    | Team / Church                            | W/L    | Total | Avg   | QO | Qs  |
-|-----:|------------------------------------------|--------|------:|------:|---:|----:|
-| 1.1  | Biblical Proportions (NLR 1st AG)        | 10 / 1 | 2440  | 221.8 | 15 | 144 |
-| 1.0  | Fordyce Bible Bugs (Fordyce 1st AG)      | 10 / 1 | 2270  | 206.4 | 16 | 123 |
-| 2.1  | Kung Fu Warriors (Benton 1st AG)         | 9 / 2  | 1985  | 180.5 | 14 | 134 |
-| 2.0  | Mayflower Lakeside (Mayflower Lakeside)  | 9 / 2  | 2125  | 193.2 | 16 | 122 |
-| 3.0  | Rogers 1st AG (Rogers 1st AG)            | 7 / 4  | 1870  | 170   | 8  | 99  |
-| 4.0  | Firecrackers (Miracle Lighthouse Church) | 6 / 5  | 1725  | 156.8 | 7  | 113 |
-| 5.0  | Butterfield (Butterfield)                | 5 / 6  | 1315  | 119.5 | 4  | 91  |
-| 6.0  | Sand Hill Saints (Sand Hill)             | 4 / 7  | 1110  | 100.9 | 2  | 71  |
-| 7.0  | Bethel Worship (Bethel Worship Center)   | 3 / 8  | 800   | 72.7  | 3  | 74  |
-| 8.0  | BOLTS (New Life AOG)                     | 2 / 9  | 780   | 70.9  | 1  | 64  |
-| 9.0  | Brainy Bunch (McArthur AG)               | 1 / 10 | 935   | 85    | 2  | 66  |
-| 10.0 | Kingdom Builders (Hope 1st AG)           | 0 / 11 | 560   | 50.9  |    | 49  |
-
-### Individuals
-
-*Ties broken by Average Points then Total Quiz Outs*
-
-| #        | Quizzer            | Team / Church                            | Total | Avg   | QO | Qs |
-|---------:|--------------------|------------------------------------------|------:|------:|---:|---:|
-| 1        | Brooke Zermatten   | Biblical Proportions (NLR 1st AG)        | 1550  | 140.9 | 9  | 63 |
-| 2        | Anna Jordan        | Mayflower Lakeside (Mayflower Lakeside)  | 1470  | 133.6 | 9  | 60 |
-| 3        | Hannah Cheney      | Rogers 1st AG (Rogers 1st AG)            | 1405  | 127.7 | 7  | 58 |
-| 4        | Tyler Kelly        | Kung Fu Warriors (Benton 1st AG)         | 1245  | 113.2 | 8  | 61 |
-| 5        | Elijah Turner      | Fordyce Bible Bugs (Fordyce 1st AG)      | 1190  | 108.2 | 7  | 60 |
-| 6        | Ansley Hornaday    | Fordyce Bible Bugs (Fordyce 1st AG)      | 1060  | 96.4  | 9  | 61 |
-| 7        | Logan Cuevas       | Sand Hill Saints (Sand Hill)             | 740   | 67.3  | 2  | 36 |
-| 8        | Alyza Roberts      | Firecrackers (Miracle Lighthouse Church) | 720   | 65.5  | 3  | 42 |
-| 9        | Micah Dean         | Butterfield (Butterfield)                | 710   | 64.5  | 4  | 42 |
-| 10       | Nevaeh Yates       | Brainy Bunch (McArthur AG)               | 665   | 60.5  | 2  | 39 |
-| 11       | Allen Douglas      | Mayflower Lakeside (Mayflower Lakeside)  | 630   | 57.3  | 7  | 59 |
-| 12       | Lakin Shaw         | Biblical Proportions (NLR 1st AG)        | 615   | 55.9  | 6  | 60 |
-| 13       | Samuell Manning    | Bethel Worship (Bethel Worship Center)   | 570   | 51.8  | 3  | 47 |
-| 14       | Mackenzie Martin   | Firecrackers (Miracle Lighthouse Church) | 505   | 45.9  |    | 25 |
-| 15       | Caden Sanders      | Kung Fu Warriors (Benton 1st AG)         | 500   | 45.5  | 6  | 52 |
-| 16       | Adam Berry         | Firecrackers (Miracle Lighthouse Church) | 475   | 43.2  | 4  | 43 |
-| 17       | Peyton Dickerston  | BOLTS (New Life AOG)                     | 460   | 41.8  |    | 33 |
-| 18       | Landon Manweiler   | Rogers 1st AG (Rogers 1st AG)            | 385   | 35    | 1  | 33 |
-| 19       | Hayden Bruner      | Sand Hill Saints (Sand Hill)             | 345   | 31.4  |    | 30 |
-| 20       | Emma Mullinax      | Butterfield (Butterfield)                | 330   | 30    |    | 19 |
-| 21       | Harlie Lockhart    | Kingdom Builders (Hope 1st AG)           | 280   | 25.5  |    | 24 |
-| 22       | McKenna Caldwell   | BOLTS (New Life AOG)                     | 270   | 24.5  | 1  | 26 |
-| 23       | Katie Harper       | Biblical Proportions (NLR 1st AG)        | 235   | 21.4  |    | 18 |
-| 24       | Caleb Bradley      | Kingdom Builders (Hope 1st AG)           | 210   | 19.1  |    | 20 |
-| 25       | Jude Alexis        | Butterfield (Butterfield)                | 155   | 14.1  |    | 17 |
-| **\*25** | Kylee Morris       | Brainy Bunch (McArthur AG)               | 155   | 14.1  |    | 16 |
-| 26       | Andrew Greenwell   | Kung Fu Warriors (Benton 1st AG)         | 125   | 11.4  |    | 6  |
-| 27       | Jonah Alexis       | Butterfield (Butterfield)                | 120   | 10.9  |    | 13 |
-| 28       | Noah Sanders       | Kung Fu Warriors (Benton 1st AG)         | 110   | 10    |    | 14 |
-| 29       | Ann Crocker        | Rogers 1st AG (Rogers 1st AG)            | 80    | 7.3   |    | 8  |
-| 30       | Emma Manning       | Bethel Worship (Bethel Worship Center)   | 75    | 6.8   |    | 7  |
-| 31       | Lane Lockhart      | Kingdom Builders (Hope 1st AG)           | 70    | 6.4   |    | 5  |
-| 32       | Autumn McCann      | Bethel Worship (Bethel Worship Center)   | 65    | 5.9   |    | 10 |
-| **\*32** | Harrison Bush      | Brainy Bunch (McArthur AG)               | 65    | 5.9   |    | 6  |
-| 33       | Daniel Tackett     | Bethel Worship (Bethel Worship Center)   | 55    | 5     |    | 7  |
-| 34       | Leslie Godinez     | Brainy Bunch (McArthur AG)               | 50    | 4.5   |    | 5  |
-| **\*34** | Kristina Phipps    | BOLTS (New Life AOG)                     | 50    | 4.5   |    | 5  |
-| 35       | Molokai Honda      | Biblical Proportions (NLR 1st AG)        | 40    | 3.6   |    | 3  |
-| 36       | Michael Tackett    | Bethel Worship (Bethel Worship Center)   | 35    | 3.2   |    | 3  |
-| 37       | Braden Spivey      | Sand Hill Saints (Sand Hill)             | 25    | 2.3   |    | 5  |
-| **\*37** | Anna-Belle Elliott | Mayflower Lakeside (Mayflower Lakeside)  | 25    | 2.3   |    | 3  |
-| 38       | Elizabeth Knudson  | Fordyce Bible Bugs (Fordyce 1st AG)      | 20    | 1.8   |    | 2  |
-| 39       | Ocie Roberts       | Firecrackers (Miracle Lighthouse Church) | 15    | 1.4   |    | 2  |
-| 40       | Jacob Roberts      | Firecrackers (Miracle Lighthouse Church) | 10    | .9    |    | 1  |
-| **\*40** | Andee Earnest      | Kung Fu Warriors (Benton 1st AG)         | 10    | .9    |    | 1  |
-| 41       | Alexis Johnston    | Bethel Worship (Bethel Worship Center)   | 0     |       |    |    |
-| **\*41** | Shawn Chronister   | Bethel Worship (Bethel Worship Center)   | 0     |       |    |    |
-| **\*41** | Devin Pree         | Kingdom Builders (Hope 1st AG)           | 0     |       |    |    |
-| **\*41** | Allison Donley     | Brainy Bunch (McArthur AG)               | 0     |       |    |    |
-| **\*41** | Savanna Stevens    | Brainy Bunch (McArthur AG)               | 0     |       |    |    |
-| **\*41** | Marcus Bates       | Fordyce Bible Bugs (Fordyce 1st AG)      | 0     |       |    |    |
-| 42       | Riley Huskey       | Kung Fu Warriors (Benton 1st AG)         | -5    | -.5   |    |    |
-
-
-## 5th and 6th
-
-### Teams
-
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
-| #  | Team               | Church              | W/L  | Total | Avg    |
-|---:|--------------------|---------------------|------|------:|-------:|
-| 1  | Team HeRose        | Rogers 1st AG       | 9/1  | 2045  | 204.50 |
-| 2  | Purple Pandas      | Benton 1st AG       | 8/2  | 2085  | 208.50 |
-| 3  | Mindcraft          | Hyland Park AG      | 8/2  | 1910  | 191.00 |
-| 4  | Legos              | Batavia AG          | 6/4  | 1790  | 179.00 |
-| 5  | Eagles             | NLR 1st AG          | 6/4  | 1630  | 163.00 |
-| 6  | Ablaze             | McArthur AG         | 6/4  | 1585  | 158.50 |
-| 7  | Fordyce Bible Bugs | Fordyce 1st AG      | 5/5  | 1395  | 139.50 |
-| 8  | Buzz Hogs          | River of Life       | 4/6  | 1510  | 151.00 |
-| 9  | Fireproof Warriors | Harrison Faith AG   | 2/8  | 1325  | 132.50 |
-| 10 | RFA 5-6            | Russellville 1st AG | 1/9  | 620   | 62.00  |
-| 11 | Butterfield        | Butterfield         | 0/10 | 375   | 37.50  |
+| #  | Team                  | Church              | W/L  | Total | Avg    |
+|---:|-----------------------|---------------------|------|------:|-------:|
+| 1  | Fordyce 2nd & under   | Fordyce 1st AG      | 10/0 | 2100  | 210.00 |
+| 2  | Gushers               | 1st AG -NLR         | 9/1  | 2420  | 242.00 |
+| 3  | Brainy Bunch          | Mcarthur AG         | 8/2  | 2160  | 216.00 |
+| 4  | Rogers First Assembly | Rogers 1st AG       | 7/3  | 1740  | 174.00 |
+| 5  | Nerds                 | 1st AG - NLR        | 5/5  | 805   | 80.50  |
+| 6  | RFA - K-2             | Russellville 1st AG | 5/5  | 985   | 98.50  |
+| 7  | BVAG Wonder Kids      | Bells Vista AG      | 3/7  | 825   | 82.50  |
+| 8  | The Little Giants     | Mcarthur Church     | 3/7  | 780   | 78.00  |
+| 9  | Jonesboro 1st AG      | Jonesboro 1st AG    | 3/7  | 440   | 44.00  |
+| 10 | Trinity Fellowship    | Trinity Fellowship  | 2/8  | 325   | 32.50  |
+| 11 | Team-Butterfield      | Butterfield         | 0/10 | 440   | 44.00  |
 
 ### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
-| #  | Quizzer            | Team               | Church              | Total | Avg    | QO |
-|---:|--------------------|--------------------|---------------------|------:|-------:|---:|
-| 1  | Ryan Yumang        | Mindcraft          | Hyland Park AG      | 1425  | 142.50 | 8  |
-| 2  | Bobbie Barnes      | Purple Pandas      | Benton 1st AG       | 1345  | 134.50 | 8  |
-| 3  | Jacob Blackburn    | Eagles             | NLR 1st AG          | 1165  | 116.50 | 5  |
-| 4  | Ethan Lancelot     | Team HeRose        | Rogers 1st AG       | 910   | 91.00  | 4  |
-| 5  | Jonathan Duggins   | Buzz Hogs          | River of Life       | 870   | 87.00  | 4  |
-| 6  | Allie Turner       | Fordyce Bible Bugs | Fordyce 1st AG      | 850   | 85.00  | 2  |
-| 7  | Sydney Shockley    | Team HeRose        | Rogers 1st AG       | 825   | 82.50  | 7  |
-| 8  | Kamryn Bradshaw    | Legos              | Batavia AG          | 805   | 80.50  | 2  |
-| 9  | Kayden Powers      | Fireproof Warriors | Harrison Faith AG   | 670   | 67.00  | 2  |
-| 10 | Seth Swain         | Ablaze             | McArthur AG         | 645   | 64.50  |    |
-| 11 | Lauryn Jackson     | Buzz Hogs          | River of Life       | 580   | 58.00  | 7  |
-| 12 | Kris Duran         | RFA 5-6            | Russellville 1st AG | 515   | 51.50  | 2  |
-| 13 | Ashton Johnson     | Ablaze             | McArthur AG         | 475   | 47.50  | 6  |
-| 14 | Shelby Farmer      | Legos              | Batavia AG          | 475   | 47.50  |    |
-| 15 | Caleb Whitener     | Ablaze             | McArthur AG         | 465   | 46.50  | 1  |
-| 16 | Brittyn Glover     | Purple Pandas      | Benton 1st AG       | 460   | 46.00  | 5  |
-| 17 | Aubrey Hornaday    | Fordyce Bible Bugs | Fordyce 1st AG      | 445   | 44.50  | 2  |
-| 18 | Phoebe Lillard     | Legos              | Batavia AG          | 405   | 40.50  | 4  |
-| 18 | Makya Mattix       | Fireproof Warriors | Harrison Faith AG   | 405   | 40.50  | 4  |
-| 19 | Hannah Hall        | Eagles             | NLR 1st AG          | 375   | 37.50  | 2  |
-| 20 | Emma White         | Mindcraft          | Hyland Park AG      | 365   | 36.50  | 3  |
-| 21 | Kimbree Earnest    | Purple Pandas      | Benton 1st AG       | 270   | 27.00  | 2  |
-| 22 | Destiny Craine     | Butterfield        | Butterfield         | 260   | 26.00  |    |
-| 23 | Becca Longtin      | Team HeRose        | Rogers 1st AG       | 190   | 19.00  | 1  |
-| 24 | Gabe Paul          | Fireproof Warriors | Harrison Faith AG   | 150   | 15.00  |    |
-| 25 | Jazlin Redding     | Mindcraft          | Hyland Park AG      | 110   | 11.00  |    |
-| 25 | Tinley Boysen      | Team HeRose        | Rogers 1st AG       | 110   | 11.00  |    |
-| 25 | Makayla Mattix     | Fireproof Warriors | Harrison Faith AG   | 110   | 11.00  |    |
-| 26 | Chloe Mullinax     | Butterfield        | Butterfield         | 105   | 10.50  |    |
-| 26 | Michael Farmer     | Legos              | Batavia AG          | 105   | 10.50  |    |
-| 27 | Caden Lemley       | RFA 5-6            | Russellville 1st AG | 55    | 5.50   |    |
-| 27 | Melanie Castillo   | Fordyce Bible Bugs | Fordyce 1st AG      | 55    | 5.50   |    |
-| 27 | Mydalyn Higgins    | Eagles             | NLR 1st AG          | 55    | 5.50   |    |
-| 28 | Carter Lemley      | RFA 5-6            | Russellville 1st AG | 40    | 4.00   |    |
-| 29 | Savannah Stricklin | Eagles             | NLR 1st AG          | 35    | 3.50   |    |
-| 29 | Jared Raney        | Fordyce Bible Bugs | Fordyce 1st AG      | 35    | 3.50   |    |
-| 30 | Haven Jackson      | Buzz Hogs          | River of Life       | 30    | 3.00   |    |
-| 30 | Jabin Page         | Buzz Hogs          | River of Life       | 30    | 3.00   |    |
-| 31 | Luke Hendryx       | Fordyce Bible Bugs | Fordyce 1st AG      | 10    | 1.00   |    |
-| 31 | Angel Johnson      | Ablaze             | McArthur AG         | 10    | 1.00   |    |
-| 31 | Jeweleann Davis    | Purple Pandas      | Benton 1st AG       | 10    | 1.00   |    |
-| 31 | Morgan Giese       | Team HeRose        | Rogers 1st AG       | 10    | 1.00   |    |
-| 31 | James Hamby        | Butterfield        | Butterfield         | 10    | 1.00   |    |
-| 31 | Izzy Carpenter     | Mindcraft          | Hyland Park AG      | 10    | 1.00   |    |
-| 31 | Noah Freeman       | RFA 5-6            | Russellville 1st AG | 10    | 1.00   |    |
+| #  | Quizzer            | Team                  | Church              | Total | Avg    | QO |
+|---:|--------------------|-----------------------|---------------------|------:|-------:|---:|
+| 1  | Christian Lu       | Gushers               | 1st AG -NLR         | 1355  | 135.50 | 8  |
+| 2  | Ansley Hornaday    | Fordyce 2nd & under   | Fordyce 1st AG      | 1140  | 114.00 | 5  |
+| 3  | Nevaeh Yates       | Brainy Bunch          | Mcarthur AG         | 1010  | 101.00 | 4  |
+| 4  | Norah Rustad       | BVAG Wonder Kids      | Bells Vista AG      | 810   | 81.00  | 5  |
+| 5  | Landon Canfield    | RFA - K-2             | Russellville 1st AG | 680   | 68.00  | 7  |
+| 6  | Jayden Reed        | Rogers First Assembly | Rogers 1st AG       | 650   | 65.00  | 6  |
+| 7  | Elizabeth Esteban  | The Little Giants     | Mcarthur Church     | 630   | 63.00  | 6  |
+| 8  | Hannah Cheney      | Rogers First Assembly | Rogers 1st AG       | 600   | 60.00  | 3  |
+| 9  | Elijah turner      | Fordyce 2nd & under   | Fordyce 1st AG      | 565   | 56.50  | 8  |
+| 10 | Corrine Ramsey     | Gushers               | 1st AG -NLR         | 495   | 49.50  | 5  |
+| 11 | Zachary Bernardini | Rogers First Assembly | Rogers 1st AG       | 475   | 47.50  | 1  |
+| 12 | Autumn Vredeveld   | Brainy Bunch          | Mcarthur AG         | 465   | 46.50  | 5  |
+| 13 | LaMaria Hall       | Nerds                 | 1st AG - NLR        | 460   | 46.00  |    |
+| 14 | Caitlyn Jendrejas  | Fordyce 2nd & under   | Fordyce 1st AG      | 400   | 40.00  | 1  |
+| 15 | Grace Esteban      | Brainy Bunch          | Mcarthur AG         | 350   | 35.00  |    |
+| 16 | Lakin Shaw         | Brainy Bunch          | Mcarthur AG         | 335   | 33.50  | 2  |
+| 17 | Eve Brumley        | Team-Butterfield      | Butterfield         | 320   | 32.00  | 1  |
+| 18 | Katie Harper       | Gushers               | 1st AG -NLR         | 315   | 31.50  | 3  |
+| 19 | Brianna Smith      | Jonesboro 1st AG      | Jonesboro 1st AG    | 285   | 28.50  | 1  |
+| 20 | Crevan Moore       | Nerds                 | 1st AG - NLR        | 220   | 22.00  |    |
+| 21 | Silvestre Trujillo | Trinity Fellowship    | Trinity Fellowship  | 135   | 13.50  |    |
+| 22 | Jacob Freeman      | RFA - K-2             | Russellville 1st AG | 120   | 12.00  |    |
+| 22 | Hayden Kellhofer   | Trinity Fellowship    | Trinity Fellowship  | 120   | 12.00  |    |
+| 23 | Jude Alexis        | Team-Butterfield      | Butterfield         | 115   | 11.50  |    |
+| 23 | Sarah Lara         | Gushers               | 1st AG -NLR         | 115   | 11.50  |    |
+| 24 | Andrew Bowen       | RFA - K-2             | Russellville 1st AG | 85    | 8.50   |    |
+| 25 | Abby Roden         | Gushers               | 1st AG -NLR         | 80    | 8.00   |    |
+| 26 | Jameson Turner     | Jonesboro 1st AG      | Jonesboro 1st AG    | 75    | 7.50   |    |
+| 27 | Carter Heathcoat   | RFA - K-2             | Russellville 1st AG | 70    | 7.00   |    |
+| 28 | Colton Rosenbaum   | The Little Giants     | Mcarthur Church     | 60    | 6.00   |    |
+| 28 | Shae Stinnett      | Nerds                 | 1st AG - NLR        | 60    | 6.00   |    |
+| 28 | Rachel Lara        | Gushers               | 1st AG -NLR         | 60    | 6.00   |    |
+| 29 | Jaydon Cliff       | Jonesboro 1st AG      | Jonesboro 1st AG    | 55    | 5.50   |    |
+| 30 | Jason Hynson       | The Little Giants     | Mcarthur Church     | 45    | 4.50   |    |
+| 30 | Makeda Toombs      | Nerds                 | 1st AG - NLR        | 45    | 4.50   |    |
+| 30 | Drizden Stout      | Trinity Fellowship    | Trinity Fellowship  | 45    | 4.50   |    |
+| 31 | Rory Long          | Jonesboro 1st AG      | Jonesboro 1st AG    | 30    | 3.00   |    |
+| 31 | Sara Swain         | The Little Giants     | Mcarthur Church     | 30    | 3.00   |    |
+| 31 | Landon Manweiler   | Rogers First Assembly | Rogers 1st AG       | 30    | 3.00   |    |
+| 32 | Avery Daehn        | Trinity Fellowship    | Trinity Fellowship  | 25    | 2.50   |    |
+| 33 | Joy Skaggs         | RFA - K-2             | Russellville 1st AG | 20    | 2.00   |    |
+| 34 | Savanna Stephens   | The Little Giants     | Mcarthur Church     | 15    | 1.50   |    |
+| 35 | Caleb Cunningham   | BVAG Wonder Kids      | Bells Vista AG      | 10    | 1.00   |    |
+| 35 | Afton Tharp        | BVAG Wonder Kids      | Bells Vista AG      | 10    | 1.00   |    |
+| 35 | Libby Rose         | Team-Butterfield      | Butterfield         | 10    | 1.00   |    |
+| 35 | Clay Drake         | RFA - K-2             | Russellville 1st AG | 10    | 1.00   |    |
+| 35 | Jaiden Dobbins     | Nerds                 | 1st AG - NLR        | 10    | 1.00   |    |
+| 35 | Hope Weaver        | Nerds                 | 1st AG - NLR        | 10    | 1.00   |    |
+
+## 3rd and 4th Grade
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| #  | Team               | Church                   | W/L  | Total | Avg    |
+|---:|--------------------|--------------------------|------|------:|-------:|
+| 1  | Fordyce 3rd & 4th  | Fordyce 1st AG           | 11/0 | 2830  | 257.27 |
+| 2  | The Legos          | Batavia AG               | 10/1 | 2690  | 244.55 |
+| 3  | NLR 3-4Team2       | North Little Rock 1st AG | 8/3  | 2030  | 184.55 |
+| 4  | New Life Bolts     | New Life AG              | 7/4  | 2005  | 182.27 |
+| 5  | NLR3-4 Team1       | North Little Rock        | 7/4  | 1965  | 178.64 |
+| 6  | McArthur           | McArthur                 | 7/4  | 1790  | 162.73 |
+| 7  | BVAG Bat Buzzers   | Bella Vista AG           | 5/6  | 1915  | 174.09 |
+| 8  | Jonesboro 1st AG   | Jonesboro 1st AG         | 3/8  | 920   | 83.64  |
+| 9  | Team-Butterfield   | Butterfield              | 3/8  | 850   | 77.27  |
+| 10 | Hope               | Hope First AG            | 3/8  | 625   | 56.82  |
+| 11 | Tuckerman Faith AG | Tuckerman Faith AG       | 2/9  | 780   | 70.91  |
+| 12 | Coal Hill          | Coal hill AG             | 0/11 | 420   | 38.18  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer           | Team               | Church                   | Total | Avg    | QO |
+|---:|-------------------|--------------------|--------------------------|------:|-------:|---:|
+| 1  | Allie Turner      | Fordyce 3rd & 4th  | Fordyce 1st AG           | 1440  | 130.91 | 10 |
+| 2  | Jacob Blackburn   | NLR 3-4Team2       | North Little Rock 1st AG | 1335  | 121.36 | 7  |
+| 3  | Olivia Rustad     | BVAG Bat Buzzers   | Bella Vista AG           | 1240  | 112.73 | 7  |
+| 4  | Brooke Zermatten  | NLR3-4 Team1       | North Little Rock        | 1240  | 112.73 | 6  |
+| 5  | Kamryn Bradshaw   | The Legos          | Batavia AG               | 1220  | 110.91 | 9  |
+| 6  | Anna Jordan       | New Life Bolts     | New Life AG              | 1145  | 104.09 | 6  |
+| 7  | Aubrey Hornaday   | Fordyce 3rd & 4th  | Fordyce 1st AG           | 1060  | 96.36  | 11 |
+| 8  | Jake Bellou       | McArthur           | McArthur                 | 1050  | 95.45  | 5  |
+| 9  | Shelby Farmer     | The Legos          | Batavia AG               | 810   | 73.64  |    |
+| 10 | Kamelia Skinner   | McArthur           | McArthur                 | 670   | 60.91  | 8  |
+| 11 | Jonah Alexis      | Team-Butterfield   | Butterfield              | 670   | 60.91  | 5  |
+| 12 | Phoebe Lillard    | The Legos          | Batavia AG               | 660   | 60.00  | 9  |
+| 13 | Julia Lara        | NLR3-4 Team1       | North Little Rock        | 565   | 51.36  | 4  |
+| 14 | Mariah Allen      | Jonesboro 1st AG   | Jonesboro 1st AG         | 530   | 48.18  | 3  |
+| 15 | Peyton Dickerson  | New Life Bolts     | New Life AG              | 500   | 45.45  |    |
+| 16 | Caleb Bradley     | Hope               | Hope First AG            | 455   | 41.36  | 4  |
+| 17 | Aubree Johnson    | NLR 3-4Team2       | North Little Rock 1st AG | 430   | 39.09  | 3  |
+| 18 | Malachi Gates     | Tuckerman Faith AG | Tuckerman Faith AG       | 420   | 38.18  |    |
+| 19 | Aliyah Allen      | Jonesboro 1st AG   | Jonesboro 1st AG         | 390   | 35.45  |    |
+| 20 | Joey Kappelmeier  | BVAG Bat Buzzers   | Bella Vista AG           | 355   | 32.27  | 3  |
+| 21 | Kamryn Rios       | Coal Hill          | Coal hill AG             | 320   | 29.09  | 1  |
+| 22 | Melanie Castillo  | Fordyce 3rd & 4th  | Fordyce 1st AG           | 310   | 28.18  | 1  |
+| 23 | Sarah Landseidel  | BVAG Bat Buzzers   | Bella Vista AG           | 275   | 25.00  | 1  |
+| 24 | Maddie Stinnett   | NLR 3-4Team2       | North Little Rock 1st AG | 255   | 23.18  |    |
+| 25 | Kristina Phipps   | New Life Bolts     | New Life AG              | 205   | 18.64  |    |
+| 26 | Jaxson Gates      | Tuckerman Faith AG | Tuckerman Faith AG       | 190   | 17.27  |    |
+| 26 | Emma Mullinax     | Team-Butterfield   | Butterfield              | 190   | 17.27  |    |
+| 27 | Harlie Lockhart   | Hope               | Hope First AG            | 170   | 15.45  |    |
+| 28 | Rebecca Gee       | Tuckerman Faith AG | Tuckerman Faith AG       | 160   | 14.55  |    |
+| 29 | Isabella Keaton   | New Life Bolts     | New Life AG              | 155   | 14.09  |    |
+| 30 | Elijah Smith      | Coal Hill          | Coal hill AG             | 100   | 9.09   |    |
+| 31 | Ian Sharps        | NLR3-4 Team1       | North Little Rock        | 85    | 7.73   |    |
+| 32 | Amelia Dunfee     | BVAG Bat Buzzers   | Bella Vista AG           | 45    | 4.09   |    |
+| 33 | Madison Clendenin | McArthur           | McArthur                 | 40    | 3.64   |    |
+| 33 | Elizabeth Hall    | NLR3-4 Team1       | North Little Rock        | 40    | 3.64   |    |
+| 34 | Angelina Johnson  | McArthur           | McArthur                 | 30    | 2.73   |    |
+| 35 | Amarrie Hill      | NLR3-4 Team1       | North Little Rock        | 25    | 2.27   |    |
+| 36 | Jaycee Ramsey     | Fordyce 3rd & 4th  | Fordyce 1st AG           | 20    | 1.82   |    |
+| 37 | Aliyah Gibson     | NLR3-4 Team1       | North Little Rock        | 10    | .91    |    |
+| 37 | Nadia Crosby      | NLR 3-4Team2       | North Little Rock 1st AG | 10    | .91    |    |
+| 37 | Gracie Smith      | Tuckerman Faith AG | Tuckerman Faith AG       | 10    | .91    |    |
+
+
+## 5th and 6th Grade
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| #  | Team                          | Church              | W/L  | Total | Avg    |
+|---:|-------------------------------|---------------------|------|------:|-------:|
+| 1  | Kung Fu Quizzers              | Benton 1st AG       | 13/0 | 3215  | 247.31 |
+| 2  | McArthur's Mighty Men & Woman | McArthur AG         | 10/3 | 2655  | 204.23 |
+| 3  | HeRose                        | Rogers 1st          | 10/3 | 2650  | 203.85 |
+| 4  | Mindcraft                     | Hyland Park AG      | 10/3 | 2610  | 200.77 |
+| 5  | Eagles                        | 1st AG              | 10/3 | 2330  | 179.23 |
+| 6  | Obsessed                      | Harrison Faith AG   | 8/5  | 1965  | 151.15 |
+| 7  | Jonesboro 1st AG              | Jonesboro 1st AG    | 7/6  | 1855  | 142.69 |
+| 8  | Kung Fu Quizzers              | Bella Vista AG      | 6/7  | 1555  | 119.62 |
+| 9  | DAG Church                    | DAG Church          | 6/7  | 1910  | 146.92 |
+| 10 | Buzz Hogs                     | River of Life       | 3/10 | 1070  | 82.31  |
+| 11 | New Life Bolts                | New Life AG         | 3/10 | 1055  | 81.15  |
+| 12 | RFA 5-6                       | Russellville 1st AG | 3/10 | 1030  | 79.23  |
+| 13 | Fordyce 5th & 6th             | Fordyce 1st AG      | 1/12 | 750   | 57.69  |
+| 14 | Team-Butterfield              | Butterfield         | 1/12 | 650   | 50.00  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer            | Team                          | Church              | Total | Avg    | QO |
+|---:|--------------------|-------------------------------|---------------------|------:|-------:|---:|
+| 1  | Bobbie Barnes      | Kung Fu Quizzers              | Benton 1st AG       | 1800  | 138.46 | 12 |
+| 2  | Aedan Moore        | Eagles                        | 1st AG              | 1445  | 111.15 | 6  |
+| 3  | Aubrey Decker      | Jonesboro 1st AG              | Jonesboro 1st AG    | 1325  | 101.92 | 6  |
+| 4  | Ryan Yumang        | Mindcraft                     | Hyland Park AG      | 1265  | 97.31  | 6  |
+| 5  | Ethan Lancelot     | HeRose                        | Rogers 1st          | 1260  | 96.92  | 5  |
+| 6  | Seth Swain         | McArthur's Mighty Men & Woman | McArthur AG         | 1230  | 94.62  | 7  |
+| 7  | Isabelle Yumang    | Mindcraft                     | Hyland Park AG      | 1085  | 83.46  | 7  |
+| 8  | Sydney Shockley    | HeRose                        | Rogers 1st          | 1060  | 81.54  | 8  |
+| 9  | Jared Watson       | Kung Fu Quizzers              | Benton 1st AG       | 845   | 65.00  | 13 |
+| 10 | Johnny Dunfee      | Kung Fu Quizzers              | Bella Vista AG      | 840   | 64.62  | 2  |
+| 11 | Deegan Brooks      | DAG Church                    | DAG Church          | 795   | 61.15  | 3  |
+| 12 | Jared Meckfessel   | New Life Bolts                | New Life AG         | 785   | 60.38  | 2  |
+| 13 | Levi Biniakewitz   | Buzz Hogs                     | River of Life       | 775   | 59.62  | 7  |
+| 14 | Randi Jo Bolinger  | DAG Church                    | DAG Church          | 715   | 55.00  | 10 |
+| 15 | Hailey Wilson      | Obsessed                      | Harrison Faith AG   | 640   | 49.23  | 5  |
+| 16 | Ethan Rosenbaum    | McArthur's Mighty Men & Woman | McArthur AG         | 620   | 47.69  |    |
+| 17 | Alexis Sharps      | Eagles                        | 1st AG              | 605   | 46.54  | 7  |
+| 18 | Ashlyn Wilson      | McArthur's Mighty Men & Woman | McArthur AG         | 585   | 45.00  | 6  |
+| 19 | Kris Duran         | RFA 5-6                       | Russellville 1st AG | 510   | 39.23  |    |
+| 20 | Mikayla Conklin    | Kung Fu Quizzers              | Bella Vista AG      | 495   | 38.08  |    |
+| 21 | Dalton Rowe        | Obsessed                      | Harrison Faith AG   | 435   | 33.46  |    |
+| 22 | Mattea Cliff       | Jonesboro 1st AG              | Jonesboro 1st AG    | 405   | 31.15  | 2  |
+| 23 | Emily Greenwell    | Kung Fu Quizzers              | Benton 1st AG       | 385   | 29.62  |    |
+| 24 | Madison Herring    | Obsessed                      | Harrison Faith AG   | 370   | 28.46  | 2  |
+| 25 | Jared Raney        | Fordyce 5th & 6th             | Fordyce 1st AG      | 355   | 27.31  |    |
+| 26 | Jacob Partridge    | RFA 5-6                       | Russellville 1st AG | 340   | 26.15  | 1  |
+| 27 | Destiny Crain      | Team-Butterfield              | Butterfield         | 335   | 25.77  | 1  |
+| 28 | Clara Butler       | DAG Church                    | DAG Church          | 300   | 23.08  |    |
+| 28 | Ian Hendryx        | Fordyce 5th & 6th             | Fordyce 1st AG      | 300   | 23.08  |    |
+| 29 | Kayden Powers      | Obsessed                      | Harrison Faith AG   | 290   | 22.31  |    |
+| 30 | Hannah Hall        | Eagles                        | 1st AG              | 265   | 20.38  |    |
+| 31 | Grayson Meckfessel | New Life Bolts                | New Life AG         | 245   | 18.85  | 1  |
+| 32 | Hannah Miller      | Obsessed                      | Harrison Faith AG   | 230   | 17.69  |    |
+| 33 | Jazlin Redding     | Mindcraft                     | Hyland Park AG      | 210   | 16.15  |    |
+| 34 | Chloe Mullinax     | Team-Butterfield              | Butterfield         | 205   | 15.77  |    |
+| 35 | Ashton Johnson     | McArthur's Mighty Men & Woman | McArthur AG         | 200   | 15.38  | 1  |
+| 36 | Madison Alverson   | Kung Fu Quizzers              | Bella Vista AG      | 185   | 14.23  |    |
+| 37 | Jonathan Duggins   | Buzz Hogs                     | River of Life       | 175   | 13.46  |    |
+| 37 | Rebecca Longtin    | HeRose                        | Rogers 1st          | 175   | 13.46  |    |
+| 38 | Tinley Boysen      | HeRose                        | Rogers 1st          | 150   | 11.54  |    |
+| 39 | Alexis Rowland     | Kung Fu Quizzers              | Benton 1st AG       | 135   | 10.38  |    |
+| 40 | Haven Jackson      | Buzz Hogs                     | River of Life       | 120   | 9.23   |    |
+| 41 | Luke Hendryx       | Fordyce 5th & 6th             | Fordyce 1st AG      | 95    | 7.31   |    |
+| 42 | Emma Anderson      | DAG Church                    | DAG Church          | 80    | 6.15   |    |
+| 43 | Zack Ketchum       | RFA 5-6                       | Russellville 1st AG | 75    | 5.77   |    |
+| 44 | Ariana Neshat      | Jonesboro 1st AG              | Jonesboro 1st AG    | 70    | 5.38   |    |
+| 45 | Jenesis Davis      | Team-Butterfield              | Butterfield         | 65    | 5.00   |    |
+| 45 | Brandon Bunton     | RFA 5-6                       | Russellville 1st AG | 65    | 5.00   |    |
+| 46 | Izzy Carpenter     | Mindcraft                     | Hyland Park AG      | 50    | 3.85   |    |
+| 47 | Brittany Norman    | Jonesboro 1st AG              | Jonesboro 1st AG    | 45    | 3.46   |    |
+| 47 | James Hamby        | Team-Butterfield              | Butterfield         | 45    | 3.46   |    |
+| 48 | Caden Lemley       | RFA 5-6                       | Russellville 1st AG | 40    | 3.08   |    |
+| 48 | Brittyn Glover     | Kung Fu Quizzers              | Benton 1st AG       | 40    | 3.08   |    |
+| 49 | Isaac Landseidel   | Kung Fu Quizzers              | Bella Vista AG      | 35    | 2.69   |    |
+| 50 | Joseph Skinner     | McArthur's Mighty Men & Woman | McArthur AG         | 25    | 1.92   |    |
+| 50 | Tristan Sorg       | New Life Bolts                | New Life AG         | 25    | 1.92   |    |
+| 51 | Morgan Liles       | Eagles                        | 1st AG              | 20    | 1.54   |    |
+| 51 | Will Anderson      | DAG Church                    | DAG Church          | 20    | 1.54   |    |
+| 52 | Austin Green       | Kung Fu Quizzers              | Benton 1st AG       | 10    | .77    |    |
+| 52 | Tracie Petty       | Jonesboro 1st AG              | Jonesboro 1st AG    | 10    | .77    |    |
+| 53 | Morgan Giese       | HeRose                        | Rogers 1st          | 5     | .38    |    |
 

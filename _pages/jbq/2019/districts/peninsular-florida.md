@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "PenFlorida_19_District_Finals"
-permalink: /jbq/?//?/?/
+title: "2019 Peninsular-Florida District Finals"
+permalink: /jbq/2019/districts/peninsular-florida/
 date: "2019-03-04"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2019 Season
+    link: /jbq/2019/
     icon: fas fa-home
 ---
 
-## 2019 Championship Flight
+## Championship Flight
 
 ### Teams
 
@@ -81,7 +81,7 @@ menubar_toc_static:
 | 27       | Mendine Belizaire    | Christian Life Center (Fort Lauderdale) #1 (Christian Life Center)           | -30   | -3.8  |    |    |
 
 
-## 2019 Flight 2
+## Flight 2
 
 ### Teams
 
@@ -137,7 +137,7 @@ menubar_toc_static:
 | 22       | Logan Petrey       | First Assembly of God (Fort Myers) Scripture Seekers #101 (First Assembly of God) | -25   | -4.2  |    |    |
 
 
-## 2019 Flight 3
+## Flight 3
 
 ### Teams
 
@@ -190,7 +190,7 @@ menubar_toc_static:
 | 23       | Charlie Vinson     | Bethel Temple (Tampa) #1 (Bethel Temple)                                       | -10   | -1.7  |    |    |
 
 
-## 2019 Flight 4
+## Flight 4
 
 ### Teams
 
@@ -248,7 +248,7 @@ menubar_toc_static:
 | **\*19** | John Thorp            | Wayfinders #3 (First Assembly of God)                                             | -5    | -.8  |    |    |
 
 
-## 2019 Flight 5
+## Flight 5
 
 ### Teams
 
@@ -305,7 +305,7 @@ menubar_toc_static:
 | 24       | Gabriel Murray        | Florida\'s First Assembly of God (Wauchula) #1 (Florida\'s First Assembly of God) | -20   | -3.3 |    |    |
 
 
-## 2019 Flight 6
+## Flight 6
 
 ### Teams
 
@@ -345,7 +345,7 @@ menubar_toc_static:
 | **\*14** | Elizabeth Chelbezan  | First Assembly Deland (Deland) #2 (First Assembly Deland)           | 0     |      |    |    |
 
 
-## 2019 X Flight 1
+## Flight X1
 
 ### Teams
 

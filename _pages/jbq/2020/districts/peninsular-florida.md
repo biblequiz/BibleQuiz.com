@@ -1,241 +1,18 @@
 ---
 layout: page
-title: "PenFlorida_20_District_Finals"
-permalink: /jbq/?//?/?/
+title: "2020 Peninsular-Florida District Finals"
+permalink: /jbq/2020/districts/peninsular-florida/
 date: "2020-03-07"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2020 Season
+    link: /jbq/2020/
     icon: fas fa-home
 ---
 
-## 2020 Flight 2
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points*
-
-| #   | Team / Church                                                                   | W/L   | Total | Avg   | QO | Q%  |
-|----:|---------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
-| 1.0 | CLC Messengers of Hope (Christian Life Center)                                  | 6 / 0 | 1710  | 285   | 11 | 96% |
-| 2.0 | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 | 4 / 2 | 790   | 131.6 | 4  | 85% |
-| 3.1 | Victory Church (Lakeland) #1 (Victory Church)                                   | 3 / 3 | 540   | 90    | 5  | 89% |
-| 4.0 | Supreme Skittles (Faith Assembly of God)                                        | 3 / 3 | 815   | 135.8 | 2  | 80% |
-| 5.1 | Fantastic Four (Faith Assembly of God)                                          | 2 / 4 | 575   | 95.8  | 1  | 77% |
-| 6.0 | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) | 2 / 4 | 560   | 93.3  | 3  | 91% |
-| 7.0 | Lord\'s Warriors (Faith Assembly of God)                                        | 1 / 5 | 550   | 91.7  | 1  | 76% |
-
-### Individuals
-
-*Ties broken by Average Points then Total Quiz Outs*
-
-| #        | Quizzer             | Team / Church                                                                   | Total | Avg   | QO | Q%   |
-|---------:|---------------------|---------------------------------------------------------------------------------|------:|------:|---:|-----:|
-| 1        | Steffi Padmanaban   | CLC Messengers of Hope (Christian Life Center)                                  | 915   | 152.5 | 5  | 100% |
-| 2        | Christian Gonzalez  | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 | 750   | 125   | 4  | 85%  |
-| 3        | Victoria Okoh       | CLC Messengers of Hope (Christian Life Center)                                  | 500   | 83.3  | 5  | 95%  |
-| 4        | Isabella Kirchon    | Victory Church (Lakeland) #1 (Victory Church)                                   | 485   | 80.8  | 5  | 92%  |
-| 5        | Cristina Rios       | Lord\'s Warriors (Faith Assembly of God)                                        | 380   | 63.3  | 1  | 87%  |
-| 6        | Bree Lamas          | Supreme Skittles (Faith Assembly of God)                                        | 360   | 60    | 1  | 86%  |
-| 7        | Allen Chamberlain   | Supreme Skittles (Faith Assembly of God)                                        | 340   | 56.7  | 1  | 75%  |
-| 8        | Josiah Scott        | Fantastic Four (Faith Assembly of God)                                          | 315   | 52.5  | 1  | 76%  |
-| 9        | Widly Eltine        | CLC Messengers of Hope (Christian Life Center)                                  | 300   | 50    | 1  | 100% |
-| 10       | Arianna Myers       | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) | 280   | 46.7  | 1  | 94%  |
-| 11       | Enyichi Ohiaeriaku  | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) | 205   | 34.2  | 2  | 86%  |
-| 12       | Nathanael Scott     | Fantastic Four (Faith Assembly of God)                                          | 175   | 29.2  |    | 93%  |
-| 13       | Gabriel Curren      | Lord\'s Warriors (Faith Assembly of God)                                        | 120   | 20    |    | 64%  |
-| 14       | Michael Reilly      | Supreme Skittles (Faith Assembly of God)                                        | 100   | 16.7  |    | 85%  |
-| 15       | Zachary Reilly      | Fantastic Four (Faith Assembly of God)                                          | 60    | 10    |    | 55%  |
-| 16       | Andrea Bonilla      | Lord\'s Warriors (Faith Assembly of God)                                        | 50    | 8.3   |    | 64%  |
-| 17       | Makayla Weatherholt | Victory Church (Lakeland) #1 (Victory Church)                                   | 45    | 7.5   |    | 83%  |
-| 18       | Daniella Myers      | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) | 40    | 6.7   |    | 100% |
-| **\*18** | Lorelai Moreno      | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 | 40    | 6.7   |    | 100% |
-| 19       | Abigayle Motta      | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) | 35    | 5.8   |    | 100% |
-| 20       | Ian Scott           | Fantastic Four (Faith Assembly of God)                                          | 25    | 4.2   |    | 75%  |
-| 21       | Clara Kirchon       | Victory Church (Lakeland) #1 (Victory Church)                                   | 15    | 2.5   |    | 66%  |
-| **\*21** | Zoey Morales        | Supreme Skittles (Faith Assembly of God)                                        | 15    | 2.5   |    | 66%  |
-| 22       | Marvens Geffard     | CLC Messengers of Hope (Christian Life Center)                                  | 5     | .8    |    | 50%  |
-| 23       | Jeremiah Mejia      | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 | 0     |       |    | 50%  |
-| **\*23** | Taylor Harrison     | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 | 0     |       |    |      |
-| **\*23** | Logan Godfrey       | Lord\'s Warriors (Faith Assembly of God)                                        | 0     |       |    |      |
-| 24       | Pleasant Okoh       | CLC Messengers of Hope (Christian Life Center)                                  | -10   | -1.7  |    |      |
-
-
-## 2020 Flight 3
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points*
-
-| #   | Team / Church                                                                   | W/L   | Total | Avg   | QO | Q%  |
-|----:|---------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
-| 1.1 | Bible Kool Kidz (First Assembly of God)                                         | 5 / 1 | 785   | 130.8 | 3  | 89% |
-| 2.0 | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 5 / 1 | 780   | 130   | 1  | 78% |
-| 3.0 | Victory Church (Lakeland) #2 (Victory Church)                                   | 4 / 2 | 745   | 124.1 | 4  | 79% |
-| 4.0 | First Assembly of God (Fort Myers) Scripture Seekers #1 (First Assembly of God) | 3 / 3 | 535   | 89.2  | 1  | 75% |
-| 5.1 | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 2 / 4 | 415   | 69.2  |    | 82% |
-| 6.0 | First Coast Christian Center (Jacksonville) #1 (First Coast Christian Center)   | 2 / 4 | 430   | 71.7  | 2  | 96% |
-| 7.0 | The Gospel Kids- LIFE Church A/G (LIFE Church Assembly of God)                  | 0 / 6 | 395   | 65.8  | 1  | 74% |
-
-### Individuals
-
-*Ties broken by Average Points then Total Quiz Outs*
-
-| #        | Quizzer             | Team / Church                                                                   | Total | Avg  | QO | Q%   |
-|---------:|---------------------|---------------------------------------------------------------------------------|------:|-----:|---:|-----:|
-| 1        | Logan Cook          | Victory Church (Lakeland) #2 (Victory Church)                                   | 510   | 85   | 3  | 80%  |
-| 2        | Dawson Robinson     | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 420   | 70   |    | 80%  |
-| 3        | Megan Runge         | First Coast Christian Center (Jacksonville) #1 (First Coast Christian Center)   | 370   | 61.7 | 2  | 95%  |
-| 4        | Emma Lovejoy        | Bible Kool Kidz (First Assembly of God)                                         | 330   | 55   | 2  | 89%  |
-| 5        | Noah Perez          | Bible Kool Kidz (First Assembly of God)                                         | 305   | 50.8 | 1  | 85%  |
-| 6        | David Arthur        | First Assembly of God (Fort Myers) Scripture Seekers #1 (First Assembly of God) | 290   | 48.3 | 1  | 68%  |
-| 7        | Mikayla Day         | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 265   | 44.2 | 1  | 75%  |
-| 8        | Jadas Runyon        | Victory Church (Lakeland) #2 (Victory Church)                                   | 235   | 39.2 | 1  | 79%  |
-| 9        | Sirayah Williams    | The Gospel Kids- LIFE Church A/G (LIFE Church Assembly of God)                  | 225   | 37.5 |    | 79%  |
-| 10       | Aidan Place         | First Assembly of God (Fort Myers) Scripture Seekers #1 (First Assembly of God) | 190   | 31.7 |    | 83%  |
-| **\*10** | Dannie Rodriquez    | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 190   | 31.7 |    | 73%  |
-| 11       | Joeseth Crouch      | The Gospel Kids- LIFE Church A/G (LIFE Church Assembly of God)                  | 170   | 28.3 | 1  | 71%  |
-| 12       | Chloe Parrales      | Bible Kool Kidz (First Assembly of God)                                         | 150   | 25   |    | 100% |
-| 13       | Analise Maldonado   | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 110   | 18.3 |    | 100% |
-| 14       | Kristopher Jacques  | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 105   | 17.5 |    | 92%  |
-| 15       | Jonny Day           | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 70    | 11.7 |    | 78%  |
-| 16       | Luci Bullock        | First Assembly of God (Fort Myers) Scripture Seekers #1 (First Assembly of God) | 55    | 9.2  |    | 86%  |
-| 17       | Eli Runge           | First Coast Christian Center (Jacksonville) #1 (First Coast Christian Center)   | 40    | 6.7  |    | 100% |
-| 18       | Darius Robinson     | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 25    | 4.2  |    | 100% |
-| 19       | Isabella Perry      | First Coast Christian Center (Jacksonville) #1 (First Coast Christian Center)   | 20    | 3.3  |    | 99%  |
-| 20       | Ethan Lorenzo-Young | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 10    | 1.7  |    | 99%  |
-| 21       | Allen Crouch        | The Gospel Kids- LIFE Church A/G (LIFE Church Assembly of God)                  | 0     |      |    | 50%  |
-| **\*21** | Elias Javier        | Victory Church (Lakeland) #2 (Victory Church)                                   | 0     |      |    |      |
-| **\*21** | Ella Brazeal        | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 0     |      |    |      |
-| **\*21** | Aliyah Robinson     | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 0     |      |    |      |
-| **\*21** | Alexia Robinson     | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 0     |      |    |      |
-| **\*21** | Emma Bracero        | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 0     |      |    |      |
-| **\*21** | Aiden Root          | Bible Kool Kidz (First Assembly of God)                                         | 0     |      |    |      |
-| **\*21** | Levi Bullock        | First Assembly of God (Fort Myers) Scripture Seekers #1 (First Assembly of God) | 0     |      |    |      |
-
-
-## 2020 Flight 4
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points*
-
-| #   | Team / Church                                                                 | W/L   | Total | Avg   | QO | Q%  |
-|----:|-------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
-| 1.0 | Kandy Quizzers - LIFE Church A/G (LIFE Church Assembly of God)                | 4 / 2 | 815   | 135.8 | 3  | 85% |
-| 2.0 | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 4 / 2 | 760   | 126.6 | 7  | 87% |
-| 3.0 | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 4 / 2 | 715   | 119.1 | 1  | 96% |
-| 4.0 | The Warriors of JBQ (Trinity Assembly of God)                                 | 4 / 2 | 595   | 99.2  |    | 92% |
-| 5.1 | Oxford Assembly of God (Oxford) #1 (Oxford Assembly of God)                   | 2 / 4 | 535   | 89.2  | 1  | 97% |
-| 6.0 | First Coast Christian Center (Jacksonville) #2 (First Coast Christian Center) | 2 / 4 | 545   | 90.8  | 2  | 97% |
-| 7.0 | CLC Blessed Hope (Christian Life Center)                                      | 1 / 5 | 150   | 25    |    | 67% |
-
-### Individuals
-
-*Ties broken by Average Points then Total Quiz Outs*
-
-| #        | Quizzer              | Team / Church                                                                 | Total | Avg   | QO | Q%   |
-|---------:|----------------------|-------------------------------------------------------------------------------|------:|------:|---:|-----:|
-| 1        | Ashley Hostetler     | Kandy Quizzers - LIFE Church A/G (LIFE Church Assembly of God)                | 640   | 106.7 | 3  | 97%  |
-| 2        | Sarah Beaubrun       | First Coast Christian Center (Jacksonville) #2 (First Coast Christian Center) | 520   | 86.7  | 2  | 96%  |
-| 3        | Maddy Olson          | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 385   | 64.2  | 1  | 94%  |
-| 4        | Bryce Walters        | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 380   | 63.3  | 5  | 92%  |
-| 5        | Chase Maricle        | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 330   | 55    | 2  | 79%  |
-| 6        | Daniel Fawole        | Oxford Assembly of God (Oxford) #1 (Oxford Assembly of God)                   | 315   | 52.5  | 1  | 95%  |
-| 7        | Joshua Paltrow       | The Warriors of JBQ (Trinity Assembly of God)                                 | 200   | 33.3  |    | 100% |
-| **\*7**  | Olivia Lugo          | The Warriors of JBQ (Trinity Assembly of God)                                 | 200   | 33.3  |    | 100% |
-| 8        | Gaby Tedeman         | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 180   | 30    |    | 100% |
-| 9        | Je\'siah King-Howard | The Warriors of JBQ (Trinity Assembly of God)                                 | 165   | 27.5  |    | 81%  |
-| 10       | Stephan Jules        | CLC Blessed Hope (Christian Life Center)                                      | 130   | 21.7  |    | 65%  |
-| 11       | Kirra Perry          | Kandy Quizzers - LIFE Church A/G (LIFE Church Assembly of God)                | 125   | 20.8  |    | 93%  |
-| 12       | Emma Stagg           | Oxford Assembly of God (Oxford) #1 (Oxford Assembly of God)                   | 120   | 20    |    | 100% |
-| 13       | Anna Stagg           | Oxford Assembly of God (Oxford) #1 (Oxford Assembly of God)                   | 100   | 16.7  |    | 100% |
-| 14       | Sade Otero           | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 90    | 15    |    | 100% |
-| 15       | Lauren Garcia        | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 60    | 10    |    | 100% |
-| 16       | Dalton Crouch        | Kandy Quizzers - LIFE Church A/G (LIFE Church Assembly of God)                | 50    | 8.3   |    | 56%  |
-| 17       | Hannah Moss          | First Coast Christian Center (Jacksonville) #2 (First Coast Christian Center) | 30    | 5     |    | 100% |
-| **\*17** | Elijah Tanner        | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 30    | 5     |    | 99%  |
-| **\*17** | Arkiel Classens      | The Warriors of JBQ (Trinity Assembly of God)                                 | 30    | 5     |    | 66%  |
-| 18       | Sebastian Jules      | CLC Blessed Hope (Christian Life Center)                                      | 20    | 3.3   |    | 99%  |
-| 19       | Jazmyne Walters      | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 10    | 1.7   |    | 99%  |
-| **\*19** | Elizabeth Chelbezan  | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 10    | 1.7   |    | 99%  |
-| 20       | Joshinely Cimeus     | CLC Blessed Hope (Christian Life Center)                                      | 0     |       |    | 66%  |
-| **\*20** | Allison Crouch       | Kandy Quizzers - LIFE Church A/G (LIFE Church Assembly of God)                | 0     |       |    |      |
-| **\*20** | Winston Brown        | The Warriors of JBQ (Trinity Assembly of God)                                 | 0     |       |    |      |
-| **\*20** | Lyric Tedeman        | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 0     |       |    |      |
-| **\*20** | Christopher Sosa     | CLC Blessed Hope (Christian Life Center)                                      | 0     |       |    |      |
-| **\*20** | Bruiyensen Gracelien | CLC Blessed Hope (Christian Life Center)                                      | 0     |       |    |      |
-| **\*20** | Brayden Gracelien    | CLC Blessed Hope (Christian Life Center)                                      | 0     |       |    |      |
-| **\*20** | Uriah Skinner        | First Coast Christian Center (Jacksonville) #2 (First Coast Christian Center) | 0     |       |    |      |
-| **\*20** | Claire Maricle       | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 0     |       |    |      |
-| 21       | Caleb Arent          | First Coast Christian Center (Jacksonville) #2 (First Coast Christian Center) | -5    | -.8   |    |      |
-
-
-## 2020 Flight 5
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points*
-
-| #   | Team / Church                                                                   | W/L   | Total | Avg   | QO | Q%  |
-|----:|---------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
-| 1.0 | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | 7 / 0 | 750   | 107.1 | 6  | 74% |
-| 2.1 | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 5 / 2 | 550   | 78.6  | 1  | 81% |
-| 3.0 | CLC Kingdom Builders (Christian Life Center)                                    | 5 / 2 | 420   | 60    | 1  | 84% |
-| 4.1 | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | 3 / 4 | 630   | 90    | 1  | 90% |
-| 5.0 | First Assembly of God (Fort Myers) Scripture Seekers #2 (First Assembly of God) | 3 / 4 | 320   | 45.7  | 1  | 75% |
-| 6.1 | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 2 / 5 | 390   | 55.7  | 1  | 91% |
-| 7.0 | Bible Aces (Trinity Assembly of God)                                            | 2 / 5 | 255   | 36.4  | 1  | 86% |
-| 8.0 | The Catz Meow (First Assembly of God)                                           | 1 / 6 | 230   | 32.9  |    | 79% |
-
-### Individuals
-
-*Ties broken by Average Points then Total Quiz Outs*
-
-| #        | Quizzer                | Team / Church                                                                   | Total | Avg  | QO | Q%   |
-|---------:|------------------------|---------------------------------------------------------------------------------|------:|-----:|---:|-----:|
-| 1        | Joy Love               | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | 410   | 58.6 | 3  | 69%  |
-| 2        | Baylee Stackpole       | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | 345   | 49.3 |    | 92%  |
-| 3        | Piper Kramper          | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 320   | 45.7 | 1  | 96%  |
-| 4        | Ethan Olson            | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | 280   | 40   | 3  | 76%  |
-| 5        | Logan Petrey           | First Assembly of God (Fort Myers) Scripture Seekers #2 (First Assembly of God) | 270   | 38.6 | 1  | 76%  |
-| 6        | Lyric Stackpole        | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | 260   | 37.1 | 1  | 91%  |
-| 7        | Remy Joseph            | CLC Kingdom Builders (Christian Life Center)                                    | 250   | 35.7 | 1  | 92%  |
-| 8        | Alexandria Descalzo    | Bible Aces (Trinity Assembly of God)                                            | 235   | 33.6 | 1  | 94%  |
-| 9        | JJ Parrales            | The Catz Meow (First Assembly of God)                                           | 235   | 33.6 |    | 90%  |
-| 10       | Samuel Jordan          | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 210   | 30   | 1  | 87%  |
-| 11       | Ricardo Rocha          | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 140   | 20   |    | 100% |
-| **\*11** | David Okoh             | CLC Kingdom Builders (Christian Life Center)                                    | 140   | 20   |    | 74%  |
-| 12       | Aniya Barrett          | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 95    | 13.6 |    | 80%  |
-| 13       | Omarie Jordan          | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 75    | 10.7 |    | 67%  |
-| 14       | Ashlyn Olson           | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | 50    | 7.1  |    | 100% |
-| 15       | Parker Kramper         | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 45    | 6.4  |    | 83%  |
-| 16       | Javier Winston         | Bible Aces (Trinity Assembly of God)                                            | 35    | 5    |    | 100% |
-| 17       | Cadence Chumney        | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | 30    | 4.3  |    | 100% |
-| **\*17** | Eli VanZanten          | First Assembly of God (Fort Myers) Scripture Seekers #2 (First Assembly of God) | 30    | 4.3  |    | 100% |
-| **\*17** | Gael Rocha             | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 30    | 4.3  |    | 62%  |
-| 18       | Johnnie Crespo         | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | 20    | 2.9  |    | 99%  |
-| **\*18** | Bradley Figaro         | CLC Kingdom Builders (Christian Life Center)                                    | 20    | 2.9  |    | 99%  |
-| **\*18** | Julio Lopez            | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 20    | 2.9  |    | 99%  |
-| **\*18** | Sebastian Place        | First Assembly of God (Fort Myers) Scripture Seekers #2 (First Assembly of God) | 20    | 2.9  |    | 50%  |
-| 19       | Ashlee Cadet           | CLC Kingdom Builders (Christian Life Center)                                    | 10    | 1.4  |    | 99%  |
-| 20       | Eva Lopez              | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 5     | .7   |    | 50%  |
-| 21       | Molly Mims             | The Catz Meow (First Assembly of God)                                           | 0     |      |    | 33%  |
-| **\*21** | Jackson Chumney        | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | 0     |      |    |      |
-| **\*21** | Mariella Mims          | The Catz Meow (First Assembly of God)                                           | 0     |      |    |      |
-| **\*21** | Nathaniel Petit-Clair  | CLC Kingdom Builders (Christian Life Center)                                    | 0     |      |    |      |
-| **\*21** | Hunter Ford            | Bible Aces (Trinity Assembly of God)                                            | 0     |      |    |      |
-| **\*21** | Khadence Cease         | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 0     |      |    |      |
-| 22       | Alyvia Sobotta         | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | -5    | -.7  |    |      |
-| **\*22** | Noelle Root            | The Catz Meow (First Assembly of God)                                           | -5    | -.7  |    |      |
-| 23       | Maidelys Gaston-Rivera | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | -10   | -1.4 |    |      |
-| 24       | Darrius Winston        | Bible Aces (Trinity Assembly of God)                                            | -15   | -2.1 |    |      |
-
-
-## 2020 Flight of Champions
+## Flight of Champions
 
 ### Teams
 
@@ -302,8 +79,230 @@ menubar_toc_static:
 | **\*32** | Bruce Moreira     | Freedom Bible Masters (Freedom Christian Fellowship of the Assemblies of God)   | 0     |       |    |      |
 | 33       | Dominic Forston   | Highpoint Church (Port Saint Lucie) #1 (Highpoint Community Church)             | -10   | -1.1  |    |      |
 
+## Flight 2
 
-## 2020 Flight X1
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                                                   | W/L   | Total | Avg   | QO | Q%  |
+|----:|---------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | CLC Messengers of Hope (Christian Life Center)                                  | 6 / 0 | 1710  | 285   | 11 | 96% |
+| 2.0 | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 | 4 / 2 | 790   | 131.6 | 4  | 85% |
+| 3.1 | Victory Church (Lakeland) #1 (Victory Church)                                   | 3 / 3 | 540   | 90    | 5  | 89% |
+| 4.0 | Supreme Skittles (Faith Assembly of God)                                        | 3 / 3 | 815   | 135.8 | 2  | 80% |
+| 5.1 | Fantastic Four (Faith Assembly of God)                                          | 2 / 4 | 575   | 95.8  | 1  | 77% |
+| 6.0 | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) | 2 / 4 | 560   | 93.3  | 3  | 91% |
+| 7.0 | Lord\'s Warriors (Faith Assembly of God)                                        | 1 / 5 | 550   | 91.7  | 1  | 76% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer             | Team / Church                                                                   | Total | Avg   | QO | Q%   |
+|---------:|---------------------|---------------------------------------------------------------------------------|------:|------:|---:|-----:|
+| 1        | Steffi Padmanaban   | CLC Messengers of Hope (Christian Life Center)                                  | 915   | 152.5 | 5  | 100% |
+| 2        | Christian Gonzalez  | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 | 750   | 125   | 4  | 85%  |
+| 3        | Victoria Okoh       | CLC Messengers of Hope (Christian Life Center)                                  | 500   | 83.3  | 5  | 95%  |
+| 4        | Isabella Kirchon    | Victory Church (Lakeland) #1 (Victory Church)                                   | 485   | 80.8  | 5  | 92%  |
+| 5        | Cristina Rios       | Lord\'s Warriors (Faith Assembly of God)                                        | 380   | 63.3  | 1  | 87%  |
+| 6        | Bree Lamas          | Supreme Skittles (Faith Assembly of God)                                        | 360   | 60    | 1  | 86%  |
+| 7        | Allen Chamberlain   | Supreme Skittles (Faith Assembly of God)                                        | 340   | 56.7  | 1  | 75%  |
+| 8        | Josiah Scott        | Fantastic Four (Faith Assembly of God)                                          | 315   | 52.5  | 1  | 76%  |
+| 9        | Widly Eltine        | CLC Messengers of Hope (Christian Life Center)                                  | 300   | 50    | 1  | 100% |
+| 10       | Arianna Myers       | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) | 280   | 46.7  | 1  | 94%  |
+| 11       | Enyichi Ohiaeriaku  | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) | 205   | 34.2  | 2  | 86%  |
+| 12       | Nathanael Scott     | Fantastic Four (Faith Assembly of God)                                          | 175   | 29.2  |    | 93%  |
+| 13       | Gabriel Curren      | Lord\'s Warriors (Faith Assembly of God)                                        | 120   | 20    |    | 64%  |
+| 14       | Michael Reilly      | Supreme Skittles (Faith Assembly of God)                                        | 100   | 16.7  |    | 85%  |
+| 15       | Zachary Reilly      | Fantastic Four (Faith Assembly of God)                                          | 60    | 10    |    | 55%  |
+| 16       | Andrea Bonilla      | Lord\'s Warriors (Faith Assembly of God)                                        | 50    | 8.3   |    | 64%  |
+| 17       | Makayla Weatherholt | Victory Church (Lakeland) #1 (Victory Church)                                   | 45    | 7.5   |    | 83%  |
+| 18       | Daniella Myers      | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) | 40    | 6.7   |    | 100% |
+| **\*18** | Lorelai Moreno      | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 | 40    | 6.7   |    | 100% |
+| 19       | Abigayle Motta      | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) | 35    | 5.8   |    | 100% |
+| 20       | Ian Scott           | Fantastic Four (Faith Assembly of God)                                          | 25    | 4.2   |    | 75%  |
+| 21       | Clara Kirchon       | Victory Church (Lakeland) #1 (Victory Church)                                   | 15    | 2.5   |    | 66%  |
+| **\*21** | Zoey Morales        | Supreme Skittles (Faith Assembly of God)                                        | 15    | 2.5   |    | 66%  |
+| 22       | Marvens Geffard     | CLC Messengers of Hope (Christian Life Center)                                  | 5     | .8    |    | 50%  |
+| 23       | Jeremiah Mejia      | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 | 0     |       |    | 50%  |
+| **\*23** | Taylor Harrison     | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 | 0     |       |    |      |
+| **\*23** | Logan Godfrey       | Lord\'s Warriors (Faith Assembly of God)                                        | 0     |       |    |      |
+| 24       | Pleasant Okoh       | CLC Messengers of Hope (Christian Life Center)                                  | -10   | -1.7  |    |      |
+
+
+## Flight 3
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                                                   | W/L   | Total | Avg   | QO | Q%  |
+|----:|---------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.1 | Bible Kool Kidz (First Assembly of God)                                         | 5 / 1 | 785   | 130.8 | 3  | 89% |
+| 2.0 | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 5 / 1 | 780   | 130   | 1  | 78% |
+| 3.0 | Victory Church (Lakeland) #2 (Victory Church)                                   | 4 / 2 | 745   | 124.1 | 4  | 79% |
+| 4.0 | First Assembly of God (Fort Myers) Scripture Seekers #1 (First Assembly of God) | 3 / 3 | 535   | 89.2  | 1  | 75% |
+| 5.1 | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 2 / 4 | 415   | 69.2  |    | 82% |
+| 6.0 | First Coast Christian Center (Jacksonville) #1 (First Coast Christian Center)   | 2 / 4 | 430   | 71.7  | 2  | 96% |
+| 7.0 | The Gospel Kids- LIFE Church A/G (LIFE Church Assembly of God)                  | 0 / 6 | 395   | 65.8  | 1  | 74% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer             | Team / Church                                                                   | Total | Avg  | QO | Q%   |
+|---------:|---------------------|---------------------------------------------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Logan Cook          | Victory Church (Lakeland) #2 (Victory Church)                                   | 510   | 85   | 3  | 80%  |
+| 2        | Dawson Robinson     | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 420   | 70   |    | 80%  |
+| 3        | Megan Runge         | First Coast Christian Center (Jacksonville) #1 (First Coast Christian Center)   | 370   | 61.7 | 2  | 95%  |
+| 4        | Emma Lovejoy        | Bible Kool Kidz (First Assembly of God)                                         | 330   | 55   | 2  | 89%  |
+| 5        | Noah Perez          | Bible Kool Kidz (First Assembly of God)                                         | 305   | 50.8 | 1  | 85%  |
+| 6        | David Arthur        | First Assembly of God (Fort Myers) Scripture Seekers #1 (First Assembly of God) | 290   | 48.3 | 1  | 68%  |
+| 7        | Mikayla Day         | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 265   | 44.2 | 1  | 75%  |
+| 8        | Jadas Runyon        | Victory Church (Lakeland) #2 (Victory Church)                                   | 235   | 39.2 | 1  | 79%  |
+| 9        | Sirayah Williams    | The Gospel Kids- LIFE Church A/G (LIFE Church Assembly of God)                  | 225   | 37.5 |    | 79%  |
+| 10       | Aidan Place         | First Assembly of God (Fort Myers) Scripture Seekers #1 (First Assembly of God) | 190   | 31.7 |    | 83%  |
+| **\*10** | Dannie Rodriquez    | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 190   | 31.7 |    | 73%  |
+| 11       | Joeseth Crouch      | The Gospel Kids- LIFE Church A/G (LIFE Church Assembly of God)                  | 170   | 28.3 | 1  | 71%  |
+| 12       | Chloe Parrales      | Bible Kool Kidz (First Assembly of God)                                         | 150   | 25   |    | 100% |
+| 13       | Analise Maldonado   | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 110   | 18.3 |    | 100% |
+| 14       | Kristopher Jacques  | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 105   | 17.5 |    | 92%  |
+| 15       | Jonny Day           | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 70    | 11.7 |    | 78%  |
+| 16       | Luci Bullock        | First Assembly of God (Fort Myers) Scripture Seekers #1 (First Assembly of God) | 55    | 9.2  |    | 86%  |
+| 17       | Eli Runge           | First Coast Christian Center (Jacksonville) #1 (First Coast Christian Center)   | 40    | 6.7  |    | 100% |
+| 18       | Darius Robinson     | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 25    | 4.2  |    | 100% |
+| 19       | Isabella Perry      | First Coast Christian Center (Jacksonville) #1 (First Coast Christian Center)   | 20    | 3.3  |    | 99%  |
+| 20       | Ethan Lorenzo-Young | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 10    | 1.7  |    | 99%  |
+| 21       | Allen Crouch        | The Gospel Kids- LIFE Church A/G (LIFE Church Assembly of God)                  | 0     |      |    | 50%  |
+| **\*21** | Elias Javier        | Victory Church (Lakeland) #2 (Victory Church)                                   | 0     |      |    |      |
+| **\*21** | Ella Brazeal        | New Life Assembly (Lehigh) #2 (New Life Assembly)                               | 0     |      |    |      |
+| **\*21** | Aliyah Robinson     | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 0     |      |    |      |
+| **\*21** | Alexia Robinson     | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 0     |      |    |      |
+| **\*21** | Emma Bracero        | First Assembly of God (New Port Richey) #1 (First Assembly of God)              | 0     |      |    |      |
+| **\*21** | Aiden Root          | Bible Kool Kidz (First Assembly of God)                                         | 0     |      |    |      |
+| **\*21** | Levi Bullock        | First Assembly of God (Fort Myers) Scripture Seekers #1 (First Assembly of God) | 0     |      |    |      |
+
+
+## Flight 4
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                                                 | W/L   | Total | Avg   | QO | Q%  |
+|----:|-------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Kandy Quizzers - LIFE Church A/G (LIFE Church Assembly of God)                | 4 / 2 | 815   | 135.8 | 3  | 85% |
+| 2.0 | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 4 / 2 | 760   | 126.6 | 7  | 87% |
+| 3.0 | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 4 / 2 | 715   | 119.1 | 1  | 96% |
+| 4.0 | The Warriors of JBQ (Trinity Assembly of God)                                 | 4 / 2 | 595   | 99.2  |    | 92% |
+| 5.1 | Oxford Assembly of God (Oxford) #1 (Oxford Assembly of God)                   | 2 / 4 | 535   | 89.2  | 1  | 97% |
+| 6.0 | First Coast Christian Center (Jacksonville) #2 (First Coast Christian Center) | 2 / 4 | 545   | 90.8  | 2  | 97% |
+| 7.0 | CLC Blessed Hope (Christian Life Center)                                      | 1 / 5 | 150   | 25    |    | 67% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer              | Team / Church                                                                 | Total | Avg   | QO | Q%   |
+|---------:|----------------------|-------------------------------------------------------------------------------|------:|------:|---:|-----:|
+| 1        | Ashley Hostetler     | Kandy Quizzers - LIFE Church A/G (LIFE Church Assembly of God)                | 640   | 106.7 | 3  | 97%  |
+| 2        | Sarah Beaubrun       | First Coast Christian Center (Jacksonville) #2 (First Coast Christian Center) | 520   | 86.7  | 2  | 96%  |
+| 3        | Maddy Olson          | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 385   | 64.2  | 1  | 94%  |
+| 4        | Bryce Walters        | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 380   | 63.3  | 5  | 92%  |
+| 5        | Chase Maricle        | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 330   | 55    | 2  | 79%  |
+| 6        | Daniel Fawole        | Oxford Assembly of God (Oxford) #1 (Oxford Assembly of God)                   | 315   | 52.5  | 1  | 95%  |
+| 7        | Joshua Paltrow       | The Warriors of JBQ (Trinity Assembly of God)                                 | 200   | 33.3  |    | 100% |
+| **\*7**  | Olivia Lugo          | The Warriors of JBQ (Trinity Assembly of God)                                 | 200   | 33.3  |    | 100% |
+| 8        | Gaby Tedeman         | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 180   | 30    |    | 100% |
+| 9        | Je\'siah King-Howard | The Warriors of JBQ (Trinity Assembly of God)                                 | 165   | 27.5  |    | 81%  |
+| 10       | Stephan Jules        | CLC Blessed Hope (Christian Life Center)                                      | 130   | 21.7  |    | 65%  |
+| 11       | Kirra Perry          | Kandy Quizzers - LIFE Church A/G (LIFE Church Assembly of God)                | 125   | 20.8  |    | 93%  |
+| 12       | Emma Stagg           | Oxford Assembly of God (Oxford) #1 (Oxford Assembly of God)                   | 120   | 20    |    | 100% |
+| 13       | Anna Stagg           | Oxford Assembly of God (Oxford) #1 (Oxford Assembly of God)                   | 100   | 16.7  |    | 100% |
+| 14       | Sade Otero           | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 90    | 15    |    | 100% |
+| 15       | Lauren Garcia        | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 60    | 10    |    | 100% |
+| 16       | Dalton Crouch        | Kandy Quizzers - LIFE Church A/G (LIFE Church Assembly of God)                | 50    | 8.3   |    | 56%  |
+| 17       | Hannah Moss          | First Coast Christian Center (Jacksonville) #2 (First Coast Christian Center) | 30    | 5     |    | 100% |
+| **\*17** | Elijah Tanner        | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 30    | 5     |    | 99%  |
+| **\*17** | Arkiel Classens      | The Warriors of JBQ (Trinity Assembly of God)                                 | 30    | 5     |    | 66%  |
+| 18       | Sebastian Jules      | CLC Blessed Hope (Christian Life Center)                                      | 20    | 3.3   |    | 99%  |
+| 19       | Jazmyne Walters      | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 10    | 1.7   |    | 99%  |
+| **\*19** | Elizabeth Chelbezan  | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 10    | 1.7   |    | 99%  |
+| 20       | Joshinely Cimeus     | CLC Blessed Hope (Christian Life Center)                                      | 0     |       |    | 66%  |
+| **\*20** | Allison Crouch       | Kandy Quizzers - LIFE Church A/G (LIFE Church Assembly of God)                | 0     |       |    |      |
+| **\*20** | Winston Brown        | The Warriors of JBQ (Trinity Assembly of God)                                 | 0     |       |    |      |
+| **\*20** | Lyric Tedeman        | Bethel Temple (Tampa) #1 (Bethel Temple)                                      | 0     |       |    |      |
+| **\*20** | Christopher Sosa     | CLC Blessed Hope (Christian Life Center)                                      | 0     |       |    |      |
+| **\*20** | Bruiyensen Gracelien | CLC Blessed Hope (Christian Life Center)                                      | 0     |       |    |      |
+| **\*20** | Brayden Gracelien    | CLC Blessed Hope (Christian Life Center)                                      | 0     |       |    |      |
+| **\*20** | Uriah Skinner        | First Coast Christian Center (Jacksonville) #2 (First Coast Christian Center) | 0     |       |    |      |
+| **\*20** | Claire Maricle       | First Assembly Deland (Deland) #1 (First Assembly Deland)                     | 0     |       |    |      |
+| 21       | Caleb Arent          | First Coast Christian Center (Jacksonville) #2 (First Coast Christian Center) | -5    | -.8   |    |      |
+
+
+## Flight 5
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                                                   | W/L   | Total | Avg   | QO | Q%  |
+|----:|---------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | 7 / 0 | 750   | 107.1 | 6  | 74% |
+| 2.1 | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 5 / 2 | 550   | 78.6  | 1  | 81% |
+| 3.0 | CLC Kingdom Builders (Christian Life Center)                                    | 5 / 2 | 420   | 60    | 1  | 84% |
+| 4.1 | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | 3 / 4 | 630   | 90    | 1  | 90% |
+| 5.0 | First Assembly of God (Fort Myers) Scripture Seekers #2 (First Assembly of God) | 3 / 4 | 320   | 45.7  | 1  | 75% |
+| 6.1 | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 2 / 5 | 390   | 55.7  | 1  | 91% |
+| 7.0 | Bible Aces (Trinity Assembly of God)                                            | 2 / 5 | 255   | 36.4  | 1  | 86% |
+| 8.0 | The Catz Meow (First Assembly of God)                                           | 1 / 6 | 230   | 32.9  |    | 79% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer                | Team / Church                                                                   | Total | Avg  | QO | Q%   |
+|---------:|------------------------|---------------------------------------------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Joy Love               | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | 410   | 58.6 | 3  | 69%  |
+| 2        | Baylee Stackpole       | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | 345   | 49.3 |    | 92%  |
+| 3        | Piper Kramper          | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 320   | 45.7 | 1  | 96%  |
+| 4        | Ethan Olson            | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | 280   | 40   | 3  | 76%  |
+| 5        | Logan Petrey           | First Assembly of God (Fort Myers) Scripture Seekers #2 (First Assembly of God) | 270   | 38.6 | 1  | 76%  |
+| 6        | Lyric Stackpole        | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | 260   | 37.1 | 1  | 91%  |
+| 7        | Remy Joseph            | CLC Kingdom Builders (Christian Life Center)                                    | 250   | 35.7 | 1  | 92%  |
+| 8        | Alexandria Descalzo    | Bible Aces (Trinity Assembly of God)                                            | 235   | 33.6 | 1  | 94%  |
+| 9        | JJ Parrales            | The Catz Meow (First Assembly of God)                                           | 235   | 33.6 |    | 90%  |
+| 10       | Samuel Jordan          | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 210   | 30   | 1  | 87%  |
+| 11       | Ricardo Rocha          | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 140   | 20   |    | 100% |
+| **\*11** | David Okoh             | CLC Kingdom Builders (Christian Life Center)                                    | 140   | 20   |    | 74%  |
+| 12       | Aniya Barrett          | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 95    | 13.6 |    | 80%  |
+| 13       | Omarie Jordan          | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 75    | 10.7 |    | 67%  |
+| 14       | Ashlyn Olson           | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | 50    | 7.1  |    | 100% |
+| 15       | Parker Kramper         | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 45    | 6.4  |    | 83%  |
+| 16       | Javier Winston         | Bible Aces (Trinity Assembly of God)                                            | 35    | 5    |    | 100% |
+| 17       | Cadence Chumney        | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | 30    | 4.3  |    | 100% |
+| **\*17** | Eli VanZanten          | First Assembly of God (Fort Myers) Scripture Seekers #2 (First Assembly of God) | 30    | 4.3  |    | 100% |
+| **\*17** | Gael Rocha             | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 30    | 4.3  |    | 62%  |
+| 18       | Johnnie Crespo         | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | 20    | 2.9  |    | 99%  |
+| **\*18** | Bradley Figaro         | CLC Kingdom Builders (Christian Life Center)                                    | 20    | 2.9  |    | 99%  |
+| **\*18** | Julio Lopez            | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 20    | 2.9  |    | 99%  |
+| **\*18** | Sebastian Place        | First Assembly of God (Fort Myers) Scripture Seekers #2 (First Assembly of God) | 20    | 2.9  |    | 50%  |
+| 19       | Ashlee Cadet           | CLC Kingdom Builders (Christian Life Center)                                    | 10    | 1.4  |    | 99%  |
+| 20       | Eva Lopez              | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 5     | .7   |    | 50%  |
+| 21       | Molly Mims             | The Catz Meow (First Assembly of God)                                           | 0     |      |    | 33%  |
+| **\*21** | Jackson Chumney        | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | 0     |      |    |      |
+| **\*21** | Mariella Mims          | The Catz Meow (First Assembly of God)                                           | 0     |      |    |      |
+| **\*21** | Nathaniel Petit-Clair  | CLC Kingdom Builders (Christian Life Center)                                    | 0     |      |    |      |
+| **\*21** | Hunter Ford            | Bible Aces (Trinity Assembly of God)                                            | 0     |      |    |      |
+| **\*21** | Khadence Cease         | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God)                 | 0     |      |    |      |
+| 22       | Alyvia Sobotta         | Victory Christian Fellowship (East Palatka) #1 (Victory Christian Fellowship)   | -5    | -.7  |    |      |
+| **\*22** | Noelle Root            | The Catz Meow (First Assembly of God)                                           | -5    | -.7  |    |      |
+| 23       | Maidelys Gaston-Rivera | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | -10   | -1.4 |    |      |
+| 24       | Darrius Winston        | Bible Aces (Trinity Assembly of God)                                            | -15   | -2.1 |    |      |
+
+
+## Flight X1
 
 ### Teams
 

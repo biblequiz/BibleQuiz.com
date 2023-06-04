@@ -1,50 +1,18 @@
 ---
 layout: page
-title: "2016_District_Qualifying"
-permalink: /jbq/?//?/?/
+title: "2016 Arkansas Districts Qualifiers"
+permalink: /jbq/2016/other/arkansas-districts-qualifying/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2016 Season
+    link: /jbq/2016/
     icon: fas fa-home
 ---
 
-## North Central 5-6
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
-
-| # | Team       | Church        | W/L | Total | Avg    |
-|--:|------------|---------------|-----|------:|-------:|
-| 1 | Buzz Hogs  | River of Life | 3/0 | 620   | 206.67 |
-| 2 | G Force    | McArthur      | 2/1 | 590   | 196.67 |
-| 3 | New Life   | New Life      | 1/2 | 195   | 65.00  |
-| 4 | God's Gang | McArthur      | 0/3 | 25    | 8.33   |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
-
-| #  | Quizzer          | Team       | Church        | Total | Avg    | QO |
-|---:|------------------|------------|---------------|------:|-------:|---:|
-| 1  | Jonathan Duggins | Buzz Hogs  | River of Life | 405   | 135.00 | 3  |
-| 2  | Angel Johnson    | G Force    | McArthur      | 270   | 90.00  | 2  |
-| 3  | Peyton Dickerson | New Life   | New Life      | 190   | 63.33  | 1  |
-| 4  | Lauryn Jackson   | Buzz Hogs  | River of Life | 165   | 55.00  | 2  |
-| 5  | Kamelia Skinner  | G Force    | McArthur      | 145   | 48.33  |    |
-| 6  | Adam Murdock     | G Force    | McArthur      | 110   | 36.67  |    |
-| 7  | Jabin Page       | Buzz Hogs  | River of Life | 50    | 16.67  |    |
-| 8  | Lakin Shaw       | G Force    | McArthur      | 45    | 15.00  |    |
-| 9  | Jacob Sollee     | God's Gang | McArthur      | 25    | 8.33   |    |
-| 10 | Madelyn Brandon  | G Force    | McArthur      | 20    | 6.67   |    |
-| 11 | Kristana Phipps  | New Life   | New Life      | 5     | 1.67   |    |
-
-
-## Northwest 2U
+## Northwest Area - 2nd & Under
 
 ### Teams
 
@@ -90,7 +58,39 @@ menubar_toc_static:
 | 21 | Isaiah Mata          | Trinity Believers K-2            | Trinity Fellowship | 15    | 2.50   |    |
 
 
-## Northwest 5-6
+## North Central Area - 5th & 6th Grade
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team       | Church        | W/L | Total | Avg    |
+|--:|------------|---------------|-----|------:|-------:|
+| 1 | Buzz Hogs  | River of Life | 3/0 | 620   | 206.67 |
+| 2 | G Force    | McArthur      | 2/1 | 590   | 196.67 |
+| 3 | New Life   | New Life      | 1/2 | 195   | 65.00  |
+| 4 | God's Gang | McArthur      | 0/3 | 25    | 8.33   |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer          | Team       | Church        | Total | Avg    | QO |
+|---:|------------------|------------|---------------|------:|-------:|---:|
+| 1  | Jonathan Duggins | Buzz Hogs  | River of Life | 405   | 135.00 | 3  |
+| 2  | Angel Johnson    | G Force    | McArthur      | 270   | 90.00  | 2  |
+| 3  | Peyton Dickerson | New Life   | New Life      | 190   | 63.33  | 1  |
+| 4  | Lauryn Jackson   | Buzz Hogs  | River of Life | 165   | 55.00  | 2  |
+| 5  | Kamelia Skinner  | G Force    | McArthur      | 145   | 48.33  |    |
+| 6  | Adam Murdock     | G Force    | McArthur      | 110   | 36.67  |    |
+| 7  | Jabin Page       | Buzz Hogs  | River of Life | 50    | 16.67  |    |
+| 8  | Lakin Shaw       | G Force    | McArthur      | 45    | 15.00  |    |
+| 9  | Jacob Sollee     | God's Gang | McArthur      | 25    | 8.33   |    |
+| 10 | Madelyn Brandon  | G Force    | McArthur      | 20    | 6.67   |    |
+| 11 | Kristana Phipps  | New Life   | New Life      | 5     | 1.67   |    |
+
+
+## Northwest Area - 5th & 6th Grade
 
 ### Teams
 

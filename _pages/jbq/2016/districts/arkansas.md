@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "2016_AR_DistrictFinals"
-permalink: /jbq/?//?/?/
+title: "2016 Arkansas District Finals"
+permalink: /jbq/2016/districts/arkansas/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2016 Season
+    link: /jbq/2016/
     icon: fas fa-home
 ---
 
@@ -82,7 +82,7 @@ menubar_toc_static:
 | 26 | Andi Wilson          | Bible Avengers     | Harrison Faith AG      | -25   | -3.13  |    |
 
 
-## 3rd - 4th Grade
+## 3rd & 4th Grade
 
 ### Teams
 
@@ -158,7 +158,7 @@ menubar_toc_static:
 | 32 | Mikaela Herbert   | Bethel Bombers        | Bethel AG                | -5    | -0.56  |    |
 
 
-## 5th - 6th Grade
+## 5th & 6th Grade
 
 ### Teams
 

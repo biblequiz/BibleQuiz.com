@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "2015_Arkansas_District"
-permalink: /jbq/?//?/?/
+title: "2015 Arkansas District Finals"
+permalink: /jbq/2015/districts/arkansas/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2015 Season
+    link: /jbq/2015/
     icon: fas fa-home
 ---
 
@@ -81,7 +81,7 @@ menubar_toc_static:
 | 32       | Vianny Diaz          | The Jesus League (Bella Vista AG)      | -45   | -5.6  |    | 4  |
 
 
-## 3rd and 4th
+## 3rd and 4th Grade
 
 ### Teams
 
@@ -162,7 +162,7 @@ menubar_toc_static:
 | 42       | Riley Huskey       | Kung Fu Warriors (Benton 1st AG)         | -5    | -.5   |    |    |
 
 
-## 5th and 6th
+## 5th and 6th Grade
 
 ### Teams
 

@@ -1,21 +1,19 @@
 ---
 layout: page
-title: "2021_22_North_Carolina"
-permalink: /jbq/?//?/?/
+title: "2022 North Carolina District Finals"
+permalink: /jbq/2022/districts/north-carolina/
 date: "2022-04-11"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2022 Season
+    link: /jbq/2022/
     icon: fas fa-home
 ---
 
 
-## District Finals Exp
-
-### Teams
+## Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -28,7 +26,7 @@ menubar_toc_static:
 | 5.0 | Wilmington Warriors A (New Hanover Church) | 1 / 4 | 540   | 108 | 1  | 70% |
 | 6.0 | Askewville ( )                             | 0 / 5 | 140   | 28  |    | 73% |
 
-### Individuals
+## Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 

@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "2013_District_Qualifying"
-permalink: /jbq/?//?/?/
+title: "2013 Arkansas Districts Qualifiers"
+permalink: /jbq/2013/other/arkansas-districts-qualifying/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2013 Season
+    link: /jbq/2013/
     icon: fas fa-home
 ---
 
-## 2-U NC District Qualifying
+## North Central Area - 2nd & Under
 
 ### Teams
 
@@ -58,64 +58,7 @@ menubar_toc_static:
 | 17 | Austin King        | Change Point     | Change Point | 25    | 4.17  |    |
 | 18 | Alex Hernandez     | McArthur Team MB | McArthur AG  | 15    | 2.50  |    |
 
-
-## 3-4 NC District Qualifying
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
-
-| # | Team          | Church        | W/L | Total | Avg    |
-|--:|---------------|---------------|-----|------:|-------:|
-| 1 | Buzz Hogs     | River of Life | 2/0 | 300   | 150.00 |
-| 2 | Word Warriors | McArthur AG   | 1/1 | 295   | 147.50 |
-| 3 | Change Point  | Change Point  | 0/2 | 125   | 62.50  |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
-
-| # | Quizzer          | Team          | Church        | Total | Avg    | QO |
-|--:|------------------|---------------|---------------|------:|-------:|---:|
-| 1 | Haven Jackson    | Buzz Hogs     | River of Life | 240   | 120.00 |    |
-| 2 | Caleb Whitener   | Word Warriors | McArthur AG   | 205   | 102.50 | 2  |
-| 3 | Devin Donley     | Word Warriors | McArthur AG   | 80    | 40.00  |    |
-| 4 | Lauryn Jackson   | Buzz Hogs     | River of Life | 60    | 30.00  |    |
-| 5 | Rebecca Davis    | Change Point  | Change Point  | 50    | 25.00  |    |
-| 6 | Nicolas Brady    | Change Point  | Change Point  | 40    | 20.00  |    |
-| 7 | Nathan Brady     | Change Point  | Change Point  | 35    | 17.50  |    |
-| 8 | Kailyn Rosenbaum | Word Warriors | McArthur AG   | 20    | 10.00  |    |
-
-
-## 5-6 NC District Qualifying
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
-
-| # | Team         | Church        | W/L | Total | Avg    |
-|--:|--------------|---------------|-----|------:|-------:|
-| 1 | Buzz Hogs    | River of Life | 2/0 | 440   | 220.00 |
-| 2 | McArthur     | McArthur AG   | 1/1 | 350   | 175.00 |
-| 3 | Change Point | Change Point  | 0/2 | 150   | 75.00  |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
-
-| # | Quizzer          | Team         | Church        | Total | Avg    | QO |
-|--:|------------------|--------------|---------------|------:|-------:|---:|
-| 1 | Jared Minick     | Buzz Hogs    | River of Life | 280   | 140.00 | 2  |
-| 2 | Seth Swain       | McArthur     | McArthur AG   | 250   | 125.00 | 1  |
-| 3 | Jonathan Duggins | Buzz Hogs    | River of Life | 130   | 65.00  | 2  |
-| 4 | Collin Hines     | Change Point | Change Point  | 130   | 65.00  |    |
-| 5 | Zachary Merdock  | McArthur     | McArthur AG   | 85    | 42.50  | 1  |
-| 6 | Levi Biniakewitz | Buzz Hogs    | River of Life | 30    | 15.00  |    |
-| 7 | Ethan Rosenbaum  | McArthur     | McArthur AG   | 20    | 10.00  |    |
-| 7 | Lizzie Hankerson | Change Point | Change Point  | 20    | 10.00  |    |
-
-
-## SC 2nd & Under
+## South Central Area - 2nd & Under
 
 ### Teams
 
@@ -163,7 +106,34 @@ menubar_toc_static:
 | 19 | Bethany Jumper    | Jelly Beans        | NLR 1st      | 5     | 1.00   |    |
 
 
-## SC 3rd & 4th Grade
+## North Central Area - 3rd & 4th Grade
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team          | Church        | W/L | Total | Avg    |
+|--:|---------------|---------------|-----|------:|-------:|
+| 1 | Buzz Hogs     | River of Life | 2/0 | 300   | 150.00 |
+| 2 | Word Warriors | McArthur AG   | 1/1 | 295   | 147.50 |
+| 3 | Change Point  | Change Point  | 0/2 | 125   | 62.50  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| # | Quizzer          | Team          | Church        | Total | Avg    | QO |
+|--:|------------------|---------------|---------------|------:|-------:|---:|
+| 1 | Haven Jackson    | Buzz Hogs     | River of Life | 240   | 120.00 |    |
+| 2 | Caleb Whitener   | Word Warriors | McArthur AG   | 205   | 102.50 | 2  |
+| 3 | Devin Donley     | Word Warriors | McArthur AG   | 80    | 40.00  |    |
+| 4 | Lauryn Jackson   | Buzz Hogs     | River of Life | 60    | 30.00  |    |
+| 5 | Rebecca Davis    | Change Point  | Change Point  | 50    | 25.00  |    |
+| 6 | Nicolas Brady    | Change Point  | Change Point  | 40    | 20.00  |    |
+| 7 | Nathan Brady     | Change Point  | Change Point  | 35    | 17.50  |    |
+| 8 | Kailyn Rosenbaum | Word Warriors | McArthur AG   | 20    | 10.00  |    |
+
+## South Central Area - 3rd & 4th Grade
 
 ### Teams
 
@@ -197,7 +167,34 @@ menubar_toc_static:
 | 13 | Chalice Sanders    | The Force          | Benton First | 5     | .83    |    |
 
 
-## SC 5th & 6th Grade
+## North Central Area - 5th & 6th Grade
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team         | Church        | W/L | Total | Avg    |
+|--:|--------------|---------------|-----|------:|-------:|
+| 1 | Buzz Hogs    | River of Life | 2/0 | 440   | 220.00 |
+| 2 | McArthur     | McArthur AG   | 1/1 | 350   | 175.00 |
+| 3 | Change Point | Change Point  | 0/2 | 150   | 75.00  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| # | Quizzer          | Team         | Church        | Total | Avg    | QO |
+|--:|------------------|--------------|---------------|------:|-------:|---:|
+| 1 | Jared Minick     | Buzz Hogs    | River of Life | 280   | 140.00 | 2  |
+| 2 | Seth Swain       | McArthur     | McArthur AG   | 250   | 125.00 | 1  |
+| 3 | Jonathan Duggins | Buzz Hogs    | River of Life | 130   | 65.00  | 2  |
+| 4 | Collin Hines     | Change Point | Change Point  | 130   | 65.00  |    |
+| 5 | Zachary Merdock  | McArthur     | McArthur AG   | 85    | 42.50  | 1  |
+| 6 | Levi Biniakewitz | Buzz Hogs    | River of Life | 30    | 15.00  |    |
+| 7 | Ethan Rosenbaum  | McArthur     | McArthur AG   | 20    | 10.00  |    |
+| 7 | Lizzie Hankerson | Change Point | Change Point  | 20    | 10.00  |    |
+
+## South Central Area - 5th & 6th Grade
 
 ### Teams
 

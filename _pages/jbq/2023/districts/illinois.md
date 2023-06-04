@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "District_Finals_2023"
-permalink: /jbq/?//?/?/
+title: "2023 Illinois District Finals"
+permalink: /jbq/2023/districts/illinois/
 date: "2023-04-16"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2023 Season
+    link: /jbq/2023/
     icon: fas fa-home
 ---
 

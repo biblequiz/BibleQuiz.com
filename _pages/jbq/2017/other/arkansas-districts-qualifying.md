@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "2017_District_Qualifying"
-permalink: /jbq/?//?/?/
+title: "2017 Arkansas Districts Qualifiers"
+permalink: /jbq/2017/other/arkansas-districts-qualifying/
 date: "2019-05-14"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2017 Season
+    link: /jbq/2017/
     icon: fas fa-home
 ---
 
-## North Central 2nd & Under
+## North Central Area - 2nd & Under
 
 ### Teams
 
@@ -43,7 +43,7 @@ menubar_toc_static:
 | 5       | William Phipps  | The Ridge (The Ridge)  | -5    | -5  |    | 50%  |
 
 
-## Northwest 2nd & Under
+## Northwest Area - 2nd & Under
 
 ### Teams
 
@@ -80,7 +80,7 @@ menubar_toc_static:
 | **\*9** | Empty Chair        | Harrison Faith K-2 Green (Faith) | 0     |      |    |    |
 
 
-## South Central 2nd & Under
+## South Central Area - 2nd & Under
 
 ### Teams
 

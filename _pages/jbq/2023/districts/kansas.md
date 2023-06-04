@@ -1,20 +1,18 @@
 ---
 layout: page
-title: "2023_Kansas_District_Finals"
-permalink: /jbq/?//?/?/
+title: "2023 Kansas District Finals"
+permalink: /jbq/2023/districts/kansas/
 date: "2023-03-18"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2023 Season
+    link: /jbq/2023/
     icon: fas fa-home
 ---
 
-## 2023 B Team Finals
-
-### Teams
+## Teams
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
@@ -26,7 +24,7 @@ menubar_toc_static:
 
 *\* Tie couldn't be broken by tie breaking rules.*
 
-### Individuals
+## Individuals
 
 *Ranked by average points, then by total quiz outs, then by answer success rate.*
 

@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "GreatLakes_Regional"
-permalink: /jbq/?//regionals/?/
+title: "2016 Great Lakes Regionals"
+permalink: /jbq/2016/regionals/great-lakes/
 date: "2022-05-07"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2016 Season
+    link: /jbq/2016/
     icon: fas fa-home
 ---
 

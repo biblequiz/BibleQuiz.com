@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "2021_District_Qualifying"
-permalink: /jbq/?//?/?/
+title: "2021 Arkansas Districts Qualifiers"
+permalink: /jbq/2021/other/arkansas-districts-qualifying/
 date: "2021-03-07"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2021 Season
+    link: /jbq/2021/
     icon: fas fa-home
 ---
 
-## NC 3rd and 4th
+## North Central Area - 3rd and 4th Grade
 
 ### Teams
 

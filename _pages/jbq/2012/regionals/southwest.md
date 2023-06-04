@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "SouthWest_Regional"
-permalink: /jbq/?//regionals/?/
+title: "2012 Southwest Regionals"
+permalink: /jbq/2012/regionals/southwest/
 date: "2017-05-10"
 toc_title: Results
 menubar_toc: true
