@@ -6,8 +6,8 @@ toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /jbq/?/
+  - name: 2022 Season
+    link: /jbq/2022/
     icon: fas fa-home
 ---
 
