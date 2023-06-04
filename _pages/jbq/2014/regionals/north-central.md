@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "2014 north Central Regionals"
+title: "2014 North Central Regionals"
 permalink: /jbq/2014/regionals/north-central/
 date: "2022-05-07"
 toc_title: Results

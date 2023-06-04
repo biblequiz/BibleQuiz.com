@@ -5,7 +5,7 @@
 {% if event_count > 0 %}
 <table class="table is-striped is-narrow is-hoverable is-fullwidth">
   <thead>
-    <tr>{% if event.scope == "other" %}
+    <tr>{% if include.scope == "other" %}
       <th>&nbsp;</th>{% endif %}
       <th>Event</th>
       <th>Location</th>
@@ -14,7 +14,7 @@
   </thead>
   <tbody>
     {% for event in events %}
-    <tr>{% if event.scope == "other" %}
+    <tr>{% if include.scope == "other" %}
       <td>
         {% if event.scope == "nation" or include.scope == "nation" %}
         <span class="tag is-dark">NATIONAL</span>

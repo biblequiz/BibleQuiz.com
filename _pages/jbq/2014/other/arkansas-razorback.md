@@ -96,7 +96,7 @@ menubar_toc_static:
 
 ### Division 2 (PM)
 
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
 
@@ -106,7 +106,7 @@ menubar_toc_static:
 | 2 | McArthur Magic   | McArthur              | 1/1 | 285   | 142.50 |
 | 3 | Kung Fu Quizzers | Benton First Assembly | 0/2 | 160   | 80.00  |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 

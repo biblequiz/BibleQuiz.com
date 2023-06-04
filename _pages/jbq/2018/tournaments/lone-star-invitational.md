@@ -12,9 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## 2018-LoneStar-Invitational
-
-### Teams
+## Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -33,7 +31,7 @@ menubar_toc_static:
 | 11.0 | H.I.S Quiz Kids (Trinity Church)                          | 2 / 9  | 950   | 86.4  | 2  | 68% |
 | 12.0 | Keepers of the Command (First @ Firewheel)                | 1 / 10 | 865   | 78.6  | 1  | 61% |
 
-### Individuals
+## Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 

@@ -12,9 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## LoneStar-Invitational_2019
-
-### Teams
+## Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -31,7 +29,7 @@ menubar_toc_static:
 | 9.1  | Bible Buzzin' Bros (Trinity Church of the AG)           | 2 / 16 | 1495  | 83.1  | 2  | 66% |
 | 10.0 | Bible Quizzers (The Oaks Fellowship)                    | 2 / 16 | 1455  | 80.8  | 2  | 85% |
 
-### Individuals
+## Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 

@@ -12,7 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## AA Division - WINM District Finals 2023
+## AA Division
 
 ### Teams
 
@@ -55,7 +55,7 @@ menubar_toc_static:
 *\* Tie couldn't be broken by tie breaking rules.*
 
 
-## AAA Division - WINM District Finals 2023
+## AAA Division
 
 ### Teams
 
