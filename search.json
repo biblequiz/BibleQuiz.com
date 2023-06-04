@@ -8,6 +8,14 @@
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "category" : "{{ post.categories | join: ', '}}",
       "date"     : "{{ post.date | date: "%B %e, %Y" }}"
-    } {% unless forloop.last %},{% endunless %}
+    },
+  {% endfor %}
+  {% for page in site.pages %}{% if page.title and page.title != "" and page.title != "Blog" and page.title != "Search" and page.url != "/admin/" %}{% assign title = page.title | escape %}{% else %}{% continue %}{%endif%}
+    {% unless forloop.first %},{% endunless %}
+    {
+      "title"    : "{{ title }}",
+      "url"      : "{{ site.baseurl }}{{ page.url }}"{% if page.date %},
+      "date"     : "{{ page.date | date: "%B %e, %Y" }}"{% endif %}
+    }
   {% endfor %}
 ]
