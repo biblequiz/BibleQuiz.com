@@ -3,7 +3,6 @@ layout: page
 title: "2021 North Texas District Finals"
 permalink: /jbq/2021/districts/north-texas/
 date: "2021-03-27"
-dates: Mar 13 & 27, 2021
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

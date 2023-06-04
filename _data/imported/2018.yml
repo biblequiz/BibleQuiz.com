@@ -1,4 +1,41 @@
 jbq:
+  regionFinals:
+  - name: "2018 Great Lakes Regionals"
+    scope: region
+    scopeLabel: Great Lakes
+    scoresLink: /jbq/2018/regionals/great-lakes/
+  - name: "2018 North Central Regionals"
+    scope: region
+    scopeLabel: North Central
+    scoresLink: /jbq/2018/regionals/north-central/
+  - name: "2018 South Central Regionals"
+    scope: region
+    scopeLabel: South Central
+    scoresLink: /jbq/2018/regionals/south-central/
+  districtFinals:
+  - name: "2018 Arkansas District Finals"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2018/districts/arkansas/
+  - name: "2018 North Texas District Finals"
+    scope: district
+    scopeLabel: North Texas
+    scoresLink: /jbq/2018/districts/north-texas/
+  - name: "2018 Oklahoma District Finals"
+    scope: district
+    scopeLabel: Oklahoma
+    scoresLink: /jbq/2018/districts/oklahoma/
+    dates: Feb 24, 2018
+  - name: "2018 Peninsular-Florida District Finals"
+    scope: district
+    scopeLabel: Peninsular-Florida
+    scoresLink: /jbq/2018/districts/peninsular-florida/
+    dates: Mar 5, 2018
+  - name: "2018 Southern Missouri District Finals"
+    scope: district
+    scopeLabel: Southern Missouri
+    scoresLink: /jbq/2018/districts/southern-missouri/
+    dates: Mar 18, 2018
   tournament:
   - name: "The Iron"
     scope: tournament
@@ -22,6 +59,19 @@ jbq:
     locationCity: Red Oak, TX
     dates: Jan 26 - 27, 2018
     scoresLink: /jbq/2018/tournaments/lone-star-invitational/
+  other:
+  - name: "Arkansas Districts Qualifiers"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2018/other/arkansas-districts-qualifying/
+  - name: "Big Buck Memorial"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2018/other/arkansas-big-buck-memorial/
+  - name: "Razorback"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2018/other/arkansas-razorback/
 tbq:
   tournament:
   - name: West Coast Classic

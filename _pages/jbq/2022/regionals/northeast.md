@@ -2,7 +2,6 @@
 layout: page
 title: "2022 Northeast Regionals"
 permalink: /jbq/2022/regionals/northeast/
-date: "2017-05-10"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

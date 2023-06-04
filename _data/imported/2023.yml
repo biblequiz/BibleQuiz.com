@@ -1,4 +1,43 @@
 jbq:
+  districtFinals:
+  - name: "2023 Arkansas District Finals"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2023/districts/arkansas/
+    dates: Apr 2, 2023
+  - name: "2023 Illinois District Finals"
+    scoresLink: /jbq/2023/districts/illinois/
+    dates: Apr 16, 2023
+  - name: "2023 Kansas District Finals"
+    scope: district
+    scopeLabel: Kansas
+    scoresLink: /jbq/2023/districts/kansas/
+    dates: Apr 18, 2023
+  - name: "2023 North Texas District Finals"
+    scope: district
+    scopeLabel: North Texas
+    scoresLink: /jbq/2023/districts/north-texas/
+    dates: Mar 4 & 25, 2023
+  - name: "2023 Oklahoma District Finals"
+    scope: district
+    scopeLabel: Oklahoma
+    scoresLink: /jbq/2023/districts/oklahoma/
+    dates: Feb 25, 2023
+  - name: "2023 Peninsular-Florida District Finals"
+    scope: district
+    scopeLabel: Peninsular-Florida
+    scoresLink: /jbq/2023/districts/peninsular-florida/
+    dates: Apr 2, 2023
+  - name: "2023 Tennessee District Finals"
+    scope: district
+    scopeLabel: Tennessee
+    scoresLink: /jbq/2023/districts/tennessee/
+    dates: Mar 25, 2023
+  - name: "2023 Wisconsin / Northern Missouri"
+    scope: district
+    scopeLabel: Wisconsin / Northern Missouri
+    scoresLink: /jbq/2023/districts/wisconsin-northern-missouri/
+    dates: Mar 25, 2023
   tournament:
   - name: John Crabtree
     scope: tournament
@@ -10,6 +49,12 @@ jbq:
     scope: tournament
     dates: Dec 3, 2022
     scoresLink: /jbq/2023/tournaments/snow-bowl/
+  other:
+  - name: "Arkansas Districts Qualifiers"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2023/other/arkansas-districts-qualifying/
+    dates: Mar 4, 2023
 tbq:
   tournament:
   - name: Windy City Classic

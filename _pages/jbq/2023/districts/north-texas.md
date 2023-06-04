@@ -3,7 +3,6 @@ layout: page
 title: "2023 North Texas District Finals"
 permalink: /jbq/2023/districts/north-texas/
 date: "2023-03-25"
-dates: Mar 4 & 25, 2023
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
