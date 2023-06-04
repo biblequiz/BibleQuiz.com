@@ -1,4 +1,48 @@
 jbq:
+  regionFinals:
+  - name: "2021 Great Lakes Regionals"
+    scope: region
+    scopeLabel: Great Lakes
+    scoresLink: /jbq/2021/regionals/great-lakes/
+  - name: "2021 North Central Regionals"
+    scope: region
+    scopeLabel: North Central
+    scoresLink: /jbq/2021/regionals/north-central/
+  - name: "2021 South Central Regionals"
+    scope: region
+    scopeLabel: South Central
+    scoresLink: /jbq/2021/regionals/south-central/
+  districtFinals:
+  - name: "2021 Arkansas District Finals"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2021/districts/arkansas/
+    dates: Apr 10, 2021
+  - name: "2021 North Carolina District Finals"
+    scope: district
+    scopeLabel: North Carolina
+    scoresLink: /jbq/2021/districts/north-carolina/
+    dates: Apr 10, 2021
+  - name: "2021 North Texas District Finals"
+    scope: district
+    scopeLabel: North Texas
+    scoresLink: /jbq/2021/districts/north-texas/
+    dates: Mar 13 & 27, 2021
+  - name: "2021 Oklahoma District Finals"
+    scope: district
+    scopeLabel: Oklahoma
+    scoresLink: /jbq/2021/districts/oklahoma/
+    dates: Feb 27, 2021
+  - name: "2021 Peninsular-Florida District Finals"
+    scope: district
+    scopeLabel: Peninsular-Florida
+    scoresLink: /jbq/2021/districts/peninsular-florida/
+    dates: Mar 14, 2021
+  - name: "2021 Pennsylvania-Delaware District Finals"
+    scope: district
+    scopeLabel: Pennsylvania-Delaware
+    scoresLink: /jbq/2021/districts/pennsylvania-delaware/
+    dates: Feb 6, 2021
   tournament:
   - name: Carolina Classic
     scope: tournament
@@ -10,6 +54,16 @@ jbq:
     scope: tournament
     dates: Dec 5, 2020
     scoresLink: /jbq/2021/tournaments/snow-bowl/
+  other:
+  - name: "Arkansas Districts Qualifiers"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2021/other/arkansas-districts-qualifying/
+    dates: Mar 7, 2021
+  - name: "North Carolina Semi Finals"
+    scope: district
+    scopeLabel: North Carolina
+    scoresLink: /jbq/2021/other/north-carolina-semi-finals/
 tbq:
   tournament:
   - name: "Windy City Classic"

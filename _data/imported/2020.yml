@@ -1,4 +1,25 @@
 jbq:
+  districtFinals:
+  - name: "2020 North Texas District Finals"
+    scope: district
+    scopeLabel: North Texas
+    scoresLink: /jbq/2020/districts/north-texas/
+    dates: Mar 7, 2020
+  - name: "2020 Oklahoma District Finals"
+    scope: district
+    scopeLabel: Oklahoma
+    scoresLink: /jbq/2020/districts/oklahoma/
+    dates: Feb 29, 2020
+  - name: "2020 Peninsular-Florida District Finals"
+    scope: district
+    scopeLabel: Peninsular-Florida
+    scoresLink: /jbq/2020/districts/peninsular-florida/
+    dates: Mar 7, 2020
+  - name: "2020 Pennsylvania-Delaware District Finals"
+    scope: district
+    scopeLabel: Pennsylvania-Delaware
+    scoresLink: /jbq/2020/districts/pennsylvania-delaware/
+    dates: Feb 1, 2020
   tournament:
   - name: John Crabtree
     scope: tournament
@@ -6,10 +27,22 @@ jbq:
     locationCity: Normal, IL
     dates: Feb 28 - 29, 2020
     scoresLink: /jbq/2020/tournaments/john-crabtree/
+  - name: Lone Star Invitational
+    scope: tournament
+    locationName: The Oaks Fellowship
+    locationCity: Red Oak, TX
+    dates: Jan 24 - 25, 2020
+    scoresLink: /jbq/2020/tournaments/lone-star-invitational/
   - name: "Snow Bowl"
     scope: tournament
     dates: Dec 7, 2019
     scoresLink: /jbq/2020/tournaments/snow-bowl/
+  other:
+  - name: "Arkansas Districts Qualifiers"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2020/other/arkansas-districts-qualifying/
+    dates: Mar 7, 2020
 tbq:
   tournament:
   - name: "Windy City Classic"

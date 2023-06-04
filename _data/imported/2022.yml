@@ -1,4 +1,64 @@
 jbq:
+  regionFinals:
+  - name: "2022 Great Lakes Regionals"
+    scope: region
+    scopeLabel: Great Lakes
+    scoresLink: /jbq/2022/regionals/great-lakes/
+    dates: May 7, 2022
+  - name: "2022 North Central Regionals"
+    scope: region
+    scopeLabel: North Central
+    scoresLink: /jbq/2022/regionals/north-central/
+    dates: May 7, 2022
+  - name: "2022 Northeast Regionals"
+    scope: region
+    scopeLabel: Northeast
+    scoresLink: /jbq/2022/regionals/northeast/
+  - name: "2022 Northwest Regionals"
+    scope: region
+    scopeLabel: Northwest
+    scoresLink: /jbq/2022/regionals/northwest/
+    dates: Apr 30, 2022
+  - name: "2022 South Central Regionals"
+    scope: region
+    scopeLabel: South Central
+    scoresLink: /jbq/2022/regionals/south-central/
+    dates: Apr 23, 2022
+  districtFinals:
+  - name: "2022 Arkansas District Finals"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2022/districts/arkansas/
+    dates: Apr 2, 2022
+  - name: "2022 Illinois District Finals"
+    scope: district
+    scopeLabel: Illinois
+    scoresLink: /jbq/2022/districts/illinois/
+    dates: Apr 15, 2022
+  - name: "2022 Kansas District Finals"
+    scope: district
+    scopeLabel: Kansas
+    scoresLink: /jbq/2022/districts/kansas/
+    dates: Mar 19, 2022
+  - name: "2022 North Carolina District Finals"
+    scope: district
+    scopeLabel: North Carolina
+    scoresLink: /jbq/2022/districts/north-carolina/
+    dates: Apr 11, 2022
+  - name: "2022 North Texas District Finals"
+    scope: district
+    scopeLabel: North Texas
+    scoresLink: /jbq/2022/districts/north-texas/
+    dates: Mar 26, 2022
+  - name: "2022 Oklahoma District Finals"
+    scope: district
+    scopeLabel: Oklahoma
+    scoresLink: /jbq/2022/districts/oklahoma/
+    dates: Feb 26, 2022
+  - name: "2022 Peninsular-Florida District Finals"
+    scope: district
+    scopeLabel: Peninsular-Florida
+    scoresLink: /jbq/2022/districts/peninsular-florida/
   tournament:
   - name: John Crabtree
     scope: tournament
@@ -10,6 +70,17 @@ jbq:
     scope: tournament
     dates: Dec 5, 2021
     scoresLink: /jbq/2022/tournaments/snow-bowl/
+  other:
+  - name: "Arkansas Districts Qualifiers"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2022/other/arkansas-districts-qualifying/
+    dates: Mar 5, 2022
+  - name: "North Carolina Semi Finals"
+    scope: district
+    scopeLabel: North Carolina
+    scoresLink: /jbq/2022/other/north-carolina-semi-finals/
+    dates: Apr 11, 2022
 tbq:
   tournament:
   - name: "Bible Quiz TV"

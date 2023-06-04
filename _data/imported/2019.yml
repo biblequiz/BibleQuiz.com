@@ -1,4 +1,42 @@
 jbq:
+  regionFinals:
+  - name: "2019 Great Lakes Regionals"
+    scope: region
+    scopeLabel: Great Lakes
+    scoresLink: /jbq/2019/regionals/great-lakes/
+  - name: "2019 North Central Regionals"
+    scope: region
+    scopeLabel: North Central
+    scoresLink: /jbq/2019/regionals/north-central/
+  - name: "2019 South Central Regionals"
+    scope: region
+    scopeLabel: South Central
+    scoresLink: /jbq/2019/regionals/south-central/
+  districtFinals:
+  - name: "2019 Arkansas District Finals"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2019/districts/arkansas/
+    dates: May 14, 2019
+  - name: "2019 Kansas District Finals"
+    scope: district
+    scopeLabel: Kansas
+    scoresLink: /jbq/2019/districts/kansas/
+    dates: Mar 3, 2019
+  - name: "2019 North Texas District Finals"
+    scope: district
+    scopeLabel: North Texas
+    scoresLink: /jbq/2019/districts/north-texas/
+  - name: "2019 Peninsular-Florida District Finals"
+    scope: district
+    scopeLabel: Peninsular-Florida
+    scoresLink: /jbq/2019/districts/peninsular-florida/
+    dates: Mar 4, 2019
+  - name: "2019 Southern Missouri District Finals"
+    scope: district
+    scopeLabel: Southern Missouri
+    scoresLink: /jbq/2019/districts/southern-missouri/
+    dates: Mar 16, 2019
   tournament:
   - name: John Crabtree
     scope: tournament
@@ -12,10 +50,30 @@ jbq:
     locationCity: Greensboro, NC
     dates: Feb 16, 2019
     scoresLink: /jbq/2019/tournaments/carolina-classic/
+  - name: Lone Star Invitational
+    scope: tournament
+    locationName: The Oaks Fellowship
+    locationCity: Red Oak, TX
+    dates: Jan 25 - 26, 2019
+    scoresLink: /jbq/2019/tournaments/lone-star-invitational/
   - name: "Snow Bowl"
     scope: tournament
     dates: Dec 5, 2018
     scoresLink: /jbq/2019/tournaments/snow-bowl/
+  other:
+  - name: "Arkansas Districts Qualifiers"
+    scope: district
+    scopeLabel: Arkansas
+    scoresLink: /jbq/2019/other/arkansas-districts-qualifying/
+    dates: May 14, 2019
+  - name: "Fire on the Hill PeeWee Tournament"
+    scope: district
+    scopeLabel: North Texas
+    scoresLink: /jbq/2019/other/north-texas-fire-on-the-hill-peewee/
+  - name: "Lil' Lambs PeeWee"
+    scope: district
+    scopeLabel: North Texas
+    scoresLink: /jbq/2019/other/north-texas-lil-lambs-peewee/
 tbq:
   tournament:
   - name: "Windy City Classic"
