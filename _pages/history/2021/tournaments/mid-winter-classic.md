@@ -30,7 +30,9 @@ menubar_toc_static:
 |   10 | Sioux Falls, SD - Donkey Madness       | 0 / 9    |   -50 |
 
 \* Springfield defeated Burien.
+
 \*\* Portage defeated both Sparta and Germantown. Sparta defeated Germantown.
+
 \*\*\* Marinette defeated Rapid City.
 
 ### Individuals

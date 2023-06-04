@@ -10,10 +10,17 @@ menubar: menu_jbq
 <a href="{% link _pages/jbq/2011/nationals.md %}" class="button is-primary">National Finals</a>
 
 ## Tournaments
-If you have results, please email <hello@biblequiz.com>.
 
-## District Finals
-If you have results, please email <hello@biblequiz.com>.
+{% include events-season.html type="jbq" year="2011" scope="tournament" source="imported" %}
 
 ## Regional Finals
-If you have results, please email <hello@biblequiz.com>.
+
+{% include events-season.html type="jbq" year="2011" scope="regionFinals" source="imported" %}
+
+## District Finals
+
+{% include events-season.html type="jbq" year="2011" scope="districtFinals" source="imported" %}
+
+## Other Competitions
+
+{% include events-season.html type="jbq" year="2011" scope="other" source="imported" %}

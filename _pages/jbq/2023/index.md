@@ -8,7 +8,7 @@ menubar: menu_jbq
 
 ## Tournaments
 
-{% include events-season.html type="jbq" year="2023" scope="tournament" %}
+{% include events-season.html type="jbq" year="2023" scope="tournament" source="imported" %}
 
 ## Regional Finals
 
@@ -16,8 +16,8 @@ menubar: menu_jbq
 
 ## District Finals
 
-{% include events-season.html type="jbq" year="2023" scope="districtFinals" %}
+{% include events-season.html type="jbq" year="2023" scope="districtFinals" source="imported" %}
 
 ## Other Competitions
 
-{% include events-season.html type="jbq" year="2023" scope="other" %}
+{% include events-season.html type="jbq" year="2023" scope="other" source="imported" %}
