@@ -78,7 +78,7 @@ menubar_toc_static:
 
 ### Teams
 
-* Ties broken by points... *
+*Ties broken by points...*
 
 | #   | Team / Church                                          | W/L   | Total | Avg   | QO | Q%  |
 |----:|--------------------------------------------------------|-------|------:|------:|---:|----:|

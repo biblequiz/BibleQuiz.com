@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /history/2019/tournaments/friendship-classic/
 title: "2019 Friendship Classic"
+permalink: /history/2019/tournaments/friendship-classic/
 date: "2019-01-26"
 toc_title: Results
 menubar_toc: true
@@ -12,9 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## Champion
-
-### Teams
+## Teams
 
 | #    | Team / Church                          | W / L  |   Total   |   AVG   | QO | Q%  | 30s | 20s | 10s |
 |------|----------------------------------------|--------|-----------|---------|----|-----|-----|-----|-----|
@@ -41,7 +39,7 @@ menubar_toc_static:
 
 *Team Placement Reflects Changes Due to Playoffs...*
 
-### Individuals
+## Individuals
 
 | #   | Quizzer              | Team / Church                          |   Total   |   AVG   | QO | Q%   | 30s | 20s | 10s |
 |-----|----------------------|----------------------------------------|-----------|---------|----|------|-----|-----|-----|

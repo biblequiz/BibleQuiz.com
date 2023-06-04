@@ -16,8 +16,6 @@ menubar_toc_static:
 
 ### Teams
 
-* Team Placement *
-
 | #    | Team / Church                           | W/L   | Total | Avg   | QO | Q%  |
 |-----:|-----------------------------------------|-------|------:|------:|---:|----:|
 | 1.0  | Calvary Church \[Beth\] (Greensboro-NC) | 8 / 1 | 2095  | 232.8 | 16 | 81% |
@@ -74,8 +72,6 @@ menubar_toc_static:
 ## A-League Gold
 
 ### Teams
-
-* Team Placement *
 
 | #    | Team / Church                            | W/L    | Total | Avg   | QO | Q%  |
 |-----:|------------------------------------------|--------|------:|------:|---:|----:|
@@ -179,8 +175,6 @@ menubar_toc_static:
 ## MS Purple
 
 ### Teams
-
-* Team Placement *
 
 | #   | Team / Church                           | W/L   | Total | Avg   | QO | Q%  |
 |----:|-----------------------------------------|-------|------:|------:|---:|----:|

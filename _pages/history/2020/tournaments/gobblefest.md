@@ -12,6 +12,66 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
+## A Gold
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #    | Team / Church                                                                          | W/L   | Total | Avg   | QO | Q%  |
+|-----:|----------------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.1  | G Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church)                           | 9 / 1 | 2320  | 232   | 17 | 79% |
+| 2.0  | G Central Assembly of God (Houston) David (Central Assembly of God)                    | 9 / 1 | 1985  | 198.5 | 18 | 89% |
+| 3.0  | G Redeemer Church (Utica) (Brian) (Redeemer Church)                                    | 7 / 3 | 1925  | 192.5 | 15 | 80% |
+| 4.0  | G Calvary Church Church (Greensboro, NC) (Calvary Church Assemblies of God Fellowship) | 6 / 4 | 1845  | 184.5 | 13 | 78% |
+| 5.1  | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 5 / 5 | 1195  | 119.5 | 9  | 66% |
+| 6.0  | G Calvary Temple (Wayne) #1 (Calvary Temple)                                           | 5 / 5 | 1390  | 139   | 9  | 85% |
+| 7.1  | G Webster Assembly of God (Assembly of God)                                            | 4 / 6 | 805   | 80.5  | 6  | 64% |
+| 8.0  | G Wanted First Assembly of God Waynesburg, PA (First Assembly of God)                  | 4 / 6 | 1170  | 117   | 5  | 83% |
+| 9.0  | G Praise Assembly (Garfield) (Praise Assembly)                                         | 2 / 8 | 1000  | 100   | 8  | 72% |
+| 10.0 | G First Assembly of God (Louisville) #1 (First Assembly of God)                        | 2 / 8 | 795   | 79.5  | 3  | 70% |
+| 11.0 | G Eggo A Me (Kinport Assembly of God)                                                  | 2 / 8 | 685   | 68.5  | 3  | 70% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer            | Team / Church                                                                          | Total | Avg   | QO | Q%   |
+|---------:|--------------------|----------------------------------------------------------------------------------------|------:|------:|---:|-----:|
+| 1        | Seth Robertson     | G Central Assembly of God (Houston) David (Central Assembly of God)                    | 1255  | 125.5 | 10 | 93%  |
+| 2        | Rachel Brookbank   | G Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church)                           | 1180  | 118   | 8  | 84%  |
+| 3        | Julia Martello     | G Calvary Church Church (Greensboro, NC) (Calvary Church Assemblies of God Fellowship) | 1170  | 117   | 8  | 80%  |
+| 4        | Daniel Gerges      | G Calvary Temple (Wayne) #1 (Calvary Temple)                                           | 960   | 96    | 7  | 86%  |
+| 5        | Glory Stevens      | G Redeemer Church (Utica) (Brian) (Redeemer Church)                                    | 895   | 89.5  | 7  | 80%  |
+| 6        | Aaron Hoffmann     | G Redeemer Church (Utica) (Brian) (Redeemer Church)                                    | 870   | 87    | 8  | 85%  |
+| 7        | Ryan Schiebel      | G Praise Assembly (Garfield) (Praise Assembly)                                         | 860   | 86    | 7  | 74%  |
+| 8        | Logan Webb         | G Central Assembly of God (Houston) David (Central Assembly of God)                    | 730   | 73    | 8  | 85%  |
+| 9        | Sarah Wong         | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 725   | 72.5  | 6  | 73%  |
+| 10       | Josiah Brookbank   | G Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church)                           | 700   | 70    | 6  | 75%  |
+| 11       | Leah Miller        | G Wanted First Assembly of God Waynesburg, PA (First Assembly of God)                  | 585   | 58.5  | 2  | 87%  |
+| 12       | Savannah Robinson  | G Calvary Church Church (Greensboro, NC) (Calvary Church Assemblies of God Fellowship) | 545   | 54.5  | 5  | 74%  |
+| **\*12** | Nick Odle          | G Webster Assembly of God (Assembly of God)                                            | 545   | 54.5  | 5  | 64%  |
+| 13       | Bekah Gross        | G First Assembly of God (Louisville) #1 (First Assembly of God)                        | 520   | 52    | 1  | 91%  |
+| 14       | Gabby Acor         | G Wanted First Assembly of God Waynesburg, PA (First Assembly of God)                  | 495   | 49.5  | 3  | 82%  |
+| 15       | Haddie Brookbank   | G Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church)                           | 445   | 44.5  | 3  | 77%  |
+| 16       | Chineme Oriaku     | G Calvary Temple (Wayne) #1 (Calvary Temple)                                           | 420   | 42    | 2  | 89%  |
+| 17       | Rochelle Sherry    | G Eggo A Me (Kinport Assembly of God)                                                  | 345   | 34.5  | 1  | 87%  |
+| 18       | Micah Sherry       | G Eggo A Me (Kinport Assembly of God)                                                  | 280   | 28    | 2  | 60%  |
+| **\*18** | Caleb Cullins      | G First Assembly of God (Louisville) #1 (First Assembly of God)                        | 280   | 28    | 2  | 58%  |
+| 19       | Jonathon Seeburger | G Webster Assembly of God (Assembly of God)                                            | 260   | 26    | 1  | 64%  |
+| 20       | Molly Pellegrino   | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 205   | 20.5  | 2  | 56%  |
+| 21       | Daniel Han         | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 205   | 20.5  | 1  | 64%  |
+| 22       | Noah Alguire       | G Redeemer Church (Utica) (Brian) (Redeemer Church)                                    | 160   | 16    |    | 70%  |
+| 23       | Victoria Villegas  | G Praise Assembly (Garfield) (Praise Assembly)                                         | 150   | 15    | 1  | 68%  |
+| 24       | Matthew Baloga     | G Calvary Church Church (Greensboro, NC) (Calvary Church Assemblies of God Fellowship) | 110   | 11    |    | 100% |
+| 25       | Eliza Baily        | G Wanted First Assembly of God Waynesburg, PA (First Assembly of God)                  | 90    | 9     |    | 71%  |
+| 26       | Cheyene Puckett    | G Eggo A Me (Kinport Assembly of God)                                                  | 60    | 6     |    | 70%  |
+| 27       | Katie Pellegrino   | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 45    | 4.5   |    | 80%  |
+| 28       | Madison Wetzel     | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 20    | 2     |    | 99%  |
+| **\*28** | Andy McCollum      | G Calvary Church Church (Greensboro, NC) (Calvary Church Assemblies of God Fellowship) | 20    | 2     |    | 66%  |
+| 29       | Caleb Cook         | G Calvary Temple (Wayne) #1 (Calvary Temple)                                           | 10    | 1     |    | 50%  |
+| 30       | Joel Botros        | G Calvary Temple (Wayne) #1 (Calvary Temple)                                           | 0     |       |    |      |
+
 ## A Blue
 
 ### Teams
@@ -76,67 +136,6 @@ menubar_toc_static:
 | 32       | Natalie Kitcher   | B Word of Life Assembly of God (Springfield) #1 (Word of Life Assembly of God)       | -5    | -.5   |    |     |
 | **\*32** | Mariah Bingham    | B Living Hope Worship Center (Swedesboro) (Living Hope Worship Center)               | -5    | -.5   |    |     |
 | 33       | Jeffrey Bradley   | B New Day Assembly of God (Upper Saint Clair) (New Day Assembly of God)              | -15   | -1.5  |    |     |
-
-
-## A Gold
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points*
-
-| #    | Team / Church                                                                          | W/L   | Total | Avg   | QO | Q%  |
-|-----:|----------------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
-| 1.1  | G Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church)                           | 9 / 1 | 2320  | 232   | 17 | 79% |
-| 2.0  | G Central Assembly of God (Houston) David (Central Assembly of God)                    | 9 / 1 | 1985  | 198.5 | 18 | 89% |
-| 3.0  | G Redeemer Church (Utica) (Brian) (Redeemer Church)                                    | 7 / 3 | 1925  | 192.5 | 15 | 80% |
-| 4.0  | G Calvary Church Church (Greensboro, NC) (Calvary Church Assemblies of God Fellowship) | 6 / 4 | 1845  | 184.5 | 13 | 78% |
-| 5.1  | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 5 / 5 | 1195  | 119.5 | 9  | 66% |
-| 6.0  | G Calvary Temple (Wayne) #1 (Calvary Temple)                                           | 5 / 5 | 1390  | 139   | 9  | 85% |
-| 7.1  | G Webster Assembly of God (Assembly of God)                                            | 4 / 6 | 805   | 80.5  | 6  | 64% |
-| 8.0  | G Wanted First Assembly of God Waynesburg, PA (First Assembly of God)                  | 4 / 6 | 1170  | 117   | 5  | 83% |
-| 9.0  | G Praise Assembly (Garfield) (Praise Assembly)                                         | 2 / 8 | 1000  | 100   | 8  | 72% |
-| 10.0 | G First Assembly of God (Louisville) #1 (First Assembly of God)                        | 2 / 8 | 795   | 79.5  | 3  | 70% |
-| 11.0 | G Eggo A Me (Kinport Assembly of God)                                                  | 2 / 8 | 685   | 68.5  | 3  | 70% |
-
-### Individuals
-
-*Ties broken by Average Points then Total Quiz Outs*
-
-| #        | Quizzer            | Team / Church                                                                          | Total | Avg   | QO | Q%   |
-|---------:|--------------------|----------------------------------------------------------------------------------------|------:|------:|---:|-----:|
-| 1        | Seth Robertson     | G Central Assembly of God (Houston) David (Central Assembly of God)                    | 1255  | 125.5 | 10 | 93%  |
-| 2        | Rachel Brookbank   | G Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church)                           | 1180  | 118   | 8  | 84%  |
-| 3        | Julia Martello     | G Calvary Church Church (Greensboro, NC) (Calvary Church Assemblies of God Fellowship) | 1170  | 117   | 8  | 80%  |
-| 4        | Daniel Gerges      | G Calvary Temple (Wayne) #1 (Calvary Temple)                                           | 960   | 96    | 7  | 86%  |
-| 5        | Glory Stevens      | G Redeemer Church (Utica) (Brian) (Redeemer Church)                                    | 895   | 89.5  | 7  | 80%  |
-| 6        | Aaron Hoffmann     | G Redeemer Church (Utica) (Brian) (Redeemer Church)                                    | 870   | 87    | 8  | 85%  |
-| 7        | Ryan Schiebel      | G Praise Assembly (Garfield) (Praise Assembly)                                         | 860   | 86    | 7  | 74%  |
-| 8        | Logan Webb         | G Central Assembly of God (Houston) David (Central Assembly of God)                    | 730   | 73    | 8  | 85%  |
-| 9        | Sarah Wong         | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 725   | 72.5  | 6  | 73%  |
-| 10       | Josiah Brookbank   | G Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church)                           | 700   | 70    | 6  | 75%  |
-| 11       | Leah Miller        | G Wanted First Assembly of God Waynesburg, PA (First Assembly of God)                  | 585   | 58.5  | 2  | 87%  |
-| 12       | Savannah Robinson  | G Calvary Church Church (Greensboro, NC) (Calvary Church Assemblies of God Fellowship) | 545   | 54.5  | 5  | 74%  |
-| **\*12** | Nick Odle          | G Webster Assembly of God (Assembly of God)                                            | 545   | 54.5  | 5  | 64%  |
-| 13       | Bekah Gross        | G First Assembly of God (Louisville) #1 (First Assembly of God)                        | 520   | 52    | 1  | 91%  |
-| 14       | Gabby Acor         | G Wanted First Assembly of God Waynesburg, PA (First Assembly of God)                  | 495   | 49.5  | 3  | 82%  |
-| 15       | Haddie Brookbank   | G Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church)                           | 445   | 44.5  | 3  | 77%  |
-| 16       | Chineme Oriaku     | G Calvary Temple (Wayne) #1 (Calvary Temple)                                           | 420   | 42    | 2  | 89%  |
-| 17       | Rochelle Sherry    | G Eggo A Me (Kinport Assembly of God)                                                  | 345   | 34.5  | 1  | 87%  |
-| 18       | Micah Sherry       | G Eggo A Me (Kinport Assembly of God)                                                  | 280   | 28    | 2  | 60%  |
-| **\*18** | Caleb Cullins      | G First Assembly of God (Louisville) #1 (First Assembly of God)                        | 280   | 28    | 2  | 58%  |
-| 19       | Jonathon Seeburger | G Webster Assembly of God (Assembly of God)                                            | 260   | 26    | 1  | 64%  |
-| 20       | Molly Pellegrino   | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 205   | 20.5  | 2  | 56%  |
-| 21       | Daniel Han         | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 205   | 20.5  | 1  | 64%  |
-| 22       | Noah Alguire       | G Redeemer Church (Utica) (Brian) (Redeemer Church)                                    | 160   | 16    |    | 70%  |
-| 23       | Victoria Villegas  | G Praise Assembly (Garfield) (Praise Assembly)                                         | 150   | 15    | 1  | 68%  |
-| 24       | Matthew Baloga     | G Calvary Church Church (Greensboro, NC) (Calvary Church Assemblies of God Fellowship) | 110   | 11    |    | 100% |
-| 25       | Eliza Baily        | G Wanted First Assembly of God Waynesburg, PA (First Assembly of God)                  | 90    | 9     |    | 71%  |
-| 26       | Cheyene Puckett    | G Eggo A Me (Kinport Assembly of God)                                                  | 60    | 6     |    | 70%  |
-| 27       | Katie Pellegrino   | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 45    | 4.5   |    | 80%  |
-| 28       | Madison Wetzel     | G Dix Hills Evangelical Free Church (Huntington (Dix Hills Evangelical Free Church)    | 20    | 2     |    | 99%  |
-| **\*28** | Andy McCollum      | G Calvary Church Church (Greensboro, NC) (Calvary Church Assemblies of God Fellowship) | 20    | 2     |    | 66%  |
-| 29       | Caleb Cook         | G Calvary Temple (Wayne) #1 (Calvary Temple)                                           | 10    | 1     |    | 50%  |
-| 30       | Joel Botros        | G Calvary Temple (Wayne) #1 (Calvary Temple)                                           | 0     |       |    |      |
 
 
 ## MS/B Purple
