@@ -21,7 +21,7 @@ date: "2023-05-27"
         <a href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.android.apk" class="button is-primary">
             <i class="fab fa-android"></i>&nbsp;Android&nbsp;<span class="tag is-danger"><i>BETA</i></span>
         </a>
-        <div class="content">
+        <div class="content" style="margin-top:30px">
             {% include youtube.html video="u1jXAshiqwA" %}
             {% include youtube.html video="-a2tAOe0DPk" %}
             {% include youtube.html video="h4KwA00jp80" %}
@@ -39,7 +39,7 @@ date: "2023-05-27"
         <a href="ms-windows-store://pdp/?productid=9NNMH0HV2274" class="button is-primary">
             <i class="fab fa-windows"></i>&nbsp;Windows Store
         </a>
-        <div class="content">
+        <div class="content" style="margin-top:30px">
             {% include youtube.html video="0ZEeuvC8u94" %}
             {% include youtube.html video="AYCpEWIOYgA" %}
             {% include youtube.html video="pUMtN9z8CPQ" %}
