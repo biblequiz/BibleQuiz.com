@@ -21,6 +21,11 @@ date: "2023-05-27"
         <a href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.android.apk" class="button is-primary">
             <i class="fab fa-android"></i>&nbsp;Android&nbsp;<span class="tag is-danger"><i>BETA</i></span>
         </a>
+        <div class="content">
+            {% include youtube.html video="u1jXAshiqwA" %}
+            {% include youtube.html video="-a2tAOe0DPk" %}
+            {% include youtube.html video="h4KwA00jp80" %}
+        </div>
     </div>
     <div class="column is-6">
         <div class="icon callout-icon">
