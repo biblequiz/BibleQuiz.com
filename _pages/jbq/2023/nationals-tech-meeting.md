@@ -18,3 +18,5 @@ The team behind all this software is hosting a meeting to discuss the current st
 
 * **When:** June 12, 2023 @ 7:00 PM Central Time
 * **Where:** Zoom @ [https://us02web.zoom.us/j/81346537537?pwd=eXhkeE9Bek0wNThxcUl5NDJXaHhhdz09](https://us02web.zoom.us/j/81346537537?pwd=eXhkeE9Bek0wNThxcUl5NDJXaHhhdz09)
+
+<a href="{% link _pages/apps.md %}" class="button is-primary">Download Apps &amp; Training Videos</a>
