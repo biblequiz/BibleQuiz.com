@@ -39,6 +39,14 @@ date: "2023-05-27"
         <a href="ms-windows-store://pdp/?productid=9NNMH0HV2274" class="button is-primary">
             <i class="fab fa-windows"></i>&nbsp;Windows Store
         </a>
+        <div class="content">
+            {% include youtube.html video="0ZEeuvC8u94" %}
+            {% include youtube.html video="AYCpEWIOYgA" %}
+            {% include youtube.html video="pUMtN9z8CPQ" %}
+            {% include youtube.html video="eVUvARFDXpM" %}
+            {% include youtube.html video="ur4lzA_SlQY" %}
+            {% include youtube.html video="dG0jal8OAHQ" %}
+        </div>
     </div>
 </div>
 
