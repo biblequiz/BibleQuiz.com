@@ -21,11 +21,12 @@ date: "2023-05-27"
         <a href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.android.apk" class="button is-primary">
             <i class="fab fa-android"></i>&nbsp;Android&nbsp;<span class="tag is-danger"><i>BETA</i></span>
         </a>
-        <div class="content" style="margin-top:30px">
-            {% include youtube.html video="u1jXAshiqwA" %}
-            {% include youtube.html video="-a2tAOe0DPk" %}
-            {% include youtube.html video="h4KwA00jp80" %}
-        </div>
+        <p class="title is-6" style="margin-top:30px">EZScore Training Videos</p>
+        <ul>
+            <li><a href="https://youtu.be/u1jXAshiqwA">Setup and Seating</a></li>
+            <li><a href="https://youtu.be/-a2tAOe0DPk">Scoring Tracking</a></li>
+            <li><a href="https://youtu.be/h4KwA00jp80">Closing a Match</a></li>
+        </ul>
     </div>
     <div class="column is-6">
         <div class="icon callout-icon">
@@ -39,14 +40,13 @@ date: "2023-05-27"
         <a href="ms-windows-store://pdp/?productid=9NNMH0HV2274" class="button is-primary">
             <i class="fab fa-windows"></i>&nbsp;Windows Store
         </a>
-        <div class="content" style="margin-top:30px">
-            {% include youtube.html video="0ZEeuvC8u94" %}
-            {% include youtube.html video="AYCpEWIOYgA" %}
-            {% include youtube.html video="pUMtN9z8CPQ" %}
-            {% include youtube.html video="eVUvARFDXpM" %}
-            {% include youtube.html video="ur4lzA_SlQY" %}
-            {% include youtube.html video="dG0jal8OAHQ" %}
-        </div>
+        <p class="title is-6" style="margin-top:30px">ScoreKeep Training Videos</p>
+        <ul>
+            <li>Tablet Setup <a href="https://youtu.be/0ZEeuvC8u94">Part 1</a> &amp; <a href="https://youtu.be/AYCpEWIOYgA">Part 2</a></li>
+            <li><a href="https://youtu.be/dG0jal8OAHQ">Add Meet and Load Questions</a></li>
+            <li><a href="https://youtu.be/eVUvARFDXpM">Add or Move Quizzer after meet has started</a></li>
+            <li><a href="https://youtu.be/ur4lzA_SlQY">Add Quizzer to Current Meet</a></li>
+        </ul>
     </div>
 </div>
 
