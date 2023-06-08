@@ -22,7 +22,7 @@ July 1-7, 2023
 
 All quizzing will take place at the Renaissance St. Louis Airport Hotel. Rooms are $99/night, and parking is free.
 
-For hotel room information, email <elliotbq@gmail.com>.
+For hotel room information, email [Pastor Bernie](mailto:elliotbq@gmail.com).
 
 <!-- <a href="https://www.marriott.com/events/start.mi?id=1683745765249&key=GRP" class="button is-primary">Hotel Reservation Link</a> -->
 
