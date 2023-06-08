@@ -22,7 +22,9 @@ July 1-7, 2023
 
 All quizzing will take place at the Renaissance St. Louis Airport Hotel. Rooms are $99/night, and parking is free.
 
-<a href="https://www.marriott.com/events/start.mi?id=1683745765249&key=GRP" class="button is-primary">Hotel Reservation Link</a>
+For hotel room information, email <elliotbq@gmail.com>.
+
+<!-- <a href="https://www.marriott.com/events/start.mi?id=1683745765249&key=GRP" class="button is-primary">Hotel Reservation Link</a> -->
 
 ---
 
@@ -30,15 +32,14 @@ All quizzing will take place at the Renaissance St. Louis Airport Hotel. Rooms a
 
 <a href="https://brushfire.com/agusa/NBQ/551064" class="button is-primary">Register for National Finals</a>
 
-Coach & Quizzer registration remains the same at $195 and includes:
 
-- 4 lunches (Mon-Thur)
-- Friday’s formal banquet
-- Ice cream fellowship
-- Thursday Night Fellowship
-- National Finals program
-- T-shirt
+---
 
+## Rules
+
+<a href="{% link _pages/contesting-changes.md %}" class="button is-primary">Changes to Conferring and Contesting</a>
+
+<a href="{% link assets/2023/2023 National Finals Tie Breaker Rules.pdf %}" class="button is-primary">Tiebreakers</a>
 
 ---
 
@@ -66,16 +67,6 @@ Both divisions written by Solomon Stevens.
 Contact [Katie Randolph](mailto:kaitlyn.randolph@gmail.com) for more information.
 
 ---
-
-## Rules
-
-<a href="{% link _pages/contesting-changes.md %}" class="button is-primary">Changes to Conferring and Contesting</a>
-
-<a href="{% link assets/2023/2023 National Finals Tie Breaker Rules.pdf %}" class="button is-primary">Tiebreakers</a>
-
-
----
-
 
 ## Sponsorship and Scholarship Giving Opportunities
 
