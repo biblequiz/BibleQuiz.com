@@ -33,9 +33,9 @@ Like everything these days, you'll need an account. Here's a link to walk you th
 
 ## Join the server
 
-Once you have your account setup, hit this link to request access to the Discord server.
+Once you have your account setup, check with your coach for the Discord invite link.
 
-<a href="https://forms.gle/xfWLZniwpVP2pAEp9" class="button is-primary">Request access</a>
+<!-- <a href="https://forms.gle/xfWLZniwpVP2pAEp9" class="button is-primary">Request access</a> -->
 
 ## Manage notifications
 
@@ -63,6 +63,6 @@ Tap the first option to select your mute settings, or All Messages to get all no
 
 <a href="mailto:hello@biblequiz.com" class="button is-primary">Email hello@biblequiz.com</a>
 
-If you're in the Discord server, go to the channel called **#tech-support** and post your issue, and one of the admins will help you out!
+If you're in the Discord server, go to the channel called **#discord-help** and post your issue, and one of the admins will help you out!
 
 ![]({% link /assets/pages/tech-support-channel-1024x681.jpg %})
