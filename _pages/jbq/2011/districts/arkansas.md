@@ -83,6 +83,41 @@ menubar_toc_static:
 | 12 | Gabby Ahne        | North Little Rock 1st | (North Little Rock) | 10    | 3.33   |    |
 | 13 | Ethan Davis       | Van Buren             | (Van Buren)         | 5     | 1.67   |    |
 
+### Bronze Division
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team             | Church         | W/L | Total | Avg    |
+|--:|------------------|----------------|-----|------:|-------:|
+| 1 | Texarkana Faith  | (Texarkana)    | 3/1 | 675   | 168.75 |
+| 2 | Texarkana 1st    | (Texarkana)    | 2/2 | 370   | 92.50  |
+| 3 | Searcy 1st       | (Searcy)       | 2/2 | 335   | 83.75  |
+| 4 | Russellville 1st | (Russellville) | 2/2 | 320   | 80.00  |
+| 5 | Fordyce          | (Fordyce )     | 1/3 | 240   | 60.00  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer          | Team             | Church         | Total | Avg    | QO |
+|---:|------------------|------------------|----------------|------:|-------:|---:|
+| 1  | Sarah McDonald   | Texarkana Faith  | (Texarkana)    | 520   | 130.00 | 2  |
+| 2  | Gracie Sisemore  | Texarkana 1st    | (Texarkana)    | 340   | 85.00  | 3  |
+| 3  | MiKayla Shaw     | Searcy 1st       | (Searcy)       | 280   | 70.00  | 4  |
+| 4  | Caden Lemley     | Russellville 1st | (Russellville) | 180   | 45.00  | 1  |
+| 5  | Kristopher Duran | Russellville 1st | (Russellville) | 120   | 30.00  | 1  |
+| 6  | Ian Hendryx      | Fordyce          | (Fordyce )     | 110   | 27.50  |    |
+| 7  | Lexie Lansdell   | Texarkana Faith  | (Texarkana)    | 100   | 25.00  | 1  |
+| 8  | Aubrey Hornaday  | Fordyce          | (Fordyce )     | 90    | 22.50  |    |
+| 9  | Sydney Sheek     | Texarkana Faith  | (Texarkana)    | 55    | 13.75  | 1  |
+| 10 | Ashley Coker     | Searcy 1st       | (Searcy)       | 45    | 11.25  |    |
+| 11 | Luke Hendryx     | Fordyce          | (Fordyce )     | 40    | 10.00  |    |
+| 12 | Rilyn Poage      | Texarkana 1st    | (Texarkana)    | 30    | 7.50   |    |
+| 13 | Seth West        | Searcy 1st       | (Searcy)       | 20    | 5.00   |    |
+| 13 | Carter Lemley    | Russellville 1st | (Russellville) | 20    | 5.00   |    |
+
 ### Blue Division
 
 #### Teams
@@ -123,6 +158,54 @@ menubar_toc_static:
 | 15 | Jack Berryhill    | Benton 1st          | (Benton)       | 15    | 3.00   |    |
 | 16 | Ethan Davis       | Van Buren           | (Van Buren)    | 5     | 1.00   |    |
 | 16 | Seth West         | Searcy 1st          | (Searcy)       | 5     | 1.00   |    |
+
+### Red Division
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team                  | Church              | W/L | Total | Avg    |
+|--:|-----------------------|---------------------|-----|------:|-------:|
+| 1 | McArthur Green        | (Jacksonville)      | 6/0 | 1020  | 170.00 |
+| 2 | Jonesboro 1st         | (Jonesboro)         | 4/2 | 930   | 155.00 |
+| 3 | Harrison Faith        | (Harrison)          | 4/2 | 805   | 134.17 |
+| 4 | North Little Rock 1st | (North Little Rock) | 3/3 | 875   | 145.83 |
+| 5 | Texarkana Faith       | (Texarkana)         | 3/3 | 715   | 119.17 |
+| 6 | Fordyce               | (Fordyce )          | 1/5 | 265   | 44.17  |
+| 7 | Russellville 1st      | (Russellville)      | 0/6 | 335   | 55.83  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer            | Team                  | Church              | Total | Avg    | QO |
+|---:|--------------------|-----------------------|---------------------|------:|-------:|---:|
+| 1  | David Rubottom     | Jonesboro 1st         | (Jonesboro)         | 760   | 126.67 | 4  |
+| 2  | Sarah McDonald     | Texarkana Faith       | (Texarkana)         | 500   | 83.33  | 1  |
+| 3  | Madison Shaw       | McArthur Green        | (Jacksonville)      | 490   | 81.67  | 2  |
+| 4  | Kamryn Bradshaw    | Harrison Faith        | (Harrison)          | 400   | 66.67  | 1  |
+| 5  | Grant Wilson       | North Little Rock 1st | (North Little Rock) | 375   | 62.50  | 1  |
+| 6  | Morgan Liles       | North Little Rock 1st | (North Little Rock) | 335   | 55.83  | 4  |
+| 7  | Jordan Henley      | Harrison Faith        | (Harrison)          | 320   | 53.33  | 4  |
+| 8  | Garrett Richardson | McArthur Green        | (Jacksonville)      | 315   | 52.50  | 4  |
+| 9  | Kristopher Duran   | Russellville 1st      | (Russellville)      | 195   | 32.50  | 2  |
+| 10 | Nick Shipley       | Jonesboro 1st         | (Jonesboro)         | 170   | 28.33  |    |
+| 11 | Lexie Lansdell     | Texarkana Faith       | (Texarkana)         | 160   | 26.67  |    |
+| 12 | Grayson Young      | McArthur Green        | (Jacksonville)      | 130   | 21.67  | 1  |
+| 13 | Jacob Blackburn    | North Little Rock 1st | (North Little Rock) | 125   | 20.83  |    |
+| 14 | Caden Lemley       | Russellville 1st      | (Russellville)      | 115   | 19.17  | 1  |
+| 15 | Luke Hendryx       | Fordyce               | (Fordyce )          | 105   | 17.50  |    |
+| 16 | Ian Hendryx        | Fordyce               | (Fordyce )          | 85    | 14.17  |    |
+| 17 | Aubrey Hornaday    | Fordyce               | (Fordyce )          | 75    | 12.50  |    |
+| 18 | Caleb Whitener     | McArthur Green        | (Jacksonville)      | 70    | 11.67  |    |
+| 19 | Sadie Smith        | Harrison Faith        | (Harrison)          | 55    | 9.17   |    |
+| 19 | Sydney Sheek       | Texarkana Faith       | (Texarkana)         | 55    | 9.17   |    |
+| 20 | Andrew Dippel      | North Little Rock 1st | (North Little Rock) | 40    | 6.67   |    |
+| 21 | Eli Wilson         | Harrison Faith        | (Harrison)          | 30    | 5.00   |    |
+| 22 | Carter Lemley      | Russellville 1st      | (Russellville)      | 25    | 4.17   |    |
+| 23 | James Lindner      | McArthur Green        | (Jacksonville)      | 15    | 2.50   |    |
+| 24 | Allie Turner       | Fordyce               | (Fordyce )          | 5     | .83    |    |
 
 ## 3rd and 4th Grade
 

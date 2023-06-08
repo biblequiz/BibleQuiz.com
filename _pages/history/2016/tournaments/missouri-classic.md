@@ -12,41 +12,11 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## M-Challenger
+## A Division
 
-### Teams
+### Preliminaries
 
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
-
-| # | Team                    | Church             | W/L | Total | Avg    |
-|--:|-------------------------|--------------------|-----|------:|-------:|
-| 1 | Unschooled Ordinary Men | James River Church | 2/0 | 285   | 142.50 |
-| 2 | Women at the River      | James River Church | 1/1 | 145   | 72.50  |
-| 3 | The Quizzing Intestines | Central AG         | 0/2 | 5     | 2.50   |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by TOTAL)*
-
-| #  | Quizzer          | Team                    | Church             | Total | Avg    | QO |
-|---:|------------------|-------------------------|--------------------|------:|-------:|---:|
-| 1  | Davis Garrison   | Unschooled Ordinary Men | James River Church | 210   | 105.00 | 1  |
-| 2  | Joseph Bogun     | Unschooled Ordinary Men | James River Church | 75    | 37.50  |    |
-| 3  | Olivia Chrastina | Women at the River      | James River Church | 70    | 35.00  | 1  |
-| 4  | Zara Rethman     | Women at the River      | James River Church | 70    | 35.00  |    |
-| 5  | John Georgiades  | The Quizzing Intestines | Central AG         | 20    | 10.00  |    |
-| 6  | Sarah Roberts    | Women at the River      | James River Church | 15    | 7.50   |    |
-| 7  | Nico Georgiades  | The Quizzing Intestines | Central AG         | 10    | 5.00   |    |
-| 8  | Jackson Woodward | The Quizzing Intestines | Central AG         | 5     | 2.50   |    |
-| 9  | David Cox        | Unschooled Ordinary Men | James River Church |       | .00    |    |
-| 9  | Mareena Bogun    | Women at the River      | James River Church |       | .00    |    |
-| 10 | Macquen Strobel  | The Quizzing Intestines | Central AG         | -30   | -15    |    |
-| 11 | Lexi Roberts     | Women at the River      | James River Church | -5    | -2.5   |    |
-
-
-## A League
-
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
@@ -60,7 +30,7 @@ menubar_toc_static:
 | 6 | Trinity Cedar Hill         | Trinity Cedar Hill  | 1/5 | 185   | 30.83  |
 | 7 | The Oaks                   | The Oaks Fellowship | 1/5 | 155   | 25.83  |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
@@ -91,10 +61,9 @@ menubar_toc_static:
 | 19 | Merisa Rodriguez    | Tongues of Fire            | Christian Life AG   |       | .00   |    |
 | 20 | Elizabeth Hames     | Trinity Cedar Hill         | Trinity Cedar Hill  | -25   | -4.17 |    |
 
+### Champion
 
-## A-Champion
-
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
@@ -125,10 +94,41 @@ menubar_toc_static:
 | 12 | Cade Chrastina     | James River - John         | James River Church | 10    | 3.33   |    |
 | 13 | Kara Peters        | May Another Take His Place | Evangel Temple     |       | .00    |    |
 
+### Challenger
 
-## Experience
+#### Teams
 
-### Teams
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team               | Church              | W/L | Total | Avg    |
+|--:|--------------------|---------------------|-----|------:|-------:|
+| 1 | Trinity Cedar Hill | Trinity Cedar Hill  | 2/0 | 210   | 105.00 |
+| 2 | Tongues of Fire    | Christian Life AG   | 1/1 | 210   | 105.00 |
+| 3 | The Oaks           | The Oaks Fellowship | 0/2 | 115   | 57.50  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| # | Quizzer             | Team               | Church              | Total | Avg   | QO |
+|--:|---------------------|--------------------|---------------------|------:|------:|---:|
+| 1 | Cammi Kjetland      | Tongues of Fire    | Christian Life AG   | 160   | 80.00 | 1  |
+| 2 | Josh Barajas        | Trinity Cedar Hill | Trinity Cedar Hill  | 110   | 55.00 | 1  |
+| 3 | Triston Rosario     | Trinity Cedar Hill | Trinity Cedar Hill  | 100   | 50.00 | 1  |
+| 3 | Gabe Lapusan        | The Oaks           | The Oaks Fellowship | 100   | 50.00 | 1  |
+| 4 | Brianna McKinley    | Tongues of Fire    | Christian Life AG   | 30    | 15.00 |    |
+| 5 | Kyla Schrock        | The Oaks           | The Oaks Fellowship | 25    | 12.50 |    |
+| 6 | Matthew McKinley    | Tongues of Fire    | Christian Life AG   | 20    | 10.00 |    |
+| 7 | John David Sullivan | Trinity Cedar Hill | Trinity Cedar Hill  | 5     | 2.50  |    |
+| 8 | Cameron Berta       | The Oaks           | The Oaks Fellowship |       | .00   |    |
+| 8 | Merisa Rodriguez    | Tongues of Fire    | Christian Life AG   |       | .00   |    |
+| 9 | Elizabeth Hames     | Trinity Cedar Hill | Trinity Cedar Hill  | -5    | -2.5  |    |
+
+## Experience Division
+
+### Preliminaries
+
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
@@ -142,7 +142,7 @@ menubar_toc_static:
 | 6 | Therefore            | James River Church  | 1/5 | 265   | 44.17  |
 | 7 | The Oaks Experience  | The Oaks Fellowship | 0/6 | 175   | 29.17  |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
@@ -171,10 +171,72 @@ menubar_toc_static:
 | 19 | Jeremy Eden         | Therefore            | James River Church  | -30   | -5    |    |
 | 20 | Stephanie Nieves    | The Oaks Experience  | The Oaks Fellowship | -10   | -1.67 |    |
 
+### Champion
 
-## Middle School
+#### Teams
 
-### Teams
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                 | Church             | W/L | Total | Avg    |
+|--:|----------------------|--------------------|-----|------:|-------:|
+| 1 | Blood and Fire       | Trinity Cedar Hill | 3/0 | 585   | 195.00 |
+| 2 | Amazed and Perplexed | James River Church | 2/1 | 430   | 143.33 |
+| 3 | Team-Evangel Temple  | Evangel Temple     | 1/2 | 465   | 155.00 |
+| 4 | Joy in Your Presence | James River Church | 0/3 | 355   | 118.33 |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer             | Team                 | Church             | Total | Avg    | QO |
+|---:|---------------------|----------------------|--------------------|------:|-------:|---:|
+| 1  | Emily Edwards       | Blood and Fire       | Trinity Cedar Hill | 310   | 103.33 | 3  |
+| 2  | Ashlee Gallinger    | Team-Evangel Temple  | Evangel Temple     | 280   | 93.33  | 3  |
+| 3  | Quinnlyn Jenkins    | Amazed and Perplexed | James River Church | 195   | 65.00  | 1  |
+| 4  | Naomi McNaughton    | Amazed and Perplexed | James River Church | 195   | 65.00  |    |
+| 5  | Kambria Braithwaite | Team-Evangel Temple  | Evangel Temple     | 185   | 61.67  | 1  |
+| 6  | Julianna Torbett    | Joy in Your Presence | James River Church | 180   | 60.00  | 1  |
+| 7  | Joy Alayande        | Blood and Fire       | Trinity Cedar Hill | 165   | 55.00  |    |
+| 8  | Kaiya Braswell      | Joy in Your Presence | James River Church | 135   | 45.00  |    |
+| 9  | Danielle Asbjornson | Blood and Fire       | Trinity Cedar Hill | 125   | 41.67  | 1  |
+| 10 | Jake Ward           | Amazed and Perplexed | James River Church | 40    | 13.33  |    |
+| 10 | Abby Cox            | Joy in Your Presence | James River Church | 40    | 13.33  |    |
+| 11 | Brent Battaglia     | Amazed and Perplexed | James River Church |       | .00    |    |
+| 11 | Chad Gallinger      | Team-Evangel Temple  | Evangel Temple     |       | .00    |    |
+| 12 | Erin Asbjornson     | Blood and Fire       | Trinity Cedar Hill | -15   | -5     |    |
+
+### Challenger
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                 | Church              | W/L | Total | Avg   |
+|--:|----------------------|---------------------|-----|------:|------:|
+| 1 | We are not Sad U see | Central AG          | 2/0 | 195   | 97.50 |
+| 2 | The Oaks Experience  | The Oaks Fellowship | 1/1 | 50    | 25.00 |
+| 3 | Therefore            | James River Church  | 0/2 | 125   | 62.50 |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| # | Quizzer            | Team                 | Church              | Total | Avg   | QO |
+|--:|--------------------|----------------------|---------------------|------:|------:|---:|
+| 1 | Abby Illum         | We are not Sad U see | Central AG          | 155   | 77.50 | 1  |
+| 2 | Darek Graves       | Therefore            | James River Church  | 115   | 57.50 | 1  |
+| 3 | Anna O\'Neil       | The Oaks Experience  | The Oaks Fellowship | 60    | 30.00 |    |
+| 4 | Lexi Parry         | We are not Sad U see | Central AG          | 40    | 20.00 |    |
+| 5 | Jeremy Eden        | Therefore            | James River Church  | 10    | 5.00  |    |
+| 6 | Brandon Mudersbach | Therefore            | James River Church  |       | .00   |    |
+| 6 | Lewis Groh         | Therefore            | James River Church  |       | .00   |    |
+| 7 | Stephanie Nieves   | The Oaks Experience  | The Oaks Fellowship | -10   | -5    |    |
+
+## Middle School Division
+
+### Preliminaries
+
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
@@ -188,7 +250,7 @@ menubar_toc_static:
 | 6 | Unschooled Ordinary Men     | James River Church | 2/4 | 650   | 108.33 |
 | 7 | The Quizzing Intestines     | Central AG         | 0/6 | 35    | 5.83   |
 
-### Individuals
+#### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
@@ -223,4 +285,72 @@ menubar_toc_static:
 | 22 | Emilia Bogun         | Four Unmarried Daughters    | James River Church |       | .00    |    |
 | 23 | John Georgiades      | The Quizzing Intestines     | Central AG         | -35   | -5.83  |    |
 | 24 | Olivia Chrastina     | Women at the River          | James River Church | -30   | -5     |    |
+
+### Champion
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                        | Church             | W/L | Total | Avg    |
+|--:|-----------------------------|--------------------|-----|------:|-------:|
+| 1 | Four Unmarried Daughters    | James River Church | 2/1 | 630   | 210.00 |
+| 2 | No One Else Dared Join Them | James River Church | 2/1 | 310   | 103.33 |
+| 3 | Philosophers                | James River Church | 1/2 | 360   | 120.00 |
+| 4 | Trinity Cedar Hill MS       | Trinity Cedar Hill | 1/2 | 365   | 121.67 |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer              | Team                        | Church             | Total | Avg    | QO |
+|---:|----------------------|-----------------------------|--------------------|------:|-------:|---:|
+| 1  | Joanne Sinniah       | Four Unmarried Daughters    | James River Church | 415   | 138.33 | 3  |
+| 2  | Paige Chrastina      | Four Unmarried Daughters    | James River Church | 190   | 63.33  | 2  |
+| 3  | Abigail Dasal        | Philosophers                | James River Church | 190   | 63.33  | 1  |
+| 4  | Ethan Pickrell       | Trinity Cedar Hill MS       | Trinity Cedar Hill | 180   | 60.00  | 2  |
+| 5  | Kaylen Hames         | Trinity Cedar Hill MS       | Trinity Cedar Hill | 160   | 53.33  | 1  |
+| 6  | Mercy Germany        | Philosophers                | James River Church | 140   | 46.67  |    |
+| 7  | Gavin Griffith       | No One Else Dared Join Them | James River Church | 130   | 43.33  | 1  |
+| 8  | Jonathan Dasal       | No One Else Dared Join Them | James River Church | 130   | 43.33  |    |
+| 9  | Josiah Smith         | No One Else Dared Join Them | James River Church | 50    | 16.67  |    |
+| 10 | Vanessa Ellingsworth | Philosophers                | James River Church | 30    | 10.00  |    |
+| 11 | Ally O\'Connell      | Four Unmarried Daughters    | James River Church | 25    | 8.33   |    |
+| 11 | Julia Sullivan       | Trinity Cedar Hill MS       | Trinity Cedar Hill | 25    | 8.33   |    |
+| 12 | Acacia Graves        | No One Else Dared Join Them | James River Church |       | .00    |    |
+| 12 | Elizabeth Sims       | Trinity Cedar Hill MS       | Trinity Cedar Hill |       | .00    |    |
+| 12 | Hayden Ballard       | No One Else Dared Join Them | James River Church |       | .00    |    |
+| 12 | Daphne Graves        | Philosophers                | James River Church |       | .00    |    |
+| 12 | Emilia Bogun         | Four Unmarried Daughters    | James River Church |       | .00    |    |
+
+### Challenger
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                    | Church             | W/L | Total | Avg    |
+|--:|-------------------------|--------------------|-----|------:|-------:|
+| 1 | Unschooled Ordinary Men | James River Church | 2/0 | 285   | 142.50 |
+| 2 | Women at the River      | James River Church | 1/1 | 145   | 72.50  |
+| 3 | The Quizzing Intestines | Central AG         | 0/2 | 5     | 2.50   |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer          | Team                    | Church             | Total | Avg    | QO |
+|---:|------------------|-------------------------|--------------------|------:|-------:|---:|
+| 1  | Davis Garrison   | Unschooled Ordinary Men | James River Church | 210   | 105.00 | 1  |
+| 2  | Joseph Bogun     | Unschooled Ordinary Men | James River Church | 75    | 37.50  |    |
+| 3  | Olivia Chrastina | Women at the River      | James River Church | 70    | 35.00  | 1  |
+| 4  | Zara Rethman     | Women at the River      | James River Church | 70    | 35.00  |    |
+| 5  | John Georgiades  | The Quizzing Intestines | Central AG         | 20    | 10.00  |    |
+| 6  | Sarah Roberts    | Women at the River      | James River Church | 15    | 7.50   |    |
+| 7  | Nico Georgiades  | The Quizzing Intestines | Central AG         | 10    | 5.00   |    |
+| 8  | Jackson Woodward | The Quizzing Intestines | Central AG         | 5     | 2.50   |    |
+| 9  | David Cox        | Unschooled Ordinary Men | James River Church |       | .00    |    |
+| 9  | Mareena Bogun    | Women at the River      | James River Church |       | .00    |    |
+| 10 | Macquen Strobel  | The Quizzing Intestines | Central AG         | -30   | -15    |    |
+| 11 | Lexi Roberts     | Women at the River      | James River Church | -5    | -2.5   |    |
 

@@ -99,6 +99,59 @@ menubar_toc_static:
 | 17 | Caleb Brummett    | NEWSONG JBQ  | Newsong Church     | 15    | 3.00   |    |
 | 18 | Mikayla Owens     | Bible Ninjas | Bella Vista        | 10    | 2.00   |    |
 
+## North Central Area - 2nd & Under
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team             | Church   | W/L | Total | Avg    |
+|--:|------------------|----------|-----|------:|-------:|
+| 1 | Team - TS        | McArthur | 3/0 | 480   | 160.00 |
+| 2 | Team - CH        | McArthur | 2/1 | 165   | 55.00  |
+| 3 | Thunder Bolts    | New Life | 1/2 | 145   | 48.33  |
+| 4 | Lightening Bolts | New LIfe | 0/3 | 55    | 18.33  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| # | Quizzer          | Team             | Church   | Total | Avg   | QO |
+|--:|------------------|------------------|----------|------:|------:|---:|
+| 1 | Elijah Yates     | Team - TS        | McArthur | 255   | 85.00 | 3  |
+| 2 | Nicholas Souden  | Team - TS        | McArthur | 210   | 70.00 | 2  |
+| 3 | Nathan Dickerson | Thunder Bolts    | New Life | 130   | 43.33 | 1  |
+| 4 | Aubrey Brandon   | Team - CH        | McArthur | 120   | 40.00 |    |
+| 5 | Sara Swain       | Team - TS        | McArthur | 70    | 23.33 |    |
+| 6 | Jacob Eckart     | Lightening Bolts | New LIfe | 60    | 20.00 |    |
+| 7 | ReeceAnn Folsom  | Team - CH        | McArthur | 45    | 15.00 |    |
+| 8 | Cloe Graves      | Thunder Bolts    | New Life | 15    | 5.00  |    |
+
+## North Central Area - 3rd & 4th Grade
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team           | Church   | W/L | Total | Avg    |
+|--:|----------------|----------|-----|------:|-------:|
+| 1 | McArthur       | McArthur | 2/0 | 260   | 130.00 |
+| 2 | BOLTS          | New Life | 1/1 | 200   | 100.00 |
+| 3 | Bethel Bombers | Bethel   | 0/2 | 120   | 60.00  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| # | Quizzer          | Team           | Church   | Total | Avg   | QO |
+|--:|------------------|----------------|----------|------:|------:|---:|
+| 1 | Nevaeh Yates     | McArthur       | McArthur | 155   | 77.50 | 1  |
+| 2 | Peyton Dickerson | BOLTS          | New Life | 145   | 72.50 | 1  |
+| 3 | Colton Rosenbaum | Bethel Bombers | Bethel   | 125   | 62.50 |    |
+| 4 | Kylee Morris     | McArthur       | McArthur | 45    | 22.50 |    |
+| 5 | Allison Donley   | McArthur       | McArthur | 40    | 20.00 |    |
+| 6 | Savanna Stevens  | McArthur       | McArthur | 20    | 10.00 |    |
+| 7 | Kristina Phipps  | BOLTS          | New Life | 10    | 5.00  |    |
 
 ## North Central Area - 5th & 6th Grade
 

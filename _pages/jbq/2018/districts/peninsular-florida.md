@@ -402,3 +402,53 @@ menubar_toc_static:
 | **\*12** | Ahnaley Serrano   | Highpoint Quizzers (Highpoint Church)         | 0     |      |    |      |
 | **\*12** | Madison Bowden    | God\'s Superheroes (LIFE Church AG)           | 0     |      |    |      |
 
+
+## Flight X2
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                | W/L   | Total | Avg | QO | Q%   |
+|----:|----------------------------------------------|-------|------:|----:|---:|-----:|
+| 1.0 | Mighty Mighty Christians (LIFE Church AG)    | 5 / 0 | 580   | 116 | 2  | 91%  |
+| 2.0 | Trinity 1X (Trinity AG)                      | 4 / 1 | 370   | 74  | 4  | 82%  |
+| 3.0 | Buzz Lightkids (Christian Life Center)       | 3 / 2 | 380   | 76  | 2  | 83%  |
+| 4.0 | Angels Army (Faith AG Orlando)               | 2 / 3 | 320   | 64  | 2  | 73%  |
+| 5.0 | Bible Girl\'s (City Church)                  | 1 / 4 | 240   | 48  |    | 82%  |
+| 6.0 | Trinity TCI X (Trinity Church International) | 0 / 5 | 30    | 6   |    | 100% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer             | Team / Church                                | Total | Avg | QO | Q%   |
+|---------:|---------------------|----------------------------------------------|------:|----:|---:|-----:|
+| 1        | Jordan Low          | Trinity 1X (Trinity AG)                      | 310   | 62  | 4  | 88%  |
+| 2        | Adalynn Dubois      | Angels Army (Faith AG Orlando)               | 245   | 49  | 2  | 96%  |
+| **\*2**  | Brayden Gracelien   | Buzz Lightkids (Christian Life Center)       | 245   | 49  | 2  | 89%  |
+| 3        | Gabe Thompson       | Mighty Mighty Christians (LIFE Church AG)    | 240   | 48  | 2  | 86%  |
+| 4        | Kaden Johnson       | Mighty Mighty Christians (LIFE Church AG)    | 200   | 40  |    | 91%  |
+| 5        | Alysa Cosat         | Bible Girl\'s (City Church)                  | 145   | 29  |    | 94%  |
+| 6        | Kirra Perry         | Mighty Mighty Christians (LIFE Church AG)    | 110   | 22  |    | 100% |
+| 7        | Gunner Padgett      | Trinity 1X (Trinity AG)                      | 75    | 15  |    | 89%  |
+| **\*7**  | Sebastian Jules     | Buzz Lightkids (Christian Life Center)       | 75    | 15  |    | 75%  |
+| 8        | Ella Tyminski       | Bible Girl\'s (City Church)                  | 70    | 14  |    | 80%  |
+| 9        | Zoe Dubois          | Angels Army (Faith AG Orlando)               | 65    | 13  |    | 87%  |
+| 10       | Pleasant Okoh       | Buzz Lightkids (Christian Life Center)       | 60    | 12  |    | 78%  |
+| 11       | Molly Saligan       | Trinity TCI X (Trinity Church International) | 30    | 6   |    | 100% |
+| **\*11** | Sydney Osorto       | Mighty Mighty Christians (LIFE Church AG)    | 30    | 6   |    | 100% |
+| **\*11** | Madi Stewart        | Bible Girl\'s (City Church)                  | 30    | 6   |    | 100% |
+| 12       | Lydia Marrero       | Angels Army (Faith AG Orlando)               | 10    | 2   |    | 37%  |
+| 13       | Makenzie Hayes      | Bible Girl\'s (City Church)                  | 5     | 1   |    | 50%  |
+| 14       | Omarie Jordan       | Trinity TCI X (Trinity Church International) | 0     |     |    |      |
+| **\*14** | Eliana Sam          | Trinity 1X (Trinity AG)                      | 0     |     |    |      |
+| **\*14** | Sheliana Sam        | Trinity 1X (Trinity AG)                      | 0     |     |    |      |
+| **\*14** | Isabella Longstreet | Mighty Mighty Christians (LIFE Church AG)    | 0     |     |    |      |
+| **\*14** | David Okoh          | Buzz Lightkids (Christian Life Center)       | 0     |     |    |      |
+| **\*14** | Kenzie Wayte        | Bible Girl\'s (City Church)                  | 0     |     |    |      |
+| **\*14** | Charlie Gomez       | Angels Army (Faith AG Orlando)               | 0     |     |    |      |
+| 15       | Nicholas Low        | Trinity 1X (Trinity AG)                      | -5    | -1  |    |      |
+| 16       | Sadie Padgett       | Trinity 1X (Trinity AG)                      | -10   | -2  |    |      |
+| **\*16** | Mari Rivera         | Bible Girl\'s (City Church)                  | -10   | -2  |    |      |
+

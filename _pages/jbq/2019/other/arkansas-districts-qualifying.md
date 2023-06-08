@@ -61,7 +61,49 @@ menubar_toc_static:
 | 15       | Karaline Porter      | Changepoint Assembly of God (Cabot) #1 (Changepoint Assembly of God) | -5    | -1.3  |    |      |
 
 
-## North Central Area - 5th & 6th
+## North Central Area - 3rd & 4th Grade
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                                                                  | W/L   | Total | Avg   | QO | Q%   |
+|----:|------------------------------------------------------------------------------------------------|-------|------:|------:|---:|-----:|
+| 1.0 | McArthur AG 3-4 (Jacksonville) (McArthur Assembly of God)                                      | 4 / 0 | 650   | 162.5 | 3  | 96%  |
+| 2.0 | Open Arms Assembly of God (Beebe) #2 (Open Arms Assembly of God)                               | 3 / 1 | 260   | 65    | 1  | 90%  |
+| 3.0 | Changepoint Assembly of God (Cabot) #2 (Changepoint Assembly of God)                           | 2 / 2 | 420   | 105   | 1  | 100% |
+| 4.0 | The Ridge Assembly of Sherwood (Sherwood) #1 (The Ridge Assembly of Sherwood)                  | 1 / 3 | 180   | 45    |    | 90%  |
+| 5.0 | River of Life Assemblies of God Church (Mabelvale) #1 (River of Life Assemblies of God Church) | 0 / 4 | 20    | 5     |    | 100% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer          | Team / Church                                                                                  | Total | Avg  | QO | Q%   |
+|---------:|------------------|------------------------------------------------------------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Carly Shalter    | McArthur AG 3-4 (Jacksonville) (McArthur Assembly of God)                                      | 305   | 76.3 | 1  | 88%  |
+| 2        | Karter Ballard   | McArthur AG 3-4 (Jacksonville) (McArthur Assembly of God)                                      | 255   | 63.8 | 2  | 100% |
+| 3        | Joshua McCall    | Changepoint Assembly of God (Cabot) #2 (Changepoint Assembly of God)                           | 210   | 52.5 |    | 100% |
+| 4        | Jayden Maris     | Changepoint Assembly of God (Cabot) #2 (Changepoint Assembly of God)                           | 200   | 50   | 1  | 100% |
+| 5        | Zane Williams    | Open Arms Assembly of God (Beebe) #2 (Open Arms Assembly of God)                               | 195   | 48.8 | 1  | 93%  |
+| 6        | Jackson Eckart   | The Ridge Assembly of Sherwood (Sherwood) #1 (The Ridge Assembly of Sherwood)                  | 115   | 28.8 |    | 92%  |
+| 7        | ReeceAnn Jones   | McArthur AG 3-4 (Jacksonville) (McArthur Assembly of God)                                      | 80    | 20   |    | 100% |
+| 8        | Skyla Cope       | The Ridge Assembly of Sherwood (Sherwood) #1 (The Ridge Assembly of Sherwood)                  | 35    | 8.8  |    | 80%  |
+| **\*8**  | Jordyn Rhine     | Open Arms Assembly of God (Beebe) #2 (Open Arms Assembly of God)                               | 35    | 8.8  |    | 75%  |
+| 9        | Nevaeh Watson    | The Ridge Assembly of Sherwood (Sherwood) #1 (The Ridge Assembly of Sherwood)                  | 30    | 7.5  |    | 100% |
+| **\*9**  | Joshua McGehee   | Open Arms Assembly of God (Beebe) #2 (Open Arms Assembly of God)                               | 30    | 7.5  |    | 100% |
+| 10       | Trinity Terry    | River of Life Assemblies of God Church (Mabelvale) #1 (River of Life Assemblies of God Church) | 20    | 5    |    | 99%  |
+| 11       | Alice Weeley     | McArthur AG 3-4 (Jacksonville) (McArthur Assembly of God)                                      | 10    | 2.5  |    | 99%  |
+| **\*11** | Sydni Ezell-Teel | Changepoint Assembly of God (Cabot) #2 (Changepoint Assembly of God)                           | 10    | 2.5  |    | 99%  |
+| 12       | Asher Holloway   | The Ridge Assembly of Sherwood (Sherwood) #1 (The Ridge Assembly of Sherwood)                  | 0     |      |    |      |
+| **\*12** | Kenny Baez       | River of Life Assemblies of God Church (Mabelvale) #1 (River of Life Assemblies of God Church) | 0     |      |    |      |
+| **\*12** | Miah Ramirez     | McArthur AG 3-4 (Jacksonville) (McArthur Assembly of God)                                      | 0     |      |    |      |
+| **\*12** | Ty Jacobs        | McArthur AG 3-4 (Jacksonville) (McArthur Assembly of God)                                      | 0     |      |    |      |
+| **\*12** | Anya Abdullah    | McArthur AG 3-4 (Jacksonville) (McArthur Assembly of God)                                      | 0     |      |    |      |
+
+
+
+## North Central Area - 5th & 6th Grade
 
 ### Teams
 

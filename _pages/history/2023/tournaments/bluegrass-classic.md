@@ -105,6 +105,36 @@ menubar_toc_static:
 | **\*20** | Quizzer-3           | Night and Day (Lighthouse Assembly of God)                    | 0     |       |    |      |
 | 21       | Luci Mjos           | Flaming Fire (King\'s Way Assembly of God)                    | -5    | -.7   |    |      |
 
+## XP Top 4
+
+### Teams
+
+*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
+
+| # | Team / Church                                                 | W/L   | W%  | Total | Avg   | QO | Q%  | Rnds |
+|--:|---------------------------------------------------------------|-------|----:|------:|------:|---:|----:|-----:|
+| 1 | Eternal Destruction (Lighthouse Assembly of God)              | 2 / 1 | 67% | 465   | 155   | 3  | 86% | 3    |
+| 2 | Oasis Community Church (Ithaca, MI) (Oasis Community Church)  | 2 / 1 | 67% | 640   | 213.3 | 6  | 97% | 3    |
+| 3 | Murderers at Heart (Lighthouse Assembly of God)               | 1 / 2 | 33% | 520   | 173.3 | 5  | 88% | 3    |
+| 4 | The Approved Messengers (Radiant Life Church Assembly of God) | 1 / 2 | 33% | 610   | 203.3 | 3  | 97% | 3    |
+
+### Individuals
+
+*Ties broken by Average Points then by Total Quiz Outs*
+
+| #  | Quizzer             | Team / Church                                                 | Total | Avg   | QO | Q%   |
+|---:|---------------------|---------------------------------------------------------------|------:|------:|---:|-----:|
+| 1  | Nathan Nimako       | The Approved Messengers (Radiant Life Church Assembly of God) | 405   | 135   | 3  | 100% |
+| 2  | Colton Markwell     | Oasis Community Church (Ithaca, MI) (Oasis Community Church)  | 335   | 111.7 | 3  | 94%  |
+| 3  | Will Wood           | Oasis Community Church (Ithaca, MI) (Oasis Community Church)  | 305   | 101.7 | 3  | 100% |
+| 4  | Joelle Powell       | Murderers at Heart (Lighthouse Assembly of God)               | 290   | 96.7  | 3  | 94%  |
+| 5  | Elizabeth Powell    | Eternal Destruction (Lighthouse Assembly of God)              | 285   | 95    | 2  | 82%  |
+| 6  | Jeremy Zadina       | Murderers at Heart (Lighthouse Assembly of God)               | 230   | 76.7  | 2  | 82%  |
+| 7  | Tabitha Barney      | Eternal Destruction (Lighthouse Assembly of God)              | 180   | 60    | 1  | 92%  |
+| 8  | Aseda Essandoh      | The Approved Messengers (Radiant Life Church Assembly of God) | 125   | 41.7  |    | 91%  |
+| 9  | Konyinsola Sofowora | The Approved Messengers (Radiant Life Church Assembly of God) | 80    | 26.7  |    | 100% |
+| 10 | Oye Essandoh        | The Approved Messengers (Radiant Life Church Assembly of God) | 0     |       |    |      |
+
 ## XP Lower 4
 
 ### Teams

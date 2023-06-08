@@ -92,3 +92,35 @@ menubar_toc_static:
 | **\*20** | Gavin MacKinney   | FC Watts (Faith Chapel)         | 0     |      |    |      |
 | 21       | Callie Ochs       | Mac Attack (Great Bend)         | -5    | -.8  |    |      |
 
+
+## B Division
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church              | W/L   | Total | Avg  | QO | Q%  |
+|----:|----------------------------|-------|------:|-----:|---:|----:|
+| 1.0 | 5 Buzzketeers (Great Bend) | 4 / 0 | 440   | 110  | 7  | 79% |
+| 2.0 | Boom Baby (Chanute)        | 1 / 3 | 175   | 43.7 | 1  | 67% |
+| 3.0 | FC Sparks (Faith Chapel)   | 1 / 3 | 115   | 28.7 |    | 81% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #       | Quizzer           | Team / Church              | Total | Avg  | QO | Q%  |
+|--------:|-------------------|----------------------------|------:|-----:|---:|----:|
+| 1       | Emmett Mawhirter  | 5 Buzzketeers (Great Bend) | 225   | 56.3 | 4  | 87% |
+| 2       | William Moeder    | 5 Buzzketeers (Great Bend) | 185   | 46.3 | 3  | 76% |
+| 3       | Joshua McMahan    | Boom Baby (Chanute)        | 145   | 36.3 | 1  | 93% |
+| 4       | Matthew Voelker   | FC Sparks (Faith Chapel)   | 105   | 26.3 |    | 92% |
+| 5       | Samuel McMahan    | Boom Baby (Chanute)        | 30    | 7.5  |    | 44% |
+| 6       | Rilynn Bennett    | FC Sparks (Faith Chapel)   | 15    | 3.8  |    | 66% |
+| 7       | Autumn Halzle     | 5 Buzzketeers (Great Bend) | 10    | 2.5  |    | 99% |
+| **\*7** | Carter McKiearnan | 5 Buzzketeers (Great Bend) | 10    | 2.5  |    | 66% |
+| **\*7** | Ryker Halzle      | 5 Buzzketeers (Great Bend) | 10    | 2.5  |    | 50% |
+| 8       | Abbie Allen       | Boom Baby (Chanute)        | 0     |      |    |     |
+| **\*8** | Andi Weilert      | Boom Baby (Chanute)        | 0     |      |    |     |
+| 9       | Emersynn Bennett  | FC Sparks (Faith Chapel)   | -5    | -1.3 |    |     |
+

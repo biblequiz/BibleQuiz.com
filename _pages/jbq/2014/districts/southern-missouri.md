@@ -167,6 +167,93 @@ menubar_toc_static:
 | 14 | Abigail Cooke     | That One Team           | Pebble Creek Assembly | -5    | -0.83  |    |
 
 
+## A Discoverer
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                                    | Church                      | W/L | Total | Avg    |
+|--:|-----------------------------------------|-----------------------------|-----|------:|-------:|
+| 1 | God Girls                               | Grace Community Church      | 5/1 | 1005  | 167.50 |
+| 2 | Quizzin Quotin Cardinals-Blazing Swords | West County Assembly of God | 5/1 | 845   | 140.83 |
+| 3 | Faith Warriors                          | Faith Community Church      | 2/4 | 575   | 95.83  |
+| 4 | NHF Heaven's Hitters                    | New Hope Fellowship: Fenton | 0/6 | 330   | 55.00  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer           | Team                                    | Church                      | Total | Avg    | QO |
+|---:|-------------------|-----------------------------------------|-----------------------------|------:|-------:|---:|
+| 1  | Emily Pruitt      | God Girls                               | Grace Community Church      | 770   | 128.33 | 5  |
+| 2  | Adelaide Newfield | Faith Warriors                          | Faith Community Church      | 555   | 92.50  | 5  |
+| 3  | Kate Stoner       | Quizzin Quotin Cardinals-Blazing Swords | West County Assembly of God | 550   | 91.67  | 3  |
+| 4  | Logan Barnes      | NHF Heaven's Hitters                    | New Hope Fellowship: Fenton | 225   | 37.50  | 2  |
+| 5  | Jacob Stoner      | Quizzin Quotin Cardinals-Blazing Swords | West County Assembly of God | 210   | 35.00  | 1  |
+| 6  | Kyleigh Gibbs     | God Girls                               | Grace Community Church      | 200   | 33.33  | 1  |
+| 7  | Meredith Spratt   | NHF Heaven's Hitters                    | New Hope Fellowship: Fenton | 105   | 17.50  |    |
+| 8  | Nate Vast-Binder  | Quizzin Quotin Cardinals-Blazing Swords | West County Assembly of God | 85    | 14.17  |    |
+| 9  | Autumn Morgan     | God Girls                               | Grace Community Church      | 35    | 5.83   |    |
+| 10 | Liam Holt         | Faith Warriors                          | Faith Community Church      | 20    | 3.33   |    |
+| 11 | B Quizzer         | Quizzin Quotin Cardinals-Blazing Swords | West County Assembly of God |       | .00    |    |
+| 11 | B Quizzer         | God Girls                               | Grace Community Church      |       | .00    |    |
+| 11 | A Quizzer         | Quizzin Quotin Cardinals-Blazing Swords | West County Assembly of God |       | .00    |    |
+| 11 | A Quizzer         | Faith Warriors                          | Faith Community Church      |       | .00    |    |
+| 11 | B Quizzer         | Faith Warriors                          | Faith Community Church      |       | .00    |    |
+| 11 | A Quizzer         | God Girls                               | Grace Community Church      |       | .00    |    |
+| 11 | Grace Parks       | God Girls                               | Grace Community Church      |       | .00    |    |
+| 11 | A Quizzer         | NHF Heaven's Hitters                    | New Hope Fellowship: Fenton |       | .00    |    |
+| 11 | B Quizzer         | NHF Heaven's Hitters                    | New Hope Fellowship: Fenton |       | .00    |    |
+
+
+## B Master
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                  | Church             | W/L | Total | Avg    |
+|--:|-----------------------|--------------------|-----|------:|-------:|
+| 1 | James River Church    | James River Church | 4/2 | 740   | 123.33 |
+| 2 | Lightning Buzzers     | Evangel Assembly   | 4/2 | 860   | 143.33 |
+| 3 | Brighton Quiz Masters | Brighton Assembly  | 3/3 | 850   | 141.67 |
+| 4 | Cha Cha Cheetahs      | Central Assembly   | 1/5 | 465   | 77.50  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer          | Team                  | Church             | Total | Avg    | QO |
+|---:|------------------|-----------------------|--------------------|------:|-------:|---:|
+| 1  | Brooks Bilton    | Lightning Buzzers     | Evangel Assembly   | 690   | 115.00 | 4  |
+| 2  | Kalyn Cerce      | Brighton Quiz Masters | Brighton Assembly  | 525   | 87.50  | 4  |
+| 3  | Elli Woodward    | Cha Cha Cheetahs      | Central Assembly   | 265   | 44.17  | 2  |
+| 4  | Chuck Myers      | James River Church    | James River Church | 260   | 43.33  |    |
+| 5  | Mercy Germany    | James River Church    | James River Church | 215   | 35.83  |    |
+| 6  | Hannah Plake     | Cha Cha Cheetahs      | Central Assembly   | 170   | 28.33  |    |
+| 7  | Rebekah Burks    | James River Church    | James River Church | 165   | 27.50  |    |
+| 8  | Jonathan Crispin | Lightning Buzzers     | Evangel Assembly   | 140   | 23.33  | 1  |
+| 9  | Brad Cooper      | Brighton Quiz Masters | Brighton Assembly  | 125   | 20.83  |    |
+| 10 | Weston Schubert  | Brighton Quiz Masters | Brighton Assembly  | 120   | 20.00  |    |
+| 11 | Tristen Bough    | James River Church    | James River Church | 90    | 15.00  |    |
+| 12 | Lance Ramirez    | Brighton Quiz Masters | Brighton Assembly  | 80    | 13.33  |    |
+| 13 | Madison Tucker   | Cha Cha Cheetahs      | Central Assembly   | 30    | 5.00   |    |
+| 14 | Julia Garman     | Lightning Buzzers     | Evangel Assembly   | 20    | 3.33   |    |
+| 15 | Peyton Bough     | James River Church    | James River Church | 10    | 1.67   |    |
+| 15 | Eliot Wagner     | Lightning Buzzers     | Evangel Assembly   | 10    | 1.67   |    |
+| 16 | A Quizzer        | Lightning Buzzers     | Evangel Assembly   |       | .00    |    |
+| 16 | Noelle Germany   | James River Church    | James River Church |       | .00    |    |
+| 16 | Jack Wiebe       | Brighton Quiz Masters | Brighton Assembly  |       | .00    |    |
+| 16 | A Quizzer        | Brighton Quiz Masters | Brighton Assembly  |       | .00    |    |
+| 16 | B Quizzer        | Brighton Quiz Masters | Brighton Assembly  |       | .00    |    |
+| 16 | Drew Cooper      | Brighton Quiz Masters | Brighton Assembly  |       | .00    |    |
+| 16 | B Quizzer        | Lightning Buzzers     | Evangel Assembly   |       | .00    |    |
+| 16 | Rileigh Jamison  | James River Church    | James River Church |       | .00    |    |
+| 16 | A Quizzer        | Cha Cha Cheetahs      | Central Assembly   |       | .00    |    |
+| 16 | B Quizzer        | Cha Cha Cheetahs      | Central Assembly   |       | .00    |    |
+
+
 ## B Achiever
 
 ### Teams

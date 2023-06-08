@@ -56,6 +56,40 @@ menubar_toc_static:
 | **\*20** | Niara Chandler         | Naperville (Calvary Church)            | 0     |       |    |      |
 
 
+## B Level
+
+### Teams
+
+*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
+
+| # | Team / Church                               | W/L   | W%  | Total | Avg   | QO | Q%  |
+|--:|---------------------------------------------|-------|----:|------:|------:|---:|----:|
+| 1 | Normal (First Assembly of God)              | 5 / 1 | 83% | 835   | 139.2 | 3  | 94% |
+| 2 | Naperville (Calvary Church)                 | 3 / 3 | 50% | 780   | 130   | 4  | 80% |
+| 3 | Chicago (Metro Praise International Church) | 1 / 5 | 17% | 470   | 78.3  |    | 63% |
+
+### Individuals
+
+*Ties broken by Average Points then by Total Quiz Outs*
+
+| #        | Quizzer              | Team / Church                               | Total | Avg   | QO | Q%   |
+|---------:|----------------------|---------------------------------------------|------:|------:|---:|-----:|
+| 1        | Dhanya Karthick      | Normal (First Assembly of God)              | 725   | 120.8 | 3  | 92%  |
+| 2        | Jeremy James         | Naperville (Calvary Church)                 | 360   | 60    | 4  | 94%  |
+| 3        | Evan Govea           | Chicago (Metro Praise International Church) | 345   | 57.5  |    | 66%  |
+| 4        | Darian Edward        | Naperville (Calvary Church)                 | 290   | 48.3  |    | 68%  |
+| 5        | Oghenefega Ogbebor   | Naperville (Calvary Church)                 | 115   | 19.2  |    | 74%  |
+| 6        | Joanna Victor        | Normal (First Assembly of God)              | 110   | 18.3  |    | 100% |
+| 7        | Micah Scienski       | Chicago (Metro Praise International Church) | 85    | 14.2  |    | 73%  |
+| 8        | Danielle Scienski    | Chicago (Metro Praise International Church) | 40    | 6.7   |    | 46%  |
+| 9        | Oghenevwegba Ogbebor | Naperville (Calvary Church)                 | 20    | 3.3   |    | 100% |
+| 10       | Isaiah Evans         | Normal (First Assembly of God)              | 0     |       |    |      |
+| **\*10** | Johan Gopikrishnan   | Naperville (Calvary Church)                 | 0     |       |    |      |
+| **\*10** | Lucas Wyrostek       | Chicago (Metro Praise International Church) | 0     |       |    |      |
+| **\*10** | Zoe Wyrostek         | Chicago (Metro Praise International Church) | 0     |       |    |      |
+| 11       | Ruth Elizalde        | Naperville (Calvary Church)                 | -5    | -.8   |    |      |
+
+
 ## C Level
 
 ### Teams

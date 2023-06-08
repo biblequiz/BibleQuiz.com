@@ -346,3 +346,48 @@ menubar_toc_static:
 | **\*15** | Abigail Okoh           | CLC Next Generation (Christian Life Center)                 | 0     |      |    |      |
 | **\*15** | Tyler Udell            | EvAngel Angels (Evangel Assembly of God)                    | 0     |      |    |      |
 
+
+## Flight X2
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                                                | W/L   | Total | Avg | QO | Q%   |
+|----:|------------------------------------------------------------------------------|-------|------:|----:|---:|-----:|
+| 1.0 | Freedom Wave Walkers (Freedom Christian Fellowship of the Assemblies of God) | 5 / 0 | 340   | 68  |    | 80%  |
+| 2.0 | JBQ Jaguars (Faith Assembly of God)                                          | 4 / 1 | 350   | 70  | 3  | 68%  |
+| 3.0 | New Life Assembly (Lehigh) #5- Rodriquez (New Life Assembly)                 | 3 / 2 | 255   | 51  | 1  | 82%  |
+| 4.0 | First Assembly Deland (Deland) #2 (First Assembly Deland)                    | 2 / 3 | 140   | 28  |    | 80%  |
+| 5.0 | New Life Assembly (Lehigh) #3-Brazeal (New Life Assembly)                    | 1 / 4 | 160   | 32  | 1  | 69%  |
+| 6.0 | Highpoint Church (Port Saint Lucie) #2 (Highpoint Community Church)          | 0 / 5 | 50    | 10  |    | 100% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer            | Team / Church                                                                | Total | Avg | QO | Q%   |
+|---------:|--------------------|------------------------------------------------------------------------------|------:|----:|---:|-----:|
+| 1        | Micah Wise         | JBQ Jaguars (Faith Assembly of God)                                          | 255   | 51  | 3  | 83%  |
+| 2        | Amari Mathurin     | New Life Assembly (Lehigh) #5- Rodriquez (New Life Assembly)                 | 220   | 44  | 1  | 96%  |
+| 3        | Sabina Myers       | Freedom Wave Walkers (Freedom Christian Fellowship of the Assemblies of God) | 220   | 44  |    | 92%  |
+| 4        | Kaitlande Jacques  | New Life Assembly (Lehigh) #3-Brazeal (New Life Assembly)                    | 140   | 28  | 1  | 100% |
+| 5        | Jerlyn Pawlak      | First Assembly Deland (Deland) #2 (First Assembly Deland)                    | 105   | 21  |    | 92%  |
+| 6        | Benjamin Reilly    | JBQ Jaguars (Faith Assembly of God)                                          | 85    | 17  |    | 54%  |
+| 7        | Cole Myers         | Freedom Wave Walkers (Freedom Christian Fellowship of the Assemblies of God) | 80    | 16  |    | 82%  |
+| 8        | Kallen Alicea      | New Life Assembly (Lehigh) #5- Rodriquez (New Life Assembly)                 | 40    | 8   |    | 60%  |
+| **\*8**  | Olachi Ohiaeriaku  | Freedom Wave Walkers (Freedom Christian Fellowship of the Assemblies of God) | 40    | 8   |    | 54%  |
+| 9        | Titus Blades       | First Assembly Deland (Deland) #2 (First Assembly Deland)                    | 35    | 7   |    | 80%  |
+| 10       | Sebastian Jimenez  | Highpoint Church (Port Saint Lucie) #2 (Highpoint Community Church)          | 30    | 6   |    | 100% |
+| 11       | Ahnaley Serrano    | Highpoint Church (Port Saint Lucie) #2 (Highpoint Community Church)          | 20    | 4   |    | 100% |
+| 12       | Victoria Fernandez | New Life Assembly (Lehigh) #3-Brazeal (New Life Assembly)                    | 10    | 2   |    | 50%  |
+| **\*12** | Elizabeth Godfrey  | JBQ Jaguars (Faith Assembly of God)                                          | 10    | 2   |    | 50%  |
+| **\*12** | Joseph Rodriquez   | New Life Assembly (Lehigh) #3-Brazeal (New Life Assembly)                    | 10    | 2   |    | 42%  |
+| 13       | Kindle Blades      | First Assembly Deland (Deland) #2 (First Assembly Deland)                    | 0     |     |    | 33%  |
+| **\*13** | Adalynn Vasquez    | New Life Assembly (Lehigh) #5- Rodriquez (New Life Assembly)                 | 0     |     |    |      |
+| **\*13** | Tabitha Hursell    | New Life Assembly (Lehigh) #3-Brazeal (New Life Assembly)                    | 0     |     |    |      |
+| **\*13** | Zion Castro        | Highpoint Church (Port Saint Lucie) #2 (Highpoint Community Church)          | 0     |     |    |      |
+| **\*13** | Adrian Torres      | Freedom Wave Walkers (Freedom Christian Fellowship of the Assemblies of God) | 0     |     |    |      |
+| **\*13** | Aubrey Lexius      | Freedom Wave Walkers (Freedom Christian Fellowship of the Assemblies of God) | 0     |     |    |      |
+| 14       | Kathleen Mec-El    | New Life Assembly (Lehigh) #5- Rodriquez (New Life Assembly)                 | -5    | -1  |    |      |
+

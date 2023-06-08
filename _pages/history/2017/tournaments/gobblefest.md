@@ -205,6 +205,62 @@ menubar_toc_static:
 | 7 | Lauren Powers   | 2\. Lighthouse Christian Fellowship, Pennsburg, PA |        |       | .00   |    |
 | 7 | Jessica Cordero | 2\. Lighthouse Christian Fellowship, Pennsburg, PA |        |       | .00   |    |
 
+## Experience Saturday
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                                               | Church | W/L | Total | Avg   |
+|--:|----------------------------------------------------|--------|-----|------:|------:|
+| 1 | 1\. Hamlin A/G, Lake Ariel, PA                     |        | 5/0 | 460   | 92.00 |
+| 2 | 2\. Lighthouse Christian Fellowship, Pennsburg, PA |        | 0/5 | 75    | 15.00 |
+| 3 | Ghost                                              |        | 0/0 |       | .00   |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| # | Quizzer         | Team                                               | Church | Total | Avg   | QO |
+|--:|-----------------|----------------------------------------------------|--------|------:|------:|---:|
+| 1 | Emma Gilligan   | 1\. Hamlin A/G, Lake Ariel, PA                     |        | 225   | 45.00 | 1  |
+| 2 | Judah Miller    | 1\. Hamlin A/G, Lake Ariel, PA                     |        | 205   | 41.00 |    |
+| 3 | Jadyn Selfinger | 2\. Lighthouse Christian Fellowship, Pennsburg, PA |        | 50    | 10.00 |    |
+| 4 | Haley Strocchia | 1\. Hamlin A/G, Lake Ariel, PA                     |        | 30    | 6.00  |    |
+| 5 | Austin Rompilla | 2\. Lighthouse Christian Fellowship, Pennsburg, PA |        | 25    | 5.00  |    |
+| 6 | Kaija Gerlach   | 1\. Hamlin A/G, Lake Ariel, PA                     |        |       | .00   |    |
+| 6 | Lauren Powers   | 2\. Lighthouse Christian Fellowship, Pennsburg, PA |        |       | .00   |    |
+| 6 | Jessica Cordero | 2\. Lighthouse Christian Fellowship, Pennsburg, PA |        |       | .00   |    |
+
+## Experience Finals
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                                 | Church | W/L | Total | Avg    |
+|--:|--------------------------------------|--------|-----|------:|-------:|
+| 1 | 3\. Fountain of Life, Burlington, NJ |        | 1/0 | 100   | 100.00 |
+| 2 | Experience Total                     |        | 0/1 | 45    | 45.00  |
+| 3 | Ghost                                |        | 0/0 |       | .00    |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| # | Quizzer         | Team                                 | Church | Total | Avg    | QO |
+|--:|-----------------|--------------------------------------|--------|------:|-------:|---:|
+| 1 | Joyce Ijalana   | 3\. Fountain of Life, Burlington, NJ |        | 105   | 105.00 | 1  |
+| 2 | Emma Gilligan   | Experience Total                     |        | 40    | 40.00  |    |
+| 3 | Jadyn Selfinger | Experience Total                     |        | 15    | 15.00  |    |
+| 4 | Hiley Strocchia | Experience Total                     |        |       | .00    |    |
+| 4 | Judah Miller    | Experience Total                     |        |       | .00    |    |
+| 4 | Kaija Gerlach   | Experience Total                     |        |       | .00    |    |
+| 4 | Jayson Njoga    | 3\. Fountain of Life, Burlington, NJ |        |       | .00    |    |
+| 5 | Austin Rompilla | Experience Total                     |        | -10   | -10    |    |
+| 6 | Isaiah Castro   | 3\. Fountain of Life, Burlington, NJ |        | -5    | -5     |    |
+
+
 
 ## MS/PD/B Division PURPLE
 
@@ -346,6 +402,41 @@ menubar_toc_static:
 | 9  | Ethan Hurst       | 2\. Redeemer Church, Utica, NY     |        | -15   | -7.5  |    |
 | 10 | Josiah Hodkinson  | 2\. Redeemer Church, Utica, NY     |        | -10   | -5    |    |
 
+## Purple Top 4 Finals
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                                               | Church | W/L | Total | Avg    |
+|--:|----------------------------------------------------|--------|-----|------:|-------:|
+| 1 | 4\. Mechanicsville Christian Cntr, Mechanicsville, |        | 3/0 | 480   | 160.00 |
+| 2 | 8\. Calvary Temple International, Wayne, NJ        |        | 2/1 | 465   | 155.00 |
+| 3 | 5\. Hamlin A/G, Lake Ariel, PA                     |        | 1/2 | 485   | 161.67 |
+| 4 | 3\. Lighthouse Christian Fellowship, Pennsburg, PA |        | 0/3 | 210   | 70.00  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer           | Team                                               | Church | Total | Avg    | QO |
+|---:|-------------------|----------------------------------------------------|--------|------:|-------:|---:|
+| 1  | Natalie Bartkow   | 5\. Hamlin A/G, Lake Ariel, PA                     |        | 395   | 131.67 | 3  |
+| 2  | Rachel Smith      | 4\. Mechanicsville Christian Cntr, Mechanicsville, |        | 325   | 108.33 | 3  |
+| 3  | Joel Botros       | 8\. Calvary Temple International, Wayne, NJ        |        | 255   | 85.00  | 2  |
+| 4  | Caleb Cook        | 8\. Calvary Temple International, Wayne, NJ        |        | 200   | 66.67  | 2  |
+| 5  | Julia Beal        | 3\. Lighthouse Christian Fellowship, Pennsburg, PA |        | 195   | 65.00  | 1  |
+| 6  | Will Rittenhouse  | 4\. Mechanicsville Christian Cntr, Mechanicsville, |        | 145   | 48.33  | 1  |
+| 7  | Ana Claflin       | 5\. Hamlin A/G, Lake Ariel, PA                     |        | 90    | 30.00  |    |
+| 8  | Karissa West      | 3\. Lighthouse Christian Fellowship, Pennsburg, PA |        | 20    | 6.67   |    |
+| 9  | Bernard Luitjohan | 4\. Mechanicsville Christian Cntr, Mechanicsville, |        | 10    | 3.33   |    |
+| 9  | Alyssa Rocha      | 8\. Calvary Temple International, Wayne, NJ        |        | 10    | 3.33   |    |
+| 10 | Melody Botros     | 8\. Calvary Temple International, Wayne, NJ        |        |       | .00    |    |
+| 10 | Luke Powers       | 3\. Lighthouse Christian Fellowship, Pennsburg, PA |        |       | .00    |    |
+| 10 | Liliana Gambino   | 8\. Calvary Temple International, Wayne, NJ        |        |       | .00    |    |
+| 10 | Kiara West        | 3\. Lighthouse Christian Fellowship, Pennsburg, PA |        |       | .00    |    |
+| 11 | Mason Powers      | 3\. Lighthouse Christian Fellowship, Pennsburg, PA |        | -5    | -1.67  |    |
+
 
 ## Red 2nd 4 Finals
 
@@ -379,4 +470,38 @@ menubar_toc_static:
 | 8 | Gavin Gray       | 6\. Mechanicsville Christian Cntr, Mechanicsville, |        |       | .00    |    |
 | 8 | Eric Carty       | 8\. Living Hope Worship Cntr, Swedesboro, NJ       |        |       | .00    |    |
 | 9 | Micah DeSanto    | 8\. Living Hope Worship Cntr, Swedesboro, NJ       |        | -15   | -15    |    |
+
+## Red Top 4 Finals
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                                 | Church | W/L | Total | Avg    |
+|--:|--------------------------------------|--------|-----|------:|-------:|
+| 1 | 7\. Green Ridge A/G, Scranton, PA    |        | 1/0 | 190   | 190.00 |
+| 2 | 5\. Smithtown, NY                    |        | 1/0 | 120   | 120.00 |
+| 3 | 9\. Maple Lane Assembly, Deposit, NY |        | 0/1 | 125   | 125.00 |
+| 4 | 1\. First A/G, Waynesburg, PA        |        | 0/1 | 60    | 60.00  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer            | Team                                 | Church | Total | Avg    | QO |
+|---:|--------------------|--------------------------------------|--------|------:|-------:|---:|
+| 1  | Rachel Bradshaw    | 7\. Green Ridge A/G, Scranton, PA    |        | 125   | 125.00 | 1  |
+| 2  | Hannah Fioramonti  | 5\. Smithtown, NY                    |        | 90    | 90.00  | 1  |
+| 3  | Aaron Rozelle      | 9\. Maple Lane Assembly, Deposit, NY |        | 80    | 80.00  | 1  |
+| 4  | Gabby Acor         | 1\. First A/G, Waynesburg, PA        |        | 50    | 50.00  |    |
+| 5  | Danielle Seymour   | 9\. Maple Lane Assembly, Deposit, NY |        | 45    | 45.00  |    |
+| 6  | Kathryn Pellegrino | 5\. Smithtown, NY                    |        | 35    | 35.00  |    |
+| 6  | Dawn Kroptavich    | 7\. Green Ridge A/G, Scranton, PA    |        | 35    | 35.00  |    |
+| 7  | Sydney Kimmel      | 7\. Green Ridge A/G, Scranton, PA    |        | 30    | 30.00  |    |
+| 8  | Joseph Benco       | 1\. First A/G, Waynesburg, PA        |        | 20    | 20.00  |    |
+| 9  | Sarah Smith        | 7\. Green Ridge A/G, Scranton, PA    |        |       | .00    |    |
+| 9  | Nathan Rozelle     | 9\. Maple Lane Assembly, Deposit, NY |        |       | .00    |    |
+| 9  | Ethan Mitchell     | 9\. Maple Lane Assembly, Deposit, NY |        |       | .00    |    |
+| 10 | Leah Miller        | 1\. First A/G, Waynesburg, PA        |        | -10   | -10    |    |
+| 11 | Thomas Clinton     | 5\. Smithtown, NY                    |        | -5    | -5     |    |
 

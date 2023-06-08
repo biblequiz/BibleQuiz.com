@@ -133,6 +133,38 @@ menubar_toc_static:
 | **\*14** | Zoe Nerquaye-Tetteh   | Chapel Springs Assembly of God Church (Bristow) #1 (Chapel Springs Assembly of God Church)  | 0     |      |    |    |
 | **\*14** | Joelle Domfeh         | Chapel Springs Assembly of God Church (Bristow) #1 (Chapel Springs Assembly of God Church)  | 0     |      |    |    |
 
+## Silver Division
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                                                         | W/L   | Total | Avg   | QO | Q% |
+|----:|---------------------------------------------------------------------------------------|-------|------:|------:|---:|---:|
+| 1.0 | Askewville Bethel Assembly of God (Windsor) #1 (Askewville Bethel Assembly of God)    | 2 / 0 | 400   | 199.9 | 1  |    |
+| 2.0 | The Defenders (Concord) (First Assembly of God)                                       | 1 / 1 | 290   | 144.9 | 1  |    |
+| 3.0 | Mechanicsville Christian Center (Mechanicsville) #2 (Mechanicsville Christian Center) | 0 / 2 | 90    | 45    |    |    |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #       | Quizzer               | Team / Church                                                                         | Total | Avg  | QO | Q% |
+|--------:|-----------------------|---------------------------------------------------------------------------------------|------:|-----:|---:|---:|
+| 1       | Austin Perry          | Askewville Bethel Assembly of God (Windsor) #1 (Askewville Bethel Assembly of God)    | 190   | 95   | 1  |    |
+| 2       | Lindsey Perry         | Askewville Bethel Assembly of God (Windsor) #1 (Askewville Bethel Assembly of God)    | 190   | 95   |    |    |
+| 3       | Miles Pierce          | The Defenders (Concord) (First Assembly of God)                                       | 115   | 57.5 | 1  |    |
+| 4       | Seth Hudson           | The Defenders (Concord) (First Assembly of God)                                       | 60    | 30   |    |    |
+| **\*4** | Lydia Hill            | The Defenders (Concord) (First Assembly of God)                                       | 60    | 30   |    |    |
+| 5       | Mary-Michael Lawrence | Mechanicsville Christian Center (Mechanicsville) #2 (Mechanicsville Christian Center) | 40    | 20   |    |    |
+| **\*5** | Berkley Adams         | Mechanicsville Christian Center (Mechanicsville) #2 (Mechanicsville Christian Center) | 40    | 20   |    |    |
+| 6       | Caleb Senthil         | The Defenders (Concord) (First Assembly of God)                                       | 35    | 17.5 |    |    |
+| 7       | Megan Pierce          | The Defenders (Concord) (First Assembly of God)                                       | 20    | 10   |    |    |
+| **\*7** | Shane Lowers          | Askewville Bethel Assembly of God (Windsor) #1 (Askewville Bethel Assembly of God)    | 20    | 10   |    |    |
+| 8       | Kaleb Stanley         | Mechanicsville Christian Center (Mechanicsville) #2 (Mechanicsville Christian Center) | 10    | 5    |    |    |
+| 9       | Malia Ray             | Mechanicsville Christian Center (Mechanicsville) #2 (Mechanicsville Christian Center) | 0     |      |    |    |
+| **\*9** | Angelia Ray           | Mechanicsville Christian Center (Mechanicsville) #2 (Mechanicsville Christian Center) | 0     |      |    |    |
+| **\*9** | Olivia Bazemore       | Askewville Bethel Assembly of God (Windsor) #1 (Askewville Bethel Assembly of God)    | 0     |      |    |    |
 
 ## Bronze Division
 

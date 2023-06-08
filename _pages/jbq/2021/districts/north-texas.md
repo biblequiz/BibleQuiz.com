@@ -112,7 +112,45 @@ menubar_toc_static:
 
 ## Beginners
 
-### Teams
+### Tier 1
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                            | W/L   | Total | Avg   | QO | Q%  |
+|----:|------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | JBQ Power Kids (Freedom Church)          | 5 / 1 | 585   | 97.5  | 3  | 84% |
+| 2.0 | David's Army (Encounter Church)          | 4 / 2 | 655   | 109.1 | 4  | 87% |
+| 3.0 | Royal Heirs (The Oaks Fellowship)        | 3 / 3 | 580   | 96.7  | 4  | 85% |
+| 4.0 | God's generation (Mountain Creek Church) | 0 / 6 | 255   | 42.5  |    | 86% |
+
+#### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer              | Team / Church                            | Total | Avg  | QO | Q%   |
+|---------:|----------------------|------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Michael Wirth        | Royal Heirs (The Oaks Fellowship)        | 310   | 51.7 | 3  | 88%  |
+| 2        | Reagan Williamson    | JBQ Power Kids (Freedom Church)          | 295   | 49.2 | 3  | 90%  |
+| 3        | Ariella Fortygin     | David's Army (Encounter Church)          | 285   | 47.5 | 3  | 90%  |
+| 4        | Abigail Lapusan      | Royal Heirs (The Oaks Fellowship)        | 270   | 45   | 1  | 81%  |
+| 5        | Isabella Berlinkskiy | David's Army (Encounter Church)          | 245   | 40.8 | 1  | 79%  |
+| 6        | Victoria Perciado    | God's generation (Mountain Creek Church) | 225   | 37.5 |    | 84%  |
+| 7        | Diana Morland        | JBQ Power Kids (Freedom Church)          | 200   | 33.3 |    | 91%  |
+| 8        | Kaylie Fortygin      | David's Army (Encounter Church)          | 125   | 20.8 |    | 93%  |
+| 9        | Addie Osborn         | JBQ Power Kids (Freedom Church)          | 55    | 9.2  |    | 86%  |
+| 10       | Caleb Mincks         | JBQ Power Kids (Freedom Church)          | 35    | 5.8  |    | 50%  |
+| 11       | Hannah Gonzales      | God's generation (Mountain Creek Church) | 20    | 3.3  |    | 100% |
+| 12       | Irene Ortiz          | God's generation (Mountain Creek Church) | 10    | 1.7  |    | 99%  |
+| 13       | Joel Andrade         | JBQ Power Kids (Freedom Church)          | 0     |      |    |      |
+| **\*13** | Layla Gaston         | David's Army (Encounter Church)          | 0     |      |    |      |
+| **\*13** | Cooper Gaston        | David's Army (Encounter Church)          | 0     |      |    |      |
+| **\*13** | Violet Cano          | Royal Heirs (The Oaks Fellowship)        | 0     |      |    |      |
+
+### Tier 2
+
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -125,7 +163,7 @@ menubar_toc_static:
 | 5.0 | The Elected (Mountain Creek Church)      | 1 / 4 | 275   | 55  | 2  | 72%  |
 | 6.0 | The 12 Apostles (Holy Ghost)             | 0 / 5 | 10    | 2   |    | 100% |
 
-### Individuals
+#### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 

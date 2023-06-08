@@ -716,6 +716,44 @@ menubar_toc_static:
 | 23 | Andrea Little        | Grace Assembly of God | Grace A/G (New Whiteland, IN)                |       | .00   |    |
 | 24 | Vincent Hall-Shipley | New Life C.L.A.Y.     | New Life Church (Billings, MT)               | -20   | -4    |    |
 
+### Cherry
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                      | Church                                  | W/L | Total | Avg    |
+|--:|---------------------------|-----------------------------------------|-----|------:|-------:|
+| 1 | Awesome Bible Competitors | Victory A/G (Universal City, TX)        | 4/0 | 750   | 187.50 |
+| 2 | Lifepointe Miners         | Lifepointe Church (Prescott Valley, AZ) | 3/1 | 705   | 176.25 |
+| 3 | Light                     | World Harvest (Roswell, GA)             | 2/2 | 535   | 133.75 |
+| 4 | Wild Things               | Glad Tidings Church (Hanford, CA)       | 1/3 | 400   | 100.00 |
+| 5 | God's Victory Kids        | Victory A/G (Universal City, TX)        | 0/4 | 230   | 57.50  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer             | Team                      | Church                                  | Total | Avg    | QO |
+|---:|---------------------|---------------------------|-----------------------------------------|------:|-------:|---:|
+| 1  | Weslee Kate Green   | Lifepointe Miners         | Lifepointe Church (Prescott Valley, AZ) | 400   | 100.00 | 2  |
+| 2  | Mary Frances Harris | Awesome Bible Competitors | Victory A/G (Universal City, TX)        | 300   | 75.00  | 1  |
+| 3  | Robert Brock        | Wild Things               | Glad Tidings Church (Hanford, CA)       | 250   | 62.50  | 1  |
+| 4  | Brittany Steinberg  | Awesome Bible Competitors | Victory A/G (Universal City, TX)        | 250   | 62.50  |    |
+| 5  | Daniel Ferreira     | Light                     | World Harvest (Roswell, GA)             | 230   | 57.50  |    |
+| 6  | Dayna Burns         | Lifepointe Miners         | Lifepointe Church (Prescott Valley, AZ) | 180   | 45.00  | 1  |
+| 7  | Cody Goodwyn        | Awesome Bible Competitors | Victory A/G (Universal City, TX)        | 175   | 43.75  | 2  |
+| 8  | Grace Artis         | Light                     | World Harvest (Roswell, GA)             | 155   | 38.75  | 1  |
+| 9  | Trent Stafford      | Wild Things               | Glad Tidings Church (Hanford, CA)       | 150   | 37.50  | 2  |
+| 10 | Cristian Huix       | Light                     | World Harvest (Roswell, GA)             | 150   | 37.50  | 1  |
+| 11 | Nathan Green        | Lifepointe Miners         | Lifepointe Church (Prescott Valley, AZ) | 125   | 31.25  |    |
+| 12 | Zach Wylie          | God's Victory Kids        | Victory A/G (Universal City, TX)        | 90    | 22.50  |    |
+| 13 | Noah Harris         | God's Victory Kids        | Victory A/G (Universal City, TX)        | 85    | 21.25  |    |
+| 14 | Paul Russell, Jr.   | God's Victory Kids        | Victory A/G (Universal City, TX)        | 40    | 10.00  |    |
+| 15 | Jakob Schweizerhoff | God's Victory Kids        | Victory A/G (Universal City, TX)        | 20    | 5.00   |    |
+| 16 | Rudy Narvaez        | Awesome Bible Competitors | Victory A/G (Universal City, TX)        | 15    | 3.75   |    |
+| 17 | Micah Rodriguez     | Awesome Bible Competitors | Victory A/G (Universal City, TX)        | 10    | 2.50   |    |
+| 18 | Kasie Narvaez       | God's Victory Kids        | Victory A/G (Universal City, TX)        | -5    | -1.25  |    |
 
 ### Cream
 
@@ -932,6 +970,46 @@ menubar_toc_static:
 | 23 | Darcie Harr                   | Greater Lansing   | 1st A/G (East Lansing, MI)         |       | .00    |    |
 | 23 | Sara Gaither                  | Ashland           | 1st A/G (Ashland, AL)              |       | .00    |    |
 
+### Lime
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                | Church                      | W/L | Total | Avg    |
+|--:|---------------------|-----------------------------|-----|------:|-------:|
+| 1 | Bible Worms         | 1st A/G (Dumas,TX)          | 3/1 | 695   | 173.75 |
+| 2 | Lebanon Swordsmen   | 1st A/G (Lebanon, MO)       | 3/1 | 625   | 156.25 |
+| 3 | Phoenix First Frogs | 1st A/G (Phoenix, AZ)       | 2/2 | 555   | 138.75 |
+| 4 | Quiztastic Four     | Tiffany Fellowship (KC, MO) | 1/3 | 430   | 107.50 |
+| 5 | Cordova             | 1st A/G (Cordova, TN)       | 1/3 | 305   | 76.25  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer           | Team                | Church                      | Total | Avg    | QO |
+|---:|-------------------|---------------------|-----------------------------|------:|-------:|---:|
+| 1  | Chris Collins     | Lebanon Swordsmen   | 1st A/G (Lebanon, MO)       | 430   | 107.50 | 2  |
+| 2  | Maggie Akins      | Bible Worms         | 1st A/G (Dumas,TX)          | 370   | 92.50  | 1  |
+| 3  | Connor Ferguson   | Quiztastic Four     | Tiffany Fellowship (KC, MO) | 220   | 55.00  | 1  |
+| 4  | Bethany Lane      | Phoenix First Frogs | 1st A/G (Phoenix, AZ)       | 210   | 52.50  |    |
+| 5  | Sarah Lane        | Phoenix First Frogs | 1st A/G (Phoenix, AZ)       | 205   | 51.25  | 1  |
+| 6  | Nicholas Clemens  | Bible Worms         | 1st A/G (Dumas,TX)          | 175   | 43.75  | 1  |
+| 7  | Daniel Deppe      | Cordova             | 1st A/G (Cordova, TN)       | 150   | 37.50  | 1  |
+| 8  | James Lane        | Phoenix First Frogs | 1st A/G (Phoenix, AZ)       | 140   | 35.00  | 1  |
+| 9  | Dugan Akins       | Bible Worms         | 1st A/G (Dumas,TX)          | 120   | 30.00  |    |
+| 9  | Jared Deppe       | Cordova             | 1st A/G (Cordova, TN)       | 120   | 30.00  |    |
+| 10 | Tyler Lake        | Quiztastic Four     | Tiffany Fellowship (KC, MO) | 100   | 25.00  |    |
+| 11 | Jordan Birmingham | Quiztastic Four     | Tiffany Fellowship (KC, MO) | 95    | 23.75  | 1  |
+| 12 | Cody Collins      | Lebanon Swordsmen   | 1st A/G (Lebanon, MO)       | 80    | 20.00  | 1  |
+| 13 | Isaac Reading     | Lebanon Swordsmen   | 1st A/G (Lebanon, MO)       | 60    | 15.00  |    |
+| 14 | Nicole Bradberry  | Cordova             | 1st A/G (Cordova, TN)       | 35    | 8.75   |    |
+| 14 | Emily Rogers      | Lebanon Swordsmen   | 1st A/G (Lebanon, MO)       | 35    | 8.75   |    |
+| 15 | Ashli Sauer       | Bible Worms         | 1st A/G (Dumas,TX)          | 30    | 7.50   |    |
+| 16 | Alisa Rosen       | Lebanon Swordsmen   | 1st A/G (Lebanon, MO)       | 20    | 5.00   |    |
+| 17 | Brendan Ferguson  | Quiztastic Four     | Tiffany Fellowship (KC, MO) | 15    | 3.75   |    |
+| 18 | Abbigail Vaughan  | Cordova             | 1st A/G (Cordova, TN)       | 10    | 2.50   |    |
 
 ### Orange
 
@@ -1152,6 +1230,45 @@ menubar_toc_static:
 | 22 | Michael Webb         | The Giant Smarties          | Bethel Temple A/G (Huntington, WV) |       | .00    |    |
 | 22 | Laura Henderson      | Harrison Thrashers          | Faith A/G (Harrison, AR)           |       | .00    |    |
 
+### Teal
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                   | Church                        | W/L | Total | Avg    |
+|--:|------------------------|-------------------------------|-----|------:|-------:|
+| 1 | Status Update          | 1st A/G (Fargo, ND)           | 3/1 | 750   | 187.50 |
+| 2 | Justified Gems         | Evangel (Columbus, MS)        | 3/1 | 710   | 177.50 |
+| 3 | Westgate Chapel A Team | Westgate Chapel (Edmonds, WA) | 3/1 | 690   | 172.50 |
+| 4 | Get Smart              | 1st A/G (Des Moines, IA)      | 1/3 | 515   | 128.75 |
+| 5 | IAG Seals              | International A/G (Mesa, AZ)  | 0/4 | 130   | 32.50  |
+
+#### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer           | Team                   | Church                        | Total | Avg   | QO |
+|---:|-------------------|------------------------|-------------------------------|------:|------:|---:|
+| 1  | Trent Hashimoto   | Westgate Chapel A Team | Westgate Chapel (Edmonds, WA) | 350   | 87.50 | 2  |
+| 2  | Carson Nix        | Status Update          | 1st A/G (Fargo, ND)           | 295   | 73.75 | 1  |
+| 3  | Garrett Miyaoka   | Westgate Chapel A Team | Westgate Chapel (Edmonds, WA) | 250   | 62.50 |    |
+| 4  | Micah Marchand    | Status Update          | 1st A/G (Fargo, ND)           | 245   | 61.25 | 1  |
+| 5  | Aaron Marchand    | Status Update          | 1st A/G (Fargo, ND)           | 210   | 52.50 | 2  |
+| 6  | Cameron Wilcox    | Justified Gems         | Evangel (Columbus, MS)        | 190   | 47.50 |    |
+| 7  | Noah Ridgway      | Get Smart              | 1st A/G (Des Moines, IA)      | 180   | 45.00 | 1  |
+| 8  | Sophia Ridgway    | Get Smart              | 1st A/G (Des Moines, IA)      | 170   | 42.50 |    |
+| 9  | Emilee Wilcox     | Justified Gems         | Evangel (Columbus, MS)        | 165   | 41.25 |    |
+| 10 | Amelia Dixon      | Get Smart              | 1st A/G (Des Moines, IA)      | 145   | 36.25 | 1  |
+| 11 | Caleb Brewer      | Justified Gems         | Evangel (Columbus, MS)        | 130   | 32.50 | 2  |
+| 12 | Kathryn Mackey    | Justified Gems         | Evangel (Columbus, MS)        | 125   | 31.25 |    |
+| 13 | Billy Brewer      | Justified Gems         | Evangel (Columbus, MS)        | 100   | 25.00 | 1  |
+| 14 | Ashley Theesfeld  | IAG Seals              | International A/G (Mesa, AZ)  | 90    | 22.50 |    |
+| 15 | Nicholas Tveit    | Westgate Chapel A Team | Westgate Chapel (Edmonds, WA) | 60    | 15.00 |    |
+| 16 | Madyson Theesfeld | IAG Seals              | International A/G (Mesa, AZ)  | 40    | 10.00 |    |
+| 17 | Isabelle Smith    | Westgate Chapel A Team | Westgate Chapel (Edmonds, WA) | 30    | 7.50  |    |
+| 18 | Lola Phillips     | Get Smart              | 1st A/G (Des Moines, IA)      | 20    | 5.00  |    |
+| 19 | Justin Cheriyan   | IAG Seals              | International A/G (Mesa, AZ)  |       | .00   |    |
 
 ### White
 

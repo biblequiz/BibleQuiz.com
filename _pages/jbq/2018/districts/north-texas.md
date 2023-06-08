@@ -77,10 +77,11 @@ menubar_toc_static:
 | **\*33** | Abigail Koch       | Guardians of the Gospel (First @ Firewheel) | 0     |       |    |     |
 | 34       | Judith Ramesh      | Guardians of the Gospel (First @ Firewheel) | -10   | -1.4  |    |     |
 
+## Beginner
 
-## Beginner - Emerald
+### Emerald
 
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -93,7 +94,7 @@ menubar_toc_static:
 | 5.0 | Iron Force (The Oaks Church)                    | 1 / 3 | 180   | 45    | 1  | 78% |
 | 6.0 | Genesis (Little Elm - The Crossing)             | 0 / 4 | 90    | 22.5  |    | 82% |
 
-### Individuals
+#### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
@@ -124,10 +125,90 @@ menubar_toc_static:
 | **\*18** | Talom Ima         | Genesis (Little Elm - The Crossing)             | 0     |      |    |      |
 | 19       | Trinaty Blocker   | Iron Force (The Oaks Church)                    | -5    | -1.3 |    | 25%  |
 
+### Pearl
 
-## Beginner - Sapphire
+#### Teams
 
-### Teams
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                            | W/L   | Total | Avg   | QO | Q%  |
+|----:|------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Lion Warriors (The Oaks Church)          | 3 / 1 | 540   | 135   | 5  | 95% |
+| 2.0 | Transform (First @ Firewheel)            | 3 / 1 | 515   | 128.7 | 4  | 83% |
+| 3.0 | God\'s Knights (Dripping Springs UMC)    | 3 / 1 | 340   | 85    | 2  | 86% |
+| 4.0 | Quiz Kids (Freedom Church)               | 2 / 2 | 385   | 96.2  | 3  | 85% |
+| 5.0 | Victorious Bible Lions (The Oaks Church) | 1 / 3 | 65    | 16.2  |    | 69% |
+| 6.0 | Starburst (Casa View)                    | 0 / 4 | 100   | 25    |    | 75% |
+
+#### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer         | Team / Church                            | Total | Avg  | QO | Q%   |
+|---------:|-----------------|------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Michael Schmude | Lion Warriors (The Oaks Church)          | 275   | 68.8 | 3  | 96%  |
+| 2        | Joel Maddox     | Lion Warriors (The Oaks Church)          | 260   | 65   | 2  | 94%  |
+| 3        | Emmett Taylor   | God\'s Knights (Dripping Springs UMC)    | 220   | 55   | 2  | 90%  |
+| 4        | Simon Solomon   | Transform (First @ Firewheel)            | 210   | 52.5 | 2  | 81%  |
+| 5        | Ian Ciruelos    | Quiz Kids (Freedom Church)               | 175   | 43.8 | 2  | 82%  |
+| 6        | Seth Thomas     | Quiz Kids (Freedom Church)               | 160   | 40   | 1  | 85%  |
+| 7        | Nathan Moges    | Transform (First @ Firewheel)            | 145   | 36.3 | 1  | 91%  |
+| 8        | Alex Lopez      | Transform (First @ Firewheel)            | 135   | 33.8 | 1  | 82%  |
+| 9        | Micah Marroquin | Victorious Bible Lions (The Oaks Church) | 70    | 17.5 |    | 87%  |
+| **\*9**  | Charlotte Smith | God\'s Knights (Dripping Springs UMC)    | 70    | 17.5 |    | 75%  |
+| **\*9**  | Jayden Esparza  | Starburst (Casa View)                    | 70    | 17.5 |    | 69%  |
+| 10       | James Moreland  | Quiz Kids (Freedom Church)               | 50    | 12.5 |    | 100% |
+| **\*10** | Jaya Gastineau  | God\'s Knights (Dripping Springs UMC)    | 50    | 12.5 |    | 86%  |
+| 11       | Chizaram Echefu | Transform (First @ Firewheel)            | 30    | 7.5  |    | 100% |
+| **\*11** | Camila Romero   | Starburst (Casa View)                    | 30    | 7.5  |    | 100% |
+| 12       | Gabriel Schmude | Victorious Bible Lions (The Oaks Church) | 15    | 3.8  |    | 66%  |
+| 13       | Lawson Haynes   | Lion Warriors (The Oaks Church)          | 10    | 2.5  |    | 99%  |
+| 14       | Addie Osborn    | Quiz Kids (Freedom Church)               | 0     |      |    |      |
+| **\*14** | Chinasa Ayozie  | Transform (First @ Firewheel)            | 0     |      |    |      |
+| **\*14** | Jackson Robson  | Lion Warriors (The Oaks Church)          | 0     |      |    |      |
+| 15       | Jonny Janssens  | Victorious Bible Lions (The Oaks Church) | -20   | -5   |    |      |
+
+
+### Ruby
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                     | W/L   | Total | Avg | QO | Q%   |
+|----:|-----------------------------------|-------|------:|----:|---:|-----:|
+| 1.0 | Rhema (Little Elm - The Crossing) | 4 / 0 | 580   | 145 | 3  | 84%  |
+| 2.0 | LifeKids (LIFEchurch )            | 4 / 1 | 545   | 109 | 5  | 80%  |
+| 3.0 | Gospel Gladiators (Hope Church)   | 1 / 3 | 260   | 65  | 1  | 79%  |
+| 4.0 | ProjecT 4:12 (The Oaks Church)    | 0 / 5 | 170   | 34  |    | 100% |
+
+#### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer          | Team / Church                     | Total | Avg  | QO | Q%   |
+|---------:|------------------|-----------------------------------|------:|-----:|---:|-----:|
+| 1        | Eli Miller       | Rhema (Little Elm - The Crossing) | 230   | 57.5 | 3  | 85%  |
+| 2        | Jeremiah Webb    | LifeKids (LIFEchurch )            | 265   | 53   | 2  | 79%  |
+| 3        | Michael Gillelan | Gospel Gladiators (Hope Church)   | 210   | 52.5 | 1  | 80%  |
+| 4        | Ryland Sawyer    | LifeKids (LIFEchurch )            | 235   | 47   | 3  | 79%  |
+| 5        | David Kadari     | Rhema (Little Elm - The Crossing) | 180   | 45   |    | 83%  |
+| 6        | Harrison Miller  | Rhema (Little Elm - The Crossing) | 95    | 23.8 |    | 79%  |
+| 7        | Abigail Corder   | Rhema (Little Elm - The Crossing) | 75    | 18.8 |    | 89%  |
+| 8        | Sydney Haynes    | ProjecT 4:12 (The Oaks Church)    | 80    | 16   |    | 100% |
+| 9        | Marcos Marroquin | ProjecT 4:12 (The Oaks Church)    | 70    | 14   |    | 100% |
+| 10       | Sarah Johnson    | Gospel Gladiators (Hope Church)   | 30    | 7.5  |    | 67%  |
+| 11       | Mylie Dobson     | LifeKids (LIFEchurch )            | 35    | 7    |    | 80%  |
+| 12       | Karrington Allen | ProjecT 4:12 (The Oaks Church)    | 20    | 4    |    | 100% |
+| 13       | Sarah Bryant     | Gospel Gladiators (Hope Church)   | 10    | 2.5  |    | 99%  |
+| **\*13** | Kayden Spurgeon  | Gospel Gladiators (Hope Church)   | 10    | 2.5  |    | 99%  |
+| 14       | Andre Dobson     | LifeKids (LIFEchurch )            | 10    | 2    |    | 99%  |
+| 15       | Ethan Janssens   | ProjecT 4:12 (The Oaks Church)    | 0     |      |    |      |
+| **\*15** | Xavier McCoy     | Rhema (Little Elm - The Crossing) | 0     |      |    |      |
+
+### Sapphire
+
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -140,7 +221,7 @@ menubar_toc_static:
 | 5.0 | Word Warriors - Hope Church (Hope Church)  | 1 / 3 | 150   | 37.5  | 1  | 88% |
 | 6.0 | Word Warriors - Dallas 1st (Dallas 1st AG) | 0 / 4 | 210   | 52.5  |    | 85% |
 
-### Individuals
+#### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 

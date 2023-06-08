@@ -12,8 +12,9 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
+## Experienced Division
 
-## Teams
+### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -26,7 +27,7 @@ menubar_toc_static:
 | 5.0 | Wilmington Warriors A (New Hanover Church) | 1 / 4 | 540   | 108 | 1  | 70% |
 | 6.0 | Askewville ( )                             | 0 / 5 | 140   | 28  |    | 73% |
 
-## Individuals
+### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
@@ -57,3 +58,39 @@ menubar_toc_static:
 | 22       | Leah Salazar       | Greater Life (Greater Life)                | -5    | -1  |    |      |
 | 23       | Olivia Bazemore    | Askewville ( )                             | -10   | -2  |    |      |
 
+## Novice Division
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church               | W/L   | Total | Avg   | QO | Q%  |
+|----:|-----------------------------|-------|------:|------:|---:|----:|
+| 1.1 | Genesis B (Calvary Church)  | 5 / 1 | 1040  | 173.3 | 9  | 86% |
+| 2.1 | CICF Team Cross (CICF)      | 5 / 1 | 935   | 155.8 | 1  | 81% |
+| 3.0 | CICF Royals (CICF)          | 2 / 4 | 760   | 126.6 | 4  | 82% |
+| 4.0 | Rocky Mount B (Rocky Mount) | 0 / 6 | 230   | 38.3  |    | 80% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer            | Team / Church               | Total | Avg  | QO | Q%   |
+|---------:|--------------------|-----------------------------|------:|-----:|---:|-----:|
+| 1        | Timothy Anandkumar | CICF Team Cross (CICF)      | 495   | 82.5 | 1  | 87%  |
+| 2        | Naysa Rapaka       | Genesis B (Calvary Church)  | 465   | 77.5 | 3  | 91%  |
+| 3        | Jovan Abraham      | CICF Royals (CICF)          | 450   | 75   | 2  | 85%  |
+| 4        | Nikitha Vanguri    | Genesis B (Calvary Church)  | 340   | 56.7 | 4  | 79%  |
+| 5        | Aanya Boopathi     | Genesis B (Calvary Church)  | 235   | 39.2 | 2  | 87%  |
+| 6        | Karunia Thomas     | CICF Royals (CICF)          | 220   | 36.7 | 2  | 79%  |
+| 7        | Jonas Hall         | Rocky Mount B (Rocky Mount) | 210   | 35   |    | 78%  |
+| 8        | Sanay Kantimahanti | CICF Team Cross (CICF)      | 185   | 30.8 |    | 72%  |
+| 9        | Josh Winsley       | CICF Team Cross (CICF)      | 175   | 29.2 |    | 79%  |
+| 10       | Sahas Kantimahanti | CICF Team Cross (CICF)      | 85    | 14.2 |    | 100% |
+| 11       | Jolennah Raj       | CICF Royals (CICF)          | 50    | 8.3  |    | 100% |
+| 12       | Rafael Gershom     | CICF Royals (CICF)          | 45    | 7.5  |    | 75%  |
+| 13       | Simon Hall         | Rocky Mount B (Rocky Mount) | 10    | 1.7  |    | 99%  |
+| **\*13** | Faith Jackson      | Rocky Mount B (Rocky Mount) | 10    | 1.7  |    | 99%  |
+| 14       | Myasia             | Rocky Mount B (Rocky Mount) | 0     |      |    |      |
+| **\*14** | Rufus Joel         | CICF Royals (CICF)          | 0     |      |    |      |
+| **\*14** | Shravya Maddala    | Genesis B (Calvary Church)  | 0     |      |    |      |

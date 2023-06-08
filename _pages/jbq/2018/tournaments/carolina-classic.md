@@ -130,3 +130,44 @@ menubar_toc_static:
 | **\*17** | Carson Sandberg    | SPY Kids (The Worship Center)                      | 0     |      |    |      |
 | 18       | Lynsey Bazemore    | Askewville (Bethel AG)                             | -5    | -1.3 |    |      |
 
+## Silver Division
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                         | W/L   | Total | Avg   | QO | Q%  |
+|----:|-------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Contagious Kindness (Mechanicsville Christian Center) | 4 / 0 | 930   | 232.4 | 3  | 93% |
+| 2.0 | Team-Concord cfa church (Concord cfa church)          | 3 / 1 | 620   | 155   | 3  | 88% |
+| 3.0 | Gushers Team A (Chapel Springs Church)                | 1 / 3 | 435   | 108.7 | 1  | 67% |
+| 4.0 | Guardians of the Gospel (LIFE Church AG)              | 1 / 3 | 390   | 97.5  | 1  | 74% |
+| 5.0 | Angel Warriors (Marion Iglesia Bethel)                | 1 / 3 | 345   | 86.2  | 2  | 73% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer          | Team / Church                                         | Total | Avg   | QO | Q%   |
+|---------:|------------------|-------------------------------------------------------|------:|------:|---:|-----:|
+| 1        | Angel Walker     | Contagious Kindness (Mechanicsville Christian Center) | 415   | 103.8 | 1  | 95%  |
+| 2        | Izlia Shepard    | Angel Warriors (Marion Iglesia Bethel)                | 335   | 83.8  | 2  | 72%  |
+| 3        | Savannah Harper  | Contagious Kindness (Mechanicsville Christian Center) | 285   | 71.3  |    | 84%  |
+| 4        | Gabe Hudson      | Team-Concord cfa church (Concord cfa church)          | 230   | 57.5  | 3  | 85%  |
+| 5        | Andea Mason      | Gushers Team A (Chapel Springs Church)                | 210   | 52.5  |    | 70%  |
+| 6        | Berkley Adams    | Contagious Kindness (Mechanicsville Christian Center) | 200   | 50    | 2  | 100% |
+| 7        | Lydia Hill       | Team-Concord cfa church (Concord cfa church)          | 200   | 50    |    | 100% |
+| **\*7**  | Chloe Bowden     | Guardians of the Gospel (LIFE Church AG)              | 200   | 50    |    | 68%  |
+| 8        | Kayleigh Henley  | Gushers Team A (Chapel Springs Church)                | 150   | 37.5  | 1  | 65%  |
+| 9        | Seth Hudson      | Team-Concord cfa church (Concord cfa church)          | 110   | 27.5  |    | 86%  |
+| 10       | Abby Thomas      | Guardians of the Gospel (LIFE Church AG)              | 95    | 23.8  | 1  | 90%  |
+| 11       | Leah Sowers      | Guardians of the Gospel (LIFE Church AG)              | 95    | 23.8  |    | 73%  |
+| 12       | Charlotte Smith  | Team-Concord cfa church (Concord cfa church)          | 80    | 20    |    | 87%  |
+| 13       | Audrey Mason     | Gushers Team A (Chapel Springs Church)                | 55    | 13.8  |    | 86%  |
+| 14       | Malia Ray        | Contagious Kindness (Mechanicsville Christian Center) | 30    | 7.5   |    | 100% |
+| 15       | Christina Thomas | Gushers Team A (Chapel Springs Church)                | 20    | 5     |    | 50%  |
+| 16       | Dorothy Shepard  | Angel Warriors (Marion Iglesia Bethel)                | 10    | 2.5   |    | 99%  |
+| 17       | Belva Fianko     | Gushers Team A (Chapel Springs Church)                | 0     |       |    |      |
+| **\*17** | Shammah Shepard  | Angel Warriors (Marion Iglesia Bethel)                | 0     |       |    |      |
+| **\*17** | Caleb Urbina     | Angel Warriors (Marion Iglesia Bethel)                | 0     |       |    |      |
+

@@ -57,6 +57,57 @@ menubar_toc_static:
 | 20 | Ella Lovell          | Bella Vista The Jesus League K-2 | Bella Vista        | 20    | 3.33   |    |
 | 21 | Isaiah Mata          | Trinity Believers K-2            | Trinity Fellowship | 15    | 2.50   |    |
 
+## North Central Area - 2nd & Under
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team      | Church        | W/L | Total | Avg   |
+|--:|-----------|---------------|-----|------:|------:|
+| 1 | McArthur  | McArthur      | 2/0 | 195   | 97.50 |
+| 2 | New Life  | New Life      | 1/1 | 90    | 45.00 |
+| 3 | Buzz Hogs | River of Life | 0/2 | 40    | 20.00 |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| # | Quizzer         | Team      | Church        | Total | Avg   | QO |
+|--:|-----------------|-----------|---------------|------:|------:|---:|
+| 1 | Elijah Yates    | McArthur  | McArthur      | 105   | 52.50 | 1  |
+| 2 | Skyla Cope      | New Life  | New Life      | 60    | 30.00 |    |
+| 2 | ReeceAnn Folsom | McArthur  | McArthur      | 60    | 30.00 |    |
+| 3 | Josiah Minick   | Buzz Hogs | River of Life | 40    | 20.00 |    |
+| 4 | Neaeh Watson    | New Life  | New Life      | 30    | 15.00 |    |
+| 4 | Alexa Harvey    | McArthur  | McArthur      | 30    | 15.00 |    |
+
+## North Central Area - 3rd & 4th Grade
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team           | Church          | W/L | Total | Avg    |
+|--:|----------------|-----------------|-----|------:|-------:|
+| 1 | Bethel Bombers | Bethel Assembly | 2/0 | 320   | 160.00 |
+| 2 | New Life       | New Life        | 1/1 | 190   | 95.00  |
+| 3 | Mcarthur       | McArthur        | 0/2 | 190   | 95.00  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| # | Quizzer          | Team           | Church          | Total | Avg    | QO |
+|--:|------------------|----------------|-----------------|------:|-------:|---:|
+| 1 | Colton Rosenbaum | Bethel Bombers | Bethel Assembly | 280   | 140.00 | 2  |
+| 2 | Jacob Eckart     | New Life       | New Life        | 120   | 60.00  |    |
+| 3 | Hannah Harvey    | Mcarthur       | McArthur        | 100   | 50.00  | 1  |
+| 4 | Sara Swain       | Mcarthur       | McArthur        | 95    | 47.50  |    |
+| 5 | Nathan Dickerson | New Life       | New Life        | 70    | 35.00  |    |
+| 6 | Bradley Sims     | Bethel Bombers | Bethel Assembly | 30    | 15.00  |    |
+| 7 | Carter Higgins   | Mcarthur       | McArthur        | 10    | 5.00   |    |
+| 7 | Addyson Herbert  | Bethel Bombers | Bethel Assembly | 10    | 5.00   |    |
 
 ## North Central Area - 5th & 6th Grade
 
@@ -89,6 +140,37 @@ menubar_toc_static:
 | 10 | Madelyn Brandon  | G Force    | McArthur      | 20    | 6.67   |    |
 | 11 | Kristana Phipps  | New Life   | New Life      | 5     | 1.67   |    |
 
+## Northwest Area - 3rd & 4th Grade
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by AVERAGE)*
+
+| # | Team                         | Church             | W/L | Total | Avg    |
+|--:|------------------------------|--------------------|-----|------:|-------:|
+| 1 | Rogers 1st 3-4               | Rogers 1st         | 3/0 | 795   | 265.00 |
+| 2 | Harrison Faith 3-4           | Harrison Faith     | 2/1 | 540   | 180.00 |
+| 3 | Bella Vista Bible Ninjas 3-4 | Bella Vista        | 1/2 | 460   | 153.33 |
+| 4 | Trinity Truth Followers 3-4  | Trinity Fellowship | 0/3 | 100   | 33.33  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by AVERAGE)*
+
+| #  | Quizzer          | Team                         | Church             | Total | Avg    | QO |
+|---:|------------------|------------------------------|--------------------|------:|-------:|---:|
+| 1  | Jayden Reed      | Rogers 1st 3-4               | Rogers 1st         | 360   | 120.00 | 2  |
+| 2  | Hannah Cheney    | Rogers 1st 3-4               | Rogers 1st         | 345   | 115.00 | 3  |
+| 3  | Kadence Still    | Harrison Faith 3-4           | Harrison Faith     | 230   | 76.67  | 1  |
+| 4  | Caleb Cunningham | Bella Vista Bible Ninjas 3-4 | Bella Vista        | 220   | 73.33  | 1  |
+| 5  | Lucas Paul       | Harrison Faith 3-4           | Harrison Faith     | 210   | 70.00  |    |
+| 6  | Norah Rustad     | Bella Vista Bible Ninjas 3-4 | Bella Vista        | 195   | 65.00  | 1  |
+| 7  | Kaedon Roberts   | Harrison Faith 3-4           | Harrison Faith     | 100   | 33.33  | 1  |
+| 8  | Landon Manweiler | Rogers 1st 3-4               | Rogers 1st         | 90    | 30.00  | 1  |
+| 9  | Hayden Kellhofer | Trinity Truth Followers 3-4  | Trinity Fellowship | 70    | 23.33  |    |
+| 10 | Maddie Lovell    | Bella Vista Bible Ninjas 3-4 | Bella Vista        | 45    | 15.00  |    |
+| 11 | Bella Bruton     | Trinity Truth Followers 3-4  | Trinity Fellowship | 20    | 6.67   |    |
+| 12 | Noah Hernandez   | Trinity Truth Followers 3-4  | Trinity Fellowship | 10    | 3.33   |    |
 
 ## Northwest Area - 5th & 6th Grade
 
