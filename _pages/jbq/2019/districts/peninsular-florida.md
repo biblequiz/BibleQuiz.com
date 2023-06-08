@@ -390,3 +390,45 @@ menubar_toc_static:
 | 15       | Ian Scott         | Warriors for Jesus of City Church of Orlando (City Church of Orlando) | -5    | -1  |    |    |
 | 16       | Zion Small        | Christian Life Center (Fort Lauderdale) #3 (Christian Life Center)    | -15   | -3  |    |    |
 
+
+## Flight X2
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                                                        | W/L   | Total | Avg  | QO | Q% |
+|----:|--------------------------------------------------------------------------------------|-------|------:|-----:|---:|---:|
+| 1.1 | Oxford - Young Bucks #3 (Oxford Assembly of God)                                     | 4 / 1 | 480   | 96   | 6  |    |
+| 2.1 | New Life Assembly (Lehigh) X League (New Life Assembly)                              | 4 / 1 | 475   | 95   | 5  |    |
+| 3.1 | Ocala X-Men (First Assembly of God)                                                  | 1 / 3 | 290   | 72.5 | 3  |    |
+| 4.0 | Highpoint HalfPints Highpoint Church (Port Saint Lucie) (Highpoint Community Church) | 2 / 3 | 165   | 33   |    |    |
+| 5.0 | First Assembly Deland (Deland) #3 (First Assembly Deland)                            | 1 / 4 | 170   | 34   |    |    |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer           | Team / Church                                                                        | Total | Avg  | QO | Q% |
+|---------:|-------------------|--------------------------------------------------------------------------------------|------:|-----:|---:|---:|
+| 1        | Emmett Strickland | Oxford - Young Bucks #3 (Oxford Assembly of God)                                     | 325   | 65   | 5  |    |
+| 2        | JJ Parrales       | Ocala X-Men (First Assembly of God)                                                  | 250   | 62.5 | 3  |    |
+| 3        | Daniel Fernandez  | New Life Assembly (Lehigh) X League (New Life Assembly)                              | 245   | 49   | 3  |    |
+| 4        | Kayden Alicea     | New Life Assembly (Lehigh) X League (New Life Assembly)                              | 230   | 46   | 2  |    |
+| 5        | Joel Blades       | First Assembly Deland (Deland) #3 (First Assembly Deland)                            | 140   | 28   |    |    |
+| 6        | Josiah Hamblen    | Oxford - Young Bucks #3 (Oxford Assembly of God)                                     | 130   | 26   | 1  |    |
+| 7        | Caleb Sullivan    | Highpoint HalfPints Highpoint Church (Port Saint Lucie) (Highpoint Community Church) | 105   | 21   |    |    |
+| 8        | Lucas Serrano     | Highpoint HalfPints Highpoint Church (Port Saint Lucie) (Highpoint Community Church) | 60    | 12   |    |    |
+| 9        | Aiden Root        | Ocala X-Men (First Assembly of God)                                                  | 45    | 11.3 |    |    |
+| 10       | Kindle Blades     | First Assembly Deland (Deland) #3 (First Assembly Deland)                            | 30    | 6    |    |    |
+| 11       | Eli Hahn          | Oxford - Young Bucks #3 (Oxford Assembly of God)                                     | 25    | 5    |    |    |
+| 12       | Kinzli Capel      | First Assembly Deland (Deland) #3 (First Assembly Deland)                            | 0     |      |    |    |
+| **\*12** | Yemi Fawole       | Oxford - Young Bucks #3 (Oxford Assembly of God)                                     | 0     |      |    |    |
+| **\*12** | Kathleen Mec-El   | New Life Assembly (Lehigh) X League (New Life Assembly)                              | 0     |      |    |    |
+| **\*12** | Kaitlande Jacques | New Life Assembly (Lehigh) X League (New Life Assembly)                              | 0     |      |    |    |
+| **\*12** | Brianna Upchurch  | First Assembly Deland (Deland) #3 (First Assembly Deland)                            | 0     |      |    |    |
+| **\*12** | Aliahna Serrano   | Highpoint HalfPints Highpoint Church (Port Saint Lucie) (Highpoint Community Church) | 0     |      |    |    |
+| **\*12** | Ahnaley Serrano   | Highpoint HalfPints Highpoint Church (Port Saint Lucie) (Highpoint Community Church) | 0     |      |    |    |
+| **\*12** | Kira Carlson      | Highpoint HalfPints Highpoint Church (Port Saint Lucie) (Highpoint Community Church) | 0     |      |    |    |
+| 13       | Anthony Savarese  | Ocala X-Men (First Assembly of God)                                                  | -5    | -1.3 |    |    |
+

@@ -12,7 +12,9 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## Teams
+## Championship
+
+### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -34,7 +36,7 @@ menubar_toc_static:
 | 14.0 | Naperville-IL (S) (Calvary Church)            | 3 / 11 | 615   | 43.9  | 1  | 64% |
 | 15.0 | Bellevue-WA #2 (Bellevue Neighborhood Church) | 0 / 14 | 60    | 4.3   |    | 44% |
 
-## Individuals
+### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
@@ -88,4 +90,35 @@ menubar_toc_static:
 | 40       | Marisa Gephart        | Tucson-AZ (Victory Worship Center)            | -30   | -2.1  |    | 37%  |
 | **\*40** | Aaron Lane            | Germantown-WI (Life church)                   | -30   | -2.1  |    | 25%  |
 | 41       | Ryan Matta            | Bellevue-WA #2 (Bellevue Neighborhood Church) | -50   | -3.6  |    | 12%  |
+
+## Contender
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                       | W/L   | Total | Avg   | QO | Q%  |
+|----:|-----------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Lexington-KY (First Assembly of God)                | 9 / 0 | 1580  | 175.5 | 14 | 86% |
+| 2.0 | Naperville-IL (Calvary Church)                      | 6 / 3 | 1070  | 118.9 | 10 | 80% |
+| 3.0 | Warner Robins-GA #1 (The Assembly at Warner Robins) | 3 / 6 | 335   | 37.2  |    | 81% |
+| 4.0 | Warner Robins-GA #2 (The Assembly at Warner Robins) | 0 / 9 | 45    | 5     |    | 80% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #  | Quizzer           | Team / Church                                       | Total | Avg  | QO | Q%   |
+|---:|-------------------|-----------------------------------------------------|------:|-----:|---:|-----:|
+| 1  | Caleb Song        | Lexington-KY (First Assembly of God)                | 900   | 100  | 8  | 83%  |
+| 2  | Reagan Stevens    | Naperville-IL (Calvary Church)                      | 695   | 77.2 | 7  | 84%  |
+| 3  | Sarah Lin         | Lexington-KY (First Assembly of God)                | 680   | 75.6 | 6  | 89%  |
+| 4  | David Biruduganti | Naperville-IL (Calvary Church)                      | 375   | 41.7 | 3  | 74%  |
+| 5  | Grace Surber      | Warner Robins-GA #1 (The Assembly at Warner Robins) | 205   | 22.8 |    | 84%  |
+| 6  | Ethan Bender      | Warner Robins-GA #1 (The Assembly at Warner Robins) | 105   | 11.7 |    | 80%  |
+| 7  | Sadie Surber      | Warner Robins-GA #2 (The Assembly at Warner Robins) | 50    | 5.6  |    | 100% |
+| 8  | Gavin Booth       | Warner Robins-GA #1 (The Assembly at Warner Robins) | 20    | 2.2  |    | 75%  |
+| 9  | Elija Lawson      | Warner Robins-GA #1 (The Assembly at Warner Robins) | 5     | .6   |    | 66%  |
+| 10 | Gabby Graham      | Warner Robins-GA #2 (The Assembly at Warner Robins) | 0     |      |    |      |
+| 11 | Tommy Antkowiak   | Warner Robins-GA #2 (The Assembly at Warner Robins) | -5    | -.6  |    |      |
 

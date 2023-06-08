@@ -12,7 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## A League
+## A1 League
 
 ### Teams
 
@@ -63,6 +63,55 @@ menubar_toc_static:
 | 25 | Anna Plank          | Ministering Spirits               | Moberly-MO-1st A/G            | 40    | 5.00   |    |
 | 26 | Eme Akpan           | ASK (Awesome Stupendous Kwizzers) | Florissant-MO-Grace           | 25    | 3.13   |    |
 | 27 | Liz Amirault        | Ministering Spirits               | Moberly-MO-1st A/G            | 20    | 2.50   |    |
+
+## A2 League
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team           | Church                           | W/L | Total | Avg    |
+|--:|----------------|----------------------------------|-----|------:|-------:|
+| 1 | EFC            | Grand Island-NE-Evangelical Free | 6/0 | 965   | 160.83 |
+| 2 | Labor Pains    | Springfield-MO-King\'s Chapel    | 5/1 | 485   | 80.83  |
+| 3 | Central AG     | Springfield-MO-Central AG        | 3/3 | 445   | 74.17  |
+| 4 | Not in Thought | Fort Worth-TX-Harvest AG         | 3/3 | 610   | 101.67 |
+| 5 | Moberly        | Moberly-MO-Moberly 1st AG        | 2/4 | 370   | 61.67  |
+| 6 | CrossPoint     | Portage-WI-CrossPoint AG         | 2/4 | 295   | 49.17  |
+| 7 | By Name        | Christian Chapel                 | 0/6 | 225   | 37.50  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer                            | Team           | Church                           | Total | Avg    | QO |
+|---:|------------------------------------|----------------|----------------------------------|------:|-------:|---:|
+| 1  | Luke Hamilton                      | EFC            | Grand Island-NE-Evangelical Free | 755   | 125.83 | 6  |
+| 2  | Andrew VanHorn                     | Not in Thought | Fort Worth-TX-Harvest AG         | 450   | 75.00  | 4  |
+| 3  | Lucas Hying                        | Moberly        | Moberly-MO-Moberly 1st AG        | 385   | 64.17  | 3  |
+| 4  | Kara Peters                        | Labor Pains    | Springfield-MO-King\'s Chapel    | 370   | 61.67  | 4  |
+| 5  | Nathan Hazard                      | CrossPoint     | Portage-WI-CrossPoint AG         | 260   | 43.33  | 3  |
+| 6  | Caroline Oss                       | Central AG     | Springfield-MO-Central AG        | 260   | 43.33  | 2  |
+| 7  | Josh Frederick                     | EFC            | Grand Island-NE-Evangelical Free | 220   | 36.67  | 3  |
+| 8  | Amie Oss                           | Central AG     | Springfield-MO-Central AG        | 185   | 30.83  | 1  |
+| 9  | J.B. VanHorn                       | Not in Thought | Fort Worth-TX-Harvest AG         | 165   | 27.50  | 1  |
+| 10 | Cherokee Hill                      | By Name        | Christian Chapel                 | 140   | 23.33  | 2  |
+| 11 | Brock Peters                       | Labor Pains    | Springfield-MO-King\'s Chapel    | 115   | 19.17  |    |
+| 12 | Rhianna Benson                     | By Name        | Christian Chapel                 | 85    | 14.17  |    |
+| 13 | Victoria Roesler                   | CrossPoint     | Portage-WI-CrossPoint AG         | 45    | 7.50   |    |
+| 14 | Nick Hying                         | Moberly        | Moberly-MO-Moberly 1st AG        | 5     | .83    |    |
+| 15 | Zechariah Crosby                   | Not in Thought | Fort Worth-TX-Harvest AG         |       | .00    |    |
+| 15 | Cyera Young                        | Moberly        | Moberly-MO-Moberly 1st AG        |       | .00    |    |
+| 15 | Kyle Frederick - Middle School     | EFC            | Grand Island-NE-Evangelical Free |       | .00    |    |
+| 15 | Michaela Frederick - Middle School | EFC            | Grand Island-NE-Evangelical Free |       | .00    |    |
+| 15 | Bri James                          | Moberly        | Moberly-MO-Moberly 1st AG        |       | .00    |    |
+| 15 | Kay Garrett                        | Moberly        | Moberly-MO-Moberly 1st AG        |       | .00    |    |
+| 16 | Quintin Risch                      | Moberly        | Moberly-MO-Moberly 1st AG        | -10   | -1.67  |    |
+| 16 | Jordan Bauer                       | CrossPoint     | Portage-WI-CrossPoint AG         | -10   | -1.67  |    |
+| 16 | Christian Frederick                | EFC            | Grand Island-NE-Evangelical Free | -10   | -1.67  |    |
+| 16 | C J Risch                          | Moberly        | Moberly-MO-Moberly 1st AG        | -10   | -1.67  |    |
+| 17 | Chandler Kellett                   | Not in Thought | Fort Worth-TX-Harvest AG         | -5    | -0.83  |    |
+
 
 
 ## Middle School

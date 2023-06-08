@@ -12,7 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## 2nd and Under
+## 2nd & Under
 
 ### Teams
 
@@ -66,7 +66,7 @@ menubar_toc_static:
 | **\*17** | Meaganley Steele  | Crystal Hill Assembly of God (North Little Rock) #3 (Crystal Hill Assembly of God) | -10   | -1.7 |    |      |
 
 
-## 3rd and 4th
+## 3rd & 4th Grade
 
 ### Teams
 
@@ -114,7 +114,7 @@ menubar_toc_static:
 | 20       | Scarlett Harrison | McArthur Assembly of God (Jacksonville) #2 - White (McArthur Assembly of God)                        | -45   | -7.5  |    | 12%  |
 
 
-## 5th and 6th
+## 5th & 6th Grade
 
 ### Teams
 

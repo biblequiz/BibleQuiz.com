@@ -80,6 +80,44 @@ menubar_toc_static:
 | **\*30** | Jeremiah Koenig   | Blazing Swords of God (West County AG, Chesterfield) | 0     |       |    |      |
 | **\*30** | Dominic Hasty     | Blazing Swords of God (West County AG, Chesterfield) | 0     |       |    |      |
 
+## A Master Playoffs
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                      | W/L   | Total | Avg   | QO | Q%  |
+|----:|------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Double Edged Swords (Central )     | 4 / 0 | 685   | 171.2 | 3  | 85% |
+| 2.0 | Fried Pickles (Life360 Church)     | 2 / 2 | 685   | 171.2 | 5  | 82% |
+| 2.0 | Shock Diamonds (Central)           | 2 / 2 | 610   | 152.5 | 3  | 81% |
+| 2.0 | Bible Ninjas (Crown Pointe Church) | 2 / 2 | 560   | 140   | 2  | 70% |
+| 3.0 | Giant Slayers (De Soto 1st AG)     | 0 / 4 | 410   | 102.5 | 2  | 81% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer          | Team / Church                      | Total | Avg   | QO | Q%   |
+|---------:|------------------|------------------------------------|------:|------:|---:|-----:|
+| 1        | Josiah Brookbank | Bible Ninjas (Crown Pointe Church) | 415   | 103.8 | 2  | 73%  |
+| 2        | Shekinah Phelps  | Double Edged Swords (Central )     | 405   | 101.3 | 3  | 88%  |
+| 3        | Hannah Plake     | Shock Diamonds (Central)           | 405   | 101.3 | 2  | 94%  |
+| 4        | Kaitlyn Ramsey   | Fried Pickles (Life360 Church)     | 305   | 76.3  | 2  | 69%  |
+| 5        | Grace Wright     | Giant Slayers (De Soto 1st AG)     | 260   | 65    | 1  | 82%  |
+| 6        | Alyssa Ramsey    | Fried Pickles (Life360 Church)     | 210   | 52.5  | 2  | 90%  |
+| 7        | Abigail Jones    | Double Edged Swords (Central )     | 205   | 51.3  |    | 75%  |
+| 8        | Elli Woodward    | Shock Diamonds (Central)           | 150   | 37.5  | 1  | 75%  |
+| 9        | Catie Wolfe      | Fried Pickles (Life360 Church)     | 130   | 32.5  | 1  | 92%  |
+| 10       | Kennedy Shores   | Giant Slayers (De Soto 1st AG)     | 125   | 31.3  | 1  | 81%  |
+| 11       | Casen Gray       | Bible Ninjas (Crown Pointe Church) | 125   | 31.3  |    | 75%  |
+| 12       | Bethany Plake    | Shock Diamonds (Central)           | 55    | 13.8  |    | 70%  |
+| 13       | Sarah Jones      | Double Edged Swords (Central )     | 40    | 10    |    | 100% |
+| **\*13** | McKenna Black    | Fried Pickles (Life360 Church)     | 40    | 10    |    | 100% |
+| 14       | Andrew Le        | Double Edged Swords (Central )     | 35    | 8.8   |    | 80%  |
+| 15       | Hailey Nichol    | Giant Slayers (De Soto 1st AG)     | 25    | 6.3   |    | 66%  |
+| 16       | Gabe Diebold     | Bible Ninjas (Crown Pointe Church) | 20    | 5     |    | 43%  |
+| 17       | Rylee Honea      | Giant Slayers (De Soto 1st AG)     | 0     |       |    |      |
 
 ## A Achiever Playoffs
 
@@ -198,6 +236,76 @@ menubar_toc_static:
 | **\*34** | Kaelynn Fry       | Mighty Minions (Life360 Church)                            | 0     |       |    |      |
 | **\*34** | Isabel Nichol     | Giant Slayers (De Soto 1st AG)                             | 0     |       |    |      |
 | 35       | Gideon Koenig     | The Superstars (West County AG, Chesterfield)              | -10   | -.9   |    |      |
+
+## B Master Playoffs
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                              | W/L   | Total | Avg   | QO | Q%  |
+|----:|------------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Deep Fried Twinkies (Brighton AG)                          | 3 / 0 | 555   | 184.9 | 1  | 92% |
+| 2.0 | Team-Central (Central)                                     | 2 / 1 | 395   | 131.6 | 3  | 77% |
+| 3.0 | Giant Slayers (De Soto 1st AG)                             | 1 / 2 | 290   | 96.6  | 2  | 77% |
+| 4.0 | The Lightning Ninja Quizzers (West County AG, Chesterfiel) | 0 / 3 | 295   | 98.3  |    | 70% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer         | Team / Church                                              | Total | Avg  | QO | Q%   |
+|---------:|-----------------|------------------------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Shirah Ramaji   | The Lightning Ninja Quizzers (West County AG, Chesterfiel) | 255   | 85   |    | 72%  |
+| 2        | Tyler Woodham   | Deep Fried Twinkies (Brighton AG)                          | 220   | 73.3 |    | 100% |
+| 3        | Anna Le         | Team-Central (Central)                                     | 180   | 60   | 1  | 76%  |
+| 4        | Eliana Phelps   | Team-Central (Central)                                     | 160   | 53.3 | 2  | 81%  |
+| 5        | Chase Steward   | Giant Slayers (De Soto 1st AG)                             | 155   | 51.7 | 1  | 65%  |
+| 6        | Jason Cerce     | Deep Fried Twinkies (Brighton AG)                          | 150   | 50   | 1  | 86%  |
+| 7        | Joshua Vennum   | Deep Fried Twinkies (Brighton AG)                          | 150   | 50   |    | 100% |
+| 8        | Bryce Wright    | Giant Slayers (De Soto 1st AG)                             | 115   | 38.3 | 1  | 92%  |
+| 9        | C.C.Myers       | Team-Central (Central)                                     | 65    | 21.7 |    | 75%  |
+| 10       | Isaac Elliott   | The Lightning Ninja Quizzers (West County AG, Chesterfiel) | 40    | 13.3 |    | 67%  |
+| 11       | Trevor Tucker   | Deep Fried Twinkies (Brighton AG)                          | 25    | 8.3  |    | 75%  |
+| 12       | Brian Honea     | Giant Slayers (De Soto 1st AG)                             | 20    | 6.7  |    | 100% |
+| 13       | David Miller    | Deep Fried Twinkies (Brighton AG)                          | 10    | 3.3  |    | 99%  |
+| 14       | Aahana Shrestha | The Lightning Ninja Quizzers (West County AG, Chesterfiel) | 0     |      |    |      |
+| **\*14** | Isabel Nichol   | Giant Slayers (De Soto 1st AG)                             | 0     |      |    |      |
+| 15       | J.J. myers      | Team-Central (Central)                                     | -10   | -3.3 |    |      |
+
+## B Achiever Playoffs
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                 | W/L   | Total | Avg   | QO | Q%   |
+|----:|-----------------------------------------------|-------|------:|------:|---:|-----:|
+| 1.0 | Followers of Jesus Christ (West County AG)    | 2 / 1 | 345   | 115   |    | 83%  |
+| 1.0 | Royal Quizzers (Crown Pointe Church)          | 2 / 1 | 305   | 101.6 | 1  | 76%  |
+| 1.0 | Pebble Creek (Pebble Creek AG)                | 2 / 1 | 300   | 100   | 1  | 79%  |
+| 2.0 | The Superstars (West County AG, Chesterfield) | 0 / 3 | 300   | 100   | 3  | 100% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer           | Team / Church                                 | Total | Avg  | QO | Q%   |
+|---------:|-------------------|-----------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Josh Pedapudi     | The Superstars (West County AG, Chesterfield) | 270   | 90   | 3  | 100% |
+| 2        | Diego Botana      | Pebble Creek (Pebble Creek AG)                | 210   | 70   | 1  | 80%  |
+| 3        | Haddie Brookbank  | Royal Quizzers (Crown Pointe Church)          | 190   | 63.3 | 1  | 85%  |
+| 4        | Shawn Ramaji      | Followers of Jesus Christ (West County AG)    | 155   | 51.7 |    | 100% |
+| 5        | Jonathan Benedict | Followers of Jesus Christ (West County AG)    | 140   | 46.7 |    | 72%  |
+| 6        | Isaiah Johnson    | Pebble Creek (Pebble Creek AG)                | 90    | 30   |    | 79%  |
+| 7        | Savanna Barber    | Royal Quizzers (Crown Pointe Church)          | 65    | 21.7 |    | 87%  |
+| 8        | Andrew Green      | Followers of Jesus Christ (West County AG)    | 50    | 16.7 |    | 100% |
+| 9        | George Hoelzel    | Royal Quizzers (Crown Pointe Church)          | 35    | 11.7 |    | 55%  |
+| 10       | Eliana Nelapati   | The Superstars (West County AG, Chesterfield) | 30    | 10   |    | 100% |
+| 11       | Cadence Chiles    | Royal Quizzers (Crown Pointe Church)          | 15    | 5    |    | 66%  |
+| 12       | Halle Korth       | Pebble Creek (Pebble Creek AG)                | 0     |      |    |      |
+| **\*12** | Gideon Koenig     | The Superstars (West County AG, Chesterfield) | 0     |      |    |      |
+| **\*12** | Isaac Koenig      | The Superstars (West County AG, Chesterfield) | 0     |      |    |      |
 
 
 ## B Searcher Playoffs

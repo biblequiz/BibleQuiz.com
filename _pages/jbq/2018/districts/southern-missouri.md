@@ -56,6 +56,39 @@ menubar_toc_static:
 | **\*16** | Joshua Rogers   | Buzzing Bible Kids (Lebanon 1st AG)      | 0     |       |    |      |
 | 17       | Brady Williams  | Jedi Quizzers (Life 360 Church )         | -15   | -3.8  |    | 25%  |
 
+## A Achiever
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                       | W/L   | Total | Avg   | QO | Q%  |
+|----:|-------------------------------------|-------|------:|------:|---:|----:|
+| 1.1 | Bible Ninjas (Crown Pointe Church)  | 5 / 1 | 1050  | 175   | 9  | 78% |
+| 2.0 | Pebble Creek (Pebble Creek AG)      | 5 / 1 | 925   | 154.1 | 4  | 76% |
+| 3.0 | Slim Jims (Brighton AG)             | 2 / 4 | 615   | 102.5 | 4  | 94% |
+| 4.0 | The Giant Slayers (De Soto 1st AG ) | 0 / 6 | 455   | 75.8  |    | 79% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer         | Team / Church                       | Total | Avg  | QO | Q%   |
+|---------:|-----------------|-------------------------------------|------:|-----:|---:|-----:|
+| 1        | Casen Gray      | Bible Ninjas (Crown Pointe Church)  | 535   | 89.2 | 3  | 73%  |
+| 2        | Antoine Johnson | Pebble Creek (Pebble Creek AG)      | 530   | 88.3 | 4  | 74%  |
+| 3        | George Hoelzel  | Bible Ninjas (Crown Pointe Church)  | 450   | 75   | 6  | 82%  |
+| 4        | Jason Cerce     | Slim Jims (Brighton AG)             | 365   | 60.8 | 4  | 91%  |
+| 5        | Leah Grobe      | The Giant Slayers (De Soto 1st AG ) | 315   | 52.5 |    | 94%  |
+| 6        | Noah Fulton     | Pebble Creek (Pebble Creek AG)      | 275   | 45.8 |    | 78%  |
+| 7        | Grant Price     | Slim Jims (Brighton AG)             | 250   | 41.7 |    | 100% |
+| 8        | Kaiden Shores   | The Giant Slayers (De Soto 1st AG ) | 125   | 20.8 |    | 70%  |
+| 9        | Drew Fite       | Pebble Creek (Pebble Creek AG)      | 120   | 20   |    | 78%  |
+| 10       | Cam Risner      | Bible Ninjas (Crown Pointe Church)  | 65    | 10.8 |    | 86%  |
+| 11       | Isabel Nichol   | The Giant Slayers (De Soto 1st AG ) | 5     | .8   |    | 50%  |
+| 12       | Rylee Honea     | The Giant Slayers (De Soto 1st AG ) | 0     |      |    |      |
+| **\*12** | Josiah Mayfield | Slim Jims (Brighton AG)             | 0     |      |    |      |
+| **\*12** | David Miller    | Slim Jims (Brighton AG)             | 0     |      |    |      |
 
 ## A League
 

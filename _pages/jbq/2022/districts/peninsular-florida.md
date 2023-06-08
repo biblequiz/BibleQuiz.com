@@ -2,7 +2,7 @@
 layout: page
 title: "2022 Peninsular-Florida District Finals"
 permalink: /jbq/2022/districts/peninsular-florida/
-date: "2023-04-02"
+date: "2022-03-26"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
@@ -12,419 +12,307 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## Achiever: Flight of Champions
+## Flight of Champions
 
 ### Teams
 
-*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
+*2 way ties broken by head to head, 3+ way ties broken by points*
 
-**COMPLETE:** All Room(s) Reported.
-
-| #  | Team / Church                                                               | W/L   | W%   | Total | Avg   | QO | Q%  |
-|---:|-----------------------------------------------------------------------------|-------|-----:|------:|------:|---:|----:|
-| 1  | Fruit of the Spirit (Faith Assembly of God)                                 | 9 / 0 | 100% | 1895  | 210.6 | 9  | 85% |
-| 2  | Fire of the Spirit (Haven Worship Center)                                   | 7 / 2 | 78%  | 1595  | 177.2 | 4  | 87% |
-| 3  | Battling Bears (Victory Church)                                             | 7 / 2 | 78%  | 1745  | 193.9 | 13 | 87% |
-| 4  | Candy Quizzers (Faith Assembly of God)                                      | 6 / 3 | 67%  | 1635  | 181.7 | 8  | 75% |
-| 5  | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 5 / 4 | 56%  | 1355  | 150.6 | 5  | 78% |
-| 6  | Banana Buzzers (Life Church)                                                | 4 / 5 | 44%  | 1405  | 156.1 | 9  | 80% |
-| 7  | Scripture Seekers #1 (First Assembly of God)                                | 3 / 6 | 33%  | 910   | 101.1 | 3  | 81% |
-| 8  | Triple Threat (LIFE Church Assembly of God)                                 | 3 / 6 | 33%  | 1315  | 146.1 | 5  | 76% |
-| 9  | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 1 / 8 | 11%  | 975   | 108.3 | 3  | 82% |
-| 10 | Squiggly Worms (Independent)                                                | 0 / 9 |      | -40   | -4.4  |    |     |
+| #   | Team / Church                                                  | W/L   | Total | Avg   | QO | Q%  |
+|----:|----------------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Fruit of the Spirit (Faith Assembly of God)                    | 8 / 0 | 2075  | 259.3 | 15 | 93% |
+| 2.0 | Candy Quizzers (Faith Assembly of God)                         | 7 / 1 | 1500  | 187.5 | 8  | 76% |
+| 3.0 | Kids on Fire (Life Church)                                     | 6 / 2 | 1555  | 194.4 | 10 | 84% |
+| 4.0 | The Under Armors of God (LIFE Church Assembly of God)          | 3 / 5 | 1020  | 127.5 | 7  | 80% |
+| 5.0 | Quiz Crew (Breadbreakers Church)                               | 3 / 5 | 950   | 118.7 | 5  | 92% |
+| 6.0 | First Coast Christian Center #1 (First Coast Christian Center) | 3 / 5 | 840   | 105   |    | 92% |
+| 7.0 | Victorious Dragons (Victory Church)                            | 3 / 5 | 705   | 88.1  | 4  | 75% |
+| 8.0 | The Lions of Judah (Winter Haven Worship Center)               | 2 / 6 | 800   | 100   | 4  | 76% |
+| 9.0 | Scripture Seekers Team 1 (First Assembly of God)               | 1 / 7 | 600   | 75    | 3  | 84% |
 
 ### Individuals
 
-*Ties broken by Average Points then by Total Quiz Outs*
+*Ties broken by Average Points then Total Quiz Outs*
 
-| #        | Quizzer           | Team / Church                                                               | Total | Avg   | QO | Q%   |
-|---------:|-------------------|-----------------------------------------------------------------------------|------:|------:|---:|-----:|
-| 1        | Isabella Kirchon  | Battling Bears (Victory Church)                                             | 1095  | 121.7 | 7  | 84%  |
-| 2        | Camden Spence     | Fruit of the Spirit (Faith Assembly of God)                                 | 1070  | 118.9 | 4  | 89%  |
-| 3        | Joel Villalba     | Fire of the Spirit (Haven Worship Center)                                   | 1025  | 113.9 | 3  | 92%  |
-| 4        | Vicente Rivera    | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 950   | 105.6 | 3  | 88%  |
-| 5        | Ian Victor        | Scripture Seekers #1 (First Assembly of God)                                | 620   | 68.9  | 3  | 83%  |
-| 6        | Benjamin Reilly   | Candy Quizzers (Faith Assembly of God)                                      | 595   | 66.1  | 2  | 76%  |
-| 7        | J.D. Pereira      | Candy Quizzers (Faith Assembly of God)                                      | 580   | 64.4  |    | 74%  |
-| 8        | Jessa LoGiudice   | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 560   | 62.2  | 1  | 86%  |
-| 9        | Briella LoGiudice | Triple Threat (LIFE Church Assembly of God)                                 | 510   | 56.7  | 2  | 72%  |
-| 10       | James Groves      | Battling Bears (Victory Church)                                             | 505   | 56.1  | 5  | 90%  |
-| 11       | Leah Manns        | Banana Buzzers (Life Church)                                                | 470   | 52.2  | 2  | 92%  |
-| 12       | Autumn Weiler     | Triple Threat (LIFE Church Assembly of God)                                 | 470   | 52.2  | 1  | 76%  |
-| 13       | Micah Wise        | Candy Quizzers (Faith Assembly of God)                                      | 455   | 50.6  | 6  | 78%  |
-| 14       | Miguel Rios       | Fruit of the Spirit (Faith Assembly of God)                                 | 455   | 50.6  | 5  | 80%  |
-| 15       | Johana Bull       | Banana Buzzers (Life Church)                                                | 430   | 47.8  | 2  | 72%  |
-| 16       | Jordan Cessous    | Banana Buzzers (Life Church)                                                | 380   | 42.2  | 4  | 76%  |
-| 17       | Arie Weiler       | Triple Threat (LIFE Church Assembly of God)                                 | 335   | 37.2  | 2  | 80%  |
-| 18       | Nathan Thompson   | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 300   | 33.3  | 2  | 82%  |
-| 19       | Naomi Rivera      | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 235   | 26.1  | 2  | 70%  |
-| 20       | Lillian Martin    | Fire of the Spirit (Haven Worship Center)                                   | 200   | 22.2  |    | 74%  |
-| **\*20** | Malakai Sifford   | Scripture Seekers #1 (First Assembly of God)                                | 200   | 22.2  |    | 74%  |
-| 21       | Eli Smith         | Fruit of the Spirit (Faith Assembly of God)                                 | 190   | 21.1  |    | 100% |
-| **\*21** | Jesiah Gonzalez   | Fire of the Spirit (Haven Worship Center)                                   | 190   | 21.1  |    | 100% |
-| 22       | Kynlee Hayes      | Fire of the Spirit (Haven Worship Center)                                   | 180   | 20    | 1  | 88%  |
-| 23       | Aila Smith        | Fruit of the Spirit (Faith Assembly of God)                                 | 180   | 20    |    | 67%  |
-| 24       | Claire Kirchon    | Battling Bears (Victory Church)                                             | 145   | 16.1  | 1  | 91%  |
-| 25       | Gabe Thompson     | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | 120   | 13.3  |    | 78%  |
-| 26       | Gideon Rodriguez  | Banana Buzzers (Life Church)                                                | 115   | 12.8  | 1  | 92%  |
-| 27       | Wyatt Davenport   | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 110   | 12.2  |    | 70%  |
-| 28       | River Skinner     | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 60    | 6.7   |    | 80%  |
-| 29       | Cassidy Johnson   | Scripture Seekers #1 (First Assembly of God)                                | 50    | 5.6   |    | 100% |
-| 30       | Aveah Caylor      | Scripture Seekers #1 (First Assembly of God)                                | 40    | 4.4   |    | 100% |
-| 31       | Alicia Johnson    | Candy Quizzers (Faith Assembly of God)                                      | 10    | 1.1   |    | 50%  |
-| **\*31** | Josiah Ojo        | Banana Buzzers (Life Church)                                                | 10    | 1.1   |    | 100% |
-| 32       | Maria Moreira     | Conquering Warriors (Freedom Christian Fellowship of the Assemblies of God) | 0     |       |    |      |
-| **\*32** | Maya Castro       | Squiggly Worms (Independent)                                                | 0     |       |    |      |
-| **\*32** | Zion Castro       | Squiggly Worms (Independent)                                                | 0     |       |    |      |
-| 33       | Caroline Thompson | Cool Kidz (LIFE Church A/G-Fruitland Park) (LIFE Church Assembly of God)    | -5    | -.6   |    |      |
+| #        | Quizzer              | Team / Church                                                  | Total | Avg   | QO | Q%   |
+|---------:|----------------------|----------------------------------------------------------------|------:|------:|---:|-----:|
+| 1        | Aubrey Spence        | Fruit of the Spirit (Faith Assembly of God)                    | 1175  | 146.9 | 7  | 94%  |
+| 2        | Noah Ringeisen       | Kids on Fire (Life Church)                                     | 895   | 111.9 | 5  | 95%  |
+| 3        | Sydney Antoine       | Quiz Crew (Breadbreakers Church)                               | 630   | 78.8  | 5  | 95%  |
+| 4        | Isabella Kirchon     | Victorious Dragons (Victory Church)                            | 555   | 69.4  | 4  | 76%  |
+| 5        | Aveah Caylor         | Scripture Seekers Team 1 (First Assembly of God)               | 515   | 64.4  | 3  | 80%  |
+| 6        | Autumn Weiler        | The Under Armors of God (LIFE Church Assembly of God)          | 515   | 64.4  | 2  | 83%  |
+| 7        | Miguel Rios          | Fruit of the Spirit (Faith Assembly of God)                    | 505   | 63.1  | 7  | 90%  |
+| 8        | J.D. Pereira         | Candy Quizzers (Faith Assembly of God)                         | 485   | 60.6  | 2  | 67%  |
+| 9        | Joel Villalba        | The Lions of Judah (Winter Haven Worship Center)               | 475   | 59.4  | 1  | 73%  |
+| 10       | Hannah Pereira       | Candy Quizzers (Faith Assembly of God)                         | 475   | 59.4  |    | 74%  |
+| 11       | Leah Manns           | Kids on Fire (Life Church)                                     | 430   | 53.8  | 5  | 79%  |
+| 12       | Aila Smith           | Candy Quizzers (Faith Assembly of God)                         | 420   | 52.5  | 6  | 87%  |
+| 13       | Arie Weiler          | The Under Armors of God (LIFE Church Assembly of God)          | 420   | 52.5  | 5  | 81%  |
+| 14       | Camden Spence        | Fruit of the Spirit (Faith Assembly of God)                    | 395   | 49.4  | 1  | 96%  |
+| 15       | Sarah Beaubrun       | First Coast Christian Center #1 (First Coast Christian Center) | 380   | 47.5  |    | 94%  |
+| 16       | Kynlee Hayes         | The Lions of Judah (Winter Haven Worship Center)               | 330   | 41.3  | 3  | 78%  |
+| 17       | Megan Runge          | First Coast Christian Center #1 (First Coast Christian Center) | 310   | 38.8  |    | 89%  |
+| 18       | Kamse Uzo            | Kids on Fire (Life Church)                                     | 175   | 21.9  |    | 92%  |
+| 19       | Eli Runge            | First Coast Christian Center #1 (First Coast Christian Center) | 140   | 17.5  |    | 94%  |
+| 20       | Micah Wise           | Candy Quizzers (Faith Assembly of God)                         | 120   | 15    |    | 78%  |
+| 21       | Alexander Antoine    | Quiz Crew (Breadbreakers Church)                               | 115   | 14.4  |    | 91%  |
+| 22       | Richard Thomas       | Quiz Crew (Breadbreakers Church)                               | 105   | 13.1  |    | 100% |
+| 23       | Carmia Owens         | Quiz Crew (Breadbreakers Church)                               | 100   | 12.5  |    | 85%  |
+| 24       | Gabe Thompson        | The Under Armors of God (LIFE Church Assembly of God)          | 85    | 10.6  |    | 67%  |
+| 25       | Sarah Ferreira       | Scripture Seekers Team 1 (First Assembly of God)               | 75    | 9.4   |    | 100% |
+| **\*25** | Claire Kirchon       | Victorious Dragons (Victory Church)                            | 75    | 9.4   |    | 89%  |
+| 26       | Johana Bull          | Kids on Fire (Life Church)                                     | 55    | 6.9   |    | 64%  |
+| 27       | Maximus Prokop       | Victorious Dragons (Victory Church)                            | 40    | 5     |    | 100% |
+| 28       | James Groves         | Victorious Dragons (Victory Church)                            | 35    | 4.4   |    | 54%  |
+| 29       | Laura Santos         | Scripture Seekers Team 1 (First Assembly of God)               | 10    | 1.3   |    | 100% |
+| **\*29** | Caleb Arent          | First Coast Christian Center #1 (First Coast Christian Center) | 10    | 1.3   |    | 99%  |
+| 30       | Uriah Skinner        | First Coast Christian Center #1 (First Coast Christian Center) | 0     |       |    |      |
+| **\*30** | John Marshall Thomas | The Lions of Judah (Winter Haven Worship Center)               | 0     |       |    |      |
+| **\*30** | Elliana Martin       | The Lions of Judah (Winter Haven Worship Center)               | 0     |       |    |      |
+| **\*30** | Kinsey Hughes        | The Lions of Judah (Winter Haven Worship Center)               | 0     |       |    |      |
+| **\*30** | Mauricio Crespo      | The Lions of Judah (Winter Haven Worship Center)               | 0     |       |    |      |
 
-## Achiever: Flight 2
+## Achiever Flight 2
 
 ### Teams
 
-*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
+*2 way ties broken by head to head, 3+ way ties broken by points*
 
-**COMPLETE:** All Room(s) Reported.
-
-| # | Team / Church                                                  | W/L   | W%  | Total | Avg   | QO | Q%  |
-|--:|----------------------------------------------------------------|-------|----:|------:|------:|---:|----:|
-| 1 | Sin Stoppers (Haven Worship Center)                            | 5 / 1 | 83% | 1175  | 195.8 | 9  | 88% |
-| 2 | Blazing Buzzers (Haven Worship Center)                         | 4 / 2 | 67% | 615   | 102.5 | 3  | 71% |
-| 3 | Little Evangelists (South Point Church)                        | 4 / 2 | 67% | 925   | 154.2 | 4  | 74% |
-| 4 | First Coast Christian Center #1 (First Coast Christian Center) | 3 / 3 | 50% | 830   | 138.3 | 4  | 85% |
-| 5 | Fighters of the Faith (Faith Assembly of God)                  | 3 / 3 | 50% | 550   | 91.7  | 3  | 67% |
-| 6 | Scripture Seekers #2 (First Assembly of God)                   | 1 / 5 | 17% | 150   | 25    |    | 58% |
-| 7 | Jesus Warriors (Life Church)                                   | 1 / 5 | 17% | 470   | 78.3  | 2  | 69% |
+| #   | Team / Church                                                                                       | W/L   | Total | Avg   | QO | Q%  |
+|----:|-----------------------------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Freedom Christian Fellowship Wisdom Talkers (Freedom Christian Fellowship of the Assemblies of God) | 7 / 0 | 1320  | 188.5 | 7  | 82% |
+| 2.1 | God's Gang (Life Church)                                                                            | 5 / 2 | 870   | 124.3 | 5  | 82% |
+| 3.0 | God\'s Sanitizers (Faith Assembly of God)                                                           | 5 / 2 | 950   | 135.7 | 8  | 76% |
+| 4.0 | Believers of the Bible (LIFE Church Assembly of God)                                                | 4 / 3 | 940   | 134.3 | 6  | 83% |
+| 5.0 | Jesus Family Ministries #1 (Jesus Family Ministries)                                                | 3 / 4 | 870   | 124.3 | 6  | 86% |
+| 6.1 | One way (First Assembly of God)                                                                     | 2 / 5 | 910   | 130   | 4  | 80% |
+| 7.0 | Keepers of the Command (New Life Assembly)                                                          | 2 / 5 | 565   | 80.7  | 5  | 74% |
+| 8.0 | MZ² (Highpoint Church)                                                                              | 0 / 7 | 0     |       |    |     |
 
 ### Individuals
 
-*Ties broken by Average Points then by Total Quiz Outs*
+*Ties broken by Average Points then Total Quiz Outs*
 
-| #        | Quizzer                | Team / Church                                                  | Total | Avg   | QO | Q%   |
-|---------:|------------------------|----------------------------------------------------------------|------:|------:|---:|-----:|
-| 1        | Jahdiel Gonzalez       | Sin Stoppers (Haven Worship Center)                            | 780   | 130   | 5  | 92%  |
-| 2        | Sarah Beaubrun         | First Coast Christian Center #1 (First Coast Christian Center) | 730   | 121.7 | 4  | 91%  |
-| 3        | Miguel Soriano Batista | Blazing Buzzers (Haven Worship Center)                         | 470   | 78.3  | 3  | 73%  |
-| 4        | Logan Edmonson         | Little Evangelists (South Point Church)                        | 460   | 76.7  | 2  | 89%  |
-| 5        | Ashlyn Olson           | Jesus Warriors (Life Church)                                   | 315   | 52.5  | 2  | 78%  |
-| 6        | Elliana Martin         | Sin Stoppers (Haven Worship Center)                            | 305   | 50.8  | 4  | 81%  |
-| 7        | Jaxton Edmonson        | Little Evangelists (South Point Church)                        | 230   | 38.3  |    | 73%  |
-| 8        | Samuel Espino          | Fighters of the Faith (Faith Assembly of God)                  | 225   | 37.5  | 3  | 74%  |
-| 9        | Camila Espino          | Fighters of the Faith (Faith Assembly of God)                  | 210   | 35    |    | 67%  |
-| 10       | Grayson Mitchell       | Little Evangelists (South Point Church)                        | 165   | 27.5  | 2  | 62%  |
-| 11       | Ethan Olson            | Jesus Warriors (Life Church)                                   | 150   | 25    |    | 63%  |
-| 12       | Evan Whitmire          | Sin Stoppers (Haven Worship Center)                            | 90    | 15    |    | 100% |
-| **\*12** | Misael Soriano Batista | Blazing Buzzers (Haven Worship Center)                         | 90    | 15    |    | 67%  |
-| 13       | Daniel Espino          | Fighters of the Faith (Faith Assembly of God)                  | 70    | 11.7  |    | 62%  |
-| 14       | Spring Santos          | Scripture Seekers #2 (First Assembly of God)                   | 65    | 10.8  |    | 100% |
-| 15       | Bernardo Moreira       | Scripture Seekers #2 (First Assembly of God)                   | 60    | 10    |    | 67%  |
-| **\*15** | Mila Thompson          | Little Evangelists (South Point Church)                        | 60    | 10    |    | 100% |
-| 16       | Quinn Beckham          | Blazing Buzzers (Haven Worship Center)                         | 55    | 9.2   |    | 69%  |
-| 17       | Caleb Arent            | First Coast Christian Center #1 (First Coast Christian Center) | 50    | 8.3   |    | 86%  |
-| **\*17** | Eli Runge              | First Coast Christian Center #1 (First Coast Christian Center) | 50    | 8.3   |    | 64%  |
-| 18       | Titus Trimble          | Fighters of the Faith (Faith Assembly of God)                  | 45    | 7.5   |    | 43%  |
-| 19       | Malachi Miles          | Scripture Seekers #2 (First Assembly of God)                   | 30    | 5     |    | 44%  |
-| 20       | Colby Mitchell         | Little Evangelists (South Point Church)                        | 10    | 1.7   |    | 67%  |
-| 21       | Frankie Lee            | Jesus Warriors (Life Church)                                   | 5     | .8    |    | 40%  |
-| 22       | Khyreonia Williams     | Jesus Warriors (Life Church)                                   | 0     |       |    |      |
-| **\*22** | Marcus Norwood         | Sin Stoppers (Haven Worship Center)                            | 0     |       |    |      |
-| **\*22** | Regan Copeland         | Jesus Warriors (Life Church)                                   | 0     |       |    |      |
-| **\*22** | Tatiana Ray            | Jesus Warriors (Life Church)                                   | 0     |       |    |      |
-| **\*22** | Miguel Alves           | Scripture Seekers #2 (First Assembly of God)                   | 0     |       |    | 43%  |
+| #        | Quizzer            | Team / Church                                                                                       | Total | Avg   | QO | Q%   |
+|---------:|--------------------|-----------------------------------------------------------------------------------------------------|------:|------:|---:|-----:|
+| 1        | Vicente Rivera     | Freedom Christian Fellowship Wisdom Talkers (Freedom Christian Fellowship of the Assemblies of God) | 1000  | 142.9 | 7  | 93%  |
+| 2        | Alicia Johnson     | God\'s Sanitizers (Faith Assembly of God)                                                           | 610   | 87.1  | 5  | 80%  |
+| 3        | John Benkiruba     | Jesus Family Ministries #1 (Jesus Family Ministries)                                                | 590   | 84.3  | 5  | 100% |
+| 4        | Bethany Enwere     | God's Gang (Life Church)                                                                            | 575   | 82.1  | 4  | 88%  |
+| 5        | Kristopher Jacques | Keepers of the Command (New Life Assembly)                                                          | 535   | 76.4  | 5  | 87%  |
+| 6        | Logan Edmonson     | One way (First Assembly of God)                                                                     | 460   | 65.7  | 2  | 86%  |
+| 7        | Briella LoGiudice  | Believers of the Bible (LIFE Church Assembly of God)                                                | 445   | 63.6  | 5  | 80%  |
+| 8        | Jessa LoGiudice    | Believers of the Bible (LIFE Church Assembly of God)                                                | 440   | 62.9  | 1  | 89%  |
+| 9        | Jaxton Edmonson    | One way (First Assembly of God)                                                                     | 365   | 52.1  | 1  | 72%  |
+| 10       | Muna Uzo           | God's Gang (Life Church)                                                                            | 280   | 40    | 1  | 79%  |
+| 11       | Titus Trimble      | God\'s Sanitizers (Faith Assembly of God)                                                           | 265   | 37.9  | 3  | 70%  |
+| 12       | Andrea Poovairaj   | Jesus Family Ministries #1 (Jesus Family Ministries)                                                | 235   | 33.6  | 1  | 81%  |
+| 13       | Enyichi Ohiaeriaku | Freedom Christian Fellowship Wisdom Talkers (Freedom Christian Fellowship of the Assemblies of God) | 185   | 26.4  |    | 75%  |
+| 14       | Johnny Cagle       | One way (First Assembly of God)                                                                     | 75    | 10.7  | 1  | 86%  |
+| 15       | Andrea Bonilla     | God\'s Sanitizers (Faith Assembly of God)                                                           | 75    | 10.7  |    | 87%  |
+| 16       | river skinner      | Freedom Christian Fellowship Wisdom Talkers (Freedom Christian Fellowship of the Assemblies of God) | 70    | 10    |    | 100% |
+| 17       | Layton Weathington | Freedom Christian Fellowship Wisdom Talkers (Freedom Christian Fellowship of the Assemblies of God) | 45    | 6.4   |    | 54%  |
+| **\*17** | Gabriel Alexander  | Jesus Family Ministries #1 (Jesus Family Ministries)                                                | 45    | 6.4   |    | 54%  |
+| 18       | Caroline Thompson  | Believers of the Bible (LIFE Church Assembly of God)                                                | 30    | 4.3   |    | 100% |
+| 19       | Amari Mathurin     | Keepers of the Command (New Life Assembly)                                                          | 25    | 3.6   |    | 57%  |
+| 20       | Hunter Bowden      | Believers of the Bible (LIFE Church Assembly of God)                                                | 20    | 2.9   |    | 100% |
+| **\*20** | Parker Cannon      | Freedom Christian Fellowship Wisdom Talkers (Freedom Christian Fellowship of the Assemblies of God) | 20    | 2.9   |    | 100% |
+| **\*20** | Ashlyn Olson       | God's Gang (Life Church)                                                                            | 20    | 2.9   |    | 50%  |
+| 21       | Kaden Alicea       | Keepers of the Command (New Life Assembly)                                                          | 15    | 2.1   |    | 60%  |
+| 22       | Jackson Cagle      | One way (First Assembly of God)                                                                     | 10    | 1.4   |    | 99%  |
+| 23       | Allen Crouch       | Believers of the Bible (LIFE Church Assembly of God)                                                | 5     | .7    |    | 50%  |
+| 24       | Evelyn Jeffin      | Jesus Family Ministries #1 (Jesus Family Ministries)                                                | 0     |       |    |      |
+| **\*24** | Zion Castro        | MZ² (Highpoint Church)                                                                              | 0     |       |    |      |
+| **\*24** | Maya Castro        | MZ² (Highpoint Church)                                                                              | 0     |       |    |      |
+| **\*24** | Joseph Bland       | God\'s Sanitizers (Faith Assembly of God)                                                           | 0     |       |    |      |
+| 25       | Daniel Fernandez   | Keepers of the Command (New Life Assembly)                                                          | -5    | -.7   |    | 40%  |
+| **\*25** | Tatiana Ray        | God's Gang (Life Church)                                                                            | -5    | -.7   |    |      |
 
 
-## Achiever: Flight 3
+## Achiever Flight 3
 
 ### Teams
 
-*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
+*2 way ties broken by head to head, 3+ way ties broken by points*
 
-**COMPLETE:** All Room(s) Reported.
-
-| # | Team / Church                                  | W/L   | W%   | Total | Avg   | QO | Q%   |
-|--:|------------------------------------------------|-------|-----:|------:|------:|---:|-----:|
-| 1 | God's Girls (Family First Assembly)            | 6 / 0 | 100% | 950   | 158.3 | 5  | 81%  |
-| 2 | Victorious Warriors (Victory Church)           | 5 / 1 | 83%  | 895   | 149.2 | 7  | 86%  |
-| 3 | The Little Lambs (LIFE Church Assembly of God) | 4 / 2 | 67%  | 565   | 94.2  | 5  | 89%  |
-| 4 | Exalibur (Oxford Assembly of God)              | 3 / 3 | 50%  | 625   | 104.2 | 3  | 82%  |
-| 5 | Mighty Warriors (New Life Assembly)            | 2 / 4 | 33%  | 415   | 69.2  |    | 86%  |
-| 6 | Faith Warriors (Faith Assembly of God)         | 1 / 5 | 17%  | 330   | 55    |    | 100% |
-| 7 | Jesus' Super Gang (New Life Assembly)          | 0 / 6 |      | 370   | 61.7  | 2  | 82%  |
+| #   | Team / Church                                  | W/L   | Total | Avg  | QO | Q%  |
+|----:|------------------------------------------------|-------|------:|-----:|---:|----:|
+| 1.0 | Rising Arrows (Life Church)                    | 5 / 2 | 665   | 95   | 1  | 78% |
+| 2.0 | Family Force Five (Family First Assembly)      | 4 / 3 | 660   | 94.3 | 2  | 71% |
+| 3.0 | Thunderbolts (Faith Assembly of God)           | 4 / 3 | 650   | 92.8 | 3  | 77% |
+| 4.0 | Faith Fighters (LIFE Church Assembly of God)   | 4 / 3 | 580   | 82.8 | 3  | 95% |
+| 5.0 | Super Sharp (Oxford Assembly of God)           | 4 / 3 | 450   | 64.3 |    | 81% |
+| 6.1 | Victorious Dragons² (Victory Church)           | 3 / 4 | 415   | 59.3 | 2  | 80% |
+| 7.0 | Jesus' Warriors (Winter Haven Worship Center)  | 3 / 4 | 555   | 79.3 | 1  | 72% |
+| 8.0 | Scripture Highlighters (Faith Assembly of God) | 1 / 6 | 330   | 47.1 | 1  | 96% |
 
 ### Individuals
 
-*Ties broken by Average Points then by Total Quiz Outs*
+*Ties broken by Average Points then Total Quiz Outs*
 
-| #        | Quizzer             | Team / Church                                  | Total | Avg  | QO | Q%   |
-|---------:|---------------------|------------------------------------------------|------:|-----:|---:|-----:|
-| 1        | Paul Groves         | Victorious Warriors (Victory Church)           | 585   | 97.5 | 6  | 86%  |
-| 2        | Philomena De Pablo  | God's Girls (Family First Assembly)            | 555   | 92.5 | 4  | 85%  |
-| 3        | Emmett Strickland   | Exalibur (Oxford Assembly of God)              | 390   | 65   | 3  | 82%  |
-| 4        | Makya Rivenburg     | The Little Lambs (LIFE Church Assembly of God) | 385   | 64.2 | 5  | 92%  |
-| 5        | Liam McCurdy        | Jesus' Super Gang (New Life Assembly)          | 360   | 60   | 2  | 93%  |
-| 6        | Aliyah Robinson     | God's Girls (Family First Assembly)            | 330   | 55   | 1  | 88%  |
-| 7        | Makayla Weatherholt | Victorious Warriors (Victory Church)           | 250   | 41.7 | 1  | 88%  |
-| 8        | Aviannah Registre   | Mighty Warriors (New Life Assembly)            | 175   | 29.2 |    | 92%  |
-| 9        | Kirra Perry         | The Little Lambs (LIFE Church Assembly of God) | 170   | 28.3 |    | 79%  |
-| **\*9**  | Lizzy Godfrey       | Faith Warriors (Faith Assembly of God)         | 170   | 28.3 |    | 100% |
-| 10       | Isaiah Grevi        | Faith Warriors (Faith Assembly of God)         | 160   | 26.7 |    | 100% |
-| 11       | Hannah Hnilica      | God's Girls (Family First Assembly)            | 95    | 15.8 |    | 70%  |
-| **\*11** | Kamilah Dasmy       | Mighty Warriors (New Life Assembly)            | 95    | 15.8 |    | 80%  |
-| **\*11** | Skylah Freeman      | Mighty Warriors (New Life Assembly)            | 95    | 15.8 |    | 78%  |
-| **\*11** | Yemi Fawole         | Exalibur (Oxford Assembly of God)              | 95    | 15.8 |    | 100% |
-| 12       | Eli Hahn            | Exalibur (Oxford Assembly of God)              | 85    | 14.2 |    | 75%  |
-| 13       | Naomi White         | Victorious Warriors (Victory Church)           | 60    | 10   |    | 83%  |
-| 14       | Josiah Hamblen      | Exalibur (Oxford Assembly of God)              | 55    | 9.2  |    | 83%  |
-| 15       | Payge Voltaire      | Mighty Warriors (New Life Assembly)            | 50    | 8.3  |    | 100% |
-| 16       | Arielle Registre    | Jesus' Super Gang (New Life Assembly)          | 25    | 4.2  |    | 75%  |
-| 17       | Pablo Banda         | The Little Lambs (LIFE Church Assembly of God) | 10    | 1.7  |    | 100% |
-| 18       | Arriya Chaya        | God's Girls (Family First Assembly)            | 0     |      |    |      |
-| **\*18** | Arthur Calderon     | The Little Lambs (LIFE Church Assembly of God) | 0     |      |    |      |
-| **\*18** | Camryn Howard       | Jesus' Super Gang (New Life Assembly)          | 0     |      |    |      |
-| **\*18** | Extra-1             | Victorious Warriors (Victory Church)           | 0     |      |    |      |
-| **\*18** | Extra-2             | Victorious Warriors (Victory Church)           | 0     |      |    |      |
-| **\*18** | Extra-3             | Victorious Warriors (Victory Church)           | 0     |      |    |      |
-| **\*18** | Extra-4             | Victorious Warriors (Victory Church)           | 0     |      |    |      |
-| **\*18** | Kaydence Russell    | Mighty Warriors (New Life Assembly)            | 0     |      |    |      |
-| **\*18** | Lillian Windbish    | Faith Warriors (Faith Assembly of God)         | 0     |      |    |      |
-| **\*18** | Nicolas Johnson     | Faith Warriors (Faith Assembly of God)         | 0     |      |    |      |
-| **\*18** | Rebecca Kebede      | Faith Warriors (Faith Assembly of God)         | 0     |      |    |      |
-| **\*18** | Riley Madak         | The Little Lambs (LIFE Church Assembly of God) | 0     |      |    |      |
-| **\*18** | Tabitha Hursell     | Jesus' Super Gang (New Life Assembly)          | 0     |      |    |      |
-| 19       | Victoria Fernandez  | Jesus' Super Gang (New Life Assembly)          | -5    | -.8  |    |      |
-| 20       | Kallen Alicea       | Jesus' Super Gang (New Life Assembly)          | -10   | -1.7 |    |      |
-| 21       | Alexia Robinson     | God's Girls (Family First Assembly)            | -30   | -5   |    |      |
+| #        | Quizzer            | Team / Church                                  | Total | Avg  | QO | Q%   |
+|---------:|--------------------|------------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Benjamin Reilly    | Thunderbolts (Faith Assembly of God)           | 550   | 78.6 | 3  | 79%  |
+| 2        | Aliyah Robinson    | Family Force Five (Family First Assembly)      | 510   | 72.9 | 2  | 79%  |
+| 3        | Sirayah Williams   | Faith Fighters (LIFE Church Assembly of God)   | 420   | 60   | 3  | 93%  |
+| 4        | Cameron Cooper     | Scripture Highlighters (Faith Assembly of God) | 320   | 45.7 | 1  | 96%  |
+| 5        | Paul Groves        | Victorious Dragons² (Victory Church)           | 315   | 45   | 2  | 79%  |
+| 6        | Joshua Wells       | Jesus' Warriors (Winter Haven Worship Center)  | 290   | 41.4 | 1  | 75%  |
+| 7        | Ethan Olson        | Rising Arrows (Life Church)                    | 270   | 38.6 | 1  | 74%  |
+| 8        | Elijah Wells       | Jesus' Warriors (Winter Haven Worship Center)  | 265   | 37.9 |    | 68%  |
+| 9        | Nissi Dunham       | Super Sharp (Oxford Assembly of God)           | 250   | 35.7 |    | 85%  |
+| 10       | Jordan Cessous     | Rising Arrows (Life Church)                    | 230   | 32.9 |    | 90%  |
+| 11       | Kirra Perry        | Faith Fighters (LIFE Church Assembly of God)   | 160   | 22.9 |    | 100% |
+| 12       | Gideon Rodriguez   | Rising Arrows (Life Church)                    | 145   | 20.7 |    | 72%  |
+| 13       | Silas De Pablo     | Family Force Five (Family First Assembly)      | 115   | 16.4 |    | 65%  |
+| 14       | Naomi White        | Victorious Dragons² (Victory Church)           | 100   | 14.3 |    | 80%  |
+| 15       | Yemi Fawole        | Super Sharp (Oxford Assembly of God)           | 95    | 13.6 |    | 80%  |
+| 16       | Lydia Marrero      | Thunderbolts (Faith Assembly of God)           | 60    | 8.6  |    | 67%  |
+| 17       | Madi Spellman      | Thunderbolts (Faith Assembly of God)           | 40    | 5.7  |    | 100% |
+| **\*17** | Eli Hahn           | Super Sharp (Oxford Assembly of God)           | 40    | 5.7  |    | 83%  |
+| 18       | Emma Staton        | Super Sharp (Oxford Assembly of God)           | 35    | 5    |    | 62%  |
+| **\*18** | Alexia Robinson    | Family Force Five (Family First Assembly)      | 35    | 5    |    | 54%  |
+| 19       | Frankie Lee        | Rising Arrows (Life Church)                    | 20    | 2.9  |    | 100% |
+| **\*19** | JB Staton          | Super Sharp (Oxford Assembly of God)           | 20    | 2.9  |    | 100% |
+| 20       | Clayton Clark      | Scripture Highlighters (Faith Assembly of God) | 10    | 1.4  |    | 99%  |
+| **\*20** | Abigail Dunham     | Super Sharp (Oxford Assembly of God)           | 10    | 1.4  |    | 99%  |
+| 21       | Selena Miller      | Jesus' Warriors (Winter Haven Worship Center)  | 0     |      |    |      |
+| **\*21** | Lillian Martin     | Jesus' Warriors (Winter Haven Worship Center)  | 0     |      |    |      |
+| **\*21** | Zoe Thomas         | Jesus' Warriors (Winter Haven Worship Center)  | 0     |      |    |      |
+| **\*21** | Marina Denton      | Jesus' Warriors (Winter Haven Worship Center)  | 0     |      |    |      |
+| **\*21** | Allison Crouch     | Faith Fighters (LIFE Church Assembly of God)   | 0     |      |    |      |
+| **\*21** | Guillermo Diaz     | Faith Fighters (LIFE Church Assembly of God)   | 0     |      |    |      |
+| **\*21** | Madison Bowden     | Faith Fighters (LIFE Church Assembly of God)   | 0     |      |    |      |
+| **\*21** | Jaelynn Martinez   | Family Force Five (Family First Assembly)      | 0     |      |    |      |
+| **\*21** | Philomena De Pablo | Family Force Five (Family First Assembly)      | 0     |      |    |      |
+| **\*21** | Elli White         | Victorious Dragons² (Victory Church)           | 0     |      |    |      |
 
 
-## Achiever: Flight 4
+## Achiever Flight 4
 
 ### Teams
 
-*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
+*2 way ties broken by head to head, 3+ way ties broken by points*
 
-**COMPLETE:** All Room(s) Reported.
-
-| # | Team / Church                                                | W/L   | W%  | Total | Avg  | QO | Q%  |
-|--:|--------------------------------------------------------------|-------|----:|------:|-----:|---:|----:|
-| 1 | FWC Orange (Family Worship Center)                           | 5 / 1 | 83% | 520   | 86.7 | 1  | 84% |
-| 2 | God Squad (First Assembly Deland)                            | 4 / 2 | 67% | 455   | 75.8 | 3  | 78% |
-| 3 | Suncoast Shield Bearers (Suncoast Cathedral Assembly of God) | 4 / 2 | 67% | 465   | 77.5 | 5  | 88% |
-| 4 | Jesus Freaks (LIFE Church Assembly of God)                   | 3 / 3 | 50% | 565   | 94.2 |    | 87% |
-| 5 | Word Warriors (New Life Assembly)                            | 2 / 4 | 33% | 270   | 45   | 1  | 59% |
-| 6 | Suncoast Sword Wielders (Suncoast Cathedral Assembly of God) | 2 / 4 | 33% | 230   | 38.3 |    | 68% |
-| 7 | Shark Attack (Harvest Assembly of God)                       | 1 / 5 | 17% | 190   | 31.7 |    | 87% |
+| #   | Team / Church                                    | W/L   | Total | Avg   | QO | Q%  |
+|----:|--------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.1 | Scripture Seekers Team 2 (First Assembly of God) | 5 / 1 | 540   | 90    | 4  | 67% |
+| 2.0 | Bible Warriors (Family First Assembly)           | 5 / 1 | 670   | 111.6 | 2  | 77% |
+| 3.0 | Seekers of the Kingdom (New Life Assembly)       | 4 / 2 | 640   | 106.6 | 3  | 86% |
+| 4.0 | God Squad (First Assembly Deland)                | 3 / 3 | 260   | 43.3  |    | 76% |
+| 5.1 | The Golden Lions (LIFE Church Assembly of God)   | 2 / 4 | 215   | 35.8  |    | 79% |
+| 6.0 | Devil Destroyers (Harvest Assembly of God)       | 2 / 4 | 210   | 35    |    | 89% |
+| 7.0 | Bananas (Faith Assembly of God)                  | 0 / 6 | 185   | 30.8  |    | 83% |
 
 ### Individuals
 
-*Ties broken by Average Points then by Total Quiz Outs*
+*Ties broken by Average Points then Total Quiz Outs*
 
-| #        | Quizzer               | Team / Church                                                | Total | Avg  | QO | Q%   |
-|---------:|-----------------------|--------------------------------------------------------------|------:|-----:|---:|-----:|
-| 1        | Shendoah Rivenburg    | Jesus Freaks (LIFE Church Assembly of God)                   | 460   | 76.7 |    | 86%  |
-| 2        | Noah Van Hoven        | Suncoast Shield Bearers (Suncoast Cathedral Assembly of God) | 445   | 74.2 | 5  | 92%  |
-| 3        | Titus Blades          | God Squad (First Assembly Deland)                            | 285   | 47.5 | 2  | 79%  |
-| 4        | Amari Mathurin        | Word Warriors (New Life Assembly)                            | 250   | 41.7 |    | 87%  |
-| 5        | Elias Silva           | FWC Orange (Family Worship Center)                           | 185   | 30.8 |    | 90%  |
-| 6        | Bentley Denton        | FWC Orange (Family Worship Center)                           | 165   | 27.5 | 1  | 74%  |
-| 7        | Kindle Blades         | God Squad (First Assembly Deland)                            | 155   | 25.8 | 1  | 78%  |
-| 8        | Larkin Kramper        | Shark Attack (Harvest Assembly of God)                       | 145   | 24.2 |    | 88%  |
-| 9        | Jeremiah Berntsen     | Suncoast Sword Wielders (Suncoast Cathedral Assembly of God) | 105   | 17.5 |    | 78%  |
-| 10       | Elijah Williams       | FWC Orange (Family Worship Center)                           | 100   | 16.7 |    | 89%  |
-| 11       | Kaden Alicea          | Word Warriors (New Life Assembly)                            | 75    | 12.5 | 1  | 50%  |
-| 12       | Elijah Barrett        | Suncoast Sword Wielders (Suncoast Cathedral Assembly of God) | 75    | 12.5 |    | 58%  |
-| 13       | Lindsey Hostetler     | Jesus Freaks (LIFE Church Assembly of God)                   | 65    | 10.8 |    | 80%  |
-| 14       | Elioenai Hoffman      | Suncoast Sword Wielders (Suncoast Cathedral Assembly of God) | 50    | 8.3  |    | 80%  |
-| 15       | Aiden Doyle           | FWC Orange (Family Worship Center)                           | 40    | 6.7  |    | 100% |
-| **\*15** | Jessenia Banda        | Jesus Freaks (LIFE Church Assembly of God)                   | 40    | 6.7  |    | 100% |
-| **\*15** | Parker Kramper        | Shark Attack (Harvest Assembly of God)                       | 40    | 6.7  |    | 100% |
-| 16       | Jolie Denton          | FWC Orange (Family Worship Center)                           | 30    | 5    |    | 100% |
-| 17       | Izzy Fischer          | Suncoast Shield Bearers (Suncoast Cathedral Assembly of God) | 20    | 3.3  |    | 50%  |
-| **\*17** | Jerlyn Pawlak         | God Squad (First Assembly Deland)                            | 20    | 3.3  |    | 100% |
-| 18       | Elijah Ferrari        | Shark Attack (Harvest Assembly of God)                       | 10    | 1.7  |    | 100% |
-| 19       | Alejandro Calderon    | Jesus Freaks (LIFE Church Assembly of God)                   | 0     |      |    |      |
-| **\*19** | Allen MacMillan       | Suncoast Shield Bearers (Suncoast Cathedral Assembly of God) | 0     |      |    |      |
-| **\*19** | Autumn Vestal         | God Squad (First Assembly Deland)                            | 0     |      |    |      |
-| **\*19** | Ava Orrach            | God Squad (First Assembly Deland)                            | 0     |      |    |      |
-| **\*19** | Frantzen Jean Jacques | Word Warriors (New Life Assembly)                            | 0     |      |    |      |
-| **\*19** | Gabriel McCormick     | FWC Orange (Family Worship Center)                           | 0     |      |    |      |
-| **\*19** | Huey Howard           | Word Warriors (New Life Assembly)                            | 0     |      |    |      |
-| **\*19** | Madelynn Knellinger   | Suncoast Shield Bearers (Suncoast Cathedral Assembly of God) | 0     |      |    |      |
-| **\*19** | Matthew Blades        | God Squad (First Assembly Deland)                            | 0     |      |    |      |
-| **\*19** | Patrick Phillips      | God Squad (First Assembly Deland)                            | 0     |      |    |      |
-| **\*19** | Samantha Fischer      | Jesus Freaks (LIFE Church Assembly of God)                   | 0     |      |    |      |
-| 20       | Jazmine Rodriguez     | Shark Attack (Harvest Assembly of God)                       | -5    | -.8  |    |      |
-| **\*20** | Joel Blades           | God Squad (First Assembly Deland)                            | -5    | -.8  |    |      |
-| 21       | Ezekiel Hursell       | Word Warriors (New Life Assembly)                            | -25   | -4.2 |    |      |
-| 22       | Daniel Fernandez      | Word Warriors (New Life Assembly)                            | -30   | -5   |    |      |
+| #        | Quizzer           | Team / Church                                    | Total | Avg  | QO | Q%   |
+|---------:|-------------------|--------------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Logan Petrey      | Scripture Seekers Team 2 (First Assembly of God) | 440   | 73.3 | 4  | 71%  |
+| 2        | Aviannah Registre | Seekers of the Kingdom (New Life Assembly)       | 420   | 70   | 3  | 97%  |
+| 3        | Darius Robinson   | Bible Warriors (Family First Assembly)           | 355   | 59.2 | 1  | 68%  |
+| 4        | Hannah Hnilica    | Bible Warriors (Family First Assembly)           | 295   | 49.2 | 1  | 87%  |
+| 5        | Lizzy Godfrey     | Bananas (Faith Assembly of God)                  | 180   | 30   |    | 86%  |
+| 6        | Kamilah Dasmy     | Seekers of the Kingdom (New Life Assembly)       | 150   | 25   |    | 87%  |
+| 7        | Parker Kramper    | Devil Destroyers (Harvest Assembly of God)       | 135   | 22.5 |    | 90%  |
+| 8        | Jazmyne Walters   | God Squad (First Assembly Deland)                | 115   | 19.2 |    | 92%  |
+| 9        | Jonathan Williams | The Golden Lions (LIFE Church Assembly of God)   | 95    | 15.8 |    | 65%  |
+| 10       | Ava Orrach        | God Squad (First Assembly Deland)                | 80    | 13.3 |    | 90%  |
+| 11       | Bernardo Moreira  | Scripture Seekers Team 2 (First Assembly of God) | 70    | 11.7 |    | 100% |
+| 12       | Jerlyn Pawlak     | God Squad (First Assembly Deland)                | 55    | 9.2  |    | 80%  |
+| 13       | Lindsey Hostetler | The Golden Lions (LIFE Church Assembly of God)   | 50    | 8.3  |    | 100% |
+| 14       | Elijah Ferrari    | Devil Destroyers (Harvest Assembly of God)       | 40    | 6.7  |    | 100% |
+| **\*14** | Dalton Crouch     | The Golden Lions (LIFE Church Assembly of God)   | 40    | 6.7  |    | 100% |
+| **\*14** | Larkin Kramper    | Devil Destroyers (Harvest Assembly of God)       | 40    | 6.7  |    | 100% |
+| **\*14** | Payge Voltaire    | Seekers of the Kingdom (New Life Assembly)       | 40    | 6.7  |    | 54%  |
+| 15       | Jessenia Banda    | The Golden Lions (LIFE Church Assembly of God)   | 30    | 5    |    | 100% |
+| **\*15** | Uriel Mones       | Seekers of the Kingdom (New Life Assembly)       | 30    | 5    |    | 99%  |
+| **\*15** | Malakai Sifford   | Scripture Seekers Team 2 (First Assembly of God) | 30    | 5    |    | 47%  |
+| 16       | Titus Blades      | God Squad (First Assembly Deland)                | 25    | 4.2  |    | 40%  |
+| 17       | Arriya Chaya      | Bible Warriors (Family First Assembly)           | 20    | 3.3  |    | 99%  |
+| 18       | Daniel Bonilla    | Bananas (Faith Assembly of God)                  | 5     | .8   |    | 50%  |
+| 19       | Kathleena Chaya   | Bible Warriors (Family First Assembly)           | 0     |      |    |      |
+| **\*19** | Arrow De Pablo    | Bible Warriors (Family First Assembly)           | 0     |      |    |      |
+| **\*19** | Lorelai Moreno    | Devil Destroyers (Harvest Assembly of God)       | 0     |      |    |      |
+| **\*19** | Taylor Harrison   | Devil Destroyers (Harvest Assembly of God)       | 0     |      |    |      |
+| **\*19** | Claire Maricle    | God Squad (First Assembly Deland)                | 0     |      |    |      |
+| **\*19** | Ezekiel Hursell   | Seekers of the Kingdom (New Life Assembly)       | 0     |      |    |      |
+| 20       | Kindle Blades     | God Squad (First Assembly Deland)                | -5    | -.8  |    | 33%  |
+| **\*20** | Jasmine Rodriguez | Devil Destroyers (Harvest Assembly of God)       | -5    | -.8  |    |      |
+| 21       | Matthew Blades    | God Squad (First Assembly Deland)                | -10   | -1.7 |    |      |
 
-
-## Achiever: Flight 5
+## X-League Flight 1
 
 ### Teams
 
-*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
+*2 way ties broken by head to head, 3+ way ties broken by points*
 
-**COMPLETE:** All Room(s) Reported.
-
-| # | Team / Church                                                            | W/L   | W%  | Total | Avg | QO | Q%  |
-|--:|--------------------------------------------------------------------------|-------|----:|------:|----:|---:|----:|
-| 1 | Lightning Bolts (City Church of Orlando)                                 | 4 / 1 | 80% | 425   | 85  | 1  | 82% |
-| 2 | Double Edge (Oxford Assembly of God)                                     | 4 / 1 | 80% | 270   | 54  | 2  | 73% |
-| 3 | Freedom Fighters (Freedom Christian Fellowship of the Assemblies of God) | 3 / 2 | 60% | 235   | 47  |    | 68% |
-| 4 | Redeemers (Faith Assembly of God)                                        | 3 / 2 | 60% | 205   | 41  |    | 82% |
-| 5 | Super Sharp (Oxford Assembly of God)                                     | 1 / 4 | 20% | 180   | 36  |    | 72% |
-| 6 | Bible Crushers (Family First Assembly)                                   | 0 / 5 |     | 100   | 20  |    | 64% |
+| #   | Team / Church                                    | W/L   | Total | Avg   | QO | Q%  |
+|----:|--------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Scripture Seekers Team 3 (First Assembly of God) | 6 / 0 | 810   | 135   | 11 | 97% |
+| 2.0 | Burn the Ships (Faith Assembly of God)           | 4 / 2 | 735   | 122.5 | 10 | 89% |
+| 3.0 | Little Warriors (New Life Assembly)              | 2 / 4 | 555   | 92.5  | 5  | 85% |
+| 4.0 | Sons Of Thunder (Faith Assembly of God)          | 0 / 6 | 360   | 60    | 2  | 95% |
 
 ### Individuals
 
-*Ties broken by Average Points then by Total Quiz Outs*
+*Ties broken by Average Points then Total Quiz Outs*
 
-| #        | Quizzer             | Team / Church                                                            | Total | Avg | QO | Q%   |
-|---------:|---------------------|--------------------------------------------------------------------------|------:|----:|---:|-----:|
-| 1        | Christopher Ayala   | Lightning Bolts (City Church of Orlando)                                 | 280   | 56  | 1  | 81%  |
-| 2        | Emma Staton         | Double Edge (Oxford Assembly of God)                                     | 240   | 48  | 2  | 88%  |
-| 3        | Madi Spellman       | Redeemers (Faith Assembly of God)                                        | 170   | 34  |    | 93%  |
-| 4        | Xander Cullen       | Super Sharp (Oxford Assembly of God)                                     | 160   | 32  |    | 82%  |
-| 5        | Zoey Hill           | Lightning Bolts (City Church of Orlando)                                 | 95    | 19  |    | 75%  |
-| 6        | Kyle Brockman       | Freedom Fighters (Freedom Christian Fellowship of the Assemblies of God) | 80    | 16  |    | 55%  |
-| **\*6**  | Tristan Rosario     | Freedom Fighters (Freedom Christian Fellowship of the Assemblies of God) | 80    | 16  |    | 82%  |
-| 7        | Olachi Ohiaeriaku   | Freedom Fighters (Freedom Christian Fellowship of the Assemblies of God) | 75    | 15  |    | 67%  |
-| 8        | Martin Miles        | Lightning Bolts (City Church of Orlando)                                 | 50    | 10  |    | 100% |
-| **\*8**  | Silas De Pablo      | Bible Crushers (Family First Assembly)                                   | 50    | 10  |    | 64%  |
-| 9        | Andrew Chaya        | Bible Crushers (Family First Assembly)                                   | 40    | 8   |    | 71%  |
-| 10       | JB Staton           | Super Sharp (Oxford Assembly of God)                                     | 35    | 7   |    | 80%  |
-| 11       | Ian Scott           | Redeemers (Faith Assembly of God)                                        | 30    | 6   |    | 100% |
-| **\*11** | Zoe Hahn            | Double Edge (Oxford Assembly of God)                                     | 30    | 6   |    | 50%  |
-| 12       | Christian McElderry | Redeemers (Faith Assembly of God)                                        | 25    | 5   |    | 75%  |
-| 13       | Bentley Carver      | Bible Crushers (Family First Assembly)                                   | 10    | 2   |    | 50%  |
-| 14       | Makayla Jackson     | Super Sharp (Oxford Assembly of God)                                     | 5     | 1   |    | 50%  |
-| 15       | Abby Suro           | Lightning Bolts (City Church of Orlando)                                 | 0     |     |    |      |
-| **\*15** | Abigail Acree       | Super Sharp (Oxford Assembly of God)                                     | 0     |     |    |      |
-| **\*15** | Arrow De Pablo      | Bible Crushers (Family First Assembly)                                   | 0     |     |    |      |
-| **\*15** | Brayden Riggs       | Lightning Bolts (City Church of Orlando)                                 | 0     |     |    |      |
-| **\*15** | Caleb Rivera        | Lightning Bolts (City Church of Orlando)                                 | 0     |     |    |      |
-| **\*15** | Connie Miles        | Lightning Bolts (City Church of Orlando)                                 | 0     |     |    |      |
-| **\*15** | Ethan Wolf          | Lightning Bolts (City Church of Orlando)                                 | 0     |     |    |      |
-| **\*15** | Jaelynn Martinez    | Bible Crushers (Family First Assembly)                                   | 0     |     |    |      |
-| **\*15** | Jaxson Carver       | Bible Crushers (Family First Assembly)                                   | 0     |     |    |      |
-| **\*15** | Lailani Moore       | Redeemers (Faith Assembly of God)                                        | 0     |     |    |      |
-| **\*15** | Laura Moura         | Freedom Fighters (Freedom Christian Fellowship of the Assemblies of God) | 0     |     |    |      |
-| **\*15** | Murphy Newborn      | Double Edge (Oxford Assembly of God)                                     | 0     |     |    |      |
-| **\*15** | Piper Newborn       | Double Edge (Oxford Assembly of God)                                     | 0     |     |    |      |
-| 16       | Braylen Manns       | Super Sharp (Oxford Assembly of God)                                     | -10   | -2  |    |      |
-| **\*16** | Farrah Nemer        | Redeemers (Faith Assembly of God)                                        | -10   | -2  |    |      |
-| **\*16** | Jacksyn Jackson     | Super Sharp (Oxford Assembly of God)                                     | -10   | -2  |    |      |
-| **\*16** | Phillip Chevere     | Redeemers (Faith Assembly of God)                                        | -10   | -2  |    |      |
+| #        | Quizzer         | Team / Church                                    | Total | Avg  | QO | Q%   |
+|---------:|-----------------|--------------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Cassidy Johnson | Scripture Seekers Team 3 (First Assembly of God) | 420   | 70   | 6  | 100% |
+| 2        | Eli Smith       | Burn the Ships (Faith Assembly of God)           | 405   | 67.5 | 6  | 90%  |
+| 3        | Destiny Johnson | Scripture Seekers Team 3 (First Assembly of God) | 390   | 65   | 5  | 95%  |
+| 4        | Liam McCurdy    | Little Warriors (New Life Assembly)              | 375   | 62.5 | 5  | 92%  |
+| 5        | Kailyn Spence   | Burn the Ships (Faith Assembly of God)           | 305   | 50.8 | 4  | 90%  |
+| 6        | Bo Mitchell     | Sons Of Thunder (Faith Assembly of God)          | 290   | 48.3 | 2  | 93%  |
+| 7        | Emery Voltaire  | Little Warriors (New Life Assembly)              | 80    | 13.3 |    | 89%  |
+| **\*7**  | Kallen Alicea   | Little Warriors (New Life Assembly)              | 80    | 13.3 |    | 65%  |
+| 8        | Carson Cooper   | Sons Of Thunder (Faith Assembly of God)          | 70    | 11.7 |    | 100% |
+| 9        | Sarmilah Dasmy  | Little Warriors (New Life Assembly)              | 20    | 3.3  |    | 100% |
+| 10       | Maleah Marrero  | Burn the Ships (Faith Assembly of God)           | 10    | 1.7  |    | 99%  |
+| **\*10** | Phillip Chevere | Burn the Ships (Faith Assembly of God)           | 10    | 1.7  |    | 99%  |
+| 11       | Skyleigh Cooper | Burn the Ships (Faith Assembly of God)           | 5     | .8   |    | 50%  |
+| 12       | Maya Sifford    | Scripture Seekers Team 3 (First Assembly of God) | 0     |      |    |      |
 
-## Rising Stars: Flight 1
+
+## X-League Flight 2
 
 ### Teams
 
-*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
+*2 way ties broken by head to head, 3+ way ties broken by points*
 
-**COMPLETE:** All Room(s) Reported.
-
-| # | Team / Church                                                    | W/L   | W%   | Total | Avg   | QO | Q%  |
-|--:|------------------------------------------------------------------|-------|-----:|------:|------:|---:|----:|
-| 1 | Scripture Seekers #3 (First Assembly of God)                     | 6 / 0 | 100% | 755   | 125.8 | 7  | 91% |
-| 2 | Smith Fan Club (Faith Assembly of God)                           | 5 / 1 | 83%  | 995   | 165.8 | 13 | 97% |
-| 3 | Saber of the Spirit (Victory Church)                             | 4 / 2 | 67%  | 620   | 103.3 | 5  | 79% |
-| 4 | Life Church #1 (Life Church)                                     | 2 / 4 | 33%  | 475   | 79.2  | 5  | 77% |
-| 5 | Scripture Seekers #5 (First Assembly of God)                     | 2 / 4 | 33%  | 390   | 65    | 4  | 73% |
-| 6 | Discover (Freedom Christian Fellowship of the Assemblies of God) | 1 / 5 | 17%  | 415   | 69.2  | 5  | 85% |
-| 7 | Princesses of God (New Life Assembly)                            | 1 / 5 | 17%  | 290   | 48.3  | 2  | 76% |
+| #   | Team / Church                                        | W/L   | Total | Avg   | QO | Q%  |
+|----:|------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Scripture Seekers Team 4 (First Assembly of God)     | 4 / 0 | 490   | 122.5 | 5  | 86% |
+| 2.0 | Jesus Family Ministries #2 (Jesus Family Ministries) | 3 / 1 | 435   | 108.7 | 6  | 89% |
+| 3.0 | Princesses of God (New Life Assembly)                | 2 / 2 | 245   | 61.2  | 2  | 79% |
+| 4.0 | Double Edge (Oxford Assembly of God)                 | 1 / 3 | 300   | 75    | 4  | 68% |
+| 5.0 | Super Gang (New Life Assembly)                       | 0 / 4 | 265   | 66.2  | 2  | 96% |
 
 ### Individuals
 
-*Ties broken by Average Points then by Total Quiz Outs*
+*Ties broken by Average Points then Total Quiz Outs*
 
-| #        | Quizzer            | Team / Church                                                    | Total | Avg  | QO | Q%   |
-|---------:|--------------------|------------------------------------------------------------------|------:|-----:|---:|-----:|
-| 1        | Destiny Johnson    | Scripture Seekers #3 (First Assembly of God)                     | 420   | 70   | 6  | 100% |
-| 2        | Eliah Martinez     | Smith Fan Club (Faith Assembly of God)                           | 405   | 67.5 | 6  | 92%  |
-| 3        | Kailyn Spence      | Smith Fan Club (Faith Assembly of God)                           | 380   | 63.3 | 5  | 100% |
-| 4        | Mateus Rivera      | Discover (Freedom Christian Fellowship of the Assemblies of God) | 360   | 60   | 5  | 85%  |
-| 5        | Josiah Osibodu     | Life Church #1 (Life Church)                                     | 350   | 58.3 | 5  | 81%  |
-| 6        | Joshua Weatherholt | Saber of the Spirit (Victory Church)                             | 315   | 52.5 | 4  | 82%  |
-| 7        | Lilli White        | Saber of the Spirit (Victory Church)                             | 240   | 40   | 1  | 86%  |
-| 8        | Juniper Victor     | Scripture Seekers #3 (First Assembly of God)                     | 225   | 37.5 | 1  | 83%  |
-| 9        | Aria Dianand       | Smith Fan Club (Faith Assembly of God)                           | 210   | 35   | 2  | 100% |
-| 10       | Seamus Dowling     | Scripture Seekers #5 (First Assembly of God)                     | 205   | 34.2 | 3  | 80%  |
-| 11       | Emery Voltaire     | Princesses of God (New Life Assembly)                            | 205   | 34.2 | 2  | 87%  |
-| 12       | Ezra Arthur        | Scripture Seekers #5 (First Assembly of God)                     | 195   | 32.5 | 1  | 72%  |
-| 13       | Evelyn Olson       | Life Church #1 (Life Church)                                     | 100   | 16.7 |    | 68%  |
-| 14       | Olivia Miles       | Scripture Seekers #3 (First Assembly of God)                     | 90    | 15   |    | 83%  |
-| 15       | Kylie Rocha        | Princesses of God (New Life Assembly)                            | 70    | 11.7 |    | 62%  |
-| 16       | Maximus Prokop     | Saber of the Spirit (Victory Church)                             | 65    | 10.8 |    | 64%  |
-| 17       | Benton Shick       | Discover (Freedom Christian Fellowship of the Assemblies of God) | 55    | 9.2  |    | 86%  |
-| 18       | Julissa Philippe   | Life Church #1 (Life Church)                                     | 25    | 4.2  |    | 75%  |
-| 19       | Maya Sifford       | Scripture Seekers #3 (First Assembly of God)                     | 20    | 3.3  |    | 100% |
-| 20       | Ana Grace Brignol  | Princesses of God (New Life Assembly)                            | 15    | 2.5  |    | 67%  |
-| 21       | Elli White         | Saber of the Spirit (Victory Church)                             | 10    | 1.7  |    | 100% |
-| 22       | Alijah Lee         | Life Church #1 (Life Church)                                     | 0     |      |    |      |
-| **\*22** | Joel Osibodu       | Life Church #1 (Life Church)                                     | 0     |      |    |      |
-| 23       | Eleanor Prokop     | Saber of the Spirit (Victory Church)                             | -10   | -1.7 |    |      |
-| **\*23** | Jahleel Miles      | Scripture Seekers #5 (First Assembly of God)                     | -10   | -1.7 |    |      |
-
-
-## Rising Stars: Flight 2
-
-### Teams
-
-*2-way ties broken by head-to-head matches, 3+-way ties broken by points*
-
-**COMPLETE:** All Room(s) Reported.
-
-| # | Team / Church                                | W/L   | W%   | Total | Avg   | QO | Q%  |
-|--:|----------------------------------------------|-------|-----:|------:|------:|---:|----:|
-| 1 | FWC Blue (Family Worship Center)             | 6 / 0 | 100% | 940   | 156.7 | 11 | 88% |
-| 2 | Scripture Seekers #4 (First Assembly of God) | 5 / 1 | 83%  | 530   | 88.3  | 7  | 81% |
-| 3 | The Golden Gems (Haven Worship Center)       | 4 / 2 | 67%  | 665   | 110.8 | 9  | 92% |
-| 4 | Little Warriors (New Life Assembly)          | 3 / 3 | 50%  | 480   | 80    | 4  | 83% |
-| 5 | Firespeed (City Church of Orlando)           | 2 / 4 | 33%  | 330   | 55    | 4  | 72% |
-| 6 | The Oompaloompas (Faith Assembly of God)     | 1 / 5 | 17%  | 220   | 36.7  | 2  | 85% |
-| 7 | Gods Princesses (Harvest Assembly of God)    | 0 / 6 |      | 70    | 11.7  |    | 69% |
-
-### Individuals
-
-*Ties broken by Average Points then by Total Quiz Outs*
-
-| #        | Quizzer                 | Team / Church                                | Total | Avg  | QO | Q%   |
-|---------:|-------------------------|----------------------------------------------|------:|-----:|---:|-----:|
-| 1        | Abigail Soriano Batista | The Golden Gems (Haven Worship Center)       | 405   | 67.5 | 6  | 92%  |
-| 2        | Noah Abraham            | FWC Blue (Family Worship Center)             | 400   | 66.7 | 6  | 90%  |
-| 3        | River Larva             | Scripture Seekers #4 (First Assembly of God) | 390   | 65   | 6  | 86%  |
-| 4        | Lilly Liebl             | FWC Blue (Family Worship Center)             | 370   | 61.7 | 5  | 89%  |
-| 5        | Speck Sullivan          | Firespeed (City Church of Orlando)           | 280   | 46.7 | 4  | 78%  |
-| 6        | Pierce Beckham          | The Golden Gems (Haven Worship Center)       | 230   | 38.3 | 3  | 91%  |
-| 7        | Sarmilah Dasmy          | Little Warriors (New Life Assembly)          | 225   | 37.5 | 2  | 88%  |
-| 8        | Kathleen Mec-El         | Little Warriors (New Life Assembly)          | 215   | 35.8 | 2  | 81%  |
-| 9        | Ezra Trimble            | The Oompaloompas (Faith Assembly of God)     | 205   | 34.2 | 2  | 87%  |
-| 10       | Canyon Larva            | Scripture Seekers #4 (First Assembly of God) | 145   | 24.2 | 1  | 76%  |
-| 11       | Alicia Rodriguez        | Gods Princesses (Harvest Assembly of God)    | 60    | 10   |    | 78%  |
-| 12       | Zoe Lynch               | FWC Blue (Family Worship Center)             | 50    | 8.3  |    | 100% |
-| 13       | Hope Williams           | FWC Blue (Family Worship Center)             | 45    | 7.5  |    | 83%  |
-| **\*13** | Khloe Trivett           | FWC Blue (Family Worship Center)             | 45    | 7.5  |    | 83%  |
-| 14       | Malachi Voltaire        | Little Warriors (New Life Assembly)          | 35    | 5.8  |    | 80%  |
-| 15       | Ava McCormick           | FWC Blue (Family Worship Center)             | 30    | 5    |    | 100% |
-| **\*15** | Bryce Warren            | The Golden Gems (Haven Worship Center)       | 30    | 5    |    | 100% |
-| **\*15** | Liam Garcia             | Firespeed (City Church of Orlando)           | 30    | 5    |    | 100% |
-| 16       | Bryce Garner            | Firespeed (City Church of Orlando)           | 25    | 4.2  |    | 57%  |
-| 17       | Rachel Kalu             | The Oompaloompas (Faith Assembly of God)     | 15    | 2.5  |    | 67%  |
-| 18       | Abby Rodriguez          | Gods Princesses (Harvest Assembly of God)    | 10    | 1.7  |    | 50%  |
-| 19       | Ayden Russell           | Little Warriors (New Life Assembly)          | 5     | .8   |    | 50%  |
-| 20       | Aurora Smith            | The Golden Gems (Haven Worship Center)       | 0     |      |    |      |
-| **\*20** | Briella Gonzalez        | Gods Princesses (Harvest Assembly of God)    | 0     |      |    |      |
-| **\*20** | Elianah Bentley         | The Golden Gems (Haven Worship Center)       | 0     |      |    |      |
-| **\*20** | Extra-1                 | Firespeed (City Church of Orlando)           | 0     |      |    |      |
-| **\*20** | Javin Kupsch            | Firespeed (City Church of Orlando)           | 0     |      |    |      |
-| **\*20** | Joshua Buxton           | The Golden Gems (Haven Worship Center)       | 0     |      |    |      |
-| **\*20** | Karis Wolf              | Firespeed (City Church of Orlando)           | 0     |      |    |      |
-| **\*20** | Paisley Shultz          | FWC Blue (Family Worship Center)             | 0     |      |    |      |
-| **\*20** | Raquel Smith            | The Oompaloompas (Faith Assembly of God)     | 0     |      |    |      |
-| **\*20** | Rylee Chapple           | Firespeed (City Church of Orlando)           | 0     |      |    |      |
-| **\*20** | Sarai Santos            | Scripture Seekers #4 (First Assembly of God) | 0     |      |    |      |
-| **\*20** | Knox Howell             | FWC Blue (Family Worship Center)             | 0     |      |    | 33%  |
-| 21       | Selah Santos            | Scripture Seekers #4 (First Assembly of God) | -5    | -.8  |    |      |
-| **\*21** | Caylee Rivera           | Firespeed (City Church of Orlando)           | -5    | -.8  |    | 25%  |
+| #        | Quizzer                     | Team / Church                                        | Total | Avg  | QO | Q%   |
+|---------:|-----------------------------|------------------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Ian Joan                    | Scripture Seekers Team 4 (First Assembly of God)     | 280   | 70   | 4  | 100% |
+| 2        | Nathan Alexander            | Jesus Family Ministries #2 (Jesus Family Ministries) | 230   | 57.5 | 3  | 91%  |
+| 3        | Arielle Registre            | Super Gang (New Life Assembly)                       | 225   | 56.3 | 2  | 95%  |
+| 4        | Josiah Hamblen              | Double Edge (Oxford Assembly of God)                 | 215   | 53.8 | 3  | 87%  |
+| 5        | Anish Roger Prem Raja Singh | Jesus Family Ministries #2 (Jesus Family Ministries) | 205   | 51.3 | 3  | 86%  |
+| 6        | Kylie Rocha                 | Princesses of God (New Life Assembly)                | 190   | 47.5 | 2  | 77%  |
+| 7        | Ezra Arthur                 | Scripture Seekers Team 4 (First Assembly of God)     | 145   | 36.3 | 1  | 83%  |
+| 8        | Xander Cullen               | Double Edge (Oxford Assembly of God)                 | 70    | 17.5 | 1  | 52%  |
+| 9        | River Larva                 | Scripture Seekers Team 4 (First Assembly of God)     | 65    | 16.3 |    | 64%  |
+| 10       | Kaitlande Jacques           | Princesses of God (New Life Assembly)                | 45    | 11.3 |    | 83%  |
+| 11       | Kathleen Mec-El             | Super Gang (New Life Assembly)                       | 30    | 7.5  |    | 100% |
+| 12       | Zoe Hahn                    | Double Edge (Oxford Assembly of God)                 | 15    | 3.8  |    | 50%  |
+| 13       | Victoria Fernandez          | Princesses of God (New Life Assembly)                | 10    | 2.5  |    | 99%  |
+| **\*13** | Tabitha Hursell             | Super Gang (New Life Assembly)                       | 10    | 2.5  |    | 99%  |
+| 14       | Sarah Dunham                | Double Edge (Oxford Assembly of God)                 | 0     |      |    |      |
+| **\*14** | Adalynn Vasquez             | Super Gang (New Life Assembly)                       | 0     |      |    |      |
 

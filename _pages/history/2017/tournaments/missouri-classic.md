@@ -12,7 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## A League
+## A Division
 
 ### Teams
 
@@ -76,10 +76,11 @@ menubar_toc_static:
 | **\*32** | Emily McKinley      | Sioux Falls (Sioux Falls First)                      | 0     |       |    |    |
 | **\*32** | Romario Rodriguez   | Sioux Falls (Sioux Falls First)                      | 0     |       |    |    |
 
+## Experience Division
 
-## Experience
+### Preliminaries
 
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -93,7 +94,7 @@ menubar_toc_static:
 | 5.1 | Central Exp (Central AG)              | 1 / 5 | 315   | 45    | 1  | 24 |
 | 6.0 | The Oaks XP (The Oaks Fellowship)     | 1 / 5 | 235   | 33.6  |    | 16 |
 
-### Individuals
+#### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
@@ -122,4 +123,66 @@ menubar_toc_static:
 | **\*19** | Abigail Jones       | Central Exp (Central AG)              | 0     |      |    |    |
 | 20       | Isaac Jenkins       | Therefore (James River)               | -5    | -.8  |    |    |
 | 21       | Jason Bartholomew   | The Oaks XP (The Oaks Fellowship)     | -15   | -2.5 |    | 1  |
+
+### Blue
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                     | W/L   | Total | Avg  | QO | Qs |
+|----:|-----------------------------------|-------|------:|-----:|---:|---:|
+| 1.0 | Central Exp (Central AG)          | 2 / 0 | 205   | 68.3 | 1  | 13 |
+| 2.0 | Therefore (James River)           | 1 / 1 | 235   | 78.3 | 1  | 18 |
+| 3.0 | The Oaks XP (The Oaks Fellowship) | 0 / 2 | 60    | 20   |    | 6  |
+
+#### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #  | Quizzer             | Team / Church                     | Total | Avg  | QO | Qs |
+|---:|---------------------|-----------------------------------|------:|-----:|---:|---:|
+| 1  | Lexi Parry          | Central Exp (Central AG)          | 165   | 82.5 | 1  | 9  |
+| 2  | Lewis Groh          | Therefore (James River)           | 90    | 45   | 1  | 6  |
+| 3  | Emma Gapasin        | Therefore (James River)           | 90    | 45   |    | 6  |
+| 4  | Josiah Tonsing      | Therefore (James River)           | 50    | 25   |    | 4  |
+| 5  | Natalie Bartholomew | The Oaks XP (The Oaks Fellowship) | 45    | 22.5 |    | 4  |
+| 6  | Mikayla Butler      | Central Exp (Central AG)          | 30    | 15   |    | 3  |
+| 7  | Isaac Jenkins       | Therefore (James River)           | 20    | 10   |    | 1  |
+| 8  | Jason Bartholomew   | The Oaks XP (The Oaks Fellowship) | 15    | 7.5  |    | 2  |
+| 9  | Trinity Phelps      | Central Exp (Central AG)          | 10    | 5    |    | 1  |
+| 10 | Abigail Jones       | Central Exp (Central AG)          | 0     |      |    |    |
+| 11 | Micah Tonsing       | Therefore (James River)           | -15   | -7.5 |    | 1  |
+
+### Red
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                         | W/L   | Total | Avg   | QO | Qs |
+|----:|---------------------------------------|-------|------:|------:|---:|---:|
+| 1.0 | Sisters of Faith (Life 360)           | 3 / 0 | 520   | 173.3 | 5  | 29 |
+| 2.0 | Trinity Chosen (Trinity Cedar Hill)   | 2 / 1 | 395   | 131.7 | 2  | 26 |
+| 3.0 | Mark My Words (James River)           | 1 / 2 | 375   | 125   | 1  | 21 |
+| 4.0 | Trinity Redeemed (Trinity Cedar Hill) | 0 / 3 | 445   | 148.3 | 3  | 25 |
+
+#### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #  | Quizzer          | Team / Church                         | Total | Avg  | QO | Qs |
+|---:|------------------|---------------------------------------|------:|-----:|---:|---:|
+| 1  | Madison Claunch  | Trinity Redeemed (Trinity Cedar Hill) | 345   | 115  | 3  | 15 |
+| 2  | Riley Breig      | Sisters of Faith (Life 360)           | 290   | 96.7 | 3  | 15 |
+| 3  | Kaitlyn Ramsey   | Sisters of Faith (Life 360)           | 230   | 76.7 | 2  | 14 |
+| 4  | Kaiya Braswell   | Mark My Words (James River)           | 165   | 55   | 1  | 10 |
+| 5  | Isaac Davenport  | Trinity Chosen (Trinity Cedar Hill)   | 150   | 50   | 1  | 8  |
+| 6  | Juliet Amadi     | Trinity Chosen (Trinity Cedar Hill)   | 145   | 48.3 | 1  | 9  |
+| 7  | Naomi McNaughton | Mark My Words (James River)           | 140   | 46.7 |    | 7  |
+| 8  | Joseph Hames     | Trinity Chosen (Trinity Cedar Hill)   | 100   | 33.3 |    | 9  |
+| 9  | Natalie Nailor   | Trinity Redeemed (Trinity Cedar Hill) | 80    | 26.7 |    | 8  |
+| 10 | Danielle Aubrey  | Mark My Words (James River)           | 70    | 23.3 |    | 4  |
+| 11 | Frida Ouedraogo  | Trinity Redeemed (Trinity Cedar Hill) | 20    | 6.7  |    | 2  |
+| 12 | Leah Enke        | Mark My Words (James River)           | 0     |      |    |    |
 

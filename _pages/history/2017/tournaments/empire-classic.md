@@ -193,3 +193,35 @@ menubar_toc_static:
 | 19 | Alex Stewart       | Wyckoff,NJ (Nat)    | Bethany                    |       | .00   |    |
 | 19 | Tyler Robinson     | Metuchen            | Metuchen AG                |       | .00   |    |
 | 19 | Tristan Velicky    | Wyckoff,NJ (Paul)   | Bethany                    |       | .00   |    |
+
+## MSQ
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team               | Church                     | W/L | Total | Avg    |
+|--:|--------------------|----------------------------|-----|------:|-------:|
+| 1 | Smithtown,NY       | Smithtown Christian School | 8/1 | 1535  | 170.56 |
+| 2 | Deposit,NY (Brian) | Maple Lane AG              | 5/4 | 490   | 54.44  |
+| 3 | Wyckoff,NJ (Joyce) | Bethany                    | 4/5 | 325   | 36.11  |
+| 4 | Phantom            | Sacrificed                 | 1/8 |       | .00    |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer          | Team               | Church                     | Total | Avg   | QO |
+|---:|------------------|--------------------|----------------------------|------:|------:|---:|
+| 1  | Hannah Fiormonti | Smithtown,NY       | Smithtown Christian School | 650   | 72.22 | 7  |
+| 2  | Katie Pellegrino | Smithtown,NY       | Smithtown Christian School | 445   | 49.44 | 3  |
+| 3  | Bobby Reuter     | Smithtown,NY       | Smithtown Christian School | 440   | 48.89 | 4  |
+| 4  | Noah Alguire     | Deposit,NY (Brian) | Maple Lane AG              | 335   | 37.22 | 2  |
+| 5  | Melody Ward      | Wyckoff,NJ (Joyce) | Bethany                    | 195   | 21.67 | 1  |
+| 6  | Ethan Hurst      | Deposit,NY (Brian) | Maple Lane AG              | 125   | 13.89 |    |
+| 7  | Nicholas Velicky | Wyckoff,NJ (Joyce) | Bethany                    | 70    | 7.78  |    |
+| 8  | Eddy Coutinho    | Wyckoff,NJ (Joyce) | Bethany                    | 35    | 3.89  |    |
+| 9  | Josiah Hodkinson | Deposit,NY (Brian) | Maple Lane AG              | 30    | 3.33  |    |
+| 10 | Naomi Ward       | Wyckoff,NJ (Joyce) | Bethany                    | 25    | 2.78  |    |
+| 11 | Camille Bello    | Wyckoff,NJ (Joyce) | Bethany                    |       | .00   |    |
+

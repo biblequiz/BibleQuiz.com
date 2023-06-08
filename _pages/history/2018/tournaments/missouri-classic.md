@@ -12,7 +12,47 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## Teams
+## Advanced
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                      | W/L   | Total | Avg   | QO | Q%  |
+|----:|----------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Springfield, MO - Life 360 (Life 360)              | 7 / 0 | 1375  | 196.4 | 11 | 82% |
+| 2.0 | Oak Grove, MO - Brookbank (Crown Pointe)           | 5 / 2 | 1225  | 175   | 10 | 72% |
+| 3.1 | Springfield, MO - Sons of Thunder (Evangel Temple) | 3 / 4 | 1025  | 146.4 | 9  | 72% |
+| 4.0 | Houston, TX - Braeswood (Braeswood)                | 3 / 4 | 825   | 117.8 | 6  | 68% |
+| 5.0 | Cedar Hill, TX - Mustard Seeds (Trinity Church)    | 0 / 8 | 445   | 55.6  | 2  | 57% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer             | Team / Church                                      | Total | Avg  | QO | Q%  |
+|---------:|---------------------|----------------------------------------------------|------:|-----:|---:|----:|
+| 1        | Cameron Ramsey      | Springfield, MO - Life 360 (Life 360)              | 660   | 94.3 | 4  | 86% |
+| 2        | Austin Ramsey       | Springfield, MO - Life 360 (Life 360)              | 640   | 91.4 | 7  | 80% |
+| 3        | Tirzah Brookbank    | Oak Grove, MO - Brookbank (Crown Pointe)           | 535   | 76.4 | 4  | 67% |
+| 4        | Michael Ukonu       | Houston, TX - Braeswood (Braeswood)                | 530   | 75.7 | 5  | 76% |
+| 5        | Josiah Brookbank    | Oak Grove, MO - Brookbank (Crown Pointe)           | 415   | 59.3 | 3  | 81% |
+| 6        | Kara Peters         | Springfield, MO - Sons of Thunder (Evangel Temple) | 395   | 56.4 | 4  | 67% |
+| 7        | Kelise Braithwaite  | Springfield, MO - Sons of Thunder (Evangel Temple) | 345   | 49.3 | 3  | 83% |
+| 8        | Kambria Braithwaite | Springfield, MO - Sons of Thunder (Evangel Temple) | 290   | 41.4 | 2  | 72% |
+| 9        | Rachel Brookbank    | Oak Grove, MO - Brookbank (Crown Pointe)           | 285   | 40.7 | 3  | 70% |
+| 10       | Jose Lopez          | Houston, TX - Braeswood (Braeswood)                | 250   | 35.7 | 1  | 67% |
+| 11       | Josh Barajas        | Cedar Hill, TX - Mustard Seeds (Trinity Church)    | 205   | 25.6 | 2  | 49% |
+| 12       | Madison Claunch     | Cedar Hill, TX - Mustard Seeds (Trinity Church)    | 155   | 19.4 |    | 90% |
+| 13       | Kaitlyn Ramsey      | Springfield, MO - Life 360 (Life 360)              | 80    | 11.4 |    | 75% |
+| 14       | Ethan Pickrell      | Cedar Hill, TX - Mustard Seeds (Trinity Church)    | 85    | 10.6 |    | 56% |
+| 15       | Anyiah Odera        | Houston, TX - Braeswood (Braeswood)                | 30    | 4.3  |    | 54% |
+| **\*15** | William Adu-Gyamfi  | Houston, TX - Braeswood (Braeswood)                | 30    | 4.3  |    | 50% |
+| 16       | Julia Sullivan      | Cedar Hill, TX - Mustard Seeds (Trinity Church)    | 0     |      |    | 50% |
+
+## Middle School
+
+### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -25,7 +65,7 @@ menubar_toc_static:
 | 5.0 | Ozark MO - El Equipo (James River Church)                      | 4 / 6 | 985   | 98.5  | 4  | 68% |
 | 6.0 | Springfield, MO - The Unknown (Praise AG )                     | 1 / 9 | 415   | 41.5  |    | 72% |
 
-## Individuals
+### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 

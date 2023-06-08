@@ -12,46 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## Bronze
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
-
-| # | Team                    | Church                      | W/L | Total | Avg    |
-|--:|-------------------------|-----------------------------|-----|------:|-------:|
-| 1 | Unschooled Ordinary Men | Evangel Temple-Springfield, | 3/2 | 660   | 132.00 |
-| 2 | Rivergate-Bryan         | Rivergate                   | 3/2 | 500   | 100.00 |
-| 3 | Trinity Blood & Fire    | Trinity Church              | 3/2 | 495   | 99.00  |
-| 4 | Trinity Violent Winds   | Trinity Church              | 2/3 | 495   | 99.00  |
-| 5 | Oaks                    | The Oaks                    | 1/3 | 195   | 48.75  |
-
-### Individuals
-
-*Ties broken by QuizOuts (Scores sorted by TOTAL)*
-
-| #  | Quizzer             | Team                    | Church                      | Total | Avg   | QO |
-|---:|---------------------|-------------------------|-----------------------------|------:|------:|---:|
-| 1  | Erin Asbjornson     | Trinity Violent Winds   | Trinity Church              | 400   | 80.00 | 3  |
-| 2  | John Cohen          | Rivergate-Bryan         | Rivergate                   | 295   | 59.00 | 3  |
-| 3  | Kambria Braithwaite | Unschooled Ordinary Men | Evangel Temple-Springfield, | 295   | 59.00 | 2  |
-| 4  | Ashlee Gallinger    | Unschooled Ordinary Men | Evangel Temple-Springfield, | 265   | 53.00 | 2  |
-| 5  | Joy Alayande        | Trinity Blood & Fire    | Trinity Church              | 250   | 50.00 | 1  |
-| 6  | Sarah Cohen         | Rivergate-Bryan         | Rivergate                   | 185   | 37.00 | 2  |
-| 7  | Danielle Asbjornson | Trinity Blood & Fire    | Trinity Church              | 165   | 33.00 | 1  |
-| 8  | Darren Rogers       | Oaks                    | The Oaks                    | 105   | 26.25 | 1  |
-| 9  | Chad Gallinger      | Unschooled Ordinary Men | Evangel Temple-Springfield, | 100   | 20.00 |    |
-| 10 | Ross Wyche          | Trinity Blood & Fire    | Trinity Church              | 80    | 16.00 |    |
-| 11 | Juliet Amadi        | Trinity Violent Winds   | Trinity Church              | 70    | 14.00 |    |
-| 12 | Anna O'neil         | Oaks                    | The Oaks                    | 65    | 16.25 |    |
-| 13 | David John          | Trinity Violent Winds   | Trinity Church              | 25    | 5.00  |    |
-| 13 | Azariah Rogers      | Oaks                    | The Oaks                    | 25    | 6.25  |    |
-| 14 | David Cohen         | Rivergate-Bryan         | Rivergate                   | 20    | 4.00  |    |
-| 15 | Stephanie Nieves    | Oaks                    | The Oaks                    |       | .00   |    |
-| 15 | Imani Love          | Oaks                    | The Oaks                    |       | .00   |    |
-
-
-## Gold
+## Gold Division
 
 ### Teams
 
@@ -90,3 +51,73 @@ menubar_toc_static:
 | 15 | Chris Adams         | Memorial-King                                | Memorial AG                 |       | .00    |    |
 | 15 | Izzy Lashley-Bobb   | Overlooked in the Daily Distribution of Food | Muskogee 1st AG             |       | .00    |    |
 
+## Silver Division
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team             | Church                | W/L | Total | Avg    |
+|--:|------------------|-----------------------|-----|------:|-------:|
+| 1 | Life 360         | Life 360              | 6/0 | 1035  | 172.50 |
+| 2 | Trinity G-Squad  | Trinity Church        | 3/3 | 340   | 56.67  |
+| 3 | Harvest Ft Worth | Harvest AG-Fort Worth | 3/3 | 295   | 49.17  |
+| 4 | Trinity Warriors | Trinity Church        | 0/6 | 155   | 25.83  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer         | Team             | Church                | Total | Avg    | QO |
+|---:|-----------------|------------------|-----------------------|------:|-------:|---:|
+| 1  | Cameron Ramsey  | Life 360         | Life 360              | 665   | 110.83 | 5  |
+| 2  | Austin Ramsey   | Life 360         | Life 360              | 370   | 61.67  | 4  |
+| 3  | Jack Rall       | Harvest Ft Worth | Harvest AG-Fort Worth | 240   | 40.00  | 1  |
+| 4  | Kaylen Hames    | Trinity G-Squad  | Trinity Church        | 225   | 37.50  | 3  |
+| 5  | Ethan Pickrell  | Trinity Warriors | Trinity Church        | 95    | 15.83  |    |
+| 6  | Elizabeth Sims  | Trinity G-Squad  | Trinity Church        | 80    | 13.33  |    |
+| 7  | Joseph Hames    | Trinity Warriors | Trinity Church        | 60    | 10.00  |    |
+| 8  | Rachel Bridges  | Harvest Ft Worth | Harvest AG-Fort Worth | 35    | 5.83   |    |
+| 8  | Julia Sullivan  | Trinity G-Squad  | Trinity Church        | 35    | 5.83   |    |
+| 9  | Ashley Fortney  | Harvest Ft Worth | Harvest AG-Fort Worth | 20    | 3.33   |    |
+| 10 | Gannon Breig    | Life 360         | Life 360              | 10    | 1.67   |    |
+| 11 | Isaiah Wilburn  | Trinity Warriors | Trinity Church        |       | .00    |    |
+| 12 | Jackson Widhalm | Life 360         | Life 360              | -10   | -1.67  |    |
+
+## Bronze Division
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
+
+| # | Team                    | Church                      | W/L | Total | Avg    |
+|--:|-------------------------|-----------------------------|-----|------:|-------:|
+| 1 | Unschooled Ordinary Men | Evangel Temple-Springfield, | 3/2 | 660   | 132.00 |
+| 2 | Rivergate-Bryan         | Rivergate                   | 3/2 | 500   | 100.00 |
+| 3 | Trinity Blood & Fire    | Trinity Church              | 3/2 | 495   | 99.00  |
+| 4 | Trinity Violent Winds   | Trinity Church              | 2/3 | 495   | 99.00  |
+| 5 | Oaks                    | The Oaks                    | 1/3 | 195   | 48.75  |
+
+### Individuals
+
+*Ties broken by QuizOuts (Scores sorted by TOTAL)*
+
+| #  | Quizzer             | Team                    | Church                      | Total | Avg   | QO |
+|---:|---------------------|-------------------------|-----------------------------|------:|------:|---:|
+| 1  | Erin Asbjornson     | Trinity Violent Winds   | Trinity Church              | 400   | 80.00 | 3  |
+| 2  | John Cohen          | Rivergate-Bryan         | Rivergate                   | 295   | 59.00 | 3  |
+| 3  | Kambria Braithwaite | Unschooled Ordinary Men | Evangel Temple-Springfield, | 295   | 59.00 | 2  |
+| 4  | Ashlee Gallinger    | Unschooled Ordinary Men | Evangel Temple-Springfield, | 265   | 53.00 | 2  |
+| 5  | Joy Alayande        | Trinity Blood & Fire    | Trinity Church              | 250   | 50.00 | 1  |
+| 6  | Sarah Cohen         | Rivergate-Bryan         | Rivergate                   | 185   | 37.00 | 2  |
+| 7  | Danielle Asbjornson | Trinity Blood & Fire    | Trinity Church              | 165   | 33.00 | 1  |
+| 8  | Darren Rogers       | Oaks                    | The Oaks                    | 105   | 26.25 | 1  |
+| 9  | Chad Gallinger      | Unschooled Ordinary Men | Evangel Temple-Springfield, | 100   | 20.00 |    |
+| 10 | Ross Wyche          | Trinity Blood & Fire    | Trinity Church              | 80    | 16.00 |    |
+| 11 | Juliet Amadi        | Trinity Violent Winds   | Trinity Church              | 70    | 14.00 |    |
+| 12 | Anna O'neil         | Oaks                    | The Oaks                    | 65    | 16.25 |    |
+| 13 | David John          | Trinity Violent Winds   | Trinity Church              | 25    | 5.00  |    |
+| 13 | Azariah Rogers      | Oaks                    | The Oaks                    | 25    | 6.25  |    |
+| 14 | David Cohen         | Rivergate-Bryan         | Rivergate                   | 20    | 4.00  |    |
+| 15 | Stephanie Nieves    | Oaks                    | The Oaks                    |       | .00   |    |
+| 15 | Imani Love          | Oaks                    | The Oaks                    |       | .00   |    |

@@ -12,9 +12,11 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## A-League
+## A League
 
-### Teams
+### Preliminaries
+
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -28,7 +30,7 @@ menubar_toc_static:
 | 6.0 | Germantown #1 (Germantown-WI-Life Church)       | 1 / 5 | 340   | 56.7  | 1  | 79% |
 | 7.0 | Sioux Falls (Sioux Falls-SD-Sioux Falls First)  | 0 / 6 | 175   | 29.2  | 1  | 55% |
 
-### Individuals
+#### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
@@ -57,10 +59,9 @@ menubar_toc_static:
 | 17       | Miriam Clements  | Birds of the Air (Portage-WI-CrossPoint AG)     | -5    | -.8  |    | 40% |
 | 18       | Anna Reece       | Flowers of the Field (Portage-WI-CrossPoint AG) | -10   | -1.7 |    |     |
 
+### Upper
 
-## A-Upper
-
-### Teams
+#### Teams
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
@@ -71,7 +72,7 @@ menubar_toc_static:
 | 3.0 | YpsiAG (Ypsilanti-MI-AG)                        | 2 / 1 | 410   | 136.6 | 3  | 88% |
 | 4.0 | Sparta A (Sparta-WI-New Life AG)                | 0 / 3 | 100   | 33.3  | 1  | 53% |
 
-### Individuals
+#### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
@@ -91,8 +92,35 @@ menubar_toc_static:
 | **\*11** | Robson Yoder    | YpsiAG (Ypsilanti-MI-AG)                        | 0     |      |    |      |
 | **\*11** | Gannon Breig    | Springfield #1 (Springfield-MO-Hope Church)     | 0     |      |    |      |
 
+### Lower
 
-## XP-Middle School
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                  | W/L   | Total | Avg  | QO | Q%  |
+|----:|------------------------------------------------|-------|------:|-----:|---:|----:|
+| 1.0 | Birds of the Air (Portage-WI-CrossPoint AG)    | 1 / 1 | 115   | 57.5 | 1  | 71% |
+| 2.0 | Sioux Falls (Sioux Falls-SD-Sioux Falls First) | 1 / 1 | 90    | 45   |    | 60% |
+| 3.0 | Germantown #1 (Germantown-WI-Life Church)      | 1 / 1 | 70    | 35   |    | 67% |
+
+#### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #       | Quizzer          | Team / Church                                  | Total | Avg  | QO | Q%   |
+|--------:|------------------|------------------------------------------------|------:|-----:|---:|-----:|
+| 1       | Maddie Clements  | Birds of the Air (Portage-WI-CrossPoint AG)    | 110   | 55   | 1  | 80%  |
+| 2       | Brooks Anderson  | Sioux Falls (Sioux Falls-SD-Sioux Falls First) | 105   | 52.5 |    | 86%  |
+| 3       | Aaron Lane       | Germantown #1 (Germantown-WI-Life Church)      | 50    | 25   |    | 100% |
+| 4       | Andrew Lane      | Germantown #1 (Germantown-WI-Life Church)      | 20    | 10   |    | 50%  |
+| 5       | Miriam Clements  | Birds of the Air (Portage-WI-CrossPoint AG)    | 5     | 2.5  |    | 50%  |
+| 6       | Brenna Schoessow | Birds of the Air (Portage-WI-CrossPoint AG)    | 0     |      |    | 50%  |
+| **\*6** | Merisa Rodriguez | Sioux Falls (Sioux Falls-SD-Sioux Falls First) | 0     |      |    |      |
+| **\*6** | Brianna McKinley | Sioux Falls (Sioux Falls-SD-Sioux Falls First) | 0     |      |    |      |
+| 7       | Emily McKinley   | Sioux Falls (Sioux Falls-SD-Sioux Falls First) | -15   | -7.5 |    | 37%  |
+
+## XP vs. Middle School
 
 ### Teams
 
@@ -127,8 +155,47 @@ menubar_toc_static:
 | 12       | Sophia Curtis      | Sparta XP (Sparta-WI-New Life AG)                       | 25    | 8.3   |    | 100% |
 | 13       | Malaika Evans      | Our Way is Yahweh (Orange City-IA-New Hope Evangelical) | 0     |       |    |      |
 
+## Middle School (Saturday)
 
-## XP-Saturday
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                           | W/L   | Total | Avg | QO | Q%  |
+|----:|---------------------------------------------------------|-------|------:|----:|---:|----:|
+| 1.1 | Our Way is Yahweh (Orange City-IA-New Hope Evangelical) | 4 / 1 | 635   | 127 | 5  | 80% |
+| 2.0 | Marinette #1 (Marinette-WI-Calvary Church AG)           | 4 / 1 | 920   | 184 | 8  | 85% |
+| 3.1 | Truth Be Told (Orange City-IA-New Hope Evangelical)     | 3 / 2 | 320   | 64  | 1  | 86% |
+| 4.0 | Sparta B (Sparta-WI-New Life AG)                        | 3 / 2 | 765   | 153 | 6  | 75% |
+| 5.0 | 10,000 Reasons (Orange City-IA-New Hope Evangelical)    | 1 / 4 | 210   | 42  | 1  | 90% |
+| 6.0 | The Knights (Orange City-IA-New Hope Evangelical)       | 0 / 5 | 25    | 5   |    | 57% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer          | Team / Church                                           | Total | Avg | QO | Q%   |
+|---------:|------------------|---------------------------------------------------------|------:|----:|---:|-----:|
+| 1        | Sawyer Curtis    | Sparta B (Sparta-WI-New Life AG)                        | 605   | 121 | 5  | 83%  |
+| 2        | Kora Pardee      | Marinette #1 (Marinette-WI-Calvary Church AG)           | 545   | 109 | 4  | 82%  |
+| 3        | Zoe Thornton     | Marinette #1 (Marinette-WI-Calvary Church AG)           | 375   | 75  | 4  | 88%  |
+| 4        | Ziva Murphy      | Our Way is Yahweh (Orange City-IA-New Hope Evangelical) | 320   | 64  | 3  | 86%  |
+| 5        | Jessie Murphy    | Our Way is Yahweh (Orange City-IA-New Hope Evangelical) | 295   | 59  | 2  | 75%  |
+| 6        | Ruth Varpness    | 10,000 Reasons (Orange City-IA-New Hope Evangelical)    | 210   | 42  | 1  | 90%  |
+| 7        | Sam Erwin        | Truth Be Told (Orange City-IA-New Hope Evangelical)     | 165   | 33  | 1  | 79%  |
+| 8        | Isaac Helgerson  | Sparta B (Sparta-WI-New Life AG)                        | 110   | 22  | 1  | 61%  |
+| 9        | Lily Varpness    | Truth Be Told (Orange City-IA-New Hope Evangelical)     | 85    | 17  |    | 89%  |
+| 10       | Hannah Hulstein  | Truth Be Told (Orange City-IA-New Hope Evangelical)     | 70    | 14  |    | 100% |
+| 11       | Elijah Helgerson | Sparta B (Sparta-WI-New Life AG)                        | 50    | 10  |    | 75%  |
+| 12       | Malaika Evans    | Our Way is Yahweh (Orange City-IA-New Hope Evangelical) | 20    | 4   |    | 75%  |
+| **\*12** | Elijah Delong    | The Knights (Orange City-IA-New Hope Evangelical)       | 20    | 4   |    | 60%  |
+| 13       | Max Koenig       | The Knights (Orange City-IA-New Hope Evangelical)       | 5     | 1   |    | 50%  |
+| 14       | Will Evans       | The Knights (Orange City-IA-New Hope Evangelical)       | 0     |     |    |      |
+| **\*14** | Amelia Brossard  | 10,000 Reasons (Orange City-IA-New Hope Evangelical)    | 0     |     |    |      |
+| **\*14** | Maya Brown       | 10,000 Reasons (Orange City-IA-New Hope Evangelical)    | 0     |     |    |      |
+
+
+## XP (Saturday)
 
 ### Teams
 
@@ -160,3 +227,40 @@ menubar_toc_static:
 | **\*9** | Haydee Heersink    | Peacemakers (Orange City-IA-New Hope Evangelical)     | 20    | 3.3   |    | 99%  |
 | 10      | Samuel Heersink    | Beckett SAMwich (Orange City-IA-New Hope Evangelical) | 0     |       |    |      |
 
+## Adult
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                                      | W/L   | Total | Avg   | QO | Q%  |
+|----:|--------------------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Sioux Falls (Sioux Falls-SD-Sioux Falls First)                     | 4 / 0 | 745   | 186.2 | 4  | 97% |
+| 2.0 | Coaches of Children in the Market Place (Portage-WI-CrossPoint AG) | 3 / 1 | 465   | 116.2 | 4  | 81% |
+| 3.0 | Parents of Children in the Market Place (Portage-WI-CrossPoint AG) | 2 / 2 | 165   | 41.2  | 1  | 64% |
+| 4.0 | Calvary Church #4 (Marinette-WI-Calvary Church AG)                 | 1 / 3 | 40    | 10    |    | 57% |
+| 5.0 | Calvary Church #3 (Marinette-WI-Calvary Church AG)                 | 0 / 4 | 75    | 18.7  |    | 62% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer            | Team / Church                                                      | Total | Avg  | QO | Q%   |
+|---------:|--------------------|--------------------------------------------------------------------|------:|-----:|---:|-----:|
+| 1        | Laura Rodrigez     | Sioux Falls (Sioux Falls-SD-Sioux Falls First)                     | 560   | 140  | 4  | 100% |
+| 2        | Don Batty          | Coaches of Children in the Market Place (Portage-WI-CrossPoint AG) | 355   | 88.8 | 4  | 83%  |
+| 3        | Terry Schoessow    | Parents of Children in the Market Place (Portage-WI-CrossPoint AG) | 165   | 41.3 | 1  | 86%  |
+| 4        | Brianna McKinley   | Sioux Falls (Sioux Falls-SD-Sioux Falls First)                     | 135   | 33.8 |    | 92%  |
+| 5        | Warren Hazard      | Coaches of Children in the Market Place (Portage-WI-CrossPoint AG) | 110   | 27.5 |    | 77%  |
+| 6        | Lisa Pardee        | Calvary Church #3 (Marinette-WI-Calvary Church AG)                 | 95    | 23.8 |    | 75%  |
+| 7        | Merisa Rodrigez    | Sioux Falls (Sioux Falls-SD-Sioux Falls First)                     | 50    | 12.5 |    | 100% |
+| 8        | Christine Clements | Parents of Children in the Market Place (Portage-WI-CrossPoint AG) | 35    | 8.8  |    | 57%  |
+| 9        | Jesse Yoder        | Calvary Church #4 (Marinette-WI-Calvary Church AG)                 | 30    | 7.5  |    | 60%  |
+| 10       | Gary Mertz         | Calvary Church #4 (Marinette-WI-Calvary Church AG)                 | 10    | 2.5  |    | 50%  |
+| 11       | Kaden Dargatz      | Sioux Falls (Sioux Falls-SD-Sioux Falls First)                     | 0     |      |    |      |
+| **\*11** | Brooks Anderson    | Sioux Falls (Sioux Falls-SD-Sioux Falls First)                     | 0     |      |    |      |
+| **\*11** | Cheri Kjetland     | Sioux Falls (Sioux Falls-SD-Sioux Falls First)                     | 0     |      |    |      |
+| **\*11** | Emily McKinley     | Sioux Falls (Sioux Falls-SD-Sioux Falls First)                     | 0     |      |    |      |
+| **\*11** | Laurie Day         | Calvary Church #4 (Marinette-WI-Calvary Church AG)                 | 0     |      |    |      |
+| 12       | Jon Rakowski       | Calvary Church #3 (Marinette-WI-Calvary Church AG)                 | -20   | -5   |    | 25%  |
+| 13       | John Clements      | Parents of Children in the Market Place (Portage-WI-CrossPoint AG) | -35   | -8.8 |    |      |

@@ -114,6 +114,45 @@ menubar_toc_static:
 | **\*13** | Elijah Lee          | Trinity (Trinity Church-Cedar Hill, TX)                                 | 0     |      |    |     |
 | 14       | Kodi Ladd           | Called, Wise, Influential, and Noble (Open Bible Church-Rapid City, SD) | -10   | -2.5 |    |     |
 
+## Challenger
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                      | W/L   | Total | Avg | QO | Q%  |
+|----:|----------------------------------------------------|-------|------:|----:|---:|----:|
+| 1.1 | Princeton (Legacy Church-Princeton, TX)            | 4 / 1 | 505   | 101 | 3  | 80% |
+| 2.0 | Rolla (First Assembly-Rolla, MO)                   | 4 / 1 | 345   | 69  | 2  | 77% |
+| 3.1 | Louisville (First Assembly-Louisville, OH)         | 3 / 2 | 440   | 88  | 4  | 69% |
+| 4.0 | CrossPoint (CrossPoint-Portage, WI)                | 3 / 2 | 255   | 51  | 1  | 83% |
+| 5.0 | Thank God for Us (The Oaks-Red Oak, TX)            | 1 / 4 | 235   | 47  | 3  | 66% |
+| 6.0 | Resolved to Know Something (Bethel-Rapid City, SD) | 0 / 5 | 25    | 5   |    | 54% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer           | Team / Church                                      | Total | Avg | QO | Q%   |
+|---------:|-------------------|----------------------------------------------------|------:|----:|---:|-----:|
+| 1        | Brooke Smith      | Princeton (Legacy Church-Princeton, TX)            | 290   | 58  | 2  | 82%  |
+| 2        | Caleb Cullins     | Louisville (First Assembly-Louisville, OH)         | 285   | 57  | 3  | 67%  |
+| 3        | Gannon Breig      | Rolla (First Assembly-Rolla, MO)                   | 285   | 57  | 2  | 78%  |
+| 4        | Scott Smith       | Thank God for Us (The Oaks-Red Oak, TX)            | 235   | 47  | 3  | 76%  |
+| 5        | Emma Schoessow    | CrossPoint (CrossPoint-Portage, WI)                | 220   | 44  | 1  | 84%  |
+| 6        | Jadyn Prom        | Princeton (Legacy Church-Princeton, TX)            | 205   | 41  | 1  | 83%  |
+| 7        | Bekah Gross       | Louisville (First Assembly-Louisville, OH)         | 155   | 31  | 1  | 74%  |
+| 8        | Riley Breig       | Rolla (First Assembly-Rolla, MO)                   | 60    | 12  |    | 75%  |
+| 9        | Israel Sparling   | CrossPoint (CrossPoint-Portage, WI)                | 35    | 7   |    | 80%  |
+| 10       | Amber Ragains     | Resolved to Know Something (Bethel-Rapid City, SD) | 15    | 3   |    | 100% |
+| 11       | Billy Howard      | Princeton (Legacy Church-Princeton, TX)            | 10    | 2   |    | 60%  |
+| 12       | Gracee Langstaff  | Resolved to Know Something (Bethel-Rapid City, SD) | 5     | 1   |    | 50%  |
+| **\*12** | Lindsay Spire     | Resolved to Know Something (Bethel-Rapid City, SD) | 5     | 1   |    | 44%  |
+| **\*12** | Elyssa Fulfer     | Thank God for Us (The Oaks-Red Oak, TX)            | 5     | 1   |    | 40%  |
+| 13       | Alex Hernandez    | Princeton (Legacy Church-Princeton, TX)            | 0     |     |    |      |
+| **\*13** | Cate Wilhelm      | Resolved to Know Something (Bethel-Rapid City, SD) | 0     |     |    |      |
+| 14       | Jason Bartholomew | Thank God for Us (The Oaks-Red Oak, TX)            | -5    | -1  |    | 43%  |
+
 
 ## Contender
 

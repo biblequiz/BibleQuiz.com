@@ -12,6 +12,46 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
+## Older Division
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                     | W/L   | Total | Avg   | QO | Q%  |
+|----:|---------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Keepers of the Command (First @ Firewheel)        | 8 / 0 | 1730  | 216.2 | 11 | 81% |
+| 2.1 | God's Royal Reindeer (Oaks Church)                | 5 / 3 | 1395  | 174.4 | 6  | 86% |
+| 3.1 | Prayer Mountain Explorers (Mountain Creek Church) | 5 / 3 | 1015  | 126.9 | 7  | 70% |
+| 4.0 | The A Team (First @ Firewheel)                    | 2 / 6 | 720   | 90    | 3  | 78% |
+| 5.0 | Maranatha (Mountain Creek Church)                 | 0 / 8 | 405   | 50.6  | 1  | 69% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer                  | Team / Church                                     | Total | Avg   | QO | Q%   |
+|---------:|--------------------------|---------------------------------------------------|------:|------:|---:|-----:|
+| 1        | Jayden Ramesh            | Keepers of the Command (First @ Firewheel)        | 1110  | 138.8 | 7  | 94%  |
+| 2        | Hannah Lapusan           | God's Royal Reindeer (Oaks Church)                | 735   | 91.9  | 4  | 92%  |
+| 3        | Caleb Stumper            | Prayer Mountain Explorers (Mountain Creek Church) | 675   | 84.4  | 5  | 71%  |
+| 4        | Jonthan Dawit            | The A Team (First @ Firewheel)                    | 550   | 68.8  | 3  | 79%  |
+| 5        | Chizaram Iwuogaranya     | Keepers of the Command (First @ Firewheel)        | 360   | 45    | 3  | 79%  |
+| 6        | Raegan Wirth             | God's Royal Reindeer (Oaks Church)                | 325   | 40.6  | 1  | 93%  |
+| 7        | Noah Zeli                | Prayer Mountain Explorers (Mountain Creek Church) | 295   | 36.9  | 2  | 67%  |
+| 8        | Sarah Lapusan            | God's Royal Reindeer (Oaks Church)                | 215   | 26.9  | 1  | 79%  |
+| 9        | Victoria Preciado        | Maranatha (Mountain Creek Church)                 | 160   | 20    | 1  | 87%  |
+| 10       | Chizaram Echefu          | Keepers of the Command (First @ Firewheel)        | 150   | 18.8  | 1  | 74%  |
+| 11       | Israel Fajemirokun       | Maranatha (Mountain Creek Church)                 | 140   | 17.5  |    | 100% |
+| 12       | Abigail Lapusan          | God's Royal Reindeer (Oaks Church)                | 120   | 15    |    | 78%  |
+| 13       | Chika Iwuogaranya        | The A Team (First @ Firewheel)                    | 110   | 13.8  |    | 90%  |
+| **\*13** | Dozie Osuagwu            | Keepers of the Command (First @ Firewheel)        | 110   | 13.8  |    | 56%  |
+| 14       | Joseph Daniel Zeli       | Maranatha (Mountain Creek Church)                 | 105   | 13.1  |    | 53%  |
+| 15       | Irene Ortiz              | Prayer Mountain Explorers (Mountain Creek Church) | 45    | 5.6   |    | 83%  |
+| 16       | Munachiso Osuagwu (Muna) | The A Team (First @ Firewheel)                    | 40    | 5     |    | 55%  |
+| 17       | Chinasa Ayozie           | The A Team (First @ Firewheel)                    | 10    | 1.3   |    | 99%  |
+| 18       | Hannah Gonzales          | Prayer Mountain Explorers (Mountain Creek Church) | 0     |       |    |      |
+
 ## Beginner Division
 
 ### Teams
@@ -37,4 +77,47 @@ menubar_toc_static:
 | 5       | Ethan Fajemirokun | MC Prayer Pushers (Mountain Creek Church) | 5     | 1.7  |    | 50%  |
 | **\*5** | Hannah Ye         | Judith's Elves (First @ Firewheel)        | 5     | 1.7  |    | 50%  |
 | **\*5** | Diya Harilal      | Judith's Elves (First @ Firewheel)        | 5     | 1.7  |    | 50%  |
+
+## PeeWee Division
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                              | W/L   | Total | Avg | QO | Q%  |
+|----:|--------------------------------------------|-------|------:|----:|---:|----:|
+| 1.0 | David's Army (Encounter Church)            | 5 / 0 | 620   | 124 | 6  | 82% |
+| 2.0 | Team Believe (First @ Firewheel)           | 4 / 1 | 560   | 112 | 7  | 87% |
+| 3.0 | Trinity Quiz Kids (Trinity Church)         | 3 / 2 | 400   | 80  | 4  | 83% |
+| 4.0 | God's Sunflowers (Freedom Church)          | 2 / 3 | 345   | 69  | 2  | 75% |
+| 5.0 | Faith, Hope & Love (Mountain Creek Church) | 1 / 4 | 285   | 57  | 3  | 77% |
+| 6.0 | Royal Buzzers (Bethesda AG)                | 0 / 5 | 155   | 31  |    | 94% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer                | Team / Church                              | Total | Avg | QO | Q%   |
+|---------:|------------------------|--------------------------------------------|------:|----:|---:|-----:|
+| 1        | Ryan Azubuike          | Team Believe (First @ Firewheel)           | 285   | 57  | 4  | 84%  |
+| 2        | Vincent Rowland        | David's Army (Encounter Church)            | 285   | 57  | 3  | 85%  |
+| 3        | Xavier Azubuike        | Team Believe (First @ Firewheel)           | 275   | 55  | 3  | 90%  |
+| 4        | Hope Zeli              | Faith, Hope & Love (Mountain Creek Church) | 260   | 52  | 3  | 81%  |
+| 5        | Caroline Rowland       | David's Army (Encounter Church)            | 225   | 45  | 3  | 77%  |
+| 6        | Skyler Howard          | Trinity Quiz Kids (Trinity Church)         | 220   | 44  | 3  | 79%  |
+| 7        | Asher Johnson          | Trinity Quiz Kids (Trinity Church)         | 185   | 37  | 1  | 95%  |
+| 8        | Dallas Olivarez-Binion | David's Army (Encounter Church)            | 110   | 22  |    | 86%  |
+| 9        | Autumn Block           | Royal Buzzers (Bethesda AG)                | 90    | 18  |    | 100% |
+| 10       | Kylie DeLeon           | Royal Buzzers (Bethesda AG)                | 65    | 13  |    | 87%  |
+| 11       | Callowaye Burrow       | God's Sunflowers (Freedom Church)          | 60    | 12  |    | 67%  |
+| **\*11** | AnnaMarie Whiston      | God's Sunflowers (Freedom Church)          | 60    | 12  |    | 67%  |
+| 12       | AnnaRose Hodge         | God's Sunflowers (Freedom Church)          | 50    | 10  |    | 100% |
+| 13       | Faith Fajemirokun      | Faith, Hope & Love (Mountain Creek Church) | 25    | 5   |    | 57%  |
+| 14       | Isaiah Tonhorai        | God's Sunflowers (Freedom Church)          | 5     | 1   |    | 40%  |
+| 15       | Brooklyn Herrera       | Trinity Quiz Kids (Trinity Church)         | 0     |     |    |      |
+| **\*15** | Junior Darko           | Team Believe (First @ Firewheel)           | 0     |     |    |      |
+| **\*15** | Norbert Azubuike       | Team Believe (First @ Firewheel)           | 0     |     |    |      |
+| **\*15** | Juliette Mora          | Royal Buzzers (Bethesda AG)                | 0     |     |    |      |
+| **\*15** | Quizzer-3              | Faith, Hope & Love (Mountain Creek Church) | 0     |     |    |      |
+| 16       | Gideon Bennett         | Trinity Quiz Kids (Trinity Church)         | -5    | -1  |    |      |
 

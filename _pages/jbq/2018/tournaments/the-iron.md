@@ -103,3 +103,15 @@ menubar_toc_static:
 | 14       | Hayden Wright      | Victory Boyz (Victory Church)            | 0     |       |    |      |
 | **\*14** | Jace Hance         | Victory Boyz (Victory Church)            | 0     |       |    |      |
 
+## Silver Division
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                         | W/L   | Total | Avg   | QO | Q% |
+|----:|---------------------------------------|-------|------:|------:|---:|---:|
+| 1.0 | Book 66 (Life Church)                 | 2 / 0 | 380   | 189.9 | 1  |    |
+| 2.0 | Quizzettes (LIFE Church AG)           | 1 / 1 | 285   | 142.4 | 2  |    |
+| 3.0 | Highpoint Quizzers (Highpoint Church) | 0 / 2 | 50    | 25    |    |    |
+

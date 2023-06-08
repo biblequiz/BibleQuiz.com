@@ -72,6 +72,48 @@ menubar_toc_static:
 | **\*22** | Caitlyn Jendrajas   | 5/6 Bible Bugs (Fordyce 1st Assembly)    | 0     |       |    |      |
 | 23       | Jordan Hairston     | McArthur Minions (McArthur A/G)          | -5    | -.8   |    |      |
 
+
+### Gold Division (PM)
+
+#### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                            | W/L   | Total | Avg   | QO | Q%  |
+|----:|------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | 5/6 Bible Bugs (Fordyce 1st Assembly)    | 2 / 1 | 530   | 176.6 | 4  | 79% |
+| 2.0 | Buzz Hogs (River of Life)                | 2 / 1 | 425   | 141.6 | 2  | 72% |
+| 3.0 | McArthur Minions (McArthur A/G)          | 2 / 1 | 335   | 111.6 |    | 74% |
+| 4.0 | Crystal Hill Avengers (Crystal Hill A/G) | 0 / 3 | 190   | 63.3  |    | 67% |
+
+#### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer             | Team / Church                            | Total | Avg   | QO | Q%   |
+|---------:|---------------------|------------------------------------------|------:|------:|---:|-----:|
+| 1        | Ansley Hornaday     | 5/6 Bible Bugs (Fordyce 1st Assembly)    | 355   | 118.3 | 3  | 95%  |
+| 2        | Lauryn Jackson      | Buzz Hogs (River of Life)                | 275   | 91.7  | 1  | 83%  |
+| 3        | Eli Turner          | 5/6 Bible Bugs (Fordyce 1st Assembly)    | 165   | 55    | 1  | 61%  |
+| 4        | Kamelia Skinner     | McArthur Minions (McArthur A/G)          | 160   | 53.3  |    | 71%  |
+| 5        | Anna Jordan         | Crystal Hill Avengers (Crystal Hill A/G) | 140   | 46.7  |    | 62%  |
+| 6        | Josiah Minick       | Buzz Hogs (River of Life)                | 85    | 28.3  | 1  | 61%  |
+| 7        | Lakin Shaw          | McArthur Minions (McArthur A/G)          | 80    | 26.7  |    | 71%  |
+| 8        | Sara Swain          | McArthur Minions (McArthur A/G)          | 75    | 25    |    | 75%  |
+| 9        | Nehemiah Page       | Buzz Hogs (River of Life)                | 70    | 23.3  |    | 80%  |
+| 10       | Braylon Sutherland  | Crystal Hill Avengers (Crystal Hill A/G) | 50    | 16.7  |    | 75%  |
+| 11       | Savanna Stephens    | McArthur Minions (McArthur A/G)          | 20    | 6.7   |    | 100% |
+| 12       | Anna Claire Collins | 5/6 Bible Bugs (Fordyce 1st Assembly)    | 10    | 3.3   |    | 99%  |
+| 13       | Kerra Nutt          | 5/6 Bible Bugs (Fordyce 1st Assembly)    | 0     |       |    |      |
+| **\*13** | Caitlyn Jendrajas   | 5/6 Bible Bugs (Fordyce 1st Assembly)    | 0     |       |    |      |
+| **\*13** | Trinity Terry       | Buzz Hogs (River of Life)                | 0     |       |    |      |
+| **\*13** | Cherish Page        | Buzz Hogs (River of Life)                | 0     |       |    |      |
+| **\*13** | Addisyn Wolters     | McArthur Minions (McArthur A/G)          | 0     |       |    |      |
+| **\*13** | Jordan Hairston     | McArthur Minions (McArthur A/G)          | 0     |       |    |      |
+| **\*13** | Brooklyn Sutherland | Crystal Hill Avengers (Crystal Hill A/G) | 0     |       |    |      |
+| **\*13** | Lennen Juarez       | Crystal Hill Avengers (Crystal Hill A/G) | 0     |       |    |      |
+| 14       | Peter Page          | Buzz Hogs (River of Life)                | -5    | -1.7  |    |      |
+
 ### Silver Division (PM)
 
 ### Teams

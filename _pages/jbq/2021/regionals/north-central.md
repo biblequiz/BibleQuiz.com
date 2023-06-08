@@ -125,3 +125,43 @@ menubar_toc_static:
 | **\*18** | Isabella Millard  | Sparta Salt & Light - New Life Assembly of God (New Life Assembly of God)   | 0     |      |    |      |
 | **\*18** | Eiliyah Millard   | Sparta Salt & Light - New Life Assembly of God (New Life Assembly of God)   | 0     |      |    |      |
 | **\*18** | Libby Meyer       | Sparta Salt & Light - New Life Assembly of God (New Life Assembly of God)   | 0     |      |    |      |
+
+## Silver (Day 2)
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                                                  | W/L   | Total | Avg   | QO | Q%  |
+|----:|--------------------------------------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Burning Hearts Church (Fargo) #1 (Burning Hearts Church)                       | 3 / 0 | 475   | 158.3 | 2  | 76% |
+| 2.0 | Life Assemblies of God Church (Maple Grove) #1 (Life Assemblies of God Church) | 2 / 1 | 530   | 176.6 | 1  | 81% |
+| 3.0 | Oak Creek Assembly of God (Oak Creek) #1 (Oak Creek Assembly of God)           | 1 / 2 | 455   | 151.6 | 1  | 77% |
+| 4.0 | Renew Church (Two Rivers) #1 (Renew Church)                                    | 0 / 3 | 90    | 30    |    | 55% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer           | Team / Church                                                                  | Total | Avg   | QO | Q%   |
+|---------:|-------------------|--------------------------------------------------------------------------------|------:|------:|---:|-----:|
+| 1        | Preston Caylor    | Life Assemblies of God Church (Maple Grove) #1 (Life Assemblies of God Church) | 275   | 91.7  | 1  | 81%  |
+| 2        | Lucas Mank        | Oak Creek Assembly of God (Oak Creek) #1 (Oak Creek Assembly of God)           | 235   | 78.3  | 1  | 83%  |
+| 3        | Ope Alabi         | Burning Hearts Church (Fargo) #1 (Burning Hearts Church)                       | 220   | 73.3  | 2  | 89%  |
+| 4        | Ty Glanzer        | Burning Hearts Church (Fargo) #1 (Burning Hearts Church)                       | 160   | 53.3  |    | 71%  |
+| 5        | Kai Doboszenski   | Life Assemblies of God Church (Maple Grove) #1 (Life Assemblies of God Church) | 115   | 38.3  |    | 74%  |
+| 6        | Roman Doboszenski | Life Assemblies of God Church (Maple Grove) #1 (Life Assemblies of God Church) | 110   | 36.7  |    | 100% |
+| **\*6**  | Greyson Wootton   | Oak Creek Assembly of God (Oak Creek) #1 (Oak Creek Assembly of God)           | 110   | 36.7  |    | 70%  |
+| 7        | Jason Gleason     | Oak Creek Assembly of God (Oak Creek) #1 (Oak Creek Assembly of God)           | 95    | 31.7  |    | 91%  |
+| 8        | Jacob Wichlacz    | Renew Church (Two Rivers) #1 (Renew Church)                                    | 85    | 28.3  |    | 69%  |
+| 9        | Kyler Hodgson     | Burning Hearts Church (Fargo) #1 (Burning Hearts Church)                       | 60    | 20    |    | 100% |
+| 10       | Tate Glanzer      | Burning Hearts Church (Fargo) #1 (Burning Hearts Church)                       | 40    | 13.3  |    | 50%  |
+| 11       | Lucas Araujo      | Oak Creek Assembly of God (Oak Creek) #1 (Oak Creek Assembly of God)           | 30    | 10    |    | 100% |
+| **\*11** | Daniel McElfresh  | Life Assemblies of God Church (Maple Grove) #1 (Life Assemblies of God Church) | 30    | 10    |    | 100% |
+| 12       | Chloe Siebold     | Renew Church (Two Rivers) #1 (Renew Church)                                    | 25    | 8.3   |    | 66%  |
+| 13       | Natalie Salinas   | Renew Church (Two Rivers) #1 (Renew Church)                                    | 20    | 6.7   |    | 100% |
+| 14       | Mercy Dahlmeier   | Burning Hearts Church (Fargo) #1 (Burning Hearts Church)                       | 0     |       |    |      |
+| **\*14** | Aveah Caylor      | Life Assemblies of God Church (Maple Grove) #1 (Life Assemblies of God Church) | 0     |       |    |      |
+| 15       | Serah Schultes    | Burning Hearts Church (Fargo) #1 (Burning Hearts Church)                       | -5    | -1.7  |    |      |
+| 16       | Ryder Wootton     | Oak Creek Assembly of God (Oak Creek) #1 (Oak Creek Assembly of God)           | -15   | -5    |    |      |
+| 17       | Katelyn Wichlacz  | Renew Church (Two Rivers) #1 (Renew Church)                                    | -40   | -13.3 |    | 25%  |

@@ -206,3 +206,58 @@ menubar_toc_static:
 | 14       | Jackson Woodward    | Central-Springfield, MO (Central A/G)              | 0     |      |    | 33%  |
 | **\*14** | Joseph Bogan        | Final Greetings (James River Church)               | 0     |      |    |      |
 
+## Competitor
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+| #   | Team / Church                                   | W/L   | Total | Avg   | QO | Q%  |
+|----:|-------------------------------------------------|-------|------:|------:|---:|----:|
+| 1.0 | Sisters of Faith (Life 360)                     | 9 / 0 | 1730  | 192.2 | 15 | 87% |
+| 2.0 | No Longer Infants (Open Bible Christian Center) | 7 / 2 | 1555  | 172.8 | 9  | 91% |
+| 3.0 | Bite and Devour (James River Church)            | 6 / 3 | 1655  | 183.9 | 13 | 89% |
+| 3.0 | Therefore (James River Church)                  | 6 / 3 | 1420  | 157.8 | 8  | 93% |
+| 3.0 | Mark My Words (James River Church)              | 6 / 3 | 1380  | 153.3 | 6  | 86% |
+| 4.0 | Fruit (James River Church)                      | 5 / 4 | 1610  | 178.9 | 12 | 89% |
+| 5.0 | Flesh and Blood (Bethel Assembly of God)        | 3 / 6 | 600   | 66.7  | 2  | 74% |
+| 6.0 | Calvary Church (David) (Calvary Church)         | 2 / 7 | 820   | 91.1  | 4  | 82% |
+| 7.0 | Building Others Up (Bethel Assembly of God)     | 1 / 8 | 820   | 91.1  | 4  | 83% |
+| 8.0 | Lexington (Sharon) (Lexington First Assembly)   | 0 / 9 | 180   | 20    |    | 59% |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+| #        | Quizzer              | Team / Church                                   | Total | Avg   | QO | Q%   |
+|---------:|----------------------|-------------------------------------------------|------:|------:|---:|-----:|
+| 1        | Kyli Ladd            | No Longer Infants (Open Bible Christian Center) | 1100  | 122.2 | 8  | 98%  |
+| 2        | Josiah Tonsing       | Therefore (James River Church)                  | 1015  | 112.8 | 7  | 93%  |
+| 3        | Riley Breig          | Sisters of Faith (Life 360)                     | 905   | 100.6 | 8  | 92%  |
+| 4        | Abby Dasal           | Fruit (James River Church)                      | 885   | 98.3  | 8  | 92%  |
+| 5        | Kaitlyn Ramsey       | Sisters of Faith (Life 360)                     | 825   | 91.7  | 7  | 83%  |
+| 6        | Micah Tonsing        | Bite and Devour (James River Church)            | 800   | 88.9  | 8  | 92%  |
+| 7        | Truman Griessel      | Bite and Devour (James River Church)            | 795   | 88.3  | 5  | 85%  |
+| 8        | Julianna Torbett     | Mark My Words (James River Church)              | 725   | 80.6  | 4  | 89%  |
+| 9        | Matida MaKoni        | Calvary Church (David) (Calvary Church)         | 605   | 67.2  | 4  | 80%  |
+| 10       | Jonathan Dasal       | Fruit (James River Church)                      | 510   | 56.7  | 4  | 87%  |
+| 11       | Gracee Langstaff     | Building Others Up (Bethel Assembly of God)     | 370   | 41.1  | 2  | 89%  |
+| 12       | Cate Wilhelm         | Building Others Up (Bethel Assembly of God)     | 360   | 40    | 2  | 85%  |
+| 13       | Kaiya Braswell       | Mark My Words (James River Church)              | 360   | 40    | 1  | 92%  |
+| 14       | Hadli Langstaff      | Flesh and Blood (Bethel Assembly of God)        | 315   | 35    | 2  | 72%  |
+| 15       | Lewis Groh           | Therefore (James River Church)                  | 295   | 32.8  | 1  | 92%  |
+| **\*15** | Conor McDaniel       | Mark My Words (James River Church)              | 295   | 32.8  | 1  | 80%  |
+| 16       | Hope Veal            | No Longer Infants (Open Bible Christian Center) | 280   | 31.1  |    | 88%  |
+| 17       | Amber Ragains        | Flesh and Blood (Bethel Assembly of God)        | 245   | 27.2  |    | 81%  |
+| 18       | Tamoghna Mallampalli | Calvary Church (David) (Calvary Church)         | 215   | 23.9  |    | 87%  |
+| **\*18** | Danielle Aubry       | Fruit (James River Church)                      | 215   | 23.9  |    | 87%  |
+| 19       | Anna Veal            | No Longer Infants (Open Bible Christian Center) | 175   | 19.4  | 1  | 79%  |
+| 20       | Nell Davis           | Lexington (Sharon) (Lexington First Assembly)   | 140   | 15.6  |    | 83%  |
+| 21       | Brent Battalgia      | Therefore (James River Church)                  | 110   | 12.2  |    | 91%  |
+| 22       | Isaac Jenkins        | Bite and Devour (James River Church)            | 60    | 6.7   |    | 100% |
+| 23       | Jayda Butts          | Building Others Up (Bethel Assembly of God)     | 50    | 5.6   |    | 67%  |
+| 24       | James Ragains        | Building Others Up (Bethel Assembly of God)     | 40    | 4.4   |    | 67%  |
+| **\*24** | Andrea Devole        | Lexington (Sharon) (Lexington First Assembly)   | 40    | 4.4   |    | 50%  |
+| 25       | Ryan Cottingham      | Flesh and Blood (Bethel Assembly of God)        | 25    | 2.8   |    | 66%  |
+| 26       | Tabor VanDusseldorp  | Flesh and Blood (Bethel Assembly of God)        | 15    | 1.7   |    | 50%  |
+
