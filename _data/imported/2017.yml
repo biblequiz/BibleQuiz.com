@@ -46,6 +46,24 @@ jbq:
     scopeLabel: Arkansas
     scoresLink: /jbq/2017/other/arkansas-razorback/
 tbq:
+  regionFinals:
+  - name: "2017 Northeast Regionals"
+    scope: region
+    scopeLabel: Northeast
+    scoresLink: /history/2017/regionals/northeast/
+  - name: "2017 South Central Regionals"
+    scope: region
+    scopeLabel: South Central
+    scoresLink: /history/2017/regionals/south-central/
+  - name: "2017 Southeast Regionals"
+    scope: region
+    scopeLabel: Southeast
+    scoresLink: /history/2017/regionals/southeast/
+  districtFinals:
+  - name: "2017 Northwest District Finals"
+    scope: district
+    scopeLabel: Northwest
+    scoresLink: /history/2017/districts/northwest/
   tournament:
   - name: "Empire Classic"
     scope: tournament
@@ -68,3 +86,9 @@ tbq:
     scope: tournament
     dates: Oct 25, 2016
     scoresLink: /history/2017/tournaments/gold-cup/
+  other:
+  - name: "Pre-Nationals"
+    scope: district
+    scopeLabel: Northwest
+    scoresLink: /history/2017/other/northwest-pre-nationals/
+    dates: Jun 10, 2017

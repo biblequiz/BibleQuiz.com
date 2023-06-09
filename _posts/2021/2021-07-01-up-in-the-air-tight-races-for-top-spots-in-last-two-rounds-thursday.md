@@ -26,6 +26,6 @@ In both divisions, a playoff match will only be held in the case of a tie for fi
 
 Thursday's team play will be play will be followed by the individual tournament.
 
-Real-time results Thursday morning can be found here for the Championship Division: [https://www.jbq.org/registration/epost.aspx?l=TBQ\_Nationals&m=501532&d=2021\_\_Preliminaries&t=M](https://www.jbq.org/registration/epost.aspx?l=TBQ_Nationals&m=501532&d=2021__Preliminaries&t=M)
+Real-time results Thursday morning can be found here for the Championship Division: [{{ site.url }}{{ site.baseurl }}{% link _pages/history/2021/nationals.md %}#championship-division]({{ site.url }}{{ site.baseurl }}{% link _pages/history/2021/nationals.md %}#championship-division)
 
-For the Challenger Division, real-time results are at [https://www.jbq.org/registration/epost.aspx?l=TBQ\_Nationals&m=501533&d=2021\_\_Preliminaries&t=M](https://www.jbq.org/registration/epost.aspx?l=TBQ_Nationals&m=501533&d=2021__Preliminaries&t=M). (Please note that the "Ghost Team" that appears at the top of the standings is a filler for the bye-round situation and should be disregarded.)
+For the Challenger Division, real-time results are at [{{ site.url }}{{ site.baseurl }}{% link _pages/history/2021/nationals.md %}#challenger-division]({{ site.url }}{{ site.baseurl }}{% link _pages/history/2021/nationals.md %}#challenger-division). (Please note that the "Ghost Team" that appears at the top of the standings is a filler for the bye-round situation and should be disregarded.)
