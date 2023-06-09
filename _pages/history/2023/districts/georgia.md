@@ -7,8 +7,8 @@ toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:
-  - name: ? Season
-    link: /history/?/
+  - name: 2023 Season
+    link: /history/2023/
     icon: fas fa-home
 ---
 
