@@ -73,6 +73,29 @@ jbq:
     scopeLabel: Arkansas
     scoresLink: /jbq/2018/other/arkansas-razorback/
 tbq:
+  regionFinals:
+  - name: "2018 Northeast Regionals"
+    scope: region
+    scopeLabel: Northeast
+    scoresLink: /history/2018/regionals/northeast/
+  - name: "2018 Northwest Regionals"
+    scope: region
+    scopeLabel: Northwest
+    scoresLink: /history/2018/regionals/northwest/
+  - name: "2018 South Central Regionals"
+    scope: region
+    scopeLabel: South Central
+    scoresLink: /history/2018/regionals/south-central/
+  districtFinals:
+  - name: "2018 North Texas District Finals"
+    scope: district
+    scopeLabel: North Texas
+    scoresLink: /history/2018/districts/north-texas/
+  - name: "2018 Northwest District Finals"
+    scope: district
+    scopeLabel: Northwest
+    scoresLink: /history/2018/districts/northwest/
+    dates: Mar 31, 2018
   tournament:
   - name: West Coast Classic
     scope: tournament
@@ -97,3 +120,9 @@ tbq:
   - name: 33rd Annual Gold Cup Tournament
     scope: tournament
     scoresLink: /history/2018/tournaments/gold-cup/
+  other:
+  - name: "2018 Northwest Adult Quiz"
+    scope: district
+    scopeLabel: Northwest
+    scoresLink: /history/2018/other/northwest-adult-quiz/
+    dates: Nov 11, 2017
