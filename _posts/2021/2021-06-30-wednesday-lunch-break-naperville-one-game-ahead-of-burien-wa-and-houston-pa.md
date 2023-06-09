@@ -14,4 +14,4 @@ Naperville was unbeaten until Round 13, when they lost a neck-and-neck match to 
 
 In the Challenger Division, Living Water Church of San Diego, California has a half-game lead over Atlanta Tamil Church of Norcross, Georgia. Both teams have won 11 games, but San Diego has just one loss while Norcross has two. Norcross has a bye round remaining.
 
-Complete results will be available at the end Round 17, which completes Wednesday's play. For live results, go to [https://www.jbq.org/registration/epost.aspx?l=TBQ\_Nationals&d=2021\_\_Preliminaries](https://www.jbq.org/registration/epost.aspx?l=TBQ_Nationals&d=2021__Preliminaries).
+Complete results will be available at the end Round 17, which completes Wednesday's play. For live results, go to [{{ site.url }}{{ site.baseurl }}{% link _pages/history/2021/nationals.md %}#preliminary-results]({{ site.url }}{{ site.baseurl }}{% link _pages/history/2021/nationals.md %}#preliminary-results).
