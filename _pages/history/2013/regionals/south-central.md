@@ -12,7 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## 2013 A League
+## A League
 
 ### Teams
 
@@ -67,7 +67,7 @@ menubar_toc_static:
 | 26 | Sarak Phillips      | Christian Temple       | Christian Temple      | 10    | 1.11   |    |
 
 
-## 2013 MSQ League
+## MSQ League
 
 ### Teams
 

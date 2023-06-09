@@ -25,7 +25,7 @@ menubar_toc_static:
 | 5.0 | BNC - Angie & Elijah & Jacob & Samuel (Bellevue Neighborhood Church) | 1 / 4 | -10   | -2  |    |     |
 | 6.0 | New Life Church (New Life Church at Renton)                          | 0 / 5 | -30   | -6  |    |     |
 
-### Individuals
+## Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
