@@ -3,6 +3,15 @@ layout: page
 permalink: /history/1981/memories/kari/
 title: "1981 Nationals - Kari Brodin's Memories"
 author: Kari Brodin
+menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 1981 Season
+    link: /history/1981/
+    icon: fas fa-home
+  - name: 1981 Nationals
+    link: /history/1981/nationals
+    icon: fas fa-globe-americas
 ---
 
 The following recollections were written by Kari Brodin of the national championship team from Renton, WA.

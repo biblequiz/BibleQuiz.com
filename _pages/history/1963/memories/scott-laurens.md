@@ -9,6 +9,9 @@ menubar_toc_static:
   - name: 1963 Season
     link: /history/1963/
     icon: fas fa-home
+  - name: 1963 Nationals
+    link: /history/1963/nationals
+    icon: fas fa-globe-americas
 ---
 
 {% include notification.html

@@ -3,6 +3,15 @@ layout: page
 permalink: /history/1997/memories/joey/
 title: "1997 Nationals - Joey Bohanon's Memories"
 author: Joey Bohanon
+menubar_toc: true
+menubar_toc_static:
+- items:
+  - name: 1997 Season
+    link: /history/1997/
+    icon: fas fa-home
+  - name: 1997 Nationals
+    link: /history/1997/nationals
+    icon: fas fa-globe-americas
 ---
 
 The following recollections were written by Joey Bohanon of the second place team from Central A/G, Springfield, MO.
