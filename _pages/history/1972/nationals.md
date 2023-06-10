@@ -33,7 +33,7 @@ We know nearly nothing about this event.
 
 ### Individuals
 
-The top scorer at the 1972 National Finals was Steve Decker of Palos Heights, IL. No oth information about the top scorers is known.
+The top scorer at the 1972 National Finals was Steve Decker of Palos Heights, IL. No other information about the top scorers is known.
 
 ## Teams
 
