@@ -34,7 +34,7 @@ Complete records for this event, including round by round scores and top quizzer
    status="is-success" %}
 
 | Rank | Team                                 | Record | Total | Avg    | Margin | Avg Margin |
-|------|--------------------------------------|--------|-------|--------|--------|------------|
+|-----:|--------------------------------------|--------|------:|-------:|-------:|-----------:|
 | 1    | Evangel Temple A/G, Decatur, GA      | 7 / 0  | 1325  | 189.29 | 825    | 117.86     |
 | 2    | Calvary Temple A/G, Riverside, CA*   | 4 / 3  | 825   | 117.86 | -20    | -2.86      |
 | 3    | Pasadena A/G, Pasadena, MD           | 4 / 3  | 960   | 137.14 | -10    | -1.43      |
@@ -240,6 +240,3 @@ Complete records for this event, including round by round scores and top quizzer
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Calvary Temple A/G, Riverside, CA" html=image_html %}
-
-## Memories
-* [Tim McDaniel]({% link _pages/history/1975/memories/tim-mcdaniel.md %})
