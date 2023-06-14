@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/1975/nationals/
 title: "1975 National Finals"
-date: "2013-07-11"
+date: "1975-08-13"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

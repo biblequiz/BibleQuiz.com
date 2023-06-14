@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/1964/nationals/
 title: "1964 National Finals"
-date: "2013-07-11"
+date: "1964-08-21"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

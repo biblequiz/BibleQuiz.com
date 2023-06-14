@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/1971/nationals/
 title: "1971 National Finals"
-date: "2013-07-11"
+date: "1971-08-18"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
