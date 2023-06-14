@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/1969/nationals/
 title: "1969 National Finals"
-date: "2013-07-11"
+date: "1969-08-20"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

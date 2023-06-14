@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/1970/nationals/
 title: "1970 National Finals"
-date: "2013-07-11"
+date: "1970-08-12"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

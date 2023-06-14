@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/1973/nationals/
 title: "1973 National Finals"
-date: "2013-07-11"
+date: "1973-07-11"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

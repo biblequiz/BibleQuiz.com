@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/1968/nationals/
 title: "1968 National Finals"
-date: "2013-07-11"
+date: "1968-08-20"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

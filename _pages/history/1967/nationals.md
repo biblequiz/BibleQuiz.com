@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/1967/nationals/
 title: "1967 National Finals"
-date: "2013-07-11"
+date: "1967-08-26"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
