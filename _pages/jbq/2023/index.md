@@ -6,6 +6,9 @@ date: "2023-05-27"
 menubar: menu_jbq
 ---
 
+## Nationals
+<a href="{% link _pages/jbq/2023/nationals.md %}" class="button is-primary">National Finals</a>
+
 ## Tournaments
 
 {% include events-season.html type="jbq" year="2023" scope="tournament" source="imported" %}
