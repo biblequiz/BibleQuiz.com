@@ -16,7 +16,7 @@ menubar_toc_static:
 
 The 19th National Bible Quiz Finals took place August 12-14, 1981 in St. Louis, Missouri at the Cervantes Convention Center covering the book of Matthew. Terry Carter was the National Coordinator and Thom Loven was the official question writer.
 
-The event was won by Renton A/G, Renton, WA after a 3-way tie for first place at the end of round-robin play. The second place team was Evangel Temple, Springfield, MO. The third place team which was tied with these teams at the end of regulation was Trinity A/G, Lanham, MD.
+The event was won by Renton A/G, Renton, WA (pictured) after a 3-way tie for first place at the end of round-robin play. The second place team was Evangel Temple, Springfield, MO. The third place team which was tied with these teams at the end of regulation was Trinity A/G, Lanham, MD.
 
 The team from Renton A/G, Renton, WA became the first National Champion from the Northwest Region, but it wasn't an easy victory. At the end of round-robin play, Renton was tied with Springfield and Lanham for first place. The tie-breaker, based upon point total, gave the bye to Springfield in the first playoff, but only by 5 points! In fact, those 5 points were all that separated Renton and Springfield in the standings as both teams had posted equal margins of victory. Renton went on to win two consecutive playoff matches against Lanham and Springfield and claim the victory. The next national champion from the Northwest Region was Bothell, WA in 2005.
 
@@ -145,8 +145,6 @@ The top quizzer at the 1981 National Finals was Kari Brodin of Renton A/G, Rento
   * Round 7: Lost to Faith City A/G, Michigan City, IN 80 to 135
   * Playoff 1: Lost to Renton A/G, Renton, WA
 
-{% capture image_url %}{% link assets/1980/MD-Lanham.jpg %}{% endcapture %}
-{% capture image_html %}
 ### Northwest Region
 
 * **Church**: Renton A/G, Renton, WA
@@ -169,9 +167,6 @@ The top quizzer at the 1981 National Finals was Kari Brodin of Renton A/G, Rento
   * Round 7: Lost to Greely First A/G, Greely, CO 120 to 175
   * Playoff 1: Won against Trinity A/G, Lanham, MD
   * Playoff 2: Won against Evangel Temple, Springfield, MORound 1: Lost to Trinity A/G, Lanham, MD 95 to 165
-{% endcapture %}
-{% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Renton A/G, Renton, WA" html=image_html %}
 
 ### South Central Region
 
