@@ -166,7 +166,7 @@ The top quizzer at the 1981 National Finals was Kari Brodin of Renton A/G, Rento
   * Round 6: Won against First A/G, Tecumseh, OK 170 to 70
   * Round 7: Lost to Greely First A/G, Greely, CO 120 to 175
   * Playoff 1: Won against Trinity A/G, Lanham, MD
-  * Playoff 2: Won against Evangel Temple, Springfield, MORound 1: Lost to Trinity A/G, Lanham, MD 95 to 165
+  * Playoff 2: Won against Evangel Temple, Springfield, MO
 
 ### South Central Region
 
