@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /history/1981/memories/kari/
+permalink: /history/1981/memories/kari-brodin/
 title: "1981 Nationals - Kari Brodin's Memories"
 author: Kari Brodin
 menubar_toc: true
