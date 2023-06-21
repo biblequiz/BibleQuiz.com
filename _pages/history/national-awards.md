@@ -10,6 +10,7 @@ menubar: menu_history
 
 | Year | Individuals      | Material                                                  | Time & Mistake Restrictions        |
 | ---- | ---------------- | --------------------------------------------------------- | ---------------------------------- |
+| 2022 | 16 quizzers      | Gospel of Matthew                                         | 1 hour and 45 minutes, 10 mistakes |
 | 2021 | 37 quizzers      | Hebrews, 1 & 2 Peter, Jude                                | 45 minutes, 5 mistakes             |
 | 2020 | 25 quizzers      | John                                                      | 1 hour and 15 minutes, 9 mistakes  |
 | 2019 | 29 quizzers      | 1 & 2 Corinthians                                         | 1 hour, 7 mistakes                 |
@@ -32,6 +33,7 @@ menubar: menu_history
 
 | Year | Individuals        | Material                                                |
 | ---- | ------------------ | ------------------------------------------------------- |
+| 2022 | 95 quizzers        | Gospel of Matthew                                       |
 | 2021 | 101 quizzers (2c)  | Hebrews, 1 & 2 Peter, Jude                              |
 | 2020 | 85 quizzers (2c)   | John                                                    |
 | 2019 | 131 quizzers (1c)  | 1 & 2 Corinthians                                       |
@@ -59,6 +61,7 @@ menubar: menu_history
 
 | Year | Individuals     | Material                                                |
 | ---- | --------------- | ------------------------------------------------------- |
+| 2022 | 43 Individuals  | Gospel of Matthew                                       |
 | 2021 | 40 Individuals  | Hebrews, 1 & 2 Peter, Jude                              |
 | 2020 | 53 Individuals  | John                                                    |
 | 2019 | 44 Individuals  | 1 & 2 Corinthians                                       |

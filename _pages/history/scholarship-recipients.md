@@ -10,6 +10,8 @@ menubar: menu_history
 
 | Year | Quizzer           | Church                     | City               |
 | ---- | ----------------- | -------------------------- | ------------------ |
+| 2022 | Josiah Laakkonen  | First AG                   | Lexington, KY      |
+| 2022 | Emma Schoessow    | Crosspoint AG              | Portage, WI        |
 | 2021 | Joshua Barajas    | Trinity Church             | Cedar Hill, TX     |
 | 2021 | Tabitha Nirmal    | Covenant Life Church       | Cary, NC           |
 | 2020 | Gloria Asper      | Ephrata Community Church   | Ephrata, PA        |
