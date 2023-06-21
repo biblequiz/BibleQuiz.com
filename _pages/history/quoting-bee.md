@@ -8,6 +8,7 @@ menubar: menu_history
 
 | Year | Quizzer              | Church                 | City              |
 | ---- | -------------------- | ---------------------- | ----------------- |
+| 2022 | Samuel Jebaraj       | Bethel Church          | San Jose, CA      |
 | 2021 | Kyli Ladd            | Open Bible Church      | Rapid City, SD    |
 | 2020 | None due to COVID-19 |                        |                   |
 | 2019 | Judah Stevens        | Redeemer Church        | Utica, NY         |

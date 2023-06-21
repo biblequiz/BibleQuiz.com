@@ -14,29 +14,31 @@ The Female and Male Quizzers of the Year Awards receive a $1,000 scholarship and
 
 ## Female Quizzer of the Year
 
-| Year | Quizzer              | Church                          | City               |
-| ---- | -------------------- | ------------------------------- | ------------------ |
-| 2021 | Shreanna Powell      | Calvary Church                  | Naperville, IL     |
-| 2020 | None due to COVID-19 |                                 |                    |
-| 2019 | Anna Kelly           | Mechanicsville Christian Center | Mechanicsville, VA |
-| 2018 | Anna Kelly           | Mechanicsville Christian Center | Mechanicsville, VA |
-| 2017 | Halle Reisinger      | Newport AG                      | Newport, PA        |
-| 2016 | Halle Reisinger      | Newport AG                      | Newport, PA        |
-| 2015 | Abby Rogers          | Cedar Park AG                   | Bothell, WA        |
-| 2014 | Abby Rogers          | Cedar Park AG                   | Bothell, WA        |
-| 2013 | Abby Rogers          | Cedar Park AG                   | Bothell, WA        |
-| 2012 | Abby Rogers          | Victorious Life Church          | Wesley Chapel, FL  |
-| 2011 | Abby Rogers          | Victorious Life Church          | Wesley Chapel, FL  |
-| 2010 | Abby Rogers          | Victorious Life Church          | Wesley Chapel, FL  |
-| 2009 | Abby Rogers          | Victorious Life Church          | Wesley Chapel, FL  |
-| 2008 | LaJoie Ward          | First AG                        | Binghamton, NY     |
-| 2007 | Jenna-Jo Duffy       | Cedar Park AG                   | Bothell, WA        |
-| 2006 | Gina Fortunato       | James River Church              | Ozark, MO          |
+| Year | Quizzer              | Church                          | City                 |
+| ---- | -------------------- | ------------------------------- | -------------------- |
+| 2022 | Rachel Brookbank     | New Life                        | Colorado Springs, CO |
+| 2021 | Shreanna Powell      | Calvary Church                  | Naperville, IL       |
+| 2020 | None due to COVID-19 |                                 |                      |
+| 2019 | Anna Kelly           | Mechanicsville Christian Center | Mechanicsville, VA   |
+| 2018 | Anna Kelly           | Mechanicsville Christian Center | Mechanicsville, VA   |
+| 2017 | Halle Reisinger      | Newport AG                      | Newport, PA          |
+| 2016 | Halle Reisinger      | Newport AG                      | Newport, PA          |
+| 2015 | Abby Rogers          | Cedar Park AG                   | Bothell, WA          |
+| 2014 | Abby Rogers          | Cedar Park AG                   | Bothell, WA          |
+| 2013 | Abby Rogers          | Cedar Park AG                   | Bothell, WA          |
+| 2012 | Abby Rogers          | Victorious Life Church          | Wesley Chapel, FL    |
+| 2011 | Abby Rogers          | Victorious Life Church          | Wesley Chapel, FL    |
+| 2010 | Abby Rogers          | Victorious Life Church          | Wesley Chapel, FL    |
+| 2009 | Abby Rogers          | Victorious Life Church          | Wesley Chapel, FL    |
+| 2008 | LaJoie Ward          | First AG                        | Binghamton, NY       |
+| 2007 | Jenna-Jo Duffy       | Cedar Park AG                   | Bothell, WA          |
+| 2006 | Gina Fortunato       | James River Church              | Ozark, MO            |
 
 ## Male Quizzer of the Year
 
 | Year | Quizzer              | Church             | City                |
 | ---- | -------------------- | ------------------ | ------------------- |
+| 2022 | Sheldon Powell       | Calvary Church     | Naperville, IL      |
 | 2021 | Zach Ponraj          | Deeper Church      | Burien, WA          |
 | 2020 | None due to COVID-19 |                    |                     |
 | 2019 | Judah Stevens        | Redeemer Church    | Utica, NY           |
