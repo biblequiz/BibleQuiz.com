@@ -12,7 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-![]({% link assets/1982/LA-NewOrleans.jpg %})
+![]({% link assets/1983/LA-NewOrleans.jpg %})
 
 The 21st National Bible Quiz Finals took place August 8-10, 1983 in Anaheim, California covering the book of Acts. Ted Brust was the National Coordinator and Brenton Osgood was the official question writer.
 
