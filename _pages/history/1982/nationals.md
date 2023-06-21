@@ -43,7 +43,7 @@ The top quizzer at the 1982 National Finals was Ken Henderson of First A/G, Tecu
 ### Individuals
 
 {% include notification.html
-   message="Only top 6 quizzers were announced at the 1981 National Bible Quiz Tournament."
+   message="Only top 6 quizzers were announced at the 1982 National Bible Quiz Tournament."
    icon="fas fa-info-circle"
    status="is-success" %}
 

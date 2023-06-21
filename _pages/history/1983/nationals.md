@@ -49,7 +49,7 @@ The top quizzer at the 1983 National Finals was John Wooton of Byesville A/G, By
 ### Individuals
 
 {% include notification.html
-   message="Only top 6 quizzers were announced at the 1981 National Bible Quiz Tournament."
+   message="Only top 6 quizzers were announced at the 1983 National Bible Quiz Tournament."
    icon="fas fa-info-circle"
    status="is-success" %}
 
