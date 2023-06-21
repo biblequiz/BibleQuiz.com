@@ -11,6 +11,7 @@ Top quizzers from the Northeast, Southeast, Gulf, and Great Lakes regions form t
 
 | Year | Winner               | Final Score |
 | ---- | -------------------- | ----------- |
+| 2022 | East                 | 130-125     |
 | 2021 | East                 | 95-80       |
 | 2020 | None due to COVID-19 |             |
 | 2019 | West                 | 60-35       |
