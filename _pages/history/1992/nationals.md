@@ -18,7 +18,7 @@ The 30th National Bible Quiz Finals took place August 3-7, 1992 in Fort Worth, T
 
 This was the last year in which only two teams from each region were invited to participate, however, a team from Hawaii was allowed to participate in spite of not finishing in the top two at the Southwest regional finals.
 
-The national championship was won by Park Crest A/G, Springfield, MO. The second place team was First A/G, Bartlesville, OK. Bartlesville also finished second in 1993. The third place team was Radiant A/G, Colorado Springs, CO. The Radiant team was the modern-day Briargate team which won national championships in 2001, 2004, 2006 and 2007.
+The national championship was won by Parkcrest A/G, Springfield, MO. The second place team was First A/G, Bartlesville, OK. Bartlesville also finished second in 1993. The third place team was Radiant A/G, Colorado Springs, CO. The Radiant team was the modern-day Briargate team which won national championships in 2001, 2004, 2006 and 2007.
 
 This marked the sixth overall year in which the Gulf region has won nationals.
 
@@ -30,7 +30,7 @@ The top scorer at the 1992 National Finals was Josh Weber of Lakeland, FL. Josh 
 
 | Rank | Team                                  | Record | Total | Margin |
 |-----:|---------------------------------------|--------|------:|-------:|
-| 1    | Park Crest A/G, Springfield, MO       | 14 / 2 | 3050  | 1775   |
+| 1    | Parkcrest A/G, Springfield, MO       | 14 / 2 | 3050  | 1775   |
 | 2    | Radiant Church, Colorado Springs, CO  | 13 / 3 | 2530  | 1240   |
 | 3    | First A/G, Bartlesville, OK           | 13 / 3 | 2870  | 1555   |
 | 4    | First A/G, St. Charles, MO            | 10 / 6 | 2265  | 950    |
@@ -96,7 +96,7 @@ Robyn Wilmoth
 {% capture image_html %}
 #### 1st Place
 
-Church:	Park Crest A/G, Springfield, MO
+Church:	Parkcrest A/G, Springfield, MO
 Pastor:	Robert Strand
 Coach:	Synthia Cathcart, Elizabeth Weaver
 Team:	Randy Cathcart
@@ -107,7 +107,7 @@ Chad Nelson
 Sarah Wright
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Park Crest A/G, Springfield, MO" html=image_html %}
+{% include image-card.html link=image_url alt="Parkcrest A/G, Springfield, MO" html=image_html %}
 
 #### 2nd Place
 
