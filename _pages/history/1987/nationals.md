@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/1987/nationals/
 title: "1987 National Finals"
-date: "1987-08-16"
+date: "1987-08-05"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
