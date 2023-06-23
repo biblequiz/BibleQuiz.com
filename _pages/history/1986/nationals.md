@@ -47,7 +47,7 @@ The top scorer at the 1986 National Finals was Nicole Brandon of Woodlake A/G, T
 |   15 | Calvary A/G, Orrville, OH             | 4 / 11 |  1715 | 114.33 |         -925 |     -61.67 |
 |   16 | Sherman A/G, Sherman, NY              | 2 / 13 |  1195 |  79.67 |        -1335 |        -89 |
 
-\* Won in Playoff
+\* At the end of round-robin competition the team from First A/G, Tempe was first, and there was a playoff for second place between two teams. First A/G, Hibbing, MN won defeating Evangel Temple, Decatur, GA who placed third. We do not have the score for this match.
 
 ### Individuals
 
