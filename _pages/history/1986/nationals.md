@@ -256,7 +256,7 @@ The top scorer at the 1986 National Finals was Nicole Brandon of Woodlake A/G, T
   * Round 13: Won against Woodlake A/G, Tulsa, OK 165 to 95
   * Round 14: Won against Calvary A/G, Orrville, OH 285 to 60
   * Round 15: Lost to Sherman A/G, Sherman, NY 75 to 110
-Playoff: Won against Evangel Temple, Decatur, GA
+  * Playoff: Won against Evangel Temple, Decatur, GA
 
 ### Northeast Region
 
