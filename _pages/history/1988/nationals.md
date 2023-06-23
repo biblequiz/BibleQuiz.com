@@ -517,9 +517,9 @@ The top scorer at the 1988 National Finals was Marcae Johnson of Central A/G, Sp
 
 {% capture image_url %}{% link assets/1988/AZ-Tucson.jpg %}{% endcapture %}
 {% capture image_html %}
-#### 1st Place
-
 *Pictured left-to-right: Barbara Turner, Jason Picker, Marcy Sproull, Ed Picker*
+
+#### 1st Place
 
 * **Church**: Eastside A/G, Tucson, AZ
 * **Pastor**: Jerry Roberts
