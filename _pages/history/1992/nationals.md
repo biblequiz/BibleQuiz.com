@@ -92,9 +92,11 @@ Robyn Wilmoth
 
 ### Gulf Region
 
+{% capture image_url %}{% link assets/1992/MO-ParkCrest.jpg %}{% endcapture %}
+{% capture image_html %}
 #### 1st Place
 
-Church:	Parkcrest A/G, Springfield, MO
+Church:	Park Crest A/G, Springfield, MO
 Pastor:	Robert Strand
 Coach:	Synthia Cathcart, Elizabeth Weaver
 Team:	Randy Cathcart
@@ -103,6 +105,9 @@ Keith Grabill
 Justin Moody
 Chad Nelson
 Sarah Wright
+{% endcapture %}
+{% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
+{% include image-card.html link=image_url alt="Park Crest A/G, Springfield, MO" html=image_html %}
 
 #### 2nd Place
 
@@ -234,6 +239,11 @@ Rachel Weber
 
 ### Southwest Region
 
+{% capture image_url %}{% link assets/1992/CA-Lakewood.jpg %}{% endcapture %}
+{% capture image_html %}
+*(L-R Standing) Greg House, Tim Bahra, Mel Aou, Mike Shewey*\
+*(L-R Sitting) Dan Smith, Sarah Shewey, Jeremy Rodriguez*
+
 #### 1st Place
 
 Church:	Life Center A/G, Lakewood, CA
@@ -243,6 +253,9 @@ Team:	Tim Bahra
 Jeremy Rodriguez
 Sarah Shewey
 Dan Smith
+{% endcapture %}
+{% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
+{% include image-card.html link=image_url alt="Life Center A/G, Lakewood, CA" html=image_html %}
 
 #### 2nd Place
 
