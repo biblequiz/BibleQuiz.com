@@ -173,29 +173,32 @@ The top scorer at the 1999 National Finals was Kent Piacenti of Orange Hills A/G
 
 #### 1st Place
 
-Church:	First A/G, East Lansing, MI
-Pastor:	Curt Dalaba
-Coach:	Maureen Harr
-Team:	Kyle Harr
+* **Church**: First A/G, East Lansing, MI
+* **Pastor**: Curt Dalaba
+* **Coach**: Maureen Harr
+* **Team**:
+    * Kyle Harr
 Stephanie Harr
 Tyler King
 Amber Malcolm
 
 #### 2nd Place
 
-Church:	Bethel Christian Center, West Lafayette, IN
-Pastor:	Ted Brust
-Coach:	Pamela Whitehead
-Team:	David Whitehead
+* **Church**: Bethel Christian Center, West Lafayette, IN
+* **Pastor**: Ted Brust
+* **Coach**: Pamela Whitehead
+* **Team**:
+    * David Whitehead
 Kathryn Whitehead
 Mark Whitehead
 
 #### 3rd Place
 
-Church:	Auburn Hills Christian Center, Auburn Hills, MI
-Pastor:	Perry L. Kallevig
-Coach:	Walter David, Jr.
-Team:	Andre Rodriguez
+* **Church**: Auburn Hills Christian Center, Auburn Hills, MI
+* **Pastor**: Perry L. Kallevig
+* **Coach**: Walter David, Jr.
+* **Team**:
+    * Andre Rodriguez
 Daniel Rodriguez
 Janelle Rodriguez
 Steve Whitson
@@ -204,19 +207,21 @@ Steve Whitson
 
 #### 1st Place
 
-Church:	Central A/G, Springfield, MO
-Pastor:	David Watson
-Coach:	David Hatley
-Team:	Joey Bohanon
+* **Church**: Central A/G, Springfield, MO
+* **Pastor**: David Watson
+* **Coach**: David Hatley
+* **Team**:
+    * Joey Bohanon
 Megan Pincombe
 James Swinford
 
 #### 2nd Place
 
-Church:	King's Chapel, Springfield, MO
-Pastor:	Phillip Duncan
-Coach:	Kevin Dawson
-Team:	Brandon Davis
+* **Church**: King's Chapel, Springfield, MO
+* **Pastor**: Phillip Duncan
+* **Coach**: Kevin Dawson
+* **Team**:
+    * Brandon Davis
 Hannah Duncan
 Eric Hernando
 David Johnson
@@ -224,10 +229,11 @@ Joey Laurine
 
 #### 3rd Place
 
-Church:	Southside A/G, Jackson, MS
-Pastor:	Bryan Wilson
-Coach:	Linda Berry
-Team:	Abby Ades
+* **Church**: Southside A/G, Jackson, MS
+* **Pastor**: Bryan Wilson
+* **Coach**: Linda Berry
+* **Team**:
+    * Abby Ades
 Justin Ades
 Jason Pilgrim
 
@@ -235,10 +241,11 @@ Jason Pilgrim
 
 #### 1st Place
 
-Church:	First A/G, Oskaloosa, IA
-Pastor:	Harold Schutte
-Coach:	Charlotte Beyer
-Team:	Annette Beaver
+* **Church**: First A/G, Oskaloosa, IA
+* **Pastor**: Harold Schutte
+* **Coach**: Charlotte Beyer
+* **Team**:
+    * Annette Beaver
 Michelle Beaver
 Kendi Beyer
 Krisha Beyer
@@ -247,20 +254,22 @@ Alex Seemann
 
 #### 2nd Place
 
-Church:	Christian Chapel, Columbia, MO
-Pastor:	Gary A. Denbow
-Coach:	Koleen Keathley
-Team:	Towela Magai
+* **Church**: Christian Chapel, Columbia, MO
+* **Pastor**: Gary A. Denbow
+* **Coach**: Koleen Keathley
+* **Team**:
+    * Towela Magai
 Colin McMillan
 Naomi Weisbrook
 Seth Weisbrook
 
 #### 3rd Place
 
-Church:	Fox Valley Christian Fellowship, Kimberly, WI
-Pastor:	Steven Nickel
-Coach:	Steve Pentz
-Team:	Joshua Nickel
+* **Church**: Fox Valley Christian Fellowship, Kimberly, WI
+* **Pastor**: Steven Nickel
+* **Coach**: Steve Pentz
+* **Team**:
+    * Joshua Nickel
 David Pentz
 Nathan Pentz
 Peter Pentz
@@ -270,10 +279,11 @@ Ashley Scott
 
 #### 1st Place
 
-Church:	Allison Park A/G, Allison Park, PA
-Pastor:	Jeff Leake
-Coach:	John Porter
-Team:	Jim Fenton
+* **Church**: Allison Park A/G, Allison Park, PA
+* **Pastor**: Jeff Leake
+* **Coach**: John Porter
+* **Team**:
+    * Jim Fenton
 Jeff Herzberg
 Nikki Milliron
 David Scarborough
@@ -281,19 +291,21 @@ Dave Shim
 
 #### 2nd Place
 
-Church:	Grace A/G, Syracuse, NY
-Pastor:	Charles Semple
-Coach:	John Nardozzi
-Team:	Ryan Cooper
+* **Church**: Grace A/G, Syracuse, NY
+* **Pastor**: Charles Semple
+* **Coach**: John Nardozzi
+* **Team**:
+    * Ryan Cooper
 Stan Hardter
 Rob Thousand
 
 #### 3rd Place
 
-Church:	Expressway A/G, Buffalo, NY
-Pastor:	Daniel L. McKenna
-Coach:	Tom McLaughlin
-Team:	Dan McLaughlin
+* **Church**: Expressway A/G, Buffalo, NY
+* **Pastor**: Daniel L. McKenna
+* **Coach**: Tom McLaughlin
+* **Team**:
+    * Dan McLaughlin
 Michelle McLaughlin
 John Wroblewski
 David Young
@@ -302,10 +314,11 @@ David Young
 
 #### 1st Place
 
-Church:	Calvary Temple, Auburn, WA
-Pastor:	James Filbeck
-Coach:	Ted Barrans
-Team:	Aaron Fell
+* **Church**: Calvary Temple, Auburn, WA
+* **Pastor**: James Filbeck
+* **Coach**: Ted Barrans
+* **Team**:
+    * Aaron Fell
 Kirstin Haugland
 Steve Patient
 Joyce Punnoose
@@ -314,10 +327,11 @@ Ross Rogers
 
 #### 2nd Place
 
-Church:	Cedar Park A/G, Bothell, WA
-Pastor:	Joseph Fuiten
-Coach:	Kent Kloefkorn
-Team:	Pat Bjorklund
+* **Church**: Cedar Park A/G, Bothell, WA
+* **Pastor**: Joseph Fuiten
+* **Coach**: Kent Kloefkorn
+* **Team**:
+    * Pat Bjorklund
 Brett Flower
 Jessice Neilson
 Dave Savage
@@ -325,10 +339,11 @@ Ryan Skolrud
 
 #### 3rd Place
 
-Church:	Meridian A/G, Boise ID
-Pastor:	Edward W. Kreiner
-Coach:	Kevin Wilson
-Team:	Will Jenson
+* **Church**: Meridian A/G, Boise ID
+* **Pastor**: Edward W. Kreiner
+* **Coach**: Kevin Wilson
+* **Team**:
+    * Will Jenson
 Wendy Mercer
 Jennifer Pon
 Jon Pon
@@ -337,30 +352,33 @@ Jon Pon
 
 #### 1st Place
 
-Church:	Christian Chapel A/G, Tulsa, OK
-Pastor:	Greg Davis
-Coach:	Bryan Turner
-Team:	Bryan Batchelder
+* **Church**: Christian Chapel A/G, Tulsa, OK
+* **Pastor**: Greg Davis
+* **Coach**: Bryan Turner
+* **Team**:
+    * Bryan Batchelder
 Caleb Booth
 Grant Shafer
 Brycen Turner
 
 #### 2nd Place
 
-Church:	Braeswood A/G, Houston, TX
-Pastor:	Earl Banning
-Coach:	Paul Kramer
-Team:	Charles Anyanwu
+* **Church**: Braeswood A/G, Houston, TX
+* **Pastor**: Earl Banning
+* **Coach**: Paul Kramer
+* **Team**:
+    * Charles Anyanwu
 Prince Anyanwu
 Nathaniel McFarland
 George Ukomad
 
 #### 3rd Place
 
-Church:	Harvest A/G, Fort Worth, TX
-Pastor:	Dale Shorter
-Coach:	Gilda Shorter
-Team:	Jennifer Martin
+* **Church**: Harvest A/G, Fort Worth, TX
+* **Pastor**: Dale Shorter
+* **Coach**: Gilda Shorter
+* **Team**:
+    * Jennifer Martin
 Kuntye Samqui
 Pentyi Samqui
 Dayla Shorter
@@ -371,29 +389,32 @@ Joshua Van Horn
 
 #### 1st Place
 
-Church:	Cornerstone A/G, Fremont, NC
-Pastor:	Terry L. Hartley
-Coach:	Ron Johnson
-Team:	Charity Daniel
+* **Church**: Cornerstone A/G, Fremont, NC
+* **Pastor**: Terry L. Hartley
+* **Coach**: Ron Johnson
+* **Team**:
+    * Charity Daniel
 Jennifer Dunn
 Abigail Knotts
 
 #### 2nd Place
 
-Church:	First A/G, Ocala FL
-Pastor:	Fred McDaniel
-Coach:	Earl Affrey
-Team:	Len Blackson
+* **Church**: First A/G, Ocala FL
+* **Pastor**: Fred McDaniel
+* **Coach**: Earl Affrey
+* **Team**:
+    * Len Blackson
 Adam Groenewoud
 Jennifer Hunter
 Katie Shepherd
 
 #### 3rd Place
 
-Church:	First A/G, Fort Myers, FL
-Pastor:	Dan Betzer
-Coach:	Christine Thomas
-Team:	Brandon Blankenship
+* **Church**: First A/G, Fort Myers, FL
+* **Pastor**: Dan Betzer
+* **Coach**: Christine Thomas
+* **Team**:
+    * Brandon Blankenship
 Amy Thomas
 Shane Welborn
 
@@ -401,10 +422,11 @@ Shane Welborn
 
 #### 1st Place
 
-Church:	Orange Hills A/G, Orange, CA
-Pastor:	Ed Rutherford
-Coach:	Greg House
-Team:	David Dorey
+* **Church**: Orange Hills A/G, Orange, CA
+* **Pastor**: Ed Rutherford
+* **Coach**: Greg House
+* **Team**:
+    * David Dorey
 Rick Haney
 Dapo Masha
 David Masha
@@ -412,10 +434,11 @@ Kent Piacenti
 
 #### 2nd Place
 
-Church:	Radiant Church, Colorado Springs, CO
-Pastor:	Don Steiger
-Coach:	Phil Steiger
-Team:	Preston Drobeck
+* **Church**: Radiant Church, Colorado Springs, CO
+* **Pastor**: Don Steiger
+* **Coach**: Phil Steiger
+* **Team**:
+    * Preston Drobeck
 Megan Miller
 Mary Pace
 Ryan Popineall
@@ -423,10 +446,11 @@ Jordan Schneider
 
 #### 3rd Place
 
-Church:	Mountain View A/G, Las Vegas, NV
-Pastor:	Robert Goree
-Coach:	Tom Van Kempen
-Team:	Faith Allwood
+* **Church**: Mountain View A/G, Las Vegas, NV
+* **Pastor**: Robert Goree
+* **Coach**: Tom Van Kempen
+* **Team**:
+    * Faith Allwood
 Alex Harris
 Derek Harris
 Valerie Marchalonis

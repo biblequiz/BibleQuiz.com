@@ -147,247 +147,270 @@ The top scorer at the 1994 National Finals was Lisa Wootton of Bartlesville, OK.
 
 #### 1st Place
 
-Church:	St. Clair Shores A/G, St. Clair Shores, MI
-Pastor:	Daniel W. Brown
-Coach:	Robin Rominske
-Team:	Ken Chida
-Jamie Myers
-Matt Reed
-Daniel Slater
+* **Church**: St. Clair Shores A/G, St. Clair Shores, MI
+* **Pastor**: Daniel W. Brown
+* **Coach**: Robin Rominske
+* **Team**:
+    * Ken Chida
+    * Jamie Myers
+    * Matt Reed
+    * Daniel Slater
 
 #### 2nd Place
 
-Church:	First A/G, Warren, OH
-Pastor:	Larry Albanese
-Coaches:	Russell Kish, Karen Kish
-Team:	John Angelis
-Lisa Eutsey
-Stacey Kelly
-Rebecca Wilmoth
+* **Church**: First A/G, Warren, OH
+* **Pastor**: Larry Albanese
+* **Coaches**: Russell Kish, Karen Kish
+* **Team**:
+    * John Angelis
+    * Lisa Eutsey
+    * Stacey Kelly
+    * Rebecca Wilmoth
 
 #### 3rd Place
 
-Church:	Montgomery A/G, Cincinnati, OH
-Pastor:	Rodney Dukes
-Coaches:	Loren Wingler, Rene Sharp
-Team:	Jason Sharp
-Mark Walls
-Matt Winger
+* **Church**: Montgomery A/G, Cincinnati, OH
+* **Pastor**: Rodney Dukes
+* **Coaches**: Loren Wingler, Rene Sharp
+* **Team**:
+    * Jason Sharp
+    * Mark Walls
+    * Matt Winger
 
 ### Gulf Region
 
 #### 1st Place
 
-Church:	First A/G, Milan, TN
-Pastor:	Sam Austin
-Coaches:	Janice Ross, Missy Blakely
-Team:	Alice Deck
-James Fountain
-Matt Martin
-T.J. Ross
-Shawn Wiley
-David Williams
+* **Church**: First A/G, Milan, TN
+* **Pastor**: Sam Austin
+* **Coaches**: Janice Ross, Missy Blakely
+* **Team**:
+    * Alice Deck
+    * James Fountain
+    * Matt Martin
+    * T.J. Ross
+    * Shawn Wiley
+    * David Williams
 
 #### 2nd Place
 
-Church:	First A/G, Shreveport, LA
-Pastor:	Rodney Duron
-Coach:	Tim Jacobs
-Team:	Andy Ellis
-Jeremy Horn
-Ricky Simpson
-David Skidmore
-Aaron Smith
+* **Church**: First A/G, Shreveport, LA
+* **Pastor**: Rodney Duron
+* **Coach**: Tim Jacobs
+* **Team**:
+    * Andy Ellis
+    * Jeremy Horn
+    * Ricky Simpson
+    * David Skidmore
+    * Aaron Smith
 
 #### 3rd Place
 
-Church:	Park Crest A/G, Springfield, MO
-Pastor:	Robert Strand
-Coach:	George Edgerly
-Team:	Rochelle Cathcart
-Keith Grabill
-Justin Moody
-Ben Roudenis
-Jill Roudenis
-Tim Tran
+* **Church**: Park Crest A/G, Springfield, MO
+* **Pastor**: Robert Strand
+* **Coach**: George Edgerly
+* **Team**:
+    * Rochelle Cathcart
+    * Keith Grabill
+    * Justin Moody
+    * Ben Roudenis
+    * Jill Roudenis
+    * Tim Tran
 
 ### North Central Region
 
 #### 1st Place
 
-Church:	First A/G, Moberly, MO
-Pastor:	Michael Neff
-Coaches:	Randy Lee, Jean Hansen
-Team:	Kerrie Goff
-Hollie Walk
-Jeremy Plank
-Jeremy Walk
+* **Church**: First A/G, Moberly, MO
+* **Pastor**: Michael Neff
+* **Coaches**: Randy Lee, Jean Hansen
+* **Team**:
+    * Kerrie Goff
+    * Hollie Walk
+    * Jeremy Plank
+    * Jeremy Walk
 
 #### 2nd Place
 
-Church:	Park A/G, St. Louis Park, MN
-Pastor:	Wesley Brooks
-Coaches:	Monica Batty, Michael Batty
-Team:	Amy Fry
-Ana Lorvick
-Ryan Englar
-Erik Paasonen
+* **Church**: Park A/G, St. Louis Park, MN
+* **Pastor**: Wesley Brooks
+* **Coaches**: Monica Batty, Michael Batty
+* **Team**:
+    * Amy Fry
+    * Ana Lorvick
+    * Ryan Englar
+    * Erik Paasonen
 
 #### 3rd Place
 
-Church:	First A/G, St. Charles, MO
-Pastor:	David Williams
-Coaches:	Cheryl Matejka, Terry Matejka
-Team:	Jeremy Gibbs
-Amy Goodlett
-Hope Stock
-Josh Wagner
+* **Church**: First A/G, St. Charles, MO
+* **Pastor**: David Williams
+* **Coaches**: Cheryl Matejka, Terry Matejka
+* **Team**:
+    * Jeremy Gibbs
+    * Amy Goodlett
+    * Hope Stock
+    * Josh Wagner
 
 ### Northeast Region
 
 #### 1st Place
 
-Church:	Allison Park A/G, Allison Park, PA
-Pastor:	Jeff Leake
-Coach:	John Porter
-Team:	Rich Fenton
-Katey Callahan
-Jennifer Shim
-Daryn Trout
-Bernie Elliot III
+* **Church**: Allison Park A/G, Allison Park, PA
+* **Pastor**: Jeff Leake
+* **Coach**: John Porter
+* **Team**:
+    * Rich Fenton
+    * Katey Callahan
+    * Jennifer Shim
+    * Daryn Trout
+    * Bernie Elliot III
 
 #### 2nd Place
 
-Church:	Grace A/G, Syracuse, NY (Team 1)
-Pastor:	Charles Semple
-Coach:	Mary Daigle
-Team:	Joy Daigle
-David Fox II
-Cheryl Severance
-Kristin Severance
+* **Church**: Grace A/G, Syracuse, NY (Team 1)
+* **Pastor**: Charles Semple
+* **Coach**: Mary Daigle
+* **Team**:
+    * Joy Daigle
+    * David Fox II
+    * Cheryl Severance
+    * Kristin Severance
 
 #### 3rd Place
 
-Church:	Grace A/G, Syracuse, NY
-Pastor:	Charles Semple
-Coach:	John Nardozzi, Jackie Nardozzi
-Team:	Colleen Alexander
-Melissa Guardipee
-Nicole Martin
-Michelle McLaughlin
+* **Church**: Grace A/G, Syracuse, NY
+* **Pastor**: Charles Semple
+* **Coach**: John Nardozzi, Jackie Nardozzi
+* **Team**:
+    * Colleen Alexander
+    * Melissa Guardipee
+    * Nicole Martin
+    * Michelle McLaughlin
 
 ### Northwest Region
 
 #### 1st Place
 
-Church:	Heights A/G, Billings, MT
-Pastor:	Clint Compton
-Coaches:	Cathy Thaut, Dannette Heil
-Team:	Amy Smitman
-Sarah Starr
-Eric Thaut
+* **Church**: Heights A/G, Billings, MT
+* **Pastor**: Clint Compton
+* **Coaches**: Cathy Thaut, Dannette Heil
+* **Team**:
+    * Amy Smitman
+    * Sarah Starr
+    * Eric Thaut
 
 #### 2nd Place
 
-Church:	First A/G, Anacortes, WA
-Pastor:	Stan Drew
-Coaches:	Linda Welk, Sherry Couey
-Team:	Jeff Couey
-Rebekah Smith
+* **Church**: First A/G, Anacortes, WA
+* **Pastor**: Stan Drew
+* **Coaches**: Linda Welk, Sherry Couey
+* **Team**:
+    * Jeff Couey
+    * Rebekah Smith
 
 ### South Central Region
 
 #### 1st Place
 
-Church:	First A/G, Bartlesville, OK
-Pastor:	Billy Brummett
-Coaches:	Sue Wootton, Harold Wootton
-Team:	Jamie Lorenz
-Satish Sangapu
-Igor Vysotsky
-Lisa Wootton
+* **Church**: First A/G, Bartlesville, OK
+* **Pastor**: Billy Brummett
+* **Coaches**: Sue Wootton, Harold Wootton
+* **Team**:
+    * Jamie Lorenz
+    * Satish Sangapu
+    * Igor Vysotsky
+    * Lisa Wootton
 
 #### 2nd Place
 
-Church:	First A/G, Belton, TX
-Pastor:	Harry Trasher
-Coaches:	Dan Renfro, Dolores Rogers, Tony Rogers
-Team:	Seth Edwards
-Laurie Lewis
-Kris Reeder
-Shelly Rogers
+* **Church**: First A/G, Belton, TX
+* **Pastor**: Harry Trasher
+* **Coaches**: Dan Renfro, Dolores Rogers, Tony Rogers
+* **Team**:
+    * Seth Edwards
+    * Laurie Lewis
+    * Kris Reeder
+    * Shelly Rogers
 
 #### 3rd Place
 
-Church:	First A/G, Atlanta, TX
-Pastor:	Leon Morrow
-Coach:	Hal Haltom
-Team:	Jennifer Gibson
-Holly Haltom
-Jennifer Lemke
+* **Church**: First A/G, Atlanta, TX
+* **Pastor**: Leon Morrow
+* **Coach**: Hal Haltom
+* **Team**:
+    * Jennifer Gibson
+    * Holly Haltom
+    * Jennifer Lemke
 
 ### Southeast Region
 
 #### 1st Place
 
-Church:	Evangelistic Centre, Fort Walton Beach, FL
-Pastor:	S. David Beiler
-Coaches:	Linda Beiler, Linnette Wagers
-Team:	Matthew Dyer
-David Beiler
-Phillip Dyer
-Brad Miller
+* **Church**: Evangelistic Centre, Fort Walton Beach, FL
+* **Pastor**: S. David Beiler
+* **Coaches**: Linda Beiler, Linnette Wagers
+* **Team**:
+    * Matthew Dyer
+    * David Beiler
+    * Phillip Dyer
+    * Brad Miller
 
 #### 2nd Place
 
-Church:	Brownsville A/G, Pensacola, FL
-Pastor:	John Kilpatrick
-Coach:	Kevin Fisher
-Team:	Paul Joseph Baker
-Wesley Peaden
-Philip Smith
+* **Church**: Brownsville A/G, Pensacola, FL
+* **Pastor**: John Kilpatrick
+* **Coach**: Kevin Fisher
+* **Team**:
+    * Paul Joseph Baker
+    * Wesley Peaden
+    * Philip Smith
 
 #### 3rd Place
 
-Church:	Tuscawilla A/G, Oviedo, FL
-Pastor:	Jeff Good
-Coaches:	Ray Berkey, Angie Berkey
-Team:	Malisa Berkey
-Scott Berkey
-Natalie Burgos
-Scott Kuschmider
-Billy Thornbrugh
+* **Church**: Tuscawilla A/G, Oviedo, FL
+* **Pastor**: Jeff Good
+* **Coaches**: Ray Berkey, Angie Berkey
+* **Team**:
+    * Malisa Berkey
+    * Scott Berkey
+    * Natalie Burgos
+    * Scott Kuschmider
+    * Billy Thornbrugh
 
 ### Southwest Region
 
 #### 1st Place
 
-Church:	Life Center A/G, Lakewood, CA
-Pastor:	Charles Atherton
-Coaches:	Greg House, Jeremy Rodriguez
-Team:	Sarah Shewey
-Stephen Shewey
-Lora Tate
+* **Church**: Life Center A/G, Lakewood, CA
+* **Pastor**: Charles Atherton
+* **Coaches**: Greg House, Jeremy Rodriguez
+* **Team**:
+    * Sarah Shewey
+    * Stephen Shewey
+    * Lora Tate
 
 #### 2nd Place
 
-Church:	Orange County Christian Center, Santa Ana, CA
-Pastor:	Albert Vaters
-Coaches:	Irv Kuroishi, Sandra Leonard
-Team:	Daniel Potts
-Christina Leonard
-Sanejo Leonard
+* **Church**: Orange County Christian Center, Santa Ana, CA
+* **Pastor**: Albert Vaters
+* **Coaches**: Irv Kuroishi, Sandra Leonard
+* **Team**:
+    * Daniel Potts
+    * Christina Leonard
+    * Sanejo Leonard
 
 #### 3rd Place
 
-Church:	Northwest A/G, Phoenix, AZ
-Pastor:	Earl Ostrom
-Coaches:	Mark Ingroum, Karen Ingroum, Todd Zeller
-Team:	Scott Heritage
-Rebecca Ingroum
-Shaun Phelps
-Jenny Williams
-Greg Zeller
+* **Church**: Northwest A/G, Phoenix, AZ
+* **Pastor**: Earl Ostrom
+* **Coaches**: Mark Ingroum, Karen Ingroum, Todd Zeller
+* **Team**:
+    * Scott Heritage
+    * Rebecca Ingroum
+    * Shaun Phelps
+    * Jenny Williams
+    * Greg Zeller
 
 ## Individual Tournament
 

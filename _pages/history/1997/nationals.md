@@ -183,848 +183,872 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 
 #### 1st Place
 
-Church:	First A/G, Lexington, KY
-Pastor:	Terry Sikes
-Coaches:	Donna Rees, Timus Rees
-Team:	Stephen Horn
+* **Church**: First A/G, Lexington, KY
+* **Pastor**: Terry Sikes
+* **Coaches**: Donna Rees, Timus Rees
+* **Team**:
+    * Stephen Horn
 Becky Rees
 David Rees
 Kacey Wade
 * **Round Robin**:
-Round 1: Won against First A/G #2, Fort Myers, FL 255 to 70
-Round 2: Won against Allison Park A/G, Allison Park, PA 135 to 110
-Round 3: Won against Calvary A/G, Elkhart, IN 190 to 105
-Round 4: Won against Victorious Life Church, Waco, TX 180 to 0
-Round 5: Won against First A/G, Oskaloosa, IA 115 to 110
-Round 6: Won against Alpha A/G, Clarion, PA 190 to 40
-Round 7: Won against First A/G #1, Fort Myers, FL 175 to -5
-Round 8: Won against Minier A/G, Minier, IL 135 to 80
-Round 9: Won against Harvest A/G, Fort Worth, TX 170 to 35
-Round 10: Won against King's Chapel, Springfield, MO 165 to 110
-Round 11: Won against Mountain View A/G, Las Vegas, NV 170 to -5
-Round 12: Won against First A/G, Phoenix, AZ 180 to 110
-Round 13: Won against First A/G, Warner Robins, GA 250 to -30
-Round 14: Lost to Central A/G, Springfield, MO 100 to 125
-Round 15: Won against Heights A/G, Billings, MT 135 to 85
-Round 16: Won against Radiant Church, Colorado Springs, CO 165 to 0
-Round 17: Won against Grace A/G, Syracuse, PA 115 to 100
-Round 18: Won against Watford City A/G, Watford City, ND 190 to 15
-Round 19: Lost to First A/G, Helena, MT 105 to 170
-Round 20: Lost to Life Community Church, Sunnyvale, TX 115 to 140
-Round 21: Lost to Calvary Temple, Auburn, WA 85 to 175
-Round 22: Won against Racine A/G, Racine, WI 140 to 75
-Round 23: Won against First A/G, Shreveport, MO 125 to 115
+  * Round 1: Won against First A/G #2, Fort Myers, FL 255 to 70
+  * Round 2: Won against Allison Park A/G, Allison Park, PA 135 to 110
+  * Round 3: Won against Calvary A/G, Elkhart, IN 190 to 105
+  * Round 4: Won against Victorious Life Church, Waco, TX 180 to 0
+  * Round 5: Won against First A/G, Oskaloosa, IA 115 to 110
+  * Round 6: Won against Alpha A/G, Clarion, PA 190 to 40
+  * Round 7: Won against First A/G #1, Fort Myers, FL 175 to -5
+  * Round 8: Won against Minier A/G, Minier, IL 135 to 80
+  * Round 9: Won against Harvest A/G, Fort Worth, TX 170 to 35
+  * Round 10: Won against King's Chapel, Springfield, MO 165 to 110
+  * Round 11: Won against Mountain View A/G, Las Vegas, NV 170 to -5
+  * Round 12: Won against First A/G, Phoenix, AZ 180 to 110
+  * Round 13: Won against First A/G, Warner Robins, GA 250 to -30
+  * Round 14: Lost to Central A/G, Springfield, MO 100 to 125
+  * Round 15: Won against Heights A/G, Billings, MT 135 to 85
+  * Round 16: Won against Radiant Church, Colorado Springs, CO 165 to 0
+  * Round 17: Won against Grace A/G, Syracuse, PA 115 to 100
+  * Round 18: Won against Watford City A/G, Watford City, ND 190 to 15
+  * Round 19: Lost to First A/G, Helena, MT 105 to 170
+  * Round 20: Lost to Life Community Church, Sunnyvale, TX 115 to 140
+  * Round 21: Lost to Calvary Temple, Auburn, WA 85 to 175
+  * Round 22: Won against Racine A/G, Racine, WI 140 to 75
+  * Round 23: Won against First A/G, Shreveport, MO 125 to 115
 
 #### 2nd Place
 
-Church:	Calvary A/G, Elkhart, IN
-Pastor:	Paul Furrow
-Coaches:	John Hunter, David Bonham
-Team:	Ryan Clark
+* **Church**: Calvary A/G, Elkhart, IN
+* **Pastor**: Paul Furrow
+* **Coaches**: John Hunter, David Bonham
+* **Team**:
+    * Ryan Clark
 Stephanie Hunter
 Shawn Maust
 Bethany Runyon
 Kimberly Slabaugh
 * **Round Robin**:
-Round 1: Lost to Harvest A/G, Fort Worth, TX 80 to 85
-Round 2: Won against King's Chapel, Springfield, MO 150 to 105
-Round 3: Lost to First A/G, Lexington, KY 105 to 190
-Round 4: Won against First A/G, Phoenix, AZ 120 to 60
-Round 5: Won against First A/G, Warner Robins, GA 130 to -25
-Round 6: Lost to Central A/G, Springfield, MO 20 to 120
-Round 7: Won against Heights A/G, Billings, MT 125 to 25
-Round 8: Won against Radiant Church, Colorado Springs, CO 120 to 15
-Round 9: Lost to Grace A/G, Syracuse, PA 30 to 100
-Round 10: Won against Watford City A/G, Watford City, ND 240 to 15
-Round 11: Won against First A/G, Helena, MT 135 to 115
-Round 12: Lost to Life Community Church, Sunnyvale, TX 115 to 170
-Round 13: Won against Calvary Temple, Auburn, WA 160 to 140
-Round 14: Lost to Racine A/G, Racine, WI 80 to 90
-Round 15: Lost to First A/G, Shreveport, MO 75 to 155
-Round 16: Lost to First A/G #2, Fort Myers, FL 70 to 130
-Round 17: Lost to Allison Park A/G, Allison Park, PA 105 to 140
-Round 18: Lost to Mountain View A/G, Las Vegas, NV 110 to 125
-Round 19: Lost to Victorious Life Church, Waco, TX 10 to 185
-Round 20: Lost to First A/G, Oskaloosa, IA 75 to 150
-Round 21: Lost to Alpha A/G, Clarion, PA 40 to 170
-Round 22: Won against First A/G #1, Fort Myers, FL 115 to 40
-Round 23: Won against Minier A/G, Minier, IL 165 to 95
+  * Round 1: Lost to Harvest A/G, Fort Worth, TX 80 to 85
+  * Round 2: Won against King's Chapel, Springfield, MO 150 to 105
+  * Round 3: Lost to First A/G, Lexington, KY 105 to 190
+  * Round 4: Won against First A/G, Phoenix, AZ 120 to 60
+  * Round 5: Won against First A/G, Warner Robins, GA 130 to -25
+  * Round 6: Lost to Central A/G, Springfield, MO 20 to 120
+  * Round 7: Won against Heights A/G, Billings, MT 125 to 25
+  * Round 8: Won against Radiant Church, Colorado Springs, CO 120 to 15
+  * Round 9: Lost to Grace A/G, Syracuse, PA 30 to 100
+  * Round 10: Won against Watford City A/G, Watford City, ND 240 to 15
+  * Round 11: Won against First A/G, Helena, MT 135 to 115
+  * Round 12: Lost to Life Community Church, Sunnyvale, TX 115 to 170
+  * Round 13: Won against Calvary Temple, Auburn, WA 160 to 140
+  * Round 14: Lost to Racine A/G, Racine, WI 80 to 90
+  * Round 15: Lost to First A/G, Shreveport, MO 75 to 155
+  * Round 16: Lost to First A/G #2, Fort Myers, FL 70 to 130
+  * Round 17: Lost to Allison Park A/G, Allison Park, PA 105 to 140
+  * Round 18: Lost to Mountain View A/G, Las Vegas, NV 110 to 125
+  * Round 19: Lost to Victorious Life Church, Waco, TX 10 to 185
+  * Round 20: Lost to First A/G, Oskaloosa, IA 75 to 150
+  * Round 21: Lost to Alpha A/G, Clarion, PA 40 to 170
+  * Round 22: Won against First A/G #1, Fort Myers, FL 115 to 40
+  * Round 23: Won against Minier A/G, Minier, IL 165 to 95
 
 #### 3rd Place
 
-Church:	Minier A/G, Minier, IL
-Pastor:	Ed Eaton
-Coach:	Lori Eby
-Team:	Ryan Decker
+* **Church**: Minier A/G, Minier, IL
+* **Pastor**: Ed Eaton
+* **Coach**: Lori Eby
+* **Team**:
+    * Ryan Decker
 Wynter Gingery
 Amber Lovell
 Amy Swanson
 Moriah Thacker
 * **Round Robin**:
-Round 1: Lost to Victorious Life Church, Waco, TX 45 to 210
-Round 2: Lost to First A/G, Oskaloosa, IA 75 to 175
-Round 3: Lost to Alpha A/G, Clarion, PA 90 to 165
-Round 4: Lost to First A/G #1, Fort Myers, FL 40 to 180
-Round 5: Won against Mountain View A/G, Las Vegas, NV 180 to 90
-Round 6: Lost to Harvest A/G, Fort Worth, TX 90 to 150
-Round 7: Lost to King's Chapel, Springfield, MO 100 to 120
-Round 8: Lost to First A/G, Lexington, KY 80 to 135
-Round 9: Lost to First A/G, Phoenix, AZ -15 to 25
-Round 10: Won against First A/G, Warner Robins, GA 130 to 100
-Round 11: Lost to Central A/G, Springfield, MO 100 to 135
-Round 12: Won against Heights A/G, Billings, MT 155 to 105
-Round 13: Won against Radiant Church, Colorado Springs, CO 105 to 15
-Round 14: Lost to Grace A/G, Syracuse, PA 5 to 245
-Round 15: Won against Watford City A/G, Watford City, ND 130 to -15
-Round 16: Lost to First A/G, Helena, MT 95 to 115
-Round 17: Lost to Life Community Church, Sunnyvale, TX 45 to 250
-Round 18: Lost to Calvary Temple, Auburn, WA 70 to 235
-Round 19: Lost to Racine A/G, Racine, WI 80 to 195
-Round 20: Lost to First A/G, Shreveport, MO 45 to 205
-Round 21: Won against First A/G #2, Fort Myers, FL 140 to 35
-Round 22: Lost to Allison Park A/G, Allison Park, PA 30 to 225
-Round 23: Lost to Calvary A/G, Elkhart, IN 95 to 165
+  * Round 1: Lost to Victorious Life Church, Waco, TX 45 to 210
+  * Round 2: Lost to First A/G, Oskaloosa, IA 75 to 175
+  * Round 3: Lost to Alpha A/G, Clarion, PA 90 to 165
+  * Round 4: Lost to First A/G #1, Fort Myers, FL 40 to 180
+  * Round 5: Won against Mountain View A/G, Las Vegas, NV 180 to 90
+  * Round 6: Lost to Harvest A/G, Fort Worth, TX 90 to 150
+  * Round 7: Lost to King's Chapel, Springfield, MO 100 to 120
+  * Round 8: Lost to First A/G, Lexington, KY 80 to 135
+  * Round 9: Lost to First A/G, Phoenix, AZ -15 to 25
+  * Round 10: Won against First A/G, Warner Robins, GA 130 to 100
+  * Round 11: Lost to Central A/G, Springfield, MO 100 to 135
+  * Round 12: Won against Heights A/G, Billings, MT 155 to 105
+  * Round 13: Won against Radiant Church, Colorado Springs, CO 105 to 15
+  * Round 14: Lost to Grace A/G, Syracuse, PA 5 to 245
+  * Round 15: Won against Watford City A/G, Watford City, ND 130 to -15
+  * Round 16: Lost to First A/G, Helena, MT 95 to 115
+  * Round 17: Lost to Life Community Church, Sunnyvale, TX 45 to 250
+  * Round 18: Lost to Calvary Temple, Auburn, WA 70 to 235
+  * Round 19: Lost to Racine A/G, Racine, WI 80 to 195
+  * Round 20: Lost to First A/G, Shreveport, MO 45 to 205
+  * Round 21: Won against First A/G #2, Fort Myers, FL 140 to 35
+  * Round 22: Lost to Allison Park A/G, Allison Park, PA 30 to 225
+  * Round 23: Lost to Calvary A/G, Elkhart, IN 95 to 165
 
 ### Gulf Region
 
 #### 1st Place
 
-Church:	Central A/G, Springfield, MO
-Pastor:	David Watson
-Coaches:	David Hatley, Melissa Hatley
-Team:	Joey Bohanon
+* **Church**: Central A/G, Springfield, MO
+* **Pastor**: David Watson
+* **Coaches**: David Hatley, Melissa Hatley
+* **Team**:
+    * Joey Bohanon
 Todd Katter
 Megan Pincombe
 Kayla Rowe
 * **Round Robin**:
-Round 1: Won against Calvary Temple, Auburn, WA 160 to 75
-Round 2: Won against Racine A/G, Racine, WI 195 to 20
-Round 3: Lost to First A/G, Shreveport, MO 35 to 165
-Round 4: Won against First A/G #2, Fort Myers, FL 120 to 35
-Round 5: Won against Allison Park A/G, Allison Park, PA 180 to 135
-Round 6: Won against Calvary A/G, Elkhart, IN 120 to 20
-Round 7: Lost to Victorious Life Church, Waco, TX 95 to 135
-Round 8: Lost to First A/G, Oskaloosa, IA 85 to 110
-Round 9: Lost to Alpha A/G, Clarion, PA 35 to 75
-Round 10: Won against First A/G #1, Fort Myers, FL 155 to 60
-Round 11: Won against Minier A/G, Minier, IL 135 to 100
-Round 12: Won against Harvest A/G, Fort Worth, TX 255 to -15
-Round 13: Won against King's Chapel, Springfield, MO 270 to -20
-Round 14: Won against First A/G, Lexington, KY 125 to 100
-Round 15: Won against First A/G, Phoenix, AZ 205 to 60
-Round 16: Won against First A/G, Warner Robins, GA 170 to -15
-Round 17: Lost to Mountain View A/G, Las Vegas, NV 105 to 130
-Round 18: Won against Heights A/G, Billings, MT 200 to 5
-Round 19: Won against Radiant Church, Colorado Springs, CO 155 to 65
-Round 20: Won against Grace A/G, Syracuse, PA 90 to 80
-Round 21: Lost to Watford City A/G, Watford City, ND 70 to 105
-Round 22: Won against First A/G, Helena, MT 120 to 90
-Round 23: Won against Life Community Church, Sunnyvale, TX 205 to 120
+  * Round 1: Won against Calvary Temple, Auburn, WA 160 to 75
+  * Round 2: Won against Racine A/G, Racine, WI 195 to 20
+  * Round 3: Lost to First A/G, Shreveport, MO 35 to 165
+  * Round 4: Won against First A/G #2, Fort Myers, FL 120 to 35
+  * Round 5: Won against Allison Park A/G, Allison Park, PA 180 to 135
+  * Round 6: Won against Calvary A/G, Elkhart, IN 120 to 20
+  * Round 7: Lost to Victorious Life Church, Waco, TX 95 to 135
+  * Round 8: Lost to First A/G, Oskaloosa, IA 85 to 110
+  * Round 9: Lost to Alpha A/G, Clarion, PA 35 to 75
+  * Round 10: Won against First A/G #1, Fort Myers, FL 155 to 60
+  * Round 11: Won against Minier A/G, Minier, IL 135 to 100
+  * Round 12: Won against Harvest A/G, Fort Worth, TX 255 to -15
+  * Round 13: Won against King's Chapel, Springfield, MO 270 to -20
+  * Round 14: Won against First A/G, Lexington, KY 125 to 100
+  * Round 15: Won against First A/G, Phoenix, AZ 205 to 60
+  * Round 16: Won against First A/G, Warner Robins, GA 170 to -15
+  * Round 17: Lost to Mountain View A/G, Las Vegas, NV 105 to 130
+  * Round 18: Won against Heights A/G, Billings, MT 200 to 5
+  * Round 19: Won against Radiant Church, Colorado Springs, CO 155 to 65
+  * Round 20: Won against Grace A/G, Syracuse, PA 90 to 80
+  * Round 21: Lost to Watford City A/G, Watford City, ND 70 to 105
+  * Round 22: Won against First A/G, Helena, MT 120 to 90
+  * Round 23: Won against Life Community Church, Sunnyvale, TX 205 to 120
 Playoff 1: Won against Shreveport, LA 115 to 70
 Playoff 2: Won against Waco, TX 155 to 80
 
 #### 2nd Place
 
-Church:	First A/G, Shreveport, LA
-Pastor:	Rodney Duron
-Coaches:	Tim Jacobs, Jackie Norcross
-Team:	Shelby Alfred
+* **Church**: First A/G, Shreveport, LA
+* **Pastor**: Rodney Duron
+* **Coaches**: Tim Jacobs, Jackie Norcross
+* **Team**:
+    * Shelby Alfred
 Jeremy DeLaCerda
 Jeremy Horn
 DeAndre Johnson
 David Skidmore
 * **Round Robin**:
-Round 1: Won against First A/G, Phoenix, AZ 170 to 150
-Round 2: Won against First A/G, Warner Robins, GA 175 to 80
-Round 3: Won against Central A/G, Springfield, MO 165 to 35
-Round 4: Lost to Heights A/G, Billings, MT 95 to 105
-Round 5: Won against Radiant Church, Colorado Springs, CO 95 to 40
-Round 6: Lost to Grace A/G, Syracuse, PA 135 to 195
-Round 7: Won against Watford City A/G, Watford City, ND 230 to -15
-Round 8: Lost to First A/G, Helena, MT 70 to 145
-Round 9: Won against Life Community Church, Sunnyvale, TX 155 to 25
-Round 10: Won against Calvary Temple, Auburn, WA 150 to 105
-Round 11: Won against Racine A/G, Racine, WI 155 to 55
-Round 12: Won against Mountain View A/G, Las Vegas, NV 195 to 85
-Round 13: Won against First A/G #2, Fort Myers, FL 190 to 45
-Round 14: Won against Allison Park A/G, Allison Park, PA 165 to 45
-Round 15: Won against Calvary A/G, Elkhart, IN 155 to 75
-Round 16: Won against Victorious Life Church, Waco, TX 170 to 160
-Round 17: Lost to First A/G, Oskaloosa, IA 160 to 175
-Round 18: Won against Alpha A/G, Clarion, PA 200 to 65
-Round 19: Won against First A/G #1, Fort Myers, FL 165 to 130
-Round 20: Won against Minier A/G, Minier, IL 205 to 45
-Round 21: Lost to Harvest A/G, Fort Worth, TX 90 to 180
-Round 22: Won against King's Chapel, Springfield, MO 125 to 25
-Round 23: Lost to First A/G, Lexington, KY 115 to 125
+  * Round 1: Won against First A/G, Phoenix, AZ 170 to 150
+  * Round 2: Won against First A/G, Warner Robins, GA 175 to 80
+  * Round 3: Won against Central A/G, Springfield, MO 165 to 35
+  * Round 4: Lost to Heights A/G, Billings, MT 95 to 105
+  * Round 5: Won against Radiant Church, Colorado Springs, CO 95 to 40
+  * Round 6: Lost to Grace A/G, Syracuse, PA 135 to 195
+  * Round 7: Won against Watford City A/G, Watford City, ND 230 to -15
+  * Round 8: Lost to First A/G, Helena, MT 70 to 145
+  * Round 9: Won against Life Community Church, Sunnyvale, TX 155 to 25
+  * Round 10: Won against Calvary Temple, Auburn, WA 150 to 105
+  * Round 11: Won against Racine A/G, Racine, WI 155 to 55
+  * Round 12: Won against Mountain View A/G, Las Vegas, NV 195 to 85
+  * Round 13: Won against First A/G #2, Fort Myers, FL 190 to 45
+  * Round 14: Won against Allison Park A/G, Allison Park, PA 165 to 45
+  * Round 15: Won against Calvary A/G, Elkhart, IN 155 to 75
+  * Round 16: Won against Victorious Life Church, Waco, TX 170 to 160
+  * Round 17: Lost to First A/G, Oskaloosa, IA 160 to 175
+  * Round 18: Won against Alpha A/G, Clarion, PA 200 to 65
+  * Round 19: Won against First A/G #1, Fort Myers, FL 165 to 130
+  * Round 20: Won against Minier A/G, Minier, IL 205 to 45
+  * Round 21: Lost to Harvest A/G, Fort Worth, TX 90 to 180
+  * Round 22: Won against King's Chapel, Springfield, MO 125 to 25
+  * Round 23: Lost to First A/G, Lexington, KY 115 to 125
 Playoff 1: Lost to Central A/G, Springfield, MO 70 to 115
 
 #### 3rd Place
 
-Church:	King's Chapel, Springfield, MO
-Pastor:	Phil Duncan
-Coaches:	Kevin Dawson, Dilla Dawson
-Team:	Thomas Chenault
+* **Church**: King's Chapel, Springfield, MO
+* **Pastor**: Phil Duncan
+* **Coaches**: Kevin Dawson, Dilla Dawson
+* **Team**:
+    * Thomas Chenault
 Eric Hernando
 Matthew Hernando
 Tonia Marie Lee
 * **Round Robin**:
-Round 1: Lost to Allison Park A/G, Allison Park, PA 30 to 165
-Round 2: Lost to Calvary A/G, Elkhart, IN 105 to 150
-Round 3: Lost to Victorious Life Church, Waco, TX 35 to 200
-Round 4: Lost to First A/G, Oskaloosa, IA 40 to 145
-Round 5: Lost to Alpha A/G, Clarion, PA 75 to 160
-Round 6: Lost to First A/G #1, Fort Myers, FL 80 to 125
-Round 7: Won against Minier A/G, Minier, IL 120 to 100
-Round 8: Won against Harvest A/G, Fort Worth, TX 85 to 60
-Round 9: Won against Mountain View A/G, Las Vegas, NV 135 to 30
-Round 10: Lost to First A/G, Lexington, KY 110 to 165
-Round 11: Won against First A/G, Phoenix, AZ 135 to 55
-Round 12: Won against First A/G, Warner Robins, GA 110 to 50
-Round 13: Lost to Central A/G, Springfield, MO -20 to 270
-Round 14: Won against Heights A/G, Billings, MT 100 to 85
-Round 15: Lost to Radiant Church, Colorado Springs, CO 80 to 145
-Round 16: Lost to Grace A/G, Syracuse, PA 70 to 170
-Round 17: Lost to Watford City A/G, Watford City, ND -60 to 165
-Round 18: Lost to First A/G, Helena, MT 85 to 155
-Round 19: Lost to Life Community Church, Sunnyvale, TX -35 to 295
-Round 20: Lost to Calvary Temple, Auburn, WA 40 to 165
-Round 21: Lost to Racine A/G, Racine, WI 25 to 170
-Round 22: Lost to First A/G, Shreveport, MO 25 to 125
-Round 23: Lost to First A/G #2, Fort Myers, FL 125 to 145
+  * Round 1: Lost to Allison Park A/G, Allison Park, PA 30 to 165
+  * Round 2: Lost to Calvary A/G, Elkhart, IN 105 to 150
+  * Round 3: Lost to Victorious Life Church, Waco, TX 35 to 200
+  * Round 4: Lost to First A/G, Oskaloosa, IA 40 to 145
+  * Round 5: Lost to Alpha A/G, Clarion, PA 75 to 160
+  * Round 6: Lost to First A/G #1, Fort Myers, FL 80 to 125
+  * Round 7: Won against Minier A/G, Minier, IL 120 to 100
+  * Round 8: Won against Harvest A/G, Fort Worth, TX 85 to 60
+  * Round 9: Won against Mountain View A/G, Las Vegas, NV 135 to 30
+  * Round 10: Lost to First A/G, Lexington, KY 110 to 165
+  * Round 11: Won against First A/G, Phoenix, AZ 135 to 55
+  * Round 12: Won against First A/G, Warner Robins, GA 110 to 50
+  * Round 13: Lost to Central A/G, Springfield, MO -20 to 270
+  * Round 14: Won against Heights A/G, Billings, MT 100 to 85
+  * Round 15: Lost to Radiant Church, Colorado Springs, CO 80 to 145
+  * Round 16: Lost to Grace A/G, Syracuse, PA 70 to 170
+  * Round 17: Lost to Watford City A/G, Watford City, ND -60 to 165
+  * Round 18: Lost to First A/G, Helena, MT 85 to 155
+  * Round 19: Lost to Life Community Church, Sunnyvale, TX -35 to 295
+  * Round 20: Lost to Calvary Temple, Auburn, WA 40 to 165
+  * Round 21: Lost to Racine A/G, Racine, WI 25 to 170
+  * Round 22: Lost to First A/G, Shreveport, MO 25 to 125
+  * Round 23: Lost to First A/G #2, Fort Myers, FL 125 to 145
 
 ### North Central Region
 
 #### 1st Place
 
-Church:	First A/G, Oskaloosa, IA
-Pastor:	Harold Schutte
-Coaches:	Charlotte Beyer, Susan Beaver
-Team:	Michelle S. Beaver
+* **Church**: First A/G, Oskaloosa, IA
+* **Pastor**: Harold Schutte
+* **Coaches**: Charlotte Beyer, Susan Beaver
+* **Team**:
+    * Michelle S. Beaver
 Krisha Beyer
 Jon Higgins
 * **Round Robin**:
-Round 1: Won against First A/G #1, Fort Myers, FL 135 to 115
-Round 2: Won against Minier A/G, Minier, IL 175 to 75
-Round 3: Won against Harvest A/G, Fort Worth, TX 165 to 135
-Round 4: Won against King's Chapel, Springfield, MO 145 to 40
-Round 5: Lost to First A/G, Lexington, KY 110 to 115
-Round 6: Lost to First A/G, Phoenix, AZ 20 to 165
-Round 7: Won against First A/G, Warner Robins, GA 230 to 40
-Round 8: Won against Central A/G, Springfield, MO 110 to 85
-Round 9: Lost to Heights A/G, Billings, MT 25 to 75
-Round 10: Won against Radiant Church, Colorado Springs, CO 195 to 165
-Round 11: Won against Grace A/G, Syracuse, PA 145 to 85
-Round 12: Lost to Watford City A/G, Watford City, ND 30 to 175
-Round 13: Lost to First A/G, Helena, MT 80 to 115
-Round 14: Lost to Life Community Church, Sunnyvale, TX 115 to 180
-Round 15: Lost to Calvary Temple, Auburn, WA 55 to 230
-Round 16: Won against Racine A/G, Racine, WI 155 to 125
-Round 17: Won against First A/G, Shreveport, MO 175 to 160
-Round 18: Won against First A/G #2, Fort Myers, FL 135 to 65
-Round 19: Lost to Allison Park A/G, Allison Park, PA 105 to 200
-Round 20: Won against Calvary A/G, Elkhart, IN 150 to 75
-Round 21: Won against Victorious Life Church, Waco, TX 170 to 140
-Round 22: Won against Mountain View A/G, Las Vegas, NV 105 to 100
-Round 23: Won against Alpha A/G, Clarion, PA 220 to 25
+  * Round 1: Won against First A/G #1, Fort Myers, FL 135 to 115
+  * Round 2: Won against Minier A/G, Minier, IL 175 to 75
+  * Round 3: Won against Harvest A/G, Fort Worth, TX 165 to 135
+  * Round 4: Won against King's Chapel, Springfield, MO 145 to 40
+  * Round 5: Lost to First A/G, Lexington, KY 110 to 115
+  * Round 6: Lost to First A/G, Phoenix, AZ 20 to 165
+  * Round 7: Won against First A/G, Warner Robins, GA 230 to 40
+  * Round 8: Won against Central A/G, Springfield, MO 110 to 85
+  * Round 9: Lost to Heights A/G, Billings, MT 25 to 75
+  * Round 10: Won against Radiant Church, Colorado Springs, CO 195 to 165
+  * Round 11: Won against Grace A/G, Syracuse, PA 145 to 85
+  * Round 12: Lost to Watford City A/G, Watford City, ND 30 to 175
+  * Round 13: Lost to First A/G, Helena, MT 80 to 115
+  * Round 14: Lost to Life Community Church, Sunnyvale, TX 115 to 180
+  * Round 15: Lost to Calvary Temple, Auburn, WA 55 to 230
+  * Round 16: Won against Racine A/G, Racine, WI 155 to 125
+  * Round 17: Won against First A/G, Shreveport, MO 175 to 160
+  * Round 18: Won against First A/G #2, Fort Myers, FL 135 to 65
+  * Round 19: Lost to Allison Park A/G, Allison Park, PA 105 to 200
+  * Round 20: Won against Calvary A/G, Elkhart, IN 150 to 75
+  * Round 21: Won against Victorious Life Church, Waco, TX 170 to 140
+  * Round 22: Won against Mountain View A/G, Las Vegas, NV 105 to 100
+  * Round 23: Won against Alpha A/G, Clarion, PA 220 to 25
 
 #### 2nd Place
 
-Church:	Assembly of God, Watford City, ND
-Pastor:	Terry Dettwiler
-Coaches:	Nancy Transtrom, Christina Kindel
-Team:	Sara Beth Borho
+* **Church**: Assembly of God, Watford City, ND
+* **Pastor**: Terry Dettwiler
+* **Coaches**: Nancy Transtrom, Christina Kindel
+* **Team**:
+    * Sara Beth Borho
 Kami Ecker
 Jeffrey Kindel
 Michael Kindel
 Jesse Lawrence
 Wallace Ragains
 * **Round Robin**:
-Round 1: Lost to Grace A/G, Syracuse, PA -30 to 235
-Round 2: Won against Mountain View A/G, Las Vegas, NV 135 to 45
-Round 3: Lost to First A/G, Helena, MT 0 to 215
-Round 4: Lost to Life Community Church, Sunnyvale, TX 30 to 230
-Round 5: Lost to Calvary Temple, Auburn, WA 40 to 150
-Round 6: Won against Racine A/G, Racine, WI 95 to 55
-Round 7: Lost to First A/G, Shreveport, MO -15 to 230
-Round 8: Won against First A/G #2, Fort Myers, FL 125 to 110
-Round 9: Lost to Allison Park A/G, Allison Park, PA -10 to 90
-Round 10: Lost to Calvary A/G, Elkhart, IN 15 to 240
-Round 11: Lost to Victorious Life Church, Waco, TX 55 to 145
-Round 12: Won against First A/G, Oskaloosa, IA 175 to 30
-Round 13: Lost to Alpha A/G, Clarion, PA 85 to 130
-Round 14: Lost to First A/G #1, Fort Myers, FL 0 to 130
-Round 15: Lost to Minier A/G, Minier, IL -15 to 130
-Round 16: Lost to Harvest A/G, Fort Worth, TX 50 to 90
-Round 17: Won against King's Chapel, Springfield, MO 165 to -60
-Round 18: Lost to First A/G, Lexington, KY 15 to 190
-Round 19: Lost to First A/G, Phoenix, AZ 95 to 165
-Round 20: Won against First A/G, Warner Robins, GA 130 to 20
-Round 21: Won against Central A/G, Springfield, MO 105 to 70
-Round 22: Won against Heights A/G, Billings, MT 85 to 15
-Round 23: Lost to Radiant Church, Colorado Springs, CO 35 to 155
+  * Round 1: Lost to Grace A/G, Syracuse, PA -30 to 235
+  * Round 2: Won against Mountain View A/G, Las Vegas, NV 135 to 45
+  * Round 3: Lost to First A/G, Helena, MT 0 to 215
+  * Round 4: Lost to Life Community Church, Sunnyvale, TX 30 to 230
+  * Round 5: Lost to Calvary Temple, Auburn, WA 40 to 150
+  * Round 6: Won against Racine A/G, Racine, WI 95 to 55
+  * Round 7: Lost to First A/G, Shreveport, MO -15 to 230
+  * Round 8: Won against First A/G #2, Fort Myers, FL 125 to 110
+  * Round 9: Lost to Allison Park A/G, Allison Park, PA -10 to 90
+  * Round 10: Lost to Calvary A/G, Elkhart, IN 15 to 240
+  * Round 11: Lost to Victorious Life Church, Waco, TX 55 to 145
+  * Round 12: Won against First A/G, Oskaloosa, IA 175 to 30
+  * Round 13: Lost to Alpha A/G, Clarion, PA 85 to 130
+  * Round 14: Lost to First A/G #1, Fort Myers, FL 0 to 130
+  * Round 15: Lost to Minier A/G, Minier, IL -15 to 130
+  * Round 16: Lost to Harvest A/G, Fort Worth, TX 50 to 90
+  * Round 17: Won against King's Chapel, Springfield, MO 165 to -60
+  * Round 18: Lost to First A/G, Lexington, KY 15 to 190
+  * Round 19: Lost to First A/G, Phoenix, AZ 95 to 165
+  * Round 20: Won against First A/G, Warner Robins, GA 130 to 20
+  * Round 21: Won against Central A/G, Springfield, MO 105 to 70
+  * Round 22: Won against Heights A/G, Billings, MT 85 to 15
+  * Round 23: Lost to Radiant Church, Colorado Springs, CO 35 to 155
 
 #### 3rd Place
 
-Church:	Racine A/G, Racine, WI
-Pastor:	Ronald Held
-Coaches:	Terry Sanders, Sally Poelman, Bev Hengemuhle
-Team:	Courtney Cobb
+* **Church**: Racine A/G, Racine, WI
+* **Pastor**: Ronald Held
+* **Coaches**: Terry Sanders, Sally Poelman, Bev Hengemuhle
+* **Team**:
+    * Courtney Cobb
 Mike Hengemuhle
 Todd Hengemuhle
 Andy Poelman
 Timothy Sanders
 * **Round Robin**:
-Round 1: Won against First A/G, Warner Robins, GA 110 to 100
-Round 2: Lost to Central A/G, Springfield, MO 20 to 195
-Round 3: Won against Heights A/G, Billings, MT 120 to 110
-Round 4: Won against Radiant Church, Colorado Springs, CO 115 to 0
-Round 5: Won against Grace A/G, Syracuse, PA 150 to 140
-Round 6: Lost to Watford City A/G, Watford City, ND 55 to 95
-Round 7: Lost to First A/G, Helena, MT 95 to 135
-Round 8: Won against Life Community Church, Sunnyvale, TX 100 to 75
-Round 9: Won against Calvary Temple, Auburn, WA 115 to 5
-Round 10: Won against Mountain View A/G, Las Vegas, NV 155 to 80
-Round 11: Lost to First A/G, Shreveport, MO 55 to 155
-Round 12: Won against First A/G #2, Fort Myers, FL 215 to 35
-Round 13: Lost to Allison Park A/G, Allison Park, PA 60 to 180
-Round 14: Won against Calvary A/G, Elkhart, IN 90 to 80
-Round 15: Lost to Victorious Life Church, Waco, TX 5 to 135
-Round 16: Lost to First A/G, Oskaloosa, IA 125 to 155
-Round 17: Lost to Alpha A/G, Clarion, PA 105 to 120
-Round 18: Won against First A/G #1, Fort Myers, FL 160 to 20
-Round 19: Won against Minier A/G, Minier, IL 195 to 80
-Round 20: Lost to Harvest A/G, Fort Worth, TX 85 to 165
-Round 21: Won against King's Chapel, Springfield, MO 170 to 25
-Round 22: Lost to First A/G, Lexington, KY 75 to 140
-Round 23: Lost to First A/G, Phoenix, AZ 10 to 190
+  * Round 1: Won against First A/G, Warner Robins, GA 110 to 100
+  * Round 2: Lost to Central A/G, Springfield, MO 20 to 195
+  * Round 3: Won against Heights A/G, Billings, MT 120 to 110
+  * Round 4: Won against Radiant Church, Colorado Springs, CO 115 to 0
+  * Round 5: Won against Grace A/G, Syracuse, PA 150 to 140
+  * Round 6: Lost to Watford City A/G, Watford City, ND 55 to 95
+  * Round 7: Lost to First A/G, Helena, MT 95 to 135
+  * Round 8: Won against Life Community Church, Sunnyvale, TX 100 to 75
+  * Round 9: Won against Calvary Temple, Auburn, WA 115 to 5
+  * Round 10: Won against Mountain View A/G, Las Vegas, NV 155 to 80
+  * Round 11: Lost to First A/G, Shreveport, MO 55 to 155
+  * Round 12: Won against First A/G #2, Fort Myers, FL 215 to 35
+  * Round 13: Lost to Allison Park A/G, Allison Park, PA 60 to 180
+  * Round 14: Won against Calvary A/G, Elkhart, IN 90 to 80
+  * Round 15: Lost to Victorious Life Church, Waco, TX 5 to 135
+  * Round 16: Lost to First A/G, Oskaloosa, IA 125 to 155
+  * Round 17: Lost to Alpha A/G, Clarion, PA 105 to 120
+  * Round 18: Won against First A/G #1, Fort Myers, FL 160 to 20
+  * Round 19: Won against Minier A/G, Minier, IL 195 to 80
+  * Round 20: Lost to Harvest A/G, Fort Worth, TX 85 to 165
+  * Round 21: Won against King's Chapel, Springfield, MO 170 to 25
+  * Round 22: Lost to First A/G, Lexington, KY 75 to 140
+  * Round 23: Lost to First A/G, Phoenix, AZ 10 to 190
 
 ### Northeast Region
 
 #### 1st Place
 
-Church:	Alpha A/G, Clarion, PA
-Pastor:	David Selleck
-Coaches:	Bill Burnworth, Connie Burnworth, Vicki Cooper
-Team:	Jaron Burnworth
+* **Church**: Alpha A/G, Clarion, PA
+* **Pastor**: David Selleck
+* **Coaches**: Bill Burnworth, Connie Burnworth, Vicki Cooper
+* **Team**:
+    * Jaron Burnworth
 Alissa Cooper
 Merinda Cooper
 Danielle Goheen
 * **Round Robin**:
-Round 1: Won against Mountain View A/G, Las Vegas, NV 195 to 75
-Round 2: Won against First A/G #1, Fort Myers, FL 90 to 80
-Round 3: Won against Minier A/G, Minier, IL 165 to 90
-Round 4: Won against Harvest A/G, Fort Worth, TX 185 to 75
-Round 5: Won against King's Chapel, Springfield, MO 160 to 75
-Round 6: Lost to First A/G, Lexington, KY 40 to 190
-Round 7: Lost to First A/G, Phoenix, AZ 60 to 195
-Round 8: Won against First A/G, Warner Robins, GA 215 to 15
-Round 9: Won against Central A/G, Springfield, MO 75 to 35
-Round 10: Won against Heights A/G, Billings, MT 155 to 25
-Round 11: Won against Radiant Church, Colorado Springs, CO 150 to 15
-Round 12: Lost to Grace A/G, Syracuse, PA 30 to 125
-Round 13: Won against Watford City A/G, Watford City, ND 130 to 85
-Round 14: Won against First A/G, Helena, MT 190 to 115
-Round 15: Lost to Life Community Church, Sunnyvale, TX 50 to 180
-Round 16: Lost to Calvary Temple, Auburn, WA 55 to 265
-Round 17: Won against Racine A/G, Racine, WI 120 to 105
-Round 18: Lost to First A/G, Shreveport, MO 65 to 200
-Round 19: Won against First A/G #2, Fort Myers, FL 220 to 5
-Round 20: Lost to Allison Park A/G, Allison Park, PA 90 to 195
-Round 21: Won against Calvary A/G, Elkhart, IN 170 to 40
-Round 22: Lost to Victorious Life Church, Waco, TX 100 to 190
-Round 23: Lost to First A/G, Oskaloosa, IA 25 to 220
+  * Round 1: Won against Mountain View A/G, Las Vegas, NV 195 to 75
+  * Round 2: Won against First A/G #1, Fort Myers, FL 90 to 80
+  * Round 3: Won against Minier A/G, Minier, IL 165 to 90
+  * Round 4: Won against Harvest A/G, Fort Worth, TX 185 to 75
+  * Round 5: Won against King's Chapel, Springfield, MO 160 to 75
+  * Round 6: Lost to First A/G, Lexington, KY 40 to 190
+  * Round 7: Lost to First A/G, Phoenix, AZ 60 to 195
+  * Round 8: Won against First A/G, Warner Robins, GA 215 to 15
+  * Round 9: Won against Central A/G, Springfield, MO 75 to 35
+  * Round 10: Won against Heights A/G, Billings, MT 155 to 25
+  * Round 11: Won against Radiant Church, Colorado Springs, CO 150 to 15
+  * Round 12: Lost to Grace A/G, Syracuse, PA 30 to 125
+  * Round 13: Won against Watford City A/G, Watford City, ND 130 to 85
+  * Round 14: Won against First A/G, Helena, MT 190 to 115
+  * Round 15: Lost to Life Community Church, Sunnyvale, TX 50 to 180
+  * Round 16: Lost to Calvary Temple, Auburn, WA 55 to 265
+  * Round 17: Won against Racine A/G, Racine, WI 120 to 105
+  * Round 18: Lost to First A/G, Shreveport, MO 65 to 200
+  * Round 19: Won against First A/G #2, Fort Myers, FL 220 to 5
+  * Round 20: Lost to Allison Park A/G, Allison Park, PA 90 to 195
+  * Round 21: Won against Calvary A/G, Elkhart, IN 170 to 40
+  * Round 22: Lost to Victorious Life Church, Waco, TX 100 to 190
+  * Round 23: Lost to First A/G, Oskaloosa, IA 25 to 220
 
 #### 2nd Place
 
-Church:	Allison Park A/G, Allison Park, PA
-Pastor:	Jeff Leake
-Coach:	John Porter
-Team:	James Fenton
+* **Church**: Allison Park A/G, Allison Park, PA
+* **Pastor**: Jeff Leake
+* **Coach**: John Porter
+* **Team**:
+    * James Fenton
 Tiffany Kuhn
 Jason Martin
 Jennifer Shim
 Sean Winter
 [name omitted]
 * **Round Robin**:
-Round 1: Won against King's Chapel, Springfield, MO 165 to 30
-Round 2: Lost to First A/G, Lexington, KY 110 to 135
-Round 3: Lost to First A/G, Phoenix, AZ 105 to 145
-Round 4: Won against First A/G, Warner Robins, GA 165 to 95
-Round 5: Lost to Central A/G, Springfield, MO 135 to 180
-Round 6: Won against Heights A/G, Billings, MT 240 to 0
-Round 7: Won against Radiant Church, Colorado Springs, CO 205 to 20
-Round 8: Won against Grace A/G, Syracuse, PA 120 to 75
-Round 9: Won against Watford City A/G, Watford City, ND 90 to -10
-Round 10: Won against First A/G, Helena, MT 195 to 55
-Round 11: Lost to Life Community Church, Sunnyvale, TX 85 to 180
-Round 12: Won against Calvary Temple, Auburn, WA 160 to 75
-Round 13: Won against Racine A/G, Racine, WI 180 to 60
-Round 14: Lost to First A/G, Shreveport, MO 45 to 165
-Round 15: Won against First A/G #2, Fort Myers, FL 195 to 30
-Round 16: Won against Mountain View A/G, Las Vegas, NV 140 to 90
-Round 17: Won against Calvary A/G, Elkhart, IN 140 to 105
-Round 18: Lost to Victorious Life Church, Waco, TX 100 to 135
-Round 19: Won against First A/G, Oskaloosa, IA 200 to 105
-Round 20: Won against Alpha A/G, Clarion, PA 195 to 90
-Round 21: Lost to First A/G #1, Fort Myers, FL 70 to 165
-Round 22: Won against Minier A/G, Minier, IL 225 to 30
-Round 23: Won against Harvest A/G, Fort Worth, TX 110 to 50
+  * Round 1: Won against King's Chapel, Springfield, MO 165 to 30
+  * Round 2: Lost to First A/G, Lexington, KY 110 to 135
+  * Round 3: Lost to First A/G, Phoenix, AZ 105 to 145
+  * Round 4: Won against First A/G, Warner Robins, GA 165 to 95
+  * Round 5: Lost to Central A/G, Springfield, MO 135 to 180
+  * Round 6: Won against Heights A/G, Billings, MT 240 to 0
+  * Round 7: Won against Radiant Church, Colorado Springs, CO 205 to 20
+  * Round 8: Won against Grace A/G, Syracuse, PA 120 to 75
+  * Round 9: Won against Watford City A/G, Watford City, ND 90 to -10
+  * Round 10: Won against First A/G, Helena, MT 195 to 55
+  * Round 11: Lost to Life Community Church, Sunnyvale, TX 85 to 180
+  * Round 12: Won against Calvary Temple, Auburn, WA 160 to 75
+  * Round 13: Won against Racine A/G, Racine, WI 180 to 60
+  * Round 14: Lost to First A/G, Shreveport, MO 45 to 165
+  * Round 15: Won against First A/G #2, Fort Myers, FL 195 to 30
+  * Round 16: Won against Mountain View A/G, Las Vegas, NV 140 to 90
+  * Round 17: Won against Calvary A/G, Elkhart, IN 140 to 105
+  * Round 18: Lost to Victorious Life Church, Waco, TX 100 to 135
+  * Round 19: Won against First A/G, Oskaloosa, IA 200 to 105
+  * Round 20: Won against Alpha A/G, Clarion, PA 195 to 90
+  * Round 21: Lost to First A/G #1, Fort Myers, FL 70 to 165
+  * Round 22: Won against Minier A/G, Minier, IL 225 to 30
+  * Round 23: Won against Harvest A/G, Fort Worth, TX 110 to 50
 
 #### 3rd Place
 
-Church:	Grace A/G, Syracuse, NY
-Pastor:	Charles Semple
-Coaches:	Mary Daigle, Jackie Nardozzi
-Team:	Michael Bolognone
+* **Church**: Grace A/G, Syracuse, NY
+* **Pastor**: Charles Semple
+* **Coaches**: Mary Daigle, Jackie Nardozzi
+* **Team**:
+    * Michael Bolognone
 Tika Daigle
 Stan Hardter
 Dan McLaughlin
 * **Round Robin**:
-Round 1: Won against Watford City A/G, Watford City, ND 235 to -30
-Round 2: Lost to First A/G, Helena, MT 135 to 140
-Round 3: Won against Life Community Church, Sunnyvale, TX 175 to 135
-Round 4: Lost to Calvary Temple, Auburn, WA 110 to 200
-Round 5: Lost to Racine A/G, Racine, WI 140 to 150
-Round 6: Won against First A/G, Shreveport, MO 195 to 135
-Round 7: Won against First A/G #2, Fort Myers, FL 240 to 10
-Round 8: Lost to Allison Park A/G, Allison Park, PA 75 to 120
-Round 9: Won against Calvary A/G, Elkhart, IN 100 to 30
-Round 10: Won against Victorious Life Church, Waco, TX 145 to 100
-Round 11: Lost to First A/G, Oskaloosa, IA 85 to 145
-Round 12: Won against Alpha A/G, Clarion, PA 125 to 30
-Round 13: Lost to First A/G #1, Fort Myers, FL 100 to 175
-Round 14: Won against Minier A/G, Minier, IL 245 to 5
-Round 15: Lost to Harvest A/G, Fort Worth, TX 130 to 145
-Round 16: Won against King's Chapel, Springfield, MO 170 to 70
-Round 17: Lost to First A/G, Lexington, KY 100 to 115
-Round 18: Lost to First A/G, Phoenix, AZ 90 to 125
-Round 19: Won against First A/G, Warner Robins, GA 235 to 35
-Round 20: Lost to Central A/G, Springfield, MO 80 to 90
-Round 21: Won against Heights A/G, Billings, MT 145 to 140
-Round 22: Won against Radiant Church, Colorado Springs, CO 165 to 75
-Round 23: Won against Mountain View A/G, Las Vegas, NV 170 to 125
+  * Round 1: Won against Watford City A/G, Watford City, ND 235 to -30
+  * Round 2: Lost to First A/G, Helena, MT 135 to 140
+  * Round 3: Won against Life Community Church, Sunnyvale, TX 175 to 135
+  * Round 4: Lost to Calvary Temple, Auburn, WA 110 to 200
+  * Round 5: Lost to Racine A/G, Racine, WI 140 to 150
+  * Round 6: Won against First A/G, Shreveport, MO 195 to 135
+  * Round 7: Won against First A/G #2, Fort Myers, FL 240 to 10
+  * Round 8: Lost to Allison Park A/G, Allison Park, PA 75 to 120
+  * Round 9: Won against Calvary A/G, Elkhart, IN 100 to 30
+  * Round 10: Won against Victorious Life Church, Waco, TX 145 to 100
+  * Round 11: Lost to First A/G, Oskaloosa, IA 85 to 145
+  * Round 12: Won against Alpha A/G, Clarion, PA 125 to 30
+  * Round 13: Lost to First A/G #1, Fort Myers, FL 100 to 175
+  * Round 14: Won against Minier A/G, Minier, IL 245 to 5
+  * Round 15: Lost to Harvest A/G, Fort Worth, TX 130 to 145
+  * Round 16: Won against King's Chapel, Springfield, MO 170 to 70
+  * Round 17: Lost to First A/G, Lexington, KY 100 to 115
+  * Round 18: Lost to First A/G, Phoenix, AZ 90 to 125
+  * Round 19: Won against First A/G, Warner Robins, GA 235 to 35
+  * Round 20: Lost to Central A/G, Springfield, MO 80 to 90
+  * Round 21: Won against Heights A/G, Billings, MT 145 to 140
+  * Round 22: Won against Radiant Church, Colorado Springs, CO 165 to 75
+  * Round 23: Won against Mountain View A/G, Las Vegas, NV 170 to 125
 
 ### Northwest Region
 
 #### 1st Place
 
-Church:	Calvary Temple, Auburn, WA
-Pastor:	James Filbeck
-Coaches:	Ted Barrans, Tami Barrans, Ross Rogers
-Team:	Amie Haugland
+* **Church**: Calvary Temple, Auburn, WA
+* **Pastor**: James Filbeck
+* **Coaches**: Ted Barrans, Tami Barrans, Ross Rogers
+* **Team**:
+    * Amie Haugland
 Kjirstin Haugland
 Nathan Novak
 Steve Patient
 Rudy Pierce
 * **Round Robin**:
-Round 1: Lost to Central A/G, Springfield, MO 75 to 160
-Round 2: Won against Heights A/G, Billings, MT 135 to 85
-Round 3: Won against Radiant Church, Colorado Springs, CO 170 to 115
-Round 4: Won against Grace A/G, Syracuse, PA 200 to 110
-Round 5: Won against Watford City A/G, Watford City, ND 150 to 40
-Round 6: Won against First A/G, Helena, MT 205 to -10
-Round 7: Lost to Life Community Church, Sunnyvale, TX 100 to 125
-Round 8: Won against Mountain View A/G, Las Vegas, NV 245 to 5
-Round 9: Lost to Racine A/G, Racine, WI 5 to 115
-Round 10: Lost to First A/G, Shreveport, MO 105 to 150
-Round 11: Won against First A/G #2, Fort Myers, FL 240 to 50
-Round 12: Lost to Allison Park A/G, Allison Park, PA 75 to 160
-Round 13: Lost to Calvary A/G, Elkhart, IN 140 to 160
-Round 14: Lost to Victorious Life Church, Waco, TX 85 to 140
-Round 15: Won against First A/G, Oskaloosa, IA 230 to 55
-Round 16: Won against Alpha A/G, Clarion, PA 265 to 55
-Round 17: Lost to First A/G #1, Fort Myers, FL 170 to 200
-Round 18: Won against Minier A/G, Minier, IL 235 to 70
-Round 19: Won against Harvest A/G, Fort Worth, TX 165 to 100
-Round 20: Won against King's Chapel, Springfield, MO 165 to 40
-Round 21: Won against First A/G, Lexington, KY 175 to 85
-Round 22: Lost to First A/G, Phoenix, AZ 50 to 95
-Round 23: Won against First A/G, Warner Robins, GA 205 to 80
+  * Round 1: Lost to Central A/G, Springfield, MO 75 to 160
+  * Round 2: Won against Heights A/G, Billings, MT 135 to 85
+  * Round 3: Won against Radiant Church, Colorado Springs, CO 170 to 115
+  * Round 4: Won against Grace A/G, Syracuse, PA 200 to 110
+  * Round 5: Won against Watford City A/G, Watford City, ND 150 to 40
+  * Round 6: Won against First A/G, Helena, MT 205 to -10
+  * Round 7: Lost to Life Community Church, Sunnyvale, TX 100 to 125
+  * Round 8: Won against Mountain View A/G, Las Vegas, NV 245 to 5
+  * Round 9: Lost to Racine A/G, Racine, WI 5 to 115
+  * Round 10: Lost to First A/G, Shreveport, MO 105 to 150
+  * Round 11: Won against First A/G #2, Fort Myers, FL 240 to 50
+  * Round 12: Lost to Allison Park A/G, Allison Park, PA 75 to 160
+  * Round 13: Lost to Calvary A/G, Elkhart, IN 140 to 160
+  * Round 14: Lost to Victorious Life Church, Waco, TX 85 to 140
+  * Round 15: Won against First A/G, Oskaloosa, IA 230 to 55
+  * Round 16: Won against Alpha A/G, Clarion, PA 265 to 55
+  * Round 17: Lost to First A/G #1, Fort Myers, FL 170 to 200
+  * Round 18: Won against Minier A/G, Minier, IL 235 to 70
+  * Round 19: Won against Harvest A/G, Fort Worth, TX 165 to 100
+  * Round 20: Won against King's Chapel, Springfield, MO 165 to 40
+  * Round 21: Won against First A/G, Lexington, KY 175 to 85
+  * Round 22: Lost to First A/G, Phoenix, AZ 50 to 95
+  * Round 23: Won against First A/G, Warner Robins, GA 205 to 80
 
 #### 2nd Place
 
-Church:	Heights A/G, Billings, MT
-Pastor:	Clint Compton
-Coaches:	Cathy Thaut, Sunetta Ellwein
-Team:	Brent Ellwein
+* **Church**: Heights A/G, Billings, MT
+* **Pastor**: Clint Compton
+* **Coaches**: Cathy Thaut, Sunetta Ellwein
+* **Team**:
+    * Brent Ellwein
 Katie McCleary
 Laura Thaut
 * **Round Robin**:
-Round 1: Lost to Life Community Church, Sunnyvale, TX 25 to 245
-Round 2: Lost to Calvary Temple, Auburn, WA 85 to 135
-Round 3: Lost to Racine A/G, Racine, WI 110 to 120
-Round 4: Won against First A/G, Shreveport, MO 105 to 95
-Round 5: Won against First A/G #2, Fort Myers, FL 220 to 95
-Round 6: Lost to Allison Park A/G, Allison Park, PA 0 to 240
-Round 7: Lost to Calvary A/G, Elkhart, IN 25 to 125
-Round 8: Lost to Victorious Life Church, Waco, TX 35 to 120
-Round 9: Won against First A/G, Oskaloosa, IA 75 to 25
-Round 10: Lost to Alpha A/G, Clarion, PA 25 to 155
-Round 11: Lost to First A/G #1, Fort Myers, FL 85 to 170
-Round 12: Lost to Minier A/G, Minier, IL 105 to 155
-Round 13: Lost to Harvest A/G, Fort Worth, TX 15 to 100
-Round 14: Lost to King's Chapel, Springfield, MO 85 to 100
-Round 15: Lost to First A/G, Lexington, KY 85 to 135
-Round 16: Lost to First A/G, Phoenix, AZ 95 to 160
-Round 17: Won against First A/G, Warner Robins, GA 80 to -5
-Round 18: Lost to Central A/G, Springfield, MO 5 to 200
-Round 19: Won against Mountain View A/G, Las Vegas, NV 115 to 55
-Round 20: Lost to Radiant Church, Colorado Springs, CO 50 to 225
-Round 21: Lost to Grace A/G, Syracuse, PA 140 to 145
-Round 22: Lost to Watford City A/G, Watford City, ND 15 to 85
-Round 23: Won against First A/G, Helena, MT 155 to 65
+  * Round 1: Lost to Life Community Church, Sunnyvale, TX 25 to 245
+  * Round 2: Lost to Calvary Temple, Auburn, WA 85 to 135
+  * Round 3: Lost to Racine A/G, Racine, WI 110 to 120
+  * Round 4: Won against First A/G, Shreveport, MO 105 to 95
+  * Round 5: Won against First A/G #2, Fort Myers, FL 220 to 95
+  * Round 6: Lost to Allison Park A/G, Allison Park, PA 0 to 240
+  * Round 7: Lost to Calvary A/G, Elkhart, IN 25 to 125
+  * Round 8: Lost to Victorious Life Church, Waco, TX 35 to 120
+  * Round 9: Won against First A/G, Oskaloosa, IA 75 to 25
+  * Round 10: Lost to Alpha A/G, Clarion, PA 25 to 155
+  * Round 11: Lost to First A/G #1, Fort Myers, FL 85 to 170
+  * Round 12: Lost to Minier A/G, Minier, IL 105 to 155
+  * Round 13: Lost to Harvest A/G, Fort Worth, TX 15 to 100
+  * Round 14: Lost to King's Chapel, Springfield, MO 85 to 100
+  * Round 15: Lost to First A/G, Lexington, KY 85 to 135
+  * Round 16: Lost to First A/G, Phoenix, AZ 95 to 160
+  * Round 17: Won against First A/G, Warner Robins, GA 80 to -5
+  * Round 18: Lost to Central A/G, Springfield, MO 5 to 200
+  * Round 19: Won against Mountain View A/G, Las Vegas, NV 115 to 55
+  * Round 20: Lost to Radiant Church, Colorado Springs, CO 50 to 225
+  * Round 21: Lost to Grace A/G, Syracuse, PA 140 to 145
+  * Round 22: Lost to Watford City A/G, Watford City, ND 15 to 85
+  * Round 23: Won against First A/G, Helena, MT 155 to 65
 
 #### 3rd Place
 
-Church:	First A/G, Helena, MT
-Team:	Shaun McFadden
+* **Church**: First A/G, Helena, MT
+* **Team**:
+    * Shaun McFadden
 Adam Bennison
 Laurel Phillips
 * **Round Robin**:
-Round 1: Lost to Radiant Church, Colorado Springs, CO 110 to 160
-Round 2: Won against Grace A/G, Syracuse, PA 140 to 135
-Round 3: Won against Watford City A/G, Watford City, ND 215 to 0
-Round 4: Won against Mountain View A/G, Las Vegas, NV 155 to 130
-Round 5: Lost to Life Community Church, Sunnyvale, TX 5 to 180
-Round 6: Lost to Calvary Temple, Auburn, WA -10 to 205
-Round 7: Won against Racine A/G, Racine, WI 135 to 95
-Round 8: Won against First A/G, Shreveport, MO 145 to 70
-Round 9: Won against First A/G #2, Fort Myers, FL 95 to 25
-Round 10: Lost to Allison Park A/G, Allison Park, PA 55 to 195
-Round 11: Lost to Calvary A/G, Elkhart, IN 115 to 135
-Round 12: Lost to Victorious Life Church, Waco, TX 115 to 150
-Round 13: Won against First A/G, Oskaloosa, IA 115 to 80
-Round 14: Lost to Alpha A/G, Clarion, PA 115 to 190
-Round 15: Won against First A/G #1, Fort Myers, FL 140 to 20
-Round 16: Won against Minier A/G, Minier, IL 115 to 95
-Round 17: Won against Harvest A/G, Fort Worth, TX 165 to 70
-Round 18: Won against King's Chapel, Springfield, MO 155 to 85
-Round 19: Won against First A/G, Lexington, KY 170 to 105
-Round 20: Lost to First A/G, Phoenix, AZ -5 to 195
-Round 21: Won against First A/G, Warner Robins, GA 110 to 95
-Round 22: Lost to Central A/G, Springfield, MO 90 to 120
-Round 23: Lost to Heights A/G, Billings, MT 65 to 155
+  * Round 1: Lost to Radiant Church, Colorado Springs, CO 110 to 160
+  * Round 2: Won against Grace A/G, Syracuse, PA 140 to 135
+  * Round 3: Won against Watford City A/G, Watford City, ND 215 to 0
+  * Round 4: Won against Mountain View A/G, Las Vegas, NV 155 to 130
+  * Round 5: Lost to Life Community Church, Sunnyvale, TX 5 to 180
+  * Round 6: Lost to Calvary Temple, Auburn, WA -10 to 205
+  * Round 7: Won against Racine A/G, Racine, WI 135 to 95
+  * Round 8: Won against First A/G, Shreveport, MO 145 to 70
+  * Round 9: Won against First A/G #2, Fort Myers, FL 95 to 25
+  * Round 10: Lost to Allison Park A/G, Allison Park, PA 55 to 195
+  * Round 11: Lost to Calvary A/G, Elkhart, IN 115 to 135
+  * Round 12: Lost to Victorious Life Church, Waco, TX 115 to 150
+  * Round 13: Won against First A/G, Oskaloosa, IA 115 to 80
+  * Round 14: Lost to Alpha A/G, Clarion, PA 115 to 190
+  * Round 15: Won against First A/G #1, Fort Myers, FL 140 to 20
+  * Round 16: Won against Minier A/G, Minier, IL 115 to 95
+  * Round 17: Won against Harvest A/G, Fort Worth, TX 165 to 70
+  * Round 18: Won against King's Chapel, Springfield, MO 155 to 85
+  * Round 19: Won against First A/G, Lexington, KY 170 to 105
+  * Round 20: Lost to First A/G, Phoenix, AZ -5 to 195
+  * Round 21: Won against First A/G, Warner Robins, GA 110 to 95
+  * Round 22: Lost to Central A/G, Springfield, MO 90 to 120
+  * Round 23: Lost to Heights A/G, Billings, MT 65 to 155
 
 ### South Central Region
 
 #### 1st Place
 
-Church:	Harvest A/G, Fort Worth, TX
-Pastor:	Dale Shorter
-Coach:	Gilda Shorter
-Team:	Jennifer Martin
+* **Church**: Harvest A/G, Fort Worth, TX
+* **Pastor**: Dale Shorter
+* **Coach**: Gilda Shorter
+* **Team**:
+    * Jennifer Martin
 Kuntyi Samqui
 Dayla Shorter
 Christy Winner
 * **Round Robin**:
-Round 1: Won against Calvary A/G, Elkhart, IN 85 to 80
-Round 2: Lost to Victorious Life Church, Waco, TX 60 to 180
-Round 3: Lost to First A/G, Oskaloosa, IA 135 to 165
-Round 4: Lost to Alpha A/G, Clarion, PA 75 to 185
-Round 5: Lost to First A/G #1, Fort Myers, FL 105 to 150
-Round 6: Won against Minier A/G, Minier, IL 150 to 90
-Round 7: Lost to Mountain View A/G, Las Vegas, NV 65 to 175
-Round 8: Lost to King's Chapel, Springfield, MO 60 to 85
-Round 9: Lost to First A/G, Lexington, KY 35 to 170
-Round 10: Lost to First A/G, Phoenix, AZ 20 to 185
-Round 11: Lost to First A/G, Warner Robins, GA 95 to 105
-Round 12: Lost to Central A/G, Springfield, MO -15 to 255
-Round 13: Won against Heights A/G, Billings, MT 100 to 15
-Round 14: Won against Radiant Church, Colorado Springs, CO 95 to 70
-Round 15: Won against Grace A/G, Syracuse, PA 145 to 130
-Round 16: Won against Watford City A/G, Watford City, ND 90 to 50
-Round 17: Lost to First A/G, Helena, MT 70 to 165
-Round 18: Won against Life Community Church, Sunnyvale, TX 120 to 110
-Round 19: Lost to Calvary Temple, Auburn, WA 100 to 165
-Round 20: Won against Racine A/G, Racine, WI 165 to 85
-Round 21: Won against First A/G, Shreveport, MO 180 to 90
-Round 22: Won against First A/G #2, Fort Myers, FL 195 to 80
-Round 23: Lost to Allison Park A/G, Allison Park, PA 50 to 110
+  * Round 1: Won against Calvary A/G, Elkhart, IN 85 to 80
+  * Round 2: Lost to Victorious Life Church, Waco, TX 60 to 180
+  * Round 3: Lost to First A/G, Oskaloosa, IA 135 to 165
+  * Round 4: Lost to Alpha A/G, Clarion, PA 75 to 185
+  * Round 5: Lost to First A/G #1, Fort Myers, FL 105 to 150
+  * Round 6: Won against Minier A/G, Minier, IL 150 to 90
+  * Round 7: Lost to Mountain View A/G, Las Vegas, NV 65 to 175
+  * Round 8: Lost to King's Chapel, Springfield, MO 60 to 85
+  * Round 9: Lost to First A/G, Lexington, KY 35 to 170
+  * Round 10: Lost to First A/G, Phoenix, AZ 20 to 185
+  * Round 11: Lost to First A/G, Warner Robins, GA 95 to 105
+  * Round 12: Lost to Central A/G, Springfield, MO -15 to 255
+  * Round 13: Won against Heights A/G, Billings, MT 100 to 15
+  * Round 14: Won against Radiant Church, Colorado Springs, CO 95 to 70
+  * Round 15: Won against Grace A/G, Syracuse, PA 145 to 130
+  * Round 16: Won against Watford City A/G, Watford City, ND 90 to 50
+  * Round 17: Lost to First A/G, Helena, MT 70 to 165
+  * Round 18: Won against Life Community Church, Sunnyvale, TX 120 to 110
+  * Round 19: Lost to Calvary Temple, Auburn, WA 100 to 165
+  * Round 20: Won against Racine A/G, Racine, WI 165 to 85
+  * Round 21: Won against First A/G, Shreveport, MO 180 to 90
+  * Round 22: Won against First A/G #2, Fort Myers, FL 195 to 80
+  * Round 23: Lost to Allison Park A/G, Allison Park, PA 50 to 110
 
 #### 2nd Place
 
-Church:	Victorious Life, Waco, TX
-Pastor:	Vaughn Peak
-Coach:	Dolores Rogers
-Team:	Seth Edwards
+* **Church**: Victorious Life, Waco, TX
+* **Pastor**: Vaughn Peak
+* **Coach**: Dolores Rogers
+* **Team**:
+    * Seth Edwards
 Melanie Raines
 Kyle Rogers
 Shelly Rogers
 David Trower
 Darla Wickert
 * **Round Robin**:
-Round 1: Won against Minier A/G, Minier, IL 210 to 45
-Round 2: Won against Harvest A/G, Fort Worth, TX 180 to 60
-Round 3: Won against King's Chapel, Springfield, MO 200 to 35
-Round 4: Lost to First A/G, Lexington, KY 0 to 180
-Round 5: Won against First A/G, Phoenix, AZ 170 to 100
-Round 6: Won against First A/G, Warner Robins, GA 235 to 95
-Round 7: Won against Central A/G, Springfield, MO 135 to 95
-Round 8: Won against Heights A/G, Billings, MT 120 to 35
-Round 9: Won against Radiant Church, Colorado Springs, CO 50 to 45
-Round 10: Lost to Grace A/G, Syracuse, PA 100 to 145
-Round 11: Won against Watford City A/G, Watford City, ND 145 to 55
-Round 12: Won against First A/G, Helena, MT 150 to 115
-Round 13: Lost to Life Community Church, Sunnyvale, TX -5 to 195
-Round 14: Won against Calvary Temple, Auburn, WA 140 to 85
-Round 15: Won against Racine A/G, Racine, WI 135 to 5
-Round 16: Lost to First A/G, Shreveport, MO 160 to 170
-Round 17: Won against First A/G #2, Fort Myers, FL 180 to -5
-Round 18: Won against Allison Park A/G, Allison Park, PA 135 to 100
-Round 19: Won against Calvary A/G, Elkhart, IN 185 to 10
-Round 20: Lost to Mountain View A/G, Las Vegas, NV 40 to 170
-Round 21: Lost to First A/G, Oskaloosa, IA 140 to 170
-Round 22: Won against Alpha A/G, Clarion, PA 190 to 100
-Round 23: Won against First A/G #1, Fort Myers, FL 145 to 100
+  * Round 1: Won against Minier A/G, Minier, IL 210 to 45
+  * Round 2: Won against Harvest A/G, Fort Worth, TX 180 to 60
+  * Round 3: Won against King's Chapel, Springfield, MO 200 to 35
+  * Round 4: Lost to First A/G, Lexington, KY 0 to 180
+  * Round 5: Won against First A/G, Phoenix, AZ 170 to 100
+  * Round 6: Won against First A/G, Warner Robins, GA 235 to 95
+  * Round 7: Won against Central A/G, Springfield, MO 135 to 95
+  * Round 8: Won against Heights A/G, Billings, MT 120 to 35
+  * Round 9: Won against Radiant Church, Colorado Springs, CO 50 to 45
+  * Round 10: Lost to Grace A/G, Syracuse, PA 100 to 145
+  * Round 11: Won against Watford City A/G, Watford City, ND 145 to 55
+  * Round 12: Won against First A/G, Helena, MT 150 to 115
+  * Round 13: Lost to Life Community Church, Sunnyvale, TX -5 to 195
+  * Round 14: Won against Calvary Temple, Auburn, WA 140 to 85
+  * Round 15: Won against Racine A/G, Racine, WI 135 to 5
+  * Round 16: Lost to First A/G, Shreveport, MO 160 to 170
+  * Round 17: Won against First A/G #2, Fort Myers, FL 180 to -5
+  * Round 18: Won against Allison Park A/G, Allison Park, PA 135 to 100
+  * Round 19: Won against Calvary A/G, Elkhart, IN 185 to 10
+  * Round 20: Lost to Mountain View A/G, Las Vegas, NV 40 to 170
+  * Round 21: Lost to First A/G, Oskaloosa, IA 140 to 170
+  * Round 22: Won against Alpha A/G, Clarion, PA 190 to 100
+  * Round 23: Won against First A/G #1, Fort Myers, FL 145 to 100
 Playoff 1: Won against Life Community Church, Sunnyvale, TX 175 to 140
 Playoff 2: Lost to Central A/G, Springfield, MO, 80 to 155
 
 #### 3rd Place
 
-Church:	Life Community Church, Sunnyvale, TX
-Pastor:	Randy Huett
-Coaches:	Grace Tribble, Rick Piacenti
-Team:	Chris Moyer
+* **Church**: Life Community Church, Sunnyvale, TX
+* **Pastor**: Randy Huett
+* **Coaches**: Grace Tribble, Rick Piacenti
+* **Team**:
+    * Chris Moyer
 Eric Peters
 Kathleen Peters
 Kent Piacenti
 * **Round Robin**:
-Round 1: Won against Heights A/G, Billings, MT 245 to 25
-Round 2: Lost to Radiant Church, Colorado Springs, CO 120 to 155
-Round 3: Lost to Grace A/G, Syracuse, PA 135 to 175
-Round 4: Won against Watford City A/G, Watford City, ND 230 to 30
-Round 5: Won against First A/G, Helena, MT 180 to 5
-Round 6: Won against Mountain View A/G, Las Vegas, NV 255 to 85
-Round 7: Won against Calvary Temple, Auburn, WA 125 to 100
-Round 8: Lost to Racine A/G, Racine, WI 75 to 100
-Round 9: Lost to First A/G, Shreveport, MO 25 to 155
-Round 10: Won against First A/G #2, Fort Myers, FL 220 to 90
-Round 11: Won against Allison Park A/G, Allison Park, PA 180 to 85
-Round 12: Won against Calvary A/G, Elkhart, IN 170 to 115
-Round 13: Won against Victorious Life Church, Waco, TX 195 to -5
-Round 14: Won against First A/G, Oskaloosa, IA 180 to 115
-Round 15: Won against Alpha A/G, Clarion, PA 180 to 50
-Round 16: Won against First A/G #1, Fort Myers, FL 235 to 40
-Round 17: Won against Minier A/G, Minier, IL 250 to 45
-Round 18: Lost to Harvest A/G, Fort Worth, TX 110 to 120
-Round 19: Won against King's Chapel, Springfield, MO 295 to -35
-Round 20: Won against First A/G, Lexington, KY 140 to 115
-Round 21: Won against First A/G, Phoenix, AZ 205 to 35
-Round 22: Won against First A/G, Warner Robins, GA 185 to 80
-Round 23: Lost to Central A/G, Springfield, MO 120 to 205
+  * Round 1: Won against Heights A/G, Billings, MT 245 to 25
+  * Round 2: Lost to Radiant Church, Colorado Springs, CO 120 to 155
+  * Round 3: Lost to Grace A/G, Syracuse, PA 135 to 175
+  * Round 4: Won against Watford City A/G, Watford City, ND 230 to 30
+  * Round 5: Won against First A/G, Helena, MT 180 to 5
+  * Round 6: Won against Mountain View A/G, Las Vegas, NV 255 to 85
+  * Round 7: Won against Calvary Temple, Auburn, WA 125 to 100
+  * Round 8: Lost to Racine A/G, Racine, WI 75 to 100
+  * Round 9: Lost to First A/G, Shreveport, MO 25 to 155
+  * Round 10: Won against First A/G #2, Fort Myers, FL 220 to 90
+  * Round 11: Won against Allison Park A/G, Allison Park, PA 180 to 85
+  * Round 12: Won against Calvary A/G, Elkhart, IN 170 to 115
+  * Round 13: Won against Victorious Life Church, Waco, TX 195 to -5
+  * Round 14: Won against First A/G, Oskaloosa, IA 180 to 115
+  * Round 15: Won against Alpha A/G, Clarion, PA 180 to 50
+  * Round 16: Won against First A/G #1, Fort Myers, FL 235 to 40
+  * Round 17: Won against Minier A/G, Minier, IL 250 to 45
+  * Round 18: Lost to Harvest A/G, Fort Worth, TX 110 to 120
+  * Round 19: Won against King's Chapel, Springfield, MO 295 to -35
+  * Round 20: Won against First A/G, Lexington, KY 140 to 115
+  * Round 21: Won against First A/G, Phoenix, AZ 205 to 35
+  * Round 22: Won against First A/G, Warner Robins, GA 185 to 80
+  * Round 23: Lost to Central A/G, Springfield, MO 120 to 205
 Playoff 1: Lost to Victorious Life Church, Waco, TX 140 to 175
 
 ### Southeast Region
 
 #### 1st Place
 
-Church:	First A/G, Fort Myers, FL (Team 1)
-Pastor:	Dan Betzer
-Coaches:	Jan Talbott, Michelle Talbott
-Team:	Joshua Stewart
+* **Church**: First A/G, Fort Myers, FL (Team 1)
+* **Pastor**: Dan Betzer
+* **Coaches**: Jan Talbott, Michelle Talbott
+* **Team**:
+    * Joshua Stewart
 Jennifer Talbott
 Jessica Talbott
 Zach Talbott
 * **Round Robin**:
-Round 1: Lost to First A/G, Oskaloosa, IA 115 to 135
-Round 2: Lost to Alpha A/G, Clarion, PA 80 to 90
-Round 3: Lost to Mountain View A/G, Las Vegas, NV 70 to 140
-Round 4: Won against Minier A/G, Minier, IL 180 to 40
-Round 5: Won against Harvest A/G, Fort Worth, TX 150 to 105
-Round 6: Won against King's Chapel, Springfield, MO 125 to 80
-Round 7: Lost to First A/G, Lexington, KY -5 to 175
-Round 8: Won against First A/G, Phoenix, AZ 120 to 100
-Round 9: Won against First A/G, Warner Robins, GA 45 to 25
-Round 10: Lost to Central A/G, Springfield, MO 60 to 155
-Round 11: Won against Heights A/G, Billings, MT 170 to 85
-Round 12: Won against Radiant Church, Colorado Springs, CO 170 to 45
-Round 13: Won against Grace A/G, Syracuse, PA 175 to 100
-Round 14: Won against Watford City A/G, Watford City, ND 130 to 0
-Round 15: Lost to First A/G, Helena, MT 20 to 140
-Round 16: Lost to Life Community Church, Sunnyvale, TX 40 to 235
-Round 17: Won against Calvary Temple, Auburn, WA 200 to 170
-Round 18: Lost to Racine A/G, Racine, WI 20 to 160
-Round 19: Lost to First A/G, Shreveport, MO 130 to 165
-Round 20: Lost to First A/G #2, Fort Myers, FL 15 to 100
-Round 21: Won against Allison Park A/G, Allison Park, PA 165 to 70
-Round 22: Lost to Calvary A/G, Elkhart, IN 40 to 115
-Round 23: Lost to Victorious Life Church, Waco, TX 100 to 145
+  * Round 1: Lost to First A/G, Oskaloosa, IA 115 to 135
+  * Round 2: Lost to Alpha A/G, Clarion, PA 80 to 90
+  * Round 3: Lost to Mountain View A/G, Las Vegas, NV 70 to 140
+  * Round 4: Won against Minier A/G, Minier, IL 180 to 40
+  * Round 5: Won against Harvest A/G, Fort Worth, TX 150 to 105
+  * Round 6: Won against King's Chapel, Springfield, MO 125 to 80
+  * Round 7: Lost to First A/G, Lexington, KY -5 to 175
+  * Round 8: Won against First A/G, Phoenix, AZ 120 to 100
+  * Round 9: Won against First A/G, Warner Robins, GA 45 to 25
+  * Round 10: Lost to Central A/G, Springfield, MO 60 to 155
+  * Round 11: Won against Heights A/G, Billings, MT 170 to 85
+  * Round 12: Won against Radiant Church, Colorado Springs, CO 170 to 45
+  * Round 13: Won against Grace A/G, Syracuse, PA 175 to 100
+  * Round 14: Won against Watford City A/G, Watford City, ND 130 to 0
+  * Round 15: Lost to First A/G, Helena, MT 20 to 140
+  * Round 16: Lost to Life Community Church, Sunnyvale, TX 40 to 235
+  * Round 17: Won against Calvary Temple, Auburn, WA 200 to 170
+  * Round 18: Lost to Racine A/G, Racine, WI 20 to 160
+  * Round 19: Lost to First A/G, Shreveport, MO 130 to 165
+  * Round 20: Lost to First A/G #2, Fort Myers, FL 15 to 100
+  * Round 21: Won against Allison Park A/G, Allison Park, PA 165 to 70
+  * Round 22: Lost to Calvary A/G, Elkhart, IN 40 to 115
+  * Round 23: Lost to Victorious Life Church, Waco, TX 100 to 145
 
 #### 2nd Place
 
-Church:	First A/G, Fort Myers, FL (Team 2)
-Pastor:	Dan Betzer
-Coaches:	Chris Thomas, Beckie Welborn
-Team:	Rachel Jerabek
+* **Church**: First A/G, Fort Myers, FL (Team 2)
+* **Pastor**: Dan Betzer
+* **Coaches**: Chris Thomas, Beckie Welborn
+* **Team**:
+    * Rachel Jerabek
 Jonathan Talbott
 Naomi Welborn
 Shane Welborn
 * **Round Robin**:
-Round 1: Lost to First A/G, Lexington, KY 70 to 255
-Round 2: Lost to First A/G, Phoenix, AZ 10 to 200
-Round 3: Won against First A/G, Warner Robins, GA 160 to 150
-Round 4: Lost to Central A/G, Springfield, MO 35 to 120
-Round 5: Lost to Heights A/G, Billings, MT 95 to 220
-Round 6: Lost to Radiant Church, Colorado Springs, CO 35 to 190
-Round 7: Lost to Grace A/G, Syracuse, PA 10 to 240
-Round 8: Lost to Watford City A/G, Watford City, ND 110 to 125
-Round 9: Lost to First A/G, Helena, MT 25 to 95
-Round 10: Lost to Life Community Church, Sunnyvale, TX 90 to 220
-Round 11: Lost to Calvary Temple, Auburn, WA 50 to 240
-Round 12: Lost to Racine A/G, Racine, WI 35 to 215
-Round 13: Lost to First A/G, Shreveport, MO 45 to 190
-Round 14: Lost to Mountain View A/G, Las Vegas, NV 95 to 170
-Round 15: Lost to Allison Park A/G, Allison Park, PA 30 to 195
-Round 16: Won against Calvary A/G, Elkhart, IN 130 to 70
-Round 17: Lost to Victorious Life Church, Waco, TX -5 to 180
-Round 18: Lost to First A/G, Oskaloosa, IA 65 to 135
-Round 19: Lost to Alpha A/G, Clarion, PA 5 to 220
-Round 20: Won against First A/G #1, Fort Myers, FL 100 to 15
-Round 21: Lost to Minier A/G, Minier, IL 35 to 140
-Round 22: Lost to Harvest A/G, Fort Worth, TX 80 to 195
-Round 23: Won against King's Chapel, Springfield, MO 145 to 125
+  * Round 1: Lost to First A/G, Lexington, KY 70 to 255
+  * Round 2: Lost to First A/G, Phoenix, AZ 10 to 200
+  * Round 3: Won against First A/G, Warner Robins, GA 160 to 150
+  * Round 4: Lost to Central A/G, Springfield, MO 35 to 120
+  * Round 5: Lost to Heights A/G, Billings, MT 95 to 220
+  * Round 6: Lost to Radiant Church, Colorado Springs, CO 35 to 190
+  * Round 7: Lost to Grace A/G, Syracuse, PA 10 to 240
+  * Round 8: Lost to Watford City A/G, Watford City, ND 110 to 125
+  * Round 9: Lost to First A/G, Helena, MT 25 to 95
+  * Round 10: Lost to Life Community Church, Sunnyvale, TX 90 to 220
+  * Round 11: Lost to Calvary Temple, Auburn, WA 50 to 240
+  * Round 12: Lost to Racine A/G, Racine, WI 35 to 215
+  * Round 13: Lost to First A/G, Shreveport, MO 45 to 190
+  * Round 14: Lost to Mountain View A/G, Las Vegas, NV 95 to 170
+  * Round 15: Lost to Allison Park A/G, Allison Park, PA 30 to 195
+  * Round 16: Won against Calvary A/G, Elkhart, IN 130 to 70
+  * Round 17: Lost to Victorious Life Church, Waco, TX -5 to 180
+  * Round 18: Lost to First A/G, Oskaloosa, IA 65 to 135
+  * Round 19: Lost to Alpha A/G, Clarion, PA 5 to 220
+  * Round 20: Won against First A/G #1, Fort Myers, FL 100 to 15
+  * Round 21: Lost to Minier A/G, Minier, IL 35 to 140
+  * Round 22: Lost to Harvest A/G, Fort Worth, TX 80 to 195
+  * Round 23: Won against King's Chapel, Springfield, MO 145 to 125
 
 #### 3rd Place
 
-Church:	First A/G, Warner Robins, GA
-Pastor:	Glynn Grantham
-Coach:	Ken Shirley
-Team:	Danielle Bertovich
+* **Church**: First A/G, Warner Robins, GA
+* **Pastor**: Glynn Grantham
+* **Coach**: Ken Shirley
+* **Team**:
+    * Danielle Bertovich
 Teri Jolissaint
 Sonja Waters
 Adeana Westmeyer
 * **Round Robin**:
-Round 1: Lost to Racine A/G, Racine, WI 100 to 110
-Round 2: Lost to First A/G, Shreveport, MO 80 to 175
-Round 3: Lost to First A/G #2, Fort Myers, FL 150 to 160
-Round 4: Lost to Allison Park A/G, Allison Park, PA 95 to 165
-Round 5: Lost to Calvary A/G, Elkhart, IN -25 to 130
-Round 6: Lost to Victorious Life Church, Waco, TX 95 to 235
-Round 7: Lost to First A/G, Oskaloosa, IA 40 to 230
-Round 8: Lost to Alpha A/G, Clarion, PA 15 to 215
-Round 9: Lost to First A/G #1, Fort Myers, FL 25 to 45
-Round 10: Lost to Minier A/G, Minier, IL 100 to 130
-Round 11: Won against Harvest A/G, Fort Worth, TX 105 to 95
-Round 12: Lost to King's Chapel, Springfield, MO 50 to 110
-Round 13: Lost to First A/G, Lexington, KY -30 to 250
-Round 14: Won against First A/G, Phoenix, AZ 85 to 50
-Round 15: Lost to Mountain View A/G, Las Vegas, NV 30 to 45
-Round 16: Lost to Central A/G, Springfield, MO -15 to 170
-Round 17: Lost to Heights A/G, Billings, MT -5 to 80
-Round 18: Lost to Radiant Church, Colorado Springs, CO 30 to 220
-Round 19: Lost to Grace A/G, Syracuse, PA 35 to 235
-Round 20: Lost to Watford City A/G, Watford City, ND 20 to 130
-Round 21: Lost to First A/G, Helena, MT 95 to 110
-Round 22: Lost to Life Community Church, Sunnyvale, TX 80 to 185
-Round 23: Lost to Calvary Temple, Auburn, WA 80 to 205
+  * Round 1: Lost to Racine A/G, Racine, WI 100 to 110
+  * Round 2: Lost to First A/G, Shreveport, MO 80 to 175
+  * Round 3: Lost to First A/G #2, Fort Myers, FL 150 to 160
+  * Round 4: Lost to Allison Park A/G, Allison Park, PA 95 to 165
+  * Round 5: Lost to Calvary A/G, Elkhart, IN -25 to 130
+  * Round 6: Lost to Victorious Life Church, Waco, TX 95 to 235
+  * Round 7: Lost to First A/G, Oskaloosa, IA 40 to 230
+  * Round 8: Lost to Alpha A/G, Clarion, PA 15 to 215
+  * Round 9: Lost to First A/G #1, Fort Myers, FL 25 to 45
+  * Round 10: Lost to Minier A/G, Minier, IL 100 to 130
+  * Round 11: Won against Harvest A/G, Fort Worth, TX 105 to 95
+  * Round 12: Lost to King's Chapel, Springfield, MO 50 to 110
+  * Round 13: Lost to First A/G, Lexington, KY -30 to 250
+  * Round 14: Won against First A/G, Phoenix, AZ 85 to 50
+  * Round 15: Lost to Mountain View A/G, Las Vegas, NV 30 to 45
+  * Round 16: Lost to Central A/G, Springfield, MO -15 to 170
+  * Round 17: Lost to Heights A/G, Billings, MT -5 to 80
+  * Round 18: Lost to Radiant Church, Colorado Springs, CO 30 to 220
+  * Round 19: Lost to Grace A/G, Syracuse, PA 35 to 235
+  * Round 20: Lost to Watford City A/G, Watford City, ND 20 to 130
+  * Round 21: Lost to First A/G, Helena, MT 95 to 110
+  * Round 22: Lost to Life Community Church, Sunnyvale, TX 80 to 185
+  * Round 23: Lost to Calvary Temple, Auburn, WA 80 to 205
 
 ### Southwest Region
 
 #### 1st Place
 
-Church:	First A/G, Phoenix, AZ
-Pastor:	Tommy Barnett
-Coach:	Roger Dahlgren
-Team:	Renee Bollinger
+* **Church**: First A/G, Phoenix, AZ
+* **Pastor**: Tommy Barnett
+* **Coach**: Roger Dahlgren
+* **Team**:
+    * Renee Bollinger
 Mark Knoles
 Brandon Moore
 Mike Torres
 Michael Vargo
 * **Round Robin**:
-Round 1: Lost to First A/G, Shreveport, MO 150 to 170
-Round 2: Won against First A/G #2, Fort Myers, FL 200 to 10
-Round 3: Won against Allison Park A/G, Allison Park, PA 145 to 105
-Round 4: Lost to Calvary A/G, Elkhart, IN 60 to 120
-Round 5: Lost to Victorious Life Church, Waco, TX 100 to 170
-Round 6: Won against First A/G, Oskaloosa, IA 165 to 20
-Round 7: Won against Alpha A/G, Clarion, PA 195 to 60
-Round 8: Lost to First A/G #1, Fort Myers, FL 100 to 120
-Round 9: Won against Minier A/G, Minier, IL 25 to -15
-Round 10: Won against Harvest A/G, Fort Worth, TX 185 to 20
-Round 11: Lost to King's Chapel, Springfield, MO 55 to 135
-Round 12: Lost to First A/G, Lexington, KY 110 to 180
-Round 13: Won against Mountain View A/G, Las Vegas, NV 145 to 30
-Round 14: Lost to First A/G, Warner Robins, GA 50 to 85
-Round 15: Lost to Central A/G, Springfield, MO 60 to 205
-Round 16: Won against Heights A/G, Billings, MT 160 to 95
-Round 17: Won against Radiant Church, Colorado Springs, CO 150 to 20
-Round 18: Won against Grace A/G, Syracuse, PA 125 to 90
-Round 19: Won against Watford City A/G, Watford City, ND 165 to 95
-Round 20: Won against First A/G, Helena, MT 195 to -5
-Round 21: Lost to Life Community Church, Sunnyvale, TX 35 to 205
-Round 22: Won against Calvary Temple, Auburn, WA 95 to 50
-Round 23: Won against Racine A/G, Racine, WI 190 to 10
+  * Round 1: Lost to First A/G, Shreveport, MO 150 to 170
+  * Round 2: Won against First A/G #2, Fort Myers, FL 200 to 10
+  * Round 3: Won against Allison Park A/G, Allison Park, PA 145 to 105
+  * Round 4: Lost to Calvary A/G, Elkhart, IN 60 to 120
+  * Round 5: Lost to Victorious Life Church, Waco, TX 100 to 170
+  * Round 6: Won against First A/G, Oskaloosa, IA 165 to 20
+  * Round 7: Won against Alpha A/G, Clarion, PA 195 to 60
+  * Round 8: Lost to First A/G #1, Fort Myers, FL 100 to 120
+  * Round 9: Won against Minier A/G, Minier, IL 25 to -15
+  * Round 10: Won against Harvest A/G, Fort Worth, TX 185 to 20
+  * Round 11: Lost to King's Chapel, Springfield, MO 55 to 135
+  * Round 12: Lost to First A/G, Lexington, KY 110 to 180
+  * Round 13: Won against Mountain View A/G, Las Vegas, NV 145 to 30
+  * Round 14: Lost to First A/G, Warner Robins, GA 50 to 85
+  * Round 15: Lost to Central A/G, Springfield, MO 60 to 205
+  * Round 16: Won against Heights A/G, Billings, MT 160 to 95
+  * Round 17: Won against Radiant Church, Colorado Springs, CO 150 to 20
+  * Round 18: Won against Grace A/G, Syracuse, PA 125 to 90
+  * Round 19: Won against Watford City A/G, Watford City, ND 165 to 95
+  * Round 20: Won against First A/G, Helena, MT 195 to -5
+  * Round 21: Lost to Life Community Church, Sunnyvale, TX 35 to 205
+  * Round 22: Won against Calvary Temple, Auburn, WA 95 to 50
+  * Round 23: Won against Racine A/G, Racine, WI 190 to 10
 
 #### 2nd Place
 
-Church:	Radiant Church, Colorado Springs, CO
-Pastor:	Don Steiger
-Coaches:	Phil Steiger, Heather Steiger, Blake Roberts
-Team:	Anita Boeninger
+* **Church**: Radiant Church, Colorado Springs, CO
+* **Pastor**: Don Steiger
+* **Coaches**: Phil Steiger, Heather Steiger, Blake Roberts
+* **Team**:
+    * Anita Boeninger
 Preston Drobeck
 Rachel Jones
 Megan Miller
 Jordan Schneider
 Chris Sides
 * **Round Robin**:
-Round 1: Won against First A/G, Helena, MT 160 to 110
-Round 2: Won against Life Community Church, Sunnyvale, TX 155 to 120
-Round 3: Lost to Calvary Temple, Auburn, WA 115 to 170
-Round 4: Lost to Racine A/G, Racine, WI 0 to 115
-Round 5: Lost to First A/G, Shreveport, MO 40 to 95
-Round 6: Won against First A/G #2, Fort Myers, FL 190 to 35
-Round 7: Lost to Allison Park A/G, Allison Park, PA 20 to 205
-Round 8: Lost to Calvary A/G, Elkhart, IN 15 to 120
-Round 9: Lost to Victorious Life Church, Waco, TX 45 to 50
-Round 10: Lost to First A/G, Oskaloosa, IA 165 to 195
-Round 11: Lost to Alpha A/G, Clarion, PA 15 to 150
-Round 12: Lost to First A/G #1, Fort Myers, FL 45 to 170
-Round 13: Lost to Minier A/G, Minier, IL 15 to 105
-Round 14: Lost to Harvest A/G, Fort Worth, TX 70 to 95
-Round 15: Won against King's Chapel, Springfield, MO 145 to 80
-Round 16: Lost to First A/G, Lexington, KY 0 to 165
-Round 17: Lost to First A/G, Phoenix, AZ 20 to 150
-Round 18: Won against First A/G, Warner Robins, GA 220 to 30
-Round 19: Lost to Central A/G, Springfield, MO 65 to 155
-Round 20: Won against Heights A/G, Billings, MT 225 to 50
-Round 21: Won against Mountain View A/G, Las Vegas, NV 115 to 110
-Round 22: Lost to Grace A/G, Syracuse, PA 75 to 165
-Round 23: Won against Watford City A/G, Watford City, ND 155 to 35
+  * Round 1: Won against First A/G, Helena, MT 160 to 110
+  * Round 2: Won against Life Community Church, Sunnyvale, TX 155 to 120
+  * Round 3: Lost to Calvary Temple, Auburn, WA 115 to 170
+  * Round 4: Lost to Racine A/G, Racine, WI 0 to 115
+  * Round 5: Lost to First A/G, Shreveport, MO 40 to 95
+  * Round 6: Won against First A/G #2, Fort Myers, FL 190 to 35
+  * Round 7: Lost to Allison Park A/G, Allison Park, PA 20 to 205
+  * Round 8: Lost to Calvary A/G, Elkhart, IN 15 to 120
+  * Round 9: Lost to Victorious Life Church, Waco, TX 45 to 50
+  * Round 10: Lost to First A/G, Oskaloosa, IA 165 to 195
+  * Round 11: Lost to Alpha A/G, Clarion, PA 15 to 150
+  * Round 12: Lost to First A/G #1, Fort Myers, FL 45 to 170
+  * Round 13: Lost to Minier A/G, Minier, IL 15 to 105
+  * Round 14: Lost to Harvest A/G, Fort Worth, TX 70 to 95
+  * Round 15: Won against King's Chapel, Springfield, MO 145 to 80
+  * Round 16: Lost to First A/G, Lexington, KY 0 to 165
+  * Round 17: Lost to First A/G, Phoenix, AZ 20 to 150
+  * Round 18: Won against First A/G, Warner Robins, GA 220 to 30
+  * Round 19: Lost to Central A/G, Springfield, MO 65 to 155
+  * Round 20: Won against Heights A/G, Billings, MT 225 to 50
+  * Round 21: Won against Mountain View A/G, Las Vegas, NV 115 to 110
+  * Round 22: Lost to Grace A/G, Syracuse, PA 75 to 165
+  * Round 23: Won against Watford City A/G, Watford City, ND 155 to 35
 
 #### 3rd Place
 
-Church:	Mountain View A/G, Las Vegas, NV
-Pastor:	Robert Goree
-Coaches:	Tom Van Kempen, Robin Van Kempen
-Team:	Faith Alwood
+* **Church**: Mountain View A/G, Las Vegas, NV
+* **Pastor**: Robert Goree
+* **Coaches**: Tom Van Kempen, Robin Van Kempen
+* **Team**:
+    * Faith Alwood
 Alex Harris
 Valerie Marchalonis
 Terry Nance, Jr.
 * **Round Robin**:
-Round 1: Lost to Alpha A/G, Clarion, PA 75 to 195
-Round 2: Lost to Watford City A/G, Watford City, ND 45 to 135
-Round 3: Won against First A/G #1, Fort Myers, FL 140 to 70
-Round 4: Lost to First A/G, Helena, MT 130 to 155
-Round 5: Lost to Minier A/G, Minier, IL 90 to 180
-Round 6: Lost to Life Community Church, Sunnyvale, TX 85 to 255
-Round 7: Won against Harvest A/G, Fort Worth, TX 175 to 65
-Round 8: Lost to Calvary Temple, Auburn, WA 5 to 245
-Round 9: Lost to King's Chapel, Springfield, MO 30 to 135
-Round 10: Lost to Racine A/G, Racine, WI 80 to 155
-Round 11: Lost to First A/G, Lexington, KY -5 to 170
-Round 12: Lost to First A/G, Shreveport, MO 85 to 195
-Round 13: Lost to First A/G, Phoenix, AZ 30 to 145
-Round 14: Won against First A/G #2, Fort Myers, FL 170 to 95
-Round 15: Won against First A/G, Warner Robins, GA 45 to 30
-Round 16: Lost to Allison Park A/G, Allison Park, PA 90 to 140
-Round 17: Won against Central A/G, Springfield, MO 130 to 105
-Round 18: Won against Calvary A/G, Elkhart, IN 125 to 110
-Round 19: Lost to Heights A/G, Billings, MT 55 to 115
-Round 20: Won against Victorious Life Church, Waco, TX 170 to 40
-Round 21: Lost to Radiant Church, Colorado Springs, CO 110 to 115
-Round 22: Lost to First A/G, Oskaloosa, IA 100 to 105
-Round 23: Lost to Grace A/G, Syracuse, PA 125 to 170
+  * Round 1: Lost to Alpha A/G, Clarion, PA 75 to 195
+  * Round 2: Lost to Watford City A/G, Watford City, ND 45 to 135
+  * Round 3: Won against First A/G #1, Fort Myers, FL 140 to 70
+  * Round 4: Lost to First A/G, Helena, MT 130 to 155
+  * Round 5: Lost to Minier A/G, Minier, IL 90 to 180
+  * Round 6: Lost to Life Community Church, Sunnyvale, TX 85 to 255
+  * Round 7: Won against Harvest A/G, Fort Worth, TX 175 to 65
+  * Round 8: Lost to Calvary Temple, Auburn, WA 5 to 245
+  * Round 9: Lost to King's Chapel, Springfield, MO 30 to 135
+  * Round 10: Lost to Racine A/G, Racine, WI 80 to 155
+  * Round 11: Lost to First A/G, Lexington, KY -5 to 170
+  * Round 12: Lost to First A/G, Shreveport, MO 85 to 195
+  * Round 13: Lost to First A/G, Phoenix, AZ 30 to 145
+  * Round 14: Won against First A/G #2, Fort Myers, FL 170 to 95
+  * Round 15: Won against First A/G, Warner Robins, GA 45 to 30
+  * Round 16: Lost to Allison Park A/G, Allison Park, PA 90 to 140
+  * Round 17: Won against Central A/G, Springfield, MO 130 to 105
+  * Round 18: Won against Calvary A/G, Elkhart, IN 125 to 110
+  * Round 19: Lost to Heights A/G, Billings, MT 55 to 115
+  * Round 20: Won against Victorious Life Church, Waco, TX 170 to 40
+  * Round 21: Lost to Radiant Church, Colorado Springs, CO 110 to 115
+  * Round 22: Lost to First A/G, Oskaloosa, IA 100 to 105
+  * Round 23: Lost to Grace A/G, Syracuse, PA 125 to 170
 
 ## Memories
 * [Joey Bohanon]({% link _pages/history/1997/memories/joey-bohanon.md %})

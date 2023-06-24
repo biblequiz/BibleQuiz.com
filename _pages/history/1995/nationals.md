@@ -117,10 +117,11 @@ This was the only the second national championship for the Northeast region. The
 
 #### 1st Place
 
-Church:	St. Clair Shores A/G, St. Clair Shores, MI
-Pastor:	Daniel W. Brown
-Coaches:	Nancy Slater, Kelly French
-Team:	Renee Bollinger
+* **Church**: St. Clair Shores A/G, St. Clair Shores, MI
+* **Pastor**: Daniel W. Brown
+* **Coaches**: Nancy Slater, Kelly French
+* **Team**:
+    * Renee Bollinger
 Shelley Morris
 Jamie Myers
 Matt Reed
@@ -128,10 +129,11 @@ Daniel Slater
 
 #### 2nd Place
 
-Church:	Calvary Church, Naperville, IL
-Pastor:	Robert Schmidgall
-Coaches:	Scott Papendick, Bonnie Papendick, David Papendick
-Team:	Rebekah Anderson
+* **Church**: Calvary Church, Naperville, IL
+* **Pastor**: Robert Schmidgall
+* **Coaches**: Scott Papendick, Bonnie Papendick, David Papendick
+* **Team**:
+    * Rebekah Anderson
 Jolene Papendick
 Dustin Reed
 Tim Sanders
@@ -140,10 +142,11 @@ Daniel Vincent
 
 #### 3rd Place
 
-Church:	First A/G, Warren, OH
-Pastor:	Larry Albanese
-Coach:	Russell Kish, Karen Kish
-Team:	John Angelis
+* **Church**: First A/G, Warren, OH
+* **Pastor**: Larry Albanese
+* **Coach**: Russell Kish, Karen Kish
+* **Team**:
+    * John Angelis
 Lisa Eutsey
 Becky Wilmoth
 
@@ -151,20 +154,22 @@ Becky Wilmoth
 
 #### 1st Place
 
-Church:	Central A/G, Springfield, MO
-Pastor:	Philip Wannenmacher
-Coach:	Marcae Johnson
-Team:	Joey Bohanon
+* **Church**: Central A/G, Springfield, MO
+* **Pastor**: Philip Wannenmacher
+* **Coach**: Marcae Johnson
+* **Team**:
+    * Joey Bohanon
 Todd Katter
 Karl Dawson
 Shaun Lotter
 
 #### 2nd Place
 
-Church:	Park Crest A/G, Springfield, MO
-Pastor:	Robert Strand
-Coaches:	Synthia Cathcart, George Edgerly
-Team:	Rochelle Cathcart
+* **Church**: Park Crest A/G, Springfield, MO
+* **Pastor**: Robert Strand
+* **Coaches**: Synthia Cathcart, George Edgerly
+* **Team**:
+    * Rochelle Cathcart
 Kristi Grabill
 Ben Roudenis
 Jill Roudenis
@@ -172,10 +177,11 @@ Tim Tran
 
 #### 3rd Place
 
-Church:	First A/G, Shreveport, LA
-Pastor:	Rodney Duron
-Coaches:	Tim Jacobs, Brenda Horn
-Team:	Cal Ferguson
+* **Church**: First A/G, Shreveport, LA
+* **Pastor**: Rodney Duron
+* **Coaches**: Tim Jacobs, Brenda Horn
+* **Team**:
+    * Cal Ferguson
 Jeremy Horn
 David Skidmore
 Robby Thompson
@@ -184,10 +190,11 @@ Robby Thompson
 
 #### 1st Place
 
-Church:	First A/G, Moberly, MO
-Pastor:	Michael Neff
-Coaches:	Randy Lee, Jean Hansen
-Team:	Starla Crutcher
+* **Church**: First A/G, Moberly, MO
+* **Pastor**: Michael Neff
+* **Coaches**: Randy Lee, Jean Hansen
+* **Team**:
+    * Starla Crutcher
 Andrea Geisendorfer
 Jeremy Plank
 Jayne Stewart
@@ -195,18 +202,20 @@ Matt Walk
 
 #### 2nd Place
 
-Church:	Park A/G, St. Louis Park, MN
-Pastor:	Wesley Brooks
-Coach:	Monica Batty
-Team:	Amy Fry
+* **Church**: Park A/G, St. Louis Park, MN
+* **Pastor**: Wesley Brooks
+* **Coach**: Monica Batty
+* **Team**:
+    * Amy Fry
 Ana Lorvick
 
 #### 3rd Place
 
-Church:	First A/G, Cedar Rapids, IA
-Pastor:	Larry Sohn
-Coach:	Bill Chew
-Team:	Rebekah Dunn
+* **Church**: First A/G, Cedar Rapids, IA
+* **Pastor**: Larry Sohn
+* **Coach**: Bill Chew
+* **Team**:
+    * Rebekah Dunn
 Kristin Rustebakke
 D.J. Steen
 
@@ -214,10 +223,11 @@ D.J. Steen
 
 #### 1st Place
 
-Church:	Allison Park A/G, Allison Park, PA
-Pastor:	Jeff Leake
-Coaches:	John Porter, Harold Winter
-Team:	Jim Fenton
+* **Church**: Allison Park A/G, Allison Park, PA
+* **Pastor**: Jeff Leake
+* **Coaches**: John Porter, Harold Winter
+* **Team**:
+    * Jim Fenton
 Jason Martin
 Jennifer Shim
 Daryn Trout
@@ -225,20 +235,22 @@ Scott Winter
 
 #### 2nd Place
 
-Church:	Evangel Heights A/G, Sarver, PA
-Pastor:	John Kuert
-Coaches:	Lorna Albanese, Holly Beigay
-Team:	Mike Claessens
+* **Church**: Evangel Heights A/G, Sarver, PA
+* **Pastor**: John Kuert
+* **Coaches**: Lorna Albanese, Holly Beigay
+* **Team**:
+    * Mike Claessens
 Kelsey Kirin
 Krista Kowalsky
 Carol Muroki
 
 #### 3rd Place
 
-Church:	Grace A/G, Syracuse, NY
-Pastor:	Charles Semple
-Coach:	Mary Daigle
-Team:	Joy Daigle
+* **Church**: Grace A/G, Syracuse, NY
+* **Pastor**: Charles Semple
+* **Coach**: Mary Daigle
+* **Team**:
+    * Joy Daigle
 Nicole Martin
 Michelle McLaughlin
 Cheryl Severance
@@ -248,19 +260,21 @@ Kristin Severance
 
 #### 1st Place
 
-Church:	First A/G, Anacortes, WA
-Pastor:	Stan Drew
-Coaches:	Linda Welk, Sherry Couey
-Team:	Jeff Couey
+* **Church**: First A/G, Anacortes, WA
+* **Pastor**: Stan Drew
+* **Coaches**: Linda Welk, Sherry Couey
+* **Team**:
+    * Jeff Couey
 Josh Couey
 Rebekah Smith
 
 #### 2nd Place
 
-Church:	Christian Faith Center, Nampa, ID
-Pastor:	Bill Wolfe
-Coaches:	Greg Primrose, Anita Primrose
-Team:	Autumn Donnell
+* **Church**: Christian Faith Center, Nampa, ID
+* **Pastor**: Bill Wolfe
+* **Coaches**: Greg Primrose, Anita Primrose
+* **Team**:
+    * Autumn Donnell
 Kevin Gillatt
 Heather Grever
 Chandra Porter
@@ -271,30 +285,33 @@ Manny Wise
 
 #### 1st Place
 
-Church:	First A/G, Lewisville, TX
-Pastor:	Bennie Grissom
-Coaches:	Richard Ely, David Ely
-Team:	Tonnie Black
+* **Church**: First A/G, Lewisville, TX
+* **Pastor**: Bennie Grissom
+* **Coaches**: Richard Ely, David Ely
+* **Team**:
+    * Tonnie Black
 Janet Ely
 Adrienne Townsend
 Deeann Weber
 
 #### 2nd Place
 
-Church:	Seminary South A/G, Fort Worth, TX
-Pastor:	Dale Shorter
-Coaches:	Gilda Shorter, Sandra Hines
-Team:	Amy Farley
+* **Church**: Seminary South A/G, Fort Worth, TX
+* **Pastor**: Dale Shorter
+* **Coaches**: Gilda Shorter, Sandra Hines
+* **Team**:
+    * Amy Farley
 Chantel Hines
 Bethany Martinez
 Dayla Shorter
 
 #### 3rd Place
 
-Church:	First A/G, Bartlesville, OK
-Pastor:	Billy Brummett
-Coach:	Julie Stacy
-Team:	Jamie Lorenz
+* **Church**: First A/G, Bartlesville, OK
+* **Pastor**: Billy Brummett
+* **Coach**: Julie Stacy
+* **Team**:
+    * Jamie Lorenz
 Jason Lorenz
 Robert Ramsey
 Igor Vysotsky
@@ -303,29 +320,32 @@ Igor Vysotsky
 
 #### 1st Place
 
-Church:	First A/G, Fort Myers, FL
-Pastor:	Dan Betzer
-Coaches:	Jan Talbott, Michelle Talbott, Jennifer Talbott
-Team:	Joshua Stewart
+* **Church**: First A/G, Fort Myers, FL
+* **Pastor**: Dan Betzer
+* **Coaches**: Jan Talbott, Michelle Talbott, Jennifer Talbott
+* **Team**:
+    * Joshua Stewart
 Jessica Pinsker
 Jessica Talbott
 Zach Talbott
 
 #### 2nd Place
 
-Church:	First A/G, Montgomery, AL
-Pastor:	Johnny Jones
-Coaches:	Daniel Mims, Krystal Mims
-Team:	Aleshia Ellenburg
+* **Church**: First A/G, Montgomery, AL
+* **Pastor**: Johnny Jones
+* **Coaches**: Daniel Mims, Krystal Mims
+* **Team**:
+    * Aleshia Ellenburg
 Brandi Hall
 Jennifer Lindsey
 
 #### 3rd Place
 
-Church:	Calvary A/G, Dunwoody, GA
-Pastor:	Dennis Lacy
-Coach:	Sharon Sundell
-Team:	Juan Liner
+* **Church**: Calvary A/G, Dunwoody, GA
+* **Pastor**: Dennis Lacy
+* **Coach**: Sharon Sundell
+* **Team**:
+    * Juan Liner
 Seth Sundell
 Sheldon Sundell
 
@@ -333,28 +353,31 @@ Sheldon Sundell
 
 #### 1st Place
 
-Church:	Life Center A/G, Lakewood, CA
-Pastor:	Charles Atherton
-Coaches:	Greg House, Mel Aou
-Team:	Sarah Shewey
+* **Church**: Life Center A/G, Lakewood, CA
+* **Pastor**: Charles Atherton
+* **Coaches**: Greg House, Mel Aou
+* **Team**:
+    * Sarah Shewey
 Stephen Shewey
 Lora Tate
 
 #### 2nd Place
 
-Church:	Orange County Christian Center, Santa Ana, CA
-Pastor:	Albert Vaters
-Coaches:	Sandra Leonard, Daniel Leonard
-Team:	Patrick Doyle
+* **Church**: Orange County Christian Center, Santa Ana, CA
+* **Pastor**: Albert Vaters
+* **Coaches**: Sandra Leonard, Daniel Leonard
+* **Team**:
+    * Patrick Doyle
 Christina Leonard
 Sanejo Leonard
 
 #### 3rd Place
 
-Church:	Radiant Church, Colorado Springs, CO
-Pastor:	Don Steiger
-Coach:	Phil Steiger
-Team:	(name removed)
+* **Church**: Radiant Church, Colorado Springs, CO
+* **Pastor**: Don Steiger
+* **Coach**: Phil Steiger
+* **Team**:
+    * (name removed)
 Patrick David
 Laura Jones
 Rachel Jones

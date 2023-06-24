@@ -70,25 +70,27 @@ The top scorer at the 1992 National Finals was Josh Weber of Lakeland, FL. Josh 
 
 #### 1st Place
 
-Church:	First A/G, Merrillville, IN
-Pastor:	Dan R. Estes
-Coaches:	Janis Schweitzer, Brenda C. Bane, Steven Schweitzer
-Team:	Mark J. Bane
-Scott Bane
-Ashley Estes
-Sheryl Lynn Neely
-Ryan Neese
-Dave T. Schweitzer
+* **Church**: First A/G, Merrillville, IN
+* **Pastor**: Dan R. Estes
+* **Coaches**: Janis Schweitzer, Brenda C. Bane, Steven Schweitzer
+* **Team**:
+    * Mark J. Bane
+    * Scott Bane
+    * Ashley Estes
+    * Sheryl Lynn Neely
+    * Ryan Neese
+    * Dave T. Schweitzer
 
 #### 2nd Place
 
-Church:	First A/G, Warren, OH
-Pastor:	Larry Albanese
-Coaches:	Russell Kish, Karen Kish, Tammy Foley
-Team:	Lisa Eutsey
-Joy Rosenberg
-Becky Wilmoth
-Robyn Wilmoth
+* **Church**: First A/G, Warren, OH
+* **Pastor**: Larry Albanese
+* **Coaches**: Russell Kish, Karen Kish, Tammy Foley
+* **Team**:
+    * Lisa Eutsey
+    * Joy Rosenberg
+    * Becky Wilmoth
+    * Robyn Wilmoth
 
 ### Gulf Region
 
@@ -96,146 +98,158 @@ Robyn Wilmoth
 {% capture image_html %}
 #### 1st Place
 
-Church:	Parkcrest A/G, Springfield, MO
-Pastor:	Robert Strand
-Coach:	Synthia Cathcart, Elizabeth Weaver
-Team:	Randy Cathcart
-Rochelle Cathcart
-Keith Grabill
-Justin Moody
-Chad Nelson
-Sarah Wright
+* **Church**: Parkcrest A/G, Springfield, MO
+* **Pastor**: Robert Strand
+* **Coach**: Synthia Cathcart, Elizabeth Weaver
+* **Team**:
+    * Randy Cathcart
+    * Rochelle Cathcart
+    * Keith Grabill
+    * Justin Moody
+    * Chad Nelson
+    * Sarah Wright
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Parkcrest A/G, Springfield, MO" html=image_html %}
 
 #### 2nd Place
 
-Church:	Central A/G, Springfield, MO
-Pastor:	Phillip Wannenmacher
-Coaches:	Marcae Johnson, Dilla Dawson
-Team:	Karl Dawson
-Kevin Dawson
-Michelle Hansen
-Luisa Oyola
-Sharla Waggoner
-John Washam
+* **Church**: Central A/G, Springfield, MO
+* **Pastor**: Phillip Wannenmacher
+* **Coaches**: Marcae Johnson, Dilla Dawson
+* **Team**:
+    * Karl Dawson
+    * Kevin Dawson
+    * Michelle Hansen
+    * Luisa Oyola
+    * Sharla Waggoner
+    * John Washam
 
 ### North Central Region
 
 #### 1st Place
 
-Church:	Park A/G, St. Louis Park, MN
-Pastor:	David J. Torgerson
-Coaches:	Mike Batty, Monica Batty
-Team:	Elizabeth Dunn
-D. Ann Elscott
-Amy Fry
-John Fry
-Ana Lorvick
-Bryan Valentine
+* **Church**: Park A/G, St. Louis Park, MN
+* **Pastor**: David J. Torgerson
+* **Coaches**: Mike Batty, Monica Batty
+* **Team**:
+    * Elizabeth Dunn
+    * D. Ann Elscott
+    * Amy Fry
+    * John Fry
+    * Ana Lorvick
+    * Bryan Valentine
 
 #### 2nd Place
 
-Church:	First A/G, St. Charles, MO
-Pastor:	Rex Bornman
-Coaches:	Cheryl Matejka, Terry Matejka
-Team:	Lee Bredell
-Jeremy Gibbs
-Amy Goodlett
-Hope Mandolyn Stock
-Stephanie Tarsel
-Jennifer Zarro
+* **Church**: First A/G, St. Charles, MO
+* **Pastor**: Rex Bornman
+* **Coaches**: Cheryl Matejka, Terry Matejka
+* **Team**:
+    * Lee Bredell
+    * Jeremy Gibbs
+    * Amy Goodlett
+    * Hope Mandolyn Stock
+    * Stephanie Tarsel
+    * Jennifer Zarro
 
 ### Northeast Region
 
 #### 1st Place
 
-Church:	Free Gospel A/G, Flushing, NY
-Pastor:	Marvin Boyce
-Coach:	Joseph Guerriero, Christine Messina
-Team:	Angela Faith Ebanks
-Josephine Gbain
-Michael Rosenthal
-Tailynn Tindall
+* **Church**: Free Gospel A/G, Flushing, NY
+* **Pastor**: Marvin Boyce
+* **Coach**: Joseph Guerriero, Christine Messina
+* **Team**:
+    * Angela Faith Ebanks
+    * Josephine Gbain
+    * Michael Rosenthal
+    * Tailynn Tindall
 
 #### 2nd Place
 
-Church:	Allison Park A/G, Allison Park, PA
-Pastor:	Jeff Leake
-Coach:	John Porter
-Team:	Katey Callahan
-Richie Fenton
-Sarah Haney
-Melissa Milliron
-Daryn Trout
+* **Church**: Allison Park A/G, Allison Park, PA
+* **Pastor**: Jeff Leake
+* **Coach**: John Porter
+* **Team**:
+    * Katey Callahan
+    * Richie Fenton
+    * Sarah Haney
+    * Melissa Milliron
+    * Daryn Trout
 
 ### Northwest Region
 
 #### 1st Place
 
-Church:	Renton A/G, Renton, WA
-Pastor:	D. Rick Ross
-Coach:	Troy Jones
-Team:	Nicole Grant
-Travis Knight
-Anna McMillan
-Jemi Overby
-Erika Ruff
+* **Church**: Renton A/G, Renton, WA
+* **Pastor**: D. Rick Ross
+* **Coach**: Troy Jones
+* **Team**:
+    * Nicole Grant
+    * Travis Knight
+    * Anna McMillan
+    * Jemi Overby
+    * Erika Ruff
 
 #### 2nd Place
 
-Church:	Deer Lodge A/G, Deer Lodge, MT
-Pastor:	Ernie Green
-Coaches:	Dale Larsen, Laura Lee Swant
-Team:	Skyler W. Lashley
-Jody Smith
-Cassie Swant
-Veronica Worthey
+* **Church**: Deer Lodge A/G, Deer Lodge, MT
+* **Pastor**: Ernie Green
+* **Coaches**: Dale Larsen, Laura Lee Swant
+* **Team**:
+    * Skyler W. Lashley
+    * Jody Smith
+    * Cassie Swant
+    * Veronica Worthey
 
 ### South Central Region
 
 #### 1st Place
 
-Church:	First A/G, Bartlesville, OK
-Pastor:	B.R. Brummett
-Coach:	Sue Wootton, Harold Wootton
-Team:	Satish Sangapu
-Bryan Wootton
-Lisa Wootton
+* **Church**: First A/G, Bartlesville, OK
+* **Pastor**: B.R. Brummett
+* **Coach**: Sue Wootton, Harold Wootton
+* **Team**:
+    * Satish Sangapu
+    * Bryan Wootton
+    * Lisa Wootton
 
 #### 2nd Place
 
-Church:	Braeswood A/G, Houston, TX
-Pastor:	Earl James Banning
-Coach:	Jerome Tang, Anthony Roberson II
-Team:	Dionne Jobe
-Thalia Shortridge
-Jason Sorens
-Neil Sorens
-Kevin Williams
+* **Church**: Braeswood A/G, Houston, TX
+* **Pastor**: Earl James Banning
+* **Coach**: Jerome Tang, Anthony Roberson II
+* **Team**:
+    * Dionne Jobe
+    * Thalia Shortridge
+    * Jason Sorens
+    * Neil Sorens
+    * Kevin Williams
 
 ### Southeast Region
 
-#### 1st Place	Church:	First A/G, Montgomery, AL
-Pastor:	Johnny E. Jones
-Coaches:	Greg Kelley, Leslie Britt
-Team:	Matthew Britt
-Missy Brown
-Brett Glover
-Doug Mims
-Beth Parker
+#### 1st Place Church: First A/G, Montgomery, AL
+* **Pastor**: Johnny E. Jones
+* **Coaches**: Greg Kelley, Leslie Britt
+* **Team**:
+    * Matthew Britt
+    * Missy Brown
+    * Brett Glover
+    * Doug Mims
+    * Beth Parker
 
 #### 2nd Place
 
-Church:	Carpenter's Home Church, Lakeland, FL
-Pastor:	Karl Strader
-Coach:	Nancy Hershner
-Team:	Amanda Benigas
-Tim Pfister
-Josh Weber
-Matt Weber
-Rachel Weber
+* **Church**: Carpenter's Home Church, Lakeland, FL
+* **Pastor**: Karl Strader
+* **Coach**: Nancy Hershner
+* **Team**:
+    * Amanda Benigas
+    * Tim Pfister
+    * Josh Weber
+    * Matt Weber
+    * Rachel Weber
 
 ### Southwest Region
 
@@ -246,39 +260,42 @@ Rachel Weber
 
 #### 1st Place
 
-Church:	Life Center A/G, Lakewood, CA
-Pastor:	Charles Atherton
-Coaches:	Greg House, Mel Aou, Mike Shewey
-Team:	Tim Bahra
-Jeremy Rodriguez
-Sarah Shewey
-Dan Smith
+* **Church**: Life Center A/G, Lakewood, CA
+* **Pastor**: Charles Atherton
+* **Coaches**: Greg House, Mel Aou, Mike Shewey
+* **Team**:
+    * Tim Bahra
+    * Jeremy Rodriguez
+    * Sarah Shewey
+    * Dan Smith
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Life Center A/G, Lakewood, CA" html=image_html %}
 
 #### 2nd Place
 
-Church:	Radiant Church, Colorado Springs, CO
-Pastor:	Donald Steiger
-Coaches:	Darla Caudle, Robert Caudle
-Team:	Brian Boeninger
-Patrick David
-Jennifer Koiter
-Eric Lind
-John Steiger
+* **Church**: Radiant Church, Colorado Springs, CO
+* **Pastor**: Donald Steiger
+* **Coaches**: Darla Caudle, Robert Caudle
+* **Team**:
+    * Brian Boeninger
+    * Patrick David
+    * Jennifer Koiter
+    * Eric Lind
+    * John Steiger
 
 #### Hawaii
 
-Church:	Bayview Chapel A/G, Kanehoe, HI
-Pastor:	Harry Pishcura
-Coaches:	Jean Morgan, Michael Morgan
-Team:	Christopher Kepilino
-Elizabeth Morgan
-Sarah Morgan
-Angeline Pishcura
-Dara Pishcura
-Tabitha Prothero
+* **Church**: Bayview Chapel A/G, Kanehoe, HI
+* **Pastor**: Harry Pishcura
+* **Coaches**: Jean Morgan, Michael Morgan
+* **Team**:
+    * Christopher Kepilino
+    * Elizabeth Morgan
+    * Sarah Morgan
+    * Angeline Pishcura
+    * Dara Pishcura
+    * Tabitha Prothero
 
 ## One-on-One Tournament
 

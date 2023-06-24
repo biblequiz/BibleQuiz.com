@@ -172,807 +172,830 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 
 #### 1st Place
 
-Church:	Calvary Church, Naperville, IL
-Pastor:	Robert Schmidgall
-Coaches:	David Papendick, Bonnie Papendick
-Team:	Rebekah Anderson
+* **Church**: Calvary Church, Naperville, IL
+* **Pastor**: Robert Schmidgall
+* **Coaches**: David Papendick, Bonnie Papendick
+* **Team**:
+    * Rebekah Anderson
 Gail Gandy
 Jolene Papendick
 Betsy Regenfuss
 Missy Senf
 Alisha Smith
 * **Round Robin**:
-Round 1: Won against Calvary A/G, Dunwoody, GA 330 to 25
-Round 2: Won against New Life Community Church, Oshkosh, WI 180 to 15
-Round 3: Lost to Central A/G #1, Springfield, MO 80 to 110
-Round 4: Won against New Life A/G, Cokato, MN 210 to 25
-Round 5: Bye
-Round 6: Won against Crossroads Cathedral, Oklahoma City, OK 195 to 70
-Round 7: Won against College Heights A/G, Bryan, TX 185 to 165
-Round 8: Won against Capitol Hill A/G, Oklahoma, OK 155 to 150
-Round 9: Won against Allison Park A/G, Allison Park, PA 160 to 140
-Round 10: Won against First A/G, Fort Myers, FL 205 to 110
-Round 11: Lost to Calvary Temple, Auburn, WA 130 to 135
-Round 12: Won against First A/G, Lexington, KY 185 to 80
-Round 13: Won against First A/G, Shreveport, LA 155 to 150
-Round 14: Won against Radiant Church, Colorado Springs, CO 215 to 5
-Round 15: Won against Cornerstone A/G, Beulah, MI 175 to 100
-Round 16: Won against Life Center A/G, Tacoma, WA 205 to 175
-Round 17: Lost to Grace A/G, Syracuse, NY 125 to 190
-Round 18: Won against Central A/G #2, Springfield, MO 90 to 70
-Round 19: Won against Orange Christian Assembly, Orange, CA 235 to 10
-Round 20: Won against Faith A/G, Orlando, FL 180 to 60
-Round 21: Lost to Evangel Heights A/G, Sarver, PA 50 to 85
-Round 22: Won against First A/G, Greely, CO 110 to 50
-Round 23: Won against First A/G, Oskaloosa, IA 200 to 110
+  * Round 1: Won against Calvary A/G, Dunwoody, GA 330 to 25
+  * Round 2: Won against New Life Community Church, Oshkosh, WI 180 to 15
+  * Round 3: Lost to Central A/G #1, Springfield, MO 80 to 110
+  * Round 4: Won against New Life A/G, Cokato, MN 210 to 25
+  * Round 5: Bye
+  * Round 6: Won against Crossroads Cathedral, Oklahoma City, OK 195 to 70
+  * Round 7: Won against College Heights A/G, Bryan, TX 185 to 165
+  * Round 8: Won against Capitol Hill A/G, Oklahoma, OK 155 to 150
+  * Round 9: Won against Allison Park A/G, Allison Park, PA 160 to 140
+  * Round 10: Won against First A/G, Fort Myers, FL 205 to 110
+  * Round 11: Lost to Calvary Temple, Auburn, WA 130 to 135
+  * Round 12: Won against First A/G, Lexington, KY 185 to 80
+  * Round 13: Won against First A/G, Shreveport, LA 155 to 150
+  * Round 14: Won against Radiant Church, Colorado Springs, CO 215 to 5
+  * Round 15: Won against Cornerstone A/G, Beulah, MI 175 to 100
+  * Round 16: Won against Life Center A/G, Tacoma, WA 205 to 175
+  * Round 17: Lost to Grace A/G, Syracuse, NY 125 to 190
+  * Round 18: Won against Central A/G #2, Springfield, MO 90 to 70
+  * Round 19: Won against Orange Christian Assembly, Orange, CA 235 to 10
+  * Round 20: Won against Faith A/G, Orlando, FL 180 to 60
+  * Round 21: Lost to Evangel Heights A/G, Sarver, PA 50 to 85
+  * Round 22: Won against First A/G, Greely, CO 110 to 50
+  * Round 23: Won against First A/G, Oskaloosa, IA 200 to 110
 Playoff: Lost to Central A/G #1, Springfield, MO 70 to 175
 
 #### 2nd Place
 
-Church:	Cornerstone A/G, Beulah, MI
-Pastor:	Daniel Slater
-Coach:	Nancy Slater
-Team:	Candace Evans
+* **Church**: Cornerstone A/G, Beulah, MI
+* **Pastor**: Daniel Slater
+* **Coach**: Nancy Slater
+* **Team**:
+    * Candace Evans
 April Slater
 Daniel Slater
 * **Round Robin**:
-Round 1: Won against Radiant Church, Colorado Springs, CO 205 to 25
-Round 2: Bye
-Round 3: Won against Life Center A/G, Tacoma, WA 150 to 115
-Round 4: Won against Grace A/G, Syracuse, NY 150 to 100
-Round 5: Won against Central A/G #2, Springfield, MO 205 to 40
-Round 6: Won against Orange Christian Assembly, Orange, CA 215 to 40
-Round 7: Won against Faith A/G, Orlando, FL 155 to 85
-Round 8: Won against Evangel Heights A/G, Sarver, PA 200 to 50
-Round 9: Won against First A/G, Greely, CO 210 to 25
-Round 10: Won against First A/G, Oskaloosa, IA 240 to -30
-Round 11: Won against Calvary A/G, Dunwoody, GA 200 to 95
-Round 12: Won against New Life Community Church, Oshkosh, WI 205 to 55
-Round 13: Won against Central A/G #1, Springfield, MO 150 to 95
-Round 14: Won against New Life A/G, Cokato, MN 140 to 135
-Round 15: Lost to Calvary Church, Naperville, IL 100 to 175
-Round 16: Lost to Crossroads Cathedral, Oklahoma City, OK 140 to 155
-Round 17: Won against College Heights A/G, Bryan, TX 90 to 85
-Round 18: Won against Capitol Hill A/G, Oklahoma, OK 185 to 85
-Round 19: Lost to Allison Park A/G, Allison Park, PA 125 to 135
-Round 20: Lost to First A/G, Fort Myers, FL 100 to 135
-Round 21: Won against Calvary Temple, Auburn, WA 190 to 110
-Round 22: Won against First A/G, Lexington, KY 245 to -5
-Round 23: Lost to First A/G, Shreveport, LA 110 to 115
+  * Round 1: Won against Radiant Church, Colorado Springs, CO 205 to 25
+  * Round 2: Bye
+  * Round 3: Won against Life Center A/G, Tacoma, WA 150 to 115
+  * Round 4: Won against Grace A/G, Syracuse, NY 150 to 100
+  * Round 5: Won against Central A/G #2, Springfield, MO 205 to 40
+  * Round 6: Won against Orange Christian Assembly, Orange, CA 215 to 40
+  * Round 7: Won against Faith A/G, Orlando, FL 155 to 85
+  * Round 8: Won against Evangel Heights A/G, Sarver, PA 200 to 50
+  * Round 9: Won against First A/G, Greely, CO 210 to 25
+  * Round 10: Won against First A/G, Oskaloosa, IA 240 to -30
+  * Round 11: Won against Calvary A/G, Dunwoody, GA 200 to 95
+  * Round 12: Won against New Life Community Church, Oshkosh, WI 205 to 55
+  * Round 13: Won against Central A/G #1, Springfield, MO 150 to 95
+  * Round 14: Won against New Life A/G, Cokato, MN 140 to 135
+  * Round 15: Lost to Calvary Church, Naperville, IL 100 to 175
+  * Round 16: Lost to Crossroads Cathedral, Oklahoma City, OK 140 to 155
+  * Round 17: Won against College Heights A/G, Bryan, TX 90 to 85
+  * Round 18: Won against Capitol Hill A/G, Oklahoma, OK 185 to 85
+  * Round 19: Lost to Allison Park A/G, Allison Park, PA 125 to 135
+  * Round 20: Lost to First A/G, Fort Myers, FL 100 to 135
+  * Round 21: Won against Calvary Temple, Auburn, WA 190 to 110
+  * Round 22: Won against First A/G, Lexington, KY 245 to -5
+  * Round 23: Lost to First A/G, Shreveport, LA 110 to 115
 
 #### 3rd Place
 
-Church:	First A/G, Lexington, KY
-Pastor:	Terry Sikes
-Coaches:	Donna Rees, Bill Reinig, Venessa Buckel, Brynn Wade
-Team:	Krista Buckel
+* **Church**: First A/G, Lexington, KY
+* **Pastor**: Terry Sikes
+* **Coaches**: Donna Rees, Bill Reinig, Venessa Buckel, Brynn Wade
+* **Team**:
+    * Krista Buckel
 Becky Rees
 David Rees
 Kacey Wade
 * **Round Robin**:
-Round 1: Lost to Grace A/G, Syracuse, NY 130 to 185
-Round 2: Won against Central A/G #2, Springfield, MO 150 to 0
-Round 3: Won against Orange Christian Assembly, Orange, CA 205 to 50
-Round 4: Won against Faith A/G, Orlando, FL 150 to 90
-Round 5: Lost to Evangel Heights A/G, Sarver, PA 100 to 130
-Round 6: Lost to First A/G, Greely, CO 65 to 70
-Round 7: Won against First A/G, Oskaloosa, IA 170 to 120
-Round 8: Won against Calvary A/G, Dunwoody, GA 145 to 90
-Round 9: Lost to New Life Community Church, Oshkosh, WI 180 to 200
-Round 10: Lost to Central A/G #1, Springfield, MO 140 to 155
-Round 11: Won against New Life A/G, Cokato, MN 190 to 40
-Round 12: Lost to Calvary Church, Naperville, IL 80 to 185
-Round 13: Lost to Crossroads Cathedral, Oklahoma City, OK 90 to 175
-Round 14: Won against College Heights A/G, Bryan, TX 110 to 105
-Round 15: Won against Capitol Hill A/G, Oklahoma, OK 110 to 10
-Round 16: Lost to Allison Park A/G, Allison Park, PA -5 to 315
-Round 17: Won against First A/G, Fort Myers, FL 145 to 125
-Round 18: Won against Calvary Temple, Auburn, WA 115 to 45
-Round 19: Bye
-Round 20: Lost to First A/G, Shreveport, LA 40 to 215
-Round 21: Won against Radiant Church, Colorado Springs, CO 135 to 45
-Round 22: Lost to Cornerstone A/G, Beulah, MI -5 to 245
-Round 23: Won against Life Center A/G, Tacoma, WA 120 to 50
+  * Round 1: Lost to Grace A/G, Syracuse, NY 130 to 185
+  * Round 2: Won against Central A/G #2, Springfield, MO 150 to 0
+  * Round 3: Won against Orange Christian Assembly, Orange, CA 205 to 50
+  * Round 4: Won against Faith A/G, Orlando, FL 150 to 90
+  * Round 5: Lost to Evangel Heights A/G, Sarver, PA 100 to 130
+  * Round 6: Lost to First A/G, Greely, CO 65 to 70
+  * Round 7: Won against First A/G, Oskaloosa, IA 170 to 120
+  * Round 8: Won against Calvary A/G, Dunwoody, GA 145 to 90
+  * Round 9: Lost to New Life Community Church, Oshkosh, WI 180 to 200
+  * Round 10: Lost to Central A/G #1, Springfield, MO 140 to 155
+  * Round 11: Won against New Life A/G, Cokato, MN 190 to 40
+  * Round 12: Lost to Calvary Church, Naperville, IL 80 to 185
+  * Round 13: Lost to Crossroads Cathedral, Oklahoma City, OK 90 to 175
+  * Round 14: Won against College Heights A/G, Bryan, TX 110 to 105
+  * Round 15: Won against Capitol Hill A/G, Oklahoma, OK 110 to 10
+  * Round 16: Lost to Allison Park A/G, Allison Park, PA -5 to 315
+  * Round 17: Won against First A/G, Fort Myers, FL 145 to 125
+  * Round 18: Won against Calvary Temple, Auburn, WA 115 to 45
+  * Round 19: Bye
+  * Round 20: Lost to First A/G, Shreveport, LA 40 to 215
+  * Round 21: Won against Radiant Church, Colorado Springs, CO 135 to 45
+  * Round 22: Lost to Cornerstone A/G, Beulah, MI -5 to 245
+  * Round 23: Won against Life Center A/G, Tacoma, WA 120 to 50
 
 ### Gulf Region
 
 #### 1st Place
 
-Church:	First A/G, Shreveport, LA
-Pastor:	Rodney Duron
-Coaches:	Tim Jacobs, Jackie Norcross
-Team:	Shelby Alfred
+* **Church**: First A/G, Shreveport, LA
+* **Pastor**: Rodney Duron
+* **Coaches**: Tim Jacobs, Jackie Norcross
+* **Team**:
+    * Shelby Alfred
 Jeremy Horn
 Aaron Smith
 Robby Thompson
 * **Round Robin**:
-Round 1: Won against Life Center A/G, Tacoma, WA 200 to 60
-Round 2: Lost to Grace A/G, Syracuse, NY 45 to 145
-Round 3: Won against Central A/G #2, Springfield, MO 180 to 20
-Round 4: Won against Orange Christian Assembly, Orange, CA 250 to 20
-Round 5: Won against Faith A/G, Orlando, FL 215 to 100
-Round 6: Lost to Evangel Heights A/G, Sarver, PA 90 to 105
-Round 7: Won against First A/G, Greely, CO 240 to 45
-Round 8: Won against First A/G, Oskaloosa, IA 205 to 35
-Round 9: Won against Calvary A/G, Dunwoody, GA 195 to 105
-Round 10: Lost to New Life Community Church, Oshkosh, WI 115 to 135
-Round 11: Lost to Central A/G #1, Springfield, MO 0 to 235
-Round 12: Lost to New Life A/G, Cokato, MN 60 to 145
-Round 13: Lost to Calvary Church, Naperville, IL 150 to 155
-Round 14: Won against Crossroads Cathedral, Oklahoma City, OK 195 to 70
-Round 15: Won against College Heights A/G, Bryan, TX 205 to 5
-Round 16: Won against Capitol Hill A/G, Oklahoma, OK 170 to 80
-Round 17: Won against Allison Park A/G, Allison Park, PA 145 to 135
-Round 18: Won against First A/G, Fort Myers, FL 180 to 75
-Round 19: Won against Calvary Temple, Auburn, WA 190 to 135
-Round 20: Won against First A/G, Lexington, KY 215 to 40
-Round 21: Bye
-Round 22: Won against Radiant Church, Colorado Springs, CO 175 to 85
-Round 23: Won against Cornerstone A/G, Beulah, MI 115 to 110
+  * Round 1: Won against Life Center A/G, Tacoma, WA 200 to 60
+  * Round 2: Lost to Grace A/G, Syracuse, NY 45 to 145
+  * Round 3: Won against Central A/G #2, Springfield, MO 180 to 20
+  * Round 4: Won against Orange Christian Assembly, Orange, CA 250 to 20
+  * Round 5: Won against Faith A/G, Orlando, FL 215 to 100
+  * Round 6: Lost to Evangel Heights A/G, Sarver, PA 90 to 105
+  * Round 7: Won against First A/G, Greely, CO 240 to 45
+  * Round 8: Won against First A/G, Oskaloosa, IA 205 to 35
+  * Round 9: Won against Calvary A/G, Dunwoody, GA 195 to 105
+  * Round 10: Lost to New Life Community Church, Oshkosh, WI 115 to 135
+  * Round 11: Lost to Central A/G #1, Springfield, MO 0 to 235
+  * Round 12: Lost to New Life A/G, Cokato, MN 60 to 145
+  * Round 13: Lost to Calvary Church, Naperville, IL 150 to 155
+  * Round 14: Won against Crossroads Cathedral, Oklahoma City, OK 195 to 70
+  * Round 15: Won against College Heights A/G, Bryan, TX 205 to 5
+  * Round 16: Won against Capitol Hill A/G, Oklahoma, OK 170 to 80
+  * Round 17: Won against Allison Park A/G, Allison Park, PA 145 to 135
+  * Round 18: Won against First A/G, Fort Myers, FL 180 to 75
+  * Round 19: Won against Calvary Temple, Auburn, WA 190 to 135
+  * Round 20: Won against First A/G, Lexington, KY 215 to 40
+  * Round 21: Bye
+  * Round 22: Won against Radiant Church, Colorado Springs, CO 175 to 85
+  * Round 23: Won against Cornerstone A/G, Beulah, MI 115 to 110
 
 #### 2nd Place
 
-Church:	Central A/G (1), Springfield, MO
-Pastor:	David Watson
-Coach:	Dilla Dawson
-Team:	Karl Dawson
+* **Church**: Central A/G (1), Springfield, MO
+* **Pastor**: David Watson
+* **Coach**: Dilla Dawson
+* **Team**:
+    * Karl Dawson
 Todd Katter
 Kayla Dee Rowe
 * **Round Robin**:
-Round 1: Bye
-Round 2: Won against New Life A/G, Cokato, MN 115 to 110
-Round 3: Won against Calvary Church, Naperville, IL 110 to 80
-Round 4: Won against Crossroads Cathedral, Oklahoma City, OK 115 to 75
-Round 5: Won against College Heights A/G, Bryan, TX 225 to 80
-Round 6: Lost to Capitol Hill A/G, Oklahoma, OK 70 to 105
-Round 7: Won against Allison Park A/G, Allison Park, PA 195 to 45
-Round 8: Won against First A/G, Fort Myers, FL 160 to 65
-Round 9: Won against Calvary Temple, Auburn, WA 195 to 140
-Round 10: Won against First A/G, Lexington, KY 155 to 140
-Round 11: Won against First A/G, Shreveport, LA 235 to 0
-Round 12: Won against Radiant Church, Colorado Springs, CO 195 to 50
-Round 13: Lost to Cornerstone A/G, Beulah, MI 95 to 150
-Round 14: Won against Life Center A/G, Tacoma, WA 275 to -30
-Round 15: Lost to Grace A/G, Syracuse, NY 155 to 175
-Round 16: Won against Central A/G #2, Springfield, MO 215 to 85
-Round 17: Won against Orange Christian Assembly, Orange, CA 215 to 55
-Round 18: Won against Faith A/G, Orlando, FL 120 to 60
-Round 19: Lost to Evangel Heights A/G, Sarver, PA 135 to 175
-Round 20: Won against First A/G, Greely, CO 275 to -30
-Round 21: Won against First A/G, Oskaloosa, IA 160 to -30
-Round 22: Won against Calvary A/G, Dunwoody, GA 215 to 10
-Round 23: Won against New Life Community Church, Oshkosh, WI 235 to 55
+  * Round 1: Bye
+  * Round 2: Won against New Life A/G, Cokato, MN 115 to 110
+  * Round 3: Won against Calvary Church, Naperville, IL 110 to 80
+  * Round 4: Won against Crossroads Cathedral, Oklahoma City, OK 115 to 75
+  * Round 5: Won against College Heights A/G, Bryan, TX 225 to 80
+  * Round 6: Lost to Capitol Hill A/G, Oklahoma, OK 70 to 105
+  * Round 7: Won against Allison Park A/G, Allison Park, PA 195 to 45
+  * Round 8: Won against First A/G, Fort Myers, FL 160 to 65
+  * Round 9: Won against Calvary Temple, Auburn, WA 195 to 140
+  * Round 10: Won against First A/G, Lexington, KY 155 to 140
+  * Round 11: Won against First A/G, Shreveport, LA 235 to 0
+  * Round 12: Won against Radiant Church, Colorado Springs, CO 195 to 50
+  * Round 13: Lost to Cornerstone A/G, Beulah, MI 95 to 150
+  * Round 14: Won against Life Center A/G, Tacoma, WA 275 to -30
+  * Round 15: Lost to Grace A/G, Syracuse, NY 155 to 175
+  * Round 16: Won against Central A/G #2, Springfield, MO 215 to 85
+  * Round 17: Won against Orange Christian Assembly, Orange, CA 215 to 55
+  * Round 18: Won against Faith A/G, Orlando, FL 120 to 60
+  * Round 19: Lost to Evangel Heights A/G, Sarver, PA 135 to 175
+  * Round 20: Won against First A/G, Greely, CO 275 to -30
+  * Round 21: Won against First A/G, Oskaloosa, IA 160 to -30
+  * Round 22: Won against Calvary A/G, Dunwoody, GA 215 to 10
+  * Round 23: Won against New Life Community Church, Oshkosh, WI 235 to 55
 Playoff: Won against Calvary Church, Naperville, IL
 
 #### 3rd Place
 
-Church:	Central A/G (2), Springfield, MO
-Pastor:	David Watson
-Coach:	Kevin Dawson
-Team:	Eric Best
+* **Church**: Central A/G (2), Springfield, MO
+* **Pastor**: David Watson
+* **Coach**: Kevin Dawson
+* **Team**:
+    * Eric Best
 Joey Bohanon
 Philip Dickey
 Emily Stallman
 * **Round Robin**:
-Round 1: Lost to Calvary Temple, Auburn, WA -20 to 230
-Round 2: Lost to First A/G, Lexington, KY 0 to 150
-Round 3: Lost to First A/G, Shreveport, LA 20 to 180
-Round 4: Lost to Radiant Church, Colorado Springs, CO 50 to 155
-Round 5: Lost to Cornerstone A/G, Beulah, MI 40 to 205
-Round 6: Lost to Life Center A/G, Tacoma, WA 0 to 165
-Round 7: Lost to Grace A/G, Syracuse, NY 35 to 210
-Round 8: Bye
-Round 9: Won against Orange Christian Assembly, Orange, CA 110 to 85
-Round 10: Won against Faith A/G, Orlando, FL 155 to 70
-Round 11: Lost to Evangel Heights A/G, Sarver, PA 75 to 140
-Round 12: Won against First A/G, Greely, CO 130 to 50
-Round 13: Lost to First A/G, Oskaloosa, IA 100 to 185
-Round 14: Lost to Calvary A/G, Dunwoody, GA 35 to 145
-Round 15: Lost to New Life Community Church, Oshkosh, WI -20 to 60
-Round 16: Lost to Central A/G #1, Springfield, MO 85 to 215
-Round 17: Lost to New Life A/G, Cokato, MN 105 to 115
-Round 18: Lost to Calvary Church, Naperville, IL 70 to 90
-Round 19: Won against Crossroads Cathedral, Oklahoma City, OK 130 to 90
-Round 20: Lost to College Heights A/G, Bryan, TX 20 to 65
-Round 21: Won against Capitol Hill A/G, Oklahoma, OK 100 to 85
-Round 22: Lost to Allison Park A/G, Allison Park, PA 0 to 130
-Round 23: Won against First A/G, Fort Myers, FL 195 to 10
+  * Round 1: Lost to Calvary Temple, Auburn, WA -20 to 230
+  * Round 2: Lost to First A/G, Lexington, KY 0 to 150
+  * Round 3: Lost to First A/G, Shreveport, LA 20 to 180
+  * Round 4: Lost to Radiant Church, Colorado Springs, CO 50 to 155
+  * Round 5: Lost to Cornerstone A/G, Beulah, MI 40 to 205
+  * Round 6: Lost to Life Center A/G, Tacoma, WA 0 to 165
+  * Round 7: Lost to Grace A/G, Syracuse, NY 35 to 210
+  * Round 8: Bye
+  * Round 9: Won against Orange Christian Assembly, Orange, CA 110 to 85
+  * Round 10: Won against Faith A/G, Orlando, FL 155 to 70
+  * Round 11: Lost to Evangel Heights A/G, Sarver, PA 75 to 140
+  * Round 12: Won against First A/G, Greely, CO 130 to 50
+  * Round 13: Lost to First A/G, Oskaloosa, IA 100 to 185
+  * Round 14: Lost to Calvary A/G, Dunwoody, GA 35 to 145
+  * Round 15: Lost to New Life Community Church, Oshkosh, WI -20 to 60
+  * Round 16: Lost to Central A/G #1, Springfield, MO 85 to 215
+  * Round 17: Lost to New Life A/G, Cokato, MN 105 to 115
+  * Round 18: Lost to Calvary Church, Naperville, IL 70 to 90
+  * Round 19: Won against Crossroads Cathedral, Oklahoma City, OK 130 to 90
+  * Round 20: Lost to College Heights A/G, Bryan, TX 20 to 65
+  * Round 21: Won against Capitol Hill A/G, Oklahoma, OK 100 to 85
+  * Round 22: Lost to Allison Park A/G, Allison Park, PA 0 to 130
+  * Round 23: Won against First A/G, Fort Myers, FL 195 to 10
 
 ### North Central Region
 
 #### 1st Place
 
-Church:	New Life A/G, Cokato, MN
-Pastor:	Jamie Smedsrud
-Coaches:	Mark Banas, Sheri Johnson
-Team:	Tim Barberg
+* **Church**: New Life A/G, Cokato, MN
+* **Pastor**: Jamie Smedsrud
+* **Coaches**: Mark Banas, Sheri Johnson
+* **Team**:
+    * Tim Barberg
 Kerry Forare
 Shannon Forare
 Molly Jacobsen
 * **Round Robin**:
-Round 1: Won against New Life Community Church, Oshkosh, WI 115 to 55
-Round 2: Lost to Central A/G #1, Springfield, MO 110 to 115
-Round 3: Bye
-Round 4: Lost to Calvary Church, Naperville, IL 25 to 210
-Round 5: Won against Crossroads Cathedral, Oklahoma City, OK 180 to 130
-Round 6: Lost to College Heights A/G, Bryan, TX 100 to 105
-Round 7: Lost to Capitol Hill A/G, Oklahoma, OK 20 to 205
-Round 8: Lost to Allison Park A/G, Allison Park, PA 55 to 185
-Round 9: Lost to First A/G, Fort Myers, FL 130 to 210
-Round 10: Won against Calvary Temple, Auburn, WA 225 to 60
-Round 11: Lost to First A/G, Lexington, KY 40 to 190
-Round 12: Won against First A/G, Shreveport, LA 145 to 60
-Round 13: Lost to Radiant Church, Colorado Springs, CO 50 to 160
-Round 14: Lost to Cornerstone A/G, Beulah, MI 135 to 140
-Round 15: Won against Life Center A/G, Tacoma, WA 135 to 85
-Round 16: Lost to Grace A/G, Syracuse, NY 85 to 200
-Round 17: Won against Central A/G #2, Springfield, MO 115 to 105
-Round 18: Lost to Orange Christian Assembly, Orange, CA 0 to 95
-Round 19: Won against Faith A/G, Orlando, FL 135 to 50
-Round 20: Lost to Evangel Heights A/G, Sarver, PA 135 to 170
-Round 21: Lost to First A/G, Greely, CO 105 to 160
-Round 22: Won against First A/G, Oskaloosa, IA 130 to 105
-Round 23: Won against Calvary A/G, Dunwoody, GA 170 to 40
+  * Round 1: Won against New Life Community Church, Oshkosh, WI 115 to 55
+  * Round 2: Lost to Central A/G #1, Springfield, MO 110 to 115
+  * Round 3: Bye
+  * Round 4: Lost to Calvary Church, Naperville, IL 25 to 210
+  * Round 5: Won against Crossroads Cathedral, Oklahoma City, OK 180 to 130
+  * Round 6: Lost to College Heights A/G, Bryan, TX 100 to 105
+  * Round 7: Lost to Capitol Hill A/G, Oklahoma, OK 20 to 205
+  * Round 8: Lost to Allison Park A/G, Allison Park, PA 55 to 185
+  * Round 9: Lost to First A/G, Fort Myers, FL 130 to 210
+  * Round 10: Won against Calvary Temple, Auburn, WA 225 to 60
+  * Round 11: Lost to First A/G, Lexington, KY 40 to 190
+  * Round 12: Won against First A/G, Shreveport, LA 145 to 60
+  * Round 13: Lost to Radiant Church, Colorado Springs, CO 50 to 160
+  * Round 14: Lost to Cornerstone A/G, Beulah, MI 135 to 140
+  * Round 15: Won against Life Center A/G, Tacoma, WA 135 to 85
+  * Round 16: Lost to Grace A/G, Syracuse, NY 85 to 200
+  * Round 17: Won against Central A/G #2, Springfield, MO 115 to 105
+  * Round 18: Lost to Orange Christian Assembly, Orange, CA 0 to 95
+  * Round 19: Won against Faith A/G, Orlando, FL 135 to 50
+  * Round 20: Lost to Evangel Heights A/G, Sarver, PA 135 to 170
+  * Round 21: Lost to First A/G, Greely, CO 105 to 160
+  * Round 22: Won against First A/G, Oskaloosa, IA 130 to 105
+  * Round 23: Won against Calvary A/G, Dunwoody, GA 170 to 40
 
 #### 2nd Place
 
-Church:	First A/G, Oskaloosa, IA
-Pastor:	Harold Schutte
-Coach:	Charlotte Beyer
-Team:	Krisha Beyer
+* **Church**: First A/G, Oskaloosa, IA
+* **Pastor**: Harold Schutte
+* **Coach**: Charlotte Beyer
+* **Team**:
+    * Krisha Beyer
 Jon Higgins
 * **Round Robin**:
-Round 1: Lost to Crossroads Cathedral, Oklahoma City, OK 40 to 195
-Round 2: Lost to College Heights A/G, Bryan, TX 60 to 135
-Round 3: Won against Capitol Hill A/G, Oklahoma, OK 110 to 30
-Round 4: Lost to Allison Park A/G, Allison Park, PA 60 to 155
-Round 5: Lost to First A/G, Fort Myers, FL 40 to 120
-Round 6: Won against Calvary Temple, Auburn, WA 160 to 80
-Round 7: Lost to First A/G, Lexington, KY 120 to 170
-Round 8: Lost to First A/G, Shreveport, LA 35 to 205
-Round 9: Lost to Radiant Church, Colorado Springs, CO 140 to 175
-Round 10: Lost to Cornerstone A/G, Beulah, MI -30 to 240
-Round 11: Won against Life Center A/G, Tacoma, WA 130 to 50
-Round 12: Lost to Grace A/G, Syracuse, NY 35 to 200
-Round 13: Won against Central A/G #2, Springfield, MO 185 to 100
-Round 14: Lost to Orange Christian Assembly, Orange, CA -10 to 145
-Round 15: Lost to Faith A/G, Orlando, FL -25 to 80
-Round 16: Lost to Evangel Heights A/G, Sarver, PA 60 to 290
-Round 17: Lost to First A/G, Greely, CO 30 to 120
-Round 18: Bye
-Round 19: Lost to Calvary A/G, Dunwoody, GA 95 to 160
-Round 20: Won against New Life Community Church, Oshkosh, WI 115 to 65
-Round 21: Lost to Central A/G #1, Springfield, MO -30 to 160
-Round 22: Lost to New Life A/G, Cokato, MN 105 to 130
-Round 23: Lost to Calvary Church, Naperville, IL 110 to 200
+  * Round 1: Lost to Crossroads Cathedral, Oklahoma City, OK 40 to 195
+  * Round 2: Lost to College Heights A/G, Bryan, TX 60 to 135
+  * Round 3: Won against Capitol Hill A/G, Oklahoma, OK 110 to 30
+  * Round 4: Lost to Allison Park A/G, Allison Park, PA 60 to 155
+  * Round 5: Lost to First A/G, Fort Myers, FL 40 to 120
+  * Round 6: Won against Calvary Temple, Auburn, WA 160 to 80
+  * Round 7: Lost to First A/G, Lexington, KY 120 to 170
+  * Round 8: Lost to First A/G, Shreveport, LA 35 to 205
+  * Round 9: Lost to Radiant Church, Colorado Springs, CO 140 to 175
+  * Round 10: Lost to Cornerstone A/G, Beulah, MI -30 to 240
+  * Round 11: Won against Life Center A/G, Tacoma, WA 130 to 50
+  * Round 12: Lost to Grace A/G, Syracuse, NY 35 to 200
+  * Round 13: Won against Central A/G #2, Springfield, MO 185 to 100
+  * Round 14: Lost to Orange Christian Assembly, Orange, CA -10 to 145
+  * Round 15: Lost to Faith A/G, Orlando, FL -25 to 80
+  * Round 16: Lost to Evangel Heights A/G, Sarver, PA 60 to 290
+  * Round 17: Lost to First A/G, Greely, CO 30 to 120
+  * Round 18: Bye
+  * Round 19: Lost to Calvary A/G, Dunwoody, GA 95 to 160
+  * Round 20: Won against New Life Community Church, Oshkosh, WI 115 to 65
+  * Round 21: Lost to Central A/G #1, Springfield, MO -30 to 160
+  * Round 22: Lost to New Life A/G, Cokato, MN 105 to 130
+  * Round 23: Lost to Calvary Church, Naperville, IL 110 to 200
 
 #### 3rd Place
 
-Church:	New Life Community Church, Oshkosh, WI
-Pastor:	Peter J. Koeshall
-Coaches:	Steven Pentz, Carol Lynch
-Team:	Katie Boldt
+* **Church**: New Life Community Church, Oshkosh, WI
+* **Pastor**: Peter J. Koeshall
+* **Coaches**: Steven Pentz, Carol Lynch
+* **Team**:
+    * Katie Boldt
 John Danula
 Mandie Lynch
 Angie Pentz
 David Pentz
 Rebekah Schaalma
 * **Round Robin**:
-Round 1: Lost to New Life A/G, Cokato, MN 55 to 115
-Round 2: Lost to Calvary Church, Naperville, IL 15 to 180
-Round 3: Won against Crossroads Cathedral, Oklahoma City, OK 140 to 110
-Round 4: Won against College Heights A/G, Bryan, TX 130 to 55
-Round 5: Lost to Capitol Hill A/G, Oklahoma, OK 115 to 125
-Round 6: Lost to Allison Park A/G, Allison Park, PA -30 to 205
-Round 7: Lost to First A/G, Fort Myers, FL -25 to 230
-Round 8: Lost to Calvary Temple, Auburn, WA 75 to 170
-Round 9: Won against First A/G, Lexington, KY 200 to 180
-Round 10: Won against First A/G, Shreveport, LA 135 to 115
-Round 11: Lost to Radiant Church, Colorado Springs, CO 0 to 215
-Round 12: Lost to Cornerstone A/G, Beulah, MI 55 to 205
-Round 13: Lost to Life Center A/G, Tacoma, WA 35 to 205
-Round 14: Lost to Grace A/G, Syracuse, NY 45 to 195
-Round 15: Won against Central A/G #2, Springfield, MO 60 to -20
-Round 16: Lost to Orange Christian Assembly, Orange, CA 110 to 120
-Round 17: Won against Faith A/G, Orlando, FL 200 to 100
-Round 18: Lost to Evangel Heights A/G, Sarver, PA 75 to 110
-Round 19: Lost to First A/G, Greely, CO 55 to 140
-Round 20: Lost to First A/G, Oskaloosa, IA 65 to 115
-Round 21: Lost to Calvary A/G, Dunwoody, GA 20 to 80
-Round 22: Bye
-Round 23: Lost to Central A/G #1, Springfield, MO 55 to 235
+  * Round 1: Lost to New Life A/G, Cokato, MN 55 to 115
+  * Round 2: Lost to Calvary Church, Naperville, IL 15 to 180
+  * Round 3: Won against Crossroads Cathedral, Oklahoma City, OK 140 to 110
+  * Round 4: Won against College Heights A/G, Bryan, TX 130 to 55
+  * Round 5: Lost to Capitol Hill A/G, Oklahoma, OK 115 to 125
+  * Round 6: Lost to Allison Park A/G, Allison Park, PA -30 to 205
+  * Round 7: Lost to First A/G, Fort Myers, FL -25 to 230
+  * Round 8: Lost to Calvary Temple, Auburn, WA 75 to 170
+  * Round 9: Won against First A/G, Lexington, KY 200 to 180
+  * Round 10: Won against First A/G, Shreveport, LA 135 to 115
+  * Round 11: Lost to Radiant Church, Colorado Springs, CO 0 to 215
+  * Round 12: Lost to Cornerstone A/G, Beulah, MI 55 to 205
+  * Round 13: Lost to Life Center A/G, Tacoma, WA 35 to 205
+  * Round 14: Lost to Grace A/G, Syracuse, NY 45 to 195
+  * Round 15: Won against Central A/G #2, Springfield, MO 60 to -20
+  * Round 16: Lost to Orange Christian Assembly, Orange, CA 110 to 120
+  * Round 17: Won against Faith A/G, Orlando, FL 200 to 100
+  * Round 18: Lost to Evangel Heights A/G, Sarver, PA 75 to 110
+  * Round 19: Lost to First A/G, Greely, CO 55 to 140
+  * Round 20: Lost to First A/G, Oskaloosa, IA 65 to 115
+  * Round 21: Lost to Calvary A/G, Dunwoody, GA 20 to 80
+  * Round 22: Bye
+  * Round 23: Lost to Central A/G #1, Springfield, MO 55 to 235
 
 ### Northeast Region
 
 #### 1st Place
 
-Church:	Evangel Heights A/G, Sarver, PA
-Pastor:	John Kuert
-Coaches:	Lorna Albanese, Kathy Astor
-Team:	Mike Claessens
+* **Church**: Evangel Heights A/G, Sarver, PA
+* **Pastor**: John Kuert
+* **Coaches**: Lorna Albanese, Kathy Astor
+* **Team**:
+    * Mike Claessens
 Melanie Fedon
 Kelsey Kirin
 Krista Kowalsky
 Nathan Watkins
 * **Round Robin**:
-Round 1: Won against Capitol Hill A/G, Oklahoma, OK 250 to 65
-Round 2: Won against Allison Park A/G, Allison Park, PA 105 to 100
-Round 3: Won against First A/G, Fort Myers, FL 180 to 95
-Round 4: Lost to Calvary Temple, Auburn, WA 80 to 85
-Round 5: Won against First A/G, Lexington, KY 130 to 100
-Round 6: Won against First A/G, Shreveport, LA 105 to 90
-Round 7: Won against Radiant Church, Colorado Springs, CO 175 to 60
-Round 8: Lost to Cornerstone A/G, Beulah, MI 50 to 200
-Round 9: Won against Life Center A/G, Tacoma, WA 180 to 100
-Round 10: Lost to Grace A/G, Syracuse, NY 85 to 200
-Round 11: Won against Central A/G #2, Springfield, MO 140 to 75
-Round 12: Won against Orange Christian Assembly, Orange, CA 175 to -5
-Round 13: Won against Faith A/G, Orlando, FL 130 to 110
-Round 14: Bye
-Round 15: Won against First A/G, Greely, CO 105 to 80
-Round 16: Won against First A/G, Oskaloosa, IA 290 to 60
-Round 17: Won against Calvary A/G, Dunwoody, GA 240 to 60
-Round 18: Won against New Life Community Church, Oshkosh, WI 110 to 75
-Round 19: Won against Central A/G #1, Springfield, MO 175 to 135
-Round 20: Won against New Life A/G, Cokato, MN 170 to 135
-Round 21: Won against Calvary Church, Naperville, IL 85 to 50
-Round 22: Won against Crossroads Cathedral, Oklahoma City, OK 180 to 85
-Round 23: Won against College Heights A/G, Bryan, TX 185 to 90
+  * Round 1: Won against Capitol Hill A/G, Oklahoma, OK 250 to 65
+  * Round 2: Won against Allison Park A/G, Allison Park, PA 105 to 100
+  * Round 3: Won against First A/G, Fort Myers, FL 180 to 95
+  * Round 4: Lost to Calvary Temple, Auburn, WA 80 to 85
+  * Round 5: Won against First A/G, Lexington, KY 130 to 100
+  * Round 6: Won against First A/G, Shreveport, LA 105 to 90
+  * Round 7: Won against Radiant Church, Colorado Springs, CO 175 to 60
+  * Round 8: Lost to Cornerstone A/G, Beulah, MI 50 to 200
+  * Round 9: Won against Life Center A/G, Tacoma, WA 180 to 100
+  * Round 10: Lost to Grace A/G, Syracuse, NY 85 to 200
+  * Round 11: Won against Central A/G #2, Springfield, MO 140 to 75
+  * Round 12: Won against Orange Christian Assembly, Orange, CA 175 to -5
+  * Round 13: Won against Faith A/G, Orlando, FL 130 to 110
+  * Round 14: Bye
+  * Round 15: Won against First A/G, Greely, CO 105 to 80
+  * Round 16: Won against First A/G, Oskaloosa, IA 290 to 60
+  * Round 17: Won against Calvary A/G, Dunwoody, GA 240 to 60
+  * Round 18: Won against New Life Community Church, Oshkosh, WI 110 to 75
+  * Round 19: Won against Central A/G #1, Springfield, MO 175 to 135
+  * Round 20: Won against New Life A/G, Cokato, MN 170 to 135
+  * Round 21: Won against Calvary Church, Naperville, IL 85 to 50
+  * Round 22: Won against Crossroads Cathedral, Oklahoma City, OK 180 to 85
+  * Round 23: Won against College Heights A/G, Bryan, TX 185 to 90
 
 #### 2nd Place
 
-Church:	Grace A/G, Syracuse, NY
-Pastor:	Charles Semple
-Coach:	Mary Daigle
-Team:	Joy Daigle
+* **Church**: Grace A/G, Syracuse, NY
+* **Pastor**: Charles Semple
+* **Coach**: Mary Daigle
+* **Team**:
+    * Joy Daigle
 Tika Daigle
 Nicole Martin
 Michelle McLaughlin
 * **Round Robin**:
-Round 1: Won against First A/G, Lexington, KY 185 to 130
-Round 2: Won against First A/G, Shreveport, LA 145 to 45
-Round 3: Won against Radiant Church, Colorado Springs, CO 205 to 40
-Round 4: Lost to Cornerstone A/G, Beulah, MI 100 to 150
-Round 5: Won against Life Center A/G, Tacoma, WA 155 to 5
-Round 6: Bye
-Round 7: Won against Central A/G #2, Springfield, MO 210 to 35
-Round 8: Won against Orange Christian Assembly, Orange, CA 145 to 90
-Round 9: Won against Faith A/G, Orlando, FL 230 to 90
-Round 10: Won against Evangel Heights A/G, Sarver, PA 200 to 85
-Round 11: Won against First A/G, Greely, CO 215 to 55
-Round 12: Won against First A/G, Oskaloosa, IA 200 to 35
-Round 13: Won against Calvary A/G, Dunwoody, GA 135 to 75
-Round 14: Won against New Life Community Church, Oshkosh, WI 195 to 45
-Round 15: Won against Central A/G #1, Springfield, MO 175 to 155
-Round 16: Won against New Life A/G, Cokato, MN 200 to 85
-Round 17: Won against Calvary Church, Naperville, IL 190 to 125
-Round 18: Won against Crossroads Cathedral, Oklahoma City, OK 90 to 55
-Round 19: Lost to College Heights A/G, Bryan, TX 115 to 175
-Round 20: Won against Capitol Hill A/G, Oklahoma, OK 190 to 30
-Round 21: Won against Allison Park A/G, Allison Park, PA 140 to 80
-Round 22: Won against First A/G, Fort Myers, FL 150 to 90
-Round 23: Won against Calvary Temple, Auburn, WA 200 to 30
+  * Round 1: Won against First A/G, Lexington, KY 185 to 130
+  * Round 2: Won against First A/G, Shreveport, LA 145 to 45
+  * Round 3: Won against Radiant Church, Colorado Springs, CO 205 to 40
+  * Round 4: Lost to Cornerstone A/G, Beulah, MI 100 to 150
+  * Round 5: Won against Life Center A/G, Tacoma, WA 155 to 5
+  * Round 6: Bye
+  * Round 7: Won against Central A/G #2, Springfield, MO 210 to 35
+  * Round 8: Won against Orange Christian Assembly, Orange, CA 145 to 90
+  * Round 9: Won against Faith A/G, Orlando, FL 230 to 90
+  * Round 10: Won against Evangel Heights A/G, Sarver, PA 200 to 85
+  * Round 11: Won against First A/G, Greely, CO 215 to 55
+  * Round 12: Won against First A/G, Oskaloosa, IA 200 to 35
+  * Round 13: Won against Calvary A/G, Dunwoody, GA 135 to 75
+  * Round 14: Won against New Life Community Church, Oshkosh, WI 195 to 45
+  * Round 15: Won against Central A/G #1, Springfield, MO 175 to 155
+  * Round 16: Won against New Life A/G, Cokato, MN 200 to 85
+  * Round 17: Won against Calvary Church, Naperville, IL 190 to 125
+  * Round 18: Won against Crossroads Cathedral, Oklahoma City, OK 90 to 55
+  * Round 19: Lost to College Heights A/G, Bryan, TX 115 to 175
+  * Round 20: Won against Capitol Hill A/G, Oklahoma, OK 190 to 30
+  * Round 21: Won against Allison Park A/G, Allison Park, PA 140 to 80
+  * Round 22: Won against First A/G, Fort Myers, FL 150 to 90
+  * Round 23: Won against Calvary Temple, Auburn, WA 200 to 30
 
 #### 3rd Place
 
-Church:	Allison Park A/G, Allison Park, PA
-Pastor:	Jeffrey Leake
-Coaches:	John Porter, Eric Wissner
-Team:	Jim Fenton
+* **Church**: Allison Park A/G, Allison Park, PA
+* **Pastor**: Jeffrey Leake
+* **Coaches**: John Porter, Eric Wissner
+* **Team**:
+    * Jim Fenton
 Jason Martin
 Jennifer Shim
 Mike Straub
 * **Round Robin**:
-Round 1: Won against Faith A/G, Orlando, FL 140 to 130
-Round 2: Lost to Evangel Heights A/G, Sarver, PA 100 to 105
-Round 3: Won against First A/G, Greely, CO 160 to 55
-Round 4: Won against First A/G, Oskaloosa, IA 155 to 60
-Round 5: Won against Calvary A/G, Dunwoody, GA 165 to 75
-Round 6: Won against New Life Community Church, Oshkosh, WI 205 to -30
-Round 7: Lost to Central A/G #1, Springfield, MO 45 to 195
-Round 8: Won against New Life A/G, Cokato, MN 185 to 55
-Round 9: Lost to Calvary Church, Naperville, IL 140 to 160
-Round 10: Lost to Crossroads Cathedral, Oklahoma City, OK 75 to 135
-Round 11: Won against College Heights A/G, Bryan, TX 155 to 25
-Round 12: Won against Capitol Hill A/G, Oklahoma, OK 175 to 70
-Round 13: Bye
-Round 14: Won against First A/G, Fort Myers, FL 110 to 85
-Round 15: Won against Calvary Temple, Auburn, WA 190 to 25
-Round 16: Won against First A/G, Lexington, KY 315 to -5
-Round 17: Lost to First A/G, Shreveport, LA 135 to 145
-Round 18: Won against Radiant Church, Colorado Springs, CO 135 to 110
-Round 19: Won against Cornerstone A/G, Beulah, MI 135 to 125
-Round 20: Won against Life Center A/G, Tacoma, WA 110 to 20
-Round 21: Lost to Grace A/G, Syracuse, NY 80 to 140
-Round 22: Won against Central A/G #2, Springfield, MO 130 to 0
-Round 23: Won against Orange Christian Assembly, Orange, CA 260 to 75
+  * Round 1: Won against Faith A/G, Orlando, FL 140 to 130
+  * Round 2: Lost to Evangel Heights A/G, Sarver, PA 100 to 105
+  * Round 3: Won against First A/G, Greely, CO 160 to 55
+  * Round 4: Won against First A/G, Oskaloosa, IA 155 to 60
+  * Round 5: Won against Calvary A/G, Dunwoody, GA 165 to 75
+  * Round 6: Won against New Life Community Church, Oshkosh, WI 205 to -30
+  * Round 7: Lost to Central A/G #1, Springfield, MO 45 to 195
+  * Round 8: Won against New Life A/G, Cokato, MN 185 to 55
+  * Round 9: Lost to Calvary Church, Naperville, IL 140 to 160
+  * Round 10: Lost to Crossroads Cathedral, Oklahoma City, OK 75 to 135
+  * Round 11: Won against College Heights A/G, Bryan, TX 155 to 25
+  * Round 12: Won against Capitol Hill A/G, Oklahoma, OK 175 to 70
+  * Round 13: Bye
+  * Round 14: Won against First A/G, Fort Myers, FL 110 to 85
+  * Round 15: Won against Calvary Temple, Auburn, WA 190 to 25
+  * Round 16: Won against First A/G, Lexington, KY 315 to -5
+  * Round 17: Lost to First A/G, Shreveport, LA 135 to 145
+  * Round 18: Won against Radiant Church, Colorado Springs, CO 135 to 110
+  * Round 19: Won against Cornerstone A/G, Beulah, MI 135 to 125
+  * Round 20: Won against Life Center A/G, Tacoma, WA 110 to 20
+  * Round 21: Lost to Grace A/G, Syracuse, NY 80 to 140
+  * Round 22: Won against Central A/G #2, Springfield, MO 130 to 0
+  * Round 23: Won against Orange Christian Assembly, Orange, CA 260 to 75
 
 ### Northwest Region
 
 #### 1st Place
 
-Church:	Life Center A/G, Tacoma, WA
-Pastor:	Jeff Lockhart
-Coaches:	Rich Nelson, Nancy Shimomura, Rachel Dawson
-Team:	Nathan Gorton
+* **Church**: Life Center A/G, Tacoma, WA
+* **Pastor**: Jeff Lockhart
+* **Coaches**: Rich Nelson, Nancy Shimomura, Rachel Dawson
+* **Team**:
+    * Nathan Gorton
 Rachelle Henderson
 Jack Herbert
 Tammy Nelson
 Nathan Novak
 Brad Shimomura
 * **Round Robin**:
-Round 1: Lost to First A/G, Shreveport, LA 60 to 200
-Round 2: Won against Radiant Church, Colorado Springs, CO 115 to 45
-Round 3: Lost to Cornerstone A/G, Beulah, MI 115 to 150
-Round 4: Bye
-Round 5: Lost to Grace A/G, Syracuse, NY 5 to 155
-Round 6: Won against Central A/G #2, Springfield, MO 165 to 0
-Round 7: Won against Orange Christian Assembly, Orange, CA 150 to 90
-Round 8: Lost to Faith A/G, Orlando, FL 75 to 160
-Round 9: Lost to Evangel Heights A/G, Sarver, PA 100 to 180
-Round 10: Won against First A/G, Greely, CO 165 to 105
-Round 11: Lost to First A/G, Oskaloosa, IA 50 to 130
-Round 12: Won against Calvary A/G, Dunwoody, GA 200 to 35
-Round 13: Won against New Life Community Church, Oshkosh, WI 205 to 35
-Round 14: Lost to Central A/G #1, Springfield, MO -30 to 275
-Round 15: Lost to New Life A/G, Cokato, MN 85 to 135
-Round 16: Lost to Calvary Church, Naperville, IL 175 to 205
-Round 17: Lost to Crossroads Cathedral, Oklahoma City, OK 85 to 195
-Round 18: Lost to College Heights A/G, Bryan, TX 95 to 125
-Round 19: Won against Capitol Hill A/G, Oklahoma, OK 155 to 75
-Round 20: Lost to Allison Park A/G, Allison Park, PA 20 to 110
-Round 21: Lost to First A/G, Fort Myers, FL 5 to 165
-Round 22: Won against Calvary Temple, Auburn, WA 175 to 70
-Round 23: Lost to First A/G, Lexington, KY 50 to 120
+  * Round 1: Lost to First A/G, Shreveport, LA 60 to 200
+  * Round 2: Won against Radiant Church, Colorado Springs, CO 115 to 45
+  * Round 3: Lost to Cornerstone A/G, Beulah, MI 115 to 150
+  * Round 4: Bye
+  * Round 5: Lost to Grace A/G, Syracuse, NY 5 to 155
+  * Round 6: Won against Central A/G #2, Springfield, MO 165 to 0
+  * Round 7: Won against Orange Christian Assembly, Orange, CA 150 to 90
+  * Round 8: Lost to Faith A/G, Orlando, FL 75 to 160
+  * Round 9: Lost to Evangel Heights A/G, Sarver, PA 100 to 180
+  * Round 10: Won against First A/G, Greely, CO 165 to 105
+  * Round 11: Lost to First A/G, Oskaloosa, IA 50 to 130
+  * Round 12: Won against Calvary A/G, Dunwoody, GA 200 to 35
+  * Round 13: Won against New Life Community Church, Oshkosh, WI 205 to 35
+  * Round 14: Lost to Central A/G #1, Springfield, MO -30 to 275
+  * Round 15: Lost to New Life A/G, Cokato, MN 85 to 135
+  * Round 16: Lost to Calvary Church, Naperville, IL 175 to 205
+  * Round 17: Lost to Crossroads Cathedral, Oklahoma City, OK 85 to 195
+  * Round 18: Lost to College Heights A/G, Bryan, TX 95 to 125
+  * Round 19: Won against Capitol Hill A/G, Oklahoma, OK 155 to 75
+  * Round 20: Lost to Allison Park A/G, Allison Park, PA 20 to 110
+  * Round 21: Lost to First A/G, Fort Myers, FL 5 to 165
+  * Round 22: Won against Calvary Temple, Auburn, WA 175 to 70
+  * Round 23: Lost to First A/G, Lexington, KY 50 to 120
 
 #### 2nd Place
 
-Church:	Calvary Temple, Auburn, WA
-Pastor:	James Filbeck
-Coaches:	Ted Barrans, Tami Barrans, Rudy Pierce
-Team:	Emily Berger
+* **Church**: Calvary Temple, Auburn, WA
+* **Pastor**: James Filbeck
+* **Coaches**: Ted Barrans, Tami Barrans, Rudy Pierce
+* **Team**:
+    * Emily Berger
 Amie Haughland
 Kjirstin Haughland
 Kris Olson
 Steven Patient
 Katy Selden
 * **Round Robin**:
-Round 1: Won against Central A/G #2, Springfield, MO 230 to -20
-Round 2: Lost to Orange Christian Assembly, Orange, CA 20 to 45
-Round 3: Won against Faith A/G, Orlando, FL 100 to 85
-Round 4: Won against Evangel Heights A/G, Sarver, PA 85 to 80
-Round 5: Won against First A/G, Greely, CO 115 to 95
-Round 6: Lost to First A/G, Oskaloosa, IA 80 to 160
-Round 7: Lost to Calvary A/G, Dunwoody, GA 105 to 125
-Round 8: Won against New Life Community Church, Oshkosh, WI 170 to 75
-Round 9: Lost to Central A/G #1, Springfield, MO 140 to 195
-Round 10: Lost to New Life A/G, Cokato, MN 60 to 225
-Round 11: Won against Calvary Church, Naperville, IL 135 to 130
-Round 12: Lost to Crossroads Cathedral, Oklahoma City, OK 120 to 130
-Round 13: Won against College Heights A/G, Bryan, TX 160 to 75
-Round 14: Won against Capitol Hill A/G, Oklahoma, OK 175 to 75
-Round 15: Lost to Allison Park A/G, Allison Park, PA 25 to 190
-Round 16: Lost to First A/G, Fort Myers, FL 70 to 250
-Round 17: Bye
-Round 18: Lost to First A/G, Lexington, KY 45 to 115
-Round 19: Lost to First A/G, Shreveport, LA 135 to 190
-Round 20: Won against Radiant Church, Colorado Springs, CO 185 to 90
-Round 21: Lost to Cornerstone A/G, Beulah, MI 110 to 190
-Round 22: Lost to Life Center A/G, Tacoma, WA 70 to 175
-Round 23: Lost to Grace A/G, Syracuse, NY 30 to 200
+  * Round 1: Won against Central A/G #2, Springfield, MO 230 to -20
+  * Round 2: Lost to Orange Christian Assembly, Orange, CA 20 to 45
+  * Round 3: Won against Faith A/G, Orlando, FL 100 to 85
+  * Round 4: Won against Evangel Heights A/G, Sarver, PA 85 to 80
+  * Round 5: Won against First A/G, Greely, CO 115 to 95
+  * Round 6: Lost to First A/G, Oskaloosa, IA 80 to 160
+  * Round 7: Lost to Calvary A/G, Dunwoody, GA 105 to 125
+  * Round 8: Won against New Life Community Church, Oshkosh, WI 170 to 75
+  * Round 9: Lost to Central A/G #1, Springfield, MO 140 to 195
+  * Round 10: Lost to New Life A/G, Cokato, MN 60 to 225
+  * Round 11: Won against Calvary Church, Naperville, IL 135 to 130
+  * Round 12: Lost to Crossroads Cathedral, Oklahoma City, OK 120 to 130
+  * Round 13: Won against College Heights A/G, Bryan, TX 160 to 75
+  * Round 14: Won against Capitol Hill A/G, Oklahoma, OK 175 to 75
+  * Round 15: Lost to Allison Park A/G, Allison Park, PA 25 to 190
+  * Round 16: Lost to First A/G, Fort Myers, FL 70 to 250
+  * Round 17: Bye
+  * Round 18: Lost to First A/G, Lexington, KY 45 to 115
+  * Round 19: Lost to First A/G, Shreveport, LA 135 to 190
+  * Round 20: Won against Radiant Church, Colorado Springs, CO 185 to 90
+  * Round 21: Lost to Cornerstone A/G, Beulah, MI 110 to 190
+  * Round 22: Lost to Life Center A/G, Tacoma, WA 70 to 175
+  * Round 23: Lost to Grace A/G, Syracuse, NY 30 to 200
 
 ### South Central Region
 
 #### 1st Place
 
-Church:	College Heights A/G, Bryan, TX
-Pastor:	Tommy Thompson
-Coach:	Cindy Leopard
-Team:	Aaron Collins
+* **Church**: College Heights A/G, Bryan, TX
+* **Pastor**: Tommy Thompson
+* **Coach**: Cindy Leopard
+* **Team**:
+    * Aaron Collins
 Ralph French
 Amber Harrison
 Courtney Leopard
 Steven Starr
 * **Round Robin**:
-Round 1: Won against First A/G, Greely, CO 165 to 95
-Round 2: Won against First A/G, Oskaloosa, IA 135 to 60
-Round 3: Won against Calvary A/G, Dunwoody, GA 165 to 100
-Round 4: Lost to New Life Community Church, Oshkosh, WI 55 to 130
-Round 5: Lost to Central A/G #1, Springfield, MO 80 to 225
-Round 6: Won against New Life A/G, Cokato, MN 105 to 100
-Round 7: Lost to Calvary Church, Naperville, IL 165 to 185
-Round 8: Won against Crossroads Cathedral, Oklahoma City, OK 170 to 95
-Round 9: Bye
-Round 10: Won against Capitol Hill A/G, Oklahoma, OK 155 to 80
-Round 11: Lost to Allison Park A/G, Allison Park, PA 25 to 155
-Round 12: Won against First A/G, Fort Myers, FL 200 to 55
-Round 13: Lost to Calvary Temple, Auburn, WA 75 to 160
-Round 14: Lost to First A/G, Lexington, KY 105 to 110
-Round 15: Lost to First A/G, Shreveport, LA 5 to 205
-Round 16: Won against Radiant Church, Colorado Springs, CO 170 to 60
-Round 17: Lost to Cornerstone A/G, Beulah, MI 85 to 90
-Round 18: Won against Life Center A/G, Tacoma, WA 125 to 95
-Round 19: Won against Grace A/G, Syracuse, NY 175 to 115
-Round 20: Won against Central A/G #2, Springfield, MO 65 to 20
-Round 21: Won against Orange Christian Assembly, Orange, CA 185 to 20
-Round 22: Won against Faith A/G, Orlando, FL 195 to 85
-Round 23: Lost to Evangel Heights A/G, Sarver, PA 90 to 185
+  * Round 1: Won against First A/G, Greely, CO 165 to 95
+  * Round 2: Won against First A/G, Oskaloosa, IA 135 to 60
+  * Round 3: Won against Calvary A/G, Dunwoody, GA 165 to 100
+  * Round 4: Lost to New Life Community Church, Oshkosh, WI 55 to 130
+  * Round 5: Lost to Central A/G #1, Springfield, MO 80 to 225
+  * Round 6: Won against New Life A/G, Cokato, MN 105 to 100
+  * Round 7: Lost to Calvary Church, Naperville, IL 165 to 185
+  * Round 8: Won against Crossroads Cathedral, Oklahoma City, OK 170 to 95
+  * Round 9: Bye
+  * Round 10: Won against Capitol Hill A/G, Oklahoma, OK 155 to 80
+  * Round 11: Lost to Allison Park A/G, Allison Park, PA 25 to 155
+  * Round 12: Won against First A/G, Fort Myers, FL 200 to 55
+  * Round 13: Lost to Calvary Temple, Auburn, WA 75 to 160
+  * Round 14: Lost to First A/G, Lexington, KY 105 to 110
+  * Round 15: Lost to First A/G, Shreveport, LA 5 to 205
+  * Round 16: Won against Radiant Church, Colorado Springs, CO 170 to 60
+  * Round 17: Lost to Cornerstone A/G, Beulah, MI 85 to 90
+  * Round 18: Won against Life Center A/G, Tacoma, WA 125 to 95
+  * Round 19: Won against Grace A/G, Syracuse, NY 175 to 115
+  * Round 20: Won against Central A/G #2, Springfield, MO 65 to 20
+  * Round 21: Won against Orange Christian Assembly, Orange, CA 185 to 20
+  * Round 22: Won against Faith A/G, Orlando, FL 195 to 85
+  * Round 23: Lost to Evangel Heights A/G, Sarver, PA 90 to 185
 
 #### 2nd Place
 
-Church:	Capitol Hill A/G, Oklahoma, OK
-Pastor:	Frank Cargill
-Coaches:	Richard Clough, Janice Clough
-Team:	Andrea Blow
+* **Church**: Capitol Hill A/G, Oklahoma, OK
+* **Pastor**: Frank Cargill
+* **Coaches**: Richard Clough, Janice Clough
+* **Team**:
+    * Andrea Blow
 Kelli Blow
 Josh Sears
 Becka Shults
 * **Round Robin**:
-Round 1: Lost to Evangel Heights A/G, Sarver, PA 65 to 250
-Round 2: Won against First A/G, Greely, CO 140 to 45
-Round 3: Lost to First A/G, Oskaloosa, IA 30 to 110
-Round 4: Won against Calvary A/G, Dunwoody, GA 120 to 65
-Round 5: Won against New Life Community Church, Oshkosh, WI 125 to 115
-Round 6: Won against Central A/G #1, Springfield, MO 105 to 70
-Round 7: Won against New Life A/G, Cokato, MN 205 to 20
-Round 8: Lost to Calvary Church, Naperville, IL 150 to 155
-Round 9: Lost to Crossroads Cathedral, Oklahoma City, OK 110 to 170
-Round 10: Lost to College Heights A/G, Bryan, TX 80 to 155
-Round 11: Bye
-Round 12: Lost to Allison Park A/G, Allison Park, PA 70 to 175
-Round 13: Lost to First A/G, Fort Myers, FL 30 to 195
-Round 14: Lost to Calvary Temple, Auburn, WA 75 to 175
-Round 15: Lost to First A/G, Lexington, KY 10 to 110
-Round 16: Lost to First A/G, Shreveport, LA 80 to 170
-Round 17: Lost to Radiant Church, Colorado Springs, CO 105 to 125
-Round 18: Lost to Cornerstone A/G, Beulah, MI 85 to 185
-Round 19: Lost to Life Center A/G, Tacoma, WA 75 to 155
-Round 20: Lost to Grace A/G, Syracuse, NY 30 to 190
-Round 21: Lost to Central A/G #2, Springfield, MO 85 to 100
-Round 22: Lost to Orange Christian Assembly, Orange, CA -10 to 60
-Round 23: Lost to Faith A/G, Orlando, FL 120 to 135
+  * Round 1: Lost to Evangel Heights A/G, Sarver, PA 65 to 250
+  * Round 2: Won against First A/G, Greely, CO 140 to 45
+  * Round 3: Lost to First A/G, Oskaloosa, IA 30 to 110
+  * Round 4: Won against Calvary A/G, Dunwoody, GA 120 to 65
+  * Round 5: Won against New Life Community Church, Oshkosh, WI 125 to 115
+  * Round 6: Won against Central A/G #1, Springfield, MO 105 to 70
+  * Round 7: Won against New Life A/G, Cokato, MN 205 to 20
+  * Round 8: Lost to Calvary Church, Naperville, IL 150 to 155
+  * Round 9: Lost to Crossroads Cathedral, Oklahoma City, OK 110 to 170
+  * Round 10: Lost to College Heights A/G, Bryan, TX 80 to 155
+  * Round 11: Bye
+  * Round 12: Lost to Allison Park A/G, Allison Park, PA 70 to 175
+  * Round 13: Lost to First A/G, Fort Myers, FL 30 to 195
+  * Round 14: Lost to Calvary Temple, Auburn, WA 75 to 175
+  * Round 15: Lost to First A/G, Lexington, KY 10 to 110
+  * Round 16: Lost to First A/G, Shreveport, LA 80 to 170
+  * Round 17: Lost to Radiant Church, Colorado Springs, CO 105 to 125
+  * Round 18: Lost to Cornerstone A/G, Beulah, MI 85 to 185
+  * Round 19: Lost to Life Center A/G, Tacoma, WA 75 to 155
+  * Round 20: Lost to Grace A/G, Syracuse, NY 30 to 190
+  * Round 21: Lost to Central A/G #2, Springfield, MO 85 to 100
+  * Round 22: Lost to Orange Christian Assembly, Orange, CA -10 to 60
+  * Round 23: Lost to Faith A/G, Orlando, FL 120 to 135
 
 #### 3rd Place
 
-Church:	Crossroads Cathedral, Oklahoma City, OK
-Pastor:	Daniel Shaeffer
-Coaches:	Patricia Reynolds, Michelle Gill
-Team:	B.J. Barrick
+* **Church**: Crossroads Cathedral, Oklahoma City, OK
+* **Pastor**: Daniel Shaeffer
+* **Coaches**: Patricia Reynolds, Michelle Gill
+* **Team**:
+    * B.J. Barrick
 Chad Cates
 Alesha Guruswamy
 Megan Stephens
 * **Round Robin**:
-Round 1: Won against First A/G, Oskaloosa, IA 195 to 40
-Round 2: Lost to Calvary A/G, Dunwoody, GA 35 to 65
-Round 3: Lost to New Life Community Church, Oshkosh, WI 110 to 140
-Round 4: Lost to Central A/G #1, Springfield, MO 75 to 115
-Round 5: Lost to New Life A/G, Cokato, MN 130 to 180
-Round 6: Lost to Calvary Church, Naperville, IL 70 to 195
-Round 7: Bye
-Round 8: Lost to College Heights A/G, Bryan, TX 95 to 170
-Round 9: Won against Capitol Hill A/G, Oklahoma, OK 170 to 110
-Round 10: Won against Allison Park A/G, Allison Park, PA 135 to 75
-Round 11: Lost to First A/G, Fort Myers, FL 70 to 145
-Round 12: Won against Calvary Temple, Auburn, WA 130 to 120
-Round 13: Won against First A/G, Lexington, KY 175 to 90
-Round 14: Lost to First A/G, Shreveport, LA 70 to 195
-Round 15: Won against Radiant Church, Colorado Springs, CO 85 to 50
-Round 16: Won against Cornerstone A/G, Beulah, MI 155 to 140
-Round 17: Won against Life Center A/G, Tacoma, WA 195 to 85
-Round 18: Lost to Grace A/G, Syracuse, NY 55 to 90
-Round 19: Lost to Central A/G #2, Springfield, MO 90 to 130
-Round 20: Won against Orange Christian Assembly, Orange, CA 195 to 110
-Round 21: Won against Faith A/G, Orlando, FL 125 to 20
-Round 22: Lost to Evangel Heights A/G, Sarver, PA 85 to 180
-Round 23: Won against First A/G, Greely, CO 120 to 65
+  * Round 1: Won against First A/G, Oskaloosa, IA 195 to 40
+  * Round 2: Lost to Calvary A/G, Dunwoody, GA 35 to 65
+  * Round 3: Lost to New Life Community Church, Oshkosh, WI 110 to 140
+  * Round 4: Lost to Central A/G #1, Springfield, MO 75 to 115
+  * Round 5: Lost to New Life A/G, Cokato, MN 130 to 180
+  * Round 6: Lost to Calvary Church, Naperville, IL 70 to 195
+  * Round 7: Bye
+  * Round 8: Lost to College Heights A/G, Bryan, TX 95 to 170
+  * Round 9: Won against Capitol Hill A/G, Oklahoma, OK 170 to 110
+  * Round 10: Won against Allison Park A/G, Allison Park, PA 135 to 75
+  * Round 11: Lost to First A/G, Fort Myers, FL 70 to 145
+  * Round 12: Won against Calvary Temple, Auburn, WA 130 to 120
+  * Round 13: Won against First A/G, Lexington, KY 175 to 90
+  * Round 14: Lost to First A/G, Shreveport, LA 70 to 195
+  * Round 15: Won against Radiant Church, Colorado Springs, CO 85 to 50
+  * Round 16: Won against Cornerstone A/G, Beulah, MI 155 to 140
+  * Round 17: Won against Life Center A/G, Tacoma, WA 195 to 85
+  * Round 18: Lost to Grace A/G, Syracuse, NY 55 to 90
+  * Round 19: Lost to Central A/G #2, Springfield, MO 90 to 130
+  * Round 20: Won against Orange Christian Assembly, Orange, CA 195 to 110
+  * Round 21: Won against Faith A/G, Orlando, FL 125 to 20
+  * Round 22: Lost to Evangel Heights A/G, Sarver, PA 85 to 180
+  * Round 23: Won against First A/G, Greely, CO 120 to 65
 
 ### Southeast Region
 
 #### 1st Place
 
-Church:	First A/G, Fort Myers, FL
-Pastor:	Dan Betzer
-Coaches:	Jan Talbott, Michelle Talbott
-Team:	Joshua Stewart
+* **Church**: First A/G, Fort Myers, FL
+* **Pastor**: Dan Betzer
+* **Coaches**: Jan Talbott, Michelle Talbott
+* **Team**:
+    * Joshua Stewart
 Jennifer Talbott
 Jessica Talbott
 Zach Talbott
 * **Round Robin**:
-Round 1: Won against Orange Christian Assembly, Orange, CA 220 to 60
-Round 2: Lost to Faith A/G, Orlando, FL 80 to 90
-Round 3: Lost to Evangel Heights A/G, Sarver, PA 95 to 180
-Round 4: Lost to First A/G, Greely, CO 35 to 150
-Round 5: Won against First A/G, Oskaloosa, IA 120 to 40
-Round 6: Won against Calvary A/G, Dunwoody, GA 150 to 90
-Round 7: Won against New Life Community Church, Oshkosh, WI 230 to -25
-Round 8: Lost to Central A/G #1, Springfield, MO 65 to 160
-Round 9: Won against New Life A/G, Cokato, MN 210 to 130
-Round 10: Lost to Calvary Church, Naperville, IL 110 to 205
-Round 11: Won against Crossroads Cathedral, Oklahoma City, OK 145 to 70
-Round 12: Lost to College Heights A/G, Bryan, TX 55 to 200
-Round 13: Won against Capitol Hill A/G, Oklahoma, OK 195 to 30
-Round 14: Lost to Allison Park A/G, Allison Park, PA 85 to 110
-Round 15: Bye
-Round 16: Won against Calvary Temple, Auburn, WA 250 to 70
-Round 17: Lost to First A/G, Lexington, KY 125 to 145
-Round 18: Lost to First A/G, Shreveport, LA 75 to 180
-Round 19: Won against Radiant Church, Colorado Springs, CO 200 to 40
-Round 20: Won against Cornerstone A/G, Beulah, MI 135 to 100
-Round 21: Won against Life Center A/G, Tacoma, WA 165 to 5
-Round 22: Lost to Grace A/G, Syracuse, NY 90 to 150
-Round 23: Lost to Central A/G #2, Springfield, MO 10 to 195
+  * Round 1: Won against Orange Christian Assembly, Orange, CA 220 to 60
+  * Round 2: Lost to Faith A/G, Orlando, FL 80 to 90
+  * Round 3: Lost to Evangel Heights A/G, Sarver, PA 95 to 180
+  * Round 4: Lost to First A/G, Greely, CO 35 to 150
+  * Round 5: Won against First A/G, Oskaloosa, IA 120 to 40
+  * Round 6: Won against Calvary A/G, Dunwoody, GA 150 to 90
+  * Round 7: Won against New Life Community Church, Oshkosh, WI 230 to -25
+  * Round 8: Lost to Central A/G #1, Springfield, MO 65 to 160
+  * Round 9: Won against New Life A/G, Cokato, MN 210 to 130
+  * Round 10: Lost to Calvary Church, Naperville, IL 110 to 205
+  * Round 11: Won against Crossroads Cathedral, Oklahoma City, OK 145 to 70
+  * Round 12: Lost to College Heights A/G, Bryan, TX 55 to 200
+  * Round 13: Won against Capitol Hill A/G, Oklahoma, OK 195 to 30
+  * Round 14: Lost to Allison Park A/G, Allison Park, PA 85 to 110
+  * Round 15: Bye
+  * Round 16: Won against Calvary Temple, Auburn, WA 250 to 70
+  * Round 17: Lost to First A/G, Lexington, KY 125 to 145
+  * Round 18: Lost to First A/G, Shreveport, LA 75 to 180
+  * Round 19: Won against Radiant Church, Colorado Springs, CO 200 to 40
+  * Round 20: Won against Cornerstone A/G, Beulah, MI 135 to 100
+  * Round 21: Won against Life Center A/G, Tacoma, WA 165 to 5
+  * Round 22: Lost to Grace A/G, Syracuse, NY 90 to 150
+  * Round 23: Lost to Central A/G #2, Springfield, MO 10 to 195
 
 #### 2nd Place
 
-Church:	Calvary A/G, Dunwoody, GA
-Pastor:	Dennis Lacy
-Coaches:	Sharon Sundell, Dawn Veneman
-Team:	Bethany Ellis
+* **Church**: Calvary A/G, Dunwoody, GA
+* **Pastor**: Dennis Lacy
+* **Coaches**: Sharon Sundell, Dawn Veneman
+* **Team**:
+    * Bethany Ellis
 Kristen Kirk
 Crystal Streuber
 Seth Sundell
 Sheldon Sundell
 * **Round Robin**:
-Round 1: Lost to Calvary Church, Naperville, IL 25 to 330
-Round 2: Won against Crossroads Cathedral, Oklahoma City, OK 65 to 35
-Round 3: Lost to College Heights A/G, Bryan, TX 100 to 165
-Round 4: Lost to Capitol Hill A/G, Oklahoma, OK 65 to 120
-Round 5: Lost to Allison Park A/G, Allison Park, PA 75 to 165
-Round 6: Lost to First A/G, Fort Myers, FL 90 to 150
-Round 7: Won against Calvary Temple, Auburn, WA 125 to 105
-Round 8: Lost to First A/G, Lexington, KY 90 to 145
-Round 9: Lost to First A/G, Shreveport, LA 105 to 195
-Round 10: Won against Radiant Church, Colorado Springs, CO 135 to 70
-Round 11: Lost to Cornerstone A/G, Beulah, MI 95 to 200
-Round 12: Lost to Life Center A/G, Tacoma, WA 35 to 200
-Round 13: Lost to Grace A/G, Syracuse, NY 75 to 135
-Round 14: Won against Central A/G #2, Springfield, MO 145 to 35
-Round 15: Lost to Orange Christian Assembly, Orange, CA 15 to 35
-Round 16: Won against Faith A/G, Orlando, FL 135 to 10
-Round 17: Lost to Evangel Heights A/G, Sarver, PA 60 to 240
-Round 18: Lost to First A/G, Greely, CO 95 to 130
-Round 19: Won against First A/G, Oskaloosa, IA 160 to 95
-Round 20: Bye
-Round 21: Won against New Life Community Church, Oshkosh, WI 80 to 20
-Round 22: Lost to Central A/G #1, Springfield, MO 10 to 215
-Round 23: Lost to New Life A/G, Cokato, MN 40 to 170
+  * Round 1: Lost to Calvary Church, Naperville, IL 25 to 330
+  * Round 2: Won against Crossroads Cathedral, Oklahoma City, OK 65 to 35
+  * Round 3: Lost to College Heights A/G, Bryan, TX 100 to 165
+  * Round 4: Lost to Capitol Hill A/G, Oklahoma, OK 65 to 120
+  * Round 5: Lost to Allison Park A/G, Allison Park, PA 75 to 165
+  * Round 6: Lost to First A/G, Fort Myers, FL 90 to 150
+  * Round 7: Won against Calvary Temple, Auburn, WA 125 to 105
+  * Round 8: Lost to First A/G, Lexington, KY 90 to 145
+  * Round 9: Lost to First A/G, Shreveport, LA 105 to 195
+  * Round 10: Won against Radiant Church, Colorado Springs, CO 135 to 70
+  * Round 11: Lost to Cornerstone A/G, Beulah, MI 95 to 200
+  * Round 12: Lost to Life Center A/G, Tacoma, WA 35 to 200
+  * Round 13: Lost to Grace A/G, Syracuse, NY 75 to 135
+  * Round 14: Won against Central A/G #2, Springfield, MO 145 to 35
+  * Round 15: Lost to Orange Christian Assembly, Orange, CA 15 to 35
+  * Round 16: Won against Faith A/G, Orlando, FL 135 to 10
+  * Round 17: Lost to Evangel Heights A/G, Sarver, PA 60 to 240
+  * Round 18: Lost to First A/G, Greely, CO 95 to 130
+  * Round 19: Won against First A/G, Oskaloosa, IA 160 to 95
+  * Round 20: Bye
+  * Round 21: Won against New Life Community Church, Oshkosh, WI 80 to 20
+  * Round 22: Lost to Central A/G #1, Springfield, MO 10 to 215
+  * Round 23: Lost to New Life A/G, Cokato, MN 40 to 170
 
 #### 3rd Place
 
-Church:	Faith A/G, Orlando, FL
-Pastor:	Carl Stephens
-Coaches:	Ray Berkey, Angie Berkey
-Team:	Malisa Berkey
+* **Church**: Faith A/G, Orlando, FL
+* **Pastor**: Carl Stephens
+* **Coaches**: Ray Berkey, Angie Berkey
+* **Team**:
+    * Malisa Berkey
 Scott Berkey
 Scott Bland
 Joshua Hawks
 Michael Minardi
 Kevin Quinones
 * **Round Robin**:
-Round 1: Lost to Allison Park A/G, Allison Park, PA 130 to 140
-Round 2: Won against First A/G, Fort Myers, FL 90 to 80
-Round 3: Lost to Calvary Temple, Auburn, WA 85 to 100
-Round 4: Lost to First A/G, Lexington, KY 90 to 150
-Round 5: Lost to First A/G, Shreveport, LA 100 to 215
-Round 6: Won against Radiant Church, Colorado Springs, CO 90 to 85
-Round 7: Lost to Cornerstone A/G, Beulah, MI 85 to 155
-Round 8: Won against Life Center A/G, Tacoma, WA 160 to 75
-Round 9: Lost to Grace A/G, Syracuse, NY 90 to 230
-Round 10: Lost to Central A/G #2, Springfield, MO 70 to 155
-Round 11: Won against Orange Christian Assembly, Orange, CA 200 to 15
-Round 12: Bye
-Round 13: Lost to Evangel Heights A/G, Sarver, PA 110 to 130
-Round 14: Lost to First A/G, Greely, CO 120 to 135
-Round 15: Won against First A/G, Oskaloosa, IA 80 to -25
-Round 16: Lost to Calvary A/G, Dunwoody, GA 10 to 135
-Round 17: Lost to New Life Community Church, Oshkosh, WI 100 to 200
-Round 18: Lost to Central A/G #1, Springfield, MO 60 to 120
-Round 19: Lost to New Life A/G, Cokato, MN 50 to 135
-Round 20: Lost to Calvary Church, Naperville, IL 60 to 180
-Round 21: Lost to Crossroads Cathedral, Oklahoma City, OK 20 to 125
-Round 22: Lost to College Heights A/G, Bryan, TX 85 to 195
-Round 23: Won against Capitol Hill A/G, Oklahoma, OK 135 to 120
+  * Round 1: Lost to Allison Park A/G, Allison Park, PA 130 to 140
+  * Round 2: Won against First A/G, Fort Myers, FL 90 to 80
+  * Round 3: Lost to Calvary Temple, Auburn, WA 85 to 100
+  * Round 4: Lost to First A/G, Lexington, KY 90 to 150
+  * Round 5: Lost to First A/G, Shreveport, LA 100 to 215
+  * Round 6: Won against Radiant Church, Colorado Springs, CO 90 to 85
+  * Round 7: Lost to Cornerstone A/G, Beulah, MI 85 to 155
+  * Round 8: Won against Life Center A/G, Tacoma, WA 160 to 75
+  * Round 9: Lost to Grace A/G, Syracuse, NY 90 to 230
+  * Round 10: Lost to Central A/G #2, Springfield, MO 70 to 155
+  * Round 11: Won against Orange Christian Assembly, Orange, CA 200 to 15
+  * Round 12: Bye
+  * Round 13: Lost to Evangel Heights A/G, Sarver, PA 110 to 130
+  * Round 14: Lost to First A/G, Greely, CO 120 to 135
+  * Round 15: Won against First A/G, Oskaloosa, IA 80 to -25
+  * Round 16: Lost to Calvary A/G, Dunwoody, GA 10 to 135
+  * Round 17: Lost to New Life Community Church, Oshkosh, WI 100 to 200
+  * Round 18: Lost to Central A/G #1, Springfield, MO 60 to 120
+  * Round 19: Lost to New Life A/G, Cokato, MN 50 to 135
+  * Round 20: Lost to Calvary Church, Naperville, IL 60 to 180
+  * Round 21: Lost to Crossroads Cathedral, Oklahoma City, OK 20 to 125
+  * Round 22: Lost to College Heights A/G, Bryan, TX 85 to 195
+  * Round 23: Won against Capitol Hill A/G, Oklahoma, OK 135 to 120
 
 ### Southwest Region
 
 #### 1st Place
 
-Church:	Orange Christian Assembly, Orange, CA
-Pastor:	Carl Floyd
-Coach:	Greg House
-Team:	Sarah Shewey
+* **Church**: Orange Christian Assembly, Orange, CA
+* **Pastor**: Carl Floyd
+* **Coach**: Greg House
+* **Team**:
+    * Sarah Shewey
 Stephen Shewey
 * **Round Robin**:
-Round 1: Lost to First A/G, Fort Myers, FL 60 to 220
-Round 2: Won against Calvary Temple, Auburn, WA 45 to 20
-Round 3: Lost to First A/G, Lexington, KY 50 to 205
-Round 4: Lost to First A/G, Shreveport, LA 20 to 250
-Round 5: Won against Radiant Church, Colorado Springs, CO 90 to 65
-Round 6: Lost to Cornerstone A/G, Beulah, MI 40 to 215
-Round 7: Lost to Life Center A/G, Tacoma, WA 90 to 150
-Round 8: Lost to Grace A/G, Syracuse, NY 90 to 145
-Round 9: Lost to Central A/G #2, Springfield, MO 85 to 110
-Round 10: Bye
-Round 11: Lost to Faith A/G, Orlando, FL 15 to 200
-Round 12: Lost to Evangel Heights A/G, Sarver, PA -5 to 175
-Round 13: Lost to First A/G, Greely, CO 75 to 115
-Round 14: Won against First A/G, Oskaloosa, IA 145 to -10
-Round 15: Won against Calvary A/G, Dunwoody, GA 35 to 15
-Round 16: Won against New Life Community Church, Oshkosh, WI 120 to 110
-Round 17: Lost to Central A/G #1, Springfield, MO 55 to 215
-Round 18: Won against New Life A/G, Cokato, MN 95 to 0
-Round 19: Lost to Calvary Church, Naperville, IL 10 to 235
-Round 20: Lost to Crossroads Cathedral, Oklahoma City, OK 110 to 195
-Round 21: Lost to College Heights A/G, Bryan, TX 20 to 185
-Round 22: Won against Capitol Hill A/G, Oklahoma, OK 60 to -10
-Round 23: Lost to Allison Park A/G, Allison Park, PA 75 to 260
+  * Round 1: Lost to First A/G, Fort Myers, FL 60 to 220
+  * Round 2: Won against Calvary Temple, Auburn, WA 45 to 20
+  * Round 3: Lost to First A/G, Lexington, KY 50 to 205
+  * Round 4: Lost to First A/G, Shreveport, LA 20 to 250
+  * Round 5: Won against Radiant Church, Colorado Springs, CO 90 to 65
+  * Round 6: Lost to Cornerstone A/G, Beulah, MI 40 to 215
+  * Round 7: Lost to Life Center A/G, Tacoma, WA 90 to 150
+  * Round 8: Lost to Grace A/G, Syracuse, NY 90 to 145
+  * Round 9: Lost to Central A/G #2, Springfield, MO 85 to 110
+  * Round 10: Bye
+  * Round 11: Lost to Faith A/G, Orlando, FL 15 to 200
+  * Round 12: Lost to Evangel Heights A/G, Sarver, PA -5 to 175
+  * Round 13: Lost to First A/G, Greely, CO 75 to 115
+  * Round 14: Won against First A/G, Oskaloosa, IA 145 to -10
+  * Round 15: Won against Calvary A/G, Dunwoody, GA 35 to 15
+  * Round 16: Won against New Life Community Church, Oshkosh, WI 120 to 110
+  * Round 17: Lost to Central A/G #1, Springfield, MO 55 to 215
+  * Round 18: Won against New Life A/G, Cokato, MN 95 to 0
+  * Round 19: Lost to Calvary Church, Naperville, IL 10 to 235
+  * Round 20: Lost to Crossroads Cathedral, Oklahoma City, OK 110 to 195
+  * Round 21: Lost to College Heights A/G, Bryan, TX 20 to 185
+  * Round 22: Won against Capitol Hill A/G, Oklahoma, OK 60 to -10
+  * Round 23: Lost to Allison Park A/G, Allison Park, PA 75 to 260
 
 #### 2nd Place
 
-Church:	Radiant Church, Colorado Springs, CO
-Pastor:	Don Steiger
-Coaches:	Phil Steiger, Heather Steiger
-Team:	(name removed)
+* **Church**: Radiant Church, Colorado Springs, CO
+* **Pastor**: Don Steiger
+* **Coaches**: Phil Steiger, Heather Steiger
+* **Team**:
+    * (name removed)
 Laura Jones
 Rachel Jones
 Megan Roberts
 Jordan Schneider
 * **Round Robin**:
-Round 1: Lost to Cornerstone A/G, Beulah, MI 25 to 205
-Round 2: Lost to Life Center A/G, Tacoma, WA 45 to 115
-Round 3: Lost to Grace A/G, Syracuse, NY 40 to 205
-Round 4: Won against Central A/G #2, Springfield, MO 155 to 50
-Round 5: Lost to Orange Christian Assembly, Orange, CA 65 to 90
-Round 6: Lost to Faith A/G, Orlando, FL 85 to 90
-Round 7: Lost to Evangel Heights A/G, Sarver, PA 60 to 175
-Round 8: Won against First A/G, Greely, CO 225 to 10
-Round 9: Won against First A/G, Oskaloosa, IA 175 to 140
-Round 10: Lost to Calvary A/G, Dunwoody, GA 70 to 135
-Round 11: Won against New Life Community Church, Oshkosh, WI 215 to 0
-Round 12: Lost to Central A/G #1, Springfield, MO 50 to 195
-Round 13: Won against New Life A/G, Cokato, MN 160 to 50
-Round 14: Lost to Calvary Church, Naperville, IL 5 to 215
-Round 15: Lost to Crossroads Cathedral, Oklahoma City, OK 50 to 85
-Round 16: Lost to College Heights A/G, Bryan, TX 60 to 170
-Round 17: Won against Capitol Hill A/G, Oklahoma, OK 125 to 105
-Round 18: Lost to Allison Park A/G, Allison Park, PA 110 to 135
-Round 19: Lost to First A/G, Fort Myers, FL 40 to 200
-Round 20: Lost to Calvary Temple, Auburn, WA 90 to 185
-Round 21: Lost to First A/G, Lexington, KY 45 to 135
-Round 22: Lost to First A/G, Shreveport, LA 85 to 175
+  * Round 1: Lost to Cornerstone A/G, Beulah, MI 25 to 205
+  * Round 2: Lost to Life Center A/G, Tacoma, WA 45 to 115
+  * Round 3: Lost to Grace A/G, Syracuse, NY 40 to 205
+  * Round 4: Won against Central A/G #2, Springfield, MO 155 to 50
+  * Round 5: Lost to Orange Christian Assembly, Orange, CA 65 to 90
+  * Round 6: Lost to Faith A/G, Orlando, FL 85 to 90
+  * Round 7: Lost to Evangel Heights A/G, Sarver, PA 60 to 175
+  * Round 8: Won against First A/G, Greely, CO 225 to 10
+  * Round 9: Won against First A/G, Oskaloosa, IA 175 to 140
+  * Round 10: Lost to Calvary A/G, Dunwoody, GA 70 to 135
+  * Round 11: Won against New Life Community Church, Oshkosh, WI 215 to 0
+  * Round 12: Lost to Central A/G #1, Springfield, MO 50 to 195
+  * Round 13: Won against New Life A/G, Cokato, MN 160 to 50
+  * Round 14: Lost to Calvary Church, Naperville, IL 5 to 215
+  * Round 15: Lost to Crossroads Cathedral, Oklahoma City, OK 50 to 85
+  * Round 16: Lost to College Heights A/G, Bryan, TX 60 to 170
+  * Round 17: Won against Capitol Hill A/G, Oklahoma, OK 125 to 105
+  * Round 18: Lost to Allison Park A/G, Allison Park, PA 110 to 135
+  * Round 19: Lost to First A/G, Fort Myers, FL 40 to 200
+  * Round 20: Lost to Calvary Temple, Auburn, WA 90 to 185
+  * Round 21: Lost to First A/G, Lexington, KY 45 to 135
+  * Round 22: Lost to First A/G, Shreveport, LA 85 to 175
 
-#### 3rd Place	Church:	First A/G, Greely, CO
-Pastor:	James Ayers
-Coaches:	Joan Rotharmel, Danele Rotharmel, Jon Boddy
-Team:	Joshua Goldsworth
+#### 3rd Place Church: First A/G, Greely, CO
+* **Pastor**: James Ayers
+* **Coaches**: Joan Rotharmel, Danele Rotharmel, Jon Boddy
+* **Team**:
+    * Joshua Goldsworth
 Nathan Goldsworth
 Stephen Massey
 Jonathan Shumate
 Amy Worrell
 * **Round Robin**:
-Round 1: Lost to College Heights A/G, Bryan, TX 95 to 165
-Round 2: Lost to Capitol Hill A/G, Oklahoma, OK 45 to 140
-Round 3: Lost to Allison Park A/G, Allison Park, PA 55 to 160
-Round 4: Won against First A/G, Fort Myers, FL 150 to 35
-Round 5: Lost to Calvary Temple, Auburn, WA 95 to 115
-Round 6: Won against First A/G, Lexington, KY 70 to 65
-Round 7: Lost to First A/G, Shreveport, LA 45 to 240
-Round 8: Lost to Radiant Church, Colorado Springs, CO 10 to 225
-Round 9: Lost to Cornerstone A/G, Beulah, MI 25 to 210
-Round 10: Lost to Life Center A/G, Tacoma, WA 105 to 165
-Round 11: Lost to Grace A/G, Syracuse, NY 55 to 215
-Round 12: Lost to Central A/G #2, Springfield, MO 50 to 130
-Round 13: Won against Orange Christian Assembly, Orange, CA 115 to 75
-Round 14: Won against Faith A/G, Orlando, FL 135 to 120
-Round 15: Lost to Evangel Heights A/G, Sarver, PA 80 to 105
-Round 16: Bye
-Round 17: Won against First A/G, Oskaloosa, IA 120 to 30
-Round 18: Won against Calvary A/G, Dunwoody, GA 130 to 95
-Round 19: Won against New Life Community Church, Oshkosh, WI 140 to 55
-Round 20: Lost to Central A/G #1, Springfield, MO -30 to 275
-Round 21: Won against New Life A/G, Cokato, MN 160 to 105
-Round 22: Lost to Calvary Church, Naperville, IL 50 to 110
-Round 23: Lost to Crossroads Cathedral, Oklahoma City, OK 65 to 120
+  * Round 1: Lost to College Heights A/G, Bryan, TX 95 to 165
+  * Round 2: Lost to Capitol Hill A/G, Oklahoma, OK 45 to 140
+  * Round 3: Lost to Allison Park A/G, Allison Park, PA 55 to 160
+  * Round 4: Won against First A/G, Fort Myers, FL 150 to 35
+  * Round 5: Lost to Calvary Temple, Auburn, WA 95 to 115
+  * Round 6: Won against First A/G, Lexington, KY 70 to 65
+  * Round 7: Lost to First A/G, Shreveport, LA 45 to 240
+  * Round 8: Lost to Radiant Church, Colorado Springs, CO 10 to 225
+  * Round 9: Lost to Cornerstone A/G, Beulah, MI 25 to 210
+  * Round 10: Lost to Life Center A/G, Tacoma, WA 105 to 165
+  * Round 11: Lost to Grace A/G, Syracuse, NY 55 to 215
+  * Round 12: Lost to Central A/G #2, Springfield, MO 50 to 130
+  * Round 13: Won against Orange Christian Assembly, Orange, CA 115 to 75
+  * Round 14: Won against Faith A/G, Orlando, FL 135 to 120
+  * Round 15: Lost to Evangel Heights A/G, Sarver, PA 80 to 105
+  * Round 16: Bye
+  * Round 17: Won against First A/G, Oskaloosa, IA 120 to 30
+  * Round 18: Won against Calvary A/G, Dunwoody, GA 130 to 95
+  * Round 19: Won against New Life Community Church, Oshkosh, WI 140 to 55
+  * Round 20: Lost to Central A/G #1, Springfield, MO -30 to 275
+  * Round 21: Won against New Life A/G, Cokato, MN 160 to 105
+  * Round 22: Lost to Calvary Church, Naperville, IL 50 to 110
+  * Round 23: Lost to Crossroads Cathedral, Oklahoma City, OK 65 to 120
 
 ## Individual Tournament
 
