@@ -23,7 +23,7 @@ The event was won by Citrus Heights A/G, Citrus Heights, CA (pictured). The seco
 ### Teams
 
 {% include notification.html
-   message="The results are based on win-loss record, and a four-team playoff for first place. When equal records exist, the ties are broken first by head to head; second by head to head and point differential; and third by head to head, point differential and point total."
+   message="The results are based on win-loss record, and a playoff for second place. When equal records exist, the ties are broken first by head to head; second by head to head and point differential; and third by head to head, point differential and point total."
    icon="fas fa-info-circle"
    status="is-success" %}
 

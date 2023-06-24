@@ -28,7 +28,7 @@ This quiz year was the first year that Dave Hatley coached our team.  Dave was a
 All of us but Megan were returning quizzers from 1996 nationals, so we had a decent level of experience.  We went to three 
 tournaments that year and did decently at all three.  We were in a tie for first at the Friendship Classic and almost won the last 
 match against Sarver (in fact, the question I'd been waiting for all week was the question that sealed the match 
-for the other team�I was on the bench for missing a quote).
+for the other team - I was on the bench for missing a quote).
 
 About a month before nationals, we had one of the first pre-nationals tournaments I'm aware of.  There were maybe six teams 
 there and we did a double round-robin.  As none of the rest of our team could make it, I quizzed alone.  I actually won a match 
@@ -86,7 +86,7 @@ comes in the name of the Lord".  I had a perfect hit, perfect quote and got it t
 
 Then came the playoffs.  The first match, we played Shreveport and Waco played Sunnyvale.  The first match went ok.  Jeremy Horn from 
 Shreveport went out backward and that basically decided the game.  I do remember a question in that match that was a Quotation 
-Completion, and it didn't have a unique starting word, however, in those days that rule didn't exist.  It was something like "Do not be�" 
+Completion, and it didn't have a unique starting word, however, in those days that rule didn't exist.  It was something like "Do not be - " 
 from a chapter with four of those statements.  We did a contest on it that I'm still kind of proud of, even though we didn't get it.  It was 
 still invalid for the text to not start at the beginning of the verse.  I knew that of the four "Do not be"s in that chapter, one didn't start at 
 the beginning of the verse, so we tried contesting validity on the off-chance that that's what was on their page.  Of course, it wasn't.  
@@ -113,7 +113,7 @@ it and it was denied.  That was the only contest of the match that I felt might 
 a question and the same quizzer who had already contested twice contested my answer.  It was denied.  To my great surprise, when 
 they denied it, Greg House's table (at which the question writer also sat), broke into applause.  I still smile when I think of that.  
 I remember it caused a big stink on the current forum, but honestly it never would've happened if the room hadn't applauded on 
-the first contest.  The last question, I was up by 5 and Jeremy hit the question from Matthew 10, "Jesus did not�"  I was almost 
-certain he couldn't get it, but he completed it "�come to bring what" (the answer was peace).  He got it and won the scholarship quiz.
+the first contest.  The last question, I was up by 5 and Jeremy hit the question from Matthew 10, "Jesus did not - "  I was almost 
+certain he couldn't get it, but he completed it " - come to bring what" (the answer was peace).  He got it and won the scholarship quiz.
 
 I love the memories I have of that quiz year.  I have formed so many life-long friendships because of Bible Quiz and many started that year.
