@@ -12,7 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-The 35th National Bible Quiz Finals took place July 9-13, 1996 in Springfield, Missouri at Central Assembly of God covering the books of Hebrews and I,II Peter. Rich Percifield was the National Coordinator and Bryan Turner was the official question writer.
+The 34th National Bible Quiz Finals took place July 9-13, 1996 in Springfield, Missouri at Central Assembly of God covering the books of Hebrews and I,II Peter. Rich Percifield was the National Coordinator and Bryan Turner was the official question writer.
 
 This was the first year in which 24 teams were invited to participate and where all teams play in a full round-robin, although the Northwest region did not send a third-place team this year. From 1993 to 1995, only four third-place teams were allowed to participate.
 
