@@ -861,4 +861,4 @@ The one-on-one was won by Dan Smith of Lakewood, CA. This was the second consecu
 ## Memories
 * [Dan Smith]({% link _pages/history/1993/memories/dan-smith.md %})
 * [Jason Sorens]({% link _pages/history/1993/memories/jason-sorens.md %})
-* [Questions]({% link assets/1993/national-questions.jpg %})
+* [Questions]({% link assets/1993/national-questions.pdf %})
