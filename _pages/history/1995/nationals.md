@@ -12,7 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-The 34th National Bible Quiz Finals took place August 7-10, 1995 in St. Louis, Missouri at the Regal Riverfront Hotel covering the gospel of John. Rich Percifield was the National Coordinator and Mike Batty was the official question writer.
+The 33rd National Bible Quiz Finals took place August 7-10, 1995 in St. Louis, Missouri at the Regal Riverfront Hotel covering the gospel of John. Rich Percifield was the National Coordinator and Mike Batty was the official question writer.
 
 This was the last year in which the third-place tournament was held on Monday. The eight third-place teams from each region were invited to participate in a tournament among themselves on Monday. The top four teams were allowed to compete for the championship with the other 16 teams. Several third-place teams declined to participate, and some that did participate only got to quiz on Monday.
 
