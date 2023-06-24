@@ -178,9 +178,9 @@ The top scorer at the 1999 National Finals was Kent Piacenti of Orange Hills A/G
 * **Coach**: Maureen Harr
 * **Team**:
     * Kyle Harr
-Stephanie Harr
-Tyler King
-Amber Malcolm
+    * Stephanie Harr
+    * Tyler King
+    * Amber Malcolm
 
 #### 2nd Place
 
@@ -189,8 +189,8 @@ Amber Malcolm
 * **Coach**: Pamela Whitehead
 * **Team**:
     * David Whitehead
-Kathryn Whitehead
-Mark Whitehead
+    * Kathryn Whitehead
+    * Mark Whitehead
 
 #### 3rd Place
 
@@ -199,9 +199,9 @@ Mark Whitehead
 * **Coach**: Walter David, Jr.
 * **Team**:
     * Andre Rodriguez
-Daniel Rodriguez
-Janelle Rodriguez
-Steve Whitson
+    * Daniel Rodriguez
+    * Janelle Rodriguez
+    * Steve Whitson
 
 ### Gulf Region
 
@@ -212,8 +212,8 @@ Steve Whitson
 * **Coach**: David Hatley
 * **Team**:
     * Joey Bohanon
-Megan Pincombe
-James Swinford
+    * Megan Pincombe
+    * James Swinford
 
 #### 2nd Place
 
@@ -222,10 +222,10 @@ James Swinford
 * **Coach**: Kevin Dawson
 * **Team**:
     * Brandon Davis
-Hannah Duncan
-Eric Hernando
-David Johnson
-Joey Laurine
+    * Hannah Duncan
+    * Eric Hernando
+    * David Johnson
+    * Joey Laurine
 
 #### 3rd Place
 
@@ -234,8 +234,8 @@ Joey Laurine
 * **Coach**: Linda Berry
 * **Team**:
     * Abby Ades
-Justin Ades
-Jason Pilgrim
+    * Justin Ades
+    * Jason Pilgrim
 
 ### North Central Region
 
@@ -246,11 +246,11 @@ Jason Pilgrim
 * **Coach**: Charlotte Beyer
 * **Team**:
     * Annette Beaver
-Michelle Beaver
-Kendi Beyer
-Krisha Beyer
-Sara Schutte
-Alex Seemann
+    * Michelle Beaver
+    * Kendi Beyer
+    * Krisha Beyer
+    * Sara Schutte
+    * Alex Seemann
 
 #### 2nd Place
 
@@ -259,9 +259,9 @@ Alex Seemann
 * **Coach**: Koleen Keathley
 * **Team**:
     * Towela Magai
-Colin McMillan
-Naomi Weisbrook
-Seth Weisbrook
+    * Colin McMillan
+    * Naomi Weisbrook
+    * Seth Weisbrook
 
 #### 3rd Place
 
@@ -270,10 +270,10 @@ Seth Weisbrook
 * **Coach**: Steve Pentz
 * **Team**:
     * Joshua Nickel
-David Pentz
-Nathan Pentz
-Peter Pentz
-Ashley Scott
+    * David Pentz
+    * Nathan Pentz
+    * Peter Pentz
+    * Ashley Scott
 
 ### Northeast Region
 
@@ -284,10 +284,10 @@ Ashley Scott
 * **Coach**: John Porter
 * **Team**:
     * Jim Fenton
-Jeff Herzberg
-Nikki Milliron
-David Scarborough
-Dave Shim
+    * Jeff Herzberg
+    * Nikki Milliron
+    * David Scarborough
+    * Dave Shim
 
 #### 2nd Place
 
@@ -296,8 +296,8 @@ Dave Shim
 * **Coach**: John Nardozzi
 * **Team**:
     * Ryan Cooper
-Stan Hardter
-Rob Thousand
+    * Stan Hardter
+    * Rob Thousand
 
 #### 3rd Place
 
@@ -306,9 +306,9 @@ Rob Thousand
 * **Coach**: Tom McLaughlin
 * **Team**:
     * Dan McLaughlin
-Michelle McLaughlin
-John Wroblewski
-David Young
+    * Michelle McLaughlin
+    * John Wroblewski
+    * David Young
 
 ### Northwest Region
 
@@ -319,11 +319,11 @@ David Young
 * **Coach**: Ted Barrans
 * **Team**:
     * Aaron Fell
-Kirstin Haugland
-Steve Patient
-Joyce Punnoose
-Mindy Rogers
-Ross Rogers
+    * Kirstin Haugland
+    * Steve Patient
+    * Joyce Punnoose
+    * Mindy Rogers
+    * Ross Rogers
 
 #### 2nd Place
 
@@ -332,10 +332,10 @@ Ross Rogers
 * **Coach**: Kent Kloefkorn
 * **Team**:
     * Pat Bjorklund
-Brett Flower
-Jessice Neilson
-Dave Savage
-Ryan Skolrud
+    * Brett Flower
+    * Jessice Neilson
+    * Dave Savage
+    * Ryan Skolrud
 
 #### 3rd Place
 
@@ -344,9 +344,9 @@ Ryan Skolrud
 * **Coach**: Kevin Wilson
 * **Team**:
     * Will Jenson
-Wendy Mercer
-Jennifer Pon
-Jon Pon
+    * Wendy Mercer
+    * Jennifer Pon
+    * Jon Pon
 
 ### South Central Region
 
@@ -357,9 +357,9 @@ Jon Pon
 * **Coach**: Bryan Turner
 * **Team**:
     * Bryan Batchelder
-Caleb Booth
-Grant Shafer
-Brycen Turner
+    * Caleb Booth
+    * Grant Shafer
+    * Brycen Turner
 
 #### 2nd Place
 
@@ -368,9 +368,9 @@ Brycen Turner
 * **Coach**: Paul Kramer
 * **Team**:
     * Charles Anyanwu
-Prince Anyanwu
-Nathaniel McFarland
-George Ukomad
+    * Prince Anyanwu
+    * Nathaniel McFarland
+    * George Ukomad
 
 #### 3rd Place
 
@@ -379,11 +379,11 @@ George Ukomad
 * **Coach**: Gilda Shorter
 * **Team**:
     * Jennifer Martin
-Kuntye Samqui
-Pentyi Samqui
-Dayla Shorter
-Dayton Shorter
-Joshua Van Horn
+    * Kuntye Samqui
+    * Pentyi Samqui
+    * Dayla Shorter
+    * Dayton Shorter
+    * Joshua Van Horn
 
 ### Southeast Region
 
@@ -394,8 +394,8 @@ Joshua Van Horn
 * **Coach**: Ron Johnson
 * **Team**:
     * Charity Daniel
-Jennifer Dunn
-Abigail Knotts
+    * Jennifer Dunn
+    * Abigail Knotts
 
 #### 2nd Place
 
@@ -404,9 +404,9 @@ Abigail Knotts
 * **Coach**: Earl Affrey
 * **Team**:
     * Len Blackson
-Adam Groenewoud
-Jennifer Hunter
-Katie Shepherd
+    * Adam Groenewoud
+    * Jennifer Hunter
+    * Katie Shepherd
 
 #### 3rd Place
 
@@ -415,8 +415,8 @@ Katie Shepherd
 * **Coach**: Christine Thomas
 * **Team**:
     * Brandon Blankenship
-Amy Thomas
-Shane Welborn
+    * Amy Thomas
+    * Shane Welborn
 
 ### Southwest Region
 
@@ -427,10 +427,10 @@ Shane Welborn
 * **Coach**: Greg House
 * **Team**:
     * David Dorey
-Rick Haney
-Dapo Masha
-David Masha
-Kent Piacenti
+    * Rick Haney
+    * Dapo Masha
+    * David Masha
+    * Kent Piacenti
 
 #### 2nd Place
 
@@ -439,10 +439,10 @@ Kent Piacenti
 * **Coach**: Phil Steiger
 * **Team**:
     * Preston Drobeck
-Megan Miller
-Mary Pace
-Ryan Popineall
-Jordan Schneider
+    * Megan Miller
+    * Mary Pace
+    * Ryan Popineall
+    * Jordan Schneider
 
 #### 3rd Place
 
@@ -451,8 +451,8 @@ Jordan Schneider
 * **Coach**: Tom Van Kempen
 * **Team**:
     * Faith Allwood
-Alex Harris
-Derek Harris
-Valerie Marchalonis
-Terry Nance
-Thomas Van Kempen
+    * Alex Harris
+    * Derek Harris
+    * Valerie Marchalonis
+    * Terry Nance
+    * Thomas Van Kempen

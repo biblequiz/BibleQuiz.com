@@ -177,11 +177,11 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 * **Coaches**: David Papendick, Bonnie Papendick
 * **Team**:
     * Rebekah Anderson
-Gail Gandy
-Jolene Papendick
-Betsy Regenfuss
-Missy Senf
-Alisha Smith
+    * Gail Gandy
+    * Jolene Papendick
+    * Betsy Regenfuss
+    * Missy Senf
+    * Alisha Smith
 * **Round Robin**:
   * Round 1: Won against Calvary A/G, Dunwoody, GA 330 to 25
   * Round 2: Won against New Life Community Church, Oshkosh, WI 180 to 15
@@ -215,8 +215,8 @@ Playoff: Lost to Central A/G #1, Springfield, MO 70 to 175
 * **Coach**: Nancy Slater
 * **Team**:
     * Candace Evans
-April Slater
-Daniel Slater
+    * April Slater
+    * Daniel Slater
 * **Round Robin**:
   * Round 1: Won against Radiant Church, Colorado Springs, CO 205 to 25
   * Round 2: Bye
@@ -249,9 +249,9 @@ Daniel Slater
 * **Coaches**: Donna Rees, Bill Reinig, Venessa Buckel, Brynn Wade
 * **Team**:
     * Krista Buckel
-Becky Rees
-David Rees
-Kacey Wade
+    * Becky Rees
+    * David Rees
+    * Kacey Wade
 * **Round Robin**:
   * Round 1: Lost to Grace A/G, Syracuse, NY 130 to 185
   * Round 2: Won against Central A/G #2, Springfield, MO 150 to 0
@@ -286,9 +286,9 @@ Kacey Wade
 * **Coaches**: Tim Jacobs, Jackie Norcross
 * **Team**:
     * Shelby Alfred
-Jeremy Horn
-Aaron Smith
-Robby Thompson
+    * Jeremy Horn
+    * Aaron Smith
+    * Robby Thompson
 * **Round Robin**:
   * Round 1: Won against Life Center A/G, Tacoma, WA 200 to 60
   * Round 2: Lost to Grace A/G, Syracuse, NY 45 to 145
@@ -321,8 +321,8 @@ Robby Thompson
 * **Coach**: Dilla Dawson
 * **Team**:
     * Karl Dawson
-Todd Katter
-Kayla Dee Rowe
+    * Todd Katter
+    * Kayla Dee Rowe
 * **Round Robin**:
   * Round 1: Bye
   * Round 2: Won against New Life A/G, Cokato, MN 115 to 110
@@ -356,9 +356,9 @@ Playoff: Won against Calvary Church, Naperville, IL
 * **Coach**: Kevin Dawson
 * **Team**:
     * Eric Best
-Joey Bohanon
-Philip Dickey
-Emily Stallman
+    * Joey Bohanon
+    * Philip Dickey
+    * Emily Stallman
 * **Round Robin**:
   * Round 1: Lost to Calvary Temple, Auburn, WA -20 to 230
   * Round 2: Lost to First A/G, Lexington, KY 0 to 150
@@ -393,9 +393,9 @@ Emily Stallman
 * **Coaches**: Mark Banas, Sheri Johnson
 * **Team**:
     * Tim Barberg
-Kerry Forare
-Shannon Forare
-Molly Jacobsen
+    * Kerry Forare
+    * Shannon Forare
+    * Molly Jacobsen
 * **Round Robin**:
   * Round 1: Won against New Life Community Church, Oshkosh, WI 115 to 55
   * Round 2: Lost to Central A/G #1, Springfield, MO 110 to 115
@@ -428,7 +428,7 @@ Molly Jacobsen
 * **Coach**: Charlotte Beyer
 * **Team**:
     * Krisha Beyer
-Jon Higgins
+    * Jon Higgins
 * **Round Robin**:
   * Round 1: Lost to Crossroads Cathedral, Oklahoma City, OK 40 to 195
   * Round 2: Lost to College Heights A/G, Bryan, TX 60 to 135
@@ -461,11 +461,11 @@ Jon Higgins
 * **Coaches**: Steven Pentz, Carol Lynch
 * **Team**:
     * Katie Boldt
-John Danula
-Mandie Lynch
-Angie Pentz
-David Pentz
-Rebekah Schaalma
+    * John Danula
+    * Mandie Lynch
+    * Angie Pentz
+    * David Pentz
+    * Rebekah Schaalma
 * **Round Robin**:
   * Round 1: Lost to New Life A/G, Cokato, MN 55 to 115
   * Round 2: Lost to Calvary Church, Naperville, IL 15 to 180
@@ -500,10 +500,10 @@ Rebekah Schaalma
 * **Coaches**: Lorna Albanese, Kathy Astor
 * **Team**:
     * Mike Claessens
-Melanie Fedon
-Kelsey Kirin
-Krista Kowalsky
-Nathan Watkins
+    * Melanie Fedon
+    * Kelsey Kirin
+    * Krista Kowalsky
+    * Nathan Watkins
 * **Round Robin**:
   * Round 1: Won against Capitol Hill A/G, Oklahoma, OK 250 to 65
   * Round 2: Won against Allison Park A/G, Allison Park, PA 105 to 100
@@ -536,9 +536,9 @@ Nathan Watkins
 * **Coach**: Mary Daigle
 * **Team**:
     * Joy Daigle
-Tika Daigle
-Nicole Martin
-Michelle McLaughlin
+    * Tika Daigle
+    * Nicole Martin
+    * Michelle McLaughlin
 * **Round Robin**:
   * Round 1: Won against First A/G, Lexington, KY 185 to 130
   * Round 2: Won against First A/G, Shreveport, LA 145 to 45
@@ -571,9 +571,9 @@ Michelle McLaughlin
 * **Coaches**: John Porter, Eric Wissner
 * **Team**:
     * Jim Fenton
-Jason Martin
-Jennifer Shim
-Mike Straub
+    * Jason Martin
+    * Jennifer Shim
+    * Mike Straub
 * **Round Robin**:
   * Round 1: Won against Faith A/G, Orlando, FL 140 to 130
   * Round 2: Lost to Evangel Heights A/G, Sarver, PA 100 to 105
@@ -608,11 +608,11 @@ Mike Straub
 * **Coaches**: Rich Nelson, Nancy Shimomura, Rachel Dawson
 * **Team**:
     * Nathan Gorton
-Rachelle Henderson
-Jack Herbert
-Tammy Nelson
-Nathan Novak
-Brad Shimomura
+    * Rachelle Henderson
+    * Jack Herbert
+    * Tammy Nelson
+    * Nathan Novak
+    * Brad Shimomura
 * **Round Robin**:
   * Round 1: Lost to First A/G, Shreveport, LA 60 to 200
   * Round 2: Won against Radiant Church, Colorado Springs, CO 115 to 45
@@ -645,11 +645,11 @@ Brad Shimomura
 * **Coaches**: Ted Barrans, Tami Barrans, Rudy Pierce
 * **Team**:
     * Emily Berger
-Amie Haughland
-Kjirstin Haughland
-Kris Olson
-Steven Patient
-Katy Selden
+    * Amie Haughland
+    * Kjirstin Haughland
+    * Kris Olson
+    * Steven Patient
+    * Katy Selden
 * **Round Robin**:
   * Round 1: Won against Central A/G #2, Springfield, MO 230 to -20
   * Round 2: Lost to Orange Christian Assembly, Orange, CA 20 to 45
@@ -684,10 +684,10 @@ Katy Selden
 * **Coach**: Cindy Leopard
 * **Team**:
     * Aaron Collins
-Ralph French
-Amber Harrison
-Courtney Leopard
-Steven Starr
+    * Ralph French
+    * Amber Harrison
+    * Courtney Leopard
+    * Steven Starr
 * **Round Robin**:
   * Round 1: Won against First A/G, Greely, CO 165 to 95
   * Round 2: Won against First A/G, Oskaloosa, IA 135 to 60
@@ -720,9 +720,9 @@ Steven Starr
 * **Coaches**: Richard Clough, Janice Clough
 * **Team**:
     * Andrea Blow
-Kelli Blow
-Josh Sears
-Becka Shults
+    * Kelli Blow
+    * Josh Sears
+    * Becka Shults
 * **Round Robin**:
   * Round 1: Lost to Evangel Heights A/G, Sarver, PA 65 to 250
   * Round 2: Won against First A/G, Greely, CO 140 to 45
@@ -755,9 +755,9 @@ Becka Shults
 * **Coaches**: Patricia Reynolds, Michelle Gill
 * **Team**:
     * B.J. Barrick
-Chad Cates
-Alesha Guruswamy
-Megan Stephens
+    * Chad Cates
+    * Alesha Guruswamy
+    * Megan Stephens
 * **Round Robin**:
   * Round 1: Won against First A/G, Oskaloosa, IA 195 to 40
   * Round 2: Lost to Calvary A/G, Dunwoody, GA 35 to 65
@@ -792,9 +792,9 @@ Megan Stephens
 * **Coaches**: Jan Talbott, Michelle Talbott
 * **Team**:
     * Joshua Stewart
-Jennifer Talbott
-Jessica Talbott
-Zach Talbott
+    * Jennifer Talbott
+    * Jessica Talbott
+    * Zach Talbott
 * **Round Robin**:
   * Round 1: Won against Orange Christian Assembly, Orange, CA 220 to 60
   * Round 2: Lost to Faith A/G, Orlando, FL 80 to 90
@@ -827,10 +827,10 @@ Zach Talbott
 * **Coaches**: Sharon Sundell, Dawn Veneman
 * **Team**:
     * Bethany Ellis
-Kristen Kirk
-Crystal Streuber
-Seth Sundell
-Sheldon Sundell
+    * Kristen Kirk
+    * Crystal Streuber
+    * Seth Sundell
+    * Sheldon Sundell
 * **Round Robin**:
   * Round 1: Lost to Calvary Church, Naperville, IL 25 to 330
   * Round 2: Won against Crossroads Cathedral, Oklahoma City, OK 65 to 35
@@ -863,11 +863,11 @@ Sheldon Sundell
 * **Coaches**: Ray Berkey, Angie Berkey
 * **Team**:
     * Malisa Berkey
-Scott Berkey
-Scott Bland
-Joshua Hawks
-Michael Minardi
-Kevin Quinones
+    * Scott Berkey
+    * Scott Bland
+    * Joshua Hawks
+    * Michael Minardi
+    * Kevin Quinones
 * **Round Robin**:
   * Round 1: Lost to Allison Park A/G, Allison Park, PA 130 to 140
   * Round 2: Won against First A/G, Fort Myers, FL 90 to 80
@@ -902,7 +902,7 @@ Kevin Quinones
 * **Coach**: Greg House
 * **Team**:
     * Sarah Shewey
-Stephen Shewey
+    * Stephen Shewey
 * **Round Robin**:
   * Round 1: Lost to First A/G, Fort Myers, FL 60 to 220
   * Round 2: Won against Calvary Temple, Auburn, WA 45 to 20
@@ -935,10 +935,10 @@ Stephen Shewey
 * **Coaches**: Phil Steiger, Heather Steiger
 * **Team**:
     * (name removed)
-Laura Jones
-Rachel Jones
-Megan Roberts
-Jordan Schneider
+    * Laura Jones
+    * Rachel Jones
+    * Megan Roberts
+    * Jordan Schneider
 * **Round Robin**:
   * Round 1: Lost to Cornerstone A/G, Beulah, MI 25 to 205
   * Round 2: Lost to Life Center A/G, Tacoma, WA 45 to 115
@@ -963,15 +963,17 @@ Jordan Schneider
   * Round 21: Lost to First A/G, Lexington, KY 45 to 135
   * Round 22: Lost to First A/G, Shreveport, LA 85 to 175
 
-#### 3rd Place Church: First A/G, Greely, CO
+#### 3rd Place
+
+* **Church**: First A/G, Greely, CO
 * **Pastor**: James Ayers
 * **Coaches**: Joan Rotharmel, Danele Rotharmel, Jon Boddy
 * **Team**:
     * Joshua Goldsworth
-Nathan Goldsworth
-Stephen Massey
-Jonathan Shumate
-Amy Worrell
+    * Nathan Goldsworth
+    * Stephen Massey
+    * Jonathan Shumate
+    * Amy Worrell
 * **Round Robin**:
   * Round 1: Lost to College Heights A/G, Bryan, TX 95 to 165
   * Round 2: Lost to Capitol Hill A/G, Oklahoma, OK 45 to 140

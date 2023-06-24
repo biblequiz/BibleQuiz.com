@@ -188,9 +188,9 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 * **Coaches**: Donna Rees, Timus Rees
 * **Team**:
     * Stephen Horn
-Becky Rees
-David Rees
-Kacey Wade
+    * Becky Rees
+    * David Rees
+    * Kacey Wade
 * **Round Robin**:
   * Round 1: Won against First A/G #2, Fort Myers, FL 255 to 70
   * Round 2: Won against Allison Park A/G, Allison Park, PA 135 to 110
@@ -223,10 +223,10 @@ Kacey Wade
 * **Coaches**: John Hunter, David Bonham
 * **Team**:
     * Ryan Clark
-Stephanie Hunter
-Shawn Maust
-Bethany Runyon
-Kimberly Slabaugh
+    * Stephanie Hunter
+    * Shawn Maust
+    * Bethany Runyon
+    * Kimberly Slabaugh
 * **Round Robin**:
   * Round 1: Lost to Harvest A/G, Fort Worth, TX 80 to 85
   * Round 2: Won against King's Chapel, Springfield, MO 150 to 105
@@ -259,10 +259,10 @@ Kimberly Slabaugh
 * **Coach**: Lori Eby
 * **Team**:
     * Ryan Decker
-Wynter Gingery
-Amber Lovell
-Amy Swanson
-Moriah Thacker
+    * Wynter Gingery
+    * Amber Lovell
+    * Amy Swanson
+    * Moriah Thacker
 * **Round Robin**:
   * Round 1: Lost to Victorious Life Church, Waco, TX 45 to 210
   * Round 2: Lost to First A/G, Oskaloosa, IA 75 to 175
@@ -297,9 +297,9 @@ Moriah Thacker
 * **Coaches**: David Hatley, Melissa Hatley
 * **Team**:
     * Joey Bohanon
-Todd Katter
-Megan Pincombe
-Kayla Rowe
+    * Todd Katter
+    * Megan Pincombe
+    * Kayla Rowe
 * **Round Robin**:
   * Round 1: Won against Calvary Temple, Auburn, WA 160 to 75
   * Round 2: Won against Racine A/G, Racine, WI 195 to 20
@@ -334,10 +334,10 @@ Playoff 2: Won against Waco, TX 155 to 80
 * **Coaches**: Tim Jacobs, Jackie Norcross
 * **Team**:
     * Shelby Alfred
-Jeremy DeLaCerda
-Jeremy Horn
-DeAndre Johnson
-David Skidmore
+    * Jeremy DeLaCerda
+    * Jeremy Horn
+    * DeAndre Johnson
+    * David Skidmore
 * **Round Robin**:
   * Round 1: Won against First A/G, Phoenix, AZ 170 to 150
   * Round 2: Won against First A/G, Warner Robins, GA 175 to 80
@@ -371,9 +371,9 @@ Playoff 1: Lost to Central A/G, Springfield, MO 70 to 115
 * **Coaches**: Kevin Dawson, Dilla Dawson
 * **Team**:
     * Thomas Chenault
-Eric Hernando
-Matthew Hernando
-Tonia Marie Lee
+    * Eric Hernando
+    * Matthew Hernando
+    * Tonia Marie Lee
 * **Round Robin**:
   * Round 1: Lost to Allison Park A/G, Allison Park, PA 30 to 165
   * Round 2: Lost to Calvary A/G, Elkhart, IN 105 to 150
@@ -408,8 +408,8 @@ Tonia Marie Lee
 * **Coaches**: Charlotte Beyer, Susan Beaver
 * **Team**:
     * Michelle S. Beaver
-Krisha Beyer
-Jon Higgins
+    * Krisha Beyer
+    * Jon Higgins
 * **Round Robin**:
   * Round 1: Won against First A/G #1, Fort Myers, FL 135 to 115
   * Round 2: Won against Minier A/G, Minier, IL 175 to 75
@@ -442,11 +442,11 @@ Jon Higgins
 * **Coaches**: Nancy Transtrom, Christina Kindel
 * **Team**:
     * Sara Beth Borho
-Kami Ecker
-Jeffrey Kindel
-Michael Kindel
-Jesse Lawrence
-Wallace Ragains
+    * Kami Ecker
+    * Jeffrey Kindel
+    * Michael Kindel
+    * Jesse Lawrence
+    * Wallace Ragains
 * **Round Robin**:
   * Round 1: Lost to Grace A/G, Syracuse, PA -30 to 235
   * Round 2: Won against Mountain View A/G, Las Vegas, NV 135 to 45
@@ -479,10 +479,10 @@ Wallace Ragains
 * **Coaches**: Terry Sanders, Sally Poelman, Bev Hengemuhle
 * **Team**:
     * Courtney Cobb
-Mike Hengemuhle
-Todd Hengemuhle
-Andy Poelman
-Timothy Sanders
+    * Mike Hengemuhle
+    * Todd Hengemuhle
+    * Andy Poelman
+    * Timothy Sanders
 * **Round Robin**:
   * Round 1: Won against First A/G, Warner Robins, GA 110 to 100
   * Round 2: Lost to Central A/G, Springfield, MO 20 to 195
@@ -517,9 +517,9 @@ Timothy Sanders
 * **Coaches**: Bill Burnworth, Connie Burnworth, Vicki Cooper
 * **Team**:
     * Jaron Burnworth
-Alissa Cooper
-Merinda Cooper
-Danielle Goheen
+    * Alissa Cooper
+    * Merinda Cooper
+    * Danielle Goheen
 * **Round Robin**:
   * Round 1: Won against Mountain View A/G, Las Vegas, NV 195 to 75
   * Round 2: Won against First A/G #1, Fort Myers, FL 90 to 80
@@ -552,11 +552,11 @@ Danielle Goheen
 * **Coach**: John Porter
 * **Team**:
     * James Fenton
-Tiffany Kuhn
-Jason Martin
-Jennifer Shim
-Sean Winter
-[name omitted]
+    * Tiffany Kuhn
+    * Jason Martin
+    * Jennifer Shim
+    * Sean Winter
+    * [name omitted]
 * **Round Robin**:
   * Round 1: Won against King's Chapel, Springfield, MO 165 to 30
   * Round 2: Lost to First A/G, Lexington, KY 110 to 135
@@ -589,9 +589,9 @@ Sean Winter
 * **Coaches**: Mary Daigle, Jackie Nardozzi
 * **Team**:
     * Michael Bolognone
-Tika Daigle
-Stan Hardter
-Dan McLaughlin
+    * Tika Daigle
+    * Stan Hardter
+    * Dan McLaughlin
 * **Round Robin**:
   * Round 1: Won against Watford City A/G, Watford City, ND 235 to -30
   * Round 2: Lost to First A/G, Helena, MT 135 to 140
@@ -626,10 +626,10 @@ Dan McLaughlin
 * **Coaches**: Ted Barrans, Tami Barrans, Ross Rogers
 * **Team**:
     * Amie Haugland
-Kjirstin Haugland
-Nathan Novak
-Steve Patient
-Rudy Pierce
+    * Kjirstin Haugland
+    * Nathan Novak
+    * Steve Patient
+    * Rudy Pierce
 * **Round Robin**:
   * Round 1: Lost to Central A/G, Springfield, MO 75 to 160
   * Round 2: Won against Heights A/G, Billings, MT 135 to 85
@@ -662,8 +662,8 @@ Rudy Pierce
 * **Coaches**: Cathy Thaut, Sunetta Ellwein
 * **Team**:
     * Brent Ellwein
-Katie McCleary
-Laura Thaut
+    * Katie McCleary
+    * Laura Thaut
 * **Round Robin**:
   * Round 1: Lost to Life Community Church, Sunnyvale, TX 25 to 245
   * Round 2: Lost to Calvary Temple, Auburn, WA 85 to 135
@@ -694,8 +694,8 @@ Laura Thaut
 * **Church**: First A/G, Helena, MT
 * **Team**:
     * Shaun McFadden
-Adam Bennison
-Laurel Phillips
+    * Adam Bennison
+    * Laurel Phillips
 * **Round Robin**:
   * Round 1: Lost to Radiant Church, Colorado Springs, CO 110 to 160
   * Round 2: Won against Grace A/G, Syracuse, PA 140 to 135
@@ -730,9 +730,9 @@ Laurel Phillips
 * **Coach**: Gilda Shorter
 * **Team**:
     * Jennifer Martin
-Kuntyi Samqui
-Dayla Shorter
-Christy Winner
+    * Kuntyi Samqui
+    * Dayla Shorter
+    * Christy Winner
 * **Round Robin**:
   * Round 1: Won against Calvary A/G, Elkhart, IN 85 to 80
   * Round 2: Lost to Victorious Life Church, Waco, TX 60 to 180
@@ -765,11 +765,11 @@ Christy Winner
 * **Coach**: Dolores Rogers
 * **Team**:
     * Seth Edwards
-Melanie Raines
-Kyle Rogers
-Shelly Rogers
-David Trower
-Darla Wickert
+    * Melanie Raines
+    * Kyle Rogers
+    * Shelly Rogers
+    * David Trower
+    * Darla Wickert
 * **Round Robin**:
   * Round 1: Won against Minier A/G, Minier, IL 210 to 45
   * Round 2: Won against Harvest A/G, Fort Worth, TX 180 to 60
@@ -804,9 +804,9 @@ Playoff 2: Lost to Central A/G, Springfield, MO, 80 to 155
 * **Coaches**: Grace Tribble, Rick Piacenti
 * **Team**:
     * Chris Moyer
-Eric Peters
-Kathleen Peters
-Kent Piacenti
+    * Eric Peters
+    * Kathleen Peters
+    * Kent Piacenti
 * **Round Robin**:
   * Round 1: Won against Heights A/G, Billings, MT 245 to 25
   * Round 2: Lost to Radiant Church, Colorado Springs, CO 120 to 155
@@ -842,9 +842,9 @@ Playoff 1: Lost to Victorious Life Church, Waco, TX 140 to 175
 * **Coaches**: Jan Talbott, Michelle Talbott
 * **Team**:
     * Joshua Stewart
-Jennifer Talbott
-Jessica Talbott
-Zach Talbott
+    * Jennifer Talbott
+    * Jessica Talbott
+    * Zach Talbott
 * **Round Robin**:
   * Round 1: Lost to First A/G, Oskaloosa, IA 115 to 135
   * Round 2: Lost to Alpha A/G, Clarion, PA 80 to 90
@@ -877,9 +877,9 @@ Zach Talbott
 * **Coaches**: Chris Thomas, Beckie Welborn
 * **Team**:
     * Rachel Jerabek
-Jonathan Talbott
-Naomi Welborn
-Shane Welborn
+    * Jonathan Talbott
+    * Naomi Welborn
+    * Shane Welborn
 * **Round Robin**:
   * Round 1: Lost to First A/G, Lexington, KY 70 to 255
   * Round 2: Lost to First A/G, Phoenix, AZ 10 to 200
@@ -912,9 +912,9 @@ Shane Welborn
 * **Coach**: Ken Shirley
 * **Team**:
     * Danielle Bertovich
-Teri Jolissaint
-Sonja Waters
-Adeana Westmeyer
+    * Teri Jolissaint
+    * Sonja Waters
+    * Adeana Westmeyer
 * **Round Robin**:
   * Round 1: Lost to Racine A/G, Racine, WI 100 to 110
   * Round 2: Lost to First A/G, Shreveport, MO 80 to 175
@@ -949,10 +949,10 @@ Adeana Westmeyer
 * **Coach**: Roger Dahlgren
 * **Team**:
     * Renee Bollinger
-Mark Knoles
-Brandon Moore
-Mike Torres
-Michael Vargo
+    * Mark Knoles
+    * Brandon Moore
+    * Mike Torres
+    * Michael Vargo
 * **Round Robin**:
   * Round 1: Lost to First A/G, Shreveport, MO 150 to 170
   * Round 2: Won against First A/G #2, Fort Myers, FL 200 to 10
@@ -985,11 +985,11 @@ Michael Vargo
 * **Coaches**: Phil Steiger, Heather Steiger, Blake Roberts
 * **Team**:
     * Anita Boeninger
-Preston Drobeck
-Rachel Jones
-Megan Miller
-Jordan Schneider
-Chris Sides
+    * Preston Drobeck
+    * Rachel Jones
+    * Megan Miller
+    * Jordan Schneider
+    * Chris Sides
 * **Round Robin**:
   * Round 1: Won against First A/G, Helena, MT 160 to 110
   * Round 2: Won against Life Community Church, Sunnyvale, TX 155 to 120
@@ -1022,9 +1022,9 @@ Chris Sides
 * **Coaches**: Tom Van Kempen, Robin Van Kempen
 * **Team**:
     * Faith Alwood
-Alex Harris
-Valerie Marchalonis
-Terry Nance, Jr.
+    * Alex Harris
+    * Valerie Marchalonis
+    * Terry Nance, Jr.
 * **Round Robin**:
   * Round 1: Lost to Alpha A/G, Clarion, PA 75 to 195
   * Round 2: Lost to Watford City A/G, Watford City, ND 45 to 135

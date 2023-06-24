@@ -229,7 +229,9 @@ The top scorer at the 1992 National Finals was Josh Weber of Lakeland, FL. Josh 
 
 ### Southeast Region
 
-#### 1st Place Church: First A/G, Montgomery, AL
+#### 1st Place
+
+* **Church**: First A/G, Montgomery, AL
 * **Pastor**: Johnny E. Jones
 * **Coaches**: Greg Kelley, Leslie Britt
 * **Team**:

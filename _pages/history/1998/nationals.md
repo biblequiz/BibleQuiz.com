@@ -178,9 +178,9 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 * **Coach**: Russell Kish
 * **Team**:
     * John Angelis
-Abigail Kish
-Olivia Tatum
-Megan Webb
+    * Abigail Kish
+    * Olivia Tatum
+    * Megan Webb
 * **Round Robin**:
   * Round 1: Lost to Allison Park A/G, Allison Park, PA 45 to 240
   * Round 2: Lost to First A/G, Phoenix, AZ 70 to 75
@@ -213,9 +213,9 @@ Megan Webb
 * **Coaches**: Maureen Harr, Rick Harr, Craig King
 * **Team**:
     * Kyle Harr
-Stephanie Harr
-Tyler King
-Amber Malcolm
+    * Stephanie Harr
+    * Tyler King
+    * Amber Malcolm
 * **Round Robin**:
   * Round 1: Won against Park Crest A/G, Springfield, MO 245 to 30
   * Round 2: Lost to Alpha A/G, Clarion, PA 45 to 175
@@ -248,9 +248,9 @@ Amber Malcolm
 * **Coaches**: Lori Eby, Mary Decker
 * **Team**:
     * Cynthia Decker
-Ryan Decker
-Wynter Gingery
-Moriah Thacker
+    * Ryan Decker
+    * Wynter Gingery
+    * Moriah Thacker
 * **Round Robin**:
   * Round 1: Lost to First A/G, Shreveport, LA 35 to 225
   * Round 2: Won against First A/G, Appleton, WI 245 to 10
@@ -285,8 +285,8 @@ Moriah Thacker
 * **Coaches**: Kevin Dawson, Tonia Lee
 * **Team**:
     * Philip Duncan
-Eric Hernando
-Matthew Hernando
+    * Eric Hernando
+    * Matthew Hernando
 * **Round Robin**:
   * Round 1: Lost to First A/G, Phoenix, AZ 95 to 120
   * Round 2: Lost to Radiant Church, Colorado Springs, CO 95 to 150
@@ -319,10 +319,10 @@ Matthew Hernando
 * **Coaches**: Tim Jacobs, Jackie Norcross
 * **Team**:
     * Shelby Alfred
-Andrew Hejtmanek
-Jeremy Horn
-DeAndre Johnson
-Stephen Nichols
+    * Andrew Hejtmanek
+    * Jeremy Horn
+    * DeAndre Johnson
+    * Stephen Nichols
 * **Round Robin**:
   * Round 1: Won against Minier A/G, Minier, IL 225 to 35
   * Round 2: Won against Calvary Temple, Auburn, WA 125 to 115
@@ -355,9 +355,9 @@ Stephen Nichols
 * **Coaches**: George Edgerly, Richard Bennett, Michael Clarensau, Shelly Rogers
 * **Team**:
     * Cassie Bennett
-Tyler Clarensau
-Will Goble
-Ben Roudenis
+    * Tyler Clarensau
+    * Will Goble
+    * Ben Roudenis
 * **Round Robin**:
   * Round 1: Lost to First A/G, East Lansing, MI 30 to 245
   * Round 2: Won against Faith A/G, Orlando, FL 130 to 5
@@ -392,10 +392,10 @@ Ben Roudenis
 * **Coaches**: Terry Sanders, Sally Poelman
 * **Team**:
     * Courtney Cobb
-Mike Hengemuhle
-Todd Hengemuhle
-Andy Poelman
-Timothy Sanders
+    * Mike Hengemuhle
+    * Todd Hengemuhle
+    * Andy Poelman
+    * Timothy Sanders
 * **Round Robin**:
   * Round 1: Lost to Cedar Park A/G, Bothell, WA 145 to 205
   * Round 2: Won against Mountain Home A/G, Mountain Home, ID 145 to 105
@@ -428,8 +428,8 @@ Timothy Sanders
 * **Coaches**: Charlotte Beyer, Susan Beaver
 * **Team**:
     * Michelle S. Beaver
-Krisha Beyer
-Jon Higgins
+    * Krisha Beyer
+    * Jon Higgins
 * **Round Robin**:
   * Round 1: Won against Radiant Church, Colorado Springs, CO 140 to 105
   * Round 2: Won against Cedar Park A/G, Bothell, WA 85 to 65
@@ -462,9 +462,9 @@ Jon Higgins
 * **Coach**: Becky Warden
 * **Team**:
     * Tyler Ferguson
-Brian Kelly
-Rebekah Schaalma
-Michael Thorgersen
+    * Brian Kelly
+    * Rebekah Schaalma
+    * Michael Thorgersen
 * **Round Robin**:
   * Round 1: Lost to Alpha A/G, Clarion, PA 115 to 210
   * Round 2: Lost to Minier A/G, Minier, IL 10 to 245
@@ -499,11 +499,11 @@ Michael Thorgersen
 * **Coaches**: John Porter, Eric Wissner
 * **Team**:
     * Jim Fenton
-Tiffany Kuhn
-Jason Martin
-Nikki Milliron
-Dave Shim
-[name omitted]
+    * Tiffany Kuhn
+    * Jason Martin
+    * Nikki Milliron
+    * Dave Shim
+    * [name omitted]
 * **Round Robin**:
   * Round 1: Won against First A/G, Warren, OH 240 to 45
   * Round 2: Lost to Bethel Temple, Bryan TX -20 to 180
@@ -536,8 +536,8 @@ Dave Shim
 * **Coaches**: Bill Burnworth, Connie Burnworth, Vicki Cooper
 * **Team**:
     * Jaron Burnworth
-Alissa Cooper
-Merinda Cooper
+    * Alissa Cooper
+    * Merinda Cooper
 * **Round Robin**:
   * Round 1: Won against First A/G, Appleton, WI 210 to 115
   * Round 2: Won against First A/G, East Lansing, MI 175 to 45
@@ -570,9 +570,9 @@ Merinda Cooper
 * **Coaches**: Mary Daigle
 * **Team**:
     * Michael Bolognone
-Tika Daigle
-Stan Hardter
-Rob Thousand
+    * Tika Daigle
+    * Stan Hardter
+    * Rob Thousand
 * **Round Robin**:
   * Round 1: Won against Trinity Church, Cedar Hill, TX 215 to 110
   * Round 2: Won against First A/G, Fort Myers, FL 210 to 5
@@ -607,9 +607,9 @@ Rob Thousand
 * **Coaches**: Ted Barrans, Tami Barrans, Monique Fell, Bill Fell
 * **Team**:
     * Christina Barrans
-Aaron Fell
-Kjirstin Haugland
-Steve Patient
+    * Aaron Fell
+    * Kjirstin Haugland
+    * Steve Patient
 * **Round Robin**:
   * Round 1: Won against Cornerstone A/G, Fremont, NC 165 to 145
   * Round 2: Lost to First A/G, Shreveport, LA 115 to 125
@@ -642,11 +642,11 @@ Steve Patient
 * **Coach**: Michael Schneider
 * **Team**:
     * Andrea Bunnis
-Allan Carroll
-Michelle Larrabee
-Chandra Porter
-Marla Porter
-Anthony Rosado
+    * Allan Carroll
+    * Michelle Larrabee
+    * Chandra Porter
+    * Marla Porter
+    * Anthony Rosado
 * **Round Robin**:
   * Round 1: Lost to First A/G, Fort Myers, FL 105 to 140
   * Round 2: Lost to Racine A/G, Racine, WI 105 to 145
@@ -679,10 +679,10 @@ Anthony Rosado
 * **Coach**: Richard Conner
 * **Team**:
     * Christina Diaz
-Jessica Neilson
-Kimberly Samac
-Craig Savage
-Tandy Stitt
+    * Jessica Neilson
+    * Kimberly Samac
+    * Craig Savage
+    * Tandy Stitt
 * **Round Robin**:
   * Round 1: Won against Racine A/G, Racine, WI 205 to 145
   * Round 2: Lost to First A/G, Oskaloosa, IA 65 to 85
@@ -717,9 +717,9 @@ Tandy Stitt
 * **Coaches**: Norma Shuler, Rick Piacenti, Anita Shipman
 * **Team**:
     * Kirk Granberry
-Kristin Herdejurgen
-Kent Piacenti
-Michelle Thayer
+    * Kristin Herdejurgen
+    * Kent Piacenti
+    * Michelle Thayer
 * **Round Robin**:
   * Round 1: Won against Faith A/G, Orlando, FL 240 to 45
   * Round 2: Won against Trinity Church, Cedar Hill, TX 225 to 10
@@ -752,8 +752,8 @@ Michelle Thayer
 * **Coaches**: John Sullivan, Kevin Beachy, Jalane Scott
 * **Team**:
     * Aaron Collins
-Kimberly Sprouse
-Michelle Weathers
+    * Kimberly Sprouse
+    * Michelle Weathers
 * **Round Robin**:
   * Round 1: Won against Mountain View A/G, Las Vegas, NV 260 to 80
   * Round 2: Won against Allison Park A/G, Allison Park, PA 180 to -20
@@ -786,11 +786,11 @@ Michelle Weathers
 * **Coaches**: Paula Brumit, Elizabeth Griffith, Paula Hix
 * **Team**:
     * Aaron Brumit
-Justin Brumit
-Jeremy Hix
-Lori Hix
-Sterling Johnson
-David Womelsdorf
+    * Justin Brumit
+    * Jeremy Hix
+    * Lori Hix
+    * Sterling Johnson
+    * David Womelsdorf
 * **Round Robin**:
   * Round 1: Lost to Grace A/G, Syracuse, NY 110 to 215
   * Round 2: Lost to Greens Bayou, Houston, TX 10 to 225
@@ -825,11 +825,11 @@ David Womelsdorf
 * **Coaches**: Myra Stewart, Becky Welborn
 * **Team**:
     * Chris Davis
-Nathan Phillips
-Joshua Stewart
-Amy Thomas
-Naomi Welborn
-Shane Welborn
+    * Nathan Phillips
+    * Joshua Stewart
+    * Amy Thomas
+    * Naomi Welborn
+    * Shane Welborn
 * **Round Robin**:
   * Round 1: Won against Mountain Home A/G, Mountain Home, ID 140 to 105
   * Round 2: Lost to Grace A/G, Syracuse, NY 5 to 210
@@ -862,8 +862,8 @@ Shane Welborn
 * **Coach**: Ron Johnson
 * **Team**:
     * Charity Daniel
-Jennifer Dunn
-Abigail Knotts
+    * Jennifer Dunn
+    * Abigail Knotts
 * **Round Robin**:
   * Round 1: Lost to Calvary Temple, Auburn, WA 145 to 165
   * Round 2: Won against Mountain View A/G, Las Vegas, NV 80 to 25
@@ -896,10 +896,10 @@ Abigail Knotts
 * **Coaches**: Raymond Berkey, Angela Berkey
 * **Team**:
     * Malisa Berkey
-Joshua Hawks
-Jonathan Maisonet
-Michael Minardi
-Heather Patterson
+    * Joshua Hawks
+    * Jonathan Maisonet
+    * Michael Minardi
+    * Heather Patterson
 * **Round Robin**:
   * Round 1: Lost to Greens Bayou, Houston, TX 45 to 240
   * Round 2: Lost to Park Crest A/G, Springfield, MO 5 to 130
@@ -934,9 +934,9 @@ Heather Patterson
 * **Coach**: Tom Van Kempen
 * **Team**:
     * Alex Harris
-Derek Harris
-Valerie Marchalonis
-Terry Nance, Jr.
+    * Derek Harris
+    * Valerie Marchalonis
+    * Terry Nance, Jr.
 * **Round Robin**:
   * Round 1: Lost to Bethel Temple, Bryan TX 80 to 260
   * Round 2: Lost to Cornerstone A/G, Fremont, NC 25 to 80
@@ -969,11 +969,11 @@ Terry Nance, Jr.
 * **Coaches**: Phil Steiger, Heather Steiger
 * **Team**:
     * Megan Goerzen
-Rachel Jones
-Megan Miller
-Janelle Schneider
-Jordan Schneider
-Chris Sides
+    * Rachel Jones
+    * Megan Miller
+    * Janelle Schneider
+    * Jordan Schneider
+    * Chris Sides
 * **Round Robin**:
   * Round 1: Lost to First A/G, Oskaloosa, IA 105 to 140
   * Round 2: Won against King's Chapel, Springfield, MO 150 to 95
@@ -1006,9 +1006,9 @@ Chris Sides
 * **Coach**: Roger Dahlgren
 * **Team**:
     * Renee Bollinger
-Mark Knoles
-Mike Torres
-Michael Vargo
+    * Mark Knoles
+    * Mike Torres
+    * Michael Vargo
 * **Round Robin**:
   * Round 1: Won against King's Chapel, Springfield, MO 120 to 95
   * Round 2: Won against First A/G, Warren, OH 75 to 70
