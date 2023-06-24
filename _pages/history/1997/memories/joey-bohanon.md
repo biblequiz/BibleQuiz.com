@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /history/1997/memories/joey/
+permalink: /history/1997/memories/joey-bohanon/
 title: "1997 Nationals - Joey Bohanon's Memories"
 author: Joey Bohanon
 menubar_toc: true
