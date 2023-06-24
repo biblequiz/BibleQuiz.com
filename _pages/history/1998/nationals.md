@@ -37,32 +37,32 @@ This year also marked the first time that two quizzers finished first and second
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                                 | Record  | Total | Avg    | Margin | Avg Margin |
-| ---- | ------------------------------------ | ------- | ----- | ------ | ------ | ---------- |
-| 1    | Green's Bayou A/G, Houston, TX       | 21 / 2  | 4630  | 201.3  | 2970   | 129.13     |
-| 2    | Bethel Temple, Bryan, TX             | 20 / 3  | 4365  | 189.78 | 2915   | 126.74     |
-| 3    | Grace A/G, Syracuse, NY              | 17 / 6  | 3385  | 147.17 | 1135   | 49.35      |
-| 4    | Allison Park A/G, Allison Park, PA   | 16 / 7  | 3420  | 148.7  | 1180   | 51.3       |
-| 5    | Mountain View A/G, Las Vegas, NV     | 15 / 8  | 3285  | 142.83 | 895    | 38.91      |
-| 6    | Calvary Temple, Auburn, WA           | 15 / 8  | 3180  | 138.26 | 825    | 35.87      |
-| 7    | King's Chapel, Springfield, MO       | 14 / 9  | 3015  | 131.08 | 475    | 20.65      |
-| 8    | Alpha A/G, Clarion, PA               | 14 / 9  | 3205  | 139.35 | 615    | 26.74      |
-| 9    | First A/G, Shreveport, LA            | 13 / 10 | 3340  | 145.22 | 845    | 36.74      |
-| 10   | Trinity Church, Cedar Hill, TX       | 12 / 11 | 2900  | 126.09 | 95     | 4.13       |
-| 11   | Mountain Home A/G, Mountain Home, ID | 12 / 11 | 2780  | 120.87 | -45    | -1.96      |
-| 12   | Cornerstone A/G, Fremont, NC         | 11 / 12 | 2530  | 110    | -285   | -12.39     |
-| 13   | First A/G, Fort Myers, FL            | 11 / 12 | 2335  | 101.52 | -770   | -33.48     |
-| 14   | First A/G, Warren, OH                | 10 / 13 | 2600  | 113.04 | -385   | -16.74     |
-| 15   | First A/G, Oskaloosa, IA             | 10 / 13 | 2550  | 110.87 | -335   | -14.57     |
-| 16   | First A/G, East Lansing, MI          | 10 / 13 | 2415  | 105    | -430   | -18.7      |
-| 17   | First A/G, Phoenix, AZ               | 10 / 13 | 1850  | 80.43  | -1180  | -51.3      |
-| 18   | Radiant Church, Colorado Springs, CO | 9 / 14  | 2515  | 109.35 | -515   | -22.39     |
-| 19   | Cedar Park A/G, Bothell, WA          | 9 / 14  | 2555  | 111.09 | -325   | -14.13     |
-| 20   | Racine A/G, Racine, WI               | 9 / 14  | 2555  | 111.09 | -420   | -18.26     |
-| 21   | Minier A/G, Minier, IL               | 7 / 16  | 2480  | 107.83 | -755   | -32.83     |
-| 22   | Park Crest A/G, Springfield, MO      | 5 / 18  | 1860  | 80.87  | -1660  | -72.17     |
-| 23   | Faith A/G, Orlando, FL               | 5 / 18  | 1385  | 60.22  | -2425  | -105.43    |
-| 24   | First A/G, Appleton, WI              | 1 / 22  | 1510  | 65.65  | -2420  | -105.22    |
+| Rank | Team                                 | Record  | Total |    Avg | Margin | Avg Margin |
+| ---: | ------------------------------------ | ------- | ----: | -----: | -----: | ---------: |
+|    1 | Green's Bayou A/G, Houston, TX       | 21 / 2  |  4630 |  201.3 |   2970 |     129.13 |
+|    2 | Bethel Temple, Bryan, TX             | 20 / 3  |  4365 | 189.78 |   2915 |     126.74 |
+|    3 | Grace A/G, Syracuse, NY              | 17 / 6  |  3385 | 147.17 |   1135 |      49.35 |
+|    4 | Allison Park A/G, Allison Park, PA   | 16 / 7  |  3420 |  148.7 |   1180 |       51.3 |
+|    5 | Mountain View A/G, Las Vegas, NV     | 15 / 8  |  3285 | 142.83 |    895 |      38.91 |
+|    6 | Calvary Temple, Auburn, WA           | 15 / 8  |  3180 | 138.26 |    825 |      35.87 |
+|    7 | King's Chapel, Springfield, MO       | 14 / 9  |  3015 | 131.08 |    475 |      20.65 |
+|    8 | Alpha A/G, Clarion, PA               | 14 / 9  |  3205 | 139.35 |    615 |      26.74 |
+|    9 | First A/G, Shreveport, LA            | 13 / 10 |  3340 | 145.22 |    845 |      36.74 |
+|   10 | Trinity Church, Cedar Hill, TX       | 12 / 11 |  2900 | 126.09 |     95 |       4.13 |
+|   11 | Mountain Home A/G, Mountain Home, ID | 12 / 11 |  2780 | 120.87 |    -45 |      -1.96 |
+|   12 | Cornerstone A/G, Fremont, NC         | 11 / 12 |  2530 |    110 |   -285 |     -12.39 |
+|   13 | First A/G, Fort Myers, FL            | 11 / 12 |  2335 | 101.52 |   -770 |     -33.48 |
+|   14 | First A/G, Warren, OH                | 10 / 13 |  2600 | 113.04 |   -385 |     -16.74 |
+|   15 | First A/G, Oskaloosa, IA             | 10 / 13 |  2550 | 110.87 |   -335 |     -14.57 |
+|   16 | First A/G, East Lansing, MI          | 10 / 13 |  2415 |    105 |   -430 |      -18.7 |
+|   17 | First A/G, Phoenix, AZ               | 10 / 13 |  1850 |  80.43 |  -1180 |      -51.3 |
+|   18 | Radiant Church, Colorado Springs, CO | 9 / 14  |  2515 | 109.35 |   -515 |     -22.39 |
+|   19 | Cedar Park A/G, Bothell, WA          | 9 / 14  |  2555 | 111.09 |   -325 |     -14.13 |
+|   20 | Racine A/G, Racine, WI               | 9 / 14  |  2555 | 111.09 |   -420 |     -18.26 |
+|   21 | Minier A/G, Minier, IL               | 7 / 16  |  2480 | 107.83 |   -755 |     -32.83 |
+|   22 | Park Crest A/G, Springfield, MO      | 5 / 18  |  1860 |  80.87 |  -1660 |     -72.17 |
+|   23 | Faith A/G, Orlando, FL               | 5 / 18  |  1385 |  60.22 |  -2425 |    -105.43 |
+|   24 | First A/G, Appleton, WI              | 1 / 22  |  1510 |  65.65 |  -2420 |    -105.22 |
 
 ### Individuals
 
