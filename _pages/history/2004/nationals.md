@@ -243,6 +243,64 @@ The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey
 |       74 | Caleb Turnage       | Fond du Lac WI           |    -5 |  -0.26 |        |         |
 |       75 | Lance Witcher       | Jacksonville AR          |   -20 |  -1.05 |        |       8 |
 
+## Preliminaries
+
+### Group A
+
+| Rank | Team                                             | Record | Total  |
+|------|--------------------------------------------------|--------|-----------|
+| 1    | Living Waters Chapel, Lebanon, PA                | 7 / 0  | 1170      |
+| 2    | Christian Chapel, Tulsa, OK                      | 5 / 2  | 815       |
+| 3    | Tacoma Life Center, Tacoma, WA\*                 | 4 / 3  | 820       |
+| 4    | Faith A/G, Orlando, FL                           | 4 / 3  | 755       |
+| 5    | Calvary A/G, Toledo, OH                          | 3 / 4  | 755       |
+| 6    | Good News A/G, St. Cloud, MN                     | 2 / 5  | 730       |
+| 7    | The Church at Briargate #2, Colorado Springs, CO | 2 / 5  | 565       |
+| 8    | Community Church, Orange, TX                     | 1 / 6  | 550       |
+
+\* Won in Playoff
+
+### Group B
+
+| Rank | Team                                          | Record | Total |
+|------|-----------------------------------------------|--------|-------|
+| 1    | Calvary Church, Naperville, IL                | 6 / 1  | 1145  |
+| 2    | James River A/G, Ozark, MO                    | 6 / 1  | 1090  |
+| 3    | Fossil Creek Community Church, Fort Worth, TX | 5 / 2  | 990   |
+| 4    | Oceanway A/G, Jacksonville, FL                | 4 / 3  | 1005  |
+| 5    | First A/G, Hermitage, PA                      | 3 / 4  | 890   |
+| 6    | Red Mountain Christian Center, Mesa, AZ       | 2 / 5  | 545   |
+| 7    | Word of Life, Lynden, WA                      | 1 / 6  | 490   |
+| 8    | Watford City A/G, Watford City, ND            | 1 / 6  | 420   |
+
+### Group C
+
+| Rank | Team                                             | Record | Total |
+|------|--------------------------------------------------|--------|-------|
+| 1    | Cornerstone A/G, Bowie, MD                       | 6 / 1  | 1085  |
+| 2    | Bethel Christian Life Center, West Lafayette, IN | 6 / 1  | 980   |
+| 3    | Monroeville A/G, Monroeville, PA                 | 5 / 2  | 890   |
+| 4    | First A/G, Fort Myers, FL                        | 4 / 3  | 960   |
+| 5    | Noble A/G, Noble, OK                             | 3 / 4  | 385   |
+| 6    | Fond du Lac A/G, Fond du Lac, WI                 | 2 / 5  | 590   |
+| 7    | Family Worship Center, Murfreesboro, TN          | 1 / 6  | 525   |
+| 8    | Orange County Worship Center, Santa Ana, CA      | 1 / 6  | 500   |
+
+### Group D
+
+| Rank | Team                                            | Record | Total |
+|------|-------------------------------------------------|--------|-------|
+| 1    | Calvary Temple, Indianapolis, IN                | 6 / 1  | 1190  |
+| 2    | Braeswood A/G, Houston, TX                      | 5 / 2  | 1130  |
+| 3    | South Hills A/G, Bethel Park, PA\*              | 4 / 3  | 890   |
+| 4    | Calvary Chapel, Seattle, WA                     | 4 / 3  | 905   |
+| 5    | Radiant Life Christian Fellowship, Savannah, GA | 4 / 3  | 695   |
+| 6    | First A/G, Cedar Rapids, IA                     | 3 / 4  | 650   |
+| 7    | Lakeview Christian Center, Indianapolis, IN     | 2 / 5  | 730   |
+| 8    | McArthur A/G, Jacksonville, AR                  | 0 / 7  | 40    |
+
+\* Won against Radiant Life Christian Fellowship, Savannah, GA and Calvary Chapel, Seattle, WA in playoffs
+
 ## Teams
 
 ### Great Lakes Region
@@ -990,7 +1048,7 @@ The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey
   * Round 6: Lost to Calvary Temple, Indianapolis, IN 130 to 215
   * Round 7: Won against Calvary Chapel, Seattle, WA 155 to 130
   * Playoff Round 1: Won against Radiant Life Christian Fellowship, Savannah, GA
-  * Playoff Round 2: Beat Calvary Chapel, Seattle, WA
+  * Playoff Round 2: Won against Calvary Chapel, Seattle, WA
 * **Round Robin**:
   * Round 1: Lost to San Angelo First A/G, San Angelo, TX 0 to 80
   * Round 2: Lost to First A/G, Lexington, KY 105 to 155
