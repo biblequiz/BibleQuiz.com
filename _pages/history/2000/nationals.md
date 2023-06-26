@@ -242,6 +242,64 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 | **66\*** | Jeff Sharkey        | Superior, WI                   |     0 |     0 |      1 |         |
 |       75 | Richie Nelson       | Tacoma, WA                     |   -50 | -2.63 |        |         |
 
+## Preliminaries
+
+### Group A
+
+| Rank | Team                                            | Record | Total |
+| ---: | ----------------------------------------------- | ------ | ----: |
+|    1 | Mountain View A/G, Las Vegas, NV                | 7 / 0  |  1640 |
+|    2 | Adat Yeshua Messianic Center, Overland Park, KS | 5 / 2  |  1250 |
+|    3 | Living Waters Chapel, Lebanon, PA               | 5 / 2  |   995 |
+|    4 | Tacoma Life Center, Tacoma, WA                  | 4 / 3  |   870 |
+|    5 | Chester Christian Center, Chesterland, OH       | 3 / 4  |   705 |
+|    6 | First A/G, Appleton, WI                         | 3 / 4  |   640 |
+|    7 | First A/G, Shreveport, LA                       | 1 / 6  |   460 |
+|    8 | Faith A/G, Kernersville, NC                     | 0 / 7  |   415 |
+
+### Group B
+
+| Rank | Team                           | Record | Total |
+| ---: | ------------------------------ | ------ | ----: |
+|    1 | First A/G, East Lansing, MI    | 6 / 1  |  1185 |
+|    2 | Braeswood A/G, Houston, TX     | 6 / 1  |  1065 |
+|    3 | Expressway A/G, Buffalo, NY*   | 5 / 2  |  1000 |
+|    4 | Cedar Park A/G #2, Bothell, WA | 5 / 2  |   995 |
+|    5 | Cornerstone A/G, Fremont, NC   | 3 / 4  |   990 |
+|    6 | Dixon A/G, Dixon, MO           | 2 / 5  |   420 |
+|    7 | First A/G, Aurora, CO          | 1 / 6  |   280 |
+|    8 | Rochester A/G, Rochester, MN   | 0 / 7  |   285 |
+
+\* Won in Playoff
+
+### Group C
+
+| Rank | Team                                                | Record | Total |
+| ---: | --------------------------------------------------- | ------ | ----: |
+|    1 | Allison Park A/G "Heart and Mind", Allison Park, PA | 7 / 0  |  1275 |
+|    2 | Cedar Park A/G #1, Bothell, WA                      | 5 / 2  |  1200 |
+|    3 | Christian Chapel, Tulsa, OK*                         | 5 / 2  |   985 |
+|    4 | Orange County Worship Center, Santa Ana, CA         | 5 / 2  |   785 |
+|    5 | Bethel Life Christian Center, West Lafayette, IN    | 3 / 4  |   610 |
+|    6 | Faith A/G, Orlando, FL                              | 2 / 5  |   520 |
+|    7 | First A/G, Cedar Rapids, IA                         | 1 / 6  |   535 |
+|    8 | First A/G, Mountain Home, AR                        | 0 / 7  |   295 |
+
+\* Won in Playoff
+
+### Group D
+
+| Rank | Team                                          | Record | Total |
+| ---: | --------------------------------------------- | ------ | ----: |
+|    1 | Radiant Church, Colorado Springs, CO          | 5 / 2  |  1275 |
+|    2 | Minier A/G, Minier, IL                        | 5 / 2  |  1100 |
+|    3 | First A/G, Fort Myers, FL                     | 5 / 2  |   890 |
+|    4 | King's Chapel, Springfield, MO                | 4 / 3  |   995 |
+|    5 | Abundant Life A/G, Grapevine, TX              | 4 / 3  |   725 |
+|    6 | Mountain Home A/G, Mountain Home, ID          | 3 / 4  |   545 |
+|    7 | Allison Park A/G "Whatever", Allison Park, PA | 2 / 5  |   615 |
+|    8 | Central A/G, Superior, WI                     | 0 / 7  |   195 |
+
 ## Teams
 
 ### Great Lakes Region
@@ -293,6 +351,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Tyler King
     * Christine Harr
     * Quinn Harr
+* **Preliminaries**:
+  * Round 1: Won against First A/G, Aurora, CO 155 to 15
+  * Round 2: Won against Dixon A/G, Dixon, MO 230 to 55
+  * Round 3: Won against Expressway A/G, Buffalo, NY 150 to 60
+  * Round 4: Lost to Braeswood A/G, Houston, TX 115 to 150
+  * Round 5: Won against Cornerstone A/G, Fremont, NC 150 to 85
+  * Round 6: Won against Cedar Park A/G #2, Bothell, WA 140 to 75
+  * Round 7: Won against Rochester A/G, Rochester, MN 245 to 35
 * **Round Robin**:
   * Round 1: Won against Living Waters Chapel, Lebanon, PA 135 to 100
   * Round 2: Won against First A/G, Fort Myers, FL 130 to 15
@@ -327,6 +393,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Ryan Decker
     * Kelli Hedding
     * Cynthia Decker
+* **Preliminaries**:
+  * Round 1: Lost to Abundant Life A/G, Grapevine, TX 60 to 80
+  * Round 2: Won against Allison Park A/G "Whatever", Allison Park, PA 225 to 50
+  * Round 3: Lost to Radiant Church, Colorado Springs, CO 125 to 195
+  * Round 4: Won against Central A/G, Superior, WI 220 to 30
+  * Round 5: Won against Mountain Home A/G, Mountain Home, ID 200 to 65
+  * Round 6: Won against King's Chapel, Springfield, MO 155 to 65
+  * Round 7: Won against First A/G, Fort Myers, FL 115 to 105
 * **Round Robin**:
   * Round 1: Won against Radiant Church, Colorado Springs, CO 115 to 75
   * Round 2: Lost to Central A/G, Springfield, MO 95 to 175
@@ -361,6 +435,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Amy Hise
     * Amber Hise
     * Cristina Fiucci
+* **Preliminaries**:
+  * Round 1: Lost to Adat Yeshua Messianic Center, Overland Park, KS 45 to 200
+  * Round 2: Won against First A/G, Shreveport, LA 170 to 70
+  * Round 3: Won against Living Waters Chapel, Lebanon, PA 150 to 135
+  * Round 4: Lost to Mountain View A/G, Las Vegas, NV 40 to 305
+  * Round 5: Won against Faith A/G, Kernersville, NC 155 to 65
+  * Round 6: Lost to Tacoma Life Center, Tacoma, WA 50 to 115
+  * Round 7: Lost to First A/G, Appleton, WI 95 to 120
 * **Round Robin**:
   * Round 1: Won against Rochester A/G, Rochester, MN 235 to 5
   * Round 2: Lost to Cedar Park A/G #2, Bothell, WA 50 to 155
@@ -395,6 +477,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Mark Whitehead
     * Katie Whitehead
     * Emily Whitehead
+* **Preliminaries**:
+  * Round 1: Lost to Cedar Park A/G #1, Bothell, WA 10 to 135
+  * Round 2: Won against First A/G, Cedar Rapids, IA 120 to 65
+  * Round 3: Lost to Orange County Worship Center, Santa Ana, CA 100 to 120
+  * Round 4: Lost to Christian Chapel, Tulsa, OK -5 to 260
+  * Round 5: Lost to Allison Park A/G "Heart and Mind", Allison Park, PA 45 to 105
+  * Round 6: Won against Faith A/G, Orlando, FL 140 to 135
+  * Round 7: Won against First A/G, Mountain Home, AR 200 to 70
 * **Round Robin**:
   * Round 1: Lost to Allison Park A/G #2, Allison Park, PA 80 to 100
   * Round 2: Lost to Faith A/G, Orlando, FL 145 to 150
@@ -467,6 +557,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Eric Hernando
     * Chris Davis
     * Kristin Kowalski
+* **Preliminaries**:
+  * Round 1: Won against Central A/G, Superior, WI 270 to -20
+  * Round 2: Won against First A/G, Fort Myers, FL 155 to 75
+  * Round 3: Lost to Abundant Life A/G, Grapevine, TX 85 to 115
+  * Round 4: Won against Allison Park A/G "Whatever", Allison Park, PA 150 to 110
+  * Round 5: Lost to Radiant Church, Colorado Springs, CO 40 to 155
+  * Round 6: Lost to Minier A/G, Minier, IL 65 to 155
+  * Round 7: Won against Mountain Home A/G, Mountain Home, ID 230 to 90
 * **Round Robin**:
   * Round 1: Won against First A/G, Cedar Rapids, IA 75 to 0
   * Round 2: Lost to Allison Park A/G #2, Allison Park, PA 0 to 180
@@ -500,6 +598,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 * **Team**:
     * Angela Goodman
     * Wesley Glick
+* **Preliminaries**:
+  * Round 1: Won against Rochester A/G, Rochester, MN 105 to 45
+  * Round 2: Lost to First A/G, East Lansing, MI 55 to 230
+  * Round 3: Won against First A/G, Aurora, CO 105 to 25
+  * Round 4: Lost to Expressway A/G, Buffalo, NY 75 to 205
+  * Round 5: Lost to Braeswood A/G, Houston, TX 45 to 175
+  * Round 6: Lost to Cornerstone A/G, Fremont, NC 30 to 235
+  * Round 7: Lost to Cedar Park A/G #2, Bothell, WA 5 to 65
 * **Round Robin**:
   * Round 1: Lost to Tacoma Life Center, Tacoma, WA -5 to 55
   * Round 2: Lost to Abundant Life A/G, Grapevine, TX -15 to 245
@@ -535,6 +641,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Andrew Hejtmanek
     * Chris Alfred
     * DeAndre Johnson
+* **Preliminaries**:
+  * Round 1: Lost to Mountain View A/G, Las Vegas, NV 0 to 240
+  * Round 2: Lost to Chester Christian Center, Chesterland, OH 70 to 170
+  * Round 3: Lost to Tacoma Life Center, Tacoma, WA -15 to 180
+  * Round 4: Lost to First A/G, Appleton, WI 60 to 195
+  * Round 5: Lost to Adat Yeshua Messianic Center, Overland Park, KS 70 to 190
+  * Round 6: Won against Faith A/G, Kernersville, NC 170 to 55
+  * Round 7: Lost to Living Waters Chapel, Lebanon, PA 105 to 130
 * **Round Robin**:
   * Round 1: Lost to First A/G, Appleton, WI 60 to 135
   * Round 2: Won against Central A/G, Superior, WI 175 to 35
@@ -571,6 +685,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Marisa Wallis
     * Tiffany Sewell
     * Michelle Longston
+* **Preliminaries**:
+  * Round 1: Lost to Christian Chapel, Tulsa, OK 75 to 135
+  * Round 2: Lost to Cedar Park A/G #1, Bothell, WA 45 to 260
+  * Round 3: Lost to Allison Park A/G "Heart and Mind", Allison Park, PA 75 to 225
+  * Round 4: Lost to First A/G, Cedar Rapids, IA -10 to 205
+  * Round 5: Lost to Faith A/G, Orlando, FL 50 to 80
+  * Round 6: Lost to Orange County Worship Center, Santa Ana, CA -10 to 205
+  * Round 7: Lost to Bethel Life Christian Center, West Lafayette, IN 70 to 200
 * **Round Robin**:
   * Round 1: Lost to Abundant Life A/G, Grapevine, TX -5 to 150
   * Round 2: Won against First A/G, Cedar Rapids, IA 115 to 5
@@ -641,6 +763,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 * **Team**:
     * Tyler Ferguson
     * Rebekah Schaalma
+* **Preliminaries**:
+  * Round 1: Lost to Tacoma Life Center, Tacoma, WA 65 to 135
+  * Round 2: Won against Faith A/G, Kernersville, NC 115 to 15
+  * Round 3: Lost to Adat Yeshua Messianic Center, Overland Park, KS 55 to 235
+  * Round 4: Won against First A/G, Shreveport, LA 195 to 60
+  * Round 5: Lost to Living Waters Chapel, Lebanon, PA 20 to 140
+  * Round 6: Lost to Mountain View A/G, Las Vegas, NV 70 to 195
+  * Round 7: Won against Chester Christian Center, Chesterland, OH 120 to 95
 * **Round Robin**:
   * Round 1: Won against First A/G, Shreveport, LA 135 to 60
   * Round 2: Lost to Cornerstone A/G, Fremont, NC 45 to 100
@@ -676,6 +806,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Bekka Dunn
     * Emily Raeside
     * Regina Olexa
+* **Preliminaries**:
+  * Round 1: Lost to Faith A/G, Orlando, FL 70 to 140
+  * Round 2: Lost to Bethel Life Christian Center, West Lafayette, IN 65 to 120
+  * Round 3: Lost to Cedar Park A/G #1, Bothell, WA 40 to 195
+  * Round 4: Won against First A/G, Mountain Home, AR 205 to -10
+  * Round 5: Lost to Orange County Worship Center, Santa Ana, CA 70 to 140
+  * Round 6: Lost to Christian Chapel, Tulsa, OK 50 to 150
+  * Round 7: Lost to Allison Park A/G "Heart and Mind", Allison Park, PA 35 to 210
 * **Round Robin**:
   * Round 1: Lost to King's Chapel, Springfield, MO 0 to 75
   * Round 2: Lost to First A/G, Mountain Home, AR 5 to 115
@@ -710,6 +848,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Evan Distad
     * Erica Streifel
     * Jared Gafkjen
+* **Preliminaries**:
+  * Round 1: Lost to Dixon A/G, Dixon, MO 45 to 105
+  * Round 2: Lost to Expressway A/G, Buffalo, NY 70 to 260
+  * Round 3: Lost to Braeswood A/G, Houston, TX 30 to 170
+  * Round 4: Lost to Cornerstone A/G, Fremont, NC 55 to 175
+  * Round 5: Lost to Cedar Park A/G #2, Bothell, WA 0 to 165
+  * Round 6: Lost to First A/G, Aurora, CO 50 to 90
+  * Round 7: Lost to First A/G, East Lansing, MI 35 to 245
 * **Round Robin**:
   * Round 1: Lost to Chester Christian Center, Chesterland, OH 5 to 235
   * Round 2: Lost to Tacoma Life Center, Tacoma, WA 95 to 100
@@ -744,6 +890,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Logan Newman
     * Hannah Meyer
     * Jeff Sharkey
+* **Preliminaries**:
+  * Round 1: Lost to King's Chapel, Springfield, MO -20 to 270
+  * Round 2: Lost to Radiant Church, Colorado Springs, CO 100 to 220
+  * Round 3: Lost to First A/G, Fort Myers, FL 15 to 135
+  * Round 4: Lost to Minier A/G, Minier, IL 30 to 220
+  * Round 5: Lost to Abundant Life A/G, Grapevine, TX 15 to 180
+  * Round 6: Lost to Mountain Home A/G, Mountain Home, ID 65 to 100
+  * Round 7: Lost to Allison Park A/G "Whatever", Allison Park, PA -10 to 195
 * **Round Robin**:
   * Round 1: Won against Faith A/G, Kernersville, NC 90 to 45
   * Round 2: Lost to First A/G, Shreveport, LA 35 to 175
@@ -819,6 +973,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Jeremiah Bruber
     * John Engel
     * Nilay Saiya
+* **Preliminaries**:
+  * Round 1: Won against Faith A/G, Kernersville, NC 190 to 60
+  * Round 2: Lost to Mountain View A/G, Las Vegas, NV 70 to 225
+  * Round 3: Lost to Chester Christian Center, Chesterland, OH 135 to 150
+  * Round 4: Won against Tacoma Life Center, Tacoma, WA 165 to 125
+  * Round 5: Won against First A/G, Appleton, WI 140 to 20
+  * Round 6: Won against Adat Yeshua Messianic Center, Overland Park, KS 165 to 160
+  * Round 7: Won against First A/G, Shreveport, LA 130 to 105
 * **Round Robin**:
   * Round 1: Lost to First A/G, Greater Lansing, MI 100 to 135
   * Round 2: Lost to Calvary A/G, Dunwoody, GA 35 to 130
@@ -855,6 +1017,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Jim Fenton
     * Jeff Herzberg
     * Josh Prelich
+* **Preliminaries**:
+  * Round 1: Won against Orange County Worship Center, Santa Ana, CA 45 to 25
+  * Round 2: Won against Christian Chapel, Tulsa, OK 240 to -35
+  * Round 3: Won against First A/G, Mountain Home, AR 225 to 75
+  * Round 4: Won against Faith A/G, Orlando, FL 275 to 35
+  * Round 5: Won against Bethel Life Christian Center, West Lafayette, IN 105 to 45
+  * Round 6: Won against Cedar Park A/G #1, Bothell, WA 175 to 70
+  * Round 7: Won against First A/G, Cedar Rapids, IA 210 to 35
 * **Round Robin**:
   * Round 1: Won against Christian Chapel, Tulsa, OK 195 to -15
   * Round 2: Lost to Radiant Church, Colorado Springs, CO 80 to 155
@@ -889,6 +1059,15 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Dan McLaughlin
     * John McLaughlin
     * Jamil Barton-Harris
+* **Preliminaries**:
+  * Round 1: Won against Cedar Park A/G #2, Bothell, WA 80 to 75
+  * Round 2: Won against Rochester A/G, Rochester, MN 260 to 70
+  * Round 3: Lost to First A/G, East Lansing, MI 60 to 150
+  * Round 4: Won against Dixon A/G, Dixon, MO 205 to 75
+  * Round 5: Won against First A/G, Aurora, CO 130 to 45
+  * Round 6: Lost to Braeswood A/G, Houston, TX 110 to 120
+  * Round 7: Won against Cornerstone A/G, Fremont, NC 155 to 150
+  * Playoff: Won against Cedar Park A/G #2, Bothell, WA 150 to 40
 * **Round Robin**:
   * Round 1: Lost to Orange Hills A/G, Orange, CA 65 to 175
   * Round 2: Won against Braeswood A/G, Houston, TX 100 to 70
@@ -925,6 +1104,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Rachel Grant
     * Steve Gregg
     * Steve Yenca
+* **Preliminaries**:
+  * Round 1: Won against Radiant Church, Colorado Springs, CO 110 to 65
+  * Round 2: Lost to Minier A/G, Minier, IL 50 to 225
+  * Round 3: Lost to Mountain Home A/G, Mountain Home, ID 40 to 55
+  * Round 4: Lost to King's Chapel, Springfield, MO 110 to 150
+  * Round 5: Lost to First A/G, Fort Myers, FL 75 to 105
+  * Round 6: Lost to Abundant Life A/G, Grapevine, TX 35 to 175
+  * Round 7: Won against Central A/G, Superior, WI 195 to -10
 * **Round Robin**:
   * Round 1: Won against Bethel Christian Life Center, West Lafayette, IN 100 to 80
   * Round 2: Won against King's Chapel, Springfield, MO 180 to 0
@@ -997,6 +1184,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Jessica Neilson
     * Dave Savage
     * Brett Flowers
+* **Preliminaries**:
+  * Round 1: Won against Bethel Life Christian Center, West Lafayette, IN 135 to 10
+  * Round 2: Won against First A/G, Mountain Home, AR 260 to 45
+  * Round 3: Won against First A/G, Cedar Rapids, IA 195 to 40
+  * Round 4: Won against Orange County Worship Center, Santa Ana, CA 190 to 25
+  * Round 5: Lost to Christian Chapel, Tulsa, OK 95 to 200
+  * Round 6: Lost to Allison Park A/G "Heart and Mind", Allison Park, PA 70 to 175
+  * Round 7: Won against Faith A/G, Orlando, FL 255 to 40
 * **Round Robin**:
   * Round 1: Won against Calvary Temple, Auburn, WA 165 to 95
   * Round 2: Won against Trinity A/G, Cedar Hill, TX 150 to 125
@@ -1033,6 +1228,15 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Angela Savage
     * Lindsay Flowers
     * Jarron Born
+* **Preliminaries**:
+  * Round 1: Lost to Expressway A/G, Buffalo, NY 75 to 80
+  * Round 2: Won against Braeswood A/G, Houston, TX 180 to 15
+  * Round 3: Won against Cornerstone A/G, Fremont, NC 185 to 30
+  * Round 4: Won against First A/G, Aurora, CO 250 to 30
+  * Round 5: Won against Rochester A/G, Rochester, MN 165 to 0
+  * Round 6: Lost to First A/G, East Lansing, MI 75 to 140
+  * Round 7: Won against Dixon A/G, Dixon, MO 65 to 5
+  * Playoff: Lost to Expressway A/G, Buffalo, NY 40 to 150
 * **Round Robin**:
   * Round 1: Won against Orange County Worship Center, Santa Ana, CA 95 to 0
   * Round 2: Won against Chester Christian Center, Chesterland, OH 155 to 50
@@ -1068,6 +1272,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Jody Gayhart
     * Jennifer Nevels
     * Amanda Porter
+* **Preliminaries**:
+  * Round 1: Lost to First A/G, Fort Myers, FL 25 to 105
+  * Round 2: Won against Abundant Life A/G, Grapevine, TX 140 to 65
+  * Round 3: Won against Allison Park A/G "Whatever", Allison Park, PA 55 to 40
+  * Round 4: Lost to Radiant Church, Colorado Springs, CO 70 to 265
+  * Round 5: Lost to Minier A/G, Minier, IL 65 to 200
+  * Round 6: Won against Central A/G, Superior, WI 100 to 65
+  * Round 7: Lost to King's Chapel, Springfield, MO 90 to 230
 * **Round Robin**:
   * Round 1: Won against First A/G, Aurora, CO 70 to 40
   * Round 2: Won against Orange County Worship Center, Santa Ana, CA 95 to 75
@@ -1103,6 +1315,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Jed Gosnell
     * Rick Pollen
     * Richie Nelson
+* **Preliminaries**:
+  * Round 1: Won against First A/G, Appleton, WI 135 to 65
+  * Round 2: Lost to Adat Yeshua Messianic Center, Overland Park, KS 100 to 160
+  * Round 3: Won against First A/G, Shreveport, LA 180 to -15
+  * Round 4: Lost to Living Waters Chapel, Lebanon, PA 125 to 165
+  * Round 5: Lost to Mountain View A/G, Las Vegas, NV 10 to 185
+  * Round 6: Won against Chester Christian Center, Chesterland, OH 115 to 50
+  * Round 7: Won against Faith A/G, Kernersville, NC 205 to 85
 * **Round Robin**:
   * Round 1: Won against Dixon A/G, Dixon, MO 55 to -5
   * Round 2: Won against Rochester A/G, Rochester, MN 100 to 95
@@ -1173,6 +1393,15 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Caleb Booth
     * Michelle Stewart
     * Bryan Batchelder
+* **Preliminaries**:
+  * Round 1: Won against First A/G, Mountain Home, AR 135 to 75
+  * Round 2: Lost to Allison Park A/G "Heart and Mind", Allison Park, PA -35 to 240
+  * Round 3: Won against Faith A/G, Orlando, FL 160 to 15
+  * Round 4: Won against Bethel Life Christian Center, West Lafayette, IN 260 to -5
+  * Round 5: Won against Cedar Park A/G #1, Bothell, WA 200 to 95
+  * Round 6: Won against First A/G, Cedar Rapids, IA 150 to 50
+  * Round 7: Lost to Orange County Worship Center, Santa Ana, CA 115 to 135
+  * Playoff: Won against Orange County Worship Center, Santa Ana, CA 155 to 55.
 * **Round Robin**:
   * Round 1: Lost to Allison Park A/G #1, Allison Park, PA -15 to 195
   * Round 2: Lost to Calvary Temple, Auburn, WA 40 to 170
@@ -1206,6 +1435,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 * **Team**:
     * Dan Marlow
     * Aaron Taylor
+* **Preliminaries**:
+  * Round 1: Won against Chester Christian Center, Chesterland, OH 200 to 45
+  * Round 2: Won against Tacoma Life Center, Tacoma, WA 160 to 100
+  * Round 3: Won against First A/G, Appleton, WI 235 to 55
+  * Round 4: Won against Faith A/G, Kernersville, NC 220 to 110
+  * Round 5: Won against First A/G, Shreveport, LA 190 to 70
+  * Round 6: Lost to Living Waters Chapel, Lebanon, PA 160 to 165
+  * Round 7: Lost to Mountain View A/G, Las Vegas, NV 85 to 225
 * **Round Robin**:
   * Round 1: Lost to First A/G, Fort Myers, FL 55 to 130
   * Round 2: Lost to South Hills A/G, Bethel Park, PA 65 to 120
@@ -1241,6 +1478,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Stephanie Nannarone
     * Suni McClure
     * Hannah McGlothlin
+* **Preliminaries**:
+  * Round 1: Won against Minier A/G, Minier, IL 80 to 60
+  * Round 2: Lost to Mountain Home A/G, Mountain Home, ID 65 to 140
+  * Round 3: Won against King's Chapel, Springfield, MO 115 to 85
+  * Round 4: Lost to First A/G, Fort Myers, FL 35 to 205
+  * Round 5: Won against Central A/G, Superior, WI 180 to 15
+  * Round 6: Won against Allison Park A/G "Whatever", Allison Park, PA 175 to 35
+  * Round 7: Lost to Radiant Church, Colorado Springs, CO 75 to 245
 * **Round Robin**:
   * Round 1: Won against First A/G, Mountain Home, AR 150 to -5
   * Round 2: Won against Dixon A/G, Dixon, MO 245 to -15
@@ -1276,6 +1521,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * David Masha
     * George Ukomadu
     * Nathaniel McFarland
+* **Preliminaries**:
+  * Round 1: Won against Cornerstone A/G, Fremont, NC 115 to 70
+  * Round 2: Lost to Cedar Park A/G #2, Bothell, WA 15 to 180
+  * Round 3: Won against Rochester A/G, Rochester, MN 170 to 30
+  * Round 4: Won against First A/G, East Lansing, MI 150 to 115
+  * Round 5: Won against Dixon A/G, Dixon, MO 175 to 45
+  * Round 6: Won against Expressway A/G, Buffalo, NY 120 to 110
+  * Round 7: Won against First A/G, Aurora, CO 320 to 10
 * **Round Robin**:
   * Round 1: Won against Central A/G, Springfield, MO 165 to 65
   * Round 2: Lost to Expressway A/G, Buffalo Park, NY 70 to 100
@@ -1346,6 +1599,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Abigail Knotts
     * Charity Daniel
     * Jennifer Dunn
+* **Preliminaries**:
+  * Round 1: Lost to Braeswood A/G, Houston, TX 70 to 115
+  * Round 2: Won against First A/G, Aurora, CO 245 to 65
+  * Round 3: Lost to Cedar Park A/G #2, Bothell, WA 30 to 185
+  * Round 4: Won against Rochester A/G, Rochester, MN 175 to 55
+  * Round 5: Lost to First A/G, East Lansing, MI 85 to 150
+  * Round 6: Won against Dixon A/G, Dixon, MO 235 to 30
+  * Round 7: Lost to Expressway A/G, Buffalo, NY 150 to 155
 * **Round Robin**:
   * Round 1: Won against Faith A/G, Orlando, FL 65 to 25
   * Round 2: Won against First A/G, Appleton, WI 100 to 45
@@ -1380,6 +1641,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Shane Welborn
     * Brandon Blakenship
     * Amy Thomas
+* **Preliminaries**:
+  * Round 1: Won against Mountain Home A/G, Mountain Home, ID 105 to 25
+  * Round 2: Lost to King's Chapel, Springfield, MO 75 to 155
+  * Round 3: Won against Central A/G, Superior, WI 135 to 15
+  * Round 4: Won against Abundant Life A/G, Grapevine, TX 205 to 35
+  * Round 5: Won against Allison Park A/G "Whatever", Allison Park, PA 105 to 75
+  * Round 6: Won against Radiant Church, Colorado Springs, CO 160 to 130
+  * Round 7: Lost to Minier A/G, Minier, IL 105 to 115
 * **Round Robin**:
   * Round 1: Won against Adat Yeshua Messianic Center, Overland Park, KS 130 to 55
   * Round 2: Lost to First A/G, Greater Lansing, MI 15 to 130
@@ -1417,6 +1686,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Kyle Heyne
     * Brittanica Chesser
     * Chris Patterson
+* **Preliminaries**:
+  * Round 1: Won against First A/G, Cedar Rapids, IA 140 to 70
+  * Round 2: Lost to Orange County Worship Center, Santa Ana, CA 75 to 135
+  * Round 3: Lost to Christian Chapel, Tulsa, OK 15 to 160
+  * Round 4: Lost to Allison Park A/G "Heart and Mind", Allison Park, PA 35 to 275
+  * Round 5: Won against First A/G, Mountain Home, AR 80 to 50
+  * Round 6: Lost to Bethel Life Christian Center, West Lafayette, IN 135 to 140
+  * Round 7: Lost to Cedar Park A/G #1, Bothell, WA 40 to 255
 * **Round Robin**:
   * Round 1: Lost to Cornerstone A/G, Fremont, NC 25 to 65
   * Round 2: Won against Bethel Christian Life Center, West Lafayette, IN 150 to 145
@@ -1451,6 +1728,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Jesse Creason
     * Bronson Clark
     * Chelsea Clark
+* **Preliminaries**:
+  * Round 1: Lost to Living Waters Chapel, Lebanon, PA 60 to 190
+  * Round 2: Lost to First A/G, Appleton, WI 15 to 115
+  * Round 3: Lost to Mountain View A/G, Las Vegas, NV 25 to 265
+  * Round 4: Lost to Adat Yeshua Messianic Center, Overland Park, KS 110 to 220
+  * Round 5: Lost to Chester Christian Center, Chesterland, OH 65 to 155
+  * Round 6: Lost to First A/G, Shreveport, LA 55 to 170
+  * Round 7: Lost to Tacoma Life Center, Tacoma, WA 85 to 205
 * **Round Robin**:
   * Round 1: Lost to Central A/G, Superior, WI 45 to 90
   * Round 2: Lost to First A/G, Aurora, CO 45 to 140
@@ -1522,6 +1807,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Megan Miller
     * Preston Drobeck
     * Ryan Popineau
+* **Preliminaries**:
+  * Round 1: Lost to Allison Park A/G "Whatever", Allison Park, PA 65 to 110
+  * Round 2: Won against Central A/G, Superior, WI 220 to 100
+  * Round 3: Won against Minier A/G, Minier, IL 195 to 125
+  * Round 4: Won against Mountain Home A/G, Mountain Home, ID 265 to 70
+  * Round 5: Won against King's Chapel, Springfield, MO 155 to 40
+  * Round 6: Lost to First A/G, Fort Myers, FL 130 to 160
+  * Round 7: Won against Abundant Life A/G, Grapevine, TX 245 to 75
 * **Round Robin**:
   * Round 1: Lost to Minier A/G, Minier, IL 75 to 115
   * Round 2: Won against Allison Park A/G #1, Allison Park, PA 155 to 80
@@ -1557,6 +1850,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Thomas Van Kempen
     * Derek Harris
     * Alex Harris
+* **Preliminaries**:
+  * Round 1: Won against First A/G, Shreveport, LA 240 to 0
+  * Round 2: Won against Living Waters Chapel, Lebanon, PA 225 to 70
+  * Round 3: Won against Faith A/G, Kernersville, NC 265 to 25
+  * Round 4: Won against Chester Christian Center, Chesterland, OH 305 to 40
+  * Round 5: Won against Tacoma Life Center, Tacoma, WA 185 to 10
+  * Round 6: Won against First A/G, Appleton, WI 195 to 70
+  * Round 7: Won against Adat Yeshua Messianic Center, Overland Park, KS 225 to 85
 * **Round Robin**:
   * Round 1: Won against Calvary A/G, Toledo, OH 210 to 25
   * Round 2: Won against First A/G, Ames, IA 170 to 130
@@ -1592,6 +1893,15 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Melissa Falkey
     * Katie Kuroishi
     * Jonathan Falkey
+* **Preliminaries**:
+  * Round 1: Lost to Allison Park A/G "Heart and Mind", Allison Park, PA 25 to 45
+  * Round 2: Won against Faith A/G, Orlando, FL 135 to 75
+  * Round 3: Won against Bethel Life Christian Center, West Lafayette, IN 120 to 100
+  * Round 4: Lost to Cedar Park A/G #1, Bothell, WA 25 to 190
+  * Round 5: Won against First A/G, Cedar Rapids, IA 140 to 70
+  * Round 6: Won against First A/G, Mountain Home, AR 205 to -10
+  * Round 7: Won against Christian Chapel, Tulsa, OK 135 to 115
+  * Playoff: Lost to Christian Chapel, Tulsa, OK 55 to 155
 * **Round Robin**:
   * Round 1: Lost to Cedar Park A/G #2, Bothell, WA 0 to 95
   * Round 2: Lost to Mountain Home A/G, Mountain Home, ID 75 to 95
@@ -1626,6 +1936,14 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
     * Erick Schubert
     * Scott Hamilton
     * Abigail Alvino
+* **Preliminaries**:
+  * Round 1: Lost to First A/G, East Lansing, MI 15 to 155
+  * Round 2: Lost to Cornerstone A/G, Fremont, NC 65 to 245
+  * Round 3: Lost to Dixon A/G, Dixon, MO 25 to 105
+  * Round 4: Lost to Cedar Park A/G #2, Bothell, WA 30 to 250
+  * Round 5: Lost to Expressway A/G, Buffalo, NY 45 to 130
+  * Round 6: Won against Rochester A/G, Rochester, MN 90 to 50
+  * Round 7: Lost to Braeswood A/G, Houston, TX 10 to 320
 * **Round Robin**:
   * Round 1: Lost to Mountain Home A/G, Mountain Home, ID 40 to 70
   * Round 2: Won against Faith A/G, Kernersville, NC 140 to 45
