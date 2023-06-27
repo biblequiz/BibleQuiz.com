@@ -1815,6 +1815,105 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Haverstime A/G, Glendale, AZ" html=image_html %}
 
+## Adult Quizzing
+
+### Veterans Division
+
+#### Teams
+
+| Rank | Team                          |  Won | Lost | Total |
+| ---: | ----------------------------- | ---: | ---: | ----: |
+|    1 | Everything's Coming Up Losses |    9 |    1 |  1720 |
+|    2 | Red Clay                      |    8 |    2 |  1580 |
+|    3 | More Than Just Bologna        |    6 |    4 |   940 |
+|    4 | Kings Chapel Coaches          |    4 |    6 |   900 |
+|    5 | Dead Men Talking              |    3 |    7 |   850 |
+|    6 | Physicians Assistants         |    0 |   10 |   220 |
+
+#### Individuals
+
+|     Rank | Quizzer         | Team                 | Total |  Avg | QO Fwd | QO Back |
+| -------: | --------------- | -------------------- | ----: | ---: | -----: | ------: |
+|        1 | Kent Piacenti   | Everything/Losses    |  1140 |  114 |      8 |       0 |
+|        2 | Seth Sundell    | Red Clay             |   700 |   70 |      4 |       1 |
+|        3 | Rob Laurens     | Red Clay             |   675 | 67.5 |      2 |       0 |
+|        4 | Rhoda Yost      | Kings Chapel Coaches |   645 | 64.5 |      2 |       0 |
+|        5 | Dayla Shorter   | Everything/Losses    |   580 |   58 |      4 |       1 |
+|        6 | Nilay Saiya     | More Than Bologna    |   565 | 56.5 |      4 |       1 |
+|        7 | Aaron Collins   | Dead Men Talking     |   410 |   41 |      4 |       2 |
+|  **7\*** | Mary Chenco     | More Than Bologna    |   410 |   41 |      1 |       1 |
+|        9 | Joel Batchelder | Dead Men Talking     |   395 | 39.5 |      1 |       2 |
+|       10 | Rebekah Chalma  | Physicians Asst.     |   175 | 17.5 |      0 |       0 |
+|       11 | Beth Peters     | Kings Chapel Coaches |   155 | 15.5 |      0 |       0 |
+|       12 | Mark Gilmer     | Red Clay             |   120 |   12 |      0 |       0 |
+|       13 | Jeremy Gibbs    | Kings Chapel Coaches |   110 |   11 |      0 |       1 |
+|       14 | Mark Childers   | Red Clay             |    85 |  8.5 |      0 |       2 |
+|       15 | Mark Connor     | Dead Men Talking     |    65 |  6.5 |      0 |       1 |
+|       16 | Betsy Regenfuss | Physicians Asst.     |    50 |    5 |      0 |       2 |
+|       17 | Evan Distad     | Physicians Asst.     |    10 |    1 |      0 |       2 |
+|       18 | Krista Beyer    | Physicians Asst.     |     0 |    0 |      0 |       0 |
+| **18\*** | Matt Hernando   | Kings Chapel Coaches |     0 |    0 |      0 |       0 |
+
+### Novice Division
+
+#### Teams
+
+|    Rank | Team                               |  Won | Lost | Total |
+| ------: | ---------------------------------- | ---: | ---: | ----: |
+|       1 | Bethel Blessing Builders           |    8 |    0 |  1700 |
+|       2 | Not Dead But Asleep                |    6 |    2 |  1405 |
+|       3 | Indiana A Team                     |    5 |    3 |  1475 |
+| **3\*** | Holey, Wholly, Holy Toledo         |    5 |    3 |  1150 |
+|       5 | You Did Not Give Me a Kiss         |    4 |    4 |  1000 |
+| **5\*** | Superior, WI                       |    4 |    4 |   965 |
+|       7 | First Pentecostal, Ottumwa IA      |    2 |    6 |   840 |
+| **7\*** | Pregnant Women and Nursing Mothers |    2 |    6 |   445 |
+|       9 | Snakes and Scorpions               |    0 |    8 |   490 |
+
+#### Individuals
+
+|     Rank | Quizzer             | Team                 | Total |    Avg | QO Fwd | QO Back |
+| -------: | ------------------- | -------------------- | ----: | -----: | -----: | ------: |
+|        1 | Jim Whitford        | Indiana A Team       |   940 |  117.5 |      5 |       0 |
+|        2 | Rachelle Henderson  | Not Dead But Asleep  |   890 | 111.25 |      5 |       0 |
+|        3 | Donald Jones        | Bethel Blessing      |   880 |    110 |      8 |       0 |
+|        4 | Paul Munn           | Holey...Toledo       |   685 |  85.63 |      4 |       0 |
+|        5 | George Edgerly      | Ottumwa IA           |   660 |   82.5 |      4 |       1 |
+|        6 | Beth Prindle        | Bethel Blessing      |   640 |     80 |      6 |       0 |
+|        7 | Jeff Meyer          | Superior, WI         |   575 |  71.88 |      4 |       0 |
+|        8 | Sean Lester         | You Did Not Give...  |   480 |     60 |      3 |       0 |
+|        9 | Rachel Dawson       | Not Dead But Asleep  |   455 |  56.88 |      3 |       1 |
+|       10 | John Hunter         | Indiana A Team       |   430 |  53.75 |      4 |       2 |
+|       11 | Maureen Harr        | You Did Not Give...  |   420 |   52.5 |      2 |       1 |
+|       12 | Lorrie Grup         | Holey...Toledo       |   395 |  49.38 |      1 |       0 |
+|       13 | Joelle Cole         | Snakes and Scorpions |   375 |  46.88 |      1 |       0 |
+|       14 | Olivia Collins      | Pregnant/Nursing     |   295 |  36.88 |      0 |       1 |
+|       15 | Steve Sharkey       | Superior, WI         |   275 |  34.38 |      1 |       0 |
+|       16 | Dan Higgins         | Bethel Blessing      |   180 |   22.5 |      0 |       0 |
+|       17 | Jeannie Davis       | Pregnant/Nursing     |   165 |  20.63 |      1 |       2 |
+|       18 | John Foreman        | Snakes and Scorpions |   100 |   12.5 |      0 |       0 |
+| **18\*** | Karen Shepherd      | Ottumwa IA           |   100 |   12.5 |      0 |       0 |
+|       20 | Tom McLaughlin      | You Did Not Give...  |    90 |  11.25 |      0 |       0 |
+|       21 | Sharon Laakkonen    | Superior, WI         |    85 |  10.63 |      0 |       0 |
+| **21\*** | Pam Whitehead       | Indiana A Team       |    85 |  10.63 |      0 |       0 |
+| **21\*** | Erlinda Gosnell     | Not Dead But Asleep  |    85 |  10.63 |      0 |       0 |
+|       24 | Hope van Wardluizen | Ottumwa IA           |    80 |     10 |      0 |       0 |
+|       25 | Bryan Steel         | Holey...Toledo       |    30 |   3.75 |      0 |       0 |
+|       26 | Rick Harr           | You Did Not Give...  |    20 |    2.5 |      0 |       0 |
+| **26\*** | Stephen Sion        | Snakes and Scorpions |    20 |    2.5 |      0 |       0 |
+|       28 | Pam Meyer           | Superior, WI         |    10 |   1.25 |      0 |       0 |
+|       29 | Richard Nelson      | Not Dead But Asleep  |     5 |   0.63 |      0 |       0 |
+|       30 | Chris Castilleja    | Bethel Blessing      |     0 |      0 |      0 |       0 |
+| **30\*** | Marilyn Patterson   | Snakes and Scorpions |     0 |      0 |      0 |       0 |
+| **30\*** | Luke Dawson         | Not Dead But Asleep  |     0 |      0 |      0 |       0 |
+| **30\*** | Mary Williams       | Superior, WI         |     0 |      0 |      0 |       0 |
+| **30\*** | Laura Thomas        | Ottumwa IA           |     0 |      0 |      0 |       0 |
+| **30\*** | Fred Thomas         | Ottumwa IA           |     0 |      0 |      0 |       0 |
+| **30\*** | Linda Fears         | Ottumwa IA           |     0 |      0 |      0 |       0 |
+| **30\*** | Floyd Brown         | Not Dead But Asleep  |     0 |      0 |      0 |       0 |
+| **30\*** | Doug Newman         | Superior, WI         |     0 |      0 |      0 |       0 |
+|       39 | Judith Cole         | Snakes and Scorpions |   -10 |  -1.25 |      0 |       0 |
+
 ## Memories
 
 ### Stories
