@@ -249,61 +249,64 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 
 ### Group A
 
-|    Rank | Division | Team                               | W / L | Total |
-| ------: | -------- | ---------------------------------- | ----- | ----: |
-|       1 | A        | Braeswood A/G, Houston, TX         | 5 / 2 |  1055 |
-| **1\*** | A        | Tacoma Life Center, Tacoma, WA     | 5 / 2 |   755 |
-|       3 | A        | Central A/G, Superior, WI*         | 4 / 3 |  1030 |
-|       4 | A        | Calvary A/G, DeMotte, IN**         | 4 / 3 |   915 |
-|       5 | A        | Billings A/G, Billings, MO         | 4 / 3 |   965 |
-| **5\*** | A        | First A/G, Fort Myers, FL          | 4 / 3 |   645 |
-|       7 | A        | First A/G, Hermitage, PA           | 2 / 5 |   530 |
-|       8 | A        | Two Rivers Fellowship, Greeley, CO | 0 / 7 |   265 |
+|    Rank | Team                               | W / L | Total |
+| ------: | ---------------------------------- | ----- | ----: |
+|       1 | Braeswood A/G, Houston, TX         | 5 / 2 |  1055 |
+| **1\*** | Tacoma Life Center, Tacoma, WA     | 5 / 2 |   755 |
+|       3 | Central A/G, Superior, WI*         | 4 / 3 |  1030 |
+|       4 | Calvary A/G, DeMotte, IN**         | 4 / 3 |   915 |
+|       5 | Billings A/G, Billings, MO         | 4 / 3 |   965 |
+| **5\*** | First A/G, Fort Myers, FL          | 4 / 3 |   645 |
+|       7 | First A/G, Hermitage, PA           | 2 / 5 |   530 |
+|       8 | Two Rivers Fellowship, Greeley, CO | 0 / 7 |   265 |
 
 \* Won both playoff rounds
 \*\* Won first playoff round, lost second.
 
 ### Group B
 
-|    Rank | Division | Team                                             | W / L | Total |
-| ------: | -------- | ------------------------------------------------ | ----- | ----: |
-|       1 | B        | Living Waters Chapel, Lebanon, PA                | 5 / 2 |  1475 |
-| **1\*** | B        | Fossil Creek A/G, Fort Worth, TX                 | 5 / 2 |  1080 |
-| **1\*** | B        | Calvary Church, Naperville, IL                   | 5 / 2 |   930 |
-|       4 | B        | Bethel Christian Life Center, West Lafayette, IN | 4 / 3 |   935 |
-|       5 | B        | James River A/G, Ozark, MO                       | 2 / 5 |   480 |
-|       6 | B        | Cedar Park A/G "So-called Angels", Bothell, WA   | 2 / 5 |  1070 |
-| **6\*** | B        | Evangel Community Church, Centerville, GA        | 2 / 5 |   580 |
-| **6\*** | B        | First A/G, Cedar Rapids, IA                      | 2 / 5 |   210 |
+|    Rank | Team                                             | W / L | Total |
+| ------: | ------------------------------------------------ | ----- | ----: |
+|       1 | Living Waters Chapel, Lebanon, PA                | 5 / 2 |  1475 |
+| **1\*** | Fossil Creek A/G, Fort Worth, TX                 | 5 / 2 |  1080 |
+| **1\*** | Calvary Church, Naperville, IL                   | 5 / 2 |   930 |
+|       4 | Bethel Christian Life Center, West Lafayette, IN | 4 / 3 |   935 |
+|       5 | James River A/G, Ozark, MO                       | 2 / 5 |   480 |
+|       6 | Cedar Park A/G "So-called Angels", Bothell, WA   | 2 / 5 |  1070 |
+| **6\*** | Evangel Community Church, Centerville, GA        | 2 / 5 |   580 |
+| **6\*** | First A/G, Cedar Rapids, IA                      | 2 / 5 |   210 |
+
 
 ### Group C
 
-|    Rank | Division | Team                                          | W / L | Total |
-| ------: | -------- | --------------------------------------------- | ----- | ----: |
-|       1 | C        | The Church at Briargate, Colorado Springs, CO | 7 / 0 |  1325 |
-|       2 | C        | South Hills A/G, Bethel Park, PA**            | 5 / 2 |  1185 |
-|       3 | C        | Faith A/G, Orlando, FL*                       | 5 / 2 |  1150 |
-| **3\*** | C        | Calvary Temple, Indianapolis, IN              | 5 / 2 |  1035 |
-|       5 | C        | Family Worship Center, Murfreesboro, TN       | 3 / 4 |   640 |
-|       6 | C        | Abundant Life A/G, Grapevine, TX              | 2 / 5 |   780 |
-|       7 | C        | First A/G, Helena, MT                         | 1 / 6 |   245 |
-|       8 | C        | Albert Lea A/G, Albert Lea, MN                | 0 / 7 |   115 |
+|    Rank | Team                                          | W / L | Total |
+| ------: | --------------------------------------------- | ----- | ----: |
+|       1 | The Church at Briargate, Colorado Springs, CO | 7 / 0 |  1325 |
+|       2 | South Hills A/G, Bethel Park, PA**            | 5 / 2 |  1185 |
+|       3 | Faith A/G, Orlando, FL*                       | 5 / 2 |  1150 |
+| **3\*** | Calvary Temple, Indianapolis, IN              | 5 / 2 |  1035 |
+|       5 | Family Worship Center, Murfreesboro, TN       | 3 / 4 |   640 |
+|       6 | Abundant Life A/G, Grapevine, TX              | 2 / 5 |   780 |
+|       7 | First A/G, Helena, MT                         | 1 / 6 |   245 |
+|       8 | Albert Lea A/G, Albert Lea, MN                | 0 / 7 |   115 |
+
 
 \* Won first playoff, lost to Bethel Park in second playoff
 \*\* Won second playoff
 
 ### Group D
 
-|    Rank | Division | Team                                        | W / L | Total |
-| ------: | -------- | ------------------------------------------- | ----- | ----: |
-|       1 | D        | Calvary A/G, Dunwoody, GA*                  | 5 / 2 |  1120 |
-| **1\*** | D        | First A/G, Ames, IA*                        | 5 / 2 |  1045 |
-|       3 | D        | Allison Park A/G, Allison Park, PA**        | 5 / 2 |  1055 |
-| **3\*** | D        | Orange County Worship Center, Santa Ana, CA | 5 / 2 |  1005 |
-|       5 | D        | Calvary A/G, Toledo, OH                     | 4 / 3 |   885 |
-|       6 | D        | The Oaks Fellowship, Dallas, TX             | 3 / 4 |  1020 |
-|       7 | D        | Southside A/G, Jackson, MS                  | 1 / 6 |   210 |
-|       8 | D        | First A/G, Boulder, MT                      | 0 / 7 |    75 |
+|    Rank | Team                                        | W / L | Total |
+| ------: | ------------------------------------------- | ----- | ----: |
+|       1 | Calvary A/G, Dunwoody, GA*                  | 5 / 2 |  1120 |
+| **1\*** | First A/G, Ames, IA*                        | 5 / 2 |  1045 |
+|       3 | Allison Park A/G, Allison Park, PA**        | 5 / 2 |  1055 |
+| **3\*** | Orange County Worship Center, Santa Ana, CA | 5 / 2 |  1005 |
+|       5 | Calvary A/G, Toledo, OH                     | 4 / 3 |   885 |
+|       6 | The Oaks Fellowship, Dallas, TX             | 3 / 4 |  1020 |
+|       7 | Southside A/G, Jackson, MS                  | 1 / 6 |   210 |
+|       8 | First A/G, Boulder, MT                      | 0 / 7 |    75 |
+
 
 \* Won first playoff round, advances to Championship Division
 \*\* Won second playoff round, advances to Championship Division
@@ -319,8 +322,8 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 *(L-R Back) Jeremy White, Dave White, Micah Buckel*
 
 #### 1st Place
- 
-* **Church**: First A/G, Lexington, KY 
+
+* **Church**: First A/G, Lexington, KY
 * **Coaches**: Dave White, Venessa Buckel (assistant), Karen White (assistant)
 * **Team**:
     * Jeremy White
@@ -349,7 +352,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
   * Round 19: Won against Fossil Creek A/G, Fort Worth, TX 95 to 70
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Lexington, KY" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/IN-Indianapolis.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -358,8 +361,8 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 *(L-R Back) Dwight Chesser, Brian Lewis, Rhonda Chesser*
 
 #### 2nd Place
- 
-* **Church**: Calvary Temple, Indianapolis, IN 
+
+* **Church**: Calvary Temple, Indianapolis, IN
 * **Coaches**: Dwight Chesser, Rhonda Chesser (assistant)
 * **Team**:
     * Brittanica Chesser
@@ -387,7 +390,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
   * Round 19: Won against James River A/G, Ozark, MO 120 to 95
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary Temple, Indianapolis, IN" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/OH-Toledo.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -396,8 +399,8 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 *(L-R Back) Bethany Brodbeck, Bryan Steel, Bryce Steel*
 
 #### 3rd Place
- 
-* **Church**: Calvary A/G, Toledo, OH 
+
+* **Church**: Calvary A/G, Toledo, OH
 * **Coach**: Bryan Steel,
 * **Team**:
     * Bryce Steel
@@ -426,7 +429,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
   * Round 19: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 145 to 160
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, Toledo, OH" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/IN-Demotte.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -435,8 +438,8 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 *NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 4th Place
- 
-* **Church**: Calvary A/G, DeMotte, IN 
+
+* **Church**: Calvary A/G, DeMotte, IN
 * **Coaches**: Jim McCalment, Rena McCalment (assistant)
 * **Team**:
     * Noah McCalment
@@ -465,7 +468,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
   * Round 19: Won against First A/G, Cedar Rapids, IA 195 to 95
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, DeMotte, IN" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/IN-WestLafayette.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -474,8 +477,8 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 *(L-R Back) Mark Whitehead, Katie Whitehead*
 
 #### 5th Place
- 
-* **Church**: Bethel Life Christian Center, West Lafayette, IN 
+
+* **Church**: Bethel Life Christian Center, West Lafayette, IN
 * **Coaches**: Pam Whitehead
 * **Team**:
     * Mark Whitehead
@@ -505,7 +508,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
   * Round 19: Won against First A/G, Hermitage, PA 260 to 75
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Bethel Life Christian Center, West Lafayette, IN" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/IL-Naperville.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -514,8 +517,8 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 *(L-R Back) Scott Papendick*
 
 #### 6th Place
- 
-* **Church**: Calvary Church, Naperville, IL 
+
+* **Church**: Calvary Church, Naperville, IL
 * **Coaches**: Scott Papendick, Chris Papendick (assistant), Linda Lacey (assistant)
 * **Team**:
     * Kristen Johnson
@@ -543,7 +546,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
   * Round 19: Lost to The Church at Briargate, Colorado Springs, CO 120 to 190
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary Church, Naperville, IL" html=image_html %}
 
 ### Gulf Region
 
@@ -554,8 +557,8 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 *(L-R Back) Jim Hernando, Chris Davis, Eric Hernando*
 
 #### 1st Place
- 
-* **Church**: King's Chapel, Springfield, MO 
+
+* **Church**: King's Chapel, Springfield, MO
 * **Coaches**: Hannah Duncan, Jackie Goodman (assistant), Jim Hernando (assistant)
 Eric Hernando
 Chris Davis
@@ -582,7 +585,7 @@ Angela Goodman
   * Round 19: Won against Central A/G, Superior, WI 225 to 105
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="King's Chapel, Springfield, MO" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/MO-Billings.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -590,8 +593,8 @@ Angela Goodman
 *(L-R) James Szalapski (assistant), Tommy Szalapski, Robert Szalapski, John Dyer*
 
 #### 2nd Place
- 
-* **Church**: Billings A/G, Billings, MO 
+
+* **Church**: Billings A/G, Billings, MO
 * **Coaches**: John Dyer, James Szalapski (assistant)
 * **Team**:
     * Robert Szalapski
@@ -618,7 +621,7 @@ Angela Goodman
   * Round 19: Lost to The Oaks Fellowship, Dallas, TX 105 to 180
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Billings A/G, Billings, MO" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/MO-JamesRiver.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -626,8 +629,8 @@ Angela Goodman
 *(L-R) Angie Griffith, Daniel Cooper, Kyla Hollandsworth, David Womelsdorf, Robert Pears*
 
 #### 3rd Place
- 
-* **Church**: James River A/G, Ozark, MO 
+
+* **Church**: James River A/G, Ozark, MO
 * **Coaches**: Angie Griffith, Robert Pearts (assistant)
 * **Team**:
     * David Womelsdorf
@@ -655,7 +658,7 @@ Angela Goodman
   * Round 19: Lost to Calvary Temple, Indianapolis, IN 95 to 120
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="James River A/G, Ozark, MO" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/TN-Murfreesboro.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -663,8 +666,8 @@ Angela Goodman
 *(Team Members) William Harrelson, Jeana Lewis (assistant), Josh Morgan, Chris Harrelson, Russel Rodden*
 
 #### 4th Place
- 
-* **Church**: Family Worship Center, Murfreesboro, TN 
+
+* **Church**: Family Worship Center, Murfreesboro, TN
 * **Coaches**: William Harrelson, Jeana Lewis (assistant)
 * **Team**:
     * Josh Morgan
@@ -692,7 +695,7 @@ Angela Goodman
   * Round 19: Won against First A/G, Helena, MT 165 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Family Worship Center, Murfreesboro, TN" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/MS-Jackson.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -700,8 +703,8 @@ Angela Goodman
 *(L-R) Linda Berry, Justin Ades, Chris Pilgrim, Cindy Pilgrim (assistant)*
 
 #### 5th Place
- 
-* **Church**: Southside A/G, Jackson, MS 
+
+* **Church**: Southside A/G, Jackson, MS
 * **Coaches**: Linda Berry, Cindy Pilgrim (assistant)
 * **Team**:
     * Justin Ades
@@ -728,7 +731,7 @@ Angela Goodman
   * Round 19: Lost to Two Rivers Fellowship, Greeley, CO 115 to 160
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Southside A/G, Jackson, MS" html=image_html %}
 
 ### North Central Region
 
@@ -738,8 +741,8 @@ Angela Goodman
 *(L-R) Roque Arellano (assistant), Maria Arellano, Tyler Turnage, Zachary Schaalma, Jacob Turnage*
 
 #### 1st Place
- 
-* **Church**: Fond du Lac A/G, Fond du Lac, WI 
+
+* **Church**: Fond du Lac A/G, Fond du Lac, WI
 * **Coaches**: Maria Arellano, Roque Arellano (assistant)
 * **Team**:
     * Jacob Turnage
@@ -767,7 +770,7 @@ Angela Goodman
   * Round 19: Won against Tacoma Life Center, Tacoma, WA 150 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Fond du Lac A/G, Fond du Lac, WI" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/IA-Ames.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -776,8 +779,8 @@ Angela Goodman
 *(L-R Back) Faye Regenfuss (assistant), Rick Regenfuss, Betsy Regenfuss (assistant), Kevin McCormick*
 
 #### 2nd Place
- 
-* **Church**: First A/G, Ames, IA 
+
+* **Church**: First A/G, Ames, IA
 * **Coaches**: Rick Regenfuss, Betsy Regenfuss (assistant)
 * **Team**:
     * Bekah Regenfuss
@@ -807,7 +810,7 @@ Angela Goodman
   * Round 19: Lost to Living Waters Chapel, Lebanon, PA 100 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Ames, IA" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/WI-Superior.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -816,8 +819,8 @@ Angela Goodman
 *(l-R Back) Jeff Sharkey, Jeff Meyer, Logan Newman*
 
 #### 3rd Place
- 
-* **Church**: Central A/G, Superior, WI 
+
+* **Church**: Central A/G, Superior, WI
 * **Coach**: Jeff Meyer
 * **Team**:
     * Logan Newman
@@ -848,7 +851,7 @@ Angela Goodman
   * Round 19: Lost to King's Chapel, Springfield, MO 105 to 225
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Central A/G, Superior, WI" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/IA-CedarRapids.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -857,8 +860,8 @@ Angela Goodman
 *NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 4th Place
- 
-* **Church**: First A/G, Cedar Rapids, IA 
+
+* **Church**: First A/G, Cedar Rapids, IA
 * **Coaches**: Bill Chew, Emily Raeside (assistant)
 * **Team**:
     * Josh Coder
@@ -888,7 +891,7 @@ Angela Goodman
   * Round 19: Lost to Calvary A/G, DeMotte, IN 95 to 195
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Cedar Rapids, IA" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/MN-AlbertLea.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -896,8 +899,8 @@ Angela Goodman
 *(Team Members) Darla Wipplinger, Kelly McElrath (assistant), Amber Wipplinger, K.C. McElrath, Caleb McElrath*
 
 #### 5th Place
- 
-* **Church**: Albert Lea A/G, Albert Lea, MN 
+
+* **Church**: Albert Lea A/G, Albert Lea, MN
 * **Coaches**: Darla Wipplinger, Kelly McElrath (assistant)
 * **Team**:
     * Amber Wipplinger
@@ -925,7 +928,7 @@ Angela Goodman
   * Round 19: Lost to Orange County Worship Center, Santa Ana, CA 20 to 195
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Albert Lea A/G, Albert Lea, MN" html=image_html %}
 
 ### Northeast Region
 
@@ -936,8 +939,8 @@ Angela Goodman
 *(L-R Back) Amy Semple, Joe Bolognone, Tika Daigle (assistant)*
 
 #### 1st Place
- 
-* **Church**: Grace A/G, Syracuse, NY 
+
+* **Church**: Grace A/G, Syracuse, NY
 * **Coaches**: Mary Daigle, Tika Daigle (assistant)
 * **Team**:
     * Joe Bolognone
@@ -966,7 +969,7 @@ Angela Goodman
   * Round 19: Lost to Christian Chapel, Tulsa, OK 100 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Grace A/G, Syracuse, NY" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/PA-Lebanon.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -975,8 +978,8 @@ Angela Goodman
 *(L-R Back) Mary Chenco, Aaron Kohler, Katie Chenco*
 
 #### 2nd Place
- 
-* **Church**: Living Waters Chapel, Lebanon, PA 
+
+* **Church**: Living Waters Chapel, Lebanon, PA
 * **Coaches**: Mary Chenco, Nilay Saiya (assistant), Dustin Chenco (assistant)
 * **Team**:
     * Aaron Kohler
@@ -1004,7 +1007,7 @@ Angela Goodman
   * Round 19: Won against First A/G, Ames, IA 150 to 100
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Living Waters Chapel, Lebanon, PA" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/PA-BethelPark.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1013,8 +1016,8 @@ Angela Goodman
 *(L-R Back) Seth Johnson, C.J. Barna*
 
 #### 3rd Place
- 
-* **Church**: South Hills A/G, Bethel Park, PA 
+
+* **Church**: South Hills A/G, Bethel Park, PA
 * **Coaches**: Marianne Rozgonyi, Chris Johnson (assistant)
 * **Team**:
     * Lori Rozgonyi
@@ -1042,7 +1045,7 @@ Angela Goodman
   * Round 19: Won against Calvary A/G, Dunwoody, GA 155 to 130
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="South Hills A/G, Bethel Park, PA" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/PA-AllisonPark.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1051,8 +1054,8 @@ Angela Goodman
 *NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 4th Place
- 
-* **Church**: Allison Park A/G, Allison Park, PA 
+
+* **Church**: Allison Park A/G, Allison Park, PA
 * **Coaches**: Bev Herzberg, Jeff Herzber (assistant), David Herzberg (assistant)
 * **Team**:
     * David Herbert
@@ -1080,7 +1083,7 @@ Angela Goodman
   * Round 19: Lost to Faith A/G, Orlando, FL -30 to 210
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Allison Park A/G, Allison Park, PA" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/PA-Hermitage.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1089,8 +1092,8 @@ Angela Goodman
 *(L-R Back) Corey DeFazio, Brennen DeFazio, Isaiah Hunter*
 
 #### 5th Place
- 
-* **Church**: First A/G, Hermitage, PA 
+
+* **Church**: First A/G, Hermitage, PA
 * **Coaches**: Susan DeFazio, Elyssa DeFazio (assistant)
 * **Team**:
     * Brenne DeFazio
@@ -1118,7 +1121,7 @@ Angela Goodman
   * Round 19: Lost to Bethel Christian Life Center, West Lafayette, IN 75 to 260
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Hermitage, PA" html=image_html %}
 
 ### Northwest Region
 
@@ -1129,8 +1132,8 @@ Angela Goodman
 *(L-R Back) Jarron Born, Nathan Moore, Ryan Skolrud (assistant)*
 
 #### 1st Place
- 
-* **Church**: Cedar Park A/G "Crafty Fellows", Bothell, WA 
+
+* **Church**: Cedar Park A/G "Crafty Fellows", Bothell, WA
 * **Coach**: Chandra Porter
 * **Team**:
     * Jordan Shipley
@@ -1160,7 +1163,7 @@ Angela Goodman
   * Round 19: Won against Calvary A/G, Toledo, OH 160 to 145
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Cedar Park A/G 'Crafty Fellows', Bothell, WA" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/WA-Tacoma.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1169,8 +1172,8 @@ Angela Goodman
 *(L-R Back) Rich Nelson, Richie Nelson, James Watt, Jed Gosnell*
 
 #### 2nd Place
- 
-* **Church**: Tacoma Life Center, Tacoma, WA 
+
+* **Church**: Tacoma Life Center, Tacoma, WA
 * **Coaches**: Rich Nelson, Rachel Dawson (assistant)
 * **Team**:
     * Rick Pollen
@@ -1200,7 +1203,7 @@ Angela Goodman
   * Round 19: Lost to Fond du Lac A/G, Fond du Lac, WI 110 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Tacoma Life Center, Tacoma, WA" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/WA-Bothell1.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1209,8 +1212,8 @@ Angela Goodman
 *(L-R Back) LeAnne Kloefkorn, Kent Kloefkorn, Angela Savage*
 
 #### 3rd Place
- 
-* **Church**: Cedar Park A/G "So-Called Angels", Bothell, WA 
+
+* **Church**: Cedar Park A/G "So-Called Angels", Bothell, WA
 * **Coaches**: Kent Kloefkorn, LeAnne Kloefkorn (assistant)
 * **Team**:
     * Angela Savage
@@ -1238,7 +1241,7 @@ Angela Goodman
   * Round 19: Lost to Braeswood A/G, Houston, TX 35 to 250
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Cedar Park A/G 'So-Called Angels', Bothell, WA" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/MT-Helena.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1247,8 +1250,8 @@ Angela Goodman
 *(L-R Back) Rick Grieve, Ben Reehl, Jon Berg*
 
 #### 4th Place
- 
-* **Church**: First A/G, Helena, MT 
+
+* **Church**: First A/G, Helena, MT
 * **Coaches**: Tamara Grieve, Rick Grieve (assistant), Jon Berg (assistant)
 * **Team**:
     * Griff Berg
@@ -1277,7 +1280,7 @@ Angela Goodman
   * Round 19: Lost to Family Worship Center, Murfreesboro, TN 150 to 165
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Helena, MT" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/MT-Boulder.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1285,8 +1288,8 @@ Angela Goodman
 *(Team Members) Barbara Scott, Matt Nelson, Autum Nolte, Danielle Peppenger, Sth Nolte, Nathanial Kallberg, Kirby Giulio, Megan Hartford*
 
 #### 5th Place
- 
-* **Church**: First A/G, Boulder, MT 
+
+* **Church**: First A/G, Boulder, MT
 * **Coaches**: Barbara Scott, Matt Nelson (assistant)
 * **Team**:
     * Autumn Nolte
@@ -1317,7 +1320,7 @@ Angela Goodman
   * Round 19: Lost to First A/G, Fort Myers, FL 0 to 250
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Boulder, MT" html=image_html %}
 
 ### South Central Region
 
@@ -1328,8 +1331,8 @@ Angela Goodman
 *(L-R Back) Bryan Batchelder, Grant Good*
 
 #### 1st Place
- 
-* **Church**: Chrstian Chapel A/G, Tulsa, OK 
+
+* **Church**: Chrstian Chapel A/G, Tulsa, OK
 * **Coach**: Bryan Turner
 * **Team**:
     * Caleb Booth
@@ -1359,7 +1362,7 @@ Angela Goodman
   * Playoff: Lost to The Church at Briargate, Colorado Springs, CO
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Chrstian Chapel A/G, Tulsa, OK" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/TX-Dallas.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1368,8 +1371,8 @@ Angela Goodman
 *(L-R Back) Michael Pearson, Derek Wilson, Kevin Davis*
 
 #### 2nd Place
- 
-* **Church**: The Oaks Fellowship A/G, Dallas, TX 
+
+* **Church**: The Oaks Fellowship A/G, Dallas, TX
 * **Coaches**: Jeannie Davis, Tom Davis (assistant), Ann Palmer (assistant)
 * **Team**:
     * Kevin Davis
@@ -1398,7 +1401,7 @@ Angela Goodman
   * Round 19: Won against Billings A/G, Billings, MO 180 to 105
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="The Oaks Fellowship A/G, Dallas, TX" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/TX-Houston.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1407,8 +1410,8 @@ Angela Goodman
 *(L-R Back) Charles Anyanwu (assistant), Paul Kramer, Dapo Masha, ????*
 
 #### 3rd Place
- 
-* **Church**: Braeswood A/G #1, Houston, TX 
+
+* **Church**: Braeswood A/G #1, Houston, TX
 * **Coaches**: Paul Kramer, Janie Burquist
 * **Team**:
     * Dapo Masha
@@ -1437,7 +1440,7 @@ Angela Goodman
   * Round 19: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 250 to 35
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Braeswood A/G #1, Houston, TX" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/TX-FortWorth.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1446,8 +1449,8 @@ Angela Goodman
 *(L-R Back) Tammy Pryor, Ken Pryor (assistant)*
 
 #### 4th Place
- 
-* **Church**: Fossil Creek Community Church, Ft. Worth, TX 
+
+* **Church**: Fossil Creek Community Church, Ft. Worth, TX
 * **Coaches**: Tammy Pryor, Ken Pryor (assistant)
 * **Team**:
     * Amanda Pryor
@@ -1475,7 +1478,7 @@ Angela Goodman
   * Round 19: Lost to First A/G, Lexington, KY 70 to 95
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Fossil Creek Community Church, Ft. Worth, TX" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/TX-Grapevine.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1483,8 +1486,8 @@ Angela Goodman
 *(Team Members) Richard Ely, Janet Fukuda, Sharon Ely, Heather Lester, Katie Ryan, Kelly Anderson*
 
 #### 5th Place
- 
-* **Church**: Abundant Life A/G, Grapevine, TX 
+
+* **Church**: Abundant Life A/G, Grapevine, TX
 * **Coaches**: Richard Ely, Janet Fukuda (assistant)
 * **Team**:
     * Sharon Ely
@@ -1513,7 +1516,7 @@ Angela Goodman
   * Round 19: Lost to Evangel Community Church, Centerville, GA 140 to 155
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Abundant Life A/G, Grapevine, TX" html=image_html %}
 
 ### Southeast Region
 
@@ -1523,8 +1526,8 @@ Angela Goodman
 *(L-R) Bobby Strickland, Chad Crawford, Stacy Strickland, Tyler Landreville, Kathy Strickland*
 
 #### 1st Place
- 
-* **Church**: Oceanway A/G, Jacksonville, FL 
+
+* **Church**: Oceanway A/G, Jacksonville, FL
 * **Coaches**: Bobby Strickland, Kathy Strickland (assistant)
 * **Team**:
     * Chad Crawford
@@ -1552,7 +1555,7 @@ Angela Goodman
   * Round 19: Lost to Orange Hills A/G, Orange, CA 105 to 240
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Oceanway A/G, Jacksonville, FL" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/GA-Centerville.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1562,8 +1565,8 @@ Angela Goodman
 *(L-R Back) Sarah Ward, Matthew Dykema*
 
 #### 2nd Place
- 
-* **Church**: Evangel Community Church, Centerville, GA 
+
+* **Church**: Evangel Community Church, Centerville, GA
 * **Coaches**: Mark Gilmer, Mark Childers (assistant), Susan Patt (assistant)
 * **Team**:
     * Greg Aikens
@@ -1593,7 +1596,7 @@ Angela Goodman
   * Round 19: Won against Abundant Life A/G, Grapevine, TX 155 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Evangel Community Church, Centerville, GA" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/FL-Orlando.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1602,8 +1605,8 @@ Angela Goodman
 *(L-R Back) Kyle Heyne, Ray Berkey*
 
 #### 3rd Place
- 
-* **Church**: Faith A/G, Orlando, FL 
+
+* **Church**: Faith A/G, Orlando, FL
 * **Coaches**: Ray Berkey, Angie Berkey (assistant)
 * **Team**:
     * Heather Patterson
@@ -1632,7 +1635,7 @@ Angela Goodman
   * Round 19: Won against Allison Park A/G, Allison Park, PA 210 to -30
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Faith A/G, Orlando, FL" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/GA-Dunwoody.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1641,8 +1644,8 @@ Angela Goodman
 *(L-R Back) John Porter, Joe Fortunato, Seth Sundell (assistant)*
 
 #### 4th Place
- 
-* **Church**: Calvary A/G, Dunwoody, GA 
+
+* **Church**: Calvary A/G, Dunwoody, GA
 * **Coaches**: John Porter, Seth Sundell (assistant)
 * **Team**:
     * Gina Fortunato
@@ -1671,15 +1674,15 @@ Angela Goodman
   * Round 19: Lost to South Hills A/G, Bethel Park, PA 130 to 155
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, Dunwoody, GA" html=image_html %}
 
 {% capture image_html %}
 
 *NOTE: We do not have a photo of this team. If you do, please e-mail the admins.*
 
 #### 5th Place
- 
-* **Church**: First A/G, Fort Myers, FL 
+
+* **Church**: First A/G, Fort Myers, FL
 * **Coaches**: Kristine Sobkowiak, Robert Sobkowiak (assistant)
 * **Team**:
     * Jessica Sobkowiak
@@ -1707,7 +1710,7 @@ Brianna Grantham
   * Round 19: Won against First A/G, Boulder, MT 250 to 0
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html alt="" html=image_html %}
+{% include image-card.html alt="First A/G, Fort Myers, FL" html=image_html %}
 
 ### Southwest Region
 
@@ -1718,8 +1721,8 @@ Brianna Grantham
 *(L-R Back) Patrick Brown, Peter Brown*
 
 #### 1st Place
- 
-* **Church**: Orange Hills A/G, Orange, CA 
+
+* **Church**: Orange Hills A/G, Orange, CA
 * **Coaches**: Mel Aou, Patrick Brown (assistant)
 * **Team**:
     * Ricky Haney
@@ -1747,7 +1750,7 @@ Brianna Grantham
   * Round 19: Won against Oceanway A/G, Jacksonville, FL 240 to 105
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Orange Hills A/G, Orange, CA" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/CO-ColoradoSprings.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1756,8 +1759,8 @@ Brianna Grantham
 *(L-R Back) Ryan Popineau, Janelle Schneider, [NAME WITHHELD], Phil Steiger*
 
 #### 2nd Place
- 
-* **Church**: The Church at Briargate, Colorado Springs, CO 
+
+* **Church**: The Church at Briargate, Colorado Springs, CO
 * **Coaches**: Phil Steiger, Heather Steiger (assistant)
 * **Team**:
     * Mary Pace
@@ -1789,7 +1792,7 @@ Brianna Grantham
 Playoff: Won against Christian Chapel, Tulsa, OK
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="The Church at Briargate, Colorado Springs, CO" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/CA-SantaAna.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1798,8 +1801,8 @@ Playoff: Won against Christian Chapel, Tulsa, OK
 *(L-R Back) Martha Kuroishi, Irv Kuroishi, Sandy Leonard*
 
 #### 3rd Place
- 
-* **Church**: Orange County Worship Center, Santa Ana, CA 
+
+* **Church**: Orange County Worship Center, Santa Ana, CA
 * **Coaches**: Irv Kuroishi, Sandy Leonard (assistant), Michael Shenoda (assistant)
 * **Team**:
     * Moneer Shenoda
@@ -1828,7 +1831,7 @@ Playoff: Won against Christian Chapel, Tulsa, OK
   * Round 19: Won against Albert Lea A/G, Albert Lea, MN 195 to 20
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Orange County Worship Center, Santa Ana, CA" html=image_html %}
 
 {% capture image_url %}{% link assets/2002/CO-Greeley.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1836,8 +1839,8 @@ Playoff: Won against Christian Chapel, Tulsa, OK
 *(L-R) Gary Van Gorp, Micah Van Gorp, Kari Van Gorp, Gary Van Gorp*
 
 #### 4th Place
- 
-* **Church**: Two Rivers Fellowship, Greeley, CO 
+
+* **Church**: Two Rivers Fellowship, Greeley, CO
 * **Coaches**: Caleb Van Gorp, Gary Van Gorp (assistant)
 * **Team**:
     * Kari Beth Van Gorp
@@ -1864,4 +1867,4 @@ Playoff: Won against Christian Chapel, Tulsa, OK
   * Round 19: Won against Southside A/G, Jackson, MS 160 to 115
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Two Rivers Fellowship, Greeley, CO" html=image_html %}
