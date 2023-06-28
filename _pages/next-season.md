@@ -23,5 +23,5 @@ This page will be updated as information becomes available.
 
 ## Application Questions
 
-<a href="{% link assets/2023/23-24 RJ Application Questions.doc %}" class="button is-primary">Application Questions (.doc)</a>
+<a href="{% link assets/2023/23-24 RJ Application Questions.docx %}" class="button is-primary">Application Questions (.doc)</a>
 
