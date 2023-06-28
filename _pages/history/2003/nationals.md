@@ -263,7 +263,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 
 * Bethel Park, PA, 165 vs. Dallas, TX, 145
 * Bethel Park, PA, 110 vs. Toledo, OH, 100
-* Dallas, TX, 160 vs. Toledo, OH, 150, in OT 
+* Dallas, TX, 160 vs. Toledo, OH, 150, in OT
 
 ### Group B
 
@@ -318,10 +318,11 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 
 ### Great Lakes Region
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/IN-Indianapolis.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Rhonda Chesser, Anastasiya Walker, Brittanica Chesser, Crystal Ellefson, Brian Lewis*\
+*(L-R Back) Dwight Chesser*
 
 #### 1st Place
 
@@ -334,12 +335,12 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Crystal Ellefson
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary Temple, Indianapolis, IN" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/OH-Toledo.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Brandy Steel, Bryce Steel, Bailey Steel, Bethany Brodbeck, Bryan Steel*
 
 #### 2nd Place
 
@@ -352,12 +353,13 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Bethany Brodbeck
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, Toledo, OH" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/KY-Lexington.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jeremy White, Kendra White, Krista Buckel*\
+*(L-R Back) Jon Galliers, Dave White, Venessa Buckel, Micah Buckel*
 
 #### 3rd Place
 
@@ -369,12 +371,13 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Kendra White
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Lexington, KY" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/IN-WestLafayette.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jim Whitford, Katie Whitehead, Brooke Whitford, Emily Whitford, Pam Whitehead*\
+*(L-R Back) Mark Whitehead, Don Whitehead*
 
 #### 4th Place
 
@@ -386,12 +389,13 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Brooke Whitford
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Bethel Christian Life Center, West Lafayette, IN" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/MI-EastLansing.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Christine Harr, Jacob Harr, Quinn Harr, Eric Andrews*\
+*(L-R Back) Maureen Harr, Benjamin Allen, Jonathan Allen Sr.*
 
 #### 5th Place
 
@@ -405,14 +409,14 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Jacob Harr
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, East Lansing, MI" html=image_html %}
 
 ### Gulf Region
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/TN-Murfreesboro.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Shirley Jensen, Chris Harrelson, Rebecca Jesnsen, Chris Morgan, Josh Morgan, William Harrelson*
 
 #### 1st Place
 
@@ -425,12 +429,12 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Rebecca Jensen
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Family Worship Center, Murfreesboro, TN" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/MO-Ozark.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Daniel Cooper, David Womelsdorf, Angie Griffith*
 
 #### 2nd Place
 
@@ -441,12 +445,12 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * David Womelsdorf
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="James River A/G, Ozark, MO" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/TN-Memphis.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Joy Teal, Christina Ewing, Cameo Ewing, Daniel Lee Black, Matthew Teal, Christopher Bowers*
 
 #### 3rd Place
 
@@ -460,12 +464,12 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Cameo Ewing
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Raleigh A/G, Memphis, TN" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/MS-Biloxi.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Josiah Erwin, Mark Tant, Joshua Hanssen*
 
 #### 4th Place
 
@@ -477,12 +481,12 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Josiah Erwin
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Cedar Lake Christian Center, Biloxi, MS" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/MO-Springfield.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Kammie Sands, Jordan Kenyon, Tiffany Auiler, Richard Fair*
 
 #### 5th Place
 
@@ -494,7 +498,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Jordan Kenyon
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="King's Chapel Christian Center, Springfield, MO" html=image_html %}
 
 ### North Central Region
 
@@ -530,25 +534,25 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Zach Schaalma
     * Tyler Turnage
     * Jacob Turnage
-* **Round Robin**: 
-  * Round 1: Lost to The Oaks Fellowship, Dallas, TX 155 to 195 
-  * Round 2: Won against First A/G, Fort Myers, FL 140 to 95 
-  * Round 3: Lost to Bethel Life Christian Center, West Lafayette, IN 10 to 150 
-  * Round 4: Won against First A/G, Lexington, KY 170 to 60 
-  * Round 5: Won against First A/G, Ames, IA 155 to 20 
-  * Round 6: Lost to Monroeville A/G, Monroeville, PA 80 to 195 
-  * Round 7: Won against Family Worship Center, Murfreesboro, TN 185 to 100 
-  * Round 8: Won against Fossil Creek Community Church, Fort Worth, TX 150 to 5 
-  * Round 9: Lost to Orange Hills A/G, Orange, CA 245 to 45 
-  * Round 10: Won against First A/G, East Lansing, MI 85 to 15 
-  * Round 11: Lost to Living Waters Chapel, Lebanon, PA 55 to 185 
-  * Round 12: Won against Braeswood A/G, Houston, TX 155 to 135 
-  * Round 13: Won against Faith A/G, Orlando, FL 140 to 85 
-  * Round 14: Lost to South Hills A/G, Bethel Park, PA 50 to 135 
-  * Round 15: Lost to Calvary A/G, Dunwoody, GA 35 to 70 
-  * Round 16: Won against Calvary Temple, Indianapolis, IN 165 to 45 
-  * Round 17: Won against Central A/G, Superior, WI 145 to 140 
-  * Round 18: Won against Cedar Park A/G, Bothell, WA 150 to 145 
+* **Round Robin**:
+  * Round 1: Lost to The Oaks Fellowship, Dallas, TX 155 to 195
+  * Round 2: Won against First A/G, Fort Myers, FL 140 to 95
+  * Round 3: Lost to Bethel Life Christian Center, West Lafayette, IN 10 to 150
+  * Round 4: Won against First A/G, Lexington, KY 170 to 60
+  * Round 5: Won against First A/G, Ames, IA 155 to 20
+  * Round 6: Lost to Monroeville A/G, Monroeville, PA 80 to 195
+  * Round 7: Won against Family Worship Center, Murfreesboro, TN 185 to 100
+  * Round 8: Won against Fossil Creek Community Church, Fort Worth, TX 150 to 5
+  * Round 9: Lost to Orange Hills A/G, Orange, CA 245 to 45
+  * Round 10: Won against First A/G, East Lansing, MI 85 to 15
+  * Round 11: Lost to Living Waters Chapel, Lebanon, PA 55 to 185
+  * Round 12: Won against Braeswood A/G, Houston, TX 155 to 135
+  * Round 13: Won against Faith A/G, Orlando, FL 140 to 85
+  * Round 14: Lost to South Hills A/G, Bethel Park, PA 50 to 135
+  * Round 15: Lost to Calvary A/G, Dunwoody, GA 35 to 70
+  * Round 16: Won against Calvary Temple, Indianapolis, IN 165 to 45
+  * Round 17: Won against Central A/G, Superior, WI 145 to 140
+  * Round 18: Won against Cedar Park A/G, Bothell, WA 150 to 145
   * Round 19: Won against First A/G, San Angelo, TX 110 to 65
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
