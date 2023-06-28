@@ -722,7 +722,7 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 {% capture image_url %}{% link assets/2001/WI-Superior1.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*(L-R Back) Jeff Meyer, Jeff Sharkey, Logan Newman, Steve Sharkey*
+*(L-R Back) Jeff Meyer, Jeff Sharkey, Logan Newman, Steve Sharkey*\
 *(L-R Front) Hannah Meyer, Naomi Meyer, Bethany Laakkonen*
 
 #### 1st Place
