@@ -43,20 +43,6 @@ For hotel room information, email [Pastor Bernie](mailto:elliotbq@gmail.com).
 
 ---
 
-## Scholarship Applications
-
-NEW: Submit your application for all scholarships online!
-
-<a href="https://forms.gle/ty7uPszGL43CqAue7" class="button is-primary">Online Scholarship Application</a>
-
-If you want to print and submit via fax or email, download the following:
-
-<a href="{% link assets/2023/Scholarship-National-Finals.docx %}" class="button is-primary">Bible Quiz Scholarship Application and Instructions</a>
-
-<a href="{% link assets/2023/Scholarship-Nationals-Lindenwood.docx %}" class="button is-primary">Lindenwood Bible Quiz Scholarship Application</a> <a href="{% link assets/2023/Scholarship-Nationals-Lindenwood-Info.pdf %}" class="button is-primary">Learn about Lindenwood University</a>
-
----
-
 ## Adult Quizzing
 
 Veteran Division: I Timothy 1-6  
@@ -66,30 +52,3 @@ Both divisions written by Solomon Stevens.
 
 Contact [Katie Randolph](mailto:kaitlyn.randolph@gmail.com) for more information.
 
----
-
-## Sponsorship and Scholarship Giving Opportunities
-
-As of May 15
-
-**SPONSORSHIP**
-
-- ~~Need 1 Platinum Sponsor of at least $3,000.00~~ 
-- ~~Need 1 Diamond Sponsor of at least $1,500.00~~
-- Need 7 Silver Sponsors for Quiz Rooms sponsored at $300.00 
-- Need 8 Bible Boosters of at least $25.00 Plus 
-
-**SCHOLARSHIP**
-
-- ~~George Edgerly Scholarship $1,000~~
-- ~~Mark and Becky Gilmer Scholarship $1,000~~
-- ~~Hollis Kelly Scholarship $1,000~~
-- ~~Kent Kloefkorn Scholarship $ 1,000~~
-- ~~Individual Tournament $850~~
-- ~~Male Quizzer of the year $1,000~~
-- ~~Female Quizzer of the year $1,000~~
-- ~~Quoting Bee $850~~
-
-To donate, go to <https://giving.ag.org/donate/nym> and then select “24 NATL BIBLE QUIZ OFF” for Sponsorship. Scholarships are marked “Youth-Bible Quiz”
-
-Please contact Bernie Elliot ([elliotbq@gmail.com](mailto:elliotbq@gmail.com)) if you would like to donate to the above so we can ensure the monies get to the specific category you want sponsored.
