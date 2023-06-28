@@ -245,6 +245,69 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 |       71 | Kirby Giulio       | Boulder, MT        |   -10 |  -0.53 |        |         |
 |       72 | Kelly Anderson     | Grapevine, TX      |   -15 |  -0.79 |        |         |
 
+## Preliminaries
+
+### Group A
+
+|    Rank | Division | Team                               | W / L | Total |
+| ------: | -------- | ---------------------------------- | ----- | ----: |
+|       1 | A        | Braeswood A/G, Houston, TX         | 5 / 2 |  1055 |
+| **1\*** | A        | Tacoma Life Center, Tacoma, WA     | 5 / 2 |   755 |
+|       3 | A        | Central A/G, Superior, WI*         | 4 / 3 |  1030 |
+|       4 | A        | Calvary A/G, DeMotte, IN**         | 4 / 3 |   915 |
+|       5 | A        | Billings A/G, Billings, MO         | 4 / 3 |   965 |
+| **5\*** | A        | First A/G, Fort Myers, FL          | 4 / 3 |   645 |
+|       7 | A        | First A/G, Hermitage, PA           | 2 / 5 |   530 |
+|       8 | A        | Two Rivers Fellowship, Greeley, CO | 0 / 7 |   265 |
+
+\* Won both playoff rounds
+\*\* Won first playoff round, lost second.
+
+### Group B
+
+|    Rank | Division | Team                                             | W / L | Total |
+| ------: | -------- | ------------------------------------------------ | ----- | ----: |
+|       1 | B        | Living Waters Chapel, Lebanon, PA                | 5 / 2 |  1475 |
+| **1\*** | B        | Fossil Creek A/G, Fort Worth, TX                 | 5 / 2 |  1080 |
+| **1\*** | B        | Calvary Church, Naperville, IL                   | 5 / 2 |   930 |
+|       4 | B        | Bethel Christian Life Center, West Lafayette, IN | 4 / 3 |   935 |
+|       5 | B        | James River A/G, Ozark, MO                       | 2 / 5 |   480 |
+|       6 | B        | Cedar Park A/G "So-called Angels", Bothell, WA   | 2 / 5 |  1070 |
+| **6\*** | B        | Evangel Community Church, Centerville, GA        | 2 / 5 |   580 |
+| **6\*** | B        | First A/G, Cedar Rapids, IA                      | 2 / 5 |   210 |
+
+### Group C
+
+|    Rank | Division | Team                                          | W / L | Total |
+| ------: | -------- | --------------------------------------------- | ----- | ----: |
+|       1 | C        | The Church at Briargate, Colorado Springs, CO | 7 / 0 |  1325 |
+|       2 | C        | South Hills A/G, Bethel Park, PA**            | 5 / 2 |  1185 |
+|       3 | C        | Faith A/G, Orlando, FL*                       | 5 / 2 |  1150 |
+| **3\*** | C        | Calvary Temple, Indianapolis, IN              | 5 / 2 |  1035 |
+|       5 | C        | Family Worship Center, Murfreesboro, TN       | 3 / 4 |   640 |
+|       6 | C        | Abundant Life A/G, Grapevine, TX              | 2 / 5 |   780 |
+|       7 | C        | First A/G, Helena, MT                         | 1 / 6 |   245 |
+|       8 | C        | Albert Lea A/G, Albert Lea, MN                | 0 / 7 |   115 |
+
+\* Won first playoff, lost to Bethel Park in second playoff
+\*\* Won second playoff
+
+### Group D
+
+|    Rank | Division | Team                                        | W / L | Total |
+| ------: | -------- | ------------------------------------------- | ----- | ----: |
+|       1 | D        | Calvary A/G, Dunwoody, GA*                  | 5 / 2 |  1120 |
+| **1\*** | D        | First A/G, Ames, IA*                        | 5 / 2 |  1045 |
+|       3 | D        | Allison Park A/G, Allison Park, PA**        | 5 / 2 |  1055 |
+| **3\*** | D        | Orange County Worship Center, Santa Ana, CA | 5 / 2 |  1005 |
+|       5 | D        | Calvary A/G, Toledo, OH                     | 4 / 3 |   885 |
+|       6 | D        | The Oaks Fellowship, Dallas, TX             | 3 / 4 |  1020 |
+|       7 | D        | Southside A/G, Jackson, MS                  | 1 / 6 |   210 |
+|       8 | D        | First A/G, Boulder, MT                      | 0 / 7 |    75 |
+
+\* Won first playoff round, advances to Championship Division
+\*\* Won second playoff round, advances to Championship Division
+
 ## Teams
 
 ### Great Lakes Region
@@ -1272,10 +1335,11 @@ Round 19: Won against Grace A/G, Syracuse, NY 150 to 100
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/TX-Dallas.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jeannie Davis, Andrea Palmer*\
+*(L-R Back) Michael Pearson, Derek Wilson, Kevin Davis*
 
 #### 2nd Place
 
@@ -1309,10 +1373,11 @@ Round 19: Won against Billings A/G, Billings, MO 180 to 105
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/TX-Houston.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Albert Osueke, Prince Anyanwu, Janie Burquist (assistant), Josh Verkerk*\
+*(L-R Back) Charles Anyanwu (assistant), Paul Kramer, Dapo Masha, ????*
 
 #### 3rd Place
 
@@ -1346,10 +1411,11 @@ Round 19: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 250 to 35
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/TX-FortWorth.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Amanda Pryor, Andrea Pryor, April Pryor*\
+*(L-R Back) Tammy Pryor, Ken Pryor (assistant)*
 
 #### 4th Place
 
@@ -1382,10 +1448,10 @@ Round 19: Lost to First A/G, Lexington, KY 70 to 95
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/TX-Grapevine.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(Team Members) Richard Ely, Janet Fukuda, Sharon Ely, Heather Lester, Katie Ryan, Kelly Anderson*
 
 #### 5th Place
 
@@ -1421,10 +1487,10 @@ Round 19: Lost to Evangel Community Church, Centerville, GA 140 to 155
 
 ### Southeast Region
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/FL-Jacksonville.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Bobby Strickland, Chad Crawford, Stacy Strickland, Tyler Landreville, Kathy Strickland*
 
 #### 1st Place
 
@@ -1457,10 +1523,12 @@ Round 19: Lost to Orange Hills A/G, Orange, CA 105 to 240
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/GA-Centerville.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Mark Gilmer, Greg Aikens*\
+*(L-R Middle) Susan Parr, Carolina Parr, Mark Childers, Blake Hoffmeyere*\
+*(L-R Back) Sarah Ward, Matthew Dykema*
 
 #### 2nd Place
 
@@ -1495,10 +1563,11 @@ Round 19: Won against Abundant Life A/G, Grapevine, TX 155 to 140
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/FL-Orlando.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Angie Berkey, Mia Angelakos, Heather Patterson, Michelle Hart, Mia Angelakos,*
+*(L-R Back) Kyle Heyne, Ray Berkey*
 
 #### 3rd Place
 
@@ -1532,10 +1601,11 @@ Round 19: Won against Allison Park A/G, Allison Park, PA 210 to -30
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/GA-Dunwoody.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Brandon Porter, Gina Fortunato, Laura Jakstadt, ????*\
+*(L-R Back) John Porter, Joe Fortunato, Seth Sundell (assistant)*
 
 #### 4th Place
 
@@ -1569,11 +1639,9 @@ Round 19: Lost to South Hills A/G, Bethel Park, PA 130 to 155
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
 {% capture image_html %}
 
-(We do not have a photo of this team. If you do, please e-mail the admins.)
-*TODO*
+*NOTE: We do not have a photo of this team. If you do, please e-mail the admins.*
 
 #### 5th Place
 
@@ -1604,14 +1672,15 @@ Round 18: Lost to The Oaks Fellowship, Dallas, TX 55 to 245
 Round 19: Won against First A/G, Boulder, MT 250 to 0
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html alt="" html=image_html %}
 
 ### Southwest Region
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/CA-Orange.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Mel Aou, Ricky Haney, David Dorey*
+*(L-R Back) Patrick Brown, Peter Brown*
 
 #### 1st Place
 
@@ -1644,10 +1713,11 @@ Round 19: Won against Oceanway A/G, Jacksonville, FL 240 to 105
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/CO-ColoradoSprings.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Ashley Mefford, Molly Pace, Mary Pace, Heather Steiger*\
+*(L-R Back) Ryan Popineau, Janelle Schneider, [NAME WITHHELD], Phil Steiger*
 
 #### 2nd Place
 
@@ -1684,10 +1754,11 @@ Playoff: Won against Christian Chapel, Tulsa, OK
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/CA-SantaAna.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Moneer Shenoda, Mariana Shenoda, Katie Kuroishi, Cristina Saavedra*\
+*(L-R Back) Martha Kuroishi, Irv Kuroishi, Sandy Leonard*
 
 #### 3rd Place
 
@@ -1721,10 +1792,10 @@ Round 19: Won against Albert Lea A/G, Albert Lea, MN 195 to 20
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2002/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2002/CO-Greeley.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Gary Van Gorp, Micah Van Gorp, Kari Van Gorp, Gary Van Gorp*
 
 #### 4th Place
 
