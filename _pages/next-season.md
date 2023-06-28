@@ -25,3 +25,6 @@ This page will be updated as information becomes available.
 
 <a href="{% link assets/2023/23-24 RJ Application Questions.docx %}" class="button is-primary">Application Questions (.doc)</a>
 
+## Training Opportunities & Tournaments
+
+<a href="{% link _pages/events/training.md %}" class="button is-primary">Upcoming Training Opportunities</a>
