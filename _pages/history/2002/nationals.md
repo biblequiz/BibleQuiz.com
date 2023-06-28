@@ -319,33 +319,34 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 *(L-R Back) Jeremy White, Dave White, Micah Buckel*
 
 #### 1st Place
-
-Church:	First A/G, Lexington, KY
-Coaches:	Dave White, Venessa Buckel (assistant), Karen White (assistant)
-Team:	Jeremy White
-Micah Buckel
-Kendra White
-Molly Dietrich
+ 
+* **Church**: First A/G, Lexington, KY 
+* **Coaches**: Dave White, Venessa Buckel (assistant), Karen White (assistant)
+* **Team**:
+    * Jeremy White
+    * Micah Buckel
+    * Kendra White
+    * Molly Dietrich
 * **Round Robin**:
-Round 1: Won against King's Chapel, Springfield, MO 165 to 80
-Round 2: Lost to Living Waters Chapel, Lebanon, PA 85 to 150
-Round 3: Lost to South Hills A/G, Bethel Park, PA 60 to 185
-Round 4: Won against Faith A/G, Orlando, FL 80 to 60
-Round 5: Won against The Church at Briargate, Colorado Springs, CO 160 to 70
-Round 6: Won against Calvary Church, Naperville, IL 180 to 80
-Round 7: Lost to Allison Park A/G, Allison Park, PA 115 to 175
-Round 8: Won against Calvary A/G, Dunwoody, GA 125 to 60
-Round 9: Won against First A/G, Ames, IA 115 to 80
-Round 10: Lost to Central A/G, Superior, WI 120 to 155
-Round 11: Lost to Christian Chapel, Tulsa, OK -10 to 265
-Round 12: Won against Tacoma Life Center, Tacoma, WA 95 to 90
-Round 13: Won against Oceanway A/G, Jacksonville, FL 145 to 85
-Round 14: Lost to Braeswood A/G, Houston, TX 115 to 125
-Round 15: Won against Grace A/G, Syracuse, NY 140 to 20
-Round 16: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 145 to 50
-Round 17: Lost to Orange Hills A/G, Orange, CA -15 to 300
-Round 18: Won against Fond du Lac A/G, Fond du Lac, WI 185 to 35
-Round 19: Won against Fossil Creek A/G, Fort Worth, TX 95 to 70
+  * Round 1: Won against King's Chapel, Springfield, MO 165 to 80
+  * Round 2: Lost to Living Waters Chapel, Lebanon, PA 85 to 150
+  * Round 3: Lost to South Hills A/G, Bethel Park, PA 60 to 185
+  * Round 4: Won against Faith A/G, Orlando, FL 80 to 60
+  * Round 5: Won against The Church at Briargate, Colorado Springs, CO 160 to 70
+  * Round 6: Won against Calvary Church, Naperville, IL 180 to 80
+  * Round 7: Lost to Allison Park A/G, Allison Park, PA 115 to 175
+  * Round 8: Won against Calvary A/G, Dunwoody, GA 125 to 60
+  * Round 9: Won against First A/G, Ames, IA 115 to 80
+  * Round 10: Lost to Central A/G, Superior, WI 120 to 155
+  * Round 11: Lost to Christian Chapel, Tulsa, OK -10 to 265
+  * Round 12: Won against Tacoma Life Center, Tacoma, WA 95 to 90
+  * Round 13: Won against Oceanway A/G, Jacksonville, FL 145 to 85
+  * Round 14: Lost to Braeswood A/G, Houston, TX 115 to 125
+  * Round 15: Won against Grace A/G, Syracuse, NY 140 to 20
+  * Round 16: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 145 to 50
+  * Round 17: Lost to Orange Hills A/G, Orange, CA -15 to 300
+  * Round 18: Won against Fond du Lac A/G, Fond du Lac, WI 185 to 35
+  * Round 19: Won against Fossil Creek A/G, Fort Worth, TX 95 to 70
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -357,32 +358,33 @@ Round 19: Won against Fossil Creek A/G, Fort Worth, TX 95 to 70
 *(L-R Back) Dwight Chesser, Brian Lewis, Rhonda Chesser*
 
 #### 2nd Place
-
-Church:	Calvary Temple, Indianapolis, IN
-Coaches:	Dwight Chesser, Rhonda Chesser (assistant)
-Team:	Brittanica Chesser
-Brian Lewis
-Anastasiya Walker
+ 
+* **Church**: Calvary Temple, Indianapolis, IN 
+* **Coaches**: Dwight Chesser, Rhonda Chesser (assistant)
+* **Team**:
+    * Brittanica Chesser
+    * Brian Lewis
+    * Anastasiya Walker
 * **Round Robin**:
-Round 1: Lost to The Oaks Fellowship, Dallas, TX 65 to 125
-Round 2: Won against First A/G, Boulder, MT 240 to 30
-Round 3: Won against Southside A/G, Jackson, MS 280 to 25
-Round 4: Won against Calvary A/G, DeMotte, IN 110 to 105
-Round 5: Won against First A/G, Cedar Rapids, IA 185 to 35
-Round 6: Won against Two Rivers Fellowship, Greeley, CO 110 to 90
-Round 7: Won against First A/G, Fort Myers, FL 230 to 60
-Round 8: Won against Billings A/G, Billings, MO 110 to -5
-Round 9: Won against Albert Lea A/G, Albert Lea, MN 215 to 10
-Round 10: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 100 to 155
-Round 11: Won against First A/G, Hermitage, PA 115 to 75
-Round 12: Lost to Evangel Community Church, Centerville, GA 65 to 130
-Round 13: Won against Family Worship Center, Murfreesboro, TN 135 to 45
-Round 14: Won against Orange County Worship Center, Santa Ana, CA 165 to 100
-Round 15: Won against First A/G, Helena, MT 220 to 25
-Round 16: Lost to Abundant Life A/G, Grapevine, TX 25 to 120
-Round 17: Lost to Bethel Christian Life Center, West Lafayette, IN 120 to 170
-Round 18: Lost to Calvary A/G, Toledo, OH 125 to 185
-Round 19: Won against James River A/G, Ozark, MO 120 to 95
+  * Round 1: Lost to The Oaks Fellowship, Dallas, TX 65 to 125
+  * Round 2: Won against First A/G, Boulder, MT 240 to 30
+  * Round 3: Won against Southside A/G, Jackson, MS 280 to 25
+  * Round 4: Won against Calvary A/G, DeMotte, IN 110 to 105
+  * Round 5: Won against First A/G, Cedar Rapids, IA 185 to 35
+  * Round 6: Won against Two Rivers Fellowship, Greeley, CO 110 to 90
+  * Round 7: Won against First A/G, Fort Myers, FL 230 to 60
+  * Round 8: Won against Billings A/G, Billings, MO 110 to -5
+  * Round 9: Won against Albert Lea A/G, Albert Lea, MN 215 to 10
+  * Round 10: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 100 to 155
+  * Round 11: Won against First A/G, Hermitage, PA 115 to 75
+  * Round 12: Lost to Evangel Community Church, Centerville, GA 65 to 130
+  * Round 13: Won against Family Worship Center, Murfreesboro, TN 135 to 45
+  * Round 14: Won against Orange County Worship Center, Santa Ana, CA 165 to 100
+  * Round 15: Won against First A/G, Helena, MT 220 to 25
+  * Round 16: Lost to Abundant Life A/G, Grapevine, TX 25 to 120
+  * Round 17: Lost to Bethel Christian Life Center, West Lafayette, IN 120 to 170
+  * Round 18: Lost to Calvary A/G, Toledo, OH 125 to 185
+  * Round 19: Won against James River A/G, Ozark, MO 120 to 95
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -394,33 +396,34 @@ Round 19: Won against James River A/G, Ozark, MO 120 to 95
 *(L-R Back) Bethany Brodbeck, Bryan Steel, Bryce Steel*
 
 #### 3rd Place
-
-Church:	Calvary A/G, Toledo, OH
-Coach:	Bryan Steel,
-Team:	Bryce Steel
-Bethany Brodbeck
-Bailey Steel
-Brandy Steel
+ 
+* **Church**: Calvary A/G, Toledo, OH 
+* **Coach**: Bryan Steel,
+* **Team**:
+    * Bryce Steel
+    * Bethany Brodbeck
+    * Bailey Steel
+    * Brandy Steel
 * **Round Robin**:
-Round 1: Won against First A/G, Hermitage, PA 140 to 30
-Round 2: Won against Evangel Community Church, Centerville, GA 130 to -45
-Round 3: Won against Family Worship Center, Murfreesboro, TN 115 to 25
-Round 4: Won against Orange County Worship Center, Santa Ana, CA 165 to 60
-Round 5: Won against First A/G, Helena, MT 70 to 40
-Round 6: Won against Abundant Life A/G, Grapevine, TX 150 to 85
-Round 7: Won against Bethel Christian Life Center, West Lafayette, IN 155 to 135
-Round 8: Won against Albert Lea A/G, Albert Lea, MN 150 to 0
-Round 9: Lost to James River A/G, Ozark, MO 35 to 150
-Round 10: Lost to The Oaks Fellowship, Dallas, TX 95 to 130
-Round 11: Won against First A/G, Boulder, MT 110 to 35
-Round 12: Won against Southside A/G, Jackson, MS 180 to 40
-Round 13: Lost to Calvary A/G, DeMotte, IN 25 to 125
-Round 14: Won against First A/G, Cedar Rapids, IA 175 to 45
-Round 15: Won against Two Rivers Fellowship, Greeley, CO 190 to 40
-Round 16: Lost to First A/G, Fort Myers, FL 75 to 90
-Round 17: Won against Billings A/G, Billings, MO 155 to 115
-Round 18: Won against Calvary Temple, Indianapolis, IN 185 to 125
-Round 19: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 145 to 160
+  * Round 1: Won against First A/G, Hermitage, PA 140 to 30
+  * Round 2: Won against Evangel Community Church, Centerville, GA 130 to -45
+  * Round 3: Won against Family Worship Center, Murfreesboro, TN 115 to 25
+  * Round 4: Won against Orange County Worship Center, Santa Ana, CA 165 to 60
+  * Round 5: Won against First A/G, Helena, MT 70 to 40
+  * Round 6: Won against Abundant Life A/G, Grapevine, TX 150 to 85
+  * Round 7: Won against Bethel Christian Life Center, West Lafayette, IN 155 to 135
+  * Round 8: Won against Albert Lea A/G, Albert Lea, MN 150 to 0
+  * Round 9: Lost to James River A/G, Ozark, MO 35 to 150
+  * Round 10: Lost to The Oaks Fellowship, Dallas, TX 95 to 130
+  * Round 11: Won against First A/G, Boulder, MT 110 to 35
+  * Round 12: Won against Southside A/G, Jackson, MS 180 to 40
+  * Round 13: Lost to Calvary A/G, DeMotte, IN 25 to 125
+  * Round 14: Won against First A/G, Cedar Rapids, IA 175 to 45
+  * Round 15: Won against Two Rivers Fellowship, Greeley, CO 190 to 40
+  * Round 16: Lost to First A/G, Fort Myers, FL 75 to 90
+  * Round 17: Won against Billings A/G, Billings, MO 155 to 115
+  * Round 18: Won against Calvary Temple, Indianapolis, IN 185 to 125
+  * Round 19: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 145 to 160
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -432,33 +435,34 @@ Round 19: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 145 to 160
 *NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 4th Place
-
-Church:	Calvary A/G, DeMotte, IN
-Coaches:	Jim McCalment, Rena McCalment (assistant)
-Team:	Noah McCalment
-Linden Rost
-Tony Fraticelli
-Tim Fraticelli
+ 
+* **Church**: Calvary A/G, DeMotte, IN 
+* **Coaches**: Jim McCalment, Rena McCalment (assistant)
+* **Team**:
+    * Noah McCalment
+    * Linden Rost
+    * Tony Fraticelli
+    * Tim Fraticelli
 * **Round Robin**:
-Round 1: Won against Two Rivers Fellowship, Greeley, CO 165 to -20
-Round 2: Won against First A/G, Fort Myers, FL 115 to 70
-Round 3: Won against Billings A/G, Billings, MO 185 to 105
-Round 4: Lost to Calvary Temple, Indianapolis, IN 105 to 110
-Round 5: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 40 to 155
-Round 6: Lost to First A/G, Hermitage, PA 45 to 150
-Round 7: Won against Evangel Community Church, Centerville, GA 155 to 90
-Round 8: Won against Family Worship Center, Murfreesboro, TN 85 to 30
-Round 9: Won against Orange County Worship Center, Santa Ana, CA 140 to 100
-Round 10: Won against First A/G, Helena, MT 70 to 15
-Round 11: Won against Abundant Life A/G, Grapevine, TX 190 to 60
-Round 12: Lost to Bethel Christian Life Center, West Lafayette, IN 15 to 110
-Round 13: Won against Calvary A/G, Toledo, OH 125 to 25
-Round 14: Lost to James River A/G, Ozark, MO 125 to 150
-Round 15: Lost to The Oaks Fellowship, Dallas, TX 85 to 185
-Round 16: Won against First A/G, Boulder, MT 180 to 15
-Round 17: Won against Southside A/G, Jackson, MS 130 to 65
-Round 18: Won against Albert Lea A/G, Albert Lea, MN 195 to 30
-Round 19: Won against First A/G, Cedar Rapids, IA 195 to 95
+  * Round 1: Won against Two Rivers Fellowship, Greeley, CO 165 to -20
+  * Round 2: Won against First A/G, Fort Myers, FL 115 to 70
+  * Round 3: Won against Billings A/G, Billings, MO 185 to 105
+  * Round 4: Lost to Calvary Temple, Indianapolis, IN 105 to 110
+  * Round 5: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 40 to 155
+  * Round 6: Lost to First A/G, Hermitage, PA 45 to 150
+  * Round 7: Won against Evangel Community Church, Centerville, GA 155 to 90
+  * Round 8: Won against Family Worship Center, Murfreesboro, TN 85 to 30
+  * Round 9: Won against Orange County Worship Center, Santa Ana, CA 140 to 100
+  * Round 10: Won against First A/G, Helena, MT 70 to 15
+  * Round 11: Won against Abundant Life A/G, Grapevine, TX 190 to 60
+  * Round 12: Lost to Bethel Christian Life Center, West Lafayette, IN 15 to 110
+  * Round 13: Won against Calvary A/G, Toledo, OH 125 to 25
+  * Round 14: Lost to James River A/G, Ozark, MO 125 to 150
+  * Round 15: Lost to The Oaks Fellowship, Dallas, TX 85 to 185
+  * Round 16: Won against First A/G, Boulder, MT 180 to 15
+  * Round 17: Won against Southside A/G, Jackson, MS 130 to 65
+  * Round 18: Won against Albert Lea A/G, Albert Lea, MN 195 to 30
+  * Round 19: Won against First A/G, Cedar Rapids, IA 195 to 95
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -470,34 +474,35 @@ Round 19: Won against First A/G, Cedar Rapids, IA 195 to 95
 *(L-R Back) Mark Whitehead, Katie Whitehead*
 
 #### 5th Place
-
-Church:	Bethel Life Christian Center, West Lafayette, IN
-Coaches:	Pam Whitehead
-Team:	Mark Whitehead
-Katie Whitehead
-Nina Eagin
-Emily Whitehead
-Reece Eagin
+ 
+* **Church**: Bethel Life Christian Center, West Lafayette, IN 
+* **Coaches**: Pam Whitehead
+* **Team**:
+    * Mark Whitehead
+    * Katie Whitehead
+    * Nina Eagin
+    * Emily Whitehead
+    * Reece Eagin
 * **Round Robin**:
-Round 1: Lost to Evangel Community Church, Centerville, GA 20 to 115
-Round 2: Won against Family Worship Center, Murfreesboro, TN 220 to 15
-Round 3: Won against Orange County Worship Center, Santa Ana, CA 180 to 90
-Round 4: Won against First A/G, Helena, MT 195 to -10
-Round 5: Lost to Abundant Life A/G, Grapevine, TX 75 to 95
-Round 6: Won against Albert Lea A/G, Albert Lea, MN 185 to -5
-Round 7: Lost to Calvary A/G, Toledo, OH 135 to 155
-Round 8: Won against James River A/G, Ozark, MO 90 to 75
-Round 9: Won against The Oaks Fellowship, Dallas, TX 150 to 80
-Round 10: Won against First A/G, Boulder, MT 245 to 5
-Round 11: Won against Southside A/G, Jackson, MS 185 to 45
-Round 12: Won against Calvary A/G, DeMotte, IN 110 to 15
-Round 13: Lost to First A/G, Cedar Rapids, IA 65 to 100
-Round 14: Won against Two Rivers Fellowship, Greeley, CO 125 to -5
-Round 15: Lost to First A/G, Fort Myers, FL 120 to 130
-Round 16: Won against Billings A/G, Billings, MO 180 to 75
-Round 17: Won against Calvary Temple, Indianapolis, IN 170 to 120
-Round 18: Won against Cedar Park A/G "So-called Angels", Bothell, WA 165 to 90
-Round 19: Won against First A/G, Hermitage, PA 260 to 75
+  * Round 1: Lost to Evangel Community Church, Centerville, GA 20 to 115
+  * Round 2: Won against Family Worship Center, Murfreesboro, TN 220 to 15
+  * Round 3: Won against Orange County Worship Center, Santa Ana, CA 180 to 90
+  * Round 4: Won against First A/G, Helena, MT 195 to -10
+  * Round 5: Lost to Abundant Life A/G, Grapevine, TX 75 to 95
+  * Round 6: Won against Albert Lea A/G, Albert Lea, MN 185 to -5
+  * Round 7: Lost to Calvary A/G, Toledo, OH 135 to 155
+  * Round 8: Won against James River A/G, Ozark, MO 90 to 75
+  * Round 9: Won against The Oaks Fellowship, Dallas, TX 150 to 80
+  * Round 10: Won against First A/G, Boulder, MT 245 to 5
+  * Round 11: Won against Southside A/G, Jackson, MS 185 to 45
+  * Round 12: Won against Calvary A/G, DeMotte, IN 110 to 15
+  * Round 13: Lost to First A/G, Cedar Rapids, IA 65 to 100
+  * Round 14: Won against Two Rivers Fellowship, Greeley, CO 125 to -5
+  * Round 15: Lost to First A/G, Fort Myers, FL 120 to 130
+  * Round 16: Won against Billings A/G, Billings, MO 180 to 75
+  * Round 17: Won against Calvary Temple, Indianapolis, IN 170 to 120
+  * Round 18: Won against Cedar Park A/G "So-called Angels", Bothell, WA 165 to 90
+  * Round 19: Won against First A/G, Hermitage, PA 260 to 75
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -509,32 +514,33 @@ Round 19: Won against First A/G, Hermitage, PA 260 to 75
 *(L-R Back) Scott Papendick*
 
 #### 6th Place
-
-Church:	Calvary Church, Naperville, IL
-Coaches:	Scott Papendick, Chris Papendick (assistant), Linda Lacey (assistant)
-Team:	Kristen Johnson
-Andrew Harrington
-Savanna Lacey
+ 
+* **Church**: Calvary Church, Naperville, IL 
+* **Coaches**: Scott Papendick, Chris Papendick (assistant), Linda Lacey (assistant)
+* **Team**:
+    * Kristen Johnson
+    * Andrew Harrington
+    * Savanna Lacey
 * **Round Robin**:
-Round 1: Won against Christian Chapel, Tulsa, OK 100 to 70
-Round 2: Lost to Allison Park A/G, Allison Park, PA 60 to 95
-Round 3: Won against Calvary A/G, Dunwoody, GA 170 to 55
-Round 4: Lost to First A/G, Ames, IA 30 to 145
-Round 5: Lost to Central A/G, Superior, WI 0 to 165
-Round 6: Lost to First A/G, Lexington, KY 80 to 180
-Round 7: Lost to Tacoma Life Center, Tacoma, WA 100 to 160
-Round 8: Won against Oceanway A/G, Jacksonville, FL 125 to -15
-Round 9: Lost to Braeswood A/G, Houston, TX 60 to 115
-Round 10: Lost to Grace A/G, Syracuse, NY 15 to 50
-Round 11: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 150 to 15
-Round 12: Lost to Orange Hills A/G, Orange, CA 0 to 255
-Round 13: Lost to Fond du Lac A/G, Fond du Lac, WI 70 to 100
-Round 14: Lost to Fossil Creek A/G, Fort Worth, TX 65 to 205
-Round 15: Won against King's Chapel, Springfield, MO 110 to 90
-Round 16: Lost to Living Waters Chapel, Lebanon, PA 30 to 185
-Round 17: Won against South Hills A/G, Bethel Park, PA 90 to 65
-Round 18: Lost to Faith A/G, Orlando, FL 5 to 215
-Round 19: Lost to The Church at Briargate, Colorado Springs, CO 120 to 190
+  * Round 1: Won against Christian Chapel, Tulsa, OK 100 to 70
+  * Round 2: Lost to Allison Park A/G, Allison Park, PA 60 to 95
+  * Round 3: Won against Calvary A/G, Dunwoody, GA 170 to 55
+  * Round 4: Lost to First A/G, Ames, IA 30 to 145
+  * Round 5: Lost to Central A/G, Superior, WI 0 to 165
+  * Round 6: Lost to First A/G, Lexington, KY 80 to 180
+  * Round 7: Lost to Tacoma Life Center, Tacoma, WA 100 to 160
+  * Round 8: Won against Oceanway A/G, Jacksonville, FL 125 to -15
+  * Round 9: Lost to Braeswood A/G, Houston, TX 60 to 115
+  * Round 10: Lost to Grace A/G, Syracuse, NY 15 to 50
+  * Round 11: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 150 to 15
+  * Round 12: Lost to Orange Hills A/G, Orange, CA 0 to 255
+  * Round 13: Lost to Fond du Lac A/G, Fond du Lac, WI 70 to 100
+  * Round 14: Lost to Fossil Creek A/G, Fort Worth, TX 65 to 205
+  * Round 15: Won against King's Chapel, Springfield, MO 110 to 90
+  * Round 16: Lost to Living Waters Chapel, Lebanon, PA 30 to 185
+  * Round 17: Won against South Hills A/G, Bethel Park, PA 90 to 65
+  * Round 18: Lost to Faith A/G, Orlando, FL 5 to 215
+  * Round 19: Lost to The Church at Briargate, Colorado Springs, CO 120 to 190
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -548,32 +554,32 @@ Round 19: Lost to The Church at Briargate, Colorado Springs, CO 120 to 190
 *(L-R Back) Jim Hernando, Chris Davis, Eric Hernando*
 
 #### 1st Place
-
-Church:	King's Chapel, Springfield, MO
-Coaches:	Hannah Duncan, Jackie Goodman (assistant), Jim Hernando (assistant)
+ 
+* **Church**: King's Chapel, Springfield, MO 
+* **Coaches**: Hannah Duncan, Jackie Goodman (assistant), Jim Hernando (assistant)
 Eric Hernando
 Chris Davis
 Angela Goodman
 * **Round Robin**:
-Round 1: Lost to First A/G, Lexington, KY 80 to 165
-Round 2: Won against Tacoma Life Center, Tacoma, WA 240 to 35
-Round 3: Won against Oceanway A/G, Jacksonville, FL 130 to 65
-Round 4: Lost to Braeswood A/G, Houston, TX 70 to 170
-Round 5: Lost to Grace A/G, Syracuse, NY 90 to 95
-Round 6: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 160 to 30
-Round 7: Lost to Orange Hills A/G, Orange, CA 30 to 250
-Round 8: Won against Fond du Lac A/G, Fond du Lac, WI 165 to 35
-Round 9: Lost to Fossil Creek A/G, Fort Worth, TX 85 to 175
-Round 10: Lost to Christian Chapel, Tulsa, OK -25 to 215
-Round 11: Lost to Living Waters Chapel, Lebanon, PA 35 to 155
-Round 12: Lost to South Hills A/G, Bethel Park, PA 105 to 110
-Round 13: Won against Faith A/G, Orlando, FL 95 to 50
-Round 14: Lost to The Church at Briargate, Colorado Springs, CO 55 to 225
-Round 15: Lost to Calvary Church, Naperville, IL 90 to 110
-Round 16: Won against Allison Park A/G, Allison Park, PA 130 to 110
-Round 17: Lost to Calvary A/G, Dunwoody, GA 55 to 185
-Round 18: Won against First A/G, Ames, IA 195 to 60
-Round 19: Won against Central A/G, Superior, WI 225 to 105
+  * Round 1: Lost to First A/G, Lexington, KY 80 to 165
+  * Round 2: Won against Tacoma Life Center, Tacoma, WA 240 to 35
+  * Round 3: Won against Oceanway A/G, Jacksonville, FL 130 to 65
+  * Round 4: Lost to Braeswood A/G, Houston, TX 70 to 170
+  * Round 5: Lost to Grace A/G, Syracuse, NY 90 to 95
+  * Round 6: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 160 to 30
+  * Round 7: Lost to Orange Hills A/G, Orange, CA 30 to 250
+  * Round 8: Won against Fond du Lac A/G, Fond du Lac, WI 165 to 35
+  * Round 9: Lost to Fossil Creek A/G, Fort Worth, TX 85 to 175
+  * Round 10: Lost to Christian Chapel, Tulsa, OK -25 to 215
+  * Round 11: Lost to Living Waters Chapel, Lebanon, PA 35 to 155
+  * Round 12: Lost to South Hills A/G, Bethel Park, PA 105 to 110
+  * Round 13: Won against Faith A/G, Orlando, FL 95 to 50
+  * Round 14: Lost to The Church at Briargate, Colorado Springs, CO 55 to 225
+  * Round 15: Lost to Calvary Church, Naperville, IL 90 to 110
+  * Round 16: Won against Allison Park A/G, Allison Park, PA 130 to 110
+  * Round 17: Lost to Calvary A/G, Dunwoody, GA 55 to 185
+  * Round 18: Won against First A/G, Ames, IA 195 to 60
+  * Round 19: Won against Central A/G, Superior, WI 225 to 105
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -584,31 +590,32 @@ Round 19: Won against Central A/G, Superior, WI 225 to 105
 *(L-R) James Szalapski (assistant), Tommy Szalapski, Robert Szalapski, John Dyer*
 
 #### 2nd Place
-
-Church:	Billings A/G, Billings, MO
-Coaches:	John Dyer, James Szalapski (assistant)
-Team:	Robert Szalapski
-Tommy Szalapski
+ 
+* **Church**: Billings A/G, Billings, MO 
+* **Coaches**: John Dyer, James Szalapski (assistant)
+* **Team**:
+    * Robert Szalapski
+    * Tommy Szalapski
 * **Round Robin**:
-Round 1: Won against First A/G, Boulder, MT 210 to 30
-Round 2: Won against Southside A/G, Jackson, MS 145 to 40
-Round 3: Lost to Calvary A/G, DeMotte, IN 105 to 185
-Round 4: Won against First A/G, Cedar Rapids, IA 135 to 60
-Round 5: Won against Two Rivers Fellowship, Greeley, CO 200 to 40
-Round 6: Won against First A/G, Fort Myers, FL 180 to -20
-Round 7: Won against Albert Lea A/G, Albert Lea, MN 270 to 50
-Round 8: Lost to Calvary Temple, Indianapolis, IN -5 to 110
-Round 9: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 80 to 120
-Round 10: Won against First A/G, Hermitage, PA 85 to 75
-Round 11: Lost to Evangel Community Church, Centerville, GA 5 to 210
-Round 12: Won against Family Worship Center, Murfreesboro, TN 115 to 110
-Round 13: Won against Orange County Worship Center, Santa Ana, CA 70 to 45
-Round 14: Won against First A/G, Helena, MT 190 to 40
-Round 15: Won against Abundant Life A/G, Grapevine, TX 150 to 100
-Round 16: Lost to Bethel Christian Life Center, West Lafayette, IN 75 to 180
-Round 17: Lost to Calvary A/G, Toledo, OH 115 to 155
-Round 18: Won against James River A/G, Ozark, MO 145 to 140
-Round 19: Lost to The Oaks Fellowship, Dallas, TX 105 to 180
+  * Round 1: Won against First A/G, Boulder, MT 210 to 30
+  * Round 2: Won against Southside A/G, Jackson, MS 145 to 40
+  * Round 3: Lost to Calvary A/G, DeMotte, IN 105 to 185
+  * Round 4: Won against First A/G, Cedar Rapids, IA 135 to 60
+  * Round 5: Won against Two Rivers Fellowship, Greeley, CO 200 to 40
+  * Round 6: Won against First A/G, Fort Myers, FL 180 to -20
+  * Round 7: Won against Albert Lea A/G, Albert Lea, MN 270 to 50
+  * Round 8: Lost to Calvary Temple, Indianapolis, IN -5 to 110
+  * Round 9: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 80 to 120
+  * Round 10: Won against First A/G, Hermitage, PA 85 to 75
+  * Round 11: Lost to Evangel Community Church, Centerville, GA 5 to 210
+  * Round 12: Won against Family Worship Center, Murfreesboro, TN 115 to 110
+  * Round 13: Won against Orange County Worship Center, Santa Ana, CA 70 to 45
+  * Round 14: Won against First A/G, Helena, MT 190 to 40
+  * Round 15: Won against Abundant Life A/G, Grapevine, TX 150 to 100
+  * Round 16: Lost to Bethel Christian Life Center, West Lafayette, IN 75 to 180
+  * Round 17: Lost to Calvary A/G, Toledo, OH 115 to 155
+  * Round 18: Won against James River A/G, Ozark, MO 145 to 140
+  * Round 19: Lost to The Oaks Fellowship, Dallas, TX 105 to 180
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -619,32 +626,33 @@ Round 19: Lost to The Oaks Fellowship, Dallas, TX 105 to 180
 *(L-R) Angie Griffith, Daniel Cooper, Kyla Hollandsworth, David Womelsdorf, Robert Pears*
 
 #### 3rd Place
-
-Church:	James River A/G, Ozark, MO
-Coaches:	Angie Griffith, Robert Pearts (assistant)
-Team:	David Womelsdorf
-Daniel Cooper
-Kyla Hollandsworth
+ 
+* **Church**: James River A/G, Ozark, MO 
+* **Coaches**: Angie Griffith, Robert Pearts (assistant)
+* **Team**:
+    * David Womelsdorf
+    * Daniel Cooper
+    * Kyla Hollandsworth
 * **Round Robin**:
-Round 1: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 80 to 140
-Round 2: Won against First A/G, Hermitage, PA 80 to 75
-Round 3: Lost to Evangel Community Church, Centerville, GA 30 to 190
-Round 4: Won against Family Worship Center, Murfreesboro, TN 80 to 35
-Round 5: Lost to Orange County Worship Center, Santa Ana, CA 85 to 120
-Round 6: Won against First A/G, Helena, MT 150 to 55
-Round 7: Won against Abundant Life A/G, Grapevine, TX 160 to 90
-Round 8: Lost to Bethel Christian Life Center, West Lafayette, IN 75 to 90
-Round 9: Won against Calvary A/G, Toledo, OH 150 to 35
-Round 10: Won against Albert Lea A/G, Albert Lea, MN 165 to 0
-Round 11: Won against The Oaks Fellowship, Dallas, TX 155 to 150
-Round 12: Won against First A/G, Boulder, MT 150 to 15
-Round 13: Won against Southside A/G, Jackson, MS 100 to 50
-Round 14: Won against Calvary A/G, DeMotte, IN 150 to 125
-Round 15: Won against First A/G, Cedar Rapids, IA 80 to 45
-Round 16: Won against Two Rivers Fellowship, Greeley, CO 65 to 40
-Round 17: Lost to First A/G, Fort Myers, FL 80 to 100
-Round 18: Lost to Billings A/G, Billings, MO 140 to 145
-Round 19: Lost to Calvary Temple, Indianapolis, IN 95 to 120
+  * Round 1: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 80 to 140
+  * Round 2: Won against First A/G, Hermitage, PA 80 to 75
+  * Round 3: Lost to Evangel Community Church, Centerville, GA 30 to 190
+  * Round 4: Won against Family Worship Center, Murfreesboro, TN 80 to 35
+  * Round 5: Lost to Orange County Worship Center, Santa Ana, CA 85 to 120
+  * Round 6: Won against First A/G, Helena, MT 150 to 55
+  * Round 7: Won against Abundant Life A/G, Grapevine, TX 160 to 90
+  * Round 8: Lost to Bethel Christian Life Center, West Lafayette, IN 75 to 90
+  * Round 9: Won against Calvary A/G, Toledo, OH 150 to 35
+  * Round 10: Won against Albert Lea A/G, Albert Lea, MN 165 to 0
+  * Round 11: Won against The Oaks Fellowship, Dallas, TX 155 to 150
+  * Round 12: Won against First A/G, Boulder, MT 150 to 15
+  * Round 13: Won against Southside A/G, Jackson, MS 100 to 50
+  * Round 14: Won against Calvary A/G, DeMotte, IN 150 to 125
+  * Round 15: Won against First A/G, Cedar Rapids, IA 80 to 45
+  * Round 16: Won against Two Rivers Fellowship, Greeley, CO 65 to 40
+  * Round 17: Lost to First A/G, Fort Myers, FL 80 to 100
+  * Round 18: Lost to Billings A/G, Billings, MO 140 to 145
+  * Round 19: Lost to Calvary Temple, Indianapolis, IN 95 to 120
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -655,32 +663,33 @@ Round 19: Lost to Calvary Temple, Indianapolis, IN 95 to 120
 *(Team Members) William Harrelson, Jeana Lewis (assistant), Josh Morgan, Chris Harrelson, Russel Rodden*
 
 #### 4th Place
-
-Church:	Family Worship Center, Murfreesboro, TN
-Coaches:	William Harrelson, Jeana Lewis (assistant)
-Team:	Josh Morgan
-Chris Harrelson
-Russell Rodden
+ 
+* **Church**: Family Worship Center, Murfreesboro, TN 
+* **Coaches**: William Harrelson, Jeana Lewis (assistant)
+* **Team**:
+    * Josh Morgan
+    * Chris Harrelson
+    * Russell Rodden
 * **Round Robin**:
-Round 1: Lost to Abundant Life A/G, Grapevine, TX 40 to 115
-Round 2: Lost to Bethel Christian Life Center, West Lafayette, IN 15 to 220
-Round 3: Lost to Calvary A/G, Toledo, OH 25 to 115
-Round 4: Lost to James River A/G, Ozark, MO 35 to 80
-Round 5: Lost to The Oaks Fellowship, Dallas, TX 60 to 140
-Round 6: Won against First A/G, Boulder, MT 105 to -5
-Round 7: Won against Southside A/G, Jackson, MS 105 to -20
-Round 8: Lost to Calvary A/G, DeMotte, IN 30 to 85
-Round 9: Won against First A/G, Cedar Rapids, IA 170 to 5
-Round 10: Won against Two Rivers Fellowship, Greeley, CO 150 to 40
-Round 11: Won against First A/G, Fort Myers, FL 140 to -5
-Round 12: Lost to Billings A/G, Billings, MO 110 to 115
-Round 13: Lost to Calvary Temple, Indianapolis, IN 45 to 135
-Round 14: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 45 to 220
-Round 15: Won against First A/G, Hermitage, PA 145 to 130
-Round 16: Lost to Evangel Community Church, Centerville, GA 45 to 120
-Round 17: Won against Albert Lea A/G, Albert Lea, MN 215 to 10
-Round 18: Lost to Orange County Worship Center, Santa Ana, CA 5 to 285
-Round 19: Won against First A/G, Helena, MT 165 to 150
+  * Round 1: Lost to Abundant Life A/G, Grapevine, TX 40 to 115
+  * Round 2: Lost to Bethel Christian Life Center, West Lafayette, IN 15 to 220
+  * Round 3: Lost to Calvary A/G, Toledo, OH 25 to 115
+  * Round 4: Lost to James River A/G, Ozark, MO 35 to 80
+  * Round 5: Lost to The Oaks Fellowship, Dallas, TX 60 to 140
+  * Round 6: Won against First A/G, Boulder, MT 105 to -5
+  * Round 7: Won against Southside A/G, Jackson, MS 105 to -20
+  * Round 8: Lost to Calvary A/G, DeMotte, IN 30 to 85
+  * Round 9: Won against First A/G, Cedar Rapids, IA 170 to 5
+  * Round 10: Won against Two Rivers Fellowship, Greeley, CO 150 to 40
+  * Round 11: Won against First A/G, Fort Myers, FL 140 to -5
+  * Round 12: Lost to Billings A/G, Billings, MO 110 to 115
+  * Round 13: Lost to Calvary Temple, Indianapolis, IN 45 to 135
+  * Round 14: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 45 to 220
+  * Round 15: Won against First A/G, Hermitage, PA 145 to 130
+  * Round 16: Lost to Evangel Community Church, Centerville, GA 45 to 120
+  * Round 17: Won against Albert Lea A/G, Albert Lea, MN 215 to 10
+  * Round 18: Lost to Orange County Worship Center, Santa Ana, CA 5 to 285
+  * Round 19: Won against First A/G, Helena, MT 165 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -691,31 +700,32 @@ Round 19: Won against First A/G, Helena, MT 165 to 150
 *(L-R) Linda Berry, Justin Ades, Chris Pilgrim, Cindy Pilgrim (assistant)*
 
 #### 5th Place
-
-Church:	Southside A/G, Jackson, MS
-Coaches:	Linda Berry, Cindy Pilgrim (assistant)
-Team:	Justin Ades
-Jason Pilgrim
+ 
+* **Church**: Southside A/G, Jackson, MS 
+* **Coaches**: Linda Berry, Cindy Pilgrim (assistant)
+* **Team**:
+    * Justin Ades
+    * Jason Pilgrim
 * **Round Robin**:
-Round 1: Lost to First A/G, Fort Myers, FL 75 to 80
-Round 2: Lost to Billings A/G, Billings, MO 40 to 145
-Round 3: Lost to Calvary Temple, Indianapolis, IN 25 to 280
-Round 4: Lost to Cedar Park A/G "So-called Angels", Bothell, WA -10 to 270
-Round 5: Lost to First A/G, Hermitage, PA 55 to 60
-Round 6: Lost to Evangel Community Church, Centerville, GA 70 to 115
-Round 7: Lost to Family Worship Center, Murfreesboro, TN -20 to 105
-Round 8: Lost to Orange County Worship Center, Santa Ana, CA 40 to 120
-Round 9: Lost to First A/G, Helena, MT 35 to 70
-Round 10: Lost to Abundant Life A/G, Grapevine, TX 35 to 150
-Round 11: Lost to Bethel Christian Life Center, West Lafayette, IN 45 to 185
-Round 12: Lost to Calvary A/G, Toledo, OH 40 to 180
-Round 13: Lost to James River A/G, Ozark, MO 50 to 100
-Round 14: Lost to The Oaks Fellowship, Dallas, TX 60 to 280
-Round 15: Won against First A/G, Boulder, MT 30 to -40
-Round 16: Won against Albert Lea A/G, Albert Lea, MN 30 to -15
-Round 17: Lost to Calvary A/G, DeMotte, IN 65 to 130
-Round 18: Won against First A/G, Cedar Rapids, IA 100 to 60
-Round 19: Lost to Two Rivers Fellowship, Greeley, CO 115 to 160
+  * Round 1: Lost to First A/G, Fort Myers, FL 75 to 80
+  * Round 2: Lost to Billings A/G, Billings, MO 40 to 145
+  * Round 3: Lost to Calvary Temple, Indianapolis, IN 25 to 280
+  * Round 4: Lost to Cedar Park A/G "So-called Angels", Bothell, WA -10 to 270
+  * Round 5: Lost to First A/G, Hermitage, PA 55 to 60
+  * Round 6: Lost to Evangel Community Church, Centerville, GA 70 to 115
+  * Round 7: Lost to Family Worship Center, Murfreesboro, TN -20 to 105
+  * Round 8: Lost to Orange County Worship Center, Santa Ana, CA 40 to 120
+  * Round 9: Lost to First A/G, Helena, MT 35 to 70
+  * Round 10: Lost to Abundant Life A/G, Grapevine, TX 35 to 150
+  * Round 11: Lost to Bethel Christian Life Center, West Lafayette, IN 45 to 185
+  * Round 12: Lost to Calvary A/G, Toledo, OH 40 to 180
+  * Round 13: Lost to James River A/G, Ozark, MO 50 to 100
+  * Round 14: Lost to The Oaks Fellowship, Dallas, TX 60 to 280
+  * Round 15: Won against First A/G, Boulder, MT 30 to -40
+  * Round 16: Won against Albert Lea A/G, Albert Lea, MN 30 to -15
+  * Round 17: Lost to Calvary A/G, DeMotte, IN 65 to 130
+  * Round 18: Won against First A/G, Cedar Rapids, IA 100 to 60
+  * Round 19: Lost to Two Rivers Fellowship, Greeley, CO 115 to 160
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -728,32 +738,33 @@ Round 19: Lost to Two Rivers Fellowship, Greeley, CO 115 to 160
 *(L-R) Roque Arellano (assistant), Maria Arellano, Tyler Turnage, Zachary Schaalma, Jacob Turnage*
 
 #### 1st Place
-
-Church:	Fond du Lac A/G, Fond du Lac, WI
-Coaches:	Maria Arellano, Roque Arellano (assistant)
-Team:	Jacob Turnage
-Tyler Turnage
-Zachary Schaalma
+ 
+* **Church**: Fond du Lac A/G, Fond du Lac, WI 
+* **Coaches**: Maria Arellano, Roque Arellano (assistant)
+* **Team**:
+    * Jacob Turnage
+    * Tyler Turnage
+    * Zachary Schaalma
 * **Round Robin**:
-Round 1: Won against Oceanway A/G, Jacksonville, FL 105 to 45
-Round 2: Won against Braeswood A/G, Houston, TX 155 to 85
-Round 3: Won against Grace A/G, Syracuse, NY 90 to 20
-Round 4: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 60 to 35
-Round 5: Lost to Orange Hills A/G, Orange, CA 110 to 220
-Round 6: Lost to Christian Chapel, Tulsa, OK 30 to 145
-Round 7: Lost to Fossil Creek A/G, Fort Worth, TX 135 to 185
-Round 8: Lost to King's Chapel, Springfield, MO 35 to 165
-Round 9: Lost to Living Waters Chapel, Lebanon, PA -10 to 155
-Round 10: Lost to South Hills A/G, Bethel Park, PA 90 to 115
-Round 11: Won against Faith A/G, Orlando, FL 160 to 50
-Round 12: Lost to The Church at Briargate, Colorado Springs, CO 60 to 80
-Round 13: Won against Calvary Church, Naperville, IL 100 to 70
-Round 14: Won against Allison Park A/G, Allison Park, PA 130 to 115
-Round 15: Lost to Calvary A/G, Dunwoody, GA 30 to 155
-Round 16: Won against First A/G, Ames, IA 145 to 50
-Round 17: Lost to Central A/G, Superior, WI 115 to 135
-Round 18: Lost to First A/G, Lexington, KY 35 to 185
-Round 19: Won against Tacoma Life Center, Tacoma, WA 150 to 110
+  * Round 1: Won against Oceanway A/G, Jacksonville, FL 105 to 45
+  * Round 2: Won against Braeswood A/G, Houston, TX 155 to 85
+  * Round 3: Won against Grace A/G, Syracuse, NY 90 to 20
+  * Round 4: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 60 to 35
+  * Round 5: Lost to Orange Hills A/G, Orange, CA 110 to 220
+  * Round 6: Lost to Christian Chapel, Tulsa, OK 30 to 145
+  * Round 7: Lost to Fossil Creek A/G, Fort Worth, TX 135 to 185
+  * Round 8: Lost to King's Chapel, Springfield, MO 35 to 165
+  * Round 9: Lost to Living Waters Chapel, Lebanon, PA -10 to 155
+  * Round 10: Lost to South Hills A/G, Bethel Park, PA 90 to 115
+  * Round 11: Won against Faith A/G, Orlando, FL 160 to 50
+  * Round 12: Lost to The Church at Briargate, Colorado Springs, CO 60 to 80
+  * Round 13: Won against Calvary Church, Naperville, IL 100 to 70
+  * Round 14: Won against Allison Park A/G, Allison Park, PA 130 to 115
+  * Round 15: Lost to Calvary A/G, Dunwoody, GA 30 to 155
+  * Round 16: Won against First A/G, Ames, IA 145 to 50
+  * Round 17: Lost to Central A/G, Superior, WI 115 to 135
+  * Round 18: Lost to First A/G, Lexington, KY 35 to 185
+  * Round 19: Won against Tacoma Life Center, Tacoma, WA 150 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -765,34 +776,35 @@ Round 19: Won against Tacoma Life Center, Tacoma, WA 150 to 110
 *(L-R Back) Faye Regenfuss (assistant), Rick Regenfuss, Betsy Regenfuss (assistant), Kevin McCormick*
 
 #### 2nd Place
-
-Church:	First A/G, Ames, IA
-Coaches:	Rick Regenfuss, Betsy Regenfuss (assistant)
-Team:	Bekah Regenfuss
-Crystal Pilcher
-Annie Hoyt
-Gene Garcia
-Kevin McCormick
+ 
+* **Church**: First A/G, Ames, IA 
+* **Coaches**: Rick Regenfuss, Betsy Regenfuss (assistant)
+* **Team**:
+    * Bekah Regenfuss
+    * Crystal Pilcher
+    * Annie Hoyt
+    * Gene Garcia
+    * Kevin McCormick
 * **Round Robin**:
-Round 1: Lost to South Hills A/G, Bethel Park, PA 60 to 170
-Round 2: Won against Faith A/G, Orlando, FL 115 to 100
-Round 3: Lost to The Church at Briargate, Colorado Springs, CO 20 to 300
-Round 4: Won against Calvary Church, Naperville, IL 145 to 30
-Round 5: Lost to Allison Park A/G, Allison Park, PA 95 to 155
-Round 6: Lost to Calvary A/G, Dunwoody, GA 55 to 135
-Round 7: Lost to Christian Chapel, Tulsa, OK 40 to 265
-Round 8: Won against Central A/G, Superior, WI 95 to 0
-Round 9: Lost to First A/G, Lexington, KY 80 to 115
-Round 10: Lost to Tacoma Life Center, Tacoma, WA 75 to 155
-Round 11: Won against Oceanway A/G, Jacksonville, FL 150 to 85
-Round 12: Lost to Braeswood A/G, Houston, TX 55 to 120
-Round 13: Lost to Grace A/G, Syracuse, NY 65 to 95
-Round 14: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 45 to 20
-Round 15: Lost to Orange Hills A/G, Orange, CA 55 to 165
-Round 16: Lost to Fond du Lac A/G, Fond du Lac, WI 50 to 145
-Round 17: Lost to Fossil Creek A/G, Fort Worth, TX 120 to 130
-Round 18: Lost to King's Chapel, Springfield, MO 60 to 195
-Round 19: Lost to Living Waters Chapel, Lebanon, PA 100 to 150
+  * Round 1: Lost to South Hills A/G, Bethel Park, PA 60 to 170
+  * Round 2: Won against Faith A/G, Orlando, FL 115 to 100
+  * Round 3: Lost to The Church at Briargate, Colorado Springs, CO 20 to 300
+  * Round 4: Won against Calvary Church, Naperville, IL 145 to 30
+  * Round 5: Lost to Allison Park A/G, Allison Park, PA 95 to 155
+  * Round 6: Lost to Calvary A/G, Dunwoody, GA 55 to 135
+  * Round 7: Lost to Christian Chapel, Tulsa, OK 40 to 265
+  * Round 8: Won against Central A/G, Superior, WI 95 to 0
+  * Round 9: Lost to First A/G, Lexington, KY 80 to 115
+  * Round 10: Lost to Tacoma Life Center, Tacoma, WA 75 to 155
+  * Round 11: Won against Oceanway A/G, Jacksonville, FL 150 to 85
+  * Round 12: Lost to Braeswood A/G, Houston, TX 55 to 120
+  * Round 13: Lost to Grace A/G, Syracuse, NY 65 to 95
+  * Round 14: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 45 to 20
+  * Round 15: Lost to Orange Hills A/G, Orange, CA 55 to 165
+  * Round 16: Lost to Fond du Lac A/G, Fond du Lac, WI 50 to 145
+  * Round 17: Lost to Fossil Creek A/G, Fort Worth, TX 120 to 130
+  * Round 18: Lost to King's Chapel, Springfield, MO 60 to 195
+  * Round 19: Lost to Living Waters Chapel, Lebanon, PA 100 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -804,35 +816,36 @@ Round 19: Lost to Living Waters Chapel, Lebanon, PA 100 to 150
 *(l-R Back) Jeff Sharkey, Jeff Meyer, Logan Newman*
 
 #### 3rd Place
-
-Church:	Central A/G, Superior, WI
-Coach:	Jeff Meyer
-Team:	Logan Newman
-Hannah Meyer
-Jeff Sharkey
-Spencer Newman
-Naomi Meyer
-Sara Sharkey
+ 
+* **Church**: Central A/G, Superior, WI 
+* **Coach**: Jeff Meyer
+* **Team**:
+    * Logan Newman
+    * Hannah Meyer
+    * Jeff Sharkey
+    * Spencer Newman
+    * Naomi Meyer
+    * Sara Sharkey
 * **Round Robin**:
-Round 1: Lost to Living Waters Chapel, Lebanon, PA 105 to 115
-Round 2: Lost to South Hills A/G, Bethel Park, PA 120 to 180
-Round 3: Won against Faith A/G, Orlando, FL 85 to 75
-Round 4: Lost to The Church at Briargate, Colorado Springs, CO 40 to 175
-Round 5: Won against Calvary Church, Naperville, IL 165 to 0
-Round 6: Lost to Allison Park A/G, Allison Park, PA 60 to 120
-Round 7: Lost to Calvary A/G, Dunwoody, GA 135 to 145
-Round 8: Lost to First A/G, Ames, IA 0 to 95
-Round 9: Lost to Christian Chapel, Tulsa, OK 80 to 180
-Round 10: Won against First A/G, Lexington, KY 155 to 120
-Round 11: Won against Tacoma Life Center, Tacoma, WA 145 to 80
-Round 12: Won against Oceanway A/G, Jacksonville, FL 105 to 60
-Round 13: Lost to Braeswood A/G, Houston, TX -5 to 145
-Round 14: Lost to Grace A/G, Syracuse, NY 105 to 155
-Round 15: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 120 to 75
-Round 16: Lost to Orange Hills A/G, Orange, CA 80 to 255
-Round 17: Won against Fond du Lac A/G, Fond du Lac, WI 135 to 115
-Round 18: Won against Fossil Creek A/G, Fort Worth, TX 135 to 130
-Round 19: Lost to King's Chapel, Springfield, MO 105 to 225
+  * Round 1: Lost to Living Waters Chapel, Lebanon, PA 105 to 115
+  * Round 2: Lost to South Hills A/G, Bethel Park, PA 120 to 180
+  * Round 3: Won against Faith A/G, Orlando, FL 85 to 75
+  * Round 4: Lost to The Church at Briargate, Colorado Springs, CO 40 to 175
+  * Round 5: Won against Calvary Church, Naperville, IL 165 to 0
+  * Round 6: Lost to Allison Park A/G, Allison Park, PA 60 to 120
+  * Round 7: Lost to Calvary A/G, Dunwoody, GA 135 to 145
+  * Round 8: Lost to First A/G, Ames, IA 0 to 95
+  * Round 9: Lost to Christian Chapel, Tulsa, OK 80 to 180
+  * Round 10: Won against First A/G, Lexington, KY 155 to 120
+  * Round 11: Won against Tacoma Life Center, Tacoma, WA 145 to 80
+  * Round 12: Won against Oceanway A/G, Jacksonville, FL 105 to 60
+  * Round 13: Lost to Braeswood A/G, Houston, TX -5 to 145
+  * Round 14: Lost to Grace A/G, Syracuse, NY 105 to 155
+  * Round 15: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 120 to 75
+  * Round 16: Lost to Orange Hills A/G, Orange, CA 80 to 255
+  * Round 17: Won against Fond du Lac A/G, Fond du Lac, WI 135 to 115
+  * Round 18: Won against Fossil Creek A/G, Fort Worth, TX 135 to 130
+  * Round 19: Lost to King's Chapel, Springfield, MO 105 to 225
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -844,34 +857,35 @@ Round 19: Lost to King's Chapel, Springfield, MO 105 to 225
 *NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 4th Place
-
-Church:	First A/G, Cedar Rapids, IA
-Coaches:	Bill Chew, Emily Raeside (assistant)
-Team:	Josh Coder
-Katie Graham
-Charles Raeside
-Rachel May
-Josh Smith
+ 
+* **Church**: First A/G, Cedar Rapids, IA 
+* **Coaches**: Bill Chew, Emily Raeside (assistant)
+* **Team**:
+    * Josh Coder
+    * Katie Graham
+    * Charles Raeside
+    * Rachel May
+    * Josh Smith
 * **Round Robin**:
-Round 1: Won against Albert Lea A/G, Albert Lea, MN 120 to -5
-Round 2: Won against Two Rivers Fellowship, Greeley, CO 40 to -15
-Round 3: Lost to First A/G, Fort Myers, FL 40 to 125
-Round 4: Lost to Billings A/G, Billings, MO 60 to 135
-Round 5: Lost to Calvary Temple, Indianapolis, IN 35 to 185
-Round 6: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 10 to 195
-Round 7: Won against First A/G, Hermitage, PA 95 to 10
-Round 8: Lost to Evangel Community Church, Centerville, GA 55 to 60
-Round 9: Lost to Family Worship Center, Murfreesboro, TN 5 to 170
-Round 10: Lost to Orange County Worship Center, Santa Ana, CA 20 to 160
-Round 11: Lost to First A/G, Helena, MT 60 to 80
-Round 12: Lost to Abundant Life A/G, Grapevine, TX 35 to 105
-Round 13: Won against Bethel Christian Life Center, West Lafayette, IN 100 to 65
-Round 14: Lost to Calvary A/G, Toledo, OH 45 to 175
-Round 15: Lost to James River A/G, Ozark, MO 45 to 80
-Round 16: Lost to The Oaks Fellowship, Dallas, TX 15 to 220
-Round 17: Won against First A/G, Boulder, MT 85 to -5
-Round 18: Lost to Southside A/G, Jackson, MS 60 to 100
-Round 19: Lost to Calvary A/G, DeMotte, IN 95 to 195
+  * Round 1: Won against Albert Lea A/G, Albert Lea, MN 120 to -5
+  * Round 2: Won against Two Rivers Fellowship, Greeley, CO 40 to -15
+  * Round 3: Lost to First A/G, Fort Myers, FL 40 to 125
+  * Round 4: Lost to Billings A/G, Billings, MO 60 to 135
+  * Round 5: Lost to Calvary Temple, Indianapolis, IN 35 to 185
+  * Round 6: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 10 to 195
+  * Round 7: Won against First A/G, Hermitage, PA 95 to 10
+  * Round 8: Lost to Evangel Community Church, Centerville, GA 55 to 60
+  * Round 9: Lost to Family Worship Center, Murfreesboro, TN 5 to 170
+  * Round 10: Lost to Orange County Worship Center, Santa Ana, CA 20 to 160
+  * Round 11: Lost to First A/G, Helena, MT 60 to 80
+  * Round 12: Lost to Abundant Life A/G, Grapevine, TX 35 to 105
+  * Round 13: Won against Bethel Christian Life Center, West Lafayette, IN 100 to 65
+  * Round 14: Lost to Calvary A/G, Toledo, OH 45 to 175
+  * Round 15: Lost to James River A/G, Ozark, MO 45 to 80
+  * Round 16: Lost to The Oaks Fellowship, Dallas, TX 15 to 220
+  * Round 17: Won against First A/G, Boulder, MT 85 to -5
+  * Round 18: Lost to Southside A/G, Jackson, MS 60 to 100
+  * Round 19: Lost to Calvary A/G, DeMotte, IN 95 to 195
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -882,32 +896,33 @@ Round 19: Lost to Calvary A/G, DeMotte, IN 95 to 195
 *(Team Members) Darla Wipplinger, Kelly McElrath (assistant), Amber Wipplinger, K.C. McElrath, Caleb McElrath*
 
 #### 5th Place
-
-Church:	Albert Lea A/G, Albert Lea, MN
-Coaches:	Darla Wipplinger, Kelly McElrath (assistant)
-Team:	Amber Wipplinger
-K.C. McElrath
-Caleb McElrath
+ 
+* **Church**: Albert Lea A/G, Albert Lea, MN 
+* **Coaches**: Darla Wipplinger, Kelly McElrath (assistant)
+* **Team**:
+    * Amber Wipplinger
+    * K.C. McElrath
+    * Caleb McElrath
 * **Round Robin**:
-Round 1: Lost to First A/G, Cedar Rapids, IA -5 to 120
-Round 2: Lost to First A/G, Helena, MT 30 to 70
-Round 3: Lost to Two Rivers Fellowship, Greeley, CO 10 to 50
-Round 4: Lost to Abundant Life A/G, Grapevine, TX -10 to 180
-Round 5: Lost to First A/G, Fort Myers, FL 0 to 135
-Round 6: Lost to Bethel Christian Life Center, West Lafayette, IN -5 to 185
-Round 7: Lost to Billings A/G, Billings, MO 50 to 270
-Round 8: Lost to Calvary A/G, Toledo, OH 0 to 150
-Round 9: Lost to Calvary Temple, Indianapolis, IN 10 to 215
-Round 10: Lost to James River A/G, Ozark, MO 0 to 165
-Round 11: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 10 to 180
-Round 12: Lost to The Oaks Fellowship, Dallas, TX 0 to 260
-Round 13: Lost to First A/G, Hermitage, PA -5 to 175
-Round 14: Lost to First A/G, Boulder, MT -15 to 80
-Round 15: Lost to Evangel Community Church, Centerville, GA 30 to 180
-Round 16: Lost to Southside A/G, Jackson, MS -15 to 30
-Round 17: Lost to Family Worship Center, Murfreesboro, TN 10 to 215
-Round 18: Lost to Calvary A/G, DeMotte, IN 30 to 195
-Round 19: Lost to Orange County Worship Center, Santa Ana, CA 20 to 195
+  * Round 1: Lost to First A/G, Cedar Rapids, IA -5 to 120
+  * Round 2: Lost to First A/G, Helena, MT 30 to 70
+  * Round 3: Lost to Two Rivers Fellowship, Greeley, CO 10 to 50
+  * Round 4: Lost to Abundant Life A/G, Grapevine, TX -10 to 180
+  * Round 5: Lost to First A/G, Fort Myers, FL 0 to 135
+  * Round 6: Lost to Bethel Christian Life Center, West Lafayette, IN -5 to 185
+  * Round 7: Lost to Billings A/G, Billings, MO 50 to 270
+  * Round 8: Lost to Calvary A/G, Toledo, OH 0 to 150
+  * Round 9: Lost to Calvary Temple, Indianapolis, IN 10 to 215
+  * Round 10: Lost to James River A/G, Ozark, MO 0 to 165
+  * Round 11: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 10 to 180
+  * Round 12: Lost to The Oaks Fellowship, Dallas, TX 0 to 260
+  * Round 13: Lost to First A/G, Hermitage, PA -5 to 175
+  * Round 14: Lost to First A/G, Boulder, MT -15 to 80
+  * Round 15: Lost to Evangel Community Church, Centerville, GA 30 to 180
+  * Round 16: Lost to Southside A/G, Jackson, MS -15 to 30
+  * Round 17: Lost to Family Worship Center, Murfreesboro, TN 10 to 215
+  * Round 18: Lost to Calvary A/G, DeMotte, IN 30 to 195
+  * Round 19: Lost to Orange County Worship Center, Santa Ana, CA 20 to 195
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -921,33 +936,34 @@ Round 19: Lost to Orange County Worship Center, Santa Ana, CA 20 to 195
 *(L-R Back) Amy Semple, Joe Bolognone, Tika Daigle (assistant)*
 
 #### 1st Place
-
-Church:	Grace A/G, Syracuse, NY
-Coaches:	Mary Daigle, Tika Daigle (assistant)
-Team:	Joe Bolognone
-Eunice Awuah
-Rachel Rhynders
-Amy Semple
+ 
+* **Church**: Grace A/G, Syracuse, NY 
+* **Coaches**: Mary Daigle, Tika Daigle (assistant)
+* **Team**:
+    * Joe Bolognone
+    * Eunice Awuah
+    * Rachel Rhynders
+    * Amy Semple
 * **Round Robin**:
-Round 1: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 200 to 0
-Round 2: Lost to Orange Hills A/G, Orange, CA 150 to 175
-Round 3: Lost to Fond du Lac A/G, Fond du Lac, WI 20 to 90
-Round 4: Lost to Fossil Creek A/G, Fort Worth, TX 55 to 175
-Round 5: Won against King's Chapel, Springfield, MO 95 to 90
-Round 6: Lost to Living Waters Chapel, Lebanon, PA 105 to 115
-Round 7: Won against South Hills A/G, Bethel Park, PA 140 to 130
-Round 8: Won against Faith A/G, Orlando, FL 140 to 45
-Round 9: Lost to The Church at Briargate, Colorado Springs, CO 70 to 130
-Round 10: Won against Calvary Church, Naperville, IL 50 to 15
-Round 11: Lost to Allison Park A/G, Allison Park, PA 110 to 120
-Round 12: Lost to Calvary A/G, Dunwoody, GA 65 to 145
-Round 13: Won against First A/G, Ames, IA 95 to 65
-Round 14: Won against Central A/G, Superior, WI 155 to 105
-Round 15: Lost to First A/G, Lexington, KY 20 to 140
-Round 16: Won against Tacoma Life Center, Tacoma, WA 115 to 90
-Round 17: Lost to Oceanway A/G, Jacksonville, FL 50 to 165
-Round 18: Lost to Braeswood A/G, Houston, TX 115 to 145
-Round 19: Lost to Christian Chapel, Tulsa, OK 100 to 150
+  * Round 1: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 200 to 0
+  * Round 2: Lost to Orange Hills A/G, Orange, CA 150 to 175
+  * Round 3: Lost to Fond du Lac A/G, Fond du Lac, WI 20 to 90
+  * Round 4: Lost to Fossil Creek A/G, Fort Worth, TX 55 to 175
+  * Round 5: Won against King's Chapel, Springfield, MO 95 to 90
+  * Round 6: Lost to Living Waters Chapel, Lebanon, PA 105 to 115
+  * Round 7: Won against South Hills A/G, Bethel Park, PA 140 to 130
+  * Round 8: Won against Faith A/G, Orlando, FL 140 to 45
+  * Round 9: Lost to The Church at Briargate, Colorado Springs, CO 70 to 130
+  * Round 10: Won against Calvary Church, Naperville, IL 50 to 15
+  * Round 11: Lost to Allison Park A/G, Allison Park, PA 110 to 120
+  * Round 12: Lost to Calvary A/G, Dunwoody, GA 65 to 145
+  * Round 13: Won against First A/G, Ames, IA 95 to 65
+  * Round 14: Won against Central A/G, Superior, WI 155 to 105
+  * Round 15: Lost to First A/G, Lexington, KY 20 to 140
+  * Round 16: Won against Tacoma Life Center, Tacoma, WA 115 to 90
+  * Round 17: Lost to Oceanway A/G, Jacksonville, FL 50 to 165
+  * Round 18: Lost to Braeswood A/G, Houston, TX 115 to 145
+  * Round 19: Lost to Christian Chapel, Tulsa, OK 100 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -959,32 +975,33 @@ Round 19: Lost to Christian Chapel, Tulsa, OK 100 to 150
 *(L-R Back) Mary Chenco, Aaron Kohler, Katie Chenco*
 
 #### 2nd Place
-
-Church:	Living Waters Chapel, Lebanon, PA
-Coaches:	Mary Chenco, Nilay Saiya (assistant), Dustin Chenco (assistant)
-Team:	Aaron Kohler
-Katie Chenco
-Neha Saiya
+ 
+* **Church**: Living Waters Chapel, Lebanon, PA 
+* **Coaches**: Mary Chenco, Nilay Saiya (assistant), Dustin Chenco (assistant)
+* **Team**:
+    * Aaron Kohler
+    * Katie Chenco
+    * Neha Saiya
 * **Round Robin**:
-Round 1: Won against Central A/G, Superior, WI 115 to 105
-Round 2: Won against First A/G, Lexington, KY 150 to 85
-Round 3: Won against Tacoma Life Center, Tacoma, WA 155 to 95
-Round 4: Won against Oceanway A/G, Jacksonville, FL 290 to -5
-Round 5: Won against Braeswood A/G, Houston, TX 120 to 115
-Round 6: Won against Grace A/G, Syracuse, NY 115 to 105
-Round 7: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 175 to 55
-Round 8: Lost to Orange Hills A/G, Orange, CA -5 to 210
-Round 9: Won against Fond du Lac A/G, Fond du Lac, WI 155 to -10
-Round 10: Won against Fossil Creek A/G, Fort Worth, TX 170 to 85
-Round 11: Won against King's Chapel, Springfield, MO 155 to 35
-Round 12: Won against Christian Chapel, Tulsa, OK 130 to 110
-Round 13: Won against South Hills A/G, Bethel Park, PA 190 to 70
-Round 14: Lost to Faith A/G, Orlando, FL 130 to 165
-Round 15: Won against The Church at Briargate, Colorado Springs, CO 255 to -35
-Round 16: Won against Calvary Church, Naperville, IL 185 to 30
-Round 17: Lost to Allison Park A/G, Allison Park, PA 120 to 145
-Round 18: Won against Calvary A/G, Dunwoody, GA 135 to 120
-Round 19: Won against First A/G, Ames, IA 150 to 100
+  * Round 1: Won against Central A/G, Superior, WI 115 to 105
+  * Round 2: Won against First A/G, Lexington, KY 150 to 85
+  * Round 3: Won against Tacoma Life Center, Tacoma, WA 155 to 95
+  * Round 4: Won against Oceanway A/G, Jacksonville, FL 290 to -5
+  * Round 5: Won against Braeswood A/G, Houston, TX 120 to 115
+  * Round 6: Won against Grace A/G, Syracuse, NY 115 to 105
+  * Round 7: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 175 to 55
+  * Round 8: Lost to Orange Hills A/G, Orange, CA -5 to 210
+  * Round 9: Won against Fond du Lac A/G, Fond du Lac, WI 155 to -10
+  * Round 10: Won against Fossil Creek A/G, Fort Worth, TX 170 to 85
+  * Round 11: Won against King's Chapel, Springfield, MO 155 to 35
+  * Round 12: Won against Christian Chapel, Tulsa, OK 130 to 110
+  * Round 13: Won against South Hills A/G, Bethel Park, PA 190 to 70
+  * Round 14: Lost to Faith A/G, Orlando, FL 130 to 165
+  * Round 15: Won against The Church at Briargate, Colorado Springs, CO 255 to -35
+  * Round 16: Won against Calvary Church, Naperville, IL 185 to 30
+  * Round 17: Lost to Allison Park A/G, Allison Park, PA 120 to 145
+  * Round 18: Won against Calvary A/G, Dunwoody, GA 135 to 120
+  * Round 19: Won against First A/G, Ames, IA 150 to 100
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -996,32 +1013,33 @@ Round 19: Won against First A/G, Ames, IA 150 to 100
 *(L-R Back) Seth Johnson, C.J. Barna*
 
 #### 3rd Place
-
-Church:	South Hills A/G, Bethel Park, PA
-Coaches:	Marianne Rozgonyi, Chris Johnson (assistant)
-Team:	Lori Rozgonyi
-Seth Johnson
-C.J. Barna
+ 
+* **Church**: South Hills A/G, Bethel Park, PA 
+* **Coaches**: Marianne Rozgonyi, Chris Johnson (assistant)
+* **Team**:
+    * Lori Rozgonyi
+    * Seth Johnson
+    * C.J. Barna
 * **Round Robin**:
-Round 1: Won against First A/G, Ames, IA 170 to 60
-Round 2: Won against Central A/G, Superior, WI 180 to 120
-Round 3: Won against First A/G, Lexington, KY 185 to 60
-Round 4: Lost to Tacoma Life Center, Tacoma, WA 55 to 145
-Round 5: Won against Oceanway A/G, Jacksonville, FL 115 to 100
-Round 6: Lost to Braeswood A/G, Houston, TX 90 to 215
-Round 7: Lost to Grace A/G, Syracuse, NY 130 to 140
-Round 8: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 105 to 30
-Round 9: Lost to Orange Hills A/G, Orange, CA 100 to 235
-Round 10: Won against Fond du Lac A/G, Fond du Lac, WI 115 to 90
-Round 11: Lost to Fossil Creek A/G, Fort Worth, TX 95 to 195
-Round 12: Won against King's Chapel, Springfield, MO 110 to 105
-Round 13: Lost to Living Waters Chapel, Lebanon, PA 70 to 190
-Round 14: Won against Christian Chapel, Tulsa, OK 150 to 120
-Round 15: Won against Faith A/G, Orlando, FL 195 to 40
-Round 16: Lost to The Church at Briargate, Colorado Springs, CO 55 to 165
-Round 17: Lost to Calvary Church, Naperville, IL 65 to 90
-Round 18: Won against Allison Park A/G, Allison Park, PA 180 to 80
-Round 19: Won against Calvary A/G, Dunwoody, GA 155 to 130
+  * Round 1: Won against First A/G, Ames, IA 170 to 60
+  * Round 2: Won against Central A/G, Superior, WI 180 to 120
+  * Round 3: Won against First A/G, Lexington, KY 185 to 60
+  * Round 4: Lost to Tacoma Life Center, Tacoma, WA 55 to 145
+  * Round 5: Won against Oceanway A/G, Jacksonville, FL 115 to 100
+  * Round 6: Lost to Braeswood A/G, Houston, TX 90 to 215
+  * Round 7: Lost to Grace A/G, Syracuse, NY 130 to 140
+  * Round 8: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 105 to 30
+  * Round 9: Lost to Orange Hills A/G, Orange, CA 100 to 235
+  * Round 10: Won against Fond du Lac A/G, Fond du Lac, WI 115 to 90
+  * Round 11: Lost to Fossil Creek A/G, Fort Worth, TX 95 to 195
+  * Round 12: Won against King's Chapel, Springfield, MO 110 to 105
+  * Round 13: Lost to Living Waters Chapel, Lebanon, PA 70 to 190
+  * Round 14: Won against Christian Chapel, Tulsa, OK 150 to 120
+  * Round 15: Won against Faith A/G, Orlando, FL 195 to 40
+  * Round 16: Lost to The Church at Briargate, Colorado Springs, CO 55 to 165
+  * Round 17: Lost to Calvary Church, Naperville, IL 65 to 90
+  * Round 18: Won against Allison Park A/G, Allison Park, PA 180 to 80
+  * Round 19: Won against Calvary A/G, Dunwoody, GA 155 to 130
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1033,32 +1051,33 @@ Round 19: Won against Calvary A/G, Dunwoody, GA 155 to 130
 *NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 4th Place
-
-Church:	Allison Park A/G, Allison Park, PA
-Coaches:	Bev Herzberg, Jeff Herzber (assistant), David Herzberg (assistant)
-Team:	David Herbert
-David Guthrie
-Jonathan Fenton
+ 
+* **Church**: Allison Park A/G, Allison Park, PA 
+* **Coaches**: Bev Herzberg, Jeff Herzber (assistant), David Herzberg (assistant)
+* **Team**:
+    * David Herbert
+    * David Guthrie
+    * Jonathan Fenton
 * **Round Robin**:
-Round 1: Lost to The Church at Briargate, Colorado Springs, CO 80 to 205
-Round 2: Won against Calvary Church, Naperville, IL 95 to 60
-Round 3: Lost to Christian Chapel, Tulsa, OK 105 to 190
-Round 4: Lost to Calvary A/G, Dunwoody, GA 90 to 110
-Round 5: Won against First A/G, Ames, IA 155 to 95
-Round 6: Won against Central A/G, Superior, WI 120 to 60
-Round 7: Won against First A/G, Lexington, KY 175 to 115
-Round 8: Won against Tacoma Life Center, Tacoma, WA 90 to 40
-Round 9: Won against Oceanway A/G, Jacksonville, FL 160 to 75
-Round 10: Won against Braeswood A/G, Houston, TX 70 to 65
-Round 11: Won against Grace A/G, Syracuse, NY 120 to 110
-Round 12: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 110 to 80
-Round 13: Lost to Orange Hills A/G, Orange, CA 60 to 235
-Round 14: Lost to Fond du Lac A/G, Fond du Lac, WI 115 to 130
-Round 15: Lost to Fossil Creek A/G, Fort Worth, TX -35 to 210
-Round 16: Lost to King's Chapel, Springfield, MO 110 to 130
-Round 17: Won against Living Waters Chapel, Lebanon, PA 145 to 120
-Round 18: Lost to South Hills A/G, Bethel Park, PA 80 to 180
-Round 19: Lost to Faith A/G, Orlando, FL -30 to 210
+  * Round 1: Lost to The Church at Briargate, Colorado Springs, CO 80 to 205
+  * Round 2: Won against Calvary Church, Naperville, IL 95 to 60
+  * Round 3: Lost to Christian Chapel, Tulsa, OK 105 to 190
+  * Round 4: Lost to Calvary A/G, Dunwoody, GA 90 to 110
+  * Round 5: Won against First A/G, Ames, IA 155 to 95
+  * Round 6: Won against Central A/G, Superior, WI 120 to 60
+  * Round 7: Won against First A/G, Lexington, KY 175 to 115
+  * Round 8: Won against Tacoma Life Center, Tacoma, WA 90 to 40
+  * Round 9: Won against Oceanway A/G, Jacksonville, FL 160 to 75
+  * Round 10: Won against Braeswood A/G, Houston, TX 70 to 65
+  * Round 11: Won against Grace A/G, Syracuse, NY 120 to 110
+  * Round 12: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 110 to 80
+  * Round 13: Lost to Orange Hills A/G, Orange, CA 60 to 235
+  * Round 14: Lost to Fond du Lac A/G, Fond du Lac, WI 115 to 130
+  * Round 15: Lost to Fossil Creek A/G, Fort Worth, TX -35 to 210
+  * Round 16: Lost to King's Chapel, Springfield, MO 110 to 130
+  * Round 17: Won against Living Waters Chapel, Lebanon, PA 145 to 120
+  * Round 18: Lost to South Hills A/G, Bethel Park, PA 80 to 180
+  * Round 19: Lost to Faith A/G, Orlando, FL -30 to 210
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1070,32 +1089,33 @@ Round 19: Lost to Faith A/G, Orlando, FL -30 to 210
 *(L-R Back) Corey DeFazio, Brennen DeFazio, Isaiah Hunter*
 
 #### 5th Place
-
-Church:	First A/G, Hermitage, PA
-Coaches:	Susan DeFazio, Elyssa DeFazio (assistant)
-Team:	Brenne DeFazio
-Isaiah Hunter
-Corey DeFazio
+ 
+* **Church**: First A/G, Hermitage, PA 
+* **Coaches**: Susan DeFazio, Elyssa DeFazio (assistant)
+* **Team**:
+    * Brenne DeFazio
+    * Isaiah Hunter
+    * Corey DeFazio
 * **Round Robin**:
-Round 1: Lost to Calvary A/G, Toledo, OH 30 to 140
-Round 2: Lost to James River A/G, Ozark, MO 75 to 80
-Round 3: Lost to The Oaks Fellowship, Dallas, TX -15 to 145
-Round 4: Won against First A/G, Boulder, MT 120 to -10
-Round 5: Won against Southside A/G, Jackson, MS 60 to 55
-Round 6: Won against Calvary A/G, DeMotte, IN 150 to 45
-Round 7: Lost to First A/G, Cedar Rapids, IA 10 to 95
-Round 8: Won against Two Rivers Fellowship, Greeley, CO 90 to 85
-Round 9: Won against First A/G, Fort Myers, FL 140 to 60
-Round 10: Lost to Billings A/G, Billings, MO 75 to 85
-Round 11: Lost to Calvary Temple, Indianapolis, IN 75 to 115
-Round 12: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 85 to 100
-Round 13: Won against Albert Lea A/G, Albert Lea, MN 175 to -5
-Round 14: Won against Evangel Community Church, Centerville, GA 85 to 60
-Round 15: Lost to Family Worship Center, Murfreesboro, TN 130 to 145
-Round 16: Lost to Orange County Worship Center, Santa Ana, CA 20 to 90
-Round 17: Won against First A/G, Helena, MT 185 to 15
-Round 18: Won against Abundant Life A/G, Grapevine, TX 205 to 90
-Round 19: Lost to Bethel Christian Life Center, West Lafayette, IN 75 to 260
+  * Round 1: Lost to Calvary A/G, Toledo, OH 30 to 140
+  * Round 2: Lost to James River A/G, Ozark, MO 75 to 80
+  * Round 3: Lost to The Oaks Fellowship, Dallas, TX -15 to 145
+  * Round 4: Won against First A/G, Boulder, MT 120 to -10
+  * Round 5: Won against Southside A/G, Jackson, MS 60 to 55
+  * Round 6: Won against Calvary A/G, DeMotte, IN 150 to 45
+  * Round 7: Lost to First A/G, Cedar Rapids, IA 10 to 95
+  * Round 8: Won against Two Rivers Fellowship, Greeley, CO 90 to 85
+  * Round 9: Won against First A/G, Fort Myers, FL 140 to 60
+  * Round 10: Lost to Billings A/G, Billings, MO 75 to 85
+  * Round 11: Lost to Calvary Temple, Indianapolis, IN 75 to 115
+  * Round 12: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 85 to 100
+  * Round 13: Won against Albert Lea A/G, Albert Lea, MN 175 to -5
+  * Round 14: Won against Evangel Community Church, Centerville, GA 85 to 60
+  * Round 15: Lost to Family Worship Center, Murfreesboro, TN 130 to 145
+  * Round 16: Lost to Orange County Worship Center, Santa Ana, CA 20 to 90
+  * Round 17: Won against First A/G, Helena, MT 185 to 15
+  * Round 18: Won against Abundant Life A/G, Grapevine, TX 205 to 90
+  * Round 19: Lost to Bethel Christian Life Center, West Lafayette, IN 75 to 260
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1109,34 +1129,35 @@ Round 19: Lost to Bethel Christian Life Center, West Lafayette, IN 75 to 260
 *(L-R Back) Jarron Born, Nathan Moore, Ryan Skolrud (assistant)*
 
 #### 1st Place
-
-Church:	Cedar Park A/G "Crafty Fellows", Bothell, WA
-Coach:	Chandra Porter
-Team:	Jordan Shipley
-Zach Moore
-Jarron Born
-Nathan Moore
-Juliana Born
+ 
+* **Church**: Cedar Park A/G "Crafty Fellows", Bothell, WA 
+* **Coach**: Chandra Porter
+* **Team**:
+    * Jordan Shipley
+    * Zach Moore
+    * Jarron Born
+    * Nathan Moore
+    * Juliana Born
 * **Round Robin**:
-Round 1: Won against James River A/G, Ozark, MO 140 to 80
-Round 2: Lost to The Oaks Fellowship, Dallas, TX 110 to 140
-Round 3: Won against First A/G, Boulder, MT 275 to -10
-Round 4: Won against Southside A/G, Jackson, MS 270 to -10
-Round 5: Won against Calvary A/G, DeMotte, IN 155 to 40
-Round 6: Won against First A/G, Cedar Rapids, IA 195 to 10
-Round 7: Won against Two Rivers Fellowship, Greeley, CO 285 to 25
-Round 8: Won against First A/G, Fort Myers, FL 140 to 0
-Round 9: Won against Billings A/G, Billings, MO 120 to 80
-Round 10: Won against Calvary Temple, Indianapolis, IN 155 to 100
-Round 11: Won against Albert Lea A/G, Albert Lea, MN 180 to 10
-Round 12: Won against First A/G, Hermitage, PA 100 to 85
-Round 13: Lost to Evangel Community Church, Centerville, GA 55 to 95
-Round 14: Won against Family Worship Center, Murfreesboro, TN 220 to 45
-Round 15: Won against Orange County Worship Center, Santa Ana, CA 200 to 55
-Round 16: Won against First A/G, Helena, MT 215 to 10
-Round 17: Won against Abundant Life A/G, Grapevine, TX 160 to 25
-Round 18: Lost to Bethel Christian Life Center, West Lafayette, IN 90 to 165
-Round 19: Won against Calvary A/G, Toledo, OH 160 to 145
+  * Round 1: Won against James River A/G, Ozark, MO 140 to 80
+  * Round 2: Lost to The Oaks Fellowship, Dallas, TX 110 to 140
+  * Round 3: Won against First A/G, Boulder, MT 275 to -10
+  * Round 4: Won against Southside A/G, Jackson, MS 270 to -10
+  * Round 5: Won against Calvary A/G, DeMotte, IN 155 to 40
+  * Round 6: Won against First A/G, Cedar Rapids, IA 195 to 10
+  * Round 7: Won against Two Rivers Fellowship, Greeley, CO 285 to 25
+  * Round 8: Won against First A/G, Fort Myers, FL 140 to 0
+  * Round 9: Won against Billings A/G, Billings, MO 120 to 80
+  * Round 10: Won against Calvary Temple, Indianapolis, IN 155 to 100
+  * Round 11: Won against Albert Lea A/G, Albert Lea, MN 180 to 10
+  * Round 12: Won against First A/G, Hermitage, PA 100 to 85
+  * Round 13: Lost to Evangel Community Church, Centerville, GA 55 to 95
+  * Round 14: Won against Family Worship Center, Murfreesboro, TN 220 to 45
+  * Round 15: Won against Orange County Worship Center, Santa Ana, CA 200 to 55
+  * Round 16: Won against First A/G, Helena, MT 215 to 10
+  * Round 17: Won against Abundant Life A/G, Grapevine, TX 160 to 25
+  * Round 18: Lost to Bethel Christian Life Center, West Lafayette, IN 90 to 165
+  * Round 19: Won against Calvary A/G, Toledo, OH 160 to 145
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1148,34 +1169,35 @@ Round 19: Won against Calvary A/G, Toledo, OH 160 to 145
 *(L-R Back) Rich Nelson, Richie Nelson, James Watt, Jed Gosnell*
 
 #### 2nd Place
-
-Church:	Tacoma Life Center, Tacoma, WA
-Coaches:	Rich Nelson, Rachel Dawson (assistant)
-Team:	Rick Pollen
-Jed Gosnell
-Pherrah Gosnell
-James Watt
-Richie Nelson
+ 
+* **Church**: Tacoma Life Center, Tacoma, WA 
+* **Coaches**: Rich Nelson, Rachel Dawson (assistant)
+* **Team**:
+    * Rick Pollen
+    * Jed Gosnell
+    * Pherrah Gosnell
+    * James Watt
+    * Richie Nelson
 * **Round Robin**:
-Round 1: Won against Fossil Creek A/G, Fort Worth, TX 135 to 110
-Round 2: Lost to King's Chapel, Springfield, MO 35 to 240
-Round 3: Lost to Living Waters Chapel, Lebanon, PA 95 to 155
-Round 4: Won against South Hills A/G, Bethel Park, PA 145 to 55
-Round 5: Won against Faith A/G, Orlando, FL 170 to 145
-Round 6: Lost to The Church at Briargate, Colorado Springs, CO 15 to 190
-Round 7: Won against Calvary Church, Naperville, IL 160 to 100
-Round 8: Lost to Allison Park A/G, Allison Park, PA 40 to 90
-Round 9: Lost to Calvary A/G, Dunwoody, GA 75 to 115
-Round 10: Won against First A/G, Ames, IA 155 to 75
-Round 11: Lost to Central A/G, Superior, WI 80 to 145
-Round 12: Lost to First A/G, Lexington, KY 90 to 95
-Round 13: Lost to Christian Chapel, Tulsa, OK 95 to 110
-Round 14: Won against Oceanway A/G, Jacksonville, FL 140 to 60
-Round 15: Lost to Braeswood A/G, Houston, TX 60 to 180
-Round 16: Lost to Grace A/G, Syracuse, NY 90 to 115
-Round 17: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 105 to 60
-Round 18: Lost to Orange Hills A/G, Orange, CA 45 to 185
-Round 19: Lost to Fond du Lac A/G, Fond du Lac, WI 110 to 150
+  * Round 1: Won against Fossil Creek A/G, Fort Worth, TX 135 to 110
+  * Round 2: Lost to King's Chapel, Springfield, MO 35 to 240
+  * Round 3: Lost to Living Waters Chapel, Lebanon, PA 95 to 155
+  * Round 4: Won against South Hills A/G, Bethel Park, PA 145 to 55
+  * Round 5: Won against Faith A/G, Orlando, FL 170 to 145
+  * Round 6: Lost to The Church at Briargate, Colorado Springs, CO 15 to 190
+  * Round 7: Won against Calvary Church, Naperville, IL 160 to 100
+  * Round 8: Lost to Allison Park A/G, Allison Park, PA 40 to 90
+  * Round 9: Lost to Calvary A/G, Dunwoody, GA 75 to 115
+  * Round 10: Won against First A/G, Ames, IA 155 to 75
+  * Round 11: Lost to Central A/G, Superior, WI 80 to 145
+  * Round 12: Lost to First A/G, Lexington, KY 90 to 95
+  * Round 13: Lost to Christian Chapel, Tulsa, OK 95 to 110
+  * Round 14: Won against Oceanway A/G, Jacksonville, FL 140 to 60
+  * Round 15: Lost to Braeswood A/G, Houston, TX 60 to 180
+  * Round 16: Lost to Grace A/G, Syracuse, NY 90 to 115
+  * Round 17: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 105 to 60
+  * Round 18: Lost to Orange Hills A/G, Orange, CA 45 to 185
+  * Round 19: Lost to Fond du Lac A/G, Fond du Lac, WI 110 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1187,32 +1209,33 @@ Round 19: Lost to Fond du Lac A/G, Fond du Lac, WI 110 to 150
 *(L-R Back) LeAnne Kloefkorn, Kent Kloefkorn, Angela Savage*
 
 #### 3rd Place
-
-Church:	Cedar Park A/G "So-Called Angels", Bothell, WA
-Coaches:	Kent Kloefkorn, LeAnne Kloefkorn (assistant)
-Team:	Angela Savage
-Jenny Dworzak
-Natalie Asahara
+ 
+* **Church**: Cedar Park A/G "So-Called Angels", Bothell, WA 
+* **Coaches**: Kent Kloefkorn, LeAnne Kloefkorn (assistant)
+* **Team**:
+    * Angela Savage
+    * Jenny Dworzak
+    * Natalie Asahara
 * **Round Robin**:
-Round 1: Lost to Grace A/G, Syracuse, NY 0 to 200
-Round 2: Lost to Christian Chapel, Tulsa, OK 25 to 180
-Round 3: Lost to Orange Hills A/G, Orange, CA 0 to 230
-Round 4: Lost to Fond du Lac A/G, Fond du Lac, WI 35 to 60
-Round 5: Lost to Fossil Creek A/G, Fort Worth, TX -15 to 225
-Round 6: Lost to King's Chapel, Springfield, MO 30 to 160
-Round 7: Lost to Living Waters Chapel, Lebanon, PA 55 to 175
-Round 8: Lost to South Hills A/G, Bethel Park, PA 30 to 105
-Round 9: Lost to Faith A/G, Orlando, FL 125 to 140
-Round 10: Lost to The Church at Briargate, Colorado Springs, CO 25 to 145
-Round 11: Lost to Calvary Church, Naperville, IL 15 to 150
-Round 12: Lost to Allison Park A/G, Allison Park, PA 80 to 110
-Round 13: Lost to Calvary A/G, Dunwoody, GA 40 to 180
-Round 14: Lost to First A/G, Ames, IA 20 to 45
-Round 15: Lost to Central A/G, Superior, WI 75 to 120
-Round 16: Lost to First A/G, Lexington, KY 50 to 145
-Round 17: Lost to Tacoma Life Center, Tacoma, WA 60 to 105
-Round 18: Won against Oceanway A/G, Jacksonville, FL 240 to -40
-Round 19: Lost to Braeswood A/G, Houston, TX 35 to 250
+  * Round 1: Lost to Grace A/G, Syracuse, NY 0 to 200
+  * Round 2: Lost to Christian Chapel, Tulsa, OK 25 to 180
+  * Round 3: Lost to Orange Hills A/G, Orange, CA 0 to 230
+  * Round 4: Lost to Fond du Lac A/G, Fond du Lac, WI 35 to 60
+  * Round 5: Lost to Fossil Creek A/G, Fort Worth, TX -15 to 225
+  * Round 6: Lost to King's Chapel, Springfield, MO 30 to 160
+  * Round 7: Lost to Living Waters Chapel, Lebanon, PA 55 to 175
+  * Round 8: Lost to South Hills A/G, Bethel Park, PA 30 to 105
+  * Round 9: Lost to Faith A/G, Orlando, FL 125 to 140
+  * Round 10: Lost to The Church at Briargate, Colorado Springs, CO 25 to 145
+  * Round 11: Lost to Calvary Church, Naperville, IL 15 to 150
+  * Round 12: Lost to Allison Park A/G, Allison Park, PA 80 to 110
+  * Round 13: Lost to Calvary A/G, Dunwoody, GA 40 to 180
+  * Round 14: Lost to First A/G, Ames, IA 20 to 45
+  * Round 15: Lost to Central A/G, Superior, WI 75 to 120
+  * Round 16: Lost to First A/G, Lexington, KY 50 to 145
+  * Round 17: Lost to Tacoma Life Center, Tacoma, WA 60 to 105
+  * Round 18: Won against Oceanway A/G, Jacksonville, FL 240 to -40
+  * Round 19: Lost to Braeswood A/G, Houston, TX 35 to 250
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1224,33 +1247,34 @@ Round 19: Lost to Braeswood A/G, Houston, TX 35 to 250
 *(L-R Back) Rick Grieve, Ben Reehl, Jon Berg*
 
 #### 4th Place
-
-Church:	First A/G, Helena, MT
-Coaches:	Tamara Grieve, Rick Grieve (assistant), Jon Berg (assistant)
-Team:	Griff Berg
-Collins Lawlor
-Laine Berg
-Ben Reehl
+ 
+* **Church**: First A/G, Helena, MT 
+* **Coaches**: Tamara Grieve, Rick Grieve (assistant), Jon Berg (assistant)
+* **Team**:
+    * Griff Berg
+    * Collins Lawlor
+    * Laine Berg
+    * Ben Reehl
 * **Round Robin**:
-Round 1: Lost to Orange County Worship Center, Santa Ana, CA 20 to 180
-Round 2: Won against Albert Lea A/G, Albert Lea, MN 70 to 30
-Round 3: Lost to Abundant Life A/G, Grapevine, TX 20 to 145
-Round 4: Lost to Bethel Christian Life Center, West Lafayette, IN -10 to 195
-Round 5: Lost to Calvary A/G, Toledo, OH 40 to 70
-Round 6: Lost to James River A/G, Ozark, MO 55 to 150
-Round 7: Lost to The Oaks Fellowship, Dallas, TX 60 to 255
-Round 8: Won against First A/G, Boulder, MT 110 to -10
-Round 9: Won against Southside A/G, Jackson, MS 70 to 35
-Round 10: Lost to Calvary A/G, DeMotte, IN 15 to 70
-Round 11: Won against First A/G, Cedar Rapids, IA 80 to 60
-Round 12: Lost to Two Rivers Fellowship, Greeley, CO 40 to 80
-Round 13: Lost to First A/G, Fort Myers, FL 80 to 100
-Round 14: Lost to Billings A/G, Billings, MO 40 to 190
-Round 15: Lost to Calvary Temple, Indianapolis, IN 25 to 220
-Round 16: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 10 to 215
-Round 17: Lost to First A/G, Hermitage, PA 15 to 185
-Round 18: Lost to Evangel Community Church, Centerville, GA -10 to 110
-Round 19: Lost to Family Worship Center, Murfreesboro, TN 150 to 165
+  * Round 1: Lost to Orange County Worship Center, Santa Ana, CA 20 to 180
+  * Round 2: Won against Albert Lea A/G, Albert Lea, MN 70 to 30
+  * Round 3: Lost to Abundant Life A/G, Grapevine, TX 20 to 145
+  * Round 4: Lost to Bethel Christian Life Center, West Lafayette, IN -10 to 195
+  * Round 5: Lost to Calvary A/G, Toledo, OH 40 to 70
+  * Round 6: Lost to James River A/G, Ozark, MO 55 to 150
+  * Round 7: Lost to The Oaks Fellowship, Dallas, TX 60 to 255
+  * Round 8: Won against First A/G, Boulder, MT 110 to -10
+  * Round 9: Won against Southside A/G, Jackson, MS 70 to 35
+  * Round 10: Lost to Calvary A/G, DeMotte, IN 15 to 70
+  * Round 11: Won against First A/G, Cedar Rapids, IA 80 to 60
+  * Round 12: Lost to Two Rivers Fellowship, Greeley, CO 40 to 80
+  * Round 13: Lost to First A/G, Fort Myers, FL 80 to 100
+  * Round 14: Lost to Billings A/G, Billings, MO 40 to 190
+  * Round 15: Lost to Calvary Temple, Indianapolis, IN 25 to 220
+  * Round 16: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 10 to 215
+  * Round 17: Lost to First A/G, Hermitage, PA 15 to 185
+  * Round 18: Lost to Evangel Community Church, Centerville, GA -10 to 110
+  * Round 19: Lost to Family Worship Center, Murfreesboro, TN 150 to 165
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1261,35 +1285,36 @@ Round 19: Lost to Family Worship Center, Murfreesboro, TN 150 to 165
 *(Team Members) Barbara Scott, Matt Nelson, Autum Nolte, Danielle Peppenger, Sth Nolte, Nathanial Kallberg, Kirby Giulio, Megan Hartford*
 
 #### 5th Place
-
-Church:	First A/G, Boulder, MT
-Coaches:	Barbara Scott, Matt Nelson (assistant)
-Team:	Autumn Nolte
-Danielle Peppenger
-Seth Nolte
-Nathanial Kallberg
-Kirby Giulio
-Megan Hartford
+ 
+* **Church**: First A/G, Boulder, MT 
+* **Coaches**: Barbara Scott, Matt Nelson (assistant)
+* **Team**:
+    * Autumn Nolte
+    * Danielle Peppenger
+    * Seth Nolte
+    * Nathanial Kallberg
+    * Kirby Giulio
+    * Megan Hartford
 * **Round Robin**:
-Round 1: Lost to Billings A/G, Billings, MO 30 to 210
-Round 2: Lost to Calvary Temple, Indianapolis, IN 30 to 240
-Round 3: Lost to Cedar Park A/G "So-called Angels", Bothell, WA -10 to 275
-Round 4: Lost to First A/G, Hermitage, PA -10 to 120
-Round 5: Lost to Evangel Community Church, Centerville, GA 30 to 35
-Round 6: Lost to Family Worship Center, Murfreesboro, TN -5 to 105
-Round 7: Lost to Orange County Worship Center, Santa Ana, CA 10 to 245
-Round 8: Lost to First A/G, Helena, MT -10 to 110
-Round 9: Lost to Abundant Life A/G, Grapevine, TX 0 to 115
-Round 10: Lost to Bethel Christian Life Center, West Lafayette, IN 5 to 245
-Round 11: Lost to Calvary A/G, Toledo, OH 35 to 110
-Round 12: Lost to James River A/G, Ozark, MO 15 to 150
-Round 13: Lost to The Oaks Fellowship, Dallas, TX 10 to 210
-Round 14: Won against Albert Lea A/G, Albert Lea, MN 80 to -15
-Round 15: Lost to Southside A/G, Jackson, MS -40 to 30
-Round 16: Lost to Calvary A/G, DeMotte, IN 15 to 180
-Round 17: Lost to First A/G, Cedar Rapids, IA -5 to 85
-Round 18: Lost to Two Rivers Fellowship, Greeley, CO -30 to 150
-Round 19: Lost to First A/G, Fort Myers, FL 0 to 250
+  * Round 1: Lost to Billings A/G, Billings, MO 30 to 210
+  * Round 2: Lost to Calvary Temple, Indianapolis, IN 30 to 240
+  * Round 3: Lost to Cedar Park A/G "So-called Angels", Bothell, WA -10 to 275
+  * Round 4: Lost to First A/G, Hermitage, PA -10 to 120
+  * Round 5: Lost to Evangel Community Church, Centerville, GA 30 to 35
+  * Round 6: Lost to Family Worship Center, Murfreesboro, TN -5 to 105
+  * Round 7: Lost to Orange County Worship Center, Santa Ana, CA 10 to 245
+  * Round 8: Lost to First A/G, Helena, MT -10 to 110
+  * Round 9: Lost to Abundant Life A/G, Grapevine, TX 0 to 115
+  * Round 10: Lost to Bethel Christian Life Center, West Lafayette, IN 5 to 245
+  * Round 11: Lost to Calvary A/G, Toledo, OH 35 to 110
+  * Round 12: Lost to James River A/G, Ozark, MO 15 to 150
+  * Round 13: Lost to The Oaks Fellowship, Dallas, TX 10 to 210
+  * Round 14: Won against Albert Lea A/G, Albert Lea, MN 80 to -15
+  * Round 15: Lost to Southside A/G, Jackson, MS -40 to 30
+  * Round 16: Lost to Calvary A/G, DeMotte, IN 15 to 180
+  * Round 17: Lost to First A/G, Cedar Rapids, IA -5 to 85
+  * Round 18: Lost to Two Rivers Fellowship, Greeley, CO -30 to 150
+  * Round 19: Lost to First A/G, Fort Myers, FL 0 to 250
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1303,33 +1328,34 @@ Round 19: Lost to First A/G, Fort Myers, FL 0 to 250
 *(L-R Back) Bryan Batchelder, Grant Good*
 
 #### 1st Place
-
-Church:	Chrstian Chapel A/G, Tulsa, OK
-Coach:	Bryan Turner
-Team:	Caleb Booth
-Lydia Butay
-Bryan Batchelder
-Grant Good
+ 
+* **Church**: Chrstian Chapel A/G, Tulsa, OK 
+* **Coach**: Bryan Turner
+* **Team**:
+    * Caleb Booth
+    * Lydia Butay
+    * Bryan Batchelder
+    * Grant Good
 * **Round Robin**:
-Round 1: Lost to Calvary Church, Naperville, IL 70 to 100
-Round 2: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 180 to 25
-Round 3: Won against Allison Park A/G, Allison Park, PA 190 to 105
-Round 4: Lost to Orange Hills A/G, Orange, CA 35 to 205
-Round 5: Lost to Calvary A/G, Dunwoody, GA 75 to 180
-Round 6: Won against Fond du Lac A/G, Fond du Lac, WI 145 to 30
-Round 7: Won against First A/G, Ames, IA 265 to 40
-Round 8: Won against Fossil Creek A/G, Fort Worth, TX 55 to 50
-Round 9: Won against Central A/G, Superior, WI 180 to 80
-Round 10: Won against King's Chapel, Springfield, MO 215 to -25
-Round 11: Won against First A/G, Lexington, KY 265 to -10
-Round 12: Lost to Living Waters Chapel, Lebanon, PA 110 to 130
-Round 13: Won against Tacoma Life Center, Tacoma, WA 110 to 95
-Round 14: Lost to South Hills A/G, Bethel Park, PA 120 to 150
-Round 15: Won against Oceanway A/G, Jacksonville, FL 210 to 75
-Round 16: Won against Faith A/G, Orlando, FL 270 to 15
-Round 17: Won against Braeswood A/G, Houston, TX 135 to 120
-Round 18: Lost to The Church at Briargate, Colorado Springs, CO 105 to 160
-Round 19: Won against Grace A/G, Syracuse, NY 150 to 100
+  * Round 1: Lost to Calvary Church, Naperville, IL 70 to 100
+  * Round 2: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 180 to 25
+  * Round 3: Won against Allison Park A/G, Allison Park, PA 190 to 105
+  * Round 4: Lost to Orange Hills A/G, Orange, CA 35 to 205
+  * Round 5: Lost to Calvary A/G, Dunwoody, GA 75 to 180
+  * Round 6: Won against Fond du Lac A/G, Fond du Lac, WI 145 to 30
+  * Round 7: Won against First A/G, Ames, IA 265 to 40
+  * Round 8: Won against Fossil Creek A/G, Fort Worth, TX 55 to 50
+  * Round 9: Won against Central A/G, Superior, WI 180 to 80
+  * Round 10: Won against King's Chapel, Springfield, MO 215 to -25
+  * Round 11: Won against First A/G, Lexington, KY 265 to -10
+  * Round 12: Lost to Living Waters Chapel, Lebanon, PA 110 to 130
+  * Round 13: Won against Tacoma Life Center, Tacoma, WA 110 to 95
+  * Round 14: Lost to South Hills A/G, Bethel Park, PA 120 to 150
+  * Round 15: Won against Oceanway A/G, Jacksonville, FL 210 to 75
+  * Round 16: Won against Faith A/G, Orlando, FL 270 to 15
+  * Round 17: Won against Braeswood A/G, Houston, TX 135 to 120
+  * Round 18: Lost to The Church at Briargate, Colorado Springs, CO 105 to 160
+  * Round 19: Won against Grace A/G, Syracuse, NY 150 to 100
   * Playoff: Lost to The Church at Briargate, Colorado Springs, CO
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
@@ -1342,33 +1368,34 @@ Round 19: Won against Grace A/G, Syracuse, NY 150 to 100
 *(L-R Back) Michael Pearson, Derek Wilson, Kevin Davis*
 
 #### 2nd Place
-
-Church:	The Oaks Fellowship A/G, Dallas, TX
-Coaches:	Jeannie Davis, Tom Davis (assistant), Ann Palmer (assistant)
-Team:	Kevin Davis
-Michael Pearson
-Derek Wilson
-Andrea Palmer
+ 
+* **Church**: The Oaks Fellowship A/G, Dallas, TX 
+* **Coaches**: Jeannie Davis, Tom Davis (assistant), Ann Palmer (assistant)
+* **Team**:
+    * Kevin Davis
+    * Michael Pearson
+    * Derek Wilson
+    * Andrea Palmer
 * **Round Robin**:
-Round 1: Won against Calvary Temple, Indianapolis, IN 125 to 65
-Round 2: Won against Cedar Park A/G "So-called Angels", Bothell, WA 140 to 110
-Round 3: Won against First A/G, Hermitage, PA 145 to -15
-Round 4: Won against Evangel Community Church, Centerville, GA 170 to 85
-Round 5: Won against Family Worship Center, Murfreesboro, TN 140 to 60
-Round 6: Lost to Orange County Worship Center, Santa Ana, CA 80 to 120
-Round 7: Won against First A/G, Helena, MT 255 to 60
-Round 8: Lost to Abundant Life A/G, Grapevine, TX 35 to 130
-Round 9: Lost to Bethel Christian Life Center, West Lafayette, IN 80 to 150
-Round 10: Won against Calvary A/G, Toledo, OH 130 to 95
-Round 11: Lost to James River A/G, Ozark, MO 150 to 155
-Round 12: Won against Albert Lea A/G, Albert Lea, MN 260 to 0
-Round 13: Won against First A/G, Boulder, MT 210 to 10
-Round 14: Won against Southside A/G, Jackson, MS 280 to 60
-Round 15: Won against Calvary A/G, DeMotte, IN 185 to 85
-Round 16: Won against First A/G, Cedar Rapids, IA 220 to 15
-Round 17: Won against Two Rivers Fellowship, Greeley, CO 190 to 30
-Round 18: Won against First A/G, Fort Myers, FL 245 to 55
-Round 19: Won against Billings A/G, Billings, MO 180 to 105
+  * Round 1: Won against Calvary Temple, Indianapolis, IN 125 to 65
+  * Round 2: Won against Cedar Park A/G "So-called Angels", Bothell, WA 140 to 110
+  * Round 3: Won against First A/G, Hermitage, PA 145 to -15
+  * Round 4: Won against Evangel Community Church, Centerville, GA 170 to 85
+  * Round 5: Won against Family Worship Center, Murfreesboro, TN 140 to 60
+  * Round 6: Lost to Orange County Worship Center, Santa Ana, CA 80 to 120
+  * Round 7: Won against First A/G, Helena, MT 255 to 60
+  * Round 8: Lost to Abundant Life A/G, Grapevine, TX 35 to 130
+  * Round 9: Lost to Bethel Christian Life Center, West Lafayette, IN 80 to 150
+  * Round 10: Won against Calvary A/G, Toledo, OH 130 to 95
+  * Round 11: Lost to James River A/G, Ozark, MO 150 to 155
+  * Round 12: Won against Albert Lea A/G, Albert Lea, MN 260 to 0
+  * Round 13: Won against First A/G, Boulder, MT 210 to 10
+  * Round 14: Won against Southside A/G, Jackson, MS 280 to 60
+  * Round 15: Won against Calvary A/G, DeMotte, IN 185 to 85
+  * Round 16: Won against First A/G, Cedar Rapids, IA 220 to 15
+  * Round 17: Won against Two Rivers Fellowship, Greeley, CO 190 to 30
+  * Round 18: Won against First A/G, Fort Myers, FL 245 to 55
+  * Round 19: Won against Billings A/G, Billings, MO 180 to 105
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1380,33 +1407,34 @@ Round 19: Won against Billings A/G, Billings, MO 180 to 105
 *(L-R Back) Charles Anyanwu (assistant), Paul Kramer, Dapo Masha, ????*
 
 #### 3rd Place
-
-Church:	Braeswood A/G #1, Houston, TX
-Coaches:	Paul Kramer, Janie Burquist
-Team:	Dapo Masha
-Prince Anywanwu
-Albert Osueke
-Josh Verkerk
+ 
+* **Church**: Braeswood A/G #1, Houston, TX 
+* **Coaches**: Paul Kramer, Janie Burquist
+* **Team**:
+    * Dapo Masha
+    * Prince Anywanwu
+    * Albert Osueke
+    * Josh Verkerk
 * **Round Robin**:
-Round 1: Lost to Orange Hills A/G, Orange, CA 65 to 185
-Round 2: Lost to Fond du Lac A/G, Fond du Lac, WI 85 to 155
-Round 3: Won against Fossil Creek A/G, Fort Worth, TX 155 to 60
-Round 4: Won against King's Chapel, Springfield, MO 170 to 70
-Round 5: Lost to Living Waters Chapel, Lebanon, PA 115 to 120
-Round 6: Won against South Hills A/G, Bethel Park, PA 215 to 90
-Round 7: Won against Faith A/G, Orlando, FL 200 to 95
-Round 8: Won against The Church at Briargate, Colorado Springs, CO 130 to -10
-Round 9: Won against Calvary Church, Naperville, IL 115 to 60
-Round 10: Lost to Allison Park A/G, Allison Park, PA 65 to 70
-Round 11: Won against Calvary A/G, Dunwoody, GA 150 to 60
-Round 12: Won against First A/G, Ames, IA 120 to 55
-Round 13: Won against Central A/G, Superior, WI 145 to -5
-Round 14: Won against First A/G, Lexington, KY 125 to 115
-Round 15: Won against Tacoma Life Center, Tacoma, WA 180 to 60
-Round 16: Won against Oceanway A/G, Jacksonville, FL 195 to 70
-Round 17: Lost to Christian Chapel, Tulsa, OK 120 to 135
-Round 18: Won against Grace A/G, Syracuse, NY 145 to 115
-Round 19: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 250 to 35
+  * Round 1: Lost to Orange Hills A/G, Orange, CA 65 to 185
+  * Round 2: Lost to Fond du Lac A/G, Fond du Lac, WI 85 to 155
+  * Round 3: Won against Fossil Creek A/G, Fort Worth, TX 155 to 60
+  * Round 4: Won against King's Chapel, Springfield, MO 170 to 70
+  * Round 5: Lost to Living Waters Chapel, Lebanon, PA 115 to 120
+  * Round 6: Won against South Hills A/G, Bethel Park, PA 215 to 90
+  * Round 7: Won against Faith A/G, Orlando, FL 200 to 95
+  * Round 8: Won against The Church at Briargate, Colorado Springs, CO 130 to -10
+  * Round 9: Won against Calvary Church, Naperville, IL 115 to 60
+  * Round 10: Lost to Allison Park A/G, Allison Park, PA 65 to 70
+  * Round 11: Won against Calvary A/G, Dunwoody, GA 150 to 60
+  * Round 12: Won against First A/G, Ames, IA 120 to 55
+  * Round 13: Won against Central A/G, Superior, WI 145 to -5
+  * Round 14: Won against First A/G, Lexington, KY 125 to 115
+  * Round 15: Won against Tacoma Life Center, Tacoma, WA 180 to 60
+  * Round 16: Won against Oceanway A/G, Jacksonville, FL 195 to 70
+  * Round 17: Lost to Christian Chapel, Tulsa, OK 120 to 135
+  * Round 18: Won against Grace A/G, Syracuse, NY 145 to 115
+  * Round 19: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 250 to 35
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1418,32 +1446,33 @@ Round 19: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 250 to 35
 *(L-R Back) Tammy Pryor, Ken Pryor (assistant)*
 
 #### 4th Place
-
-Church:	Fossil Creek Community Church, Ft. Worth, TX
-Coaches:	Tammy Pryor, Ken Pryor (assistant)
-Team:	Amanda Pryor
-April Pryor
-Andrea Pryor
+ 
+* **Church**: Fossil Creek Community Church, Ft. Worth, TX 
+* **Coaches**: Tammy Pryor, Ken Pryor (assistant)
+* **Team**:
+    * Amanda Pryor
+    * April Pryor
+    * Andrea Pryor
 * **Round Robin**:
-Round 1: Lost to Tacoma Life Center, Tacoma, WA 110 to 135
-Round 2: Won against Oceanway A/G, Jacksonville, FL 145 to 75
-Round 3: Lost to Braeswood A/G, Houston, TX 60 to 155
-Round 4: Won against Grace A/G, Syracuse, NY 175 to 55
-Round 5: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 225 to -15
-Round 6: Lost to Orange Hills A/G, Orange, CA 90 to 205
-Round 7: Won against Fond du Lac A/G, Fond du Lac, WI 185 to 135
-Round 8: Lost to Christian Chapel, Tulsa, OK 50 to 55
-Round 9: Won against King's Chapel, Springfield, MO 175 to 85
-Round 10: Lost to Living Waters Chapel, Lebanon, PA 85 to 170
-Round 11: Won against South Hills A/G, Bethel Park, PA 195 to 95
-Round 12: Lost to Faith A/G, Orlando, FL 75 to 105
-Round 13: Lost to The Church at Briargate, Colorado Springs, CO 95 to 190
-Round 14: Won against Calvary Church, Naperville, IL 205 to 65
-Round 15: Won against Allison Park A/G, Allison Park, PA 210 to -35
-Round 16: Lost to Calvary A/G, Dunwoody, GA 105 to 110
-Round 17: Won against First A/G, Ames, IA 130 to 120
-Round 18: Lost to Central A/G, Superior, WI 130 to 135
-Round 19: Lost to First A/G, Lexington, KY 70 to 95
+  * Round 1: Lost to Tacoma Life Center, Tacoma, WA 110 to 135
+  * Round 2: Won against Oceanway A/G, Jacksonville, FL 145 to 75
+  * Round 3: Lost to Braeswood A/G, Houston, TX 60 to 155
+  * Round 4: Won against Grace A/G, Syracuse, NY 175 to 55
+  * Round 5: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 225 to -15
+  * Round 6: Lost to Orange Hills A/G, Orange, CA 90 to 205
+  * Round 7: Won against Fond du Lac A/G, Fond du Lac, WI 185 to 135
+  * Round 8: Lost to Christian Chapel, Tulsa, OK 50 to 55
+  * Round 9: Won against King's Chapel, Springfield, MO 175 to 85
+  * Round 10: Lost to Living Waters Chapel, Lebanon, PA 85 to 170
+  * Round 11: Won against South Hills A/G, Bethel Park, PA 195 to 95
+  * Round 12: Lost to Faith A/G, Orlando, FL 75 to 105
+  * Round 13: Lost to The Church at Briargate, Colorado Springs, CO 95 to 190
+  * Round 14: Won against Calvary Church, Naperville, IL 205 to 65
+  * Round 15: Won against Allison Park A/G, Allison Park, PA 210 to -35
+  * Round 16: Lost to Calvary A/G, Dunwoody, GA 105 to 110
+  * Round 17: Won against First A/G, Ames, IA 130 to 120
+  * Round 18: Lost to Central A/G, Superior, WI 130 to 135
+  * Round 19: Lost to First A/G, Lexington, KY 70 to 95
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1454,33 +1483,34 @@ Round 19: Lost to First A/G, Lexington, KY 70 to 95
 *(Team Members) Richard Ely, Janet Fukuda, Sharon Ely, Heather Lester, Katie Ryan, Kelly Anderson*
 
 #### 5th Place
-
-Church:	Abundant Life A/G, Grapevine, TX
-Coaches:	Richard Ely, Janet Fukuda (assistant)
-Team:	Sharon Ely
-Heather Lester
-Katie Ryan
-Kelly Anderson
+ 
+* **Church**: Abundant Life A/G, Grapevine, TX 
+* **Coaches**: Richard Ely, Janet Fukuda (assistant)
+* **Team**:
+    * Sharon Ely
+    * Heather Lester
+    * Katie Ryan
+    * Kelly Anderson
 * **Round Robin**:
-Round 1: Won against Family Worship Center, Murfreesboro, TN 115 to 40
-Round 2: Lost to Orange County Worship Center, Santa Ana, CA 60 to 210
-Round 3: Won against First A/G, Helena, MT 145 to 20
-Round 4: Won against Albert Lea A/G, Albert Lea, MN 180 to -10
-Round 5: Won against Bethel Christian Life Center, West Lafayette, IN 95 to 75
-Round 6: Lost to Calvary A/G, Toledo, OH 85 to 150
-Round 7: Lost to James River A/G, Ozark, MO 90 to 160
-Round 8: Won against The Oaks Fellowship, Dallas, TX 130 to 35
-Round 9: Won against First A/G, Boulder, MT 115 to 0
-Round 10: Won against Southside A/G, Jackson, MS 150 to 35
-Round 11: Lost to Calvary A/G, DeMotte, IN 60 to 190
-Round 12: Won against First A/G, Cedar Rapids, IA 105 to 35
-Round 13: Won against Two Rivers Fellowship, Greeley, CO 75 to 15
-Round 14: Won against First A/G, Fort Myers, FL 120 to 100
-Round 15: Lost to Billings A/G, Billings, MO 100 to 150
-Round 16: Won against Calvary Temple, Indianapolis, IN 120 to 25
-Round 17: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 25 to 160
-Round 18: Lost to First A/G, Hermitage, PA 90 to 205
-Round 19: Lost to Evangel Community Church, Centerville, GA 140 to 155
+  * Round 1: Won against Family Worship Center, Murfreesboro, TN 115 to 40
+  * Round 2: Lost to Orange County Worship Center, Santa Ana, CA 60 to 210
+  * Round 3: Won against First A/G, Helena, MT 145 to 20
+  * Round 4: Won against Albert Lea A/G, Albert Lea, MN 180 to -10
+  * Round 5: Won against Bethel Christian Life Center, West Lafayette, IN 95 to 75
+  * Round 6: Lost to Calvary A/G, Toledo, OH 85 to 150
+  * Round 7: Lost to James River A/G, Ozark, MO 90 to 160
+  * Round 8: Won against The Oaks Fellowship, Dallas, TX 130 to 35
+  * Round 9: Won against First A/G, Boulder, MT 115 to 0
+  * Round 10: Won against Southside A/G, Jackson, MS 150 to 35
+  * Round 11: Lost to Calvary A/G, DeMotte, IN 60 to 190
+  * Round 12: Won against First A/G, Cedar Rapids, IA 105 to 35
+  * Round 13: Won against Two Rivers Fellowship, Greeley, CO 75 to 15
+  * Round 14: Won against First A/G, Fort Myers, FL 120 to 100
+  * Round 15: Lost to Billings A/G, Billings, MO 100 to 150
+  * Round 16: Won against Calvary Temple, Indianapolis, IN 120 to 25
+  * Round 17: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 25 to 160
+  * Round 18: Lost to First A/G, Hermitage, PA 90 to 205
+  * Round 19: Lost to Evangel Community Church, Centerville, GA 140 to 155
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1493,32 +1523,33 @@ Round 19: Lost to Evangel Community Church, Centerville, GA 140 to 155
 *(L-R) Bobby Strickland, Chad Crawford, Stacy Strickland, Tyler Landreville, Kathy Strickland*
 
 #### 1st Place
-
-Church:	Oceanway A/G, Jacksonville, FL
-Coaches:	Bobby Strickland, Kathy Strickland (assistant)
-Team:	Chad Crawford
-Stacy Strickland
-Tyler Landreville
+ 
+* **Church**: Oceanway A/G, Jacksonville, FL 
+* **Coaches**: Bobby Strickland, Kathy Strickland (assistant)
+* **Team**:
+    * Chad Crawford
+    * Stacy Strickland
+    * Tyler Landreville
 * **Round Robin**:
-Round 1: Lost to Fond du Lac A/G, Fond du Lac, WI 45 to 105
-Round 2: Lost to Fossil Creek A/G, Fort Worth, TX 75 to 145
-Round 3: Lost to King's Chapel, Springfield, MO 65 to 130
-Round 4: Lost to Living Waters Chapel, Lebanon, PA -5 to 290
-Round 5: Lost to South Hills A/G, Bethel Park, PA 100 to 115
-Round 6: Lost to Faith A/G, Orlando, FL 125 to 135
-Round 7: Won against The Church at Briargate, Colorado Springs, CO 170 to 145
-Round 8: Lost to Calvary Church, Naperville, IL -15 to 125
-Round 9: Lost to Allison Park A/G, Allison Park, PA 75 to 160
-Round 10: Lost to Calvary A/G, Dunwoody, GA -15 to 230
-Round 11: Lost to First A/G, Ames, IA 85 to 150
-Round 12: Lost to Central A/G, Superior, WI 60 to 105
-Round 13: Lost to First A/G, Lexington, KY 85 to 145
-Round 14: Lost to Tacoma Life Center, Tacoma, WA 60 to 140
-Round 15: Lost to Christian Chapel, Tulsa, OK 75 to 210
-Round 16: Lost to Braeswood A/G, Houston, TX 70 to 195
-Round 17: Won against Grace A/G, Syracuse, NY 165 to 50
-Round 18: Lost to Cedar Park A/G "Crafty Fellows", Bothell, WA -40 to 240
-Round 19: Lost to Orange Hills A/G, Orange, CA 105 to 240
+  * Round 1: Lost to Fond du Lac A/G, Fond du Lac, WI 45 to 105
+  * Round 2: Lost to Fossil Creek A/G, Fort Worth, TX 75 to 145
+  * Round 3: Lost to King's Chapel, Springfield, MO 65 to 130
+  * Round 4: Lost to Living Waters Chapel, Lebanon, PA -5 to 290
+  * Round 5: Lost to South Hills A/G, Bethel Park, PA 100 to 115
+  * Round 6: Lost to Faith A/G, Orlando, FL 125 to 135
+  * Round 7: Won against The Church at Briargate, Colorado Springs, CO 170 to 145
+  * Round 8: Lost to Calvary Church, Naperville, IL -15 to 125
+  * Round 9: Lost to Allison Park A/G, Allison Park, PA 75 to 160
+  * Round 10: Lost to Calvary A/G, Dunwoody, GA -15 to 230
+  * Round 11: Lost to First A/G, Ames, IA 85 to 150
+  * Round 12: Lost to Central A/G, Superior, WI 60 to 105
+  * Round 13: Lost to First A/G, Lexington, KY 85 to 145
+  * Round 14: Lost to Tacoma Life Center, Tacoma, WA 60 to 140
+  * Round 15: Lost to Christian Chapel, Tulsa, OK 75 to 210
+  * Round 16: Lost to Braeswood A/G, Houston, TX 70 to 195
+  * Round 17: Won against Grace A/G, Syracuse, NY 165 to 50
+  * Round 18: Lost to Cedar Park A/G "Crafty Fellows", Bothell, WA -40 to 240
+  * Round 19: Lost to Orange Hills A/G, Orange, CA 105 to 240
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1531,34 +1562,35 @@ Round 19: Lost to Orange Hills A/G, Orange, CA 105 to 240
 *(L-R Back) Sarah Ward, Matthew Dykema*
 
 #### 2nd Place
-
-Church:	Evangel Community Church, Centerville, GA
-Coaches:	Mark Gilmer, Mark Childers (assistant), Susan Patt (assistant)
-Team:	Greg Aikens
-Matthew Dykema
-Carolina Parr
-Sarah Ward
-Blake Hoffmeyer
+ 
+* **Church**: Evangel Community Church, Centerville, GA 
+* **Coaches**: Mark Gilmer, Mark Childers (assistant), Susan Patt (assistant)
+* **Team**:
+    * Greg Aikens
+    * Matthew Dykema
+    * Carolina Parr
+    * Sarah Ward
+    * Blake Hoffmeyer
 * **Round Robin**:
-Round 1: Won against Bethel Christian Life Center, West Lafayette, IN 115 to 20
-Round 2: Lost to Calvary A/G, Toledo, OH -45 to 130
-Round 3: Won against James River A/G, Ozark, MO 190 to 30
-Round 4: Lost to The Oaks Fellowship, Dallas, TX 85 to 170
-Round 5: Won against First A/G, Boulder, MT 35 to 30
-Round 6: Won against Southside A/G, Jackson, MS 115 to 70
-Round 7: Lost to Calvary A/G, DeMotte, IN 90 to 155
-Round 8: Won against First A/G, Cedar Rapids, IA 60 to 55
-Round 9: Won against Two Rivers Fellowship, Greeley, CO 130 to 10
-Round 10: Won against First A/G, Fort Myers, FL 55 to 50
-Round 11: Won against Billings A/G, Billings, MO 210 to 5
-Round 12: Won against Calvary Temple, Indianapolis, IN 130 to 65
-Round 13: Won against Cedar Park A/G "So-called Angels", Bothell, WA 95 to 55
-Round 14: Lost to First A/G, Hermitage, PA 60 to 85
-Round 15: Won against Albert Lea A/G, Albert Lea, MN 180 to 30
-Round 16: Won against Family Worship Center, Murfreesboro, TN 120 to 45
-Round 17: Won against Orange County Worship Center, Santa Ana, CA 205 to 45
-Round 18: Won against First A/G, Helena, MT 110 to -10
-Round 19: Won against Abundant Life A/G, Grapevine, TX 155 to 140
+  * Round 1: Won against Bethel Christian Life Center, West Lafayette, IN 115 to 20
+  * Round 2: Lost to Calvary A/G, Toledo, OH -45 to 130
+  * Round 3: Won against James River A/G, Ozark, MO 190 to 30
+  * Round 4: Lost to The Oaks Fellowship, Dallas, TX 85 to 170
+  * Round 5: Won against First A/G, Boulder, MT 35 to 30
+  * Round 6: Won against Southside A/G, Jackson, MS 115 to 70
+  * Round 7: Lost to Calvary A/G, DeMotte, IN 90 to 155
+  * Round 8: Won against First A/G, Cedar Rapids, IA 60 to 55
+  * Round 9: Won against Two Rivers Fellowship, Greeley, CO 130 to 10
+  * Round 10: Won against First A/G, Fort Myers, FL 55 to 50
+  * Round 11: Won against Billings A/G, Billings, MO 210 to 5
+  * Round 12: Won against Calvary Temple, Indianapolis, IN 130 to 65
+  * Round 13: Won against Cedar Park A/G "So-called Angels", Bothell, WA 95 to 55
+  * Round 14: Lost to First A/G, Hermitage, PA 60 to 85
+  * Round 15: Won against Albert Lea A/G, Albert Lea, MN 180 to 30
+  * Round 16: Won against Family Worship Center, Murfreesboro, TN 120 to 45
+  * Round 17: Won against Orange County Worship Center, Santa Ana, CA 205 to 45
+  * Round 18: Won against First A/G, Helena, MT 110 to -10
+  * Round 19: Won against Abundant Life A/G, Grapevine, TX 155 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1570,33 +1602,34 @@ Round 19: Won against Abundant Life A/G, Grapevine, TX 155 to 140
 *(L-R Back) Kyle Heyne, Ray Berkey*
 
 #### 3rd Place
-
-Church:	Faith A/G, Orlando, FL
-Coaches:	Ray Berkey, Angie Berkey (assistant)
-Team:	Heather Patterson
-Michelle Hart
-Mia Angelakos
-Kyle Heyne
+ 
+* **Church**: Faith A/G, Orlando, FL 
+* **Coaches**: Ray Berkey, Angie Berkey (assistant)
+* **Team**:
+    * Heather Patterson
+    * Michelle Hart
+    * Mia Angelakos
+    * Kyle Heyne
 * **Round Robin**:
-Round 1: Lost to Calvary A/G, Dunwoody, GA 70 to 140
-Round 2: Lost to First A/G, Ames, IA 100 to 115
-Round 3: Lost to Central A/G, Superior, WI 75 to 85
-Round 4: Lost to First A/G, Lexington, KY 60 to 80
-Round 5: Lost to Tacoma Life Center, Tacoma, WA 145 to 170
-Round 6: Won against Oceanway A/G, Jacksonville, FL 135 to 125
-Round 7: Lost to Braeswood A/G, Houston, TX 95 to 200
-Round 8: Lost to Grace A/G, Syracuse, NY 45 to 140
-Round 9: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 140 to 125
-Round 10: Lost to Orange Hills A/G, Orange, CA 140 to 160
-Round 11: Lost to Fond du Lac A/G, Fond du Lac, WI 50 to 160
-Round 12: Won against Fossil Creek A/G, Fort Worth, TX 105 to 75
-Round 13: Lost to King's Chapel, Springfield, MO 50 to 95
-Round 14: Won against Living Waters Chapel, Lebanon, PA 165 to 130
-Round 15: Lost to South Hills A/G, Bethel Park, PA 40 to 195
-Round 16: Lost to Christian Chapel, Tulsa, OK 15 to 270
-Round 17: Won against The Church at Briargate, Colorado Springs, CO 120 to 100
-Round 18: Won against Calvary Church, Naperville, IL 215 to 5
-Round 19: Won against Allison Park A/G, Allison Park, PA 210 to -30
+  * Round 1: Lost to Calvary A/G, Dunwoody, GA 70 to 140
+  * Round 2: Lost to First A/G, Ames, IA 100 to 115
+  * Round 3: Lost to Central A/G, Superior, WI 75 to 85
+  * Round 4: Lost to First A/G, Lexington, KY 60 to 80
+  * Round 5: Lost to Tacoma Life Center, Tacoma, WA 145 to 170
+  * Round 6: Won against Oceanway A/G, Jacksonville, FL 135 to 125
+  * Round 7: Lost to Braeswood A/G, Houston, TX 95 to 200
+  * Round 8: Lost to Grace A/G, Syracuse, NY 45 to 140
+  * Round 9: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 140 to 125
+  * Round 10: Lost to Orange Hills A/G, Orange, CA 140 to 160
+  * Round 11: Lost to Fond du Lac A/G, Fond du Lac, WI 50 to 160
+  * Round 12: Won against Fossil Creek A/G, Fort Worth, TX 105 to 75
+  * Round 13: Lost to King's Chapel, Springfield, MO 50 to 95
+  * Round 14: Won against Living Waters Chapel, Lebanon, PA 165 to 130
+  * Round 15: Lost to South Hills A/G, Bethel Park, PA 40 to 195
+  * Round 16: Lost to Christian Chapel, Tulsa, OK 15 to 270
+  * Round 17: Won against The Church at Briargate, Colorado Springs, CO 120 to 100
+  * Round 18: Won against Calvary Church, Naperville, IL 215 to 5
+  * Round 19: Won against Allison Park A/G, Allison Park, PA 210 to -30
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1608,33 +1641,34 @@ Round 19: Won against Allison Park A/G, Allison Park, PA 210 to -30
 *(L-R Back) John Porter, Joe Fortunato, Seth Sundell (assistant)*
 
 #### 4th Place
-
-Church:	Calvary A/G, Dunwoody, GA
-Coaches:	John Porter, Seth Sundell (assistant)
-Team:	Gina Fortunato
-Brandon Porter
-Joseph Fortunato
-Laura Jakstadt
+ 
+* **Church**: Calvary A/G, Dunwoody, GA 
+* **Coaches**: John Porter, Seth Sundell (assistant)
+* **Team**:
+    * Gina Fortunato
+    * Brandon Porter
+    * Joseph Fortunato
+    * Laura Jakstadt
 * **Round Robin**:
-Round 1: Won against Faith A/G, Orlando, FL 140 to 70
-Round 2: Lost to The Church at Briargate, Colorado Springs, CO 65 to 175
-Round 3: Lost to Calvary Church, Naperville, IL 55 to 170
-Round 4: Won against Allison Park A/G, Allison Park, PA 110 to 90
-Round 5: Won against Christian Chapel, Tulsa, OK 180 to 75
-Round 6: Won against First A/G, Ames, IA 135 to 55
-Round 7: Won against Central A/G, Superior, WI 145 to 135
-Round 8: Lost to First A/G, Lexington, KY 60 to 125
-Round 9: Won against Tacoma Life Center, Tacoma, WA 115 to 75
-Round 10: Won against Oceanway A/G, Jacksonville, FL 230 to -15
-Round 11: Lost to Braeswood A/G, Houston, TX 60 to 150
-Round 12: Won against Grace A/G, Syracuse, NY 145 to 65
-Round 13: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 180 to 40
-Round 14: Lost to Orange Hills A/G, Orange, CA 75 to 235
-Round 15: Won against Fond du Lac A/G, Fond du Lac, WI 155 to 30
-Round 16: Won against Fossil Creek A/G, Fort Worth, TX 110 to 105
-Round 17: Won against King's Chapel, Springfield, MO 185 to 55
-Round 18: Lost to Living Waters Chapel, Lebanon, PA 120 to 135
-Round 19: Lost to South Hills A/G, Bethel Park, PA 130 to 155
+  * Round 1: Won against Faith A/G, Orlando, FL 140 to 70
+  * Round 2: Lost to The Church at Briargate, Colorado Springs, CO 65 to 175
+  * Round 3: Lost to Calvary Church, Naperville, IL 55 to 170
+  * Round 4: Won against Allison Park A/G, Allison Park, PA 110 to 90
+  * Round 5: Won against Christian Chapel, Tulsa, OK 180 to 75
+  * Round 6: Won against First A/G, Ames, IA 135 to 55
+  * Round 7: Won against Central A/G, Superior, WI 145 to 135
+  * Round 8: Lost to First A/G, Lexington, KY 60 to 125
+  * Round 9: Won against Tacoma Life Center, Tacoma, WA 115 to 75
+  * Round 10: Won against Oceanway A/G, Jacksonville, FL 230 to -15
+  * Round 11: Lost to Braeswood A/G, Houston, TX 60 to 150
+  * Round 12: Won against Grace A/G, Syracuse, NY 145 to 65
+  * Round 13: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 180 to 40
+  * Round 14: Lost to Orange Hills A/G, Orange, CA 75 to 235
+  * Round 15: Won against Fond du Lac A/G, Fond du Lac, WI 155 to 30
+  * Round 16: Won against Fossil Creek A/G, Fort Worth, TX 110 to 105
+  * Round 17: Won against King's Chapel, Springfield, MO 185 to 55
+  * Round 18: Lost to Living Waters Chapel, Lebanon, PA 120 to 135
+  * Round 19: Lost to South Hills A/G, Bethel Park, PA 130 to 155
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1644,32 +1678,33 @@ Round 19: Lost to South Hills A/G, Bethel Park, PA 130 to 155
 *NOTE: We do not have a photo of this team. If you do, please e-mail the admins.*
 
 #### 5th Place
-
-Church:	First A/G, Fort Myers, FL
-Coaches:	Kristine Sobkowiak, Robert Sobkowiak (assistant)
-Team:	Jessica Sobkowiak
-Sara Sobkowiak
+ 
+* **Church**: First A/G, Fort Myers, FL 
+* **Coaches**: Kristine Sobkowiak, Robert Sobkowiak (assistant)
+* **Team**:
+    * Jessica Sobkowiak
+    * Sara Sobkowiak
 Brianna Grantham
 * **Round Robin**:
-Round 1: Won against Southside A/G, Jackson, MS 80 to 75
-Round 2: Lost to Calvary A/G, DeMotte, IN 70 to 115
-Round 3: Won against First A/G, Cedar Rapids, IA 125 to 40
-Round 4: Won against Two Rivers Fellowship, Greeley, CO 175 to 15
-Round 5: Won against Albert Lea A/G, Albert Lea, MN 135 to 0
-Round 6: Lost to Billings A/G, Billings, MO -20 to 180
-Round 7: Lost to Calvary Temple, Indianapolis, IN 60 to 230
-Round 8: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 0 to 140
-Round 9: Lost to First A/G, Hermitage, PA 60 to 140
-Round 10: Lost to Evangel Community Church, Centerville, GA 50 to 55
-Round 11: Lost to Family Worship Center, Murfreesboro, TN -5 to 140
-Round 12: Won against Orange County Worship Center, Santa Ana, CA 125 to 105
-Round 13: Won against First A/G, Helena, MT 100 to 80
-Round 14: Lost to Abundant Life A/G, Grapevine, TX 100 to 120
-Round 15: Won against Bethel Christian Life Center, West Lafayette, IN 130 to 120
-Round 16: Won against Calvary A/G, Toledo, OH 90 to 75
-Round 17: Won against James River A/G, Ozark, MO 100 to 80
-Round 18: Lost to The Oaks Fellowship, Dallas, TX 55 to 245
-Round 19: Won against First A/G, Boulder, MT 250 to 0
+  * Round 1: Won against Southside A/G, Jackson, MS 80 to 75
+  * Round 2: Lost to Calvary A/G, DeMotte, IN 70 to 115
+  * Round 3: Won against First A/G, Cedar Rapids, IA 125 to 40
+  * Round 4: Won against Two Rivers Fellowship, Greeley, CO 175 to 15
+  * Round 5: Won against Albert Lea A/G, Albert Lea, MN 135 to 0
+  * Round 6: Lost to Billings A/G, Billings, MO -20 to 180
+  * Round 7: Lost to Calvary Temple, Indianapolis, IN 60 to 230
+  * Round 8: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 0 to 140
+  * Round 9: Lost to First A/G, Hermitage, PA 60 to 140
+  * Round 10: Lost to Evangel Community Church, Centerville, GA 50 to 55
+  * Round 11: Lost to Family Worship Center, Murfreesboro, TN -5 to 140
+  * Round 12: Won against Orange County Worship Center, Santa Ana, CA 125 to 105
+  * Round 13: Won against First A/G, Helena, MT 100 to 80
+  * Round 14: Lost to Abundant Life A/G, Grapevine, TX 100 to 120
+  * Round 15: Won against Bethel Christian Life Center, West Lafayette, IN 130 to 120
+  * Round 16: Won against Calvary A/G, Toledo, OH 90 to 75
+  * Round 17: Won against James River A/G, Ozark, MO 100 to 80
+  * Round 18: Lost to The Oaks Fellowship, Dallas, TX 55 to 245
+  * Round 19: Won against First A/G, Boulder, MT 250 to 0
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="" html=image_html %}
@@ -1683,32 +1718,33 @@ Round 19: Won against First A/G, Boulder, MT 250 to 0
 *(L-R Back) Patrick Brown, Peter Brown*
 
 #### 1st Place
-
-Church:	Orange Hills A/G, Orange, CA
-Coaches:	Mel Aou, Patrick Brown (assistant)
-Team:	Ricky Haney
-David Dorey
-Peter Brown
+ 
+* **Church**: Orange Hills A/G, Orange, CA 
+* **Coaches**: Mel Aou, Patrick Brown (assistant)
+* **Team**:
+    * Ricky Haney
+    * David Dorey
+    * Peter Brown
 * **Round Robin**:
-Round 1: Won against Braeswood A/G, Houston, TX 185 to 65
-Round 2: Won against Grace A/G, Syracuse, NY 175 to 150
-Round 3: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 230 to 0
-Round 4: Won against Christian Chapel, Tulsa, OK 205 to 35
-Round 5: Won against Fond du Lac A/G, Fond du Lac, WI 220 to 110
-Round 6: Won against Fossil Creek A/G, Fort Worth, TX 205 to 90
-Round 7: Won against King's Chapel, Springfield, MO 250 to 30
-Round 8: Won against Living Waters Chapel, Lebanon, PA 210 to -5
-Round 9: Won against South Hills A/G, Bethel Park, PA 235 to 100
-Round 10: Won against Faith A/G, Orlando, FL 160 to 140
-Round 11: Won against The Church at Briargate, Colorado Springs, CO 195 to 45
-Round 12: Won against Calvary Church, Naperville, IL 255 to 0
-Round 13: Won against Allison Park A/G, Allison Park, PA 235 to 60
-Round 14: Won against Calvary A/G, Dunwoody, GA 235 to 75
-Round 15: Won against First A/G, Ames, IA 165 to 55
-Round 16: Won against Central A/G, Superior, WI 255 to 80
-Round 17: Won against First A/G, Lexington, KY 300 to -15
-Round 18: Won against Tacoma Life Center, Tacoma, WA 185 to 45
-Round 19: Won against Oceanway A/G, Jacksonville, FL 240 to 105
+  * Round 1: Won against Braeswood A/G, Houston, TX 185 to 65
+  * Round 2: Won against Grace A/G, Syracuse, NY 175 to 150
+  * Round 3: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 230 to 0
+  * Round 4: Won against Christian Chapel, Tulsa, OK 205 to 35
+  * Round 5: Won against Fond du Lac A/G, Fond du Lac, WI 220 to 110
+  * Round 6: Won against Fossil Creek A/G, Fort Worth, TX 205 to 90
+  * Round 7: Won against King's Chapel, Springfield, MO 250 to 30
+  * Round 8: Won against Living Waters Chapel, Lebanon, PA 210 to -5
+  * Round 9: Won against South Hills A/G, Bethel Park, PA 235 to 100
+  * Round 10: Won against Faith A/G, Orlando, FL 160 to 140
+  * Round 11: Won against The Church at Briargate, Colorado Springs, CO 195 to 45
+  * Round 12: Won against Calvary Church, Naperville, IL 255 to 0
+  * Round 13: Won against Allison Park A/G, Allison Park, PA 235 to 60
+  * Round 14: Won against Calvary A/G, Dunwoody, GA 235 to 75
+  * Round 15: Won against First A/G, Ames, IA 165 to 55
+  * Round 16: Won against Central A/G, Superior, WI 255 to 80
+  * Round 17: Won against First A/G, Lexington, KY 300 to -15
+  * Round 18: Won against Tacoma Life Center, Tacoma, WA 185 to 45
+  * Round 19: Won against Oceanway A/G, Jacksonville, FL 240 to 105
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1720,35 +1756,36 @@ Round 19: Won against Oceanway A/G, Jacksonville, FL 240 to 105
 *(L-R Back) Ryan Popineau, Janelle Schneider, [NAME WITHHELD], Phil Steiger*
 
 #### 2nd Place
-
-Church:	The Church at Briargate, Colorado Springs, CO
-Coaches:	Phil Steiger, Heather Steiger (assistant)
-Team:	Mary Pace
-Janelle Schneider
-Ryan Popineau
-Molly Pace
-[NAME WITHHELD]
-Ashley Mefford
+ 
+* **Church**: The Church at Briargate, Colorado Springs, CO 
+* **Coaches**: Phil Steiger, Heather Steiger (assistant)
+* **Team**:
+    * Mary Pace
+    * Janelle Schneider
+    * Ryan Popineau
+    * Molly Pace
+    * [NAME WITHHELD]
+    * Ashley Mefford
 * **Round Robin**:
-Round 1: Won against Allison Park A/G, Allison Park, PA 205 to 80
-Round 2: Won against Calvary A/G, Dunwoody, GA 175 to 65
-Round 3: Won against First A/G, Ames, IA 300 to 20
-Round 4: Won against Central A/G, Superior, WI 175 to 40
-Round 5: Lost to First A/G, Lexington, KY 70 to 160
-Round 6: Won against Tacoma Life Center, Tacoma, WA 190 to 15
-Round 7: Lost to Oceanway A/G, Jacksonville, FL 145 to 170
-Round 8: Lost to Braeswood A/G, Houston, TX -10 to 130
-Round 9: Won against Grace A/G, Syracuse, NY 130 to 70
-Round 10: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 145 to 25
-Round 11: Lost to Orange Hills A/G, Orange, CA 45 to 195
-Round 12: Won against Fond du Lac A/G, Fond du Lac, WI 80 to 60
-Round 13: Won against Fossil Creek A/G, Fort Worth, TX 190 to 95
-Round 14: Won against King's Chapel, Springfield, MO 225 to 55
-Round 15: Lost to Living Waters Chapel, Lebanon, PA -35 to 255
-Round 16: Won against South Hills A/G, Bethel Park, PA 165 to 55
-Round 17: Lost to Faith A/G, Orlando, FL 100 to 120
-Round 18: Won against Christian Chapel, Tulsa, OK 160 to 105
-Round 19: Won against Calvary Church, Naperville, IL 190 to 120
+  * Round 1: Won against Allison Park A/G, Allison Park, PA 205 to 80
+  * Round 2: Won against Calvary A/G, Dunwoody, GA 175 to 65
+  * Round 3: Won against First A/G, Ames, IA 300 to 20
+  * Round 4: Won against Central A/G, Superior, WI 175 to 40
+  * Round 5: Lost to First A/G, Lexington, KY 70 to 160
+  * Round 6: Won against Tacoma Life Center, Tacoma, WA 190 to 15
+  * Round 7: Lost to Oceanway A/G, Jacksonville, FL 145 to 170
+  * Round 8: Lost to Braeswood A/G, Houston, TX -10 to 130
+  * Round 9: Won against Grace A/G, Syracuse, NY 130 to 70
+  * Round 10: Won against Cedar Park A/G "Crafty Fellows", Bothell, WA 145 to 25
+  * Round 11: Lost to Orange Hills A/G, Orange, CA 45 to 195
+  * Round 12: Won against Fond du Lac A/G, Fond du Lac, WI 80 to 60
+  * Round 13: Won against Fossil Creek A/G, Fort Worth, TX 190 to 95
+  * Round 14: Won against King's Chapel, Springfield, MO 225 to 55
+  * Round 15: Lost to Living Waters Chapel, Lebanon, PA -35 to 255
+  * Round 16: Won against South Hills A/G, Bethel Park, PA 165 to 55
+  * Round 17: Lost to Faith A/G, Orlando, FL 100 to 120
+  * Round 18: Won against Christian Chapel, Tulsa, OK 160 to 105
+  * Round 19: Won against Calvary Church, Naperville, IL 190 to 120
 Playoff: Won against Christian Chapel, Tulsa, OK
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
@@ -1761,33 +1798,34 @@ Playoff: Won against Christian Chapel, Tulsa, OK
 *(L-R Back) Martha Kuroishi, Irv Kuroishi, Sandy Leonard*
 
 #### 3rd Place
-
-Church:	Orange County Worship Center, Santa Ana, CA
-Coaches:	Irv Kuroishi, Sandy Leonard (assistant), Michael Shenoda (assistant)
-Team:	Moneer Shenoda
-Mariana Shenoda
-Katie Kuroishi
-Cristina Saavedra
+ 
+* **Church**: Orange County Worship Center, Santa Ana, CA 
+* **Coaches**: Irv Kuroishi, Sandy Leonard (assistant), Michael Shenoda (assistant)
+* **Team**:
+    * Moneer Shenoda
+    * Mariana Shenoda
+    * Katie Kuroishi
+    * Cristina Saavedra
 * **Round Robin**:
-Round 1: Won against First A/G, Helena, MT 180 to 20
-Round 2: Won against Abundant Life A/G, Grapevine, TX 210 to 60
-Round 3: Lost to Bethel Christian Life Center, West Lafayette, IN 90 to 180
-Round 4: Lost to Calvary A/G, Toledo, OH 60 to 165
-Round 5: Won against James River A/G, Ozark, MO 120 to 85
-Round 6: Won against The Oaks Fellowship, Dallas, TX 120 to 80
-Round 7: Won against First A/G, Boulder, MT 245 to 10
-Round 8: Won against Southside A/G, Jackson, MS 120 to 40
-Round 9: Lost to Calvary A/G, DeMotte, IN 100 to 140
-Round 10: Won against First A/G, Cedar Rapids, IA 160 to 20
-Round 11: Won against Two Rivers Fellowship, Greeley, CO 205 to 25
-Round 12: Lost to First A/G, Fort Myers, FL 105 to 125
-Round 13: Lost to Billings A/G, Billings, MO 45 to 70
-Round 14: Lost to Calvary Temple, Indianapolis, IN 100 to 165
-Round 15: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 55 to 200
-Round 16: Won against First A/G, Hermitage, PA 90 to 20
-Round 17: Lost to Evangel Community Church, Centerville, GA 45 to 205
-Round 18: Won against Family Worship Center, Murfreesboro, TN 285 to 5
-Round 19: Won against Albert Lea A/G, Albert Lea, MN 195 to 20
+  * Round 1: Won against First A/G, Helena, MT 180 to 20
+  * Round 2: Won against Abundant Life A/G, Grapevine, TX 210 to 60
+  * Round 3: Lost to Bethel Christian Life Center, West Lafayette, IN 90 to 180
+  * Round 4: Lost to Calvary A/G, Toledo, OH 60 to 165
+  * Round 5: Won against James River A/G, Ozark, MO 120 to 85
+  * Round 6: Won against The Oaks Fellowship, Dallas, TX 120 to 80
+  * Round 7: Won against First A/G, Boulder, MT 245 to 10
+  * Round 8: Won against Southside A/G, Jackson, MS 120 to 40
+  * Round 9: Lost to Calvary A/G, DeMotte, IN 100 to 140
+  * Round 10: Won against First A/G, Cedar Rapids, IA 160 to 20
+  * Round 11: Won against Two Rivers Fellowship, Greeley, CO 205 to 25
+  * Round 12: Lost to First A/G, Fort Myers, FL 105 to 125
+  * Round 13: Lost to Billings A/G, Billings, MO 45 to 70
+  * Round 14: Lost to Calvary Temple, Indianapolis, IN 100 to 165
+  * Round 15: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 55 to 200
+  * Round 16: Won against First A/G, Hermitage, PA 90 to 20
+  * Round 17: Lost to Evangel Community Church, Centerville, GA 45 to 205
+  * Round 18: Won against Family Worship Center, Murfreesboro, TN 285 to 5
+  * Round 19: Won against Albert Lea A/G, Albert Lea, MN 195 to 20
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
@@ -1798,31 +1836,32 @@ Round 19: Won against Albert Lea A/G, Albert Lea, MN 195 to 20
 *(L-R) Gary Van Gorp, Micah Van Gorp, Kari Van Gorp, Gary Van Gorp*
 
 #### 4th Place
-
-Church:	Two Rivers Fellowship, Greeley, CO
-Coaches:	Caleb Van Gorp, Gary Van Gorp (assistant)
-Team:	Kari Beth Van Gorp
-Micah Van Gorp
+ 
+* **Church**: Two Rivers Fellowship, Greeley, CO 
+* **Coaches**: Caleb Van Gorp, Gary Van Gorp (assistant)
+* **Team**:
+    * Kari Beth Van Gorp
+    * Micah Van Gorp
 * **Round Robin**:
-Round 1: Lost to Calvary A/G, DeMotte, IN -20 to 165
-Round 2: Lost to First A/G, Cedar Rapids, IA -15 to 40
-Round 3: Won against Albert Lea A/G, Albert Lea, MN 50 to 10
-Round 4: Lost to First A/G, Fort Myers, FL 15 to 175
-Round 5: Lost to Billings A/G, Billings, MO 40 to 200
-Round 6: Lost to Calvary Temple, Indianapolis, IN 90 to 110
-Round 7: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 25 to 285
-Round 8: Lost to First A/G, Hermitage, PA 85 to 90
-Round 9: Lost to Evangel Community Church, Centerville, GA 10 to 130
-Round 10: Lost to Family Worship Center, Murfreesboro, TN 40 to 150
-Round 11: Lost to Orange County Worship Center, Santa Ana, CA 25 to 205
-Round 12: Won against First A/G, Helena, MT 80 to 40
-Round 13: Lost to Abundant Life A/G, Grapevine, TX 15 to 75
-Round 14: Lost to Bethel Christian Life Center, West Lafayette, IN -5 to 125
-Round 15: Lost to Calvary A/G, Toledo, OH 40 to 190
-Round 16: Lost to James River A/G, Ozark, MO 40 to 65
-Round 17: Lost to The Oaks Fellowship, Dallas, TX 30 to 190
-Round 18: Won against First A/G, Boulder, MT 150 to -30
-Round 19: Won against Southside A/G, Jackson, MS 160 to 115
+  * Round 1: Lost to Calvary A/G, DeMotte, IN -20 to 165
+  * Round 2: Lost to First A/G, Cedar Rapids, IA -15 to 40
+  * Round 3: Won against Albert Lea A/G, Albert Lea, MN 50 to 10
+  * Round 4: Lost to First A/G, Fort Myers, FL 15 to 175
+  * Round 5: Lost to Billings A/G, Billings, MO 40 to 200
+  * Round 6: Lost to Calvary Temple, Indianapolis, IN 90 to 110
+  * Round 7: Lost to Cedar Park A/G "So-called Angels", Bothell, WA 25 to 285
+  * Round 8: Lost to First A/G, Hermitage, PA 85 to 90
+  * Round 9: Lost to Evangel Community Church, Centerville, GA 10 to 130
+  * Round 10: Lost to Family Worship Center, Murfreesboro, TN 40 to 150
+  * Round 11: Lost to Orange County Worship Center, Santa Ana, CA 25 to 205
+  * Round 12: Won against First A/G, Helena, MT 80 to 40
+  * Round 13: Lost to Abundant Life A/G, Grapevine, TX 15 to 75
+  * Round 14: Lost to Bethel Christian Life Center, West Lafayette, IN -5 to 125
+  * Round 15: Lost to Calvary A/G, Toledo, OH 40 to 190
+  * Round 16: Lost to James River A/G, Ozark, MO 40 to 65
+  * Round 17: Lost to The Oaks Fellowship, Dallas, TX 30 to 190
+  * Round 18: Won against First A/G, Boulder, MT 150 to -30
+  * Round 19: Won against Southside A/G, Jackson, MS 160 to 115
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
