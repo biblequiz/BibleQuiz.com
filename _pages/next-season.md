@@ -20,3 +20,8 @@ This page will be updated as information becomes available.
 | **TOTAL**     | **540 verses**                | **391 verses**               | **147 verses**       |
 
 *Note: No Romans 16:24 in NLT*
+
+## Application Questions
+
+<a href="{% link assets/2023/23-24 RJ Application Questions.doc %}" class="button is-primary">Application Questions (.doc)</a>
+
