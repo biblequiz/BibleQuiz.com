@@ -502,10 +502,11 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 
 ### North Central Region
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/WI-Superior.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Logan Newman, Naomi Meyer, Hannah Meyer*\
+*(L-R Back) Jeff Sharkey, Jeff Meyer*
 
 #### 1st Place
 
@@ -518,12 +519,13 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Naomi Meyer
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Central A/G, Superior, WI" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/WI-FondDuLac.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jacob Turnage, Andrea Boyer, Ashley Schaalma, Roque Arellano*\
+*(L-R Back) Zach Schaalma, Tyler Turnage*
 
 #### 2nd Place
 
@@ -556,12 +558,13 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
   * Round 19: Won against First A/G, San Angelo, TX 110 to 65
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Fond du Lac A/G, Fond du Lac, WI" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/IA-Ames.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Bekah Regenfuss, Isaac Taylor, Ashley Smith, Crystal Pilcher*\
+*(L-R Back) Gary Pilcher, Rick Regenfuss*
 
 #### 3rd Place
 
@@ -574,12 +577,12 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Isaac Taylor
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Ames, IA" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/MN-Milaca.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Patrice DeGray, Jon DeGray Jr, Christopher DeGray, John DeGray*
 
 #### 4th Place
 
@@ -590,12 +593,13 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * John DeGray Jr.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Milaca A/G, Milaca, MN" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/IA-CedarRapids.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(Team Members) Bill Chew, Brenda May, Rachel May, Katie Graham, Bekay May, Chas Raeside, Ashley Green*\
+*NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 5th Place
 
@@ -609,14 +613,14 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Ashley Green
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Cedar Rapids, IA" html=image_html %}
 
 ### Northeast Region
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/PA-Monroeville.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Chris Morante, Cara Rozgonyi, Lori Rozgonyi*
 
 #### 1st Place
 
@@ -628,12 +632,13 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Cara Rozgonyi
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Monroeville A/G, Monroeville, PA" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/PA-Lebanon.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Katie Chenco, Mary Chenco, Neha Saiya, Dustin Chenco*\
+*(L-R Back) Richie Weitzel, Josh Sholly*
 
 #### 2nd Place
 
@@ -647,12 +652,12 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Richie Weitzel
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Living Waters Chapel, Lebanon, PA" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/PA-BethelPark.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Maggy Barna, C.J. Barna, Seth Johnson, Mark Stasenko, Chris Johnson*
 
 #### 3rd Place
 
@@ -664,12 +669,13 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Mark James Stasenko
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="South Hills A/G, Bethel Park, PA" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/MD-Bowie.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Emily Roberts, Jen Dawson, Becky York, Michael Smoak*\
+*(L-R Back) Sue York, Becky York*
 
 #### 4th Place
 
@@ -682,30 +688,31 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
     * Becky York
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Cornerstone A/G, Bowie, MD" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/PA-SpringCity.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Dave Richmond, Becky Richmond, Aaron Kohler, Patti Sunseri, Jeff Richmond*
 
 #### 5th Place
 
 * **Church**: Grace A/G, Spring City, PA
 * **Coaches**: Aaron Kohler, Becky Richmond (assistant)
-Dave Richmond
-Jeff Richmond
-Patti Sunseri
+* **Team**:
+    * Dave Richmond
+    * Jeff Richmond
+    * Patti Sunseri
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Grace A/G, Spring City, PA" html=image_html %}
 
 ### Northwest Region
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/WA-Bothell.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Zach Moore, Jenny Dworzak, Juliana Born, Natalie Asahara, Kent Kloekforn*
 
 #### 1st Place
 
@@ -718,12 +725,12 @@ Patti Sunseri
     * Zach Moore
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Cedar Park A/G, Bothell, WA" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/WA-Tacoma1.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Rachel Dawson, Jed Gosnell, Richie Nelson, James Watt, Rich Nelson*
 
 #### 2nd Place
 
@@ -735,12 +742,13 @@ Patti Sunseri
     * James Watt
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Tacoma Life Center #1, Tacoma, WA" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/MT-Helena.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(Team Members) Jon Berg, Tamara Grieve, Collins Lawlor, Shannon Maynard, Laine Berge, Danny Sebastian, Raini Way*\
+*NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 3rd Place
 
@@ -754,12 +762,13 @@ Patti Sunseri
     * Raini Way
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Helena, MT" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/WA-Tacoma2.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(Team Members) Dora Lee Langford, Pherrah Gosnell, Stephen Langford, Tirzah Gosnell, Rick Pollen, Blaine Staub*\
+*NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 4th Place
 
@@ -773,14 +782,14 @@ Patti Sunseri
     * Blaine Staub
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Tacoma Life Center #2, Tacoma, WA" html=image_html %}
 
 ### South Central Region
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/TX-FortWorth.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Amanda Pryor, Andrea Pryor, April Pryor, Tammy Pryor*
 
 #### 1st Place
 
@@ -792,12 +801,13 @@ Patti Sunseri
     * Andrea Pryor
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Fossil Creek Community Center, Fort Worth, TX" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/TX-Houston.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Josh Verkerk, Ibukun Akindele, Jared Paige, Albert Osueke*\
+*(L-R Back) Paul Kramer, Emeka Kanu, Janie Garivey*
 
 #### 2nd Place
 
@@ -810,12 +820,12 @@ Patti Sunseri
     * Joshua Verkerk
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Braeswood A/G, Houston, TX" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/TX-SanAngelo.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Nathan Miller, Brittany Smith, Steven Johnson, Zach Sullivan, Eowyn Thompson, John Sullivan*
 
 #### 3rd Place
 
@@ -829,12 +839,13 @@ Patti Sunseri
     * Brittany Miller
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, San Angelo, TX" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/OK-Tulsa.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Bryan Batchelder, Lydia Butay, Abi Duntley, Jacob Batchelder, Grant Good*\
+*(L-R Back) Joel Batchelder, Mark Connor, Caleb Booth*
 
 #### 4th Place
 
@@ -848,12 +859,12 @@ Patti Sunseri
     * Grant Good
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Christian Chapel, Tulsa, OK" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/TX-Orange.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Maris Naylor, Steven Starr, Cody Conway*
 
 #### 5th Place
 
@@ -864,12 +875,13 @@ Patti Sunseri
     * Maris Naylor
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Community Church, Orange, TX" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/TX-Dallas.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Andrea Palmer, Adam Palmer, Michael Pearson, Jeannie Davis*\
+*(L-R Back) Derek Wilson, Kevin Davis*
 
 #### 6th Place
 
@@ -883,14 +895,15 @@ Patti Sunseri
     * Derek Wilson
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="The Oaks Fellowship, Dallas, TX" html=image_html %}
 
 ### Southeast Region
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/GA-Dunwoody.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Joe Fortunato, Brittni Cabero, Gina Fortunato, Brandon Porter*\
+*(L-R Back) John Porter, Seth Sundell, ?????*
 
 #### 1st Place
 
@@ -903,12 +916,13 @@ Patti Sunseri
     * Brittni Cabero
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, Dunwoody, GA" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/FL-Orlando.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Christina Angelakos, Michelle Hart, Mia Angelakos, Angie Berkey*\
+*(L-R Back) Ray Berkey, Kyle Heyne*
 
 #### 2nd Place
 
@@ -922,12 +936,12 @@ Patti Sunseri
     * Kyle Heyne
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Faith A/G, Orlando, FL" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/FL-FortMyers.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Kris Sobkowiak, Krissy Welborn, Sara Sobkowiak, [name removed], Bob Sobkowiak*
 
 #### 3rd Place
 
@@ -939,12 +953,13 @@ Patti Sunseri
     * Krissy Welborn
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Fort Myers, FL" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/NC-Greensboro.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(Team Members) Paul Elliot, Abe Davis, Damon Smith, James Wolter, Luke Davis*\
+*NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 4th Place
 
@@ -956,12 +971,13 @@ Patti Sunseri
     * Luke Davis
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary Church A/G, Greensboro, NC" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/GA-Snellville.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(Team Members) Mark Gilmer, Susan Parr, Andrew Newport, Mackenzie McKay, Carolina Parr*\
+*NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 5th Place
 
@@ -973,14 +989,14 @@ Patti Sunseri
     * Carolina Parr
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Evangel Community Church, Snellville, GA" html=image_html %}
 
 ### Southwest Region
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/CA-Orange.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Mariana Shenoda, Peter Brown, David Dorey, Greg House*
 
 #### 1st Place
 
@@ -992,12 +1008,13 @@ Patti Sunseri
     * Mariana Shenoda
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Orange Hills A/G, Orange, CA" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/CO-ColoradoSprings.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Ashley Mefford, Mary Pace, Molly Pace, Michelle Stevens, Janelle Schneider*\
+*(L-R Back) Phil Steiger, Heather Steiger*
 
 #### 2nd Place
 
@@ -1011,12 +1028,13 @@ Patti Sunseri
     * Janelle Schneider
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="The Church at Briargate, Colorado Springs, CO" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/AZ-Mesa.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(Team Members) Patty Eastin, Stoney Ratliff (assistant), Trevor Eastin, Cameron Eastin, Brandyn Shepherd, Gabby Geesey, Ryan Osugi*\
+*NOTE: We would like to be able to match names with faces, contact the admins.*
 
 #### 3rd Place
 
@@ -1030,12 +1048,12 @@ Patti Sunseri
     * Gabby Geesey
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Red Mountain Christian Center, Mesa, AZ" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/CO-Greeley.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Faith van Gorp, Kari van Gorp, Micah van Gorp, Caleb van Gorp*
 
 #### 4th Place
 
@@ -1047,12 +1065,13 @@ Patti Sunseri
     * Faith Van Gorp
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Two Rivers Fellowship, Greeley, CO" html=image_html %}
 
-{% capture image_url %}{% link assets/2003/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2003/CA-SantaAna.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Katie Kuroishi, Jonathan Falkey, James Pryor*\
+*(L-R Back) Martha Kuroishi, Ron Pryer*
 
 #### 5th Place
 
@@ -1064,7 +1083,7 @@ Patti Sunseri
     * James Pryer
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Orange County Worship Center, Santa Ana, CA" html=image_html %}
 
 ## Memories
 * [Tyler Turnage]({% link _pages/history/2003/memories/tyler-turnage.md %})
