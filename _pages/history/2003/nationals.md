@@ -12,7 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-![]({% link assets/2003/BigGroup.png %})
+![]({% link assets/2003/BigGroup.jpg %})
 
 The 41st National Bible Quiz Finals took place July 6-11, 2003 in Houston, TX at Braeswood Assembly of God covering the gospel of John. Bernie Elliot was the National Coordinator and Mel Aou, Kent Piacenti and Tim Bahra were the official question writers. This was the fourth year in which the official writing team wrote questions.
 

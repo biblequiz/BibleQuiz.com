@@ -17,8 +17,8 @@ menubar_toc_static:
 The following recollections were written by Tyler Turnage, third high scorer at the 2003 National Finals. These are also the only round-by-round results we have.
 
 **Round 1: Vs. Dallas, TX**\
-We dropped our opener to Dallas, who was captained by Michael Pearson. He was the #1 quizzer over Luke 2 years before, and I think that because of that, I had already conceded mentally that we probably wouldn't win (not a good way to quiz!). We proceeded to lose, with Michael quizzing out with 140, and I quizzed out with 135.
-Final: Dallas, TX 195- Fond du Lac, WI 155. Record: 0-1
+We dropped our opener to Dallas, who was captained by Michael Pearson. He was the #1 quizzer over Luke 2 years before, and I think that because of that, I had already conceded mentally that we probably wouldn't win (not a good way to quiz!). We proceeded to lose, with Michael quizzing out with 140, and I quizzed out with 135.\
+*Final: Dallas, TX 195- Fond du Lac, WI 155. Record: 0-1*
 
 **Round 2: Vs. Fort Myers, FL**\
 We won our second game, no thanks to me. Their 1st chair beat me in on the 8 Part Answer "The word 'Jewish' is used to describe what", which was one of my favorite questions. The second 30 of the match was "18 Part Answer. Jesus..." at which point I slammed my buzzer. I'm not sure if I was thinking "Jesus is named in which chapters" (which was dumb in and of itself, considering John has 21 chapters!), but it was way too early, and I couldn't think of a thing. It turned out to be "Jesus made which exclamations", which I didn't know. I proceeded to quiz out backwards with 60, but my teammate, Zach Schaalma, quizzed out with 80 points to give us the match.\
@@ -38,7 +38,7 @@ Ames was one of 3 teams in our region to make it to the Championship division th
 
 **Round 6: Vs. Monroeville, PA**\
 We didn't do so well this round. On question 3, the game turned drastically. The score was 10-0, them, before question 3, which was a 30. Their 1st chair missed it, and I picked up the reread, giving us a 30 to -5 lead. But then they contested the validity of the question, and it was thrown out. The sub was a 3 Part Ref. Quotation Question, 4 Part Answer, asking for the verses with the phrases "other side of the Jordan", "other side of the lake" and "other side of the Kidron Valley". I knew all the verses, but hadn't actually studied for that particular question. I hit it with a word or two left in the question, didn't finish it in time, and turned it over. Their first chair got it, and we were down 40 to -15. We never recovered, and I wound up going out backwards with 45.\
-Final: Monroeville, PA 195- Fond du Lac 80 Record: 3-3
+*Final: Monroeville, PA 195- Fond du Lac 80 Record: 3-3*
 
 **Round 7: Vs. Murfreesboro, TN**\
 This was the best round I ever had in National round robin play. I quizzed out with 150 points, my highest total in a non-prelim national match. When I look back, I don't mind that I didn't get a 160 (which was a perfect game at that time), because the other team beat me in on the first 30, and I didn't know it any way.\
@@ -57,7 +57,7 @@ First rounds of the day have always been my worst. Wednesday's opening round pro
 *Final: Fond du Lac, WI 85-East Lansing, MI 15 Record: 6-4*
 
 **Round 11: Vs. Lebanon, PA**\
-This is another match for which I don't really have any recollections. Probably has something to do with the fact that I didn't do well and we dropped the match. For those keeping score at home, I went out backwards for the 4th time, with 50.
+This is another match for which I don't really have any recollections. Probably has something to do with the fact that I didn't do well and we dropped the match. For those keeping score at home, I went out backwards for the 4th time, with 50.\
 *Final: Lebanon, PA 185- Fond du Lac, WI 55 Record : 6-5*
 
 **Round 12: Vs. (Braeswood) Houston, TX**\

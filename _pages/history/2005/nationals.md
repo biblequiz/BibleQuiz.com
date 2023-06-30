@@ -440,7 +440,8 @@ Photos are provided courtesy of Larry Mullins.
 {% capture image_url %}{% link assets/2005/KY-Lexington2.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*(L-R Front) Matt Trumble, Audra Buckel, Kara Laufenburger, Kathryn Ormsbee, Josiah Durham (L-R Back) Gretchen Black, Jeremy White, Bill Reinig*
+*(L-R Front) Matt Trumble, Audra Buckel, Kara Laufenburger, Kathryn Ormsbee, Josiah Durham*\
+*(L-R Back) Gretchen Black, Jeremy White, Bill Reinig*
 
 #### 4th Place
 
@@ -579,7 +580,7 @@ Photos are provided courtesy of Larry Mullins.
 {% capture image_url %}{% link assets/2005/MO-Ozark1.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*(L-R Front) April Pryor, Blake Porter*
+*(L-R Front) April Pryor, Blake Porter*\
 *(L-R Back) John Porter, Brandon Porter*
 
 #### 1st Place
@@ -1609,7 +1610,7 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against James River, "Light", Ozark, MO 125 to 80
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Harvest A/G, Fort Worth, TX" html=image_html %}
 
 {% capture image_url %}{% link assets/2005/TX-SanAngelo.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -1972,7 +1973,7 @@ Photos are provided courtesy of Larry Mullins.
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="The Church at Briargate #1, Colorado Springs, CO" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/CA-SantaAna.jpg %}{% endcapture %}
 {% capture image_html %}
 
 *(L-R Front) James Pryer, Mary Pryer, Jessica Lynch, Jonathan Barthuly*\
@@ -2017,7 +2018,7 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to First Pentecostal A/G, Ottumwa, IA 25 to 100
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Orange County Worship Center, Santa Ana, CA" html=image_html %}
 
 {% capture image_url %}{% link assets/2005/CO-Aurora.jpg %}{% endcapture %}
 {% capture image_html %}
