@@ -305,10 +305,10 @@ Photos are provided courtesy of Larry Mullins.
 
 ### Great Lakes Region
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/IN-Indianapolis.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Pam Whitehead, Emily Whitehead, Brittanica Chesser, Brian Lewis, Rhonda Chesser, Dwight Chesser*
 
 #### 1st Place
 
@@ -340,12 +340,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to Braeswood A/G, Houston, TX 15 to 215
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary Temple, Indianapolis, IN" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/KY-Lexington1.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Dave White, Jon Galliers, Kendra White, Molly Deitrich, Micah Buckel, Venessa Buckel*
 
 #### 2nd Place
 
@@ -387,12 +387,13 @@ Photos are provided courtesy of Larry Mullins.
   * Playoff: Lost to Cedar Park A/G, "Fast and Furious", Bothell, WA
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G #1, Lexington, KY" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/OH-Toledo.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Bryce Steel, Jackie Thompson, Brandy Steel, Bailey Steel, David Thigpen*\
+*(L-R Back) Andrew Darmakish, Brian Steel*
 
 #### 3rd Place
 
@@ -434,12 +435,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to Crossway Church, Valencia, PA 50 to 205
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, Toledo, OH" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/KY-Lexington2.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Matt Trumble, Audra Buckel, Kara Laufenburger, Kathryn Ormsbee, Josiah Durham (L-R Back) Gretchen Black, Jeremy White, Bill Reinig*
 
 #### 4th Place
 
@@ -481,12 +482,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to Grace A/G, Spring City, PA 20 to 185
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G #2, Lexington, KY" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/IN-Elkhart.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) John Hunter, CJ Hock, Katie Randolph, Ruth Kinyua, Aamod Samuel, Brian Boeninger*
 
 #### 5th Place
 
@@ -527,12 +528,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against First A/G, Montgomery, AL 140 to 40
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, Elkhart, IN" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/OH-NewPhiladelphia.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) John Angelis, Eric Everett, Lisa Everett, Sandy Everett*
 
 #### 6th Place
 
@@ -571,14 +572,15 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against Oceanway A/G, Jacksonville, FL 155 to 45
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, New Philadelphia, OH" html=image_html %}
 
 ### Gulf Region
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/MO-Ozark1.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) April Pryor, Blake Porter*
+*(L-R Back) John Porter, Brandon Porter*
 
 #### 1st Place
 
@@ -610,12 +612,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against Tacoma Life Center, Tacoma, WA 250 to 5
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="James River A/G, 'Salt', Ozark, MO" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/MO-Nixa.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Josh Slater, Nancy Slater, Nathan Tuttle, Patience Tuttle, Michael Lilienthal*
 
 #### 2nd Place
 
@@ -657,12 +659,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against Galena A/G, Galena, KS 135 to 90
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Nixa A/G, Nixa, MO" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/MO-Ozark2.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Brittany Porter, Laramie Mitchell, Amanda Pryor*\
+*(L-R Back) Tammy Pryor, Laura Virnig*
 
 #### 3rd Place
 
@@ -702,12 +705,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to Harvest A/G, Fort Worth, TX 80 to 125
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="James River A/G, 'Light', Ozark, MO" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/TN-Dickson.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Christen Willis, Debra Bardin, Angelina Bardin*
 
 #### 4th Place
 
@@ -746,14 +749,14 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to First A/G, Helena, MT 60 to 195
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Dickson, TN" html=image_html %}
 
 ### North Central Region
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/WI-Superior.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Steve Sharkey, Logan Newman, Bethany Laakkonen, Spencer Newman, Sara Sharkey*
 
 #### 1st Place
 
@@ -785,12 +788,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to Calvary A/G, Dunwoody, GA 60 to 160
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Central A/G, Superior, WI" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/ND-Ellendale.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Scott Townsend, Jesse Stanley, Tyler Peterson, Erica Smith, Rose Bennett*
 
 #### 2nd Place
 
@@ -830,12 +833,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against Grace A/G, Syracuse, NY 95 to 35
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="New Life A/G, Ellendale, ND" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/ND-WatfordCity.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Weston Melby, Mackenzie Melby, Nick Mulder, Titus Stenberg*\
+*(L-R Back) Sandra Ragains, Charles Ragains*
 
 #### 3rd Place
 
@@ -876,12 +880,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to Kennebunk Christian A/G, Kennebunk, ME 70 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Watford City A/G, Watford City, ND" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/WI-EauClaire.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Charles Hanson, Jessi Gravelle, Miranda Haberberg, Dannielle Goodrich, Elizabeth Hanson*
 
 #### 4th Place
 
@@ -921,12 +925,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to The Church at Briargate, "Innocent Doves", Colorado Springs, CO 10 to 155
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Evangel A/G, Eau Claire, WI" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/IA-Ottumwa.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Cameron Tilus, Ryan Tilus, Sally Epp, Lindy Tilus*\
+*(L-R Back) Josh Miller, Rick Rustad, George Edgerly*
 
 #### 5th Place
 
@@ -969,14 +974,15 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against Orange County Worship Center, Santa Ana, CA 100 to 25
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First Pentecostal A/G, Ottumwa, IA" html=image_html %}
 
 ### Northeast Region
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/PA-Valencia.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Elyssa DeFazio, Katrina Martin*\
+*(L-R Back) Brennen DeFazio, Jason Martin, CJ Barna*
 
 #### 1st Place
 
@@ -1008,12 +1014,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against Calvary A/G, Toledo, OH 205 to 50
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Crossway Church, Valencia, PA" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/PA-SpringCity.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jeff Richmond, Maribeth Rentsschler, Patti Sunseri, Sarah Hahn, Dave Richmond*\
+*(L-R Back) Mary Chenco, Katie Chenco*
 
 #### 2nd Place
 
@@ -1054,12 +1061,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against First A/G #2, Lexington, KY 185 to 20
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Grace A/G, Spring City, PA" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/NY-Williamsville.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Kourtni Wyatt, Hillari Wyatt, Jordan Zych*\
+*(L-R Back) Brandon Zych, Erin Grow, Brian Brow*
 
 #### 3rd Place
 
@@ -1101,12 +1109,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against Aurora First A/G, Aurora, CO 135 to 65
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Evangel A/G, Williamsville, NY" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/MD-Elkton.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Kaela Norman, Hannah Franklin, Kyle Thorp, Lauren Thorp, Jasmine, Thorp*\
+*(L-R Back) Joan Thorp, Beth Franklin*
 
 #### 4th Place
 
@@ -1148,12 +1157,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against First A/G, Lexington, NC 170 to 20
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Elkton, MD" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/ME-Kennebunk.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Stephanie Laine, Michael Laine, Jessica Laine*\
+*(L-R Back) Rebecca Laine, Rebekah Nivala, Elaine Laine*
 
 #### 5th Place
 
@@ -1194,12 +1204,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against Watford City A/G, Watford City, ND 110 to 70
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Kennebunk Christian A/G, Kennebunk, ME" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/NY-Syracuse.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Joshua Siddall, Amy Semple, Amy Siddall, John Nardozzi*
 
 #### 6th Place
 
@@ -1240,14 +1250,14 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to New Life A/G, Ellendale, ND 35 to 95
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Grace A/G, Syracuse, NY" html=image_html %}
 
 ### Northwest Region
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/WA-Bothell1.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Brandon Duffy, Jenny Dworzak, Natalie Asahara, Naomi Meyer, Kent Kloekkorn*
 
 #### 1st Place
 
@@ -1279,12 +1289,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against First A/G, San Angelo, TX 185 to 45
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Cedar Park A/G, 'Fast and Furious', Bothell, WA" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/MT-Helena.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Laine Berg, Shannon Maynard, Raini Way*\
+*(L-R Back) Candra Berg, Sandy Berg, Jon Berg, Collins Lawylor*
 
 #### 2nd Place
 
@@ -1326,12 +1337,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against First A/G, Dickson, TN 195 to 60
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Helena, MT" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/WA-Bothell2.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Lauryn Duffy, Jenna-Jo Duffy, Hillary Kunnanz, Brittany Asahara*\
+*(L-R Back) Kari Brodin, Michael Smoak, Kristi Brodin*
 
 #### 3rd Place
 
@@ -1373,12 +1385,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to First A/G #1, Lexington, KY 135 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Cedar Park A/G, 'Ferocious', Bothell, WA" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/WA-Tacoma.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Pherrah Gosnell, Tirzah Gosnell*\
+*(L-R Back) Rich Nelson, Stephen Langford, JP O'Connor, Chris Teeny*
 
 #### 4th Place
 
@@ -1420,14 +1433,14 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to James River A/G, "Salt", Ozark, MO 5 to 250
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Tacoma Life Center, Tacoma, WA" html=image_html %}
 
 ### South Central Region
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/KS-Galena.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Travis Crusa, Brandie Crusa, Christine McKibben, Sasha Hosfelt, Jason Gisi*
 
 #### 1st Place
 
@@ -1459,12 +1472,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to Nixa A/G, Nixa, MO 90 to 135
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Galena A/G, Galena, KS" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/TX-ChristianTemple.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Josh Forsman, Brianna Forsman, Adam Forsman, Andrea Forsman*\
+*(L-R Back) Bryan Wootton, Mike Forsman*
 
 #### 2nd Place
 
@@ -1505,12 +1519,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against Faith A/G, Orlando, FL 130 to 125
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Christian Temple, Houston, TX" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/TX-Braeswood.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Beulah Osueke, Janie Garivey, Ngozi Nwabaduke*\
+*(L-R Back) Taiwo Masha, Emeka Kanu, Paul Kramer, Jared Paige*
 
 #### 3rd Place
 
@@ -1550,12 +1565,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against Calvary Temple, Indianapolis, IN 215 to 15
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Braeswood A/G, Houston, TX" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/TX-FortWorth.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Gilda Shorter, Jennifer Welborn, Megan Welborn, Sandra Hines*
 
 #### 4th Place
 
@@ -1596,10 +1611,10 @@ Photos are provided courtesy of Larry Mullins.
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/TX-SanAngelo.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) John Sullivan, Nathan Miller, Steven Johnson, Eowyn Thompson, Zach Sullivan*
 
 #### 5th Place
 
@@ -1639,14 +1654,14 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to Cedar Park A/G, "Fast and Furious", Bothell, WA 45 to 185
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, San Angelo, TX" html=image_html %}
 
 ### Southeast Region
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/GA-Dunwoody.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Rhett Laurens, Eric Ferreira, James Lex, Eddy Ferreira, Rob Laurens*
 
 #### 1st Place
 
@@ -1679,12 +1694,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Won against Central A/G, Superior, WI 160 to 60
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, Dunwoody, GA" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/FL-Orlando.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jared Burkhalter, Kelsey Heyne, Aryka Turner, Christina Simpson*\
+*(L-R Back) Ray Berkey, Angie Berkey*
 
 #### 2nd Place
 
@@ -1726,12 +1742,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to Christian Temple, Houston, TX 125 to 130
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Faith A/G, Orlando, FL" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/FL-Jacksonville.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Bobby Strickland, Chad Crawford, Andrew Leigh, Kyle Shaw, Kathy Strickland*
 
 #### 3rd Place
 
@@ -1771,12 +1787,13 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to First A/G, New Philadelphia, OH 45 to 155
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Oceanway A/G, Jacksonville, FL" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/AL-Montgomery.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Hannah Kelley, Bobby Kirkpatrick, Madison Hall, Amberly Kirkpatrick, Hillary Kelley, Morgan Cooper*\
+*(L-R Back) Daniel Mims, YeVonda Hall, Kathy Kirkpatrick, Krystal Mims*
 
 #### 4th Place
 
@@ -1819,12 +1836,12 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to Calvary A/G, Elkhart, IN 40 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Montgomery, AL" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/NC-Lexington.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(Team Members) Vernon Richmeier, Anita Richmeier, Jennifer Leonard, Misty Leonard, Brandon Lowery, Brittany Richmeier, Gabrielle Richmeier*
 
 #### 5th Place
 
@@ -1866,14 +1883,15 @@ Photos are provided courtesy of Larry Mullins.
   * Round 19: Lost to First A/G, Elkton, MD 20 to 170
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Lexington, NC" html=image_html %}
 
 ### Southwest Region
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/CO-ColoradoSprings2.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jacob Dwire, Molly Pace, PJ Grigg*\
+*(L-R Back) Heather Lind, Eric Lind*
 
 #### 1st Place
 
@@ -1883,8 +1901,6 @@ Photos are provided courtesy of Larry Mullins.
     * PJ Grigg
     * Jacob Dwire
     * Molly Pace
-* **Preliminaries**:
-TODO_PRELIM
 * **Round Robin**:
   * Round 1: Lost to First A/G, San Angelo, TX 55 to 190
   * Round 2: Won against Christian Temple, Houston, TX 140 to 95
@@ -1907,12 +1923,13 @@ TODO_PRELIM
   * Round 19: Won against The Church at Briargate #1, Colorado Springs, CO 165 to 115
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="The Church at Briargate, 'Shrewd Snakes', Colorado Springs, CO" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/CO-ColoradoSprings1.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Michael Rose, Andrew Kelley, Courtney Popineau, Andrew LaValley*\
+*(L-R Back) Greg House, David Dorey, Jordan Schneider*
 
 #### 2nd Place
 
@@ -1953,12 +1970,13 @@ TODO_PRELIM
   * Round 19: Lost to The Church at Briargate, "Shrewd Snakes", Colorado Springs, CO 115 to 165
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="The Church at Briargate #1, Colorado Springs, CO" html=image_html %}
 
 {% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) James Pryer, Mary Pryer, Jessica Lynch, Jonathan Barthuly*\
+*(L-R Back) Irv Kuroishi, Bonnie Barthuly*
 
 #### 3rd Place
 
@@ -2001,10 +2019,11 @@ TODO_PRELIM
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/CO-Aurora.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Kristi Schubert, Scott Reyes, John Callon, Bethany Williams, Ana Callon*\
+*(L-R Back) Irv Kuroishi, Bonnie Barthuly*
 
 #### 4th Place
 
@@ -2045,12 +2064,13 @@ TODO_PRELIM
   * Round 19: Lost to Evangel A/G, Williamsville, NY 65 to 135
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Aurora First A/G, Aurora, CO" html=image_html %}
 
-{% capture image_url %}{% link assets/2005/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2005/CO-ColoradoSprings3.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Caitlin Pace, Jenna Rock, Leah Dwire*\
+*(L-R Back) Mary Pace, Cindy Mefford*
 
 #### 5th Place
 
@@ -2091,4 +2111,4 @@ TODO_PRELIM
   * Round 19: Won against Evangel A/G, Eau Claire, WI 155 to 10
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="The Church at Briargate, 'Innocent Doves', Colorado Springs, CO" html=image_html %}
