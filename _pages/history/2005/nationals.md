@@ -2112,3 +2112,93 @@ Photos are provided courtesy of Larry Mullins.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="The Church at Briargate, 'Innocent Doves', Colorado Springs, CO" html=image_html %}
+
+## Adult
+
+### Veteran Division (Matthew 1 - 8)
+
+#### Teams
+
+| Rank | Team                            | Record | Total |
+| ---: | ------------------------------- | ------ | ----: |
+|    1 | Marvelous in Our Eyes           | 7 / 0  |  1425 |
+|    2 | Great Lakes, Good Quizzers      | 5 / 2  |  1110 |
+|    3 | Yes, Yes and No, No             | 4 / 3  |  1240 |
+|    4 | Lord, Save Us                   | 4 / 3  |   985 |
+|    5 | Furious Storm                   | 4 / 3  |   755 |
+|    6 | The Good, the Bad, and the Ugly | 3 / 4  |   735 |
+|    7 | Wehttam                         | 1 / 6  |   315 |
+|    8 | Strained Gnats                  | 0 / 7  |   520 |
+
+#### Individuals
+
+| Rank | Quizzer          | Team                            | Total |   QO |
+| ---: | ---------------- | ------------------------------- | ----: | ---: |
+|    1 | John Sullivan    | Marvelous in Our Eyes           |   870 |      |
+|    2 | John Angelis     | Great Lakes, Good Quizzers      |   720 |      |
+|    3 | Richard Ely      | Yes, Yes and No, No             |   615 |      |
+|    4 | Sharon Ely       | Yes, Yes and No, No             |   475 |      |
+|    5 | Jimmy Sedam      | Furious Storm                   |   475 |      |
+|    6 | Mark Connor      | Lord, Save Us                   |   405 |      |
+|    7 | Gilda Shorter    | Lord, Save Us                   |   400 |      |
+|    8 | Mark Whitehead   | Great Lakes, Good Quizzers      |   390 |      |
+|    9 | Jeremy White     | Strained Gnats                  |   390 |      |
+|   10 | Dave Richmond    | The Good, the Bad, and the Ugly |   350 |      |
+|   11 | Emeka Kanu       | Marvelous in Our Eyes           |   300 |      |
+|   12 | Zachary Sullivan | Marvelous in Our Eyes           |   255 |      |
+|   13 | Dayla Shorter    | Lord, Save Us                   |   210 |      |
+|   14 | Aaron Kohler     | The Good, the Bad, and the Ugly |   205 |      |
+|   15 | Matthew Teal     | Furious Storm                   |   205 |      |
+|   16 | Charles Ragains  | Wehttam                         |   190 |      |
+|   17 | Katie Chenco     | The Good, the Bad, and the Ugly |   190 |      |
+|   18 | Janet Fukuda     | Yes, Yes and No, No             |   165 |      |
+|   19 | Krista Buckel    | Strained Gnats                  |   110 |      |
+|   20 | Jody Osborne     | Wehttam                         |   110 |      |
+|   21 | Bethany Brodbeck | Furious Storm                   |    65 |      |
+|   22 | Bill Reinig      | Strained Gnats                  |    15 |      |
+|   23 | Jenny Thompson   | Furious Storm                   |    10 |      |
+|   24 | Sandy Ragains    | Wehttam                         |     5 |      |
+|   25 | Jessie Galliers  | Strained Gnats                  |     0 |      |
+|   26 | Bobbie Ragains   | Wehttam                         |     0 |      |
+|   27 | Paul Kramer      | Marvelous in Our Eyes           |     0 |      |
+|   28 | Carolyn Ely      | Yes, Yes and No, No             |   -15 |      |
+
+### Novice Division (Matthew 5 - 7)
+
+#### Teams
+
+| Rank | Team                | Record | Total |
+| ---: | ------------------- | ------ | ----: |
+|    1 | Today's Trouble     | 5 / 1  |   805 |
+|    2 | Good Fruit          | 4 / 2  |   520 |
+|    3 | Giving to the Needy | 4 / 2  |   565 |
+|    4 | The Merciful        | 4 / 2  |   650 |
+|    5 | Moth and Rust       | 3 / 3  |   705 |
+|    6 | Birdsboro           | 1 / 5  |   480 |
+|    7 | The Salty Seekers   | 0 / 6  |   245 |
+
+#### Individuals
+
+| Rank | Quizzer           | Team                | Total |   QO |
+| ---: | ----------------- | ------------------- | ----: | ---: |
+|    1 | Deanna Reisinger  | Today's Trouble     |   535 |      |
+|    2 | Jeff Meyer        | Giving to the Needy |   455 |      |
+|    3 | Don Jones         | Moth and Rust       |   430 |      |
+|    4 | Kate Green        | Birdsboro           |   410 |      |
+|    5 | Beth Abbot        | Moth and Rust       |   385 |      |
+|    6 | John Nardozzi     | The Merciful        |   330 |    3 |
+|    7 | Penny Frownfelter | Good Fruit          |   330 |    2 |
+|    8 | Sue Green         | The Merciful        |   320 |      |
+|    9 | Becky Richmond    | The Salty Seekers   |   190 |      |
+|   10 | Angie Miller      | Good Fruit          |   185 |      |
+|   11 | Elaine Laine      | Today's Trouble     |   135 |      |
+|   12 | Rick Reisinger    | Today's Trouble     |   135 |      |
+|   13 | Bill Laakkonen    | Giving to the Needy |   105 |      |
+|   14 | Sam Fain          | The Salty Seekers   |    60 |      |
+|   15 | Jill Beal         | Birdsboro           |    40 |      |
+|   16 | Steve Beal        | Birdsboro           |    30 |      |
+|   17 | Steve Sharkey     | Giving to the Needy |    15 |      |
+|   18 | Mayrene Hertzler  | Good Fruit          |     5 |      |
+|   19 | Bonnie Inman      | The Salty Seekers   |     0 |      |
+|   20 | Rose Gainey       | The Merciful        |     0 |      |
+|   21 | Anne Shawver      | The Merciful        |     0 |      |
