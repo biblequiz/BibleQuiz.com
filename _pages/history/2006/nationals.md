@@ -167,6 +167,8 @@ The individual tournament was won by Brandon Duffy of Bothell, WA. The quoting b
 |   19 | Deer Lodge A/G, Deer Lodge, MT                                       | 3 / 16 |  1525 |  80.26 |  -1075 |     -56.43 |
 |   20 | Raleigh A/G, Memphis, TN                                             | 3 / 16 |  1290 |  67.89 |  -1390 |     -73.85 |
 
+\* Won in Playoff
+
 ### Individuals
 
 |     Rank | Quizzer             | Church                      | Total |   Avg | QO Fwd | QO Back |
