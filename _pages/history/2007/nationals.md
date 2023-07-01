@@ -1201,7 +1201,7 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 
 ### Northwest Region
 
-{% capture image_url %}{% link assets/2007/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2007/WA-Bothell.jpg %}{% endcapture %}
 {% capture image_html %}
 
 *(L-R Front) Brandon Duffy, Heather Karnes, Jenna-Jo Duffy*\
@@ -1396,10 +1396,10 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Kuna Life Church, Kuna, ID" html=image_html %}
 
-{% capture image_url %}{% link assets/2007/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2007/OR-Nyssa.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*(L-R Front) Darren Larsen, Melissa Larsen, Angie Larsen*
+*(L-R Front) Darren Larsen, Melissa Larsen, Angie Larsen*\
 *(L-R Back) Dale Larsen, ?, ?*
 
 #### 5th Place
@@ -1594,7 +1594,7 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 {% capture image_url %}{% link assets/2007/TX-Houston.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*(L-R) Adam Forsman, Andrea Forsman, Andrew Forsman, Mike Forsman, Brianna Forsman, Josh Forsman*
+*(L-R) Adam Forsman, Andrea Forsman, Andrew Forsman, Mike Forsman, Brianna Forsman, Josh Forsman*\
 *(L-R Back) Tom Ferguson, Liz Moellering, Tom Moellering*
 
 #### 4th Place
