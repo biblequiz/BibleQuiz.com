@@ -24,10 +24,7 @@ This marks the second consecutive and fifth overall year in which the South Cent
 
 The top scorer at the 2009 National Finals was Jared Burkhalter from Orlando, FL. Jared's per quiz average was 115.79. Second high scorer, James Lex from Acworth, GA quizzed out in all but two games. Also with a notable finish was Abby Rogers from Wesley Chapel, FL. Abby was a sixth grader who, only one month earlier, was also the top scorer at JBQ national finals. Also breaking 100 points per game was Brandon Duffy of Bothell, WA.
 
-The individual tournament was won by Daniel Wagner of Owasso, OK. This was the ninth time the individual tournament was won by a member of the national championship team. Also of note here is that Josh, Jesse and Daniel Wagner competed against each other in one of the semi-final matches. The quoting bee was won by Hannah Swanson of Grand Island, NE. The west won the East-West quiz (video available in the "memories" section), winning their 10th of 11 east-west quizzes. The boys won the Boy-Girl quiz winning their 4th of 5 boy-girl quizzes
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4JvDGd_WJc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+The individual tournament was won by Daniel Wagner of Owasso, OK. This was the ninth time the individual tournament was won by a member of the national championship team. Also of note here is that Josh, Jesse and Daniel Wagner competed against each other in one of the semi-final matches. The quoting bee was won by Hannah Swanson of Grand Island, NE. The west won the East-West quiz, winning their 10th of 11 east-west quizzes. The boys won the Boy-Girl quiz winning their 4th of 5 boy-girl quizzes.
 
 ## Championship Division
 
@@ -245,3 +242,8 @@ The individual tournament was won by Daniel Wagner of Owasso, OK. This was the n
 | 64       | Jordan Bowen      | Fort Lupton, CO               | 10   | 0.53   | 0   |
 | 64       | Amy Beckberger    | Palos Heights, IL             | 10   | 0.53   | 0   |
 | 64       | Austin Wolf       | Palos Heights, IL             | 10   | 0.53   | 0   |
+
+## Memories
+
+{% include youtube.html
+   video="4JvDGd_WJc0" %}
