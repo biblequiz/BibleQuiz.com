@@ -24,5 +24,3 @@ gallery_static:
       description: The image description
       ratio: is-4by3
 ---
-
-TODO -- add officials pictures
