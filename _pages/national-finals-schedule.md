@@ -3,8 +3,6 @@ layout: page
 permalink: /national-finals-schedule/
 title: "2023 National Finals Schedule"
 date: "2023-05-29"
-menubar: menu_current_season
-
 ---
 
 <a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
