@@ -245,5 +245,25 @@ The individual tournament was won by Daniel Wagner of Owasso, OK. This was the n
 
 ## Memories
 
+### Stories
+* [Daniel Wagner]({% link _pages/history/2009/memories/daniel-wagner.md %})
+* [Jesse Wagner]({% link _pages/history/2009/memories/jesse-wagner.md %})
+
+### Pictures
+
+Team images may be purchased from Larry Mullins. Following 2010 national finals, these images will become available on this site.
+
+* [Quizzers, Adults, Matches, and Banquet]({% link _pages/history/2009/memories/all-pictures.md %})
+* [Officials in each quiz room]({% link _pages/history/2009/memories/officials-pictures.md %})
+
+### Videos
+
+#### Summary
+
 {% include youtube.html
    video="4JvDGd_WJc0" %}
+
+#### East vs. West
+
+{% include youtube.html
+   video="ABLKXdOK0cs" %}
