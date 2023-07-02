@@ -10,14 +10,6 @@ menubar: menu_current_season
 <a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
 
 
-## Saturday, July 1
-
-| Time           | Description                                                                                                   |
-| -------------- | ------------------------------------------------------------------------------------------------------------- |
-| 5:00-7:00 p.m. | Team & Officials Registration<br />*(Bring Quiz Sets at this time, marked with Church Name, City, and State)* |
-| 7:15 p.m.      | First Time Coaches to National Finals Mtg. *(Location TBA at Registration)*                                   |
-| 8:00 p.m.      | Ice Cream Fellowship                                                                                          |
-
 ## Sunday, July 2
 
 | Time       | Description          |
@@ -105,3 +97,14 @@ menubar: menu_current_season
 *Note: Any additional evening meetings will be announced during the morning services.*
 
 <a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
+
+---
+
+
+## Saturday, July 1
+
+| Time           | Description                                                                                                   |
+| -------------- | ------------------------------------------------------------------------------------------------------------- |
+| 5:00-7:00 p.m. | Team & Officials Registration<br />*(Bring Quiz Sets at this time, marked with Church Name, City, and State)* |
+| 7:15 p.m.      | First Time Coaches to National Finals Mtg. *(Location TBA at Registration)*                                   |
+| 8:00 p.m.      | Ice Cream Fellowship                                                                                          |
