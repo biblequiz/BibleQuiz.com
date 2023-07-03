@@ -15,7 +15,7 @@ After receiving feedback from the Coaches, Officials, and Quizzers again after D
 ## Conferring
 Only the quizzer whose answer is ruled incorrect may request permission to Confer for thirty seconds with their team members who are at the table, along with their head coach, and the Scripture Portion following any necessary rereading of the question. If two quizzers from opposing teams are both ruled incorrect, both may receive permission to Confer at the same time, and both head coaches may participate. 
 
-*NOTE: If a head coach calls for a contest at any point during a match—including after conferring with their team—a 5-point team foul will be assessed. (See [page 10 of the Rules](https://biblequiz.com/assets/2022/22-23-BQ-Rules.pdf): Team Fouls, No. 2)*
+*NOTE: If a head coach calls for a contest at any point during a match——including after a confer with their team——a 5-point team foul will be assessed. (See [page 10 of the Rules](https://biblequiz.com/assets/2022/22-23-BQ-Rules.pdf): Team Fouls, No. 2)*
 
 ## Timekeeping
 When a team initiates a contest, the timekeeper will first set a 30-second timer. 
