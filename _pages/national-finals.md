@@ -10,11 +10,11 @@ menubar: menu_current_season
 ![]({% link assets/2023/stl-hotel-promo.jpg %})
 
 
-## Schedule
-
-July 1-7, 2023
 
 <a href="{% link _pages/national-finals-schedule.md %}" class="button is-primary">Full Event Schedule</a>
+
+<a href="{% link _pages/live-events.md %}" class="button is-primary">Live Stats</a>
+
 
 ---
 
