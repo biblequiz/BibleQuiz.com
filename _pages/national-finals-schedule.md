@@ -8,16 +8,6 @@ date: "2023-05-29"
 <a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
 
 
-## Sunday, July 2
-
-| Time       | Description          |
-| ---------- | -------------------- |
-| 9:40 a.m.  | Prayer               |
-| 10:00 a.m. | Service              |
-| 11:45 a.m. | Quoting Bee          |
-| 12:30 p.m. | Senior Shoot-out     |
-| 8:00 p.m.  | Officials Assignment |
-
 ## Monday, July 3
 
 | Time       | Description               |
@@ -98,6 +88,8 @@ date: "2023-05-29"
 
 ---
 
+# Past Days
+
 
 ## Saturday, July 1
 
@@ -106,3 +98,14 @@ date: "2023-05-29"
 | 5:00-7:00 p.m. | Team & Officials Registration<br />*(Bring Quiz Sets at this time, marked with Church Name, City, and State)* |
 | 7:15 p.m.      | First Time Coaches to National Finals Mtg. *(Location TBA at Registration)*                                   |
 | 8:00 p.m.      | Ice Cream Fellowship                                                                                          |
+
+
+## Sunday, July 2
+
+| Time       | Description          |
+| ---------- | -------------------- |
+| 9:40 a.m.  | Prayer               |
+| 10:00 a.m. | Service              |
+| 11:45 a.m. | Quoting Bee          |
+| 12:30 p.m. | Senior Shoot-out     |
+| 8:00 p.m.  | Officials Assignment |
