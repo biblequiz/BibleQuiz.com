@@ -9,9 +9,11 @@ menubar: menu_current_season
 
 ![]({% link assets/2023/stl-hotel-promo.jpg %})
 
-
+## Schedule and Stats
 
 <a href="{% link _pages/national-finals-schedule.md %}" class="button is-primary">Full Event Schedule</a>
+
+<a href="{% link _assets/2023/2023-Prelim-Schedules.pdf %}" class="button is-primary">Prelim Schedules by team, room, and round (PDF)</a>
 
 <a href="{% link _pages/live-events.md %}" class="button is-primary">Live Stats</a>
 
