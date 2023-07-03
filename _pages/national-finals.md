@@ -17,7 +17,6 @@ menubar: menu_current_season
 
 <a href="{% link _pages/live-events.md %}" class="button is-primary">Live Stats</a>
 
-
 ---
 
 ## Venue
