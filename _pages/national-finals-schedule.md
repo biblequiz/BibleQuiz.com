@@ -7,24 +7,6 @@ date: "2023-05-29"
 
 <a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
 
-
-## Monday, July 3
-
-| Time       | Description               |
-| ---------- | ------------------------- |
-| 8:15 a.m.  | Prayer                    |
-| 8:30 a.m.  | Worship                   |
-| 9:15 a.m.  | Round 1 Bracketed Play    |
-| 10:00 a.m. | Round 2                   |
-| 10:45 a.m. | Round 3                   |
-| 11:30 a.m. | Round 4                   |
-| 12:15 p.m. | Round 5                   |
-| 1:00 p.m.  | Lunch                     |
-| 1:45 p.m.  | Round 6                   |
-| 2:30 p.m.  | Round 7                   |
-| 3:15 p.m.  | Playoffs off if necessary |
-
-
 ## Tuesday, July 4
 
 | Time           | Description                       |
@@ -109,3 +91,19 @@ date: "2023-05-29"
 | 11:45 a.m. | Quoting Bee          |
 | 12:30 p.m. | Senior Shoot-out     |
 | 8:00 p.m.  | Officials Assignment |
+
+## Monday, July 3
+
+| Time       | Description               |
+| ---------- | ------------------------- |
+| 8:15 a.m.  | Prayer                    |
+| 8:30 a.m.  | Worship                   |
+| 9:15 a.m.  | Round 1 Bracketed Play    |
+| 10:00 a.m. | Round 2                   |
+| 10:45 a.m. | Round 3                   |
+| 11:30 a.m. | Round 4                   |
+| 12:15 p.m. | Round 5                   |
+| 1:00 p.m.  | Lunch                     |
+| 1:45 p.m.  | Round 6                   |
+| 2:30 p.m.  | Round 7                   |
+| 3:15 p.m.  | Playoffs off if necessary |

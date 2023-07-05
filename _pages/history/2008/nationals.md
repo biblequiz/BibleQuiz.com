@@ -303,10 +303,11 @@ Team photos are provided courtesy of Larry Mullins.
 
 ### Great Lakes Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/OH-Brunswick.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) John McGillis, Katie Randolph, Ian McGillis, Lisa Everett*\
+*(L-R Back) Sandy Everett, Barbara Randolph, Scott McGillis*
 
 #### 1st Place
 
@@ -348,12 +349,13 @@ Round 18: Lost to Victorious Life Church, Wesley Chapel, FL 80 to 105
 Round 19: Won against New Life Community Church, Oshkosh, WI 135 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Harvest Time A/G, Brunswick, OH" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/KY-Lexington.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Nathaniel Winckler, Rebekah Kelley, Elaine Walker*\
+*(L-R Back) Katie Brandewie, Karen White*
 
 #### 2nd Place
 
@@ -395,12 +397,13 @@ Round 18: Lost to Tacoma Life Center, Tacoma, WA 55 to 250
 Round 19: Lost to First A/G, Binghamton, NY 90 to 230
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Lexington, KY" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/OH-BowlingGreen.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Marshall Kobylyski, Jeremy Albrecht, Ryan Albrecht, Joel Facer*\
+*(L-R Back) Vicky Albrecht, Jeff Albrecht, Scott Estep, Matt Valentine*
 
 #### 3rd Place
 
@@ -444,12 +447,13 @@ Round 18: Lost to Tacoma Life Center, Tacoma, WA 55 to 250
 Round 19: Lost to First A/G, Binghamton, NY 90 to 230
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Dayspring A/G, Bowling Green, OH" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/IN-Lafayette.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Tasha Vickerman, Spencer Walters, Deb Vickerman*\
+*(L-R Back) Taylor Vickerman, Scott Walters*
 
 #### 4th Place
 
@@ -490,12 +494,13 @@ Round 18: Won against The Church at Briargate, "Children of the Desolate Woman",
 Round 19: Lost to Calvary A/G, South Bend, IN 140 to 155
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Lafayette, IN" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/IN-SouthBend.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) CJ Hock, Kirstin Durfey, Ethan Hock*\
+*(L-R Back) Nilay Saiya's Nametag, Brian Boeninger*
 
 #### 5th Place
 
@@ -537,14 +542,15 @@ Round 18: Won against First A/G, Montgomery, AL 175 to 90
 Round 19: Won against First A/G, Lafayette, IN 155 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, South Bend, IN" html=image_html %}
 
 ### Gulf Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/MO-JamesRiver1.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Colin Knoth, Brittany Porter, Blake Porter, Justin Napper*\
+*(L-R Back) John Porter, Seth Sundell*
 
 #### 1st Place
 
@@ -586,12 +592,12 @@ Round 18: Won against Orange County Worship Center, Santa Ana, CA 230 to 105
 Round 19: Won against Northridge A/G, Grand Island, NE 270 to 55
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="James River A/G, 'One in Christ', Ozark, MO" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/LA-Slidell.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Kourtni Wyatt, Jacob Wyatt, Hillari Wyatt, Karina Wyatt*
 
 #### 2nd Place
 
@@ -634,12 +640,13 @@ Round 18: Won against Christian Temple, Houston, TX 180 to 15
 Round 19: Lost to Braeswood A/G, Houston, TX 45 to 135
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Journey Fellowship Church, Slidell, LA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/MO-WestPlains.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jeremiah George, Heather Murdy, Joshua George, Brandon Collins*\
+*(L-R Back) Jonathan George, Sarah George, Dora Cole, Karan Bhargava*
 
 #### 3rd Place
 
@@ -683,12 +690,13 @@ Round 18: Lost to Cedar Park A/G, Bothell, WA 65 to 255
 Round 19: Won against Orange County Worship Center, Santa Ana, CA 125 to 75
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Faith A/G, West Plains, MO" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/MO-Springfield.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Brianna Riley, Matthew Klika*\
+*(L-R Back) Richard Fair*
 
 #### 4th Place
 
@@ -729,12 +737,13 @@ Round 18: Lost to Turning Point Christian Center, Vancouver, WA 85 to 115
 Round 19: Won against Truth A/G, Chariton, IA 110 to 70
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Central A/G, Springfield, MO" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/MO-JamesRiver2.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Josh Napper, Danielle Brozovich, Whitney Garrison, Joe Dean*\
+*(L-R Back) Paula Porter, Mark Porter*
 
 #### 5th Place
 
@@ -777,14 +786,15 @@ Round 18: Lost to Grace A/G, Syracuse, NY 15 to 190
 Round 19: Won against Timberline Church, Fort Collins, CO 225 to 15
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="James River A/G, 'In Chains', Ozark, MO" html=image_html %}
 
 ### North Central Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/WI-Oshkosh.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Daniel Kober, David Kober, Nathan Kober, Caleb Turnage*\
+*(L-R Back) Tyler Turnage, Justin Strachen*
 
 #### 1st Place
 
@@ -826,12 +836,13 @@ Round 18: Won against Suncoast Cathedral A/G, St. Petersburg, FL 205 to 75
 Round 19: Lost to Harvest Time A/G, Brunswick, OH 110 to 135
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="New Life Community Church, Oshkosh, WI" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/WI-Portage.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Naomi Turner, Seth Turner, Alex Firari*\
+*(L-R Back) Josh Turner, Judy Turner, Don Batty*
 
 #### 2nd Place
 
@@ -873,12 +884,12 @@ Round 18: Lost to Owasso First A/G, Owasso, OK 55 to 230
 Round 19: Lost to Faith A/G, Orlando, FL 95 to 220
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="CrossPoint A/G, Portage, WI" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/IA-Chariton.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Ed Sornberger, Amanda Snider, Jonathan Plank, Loren Plank*
 
 #### 3rd Place
 
@@ -918,12 +929,12 @@ Round 18: Won against Timberline Church, Fort Collins, CO 85 to 70
 Round 19: Lost to Central A/G, Springfield, MO 70 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Truth A/G, Chariton, IA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/IA-Corydon.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Greg Colegrove, Donovan Colegrove, Devon Colegrove, Rachelle Colegrove*
 
 #### 4th Place
 
@@ -964,12 +975,13 @@ Round 18: Lost to Nyssa Christian Fellowship, Nyssa, OR 105 to 140
 Round 19: Lost to Suncoast Cathedral A/G, St. Petersburg, FL 90 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Corydon A/G, Corydon, IA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/NE-GrandIsland.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jacob Harris, Tori Beye, Hannah Swanson, Sally Epp, Andric Hofrichter*\
+*(L-R Back) Aaron Beye, Linda Parker, ????, Carol Swanson, Paul Hofrichter*
 
 #### 5th Place
 
@@ -1013,14 +1025,15 @@ Round 18: Lost to Journey Church, Bridgeville, PA 80 to 200
 Round 19: Lost to James River A/G, "One in Christ", Ozark, MO 55 to 270
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Northridge A/G, Grand Island, NE" html=image_html %}
 
 ### Northeast Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/VA-Bristow.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Lindsey Brower, Catherine Hains, Samantha Smith, Cara Brower*\
+*(L-R Back) Darlene Brower, Sahar Smith, Vivian Hains*
 
 #### 1st Place
 
@@ -1031,7 +1044,15 @@ Lindsey Brower
 Samantha Smith
 Catherine Hains
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 145 to 130
+Round 2: Won against James River A/G, "In Chains", Ozark, MO 175 to 40
+Round 3: Won against Nyssa Christian Fellowship, Nyssa, OR 150 to 60
+Round 4: Won against Victorious Life Church, Wesley Chapel, FL 205 to 35
+Round 5: Won against Timberline Church, Fort Collins, CO 285 to 15
+Round 6: Won against Corydon A/G, Corydon, IA 165 to 95
+Round 7: Won against Christian Temple, Houston, TX 195 to 50
+Round 8: Lost to Praise A/G, Garfield, NJ 40 to 200
+Round 9: Won against Journey Fellowship Church, Slidell, LA 75 to 60
 * **Round Robin**:
 Round 1: Lost to CrossPoint A/G, Portage, WI 150 to 175
 Round 2: Lost to Cedar Park A/G, Bothell, WA 70 to 220
@@ -1054,12 +1075,13 @@ Round 18: Lost to Christian Chapel, Tulsa, OK 45 to 185
 Round 19: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 150 to 165
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Manassas A/G, Bristow, VA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/NY-Binghamton.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) LaJoie Ward, Victoria Myrick, Stephanie Karluk, Corina Scarinzi, Isaac Ward*\
+*(L-R Back) John Karluk, Hank Ward, Annette Ward*
 
 #### 2nd Place
 
@@ -1072,7 +1094,15 @@ John Karluk
 Stephanie Karluk
 Corina Scarinzi
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against Orange Hills A/G, Orange, CA 170 to 105
+Round 2: Won against Tacoma Life Center, Tacoma, WA 160 to 130
+Round 3: Won against Noble A/G, Noble, OK 215 to 135
+Round 4: Won against Truth A/G, Chariton, IA 145 to 75
+Round 5: Lost to Calvary A/G, South Bend, IN 130 to 230
+Round 6: Won against Faith A/G, West Plains, MO 120 to 100
+Round 7: Won against First A/G, Lafayette, IN 110 to 20
+Round 8: Won against Braeswood A/G, Houston, TX 215 to 95
+Round 9: Lost to Faith A/G, Orlando, FL -10 to 260
 * **Round Robin**:
 Round 1: Won against Christian Chapel, Tulsa, OK 225 to 50
 Round 2: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 135 to 180
@@ -1095,12 +1125,13 @@ Round 18: Lost to Dayspring A/G, Bowling Green, OH 85 to 130
 Round 19: Won against First A/G, Lexington, KY 230 to 90
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Binghamton, NY" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/NJ-Garfield.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Kyler Sederwall, Benji Songsong, Jacob Dipini, Justin Czubkowski*\
+*(L-R Back) Tammy Yukon, Alex Cheski, Jesse Czubkowski*
 
 #### 3rd Place
 
@@ -1113,7 +1144,15 @@ Alex Cheski
 Kyler Sederwall
 Benji Songsong
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against Nyssa Christian Fellowship, Nyssa, OR 140 to 95
+Round 2: Won against Christian Temple, Houston, TX 135 to 120
+Round 3: Won against James River A/G, "In Chains", Ozark, MO 125 to 20
+Round 4: Won against Timberline Church, Fort Collins, CO 215 to 5
+Round 5: Won against Corydon A/G, Corydon, IA 325 to 20
+Round 6: Won against Journey Fellowship Church, Slidell, LA 120 to 85
+Round 7: Won against Victorious Life Church, Wesley Chapel, FL 185 to 35
+Round 8: Won against Manassas A/G, Bristow, VA 200 to 40
+Round 9: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 155 to 95
 * **Round Robin**:
 Round 1: Won against Journey Fellowship Church, Slidell, LA 220 to 105
 Round 2: Won against Dayspring A/G, Bowling Green, OH 145 to 140
@@ -1136,12 +1175,13 @@ Round 18: Lost to Braeswood A/G, Houston, TX 105 to 150
 Round 19: Won against Journey Church, Bridgeville, PA 150 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Praise A/G, Garfield, NJ" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/NY-Syracuse.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jared Siddall, Amy Siddall, Brandon Rhynders*\
+*(L-R Back) John Nardozzi, Randy Rhynders*
 
 #### 4th Place
 
@@ -1151,7 +1191,15 @@ Team:	Brandon Rhynders
 Amy Siddall
 Jared Siddall
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Lost to Suncoast Cathedral A/G, Saint Petersburg, FL 100 to 180
+Round 2: Lost to Christian Chapel, Tulsa, OK 110 to 130
+Round 3: Lost to New Life Community Church, Oshkosh, WI 115 to 120
+Round 4: Won against First A/G, Lexington, KY 130 to 45
+Round 5: Lost to First A/G, Montgomery, AL 130 to 150
+Round 6: Lost to James River A/G, "One in Christ", Ozark, MO 40 to 175
+Round 7: Lost to Cedar Park A/G, Bothell, WA -15 to 205
+Round 8: Won against Turning Point Christian Center, Vancouver, WA 135 to 115
+Round 9: Won against Journey Church, Bridgeville, PA 160 to 60
 * **Round Robin**:
 Round 1: Lost to Calvary A/G, South Bend, IN 65 to 190
 Round 2: Won against Meridian A/G, Meridian, ID 135 to 115
@@ -1174,12 +1222,12 @@ Round 18: Won against James River A/G, "In Chains", Ozark, MO 190 to 15
 Round 19: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 120 to 85
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Grace A/G, Syracuse, NY" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/PA-Bridgeville.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Nora Warnock, Grant Warnock, Jessica Sikes, David Warnock, Shane Warnock, Nancy Sikes*
 
 #### 5th Place
 
@@ -1189,7 +1237,15 @@ Team:	Jessica Sikes
 Grant Warnock
 Shane Warnock
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against Turning Point Christian Center, Vancouver, WA 190 to 100
+Round 2: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 175 to 50
+Round 3: Lost to First A/G, Lexington, KY 165 to 190
+Round 4: Lost to James River A/G, "One in Christ", Ozark, MO 70 to 205
+Round 5: Won against New Life Community Church, Oshkosh, WI 170 to 140
+Round 6: Won against Christian Chapel, Tulsa, OK 115 to 100
+Round 7: Won against First A/G, Montgomery, AL 165 to 130
+Round 8: Lost to Cedar Park A/G, Bothell, WA 45 to 310
+Round 9: Lost to Grace A/G, Syracuse, NY 60 to 160
 * **Round Robin**:
 Round 1: Lost to James River A/G, "One in Christ", Ozark, MO 35 to 325
 Round 2: Lost to Journey Fellowship Church, Slidell, LA 45 to 145
@@ -1212,14 +1268,15 @@ Round 18: Won against Northridge A/G, Grand Island, NE 200 to 80
 Round 19: Lost to Praise A/G, Garfield, NJ 140 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Journey Church, Bridgeville, PA" html=image_html %}
 
 ### Northwest Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/WA-Tacoma.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Rachel Holley, JP O'Connor, Mikayla Irle*\
+*(L-R Back) Rachel Dawson, Chris Teeny, Rich Nelson, Kathy Holley*
 
 #### 1st Place
 
@@ -1229,7 +1286,16 @@ Team:	Rachel Holley
 Mikayla Irle
 J.P. O'Connor
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Lost to Faith A/G, Orlando, FL 150 to 195
+Round 2: Lost to First A/G, Binghamton, NY 130 to 160
+Round 3: Lost to First A/G, Lafayette, IN 105 to 185
+Round 4: Won against Calvary A/G, South Bend, IN 200 to 105
+Round 5: Won against Braeswood A/G, Houston, TX 240 to 55
+Round 6: Won against Orange Hills A/G, Orange, CA 190 to 50
+Round 7: Won against Noble A/G, Noble, OK 160 to 65
+Round 8: Won against Truth A/G, Chariton, IA 300 to 15
+Round 9: Lost to Faith A/G, West Plains, MO 65 to 135
+Playoff Round 1: Won against Orange Hills A/G, Orange, CA
 * **Round Robin**:
 Round 1: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 95 to 205
 Round 2: Lost to CrossPoint A/G, Portage, WI 90 to 110
@@ -1252,12 +1318,13 @@ Round 18: Won against First A/G, Lexington, KY 250 to 55
 Round 19: Lost to Christian Chapel, Tulsa, OK 110 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Tacoma Life Center, Tacoma, WA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/WA-Bothell.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Nathan Mori, Jenna-Jo Duffy, Heather Karnes, Brandon Duffy*\
+*(L-R Back) Kristi Brodin, Hillary Kunnanz, Kari Brodin*
 
 #### 2nd Place
 
@@ -1268,7 +1335,15 @@ Jenna-Jo Duffy
 Heather Karnes
 Nathan Mori
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Lost to First A/G, Lexington, KY 130 to 195
+Round 2: Won against New Life Community Church, Oshkosh, WI 430 to -60
+Round 3: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 235 to 95
+Round 4: Won against Christian Chapel, Tulsa, OK 275 to 25
+Round 5: Won against Turning Point Christian Center, Vancouver, WA 215 to 135
+Round 6: Won against First A/G, Montgomery, AL 315 to 20
+Round 7: Won against Grace A/G, Syracuse, NY 205 to -15
+Round 8: Won against Journey Church, Bridgeville, PA 310 to 45
+Round 9: Won against James River A/G, "One in Christ", Ozark, MO 235 to 140
 * **Round Robin**:
 Round 1: Lost to Faith A/G, Orlando, FL 160 to 165
 Round 2: Won against Manassas A/G, Bristow, VA 220 to 70
@@ -1291,12 +1366,13 @@ Round 18: Won against Faith A/G, West Plains, MO 255 to 65
 Round 19: Lost to Owasso First A/G, Owasso, OK 170 to 180
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Cedar Park A/G, Bothell, WA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/OR-Nyssa.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Angie Larson, Melissa Larson, Darren Larson, Jeep Larson*\
+*(L-R Back) Dale Larson, ????*
 
 #### 3rd Place
 
@@ -1306,7 +1382,15 @@ Team:	Angie Larsen
 Melissa Larsen
 Darren Larsen
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Lost to Praise A/G, Garfield, NJ 95 to 140
+Round 2: Lost to Corydon A/G, Corydon, IA 125 to 150
+Round 3: Lost to Manassas A/G, Bristow, VA 60 to 150
+Round 4: Lost to Journey Fellowship Church, Slidell, LA 80 to 120
+Round 5: Lost to Christian Temple, Houston, TX 100 to 135
+Round 6: Won against Victorious Life Church, Wesley Chapel, FL 225 to 15
+Round 7: Lost to James River A/G, "In Chains", Ozark, MO 65 to 165
+Round 8: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 30 to 260
+Round 9: Won against Timberline Church, Fort Collins, CO 140 to 35
 * **Round Robin**:
 Round 1: Lost to Orange Hills A/G, Orange, CA 130 to 135
 Round 2: Won against First A/G, Montgomery, AL 150 to 100
@@ -1329,12 +1413,12 @@ Round 18: Won against Corydon A/G, Corydon, IA 140 to 105
 Round 19: Lost to Calvary A/G, Dunwoody, GA 30 to 165
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Nyssa Christian Fellowship, Nyssa, OR" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/ID-Meridian.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Vicky Jensen, Ivy Jensen, Link Patrick, Ashley Carter, Bryce Jensen*
 
 #### 4th Place
 
@@ -1344,7 +1428,17 @@ Team:	Ashley Carter
 Ivy Jensen
 Link Patrick
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against Central A/G, Springfield, MO 135 to 130
+Round 2: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 105 to 90
+Round 3: Lost to Calvary A/G, Dunwoody, GA 145 to 210
+Round 4: Lost to Orange County Worship Center, Santa Ana, CA 55 to 170
+Round 5: Lost to Owasso First A/G, Owasso, OK 25 to 240
+Round 6: Lost to Norhtridge A/G, Grand Island, NE 20 to 195
+Round 7: Won against Harvest Time A/G, Brunswick, OH 45 to 40
+Round 8: Lost to CrossPoint A/G, Portage, WI 35 to 220
+Round 9: Lost to Dayspring A/G, Bowling Green, OH 130 to 135
+Playoff Round 1: Won against Central A/G, Springfield, MO
+Playoff Round 2: Lost to Dayspring A/G, Bowling Green, OH
 * **Round Robin**:
 Round 1: Lost to First A/G, Lafayette, IN 50 to 195
 Round 2: Lost to Grace A/G, Syracuse, NY 115 to 135
@@ -1367,12 +1461,12 @@ Round 18: Won against Orange Hills A/G, Orange, CA 170 to 5
 Round 19: Lost to First A/G, Montgomery, AL 90 to 100
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Meridian A/G, Meridian, ID" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/WA-Vancouver.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Michaela Lenior, Ruth Spicer, Flyn Spicer, Cecily Spicer, Kurt Spicer*
 
 #### 5th Place
 
@@ -1382,7 +1476,15 @@ Team:	Ruth Spicer
 Cecily Spicer
 Flynn Spicer
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Lost to Journey Church, Bridgeville, PA 100 to 190
+Round 2: Lost to James River A/G, "One in Christ", Ozark, MO 45 to 175
+Round 3: Won against First A/G, Montgomery, AL 170 to 100
+Round 4: Lost to New Life Community Church, Oshkosh, WI 75 to 85
+Round 5: Lost to Cedar Park A/G, Bothell, WA 135 to 215
+Round 6: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 175 to 95
+Round 7: Lost to Christian Chapel, Tulsa, OK 10 to 125
+Round 8: Lost to Grace A/G, Syracuse, NY 115 to 135
+Round 9: Lost to First A/G, Lexington, KY 20 to 170
 * **Round Robin**:
 Round 1: Lost to Harvest Time A/G, Brunswick, OH 65 to 155
 Round 2: Won against Truth A/G, Chariton, IA 185 to 120
@@ -1405,14 +1507,15 @@ Round 18: Won against Central A/G, Springfield, MO 115 to 85
 Round 19: Lost to Victorious Life Church, Wesley Chapel, FL 100 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Turning Point Christian Center, Vancouver, WA" html=image_html %}
 
 ### South Central Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/OK-Owasso.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jesse Wagner, Rachel Firestone, Daniel Wagner, Joshua Wagner*\
+*John Melberg, Nicole Wagner, Kevin Wagner*
 
 #### 1st Place
 
@@ -1423,7 +1526,15 @@ Daniel Wagner
 Jesse Wagner
 Joshua Wagner
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against Harvest Time A/G, Brunswick, OH 255 to 95
+Round 2: Won against Norhtridge A/G, Grand Island, NE 295 to 35
+Round 3: Won against Dayspring A/G, Bowling Green, OH 240 to 65
+Round 4: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 245 to 45
+Round 5: Won against Meridian A/G, Meridian, ID 240 to 25
+Round 6: Won against Central A/G, Springfield, MO 285 to 10
+Round 7: Won against CrossPoint A/G, Portage, WI 260 to -5
+Round 8: Won against Orange County Worship Center, Santa Ana, CA 255 to 95
+Round 9: Won against Calvary A/G, Dunwoody, GA 300 to 30
 * **Round Robin**:
 Round 1: Won against Orange County Worship Center, Santa Ana, CA 255 to 100
 Round 2: Won against Northridge A/G, Grand Island, NE 250 to 0
@@ -1446,12 +1557,13 @@ Round 18: Won against CrossPoint A/G, Portage, WI 230 to 55
 Round 19: Won against Cedar Park A/G, Bothell, WA 180 to 170
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Owasso First A/G, Owasso, OK" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/TX-ChristianTemple.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Andrew Forsman, Brianna Forsman, Sean Pyle*\
+*(L-R Back) Adam Forsman, Josh Pyle, Mike Forsman, Joshua Forsman*
 
 #### 2nd Place
 
@@ -1464,7 +1576,15 @@ Joshua Forsman
 Josh Pyle
 Sean Pyle
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against Journey Fellowship Church, Slidell, LA 130 to 80
+Round 2: Lost to Praise A/G, Garfield, NJ 120 to 135
+Round 3: Won against Victorious Life Church, Wesley Chapel, FL 130 to 40
+Round 4: Won against Corydon A/G, Corydon, IA 160 to 110
+Round 5: Won against Nyssa Christian Fellowship, Nyssa, OR 135 to 100
+Round 6: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 55 to 220
+Round 7: Lost to Manassas A/G, Bristow, VA 50 to 195
+Round 8: Won against Timberline Church, Fort Collins, CO 215 to 20
+Round 9: Won against James River A/G, "In Chains", Ozark, MO 150 to 145
 * **Round Robin**:
 Round 1: Lost to First A/G, Lexington, KY 110 to 210
 Round 2: Won against Christian Chapel, Tulsa, OK 235 to 10
@@ -1487,12 +1607,13 @@ Round 18: Lost to Journey Fellowship Church, Slidell, LA 15 to 180
 Round 19: Won against Dayspring A/G, Bowling Green, OH 80 to 70
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Christian Temple, Houston, TX" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/OK-Tulsa.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) James Craig, Alyssa Batchelder, Michelle Paulson, Matthew Woods*\
+*(L-R Back) Bryan Turner, Mark Connor*
 
 #### 3rd Place
 
@@ -1503,7 +1624,15 @@ James Craig
 Michelle Paulson
 Matthew Woods
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against First A/G, Montgomery, AL 215 to -25
+Round 2: Won against Grace A/G, Syracuse, NY 130 to 110
+Round 3: Lost to James River A/G, "One in Christ", Ozark, MO 25 to 330
+Round 4: Lost to Cedar Park A/G, Bothell, WA 25 to 275
+Round 5: Lost to First A/G, Lexington, KY 145 to 190
+Round 6: Lost to Journey Church, Bridgeville, PA 100 to 115
+Round 7: Won against Turning Point Christian Center, Vancouver, WA 125 to 10
+Round 8: Won against New Life Community Church, Oshkosh, WI 170 to 70
+Round 9: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 210 to -10
 * **Round Robin**:
 Round 1: Lost to First A/G, Binghamton, NY 50 to 225
 Round 2: Lost to Christian Temple, Houston, TX 10 to 235
@@ -1526,12 +1655,12 @@ Round 18: Won against Manassas A/G, Bristow, VA 185 to 45
 Round 19: Won against Tacoma Life Center, Tacoma, WA 150 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Christian Chapel, Tulsa, OK" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/OK-Noble.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Cameron Smith, Cheri Smith, Ice Strickland, Mallorie Ramsey, Anthony Davis*
 
 #### 4th Place
 
@@ -1541,7 +1670,15 @@ Team:	Anthony Davis
 Mallorie Ramsey
 Cameron Smith
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against First A/G, Lafayette, IN 160 to 65
+Round 2: Lost to Braeswood A/G, Houston, TX 30 to 160
+Round 3: Lost to First A/G, Binghamton, NY 135 to 215
+Round 4: Lost to Faith A/G, West Plains, MO 105 to 115
+Round 5: Lost to Faith A/G, Orlando, FL 125 to 165
+Round 6: Won against Calvary A/G, South Bend, IN 140 to 120
+Round 7: Lost to Tacoma Life Center, Tacoma, WA 65 to 160
+Round 8: Lost to Orange Hills A/G, Orange, CA 110 to 125
+Round 9: Won against Truth A/G, Chariton, IA 100 to 30
 * **Round Robin**:
 Round 2: Lost to First A/G, Lafayette, IN 15 to 225
 Round 3: Won against Grace A/G, Syracuse, NY 120 to 60
@@ -1563,12 +1700,13 @@ Round 18: Won against Calvary A/G, Dunwoody, GA 150 to 90
 Round 19: Won against Orange Hills A/G, Orange, CA 160 to 130
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Noble A/G, Noble, OK" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/TX-Braeswood.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Josh Echebiri, Obi Kpando, Shola Anifowose, Roysan, Easo*\
+*(L-R Back) Paul Kramer, Aaron Collins, John Kramer, Cassandra Paige*
 
 #### 5th Place
 
@@ -1580,7 +1718,16 @@ Unwana Ekpa
 Obi Kpando
 Shola Anifowose
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against Calvary A/G, South Bend, IN 135 to 65
+Round 2: Won against Noble A/G, Noble, OK 160 to 30
+Round 3: Lost to Orange Hills A/G, Orange, CA 100 to 155
+Round 4: Won against Faith A/G, Orlando, FL 210 to 150
+Round 5: Lost to Tacoma Life Center, Tacoma, WA 55 to 240
+Round 6: Won against Truth A/G, Chariton, IA 245 to 70
+Round 7: Won against Faith A/G, West Plains, MO 180 to 75
+Round 8: Lost to First A/G, Binghamton, NY 95 to 215
+Round 9: Lost to First A/G, Lafayette, IN 30 to 120
+Playoff Round 1: Won against Calvary A/G, South Bend, IN
 * **Round Robin**:
 Round 1: Lost to Dayspring A/G, Bowling Green, OH 95 to 180
 Round 2: Lost to First A/G, Lexington, KY 30 to 250
@@ -1603,14 +1750,15 @@ Round 18: Won against Praise A/G, Garfield, NJ 150 to 105
 Round 19: Won against Journey Fellowship Church, Slidell, LA 135 to 45
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Braeswood A/G, Houston, TX" html=image_html %}
 
 ### Southeast Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/FL-Orlando.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jeremy Butler, Tamera Burkhalter, Sabrina Burkhalter*\
+*(L-R Back) Jared Burkhalter, Ray Berkey*
 
 #### 1st Place
 
@@ -1621,7 +1769,15 @@ Sabrina Burkhalter
 Tamera Burkhalter
 Jeremy Butler
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against Tacoma Life Center, Tacoma, WA 195 to 150
+Round 2: Lost to Calvary A/G, South Bend, IN 125 to 195
+Round 3: Won against Truth A/G, Chariton, IA 235 to 60
+Round 4: Lost to Braeswood A/G, Houston, TX 150 to 210
+Round 5: Won against Noble A/G, Noble, OK 165 to 125
+Round 6: Won against First A/G, Lafayette, IN 210 to 140
+Round 7: Lost to Orange Hills A/G, Orange, CA 120 to 190
+Round 8: Won against Faith A/G, West Plains, MO 220 to 70
+Round 9: Won against First A/G, Binghamton, NY 260 to -10
 * **Round Robin**:
 Round 1: Won against Cedar Park A/G, Bothell, WA 165 to 160
 Round 2: Won against Orange County Worship Center, Santa Ana, CA 265 to 55
@@ -1644,12 +1800,13 @@ Round 18: Won against The Church at Briargate, "Public Spectacle", Colorado Spri
 Round 19: Won against CrossPoint A/G, Portage, WI 220 to 95
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Faith A/G, Orlando, FL" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/GA-Dunwoody.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Yoki Belay, Sarah Belay, Isabella Lex*\
+*(L-R Back) Ermias Belay, James Lex, Jim Lex*
 
 #### 2nd Place
 
@@ -1660,7 +1817,16 @@ James Lex
 Yoki Belay
 Sarah Belay
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Lost to CrossPoint A/G, Portage, WI 125 to 160
+Round 2: Won against Harvest Time A/G, Brunswick, OH 155 to 70
+Round 3: Won against Meridian A/G, Meridian, ID 210 to 145
+Round 4: Lost to Dayspring A/G, Bowling Green, OH 100 to 130
+Round 5: Lost to Norhtridge A/G, Grand Island, NE 155 to 220
+Round 6: Lost to Orange County Worship Center, Santa Ana, CA 70 to 150
+Round 7: Won against Central A/G, Springfield, MO 195 to 115
+Round 8: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 100 to 200
+Round 9: Lost to Owasso First A/G, Owasso, OK 30 to 300
+Playoff Round 2: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO
 * **Round Robin**:
 Round 1: Won against Suncoast Cathedral A/G, St. Petersburg, FL 135 to 100
 Round 2: Won against New Life Community Church, Oshkosh, WI 215 to 60
@@ -1683,12 +1849,13 @@ Round 18: Lost to Noble A/G, Noble, OK 90 to 150
 Round 19: Won against Nyssa Christian Fellowship, Nyssa, OR 165 to 30
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, Dunwoody, GA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/AL-Montgomery.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Hillary Kelley, Andrew Banach, Hudson Kelley, Cory Williams*\
+*(L-R Back) Daniel Mims, Krystal Mims, Hannah Kelley*
 
 #### 3rd Place
 
@@ -1698,7 +1865,15 @@ Team:	Hudson Kelley
 Andrew Banach
 Cory Williams
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Lost to Christian Chapel, Tulsa, OK -25 to 215
+Round 2: Lost to First A/G, Lexington, KY 0 to 225
+Round 3: Lost to Turning Point Christian Center, Vancouver, WA 100 to 170
+Round 4: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 100 to 60
+Round 5: Won against Grace A/G, Syracuse, NY 150 to 130
+Round 6: Lost to Cedar Park A/G, Bothell, WA 20 to 315
+Round 7: Lost to Journey Church, Bridgeville, PA 130 to 165
+Round 8: Lost to James River A/G, "One in Christ", Ozark, MO 60 to 235
+Round 9: Lost to New Life Community Church, Oshkosh, WI 35 to 110
 * **Round Robin**:
 Round 1: Lost to Noble A/G, Noble, OK 135 to 185
 Round 2: Lost to Nyssa Christian Fellowship, Nyssa, OR 100 to 150
@@ -1721,12 +1896,13 @@ Round 18: Lost to Calvary A/G, South Bend, IN 90 to 175
 Round 19: Won against Meridian A/G, Meridian, ID 100 to 90
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Montgomery, AL" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/FL-StPetersburg.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Theresa Simoneau, Danielle Taylor, Lydia Hutchison, Jonathan Keesie*\
+*(L-R Back) Simon Bennett, Rahbin Bennett*
 
 #### 4th Place
 
@@ -1739,7 +1915,15 @@ Brenden Moench
 Therese Simoneau
 Danielle Taylor
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against Grace A/G, Syracuse, NY 180 to 100
+Round 2: Lost to Journey Church, Bridgeville, PA 50 to 175
+Round 3: Lost to Cedar Park A/G, Bothell, WA 95 to 235
+Round 4: Lost to First A/G, Montgomery, AL 60 to 100
+Round 5: Lost to James River A/G, "One in Christ", Ozark, MO 10 to 290
+Round 6: Lost to Turning Point Christian Center, Vancouver, WA 95 to 175
+Round 7: Won against New Life Community Church, Oshkosh, WI 125 to -60
+Round 8: Lost to First A/G, Lexington, KY 65 to 210
+Round 9: Lost to Christian Chapel, Tulsa, OK -10 to 210
 * **Round Robin**:
 Round 1: Lost to Calvary A/G, Dunwoody, GA 100 to 135
 Round 2: Lost to Orange Hills A/G, Orange, CA 120 to 160
@@ -1762,12 +1946,12 @@ Round 18: Lost to New Life Community Church, Oshkosh, WI 75 to 205
 Round 19: Won against Corydon A/G, Corydon, IA 140 to 90
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Suncoast Cathedral A/G, Saint Petersburg, FL" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/FL-WesleyChapel.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) EJ Mintah, Reesie Ownens, Joshua Weber, Erinn Wolf, Nathan Cowdery*
 
 #### 5th Place
 
@@ -1778,7 +1962,15 @@ EJ Mintah
 Reesie Owens
 Erinn Wolf
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Lost to James River A/G, "In Chains", Ozark, MO 40 to 240
+Round 2: Won against Timberline Church, Fort Collins, CO 95 to 15
+Round 3: Lost to Christian Temple, Houston, TX 40 to 130
+Round 4: Lost to Manassas A/G, Bristow, VA 35 to 205
+Round 5: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 10 to 280
+Round 6: Lost to Nyssa Christian Fellowship, Nyssa, OR 15 to 225
+Round 7: Lost to Praise A/G, Garfield, NJ 35 to 185
+Round 8: Lost to Journey Fellowship Church, Slidell, LA 90 to 225
+Round 9: Lost to Corydon A/G, Corydon, IA 55 to 200
 * **Round Robin**:
 Round 1: Won against Truth A/G, Chariton, IA 135 to 120
 Round 2: Lost to James River A/G, "In Chains", Ozark, MO -20 to 220
@@ -1801,14 +1993,15 @@ Round 18: Won against Harvest Time A/G, Brunswick, OH 105 to 80
 Round 19: Won against Turning Point Christian Center, Vancouver, WA 150 to 100
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Victorious Life Church, Wesley Chapel, FL" html=image_html %}
 
 ### Southwest Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/CO-ColoradoSprings1.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Michael Rose, Julianne Kelley, Madison Hall, PJ Grigg*\
+*(L-R Back) Andrew Kelley, Greg House*
 
 #### 1st Place
 
@@ -1819,7 +2012,15 @@ Madison Hall
 Julianne Kelley
 Michael Rose
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Lost to Manassas A/G, Bristow, VA 130 to 145
+Round 2: Won against Journey Fellowship Church, Slidell, LA 165 to 130
+Round 3: Won against Corydon A/G, Corydon, IA 220 to 35
+Round 4: Won against James River A/G, "In Chains", Ozark, MO 140 to 125
+Round 5: Won against Victorious Life Church, Wesley Chapel, FL 280 to 10
+Round 6: Won against Christian Temple, Houston, TX 220 to 55
+Round 7: Won against Timberline Church, Fort Collins, CO 180 to -20
+Round 8: Won against Nyssa Christian Fellowship, Nyssa, OR 260 to 30
+Round 9: Lost to Praise A/G, Garfield, NJ 95 to 155
 * **Round Robin**:
 Round 1: Won against Tacoma Life Center, Tacoma, WA 205 to 95
 Round 2: Won against First A/G, Binghamton, NY 180 to 135
@@ -1842,12 +2043,13 @@ Round 18: Lost to Faith A/G, Orlando, FL 110 to 225
 Round 19: Won against Manassas A/G, Bristow, VA 165 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="The Church at Briargate, 'Public Spectacle', Colorado Springs, CO" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/CA-Orange.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Samuel Pryer, Thomas Pryer, Mary Pryer, Ronald Pryer*\
+*(L-R Back) James Pryer, Donna Pryer*
 
 #### 2nd Place
 
@@ -1859,7 +2061,16 @@ Mary Pryer
 Samuel Pryer
 Thomas Pryer
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Lost to First A/G, Binghamton, NY 105 to 170
+Round 2: Lost to Faith A/G, West Plains, MO 100 to 110
+Round 3: Won against Braeswood A/G, Houston, TX 155 to 100
+Round 4: Won against First A/G, Lafayette, IN 215 to 45
+Round 5: Won against Truth A/G, Chariton, IA 210 to 140
+Round 6: Lost to Tacoma Life Center, Tacoma, WA 50 to 190
+Round 7: Won against Faith A/G, Orlando, FL 190 to 120
+Round 8: Won against Noble A/G, Noble, OK 125 to 110
+Round 9: Lost to Calvary A/G, South Bend, IN 0 to 270
+Playoff Round 1: Lost to Tacoma Life Center, Tacoma, WA
 * **Round Robin**:
 Round 1: Won against Nyssa Christian Fellowship, Nyssa, OR 135 to 130
 Round 2: Won against Suncoast Cathedral A/G, St. Petersburg, FL 160 to 120
@@ -1882,12 +2093,12 @@ Round 18: Lost to Meridian A/G, Meridian, ID 5 to 170
 Round 19: Lost to Noble A/G, Noble, OK 130 to 160
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Orange Hills A/G, Orange, CA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/CA-SantaAna.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Bonnie Barthuly, Jonathan Barthuly, Colin Kuroishi, Zach Mang, Irv Kuroishi, Martha Kuroishi*
 
 #### 3rd Place
 
@@ -1897,7 +2108,15 @@ Team:	Colin Kuroishi
 Jonathan Barthuly
 Zach Mang
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against Dayspring A/G, Bowling Green, OH 155 to 80
+Round 2: Lost to CrossPoint A/G, Portage, WI 100 to 155
+Round 3: Won against Norhtridge A/G, Grand Island, NE 240 to 35
+Round 4: Won against Meridian A/G, Meridian, ID 170 to 55
+Round 5: Won against Central A/G, Springfield, MO 150 to 145
+Round 6: Won against Calvary A/G, Dunwoody, GA 150 to 70
+Round 7: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 20 to 160
+Round 8: Lost to Owasso First A/G, Owasso, OK 95 to 255
+Round 9: Won against Harvest Time A/G, Brunswick, OH 135 to 100
 * **Round Robin**:
 Round 1: Lost to Owasso First A/G, Owasso, OK 100 to 255
 Round 2: Lost to Faith A/G, Orlando, FL 55 to 265
@@ -1920,12 +2139,13 @@ Round 18: Lost to James River A/G, "One in Christ", Ozark, MO 105 to 230
 Round 19: Lost to Faith A/G, West Plains, MO 75 to 125
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Orange County Worship Center, Santa Ana, CA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/CO-FortCollins.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Karen McCormick, Carley Trammell*\
+*(L-R Back) Kimberly Trammell, ????, Rene McCormick*
 
 #### 4th Place
 
@@ -1934,7 +2154,15 @@ Coaches:	Kimberly Trammell, Rene McCormick (assistant)
 Team:	Karen McCormick
 Carley Trammell
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Lost to Corydon A/G, Corydon, IA -10 to 140
+Round 2: Lost to Victorious Life Church, Wesley Chapel, FL 15 to 95
+Round 3: Lost to Journey Fellowship Church, Slidell, LA 20 to 220
+Round 4: Lost to Praise A/G, Garfield, NJ 5 to 215
+Round 5: Lost to Manassas A/G, Bristow, VA 15 to 285
+Round 6: Lost to James River A/G, "In Chains", Ozark, MO -15 to 255
+Round 7: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO -20 to 180
+Round 8: Lost to Christian Temple, Houston, TX 20 to 215
+Round 9: Lost to Nyssa Christian Fellowship, Nyssa, OR 35 to 140
 * **Round Robin**:
 Round 1: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 25 to 210
 Round 2: Lost to Calvary A/G, South Bend, IN 20 to 245
@@ -1957,12 +2185,12 @@ Round 18: Lost to Truth A/G, Chariton, IA 70 to 85
 Round 19: Lost to James River A/G, "In Chains", Ozark, MO 15 to 225
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Timberline Church, Fort Collins, CO" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/CO-ColoradoSprings2.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Ellen Oss, Meg Pace, Kellen Hall, Molly Pace*
 
 #### 5th Place
 
@@ -1973,7 +2201,17 @@ Ellen Oss
 Meg Pace
 Kellen Hall
 * **Preliminaries**:
-TODO_PRELIMS
+Round 1: Won against Norhtridge A/G, Grand Island, NE 125 to 75
+Round 2: Lost to Meridian A/G, Meridian, ID 90 to 105
+Round 3: Lost to CrossPoint A/G, Portage, WI 80 to 150
+Round 4: Lost to Owasso First A/G, Owasso, OK 45 to 245
+Round 5: Lost to Harvest Time A/G, Brunswick, OH 80 to 140
+Round 6: Lost to Dayspring A/G, Bowling Green, OH 40 to 155
+Round 7: Won against Orange County Worship Center, Santa Ana, CA 160 to 20
+Round 8: Won against Calvary A/G, Dunwoody, GA 200 to 100
+Round 9: Lost to Central A/G, Springfield, MO 65 to 185
+Playoff Round 2: Won against Calvary A/G, Dunwoody, GA
+Playoff Round 3: Lost to Dayspring A/G, Bowling Green, OH
 * **Round Robin**:
 Round 1: Won against Timberline Church, Fort Collins, CO 210 to 25
 Round 2: Won against Central A/G, Springfield, MO 125 to 75
@@ -1996,7 +2234,7 @@ Round 18: Lost to First A/G, Lafayette, IN 55 to 115
 Round 19: Lost to Grace A/G, Syracuse, NY 85 to 120
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="The Church at Briargate, 'Children of the Desolate Woman', Colorado Springs, CO" html=image_html %}
 
 ## Memories
 
