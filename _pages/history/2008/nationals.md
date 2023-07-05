@@ -349,12 +349,13 @@ Round 18: Lost to Victorious Life Church, Wesley Chapel, FL 80 to 105
 Round 19: Won against New Life Community Church, Oshkosh, WI 135 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Harvest Time A/G, Brunswick, OH" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/KY-Lexington.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Nathaniel Winckler, Rebekah Kelley, Elaine Walker*\
+*(L-R Back) Katie Brandewie, Karen White*
 
 #### 2nd Place
 
@@ -396,12 +397,13 @@ Round 18: Lost to Tacoma Life Center, Tacoma, WA 55 to 250
 Round 19: Lost to First A/G, Binghamton, NY 90 to 230
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Lexington, KY" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/OH-BowlingGreen.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Marshall Kobylyski, Jeremy Albrecht, Ryan Albrecht, Joel Facer*\
+*(L-R Back) Vicky Albrecht, Jeff Albrecht, Scott Estep, Matt Valentine*
 
 #### 3rd Place
 
@@ -445,12 +447,13 @@ Round 18: Lost to Tacoma Life Center, Tacoma, WA 55 to 250
 Round 19: Lost to First A/G, Binghamton, NY 90 to 230
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Dayspring A/G, Bowling Green, OH" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/IN-Lafayette.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Tasha Vickerman, Spencer Walters, Deb Vickerman*\
+*(L-R Back) Taylor Vickerman, Scott Walters*
 
 #### 4th Place
 
@@ -491,12 +494,13 @@ Round 18: Won against The Church at Briargate, "Children of the Desolate Woman",
 Round 19: Lost to Calvary A/G, South Bend, IN 140 to 155
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Lafayette, IN" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/IN-SouthBend.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) CJ Hock, Kirstin Durfey, Ethan Hock*\
+*(L-R Back) Nilay Saiya's Nametag, Brian Boeninger*
 
 #### 5th Place
 
@@ -538,14 +542,15 @@ Round 18: Won against First A/G, Montgomery, AL 175 to 90
 Round 19: Won against First A/G, Lafayette, IN 155 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, South Bend, IN" html=image_html %}
 
 ### Gulf Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/MO-JamesRiver1.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Colin Knoth, Brittany Porter, Blake Porter, Justin Napper*\
+*(L-R Back) John Porter, Seth Sundell*
 
 #### 1st Place
 
@@ -587,12 +592,12 @@ Round 18: Won against Orange County Worship Center, Santa Ana, CA 230 to 105
 Round 19: Won against Northridge A/G, Grand Island, NE 270 to 55
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="James River A/G, 'One in Christ', Ozark, MO" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/LA-Slidell.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Kourtni Wyatt, Jacob Wyatt, Hillari Wyatt, Karina Wyatt*
 
 #### 2nd Place
 
@@ -635,12 +640,13 @@ Round 18: Won against Christian Temple, Houston, TX 180 to 15
 Round 19: Lost to Braeswood A/G, Houston, TX 45 to 135
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Journey Fellowship Church, Slidell, LA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/MO-WestPlains.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jeremiah George, Heather Murdy, Joshua George, Brandon Collins*\
+*(L-R Back) Jonathan George, Sarah George, Dora Cole, Karan Bhargava*
 
 #### 3rd Place
 
@@ -684,12 +690,13 @@ Round 18: Lost to Cedar Park A/G, Bothell, WA 65 to 255
 Round 19: Won against Orange County Worship Center, Santa Ana, CA 125 to 75
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Faith A/G, West Plains, MO" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/MO-Springfield.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Brianna Riley, Matthew Klika*\
+*(L-R Back) Richard Fair*
 
 #### 4th Place
 
@@ -730,12 +737,13 @@ Round 18: Lost to Turning Point Christian Center, Vancouver, WA 85 to 115
 Round 19: Won against Truth A/G, Chariton, IA 110 to 70
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Central A/G, Springfield, MO" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/MO-JamesRiver2.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Josh Napper, Danielle Brozovich, Whitney Garrison, Joe Dean*\
+*(L-R Back) Paula Porter, Mark Porter*
 
 #### 5th Place
 
@@ -778,14 +786,15 @@ Round 18: Lost to Grace A/G, Syracuse, NY 15 to 190
 Round 19: Won against Timberline Church, Fort Collins, CO 225 to 15
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="James River A/G, 'In Chains', Ozark, MO" html=image_html %}
 
 ### North Central Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/WI-Oshkosh.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Daniel Kober, David Kober, Nathan Kober, Caleb Turnage*\
+*(L-R Back) Tyler Turnage, Justin Strachen*
 
 #### 1st Place
 
@@ -827,12 +836,13 @@ Round 18: Won against Suncoast Cathedral A/G, St. Petersburg, FL 205 to 75
 Round 19: Lost to Harvest Time A/G, Brunswick, OH 110 to 135
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="New Life Community Church, Oshkosh, WI" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/WI-Portage.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Naomi Turner, Seth Turner, Alex Firari*\
+*(L-R Back) Josh Turner, Judy Turner, Don Batty*
 
 #### 2nd Place
 
@@ -874,12 +884,12 @@ Round 18: Lost to Owasso First A/G, Owasso, OK 55 to 230
 Round 19: Lost to Faith A/G, Orlando, FL 95 to 220
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="CrossPoint A/G, Portage, WI" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/IA-Chariton.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Ed Sornberger, Amanda Snider, Jonathan Plank, Loren Plank*
 
 #### 3rd Place
 
@@ -919,12 +929,12 @@ Round 18: Won against Timberline Church, Fort Collins, CO 85 to 70
 Round 19: Lost to Central A/G, Springfield, MO 70 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Truth A/G, Chariton, IA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/IA-Corydon.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Greg Colegrove, Donovan Colegrove, Devon Colegrove, Rachelle Colegrove*
 
 #### 4th Place
 
@@ -965,12 +975,13 @@ Round 18: Lost to Nyssa Christian Fellowship, Nyssa, OR 105 to 140
 Round 19: Lost to Suncoast Cathedral A/G, St. Petersburg, FL 90 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Corydon A/G, Corydon, IA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/NE-GrandIsland.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jacob Harris, Tori Beye, Hannah Swanson, Sally Epp, Andric Hofrichter*\
+*(L-R Back) Aaron Beye, Linda Parker, ????, Carol Swanson, Paul Hofrichter*
 
 #### 5th Place
 
@@ -1014,14 +1025,15 @@ Round 18: Lost to Journey Church, Bridgeville, PA 80 to 200
 Round 19: Lost to James River A/G, "One in Christ", Ozark, MO 55 to 270
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Northridge A/G, Grand Island, NE" html=image_html %}
 
 ### Northeast Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/VA-Bristow.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Lindsey Brower, Catherine Hains, Samantha Smith, Cara Brower*\
+*(L-R Back) Darlene Brower, Sahar Smith, Vivian Hains*
 
 #### 1st Place
 
@@ -1063,12 +1075,13 @@ Round 18: Lost to Christian Chapel, Tulsa, OK 45 to 185
 Round 19: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 150 to 165
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Manassas A/G, Bristow, VA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/NY-Binghamton.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) LaJoie Ward, Victoria Myrick, Stephanie Karluk, Corina Scarinzi, Isaac Ward*\
+*(L-R Back) John Karluk, Hank Ward, Annette Ward*
 
 #### 2nd Place
 
@@ -1112,12 +1125,13 @@ Round 18: Lost to Dayspring A/G, Bowling Green, OH 85 to 130
 Round 19: Won against First A/G, Lexington, KY 230 to 90
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Binghamton, NY" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/NJ-Garfield.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Kyler Sederwall, Benji Songsong, Jacob Dipini, Justin Czubkowski*\
+*(L-R Back) Tammy Yukon, Alex Cheski, Jesse Czubkowski*
 
 #### 3rd Place
 
@@ -1161,12 +1175,13 @@ Round 18: Lost to Braeswood A/G, Houston, TX 105 to 150
 Round 19: Won against Journey Church, Bridgeville, PA 150 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Praise A/G, Garfield, NJ" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/NY-Syracuse.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jared Siddall, Amy Siddall, Brandon Rhynders*\
+*(L-R Back) John Nardozzi, Randy Rhynders*
 
 #### 4th Place
 
@@ -1207,12 +1222,12 @@ Round 18: Won against James River A/G, "In Chains", Ozark, MO 190 to 15
 Round 19: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 120 to 85
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Grace A/G, Syracuse, NY" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/PA-Bridgeville.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Nora Warnock, Grant Warnock, Jessica Sikes, David Warnock, Shane Warnock, Nancy Sikes*
 
 #### 5th Place
 
@@ -1253,14 +1268,15 @@ Round 18: Won against Northridge A/G, Grand Island, NE 200 to 80
 Round 19: Lost to Praise A/G, Garfield, NJ 140 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Journey Church, Bridgeville, PA" html=image_html %}
 
 ### Northwest Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/WA-Tacoma.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Rachel Holley, JP O'Connor, Mikayla Irle*\
+*(L-R Back) Rachel Dawson, Chris Teeny, Rich Nelson, Kathy Holley*
 
 #### 1st Place
 
@@ -1302,12 +1318,13 @@ Round 18: Won against First A/G, Lexington, KY 250 to 55
 Round 19: Lost to Christian Chapel, Tulsa, OK 110 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Tacoma Life Center, Tacoma, WA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/WA-Bothell.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Nathan Mori, Jenna-Jo Duffy, Heather Karnes, Brandon Duffy*\
+*(L-R Back) Kristi Brodin, Hillary Kunnanz, Kari Brodin*
 
 #### 2nd Place
 
@@ -1349,12 +1366,13 @@ Round 18: Won against Faith A/G, West Plains, MO 255 to 65
 Round 19: Lost to Owasso First A/G, Owasso, OK 170 to 180
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Cedar Park A/G, Bothell, WA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/OR-Nyssa.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Angie Larson, Melissa Larson, Darren Larson, Jeep Larson*\
+*(L-R Back) Dale Larson, ????*
 
 #### 3rd Place
 
@@ -1395,12 +1413,12 @@ Round 18: Won against Corydon A/G, Corydon, IA 140 to 105
 Round 19: Lost to Calvary A/G, Dunwoody, GA 30 to 165
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Nyssa Christian Fellowship, Nyssa, OR" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/ID-Meridian.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Vicky Jensen, Ivy Jensen, Link Patrick, Ashley Carter, Bryce Jensen*
 
 #### 4th Place
 
@@ -1443,12 +1461,12 @@ Round 18: Won against Orange Hills A/G, Orange, CA 170 to 5
 Round 19: Lost to First A/G, Montgomery, AL 90 to 100
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Meridian A/G, Meridian, ID" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/WA-Vancouver.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Michaela Lenior, Ruth Spicer, Flyn Spicer, Cecily Spicer, Kurt Spicer*
 
 #### 5th Place
 
@@ -1489,14 +1507,15 @@ Round 18: Won against Central A/G, Springfield, MO 115 to 85
 Round 19: Lost to Victorious Life Church, Wesley Chapel, FL 100 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Turning Point Christian Center, Vancouver, WA" html=image_html %}
 
 ### South Central Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/OK-Owasso.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jesse Wagner, Rachel Firestone, Daniel Wagner, Joshua Wagner*\
+*John Melberg, Nicole Wagner, Kevin Wagner*
 
 #### 1st Place
 
@@ -1538,12 +1557,13 @@ Round 18: Won against CrossPoint A/G, Portage, WI 230 to 55
 Round 19: Won against Cedar Park A/G, Bothell, WA 180 to 170
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Owasso First A/G, Owasso, OK" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/TX-ChristianTemple.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Andrew Forsman, Brianna Forsman, Sean Pyle*\
+*(L-R Back) Adam Forsman, Josh Pyle, Mike Forsman, Joshua Forsman*
 
 #### 2nd Place
 
@@ -1587,12 +1607,13 @@ Round 18: Lost to Journey Fellowship Church, Slidell, LA 15 to 180
 Round 19: Won against Dayspring A/G, Bowling Green, OH 80 to 70
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Christian Temple, Houston, TX" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/OK-Tulsa.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) James Craig, Alyssa Batchelder, Michelle Paulson, Matthew Woods*\
+*(L-R Back) Bryan Turner, Mark Connor*
 
 #### 3rd Place
 
@@ -1634,12 +1655,12 @@ Round 18: Won against Manassas A/G, Bristow, VA 185 to 45
 Round 19: Won against Tacoma Life Center, Tacoma, WA 150 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Christian Chapel, Tulsa, OK" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/OK-Noble.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Cameron Smith, Cheri Smith, Ice Strickland, Mallorie Ramsey, Anthony Davis*
 
 #### 4th Place
 
@@ -1679,12 +1700,13 @@ Round 18: Won against Calvary A/G, Dunwoody, GA 150 to 90
 Round 19: Won against Orange Hills A/G, Orange, CA 160 to 130
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Noble A/G, Noble, OK" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/TX-Braeswood.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Josh Echebiri, Obi Kpando, Shola Anifowose, Roysan, Easo*\
+*(L-R Back) Paul Kramer, Aaron Collins, John Kramer, Cassandra Paige*
 
 #### 5th Place
 
@@ -1728,14 +1750,15 @@ Round 18: Won against Praise A/G, Garfield, NJ 150 to 105
 Round 19: Won against Journey Fellowship Church, Slidell, LA 135 to 45
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Braeswood A/G, Houston, TX" html=image_html %}
 
 ### Southeast Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/FL-Orlando.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Jeremy Butler, Tamera Burkhalter, Sabrina Burkhalter*\
+*(L-R Back) Jared Burkhalter, Ray Berkey*
 
 #### 1st Place
 
@@ -1777,12 +1800,13 @@ Round 18: Won against The Church at Briargate, "Public Spectacle", Colorado Spri
 Round 19: Won against CrossPoint A/G, Portage, WI 220 to 95
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Faith A/G, Orlando, FL" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/GA-Dunwoody.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Yoki Belay, Sarah Belay, Isabella Lex*\
+*(L-R Back) Ermias Belay, James Lex, Jim Lex*
 
 #### 2nd Place
 
@@ -1825,12 +1849,13 @@ Round 18: Lost to Noble A/G, Noble, OK 90 to 150
 Round 19: Won against Nyssa Christian Fellowship, Nyssa, OR 165 to 30
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Calvary A/G, Dunwoody, GA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/AL-Montgomery.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Hillary Kelley, Andrew Banach, Hudson Kelley, Cory Williams*\
+*(L-R Back) Daniel Mims, Krystal Mims, Hannah Kelley*
 
 #### 3rd Place
 
@@ -1871,12 +1896,13 @@ Round 18: Lost to Calvary A/G, South Bend, IN 90 to 175
 Round 19: Won against Meridian A/G, Meridian, ID 100 to 90
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="First A/G, Montgomery, AL" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/FL-StPetersburg.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Theresa Simoneau, Danielle Taylor, Lydia Hutchison, Jonathan Keesie*\
+*(L-R Back) Simon Bennett, Rahbin Bennett*
 
 #### 4th Place
 
@@ -1920,12 +1946,12 @@ Round 18: Lost to New Life Community Church, Oshkosh, WI 75 to 205
 Round 19: Won against Corydon A/G, Corydon, IA 140 to 90
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Suncoast Cathedral A/G, Saint Petersburg, FL" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/FL-WesleyChapel.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) EJ Mintah, Reesie Ownens, Joshua Weber, Erinn Wolf, Nathan Cowdery*
 
 #### 5th Place
 
@@ -1967,14 +1993,15 @@ Round 18: Won against Harvest Time A/G, Brunswick, OH 105 to 80
 Round 19: Won against Turning Point Christian Center, Vancouver, WA 150 to 100
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Victorious Life Church, Wesley Chapel, FL" html=image_html %}
 
 ### Southwest Region
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/CO-ColoradoSprings1.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Michael Rose, Julianne Kelley, Madison Hall, PJ Grigg*\
+*(L-R Back) Andrew Kelley, Greg House*
 
 #### 1st Place
 
@@ -2016,12 +2043,13 @@ Round 18: Lost to Faith A/G, Orlando, FL 110 to 225
 Round 19: Won against Manassas A/G, Bristow, VA 165 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="The Church at Briargate, 'Public Spectacle', Colorado Springs, CO" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/CA-Orange.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Samuel Pryer, Thomas Pryer, Mary Pryer, Ronald Pryer*\
+*(L-R Back) James Pryer, Donna Pryer*
 
 #### 2nd Place
 
@@ -2065,12 +2093,12 @@ Round 18: Lost to Meridian A/G, Meridian, ID 5 to 170
 Round 19: Lost to Noble A/G, Noble, OK 130 to 160
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Orange Hills A/G, Orange, CA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/CA-SantaAna.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Bonnie Barthuly, Jonathan Barthuly, Colin Kuroishi, Zach Mang, Irv Kuroishi, Martha Kuroishi*
 
 #### 3rd Place
 
@@ -2111,12 +2139,13 @@ Round 18: Lost to James River A/G, "One in Christ", Ozark, MO 105 to 230
 Round 19: Lost to Faith A/G, West Plains, MO 75 to 125
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Orange County Worship Center, Santa Ana, CA" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/CO-FortCollins.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R Front) Karen McCormick, Carley Trammell*\
+*(L-R Back) Kimberly Trammell, ????, Rene McCormick*
 
 #### 4th Place
 
@@ -2156,12 +2185,12 @@ Round 18: Lost to Truth A/G, Chariton, IA 70 to 85
 Round 19: Lost to James River A/G, "In Chains", Ozark, MO 15 to 225
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="Timberline Church, Fort Collins, CO" html=image_html %}
 
-{% capture image_url %}{% link assets/2008/.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/2008/CO-ColoradoSprings2.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*TODO*
+*(L-R) Ellen Oss, Meg Pace, Kellen Hall, Molly Pace*
 
 #### 5th Place
 
@@ -2205,7 +2234,7 @@ Round 18: Lost to First A/G, Lafayette, IN 55 to 115
 Round 19: Lost to Grace A/G, Syracuse, NY 85 to 120
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="" html=image_html %}
+{% include image-card.html link=image_url alt="The Church at Briargate, 'Children of the Desolate Woman', Colorado Springs, CO" html=image_html %}
 
 ## Memories
 
