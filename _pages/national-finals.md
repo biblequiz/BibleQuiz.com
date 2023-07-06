@@ -9,6 +9,9 @@ menubar: menu_current_season
 
 ![]({% link assets/2023/stl-hotel-promo.jpg %})
 
+{% include youtube.html
+   video="KxywNwhY9AI" %}
+
 ## Schedule and Stats
 
 <a href="{% link _pages/national-finals-schedule.md %}" class="button is-primary">Full Event Schedule</a>
