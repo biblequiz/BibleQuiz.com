@@ -786,7 +786,7 @@ Quote it.
 * **Tournaments attended this year**:
   * [Gold Cup]({% link _pages/history/2011/tournaments/gold-cup.md %})
   * [Missouri Classic]({% link _pages/history/2011/tournaments/missouri-classic.md %})
-  * Southern Fried Classic
+  * [Southern Fried Classic]({% link _pages/history/2011/tournaments/southern-fried-classic.md %})
   * [Friendship Classic]({% link _pages/history/2011/tournaments/friendship-classic.md %})
   * [River Classic]({% link _pages/history/2011/tournaments/river-classic.md %})
   * [Owasso Xtreme]({% link _pages/history/2011/tournaments/owasso-xtreme.md %})
@@ -956,7 +956,7 @@ It made everyone in the room go "Huh??" but Ellen got it anyway. (See John 6:8-9
 * **Tournaments attended this year**:
   * [Gold Cup]({% link _pages/history/2011/tournaments/gold-cup.md %})
   * [Missouri Classic]({% link _pages/history/2011/tournaments/missouri-classic.md %})
-  * Southern Fried Classic
+  * [Southern Fried Classic]({% link _pages/history/2011/tournaments/southern-fried-classic.md %})
   * [River Classic]({% link _pages/history/2011/tournaments/river-classic.md %})
   * [Owasso Xtreme]({% link _pages/history/2011/tournaments/owasso-xtreme.md %})
 * **Favorite non-quiz related moment(s) this year**
