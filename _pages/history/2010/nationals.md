@@ -336,7 +336,7 @@ If possible, ties are broken by number of quiz-outs.
 
 #### 1st Place
 
-Church:	Meadowbrook Community Church, Champaign, IL
+* **Church**: Meadowbrook Community Church, Champaign, IL
 * **Coaches**:
   * Karina Wyatt: Coaching in Teen Bible Quiz for the past seven years. This will be her sixth time to bring a team to National Finals. She has coached a team from Williamsville, New York, Slidell, LA, O'Fallon, IL, and now Champaign IL.
   * SeAyra Walters (assistant)
@@ -345,35 +345,35 @@ Church:	Meadowbrook Community Church, Champaign, IL
     * Jacob Wyatt: This will be his fourth appearance at Nationals. He has earned his MMA.
     * Mitt Wyatt: This will be his first appearance at Nationals. He has earned his NMA.
 * **Preliminaries**:
-Round 1: Won against Berean A/G, Pleasant Hill, IA 190 to 85
-Round 2: Won against Highpointe Church, Oklahoma City, OK 235 to 20
-Round 3: Won against Orange County First A/G, Santa Ana, CA 165 to 70
-Round 4: Won against First A/G, "Page 7", Lexington, KY 220 to 50
-Round 5: Lost to Faith A/G, West Plains, MO 120 to 165
-Round 6: Won against Living Hope Worship Center, Swedesboro, NJ 190 to 80
-Round 7: Won against Bellevue Neighborhood Church, Bellevue, WA 175 to 150
-Round 8: Lost to Overland Park A/G, Overland Park, KS 105 to 175
-Round 9: Lost to Victorious Life Church, Wesley Chapel, FL 140 to 180
+  * Round 1: Won against Berean A/G, Pleasant Hill, IA 190 to 85
+  * Round 2: Won against Highpointe Church, Oklahoma City, OK 235 to 20
+  * Round 3: Won against Orange County First A/G, Santa Ana, CA 165 to 70
+  * Round 4: Won against First A/G, "Page 7", Lexington, KY 220 to 50
+  * Round 5: Lost to Faith A/G, West Plains, MO 120 to 165
+  * Round 6: Won against Living Hope Worship Center, Swedesboro, NJ 190 to 80
+  * Round 7: Won against Bellevue Neighborhood Church, Bellevue, WA 175 to 150
+  * Round 8: Lost to Overland Park A/G, Overland Park, KS 105 to 175
+  * Round 9: Lost to Victorious Life Church, Wesley Chapel, FL 140 to 180
 * **Round Robin**:
-Round 1: Won against Faith A/G, Orlando, FL 200 to 100
-Round 2: Won against Braeswood A/G, Houston, TX 160 to 20
-Round 3: Lost to Owasso First A/G, Owasso, OK 80 to 220
-Round 4: Won against Living Hope Church, Swedesboro, NJ 250 to 60
-Round 5: Won against James River A/G, "Sufficient Grace", Ozark, MO 180 to 50
-Round 6: Lost to New Life A/G, White Cloud, MI 155 to 205
-Round 7: Won against Bellevue Neighborhood Church, Bellevue, WA 155 to 70
-Round 8: Lost to Victorious Life Church, Wesley Chapel, FL 185 to 200
-Round 9: Won against Cedar Park A/G, Bothell, WA 205 to 35
-Round 10: Lost to Northside Family Worship Center, Cumming, GA 125 to 155
-Round 11: Won against Dayspring A/G, Bowling Green, OH 200 to 100
-Round 12: Won against Word of Life A/G, Springfield, VA 145 to 85
-Round 13: Won against Overland Park A/G, Overland Park, KS 195 to 125
-Round 14: Won against James River A/G, "Perfect in Weakness", Ozark, MO 205 to 100
-Round 15: Won against First A/G, Binghamton, NY 200 to 75
-Round 16: Lost to Manassas A/G, Bristow, VA 50 to 115
-Round 17: Won against First A/G, "Donut Holes", Lexington, KY 215 to 35
-Round 18: Lost to Central A/G, Springfield, MO 90 to 215
-Round 19: Lost to Praise A/G, Garfield, NJ 65 to 210
+  * Round 1: Won against Faith A/G, Orlando, FL 200 to 100
+  * Round 2: Won against Braeswood A/G, Houston, TX 160 to 20
+  * Round 3: Lost to Owasso First A/G, Owasso, OK 80 to 220
+  * Round 4: Won against Living Hope Church, Swedesboro, NJ 250 to 60
+  * Round 5: Won against James River A/G, "Sufficient Grace", Ozark, MO 180 to 50
+  * Round 6: Lost to New Life A/G, White Cloud, MI 155 to 205
+  * Round 7: Won against Bellevue Neighborhood Church, Bellevue, WA 155 to 70
+  * Round 8: Lost to Victorious Life Church, Wesley Chapel, FL 185 to 200
+  * Round 9: Won against Cedar Park A/G, Bothell, WA 205 to 35
+  * Round 10: Lost to Northside Family Worship Center, Cumming, GA 125 to 155
+  * Round 11: Won against Dayspring A/G, Bowling Green, OH 200 to 100
+  * Round 12: Won against Word of Life A/G, Springfield, VA 145 to 85
+  * Round 13: Won against Overland Park A/G, Overland Park, KS 195 to 125
+  * Round 14: Won against James River A/G, "Perfect in Weakness", Ozark, MO 205 to 100
+  * Round 15: Won against First A/G, Binghamton, NY 200 to 75
+  * Round 16: Lost to Manassas A/G, Bristow, VA 50 to 115
+  * Round 17: Won against First A/G, "Donut Holes", Lexington, KY 215 to 35
+  * Round 18: Lost to Central A/G, Springfield, MO 90 to 215
+  * Round 19: Lost to Praise A/G, Garfield, NJ 65 to 210
 * **Team History**\
 This will be Meadowbrook Assembly of God's first appearance at Nationals.
 * **Most exciting match this season**\
@@ -396,7 +396,7 @@ Hillari Wyatt was able to witness to an unbeliever by quoting 1 & 2 Corinthians 
 
 #### 2nd Place
 
-Church:	Dayspring A/G, Bowling Green, OH
+* **Church**: Dayspring A/G, Bowling Green, OH
 * **Coaches**:
   * Vicky Albrecht
   * Jeff Albrecht (assistant)
@@ -407,35 +407,35 @@ Church:	Dayspring A/G, Bowling Green, OH
     * Marshall Kobylski
     * Kendall Facer
 * **Preliminaries**:
-Round 1: Won against CrossPoint A/G, Portage, WI 160 to 25
-Round 2: Won against Cedar Park Church, Bothell, WA 180 to 100
-Round 3: Won against Muskogee First A/G, Muskogee, OK 180 to 50
-Round 4: Won against Central A/G, Springfield, MO 190 to 105
-Round 5: Won against Bethlehem Church, Richmond Hill, NY 220 to 65
-Round 6: Won against Manassas A/G, Bristow, VA 220 to -5
-Round 7: Won against First A/G, Montgomery, AL 210 to 80
-Round 8: Won against Orange County Christian Evangelical Church, Irvine, CA 155 to 115
-Round 9: Lost to Owasso First A/G, Owasso, OK 130 to 140
+  * Round 1: Won against CrossPoint A/G, Portage, WI 160 to 25
+  * Round 2: Won against Cedar Park Church, Bothell, WA 180 to 100
+  * Round 3: Won against Muskogee First A/G, Muskogee, OK 180 to 50
+  * Round 4: Won against Central A/G, Springfield, MO 190 to 105
+  * Round 5: Won against Bethlehem Church, Richmond Hill, NY 220 to 65
+  * Round 6: Won against Manassas A/G, Bristow, VA 220 to -5
+  * Round 7: Won against First A/G, Montgomery, AL 210 to 80
+  * Round 8: Won against Orange County Christian Evangelical Church, Irvine, CA 155 to 115
+  * Round 9: Lost to Owasso First A/G, Owasso, OK 130 to 140
 * **Round Robin**:
-Round 1: Won against Word of Life A/G, Springfield, VA 140 to 95
-Round 2: Lost to Overland Park A/G, Overland Park, KS 130 to 165
-Round 3: Won against James River A/G, "Perfect in Weakness", Ozark, MO 180 to 85
-Round 4: Won against First A/G, Binghamton, NY 185 to 165
-Round 5: Won against Manassas A/G, Bristow, VA 85 to 80
-Round 6: Won against First A/G, "Donut Holes", Lexington, KY 110 to 50
-Round 7: Won against Central A/G, Springfield, MO 165 to 125
-Round 8: Lost to Praise A/G, Garfield, NJ 110 to 175
-Round 9: Won against Faith A/G, Orlando, FL 155 to 105
-Round 10: Won against Braeswood A/G, Houston, TX 190 to 55
-Round 11: Lost to Meadowbrook A/G, Champaign, IL 100 to 200
-Round 12: Lost to Living Hope Church, Swedesboro, NJ 100 to 115
-Round 13: Lost to James River A/G, "Sufficient Grace", Ozark, MO 110 to 225
-Round 14: Won against New Life A/G, White Cloud, MI 180 to 115
-Round 15: Won against Bellevue Neighborhood Church, Bellevue, WA 135 to 50
-Round 16: Lost to Victorious Life Church, Wesley Chapel, FL 130 to 140
-Round 17: Lost to Cedar Park A/G, Bothell, WA 30 to 215
-Round 18: Lost to Northside Family Worship Center, Cumming, GA 55 to 175
-Round 19: Lost to Owasso First A/G, Owasso, OK -5 to 345
+  * Round 1: Won against Word of Life A/G, Springfield, VA 140 to 95
+  * Round 2: Lost to Overland Park A/G, Overland Park, KS 130 to 165
+  * Round 3: Won against James River A/G, "Perfect in Weakness", Ozark, MO 180 to 85
+  * Round 4: Won against First A/G, Binghamton, NY 185 to 165
+  * Round 5: Won against Manassas A/G, Bristow, VA 85 to 80
+  * Round 6: Won against First A/G, "Donut Holes", Lexington, KY 110 to 50
+  * Round 7: Won against Central A/G, Springfield, MO 165 to 125
+  * Round 8: Lost to Praise A/G, Garfield, NJ 110 to 175
+  * Round 9: Won against Faith A/G, Orlando, FL 155 to 105
+  * Round 10: Won against Braeswood A/G, Houston, TX 190 to 55
+  * Round 11: Lost to Meadowbrook A/G, Champaign, IL 100 to 200
+  * Round 12: Lost to Living Hope Church, Swedesboro, NJ 100 to 115
+  * Round 13: Lost to James River A/G, "Sufficient Grace", Ozark, MO 110 to 225
+  * Round 14: Won against New Life A/G, White Cloud, MI 180 to 115
+  * Round 15: Won against Bellevue Neighborhood Church, Bellevue, WA 135 to 50
+  * Round 16: Lost to Victorious Life Church, Wesley Chapel, FL 130 to 140
+  * Round 17: Lost to Cedar Park A/G, Bothell, WA 30 to 215
+  * Round 18: Lost to Northside Family Worship Center, Cumming, GA 55 to 175
+  * Round 19: Lost to Owasso First A/G, Owasso, OK -5 to 345
 * **Team History**\
 We started our TBQ Ministry in the Matthew season of '04 - '05 with the Great Lakes Regional Champion Novice team, which lost only 3 matches throughout the course of that first season. We have had 'A' level teams compete in the past 5 seasons, qualifying for National Competition in the previous 4.
 * **Most exciting match this season**\
@@ -463,7 +463,7 @@ We go as a team to the Bowling Green Courthouse to read/recite God's Word on the
 
 #### 3rd Place
 
-Church:	New Life A/G, White Cloud, MI
+* **Church**: New Life A/G, White Cloud, MI
 * **Coaches**:
   * Donna Pryer: Fifth time qualifying a team for Nationals. Three times in the South West Region and now twice in the Great Lakes Region.
   * James Pryer (assistant)
@@ -475,35 +475,35 @@ Church:	New Life A/G, White Cloud, MI
     * Timothy Pryer
     * Andy Wilson
 * **Preliminaries**:
-Round 1: Won against Racine A/G, Racine, WI 170 to 65
-Round 2: Lost to James River "Sufficient Grace", Ozark, MO 115 to 170
-Round 3: Won against Radiant Life, Elkhart, IN 245 to -20
-Round 4: Lost to Braeswood A/G, Houston, TX 80 to 205
-Round 5: Won against Paradise Hills A/G, Phoenix, AZ 210 to 90
-Round 6: Won against First A/G, Binghamton, NY 230 to 70
-Round 7: Won against Evangel Community Church, Snellville, GA 250 to 5
-Round 8: Lost to Northside Family Worship Center, Cumming, GA 65 to 195
-Round 9: Lost to The Church at Briargate, Colorado Springs, CO 60 to 85
+  * Round 1: Won against Racine A/G, Racine, WI 170 to 65
+  * Round 2: Lost to James River "Sufficient Grace", Ozark, MO 115 to 170
+  * Round 3: Won against Radiant Life, Elkhart, IN 245 to -20
+  * Round 4: Lost to Braeswood A/G, Houston, TX 80 to 205
+  * Round 5: Won against Paradise Hills A/G, Phoenix, AZ 210 to 90
+  * Round 6: Won against First A/G, Binghamton, NY 230 to 70
+  * Round 7: Won against Evangel Community Church, Snellville, GA 250 to 5
+  * Round 8: Lost to Northside Family Worship Center, Cumming, GA 65 to 195
+  * Round 9: Lost to The Church at Briargate, Colorado Springs, CO 60 to 85
 * **Round Robin**:
-Round 1: Won against First A/G, "Donut Holes", Lexington, KY 135 to 90
-Round 2: Lost to Central A/G, Springfield, MO 40 to 210
-Round 3: Lost to Praise A/G, Garfield, NJ 90 to 140
-Round 4: Lost to Faith A/G, Orlando, FL 100 to 130
-Round 5: Won against Braeswood A/G, Houston, TX 70 to 60
-Round 6: Won against Meadowbrook A/G, Champaign, IL 205 to 155
-Round 7: Won against Living Hope Church, Swedesboro, NJ 140 to 105
-Round 8: Lost to James River A/G, "Sufficient Grace", Ozark, MO 115 to 195
-Round 9: Lost to Owasso First A/G, Owasso, OK 40 to 220
-Round 10: Won against Bellevue Neighborhood Church, Bellevue, WA 215 to 30
-Round 11: Lost to Victorious Life Church, Wesley Chapel, FL 55 to 215
-Round 12: Lost to Cedar Park A/G, Bothell, WA 40 to 190
-Round 13: Won against Northside Family Worship Center, Cumming, GA 130 to 85
-Round 14: Lost to Dayspring A/G, Bowling Green, OH 115 to 180
-Round 15: Won against Word of Life A/G, Springfield, VA 140 to 50
-Round 16: Won against Overland Park A/G, Overland Park, KS 120 to 85
-Round 17: Won against James River A/G, "Perfect in Weakness", Ozark, MO 130 to 100
-Round 18: Lost to First A/G, Binghamton, NY 70 to 160
-Round 19: Lost to Manassas A/G, Bristow, VA 85 to 190
+  * Round 1: Won against First A/G, "Donut Holes", Lexington, KY 135 to 90
+  * Round 2: Lost to Central A/G, Springfield, MO 40 to 210
+  * Round 3: Lost to Praise A/G, Garfield, NJ 90 to 140
+  * Round 4: Lost to Faith A/G, Orlando, FL 100 to 130
+  * Round 5: Won against Braeswood A/G, Houston, TX 70 to 60
+  * Round 6: Won against Meadowbrook A/G, Champaign, IL 205 to 155
+  * Round 7: Won against Living Hope Church, Swedesboro, NJ 140 to 105
+  * Round 8: Lost to James River A/G, "Sufficient Grace", Ozark, MO 115 to 195
+  * Round 9: Lost to Owasso First A/G, Owasso, OK 40 to 220
+  * Round 10: Won against Bellevue Neighborhood Church, Bellevue, WA 215 to 30
+  * Round 11: Lost to Victorious Life Church, Wesley Chapel, FL 55 to 215
+  * Round 12: Lost to Cedar Park A/G, Bothell, WA 40 to 190
+  * Round 13: Won against Northside Family Worship Center, Cumming, GA 130 to 85
+  * Round 14: Lost to Dayspring A/G, Bowling Green, OH 115 to 180
+  * Round 15: Won against Word of Life A/G, Springfield, VA 140 to 50
+  * Round 16: Won against Overland Park A/G, Overland Park, KS 120 to 85
+  * Round 17: Won against James River A/G, "Perfect in Weakness", Ozark, MO 130 to 100
+  * Round 18: Lost to First A/G, Binghamton, NY 70 to 160
+  * Round 19: Lost to Manassas A/G, Bristow, VA 85 to 190
 * **Team History**\
 Our team moved from California to Michigan. This will be our fifth trip to Nationals. Three years in California as Orange Hills and now our second trip as New Life Assembly in White Cloud Michigan. We are pretty excited that Michigan is hosting Nationals this year! Our team originally was part of Santa Ana's team but we left that church. Thankfully Irv Kuroishi had done a good job teaching our quizzers James and Mary- they in turn taught us the game. Irv helped us with study material our first year to Nationals. He worked hard as the district Bible quiz coordinator to equip all the quizzers not just his own team.
 * **Most exciting match this season**\
@@ -525,7 +525,7 @@ We don't have one from this year, but a couple of years ago the captain of the o
 
 > *NOTE*: The two Lexington teams were mixed and matched this entire year, so some of the bio information has been doubled up.
 
-Church:	First A/G, "Donut Holes", Lexington, KY
+* **Church**: First A/G, "Donut Holes", Lexington, KY
 * **Coaches**:
   * Karen White: Coached 11 years. Has attended every year but two years (family health issue prevented me from coming) as either an official, assistant coach or coach.
   * Matt Trumble (assistant)
@@ -536,35 +536,35 @@ Church:	First A/G, "Donut Holes", Lexington, KY
     * J. David Smith: 11th grader, has memorized 8 books, first year at Nationals
     * William Laakkonen: 10th grader, has memorized 3 books, first year at Nationals
 * **Preliminaries**:
-Round 1: Lost to Faith A/G, Orlando, FL 40 to 160
-Round 2: Lost to Word of Life Church, Springfield, VA 60 to 95
-Round 3: Lost to Praise A/G, Garfield, NJ 110 to 225
-Round 4: Won against Living Hope Church, Colorado Springs, CO 85 to 75
-Round 5: Lost to Christian Temple, Houston, TX 100 to 115
-Round 6: Won against First A/G of Greater Lansing, East Lansing, MI 125 to 15
-Round 7: Won against First A/G, Ashland, AL 150 to 0
-Round 8: Won against James River A/G, "Perfect in Weakness", Ozark, MO 195 to 150
-Round 9: Won against Abundant Life A/G, Grand Island, NE 155 to 115
+  * Round 1: Lost to Faith A/G, Orlando, FL 40 to 160
+  * Round 2: Lost to Word of Life Church, Springfield, VA 60 to 95
+  * Round 3: Lost to Praise A/G, Garfield, NJ 110 to 225
+  * Round 4: Won against Living Hope Church, Colorado Springs, CO 85 to 75
+  * Round 5: Lost to Christian Temple, Houston, TX 100 to 115
+  * Round 6: Won against First A/G of Greater Lansing, East Lansing, MI 125 to 15
+  * Round 7: Won against First A/G, Ashland, AL 150 to 0
+  * Round 8: Won against James River A/G, "Perfect in Weakness", Ozark, MO 195 to 150
+  * Round 9: Won against Abundant Life A/G, Grand Island, NE 155 to 115
 * **Round Robin**:
-Round 1: Lost to New Life A/G, White Cloud, MI 90 to 135
-Round 2: Lost to Bellevue Neighborhood Church, Bellevue, WA 25 to 105
-Round 3: Lost to Victorious Life Church, Wesley Chapel, FL 90 to 250
-Round 4: Lost to Cedar Park A/G, Bothell, WA 100 to 185
-Round 5: Lost to Northside Family Worship Center, Cumming, GA 70 to 130
-Round 6: Lost to Dayspring A/G, Bowling Green, OH 50 to 110
-Round 7: Lost to Word of Life A/G, Springfield, VA 115 to 220
-Round 8: Lost to Overland Park A/G, Overland Park, KS 70 to 115
-Round 9: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 70 to 140
-Round 10: Lost to First A/G, Binghamton, NY 150 to 155
-Round 11: Lost to Manassas A/G, Bristow, VA 130 to 150
-Round 12: Lost to Owasso First A/G, Owasso, OK 75 to 230
-Round 13: Lost to Central A/G, Springfield, MO 70 to 180
-Round 14: Lost to Praise A/G, Garfield, NJ 90 to 215
-Round 15: Lost to Faith A/G, Orlando, FL 100 to 120
-Round 16: Won against Braeswood A/G, Houston, TX 100 to 75
-Round 17: Lost to Meadowbrook A/G, Champaign, IL 35 to 215
-Round 18: Lost to Living Hope Church, Swedesboro, NJ 55 to 125
-Round 19: Lost to James River A/G, "Sufficient Grace", Ozark, MO 155 to 225
+  * Round 1: Lost to New Life A/G, White Cloud, MI 90 to 135
+  * Round 2: Lost to Bellevue Neighborhood Church, Bellevue, WA 25 to 105
+  * Round 3: Lost to Victorious Life Church, Wesley Chapel, FL 90 to 250
+  * Round 4: Lost to Cedar Park A/G, Bothell, WA 100 to 185
+  * Round 5: Lost to Northside Family Worship Center, Cumming, GA 70 to 130
+  * Round 6: Lost to Dayspring A/G, Bowling Green, OH 50 to 110
+  * Round 7: Lost to Word of Life A/G, Springfield, VA 115 to 220
+  * Round 8: Lost to Overland Park A/G, Overland Park, KS 70 to 115
+  * Round 9: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 70 to 140
+  * Round 10: Lost to First A/G, Binghamton, NY 150 to 155
+  * Round 11: Lost to Manassas A/G, Bristow, VA 130 to 150
+  * Round 12: Lost to Owasso First A/G, Owasso, OK 75 to 230
+  * Round 13: Lost to Central A/G, Springfield, MO 70 to 180
+  * Round 14: Lost to Praise A/G, Garfield, NJ 90 to 215
+  * Round 15: Lost to Faith A/G, Orlando, FL 100 to 120
+  * Round 16: Won against Braeswood A/G, Houston, TX 100 to 75
+  * Round 17: Lost to Meadowbrook A/G, Champaign, IL 35 to 215
+  * Round 18: Lost to Living Hope Church, Swedesboro, NJ 55 to 125
+  * Round 19: Lost to James River A/G, "Sufficient Grace", Ozark, MO 155 to 225
 * **Team History**\
 Lexington has sent twelve teams to nationals since 1996. They were also the national champions in 1997. Our team has enjoyed several aspects of Nationals. Playing games in the hallways with other teams. Competition at this level. Touring the different parts of the country. Car rides. But of all the times I've attended two as a coach, two times have stood out. The first being the time we were robbed and everything was stolen from our van. The Bible Quiz Ministry took an offering for our two teams and blessed us with more than enough to buy all that was needed for this trip and the mission trip we were heading to the day after Nationals. We had money left over and we used that to purchase baskets to give to everyone at Nationals when it came to Lexington. We felt so loved during a stressful time. The second time that stood out was the cruise in Seattle. Seeing quizzers enjoy the sunset, some worshiping -some talking, some playing cards.... it was a taste of heaven.
 * **Most exciting match this season**\
@@ -580,7 +580,7 @@ A mile long question asking which chapters shared section titles.
 * **Tournaments attended this year**:
   * [Michiana]({% link _pages/history/2010/tournaments/michiana.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * Atlanta Open
+  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
 * **Favorite non-quiz related moment this year**\
 This can be something that happened in a church van, in a hotel room, etc.- Our team stayed at a lake house at Regionals it was such a blessing.Other answers from various quizzers: listening to Geddy and Billy quoting in princess voices, hanging with quizzers at Panera, speed boat last year on the Dells, Stone Mountain.
@@ -594,7 +594,7 @@ Witnessing at the UK concession
 
 #### 5th Place
 
-Church:	First A/G of Greater Lansing, East Lansing, MI
+* **Church**: First A/G of Greater Lansing, East Lansing, MI
 * **Coaches**:
   * Maureen Harr: 15 years as a TBQ coach, this will be her 6th Nationals.
   * Stephanie Harr (assistant)
@@ -604,35 +604,35 @@ Church:	First A/G of Greater Lansing, East Lansing, MI
     * Whitney Harr: 5 years as a quizzer, 1st time to Nationals. She has her NMA.
     * David Buffham: 4 years as a quizzer, 1st time to Nationals. Has memorized Corinthians
 * **Preliminaries**:
-Round 1: Lost to First A/G, Ashland, AL 45 to 110
-Round 2: Won against Abundant Life A/G, Grand Island, NE 235 to 110
-Round 3: Won against Christian Temple, Houston, TX 120 to 85
-Round 4: Lost to Praise A/G, Garfield, NJ 110 to 150
-Round 5: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 90 to 215
-Round 6: Lost to First A/G, "Donut Holes", Lexington, KY 15 to 125
-Round 7: Won against Faith A/G, Orlando, FL 160 to 140
-Round 8: Won against Living Hope Church, Colorado Springs, CO 175 to -5
-Round 9: Lost to Word of Life Church, Springfield, VA 30 to 150
+  * Round 1: Lost to First A/G, Ashland, AL 45 to 110
+  * Round 2: Won against Abundant Life A/G, Grand Island, NE 235 to 110
+  * Round 3: Won against Christian Temple, Houston, TX 120 to 85
+  * Round 4: Lost to Praise A/G, Garfield, NJ 110 to 150
+  * Round 5: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 90 to 215
+  * Round 6: Lost to First A/G, "Donut Holes", Lexington, KY 15 to 125
+  * Round 7: Won against Faith A/G, Orlando, FL 160 to 140
+  * Round 8: Won against Living Hope Church, Colorado Springs, CO 175 to -5
+  * Round 9: Lost to Word of Life Church, Springfield, VA 30 to 150
 * **Round Robin**:
-Round 1: Won against Orange County First A/G, Santa Ana, CA 140 to 15
-Round 2: Won against Evangel Community Church, Snellville, GA 175 to -5
-Round 3: Won against Racine A/G, Racine, WI 150 to 10
-Round 4: Won against Bethlehem Church, Richmond Hill, NY 80 to 5
-Round 5: Lost to Orange County Christian Evangelical Church, Irvine, CA 95 to 130
-Round 6: Lost to Faith A/G, West Plains, MO 25 to 220
-Round 7: Won against Crosspoint A/G, Portage, WI 175 to 100
-Round 8: Won against Abundant Life A/G, Grand Island, NE 185 to 110
-Round 9: Won against Living Hope Church, Colorado Springs, CO 80 to 45
-Round 10: Won against Paradise Hills A/G, Phoenix, AZ 155 to 150
-Round 11: Won against First A/G, Montgomery, AL 130 to 60
-Round 12: Won against First A/G, Ashland, AL 90 to 65
-Round 13: Won against The Church at Briargate, Colorado Springs, CO 125 to 75
-Round 14: Won against HighPoint Church, Oklahoma City, OK 205 to 45
-Round 15: Won against Berean A/G, Pleasant Hill, IA 115 to 65
-Round 16: Lost to Christian Temple, Houston, TX 90 to 105
-Round 17: Won against Radiant Life Church, Elkhart, IN 155 to 90
-Round 18: Won against First A/G, "Page 7", Lexington, KY 95 to 90
-Round 19: Won against Muskogee First A/G, Muskogee, OK 110 to 15
+  * Round 1: Won against Orange County First A/G, Santa Ana, CA 140 to 15
+  * Round 2: Won against Evangel Community Church, Snellville, GA 175 to -5
+  * Round 3: Won against Racine A/G, Racine, WI 150 to 10
+  * Round 4: Won against Bethlehem Church, Richmond Hill, NY 80 to 5
+  * Round 5: Lost to Orange County Christian Evangelical Church, Irvine, CA 95 to 130
+  * Round 6: Lost to Faith A/G, West Plains, MO 25 to 220
+  * Round 7: Won against Crosspoint A/G, Portage, WI 175 to 100
+  * Round 8: Won against Abundant Life A/G, Grand Island, NE 185 to 110
+  * Round 9: Won against Living Hope Church, Colorado Springs, CO 80 to 45
+  * Round 10: Won against Paradise Hills A/G, Phoenix, AZ 155 to 150
+  * Round 11: Won against First A/G, Montgomery, AL 130 to 60
+  * Round 12: Won against First A/G, Ashland, AL 90 to 65
+  * Round 13: Won against The Church at Briargate, Colorado Springs, CO 125 to 75
+  * Round 14: Won against HighPoint Church, Oklahoma City, OK 205 to 45
+  * Round 15: Won against Berean A/G, Pleasant Hill, IA 115 to 65
+  * Round 16: Lost to Christian Temple, Houston, TX 90 to 105
+  * Round 17: Won against Radiant Life Church, Elkhart, IN 155 to 90
+  * Round 18: Won against First A/G, "Page 7", Lexington, KY 95 to 90
+  * Round 19: Won against Muskogee First A/G, Muskogee, OK 110 to 15
 * **Team History**\
 This church has been to nationals five times previously (1998-2001 and 2003).
 * **Most exciting match this season**\
@@ -659,7 +659,7 @@ The quiz parties at the coach's home after almost every meet. Having a German ch
 
 #### 6th Place
 
-Church:	Radiant Life, Elkhart, IN
+* **Church**: Radiant Life, Elkhart, IN
 * **Coaches**:
   * John Hunter: I have been coaching in Bible Quiz since 1980. I have coached at Nationals 4 times before so this will be my 5th. I have also been the Great Lakes Regional Coordinator and the Indiana District coordinator for several years but I am not holding those positions any longer. I quizzed myself when I was an 8th grader but my team never did make it out of District back in those days.
   * Joann Schrock (assistant)
@@ -670,35 +670,35 @@ Church:	Radiant Life, Elkhart, IN
     * Joshua Utley: Joshua is in the 8th grade
     * Kenadee Schrock: Kenadee is an 8th grader.
 * **Preliminaries**:
-Round 1: Won against Evangel Community Church, Snellville, GA 105 to 80
-Round 2: Lost to Northside Family Worship Center, Cumming, GA -10 to 360
-Round 3: Lost to New Life A/G, White Cloud, MI -20 to 245
-Round 4: Lost to The Church at Briargate, Colorado Springs, CO 75 to 110
-Round 5: Lost to First A/G, Binghamton, NY 135 to 205
-Round 6: Lost to Braeswood A/G, Houston, TX 25 to 125
-Round 7: Won against Racine A/G, Racine, WI 55 to 45
-Round 8: Lost to Paradise Hills A/G, Phoenix, AZ 15 to 245
-Round 9: Lost to James River "Sufficient Grace", Ozark, MO 35 to 295
+  * Round 1: Won against Evangel Community Church, Snellville, GA 105 to 80
+  * Round 2: Lost to Northside Family Worship Center, Cumming, GA -10 to 360
+  * Round 3: Lost to New Life A/G, White Cloud, MI -20 to 245
+  * Round 4: Lost to The Church at Briargate, Colorado Springs, CO 75 to 110
+  * Round 5: Lost to First A/G, Binghamton, NY 135 to 205
+  * Round 6: Lost to Braeswood A/G, Houston, TX 25 to 125
+  * Round 7: Won against Racine A/G, Racine, WI 55 to 45
+  * Round 8: Lost to Paradise Hills A/G, Phoenix, AZ 15 to 245
+  * Round 9: Lost to James River "Sufficient Grace", Ozark, MO 35 to 295
 * **Round Robin**:
-Round 1: Won against Evangel Community Church, Snellville, GA 160 to 65
-Round 2: Won against Racine A/G, Racine, WI 90 to 40
-Round 3: Won against Bethlehem Church, Richmond Hill, NY 40 to 35
-Round 4: Lost to Orange County Christian Evangelical Church, Irvine, CA 50 to 145
-Round 5: Lost to Faith A/G, West Plains, MO 15 to 170
-Round 6: Lost to Crosspoint A/G, Portage, WI 20 to 100
-Round 7: Won against Abundant Life A/G, Grand Island, NE 120 to 115
-Round 8: Lost to Living Hope Church, Colorado Springs, CO 130 to 155
-Round 9: Lost to Paradise Hills A/G, Phoenix, AZ 75 to 130
-Round 10: Lost to First A/G, Montgomery, AL 20 to 190
-Round 11: Won against First A/G, Ashland, AL 145 to 105
-Round 12: Lost to The Church at Briargate, Colorado Springs, CO 45 to 200
-Round 13: Lost to HighPoint Church, Oklahoma City, OK 35 to 125
-Round 14: Lost to Berean A/G, Pleasant Hill, IA 85 to 150
-Round 15: Lost to Christian Temple, Houston, TX 45 to 110
-Round 16: Lost to First A/G, "Page 7", Lexington, KY 25 to 85
-Round 17: Lost to First A/G of Greater Lansing, East Lansing, MI 90 to 155
-Round 18: Won against Muskogee First A/G, Muskogee, OK 180 to 85
-Round 19: Lost to Orange County First A/G, Santa Ana, CA 75 to 165
+  * Round 1: Won against Evangel Community Church, Snellville, GA 160 to 65
+  * Round 2: Won against Racine A/G, Racine, WI 90 to 40
+  * Round 3: Won against Bethlehem Church, Richmond Hill, NY 40 to 35
+  * Round 4: Lost to Orange County Christian Evangelical Church, Irvine, CA 50 to 145
+  * Round 5: Lost to Faith A/G, West Plains, MO 15 to 170
+  * Round 6: Lost to Crosspoint A/G, Portage, WI 20 to 100
+  * Round 7: Won against Abundant Life A/G, Grand Island, NE 120 to 115
+  * Round 8: Lost to Living Hope Church, Colorado Springs, CO 130 to 155
+  * Round 9: Lost to Paradise Hills A/G, Phoenix, AZ 75 to 130
+  * Round 10: Lost to First A/G, Montgomery, AL 20 to 190
+  * Round 11: Won against First A/G, Ashland, AL 145 to 105
+  * Round 12: Lost to The Church at Briargate, Colorado Springs, CO 45 to 200
+  * Round 13: Lost to HighPoint Church, Oklahoma City, OK 35 to 125
+  * Round 14: Lost to Berean A/G, Pleasant Hill, IA 85 to 150
+  * Round 15: Lost to Christian Temple, Houston, TX 45 to 110
+  * Round 16: Lost to First A/G, "Page 7", Lexington, KY 25 to 85
+  * Round 17: Lost to First A/G of Greater Lansing, East Lansing, MI 90 to 155
+  * Round 18: Won against Muskogee First A/G, Muskogee, OK 180 to 85
+  * Round 19: Lost to Orange County First A/G, Santa Ana, CA 75 to 165
 * **Team History**\
 Jonathan and Makena quizzed at Regionals last year where we lost three play-off rounds and obviously didn't make it to Nationals. Both quizzers were not nearly as well prepared last year and have worked hard to make it happen this year. We did wind up tied for 6th this year but won the play-off with Lexington #1 (I think they were actually the #2 Lexington team). While I didn't expect to make it to Nationals, my quizzers really wanted to and worked very hard to be in the position to recieve a wild card. We are really pleased and excited for the opportunity to go. We had a very good year this year in League quizzing. We took first in our league but at District Finals, Lafayette, Indiana (our chief rival) played great at Districts and won first. We were actually given a wildcard to Regionals as we were the 4th place team in Indiana. We lost at Regionals to the 5th place team from Indiana who also recieved a wildcard but we beat Lafayette, Lakeview and Munster (they all beat us at District) to move ahead of them at the Great Lakes Region. We went to two Invitationals this year but were only about 50/50 in the win column. We did win a few big matches this year though. At the Gobblefest, we beat Sarver (usually they mop the floor with us) but we won on the last question. At the Great Lakes Region we beat Lexington's teams for the first time in some time. We won on the last question against their top team and edged their second team both in the round robin and in a playoff. We have not beaten Lexington very many times over the years so that was exciting as they are a team we look up to and like a lot.\
 \
@@ -726,7 +726,7 @@ I know that all of my quizzers are Christians and we have talked about our lives
 
 > *NOTE*: The two Lexington teams were mixed and matched this entire year, so some of the bio information has been doubled up.
 
-Church:	First A/G, "Page 7", Lexington, KY
+* **Church**: First A/G, "Page 7", Lexington, KY
 * **Coach**:
   * Becky Winckler: Been a coach for 6 years. She has coached a team every year at Regionals, but has only attended Nationals as an official. Her team is a young team: This is everyones' first year to Nationals as a quizzer.
 * **Team**:
@@ -736,35 +736,35 @@ Church:	First A/G, "Page 7", Lexington, KY
     * Olivia Cox: 9th grader, has memorized 6 books
     * Victoria Kelly: 8th grader, has memorized 2 books and Novice material last year.
 * **Preliminaries**:
-Round 1: Lost to Highpointe Church, Oklahoma City, OK 45 to 160
-Round 2: Lost to Faith A/G, West Plains, MO 15 to 185
-Round 3: Lost to Bellevue Neighborhood Church, Bellevue, WA 40 to 160
-Round 4: Lost to Meadowbrook Community Church, Champaign, IL 50 to 220
-Round 5: Lost to Berean A/G, Pleasant Hill, IA 50 to 145
-Round 6: Lost to Orange County First A/G, Santa Ana, CA 15 to 105
-Round 7: Lost to Overland Park A/G, Overland Park, KS 160 to 180
-Round 8: Lost to Victorious Life Church, Wesley Chapel, FL 110 to 200
-Round 9: Lost to Living Hope Worship Center, Swedesboro, NJ 55 to 165
+  * Round 1: Lost to Highpointe Church, Oklahoma City, OK 45 to 160
+  * Round 2: Lost to Faith A/G, West Plains, MO 15 to 185
+  * Round 3: Lost to Bellevue Neighborhood Church, Bellevue, WA 40 to 160
+  * Round 4: Lost to Meadowbrook Community Church, Champaign, IL 50 to 220
+  * Round 5: Lost to Berean A/G, Pleasant Hill, IA 50 to 145
+  * Round 6: Lost to Orange County First A/G, Santa Ana, CA 15 to 105
+  * Round 7: Lost to Overland Park A/G, Overland Park, KS 160 to 180
+  * Round 8: Lost to Victorious Life Church, Wesley Chapel, FL 110 to 200
+  * Round 9: Lost to Living Hope Worship Center, Swedesboro, NJ 55 to 165
 * **Round Robin**:
-Round 1: Lost to Muskogee First A/G, Muskogee, OK 125 to 135
-Round 2: Won against Paradise Hills A/G, Phoenix, AZ 75 to 50
-Round 3: Won against Orange County First A/G, Santa Ana, CA 90 to 75
-Round 4: Lost to First A/G, Montgomery, AL 40 to 160
-Round 5: Lost to Evangel Community Church, Snellville, GA 35 to 100
-Round 6: Won against First A/G, Ashland, AL 180 to 35
-Round 7: Lost to Racine A/G, Racine, WI 85 to 155
-Round 8: Lost to The Church at Briargate, Colorado Springs, CO 50 to 195
-Round 9: Won against Bethlehem Church, Richmond Hill, NY 235 to 5
-Round 10: Won against HighPoint Church, Oklahoma City, OK 155 to 95
-Round 11: Won against Orange County Christian Evangelical Church, Irvine, CA 135 to 125
-Round 12: Lost to Berean A/G, Pleasant Hill, IA 105 to 125
-Round 13: Lost to Faith A/G, West Plains, MO 5 to 125
-Round 14: Won against Christian Temple, Houston, TX 155 to 130
-Round 15: Lost to Crosspoint A/G, Portage, WI 65 to 85
-Round 16: Won against Radiant Life Church, Elkhart, IN 85 to 25
-Round 17: Lost to Abundant Life A/G, Grand Island, NE 85 to 105
-Round 18: Lost to First A/G of Greater Lansing, East Lansing, MI 90 to 95
-Round 19: Lost to Living Hope Church, Colorado Springs, CO 50 to 130
+  * Round 1: Lost to Muskogee First A/G, Muskogee, OK 125 to 135
+  * Round 2: Won against Paradise Hills A/G, Phoenix, AZ 75 to 50
+  * Round 3: Won against Orange County First A/G, Santa Ana, CA 90 to 75
+  * Round 4: Lost to First A/G, Montgomery, AL 40 to 160
+  * Round 5: Lost to Evangel Community Church, Snellville, GA 35 to 100
+  * Round 6: Won against First A/G, Ashland, AL 180 to 35
+  * Round 7: Lost to Racine A/G, Racine, WI 85 to 155
+  * Round 8: Lost to The Church at Briargate, Colorado Springs, CO 50 to 195
+  * Round 9: Won against Bethlehem Church, Richmond Hill, NY 235 to 5
+  * Round 10: Won against HighPoint Church, Oklahoma City, OK 155 to 95
+  * Round 11: Won against Orange County Christian Evangelical Church, Irvine, CA 135 to 125
+  * Round 12: Lost to Berean A/G, Pleasant Hill, IA 105 to 125
+  * Round 13: Lost to Faith A/G, West Plains, MO 5 to 125
+  * Round 14: Won against Christian Temple, Houston, TX 155 to 130
+  * Round 15: Lost to Crosspoint A/G, Portage, WI 65 to 85
+  * Round 16: Won against Radiant Life Church, Elkhart, IN 85 to 25
+  * Round 17: Lost to Abundant Life A/G, Grand Island, NE 85 to 105
+  * Round 18: Lost to First A/G of Greater Lansing, East Lansing, MI 90 to 95
+  * Round 19: Lost to Living Hope Church, Colorado Springs, CO 50 to 130
 * **Team History**\
 Lexington has sent twelve teams to nationals since 1996. They were also the national champions in 1997. Our team has enjoyed several aspects of Nationals. Playing games in the hallways with other teams. Competition at this level. Touring the different parts of the country. Car rides. But of all the times I've attended two as a coach, two times have stood out. The first being the time we were robbed and everything was stolen from our van. The Bible Quiz Ministry took an offering for our two teams and blessed us with more than enough to buy all that was needed for this trip and the mission trip we were heading to the day after Nationals. We had money left over and we used that to purchase baskets to give to everyone at Nationals when it came to Lexington. We felt so loved during a stressful time. The second time that stood out was the cruise in Seattle. Seeing quizzers enjoy the sunset, some worshiping -some talking, some playing cards.... it was a taste of heaven.
 * **Most exciting match this season**\
@@ -780,7 +780,7 @@ A mile long question asking which chapters shared section titles.
 * **Tournaments attended this year**:
   * [Michiana]({% link _pages/history/2010/tournaments/michiana.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * Atlanta Open
+  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
 * **Favorite non-quiz related moment this year**\
 This can be something that happened in a church van, in a hotel room, etc.- Our team stayed at a lake house at Regionals it was such a blessing.Other answers from various quizzers: listening to Geddy and Billy quoting in princess voices, hanging with quizzers at Panera, speed boat last year on the Dells, Stone Mountain.
@@ -797,7 +797,7 @@ Witnessing at the UK concession
 
 #### 1st Place
 
-Church:	James River A/G, "Perfect in Weakness", Ozark, MO
+* **Church**: James River A/G, "Perfect in Weakness", Ozark, MO
 * **Coach**:
   * Karl Dawson: A former quizzer for Central A/G in Springfield, MO in the 90s. His team was third place in 1996 and he placed in the top ten three times as an individual.
 * **Team**:
@@ -806,35 +806,35 @@ Church:	James River A/G, "Perfect in Weakness", Ozark, MO
     * Lauren Aubry: She received her NMA this year.
     * Autumn Rogers: She received her NMA this year.
 * **Preliminaries**:
-Round 1: Won against Praise A/G, Garfield, NJ 260 to 110
-Round 2: Won against Living Hope Church, Colorado Springs, CO 145 to 115
-Round 3: Won against Word of Life Church, Springfield, VA 280 to 35
-Round 4: Won against First A/G, Ashland, AL 295 to 60
-Round 5: Won against First A/G of Greater Lansing, East Lansing, MI 215 to 90
-Round 6: Won against Christian Temple, Houston, TX 185 to 10
-Round 7: Won against Abundant Life A/G, Grand Island, NE 135 to 105
-Round 8: Lost to First A/G, "Donut Holes", Lexington, KY 150 to 195
-Round 9: Lost to Faith A/G, Orlando, FL 155 to 230
+  * Round 1: Won against Praise A/G, Garfield, NJ 260 to 110
+  * Round 2: Won against Living Hope Church, Colorado Springs, CO 145 to 115
+  * Round 3: Won against Word of Life Church, Springfield, VA 280 to 35
+  * Round 4: Won against First A/G, Ashland, AL 295 to 60
+  * Round 5: Won against First A/G of Greater Lansing, East Lansing, MI 215 to 90
+  * Round 6: Won against Christian Temple, Houston, TX 185 to 10
+  * Round 7: Won against Abundant Life A/G, Grand Island, NE 135 to 105
+  * Round 8: Lost to First A/G, "Donut Holes", Lexington, KY 150 to 195
+  * Round 9: Lost to Faith A/G, Orlando, FL 155 to 230
 * **Round Robin**:
-Round 1: Lost to Cedar Park A/G, Bothell, WA 90 to 225
-Round 2: Won against Northside Family Worship Center, Cumming, GA 190 to 160
-Round 3: Lost to Dayspring A/G, Bowling Green, OH 85 to 180
-Round 4: Lost to Word of Life A/G, Springfield, VA 35 to 90
-Round 5: Won against Overland Park A/G, Overland Park, KS 125 to 5
-Round 6: Lost to Owasso First A/G, Owasso, OK 10 to 325
-Round 7: Lost to First A/G, Binghamton, NY 125 to 205
-Round 8: Lost to Manassas A/G, Bristow, VA 130 to 150
-Round 9: Won against First A/G, "Donut Holes", Lexington, KY 140 to 70
-Round 10: Lost to Central A/G, Springfield, MO 170 to 180
-Round 11: Lost to Praise A/G, Garfield, NJ 85 to 110
-Round 12: Lost to Faith A/G, Orlando, FL 150 to 155
-Round 13: Won against Braeswood A/G, Houston, TX 155 to 75
-Round 14: Lost to Meadowbrook A/G, Champaign, IL 100 to 205
-Round 15: Lost to Living Hope Church, Swedesboro, NJ 45 to 75
-Round 16: Lost to James River A/G, "Sufficient Grace", Ozark, MO 105 to 220
-Round 17: Lost to New Life A/G, White Cloud, MI 100 to 130
-Round 18: Won against Bellevue Neighborhood Church, Bellevue, WA 120 to 60
-Round 19: Lost to Victorious Life Church, Wesley Chapel, FL 115 to 225
+  * Round 1: Lost to Cedar Park A/G, Bothell, WA 90 to 225
+  * Round 2: Won against Northside Family Worship Center, Cumming, GA 190 to 160
+  * Round 3: Lost to Dayspring A/G, Bowling Green, OH 85 to 180
+  * Round 4: Lost to Word of Life A/G, Springfield, VA 35 to 90
+  * Round 5: Won against Overland Park A/G, Overland Park, KS 125 to 5
+  * Round 6: Lost to Owasso First A/G, Owasso, OK 10 to 325
+  * Round 7: Lost to First A/G, Binghamton, NY 125 to 205
+  * Round 8: Lost to Manassas A/G, Bristow, VA 130 to 150
+  * Round 9: Won against First A/G, "Donut Holes", Lexington, KY 140 to 70
+  * Round 10: Lost to Central A/G, Springfield, MO 170 to 180
+  * Round 11: Lost to Praise A/G, Garfield, NJ 85 to 110
+  * Round 12: Lost to Faith A/G, Orlando, FL 150 to 155
+  * Round 13: Won against Braeswood A/G, Houston, TX 155 to 75
+  * Round 14: Lost to Meadowbrook A/G, Champaign, IL 100 to 205
+  * Round 15: Lost to Living Hope Church, Swedesboro, NJ 45 to 75
+  * Round 16: Lost to James River A/G, "Sufficient Grace", Ozark, MO 105 to 220
+  * Round 17: Lost to New Life A/G, White Cloud, MI 100 to 130
+  * Round 18: Won against Bellevue Neighborhood Church, Bellevue, WA 120 to 60
+  * Round 19: Lost to Victorious Life Church, Wesley Chapel, FL 115 to 225
 * **Team History**\
 Prior to this year, James River has sent thirteen teams to nationals since 2001, with five of them placing in the top three. This is the first national finals for these quizzers.
 * **Most exciting match this season**\
@@ -864,7 +864,7 @@ Our team has done a lot of quoting in front of groups outside the church, and th
 
 #### 2nd Place
 
-Church:	James River A/G, "Sufficient Grace", Ozark, MO
+* **Church**: James River A/G, "Sufficient Grace", Ozark, MO
 * **Coaches**:
   * John Porter: John has been coaching for 26 years and this will be his 22nd consecutive year coaching at nationals (more than any other coach). Previously he coached at Allison Park, PA and Dunwoody, GA. He also coached the national championship team from Allison Park in 1995.
   * Amanda Pryor: Former national quizzer. Quizzed for five years, four at nationals with Fossil Creek in Fort Worth, TX. She has coached for 6 years at James River.
@@ -875,35 +875,35 @@ Church:	James River A/G, "Sufficient Grace", Ozark, MO
     * Hayley DePriest: This is her first trip to nationals. She has earned her NMA.
     * Natalie Garrison: This is her second trip to nationals. She has earned her MMA.
 * **Preliminaries**:
-Round 1: Won against First A/G, Binghamton, NY 170 to 40
-Round 2: Won against New Life A/G, White Cloud, MI 170 to 115
-Round 3: Won against Evangel Community Church, Snellville, GA 235 to 60
-Round 4: Won against Paradise Hills A/G, Phoenix, AZ 340 to 20
-Round 5: Won against Racine A/G, Racine, WI 260 to 80
-Round 6: Won against The Church at Briargate, Colorado Springs, CO 125 to 70
-Round 7: Won against Northside Family Worship Center, Cumming, GA 160 to 75
-Round 8: Lost to Braeswood A/G, Houston, TX 35 to 130
-Round 9: Won against Radiant Life, Elkhart, IN 295 to 35
+  * Round 1: Won against First A/G, Binghamton, NY 170 to 40
+  * Round 2: Won against New Life A/G, White Cloud, MI 170 to 115
+  * Round 3: Won against Evangel Community Church, Snellville, GA 235 to 60
+  * Round 4: Won against Paradise Hills A/G, Phoenix, AZ 340 to 20
+  * Round 5: Won against Racine A/G, Racine, WI 260 to 80
+  * Round 6: Won against The Church at Briargate, Colorado Springs, CO 125 to 70
+  * Round 7: Won against Northside Family Worship Center, Cumming, GA 160 to 75
+  * Round 8: Lost to Braeswood A/G, Houston, TX 35 to 130
+  * Round 9: Won against Radiant Life, Elkhart, IN 295 to 35
 * **Round Robin**:
-Round 1: Won against Central A/G, Springfield, MO 295 to 10
-Round 2: Won against Praise A/G, Garfield, NJ 205 to 105
-Round 3: Won against Faith A/G, Orlando, FL 180 to 80
-Round 4: Lost to Braeswood A/G, Houston, TX 85 to 145
-Round 5: Lost to Meadowbrook A/G, Champaign, IL 50 to 180
-Round 6: Won against Living Hope Church, Swedesboro, NJ 170 to 70
-Round 7: Won against Owasso First A/G, Owasso, OK 190 to 150
-Round 8: Won against New Life A/G, White Cloud, MI 195 to 115
-Round 9: Won against Bellevue Neighborhood Church, Bellevue, WA 230 to 45
-Round 10: Lost to Victorious Life Church, Wesley Chapel, FL 135 to 230
-Round 11: Lost to Cedar Park A/G, Bothell, WA 65 to 125
-Round 12: Won against Northside Family Worship Center, Cumming, GA 150 to 125
-Round 13: Won against Dayspring A/G, Bowling Green, OH 225 to 110
-Round 14: Won against Word of Life A/G, Springfield, VA 190 to 85
-Round 15: Lost to Overland Park A/G, Overland Park, KS 120 to 140
-Round 16: Won against James River A/G, "Perfect in Weakness", Ozark, MO 220 to 105
-Round 17: Lost to First A/G, Binghamton, NY 140 to 170
-Round 18: Won against Manassas A/G, Bristow, VA 180 to 40
-Round 19: Won against First A/G, "Donut Holes", Lexington, KY 225 to 155
+  * Round 1: Won against Central A/G, Springfield, MO 295 to 10
+  * Round 2: Won against Praise A/G, Garfield, NJ 205 to 105
+  * Round 3: Won against Faith A/G, Orlando, FL 180 to 80
+  * Round 4: Lost to Braeswood A/G, Houston, TX 85 to 145
+  * Round 5: Lost to Meadowbrook A/G, Champaign, IL 50 to 180
+  * Round 6: Won against Living Hope Church, Swedesboro, NJ 170 to 70
+  * Round 7: Won against Owasso First A/G, Owasso, OK 190 to 150
+  * Round 8: Won against New Life A/G, White Cloud, MI 195 to 115
+  * Round 9: Won against Bellevue Neighborhood Church, Bellevue, WA 230 to 45
+  * Round 10: Lost to Victorious Life Church, Wesley Chapel, FL 135 to 230
+  * Round 11: Lost to Cedar Park A/G, Bothell, WA 65 to 125
+  * Round 12: Won against Northside Family Worship Center, Cumming, GA 150 to 125
+  * Round 13: Won against Dayspring A/G, Bowling Green, OH 225 to 110
+  * Round 14: Won against Word of Life A/G, Springfield, VA 190 to 85
+  * Round 15: Lost to Overland Park A/G, Overland Park, KS 120 to 140
+  * Round 16: Won against James River A/G, "Perfect in Weakness", Ozark, MO 220 to 105
+  * Round 17: Lost to First A/G, Binghamton, NY 140 to 170
+  * Round 18: Won against Manassas A/G, Bristow, VA 180 to 40
+  * Round 19: Won against First A/G, "Donut Holes", Lexington, KY 225 to 155
 * **Team History**\
 James River has compete at every national finals since 2001, sending two teams in 2005, 2006, 2008 and 2009 as well as this year. One of their teams has finished in the top four in the championship division every year since 2005.
 * **Most exciting match this season**\
@@ -928,7 +928,7 @@ Danielle Brozovich quoted a chapter in front of her group for devotions in Costa
 
 #### 3rd Place
 
-Church:	Central A/G, Springfield, MO
+* **Church**: Central A/G, Springfield, MO
 * **Coaches**:
   * Richard Fair: A former national-level quizzer with King's Chapel in Springfield, MO. His team placed 5th and Richard placed 6th at the 2001 National Finals.
   * Christina Quick (assistant)
@@ -938,35 +938,35 @@ Church:	Central A/G, Springfield, MO
     * Matthew Klika: 3rd year at Nationals and received the NMA & MMA.
     * Daniel Quick: 1st year at Nationals and received the NMA & MMA.
 * **Preliminaries**:
-Round 1: Won against Manassas A/G, Bristow, VA 160 to 145
-Round 2: Won against First A/G, Montgomery, AL 250 to 35
-Round 3: Lost to Owasso First A/G, Owasso, OK 110 to 255
-Round 4: Lost to Dayspring A/G, Bowling Green, OH 105 to 190
-Round 5: Won against CrossPoint A/G, Portage, WI 320 to 30
-Round 6: Won against Orange County Christian Evangelical Church, Irvine, CA 150 to 110
-Round 7: Won against Bethlehem Church, Richmond Hill, NY 255 to 20
-Round 8: Won against Cedar Park Church, Bothell, WA 190 to 180
-Round 9: Won against Muskogee First A/G, Muskogee, OK 235 to 0
+  * Round 1: Won against Manassas A/G, Bristow, VA 160 to 145
+  * Round 2: Won against First A/G, Montgomery, AL 250 to 35
+  * Round 3: Lost to Owasso First A/G, Owasso, OK 110 to 255
+  * Round 4: Lost to Dayspring A/G, Bowling Green, OH 105 to 190
+  * Round 5: Won against CrossPoint A/G, Portage, WI 320 to 30
+  * Round 6: Won against Orange County Christian Evangelical Church, Irvine, CA 150 to 110
+  * Round 7: Won against Bethlehem Church, Richmond Hill, NY 255 to 20
+  * Round 8: Won against Cedar Park Church, Bothell, WA 190 to 180
+  * Round 9: Won against Muskogee First A/G, Muskogee, OK 235 to 0
 * **Round Robin**:
-Round 1: Lost to James River A/G, "Sufficient Grace", Ozark, MO 10 to 295
-Round 2: Won against New Life A/G, White Cloud, MI 210 to 40
-Round 3: Won against Bellevue Neighborhood Church, Bellevue, WA 100 to 40
-Round 4: Won against Victorious Life Church, Wesley Chapel, FL 215 to 145
-Round 5: Won against Cedar Park A/G, Bothell, WA 195 to 60
-Round 6: Won against Northside Family Worship Center, Cumming, GA 190 to 175
-Round 7: Lost to Dayspring A/G, Bowling Green, OH 125 to 165
-Round 8: Lost to Word of Life A/G, Springfield, VA 125 to 135
-Round 9: Won against Overland Park A/G, Overland Park, KS 130 to 100
-Round 10: Won against James River A/G, "Perfect in Weakness", Ozark, MO 180 to 170
-Round 11: Won against First A/G, Binghamton, NY 180 to 150
-Round 12: Lost to Manassas A/G, Bristow, VA 15 to 135
-Round 13: Won against First A/G, "Donut Holes", Lexington, KY 180 to 70
-Round 14: Lost to Owasso First A/G, Owasso, OK 140 to 145
-Round 15: Lost to Praise A/G, Garfield, NJ 30 to 240
-Round 16: Lost to Faith A/G, Orlando, FL 120 to 125
-Round 17: Lost to Braeswood A/G, Houston, TX 25 to 200
-Round 18: Won against Meadowbrook A/G, Champaign, IL 215 to 90
-Round 19: Won against Living Hope Church, Swedesboro, NJ 165 to 20
+  * Round 1: Lost to James River A/G, "Sufficient Grace", Ozark, MO 10 to 295
+  * Round 2: Won against New Life A/G, White Cloud, MI 210 to 40
+  * Round 3: Won against Bellevue Neighborhood Church, Bellevue, WA 100 to 40
+  * Round 4: Won against Victorious Life Church, Wesley Chapel, FL 215 to 145
+  * Round 5: Won against Cedar Park A/G, Bothell, WA 195 to 60
+  * Round 6: Won against Northside Family Worship Center, Cumming, GA 190 to 175
+  * Round 7: Lost to Dayspring A/G, Bowling Green, OH 125 to 165
+  * Round 8: Lost to Word of Life A/G, Springfield, VA 125 to 135
+  * Round 9: Won against Overland Park A/G, Overland Park, KS 130 to 100
+  * Round 10: Won against James River A/G, "Perfect in Weakness", Ozark, MO 180 to 170
+  * Round 11: Won against First A/G, Binghamton, NY 180 to 150
+  * Round 12: Lost to Manassas A/G, Bristow, VA 15 to 135
+  * Round 13: Won against First A/G, "Donut Holes", Lexington, KY 180 to 70
+  * Round 14: Lost to Owasso First A/G, Owasso, OK 140 to 145
+  * Round 15: Lost to Praise A/G, Garfield, NJ 30 to 240
+  * Round 16: Lost to Faith A/G, Orlando, FL 120 to 125
+  * Round 17: Lost to Braeswood A/G, Houston, TX 25 to 200
+  * Round 18: Won against Meadowbrook A/G, Champaign, IL 215 to 90
+  * Round 19: Won against Living Hope Church, Swedesboro, NJ 165 to 20
 * **Team History**\
 Central has competed at more national finals than any other team. Their first appearance was in 1976 when only eight teams went to nationals. They were the first team to appear at nationals for an entire cycle, from 1986 to 1993. They also went in 1995, sent two teams in 1996, went in 1997, 1999, 2000, 2001 and every year since 2008. Former team members include two top scorers, Jhan Hurst and Marcae Johnson, as well as Karl Dawson and website administrator Joey Bohanon. Central placed third in 1976, 1987, 1996 and 2000 and second in 1988 and 1997.
 * **Most exciting match this season**\
@@ -999,7 +999,7 @@ Many of the kids have used their Scriptural knowledge to support their faith whe
 
 #### 4th Place
 
-Church:	Faith A/G, West Plains, MO
+* **Church**: Faith A/G, West Plains, MO
 * **Coaches**:
   * Sarah George: This is will be her 7th year coaching and 5th straight year going to nationals. Sarah started out new to the Bible Quiz world, but in her first year she took her team to regionals in 2003.
   * Jonathan George (assistant): This will be his 5th nationals, 4 as a quizzer and first as a coach.
@@ -1010,37 +1010,37 @@ Church:	Faith A/G, West Plains, MO
     * Joshua George: This will be his 4th year going to nationals. He earned his MMA.
     * Sarah Murdy: This will be her first year going to nationals.
 * **Preliminaries**:
-Round 1: Won against Living Hope Worship Center, Swedesboro, NJ 100 to 10
-Round 2: Won against First A/G, "Page 7", Lexington, KY 185 to 15
-Round 3: Lost to Victorious Life Church, Wesley Chapel, FL 95 to 225
-Round 4: Lost to Overland Park A/G, Overland Park, KS -15 to 250
-Round 5: Won against Meadowbrook Community Church, Champaign, IL 165 to 120
-Round 6: Lost to Highpointe Church, Oklahoma City, OK 15 to 140
-Round 7: Won against Berean A/G, Pleasant Hill, IA 130 to 120
-Round 8: Won against Bellevue Neighborhood Church, Bellevue, WA 145 to 105
-Round 9: Lost to Orange County First A/G, Santa Ana, CA -10 to 185
-Playoff Round 2: Lost to Bellevue Neighborhood Church, Bellevue, WA
-Playoff Round 2: Lost to Living Hope Worship Center, Swedesboro, NJ
+  * Round 1: Won against Living Hope Worship Center, Swedesboro, NJ 100 to 10
+  * Round 2: Won against First A/G, "Page 7", Lexington, KY 185 to 15
+  * Round 3: Lost to Victorious Life Church, Wesley Chapel, FL 95 to 225
+  * Round 4: Lost to Overland Park A/G, Overland Park, KS -15 to 250
+  * Round 5: Won against Meadowbrook Community Church, Champaign, IL 165 to 120
+  * Round 6: Lost to Highpointe Church, Oklahoma City, OK 15 to 140
+  * Round 7: Won against Berean A/G, Pleasant Hill, IA 130 to 120
+  * Round 8: Won against Bellevue Neighborhood Church, Bellevue, WA 145 to 105
+  * Round 9: Lost to Orange County First A/G, Santa Ana, CA -10 to 185
+  * Playoff Round 2: Lost to Bellevue Neighborhood Church, Bellevue, WA
+  * Playoff Round 2: Lost to Living Hope Worship Center, Swedesboro, NJ
 * **Round Robin**:
-Round 1: Won against The Church at Briargate, Colorado Springs, CO 230 to 20
-Round 2: Lost to HighPoint Church, Oklahoma City, OK 75 to 140
-Round 3: Lost to Berean A/G, Pleasant Hill, IA 95 to 115
-Round 4: Lost to Christian Temple, Houston, TX 40 to 130
-Round 5: Won against Radiant Life Church, Elkhart, IN 170 to 15
-Round 6: Won against First A/G of Greater Lansing, East Lansing, MI 220 to 25
-Round 7: Lost to Muskogee First A/G, Muskogee, OK 105 to 165
-Round 8: Won against Orange County First A/G, Santa Ana, CA 205 to 40
-Round 9: Lost to Evangel Community Church, Snellville, GA 25 to 50
-Round 10: Lost to Racine A/G, Racine, WI 155 to 165
-Round 11: Won against Bethlehem Church, Richmond Hill, NY 145 to 130
-Round 12: Lost to Orange County Christian Evangelical Church, Irvine, CA 125 to 135
-Round 13: Won against First A/G, "Page 7", Lexington, KY 125 to 5
-Round 14: Lost to Crosspoint A/G, Portage, WI 85 to 120
-Round 15: Won against Abundant Life A/G, Grand Island, NE 205 to 50
-Round 16: Won against Living Hope Church, Colorado Springs, CO 130 to 120
-Round 17: Won against Paradise Hills A/G, Phoenix, AZ 185 to 85
-Round 18: Won against First A/G, Montgomery, AL 130 to 95
-Round 19: Won against First A/G, Ashland, AL 195 to 90
+  * Round 1: Won against The Church at Briargate, Colorado Springs, CO 230 to 20
+  * Round 2: Lost to HighPoint Church, Oklahoma City, OK 75 to 140
+  * Round 3: Lost to Berean A/G, Pleasant Hill, IA 95 to 115
+  * Round 4: Lost to Christian Temple, Houston, TX 40 to 130
+  * Round 5: Won against Radiant Life Church, Elkhart, IN 170 to 15
+  * Round 6: Won against First A/G of Greater Lansing, East Lansing, MI 220 to 25
+  * Round 7: Lost to Muskogee First A/G, Muskogee, OK 105 to 165
+  * Round 8: Won against Orange County First A/G, Santa Ana, CA 205 to 40
+  * Round 9: Lost to Evangel Community Church, Snellville, GA 25 to 50
+  * Round 10: Lost to Racine A/G, Racine, WI 155 to 165
+  * Round 11: Won against Bethlehem Church, Richmond Hill, NY 145 to 130
+  * Round 12: Lost to Orange County Christian Evangelical Church, Irvine, CA 125 to 135
+  * Round 13: Won against First A/G, "Page 7", Lexington, KY 125 to 5
+  * Round 14: Lost to Crosspoint A/G, Portage, WI 85 to 120
+  * Round 15: Won against Abundant Life A/G, Grand Island, NE 205 to 50
+  * Round 16: Won against Living Hope Church, Colorado Springs, CO 130 to 120
+  * Round 17: Won against Paradise Hills A/G, Phoenix, AZ 185 to 85
+  * Round 18: Won against First A/G, Montgomery, AL 130 to 95
+  * Round 19: Won against First A/G, Ashland, AL 195 to 90
 * **Team History**\
 West Plains started Bible Quiz in 2003 and in its first year made it to regionals. Ever since 2006 Sarah George has taken her team to Nationals five straight years. They have been in the challenger division twice and the championship division twice. Every nationals they have been in the top 10 in their division.
 * **Most exciting match this season**\
@@ -1065,7 +1065,7 @@ Jeremiah George started a Bible study before school that discussed 1 Corinthians
 
 #### 1st Place
 
-Church:	Berean A/G, Pleasant Hill, IA
+* **Church**: Berean A/G, Pleasant Hill, IA
 * **Coaches**:
   * Loren Plank: A former quizzer from Moberly, MO under coach Randly Lee from 1987 to 1990. He has one nationals appearance as a quizzer. This is his third trip to nationals as a coach.
   * Ed Sornberger (assistant): Second year as an assistant coach at nationals.
@@ -1074,35 +1074,35 @@ Church:	Berean A/G, Pleasant Hill, IA
     * Jenn Maki: This is her 3rd year in TBQ. She has received her NMA this year.
     * Michaela Plank: This is her 2nd year in TBQ. She has received her NMA and MMA this year.
 * **Preliminaries**:
-Round 1: Lost to Meadowbrook Community Church, Champaign, IL 85 to 190
-Round 2: Lost to Victorious Life Church, Wesley Chapel, FL 155 to 220
-Round 3: Lost to Living Hope Worship Center, Swedesboro, NJ 40 to 150
-Round 4: Won against Highpointe Church, Oklahoma City, OK 200 to 70
-Round 5: Won against First A/G, "Page 7", Lexington, KY 145 to 50
-Round 6: Lost to Bellevue Neighborhood Church, Bellevue, WA 30 to 70
-Round 7: Lost to Faith A/G, West Plains, MO 120 to 130
-Round 8: Won against Orange County First A/G, Santa Ana, CA 185 to 15
-Round 9: Lost to Overland Park A/G, Overland Park, KS 50 to 225
+  * Round 1: Lost to Meadowbrook Community Church, Champaign, IL 85 to 190
+  * Round 2: Lost to Victorious Life Church, Wesley Chapel, FL 155 to 220
+  * Round 3: Lost to Living Hope Worship Center, Swedesboro, NJ 40 to 150
+  * Round 4: Won against Highpointe Church, Oklahoma City, OK 200 to 70
+  * Round 5: Won against First A/G, "Page 7", Lexington, KY 145 to 50
+  * Round 6: Lost to Bellevue Neighborhood Church, Bellevue, WA 30 to 70
+  * Round 7: Lost to Faith A/G, West Plains, MO 120 to 130
+  * Round 8: Won against Orange County First A/G, Santa Ana, CA 185 to 15
+  * Round 9: Lost to Overland Park A/G, Overland Park, KS 50 to 225
 * **Round Robin**:
-Round 1: Won against Bethlehem Church, Richmond Hill, NY 160 to 130
-Round 2: Lost to Orange County Christian Evangelical Church, Irvine, CA 105 to 115
-Round 3: Won against Faith A/G, West Plains, MO 115 to 95
-Round 4: Won against Crosspoint A/G, Portage, WI 40 to 10
-Round 5: Lost to Abundant Life A/G, Grand Island, NE 70 to 90
-Round 6: Won against Living Hope Church, Colorado Springs, CO 95 to 90
-Round 7: Won against Paradise Hills A/G, Phoenix, AZ 180 to 90
-Round 8: Lost to First A/G, Montgomery, AL 70 to 195
-Round 9: Won against First A/G, Ashland, AL 195 to 50
-Round 10: Won against The Church at Briargate, Colorado Springs, CO 140 to 100
-Round 11: Lost to HighPoint Church, Oklahoma City, OK 80 to 140
-Round 12: Won against First A/G, "Page 7", Lexington, KY 125 to 105
-Round 13: Won against Christian Temple, Houston, TX 175 to 15
-Round 14: Won against Radiant Life Church, Elkhart, IN 150 to 85
-Round 15: Lost to First A/G of Greater Lansing, East Lansing, MI 65 to 115
-Round 16: Won against Muskogee First A/G, Muskogee, OK 95 to 10
-Round 17: Won against Orange County First A/G, Santa Ana, CA 100 to -35
-Round 18: Won against Evangel Community Church, Snellville, GA 125 to 105
-Round 19: Lost to Racine A/G, Racine, WI 50 to 115
+  * Round 1: Won against Bethlehem Church, Richmond Hill, NY 160 to 130
+  * Round 2: Lost to Orange County Christian Evangelical Church, Irvine, CA 105 to 115
+  * Round 3: Won against Faith A/G, West Plains, MO 115 to 95
+  * Round 4: Won against Crosspoint A/G, Portage, WI 40 to 10
+  * Round 5: Lost to Abundant Life A/G, Grand Island, NE 70 to 90
+  * Round 6: Won against Living Hope Church, Colorado Springs, CO 95 to 90
+  * Round 7: Won against Paradise Hills A/G, Phoenix, AZ 180 to 90
+  * Round 8: Lost to First A/G, Montgomery, AL 70 to 195
+  * Round 9: Won against First A/G, Ashland, AL 195 to 50
+  * Round 10: Won against The Church at Briargate, Colorado Springs, CO 140 to 100
+  * Round 11: Lost to HighPoint Church, Oklahoma City, OK 80 to 140
+  * Round 12: Won against First A/G, "Page 7", Lexington, KY 125 to 105
+  * Round 13: Won against Christian Temple, Houston, TX 175 to 15
+  * Round 14: Won against Radiant Life Church, Elkhart, IN 150 to 85
+  * Round 15: Lost to First A/G of Greater Lansing, East Lansing, MI 65 to 115
+  * Round 16: Won against Muskogee First A/G, Muskogee, OK 95 to 10
+  * Round 17: Won against Orange County First A/G, Santa Ana, CA 100 to -35
+  * Round 18: Won against Evangel Community Church, Snellville, GA 125 to 105
+  * Round 19: Lost to Racine A/G, Racine, WI 50 to 115
 * **Team History**\
 Our team is advancing to Nationals for the 3rd time. In 2007 we went as a one-man team (Jonathan Plank) to Tucson and won 8 rounds (Corydon, IA). In 2008, we went as a two man team to Green Bay and ranked 2nd to last (Chariton, IA). This year we are finally bringing a full team to Nationals in Deeeeetroit.
 * **Most exciting match this season**\
@@ -1132,7 +1132,7 @@ My wife and use Bible quiz as a ministry tool to teach and train the kids we hav
 
 #### 2nd Place
 
-Church:	CrossPoint A/G, Portage, WI
+* **Church**: CrossPoint A/G, Portage, WI
 * **Coach**:
   * Don Batty: This is his 37th year of coaching and his 4th year at nationals.
 * **Team**:
@@ -1141,35 +1141,35 @@ Church:	CrossPoint A/G, Portage, WI
     * Tyler Roesler
     * Ben Hazard
 * **Preliminaries**:
-Round 1: Lost to Dayspring A/G, Bowling Green, OH 25 to 160
-Round 2: Lost to Manassas A/G, Bristow, VA 40 to 210
-Round 3: Lost to Orange County Christian Evangelical Church, Irvine, CA 55 to 70
-Round 4: Won against First A/G, Montgomery, AL 160 to 45
-Round 5: Lost to Central A/G, Springfield, MO 30 to 320
-Round 6: Lost to Cedar Park Church, Bothell, WA 25 to 140
-Round 7: Lost to Owasso First A/G, Owasso, OK 30 to 275
-Round 8: Lost to Muskogee First A/G, Muskogee, OK 55 to 125
-Round 9: Won against Bethlehem Church, Richmond Hill, NY 105 to 10
+  * Round 1: Lost to Dayspring A/G, Bowling Green, OH 25 to 160
+  * Round 2: Lost to Manassas A/G, Bristow, VA 40 to 210
+  * Round 3: Lost to Orange County Christian Evangelical Church, Irvine, CA 55 to 70
+  * Round 4: Won against First A/G, Montgomery, AL 160 to 45
+  * Round 5: Lost to Central A/G, Springfield, MO 30 to 320
+  * Round 6: Lost to Cedar Park Church, Bothell, WA 25 to 140
+  * Round 7: Lost to Owasso First A/G, Owasso, OK 30 to 275
+  * Round 8: Lost to Muskogee First A/G, Muskogee, OK 55 to 125
+  * Round 9: Won against Bethlehem Church, Richmond Hill, NY 105 to 10
 * **Round Robin**:
-Round 1: Won against First A/G, Ashland, AL 105 to 20
-Round 2: Lost to The Church at Briargate, Colorado Springs, CO 60 to 160
-Round 3: Lost to HighPoint Church, Oklahoma City, OK 55 to 80
-Round 4: Lost to Berean A/G, Pleasant Hill, IA 10 to 40
-Round 5: Lost to Christian Temple, Houston, TX 20 to 85
-Round 6: Won against Radiant Life Church, Elkhart, IN 100 to 20
-Round 7: Lost to First A/G of Greater Lansing, East Lansing, MI 100 to 175
-Round 8: Lost to Muskogee First A/G, Muskogee, OK 40 to 60
-Round 9: Won against Orange County First A/G, Santa Ana, CA 95 to 85
-Round 10: Won against Evangel Community Church, Snellville, GA 135 to 65
-Round 11: Won against Racine A/G, Racine, WI 175 to 45
-Round 12: Lost to Bethlehem Church, Richmond Hill, NY 75 to 85
-Round 13: Won against Orange County Christian Evangelical Church, Irvine, CA 80 to 65
-Round 14: Won against Faith A/G, West Plains, MO 120 to 85
-Round 15: Won against First A/G, "Page 7", Lexington, KY 85 to 65
-Round 16: Lost to Abundant Life A/G, Grand Island, NE 80 to 105
-Round 17: Lost to Living Hope Church, Colorado Springs, CO 110 to 140
-Round 18: Lost to Paradise Hills A/G, Phoenix, AZ 40 to 160
-Round 19: Lost to First A/G, Montgomery, AL 50 to 85
+  * Round 1: Won against First A/G, Ashland, AL 105 to 20
+  * Round 2: Lost to The Church at Briargate, Colorado Springs, CO 60 to 160
+  * Round 3: Lost to HighPoint Church, Oklahoma City, OK 55 to 80
+  * Round 4: Lost to Berean A/G, Pleasant Hill, IA 10 to 40
+  * Round 5: Lost to Christian Temple, Houston, TX 20 to 85
+  * Round 6: Won against Radiant Life Church, Elkhart, IN 100 to 20
+  * Round 7: Lost to First A/G of Greater Lansing, East Lansing, MI 100 to 175
+  * Round 8: Lost to Muskogee First A/G, Muskogee, OK 40 to 60
+  * Round 9: Won against Orange County First A/G, Santa Ana, CA 95 to 85
+  * Round 10: Won against Evangel Community Church, Snellville, GA 135 to 65
+  * Round 11: Won against Racine A/G, Racine, WI 175 to 45
+  * Round 12: Lost to Bethlehem Church, Richmond Hill, NY 75 to 85
+  * Round 13: Won against Orange County Christian Evangelical Church, Irvine, CA 80 to 65
+  * Round 14: Won against Faith A/G, West Plains, MO 120 to 85
+  * Round 15: Won against First A/G, "Page 7", Lexington, KY 85 to 65
+  * Round 16: Lost to Abundant Life A/G, Grand Island, NE 80 to 105
+  * Round 17: Lost to Living Hope Church, Colorado Springs, CO 110 to 140
+  * Round 18: Lost to Paradise Hills A/G, Phoenix, AZ 40 to 160
+  * Round 19: Lost to First A/G, Montgomery, AL 50 to 85
 * **Team History**\
 This team competed in the championship division in 2006 and 2008, when they placed 20th and 11th.
 * **Most exciting match this season**\
@@ -1196,7 +1196,7 @@ Witnessing and sharing opportunities at school. They all attend public school an
 
 #### 4th Place
 
-Church:	Racine A/G, Racine, WI
+* **Church**: Racine A/G, Racine, WI
 * **Coaches**:
   * Courtney Cobb: A former quizzer from Racine A/G. This is her 4th year coaching and her second time coaching at Nationals. She also quizzed twice at nationals in 1997 and 1998.
   * Sue Toeller (assistant)
@@ -1206,35 +1206,35 @@ Church:	Racine A/G, Racine, WI
     * Nathan Dahlin: This is his 4th year quizzing and 2nd year attending Nationals. He received his NMA.
     * Ryan Toeller: This is his 3rd year quizzing and 2nd year attending Nationals. He received his NMA.
 * **Preliminaries**:
-Round 1: Lost to New Life A/G, White Cloud, MI 65 to 170
-Round 2: Won against Paradise Hills A/G, Phoenix, AZ 40 to 30
-Round 3: Lost to Northside Family Worship Center, Cumming, GA 0 to 300
-Round 4: Lost to First A/G, Binghamton, NY 150 to 155
-Round 5: Lost to James River "Sufficient Grace", Ozark, MO 80 to 260
-Round 6: Lost to Evangel Community Church, Snellville, GA 0 to 65
-Round 7: Lost to Radiant Life, Elkhart, IN 45 to 55
-Round 8: Won against The Church at Briargate, Colorado Springs, CO 125 to 55
-Round 9: Lost to Braeswood A/G, Houston, TX 10 to 265
+  * Round 1: Lost to New Life A/G, White Cloud, MI 65 to 170
+  * Round 2: Won against Paradise Hills A/G, Phoenix, AZ 40 to 30
+  * Round 3: Lost to Northside Family Worship Center, Cumming, GA 0 to 300
+  * Round 4: Lost to First A/G, Binghamton, NY 150 to 155
+  * Round 5: Lost to James River "Sufficient Grace", Ozark, MO 80 to 260
+  * Round 6: Lost to Evangel Community Church, Snellville, GA 0 to 65
+  * Round 7: Lost to Radiant Life, Elkhart, IN 45 to 55
+  * Round 8: Won against The Church at Briargate, Colorado Springs, CO 125 to 55
+  * Round 9: Lost to Braeswood A/G, Houston, TX 10 to 265
 * **Round Robin**:
-Round 1: Won against Christian Temple, Houston, TX 115 to 60
-Round 2: Lost to Radiant Life Church, Elkhart, IN 40 to 90
-Round 3: Lost to First A/G of Greater Lansing, East Lansing, MI 10 to 150
-Round 4: Lost to Muskogee First A/G, Muskogee, OK -5 to 0
-Round 5: Won against Orange County First A/G, Santa Ana, CA 150 to 20
-Round 6: Won against Evangel Community Church, Snellville, GA 115 to 60
-Round 7: Won against First A/G, "Page 7", Lexington, KY 155 to 85
-Round 8: Lost to Bethlehem Church, Richmond Hill, NY 85 to 90
-Round 9: Lost to Orange County Christian Evangelical Church, Irvine, CA 25 to 135
-Round 10: Won against Faith A/G, West Plains, MO 165 to 155
-Round 11: Lost to Crosspoint A/G, Portage, WI 45 to 175
-Round 12: Lost to Abundant Life A/G, Grand Island, NE 65 to 120
-Round 13: Won against Living Hope Church, Colorado Springs, CO 150 to 5
-Round 14: Lost to Paradise Hills A/G, Phoenix, AZ 90 to 190
-Round 15: Lost to First A/G, Montgomery, AL 45 to 105
-Round 16: Won against First A/G, Ashland, AL 65 to 20
-Round 17: Won against The Church at Briargate, Colorado Springs, CO 100 to 15
-Round 18: Won against HighPoint Church, Oklahoma City, OK 55 to 50
-Round 19: Won against Berean A/G, Pleasant Hill, IA 115 to 50
+  * Round 1: Won against Christian Temple, Houston, TX 115 to 60
+  * Round 2: Lost to Radiant Life Church, Elkhart, IN 40 to 90
+  * Round 3: Lost to First A/G of Greater Lansing, East Lansing, MI 10 to 150
+  * Round 4: Lost to Muskogee First A/G, Muskogee, OK -5 to 0
+  * Round 5: Won against Orange County First A/G, Santa Ana, CA 150 to 20
+  * Round 6: Won against Evangel Community Church, Snellville, GA 115 to 60
+  * Round 7: Won against First A/G, "Page 7", Lexington, KY 155 to 85
+  * Round 8: Lost to Bethlehem Church, Richmond Hill, NY 85 to 90
+  * Round 9: Lost to Orange County Christian Evangelical Church, Irvine, CA 25 to 135
+  * Round 10: Won against Faith A/G, West Plains, MO 165 to 155
+  * Round 11: Lost to Crosspoint A/G, Portage, WI 45 to 175
+  * Round 12: Lost to Abundant Life A/G, Grand Island, NE 65 to 120
+  * Round 13: Won against Living Hope Church, Colorado Springs, CO 150 to 5
+  * Round 14: Lost to Paradise Hills A/G, Phoenix, AZ 90 to 190
+  * Round 15: Lost to First A/G, Montgomery, AL 45 to 105
+  * Round 16: Won against First A/G, Ashland, AL 65 to 20
+  * Round 17: Won against The Church at Briargate, Colorado Springs, CO 100 to 15
+  * Round 18: Won against HighPoint Church, Oklahoma City, OK 55 to 50
+  * Round 19: Won against Berean A/G, Pleasant Hill, IA 115 to 50
 * **Team History**\
 This will be Racine's fourth time attending Nationals. We also attended in 1997, 1998, and 2009.
 * **Most exciting match this season**\
@@ -1265,7 +1265,7 @@ For Nathan there have been situations which have come up where scriptures he has
 
 #### 5th Place
 
-Church:	Abundant Life A/G, Grand Island, NE
+* **Church**: Abundant Life A/G, Grand Island, NE
 * **Coach**:
   * Dale Beye: Fantastically humble man, desperately working to outdo the former coach Paul Hofrichter (who took the team undefeated to Regionals). Dale has been around Bible Quiz for 7 years, his son having gotten involved during the books of Hebrews/1 & 2 Peter. This will be Dale's 2nd trip to Nationals.
 * **Team**:
@@ -1274,35 +1274,35 @@ Church:	Abundant Life A/G, Grand Island, NE
     * Tori Beye: a fourth year quizzer, this will be her third trip to Nationals, she also earned the NMA.
     * Hans Epp: also a second year quizzer going to Nationals for the first time.
 * **Preliminaries**:
-Round 1: Lost to Word of Life Church, Springfield, VA 140 to 150
-Round 2: Lost to First A/G of Greater Lansing, East Lansing, MI 110 to 235
-Round 3: Lost to Living Hope Church, Colorado Springs, CO 100 to 115
-Round 4: Lost to Faith A/G, Orlando, FL 125 to 165
-Round 5: Lost to Praise A/G, Garfield, NJ 15 to 330
-Round 6: Lost to First A/G, Ashland, AL 50 to 85
-Round 7: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 105 to 135
-Round 8: Lost to Christian Temple, Houston, TX 40 to 210
-Round 9: Lost to First A/G, "Donut Holes", Lexington, KY 115 to 155
+  * Round 1: Lost to Word of Life Church, Springfield, VA 140 to 150
+  * Round 2: Lost to First A/G of Greater Lansing, East Lansing, MI 110 to 235
+  * Round 3: Lost to Living Hope Church, Colorado Springs, CO 100 to 115
+  * Round 4: Lost to Faith A/G, Orlando, FL 125 to 165
+  * Round 5: Lost to Praise A/G, Garfield, NJ 15 to 330
+  * Round 6: Lost to First A/G, Ashland, AL 50 to 85
+  * Round 7: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 105 to 135
+  * Round 8: Lost to Christian Temple, Houston, TX 40 to 210
+  * Round 9: Lost to First A/G, "Donut Holes", Lexington, KY 115 to 155
 * **Round Robin**:
-Round 1: Lost to First A/G, Montgomery, AL -25 to 170
-Round 2: Lost to First A/G, Ashland, AL -15 to 95
-Round 3: Won against The Church at Briargate, Colorado Springs, CO 80 to 75
-Round 4: Won against HighPoint Church, Oklahoma City, OK 140 to 65
-Round 5: Won against Berean A/G, Pleasant Hill, IA 90 to 70
-Round 6: Lost to Christian Temple, Houston, TX 45 to 85
-Round 7: Lost to Radiant Life Church, Elkhart, IN 115 to 120
-Round 8: Lost to First A/G of Greater Lansing, East Lansing, MI 110 to 185
-Round 9: Lost to Muskogee First A/G, Muskogee, OK 50 to 125
-Round 10: Lost to Orange County First A/G, Santa Ana, CA 90 to 150
-Round 11: Won against Evangel Community Church, Snellville, GA 130 to 105
-Round 12: Won against Racine A/G, Racine, WI 120 to 65
-Round 13: Won against Bethlehem Church, Richmond Hill, NY 120 to 25
-Round 14: Lost to Orange County Christian Evangelical Church, Irvine, CA 125 to 145
-Round 15: Lost to Faith A/G, West Plains, MO 50 to 205
-Round 16: Won against Crosspoint A/G, Portage, WI 105 to 80
-Round 17: Won against First A/G, "Page 7", Lexington, KY 105 to 85
-Round 18: Lost to Living Hope Church, Colorado Springs, CO 20 to 220
-Round 19: Lost to Paradise Hills A/G, Phoenix, AZ 35 to 205
+  * Round 1: Lost to First A/G, Montgomery, AL -25 to 170
+  * Round 2: Lost to First A/G, Ashland, AL -15 to 95
+  * Round 3: Won against The Church at Briargate, Colorado Springs, CO 80 to 75
+  * Round 4: Won against HighPoint Church, Oklahoma City, OK 140 to 65
+  * Round 5: Won against Berean A/G, Pleasant Hill, IA 90 to 70
+  * Round 6: Lost to Christian Temple, Houston, TX 45 to 85
+  * Round 7: Lost to Radiant Life Church, Elkhart, IN 115 to 120
+  * Round 8: Lost to First A/G of Greater Lansing, East Lansing, MI 110 to 185
+  * Round 9: Lost to Muskogee First A/G, Muskogee, OK 50 to 125
+  * Round 10: Lost to Orange County First A/G, Santa Ana, CA 90 to 150
+  * Round 11: Won against Evangel Community Church, Snellville, GA 130 to 105
+  * Round 12: Won against Racine A/G, Racine, WI 120 to 65
+  * Round 13: Won against Bethlehem Church, Richmond Hill, NY 120 to 25
+  * Round 14: Lost to Orange County Christian Evangelical Church, Irvine, CA 125 to 145
+  * Round 15: Lost to Faith A/G, West Plains, MO 50 to 205
+  * Round 16: Won against Crosspoint A/G, Portage, WI 105 to 80
+  * Round 17: Won against First A/G, "Page 7", Lexington, KY 105 to 85
+  * Round 18: Lost to Living Hope Church, Colorado Springs, CO 20 to 220
+  * Round 19: Lost to Paradise Hills A/G, Phoenix, AZ 35 to 205
 * **Team History**\
 This will be the third time the Swordmasters (aka "Bringers of Cookies") have been to National finals. A highlight being that they went undefeated at Regionals in '09.
 * **Most exciting match this season**\
@@ -1330,7 +1330,7 @@ All the practical times we've found to quote 2nd Corinthians 12:1a.
 
 #### 1st Place
 
-Church:	Praise A/G, Garfield, NJ
+* **Church**: Praise A/G, Garfield, NJ
 * **Coaches**:
   * Tammy Yukon: A former quizzer from Sherman, NY in the 80s. She has coached for eight years, five of those at Nationals.
   * Jesse Czubkowski (assistant): A former quizzer from Garfield, NJ in 2006 and 2007. Three years as a coach, all three years ending at Nationals.
@@ -1340,35 +1340,35 @@ Church:	Praise A/G, Garfield, NJ
     * Christopher Galea: Quizzed for three years, attending Nationals once. He received both his NMA and MMA this year.
     * Kyler Sederwall: Quizzed for four years, attending Nationals twice. He received both his NMA and MMA this year.
 * **Preliminaries**:
-Round 1: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 110 to 260
-Round 2: Won against First A/G, Ashland, AL 290 to 10
-Round 3: Won against First A/G, "Donut Holes", Lexington, KY 225 to 110
-Round 4: Won against First A/G of Greater Lansing, East Lansing, MI 150 to 110
-Round 5: Won against Abundant Life A/G, Grand Island, NE 330 to 15
-Round 6: Won against Word of Life Church, Springfield, VA 330 to -10
-Round 7: Won against Christian Temple, Houston, TX 305 to 5
-Round 8: Won against Faith A/G, Orlando, FL 125 to 75
-Round 9: Won against Living Hope Church, Colorado Springs, CO 290 to 20
+  * Round 1: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 110 to 260
+  * Round 2: Won against First A/G, Ashland, AL 290 to 10
+  * Round 3: Won against First A/G, "Donut Holes", Lexington, KY 225 to 110
+  * Round 4: Won against First A/G of Greater Lansing, East Lansing, MI 150 to 110
+  * Round 5: Won against Abundant Life A/G, Grand Island, NE 330 to 15
+  * Round 6: Won against Word of Life Church, Springfield, VA 330 to -10
+  * Round 7: Won against Christian Temple, Houston, TX 305 to 5
+  * Round 8: Won against Faith A/G, Orlando, FL 125 to 75
+  * Round 9: Won against Living Hope Church, Colorado Springs, CO 290 to 20
 * **Round Robin**:
-Round 1: Won against Living Hope Church, Swedesboro, NJ 250 to 55
-Round 2: Lost to James River A/G, "Sufficient Grace", Ozark, MO 105 to 205
-Round 3: Won against New Life A/G, White Cloud, MI 140 to 90
-Round 4: Won against Bellevue Neighborhood Church, Bellevue, WA 170 to 15
-Round 5: Won against Victorious Life Church, Wesley Chapel, FL 170 to 20
-Round 6: Won against Cedar Park A/G, Bothell, WA 265 to 30
-Round 7: Won against Northside Family Worship Center, Cumming, GA 140 to 125
-Round 8: Won against Dayspring A/G, Bowling Green, OH 175 to 110
-Round 9: Won against Word of Life A/G, Springfield, VA 140 to 5
-Round 10: Won against Overland Park A/G, Overland Park, KS 270 to 60
-Round 11: Won against James River A/G, "Perfect in Weakness", Ozark, MO 110 to 85
-Round 12: Won against First A/G, Binghamton, NY 245 to 65
-Round 13: Won against Manassas A/G, Bristow, VA 230 to 5
-Round 14: Won against First A/G, "Donut Holes", Lexington, KY 215 to 90
-Round 15: Won against Central A/G, Springfield, MO 240 to 30
-Round 16: Lost to Owasso First A/G, Owasso, OK 100 to 235
-Round 17: Lost to Faith A/G, Orlando, FL 120 to 125
-Round 18: Won against Braeswood A/G, Houston, TX 70 to 20
-Round 19: Won against Meadowbrook A/G, Champaign, IL 210 to 65
+  * Round 1: Won against Living Hope Church, Swedesboro, NJ 250 to 55
+  * Round 2: Lost to James River A/G, "Sufficient Grace", Ozark, MO 105 to 205
+  * Round 3: Won against New Life A/G, White Cloud, MI 140 to 90
+  * Round 4: Won against Bellevue Neighborhood Church, Bellevue, WA 170 to 15
+  * Round 5: Won against Victorious Life Church, Wesley Chapel, FL 170 to 20
+  * Round 6: Won against Cedar Park A/G, Bothell, WA 265 to 30
+  * Round 7: Won against Northside Family Worship Center, Cumming, GA 140 to 125
+  * Round 8: Won against Dayspring A/G, Bowling Green, OH 175 to 110
+  * Round 9: Won against Word of Life A/G, Springfield, VA 140 to 5
+  * Round 10: Won against Overland Park A/G, Overland Park, KS 270 to 60
+  * Round 11: Won against James River A/G, "Perfect in Weakness", Ozark, MO 110 to 85
+  * Round 12: Won against First A/G, Binghamton, NY 245 to 65
+  * Round 13: Won against Manassas A/G, Bristow, VA 230 to 5
+  * Round 14: Won against First A/G, "Donut Holes", Lexington, KY 215 to 90
+  * Round 15: Won against Central A/G, Springfield, MO 240 to 30
+  * Round 16: Lost to Owasso First A/G, Owasso, OK 100 to 235
+  * Round 17: Lost to Faith A/G, Orlando, FL 120 to 125
+  * Round 18: Won against Braeswood A/G, Houston, TX 70 to 20
+  * Round 19: Won against Meadowbrook A/G, Champaign, IL 210 to 65
 * **Team History**\
 The ministry at Garfield, NJ has been blessed to send teams to Nationals for 5 years. They finished 3rd in the Challenger bracket in 2006 and 5th in the Championship bracket in 2009. Jesse was also the fourth place quizzer in 2007.
 * **Most exciting match this season**\
@@ -1382,7 +1382,7 @@ Nothing too ingenious this season, although we have hotly debated whether the Ho
   * [Gobblefest]({% link _pages/history/2010/tournaments/gobblefest.md %})
   * Southern Fried Classic
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * [Three Rivers Tournament]({% link _pages/history/2010/tournaments/three-rivers.md %})
+  * [Three Rivers]({% link _pages/history/2010/tournaments/three-rivers.md %})
 * **Favorite non-quiz related moment this year**\
 Attending a Mavericks game in Dallas, TX while in town for the Southern Fried Classic.
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
@@ -1396,7 +1396,7 @@ The best example would be witnessing to the hotel staff at places we've stayed t
 
 #### 2nd Place
 
-Church:	First A/G, Binghamton, NY
+* **Church**: First A/G, Binghamton, NY
 * **Coaches**:
   * Hank Ward: This is Hank's fifth consecutive year as a head coach at national finals in five total years of coaching. He is the father of former national quizzer LaJoie Ward and current national quizzer Isaac Ward
   * Annette Ward (assistant): Annette is Hank's wife and faithful assistant coach. She is the coordinator of the Teen Bible Quiz ministry at First Assembly.
@@ -1406,35 +1406,35 @@ Church:	First A/G, Binghamton, NY
     * Victoria Myrick: This is Victoria's fourth year quizzing with First Assembly, as well as her fourth year competing at the National level. She received her NMA.
     * Isaac Ward: Isaac quizzed for two years in Novice before moving up to A League in 2008. This will be his third consecutive year at National Finals. Isaac received his NMA, MMA, and the Discipleship Award.
 * **Preliminaries**:
-Round 1: Lost to James River "Sufficient Grace", Ozark, MO 40 to 170
-Round 2: Won against The Church at Briargate, Colorado Springs, CO 195 to 60
-Round 3: Lost to Braeswood A/G, Houston, TX 65 to 195
-Round 4: Won against Racine A/G, Racine, WI 155 to 150
-Round 5: Won against Radiant Life, Elkhart, IN 205 to 135
-Round 6: Lost to New Life A/G, White Cloud, MI 70 to 230
-Round 7: Won against Paradise Hills A/G, Phoenix, AZ 195 to 85
-Round 8: Won against Evangel Community Church, Snellville, GA 270 to -5
-Round 9: Won against Northside Family Worship Center, Cumming, GA 170 to 155
+  * Round 1: Lost to James River "Sufficient Grace", Ozark, MO 40 to 170
+  * Round 2: Won against The Church at Briargate, Colorado Springs, CO 195 to 60
+  * Round 3: Lost to Braeswood A/G, Houston, TX 65 to 195
+  * Round 4: Won against Racine A/G, Racine, WI 155 to 150
+  * Round 5: Won against Radiant Life, Elkhart, IN 205 to 135
+  * Round 6: Lost to New Life A/G, White Cloud, MI 70 to 230
+  * Round 7: Won against Paradise Hills A/G, Phoenix, AZ 195 to 85
+  * Round 8: Won against Evangel Community Church, Snellville, GA 270 to -5
+  * Round 9: Won against Northside Family Worship Center, Cumming, GA 170 to 155
 * **Round Robin**:
-Round 1: Lost to Victorious Life Church, Wesley Chapel, FL 90 to 205
-Round 2: Won against Cedar Park A/G, Bothell, WA 160 to 150
-Round 3: Lost to Northside Family Worship Center, Cumming, GA 130 to 220
-Round 4: Lost to Dayspring A/G, Bowling Green, OH 165 to 185
-Round 5: Won against Word of Life A/G, Springfield, VA 145 to 60
-Round 6: Lost to Overland Park A/G, Overland Park, KS 85 to 135
-Round 7: Won against James River A/G, "Perfect in Weakness", Ozark, MO 205 to 125
-Round 8: Lost to Owasso First A/G, Owasso, OK 85 to 210
-Round 9: Won against Manassas A/G, Bristow, VA 170 to 85
-Round 10: Won against First A/G, "Donut Holes", Lexington, KY 155 to 150
-Round 11: Lost to Central A/G, Springfield, MO 150 to 180
-Round 12: Lost to Praise A/G, Garfield, NJ 65 to 245
-Round 13: Lost to Faith A/G, Orlando, FL 10 to 130
-Round 14: Lost to Braeswood A/G, Houston, TX 75 to 245
-Round 15: Lost to Meadowbrook A/G, Champaign, IL 75 to 200
-Round 16: Won against Living Hope Church, Swedesboro, NJ 160 to 150
-Round 17: Won against James River A/G, "Sufficient Grace", Ozark, MO 170 to 140
-Round 18: Won against New Life A/G, White Cloud, MI 160 to 70
-Round 19: Won against Bellevue Neighborhood Church, Bellevue, WA 200 to 160
+  * Round 1: Lost to Victorious Life Church, Wesley Chapel, FL 90 to 205
+  * Round 2: Won against Cedar Park A/G, Bothell, WA 160 to 150
+  * Round 3: Lost to Northside Family Worship Center, Cumming, GA 130 to 220
+  * Round 4: Lost to Dayspring A/G, Bowling Green, OH 165 to 185
+  * Round 5: Won against Word of Life A/G, Springfield, VA 145 to 60
+  * Round 6: Lost to Overland Park A/G, Overland Park, KS 85 to 135
+  * Round 7: Won against James River A/G, "Perfect in Weakness", Ozark, MO 205 to 125
+  * Round 8: Lost to Owasso First A/G, Owasso, OK 85 to 210
+  * Round 9: Won against Manassas A/G, Bristow, VA 170 to 85
+  * Round 10: Won against First A/G, "Donut Holes", Lexington, KY 155 to 150
+  * Round 11: Lost to Central A/G, Springfield, MO 150 to 180
+  * Round 12: Lost to Praise A/G, Garfield, NJ 65 to 245
+  * Round 13: Lost to Faith A/G, Orlando, FL 10 to 130
+  * Round 14: Lost to Braeswood A/G, Houston, TX 75 to 245
+  * Round 15: Lost to Meadowbrook A/G, Champaign, IL 75 to 200
+  * Round 16: Won against Living Hope Church, Swedesboro, NJ 160 to 150
+  * Round 17: Won against James River A/G, "Sufficient Grace", Ozark, MO 170 to 140
+  * Round 18: Won against New Life A/G, White Cloud, MI 160 to 70
+  * Round 19: Won against Bellevue Neighborhood Church, Bellevue, WA 200 to 160
 * **Team History**\
 This is First Assembly's fifth appearance at National Finals. The team has been in Championship bracket three times, and has placed in the top 10 once. The team also placed first in Challenger in 2007.
 * **Most exciting match this season**\
@@ -1462,7 +1462,7 @@ During the quote-a-thon, when the quizzers ask for sponsors, they often quote so
 
 #### 3rd Place
 
-Church:		Manassas A/G, Bristow, VA
+* **Church**:  Manassas A/G, Bristow, VA
 * **Coaches**:
   * Lindsey Brower: A former national quizzer from Manassas A/G. This is her second year coaching, both times at Nationals. She received both her NMA and her MMA this year.
   * Darlene Brower (assistant): She has coached for eight years, four times at Nationals.
@@ -1472,35 +1472,35 @@ Church:		Manassas A/G, Bristow, VA
   * Ashleigh Weatherholtz - This is her fifth year of quizzing and her first at Nationals.
   * Catherine Hains - This is her fourth year of quizzing and her third at Nationals. She received both her NMA and her MMA this year.
 * **Preliminaries**:
-Round 1: Lost to Central A/G, Springfield, MO 145 to 160
-Round 2: Won against CrossPoint A/G, Portage, WI 210 to 40
-Round 3: Won against Bethlehem Church, Richmond Hill, NY 235 to 120
-Round 4: Won against Muskogee First A/G, Muskogee, OK 210 to 5
-Round 5: Won against First A/G, Montgomery, AL 275 to 70
-Round 6: Lost to Dayspring A/G, Bowling Green, OH -5 to 220
-Round 7: Won against Orange County Christian Evangelical Church, Irvine, CA 165 to 110
-Round 8: Lost to Owasso First A/G, Owasso, OK 105 to 240
-Round 9: Lost to Cedar Park Church, Bothell, WA 135 to 205
+  * Round 1: Lost to Central A/G, Springfield, MO 145 to 160
+  * Round 2: Won against CrossPoint A/G, Portage, WI 210 to 40
+  * Round 3: Won against Bethlehem Church, Richmond Hill, NY 235 to 120
+  * Round 4: Won against Muskogee First A/G, Muskogee, OK 210 to 5
+  * Round 5: Won against First A/G, Montgomery, AL 275 to 70
+  * Round 6: Lost to Dayspring A/G, Bowling Green, OH -5 to 220
+  * Round 7: Won against Orange County Christian Evangelical Church, Irvine, CA 165 to 110
+  * Round 8: Lost to Owasso First A/G, Owasso, OK 105 to 240
+  * Round 9: Lost to Cedar Park Church, Bothell, WA 135 to 205
 * **Round Robin**:
-Round 1: Won against Bellevue Neighborhood Church, Bellevue, WA 160 to 150
-Round 2: Won against Victorious Life Church, Wesley Chapel, FL 205 to 150
-Round 3: Lost to Cedar Park A/G, Bothell, WA 110 to 220
-Round 4: Lost to Northside Family Worship Center, Cumming, GA 95 to 155
-Round 5: Lost to Dayspring A/G, Bowling Green, OH 80 to 85
-Round 6: Lost to Word of Life A/G, Springfield, VA 85 to 125
-Round 7: Lost to Overland Park A/G, Overland Park, KS 130 to 175
-Round 8: Won against James River A/G, "Perfect in Weakness", Ozark, MO 150 to 130
-Round 9: Lost to First A/G, Binghamton, NY 85 to 170
-Round 10: Lost to Owasso First A/G, Owasso, OK 135 to 245
-Round 11: Won against First A/G, "Donut Holes", Lexington, KY 150 to 130
-Round 12: Won against Central A/G, Springfield, MO 135 to 15
-Round 13: Lost to Praise A/G, Garfield, NJ 5 to 230
-Round 14: Won against Faith A/G, Orlando, FL 230 to 100
-Round 15: Won against Braeswood A/G, Houston, TX 110 to 70
-Round 16: Won against Meadowbrook A/G, Champaign, IL 115 to 50
-Round 17: Won against Living Hope Church, Swedesboro, NJ 120 to 80
-Round 18: Lost to James River A/G, "Sufficient Grace", Ozark, MO 40 to 180
-Round 19: Won against New Life A/G, White Cloud, MI 190 to 85
+  * Round 1: Won against Bellevue Neighborhood Church, Bellevue, WA 160 to 150
+  * Round 2: Won against Victorious Life Church, Wesley Chapel, FL 205 to 150
+  * Round 3: Lost to Cedar Park A/G, Bothell, WA 110 to 220
+  * Round 4: Lost to Northside Family Worship Center, Cumming, GA 95 to 155
+  * Round 5: Lost to Dayspring A/G, Bowling Green, OH 80 to 85
+  * Round 6: Lost to Word of Life A/G, Springfield, VA 85 to 125
+  * Round 7: Lost to Overland Park A/G, Overland Park, KS 130 to 175
+  * Round 8: Won against James River A/G, "Perfect in Weakness", Ozark, MO 150 to 130
+  * Round 9: Lost to First A/G, Binghamton, NY 85 to 170
+  * Round 10: Lost to Owasso First A/G, Owasso, OK 135 to 245
+  * Round 11: Won against First A/G, "Donut Holes", Lexington, KY 150 to 130
+  * Round 12: Won against Central A/G, Springfield, MO 135 to 15
+  * Round 13: Lost to Praise A/G, Garfield, NJ 5 to 230
+  * Round 14: Won against Faith A/G, Orlando, FL 230 to 100
+  * Round 15: Won against Braeswood A/G, Houston, TX 110 to 70
+  * Round 16: Won against Meadowbrook A/G, Champaign, IL 115 to 50
+  * Round 17: Won against Living Hope Church, Swedesboro, NJ 120 to 80
+  * Round 18: Lost to James River A/G, "Sufficient Grace", Ozark, MO 40 to 180
+  * Round 19: Won against New Life A/G, White Cloud, MI 190 to 85
 * **Team History**\
 This year will be the fourth consecutive year for Manassas to send a team to Nationals. We have placed in the top ten twice.
 * **Favorite quiz question (weirdest, funniest, etc)**\
@@ -1524,7 +1524,7 @@ Bible quiz has given us opportunities to talk about our faith with others in a n
 
 #### 4th Place
 
-Church:	Word of Life A/G, Springfield, VA
+* **Church**: Word of Life A/G, Springfield, VA
 * **Coaches**:
   * Don York: This is Don's third year to coach a team at nationals. He has coached many other years as well.
   * Bethany York (assistant)
@@ -1535,35 +1535,35 @@ Church:	Word of Life A/G, Springfield, VA
     * Sam York: Quizzed for 4 years since 7th grade -- starting in Novice in 7th and moving up to A league in the 8th grade, has received his NMA for the last 3 years, studied and memorized Acts (Novice), GEPCP, Mark, 1/2 Corinthians.
     * Abhishek Mathews: Quizzed for 3 years since 7th grade starting in Novice, has received his NMA for the last 2 years, studied and memorized GEPCP, Mark, 1/2 Corinthians. Last year (2008-2009), he was part of the Novice team that won the Northeast Regional Finals.
 * **Preliminaries**:
-Round 1: Won against Abundant Life A/G, Grand Island, NE 150 to 140
-Round 2: Won against First A/G, "Donut Holes", Lexington, KY 95 to 60
-Round 3: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 35 to 280
-Round 4: Won against Christian Temple, Houston, TX 175 to 125
-Round 5: Won against Faith A/G, Orlando, FL 155 to 65
-Round 6: Lost to Praise A/G, Garfield, NJ -10 to 330
-Round 7: Won against Living Hope Church, Colorado Springs, CO 130 to 120
-Round 8: Won against First A/G, Ashland, AL 305 to 30
-Round 9: Won against First A/G of Greater Lansing, East Lansing, MI 150 to 30
+  * Round 1: Won against Abundant Life A/G, Grand Island, NE 150 to 140
+  * Round 2: Won against First A/G, "Donut Holes", Lexington, KY 95 to 60
+  * Round 3: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 35 to 280
+  * Round 4: Won against Christian Temple, Houston, TX 175 to 125
+  * Round 5: Won against Faith A/G, Orlando, FL 155 to 65
+  * Round 6: Lost to Praise A/G, Garfield, NJ -10 to 330
+  * Round 7: Won against Living Hope Church, Colorado Springs, CO 130 to 120
+  * Round 8: Won against First A/G, Ashland, AL 305 to 30
+  * Round 9: Won against First A/G of Greater Lansing, East Lansing, MI 150 to 30
 * **Round Robin**:
-Round 1: Lost to Dayspring A/G, Bowling Green, OH 95 to 140
-Round 2: Lost to Owasso First A/G, Owasso, OK 60 to 220
-Round 3: Lost to Overland Park A/G, Overland Park, KS 95 to 115
-Round 4: Won against James River A/G, "Perfect in Weakness", Ozark, MO 90 to 35
-Round 5: Lost to First A/G, Binghamton, NY 60 to 145
-Round 6: Won against Manassas A/G, Bristow, VA 125 to 85
-Round 7: Won against First A/G, "Donut Holes", Lexington, KY 220 to 115
-Round 8: Won against Central A/G, Springfield, MO 135 to 125
-Round 9: Lost to Praise A/G, Garfield, NJ 5 to 140
-Round 10: Lost to Faith A/G, Orlando, FL 125 to 175
-Round 11: Won against Braeswood A/G, Houston, TX 105 to 60
-Round 12: Lost to Meadowbrook A/G, Champaign, IL 85 to 145
-Round 13: Lost to Living Hope Church, Swedesboro, NJ 115 to 160
-Round 14: Lost to James River A/G, "Sufficient Grace", Ozark, MO 85 to 190
-Round 15: Lost to New Life A/G, White Cloud, MI 50 to 140
-Round 16: Won against Bellevue Neighborhood Church, Bellevue, WA 145 to 90
-Round 17: Lost to Victorious Life Church, Wesley Chapel, FL 20 to 265
-Round 18: Lost to Cedar Park A/G, Bothell, WA 35 to 220
-Round 19: Lost to Northside Family Worship Center, Cumming, GA 110 to 265
+  * Round 1: Lost to Dayspring A/G, Bowling Green, OH 95 to 140
+  * Round 2: Lost to Owasso First A/G, Owasso, OK 60 to 220
+  * Round 3: Lost to Overland Park A/G, Overland Park, KS 95 to 115
+  * Round 4: Won against James River A/G, "Perfect in Weakness", Ozark, MO 90 to 35
+  * Round 5: Lost to First A/G, Binghamton, NY 60 to 145
+  * Round 6: Won against Manassas A/G, Bristow, VA 125 to 85
+  * Round 7: Won against First A/G, "Donut Holes", Lexington, KY 220 to 115
+  * Round 8: Won against Central A/G, Springfield, MO 135 to 125
+  * Round 9: Lost to Praise A/G, Garfield, NJ 5 to 140
+  * Round 10: Lost to Faith A/G, Orlando, FL 125 to 175
+  * Round 11: Won against Braeswood A/G, Houston, TX 105 to 60
+  * Round 12: Lost to Meadowbrook A/G, Champaign, IL 85 to 145
+  * Round 13: Lost to Living Hope Church, Swedesboro, NJ 115 to 160
+  * Round 14: Lost to James River A/G, "Sufficient Grace", Ozark, MO 85 to 190
+  * Round 15: Lost to New Life A/G, White Cloud, MI 50 to 140
+  * Round 16: Won against Bellevue Neighborhood Church, Bellevue, WA 145 to 90
+  * Round 17: Lost to Victorious Life Church, Wesley Chapel, FL 20 to 265
+  * Round 18: Lost to Cedar Park A/G, Bothell, WA 35 to 220
+  * Round 19: Lost to Northside Family Worship Center, Cumming, GA 110 to 265
 * **Team History**\
 The ministry at Word of Life was started in 2007 with a vision to "hide" God's Word in the hearts of our youth and to provide spiritual mentoring for both our middle and high school youth. It was a natural extension from JBQ which we started in 2006. We really want to see the next generation assume the spiritual "mantle" and have a double blessing and anointing in fulfilling the Great Commission. In our first year (GEPCP), we learned very early on that we were in over our heads. Although we were coached by a former and successful Penn-Del quizzer Beth Reynolds, it was our first year and it would be a while before our youth learned the rules and mechanics of the competition. During that same year we were joined by Don York and Sam York from Cornerstone A/G in Bowie, Md, which added a Nationals-level Coach and another strong quizzer to our team. We made it to Regionals in our first year but we lost handily to the more experienced teams at Regionals. In our second year (Mark) we made it to Regionals and finished 6th -- after a playoff match to determine the 5th place for Nationals. This, our 3rd year (1/2 Corinthians), we finished a strong 4th and qualified for Nationals for the very first time in Word of Life history. Praise to His Name!!!
 * **Most exciting match this season**\
@@ -1586,7 +1586,7 @@ Returning from Friendship, we almost ran out of gas in the mountains of Pennsylv
 
 #### 5th Place
 
-Church:	Living Hope Worship Center, Swedesboro, NJ
+* **Church**: Living Hope Worship Center, Swedesboro, NJ
 * **Coaches**:
   * Kim Dobbins: 4th year coaching and 2nd year going to Nationals.
   * Debbie Hill (assistant)
@@ -1597,37 +1597,37 @@ Church:	Living Hope Worship Center, Swedesboro, NJ
     * Jared Hill: 1 year Novice. 1st year in A league. 1st time going to Nats. Earned the NMA this year.
     * Megan Steves: 1st year quizzing. 1st time going to Nationals.
 * **Preliminaries**:
-Round 1: Lost to Faith A/G, West Plains, MO 10 to 100
-Round 2: Won against Orange County First A/G, Santa Ana, CA 190 to -10
-Round 3: Won against Berean A/G, Pleasant Hill, IA 150 to 40
-Round 4: Won against Bellevue Neighborhood Church, Bellevue, WA 185 to 90
-Round 5: Lost to Overland Park A/G, Overland Park, KS 100 to 180
-Round 6: Lost to Meadowbrook Community Church, Champaign, IL 80 to 190
-Round 7: Lost to Victorious Life Church, Wesley Chapel, FL 120 to 250
-Round 8: Won against Highpointe Church, Oklahoma City, OK 250 to 75
-Round 9: Won against First A/G, "Page 7", Lexington, KY 165 to 55
-Playoff Round 1: Won against Bellevue Neighborhood Church, Bellevue, WA
-Playoff Round 2: Won against Faith A/G, West Plains, MO
+  * Round 1: Lost to Faith A/G, West Plains, MO 10 to 100
+  * Round 2: Won against Orange County First A/G, Santa Ana, CA 190 to -10
+  * Round 3: Won against Berean A/G, Pleasant Hill, IA 150 to 40
+  * Round 4: Won against Bellevue Neighborhood Church, Bellevue, WA 185 to 90
+  * Round 5: Lost to Overland Park A/G, Overland Park, KS 100 to 180
+  * Round 6: Lost to Meadowbrook Community Church, Champaign, IL 80 to 190
+  * Round 7: Lost to Victorious Life Church, Wesley Chapel, FL 120 to 250
+  * Round 8: Won against Highpointe Church, Oklahoma City, OK 250 to 75
+  * Round 9: Won against First A/G, "Page 7", Lexington, KY 165 to 55
+  * Playoff Round 1: Won against Bellevue Neighborhood Church, Bellevue, WA
+  * Playoff Round 2: Won against Faith A/G, West Plains, MO
 * **Round Robin**:
-Round 1: Lost to Praise A/G, Garfield, NJ 55 to 250
-Round 2: Won against Faith A/G, Orlando, FL 225 to 75
-Round 3: Lost to Braeswood A/G, Houston, TX 85 to 105
-Round 4: Lost to Meadowbrook A/G, Champaign, IL 60 to 250
-Round 5: Lost to Owasso First A/G, Owasso, OK 65 to 195
-Round 6: Lost to James River A/G, "Sufficient Grace", Ozark, MO 70 to 170
-Round 7: Lost to New Life A/G, White Cloud, MI 105 to 140
-Round 8: Won against Bellevue Neighborhood Church, Bellevue, WA 210 to 30
-Round 9: Lost to Victorious Life Church, Wesley Chapel, FL 135 to 195
-Round 10: Won against Cedar Park A/G, Bothell, WA 205 to 115
-Round 11: Lost to Northside Family Worship Center, Cumming, GA 65 to 185
-Round 12: Won against Dayspring A/G, Bowling Green, OH 115 to 100
-Round 13: Won against Word of Life A/G, Springfield, VA 160 to 115
-Round 14: Lost to Overland Park A/G, Overland Park, KS 75 to 250
-Round 15: Won against James River A/G, "Perfect in Weakness", Ozark, MO 75 to 45
-Round 16: Lost to First A/G, Binghamton, NY 150 to 160
-Round 17: Lost to Manassas A/G, Bristow, VA 80 to 120
-Round 18: Won against First A/G, "Donut Holes", Lexington, KY 125 to 55
-Round 19: Lost to Central A/G, Springfield, MO 20 to 165
+  * Round 1: Lost to Praise A/G, Garfield, NJ 55 to 250
+  * Round 2: Won against Faith A/G, Orlando, FL 225 to 75
+  * Round 3: Lost to Braeswood A/G, Houston, TX 85 to 105
+  * Round 4: Lost to Meadowbrook A/G, Champaign, IL 60 to 250
+  * Round 5: Lost to Owasso First A/G, Owasso, OK 65 to 195
+  * Round 6: Lost to James River A/G, "Sufficient Grace", Ozark, MO 70 to 170
+  * Round 7: Lost to New Life A/G, White Cloud, MI 105 to 140
+  * Round 8: Won against Bellevue Neighborhood Church, Bellevue, WA 210 to 30
+  * Round 9: Lost to Victorious Life Church, Wesley Chapel, FL 135 to 195
+  * Round 10: Won against Cedar Park A/G, Bothell, WA 205 to 115
+  * Round 11: Lost to Northside Family Worship Center, Cumming, GA 65 to 185
+  * Round 12: Won against Dayspring A/G, Bowling Green, OH 115 to 100
+  * Round 13: Won against Word of Life A/G, Springfield, VA 160 to 115
+  * Round 14: Lost to Overland Park A/G, Overland Park, KS 75 to 250
+  * Round 15: Won against James River A/G, "Perfect in Weakness", Ozark, MO 75 to 45
+  * Round 16: Lost to First A/G, Binghamton, NY 150 to 160
+  * Round 17: Lost to Manassas A/G, Bristow, VA 80 to 120
+  * Round 18: Won against First A/G, "Donut Holes", Lexington, KY 125 to 55
+  * Round 19: Lost to Central A/G, Springfield, MO 20 to 165
 * **Team History**\
 This is Swedesboro's second year attending nationals. They finished sixth in the challenger division last year.
 * **Most exciting match this season**\
@@ -1657,7 +1657,7 @@ Making grilled cheese with an iron in the hotel at Regionals.
 
 #### 6th Place
 
-Church:	Bethlehem Church, Richmond Hill, NY
+* **Church**: Bethlehem Church, Richmond Hill, NY
 * **Coaches**:
   * Caryl Hock: Coaching JBQ. Novice and A League 10++years. 1st time to Nationals with A League team. NYC and Long Island League Coordinator for JBQ, Novice and A League.
   * Dr. Jackie Ford (assistant): Coaching 10 years in JBQ, Novice and A League. 1st time to nationals with A League team. Outstanding quizzer at Bethlehem Church on National Level Teams.
@@ -1667,35 +1667,35 @@ Church:	Bethlehem Church, Richmond Hill, NY
     * Brian Haimchand: Received the NMA and first time at Nationals as part of a team. Started in JBQ 10 years ago and advanced to TBQ through Novice league.
     * Vincent Okafor: Received the NMA and first time at Nationals as part of a team. Started in JBQ 8 years ago and advanced to TBQ through Novice league.
 * **Preliminaries**:
-Round 1: Lost to Orange County Christian Evangelical Church, Irvine, CA 125 to 160
-Round 2: Lost to Owasso First A/G, Owasso, OK 25 to 245
-Round 3: Lost to Manassas A/G, Bristow, VA 120 to 235
-Round 4: Lost to Cedar Park Church, Bothell, WA 60 to 180
-Round 5: Lost to Dayspring A/G, Bowling Green, OH 65 to 220
-Round 6: Won against Muskogee First A/G, Muskogee, OK 95 to -15
-Round 7: Lost to Central A/G, Springfield, MO 20 to 255
-Round 8: Won against First A/G, Montgomery, AL 55 to -20
-Round 9: Lost to CrossPoint A/G, Portage, WI 10 to 105
+  * Round 1: Lost to Orange County Christian Evangelical Church, Irvine, CA 125 to 160
+  * Round 2: Lost to Owasso First A/G, Owasso, OK 25 to 245
+  * Round 3: Lost to Manassas A/G, Bristow, VA 120 to 235
+  * Round 4: Lost to Cedar Park Church, Bothell, WA 60 to 180
+  * Round 5: Lost to Dayspring A/G, Bowling Green, OH 65 to 220
+  * Round 6: Won against Muskogee First A/G, Muskogee, OK 95 to -15
+  * Round 7: Lost to Central A/G, Springfield, MO 20 to 255
+  * Round 8: Won against First A/G, Montgomery, AL 55 to -20
+  * Round 9: Lost to CrossPoint A/G, Portage, WI 10 to 105
 * **Round Robin**:
-Round 1: Lost to Berean A/G, Pleasant Hill, IA 130 to 160
-Round 2: Lost to Christian Temple, Houston, TX 55 to 95
-Round 3: Lost to Radiant Life Church, Elkhart, IN 35 to 40
-Round 4: Lost to First A/G of Greater Lansing, East Lansing, MI 5 to 80
-Round 5: Lost to Muskogee First A/G, Muskogee, OK 35 to 90
-Round 6: Won against Orange County First A/G, Santa Ana, CA 75 to 25
-Round 7: Won against Evangel Community Church, Snellville, GA 120 to 90
-Round 8: Won against Racine A/G, Racine, WI 90 to 85
-Round 9: Lost to First A/G, "Page 7", Lexington, KY 5 to 235
-Round 10: Won against Orange County Christian Evangelical Church, Irvine, CA 175 to 170
-Round 11: Lost to Faith A/G, West Plains, MO 130 to 145
-Round 12: Won against Crosspoint A/G, Portage, WI 85 to 75
-Round 13: Lost to Abundant Life A/G, Grand Island, NE 25 to 120
-Round 14: Lost to Living Hope Church, Colorado Springs, CO 95 to 240
-Round 15: Lost to Paradise Hills A/G, Phoenix, AZ 110 to 140
-Round 16: Lost to First A/G, Montgomery, AL 70 to 145
-Round 17: Lost to First A/G, Ashland, AL 5 to 50
-Round 18: Lost to The Church at Briargate, Colorado Springs, CO -20 to 290
-Round 19: Lost to HighPoint Church, Oklahoma City, OK 70 to 165
+  * Round 1: Lost to Berean A/G, Pleasant Hill, IA 130 to 160
+  * Round 2: Lost to Christian Temple, Houston, TX 55 to 95
+  * Round 3: Lost to Radiant Life Church, Elkhart, IN 35 to 40
+  * Round 4: Lost to First A/G of Greater Lansing, East Lansing, MI 5 to 80
+  * Round 5: Lost to Muskogee First A/G, Muskogee, OK 35 to 90
+  * Round 6: Won against Orange County First A/G, Santa Ana, CA 75 to 25
+  * Round 7: Won against Evangel Community Church, Snellville, GA 120 to 90
+  * Round 8: Won against Racine A/G, Racine, WI 90 to 85
+  * Round 9: Lost to First A/G, "Page 7", Lexington, KY 5 to 235
+  * Round 10: Won against Orange County Christian Evangelical Church, Irvine, CA 175 to 170
+  * Round 11: Lost to Faith A/G, West Plains, MO 130 to 145
+  * Round 12: Won against Crosspoint A/G, Portage, WI 85 to 75
+  * Round 13: Lost to Abundant Life A/G, Grand Island, NE 25 to 120
+  * Round 14: Lost to Living Hope Church, Colorado Springs, CO 95 to 240
+  * Round 15: Lost to Paradise Hills A/G, Phoenix, AZ 110 to 140
+  * Round 16: Lost to First A/G, Montgomery, AL 70 to 145
+  * Round 17: Lost to First A/G, Ashland, AL 5 to 50
+  * Round 18: Lost to The Church at Briargate, Colorado Springs, CO -20 to 290
+  * Round 19: Lost to HighPoint Church, Oklahoma City, OK 70 to 165
 * **Team History**\
 This is this team's first year at nationals.
 * **Most exciting match this season**\
@@ -1723,7 +1723,7 @@ Bible Quiz has opened up many conversations to discuss Christ, used for college 
 
 #### 1st Place
 
-Church:	Cedar Park A/G, Bothell, WA
+* **Church**: Cedar Park A/G, Bothell, WA
 * **Coaches**:
   * Kari Brodin: Coached TBQ for 11 years, coaching teams to Nationals in 1983, 1985, and consecutively from 2004-present. She was also at nationals twice as a quizzer, in 1978 and 1981. In 1981 her team won nationals and she was top scorer.
   * Kristi Brodin (assistant): Assisted each year since 2004.
@@ -1735,35 +1735,35 @@ Church:	Cedar Park A/G, Bothell, WA
     * Adi Purohith: Quizzed for 2 years and this is his first Nationals. He has earned his NMA.
     * Ani Purohith: Quizzed for 2 years and this is his first Nationals. He has earned his NMA.
 * **Preliminaries**:
-Round 1: Won against Owasso First A/G, Owasso, OK 180 to 160
-Round 2: Lost to Dayspring A/G, Bowling Green, OH 100 to 180
-Round 3: Won against First A/G, Montgomery, AL 125 to 120
-Round 4: Won against Bethlehem Church, Richmond Hill, NY 180 to 60
-Round 5: Won against Orange County Christian Evangelical Church, Irvine, CA 165 to 155
-Round 6: Won against CrossPoint A/G, Portage, WI 140 to 25
-Round 7: Won against Muskogee First A/G, Muskogee, OK 220 to 105
-Round 8: Lost to Central A/G, Springfield, MO 180 to 190
-Round 9: Won against Manassas A/G, Bristow, VA 205 to 135
+  * Round 1: Won against Owasso First A/G, Owasso, OK 180 to 160
+  * Round 2: Lost to Dayspring A/G, Bowling Green, OH 100 to 180
+  * Round 3: Won against First A/G, Montgomery, AL 125 to 120
+  * Round 4: Won against Bethlehem Church, Richmond Hill, NY 180 to 60
+  * Round 5: Won against Orange County Christian Evangelical Church, Irvine, CA 165 to 155
+  * Round 6: Won against CrossPoint A/G, Portage, WI 140 to 25
+  * Round 7: Won against Muskogee First A/G, Muskogee, OK 220 to 105
+  * Round 8: Lost to Central A/G, Springfield, MO 180 to 190
+  * Round 9: Won against Manassas A/G, Bristow, VA 205 to 135
 * **Round Robin**:
-Round 1: Won against James River A/G, "Perfect in Weakness", Ozark, MO 225 to 90
-Round 2: Lost to First A/G, Binghamton, NY 150 to 160
-Round 3: Won against Manassas A/G, Bristow, VA 220 to 110
-Round 4: Won against First A/G, "Donut Holes", Lexington, KY 185 to 100
-Round 5: Lost to Central A/G, Springfield, MO 60 to 195
-Round 6: Lost to Praise A/G, Garfield, NJ 30 to 265
-Round 7: Won against Faith A/G, Orlando, FL 240 to 120
-Round 8: Won against Braeswood A/G, Houston, TX 180 to 30
-Round 9: Lost to Meadowbrook A/G, Champaign, IL 35 to 205
-Round 10: Lost to Living Hope Church, Swedesboro, NJ 115 to 205
-Round 11: Won against James River A/G, "Sufficient Grace", Ozark, MO 125 to 65
-Round 12: Won against New Life A/G, White Cloud, MI 190 to 40
-Round 13: Won against Bellevue Neighborhood Church, Bellevue, WA 230 to 25
-Round 14: Won against Victorious Life Church, Wesley Chapel, FL 190 to 125
-Round 15: Lost to Owasso First A/G, Owasso, OK 85 to 210
-Round 16: Won against Northside Family Worship Center, Cumming, GA 145 to 120
-Round 17: Won against Dayspring A/G, Bowling Green, OH 215 to 30
-Round 18: Won against Word of Life A/G, Springfield, VA 220 to 35
-Round 19: Won against Overland Park A/G, Overland Park, KS 255 to 25
+  * Round 1: Won against James River A/G, "Perfect in Weakness", Ozark, MO 225 to 90
+  * Round 2: Lost to First A/G, Binghamton, NY 150 to 160
+  * Round 3: Won against Manassas A/G, Bristow, VA 220 to 110
+  * Round 4: Won against First A/G, "Donut Holes", Lexington, KY 185 to 100
+  * Round 5: Lost to Central A/G, Springfield, MO 60 to 195
+  * Round 6: Lost to Praise A/G, Garfield, NJ 30 to 265
+  * Round 7: Won against Faith A/G, Orlando, FL 240 to 120
+  * Round 8: Won against Braeswood A/G, Houston, TX 180 to 30
+  * Round 9: Lost to Meadowbrook A/G, Champaign, IL 35 to 205
+  * Round 10: Lost to Living Hope Church, Swedesboro, NJ 115 to 205
+  * Round 11: Won against James River A/G, "Sufficient Grace", Ozark, MO 125 to 65
+  * Round 12: Won against New Life A/G, White Cloud, MI 190 to 40
+  * Round 13: Won against Bellevue Neighborhood Church, Bellevue, WA 230 to 25
+  * Round 14: Won against Victorious Life Church, Wesley Chapel, FL 190 to 125
+  * Round 15: Lost to Owasso First A/G, Owasso, OK 85 to 210
+  * Round 16: Won against Northside Family Worship Center, Cumming, GA 145 to 120
+  * Round 17: Won against Dayspring A/G, Bowling Green, OH 215 to 30
+  * Round 18: Won against Word of Life A/G, Springfield, VA 220 to 35
+  * Round 19: Won against Overland Park A/G, Overland Park, KS 255 to 25
 * **Team History**\
 Cedar Park has sent at least one team to Nationals for 13 consecutive years. The highest finish was 1st place in 2005; combined with a 4th place finish in 2004 and a four-year string of 2nd place finishes from 2006-2009, that makes 6 consecutive years finishing in the trophy round. I believe Cedar Park also has the distinction of being the only church to place two teams in the top ten in the same year, with a 1st-and-10th finish in 2005. Finally, Cedar Park holds the record for the only "perfect match" recorded at Nationals: all four quizzers quizzed out positively in a single match during the first day of competition in 2008.
 * **Most exciting match this season**\
@@ -1792,7 +1792,7 @@ Rachel has made the most of her opportunities: she was able to share Paul's warn
 
 #### 4th Place
 
-Church:	Bellevue Neighborhood Church, Bellevue, WA
+* **Church**: Bellevue Neighborhood Church, Bellevue, WA
 * **Coaches**:
   * Kevin Gallo: Coaching Bible Quiz for over 9 years and last year was his first time coaching a team at Nationals. As a quizzer he attended National Finals twice.
   * Vanessa Borja (assistant): Second year as assistant coach. She quizzed for 1 year and attended Regionals that year.
@@ -1802,37 +1802,37 @@ Church:	Bellevue Neighborhood Church, Bellevue, WA
     * Joshua Gallo: First year quizzing.
     * Kara Gallo: Third year quizzing and her second time at National Finals.
 * **Preliminaries**:
-Round 1: Lost to Victorious Life Church, Wesley Chapel, FL 60 to 250
-Round 2: Won against Overland Park A/G, Overland Park, KS 190 to 150
-Round 3: Won against First A/G, "Page 7", Lexington, KY 160 to 40
-Round 4: Lost to Living Hope Worship Center, Swedesboro, NJ 90 to 185
-Round 5: Won against Orange County First A/G, Santa Ana, CA 250 to 0
-Round 6: Won against Berean A/G, Pleasant Hill, IA 70 to 30
-Round 7: Lost to Meadowbrook Community Church, Champaign, IL 150 to 175
-Round 8: Lost to Faith A/G, West Plains, MO 105 to 145
-Round 9: Won against Highpointe Church, Oklahoma City, OK 145 to 10
-Playoff Round 1: Lost to Living Hope Worship Center, Swedesboro, NJ
-Playoff Round 2: Won against Faith A/G, West Plains, MO
+  * Round 1: Lost to Victorious Life Church, Wesley Chapel, FL 60 to 250
+  * Round 2: Won against Overland Park A/G, Overland Park, KS 190 to 150
+  * Round 3: Won against First A/G, "Page 7", Lexington, KY 160 to 40
+  * Round 4: Lost to Living Hope Worship Center, Swedesboro, NJ 90 to 185
+  * Round 5: Won against Orange County First A/G, Santa Ana, CA 250 to 0
+  * Round 6: Won against Berean A/G, Pleasant Hill, IA 70 to 30
+  * Round 7: Lost to Meadowbrook Community Church, Champaign, IL 150 to 175
+  * Round 8: Lost to Faith A/G, West Plains, MO 105 to 145
+  * Round 9: Won against Highpointe Church, Oklahoma City, OK 145 to 10
+  * Playoff Round 1: Lost to Living Hope Worship Center, Swedesboro, NJ
+  * Playoff Round 2: Won against Faith A/G, West Plains, MO
 * **Round Robin**:
-Round 1: Lost to Manassas A/G, Bristow, VA 150 to 160
-Round 2: Won against First A/G, "Donut Holes", Lexington, KY 105 to 25
-Round 3: Lost to Central A/G, Springfield, MO 40 to 100
-Round 4: Lost to Praise A/G, Garfield, NJ 15 to 170
-Round 5: Lost to Faith A/G, Orlando, FL 40 to 195
-Round 6: Lost to Braeswood A/G, Houston, TX 25 to 275
-Round 7: Lost to Meadowbrook A/G, Champaign, IL 70 to 155
-Round 8: Lost to Living Hope Church, Swedesboro, NJ 30 to 210
-Round 9: Lost to James River A/G, "Sufficient Grace", Ozark, MO 45 to 230
-Round 10: Lost to New Life A/G, White Cloud, MI 30 to 215
-Round 11: Lost to Owasso First A/G, Owasso, OK 65 to 215
-Round 12: Lost to Victorious Life Church, Wesley Chapel, FL 75 to 225
-Round 13: Lost to Cedar Park A/G, Bothell, WA 25 to 230
-Round 14: Lost to Northside Family Worship Center, Cumming, GA 50 to 290
-Round 15: Lost to Dayspring A/G, Bowling Green, OH 50 to 135
-Round 16: Lost to Word of Life A/G, Springfield, VA 90 to 145
-Round 17: Lost to Overland Park A/G, Overland Park, KS 50 to 235
-Round 18: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 60 to 120
-Round 19: Lost to First A/G, Binghamton, NY 160 to 200
+  * Round 1: Lost to Manassas A/G, Bristow, VA 150 to 160
+  * Round 2: Won against First A/G, "Donut Holes", Lexington, KY 105 to 25
+  * Round 3: Lost to Central A/G, Springfield, MO 40 to 100
+  * Round 4: Lost to Praise A/G, Garfield, NJ 15 to 170
+  * Round 5: Lost to Faith A/G, Orlando, FL 40 to 195
+  * Round 6: Lost to Braeswood A/G, Houston, TX 25 to 275
+  * Round 7: Lost to Meadowbrook A/G, Champaign, IL 70 to 155
+  * Round 8: Lost to Living Hope Church, Swedesboro, NJ 30 to 210
+  * Round 9: Lost to James River A/G, "Sufficient Grace", Ozark, MO 45 to 230
+  * Round 10: Lost to New Life A/G, White Cloud, MI 30 to 215
+  * Round 11: Lost to Owasso First A/G, Owasso, OK 65 to 215
+  * Round 12: Lost to Victorious Life Church, Wesley Chapel, FL 75 to 225
+  * Round 13: Lost to Cedar Park A/G, Bothell, WA 25 to 230
+  * Round 14: Lost to Northside Family Worship Center, Cumming, GA 50 to 290
+  * Round 15: Lost to Dayspring A/G, Bowling Green, OH 50 to 135
+  * Round 16: Lost to Word of Life A/G, Springfield, VA 90 to 145
+  * Round 17: Lost to Overland Park A/G, Overland Park, KS 50 to 235
+  * Round 18: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 60 to 120
+  * Round 19: Lost to First A/G, Binghamton, NY 160 to 200
 * **Team History**\
 This will be the second time that Bellevue Neighborhood church has attended National Finals.
 * **Tournaments attended this year**:
@@ -1848,7 +1848,7 @@ This will be the second time that Bellevue Neighborhood church has attended Nati
 
 #### 1st Place
 
-Church:	Owasso First A/G, Owasso, OK
+* **Church**: Owasso First A/G, Owasso, OK
 * **Coaches**:
   * Kevin Wagner: 2-time National Champion Coach. Coach of the year last year. This will be his 4th consecutive year coaching at Nationals.
   * Nicole Wagner (assistant): On the coaching staff for the 4th consecutive year at Nationals.
@@ -1859,35 +1859,35 @@ Church:	Owasso First A/G, Owasso, OK
     * Aaron Jackson: 1st year quizzing, 1st year at Nationals. He received his NMA this season.
     * Luke Wagner: 3rd year quizzing, 2nd year at Nationals, National Champion last year, and Regional Novice Team and Individual Champ in Grade 6 over GEPCP. He recieved his NMA this season.
 * **Preliminaries**:
-Round 1: Lost to Cedar Park Church, Bothell, WA 160 to 180
-Round 2: Won against Bethlehem Church, Richmond Hill, NY 245 to 25
-Round 3: Won against Central A/G, Springfield, MO 255 to 110
-Round 4: Won against Orange County Christian Evangelical Church, Irvine, CA 325 to 50
-Round 5: Won against Muskogee First A/G, Muskogee, OK 210 to 115
-Round 6: Won against First A/G, Montgomery, AL 260 to 60
-Round 7: Won against CrossPoint A/G, Portage, WI 275 to 30
-Round 8: Won against Manassas A/G, Bristow, VA 240 to 105
-Round 9: Won against Dayspring A/G, Bowling Green, OH 140 to 130
+  * Round 1: Lost to Cedar Park Church, Bothell, WA 160 to 180
+  * Round 2: Won against Bethlehem Church, Richmond Hill, NY 245 to 25
+  * Round 3: Won against Central A/G, Springfield, MO 255 to 110
+  * Round 4: Won against Orange County Christian Evangelical Church, Irvine, CA 325 to 50
+  * Round 5: Won against Muskogee First A/G, Muskogee, OK 210 to 115
+  * Round 6: Won against First A/G, Montgomery, AL 260 to 60
+  * Round 7: Won against CrossPoint A/G, Portage, WI 275 to 30
+  * Round 8: Won against Manassas A/G, Bristow, VA 240 to 105
+  * Round 9: Won against Dayspring A/G, Bowling Green, OH 140 to 130
 * **Round Robin**:
-Round 1: Won against Braeswood A/G, Houston, TX 285 to 50
-Round 2: Won against Word of Life A/G, Springfield, VA 220 to 60
-Round 3: Won against Meadowbrook A/G, Champaign, IL 220 to 80
-Round 4: Won against Overland Park A/G, Overland Park, KS 240 to 100
-Round 5: Won against Living Hope Church, Swedesboro, NJ 195 to 65
-Round 6: Won against James River A/G, "Perfect in Weakness", Ozark, MO 325 to 10
-Round 7: Lost to James River A/G, "Sufficient Grace", Ozark, MO 150 to 190
-Round 8: Won against First A/G, Binghamton, NY 210 to 85
-Round 9: Won against New Life A/G, White Cloud, MI 220 to 40
-Round 10: Won against Manassas A/G, Bristow, VA 245 to 135
-Round 11: Won against Bellevue Neighborhood Church, Bellevue, WA 215 to 65
-Round 12: Won against First A/G, "Donut Holes", Lexington, KY 230 to 75
-Round 13: Won against Victorious Life Church, Wesley Chapel, FL 210 to 150
-Round 14: Won against Central A/G, Springfield, MO 145 to 140
-Round 15: Won against Cedar Park A/G, Bothell, WA 210 to 85
-Round 16: Won against Praise A/G, Garfield, NJ 235 to 100
-Round 17: Lost to Northside Family Worship Center, Cumming, GA 115 to 145
-Round 18: Won against Faith A/G, Orlando, FL 130 to 125
-Round 19: Won against Dayspring A/G, Bowling Green, OH 345 to -5
+  * Round 1: Won against Braeswood A/G, Houston, TX 285 to 50
+  * Round 2: Won against Word of Life A/G, Springfield, VA 220 to 60
+  * Round 3: Won against Meadowbrook A/G, Champaign, IL 220 to 80
+  * Round 4: Won against Overland Park A/G, Overland Park, KS 240 to 100
+  * Round 5: Won against Living Hope Church, Swedesboro, NJ 195 to 65
+  * Round 6: Won against James River A/G, "Perfect in Weakness", Ozark, MO 325 to 10
+  * Round 7: Lost to James River A/G, "Sufficient Grace", Ozark, MO 150 to 190
+  * Round 8: Won against First A/G, Binghamton, NY 210 to 85
+  * Round 9: Won against New Life A/G, White Cloud, MI 220 to 40
+  * Round 10: Won against Manassas A/G, Bristow, VA 245 to 135
+  * Round 11: Won against Bellevue Neighborhood Church, Bellevue, WA 215 to 65
+  * Round 12: Won against First A/G, "Donut Holes", Lexington, KY 230 to 75
+  * Round 13: Won against Victorious Life Church, Wesley Chapel, FL 210 to 150
+  * Round 14: Won against Central A/G, Springfield, MO 145 to 140
+  * Round 15: Won against Cedar Park A/G, Bothell, WA 210 to 85
+  * Round 16: Won against Praise A/G, Garfield, NJ 235 to 100
+  * Round 17: Lost to Northside Family Worship Center, Cumming, GA 115 to 145
+  * Round 18: Won against Faith A/G, Orlando, FL 130 to 125
+  * Round 19: Won against Dayspring A/G, Bowling Green, OH 345 to -5
 * **Team History**\
 Owasso has been blessed to send a team to Nationals the past 4 seasons. The past 2 seasons, we've won the National Championship, going 55-1 in the process.
 * **Most exciting match this season**\
@@ -1922,7 +1922,7 @@ Preaching at our Crusades and Teen Conferences in Asia, Africa and The Middle Ea
 
 #### 2nd Place
 
-Church:	Christian Temple, Houston, TX
+* **Church**: Christian Temple, Houston, TX
 * **Coaches**:
   * Mike Forsman: Coached for 4 years and this is the 3rd time at Nationals.
   * Joshua Forsman (assistant): Assistant Coach for 2 years, 1st year at Nationals, and was a National Quizzer for 4 years.
@@ -1934,35 +1934,35 @@ Church:	Christian Temple, Houston, TX
     * Anna Kirby: Quizzed 3 years. This is her first time at Nationals.
     * Matthew Kirby: Memorized Corinthians, NMA. Has quizzed 2 years. This is his first time at Nationals.
 * **Preliminaries**:
-Round 1: Lost to Living Hope Church, Colorado Springs, CO 40 to 90
-Round 2: Lost to Faith A/G, Orlando, FL 90 to 145
-Round 3: Lost to First A/G of Greater Lansing, East Lansing, MI 85 to 120
-Round 4: Lost to Word of Life Church, Springfield, VA 125 to 175
-Round 5: Won against First A/G, "Donut Holes", Lexington, KY 115 to 100
-Round 6: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 10 to 185
-Round 7: Lost to Praise A/G, Garfield, NJ 5 to 305
-Round 8: Won against Abundant Life A/G, Grand Island, NE 210 to 40
-Round 9: Won against First A/G, Ashland, AL 85 to 35
+  * Round 1: Lost to Living Hope Church, Colorado Springs, CO 40 to 90
+  * Round 2: Lost to Faith A/G, Orlando, FL 90 to 145
+  * Round 3: Lost to First A/G of Greater Lansing, East Lansing, MI 85 to 120
+  * Round 4: Lost to Word of Life Church, Springfield, VA 125 to 175
+  * Round 5: Won against First A/G, "Donut Holes", Lexington, KY 115 to 100
+  * Round 6: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 10 to 185
+  * Round 7: Lost to Praise A/G, Garfield, NJ 5 to 305
+  * Round 8: Won against Abundant Life A/G, Grand Island, NE 210 to 40
+  * Round 9: Won against First A/G, Ashland, AL 85 to 35
 * **Round Robin**:
-Round 1: Lost to Racine A/G, Racine, WI 60 to 115
-Round 2: Won against Bethlehem Church, Richmond Hill, NY 95 to 55
-Round 3: Won against Orange County Christian Evangelical Church, Irvine, CA 230 to -15
-Round 4: Won against Faith A/G, West Plains, MO 130 to 40
-Round 5: Won against Crosspoint A/G, Portage, WI 85 to 20
-Round 6: Won against Abundant Life A/G, Grand Island, NE 85 to 45
-Round 7: Lost to Living Hope Church, Colorado Springs, CO 75 to 140
-Round 8: Won against Paradise Hills A/G, Phoenix, AZ 125 to 105
-Round 9: Lost to First A/G, Montgomery, AL 60 to 210
-Round 10: Won against First A/G, Ashland, AL 240 to 60
-Round 11: Lost to The Church at Briargate, Colorado Springs, CO 90 to 145
-Round 12: Lost to HighPoint Church, Oklahoma City, OK 70 to 125
-Round 13: Lost to Berean A/G, Pleasant Hill, IA 15 to 175
-Round 14: Lost to First A/G, "Page 7", Lexington, KY 130 to 155
-Round 15: Won against Radiant Life Church, Elkhart, IN 110 to 45
-Round 16: Won against First A/G of Greater Lansing, East Lansing, MI 105 to 90
-Round 17: Won against Muskogee First A/G, Muskogee, OK 155 to 35
-Round 18: Won against Orange County First A/G, Santa Ana, CA 95 to 90
-Round 19: Won against Evangel Community Church, Snellville, GA 265 to 20
+  * Round 1: Lost to Racine A/G, Racine, WI 60 to 115
+  * Round 2: Won against Bethlehem Church, Richmond Hill, NY 95 to 55
+  * Round 3: Won against Orange County Christian Evangelical Church, Irvine, CA 230 to -15
+  * Round 4: Won against Faith A/G, West Plains, MO 130 to 40
+  * Round 5: Won against Crosspoint A/G, Portage, WI 85 to 20
+  * Round 6: Won against Abundant Life A/G, Grand Island, NE 85 to 45
+  * Round 7: Lost to Living Hope Church, Colorado Springs, CO 75 to 140
+  * Round 8: Won against Paradise Hills A/G, Phoenix, AZ 125 to 105
+  * Round 9: Lost to First A/G, Montgomery, AL 60 to 210
+  * Round 10: Won against First A/G, Ashland, AL 240 to 60
+  * Round 11: Lost to The Church at Briargate, Colorado Springs, CO 90 to 145
+  * Round 12: Lost to HighPoint Church, Oklahoma City, OK 70 to 125
+  * Round 13: Lost to Berean A/G, Pleasant Hill, IA 15 to 175
+  * Round 14: Lost to First A/G, "Page 7", Lexington, KY 130 to 155
+  * Round 15: Won against Radiant Life Church, Elkhart, IN 110 to 45
+  * Round 16: Won against First A/G of Greater Lansing, East Lansing, MI 105 to 90
+  * Round 17: Won against Muskogee First A/G, Muskogee, OK 155 to 35
+  * Round 18: Won against Orange County First A/G, Santa Ana, CA 95 to 90
+  * Round 19: Won against Evangel Community Church, Snellville, GA 265 to 20
 * **Team History**\
 CT Church has been to Nationals 5 times in the last 6 years.
 * **Favorite Question**\
@@ -1984,7 +1984,7 @@ Another denomination saw us quiz and has begun a quiz ministry in their churches
 {% capture image_html %}
 #### 3rd Place
 
-Church:	Overland Park First A/G, Overland Park, KS
+* **Church**: Overland Park First A/G, Overland Park, KS
 * **Coaches**:
   * Brian Brookbank
   * Pam Brookbank (assistant)
@@ -1993,35 +1993,35 @@ Church:	Overland Park First A/G, Overland Park, KS
     * Zach Brookbank
     * Jed Brookbank
 * **Preliminaries**:
-Round 1: Won against Orange County First A/G, Santa Ana, CA 175 to 145
-Round 2: Lost to Bellevue Neighborhood Church, Bellevue, WA 150 to 190
-Round 3: Won against Highpointe Church, Oklahoma City, OK 205 to 60
-Round 4: Won against Faith A/G, West Plains, MO 250 to -15
-Round 5: Won against Living Hope Worship Center, Swedesboro, NJ 180 to 100
-Round 6: Lost to Victorious Life Church, Wesley Chapel, FL 25 to 200
-Round 7: Won against First A/G, "Page 7", Lexington, KY 180 to 160
-Round 8: Won against Meadowbrook Community Church, Champaign, IL 175 to 105
-Round 9: Won against Berean A/G, Pleasant Hill, IA 225 to 50
+  * Round 1: Won against Orange County First A/G, Santa Ana, CA 175 to 145
+  * Round 2: Lost to Bellevue Neighborhood Church, Bellevue, WA 150 to 190
+  * Round 3: Won against Highpointe Church, Oklahoma City, OK 205 to 60
+  * Round 4: Won against Faith A/G, West Plains, MO 250 to -15
+  * Round 5: Won against Living Hope Worship Center, Swedesboro, NJ 180 to 100
+  * Round 6: Lost to Victorious Life Church, Wesley Chapel, FL 25 to 200
+  * Round 7: Won against First A/G, "Page 7", Lexington, KY 180 to 160
+  * Round 8: Won against Meadowbrook Community Church, Champaign, IL 175 to 105
+  * Round 9: Won against Berean A/G, Pleasant Hill, IA 225 to 50
 * **Round Robin**:
-Round 1: Lost to Northside Family Worship Center, Cumming, GA 150 to 200
-Round 2: Won against Dayspring A/G, Bowling Green, OH 165 to 130
-Round 3: Won against Word of Life A/G, Springfield, VA 115 to 95
-Round 4: Lost to Owasso First A/G, Owasso, OK 100 to 240
-Round 5: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 5 to 125
-Round 6: Won against First A/G, Binghamton, NY 135 to 85
-Round 7: Won against Manassas A/G, Bristow, VA 175 to 130
-Round 8: Won against First A/G, "Donut Holes", Lexington, KY 115 to 70
-Round 9: Lost to Central A/G, Springfield, MO 100 to 130
-Round 10: Lost to Praise A/G, Garfield, NJ 60 to 270
-Round 11: Won against Faith A/G, Orlando, FL 160 to 85
-Round 12: Won against Braeswood A/G, Houston, TX 140 to 25
-Round 13: Lost to Meadowbrook A/G, Champaign, IL 125 to 195
-Round 14: Won against Living Hope Church, Swedesboro, NJ 250 to 75
-Round 15: Won against James River A/G, "Sufficient Grace", Ozark, MO 140 to 120
-Round 16: Lost to New Life A/G, White Cloud, MI 85 to 120
-Round 17: Won against Bellevue Neighborhood Church, Bellevue, WA 235 to 50
-Round 18: Lost to Victorious Life Church, Wesley Chapel, FL 100 to 150
-Round 19: Lost to Cedar Park A/G, Bothell, WA 25 to 255
+  * Round 1: Lost to Northside Family Worship Center, Cumming, GA 150 to 200
+  * Round 2: Won against Dayspring A/G, Bowling Green, OH 165 to 130
+  * Round 3: Won against Word of Life A/G, Springfield, VA 115 to 95
+  * Round 4: Lost to Owasso First A/G, Owasso, OK 100 to 240
+  * Round 5: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 5 to 125
+  * Round 6: Won against First A/G, Binghamton, NY 135 to 85
+  * Round 7: Won against Manassas A/G, Bristow, VA 175 to 130
+  * Round 8: Won against First A/G, "Donut Holes", Lexington, KY 115 to 70
+  * Round 9: Lost to Central A/G, Springfield, MO 100 to 130
+  * Round 10: Lost to Praise A/G, Garfield, NJ 60 to 270
+  * Round 11: Won against Faith A/G, Orlando, FL 160 to 85
+  * Round 12: Won against Braeswood A/G, Houston, TX 140 to 25
+  * Round 13: Lost to Meadowbrook A/G, Champaign, IL 125 to 195
+  * Round 14: Won against Living Hope Church, Swedesboro, NJ 250 to 75
+  * Round 15: Won against James River A/G, "Sufficient Grace", Ozark, MO 140 to 120
+  * Round 16: Lost to New Life A/G, White Cloud, MI 85 to 120
+  * Round 17: Won against Bellevue Neighborhood Church, Bellevue, WA 235 to 50
+  * Round 18: Lost to Victorious Life Church, Wesley Chapel, FL 100 to 150
+  * Round 19: Lost to Cedar Park A/G, Bothell, WA 25 to 255
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Overland Park First A/G, Overland Park, KS" html=image_html %}
@@ -2031,7 +2031,7 @@ Round 19: Lost to Cedar Park A/G, Bothell, WA 25 to 255
 
 #### 4th Place
 
-Church:	Muskogee First A/G, Muskogee, OK
+* **Church**: Muskogee First A/G, Muskogee, OK
 * **Coaches**:
   * Dan Meddaugh: First year coaching in TBQ A-League and wished that he had some quizzing experience as a kid. Dan coached last year this same team in Novice. Has coached three years in JBQ, taking a team to JBQ nationals all three years (highest placement was 13th). Dan also wrote the "TBQ Live Match Excel Scoring Sheet" that is on bq.ag.org under the news tab.
   * Tracy Meddaugh (assistant): Coached Muskogee's TBQ Novice team this year.
@@ -2041,35 +2041,35 @@ Church:	Muskogee First A/G, Muskogee, OK
     * David Meddaugh: 8th Grader. Quizzed last year in Novice. Going for his NMA this year. Last year at TBQ 2009 SC Regionals took first in Individual. In JBQ he attended JBQ Nationals 3 times.
     * Paul Meddaugh: 6th Grader. He received his NMA this year. Took 4th at Oklahoma Districts this year. Quizzed last year in Novice for league only. In JBQ he attended JBQ Nationals 3 times.
 * **Preliminaries**:
-Round 1: Lost to First A/G, Montgomery, AL 115 to 120
-Round 2: Won against Orange County Christian Evangelical Church, Irvine, CA 170 to 45
-Round 3: Lost to Dayspring A/G, Bowling Green, OH 50 to 180
-Round 4: Lost to Manassas A/G, Bristow, VA 5 to 210
-Round 5: Lost to Owasso First A/G, Owasso, OK 115 to 210
-Round 6: Lost to Bethlehem Church, Richmond Hill, NY -15 to 95
-Round 7: Lost to Cedar Park Church, Bothell, WA 105 to 220
-Round 8: Won against CrossPoint A/G, Portage, WI 125 to 55
-Round 9: Lost to Central A/G, Springfield, MO 0 to 235
+  * Round 1: Lost to First A/G, Montgomery, AL 115 to 120
+  * Round 2: Won against Orange County Christian Evangelical Church, Irvine, CA 170 to 45
+  * Round 3: Lost to Dayspring A/G, Bowling Green, OH 50 to 180
+  * Round 4: Lost to Manassas A/G, Bristow, VA 5 to 210
+  * Round 5: Lost to Owasso First A/G, Owasso, OK 115 to 210
+  * Round 6: Lost to Bethlehem Church, Richmond Hill, NY -15 to 95
+  * Round 7: Lost to Cedar Park Church, Bothell, WA 105 to 220
+  * Round 8: Won against CrossPoint A/G, Portage, WI 125 to 55
+  * Round 9: Lost to Central A/G, Springfield, MO 0 to 235
 * **Round Robin**:
-Round 1: Won against First A/G, "Page 7", Lexington, KY 135 to 125
-Round 2: Won against Orange County First A/G, Santa Ana, CA 130 to 40
-Round 3: Won against Evangel Community Church, Snellville, GA 235 to -35
-Round 4: Won against Racine A/G, Racine, WI 0 to -5
-Round 5: Won against Bethlehem Church, Richmond Hill, NY 90 to 35
-Round 6: Won against Orange County Christian Evangelical Church, Irvine, CA 175 to 30
-Round 7: Won against Faith A/G, West Plains, MO 165 to 105
-Round 8: Won against Crosspoint A/G, Portage, WI 60 to 40
-Round 9: Won against Abundant Life A/G, Grand Island, NE 125 to 50
-Round 10: Won against Living Hope Church, Colorado Springs, CO 170 to 35
-Round 11: Lost to Paradise Hills A/G, Phoenix, AZ 75 to 115
-Round 12: Lost to First A/G, Montgomery, AL 105 to 140
-Round 13: Won against First A/G, Ashland, AL 160 to 55
-Round 14: Lost to The Church at Briargate, Colorado Springs, CO 95 to 150
-Round 15: Lost to HighPoint Church, Oklahoma City, OK 125 to 130
-Round 16: Lost to Berean A/G, Pleasant Hill, IA 10 to 95
-Round 17: Lost to Christian Temple, Houston, TX 35 to 155
-Round 18: Lost to Radiant Life Church, Elkhart, IN 85 to 180
-Round 19: Lost to First A/G of Greater Lansing, East Lansing, MI 15 to 110
+  * Round 1: Won against First A/G, "Page 7", Lexington, KY 135 to 125
+  * Round 2: Won against Orange County First A/G, Santa Ana, CA 130 to 40
+  * Round 3: Won against Evangel Community Church, Snellville, GA 235 to -35
+  * Round 4: Won against Racine A/G, Racine, WI 0 to -5
+  * Round 5: Won against Bethlehem Church, Richmond Hill, NY 90 to 35
+  * Round 6: Won against Orange County Christian Evangelical Church, Irvine, CA 175 to 30
+  * Round 7: Won against Faith A/G, West Plains, MO 165 to 105
+  * Round 8: Won against Crosspoint A/G, Portage, WI 60 to 40
+  * Round 9: Won against Abundant Life A/G, Grand Island, NE 125 to 50
+  * Round 10: Won against Living Hope Church, Colorado Springs, CO 170 to 35
+  * Round 11: Lost to Paradise Hills A/G, Phoenix, AZ 75 to 115
+  * Round 12: Lost to First A/G, Montgomery, AL 105 to 140
+  * Round 13: Won against First A/G, Ashland, AL 160 to 55
+  * Round 14: Lost to The Church at Briargate, Colorado Springs, CO 95 to 150
+  * Round 15: Lost to HighPoint Church, Oklahoma City, OK 125 to 130
+  * Round 16: Lost to Berean A/G, Pleasant Hill, IA 10 to 95
+  * Round 17: Lost to Christian Temple, Houston, TX 35 to 155
+  * Round 18: Lost to Radiant Life Church, Elkhart, IN 85 to 180
+  * Round 19: Lost to First A/G of Greater Lansing, East Lansing, MI 15 to 110
 * **Team History**\
 Last year in Novice the team took 1st in both the "Missouri Classic" and "Owasso Extreme" tournaments. At the 2009 South Central Regionals (without Paul Meddaugh) the team took 2nd. We feel blessed that we get to come to TBQ Nationals this year. This is our first year is A-League and the team has done very well. Thanks to Owasso for letting us quiz (and mentor us) every Monday night. Thanks to Zach Sullivan and Cheri Smith for your Bible Quiz training.
 * **Most exciting match this season**\
@@ -2093,7 +2093,7 @@ Knowing the Bible and answering Bible questions at Christian school.
 {% capture image_html %}
 #### 5th Place
 
-Church:	Braeswood A/G, Houston, TX
+* **Church**: Braeswood A/G, Houston, TX
 * **Coach**: Paul Kramer
 * **Team**:
     * Arinze Onyenezi
@@ -2102,35 +2102,35 @@ Church:	Braeswood A/G, Houston, TX
     * Daniel Oyolu
     * David Kpando
 * **Preliminaries**:
-Round 1: Lost to Paradise Hills A/G, Phoenix, AZ 125 to 145
-Round 2: Won against Evangel Community Church, Snellville, GA 115 to 45
-Round 3: Won against First A/G, Binghamton, NY 195 to 65
-Round 4: Won against New Life A/G, White Cloud, MI 205 to 80
-Round 5: Lost to Northside Family Worship Center, Cumming, GA 110 to 165
-Round 6: Won against Radiant Life, Elkhart, IN 125 to 25
-Round 7: Lost to The Church at Briargate, Colorado Springs, CO 110 to 165
-Round 8: Won against James River "Sufficient Grace", Ozark, MO 130 to 35
-Round 9: Won against Racine A/G, Racine, WI 265 to 10
+  * Round 1: Lost to Paradise Hills A/G, Phoenix, AZ 125 to 145
+  * Round 2: Won against Evangel Community Church, Snellville, GA 115 to 45
+  * Round 3: Won against First A/G, Binghamton, NY 195 to 65
+  * Round 4: Won against New Life A/G, White Cloud, MI 205 to 80
+  * Round 5: Lost to Northside Family Worship Center, Cumming, GA 110 to 165
+  * Round 6: Won against Radiant Life, Elkhart, IN 125 to 25
+  * Round 7: Lost to The Church at Briargate, Colorado Springs, CO 110 to 165
+  * Round 8: Won against James River "Sufficient Grace", Ozark, MO 130 to 35
+  * Round 9: Won against Racine A/G, Racine, WI 265 to 10
 * **Round Robin**:
-Round 1: Lost to Owasso First A/G, Owasso, OK 50 to 285
-Round 2: Lost to Meadowbrook A/G, Champaign, IL 20 to 160
-Round 3: Won against Living Hope Church, Swedesboro, NJ 105 to 85
-Round 4: Won against James River A/G, "Sufficient Grace", Ozark, MO 145 to 85
-Round 5: Lost to New Life A/G, White Cloud, MI 60 to 70
-Round 6: Won against Bellevue Neighborhood Church, Bellevue, WA 275 to 25
-Round 7: Lost to Victorious Life Church, Wesley Chapel, FL 15 to 260
-Round 8: Lost to Cedar Park A/G, Bothell, WA 30 to 180
-Round 9: Lost to Northside Family Worship Center, Cumming, GA 15 to 270
-Round 10: Lost to Dayspring A/G, Bowling Green, OH 55 to 190
-Round 11: Lost to Word of Life A/G, Springfield, VA 60 to 105
-Round 12: Lost to Overland Park A/G, Overland Park, KS 25 to 140
-Round 13: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 75 to 155
-Round 14: Won against First A/G, Binghamton, NY 245 to 75
-Round 15: Lost to Manassas A/G, Bristow, VA 70 to 110
-Round 16: Lost to First A/G, "Donut Holes", Lexington, KY 75 to 100
-Round 17: Won against Central A/G, Springfield, MO 200 to 25
-Round 18: Lost to Praise A/G, Garfield, NJ 20 to 70
-Round 19: Lost to Faith A/G, Orlando, FL 55 to 180
+  * Round 1: Lost to Owasso First A/G, Owasso, OK 50 to 285
+  * Round 2: Lost to Meadowbrook A/G, Champaign, IL 20 to 160
+  * Round 3: Won against Living Hope Church, Swedesboro, NJ 105 to 85
+  * Round 4: Won against James River A/G, "Sufficient Grace", Ozark, MO 145 to 85
+  * Round 5: Lost to New Life A/G, White Cloud, MI 60 to 70
+  * Round 6: Won against Bellevue Neighborhood Church, Bellevue, WA 275 to 25
+  * Round 7: Lost to Victorious Life Church, Wesley Chapel, FL 15 to 260
+  * Round 8: Lost to Cedar Park A/G, Bothell, WA 30 to 180
+  * Round 9: Lost to Northside Family Worship Center, Cumming, GA 15 to 270
+  * Round 10: Lost to Dayspring A/G, Bowling Green, OH 55 to 190
+  * Round 11: Lost to Word of Life A/G, Springfield, VA 60 to 105
+  * Round 12: Lost to Overland Park A/G, Overland Park, KS 25 to 140
+  * Round 13: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 75 to 155
+  * Round 14: Won against First A/G, Binghamton, NY 245 to 75
+  * Round 15: Lost to Manassas A/G, Bristow, VA 70 to 110
+  * Round 16: Lost to First A/G, "Donut Holes", Lexington, KY 75 to 100
+  * Round 17: Won against Central A/G, Springfield, MO 200 to 25
+  * Round 18: Lost to Praise A/G, Garfield, NJ 20 to 70
+  * Round 19: Lost to Faith A/G, Orlando, FL 55 to 180
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Braeswood A/G, Houston, TX" html=image_html %}
@@ -2138,7 +2138,7 @@ Round 19: Lost to Faith A/G, Orlando, FL 55 to 180
 {% capture image_html %}
 #### 6th Place
 
-Church:	Highpointe Church, Oklahoma City, OK
+* **Church**: Highpointe Church, Oklahoma City, OK
 * **Coaches**:
   * Elizabeth Bluebird
   * Clarissa Urbina (assistant)
@@ -2148,35 +2148,35 @@ Church:	Highpointe Church, Oklahoma City, OK
     * Micah Samuelson
     * Matthew Samuelson
 * **Preliminaries**:
-Round 1: Won against First A/G, "Page 7", Lexington, KY 160 to 45
-Round 2: Lost to Meadowbrook Community Church, Champaign, IL 20 to 235
-Round 3: Lost to Overland Park A/G, Overland Park, KS 60 to 205
-Round 4: Lost to Berean A/G, Pleasant Hill, IA 70 to 200
-Round 5: Lost to Victorious Life Church, Wesley Chapel, FL 80 to 280
-Round 6: Won against Faith A/G, West Plains, MO 140 to 15
-Round 7: Lost to Orange County First A/G, Santa Ana, CA 50 to 125
-Round 8: Lost to Living Hope Worship Center, Swedesboro, NJ 75 to 250
-Round 9: Lost to Bellevue Neighborhood Church, Bellevue, WA 10 to 145
+  * Round 1: Won against First A/G, "Page 7", Lexington, KY 160 to 45
+  * Round 2: Lost to Meadowbrook Community Church, Champaign, IL 20 to 235
+  * Round 3: Lost to Overland Park A/G, Overland Park, KS 60 to 205
+  * Round 4: Lost to Berean A/G, Pleasant Hill, IA 70 to 200
+  * Round 5: Lost to Victorious Life Church, Wesley Chapel, FL 80 to 280
+  * Round 6: Won against Faith A/G, West Plains, MO 140 to 15
+  * Round 7: Lost to Orange County First A/G, Santa Ana, CA 50 to 125
+  * Round 8: Lost to Living Hope Worship Center, Swedesboro, NJ 75 to 250
+  * Round 9: Lost to Bellevue Neighborhood Church, Bellevue, WA 10 to 145
 * **Round Robin**:
-Round 1: Won against Orange County Christian Evangelical Church, Irvine, CA 130 to 100
-Round 2: Won against Faith A/G, West Plains, MO 140 to 75
-Round 3: Won against Crosspoint A/G, Portage, WI 80 to 55
-Round 4: Lost to Abundant Life A/G, Grand Island, NE 65 to 140
-Round 5: Lost to Living Hope Church, Colorado Springs, CO -10 to 70
-Round 6: Lost to Paradise Hills A/G, Phoenix, AZ 35 to 130
-Round 7: Lost to First A/G, Montgomery, AL 65 to 230
-Round 8: Won against First A/G, Ashland, AL 125 to -40
-Round 9: Won against The Church at Briargate, Colorado Springs, CO 75 to 45
-Round 10: Lost to First A/G, "Page 7", Lexington, KY 95 to 155
-Round 11: Won against Berean A/G, Pleasant Hill, IA 140 to 80
-Round 12: Won against Christian Temple, Houston, TX 125 to 70
-Round 13: Won against Radiant Life Church, Elkhart, IN 125 to 35
-Round 14: Lost to First A/G of Greater Lansing, East Lansing, MI 45 to 205
-Round 15: Won against Muskogee First A/G, Muskogee, OK 130 to 125
-Round 16: Won against Orange County First A/G, Santa Ana, CA 155 to 20
-Round 17: Won against Evangel Community Church, Snellville, GA 95 to 75
-Round 18: Lost to Racine A/G, Racine, WI 50 to 55
-Round 19: Won against Bethlehem Church, Richmond Hill, NY 165 to 70
+  * Round 1: Won against Orange County Christian Evangelical Church, Irvine, CA 130 to 100
+  * Round 2: Won against Faith A/G, West Plains, MO 140 to 75
+  * Round 3: Won against Crosspoint A/G, Portage, WI 80 to 55
+  * Round 4: Lost to Abundant Life A/G, Grand Island, NE 65 to 140
+  * Round 5: Lost to Living Hope Church, Colorado Springs, CO -10 to 70
+  * Round 6: Lost to Paradise Hills A/G, Phoenix, AZ 35 to 130
+  * Round 7: Lost to First A/G, Montgomery, AL 65 to 230
+  * Round 8: Won against First A/G, Ashland, AL 125 to -40
+  * Round 9: Won against The Church at Briargate, Colorado Springs, CO 75 to 45
+  * Round 10: Lost to First A/G, "Page 7", Lexington, KY 95 to 155
+  * Round 11: Won against Berean A/G, Pleasant Hill, IA 140 to 80
+  * Round 12: Won against Christian Temple, Houston, TX 125 to 70
+  * Round 13: Won against Radiant Life Church, Elkhart, IN 125 to 35
+  * Round 14: Lost to First A/G of Greater Lansing, East Lansing, MI 45 to 205
+  * Round 15: Won against Muskogee First A/G, Muskogee, OK 130 to 125
+  * Round 16: Won against Orange County First A/G, Santa Ana, CA 155 to 20
+  * Round 17: Won against Evangel Community Church, Snellville, GA 95 to 75
+  * Round 18: Lost to Racine A/G, Racine, WI 50 to 55
+  * Round 19: Won against Bethlehem Church, Richmond Hill, NY 165 to 70
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Highpointe Church, Oklahoma City, OK" html=image_html %}
@@ -2188,7 +2188,7 @@ Round 19: Won against Bethlehem Church, Richmond Hill, NY 165 to 70
 
 #### 1st Place
 
-Church:	Northside Family Worship Center, Cumming, GA
+* **Church**: Northside Family Worship Center, Cumming, GA
 * **Coaches**:
   * Jim Lex: Assistant coached at Nationals in '06 and '08, head coached in '09.
   * John Rice (assistant)
@@ -2199,35 +2199,35 @@ Church:	Northside Family Worship Center, Cumming, GA
     * Sarah Rice: 2nd year as a quizzer, received the NMA and MMA
     * Rachel Rice: 2nd year as a quizzer, received the NMA and MMA
 * **Preliminaries**:
-Round 1: Won against The Church at Briargate, Colorado Springs, CO 155 to 95
-Round 2: Won against Radiant Life, Elkhart, IN 360 to -10
-Round 3: Won against Racine A/G, Racine, WI 300 to 0
-Round 4: Won against Evangel Community Church, Snellville, GA 310 to 20
-Round 5: Won against Braeswood A/G, Houston, TX 165 to 110
-Round 6: Won against Paradise Hills A/G, Phoenix, AZ 290 to 35
-Round 7: Lost to James River "Sufficient Grace", Ozark, MO 75 to 160
-Round 8: Won against New Life A/G, White Cloud, MI 195 to 65
-Round 9: Lost to First A/G, Binghamton, NY 155 to 170
+  * Round 1: Won against The Church at Briargate, Colorado Springs, CO 155 to 95
+  * Round 2: Won against Radiant Life, Elkhart, IN 360 to -10
+  * Round 3: Won against Racine A/G, Racine, WI 300 to 0
+  * Round 4: Won against Evangel Community Church, Snellville, GA 310 to 20
+  * Round 5: Won against Braeswood A/G, Houston, TX 165 to 110
+  * Round 6: Won against Paradise Hills A/G, Phoenix, AZ 290 to 35
+  * Round 7: Lost to James River "Sufficient Grace", Ozark, MO 75 to 160
+  * Round 8: Won against New Life A/G, White Cloud, MI 195 to 65
+  * Round 9: Lost to First A/G, Binghamton, NY 155 to 170
 * **Round Robin**:
-Round 1: Won against Overland Park A/G, Overland Park, KS 200 to 150
-Round 2: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 160 to 190
-Round 3: Won against First A/G, Binghamton, NY 220 to 130
-Round 4: Won against Manassas A/G, Bristow, VA 155 to 95
-Round 5: Won against First A/G, "Donut Holes", Lexington, KY 130 to 70
-Round 6: Lost to Central A/G, Springfield, MO 175 to 190
-Round 7: Lost to Praise A/G, Garfield, NJ 125 to 140
-Round 8: Won against Faith A/G, Orlando, FL 170 to 160
-Round 9: Won against Braeswood A/G, Houston, TX 270 to 15
-Round 10: Won against Meadowbrook A/G, Champaign, IL 155 to 125
-Round 11: Won against Living Hope Church, Swedesboro, NJ 185 to 65
-Round 12: Lost to James River A/G, "Sufficient Grace", Ozark, MO 125 to 150
-Round 13: Lost to New Life A/G, White Cloud, MI 85 to 130
-Round 14: Won against Bellevue Neighborhood Church, Bellevue, WA 290 to 50
-Round 15: Lost to Victorious Life Church, Wesley Chapel, FL 150 to 200
-Round 16: Lost to Cedar Park A/G, Bothell, WA 120 to 145
-Round 17: Won against Owasso First A/G, Owasso, OK 145 to 115
-Round 18: Won against Dayspring A/G, Bowling Green, OH 175 to 55
-Round 19: Won against Word of Life A/G, Springfield, VA 265 to 110
+  * Round 1: Won against Overland Park A/G, Overland Park, KS 200 to 150
+  * Round 2: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 160 to 190
+  * Round 3: Won against First A/G, Binghamton, NY 220 to 130
+  * Round 4: Won against Manassas A/G, Bristow, VA 155 to 95
+  * Round 5: Won against First A/G, "Donut Holes", Lexington, KY 130 to 70
+  * Round 6: Lost to Central A/G, Springfield, MO 175 to 190
+  * Round 7: Lost to Praise A/G, Garfield, NJ 125 to 140
+  * Round 8: Won against Faith A/G, Orlando, FL 170 to 160
+  * Round 9: Won against Braeswood A/G, Houston, TX 270 to 15
+  * Round 10: Won against Meadowbrook A/G, Champaign, IL 155 to 125
+  * Round 11: Won against Living Hope Church, Swedesboro, NJ 185 to 65
+  * Round 12: Lost to James River A/G, "Sufficient Grace", Ozark, MO 125 to 150
+  * Round 13: Lost to New Life A/G, White Cloud, MI 85 to 130
+  * Round 14: Won against Bellevue Neighborhood Church, Bellevue, WA 290 to 50
+  * Round 15: Lost to Victorious Life Church, Wesley Chapel, FL 150 to 200
+  * Round 16: Lost to Cedar Park A/G, Bothell, WA 120 to 145
+  * Round 17: Won against Owasso First A/G, Owasso, OK 145 to 115
+  * Round 18: Won against Dayspring A/G, Bowling Green, OH 175 to 55
+  * Round 19: Won against Word of Life A/G, Springfield, VA 265 to 110
 * **Team History**\
 Team was 8th at Regionals last year and finished 1st this year. 1st time Cumming, GA has ever gone to Nationals.
 * **Most Exciting Match This Season**\
@@ -2246,7 +2246,7 @@ Team was 8th at Regionals last year and finished 1st this year. 1st time Cumming
   * [Peach Classic]({% link _pages/history/2010/tournaments/peach-classic.md %})
   * [Gobblefest]({% link _pages/history/2010/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * Atlanta Open
+  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
 * **Favorite non-quiz related moment this year**\
 Let's just say it involved a glass coffee table and manhunt in a very dark place :)
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
@@ -2260,7 +2260,7 @@ At Regionals, we asked the hotel desk clerk if we could use the meeting rooms (u
 
 #### 2nd Place
 
-Church:	Victorious Life Church, Wesley Chapel, FL
+* **Church**: Victorious Life Church, Wesley Chapel, FL
 * **Coaches**:
   * Joshua Weber: Involved with quiz for over 20 years. He was on back-to-back national championship teams from Lakeland, FL in 1990 and 1991 and was top scorer in 1992. He has coached at Wesley Chapel for three years.
   * Leslie Wolf (assistant)
@@ -2270,35 +2270,35 @@ Church:	Victorious Life Church, Wesley Chapel, FL
     * Erinn Wolf: Third year at National Finals. She has earned her NMA and MMA this year.
     * Abby Rogers: Second National Finals. She has earned her NMA and MMA this year.
 * **Preliminaries**:
-Round 1: Won against Bellevue Neighborhood Church, Bellevue, WA 250 to 60
-Round 2: Won against Berean A/G, Pleasant Hill, IA 220 to 155
-Round 3: Won against Faith A/G, West Plains, MO 225 to 95
-Round 4: Won against Orange County First A/G, Santa Ana, CA 255 to 55
-Round 5: Won against Highpointe Church, Oklahoma City, OK 280 to 80
-Round 6: Won against Overland Park A/G, Overland Park, KS 200 to 25
-Round 7: Won against Living Hope Worship Center, Swedesboro, NJ 250 to 120
-Round 8: Won against First A/G, "Page 7", Lexington, KY 200 to 110
-Round 9: Won against Meadowbrook Community Church, Champaign, IL 180 to 140
+  * Round 1: Won against Bellevue Neighborhood Church, Bellevue, WA 250 to 60
+  * Round 2: Won against Berean A/G, Pleasant Hill, IA 220 to 155
+  * Round 3: Won against Faith A/G, West Plains, MO 225 to 95
+  * Round 4: Won against Orange County First A/G, Santa Ana, CA 255 to 55
+  * Round 5: Won against Highpointe Church, Oklahoma City, OK 280 to 80
+  * Round 6: Won against Overland Park A/G, Overland Park, KS 200 to 25
+  * Round 7: Won against Living Hope Worship Center, Swedesboro, NJ 250 to 120
+  * Round 8: Won against First A/G, "Page 7", Lexington, KY 200 to 110
+  * Round 9: Won against Meadowbrook Community Church, Champaign, IL 180 to 140
 * **Round Robin**:
-Round 1: Won against First A/G, Binghamton, NY 205 to 90
-Round 2: Lost to Manassas A/G, Bristow, VA 150 to 205
-Round 3: Won against First A/G, "Donut Holes", Lexington, KY 250 to 90
-Round 4: Lost to Central A/G, Springfield, MO 145 to 215
-Round 5: Lost to Praise A/G, Garfield, NJ 20 to 170
-Round 6: Won against Faith A/G, Orlando, FL 235 to 45
-Round 7: Won against Braeswood A/G, Houston, TX 260 to 15
-Round 8: Won against Meadowbrook A/G, Champaign, IL 200 to 185
-Round 9: Won against Living Hope Church, Swedesboro, NJ 195 to 135
-Round 10: Won against James River A/G, "Sufficient Grace", Ozark, MO 230 to 135
-Round 11: Won against New Life A/G, White Cloud, MI 215 to 55
-Round 12: Won against Bellevue Neighborhood Church, Bellevue, WA 225 to 75
-Round 13: Lost to Owasso First A/G, Owasso, OK 150 to 210
-Round 14: Lost to Cedar Park A/G, Bothell, WA 125 to 190
-Round 15: Won against Northside Family Worship Center, Cumming, GA 200 to 150
-Round 16: Won against Dayspring A/G, Bowling Green, OH 140 to 130
-Round 17: Won against Word of Life A/G, Springfield, VA 265 to 20
-Round 18: Won against Overland Park A/G, Overland Park, KS 150 to 100
-Round 19: Won against James River A/G, "Perfect in Weakness", Ozark, MO 225 to 115
+  * Round 1: Won against First A/G, Binghamton, NY 205 to 90
+  * Round 2: Lost to Manassas A/G, Bristow, VA 150 to 205
+  * Round 3: Won against First A/G, "Donut Holes", Lexington, KY 250 to 90
+  * Round 4: Lost to Central A/G, Springfield, MO 145 to 215
+  * Round 5: Lost to Praise A/G, Garfield, NJ 20 to 170
+  * Round 6: Won against Faith A/G, Orlando, FL 235 to 45
+  * Round 7: Won against Braeswood A/G, Houston, TX 260 to 15
+  * Round 8: Won against Meadowbrook A/G, Champaign, IL 200 to 185
+  * Round 9: Won against Living Hope Church, Swedesboro, NJ 195 to 135
+  * Round 10: Won against James River A/G, "Sufficient Grace", Ozark, MO 230 to 135
+  * Round 11: Won against New Life A/G, White Cloud, MI 215 to 55
+  * Round 12: Won against Bellevue Neighborhood Church, Bellevue, WA 225 to 75
+  * Round 13: Lost to Owasso First A/G, Owasso, OK 150 to 210
+  * Round 14: Lost to Cedar Park A/G, Bothell, WA 125 to 190
+  * Round 15: Won against Northside Family Worship Center, Cumming, GA 200 to 150
+  * Round 16: Won against Dayspring A/G, Bowling Green, OH 140 to 130
+  * Round 17: Won against Word of Life A/G, Springfield, VA 265 to 20
+  * Round 18: Won against Overland Park A/G, Overland Park, KS 150 to 100
+  * Round 19: Won against James River A/G, "Perfect in Weakness", Ozark, MO 225 to 115
 * **Team History**\
 VLC has been to Nationals 3 consecutive years. We have the honor of sending two teams to Nationals last year.
 * **Most Exciting Match This Season**\
@@ -2328,7 +2328,7 @@ Sharing the good news at car washes.
 
 #### 3rd Place
 
-Church:	Faith A/G, Orlando, FL
+* **Church**: Faith A/G, Orlando, FL
 * **Coaches**:
   * Ray Berkey: 18th year as a coach. 1992, 1993 and 1994 (Tuscawilla A/G) and 1996 through 2010 (Faith A/G). He has been blessed to take a team to nationals 16 times.
   * Angie Berkey (assistant)
@@ -2339,35 +2339,35 @@ Church:	Faith A/G, Orlando, FL
     * Jonice Grant: 3rd year quizzer, 1st year to Nationals.
     * Zach Freer: 3rd year quizzer, 1st year to Nationals.
 * **Preliminaries**:
-Round 1: Won against First A/G, "Donut Holes", Lexington, KY 160 to 40
-Round 2: Won against Christian Temple, Houston, TX 145 to 90
-Round 3: Won against First A/G, Ashland, AL 225 to 120
-Round 4: Won against Abundant Life A/G, Grand Island, NE 165 to 125
-Round 5: Lost to Word of Life Church, Springfield, VA 65 to 155
-Round 6: Won against Living Hope Church, Colorado Springs, CO 155 to -5
-Round 7: Lost to First A/G of Greater Lansing, East Lansing, MI 140 to 160
-Round 8: Lost to Praise A/G, Garfield, NJ 75 to 125
-Round 9: Won against James River A/G, "Perfect in Weakness", Ozark, MO 230 to 155
+  * Round 1: Won against First A/G, "Donut Holes", Lexington, KY 160 to 40
+  * Round 2: Won against Christian Temple, Houston, TX 145 to 90
+  * Round 3: Won against First A/G, Ashland, AL 225 to 120
+  * Round 4: Won against Abundant Life A/G, Grand Island, NE 165 to 125
+  * Round 5: Lost to Word of Life Church, Springfield, VA 65 to 155
+  * Round 6: Won against Living Hope Church, Colorado Springs, CO 155 to -5
+  * Round 7: Lost to First A/G of Greater Lansing, East Lansing, MI 140 to 160
+  * Round 8: Lost to Praise A/G, Garfield, NJ 75 to 125
+  * Round 9: Won against James River A/G, "Perfect in Weakness", Ozark, MO 230 to 155
 * **Round Robin**:
-Round 1: Lost to Meadowbrook A/G, Champaign, IL 100 to 200
-Round 2: Lost to Living Hope Church, Swedesboro, NJ 75 to 225
-Round 3: Lost to James River A/G, "Sufficient Grace", Ozark, MO 80 to 180
-Round 4: Won against New Life A/G, White Cloud, MI 130 to 100
-Round 5: Won against Bellevue Neighborhood Church, Bellevue, WA 195 to 40
-Round 6: Lost to Victorious Life Church, Wesley Chapel, FL 45 to 235
-Round 7: Lost to Cedar Park A/G, Bothell, WA 120 to 240
-Round 8: Lost to Northside Family Worship Center, Cumming, GA 160 to 170
-Round 9: Lost to Dayspring A/G, Bowling Green, OH 105 to 155
-Round 10: Won against Word of Life A/G, Springfield, VA 175 to 125
-Round 11: Lost to Overland Park A/G, Overland Park, KS 85 to 160
-Round 12: Won against James River A/G, "Perfect in Weakness", Ozark, MO 155 to 150
-Round 13: Won against First A/G, Binghamton, NY 130 to 10
-Round 14: Lost to Manassas A/G, Bristow, VA 100 to 230
-Round 15: Won against First A/G, "Donut Holes", Lexington, KY 120 to 100
-Round 16: Won against Central A/G, Springfield, MO 125 to 120
-Round 17: Won against Praise A/G, Garfield, NJ 125 to 120
-Round 18: Lost to Owasso First A/G, Owasso, OK 125 to 130
-Round 19: Won against Braeswood A/G, Houston, TX 180 to 55
+  * Round 1: Lost to Meadowbrook A/G, Champaign, IL 100 to 200
+  * Round 2: Lost to Living Hope Church, Swedesboro, NJ 75 to 225
+  * Round 3: Lost to James River A/G, "Sufficient Grace", Ozark, MO 80 to 180
+  * Round 4: Won against New Life A/G, White Cloud, MI 130 to 100
+  * Round 5: Won against Bellevue Neighborhood Church, Bellevue, WA 195 to 40
+  * Round 6: Lost to Victorious Life Church, Wesley Chapel, FL 45 to 235
+  * Round 7: Lost to Cedar Park A/G, Bothell, WA 120 to 240
+  * Round 8: Lost to Northside Family Worship Center, Cumming, GA 160 to 170
+  * Round 9: Lost to Dayspring A/G, Bowling Green, OH 105 to 155
+  * Round 10: Won against Word of Life A/G, Springfield, VA 175 to 125
+  * Round 11: Lost to Overland Park A/G, Overland Park, KS 85 to 160
+  * Round 12: Won against James River A/G, "Perfect in Weakness", Ozark, MO 155 to 150
+  * Round 13: Won against First A/G, Binghamton, NY 130 to 10
+  * Round 14: Lost to Manassas A/G, Bristow, VA 100 to 230
+  * Round 15: Won against First A/G, "Donut Holes", Lexington, KY 120 to 100
+  * Round 16: Won against Central A/G, Springfield, MO 125 to 120
+  * Round 17: Won against Praise A/G, Garfield, NJ 125 to 120
+  * Round 18: Lost to Owasso First A/G, Owasso, OK 125 to 130
+  * Round 19: Won against Braeswood A/G, Houston, TX 180 to 55
 * **Team History**\
 This is Faith A/G, 14th trip to nationals and 11th consecutive year. They placed 3rd place in 2009.
 * **Favorite quiz question**\
@@ -2389,7 +2389,7 @@ One of our quizzers (Zach) set up a devotional blog - with an overview of Corint
 
 #### 4th Place
 
-Church:	First A/G, Montgomery, AL
+* **Church**: First A/G, Montgomery, AL
 * **Coaches**:
   * Daniel Mims: Coaching since 1995 and coached at Nationals 5 years (1995, 2005, 2008, 2009, 2010).
   * Andrew Banach (assistant): Quizzed at National Finals in 2008.
@@ -2399,35 +2399,35 @@ Church:	First A/G, Montgomery, AL
     * Silas Mims: 8th grade, memorized all of Corinthians, 2nd year to quiz at Nationals.
     * Sidney Mims: 6th grade, 1st appearance at Nationals.
 * **Preliminaries**:
-Round 1: Won against Muskogee First A/G, Muskogee, OK 120 to 115
-Round 2: Lost to Central A/G, Springfield, MO 35 to 250
-Round 3: Lost to Cedar Park Church, Bothell, WA 120 to 125
-Round 4: Lost to CrossPoint A/G, Portage, WI 45 to 160
-Round 5: Lost to Manassas A/G, Bristow, VA 70 to 275
-Round 6: Lost to Owasso First A/G, Owasso, OK 60 to 260
-Round 7: Lost to Dayspring A/G, Bowling Green, OH 80 to 210
-Round 8: Lost to Bethlehem Church, Richmond Hill, NY -20 to 55
-Round 9: Won against Orange County Christian Evangelical Church, Irvine, CA 105 to 20
+  * Round 1: Won against Muskogee First A/G, Muskogee, OK 120 to 115
+  * Round 2: Lost to Central A/G, Springfield, MO 35 to 250
+  * Round 3: Lost to Cedar Park Church, Bothell, WA 120 to 125
+  * Round 4: Lost to CrossPoint A/G, Portage, WI 45 to 160
+  * Round 5: Lost to Manassas A/G, Bristow, VA 70 to 275
+  * Round 6: Lost to Owasso First A/G, Owasso, OK 60 to 260
+  * Round 7: Lost to Dayspring A/G, Bowling Green, OH 80 to 210
+  * Round 8: Lost to Bethlehem Church, Richmond Hill, NY -20 to 55
+  * Round 9: Won against Orange County Christian Evangelical Church, Irvine, CA 105 to 20
 * **Round Robin**:
-Round 1: Won against Abundant Life A/G, Grand Island, NE 170 to -25
-Round 2: Won against Living Hope Church, Colorado Springs, CO 130 to 35
-Round 3: Won against Paradise Hills A/G, Phoenix, AZ 160 to -10
-Round 4: Won against First A/G, "Page 7", Lexington, KY 160 to 40
-Round 5: Won against First A/G, Ashland, AL 120 to 0
-Round 6: Won against The Church at Briargate, Colorado Springs, CO 155 to 50
-Round 7: Won against HighPoint Church, Oklahoma City, OK 230 to 65
-Round 8: Won against Berean A/G, Pleasant Hill, IA 195 to 70
-Round 9: Won against Christian Temple, Houston, TX 210 to 60
-Round 10: Won against Radiant Life Church, Elkhart, IN 190 to 20
-Round 11: Lost to First A/G of Greater Lansing, East Lansing, MI 60 to 130
-Round 12: Won against Muskogee First A/G, Muskogee, OK 140 to 105
-Round 13: Lost to Orange County First A/G, Santa Ana, CA 80 to 130
-Round 14: Won against Evangel Community Church, Snellville, GA 220 to 45
-Round 15: Won against Racine A/G, Racine, WI 105 to 45
-Round 16: Won against Bethlehem Church, Richmond Hill, NY 145 to 70
-Round 17: Won against Orange County Christian Evangelical Church, Irvine, CA 185 to 45
-Round 18: Lost to Faith A/G, West Plains, MO 95 to 130
-Round 19: Won against Crosspoint A/G, Portage, WI 85 to 50
+  * Round 1: Won against Abundant Life A/G, Grand Island, NE 170 to -25
+  * Round 2: Won against Living Hope Church, Colorado Springs, CO 130 to 35
+  * Round 3: Won against Paradise Hills A/G, Phoenix, AZ 160 to -10
+  * Round 4: Won against First A/G, "Page 7", Lexington, KY 160 to 40
+  * Round 5: Won against First A/G, Ashland, AL 120 to 0
+  * Round 6: Won against The Church at Briargate, Colorado Springs, CO 155 to 50
+  * Round 7: Won against HighPoint Church, Oklahoma City, OK 230 to 65
+  * Round 8: Won against Berean A/G, Pleasant Hill, IA 195 to 70
+  * Round 9: Won against Christian Temple, Houston, TX 210 to 60
+  * Round 10: Won against Radiant Life Church, Elkhart, IN 190 to 20
+  * Round 11: Lost to First A/G of Greater Lansing, East Lansing, MI 60 to 130
+  * Round 12: Won against Muskogee First A/G, Muskogee, OK 140 to 105
+  * Round 13: Lost to Orange County First A/G, Santa Ana, CA 80 to 130
+  * Round 14: Won against Evangel Community Church, Snellville, GA 220 to 45
+  * Round 15: Won against Racine A/G, Racine, WI 105 to 45
+  * Round 16: Won against Bethlehem Church, Richmond Hill, NY 145 to 70
+  * Round 17: Won against Orange County Christian Evangelical Church, Irvine, CA 185 to 45
+  * Round 18: Lost to Faith A/G, West Plains, MO 95 to 130
+  * Round 19: Won against Crosspoint A/G, Portage, WI 85 to 50
 * **Team History**\
 Montgomery First made it to Nationals for the first time in 1985 under the direction of Greg Kelley (at the time he was the youth pastor and is now the senior pastor of the church - Hudson's dad; Greg was also a top quizzer at Nationals in Ohio in 1978 and 1979). They returned in 1986, 1992, 1995, 2005, 2008, 2009 & 2010. The highest finish at Nationals is 8th place. Most recently, the team finished 3rd in the Challenger division in 2009.
 * **Most Exciting Match This Season**\
@@ -2436,7 +2436,7 @@ Friendship Classic - an overtime win against Bighamton, NY
 1 Corinthians 15:10
 * **Tournaments attended this year**:
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * Atlanta Open
+  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
   * [Owasso Xtreme]({% link _pages/history/2010/tournaments/owasso-xtreme.md %})
 * **Favorite non-quiz related moment this year**\
 This can be something that happened in a church van, in a hotel room, etc.
@@ -2451,7 +2451,7 @@ We recently used our Bible Quiz to minister on an all church missions trip to So
 
 #### 5th Place
 
-Church:	Evangel Community Church, Snellville, GA
+* **Church**: Evangel Community Church, Snellville, GA
 * **Coaches**:
   * Mark Gilmer: Coached for 24 years after quizzing for 8 years. He was on the National Championship teams in 1976 and 1978. He finished in the top 6 scorers twice. This is Mark's 17th trip to Nationals, 5 as a quizzer and 12 as a coach.
   * Eric Beasley (assistant): Coaching for his 2nd year and making his first trip to Nationals. Eric, Mel and MacKenzie were critical to qualifying for Nationals.
@@ -2465,35 +2465,35 @@ Church:	Evangel Community Church, Snellville, GA
     * Rodney Brown, Jr.: Quizzing for 4 years and this is his 2nd year at Nationals.
     * Andy Okala: Quizzing in his second year and making his first trip to Nationals.
 * **Preliminaries**:
-Round 1: Lost to Radiant Life, Elkhart, IN 80 to 105
-Round 2: Lost to Braeswood A/G, Houston, TX 45 to 115
-Round 3: Lost to James River "Sufficient Grace", Ozark, MO 60 to 235
-Round 4: Lost to Northside Family Worship Center, Cumming, GA 20 to 310
-Round 5: Lost to The Church at Briargate, Colorado Springs, CO -45 to 250
-Round 6: Won against Racine A/G, Racine, WI 65 to 0
-Round 7: Lost to New Life A/G, White Cloud, MI 5 to 250
-Round 8: Lost to First A/G, Binghamton, NY -5 to 270
-Round 9: Lost to Paradise Hills A/G, Phoenix, AZ 35 to 150
+  * Round 1: Lost to Radiant Life, Elkhart, IN 80 to 105
+  * Round 2: Lost to Braeswood A/G, Houston, TX 45 to 115
+  * Round 3: Lost to James River "Sufficient Grace", Ozark, MO 60 to 235
+  * Round 4: Lost to Northside Family Worship Center, Cumming, GA 20 to 310
+  * Round 5: Lost to The Church at Briargate, Colorado Springs, CO -45 to 250
+  * Round 6: Won against Racine A/G, Racine, WI 65 to 0
+  * Round 7: Lost to New Life A/G, White Cloud, MI 5 to 250
+  * Round 8: Lost to First A/G, Binghamton, NY -5 to 270
+  * Round 9: Lost to Paradise Hills A/G, Phoenix, AZ 35 to 150
 * **Round Robin**:
-Round 1: Lost to Radiant Life Church, Elkhart, IN 65 to 160
-Round 2: Lost to First A/G of Greater Lansing, East Lansing, MI -5 to 175
-Round 3: Lost to Muskogee First A/G, Muskogee, OK -35 to 235
-Round 4: Lost to Orange County First A/G, Santa Ana, CA 0 to 100
-Round 5: Won against First A/G, "Page 7", Lexington, KY 100 to 35
-Round 6: Lost to Racine A/G, Racine, WI 60 to 115
-Round 7: Lost to Bethlehem Church, Richmond Hill, NY 90 to 120
-Round 8: Lost to Orange County Christian Evangelical Church, Irvine, CA -25 to 95
-Round 9: Won against Faith A/G, West Plains, MO 50 to 25
-Round 10: Lost to Crosspoint A/G, Portage, WI 65 to 135
-Round 11: Lost to Abundant Life A/G, Grand Island, NE 105 to 130
-Round 12: Lost to Living Hope Church, Colorado Springs, CO 65 to 175
-Round 13: Lost to Paradise Hills A/G, Phoenix, AZ 110 to 135
-Round 14: Lost to First A/G, Montgomery, AL 45 to 220
-Round 15: Won against First A/G, Ashland, AL 100 to 40
-Round 16: Lost to The Church at Briargate, Colorado Springs, CO 60 to 70
-Round 17: Lost to HighPoint Church, Oklahoma City, OK 75 to 95
-Round 18: Lost to Berean A/G, Pleasant Hill, IA 105 to 125
-Round 19: Lost to Christian Temple, Houston, TX 20 to 265
+  * Round 1: Lost to Radiant Life Church, Elkhart, IN 65 to 160
+  * Round 2: Lost to First A/G of Greater Lansing, East Lansing, MI -5 to 175
+  * Round 3: Lost to Muskogee First A/G, Muskogee, OK -35 to 235
+  * Round 4: Lost to Orange County First A/G, Santa Ana, CA 0 to 100
+  * Round 5: Won against First A/G, "Page 7", Lexington, KY 100 to 35
+  * Round 6: Lost to Racine A/G, Racine, WI 60 to 115
+  * Round 7: Lost to Bethlehem Church, Richmond Hill, NY 90 to 120
+  * Round 8: Lost to Orange County Christian Evangelical Church, Irvine, CA -25 to 95
+  * Round 9: Won against Faith A/G, West Plains, MO 50 to 25
+  * Round 10: Lost to Crosspoint A/G, Portage, WI 65 to 135
+  * Round 11: Lost to Abundant Life A/G, Grand Island, NE 105 to 130
+  * Round 12: Lost to Living Hope Church, Colorado Springs, CO 65 to 175
+  * Round 13: Lost to Paradise Hills A/G, Phoenix, AZ 110 to 135
+  * Round 14: Lost to First A/G, Montgomery, AL 45 to 220
+  * Round 15: Won against First A/G, Ashland, AL 100 to 40
+  * Round 16: Lost to The Church at Briargate, Colorado Springs, CO 60 to 70
+  * Round 17: Lost to HighPoint Church, Oklahoma City, OK 75 to 95
+  * Round 18: Lost to Berean A/G, Pleasant Hill, IA 105 to 125
+  * Round 19: Lost to Christian Temple, Houston, TX 20 to 265
 * **Team History**\
 This Evangel Community Church, Snellville's 20th time to Nationals. It also appeared at Nationals as Bouldercrest A/G, Atlanta,GA and as Evangel Temple, Decatur, GA. Evangel has won Nationals 3 times including 1963 (the first year) and 1976 and 1978. Evangel has finished in the top 4 at Nationals numerous times including a 2nd place finish in 1982. Evangel has had the top scorer 3 times and had the winner of the one-on-one (now the individual tournament) in 1991.
 * **Most Exciting Match This Season**\
@@ -2510,7 +2510,7 @@ The question is: "Jars of Clay are a famous Christian band. Give the verse that 
   * Andy: 2 Corinthians 5:17
 * **Tournaments attended this year**
   * [Peach Classic]({% link _pages/history/2010/tournaments/peach-classic.md %})
-  * Atlanta Open
+  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
 * **Favorite non-quiz related moment this year**\
 Rapping the Scripture in the van while driving to tournaments.
@@ -2525,7 +2525,7 @@ We have a very large group with 18 quizzers plus adults so we attract a lot of a
 
 #### 6th Place
 
-Church:	First A/G, Ashland, AL
+* **Church**: First A/G, Ashland, AL
 * **Coaches**:
   * Michelle Willis
   * Niki Hester (assistant)
@@ -2536,35 +2536,35 @@ Church:	First A/G, Ashland, AL
     * David Willis
     * Nathan Willis
 * **Preliminaries**:
-Round 1: Won against First A/G of Greater Lansing, East Lansing, MI 110 to 45
-Round 2: Lost to Praise A/G, Garfield, NJ 10 to 290
-Round 3: Lost to Faith A/G, Orlando, FL 120 to 225
-Round 4: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 60 to 295
-Round 5: Won against Living Hope Church, Colorado Springs, CO 145 to 85
-Round 6: Won against Abundant Life A/G, Grand Island, NE 85 to 50
-Round 7: Lost to First A/G, "Donut Holes", Lexington, KY 0 to 150
-Round 8: Lost to Word of Life Church, Springfield, VA 30 to 305
-Round 9: Lost to Christian Temple, Houston, TX 35 to 85
+  * Round 1: Won against First A/G of Greater Lansing, East Lansing, MI 110 to 45
+  * Round 2: Lost to Praise A/G, Garfield, NJ 10 to 290
+  * Round 3: Lost to Faith A/G, Orlando, FL 120 to 225
+  * Round 4: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 60 to 295
+  * Round 5: Won against Living Hope Church, Colorado Springs, CO 145 to 85
+  * Round 6: Won against Abundant Life A/G, Grand Island, NE 85 to 50
+  * Round 7: Lost to First A/G, "Donut Holes", Lexington, KY 0 to 150
+  * Round 8: Lost to Word of Life Church, Springfield, VA 30 to 305
+  * Round 9: Lost to Christian Temple, Houston, TX 35 to 85
 * **Round Robin**:
-Round 1: Lost to Crosspoint A/G, Portage, WI 20 to 105
-Round 2: Won against Abundant Life A/G, Grand Island, NE 95 to -15
-Round 3: Lost to Living Hope Church, Colorado Springs, CO 85 to 100
-Round 4: Lost to Paradise Hills A/G, Phoenix, AZ 95 to 155
-Round 5: Lost to First A/G, Montgomery, AL 0 to 120
-Round 6: Lost to First A/G, "Page 7", Lexington, KY 35 to 180
-Round 7: Lost to The Church at Briargate, Colorado Springs, CO -45 to 220
-Round 8: Lost to HighPoint Church, Oklahoma City, OK -40 to 125
-Round 9: Lost to Berean A/G, Pleasant Hill, IA 50 to 195
-Round 10: Lost to Christian Temple, Houston, TX 60 to 240
-Round 11: Lost to Radiant Life Church, Elkhart, IN 105 to 145
-Round 12: Lost to First A/G of Greater Lansing, East Lansing, MI 65 to 90
-Round 13: Lost to Muskogee First A/G, Muskogee, OK 55 to 160
-Round 14: Lost to Orange County First A/G, Santa Ana, CA 80 to 160
-Round 15: Lost to Evangel Community Church, Snellville, GA 40 to 100
-Round 16: Lost to Racine A/G, Racine, WI 20 to 65
-Round 17: Won against Bethlehem Church, Richmond Hill, NY 50 to 5
-Round 18: Lost to Orange County Christian Evangelical Church, Irvine, CA 40 to 145
-Round 19: Lost to Faith A/G, West Plains, MO 90 to 195
+  * Round 1: Lost to Crosspoint A/G, Portage, WI 20 to 105
+  * Round 2: Won against Abundant Life A/G, Grand Island, NE 95 to -15
+  * Round 3: Lost to Living Hope Church, Colorado Springs, CO 85 to 100
+  * Round 4: Lost to Paradise Hills A/G, Phoenix, AZ 95 to 155
+  * Round 5: Lost to First A/G, Montgomery, AL 0 to 120
+  * Round 6: Lost to First A/G, "Page 7", Lexington, KY 35 to 180
+  * Round 7: Lost to The Church at Briargate, Colorado Springs, CO -45 to 220
+  * Round 8: Lost to HighPoint Church, Oklahoma City, OK -40 to 125
+  * Round 9: Lost to Berean A/G, Pleasant Hill, IA 50 to 195
+  * Round 10: Lost to Christian Temple, Houston, TX 60 to 240
+  * Round 11: Lost to Radiant Life Church, Elkhart, IN 105 to 145
+  * Round 12: Lost to First A/G of Greater Lansing, East Lansing, MI 65 to 90
+  * Round 13: Lost to Muskogee First A/G, Muskogee, OK 55 to 160
+  * Round 14: Lost to Orange County First A/G, Santa Ana, CA 80 to 160
+  * Round 15: Lost to Evangel Community Church, Snellville, GA 40 to 100
+  * Round 16: Lost to Racine A/G, Racine, WI 20 to 65
+  * Round 17: Won against Bethlehem Church, Richmond Hill, NY 50 to 5
+  * Round 18: Lost to Orange County Christian Evangelical Church, Irvine, CA 40 to 145
+  * Round 19: Lost to Faith A/G, West Plains, MO 90 to 195
 * **Team History**\
 This is our second year with Senior Bible Quiz, 1st year at Nationals. As our children were growing out of JBQ- Daniel and Krystal Mims (Montgomery First, Alabama) were patient and kind enough to share quizzing wisdom and encouragement with both myself and my team. This year, Ashland's JBQ team and our SBQ team were blessed to attend Nationals. I coached both - All things are possible through Him!\
 \
@@ -2590,7 +2590,7 @@ We always enjoy sharing about Quiz with both believers and unbelievers as we tra
 
 #### 1st Place
 
-Church:	The Church at Briargate, Colorado Springs, CO
+* **Church**: The Church at Briargate, Colorado Springs, CO
 * **Coaches**:
   * Greg House: Involved in Bible Quiz since 1980. He quizzed for one year as a senior in high school, then went on to coach, officiate, and write official questions. At the end of this season he will have coached 16 times at national finals, winning 5 national championships at 3 separate churches (both records), and finishing 2nd twice. His 1999 team won the national championship and both individual titles, also setting records for team average (278.48), margin of victory (243.70), individual average (Kent - 152.17), and individual quiz outs (Kent - 22). His 2003 team set a record at national finals - it was Orange Hills A/G's third win at national finals, all of which were undefeated, and all 3 wins happened within a 4 year period. At nationals, he has coached 2 individual high scorers (Kent Piacenti & David Dorey) and 4 individual competition champions (Dan Smith twice, Kent Piacenti, and Peter Brown). He says his favorite Briargate coaching experience was watching his "rag-tag" 2005-06 team constantly progress in skill, knowledge, and friendship together, finally ending with Molly Pace answering her final BQ question ever with the verse that contained our team name and clinching the national championship. His favorite/most nerve-wracking Briargate coaching moment(s) were watching Andrew Kelley win four games on the last question at nationals in 2007 to clinch the national title.
   * Evelyn Oss (assistant): Involved in Bible Quiz since 2007 as a novice team coach, and one of the best ones I have ever worked with. In 2009 & 2010, her team was the regional champion. Her three daughters (see below), have all participated in both Novice and Teen Quiz. This year the Briargate team is composed entirely of her three children and she very active as the assistant coach by holding extra practices, listening to quoting, and driving the church van on all our trips. The truth is that without her my back would not have held up to finish out the quiz year.
@@ -2599,35 +2599,35 @@ Church:	The Church at Briargate, Colorado Springs, CO
     * Amie Oss: First year to quiz at National Finals, having moved up this year after an undefeated record and high scorer honors in novice quiz at the Southwest regional finals in 2009. She has received her NMA. Her favorite quiz moment(s) this year were winning both District and Regional Finals as the "underdog" team.
     * Caroline Oss: First year she has ever quizzed, starting the year in novice quiz and moving up to the top team in February to quiz with her sisters. Starting on the top team in February, Caroline memorized 2nd Corinthians in time to receive her NMA. Her favorite quiz moment this year was quizzing for the first time ever in the A division at the South Texas Invitational and finishing individual 10th high scorer.
 * **Preliminaries**:
-Round 1: Lost to Northside Family Worship Center, Cumming, GA 95 to 155
-Round 2: Lost to First A/G, Binghamton, NY 60 to 195
-Round 3: Lost to Paradise Hills A/G, Phoenix, AZ 110 to 170
-Round 4: Won against Radiant Life, Elkhart, IN 110 to 75
-Round 5: Won against Evangel Community Church, Snellville, GA 250 to -45
-Round 6: Lost to James River "Sufficient Grace", Ozark, MO 70 to 125
-Round 7: Won against Braeswood A/G, Houston, TX 165 to 110
-Round 8: Lost to Racine A/G, Racine, WI 55 to 125
-Round 9: Won against New Life A/G, White Cloud, MI 85 to 60
+  * Round 1: Lost to Northside Family Worship Center, Cumming, GA 95 to 155
+  * Round 2: Lost to First A/G, Binghamton, NY 60 to 195
+  * Round 3: Lost to Paradise Hills A/G, Phoenix, AZ 110 to 170
+  * Round 4: Won against Radiant Life, Elkhart, IN 110 to 75
+  * Round 5: Won against Evangel Community Church, Snellville, GA 250 to -45
+  * Round 6: Lost to James River "Sufficient Grace", Ozark, MO 70 to 125
+  * Round 7: Won against Braeswood A/G, Houston, TX 165 to 110
+  * Round 8: Lost to Racine A/G, Racine, WI 55 to 125
+  * Round 9: Won against New Life A/G, White Cloud, MI 85 to 60
 * **Round Robin**:
-Round 1: Lost to Faith A/G, West Plains, MO 20 to 230
-Round 2: Won against Crosspoint A/G, Portage, WI 160 to 60
-Round 3: Lost to Abundant Life A/G, Grand Island, NE 75 to 80
-Round 4: Won against Living Hope Church, Colorado Springs, CO 95 to 60
-Round 5: Won against Paradise Hills A/G, Phoenix, AZ 95 to 70
-Round 6: Lost to First A/G, Montgomery, AL 50 to 155
-Round 7: Won against First A/G, Ashland, AL 220 to -45
-Round 8: Won against First A/G, "Page 7", Lexington, KY 195 to 50
-Round 9: Lost to HighPoint Church, Oklahoma City, OK 45 to 75
-Round 10: Lost to Berean A/G, Pleasant Hill, IA 100 to 140
-Round 11: Won against Christian Temple, Houston, TX 145 to 90
-Round 12: Won against Radiant Life Church, Elkhart, IN 200 to 45
-Round 13: Lost to First A/G of Greater Lansing, East Lansing, MI 75 to 125
-Round 14: Won against Muskogee First A/G, Muskogee, OK 150 to 95
-Round 15: Won against Orange County First A/G, Santa Ana, CA 170 to 15
-Round 16: Won against Evangel Community Church, Snellville, GA 70 to 60
-Round 17: Lost to Racine A/G, Racine, WI 15 to 100
-Round 18: Won against Bethlehem Church, Richmond Hill, NY 290 to -20
-Round 19: Lost to Orange County Christian Evangelical Church, Irvine, CA 60 to 170
+  * Round 1: Lost to Faith A/G, West Plains, MO 20 to 230
+  * Round 2: Won against Crosspoint A/G, Portage, WI 160 to 60
+  * Round 3: Lost to Abundant Life A/G, Grand Island, NE 75 to 80
+  * Round 4: Won against Living Hope Church, Colorado Springs, CO 95 to 60
+  * Round 5: Won against Paradise Hills A/G, Phoenix, AZ 95 to 70
+  * Round 6: Lost to First A/G, Montgomery, AL 50 to 155
+  * Round 7: Won against First A/G, Ashland, AL 220 to -45
+  * Round 8: Won against First A/G, "Page 7", Lexington, KY 195 to 50
+  * Round 9: Lost to HighPoint Church, Oklahoma City, OK 45 to 75
+  * Round 10: Lost to Berean A/G, Pleasant Hill, IA 100 to 140
+  * Round 11: Won against Christian Temple, Houston, TX 145 to 90
+  * Round 12: Won against Radiant Life Church, Elkhart, IN 200 to 45
+  * Round 13: Lost to First A/G of Greater Lansing, East Lansing, MI 75 to 125
+  * Round 14: Won against Muskogee First A/G, Muskogee, OK 150 to 95
+  * Round 15: Won against Orange County First A/G, Santa Ana, CA 170 to 15
+  * Round 16: Won against Evangel Community Church, Snellville, GA 70 to 60
+  * Round 17: Lost to Racine A/G, Racine, WI 15 to 100
+  * Round 18: Won against Bethlehem Church, Richmond Hill, NY 290 to -20
+  * Round 19: Lost to Orange County Christian Evangelical Church, Irvine, CA 60 to 170
 * **Team History**\
 Starting as a church "plant" from Radiant Church in 2001, Briargate has sent a team to national finals both that year and every year since. Winning the national championships in 2001, 2004, 2006 and 2007, Briargate holds the record for most championships. Briargate's win in 2007 tied Colorado for the record for state wins with California at 7 each, and was the 18th year that a team from the Southwest Region won national finals, besting the next place region by 11 championships. From 2001 through 2010, Briargate has sent a total of 17 teams to national finals and holds the following national finals records:
   * Most National Championships
@@ -2664,7 +2664,7 @@ The girls are tireless promoters of other teens joining BQ, living what they hav
 
 #### 3rd Place
 
-Church:	Living Hope Church, Colorado Springs, CO
+* **Church**: Living Hope Church, Colorado Springs, CO
 * **Coaches**:
   * Eric Lind: A Bible Quiz addict since 1989, Eric quizzed for Radiant Church in Colorado Springs, CO during the 90s, with a best team finish of 3rd in 1992. This is his 3rd year coaching a team at Nationals.
   * Heather Lind (assistant): A Bible Quizzer by marriage, Heather has been crucial in keeping Eric sane since 2003.
@@ -2675,35 +2675,35 @@ Church:	Living Hope Church, Colorado Springs, CO
     * Meg Pace: A freshman, Meg received her NMA this year. This is her 4th year at Nationals.
     * Armando Sapien: A 7th grader, Armando memorized the entire material this year. This is his 1st year at Nationals.
 * **Preliminaries**:
-Round 1: Won against Christian Temple, Houston, TX 90 to 40
-Round 2: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 115 to 145
-Round 3: Won against Abundant Life A/G, Grand Island, NE 115 to 100
-Round 4: Lost to First A/G, "Donut Holes", Lexington, KY 75 to 85
-Round 5: Lost to First A/G, Ashland, AL 85 to 145
-Round 6: Lost to Faith A/G, Orlando, FL -5 to 155
-Round 7: Lost to Word of Life Church, Springfield, VA 120 to 130
-Round 8: Lost to First A/G of Greater Lansing, East Lansing, MI -5 to 175
-Round 9: Lost to Praise A/G, Garfield, NJ 20 to 290
+  * Round 1: Won against Christian Temple, Houston, TX 90 to 40
+  * Round 2: Lost to James River A/G, "Perfect in Weakness", Ozark, MO 115 to 145
+  * Round 3: Won against Abundant Life A/G, Grand Island, NE 115 to 100
+  * Round 4: Lost to First A/G, "Donut Holes", Lexington, KY 75 to 85
+  * Round 5: Lost to First A/G, Ashland, AL 85 to 145
+  * Round 6: Lost to Faith A/G, Orlando, FL -5 to 155
+  * Round 7: Lost to Word of Life Church, Springfield, VA 120 to 130
+  * Round 8: Lost to First A/G of Greater Lansing, East Lansing, MI -5 to 175
+  * Round 9: Lost to Praise A/G, Garfield, NJ 20 to 290
 * **Round Robin**:
-Round 1: Lost to Paradise Hills A/G, Phoenix, AZ 135 to 155
-Round 2: Lost to First A/G, Montgomery, AL 35 to 130
-Round 3: Won against First A/G, Ashland, AL 100 to 85
-Round 4: Lost to The Church at Briargate, Colorado Springs, CO 60 to 95
-Round 5: Won against HighPoint Church, Oklahoma City, OK 70 to -10
-Round 6: Lost to Berean A/G, Pleasant Hill, IA 90 to 95
-Round 7: Won against Christian Temple, Houston, TX 140 to 75
-Round 8: Won against Radiant Life Church, Elkhart, IN 155 to 130
-Round 9: Lost to First A/G of Greater Lansing, East Lansing, MI 45 to 80
-Round 10: Lost to Muskogee First A/G, Muskogee, OK 35 to 170
-Round 11: Won against Orange County First A/G, Santa Ana, CA 165 to 20
-Round 12: Won against Evangel Community Church, Snellville, GA 175 to 65
-Round 13: Lost to Racine A/G, Racine, WI 5 to 150
-Round 14: Won against Bethlehem Church, Richmond Hill, NY 240 to 95
-Round 15: Won against Orange County Christian Evangelical Church, Irvine, CA 190 to 70
-Round 16: Lost to Faith A/G, West Plains, MO 120 to 130
-Round 17: Won against Crosspoint A/G, Portage, WI 140 to 110
-Round 18: Won against Abundant Life A/G, Grand Island, NE 220 to 20
-Round 19: Won against First A/G, "Page 7", Lexington, KY 130 to 50
+  * Round 1: Lost to Paradise Hills A/G, Phoenix, AZ 135 to 155
+  * Round 2: Lost to First A/G, Montgomery, AL 35 to 130
+  * Round 3: Won against First A/G, Ashland, AL 100 to 85
+  * Round 4: Lost to The Church at Briargate, Colorado Springs, CO 60 to 95
+  * Round 5: Won against HighPoint Church, Oklahoma City, OK 70 to -10
+  * Round 6: Lost to Berean A/G, Pleasant Hill, IA 90 to 95
+  * Round 7: Won against Christian Temple, Houston, TX 140 to 75
+  * Round 8: Won against Radiant Life Church, Elkhart, IN 155 to 130
+  * Round 9: Lost to First A/G of Greater Lansing, East Lansing, MI 45 to 80
+  * Round 10: Lost to Muskogee First A/G, Muskogee, OK 35 to 170
+  * Round 11: Won against Orange County First A/G, Santa Ana, CA 165 to 20
+  * Round 12: Won against Evangel Community Church, Snellville, GA 175 to 65
+  * Round 13: Lost to Racine A/G, Racine, WI 5 to 150
+  * Round 14: Won against Bethlehem Church, Richmond Hill, NY 240 to 95
+  * Round 15: Won against Orange County Christian Evangelical Church, Irvine, CA 190 to 70
+  * Round 16: Lost to Faith A/G, West Plains, MO 120 to 130
+  * Round 17: Won against Crosspoint A/G, Portage, WI 140 to 110
+  * Round 18: Won against Abundant Life A/G, Grand Island, NE 220 to 20
+  * Round 19: Won against First A/G, "Page 7", Lexington, KY 130 to 50
 * **Team History**\
 This is LHC's second year quizzing and first at Nationals. Despite its short BQ tenure, LHC boasts numerous former quizzers as church members, including its senior pastor, Phil Steiger, a quizzer in the 80s and 90s and the long-time coach of the Radiant Church/Church at Briargate team.
 * **Most exciting match this season**\
@@ -2724,7 +2724,7 @@ As a result of Quiz, we have had numerous opportunities to discuss the Bible, ch
 {% capture image_html %}
 #### 4th Place
 
-Church:	Orange County First A/G, Santa Ana, CA
+* **Church**: Orange County First A/G, Santa Ana, CA
 * **Coaches**:
   * Mitzi Majeski
   * Jonathan Barthuly (assistant)
@@ -2733,35 +2733,35 @@ Church:	Orange County First A/G, Santa Ana, CA
     * Christopher Majeski
     * Mikayla Majeski
 * **Preliminaries**:
-Round 1: Lost to Overland Park A/G, Overland Park, KS 145 to 175
-Round 2: Lost to Living Hope Worship Center, Swedesboro, NJ -10 to 190
-Round 3: Lost to Meadowbrook Community Church, Champaign, IL 70 to 165
-Round 4: Lost to Victorious Life Church, Wesley Chapel, FL 55 to 255
-Round 5: Lost to Bellevue Neighborhood Church, Bellevue, WA 0 to 250
-Round 6: Won against First A/G, "Page 7", Lexington, KY 105 to 15
-Round 7: Won against Highpointe Church, Oklahoma City, OK 125 to 50
-Round 8: Lost to Berean A/G, Pleasant Hill, IA 15 to 185
-Round 9: Won against Faith A/G, West Plains, MO 185 to -10
+  * Round 1: Lost to Overland Park A/G, Overland Park, KS 145 to 175
+  * Round 2: Lost to Living Hope Worship Center, Swedesboro, NJ -10 to 190
+  * Round 3: Lost to Meadowbrook Community Church, Champaign, IL 70 to 165
+  * Round 4: Lost to Victorious Life Church, Wesley Chapel, FL 55 to 255
+  * Round 5: Lost to Bellevue Neighborhood Church, Bellevue, WA 0 to 250
+  * Round 6: Won against First A/G, "Page 7", Lexington, KY 105 to 15
+  * Round 7: Won against Highpointe Church, Oklahoma City, OK 125 to 50
+  * Round 8: Lost to Berean A/G, Pleasant Hill, IA 15 to 185
+  * Round 9: Won against Faith A/G, West Plains, MO 185 to -10
 * **Round Robin**:
-Round 1: Lost to First A/G of Greater Lansing, East Lansing, MI 15 to 140
-Round 2: Lost to Muskogee First A/G, Muskogee, OK 40 to 130
-Round 3: Lost to First A/G, "Page 7", Lexington, KY 75 to 90
-Round 4: Won against Evangel Community Church, Snellville, GA 100 to 0
-Round 5: Lost to Racine A/G, Racine, WI 20 to 150
-Round 6: Lost to Bethlehem Church, Richmond Hill, NY 25 to 75
-Round 7: Lost to Orange County Christian Evangelical Church, Irvine, CA 5 to 170
-Round 8: Lost to Faith A/G, West Plains, MO 40 to 205
-Round 9: Lost to Crosspoint A/G, Portage, WI 85 to 95
-Round 10: Won against Abundant Life A/G, Grand Island, NE 150 to 90
-Round 11: Lost to Living Hope Church, Colorado Springs, CO 20 to 165
-Round 12: Won against Paradise Hills A/G, Phoenix, AZ 75 to 60
-Round 13: Won against First A/G, Montgomery, AL 130 to 80
-Round 14: Won against First A/G, Ashland, AL 160 to 80
-Round 15: Lost to The Church at Briargate, Colorado Springs, CO 15 to 170
-Round 16: Lost to HighPoint Church, Oklahoma City, OK 20 to 155
-Round 17: Lost to Berean A/G, Pleasant Hill, IA -35 to 100
-Round 18: Lost to Christian Temple, Houston, TX 90 to 95
-Round 19: Won against Radiant Life Church, Elkhart, IN 165 to 75
+  * Round 1: Lost to First A/G of Greater Lansing, East Lansing, MI 15 to 140
+  * Round 2: Lost to Muskogee First A/G, Muskogee, OK 40 to 130
+  * Round 3: Lost to First A/G, "Page 7", Lexington, KY 75 to 90
+  * Round 4: Won against Evangel Community Church, Snellville, GA 100 to 0
+  * Round 5: Lost to Racine A/G, Racine, WI 20 to 150
+  * Round 6: Lost to Bethlehem Church, Richmond Hill, NY 25 to 75
+  * Round 7: Lost to Orange County Christian Evangelical Church, Irvine, CA 5 to 170
+  * Round 8: Lost to Faith A/G, West Plains, MO 40 to 205
+  * Round 9: Lost to Crosspoint A/G, Portage, WI 85 to 95
+  * Round 10: Won against Abundant Life A/G, Grand Island, NE 150 to 90
+  * Round 11: Lost to Living Hope Church, Colorado Springs, CO 20 to 165
+  * Round 12: Won against Paradise Hills A/G, Phoenix, AZ 75 to 60
+  * Round 13: Won against First A/G, Montgomery, AL 130 to 80
+  * Round 14: Won against First A/G, Ashland, AL 160 to 80
+  * Round 15: Lost to The Church at Briargate, Colorado Springs, CO 15 to 170
+  * Round 16: Lost to HighPoint Church, Oklahoma City, OK 20 to 155
+  * Round 17: Lost to Berean A/G, Pleasant Hill, IA -35 to 100
+  * Round 18: Lost to Christian Temple, Houston, TX 90 to 95
+  * Round 19: Won against Radiant Life Church, Elkhart, IN 165 to 75
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Orange County First A/G, Santa Ana, CA" html=image_html %}
@@ -2769,7 +2769,7 @@ Round 19: Won against Radiant Life Church, Elkhart, IN 165 to 75
 {% capture image_html %}
 #### 5th Place
 
-Church:	Paradise Hills A/G, Phoenix, AZ
+* **Church**: Paradise Hills A/G, Phoenix, AZ
 * **Coaches**:
   * Michael Stogner
   * Dan Duka (assistant)
@@ -2779,35 +2779,35 @@ Church:	Paradise Hills A/G, Phoenix, AZ
     * Josiah Duka
     * Chad Stogner
 * **Preliminaries**:
-Round 1: Won against Braeswood A/G, Houston, TX 145 to 125
-Round 2: Lost to Racine A/G, Racine, WI 30 to 40
-Round 3: Won against The Church at Briargate, Colorado Springs, CO 170 to 110
-Round 4: Lost to James River "Sufficient Grace", Ozark, MO 20 to 340
-Round 5: Lost to New Life A/G, White Cloud, MI 90 to 210
-Round 6: Lost to Northside Family Worship Center, Cumming, GA 35 to 290
-Round 7: Lost to First A/G, Binghamton, NY 85 to 195
-Round 8: Won against Radiant Life, Elkhart, IN 245 to 15
-Round 9: Won against Evangel Community Church, Snellville, GA 150 to 35
+  * Round 1: Won against Braeswood A/G, Houston, TX 145 to 125
+  * Round 2: Lost to Racine A/G, Racine, WI 30 to 40
+  * Round 3: Won against The Church at Briargate, Colorado Springs, CO 170 to 110
+  * Round 4: Lost to James River "Sufficient Grace", Ozark, MO 20 to 340
+  * Round 5: Lost to New Life A/G, White Cloud, MI 90 to 210
+  * Round 6: Lost to Northside Family Worship Center, Cumming, GA 35 to 290
+  * Round 7: Lost to First A/G, Binghamton, NY 85 to 195
+  * Round 8: Won against Radiant Life, Elkhart, IN 245 to 15
+  * Round 9: Won against Evangel Community Church, Snellville, GA 150 to 35
 * **Round Robin**:
-Round 1: Won against Living Hope Church, Colorado Springs, CO 155 to 135
-Round 2: Lost to First A/G, "Page 7", Lexington, KY 50 to 75
-Round 3: Lost to First A/G, Montgomery, AL -10 to 160
-Round 4: Won against First A/G, Ashland, AL 155 to 95
-Round 5: Lost to The Church at Briargate, Colorado Springs, CO 70 to 95
-Round 6: Won against HighPoint Church, Oklahoma City, OK 130 to 35
-Round 7: Lost to Berean A/G, Pleasant Hill, IA 90 to 180
-Round 8: Lost to Christian Temple, Houston, TX 105 to 125
-Round 9: Won against Radiant Life Church, Elkhart, IN 130 to 75
-Round 10: Lost to First A/G of Greater Lansing, East Lansing, MI 150 to 155
-Round 11: Won against Muskogee First A/G, Muskogee, OK 115 to 75
-Round 12: Lost to Orange County First A/G, Santa Ana, CA 60 to 75
-Round 13: Won against Evangel Community Church, Snellville, GA 135 to 110
-Round 14: Won against Racine A/G, Racine, WI 190 to 90
-Round 15: Won against Bethlehem Church, Richmond Hill, NY 140 to 110
-Round 16: Won against Orange County Christian Evangelical Church, Irvine, CA 180 to 60
-Round 17: Lost to Faith A/G, West Plains, MO 85 to 185
-Round 18: Won against Crosspoint A/G, Portage, WI 160 to 40
-Round 19: Won against Abundant Life A/G, Grand Island, NE 205 to 35
+  * Round 1: Won against Living Hope Church, Colorado Springs, CO 155 to 135
+  * Round 2: Lost to First A/G, "Page 7", Lexington, KY 50 to 75
+  * Round 3: Lost to First A/G, Montgomery, AL -10 to 160
+  * Round 4: Won against First A/G, Ashland, AL 155 to 95
+  * Round 5: Lost to The Church at Briargate, Colorado Springs, CO 70 to 95
+  * Round 6: Won against HighPoint Church, Oklahoma City, OK 130 to 35
+  * Round 7: Lost to Berean A/G, Pleasant Hill, IA 90 to 180
+  * Round 8: Lost to Christian Temple, Houston, TX 105 to 125
+  * Round 9: Won against Radiant Life Church, Elkhart, IN 130 to 75
+  * Round 10: Lost to First A/G of Greater Lansing, East Lansing, MI 150 to 155
+  * Round 11: Won against Muskogee First A/G, Muskogee, OK 115 to 75
+  * Round 12: Lost to Orange County First A/G, Santa Ana, CA 60 to 75
+  * Round 13: Won against Evangel Community Church, Snellville, GA 135 to 110
+  * Round 14: Won against Racine A/G, Racine, WI 190 to 90
+  * Round 15: Won against Bethlehem Church, Richmond Hill, NY 140 to 110
+  * Round 16: Won against Orange County Christian Evangelical Church, Irvine, CA 180 to 60
+  * Round 17: Lost to Faith A/G, West Plains, MO 85 to 185
+  * Round 18: Won against Crosspoint A/G, Portage, WI 160 to 40
+  * Round 19: Won against Abundant Life A/G, Grand Island, NE 205 to 35
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Paradise Hills A/G, Phoenix, AZ" html=image_html %}
@@ -2817,7 +2817,7 @@ Round 19: Won against Abundant Life A/G, Grand Island, NE 205 to 35
 
 #### 6th Place
 
-Church:	Orange County Christian Evangelical Church, Irvine, CA
+* **Church**: Orange County Christian Evangelical Church, Irvine, CA
 * **Coach**:
   * Andy Wu: Coach for Junior and Teen Bible Quiz for about 10 years and has been to TBQ Nationals twice.
 * **Team**:
@@ -2825,35 +2825,35 @@ Church:	Orange County Christian Evangelical Church, Irvine, CA
     * David Zheng: Started TBQ in 2008 and has been at Nationals twice as well.
     * Grace Xu: First year at TBQ Nationals and she has memorized all of 1st Corinthians.
 * **Preliminaries**:
-Round 1: Won against Bethlehem Church, Richmond Hill, NY 160 to 125
-Round 2: Lost to Muskogee First A/G, Muskogee, OK 45 to 170
-Round 3: Won against CrossPoint A/G, Portage, WI 70 to 55
-Round 4: Lost to Owasso First A/G, Owasso, OK 50 to 325
-Round 5: Lost to Cedar Park Church, Bothell, WA 155 to 165
-Round 6: Lost to Central A/G, Springfield, MO 110 to 150
-Round 7: Lost to Manassas A/G, Bristow, VA 110 to 165
-Round 8: Lost to Dayspring A/G, Bowling Green, OH 115 to 155
-Round 9: Lost to First A/G, Montgomery, AL 20 to 105
+  * Round 1: Won against Bethlehem Church, Richmond Hill, NY 160 to 125
+  * Round 2: Lost to Muskogee First A/G, Muskogee, OK 45 to 170
+  * Round 3: Won against CrossPoint A/G, Portage, WI 70 to 55
+  * Round 4: Lost to Owasso First A/G, Owasso, OK 50 to 325
+  * Round 5: Lost to Cedar Park Church, Bothell, WA 155 to 165
+  * Round 6: Lost to Central A/G, Springfield, MO 110 to 150
+  * Round 7: Lost to Manassas A/G, Bristow, VA 110 to 165
+  * Round 8: Lost to Dayspring A/G, Bowling Green, OH 115 to 155
+  * Round 9: Lost to First A/G, Montgomery, AL 20 to 105
 * **Round Robin**:
-Round 1: Lost to HighPoint Church, Oklahoma City, OK 100 to 130
-Round 2: Won against Berean A/G, Pleasant Hill, IA 115 to 105
-Round 3: Lost to Christian Temple, Houston, TX -15 to 230
-Round 4: Won against Radiant Life Church, Elkhart, IN 145 to 50
-Round 5: Won against First A/G of Greater Lansing, East Lansing, MI 130 to 95
-Round 6: Lost to Muskogee First A/G, Muskogee, OK 30 to 175
-Round 7: Won against Orange County First A/G, Santa Ana, CA 170 to 5
-Round 8: Won against Evangel Community Church, Snellville, GA 95 to -25
-Round 9: Won against Racine A/G, Racine, WI 135 to 25
-Round 10: Lost to Bethlehem Church, Richmond Hill, NY 170 to 175
-Round 11: Lost to First A/G, "Page 7", Lexington, KY 125 to 135
-Round 12: Won against Faith A/G, West Plains, MO 135 to 125
-Round 13: Lost to Crosspoint A/G, Portage, WI 65 to 80
-Round 14: Won against Abundant Life A/G, Grand Island, NE 145 to 125
-Round 15: Lost to Living Hope Church, Colorado Springs, CO 70 to 190
-Round 16: Lost to Paradise Hills A/G, Phoenix, AZ 60 to 180
-Round 17: Lost to First A/G, Montgomery, AL 45 to 185
-Round 18: Won against First A/G, Ashland, AL 145 to 40
-Round 19: Won against The Church at Briargate, Colorado Springs, CO 170 to 60
+  * Round 1: Lost to HighPoint Church, Oklahoma City, OK 100 to 130
+  * Round 2: Won against Berean A/G, Pleasant Hill, IA 115 to 105
+  * Round 3: Lost to Christian Temple, Houston, TX -15 to 230
+  * Round 4: Won against Radiant Life Church, Elkhart, IN 145 to 50
+  * Round 5: Won against First A/G of Greater Lansing, East Lansing, MI 130 to 95
+  * Round 6: Lost to Muskogee First A/G, Muskogee, OK 30 to 175
+  * Round 7: Won against Orange County First A/G, Santa Ana, CA 170 to 5
+  * Round 8: Won against Evangel Community Church, Snellville, GA 95 to -25
+  * Round 9: Won against Racine A/G, Racine, WI 135 to 25
+  * Round 10: Lost to Bethlehem Church, Richmond Hill, NY 170 to 175
+  * Round 11: Lost to First A/G, "Page 7", Lexington, KY 125 to 135
+  * Round 12: Won against Faith A/G, West Plains, MO 135 to 125
+  * Round 13: Lost to Crosspoint A/G, Portage, WI 65 to 80
+  * Round 14: Won against Abundant Life A/G, Grand Island, NE 145 to 125
+  * Round 15: Lost to Living Hope Church, Colorado Springs, CO 70 to 190
+  * Round 16: Lost to Paradise Hills A/G, Phoenix, AZ 60 to 180
+  * Round 17: Lost to First A/G, Montgomery, AL 45 to 185
+  * Round 18: Won against First A/G, Ashland, AL 145 to 40
+  * Round 19: Won against The Church at Briargate, Colorado Springs, CO 170 to 60
 * **Team History**\
 The 2009 TBQ team (Tiffany Wu, David Zheng, Anthony Ho) from OCCEC was the first team from a charter church to qualify for Nationals.
 * **Favorite Quiz Question**\
