@@ -12,7 +12,7 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-![](https://biblequiz.com/assets/2009/Owasso.jpg)
+![]({% link assets/2009/Owasso.jpg %})
 
 ## Summary
 
