@@ -7,25 +7,18 @@ menubar: menu_current_season
 menubar_ads: ads_simple
 ---
 
-Use the menu to find information on the 2022-2023 Bible Quiz season covering I & II Thessalonians, I & II Timothy, Titus, and I, II, and III John.
-
-## Scripture Portion Corrections
-
-1. Error in 1 Timothy 3:12. There should not be the word “his” before household.” Please delete it.
-2. Please note Crete in Titus 1:5 is not in “Italics”- It should be. It is listed as such in the CA, and the new Entire CA. It also italicized in vs 12.
+Use the menu to find information on the 2023-2024 Bible Quiz season covering Romans and James
 
 
 ## Updated Rules
 
-<a href="{% link _pages/contesting-changes.md %}" class="button is-primary">Changes to Contesting Procedures</a>
+*The rules for the 2023-2024 season are being finalized and will be made available as a free download in August.*
 
-<a href="{% link _pages/changes-to-the-rulebook-for-the-2022-2023-season.md %}" class="button is-primary">Changes to Introductory Remarks</a>
-
-<a href="{% link assets/2022/22-23-BQ-Rules.pdf %}" class="button is-primary">Download Rules</a>
+<a href="#" class="button is-primary">Download avilable soon</a>
 
 
 ## National Finals
 
-[![St. Louis Reinaissance Hotel]({% link assets/2023/stl-hotel-promo.jpg %})]({% link _pages/national-finals.md %})
+[![Hyatt Regency Dallas]({% link assets/2024/dal-hotel-v1.jpg %})]({% link _pages/national-finals.md %})
 
 <a href="{% link _pages/national-finals.md %}" class="button is-primary">National Finals Info</a>

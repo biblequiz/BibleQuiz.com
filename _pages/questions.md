@@ -9,13 +9,14 @@ menubar_ads: ads_simple
 
 ## Application Questions - Free
 
-League Meets contains two Application Questions every round. Questions will be released sometime in August.
+League Meets contain two Application Questions every round. 
 
 For new teams, memorizing all Application Questions guarantees at least two questions can be answered every round.
 
 Recommended for all teams competing at League Meets.
 
-<a href="{% link assets/2022/22-23-Application-Questions.pdf %}" class="button is-primary">Download PDF</a>
+<a href="{% link assets/2023/23-24 RJ Application Questions.docx %}" class="button is-primary">Application Questions (.doc)</a>
+
 
 * * *
 
@@ -33,7 +34,7 @@ The Basic Five includes:
 
 Duplication allowed within a single church. 
 
-<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/Basic_Five_Ts-J_2022_2023" class="button is-primary">Buy Now</a>
+<a href="#" class="button is-primary">Will be added soon</a>
 
 * * *
 
@@ -41,9 +42,9 @@ Duplication allowed within a single church. 
 
 50 sets of practice questions for Championship quizzers.
 
-Questions are written by the official Championship league writer.
+Questions are written by the official Championship division writer.
 
-<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/A_League_Practice_Sets_Ts-J_2022_2023" class="button is-primary">Buy Now</a>
+<a href="#" class="button is-primary">Will be added soon</a>
 
 * * *
 
@@ -51,9 +52,9 @@ Questions are written by the official Championship league writer.
 
 40 sets of practice questions for Contender quizzers.
 
-Questions were written by the official Contender Quiz and XP5 league writer.
+Questions were written by the official Contender and XP5 division writer.
 
-<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/MSQ_Practice_Sets__Ts-J_2022_2023" class="button is-primary">Buy Now</a>
+<a href="#" class="button is-primary">Will be added soon</a>
 
 * * *
 
@@ -63,11 +64,11 @@ Includes:
 
 - Commentary for the season
 - Discipleship Award Requirements
-- Application Questions for the season
+- Application Questions for the season (also available for free)
 
 For Experience teams, there are additional assets that can supercharge your team!
 
-<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/Study_Guide_Plus_Ts-J_2022_2023" class="button is-primary">By Now</a>
+<a href="#" class="button is-primary">Will be added soon</a>
 
 * * *
 
