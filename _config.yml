@@ -18,17 +18,17 @@ remote_theme: chrisrhymes/bulma-clean-theme
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: 
+  email:
   facebook: groups/agbiblequiz
   flickr:
-  github: 
+  github:
   instagram:
-  linkedin: 
+  linkedin:
   pinterest:
   rss: rss
-  twitter: biblequiz
-  stackoverflow: 
-  youtube: 
+  twitter:
+  stackoverflow:
+  youtube:
   googleplus: # anything in your profile username that comes after plus.google.com/
   playconsole:
   mastodon: # <your-mastodon-instance>/@<your-user-name> eg. fosstodon.org/@username
@@ -53,18 +53,18 @@ permalink: /:year/:month/:title/
 version: v1.2.0
 
 defaults:
-- scope:
-    path: ""
-    type: "pages"
-  values:
-    hero_height: is-small
-    image_max_height: 500px
-- scope:
-    path: ""
-    type: "posts"
-  values:
-    hero_height: is-small
-    image_max_height: 500px
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      hero_height: is-small
+      image_max_height: 500px
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      hero_height: is-small
+      image_max_height: 500px
 
 # Set the Sass partials directory, as we're using @imports
 sass:
@@ -72,7 +72,7 @@ sass:
   source_dir: _sass
 
 # Additional directories to include.
-include: ['_pages']
+include: ["_pages"]
 
 # Use the following plug-ins
 plugins:

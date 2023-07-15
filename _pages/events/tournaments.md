@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /events/tournaments/
-title: "Events - Tournaments"
+title: "Events - Tournament Info"
 menubar: menu_current_season
 menubar_ads: ads_simple
 tabs: tabs_events
@@ -30,7 +30,7 @@ October 28, 2023\
 November 17 - 18, 2023\
 *Location*: University of Valley Forge, PA\
 *Divisions*: Championship, Contender, XP5\
-*Contact*: Bernie Elliot at [ElliotBQ@gmail.com](mailto:ElliotBQ@gmail.com) or 412-999-9330
+*Contact*: Bernie Elliot at [pastorbernie@biblequiz.com](mailto:pastorbernie@biblequiz.com) or 412-999-9330
 
 **Mid-Winter Classic BQ Tournament**\
 January 12 - 13, 2024\
@@ -42,7 +42,7 @@ January 12 - 13, 2024\
 January 26, 27, 2024\
 *Location*: Oxford AG, Oxford, FL\
 *Divisions*: Championship only\
-*Contact*: Bernie Elliot at [ElliotBQ@gmail.com](mailto:ElliotBQ@gmail.com)
+*Contact*: Bernie Elliot at [pastorbernie@biblequiz.com](mailto:pastorbernie@biblequiz.com)
 
 **Razorback XP5 Invitational**\
 February 3, 2024\

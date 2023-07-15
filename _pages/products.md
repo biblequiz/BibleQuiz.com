@@ -8,20 +8,21 @@ menubar_ads: ads_simple
 ---
 
 ## Question-Pro/Writer
-![]({% link assets/pages/TsJs-300x300.jpeg %})
+Question-Pro allows coaches to create custom sets for both practice and individual study.
 
-This amazing program allows coaches to create custom sets for both practice and individual study. Choose only 10-pointers for beginning quizzers, or quotation questions for veterans. Select by point value, question type, and chapter range. _Question-Pro_ monitors questions already used and includes printing capabilities. It also comes with two databases of practice questions containing over 2,000 questions! Includes _Question-Writer_, which allows coaches to create and modify their own question databases, which can then be loaded into _Question-Pro_. Unique words and misspelled words are automatically highlighted as you type.
+- Comes with over 1,500 questions!
+- Select questions by question type and/or chapter range
+- Monitors questions already used so as not to repeat questions
+- Add your own questions with Question-Writer software (included)
+- Export questions to the Bible Quizzer app to quiz your students from your phone or tablet! (see app section below, requires purchase of current text module)
 
-- One-time purchase for PC
-- Requires Windows 10/8/7
-- Licensed for team use
+*Requires: Internet access and Windows 11/10/8 (other operating systems not currently supported)*
 
-<a href="https://myhealthychurch.com/store/startitem.cfm?item=351769&cat=YMBIBQUIZ&mastercat=&path=YMBIBQUIZ" class="button is-primary">Go Now</a>
+<a href="https://ag.biblequizshop.com/index.php?route=product/product&path=64&product_id=248" class="button is-primary">Go Now</a>
 
 ## My Healthy Church
-![My Healthy Church]({% link assets/pages/LNh4xHO-300x300.png %})
 
-Get starter bundles, scripture portions, questions, and valuable study resources from My Healthy Church, the official product store from the Assemblies of God.
+Get starter bundles, scripture portions, questions, and valuable study resources from My Healthy Church--the official product store from the Assemblies of God.
 
 <a href="https://myhealthychurch.com/store/startcat.cfm?cat=YMBIBQUIZ&mastercat=&path=YMBIBQUIZ" class="button is-primary">Go Now</a>
 

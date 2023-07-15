@@ -18,10 +18,13 @@ The fastest way to learn about Bible Quiz!
 <a href="{% link assets/2021/BQ-Cheat-Sheet.pdf %}" class="button is-primary">Download Cheat Sheet</a>
 
 # Rules & Guidelines
+
 ### Official Rules
 For use in all Bible Quiz matches, all year long.
 
-<a href="{% link assets/2022/22-23-BQ-Rules.pdf %}" class="button is-primary">Download Official Rules</a>
+*The rules for the 2023-2024 season are being finalized and will be made available as a free download in August.*
+
+<a href="#" class="button is-primary">Download coming soon</a>
 
 ### Simplified Rules
 Only 10 pages long, these rules are great for getting started in Bible Quiz! All rules from the full set of Official Rules above are still in effect.
@@ -36,6 +39,10 @@ A few minor rule changes for XP5 competitions. All rules from the full set of Of
 * * *
 
 # Award Guidelines and Forms
+Information will be added soon
+
+<!--
+
 ### Memorization Award
 All of the material must be quoted one chapter at at time and in one sitting, with four mistakes or fewer. No time limit!
 
@@ -49,6 +56,8 @@ All of the material must be quoted consecutively in one sitting, within 45 minut
 
 ### Discipleship Award
 <a href="{% link assets/2022/DiscipleshipAward.pdf %}" class="button is-primary">Award Form</a>
+
+-->
 
 * * *
 
@@ -68,14 +77,10 @@ A free spreadsheet for tracking scores in a match.
 # Graphics
 
 ### Scripture Portion Artwork
-![]({% link assets/pages/TsJs.jpeg %})
+![]({% link assets/2024/23-24_romans-and-james-scripture-portion-cover.jpg %})
 
-<a href="{% link assets/pages/TsJs.jpeg %}" class="button is-primary">Download Scripture Portion Artwork</a>
+<a href="{% link assets/2024/23-24_romans-and-james-scripture-portion-cover.jpg %}" class="button is-primary">Download Scripture Portion Artwork</a>
 
-### Banner
-![]({% link assets/pages/22-23-TsJs-Banner-1024x128.png %})
-
-<a href="{% link assets/pages/22-23-TsJs-Banner-1024x128.png %}" class="button is-primary">Download</a>
 
 ### Bible Quiz Logo
 ![Bible Quiz Logo]({% link assets/pages/biblequizlogo-805x1024.jpg %})

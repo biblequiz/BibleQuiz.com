@@ -33,6 +33,6 @@ Teams may present validity as part of a multi-issue contest. If validity is pres
 ## Notes
 
 1. All other conferring and contesting rules are in effect.
-2. Contact Bernie Elliot ([elliotbq@gmail.com](mailto:elliotbq@gmail.com)) with any questions.
+2. Contact Bernie Elliot ([pastorbernie@biblequiz.com](mailto:pastorbernie@biblequiz.com)) with any questions.
 
 <a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
