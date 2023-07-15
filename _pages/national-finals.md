@@ -14,4 +14,3 @@ June 30 - July 5
 [Hyatt Regency Dallas](https://www.hyatt.com/en-US/hotel/texas/hyatt-regency-dallas/dfwrd)
 
 More information will be added to this page in the coming months.
-
