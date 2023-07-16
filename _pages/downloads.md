@@ -39,25 +39,36 @@ A few minor rule changes for XP5 competitions. All rules from the full set of Of
 * * *
 
 # Award Guidelines and Forms
-Information will be added soon
 
-<!--
+![]({% link assets/2024/Banner NMA.jpg %})
 
-### Memorization Award
 All of the material must be quoted one chapter at at time and in one sitting, with four mistakes or fewer. No time limit!
 
-<a href="{% link assets/2022/22-23-Memorization-Award-Guidelines.pdf %}" class="button is-primary">Memorization Award Guidelines</a>
+<a href="{% link assets/2024/NMA-Guidelines.pdf %}" class="button is-primary">National Memorization Award Guidelines</a>
 
-### Master Memorization Award
-All of the material must be quoted consecutively in one sitting, within 45 minutes, with 5 mistakes or fewer
+<br /><br />
 
-<a href="{% link assets/2022/22-23-Master-Memorization-Guidelines.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
-<a href="{% link assets/2022/22-23-Memorization-Award-Form.pdf %}" class="button is-primary">Memorization Award Form</a>
+![]({% link assets/2024/Banner MMA.jpg %})
 
-### Discipleship Award
-<a href="{% link assets/2022/DiscipleshipAward.pdf %}" class="button is-primary">Award Form</a>
+All of the material must be quoted consecutively in one sitting with 10 mistakes or fewer in 45 minutes or less.
 
--->
+<a href="{% link assets/2024/MMA-Guidelines.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
+
+<br /><br />
+
+### Memorization Award Form
+Once you've earned the NMA and/or the MMA, fill out the following form and send to your District Bible Quiz Coordinator (DBQC). *If you are unsure of who your DBQC is, email <pastorbernie@biblequiz.com>.*
+
+<a href="{% link assets/2024/Memorization-Award-Form.doc %}" class="button is-primary">Memorization Award Form</a>
+
+<br /><br />
+
+![]({% link assets/2024/Banner DA.jpg %})
+Information will be added soon.
+<!-- ### Discipleship Award
+<a href="{% link assets/2022/DiscipleshipAward.pdf %}" class="button is-primary">Award Form</a> -->
+
+
 
 * * *
 
@@ -77,13 +88,19 @@ A free spreadsheet for tracking scores in a match.
 # Graphics
 
 ### Scripture Portion Artwork
-![]({% link assets/2024/23-24_romans-and-james-scripture-portion-cover.jpg %})
+
+<img src="{% link assets/2024/23-24_romans-and-james-scripture-portion-cover.jpg %}" width="300">
 
 <a href="{% link assets/2024/23-24_romans-and-james-scripture-portion-cover.jpg %}" class="button is-primary">Download Scripture Portion Artwork</a>
 
+### Banner
+![]({% link assets/2024/Banner Empty.jpg %})
+
+<a href="{% link assets/2024/Banner Empty.jpg %}" class="button is-primary">Download Banner</a>
 
 ### Bible Quiz Logo
-![Bible Quiz Logo]({% link assets/pages/biblequizlogo-805x1024.jpg %})
+<img src="{% link assets/pages/biblequizlogo-805x1024.jpg %}" width="300">
+
 
 <a href="{% link assets/pages/biblequizlogo-805x1024.jpg %}" class="button is-primary">Download Logo</a>
 
