@@ -7,7 +7,7 @@ menubar: menu_current_season
 menubar_ads: ads_simple
 ---
 
-## Application Questions - Free
+![]({% link assets/2024/Banner AQ.jpg %})
 
 League Meets contain two Application Questions every round. 
 
@@ -15,7 +15,7 @@ For new teams, memorizing all Application Questions guarantees at least two ques
 
 Recommended for all teams competing at League Meets.
 
-<a href="{% link assets/2023/23-24 RJ Application Questions.docx %}" class="button is-primary">Application Questions (.doc)</a>
+<a href="{% link assets/2024/Application-Questions.docx %}" class="button is-primary">Application Questions (.doc)</a>
 
 
 * * *
