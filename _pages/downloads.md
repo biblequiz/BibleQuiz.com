@@ -64,10 +64,8 @@ Once you've earned the NMA and/or the MMA, fill out the following form and send 
 <br /><br />
 
 ![]({% link assets/2024/Banner DA.jpg %})
-Information will be added soon.
-<!-- ### Discipleship Award
-<a href="{% link assets/2022/DiscipleshipAward.pdf %}" class="button is-primary">Award Form</a> -->
 
+<a href="{% link assets/2024/Discipleship-Award-Guidelines.pdf %}" class="button is-primary">Discipleship Award Guidelines</a>
 
 
 * * *
