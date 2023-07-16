@@ -2,6 +2,14 @@
     - name: Home
       link: /current-season/
       icon: fas fa-home
+- label: Prepare
+  items:
+    - name: League Meet Breakdown
+      link: /breakdown/
+      icon: fas fa-sitemap
+    - name: Downloads & Forms
+      link: /downloads/
+      icon: fas fa-arrow-circle-down
 - label: Compete
   items:
     - name: Event Registration
@@ -13,14 +21,6 @@
     - name: Results
       link: /results/
       icon: fas fa-trophy
-- label: Prepare
-  items:
-    - name: Material Breakdown
-      link: /breakdown/
-      icon: fas fa-sitemap
-    - name: Downloads & Forms
-      link: /downloads/
-      icon: fas fa-arrow-circle-down
 - label: Materials
   items:
     - name: Questions
