@@ -16,6 +16,7 @@ The Female and Male Quizzers of the Year Awards receive a $1,000 scholarship and
 
 | Year | Quizzer              | Church                          | City                 |
 | ---- | -------------------- | ------------------------------- | -------------------- |
+| 2023 | Shaylee Powell       | Calvary Church                  | Naperville, IL       |
 | 2022 | Rachel Brookbank     | New Life                        | Colorado Springs, CO |
 | 2021 | Shreanna Powell      | Calvary Church                  | Naperville, IL       |
 | 2020 | None due to COVID-19 |                                 |                      |
@@ -38,6 +39,7 @@ The Female and Male Quizzers of the Year Awards receive a $1,000 scholarship and
 
 | Year | Quizzer              | Church             | City                |
 | ---- | -------------------- | ------------------ | ------------------- |
+| 2023 | Samuel Jebaraj       | Bethel Church      | San Jose, CA        |
 | 2022 | Sheldon Powell       | Calvary Church     | Naperville, IL      |
 | 2021 | Zach Ponraj          | Deeper Church      | Burien, WA          |
 | 2020 | None due to COVID-19 |                    |                     |

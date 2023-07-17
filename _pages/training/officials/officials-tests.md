@@ -5,7 +5,7 @@ title: "Officials' Test"
 date: "2019-07-25"
 ---
 
-Boost your knowledge of the [rulebook]({% link _pages/downloads.md %}) by taking the officials' tests!
+Boost your knowledge of the [Bible Quiz Rules]({% link _pages/downloads.md %}) by taking the officials' tests!
 
 Created by an experienced team of National-level officials, these tests are a great resource for beginners and experts alike.
 
