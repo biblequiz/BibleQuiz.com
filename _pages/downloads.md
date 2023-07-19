@@ -8,9 +8,10 @@ menubar_ads: ads_simple
 ---
 
 ### XP5 Starter Kit
-Single page scripture portion for first meet over 1 Thessalonians 1-2. Feel free to edit and make it your own.
+A simple scripture portion for the first league meet over Romans 8!
 
-<a href="{% link assets/2022/22-23_Starter.docx %}" class="button is-primary">Download XP5 Starter Kit</a>
+<a href="{% link assets/2024/XP5-Starter-LM1.pdf %}" class="button is-primary">XP5 Starter Kit (PDF)</a>
+<a href="{% link assets/2024/XP5-Starter-LM1.docx %}" class="button is-primary">XP5 Starter Kit (DOCX)</a>
 
 ### Bible Quiz Cheat Sheet
 The fastest way to learn about Bible Quiz!
@@ -34,7 +35,7 @@ Only 10 pages long, these rules are great for getting started in Bible Quiz! All
 ### XP5 Division Rules
 A few minor rule changes for XP5 competitions. All rules from the full set of Official Rules above are still in effect.
 
-<a href="{% link assets/2022/XP5-Division-Rules-2022-2023.pdf %}" class="button is-primary">Download XP5 Division Rules</a>
+<a href="{% link assets/2024/XP5-Match-Structure.pdf %}" class="button is-primary">Download XP5 Division Rules</a>
 
 * * *
 
