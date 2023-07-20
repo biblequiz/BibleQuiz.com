@@ -18,7 +18,7 @@ menubar_toc_static:
 
 | #  | Team                  | Church                | W/L  | Total | Avg    |
 |---:|-----------------------|-----------------------|------|------:|-------:|
-| 1  | \* Naperville, IL (J) | Calvary Church        | 18/1 | 4405  | 231.84 |
+| 1  | \* Naperville, IL (J) | Calvary Church        | 18 / 1 | 4405  | 231.84 |
 | 2  | \* Bowling Green, OH  | Dayspring A/G         | 15 / 4 | 3695  | 194.47 |
 | 3  | Brighton, MI          | Brighton A/G          | 15 / 4 | 3675  | 193.42 |
 | 4  | Naperville, IL (C)    | Calvary Church        | 14 / 5 | 3690  | 194.21 |

@@ -226,13 +226,13 @@ menubar_toc_static:
 
 | #   | Team / Church                                                | W / L  | Total | AVG   | QO  | Q%  | 30s | 20s | 10s |
 | --- | ------------------------------------------------------------ | ------ | ----- | ----- | --- | --- | --- | --- | --- |
-| 1   | 1st AG - Lexington, KY (I Do Not Know!)                      | Jul-00 | 1670  | 238.5 | 15  | 78% | 12  | 44  | 37  |
-| 2   | Christian Center - Mechanicsville, VA (Fine Sounding Four)   | 1-Jun  | 1005  | 143.6 | 8   | 77% | 7   | 25  | 31  |
-| 3.1 | Cedar Park - Bothell, WA (Obligated to Answer)               | 3-Apr  | 740   | 105.7 | 4   | 68% | 7   | 21  | 28  |
-| 3   | Crown Pointe - Lee's Summit, MO (Crown Pointe)               | 3-Apr  | 620   | 88.6  | 5   | 66% | 6   | 16  | 28  |
-| 4.1 | Kennebec Valley - Chelsea, ME (Keep in Step)                 | 4-Mar  | 570   | 81.4  | 5   | 63% | 2   | 20  | 23  |
-| 4   | Trinity Church - Cedar Hill, TX (Those Esteemed as Quizzers) | 4-Mar  | 665   | 95    | 4   | 59% | 5   | 27  | 28  |
-| 5   | Calvary Church - Greensboro, NC (Seasoned With Salt)         | 6-Jan  | 415   | 59.3  | 2   | 69% | 3   | 10  | 27  |
+| 1   | 1st AG - Lexington, KY (I Do Not Know!)                      | 7 / 0 | 1670  | 238.5 | 15  | 78% | 12  | 44  | 37  |
+| 2   | Christian Center - Mechanicsville, VA (Fine Sounding Four)   | 6 / 1  | 1005  | 143.6 | 8   | 77% | 7   | 25  | 31  |
+| 3.1 | Cedar Park - Bothell, WA (Obligated to Answer)               | 4 / 3  | 740   | 105.7 | 4   | 68% | 7   | 21  | 28  |
+| 3   | Crown Pointe - Lee's Summit, MO (Crown Pointe)               | 4 / 3  | 620   | 88.6  | 5   | 66% | 6   | 16  | 28  |
+| 4.1 | Kennebec Valley - Chelsea, ME (Keep in Step)                 | 3 / 4  | 570   | 81.4  | 5   | 63% | 2   | 20  | 23  |
+| 4   | Trinity Church - Cedar Hill, TX (Those Esteemed as Quizzers) | 3 / 4  | 665   | 95    | 4   | 59% | 5   | 27  | 28  |
+| 5   | Calvary Church - Greensboro, NC (Seasoned With Salt)         | 1 / 6  | 415   | 59.3  | 2   | 69% | 3   | 10  | 27  |
 | 6   | Taylor AG - Taylor, NE (H2O)                                 | 0 / 7  | 275   | 39.3  | 2   | 66% | 1   | 9   | 15  |
 
 #### Individuals
@@ -275,14 +275,14 @@ menubar_toc_static:
 
 | #   | Team / Church                                              | W / L  | Total | AVG   | QO  | Q%  | 30s | 20s | 10s |
 | --- | ---------------------------------------------------------- | ------ | ----- | ----- | --- | --- | --- | --- | --- |
-| 1   | James River - Ozark, MO (The Flames)                       | Jul-00 | 1620  | 231.4 | 12  | 78% | 12  | 45  | 37  |
-| 2   | Kuna Life Center - Kuna, ID (Their Destiny is Destruction) | 1-Jun  | 1150  | 164.3 | 7   | 80% | 9   | 33  | 26  |
-| 3   | The Oaks Fellowship - Red Oak, TX (Pure and Blameless)     | 2-May  | 955   | 136.4 | 8   | 83% | 6   | 18  | 36  |
-| 4   | Evangel Heights - Sarver, PA (Without Wrinkle or Blemish)  | 3-Apr  | 850   | 121.4 | 5   | 80% | 6   | 21  | 26  |
-| 5   | Atlanta Tamil - Norcross, GA (Curry Their Favor)           | 4-Mar  | 685   | 97.8  | 4   | 71% | 5   | 17  | 28  |
-| 6   | Maple Lane AG - Deposit, NY (The Untitled Team)            | 6-Jan  | 630   | 90    | 5   | 71% | 1   | 18  | 31  |
-| 6   | Sioux Falls 1st - Sioux Falls, SD (Wind and Waves)         | 6-Jan  | 620   | 88.6  | 4   | 90% | 3   | 16  | 17  |
-| 7   | Orange Hills AG - Orange Hills, CA (God's Chosen People)   | 6-Jan  | 510   | 72.8  | 2   | 59% | 4   | 21  | 19  |
+| 1   | James River - Ozark, MO (The Flames)                       | 7 / 0 | 1620  | 231.4 | 12  | 78% | 12  | 45  | 37  |
+| 2   | Kuna Life Center - Kuna, ID (Their Destiny is Destruction) | 6 / 1  | 1150  | 164.3 | 7   | 80% | 9   | 33  | 26  |
+| 3   | The Oaks Fellowship - Red Oak, TX (Pure and Blameless)     | 5 / 2  | 955   | 136.4 | 8   | 83% | 6   | 18  | 36  |
+| 4   | Evangel Heights - Sarver, PA (Without Wrinkle or Blemish)  | 4 / 3  | 850   | 121.4 | 5   | 80% | 6   | 21  | 26  |
+| 5   | Atlanta Tamil - Norcross, GA (Curry Their Favor)           | 3 / 4  | 685   | 97.8  | 4   | 71% | 5   | 17  | 28  |
+| 6   | Maple Lane AG - Deposit, NY (The Untitled Team)            | 1 / 6  | 630   | 90    | 5   | 71% | 1   | 18  | 31  |
+| 6   | Sioux Falls 1st - Sioux Falls, SD (Wind and Waves)         | 1 / 6  | 620   | 88.6  | 4   | 90% | 3   | 16  | 17  |
+| 7   | Orange Hills AG - Orange Hills, CA (God's Chosen People)   | 1 / 6  | 510   | 72.8  | 2   | 59% | 4   | 21  | 19  |
 
 #### Individuals
 
@@ -323,13 +323,13 @@ menubar_toc_static:
 
 | #   | Team / Church                                                   | W / L  | Total | AVG   | QO  | Q%  | 30s | 20s | 10s |
 | --- | --------------------------------------------------------------- | ------ | ----- | ----- | --- | --- | --- | --- | --- |
-| 1   | Newport AG - Newport, PA (Torn Between the Two)                 | Jul-00 | 1310  | 187.1 | 10  | 86% | 15  | 24  | 27  |
-| 2   | Calvary Church - Naperville, IL (Calvary Church)                | 1-Jun  | 1460  | 208.5 | 12  | 85% | 9   | 35  | 38  |
-| 3   | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)           | 2-May  | 1020  | 145.7 | 7   | 77% | 11  | 23  | 24  |
-| 4.1 | Allison Park Church - Allison Park, Pa (Grumbling Stomachs)     | 4-Mar  | 685   | 97.8  | 5   | 71% | 4   | 21  | 23  |
-| 4   | Life 360 - Springfield, MO (Exasperated Children)               | 4-Mar  | 940   | 134.3 | 5   | 72% | 7   | 28  | 28  |
-| 5.1 | Tacoma Life Center - Tacoma, WA (Unknown Males)                 | 5-Feb  | 700   | 100   | 6   | 76% | 4   | 14  | 38  |
-| 5   | Calvary Church - Greensboro, NC (Embittered Children)           | 5-Feb  | 485   | 69.3  | 2   | 66% | 1   | 21  | 23  |
+| 1   | Newport AG - Newport, PA (Torn Between the Two)                 | 7 / 0 | 1310  | 187.1 | 10  | 86% | 15  | 24  | 27  |
+| 2   | Calvary Church - Naperville, IL (Calvary Church)                | 6 / 1  | 1460  | 208.5 | 12  | 85% | 9   | 35  | 38  |
+| 3   | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)           | 5 / 2  | 1020  | 145.7 | 7   | 77% | 11  | 23  | 24  |
+| 4.1 | Allison Park Church - Allison Park, Pa (Grumbling Stomachs)     | 3 / 4  | 685   | 97.8  | 5   | 71% | 4   | 21  | 23  |
+| 4   | Life 360 - Springfield, MO (Exasperated Children)               | 3 / 4  | 940   | 134.3 | 5   | 72% | 7   | 28  | 28  |
+| 5.1 | Tacoma Life Center - Tacoma, WA (Unknown Males)                 | 2 / 5  | 700   | 100   | 6   | 76% | 4   | 14  | 38  |
+| 5   | Calvary Church - Greensboro, NC (Embittered Children)           | 2 / 5  | 485   | 69.3  | 2   | 66% | 1   | 21  | 23  |
 | 6   | Dayspring Assembly - Bowling Green, OH (Irrelevant Information) | 0 / 7  | 190   | 27.1  |     | 51% | 1   | 13  | 14  |
 
 #### Individuals
@@ -370,13 +370,13 @@ menubar_toc_static:
 
 | #   | Team / Church                                                         | W / L  | Total | AVG   | QO  | Q%  | 30s | 20s | 10s |
 | --- | --------------------------------------------------------------------- | ------ | ----- | ----- | --- | --- | --- | --- | --- |
-| 1   | Living Hope Worship - Swedesboro, NJ (Depth of Nsyte)                 | Jul-00 | 1145  | 163.5 | 8   | 83% | 11  | 27  | 24  |
-| 2.1 | Evangel Temple - Springfield, MO (The Church That Meets in Your Home) | 2-May  | 995   | 142.1 | 7   | 76% | 7   | 28  | 27  |
-| 2   | Cedar Park - Bothell, WA (Those Dogs)                                 | 2-May  | 1155  | 165   | 7   | 72% | 11  | 29  | 36  |
-| 3   | 1st AG - East Lansing, MI (Horseradish, Breadsticks & Pickles)        | 3-Apr  | 1140  | 162.8 | 6   | 85% | 7   | 30  | 34  |
-| 4   | Bethany Church - Wyckoff, NJ (Glutton Free)                           | 4-Mar  | 865   | 123.6 | 4   | 83% | 2   | 27  | 30  |
-| 5.1 | Life Church - Wesley Chapel, FL (Thrown into Confusion)               | 5-Feb  | 390   | 55.7  | 2   | 67% | 2   | 10  | 25  |
-| 5   | Christian Temple - Houston, TX (Christian Temple)                     | 5-Feb  | 390   | 55.7  | 3   | 56% | 4   | 13  | 23  |
+| 1   | Living Hope Worship - Swedesboro, NJ (Depth of Nsyte)                 | 7 / 0 | 1145  | 163.5 | 8   | 83% | 11  | 27  | 24  |
+| 2.1 | Evangel Temple - Springfield, MO (The Church That Meets in Your Home) | 5 / 2  | 995   | 142.1 | 7   | 76% | 7   | 28  | 27  |
+| 2   | Cedar Park - Bothell, WA (Those Dogs)                                 | 5 / 2  | 1155  | 165   | 7   | 72% | 11  | 29  | 36  |
+| 3   | 1st AG - East Lansing, MI (Horseradish, Breadsticks & Pickles)        | 4 / 3  | 1140  | 162.8 | 6   | 85% | 7   | 30  | 34  |
+| 4   | Bethany Church - Wyckoff, NJ (Glutton Free)                           | 3 / 4  | 865   | 123.6 | 4   | 83% | 2   | 27  | 30  |
+| 5.1 | Life Church - Wesley Chapel, FL (Thrown into Confusion)               | 2 / 5  | 390   | 55.7  | 2   | 67% | 2   | 10  | 25  |
+| 5   | Christian Temple - Houston, TX (Christian Temple)                     | 2 / 5  | 390   | 55.7  | 3   | 56% | 4   | 13  | 23  |
 | 6   | Trinity Assembly - Georgetown, KY (The Other Team)                    | 0 / 7  | 245   | 35    |     | 70% |     | 7   | 21  |
 
 #### Individuals
@@ -417,13 +417,13 @@ menubar_toc_static:
 
 | #   | Team / Church                                                         | W / L  | Total | AVG   | QO  | Q%  | 30s | 20s | 10s |
 | --- | --------------------------------------------------------------------- | ------ | ----- | ----- | --- | --- | --- | --- | --- |
-| 1   | Living Hope Worship - Swedesboro, NJ (Depth of Nsyte)                 | Jul-00 | 1145  | 163.5 | 8   | 83% | 11  | 27  | 24  |
-| 2.1 | Evangel Temple - Springfield, MO (The Church That Meets in Your Home) | 2-May  | 995   | 142.1 | 7   | 76% | 7   | 28  | 27  |
-| 2   | Cedar Park - Bothell, WA (Those Dogs)                                 | 2-May  | 1155  | 165   | 7   | 72% | 11  | 29  | 36  |
-| 3   | 1st AG - East Lansing, MI (Horseradish, Breadsticks & Pickles)        | 3-Apr  | 1140  | 162.8 | 6   | 85% | 7   | 30  | 34  |
-| 4   | Bethany Church - Wyckoff, NJ (Glutton Free)                           | 4-Mar  | 865   | 123.6 | 4   | 83% | 2   | 27  | 30  |
-| 5.1 | Life Church - Wesley Chapel, FL (Thrown into Confusion)               | 5-Feb  | 390   | 55.7  | 2   | 67% | 2   | 10  | 25  |
-| 5   | Christian Temple - Houston, TX (Christian Temple)                     | 5-Feb  | 390   | 55.7  | 3   | 56% | 4   | 13  | 23  |
+| 1   | Living Hope Worship - Swedesboro, NJ (Depth of Nsyte)                 | 7 / 0 | 1145  | 163.5 | 8   | 83% | 11  | 27  | 24  |
+| 2.1 | Evangel Temple - Springfield, MO (The Church That Meets in Your Home) | 5 / 2  | 995   | 142.1 | 7   | 76% | 7   | 28  | 27  |
+| 2   | Cedar Park - Bothell, WA (Those Dogs)                                 | 5 / 2  | 1155  | 165   | 7   | 72% | 11  | 29  | 36  |
+| 3   | 1st AG - East Lansing, MI (Horseradish, Breadsticks & Pickles)        | 4 / 3  | 1140  | 162.8 | 6   | 85% | 7   | 30  | 34  |
+| 4   | Bethany Church - Wyckoff, NJ (Glutton Free)                           | 3 / 4  | 865   | 123.6 | 4   | 83% | 2   | 27  | 30  |
+| 5.1 | Life Church - Wesley Chapel, FL (Thrown into Confusion)               | 2 / 5  | 390   | 55.7  | 2   | 67% | 2   | 10  | 25  |
+| 5   | Christian Temple - Houston, TX (Christian Temple)                     | 2 / 5  | 390   | 55.7  | 3   | 56% | 4   | 13  | 23  |
 | 6   | Trinity Assembly - Georgetown, KY (The Other Team)                    | 0 / 7  | 245   | 35    |     | 70% |     | 7   | 21  |
 
 #### Individuals

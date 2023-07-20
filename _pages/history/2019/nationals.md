@@ -121,8 +121,8 @@ menubar_toc_static:
 
 | #   | Team Church                                                   | W/L    | Pts  | AVG   | 30s | 20s | 10s |
 | --- | ------------------------------------------------------------- | ------ | ---- | ----- | --- | --- | --- |
-| 1   | Men Deserve Recognition (First Assembly – Lexington-KY)       | 18/1   | 3175 | 167.1 | 12  | 90  | 95  |
-| 2   | Calvary Church (Calvary Church – Greensboro-NC)               | 18/1   | 3600 | 189.5 | 21  | 95  | 102 |
+| 1   | Men Deserve Recognition (First Assembly – Lexington-KY)       | 18 / 1   | 3175 | 167.1 | 12  | 90  | 95  |
+| 2   | Calvary Church (Calvary Church – Greensboro-NC)               | 18 / 1   | 3600 | 189.5 | 21  | 95  | 102 |
 | 3   | Life Church (Life Church – Germantown-WI)                     | 15 / 4 | 2245 | 118.2 | 3   | 61  | 91  |
 | 4   | Dream City (Dream City Church – Scottsdale-AZ)                | 15 / 4 | 2620 | 137.9 | 17  | 57  | 81  |
 | 5   | Calvary Church(S) (Calvary Church – Naperville-IL)            | 13 / 6 | 2065 | 108.7 | 3   | 55  | 94  |
@@ -218,15 +218,15 @@ menubar_toc_static:
 
 #### Teams
 
-| #   | Team                                                           | W/L    | Pts  | AVG   | 30s | 20s | 10s |
-| --- | -------------------------------------------------------------- | ------ | ---- | ----- | --- | --- | --- |
+| #   | Team                                                           | W/L   | Pts  | AVG   | 30s | 20s | 10s |
+| --- | -------------------------------------------------------------- | ----- | ---- | ----- | --- | --- | --- |
 | 1   | Calvary Church(J) (Calvary Church – Naperville-IL)             | 6 / 0 | 1430 | 238.3 | 8   | 37  | 36  |
-| 2   | Braeswood Assembly of God (Braeswood Assembly – Houston-TX)    | 4 / 2  | 460  | 76.7  | 2   | 15  | 26  |
-| 3   | Smithtown Gospel Tabernacle (Gospel Tabernacle – Smithtown-NY) | 4 / 2  | 675  | 112.5 | 4   | 22  | 27  |
-| 4   | God May Be Allinol (Cedar Park – Bothell-WA)                   | 2 / 4  | 945  | 157.5 | 7   | 25  | 28  |
-| 5   | Evangel Temple (Evangel Temple – Springfield-MO)               | 2 / 4  | 495  | 82.5  | 3   | 19  | 12  |
-| 6   | Lakeview Church (Lakeview Church – Indianapolis-IN)            | 2 / 4  | 390  | 65    | 1   | 15  | 14  |
-| 7   | CrossPoint Assembly of God (CrossPoint – Portage-WI)           | 1 / 5  | 285  | 47.5  | 1   | 11  | 12  |
+| 2   | Braeswood Assembly of God (Braeswood Assembly – Houston-TX)    | 4 / 2 | 460  | 76.7  | 2   | 15  | 26  |
+| 3   | Smithtown Gospel Tabernacle (Gospel Tabernacle – Smithtown-NY) | 4 / 2 | 675  | 112.5 | 4   | 22  | 27  |
+| 4   | God May Be Allinol (Cedar Park – Bothell-WA)                   | 2 / 4 | 945  | 157.5 | 7   | 25  | 28  |
+| 5   | Evangel Temple (Evangel Temple – Springfield-MO)               | 2 / 4 | 495  | 82.5  | 3   | 19  | 12  |
+| 6   | Lakeview Church (Lakeview Church – Indianapolis-IN)            | 2 / 4 | 390  | 65    | 1   | 15  | 14  |
+| 7   | CrossPoint Assembly of God (CrossPoint – Portage-WI)           | 1 / 5 | 285  | 47.5  | 1   | 11  | 12  |
 
 #### Individuals
 
@@ -258,16 +258,16 @@ menubar_toc_static:
 
 #### Teams
 
-| #   | Team Church                                                | W/L    | Pts  | AVG   | 30s | 20s | 10s |
-| --- | ---------------------------------------------------------- | ------ | ---- | ----- | --- | --- | --- |
-| 1   | Power to Demolish (Word of Life – Springfield-VA)          | Jul-00 | 1150 | 164.3 | 9   | 29  | 31  |
-| 2   | Life360 Church (Life360 Church – Springfield-MO)           | 1-Jun  | 1095 | 156.4 | 8   | 26  | 33  |
-| 3   | Bethel Church (Bethel Church – San Jose-CA)                | 2-May  | 1000 | 142.8 | 6   | 26  | 26  |
-| 4   | Glory, Transitory (Journey Life – Holt-MI)                 | 3-Apr  | 805  | 115   | 1   | 30  | 27  |
-| 5   | Calvary Church (Calvary Church – Greensboro-NC)            | 4-Mar  | 1210 | 172.8 | 6   | 32  | 35  |
-| 6   | First Assembly of God (First Assembly – Louisville-OH)     | 5-Feb  | 470  | 67.1  | 0   | 16  | 29  |
-| 7   | The Crafty Fellows (First Assembly – Sioux Falls-SD)       | 6-Jan  | 460  | 65.7  | 2   | 16  | 19  |
-| 8   | Metuchen Assembly of God (Metuchen Assembly – Metuchen-NJ) | 0/7    | 125  | 17.9  | 0   | 3   | 10  |
+| #   | Team Church                                                | W/L   | Pts  | AVG   | 30s | 20s | 10s |
+| --- | ---------------------------------------------------------- | ----- | ---- | ----- | --- | --- | --- |
+| 1   | Power to Demolish (Word of Life – Springfield-VA)          | 7 / 0 | 1150 | 164.3 | 9   | 29  | 31  |
+| 2   | Life360 Church (Life360 Church – Springfield-MO)           | 6 / 1 | 1095 | 156.4 | 8   | 26  | 33  |
+| 3   | Bethel Church (Bethel Church – San Jose-CA)                | 5 / 2 | 1000 | 142.8 | 6   | 26  | 26  |
+| 4   | Glory, Transitory (Journey Life – Holt-MI)                 | 4 / 3 | 805  | 115   | 1   | 30  | 27  |
+| 5   | Calvary Church (Calvary Church – Greensboro-NC)            | 3 / 4 | 1210 | 172.8 | 6   | 32  | 35  |
+| 6   | First Assembly of God (First Assembly – Louisville-OH)     | 2 / 5 | 470  | 67.1  | 0   | 16  | 29  |
+| 7   | The Crafty Fellows (First Assembly – Sioux Falls-SD)       | 1 / 6 | 460  | 65.7  | 2   | 16  | 19  |
+| 8   | Metuchen Assembly of God (Metuchen Assembly – Metuchen-NJ) | 0 / 7 | 125  | 17.9  | 0   | 3   | 10  |
 
 #### Individuals
 
@@ -303,15 +303,15 @@ menubar_toc_static:
 
 #### Teams
 
-| #   | Team Church                                                                | W/L    | Pts  | AVG   | 30s | 20s | 10s |
-| --- | -------------------------------------------------------------------------- | ------ | ---- | ----- | --- | --- | --- |
+| #   | Team Church                                                                | W/L   | Pts  | AVG   | 30s | 20s | 10s |
+| --- | -------------------------------------------------------------------------- | ----- | ---- | ----- | --- | --- | --- |
 | 1   | Trinity Church (Trinity Church – Cedar Hill-TX)                            | 6 / 0 | 1180 | 196.6 | 9   | 30  | 28  |
-| 2   | Not Allowed to Speak (Mechanicsville Christian Center – Mechanicsville-VA) | 5 / 1  | 1200 | 200   | 8   | 29  | 31  |
-| 3   | The Misled (Bellevue Neighborhood – Bellevue-WA)                           | 4 / 2  | 865  | 144.1 | 6   | 20  | 30  |
-| 4   | North Valley (North Valley – Phoenix-AZ)                                   | 3 / 3  | 975  | 162.5 | 10  | 25  | 21  |
-| 5   | Men Deserve Recognition (First Assembly – Lexington-KY)                    | 2 / 4  | 795  | 132.5 | 3   | 25  | 25  |
-| 6   | New Life Assembly of God (New Life Assembly – Sparta-WI)                   | 1 / 5  | 320  | 53.3  | 1   | 10  | 17  |
-| 7   | The Church at the Groves (Church at the Groves – Leesburg-GA)              | 0/6    | 35   | 5.8   | 0   | 1   | 5   |
+| 2   | Not Allowed to Speak (Mechanicsville Christian Center – Mechanicsville-VA) | 5 / 1 | 1200 | 200   | 8   | 29  | 31  |
+| 3   | The Misled (Bellevue Neighborhood – Bellevue-WA)                           | 4 / 2 | 865  | 144.1 | 6   | 20  | 30  |
+| 4   | North Valley (North Valley – Phoenix-AZ)                                   | 3 / 3 | 975  | 162.5 | 10  | 25  | 21  |
+| 5   | Men Deserve Recognition (First Assembly – Lexington-KY)                    | 2 / 4 | 795  | 132.5 | 3   | 25  | 25  |
+| 6   | New Life Assembly of God (New Life Assembly – Sparta-WI)                   | 1 / 5 | 320  | 53.3  | 1   | 10  | 17  |
+| 7   | The Church at the Groves (Church at the Groves – Leesburg-GA)              | 0 / 6 | 35   | 5.8   | 0   | 1   | 5   |
 
 #### Individuals
 
@@ -348,14 +348,14 @@ menubar_toc_static:
 
 | #   | Team Church                                              | W/L   | Pts  | AVG   | 30s | 20s | 10s |
 | --- | -------------------------------------------------------- | ----- | ---- | ----- | --- | --- | --- |
-| 1   | The 253 (Deeper Church – Burien-WA)                      | 1-Jun | 1265 | 180.7 | 9   | 36  | 29  |
-| 2   | Crown Pointe (Crown Pointe – Lees Summit-MO)             | 1-Jun | 1485 | 212.1 | 11  | 41  | 38  |
-| 3   | Central Assembly of God (Central Assembly – Houston-PA)  | 2-May | 1055 | 150.7 | 6   | 29  | 25  |
-| 4   | Living Hope Worship Center (Living Hope – Swedesboro-NJ) | 3-Apr | 935  | 133.6 | 6   | 25  | 26  |
-| 5   | Not I, but the Lord (Open Bible Church – Rapid City-SD)  | 4-Mar | 660  | 94.3  | 6   | 17  | 15  |
-| 6   | Calvary Church(S) (Calvary Church – Naperville-IL)       | 5-Feb | 465  | 66.4  | 1   | 15  | 28  |
-| 7   | Victory Worship (Victory Worship Center – Tucson-AZ)     | 6-Jan | 330  | 47.1  | 0   | 9   | 16  |
-| 8   | Dancing River Goats (Legacy Church – Princeton-TX)       | 6-Jan | 195  | 27.9  | 0   | 10  | 22  |
+| 1   | The 253 (Deeper Church – Burien-WA)                      | 6 / 1 | 1265 | 180.7 | 9   | 36  | 29  |
+| 2   | Crown Pointe (Crown Pointe – Lees Summit-MO)             | 6 / 1 | 1485 | 212.1 | 11  | 41  | 38  |
+| 3   | Central Assembly of God (Central Assembly – Houston-PA)  | 5 / 2 | 1055 | 150.7 | 6   | 29  | 25  |
+| 4   | Living Hope Worship Center (Living Hope – Swedesboro-NJ) | 4 / 3 | 935  | 133.6 | 6   | 25  | 26  |
+| 5   | Not I, but the Lord (Open Bible Church – Rapid City-SD)  | 3 / 4 | 660  | 94.3  | 6   | 17  | 15  |
+| 6   | Calvary Church(S) (Calvary Church – Naperville-IL)       | 2 / 5 | 465  | 66.4  | 1   | 15  | 28  |
+| 7   | Victory Worship (Victory Worship Center – Tucson-AZ)     | 1 / 6 | 330  | 47.1  | 0   | 9   | 16  |
+| 8   | Dancing River Goats (Legacy Church – Princeton-TX)       | 1 / 6 | 195  | 27.9  | 0   | 10  | 22  |
 
 #### Individuals
 
@@ -391,16 +391,16 @@ menubar_toc_static:
 
 #### Teams
 
-| #   | Team Church                                                | W/L    | Pts  | AVG   | 30s | 20s | 10s |
-| --- | ---------------------------------------------------------- | ------ | ---- | ----- | --- | --- | --- |
-| 1   | Power to Demolish (Word of Life – Springfield-VA)          | Jul-00 | 1150 | 164.3 | 9   | 29  | 31  |
-| 2   | Life360 Church (Life360 Church – Springfield-MO)           | 1-Jun  | 1095 | 156.4 | 8   | 26  | 33  |
-| 3   | Bethel Church (Bethel Church – San Jose-CA)                | 2-May  | 1000 | 142.8 | 6   | 26  | 26  |
-| 4   | Glory, Transitory (Journey Life – Holt-MI)                 | 3-Apr  | 805  | 115   | 1   | 30  | 27  |
-| 5   | Calvary Church (Calvary Church – Greensboro-NC)            | 4-Mar  | 1210 | 172.8 | 6   | 32  | 35  |
-| 6   | First Assembly of God (First Assembly – Louisville-OH)     | 5-Feb  | 470  | 67.1  | 0   | 16  | 29  |
-| 7   | The Crafty Fellows (First Assembly – Sioux Falls-SD)       | 6-Jan  | 460  | 65.7  | 2   | 16  | 19  |
-| 8   | Metuchen Assembly of God (Metuchen Assembly – Metuchen-NJ) | 0/7    | 125  | 17.9  | 0   | 3   | 10  |
+| #   | Team Church                                                | W/L   | Pts  | AVG   | 30s | 20s | 10s |
+| --- | ---------------------------------------------------------- | ----- | ---- | ----- | --- | --- | --- |
+| 1   | Power to Demolish (Word of Life – Springfield-VA)          | 7 / 0 | 1150 | 164.3 | 9   | 29  | 31  |
+| 2   | Life360 Church (Life360 Church – Springfield-MO)           | 6 / 1 | 1095 | 156.4 | 8   | 26  | 33  |
+| 3   | Bethel Church (Bethel Church – San Jose-CA)                | 5 / 2 | 1000 | 142.8 | 6   | 26  | 26  |
+| 4   | Glory, Transitory (Journey Life – Holt-MI)                 | 4 / 3 | 805  | 115   | 1   | 30  | 27  |
+| 5   | Calvary Church (Calvary Church – Greensboro-NC)            | 3 / 4 | 1210 | 172.8 | 6   | 32  | 35  |
+| 6   | First Assembly of God (First Assembly – Louisville-OH)     | 2 / 5 | 470  | 67.1  | 0   | 16  | 29  |
+| 7   | The Crafty Fellows (First Assembly – Sioux Falls-SD)       | 1 / 6 | 460  | 65.7  | 2   | 16  | 19  |
+| 8   | Metuchen Assembly of God (Metuchen Assembly – Metuchen-NJ) | 0 / 7 | 125  | 17.9  | 0   | 3   | 10  |
 
 #### Individuals
 

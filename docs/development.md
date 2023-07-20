@@ -83,7 +83,7 @@ The most common type of contribution will be creating a new blog post.
     2. Add an `image:` tag to the Front Matter for the post. For example, `image: "BQ-Newsletter-Graphics_Page_13-scaled.jpg"`.
 
 ## Linking to Images or Pages
-If you want to reference a page or image, use the syntax `{% link <path> %}` where `<path>` is the relative path from the root of the repository. For example, you can reference a file for downloading using `{% link assets/2023/2023-April.pdf %}`.
+If you want to reference a page or image, use the syntax `{% link <path> %}` where `<path>` is the relative path from the root of the repository. For example, you can reference a file for downloading using `{% link assets/2023/2024 / 3il.pdf %}`.
 
 ## Other Useful Links
 

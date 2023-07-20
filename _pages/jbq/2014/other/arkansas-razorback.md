@@ -140,7 +140,7 @@ menubar_toc_static:
 | 5 | Hawks                  | First Assembly of God | 4/3 | 815   | 116.43 |
 | 6 | Buzz Hogs              | River of Life         | 2/5 | 550   | 78.57  |
 | 7 | McArthur Heaven's Army | McArthur              | 1/6 | 395   | 56.43  |
-| 8 | Fordyce                | Fordyce 1st Assmebly  | 0/7 | 270   | 38.57  |
+| 8 | Fordyce                | Fordyce 1st Assmebly  | 0 / 7 | 270   | 38.57  |
 
 #### Individuals
 

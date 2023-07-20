@@ -123,9 +123,9 @@ menubar_toc_static:
 
 | #   | Team Church                                     | W/L    | Pts  | AVG   | 30s | 20s | 10s |
 | --- | ----------------------------------------------- | ------ | ---- | ----- | --- | --- | --- |
-| 1   | Evangel Temple (Springfield, MO)                | 18/1   | 2880 | 151.6 | 19  | 67  | 92  |
-| 2   | Kuna Life Church (Kuna, ID)                     | 17/2   | 2565 | 135   | 15  | 73  | 96  |
-| 3   | Lexington 1st AG (Lexington, KY)                | 17/2   | 3035 | 159.7 | 15  | 88  | 86  |
+| 1   | Evangel Temple (Springfield, MO)                | 18 / 1   | 2880 | 151.6 | 19  | 67  | 92  |
+| 2   | Kuna Life Church (Kuna, ID)                     | 17 / 2   | 2565 | 135   | 15  | 73  | 96  |
+| 3   | Lexington 1st AG (Lexington, KY)                | 17 / 2   | 3035 | 159.7 | 15  | 88  | 86  |
 | 4   | Bethel AG (Rapid City, SD)                      | 14 / 5 | 1875 | 98.7  | 3   | 58  | 71  |
 | 5   | Bellevue Neighborhood Church (Bellevue, WA)     | 14 / 5 | 2565 | 135   | 11  | 76  | 92  |
 | 6   | Braeswood AG (Houston, TX)                      | 12 / 7 | 2250 | 118.4 | 12  | 77  | 82  |
@@ -239,7 +239,7 @@ menubar_toc_static:
 | 5   | Kuna Life Church (Kuna, ID)                  | 3/4 | 740  | 105.7 | 3   | 28  | 29  |
 | 6   | The Vine (Grant, MI)                         | 2/5 | 525  | 75    | 3   | 17  | 25  |
 | 7   | Open Bible Christian Center (Rapid City, SD) | 1/6 | 250  | 35.7  | 0   | 14  | 13  |
-| 8   | Covenant Life Church (Cary, NC)              | 0/7 | 105  | 15    | 1   | 2   | 14  |
+| 8   | Covenant Life Church (Cary, NC)              | 0 / 7 | 105  | 15    | 1   | 2   | 14  |
 
 ### Group B
 
@@ -254,7 +254,7 @@ menubar_toc_static:
 | 5   | Lexington 1st AG (Lexington, KY)     | 4/3 | 720  | 102.8 | 6   | 25  | 24  |
 | 6   | Louisville 1st AG (Louisville, OH)   | 2/5 | 475  | 67.8  | 2   | 16  | 25  |
 | 7   | Bethel AG (Rapid City, SD)           | 1/6 | 485  | 69.3  | 1   | 11  | 24  |
-| 8   | Church on the Rise (Rocky Mount, NC) | 0/7 | 270  | 38.6  | 1   | 8   | 20  |
+| 8   | Church on the Rise (Rocky Mount, NC) | 0 / 7 | 270  | 38.6  | 1   | 8   | 20  |
 
 ### Group C
 
@@ -284,7 +284,7 @@ menubar_toc_static:
 | 5   | Legacy Church (Princeton, TX)               | 3/4 | 330  | 47.1  | 3   | 12  | 20  |
 | 6   | Evangel Temple (Springfield, MO)            | 3/4 | 750  | 107.1 | 5   | 21  | 33  |
 | 7   | Life Church (Wesley Chapel, FL)             | 2/5 | 385  | 55    | 2   | 11  | 23  |
-| 8   | Sioux Falls First (Sioux Falls, SD)         | 0/7 | 375  | 53.6  | 3   | 14  | 17  |
+| 8   | Sioux Falls First (Sioux Falls, SD)         | 0 / 7 | 375  | 53.6  | 3   | 14  | 17  |
 
 ### Group E
 
@@ -299,7 +299,7 @@ menubar_toc_static:
 | 5   | New Life AG (Sparta, WI)                        | 3/4 | 500  | 71.4  | 0   | 22  | 11  |
 | 6   | Racine AG (Racine, WI)                          | 2/5 | 555  | 79.3  | 2   | 16  | 31  |
 | 7   | Freedom Christian Fellowship (Jacksonville, FL) | 1/6 | 275  | 39.3  | 2   | 10  | 20  |
-| 8   | Lakeview Church (Indianapolis, IN)              | 0/7 | 310  | 44.3  | 2   | 8   | 23  |
+| 8   | Lakeview Church (Indianapolis, IN)              | 0 / 7 | 310  | 44.3  | 2   | 8   | 23  |
 
 ## Special Events
 

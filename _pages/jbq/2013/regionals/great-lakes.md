@@ -18,7 +18,7 @@ menubar_toc_static:
 
 | #  | Team                   | Church                       | W/L  | Total | Avg    |
 |---:|------------------------|------------------------------|------|------:|-------:|
-| 1  | \* Naperville, IL (J)  | Calvary Church               | 18/1 | 4320  | 227.37 |
+| 1  | \* Naperville, IL (J)  | Calvary Church               | 18 / 1 | 4320  | 227.37 |
 | 2  | Yorkville, IL          | New Life Church              | 15 / 4 | 3405  | 179.21 |
 | 3  | Cincinnati, OH         | People's Church              | 13 / 6 | 3410  | 179.47 |
 | 4  | Lexington, KY          | Lexington A/G                | 13 / 6 | 3300  | 173.68 |

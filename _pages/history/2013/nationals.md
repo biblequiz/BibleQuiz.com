@@ -137,14 +137,14 @@ menubar_toc_static:
 
 | #   | Team                     | Church              | W/L   | Total | AVG    |
 | --- | ------------------------ | ------------------- | ----- | ----- | ------ |
-| 1   | "Bothell WA "The A Team" | Cedar Park Assembly | 1-Jun | 1785  | 255    |
-| 2   | Binghamton NY            | First AG            | 1-Jun | 950   | 135.71 |
-| 3   | Phoenix AZ               | North Valley AG     | 2-May | 705   | 100.71 |
-| 4   | Indianapolis IN          | Lakeview Church     | 4-Mar | 475   | 67.86  |
-| 5   | Ft Worth TX              | Harvest Assembly    | 4-Mar | 620   | 88.57  |
-| 6   | Garfield NJ              | Praise AG           | 5-Feb | 455   | 65     |
-| 7   | Plymouth WI              | Christian Life      | 5-Feb | 310   | 44.29  |
-| 8   | Springfield MO           | King's Chapel       | 6-Jan | 350   | 50     |
+| 1   | "Bothell WA "The A Team" | Cedar Park Assembly | 6 / 1 | 1785  | 255    |
+| 2   | Binghamton NY            | First AG            | 6 / 1 | 950   | 135.71 |
+| 3   | Phoenix AZ               | North Valley AG     | 5 / 2 | 705   | 100.71 |
+| 4   | Indianapolis IN          | Lakeview Church     | 3 / 4 | 475   | 67.86  |
+| 5   | Ft Worth TX              | Harvest Assembly    | 3 / 4 | 620   | 88.57  |
+| 6   | Garfield NJ              | Praise AG           | 2 / 5 | 455   | 65     |
+| 7   | Plymouth WI              | Christian Life      | 2 / 5 | 310   | 44.29  |
+| 8   | Springfield MO           | King's Chapel       | 1 / 6 | 350   | 50     |
 
 #### Individuals
 
@@ -181,16 +181,16 @@ menubar_toc_static:
 
 #### Teams
 
-| #   | Team                     | Church                       | W/L    | Total | AVG    |
-| --- | ------------------------ | ---------------------------- | ------ | ----- | ------ |
-| 1   | Bellevue WA              | Bellevue Neighborhood Church | Jul-00 | 1300  | 185.71 |
-| 2   | Spring TX                | Spring First AG              | 1-Jun  | 1185  | 169.29 |
-| 3   | Upper St Clair PA        | New Day AG                   | 2-May  | 830   | 118.57 |
-| 4   | "Ozark MO "Blazing Fire" | James River Assembly         | 3-Apr  | 935   | 133.57 |
-| 5   | Gering NE                | Northfield Church            | 5-Feb  | 660   | 94.29  |
-| 6   | Bowie MD                 | Cornerstone Church           | 5-Feb  | 475   | 67.86  |
-| 7   | Warner Robins GA         | The Assembly                 | 6-Jan  | 310   | 44.29  |
-| 8   | Georgetown KY            | Trinity AG                   | 6-Jan  | 255   | 36.43  |
+| #   | Team                     | Church                       | W/L   | Total | AVG    |
+| --- | ------------------------ | ---------------------------- | ----- | ----- | ------ |
+| 1   | Bellevue WA              | Bellevue Neighborhood Church | 7 / 0 | 1300  | 185.71 |
+| 2   | Spring TX                | Spring First AG              | 6 / 1 | 1185  | 169.29 |
+| 3   | Upper St Clair PA        | New Day AG                   | 5 / 2 | 830   | 118.57 |
+| 4   | "Ozark MO "Blazing Fire" | James River Assembly         | 4 / 3 | 935   | 133.57 |
+| 5   | Gering NE                | Northfield Church            | 2 / 5 | 660   | 94.29  |
+| 6   | Bowie MD                 | Cornerstone Church           | 2 / 5 | 475   | 67.86  |
+| 7   | Warner Robins GA         | The Assembly                 | 1 / 6 | 310   | 44.29  |
+| 8   | Georgetown KY            | Trinity AG                   | 1 / 6 | 255   | 36.43  |
 
 #### Individuals
 
@@ -234,16 +234,16 @@ menubar_toc_static:
 
 #### Teams
 
-| #   | Team                   | Church                       | W/L    | Total | AVG    |
-| --- | ---------------------- | ---------------------------- | ------ | ----- | ------ |
-| 1   | Muskogee OK            | First AG                     | Jul-00 | 1245  | 177.86 |
-| 2   | Deposit NY             | Maple Lane AG                | 2-May  | 1170  | 167.14 |
-| 3   | Scottsdale AZ          | North Scottsdale Christian   | 3-Apr  | 580   | 82.86  |
-| 4   | Kansas City MO         | Evangel Church               | 3-Apr  | 745   | 106.43 |
-| 5   | Mechanicsville VA      | Mechanicsville Christian Ctr | 4-Mar  | 460   | 65.71  |
-| 6   | Lexington KY           | First AG                     | 5-Feb  | 455   | 65     |
-| 7   | Toccoa GA              | Toccoa AG                    | 5-Feb  | 545   | 77.86  |
-| 8   | Houston TX Chr. Temple | Christian Temple             | 6-Jan  | 360   | 51.43  |
+| #   | Team                   | Church                       | W/L   | Total | AVG    |
+| --- | ---------------------- | ---------------------------- | ----- | ----- | ------ |
+| 1   | Muskogee OK            | First AG                     | 7 / 0 | 1245  | 177.86 |
+| 2   | Deposit NY             | Maple Lane AG                | 5 / 2 | 1170  | 167.14 |
+| 3   | Scottsdale AZ          | North Scottsdale Christian   | 4 / 3 | 580   | 82.86  |
+| 4   | Kansas City MO         | Evangel Church               | 4 / 3 | 745   | 106.43 |
+| 5   | Mechanicsville VA      | Mechanicsville Christian Ctr | 3 / 4 | 460   | 65.71  |
+| 6   | Lexington KY           | First AG                     | 2 / 5 | 455   | 65     |
+| 7   | Toccoa GA              | Toccoa AG                    | 2 / 5 | 545   | 77.86  |
+| 8   | Houston TX Chr. Temple | Christian Temple             | 1 / 6 | 360   | 51.43  |
 
 #### Individuals
 
@@ -287,14 +287,14 @@ menubar_toc_static:
 
 | #   | Team                         | Church                  | W/L   | Total | AVG    |
 | --- | ---------------------------- | ----------------------- | ----- | ----- | ------ |
-| 1   | Mt Pocono PA                 | Pocono Community Church | 1-Jun | 890   | 127.14 |
-| 2   | "Bothell WA "Keep Your Head" | Cedar Park Assembly     | 1-Jun | 1050  | 150    |
-| 3   | Cedar Rapids IA              | First AG                | 3-Apr | 770   | 110    |
-| 4   | Noble OK                     | Noble AG                | 4-Mar | 710   | 101.43 |
-| 5   | Richmond Hill NY             | Bethlehem Church        | 4-Mar | 675   | 96.43  |
-| 6   | Grant MI                     | Grant AG                | 4-Mar | 550   | 78.57  |
-| 7   | East Lansing MI              | First AG                | 4-Mar | 455   | 65     |
-| 8   | Ft Lauderdale FL             | Christian Life Center   | 0/7   | 365   | 52.14  |
+| 1   | Mt Pocono PA                 | Pocono Community Church | 6 / 1 | 890   | 127.14 |
+| 2   | "Bothell WA "Keep Your Head" | Cedar Park Assembly     | 6 / 1 | 1050  | 150    |
+| 3   | Cedar Rapids IA              | First AG                | 4 / 3 | 770   | 110    |
+| 4   | Noble OK                     | Noble AG                | 3 / 4 | 710   | 101.43 |
+| 5   | Richmond Hill NY             | Bethlehem Church        | 3 / 4 | 675   | 96.43  |
+| 6   | Grant MI                     | Grant AG                | 3 / 4 | 550   | 78.57  |
+| 7   | East Lansing MI              | First AG                | 3 / 4 | 455   | 65     |
+| 8   | Ft Lauderdale FL             | Christian Life Center   | 0 / 7 | 365   | 52.14  |
 
 #### Individuals
 
@@ -340,14 +340,14 @@ menubar_toc_static:
 
 | #   | Team                        | Church                     | W/L   | Total | AVG    |
 | --- | --------------------------- | -------------------------- | ----- | ----- | ------ |
-| 1   | Swedesboro NJ               | Living Hope Worship Center | 1-Jun | 830   | 118.57 |
-| 2   | "Ozark MO "Awake and Sober" | James River Assembly       | 2-May | 945   | 135    |
-| 3   | Wyckoff NJ                  | Bethany Church             | 2-May | 1135  | 162.14 |
-| 4   | Wesley Chapel FL            | Victorious Life Church     | 3-Apr | 625   | 89.29  |
-| 5   | Houston TX Braeswood        | Braeswood Assembly         | 3-Apr | 715   | 102.14 |
-| 6   | South Bend IN               | Southgate Church           | 5-Feb | 345   | 49.29  |
-| 7   | Rapid City SD               | Bethel AG                  | 5-Feb | 620   | 88.57  |
-| 8   | Tacoma WA                   | Life Center                | 0/7   | 360   | 51.43  |
+| 1   | Swedesboro NJ               | Living Hope Worship Center | 6 / 1 | 830   | 118.57 |
+| 2   | "Ozark MO "Awake and Sober" | James River Assembly       | 5 / 2 | 945   | 135    |
+| 3   | Wyckoff NJ                  | Bethany Church             | 5 / 2 | 1135  | 162.14 |
+| 4   | Wesley Chapel FL            | Victorious Life Church     | 4 / 3 | 625   | 89.29  |
+| 5   | Houston TX Braeswood        | Braeswood Assembly         | 4 / 3 | 715   | 102.14 |
+| 6   | South Bend IN               | Southgate Church           | 2 / 5 | 345   | 49.29  |
+| 7   | Rapid City SD               | Bethel AG                  | 2 / 5 | 620   | 88.57  |
+| 8   | Tacoma WA                   | Life Center                | 0 / 7 | 360   | 51.43  |
 
 #### Individuals
 

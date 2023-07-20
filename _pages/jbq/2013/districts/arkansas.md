@@ -459,9 +459,9 @@ menubar_toc_static:
 | 5  | Rogers 1st          | Rogers 1st AG       | 13/4 | 3370  | 198.24 |
 | 6  | NOTW                | 1st AG              | 13/4 | 3070  | 180.59 |
 | 7  | Acts 29             | Van Buren 1st AG    | 11/6 | 3220  | 189.41 |
-| 8  | Team-Crystal Hill   | Crystal Hill AG     | 10/7 | 3030  | 178.24 |
-| 9  | Mayflower Crusaders | Mayflower Lakeside  | 10/7 | 2850  | 167.65 |
-| 10 | McArthur Warriors   | McArthur Church     | 10/7 | 2745  | 161.47 |
+| 8  | Team-Crystal Hill   | Crystal Hill AG     | 10 / 7 | 3030  | 178.24 |
+| 9  | Mayflower Crusaders | Mayflower Lakeside  | 10 / 7 | 2850  | 167.65 |
+| 10 | McArthur Warriors   | McArthur Church     | 10 / 7 | 2745  | 161.47 |
 | 11 | Jonesboro 1st       | Jonesboro 1st AG    | 8/9  | 2310  | 135.88 |
 | 12 | Faith 3             | Texarkana Faith AG  | 6/11 | 2085  | 122.65 |
 | 13 | Team-Pocahontas     | Pocahontas 1st AG   | 5/12 | 1390  | 81.76  |

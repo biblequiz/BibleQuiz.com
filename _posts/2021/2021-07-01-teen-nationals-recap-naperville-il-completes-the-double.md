@@ -34,7 +34,7 @@ Thursday’s competition concludes with the Individual Tournament, where quizzer
 
 | Pos | Team / Church                                      | W / L  | Pts  | Avg   | Q/O |
 |-----|----------------------------------------------------|--------|------|-------|-----|
-| 1   | Calvary Church “J,” Naperville, IL                 | 17/2   | 4030 | 212.1 | 34  |
+| 1   | Calvary Church “J,” Naperville, IL                 | 17 / 2   | 4030 | 212.1 | 34  |
 | 2   | Deeper Church “Ponraj Family”, Burien, WA          | 15 / 4   | 3880 | 204.2 | 31  |
 | 3   | Central Assembly, Houston, PA                      | 15 / 4   | 3310 | 174.2 | 23  |
 | 4   | Trinity Church #1, Cedar Hill, TX                  | 14 / 5   | 3525 | 185.5 | 29  |
@@ -59,7 +59,7 @@ Thursday’s competition concludes with the Individual Tournament, where quizzer
 
 | Pos | Team / Church                                      | W / L  | Pts  | Avg   | Q/O |
 |-----|----------------------------------------------------|--------|------|-------|-----|
-| 1   | Calvary Church “J,” Naperville, IL                 | 17/2   | 4030 | 212.1 | 34  |
+| 1   | Calvary Church “J,” Naperville, IL                 | 17 / 2   | 4030 | 212.1 | 34  |
 | 2   | Deeper Church “Ponraj Family”, Burien, WA          | 15 / 4   | 3880 | 204.2 | 31  |
 | 3   | Central Assembly, Houston, PA                      | 15 / 4   | 3310 | 174.2 | 23  |
 | 4   | Trinity Church #1, Cedar Hill, TX                  | 14 / 5   | 3525 | 185.5 | 29  |

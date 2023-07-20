@@ -18,7 +18,7 @@ menubar_toc_static:
 
 | #  | Team                 | Church                 | W/L  | Total | Avg    |
 |---:|----------------------|------------------------|------|------:|-------:|
-| 1  | \*Naperville, IL (C) | Calvary Church         | 17/2 | 3730  | 196.32 |
+| 1  | \*Naperville, IL (C) | Calvary Church         | 17 / 2 | 3730  | 196.32 |
 | 2  | Naperville, IL (M)   | Calvary Church         | 16 / 3 | 3755  | 197.63 |
 | 3  | Naperville, IL (S)   | Calvary Church         | 15 / 4 | 3565  | 187.63 |
 | 4  | Naperville, IL (D)   | Calvary Church         | 14 / 5 | 3350  | 176.32 |
