@@ -32,10 +32,10 @@ Only 10 pages long, these rules are great for getting started in Bible Quiz! All
 
 <a href="https://youth.ag.org/-/media/Youth/Ministries/BQ-Content/Final-Simplified-Rules.pdf?la=en" class="button is-primary">Download Simplified Rules</a>
 
-### XP5 Division Rules
+### XP5 Match Structure
 A few minor rule changes for XP5 competitions. All rules from the full set of Official Rules above are still in effect.
 
-<a href="{% link assets/2024/XP5-Match-Structure.pdf %}" class="button is-primary">Download XP5 Division Rules</a>
+<a href="{% link assets/2024/XP5-Match-Structure.pdf %}" class="button is-primary">Download XP5 Match Structure</a>
 
 * * *
 
