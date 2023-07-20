@@ -15,8 +15,53 @@ menubar_toc_static:
 ## Championship
 
 ### Teams
+| #   | Team                                       | W/L  | Pts  | Avg    | Margin | Avg Margin |
+| --- | ------------------------------------------ | ---- | ---- | ------ | ------ | ---------- |
+| 1   | James River A/G, Ozark, MO                 | 15/4 | 3670 | 193.16 | 2020   | 106.32     |
+| 2   | Owasso First A/G, Owasso, OK               | 16/3 | 3770 | 198.42 | 1835   | 96.58      |
+| 3   | Cedar Park A/G #1, Bothell, WA             | 17/2 | 4580 | 241.05 | 2945   | 155        |
+| 4   | Bellevue Neighborhood Church, Bellevue, WA | 16/3 | 3330 | 175.26 | 1540   | 81.05      |
+| 5   | Spring First A/G, Spring, TX               | 14/5 | 2910 | 153.16 | 930    | 48.95      |
+| 6   | Pocono Community Church, Mt. Pocono, PA    | 11/8 | 2750 | 144.74 | 625    | 32.89      |
+| 7   | Cedar Park A/G #2, Bothell, WA             | 11/8 | 2635 | 138.68 | 185    | 9.74       |
+| 8   | New Life A/G, White Cloud, MI              | 10/9 | 2850 | 150    | 380    | 20         |
+| 9   | Central A/G, Springfield, MO               | 10/9 | 2175 | 114.47 | -500   | -26.32     |
+| 10  | Living Hope Worship Center, Swedesboro, NJ | 9/10 | 2135 | 112.37 | -380   | -20.26     |
+| 11  | Christian Temple, Houston, TX              | 9/10 | 1780 | 93.68  | -915   | -48.16     |
+| 12  | Highpointe Church, Oklahoma City, OK       | 8/11 | 2385 | 125.53 | -5     | -0.26      |
+| 13  | Living Hope Church, Colorado Springs, CO   | 8/11 | 1680 | 88.42  | -1005  | -52.89     |
+| 14  | Journey Church, Bridgeville, PA            | 7/12 | 1875 | 98.68  | -730   | -38.42     |
+| 15  | South Hills A/G, Bethel Park, PA           | 7/12 | 2065 | 108.68 | -270   | -14.21     |
+| 16  | First A/G, Muskogee, OK                    | 7/12 | 1515 | 79.74  | -1165  | -61.32     |
+| 17  | First A/G, Cedar Rapids, IA                | 7/12 | 1785 | 93.95  | -860   | -45.26     |
+| 18  | First Samoan A/G, Irvine, CA               | 4/15 | 2030 | 106.84 | -345   | -18.16     |
+| 19  | Vailsburg A/G, Newark, NJ                  | 3/16 | 995  | 52.37  | -2085  | -109.74    |
+| 20  | Toccoa A/G, Toccoa, GA                     | 1/18 | 1010 | 53.16  | -2195  | -115.53    |
 
 ### Individuals
+
+| Rank | Team                                          | W/L  | Pts  | Avg    | Margin | Avg Margin |
+| ---- | --------------------------------------------- | ---- | ---- | ------ | ------ | ---------- |
+| 1    | Evangel Church, Kansas City, MO               | 16/3 | 2695 | 141.84 | 1920   | 101.05     |
+| 2    | Bethany Church, Wyckoff, NJ                   | 15/4 | 2485 | 130.79 | 1055   | 55.53      |
+| 3    | Bethelem Church, Richmond Hill, NY            | 14/5 | 2205 | 116.05 | 815    | 42.89      |
+| 4    | Northfield Church, Gering, NE                 | 14/5 | 2495 | 131.32 | 540    | 28.42      |
+| 5    | Racine A/G, Racine, WI                        | 12/7 | 1730 | 91.05  | 380    | 20         |
+| 6    | Southgate Church, South Bend, IN              | 11/8 | 1980 | 104.21 | 515    | 27.11      |
+| 7    | Falls Church, Sioux Falls, SD                 | 11/8 | 1985 | 104.47 | -10    | -0.52      |
+| 8    | Lakeview Church, Indianapolis, IN             | 10/9 | 1760 | 92.63  | 70     | 3.68       |
+| 9    | Victorious Life Church, Wesley Chapel, FL     | 9/10 | 1030 | 54.21  | -615   | -32.37     |
+| 10   | Tacoma Life Church, Tacoma, WA                | 9/10 | 1735 | 91.32  | -315   | -16.58     |
+| 11   | First A/G, East Lansing, MI                   | 9/10 | 1125 | 59.21  | -220   | -11.58     |
+| 12   | Bethel A/G, Rapid City, SD                    | 9/10 | 1950 | 102.63 | 230    | 12.11      |
+| 13   | First A/G, Lexington, KY                      | 9/10 | 1385 | 72.89  | -245   | -12.89     |
+| 14   | Newport Mesa Church, Costa Mesa, CA           | 9/10 | 1525 | 80.26  | -140   | -7.37      |
+| 15   | Evangel Community Church, Snellville, GA      | 8/11 | 940  | 49.47  | -620   | -32.63     |
+| 16   | Knox City A/G, Knox City, MO                  | 8/11 | 1475 | 77.63  | -55    | -2.89      |
+| 17   | The Church at Briargate, Colorado Springs, CO | 5/14 | 1215 | 63.95  | -660   | -34.74     |
+| 18   | New Life Church, Renton, WA                   | 5/14 | 955  | 50.26  | -695   | -36.58     |
+| 19   | The Assembly, Warner Robins, GA               | 4/15 | 1165 | 61.32  | -695   | -36.58     |
+| 20   | North Valley A/G, Phoenix, AZ                 | 3/16 | 715  | 37.63  | -1255  | -66.05     |
 
 ## Challenger
 
