@@ -6,6 +6,8 @@ date: "2023-07-31"
 menubar: menu_history
 ---
 
+<img src="{% link assets/2023/TsJs.jpeg %}" alt="Cover Art" style="max-height:400px" />
+
 ## Nationals
 
 <a href="{% link _pages/history/2023/nationals.md %}" class="button is-primary">National Finals</a>
