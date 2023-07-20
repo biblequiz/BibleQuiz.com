@@ -15,6 +15,7 @@ menubar_toc_static:
 ## Championship
 
 ### Teams
+
 | #   | Team                                       | W/L  | Pts  | Avg    | Margin | Avg Margin |
 | --- | ------------------------------------------ | ---- | ---- | ------ | ------ | ---------- |
 | 1   | James River A/G, Ozark, MO                 | 15/4 | 3670 | 193.16 | 2020   | 106.32     |
