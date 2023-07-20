@@ -19,25 +19,25 @@ menubar_toc_static:
 | #  | Team                 | Church                 | W/L  | Total | Avg    |
 |---:|----------------------|------------------------|------|------:|-------:|
 | 1  | \*Naperville, IL (C) | Calvary Church         | 17/2 | 3730  | 196.32 |
-| 2  | Naperville, IL (M)   | Calvary Church         | 16/3 | 3755  | 197.63 |
-| 3  | Naperville, IL (S)   | Calvary Church         | 15/4 | 3565  | 187.63 |
-| 4  | Naperville, IL (D)   | Calvary Church         | 14/5 | 3350  | 176.32 |
-| 5  | New Albany, OH       | One Church             | 13/6 | 3325  | 175.00 |
-| 6  | Warren, MI           | International A/G      | 12/7 | 3265  | 171.84 |
-| 7  | \*Akron, OH          | Celebration Church     | 11/8 | 2975  | 156.58 |
-| 8  | \*East Lansing, MI   | 1st A/G of Gr. Lansing | 10/9 | 2975  | 156.58 |
-| 9  | \*Versailles, KY     | King's Way A/G         | 10/9 | 2850  | 150.00 |
-| 10 | Ravenna, OH          | Ravenna A/G            | 9/10 | 2585  | 136.05 |
-| 11 | Bowling Green, OH    | Dayspring A/G          | 8/11 | 2995  | 157.63 |
-| 12 | Novi, MI             | Brightmoor Christian   | 8/11 | 2685  | 141.32 |
-| 13 | Lexington, KY        | Lexington First        | 8/11 | 2490  | 131.05 |
-| 14 | Columbiaville, MI    | Columbiaville A/G      | 8/11 | 2435  | 128.16 |
-| 15 | \*Fortville, IN      | New Life               | 7/12 | 2530  | 133.16 |
-| 16 | Georgetown, KY       | Trinity A/G            | 7/12 | 2595  | 136.58 |
-| 17 | Fort Wayne, IN (FF)  | 1st A/G                | 6/13 | 2140  | 112.63 |
-| 18 | Fort Wayne, IN (SS)  | 1st A/G                | 5/14 | 2240  | 117.89 |
-| 19 | Louisville, KY       | Trinity Chapel A/G     | 5/14 | 1940  | 102.11 |
-| 20 | Muncie, IN           | Glad Tidings Church    | 1/18 | 1610  | 84.74  |
+| 2  | Naperville, IL (M)   | Calvary Church         | 16 / 3 | 3755  | 197.63 |
+| 3  | Naperville, IL (S)   | Calvary Church         | 15 / 4 | 3565  | 187.63 |
+| 4  | Naperville, IL (D)   | Calvary Church         | 14 / 5 | 3350  | 176.32 |
+| 5  | New Albany, OH       | One Church             | 13 / 6 | 3325  | 175.00 |
+| 6  | Warren, MI           | International A/G      | 12 / 7 | 3265  | 171.84 |
+| 7  | \*Akron, OH          | Celebration Church     | 11 / 8 | 2975  | 156.58 |
+| 8  | \*East Lansing, MI   | 1st A/G of Gr. Lansing | 10 / 9 | 2975  | 156.58 |
+| 9  | \*Versailles, KY     | King's Way A/G         | 10 / 9 | 2850  | 150.00 |
+| 10 | Ravenna, OH          | Ravenna A/G            | 9 / 10 | 2585  | 136.05 |
+| 11 | Bowling Green, OH    | Dayspring A/G          | 8 / 11 | 2995  | 157.63 |
+| 12 | Novi, MI             | Brightmoor Christian   | 8 / 11 | 2685  | 141.32 |
+| 13 | Lexington, KY        | Lexington First        | 8 / 11 | 2490  | 131.05 |
+| 14 | Columbiaville, MI    | Columbiaville A/G      | 8 / 11 | 2435  | 128.16 |
+| 15 | \*Fortville, IN      | New Life               | 7 / 12 | 2530  | 133.16 |
+| 16 | Georgetown, KY       | Trinity A/G            | 7 / 12 | 2595  | 136.58 |
+| 17 | Fort Wayne, IN (FF)  | 1st A/G                | 6 / 13 | 2140  | 112.63 |
+| 18 | Fort Wayne, IN (SS)  | 1st A/G                | 5 / 14 | 2240  | 117.89 |
+| 19 | Louisville, KY       | Trinity Chapel A/G     | 5 / 14 | 1940  | 102.11 |
+| 20 | Muncie, IN           | Glad Tidings Church    | 1 / 18 | 1610  | 84.74  |
 
 ## Individuals
 

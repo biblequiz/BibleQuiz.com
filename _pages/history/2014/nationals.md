@@ -19,25 +19,25 @@ menubar_toc_static:
 | #  | Team                            | Church                       | W/L    | Total | AVG    |
 |----|---------------------------------|------------------------------|--------|-------|--------|
 | 1  | "Bothell WA "The A Team"        | Cedar Park Assembly          | 17/2   | 4265  | 224.47 |
-| 2  | "Ozark MO "Blazing Fire"        | James River Assembly         | 16/3   | 3285  | 172.89 |
-| 3  | Muskogee OK                     | First AG                     | 14/5   | 3150  | 165.79 |
-| 4  | Bellevue WA                     | Bellevue Neighborhood Church | 14/5   | 2730  | 143.68 |
-| 5  | Spring TX                       | Spring First AG              | 7-Dec  | 2895  | 152.37 |
-| 6  | Upper St Clair PA               | New Day AG                   | 8-Nov  | 2445  | 128.68 |
-| 7  | Mt Pocono PA                    | Pocono Community Church      | 8-Nov  | 2315  | 121.84 |
-| 8  | "Ozark MO "Awake and Sober"     | James River Assembly         | 8-Nov  | 2175  | 114.47 |
-| 9  | "Bothell WA "Keep Your Head"    | Cedar Park Assembly          | 9-Oct  | 2125  | 111.84 |
-| 10 | Wyckoff NJ                      | Bethany Church               | 10-Sep | 2505  | 131.84 |
-| 11 | Binghamton NY                   | First AG                     | 11-Aug | 2265  | 119.21 |
-| 12 | Deposit NY                      | Maple Lane AG                | 11-Aug | 2040  | 107.37 |
-| 13 | Houston TX Braeswood            | Braeswood Assembly           | 11-Aug | 1600  | 84.21  |
-| 14 | Kansas City MO                  | Evangel Church               | 12-Jul | 1620  | 85.26  |
-| 15 | Swedesboro NJ                   | Living Hope Worship Center   | 12-Jul | 1615  | 85     |
-| 16 | Phoenix AZ                      | North Valley AG              | 12-Jul | 1600  | 84.21  |
-| 17 | Ft Worth TX                     | Harvest Assembly             | 12-Jul | 1275  | 67.11  |
-| 18 | Noble OK                        | Noble AG                     | 13-Jun | 1605  | 84.47  |
-| 19 | Cedar Rapids IA                 | First AG                     | 14-May | 1460  | 76.84  |
-| 20 | Scottsdale AZ                   | North Scottsdale Christian   | 17-Feb | 1070  | 56.32  |
+| 2  | "Ozark MO "Blazing Fire"        | James River Assembly         | 16 / 3   | 3285  | 172.89 |
+| 3  | Muskogee OK                     | First AG                     | 14 / 5   | 3150  | 165.79 |
+| 4  | Bellevue WA                     | Bellevue Neighborhood Church | 14 / 5   | 2730  | 143.68 |
+| 5  | Spring TX                       | Spring First AG              | 12 / 7  | 2895  | 152.37 |
+| 6  | Upper St Clair PA               | New Day AG                   | 11 / 8  | 2445  | 128.68 |
+| 7  | Mt Pocono PA                    | Pocono Community Church      | 11 / 8  | 2315  | 121.84 |
+| 8  | "Ozark MO "Awake and Sober"     | James River Assembly         | 11 / 8  | 2175  | 114.47 |
+| 9  | "Bothell WA "Keep Your Head"    | Cedar Park Assembly          | 10 / 9  | 2125  | 111.84 |
+| 10 | Wyckoff NJ                      | Bethany Church               | 9 / 10 | 2505  | 131.84 |
+| 11 | Binghamton NY                   | First AG                     | 8 / 11 | 2265  | 119.21 |
+| 12 | Deposit NY                      | Maple Lane AG                | 8 / 11 | 2040  | 107.37 |
+| 13 | Houston TX Braeswood            | Braeswood Assembly           | 8 / 11 | 1600  | 84.21  |
+| 14 | Kansas City MO                  | Evangel Church               | 7 / 12 | 1620  | 85.26  |
+| 15 | Swedesboro NJ                   | Living Hope Worship Center   | 7 / 12 | 1615  | 85     |
+| 16 | Phoenix AZ                      | North Valley AG              | 7 / 12 | 1600  | 84.21  |
+| 17 | Ft Worth TX                     | Harvest Assembly             | 7 / 12 | 1275  | 67.11  |
+| 18 | Noble OK                        | Noble AG                     | 6 / 13 | 1605  | 84.47  |
+| 19 | Cedar Rapids IA                 | First AG                     | 5 / 14 | 1460  | 76.84  |
+| 20 | Scottsdale AZ                   | North Scottsdale Christian   | 2 / 17 | 1070  | 56.32  |
 
 ### Individuals
 
@@ -128,26 +128,26 @@ menubar_toc_static:
 
 | #  | Team                   | Church                       | W/L    | Total | AVG    |
 |----|------------------------|------------------------------|--------|-------|--------|
-| 1  | Richmond Hill NY       | Bethlehem Church             | 16/3   | 2395  | 126.05 |
-| 2  | Toccoa GA              | Toccoa AG                    | 14/5   | 1905  | 100.26 |
-| 3  | Bowie MD               | Cornerstone Church           | 14/5   | 2255  | 118.68 |
-| 4  | Lexington KY           | First AG                     | 13/6   | 1885  | 99.21  |
-| 5  | Garfield NJ            | Praise AG                    | 13/6   | 2260  | 118.95 |
-| 6  | Rapid City SD          | Bethel AG                    | 7-Dec  | 2110  | 111.05 |
-| 7  | Grant MI               | Grant AG                     | 7-Dec  | 1905  | 100.26 |
-| 8  | Mechanicsville VA      | Mechanicsville Christian Ctr | 8-Nov  | 1805  | 95     |
-| 9  | Gering NE              | Northfield Church            | 8-Nov  | 2050  | 107.89 |
-| 10 | Indianapolis IN        | Lakeview Church              | 9-Oct  | 1845  | 97.11  |
-| 11 | Wesley Chapel FL       | Victorious Life Church       | 10-Sep | 1840  | 96.84  |
-| 12 | Houston TX Chr. Temple | Christian Temple             | 10-Sep | 1680  | 88.42  |
-| 13 | South Bend IN          | Southgate Church             | 10-Sep | 1125  | 59.21  |
-| 14 | Tacoma WA              | Life Center                  | 12-Jul | 1515  | 79.74  |
-| 15 | Springfield MO         | King's Chapel                | 12-Jul | 1195  | 62.89  |
-| 16 | East Lansing MI        | First AG                     | 12-Jul | 1140  | 60     |
-| 17 | Warner Robins GA       | The Assembly                 | 13-Jun | 930   | 48.95  |
-| 18 | Georgetown KY          | Trinity AG                   | 14-May | 1150  | 60.53  |
-| 19 | Ft Lauderdale FL       | Christian Life Center        | 16-Mar | 935   | 49.21  |
-| 20 | Plymouth WI            | Christian Life               | 17-Feb | 550   | 28.95  |
+| 1  | Richmond Hill NY       | Bethlehem Church             | 16 / 3   | 2395  | 126.05 |
+| 2  | Toccoa GA              | Toccoa AG                    | 14 / 5   | 1905  | 100.26 |
+| 3  | Bowie MD               | Cornerstone Church           | 14 / 5   | 2255  | 118.68 |
+| 4  | Lexington KY           | First AG                     | 13 / 6   | 1885  | 99.21  |
+| 5  | Garfield NJ            | Praise AG                    | 13 / 6   | 2260  | 118.95 |
+| 6  | Rapid City SD          | Bethel AG                    | 12 / 7  | 2110  | 111.05 |
+| 7  | Grant MI               | Grant AG                     | 12 / 7  | 1905  | 100.26 |
+| 8  | Mechanicsville VA      | Mechanicsville Christian Ctr | 11 / 8  | 1805  | 95     |
+| 9  | Gering NE              | Northfield Church            | 11 / 8  | 2050  | 107.89 |
+| 10 | Indianapolis IN        | Lakeview Church              | 10 / 9  | 1845  | 97.11  |
+| 11 | Wesley Chapel FL       | Victorious Life Church       | 9 / 10 | 1840  | 96.84  |
+| 12 | Houston TX Chr. Temple | Christian Temple             | 9 / 10 | 1680  | 88.42  |
+| 13 | South Bend IN          | Southgate Church             | 9 / 10 | 1125  | 59.21  |
+| 14 | Tacoma WA              | Life Center                  | 7 / 12 | 1515  | 79.74  |
+| 15 | Springfield MO         | King's Chapel                | 7 / 12 | 1195  | 62.89  |
+| 16 | East Lansing MI        | First AG                     | 7 / 12 | 1140  | 60     |
+| 17 | Warner Robins GA       | The Assembly                 | 6 / 13 | 930   | 48.95  |
+| 18 | Georgetown KY          | Trinity AG                   | 5 / 14 | 1150  | 60.53  |
+| 19 | Ft Lauderdale FL       | Christian Life Center        | 3 / 16 | 935   | 49.21  |
+| 20 | Plymouth WI            | Christian Life               | 2 / 17 | 550   | 28.95  |
 
 ### Individuals
 

@@ -21,23 +21,23 @@ menubar_toc_static:
 | 1  | Bothell, WA- Carry On       | Cedar Park A/G             | 18/1   | 4780  | 251.58 |
 | 2  | Ozark, MO- On Fire          | James River Church         | 18/1   | 4180  | 220    |
 | 3  | Deposit, NY                 | Maple Lane A/G             | 17/2   | 3305  | 173.95 |
-| 4  | Swedesboro, NJ              | Living Hope Worship Center | 14/5   | 2875  | 151.32 |
-| 5  | Upper St. Clair, PA         | New Day A/G                | 14/5   | 3055  | 160.79 |
-| 6  | Muskogee, OK - Spain        | 1st A/G                    | 7-Dec  | 3050  | 160.53 |
-| 7  | Bellevue, WA                | Neighborhood Church        | 8-Nov  | 2235  | 117.63 |
-| 8  | Ozark, MO- Zeal             | James River Church         | 8-Nov  | 2700  | 142.11 |
-| 9  | Wyckoff, NJ                 | Bethany Church             | 9-Oct  | 2810  | 147.89 |
-| 10 | Muskogee, OK - Moths        | 1st A/G                    | 10-Sep | 1905  | 100.26 |
-| 11 | Sioux Falls, SD             | 1st A/G                    | 10-Sep | 2395  | 126.05 |
-| 12 | Scottsdale, AZ- God's Girls | North Scottsdale Christian | 11-Aug | 2215  | 116.58 |
-| 13 | Phoenix, AZ                 | North Valley A/G           | 11-Aug | 2115  | 111.32 |
-| 14 | Kansas City, MO             | Evangel Church             | 11-Aug | 1675  | 88.16  |
-| 15 | Newport, PA                 | Newport A/G                | 13-Jun | 1740  | 91.58  |
-| 16 | Newark, NJ                  | Vailsburg A/G              | 14-May | 1415  | 74.47  |
-| 17 | Springfield, MO             | King's Chapel              | 15-Apr | 1125  | 59.21  |
-| 18 | Sarver, PA                  | Evangel Heights A/G        | 15-Apr | 1450  | 76.32  |
-| 19 | Dublin, OH                  | Radiant Life Church        | 17-Feb | 1080  | 56.84  |
-| 20 | Costa Mesa, CA              | Newport Mesa Church        | 17-Feb | 1315  | 69.21  |
+| 4  | Swedesboro, NJ              | Living Hope Worship Center | 14 / 5   | 2875  | 151.32 |
+| 5  | Upper St. Clair, PA         | New Day A/G                | 14 / 5   | 3055  | 160.79 |
+| 6  | Muskogee, OK - Spain        | 1st A/G                    | 12 / 7  | 3050  | 160.53 |
+| 7  | Bellevue, WA                | Neighborhood Church        | 11 / 8  | 2235  | 117.63 |
+| 8  | Ozark, MO- Zeal             | James River Church         | 11 / 8  | 2700  | 142.11 |
+| 9  | Wyckoff, NJ                 | Bethany Church             | 10 / 9  | 2810  | 147.89 |
+| 10 | Muskogee, OK - Moths        | 1st A/G                    | 9 / 10 | 1905  | 100.26 |
+| 11 | Sioux Falls, SD             | 1st A/G                    | 9 / 10 | 2395  | 126.05 |
+| 12 | Scottsdale, AZ- God's Girls | North Scottsdale Christian | 8 / 11 | 2215  | 116.58 |
+| 13 | Phoenix, AZ                 | North Valley A/G           | 8 / 11 | 2115  | 111.32 |
+| 14 | Kansas City, MO             | Evangel Church             | 8 / 11 | 1675  | 88.16  |
+| 15 | Newport, PA                 | Newport A/G                | 6 / 13 | 1740  | 91.58  |
+| 16 | Newark, NJ                  | Vailsburg A/G              | 5 / 14 | 1415  | 74.47  |
+| 17 | Springfield, MO             | King's Chapel              | 4 / 15 | 1125  | 59.21  |
+| 18 | Sarver, PA                  | Evangel Heights A/G        | 4 / 15 | 1450  | 76.32  |
+| 19 | Dublin, OH                  | Radiant Life Church        | 2 / 17 | 1080  | 56.84  |
+| 20 | Costa Mesa, CA              | Newport Mesa Church        | 2 / 17 | 1315  | 69.21  |
 
 ### Individuals
 
@@ -123,26 +123,26 @@ menubar_toc_static:
 
 | #  | Team                                 | Church                       | W/L    | Total | AVG    |
 |----|--------------------------------------|------------------------------|--------|-------|--------|
-| 1  | Lexington, KY                        | 1st A/G                      | 15/4   | 2415  | 127.11 |
-| 2  | Grant, MI                            | Grant A/G                    | 14/5   | 1980  | 104.21 |
-| 3  | Naperville, IL                       | Calvary Church               | 14/5   | 2355  | 123.95 |
-| 4  | Rapid City, SD                       | Bethel A/G                   | 13/6   | 2525  | 132.89 |
-| 5  | Cedar Hill, TX                       | Trinity Church               | 13/6   | 2335  | 122.89 |
-| 6  | Houston, TX (CT)                     | Christian Temple             | 13/6   | 2050  | 107.89 |
-| 7  | Bothell, WA- Zeal Knowledge          | Cedar Park A/G               | 8-Nov  | 2255  | 118.68 |
-| 8  | Houston, TX (Braeswood)              | Braeswood A/G                | 8-Nov  | 2155  | 113.42 |
-| 9  | Mechanicsville, VA                   | Christian Center             | 8-Nov  | 1475  | 77.63  |
-| 10 | East Lansing, MI                     | 1st A/G                      | 9-Oct  | 1775  | 93.42  |
-| 11 | Scottsdale, AZ- Brothers and Sisters | North Scottsdale Christian   | 9-Oct  | 1805  | 95     |
-| 12 | Tacoma, WA                           | Tacoma Life Center           | 11-Aug | 1950  | 102.63 |
-| 13 | Wesley Chapel, FL                    | Victorious Life Church       | 11-Aug | 1920  | 101.05 |
-| 14 | Orland Park, IL                      | Stone Church                 | 12-Jul | 1285  | 67.63  |
-| 15 | Bowie, MD                            | Cornerstone Church           | 13-Jun | 1335  | 70.26  |
-| 16 | Racine, WI                           | Racine A/G                   | 13-Jun | 1215  | 63.95  |
-| 17 | Jacksonville, FL                     | Freedom Christian Fellowship | 13-Jun | 1210  | 63.68  |
-| 18 | Greensboro, NC                       | Calvary Church               | 13-Jun | 1095  | 57.63  |
-| 19 | Bismarck, ND                         | Evangel Assembly             | 15-Apr | 815   | 42.89  |
-| 20 | Georgetown, KY                       | Trinity A/G                  | 15-Apr | 1145  | 60.26  |
+| 1  | Lexington, KY                        | 1st A/G                      | 15 / 4   | 2415  | 127.11 |
+| 2  | Grant, MI                            | Grant A/G                    | 14 / 5   | 1980  | 104.21 |
+| 3  | Naperville, IL                       | Calvary Church               | 14 / 5   | 2355  | 123.95 |
+| 4  | Rapid City, SD                       | Bethel A/G                   | 13 / 6   | 2525  | 132.89 |
+| 5  | Cedar Hill, TX                       | Trinity Church               | 13 / 6   | 2335  | 122.89 |
+| 6  | Houston, TX (CT)                     | Christian Temple             | 13 / 6   | 2050  | 107.89 |
+| 7  | Bothell, WA- Zeal Knowledge          | Cedar Park A/G               | 11 / 8  | 2255  | 118.68 |
+| 8  | Houston, TX (Braeswood)              | Braeswood A/G                | 11 / 8  | 2155  | 113.42 |
+| 9  | Mechanicsville, VA                   | Christian Center             | 11 / 8  | 1475  | 77.63  |
+| 10 | East Lansing, MI                     | 1st A/G                      | 10 / 9  | 1775  | 93.42  |
+| 11 | Scottsdale, AZ- Brothers and Sisters | North Scottsdale Christian   | 10 / 9  | 1805  | 95     |
+| 12 | Tacoma, WA                           | Tacoma Life Center           | 8 / 11 | 1950  | 102.63 |
+| 13 | Wesley Chapel, FL                    | Victorious Life Church       | 8 / 11 | 1920  | 101.05 |
+| 14 | Orland Park, IL                      | Stone Church                 | 7 / 12 | 1285  | 67.63  |
+| 15 | Bowie, MD                            | Cornerstone Church           | 6 / 13 | 1335  | 70.26  |
+| 16 | Racine, WI                           | Racine A/G                   | 6 / 13 | 1215  | 63.95  |
+| 17 | Jacksonville, FL                     | Freedom Christian Fellowship | 6 / 13 | 1210  | 63.68  |
+| 18 | Greensboro, NC                       | Calvary Church               | 6 / 13 | 1095  | 57.63  |
+| 19 | Bismarck, ND                         | Evangel Assembly             | 4 / 15 | 815   | 42.89  |
+| 20 | Georgetown, KY                       | Trinity A/G                  | 4 / 15 | 1145  | 60.26  |
 
 ### Individuals
 

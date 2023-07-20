@@ -19,25 +19,25 @@ menubar_toc_static:
 | #  | Team                   | Church                       | W/L  | Total | Avg    |
 |---:|------------------------|------------------------------|------|------:|-------:|
 | 1  | \* Naperville, IL (J)  | Calvary Church               | 18/1 | 4320  | 227.37 |
-| 2  | Yorkville, IL          | New Life Church              | 15/4 | 3405  | 179.21 |
-| 3  | Cincinnati, OH         | People's Church              | 13/6 | 3410  | 179.47 |
-| 4  | Lexington, KY          | Lexington A/G                | 13/6 | 3300  | 173.68 |
-| 5  | \* Louisville, KY      | Trinity Chapel A/G           | 13/6 | 3250  | 171.05 |
-| 6  | \* Gahanna, OH         | Pathway Church               | 13/6 | 3020  | 158.95 |
-| 7  | \* East Lansing, MI    | First A/G of Greater Lansing | 13/6 | 2835  | 149.21 |
-| 8  | Novi, MI               | Brightmoor Christian Church  | 11/8 | 2980  | 156.84 |
-| 9  | Sugar Grove, IL        | Calvary Church West          | 11/8 | 3285  | 172.89 |
-| 10 | Bowling Green, OH      | Dayspring A/G                | 10/9 | 3235  | 170.26 |
-| 11 | Louisville, OH         | Louisville A/G               | 10/9 | 2870  | 151.05 |
-| 12 | \* Fort Wayne, IN (FT) | First A/G                    | 10/9 | 2720  | 143.16 |
-| 13 | Naperville, IL (S)     | Calvary Church               | 9/10 | 2750  | 144.74 |
-| 14 | Columbiaville, MI      | Columbiaville A/G            | 8/11 | 2945  | 155.00 |
-| 15 | Terre Haute, IN        | Cross Tabernacle             | 7/12 | 2655  | 139.74 |
-| 16 | Brownstown, MI         | Woodland Church              | 6/13 | 2155  | 113.42 |
-| 17 | Fort Wayne, IN (AA)    | First A/G                    | 3/16 | 1675  | 88.16  |
-| 18 | Georgetown, KY         | Trinity A/G                  | 3/16 | 1755  | 92.37  |
-| 19 | Ellettsville, IN       | First A/G                    | 2/17 | 1885  | 99.21  |
-| 20 | Somerset, KY           | Victory Christian Fellowship | 2/17 | 1445  | 76.05  |
+| 2  | Yorkville, IL          | New Life Church              | 15 / 4 | 3405  | 179.21 |
+| 3  | Cincinnati, OH         | People's Church              | 13 / 6 | 3410  | 179.47 |
+| 4  | Lexington, KY          | Lexington A/G                | 13 / 6 | 3300  | 173.68 |
+| 5  | \* Louisville, KY      | Trinity Chapel A/G           | 13 / 6 | 3250  | 171.05 |
+| 6  | \* Gahanna, OH         | Pathway Church               | 13 / 6 | 3020  | 158.95 |
+| 7  | \* East Lansing, MI    | First A/G of Greater Lansing | 13 / 6 | 2835  | 149.21 |
+| 8  | Novi, MI               | Brightmoor Christian Church  | 11 / 8 | 2980  | 156.84 |
+| 9  | Sugar Grove, IL        | Calvary Church West          | 11 / 8 | 3285  | 172.89 |
+| 10 | Bowling Green, OH      | Dayspring A/G                | 10 / 9 | 3235  | 170.26 |
+| 11 | Louisville, OH         | Louisville A/G               | 10 / 9 | 2870  | 151.05 |
+| 12 | \* Fort Wayne, IN (FT) | First A/G                    | 10 / 9 | 2720  | 143.16 |
+| 13 | Naperville, IL (S)     | Calvary Church               | 9 / 10 | 2750  | 144.74 |
+| 14 | Columbiaville, MI      | Columbiaville A/G            | 8 / 11 | 2945  | 155.00 |
+| 15 | Terre Haute, IN        | Cross Tabernacle             | 7 / 12 | 2655  | 139.74 |
+| 16 | Brownstown, MI         | Woodland Church              | 6 / 13 | 2155  | 113.42 |
+| 17 | Fort Wayne, IN (AA)    | First A/G                    | 3 / 16 | 1675  | 88.16  |
+| 18 | Georgetown, KY         | Trinity A/G                  | 3 / 16 | 1755  | 92.37  |
+| 19 | Ellettsville, IN       | First A/G                    | 2 / 17 | 1885  | 99.21  |
+| 20 | Somerset, KY           | Victory Christian Fellowship | 2 / 17 | 1445  | 76.05  |
 
 ## Individuals
 

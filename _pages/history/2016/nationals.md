@@ -18,26 +18,26 @@ menubar_toc_static:
 
 | #  | Team                                        | Church             | W/L    | Total | AVG    |
 |----|---------------------------------------------|--------------------|--------|-------|--------|
-| 1  | New Day AG - Finish the Race                | Upper St Clair, PA | 16/3   | 3300  | 173.68 |
-| 2  | Maple Lane AG - The Northeaster             | Deposit, NY        | 16/3   | 3575  | 188.16 |
-| 3  | JRC - Driving You Insane                    | Ozark, MO          | 16/3   | 3150  | 165.79 |
-| 4  | Cedar Park - Savage Northwest SIRS          | Bothell, WA        | 16/3   | 2595  | 136.58 |
-| 5  | Community Church (PA)                       | Mt Pocono, PA      | 14/5   | 2725  | 143.42 |
-| 6  | Newport AG - Eunuch-Corns                   | Newport, PA        | 7-Dec  | 2125  | 111.84 |
-| 7  | Calvary Church (IL)                         | Naperville, IL     | 8-Nov  | 2560  | 134.74 |
-| 8  | First AG (OK)                               | Muskogee, OK       | 9-Oct  | 2135  | 112.37 |
-| 9  | Living Hope - Acts 24/7                     | Swedesboro, NJ     | 9-Oct  | 1905  | 100.26 |
-| 10 | JRC - One in Heart and Mind                 | Ozark, MO          | 9-Oct  | 1825  | 96.05  |
-| 11 | Bethel AG - The Rest of Mankind             | Rapid City, SD     | 10-Sep | 2025  | 106.58 |
-| 12 | North Valley AG - Syracuse to Phoenix       | Phoenix, AZ        | 11-Aug | 2005  | 105.53 |
-| 13 | Grant AG - Too Much Whine                   | Grant, MI          | 12-Jul | 1785  | 93.95  |
-| 14 | Tacoma Life - Without Hindrance             | Tacoma, WA         | 13-Jun | 1820  | 95.79  |
-| 15 | Victorious Life - We Are His Offspring      | Wesley Chapel, FL  | 13-Jun | 1640  | 86.32  |
-| 16 | First AG - God-Fearing Geeks                | Lexington, KY      | 13-Jun | 1625  | 85.53  |
-| 17 | Trinity Church (TX)                         | Cedar Hill, TX     | 13-Jun | 1170  | 61.58  |
-| 18 | MCC - The Overlooked                        | Mechanicsville, VA | 14-May | 990   | 52.11  |
-| 19 | Evangel Heights AG - You Be The Judges      | Sarver, PA         | 16-Mar | 1020  | 53.68  |
-| 20 | Evangel Temple - May Another Take His Place | Springfield, MO    | 16-Mar | 955   | 50.26  |
+| 1  | New Day AG - Finish the Race                | Upper St Clair, PA | 16 / 3   | 3300  | 173.68 |
+| 2  | Maple Lane AG - The Northeaster             | Deposit, NY        | 16 / 3   | 3575  | 188.16 |
+| 3  | JRC - Driving You Insane                    | Ozark, MO          | 16 / 3   | 3150  | 165.79 |
+| 4  | Cedar Park - Savage Northwest SIRS          | Bothell, WA        | 16 / 3   | 2595  | 136.58 |
+| 5  | Community Church (PA)                       | Mt Pocono, PA      | 14 / 5   | 2725  | 143.42 |
+| 6  | Newport AG - Eunuch-Corns                   | Newport, PA        | 12 / 7  | 2125  | 111.84 |
+| 7  | Calvary Church (IL)                         | Naperville, IL     | 11 / 8  | 2560  | 134.74 |
+| 8  | First AG (OK)                               | Muskogee, OK       | 10 / 9  | 2135  | 112.37 |
+| 9  | Living Hope - Acts 24/7                     | Swedesboro, NJ     | 10 / 9  | 1905  | 100.26 |
+| 10 | JRC - One in Heart and Mind                 | Ozark, MO          | 10 / 9  | 1825  | 96.05  |
+| 11 | Bethel AG - The Rest of Mankind             | Rapid City, SD     | 9 / 10 | 2025  | 106.58 |
+| 12 | North Valley AG - Syracuse to Phoenix       | Phoenix, AZ        | 8 / 11 | 2005  | 105.53 |
+| 13 | Grant AG - Too Much Whine                   | Grant, MI          | 7 / 12 | 1785  | 93.95  |
+| 14 | Tacoma Life - Without Hindrance             | Tacoma, WA         | 6 / 13 | 1820  | 95.79  |
+| 15 | Victorious Life - We Are His Offspring      | Wesley Chapel, FL  | 6 / 13 | 1640  | 86.32  |
+| 16 | First AG - God-Fearing Geeks                | Lexington, KY      | 6 / 13 | 1625  | 85.53  |
+| 17 | Trinity Church (TX)                         | Cedar Hill, TX     | 6 / 13 | 1170  | 61.58  |
+| 18 | MCC - The Overlooked                        | Mechanicsville, VA | 5 / 14 | 990   | 52.11  |
+| 19 | Evangel Heights AG - You Be The Judges      | Sarver, PA         | 3 / 16 | 1020  | 53.68  |
+| 20 | Evangel Temple - May Another Take His Place | Springfield, MO    | 3 / 16 | 955   | 50.26  |
 
 ### Individuals
 
@@ -123,24 +123,24 @@ menubar_toc_static:
 |----|-----------------------------------------|------------------|--------|-------|--------|
 | 1  | Cedar Park - That's Debatable           | Bothell, WA      | 18/1   | 2505  | 131.84 |
 | 2  | Bethany Church - Epic and Stoic         | Wyckoff, NJ      | 17/2   | 2405  | 126.58 |
-| 3  | First AG (MO)                           | Lee's Summit, MO | 16/3   | 2730  | 143.68 |
-| 4  | First AG - It's Whom!                   | East Lansing, MI | 15/4   | 2270  | 119.47 |
-| 5  | Trinity AG - The Other Team             | Georgetown, KY   | 14/5   | 2325  | 122.37 |
-| 6  | The Oaks (TX)                           | Red Oak, TX      | 13/6   | 1880  | 98.95  |
-| 7  | Stone Church - Unusual Kindness         | Orland Park, IL  | 13/6   | 2290  | 120.53 |
-| 8  | Calvary Church - Why Do You Stare At Us | Greensboro, NC   | 8-Nov  | 1700  | 89.47  |
-| 9  | Neighborhood Church - Grief to Joy      | Bellevue, WA     | 9-Oct  | 1365  | 71.84  |
-| 10 | Memorial AG (OK)                        | Purcell, OK      | 9-Oct  | 1665  | 87.63  |
-| 11 | First AG - Rhoda's Joy                  | Sioux Falls, SD  | 10-Sep | 1615  | 85     |
-| 12 | Atlanta Tamil Church - ATC ARMY         | Norcross, GA     | 11-Aug | 1370  | 72.11  |
-| 13 | Calvary Church - Ninjas of The Word     | Sugar Grove, IL  | 11-Aug | 1330  | 70     |
-| 14 | Christian Temple - Shifting Shadows     | Houston, TX      | 11-Aug | 1070  | 56.32  |
-| 15 | Fountain of Life - Shipwreck Survivors  | Burlington, NJ   | 14-May | 770   | 40.53  |
-| 16 | Metuchen AG - Damascus Road             | Metuchen , NJ    | 14-May | 935   | 49.21  |
-| 17 | Crossroads AG (NE)                      | Valentine, NE    | 15-Apr | 480   | 25.26  |
-| 18 | Victory International - Acts Pack       | Brookfield, WI   | 16-Mar | 485   | 25.53  |
-| 19 | Calvary AG - Not Drunk, As You Suppose  | Elkhart, IN      | 17-Feb | 515   | 27.11  |
-| 20 | Covenant Life - Timothy & Tabitha       | Cary, NC         | 18-Jan | 290   | 15.26  |
+| 3  | First AG (MO)                           | Lee's Summit, MO | 16 / 3   | 2730  | 143.68 |
+| 4  | First AG - It's Whom!                   | East Lansing, MI | 15 / 4   | 2270  | 119.47 |
+| 5  | Trinity AG - The Other Team             | Georgetown, KY   | 14 / 5   | 2325  | 122.37 |
+| 6  | The Oaks (TX)                           | Red Oak, TX      | 13 / 6   | 1880  | 98.95  |
+| 7  | Stone Church - Unusual Kindness         | Orland Park, IL  | 13 / 6   | 2290  | 120.53 |
+| 8  | Calvary Church - Why Do You Stare At Us | Greensboro, NC   | 11 / 8  | 1700  | 89.47  |
+| 9  | Neighborhood Church - Grief to Joy      | Bellevue, WA     | 10 / 9  | 1365  | 71.84  |
+| 10 | Memorial AG (OK)                        | Purcell, OK      | 10 / 9  | 1665  | 87.63  |
+| 11 | First AG - Rhoda's Joy                  | Sioux Falls, SD  | 9 / 10 | 1615  | 85     |
+| 12 | Atlanta Tamil Church - ATC ARMY         | Norcross, GA     | 8 / 11 | 1370  | 72.11  |
+| 13 | Calvary Church - Ninjas of The Word     | Sugar Grove, IL  | 8 / 11 | 1330  | 70     |
+| 14 | Christian Temple - Shifting Shadows     | Houston, TX      | 8 / 11 | 1070  | 56.32  |
+| 15 | Fountain of Life - Shipwreck Survivors  | Burlington, NJ   | 5 / 14 | 770   | 40.53  |
+| 16 | Metuchen AG - Damascus Road             | Metuchen , NJ    | 5 / 14 | 935   | 49.21  |
+| 17 | Crossroads AG (NE)                      | Valentine, NE    | 4 / 15 | 480   | 25.26  |
+| 18 | Victory International - Acts Pack       | Brookfield, WI   | 3 / 16 | 485   | 25.53  |
+| 19 | Calvary AG - Not Drunk, As You Suppose  | Elkhart, IN      | 2 / 17 | 515   | 27.11  |
+| 20 | Covenant Life - Timothy & Tabitha       | Cary, NC         | 1 / 18 | 290   | 15.26  |
 
 ### Individuals
 

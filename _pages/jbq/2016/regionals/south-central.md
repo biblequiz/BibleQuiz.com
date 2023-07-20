@@ -18,25 +18,25 @@ menubar_toc_static:
 
 | #  | Team                     | Church                 | W/L  | Total | Avg    |
 |---:|--------------------------|------------------------|------|------:|-------:|
-| 1  | Tribulation Force        | The Oaks Fellowship    | 15/4 | 3650  | 192.11 |
-| 2  | Transformed              | First @ Firewheel      | 15/4 | 3635  | 191.32 |
-| 3  | Heart of a Lion \*       | Angleton First         | 15/4 | 3490  | 183.68 |
-| 4  | The Chosen Ones          | Houston + Braeswood AG | 14/5 | 3350  | 176.32 |
-| 5  | Mighty Minions           | Trinity church         | 14/5 | 3460  | 182.11 |
-| 6  | Quadruple threat         | Trinity church         | 13/6 | 3115  | 163.95 |
-| 7  | Wind of the Word         | Lakeshore Church       | 12/7 | 3285  | 172.89 |
-| 8  | Army of God              | Mountain Creek Church  | 11/8 | 3390  | 178.42 |
-| 9  | God\'s Girls \*          | Oswego AG              | 11/8 | 3075  | 161.84 |
-| 10 | Blood Bought Brothers \* | The Bridge AG          | 11/8 | 2885  | 151.84 |
-| 11 | Glow Kids                | San Antonio 1st AG     | 11/8 | 2845  | 149.74 |
-| 12 | Undignified \*           | 1st AG                 | 10/9 | 3075  | 161.84 |
-| 13 | The Overcomers           | Houston + Braeswood AG | 9/10 | 2710  | 142.63 |
-| 14 | Humble Heros             | Humble 1st AG          | 8/11 | 2555  | 134.47 |
-| 15 | Expert Witnesses         | Freedom Life Church    | 7/12 | 2040  | 107.37 |
-| 16 | God\'s Masterpieces      | Emporia Life Church    | 5/14 | 2110  | 111.05 |
-| 17 | KC Quizzers              | Overland Park 1st AG   | 4/15 | 1695  | 89.21  |
-| 18 | Bible Coalition          | Woodlake Church        | 3/16 | 1920  | 101.05 |
-| 19 | Bible Warriors           | Great Bend 1st AG      | 2/17 | 1810  | 95.26  |
+| 1  | Tribulation Force        | The Oaks Fellowship    | 15 / 4 | 3650  | 192.11 |
+| 2  | Transformed              | First @ Firewheel      | 15 / 4 | 3635  | 191.32 |
+| 3  | Heart of a Lion \*       | Angleton First         | 15 / 4 | 3490  | 183.68 |
+| 4  | The Chosen Ones          | Houston + Braeswood AG | 14 / 5 | 3350  | 176.32 |
+| 5  | Mighty Minions           | Trinity church         | 14 / 5 | 3460  | 182.11 |
+| 6  | Quadruple threat         | Trinity church         | 13 / 6 | 3115  | 163.95 |
+| 7  | Wind of the Word         | Lakeshore Church       | 12 / 7 | 3285  | 172.89 |
+| 8  | Army of God              | Mountain Creek Church  | 11 / 8 | 3390  | 178.42 |
+| 9  | God\'s Girls \*          | Oswego AG              | 11 / 8 | 3075  | 161.84 |
+| 10 | Blood Bought Brothers \* | The Bridge AG          | 11 / 8 | 2885  | 151.84 |
+| 11 | Glow Kids                | San Antonio 1st AG     | 11 / 8 | 2845  | 149.74 |
+| 12 | Undignified \*           | 1st AG                 | 10 / 9 | 3075  | 161.84 |
+| 13 | The Overcomers           | Houston + Braeswood AG | 9 / 10 | 2710  | 142.63 |
+| 14 | Humble Heros             | Humble 1st AG          | 8 / 11 | 2555  | 134.47 |
+| 15 | Expert Witnesses         | Freedom Life Church    | 7 / 12 | 2040  | 107.37 |
+| 16 | God\'s Masterpieces      | Emporia Life Church    | 5 / 14 | 2110  | 111.05 |
+| 17 | KC Quizzers              | Overland Park 1st AG   | 4 / 15 | 1695  | 89.21  |
+| 18 | Bible Coalition          | Woodlake Church        | 3 / 16 | 1920  | 101.05 |
+| 19 | Bible Warriors           | Great Bend 1st AG      | 2 / 17 | 1810  | 95.26  |
 | 20 | Hope\'s Responders       | New Hope AG            | 0/19 | 550   | 28.95  |
 
 ## Individuals
