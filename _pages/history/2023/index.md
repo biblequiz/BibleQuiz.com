@@ -27,3 +27,9 @@ menubar: menu_history
 ## Other Competitions
 
 {% include events-season.html type="tbq" year="2023" scope="other" source="imported" %}
+
+## Rule changes
+
+<a href="{% link _pages/question-examples-under-proposed-rule-changes.md %}" class="button is-primary">Question examples under new rules</a>
+
+<a href="{% link _pages/why-the-reference-question-is-changing.md %}" class="button is-primary">Why the reference question is changing</a>
