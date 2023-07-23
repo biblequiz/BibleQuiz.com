@@ -20,6 +20,23 @@ Recommended for all teams competing at League Meets.
 
 * * *
 
+## Digital Bundle - $120
+
+A bundle of all the below resources in a single package. 
+
+The Digital Bundle includes:
+
+- Basic Five
+- League Practice Questions
+- Contender Practice Questions
+- Study Guide
+
+Duplication allowed within a single church. 
+
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2023-2024/TBQ_Bundle_Romans_James_2023_2024" class="button is-primary">Go Now</a>
+
+* * *
+
 ## Basic Five - $70
 
 Basic practice questions that every coach needs to help their students prepare for the meets and tournaments in Championship, Contender, and XP5. 
@@ -34,7 +51,7 @@ The Basic Five includes:
 
 Duplication allowed within a single church. 
 
-<a href="#" class="button is-primary">Will be added soon</a>
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2023-2024/Basic_Five_Romans_James_2023_2024" class="button is-primary">Go Now</a>
 
 * * *
 
@@ -44,7 +61,7 @@ Duplication allowed within a single church. 
 
 Questions are written by the official Championship division writer.
 
-<a href="#" class="button is-primary">Will be added soon</a>
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2023-2024/A_League_Practice_Sets_Romans_James_2023_2024" class="button is-primary">Go Now</a>
 
 * * *
 
@@ -54,7 +71,7 @@ Questions are written by the official Championship division writer.
 
 Questions were written by the official Contender and XP5 division writer.
 
-<a href="#" class="button is-primary">Will be added soon</a>
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2023-2024/MSQ_Practice_Sets_Romans_James_2023_2024" class="button is-primary">Go Now</a>
 
 * * *
 
@@ -68,7 +85,7 @@ Includes:
 
 For Experience teams, there are additional assets that can supercharge your team!
 
-<a href="#" class="button is-primary">Will be added soon</a>
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2023-2024/Study_Guide_Plus_Romans_James_2023_2024" class="button is-primary">Go Now</a>
 
 * * *
 
