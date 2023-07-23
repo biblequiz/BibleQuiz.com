@@ -9,9 +9,16 @@ menubar_ads: ads_simple
 
 ## My Healthy Church
 
-Get starter bundles, scripture portions, questions, and valuable study resources from My Healthy Church--the official product store from the Assemblies of God.
+Get starter bundles, scripture portions, and valuable study resources from My Healthy Church--the official product store from the Assemblies of God.
 
 <a href="https://myhealthychurch.com/store/startcat.cfm?cat=YMBIBQUIZ&mastercat=&path=YMBIBQUIZ" class="button is-primary">Go Now</a>
+
+---
+## My Healthy Church Digital
+
+Get official questions packs and study apps from My Healthy Church Digital.
+
+<a href="https://digital.myhealthychurch.com/Categories/Teen-Bible-Quiz" class="button is-primary">Go Now</a>
 
 ---
 
