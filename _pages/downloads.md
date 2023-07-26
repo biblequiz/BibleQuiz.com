@@ -23,9 +23,7 @@ The fastest way to learn about Bible Quiz!
 ### Official Rules
 For use in all Bible Quiz matches, all year long.
 
-*The rules for the 2023-2024 season are being finalized and will be made available as a free download in August.*
-
-<a href="#" class="button is-primary">Download coming soon</a>
+<a href="{% link assets/2024/23-24 Bible Quiz Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a>
 
 ### Simplified Rules
 Only 10 pages long, these rules are great for getting started in Bible Quiz! All rules from the full set of Official Rules above are still in effect.
