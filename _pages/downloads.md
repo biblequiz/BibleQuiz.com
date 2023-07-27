@@ -27,7 +27,7 @@ For use in all Bible Quiz matches, all year long.
 
 To see a comparison between the rules from last season, download the summary below or [read full explanation on the blog]({% link _posts/2023/2023-07-25-updated-rules.md %}).
 
-<a href="{% link assets/2024/23-24 Bible Quiz Rules Summary.pdf %}" class="button is-primary">Download Rules Summary (PDF)</a> <a href="{% link _posts/2023/2023-07-25-updated-rules.md %}" class="button is-primary">See full explanation</a>
+<a href="{% link assets/2024/23-24 Bible Quiz Rules Summary.pdf %}" class="button is-primary">Download Rules Summary (PDF)</a> <a href="https://www.biblequiz.com/assets/2024/23-24 Bible Quiz Rules Summary.pdf" class="button is-primary">Download Summary of Rule Changes (PDF)</a>
 
 
 ### Simplified Rules
