@@ -14,7 +14,7 @@ Last season, several changes were made to the conferring and contesting procedur
 
 The following changes have been instituted and are in effect for the upcoming season over Romans and James.
 
-<a href="https://www.biblequiz.com/assets/2024/23-24 Bible Quiz Rules.pdf" class="button is-primary">Download Rules (PDF)</a>
+<a href="https://www.biblequiz.com/assets/2024/23-24 Bible Quiz Rules.pdf" class="button is-primary">Download Rules (PDF)</a>  <a href="https://www.biblequiz.com/assets/2024/23-24 Bible Quiz Rules Summary.pdf" class="button is-primary">Download Rules Summary (PDF)</a>
 
 ## Quick summary
 
@@ -139,4 +139,4 @@ If you have questions about the changes, please feel free to ask a question in t
 
 <a href="https://www.facebook.com/groups/agbiblequiz" class="button is-primary">Join the Facebook group</a>
 
-<a href="https://www.biblequiz.com/assets/2024/23-24 Bible Quiz Rules.pdf" class="button is-primary">Download Rules (PDF)</a>
+<a href="https://www.biblequiz.com/assets/2024/23-24 Bible Quiz Rules.pdf" class="button is-primary">Download Rules (PDF)</a>  <a href="https://www.biblequiz.com/assets/2024/23-24 Bible Quiz Rules Summary.pdf" class="button is-primary">Download Rules Summary (PDF)</a>
