@@ -11,7 +11,15 @@ Created by an experienced team of National-level officials, these tests are a gr
 
 * * *
 
-## General Knowledge
+## Rule changes for 2023-2024 over Romans and James
+
+This test covers [the rule changes for the upcoming season]({% link _posts/2023/2023-07-25-updated-rules.md %}).
+
+<a href="{% link assets/2024/23-24 New Rules Officials Test.pdf %}" class="button is-primary">Download Test</a> <a href="{% link assets/2024/23-24 New Rules Officials Test Answer Key.pdf %}" class="button is-primary">Download Answer Key</a>
+
+* * *
+
+<!-- ## General Knowledge
 
 Test your knowledge on the basics of Bible Quiz.
 
@@ -36,10 +44,11 @@ How well do you know know the contesting process? Do you know what it takes to r
 If you want to brush-up on the rules, [check out pages 17-19 and 28-31]({% link _pages/downloads.md %}).
 
 <a href="{% link assets/2019/Officials-Test-Phase-1-2.pdf %}" class="button is-primary">Download Test</a>
-<a href="{% link assets/2019/Officials-Test-Phase-1-Answer-Key-1.pdf %}" class="button is-primary">Download Answers</a>
+<a href="{% link assets/2019/Officials-Test-Phase-1-Answer-Key-1.pdf %}" class="button is-primary">Download Answers</a> -->
 
 ## Want to discuss further?
 
 We'd love to hear from you! Join the Bible Quiz community on Facebook to get specific answers to your officiating questions.
 
-[Join the Facebook Group](https://www.facebook.com/groups/tbqpeoples/)
+
+<a href="https://www.facebook.com/groups/agbiblequiz/" class="button is-primary">Join the Facebook Group</a>
