@@ -95,7 +95,7 @@ menubar_toc_static:
 | 5 | In Custody Under the Law | Living Hope Church         | 3/4 | 210   | 30.00  |
 | 6 | The Oaks XP              | The Oaks Fellowship        | 2/5 | 520   | 74.29  |
 | 7 | Redemption Church        | (Crosby) Redemption Church | 1/6 | 460   | 65.71  |
-| 8 | Christian Temple         | Christian Temple           | 0/7 | 85    | 12.14  |
+| 8 | Christian Temple         | Christian Temple           | 0 / 7 | 85    | 12.14  |
 
 ### Individuals
 

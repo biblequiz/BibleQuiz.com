@@ -6,9 +6,8 @@ date: "2016-05-02"
 tabs: tabs_training
 ---
 
-# Getting Started
-* [Most Common Mistakes Made by Officials]({% link _pages/training/officials/common-mistakes.md %})
+<a href="{% link _pages/training/officials/officials-tests.md %}" class="button is-primary">Take the Officials' Tests</a>
 
-# Quizmasters
-* [How to Read Questions]({% link _pages/training/officials/reading-questions.md %})
+* [Most Common Mistakes Made by Officials]({% link _pages/training/officials/common-mistakes.md %})
 * [Creating a "fun" but "fair" atmosphere]({% link _pages/training/officials/fun-atmosphere.md %})
+

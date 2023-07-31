@@ -277,7 +277,7 @@ menubar_toc_static:
 | 5 | 6\. First A/G, Waynesburg, PA                      |        | 3/4 | 590   | 84.29  |
 | 6 | 7\. Calvary Church, Greensboro, NC                 |        | 3/4 | 700   | 100.00 |
 | 7 | 2\. Redeemer Church, Utica, NY                     |        | 2/5 | 655   | 93.57  |
-| 8 | 1.Evangel Heights A/G, Sarver, PA                  |        | 0/7 | 420   | 60.00  |
+| 8 | 1.Evangel Heights A/G, Sarver, PA                  |        | 0 / 7 | 420   | 60.00  |
 
 ### Individuals
 

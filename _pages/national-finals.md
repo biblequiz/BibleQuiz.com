@@ -1,60 +1,34 @@
 ---
 layout: page
 permalink: /national-finals/
-title: "2023 National Finals"
+title: "2024 National Finals"
 date: "2022-04-14"
 menubar: menu_current_season
 
 ---
 
-![]({% link assets/2023/stl-hotel-promo.jpg %})
+![]({% link assets/2024/dal-hotel-v1.jpg %})
 
-{% include youtube.html
-   video="KxywNwhY9AI" %}
+### Date
+June 30 - July 5
 
-## Schedule and Stats
+### Location
+[Hyatt Regency Dallas](https://www.hyatt.com/en-US/hotel/texas/hyatt-regency-dallas/dfwrd)
 
-<a href="{% link _pages/national-finals-schedule.md %}" class="button is-primary">Full Event Schedule</a>
+**Note on flying in to Dallas**  
+There are two major airports in the Dallas-Fort Worth metroplex.
 
-<a href="{% link assets/2023/2023-Round-Robin-Schedule.pdf %}" class="button is-primary">Round-Robin Schedules (PDF)</a>
+DAL is close to the Hyatt and is a hub for Southwest Airlines.
 
-<a href="{% link _pages/live-events.md %}#/b2d7ef09-11de-461f-9b41-08db5c53c953" class="button is-primary">Live Stats</a>
+DFW is further away, one of the largest airports in the world, and a hub for American Airlines.
 
-<a href="{% link assets/2023/2023-Prelim-Schedules.pdf %}" class="button is-primary">Prelim Schedules (PDF)</a>
+### Adult Bible Quiz
 
----
+Veteran division: James 1-5  
+Fun division: James 1-2
 
-## Venue
-
-All quizzing will take place at the Renaissance St. Louis Airport Hotel. Rooms are $99/night, and parking is free.
-
-For hotel room information, email [Pastor Bernie](mailto:elliotbq@gmail.com).
-
-<!-- <a href="https://www.marriott.com/events/start.mi?id=1683745765249&key=GRP" class="button is-primary">Hotel Reservation Link</a> -->
+Contact [Patti Smith](mailto:p.s.momof5@gmail.com) with any questions.
 
 ---
 
-## Registration
-
-<a href="https://brushfire.com/agusa/NBQ/551064" class="button is-primary">Register for National Finals</a>
-
-
----
-
-## Rules
-
-<a href="{% link _pages/contesting-changes.md %}" class="button is-primary">Changes to Conferring and Contesting</a>
-
-<a href="{% link assets/2023/2023 National Finals Tie Breaker Rules.pdf %}" class="button is-primary">Tiebreakers</a>
-
----
-
-## Adult Quizzing
-
-Veteran Division: I Timothy 1-6  
-Novice Division: I Timothy 1-4
-
-Both divisions written by Solomon Stevens.
-
-Contact [Katie Randolph](mailto:kaitlyn.randolph@gmail.com) for more information.
-
+*More information will be added to this page in the coming months.*

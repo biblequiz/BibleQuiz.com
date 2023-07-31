@@ -8,9 +8,10 @@ menubar_ads: ads_simple
 ---
 
 ### XP5 Starter Kit
-Single page scripture portion for first meet over 1 Thessalonians 1-2. Feel free to edit and make it your own.
+A simple scripture portion for the first league meet over Romans 8!
 
-<a href="{% link assets/2022/22-23_Starter.docx %}" class="button is-primary">Download XP5 Starter Kit</a>
+<a href="{% link assets/2024/XP5-Starter-LM1.pdf %}" class="button is-primary">XP5 Starter Kit (PDF)</a>
+<a href="{% link assets/2024/XP5-Starter-LM1.docx %}" class="button is-primary">XP5 Starter Kit (DOCX)</a>
 
 ### Bible Quiz Cheat Sheet
 The fastest way to learn about Bible Quiz!
@@ -18,37 +19,58 @@ The fastest way to learn about Bible Quiz!
 <a href="{% link assets/2021/BQ-Cheat-Sheet.pdf %}" class="button is-primary">Download Cheat Sheet</a>
 
 # Rules & Guidelines
+
 ### Official Rules
 For use in all Bible Quiz matches, all year long.
 
-<a href="{% link assets/2022/22-23-BQ-Rules.pdf %}" class="button is-primary">Download Official Rules</a>
+<a href="{% link assets/2024/23-24 Bible Quiz Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a>
+
+To see a comparison between the updated rules and the rules from last season:
+
+<a href="{% link assets/2024/23-24 Bible Quiz Rules Summary.pdf %}" class="button is-primary">Download summary of rule changes (PDF)</a> <a href="{% link _posts/2023/2023-07-25-updated-rules.md %}" class="button is-primary">Read explanation of changes</a>
+
 
 ### Simplified Rules
 Only 10 pages long, these rules are great for getting started in Bible Quiz! All rules from the full set of Official Rules above are still in effect.
 
 <a href="https://youth.ag.org/-/media/Youth/Ministries/BQ-Content/Final-Simplified-Rules.pdf?la=en" class="button is-primary">Download Simplified Rules</a>
 
-### XP5 Division Rules
+### XP5 Match Structure
 A few minor rule changes for XP5 competitions. All rules from the full set of Official Rules above are still in effect.
 
-<a href="{% link assets/2022/XP5-Division-Rules-2022-2023.pdf %}" class="button is-primary">Download XP5 Division Rules</a>
+<a href="{% link assets/2024/XP5-Match-Structure.pdf %}" class="button is-primary">Download XP5 Match Structure</a>
 
 * * *
 
 # Award Guidelines and Forms
-### Memorization Award
+
+![]({% link assets/2024/Banner NMA.jpg %})
+
 All of the material must be quoted one chapter at at time and in one sitting, with four mistakes or fewer. No time limit!
 
-<a href="{% link assets/2022/22-23-Memorization-Award-Guidelines.pdf %}" class="button is-primary">Memorization Award Guidelines</a>
+<a href="{% link assets/2024/NMA-Guidelines.pdf %}" class="button is-primary">National Memorization Award Guidelines</a>
 
-### Master Memorization Award
-All of the material must be quoted consecutively in one sitting, within 45 minutes, with 5 mistakes or fewer
+<br /><br />
 
-<a href="{% link assets/2022/22-23-Master-Memorization-Guidelines.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
-<a href="{% link assets/2022/22-23-Memorization-Award-Form.pdf %}" class="button is-primary">Memorization Award Form</a>
+![]({% link assets/2024/Banner MMA.jpg %})
 
-### Discipleship Award
-<a href="{% link assets/2022/DiscipleshipAward.pdf %}" class="button is-primary">Award Form</a>
+All of the material must be quoted consecutively in one sitting with 10 mistakes or fewer in 45 minutes or less.
+
+<a href="{% link assets/2024/MMA-Guidelines.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
+
+<br /><br />
+
+### Memorization Award Form
+Once you've earned the NMA and/or the MMA, fill out the following form and send to your District Bible Quiz Coordinator (DBQC). *If you are unsure of who your DBQC is, email <pastorbernie@biblequiz.com>.*
+
+<a href="{% link assets/2024/Memorization-Award-Form.doc %}" class="button is-primary">Memorization Award Form</a>
+
+<br /><br />
+
+![]({% link assets/2024/Banner DA.jpg %})
+
+<a href="{% link assets/2024/Discipleship-Award-Guidelines.pdf %}" class="button is-primary">Discipleship Award Guidelines</a>
+
 
 * * *
 
@@ -68,17 +90,19 @@ A free spreadsheet for tracking scores in a match.
 # Graphics
 
 ### Scripture Portion Artwork
-![]({% link assets/pages/TsJs.jpeg %})
 
-<a href="{% link assets/pages/TsJs.jpeg %}" class="button is-primary">Download Scripture Portion Artwork</a>
+<img src="{% link assets/2024/23-24_romans-and-james-scripture-portion-cover.jpg %}" width="300">
+
+<a href="{% link assets/2024/23-24_romans-and-james-scripture-portion-cover.jpg %}" class="button is-primary">Download Scripture Portion Artwork</a>
 
 ### Banner
-![]({% link assets/pages/22-23-TsJs-Banner-1024x128.png %})
+![]({% link assets/2024/Banner Empty.jpg %})
 
-<a href="{% link assets/pages/22-23-TsJs-Banner-1024x128.png %}" class="button is-primary">Download</a>
+<a href="{% link assets/2024/Banner Empty.jpg %}" class="button is-primary">Download Banner</a>
 
 ### Bible Quiz Logo
-![Bible Quiz Logo]({% link assets/pages/biblequizlogo-805x1024.jpg %})
+<img src="{% link assets/pages/biblequizlogo-805x1024.jpg %}" width="300">
+
 
 <a href="{% link assets/pages/biblequizlogo-805x1024.jpg %}" class="button is-primary">Download Logo</a>
 

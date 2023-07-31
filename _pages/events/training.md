@@ -15,7 +15,7 @@ Location TBD\
 **The Great Southern BQ Advance**\
 August 12, 2023\
 Lake Wiley Christian, Lake Wylie, SC\
-*Contact*: Bernie Elliot at [ElliotBQ@gmail.com](mailto:ElliotBQ@gmail.com)
+*Contact*: Bernie Elliot at [pastorbernie@biblequiz.com](mailto:pastorbernie@biblequiz.com)
 
 **"Nothing In All Creation" Midwest Bible Camp**\
 August 17 - 19, 2023\

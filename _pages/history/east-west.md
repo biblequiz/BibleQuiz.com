@@ -11,6 +11,7 @@ Top quizzers from the Northeast, Southeast, Gulf, and Great Lakes regions form t
 
 | Year | Winner               | Final Score |
 | ---- | -------------------- | ----------- |
+| 2023 | East                 | 145-40      |
 | 2022 | East                 | 130-125     |
 | 2021 | East                 | 95-80       |
 | 2020 | None due to COVID-19 |             |
@@ -47,4 +48,4 @@ Top quizzers from the Championship and Challenger divisions competed in the Boys
 | 2005   | Girls   | 130-90      |
 | 2004   | Girls   | 60-50       |
 
-_\* Boys were winning 75 to 15 on question number 11. The quizmaster inadvertently ask a 60 point question and the girls answered it tying the game on Question # 12 and forcing an overtime game. The boys interrupted the question and answered it incorrectly. The reread question was answered by the girls for a final score of 85 to 70._
+_\* Boys were winning 75 to 15 on question number 11. The quizmaster inadvertently asked a 60 point question and the girls answered it tying the game on Question # 12 and forcing an overtime game. The boys interrupted the question and answered it incorrectly. The reread question was answered by the girls for a final score of 85 to 70._
