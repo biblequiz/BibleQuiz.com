@@ -27,8 +27,8 @@ menubar_toc_static:
 | 5  | LHWC-Depth of Nsyte                            | Swedesboro, NJ      | 11/6 | 2700  | 158.82 |
 | 6  | Evangel Heights A/G-Without Wrinkle or Blemish | Sarver, PA          | 11/6 | 2320  | 136.47 |
 | 7  | Central A/G-Great Endurance                    | Houston, PA         | 11/6 | 1960  | 115.29 |
-| 8  | Allison Park Church-Grumbling Stomachs         | Allison Park, PA    | 10/7 | 1950  | 114.71 |
-| 9  | Kennebec Valley A/G-Keep In Step               | Chelsea, ME         | 10/7 | 2090  | 122.94 |
+| 8  | Allison Park Church-Grumbling Stomachs         | Allison Park, PA    | 10 / 7 | 1950  | 114.71 |
+| 9  | Kennebec Valley A/G-Keep In Step               | Chelsea, ME         | 10 / 7 | 2090  | 122.94 |
 | 10 | Bethany Church #1                              | Wyckoff, NJ         | 8/9  | 2200  | 129.41 |
 | 11 | Maple Lane A/G \"The Untitled Team\"           | Deposit, NY         | 8/9  | 2070  | 121.76 |
 | 12 | Cornerstone Church-Chief Cornerstone           | Bowie, MD           | 7/10 | 1815  | 106.76 |

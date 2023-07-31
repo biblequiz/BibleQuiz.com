@@ -1,72 +1,77 @@
 jbq:
   regionFinals:
-  - name: "2016 Great Lakes Regionals"
-    scope: region
-    scopeLabel: Great Lakes
-    scoresLink: /jbq/2016/regionals/great-lakes/
-  - name: "2016 South Central Regionals"
-    scope: region
-    scopeLabel: South Central
-    scoresLink: /jbq/2016/regionals/south-central/
+    - name: "2016 Great Lakes Regionals"
+      scope: region
+      scopeLabel: Great Lakes
+      scoresLink: /jbq/2016/regionals/great-lakes/
+    - name: "2016 South Central Regionals"
+      scope: region
+      scopeLabel: South Central
+      scoresLink: /jbq/2016/regionals/south-central/
   districtFinals:
-  - name: "2016 Arkansas District Finals"
-    scope: district
-    scopeLabel: Arkansas
-    scoresLink: /jbq/2016/districts/arkansas/
-  - name: "2016 Southern Missouri District Finals"
-    scope: district
-    scopeLabel: Southern Missouri
-    scoresLink: /jbq/2016/districts/southern-missouri/
-    dates: Mar 19, 2016
+    - name: "2016 Arkansas District Finals"
+      scope: district
+      scopeLabel: Arkansas
+      scoresLink: /jbq/2016/districts/arkansas/
+    - name: "2016 Southern Missouri District Finals"
+      scope: district
+      scopeLabel: Southern Missouri
+      scoresLink: /jbq/2016/districts/southern-missouri/
+      dates: Mar 19, 2016
   other:
-  - name: "Arkansas Districts Qualifiers"
-    scope: district
-    scopeLabel: Arkansas
-    scoresLink: /jbq/2016/other/arkansas-districts-qualifying/
-  - name: "Big Buck Memorial"
-    scope: district
-    scopeLabel: Arkansas
-    scoresLink: /jbq/2016/other/arkansas-big-buck-memorial/
+    - name: "Arkansas Districts Qualifiers"
+      scope: district
+      scopeLabel: Arkansas
+      scoresLink: /jbq/2016/other/arkansas-districts-qualifying/
+    - name: "Big Buck Memorial"
+      scope: district
+      scopeLabel: Arkansas
+      scoresLink: /jbq/2016/other/arkansas-big-buck-memorial/
 tbq:
   regionFinals:
-  - name: "2016 South Central Regionals"
-    scope: region
-    scopeLabel: South Central
-    scoresLink: /history/2016/regionals/south-central/
-  - name: "2016 Southeast Regionals"
-    scope: region
-    scopeLabel: Southeast
-    scoresLink: /history/2016/regionals/southeast/
+    - name: "2016 Northeast Regionals"
+      scope: region
+      scopeLabel: Northeast
+      scoresLink: /history/2016/regionals/northeast/
+    - name: "2016 South Central Regionals"
+      scope: region
+      scopeLabel: South Central
+      scoresLink: /history/2016/regionals/south-central/
+    - name: "2016 Southeast Regionals"
+      scope: region
+      scopeLabel: Southeast
+      scoresLink: /history/2016/regionals/southeast/
   districtFinals:
-  - name: "2016 Northwest District Finals"
-    scope: district
-    scopeLabel: Northwest
-    scoresLink: /history/2016/districts/northwest/
-    dates: Apr 2, 2016
-  - name: "2016 Oklahoma District Finals"
-    scope: district
-    scopeLabel: Oklahoma
-    scoresLink: /history/2016/districts/oklahoma/
-  - name: "2016 Pennsylvania-Delaware District Finals"
-    scope: district
-    scopeLabel: Pennsylvania-Delaware
-    scoresLink: /history/2016/districts/pennsylvania-delaware/
-    dates: Feb 1, 2016
+    - name: "2016 Northwest District Finals"
+      scope: district
+      scopeLabel: Northwest
+      scoresLink: /history/2016/districts/northwest/
+      dates: Apr 2, 2016
+    - name: "2016 Oklahoma District Finals"
+      scope: district
+      scopeLabel: Oklahoma
+      scoresLink: /history/2016/districts/oklahoma/
+    - name: "2016 Pennsylvania-Delaware District Finals"
+      scope: district
+      scopeLabel: Pennsylvania-Delaware
+      scoresLink: /history/2016/districts/pennsylvania-delaware/
+      dates: Feb 1, 2016
   tournament:
-  - name: River Classic
-    scope: tournament
-    scoresLink: /history/2016/tournaments/river-classic/
-  - name: "Missouri Classic"
-    scope: tournament
-    scoresLink: /history/2016/tournaments/missouri-classic/
-    dates: Dec 5, 2015
-  - name: Gobblefest
-    scope: tournament
-    scoresLink: /history/2016/tournaments/gobblefest/
-  - name: 31st Annual Gold Cup Tournament
-    scope: tournament
-    scoresLink: /history/2016/tournaments/gold-cup/
-  - name: "Empire Classic"
-    scope: tournament
-    scoresLink: /history/2016/tournaments/empire-classic/
-    dates: Sep 26, 2015
+    - name: River Classic
+      scope: tournament
+      scoresLink: /history/2016/tournaments/river-classic/
+    - name: "Missouri Classic"
+      scope: tournament
+      scoresLink: /history/2016/tournaments/missouri-classic/
+      dates: Dec 5, 2015
+    - name: Gobblefest
+      scope: tournament
+      dates: Nov 22, 2013
+      scoresLink: /history/2016/tournaments/gobblefest/
+    - name: 31st Annual Gold Cup Tournament
+      scope: tournament
+      scoresLink: /history/2016/tournaments/gold-cup/
+    - name: "Empire Classic"
+      scope: tournament
+      scoresLink: /history/2016/tournaments/empire-classic/
+      dates: Sep 26, 2015

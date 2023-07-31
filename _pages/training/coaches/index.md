@@ -39,14 +39,11 @@ tabs: tabs_training
 # Game Strategy
 * [The best reread strategies]({% link _pages/training/coaches/reread-strategies.md %})
 * [Quizzing with two wrong]({% link _pages/training/quizzers/quizzing-with-two-wrong.md %})
-* [What's the difference between Audrey and Katherine Hepburn?]({% link _pages/training/coaches/difference-between-the-hepburns.md %})
 
 # Rules and Contesting
 * [How well should I know the rules?]({% link _pages/training/coaches/how-well-should-i-know-the-rules.md %})
 * [Good contesting is R.A.R.E.]({% link _pages/training/coaches/good-contesting-is-rare.md %})
 * [Responding to a contest]({% link _pages/training/coaches/responding-to-a-contest.md %})
-* [Tips on the rules]({% link _pages/training/coaches/tips-on-the-rules.md %})
-* [Contesting \[VIDEOS\]]({% link _pages/training/coaches/contesting.md %})
 
 # Conquering the Concordance
 * [Concordance Work, Part 1]({% link _pages/training/coaches/concordance-part-1.md %})

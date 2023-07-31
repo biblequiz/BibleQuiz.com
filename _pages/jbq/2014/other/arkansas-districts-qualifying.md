@@ -108,7 +108,7 @@ menubar_toc_static:
 | 5 | McArthur's Girls of Grace     | McArthur      | 3/4 | 610   | 87.14  |
 | 6 | Otter Creek                   | Otter Creek   | 2/5 | 520   | 74.29  |
 | 7 | Change Point                  | Change Point  | 2/5 | 530   | 75.71  |
-| 8 | Houston                       | Houston       | 0/7 | 150   | 21.43  |
+| 8 | Houston                       | Houston       | 0 / 7 | 150   | 21.43  |
 
 ### Individuals
 

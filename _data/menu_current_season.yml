@@ -1,31 +1,31 @@
 - items:
-  - name: Home
-    link: /current-season/
-    icon: fas fa-home
-- label: Competitions
+    - name: Home
+      link: /current-season/
+      icon: fas fa-home
+- label: Prepare
   items:
-  - name: Events
-    link: /events/
-    icon: far fa-calendar-alt
-  - name: Event Registration
-    link: https://registration.biblequiz.com
-    icon: fas fa-clipboard-check
-  - name: Results
-    link: /results/
-    icon: fas fa-trophy
-- label: Resources
+    - name: League Meet Breakdown
+      link: /breakdown/
+      icon: fas fa-sitemap
+    - name: Downloads & Forms
+      link: /downloads/
+      icon: fas fa-arrow-circle-down
+- label: Compete
   items:
-  - name: Material Breakdown
-    link: /breakdown/
-    icon: fas fa-sitemap
-  - name: Downloads & Forms
-    link: /downloads/
-    icon: fas fa-arrow-circle-down
-- label: Purchases
+    - name: Event Registration
+      link: https://registration.biblequiz.com
+      icon: fas fa-clipboard-check
+    - name: Event Info
+      link: /events/training/
+      icon: far fa-calendar-alt
+    - name: Results
+      link: /results/
+      icon: fas fa-trophy
+- label: Materials
   items:
-  - name: Questions
-    link: /questions/
-    icon: fas fa-shopping-cart
-  - name: Products
-    link: /products/
-    icon: fas fa-shopping-cart
+    - name: Questions
+      link: /questions/
+      icon: fas fa-shopping-cart
+    - name: Products
+      link: /products/
+      icon: fas fa-shopping-cart

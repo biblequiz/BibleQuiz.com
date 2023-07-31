@@ -213,7 +213,7 @@ menubar_toc_static:
 | 5 | LFA: Team B             | Lebanon First Assembly | 3/4   | 390   | 55.71  |
 | 6 | Bethel A/G 2            | Bethel Assembly Of God | 2/5   | 530   | 75.71  |
 | 7 | Blind Leading The Blind | Sioux Falls First      | 1/6   | 475   | 67.86  |
-| 8 | LFA: Team A             | Lebanon First Assembly | 0/7   | 410   | 58.57  |
+| 8 | LFA: Team A             | Lebanon First Assembly | 0 / 7   | 410   | 58.57  |
 
 ### Individuals
 

@@ -1,14 +1,24 @@
 ---
 layout: page
 permalink: /results/
-title: "Results"
-date: "2016-05-02"
+title: "Events - Results"
 menubar: menu_current_season
 menubar_ads: ads_simple
+toc: true
 ---
 
 ## Tournaments
 
-[Send results from your event](mailto:hello@biblequiz.com)
+{% include events-season.html type="tbq" year="2024" scope="tournament" source="imported" %}
 
-Visit the [Events]({% link _pages/events/index.md %}) page to find upcoming competitions for your team!
+## Regional Finals
+
+{% include events-season.html type="tbq" year="2024" scope="regionFinals" %}
+
+## District Finals
+
+{% include events-season.html type="tbq" year="2024" scope="districtFinals" source="imported" %}
+
+## Other Competitions
+
+{% include events-season.html type="tbq" year="2024" scope="other" source="imported" %}

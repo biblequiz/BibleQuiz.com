@@ -8,6 +8,7 @@ menubar: menu_history
 
 | Year | Quizzers             | Church                       | City                  |
 | ---- | -------------------- | ---------------------------- | --------------------- |
+| 2023 | Andrew Pickrell      | Trinity Church               | Cedar Hill, TX        |
 | 2022 | Sheldon Powell       | Calvary Church               | Naperville, IL        |
 | 2021 | Nigus Dawit          | Word of Life                 | Springfield, VA       |
 | 2020 | None due to COVID-19 |                              |                       |

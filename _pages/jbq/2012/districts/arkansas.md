@@ -204,7 +204,7 @@ menubar_toc_static:
 | 5 | Faithbuilders                    | Texarkana Faith Assembly of God    | 3/4 | 885   | 126.43 |
 | 6 | Russellville First Assembly      | Russellville First Assembly Of God | 3/4 | 735   | 105.00 |
 | 7 | Buzz Hogs                        | River of Life                      | 1/6 | 615   | 87.86  |
-| 8 | Bible Bugs                       | Fordyce First A/G Church           | 0/7 | 245   | 35.00  |
+| 8 | Bible Bugs                       | Fordyce First A/G Church           | 0 / 7 | 245   | 35.00  |
 
 #### Individuals
 
@@ -261,7 +261,7 @@ menubar_toc_static:
 | 5 | Eldorado-FIRST ASSEMBLY OF GOD | Eldorado First Assembly of God   | 3/4 | 1050  | 150.00 |
 | 6 | Pocahontas                     | Pocahontas First Assembly of God | 2/5 | 915   | 130.71 |
 | 7 | Changepoint                    | Changepoint                      | 1/6 | 550   | 78.57  |
-| 8 | Nashville                      | Nashville First Assembly of God  | 0/7 | 85    | 12.14  |
+| 8 | Nashville                      | Nashville First Assembly of God  | 0 / 7 | 85    | 12.14  |
 
 #### Individuals
 
