@@ -147,8 +147,8 @@ menubar_toc_static:
 |    7 | Central A/G, Springfield, MO (Oss)           |    2 |      5 |   850 |
 |    8 | Bellevue Neighborhood Church, WA             |    2 |      5 |   815 |
 
-\* Praise A/G, Garfield beat James River in Playoff
-\*\* Central A/G, Springfield (Christina) beat Southgate
+\* Praise A/G, Garfield beat James River in Playoff\
+\*\* Central A/G, Springfield (Christina) beat Southgate\
 \*\*\* Victorious Life Church, Wesley Chapel beat First A/G, Binghamton
 
 ### Individuals
@@ -200,7 +200,7 @@ menubar_toc_static:
 |    7 | Richmond Hills A/G, Bethlehem, NY            |    2 |      5 |   635 |
 |    8 | Grandville A/G, Grandville, MI               |    0 |      7 |   490 |
 
-\* Each 1st place team beat each other
+\* Each 1st place team beat each other\
 \*\* Montgomery beat Swedesboro
 
 ### Individuals
