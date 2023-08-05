@@ -4,7 +4,6 @@ permalink: /breakdown/
 title: "Material Breakdown"
 date: "2016-05-01"
 menubar: menu_current_season
-menubar_ads: ads_simple
 ---
 
 League Meet breakdown for the 2023-24 Bible Quiz season.

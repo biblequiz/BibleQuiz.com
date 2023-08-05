@@ -4,7 +4,6 @@ permalink: /downloads/
 title: "Downloads & Forms"
 date: "2016-05-02"
 menubar: menu_current_season
-menubar_ads: ads_simple
 ---
 
 ### XP5 Starter Kit

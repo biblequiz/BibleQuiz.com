@@ -3,7 +3,6 @@ layout: page
 permalink: /results/
 title: "Events - Results"
 menubar: menu_current_season
-menubar_ads: ads_simple
 toc: true
 ---
 
