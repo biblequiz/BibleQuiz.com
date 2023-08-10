@@ -12,10 +12,10 @@ A simple scripture portion for the first league meet over Romans 8!
 <a href="{% link assets/2024/XP5-Starter-LM1.pdf %}" class="button is-primary">XP5 Starter Kit (PDF)</a>
 <a href="{% link assets/2024/XP5-Starter-LM1.docx %}" class="button is-primary">XP5 Starter Kit (DOCX)</a>
 
-### Bible Quiz Cheat Sheet
+<!-- ### Bible Quiz Cheat Sheet
 The fastest way to learn about Bible Quiz and a must-have for new teams at their first match!
 
-<a href="{% link assets/2024/23-24_TBQ-Cheat-Sheet.pdf %}" class="button is-primary">Download Cheat Sheet</a>
+<a href="{% link assets/2024/23-24_TBQ-Cheat-Sheet.pdf %}" class="button is-primary">Download Cheat Sheet</a> -->
 
 # Rules & Guidelines
 
@@ -29,10 +29,10 @@ To see a comparison between the updated rules and the rules from last season:
 <a href="{% link assets/2024/23-24 Bible Quiz Rules Summary.pdf %}" class="button is-primary">Download summary of rule changes (PDF)</a> <a href="{% link _posts/2023/2023-07-25-updated-rules.md %}" class="button is-primary">Read explanation of changes</a>
 
 
-### Simplified Rules
+<!-- ### Simplified Rules
 Only 10 pages long, these rules are great for getting started in Bible Quiz! All rules from the full set of Official Rules above are still in effect.
 
-<a href="https://youth.ag.org/-/media/Youth/Ministries/BQ-Content/Final-Simplified-Rules.pdf?la=en" class="button is-primary">Download Simplified Rules</a>
+<a href="https://youth.ag.org/-/media/Youth/Ministries/BQ-Content/Final-Simplified-Rules.pdf?la=en" class="button is-primary">Download Simplified Rules</a> -->
 
 ### XP5 Match Structure
 A few minor rule changes for XP5 competitions. All rules from the full set of Official Rules above are still in effect.
