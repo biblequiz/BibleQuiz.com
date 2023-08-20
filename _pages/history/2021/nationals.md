@@ -159,8 +159,8 @@ menubar_toc_static:
 | 8   | Tabitha Nirmal       | Culmination of the Ages (Covenant Life, Cary, NC)                     | 1545 | 81.3  | 13  | 80%  | 12  | 44  | 28  |
 | 9   | Ronald George        | Strangers in a Foreign Country (Atlanta Tamil - Norcross, GA)         | 1500 | 78.9  | 9   | 75%  | 26  | 37  | 9   |
 | 10  | Janet An             | Living Water Dolphins (Living Water Bible Church, CA)                 | 1260 | 66.3  | 8   | 80%  | 11  | 28  | 34  |
-| 11  | Christian Alapati    | God`s Elect From Oklahoma (Mustang, OK)                               | 1225 | 64.5  | 14  | 81%  | 4   | 22  | 51  |
-| 12  | Hannah Alapati       | God`s Elect From Oklahoma (Mustang, OK)                               | 1080 | 56.8  | 6   | 68%  | 17  | 27  | 22  |
+| 11  | Christian Alapati    | God's Elect From Oklahoma (Mustang, OK)                               | 1225 | 64.5  | 14  | 81%  | 4   | 22  | 51  |
+| 12  | Hannah Alapati       | God's Elect From Oklahoma (Mustang, OK)                               | 1080 | 56.8  | 6   | 68%  | 17  | 27  | 22  |
 | 13  | Josiah Laakkonen     | Order of Aaron (First Assembly, Lexington, KY)                        | 1065 | 56.1  | 9   | 73%  |     | 41  | 29  |
 | 14  | Ember Yoder          | Calvary Assembly of God (Marinette, WI)                               | 1060 | 55.8  | 7   | 71%  | 11  | 39  | 10  |
 | 15  | Sarah Lin            | Order of Aaron (First Assembly, Lexington, KY)                        | 1015 | 53.4  | 7   | 82%  | 4   | 28  | 33  |
@@ -206,7 +206,7 @@ menubar_toc_static:
 | 49  | Brandon Ukonu        | Braeswood Assembly (Houston, TX)                                      | 0    |       |     | %    |     |     |     |
 | 49  | Caleb Song           | Order of Aaron (First Assembly, Lexington, KY)                        | 0    |       |     | %    |     |     |     |
 | 49  | Aaron Lin            | Order of Aaron (First Assembly, Lexington, KY)                        | 0    |       |     | %    |     |     |     |
-| 49  | Quizzer-3            | God`s Elect From Oklahoma (Mustang, OK)                               | 0    |       |     | %    |     |     |     |
+| 49  | Quizzer-3            | God's Elect From Oklahoma (Mustang, OK)                               | 0    |       |     | %    |     |     |     |
 | 49  | Brittney Gauldin     | Calvary Church (Greensboro, NC)                                       | 0    |       |     | %    |     |     |     |
 | 49  | Robson Yoder         | Calvary Assembly of God (Marinette, WI)                               | 0    |       |     | %    |     |     |     |
 | 49  | Inky                 | Ghost Team (1st Assembly, Valentine, NE)                              | 0    |       |     | %    |     |     |     |

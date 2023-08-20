@@ -29,7 +29,7 @@ menubar_toc_static:
 | 5 | Christ Ambassadors       | Gilbert -AZ   | 3/4 | 830   | 118.57 |
 | 6 | Avengers of God (A.O.G.) | Lakeville-MN  | 3/4 | 825   | 117.86 |
 | 7 | Pillars of Fire          | Marlboro-NJ   | 2/5 | 900   | 128.57 |
-| 8 | Truth Seekers            | Shreveport-LA | 0/7 | 380   | 54.29  |
+| 8 | Truth Seekers            | Shreveport-LA | 0 / 7 | 380   | 54.29  |
 
 #### Individuals
 
@@ -227,7 +227,7 @@ menubar_toc_static:
 | 5 | Thing 1              | St.Cloud-MN       | 4/3 | 1005  | 143.57 |
 | 6 | MCC Etoiles De Bible | Mechanicsville-VA | 3/4 | 795   | 113.57 |
 | 7 | Bellevue Buzzers     | Bellevue-WA       | 2/5 | 1010  | 144.29 |
-| 8 | Flamin\' Hot Buzzers | Albuquerque-NM    | 0/7 | 410   | 58.57  |
+| 8 | Flamin\' Hot Buzzers | Albuquerque-NM    | 0 / 7 | 410   | 58.57  |
 
 #### Individuals
 
@@ -297,7 +297,7 @@ menubar_toc_static:
 | 5 | CIA - Special Agents     | Mendon-MA     | 3/4 | 1040  | 148.57 |
 | 6 | Alpha & Omega\'s Kids    | San Jose-CA   | 2/5 | 1040  | 148.57 |
 | 7 | Cedar Park Eagles - A2   | Bothell-WA    | 2/4 | 530   | 88.33  |
-| 8 | Purple People            | Manhattan-KS  | 0/7 | 625   | 89.29  |
+| 8 | Purple People            | Manhattan-KS  | 0 / 7 | 625   | 89.29  |
 
 #### Individuals
 

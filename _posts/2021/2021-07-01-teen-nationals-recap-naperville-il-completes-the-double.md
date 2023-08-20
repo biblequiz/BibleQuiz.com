@@ -34,50 +34,50 @@ Thursday’s competition concludes with the Individual Tournament, where quizzer
 
 | Pos | Team / Church                                      | W / L  | Pts  | Avg   | Q/O |
 |-----|----------------------------------------------------|--------|------|-------|-----|
-| 1   | Calvary Church “J,” Naperville, IL                 | 17/2   | 4030 | 212.1 | 34  |
-| 2   | Deeper Church “Ponraj Family”, Burien, WA          | 15/4   | 3880 | 204.2 | 31  |
-| 3   | Central Assembly, Houston, PA                      | 15/4   | 3310 | 174.2 | 23  |
-| 4   | Trinity Church #1, Cedar Hill, TX                  | 14/5   | 3525 | 185.5 | 29  |
-| 5   | Ramsey Family, Springfield, MO                     | 13/6   | 3245 | 170.8 | 27  |
-| 6   | Colorado Springs, CO Assembly “The Brookbanks”     | 13/6   | 3335 | 175.5 | 26  |
-| 7   | Trinity Church “Terrifying Sights,” Cedar Hill, TX | 7-Dec  | 2475 | 130.3 | 19  |
-| 8   | Redeemer Church, Utica, NY                         | 7-Dec  | 2880 | 151.6 | 23  |
-| 9   | Bethel Church, San Jose, CA                        | 9-Oct  | 3110 | 163.7 | 24  |
-| 10  | Living Hope Church, Swedesboro, NJ                 | 10-Sep | 2315 | 121.8 | 17  |
-| 11  | Calvary Church “S,” Naperville, IL                 | 10-Sep | 2310 | 121.6 | 18  |
-| 12  | Radiant Life Church, Dublin, OH                    | 11-Aug | 2395 | 126   | 15  |
-| 13  | Journey Life Church, Holt, MI                      | 11-Aug | 2075 | 109.2 | 14  |
-| 14  | Bellevue Church, Bellevue, WA                      | 12-Jul | 2175 | 114.5 | 13  |
-| 15  | Cedar Park Church, Bothell, WA                     | 12-Jul | 2180 | 114.7 | 15  |
-| 16  | Carolinas Christian Assembly, Charlotte, NC        | 13-Jun | 1895 | 99.7  | 14  |
-| 17  | Word of Life Assembly, Springfield, VA             | 13-Jun | 2625 | 138.2 | 20  |
-| 18  | First at Firewheel, Garland, TX                    | 14-May | 2200 | 115.8 | 18  |
-| 19  | CrossPoint AG, Portage, WI                         | 16-Mar | 1265 | 66.6  | 4   |
-| 20  | New Life Assembly, Sparta, WI                      | 18-Jan | 1315 | 69.2  | 8   |
+| 1   | Calvary Church “J,” Naperville, IL                 | 17 / 2   | 4030 | 212.1 | 34  |
+| 2   | Deeper Church “Ponraj Family”, Burien, WA          | 15 / 4   | 3880 | 204.2 | 31  |
+| 3   | Central Assembly, Houston, PA                      | 15 / 4   | 3310 | 174.2 | 23  |
+| 4   | Trinity Church #1, Cedar Hill, TX                  | 14 / 5   | 3525 | 185.5 | 29  |
+| 5   | Ramsey Family, Springfield, MO                     | 13 / 6   | 3245 | 170.8 | 27  |
+| 6   | Colorado Springs, CO Assembly “The Brookbanks”     | 13 / 6   | 3335 | 175.5 | 26  |
+| 7   | Trinity Church “Terrifying Sights,” Cedar Hill, TX | 12 / 7  | 2475 | 130.3 | 19  |
+| 8   | Redeemer Church, Utica, NY                         | 12 / 7  | 2880 | 151.6 | 23  |
+| 9   | Bethel Church, San Jose, CA                        | 10 / 9  | 3110 | 163.7 | 24  |
+| 10  | Living Hope Church, Swedesboro, NJ                 | 9 / 10 | 2315 | 121.8 | 17  |
+| 11  | Calvary Church “S,” Naperville, IL                 | 9 / 10 | 2310 | 121.6 | 18  |
+| 12  | Radiant Life Church, Dublin, OH                    | 8 / 11 | 2395 | 126   | 15  |
+| 13  | Journey Life Church, Holt, MI                      | 8 / 11 | 2075 | 109.2 | 14  |
+| 14  | Bellevue Church, Bellevue, WA                      | 7 / 12 | 2175 | 114.5 | 13  |
+| 15  | Cedar Park Church, Bothell, WA                     | 7 / 12 | 2180 | 114.7 | 15  |
+| 16  | Carolinas Christian Assembly, Charlotte, NC        | 6 / 13 | 1895 | 99.7  | 14  |
+| 17  | Word of Life Assembly, Springfield, VA             | 6 / 13 | 2625 | 138.2 | 20  |
+| 18  | First at Firewheel, Garland, TX                    | 5 / 14 | 2200 | 115.8 | 18  |
+| 19  | CrossPoint AG, Portage, WI                         | 3 / 16 | 1265 | 66.6  | 4   |
+| 20  | New Life Assembly, Sparta, WI                      | 1 / 18 | 1315 | 69.2  | 8   |
 
 #### CHAMPIONSHIP INDIVIDUALS
 
 | Pos | Team / Church                                      | W / L  | Pts  | Avg   | Q/O |
 |-----|----------------------------------------------------|--------|------|-------|-----|
-| 1   | Calvary Church “J,” Naperville, IL                 | 17/2   | 4030 | 212.1 | 34  |
-| 2   | Deeper Church “Ponraj Family”, Burien, WA          | 15/4   | 3880 | 204.2 | 31  |
-| 3   | Central Assembly, Houston, PA                      | 15/4   | 3310 | 174.2 | 23  |
-| 4   | Trinity Church #1, Cedar Hill, TX                  | 14/5   | 3525 | 185.5 | 29  |
-| 5   | Ramsey Family, Springfield, MO                     | 13/6   | 3245 | 170.8 | 27  |
-| 6   | Colorado Springs, CO Assembly “The Brookbanks”     | 13/6   | 3335 | 175.5 | 26  |
-| 7   | Trinity Church “Terrifying Sights,” Cedar Hill, TX | 7-Dec  | 2475 | 130.3 | 19  |
-| 8   | Redeemer Church, Utica, NY                         | 7-Dec  | 2880 | 151.6 | 23  |
-| 9   | Bethel Church, San Jose, CA                        | 9-Oct  | 3110 | 163.7 | 24  |
-| 10  | Living Hope Church, Swedesboro, NJ                 | 10-Sep | 2315 | 121.8 | 17  |
-| 11  | Calvary Church “S,” Naperville, IL                 | 10-Sep | 2310 | 121.6 | 18  |
-| 12  | Radiant Life Church, Dublin, OH                    | 11-Aug | 2395 | 126   | 15  |
-| 13  | Journey Life Church, Holt, MI                      | 11-Aug | 2075 | 109.2 | 14  |
-| 14  | Bellevue Church, Bellevue, WA                      | 12-Jul | 2175 | 114.5 | 13  |
-| 15  | Cedar Park Church, Bothell, WA                     | 12-Jul | 2180 | 114.7 | 15  |
-| 16  | Carolinas Christian Assembly, Charlotte, NC        | 13-Jun | 1895 | 99.7  | 14  |
-| 17  | Word of Life Assembly, Springfield, VA             | 13-Jun | 2625 | 138.2 | 20  |
-| 18  | First at Firewheel, Garland, TX                    | 14-May | 2200 | 115.8 | 18  |
-| 19  | CrossPoint AG, Portage, WI                         | 16-Mar | 1265 | 66.6  | 4   |
-| 20  | New Life Assembly, Sparta, WI                      | 18-Jan | 1315 | 69.2  | 8   |
+| 1   | Calvary Church “J,” Naperville, IL                 | 17 / 2   | 4030 | 212.1 | 34  |
+| 2   | Deeper Church “Ponraj Family”, Burien, WA          | 15 / 4   | 3880 | 204.2 | 31  |
+| 3   | Central Assembly, Houston, PA                      | 15 / 4   | 3310 | 174.2 | 23  |
+| 4   | Trinity Church #1, Cedar Hill, TX                  | 14 / 5   | 3525 | 185.5 | 29  |
+| 5   | Ramsey Family, Springfield, MO                     | 13 / 6   | 3245 | 170.8 | 27  |
+| 6   | Colorado Springs, CO Assembly “The Brookbanks”     | 13 / 6   | 3335 | 175.5 | 26  |
+| 7   | Trinity Church “Terrifying Sights,” Cedar Hill, TX | 12 / 7  | 2475 | 130.3 | 19  |
+| 8   | Redeemer Church, Utica, NY                         | 12 / 7  | 2880 | 151.6 | 23  |
+| 9   | Bethel Church, San Jose, CA                        | 10 / 9  | 3110 | 163.7 | 24  |
+| 10  | Living Hope Church, Swedesboro, NJ                 | 9 / 10 | 2315 | 121.8 | 17  |
+| 11  | Calvary Church “S,” Naperville, IL                 | 9 / 10 | 2310 | 121.6 | 18  |
+| 12  | Radiant Life Church, Dublin, OH                    | 8 / 11 | 2395 | 126   | 15  |
+| 13  | Journey Life Church, Holt, MI                      | 8 / 11 | 2075 | 109.2 | 14  |
+| 14  | Bellevue Church, Bellevue, WA                      | 7 / 12 | 2175 | 114.5 | 13  |
+| 15  | Cedar Park Church, Bothell, WA                     | 7 / 12 | 2180 | 114.7 | 15  |
+| 16  | Carolinas Christian Assembly, Charlotte, NC        | 6 / 13 | 1895 | 99.7  | 14  |
+| 17  | Word of Life Assembly, Springfield, VA             | 6 / 13 | 2625 | 138.2 | 20  |
+| 18  | First at Firewheel, Garland, TX                    | 5 / 14 | 2200 | 115.8 | 18  |
+| 19  | CrossPoint AG, Portage, WI                         | 3 / 16 | 1265 | 66.6  | 4   |
+| 20  | New Life Assembly, Sparta, WI                      | 1 / 18 | 1315 | 69.2  | 8   |
 
 _Challenger Division stats to be posted shortly._

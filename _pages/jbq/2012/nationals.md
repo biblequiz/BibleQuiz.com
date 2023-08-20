@@ -90,7 +90,7 @@ menubar_toc_static:
 | 5 | D.D.D.          | Mustang-OK       | 3/4 | 820   | 117.14 |
 | 6 | Bible Saints    | Princeton-MN     | 3/4 | 805   | 115.00 |
 | 7 | Smileys         | Huntington-WV    | 1/6 | 805   | 115.00 |
-| 8 | Westgate A Team | Edmonds-WA       | 0/7 | 550   | 78.57  |
+| 8 | Westgate A Team | Edmonds-WA       | 0 / 7 | 550   | 78.57  |
 
 #### Individuals
 
@@ -319,7 +319,7 @@ menubar_toc_static:
 | 5 | Double-Edged Sword | Irvine-CA     | 4/3 | 1020  | 145.71 |
 | 6 | Buzz Hogs          | Mabelvale-AR  | 3/4 | 690   | 98.57  |
 | 7 | Kansas Jayhawks    | Great Bend-KS | 2/5 | 725   | 103.57 |
-| 8 | Vailsburg Victors  | Newark-NJ     | 0/7 | 710   | 101.43 |
+| 8 | Vailsburg Victors  | Newark-NJ     | 0 / 7 | 710   | 101.43 |
 
 #### Individuals
 
@@ -558,7 +558,7 @@ menubar_toc_static:
 | 5 | New Life Pineville        | Waxhaw-NC        | 3/4 | 845   | 120.71 |
 | 6 | Knights in Shining Armour | Springfield-MO   | 2/5 | 990   | 141.43 |
 | 7 | PCC Giant Slayers         | Portland-OR      | 1/6 | 715   | 102.14 |
-| 8 | Eternal Eight             | Hamburg-PA       | 0/7 | 600   | 85.71  |
+| 8 | Eternal Eight             | Hamburg-PA       | 0 / 7 | 600   | 85.71  |
 
 #### Individuals
 
@@ -683,7 +683,7 @@ menubar_toc_static:
 | 5 | Harrison Thrashers                                  | Harrison-AR        | 4/3 | 930   | 132.86 |
 | 6 | S.P.Y. Kids 007                                     | Leesburg-VA        | 3/4 | 970   | 138.57 |
 | 7 | Bible Boyz                                          | Orlando-FL         | 2/5 | 1045  | 149.29 |
-| 8 | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         | 0/7 | 680   | 97.14  |
+| 8 | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         | 0 / 7 | 680   | 97.14  |
 
 #### Individuals
 
@@ -979,7 +979,7 @@ menubar_toc_static:
 | 5 | XBOX             | Lakeville-MN    | 3/4 | 1055  | 150.71 |
 | 6 | Smileys          | Huntington-WV   | 3/4 | 820   | 117.14 |
 | 7 | Freedom Fighters | Collierville-TN | 2/5 | 680   | 97.14  |
-| 8 | Kidtricity       | Montgomery-AL   | 0/7 | 705   | 100.71 |
+| 8 | Kidtricity       | Montgomery-AL   | 0 / 7 | 705   | 100.71 |
 
 #### Individuals
 

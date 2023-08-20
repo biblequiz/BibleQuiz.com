@@ -29,7 +29,7 @@ menubar_toc_static:
 | 5 | Quiz CREW                 | Trinity Tabernacle (Crossville, TN) | 3/4 | 950   | 135.71 |
 | 6 | Tallahassee Freedom       | Freedom Church (Tallahassee, FL)    | 2/5 | 940   | 134.29 |
 | 7 | Swordsmen                 | Vailsburg Assembly (Newark, NJ)     | 2/5 | 740   | 105.71 |
-| 8 | Awesome Bible Competitors | Victory A/G (Universal City, TX)    | 0/7 | 530   | 75.71  |
+| 8 | Awesome Bible Competitors | Victory A/G (Universal City, TX)    | 0 / 7 | 530   | 75.71  |
 
 #### Individuals
 
@@ -163,7 +163,7 @@ menubar_toc_static:
 | 5 | Silver Spurs      | Bethel A/G (Askewville, NC)                    | 4/3 | 1150  | 164.29 |
 | 6 | Scottsdale Free   | 1st A/G (Scottsdale, AZ)                       | 3/4 | 1070  | 152.86 |
 | 7 | God Squad         | 1st A/G (Bernalillo, NM)                       | 1/6 | 575   | 82.14  |
-| 8 | Get Smart         | 1st A/G (Des Moines, IA)                       | 0/7 | 695   | 99.29  |
+| 8 | Get Smart         | 1st A/G (Des Moines, IA)                       | 0 / 7 | 695   | 99.29  |
 
 #### Individuals
 
@@ -228,7 +228,7 @@ menubar_toc_static:
 | 5 | Fizz Up                   | James River Assembly (Ozark, MO)        | 3/4 | 1065  | 152.14 |
 | 6 | Lightning                 | Carmel A/G (Bonifay, FL)                | 2/5 | 795   | 113.57 |
 | 7 | Lifepointe Miners         | Lifepointe Church (Prescott Valley, AZ) | 2/5 | 850   | 121.43 |
-| 8 | Ewa Beach Assembly of God | Ewa Beach A/G (Ewa Beach, HI)           | 0/7 | 105   | 15.00  |
+| 8 | Ewa Beach Assembly of God | Ewa Beach A/G (Ewa Beach, HI)           | 0 / 7 | 105   | 15.00  |
 
 #### Individuals
 
@@ -356,7 +356,7 @@ menubar_toc_static:
 | 5 | Greater Lansing             | 1st A/G (East Lansing, MI)                   | 4/3 | 930   | 132.86 |
 | 6 | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY)         | 3/4 | 735   | 105.00 |
 | 7 | Justified Gems              | Evangel (Columbus, MS)                       | 1/6 | 680   | 97.14  |
-| 8 | Wild Things                 | Glad Tidings Church (Hanford, CA)            | 0/7 | 415   | 59.29  |
+| 8 | Wild Things                 | Glad Tidings Church (Hanford, CA)            | 0 / 7 | 415   | 59.29  |
 
 #### Individuals
 
@@ -485,7 +485,7 @@ menubar_toc_static:
 | 5 | Grace Assembly of God               | Grace A/G (New Whiteland, IN)     | 4/3 | 1125  | 160.71 |
 | 6 | G.R.I.P.                            | The Bridge (Mustang, OK)          | 2/5 | 860   | 122.86 |
 | 7 | Status Update                       | 1st A/G (Fargo, ND)               | 1/6 | 815   | 116.43 |
-| 8 | Phoenix First Frogs                 | 1st A/G (Phoenix, AZ)             | 0/7 | 720   | 102.86 |
+| 8 | Phoenix First Frogs                 | 1st A/G (Phoenix, AZ)             | 0 / 7 | 720   | 102.86 |
 
 #### Individuals
 

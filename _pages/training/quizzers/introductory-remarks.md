@@ -25,16 +25,6 @@ Most writers will never ask something like the following:
 
 These questions don't go well together. When you complete these questions, try to remember the analogies that you have to do on standardized tests.
 
-#### Two-(Three-,etc-) Part Reference Question
-
-The only difference between this question and the previous question is that the answers no longer come from a single verse. For instance, look at the following question from 1 Cor 1:14-15:
-
-> Paul was thankful for what and why?
-
-The "thankful for what" part is answered in verse 14 and the "why" is answered in verse 15. The verses the answers come from do not have to be consecutive. In fact, they could be from across the entire material. For instance:
-
-> Who wrote First Corinthians and who wrote Second Corinthians?
-
 #### Quotation Question
 
 These questions require the quizzer to give the verse perfectly. That means you cannot add, subtract, modify or change any word. You cannot say "Um" in the middle. You can't stutter in the middle of a word and start it over again. There are typically two ways to ask these:

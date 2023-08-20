@@ -8,6 +8,7 @@ menubar: menu_history
 
 | Year | Team                            | City                 | Region        |
 | ---- | ------------------------------- | -------------------- | ------------- |
+| 2023 | Trinity Church "One"            | Cedar Hill, TX       | South Central |
 | 2022 | New Life                        | Colorado Springs, CO | Southwest     |
 | 2021 | Calvary Church                  | Naperville, IL       | Great Lakes   |
 | 2020 | No Nationals due to COVID-19    |                      |               |

@@ -3,41 +3,32 @@ layout: default
 ---
 
 <div class="content">
-    <p>Published: {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} by {{ page.author }}{% endif %}</p>
+    <p>
+        <span class="post-details"
+            >Published: {{ page.date | date: "%b %-d, %Y" }}{% if page.author %}
+            <span class="lowercase">by</span> {{ page.author }}{% endif %}</span
+        >
+    </p>
     {% if page.image %}
-    <div><img src="{{ site.baseurl }}/assets/{{ page.date | date: "%Y" }}/{{ page.image }}" alt="{{ page.title }}"{% if page.image_max_height %} style="max-height:{{ page.image_max_height }}"{% endif %}></div>
-    {% endif %}
-        
-    {% if page.series %}
-        {% include series.html %}
-    {% endif %}
-
-    {{ content }}
+    <div>
+        <img src="{{ site.baseurl }}/assets/{{ page.date | date: "%Y" }}/{{
+        page.image }}" alt="{{ page.title }}"{% if page.image_max_height %}
+        style="max-height:{{ page.image_max_height }}"{% endif %}>
+    </div>
+    {% endif %} {% if page.series %} {% include series.html %} {% endif %} {{
+    content }}
 </div>
 
 <div class="tags">
-    {% for tag in page.tags %}
-      {% include tag.html tag=tag %}
-    {% endfor %}
-
-    {% if post %}
-      {% assign categories = post.categories %}
-    {% else %}
-      {% assign categories = page.categories %}
-    {% endif %}
-    {% if categories %}
-    <i class="fas fa-inbox"></i>&nbsp;
-    {% for category in categories %}
-      <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-      {% unless forloop.last %}&nbsp;{% endunless %}
-    {% endfor %}
-    {% endif %}
-  </div>
+    {% for tag in page.tags %} {% include tag.html tag=tag %} {% endfor %} {% if
+    post %} {% assign categories = post.categories %} {% else %} {% assign
+    categories = page.categories %} {% endif %} {% if categories %}
+    <i class="fas fa-inbox"></i>&nbsp; {% for category in categories %}
+    <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %} {% endif %}
+</div>
 
 {% unless site.hide_share_buttons %}
-{% include share-buttons.html %}
-{% endunless %}
-
-{% if site.disqus.shortname %}
-  {% include disqus.html %}
-{% endif %}
+<!-- {% include share-buttons.html %} -->
+{% endunless %} {% if site.disqus.shortname %} {% include disqus.html %} {%
+endif %}

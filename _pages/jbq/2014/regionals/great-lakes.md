@@ -18,25 +18,25 @@ menubar_toc_static:
 
 | #  | Team                  | Church                | W/L  | Total | Avg    |
 |---:|-----------------------|-----------------------|------|------:|-------:|
-| 1  | \* Naperville, IL (J) | Calvary Church        | 18/1 | 4405  | 231.84 |
-| 2  | \* Bowling Green, OH  | Dayspring A/G         | 15/4 | 3695  | 194.47 |
-| 3  | Brighton, MI          | Brighton A/G          | 15/4 | 3675  | 193.42 |
-| 4  | Naperville, IL (C)    | Calvary Church        | 14/5 | 3690  | 194.21 |
-| 5  | Akron, OH             | Celebration Church    | 13/6 | 3365  | 177.11 |
-| 6  | New Albany, OH        | One Church            | 13/6 | 3270  | 172.11 |
-| 7  | Naperville, IL (S)    | Calvary Church        | 12/7 | 3250  | 171.05 |
-| 8  | Warren, MI            | International A/G     | 12/7 | 3175  | 167.11 |
-| 9  | Novi, MI              | Brightmoor Christian  | 12/7 | 3145  | 165.53 |
-| 10 | \* East Lansing, MI   | 1st A/G of Gr Lansing | 10/9 | 3100  | 163.16 |
-| 11 | \* Versailles, KY     | King's Way A/G        | 9/10 | 3050  | 160.53 |
-| 12 | Toledo, OH            | Westgate Chapel       | 9/10 | 2765  | 145.53 |
-| 13 | Oswego, IL            | Family Church         | 9/10 | 2455  | 129.21 |
-| 14 | Indianapolis, IN      | The Caring Place      | 8/11 | 2590  | 136.32 |
-| 15 | \* Ft Wayne, IN       | 1st A/G               | 7/12 | 2380  | 125.26 |
-| 16 | Ft Wayne, IN          | 1st A/G               | 6/13 | 2395  | 126.05 |
-| 17 | Georgetown, KY        | Trinity A/G           | 3/16 | 2015  | 106.05 |
-| 18 | Fortville, IN         | New Life Christian    | 3/16 | 1630  | 85.79  |
-| 19 | Jackson, KY           | The Happy Church      | 2/17 | 1855  | 97.63  |
+| 1  | \* Naperville, IL (J) | Calvary Church        | 18 / 1 | 4405  | 231.84 |
+| 2  | \* Bowling Green, OH  | Dayspring A/G         | 15 / 4 | 3695  | 194.47 |
+| 3  | Brighton, MI          | Brighton A/G          | 15 / 4 | 3675  | 193.42 |
+| 4  | Naperville, IL (C)    | Calvary Church        | 14 / 5 | 3690  | 194.21 |
+| 5  | Akron, OH             | Celebration Church    | 13 / 6 | 3365  | 177.11 |
+| 6  | New Albany, OH        | One Church            | 13 / 6 | 3270  | 172.11 |
+| 7  | Naperville, IL (S)    | Calvary Church        | 12 / 7 | 3250  | 171.05 |
+| 8  | Warren, MI            | International A/G     | 12 / 7 | 3175  | 167.11 |
+| 9  | Novi, MI              | Brightmoor Christian  | 12 / 7 | 3145  | 165.53 |
+| 10 | \* East Lansing, MI   | 1st A/G of Gr Lansing | 10 / 9 | 3100  | 163.16 |
+| 11 | \* Versailles, KY     | King's Way A/G        | 9 / 10 | 3050  | 160.53 |
+| 12 | Toledo, OH            | Westgate Chapel       | 9 / 10 | 2765  | 145.53 |
+| 13 | Oswego, IL            | Family Church         | 9 / 10 | 2455  | 129.21 |
+| 14 | Indianapolis, IN      | The Caring Place      | 8 / 11 | 2590  | 136.32 |
+| 15 | \* Ft Wayne, IN       | 1st A/G               | 7 / 12 | 2380  | 125.26 |
+| 16 | Ft Wayne, IN          | 1st A/G               | 6 / 13 | 2395  | 126.05 |
+| 17 | Georgetown, KY        | Trinity A/G           | 3 / 16 | 2015  | 106.05 |
+| 18 | Fortville, IN         | New Life Christian    | 3 / 16 | 1630  | 85.79  |
+| 19 | Jackson, KY           | The Happy Church      | 2 / 17 | 1855  | 97.63  |
 | 20 | Henderson, KY         | 1st A/G               | 0/19 | 1055  | 55.53  |
 
 ## Individuals

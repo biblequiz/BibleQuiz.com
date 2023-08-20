@@ -85,7 +85,7 @@ menubar_toc_static:
 | 5 | J-BC United          | Wyckoff-NJ    | 3/4 | 965   | 137.86 |
 | 6 | G-The Praying Amigos | Brookfield-WI | 3/4 | 935   | 133.57 |
 | 7 | F-Q\'s               | Lexington-TN  | 2/5 | 1025  | 146.43 |
-| 8 | H-Gospel Gang        | Amarillo-TX   | 0/7 | 265   | 37.86  |
+| 8 | H-Gospel Gang        | Amarillo-TX   | 0 / 7 | 265   | 37.86  |
 
 #### Individuals
 
@@ -146,7 +146,7 @@ menubar_toc_static:
 | 5 | G-Warriors in Training | Columbiaville-MI | 3/4 | 1000  | 142.86 |
 | 6 | F-God\'s C.R.E.W.      | Oklahoma City-OK | 3/4 | 965   | 137.86 |
 | 7 | J-SWAT                 | Lakeville-MN     | 2/5 | 745   | 106.43 |
-| 8 | I-ACOG                 | Lawrenceville-GA | 0/7 | 480   | 68.57  |
+| 8 | I-ACOG                 | Lawrenceville-GA | 0 / 7 | 480   | 68.57  |
 
 #### Individuals
 
@@ -338,7 +338,7 @@ menubar_toc_static:
 | 5 | J-Family Life Christian Center | Federal Way-WA    | 3/4 | 910   | 130.00 |
 | 6 | G-CIA                          | Mustang-OK        | 2/5 | 930   | 132.86 |
 | 7 | H-Karate Quizzers              | Bismarck-ND       | 2/5 | 895   | 127.86 |
-| 8 | F-The Four-ce Unleashed        | Universal City-TX | 0/7 | 750   | 107.14 |
+| 8 | F-The Four-ce Unleashed        | Universal City-TX | 0 / 7 | 750   | 107.14 |
 
 #### Individuals
 
@@ -583,7 +583,7 @@ menubar_toc_static:
 | 5 | H-Calvary Champions        | Chattanooga-TN    | 3/4 | 1005  | 143.57 |
 | 6 | G-Ashland, Al              | Ashland-AL        | 3/4 | 905   | 129.29 |
 | 7 | F-Lightning                | Bonifay-FL        | 2/5 | 910   | 130.00 |
-| 8 | J-God\'s Girlz             | Surprise-AZ       | 0/7 | 580   | 82.86  |
+| 8 | J-God\'s Girlz             | Surprise-AZ       | 0 / 7 | 580   | 82.86  |
 
 #### Individuals
 
@@ -642,7 +642,7 @@ menubar_toc_static:
 | 5 | B-S.P.Y. Kids 007           | Leesburg-VA      | 4/3 | 885   | 126.43 |
 | 6 | B-Purple                    | Ozark-MO         | 3/4 | 885   | 126.43 |
 | 7 | B-Word of Life Lightbearers | Springfield-VA   | 3/4 | 1005  | 143.57 |
-| 8 | B-Quiz Kidz                 | Scotch Plains-NJ | 0/7 | 460   | 65.71  |
+| 8 | B-Quiz Kidz                 | Scotch Plains-NJ | 0 / 7 | 460   | 65.71  |
 
 #### Individuals
 
@@ -895,7 +895,7 @@ menubar_toc_static:
 | 5 | F-Gideon\'s Army           | Huber Heights-OH   | 4/3 | 1275  | 182.14 |
 | 6 | F-Q\'s                     | Lexington-TN       | 2/5 | 990   | 141.43 |
 | 7 | F-Desert Joy Bible Buzzers | Litchfield Park-AZ | 1/6 | 575   | 82.14  |
-| 8 | F-Mighty Disciples         | Santa Ana-CA       | 0/7 | 600   | 85.71  |
+| 8 | F-Mighty Disciples         | Santa Ana-CA       | 0 / 7 | 600   | 85.71  |
 
 #### Individuals
 
@@ -954,7 +954,7 @@ menubar_toc_static:
 | 5 | H-Karate Quizzers   | Bismarck-ND       | 3/4 | 860   | 122.86 |
 | 6 | H-Buzz Hogs         | Mabelvale-AR      | 3/4 | 975   | 139.29 |
 | 7 | H-Temple - Clanton  | Clanton-AL        | 2/5 | 870   | 124.29 |
-| 8 | H-Gospel Gang       | Amarillo-TX       | 0/7 | 425   | 60.71  |
+| 8 | H-Gospel Gang       | Amarillo-TX       | 0 / 7 | 425   | 60.71  |
 
 #### Individuals
 

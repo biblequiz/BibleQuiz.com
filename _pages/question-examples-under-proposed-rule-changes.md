@@ -3,6 +3,7 @@ layout: page
 permalink: /question-examples-under-proposed-rule-changes/
 title: "Question Examples Under Rule Changes"
 date: "2022-01-17"
+menubar_toc: true
 ---
 
 To help quizzers, coaches, officials, and question writers understand the latest changes, we have compiled many of the common questions with answers from multiple verses to show the differences. The following examples will feature two questions in a before/after format.
@@ -27,16 +28,16 @@ If the introductory remarks specify multiple chapters, you may not hear "From se
 
 ## Give a complete answer
 
-- If the answer comes from consecutive verses, the introductory remark will state "From \_\_\_ consecutive verses..."
-- If the answer comes from separate verses, the introductory remark will state "From \_\_\_ separate verses..."
+- If the answer comes from consecutive verses, the introductory remark will **always** state "From \_\_\_ consecutive verses..."
+- If the answer comes from separate verses, the introductory remark will **always** state "From \_\_\_ separate verses..."
 - For Give a complete answer, the introductory remarks will **always** tell you how many verses the answer will come from.
 
-#### From consecutive verses
+### From consecutive verses
 
 > **20 points. 2-part question. Give a complete answer from 2 consecutive verses. From First Peter chapter 2.**  
 Like newborn babies, what should you do, and why?
 
-> **20 points. 2-part question. Give a complete answer.  From 2 consecutive verses of First Peter chapter 2.**  
+> **20 points. 2-part question. Give a complete answer. From 2 consecutive verses of First Peter chapter 2.**  
 Like newborn babies, what should you do, and why?
 
 ---
@@ -47,7 +48,7 @@ Give all Enoch's words.
 > **30 points. Give a complete answer. From 2 consecutive verses of Jude.**  
 Give all Enoch's words.
 
-#### From separate verses of the same chapter
+### From separate verses of the same chapter
 
 > **20 points. Give 3 complete answers. From Hebrews chapter 3.**  
 According to separate verses, hold firmly to what?  
@@ -67,7 +68,7 @@ According to separate verses, let us do what?
 > **20 points. Give 2 complete answers. From 2 separate verses of Hebrews chapter 13.**  
 Let us do what?
 
-#### From separate verses of different chapters
+### From separate verses of different chapters
 
 > **20 points. 2-part reference question. Give a complete answer.**  
 According to Hebrew 7:5 and 9:22, the law requires what?  
@@ -100,9 +101,9 @@ Finish this verse and the one which follows, quote, "This letter is from Peter�
 
 If the question asks for consecutive verses by reference in the question itself, it must not be labeled a multiple part question and must say "from \_\_\_ consecutive verses."
 
-#### Requiring consecutive verses from the same chapter
+### From consecutive verses of the same chapter
 
-When asking for consecutive verses by the verse number, questions are required to be asked like this when the chapter is in the question.
+When asking for consecutive verses by the verse number AND the chapter is in the *question*, the question is required to be asked like this.
 
 > **30 points. Quotation question. From 1 Peter.**  
 Quote verses 14, 15, and 16 from the 4th chapter.
@@ -110,7 +111,7 @@ Quote verses 14, 15, and 16 from the 4th chapter.
 > **30 points. Quotation question. From 3 consecutive verses of 1 Peter.**  
 Quote verses 14, 15, and 16 from the 4th chapter.
 
-When asking for consecutive verses by the verse number, questions are required to be asked like this when the chapter is in the introductory remarks.
+When asking for consecutive verses by the verse number AND the chapter is in the *introductory remarks*, the question is required to be asked like this.
 
 > **30 points. 3-part quotation question. From 1 Peter chapter 4.**  
 Quote verses 14, 15, and 16.
@@ -118,23 +119,57 @@ Quote verses 14, 15, and 16.
 > **30 points. Quotation question. From 3 consecutive verses of 1 Peter chapter 4.**  
 Quote verses 14, 15, and 16.
 
-When asking for a person, place, or item, the introductory remarks will look like this.
+When asking for a person, place, topic, item, etc., the introductory remarks will look like this.
 
 > **20 points. 2-part reference quotation question. From Hebrews chapter 4.**  
+Quote the verse in which **David** is named, and the verse in which **Joshua** is named.  
+[Heb 4:7]  
+[Heb 4:8]
+
+> **20 points. 2-part quotation question. From consecutive verses of Hebrews chapter 4**.  
 Quote the verse in which **David** is named, and the verse in which **Joshua** is named.
 
-> **20 points. 2-part quotation question. From consecutive verses of Hebrews chapter 4**.**  
-Quote the verse in which **David** is named, and the verse in which **Joshua** is named.
+### From separate verses of the same chapter
 
-#### Requiring separate verses in different chapters
+> **for 20 points. Quotation question. 2-part answer. From Mark chapter 1.**  
+Quote the verses in which Nazareth is named.  
+Mark 1:9  
+Mark 1:24
 
-> **30 points. Quotation question. 2-part answer.**  
-Quote the verses in which Peter is named.  
-\[1P 1:1\]    Peter, an apostle of Jesus Christ, To God's elect, exiles scattered throughout the provinces of Pontus, Galatia, Cappadocia, Asia and Bithynia,  
-\[2P 1:1\]    Simon Peter, a servant and apostle of Jesus Christ, To those who through the righteousness of our God and Savior Jesus Christ have received a faith as precious as ours
+All of the following are acceptable ways to write this question.
 
-> **30 points. Quotation question. 2-part answer. From separate verses.**  
-Quote the verses in which Peter is named.
+> **for 20 points. Quotation question. From 2 separate verses of Mark chapter 1.**  
+Quote the verses in which Nazareth is named.  
+
+> **for 20 points. Quotation question. 2-part answer. From separate verses of Mark chapter 1.**  
+Quote the verses in which Nazareth is named.  
+
+> **for 20 points. Quotation question. From separate verses of Mark chapter 1.**  
+Quote the two verses in which Nazareth is named.  
+
+### From separate verses of different chapters
+
+Consider the following question.
+
+> **for 20 points. Quotation question. 2-Part answer.**  
+Quote the verses that mention gold.  
+[1 Timothy 2:9]  
+[2 Timothy 2:20]
+
+All of the following are acceptable ways to write this question.
+
+> **for 20 points. Quotation question. From 2 separate verses.**  
+Quote the verses that mention gold. 
+
+> **for 20 points. Quotation question. 2-Part answer. From separate verses.**  
+Quote the verses that mention gold.  
+
+> **for 20 points. Quotation question. 2-Part answer. From First Timothy and Second Timothy.**  
+Quote the verses that mention gold.  
+
+> **for 20 points. Quotation question. From separate verses.**  
+Quote the two verses that mention gold.
+
 
 ---
 
@@ -144,7 +179,7 @@ People are governed by kings and emperors. Give in essence the two verses which 
 > **30 points. Statement and 2-part essence question. 4-part answer. From separate verses.**  
 People are governed by kings and emperors. Give in essence the two verses which mention kings and the two verses which mention emperors.
 
-#### Requiring separate verses by their reference
+### From separate verses by full reference
 
 > **20 points. 2-part reference quotation question.**  
 Quote Hebrews 8:12 and 10:17.
@@ -152,7 +187,7 @@ Quote Hebrews 8:12 and 10:17.
 > **20 points. 2-part quotation question. From separate verses.**  
 Quote Hebrews 8:12 and 10:17.
 
-#### Quote and give the references
+### Quote and give the references
 
 > **20 points. 2-Part quotation question. 4-part answer.**  
 Quote, and give the complete references for, the two verses in which Balaam is named. 
@@ -163,14 +198,6 @@ Quote, and give the complete references for, the two verses in which Balaam is n
 ✅ Required to state if the answer will come from consecutive/separate verses\*
 
 ## Chapter Analysis Answer
-
-> **20 points. 2-part reference question. Chapter analysis answer. From the section titled, The Living Stone and a Chosen People.**  
-Which Old Testament Scripture **precedes** the word “And,” and which Old Testament Scripture **follows** the word “And”?
-
-> **20 points. 2-part question. Chapter analysis answer. From separate verses of the section titled, The Living Stone and a Chosen People.**  
-Which Old Testament Scripture **precedes** the word “And,” and which Old Testament Scripture **follows** the word “And”?
-
----
 
 > **30 points. 2-part reference question. 7-part chapter analysis answer. From Hebrews chapter 7.**  
 Which individuals and geographical location are named?
@@ -186,11 +213,19 @@ Excluding Hebrews, which questions are found?
 > **30 points. 6-part chapter analysis answer. From separate verses.**  
 Excluding Hebrews, which questions are found?
 
-#### Summary
+---
+
+> **20 points. 2-part reference question. Chapter analysis answer. From the section titled, The Living Stone and a Chosen People.**  
+Which Old Testament Scripture **precedes** the word “And,” and which Old Testament Scripture **follows** the word “And”?
+
+> **20 points. 2-part question. Chapter analysis answer. From separate verses of the section titled, The Living Stone and a Chosen People.**  
+Which Old Testament Scripture **precedes** the word “And,” and which Old Testament Scripture **follows** the word “And”?
+
+### Summary
 
 ✅ Required to state if the answer will come from consecutive/separate verses\*
 
-#### ⚠️ Exception
+### ⚠️ Exception
 
 In the case where an individual or geographical location is named multiple times, unless all of the occurrences of the required answers are consecutive, it must be labeled "From separate verses."
 
@@ -198,7 +233,7 @@ In the case where an individual or geographical location is named multiple times
 In theory, the question writer could demand verses 31 and 32 **_or_** verses 32 and 35, both with the same answer of "Peter, Jesus."  
 This is required to be labeled "From separate verses."
 
-## Questions that require multiple answers from multiple verses (not Chapter Analysis, GCA, QQ/EQ, or QCQ/ECQ)
+## Multiple answers from multiple verses (not Chapter Analysis, GCA, QQ/EQ, or QCQ/ECQ)
 
 This works in the same way it does under the existing rules, with the addition of "From separate verses" or "From consecutive verses."
 
@@ -218,17 +253,20 @@ Who were persecuted?
 > **20 points. 3-Part answer. From separate verses of Hebrews.**  
 Who were persecuted?
 
-#### ⚠️ Exception
+### Summary
+
+✅ Required to state if the answer will come from consecutive/separate verses
+
+### ⚠️ Exception
 
 In the case where an answer appears multiple times in a chapter, unless all of the occurrences of the required answers are consecutive, it must be labeled "From separate verses."
 
-> Suppose a question asks how the author completes the phrase "of God." In the chapter, "will of God" appears in verses 17 and 22, and "kingdom of God" appears in verse 18. In theory, the question writer could demand verses 17 and 18 **_or_** verses 18 and 22, both with the same answer of "will, kingdom." This is required to be labeled "From separate verses."
+> Suppose a question asks how the author completes the phrase "of God."  
+> In the chapter, "will of God" appears in verses 17 and 22, and "kingdom of God" appears in verse 18.  
+> In theory, the question writer could demand verses 17 and 18 **_or_** verses 18 and 22, both with the same answer of "will, kingdom."  
+> This is required to be labeled "From separate verses."
 
-#### Summary
-
-✅ Required to state if the answer will come from consecutive/separate verses\*  
-
-## Questions that require books, chapters, or references
+## Requiring books, chapters, or references
 
 Because the question is asking for a *location* and not the content of book, chapter, or verse itself, the introductory remarks cannot state "From consecutive/separate verses."
 
@@ -244,14 +282,14 @@ This question remains the same.
 ## Summary
 
 | Type                                          | States number of verses | States consecutive/separate verses |
-|-----------------------------------------------|-------------------------|------------------------------------|
-| Give a complete answer                        | ✅                       | ✅                                  |
-| Quotation/Essence (by verse number)           | ✅                       | ✅                                  |
-| Quotation/Essence (all others)                | ⚠️                      | ✅                                  |
-| Quotation/Essence Completion                  | ⚠️		                | ⚠️		                         |
-| Chapter analysis answer                       | ⚠️                      | ✅	                            |
-| Others                                        | ⚠️                      | ✅                                  |
-| Answer demands books, chapters, or references | 🚫                      | 🚫                                 |
+| --------------------------------------------- | ----------------------- | ---------------------------------- |
+| Give a complete answer                        | ✅                      | ✅                                 |
+| Quotation/Essence (by verse number)           | ✅                      | ✅                                 |
+| Quotation/Essence (all others)                | ⚠️                       | ✅                                 |
+| Quotation/Essence Completion                  | ⚠️                       | ⚠️                                 |
+| Chapter analysis answer                       | ⚠️                      | ✅                                 |
+| Others                                        | ⚠️                      | ✅                                 |
+| Answer demands books, chapters, or references | 🚫                     | 🚫                                 |
 
 
 ✅ = Required  

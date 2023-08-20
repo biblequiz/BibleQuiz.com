@@ -168,7 +168,7 @@ menubar_toc_static:
 | 5 | James River A/G, Ozark, MO Zeal                    |        | 4/3 | 850   | 121.43 |
 | 6 | Mechanicsville Christian Center M, Mechanicsville  |        | 2/5 | 685   | 97.86  |
 | 7 | First A/G, Binghamton, New York                    |        | 1/6 | 625   | 89.29  |
-| 8 | Living Hope Worship Center, Swedesboro, New Jersey |        | 0/7 | 375   | 53.57  |
+| 8 | Living Hope Worship Center, Swedesboro, New Jersey |        | 0 / 7 | 375   | 53.57  |
 
 ### Individuals
 
