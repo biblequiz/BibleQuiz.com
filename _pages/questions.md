@@ -4,7 +4,6 @@ permalink: /questions/
 title: "Questions"
 date: "2016-05-01"
 menubar: menu_current_season
-menubar_ads: ads_simple
 ---
 
 ![]({% link assets/2024/Banner AQ.jpg %})

@@ -3,7 +3,6 @@ layout: page
 permalink: /events/
 title: "Events - Tournaments"
 menubar: menu_current_season
-menubar_ads: ads_simple
 tabs: tabs_events
 toc: true
 ---

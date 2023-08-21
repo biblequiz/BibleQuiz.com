@@ -3,7 +3,6 @@ layout: page
 permalink: /events/training/
 title: "Events - Training Opportunities"
 menubar: menu_current_season
-menubar_ads: ads_simple
 tabs: tabs_events
 ---
 

@@ -28,3 +28,24 @@ a:hover {
 .lowercase {
 	text-transform: lowercase;
 }
+
+/* footer ads */
+
+.ads-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px;
+}
+
+.ads-container img {
+	max-width: 350px;
+	height: auto;
+	padding: 20px;
+}
+
+@media (max-width: 1024px) {
+	.ads-container {
+		flex-direction: column;
+	}
+}

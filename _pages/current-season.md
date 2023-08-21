@@ -4,7 +4,6 @@ permalink: /current-season/
 title: "Current Season"
 date: "2016-05-01"
 menubar: menu_current_season
-menubar_ads: ads_simple
 ---
 
 Use the menu to find information on the 2023-2024 Bible Quiz season covering Romans and James
