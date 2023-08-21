@@ -12,10 +12,10 @@ A simple scripture portion for the first league meet over Romans 8!
 <a href="{% link assets/2024/XP5-Starter-LM1.pdf %}" class="button is-primary">XP5 Starter Kit (PDF)</a>
 <a href="{% link assets/2024/XP5-Starter-LM1.docx %}" class="button is-primary">XP5 Starter Kit (DOCX)</a>
 
-<!-- ### Bible Quiz Cheat Sheet
+### Bible Quiz Cheat Sheet
 The fastest way to learn about Bible Quiz and a must-have for new teams at their first match!
 
-<a href="{% link assets/2024/23-24_TBQ-Cheat-Sheet.pdf %}" class="button is-primary">Download Cheat Sheet</a> -->
+<a href="{% link assets/2024/23-24_TBQ-Cheat-Sheet.pdf %}" class="button is-primary">Download Cheat Sheet</a>
 
 # Rules & Guidelines
 
