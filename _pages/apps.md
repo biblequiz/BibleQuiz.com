@@ -15,8 +15,8 @@ date: "2023-05-27"
         <div class="content">
             <p>Keeps score for each room during a Bible Quiz competition. You need to register your competitions on <a href="https://registration.biblequiz.com/" target="_blank">https://registration.biblequiz.com/</a>. The schedule for the event is configured by the competition coordinator using ScoreKeep.</p>
         </div>
-        <a href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.windows.msixbundle" class="button is-primary">
-            <i class="fab fa-windows"></i>&nbsp;Windows
+        <a href="ms-windows-store://pdp/?productid=9P9QK3DF8J8B" class="button is-primary">
+            <i class="fab fa-windows"></i>&nbsp;Windows Store
         </a>
         <a href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.android.apk" class="button is-primary">
             <i class="fab fa-android"></i>&nbsp;Android&nbsp;<span class="tag is-danger"><i>BETA</i></span>
@@ -37,8 +37,8 @@ date: "2023-05-27"
         <div class="content">
             <p>Manage a competition for use with EZScore and publishing scores on BibleQuiz.com. It is intended for use in conjunction with <a href="https://registration.biblequiz.com/" target="_blank">https://registration.biblequiz.com/</a>.</p>
         </div>
-        <a href="https://github.com/biblequiz/Releases.ScoreKeep/releases/latest/download/com.biblequiz.scorekeep.windows.msixbundle" class="button is-primary">
-            <i class="fab fa-windows"></i>&nbsp;Windows
+        <a href="ms-windows-store://pdp/?productid=9NNMH0HV2274" class="button is-primary">
+            <i class="fab fa-windows"></i>&nbsp;Windows Store
         </a>
         <p class="title is-6" style="margin-top:30px">ScoreKeep Training Videos</p>
         <ul>

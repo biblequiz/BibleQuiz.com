@@ -1380,7 +1380,7 @@ Nothing too ingenious this season, although we have hotly debated whether the Ho
 * **Tournaments attended this year**:
   * [Empire Classic]({% link _pages/history/2010/tournaments/empire-classic.md %})
   * [Gobblefest]({% link _pages/history/2010/tournaments/gobblefest.md %})
-  * Southern Fried Classic
+  * [Southern Fried Classic]({% link _pages/history/2010/tournaments/southern-fried-classic.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
   * [Three Rivers]({% link _pages/history/2010/tournaments/three-rivers.md %})
 * **Favorite non-quiz related moment this year**\
@@ -1905,7 +1905,7 @@ Any, and all, of Joey Bohanon's Statement and Quotation questions!
   * [Gold Cup]({% link _pages/history/2010/tournaments/gold-cup.md %})
   * [Michiana]({% link _pages/history/2010/tournaments/michiana.md %})
   * [Missouri Classic]({% link _pages/history/2010/tournaments/missouri-classic.md %})
-  * Southern Fried Classic
+  * [Southern Fried Classic]({% link _pages/history/2010/tournaments/southern-fried-classic.md %})
   * [South Texas Invitational]({% link _pages/history/2010/tournaments/south-texas-invitational.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
   * [Owasso Xtreme]({% link _pages/history/2010/tournaments/owasso-xtreme.md %})
@@ -2078,7 +2078,7 @@ The 2nd round of Regions was with Highpointe from (OKC,OK). Paul fizzed out and 
 1 Corinthians 15:57-58: "But thanks be to God! He gives us the victory through our Lord Jesus Christ"
 * **Tournaments attended this year**:
   * [Gold Cup]({% link _pages/history/2010/tournaments/gold-cup.md %})
-  * Southern Fried Classic
+  * [Southern Fried Classic]({% link _pages/history/2010/tournaments/southern-fried-classic.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
   * [Owasso Xtreme]({% link _pages/history/2010/tournaments/owasso-xtreme.md %})
 * **Favorite non-quiz related moment this year**\
@@ -2711,7 +2711,7 @@ At Districts, we had to win our final round of regular competition against Churc
 * **Favorite verse from Corinthians**\
 1 Corinthians 15:32: If I fought wild beasts in Ephesus for merely human reasons, what have I gained? If the dead are not raised, "Let us eat and drink, for tomorrow we die." We take our team name from this verse, largely because of the way we feel the day after quizzing.
 * **Tournaments attended this year**:
-  * Southern Fried Classic
+  * [Southern Fried Classic]({% link _pages/history/2010/tournaments/southern-fried-classic.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
 * **Favorite non-quiz related moment this year**\
 Our official mascot is Shaun Lind, the nearly 2-year-old son of our coaches. He loves buzzing in with the quizzers, and we recorded his first interruption and completion, largely in gibberish. In general, coaching with a toddler presents new and exciting challenges.
