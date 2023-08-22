@@ -20,10 +20,26 @@ jbq:
     scoresLink: /jbq/2013/other/arkansas-razorback/
 tbq:
   regionFinals:
+  - name: "2013 Great Lakes Regionals"
+    scope: region
+    scopeLabel: Great Lakes
+    scoresLink: /history/2013/regionals/great-lakes/
+  - name: "2013 Gulf Regionals"
+    scope: region
+    scopeLabel: Gulf
+    scoresLink: /history/2013/regionals/gulf/
+  - name: "2013 North Central Regionals"
+    scope: region
+    scopeLabel: North Central
+    scoresLink: /history/2013/regionals/north-central/
   - name: "2013 Northeast Regionals"
     scope: region
     scopeLabel: Northeast
     scoresLink: /history/2013/regionals/northeast/
+  - name: "2013 Northwest Regionals"
+    scope: region
+    scopeLabel: Northwest
+    scoresLink: /history/2013/regionals/northwest/
   - name: "2013 South Central Regionals"
     scope: region
     scopeLabel: South Central
@@ -32,6 +48,10 @@ tbq:
     scope: region
     scopeLabel: Southeast
     scoresLink: /history/2013/regionals/southeast/
+  - name: "2013 Southwest Regionals"
+    scope: region
+    scopeLabel: Southwest
+    scoresLink: /history/2013/regionals/southwest/
   tournament:
   - name: River Classic
     scope: tournament
