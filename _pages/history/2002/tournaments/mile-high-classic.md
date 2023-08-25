@@ -2,6 +2,7 @@
 layout: page
 title: "2002 Mile High Classic"
 permalink: /history/2002/tournaments/mile-high-classic/
+date: "2002-03-09"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
