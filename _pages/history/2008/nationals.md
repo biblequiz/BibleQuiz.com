@@ -30,7 +30,7 @@ Team photos are provided courtesy of Larry Mullins.
 
 ### Teams
 
-| Rank | Team                                                              | Record | Total | Margin |  Avg | Avg Margin |
+| Rank | Team                                                              | Record | Total | Avg |  Margin | Avg Margin |
 | ---: | ----------------------------------------------------------------- | ------ | ----: | -----: | ---: | ---------: |
 |    1 | Owasso First A/G, Owasso, OK                                      | 19 / 0 |  4390 | 231.05 | 2850 |        150 |
 |    2 | Cedar Park A/G, Bothell, WA                                       | 16 / 3 |  4130 | 217.37 | 2230 |     117.37 |
@@ -141,7 +141,7 @@ Team photos are provided courtesy of Larry Mullins.
 
 ### Teams
 
-| Rank | Team                                                                            | Record | Total | Margin |   Avg | Avg Margin |
+| Rank | Team                                                                            | Record | Total | Avg |   Margin | Avg Margin |
 | ---: | ------------------------------------------------------------------------------- | ------ | ----: | -----: | ----: | ---------: |
 |    1 | James River A/G, "In Chains", Ozark, MO                                         | 18 / 1 |  3495 | 183.95 |  2295 |     120.79 |
 |    2 | Calvary A/G, South Bend, IN                                                     | 16 / 3 |  3020 | 158.95 |  1600 |      84.21 |
