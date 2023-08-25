@@ -2271,7 +2271,7 @@ Quote John 11:35.
   * Curtis: John 10:28
 * **Tournaments attended this year**:
   * Peach Classic
-  * [Sunshine Classic]({% link _pages/history/2011/tournaments/sunshine-classic.md %})
+  * [Son Shine Classic]({% link _pages/history/2011/tournaments/son-shine-classic.md %})
   * Atlanta Open
   * Owasso Xtreme
 {% endcapture %}
