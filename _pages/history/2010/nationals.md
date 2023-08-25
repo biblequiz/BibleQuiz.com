@@ -580,7 +580,7 @@ A mile long question asking which chapters shared section titles.
 * **Tournaments attended this year**:
   * [Michiana]({% link _pages/history/2010/tournaments/michiana.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
+  * [Atlanta Open]({% link _pages/history/2010/tournaments/mark-gilmer-atlanta-open.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
 * **Favorite non-quiz related moment this year**\
 This can be something that happened in a church van, in a hotel room, etc.- Our team stayed at a lake house at Regionals it was such a blessing.Other answers from various quizzers: listening to Geddy and Billy quoting in princess voices, hanging with quizzers at Panera, speed boat last year on the Dells, Stone Mountain.
@@ -780,7 +780,7 @@ A mile long question asking which chapters shared section titles.
 * **Tournaments attended this year**:
   * [Michiana]({% link _pages/history/2010/tournaments/michiana.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
+  * [Atlanta Open]({% link _pages/history/2010/tournaments/mark-gilmer-atlanta-open.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
 * **Favorite non-quiz related moment this year**\
 This can be something that happened in a church van, in a hotel room, etc.- Our team stayed at a lake house at Regionals it was such a blessing.Other answers from various quizzers: listening to Geddy and Billy quoting in princess voices, hanging with quizzers at Panera, speed boat last year on the Dells, Stone Mountain.
@@ -981,7 +981,7 @@ Application Question-What do Christians smell like?
   * Matthew: 1C 1:8
   * Daniel: 2C 11:33
 * **Tournaments attended this year**:
-  * [Gold Cup]({% link _pages/history/2010/tournaments/gold-cup.md %})
+  * Gold Cup
   * [Missouri Classic]({% link _pages/history/2010/tournaments/missouri-classic.md %})
   * [South Texas Invitational]({% link _pages/history/2010/tournaments/south-texas-invitational.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
@@ -1378,7 +1378,7 @@ Nothing too ingenious this season, although we have hotly debated whether the Ho
 * **Favorite verse from Corinthians**\
 2 Corinthians 11:16: "I repeat: Let no one take me for a fool. But if you do, then receive me just as you would a fool, so that I may do a little boasting."
 * **Tournaments attended this year**:
-  * [Empire Classic]({% link _pages/history/2010/tournaments/empire-classic.md %})
+  * Empire Classic
   * [Gobblefest]({% link _pages/history/2010/tournaments/gobblefest.md %})
   * [Southern Fried Classic]({% link _pages/history/2010/tournaments/southern-fried-classic.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
@@ -1446,7 +1446,7 @@ We haven't had many crazy contests...YET! ;)
 * **Favorite verse from Corinthians**\
 2 Corinthians 4:8-9 "We are hard-pressed on every side, but not crushed; perplexed, but not in despair; persecuted, but not abandoned; struck down, but not destroyed." also 1 Corinthians 9:25 "Everyone who competes in the games goes into strict training. They do it to get a crown that will not last, but we do it to get a crown that will last forever.
 * **Tournaments attended this year**\
-  * [Empire Classic]({% link _pages/history/2010/tournaments/empire-classic.md %})
+  * Empire Classic
   * [Gobblefest]({% link _pages/history/2010/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
 * **Favorite non-quiz related moment this year**\
@@ -1571,7 +1571,7 @@ This year at Regionals we lost a round on the last question, which if we had got
 * **Favorite verse from Corinthians**\
 There are so many favorites but here's one: 1 Corinthians 13:13 And now these three remain: faith, hope and love. But the greatest of these is love.
 * **Tournaments attended this year**:
-  * [Empire Classic]({% link _pages/history/2010/tournaments/empire-classic.md %})
+  * Empire Classic
   * [Gobblefest]({% link _pages/history/2010/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
   * [Three Rivers]({% link _pages/history/2010/tournaments/three-rivers.md %})
@@ -1902,7 +1902,7 @@ Any, and all, of Joey Bohanon's Statement and Quotation questions!
   * Daniel: 2 Corinthians 11:29
   * Luke: 1 Corinthians 10:13 (copycat!)
 * **Tournaments attended this year**:
-  * [Gold Cup]({% link _pages/history/2010/tournaments/gold-cup.md %})
+  * Gold Cup
   * [Michiana]({% link _pages/history/2010/tournaments/michiana.md %})
   * [Missouri Classic]({% link _pages/history/2010/tournaments/missouri-classic.md %})
   * [Southern Fried Classic]({% link _pages/history/2010/tournaments/southern-fried-classic.md %})
@@ -1970,7 +1970,7 @@ Where do Slaps occur?
 * **Favorite verse from Corinthians**\
 2 Corinthians 3:17
 * **Tournaments attended this year**:
-  * [Gold Cup]({% link _pages/history/2010/tournaments/gold-cup.md %})
+  * Gold Cup
   * [South Texas Invitational]({% link _pages/history/2010/tournaments/south-texas-invitational.md %})
   * [Owasso Xtreme]({% link _pages/history/2010/tournaments/owasso-xtreme.md %})
 * **Favorite non-quiz related moment this year**\
@@ -2077,7 +2077,7 @@ The 2nd round of Regions was with Highpointe from (OKC,OK). Paul fizzed out and 
 * **Favorite verse from Corinthians**\
 1 Corinthians 15:57-58: "But thanks be to God! He gives us the victory through our Lord Jesus Christ"
 * **Tournaments attended this year**:
-  * [Gold Cup]({% link _pages/history/2010/tournaments/gold-cup.md %})
+  * Gold Cup
   * [Southern Fried Classic]({% link _pages/history/2010/tournaments/southern-fried-classic.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
   * [Owasso Xtreme]({% link _pages/history/2010/tournaments/owasso-xtreme.md %})
@@ -2246,7 +2246,7 @@ Team was 8th at Regionals last year and finished 1st this year. 1st time Cumming
   * [Peach Classic]({% link _pages/history/2010/tournaments/peach-classic.md %})
   * [Gobblefest]({% link _pages/history/2010/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
+  * [Atlanta Open]({% link _pages/history/2010/tournaments/mark-gilmer-atlanta-open.md %})
 * **Favorite non-quiz related moment this year**\
 Let's just say it involved a glass coffee table and manhunt in a very dark place :)
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
@@ -2436,7 +2436,7 @@ Friendship Classic - an overtime win against Bighamton, NY
 1 Corinthians 15:10
 * **Tournaments attended this year**:
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
+  * [Atlanta Open]({% link _pages/history/2010/tournaments/mark-gilmer-atlanta-open.md %})
   * [Owasso Xtreme]({% link _pages/history/2010/tournaments/owasso-xtreme.md %})
 * **Favorite non-quiz related moment this year**\
 This can be something that happened in a church van, in a hotel room, etc.
@@ -2510,7 +2510,7 @@ The question is: "Jars of Clay are a famous Christian band. Give the verse that 
   * Andy: 2 Corinthians 5:17
 * **Tournaments attended this year**
   * [Peach Classic]({% link _pages/history/2010/tournaments/peach-classic.md %})
-  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
+  * [Atlanta Open]({% link _pages/history/2010/tournaments/mark-gilmer-atlanta-open.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
 * **Favorite non-quiz related moment this year**\
 Rapping the Scripture in the van while driving to tournaments.
@@ -2647,7 +2647,7 @@ Every time I teach these books (this is my 4th time), I make sure that my favori
 This verse shuts down all the crying about being unable to stand up under temptation. No more excuses, the devil DIDN'T make you do it, and it certainly should be the end of hearing that "no one could stand up under that kind of pressure." This, along with Hebrews 4:14-16, must give us the confidence to know beyond a shadow of a doubt that we can stand against sin anytime we want to - the only problem that remains is the "want to" part. Anytime we "want to", we can find grace to help us in our time of need and be sure that our spiritual nature triumphs over our sinful nature:\
 Hebrews 4:14-16: Therefore, since we have a great high priest who has gone through the heavens, Jesus the Son of God, let us hold firmly to the faith we profess. 15For we do not have a high priest who is unable to sympathize with our weaknesses, but we have one who has been tempted in every way, just as we areyet was without sin. 16Let us then approach the throne of grace with confidence, so that we may receive mercy and find grace to help us in our time of need.
 * **Tournaments attended this year**:
-  * [Gold Cup]({% link _pages/history/2010/tournaments/gold-cup.md %})
+  * Gold Cup
   * [Missouri Classic]({% link _pages/history/2010/tournaments/missouri-classic.md %})
   * [South Texas Invitational]({% link _pages/history/2010/tournaments/south-texas-invitational.md %})
   * [River Classic]({% link _pages/history/2010/tournaments/river-classic.md %})
