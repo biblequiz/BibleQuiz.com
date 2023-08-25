@@ -789,7 +789,7 @@ Quote it.
   * [Southern Fried Classic]({% link _pages/history/2011/tournaments/southern-fried-classic.md %})
   * [Friendship Classic]({% link _pages/history/2011/tournaments/friendship-classic.md %})
   * [River Classic]({% link _pages/history/2011/tournaments/river-classic.md %})
-  * [Owasso Xtreme]({% link _pages/history/2011/tournaments/owasso-xtreme.md %})
+  * Owasso Xtreme
 * **Favorite verse from John**
   * Emily: 19:30
   * Daniel: 1:24
@@ -958,7 +958,7 @@ It made everyone in the room go "Huh??" but Ellen got it anyway. (See John 6:8-9
   * [Missouri Classic]({% link _pages/history/2011/tournaments/missouri-classic.md %})
   * [Southern Fried Classic]({% link _pages/history/2011/tournaments/southern-fried-classic.md %})
   * [River Classic]({% link _pages/history/2011/tournaments/river-classic.md %})
-  * [Owasso Xtreme]({% link _pages/history/2011/tournaments/owasso-xtreme.md %})
+  * Owasso Xtreme
 * **Favorite non-quiz related moment(s) this year**
 When WE WENT AND GOT MATCHING TATTOOS!!! It was the craziest, most bonding thing we've ever done together.\
 \
@@ -1732,7 +1732,7 @@ The first morning of quizzing at the West Coast Open, the very first question in
 * **Favorite Verse from John**\
 John 1:16: From the fullness of his grace we have all received one blessing after another.
 * **Tournaments attended this year**:
-  * [West Coast Classic]({% link _pages/history/2011/tournaments/west-coast-classic.md %})
+  * West Coast Classic
 * **Favorite non-quiz related moment(s) this year**\
 We played a game at our Christmas party based on a new game called Things, and had some pretty funny answers. Everyone thinks of an answer to a category-type question, and then you try to guess whose answer is whose.
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
@@ -2204,8 +2204,8 @@ Montgomery First made it to Nationals for the first time in 1985 under the direc
 16:33
 * **Tournaments attended this year**:
   * [Friendship Classic]({% link _pages/history/2011/tournaments/friendship-classic.md %})
-  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
-  * [Owasso Xtreme]({% link _pages/history/2011/tournaments/owasso-xtreme.md %})
+  * Atlanta Open
+  * Owasso Xtreme
 * **Favorite non-quiz related moment this year**\
 We always go snow tubing on Saturday night after the Friendship in Pittsburg (3 years running now). This year, the weather was a little warmer, to the point to where a lot of the snow had melted during the day and refrozen that night making a very icy (and very fast) slope. It was the coach's bright idea to have a little competition among the group to see who could make all the way to the padding about 50 yards past the stopping point). All of the quizzers went first and a couple of them actually made it. It was now the coach's turn and he was NOT going to be out-done. Needless to say, the coach was moving at a "super-sonic" speed coming down the steep slope. So much so, that he was unable to slow down before CRASHING into the wall and almost KILLING himself. Of course, the quizzers were laughing so hard that they couldn't even help him up! Fortunately, there were no broken bones, just a LOT of soreness, bruises, and a damaged ego.
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
@@ -2270,10 +2270,10 @@ Quote John 11:35.
   * Rachel: 17:23 and 20:21
   * Curtis: John 10:28
 * **Tournaments attended this year**:
-  * [Peach Classic]({% link _pages/history/2011/tournaments/peach-classic.md %})
+  * Peach Classic
   * [Sunshine Classic]({% link _pages/history/2011/tournaments/sunshine-classic.md %})
-  * [Atlanta Open]({% link _pages/history/2011/tournaments/mark-gilmer-atlanta-open.md %})
-  * [Owasso Xtreme]({% link _pages/history/2011/tournaments/owasso-xtreme.md %})
+  * Atlanta Open
+  * Owasso Xtreme
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Christ Community Church, Cumming, GA" html=image_html %}
@@ -2556,7 +2556,7 @@ Birthday verse: July 19 - 7:19 and Dec 25 - 12:25\
 John 9:34 To this they replied, "You were steeped in sin at birth; how dare you lecture us!" And they threw him out.
 * **Tournaments attended this year**:
   * [Missouri Classic]({% link _pages/history/2011/tournaments/missouri-classic.md %})
-  * [West Coast Classic]({% link _pages/history/2011/tournaments/west-coast-classic.md %})
+  * West Coast Classic
 * **Favorite Non-Quiz Related Moment**\
 While we were at the West Coast open we went to the Ocean. In the sand there was small patches of globs of tar and Chad got some on his knee and it didn't come off. I had to go to Home Depot and buy "Goof Off" to remove the tar. When I came back he was on the bathroom floor trying to rub it off with water and toilet paper with the rest of the team standing around him, laughing because it just wasn't working. Also at Regional's, Morgan walked into hotel room 216 thinking it was our room 316 (The door was open but still embarrassing).
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
