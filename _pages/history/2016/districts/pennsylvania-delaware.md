@@ -52,7 +52,50 @@ menubar_toc_static:
 |   17 | Colby Heller     | Eunuch‐corns       | Newport AG                     |   ‐20 |    ‐2 |      |
 |   18 | Elijah Earnest   | Undeniable         | First AG, Waynesburg           |    ‐5 |  ‐0.5 |      |
 
-## PD League
+## Middle School League
+
+### Teams
+
+*2 way ties broken by head to head, 3+ way ties broken by points*
+
+|    # | Team                    | Church                       | W / L  | Total |   Avg |
+| ---: | ----------------------- | ---------------------------- | ------ | ----: | ----: |
+|    1 | This Corrupt Generation | New Day, USC                 | 9 / 1  |  2050 |   205 |
+|    2 | Glad Hearts             | SHAG, Bethel Park            | 7 / 3  |  1400 |   140 |
+|    3 | Fearless Believers      | First AG, Waynesburg         | 6 / 4  |  1660 |   166 |
+|    4 | Burning Flames          | Central AG, Houston          | 6 / 4  |  1565 | 156.5 |
+|    5 | APC Middle School       | Allison Park Church          | 2 / 8  |   625 |  62.5 |
+|    6 | Calvary Temple          | Calvery Temple, Philadelphia | 0 / 10 |   595 |  59.5 |
+
+### Individuals
+
+*Ties broken by Average Points then Total Quiz Outs*
+
+|    # | Quizzer           | Team                    | Church                       | Total |  AVG |   QO |
+| ---: | ----------------- | ----------------------- | ---------------------------- | ----: | ---: | ---: |
+|    1 | Zachary Budday    | This Corrupt Generation | New Day, USC                 |   850 |   85 |    6 |
+|    2 | Joseph Benco      | Fearless Believers      | First AG, Waynesburg         |   835 | 83.5 |    7 |
+|    3 | Seth Robertson    | Burning Flames          | Central AG, Houston          |   765 | 76.5 |    7 |
+|    4 | Grace Fabian      | Glad Hearts             | SHAG, Bethel Park            |   705 | 70.5 |    5 |
+|    5 | Alex Bradley      | This Corrupt Generation | New Day, USC                 |   695 | 69.5 |    5 |
+|    6 | Kathryn Kicinski  | Burning Flames          | Central AG, Houston          |   635 | 63.5 |    5 |
+|    7 | Leah Miller       | Fearless Believers      | First AG, Waynesburg         |   630 |   63 |    3 |
+|    8 | Emily Larson      | APC Middle School       | Allison Park Church          |   625 | 62.5 |    4 |
+|    9 | Justin Reid       | This Corrupt Generation | New Day, USC                 |   505 | 50.5 |    3 |
+|   10 | Gabrielle Padilla | Calvary Temple          | Calvery Temple, Philadelphia |   430 |   43 |    2 |
+|   11 | Cassidy Misak     | Glad Hearts             | SHAG, Bethel Park            |   405 | 40.5 |    2 |
+|   12 | Lindsey Barber    | Glad Hearts             | SHAG, Bethel Park            |   290 |   29 |      |
+|   13 | Rachel Baily      | Fearless Believers      | First AG, Waynesburg         |   145 | 14.5 |      |
+|   14 | Deborah Ly        | Calvary Temple          | Calvery Temple, Philadelphia |   125 | 12.5 |      |
+|   15 | Nathanael Juan    | Burning Flames          | Central AG, Houston          |    70 |    7 |      |
+|   15 | Logan Malone      | Burning Flames          | Central AG, Houston          |    70 |    7 |      |
+|   16 | Indreal Morris    | Calvary Temple          | Calvery Temple, Philadelphia |    40 |    4 |      |
+|   17 | Gloria Acor       | Fearless Believers      | First AG, Waynesburg         |    30 |    3 |      |
+|   18 | Amaya Kocher      | Burning Flames          | Central AG, Houston          |    25 |  2.5 |      |
+|   19 | Eliza Baily       | Fearless Believers      | First AG, Waynesburg         |    20 |    2 |      |
+|   20 | Lauren Caimano    | Burning Flames          | Central AG, Houston          |       |    0 |      |
+
+## Pen-Del League
 
 ### Teams
 
@@ -127,46 +170,3 @@ menubar_toc_static:
 |   36 | Amber Gerlach     | Tongues of Fire            | ECC, Ephrata                               |       |      0 |      |
 |   36 | Ben Fenstermaker  | Squad                      | Emmanuel AG, Allentown                     |       |      0 |      |
 |   36 | Karissa West      | Cut 2 the Heart            | Lighthouse Christian Fellowship, Pennsburg |       |        |      |
-
-## Middle School League
-
-### Teams
-
-*2 way ties broken by head to head, 3+ way ties broken by points*
-
-|    # | Team                    | Church                       | W / L  | Total |   Avg |
-| ---: | ----------------------- | ---------------------------- | ------ | ----: | ----: |
-|    1 | This Corrupt Generation | New Day, USC                 | 9 / 1  |  2050 |   205 |
-|    2 | Glad Hearts             | SHAG, Bethel Park            | 7 / 3  |  1400 |   140 |
-|    3 | Fearless Believers      | First AG, Waynesburg         | 6 / 4  |  1660 |   166 |
-|    4 | Burning Flames          | Central AG, Houston          | 6 / 4  |  1565 | 156.5 |
-|    5 | APC Middle School       | Allison Park Church          | 2 / 8  |   625 |  62.5 |
-|    6 | Calvary Temple          | Calvery Temple, Philadelphia | 0 / 10 |   595 |  59.5 |
-
-### Individuals
-
-*Ties broken by Average Points then Total Quiz Outs*
-
-|    # | Quizzer           | Team                    | Church                       | Total |  AVG |   QO |
-| ---: | ----------------- | ----------------------- | ---------------------------- | ----: | ---: | ---: |
-|    1 | Zachary Budday    | This Corrupt Generation | New Day, USC                 |   850 |   85 |    6 |
-|    2 | Joseph Benco      | Fearless Believers      | First AG, Waynesburg         |   835 | 83.5 |    7 |
-|    3 | Seth Robertson    | Burning Flames          | Central AG, Houston          |   765 | 76.5 |    7 |
-|    4 | Grace Fabian      | Glad Hearts             | SHAG, Bethel Park            |   705 | 70.5 |    5 |
-|    5 | Alex Bradley      | This Corrupt Generation | New Day, USC                 |   695 | 69.5 |    5 |
-|    6 | Kathryn Kicinski  | Burning Flames          | Central AG, Houston          |   635 | 63.5 |    5 |
-|    7 | Leah Miller       | Fearless Believers      | First AG, Waynesburg         |   630 |   63 |    3 |
-|    8 | Emily Larson      | APC Middle School       | Allison Park Church          |   625 | 62.5 |    4 |
-|    9 | Justin Reid       | This Corrupt Generation | New Day, USC                 |   505 | 50.5 |    3 |
-|   10 | Gabrielle Padilla | Calvary Temple          | Calvery Temple, Philadelphia |   430 |   43 |    2 |
-|   11 | Cassidy Misak     | Glad Hearts             | SHAG, Bethel Park            |   405 | 40.5 |    2 |
-|   12 | Lindsey Barber    | Glad Hearts             | SHAG, Bethel Park            |   290 |   29 |      |
-|   13 | Rachel Baily      | Fearless Believers      | First AG, Waynesburg         |   145 | 14.5 |      |
-|   14 | Deborah Ly        | Calvary Temple          | Calvery Temple, Philadelphia |   125 | 12.5 |      |
-|   15 | Nathanael Juan    | Burning Flames          | Central AG, Houston          |    70 |    7 |      |
-|   15 | Logan Malone      | Burning Flames          | Central AG, Houston          |    70 |    7 |      |
-|   16 | Indreal Morris    | Calvary Temple          | Calvery Temple, Philadelphia |    40 |    4 |      |
-|   17 | Gloria Acor       | Fearless Believers      | First AG, Waynesburg         |    30 |    3 |      |
-|   18 | Amaya Kocher      | Burning Flames          | Central AG, Houston          |    25 |  2.5 |      |
-|   19 | Eliza Baily       | Fearless Believers      | First AG, Waynesburg         |    20 |    2 |      |
-|   20 | Lauren Caimano    | Burning Flames          | Central AG, Houston          |       |    0 |      |
