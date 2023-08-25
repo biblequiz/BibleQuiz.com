@@ -12,10 +12,17 @@ menubar: menu_history
 <a href="{% link _pages/history/2008/nationals.md %}" class="button is-primary">National Finals</a>
 
 ## Tournaments
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
 
-## District Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+{% include events-season.html type="tbq" year="2008" scope="tournament" source="imported" %}
 
 ## Regional Finals
-If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
+
+{% include events-season.html type="tbq" year="2008" scope="regionFinals" source="imported" %}
+
+## District Finals
+
+{% include events-season.html type="tbq" year="2008" scope="districtFinals" source="imported" %}
+
+## Other Competitions
+
+{% include events-season.html type="tbq" year="2008" scope="other" source="imported" %}
