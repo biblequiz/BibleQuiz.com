@@ -240,6 +240,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Montgomery, AL 170 to 25
   * Round 18: Lost to Wesley Chapel, FL 120 to 180
   * Round 19: Won against Braeswood Houston, TX 250 to 5
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Dayspring A/G, Bowling Green, OH" html=image_html %}
@@ -274,6 +275,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Mt. Pocono, PA 125 to 95
   * Round 18: Won against Bristow, VA 205 to 60
   * Round 19: Won against Ozark, MO 160 to 140
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="" html=image_html %}
@@ -310,6 +312,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Oklahoma City, OK 35 to 125
   * Round 18: Won against Phoenix, AZ 85 to 55
   * Round 19: Won against Springfield, VA 125 to 50
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="First A/G of Greater Lansing, East Lansing, MI" html=image_html %}
@@ -348,6 +351,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Christian Temple Houston, TX 110 to 95
   * Round 18: Lost to Mt. Pocono, PA 80 to 175
   * Round 19: Won against Bristow, VA 125 to 60
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="New Life A/G, White Cloud, MI" html=image_html %}
@@ -384,6 +388,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Muskogee, OK 35 to 110
   * Round 18: Won against Gering, NE 205 to 150
   * Round 19: Lost to Costa Mesa, CA 70 to 140
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="First A/G, Lexington, KY" html=image_html %}
@@ -420,6 +425,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Spokane, WA 280 to -10
   * Round 18: Won against Swedesboro, NJ 170 to 60
   * Round 19: Lost to South Bend, IN 140 to 160
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="James River A/G, 'Ignorant and Unstable', Ozark, MO" html=image_html %}
@@ -456,6 +462,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Bridgeville, PA 210 to 55
   * Round 18: Won against Bellevue, WA 180 to 100
   * Round 19: Lost to Garfield, NJ 5 to 240
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Central A/G, 'Quick', Springfield, MO" html=image_html %}
@@ -492,6 +499,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Phoenix, AZ 95 to 15
   * Round 18: Won against Springfield, VA 125 to 75
   * Round 19: Won against Colorado Springs, CO 150 to 125
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Central A/G, 'What They Fear', Springfield, MO" html=image_html %}
@@ -528,6 +536,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Scottsdale, AZ 110 to 100
   * Round 18: Lost to Lexington, KY 150 to 205
   * Round 19: Won against Snellville, GA 110 to 45
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Northfield Church, Gering, NE" html=image_html %}
@@ -564,6 +573,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Owasso, OK 5 to 290
   * Round 18: Won against Montgomery, AL 130 to 40
   * Round 19: Lost to Wesley Chapel, FL 25 to 250
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="First A/G, Cedar Rapids, IA" html=image_html %}
@@ -601,6 +611,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Colorado Springs, CO 35 to 110
   * Round 18: Lost to Racine, WI -5 to 25
   * Round 19: Won against Scottsdale, AZ 120 to 100
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Northshore A/G, Hastings, NE" html=image_html %}
@@ -635,6 +646,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Costa Mesa, CA -10 to 225
   * Round 18: Won against Hastings, NE 25 to -5
   * Round 19: Won against Renton, WA 115 to 5
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Racine A/G, Racine, WI" html=image_html %}
@@ -669,6 +681,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Bothell, WA 50 to 110
   * Round 18: Won against Wilder, ID 110 to 60
   * Round 19: Lost to Oklahoma City, OK 25 to 155
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Crosspoint A/G, Portage, WI" html=image_html %}
@@ -708,6 +721,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Wesley Chapel, FL 165 to 95
   * Round 18: Won against Braeswood Houston, TX 195 to 80
   * Round 19: Won against Central "Quick", Springfield, MO 240 to 5
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Praise A/G, Garfield, NJ" html=image_html %}
@@ -746,6 +760,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Central "Quick", Springfield, MO 55 to 210
   * Round 18: Lost to Christian Temple Houston, TX 80 to 100
   * Round 19: Lost to Bellevue, WA 115 to 175
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Journey Church, Bridgeville, PA" html=image_html %}
@@ -782,6 +797,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Bristow, VA 100 to 105
   * Round 18: Lost to Ozark, MO 60 to 170
   * Round 19: Lost to Irvine, CA 90 to 110
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Living Hope Worship Center, Swedesboro, NJ" html=image_html %}
@@ -820,6 +836,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Swedesboro, NJ 105 to 100
   * Round 18: Lost to South Bend, IN 60 to 205
   * Round 19: Lost to White Cloud, MI 60 to 125
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Manassas A/G, Bristow, VA" html=image_html %}
@@ -854,6 +871,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Renton, WA 185 to 20
   * Round 18: Lost to Central "Oss", Springfield, MO 75 to 125
   * Round 19: Lost to East Lansing, MI 50 to 125
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Word of Life A/G, Springfield, VA" html=image_html %}
@@ -890,6 +908,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Irvine, CA 115 to 90
   * Round 18: Won against Owasso, OK 185 to 145
   * Round 19: Won against Montgomery, AL 190 to 95
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="First A/G, Binghamton, NY" html=image_html %}
@@ -926,6 +945,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to South Bend, IN 95 to 125
   * Round 18: Won against White Cloud, MI 175 to 80
   * Round 19: Lost to Christian Temple Houston, TX 140 to 155
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Pocono Community Church, Mt. Pocono, PA" html=image_html %}
@@ -963,6 +983,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Braeswood Houston, TX 155 to 90
   * Round 18: Lost to Central "Quick", Springfield, MO 100 to 180
   * Round 19: Won against Bridgeville, PA 175 to 115
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Bellevue Neighborhood Church, Bellevue, WA" html=image_html %}
@@ -1002,6 +1023,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Portage, WI 110 to 50
   * Round 18: Won against Fort Lauderdale, FL 105 to 35
   * Round 19: Won against Wilder, ID 90 to 60
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Cedar Park A/G, Bothell, WA" html=image_html %}
@@ -1037,6 +1059,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Ozark, MO -10 to 280
   * Round 18: Lost to Irvine, CA 80 to 190
   * Round 19: Lost to Owasso, OK 50 to 140
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Mountain View A/G, Spokane, WA" html=image_html %}
@@ -1074,6 +1097,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Toccoa, GA -5 to 105
   * Round 18: Lost to Portage, WI 60 to 110
   * Round 19: Lost to Bothell, WA 60 to 90
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Crossroads A/G, Wilder, ID" html=image_html %}
@@ -1109,6 +1133,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Springfield, VA 20 to 185
   * Round 18: Lost to Colorado Springs, CO 20 to 185
   * Round 19: Lost to Racine, WI 5 to 115
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="New Life Church, Renton, WA" html=image_html %}
@@ -1149,6 +1174,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Cedar Rapids, IA 290 to 5
   * Round 18: Lost to Binghamton, NY 145 to 185
   * Round 19: Won against Spokane, WA 140 to 50
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Owasso First A/G, Owasso, OK" html=image_html %}
@@ -1185,6 +1211,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to White Cloud, MI 95 to 110
   * Round 18: Won against Bridgeville, PA 100 to 80
   * Round 19: Won against Mt. Pocono, PA 155 to 140
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Christian Temple, Houston, TX" html=image_html %}
@@ -1221,6 +1248,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against East Lansing, MI 125 to 35
   * Round 18: Lost to Toccoa, GA 30 to 45
   * Round 19: Won against Portage, WI 155 to 25
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Highpointe Church, Oklahoma City, OK" html=image_html %}
@@ -1255,6 +1283,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Bellevue, WA 90 to 155
   * Round 18: Lost to Garfield, NJ 80 to 195
   * Round 19: Lost to Bowling Green, OH 5 to 250
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Braeswood A/G, Houston, TX" html=image_html %}
@@ -1293,6 +1322,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Lexington, KY 110 to 35
   * Round 18: Won against Snellville, GA 100 to 40
   * Round 19: Won against Fort Lauderdale, FL 160 to 5
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Muskogee First A/G, Muskogee, OK" html=image_html %}
@@ -1331,6 +1361,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Garfield, NJ 95 to 165
   * Round 18: Won against Bowling Green, OH 180 to 120
   * Round 19: Won against Cedar Rapids, IA 250 to 25
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Victorious Life Church, Wesley Chapel, FL" html=image_html %}
@@ -1365,6 +1396,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Wilder, ID 105 to -5
   * Round 18: Won against Oklahoma City, OK 45 to 30
   * Round 19: Won against Phoenix, AZ 85 to 65
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Rehoboth A/G, Toccoa, GA" html=image_html %}
@@ -1402,6 +1434,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Bowling Green, OH 25 to 170
   * Round 18: Lost to Cedar Rapids, IA 40 to 130
   * Round 19: Lost to Binghamton, NY 95 to 190
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="First A/G, Montgomery, AL" html=image_html %}
@@ -1438,6 +1471,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Snellville, GA 135 to 30
   * Round 18: Lost to Bothell, WA 35 to 105
   * Round 19: Lost to Muskogee, OK 5 to 160
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Christian Life Center, Fort Lauderdale, FL" html=image_html %}
@@ -1473,6 +1507,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Fort Lauderdale, FL 30 to 135
   * Round 18: Lost to Muskogee, OK 40 to 100
   * Round 19: Lost to Gering, NE 45 to 110
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Evangel Community Church, Snellville, GA" html=image_html %}
@@ -1510,6 +1545,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Racine, WI 225 to -10
   * Round 18: Won against Scottsdale, AZ 135 to 75
   * Round 19: Won against Lexington, KY 140 to 70
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Newport Mesa Church, Costa Mesa, CA" html=image_html %}
@@ -1545,6 +1581,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Hastings, NE 110 to 35
   * Round 18: Won against Renton, WA 185 to 20
   * Round 19: Lost to Central "Oss", Springfield, MO 125 to 150
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Living Hope Church, Colorado Springs, CO" html=image_html %}
@@ -1581,6 +1618,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Central "Oss", Springfield, MO 15 to 95
   * Round 18: Lost to East Lansing, MI 55 to 85
   * Round 19: Lost to Toccoa, GA 65 to 85
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Paradise Hills A/G, Phoenix, AZ" html=image_html %}
@@ -1614,6 +1652,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Binghamton, NY 90 to 115
   * Round 18: Won against Spokane, WA 190 to 80
   * Round 19: Won against Swedesboro, NJ 110 to 90
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="First Samoan A/G, Irvine, CA" html=image_html %}
@@ -1649,6 +1688,7 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Lost to Gering, NE 100 to 110
   * Round 18: Lost to Costa Mesa, CA 75 to 135
   * Round 19: Lost to Hastings, NE 100 to 120
+TODO_BIOS
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="North Scottsdale Christian, Scottdale, AZ" html=image_html %}
