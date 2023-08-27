@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "2000 Emerald Coast"
-permalink: /history/2000/tournaments/emerald-coast/
+permalink: /history/2000/tournaments/emerald-coast-classic/
 date: "2000-03-18"
 toc_title: Results
 menubar_toc: true
