@@ -377,7 +377,7 @@ No Favorite verse, but the least favorite verse is the 'rhyming' verse. John 17:
   * [Michiana]({% link _pages/history/2011/tournaments/michiana.md %})
   * [Gobblefest]({% link _pages/history/2011/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2011/tournaments/friendship-classic.md %})
-  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers.md %})
+  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers-classic.md %})
 * **Favorite non-quiz related moment(s) this year**\
 Aaron (one of our MSQ quizzers) was with us at the 3 Rivers tournament. We stopped for diner on the way home, and he ordered a maple bacon sundae...yes, he did eat it
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
@@ -542,7 +542,7 @@ We have had an amazing, friendly rivalry with Dayspring AG - Bowling Green. Almo
 * **Favorite Contest**\
 At regionals, there was a question with incorrect introductory remarks. At the close of the question, our Captain, Laura, stated "Contest." The captain of the other team immediately said, "Yeh!" The contest was granted.
 * **Tournaments attended this year**:
-  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers.md %})
+  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers-classic.md %})
 * **Favorite non-quiz related moment(s) this year**\
 Interesting quiz trivia that we learned at the Great Lakes regionals: all three Ohio coaches attended Oral Roberts University.
 {% endcapture %}
@@ -1235,7 +1235,7 @@ John 21:13: Jesus came, took the bread and gave it to them, and did the same wit
   * [Empire Classic]({% link _pages/history/2011/tournaments/empire-classic.md %})
   * [Gobblefest]({% link _pages/history/2011/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2011/tournaments/friendship-classic.md %})
-  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers.md %})
+  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers-classic.md %})
 * **Favorite non-quiz related moment(s) this year**\
 As we were driving to Gobblefest, a deer ran across the road into the side of our van. The deer died.
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
@@ -1301,7 +1301,7 @@ This is Word of Life's second year at nationals.
   * [Empire Classic]({% link _pages/history/2011/tournaments/empire-classic.md %})
   * [Gobblefest]({% link _pages/history/2011/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2011/tournaments/friendship-classic.md %})
-  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers.md %})
+  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers-classic.md %})
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Word of Life A/G, Springfield, VA" html=image_html %}
@@ -1368,7 +1368,7 @@ Four "I tell you the truth" statements are found. Give the 3rd one.
 * **Tournaments attended this year**
   * [Gobblefest]({% link _pages/history/2011/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2011/tournaments/friendship-classic.md %})
-  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers.md %})
+  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers-classic.md %})
 * **Favorite non-quiz related moment(s) this year**\
 Every time there has been fellowship with a large group of quizzers. Also, eating frog legs at an Asian restaurant at Regionals in Binghamton, NY.
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
@@ -1555,7 +1555,7 @@ A fig tree.
 * **Tournaments attended this year**:
   * [Gobblefest]({% link _pages/history/2011/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2011/tournaments/friendship-classic.md %})
-  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers.md %})
+  * [Three Rivers]({% link _pages/history/2011/tournaments/three-rivers-classic.md %})
 * **Favorite non-quiz related moment(s) this year**\
 Probably taking a walk in our woods after a league meet with several of our quizzers. Two of them ended up falling in the stream.
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
