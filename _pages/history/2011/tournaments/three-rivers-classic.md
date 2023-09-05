@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "2011 Three Rivers Tournament"
-permalink: /history/2011/tournaments/three-rivers/
+title: "2011 Three Rivers Classic"
+permalink: /history/2011/tournaments/three-rivers-classic/
 date: "2011-05-17"
 toc_title: Results
 menubar_toc: true

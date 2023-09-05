@@ -1382,7 +1382,7 @@ Nothing too ingenious this season, although we have hotly debated whether the Ho
   * [Gobblefest]({% link _pages/history/2010/tournaments/gobblefest.md %})
   * [Southern Fried Classic]({% link _pages/history/2010/tournaments/southern-fried-classic.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * [Three Rivers]({% link _pages/history/2010/tournaments/three-rivers.md %})
+  * [Three Rivers]({% link _pages/history/2010/tournaments/three-rivers-classic.md %})
 * **Favorite non-quiz related moment this year**\
 Attending a Mavericks game in Dallas, TX while in town for the Southern Fried Classic.
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
@@ -1510,7 +1510,7 @@ Who was raised from the dead? ... no response
 * **Tournaments attended this year**:
   * [Gobblefest]({% link _pages/history/2010/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * [Three Rivers]({% link _pages/history/2010/tournaments/three-rivers.md %})
+  * [Three Rivers]({% link _pages/history/2010/tournaments/three-rivers-classic.md %})
 * **Favorite non-quiz related moment this year**\
 Going out to lunch with four other Bible Quiz teams and watching Kyler (Sederwall) reap what he sowed...a face full of ice.
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
@@ -1574,7 +1574,7 @@ There are so many favorites but here's one: 1 Corinthians 13:13 And now these th
   * Empire Classic
   * [Gobblefest]({% link _pages/history/2010/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * [Three Rivers]({% link _pages/history/2010/tournaments/three-rivers.md %})
+  * [Three Rivers]({% link _pages/history/2010/tournaments/three-rivers-classic.md %})
 * **Favorite non-quiz related moment this year**\
 Returning from Friendship, we almost ran out of gas in the mountains of Pennsylvania. A check of the nearest gas station on our GPS indicated about 12 miles to go. We really prayed and we made it with just enough gas to spare!!!
 {% endcapture %}
@@ -1645,7 +1645,7 @@ Only one verse contains dashes. Give this verse.
 * **Tournaments attended this year**:
   * [Gobblefest]({% link _pages/history/2010/tournaments/gobblefest.md %})
   * [Friendship Classic]({% link _pages/history/2010/tournaments/friendship-classic.md %})
-  * [Three Rivers]({% link _pages/history/2010/tournaments/three-rivers.md %})
+  * [Three Rivers]({% link _pages/history/2010/tournaments/three-rivers-classic.md %})
 * **Favorite non-quiz related moment this year**\
 Making grilled cheese with an iron in the hotel at Regionals.
 {% endcapture %}
