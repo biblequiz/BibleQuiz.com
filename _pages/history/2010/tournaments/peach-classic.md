@@ -1,8 +1,7 @@
 ---
 layout: page
 title: "2010 Peach Classic"
-permalink: /history/2010/tournaments/peach-classic/
-date: "2010-03-07"
+permalink: /history/2010/tournaments/peach-classic
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
@@ -12,71 +11,70 @@ menubar_toc_static:
     icon: fas fa-home
 ---
 
-## Varsity (A League)
+## A League
 
-### Teams
+### Top Teams
 
-|    # | Team              | W - L | Total |    Avg |
-| ---: | ----------------- | ----- | ----: | -----: |
-|    1 | Cumming, GA #1    | 8 - 1 | 1,795 | 199.44 |
-|    2 | Toccoa, GA        | 8 - 1 | 1,710 |    190 |
-|    3 | Cumming, GA #2    | 8 - 1 | 1,635 | 181.67 |
-|    4 | Snellville, GA #3 | 6 - 3 | 1,375 | 152.78 |
-|    5 | Warner Robins, GA | 4 - 5 |   990 |    110 |
-|    6 | Lawrenceville     | 4 - 5 |   950 | 105.56 |
-|    7 | Briargate, CO     | 3 - 6 |   875 |  97.22 |
-|    8 | Snellville, GA #1 | 3 - 6 |   655 |  72.78 |
-|    9 | Snellville, GA #2 | 6 - 8 |   280 |  31.11 |
-|   10 | Honea Path, SC    | 0 - 9 |   745 |  82.78 |
+|    # | Team                          |    W |    L | Total |
+| ---: | ----------------------------- | ---: | ---: | ----: |
+|    1 | Northside FWC, Cumming, GA #1 |    9 |    1 |  1870 |
+|    2 | Northside FWC, Cumming, GA #2 |    8 |    2 |  2135 |
+|    3 | Bethel Life AG, Wichita, KS   |    6 |    4 |  1590 |
 
-### Individuals
+### Top Individuals
 
-|    # | Quizzer         | Team              | Total |    Avg |
-| ---: | --------------- | ----------------- | ----: | -----: |
-|    1 | Anna Rice       | Cumming, GA #2    | 1,040 | 115.56 |
-|    2 | Lindsay Cowan   | Toccoa, GA        | 1,035 |    115 |
-|    2 | Yoki Belay      | Snellville, GA #3 | 1,035 |    115 |
-|    4 | Julianne Kelley | Briargate, CO     |   885 |  98.33 |
-|    5 | Rachel Rice     | Cumming, GA #1    |   865 |  96.11 |
-|    6 | Emily Harron    | Warner Robins, GA |   690 |  76.67 |
-|    7 | Tiffany Goff    | Honea Path, SC    |   675 |     75 |
-|    8 | Sarah Rice      | Cumming, GA #1    |   660 |  73.33 |
-|    9 | Marvin Mathew   | Lawrenceville, GA |   570 |  63.33 |
-|   10 | Ceiran Beasley  | Snellville, GA #1 |   560 |  62.22 |
-|   11 | Allison Johnson | Toccoa, GA        |   470 |  52.22 |
-|   12 | Pheba Shibu     | Lawrenceville     |   380 |  42.22 |
-|   13 | John Rice       | Cumming, GA #2    |   310 |  34.44 |
-|   14 | Janie Parker    | Cumming, GA #1    |   275 |  30.56 |
-|   15 | Angela Magditch | Warner Robins, GA |   270 |     30 |
+|    # | Quizzer           | Team          | Total |
+| ---: | ----------------- | ------------- | ----: |
+|    1 | Christina Simpson | Wichita       |  1140 |
+|    2 | James Lex         | Cumming #1    |  1110 |
+|    3 | Rachel Rice       | Cumming #2    |   940 |
+|    4 | Anna Rice         | Cumming #1    |   810 |
+|    5 | Sarah Rice        | Cumming #2    |   685 |
+|    6 | Ceiran Beasley    | Snellville #1 |   675 |
+|    7 | Rodney Brown      | Snellville #2 |   620 |
+|    8 | Tiffany Turner    | Wichita       |   420 |
+|    9 | Andy Okala        | Snellville #2 |   400 |
+|   10 | Abby Stocksdale   | Cumming #1    |   285 |
 
-## Middle School/Intramural (B League)
+## Novice Division
 
-### Teams
+Junior Varsity (Novice/B Leagues) quizzed a complete round robin and then broke into Gold and Silver divisions. Team results are from Division play only. Individuals results are from the entire day.
 
-|    # | Team               | W - L | Total |    Avg |
-| ---: | ------------------ | ----- | ----: | -----: |
-|    1 | Dunwoody, GA       | 7 / 1 | 1,475 | 184.38 |
-|    2 | Snellville, GA     | 6 / 2 | 1,030 | 128.75 |
-|    3 | Norcross, GA       | 5 / 3 | 1,060 |  132.5 |
-|    4 | Thompson's Station | 5 / 3 |   875 | 109.38 |
-|    5 | Honea Path, SC     | 4 / 4 |   810 | 101.25 |
-|    6 | Warner Robins, GA  | 4 / 4 |   735 |  91.88 |
-|    7 | Stone Mountain, GA | 2 / 6 |   290 |  36.25 |
-|    8 | Lawrenceville, GA  | 2 / 6 |   620 |   77.5 |
-|    9 | Griffin, GA        | 1 / 7 |   520 |     65 |
+### Gold Division
 
-### Individuals
+#### Top Teams
 
-|    # | Quizzer           | Team               | Total |    Avg |   QO |
-| ---: | ----------------- | ------------------ | ----: | -----: | ---: |
-|    1 | Sydrena Dockery   | Thompson's Station |   875 | 109.38 |    8 |
-|    2 | Rashmi Rajendran  | Norcross, GA       |   795 |  99.38 |    6 |
-|    3 | Lola Babatola     | Warner Robins, GA  |   705 |  88.13 |    7 |
-|    4 | Paula Giranston   | Snellville, GA     |   700 |   87.5 |    6 |
-|    5 | Lily Barfield     | Honea Path, SC     |   675 |  84.38 |    6 |
-|    6 | Stellah Indiya    | Dunwoody, GA       |   530 |  66.25 |    3 |
-|    7 | Madison Beecher   | Dunwoody, GA       |   495 |  61.88 |    2 |
-|    8 | Chi Chi Osunkwo   | Dunwoody, GA       |   450 |  56.25 |    4 |
-|    9 | Charlie McDermitt | Griffin, GA        |   375 |  46.88 |    3 |
-|   10 | Christopher Vagan | Snellville, GA     |   365 |  45.63 |    3 |
-|   10 | Ben Mathew        | Lawrenceville, GA  |   365 |  45.63 |    2 |
+|    # | Team                           |    W |    L |
+| ---: | ------------------------------ | ---: | ---: |
+|    1 | Harvest AG, Ft. Worth, TX      |    3 |    0 |
+|    2 | Atlanta COG, Lawrenceville, GA |    2 |    1 |
+
+#### Top Individuals
+
+|    # | Quizzer          | Team          | Total |
+| ---: | ---------------- | ------------- | ----: |
+|    1 | Austin Lovekamp  | Ft. Worth     |  1300 |
+|    2 | Kindsay Cowan    | Toccoa        |  1130 |
+|    3 | Kaleigh Lovekamp | Ft. Worth     |   935 |
+|    4 | Jamimah Shibu    | Lawrenceville |   680 |
+|    5 | Pheba Shibu      | Lawrenceville |   550 |
+
+### Silver Division
+
+#### Top Teams
+
+|    # | Team                                     |    W |    L |
+| ---: | ---------------------------------------- | ---: | ---: |
+|    1 | CrossRoads Fellowship, Honea Path, SC #1 |    3 |    0 |
+|    2 | Northside FWC, Cumming #2                |    2 |    1 |
+
+#### Top Individuals
+
+|    # | Quizzer         | Team          | Total |
+| ---: | --------------- | ------------- | ----: |
+|    1 | Tiffany Goff    | Honea Path #1 |   745 |
+|    2 | Tobi Shitta-Ben | Cumming #2    |   390 |
+|    3 | Johnna Johnson  | Dahlonega     |   245 |
+|    4 | Andrea Poone    | Honea Path #2 |    90 |
+|    5 | Aleema Goff     | Honea Path #2 |    55 |
+

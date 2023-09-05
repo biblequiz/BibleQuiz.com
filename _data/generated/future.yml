@@ -2,6 +2,7 @@ jbq:
 - id: 97d01a27-743e-4916-9920-08db6db4e4af
   season: 2024
   registrationDates: Closes Sep 1, 2023
+  isLive: true
   isVisible: true
   name: Pen Florida Junior Bible Quiz League Registration
   scope: district
@@ -19,7 +20,7 @@ jbq:
   dates: Sep 16, 2023
 - id: 86f74cbd-a8fb-401d-1cab-08db9c64fc8b
   season: 2024
-  registrationDates: Closes Sep 2, 2023
+  registrationDates: Closed
   isVisible: true
   name: JBQ Kansas City MO Section 2023-2024
   scope: district
@@ -46,17 +47,6 @@ jbq:
   locationName: Southern Missouri In Person
   dates: Oct 6, 2023
 tbq:
-- id: 99e4738f-c02f-41f4-3bbf-08db7cf6ac48
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Great Lakes Quiz Camp
-  scope: district
-  scopeLabel: Kentucky
-  locationName: Camp Crestwood
-  locationCity: Crestwood, KY
-  dates: Aug 25 - 27, 2023
 - id: 00cfe723-78b2-4863-1cae-08db9c64fc8b
   season: 2024
   registrationDates: Closes Sep 10, 2023
@@ -75,6 +65,16 @@ tbq:
   locationName: Bethany Church
   locationCity: Wyckoff, NJ
   dates: Sep 23, 2023
+- id: 56b3d7d0-bb44-446b-ee1a-08dba741e37f
+  season: 2024
+  registrationDates: Closes Sep 15, 2023
+  isVisible: true
+  name: 'League Meet #1'
+  scope: district
+  scopeLabel: South Dakota
+  locationName: Sioux Falls First Assembly
+  locationCity: Sioux Falls, SD
+  dates: Sep 29 - 30, 2023
 - id: d98bc842-e907-457f-3dc6-08db8164d66e
   season: 2024
   registrationDates: Closes Sep 25, 2023
@@ -113,6 +113,15 @@ tbq:
   scopeLabel: South Texas
   locationName: TBD
   dates: Oct 14, 2023
+- id: d32892f3-0cde-4051-a4d7-08dbad5c3efd
+  season: 2024
+  registrationDates: Closes Oct 7, 2023
+  isVisible: true
+  name: 39th Annual Gold Cup Tournament
+  scope: nation
+  locationName: Trinity Church
+  locationCity: Cedar Hill, TX
+  dates: Oct 21, 2023
 - id: 4a891ed1-97b2-460b-049a-08db9c5fbd00
   season: 2024
   registrationDates: Closes Oct 1, 2023
@@ -131,3 +140,12 @@ tbq:
   scopeLabel: New Jersey
   locationName: New Jersey TBQ
   dates: Oct 21 - Apr 6, 2024
+- id: 0d103f2d-8781-4e0a-049d-08db9c5fbd00
+  season: 2024
+  registrationDates: Closes Oct 21, 2023
+  isVisible: true
+  name: 6th Annual Bluegrass Classic
+  scope: nation
+  locationName: First Assembly of God
+  locationCity: Lexington, KY
+  dates: Oct 28, 2023
