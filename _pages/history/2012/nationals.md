@@ -240,7 +240,35 @@ At the end of preliminary competition in Group E the teams from Swedesboro, NJ, 
   * Round 17: Won against Montgomery, AL 170 to 25
   * Round 18: Lost to Wesley Chapel, FL 120 to 180
   * Round 19: Won against Braeswood Houston, TX 250 to 5
-TODO_BIOS
+* **Quizzer History**:
+  * Jeremy: Quizzed his entire life...well, at least it feels that way! 7 years in TBQ and this is his 6th consecutive trip to Nationals. He earned his NMA, MMA, and Discipleship Award.
+  * Brianna: 5 years in TBQ & this is her 3rd Nationals. She earned her NMA and Discipleship Award. She also earned her first ever MMA this year!
+  * Aaron: 2nd year in TBQ and his first as an A League quizzer, so this is his first trip to Nationals. He was successful in completing all of the requirements for the NMA, MMA, and Discipleship Award this year.
+  * Kendall: Quizzed in the A League for 4 years and finished everything needed to earn the Discipleship Award this season.
+  * Marshall: He did TBQ for 6 years, but can't be at Nats with us this year since he was accepted to the United States Military Academy at West Point !!! Sadly (?) , he will be at boot camp while we're in Columbus...
+* **Team History**\
+We have advanced to National competition every year since we began an A League at our church, making this our 6th consecutive trip. We believe that we made Bible Quiz history during the GEPCP season by being the only team to ever win a 6-way playoff to qualify for the Championship Division. Fun times in Green Bay! (Editor's Note: That is correct. In fact, it's the only 6-way tie I've ever heard of that had to be broken). While we are thrilled that we get to be the host state for the 50th Celebration, our favorite trip was to Tucson. Nothing yet has beat the ping pong table by the pool!
+* **Most exciting match this season**\
+Our team's favorite match this season was when we pulled the win against Garfield at the 3 Rivers Tournament. GO, BRIANNA, GO !!!
+* **Favorite contest (weirdest, funniest, etc)**\
+Aaron enjoyed Kyler's "Rahab rebuttal" at Pre-Nats. Apparently you just had to be there...
+* **Favorite question (weirdest, funniest, etc)**\
+Unanimous: The "Zelda 2" question:\
+Question Number for 20 Points. Statement and Two Part Quotation Question.\
+One of the most unusual lines from the video game Zelda II is, quote, "I am Error," end-quote.\
+Quote the verse that mentions those who lived in error and the verse that mentions being carried away by error.
+* **Favorite verse from the material**\
+The verse from which our team name is derived: Jude 9.
+* **Tournaments attended this year**
+  * Michiana
+  * [Friendship Classic]({% link _pages/history/2012/tournaments/friendship-classic.md %})
+  * [Gobblefest]({% link _pages/history/2012/tournaments/gobblefest.md %})
+  * [River Classic]({% link _pages/history/2012/tournaments/river-classic.md %})
+  * Three Rivers Classic
+* **Favorite non-quiz related moment(s) this year**\
+Best moments are generally centered around practice sessions, card games, and food! Good times had this year at Pat's, Lambert's, and Primanti Brothers! Our saddest moment this season occurred when Kendall's i-pod decided to run away down the Rocky steps...
+* **What opportunities has your team had to use Bible Quiz outside of the church?**\
+The things we worked on for Discipleship truly produced fruit. After reading the book, Do Hard Things, our pastor, Scott Estep, decided to put the book in the hands of the entire coaching staff of the BGSU football team, of which he is the chaplain. Only God will know the full extent of that move! Even more exciting is this: While working on his Discipleship requirements, one of our middle school quizzers led his birth dad to the Lord! Our team also continued our tradition of reading God's Word aloud from the steps of the Wood County Courthouse in conjunction with the National Day of Prayer. We generally do this on a Wednesday afternoon, but this year we went to read twice so that we could also read Hebrews. We are so grateful for the freedom we have to do this and we know that God's Word brings light & life and will not return void.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Dayspring A/G, Bowling Green, OH" html=image_html %}
