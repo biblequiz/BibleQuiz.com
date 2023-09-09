@@ -1030,7 +1030,7 @@ This season, more than ever, the discipleship aspect of TBQ has really showed ou
   * Round 17: Lost to Central "Quick", Springfield, MO 55 to 210
   * Round 18: Lost to Christian Temple Houston, TX 80 to 100
   * Round 19: Lost to Bellevue, WA 115 to 175
-* **Coaches History**:
+* **Coach History**:
   * David: 5th year coaching - 4th Nationals
   * Cliff: 3rd year coaching - 2nd Nationals
   * Grant: 2nd year coaching - 2nd Nationals -
@@ -1095,7 +1095,7 @@ Being involved in Bible Quiz in general, and being able to recite Scripture vers
   * Round 17: Lost to Bristow, VA 100 to 105
   * Round 18: Lost to Ozark, MO 60 to 170
   * Round 19: Lost to Irvine, CA 90 to 110
-* **Coaches History**:
+* **Coach History**:
   * Kayla: Quizzed for five years, three of which were at nationals. First year as a coach.
 * **Quizzer History**:
   * Jared: Fourth year quizzing, third time attending nationals. This year Jared received his NMA, MMA, and Discipleship Award.
@@ -1192,7 +1192,7 @@ Jared: I always put Bible Quiz on any of my resumes. Anyone (whether Christian o
   * Round 17: Won against Renton, WA 185 to 20
   * Round 18: Lost to Central "Oss", Springfield, MO 75 to 125
   * Round 19: Lost to East Lansing, MI 50 to 125
-* **Coaches History**\
+* **Coach History**\
 Don York has coached Teen Bible Quiz in the Potomac District for fourteen years. He has led teams to Regional Finals eleven times and to National Finals five times over that time period. He himself has received the National Memorization Award twice, once for Hebrews and I & II Peter and once for the Gospel of Matthew. Coach York has served in the role of statistician for Potomac District quizzing for more than ten years. His greatest blessing as a coach is to see his former quizzers, now scattered all over the country, living for Jesus. The Word of God is the reason Coach York started quizzing and is the reason he continues to coach and remain involved with quizzing. One of the Psalms he memorized as a young Christian over thirty years ago sums it up best, "Blessed is the man who does not walk in the counsel of the wicked or stand in the way of sinners or sit in the seat of mockers. But his delight is in the law of the Lord, and on his law he meditates day and night. He is like a tree planted by streams of water, which yields its fruit in season and whose leaf does not wither. Whatever he does prospers." Thank you, Lord, for your living and enduring Word!
 * **Quizzer History**:
   * Joshua: 16 years old. I received Jesus Christ as my savior when I was six years old. I began quizzing four years ago with the Gospel of Mark. I quizzed in Novice for one year and then moved to A-League. Over the course of my quizzing career, I have quizzed over the Gospel of Mark, 1st and 2nd Corinthians, the Gospel of John and now Hebrews/1st and 2nd Peter. I have received the N.M.A award for John and Hebrews/1st and 2nd Peter and with M.M.A for Hebrews. My most exciting match was when we quizzed for an hour and a half at Regionals in just one match! My favorite verse for this year is Jude 1:1 because it has many truths. This year, I have attended two tournaments - Friendship and Three Rivers both in Pennsylvania. My favorite non-quiz moment was when I listened to my team rap freestyle on the way back from the Three Rivers Tournament.
@@ -1245,7 +1245,7 @@ Coach Don York also coached for Cornerstone A/G in Bowie, Maryland at nationals 
   * Round 17: Won against Irvine, CA 115 to 90
   * Round 18: Won against Owasso, OK 185 to 145
   * Round 19: Won against Montgomery, AL 190 to 95
-* **Coaches History**:
+* **Coach History**:
   * LaJoie: Former national quizzer. During her four years as a quizzer at nationals, she placed 5th individually in Championship, first individually and as a team in Challenger, and first in the preaching ministry two years in a row. She also received the Female Quizzer of the Year and Curtis Scholarship awards and correctly answered the infamous "60-point question" in the 2008 boys vs. girls exhibition match to win the match for the girls. She received National Memorization for 13 books of the Bible and completed the Master Memorization four times. Last year she was head coach of the Binghamton Middle School team. The past two years she has assistant coached the TBQ team at Nationals, and this year she became head coach of the TBQ team.
   * Henry (Hank) and Annette: In 2006, when LaJoie's TBQ coach stepped down, Annette and Hank were led by the Lord to assume leadership of the TBQ ministry at First Assembly. Hank became head coach of the TBQ team that year, while Annette coached one of the church's Novice teams. Under their leadership, the Binghamton Bible Quiz ministry has discipled and coached dozens of students in the Word, focusing not only on memorization and competition, but also on Bible study, ministry, and outreach. This year, they are both assisting LaJoie in coaching the TBQ team.
 * **Quizzer History**:
@@ -1315,7 +1315,7 @@ All of the Binghamton Bible Quizzers, including those who only competed up to th
   * Round 17: Lost to South Bend, IN 95 to 125
   * Round 18: Won against White Cloud, MI 175 to 80
   * Round 19: Lost to Christian Temple Houston, TX 140 to 155
-* **Coaches History**:
+* **Coach History**:
   * Aaron: Involved in Bible Quiz for the last 15 years as a quizzer, coach, official and question writer. He quizzed three years at Nationals, and this is his third year to coach at Nationals.
   * Katie: Involved in Bible Quiz for the last 15 years. She quizzed 5 years at Nationals. Her senior year she quizzed over Hebrews and Peter.
 * **Quizzer History**:
@@ -1417,7 +1417,7 @@ We can pinpoint several times throughout the season where we have had opportunit
   * Round 17: Won against Portage, WI 110 to 50
   * Round 18: Won against Fort Lauderdale, FL 105 to 35
   * Round 19: Won against Wilder, ID 90 to 60
-* **Coaches History**
+* **Coach History**
   * Heather: Second year coaching for Cedar Park. Last year, she was head coach for the Middle School team and joined the top team at Nationals as an assistant coach. A former quizzer, Heather quizzed for six years and made five trips to National Finals (thus, cumulatively, this is her seventh year at Nationals).
   * Bonnie: Coaching, officiating, and coordinating for Cedar Park wherever needed off and on for the past eight years. She has officiated twice at Nationals, and this will be her second year coaching at Nationals (her first stint was as assistant coach for Cedar Park's "Eternal Mystery" team in 2006).
 * **Quizzer History**:
@@ -1545,7 +1545,7 @@ It sure helps all of us with Bible classes at school!
   * Round 17: Lost to Toccoa, GA -5 to 105
   * Round 18: Lost to Portage, WI 60 to 110
   * Round 19: Lost to Bothell, WA 60 to 90
-* **Coaches History**:
+* **Coach History**:
   * Melvyn: First time to coach at Nationals
   * Bonnie: Mother of quizzers.
   * Victoria: Sister of quizzers. Quizzed in Teen Bible Quiz for one year - quizzed over Luke
@@ -1648,7 +1648,7 @@ When we meet new friends, they often ask what our hobbies are. This gives us the
   * Round 17: Won against Cedar Rapids, IA 290 to 5
   * Round 18: Lost to Binghamton, NY 145 to 185
   * Round 19: Won against Spokane, WA 140 to 50
-* **Coaches History**:
+* **Coach History**:
   * Kevin: 3-time National Champion as a Coach, MMA
   * Joshua: 3-time National Champion: 2 as a Quizzer, 1 as a Coach
   * Jesse: 3-time National Champion as a Quizzer
@@ -1718,7 +1718,7 @@ Witnessing tools for ministering to those who don't know Jesus. This week alone,
   * Round 17: Lost to White Cloud, MI 95 to 110
   * Round 18: Won against Bridgeville, PA 100 to 80
   * Round 19: Won against Mt. Pocono, PA 155 to 140
-* **Coaches History**:
+* **Coach History**:
   * Michael: This year makes 6 years as a Head Coach and 5th year as a National Coach.
   * Andrea: This year makes 6 years as an Assistant Coach and 2 year as an Assistant Coach at Nationals.
 * **Quizzer History**:
@@ -1859,7 +1859,7 @@ Since we are doing Hebrews this year, I would like to talk about when I first di
   * Round 17: Won against Lexington, KY 110 to 35
   * Round 18: Won against Snellville, GA 100 to 40
   * Round 19: Won against Fort Lauderdale, FL 160 to 5
-* **Coaches History**:
+* **Coach History**:
   * Dan: Third year coaching in TBQ A- League. Dan has taken a team to Nationals all three years. The year before that his team took 2nd in MSQ at South Central Regional. Dan has coached three years in JBQ, taking a team to JBQ nationals all three years (highest placement was 13th). Dan also wrote the "TBQ Live Match Excel Scoring Sheet" that is on bq.ag.org under the news tab. Tracy Meddaugh: Coached Muskogee's TBQ MSQ team in 2011 and took 1st at South Central Regionals.
   * Toshali: Was on the 1st place MSQ 2011 team at SC Regional.
 * **Quizzer History**:
@@ -1968,7 +1968,7 @@ Generally the application of scripture according to Abby: "With so many verses r
   * Round 17: Won against Wilder, ID 105 to -5
   * Round 18: Won against Oklahoma City, OK 45 to 30
   * Round 19: Won against Phoenix, AZ 85 to 65
-* **Coaches History**: Quizzer 1982-87; Nationals in 1985 from Festus, MO and again in 1987 from Murrayville, GA (under Charlotte Baker); Number One Individual Quizzer in 1985. Coached various TBQ and JBQ teams from Georgia, Florida, and Alabama. Most recently the coach of "Sent From Heaven" from Toccoa A.G., Toccoa, GA.
+* **Coach History**: Quizzer 1982-87; Nationals in 1985 from Festus, MO and again in 1987 from Murrayville, GA (under Charlotte Baker); Number One Individual Quizzer in 1985. Coached various TBQ and JBQ teams from Georgia, Florida, and Alabama. Most recently the coach of "Sent From Heaven" from Toccoa A.G., Toccoa, GA.
 * **Quizzer History**:
   * Allison: 4th year quizzer - 2nd Nationals - Recieved NMA
   * Lindsay: Captain - 4th year quizzer - 2nd Nationals - Recieved NMA and MMA
@@ -2026,7 +2026,7 @@ How good was Abraham?
   * Round 17: Lost to Bowling Green, OH 25 to 170
   * Round 18: Lost to Cedar Rapids, IA 40 to 130
   * Round 19: Lost to Binghamton, NY 95 to 190
-* **Coaches History**:
+* **Coach History**:
   * Daniel: 7 years coaching at Nations (5 consecutive)
 * **Quizzer History**:
   * Hudson: Senior, 5 years quizzing, 5 years at Nationals, MMA
@@ -2112,7 +2112,7 @@ Our church has been to Nationals 10 times (1985, 86, 92, 95, 2005, 2008, 09, 10,
   * Round 17: Lost to Fort Lauderdale, FL 30 to 135
   * Round 18: Lost to Muskogee, OK 40 to 100
   * Round 19: Lost to Gering, NE 45 to 110
-* **Coaches History**: Quizzed 4 years memorizing three books, receiving 1 NMA, and going to nationals once. This is his sixth year as a coach, first as head coach and third nationals as a coach.
+* **Coach History**: Quizzed 4 years memorizing three books, receiving 1 NMA, and going to nationals once. This is his sixth year as a coach, first as head coach and third nationals as a coach.
 * **Quizzer History**:
   * Ceiran: Seventh year quizzing and senior year in Bible Quiz. He has memorized 8 books and earned 2 NMA's. This is his third appearance at nationals.
   * Sarah: Third year quizzing and senior year in Bible Quiz and her 1st nationals appearance.
