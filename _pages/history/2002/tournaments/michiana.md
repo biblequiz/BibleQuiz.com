@@ -16,57 +16,57 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                |    W |    L | Total |    Avg |
-| ---: | ----------------------------------- | ---: | ---: | ----: | -----: |
-|    1 | South Hills, Bethel Park, Pa (A) 13 |    9 |    2 |  2165 | 196.82 |
-|    2 | Expressway, Buffalo, NY 11          |    8 |    3 |  1765 | 160.45 |
-|    3 | Bethel, W. Lafayette, In. (A) 8     |    8 |    3 |  1950 | 177.27 |
-|    4 | Calvary, Dunwoody, Ga (A) 3         |    8 |    3 |  1855 | 168.64 |
-|    5 | First, Lexington, Ky (A) 10         |    8 |    3 |  1560 | 141.82 |
-|    6 | Calvary, Toledo, Oh (A) 9           |    7 |    4 |  1905 | 173.18 |
-|    7 | Minier, IL (A) 5                    |    6 |    5 |  1690 | 153.64 |
-|    8 | Calvary, Naperville, IL 12          |    5 |    6 |  1310 | 119.09 |
-|    9 | First, Lafayette, In (A) 6          |    5 |    6 |  1300 | 118.18 |
-|   10 | Calvary, Demotte, In. (A) 2         |    4 |    7 |  1535 | 139.55 |
-|   11 | Calvary Temple, INpolis, In (A) 7   |    4 |    7 |  1395 | 126.82 |
-|   12 | First, Greater Lansing, Mi 4        |    3 |    8 |  1060 |  96.36 |
-|   13 | First, Oskaloosa, Ia 1              |    2 |    9 |  1305 | 118.64 |
-|   14 | First, Lafayette, In (B) 14         |    0 |   11 |   630 |  57.27 |
+|    # | Team                                   |    W |    L | Total |    Avg |
+| ---: | -------------------------------------- | ---: | ---: | ----: | -----: |
+|    1 | South Hills, Bethel Park, Pa (A) 13    |    9 |    2 |  2165 | 196.82 |
+|    2 | Expressway, Buffalo, NY 11             |    8 |    3 |  1765 | 160.45 |
+|    3 | Bethel, W. Lafayette, In. (A) 8        |    8 |    3 |  1950 | 177.27 |
+|    4 | Calvary, Dunwoody, Ga (A) 3            |    8 |    3 |  1855 | 168.64 |
+|    5 | First, Lexington, Ky (A) 10            |    8 |    3 |  1560 | 141.82 |
+|    6 | Calvary, Toledo, Oh (A) 9              |    7 |    4 |  1905 | 173.18 |
+|    7 | Minier, IL (A) 5                       |    6 |    5 |  1690 | 153.64 |
+|    8 | Calvary, Naperville, IL 12             |    5 |    6 |  1310 | 119.09 |
+|    9 | First, Lafayette, In (A) 6             |    5 |    6 |  1300 | 118.18 |
+|   10 | Calvary, Demotte, In. (A) 2            |    4 |    7 |  1535 | 139.55 |
+|   11 | Calvary Temple, Indianapolis, In (A) 7 |    4 |    7 |  1395 | 126.82 |
+|   12 | First, Greater Lansing, Mi 4           |    3 |    8 |  1060 |  96.36 |
+|   13 | First, Oskaloosa, Ia 1                 |    2 |    9 |  1305 | 118.64 |
+|   14 | First, Lafayette, In (B) 14            |    0 |   11 |   630 |  57.27 |
 
 ### Top Individuals
 
-|    # | Quizzer             | Team                             |  Total |
-| ---: | ------------------- | -------------------------------- | -----: |
-|    1 | Lori Rozgonyi       | South Hills, Bethel Park, Pa (A) | 121.82 |
-|    2 | Kendi Beyer         | First, Oskaloosa, Ia             | 108.64 |
-|    3 | Bryce Steel         | Calvary, Toledo, Oh (A)          | 105.00 |
-|    4 | Mark Whitehead      | Bethel, W. Lafayette, In. (A)    | 101.82 |
-|    5 | Cynthia Decker      | Minier, IL (A)                   | 100.00 |
-|    6 | Noah McCalment      | Calvary, Demotte, In. (A)        |  95.45 |
-|    7 | Jamil Barton-Harris | Expressway, Buffalo, NY          |  94.09 |
-|    8 | Andrew Harrington   | Calvary, Naperville, IL          |  71.36 |
-|    9 | Brandon Porter      | Calvary, Dunwoody, Ga (A)        |  70.91 |
-|   10 | John McLaughlin     | Expressway, Buffalo, NY          |  68.64 |
-|   11 | Brittanica Chesser  | Calvary Temple, INpolis, In (A)  |  64.55 |
-|   12 | Micah Buckel        | First, Lexington, Ky (A)         |  61.36 |
-|   13 | Brooke Whitford     | First, Lafayette, In (A)         |  57.27 |
-|   14 | Joseph Fortunato    | Calvary, Dunwoody, Ga (A)        |  56.36 |
-|   15 | Kelli Hedding       | Minier, IL (A)                   |  55.45 |
-|   16 | Jeremy White        | First, Lexington, Ky (A)         |  54.55 |
-|   17 | Brian Lewis         | Calvary Temple, INpolis, In (A)  |  52.73 |
-|   18 | Joel Pruitt         | First, Lafayette, In (B)         |  51.82 |
-|   19 | Quinn Harr          | First, Greater Lansing, Mi       |  51.36 |
-|   20 | Seth Johnson        | South Hills, Bethel Park, Pa (A) |  47.27 |
-|   21 | Bethany Whitford    | First, Lafayette, In (A)         |  45.45 |
-|   22 | Nina Eagin          | Bethel, W. Lafayette, In. (A)    |  45.45 |
-|   23 | Kristen Johnson     | Calvary, Naperville, IL          |  40.91 |
-|   24 | Bailey Steel        | Calvary, Toledo, Oh (A)          |  35.00 |
-|   25 | Brandy Steel        | Calvary, Toledo, Oh (A)          |  33.64 |
-|   26 | Laura Jakstadt      | Calvary, Dunwoody, Ga (A)        |  30.45 |
-|   27 | Katie Whitehead     | Bethel, W. Lafayette, In. (A)    |  30.00 |
-|   28 | Tim Fraticelli      | Calvary, Demotte, In. (A)        |  29.09 |
-|   29 | C.J. Barna          | South Hills, Bethel Park, Pa (A) |  27.73 |
-|   30 | Kendra White        | First, Lexington, Ky (A)         |  26.36 |
+|    # | Quizzer             | Team                                 |  Total |
+| ---: | ------------------- | ------------------------------------ | -----: |
+|    1 | Lori Rozgonyi       | South Hills, Bethel Park, Pa (A)     | 121.82 |
+|    2 | Kendi Beyer         | First, Oskaloosa, Ia                 | 108.64 |
+|    3 | Bryce Steel         | Calvary, Toledo, Oh (A)              | 105.00 |
+|    4 | Mark Whitehead      | Bethel, W. Lafayette, In. (A)        | 101.82 |
+|    5 | Cynthia Decker      | Minier, IL (A)                       | 100.00 |
+|    6 | Noah McCalment      | Calvary, Demotte, In. (A)            |  95.45 |
+|    7 | Jamil Barton-Harris | Expressway, Buffalo, NY              |  94.09 |
+|    8 | Andrew Harrington   | Calvary, Naperville, IL              |  71.36 |
+|    9 | Brandon Porter      | Calvary, Dunwoody, Ga (A)            |  70.91 |
+|   10 | John McLaughlin     | Expressway, Buffalo, NY              |  68.64 |
+|   11 | Brittanica Chesser  | Calvary Temple, Indianapolis, In (A) |  64.55 |
+|   12 | Micah Buckel        | First, Lexington, Ky (A)             |  61.36 |
+|   13 | Brooke Whitford     | First, Lafayette, In (A)             |  57.27 |
+|   14 | Joseph Fortunato    | Calvary, Dunwoody, Ga (A)            |  56.36 |
+|   15 | Kelli Hedding       | Minier, IL (A)                       |  55.45 |
+|   16 | Jeremy White        | First, Lexington, Ky (A)             |  54.55 |
+|   17 | Brian Lewis         | Calvary Temple, Indianapolis, In (A) |  52.73 |
+|   18 | Joel Pruitt         | First, Lafayette, In (B)             |  51.82 |
+|   19 | Quinn Harr          | First, Greater Lansing, Mi           |  51.36 |
+|   20 | Seth Johnson        | South Hills, Bethel Park, Pa (A)     |  47.27 |
+|   21 | Bethany Whitford    | First, Lafayette, In (A)             |  45.45 |
+|   22 | Nina Eagin          | Bethel, W. Lafayette, In. (A)        |  45.45 |
+|   23 | Kristen Johnson     | Calvary, Naperville, IL              |  40.91 |
+|   24 | Bailey Steel        | Calvary, Toledo, Oh (A)              |  35.00 |
+|   25 | Brandy Steel        | Calvary, Toledo, Oh (A)              |  33.64 |
+|   26 | Laura Jakstadt      | Calvary, Dunwoody, Ga (A)            |  30.45 |
+|   27 | Katie Whitehead     | Bethel, W. Lafayette, In. (A)        |  30.00 |
+|   28 | Tim Fraticelli      | Calvary, Demotte, In. (A)            |  29.09 |
+|   29 | C.J. Barna          | South Hills, Bethel Park, Pa (A)     |  27.73 |
+|   30 | Kendra White        | First, Lexington, Ky (A)             |  26.36 |
 
 ## B Division
 
@@ -118,34 +118,34 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                |    W |    L | Total |    Avg |
-| ---: | ----------------------------------- | ---: | ---: | ----: | -----: |
-|    1 | South Hills, Bethel Park, Pa (C) 3  |   10 |    0 |  2435 | 243.50 |
-|    2 | First, Hermitage, Pa (C) 7          |    8 |    2 |  1610 | 161.00 |
-|    3 | First, Hermitage, Pa (B) 2          |    8 |    2 |  1580 | 158.00 |
-|    4 | South Hills, Bethel Park, Pa (D) 9  |    8 |    2 |  1435 | 143.50 |
-|    5 | Calvary, Elkhart, In (D) 11         |    6 |    4 |  1250 | 125.00 |
-|    6 | Bethel, W. Lafayette, In (C) 1      |    4 |    6 |   905 |  90.50 |
-|    7 | Calvary, Elkhart, In (C) 5          |    4 |    6 |   735 |  73.50 |
-|    8 | Calvary Temple, INpolis, In (B) 4   |    3 |    7 |   825 |  82.50 |
-|    9 | First, Lexington, Ky (C) 6          |    2 |    8 |   605 |  60.50 |
-|   10 | Living Hope, Merrillville, In (B) 8 |    2 |    8 |   505 |  50.50 |
-|   11 | Auburn Hills, Orion, Mi (C) 10      |    0 |   10 |   180 |  18.00 |
+|    # | Team                                   |    W |    L | Total |    Avg |
+| ---: | -------------------------------------- | ---: | ---: | ----: | -----: |
+|    1 | South Hills, Bethel Park, Pa (C) 3     |   10 |    0 |  2435 | 243.50 |
+|    2 | First, Hermitage, Pa (C) 7             |    8 |    2 |  1610 | 161.00 |
+|    3 | First, Hermitage, Pa (B) 2             |    8 |    2 |  1580 | 158.00 |
+|    4 | South Hills, Bethel Park, Pa (D) 9     |    8 |    2 |  1435 | 143.50 |
+|    5 | Calvary, Elkhart, In (D) 11            |    6 |    4 |  1250 | 125.00 |
+|    6 | Bethel, W. Lafayette, In (C) 1         |    4 |    6 |   905 |  90.50 |
+|    7 | Calvary, Elkhart, In (C) 5             |    4 |    6 |   735 |  73.50 |
+|    8 | Calvary Temple, Indianapolis, In (B) 4 |    3 |    7 |   825 |  82.50 |
+|    9 | First, Lexington, Ky (C) 6             |    2 |    8 |   605 |  60.50 |
+|   10 | Living Hope, Merrillville, In (B) 8    |    2 |    8 |   505 |  50.50 |
+|   11 | Auburn Hills, Orion, Mi (C) 10         |    0 |   10 |   180 |  18.00 |
 
 ### Top Individuals
 
-|    # | Quizzer         | Team                             |  Total |
-| ---: | --------------- | -------------------------------- | -----: |
-|    1 | Cara Rozgonyi   | South Hills, Bethel Park, Pa (C) | 141.50 |
-|    2 | Elyssa DeFazio  | First, Hermitage, Pa (B)         | 101.50 |
-|    3 | Jenna Liberati  | South Hills, Bethel Park, Pa (C) |  83.00 |
-|    4 | Trevor Hansen   | Calvary, Elkhart, In (D)         |  73.00 |
-|    5 | Jodi Mattocks   | First, Hermitage, Pa (C)         |  69.50 |
-|    6 | Luke Furr       | Calvary Temple, INpolis, In (B)  |  65.50 |
-|    7 | Keenan Hartman  | Bethel, W. Lafayette, In (C)     |  62.00 |
-|    8 | Jamie Lewis     | First, Hermitage, Pa (C)         |  59.00 |
-|    9 | David Kotfis    | South Hills, Bethel Park, Pa (D) |  53.00 |
-|   10 | Aubrey McDonald | Calvary, Elkhart, In (D)         |  52.00 |
+|    # | Quizzer         | Team                                 |  Total |
+| ---: | --------------- | ------------------------------------ | -----: |
+|    1 | Cara Rozgonyi   | South Hills, Bethel Park, Pa (C)     | 141.50 |
+|    2 | Elyssa DeFazio  | First, Hermitage, Pa (B)             | 101.50 |
+|    3 | Jenna Liberati  | South Hills, Bethel Park, Pa (C)     |  83.00 |
+|    4 | Trevor Hansen   | Calvary, Elkhart, In (D)             |  73.00 |
+|    5 | Jodi Mattocks   | First, Hermitage, Pa (C)             |  69.50 |
+|    6 | Luke Furr       | Calvary Temple, Indianapolis, In (B) |  65.50 |
+|    7 | Keenan Hartman  | Bethel, W. Lafayette, In (C)         |  62.00 |
+|    8 | Jamie Lewis     | First, Hermitage, Pa (C)             |  59.00 |
+|    9 | David Kotfis    | South Hills, Bethel Park, Pa (D)     |  53.00 |
+|   10 | Aubrey McDonald | Calvary, Elkhart, In (D)             |  52.00 |
 
 ## Novice Division
 

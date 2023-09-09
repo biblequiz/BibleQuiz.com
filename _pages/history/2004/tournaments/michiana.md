@@ -26,7 +26,7 @@ menubar_toc_static:
 |    6 | Faith A/G, Orlando, FL                 |    6 |    3 |  1310 |
 |    7 | South Hills A/G, Bethel Park, PA       |    5 |    4 |  1590 |
 |    8 | Cornerstone A/G, Bowie, MD             |    5 |    4 |  1385 |
-|    9 | Calvary temple, INpolis, IN            |    5 |    4 |  1345 |
+|    9 | Calvary temple, Indianapolis, IN       |    5 |    4 |  1345 |
 |   10 | Central A/G, Superior, WI              |    5 |    4 |  1180 |
 |   11 | Bethel Center, West Lafayette, IN      |    4 |    5 |  1005 |
 |   12 | First A/G, Greater Lansing, MI         |    4 |    5 |   880 |

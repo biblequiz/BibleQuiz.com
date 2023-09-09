@@ -22,7 +22,7 @@ A 17 round, round-robin was quizzed over 2 days with some teams having a bye, an
 |    4 | 1st A/G, Hermitage PA                         |   12 |    4 | 123.75 |
 |    5 | AP A/G "SCUM", Allison Park PA                |   12 |    5 | 143.53 |
 |    6 | Bethel Christian Life Center, W. Lafayette IN |   11 |    5 | 165.94 |
-|    7 | Calvary Temple, INpolis IN                    |   11 |    5 | 138.13 |
+|    7 | Calvary Temple, Indianapolis IN               |   11 |    5 | 138.13 |
 |    8 | South Hills A/G, Bethel Park PA               |   10 |    6 | 166.25 |
 |    9 | Oaks Fellowship, Dallas TX                    |   10 |    6 | 154.69 |
 |   10 | Expressway A/G, Buffalo NY                    |   10 |    7 | 149.12 |

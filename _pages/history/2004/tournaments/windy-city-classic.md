@@ -22,7 +22,7 @@ menubar_toc_static:
 |    2 | First Assembly of God, East Lansing, MI       |   11 |    2 |  1680 | 129.23 |
 |    3 | Calvary Assembly of God, Elkhart, IN **       |    9 |    4 |  1645 | 126.54 |
 |    4 | Nixa Assembly of God, Nixa, MO                |    9 |    4 |  1795 | 138.08 |
-|    5 | Lakeview Christian Center, INpolis, IN        |    9 |    4 |  1915 | 147.31 |
+|    5 | Lakeview Christian Center, Indianapolis, IN   |    9 |    4 |  1915 | 147.31 |
 |    6 | Calvary Church, Naperville, IL (C)            |    9 |    4 |  1820 | 140.00 |
 |    7 | King's Chapel, Springfield, MO                |    7 |    6 |  1525 | 117.31 |
 |    8 | Faith Family Life Centre, Topeka, KS          |    7 |    6 |  1205 |  92.69 |

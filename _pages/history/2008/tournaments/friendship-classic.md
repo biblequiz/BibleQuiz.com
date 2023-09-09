@@ -16,32 +16,32 @@ After 9 preliminary rounds, teams were bracketed and divided among the divisions
 
 ## Preliminaries
 
-| Team                                   | Total |  Avg |    W |    L |
-| -------------------------------------- | ----: | ---: | ---: | ---: |
-| First A/G, Owasso, OK                  |  2120 |  236 |    7 |    2 |
-| James River A/G, Ozark, MO "J"         |  2055 |  228 |    9 |    0 |
-| Faith A/G, Orlando, FL                 |  1985 |  221 |    8 |    1 |
-| First A/G, Binghamton, NY              | 1.815 |  202 |    7 |    2 |
-| First A/G, Lexington, KY               |  1790 |  199 |    7 |    2 |
-| Manassas A/G, Bristow, VA              |  1670 |  186 |    7 |    2 |
-| Orange Hills A/G, Orange, CA           |  1655 |  184 |    7 |    2 |
-| Calvary A/G, South Bend, IN            |  1480 |  164 |    6 |    3 |
-| Grace A/G, Syracuse, NY                |  1340 |  149 |    6 |    3 |
-| Praise A/G, Garfield, NJ               |  1295 |  144 |    5 |    4 |
-| Bethlehem Church, Richmond Hills, NY   |  1055 |  117 |    6 |    3 |
-| Dayspring A/G, Bowling Green, OH       |  1050 |  117 |    4 |    5 |
-| Evangel A/G, Sarver, PA                |  1040 |  116 |    3 |    6 |
-| Journey Church, Bridgeville, PA        |  1025 |  114 |    5 |    4 |
-| James River A/G, MO "P"                |   925 |  103 |    3 |    6 |
-| First A/G, Elkton, MD                  |   915 |  102 |    4 |    5 |
-| First A/G, Greater Lansing, MI         |   865 |   96 |    2 |    7 |
-| Lakeview Christian Center, INpolis, IN |   845 |   94 |    2 |    7 |
-| Christian Chapel, Tulsa, OK            |   845 |   94 |    2 |    7 |
-| Faith Community, Martha's Vineyard, MA |   830 |   92 |    1 |    8 |
-| Harvest Time A/G, Brunswick, OH        |   810 |   90 |    2 |    7 |
-| Resurrection Church, Holland, MI       |   690 |   77 |    2 |    7 |
-| First A/G, Lafayette, IN               |   660 |   73 |    1 |    8 |
-| Kennebec Valley, Augusta/Bangor, ME    |   655 |   73 |    2 |    7 |
+| Team                                        | Total |  Avg |    W |    L |
+| ------------------------------------------- | ----: | ---: | ---: | ---: |
+| First A/G, Owasso, OK                       |  2120 |  236 |    7 |    2 |
+| James River A/G, Ozark, MO "J"              |  2055 |  228 |    9 |    0 |
+| Faith A/G, Orlando, FL                      |  1985 |  221 |    8 |    1 |
+| First A/G, Binghamton, NY                   | 1.815 |  202 |    7 |    2 |
+| First A/G, Lexington, KY                    |  1790 |  199 |    7 |    2 |
+| Manassas A/G, Bristow, VA                   |  1670 |  186 |    7 |    2 |
+| Orange Hills A/G, Orange, CA                |  1655 |  184 |    7 |    2 |
+| Calvary A/G, South Bend, IN                 |  1480 |  164 |    6 |    3 |
+| Grace A/G, Syracuse, NY                     |  1340 |  149 |    6 |    3 |
+| Praise A/G, Garfield, NJ                    |  1295 |  144 |    5 |    4 |
+| Bethlehem Church, Richmond Hills, NY        |  1055 |  117 |    6 |    3 |
+| Dayspring A/G, Bowling Green, OH            |  1050 |  117 |    4 |    5 |
+| Evangel A/G, Sarver, PA                     |  1040 |  116 |    3 |    6 |
+| Journey Church, Bridgeville, PA             |  1025 |  114 |    5 |    4 |
+| James River A/G, MO "P"                     |   925 |  103 |    3 |    6 |
+| First A/G, Elkton, MD                       |   915 |  102 |    4 |    5 |
+| First A/G, Greater Lansing, MI              |   865 |   96 |    2 |    7 |
+| Lakeview Christian Center, Indianapolis, IN |   845 |   94 |    2 |    7 |
+| Christian Chapel, Tulsa, OK                 |   845 |   94 |    2 |    7 |
+| Faith Community, Martha's Vineyard, MA      |   830 |   92 |    1 |    8 |
+| Harvest Time A/G, Brunswick, OH             |   810 |   90 |    2 |    7 |
+| Resurrection Church, Holland, MI            |   690 |   77 |    2 |    7 |
+| First A/G, Lafayette, IN                    |   660 |   73 |    1 |    8 |
+| Kennebec Valley, Augusta/Bangor, ME         |   655 |   73 |    2 |    7 |
 
 ## Gold Division
 
@@ -120,7 +120,7 @@ After 9 preliminary rounds, teams were bracketed and divided among the divisions
 |    3 | First A/G, Lafayette, IN*               |    4 |    3 |   855 |  122 |
 |    4 | Faith Community, Martha's Vineyard, MA  |    4 |    3 |  1020 |  146 |
 |    5 | Harvest Time A/G, Brunswick, OH         |    3 |    4 |   765 |  109 |
-|    6 | Lakeview C.C., INpolis, IN              |    3 |    4 |   530 |   76 |
+|    6 | Lakeview C.C., Indianapolis, IN         |    3 |    4 |   530 |   76 |
 |    7 | First A/G, Greater Lansing, MI          |    2 |    5 |   775 |  111 |
 |    8 | Kennebec Valley A/G, Augusta/Bangor, ME |    1 |    6 |   595 |   85 |
 

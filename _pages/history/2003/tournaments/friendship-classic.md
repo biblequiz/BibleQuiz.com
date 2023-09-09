@@ -19,7 +19,7 @@ menubar_toc_static:
 |    1 | First A/G, Hermitage, PA           |   14 |    3 |  2460 |  145 |
 |    2 | Monroeville A/G, Monroeville, PA   |   14 |    3 |  3060 |  180 |
 |    3 | Cedar Park A/G, Bothell, WA        |   13 |    4 |  2810 |  165 |
-|    4 | Calvary Temple, INpolis, IN        |   13 |    4 |  2745 |  161 |
+|    4 | Calvary Temple, Indianapolis, IN   |   13 |    4 |  2745 |  161 |
 |    5 | First A/G, Fort Myers, FL          |   13 |    4 |  2505 |  147 |
 |    6 | Bethel Christian, W.Layfayette, IN |   12 |    5 |  2685 |  158 |
 |    7 | First A/G, Lexington, KY"V"        |   11 |    6 |  2270 |  134 |

@@ -64,7 +64,7 @@ menubar_toc_static:
 |    1 | Rachel Preston | Bothell, WA  |  1350 |
 |    2 | Kara Gallo     | Bellevue, WA |   905 |
 |    3 | Devon Griggs   | Renton, WA   |   735 |
-|      | Melissa Lee    | Renton, WA   |   735 |
+|   3* | Melissa Lee    | Renton, WA   |   735 |
 |    5 | Sreya Santhosh | Bellevue, WA |   475 |
 
 ## Novice Division

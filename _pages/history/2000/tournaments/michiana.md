@@ -140,8 +140,8 @@ menubar_toc_static:
 |    6 | First A/G, Lafayette, IN #2        |    6 |    5 |   515 |
 |    7 | First A/G, Moberly, MO #2          |    5 |    6 |   600 |
 |    8 | Auburn Hills (MI) A/G #4           |    5 |    6 |   255 |
-|    9 | Southwood A/G, INpolis, IN         |    4 |    7 |   315 |
-|   10 | Parc-Way A/G, INpolis, IN          |    2 |    9 |   220 |
+|    9 | Southwood A/G, Indianapolis, IN    |    4 |    7 |   315 |
+|   10 | Parc-Way A/G, Indianapolis, IN     |    2 |    9 |   220 |
 |   11 | First A/G, Merrillville, IN #3     |    1 |   10 |   285 |
 |   12 | First A/G, Portage, IN             |    1 |   10 |    95 |
 

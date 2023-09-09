@@ -31,7 +31,7 @@ menubar_toc_static:
 |   11 | Racine, WI                     |    5 |    6 |  1360 | 123.64 |
 |   12 | New Life, White Cloud, Mi      |    4 |    6 |  1025 | 102.50 |
 |   13 | 1st, E. Lansing, Mi. #2        |    2 |    8 |   970 |  97.00 |
-|   14 | Lakeview, INpolis, In          |    3 |    8 |  1040 |  94.55 |
+|   14 | Lakeview, Indianapolis, In     |    3 |    8 |  1040 |  94.55 |
 |   15 | Resurrection Life, Holland, MI |    2 |    8 |   795 |  79.50 |
 |   16 | Alfordsville, In               |    2 |    8 |   775 |  77.50 |
 |   17 | Stone, Palos Heights, IL       |    1 |    9 |  1030 | 103.00 |
