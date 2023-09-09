@@ -159,42 +159,42 @@ Afterward, the winning teams played for the National championship. Owasso beat W
 
 ### Group B
 
-| # | Team                                           | W / L | Total |
-|--:|------------------------------------------------|-------|------:|
-| 1 | Praise A/G, Garfield, NJ                       | 7 / 0 | 1560  |
-| 2 | Southgate Church, South Bend, IN               | 5 / 2 | 1260  |
-| 3 | First Samoan Assembly, Irvine, CA              | 5 / 2 | 1120  |
-| 4 | First A/G, Montgomery, AL                      | 5 / 2 | 785   |
-| 5 | Highpoint Church, Oklahoma City, OK            | 3 / 4 | 640   |
-| 6 | New Life Church, Renton, WA                    | 1 / 6 | 505   |
-| 7 | Central A/G, "What They Fear", Springfield, MO | 1 / 6 | 395   |
-| 8 | Racine Assembly, Racine, WI                    | 1 / 6 | 305   |
+|    # | Team                                           | W / L | Total |
+| ---: | ---------------------------------------------- | ----- | ----: |
+|    1 | Praise A/G, Garfield, NJ                       | 7 / 0 |  1560 |
+|    2 | Southgate Church, South Bend, IN               | 5 / 2 |  1260 |
+|    3 | First Samoan Assembly, Irvine, CA              | 5 / 2 |  1120 |
+|    4 | First A/G, Montgomery, AL                      | 5 / 2 |   785 |
+|    5 | Highpoint Church, Oklahoma City, OK            | 3 / 4 |   640 |
+|    6 | New Life Church, Renton, WA                    | 1 / 6 |   505 |
+|    7 | Central A/G, "What They Fear", Springfield, MO | 1 / 6 |   395 |
+|    8 | Racine Assembly, Racine, WI                    | 1 / 6 |   305 |
 
 ### Group C
 
-| # | Team                                      | W / L | Total |
-|--:|-------------------------------------------|-------|------:|
-| 1 | Victorious Life Church, Wesley Chapel, FL | 7 / 0 | 1410  |
-| 2 | James River A/G, Ozark, MO                | 6 / 1 | 1445  |
-| 3 | Christian Temple, Houston, TX             | 4 / 3 | 915   |
-| 4 | Mountain View A/G, Spokane, WA            | 4 / 3 | 545   |
-| 5 | Living Hope Church, Colorado Springs, CO  | 3 / 4 | 880   |
-| 6 | First A/G, Lexington, KY                  | 3 / 4 | 730   |
-| 7 | Word of Life Church, Springfield, VA      | 1 / 6 | 395   |
-| 8 | Crosspoint A/G, Portage, WI               | 0 / 7 | 200   |
+|    # | Team                                      | W / L | Total |
+| ---: | ----------------------------------------- | ----- | ----: |
+|    1 | Victorious Life Church, Wesley Chapel, FL | 7 / 0 |  1410 |
+|    2 | James River A/G, Ozark, MO                | 6 / 1 |  1445 |
+|    3 | Christian Temple, Houston, TX             | 4 / 3 |   915 |
+|    4 | Mountain View A/G, Spokane, WA            | 4 / 3 |   545 |
+|    5 | Living Hope Church, Colorado Springs, CO  | 3 / 4 |   880 |
+|    6 | First A/G, Lexington, KY                  | 3 / 4 |   730 |
+|    7 | Word of Life Church, Springfield, VA      | 1 / 6 |   395 |
+|    8 | Crosspoint A/G, Portage, WI               | 0 / 7 |   200 |
 
 ### Group D
 
-| # | Team                                       | W / L | Total |
-|--:|--------------------------------------------|-------|------:|
-| 1 | Dayspring Church, Bowling Green, OH        | 6 / 1 | 1245  |
-| 2 | First A/G, Binghamton, NY                  | 6 / 1 | 1215  |
-| 3 | Manassas A/G, Bristow, VA                  | 4 / 3 | 850   |
-| 4 | Braeswood A/G, Houston, TX                 | 4 / 3 | 800   |
-| 5 | Toccoa A/G, Toccoa, GA                     | 3 / 4 | 530   |
-| 6 | Cedar Park A/G, Bothell, WA                | 2 / 5 | 640   |
-| 7 | North Scottsdale Christian, Scottsdale, AZ | 2 / 5 | 520   |
-| 8 | Northfield Church, Gering, NE              | 1 / 6 | 575   |
+|    # | Team                                       | W / L | Total |
+| ---: | ------------------------------------------ | ----- | ----: |
+|    1 | Dayspring Church, Bowling Green, OH        | 6 / 1 |  1245 |
+|    2 | First A/G, Binghamton, NY                  | 6 / 1 |  1215 |
+|    3 | Manassas A/G, Bristow, VA                  | 4 / 3 |   850 |
+|    4 | Braeswood A/G, Houston, TX                 | 4 / 3 |   800 |
+|    5 | Toccoa A/G, Toccoa, GA                     | 3 / 4 |   530 |
+|    6 | Cedar Park A/G, Bothell, WA                | 2 / 5 |   640 |
+|    7 | North Scottsdale Christian, Scottsdale, AZ | 2 / 5 |   520 |
+|    8 | Northfield Church, Gering, NE              | 1 / 6 |   575 |
 
 ### Group E
 
@@ -2304,6 +2304,25 @@ At the Georgia District Competition there was a tie for first place between Snel
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="North Scottsdale Christian, Scottdale, AZ" html=image_html %}
+
+## One-on-One Tournament
+
+| Quizzer           | Total |   QO | Correct % |
+| ----------------- | ----: | ---: | --------: |
+| Courtney Walin    |    30 |    6 |    83.33% |
+| Brayden Laakkonen |    27 |    9 |    75.00% |
+| James Cary        |    27 |    9 |    75.00% |
+| Rebecca Ford      |    25 |   11 |    69.44% |
+| Rachel Roller     |    25 |   11 |    69.44% |
+| Hannah Stout      |    21 |   15 |    58.33% |
+| Olivia Cox        |    19 |   17 |    52.78% |
+| Tabitha DiBacco   |    19 |   17 |    52.78% |
+| Jonathan Brown    |    18 |   18 |    50.00% |
+| Summer McDaniel   |    13 |   23 |    36.11% |
+| Timothy Pryer     |    12 |   24 |    33.33% |
+| Bethany Ehrlich   |     7 |   29 |    19.44% |
+| EJ Mintah         |     5 |   31 |    13.89% |
+| Mo Adewunmi       |     4 |   32 |    11.11% |
 
 ## Special Events
 
