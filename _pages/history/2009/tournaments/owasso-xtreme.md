@@ -87,15 +87,15 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team               |    W |    L | Total |    Avg |
-| ---: | ------------------ | ---: | ---: | ----: | -----: |
-|    1 | Muskogee First     |   12 |    0 |  2775 | 231.25 |
-|    2 | Central A/G        |   10 |    2 |  2205 |    183 |
-|    3 | Owasso First # 4   |    7 |    5 |  1895 | 157.92 |
-|    4 | Christian Chapel#3 |    7 |    5 |  1150 |  95.83 |
-|    5 | Christian Temple   |    4 |    8 |   990 |   82.5 |
-|    6 | Owasso First # 3   |    2 |   10 |   385 |  32.08 |
-|    7 | Owasso First # 5   |    0 |   12 |    60 |      5 |
+|    # | Team                |    W |    L | Total |    Avg |
+| ---: | ------------------- | ---: | ---: | ----: | -----: |
+|    1 | Muskogee First      |   12 |    0 |  2775 | 231.25 |
+|    2 | Central A/G         |   10 |    2 |  2205 |    183 |
+|    3 | Owasso First # 4    |    7 |    5 |  1895 | 157.92 |
+|    4 | Christian Chapel #3 |    7 |    5 |  1150 |  95.83 |
+|    5 | Christian Temple    |    4 |    8 |   990 |   82.5 |
+|    6 | Owasso First # 3    |    2 |   10 |   385 |  32.08 |
+|    7 | Owasso First # 5    |    0 |   12 |    60 |      5 |
 
 ### Individuals
 

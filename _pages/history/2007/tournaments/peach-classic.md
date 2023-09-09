@@ -84,7 +84,7 @@ All results are from division quizzing only.
 |    3 | Benjamin Harkins | Lawrenceville |   335 |
 |    4 | Kaylin Stone     | Columbus #1   |   260 |
 |    5 | Kristin Barkman  | Columbus #1   |   225 |
-|      | Tie Neal Beeler  | Cedartown     |   225 |
+|   5* | Neal Beeler      | Cedartown     |   225 |
 
 ### Silver Division
 

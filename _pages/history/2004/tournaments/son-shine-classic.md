@@ -18,26 +18,26 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                  | Total |   Avg |    W |    L | Prize                       |
-| ---: | --------------------- | ----: | ----: | ---: | ---: | --------------------------- |
-|      | Seattle, WA*          |  2195 | 129.1 |   14 |    3 | $150 cash, Trophy           |
-|      | Orlando, FL '1'*      |  2395 | 140.9 |   14 |    3 | 5 Holy Land Tickets, Trophy |
-|      | Jacksonville, FL '1'* |  2765 | 162.7 |   14 |    3 | Trophy                      |
-|      | Naperville, IL*       |  2390 | 140.6 |   14 |    3 |                             |
-|      | Ft. Myers, FL*        |  2310 | 135.9 |   14 |    3 |                             |
-|      | Lexington, KY '2'     |  2550 | 150.0 |   13 |    4 |                             |
-|      | Lexington, KY '1'     |  2360 | 138.8 |   11 |    6 |                             |
-|      | Dallas, TX            |  1625 |  95.6 |   10 |    7 |                             |
-|      | Orlando, FL '2'       |  1580 |  92.9 |    9 |    8 |                             |
-|      | Kokomo, IN            |  1470 |  86.5 |    8 |    9 |                             |
-|      | Elkhart, IN           |  1340 |  78.8 |    7 |   10 |                             |
-|      | Smyrna, GA            |  1235 |  72.7 |    7 |   10 |                             |
-|      | Jacksonville, FL '2'  |   565 |  33.2 |    6 |   11 |                             |
-|      | Centerville, GA       |   795 |  46.8 |    5 |   12 |                             |
-|      | Lexington, KY '3'     |   655 |  38.5 |    3 |   14 |                             |
-|      | Lehigh, FL            |   120 |   7.1 |    3 |   14 |                             |
-|      | St. Petersburg, FL    |   450 |  26.5 |    1 |   16 |                             |
-|      | Ocoee, FL             |    25 |   1.5 |    0 |   17 |                             |
+ | Team                  | Total |   Avg |    W |    L | Prize                       |
+ | --------------------- | ----: | ----: | ---: | ---: | --------------------------- |
+ | Seattle, WA*          |  2195 | 129.1 |   14 |    3 | $150 cash, Trophy           |
+ | Orlando, FL '1'*      |  2395 | 140.9 |   14 |    3 | 5 Holy Land Tickets, Trophy |
+ | Jacksonville, FL '1'* |  2765 | 162.7 |   14 |    3 | Trophy                      |
+ | Naperville, IL*       |  2390 | 140.6 |   14 |    3 |                             |
+ | Ft. Myers, FL*        |  2310 | 135.9 |   14 |    3 |                             |
+ | Lexington, KY '2'     |  2550 | 150.0 |   13 |    4 |                             |
+ | Lexington, KY '1'     |  2360 | 138.8 |   11 |    6 |                             |
+ | Dallas, TX            |  1625 |  95.6 |   10 |    7 |                             |
+ | Orlando, FL '2'       |  1580 |  92.9 |    9 |    8 |                             |
+ | Kokomo, IN            |  1470 |  86.5 |    8 |    9 |                             |
+ | Elkhart, IN           |  1340 |  78.8 |    7 |   10 |                             |
+ | Smyrna, GA            |  1235 |  72.7 |    7 |   10 |                             |
+ | Jacksonville, FL '2'  |   565 |  33.2 |    6 |   11 |                             |
+ | Centerville, GA       |   795 |  46.8 |    5 |   12 |                             |
+ | Lexington, KY '3'     |   655 |  38.5 |    3 |   14 |                             |
+ | Lehigh, FL            |   120 |   7.1 |    3 |   14 |                             |
+ | St. Petersburg, FL    |   450 |  26.5 |    1 |   16 |                             |
+ | Ocoee, FL             |    25 |   1.5 |    0 |   17 |                             |
 
 \* As per the guidelines, Seattle defeated Ft. Myers for the fourth seed. Orlando defeated Naperville while Seattle defeated Jacksonville in the second round.
 Seattle defeated Orlando in the championship while Jacksonville defeated Naperville in the third place match.

@@ -64,11 +64,11 @@ Individual scores were determined from the seven preliminary rounds and the firs
 
 ### Top Individuals
 
-|    # | Quizzer              | Team                               | Total |
-| ---: | -------------------- | ---------------------------------- | ----: |
-|    1 | Felicia Rexford      | Treasure Coast A/G, Vero Beach, FL |   160 |
-|    2 | Ric White            | Macon                              |   125 |
-|    3 | Danielle Doleman     | Columbus                           |    65 |
-|      | [tie] Markie Rydholm | Oak Hill A/G, Nashville, TN        |    65 |
-|    5 | Adri Rydholm         | Nashville                          |    50 |
+|    # | Quizzer          | Team                               | Total |
+| ---: | ---------------- | ---------------------------------- | ----: |
+|    1 | Felicia Rexford  | Treasure Coast A/G, Vero Beach, FL |   160 |
+|    2 | Ric White        | Macon                              |   125 |
+|    3 | Danielle Doleman | Columbus                           |    65 |
+|   3* | Markie Rydholm   | Oak Hill A/G, Nashville, TN        |    65 |
+|    5 | Adri Rydholm     | Nashville                          |    50 |
 

@@ -274,7 +274,7 @@ menubar_toc_static:
 |    9 | Kings Chapel, Springfield, Mo #2 |    3 |    4 |
 |   10 | Faith Memorial, Sandusky, Oh     |    3 |    4 |
 |   11 | First, Lexington, Ky #8          |    3 |    4 |
-|   12 | Kings Way, Versailles, Ky#3      |    2 |    5 |
+|   12 | Kings Way, Versailles, Ky #3     |    2 |    5 |
 |   13 | Nixa, Mo #6                      |    1 |    6 |
 |   14 | First, Greencastle, In #3        |    1 |    6 |
 |   15 | Praise Fellowship, Indy, In #2   |    1 |    6 |

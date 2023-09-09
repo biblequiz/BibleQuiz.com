@@ -116,4 +116,4 @@ menubar_toc_static:
 |   19 | Favor Oribhabor  |    30 |      |
 |   20 | Meagan Silvey    |    20 |      |
 |   21 | Zac McKeever     |    15 |      |
-|   22 | Eubechi Idika    |    10 |
+|   22 | Eubechi Idika    |    10 |      |
