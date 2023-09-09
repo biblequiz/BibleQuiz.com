@@ -260,9 +260,9 @@ Quote the verse that mentions those who lived in error and the verse that mentio
 * **Favorite verse from the material**\
 The verse from which our team name is derived: Jude 9.
 * **Tournaments attended this year**
-  * Michiana
   * [Friendship Classic]({% link _pages/history/2012/tournaments/friendship-classic.md %})
   * [Gobblefest]({% link _pages/history/2012/tournaments/gobblefest.md %})
+  * Michiana
   * [River Classic]({% link _pages/history/2012/tournaments/river-classic.md %})
   * Three Rivers Classic
 * **Favorite non-quiz related moment(s) this year**\
@@ -340,7 +340,38 @@ TODO_BIOS
   * Round 17: Lost to Oklahoma City, OK 35 to 125
   * Round 18: Won against Phoenix, AZ 85 to 55
   * Round 19: Won against Springfield, VA 125 to 50
-TODO_BIOS
+* **Coach History**: Coached 17 years, this will be 8th trip to Nationals. Earned NMA over Hebrews & I & II Peter 8 years ago.
+* **Quizzer History**:
+  * Drew: 5th year quizzer; 2nd Nationals; NMA
+  * Claire: 2nd year quizzer; 1st Nationals; NMA
+  * Mike: 5th year quizzer; 1st Nationals; NMA
+  * Nathan: 5th year quizzer; 1st Nationals; NMA
+  * Austin: 3rd year quizzer; 2nd Nationals
+* **Team History**\
+As a team, this is a "1st trip" to Nationals. Both Drew and Austin attended last year. Each of these quizzers have at least one older brother and/or sister who has attended past Nationals. Maureen has coached all of her TBQ age children (and has only one left to be able to say she has coached all of them) at Nationals.
+* **Most exciting match this season**\
+The most memorable match this season was beating our in-state rivals at Regional Finals. A couple of the quizzers planned a fruit snack (compliments of the host church - Dayspring, OH) celebration upon a victory. When they knew they had the game in hand, they began checking their pockets for the reward.
+* **Favorite contest (weirdest, funniest, etc)**\
+Probably the weirdest contest was one against our team at Regionals. Drew quoted several verses rather fast and rather slurry. When the QM and judges ruled him correct, we expected a contest on because of 3 or 4 goofy pronunciations, but were rather surprised when the coach of the opposing team said he counted at least 9 mistakes. He highlighted 4, we rebutted that certain words may have been pronounced strangely and pauses at strategic times could also cause difficulties, but we thought he had quoted everything correctly. We won the rebuttal.
+* **Favorite question (weirdest, funniest, etc)**\
+Two of our favorite questions:\
+From a question set of 8 years ago: Joey Bohanon prefaced this question with the disclaimer that the QM should pre-read the question so he wouldn't laugh and misread it. The question? Statement & Question. In the video game, Super Mario Brother, Mario's enemies are consumed by raging fireballs. According to Hebrews 10:27, whose enemies will be consumed by raging fire?\
+A question written by one of our quizzers during a weekend practice: 2 Part Reference Essence Question. Give in essence the verse that mentions hurling and the verse that mentions vomiting.
+* **Favorite verse from the material**
+  * Drew: 1 Peter 2:12
+  * Mike: 1 Peter 3:15
+  * Austin: 2 Peter 3:8,9
+  * Nathan: Hebrews 3:13
+  * Claire: Hebrews 13:16
+  * Maureen (Coach): Hebrews 13:2
+* **Tournaments attended this year**
+  * Michiana
+  * [Friendship Classic]({% link _pages/history/2012/tournaments/friendship-classic.md %})
+  * [River Classic]({% link _pages/history/2012/tournaments/river-classic.md %})
+* **Favorite non-quiz related moment(s) this year**\
+Taking 3rd place in the trivia game at Buffalo Wild Wings at Regionals. Bowling with a partner at the same time, on the same lane, and getting a strike (both balls were needed). Playing spoons with lotion bottles instead of spoons (I will leave the results to your imagination). Talking with James Carrie.
+* **What opportunities has your team had to use Bible Quiz outside of the church?**\
+This season our team has held a lot of fundraisers (as usual) to raise money to attend tournaments, Regionals, and Nationals. This spring, however, we went door-to-door collecting pop cans to raise money to buy a Kirkman quiz set for the children of Managua, Nicaragua. A former quizzer from our church, Whitney Harr, is currently ministering with the ENGAGE group in Nicaragua, to children who live in the city dumps and nearby areas. She was asked to help start up JBQ by some other missionaries. They have one buzz box and lots of kids. Our goal is to raise enough to purchase one quiz set and extra supplies they need. We raised over $345.00 collecting cans and plan to raise the rest this summer so we can send the set back to Nicaragua with Whitney in September.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="First A/G of Greater Lansing, East Lansing, MI" html=image_html %}
@@ -379,7 +410,23 @@ TODO_BIOS
   * Round 17: Won against Christian Temple Houston, TX 110 to 95
   * Round 18: Lost to Mt. Pocono, PA 80 to 175
   * Round 19: Won against Bristow, VA 125 to 60
-TODO_BIOS
+* **Coach History**:
+  * Donna: head coach 7 years (5 as head coach) This will be our 7th consecutive year at Nationals.
+  * Thomas: assistant coach 6 years as a quizzer at nationals, first year as an assistant coach.
+* **Quizzer History**:
+  * Samuel: 11th grade, 5th year at nationals. NMA, MMA
+  * David: 9th grade 2nd year at nationals NMA
+  * Faith: 7th grade 2nd year at nationals NMA MMA
+  * John: 10th grade 1st year at nationals NMA
+  * Aaron: 6th grade - 1st year at nationals NMA
+* **Team History**\
+We quizzed for three years in California for Orange Hills assembly, before that our older kids quizzed for Irv Kuroishi. Thankfully we were coached in coaching by James Pryer, and Mary Pryer and mentored by Irv. We moved to Michigan in O8 and have quizzed for New Life Assembly since. We have been fortunate to qualify to go to nationals every year we've quizzed.
+* **Most exciting match this season**\
+John's rebuttal to a contest against James River after Karl said that a statement was cute but invalid. John agreed but said that no grown man should use the word cute in a contest.
+* **Tournaments attended this year**:
+  * Michiana
+* **Favorite non-quiz related moment(s) this year**\
+With the economy we have had a couple of really hard years. We have had to evaluate what is important to our family and figure out how to make very limited resources cover us. There was a time this year that we were faced with deciding whether we could continue on past state finals. We kept going, and two days before we had to register our team for nationals, a completely unexpected check came in to cover the cost. It confirmed that God was with us in our decision to continue on.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="New Life A/G, White Cloud, MI" html=image_html %}
@@ -453,7 +500,41 @@ TODO_BIOS
   * Round 17: Won against Spokane, WA 280 to -10
   * Round 18: Won against Swedesboro, NJ 170 to 60
   * Round 19: Lost to South Bend, IN 140 to 160
-TODO_BIOS
+* **Coach History**: Involved with quiz for 21 years, as a quizzer, official, coach and question writer. This is his second year to coach at national finals.
+* **Quizzer History**:
+  * Joshua: captain, MMA, NMA, Discipleship Award, senior, 7th year
+  * Devon: MMA, NMA, Discipleship Award, 6th year
+  * Jillian: NMA, Discipleship Award, 2nd year
+* **Team History**\
+This is 18th team James River has sent to nationals. They have competed at every National Finals since 2001, sending two teams in 2005, 2006, 2008, 2009, 2010 and 2011. One of their teams has finished in the top five in the Championship Division for the the last seven years.
+* **Interesting Historical Tidbits**\
+Coach Karl Dawson is a former quizzer himself, having graduated over Hebrews and Peter in 1996. Although both records have since been broken, he holds the distinct honor of having both the most backward quizouts at nationals, with 11 in 1993 AND the most forward quizouts at nationals, with 18 in 1996.
+* **Most exciting match this season**\
+Our most exciting match was actually an Individual Tournament game at the River Classic. Devon and Josh were both competing in the semifinal games against other very talented quizzers. Josh started strong, while Devon struggled. As the game went on, Devon had two wrong and needed four correct answers in a row to advance. He nailed the next four questions, winning a challenging contest on the last one. This left one question in the game which Josh had to get to advance. He makes the hit and gets it, but a contest renders the question invalid. Josh then gets the replacement question. The two James River quizzers emerged victorious.\
+\
+Our other exciting games were losses--a playoff against Garfield for the title at Friendship, and a de facto playoff game against Owasso at the River Classic that we lost in overtime.
+* **Favorite contest (weirdest, most clever, etc)**\
+We successfully argued in a response that the heart wasn't a body part.
+* **Favorite quiz question (weirdest, funniest, etc)**\
+Any question that requires them to quote Hebrews 9:5. This allows them to purposely mispronounce the word "cherubim" in a way that can't adequately be described with words.
+* **Favorite verse from the material**\
+The verse from which our team name is taken is pretty good. We also like most anything from 2 Peter 2.\
+\
+He writes the same way in all his letters, speaking in them of these matters. His letters contain some things that are hard to understand, which ignorant and unstable people distort, as they do the other Scriptures, to their own destruction. (2 Peter 3:16)
+* **Tournaments attended this year**:
+  * [Friendship Classic]({% link _pages/history/2012/tournaments/friendship-classic.md %})
+  * Michiana
+  * [Missouri Classic]({% link _pages/history/2012/tournaments/missouri-classic.md %})
+  * [River Classic]({% link _pages/history/2012/tournaments/river-classic.md %})
+  * [Southern Fried Classic]({% link _pages/history/2012/tournaments/southern-fried-classic.md %})
+* **Favorite non-quiz related moment(s) this year**\
+We've had a pretty fun season. Here's a video that shows some of the highlights:
+* **What opportunities has your team had to use Bible Quiz outside of the church?**\
+This has been the most amazing part of our season. There have been several times where Bible Quiz has intersected with life in some really neat ways:
+  * In December, James River's quizzers partnered with our local Victory Mission to deliver Christmas baskets to underprivileged families in the community.
+  * While working on the Discipleship Award, Jillian e-mailed a missionary family in Africa, asking if there was anything she could pray with them about. Two days later, she received a response. The missionaries were in the midst of a politically turbulent time, and as a result were having to quickly leave the country. God's timing was excellent, allowing Jillian to be used to pray for missionaries who needed it.
+  * Devon recently shared this story:\
+"Today in the morning I was praying for an opportunity to be able to talk about God with my golf team and be bold and all that other good stuff. So we had a practice round and we had to travel about an hour and so I brought my quiz and started doing quote cards on the ride there and the kid sitting beside me asked me about them and then started asking them to me. Pretty soon the whole team got involved and started asking them to me. That was cool enough by itself and then gradually throughout the rest of the day they kept asking me questions about God and sin and stuff. It was such an awesome opportunity. God is so good. Anyway, that's my awesome story of the day."
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="James River A/G, 'Ignorant and Unstable', Ozark, MO" html=image_html %}
