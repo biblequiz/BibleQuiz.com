@@ -51,13 +51,13 @@ menubar_toc_static:
 
 ### Teams
 
-| Team                            |    W |    L | Total |   Avg |
-| ------------------------------- | ---: | ---: | ----: | ----: |
-| 1. Calvary A/G #1, Dunwoody GA  |    8 |    0 |  1550 | 193.8 |
-| 2. Calvary A/G #2, Dunwoody GA* |    4 |    4 |  1155 | 144.4 |
-| 3. First A/G, Concord NC*       |    4 |    4 |   880 | 110.0 |
-| 4. Bethel A/G, Askewville NC    |    3 |    5 |   505 |  63.1 |
-| 5. Niceville (FL) A/G           |    1 |    7 |   270 |  33.8 |
+|    # | Team                         |    W |    L | Total |   Avg |
+| ---: | ---------------------------- | ---: | ---: | ----: | ----: |
+|    1 | Calvary A/G #1, Dunwoody GA  |    8 |    0 |  1550 | 193.8 |
+|    2 | Calvary A/G #2, Dunwoody GA* |    4 |    4 |  1155 | 144.4 |
+|    3 | First A/G, Concord NC*       |    4 |    4 |   880 | 110.0 |
+|    4 | Bethel A/G, Askewville NC    |    3 |    5 |   505 |  63.1 |
+|    5 | Niceville (FL) A/G           |    1 |    7 |   270 |  33.8 |
 
 \* Dunwoody #2 defeated Concord in a playoff to secure second place.
 
