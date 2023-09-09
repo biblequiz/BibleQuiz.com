@@ -111,7 +111,7 @@ menubar_toc_static:
 |   53 | Kevin Erdvig              | Kings Chapel, Springfield, MO                         |    50 |   5.56 |      |
 |   53 | Josh Fuller               | New Day A/G, Upper St. Clair, PA                      |    50 |   5.56 |      |
 |   53 | Rachel Adelmann           | Bethany Church, Wyckoff, NJ                           |    50 |   5.56 |      |
-|   53 | Anna Rodgers              | Cornerstone Church,Bowie, MD                          |    50 |   5.56 |      |
+|   53 | Anna Rodgers              | Cornerstone Church, Bowie, MD                         |    50 |   5.56 |      |
 |   54 | Reagan Griessel           | James River A/G, Ozark, MO Zeal                       |    45 |   5.00 |      |
 |   55 | Shayann Meyers            | South Hills A/G, Bethel Park, PA                      |    40 |   4.44 |      |
 |   55 | Susanna Ferguson          | Trinity Church, Cedar Hill, TX                        |    40 |   4.44 |      |
@@ -150,7 +150,7 @@ menubar_toc_static:
 |   66 | Autumn Deaton             | Trinity A/G, Georgetown, KY                           |   -15 |  -1.67 |      |
 |   67 | Graham Scott              | Painesville A/G, Painesville, OH                      |   -10 |  -1.11 |      |
 |   68 | Alexis Adelmann           | Bethany Church, Wyckoff, NJ                           |    -5 |  -0.56 |      |
-|   68 | Martha Gizaw              | Word of Life,Springfield, VA                          |    -5 |  -0.56 |      |
+|   68 | Martha Gizaw              | Word of Life, Springfield, VA                         |    -5 |  -0.56 |      |
 
 
 ## Gold
@@ -263,7 +263,7 @@ menubar_toc_static:
 |   26 | Zach Lickey      | Bellevue Neighborhood Church, Bellevue, WA |     5 |    .71 |      |
 |   27 | Maggie Thompson  | Cornerstone Church, Bowie, MD              |       |    .00 |      |
 |   27 | Mariah Thompson  | Cornerstone Church, Bowie, MD              |       |    .00 |      |
-|   27 | Martha Gizaw     | Word of Life,Springfield, VA               |       |    .00 |      |
+|   27 | Martha Gizaw     | Word of Life, Springfield, VA              |       |    .00 |      |
 |   27 | Anna Rodgers     | Radiant Life, Dublin, OH                   |       |    .00 |      |
 
 

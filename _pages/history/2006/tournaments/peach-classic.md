@@ -29,15 +29,15 @@ Competed in a double round robin.
 
 ### Top Individuals
 
-|    # | Quizzer             | Team             | Total |   QO |
-| ---: | ------------------- | ---------------- | ----: | ---: |
-|    1 | Lisa Everett        | New Philadelphia |   765 |    6 |
-|      | (tie) Eddy Ferreira | Dunwoody #1      |   765 |    6 |
-|    3 | Yoki Belay          | Dunwoody #2      |   650 |    5 |
-|    4 | James Lex           | Dunwoody #1      |   630 |    4 |
-|    5 | Eric Everett        | New Philadelphia |   495 |    4 |
-|    6 | Melody Spencer      | Lawrenceville    |   420 |    2 |
-|    7 | MacKenzie McKay     |                  |   240 |    1 |
+|    # | Quizzer         | Team             | Total |   QO |
+| ---: | --------------- | ---------------- | ----: | ---: |
+|    1 | Lisa Everett    | New Philadelphia |   765 |    6 |
+|   2* | Eddy Ferreira   | Dunwoody #1      |   765 |    6 |
+|    3 | Yoki Belay      | Dunwoody #2      |   650 |    5 |
+|    4 | James Lex       | Dunwoody #1      |   630 |    4 |
+|    5 | Eric Everett    | New Philadelphia |   495 |    4 |
+|    6 | Melody Spencer  | Lawrenceville    |   420 |    2 |
+|    7 | MacKenzie McKay |                  |   240 |    1 |
 
 ## B / Novice League
 

@@ -65,7 +65,6 @@ round-robin schedule due to the different amount of teams.
 
 |    # | Quizzer           | Team           |  Total |
 | ---: | ----------------- | -------------- | -----: |
-|      | Name              | Team           | Points |
 |    1 | Joanna Webb       | Lexington #2   |    295 |
 |    2 | Jonathan Sevy     | Lexington #3   |    160 |
 |    3 | Katie Brandewie   | Lexington #2   |    110 |

@@ -75,7 +75,7 @@ games over the 2 days.
 |    6 | Bobby Kirkpatrick | Montgomery       |   460 |
 |    7 | Hannah Kelley     | Montgomery       |   365 |
 |    8 | Hillary Kelley    | Montgomery       |   350 |
-|    8 | (tie) Chad Heyne  | Orlando #2       |   350 |
+|   8* | Chad Heyne        | Orlando #2       |   350 |
 |   10 | Rebecca Jensen    | Murfreesboro     |   280 |
 
 \* Quizzed only 8 rounds
@@ -109,8 +109,8 @@ games over the 2 days.
 |    5 | Patti Corpe       | Orlando          |   770 |      |
 |    6 | Isaiah Jensen     | Murfreesboro #2  |   755 |      |
 |    7 | Stephen Slate     | Murfreesboro #1  |   695 |      |
-|    8 | (tie) John Poulin | Rome             |   575 |      |
-|    8 | Melody Spencer    | Lawrenceville #2 |   575 |      |
+|    8 | John Poulin       | Rome             |   575 |      |
+|   8* | Melody Spencer    | Lawrenceville #2 |   575 |      |
 |   10 | Kelsey Heyne      | Orlando          |   545 |      |
 |   11 | Marybeth Jensen   | Murfreesboro #2  |   525 |      |
 |   12 | Christina Simpson | Orlando          |   390 |      |
