@@ -36,28 +36,28 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer                           | Team            | Total |    Avg |
-| ---: | --------------------------------- | --------------- | ----: | -----: |
-|    1 | David Dorey                       | Orange Hills CA | 1,945 | 138.93 |
-|    2 | Brian Lewis                       | Indianapolis IN | 1,540 |    110 |
-|    3 | Logan Newman                      | Superior WI     | 1,475 | 105.36 |
-|    4 | April Pryor                       | Fort Worth TX   | 1,405 | 100.36 |
-|    5 | Bryce Steel                       | Toledo OH       | 1,340 |  95.71 |
-|    6 | Micah Buckel                      | Lexington KY A  | 1,210 |  86.43 |
-|    7 | Mike Pearson                      | Dallas TX       | 1,150 |  82.14 |
-|    8 | Michelle Hart                     | Orlando FL      | 1,035 |  73.93 |
-|    9 | Jenny Dworzak                     | Bothell WA      |   960 |  68.57 |
-|   10 | Brandon Porter                    | Dunwoody GA     |   950 |  67.86 |
-|   11 | Amanda Pryor                      | Fort Worth TX   |   940 |  67.14 |
-|   12 | Jed Gosnell                       | Tacoma WA       |   905 |  64.64 |
-|   13 | James Watt                        | Tacoma WA       |   785 |  56.07 |
-|   14 | Katie Whitehead West Lafayette IN | 755             | 53.93 |        |
-|   15 | Jared Paige                       | Houston TX A-1  |   750 |  53.57 |
-|   16 | Natalie Asahara Bothell WA        | 720             | 51.43 |        |
-|   17 | Brooke Whitford West Lafayette IN | 685             | 48.93 |        |
-|   17 | Mariana Shenoda Orange Hills CA   | 685             | 48.93 |        |
-|   19 | Peter Brown                       | Orange Hills CA |   680 |  48.57 |
-|   20 | Zach Moore                        | Bothell WA      |   615 |  43.93 |
+|    # | Quizzer         | Team              | Total |    Avg |
+| ---: | --------------- | ----------------- | ----: | -----: |
+|    1 | David Dorey     | Orange Hills CA   | 1,945 | 138.93 |
+|    2 | Brian Lewis     | Indianapolis IN   | 1,540 |    110 |
+|    3 | Logan Newman    | Superior WI       | 1,475 | 105.36 |
+|    4 | April Pryor     | Fort Worth TX     | 1,405 | 100.36 |
+|    5 | Bryce Steel     | Toledo OH         | 1,340 |  95.71 |
+|    6 | Micah Buckel    | Lexington KY A    | 1,210 |  86.43 |
+|    7 | Mike Pearson    | Dallas TX         | 1,150 |  82.14 |
+|    8 | Michelle Hart   | Orlando FL        | 1,035 |  73.93 |
+|    9 | Jenny Dworzak   | Bothell WA        |   960 |  68.57 |
+|   10 | Brandon Porter  | Dunwoody GA       |   950 |  67.86 |
+|   11 | Amanda Pryor    | Fort Worth TX     |   940 |  67.14 |
+|   12 | Jed Gosnell     | Tacoma WA         |   905 |  64.64 |
+|   13 | James Watt      | Tacoma WA         |   785 |  56.07 |
+|   14 | Katie Whitehead | West Lafayette IN |   755 |  53.93 |
+|   15 | Jared Paige     | Houston TX A-1    |   750 |  53.57 |
+|   16 | Natalie Asahara | Bothell WA        |   720 |  51.43 |
+|   17 | Brooke Whitford | West Lafayette IN |   685 |  48.93 |
+|   17 | Mariana Shenoda | Orange Hills CA   |   685 |  48.93 |
+|   19 | Peter Brown     | Orange Hills CA   |   680 |  48.57 |
+|   20 | Zach Moore      | Bothell WA        |   615 |  43.93 |
 
 ## Division II
 

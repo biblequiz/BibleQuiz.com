@@ -126,7 +126,7 @@ menubar_toc_static:
 |    2 | Orange County First Assembly, Santa Ana, CA* |    5 |      2 |   925 |
 |    3 | First A/G, Lexington, KY "Patty"**           |    5 |      2 |   820 |
 |    4 | Walnut Grove A/G, West Mifflin, PA**         |    5 |      2 |   900 |
-|    5 | Lakeview, INpolis, IN                        |    4 |      3 |   760 |
+|    5 | Lakeview, Indianapolis, IN                   |    4 |      3 |   760 |
 |    6 | First A/G of Greater Lansing, MI             |    2 |      5 |   380 |
 |    7 | Northeast BQ Team MA/PA                      |    1 |      6 |   375 |
 |    8 | South Hills A/G, Bethel Park, PA             |    0 |      7 |   375 |
@@ -141,7 +141,7 @@ menubar_toc_static:
 |    1 | Hudson Kelley   | First A/G, Montgomery, AL                   |   815 |    6 |
 |    2 | Jonathan Brown  | Walnut Grove A/G, West Mifflin, PA          |   680 |    6 |
 |    3 | Jessica Lynch   | Orange County First Assembly, Santa Ana, CA |   575 |    5 |
-|    4 | Hannah Ishikawa | Lakeview, INpolis, IN                       |   365 |    1 |
+|    4 | Hannah Ishikawa | Lakeview, Indianapolis, IN                  |   365 |    1 |
 |    5 | Kaija Nivala    | Northeast BQ Team MA/PA                     |   345 |    3 |
 |    6 | Claire Convis   | First A/G of Greater Lansing, MI            |   325 |    2 |
 |    7 | Billy Laakkonen | First A/G, Lexington, KY "Patty"            |   305 |    2 |
@@ -151,8 +151,8 @@ menubar_toc_static:
 |   11 | Jonathan Kelly  | Walnut Grove A/G, West Mifflin, PA          |   220 |    1 |
 |   12 | Tiffany Kitner  | South Hills A/G, Bethel Park, PA            |   220 |    1 |
 |   13 | Dane Kuroishi   | Orange County First Assembly, Santa Ana, CA |   215 |    0 |
-|   14 | Julianne Rosner | Lakeview, INpolis, IN                       |   200 |    2 |
-|   15 | Sammi Decker    | Lakeview, INpolis, IN                       |   195 |    0 |
+|   14 | Julianne Rosner | Lakeview, Indianapolis, IN                  |   200 |    2 |
+|   15 | Sammi Decker    | Lakeview, Indianapolis, IN                  |   195 |    0 |
 |   16 | Elizabeth Sikes | South Hills A/G, Bethel Park, PA            |   145 |    0 |
 |   17 | Mikayla Majeski | Orange County First Assembly, Santa Ana, CA |   135 |    0 |
 |   18 | Drew Harr       | First A/G of Greater Lansing, MI            |    85 |    0 |

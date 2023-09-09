@@ -56,7 +56,7 @@ menubar_toc_static:
 
 |    # | Team                                    |    W |    L |   Avg |
 | ---: | --------------------------------------- | ---: | ---: | ----: |
-|    1 | Lakeview Church, INpolis, IN            |   11 |    1 | 151.3 |
+|    1 | Lakeview Church, Indianapolis, IN       |   11 |    1 | 151.3 |
 |    2 | Stone Church, Palos Height, IL          |   11 |    1 | 135.4 |
 |    3 | Central A/G, Green Bay "Heart Stoppers" |    7 |    5 |  79.6 |
 |    4 | CrossPoint A/G, Portage, WI             |    7 |    5 |  68.0 |

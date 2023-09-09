@@ -24,7 +24,7 @@ next 7 to "Blue" bracket.
 |    # | Team                              |    W |    L | Total |   Avg |
 | ---: | --------------------------------- | ---: | ---: | ----: | ----: |
 |    1 | First A/G, Lexington Kentucky #1  |    4 |    2 |   920 | 153.3 |
-|    2 | Calvary Temple, INpolis, IN       |    4 |    2 |   915 | 152.5 |
+|    2 | Calvary Temple, Indianapolis, IN  |    4 |    2 |   915 | 152.5 |
 |    3 | South Hills A/G, Bethel Park, PA  |    4 |    2 |   755 | 125.8 |
 |    4 | Monroeville A/G, Monroeville, PA  |    2 |    4 |   720 |   120 |
 |    5 | First A/G, Hermitage, PA          |    3 |    3 |   680 | 113.3 |
