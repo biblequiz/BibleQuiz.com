@@ -25,7 +25,7 @@ menubar_toc_static:
 |    5 | Cedar Park A/G, Bothell, WA # 1    |    4 |    4 |  1220 |  153 |
 |    6 | Cedar Park A/G, Bothell, WA # 2    |    4 |    4 |   975 |  122 |
 |    7 | Ash Grove A/G, Ash Grove, MO       |    2 |    6 |   755 |   94 |
-|    8 | Calvary Temple, INpolis, IN        |    1 |    7 |   810 |  101 |
+|    8 | Calvary Temple, Indianapolis, IN   |    1 |    7 |   810 |  101 |
 |    9 | Oaks Fellowship, Dallas, TX        |    1 |    7 |   475 |   59 |
 
 \* Crossway won head to head.

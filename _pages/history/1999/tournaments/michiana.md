@@ -55,20 +55,20 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                           |    W |    L | Total |    Avg |
-| ---: | ------------------------------ | ---: | ---: | ----: | -----: |
-|    1 | Allison Park, PA #3            |   10 |    1 |  2295 | 208.64 |
-|    2 | Auburn Hills, Orion, MI        |   10 |    1 |  1955 | 177.73 |
-|    3 | First, Kokomo, IN              |    9 |    2 |  1800 | 163.64 |
-|    4 | Cornerstone, Blue Springs, MO  |    9 |    2 |  1555 | 155.50 |
-|    5 | Park, Minneapolis, Mn.         |    6 |    5 |   415 |  41.50 |
-|    6 | Evangel Heights, Sarver, PA #2 |    6 |    5 |  1200 | 109.09 |
-|    7 | Evangel Temple, Princeton, IN  |    5 |    6 |   410 |  37.27 |
-|    8 | Abundant Life, Warsaw, IN      |    3 |    8 |   520 |  47.27 |
-|    9 | Hessville, Hammand, IN #1      |    3 |    8 |   420 |  46.67 |
-|   10 | Eagle Creek, INpolis, IN #1    |    3 |    8 |   730 |  66.36 |
-|   11 | Angola, IN #1                  |    2 |    9 |   480 |  43.64 |
-|   12 | Parkcrest, Springfield, MO #2  |    0 |   11 |   330 |  30.00 |
+|    # | Team                             |    W |    L | Total |    Avg |
+| ---: | -------------------------------- | ---: | ---: | ----: | -----: |
+|    1 | Allison Park, PA #3              |   10 |    1 |  2295 | 208.64 |
+|    2 | Auburn Hills, Orion, MI          |   10 |    1 |  1955 | 177.73 |
+|    3 | First, Kokomo, IN                |    9 |    2 |  1800 | 163.64 |
+|    4 | Cornerstone, Blue Springs, MO    |    9 |    2 |  1555 | 155.50 |
+|    5 | Park, Minneapolis, Mn.           |    6 |    5 |   415 |  41.50 |
+|    6 | Evangel Heights, Sarver, PA #2   |    6 |    5 |  1200 | 109.09 |
+|    7 | Evangel Temple, Princeton, IN    |    5 |    6 |   410 |  37.27 |
+|    8 | Abundant Life, Warsaw, IN        |    3 |    8 |   520 |  47.27 |
+|    9 | Hessville, Hammand, IN #1        |    3 |    8 |   420 |  46.67 |
+|   10 | Eagle Creek, Indianapolis, IN #1 |    3 |    8 |   730 |  66.36 |
+|   11 | Angola, IN #1                    |    2 |    9 |   480 |  43.64 |
+|   12 | Parkcrest, Springfield, MO #2    |    0 |   11 |   330 |  30.00 |
 
 ### Top Individuals
 

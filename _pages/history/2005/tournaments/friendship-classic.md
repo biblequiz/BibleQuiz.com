@@ -20,7 +20,7 @@ After 9 preliminary rounds, teams were bracketed 1 - 23 by average scores. The t
 
 |    # | Team                                   |    W |    L | Total |  Avg |
 | ---: | -------------------------------------- | ---: | ---: | ----: | ---: |
-|    1 | Calvary Temple, INpolis, IN            |    5 |    1 |   910 |  152 |
+|    1 | Calvary Temple, Indianapolis, IN       |    5 |    1 |   910 |  152 |
 |    2 | James River A/G, Ozark, Misouri "Salt" |    4 |    2 |   905 |  151 |
 |    3 | First A/G, Lexington, KY "S.W."        |    3 |    3 |   975 |  163 |
 |    4 | Kennebunk Christian, Kennebunk, ME     |    3 |    3 |   335 |   56 |
@@ -33,9 +33,9 @@ After 9 preliminary rounds, teams were bracketed 1 - 23 by average scores. The t
 |    # | Quizzer            | Team                             | Total |   QO |
 | ---: | ------------------ | -------------------------------- | ----: | ---: |
 |    1 | Jon Galliers       | First A/G, Lexington, KY "SW"    |   755 |    5 |
-|    2 | Brian Lewis        | Calvary Temple, INpolis, IN      |   495 |    2 |
+|    2 | Brian Lewis        | Calvary Temple, Indianapolis, IN |   495 |    2 |
 |    3 | April Pryor        | James River A/G, Ozark, MO "S"   |   370 |    1 |
-|    4 | Brittanica Chesser | Calvary Temple, INpolis, IN      |   325 |    0 |
+|    4 | Brittanica Chesser | Calvary Temple, Indianapolis, IN |   325 |    0 |
 |    5 | Brandy Steel       | Calvary A/G, Toldeo, OH          |   315 |    0 |
 |    6 | Brandon Porter     | James River A/G, Ozark, MO "S"   |   280 |    1 |
 |    7 | C.J. Barna         | South Hills A/G, Bethel Park, PA |   275 |    1 |
@@ -80,7 +80,7 @@ After 9 preliminary rounds, teams were bracketed 1 - 23 by average scores. The t
 | ---: | --------------------------------- | ---: | ---: | ----: | ---: |
 |    1 | Grace A/G, Syracuse, NY           |    4 |    1 |   635 |  127 |
 |    2 | First A/G, Lafayette, IN          |    3 |    2 |   360 |   72 |
-|    3 | Lakeview C.C., INpolis, IN        |    3 |    2 |   220 |   44 |
+|    3 | Lakeview C.C., Indianapolis, IN   |    3 |    2 |   220 |   44 |
 |    4 | Praise A/G, Garfield, NJ          |    3 |    3 |   320 |   64 |
 |    5 | Lakeshore Vineyard, Holland, MI   |    2 |    3 |   230 |   46 |
 |    6 | Greater Lansing, East Lansing, MI |    0 |    5 |    15 |    3 |
@@ -92,7 +92,7 @@ After 9 preliminary rounds, teams were bracketed 1 - 23 by average scores. The t
 |    1 | Amy Semple        | Grace A/G, Syracuse, NY         |   465 |    3 |
 |    2 | Jesse Czubkowski  | Praise A/G, Garfield, NJ        |   275 |    1 |
 |    3 | Steven Walters    | First A/G, Lafayette, IN        |   270 |    1 |
-|    4 | Carrie Ball       | Lakeview C.C., INpolis, IN      |   195 |    2 |
+|    4 | Carrie Ball       | Lakeview C.C., Indianapolis, IN |   195 |    2 |
 |    5 | Kierstyn Anderson | Lakeshore Vineyard, Holland, MI |   160 |    1 |
 |    6 | Josh Siddall      | Grace A/G, Syracuse, NY         |   140 |    0 |
 |    7 | Janelle Klein     | First A/G, Greater Lansing, MI  |    90 |    0 |

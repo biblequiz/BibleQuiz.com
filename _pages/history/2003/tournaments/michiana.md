@@ -18,7 +18,7 @@ menubar_toc_static:
 
 |    # | Team                                                  |    W |    L | Total |    Avg |
 | ---: | ----------------------------------------------------- | ---: | ---: | ----: | -----: |
-|    1 | Calvary Temple, INpolis, IN (A)                       |    9 |    1 |  1740 | 174.00 |
+|    1 | Calvary Temple, Indianapolis, IN (A)                  |    9 |    1 |  1740 | 174.00 |
 |    2 | Monroeville Assembly of God                           |    9 |    2 |  1940 | 176.36 |
 |    3 | First Assembly of God, Lexington, KY (A)              |    8 |    2 |  1640 | 164.00 |
 |    4 | Dunwoody Assembly of God, Dunwoody, Ga (A)            |    8 |    3 |  1955 | 177.73 |
@@ -37,7 +37,7 @@ menubar_toc_static:
 |    # | Quizzer           | Team                                             | Total |    Avg |
 | ---: | ----------------- | ------------------------------------------------ | ----: | -----: |
 |    1 | Bryce Steel       | Calvary Assembly of God, Toledo, OH (A)          |  1225 | 122.50 |
-|    2 | Brian Lewis       | Calvary Temple, INpolis, IN (A)                  |  1160 | 116.00 |
+|    2 | Brian Lewis       | Calvary Temple, Indianapolis, IN (A)             |  1160 | 116.00 |
 |    3 | Micah Buckel      | First Assembly of God, Lexington, KY (A)         |  1050 | 105.00 |
 |    4 | Lori Rozgonyi     | Monroeville Assembly of God                      |  1150 | 104.55 |
 |    5 | C.J. Barna        | South Hills Assembly of God, Bethel Park, PA (A) |   915 |  91.50 |
@@ -100,7 +100,7 @@ menubar_toc_static:
 |    3 | Calvary Assembly of God, Dunwoody, GA (C)            |    8 |    2 |  1820 | 182.00 |
 |    4 | Sharpsburg Family Worship Center, Pittsburgh, PA (B) |    7 |    3 |  1600 | 160.00 |
 |    5 | First Assembly of God, Lexington, KY (E)             |    7 |    3 |  1560 | 156.00 |
-|    6 | Calvary Temple, INpolis, IN (B)                      |    5 |    5 |  1410 | 141.00 |
+|    6 | Calvary Temple, Indianapolis, IN (B)                 |    5 |    5 |  1410 | 141.00 |
 |    7 | First Assembly of God, Lafayette, IN                 |    4 |    6 |   790 |  79.00 |
 |    8 | New Life Assembly of God, Kokomo, IN                 |    3 |    7 |   860 |  86.00 |
 |    9 | Kings Chapel, Springfield, MO (B)                    |    2 |    8 |   515 |  51.50 |
@@ -114,13 +114,13 @@ menubar_toc_static:
 |    1 | Jenna Liberati    | South Hills A/G, Bethel Park, PA (B)      |  1360 | 136.00 |
 |    2 | Eddy Ferreira     | Calvary Assembly of God, Dunwoody, GA (C) |  1305 | 130.50 |
 |    3 | Timmy Lewis       | Sharpsburg FWC, Pittsburgh, PA (B)        |  1045 | 104.50 |
-|    4 | Luke Furr         | Calvary Temple, INpolis, IN (B)           |   845 |  84.50 |
+|    4 | Luke Furr         | Calvary Temple, Indianapolis, IN (B)      |   845 |  84.50 |
 |    5 | Nathan Kuhn       | Calvary Assembly of God, Dunwoody, GA (B) |   805 |  80.50 |
 |    6 | Josiah Durham     | First Assembly of God, Lexington, KY (E)  |   795 |  79.50 |
 |    7 | Perry Rittenhouse | New Life Assembly of God, Kokomo, IN      |   755 |  75.50 |
 |    8 | Brittany Porter   | Calvary Assembly of God, Dunwoody, GA (B) |   705 |  70.50 |
 |    9 | John Huggins      | First Assembly of God, Lexington, KY (E)  |   625 |  62.50 |
-|   10 | Jordan Furr       | Calvary Temple, INpolis, IN (B)           |   570 |  57.00 |
+|   10 | Jordan Furr       | Calvary Temple, Indianapolis, IN (B)      |   570 |  57.00 |
 
 ## Novice Division
 

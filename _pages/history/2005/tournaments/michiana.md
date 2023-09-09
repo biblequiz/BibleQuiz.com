@@ -186,7 +186,7 @@ menubar_toc_static:
 |    8 | Calvary, Toledo, Oh #2          |    5 |    4 |
 |    9 | Capital City, Columbus, Oh.     |    5 |    4 |
 |   10 | Kings Way, Versailles,KY        |    4 |    5 |
-|   11 | Calvary Temple, INpolis #3      |    4 |    5 |
+|   11 | Calvary Temple, Indianapolis #3 |    4 |    5 |
 |   12 | South Hills Bethel Park, Pa #2  |    3 |    6 |
 |   13 | Nixa, Mo #5                     |    3 |    6 |
 |   14 | Franklin First, In #2           |    3 |    6 |
@@ -266,7 +266,7 @@ menubar_toc_static:
 |    1 | Evangel Heights, Sarver, Pa      |    7 |    0 |
 |    2 | James River, Springfield, Mo #6  |    7 |    0 |
 |    3 | First, Lexington, Ky #10         |    6 |    1 |
-|    4 | Lakeview, INpolis, In #2         |    6 |    1 |
+|    4 | Lakeview, Indianapolis, In #2    |    6 |    1 |
 |    5 | Harvest Time, Brunswick, Oh      |    5 |    2 |
 |    6 | First, Lexington, Ky #9          |    4 |    3 |
 |    7 | James River, Springfield, Mo #5  |    4 |    3 |

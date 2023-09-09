@@ -19,11 +19,11 @@ menubar_toc_static:
 |    1 | Calvary A/G, South Bend, IN             |    7 |    0 |  1180 |  169 |
 |    2 | South Hills A/G, Bethel Park, PA "CC"   |    6 |    1 |   925 |  132 |
 |    3 | Evangel Heights A/G, Sarver, PA "Gold"  |    5 |    2 |  1060 |  151 |
-|    4 | Lakeview CC, INpolis, IN 8"             |    4 |    3 |   870 |  124 |
+|    4 | Lakeview CC, Indianapolis, IN 8"        |    4 |    3 |   870 |  124 |
 |    5 | South Hills A/G, Bethel Park, PA "AO"   |    3 |    4 |   630 |   90 |
 |    6 | Evangel Heights A/G, Sarver, PA "Black" |    2 |    5 |   445 |   64 |
 |    7 | Living Waters Chapel, Lebanon, PA "DDD" |    1 |    6 |   445 |   64 |
-|    8 | Lakeview CC, INpolis, IN " 1            |    0 |    7 |   230 |   33 |
+|    8 | Lakeview CC, Indianapolis, IN " 1       |    0 |    7 |   230 |   33 |
 
 ## Top Quizzers
 

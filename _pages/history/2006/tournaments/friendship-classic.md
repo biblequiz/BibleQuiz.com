@@ -35,7 +35,7 @@ Played 9 rounds at random and then sorted into divisions by scores:
 |   11 | Manassas A/G, Manassas, VA              |    3 |    6 |  1080 | 120.00 |
 |   12 | Harvest Time A/G, Brunswick, OH         |    4 |    5 |  1065 | 118.33 |
 |   13 | 1st AG, Lafayette, IN                   |    4 |    5 |   995 | 110.56 |
-|   14 | Lakeview C.C., INpolis, IN              |    6 |    3 |   915 | 101.67 |
+|   14 | Lakeview C.C., Indianapolis, IN         |    6 |    3 |   915 | 101.67 |
 |   15 | Dayspring A/G, Bowling Green, OH        |    1 |    8 |   710 |  78.89 |
 |   16 | First A/G, Lexington, KY "Vanessa"      |    3 |    6 |   640 |  71.11 |
 |   17 | First A/G, Lexington, KY "Sharon"       |    0 |    9 |   580 |  64.44 |
@@ -97,7 +97,7 @@ Played 9 rounds at random and then sorted into divisions by scores:
 |    2 | Kennebunk Christian, Kennebunk, ME* |    5 |    1 |  1085 |  181 |
 |    3 | Manassas A/G, Manassas, VA          |    4 |    2 |   820 |  137 |
 |    4 | Praise A/G, Garfield, NJ            |    3 |    3 |   745 |  124 |
-|    5 | Lakeview C.C., INpolis, IN          |    2 |    4 |   400 |   67 |
+|    5 | Lakeview C.C., Indianapolis, IN     |    2 |    4 |   400 |   67 |
 |    6 | Grace AG, Syracuse, NY              |    1 |    5 |   680 |  113 |
 |    7 | Harvest Time A/G, Brunswick, OH     |    1 |    5 |   560 |   93 |
 
@@ -117,10 +117,10 @@ Played 9 rounds at random and then sorted into divisions by scores:
 |    8 | Scott Walters    | 1st AG, Lafayette, IN              |   300 |    4 |
 |    9 | Rebekah Nivela   | Kennebunk Christian, Kennebunk, ME |   295 |    1 |
 |   10 | Stephanie Laine  | Kennebunk Christian, Kennebunk, ME |   275 |    3 |
-|   11 | Carrie Ball      | Lakeview C.C., INpolis, IN         |   235 |    3 |
+|   11 | Carrie Ball      | Lakeview C.C., Indianapolis, IN    |   235 |    3 |
 |   12 | Amy Siddall      | Grace AG, Syracuse, NY             |   215 |    0 |
 |   13 | Benji Songson    | Praise A/G, Garfield, NJ           |   190 |    1 |
-|   14 | Jessica Price    | Lakeview C.C., INpolis, IN         |   175 |    0 |
+|   14 | Jessica Price    | Lakeview C.C., Indianapolis, IN    |   175 |    0 |
 |   15 | Brandon Rhynders | Grace AG, Syracuse, NY             |   150 |    0 |
 |   16 | Emily Whitehead  | 1st AG, Lafayette, IN              |   120 |    0 |
 |   17 | Eric Everett     | Harvest Time A/G, Brunswick, OH    |   115 |    0 |

@@ -61,7 +61,7 @@ Brooke Whitford of Bethel Christian Life Center, West Lafayette, IN won the $200
 |    1 | Calvary A/G, Naperville, IL  |  "G" | 11-1 |  1665 |  128 |
 |    2 | Watford City, ND             |   10 |    2 |  1995 |  166 |
 |    3 | Galena, KS                   |    9 |    3 |  1840 |  153 |
-|    4 | Lakeview, INpolis, IN        |    8 |    4 |  2015 |  168 |
+|    4 | Lakeview, Indianapolis, IN   |    8 |    4 |  2015 |  168 |
 |    5 | St. Cloud, MN                |    8 |    4 |  1805 |  150 |
 |    6 | Nixa, MO                     |    8 |    4 |  1070 |   89 |
 |    7 | Elkart, IN                   |    7 |    5 |   780 |   65 |
@@ -74,18 +74,18 @@ Brooke Whitford of Bethel Christian Life Center, West Lafayette, IN won the $200
 
 ### Top Individuals
 
-|    # | Quizzer            | Team                  | Total |
-| ---: | ------------------ | --------------------- | ----: |
-|    1 | Alicia Morken      | Watford City, ND      |  1315 |
-|    2 | Savanna Lacey      | Naperville, IL "G"    |  1300 |
-|    3 | Carrie Ball        | Lakeview, INpolis, IN |  1180 |
-|    4 | Melissa Henderson  | St. Cloud, MN         |  1110 |
-|    5 | Timothy Hahn       | Nixa, MO              |   875 |
-|    6 | Kirsten Prabhudas  | Lakeview, INpolis, IN |   790 |
-|    7 | Adam Gouge         | Galena, KS            |   725 |
-|    8 | Titus Stenberg     | Watford City, ND      |   710 |
-|    9 | Teresa Henderson   | St. Cloud, MN         |   695 |
-|   10 | Christine McKibben | Galena, KS            |   600 |
+|    # | Quizzer            | Team                       | Total |
+| ---: | ------------------ | -------------------------- | ----: |
+|    1 | Alicia Morken      | Watford City, ND           |  1315 |
+|    2 | Savanna Lacey      | Naperville, IL "G"         |  1300 |
+|    3 | Carrie Ball        | Lakeview, Indianapolis, IN |  1180 |
+|    4 | Melissa Henderson  | St. Cloud, MN              |  1110 |
+|    5 | Timothy Hahn       | Nixa, MO                   |   875 |
+|    6 | Kirsten Prabhudas  | Lakeview, Indianapolis, IN |   790 |
+|    7 | Adam Gouge         | Galena, KS                 |   725 |
+|    8 | Titus Stenberg     | Watford City, ND           |   710 |
+|    9 | Teresa Henderson   | St. Cloud, MN              |   695 |
+|   10 | Christine McKibben | Galena, KS                 |   600 |
 
 ## Novice Division
 
