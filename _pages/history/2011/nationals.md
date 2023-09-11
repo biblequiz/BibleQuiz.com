@@ -1722,7 +1722,7 @@ We used scriptures from John to explain God's love to non-Christians at school.
   * Round 18: Won against Bethlehem Church, Richmond Hill, NY 155 to 20
   * Round 19: Won against Rehoboth A/G, Toccoa, GA 185 to -20
 * **Team History**\
-Cedar Park this year ties the record for consecutive appearances at Nationals, with 14 consecutive years. The highest finish was 1st place in 2005; combined with 4th place finishes in 2004 and 2010, and a four-year string of 2nd place finishes from 2006-2009, that makes 7 consecutive years finishing in the top four. Cedar Park also has the distinction of being the only church to place two teams in the top ten in the same year, with a 1st-and-10th finish in 2005. Finally, Cedar Park holds the record for the only perfect match recorded at Nationals: all four quizzers quizzed out positively in a single match during the first day of competition in 2008. (Editor's Note: This was the first time it was achieved with 430 points possible, however it has happened before with 380 points possible).
+Cedar Park this year ties the record for consecutive appearances at Nationals, with 14 consecutive years. The highest finish was 1st place in 2005; combined with 4th place finishes in 2004 and 2010, and a four-year string of 2nd place finishes from 2006-2009, that makes 7 consecutive years finishing in the top four. Cedar Park also has the distinction of being the only church to place two teams in the top ten in the same year, with a 1st-and-10th finish in 2005. Finally, Cedar Park holds the record for the only "perfect match" recorded at Nationals: all four quizzers quizzed out positively in a single match during the first day of competition in 2008. (Editor's Note: This was the first time it was achieved with 430 points possible, however it has happened before with 380 points possible).
 * **Most exciting match this season**\
 At the West Coast Open in sunny Santa Ana in March, we had lost twice to the talented Phoenix North Valley team, and were really motivated to try to avoid the sweep by getting that final match with them. It was neck and neck the whole way, with no lead greater than 35 for either team, four lead changes, and a tie score after 17. Chad of Phoenix got a 20 on 18, and we called a time out, knowing we needed both the remaining questions (a 10 and a 20) to win. The twins each pulled one (Ani the 10 and Adi the 20) to come through!
 * **Favorite Contest**
@@ -1734,7 +1734,7 @@ John 1:16: From the fullness of his grace we have all received one blessing afte
 * **Tournaments attended this year**:
   * West Coast Classic
 * **Favorite non-quiz related moment(s) this year**\
-We played a game at our Christmas party based on a new game called Things, and had some pretty funny answers. Everyone thinks of an answer to a category-type question, and then you try to guess whose answer is whose.
+We played a game at our Christmas party based on a new game called "Things," and had some pretty funny answers. Everyone thinks of an answer to a category-type question, and then you try to guess whose answer is whose.
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
 Well, we actually did set up the buzzers and quiz at Sea-Tac International Airport on the way to the West Coast Open, but I don't think that's quite what you mean. =) At her school, Anita has been encouraging classmates to memorize Scripture.
 {% endcapture %}
