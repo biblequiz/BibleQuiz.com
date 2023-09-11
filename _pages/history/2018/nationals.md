@@ -310,13 +310,3 @@ If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.c
 ### Quoting Bee
 
 If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).
-
-## Advanced Results
-
-### Round-by-Round Stats
-
-Coming soon
-
-### Team Schedules
-
-Coming soon
