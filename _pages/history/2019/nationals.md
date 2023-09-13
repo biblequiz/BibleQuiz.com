@@ -42,7 +42,7 @@ menubar_toc_static:
 
 ### Individuals
 
-| #   | Quizzer               | Team/Church                                                                | Total | Avg   | QO  | 30s | 20s | 10s |
+| #   | Quizzer               | Team                                                                       | Total | Avg   | QO  | 30s | 20s | 10s |
 | --- | --------------------- | -------------------------------------------------------------------------- | ----- | ----- | --- | --- | --- | --- |
 | 1   | Judah Stevens         | To Win As Many As Possible (Redeemer Church – Utica-NY)                    | 2180  | 114.7 | 17  | 36  | 53  | 2   |
 | 2   | Nigus Dawit           | Power to Demolish (Word of Life – Springfield-VA)                          | 2160  | 113.7 | 17  | 19  | 72  | 1   |

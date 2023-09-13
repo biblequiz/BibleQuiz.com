@@ -68,7 +68,7 @@ This year also marked the first time that two quizzers finished first and second
 
 The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Beulah, MI. Dan's per quiz average was 115.45. This was one of the highest scores in over a decade, but would be broken by over 35 points in 1999.
 
-|     Rank | Quizzer             | Church                               | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church                               | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | ------------------------------------ | ----: | -----: | -----: | ----: |
 |        1 | Kent Piacenti       | Green's Bayou A/G, Houston, TX       |  3055 | 132.83 |     22 |     1 |
 |        2 | Aaron Collins       | Bethel Temple, Bryan, TX             |  2175 |  94.57 |     11 |     5 |

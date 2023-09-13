@@ -47,7 +47,7 @@ The top quizzer at the 1982 National Finals was Ken Henderson of First A/G, Tecu
    icon="fas fa-info-circle"
    status="is-success" %}
 
-|    Rank | Quizzer       | Church                                      | Total |    Avg |
+|       # | Quizzer       | Church                                      | Total |    Avg |
 | ------: | ------------- | ------------------------------------------- | ----: | -----: |
 |       1 | Ken Henderson | First A/G, Tecumseh, OK                     |   790 | 112.86 |
 |       2 | Rhett Laurens | Evangel Temple A/G, Decatur, GA             |   760 | 108.57 |

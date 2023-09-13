@@ -8,7 +8,7 @@ date: "2020-02-11"
 ## National Steering Committee
 
 | Name             | Position                                                                                    | Location          |
-|------------------|---------------------------------------------------------------------------------------------|-------------------|
+| ---------------- | ------------------------------------------------------------------------------------------- | ----------------- |
 | Josh Wellborn    | National Youth Director                                                                     | Springfield, MO   |
 | Austin Westlake  | National Student Discipleship Director                                                      | Springfield, MO   |
 | Bernie Elliot    | National Bible Quiz Coordinator                                                             | West Mifflin, PA  |
@@ -26,7 +26,7 @@ date: "2020-02-11"
 ### Northwest
 
 | Coordinators     | Districts      |
-|------------------|----------------|
+| ---------------- | -------------- |
 | Kevin Gallo      | Northwest      |
 | Georgiann Wright | Southern Idaho |
 | Edroy Curtis     | Montana        |
@@ -35,7 +35,7 @@ date: "2020-02-11"
 ### Southwest
 
 | Coordinators        | Districts                  |
-|---------------------|----------------------------|
+| ------------------- | -------------------------- |
 | Bridget Gallup      | Northern California/Nevada |
 | Irv Kuroishi        | Southern California        |
 | Eric & Heather Lind | Rocky Mountain             |
@@ -44,7 +44,7 @@ date: "2020-02-11"
 ### North Central
 
 | Coordinators                      | Districts                   |
-|-----------------------------------|-----------------------------|
+| --------------------------------- | --------------------------- |
 | Jennifer Bender                   | North Dakota                |
 | Tyler Tufte & David Sullivan      | South Dakota                |
 | Toby Schneckloth & Roger Hamilton | Nebraska                    |
@@ -55,7 +55,7 @@ date: "2020-02-11"
 ### South Central
 
 | Coordinators                            | Districts                              |
-|-----------------------------------------|----------------------------------------|
+| --------------------------------------- | -------------------------------------- |
 | Michelle Gill                           | Oklahoma                               |
 | John Jobe                               | New Mexico                             |
 | [Micah Van Gorp](info@northtexasbq.com) | [North Texas](http://northtexasbq.com) |
@@ -64,7 +64,7 @@ date: "2020-02-11"
 ### Great Lakes
 
 | Coordinators                    | Districts   |
-|---------------------------------|-------------|
+| ------------------------------- | ----------- |
 | Chad Markwell                   | Michigan    |
 | Daryl Swanson                   | Illinois    |
 | Sue Schieber                    | Indiana     |
@@ -75,14 +75,14 @@ date: "2020-02-11"
 ### Gulf
 
 | Coordinators  | Districts         |
-|---------------|-------------------|
+| ------------- | ----------------- |
 | Dilla Dawson  | Southern Missouri |
 | James Steward | Arkansas          |
 
 ### Northeast
 
 | Coordinators                                                  | Districts                      |
-|---------------------------------------------------------------|--------------------------------|
+| ------------------------------------------------------------- | ------------------------------ |
 | Nancy Lambert                                                 | Northern New England           |
 | Elisa Mikolajko                                               | New York                       |
 | [Jesse Czubkowski](jesseczubkowski@gmail.com)                 | [New Jersey](http://njbq.org/) |

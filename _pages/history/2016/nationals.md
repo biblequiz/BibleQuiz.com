@@ -121,8 +121,8 @@ menubar_toc_static:
 
 | #   | Team                                    | Church           | W/L    | Total | AVG    |
 | --- | --------------------------------------- | ---------------- | ------ | ----- | ------ |
-| 1   | Cedar Park - That's Debatable           | Bothell, WA      | 18 / 1   | 2505  | 131.84 |
-| 2   | Bethany Church - Epic and Stoic         | Wyckoff, NJ      | 17 / 2   | 2405  | 126.58 |
+| 1   | Cedar Park - That's Debatable           | Bothell, WA      | 18 / 1 | 2505  | 131.84 |
+| 2   | Bethany Church - Epic and Stoic         | Wyckoff, NJ      | 17 / 2 | 2405  | 126.58 |
 | 3   | First AG (MO)                           | Lee's Summit, MO | 16 / 3 | 2730  | 143.68 |
 | 4   | First AG - It's Whom!                   | East Lansing, MI | 15 / 4 | 2270  | 119.47 |
 | 5   | Trinity AG - The Other Team             | Georgetown, KY   | 14 / 5 | 2325  | 122.37 |

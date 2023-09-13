@@ -27,7 +27,7 @@ The event was won by Evangel Temple A/G, Decatur, GA (pictured) which became the
    icon="fas fa-info-circle"
    status="is-success" %}
 
-|    Rank | Team                            | Record |
+|       # | Team                            | Record |
 | ------: | ------------------------------- | ------ |
 |       1 | Evangel Temple A/G, Decatur, GA | 5 / 2  |
 |       2 | Assembly of God, Kent, WA       | 5 / 2  |

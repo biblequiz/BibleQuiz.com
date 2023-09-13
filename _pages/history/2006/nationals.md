@@ -55,7 +55,7 @@ The individual tournament was won by Brandon Duffy of Bothell, WA. The quoting b
 
 ### Individuals
 
-|     Rank | Quizzer           | Church                 | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer           | Church                 | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ----------------- | ---------------------- | ----: | -----: | -----: | ----: |
 |        1 | Jon Galliers      | Lexington KY           |  2520 | 132.63 |     19 |       |
 |        2 | Brandon Duffy     | Bothell WA "Beyond"    |  1935 | 101.84 |     15 |     1 |
@@ -171,7 +171,7 @@ The individual tournament was won by Brandon Duffy of Bothell, WA. The quoting b
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                      | Total |   Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church                      | Total |   Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | --------------------------- | ----: | ----: | -----: | ----: |
 |        1 | Bethany Laakkonen   | Duluth MN                   |  1880 | 98.95 |     15 |     2 |
 |        2 | Jesse Czubkowski    | Garfield NJ                 |  1795 | 94.47 |     13 |     4 |

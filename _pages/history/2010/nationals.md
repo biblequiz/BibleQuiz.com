@@ -70,7 +70,7 @@ Three quizzers in the championship division achieved a perfect (150) game:
 
 If possible, ties are broken by number of quiz-outs.
 
-|     Rank | Quizzer               | Church                                        | Total |    Avg |   QO |
+|        # | Quizzer               | Church                                        | Total |    Avg |   QO |
 | -------: | --------------------- | --------------------------------------------- | ----: | -----: | ---: |
 |        1 | Abby Rogers           | Wesley Chapel FL-One Purpose                  |  2245 | 118.16 |   16 |
 |        2 | James Lex             | Cumming GA-Compelled!                         |  2170 | 114.21 |   17 |
@@ -184,7 +184,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                           | Total |    Avg |   QO |
+|        # | Quizzer             | Church                           | Total |    Avg |   QO |
 | -------: | ------------------- | -------------------------------- | ----: | -----: | ---: |
 |        1 | Joshua George       | Faith A/G                        |  1950 | 102.63 |   16 |
 |        2 | Hudson Kelley       | First A/G                        |  1785 |  93.95 |   15 |

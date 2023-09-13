@@ -67,7 +67,7 @@ Abby Rogers was the only quizzer in either division to achieve a perfect (150) g
 
 If possible, ties are broken by number of quiz-outs.
 
-|     Rank | Quizzer            | Church                        | Total |    Avg |   QO |
+|        # | Quizzer            | Church                        | Total |    Avg |   QO |
 | -------: | ------------------ | ----------------------------- | ----: | -----: | ---: |
 |        1 | Abby Rogers        | Wesley Chapel, FL             |  2500 | 131.58 |   19 |
 |        2 | Tamera Burkhalter  | Orlando, FL                   |  1900 |    100 |   16 |
@@ -174,7 +174,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                             | Total |   Avg |   QO |
+|        # | Quizzer             | Church                             | Total |   Avg |   QO |
 | -------: | ------------------- | ---------------------------------- | ----: | ----: | ---: |
 |        1 | Ariel Brookbank     | Overland Park, KS                  |  1725 | 90.79 |   14 |
 |        2 | Jessica Lynch       | Santa Ana, CA                      |  1710 |    90 |   14 |

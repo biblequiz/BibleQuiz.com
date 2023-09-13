@@ -56,7 +56,7 @@ The top scorer at the 1986 National Finals was Nicole Brandon of Woodlake A/G, T
    icon="fas fa-info-circle"
    status="is-success" %}
 
-|     Rank | Quizzer          | Church                       | Total |   Avg |
+|        # | Quizzer          | Church                       | Total |   Avg |
 | -------: | ---------------- | ---------------------------- | ----: | ----: |
 |        1 | Nichole Brandon  | Tulsa, OK                    |  1395 |    93 |
 |        2 | David Lowe       | Wichita, KS                  |  1310 | 87.33 |

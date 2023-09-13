@@ -73,7 +73,7 @@ menubar_toc_static:
 
 ### Individuals
 
-| #   | Quizzer            | Team                                           | Total | Avg | QO  | QO%  | 30s | 20s | 10s |
+| #   | Quizzer            | Team                                           | Total | Avg | QO  | QO % | 30s | 20s | 10s |
 | --- | ------------------ | ---------------------------------------------- | ----- | --- | --- | ---- | --- | --- | --- |
 | 1   | Joel Raj           | Metuchen AG 1 (Metuchen,NJ)                    | 630   | 126 | 5   | 89%  | 6   | 19  |     |
 | 2   | Reshma Solomon     | Metuchen AG 2 (Metuchen,NJ)                    | 470   | 94  | 3   | 88%  | 3   | 17  | 2   |

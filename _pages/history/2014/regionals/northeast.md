@@ -134,55 +134,55 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer               | Team                                               | Church               |   Total |      Avg |   QO |
-| ---: | --------------------- | -------------------------------------------------- | -------------------- | ------: | -------: | ---: |
-|    1 | Jonathan Baily        | First AG "Duty Calls"                              | Waynesburg PA        |    1480 |   113.85 |   11 |
-|    2 | Brooklyne Sederwall   | Vailsburg AG "Fahrenheit"                          | Newark NJ            |    1345 |   103.46 |    8 |
-|    3 | Ally Waller           | Kennebec Valley AG "L2PG"                          | Chelsea ME           |    1295 |    99.62 |    8 |
-|    4 | Madison Holcomb       | Evangel Heights AG "Blazing Encouragement"         | Sarver PA            |    1185 |    91.15 |    9 |
-|    5 | Rachel Adelmann       | Bethany Church "Herald, Apostle and Teacher"       | Wyckoff NJ           |    1140 |    87.69 |    7 |
-|    6 | Divya Matthews        | Word of Life AG MS                                 | Springfield VA       |    1135 |    87.31 |    6 |
-|    7 | Benshel Bright        | Evangel Church "Superman"                          | Scotch Plains NJ     |    1030 |    79.23 |    5 |
-|    8 | Chad Sederwall        | Vailsburg AG "Fahrenheit"                          | Newark NJ            |     955 |    73.46 |    8 |
-|    9 | Elijah Abad           | Church of the Risen King                           | Gloucester City NJ   |     955 |    73.46 |    5 |
-|   10 | Phoebe Hoffman        | Mechanicsville CC MS                               | Mechanicsville VA    |     945 |    72.69 |    9 |
-|   11 | Carissa Gullino       | Evangel Chapel                                     | Bridgewater NJ       |     930 |    71.54 |    7 |
-|   12 | Shayaan Meyer         | South Hills AG "Addicted to Jesus"                 | Bethel Park PA       |     815 |    62.69 |    7 |
-|   13 | Liam Rooney           | New Day AG "Sons of Blazing Fire"                  | Upper St. Clair PA   |     785 |    60.38 |    6 |
-|   14 | David Sikes           | South Hills AG "Flaming Swords of the Archangel"   | Bethel Park PA       |     760 |    58.46 |    6 |
-|   15 | Alex Bradley          | New Day AG "Sons of Blazing Fire"                  | Upper St. Clair PA   |     760 |    58.46 |    4 |
-|   16 | Justin Reid           | New Day AG "Sons of Blazing Fire"                  | Upper St. Clair PA   |     725 |    55.77 |    6 |
-|   17 | Aidan McIntire        | Evangel Heights AG "Blazing Encouragement"         | Sarver PA            |     700 |    53.85 |    5 |
-|   18 | Mikkalah Patterson    | Fountain of Life Center                            | Burlington NJ        |     635 |    48.85 |    4 |
-|   19 | Seth Misak            | South Hills AG "Flaming Swords of the Archangel"   | Bethel Park PA       |     625 |    48.08 |    4 |
-|   20 | Sydney Avery          | Kennebec Valley AG "L2PG"                          | Chelsea ME           |     565 |    43.46 |    5 |
-|   21 | Alex Thornton         | South Hills AG "Addicted to Jesus"                 | Bethel Park PA       |     550 |    42.31 |    2 |
-|   22 | Joy Ladignon          | Evangel Chapel                                     | Bridgewater NJ       |     540 |    41.54 |    2 |
-|   23 | Thomas Winslow        | Evangel Church "Superman"                          | Scotch Plains NJ     |     530 |    40.77 |    6 |
-|   24 | Kristiana Ramos       | Church of the Risen King                           | Gloucester City NJ   |     395 |    30.38 |      |
-|   25 | Josh Fuller           | South Hills AG "Flaming Swords of the Archangel"   | Bethel Park PA       |     380 |    29.23 |    1 |
-|   26 | Nikki Rittenhouse     | Mechanicsville CC MS                               | Mechanicsville VA    |     370 |    28.46 |    1 |
-|   27 | Tanner Hoscheid       | Evangel Heights AG "Blazing Encouragement"         | Sarver PA            |     345 |    26.54 |    2 |
-|   28 | Josiah Bartlett       | Kennebec Valley AG "L2PG"                          | Chelsea ME           |     335 |    25.77 |    5 |
-|   29 | Sophia Whitfield      | Mechanicsville CC MS                               | Mechanicsville VA    |     270 |    20.77 |    1 |
-|   30 | Elijah Earnest        | First AG "Duty Calls"                              | Waynesburg PA        |     255 |    19.62 |    1 |
-|   31 | Debi Tura             | Word of Life AG MS                                 | Springfield VA       |     250 |    19.23 |      |
-|   32 | Savannah Cosme        | Fountain of Life Center                            | Burlington NJ        |     190 |    14.62 |      |
-|   33 | Renee Thiele          | Evangel Heights AG "Blazing Encouragement"         | Sarver PA            |     170 |    13.08 |    1 |
-|   34 | Blessing Inyangson    | Word of Life AG MS                                 | Springfield VA       |     130 |    10.00 |      |
-|   35 | Scott Benco           | First AG "Duty Calls"                              | Waynesburg PA        |     125 |     9.62 |      |
-|   36 | Imah Umoh             | Fountain of Life Center                            | Burlington NJ        |     120 |     9.23 |      |
-|   37 | Brian McClendon       | Vailsburg AG "Fahrenheit"                          | Newark NJ            |     110 |     8.46 |      |
-|   38 | Daniel Flores         | Bethany Church "Herald, Apostle and Teacher"       | Wyckoff NJ           |      75 |     5.77 |      |
-|   39 | Lydia Dawit           | Word of Life AG MS                                 | Springfield VA       |      45 |     3.46 |      |
-|   40 | Abby Powers           | South Hills AG "Addicted to Jesus"                 | Bethel Park PA       |      20 |     1.54 |      |
-|   41 | Matthew Wright        | Fountain of Life Center                            | Burlington NJ        |         |     0.00 |      |
-|   41 | Rebekah Anischenko    | South Hills AG "Addicted to Jesus"                 | Bethel Park PA       |         |     0.00 |      |
-|   41 | David Batchelder      | New Day AG "Sons of Blazing Fire"                  | Upper St. Clair PA   |         |     0.00 |      |
-|   41 | Alena Ambers          | Kennebec Valley AG "L2PG"                          | Chelsea ME           |         |     0.00 |      |
-|   41 | Alison Stanly         | Mechanicsville CC MS                               | Mechanicsville VA    |         |     0.00 |      |
-|   41 | Charlotte Burt        | Word of Life AG MS                                 | Springfield VA       |         |     0.00 |      |
-|   41 | Gabrielle Burgos      | Bethany Church "Herald, Apostle and Teacher"       | Wyckoff NJ           |         |     0.00 |      |
-|   41 | Isabella Burt         | Word of Life AG MS                                 | Springfield VA       |         |     0.00 |      |
-|   41 | Andreanna Rivera      | Evangel Church "Superman"                          | Scotch Plains NJ     |         |     0.00 |      |
-|   42 | Kelvin Ubaechu        | Vailsburg AG "Fahrenheit"                          | Newark NJ            |     -15 |    -1.15 |      |
+|    # | Quizzer             | Team                                             | Church             | Total |    Avg |   QO |
+| ---: | ------------------- | ------------------------------------------------ | ------------------ | ----: | -----: | ---: |
+|    1 | Jonathan Baily      | First AG "Duty Calls"                            | Waynesburg PA      |  1480 | 113.85 |   11 |
+|    2 | Brooklyne Sederwall | Vailsburg AG "Fahrenheit"                        | Newark NJ          |  1345 | 103.46 |    8 |
+|    3 | Ally Waller         | Kennebec Valley AG "L2PG"                        | Chelsea ME         |  1295 |  99.62 |    8 |
+|    4 | Madison Holcomb     | Evangel Heights AG "Blazing Encouragement"       | Sarver PA          |  1185 |  91.15 |    9 |
+|    5 | Rachel Adelmann     | Bethany Church "Herald, Apostle and Teacher"     | Wyckoff NJ         |  1140 |  87.69 |    7 |
+|    6 | Divya Matthews      | Word of Life AG MS                               | Springfield VA     |  1135 |  87.31 |    6 |
+|    7 | Benshel Bright      | Evangel Church "Superman"                        | Scotch Plains NJ   |  1030 |  79.23 |    5 |
+|    8 | Chad Sederwall      | Vailsburg AG "Fahrenheit"                        | Newark NJ          |   955 |  73.46 |    8 |
+|    9 | Elijah Abad         | Church of the Risen King                         | Gloucester City NJ |   955 |  73.46 |    5 |
+|   10 | Phoebe Hoffman      | Mechanicsville CC MS                             | Mechanicsville VA  |   945 |  72.69 |    9 |
+|   11 | Carissa Gullino     | Evangel Chapel                                   | Bridgewater NJ     |   930 |  71.54 |    7 |
+|   12 | Shayaan Meyer       | South Hills AG "Addicted to Jesus"               | Bethel Park PA     |   815 |  62.69 |    7 |
+|   13 | Liam Rooney         | New Day AG "Sons of Blazing Fire"                | Upper St. Clair PA |   785 |  60.38 |    6 |
+|   14 | David Sikes         | South Hills AG "Flaming Swords of the Archangel" | Bethel Park PA     |   760 |  58.46 |    6 |
+|   15 | Alex Bradley        | New Day AG "Sons of Blazing Fire"                | Upper St. Clair PA |   760 |  58.46 |    4 |
+|   16 | Justin Reid         | New Day AG "Sons of Blazing Fire"                | Upper St. Clair PA |   725 |  55.77 |    6 |
+|   17 | Aidan McIntire      | Evangel Heights AG "Blazing Encouragement"       | Sarver PA          |   700 |  53.85 |    5 |
+|   18 | Mikkalah Patterson  | Fountain of Life Center                          | Burlington NJ      |   635 |  48.85 |    4 |
+|   19 | Seth Misak          | South Hills AG "Flaming Swords of the Archangel" | Bethel Park PA     |   625 |  48.08 |    4 |
+|   20 | Sydney Avery        | Kennebec Valley AG "L2PG"                        | Chelsea ME         |   565 |  43.46 |    5 |
+|   21 | Alex Thornton       | South Hills AG "Addicted to Jesus"               | Bethel Park PA     |   550 |  42.31 |    2 |
+|   22 | Joy Ladignon        | Evangel Chapel                                   | Bridgewater NJ     |   540 |  41.54 |    2 |
+|   23 | Thomas Winslow      | Evangel Church "Superman"                        | Scotch Plains NJ   |   530 |  40.77 |    6 |
+|   24 | Kristiana Ramos     | Church of the Risen King                         | Gloucester City NJ |   395 |  30.38 |      |
+|   25 | Josh Fuller         | South Hills AG "Flaming Swords of the Archangel" | Bethel Park PA     |   380 |  29.23 |    1 |
+|   26 | Nikki Rittenhouse   | Mechanicsville CC MS                             | Mechanicsville VA  |   370 |  28.46 |    1 |
+|   27 | Tanner Hoscheid     | Evangel Heights AG "Blazing Encouragement"       | Sarver PA          |   345 |  26.54 |    2 |
+|   28 | Josiah Bartlett     | Kennebec Valley AG "L2PG"                        | Chelsea ME         |   335 |  25.77 |    5 |
+|   29 | Sophia Whitfield    | Mechanicsville CC MS                             | Mechanicsville VA  |   270 |  20.77 |    1 |
+|   30 | Elijah Earnest      | First AG "Duty Calls"                            | Waynesburg PA      |   255 |  19.62 |    1 |
+|   31 | Debi Tura           | Word of Life AG MS                               | Springfield VA     |   250 |  19.23 |      |
+|   32 | Savannah Cosme      | Fountain of Life Center                          | Burlington NJ      |   190 |  14.62 |      |
+|   33 | Renee Thiele        | Evangel Heights AG "Blazing Encouragement"       | Sarver PA          |   170 |  13.08 |    1 |
+|   34 | Blessing Inyangson  | Word of Life AG MS                               | Springfield VA     |   130 |  10.00 |      |
+|   35 | Scott Benco         | First AG "Duty Calls"                            | Waynesburg PA      |   125 |   9.62 |      |
+|   36 | Imah Umoh           | Fountain of Life Center                          | Burlington NJ      |   120 |   9.23 |      |
+|   37 | Brian McClendon     | Vailsburg AG "Fahrenheit"                        | Newark NJ          |   110 |   8.46 |      |
+|   38 | Daniel Flores       | Bethany Church "Herald, Apostle and Teacher"     | Wyckoff NJ         |    75 |   5.77 |      |
+|   39 | Lydia Dawit         | Word of Life AG MS                               | Springfield VA     |    45 |   3.46 |      |
+|   40 | Abby Powers         | South Hills AG "Addicted to Jesus"               | Bethel Park PA     |    20 |   1.54 |      |
+|   41 | Matthew Wright      | Fountain of Life Center                          | Burlington NJ      |       |   0.00 |      |
+|   41 | Rebekah Anischenko  | South Hills AG "Addicted to Jesus"               | Bethel Park PA     |       |   0.00 |      |
+|   41 | David Batchelder    | New Day AG "Sons of Blazing Fire"                | Upper St. Clair PA |       |   0.00 |      |
+|   41 | Alena Ambers        | Kennebec Valley AG "L2PG"                        | Chelsea ME         |       |   0.00 |      |
+|   41 | Alison Stanly       | Mechanicsville CC MS                             | Mechanicsville VA  |       |   0.00 |      |
+|   41 | Charlotte Burt      | Word of Life AG MS                               | Springfield VA     |       |   0.00 |      |
+|   41 | Gabrielle Burgos    | Bethany Church "Herald, Apostle and Teacher"     | Wyckoff NJ         |       |   0.00 |      |
+|   41 | Isabella Burt       | Word of Life AG MS                               | Springfield VA     |       |   0.00 |      |
+|   41 | Andreanna Rivera    | Evangel Church "Superman"                        | Scotch Plains NJ   |       |   0.00 |      |
+|   42 | Kelvin Ubaechu      | Vailsburg AG "Fahrenheit"                        | Newark NJ          |   -15 |  -1.15 |      |

@@ -7,7 +7,7 @@ menubar: menu_history
 ---
 
 | Year         | Coordinator        |
-|--------------|--------------------|
+| ------------ | ------------------ |
 | 1999-Current | Bernie Elliot      |
 | 1999         | David Hatley       |
 | 1991-1999    | Rich Percifield    |

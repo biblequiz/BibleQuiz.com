@@ -283,13 +283,13 @@ This question remains the same.
 
 | Type                                          | States number of verses | States consecutive/separate verses |
 | --------------------------------------------- | ----------------------- | ---------------------------------- |
-| Give a complete answer                        | ✅                      | ✅                                 |
-| Quotation/Essence (by verse number)           | ✅                      | ✅                                 |
-| Quotation/Essence (all others)                | ⚠️                       | ✅                                 |
-| Quotation/Essence Completion                  | ⚠️                       | ⚠️                                 |
-| Chapter analysis answer                       | ⚠️                      | ✅                                 |
-| Others                                        | ⚠️                      | ✅                                 |
-| Answer demands books, chapters, or references | 🚫                     | 🚫                                 |
+| Give a complete answer                        | ✅                       | ✅                                  |
+| Quotation/Essence (by verse number)           | ✅                       | ✅                                  |
+| Quotation/Essence (all others)                | ⚠️                       | ✅                                  |
+| Quotation/Essence Completion                  | ⚠️                       | ⚠️                                  |
+| Chapter analysis answer                       | ⚠️                       | ✅                                  |
+| Others                                        | ⚠️                       | ✅                                  |
+| Answer demands books, chapters, or references | 🚫                       | 🚫                                  |
 
 
 ✅ = Required  

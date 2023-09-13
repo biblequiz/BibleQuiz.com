@@ -55,7 +55,7 @@ Team photos are provided courtesy of Larry Mullins.
 
 ### Individuals
 
-|     Rank | Quizzer            | Church                  | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer            | Church                  | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------ | ----------------------- | ----: | -----: | -----: | ----: |
 |        1 | Grant Warnock      | Bridgeville, PA         |  2090 |    110 |     16 |       |
 |        2 | Jared Burkhalter   | Orlando, FL             |  2020 | 106.32 |     15 |     3 |
@@ -166,7 +166,7 @@ Team photos are provided courtesy of Larry Mullins.
 
 ### Individuals
 
-|     Rank | Quizzer            | Church               | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer            | Church               | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------ | -------------------- | ----: | -----: | -----: | ----: |
 |        1 | James Lex          | Dunwoody, GA         |  1910 | 100.53 |     13 |     4 |
 |        2 | Danielle Brozovich | Ozark, MO (IC)       |  1665 |  87.63 |     17 |     1 |

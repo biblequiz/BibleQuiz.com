@@ -23,12 +23,12 @@ round-robin schedule due to the different amount of teams.
 
 #### Teams
 
-|    # | Team          | Church                         |      W |    L |
-| ---: | ------------- | ------------------------------ | -----: | ---: |
-|    1 | Lexington #1  | 1st A/G, Lexington, KY         |      6 |    0 |
-|    2 | Dunwoody**    | Calvary A/G, Dunwoody, GA      |      3 |    3 |
-|    3 | Centerville** | E.C.C., Centerville, GA        |      3 |    3 |
-|    4 | Greensboro    | Calvary Church, Greensboro, NC |      0 |    6 |
+|    # | Team          | Church                         |    W |    L |
+| ---: | ------------- | ------------------------------ | ---: | ---: |
+|    1 | Lexington #1  | 1st A/G, Lexington, KY         |    6 |    0 |
+|    2 | Dunwoody**    | Calvary A/G, Dunwoody, GA      |    3 |    3 |
+|    3 | Centerville** | E.C.C., Centerville, GA        |    3 |    3 |
+|    4 | Greensboro    | Calvary Church, Greensboro, NC |    0 |    6 |
 
 \* 13-0 overall.\
 \*\* Dunwoody defeated Centerville in a playoff
@@ -63,16 +63,16 @@ round-robin schedule due to the different amount of teams.
 
 #### Top Individuals
 
-|    # | Quizzer           | Team           |  Total |
-| ---: | ----------------- | -------------- | -----: |
-|    1 | Joanna Webb       | Lexington #2   |    295 |
-|    2 | Jonathan Sevy     | Lexington #3   |    160 |
-|    3 | Katie Brandewie   | Lexington #2   |    110 |
-|    4 | Hannah Nichols    | Lexington #4   |     95 |
-|   4* | Rodney Brown      | Centerville #2 |     95 |
-|    6 | Josh Kelly        | Lexington #2   |     85 |
-|    7 | Mark Laufenburger | Lexington #3   |     45 |
-|   7* | Andy Kauffman     | Centerville #2 |     45 |
+|    # | Quizzer           | Team           | Total |
+| ---: | ----------------- | -------------- | ----: |
+|    1 | Joanna Webb       | Lexington #2   |   295 |
+|    2 | Jonathan Sevy     | Lexington #3   |   160 |
+|    3 | Katie Brandewie   | Lexington #2   |   110 |
+|    4 | Hannah Nichols    | Lexington #4   |    95 |
+|   4* | Rodney Brown      | Centerville #2 |    95 |
+|    6 | Josh Kelly        | Lexington #2   |    85 |
+|    7 | Mark Laufenburger | Lexington #3   |    45 |
+|   7* | Andy Kauffman     | Centerville #2 |    45 |
 
 ## Novice Division
 

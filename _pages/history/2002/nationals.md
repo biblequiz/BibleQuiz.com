@@ -57,7 +57,7 @@ The individual tournament was won by Caleb Booth of Tulsa, OK . The quoting bee 
 
 The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Peter's per quiz average was 125.79. This was the third time since expansion that the top scorer was also a member of the championship team. The previous two times were both by Kent Piacent in 1998 and 1999.
 
-|     Rank | Quizzer           | Church               | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer           | Church               | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ----------------- | -------------------- | ----: | -----: | -----: | ----: |
 |        1 | Peter Brown       | Orange, CA           |  2390 | 125.79 |     10 |     1 |
 |        2 | Aaron Kohler      | Lebanon, PA          |  1750 |  92.11 |      8 |     3 |
@@ -169,7 +169,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 
 ### Individuals
 
-|     Rank | Quizzer            | Church             | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer            | Church             | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------ | ------------------ | ----: | -----: | -----: | ----: |
 |        1 | Michael Pearson    | Dallas, TX         |  2125 | 111.84 |     12 |     1 |
 |        2 | Mark Whitehead     | West Lafayette, IN |  1790 |  94.21 |      6 |     6 |
@@ -249,7 +249,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 
 ### Group A
 
-|    Rank | Team                               | W / L | Total |
+|       # | Team                               | W / L | Total |
 | ------: | ---------------------------------- | ----- | ----: |
 |       1 | Braeswood A/G, Houston, TX         | 5 / 2 |  1055 |
 | **1\*** | Tacoma Life Center, Tacoma, WA     | 5 / 2 |   755 |
@@ -265,7 +265,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 
 ### Group B
 
-|    Rank | Team                                             | W / L | Total |
+|       # | Team                                             | W / L | Total |
 | ------: | ------------------------------------------------ | ----- | ----: |
 |       1 | Living Waters Chapel, Lebanon, PA                | 5 / 2 |  1475 |
 | **1\*** | Fossil Creek A/G, Fort Worth, TX                 | 5 / 2 |  1080 |
@@ -279,7 +279,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 
 ### Group C
 
-|    Rank | Team                                          | W / L | Total |
+|       # | Team                                          | W / L | Total |
 | ------: | --------------------------------------------- | ----- | ----: |
 |       1 | The Church at Briargate, Colorado Springs, CO | 7 / 0 |  1325 |
 |       2 | South Hills A/G, Bethel Park, PA**            | 5 / 2 |  1185 |
@@ -296,7 +296,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 
 ### Group D
 
-|    Rank | Team                                        | W / L | Total |
+|       # | Team                                        | W / L | Total |
 | ------: | ------------------------------------------- | ----- | ----: |
 |       1 | Calvary A/G, Dunwoody, GA*                  | 5 / 2 |  1120 |
 | **1\*** | First A/G, Ames, IA*                        | 5 / 2 |  1045 |
