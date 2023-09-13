@@ -35,7 +35,7 @@ The individual tournament was won by Daniel Wagner of Owasso, OK. This was the n
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                                                    | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                                    | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | ------------------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | Owasso First A/G, Owasso, OK                            | 18 / 1 |  4460 | 234.74 |   2940 |     154.74 |
 |    2 | Cedar Park A/G, Bothell, WA                             | 17 / 2 |  4260 | 224.21 |   2435 |     128.16 |
@@ -155,7 +155,7 @@ The individual tournament was won by Daniel Wagner of Owasso, OK. This was the n
 
 ### Teams
 
-| Rank | Team                                                   | Record | Total |    Avg | Total Margin | Avg Margin |
+|    # | Team                                                   | Record | Total |    Avg | Total Margin | Avg Margin |
 | ---: | ------------------------------------------------------ | ------ | ----: | -----: | -----------: | ---------: |
 |    1 | Lakeside A/G, Menominee, MI*                           | 14 / 5 |  2925 | 153.95 |         1105 |      58.15 |
 |    2 | Nyssa Christian Fellowship, Nyssa, OR                  | 14 / 5 |  2440 | 128.42 |          805 |      42.37 |
@@ -263,7 +263,7 @@ In the challenger division, Billy Branham (1) was the only quizzer to achieve a 
 
 ### Group A
 
-| Rank | Team                                                    | Record | Total |
+|    # | Team                                                    | Record | Total |
 | ---: | ------------------------------------------------------- | ------ | ----: |
 |    1 | Cedar Park A/G, Bothell, WA                             | 9 / 0  |  2585 |
 |    2 | Central A/G, Springfield, MO                            | 7 / 2  |  1485 |
@@ -278,7 +278,7 @@ In the challenger division, Billy Branham (1) was the only quizzer to achieve a 
 
 ### Group B
 
-| Rank | Team                                                   | Record | Total |
+|    # | Team                                                   | Record | Total |
 | ---: | ------------------------------------------------------ | ------ | ----: |
 |    1 | O'Fallon A/G, O'Fallon, IL                             | 9 / 1  |  2055 |
 |    2 | James River A/G, "Greatly Puzzled", Ozark, MO          | 9 / 1  |  1910 |
@@ -295,7 +295,7 @@ In the challenger division, Billy Branham (1) was the only quizzer to achieve a 
 
 ### Group C
 
-| Rank | Team                                                   | Record | Total |
+|    # | Team                                                   | Record | Total |
 | ---: | ------------------------------------------------------ | ------ | ----: |
 |    1 | Owasso First A/G, Owasso, OK                           | 9 / 0  |  2725 |
 |    2 | James River A/G, "Trembling and Bewildered", Ozark, MO | 7 / 2  |  1710 |
@@ -312,7 +312,7 @@ In the challenger division, Billy Branham (1) was the only quizzer to achieve a 
 
 ### Group D
 
-| Rank | Team                                          | Record | Total |
+|    # | Team                                          | Record | Total |
 | ---: | --------------------------------------------- | ------ | ----: |
 |    1 | Praise A/G, Garfield, NJ                      | 8 / 1  |  1870 |
 |    2 | Faith A/G, Orlando, FL                        | 7 / 2  |  1800 |

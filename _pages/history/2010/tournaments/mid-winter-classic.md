@@ -16,17 +16,17 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                    | W - L |
-| ---: | --------------------------------------- | ----- |
-|    1 | Racine "Perfectly United"               | 7 - 1 |
-|    2 | Portage 1 - CrossPoint A/G              | 6 - 2 |
-|    3 | Brookfield - Victory International Fel. | 4 - 4 |
-|    4 | Portage 2 - CrossPoint A/G              | 3 - 5 |
-|    5 | Fond du Lac "The Parts That Lacked It"  | 0 - 8 |
+|    # | Team                                    |    W |    L |
+| ---: | --------------------------------------- | ---: | ---: |
+|    1 | Racine "Perfectly United"               |    7 |    1 |
+|    2 | Portage 1 - CrossPoint A/G              |    6 |    2 |
+|    3 | Brookfield - Victory International Fel. |    4 |    4 |
+|    4 | Portage 2 - CrossPoint A/G              |    3 |    5 |
+|    5 | Fond du Lac "The Parts That Lacked It"  |    0 |    8 |
 
 ### Individuals (Top 10)
 
-|    # | Name              | Church      |  Avg |
+|    # | Quizzer           | Church      |  Avg |
 | ---: | ----------------- | ----------- | ---: |
 |    1 | Nathan Dahlin     | Racine      | 83.2 |
 |    2 | Alex Firari       | Portage 1   | 82.5 |
@@ -45,25 +45,25 @@ menubar_toc_static:
 
 ### Gold Division
 
-|    # | Team                  | W - L |
-| ---: | --------------------- | ----- |
-|    1 | Indianapolis "B"      | 2 - 1 |
-|    2 | Sparta                | 2 - 1 |
-|    3 | Oak Creek             | 1 - 2 |
-|    4 | Indianapolis "Novice" | 1 - 2 |
+|    # | Team                  |    W |    L |
+| ---: | --------------------- | ---: | ---: |
+|    1 | Indianapolis "B"      |    2 |    1 |
+|    2 | Sparta                |    2 |    1 |
+|    3 | Oak Creek             |    1 |    2 |
+|    4 | Indianapolis "Novice" |    1 |    2 |
 
 ### Silver Division
 
-|    # | Team                  | W - L |
-| ---: | --------------------- | ----- |
-|    1 | Green Bay 2           | 2 - 1 |
-|    2 | Racine World Changers | 2 - 1 |
-|    3 | Green Bay 1           | 1 - 2 |
-|    4 | Kankakee              | 1 - 2 |
+|    # | Team                  |    W |    L |
+| ---: | --------------------- | ---: | ---: |
+|    1 | Green Bay 2           |    2 |    1 |
+|    2 | Racine World Changers |    2 |    1 |
+|    3 | Green Bay 1           |    1 |    2 |
+|    4 | Kankakee              |    1 |    2 |
 
 ### Individuals (Top 10)
 
-|    # | Name            | Church              |  Avg |
+|    # | Quizzer         | Church              |  Avg |
 | ---: | --------------- | ------------------- | ---: |
 |    1 | Aimee Lojeski   | Racine              | 79.3 |
 |    2 | Sammi Decker    | Indianapolis "B"    | 77.9 |
@@ -80,17 +80,17 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team         | W - L |
-| ---: | ------------ | ----- |
-|    1 | Portage 1    | 3 - 1 |
-|    2 | Racine       | 3 - 1 |
-|    3 | Portage 2    | 2 - 2 |
-|    4 | Indianapolis | 1 - 3 |
-|    5 | Green Bay    | 1 - 3 |
+|    # | Team         |    W |    L |
+| ---: | ------------ | ---: | ---: |
+|    1 | Portage 1    |    3 |    1 |
+|    2 | Racine       |    3 |    1 |
+|    3 | Portage 2    |    2 |    2 |
+|    4 | Indianapolis |    1 |    3 |
+|    5 | Green Bay    |    1 |    3 |
 
 ### Individuals (Top 10)
 
-|    # | Name          | Church       |   Avg |
+|    # | Quizzer       | Church       |   Avg |
 | ---: | ------------- | ------------ | ----: |
 |    1 | Josh Turner   | Portage 1    | 107.5 |
 |    2 | Ricky Toeller | Racine       |  71.3 |
@@ -105,7 +105,7 @@ menubar_toc_static:
 
 ## Individual Tournament
 
-|    # | Name          | Church                 |
+|    # | Quizzer       | Church                 |
 | ---: | ------------- | ---------------------- |
 |    1 | Ross Toeller  | Racine A/G             |
 |    2 | Nathan Dahlin | Racine A/G             |

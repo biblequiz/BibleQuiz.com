@@ -28,7 +28,7 @@ The individual tournament was also won by David Dorey of Colorado Springs, CO. T
 
 ### Teams
 
-| Rank | Team                                             | Record | Total |    Avg | Total Margin | Avg Margin |
+|    # | Team                                             | Record | Total |    Avg | Total Margin | Avg Margin |
 | ---: | ------------------------------------------------ | ------ | ----: | -----: | -----------: | ---------: |
 |    1 | The Church at Briargate #1, Colorado Springs, CO | 17 / 2 |  4385 | 230.79 |         2920 |     153.68 |
 |    2 | First A/G, Lexington, KY*                        | 15 / 4 |  3075 | 161.84 |         1395 |      73.42 |
@@ -57,80 +57,80 @@ The individual tournament was also won by David Dorey of Colorado Springs, CO. T
 
 The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey of Colorado Springs, CO. David was also the top scorer. The Top Quizzers from the 2004 National Bible Quiz Tournament for both divisions are listed below. Each participant is listed with statistics. If possible, ties are broken by number of quiz-outs.
 
-|     Rank | Quizzer             | Church                  | Total |    Avg | QO Fwd | QO Back |
-| -------: | ------------------- | ----------------------- | ----: | -----: | -----: | ------: |
-|        1 | David Dorey         | Colorado Springs CO #1  |  2595 | 136.58 |     17 |       1 |
-|        2 | Jonathon Galliers   | Lexington KY            |  1875 |  98.68 |      8 |       1 |
-|        3 | Katie Chenco        | Spring City PA          |  1680 |  88.42 |     13 |       2 |
-|        4 | Logan Newman        | Superior WI             |  1435 |  75.53 |      6 |       4 |
-|        5 | Becky York          | Bowie MD                |  1405 |  73.95 |      4 |       2 |
-|        6 | Neha Saiya          | Lebanon PA              |  1400 |  73.68 |      7 |       3 |
-|        7 | Brandon Porter      | Ozark MO                |  1370 |  72.11 |      6 |       7 |
-|        8 | Brian Lewis         | Indianapolis IN Calvary |  1305 |  68.68 |      8 |       7 |
-|        9 | Jared Paige         | Houston TX              |  1305 |  68.68 |      8 |       7 |
-|       10 | Cara Rozgonyi       | Monroeville PA          |  1300 |  68.42 |      3 |       4 |
-|       11 | Nathan Tuttle       | Nixa MO                 |  1265 |  66.58 |      4 |       4 |
-|       12 | Jenny Dworzak       | Bothell WA              |  1255 |  66.05 |      2 |       1 |
-|       13 | C.J. Barna          | Bethel Park PA          |  1255 |  66.05 |      6 |       4 |
-|       14 | April Pryor         | Fort Worth TX           |  1240 |  65.26 |      8 |       5 |
-|       15 | Bekah Regenfuss     | Naperville IL           |  1145 |  60.26 |      4 |       4 |
-|       16 | Eddy Ferriera       | Dunwoody GA             |  1115 |  58.68 |      3 |       4 |
-|       17 | Brooke Whitford     | West Lafayette IN       |  1110 |  58.42 |      4 |       2 |
-|       18 | Eowyn Thompson      | San Angelo TX           |  1045 |     55 |      4 |       6 |
-|       19 | Mary Pace           | Colorado Springs CO #1  |  1040 |  54.74 |      5 |       1 |
-|       20 | Patti Sunseri       | Spring City PA          |   850 |  44.74 |      3 |       1 |
-|       21 | Micah Buckel        | Lexington KY            |   840 |  44.21 |      3 |       3 |
-|       22 | Jed Gosnell         | Tacoma WA               |   835 |  43.95 |        |         |
-|       23 | Natalie Asahara     | Bothell WA              |   805 |  42.37 |        |         |
-|       24 | Albert Osueke       | Houston TX              |   795 |  41.84 |      4 |       5 |
-|       25 | Amanda Pryor        | Fort Worth TX           |   785 |  41.32 |      2 |       2 |
-|       26 | Jordan Shipley      | Bothell WA              |   770 |  40.53 |      6 |       3 |
-|       27 | Molly Pace          | Colorado Springs CO #1  |   750 |  39.47 |      4 |       1 |
-|       28 | Chris Byrd          | Tulsa OK                |   745 |  39.21 |      3 |       2 |
-|       29 | Kristen Johnson     | Naperville IL           |   670 |  35.26 |      3 |       6 |
-|       30 | Tim Stride          | Naperville IL           |   660 |  34.74 |      1 |       1 |
-|       31 | James Watt          | Tacoma WA               |   660 |  34.74 |      3 |       4 |
-|       32 | Steven Johnson      | San Angelo TX           |   655 |  34.47 |      6 |       6 |
-|       33 | Lydia Butay         | Tulsa OK                |   570 |     30 |        |       2 |
-|       34 | Brittanica Chesser  | Indianapolis IN Calvary |   530 |  27.89 |      2 |       1 |
-|       35 | Joshua Slater       | Nixa MO                 |   530 |  27.89 |      1 |       6 |
-|       36 | Dave Richmond       | Spring City PA          |   515 |  27.11 |      2 |       1 |
-|       37 | Ibukin Akindele     | Houston TX              |   495 |  26.05 |      1 |       1 |
-|       38 | Chris Morante       | Monroeville PA          |   470 |  24.74 |        |       1 |
-|       39 | Gina Fortunato      | Dunwoody GA             |   425 |  22.37 |        |       1 |
-|       40 | Spencer Newman      | Superior WI             |   420 |  22.11 |      1 |       1 |
-|       41 | Brittany Porter     | Ozark MO                |   420 |  22.11 |      1 |       1 |
-|       42 | Jeremiah Sholly     | Lebanon PA              |   400 |  21.05 |      2 |       1 |
-|       43 | Stephan Hann        | Nixa MO                 |   335 |  17.63 |        |       1 |
-|       44 | Emily Roberts       | Bowie MD                |   330 |  17.37 |        |       1 |
-|       45 | Kendra White        | Lexington KY            |   320 |  16.84 |        |         |
-|       46 | Joshua Sholly       | Lebanon PA              |   300 |  15.79 |        |         |
-|       47 | Bryan Batchelder    | Tulsa OK                |   275 |  14.47 |        |       7 |
-|       48 | Laura Virnig        | Ozark MO                |   260 |  13.68 |        |       1 |
-|       49 | Michael Smoak       | Bowie MD                |   230 |  12.11 |        |       4 |
-|       50 | Richie Nelson       | Tacoma WA               |   230 |  12.11 |        |       4 |
-|       51 | Joseph Fortunato    | Dunwoody GA             |   225 |  11.84 |        |       1 |
-|       52 | Jenna Liberati      | Bethel Park PA          |   215 |  11.32 |        |         |
-|       53 | Mark James Stasenko | Bethel Park PA          |   195 |  10.26 |        |       6 |
-|       54 | Nathan Miller       | San Angelo TX           |   195 |  10.26 |      1 |       1 |
-|       55 | Sara Sharkey        | Superior WI             |   185 |   9.74 |        |         |
-|       56 | Luke Furr           | Indianapolis IN Calvary |   180 |   9.47 |        |         |
-|       57 | Emily Whitehead     | West Lafayette IN       |   150 |   7.89 |        |         |
-|       58 | Katie Whitehead     | West Lafayette IN       |   145 |   7.63 |        |       5 |
-|       59 | Jen Dawson          | Bowie MD                |    90 |   4.74 |        |         |
-|       60 | Sarah Ingerson      | Bowie MD                |    55 |   2.89 |        |         |
-|       61 | Molly Dietrich      | Lexington KY            |    50 |   2.63 |        |         |
-|       62 | Anastaysia Walker   | Indianapolis IN Calvary |    35 |   1.84 |        |         |
-|       63 | Zach Moore          | Bothell WA              |    30 |   1.58 |        |         |
-|       64 | Timothy Hahn        | Nixa MO                 |    25 |   1.32 |        |         |
-| **64\*** | Davis Good          | Tulsa OK                |    25 |   1.32 |        |         |
-| **64\*** | Alex Davis          | Monroeville PA          |    25 |   1.32 |        |         |
-| **64\*** | Grant Good          | Tulsa OK                |    25 |   1.32 |        |         |
-|       68 | Dustin Chenco       | Spring City PA          |    10 |   0.53 |        |         |
-|       69 | Cathy Brown         | San Angelo TX           |     0 |      0 |        |         |
-| **69\*** | Bethany Brian       | Spring City PA          |     0 |      0 |        |         |
-| **69\*** | Juliana Born        | Bothell WA              |     0 |      0 |        |         |
-| **69\*** | Jeff Richmond       | Spring City PA          |     0 |      0 |        |         |
+|     Rank | Quizzer             | Church                  | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ------------------- | ----------------------- | ----: | -----: | -----: | ----: |
+|        1 | David Dorey         | Colorado Springs CO #1  |  2595 | 136.58 |     17 |     1 |
+|        2 | Jonathon Galliers   | Lexington KY            |  1875 |  98.68 |      8 |     1 |
+|        3 | Katie Chenco        | Spring City PA          |  1680 |  88.42 |     13 |     2 |
+|        4 | Logan Newman        | Superior WI             |  1435 |  75.53 |      6 |     4 |
+|        5 | Becky York          | Bowie MD                |  1405 |  73.95 |      4 |     2 |
+|        6 | Neha Saiya          | Lebanon PA              |  1400 |  73.68 |      7 |     3 |
+|        7 | Brandon Porter      | Ozark MO                |  1370 |  72.11 |      6 |     7 |
+|        8 | Brian Lewis         | Indianapolis IN Calvary |  1305 |  68.68 |      8 |     7 |
+|        9 | Jared Paige         | Houston TX              |  1305 |  68.68 |      8 |     7 |
+|       10 | Cara Rozgonyi       | Monroeville PA          |  1300 |  68.42 |      3 |     4 |
+|       11 | Nathan Tuttle       | Nixa MO                 |  1265 |  66.58 |      4 |     4 |
+|       12 | Jenny Dworzak       | Bothell WA              |  1255 |  66.05 |      2 |     1 |
+|       13 | C.J. Barna          | Bethel Park PA          |  1255 |  66.05 |      6 |     4 |
+|       14 | April Pryor         | Fort Worth TX           |  1240 |  65.26 |      8 |     5 |
+|       15 | Bekah Regenfuss     | Naperville IL           |  1145 |  60.26 |      4 |     4 |
+|       16 | Eddy Ferriera       | Dunwoody GA             |  1115 |  58.68 |      3 |     4 |
+|       17 | Brooke Whitford     | West Lafayette IN       |  1110 |  58.42 |      4 |     2 |
+|       18 | Eowyn Thompson      | San Angelo TX           |  1045 |     55 |      4 |     6 |
+|       19 | Mary Pace           | Colorado Springs CO #1  |  1040 |  54.74 |      5 |     1 |
+|       20 | Patti Sunseri       | Spring City PA          |   850 |  44.74 |      3 |     1 |
+|       21 | Micah Buckel        | Lexington KY            |   840 |  44.21 |      3 |     3 |
+|       22 | Jed Gosnell         | Tacoma WA               |   835 |  43.95 |        |       |
+|       23 | Natalie Asahara     | Bothell WA              |   805 |  42.37 |        |       |
+|       24 | Albert Osueke       | Houston TX              |   795 |  41.84 |      4 |     5 |
+|       25 | Amanda Pryor        | Fort Worth TX           |   785 |  41.32 |      2 |     2 |
+|       26 | Jordan Shipley      | Bothell WA              |   770 |  40.53 |      6 |     3 |
+|       27 | Molly Pace          | Colorado Springs CO #1  |   750 |  39.47 |      4 |     1 |
+|       28 | Chris Byrd          | Tulsa OK                |   745 |  39.21 |      3 |     2 |
+|       29 | Kristen Johnson     | Naperville IL           |   670 |  35.26 |      3 |     6 |
+|       30 | Tim Stride          | Naperville IL           |   660 |  34.74 |      1 |     1 |
+|       31 | James Watt          | Tacoma WA               |   660 |  34.74 |      3 |     4 |
+|       32 | Steven Johnson      | San Angelo TX           |   655 |  34.47 |      6 |     6 |
+|       33 | Lydia Butay         | Tulsa OK                |   570 |     30 |        |     2 |
+|       34 | Brittanica Chesser  | Indianapolis IN Calvary |   530 |  27.89 |      2 |     1 |
+|       35 | Joshua Slater       | Nixa MO                 |   530 |  27.89 |      1 |     6 |
+|       36 | Dave Richmond       | Spring City PA          |   515 |  27.11 |      2 |     1 |
+|       37 | Ibukin Akindele     | Houston TX              |   495 |  26.05 |      1 |     1 |
+|       38 | Chris Morante       | Monroeville PA          |   470 |  24.74 |        |     1 |
+|       39 | Gina Fortunato      | Dunwoody GA             |   425 |  22.37 |        |     1 |
+|       40 | Spencer Newman      | Superior WI             |   420 |  22.11 |      1 |     1 |
+|       41 | Brittany Porter     | Ozark MO                |   420 |  22.11 |      1 |     1 |
+|       42 | Jeremiah Sholly     | Lebanon PA              |   400 |  21.05 |      2 |     1 |
+|       43 | Stephan Hann        | Nixa MO                 |   335 |  17.63 |        |     1 |
+|       44 | Emily Roberts       | Bowie MD                |   330 |  17.37 |        |     1 |
+|       45 | Kendra White        | Lexington KY            |   320 |  16.84 |        |       |
+|       46 | Joshua Sholly       | Lebanon PA              |   300 |  15.79 |        |       |
+|       47 | Bryan Batchelder    | Tulsa OK                |   275 |  14.47 |        |     7 |
+|       48 | Laura Virnig        | Ozark MO                |   260 |  13.68 |        |     1 |
+|       49 | Michael Smoak       | Bowie MD                |   230 |  12.11 |        |     4 |
+|       50 | Richie Nelson       | Tacoma WA               |   230 |  12.11 |        |     4 |
+|       51 | Joseph Fortunato    | Dunwoody GA             |   225 |  11.84 |        |     1 |
+|       52 | Jenna Liberati      | Bethel Park PA          |   215 |  11.32 |        |       |
+|       53 | Mark James Stasenko | Bethel Park PA          |   195 |  10.26 |        |     6 |
+|       54 | Nathan Miller       | San Angelo TX           |   195 |  10.26 |      1 |     1 |
+|       55 | Sara Sharkey        | Superior WI             |   185 |   9.74 |        |       |
+|       56 | Luke Furr           | Indianapolis IN Calvary |   180 |   9.47 |        |       |
+|       57 | Emily Whitehead     | West Lafayette IN       |   150 |   7.89 |        |       |
+|       58 | Katie Whitehead     | West Lafayette IN       |   145 |   7.63 |        |     5 |
+|       59 | Jen Dawson          | Bowie MD                |    90 |   4.74 |        |       |
+|       60 | Sarah Ingerson      | Bowie MD                |    55 |   2.89 |        |       |
+|       61 | Molly Dietrich      | Lexington KY            |    50 |   2.63 |        |       |
+|       62 | Anastaysia Walker   | Indianapolis IN Calvary |    35 |   1.84 |        |       |
+|       63 | Zach Moore          | Bothell WA              |    30 |   1.58 |        |       |
+|       64 | Timothy Hahn        | Nixa MO                 |    25 |   1.32 |        |       |
+| **64\*** | Davis Good          | Tulsa OK                |    25 |   1.32 |        |       |
+| **64\*** | Alex Davis          | Monroeville PA          |    25 |   1.32 |        |       |
+| **64\*** | Grant Good          | Tulsa OK                |    25 |   1.32 |        |       |
+|       68 | Dustin Chenco       | Spring City PA          |    10 |   0.53 |        |       |
+|       69 | Cathy Brown         | San Angelo TX           |     0 |      0 |        |       |
+| **69\*** | Bethany Brian       | Spring City PA          |     0 |      0 |        |       |
+| **69\*** | Juliana Born        | Bothell WA              |     0 |      0 |        |       |
+| **69\*** | Jeff Richmond       | Spring City PA          |     0 |      0 |        |       |
 |       73 | Laramie Mitchell    | Ozark MO                |    -5 |  -0.26 |
 
 
@@ -138,7 +138,7 @@ The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey
 
 ### Teams
 
-| Rank | Team                                                     | Record | Total |    Avg | Total Margin | Avg Margin |
+|    # | Team                                                     | Record | Total |    Avg | Total Margin | Avg Margin |
 | ---: | -------------------------------------------------------- | ------ | ----: | -----: | -----------: | ---------: |
 |    1 | First A/G, Fort Myers, FL*                               | 16 / 3 |  2760 | 145.26 |         1160 |      61.05 |
 |    2 | Oceanway A/G, Jacksonville, FL                           | 16 / 3 |  3045 | 160.26 |         1825 |      96.05 |
@@ -165,89 +165,89 @@ The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                   | Total |    Avg | QO Fwd | QO Back |
-| -------: | ------------------- | ------------------------ | ----: | -----: | -----: | ------: |
-|        1 | Chad Crawford       | Jacksonville FL          |  2215 | 116.58 |     15 |       1 |
-|        2 | Sara Sobkoviak      | Fort Myers FL            |  2105 | 110.79 |     14 |       3 |
-|        3 | Brandon Duffy       | Seattle WA               |  1735 |  91.32 |      8 |       3 |
-|        4 | Bethany Laakkonen   | Savannah GA              |  1375 |  72.37 |      8 |       2 |
-|        5 | Amy Summers         | Noble OK                 |  1335 |  70.26 |      8 |       1 |
-|        6 | Naomi Meyer         | Lynden WA                |  1315 |  69.21 |     11 |       1 |
-|        7 | Isaiah Hunter       | Hermitage PA             |  1145 |  60.26 |      7 |       4 |
-|        8 | Bryce Steel         | Toledo OH                |  1115 |  58.68 |      5 |       8 |
-|        9 | Cody Conway         | Orange TX                |  1100 |  57.89 |     11 |       4 |
-|       10 | Brennen DeFazio     | Hermitage PA             |  1020 |  53.68 |      3 |       1 |
-|       11 | Zachary Schaalma    | Fond du Lac WI           |  1010 |  53.16 |      4 |       1 |
-|       12 | Mariana Shenoda     | Santa Ana CA             |  1000 |  52.63 |      6 |       7 |
-|       13 | Lauryn Duffy        | Seattle WA               |  1000 |  52.63 |      7 |       1 |
-|       14 | Maris Naylor        | Orange TX                |   970 |  51.05 |      1 |       7 |
-|       15 | Andrew Kelley       | Colorado Springs CO #2   |   925 |  48.68 |      9 |       5 |
-|       16 | Jimmy Sedam         | Indianapolis IN Lakeview |   900 |  47.37 |      5 |       6 |
-|       17 | Mia Angelakos       | Orlando FL               |   870 |  45.79 |      3 |       5 |
-|       18 | Rachel May          | Cedar Rapids IA          |   820 |  43.16 |      2 |       1 |
-|       19 | Chris Harrelson     | Murfreesboro TN          |   795 |  41.84 |      1 |       5 |
-|       20 | Trevor Eastin       | Mesa AZ                  |   775 |  40.79 |        |       1 |
-|       21 | Carrie Ball         | Indianapolis IN Lakeview |   770 |  40.53 |      2 |       6 |
-|       22 | Travis Porter       | Jacksonville FL          |   765 |  40.26 |      3 |       5 |
-|       23 | Alicia Morken       | Watford City ND          |   710 |  37.37 |      2 |       5 |
-|       24 | Courtney Popineau   | Colorado Springs CO #2   |   695 |  36.58 |        |       3 |
-|       25 | Elyssa DeFazio      | Hermitage PA             |   680 |  35.79 |      4 |       2 |
-|       26 | Krissy Welborn      | Fort Myers FL            |   660 |  34.74 |      5 |       3 |
-|       27 | Teresa Henderson    | St. Cloud MN             |   655 |  34.47 |        |       5 |
-|       28 | Rebekah May         | Cedar Rapids IA          |   625 |  32.89 |      4 |       2 |
-|       29 | Brandy Steel        | Toledo OH                |   620 |  32.63 |      2 |       1 |
-|       30 | Megan Gates         | Noble OK                 |   585 |  30.79 |        |         |
-|       31 | Michelle Hart       | Orlando FL               |   575 |  30.26 |        |       4 |
-|       32 | Melissa Henderson   | St. Cloud MN             |   485 |  25.53 |      1 |       1 |
-|       33 | Jacob Turnage       | Fond du Lac WI           |   465 |  24.47 |        |         |
-|       34 | Kristen Prabhudas   | Indianapolis IN Lakeview |   440 |  23.16 |      1 |       1 |
-|       35 | Titus Stenberg      | Watford City ND          |   405 |  21.32 |      1 |       5 |
-|       36 | Andrea Boyer        | Fond du Lac WI           |   405 |  21.32 |        |         |
-|       37 | Brandyn Shepherd    | Mesa AZ                  |   395 |  20.79 |        |         |
-|       38 | Bailey Steel        | Toledo OH                |   370 |  19.47 |      1 |       2 |
-|       39 | Christina Angelakos | Orlando FL               |   330 |  17.37 |        |         |
-|       40 | Rebecca Jensen      | Murfreesboro TN          |   325 |  17.11 |        |       1 |
-|       41 | Jacob Dwire         | Colorado Springs CO #2   |   300 |  15.79 |      1 |       1 |
-|       42 | Brittany Laakkonen  | Savannah GA              |   290 |  15.26 |        |         |
-|       43 | James Pryer         | Santa Ana CA             |   250 |  13.16 |        |       1 |
-|       44 | Cameron Eastin      | Mesa AZ                  |   230 |  12.11 |      1 |       4 |
-|       45 | Ryan Osugi          | Mesa AZ                  |   225 |  11.84 |        |         |
-|       46 | Jared Burkhalter    | Orlando FL               |   195 |  10.26 |        |         |
-|       47 | Michael Hooper      | Murfreesboro TN          |   130 |   6.84 |        |         |
-|       48 | Jordan Smith        | Noble OK                 |   125 |   6.58 |        |       1 |
-|       49 | Stephanie Johnson   | Savannah GA              |   120 |   6.32 |        |         |
-|       50 | Michael Scott       | Lynden WA                |   115 |   6.05 |        |         |
-|       51 | Aaron Maxey         | Jacksonville AR          |    95 |      5 |        |         |
-|       52 | Alberto Oquendo     | Orlando FL               |    60 |   3.16 |        |         |
-|       53 | Katie Kuroishi      | Santa Ana CA             |    55 |   2.89 |        |         |
-|       54 | Austin McCutcheon   | Jacksonville FL          |    55 |   2.89 |        |         |
-|       55 | Kimberly Brinzda    | Hermitage PA             |    50 |   2.63 |        |         |
-|       56 | Leanne Maxey        | Jacksonville AR          |    30 |   1.58 |        |         |
-|       57 | Alex Taylor         | Jacksonville AR          |    25 |   1.32 |        |         |
-|       58 | Mary Pryer          | Santa Ana CA             |    20 |   1.05 |        |         |
-| **58\*** | Bonnie Packineu     | Watford City ND          |    20 |   1.05 |        |         |
-|       60 | Amanda Kimmel       | Indianapolis IN Lakeview |    10 |   0.53 |        |         |
-| **60\*** | Weston Melby        | Watford City ND          |    10 |   0.53 |        |         |
-| **60\*** | Britney Mason       | Jacksonville AR          |    10 |   0.53 |        |         |
-|       63 | Andrew Leigh        | Jacksonville FL          |     5 |   0.26 |        |         |
-|       64 | Karissa Allshouse   | Lynden WA                |     0 |      0 |        |         |
-| **64\*** | Allon Loven         | St. Cloud MN             |     0 |      0 |        |         |
-| **64\*** | Troy Stahmann       | Fond du Lac WI           |     0 |      0 |        |         |
-| **64\*** | Aaron Angeloff      | Savannah GA              |     0 |      0 |        |         |
-| **64\*** | Kyle Heyne          | Orlando FL               |     0 |      0 |        |         |
-| **64\*** | Shea Stewart        | Jacksonville AR          |     0 |      0 |        |         |
-| **64\*** | Micah Dwire         | Colorado Springs CO #2   |     0 |      0 |        |         |
-| **64\*** | Russell Rodden      | Murfreesboro TN          |     0 |      0 |        |         |
-| **64\*** | Chris Jensen        | Murfreesboro TN          |     0 |      0 |        |         |
-| **64\*** | Ashley Torbert      | Orange TX                |     0 |      0 |        |         |
-|       74 | Caleb Turnage       | Fond du Lac WI           |    -5 |  -0.26 |        |         |
-|       75 | Lance Witcher       | Jacksonville AR          |   -20 |  -1.05 |        |       8 |
+|     Rank | Quizzer             | Church                   | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ------------------- | ------------------------ | ----: | -----: | -----: | ----: |
+|        1 | Chad Crawford       | Jacksonville FL          |  2215 | 116.58 |     15 |     1 |
+|        2 | Sara Sobkoviak      | Fort Myers FL            |  2105 | 110.79 |     14 |     3 |
+|        3 | Brandon Duffy       | Seattle WA               |  1735 |  91.32 |      8 |     3 |
+|        4 | Bethany Laakkonen   | Savannah GA              |  1375 |  72.37 |      8 |     2 |
+|        5 | Amy Summers         | Noble OK                 |  1335 |  70.26 |      8 |     1 |
+|        6 | Naomi Meyer         | Lynden WA                |  1315 |  69.21 |     11 |     1 |
+|        7 | Isaiah Hunter       | Hermitage PA             |  1145 |  60.26 |      7 |     4 |
+|        8 | Bryce Steel         | Toledo OH                |  1115 |  58.68 |      5 |     8 |
+|        9 | Cody Conway         | Orange TX                |  1100 |  57.89 |     11 |     4 |
+|       10 | Brennen DeFazio     | Hermitage PA             |  1020 |  53.68 |      3 |     1 |
+|       11 | Zachary Schaalma    | Fond du Lac WI           |  1010 |  53.16 |      4 |     1 |
+|       12 | Mariana Shenoda     | Santa Ana CA             |  1000 |  52.63 |      6 |     7 |
+|       13 | Lauryn Duffy        | Seattle WA               |  1000 |  52.63 |      7 |     1 |
+|       14 | Maris Naylor        | Orange TX                |   970 |  51.05 |      1 |     7 |
+|       15 | Andrew Kelley       | Colorado Springs CO #2   |   925 |  48.68 |      9 |     5 |
+|       16 | Jimmy Sedam         | Indianapolis IN Lakeview |   900 |  47.37 |      5 |     6 |
+|       17 | Mia Angelakos       | Orlando FL               |   870 |  45.79 |      3 |     5 |
+|       18 | Rachel May          | Cedar Rapids IA          |   820 |  43.16 |      2 |     1 |
+|       19 | Chris Harrelson     | Murfreesboro TN          |   795 |  41.84 |      1 |     5 |
+|       20 | Trevor Eastin       | Mesa AZ                  |   775 |  40.79 |        |     1 |
+|       21 | Carrie Ball         | Indianapolis IN Lakeview |   770 |  40.53 |      2 |     6 |
+|       22 | Travis Porter       | Jacksonville FL          |   765 |  40.26 |      3 |     5 |
+|       23 | Alicia Morken       | Watford City ND          |   710 |  37.37 |      2 |     5 |
+|       24 | Courtney Popineau   | Colorado Springs CO #2   |   695 |  36.58 |        |     3 |
+|       25 | Elyssa DeFazio      | Hermitage PA             |   680 |  35.79 |      4 |     2 |
+|       26 | Krissy Welborn      | Fort Myers FL            |   660 |  34.74 |      5 |     3 |
+|       27 | Teresa Henderson    | St. Cloud MN             |   655 |  34.47 |        |     5 |
+|       28 | Rebekah May         | Cedar Rapids IA          |   625 |  32.89 |      4 |     2 |
+|       29 | Brandy Steel        | Toledo OH                |   620 |  32.63 |      2 |     1 |
+|       30 | Megan Gates         | Noble OK                 |   585 |  30.79 |        |       |
+|       31 | Michelle Hart       | Orlando FL               |   575 |  30.26 |        |     4 |
+|       32 | Melissa Henderson   | St. Cloud MN             |   485 |  25.53 |      1 |     1 |
+|       33 | Jacob Turnage       | Fond du Lac WI           |   465 |  24.47 |        |       |
+|       34 | Kristen Prabhudas   | Indianapolis IN Lakeview |   440 |  23.16 |      1 |     1 |
+|       35 | Titus Stenberg      | Watford City ND          |   405 |  21.32 |      1 |     5 |
+|       36 | Andrea Boyer        | Fond du Lac WI           |   405 |  21.32 |        |       |
+|       37 | Brandyn Shepherd    | Mesa AZ                  |   395 |  20.79 |        |       |
+|       38 | Bailey Steel        | Toledo OH                |   370 |  19.47 |      1 |     2 |
+|       39 | Christina Angelakos | Orlando FL               |   330 |  17.37 |        |       |
+|       40 | Rebecca Jensen      | Murfreesboro TN          |   325 |  17.11 |        |     1 |
+|       41 | Jacob Dwire         | Colorado Springs CO #2   |   300 |  15.79 |      1 |     1 |
+|       42 | Brittany Laakkonen  | Savannah GA              |   290 |  15.26 |        |       |
+|       43 | James Pryer         | Santa Ana CA             |   250 |  13.16 |        |     1 |
+|       44 | Cameron Eastin      | Mesa AZ                  |   230 |  12.11 |      1 |     4 |
+|       45 | Ryan Osugi          | Mesa AZ                  |   225 |  11.84 |        |       |
+|       46 | Jared Burkhalter    | Orlando FL               |   195 |  10.26 |        |       |
+|       47 | Michael Hooper      | Murfreesboro TN          |   130 |   6.84 |        |       |
+|       48 | Jordan Smith        | Noble OK                 |   125 |   6.58 |        |     1 |
+|       49 | Stephanie Johnson   | Savannah GA              |   120 |   6.32 |        |       |
+|       50 | Michael Scott       | Lynden WA                |   115 |   6.05 |        |       |
+|       51 | Aaron Maxey         | Jacksonville AR          |    95 |      5 |        |       |
+|       52 | Alberto Oquendo     | Orlando FL               |    60 |   3.16 |        |       |
+|       53 | Katie Kuroishi      | Santa Ana CA             |    55 |   2.89 |        |       |
+|       54 | Austin McCutcheon   | Jacksonville FL          |    55 |   2.89 |        |       |
+|       55 | Kimberly Brinzda    | Hermitage PA             |    50 |   2.63 |        |       |
+|       56 | Leanne Maxey        | Jacksonville AR          |    30 |   1.58 |        |       |
+|       57 | Alex Taylor         | Jacksonville AR          |    25 |   1.32 |        |       |
+|       58 | Mary Pryer          | Santa Ana CA             |    20 |   1.05 |        |       |
+| **58\*** | Bonnie Packineu     | Watford City ND          |    20 |   1.05 |        |       |
+|       60 | Amanda Kimmel       | Indianapolis IN Lakeview |    10 |   0.53 |        |       |
+| **60\*** | Weston Melby        | Watford City ND          |    10 |   0.53 |        |       |
+| **60\*** | Britney Mason       | Jacksonville AR          |    10 |   0.53 |        |       |
+|       63 | Andrew Leigh        | Jacksonville FL          |     5 |   0.26 |        |       |
+|       64 | Karissa Allshouse   | Lynden WA                |     0 |      0 |        |       |
+| **64\*** | Allon Loven         | St. Cloud MN             |     0 |      0 |        |       |
+| **64\*** | Troy Stahmann       | Fond du Lac WI           |     0 |      0 |        |       |
+| **64\*** | Aaron Angeloff      | Savannah GA              |     0 |      0 |        |       |
+| **64\*** | Kyle Heyne          | Orlando FL               |     0 |      0 |        |       |
+| **64\*** | Shea Stewart        | Jacksonville AR          |     0 |      0 |        |       |
+| **64\*** | Micah Dwire         | Colorado Springs CO #2   |     0 |      0 |        |       |
+| **64\*** | Russell Rodden      | Murfreesboro TN          |     0 |      0 |        |       |
+| **64\*** | Chris Jensen        | Murfreesboro TN          |     0 |      0 |        |       |
+| **64\*** | Ashley Torbert      | Orange TX                |     0 |      0 |        |       |
+|       74 | Caleb Turnage       | Fond du Lac WI           |    -5 |  -0.26 |        |       |
+|       75 | Lance Witcher       | Jacksonville AR          |   -20 |  -1.05 |        |     8 |
 
 ## Preliminaries
 
 ### Group A
 
-| Rank | Team                                             | Record | Total |
+|    # | Team                                             | Record | Total |
 | ---: | ------------------------------------------------ | ------ | ----: |
 |    1 | Living Waters Chapel, Lebanon, PA                | 7 / 0  |  1170 |
 |    2 | Christian Chapel, Tulsa, OK                      | 5 / 2  |   815 |
@@ -262,7 +262,7 @@ The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey
 
 ### Group B
 
-| Rank | Team                                          | Record | Total |
+|    # | Team                                          | Record | Total |
 | ---: | --------------------------------------------- | ------ | ----: |
 |    1 | Calvary Church, Naperville, IL                | 6 / 1  |  1145 |
 |    2 | James River A/G, Ozark, MO                    | 6 / 1  |  1090 |
@@ -275,7 +275,7 @@ The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey
 
 ### Group C
 
-| Rank | Team                                             | Record | Total |
+|    # | Team                                             | Record | Total |
 | ---: | ------------------------------------------------ | ------ | ----: |
 |    1 | Cornerstone A/G, Bowie, MD                       | 6 / 1  |  1085 |
 |    2 | Bethel Christian Life Center, West Lafayette, IN | 6 / 1  |   980 |
@@ -288,7 +288,7 @@ The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey
 
 ### Group D
 
-| Rank | Team                                            | Record | Total |
+|    # | Team                                            | Record | Total |
 | ---: | ----------------------------------------------- | ------ | ----: |
 |    1 | Calvary Temple, Indianapolis, IN                | 6 / 1  |  1190 |
 |    2 | Braeswood A/G, Houston, TX                      | 5 / 2  |  1130 |

@@ -16,18 +16,18 @@ menubar_toc_static:
 
 ### Teams
 
-| Team               | Wins | Losses |    Avg |
-| ------------------ | ---: | -----: | -----: |
-| Dakota Quiz Boys   |   12 |      0 | 221.67 |
-| The Other Team     |   10 |      2 | 158.75 |
-| 4 Anchors          |   10 |      2 | 127.50 |
-| Tongues of Fire    |    8 |      4 |  96.67 |
-| The Acts Pack      |    7 |      5 |  76.25 |
-| Dakota Quiz Girls  |    6 |      6 | 102.50 |
-| So Annoyed         |    6 |      6 | 101.67 |
-| Driving You Insane |    5 |      7 |  93.75 |
-| Northern Indiana   |    5 |      7 |  42.92 |
-| Acts 3:17          |    0 |     12 |  10.42 |
+| Team               |    W |    L |    Avg |
+| ------------------ | ---: | ---: | -----: |
+| Dakota Quiz Boys   |   12 |    0 | 221.67 |
+| The Other Team     |   10 |    2 | 158.75 |
+| 4 Anchors          |   10 |    2 | 127.50 |
+| Tongues of Fire    |    8 |    4 |  96.67 |
+| The Acts Pack      |    7 |    5 |  76.25 |
+| Dakota Quiz Girls  |    6 |    6 | 102.50 |
+| So Annoyed         |    6 |    6 | 101.67 |
+| Driving You Insane |    5 |    7 |  93.75 |
+| Northern Indiana   |    5 |    7 |  42.92 |
+| Acts 3:17          |    0 |   12 |  10.42 |
 
 ### Individuals
 
@@ -66,11 +66,11 @@ menubar_toc_static:
 
 ### Teams
 
-| Team             | Wins | Losses |    Avg |
-| ---------------- | ---: | -----: | -----: |
-| Dakota Quiz B    |    6 |      6 | 100.00 |
-| New Song         |    2 |     10 |  25.42 |
-| Golden Believers |    1 |     11 |  27.50 |
+| Team             |    W |    L |    Avg |
+| ---------------- | ---: | ---: | -----: |
+| Dakota Quiz B    |    6 |    6 | 100.00 |
+| New Song         |    2 |   10 |  25.42 |
+| Golden Believers |    1 |   11 |  27.50 |
 
 ### Individuals
 

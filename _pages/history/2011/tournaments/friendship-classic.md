@@ -16,16 +16,16 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                       | Wins | Losses | Total |
-| ---: | ------------------------------------------ | ---: | -----: | ----: |
-|    1 | Victorious Life Church, Wesley Chapel, FL* |    7 |      1 |  1550 |
-|    2 | Owasso First Assembly, Owasso, OK*         |    6 |      2 |  1500 |
-|    3 | Praise A/G, Garfield, NJ                   |    5 |      2 |  1155 |
-|    4 | James River, Ozark, MO, Bread of Life      |    4 |      3 |  1165 |
-|    5 | First A/G, Binghamton, NY                  |    3 |      4 |   995 |
-|    6 | Central A/G, Springfield, MO               |    3 |      4 |   980 |
-|    7 | Dayspring A/G, Bowling Green, OH           |    1 |      6 |   755 |
-|    8 | Word of Life A/G, Springfield, VA          |    0 |      7 |   525 |
+|    # | Team                                       |    W |    L | Total |
+| ---: | ------------------------------------------ | ---: | ---: | ----: |
+|    1 | Victorious Life Church, Wesley Chapel, FL* |    7 |    1 |  1550 |
+|    2 | Owasso First Assembly, Owasso, OK*         |    6 |    2 |  1500 |
+|    3 | Praise A/G, Garfield, NJ                   |    5 |    2 |  1155 |
+|    4 | James River, Ozark, MO, Bread of Life      |    4 |    3 |  1165 |
+|    5 | First A/G, Binghamton, NY                  |    3 |    4 |   995 |
+|    6 | Central A/G, Springfield, MO               |    3 |    4 |   980 |
+|    7 | Dayspring A/G, Bowling Green, OH           |    1 |    6 |   755 |
+|    8 | Word of Life A/G, Springfield, VA          |    0 |    7 |   525 |
 
 \* Victorious Life beat Owasso in Playoff
 
@@ -69,16 +69,16 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                       | Wins | Losses | Total |
-| ---: | ------------------------------------------ | ---: | -----: | ----: |
-|    1 | Christian Temple, Houston, TX              |    7 |      0 |  1180 |
-|    2 | James River , Ozark, MO, Nothing False*    |    5 |      2 |   835 |
-|    3 | Overland Park A/G, Overland Park, KS*      |    5 |      2 |   845 |
-|    4 | Living Hope Worship Center, Swedesboro, NJ |    3 |      4 |   870 |
-|    5 | Manassas A/G, Bristow, VA                  |    3 |      4 |   805 |
-|    6 | Journey Church, Bridgeville, PA            |    2 |      5 |   685 |
-|    7 | First A/G, Lexington, KY "Karen"           |    2 |      5 |   410 |
-|    8 | Richmond Hills A/G, Bethlehem, NY          |    1 |      6 |   565 |
+|    # | Team                                       |    W |    L | Total |
+| ---: | ------------------------------------------ | ---: | ---: | ----: |
+|    1 | Christian Temple, Houston, TX              |    7 |    0 |  1180 |
+|    2 | James River , Ozark, MO, Nothing False*    |    5 |    2 |   835 |
+|    3 | Overland Park A/G, Overland Park, KS*      |    5 |    2 |   845 |
+|    4 | Living Hope Worship Center, Swedesboro, NJ |    3 |    4 |   870 |
+|    5 | Manassas A/G, Bristow, VA                  |    3 |    4 |   805 |
+|    6 | Journey Church, Bridgeville, PA            |    2 |    5 |   685 |
+|    7 | First A/G, Lexington, KY "Karen"           |    2 |    5 |   410 |
+|    8 | Richmond Hills A/G, Bethlehem, NY          |    1 |    6 |   565 |
 
 \* James River beat Overland
 
@@ -120,16 +120,16 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                         | Wins | Losses | Total |
-| ---: | -------------------------------------------- | ---: | -----: | ----: |
-|    1 | First A/G, Montgomery, AL*                   |    6 |      1 |  1135 |
-|    2 | Orange County First Assembly, Santa Ana, CA* |    5 |      2 |   925 |
-|    3 | First A/G, Lexington, KY "Patty"**           |    5 |      2 |   820 |
-|    4 | Walnut Grove A/G, West Mifflin, PA**         |    5 |      2 |   900 |
-|    5 | Lakeview, Indianapolis, IN                   |    4 |      3 |   760 |
-|    6 | First A/G of Greater Lansing, MI             |    2 |      5 |   380 |
-|    7 | Northeast BQ Team MA/PA                      |    1 |      6 |   375 |
-|    8 | South Hills A/G, Bethel Park, PA             |    0 |      7 |   375 |
+|    # | Team                                         |    W |    L | Total |
+| ---: | -------------------------------------------- | ---: | ---: | ----: |
+|    1 | First A/G, Montgomery, AL*                   |    6 |    1 |  1135 |
+|    2 | Orange County First Assembly, Santa Ana, CA* |    5 |    2 |   925 |
+|    3 | First A/G, Lexington, KY "Patty"**           |    5 |    2 |   820 |
+|    4 | Walnut Grove A/G, West Mifflin, PA**         |    5 |    2 |   900 |
+|    5 | Lakeview, Indianapolis, IN                   |    4 |    3 |   760 |
+|    6 | First A/G of Greater Lansing, MI             |    2 |    5 |   380 |
+|    7 | Northeast BQ Team MA/PA                      |    1 |    6 |   375 |
+|    8 | South Hills A/G, Bethel Park, PA             |    0 |    7 |   375 |
 
 \* Orange County First Assembly beat Walnut Grove and Lexington\
 \*\* Lexington beat Walnut Grove

@@ -14,7 +14,7 @@ menubar_toc_static:
 
 ## Teams
 
-| Rank | Team                                         | Record | Total |  Avg |
+|    # | Team                                         | Record | Total |  Avg |
 | ---: | -------------------------------------------- | ------ | ----: | ---: |
 |    1 | Glad Tidings A/G, West Lawn, Pa.             | 8-1    | 1,855 |  206 |
 |    2 | South Hills A/G, Bethel Park,Pa.             | 7-2    | 1,745 |  194 |
@@ -29,7 +29,7 @@ menubar_toc_static:
 
 ## Top Scorers
 
-| Rank | Quizzer               | Team                                    | Total |   QO |
+|    # | Quizzer               | Team                                    | Total |   QO |
 | ---: | --------------------- | --------------------------------------- | ----: | ---: |
 |    1 | Cara Rozgonyi         | South Hills A/G, Bethel Park, Pa.       | 1,100 |    7 |
 |    2 | Kendra Willman        | Glad Tidings A/G, West Lawn, Pa.        |   805 |    3 |

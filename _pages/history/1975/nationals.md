@@ -29,7 +29,7 @@ For more memories of this event, please read an account by Pen. Florida District
 
 ### Teams
 
-| Rank | Team                            | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                            | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | ------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | Assembly of God, New Sharon, IA | 7-0    |  1225 |    175 |    585 |      83.57 |
 |    2 | Assembly of God, Ebony, VA      | 5-2    |  1085 |    155 |    440 |      62.86 |

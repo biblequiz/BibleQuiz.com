@@ -35,25 +35,25 @@ The top scorer at the 1987 National Finals was Tammy Yost of First A/G, Branford
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                                         | Record | Total | Avg    | Margin | Avg Margin |
-|-----:|----------------------------------------------|--------|------:|-------:|-------:|-----------:|
-| 1    | First A/G, Tempe, AZ                         | 14 / 2 | 2980  | 186.25 | 1685   | 105.31     |
-| 2    | Eastside A/G, Tucson, AZ*                    | 12 / 4 | 3040  | 190    | 1680   | 105        |
-| 3    | Central A/G, Springfield, MO                 | 12 / 4 | 2560  | 160    | 1205   | 75.31      |
-| 4    | Evangel A/G, Wichita, KS                     | 12 / 4 | 2750  | 171.88 | 1040   | 65         |
-| 5    | Christian Life Center, Farmington, MN        | 12 / 4 | 2520  | 157.5  | 810    | 50.63      |
-| 6    | First A/G, Bartlesville, OK                  | 11 / 5 | 2375  | 148.44 | 770    | 48.13      |
-| 7    | Valley Christian A/G, Fall City, WA          | 11 / 5 | 2005  | 125.31 | 415    | 25.94      |
-| 8    | Lanierland Christian Center, Murrayville, GA | 9 / 7  | 2000  | 125    | 115    | 7.13       |
-| 9    | First A/G, Hibbing, MN                       | 8 / 8  | 1960  | 122.5  | -25    | -1.56      |
-| 10   | Evangel Temple, Princeton, IN                | 7 / 9  | 1540  | 96.25  | -540   | -33.75     |
-| 11   | Central A/G, Boise, ID                       | 6 / 10 | 1545  | 96.56  | -905   | -56.56     |
-| 12   | First A/G, Branford, CT                      | 5 / 11 | 1970  | 123.13 | -355   | -22.18     |
-| 13   | Evangel Community Church, Decatur, GA        | 5 / 11 | 1445  | 90.31  | -510   | -31.88     |
-| 14   | Family Worship Center, Baton Rouge, LA       | 4 / 12 | 1140  | 71.25  | -1210  | -75.63     |
-| 15   | Hempstead A/G, Hempstead, NY                 | 4 / 12 | 1330  | 83.13  | -875   | -54.69     |
-| 16   | St. Clair Shores A/G, St. Clair Shores, MI   | 3 / 13 | 1250  | 78.13  | -1050  | -65.63     |
-| 17   | Bethel A/G, Jacksonville, NC                 | 1 / 15 | 685   | 42.81  | -2095  | -130.94    |
+|    # | Team                                         | Record | Total |    Avg | Margin | Avg Margin |
+| ---: | -------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
+|    1 | First A/G, Tempe, AZ                         | 14 / 2 |  2980 | 186.25 |   1685 |     105.31 |
+|    2 | Eastside A/G, Tucson, AZ*                    | 12 / 4 |  3040 |    190 |   1680 |        105 |
+|    3 | Central A/G, Springfield, MO                 | 12 / 4 |  2560 |    160 |   1205 |      75.31 |
+|    4 | Evangel A/G, Wichita, KS                     | 12 / 4 |  2750 | 171.88 |   1040 |         65 |
+|    5 | Christian Life Center, Farmington, MN        | 12 / 4 |  2520 |  157.5 |    810 |      50.63 |
+|    6 | First A/G, Bartlesville, OK                  | 11 / 5 |  2375 | 148.44 |    770 |      48.13 |
+|    7 | Valley Christian A/G, Fall City, WA          | 11 / 5 |  2005 | 125.31 |    415 |      25.94 |
+|    8 | Lanierland Christian Center, Murrayville, GA | 9 / 7  |  2000 |    125 |    115 |       7.13 |
+|    9 | First A/G, Hibbing, MN                       | 8 / 8  |  1960 |  122.5 |    -25 |      -1.56 |
+|   10 | Evangel Temple, Princeton, IN                | 7 / 9  |  1540 |  96.25 |   -540 |     -33.75 |
+|   11 | Central A/G, Boise, ID                       | 6 / 10 |  1545 |  96.56 |   -905 |     -56.56 |
+|   12 | First A/G, Branford, CT                      | 5 / 11 |  1970 | 123.13 |   -355 |     -22.18 |
+|   13 | Evangel Community Church, Decatur, GA        | 5 / 11 |  1445 |  90.31 |   -510 |     -31.88 |
+|   14 | Family Worship Center, Baton Rouge, LA       | 4 / 12 |  1140 |  71.25 |  -1210 |     -75.63 |
+|   15 | Hempstead A/G, Hempstead, NY                 | 4 / 12 |  1330 |  83.13 |   -875 |     -54.69 |
+|   16 | St. Clair Shores A/G, St. Clair Shores, MI   | 3 / 13 |  1250 |  78.13 |  -1050 |     -65.63 |
+|   17 | Bethel A/G, Jacksonville, NC                 | 1 / 15 |   685 |  42.81 |  -2095 |    -130.94 |
 
 \* Won 2nd Place Playoff
 

@@ -33,16 +33,16 @@ Complete records for this event, including round by round scores and top quizzer
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                                 | Record | Total | Avg    | Margin | Avg Margin |
-|-----:|--------------------------------------|--------|------:|-------:|-------:|-----------:|
-| 1    | Evangel Temple A/G, Decatur, GA      | 7 / 0  | 1325  | 189.29 | 825    | 117.86     |
-| 2    | Calvary Temple A/G, Riverside, CA*   | 4 / 3  | 825   | 117.86 | -20    | -2.86      |
-| 3    | Pasadena A/G, Pasadena, MD           | 4 / 3  | 960   | 137.14 | -10    | -1.43      |
-| 4    | Trinity A/G, Bastrop, LA             | 4 / 3  | 840   | 120    | 145    | 20.71      |
-| 5    | Northridge A/G, Dayton, OH           | 3 / 4  | 970   | 138.57 | 180    | 25.71      |
-| 6    | Fletcher A/G, Fletcher, OK           | 3 / 4  | 760   | 108.57 | -95    | -13.57     |
-| 7    | Evergreen Christian A/G, Olympia, WA | 2 / 5  | 675   | 96.43  | -455   | -65        |
-| 8    | Bethel Tabernacle A/G, Milwaukee, WI | 1 / 6  | 600   | 85.71  | -570   | -81.43     |
+|    # | Team                                 | Record | Total |    Avg | Margin | Avg Margin |
+| ---: | ------------------------------------ | ------ | ----: | -----: | -----: | ---------: |
+|    1 | Evangel Temple A/G, Decatur, GA      | 7 / 0  |  1325 | 189.29 |    825 |     117.86 |
+|    2 | Calvary Temple A/G, Riverside, CA*   | 4 / 3  |   825 | 117.86 |    -20 |      -2.86 |
+|    3 | Pasadena A/G, Pasadena, MD           | 4 / 3  |   960 | 137.14 |    -10 |      -1.43 |
+|    4 | Trinity A/G, Bastrop, LA             | 4 / 3  |   840 |    120 |    145 |      20.71 |
+|    5 | Northridge A/G, Dayton, OH           | 3 / 4  |   970 | 138.57 |    180 |      25.71 |
+|    6 | Fletcher A/G, Fletcher, OK           | 3 / 4  |   760 | 108.57 |    -95 |     -13.57 |
+|    7 | Evergreen Christian A/G, Olympia, WA | 2 / 5  |   675 |  96.43 |   -455 |        -65 |
+|    8 | Bethel Tabernacle A/G, Milwaukee, WI | 1 / 6  |   600 |  85.71 |   -570 |     -81.43 |
 
 \* At the end of round-robin competition the team from Evangel Temple A/G, Decatur, GA was first, and there was a playoff for second place among Calvary Temple A/G, Riverside, CA, Pasadena A/G, Pasadena, MD, and Trinity A/G, Bastrop, LA. According to point total, Pasadena A/G, Pasadena, MD drew a bye in the first playoff round, and Calvary Temple A/G, Riverside, CA won the match with Trinity A/G, Bastrop, LA. In the second playoff round, Calvary Temple A/G, Riverside, CA won the match with Pasadena A/G, Pasadena, MD. Therefore the team from Calvary Temple A/G, Riverside, CA was second, the team from Pasadena A/G, Pasadena, MD was third, and the team from Trinity A./G, Bastrop, LA was fourth.
 
@@ -53,7 +53,7 @@ Complete records for this event, including round by round scores and top quizzer
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Quizzer       | Church                               | Total |   Avg |
+|    # | Quizzer       | Church                               | Total |   Avg |
 | ---: | ------------- | ------------------------------------ | ----: | ----: |
 |    1 | Ronnie Wright | Evangel Temple A/G, Decatur, GA      |   665 |    95 |
 |    2 | Greg Kelley   | Northridge A/G, Dayton, OH           |   660 | 94.29 |

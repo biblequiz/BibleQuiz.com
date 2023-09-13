@@ -18,24 +18,24 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
-|    # | Team                                       | Church             |        AG Placement | W\L AG |  W\L | Total |    Avg |
-| ---: | ------------------------------------------ | ------------------ | ------------------: | -----: | ---: | ----: | -----: |
-|    1 | Pocono Community Church "Ferocious Sheep"  | Mt. Pocono, PA     |     1st-Won PlayOff |   11\2 | 13\2 |  2880 | 192.00 |
-|    2 | Bethlehem Church                           | Richmond HIll, NY  |    2nd-Lost PlayOff |   11\2 | 12\3 |  2300 | 153.33 |
-|    3 | South Hills A/G "Ferocious Sheep"          | Bethel Park, PA    |                 3rd |   10\3 | 12\3 |  2595 | 173.00 |
-|    4 | Redeemer Church                            | Utica, NY          |                  NA |     NA | 12\3 |  2840 | 189.33 |
-|    5 | Living Hope Worship Center "The Real Deal" | Swedesboro, NJ     |                 4th |    9\4 | 10\5 |  2230 | 148.67 |
-|    6 | Journey A/G"Saltiness"                     | Bridgeville, PA    |     5th-Won PlayOff |    8\5 | 10\5 |  2185 | 145.67 |
-|    7 | Bethany Church                             | Wyckoff, NJ        |    6th-Lost PlayOff |    8\5 |  9\6 |  1885 | 125.67 |
-|    8 | Vailsburg A/G "Cheesers and Shavers"       | Newark, NJ         |   7th-Won Head-Head |    7\6 |  8\7 |  1870 | 124.67 |
-|    9 | Word of Life Assembly                      | Springfield, VA    |  8th-Lost Head-Head |    7\6 |  8\7 |  1500 | 100.00 |
-|   10 | Newport A/G "Midnight Cry"                 | Newport, PA        |   9th-Won Head-Head |    5\8 |  6\9 |  1020 |  68.00 |
-|   11 | First Assembly of God                      | Binghamton, NY     | 10th-Lost Head-Head |    5\8 |  6\9 |  1810 | 120.67 |
-|   12 | First A/G "Seventy-Seven Times"            | Wilkes-Barre, PA   |   11th 2-0 in Group |   3\10 | 4\11 |  1290 |  86.00 |
-|   13 | Mechanicsville Christian Center            | Mechanicsville, VA |   12th 1-1 in Group |   3\10 | 4\11 |  1040 |  69.33 |
-|   14 | Manassas Assembly of God                   | Bristow, VA        |   13th 0-2 in Group |   3\10 | 4\11 |  1030 |  68.67 |
-|   15 | Grace Assembly of God                      | Syracuse, NY       |                14th |   1\12 | 2\13 |   630 |  42.00 |
-|   16 | Prince of Peace Christian Church           | Sanford, ME        |                  NA |     NA | 0\15 |   200 |  13.33 |
+|    # | Team                                       | Church             |        AG Placement | W (AG) | L (AG) |    W |    L | Total |    Avg |
+| ---: | ------------------------------------------ | ------------------ | ------------------: | -----: | -----: | ---: | ---: | ----: | -----: |
+|    1 | Pocono Community Church "Ferocious Sheep"  | Mt. Pocono, PA     |     1st-Won PlayOff |     11 |      2 |   13 |    2 |  2880 | 192.00 |
+|    2 | Bethlehem Church                           | Richmond HIll, NY  |    2nd-Lost PlayOff |     11 |      2 |   12 |    3 |  2300 | 153.33 |
+|    3 | South Hills A/G "Ferocious Sheep"          | Bethel Park, PA    |                 3rd |     10 |      3 |   12 |    3 |  2595 | 173.00 |
+|    4 | Redeemer Church                            | Utica, NY          |                  NA |     NA |     NA |   12 |    3 |  2840 | 189.33 |
+|    5 | Living Hope Worship Center "The Real Deal" | Swedesboro, NJ     |                 4th |      9 |      4 |   10 |    5 |  2230 | 148.67 |
+|    6 | Journey A/G"Saltiness"                     | Bridgeville, PA    |     5th-Won PlayOff |      8 |      5 |   10 |    5 |  2185 | 145.67 |
+|    7 | Bethany Church                             | Wyckoff, NJ        |    6th-Lost PlayOff |      8 |      5 |    9 |    6 |  1885 | 125.67 |
+|    8 | Vailsburg A/G "Cheesers and Shavers"       | Newark, NJ         |   7th-Won Head-Head |      7 |      6 |    8 |    7 |  1870 | 124.67 |
+|    9 | Word of Life Assembly                      | Springfield, VA    |  8th-Lost Head-Head |      7 |      6 |    8 |    7 |  1500 | 100.00 |
+|   10 | Newport A/G "Midnight Cry"                 | Newport, PA        |   9th-Won Head-Head |      5 |      8 |    6 |    9 |  1020 |  68.00 |
+|   11 | First Assembly of God                      | Binghamton, NY     | 10th-Lost Head-Head |      5 |      8 |    6 |    9 |  1810 | 120.67 |
+|   12 | First A/G "Seventy-Seven Times"            | Wilkes-Barre, PA   |   11th 2-0 in Group |      3 |     10 |    4 |   11 |  1290 |  86.00 |
+|   13 | Mechanicsville Christian Center            | Mechanicsville, VA |   12th 1-1 in Group |      3 |     10 |    4 |   11 |  1040 |  69.33 |
+|   14 | Manassas Assembly of God                   | Bristow, VA        |   13th 0-2 in Group |      3 |     10 |    4 |   11 |  1030 |  68.67 |
+|   15 | Grace Assembly of God                      | Syracuse, NY       |                14th |      1 |     12 |    2 |   13 |   630 |  42.00 |
+|   16 | Prince of Peace Christian Church           | Sanford, ME        |                  NA |     NA |     NA |    0 |   15 |   200 |  13.33 |
 
 ### Individuals
 
@@ -109,24 +109,24 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
-|    # | Team                                        | Church           |  W\L | Tie Breaker    | Total |    Avg |
-| ---: | ------------------------------------------- | ---------------- | ---: | -------------- | ----: | -----: |
-|    1 | Vailsburg A/G "Hungry and Thirsty"          | Newark, NJ       | 13\2 |                |  2690 | 179.33 |
-|    2 | South Hills A/G "UnquenchableFire"          | Bethel Park, PA  | 12\3 | Won Head-Head  |  2655 | 177.00 |
-|    3 | Evangel Heights A/G "Matthews Angels"       | Sarver, PA       | 12\3 | Lost Head-Head |  2505 | 167.00 |
-|    4 | Christian Life A/G "Path Finders"           | Chambersburg, PA | 11\4 | Won Head-Head  |  2565 | 171.00 |
-|    5 | Pocono Community Church "Midnight Shadows"  | Mt Pocono, PA    | 11\4 | Lost Head-Head |  2615 | 174.33 |
-|    6 | Bethany Church "Pearl of Great Price"       | Wyckoff, NJ      | 10\5 |                |  2525 | 168.33 |
-|    7 | South Hills A/G "Blessed Wings of Faith"    | Bethel Park, PA  |  9\6 |                |  2540 | 169.33 |
-|    8 | Cornerstone A/G                             | Bouie, MD        |  8\7 | Won Head-Head  |  2180 | 145.33 |
-|    9 | Fountain of Life Center                     | Burlington, NJ   |  8\7 | Lost Head-Head |  2395 | 159.67 |
-|   10 | Allison Park A/G "Mustard Seeds"            | Allison Park PA  |  7\8 |                |  2390 | 159.33 |
-|   11 | Living Hope Worship Center "The Two Rebels" | Swedesboro, NJ   |  6\9 |                |  1925 | 128.33 |
-|   12 | Maple Lane Assembly of God                  | Deposit, NY      | 4\11 | Won Head-Head  |  1735 | 115.67 |
-|   13 | First A/G                                   | Binghamton, NY   | 4\11 | Lost Head-Head |  1215 |  81.00 |
-|   14 | Word of Life A/G                            | Springfield, VA  | 3\12 |                |  1535 | 102.33 |
-|   15 | Prince of Peace Church                      | Sanford,ME       | 1\14 | Won Head-Head  |   355 |  23.67 |
-|   16 | Kennebec Valley A/G                         | Chelsea, ME      | 1\14 | Lost Head-Head |   915 |  61.00 |
+|    # | Team                                        | Church           |    W |    L | Tiebreaker     | Total |    Avg |
+| ---: | ------------------------------------------- | ---------------- | ---: | ---: | -------------- | ----: | -----: |
+|    1 | Vailsburg A/G "Hungry and Thirsty"          | Newark, NJ       |   13 |    2 |                |  2690 | 179.33 |
+|    2 | South Hills A/G "UnquenchableFire"          | Bethel Park, PA  |   12 |    3 | Won Head-Head  |  2655 | 177.00 |
+|    3 | Evangel Heights A/G "Matthews Angels"       | Sarver, PA       |   12 |    3 | Lost Head-Head |  2505 | 167.00 |
+|    4 | Christian Life A/G "Path Finders"           | Chambersburg, PA |   11 |    4 | Won Head-Head  |  2565 | 171.00 |
+|    5 | Pocono Community Church "Midnight Shadows"  | Mt Pocono, PA    |   11 |    4 | Lost Head-Head |  2615 | 174.33 |
+|    6 | Bethany Church "Pearl of Great Price"       | Wyckoff, NJ      |   10 |    5 |                |  2525 | 168.33 |
+|    7 | South Hills A/G "Blessed Wings of Faith"    | Bethel Park, PA  |    9 |    6 |                |  2540 | 169.33 |
+|    8 | Cornerstone A/G                             | Bouie, MD        |    8 |    7 | Won Head-Head  |  2180 | 145.33 |
+|    9 | Fountain of Life Center                     | Burlington, NJ   |    8 |    7 | Lost Head-Head |  2395 | 159.67 |
+|   10 | Allison Park A/G "Mustard Seeds"            | Allison Park PA  |    7 |    8 |                |  2390 | 159.33 |
+|   11 | Living Hope Worship Center "The Two Rebels" | Swedesboro, NJ   |    6 |    9 |                |  1925 | 128.33 |
+|   12 | Maple Lane Assembly of God                  | Deposit, NY      |    4 |   11 | Won Head-Head  |  1735 | 115.67 |
+|   13 | First A/G                                   | Binghamton, NY   |    4 |   11 | Lost Head-Head |  1215 |  81.00 |
+|   14 | Word of Life A/G                            | Springfield, VA  |    3 |   12 |                |  1535 | 102.33 |
+|   15 | Prince of Peace Church                      | Sanford,ME       |    1 |   14 | Won Head-Head  |   355 |  23.67 |
+|   16 | Kennebec Valley A/G                         | Chelsea, ME      |    1 |   14 | Lost Head-Head |   915 |  61.00 |
 
 ### Individuals
 

@@ -16,34 +16,34 @@ menubar_toc_static:
 
 ### Preliminaries
 
-| Church           | Team                 | Wins | Losses | Total |
-| ---------------- | -------------------- | ---: | -----: | ----: |
-| Orange Hills, CA | Orange Hills A/G     |    7 |      0 |  1360 |
-| Lees Summit, MO  | Crown Pointe         |    5 |      2 |  1205 |
-| Tacoma, WA       | Foundation           |    5 |      2 |   950 |
-| Racine, WI       | Stars in the Sky     |    4 |      3 |   855 |
-| Rapid City, SD   | Bethel 1             |    2 |      5 |   740 |
-| Rapid City, SD   | Bethel 2             |    2 |      5 |   695 |
-| Brookfield VIF   | Extinguishing Arrows |    2 |      5 |   385 |
-| Georgetown, KY   | The Other Team       |    1 |      6 |   595 |
+| Church           | Team                 |    W |    L | Total |
+| ---------------- | -------------------- | ---: | ---: | ----: |
+| Orange Hills, CA | Orange Hills A/G     |    7 |    0 |  1360 |
+| Lees Summit, MO  | Crown Pointe         |    5 |    2 |  1205 |
+| Tacoma, WA       | Foundation           |    5 |    2 |   950 |
+| Racine, WI       | Stars in the Sky     |    4 |    3 |   855 |
+| Rapid City, SD   | Bethel 1             |    2 |    5 |   740 |
+| Rapid City, SD   | Bethel 2             |    2 |    5 |   695 |
+| Brookfield VIF   | Extinguishing Arrows |    2 |    5 |   385 |
+| Georgetown, KY   | The Other Team       |    1 |    6 |   595 |
 
 ### Division A-1
 
-| Church           | Team             | Wins | Losses | Total |
-| ---------------- | ---------------- | ---: | -----: | ----: |
-| Lees Summit, MO  | Crown Pointe     |    3 |      0 |   620 |
-| Racine, WI       | Stars in the Sky |    2 |      1 |   390 |
-| Orange Hills, CA | Orange Hills A/G |    1 |      2 |   360 |
-| Tacoma, WA       | Foundation       |    0 |      3 |   240 |
+| Church           | Team             |    W |    L | Total |
+| ---------------- | ---------------- | ---: | ---: | ----: |
+| Lees Summit, MO  | Crown Pointe     |    3 |    0 |   620 |
+| Racine, WI       | Stars in the Sky |    2 |    1 |   390 |
+| Orange Hills, CA | Orange Hills A/G |    1 |    2 |   360 |
+| Tacoma, WA       | Foundation       |    0 |    3 |   240 |
 
 ### Division A-2
 
-| Church         | Team                 | Wins | Losses | Total |
-| -------------- | -------------------- | ---: | -----: | ----: |
-| Georgetown, KY | The Other Team       |    3 |      0 |   490 |
-| Rapid City, SD | Bethel 1             |    2 |      1 |   520 |
-| Rapid City, SD | Bethel 2             |    1 |      2 |   270 |
-| Brookfield VIF | Extinguishing Arrows |    0 |      3 |   220 |
+| Church         | Team                 |    W |    L | Total |
+| -------------- | -------------------- | ---: | ---: | ----: |
+| Georgetown, KY | The Other Team       |    3 |    0 |   490 |
+| Rapid City, SD | Bethel 1             |    2 |    1 |   520 |
+| Rapid City, SD | Bethel 2             |    1 |    2 |   270 |
+| Brookfield VIF | Extinguishing Arrows |    0 |    3 |   220 |
 
 ### Individuals
 
@@ -77,11 +77,11 @@ menubar_toc_static:
 
 ### Teams
 
-| Church         | Team             | Wins | Losses | Total |
-| -------------- | ---------------- | ---: | -----: | ----: |
-| Sparta         | Sparta A/G       |    4 |      2 |   595 |
-| New Richmond   | Christ Followers |    4 |      2 |   500 |
-| Milwaukee CITC | Epistle Apostles |    1 |      5 |   245 |
+| Church         | Team             |    W |    L | Total |
+| -------------- | ---------------- | ---: | ---: | ----: |
+| Sparta         | Sparta A/G       |    4 |    2 |   595 |
+| New Richmond   | Christ Followers |    4 |    2 |   500 |
+| Milwaukee CITC | Epistle Apostles |    1 |    5 |   245 |
 
 ### Individuals
 
@@ -101,13 +101,13 @@ menubar_toc_static:
 
 ### Teams
 
-| Church         | Team                 | Wins | Losses | Total |
-| -------------- | -------------------- | ---: | -----: | ----: |
-| Racine A/G     | The Untitled Section |    8 |      0 |  1465 |
-| Rapid City, SD | Law Breakers         |    5 |      3 |  1325 |
-| Rapid City, SD | No Longer Infants    |    4 |      4 |  1080 |
-| Augusta A/G    | Augusta I            |    2 |      6 |   305 |
-| Augusta A/G    | Augusta II           |    0 |      8 |   240 |
+| Church         | Team                 |    W |    L | Total |
+| -------------- | -------------------- | ---: | ---: | ----: |
+| Racine A/G     | The Untitled Section |    8 |    0 |  1465 |
+| Rapid City, SD | Law Breakers         |    5 |    3 |  1325 |
+| Rapid City, SD | No Longer Infants    |    4 |    4 |  1080 |
+| Augusta A/G    | Augusta I            |    2 |    6 |   305 |
+| Augusta A/G    | Augusta II           |    0 |    8 |   240 |
 
 ### Individuals
 

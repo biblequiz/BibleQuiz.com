@@ -16,32 +16,32 @@ menubar_toc_static:
 
 ### Teams
 
-| Team                                       | Wins | Losses | Total |    Avg |
-| ------------------------------------------ | ---: | -----: | ----: | -----: |
-| Victorious Life Church, Wesley Chapel, FL  |    7 |      2 |  1860 | 206.67 |
-| First A/G, Binghamton, NY                  |    7 |      2 |  1800 |    200 |
-| Bellevue Neighborhood Church, WA           |    7 |      2 |  1655 | 183.89 |
-| Praise A/G, Garfield, NJ                   |    7 |      2 |  1625 | 180.56 |
-| Central A/G, Springfield, MO (Christina)   |    7 |      2 |  1610 | 178.89 |
-| Southgate, South Bend, IN                  |    8 |      1 |  1585 | 176.11 |
-| James River A/G, Ozark, MO                 |    7 |      2 |  1565 | 173.89 |
-| Central A/G, Springfield, MO (Oss)         |    6 |      3 |  1470 | 163.33 |
-| First A/G, Montgomery, AL                  |    6 |      3 |  1430 | 158.89 |
-| Central Indiana                            |    4 |      5 |  1365 | 151.67 |
-| Dayspring A/G, Bowling Green, OH           |    4 |      5 |  1305 |    145 |
-| Pocono Community Church, Pocono Summit, PA |    4 |      5 |  1250 | 138.89 |
-| Living Hope Worship Center, Swedesboro, NJ |    6 |      3 |  1220 | 135.56 |
-| Grandville A/G, Grandville, MI             |    5 |      4 |  1200 | 133.33 |
-| Richmond Hills A/G, Bethlehem, NY          |    5 |      4 |  1170 |    130 |
-| First A/G of Greater Lansing, MI           |    5 |      4 |  1035 |    115 |
-| Walnut Grove A/G, West Mifflin, PA         |    1 |      8 |   970 | 107.78 |
-| Word of Life A/G, Springfield, VA          |    4 |      5 |   955 | 106.11 |
-| Christ Community Church, Cummings, GA      |    2 |      6 |   755 |  94.38 |
-| First A/G, Lexington, KY (Patty)           |    3 |      6 |   685 |  76.11 |
-| First A/G, Lexington, KY (Karen)           |    1 |      8 |   610 |  67.78 |
-| Journey Assembly of God, Bridgeville, PA   |    0 |      9 |   525 |  58.33 |
-| Southwest A/G, Fort Wayne, IN              |    1 |      8 |   385 |  42.78 |
-| Manassas A/G, Bristow, VA                  |    0 |      9 |   255 |  28.33 |
+| Team                                       |    W |    L | Total |    Avg |
+| ------------------------------------------ | ---: | ---: | ----: | -----: |
+| Victorious Life Church, Wesley Chapel, FL  |    7 |    2 |  1860 | 206.67 |
+| First A/G, Binghamton, NY                  |    7 |    2 |  1800 |    200 |
+| Bellevue Neighborhood Church, WA           |    7 |    2 |  1655 | 183.89 |
+| Praise A/G, Garfield, NJ                   |    7 |    2 |  1625 | 180.56 |
+| Central A/G, Springfield, MO (Christina)   |    7 |    2 |  1610 | 178.89 |
+| Southgate, South Bend, IN                  |    8 |    1 |  1585 | 176.11 |
+| James River A/G, Ozark, MO                 |    7 |    2 |  1565 | 173.89 |
+| Central A/G, Springfield, MO (Oss)         |    6 |    3 |  1470 | 163.33 |
+| First A/G, Montgomery, AL                  |    6 |    3 |  1430 | 158.89 |
+| Central Indiana                            |    4 |    5 |  1365 | 151.67 |
+| Dayspring A/G, Bowling Green, OH           |    4 |    5 |  1305 |    145 |
+| Pocono Community Church, Pocono Summit, PA |    4 |    5 |  1250 | 138.89 |
+| Living Hope Worship Center, Swedesboro, NJ |    6 |    3 |  1220 | 135.56 |
+| Grandville A/G, Grandville, MI             |    5 |    4 |  1200 | 133.33 |
+| Richmond Hills A/G, Bethlehem, NY          |    5 |    4 |  1170 |    130 |
+| First A/G of Greater Lansing, MI           |    5 |    4 |  1035 |    115 |
+| Walnut Grove A/G, West Mifflin, PA         |    1 |    8 |   970 | 107.78 |
+| Word of Life A/G, Springfield, VA          |    4 |    5 |   955 | 106.11 |
+| Christ Community Church, Cummings, GA      |    2 |    6 |   755 |  94.38 |
+| First A/G, Lexington, KY (Patty)           |    3 |    6 |   685 |  76.11 |
+| First A/G, Lexington, KY (Karen)           |    1 |    8 |   610 |  67.78 |
+| Journey Assembly of God, Bridgeville, PA   |    0 |    9 |   525 |  58.33 |
+| Southwest A/G, Fort Wayne, IN              |    1 |    8 |   385 |  42.78 |
+| Manassas A/G, Bristow, VA                  |    0 |    9 |   255 |  28.33 |
 
 ### Individuals
 
@@ -136,16 +136,16 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                         | Wins | Losses | Total |
-| ---: | -------------------------------------------- | ---: | -----: | ----: |
-|    1 | Praise A/G, Garfield, NJ*                    |    5 |      2 |  1040 |
-|    2 | James River A/G, Ozark, MO*                  |    5 |      2 |  1145 |
-|    3 | Central A/G, Springfield, MO (Christina)**   |    4 |      3 |  1155 |
-|    4 | Southgate, South Bend, IN**                  |    4 |      3 |  1010 |
-|    5 | Victorious Life Church, Wesley Chapel, FL*** |    3 |      4 |  1190 |
-|    6 | First A/G, Binghamton, NY***                 |    3 |      4 |  1035 |
-|    7 | Central A/G, Springfield, MO (Oss)           |    2 |      5 |   850 |
-|    8 | Bellevue Neighborhood Church, WA             |    2 |      5 |   815 |
+|    # | Team                                         |    W |    L | Total |
+| ---: | -------------------------------------------- | ---: | ---: | ----: |
+|    1 | Praise A/G, Garfield, NJ*                    |    5 |    2 |  1040 |
+|    2 | James River A/G, Ozark, MO*                  |    5 |    2 |  1145 |
+|    3 | Central A/G, Springfield, MO (Christina)**   |    4 |    3 |  1155 |
+|    4 | Southgate, South Bend, IN**                  |    4 |    3 |  1010 |
+|    5 | Victorious Life Church, Wesley Chapel, FL*** |    3 |    4 |  1190 |
+|    6 | First A/G, Binghamton, NY***                 |    3 |    4 |  1035 |
+|    7 | Central A/G, Springfield, MO (Oss)           |    2 |    5 |   850 |
+|    8 | Bellevue Neighborhood Church, WA             |    2 |    5 |   815 |
 
 \* Praise A/G, Garfield beat James River in Playoff\
 \*\* Central A/G, Springfield (Christina) beat Southgate\
@@ -189,16 +189,16 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                         | Wins | Losses | Total |
-| ---: | -------------------------------------------- | ---: | -----: | ----: |
-|    1 | Central Indiana*                             |    5 |      2 |  1320 |
-|    2 | Dayspring A/G, Bowling Green, OH*            |    5 |      2 |  1120 |
-|    3 | Pocono Community Church, Pocono Summit, PA*  |    5 |      2 |  1025 |
-|    4 | First A/G, Montgomery, AL**                  |    4 |      3 |   985 |
-|    5 | Living Hope Worship Center, Swedesboro, NJ** |    4 |      3 |   990 |
-|    6 | First A/G of Greater Lansing, MI             |    3 |      4 |   860 |
-|    7 | Richmond Hills A/G, Bethlehem, NY            |    2 |      5 |   635 |
-|    8 | Grandville A/G, Grandville, MI               |    0 |      7 |   490 |
+|    # | Team                                         |    W |    L | Total |
+| ---: | -------------------------------------------- | ---: | ---: | ----: |
+|    1 | Central Indiana*                             |    5 |    2 |  1320 |
+|    2 | Dayspring A/G, Bowling Green, OH*            |    5 |    2 |  1120 |
+|    3 | Pocono Community Church, Pocono Summit, PA*  |    5 |    2 |  1025 |
+|    4 | First A/G, Montgomery, AL**                  |    4 |    3 |   985 |
+|    5 | Living Hope Worship Center, Swedesboro, NJ** |    4 |    3 |   990 |
+|    6 | First A/G of Greater Lansing, MI             |    3 |    4 |   860 |
+|    7 | Richmond Hills A/G, Bethlehem, NY            |    2 |    5 |   635 |
+|    8 | Grandville A/G, Grandville, MI               |    0 |    7 |   490 |
 
 \* Each 1st place team beat each other\
 \*\* Montgomery beat Swedesboro
@@ -245,16 +245,16 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                     | Wins | Losses | Total |
-| ---: | ---------------------------------------- | ---: | -----: | ----: |
-|    1 | Walnut Grove A/G, West Mifflin, PA       |    6 |      1 |  1220 |
-|    2 | Christ Community Church, Cummings, GA    |    5 |      2 |   885 |
-|    3 | Word of Life A/G, Springfield, VA*       |    4 |      3 |   720 |
-|    4 | First A/G, Lexington, KY (Patty)*        |    4 |      3 |   790 |
-|    5 | First A/G, Lexington, KY (Karen)         |    3 |      4 |   580 |
-|    6 | Journey Assembly of God, Bridgeville, PA |    2 |      5 |   570 |
-|    7 | Southwest A/G, Fort Wayne, IN            |    2 |      5 |   325 |
-|    8 | Manassas A/G, Bristow, VA                |    2 |      5 |   315 |
+|    # | Team                                     |    W |    L | Total |
+| ---: | ---------------------------------------- | ---: | ---: | ----: |
+|    1 | Walnut Grove A/G, West Mifflin, PA       |    6 |    1 |  1220 |
+|    2 | Christ Community Church, Cummings, GA    |    5 |    2 |   885 |
+|    3 | Word of Life A/G, Springfield, VA*       |    4 |    3 |   720 |
+|    4 | First A/G, Lexington, KY (Patty)*        |    4 |    3 |   790 |
+|    5 | First A/G, Lexington, KY (Karen)         |    3 |    4 |   580 |
+|    6 | Journey Assembly of God, Bridgeville, PA |    2 |    5 |   570 |
+|    7 | Southwest A/G, Fort Wayne, IN            |    2 |    5 |   325 |
+|    8 | Manassas A/G, Bristow, VA                |    2 |    5 |   315 |
 
 \* Word of Life A/G, Springfield beat First A/G, Lexington (Patty)
 

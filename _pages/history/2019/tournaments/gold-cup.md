@@ -21,7 +21,7 @@ menubar_toc_static:
 
 ### Teams
 
-| #   | Team / Church                                                                                  | W / L | Total | AVG   | QO  | Q%  | 30s | 20s | 10s |
+| #   | Team                                                                                           | W / L | Total | AVG   | QO  | Q%  | 30s | 20s | 10s |
 | --- | ---------------------------------------------------------------------------------------------- | ----- | ----- | ----- | --- | --- | --- | --- | --- |
 | 1.1 | Most of the Boys (Trinity Church of the Assemblies of God)                                     | 1-Aug | 1355  | 150.5 | 9   | 72% | 12  | 41  | 35  |
 | 2   | Life360 Church #1 (Life360 Church)                                                             | 1-Aug | 1655  | 183.9 | 14  | 76% | 16  | 37  | 44  |
@@ -36,7 +36,7 @@ menubar_toc_static:
 
 ### Individuals
 
-| #   | Quizzer              | Team / Church                                                                                  | Total | AVG  | QO  | Q%  | 30s | 20s | 10s |
+| #   | Quizzer              | Team                                                                                           | Total | AVG  | QO  | Q%  | 30s | 20s | 10s |
 | --- | -------------------- | ---------------------------------------------------------------------------------------------- | ----- | ---- | --- | --- | --- | --- | --- |
 | 1   | Cameron Ramsey       | Life360 Church #1 (Life360 Church)                                                             | 810   | 90   | 6   | 84% | 12  | 16  | 8   |
 | 2   | Josh Barajas         | Most of the Boys (Trinity Church of the Assemblies of God)                                     | 715   | 79.4 | 5   | 69% | 12  | 22  |     |
@@ -79,7 +79,7 @@ menubar_toc_static:
 
 ### Teams
 
-| #   | Team / Church                                                              | W / L  | Total | AVG   | QO  | Q%  | 30s | 20s | 10s |
+| #   | Team                                                                       | W / L  | Total | AVG   | QO  | Q%  | 30s | 20s | 10s |
 | --- | -------------------------------------------------------------------------- | ------ | ----- | ----- | --- | --- | --- | --- | --- |
 | 1   | Now About Food (Trinity Church of the Assemblies of God)                   | Sep-00 | 990   | 110   | 9   | 63% | 6   | 37  | 31  |
 | 2   | Grace, Peace, and Natalie (Trinity Church of the Assemblies of God)        | 3-Jun  | 1290  | 143.3 | 11  | 71% | 7   | 40  | 45  |
@@ -88,7 +88,7 @@ menubar_toc_static:
 
 ### Individuals
 
-| #   | Quizzer          | Team / Church                                                              | Total | AVG  | QO  | Q%   | 30s | 20s | 10s |
+| #   | Quizzer          | Team                                                                       | Total | AVG  | QO  | Q%   | 30s | 20s | 10s |
 | --- | ---------------- | -------------------------------------------------------------------------- | ----- | ---- | --- | ---- | --- | --- | --- |
 | 1   | Noah Claunch     | Now About Food (Trinity Church of the Assemblies of God)                   | 740   | 82.2 | 6   | 77%  | 6   | 24  | 7   |
 | 2   | Juliet Amadi     | Grace, Peace, and Natalie (Trinity Church of the Assemblies of God)        | 585   | 65   | 5   | 72%  | 4   | 22  | 8   |
@@ -109,7 +109,7 @@ menubar_toc_static:
 
 ### Teams
 
-| #   | Team / Church                                        | W / L | Total | AVG   | QO  | Q%  | 30s | 20s | 10s |
+| #   | Team                                                 | W / L | Total | AVG   | QO  | Q%  | 30s | 20s | 10s |
 | --- | ---------------------------------------------------- | ----- | ----- | ----- | --- | --- | --- | --- | --- |
 | 1   | 4 Him (Trinity Church of the Assemblies of God)      | 2-Jul | 1390  | 154.4 | 10  | 72% | 10  | 43  | 36  |
 | 2.2 | Shipwrecked Wild Beast (The Oaks Fellowship)         | 4-May | 1310  | 145.5 | 7   | 72% | 15  | 38  | 26  |
@@ -118,7 +118,7 @@ menubar_toc_static:
 
 ### Individuals
 
-| #   | Quizzer             | Team / Church                                        | Total | AVG  | QO  | Q%  | 30s | 20s | 10s |
+| #   | Quizzer             | Team                                                 | Total | AVG  | QO  | Q%  | 30s | 20s | 10s |
 | --- | ------------------- | ---------------------------------------------------- | ----- | ---- | --- | --- | --- | --- | --- |
 | 1   | Camden Haney        | 4 Him (Trinity Church of the Assemblies of God)      | 795   | 88.3 | 8   | 77% | 5   | 22  | 17  |
 | 2   | Aulora Sullivan     | Sanctified (Trinity Church of the Assemblies of God) | 645   | 71.7 | 7   | 74% | 5   | 15  | 19  |

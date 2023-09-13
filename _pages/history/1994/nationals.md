@@ -31,115 +31,115 @@ The top scorer at the 1994 National Finals was Lisa Wootton of Bartlesville, OK.
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                                          | Record | Total | Avg    | Margin | Avg Margin |
-|-----:|-----------------------------------------------|--------|------:|-------:|-------:|-----------:|
-| 1    | St. Clair Shores A/G, St. Clair Shores, MI    | 17 / 2 | 3315  | 174.47 | 1645   | 86.58      |
-| 2    | First A/G, Warren, OH*                        | 16 / 3 | 2475  | 130.26 | 555    | 29.21      |
-| 3    | First A/G, Moberly, MO**                      | 16 / 3 | 3345  | 176.05 | 1840   | 96.84      |
-| 4    | First A/G, Bartlesville, OK                   | 16 / 3 | 3580  | 188.42 | 2245   | 118.16     |
-| 5    | Grace A/G, Syracuse, NY (Team 1)              | 13 / 6 | 2930  | 154.21 | 765    | 40.26      |
-| 6    | Orange County Christian Center, Santa Ana, CA | 12 / 7 | 2550  | 134.21 | 510    | 26.84      |
-| 7    | Allison Park A/G, Allison Park, PA            | 12 / 7 | 2105  | 110.79 | 210    | 11.05      |
-| 8    | First A/G, Shreveport, LA                     | 11 / 8 | 2520  | 132.63 | 710    | 37.37      |
-| 9    | Life Center A/G, Lakewood, CA                 | 10 / 9 | 2020  | 106.32 | -100   | -5.26      |
-| 10   | Evangelistic Centre, Fort Walton Beach, FL    | 9 / 10 | 2270  | 119.47 | -100   | -5.26      |
-| 11   | First A/G, Atlanta, TX                        | 9 / 10 | 2390  | 125.79 | 300    | 15.79      |
-| 12   | Grace A/G, Syracuse, NY (Team 2)              | 8 / 11 | 2275  | 119.74 | 230    | 12.11      |
-| 13   | Park A/G, St. Louis Park, MN                  | 7 / 12 | 1855  | 97.63  | -405   | -21.32     |
-| 14   | Tuscawilla A/G, Oviedo, FL                    | 7 / 12 | 1750  | 92.11  | -785   | -41.32     |
-| 15   | First A/G, Milan, TN                          | 6 / 13 | 1775  | 93.42  | -1075  | -56.58     |
-| 16   | First A/G, Anacortes, WA                      | 6 / 13 | 1470  | 77.37  | -1220  | -64.21     |
-| 17   | Brownsville A/G, Pensacola, FL                | 5 / 14 | 1345  | 70.79  | -1310  | -68.95     |
-| 18   | Park Crest A/G, Springfield, MO               | 5 / 14 | 1565  | 82.37  | -855   | -45        |
-| 19   | First A/G, Belton, TX                         | 4 / 15 | 1670  | 87.89  | -910   | -47.89     |
-| 20   | Heights A/G, Billings, MT                     | 1 / 18 | 1015  | 53.42  | -2250  | -118.42    |
+|    # | Team                                          | Record | Total |    Avg | Margin | Avg Margin |
+| ---: | --------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
+|    1 | St. Clair Shores A/G, St. Clair Shores, MI    | 17 / 2 |  3315 | 174.47 |   1645 |      86.58 |
+|    2 | First A/G, Warren, OH*                        | 16 / 3 |  2475 | 130.26 |    555 |      29.21 |
+|    3 | First A/G, Moberly, MO**                      | 16 / 3 |  3345 | 176.05 |   1840 |      96.84 |
+|    4 | First A/G, Bartlesville, OK                   | 16 / 3 |  3580 | 188.42 |   2245 |     118.16 |
+|    5 | Grace A/G, Syracuse, NY (Team 1)              | 13 / 6 |  2930 | 154.21 |    765 |      40.26 |
+|    6 | Orange County Christian Center, Santa Ana, CA | 12 / 7 |  2550 | 134.21 |    510 |      26.84 |
+|    7 | Allison Park A/G, Allison Park, PA            | 12 / 7 |  2105 | 110.79 |    210 |      11.05 |
+|    8 | First A/G, Shreveport, LA                     | 11 / 8 |  2520 | 132.63 |    710 |      37.37 |
+|    9 | Life Center A/G, Lakewood, CA                 | 10 / 9 |  2020 | 106.32 |   -100 |      -5.26 |
+|   10 | Evangelistic Centre, Fort Walton Beach, FL    | 9 / 10 |  2270 | 119.47 |   -100 |      -5.26 |
+|   11 | First A/G, Atlanta, TX                        | 9 / 10 |  2390 | 125.79 |    300 |      15.79 |
+|   12 | Grace A/G, Syracuse, NY (Team 2)              | 8 / 11 |  2275 | 119.74 |    230 |      12.11 |
+|   13 | Park A/G, St. Louis Park, MN                  | 7 / 12 |  1855 |  97.63 |   -405 |     -21.32 |
+|   14 | Tuscawilla A/G, Oviedo, FL                    | 7 / 12 |  1750 |  92.11 |   -785 |     -41.32 |
+|   15 | First A/G, Milan, TN                          | 6 / 13 |  1775 |  93.42 |  -1075 |     -56.58 |
+|   16 | First A/G, Anacortes, WA                      | 6 / 13 |  1470 |  77.37 |  -1220 |     -64.21 |
+|   17 | Brownsville A/G, Pensacola, FL                | 5 / 14 |  1345 |  70.79 |  -1310 |     -68.95 |
+|   18 | Park Crest A/G, Springfield, MO               | 5 / 14 |  1565 |  82.37 |   -855 |        -45 |
+|   19 | First A/G, Belton, TX                         | 4 / 15 |  1670 |  87.89 |   -910 |     -47.89 |
+|   20 | Heights A/G, Billings, MT                     | 1 / 18 |  1015 |  53.42 |  -2250 |    -118.42 |
 
 \* Won 2nd Place Playoff
 \*\* Won 3rd Place Playoff
 
 ### Individuals
 
-| Rank     | Quizzer             | Church                                        | Total | Avg    | QO |
-|----------|---------------------|-----------------------------------------------|-------|--------|----|
-| 1        | Lisa Wootton        | First A/G, Bartlesville, OK                   | 2170  | 114.21 | 13 |
-| 2        | Joy Daigle          | Grace A/G, Syracuse, NY                       | 1640  | 86.32  | 9  |
-| 3        | Hollie Walk         | First A/G, Moberly, MO                        | 1450  | 76.32  | 6  |
-| 4        | Matt Reed           | St. Clair Shores A/G, St. Clair Shores, MI    | 1325  | 69.74  | 7  |
-| 5        | Sanejo Leonard      | Orange County Christian Center, Santa Ana, CA | 1195  | 62.89  | 2  |
-| 6        | Jennifer Gibson     | First A/G, Atlanta, TX                        | 1285  | 67.63  | 4  |
-| 7        | Sarah Shewey        | Life Center A/G, Lakewood, CA                 | 1230  | 64.74  | 4  |
-| 8        | Daniel Potts        | Orange County Christian Center, Santa Ana, CA | 1195  | 62.89  | 5  |
-| 9        | Daniel Slater       | St. Clair Shores A/G, St. Clair Shores, MI    | 1165  | 61.32  | 7  |
-| 10       | David Beiler        | Evangelistic Centre, Fort Walton Beach, FL    | 1155  | 60.79  | 3  |
-| 11       | Lisa Eutsey         | First A/G, Warren, OH                         | 1125  | 59.21  | 2  |
-| 12       | Jeremy Plank        | First A/G, Moberly, MO                        | 1120  | 58.95  | 3  |
-| 13       | Ricky Simpson       | First A/G, Shreveport, LA                     | 1105  | 58.16  | 6  |
-| 14       | Jennifer Lemke      | First A/G, Atlanta, TX                        | 975   | 51.32  | 1  |
-| 15       | Jeremy Horn         | First A/G, Shreveport, LA                     | 965   | 50.79  | 3  |
-| **15\*** | Daryn Trout         | Allison Park A/G, Allison Park, PA            | 965   | 50.79  | 1  |
-| 17       | Eric Thaut          | Heights A/G, Billings, MT                     | 930   | 48.95  | 7  |
-| 18       | Rochelle Cathcart   | Park Crest A/G, Springfield, MO               | 920   | 48.42  | 1  |
-| 19       | Amy Fry             | Park A/G, St. Louis Park, MN                  | 910   | 47.89  | 3  |
-| 20       | T.J. Ross           | First A/G, Milan, TN                          | 900   | 47.37  | 3  |
-| 21       | Shawn Wiley         | First A/G, Milan, TN                          | 885   | 46.58  | 2  |
-| 22       | Scott Berkey        | Tuscawilla A/G, Oviedo, FL                    | 875   | 46.05  | 2  |
-| 23       | David Fox           | Grace A/G, Syracuse, NY (Team 1)              | 870   | 45.79  | 3  |
-| 24       | Jeff Couey          | First A/G, Anacortes, WA                      | 865   | 45.53  | 2  |
-| 25       | Laurie Lewis        | First A/G, Belton, TX                         | 855   | 45     | 2  |
-| 26       | Ana Lorvick         | Park A/G, St. Louis Park, MN                  | 830   | 43.68  | 5  |
-| 27       | Nicole Martin       | Grace A/G, Syracuse, NY (Team 2)              | 775   | 40.79  | 2  |
-| **27\*** | Jeremy Walk         | First A/G, Moberly, MO                        | 775   | 40.79  | 2  |
-| **27\*** | Rebecca Wilmoth     | First A/G, Warren, OH                         | 775   | 40.79  | 3  |
-| 30       | Michelle McLaughlin | Grace A/G, Syracuse, NY (Team 2)              | 770   | 40.53  | 3  |
-| 31       | Matthew Dyer        | Evangelistic Centre, Fort Walton Beach, FL    | 765   | 40.26  | 3  |
-| 32       | Bernie Elliott III  | Allison Park A/G, Allison Park, PA            | 755   | 39.74  | 1  |
-| 33       | Satish Sangapu      | First A/G, Bartlesville, OK                   | 705   | 37.11  | 2  |
-| **33\*** | Igor Vysotsky       | First A/G, Bartlesville, OK                   | 705   | 37.11  | 3  |
-| 35       | Wesley Peaden       | Brownsville A/G, Pensacola, FL                | 650   | 34.21  | 3  |
-| 36       | Rebekah Smith       | First A/G, Anacortes, WA                      | 610   | 32.11  | 1  |
-| 37       | John Angelis        | First A/G, Warren, OH                         | 580   | 30.53  | 1  |
-| **37\*** | Jamie Myers         | St. Clair Shores A/G, St. Clair Shores, MI    | 580   | 30.53  |    |
-| 39       | Philip Smith        | Brownsville A/G, Pensacola, FL                | 560   | 29.47  |    |
-| 40       | Shelly Rogers       | First A/G, Belton, TX                         | 540   | 28.42  | 2  |
-| 41       | Stephen Shewey      | Life Center A/G, Lakewood, CA                 | 525   | 27.63  | 1  |
-| 42       | Colleen Alexander   | Grace A/G, Syracuse, NY (Team 2)              | 505   | 26.58  | 3  |
-| 43       | Malisa Berkey       | Tuscawilla A/G, Oviedo, FL                    | 485   | 25.53  |    |
-| 44       | Aaron Smith         | First A/G, Shreveport, LA                     | 440   | 23.16  |    |
-| 45       | Keith Grabill       | Park Crest A/G, Springfield, MO               | 380   | 20     | 1  |
-| 46       | Scott Kuschmider    | Tuscawilla A/G, Oviedo, FL                    | 360   | 18.95  |    |
-| 47       | Brad Miller         | Evangelistic Centre, Fort Walton Beach, FL    | 355   | 18.68  | 1  |
-| 48       | Katey Callahan      | Allison Park A/G, Allison Park, PA            | 300   | 15.79  |    |
-| 49       | Lora Tate           | Life Center A/G, Lakewood, CA                 | 280   | 15.79  |    |
-| 50       | Kris Reeder         | First A/G, Belton, TX                         | 275   | 14.47  |    |
-| 51       | Ken Chida           | St. Clair Shores A/G, St. Clair Shores, MI    | 255   | 13.42  |    |
-| 52       | Melissa Guardipee   | Grace A/G, Syracuse, NY (Team 2)              | 245   | 12.89  |    |
-| 53       | Cheryl Severance    | Grace A/G, Syracuse, NY (Team 1)              | 220   | 11.58  |    |
-| 54       | Kristin Severance   | Grace A/G, Syracuse, NY (Team 1)              | 200   | 10.53  |    |
-| 55       | Justin Moody        | Park Crest A/G, Springfield, MO               | 185   | 9.74   |    |
-| 56       | Paul Joseph Baker   | Brownsville A/G, Pensacola, FL                | 150   | 7.89   |    |
-| 57       | Holly Haltom        | First A/G, Atlanta, TX                        | 130   | 6.84   |    |
-| **57\*** | Erik Paasonen       | Park A/G, St. Louis Park, MN                  | 130   | 6.84   |    |
-| 59       | Rich Fenton         | Allison Park A/G, Allison Park, PA            | 95    | 5      |    |
-| 60       | Ben Roudenis        | Park Crest A/G, Springfield, MO               | 85    | 4.47   |    |
-| 61       | Sarah Starr         | Heights A/G, Billings, MT                     | 70    | 3.68   |    |
-| 62       | Christina Leonard   | Orange County Christian Center, Santa Ana, CA | 65    | 3.42   |    |
-| 63       | Billy Thornbrugh    | Tuscawilla A/G, Oviedo, FL                    | 30    | 1.58   |    |
-| **63\*** | Tim Tran            | Park Crest A/G, Springfield, MO               | 30    | 1.58   |    |
-| 65       | Andy Ellis          | First A/G, Shreveport, LA                     | 25    | 1.32   |    |
-| 66       | Amy Smitman         | Heights A/G, Billings, MT                     | 20    | 1.05   |    |
-| 67       | Kerrie Goff         | First A/G, Moberly, MO                        | 10    | 0.53   |    |
-| 68       | Seth Edwards        | First A/G, Belton, TX                         | 5     | 0.26   |    |
-| 69       | Jill Roudenis       | Park Crest A/G, Springfield, MO               | 0     | 0      |    |
-| **69\*** | Jennifer Shim       | Allison Park A/G, Allison Park, PA            | 0     | 0      |    |
-| **69\*** | Jamie Lorenz        | First A/G, Bartlesville, OK                   | 0     | 0      |    |
-| **69\*** | Natalie Burgos      | Tuscawilla A/G, Oviedo, FL                    | 0     | 0      |    |
-| **69\*** | David Skidmore      | First A/G, Shreveport, LA                     | 0     | 0      |    |
-| **69\*** | Ryan Englar         | Park A/G, St. Louis Park, MN                  | 0     | 0      |    |
-| **69\*** | Alice Deck          | First A/G, Milan, TN                          | 0     | 0      |    |
-| **69\*** | James Fountain      | First A/G, Milan, TN                          | 0     | 0      |    |
-| **69\*** | Matt Martin         | First A/G, Milan, TN                          | 0     | 0      |    |
-| **69\*** | David Williams      | First A/G, Milan, TN                          | 0     | 0      |    |
-| **69\*** | Stacey Kelly        | First A/G, Warren, OH                         | 0     | 0      |    |
+| Rank     | Quizzer             | Church                                        | Total | Avg    | QO  |
+| -------- | ------------------- | --------------------------------------------- | ----- | ------ | --- |
+| 1        | Lisa Wootton        | First A/G, Bartlesville, OK                   | 2170  | 114.21 | 13  |
+| 2        | Joy Daigle          | Grace A/G, Syracuse, NY                       | 1640  | 86.32  | 9   |
+| 3        | Hollie Walk         | First A/G, Moberly, MO                        | 1450  | 76.32  | 6   |
+| 4        | Matt Reed           | St. Clair Shores A/G, St. Clair Shores, MI    | 1325  | 69.74  | 7   |
+| 5        | Sanejo Leonard      | Orange County Christian Center, Santa Ana, CA | 1195  | 62.89  | 2   |
+| 6        | Jennifer Gibson     | First A/G, Atlanta, TX                        | 1285  | 67.63  | 4   |
+| 7        | Sarah Shewey        | Life Center A/G, Lakewood, CA                 | 1230  | 64.74  | 4   |
+| 8        | Daniel Potts        | Orange County Christian Center, Santa Ana, CA | 1195  | 62.89  | 5   |
+| 9        | Daniel Slater       | St. Clair Shores A/G, St. Clair Shores, MI    | 1165  | 61.32  | 7   |
+| 10       | David Beiler        | Evangelistic Centre, Fort Walton Beach, FL    | 1155  | 60.79  | 3   |
+| 11       | Lisa Eutsey         | First A/G, Warren, OH                         | 1125  | 59.21  | 2   |
+| 12       | Jeremy Plank        | First A/G, Moberly, MO                        | 1120  | 58.95  | 3   |
+| 13       | Ricky Simpson       | First A/G, Shreveport, LA                     | 1105  | 58.16  | 6   |
+| 14       | Jennifer Lemke      | First A/G, Atlanta, TX                        | 975   | 51.32  | 1   |
+| 15       | Jeremy Horn         | First A/G, Shreveport, LA                     | 965   | 50.79  | 3   |
+| **15\*** | Daryn Trout         | Allison Park A/G, Allison Park, PA            | 965   | 50.79  | 1   |
+| 17       | Eric Thaut          | Heights A/G, Billings, MT                     | 930   | 48.95  | 7   |
+| 18       | Rochelle Cathcart   | Park Crest A/G, Springfield, MO               | 920   | 48.42  | 1   |
+| 19       | Amy Fry             | Park A/G, St. Louis Park, MN                  | 910   | 47.89  | 3   |
+| 20       | T.J. Ross           | First A/G, Milan, TN                          | 900   | 47.37  | 3   |
+| 21       | Shawn Wiley         | First A/G, Milan, TN                          | 885   | 46.58  | 2   |
+| 22       | Scott Berkey        | Tuscawilla A/G, Oviedo, FL                    | 875   | 46.05  | 2   |
+| 23       | David Fox           | Grace A/G, Syracuse, NY (Team 1)              | 870   | 45.79  | 3   |
+| 24       | Jeff Couey          | First A/G, Anacortes, WA                      | 865   | 45.53  | 2   |
+| 25       | Laurie Lewis        | First A/G, Belton, TX                         | 855   | 45     | 2   |
+| 26       | Ana Lorvick         | Park A/G, St. Louis Park, MN                  | 830   | 43.68  | 5   |
+| 27       | Nicole Martin       | Grace A/G, Syracuse, NY (Team 2)              | 775   | 40.79  | 2   |
+| **27\*** | Jeremy Walk         | First A/G, Moberly, MO                        | 775   | 40.79  | 2   |
+| **27\*** | Rebecca Wilmoth     | First A/G, Warren, OH                         | 775   | 40.79  | 3   |
+| 30       | Michelle McLaughlin | Grace A/G, Syracuse, NY (Team 2)              | 770   | 40.53  | 3   |
+| 31       | Matthew Dyer        | Evangelistic Centre, Fort Walton Beach, FL    | 765   | 40.26  | 3   |
+| 32       | Bernie Elliott III  | Allison Park A/G, Allison Park, PA            | 755   | 39.74  | 1   |
+| 33       | Satish Sangapu      | First A/G, Bartlesville, OK                   | 705   | 37.11  | 2   |
+| **33\*** | Igor Vysotsky       | First A/G, Bartlesville, OK                   | 705   | 37.11  | 3   |
+| 35       | Wesley Peaden       | Brownsville A/G, Pensacola, FL                | 650   | 34.21  | 3   |
+| 36       | Rebekah Smith       | First A/G, Anacortes, WA                      | 610   | 32.11  | 1   |
+| 37       | John Angelis        | First A/G, Warren, OH                         | 580   | 30.53  | 1   |
+| **37\*** | Jamie Myers         | St. Clair Shores A/G, St. Clair Shores, MI    | 580   | 30.53  |     |
+| 39       | Philip Smith        | Brownsville A/G, Pensacola, FL                | 560   | 29.47  |     |
+| 40       | Shelly Rogers       | First A/G, Belton, TX                         | 540   | 28.42  | 2   |
+| 41       | Stephen Shewey      | Life Center A/G, Lakewood, CA                 | 525   | 27.63  | 1   |
+| 42       | Colleen Alexander   | Grace A/G, Syracuse, NY (Team 2)              | 505   | 26.58  | 3   |
+| 43       | Malisa Berkey       | Tuscawilla A/G, Oviedo, FL                    | 485   | 25.53  |     |
+| 44       | Aaron Smith         | First A/G, Shreveport, LA                     | 440   | 23.16  |     |
+| 45       | Keith Grabill       | Park Crest A/G, Springfield, MO               | 380   | 20     | 1   |
+| 46       | Scott Kuschmider    | Tuscawilla A/G, Oviedo, FL                    | 360   | 18.95  |     |
+| 47       | Brad Miller         | Evangelistic Centre, Fort Walton Beach, FL    | 355   | 18.68  | 1   |
+| 48       | Katey Callahan      | Allison Park A/G, Allison Park, PA            | 300   | 15.79  |     |
+| 49       | Lora Tate           | Life Center A/G, Lakewood, CA                 | 280   | 15.79  |     |
+| 50       | Kris Reeder         | First A/G, Belton, TX                         | 275   | 14.47  |     |
+| 51       | Ken Chida           | St. Clair Shores A/G, St. Clair Shores, MI    | 255   | 13.42  |     |
+| 52       | Melissa Guardipee   | Grace A/G, Syracuse, NY (Team 2)              | 245   | 12.89  |     |
+| 53       | Cheryl Severance    | Grace A/G, Syracuse, NY (Team 1)              | 220   | 11.58  |     |
+| 54       | Kristin Severance   | Grace A/G, Syracuse, NY (Team 1)              | 200   | 10.53  |     |
+| 55       | Justin Moody        | Park Crest A/G, Springfield, MO               | 185   | 9.74   |     |
+| 56       | Paul Joseph Baker   | Brownsville A/G, Pensacola, FL                | 150   | 7.89   |     |
+| 57       | Holly Haltom        | First A/G, Atlanta, TX                        | 130   | 6.84   |     |
+| **57\*** | Erik Paasonen       | Park A/G, St. Louis Park, MN                  | 130   | 6.84   |     |
+| 59       | Rich Fenton         | Allison Park A/G, Allison Park, PA            | 95    | 5      |     |
+| 60       | Ben Roudenis        | Park Crest A/G, Springfield, MO               | 85    | 4.47   |     |
+| 61       | Sarah Starr         | Heights A/G, Billings, MT                     | 70    | 3.68   |     |
+| 62       | Christina Leonard   | Orange County Christian Center, Santa Ana, CA | 65    | 3.42   |     |
+| 63       | Billy Thornbrugh    | Tuscawilla A/G, Oviedo, FL                    | 30    | 1.58   |     |
+| **63\*** | Tim Tran            | Park Crest A/G, Springfield, MO               | 30    | 1.58   |     |
+| 65       | Andy Ellis          | First A/G, Shreveport, LA                     | 25    | 1.32   |     |
+| 66       | Amy Smitman         | Heights A/G, Billings, MT                     | 20    | 1.05   |     |
+| 67       | Kerrie Goff         | First A/G, Moberly, MO                        | 10    | 0.53   |     |
+| 68       | Seth Edwards        | First A/G, Belton, TX                         | 5     | 0.26   |     |
+| 69       | Jill Roudenis       | Park Crest A/G, Springfield, MO               | 0     | 0      |     |
+| **69\*** | Jennifer Shim       | Allison Park A/G, Allison Park, PA            | 0     | 0      |     |
+| **69\*** | Jamie Lorenz        | First A/G, Bartlesville, OK                   | 0     | 0      |     |
+| **69\*** | Natalie Burgos      | Tuscawilla A/G, Oviedo, FL                    | 0     | 0      |     |
+| **69\*** | David Skidmore      | First A/G, Shreveport, LA                     | 0     | 0      |     |
+| **69\*** | Ryan Englar         | Park A/G, St. Louis Park, MN                  | 0     | 0      |     |
+| **69\*** | Alice Deck          | First A/G, Milan, TN                          | 0     | 0      |     |
+| **69\*** | James Fountain      | First A/G, Milan, TN                          | 0     | 0      |     |
+| **69\*** | Matt Martin         | First A/G, Milan, TN                          | 0     | 0      |     |
+| **69\*** | David Williams      | First A/G, Milan, TN                          | 0     | 0      |     |
+| **69\*** | Stacey Kelly        | First A/G, Warren, OH                         | 0     | 0      |     |
 
 ## Teams
 

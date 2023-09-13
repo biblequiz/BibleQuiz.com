@@ -31,16 +31,16 @@ The top quizzer at the 1979 National Finals was Rhett Laurens of Evangel Temple 
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                              | Record | Total | Avg    | Margin | Avg Margin |
-|-----:|-----------------------------------|--------|------:|-------:|-------:|-----------:|
-| 1    | Canal Street A/G, New Orleans, LA | 6 / 1  | 1055  | 150.71 | 235    | 33.57      |
-| 2    | Calvary Temple A/G, Riverside, CA | 5 / 2  | 800   | 114.29 | -95    | -13.57     |
-| 3    | Evangel Temple A/G, Decatur, GA   | 4 / 3  | 1265  | 180.71 | 530    | 75.71      |
-| 4    | Verdigris A/G, Claremore, OK      | 4 / 3  | 915   | 130.71 | 15     | 2.14       |
-| 5    | Trinity A/G, Lanham, MD           | 4 / 3  | 910   | 130    | 140    | 20         |
-| 6    | Northridge A/G, Dayton, OH        | 3 / 4  | 1130  | 161.43 | 355    | 50.71      |
-| 7    | Portage A/G, Portage, WI          | 2 / 5  | 610   | 87.14  | -290   | -41.43     |
-| 8    | First A/G, Fairbanks, AK          | 0 / 7  | 285   | 40.71  | -940   | -134.29    |
+|    # | Team                              | Record | Total |    Avg | Margin | Avg Margin |
+| ---: | --------------------------------- | ------ | ----: | -----: | -----: | ---------: |
+|    1 | Canal Street A/G, New Orleans, LA | 6 / 1  |  1055 | 150.71 |    235 |      33.57 |
+|    2 | Calvary Temple A/G, Riverside, CA | 5 / 2  |   800 | 114.29 |    -95 |     -13.57 |
+|    3 | Evangel Temple A/G, Decatur, GA   | 4 / 3  |  1265 | 180.71 |    530 |      75.71 |
+|    4 | Verdigris A/G, Claremore, OK      | 4 / 3  |   915 | 130.71 |     15 |       2.14 |
+|    5 | Trinity A/G, Lanham, MD           | 4 / 3  |   910 |    130 |    140 |         20 |
+|    6 | Northridge A/G, Dayton, OH        | 3 / 4  |  1130 | 161.43 |    355 |      50.71 |
+|    7 | Portage A/G, Portage, WI          | 2 / 5  |   610 |  87.14 |   -290 |     -41.43 |
+|    8 | First A/G, Fairbanks, AK          | 0 / 7  |   285 |  40.71 |   -940 |    -134.29 |
 
 ### Individuals
 
@@ -49,14 +49,14 @@ The top quizzer at the 1979 National Finals was Rhett Laurens of Evangel Temple 
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Quizzer       | Church                          |
-|-----:|---------------|---------------------------------|
-| 1    | Rhett Laurens | Evangel Temple A/G, Decatur, GA |
-| 2    | Randy Moss    | Verdigris A/G, Claremore, OK    |
-| 3    | Greg Kelley   | Northridge A/G, Dayton, OH      |
-| 4    | John Bayko    | Trinity A/G, Lanham, MD         |
-| 5    | Bill DeSoto   | Portage A/G, Portage, WI        |
-| 6    | Mark Gilmer   | Evangel Temple A/G, Decatur, GA |
+|    # | Quizzer       | Church                          |
+| ---: | ------------- | ------------------------------- |
+|    1 | Rhett Laurens | Evangel Temple A/G, Decatur, GA |
+|    2 | Randy Moss    | Verdigris A/G, Claremore, OK    |
+|    3 | Greg Kelley   | Northridge A/G, Dayton, OH      |
+|    4 | John Bayko    | Trinity A/G, Lanham, MD         |
+|    5 | Bill DeSoto   | Portage A/G, Portage, WI        |
+|    6 | Mark Gilmer   | Evangel Temple A/G, Decatur, GA |
 
 ## Teams
 

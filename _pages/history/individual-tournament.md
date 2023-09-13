@@ -6,7 +6,7 @@ date: "2020-02-09"
 menubar: menu_history
 ---
 
-| Year | Quizzers             | Church                       | City                  |
+| Year | Quizzer              | Church                       | City                  |
 | ---- | -------------------- | ---------------------------- | --------------------- |
 | 2023 | Andrew Pickrell      | Trinity Church               | Cedar Hill, TX        |
 | 2022 | Sheldon Powell       | Calvary Church               | Naperville, IL        |

@@ -48,16 +48,16 @@ by [Scott Laurens]({% link _pages/history/1963/memories/scott-laurens.md %}), ca
    status="is-success" %}
 
 
-| Rank | Team                              | Record | Total Pts | Avg Pts | Margin | Avg Margin |
-|------|-----------------------------------|--------|-----------|---------|--------|------------|
-| 1    | Bouldercrest A/G, Atlanta, GA     | 3-0    | 520       | 173.33  | 195    | 65         |
-| 2    | First A/G, Plainview, TX          | 2-1    | ?         | ?       | ?      | ?          |
-| 3    | Neighborhood Church, Bellevue, WA | 1-1    | ?         | ?       | ?      | ?          |
-| 3    | Central Assembly, Cumberland, MD  | 1-1    | ?         | ?       | ?      | ?          |
-| 5    | Calvary A/G, Brush, CO            | 0-1    | ?         | ?       | ?      | ?          |
-| 5    | First A/G, Lima, OH               | 0-1    | 140       | 140     | -20    | -20        |
-| 5    | Glad Tidings A/G, Omaha, NE       | 0-1    | ?         | ?       | ?      | ?          |
-| 5    | Rose Bud A/G, Rose Bud, AR        | 0-1    | ?         | ?       | ?      | ?          |
+|    # | Team                              |    W |    L | Total |    Avg | Margin | Avg Margin |
+| ---: | --------------------------------- | ---: | ---: | ----: | -----: | -----: | ---------: |
+|    1 | Bouldercrest A/G, Atlanta, GA     |    3 |    0 |   520 | 173.33 |    195 |         65 |
+|    2 | First A/G, Plainview, TX          |    2 |    1 |     ? |      ? |      ? |          ? |
+|    3 | Neighborhood Church, Bellevue, WA |    1 |    1 |     ? |      ? |      ? |          ? |
+|    3 | Central Assembly, Cumberland, MD  |    1 |    1 |     ? |      ? |      ? |          ? |
+|    5 | Calvary A/G, Brush, CO            |    0 |    1 |     ? |      ? |      ? |          ? |
+|    5 | First A/G, Lima, OH               |    0 |    1 |   140 |    140 |    -20 |        -20 |
+|    5 | Glad Tidings A/G, Omaha, NE       |    0 |    1 |     ? |      ? |      ? |          ? |
+|    5 | Rose Bud A/G, Rose Bud, AR        |    0 |    1 |     ? |      ? |      ? |          ? |
 
 ### Individuals
 

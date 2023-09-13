@@ -28,7 +28,7 @@ The top scorer at the 1986 National Finals was Nicole Brandon of Woodlake A/G, T
 
 ### Teams
 
-| Rank | Team                                  | Record | Total |    Avg | Total Margin | Avg Margin |
+|    # | Team                                  | Record | Total |    Avg | Total Margin | Avg Margin |
 | ---: | ------------------------------------- | ------ | ----: | -----: | -----------: | ---------: |
 |    1 | First A/G, Tempe, AZ                  | 12 / 3 |  2690 | 179.33 |         1225 |      81.67 |
 |    2 | First A/G, Hibbing, MN*               | 11 / 4 |  2270 | 151.33 |         1040 |      69.33 |

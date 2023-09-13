@@ -15,11 +15,11 @@ We do not have complete results, but here is what we do have:
 
 ## Teams (Top 3)
 
-|    # | Team             | W-L |
-| ---: | ---------------- | --- |
-|    1 | Wesley Chapel #1 | 8-0 |
-|    2 | Wesley Chapel #2 | 5-3 |
-|    3 | Fort Lauderdale  | 5-3 |
+|    # | Team             |    W |    L |
+| ---: | ---------------- | ---: | ---: |
+|    1 | Wesley Chapel #1 |    8 |    0 |
+|    2 | Wesley Chapel #2 |    5 |    3 |
+|    3 | Fort Lauderdale  |    5 |    3 |
 
 ## Individuals (Top 5)
 

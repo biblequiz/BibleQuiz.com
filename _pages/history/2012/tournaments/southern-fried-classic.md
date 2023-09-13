@@ -16,7 +16,7 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Church / Team                       |
+|    # | Team                                |
 | ---: | ----------------------------------- |
 |    1 | Central - Compassionate             |
 |    2 | Owasso                              |
@@ -24,7 +24,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer       | Team / Church           | Total |   QO | Perfect |
+|    # | Quizzer       | Team                    | Total |   QO | Perfect |
 | ---: | ------------- | ----------------------- | ----: | ---: | ------: |
 |    1 | Daniel Wagner | Owasso                  |   960 |    7 |       2 |
 |    2 | Josh George   | James River             |   900 |    6 |       2 |
@@ -40,7 +40,7 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Church / Team                  |
+|    # | Team                           |
 | ---: | ------------------------------ |
 |    1 | Briargate - Double-Edged Sword |
 |    2 | Central - Nobody               |
@@ -48,7 +48,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer         | Team / Church    | Total |   QO | Perfect |
+|    # | Quizzer         | Team             | Total |   QO | Perfect |
 | ---: | --------------- | ---------------- | ----: | ---: | ------: |
 |    1 | Justin Polley   | Central - Nobody |   900 |    9 |         |
 |    2 | Nate Loper      | Central - Nobody |   775 |    7 |         |
@@ -64,7 +64,7 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Church / Team                 |
+|    # | Team                          |
 | ---: | ----------------------------- |
 |    1 | James River - 1               |
 |    2 | King's Chapel - Slow Learners |
@@ -72,7 +72,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer         | Team / Church                 | Total |   QO | Perfect |
+|    # | Quizzer         | Team                          | Total |   QO | Perfect |
 | ---: | --------------- | ----------------------------- | ----: | ---: | ------: |
 |    1 | Jacob Zorehkey  | Central Rebellion             |   955 |    9 |         |
 |    2 | Luna Cooper     | King's Chapel - Slow Learners |   910 |    8 |         |

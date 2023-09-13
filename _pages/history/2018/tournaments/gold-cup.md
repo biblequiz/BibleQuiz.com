@@ -18,7 +18,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                                      | W/L   | Total |   Avg |   QO |   Q% |
+|    # | Team                                               | W/L   | Total |   Avg |   QO |   Q% |
 | ---: | -------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.1 | Trinity Juan (Trinity Cedar Hill)                  | 6 / 1 |  1130 | 161.4 |    9 |  67% |
 |  1.0 | Braeswood (Braeswood AG)                           | 6 / 1 |  1295 |   185 |    9 |  72% |
@@ -35,7 +35,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer             | Team / Church                                      | Total |   Avg |   QO |   Q% |
+|        # | Quizzer             | Team                                               | Total |   Avg |   QO |   Q% |
 | -------: | ------------------- | -------------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Kristina Van Gorp   | Team-Two Rivers Fellowship (Two Rivers Fellowship) |   775 | 110.7 |    6 |  83% |
 |        2 | Stephen DiCarlo     | Spring (Spring First AG)                           |   660 |  94.3 |    5 |  89% |
@@ -77,7 +77,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                                   | W/L   | Total |  Avg |   QO |   Q% |
+|    # | Team                                            | W/L   | Total |  Avg |   QO |   Q% |
 | ---: | ----------------------------------------------- | ----- | ----: | ---: | ---: | ---: |
 |  1.0 | Way of the Cross (Trinity Cedar Hill. )         | 4 / 1 |   825 |  165 |    6 |  74% |
 |  2.1 | "B" The Disciples (Trinity Cedar Hill )         | 3 / 2 |   815 |  163 |    7 |  88% |
@@ -90,7 +90,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer              | Team / Church                                   | Total |  Avg |   QO |   Q% |
+|        # | Quizzer              | Team                                            | Total |  Avg |   QO |   Q% |
 | -------: | -------------------- | ----------------------------------------------- | ----: | ---: | ---: | ---: |
 |        1 | Gabe Lapusan         | Honey-Coated Camels Hair (The oaks fellowship ) |   505 |  101 |    4 |  81% |
 |        2 | Noah Clauch          | "B" The Believers (Trinity Cedar Hill)          |   485 |   97 |    5 |  86% |

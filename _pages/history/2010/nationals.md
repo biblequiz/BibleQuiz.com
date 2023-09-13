@@ -36,7 +36,7 @@ While there was no official east-west at the banquet, hundreds of people crowded
 
 Where ties exist, they are broken by head-to-head, then by point-differential, then by points. The top four were decided by a Final Four playoff. The tie between Bothell and James River was broken by head-to-head.
 
-| Rank | Team                                              | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                              | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | ------------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | Victorious Life Church, Wesley Chapel, FL*        | 14 / 5 |  3585 | 188.68 |   1255 |      66.05 |
 |    2 | Owasso First A/G, Owasso, OK*                     | 17 / 2 |  4145 | 218.15 |   2450 |     128.94 |
@@ -159,7 +159,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Teams
 
-| Rank | Team                                                   | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                                   | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | ------------------------------------------------------ | ------ | ----: | -----: | -----: | ---------: |
 |    1 | First A/G of Greater Lansing, East Lansing, MI         | 16 / 3 |  2375 |    125 |    985 |      51.84 |
 |    2 | First A/G, Montgomery, AL                              | 16 / 3 |  2835 | 149.21 |   1780 |      93.68 |
@@ -267,7 +267,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Group A
 
-| Rank | Team                                              | Record | Total |
+|    # | Team                                              | Record | Total |
 | ---: | ------------------------------------------------- | ------ | ----: |
 |    1 | Praise A/G, Garfield, NJ                          | 8 / 1  |  2155 |
 |    2 | James River A/G, "Perfect in Weakness", Ozark, MO | 7 / 2  |  1820 |
@@ -282,7 +282,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Group B
 
-| Rank | Team                                          | Record | Total |
+|    # | Team                                          | Record | Total |
 | ---: | --------------------------------------------- | ------ | ----: |
 |    1 | James River "Sufficient Grace", Ozark, MO     | 8 / 1  |  1790 |
 |    2 | Northside Family Worship Center, Cumming, GA  | 7 / 2  |  2005 |
@@ -297,7 +297,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Group C
 
-| Rank | Team                                                   | Record | Total |
+|    # | Team                                                   | Record | Total |
 | ---: | ------------------------------------------------------ | ------ | ----: |
 |    1 | Owasso First A/G, Owasso, OK                           | 8 / 1  |  2110 |
 |    2 | Dayspring A/G, Bowling Green, OH                       | 8 / 1  |  1645 |
@@ -312,7 +312,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Group D
 
-| Rank | Team                                        | Record | Total |
+|    # | Team                                        | Record | Total |
 | ---: | ------------------------------------------- | ------ | ----: |
 |    1 | Victorious Life Church, Wesley Chapel, FL   | 9 / 0  |  2060 |
 |    2 | Overland Park A/G, Overland Park, KS        | 7 / 2  |  1565 |

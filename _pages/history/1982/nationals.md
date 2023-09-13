@@ -29,7 +29,7 @@ The top quizzer at the 1982 National Finals was Ken Henderson of First A/G, Tecu
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                                        | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                        | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | ------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | First A/G, Tecumseh, OK                     | 6 / 1  |  1040 | 148.57 |    180 |      25.71 |
 |    2 | Evangel Temple A/G, Decatur, GA             | 5 / 2  |  1345 | 192.14 |    560 |         80 |

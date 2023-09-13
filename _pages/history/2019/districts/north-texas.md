@@ -16,7 +16,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church       | W/L   | Total |   Avg |   QO |   Q% |
+|    # | Team                | W/L   | Total |   Avg |   QO |   Q% |
 | ---: | ------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | Trinity             | 8 / 0 |  1550 | 193.7 |   13 |  73% |
 |  2.0 | Eyes on the Unseen  | 6 / 2 |  1280 |   160 |   12 |  76% |
@@ -28,7 +28,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer             | Team / Church       | Total |  Avg |   QO |   Q% |
+|        # | Quizzer             | Team                | Total |  Avg |   QO |   Q% |
 | -------: | ------------------- | ------------------- | ----: | ---: | ---: | ---: |
 |        1 | Joanne Ramesh       | Eyes on the Unseen  |   760 |   95 |    7 |  89% |
 |        2 | Scott Smith         | God's Co-workers    |   695 | 86.9 |    6 |  73% |

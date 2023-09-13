@@ -16,20 +16,20 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                 | Wins | Losses | Total |    Avg |
-| ---: | ------------------------------------ | ---: | -----: | ----: | -----: |
-|    1 | Northside Worship Ctr., Cumming, GA* |   10 |      1 |  2115 | 192.73 |
-|    2 | First A/G, Binghamton, NY*           |   10 |      1 |  2725 | 247.73 |
-|    3 | Living Hope A/G, Swedesboro, NJ      |    8 |      3 |  2135 | 194.44 |
-|    4 | Word of Life A/G, Springfield, VA    |    7 |      4 |  2120 | 193.18 |
-|    5 | Bethany Church, Wyckoff, NJ          |    6 |      5 |  1380 | 125.45 |
-|    6 | Bethlehem Church, Richmond Hill, NY  |    6 |      5 |  1315 | 126.88 |
-|    7 | First A/G, Elkton, MD                |    6 |      5 |  1160 | 105.45 |
-|    8 | Journey Church, Bridgeville, PA      |    5 |      6 |   985 |  93.08 |
-|    9 | New Hope A/G, Amherst, NH            |    4 |      7 |   715 |  72.28 |
-|   10 | Christian Life A/G, Chambersburg, PA |    3 |      8 |   720 |  68.71 |
-|   11 | Crossway A/G, Valencia, PA           |    1 |     10 |   530 |   48.9 |
-|   12 | Warick A/G, Hampton, VA              |    0 |     11 |   335 |  43.13 |
+|    # | Team                                 |    W |    L | Total |    Avg |
+| ---: | ------------------------------------ | ---: | ---: | ----: | -----: |
+|    1 | Northside Worship Ctr., Cumming, GA* |   10 |    1 |  2115 | 192.73 |
+|    2 | First A/G, Binghamton, NY*           |   10 |    1 |  2725 | 247.73 |
+|    3 | Living Hope A/G, Swedesboro, NJ      |    8 |    3 |  2135 | 194.44 |
+|    4 | Word of Life A/G, Springfield, VA    |    7 |    4 |  2120 | 193.18 |
+|    5 | Bethany Church, Wyckoff, NJ          |    6 |    5 |  1380 | 125.45 |
+|    6 | Bethlehem Church, Richmond Hill, NY  |    6 |    5 |  1315 | 126.88 |
+|    7 | First A/G, Elkton, MD                |    6 |    5 |  1160 | 105.45 |
+|    8 | Journey Church, Bridgeville, PA      |    5 |    6 |   985 |  93.08 |
+|    9 | New Hope A/G, Amherst, NH            |    4 |    7 |   715 |  72.28 |
+|   10 | Christian Life A/G, Chambersburg, PA |    3 |    8 |   720 |  68.71 |
+|   11 | Crossway A/G, Valencia, PA           |    1 |   10 |   530 |   48.9 |
+|   12 | Warick A/G, Hampton, VA              |    0 |   11 |   335 |  43.13 |
 
 \* Cummings beat Binghamton
 
@@ -89,20 +89,20 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                 | Wins | Losses | Total |    Avg |
-| ---: | ------------------------------------ | ---: | -----: | ----: | -----: |
-|    1 | Northside Worship Ctr., Cumming, GA* |   10 |      1 |  2480 | 225.91 |
-|    2 | Praise Assembly Garfield, NJ*        |   10 |      1 |  2365 | 215.91 |
-|    3 | Dayspring A/G, Bowling Green, OH*    |   10 |      1 |  2145 |    195 |
-|    4 | Manassas A/G, Bristow, VA            |    7 |      4 |  2220 | 205.19 |
-|    5 | Martha’s Vineyard, MA                |    7 |      4 |  1610 | 147.09 |
-|    6 | South Hills A/G, Bethel Park, PA     |    6 |      5 |  1255 |  121.5 |
-|    7 | Radiant Life, Elkhart, IN            |    5 |      6 |  1250 | 119.57 |
-|    8 | Word of Life A/G, Springfield, VA    |    4 |      7 |  1345 | 123.95 |
-|    9 | Evangel Heights A/G, Sarver, PA      |    3 |      8 |  1180 | 109.29 |
-|   10 | Newport A/G, Newport, PA             |    2 |      9 |   595 |  54.77 |
-|   11 | Bethany C.C. , Mendon, MA            |    1 |     10 |   490 |  52.13 |
-|   12 | First A/G, Waynesburg, PA            |    1 |     10 |   420 |  41.65 |
+|    # | Team                                 |    W |    L | Total |    Avg |
+| ---: | ------------------------------------ | ---: | ---: | ----: | -----: |
+|    1 | Northside Worship Ctr., Cumming, GA* |   10 |    1 |  2480 | 225.91 |
+|    2 | Praise Assembly Garfield, NJ*        |   10 |    1 |  2365 | 215.91 |
+|    3 | Dayspring A/G, Bowling Green, OH*    |   10 |    1 |  2145 |    195 |
+|    4 | Manassas A/G, Bristow, VA            |    7 |    4 |  2220 | 205.19 |
+|    5 | Martha’s Vineyard, MA                |    7 |    4 |  1610 | 147.09 |
+|    6 | South Hills A/G, Bethel Park, PA     |    6 |    5 |  1255 |  121.5 |
+|    7 | Radiant Life, Elkhart, IN            |    5 |    6 |  1250 | 119.57 |
+|    8 | Word of Life A/G, Springfield, VA    |    4 |    7 |  1345 | 123.95 |
+|    9 | Evangel Heights A/G, Sarver, PA      |    3 |    8 |  1180 | 109.29 |
+|   10 | Newport A/G, Newport, PA             |    2 |    9 |   595 |  54.77 |
+|   11 | Bethany C.C. , Mendon, MA            |    1 |   10 |   490 |  52.13 |
+|   12 | First A/G, Waynesburg, PA            |    1 |   10 |   420 |  41.65 |
 
 * Top 3 teams beat each other
 
@@ -163,20 +163,20 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                 | Wins | Losses | Total |    Avg |
-| ---: | ------------------------------------ | ---: | -----: | ----: | -----: |
-|    1 | Journey Church, Bridgeville, PA*     |   10 |      1 |  2200 | 200.76 |
-|    2 | Dayspring A/G, Bowling Green, OH*    |   10 |      1 |  1920 | 174.55 |
-|    3 | First A/G, Raleigh, NC**             |    8 |      3 |  1185 | 107.73 |
-|    4 | Evangel Church, Scotch Plains, NJ**  |    8 |      3 |  1285 | 117.27 |
-|    5 | Calvary Temple, Philadelphia, PA     |    7 |      4 |  1185 | 108.88 |
-|    6 | Living Hope A/G, Waterloo, NY        |    6 |      5 |  1040 |  94.65 |
-|    7 | First A/G, Waynesburg, PA            |    6 |      5 |   975 |  89.41 |
-|    8 | Praise A/G, Garfield, NJ             |    5 |      6 |   730 |  66.36 |
-|    9 | Living Waters Chapel, Lebanon, PA    |    5 |      6 |   340 |  27.41 |
-|   10 | Word of Life A/G, Springfield, VA    |    3 |      8 |   485 |     44 |
-|   11 | Christian Life A/G, Chambersburg, PA |    2 |      9 |    60 |   7.29 |
-|   12 | Faith A/G, Uniontown, PA             |    0 |     11 |     0 |      0 |
+|    # | Team                                 |    W |    L | Total |    Avg |
+| ---: | ------------------------------------ | ---: | ---: | ----: | -----: |
+|    1 | Journey Church, Bridgeville, PA*     |   10 |    1 |  2200 | 200.76 |
+|    2 | Dayspring A/G, Bowling Green, OH*    |   10 |    1 |  1920 | 174.55 |
+|    3 | First A/G, Raleigh, NC**             |    8 |    3 |  1185 | 107.73 |
+|    4 | Evangel Church, Scotch Plains, NJ**  |    8 |    3 |  1285 | 117.27 |
+|    5 | Calvary Temple, Philadelphia, PA     |    7 |    4 |  1185 | 108.88 |
+|    6 | Living Hope A/G, Waterloo, NY        |    6 |    5 |  1040 |  94.65 |
+|    7 | First A/G, Waynesburg, PA            |    6 |    5 |   975 |  89.41 |
+|    8 | Praise A/G, Garfield, NJ             |    5 |    6 |   730 |  66.36 |
+|    9 | Living Waters Chapel, Lebanon, PA    |    5 |    6 |   340 |  27.41 |
+|   10 | Word of Life A/G, Springfield, VA    |    3 |    8 |   485 |     44 |
+|   11 | Christian Life A/G, Chambersburg, PA |    2 |    9 |    60 |   7.29 |
+|   12 | Faith A/G, Uniontown, PA             |    0 |   11 |     0 |      0 |
 
 \* Bridgeville beat Bowling Green.\
 \*\* Rauleigh beat Scotch Plains.
@@ -229,20 +229,20 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                   | Wins | Losses | Total |    Avg |
-| ---: | -------------------------------------- | ---: | -----: | ----: | -----: |
-|    1 | Newport A/G, Newport, PA*              |    9 |      2 |  2050 | 186.36 |
-|    2 | First A/G, Binghamton, NY*             |    9 |      2 |  2180 | 198.18 |
-|    3 | Walnut Grove School, West Mifflin, PA* |    9 |      2 |  2270 | 206.87 |
-|    4 | South Hills A/G, Bethel Park, PA       |    8 |      3 |  2075 | 197.05 |
-|    5 | First A/G, Elkton, MD                  |    8 |      3 |  1800 | 165.54 |
-|    6 | Living Hope A/G, Waterloo, NY          |    6 |      5 |  1040 |  94.65 |
-|    7 | Worship Center, Leesburg, VA           |    6 |      5 |   955 | 124.56 |
-|    8 | State College A/G, State College, PA   |    5 |      6 |   715 |  66.99 |
-|    9 | Mountain Top A/G, Mountaintop, PA      |    3 |      8 |   280 |  25.45 |
-|   10 | Vision Ministries, Toledo, OH          |    2 |      9 |   310 |  36.86 |
-|   11 | Crossway A/G, Valencia, PA             |    2 |      9 |   170 |  24.28 |
-|   12 | Faith A/G, Uniontown, PA               |    0 |     11 |     0 |      0 |
+|    # | Team                                   |    W |    L | Total |    Avg |
+| ---: | -------------------------------------- | ---: | ---: | ----: | -----: |
+|    1 | Newport A/G, Newport, PA*              |    9 |    2 |  2050 | 186.36 |
+|    2 | First A/G, Binghamton, NY*             |    9 |    2 |  2180 | 198.18 |
+|    3 | Walnut Grove School, West Mifflin, PA* |    9 |    2 |  2270 | 206.87 |
+|    4 | South Hills A/G, Bethel Park, PA       |    8 |    3 |  2075 | 197.05 |
+|    5 | First A/G, Elkton, MD                  |    8 |    3 |  1800 | 165.54 |
+|    6 | Living Hope A/G, Waterloo, NY          |    6 |    5 |  1040 |  94.65 |
+|    7 | Worship Center, Leesburg, VA           |    6 |    5 |   955 | 124.56 |
+|    8 | State College A/G, State College, PA   |    5 |    6 |   715 |  66.99 |
+|    9 | Mountain Top A/G, Mountaintop, PA      |    3 |    8 |   280 |  25.45 |
+|   10 | Vision Ministries, Toledo, OH          |    2 |    9 |   310 |  36.86 |
+|   11 | Crossway A/G, Valencia, PA             |    2 |    9 |   170 |  24.28 |
+|   12 | Faith A/G, Uniontown, PA               |    0 |   11 |     0 |      0 |
 
 \* Newport beat both Binghamton and West Mifflin. Binghamton beat West Mifflin
 

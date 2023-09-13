@@ -18,12 +18,12 @@ Beating the oncoming blizzard headed directly for northern Ohio became a bit mor
 
 ### Top Teams
 
-| Team                | City             | W - L |
-| ------------------- | ---------------- | ----- |
-| Allison Park A/G #1 | Allison Park, PA | 6-0   |
-| Alpha A/G           | Clarion, PA      | 5-1   |
-| First A/G           | Elkhart, IN      | 4-2   |
-| Allison Park A/G #2 | Allison Park, PA | 3-3   |
+| Team                | City             |    W |    L |
+| ------------------- | ---------------- | ---: | ---: |
+| Allison Park A/G #1 | Allison Park, PA |    6 |    0 |
+| Alpha A/G           | Clarion, PA      |    5 |    1 |
+| First A/G           | Elkhart, IN      |    4 |    2 |
+| Allison Park A/G #2 | Allison Park, PA |    3 |    3 |
 
 ### Top Individuals
 
@@ -37,11 +37,11 @@ Beating the oncoming blizzard headed directly for northern Ohio became a bit mor
 
 ### Top Teams
 
-| Team              | City              | W - L |
-| ----------------- | ----------------- | ----- |
-| First A/G         | Crawfordsville,IN | 5-0   |
-| King's Chapel A/G | Springfield,MO    | 4-1   |
-|                   | Niagara Falls, NY | 3-2   |
+| Team              | City              |    W |    L |
+| ----------------- | ----------------- | ---: | ---: |
+| First A/G         | Crawfordsville,IN |    5 |    0 |
+| King's Chapel A/G | Springfield,MO    |    4 |    1 |
+|                   | Niagara Falls, NY |    3 |    2 |
 
 ### Top Individuals 
 

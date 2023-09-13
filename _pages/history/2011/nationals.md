@@ -38,7 +38,7 @@ Team photos are available for purchase from Larry Mullins.
 
 Where ties exist, they are broken by head-to-head, then by point-differential, then by points. The top four places were decided by the Final Four playoffs.
 
-| Rank | Team                                         | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                         | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | -------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | Owasso First A/G, Owasso, OK                 | 17 / 2 |  4190 | 220.53 |   2800 |     147.37 |
 |    2 | Praise A/G, Garfield, NJ                     | 18 / 1 |  3580 | 188.42 |   2175 |     114.47 |
@@ -149,7 +149,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Teams
 
-| Rank | Team                                                    | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                                    | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | ------------------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | Overland Park First A/G, Overland Park, KS              | 17 / 2 |  2985 | 157.11 |   1815 |      95.53 |
 |    2 | Timberline Church, Fort Collins, CO                     | 16 / 3 |  2940 | 154.74 |   1450 |      76.32 |
@@ -255,7 +255,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Group A
 
-| Rank | Team                                          | Record | Total |
+|    # | Team                                          | Record | Total |
 | ---: | --------------------------------------------- | ------ | ----: |
 |    1 | Owasso First A/G, Owasso, OK                  | 9 / 0  |  1685 |
 |    2 | Living Hope Worship Center, Swedesboro, NJ    | 7 / 2  |  1150 |
@@ -270,7 +270,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Group B
 
-| Rank | Team                                       | Record | Total |
+|    # | Team                                       | Record | Total |
 | ---: | ------------------------------------------ | ------ | ----: |
 |    1 | Praise A/G, Garfield, NJ                   | 8 / 1  |  1655 |
 |    2 | Christian Temple, Houston, TX              | 7 / 2  |  1265 |
@@ -285,7 +285,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Group C
 
-| Rank | Team                                                   | Record | Total |
+|    # | Team                                                   | Record | Total |
 | ---: | ------------------------------------------------------ | ------ | ----: |
 |    1 | Victorious Life Church, Wesley Chapel, FL              | 9 / 0  |  2075 |
 |    2 | Manassas A/G, Bristow, VA                              | 7 / 2  |   995 |
@@ -300,7 +300,7 @@ If possible, ties are broken by number of quiz-outs.
 
 ### Group D
 
-| Rank | Team                                     | Record | Total |
+|    # | Team                                     | Record | Total |
 | ---: | ---------------------------------------- | ------ | ----: |
 |    1 | Dayspring A/G, Bowling Green, OH         | 7 / 2  |  1160 |
 |    2 | Living Hope Church, Colorado Springs, CO | 7 / 2  |  1110 |

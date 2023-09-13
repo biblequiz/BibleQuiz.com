@@ -18,7 +18,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                                     | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team                                              | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ------------------------------------------------- | ----- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | "Labor Pains Begin" - Redeemer Church (Utica, NY) | 8 / 1 |  2275 | 252.7 |   17 |  86% |   24 |   55 |   27 |
 |    2 | Praise Church (Garfield, NJ)                      | 8 / 1 |  2370 | 263.3 |   21 |  86% |   21 |   51 |   47 |
@@ -35,7 +35,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|    # | Quizzer            | Team / Church                                     | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Quizzer            | Team                                              | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ------------------ | ------------------------------------------------- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Ryan Schiebel      | Praise Church (Garfield, NJ)                      |  1210 | 134.4 |    9 |  92% |   21 |   21 |    3 |
 |    2 | Glory Stevens      | "Labor Pains Begin" - Redeemer Church (Utica, NY) |  1135 | 126.1 |    9 |  94% |   12 |   29 |    4 |
@@ -70,7 +70,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                   | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team                            | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ------------------------------- | ----- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | UECF Warriors 1 (Westfield, NJ) | 3 / 1 |   610 | 152.5 |    2 |  89% |    2 |   18 |   21 |
 |    2 | UECF Warriors 2 (Westfield, NJ) | 2 / 2 |   530 | 132.5 |    4 |  90% |    4 |   15 |    7 |
@@ -80,7 +80,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|    # | Quizzer         | Team / Church                   | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Quizzer         | Team                            | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | --------------- | ------------------------------- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Andrew Vellore  | UECF Warriors 2 (Westfield, NJ) |   470 | 117.5 |    4 |  87% |    4 |   15 |    1 |
 |    2 | Ethan Schiebel  | Praise Church (Garfield, NJ)    |   415 | 103.8 |    3 |  86% |    4 |   12 |    3 |

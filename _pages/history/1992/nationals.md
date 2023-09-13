@@ -28,25 +28,25 @@ The top scorer at the 1992 National Finals was Josh Weber of Lakeland, FL. Josh 
 
 ### Teams
 
-| Rank | Team                                  | Record | Total | Margin |
-|-----:|---------------------------------------|--------|------:|-------:|
-| 1    | Parkcrest A/G, Springfield, MO       | 14 / 2 | 3050  | 1775   |
-| 2    | Radiant Church, Colorado Springs, CO  | 13 / 3 | 2530  | 1240   |
-| 3    | First A/G, Bartlesville, OK           | 13 / 3 | 2870  | 1555   |
-| 4    | First A/G, St. Charles, MO            | 10 / 6 | 2265  | 950    |
-| 5    | Braeswood A/G, Houston, TX            | 10 / 6 | 2475  | 985    |
-| 6    | Life Center A/G, Lakewood, CA         | 10 / 6 | 2235  | 610    |
-| 7    | Central A/G, Springfield, MO          | 9 / 7  | 2190  | 460    |
-| 8    | First A/G, Warren, OH                 | 9 / 7  | 2010  | 440    |
-| 9    | Park A/G, St. Louis Park, MN          | 9 / 7  | 1810  | 130    |
-| 10   | Carpenter's Home Church, Lakeland, FL | 8 / 8  | 2040  | -40    |
-| 11   | Free Gospel A/G, Flushing, NY         | 8 / 8  | 2455  | 845    |
-| 12   | First A/G, Montgomery, AL             | 7 / 9  | 1615  | -320   |
-| 13   | Allison Park A/G, Allison Park, PA    | 6 / 10 | 2110  | 230    |
-| 14   | First A/G, Merrillville, IN           | 4 / 12 | 1245  | -1450  |
-| 15   | Renton A/G, Renton, WA                | 3 / 13 | 985   | -1705  |
-| 16   | Deer Lodge A/G, Deer Lodge, MT        | 1 / 15 | 825   | -1990  |
-| 17   | Bayview Chapel A/G, Kaneohe, HI       | 0 / 16 | 40    | -3715  |
+|    # | Team                                  | Record | Total | Margin |
+| ---: | ------------------------------------- | ------ | ----: | -----: |
+|    1 | Parkcrest A/G, Springfield, MO        | 14 / 2 |  3050 |   1775 |
+|    2 | Radiant Church, Colorado Springs, CO  | 13 / 3 |  2530 |   1240 |
+|    3 | First A/G, Bartlesville, OK           | 13 / 3 |  2870 |   1555 |
+|    4 | First A/G, St. Charles, MO            | 10 / 6 |  2265 |    950 |
+|    5 | Braeswood A/G, Houston, TX            | 10 / 6 |  2475 |    985 |
+|    6 | Life Center A/G, Lakewood, CA         | 10 / 6 |  2235 |    610 |
+|    7 | Central A/G, Springfield, MO          | 9 / 7  |  2190 |    460 |
+|    8 | First A/G, Warren, OH                 | 9 / 7  |  2010 |    440 |
+|    9 | Park A/G, St. Louis Park, MN          | 9 / 7  |  1810 |    130 |
+|   10 | Carpenter's Home Church, Lakeland, FL | 8 / 8  |  2040 |    -40 |
+|   11 | Free Gospel A/G, Flushing, NY         | 8 / 8  |  2455 |    845 |
+|   12 | First A/G, Montgomery, AL             | 7 / 9  |  1615 |   -320 |
+|   13 | Allison Park A/G, Allison Park, PA    | 6 / 10 |  2110 |    230 |
+|   14 | First A/G, Merrillville, IN           | 4 / 12 |  1245 |  -1450 |
+|   15 | Renton A/G, Renton, WA                | 3 / 13 |   985 |  -1705 |
+|   16 | Deer Lodge A/G, Deer Lodge, MT        | 1 / 15 |   825 |  -1990 |
+|   17 | Bayview Chapel A/G, Kaneohe, HI       | 0 / 16 |    40 |  -3715 |
 
 ### Individuals
 
@@ -55,14 +55,14 @@ The top scorer at the 1992 National Finals was Josh Weber of Lakeland, FL. Josh 
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Quizzer         | Church                  | Total | Avg  |
-|-----:|-----------------|-------------------------|------:|-----:|
-| 1    | Josh Weber      | Lakeland, FL            | ????  | ???? |
-| 2    | Brian Boeninger | Colorado Springs, CO    | ????  | ???? |
-| 3    | Bryan Wootton   | Bartlesville, OK        | ????  | ???? |
-| 4    | Lisa Wootton    | Bartlesville, OK        | ????  | ???? |
-| 5    | Jennifer Zarro  | St. Charles, MO         | ????  | ???? |
-| 6    | Karl Dawson     | Central Springfield, MO | ????  | ???? |
+|    # | Quizzer         | Church                  | Total |  Avg |
+| ---: | --------------- | ----------------------- | ----: | ---: |
+|    1 | Josh Weber      | Lakeland, FL            |  ???? | ???? |
+|    2 | Brian Boeninger | Colorado Springs, CO    |  ???? | ???? |
+|    3 | Bryan Wootton   | Bartlesville, OK        |  ???? | ???? |
+|    4 | Lisa Wootton    | Bartlesville, OK        |  ???? | ???? |
+|    5 | Jennifer Zarro  | St. Charles, MO         |  ???? | ???? |
+|    6 | Karl Dawson     | Central Springfield, MO |  ???? | ???? |
 
 ## Teams
 

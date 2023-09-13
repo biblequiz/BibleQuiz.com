@@ -26,119 +26,119 @@ The top scorer at the 1993 National Finals was Lisa Wootton of Bartlesville, OK.
 
 ### Teams
 
-| Rank | Team                                  | Record | Total | Avg    | Total Margin | Avg Margin |
-|-----:|---------------------------------------|--------|------:|-------:|-------------:|-----------:|
-| 1    | Life Center A/G, Lakewood, CA         | 18 / 1 | 3480  | 179.21 | 2325         | 122.37     |
-| 2    | First A/G, Bartlesville, OK           | 17 / 2 | 3775  | 198.68 | 2770         | 145.79     |
-| 3    | Braeswood A/G, Houston, TX            | 15 / 4 | 3275  | 172.37 | 2135         | 112.37     |
-| 4    | First A/G, Santa Ana, CA              | 15 / 4 | 2275  | 119.74 | 670          | 30.26      |
-| 5    | First A/G, Atlanta, TX                | 14 / 5 | 2240  | 117.89 | 770          | 40.53      |
-| 6    | Christian Life Church, Farmington, MN | 13 / 6 | 2225  | 117.11 | 565          | 29.74      |
-| 7    | Allison Park A/G, Allison Park, PA    | 13 / 6 | 2125  | 111.84 | 725          | 38.16      |
-| 8    | Park Crest A/G, Springfield, MO       | 13 / 6 | 2320  | 112.11 | 680          | 35.79      |
-| 9    | First A/G, Warren, OH                 | 12 / 7 | 1460  | 76.84  | -50          | -2.63      |
-| 10   | Radiant Church, Colorado Springs, CO  | 8 / 11 | 1330  | 70     | -580         | -30.53     |
-| 11   | Hermiston A/G, Hermiston, OR          | 7 / 12 | 1525  | 80.26  | -500         | -26.32     |
-| 12   | First A/G, Merrillville, IN           | 7 / 12 | 1460  | 76.84  | -330         | -17.37     |
-| 13   | Faith A/G, Orlando, FL                | 7 / 12 | 1215  | 63.95  | -815         | -42.89     |
-| 14   | Park A/G, St. Louis Park, MN          | 6 / 13 | 1225  | 64.47  | -845         | -44.47     |
-| 15   | Central A/G, Springfield, MO          | 5 / 14 | 1180  | 62.11  | -1160        | 61.05      |
-| 16   | Calvary A/G, West Bend, WI            | 5 / 14 | 1455  | 76.58  | -570         | -30        |
-| 17   | First A/G, Ocala, FL                  | 5 / 14 | 990   | 52.11  | -500         | -26.31     |
-| 18   | Grace A/G, Syracuse, NY               | 5 / 14 | 1455  | 76.58  | -750         | -39.47     |
-| 19   | Calvary A/G, Elkhart, IN              | 4 / 15 | 650   | 34.21  | -1690        | -88.95     |
-| 20   | Trinity A/G, Lander, WY               | 1 / 18 | 305   | 16.05  | -2850        | -150       |
+|    # | Team                                  | Record | Total |    Avg | Total Margin | Avg Margin |
+| ---: | ------------------------------------- | ------ | ----: | -----: | -----------: | ---------: |
+|    1 | Life Center A/G, Lakewood, CA         | 18 / 1 |  3480 | 179.21 |         2325 |     122.37 |
+|    2 | First A/G, Bartlesville, OK           | 17 / 2 |  3775 | 198.68 |         2770 |     145.79 |
+|    3 | Braeswood A/G, Houston, TX            | 15 / 4 |  3275 | 172.37 |         2135 |     112.37 |
+|    4 | First A/G, Santa Ana, CA              | 15 / 4 |  2275 | 119.74 |          670 |      30.26 |
+|    5 | First A/G, Atlanta, TX                | 14 / 5 |  2240 | 117.89 |          770 |      40.53 |
+|    6 | Christian Life Church, Farmington, MN | 13 / 6 |  2225 | 117.11 |          565 |      29.74 |
+|    7 | Allison Park A/G, Allison Park, PA    | 13 / 6 |  2125 | 111.84 |          725 |      38.16 |
+|    8 | Park Crest A/G, Springfield, MO       | 13 / 6 |  2320 | 112.11 |          680 |      35.79 |
+|    9 | First A/G, Warren, OH                 | 12 / 7 |  1460 |  76.84 |          -50 |      -2.63 |
+|   10 | Radiant Church, Colorado Springs, CO  | 8 / 11 |  1330 |     70 |         -580 |     -30.53 |
+|   11 | Hermiston A/G, Hermiston, OR          | 7 / 12 |  1525 |  80.26 |         -500 |     -26.32 |
+|   12 | First A/G, Merrillville, IN           | 7 / 12 |  1460 |  76.84 |         -330 |     -17.37 |
+|   13 | Faith A/G, Orlando, FL                | 7 / 12 |  1215 |  63.95 |         -815 |     -42.89 |
+|   14 | Park A/G, St. Louis Park, MN          | 6 / 13 |  1225 |  64.47 |         -845 |     -44.47 |
+|   15 | Central A/G, Springfield, MO          | 5 / 14 |  1180 |  62.11 |        -1160 |      61.05 |
+|   16 | Calvary A/G, West Bend, WI            | 5 / 14 |  1455 |  76.58 |         -570 |        -30 |
+|   17 | First A/G, Ocala, FL                  | 5 / 14 |   990 |  52.11 |         -500 |     -26.31 |
+|   18 | Grace A/G, Syracuse, NY               | 5 / 14 |  1455 |  76.58 |         -750 |     -39.47 |
+|   19 | Calvary A/G, Elkhart, IN              | 4 / 15 |   650 |  34.21 |        -1690 |     -88.95 |
+|   20 | Trinity A/G, Lander, WY               | 1 / 18 |   305 |  16.05 |        -2850 |       -150 |
 
 ### Individuals
 
-| Rank     | Quizzer             | Church                      | Total | Avg    | QO Fwd | QO Back |
-|---------:|---------------------|-----------------------------|------:|-------:|-------:|--------:|
-| 1        | Lisa Wootton        | Bartlesville, OK            | 1920  | 101.05 | 6      | 1       |
-| 2        | Dan Smith           | Lakewood, CA                | 1700  | 89.47  | 10     | 3       |
-| 3        | Keith Grabill       | Park Crest, Springfield, MO | 1690  | 88.95  | 9      | 7       |
-| 4        | Jennifer Gibson     | Atlanta, TX                 | 1565  | 82.37  | 3      | 2       |
-| 5        | Stacy Hart          | Hermiston, OR               | 1415  | 74.47  | 10     | 1       |
-| 6        | Bryan Wootton       | Bartlesville, OK            | 1370  | 72.11  | 7      | 2       |
-| 7        | Dionne Jobe         | Houston, TX                 | 1360  | 71.58  | 7      | 3       |
-| 8        | Jeremy Rodriguez    | Lakewood, CA                | 1315  | 69.21  | 9      | 2       |
-| 9        | JoEllyn Kruger      | Farmington, MN              | 1270  | 66.84  | 8      | 6       |
-| 10       | Jason Sorens        | Houston, TX                 | 1255  | 66.05  | 7      | 2       |
-| 11       | Mark Bane           | Merrillville, IN            | 1195  | 62.89  | 9      | 7       |
-| 12       | Sanejo Leonard      | Santa Ana, CA               | 1160  | 61.05  | 4      | 1       |
-| 13       | Joy Daigle          | Syracuse, NY                | 1085  | 57.11  | 8      | 2       |
-| 14       | Daryn Trout         | Allison Park, PA            | 1050  | 55.26  | 5      | 6       |
-| 15       | Tanya Peterson      | Farmington, MN              | 960   | 50.53  | 8      | 5       |
-| 16       | Karl Dawson         | Central, Springfield, MO    | 930   | 48.95  | 4      | 11      |
-| 17       | Daniel Potts        | Santa Ana, CA               | 920   | 48.42  | 5      | 5       |
-| 18       | Jennifer Waldner    | West Bend, WI               | 900   | 47.37  | 5      | 2       |
-| 19       | Katey Callahan      | Allison Park, PA            | 875   | 46.05  | 3      | 2       |
-| 20       | Lisa Eutsey         | Warren, OH                  | 720   | 37.89  | 3      | 5       |
-| 21       | Michele Gennaro     | Ocala, FL                   | 720   | 37.89  |        | 1       |
-| 22       | Bryan Valentine     | St. Louis Park, MN          | 695   | 36.58  | 5      | 8       |
-| 23       | Thalia Shortridge   | Houston, TX                 | 680   | 35.79  | 2      | 1       |
-| 24       | Kristin Jackman     | Orlando, FL                 | 635   | 33.42  | 1      | 3       |
-| 25       | Becky Wilmoth       | Warren, OH                  | 605   | 31.84  | 3      | 9       |
-| 26       | Eric Lind           | Colorado Springs, CO        | 605   | 31.84  | 4      | 8       |
-| 27       | Suzanna Waldner     | West Bend, WI               | 540   | 28.42  | 1      | 2       |
-| 28       | Jimmy Minardi       | Orlando, FL                 | 515   | 27.11  |        | 6       |
-| 29       | Satish Sangapu      | Bartlesville, OK            | 495   | 26.05  | 2      | 1       |
-| 30       | Sarah Shewey        | Lakewood, CA                | 465   | 24.47  | 1      | 1       |
-| 31       | Anna Marie Gibson   | Atlanta, TX                 | 450   | 23.68  |        |         |
-| 32       | Brian Boeninger     | Colorado Springs, CO        | 410   | 21.58  | 1      | 2       |
-| 33       | Chad Nelson         | Park Crest, Springfield, MO | 335   | 17.63  |        |         |
-| 34       | John Fry            | St. Louis Park, MO          | 335   | 17.63  |        | 1       |
-| 35       | Rochelle Cathcart   | Park Crest, Springfield, MO | 320   | 16.84  |        |         |
-| 36       | Jeff Carlson        | Elkhart, IN                 | 320   | 16.84  |        | 1       |
-| 37       | Patrick David       | Colorado Springs, CO        | 305   | 16.05  | 1      | 9       |
-| 38       | Tina Nardozzi       | Syracuse, NY                | 300   | 15.79  |        |         |
-| 39       | Derrick Miller      | Elkhart, IN                 | 225   | 11.84  |        | 3       |
-| 40       | Clayton Ivey        | Ocala, FL                   | 215   | 11.32  |        | 3       |
-| 41       | Daniel Leonard      | Santa Ana, CA               | 195   | 10.26  |        |         |
-| 42       | Sarah Haney         | Allison Park, PA            | 190   | 10     | 1      | 1       |
-| 43       | David Schweitzer    | Merrillville, IN            | 175   | 9.21   |        |         |
-| 44       | John Washam         | Central, Springfield, MO    | 145   | 7.63   |        |         |
-| 45       | John Angelis        | Warren, OH                  | 135   | 7.11   |        | 2       |
-| 46       | Amy Fry             | St. Louis Park, MN          | 135   | 7.11   |        |         |
-| 47       | Jenny Himmelright   | Orlando, FL                 | 115   | 6.05   |        |         |
-| **47\*** | Jennifer Lemke      | Atlanta, TX                 | 115   | 6.05   |        |         |
-| **47\*** | Grayson Gunsch      | Lander, WY                  | 115   | 6.05   |        |         |
-| 50       | Stephanie Hunter    | Elkhart, IN                 | 110   | 5.79   |        |         |
-| 51       | David Parkhurst     | Lander, WY                  | 110   | 5.79   |        | 1       |
-| 52       | Holly Haltom        | Atlanta, TX                 | 110   | 5.79   |        | 2       |
-| 53       | Ryan Neese          | Merrillville, IN            | 105   | 5.53   |        | 1       |
-| 54       | David Coghlin       | Lander, WY                  | 80    | 4.21   |        | 1       |
-| 55       | Sharla Waggoner     | Central, Springfield, MO    | 80    | 4.21   |        | 2       |
-| 56       | Catherine Lincoln   | Syracuse, NY                | 75    | 3.95   |        |         |
-| 57       | Kerri Miller        | Hermiston, OR               | 60    | 3.16   |        |         |
-| 58       | Adam Currington     | Ocala, FL                   | 55    | 2.89   |        |         |
-| 59       | Gretchen Harn       | Hermiston, OR               | 40    | 2.11   |        |         |
-| **59\*** | Ana Lorvick         | St. Louis Park, MN          | 40    | 2.11   |        |         |
-| 61       | Joanna Higginbotham | Hermiston, OR               | 30    | 1.58   |        |         |
-| 62       | Luisa Oyola         | Central, Springfield, MO    | 25    | 1.32   |        |         |
-| 63       | Scott Bland         | Orlando, FL                 | 20    | 1.05   |        |         |
-| **63\*** | Jennifer Shim       | Allison Park, PA            | 20    | 1.05   |        |         |
-| **63\*** | Jacinda Guell       | West Bend, WI               | 20    | 1.05   |        |         |
-| **63\*** | Liz Dunn            | St. Louis Park, MN          | 20    | 1.05   |        |         |
-| 67       | Kristi Grabill      | Park Crest, Springfield, MO | 10    | 0.53   |        |         |
-| **67\*** | John Steiger        | Colorado Springs, CO        | 10    | 0.53   |        |         |
-| 69       | Jason Bouwmeester   | Farmington, MN              | 0     | 0      |        |         |
-| **69\*** | Tera Schmitz        | Farmington, MN              |       |        | 1      |         |
-| **69\*** | MaryAnne Welsheimer | Hermiston, OR               | 0     | 0      |        |         |
-| **69\*** | Randy Cathcart      | Park Crest, Springfield, MO | 0     | 0      |        |         |
-| **69\*** | Jennifer Koiter     | Colorado Springs, CO        | 0     | 0      |        |         |
-| **69\*** | Megan Roberts       | Colorado Springs, CO        | 0     | 0      |        |         |
-| **69\*** | Samuel Branum       | Ocala, FL                   | 0     | 0      |        |         |
-| **69\*** | Aron Curington      | Ocala, FL                   | 0     | 0      |        |         |
-| **69\*** | Eric Gennaro        | Ocala, FL                   | 0     | 0      |        |         |
-| **69\*** | Leslie Bienz        | Elkhart, IN                 | 0     | 0      |        |         |
-| **69\*** | Jeffrey McClaflin   | Central, Springfield, MO    | 0     | 0      |        |         |
-| **69\*** | Celeste Lebeda      | Lander, WY                  | 0     | 0      |        |         |
-| **69\*** | Clorissa Swingen    | West Bend, WI               | 0     | 0      |        |         |
-| **69\*** | Caroline Waldner    | West Bend, WI               | 0     | 0      |        |         |
-| 83       | Rich Fenton         | Allison Park, PA            | -5    | -0.26  |        |         |
-| 84       | Jennifer Nelson     | Orlando, FL                 | -10   | -0.53  |        |         |
-| **84\*** | Cory Hart           | Hermiston, OR               | -10   | -0.53  |        |         |
-| 86       | Bob Goettel         | Merrillville, IN            | -15   | -0.79  |        | 3       |
+|     Rank | Quizzer             | Church                      | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ------------------- | --------------------------- | ----: | -----: | -----: | ----: |
+|        1 | Lisa Wootton        | Bartlesville, OK            |  1920 | 101.05 |      6 |     1 |
+|        2 | Dan Smith           | Lakewood, CA                |  1700 |  89.47 |     10 |     3 |
+|        3 | Keith Grabill       | Park Crest, Springfield, MO |  1690 |  88.95 |      9 |     7 |
+|        4 | Jennifer Gibson     | Atlanta, TX                 |  1565 |  82.37 |      3 |     2 |
+|        5 | Stacy Hart          | Hermiston, OR               |  1415 |  74.47 |     10 |     1 |
+|        6 | Bryan Wootton       | Bartlesville, OK            |  1370 |  72.11 |      7 |     2 |
+|        7 | Dionne Jobe         | Houston, TX                 |  1360 |  71.58 |      7 |     3 |
+|        8 | Jeremy Rodriguez    | Lakewood, CA                |  1315 |  69.21 |      9 |     2 |
+|        9 | JoEllyn Kruger      | Farmington, MN              |  1270 |  66.84 |      8 |     6 |
+|       10 | Jason Sorens        | Houston, TX                 |  1255 |  66.05 |      7 |     2 |
+|       11 | Mark Bane           | Merrillville, IN            |  1195 |  62.89 |      9 |     7 |
+|       12 | Sanejo Leonard      | Santa Ana, CA               |  1160 |  61.05 |      4 |     1 |
+|       13 | Joy Daigle          | Syracuse, NY                |  1085 |  57.11 |      8 |     2 |
+|       14 | Daryn Trout         | Allison Park, PA            |  1050 |  55.26 |      5 |     6 |
+|       15 | Tanya Peterson      | Farmington, MN              |   960 |  50.53 |      8 |     5 |
+|       16 | Karl Dawson         | Central, Springfield, MO    |   930 |  48.95 |      4 |    11 |
+|       17 | Daniel Potts        | Santa Ana, CA               |   920 |  48.42 |      5 |     5 |
+|       18 | Jennifer Waldner    | West Bend, WI               |   900 |  47.37 |      5 |     2 |
+|       19 | Katey Callahan      | Allison Park, PA            |   875 |  46.05 |      3 |     2 |
+|       20 | Lisa Eutsey         | Warren, OH                  |   720 |  37.89 |      3 |     5 |
+|       21 | Michele Gennaro     | Ocala, FL                   |   720 |  37.89 |        |     1 |
+|       22 | Bryan Valentine     | St. Louis Park, MN          |   695 |  36.58 |      5 |     8 |
+|       23 | Thalia Shortridge   | Houston, TX                 |   680 |  35.79 |      2 |     1 |
+|       24 | Kristin Jackman     | Orlando, FL                 |   635 |  33.42 |      1 |     3 |
+|       25 | Becky Wilmoth       | Warren, OH                  |   605 |  31.84 |      3 |     9 |
+|       26 | Eric Lind           | Colorado Springs, CO        |   605 |  31.84 |      4 |     8 |
+|       27 | Suzanna Waldner     | West Bend, WI               |   540 |  28.42 |      1 |     2 |
+|       28 | Jimmy Minardi       | Orlando, FL                 |   515 |  27.11 |        |     6 |
+|       29 | Satish Sangapu      | Bartlesville, OK            |   495 |  26.05 |      2 |     1 |
+|       30 | Sarah Shewey        | Lakewood, CA                |   465 |  24.47 |      1 |     1 |
+|       31 | Anna Marie Gibson   | Atlanta, TX                 |   450 |  23.68 |        |       |
+|       32 | Brian Boeninger     | Colorado Springs, CO        |   410 |  21.58 |      1 |     2 |
+|       33 | Chad Nelson         | Park Crest, Springfield, MO |   335 |  17.63 |        |       |
+|       34 | John Fry            | St. Louis Park, MO          |   335 |  17.63 |        |     1 |
+|       35 | Rochelle Cathcart   | Park Crest, Springfield, MO |   320 |  16.84 |        |       |
+|       36 | Jeff Carlson        | Elkhart, IN                 |   320 |  16.84 |        |     1 |
+|       37 | Patrick David       | Colorado Springs, CO        |   305 |  16.05 |      1 |     9 |
+|       38 | Tina Nardozzi       | Syracuse, NY                |   300 |  15.79 |        |       |
+|       39 | Derrick Miller      | Elkhart, IN                 |   225 |  11.84 |        |     3 |
+|       40 | Clayton Ivey        | Ocala, FL                   |   215 |  11.32 |        |     3 |
+|       41 | Daniel Leonard      | Santa Ana, CA               |   195 |  10.26 |        |       |
+|       42 | Sarah Haney         | Allison Park, PA            |   190 |     10 |      1 |     1 |
+|       43 | David Schweitzer    | Merrillville, IN            |   175 |   9.21 |        |       |
+|       44 | John Washam         | Central, Springfield, MO    |   145 |   7.63 |        |       |
+|       45 | John Angelis        | Warren, OH                  |   135 |   7.11 |        |     2 |
+|       46 | Amy Fry             | St. Louis Park, MN          |   135 |   7.11 |        |       |
+|       47 | Jenny Himmelright   | Orlando, FL                 |   115 |   6.05 |        |       |
+| **47\*** | Jennifer Lemke      | Atlanta, TX                 |   115 |   6.05 |        |       |
+| **47\*** | Grayson Gunsch      | Lander, WY                  |   115 |   6.05 |        |       |
+|       50 | Stephanie Hunter    | Elkhart, IN                 |   110 |   5.79 |        |       |
+|       51 | David Parkhurst     | Lander, WY                  |   110 |   5.79 |        |     1 |
+|       52 | Holly Haltom        | Atlanta, TX                 |   110 |   5.79 |        |     2 |
+|       53 | Ryan Neese          | Merrillville, IN            |   105 |   5.53 |        |     1 |
+|       54 | David Coghlin       | Lander, WY                  |    80 |   4.21 |        |     1 |
+|       55 | Sharla Waggoner     | Central, Springfield, MO    |    80 |   4.21 |        |     2 |
+|       56 | Catherine Lincoln   | Syracuse, NY                |    75 |   3.95 |        |       |
+|       57 | Kerri Miller        | Hermiston, OR               |    60 |   3.16 |        |       |
+|       58 | Adam Currington     | Ocala, FL                   |    55 |   2.89 |        |       |
+|       59 | Gretchen Harn       | Hermiston, OR               |    40 |   2.11 |        |       |
+| **59\*** | Ana Lorvick         | St. Louis Park, MN          |    40 |   2.11 |        |       |
+|       61 | Joanna Higginbotham | Hermiston, OR               |    30 |   1.58 |        |       |
+|       62 | Luisa Oyola         | Central, Springfield, MO    |    25 |   1.32 |        |       |
+|       63 | Scott Bland         | Orlando, FL                 |    20 |   1.05 |        |       |
+| **63\*** | Jennifer Shim       | Allison Park, PA            |    20 |   1.05 |        |       |
+| **63\*** | Jacinda Guell       | West Bend, WI               |    20 |   1.05 |        |       |
+| **63\*** | Liz Dunn            | St. Louis Park, MN          |    20 |   1.05 |        |       |
+|       67 | Kristi Grabill      | Park Crest, Springfield, MO |    10 |   0.53 |        |       |
+| **67\*** | John Steiger        | Colorado Springs, CO        |    10 |   0.53 |        |       |
+|       69 | Jason Bouwmeester   | Farmington, MN              |     0 |      0 |        |       |
+| **69\*** | Tera Schmitz        | Farmington, MN              |       |        |      1 |       |
+| **69\*** | MaryAnne Welsheimer | Hermiston, OR               |     0 |      0 |        |       |
+| **69\*** | Randy Cathcart      | Park Crest, Springfield, MO |     0 |      0 |        |       |
+| **69\*** | Jennifer Koiter     | Colorado Springs, CO        |     0 |      0 |        |       |
+| **69\*** | Megan Roberts       | Colorado Springs, CO        |     0 |      0 |        |       |
+| **69\*** | Samuel Branum       | Ocala, FL                   |     0 |      0 |        |       |
+| **69\*** | Aron Curington      | Ocala, FL                   |     0 |      0 |        |       |
+| **69\*** | Eric Gennaro        | Ocala, FL                   |     0 |      0 |        |       |
+| **69\*** | Leslie Bienz        | Elkhart, IN                 |     0 |      0 |        |       |
+| **69\*** | Jeffrey McClaflin   | Central, Springfield, MO    |     0 |      0 |        |       |
+| **69\*** | Celeste Lebeda      | Lander, WY                  |     0 |      0 |        |       |
+| **69\*** | Clorissa Swingen    | West Bend, WI               |     0 |      0 |        |       |
+| **69\*** | Caroline Waldner    | West Bend, WI               |     0 |      0 |        |       |
+|       83 | Rich Fenton         | Allison Park, PA            |    -5 |  -0.26 |        |       |
+|       84 | Jennifer Nelson     | Orlando, FL                 |   -10 |  -0.53 |        |       |
+| **84\*** | Cory Hart           | Hermiston, OR               |   -10 |  -0.53 |        |       |
+|       86 | Bob Goettel         | Merrillville, IN            |   -15 |  -0.79 |        |     3 |
 
 ## Teams
 

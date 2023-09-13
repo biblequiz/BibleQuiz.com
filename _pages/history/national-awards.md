@@ -26,7 +26,7 @@ menubar: menu_history
 | 2010 | 38 quizzers      | Corinthians                                             | 1 hour, 7 mistakes                 |
 | 2009 | 66 quizzers      | Mark                                                    | 1 hour, 7 mistakes                 |
 | 2008 | 79 quizzers      | Galatians, Ephesians, Philippians, Colossians, Philemon | 45 minutes, 5 mistakes             |
-| 2007 | 29 quizzers      | Acts ­                                                  | 2 hours, 10 mistakes               |
+| 2007 | 29 quizzers      | Acts                                                    | 2 hours, 10 mistakes               |
 | 2006 | 81 quizzers      | Romans & James                                          | 45 minutes, 10 mistakes            |
 | 2005 | 30 quizzers      | Matthew                                                 | 2 hours, 4 mistakes per chapter    |
 

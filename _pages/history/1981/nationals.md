@@ -31,7 +31,7 @@ The top quizzer at the 1981 National Finals was Kari Brodin of Renton A/G, Rento
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                              | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                              | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | --------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | Renton A/G, Renton, WA*           | 5 / 2  |  1170 | 167.14 |    330 |      47.14 |
 |    2 | Evangel Temple, Springfield, MO   | 5 / 2  |  1175 | 167.86 |    330 |      47.14 |
@@ -51,7 +51,7 @@ The top quizzer at the 1981 National Finals was Kari Brodin of Renton A/G, Rento
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Quizzer        | Church                              | Total |    Avg |
+|    # | Quizzer        | Church                              | Total |    Avg |
 | ---: | -------------- | ----------------------------------- | ----: | -----: |
 |    1 | Kari Brodin    | Renton A/G, Renton, WA              |   765 | 109.29 |
 |    2 | Ken Henderson  | First A/G, Tecumseh, OK             |   735 |    105 |

@@ -18,7 +18,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                                 | W/L   | Total |   Avg |   QO |   Qs |
+|    # | Team                                          | W/L   | Total |   Avg |   QO |   Qs |
 | ---: | --------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | Calvary Church, Naperville, IL ()             | 7 / 1 |  1650 | 206.3 |   13 |   90 |
 |  1.0 | Living Hope Worship Center, Swedesboro, NJ () | 7 / 1 |  1400 |   175 |   11 |   72 |
@@ -53,7 +53,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                                 | W/L   | Total |   Avg |   QO |   Qs |
+|    # | Team                                          | W/L   | Total |   Avg |   QO |   Qs |
 | ---: | --------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | Maple Lane Assembly, Deposit, NY ()           | 7 / 0 |  1210 | 172.9 |   10 |   81 |
 |  2.1 | Newport A/G, Newport, PA ()                   | 4 / 3 |   995 | 142.1 |    8 |   57 |
@@ -68,7 +68,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer            | Team / Church                                 | Total |   Avg |   QO |   Qs |
+|        # | Quizzer            | Team                                          | Total |   Avg |   QO |   Qs |
 | -------: | ------------------ | --------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Halle Reisinger    | Newport A/G, Newport, PA ()                   |   820 | 117.1 |    7 |   35 |
 |        2 | Nigus Dawit        | Word of Life A/G, Springfield, VA ()          |   595 |    85 |    4 |   28 |
@@ -109,7 +109,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                            | W/L   | Total |   Avg |   QO |   Qs |
+|    # | Team                                     | W/L   | Total |   Avg |   QO |   Qs |
 | ---: | ---------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | James River Church, Ozark, MO # 1 ()     | 8 / 0 |  1390 | 173.8 |   11 |   89 |
 |  2.0 | Life 360, Springfield, Missouri ()       | 7 / 1 |  1130 | 141.3 |    9 |   71 |
@@ -125,7 +125,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                   | Team / Church                            | Total |   Avg |   QO |   Qs |
+|        # | Quizzer                   | Team                                     | Total |   Avg |   QO |   Qs |
 | -------: | ------------------------- | ---------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Hannah Quick              | James River Church, Ozark, MO # 1 ()     |   815 | 101.9 |    6 |   35 |
 |        2 | Cameron Ramsey            | Life 360, Springfield, Missouri ()       |   685 |  85.6 |    5 |   34 |
@@ -169,7 +169,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                        | W/L   | Total |   Avg |   QO |   Qs |
+|    # | Team                                 | W/L   | Total |   Avg |   QO |   Qs |
 | ---: | ------------------------------------ | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | 1 Grant A/G, Grant, MI ( )           | 7 / 1 |  1055 | 131.9 |    8 |   79 |
 |  2.0 | Central A/G, Houston, PA ()          | 6 / 2 |   985 | 123.1 |    7 |   56 |
@@ -185,7 +185,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer          | Team / Church                        | Total |   Avg |   QO |   Qs |
+|        # | Quizzer          | Team                                 | Total |   Avg |   QO |   Qs |
 | -------: | ---------------- | ------------------------------------ | ----: | ----: | ---: | ---: |
 |        1 | Seth Robertson   | Central A/G, Houston, PA ()          |   850 | 106.3 |    7 |   39 |
 |        2 | Madison Holcomb  | Evangel Heights A/G, Sarver, PA ()   |   670 |  83.8 |    6 |   35 |

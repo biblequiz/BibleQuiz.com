@@ -32,7 +32,7 @@ Photos are provided courtesy of Larry Mullins.
 
 ### Teams
 
-| Rank | Team                                                           | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                                           | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | -------------------------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | Cedar Park A/G, "Fast and Furious", Bothell, WA*               | 17 / 2 |  3390 | 178.42 |   1920 |      101.5 |
 |    2 | First A/G #1, Lexington, KY                                    | 17 / 2 |  3230 |    170 |   1630 |      85.78 |
@@ -140,7 +140,7 @@ Photos are provided courtesy of Larry Mullins.
 
 ### Teams
 
-| Rank | Team                                                            | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                                            | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | --------------------------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | Grace A/G, Spring City, PA                                      | 17 / 2 |  3430 | 180.52 |   2540 |     133.68 |
 |    2 | Orange County Worship Center, Santa Ana, CA                     | 15 / 4 |  2465 | 129.73 |   1095 |      57.63 |
@@ -2120,7 +2120,7 @@ Photos are provided courtesy of Larry Mullins.
 
 #### Teams
 
-| Rank | Team                            | Record | Total |
+|    # | Team                            | Record | Total |
 | ---: | ------------------------------- | ------ | ----: |
 |    1 | Marvelous in Our Eyes           | 7 / 0  |  1425 |
 |    2 | Great Lakes, Good Quizzers      | 5 / 2  |  1110 |
@@ -2133,7 +2133,7 @@ Photos are provided courtesy of Larry Mullins.
 
 #### Individuals
 
-| Rank | Quizzer          | Team                            | Total |   QO |
+|    # | Quizzer          | Team                            | Total |   QO |
 | ---: | ---------------- | ------------------------------- | ----: | ---: |
 |    1 | John Sullivan    | Marvelous in Our Eyes           |   870 |      |
 |    2 | John Angelis     | Great Lakes, Good Quizzers      |   720 |      |
@@ -2168,7 +2168,7 @@ Photos are provided courtesy of Larry Mullins.
 
 #### Teams
 
-| Rank | Team                | Record | Total |
+|    # | Team                | Record | Total |
 | ---: | ------------------- | ------ | ----: |
 |    1 | Today's Trouble     | 5 / 1  |   805 |
 |    2 | Good Fruit          | 4 / 2  |   520 |
@@ -2180,7 +2180,7 @@ Photos are provided courtesy of Larry Mullins.
 
 #### Individuals
 
-| Rank | Quizzer           | Team                | Total |   QO |
+|    # | Quizzer           | Team                | Total |   QO |
 | ---: | ----------------- | ------------------- | ----: | ---: |
 |    1 | Deanna Reisinger  | Today's Trouble     |   535 |      |
 |    2 | Jeff Meyer        | Giving to the Needy |   455 |      |

@@ -18,7 +18,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                                       | W/L   | Total |   Avg |   QO |   Qs |
+|    # | Team                                                | W/L   | Total |   Avg |   QO |   Qs |
 | ---: | --------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | The Oaks (The Oaks Fellowship)                      | 8 / 1 |  1715 | 190.6 |   15 |   83 |
 |  2.1 | The Church that meets in your home (Evangel Temple) | 7 / 2 |  1445 | 160.6 |   12 |   89 |
@@ -35,7 +35,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer             | Team / Church                                       | Total |   Avg |   QO |   Qs |
+|        # | Quizzer             | Team                                                | Total |   Avg |   QO |   Qs |
 | -------: | ------------------- | --------------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Cameron Berta       | The Oaks (The Oaks Fellowship)                      |  1165 | 129.4 |    9 |   45 |
 |        2 | Joanne Sinniah      | Pains Of Childbirth (James River)                   |   710 |  78.9 |    7 |   42 |
@@ -84,7 +84,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                         | W/L   | Total |   Avg |   QO |   Qs |
+|    # | Team                                  | W/L   | Total |   Avg |   QO |   Qs |
 | ---: | ------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.1 | Sisters of Faith (Life 360)           | 5 / 1 |  1030 | 147.1 |    9 |   55 |
 |  1.0 | Trinity Chosen (Trinity Cedar Hill)   | 5 / 1 |  1025 | 146.4 |    8 |   60 |
@@ -98,7 +98,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer             | Team / Church                         | Total |  Avg |   QO |   Qs |
+|        # | Quizzer             | Team                                  | Total |  Avg |   QO |   Qs |
 | -------: | ------------------- | ------------------------------------- | ----: | ---: | ---: | ---: |
 |        1 | Madison Claunch     | Trinity Redeemed (Trinity Cedar Hill) |   545 | 90.8 |    4 |   26 |
 |        2 | Riley Breig         | Sisters of Faith (Life 360)           |   520 | 86.7 |    5 |   29 |
@@ -130,7 +130,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                     | W/L   | Total |  Avg |   QO |   Qs |
+|    # | Team                              | W/L   | Total |  Avg |   QO |   Qs |
 | ---: | --------------------------------- | ----- | ----: | ---: | ---: | ---: |
 |  1.0 | Central Exp (Central AG)          | 2 / 0 |   205 | 68.3 |    1 |   13 |
 |  2.0 | Therefore (James River)           | 1 / 1 |   235 | 78.3 |    1 |   18 |
@@ -140,7 +140,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|    # | Quizzer             | Team / Church                     | Total |  Avg |   QO |   Qs |
+|    # | Quizzer             | Team                              | Total |  Avg |   QO |   Qs |
 | ---: | ------------------- | --------------------------------- | ----: | ---: | ---: | ---: |
 |    1 | Lexi Parry          | Central Exp (Central AG)          |   165 | 82.5 |    1 |    9 |
 |    2 | Lewis Groh          | Therefore (James River)           |    90 |   45 |    1 |    6 |
@@ -160,7 +160,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                         | W/L   | Total |   Avg |   QO |   Qs |
+|    # | Team                                  | W/L   | Total |   Avg |   QO |   Qs |
 | ---: | ------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | Sisters of Faith (Life 360)           | 3 / 0 |   520 | 173.3 |    5 |   29 |
 |  2.0 | Trinity Chosen (Trinity Cedar Hill)   | 2 / 1 |   395 | 131.7 |    2 |   26 |
@@ -171,7 +171,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|    # | Quizzer          | Team / Church                         | Total |  Avg |   QO |   Qs |
+|    # | Quizzer          | Team                                  | Total |  Avg |   QO |   Qs |
 | ---: | ---------------- | ------------------------------------- | ----: | ---: | ---: | ---: |
 |    1 | Madison Claunch  | Trinity Redeemed (Trinity Cedar Hill) |   345 |  115 |    3 |   15 |
 |    2 | Riley Breig      | Sisters of Faith (Life 360)           |   290 | 96.7 |    3 |   15 |
