@@ -33,7 +33,7 @@ menubar_toc_static:
 | 11.0 | Servants of Christ - Calvary Temple (Wayne, NJ)          | 3 / 10 |   815 |  62.7 |    4 |  77% |
 | 12.0 | Metuchen Assembly of God (Metuchen, NJ)                  | 2 / 11 |   240 |  18.5 |      |  74% |
 | 13.0 | FLASH - River of God Church (Enola, PA)                  | 1 / 12 |    55 |   4.2 |    1 |  45% |
-| 14.0 | IFC ( )                                                  | 0 / 13 |     0 |       |      |      |
+| 14.0 | IFC                                                      | 0 / 13 |     0 |       |      |      |
 
 ### Individuals
 

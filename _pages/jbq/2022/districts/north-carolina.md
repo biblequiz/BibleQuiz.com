@@ -25,7 +25,7 @@ menubar_toc_static:
 |  3.0 | CICF Light of God (CICF)                   | 4 / 1 |   970 |  194 |    3 |  87% |
 |  4.0 | Greater Life (Greater Life)                | 2 / 3 |   565 |  113 |    3 |  81% |
 |  5.0 | Wilmington Warriors A (New Hanover Church) | 1 / 4 |   540 |  108 |    1 |  70% |
-|  6.0 | Askewville ( )                             | 0 / 5 |   140 |   28 |      |  73% |
+|  6.0 | Askewville                                 | 0 / 5 |   140 |   28 |      |  73% |
 
 ### Individuals
 
@@ -47,16 +47,16 @@ menubar_toc_static:
 |       12 | Ella Willson       | Wilmington Warriors A (New Hanover Church) |   125 |   25 |      |  92% |
 |       13 | Lilly Wolfe        | Greater Life (Greater Life)                |   120 |   24 |      | 100% |
 |       14 | Samuel Freeman     | CICF Light of God (CICF)                   |   110 |   22 |      |  64% |
-|       15 | Savannah Olson     | Askewville ( )                             |   100 |   20 |      |  83% |
+|       15 | Savannah Olson     | Askewville                                 |   100 |   20 |      |  83% |
 |       16 | Sam Willson        | Wilmington Warriors A (New Hanover Church) |    80 |   16 |      |  65% |
 |       17 | Jordan Gopali      | CICF Children of God ( CICF)               |    75 |   15 |      |  89% |
 |       18 | Jonathan Gershom   | CICF Light of God (CICF)                   |    65 |   13 |      |  87% |
-|       19 | Caelyn Pesce       | Askewville ( )                             |    40 |    8 |      |  71% |
-|       20 | Grace Olson        | Askewville ( )                             |    10 |    2 |      |  99% |
+|       19 | Caelyn Pesce       | Askewville                                 |    40 |    8 |      |  71% |
+|       20 | Grace Olson        | Askewville                                 |    10 |    2 |      |  99% |
 |       21 | Andrew Baloga      | Genesis A (Calvary Church)                 |     0 |      |      |      |
 | **\*21** | Katherine Harmston | Genesis A (Calvary Church)                 |     0 |      |      |      |
 |       22 | Leah Salazar       | Greater Life (Greater Life)                |    -5 |   -1 |      |      |
-|       23 | Olivia Bazemore    | Askewville ( )                             |   -10 |   -2 |      |      |
+|       23 | Olivia Bazemore    | Askewville                                 |   -10 |   -2 |      |      |
 
 ## Novice Division
 

@@ -88,9 +88,9 @@ menubar_toc_static:
 |    # | Team                      | W/L   | Total |   Avg |   QO |   Q% |
 | ---: | ------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | Buzz Hogs (River of Life) | 3 / 0 |   755 | 251.6 |    3 |  89% |
-|  2.0 | Minons ()                 | 2 / 1 |   605 | 201.6 |    4 |  86% |
+|  2.0 | Minons                    | 2 / 1 |   605 | 201.6 |    4 |  86% |
 |  3.0 | Bethel Kids (Bethel AG)   | 1 / 2 |   230 |  76.6 |      |  65% |
-|  4.0 | Warriors ()               | 0 / 3 |    75 |    25 |      |  83% |
+|  4.0 | Warriors                  | 0 / 3 |    75 |    25 |      |  83% |
 
 ### Individuals
 
@@ -100,23 +100,23 @@ menubar_toc_static:
 | -------: | ---------------- | ------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Lauryn Jackson   | Buzz Hogs (River of Life) |   305 | 101.7 |    1 | 100% |
 |  **\*1** | Josiah Minick    | Buzz Hogs (River of Life) |   305 | 101.7 |    1 |  84% |
-|        2 | Kamelia Skinner  | Minons ()                 |   280 |  93.3 |    2 |  83% |
+|        2 | Kamelia Skinner  | Minons                    |   280 |  93.3 |    2 |  83% |
 |        3 | Colton Rosenbaum | Bethel Kids (Bethel AG)   |   165 |    55 |      |  67% |
-|        4 | Lakin Shaw       | Minons ()                 |   155 |  51.7 |    2 |  83% |
-|        5 | Sarah Swain      | Minons ()                 |   150 |    50 |      | 100% |
+|        4 | Lakin Shaw       | Minons                    |   155 |  51.7 |    2 |  83% |
+|        5 | Sarah Swain      | Minons                    |   150 |    50 |      | 100% |
 |        6 | Nehemiah Page    | Buzz Hogs (River of Life) |   130 |  43.3 |    1 |  87% |
-|        7 | Aubrey Brandon   | Warriors ()               |    75 |    25 |      |  83% |
+|        7 | Aubrey Brandon   | Warriors                  |    75 |    25 |      |  83% |
 |        8 | Cloe Graves      | Bethel Kids (Bethel AG)   |    45 |    15 |      |  67% |
 |        9 | Jayden Bullock   | Bethel Kids (Bethel AG)   |    25 |   8.3 |      |  75% |
-|       10 | Savanna Stephens | Minons ()                 |    20 |   6.7 |      | 100% |
+|       10 | Savanna Stephens | Minons                    |    20 |   6.7 |      | 100% |
 |       11 | Cherish Page     | Buzz Hogs (River of Life) |    15 |     5 |      |  66% |
-|       12 | Addison Wolters  | Minons ()                 |     0 |       |      |      |
-| **\*12** | Kayla Barnhart   | Warriors ()               |     0 |       |      |      |
-| **\*12** | Aiden Scissell   | Warriors ()               |     0 |       |      |      |
-| **\*12** | Brittney Coast   | Warriors ()               |     0 |       |      |      |
-| **\*12** | Drake Ward       | Warriors ()               |     0 |       |      |      |
-| **\*12** | Brooklyn Barnard | Warriors ()               |     0 |       |      |      |
-| **\*12** | Jordan Hairston  | Warriors ()               |     0 |       |      |      |
+|       12 | Addison Wolters  | Minons                    |     0 |       |      |      |
+| **\*12** | Kayla Barnhart   | Warriors                  |     0 |       |      |      |
+| **\*12** | Aiden Scissell   | Warriors                  |     0 |       |      |      |
+| **\*12** | Brittney Coast   | Warriors                  |     0 |       |      |      |
+| **\*12** | Drake Ward       | Warriors                  |     0 |       |      |      |
+| **\*12** | Brooklyn Barnard | Warriors                  |     0 |       |      |      |
+| **\*12** | Jordan Hairston  | Warriors                  |     0 |       |      |      |
 |       13 | Amelia James     | Bethel Kids (Bethel AG)   |    -5 |  -1.7 |      |      |
 
 
