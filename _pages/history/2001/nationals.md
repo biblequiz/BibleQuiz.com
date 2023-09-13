@@ -72,7 +72,7 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 |       11 | Logan Newman      | Superior, WI             |  1180 |  62.11 |      5 |     2 |
 |       12 | Mary Pace         | Colorado Springs, CO     |  1105 |  58.16 |      4 |     1 |
 |       13 | Jessica Neilson   | Bothell, WA              |  1055 |  55.53 |      4 |     3 |
-|       14 | [NAME WITHELD]    | Topeka, KS               |  1025 |  53.95 |      6 |     1 |
+|       14 | \[Name Omitted\]  | Topeka, KS               |  1025 |  53.95 |      6 |     1 |
 |       15 | Lori Rozgonyi     | Bethel Park, PA          |  1020 |  53.68 |      7 |     5 |
 |       16 | Jenny Dworzak     | Bothell, WA              |   980 |  51.58 |      2 |     1 |
 |       17 | Lydia Butay       | Tulsa, OK                |   955 |  50.26 |      3 |     1 |
@@ -1229,7 +1229,7 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 {% capture image_html %}
 
 *(L-R Back) Dan Marlow, Sue Jacobson*\
-*(L-R Front) Ashley Mefford, [name witheld], Michelle Stevens*
+*(L-R Front) Ashley Mefford, \[Name Omitted\], Michelle Stevens*
 
 #### 1st Place
 
@@ -1237,7 +1237,7 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 * **Coach**: Sue Jacobson
 * **Team**:
     * Dan Marlow
-    * [name withheld]
+    * \[Name Omitted\]
     * Ashley Mefford
     * Michelle Stevens
 * **Round Robin**:

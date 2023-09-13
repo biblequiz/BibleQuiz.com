@@ -34,7 +34,7 @@ menubar_toc_static:
 | ---: | ----------------- | ---------------------------- | ----: | ----: |
 |    1 | Dan Marlow        | Adat Yeshua                  |  1210 | 151.3 |
 |    2 | Aaron Taylor      | Adat Yeshua                  |   740 |  92.5 |
-|    3 | [NAME REMOVED]    | Topeka Faith                 |   620 |  77.5 |
+|    3 | \[Name Omitted\]  | Topeka Faith                 |   620 |  77.5 |
 |    4 | Dale MacKinney    | Anthony A/G                  |   605 |  75.6 |
 |    5 | Tiffany Perez     | First A/G, Overland Park, KS |   585 |  73.1 |
 |    6 | Michelle Stephens | Topeka Faith                 |   510 |  63.8 |

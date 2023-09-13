@@ -92,7 +92,7 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 |        21 | Naomi Welborn       | First A/G, Fort Myers, FL (Team 2)   |  1175 |  51.09 |      3 |     3 |
 |        22 | Todd Katter         | Central A/G, Springfield, MO         |  1155 |  50.22 |      5 |     2 |
 |        23 | Brent Ellwein       | Heights A/G, Billings, MT            |  1130 |  49.13 |      3 |     4 |
-|        24 | [name omitted]      | Allison Park A/G, Allison Park, PA   |  1075 |  46.74 |      2 |     1 |
+|        24 | \[Name Omitted\]    | Allison Park A/G, Allison Park, PA   |  1075 |  46.74 |      2 |     1 |
 |        25 | Dayla Shorter       | Harvest A/G, Fort Worth, TX          |  1060 |  46.09 |      5 |    14 |
 |        26 | Teri Jolissaint     | First A/G, Warner Robins, GA         |  1040 |  45.22 |      7 |     8 |
 |        27 | Alissa Cooper       | Alpha A/G, Clarion, PA               |  1020 |  44.35 |      1 |     1 |
@@ -556,7 +556,7 @@ Playoff 1: Lost to Central A/G, Springfield, MO 70 to 115
     * Jason Martin
     * Jennifer Shim
     * Sean Winter
-    * [name omitted]
+    * \[Name Omitted\]
 * **Round Robin**:
   * Round 1: Won against King's Chapel, Springfield, MO 165 to 30
   * Round 2: Lost to First A/G, Lexington, KY 110 to 135

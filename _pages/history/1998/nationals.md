@@ -503,7 +503,7 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
     * Jason Martin
     * Nikki Milliron
     * Dave Shim
-    * [name omitted]
+    * \[Name Omitted\]
 * **Round Robin**:
   * Round 1: Won against First A/G, Warren, OH 240 to 45
   * Round 2: Lost to Bethel Temple, Bryan TX -20 to 180

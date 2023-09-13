@@ -23,13 +23,13 @@ menubar_toc_static:
 
 ### Top Individuals
 
-|    # | Quizzer        | Team         | Total |
-| ---: | -------------- | ------------ | ----: |
-|    1 | Dan Marlow     | Topeka Faith |  1380 |
-|    2 | [NAME REMOVED] | Topeka Faith |   980 |
-|    3 | David Riddle   | Bethel Life  |   675 |
-|    4 | Paige Riddle   | Bethel Life  |   630 |
-|    5 | John Mitchell  | Evangel      |   565 |
+|    # | Quizzer          | Team         | Total |
+| ---: | ---------------- | ------------ | ----: |
+|    1 | Dan Marlow       | Topeka Faith |  1380 |
+|    2 | \[Name Omitted\] | Topeka Faith |   980 |
+|    3 | David Riddle     | Bethel Life  |   675 |
+|    4 | Paige Riddle     | Bethel Life  |   630 |
+|    5 | John Mitchell    | Evangel      |   565 |
 
 ## B Division
 

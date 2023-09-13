@@ -100,7 +100,7 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 |       33 | Emily Berger        | Calvary Temple, Auburn, WA              |   835 |  37.95 |      2 |     1 |
 | **33\*** | Kerry Forare        | New Life A/G, Cokato, MN                |   835 |  37.95 |      5 |     9 |
 |       35 | B.J. Barrick        | Crossroads Cathedral, Oklahoma City, OK |   810 |  36.82 |      1 |     3 |
-|       36 | (name removed)      | Radiant Church, Colorado Springs, CO    |   735 |  33.41 |      4 |     5 |
+|       36 | \[Name Omitted\]    | Radiant Church, Colorado Springs, CO    |   735 |  33.41 |      4 |     5 |
 |       37 | Malisa Berkey       | Faith A/G, Orlando, FL                  |   730 |  33.18 |      1 |     1 |
 |       38 | Scott Berkey        | Faith A/G, Orlando, FL                  |   650 |  29.55 |      1 |     3 |
 |       39 | Kelsey Kirin        | Evangel Heights A/G, Sarver, PA         |   605 |   27.5 |      2 |     2 |
@@ -934,7 +934,7 @@ Playoff: Won against Calvary Church, Naperville, IL
 * **Pastor**: Don Steiger
 * **Coaches**: Phil Steiger, Heather Steiger
 * **Team**:
-    * (name removed)
+    * \[Name Omitted\]
     * Laura Jones
     * Rachel Jones
     * Megan Roberts

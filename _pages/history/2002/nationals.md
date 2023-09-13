@@ -76,7 +76,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 |       15 | Joe Bolognone     | Syracuse, NY         |  1030 |  54.21 |      3 |     2 |
 |       16 | Heather Patterson | Orlando, FL          |   970 |  51.05 |      5 |     1 |
 |       17 | David Herbert Jr. | Allison Park, PA     |   945 |  49.74 |      7 |     3 |
-|       18 | [NAME WITHHELD]   | Colorado Springs, CO |   945 |  49.74 |      3 |     7 |
+|       18 | \[Name Omitted\]  | Colorado Springs, CO |   945 |  49.74 |      3 |     7 |
 |       19 | Amanda Pryor      | Fort Worth, TX       |   940 |  49.47 |      5 |     1 |
 |       20 | Jed Gosnell       | Tacoma, WA           |   925 |  48.68 |        |     1 |
 |       21 | Ricky Haney       | Orange, CA           |   885 |  46.58 |      1 |     1 |
@@ -1756,7 +1756,7 @@ Brianna Grantham
 {% capture image_html %}
 
 *(L-R Front) Ashley Mefford, Molly Pace, Mary Pace, Heather Steiger*\
-*(L-R Back) Ryan Popineau, Janelle Schneider, [NAME WITHHELD], Phil Steiger*
+*(L-R Back) Ryan Popineau, Janelle Schneider, \[Name Omitted\], Phil Steiger*
 
 #### 2nd Place
 
@@ -1767,7 +1767,7 @@ Brianna Grantham
     * Janelle Schneider
     * Ryan Popineau
     * Molly Pace
-    * [NAME WITHHELD]
+    * \[Name Omitted\]
     * Ashley Mefford
 * **Round Robin**:
   * Round 1: Won against Allison Park A/G, Allison Park, PA 205 to 80

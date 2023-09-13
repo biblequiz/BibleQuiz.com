@@ -941,7 +941,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 {% capture image_url %}{% link assets/2003/FL-FortMyers.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*(L-R) Kris Sobkowiak, Krissy Welborn, Sara Sobkowiak, [name removed], Bob Sobkowiak*
+*(L-R) Kris Sobkowiak, Krissy Welborn, Sara Sobkowiak, \[Name Omitted\], Bob Sobkowiak*
 
 #### 3rd Place
 
