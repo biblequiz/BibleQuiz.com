@@ -37,7 +37,7 @@ menubar_toc_static:
 |        3 | Cecily Houser         | Nearly Swamped (Cedar Park)                |   535 |  89.2 |    3 |  85% |
 |        4 | Teddy Arasavelli      | God Squad (Bellevue Neighborhood Church)   |   495 |  82.5 |    4 |  75% |
 |        5 | Zachary Ponraj        | Naarim Koumou (Life Center AG)             |   490 |  81.7 |    3 |  77% |
-|        6 | Samuel Clinston       | God Squad (Bellevue Neighborhood Church)   |   370 |  61.7 |    4 |  71% |
+|        6 | Sam Clinston          | God Squad (Bellevue Neighborhood Church)   |   370 |  61.7 |    4 |  71% |
 |        7 | Nicole Kreiner        | The Rising Dead (Kuna Life Church)         |   355 |  59.2 |    3 |  82% |
 |  **\*7** | Reid Jarrell          | Salted With Fire (Cedar Park)              |   355 |  59.2 |    3 |  69% |
 |        8 | Westin Haugo          | Nearly Swamped (Cedar Park)                |   340 |  56.7 |    3 |  69% |

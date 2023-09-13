@@ -89,7 +89,6 @@ menubar_toc_static:
 |       10 | Abigail Yosefe    | Church Mice (First @ Firewheel AG)                    |     5 |   .8 |      |  50% |
 |       11 | Penelope Guajardo | God's Children (The Oaks Church)                      |     0 |      |      |      |
 | **\*11** | Jessa Gastineau   | Christ's Angels(with us in spirit) (Dripping Springs) |     0 |      |      |      |
-| **\*11** | Quizzer-3         | Christ's Angels(with us in spirit) (Dripping Springs) |     0 |      |      |      |
 | **\*11** | Dozie Osuagwu     | Bible Seekers (First @ Firewheel)                     |     0 |      |      |      |
 | **\*11** | Kamsi Osuagwu     | Bible Seekers (First @ Firewheel)                     |     0 |      |      |      |
 

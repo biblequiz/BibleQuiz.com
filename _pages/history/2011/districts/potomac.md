@@ -28,7 +28,7 @@ menubar_toc_static:
 
 |    # | Quizzer            | Church                | Total |   Avg |
 | ---: | ------------------ | --------------------- | ----: | ----: |
-|    1 | Joshua  Inyangson  | Word of Life          |   610 | 122.0 |
+|    1 | Joshua Inyangson   | Word of Life          |   610 | 122.0 |
 |    2 | Catherine Hains    | Manassas A/G          |   585 | 117.0 |
 |    3 | Abhishek Mathews   | Word of Life          |   270 |  54.0 |
 |    4 | Victoria Thee      | Manassas A/G          |   230 |  46.0 |

@@ -123,7 +123,7 @@ All results are from division quizzing only.
 
 |    # | Quizzer            | Team          | Total |
 | ---: | ------------------ | ------------- | ----: |
-|    1 | Bruce Borah,       | Smyrna #2     |   205 |
+|    1 | Bruce Borah        | Smyrna #2     |   205 |
 |    2 | Sydney Tuckey      | Warner Robins |   120 |
 |    3 | Zack Hollingsworth | Smyrna #2     |    95 |
 |   3* | Trae Clark         | Warner Robins |    95 |

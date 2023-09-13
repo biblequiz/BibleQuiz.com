@@ -55,7 +55,7 @@ menubar_toc_static:
 |       16 | Juliet Amadi         | The Trinity (Trinity-Cedar Hill, TX)            |   290 |  32.2 |    2 |  64% |
 |       17 | Haddie Brookbank     | Crown Pointe (Crown Pointe-Lees Summit, MO)     |   280 |  31.1 |    1 |  69% |
 |       18 | Esther Birungi       | Sowers & Reapers (Harvest-Fort Worth, TX)       |   265 |  29.4 |    2 |  64% |
-|       19 | Danny\'El Gonzalez   | Hungry & Thirsty (Firewheel-Garland, TX)        |   255 |  28.3 |    1 |  77% |
+|       19 | Danny'El Gonzalez    | Hungry & Thirsty (Firewheel-Garland, TX)        |   255 |  28.3 |    1 |  77% |
 |       20 | Elijah Lee           | The Trinity (Trinity-Cedar Hill, TX)            |   225 |    25 |      |  78% |
 |       21 | Elyssa Fulfer        | Cheap Wine (The Oaks-Red Oak, TX)               |   215 |  23.9 |    1 |  59% |
 |       22 | Alyssa Ramsey        | Life360 (Life360-Springfield, MO)               |   150 |  16.7 |      |  59% |

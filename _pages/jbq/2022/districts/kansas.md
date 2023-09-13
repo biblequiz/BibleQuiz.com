@@ -27,16 +27,15 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|       # | Quizzer         | Team                         | Total |   Avg |   QO |   Q% |
-| ------: | --------------- | ---------------------------- | ----: | ----: | ---: | ---: |
-|       1 | Jaydon Redmon   | FC Volts (Faith Chapel)      |   625 | 156.3 |    4 | 100% |
-|       2 | Victoria Moeder | Jiminy Quizlets (Great Bend) |   280 |    70 |      |  89% |
-|       3 | Jace Mawhirter  | Jiminy Quizlets (Great Bend) |   240 |    60 |    3 |  92% |
-|       4 | Jackson Hinman  | Jiminy Quizlets (Great Bend) |    40 |    10 |      |  64% |
-|       5 | Ella Nokes      | Jiminy Quizlets (Great Bend) |    30 |   7.5 |      | 100% |
-|       6 | Quizzer-3       | FC Volts (Faith Chapel)      |     0 |       |      |      |
-| **\*6** | Zayden Bennett  | FC Volts (Faith Chapel)      |     0 |       |      |      |
-|       7 | Karsynn Bennett | FC Volts (Faith Chapel)      |    -5 |  -1.3 |      |      |
+|    # | Quizzer         | Team                         | Total |   Avg |   QO |   Q% |
+| ---: | --------------- | ---------------------------- | ----: | ----: | ---: | ---: |
+|    1 | Jaydon Redmon   | FC Volts (Faith Chapel)      |   625 | 156.3 |    4 | 100% |
+|    2 | Victoria Moeder | Jiminy Quizlets (Great Bend) |   280 |    70 |      |  89% |
+|    3 | Jace Mawhirter  | Jiminy Quizlets (Great Bend) |   240 |    60 |    3 |  92% |
+|    4 | Jackson Hinman  | Jiminy Quizlets (Great Bend) |    40 |    10 |      |  64% |
+|    5 | Ella Nokes      | Jiminy Quizlets (Great Bend) |    30 |   7.5 |      | 100% |
+|    6 | Zayden Bennett  | FC Volts (Faith Chapel)      |     0 |       |      |      |
+|    7 | Karsynn Bennett | FC Volts (Faith Chapel)      |    -5 |  -1.3 |      |      |
 
 
 ## I Division

@@ -24,7 +24,7 @@ menubar_toc_static:
 |    2 | Battle Creek Jenks (Jenks) #3 (Battle Creek Jenks) | 4 / 1 |  80% |   935 |  187 |    4 |  89% |
 |    3 | Owasso 1st Assembly (Owasso) (Owasso 1st Assembly) | 4 / 1 |  80% |   795 |  159 |    4 |  90% |
 |    4 | Chickasha Verse Vikings (Grand Assembly of God)    | 1 / 4 |  20% |   470 |   94 |    3 |  91% |
-|    5 | King\'s Quizzers (Discovery Assembly of God)       | 1 / 4 |  20% |   355 |   71 |    1 |  67% |
+|    5 | King's Quizzers (Discovery Assembly of God)        | 1 / 4 |  20% |   355 |   71 |    1 |  67% |
 |    6 | Christian Chapel (Christian Chapel Assembly)       | 1 / 4 |  20% |   325 |   65 |      |  67% |
 
 ### Individuals
@@ -37,7 +37,7 @@ menubar_toc_static:
 |        2 | Anna Wagner       | Owasso 1st Assembly (Owasso) (Owasso 1st Assembly) |   425 |   85 |    4 |  90% |
 |        3 | Sawyer Bell       | Battle Creek Jenks (Jenks) #3 (Battle Creek Jenks) |   390 |   78 |    1 | 100% |
 |        4 | Dannie Willis     | Chickasha Verse Vikings (Grand Assembly of God)    |   380 |   76 |    3 |  88% |
-|        5 | Gabe Glass        | King\'s Quizzers (Discovery Assembly of God)       |   300 |   60 |    1 |  69% |
+|        5 | Gabe Glass        | King's Quizzers (Discovery Assembly of God)        |   300 |   60 |    1 |  69% |
 |        6 | Anistyn Elliott   | Truth Seekers (Discovery Assembly of God)          |   290 |   58 |      |  94% |
 |        7 | Ximena Monroy     | Owasso 1st Assembly (Owasso) (Owasso 1st Assembly) |   265 |   53 |      |  93% |
 |        8 | Tanner Wilmering  | Battle Creek Jenks (Jenks) #3 (Battle Creek Jenks) |   250 |   50 |    2 |  81% |
@@ -50,14 +50,14 @@ menubar_toc_static:
 |       14 | Kensington Willis | Chickasha Verse Vikings (Grand Assembly of God)    |    80 |   16 |      | 100% |
 |       15 | Maverick Boggs    | Owasso 1st Assembly (Owasso) (Owasso 1st Assembly) |    50 |   10 |      | 100% |
 |       16 | Holden Hanover    | Owasso 1st Assembly (Owasso) (Owasso 1st Assembly) |    45 |    9 |      |  75% |
-|       17 | Lucas Madrid      | King\'s Quizzers (Discovery Assembly of God)       |    40 |    8 |      |  71% |
+|       17 | Lucas Madrid      | King's Quizzers (Discovery Assembly of God)        |    40 |    8 |      |  71% |
 |       18 | Elyssa Ullrich    | Christian Chapel (Christian Chapel Assembly)       |    30 |    6 |      |  71% |
 |       19 | Britain Isgrigg   | Christian Chapel (Christian Chapel Assembly)       |    20 |    4 |      |  50% |
 |       20 | Zoey Ullrich      | Christian Chapel (Christian Chapel Assembly)       |    15 |    3 |      |  60% |
 |       21 | Conner Ames       | Owasso 1st Assembly (Owasso) (Owasso 1st Assembly) |    10 |    2 |      | 100% |
 | **\*21** | Lillian Willis    | Chickasha Verse Vikings (Grand Assembly of God)    |    10 |    2 |      | 100% |
-| **\*21** | Sammy Jones       | King\'s Quizzers (Discovery Assembly of God)       |    10 |    2 |      |  50% |
-|       22 | Breed Jones       | King\'s Quizzers (Discovery Assembly of God)       |     5 |    1 |      |  50% |
+| **\*21** | Sammy Jones       | King's Quizzers (Discovery Assembly of God)        |    10 |    2 |      |  50% |
+|       22 | Breed Jones       | King's Quizzers (Discovery Assembly of God)        |     5 |    1 |      |  50% |
 |       23 | Cydney Posey      | Owasso 1st Assembly (Owasso) (Owasso 1st Assembly) |     0 |      |      |      |
 | **\*23** | Hope Johnson      | Chickasha Verse Vikings (Grand Assembly of God)    |     0 |      |      |      |
 | **\*23** | Hunter Ames       | Owasso 1st Assembly (Owasso) (Owasso 1st Assembly) |     0 |      |      |      |
@@ -103,9 +103,6 @@ menubar_toc_static:
 |       13 | Ahbree Armstrong   | Devil Crushers (First Assembly of God)             |     0 |      |      |      |
 | **\*13** | Beckham Wedington  | Quantum Quizzers (Discovery Assembly of God)       |     0 |      |      |      |
 | **\*13** | Olivia Willoughby  | Quantum Quizzers (Discovery Assembly of God)       |     0 |      |      |      |
-| **\*13** | Quizzer-1          | Ghost Team (Church)                                |     0 |      |      |      |
-| **\*13** | Quizzer-2          | Ghost Team (Church)                                |     0 |      |      |      |
-| **\*13** | Quizzer-3          | Ghost Team (Church)                                |     0 |      |      |      |
 | **\*13** | Vivian Frescott    | Battle Creek Jenks (Jenks) #1 (Battle Creek Jenks) |     0 |      |      |      |
 
 *\* Tie couldn't be broken by tie breaking rules.*

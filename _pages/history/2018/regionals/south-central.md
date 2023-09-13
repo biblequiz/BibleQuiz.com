@@ -61,8 +61,6 @@ menubar_toc_static:
 | **\*19** | Julia Sullivan      | The Five (Trinity Church)                      |    10 |  1.4 |      |  66% |
 |       20 | Joseph Royer        | Spring First (Spring First Church)             |     0 |      |      |      |
 | **\*20** | Dylan Grace         | Legacy Church (Legacy Church)                  |     0 |      |      |      |
-| **\*20** | Quizzer-3           | Firewheel (First at Firewheel)                 |     0 |      |      |      |
-| **\*20** | Quizzer-3           | Don't You Remember? (Memorial Assembly Of God) |     0 |      |      |      |
 |       21 | Conor McDaniel      | CT Church (CT Church)                          |    -5 |  -.7 |      |  50% |
 | **\*21** | Madison Jenkins     | Legacy Church (Legacy Church)                  |    -5 |  -.7 |      |  36% |
 |       22 | Esperance Ngira     | The Harvest Has Come (Harvest Assembly of God) |   -25 | -3.6 |      |      |
@@ -91,4 +89,3 @@ menubar_toc_static:
 | **\*4** | Jed Gamboa           | Noble Assemlby (Noble Assembly of God) |    45 |  11.3 |      |  58% |
 |       5 | Trinity Morgan       | Noble Assemlby (Noble Assembly of God) |     0 |       |      |      |
 | **\*5** | Emily Shortes        | Noble Assemlby (Noble Assembly of God) |     0 |       |      |      |
-| **\*5** | Quizzer-3            | The Two (Trinity Church)               |     0 |       |      |      |

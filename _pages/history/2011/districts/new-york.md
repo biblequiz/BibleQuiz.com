@@ -93,7 +93,7 @@ menubar_toc_static:
 |    5 | Benjamin Beckering   | Grace A/G, Syracuse (Empire)      |   225 |    1 |   38 |
 |    6 | Jordan Ennis         | Grace A/G, Syracuse (Empire)      |    85 |    0 |   14 |
 |    7 | John-Michael Sellers | Mohawk Valley Homeschool (Empire) |    75 |    0 |   13 |
-|    8 | Brandon  Congdon     | First A/G, Binghamton (Empire)    |    70 |    0 |   12 |
+|    8 | Brandon Congdon      | First A/G, Binghamton (Empire)    |    70 |    0 |   12 |
 |    9 | Molly Reilly         | First A/G, Marcy (Empire)         |    65 |    0 |   11 |
 |   10 | Renee Sanders        | First A/G, Binghamton (Empire)    |    65 |    0 |   11 |
 |   11 | Anthony Sanders      | First A/G, Binghamton (Empire)    |    30 |    0 |    5 |

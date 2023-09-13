@@ -118,6 +118,5 @@ menubar_toc_static:
 | **\*15** | Junior Darko           | Team Believe (First @ Firewheel)           |     0 |      |      |      |
 | **\*15** | Norbert Azubuike       | Team Believe (First @ Firewheel)           |     0 |      |      |      |
 | **\*15** | Juliette Mora          | Royal Buzzers (Bethesda AG)                |     0 |      |      |      |
-| **\*15** | Quizzer-3              | Faith, Hope & Love (Mountain Creek Church) |     0 |      |      |      |
 |       16 | Gideon Bennett         | Trinity Quiz Kids (Trinity Church)         |    -5 |   -1 |      |      |
 

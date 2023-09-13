@@ -35,53 +35,53 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer              | Team                                                   | Total |   Avg |   QO |   Q% |
-| -------: | -------------------- | ------------------------------------------------------ | ----: | ----: | ---: | ---: |
-|        1 | Jordyn Smith         | Starburst (First NLR)                                  |  1295 | 143.9 |    9 |  96% |
-|        2 | James Faries         | Trinity Fellowship (Trinity Fellowship - Fayetteville) |  1005 | 111.7 |    9 |  89% |
-|        3 | Adalyn Hornaday      | Bible Bugs (Fordyce 1st AG)                            |   705 |  78.3 |    7 |  89% |
-|        4 | Hailey Kelly         | VBFA (Van Buren 1st AG)                                |   570 |  63.3 |    2 |  91% |
-|        5 | Haleigh Griffin      | Quizzing Chicks (Harrison Faith AG)                    |   500 |  55.6 |    3 |  71% |
-|        6 | Aubrey Harvey        | McArthur K-1st (McArthur Church)                       |   450 |    50 |    3 |  97% |
-|        7 | Gabi Eckart          | Lifesavers (First NLR)                                 |   430 |  47.8 |      |  79% |
-|        8 | Peyton Zermatten     | Lifesavers (First NLR)                                 |   405 |    45 |    1 |  79% |
-|        9 | Adrianna Daniels     | VBFA (Van Buren 1st AG)                                |   390 |  43.3 |    2 |  80% |
-|       10 | Connor Leker         | Starburst (First NLR)                                  |   355 |  39.4 |    2 |  92% |
-|       11 | Kensley Mankins      | VBFA (Van Buren 1st AG)                                |   295 |  32.8 |    1 |  75% |
-|       12 | Dixie Hill           | Crossroads Calvary (Crossroads AG )                    |   290 |  32.2 |      |  84% |
-|       13 | Isaiah Stewart       | Trinity Fellowship (Trinity Fellowship - Fayetteville) |   285 |  31.7 |    2 |  93% |
-|       14 | Charles Tyson        | Sandhill Saints (Sandhill AG)                          |   280 |  31.1 |      |  88% |
-|       15 | Adalee Roberts       | Quizzing Chicks (Harrison Faith AG)                    |   275 |  30.6 |    1 |  79% |
-|       16 | Matthew Hodges       | Bible Bugs (Fordyce 1st AG)                            |   255 |  28.3 |      |  71% |
-|       17 | Alice Weeley         | McArthur K-1st (McArthur Church)                       |   220 |  24.4 |      | 100% |
-|       18 | Amelia Gill          | Starburst (First NLR)                                  |   205 |  22.8 |      |  86% |
-|       19 | Taylor Humphry       | Crossroads Calvary (Crossroads AG )                    |   175 |  19.4 |      |  94% |
-|       20 | Madison Andrews      | RFA K-2nd (Russellville 1st AG)                        |   170 |  18.9 |      |  84% |
-|       21 | Alexa Harvey         | McArthur K-1st (McArthur Church)                       |   165 |  18.3 |      |  67% |
-|       22 | Coleman Hicks        | Sandhill Saints (Sandhill AG)                          |   160 |  17.8 |      |  86% |
-|       23 | Andi Wilson          | Quizzing Chicks (Harrison Faith AG)                    |   140 |  15.6 |      |  67% |
-|       24 | Jaxson Andrews       | RFA K-2nd (Russellville 1st AG)                        |    90 |    10 |      | 100% |
-|       25 | Daulson Yarbrough    | RFA K-2nd (Russellville 1st AG)                        |    65 |   7.2 |      |  86% |
-| **\*25** | ReeceAnn Hall-Folsom | McArthur K-1st (McArthur Church)                       |    65 |   7.2 |      |  78% |
-|       26 | Joe Faries           | Trinity Fellowship (Trinity Fellowship - Fayetteville) |    45 |     5 |      |  75% |
-|       27 | Loren Davis          | VBFA (Van Buren 1st AG)                                |    40 |   4.4 |      | 100% |
-| **\*27** | Jai White            | Lifesavers (First NLR)                                 |    40 |   4.4 |      | 100% |
-| **\*27** | Sophie Moseby        | Lifesavers (First NLR)                                 |    40 |   4.4 |      |  83% |
-|       28 | Yaretzi Trujillo     | Trinity Fellowship (Trinity Fellowship - Fayetteville) |    30 |   3.3 |      | 100% |
-|       29 | Matt Boren           | Lifesavers (First NLR)                                 |    20 |   2.2 |      | 100% |
-| **\*29** | Katie Hodges         | Bible Bugs (Fordyce 1st AG)                            |    20 |   2.2 |      | 100% |
-|       30 | Destiny Hill         | Crossroads Calvary (Crossroads AG )                    |    15 |   1.7 |      |  75% |
-|       31 | Joslyn Swafford      | VBFA (Van Buren 1st AG)                                |    10 |   1.1 |      |  99% |
-|       32 | Caleb Stewart        | Trinity Fellowship (Trinity Fellowship - Fayetteville) |     0 |       |      |  33% |
-| **\*32** | Anya Abdulla         | McArthur K-1st (McArthur Church)                       |     0 |       |      |  33% |
-| **\*32** | Tristan Daniels      | VBFA (Van Buren 1st AG)                                |     0 |       |      |      |
-| **\*32** | Ty Harper            | Starburst (First NLR)                                  |     0 |       |      |      |
-| **\*32** | Acadia Pierce        | RFA K-2nd (Russellville 1st AG)                        |     0 |       |      |      |
-| **\*32** | Jaelyn Rich          | RFA K-2nd (Russellville 1st AG)                        |     0 |       |      |      |
-| **\*32** | Tinley Turner        | RFA K-2nd (Russellville 1st AG)                        |     0 |       |      |      |
-| **\*32** | Ashleigh Griffin     | Quizzing Chicks (Harrison Faith AG)                    |     0 |       |      |      |
-| **\*32** | Jason Hariston       | McArthur K-1st (McArthur Church)                       |     0 |       |      |      |
-|       33 | Gabe Fernandez       | Starburst (First NLR)                                  |   -20 |  -2.2 |      |  43% |
+|        # | Quizzer               | Team                                                   | Total |   Avg |   QO |   Q% |
+| -------: | --------------------- | ------------------------------------------------------ | ----: | ----: | ---: | ---: |
+|        1 | Jordyn Smith          | Starburst (First NLR)                                  |  1295 | 143.9 |    9 |  96% |
+|        2 | James Faries          | Trinity Fellowship (Trinity Fellowship - Fayetteville) |  1005 | 111.7 |    9 |  89% |
+|        3 | Adalyn Hornaday       | Bible Bugs (Fordyce 1st AG)                            |   705 |  78.3 |    7 |  89% |
+|        4 | Hailey Kelly          | VBFA (Van Buren 1st AG)                                |   570 |  63.3 |    2 |  91% |
+|        5 | Haleigh Griffin       | Quizzing Chicks (Harrison Faith AG)                    |   500 |  55.6 |    3 |  71% |
+|        6 | Aubrey Harvey         | McArthur K-1st (McArthur Church)                       |   450 |    50 |    3 |  97% |
+|        7 | Gabi Eckart           | Lifesavers (First NLR)                                 |   430 |  47.8 |      |  79% |
+|        8 | Peyton Zermatten      | Lifesavers (First NLR)                                 |   405 |    45 |    1 |  79% |
+|        9 | Adrianna Daniels      | VBFA (Van Buren 1st AG)                                |   390 |  43.3 |    2 |  80% |
+|       10 | Connor Leker          | Starburst (First NLR)                                  |   355 |  39.4 |    2 |  92% |
+|       11 | Kensley Mankins       | VBFA (Van Buren 1st AG)                                |   295 |  32.8 |    1 |  75% |
+|       12 | Dixie Hill            | Crossroads Calvary (Crossroads AG )                    |   290 |  32.2 |      |  84% |
+|       13 | Isaiah Stewart        | Trinity Fellowship (Trinity Fellowship - Fayetteville) |   285 |  31.7 |    2 |  93% |
+|       14 | Charles Tyson         | Sandhill Saints (Sandhill AG)                          |   280 |  31.1 |      |  88% |
+|       15 | Adalee Roberts        | Quizzing Chicks (Harrison Faith AG)                    |   275 |  30.6 |    1 |  79% |
+|       16 | Matthew Hodges        | Bible Bugs (Fordyce 1st AG)                            |   255 |  28.3 |      |  71% |
+|       17 | Alice Weeley          | McArthur K-1st (McArthur Church)                       |   220 |  24.4 |      | 100% |
+|       18 | Amelia Gill           | Starburst (First NLR)                                  |   205 |  22.8 |      |  86% |
+|       19 | Taylor Humphry        | Crossroads Calvary (Crossroads AG )                    |   175 |  19.4 |      |  94% |
+|       20 | Madison Andrews       | RFA K-2nd (Russellville 1st AG)                        |   170 |  18.9 |      |  84% |
+|       21 | Alexa Harvey          | McArthur K-1st (McArthur Church)                       |   165 |  18.3 |      |  67% |
+|       22 | Coleman Hicks         | Sandhill Saints (Sandhill AG)                          |   160 |  17.8 |      |  86% |
+|       23 | Andi Wilson           | Quizzing Chicks (Harrison Faith AG)                    |   140 |  15.6 |      |  67% |
+|       24 | Jaxson Andrews        | RFA K-2nd (Russellville 1st AG)                        |    90 |    10 |      | 100% |
+|       25 | Daulson Yarbrough     | RFA K-2nd (Russellville 1st AG)                        |    65 |   7.2 |      |  86% |
+| **\*25** | Reece Ann Hall-Folsom | McArthur K-1st (McArthur Church)                       |    65 |   7.2 |      |  78% |
+|       26 | Joe Faries            | Trinity Fellowship (Trinity Fellowship - Fayetteville) |    45 |     5 |      |  75% |
+|       27 | Loren Davis           | VBFA (Van Buren 1st AG)                                |    40 |   4.4 |      | 100% |
+| **\*27** | Jai White             | Lifesavers (First NLR)                                 |    40 |   4.4 |      | 100% |
+| **\*27** | Sophie Moseby         | Lifesavers (First NLR)                                 |    40 |   4.4 |      |  83% |
+|       28 | Yaretzi Trujillo      | Trinity Fellowship (Trinity Fellowship - Fayetteville) |    30 |   3.3 |      | 100% |
+|       29 | Matt Boren            | Lifesavers (First NLR)                                 |    20 |   2.2 |      | 100% |
+| **\*29** | Katie Hodges          | Bible Bugs (Fordyce 1st AG)                            |    20 |   2.2 |      | 100% |
+|       30 | Destiny Hill          | Crossroads Calvary (Crossroads AG )                    |    15 |   1.7 |      |  75% |
+|       31 | Joslyn Swafford       | VBFA (Van Buren 1st AG)                                |    10 |   1.1 |      |  99% |
+|       32 | Caleb Stewart         | Trinity Fellowship (Trinity Fellowship - Fayetteville) |     0 |       |      |  33% |
+| **\*32** | Anya Abdulla          | McArthur K-1st (McArthur Church)                       |     0 |       |      |  33% |
+| **\*32** | Tristan Daniels       | VBFA (Van Buren 1st AG)                                |     0 |       |      |      |
+| **\*32** | Ty Harper             | Starburst (First NLR)                                  |     0 |       |      |      |
+| **\*32** | Acadia Pierce         | RFA K-2nd (Russellville 1st AG)                        |     0 |       |      |      |
+| **\*32** | Jaelyn Rich           | RFA K-2nd (Russellville 1st AG)                        |     0 |       |      |      |
+| **\*32** | Tinley Turner         | RFA K-2nd (Russellville 1st AG)                        |     0 |       |      |      |
+| **\*32** | Ashleigh Griffin      | Quizzing Chicks (Harrison Faith AG)                    |     0 |       |      |      |
+| **\*32** | Jason Hariston        | McArthur K-1st (McArthur Church)                       |     0 |       |      |      |
+|       33 | Gabe Fernandez        | Starburst (First NLR)                                  |   -20 |  -2.2 |      |  43% |
 
 
 ## 3rd & 4th Grade

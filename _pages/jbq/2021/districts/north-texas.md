@@ -53,11 +53,9 @@ menubar_toc_static:
 |       18 | Daniel Bartholomew  | Super Smash Bros (The Oaks Fellowship)     |    40 |     4 |      | 100% |
 |       19 | Trotter Smith       | God's Holy Guacamole (Freedom Church)      |    20 |     2 |      | 100% |
 |       20 | Grace Bartholomew   | Super Smash Bros (The Oaks Fellowship)     |     0 |       |      |      |
-| **\*20** | Quizzer-3           | Power Kids (Kids Club)                     |     0 |       |      |      |
 | **\*20** | Isabella Darko      | Keepers of the Command (First @ Firewheel) |     0 |       |      |      |
 | **\*20** | Chizarm Iwuogaranya | Keepers of the Command (First @ Firewheel) |     0 |       |      |      |
 | **\*20** | Chizaram Echefu     | Keepers of the Command (First @ Firewheel) |     0 |       |      |      |
-| **\*20** | Quizzer-3           | Blazing Lions (Dripping Springs UMC)       |     0 |       |      |      |
 
 
 ## Intermediate
@@ -74,7 +72,7 @@ menubar_toc_static:
 |  4.0 | Kingdom Explorers (Mountain Creek Church) | 6 / 6  |  1155 |  96.2 |    7 |  74% |
 |  5.0 | Harvest AG #1 (Harvest AG)                | 4 / 8  |   815 |  67.9 |    3 |  77% |
 |  6.0 | Encouter Church #1 (The Encouter Church)  | 2 / 10 |   820 |  68.3 |    2 |  82% |
-|  7.0 | God's Squad (Freedon Chruch)              | 1 / 11 |   830 |  69.2 |    3 |  97% |
+|  7.0 | God's Squad (Freedon Church)              | 1 / 11 |   830 |  69.2 |    3 |  97% |
 
 ### Individuals
 
@@ -85,7 +83,7 @@ menubar_toc_static:
 |        1 | Hannah Lapusan      | Quizzers for God (The Oaks Fellowship)    |  1125 | 93.8 |   12 |  90% |
 |        2 | Haley Moura         | Harvest AG #1 (Harvest AG)                |   815 | 67.9 |    3 |  77% |
 |        3 | Elisha Chee         | Alpha and Omega (Dripping Springs UMC)    |   760 | 63.3 |    9 |  92% |
-|        4 | James Moreland      | God's Squad (Freedon Chruch)              |   720 |   60 |    3 |  96% |
+|        4 | James Moreland      | God's Squad (Freedon Church)              |   720 |   60 |    3 |  96% |
 |        5 | Chika Iwuogaranya   | Bible Searchers (First @ Firewheel)       |   715 | 59.6 |    8 |  90% |
 |        6 | Ntalie Linton       | Alpha and Omega (Dripping Springs UMC)    |   630 | 52.5 |    1 |  92% |
 |        7 | Dozie Osuagwu       | Bible Searchers (First @ Firewheel)       |   615 | 51.3 |    2 |  73% |
@@ -99,13 +97,12 @@ menubar_toc_static:
 |       15 | Tino Preciado       | Kingdom Explorers (Mountain Creek Church) |   190 | 15.8 |      |  70% |
 |       16 | Jaya Gastineau      | Alpha and Omega (Dripping Springs UMC)    |   150 | 12.5 |      | 100% |
 |       17 | Muna Osuagwu        | Bible Searchers (First @ Firewheel)       |   105 |  8.8 |      |  52% |
-|       18 | Makayla Montes      | God's Squad (Freedon Chruch)              |    70 |  5.8 |      | 100% |
+|       18 | Makayla Montes      | God's Squad (Freedon Church)              |    70 |  5.8 |      | 100% |
 |       19 | Chinasa Ayozie      | Bible Searchers (First @ Firewheel)       |    45 |  3.8 |      |  66% |
-|       20 | Kaevyan Burrow      | God's Squad (Freedon Chruch)              |    40 |  3.3 |      | 100% |
+|       20 | Kaevyan Burrow      | God's Squad (Freedon Church)              |    40 |  3.3 |      | 100% |
 | **\*20** | Ann Pickrell        | Quizzers for God (The Oaks Fellowship)    |    40 |  3.3 |      | 100% |
 |       21 | Daniel Ngira        | Harvest AG #1 (Harvest AG)                |     0 |      |      |      |
-| **\*21** | Quizzer-3           | Harvest AG #1 (Harvest AG)                |     0 |      |      |      |
-| **\*21** | Samuel Andrade      | God's Squad (Freedon Chruch)              |     0 |      |      |      |
+| **\*21** | Samuel Andrade      | God's Squad (Freedon Church)              |     0 |      |      |      |
 | **\*21** | Raelee Deaton       | Bible Searchers (First @ Firewheel)       |     0 |      |      |      |
 |       22 | Nakiya Davis        | Encouter Church #1 (The Encouter Church)  |   -10 |  -.8 |      |  33% |
 |       23 | Matthew Leonez      | Bible Searchers (First @ Firewheel)       |   -25 | -2.1 |      |      |
@@ -167,27 +164,24 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                | Team                                     | Total |  Avg |   QO |   Q% |
-| -------: | ---------------------- | ---------------------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Sarah Lapusan          | God's Mini Helpers (The Oaks Fellowship) |   410 |   82 |    5 |  86% |
-|        2 | Neo Pradeep            | Holy Faith (Dripping Springs UMC)        |   390 |   78 |    3 | 100% |
-|        3 | Elisha Chee            | Holy Faith (Dripping Springs UMC)        |   305 |   61 |    5 |  88% |
-|        4 | Lilly Jeter            | God's Mini Helpers (The Oaks Fellowship) |   225 |   45 |    2 |  88% |
-|        5 | Caleb Applegate        | Harvest #2 (Harvest Church)              |   220 |   44 |    1 |  90% |
-|        6 | Noah Zeli              | The Elected (Mountain Creek Church)      |   215 |   43 |    2 |  74% |
-|        7 | Christiana Darko       | Chi Rho Tots (First @ Firewheel Church)  |   190 |   38 |    2 |  90% |
-|        8 | LJ Moura               | Harvest #2 (Harvest Church)              |   165 |   33 |    1 |  92% |
-|        9 | Praise Iwuogaranya     | Chi Rho Tots (First @ Firewheel Church)  |   130 |   26 |      |  79% |
-|       10 | Nyagoma Kayesu         | Harvest #2 (Harvest Church)              |   105 |   21 |      |  90% |
-|       11 | Abigail Pradeep        | Holy Faith (Dripping Springs UMC)        |    75 |   15 |      |  87% |
-|       12 | Jessa Gastineau        | Holy Faith (Dripping Springs UMC)        |    60 |   12 |      | 100% |
-|       13 | Zach Samuel            | Chi Rho Tots (First @ Firewheel Church)  |    55 |   11 |      |  78% |
-|       14 | Israel Fajemirokun     | The Elected (Mountain Creek Church)      |    40 |    8 |      |  67% |
-|       15 | Jeremias(JD) Rodriguez | The Elected (Mountain Creek Church)      |    25 |    5 |      |  75% |
-|       16 | Samantha Colley        | God's Mini Helpers (The Oaks Fellowship) |    20 |    4 |      |  67% |
-|       17 | Peter                  | The 12 Apostles (Holy Ghost)             |    10 |    2 |      |  99% |
-|       18 | Joshua Applegate       | Harvest #2 (Harvest Church)              |     0 |      |      |      |
-| **\*18** | Andrew                 | The 12 Apostles (Holy Ghost)             |     0 |      |      |      |
-| **\*18** | John                   | The 12 Apostles (Holy Ghost)             |     0 |      |      |      |
-|       19 | Ethan Fajemirokun      | The Elected (Mountain Creek Church)      |    -5 |   -1 |      |      |
+|    # | Quizzer                | Team                                     | Total |  Avg |   QO |   Q% |
+| ---: | ---------------------- | ---------------------------------------- | ----: | ---: | ---: | ---: |
+|    1 | Sarah Lapusan          | God's Mini Helpers (The Oaks Fellowship) |   410 |   82 |    5 |  86% |
+|    2 | Neo Pradeep            | Holy Faith (Dripping Springs UMC)        |   390 |   78 |    3 | 100% |
+|    3 | Elisha Chee            | Holy Faith (Dripping Springs UMC)        |   305 |   61 |    5 |  88% |
+|    4 | Lilly Jeter            | God's Mini Helpers (The Oaks Fellowship) |   225 |   45 |    2 |  88% |
+|    5 | Caleb Applegate        | Harvest #2 (Harvest Church)              |   220 |   44 |    1 |  90% |
+|    6 | Noah Zeli              | The Elected (Mountain Creek Church)      |   215 |   43 |    2 |  74% |
+|    7 | Christiana Darko       | Chi Rho Tots (First @ Firewheel Church)  |   190 |   38 |    2 |  90% |
+|    8 | LJ Moura               | Harvest #2 (Harvest Church)              |   165 |   33 |    1 |  92% |
+|    9 | Praise Iwuogaranya     | Chi Rho Tots (First @ Firewheel Church)  |   130 |   26 |      |  79% |
+|   10 | Nyagoma Kayesu         | Harvest #2 (Harvest Church)              |   105 |   21 |      |  90% |
+|   11 | Abigail Pradeep        | Holy Faith (Dripping Springs UMC)        |    75 |   15 |      |  87% |
+|   12 | Jessa Gastineau        | Holy Faith (Dripping Springs UMC)        |    60 |   12 |      | 100% |
+|   13 | Zach Samuel            | Chi Rho Tots (First @ Firewheel Church)  |    55 |   11 |      |  78% |
+|   14 | Israel Fajemirokun     | The Elected (Mountain Creek Church)      |    40 |    8 |      |  67% |
+|   15 | Jeremias(JD) Rodriguez | The Elected (Mountain Creek Church)      |    25 |    5 |      |  75% |
+|   16 | Samantha Colley        | God's Mini Helpers (The Oaks Fellowship) |    20 |    4 |      |  67% |
+|   17 | Joshua Applegate       | Harvest #2 (Harvest Church)              |     0 |      |      |      |
+|   18 | Ethan Fajemirokun      | The Elected (Mountain Creek Church)      |    -5 |   -1 |      |      |
 

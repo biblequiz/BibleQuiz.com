@@ -18,33 +18,33 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team                         | W/L   | Total |   Avg |   QO |   Q% |
-| ---: | ---------------------------- | ----- | ----: | ----: | ---: | ---: |
-|  1.0 | Quadruple Threat (McArthur ) | 2 / 0 |   225 | 112.4 |    1 |  94% |
-|  2.0 | Bethel Kids (Bethel AG)      | 1 / 1 |   135 |  67.5 |    2 |  74% |
-|  3.0 | Rose Bud (Rose Bud)          | 0 / 2 |    15 |   7.5 |      |  60% |
+|    # | Team                        | W/L   | Total |   Avg |   QO |   Q% |
+| ---: | --------------------------- | ----- | ----: | ----: | ---: | ---: |
+|  1.0 | Quadruple Threat (McArthur) | 2 / 0 |   225 | 112.4 |    1 |  94% |
+|  2.0 | Bethel Kids (Bethel AG)     | 1 / 1 |   135 |  67.5 |    2 |  74% |
+|  3.0 | Rose Bud (Rose Bud)         | 0 / 2 |    15 |   7.5 |      |  60% |
 
 ### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|       # | Quizzer             | Team                         | Total |  Avg |   QO |   Q% |
-| ------: | ------------------- | ---------------------------- | ----: | ---: | ---: | ---: |
-|       1 | Lexi Shalter        | Quadruple Threat (McArthur ) |   135 | 67.5 |    1 |  90% |
-|       2 | Kayden Johnson      | Bethel Kids (Bethel AG)      |   130 |   65 |    2 |  86% |
-|       3 | Addison Cotner      | Quadruple Threat (McArthur ) |    40 |   20 |      | 100% |
-|       4 | Taylinn Cotner      | Quadruple Threat (McArthur ) |    30 |   15 |      | 100% |
-|       5 | Johnathan Hairston  | Quadruple Threat (McArthur ) |    20 |   10 |      | 100% |
-| **\*5** | Timothy Donley      | Bethel Kids (Bethel AG)      |    20 |   10 |      |  99% |
-|       6 | Naomi Nichols       | Rose Bud (Rose Bud)          |    15 |  7.5 |      |  60% |
-|       7 | Kayden Moore        | Bethel Kids (Bethel AG)      |     5 |  2.5 |      |  50% |
-|       8 | Anya Abdullah       | Quadruple Threat (McArthur ) |     0 |      |      |      |
-| **\*8** | Mel Stone           | Quadruple Threat (McArthur ) |     0 |      |      |      |
-| **\*8** | Ty Jacobs           | Quadruple Threat (McArthur ) |     0 |      |      |      |
-| **\*8** | Mikaela Herbert     | Bethel Kids (Bethel AG)      |     0 |      |      |      |
-| **\*8** | Parker Brandstetter | Rose Bud (Rose Bud)          |     0 |      |      |      |
-| **\*8** | Isaac Biniakewitz   | Rose Bud (Rose Bud)          |     0 |      |      |      |
-|       9 | Layne Burton        | Bethel Kids (Bethel AG)      |   -20 |  -10 |      |      |
+|       # | Quizzer             | Team                        | Total |  Avg |   QO |   Q% |
+| ------: | ------------------- | --------------------------- | ----: | ---: | ---: | ---: |
+|       1 | Lexi Shalter        | Quadruple Threat (McArthur) |   135 | 67.5 |    1 |  90% |
+|       2 | Kayden Johnson      | Bethel Kids (Bethel AG)     |   130 |   65 |    2 |  86% |
+|       3 | Addison Cotner      | Quadruple Threat (McArthur) |    40 |   20 |      | 100% |
+|       4 | Taylinn Cotner      | Quadruple Threat (McArthur) |    30 |   15 |      | 100% |
+|       5 | Johnathan Hairston  | Quadruple Threat (McArthur) |    20 |   10 |      | 100% |
+| **\*5** | Timothy Donley      | Bethel Kids (Bethel AG)     |    20 |   10 |      |  99% |
+|       6 | Naomi Nichols       | Rose Bud (Rose Bud)         |    15 |  7.5 |      |  60% |
+|       7 | Kayden Moore        | Bethel Kids (Bethel AG)     |     5 |  2.5 |      |  50% |
+|       8 | Anya Abdullah       | Quadruple Threat (McArthur) |     0 |      |      |      |
+| **\*8** | Mel Stone           | Quadruple Threat (McArthur) |     0 |      |      |      |
+| **\*8** | Ty Jacobs           | Quadruple Threat (McArthur) |     0 |      |      |      |
+| **\*8** | Mikaela Herbert     | Bethel Kids (Bethel AG)     |     0 |      |      |      |
+| **\*8** | Parker Brandstetter | Rose Bud (Rose Bud)         |     0 |      |      |      |
+| **\*8** | Isaac Biniakewitz   | Rose Bud (Rose Bud)         |     0 |      |      |      |
+|       9 | Layne Burton        | Bethel Kids (Bethel AG)     |   -20 |  -10 |      |      |
 
 ## North Central Area - 3rd & 4th Grade
 
@@ -52,32 +52,32 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team                          | W/L   | Total |   Avg |   QO |   Q% |
-| ---: | ----------------------------- | ----- | ----: | ----: | ---: | ---: |
-|  1.0 | Scripture Slayers (McArthur ) | 3 / 0 |   480 | 159.9 |    1 |  79% |
-|  2.0 | Bethel Kids (Bethel AG)       | 2 / 1 |   280 |  93.3 |    2 |  84% |
-|  3.0 | Buzz Hogs (River of Life)     | 1 / 2 |   205 |  68.3 |    2 |  89% |
-|  4.0 | Jesus Freaks (McArthur )      | 0 / 3 |    70 |  23.3 |      | 100% |
+|    # | Team                         | W/L   | Total |   Avg |   QO |   Q% |
+| ---: | ---------------------------- | ----- | ----: | ----: | ---: | ---: |
+|  1.0 | Scripture Slayers (McArthur) | 3 / 0 |   480 | 159.9 |    1 |  79% |
+|  2.0 | Bethel Kids (Bethel AG)      | 2 / 1 |   280 |  93.3 |    2 |  84% |
+|  3.0 | Buzz Hogs (River of Life)    | 1 / 2 |   205 |  68.3 |    2 |  89% |
+|  4.0 | Jesus Freaks (McArthur)      | 0 / 3 |    70 |  23.3 |      | 100% |
 
 ### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer          | Team                          | Total |  Avg |   QO |   Q% |
-| -------: | ---------------- | ----------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Peter Page       | Buzz Hogs (River of Life)     |   195 |   65 |    2 |  94% |
-|        2 | Evie Herrin      | Scripture Slayers (McArthur ) |   190 | 63.3 |    1 |  91% |
-|        3 | Kaitlyn Mogish   | Bethel Kids (Bethel AG)       |   185 | 61.7 |    1 |  75% |
-|        4 | Carly Shalter    | Scripture Slayers (McArthur ) |   115 | 38.3 |      |  57% |
-|        5 | Addyson Herbert  | Bethel Kids (Bethel AG)       |    95 | 31.7 |    1 | 100% |
-|        6 | Jason Hairston   | Scripture Slayers (McArthur ) |    80 | 26.7 |      | 100% |
-|        7 | Justin Hairston  | Scripture Slayers (McArthur ) |    65 | 21.7 |      |  80% |
-|        8 | Reece Ann Folsom | Jesus Freaks (McArthur )      |    40 | 13.3 |      | 100% |
-|        9 | Scout Bateman    | Jesus Freaks (McArthur )      |    30 |   10 |      | 100% |
-|  **\*9** | Alice Weeley     | Scripture Slayers (McArthur ) |    30 |   10 |      | 100% |
-|       10 | Trinity Terry    | Buzz Hogs (River of Life)     |    10 |  3.3 |      |  50% |
-|       11 | Casie Kappler    | Jesus Freaks (McArthur )      |     0 |      |      |      |
-| **\*11** | Chloe            | Jesus Freaks (McArthur )      |     0 |      |      |      |
+|        # | Quizzer               | Team                         | Total |  Avg |   QO |   Q% |
+| -------: | --------------------- | ---------------------------- | ----: | ---: | ---: | ---: |
+|        1 | Peter Page            | Buzz Hogs (River of Life)    |   195 |   65 |    2 |  94% |
+|        2 | Evie Herrin           | Scripture Slayers (McArthur) |   190 | 63.3 |    1 |  91% |
+|        3 | Kaitlyn Mogish        | Bethel Kids (Bethel AG)      |   185 | 61.7 |    1 |  75% |
+|        4 | Carly Shalter         | Scripture Slayers (McArthur) |   115 | 38.3 |      |  57% |
+|        5 | Addyson Herbert       | Bethel Kids (Bethel AG)      |    95 | 31.7 |    1 | 100% |
+|        6 | Jason Hairston        | Scripture Slayers (McArthur) |    80 | 26.7 |      | 100% |
+|        7 | Justin Hairston       | Scripture Slayers (McArthur) |    65 | 21.7 |      |  80% |
+|        8 | Reece Ann Hall-Folsom | Jesus Freaks (McArthur)      |    40 | 13.3 |      | 100% |
+|        9 | Scout Bateman         | Jesus Freaks (McArthur)      |    30 |   10 |      | 100% |
+|  **\*9** | Alice Weeley          | Scripture Slayers (McArthur) |    30 |   10 |      | 100% |
+|       10 | Trinity Terry         | Buzz Hogs (River of Life)    |    10 |  3.3 |      |  50% |
+|       11 | Casie Kappler         | Jesus Freaks (McArthur)      |     0 |      |      |      |
+| **\*11** | Chloe                 | Jesus Freaks (McArthur)      |     0 |      |      |      |
 
 ## North Central Area - 5th & 6th Grade
 
@@ -88,9 +88,9 @@ menubar_toc_static:
 |    # | Team                      | W/L   | Total |   Avg |   QO |   Q% |
 | ---: | ------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | Buzz Hogs (River of Life) | 3 / 0 |   755 | 251.6 |    3 |  89% |
-|  2.0 | Minons ()                 | 2 / 1 |   605 | 201.6 |    4 |  86% |
+|  2.0 | Minons                    | 2 / 1 |   605 | 201.6 |    4 |  86% |
 |  3.0 | Bethel Kids (Bethel AG)   | 1 / 2 |   230 |  76.6 |      |  65% |
-|  4.0 | Warriors ()               | 0 / 3 |    75 |    25 |      |  83% |
+|  4.0 | Warriors                  | 0 / 3 |    75 |    25 |      |  83% |
 
 ### Individuals
 
@@ -100,23 +100,23 @@ menubar_toc_static:
 | -------: | ---------------- | ------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Lauryn Jackson   | Buzz Hogs (River of Life) |   305 | 101.7 |    1 | 100% |
 |  **\*1** | Josiah Minick    | Buzz Hogs (River of Life) |   305 | 101.7 |    1 |  84% |
-|        2 | Kamelia Skinner  | Minons ()                 |   280 |  93.3 |    2 |  83% |
+|        2 | Kamelia Skinner  | Minons                    |   280 |  93.3 |    2 |  83% |
 |        3 | Colton Rosenbaum | Bethel Kids (Bethel AG)   |   165 |    55 |      |  67% |
-|        4 | Lakin Shaw       | Minons ()                 |   155 |  51.7 |    2 |  83% |
-|        5 | Sarah Swain      | Minons ()                 |   150 |    50 |      | 100% |
+|        4 | Lakin Shaw       | Minons                    |   155 |  51.7 |    2 |  83% |
+|        5 | Sarah Swain      | Minons                    |   150 |    50 |      | 100% |
 |        6 | Nehemiah Page    | Buzz Hogs (River of Life) |   130 |  43.3 |    1 |  87% |
-|        7 | Aubrey Brandon   | Warriors ()               |    75 |    25 |      |  83% |
+|        7 | Aubrey Brandon   | Warriors                  |    75 |    25 |      |  83% |
 |        8 | Cloe Graves      | Bethel Kids (Bethel AG)   |    45 |    15 |      |  67% |
 |        9 | Jayden Bullock   | Bethel Kids (Bethel AG)   |    25 |   8.3 |      |  75% |
-|       10 | Savanna Stephens | Minons ()                 |    20 |   6.7 |      | 100% |
+|       10 | Savanna Stephens | Minons                    |    20 |   6.7 |      | 100% |
 |       11 | Cherish Page     | Buzz Hogs (River of Life) |    15 |     5 |      |  66% |
-|       12 | Addison Wolters  | Minons ()                 |     0 |       |      |      |
-| **\*12** | Kayla Barnhart   | Warriors ()               |     0 |       |      |      |
-| **\*12** | Aiden Scissell   | Warriors ()               |     0 |       |      |      |
-| **\*12** | Brittney Coast   | Warriors ()               |     0 |       |      |      |
-| **\*12** | Drake Ward       | Warriors ()               |     0 |       |      |      |
-| **\*12** | Brooklyn Barnard | Warriors ()               |     0 |       |      |      |
-| **\*12** | Jordan Hairston  | Warriors ()               |     0 |       |      |      |
+|       12 | Addison Wolters  | Minons                    |     0 |       |      |      |
+| **\*12** | Kayla Barnhart   | Warriors                  |     0 |       |      |      |
+| **\*12** | Aiden Scissell   | Warriors                  |     0 |       |      |      |
+| **\*12** | Brittney Coast   | Warriors                  |     0 |       |      |      |
+| **\*12** | Drake Ward       | Warriors                  |     0 |       |      |      |
+| **\*12** | Brooklyn Barnard | Warriors                  |     0 |       |      |      |
+| **\*12** | Jordan Hairston  | Warriors                  |     0 |       |      |      |
 |       13 | Amelia James     | Bethel Kids (Bethel AG)   |    -5 |  -1.7 |      |      |
 
 

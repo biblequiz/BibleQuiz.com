@@ -39,11 +39,7 @@ menubar_toc_static:
 |       6 | Alexa Santiago     | God Squad (The Link)        |   105 |  17.5 |      |  80% |
 |       7 | Gideon Wineinger   | The Fuse (Faith Church)     |    70 |  11.7 |      | 100% |
 |       8 | Christina Santiago | God Squad (The Link)        |     5 |    .8 |      |  50% |
-|       9 | Clyde              | Ghost Team (Arcadeland)     |     0 |       |      |      |
-| **\*9** | Inky               | Ghost Team (Arcadeland)     |     0 |       |      |      |
-| **\*9** | Blinky             | Ghost Team (Arcadeland)     |     0 |       |      |      |
-| **\*9** | Pinky              | Ghost Team (Arcadeland)     |     0 |       |      |      |
-| **\*9** | Jayms Fraley       | God Squad (The Link)        |     0 |       |      |      |
+|       9 | Jayms Fraley       | God Squad (The Link)        |     0 |       |      |      |
 | **\*9** | Josie Dobbs        | God Squad (The Link)        |     0 |       |      |      |
 | **\*9** | Aaliyah Arvizu     | God Squad (The Link)        |     0 |       |      |      |
 |      10 | Jimma Fraley       | God Squad (The Link)        |    -5 |   -.8 |      |      |
@@ -80,8 +76,6 @@ menubar_toc_static:
 |       10 | Avery Hair           | Woodlake Bixby #1 (Woodlake Church Bixby) |    15 |  2.5 |      |  66% |
 |       11 | Josiah Haynes        | Woodlake Bixby #1 (Woodlake Church Bixby) |     0 |      |      |      |
 | **\*11** | Aarie Jackson        | Christian Chapel B (Christian Chapel)     |     0 |      |      |      |
-| **\*11** | Quizzer-1            | Woodlake Bixby #2 (Woodlake Church Bixby) |     0 |      |      |      |
-| **\*11** | Quizzer-2            | Woodlake Bixby #2 (Woodlake Church Bixby) |     0 |      |      |      |
 | **\*11** | McKinley Hair        | Woodlake Bixby #2 (Woodlake Church Bixby) |     0 |      |      |      |
 |       12 | Beckham Wedington    | Doers of the Word (Discovery Church)      |    -5 |  -.8 |      |  33% |
 |       13 | Jenevieve Mellendorf | Doers of the Word (Discovery Church)      |   -10 | -1.7 |      |      |

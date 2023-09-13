@@ -82,10 +82,7 @@ menubar_toc_static:
 |   36 | James Blount        | Glad Tidings AG        | Glad Tidings AG - Tinton Falls NJ       |    25 |   2.27 |      |
 |   37 | Jeffrey Bradley     | New Day AG             | New Day AG - Upper Saint Clair PA       |    20 |   1.82 |      |
 |   37 | Jason Czerniejewski | New Day AG             | New Day AG - Upper Saint Clair PA       |    20 |   1.82 |      |
-|   38 | Quizzer-3           | Dayspring AG           | Dayspring AG - Porter TX                |       |    .00 |      |
 |   38 | Corey Ott Jr.       | Glad Tidings AG        | Glad Tidings AG - Tinton Falls NJ       |       |    .00 |      |
-|   38 | Quizzer-3           | Deeper Church          | Deeper Church - Burien WA               |       |    .00 |      |
-|   38 | Quizzer-3           | Living Hope            | Living Hope WC - Swedesboro NJ          |       |    .00 |      |
 |   38 | Matthew Gerhauser   | The Pointless Utensils | Resurgence Church - Mastic NY           |       |    .00 |      |
 |   38 | Madeline Jones      | Don't Think            | Redeemer Church - Utica NY              |       |    .00 |      |
 |   38 | Audrey Han          | The Pointless Utensils | Resurgence Church - Mastic NY           |       |    .00 |      |
@@ -124,7 +121,6 @@ menubar_toc_static:
 |   11 | Michael Han         | Resurgence Church  | Resurgence Church - Mastic NY    |    45 |  5.63 |      |
 |   12 | Luke Anderson       | Resurgence Church  | Resurgence Church - Mastic NY    |    25 |  3.13 |      |
 |   13 | Gabriel Villanueva  | Resurgence Church  | Resurgence Church - Mastic NY    |     5 |   .63 |      |
-|   14 | Quizzer-3           | Living Hope        | Living Hope WC - Swedesboro NJ   |       |   .00 |      |
 |   14 | Caden Hernandez     | Living Hope        | Living Hope WC - Swedesboro NJ   |       |   .00 |      |
 |   14 | Immanuel Vega       | Fountain Faithfuls | Fountain of Life - Burlington NJ |       |   .00 |      |
 
@@ -184,8 +180,5 @@ menubar_toc_static:
 |   26 | Lukas Broughton    | Hamlin AG          | Hamlin AG - Lake Ariel PA               |    10 |   1.11 |      |
 |   26 | Preethi Bandi      | UECF Warriors #2   | United Evangelical CF - Westfield NJ    |    10 |   1.11 |      |
 |   27 | Nylah Vega         | Fountain Believers | Fountain of Life - Burlington NJ        |       |    .00 |      |
-|   27 | Quizzer-3          | Last Stand         | Oasis Community Church - Ithaca MI      |       |    .00 |      |
-|   27 | Quizzer-3          | Calvary CC #3      | Calvary Christian Church - Lynnfield MA |       |    .00 |      |
 |   27 | Jaryn Miller       | Hamlin AG          | Hamlin AG - Lake Ariel PA               |       |    .00 |      |
-|   27 | Quizzer-3          | Calvary CC #2      | Calvary Christian Church - Lynnfield MA |       |    .00 |      |
 

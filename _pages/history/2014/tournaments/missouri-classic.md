@@ -95,7 +95,7 @@ menubar_toc_static:
 |    5 | Jacob Oehlerking     | New Generation of God      | West Plains -MO-Ozark Christian |   705 |  78.33 |    5 |
 |    6 | Max Scott            | Rescued                    | Ozark-MO-James River AG         |   685 |  76.11 |    7 |
 |    7 | Megumi Sinniah       | Rescued                    | Ozark-MO-James River AG         |   660 |  73.33 |    5 |
-|    8 | Abby O\'Connell      | Vessels of Honor           | Ozark-MO-James River AG         |   610 |  67.78 |    6 |
+|    8 | Abby O'Connell       | Vessels of Honor           | Ozark-MO-James River AG         |   610 |  67.78 |    6 |
 |    9 | Zach Schwarz         | Muskogee                   | Muskogee-OK-Muskogee 1st AG     |   555 |  61.67 |    3 |
 |   10 | Carolina Moreira     | New Generation of God      | West Plains -MO-Ozark Christian |   465 |  51.67 |    4 |
 |   11 | Matthias Plank       | Three Green                | Chariton-IA-Truth AG            |   450 |  50.00 |    3 |

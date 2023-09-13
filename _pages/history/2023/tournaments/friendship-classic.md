@@ -83,10 +83,7 @@ menubar_toc_static:
 | **\*40** | Lucas Abbott           | Endless Discussion (New Life Sparta-WI)          |    20 |   1.5 |      | 100% |
 |       41 | Josiah Scott           | Faith (Faith AG Orlando-FL)                      |    15 |   1.2 |      |  67% |
 |       42 | Jordan Spence          | Faith (Faith AG Orlando-FL)                      |    10 |    .8 |      |  44% |
-|       43 | Curly Howard           | Ghost Stooges (Spirit Church)                    |     0 |       |      |      |
-| **\*43** | Joshua Webb            | Central (Central AG Houston-PA)                  |     0 |       |      |      |
+|       43 | Joshua Webb            | Central (Central AG Houston-PA)                  |     0 |       |      |      |
 | **\*43** | Kade Brashear          | Endless Discussion (New Life Sparta-WI)          |     0 |       |      |      |
-| **\*43** | Larry Fine             | Ghost Stooges (Spirit Church)                    |     0 |       |      |      |
-| **\*43** | Moe Howard             | Ghost Stooges (Spirit Church)                    |     0 |       |      |      |
 | **\*43** | Samanatha Klco         | Mount Hope (Mount Hope Burlington-MA)            |     0 |       |      |      |
 

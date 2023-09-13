@@ -202,13 +202,10 @@ menubar_toc_static:
 | 48  | Young Sang Aum      | Calvary Church(S) (Calvary Church - Naperville-IL)            | 0     |       |     | 50%  |     |     | 2   |
 | *48 | Christopher Costlow | First Assembly of God (First Assembly - Louisville-OH)        | 0     |       |     | 50%  |     |     | 1   |
 | *48 | Colby Heller        | We Shouldn't Be Here (1 on 1 Team)                            | 0     |       |     | 44%  |     | 1   | 3   |
-| *48 | Quizzer-1           | Not So Tough (NE Ware, AK)                                    | 0     |       |     | %    |     |     |     |
-| *48 | Quizzer-3           | Not So Tough (NE Ware, AK)                                    | 0     |       |     | %    |     |     |     |
 | *48 | Aaron Lin           | Men Deserve Recognition (First Assembly - Lexington-KY)       | 0     |       |     | %    |     |     |     |
 | *48 | Darren Asoppiah     | Metuchen Assembly of God (Metuchen Assembly - Metuchen-NJ)    | 0     |       |     | %    |     |     |     |
 | *48 | Matthew Baloga      | Calvary Church (Calvary Church - Greensboro-NC)               | 0     |       |     | %    |     |     |     |
-| 49  | Quizzer-2           | Not So Tough (NE Ware, AK)                                    | -5    | -.3   |     | %    |     |     |     |
-| 50  | Grace Battaglia     | The Church at the Groves (Church at the Groves - Leesburg-GA) | -10   | -.5   |     | 33%  |     |     | 3   |
+| 49  | Grace Battaglia     | The Church at the Groves (Church at the Groves - Leesburg-GA) | -10   | -.5   |     | 33%  |     |     | 3   |
 
 
 

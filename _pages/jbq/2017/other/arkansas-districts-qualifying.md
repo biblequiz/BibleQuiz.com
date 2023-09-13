@@ -234,41 +234,41 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team                          | W/L   | Total |   Avg |   QO |   Q% |
-| ---: | ----------------------------- | ----- | ----: | ----: | ---: | ---: |
-|  1.0 | First NLR - Starburst ()      | 4 / 0 |   900 | 224.9 |    5 |      |
-|  2.0 | First NLR - Life Savers ()    | 3 / 1 |   515 | 128.7 |    2 |      |
-|  3.0 | Benton First (2nd & Under) () | 2 / 2 |   400 |   100 |    2 |      |
-|  4.0 | Wellington Village ()         | 1 / 3 |   185 |  46.2 |      |      |
-|  5.0 | First NLR - Laffy Taffy ()    | 0 / 4 |   170 |  42.5 |      |      |
+|    # | Team                       | W/L   | Total |   Avg |   QO |   Q% |
+| ---: | -------------------------- | ----- | ----: | ----: | ---: | ---: |
+|  1.0 | First NLR - Starburst      | 4 / 0 |   900 | 224.9 |    5 |      |
+|  2.0 | First NLR - Life Savers    | 3 / 1 |   515 | 128.7 |    2 |      |
+|  3.0 | Benton First (2nd & Under) | 2 / 2 |   400 |   100 |    2 |      |
+|  4.0 | Wellington Village         | 1 / 3 |   185 |  46.2 |      |      |
+|  5.0 | First NLR - Laffy Taffy    | 0 / 4 |   170 |  42.5 |      |      |
 
 ### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer            | Team                          | Total |  Avg |   QO |   Q% |
-| -------: | ------------------ | ----------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Jordyn Smith       | First NLR - Starburst ()      |   580 |  145 |    4 |      |
-|        2 | Isabel Morris      | Benton First (2nd & Under) () |   335 | 83.8 |    2 |      |
-|        3 | Gabi Eckart        | First NLR - Life Savers ()    |   250 | 62.5 |      |      |
-|        4 | Peyton Zermatten   | First NLR - Life Savers ()    |   215 | 53.8 |    2 |      |
-|        5 | Connor Leker       | First NLR - Starburst ()      |   145 | 36.3 |    1 |      |
-|        6 | Gabe Fernandez     | First NLR - Starburst ()      |   110 | 27.5 |      |      |
-|        7 | June McFarlin      | Wellington Village ()         |   105 | 26.3 |      |      |
-|        8 | Seth Harrison      | First NLR - Laffy Taffy ()    |    80 |   20 |      |      |
-|  **\*8** | Breanna Waldo      | Wellington Village ()         |    80 |   20 |      |      |
-|        9 | Rubie Sanders      | First NLR - Laffy Taffy ()    |    65 | 16.3 |      |      |
-|       10 | Amelia Gill        | First NLR - Starburst ()      |    45 | 11.3 |      |      |
-|       11 | Charleigh Johnson  | Benton First (2nd & Under) () |    35 |  8.8 |      |      |
-|       12 | Joanna Mendez      | First NLR - Laffy Taffy ()    |    30 |  7.5 |      |      |
-|       13 | Ty Harper          | First NLR - Starburst ()      |    20 |    5 |      |      |
-| **\*13** | Macee Earnest      | Benton First (2nd & Under) () |    20 |    5 |      |      |
-| **\*13** | Sophie Moseby      | First NLR - Life Savers ()    |    20 |    5 |      |      |
-| **\*13** | Jai White          | First NLR - Life Savers ()    |    20 |    5 |      |      |
-|       14 | Raylin Hailey      | Benton First (2nd & Under) () |    10 |  2.5 |      |      |
-| **\*14** | Matthew Boren      | First NLR - Life Savers ()    |    10 |  2.5 |      |      |
-|       15 | Addisyn McCullough | First NLR - Laffy Taffy ()    |     0 |      |      |      |
-|       16 | Noah Turner        | First NLR - Laffy Taffy ()    |    -5 | -1.3 |      |      |
+|        # | Quizzer            | Team                       | Total |  Avg |   QO |   Q% |
+| -------: | ------------------ | -------------------------- | ----: | ---: | ---: | ---: |
+|        1 | Jordyn Smith       | First NLR - Starburst      |   580 |  145 |    4 |      |
+|        2 | Isabel Morris      | Benton First (2nd & Under) |   335 | 83.8 |    2 |      |
+|        3 | Gabi Eckart        | First NLR - Life Savers    |   250 | 62.5 |      |      |
+|        4 | Peyton Zermatten   | First NLR - Life Savers    |   215 | 53.8 |    2 |      |
+|        5 | Connor Leker       | First NLR - Starburst      |   145 | 36.3 |    1 |      |
+|        6 | Gabe Fernandez     | First NLR - Starburst      |   110 | 27.5 |      |      |
+|        7 | June McFarlin      | Wellington Village         |   105 | 26.3 |      |      |
+|        8 | Seth Harrison      | First NLR - Laffy Taffy    |    80 |   20 |      |      |
+|  **\*8** | Breanna Waldo      | Wellington Village         |    80 |   20 |      |      |
+|        9 | Rubie Sanders      | First NLR - Laffy Taffy    |    65 | 16.3 |      |      |
+|       10 | Amelia Gill        | First NLR - Starburst      |    45 | 11.3 |      |      |
+|       11 | Charleigh Johnson  | Benton First (2nd & Under) |    35 |  8.8 |      |      |
+|       12 | Joanna Mendez      | First NLR - Laffy Taffy    |    30 |  7.5 |      |      |
+|       13 | Ty Harper          | First NLR - Starburst      |    20 |    5 |      |      |
+| **\*13** | Macee Earnest      | Benton First (2nd & Under) |    20 |    5 |      |      |
+| **\*13** | Sophie Moseby      | First NLR - Life Savers    |    20 |    5 |      |      |
+| **\*13** | Jai White          | First NLR - Life Savers    |    20 |    5 |      |      |
+|       14 | Raylin Hailey      | Benton First (2nd & Under) |    10 |  2.5 |      |      |
+| **\*14** | Matthew Boren      | First NLR - Life Savers    |    10 |  2.5 |      |      |
+|       15 | Addisyn McCullough | First NLR - Laffy Taffy    |     0 |      |      |      |
+|       16 | Noah Turner        | First NLR - Laffy Taffy    |    -5 | -1.3 |      |      |
 
 
 ## South Central Area - 3rd & 4th Grade
@@ -277,41 +277,41 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team                        | W/L   | Total |   Avg |   QO |   Q% |
-| ---: | --------------------------- | ----- | ----: | ----: | ---: | ---: |
-|  1.0 | First NLR - The A List ()   | 4 / 0 |   680 |   170 |    4 |      |
-|  2.0 | First NLR - Master B's ()   | 3 / 1 |   520 |   130 |    4 |      |
-|  3.0 | Benton First (3rd & 4th) () | 2 / 2 |   595 | 148.7 |    3 |      |
-|  4.0 | The Assembly (3rd & 4th) () | 1 / 3 |   215 |  53.7 |      |      |
-|  5.0 | Unlimited (3rd & 4th) ()    | 0 / 4 |    75 |  18.7 |      |      |
+|    # | Team                     | W/L   | Total |   Avg |   QO |   Q% |
+| ---: | ------------------------ | ----- | ----: | ----: | ---: | ---: |
+|  1.0 | First NLR - The A List   | 4 / 0 |   680 |   170 |    4 |      |
+|  2.0 | First NLR - Master B's   | 3 / 1 |   520 |   130 |    4 |      |
+|  3.0 | Benton First (3rd & 4th) | 2 / 2 |   595 | 148.7 |    3 |      |
+|  4.0 | The Assembly (3rd & 4th) | 1 / 3 |   215 |  53.7 |      |      |
+|  5.0 | Unlimited (3rd & 4th)    | 0 / 4 |    75 |  18.7 |      |      |
 
 ### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer           | Team                        | Total |   Avg |   QO |   Q% |
-| -------: | ----------------- | --------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Alex Eckart       | First NLR - The A List ()   |   525 | 131.3 |    3 |      |
-|        2 | LaMaria Hall      | First NLR - Master B's ()   |   260 |    65 |    2 |      |
-|        3 | Kailey McCullough | First NLR - Master B's ()   |   255 |  63.8 |    2 |      |
-|        4 | Jose Perez        | Benton First (3rd & 4th) () |   215 |  53.8 |    1 |      |
-|        5 | Keeli Jackson     | Benton First (3rd & 4th) () |   205 |  51.3 |    1 |      |
-|        6 | David Morris      | Benton First (3rd & 4th) () |   145 |  36.3 |    1 |      |
-|        7 | Crevan Moore      | First NLR - The A List ()   |   140 |    35 |    1 |      |
-|        8 | Silas Ford        | The Assembly (3rd & 4th) () |    90 |  22.5 |      |      |
-|        9 | Solomon Ford      | The Assembly (3rd & 4th) () |    85 |  21.3 |      |      |
-|       10 | Serrinna John     | Unlimited (3rd & 4th) ()    |    50 |  12.5 |      |      |
-|       11 | Brandon Wilhelm   | The Assembly (3rd & 4th) () |    40 |    10 |      |      |
-|       12 | Samuel John       | Unlimited (3rd & 4th) ()    |    30 |   7.5 |      |      |
-|       13 | Lorelei Davis     | Benton First (3rd & 4th) () |    20 |     5 |      |      |
-|       14 | Garrett Dorsey    | First NLR - The A List ()   |    15 |   3.8 |      |      |
-|       15 | Lillie Johnson    | Benton First (3rd & 4th) () |    10 |   2.5 |      |      |
-| **\*15** | Makeda Toombs     | First NLR - Master B's ()   |    10 |   2.5 |      |      |
-|       16 | Lulu Davis        | Benton First (3rd & 4th) () |     0 |       |      |      |
-| **\*16** | Serenity Hampton  | First NLR - The A List ()   |     0 |       |      |      |
-| **\*16** | Nicole Sharps     | First NLR - Master B's ()   |     0 |       |      |      |
-|       17 | Harmony Leavins   | Unlimited (3rd & 4th) ()    |    -5 |  -1.3 |      |      |
-| **\*17** | Hope Weaver       | First NLR - Master B's ()   |    -5 |  -1.3 |      |      |
+|        # | Quizzer           | Team                     | Total |   Avg |   QO |   Q% |
+| -------: | ----------------- | ------------------------ | ----: | ----: | ---: | ---: |
+|        1 | Alex Eckart       | First NLR - The A List   |   525 | 131.3 |    3 |      |
+|        2 | LaMaria Hall      | First NLR - Master B's   |   260 |    65 |    2 |      |
+|        3 | Kailey McCullough | First NLR - Master B's   |   255 |  63.8 |    2 |      |
+|        4 | Jose Perez        | Benton First (3rd & 4th) |   215 |  53.8 |    1 |      |
+|        5 | Keeli Jackson     | Benton First (3rd & 4th) |   205 |  51.3 |    1 |      |
+|        6 | David Morris      | Benton First (3rd & 4th) |   145 |  36.3 |    1 |      |
+|        7 | Crevan Moore      | First NLR - The A List   |   140 |    35 |    1 |      |
+|        8 | Silas Ford        | The Assembly (3rd & 4th) |    90 |  22.5 |      |      |
+|        9 | Solomon Ford      | The Assembly (3rd & 4th) |    85 |  21.3 |      |      |
+|       10 | Serrinna John     | Unlimited (3rd & 4th)    |    50 |  12.5 |      |      |
+|       11 | Brandon Wilhelm   | The Assembly (3rd & 4th) |    40 |    10 |      |      |
+|       12 | Samuel John       | Unlimited (3rd & 4th)    |    30 |   7.5 |      |      |
+|       13 | Lorelei Davis     | Benton First (3rd & 4th) |    20 |     5 |      |      |
+|       14 | Garrett Dorsey    | First NLR - The A List   |    15 |   3.8 |      |      |
+|       15 | Lillie Johnson    | Benton First (3rd & 4th) |    10 |   2.5 |      |      |
+| **\*15** | Makeda Toombs     | First NLR - Master B's   |    10 |   2.5 |      |      |
+|       16 | Lulu Davis        | Benton First (3rd & 4th) |     0 |       |      |      |
+| **\*16** | Serenity Hampton  | First NLR - The A List   |     0 |       |      |      |
+| **\*16** | Nicole Sharps     | First NLR - Master B's   |     0 |       |      |      |
+|       17 | Harmony Leavins   | Unlimited (3rd & 4th)    |    -5 |  -1.3 |      |      |
+| **\*17** | Hope Weaver       | First NLR - Master B's   |    -5 |  -1.3 |      |      |
 
 ## South Central Area - 5th & 6th Grade
 
@@ -319,40 +319,40 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team                         | W/L   | Total |   Avg |   QO |   Q% |
-| ---: | ---------------------------- | ----- | ----: | ----: | ---: | ---: |
-|  1.0 | Unlimited (5th & 6th) ()     | 4 / 0 |   680 |   170 |    3 |      |
-|  2.0 | Benton First (5th & 6th) ()  | 3 / 1 |   630 | 157.5 |    3 |      |
-|  3.0 | First NLR - A (5th & 6th) () | 2 / 2 |   690 | 172.5 |    3 |      |
-|  4.0 | First NLR - B (5th & 6th) () | 1 / 3 |   200 |    50 |      |      |
-|  5.0 | The Assembly (5th & 6th) ()  | 0 / 4 |   135 |  33.7 |      |      |
+|    # | Team                      | W/L   | Total |   Avg |   QO |   Q% |
+| ---: | ------------------------- | ----- | ----: | ----: | ---: | ---: |
+|  1.0 | Unlimited (5th & 6th)     | 4 / 0 |   680 |   170 |    3 |      |
+|  2.0 | Benton First (5th & 6th)  | 3 / 1 |   630 | 157.5 |    3 |      |
+|  3.0 | First NLR - A (5th & 6th) | 2 / 2 |   690 | 172.5 |    3 |      |
+|  4.0 | First NLR - B (5th & 6th) | 1 / 3 |   200 |    50 |      |      |
+|  5.0 | The Assembly (5th & 6th)  | 0 / 4 |   135 |  33.7 |      |      |
 
 ### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer          | Team                         | Total |   Avg |   QO |   Q% |
-| -------: | ---------------- | ---------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Anna Jordan      | Unlimited (5th & 6th) ()     |   565 | 141.3 |    3 |      |
-|        2 | Christian Lu     | First NLR - A (5th & 6th) () |   310 |  77.5 |      |      |
-|        3 | Elizabeth Hall   | First NLR - A (5th & 6th) () |   250 |  62.5 |    3 |      |
-|        4 | Tyler Kelly      | Benton First (5th & 6th) ()  |   215 |  53.8 |    1 |      |
-|        5 | Abby Roden       | First NLR - B (5th & 6th) () |   200 |    50 |      |      |
-|        6 | Noah Sanders     | Benton First (5th & 6th) ()  |   195 |  48.8 |    2 |      |
-|        7 | Michakela Irving | Benton First (5th & 6th) ()  |   140 |    35 |      |      |
-|        8 | Katie Harper     | First NLR - A (5th & 6th) () |   120 |    30 |      |      |
-|        9 | Mikey Griffin    | The Assembly (5th & 6th) ()  |    90 |  22.5 |      |      |
-|       10 | Tabitha Leavins  | Unlimited (5th & 6th) ()     |    65 |  16.3 |      |      |
-|       11 | McKenzie Estorga | The Assembly (5th & 6th) ()  |    35 |   8.8 |      |      |
-|       12 | Caden Sanders    | Benton First (5th & 6th) ()  |    30 |   7.5 |      |      |
-| **\*12** | Olivia Moore     | Benton First (5th & 6th) ()  |    30 |   7.5 |      |      |
-| **\*12** | Abigail Leavins  | Unlimited (5th & 6th) ()     |    30 |   7.5 |      |      |
-|       13 | Chloe Leavins    | Unlimited (5th & 6th) ()     |    20 |     5 |      |      |
-|       14 | Andrew Greenwell | Benton First (5th & 6th) ()  |    10 |   2.5 |      |      |
-| **\*14** | Riley Huskey     | Benton First (5th & 6th) ()  |    10 |   2.5 |      |      |
-| **\*14** | Grant Lewis      | First NLR - A (5th & 6th) () |    10 |   2.5 |      |      |
-| **\*14** | Telese Mason     | The Assembly (5th & 6th) ()  |    10 |   2.5 |      |      |
-|       15 | Andee Earnest    | Benton First (5th & 6th) ()  |     0 |       |      |      |
-| **\*15** | Larisssa Puckett | First NLR - B (5th & 6th) () |     0 |       |      |      |
-| **\*15** | Bethany Turner   | First NLR - B (5th & 6th) () |     0 |       |      |      |
+|        # | Quizzer          | Team                      | Total |   Avg |   QO |   Q% |
+| -------: | ---------------- | ------------------------- | ----: | ----: | ---: | ---: |
+|        1 | Anna Jordan      | Unlimited (5th & 6th)     |   565 | 141.3 |    3 |      |
+|        2 | Christian Lu     | First NLR - A (5th & 6th) |   310 |  77.5 |      |      |
+|        3 | Elizabeth Hall   | First NLR - A (5th & 6th) |   250 |  62.5 |    3 |      |
+|        4 | Tyler Kelly      | Benton First (5th & 6th)  |   215 |  53.8 |    1 |      |
+|        5 | Abby Roden       | First NLR - B (5th & 6th) |   200 |    50 |      |      |
+|        6 | Noah Sanders     | Benton First (5th & 6th)  |   195 |  48.8 |    2 |      |
+|        7 | Michakela Irving | Benton First (5th & 6th)  |   140 |    35 |      |      |
+|        8 | Katie Harper     | First NLR - A (5th & 6th) |   120 |    30 |      |      |
+|        9 | Mikey Griffin    | The Assembly (5th & 6th)  |    90 |  22.5 |      |      |
+|       10 | Tabitha Leavins  | Unlimited (5th & 6th)     |    65 |  16.3 |      |      |
+|       11 | McKenzie Estorga | The Assembly (5th & 6th)  |    35 |   8.8 |      |      |
+|       12 | Caden Sanders    | Benton First (5th & 6th)  |    30 |   7.5 |      |      |
+| **\*12** | Olivia Moore     | Benton First (5th & 6th)  |    30 |   7.5 |      |      |
+| **\*12** | Abigail Leavins  | Unlimited (5th & 6th)     |    30 |   7.5 |      |      |
+|       13 | Chloe Leavins    | Unlimited (5th & 6th)     |    20 |     5 |      |      |
+|       14 | Andrew Greenwell | Benton First (5th & 6th)  |    10 |   2.5 |      |      |
+| **\*14** | Riley Huskey     | Benton First (5th & 6th)  |    10 |   2.5 |      |      |
+| **\*14** | Grant Lewis      | First NLR - A (5th & 6th) |    10 |   2.5 |      |      |
+| **\*14** | Telese Mason     | The Assembly (5th & 6th)  |    10 |   2.5 |      |      |
+|       15 | Andee Earnest    | Benton First (5th & 6th)  |     0 |       |      |      |
+| **\*15** | Larisssa Puckett | First NLR - B (5th & 6th) |     0 |       |      |      |
+| **\*15** | Bethany Turner   | First NLR - B (5th & 6th) |     0 |       |      |      |
 

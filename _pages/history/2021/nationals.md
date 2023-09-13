@@ -143,7 +143,6 @@ menubar_toc_static:
 | 17  | First Assembly of God (Louisville, OH)                                |    3 |   15 | 340   | 18.9  |     | 59% |     | 6   | 43  |
 | 18  | Monkey Madness (Sioux Falls First, Sioux Falls, SD)                   |    2 |   16 | 685   | 38.1  | 6   | 59% | 3   | 15  | 68  |
 | 19  | Imitators (Deeper Church, Burien, WA)                                 |    0 |   18 | 305   | 16.9  |     | 64% | 1   | 6   | 34  |
-| 20  | Ghost Team (First Assembly, Valentine, NE)                            |    0 |    0 | 0     |       |     | %   |     |     |     |
 
 ### Individuals
 
@@ -201,18 +200,12 @@ menubar_toc_static:
 | 47  | Benaiah Hodge        | Prepared to Give an Answer (New Life AG, Frankfort, IN)               | 20    | 1.1   |     | 54%  |     |     | 6   |
 | 48  | Kelly Hodge          | Prepared to Give an Answer (New Life AG, Frankfort, IN)               | 15    | .8    |     | 50%  |     |     | 3   |
 | 48  | Quentin Counley      | Imitators (Deeper Church, Burien, WA)                                 | 15    | .8    |     | 48%  |     | 1   | 9   |
-| 49  | Quizzer-3            | Double Edged (Praise Church, Garfield, NJ)                            | 0     |       |     | %    |     |     |     |
 | 49  | Michael Ukonu        | Braeswood Assembly (Houston, TX)                                      | 0     |       |     | %    |     |     |     |
 | 49  | Brandon Ukonu        | Braeswood Assembly (Houston, TX)                                      | 0     |       |     | %    |     |     |     |
 | 49  | Caleb Song           | Order of Aaron (First Assembly, Lexington, KY)                        | 0     |       |     | %    |     |     |     |
 | 49  | Aaron Lin            | Order of Aaron (First Assembly, Lexington, KY)                        | 0     |       |     | %    |     |     |     |
-| 49  | Quizzer-3            | God's Elect From Oklahoma (Mustang, OK)                               | 0     |       |     | %    |     |     |     |
 | 49  | Brittney Gauldin     | Calvary Church (Greensboro, NC)                                       | 0     |       |     | %    |     |     |     |
 | 49  | Robson Yoder         | Calvary Assembly of God (Marinette, WI)                               | 0     |       |     | %    |     |     |     |
-| 49  | Inky                 | Ghost Team (1st Assembly, Valentine, NE)                              | 0     |       |     | %    |     |     |     |
-| 49  | Blinky               | Ghost Team (1st Assembly, Valentine, NE)                              | 0     |       |     | %    |     |     |     |
-| 49  | Pinky                | Ghost Team (1st Assembly, Valentine, NE)                              | 0     |       |     | %    |     |     |     |
-| 49  | Clyde                | Ghost Team (1st Assembly, Valentine, NE)                              | 0     |       |     | %    |     |     |     |
 | 50  | Sasha Mobley         | Imitators (Deeper Church, Burien, WA)                                 | -5    | -.3   |     | 50%  |     |     | 1   |
 | 50  | Brandon Ukonu        | Braeswood Assembly (Houston, TX)                                      | -5    | -.3   |     | %    |     |     |     |
 | 51  | Jonathan Shtyrkalo   | Braeswood Assembly (Houston, TX)                                      | -10   | -.5   |     | 25%  |     |     | 1   |
@@ -311,7 +304,7 @@ menubar_toc_static:
 |       16 | Ariella Grimmond    | Living Stones (Calvary Assembly, Ozone Park, NY)                      |   170 |  24.3 |    1 |  70% |
 |       17 | Gabriella Singh     | Living Stones (Calvary Assembly, Ozone Park, NY)                      |   160 |  22.9 |    2 |  55% |
 |       18 | Jacob Thomas        | Race Runners (Carolinas Christian Assembly, Charlotte, NC)            |    95 |  13.6 |      |  62% |
-|       19 | Danny\'El Gonzalez  | Human Rejects (First at Firewheel, Garland, TX)                       |    20 |   2.9 |      |  60% |
+|       19 | Danny'El Gonzalez   | Human Rejects (First at Firewheel, Garland, TX)                       |    20 |   2.9 |      |  60% |
 |       20 | Jocelyn Squires     | Gideon and the Girls (Lakeview Church, Indianapolis, IN)              |    10 |   1.4 |      |  99% |
 | **\*20** | Jerusha Jebaraj     | Race Runners (Carolinas Christian Assembly, Charlotte, NC)            |    10 |   1.4 |      |  66% |
 |       21 | Kora Pardee         | Calvary Assembly of God (Marinette, WI)                               |     5 |    .7 |      |  50% |
@@ -331,7 +324,7 @@ menubar_toc_static:
 | ---: | ----------------------------------------------------------- | ---: | ---: | ----: | ----: | ---: | ---: |
 |  1.0 | The Brookbanks (Colorado Springs, CO)                       |    7 |    0 |  1315 | 187.8 |   13 |  72% |
 |  2.1 | Fury of the Flames (Word of Life Assembly, Springfield, VA) |    5 |    2 |  1125 | 160.7 |    7 |  79% |
-|  3.0 | Don\'t Run from the Lord (Bellevue Church, Bellevue, WA)    |    5 |    2 |   915 | 130.7 |    6 |  75% |
+|  3.0 | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     |    5 |    2 |   915 | 130.7 |    6 |  75% |
 |  4.0 | Alive and Active (CrossPoint AG, Portage, WI)               |    4 |    3 |   840 |   120 |    4 |  75% |
 |  5.1 | Double Edged (Praise Church, Garfield, NJ)                  |    3 |    4 |   870 | 124.3 |    8 |  76% |
 |  6.0 | Braeswood Assembly (Houston, TX)                            |    3 |    4 |   850 | 121.4 |    6 |  71% |
@@ -345,7 +338,7 @@ menubar_toc_static:
 |        # | Quizzer              | Team                                                        | Total |   Avg |   QO |   Q% |
 | -------: | -------------------- | ----------------------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Nigus Dawit          | Fury of the Flames (Word of Life Assembly, Springfield, VA) |   835 | 119.3 |    7 |  81% |
-|        2 | Sam Clinston         | Don\'t Run from the Lord (Bellevue Church, Bellevue, WA)    |   725 | 103.6 |    6 |  85% |
+|        2 | Sam Clinston         | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     |   725 | 103.6 |    6 |  85% |
 |        3 | Precious Cyrus-David | Braeswood Assembly (Houston, TX)                            |   645 |  92.1 |    4 |  74% |
 |        4 | Emma Schoessow       | Alive and Active (CrossPoint AG, Portage, WI)               |   645 |  92.1 |    3 |  85% |
 |        5 | Ryan Schiebel        | Double Edged (Praise Church, Garfield, NJ)                  |   520 |  74.3 |    5 |  74% |
@@ -358,16 +351,15 @@ menubar_toc_static:
 |       12 | Seth Christopher     | Fury of the Flames (Word of Life Assembly, Springfield, VA) |   205 |  29.3 |      |  72% |
 |       13 | Ava Schoessow        | Alive and Active (CrossPoint AG, Portage, WI)               |   200 |  28.6 |    1 |  67% |
 |       14 | Aidan Rajesh         | Calvary Church (Greensboro, NC)                             |   130 |  18.6 |    1 |  50% |
-|       15 | Ryan Matta           | Don\'t Run from the Lord (Bellevue Church, Bellevue, WA)    |    95 |  13.6 |      |  71% |
+|       15 | Ryan Matta           | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     |    95 |  13.6 |      |  71% |
 |       16 | David Kwabi-Addo     | Fury of the Flames (Word of Life Assembly, Springfield, VA) |    90 |  12.9 |      | 100% |
 | **\*16** | Savannah Robinson    | Calvary Church (Greensboro, NC)                             |    90 |  12.9 |      |  62% |
-| **\*16** | Elizabeth Godavarthi | Don\'t Run from the Lord (Bellevue Church, Bellevue, WA)    |    90 |  12.9 |      |  55% |
+| **\*16** | Elizabeth Godavarthi | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     |    90 |  12.9 |      |  55% |
 |       17 | Andrew McCollum      | Calvary Church (Greensboro, NC)                             |    65 |   9.3 |      |  61% |
 |       18 | Naomi Shtyralo       | Braeswood Assembly (Houston, TX)                            |    25 |   3.6 |      |  54% |
-|       19 | Padmini Abothu       | Don\'t Run from the Lord (Bellevue Church, Bellevue, WA)    |    20 |   2.9 |      | 100% |
+|       19 | Padmini Abothu       | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     |    20 |   2.9 |      | 100% |
 |       20 | Jonathan Shtyrkalo   | Braeswood Assembly (Houston, TX)                            |    10 |   1.4 |      |  99% |
-|       21 | Avinash Poguluri     | Don\'t Run from the Lord (Bellevue Church, Bellevue, WA)    |     0 |       |      |      |
-| **\*21** | Quizzer-3            | Double Edged (Praise Church, Garfield, NJ)                  |     0 |       |      |      |
+|       21 | Avinash Poguluri     | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     |     0 |       |      |      |
 | **\*21** | Michael Ukonu        | Braeswood Assembly (Houston, TX)                            |     0 |       |      |      |
 | **\*21** | Brandon Ukonu        | Braeswood Assembly (Houston, TX)                            |     0 |       |      |      |
 | **\*21** | Brittney Gauldin     | Calvary Church (Greensboro, NC)                             |     0 |       |      |      |
@@ -443,7 +435,7 @@ menubar_toc_static:
 |  4.0 | 6 Scoffers Gonna Scoff (Journey Life Church, Holt, MI)          |    3 |    3 |   860 | 143.3 |    7 |  78% |
 |  5.0 | 13 Living Hope (Swedesboro, NJ)                                 |    3 |    3 |   775 | 129.1 |    6 |  75% |
 |  6.0 | 9 Order of Aaron (First Assembly, Lexington, KY)                |    3 |    3 |   660 |   110 |    7 |  71% |
-|  7.0 | 14 God\'s Elect From Oklahoma (Mustang, OK)                     |    1 |    5 |   415 |  69.2 |    2 |  67% |
+|  7.0 | 14 God's Elect From Oklahoma (Mustang, OK)                      |    1 |    5 |   415 |  69.2 |    2 |  67% |
 
 #### Individuals
 
@@ -461,9 +453,9 @@ menubar_toc_static:
 |        7 | Darcie Harr        | 6 Scoffers Gonna Scoff (Journey Life Church, Holt, MI)          |   405 |  67.5 |    2 |  72% |
 |        8 | Kaitlyn Ramsey     | 7 Ramsey Family (Springfield, MO)                               |   390 |    65 |    3 |  86% |
 |        9 | Samuel Devasahayam | 3 Strangers in a Foreign Country (Atlanta Tamil - Norcross, GA) |   380 |  63.3 |    4 |  71% |
-|       10 | Christian Alapati  | 14 God\'s Elect From Oklahoma (Mustang, OK)                     |   250 |  41.7 |    2 |  68% |
+|       10 | Christian Alapati  | 14 God's Elect From Oklahoma (Mustang, OK)                      |   250 |  41.7 |    2 |  68% |
 |       11 | Sarah Lin          | 9 Order of Aaron (First Assembly, Lexington, KY)                |   235 |  39.2 |    2 |  82% |
-|       12 | Hannah Alapati     | 14 God\'s Elect From Oklahoma (Mustang, OK)                     |   170 |  28.3 |      |  67% |
+|       12 | Hannah Alapati     | 14 God's Elect From Oklahoma (Mustang, OK)                      |   170 |  28.3 |      |  67% |
 |       13 | Micah DeSanto      | 13 Living Hope (Swedesboro, NJ)                                 |   160 |  26.7 |    1 |  68% |
 |       14 | Julia Sullivan     | 5 Trinity One (Trinity Church, TX)                              |   125 |  20.8 |    1 |  89% |
 |       15 | Alyssa Ramsey      | 7 Ramsey Family (Springfield, MO)                               |   110 |  18.3 |      |  75% |
@@ -474,7 +466,6 @@ menubar_toc_static:
 |       19 | Eric Carty         | 13 Living Hope (Swedesboro, NJ)                                 |     5 |    .8 |      |  50% |
 | **\*19** | Hannah Tinney      | 9 Order of Aaron (First Assembly, Lexington, KY)                |     5 |    .8 |      |  36% |
 |       20 | Madison Claunch    | 5 Trinity One (Trinity Church, TX)                              |     0 |       |      |      |
-| **\*20** | Quizzer-3          | 14 God\'s Elect From Oklahoma (Mustang, OK)                     |     0 |       |      |      |
 | **\*20** | Aaron Lin          | 9 Order of Aaron (First Assembly, Lexington, KY)                |     0 |       |      |      |
 
 ## Special Events

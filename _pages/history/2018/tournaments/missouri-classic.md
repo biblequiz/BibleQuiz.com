@@ -78,7 +78,7 @@ menubar_toc_static:
 |        5 | Abby Dasal          | Ozark, MO - Furious Squall (James River Church)                |   475 | 47.5 |    4 |  64% |
 |        6 | Jasmine Fisher      | Springfield, MO - Thrown into the sea (Evangel Temple)         |   445 | 44.5 |    2 |  66% |
 |        7 | Zara Rethman        | Ozark, MO - Furious Squall (James River Church)                |   435 | 43.5 |    3 |  91% |
-|        8 | Ally O\'Connell     | Ozark MO - El Equipo (James River Church)                      |   430 |   43 |    2 |  79% |
+|        8 | Ally O'Connell      | Ozark MO - El Equipo (James River Church)                      |   430 |   43 |    2 |  79% |
 |        9 | Paige Chrastina     | Ozark MO - El Equipo (James River Church)                      |   395 | 39.5 |    2 |  67% |
 |       10 | Lexi Parry          | Springfield, MO - The Unknown (Praise AG )                     |   370 |   37 |      |  72% |
 |       11 | Grace Matlock       | Ozark, MO - Furious Squall (James River Church)                |   355 | 35.5 |    2 |  84% |

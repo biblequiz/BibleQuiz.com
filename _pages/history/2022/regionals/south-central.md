@@ -54,7 +54,6 @@ menubar_toc_static:
 | **\*17** | Yeamlak Adane        | Five Loaves and Two Fish-First at Firewheel (Garland) (First at Firewheel) |     0 |      |      |      |
 | **\*17** | Chidie Echefu        | Five Loaves and Two Fish-First at Firewheel (Garland) (First at Firewheel) |     0 |      |      |      |
 | **\*17** | Christian Solomon    | Five Loaves and Two Fish-First at Firewheel (Garland) (First at Firewheel) |     0 |      |      |      |
-| **\*17** | Quizzer-3            | Salt and Light (The Bridge Assembly of God)                                |     0 |      |      |      |
 | **\*17** | Elijah Lee           | Team John (Trinity Church)                                                 |     0 |      |      |      |
 | **\*17** | Julia Sullivan       | Team John (Trinity Church)                                                 |     0 |      |      |      |
 | **\*17** | Jadon Sheomangal     | The Bruhs (Trinity Church)                                                 |     0 |      |      |      |

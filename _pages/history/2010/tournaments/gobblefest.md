@@ -95,7 +95,7 @@ menubar_toc_static:
 |    2 | Praise Assembly Garfield, NJ*        |   10 |    1 |  2365 | 215.91 |
 |    3 | Dayspring A/G, Bowling Green, OH*    |   10 |    1 |  2145 |    195 |
 |    4 | Manassas A/G, Bristow, VA            |    7 |    4 |  2220 | 205.19 |
-|    5 | Martha’s Vineyard, MA                |    7 |    4 |  1610 | 147.09 |
+|    5 | Martha's Vineyard, MA                |    7 |    4 |  1610 | 147.09 |
 |    6 | South Hills A/G, Bethel Park, PA     |    6 |    5 |  1255 |  121.5 |
 |    7 | Radiant Life, Elkhart, IN            |    5 |    6 |  1250 | 119.57 |
 |    8 | Word of Life A/G, Springfield, VA    |    4 |    7 |  1345 | 123.95 |
@@ -116,10 +116,10 @@ menubar_toc_static:
 |    4 | Kyler Sederwall       | Praise Assembly Garfield, NJ        |  1030 |   10 |  93.64 |
 |    5 | David Beer            | Evangel Heights A/G, Sarver, PA     |  1005 |    7 |  91.36 |
 |    6 | Cara Brower           | Manassas A/G, Bristow, VA           |   860 |    8 |  78.18 |
-|    7 | Kiaja Nivala          | Martha’s Vineyard, MA               |   820 |    6 |  74.55 |
+|    7 | Kiaja Nivala          | Martha's Vineyard, MA               |   820 |    6 |  74.55 |
 |    8 | Abhishek Mathews      | Word of Life A/G, Springfield, VA   |   810 |    5 |  73.64 |
 |    9 | Justin Czubkowski     | Praise Assembly Garfield, NJ        |   750 |    7 |  68.18 |
-|   10 | Ethan Holmes          | Martha’s Vineyard, MA               |   710 |    5 |  64.55 |
+|   10 | Ethan Holmes          | Martha's Vineyard, MA               |   710 |    5 |  64.55 |
 |   11 | Ryan Albrecht         | Dayspring A/G, Bowling Green, OH    |   685 |    5 |  62.27 |
 |   12 | Sarah Rice            | Northside Worship Ctr., Cumming, GA |   645 |    6 |  58.64 |
 |   13 | Zach Misak            | South Hills A/G, Bethel Park, PA    |   620 |    5 |  56.36 |
@@ -140,7 +140,7 @@ menubar_toc_static:
 |   28 | Kenedee Schrock       | Radiant Life, Elkhart, IN           |   115 |    0 |  14.38 |
 |   29 | Joshua Utley          | Radiant Life, Elkhart, IN           |   105 |    0 |   10.5 |
 |   30 | Corrine Twigg         | South Hills A/G, Bethel Park, PA    |    85 |    1 |  14.17 |
-|   31 | Ben Nivala            | Martha’s Vineyard, MA               |    80 |    0 |      8 |
+|   31 | Ben Nivala            | Martha's Vineyard, MA               |    80 |    0 |      8 |
 |   32 | Maddy Caughey         | Bethany C.C. , Mendon, MA           |    80 |    0 |   7.27 |
 |   33 | Raeanne Watkins       | Manassas A/G, Bristow, VA           |    50 |    0 |   5.56 |
 |   34 | Alex Cheski           | Praise Assembly Garfield, NJ        |    50 |    0 |      5 |
@@ -154,7 +154,7 @@ menubar_toc_static:
 |   42 | Megan Beigay          | Evangel Heights A/G, Sarver, PA     |    10 |    0 |   1.43 |
 |   43 | Megan Webb            | South Hills A/G, Bethel Park, PA    |    10 |    0 |   1.43 |
 |   44 | Brandon Eldridge      | Dayspring A/G, Bowling Green, OH    |    10 |    0 |   0.91 |
-|   45 | Aaron Holmes          | Martha’s Vineyard, MA               |     0 |    0 |      0 |
+|   45 | Aaron Holmes          | Martha's Vineyard, MA               |     0 |    0 |      0 |
 |   46 | Tiffany Seitz         | Evangel Heights A/G, Sarver, PA     |     0 |    0 |      0 |
 |   47 | Natasha Conerly       | Word of Life A/G, Springfield, VA   |     0 |    0 |      0 |
 |   48 | Ethan Holmes          | Bethany C.C. , Mendon, MA           |     0 |    0 |      0 |

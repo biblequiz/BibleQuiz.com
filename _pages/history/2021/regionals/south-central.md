@@ -47,8 +47,7 @@ menubar_toc_static:
 | **\*11** | Joy Escobar          | Trinity - Lori (Trinity church)      |    30 |   7.5 |      |  50% |
 |       12 | Brandon Ukonu        | Braeswood (Braeswood)                |    15 |   3.8 |      |  50% |
 |       13 | Ndubueze Echefu      | Human Rejects (First @ Firewheel AG) |    10 |   2.5 |      |  99% |
-|       14 | Quizzer-3            | God's Elect (The Bridge)             |     0 |       |      |      |
-| **\*14** | Madison Claunch      | Trinity - John (Trinity church)      |     0 |       |      |      |
+|       14 | Madison Claunch      | Trinity - John (Trinity church)      |     0 |       |      |      |
 | **\*14** | Noah Lee             | Trinity - Lori (Trinity church)      |     0 |       |      |      |
 | **\*14** | Michael Ukonu        | Braeswood (Braeswood)                |     0 |       |      |      |
 | **\*14** | Naomi Shtyrkalo      | Braeswood (Braeswood)                |     0 |       |      |      |

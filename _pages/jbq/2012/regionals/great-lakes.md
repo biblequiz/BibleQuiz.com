@@ -135,56 +135,13 @@ menubar_toc_static:
 | **\*74** | Julia Kiefer        | Cincinnati, OH (First Christian Assembly of God)      |    10 |    .5 |      |  99% |
 | **\*74** | Sierra Jacquay      | \*Fort Wayne, IN (First Assembly of God)              |    10 |    .5 |      |  50% |
 |       75 | Trey Madsen         | Yorkville, IL (New Life Church)                       |     5 |    .3 |      |  36% |
-|       76 | 1                   | \*Naperville, IL (S) (Calvary Church)                 |     0 |       |      |      |
-| **\*76** | Hailie Huntley      | \*Columbiaville, MI (Columbiaville Assembly of God)   |     0 |       |      |      |
-| **\*76** | 1                   | \*Columbiaville, MI (Columbiaville Assembly of God)   |     0 |       |      |      |
-| **\*76** | 2                   | \*Columbiaville, MI (Columbiaville Assembly of God)   |     0 |       |      |      |
-| **\*76** | 3                   | \*Columbiaville, MI (Columbiaville Assembly of God)   |     0 |       |      |      |
+|       76 | Hailie Huntley      | \*Columbiaville, MI (Columbiaville Assembly of God)   |     0 |       |      |      |
 | **\*76** | Tyler Benson        | Yorkville, IL (New Life Church)                       |     0 |       |      |      |
-| **\*76** | 1                   | Terre Haute, IN (Cross Tabernacle)                    |     0 |       |      |      |
-| **\*76** | 2                   | Terre Haute, IN (Cross Tabernacle)                    |     0 |       |      |      |
-| **\*76** | 3                   | Terre Haute, IN (Cross Tabernacle)                    |     0 |       |      |      |
-| **\*76** | 1                   | Warren, MI (International Assembly of God)            |     0 |       |      |      |
-| **\*76** | 2                   | Warren, MI (International Assembly of God)            |     0 |       |      |      |
-| **\*76** | 3                   | Warren, MI (International Assembly of God)            |     0 |       |      |      |
 | **\*76** | Madison Puckett     | Poland, OH (New Life Church)                          |     0 |       |      |      |
-| **\*76** | 1                   | Poland, OH (New Life Church)                          |     0 |       |      |      |
-| **\*76** | 2                   | Poland, OH (New Life Church)                          |     0 |       |      |      |
-| **\*76** | 3                   | Poland, OH (New Life Church)                          |     0 |       |      |      |
-| **\*76** | 1                   | Naperville, IL (C) (Calvary Church)                   |     0 |       |      |      |
-| **\*76** | 1                   | New Whiteland, IN (Grace Assembly of God)             |     0 |       |      |      |
-| **\*76** | 2                   | New Whiteland, IN (Grace Assembly of God)             |     0 |       |      |      |
-| **\*76** | 3                   | New Whiteland, IN (Grace Assembly of God)             |     0 |       |      |      |
-| **\*76** | 1                   | Versailles, KY (King's Way Assembly of God)           |     0 |       |      |      |
-| **\*76** | 2                   | Versailles, KY (King's Way Assembly of God)           |     0 |       |      |      |
-| **\*76** | 3                   | Versailles, KY (King's Way Assembly of God)           |     0 |       |      |      |
-| **\*76** | 1                   | Naperville, IL (J) (Calvary Church)                   |     0 |       |      |      |
 | **\*76** | Isaac Davenport     | Novi, MI (Brightmoor Christian Church)                |     0 |       |      |      |
-| **\*76** | 1                   | Novi, MI (Brightmoor Christian Church)                |     0 |       |      |      |
-| **\*76** | 2                   | Novi, MI (Brightmoor Christian Church)                |     0 |       |      |      |
-| **\*76** | 1                   | Ellettsville, IN (Ellettsville First Assembly of God) |     0 |       |      |      |
-| **\*76** | 2                   | Ellettsville, IN (Ellettsville First Assembly of God) |     0 |       |      |      |
-| **\*76** | 3                   | Ellettsville, IN (Ellettsville First Assembly of God) |     0 |       |      |      |
-| **\*76** | 1                   | Jackson, KY (The Happy Church)                        |     0 |       |      |      |
-| **\*76** | 2                   | Jackson, KY (The Happy Church)                        |     0 |       |      |      |
-| **\*76** | 3                   | Jackson, KY (The Happy Church)                        |     0 |       |      |      |
-| **\*76** | 1                   | Lexington, KY (Lexington First Assembly)              |     0 |       |      |      |
-| **\*76** | 2                   | Lexington, KY (Lexington First Assembly)              |     0 |       |      |      |
-| **\*76** | 3                   | Lexington, KY (Lexington First Assembly)              |     0 |       |      |      |
 | **\*76** | Britta Andrews      | East Lansing, MI (First A/G of Greater Lansing)       |     0 |       |      |      |
 | **\*76** | JJ Mair             | Gahanna, OH (Pathway Church)                          |     0 |       |      |      |
-| **\*76** | 1                   | Gahanna, OH (Pathway Church)                          |     0 |       |      |      |
-| **\*76** | 2                   | Gahanna, OH (Pathway Church)                          |     0 |       |      |      |
-| **\*76** | 3                   | Gahanna, OH (Pathway Church)                          |     0 |       |      |      |
-| **\*76** | 4                   | Gahanna, OH (Pathway Church)                          |     0 |       |      |      |
 | **\*76** | Andrew Cox          | \*Louisville, KY (Trinity Chapel Assembly of God)     |     0 |       |      |      |
-| **\*76** | 1                   | \*Louisville, KY (Trinity Chapel Assembly of God)     |     0 |       |      |      |
-| **\*76** | 2                   | \*Louisville, KY (Trinity Chapel Assembly of God)     |     0 |       |      |      |
-| **\*76** | 1                   | Cincinnati, OH (First Christian Assembly of God)      |     0 |       |      |      |
-| **\*76** | 2                   | Cincinnati, OH (First Christian Assembly of God)      |     0 |       |      |      |
-| **\*76** | 1                   | \*Huber Heights, OH (Destiny Church)                  |     0 |       |      |      |
-| **\*76** | 2                   | \*Huber Heights, OH (Destiny Church)                  |     0 |       |      |      |
-| **\*76** | 3                   | \*Huber Heights, OH (Destiny Church)                  |     0 |       |      |      |
 |       77 | Jack Convis         | East Lansing, MI (First A/G of Greater Lansing)       |    -5 |   -.3 |      |  25% |
 | **\*77** | Kiara Williams      | Terre Haute, IN (Cross Tabernacle)                    |    -5 |   -.3 |      |      |
 | **\*77** | Cora Self           | Versailles, KY (King's Way Assembly of God)           |    -5 |   -.3 |      |      |

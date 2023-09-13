@@ -59,7 +59,7 @@ menubar_toc_static:
 |    2 | Evangel #1, Wooster OH ("B" team)        |    4 |    2 |   415 |  69.2 |
 |    3 | Calvary #2, Toledo OH (Novice Team)*     |    4 |    2 |   470 |  78.3 |
 |    4 | Calvary #1, Toledo OH ("B" team)         |    3 |    3 |   325 |  54.2 |
-|    5 | Celebration Chruch, Akron OH ("B" team)  |    2 |    4 |    90 |    15 |
+|    5 | Celebration Church, Akron OH ("B" team)  |    2 |    4 |    90 |    15 |
 |    6 | Victory, Newcomerstown OH ("B" team)     |    2 |    4 |    95 |  15.8 |
 |    7 | Harvest Time, Brunswick OH (Novice Team) |    0 |    6 |    -5 |  -0.8 |
 
@@ -74,17 +74,17 @@ menubar_toc_static:
 |    3 | Hope Myers        | Calvary #1         |   280 | 46.7 |
 |    4 | Wesley Wilson     | Calvary #2         |   275 | 45.8 |
 |    5 | Sarah Neeper      | Calvary #2         |   210 |   35 |
-|    6 | Grayson Wade      | Celebration Chruch |    85 | 14.2 |
-|    7 | Ethan Everett     | Victory,           |    60 |   10 |
-|    8 | Brent Heishman    | Victory,           |    35 |  5.8 |
+|    6 | Grayson Wade      | Celebration Church |    85 | 14.2 |
+|    7 | Ethan Everett     | Victory            |    60 |   10 |
+|    8 | Brent Heishman    | Victory            |    35 |  5.8 |
 |    9 | Jacob Hadley      | Calvary #1         |    35 |  5.8 |
 |   10 | Brandi Kurjian    | Evangel #1         |    10 |  1.7 |
 |   11 | Jordan Hamersley  | Evangel #2         |    10 |  1.7 |
 |   12 | Micah Hamersley   | Evangel #2         |    10 |  1.7 |
-|   13 | Nicholas Clark    | Celebration Chruch |     5 |  0.8 |
-|   14 | Derek Clark       | Celebration Chruch |     0 |    0 |
-|   15 | Malachi Miller    | Celebration Chruch |     0 |    0 |
-|   16 | Michaela Miller   | Celebration Chruch |     0 |    0 |
+|   13 | Nicholas Clark    | Celebration Church |     5 |  0.8 |
+|   14 | Derek Clark       | Celebration Church |     0 |    0 |
+|   15 | Malachi Miller    | Celebration Church |     0 |    0 |
+|   16 | Michaela Miller   | Celebration Church |     0 |    0 |
 |   17 | Michelle Gray     | Evangel #1         |     0 |    0 |
 |   18 | Alex McGillis     | Harvest Time       |     0 |    0 |
 |   19 | Christina Jarrell | Harvest Time       |     0 |    0 |

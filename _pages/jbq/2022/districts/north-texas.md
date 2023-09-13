@@ -82,8 +82,8 @@ menubar_toc_static:
 
 |    # | Team                                                     | W/L   | Total |  Avg |   QO |   Q% |
 | ---: | -------------------------------------------------------- | ----- | ----: | ---: | ---: | ---: |
-|  1.0 | Oaks God\'s Super Quizzers (Oaks Church)                 | 4 / 1 |   700 |  140 |    3 |  86% |
-|  2.0 | David\'s Army (Encounter Church)                         | 3 / 2 |   730 |  146 |    7 |  87% |
+|  1.0 | Oaks God's Super Quizzers (Oaks Church)                  | 4 / 1 |   700 |  140 |    3 |  86% |
+|  2.0 | David's Army (Encounter Church)                          | 3 / 2 |   730 |  146 |    7 |  87% |
 |  3.0 | Hands and Feet (Dripping Springs United Methodist)       | 3 / 2 |   600 |  120 |    3 |  81% |
 |  4.0 | Oaks Way Makers (Oaks Church)                            | 3 / 2 |   565 |  113 |    5 |  87% |
 |  5.0 | Bible Battlers (Impacto Ministries) (Impacto Ministries) | 2 / 3 |   415 |   83 |    2 |  88% |
@@ -96,23 +96,23 @@ menubar_toc_static:
 |        # | Quizzer             | Team                                                     | Total |  Avg |   QO |   Q% |
 | -------: | ------------------- | -------------------------------------------------------- | ----: | ---: | ---: | ---: |
 |        1 | Abigail Lapusan     | Oaks Way Makers (Oaks Church)                            |   445 |   89 |    5 |  91% |
-|        2 | Isabella Berlinskiy | David\'s Army (Encounter Church)                         |   425 |   85 |    3 |  77% |
+|        2 | Isabella Berlinskiy | David's Army (Encounter Church)                          |   425 |   85 |    3 |  77% |
 |        3 | Nathan Chee         | Hands and Feet (Dripping Springs United Methodist)       |   360 |   72 |    2 |  72% |
-|        4 | Sarah Lapusan       | Oaks God\'s Super Quizzers (Oaks Church)                 |   325 |   65 |    1 |  81% |
+|        4 | Sarah Lapusan       | Oaks God's Super Quizzers (Oaks Church)                  |   325 |   65 |    1 |  81% |
 |        5 | Valentino Preciado  | Bible Battlers (Impacto Ministries) (Impacto Ministries) |   320 |   64 |    2 |  88% |
-|        6 | Ariella Fortygin    | David\'s Army (Encounter Church)                         |   305 |   61 |    4 |  96% |
-|        7 | Michael Wirth       | Oaks God\'s Super Quizzers (Oaks Church)                 |   285 |   57 |    2 |  92% |
+|        6 | Ariella Fortygin    | David's Army (Encounter Church)                          |   305 |   61 |    4 |  96% |
+|        7 | Michael Wirth       | Oaks God's Super Quizzers (Oaks Church)                  |   285 |   57 |    2 |  92% |
 |        8 | Ellie Chee          | Hands and Feet (Dripping Springs United Methodist)       |   230 |   46 |    1 |  95% |
 |        9 | Kohen Rogers        | The Hot Tamales (The Crossing of Little Elm)             |   185 |   37 |    1 |  73% |
 |       10 | Hudsen Rogers       | The Hot Tamales (The Crossing of Little Elm)             |   100 |   20 |      | 100% |
 | **\*10** | Colton Bjerke       | Oaks Way Makers (Oaks Church)                            |   100 |   20 |      |  70% |
-|       11 | John Pettis         | Oaks God\'s Super Quizzers (Oaks Church)                 |    95 |   19 |      | 100% |
+|       11 | John Pettis         | Oaks God's Super Quizzers (Oaks Church)                  |    95 |   19 |      | 100% |
 | **\*11** | Victoria Preciado   | Bible Battlers (Impacto Ministries) (Impacto Ministries) |    95 |   19 |      |  87% |
-|       12 | G\'ani Rivera       | Oaks Way Makers (Oaks Church)                            |    20 |    4 |      | 100% |
+|       12 | G'ani Rivera        | Oaks Way Makers (Oaks Church)                            |    20 |    4 |      | 100% |
 | **\*12** | Lockland Morris     | The Hot Tamales (The Crossing of Little Elm)             |    20 |    4 |      |  60% |
 |       13 | Jessa Gastineau     | Hands and Feet (Dripping Springs United Methodist)       |    10 |    2 |      |  99% |
 |       14 | Branson Miller      | Hands and Feet (Dripping Springs United Methodist)       |     5 |    1 |      |  50% |
 |       15 | Violet Cano         | Oaks Way Makers (Oaks Church)                            |     0 |      |      |      |
 | **\*15** | Talon Ima           | The Hot Tamales (The Crossing of Little Elm)             |     0 |      |      |      |
-|       16 | Sam O\'Neal         | Oaks God\'s Super Quizzers (Oaks Church)                 |    -5 |   -1 |      |      |
+|       16 | Sam O'Neal          | Oaks God's Super Quizzers (Oaks Church)                  |    -5 |   -1 |      |      |
 

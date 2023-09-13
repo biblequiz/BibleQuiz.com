@@ -77,7 +77,7 @@ menubar_toc_static:
 
 |    # | Quizzer          | Team                   | Total |  Avg |
 | ---: | ---------------- | ---------------------- | ----: | ---: |
-|    1 | Samuel Clinston  | BNC-Broom Hockey Mafia |   475 |   79 |
+|    1 | Sam Clinston     | BNC-Broom Hockey Mafia |   475 |   79 |
 |    2 | Alex Jarrell     | CPC-Isn't Human        |   380 |   63 |
 |    3 | Christiaan West  | CPC-Isn't Human        |   130 |   22 |
 |    4 | Avinash Poguluri | BNC-Broom Hockey Mafia |    75 |   13 |

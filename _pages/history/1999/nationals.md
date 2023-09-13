@@ -47,7 +47,7 @@ The top scorer at the 1999 National Finals was Kent Piacenti of Orange Hills A/G
 |   12 | Calvary Temple, Auburn, WA                       | 12 / 11 |  1865 |  81.09 |     50 |       2.17 |
 |   13 | Bethel Christian Center, West Lafayette, IN      | 12 / 11 |  1555 |  67.61 |   -595 |     -25.87 |
 |   14 | Cedar Park A/G, Bothell, WA                      | 11 / 12 |  1825 |  79.35 |   -180 |      -7.83 |
-|   15 | King’s Chapel, Springfield, MO                   | 10 / 13 |  2120 | 120.87 |    345 |         15 |
+|   15 | King's Chapel, Springfield, MO                   | 10 / 13 |  2120 | 120.87 |    345 |         15 |
 |   16 | Central A/G, Springfield, MO                     | 9 / 14  |  1900 |  92.17 |   -305 |     -13.26 |
 |   17 | Meridian A/G, Boise, ID                          | 9 / 14  |  1655 |  71.96 |   -735 |     -32.39 |
 |   18 | Harvest A/G, Fort Worth TX                       | 9 / 14  |  1490 |  64.78 |   -945 |     -41.09 |

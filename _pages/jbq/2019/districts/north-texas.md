@@ -24,7 +24,7 @@ menubar_toc_static:
 |  2.0 | Guardians of the Gospel (First at Firewheel)                                                | 6 / 1 |  1490 | 212.8 |   11 |  81% |
 |  3.0 | Chains Breakers (Freedom Church of the Assemblies of God)                                   | 5 / 2 |  1080 | 154.3 |    4 |  71% |
 |  4.1 | Thunder & Lightning (Trinity Church - Cedar Hill) (Trinity Church of the Assemblies of God) | 3 / 4 |  1175 | 167.8 |    5 |  77% |
-|  5.0 | Bible Buzzin\' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)   | 3 / 4 |   845 | 120.7 |    2 |  72% |
+|  5.0 | Bible Buzzin' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)    | 3 / 4 |   845 | 120.7 |    2 |  72% |
 |  6.0 | Ethiopian Evangelical Baptist Church (Garland) #1 (Ethiopian Evangelical Baptist Church)    | 2 / 5 |   645 |  92.1 |    4 |  79% |
 |  7.0 | Glad Tidings Assembly of God (Austin) #1 (Glad Tidings Assembly of God)                     | 1 / 6 |   600 |  85.7 |      |  88% |
 |  8.0 | Servants of the Lord (Dallas First Assembly of God)                                         | 1 / 6 |   590 |  84.3 |    1 |  83% |
@@ -47,17 +47,17 @@ menubar_toc_static:
 |       10 | Andrew Pickrell     | Thunder & Lightning (Trinity Church - Cedar Hill) (Trinity Church of the Assemblies of God) |   375 | 53.6 |    1 |  87% |
 |       11 | Emily Beckham       | Chains Breakers (Freedom Church of the Assemblies of God)                                   |   330 | 47.1 |    2 |  69% |
 |       12 | Katie Little        | Thunder & Lightning (Trinity Church - Cedar Hill) (Trinity Church of the Assemblies of God) |   315 |   45 |    3 |  80% |
-|       13 | Joseph Lee          | Bible Buzzin\' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)   |   265 | 37.9 |      |  70% |
+|       13 | Joseph Lee          | Bible Buzzin' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)    |   265 | 37.9 |      |  70% |
 |       14 | Jadon Sheomangal    | Thunder & Lightning (Trinity Church - Cedar Hill) (Trinity Church of the Assemblies of God) |   230 | 32.9 |    1 |  67% |
-|       15 | Dustin Trombley     | Bible Buzzin\' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)   |   190 | 27.1 |    1 |  90% |
-| **\*15** | Levi Espinoza       | Bible Buzzin\' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)   |   190 | 27.1 |    1 |  61% |
+|       15 | Dustin Trombley     | Bible Buzzin' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)    |   190 | 27.1 |    1 |  90% |
+| **\*15** | Levi Espinoza       | Bible Buzzin' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)    |   190 | 27.1 |    1 |  61% |
 |       16 | Caleb Cardenas      | Glad Tidings Assembly of God (Austin) #1 (Glad Tidings Assembly of God)                     |   175 |   25 |      |  91% |
 |       17 | Mekilit Siyum       | Ethiopian Evangelical Baptist Church (Garland) #1 (Ethiopian Evangelical Baptist Church)    |   150 | 21.4 |    1 |  79% |
 |       18 | Jonathan Yosefe     | Keepers of the Command (First at Firewheel)                                                 |   145 | 20.7 |    1 |  63% |
 |       19 | Eli Walsworth       | Chains Breakers (Freedom Church of the Assemblies of God)                                   |   135 | 19.3 |    1 |  64% |
 |       20 | Aulora Sullivan     | Thunder & Lightning (Trinity Church - Cedar Hill) (Trinity Church of the Assemblies of God) |   130 | 18.6 |      |  64% |
-|       21 | Asher Claunch       | Bible Buzzin\' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)   |   100 | 14.3 |      |  79% |
-| **\*21** | Jadon Espinoza      | Bible Buzzin\' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)   |   100 | 14.3 |      |  65% |
+|       21 | Asher Claunch       | Bible Buzzin' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)    |   100 | 14.3 |      |  79% |
+| **\*21** | Jadon Espinoza      | Bible Buzzin' Bros (Trinity Church-Cedar Hill) (Trinity Church of the Assemblies of God)    |   100 | 14.3 |      |  65% |
 |       22 | Joshua Sullivan     | Thunder & Lightning (Trinity Church - Cedar Hill) (Trinity Church of the Assemblies of God) |    95 | 13.6 |      |  91% |
 |       23 | David Matthews      | Chains Breakers (Freedom Church of the Assemblies of God)                                   |    85 | 12.1 |      |  59% |
 |       24 | Nate Hudson Cornish | Servants of the Lord (Dallas First Assembly of God)                                         |    70 |   10 |      |  80% |

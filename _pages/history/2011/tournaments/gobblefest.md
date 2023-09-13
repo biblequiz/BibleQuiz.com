@@ -91,7 +91,7 @@ menubar_toc_static:
 |    4 | Word of Life A/G, Springfield, VA  |    7 |    3 |  1615 | 161.5 |
 |    5 | South Hills A/G, Bethel Park, PA   |    5 |    5 |  1620 |   162 |
 |    6 | Walnut Grove A/G, West Mifflin, PA |    4 |    6 |  1190 |   119 |
-|    8 | Martha’s Vineyard, MA              |    4 |    6 |  1150 |   115 |
+|    8 | Martha's Vineyard, MA              |    4 |    6 |  1150 |   115 |
 |    7 | Evangel Heights A/G, Sarver, PA    |    3 |    7 |  1320 |   132 |
 |    9 | Living Waters Chapel, Lebanon, PA  |    3 |    7 |   950 |    95 |
 |   11 | First A/G, Waynesburg, PA          |    1 |    9 |   750 |    75 |
@@ -107,7 +107,7 @@ menubar_toc_static:
 |    4 | Justin Czubkowski | Praise Assembly Garfield, NJ       |  1075 |    9 |  107.5 |
 |    5 | Makena Schrock    | Radiant Life Church, Elkhart, IN   |  1045 |    8 |  104.5 |
 |    6 | David Beer        | Evangel Heights A/G, Sarver, PA    |  1010 |    7 |    101 |
-|    7 | Kiaja Nivala      | Martha’s Vineyard, MA              |   930 |    8 |     93 |
+|    7 | Kiaja Nivala      | Martha's Vineyard, MA              |   930 |    8 |     93 |
 |    8 | Tiffany Kitner    | South Hills A/G, Bethel Park, PA   |   765 |    6 |   76.5 |
 |    9 | Jonathan Brown    | Walnut Grove A/G, West Mifflin, PA |   750 |    5 |     75 |
 |   10 | Benjamin Miller   | First A/G, Waynesburg, PA          |   725 |    6 |   72.5 |
@@ -116,14 +116,14 @@ menubar_toc_static:
 |   13 | Kenadee Schrock   | Radiant Life Church, Elkhart, IN   |   540 |    5 |     54 |
 |   14 | Elizabeth Sikes   | South Hills A/G, Bethel Park, PA   |   520 |    2 |  57.78 |
 |   15 | Natasha Conerly   | Word of Life A/G, Springfield, VA  |   490 |    4 |     49 |
-|   16 | Kerry O’Bannon    | Manassas A/G, Bristow, VA          |   435 |    4 |   43.5 |
+|   16 | Kerry O'Bannon    | Manassas A/G, Bristow, VA          |   435 |    4 |   43.5 |
 |   17 | Jonathan Kelly    | Walnut Grove A/G, West Mifflin, PA |   400 |    2 |  44.44 |
 |   18 | Jake Lange        | State College A/G, PA              |   350 |    3 |     35 |
 |   19 | Colin Foster      | South Hills A/G, Bethel Park, PA   |   335 |    0 |   33.5 |
 |   20 | Callie Weitzel    | Living Waters Chapel, Lebanon, PA  |   325 |    0 |  36.11 |
 |   21 | Rosina Albanese   | Evangel Heights A/G, Sarver, PA    |   310 |    1 |     31 |
 |   22 | SeAyra Walters    | Radiant Life Church, Elkhart, IN   |   290 |    0 |     29 |
-|   23 | Ben Nivala        | Martha’s Vineyard, MA              |   225 |    1 |   22.5 |
+|   23 | Ben Nivala        | Martha's Vineyard, MA              |   225 |    1 |   22.5 |
 |   24 | Victoria Thee     | Manassas A/G, Bristow, VA          |   195 |    0 |   19.5 |
 |   25 | Stephen Pitterle  | State College A/G, PA              |   165 |    0 |   16.5 |
 |   26 | Trey Sederwall    | Praise Assembly Garfield, NJ       |    90 |    0 |      9 |
@@ -136,7 +136,7 @@ menubar_toc_static:
 |   33 | Faith Cross       | First A/G, Waynesburg, PA          |    10 |    0 |   1.67 |
 |   34 | Faith Bazemore    | Praise Assembly Garfield, NJ       |     0 |    0 |      0 |
 |   35 | David O'Donoghue  | First A/G, Waynesburg, PA          |     0 |    0 |      0 |
-|   36 | Kaleb Sperry      | Martha’s Vineyard, MA              |    -5 |    0 |  -0.63 |
+|   36 | Kaleb Sperry      | Martha's Vineyard, MA              |    -5 |    0 |  -0.63 |
 |   37 | Eve Jade Vargas   | Praise Assembly Garfield, NJ       |   -10 |    0 |   -2.5 |
 |   38 | Rebekah Miller    | First A/G, Waynesburg, PA          |   -15 |    0 |   -2.5 |
 

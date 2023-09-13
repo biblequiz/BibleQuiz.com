@@ -39,7 +39,7 @@ menubar_toc_static:
 |   10 | Ashley Mefford       | Church at Briargate            |
 |   11 | Cameron Eastin       | Red Mountain Christian Center  |
 |   12 | Katie Kuroishi       | Orange County Worship Center   |
-|   13 | Kari Beth Van Gorp   | Two Rivers                     |
+|   13 | Kari Van Gorp        | Two Rivers                     |
 |   14 | James Pryer Orange   | County Worship Center          |
 |   15 | Faith Elise Van Gorp | Two Rivers                     |
 |   16 | Kenny Madsen         | Blue Mountain Christian Center |

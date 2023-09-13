@@ -40,7 +40,7 @@ menubar_toc_static:
 | Ross Toeller      | Racine        |  1300 |   12 |
 | Naomi Turner      | Portage, NTB  |  1150 |   12 |
 | Alex Firari       | Portage, SWS  |  1055 |   10 |
-| Olivia Davis      | Holland 2,    |  1050 |    9 |
+| Olivia Davis      | Holland 2, MI |  1050 |    9 |
 | Kierstyn Anderson | Holland 1, MI |  1040 |   11 |
 | David Kober       | Oshkosh       |  1040 |    6 |
 

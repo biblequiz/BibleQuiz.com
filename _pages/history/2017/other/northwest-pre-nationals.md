@@ -41,7 +41,7 @@ menubar_toc_static:
 |    9 | Sam Clinston          | Whatever is noble? (Bellevue Neighborhood Church) |   165 | 20.6 |    1 |  64% |
 |   10 | Anastasia Yevtushenko | Obligated to Answer (Cedar Park Christian Church) |   115 | 16.4 |    1 |  77% |
 |   11 | Padmini Abothu        | Whatever is noble? (Bellevue Neighborhood Church) |   105 | 13.1 |      |  60% |
-|   12 | Jonathan Zhu (new)    | Whatever is noble? (Bellevue Neighborhood Church) |    95 | 11.9 |    1 |  67% |
+|   12 | Jonathan Zhu*         | Whatever is noble? (Bellevue Neighborhood Church) |    95 | 11.9 |    1 |  67% |
 |   13 | Isaiah Hahn           | Phoenix (Phoenix)                                 |    80 |   10 |      |  75% |
 |   14 | Westin Haugo          | Obligated to Answer (Cedar Park Christian Church) |    65 |  8.1 |      |  53% |
 |   15 | Samuel Dawson         | Unknown Males (Tacoma Life Church)                |    60 |  7.5 |      |  67% |
@@ -49,3 +49,4 @@ menubar_toc_static:
 |   17 | Cecily Houser         | Obligated to Answer (Cedar Park Christian Church) |    40 |  5.7 |      |  42% |
 |   18 | Jonathan Zhu          | Those Dogs (Cedar Park Christian Church)          |    40 |    5 |      |  66% |
 
+\* New Quizzer

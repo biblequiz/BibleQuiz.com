@@ -63,7 +63,7 @@ menubar_toc_static:
 
 |    # | Team                                                                                      | W/L   | Total |   Avg |   QO |   Q% |
 | ---: | ----------------------------------------------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
-|  1.1 | Faith Assembly of God (Harrison) Quizzin\' Chicks (Faith Assembly of God)                 | 8 / 1 |  1575 |   175 |    5 |  85% |
+|  1.1 | Faith Assembly of God (Harrison) Quizzin' Chicks (Faith Assembly of God)                  | 8 / 1 |  1575 |   175 |    5 |  85% |
 |  2.0 | Crystal Hill Assembly of God (North Little Rock) #1 (Crystal Hill Assembly of God)        | 8 / 1 |  1600 | 177.8 |    5 |  88% |
 |  3.1 | Buzzer Busters (McArthur AG, Jacksonville) (McArthur Assembly of God)                     | 6 / 3 |  1200 | 133.3 |    9 |  89% |
 |  4.0 | Trinity Fellowship Assembly of God (Fayetteville) #2 (Trinity Fellowship Assembly of God) | 6 / 3 |  1065 | 118.3 |    4 |  87% |
@@ -85,13 +85,13 @@ menubar_toc_static:
 |        3 | Adalyn Hornaday    | First Assembly of God (Fordyce) #1 (First Assembly of God)                                |   775 | 86.1 |    7 |  91% |
 |        4 | Jalynn Wedgworth   | Crystal Hill Assembly of God (North Little Rock) #1 (Crystal Hill Assembly of God)        |   605 | 67.2 |    2 | 100% |
 |        5 | Karter Ballard     | Buzzer Busters (McArthur AG, Jacksonville) (McArthur Assembly of God)                     |   585 |   65 |    8 |  93% |
-|        6 | Ashleigh Griffin   | Faith Assembly of God (Harrison) Quizzin\' Chicks (Faith Assembly of God)                 |   560 | 62.2 |    1 |  83% |
+|        6 | Ashleigh Griffin   | Faith Assembly of God (Harrison) Quizzin' Chicks (Faith Assembly of God)                  |   560 | 62.2 |    1 |  83% |
 |        7 | Aubrey Harvey      | Trinity Fellowship Assembly of God (Fayetteville) #2 (Trinity Fellowship Assembly of God) |   520 | 57.8 |    1 |  93% |
 |        8 | Connor Leker       | First Assembly of God (North Little Rock) - Nerds (First Assembly of God)                 |   510 | 56.7 |    3 |  97% |
 |        9 | Baley Collins      | First Assembly of God (Fordyce) #1 (First Assembly of God)                                |   505 | 56.1 |    2 |  74% |
-|       10 | Haleigh Griffin    | Faith Assembly of God (Harrison) Quizzin\' Chicks (Faith Assembly of God)                 |   475 | 52.8 |    1 |  90% |
+|       10 | Haleigh Griffin    | Faith Assembly of God (Harrison) Quizzin' Chicks (Faith Assembly of God)                  |   475 | 52.8 |    1 |  90% |
 |       11 | Alexa Harvey       | Trinity Fellowship Assembly of God (Fayetteville) #2 (Trinity Fellowship Assembly of God) |   440 | 48.9 |    3 |  85% |
-|       12 | Andi Wilson        | Faith Assembly of God (Harrison) Quizzin\' Chicks (Faith Assembly of God)                 |   420 | 46.7 |    3 |  86% |
+|       12 | Andi Wilson        | Faith Assembly of God (Harrison) Quizzin' Chicks (Faith Assembly of God)                  |   420 | 46.7 |    3 |  86% |
 |       13 | Jayden Maris       | Changepoint Assembly of God (Cabot) #2 (Changepoint Assembly of God)                      |   380 | 42.2 |      |  83% |
 |       14 | Carly Shalter      | Buzzer Busters (McArthur AG, Jacksonville) (McArthur Assembly of God)                     |   355 | 39.4 |    1 |  74% |
 |       15 | Ty Harper          | First Assembly of God (North Little Rock) - Nerds (First Assembly of God)                 |   340 | 37.8 |      |  83% |
@@ -104,7 +104,7 @@ menubar_toc_static:
 |       21 | Noah Atkinson      | First Assembly of God (Benton) #1 (First Assembly of God)                                 |   165 | 18.3 |      |  88% |
 | **\*21** | Audrey Perin       | Crystal Hill Assembly of God (North Little Rock) #1 (Crystal Hill Assembly of God)        |   165 | 18.3 |      |  86% |
 |       22 | Abigail Cargill    | First Assembly of God (North Little Rock) - Nerds (First Assembly of God)                 |   120 | 13.3 |    1 |  81% |
-|       23 | Jones Stevie       | Faith Assembly of God (Harrison) Quizzin\' Chicks (Faith Assembly of God)                 |   120 | 13.3 |      |  78% |
+|       23 | Jones Stevie       | Faith Assembly of God (Harrison) Quizzin' Chicks (Faith Assembly of God)                  |   120 | 13.3 |      |  78% |
 |       24 | Caleb Stewart      | Trinity Fellowship Assembly of God (Fayetteville) #2 (Trinity Fellowship Assembly of God) |    60 |  6.7 |      |  87% |
 |       25 | Macee Earnest      | First Assembly of God (Benton) #1 (First Assembly of God)                                 |    55 |  6.1 |      |  86% |
 |       26 | Eva Payton         | Trinity Fellowship Assembly of God (Fayetteville) #2 (Trinity Fellowship Assembly of God) |    30 |  3.3 |      |  99% |
@@ -119,8 +119,8 @@ menubar_toc_static:
 | **\*30** | Anya Abdullah      | Buzzer Busters (McArthur AG, Jacksonville) (McArthur Assembly of God)                     |     0 |      |      |      |
 | **\*30** | Rylee Collums      | Holy Hunters (Crossroads Assembly of God)                                                 |     0 |      |      |      |
 | **\*30** | Charleigh Johnson  | First Assembly of God (Benton) #1 (First Assembly of God)                                 |     0 |      |      |      |
-| **\*30** | Kalia Roberts      | Faith Assembly of God (Harrison) Quizzin\' Chicks (Faith Assembly of God)                 |     0 |      |      |      |
-| **\*30** | Adalee Roberts     | Faith Assembly of God (Harrison) Quizzin\' Chicks (Faith Assembly of God)                 |     0 |      |      |      |
+| **\*30** | Kalia Roberts      | Faith Assembly of God (Harrison) Quizzin' Chicks (Faith Assembly of God)                  |     0 |      |      |      |
+| **\*30** | Adalee Roberts     | Faith Assembly of God (Harrison) Quizzin' Chicks (Faith Assembly of God)                  |     0 |      |      |      |
 
 
 ## 5th & 6th

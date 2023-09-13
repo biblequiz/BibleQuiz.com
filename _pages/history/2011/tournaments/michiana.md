@@ -61,7 +61,7 @@ menubar_toc_static:
 |   26 | Timothy Pryer      | New Life - White Cloud, MI            |  17.8 |   160 |      0 |     1 |
 |   27 | Geddy Walker       | "Pointless" - First, Lexington, Ky    |  15.6 |   140 |      0 |     0 |
 |   28 | Whitney Harr       | First - East Lansing, MI              |   9.4 |    85 |      0 |     1 |
-|   29 | Courtney  Turner   | Trinty - Georgetown, KY               |   8.9 |    80 |      0 |     0 |
+|   29 | Courtney Turner    | Trinty - Georgetown, KY               |   8.9 |    80 |      0 |     0 |
 |   30 | Lauren Aubry       | Nothing False - James River, Ozark MO |   8.3 |    75 |      0 |     0 |
 |   31 | Christen Smith     | "Pointless" - First, Lexington, Ky    |   7.8 |    70 |      0 |     3 |
 |   32 | Drew Harr          | First - East Lansing, MI              |   6.1 |    55 |      0 |     2 |
@@ -191,7 +191,7 @@ menubar_toc_static:
 |   36 | Elizabeth McMasters | I Have No Husband - Radiant Life, Elkhart, IN      |   0.0 |     0 |      0 |     0 |
 |   37 | Janessa Bender      | First - East Lansing, MI                           |   0.0 |     0 |      0 |     0 |
 |   38 | Lindsey Heiser      | Living Hope Church - Merrillville, IN              |   0.0 |     0 |      0 |     0 |
-|   39 | Caleb  Ripley       | "The Big Blue" - Lexington, KY                     |   0.0 |     0 |      0 |     0 |
+|   39 | Caleb Ripley        | "The Big Blue" - Lexington, KY                     |   0.0 |     0 |      0 |     0 |
 |   40 | Madison Trout       | The StoreHouse - Greencastle, IN                   |   0.0 |     0 |      0 |     0 |
 
 ## Contender Division

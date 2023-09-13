@@ -24,7 +24,7 @@ menubar_toc_static:
 |  2.0 | Colorado Springs-CO (New Life Church)      | 16 / 1 |  3605 |   212 |   26 |  73% |
 |  3.0 | Springfield-MO (Hope Church)               | 17 / 1 |  3595 | 199.7 |   27 |  84% |
 |  4.0 | Houston-PA (Central Assembly of God)       | 13 / 5 |  2045 | 113.6 |   13 |  69% |
-|  5.0 | Bellevue-WA (Don\'t Run from the Lord)     | 11 / 6 |  2135 | 125.6 |   14 |  78% |
+|  5.0 | Bellevue-WA (Don't Run from the Lord)      | 11 / 6 |  2135 | 125.6 |   14 |  78% |
 |  6.0 | Marietta-GA (More Than Conquerors)         | 11 / 7 |  2530 | 140.5 |   22 |  85% |
 |  7.0 | Burien-WA (Deeper Church)                  | 11 / 7 |  2350 | 130.5 |   19 |  73% |
 |  8.0 | Swedesboro-NJ (Living Hope Worship Center) | 10 / 7 |  1940 | 114.1 |   15 |  76% |
@@ -48,7 +48,7 @@ menubar_toc_static:
 | -------: | -------------------- | ------------------------------------------ | ----: | ----: | ---: | ---: |
 |        1 | Sheldon Powell       | Naperville-IL (Calvary Church)             |  2505 | 139.2 |   18 |  93% |
 |        2 | Cameron Ramsey       | Springfield-MO (Hope Church)               |  2020 | 112.2 |   16 |  91% |
-|        3 | Sam Clinston         | Bellevue-WA (Don\'t Run from the Lord)     |  1480 |  87.1 |   11 |  80% |
+|        3 | Sam Clinston         | Bellevue-WA (Don't Run from the Lord)      |  1480 |  87.1 |   11 |  80% |
 |        4 | Rachel Brookbank     | Colorado Springs-CO (New Life Church)      |  1455 |  80.8 |    9 |  79% |
 |        5 | Steve Joy            | Marietta-GA (More Than Conquerors)         |  1385 |  76.9 |   13 |  86% |
 |        6 | Kyli Ladd            | Rapid City-SD (We Ate The Leftovers)       |  1320 |  73.3 |    9 |  70% |
@@ -66,7 +66,7 @@ menubar_toc_static:
 |       18 | Chidinma Kanu        | Houston-TX (P) (Braeswood Assembly of God) |   820 |  45.6 |    3 |  83% |
 |       19 | Hadassah Brookbank   | Colorado Springs-CO (New Life Church)      |   780 |  43.3 |    7 |  67% |
 |       20 | Melissa Robertson    | Houston-PA (Central Assembly of God)       |   705 |  39.2 |    6 |  87% |
-|       21 | Elizabeth Godavarthi | Bellevue-WA (Don\'t Run from the Lord)     |   605 |  35.6 |    3 |  78% |
+|       21 | Elizabeth Godavarthi | Bellevue-WA (Don't Run from the Lord)      |   605 |  35.6 |    3 |  78% |
 |       22 | Cole Abbott          | Sparta-WI (New Life Assembly of God)       |   605 |  33.6 |    4 |  63% |
 |       23 | Ryan Schiebel        | Garfield-NJ (Filled With Remorse)          |   600 |  33.3 |    6 |  60% |
 |       24 | Shaymis Powell       | Naperville-IL (Calvary Church)             |   585 |  32.5 |    4 |  66% |
@@ -95,7 +95,7 @@ menubar_toc_static:
 |       44 | Shawn Timothy        | Naperville-IL (Calvary Church)             |    70 |   3.9 |      |  64% |
 | **\*44** | Kora Pardee          | Marinette-WI (Calvary Church A/G)          |    70 |   3.9 |      |  56% |
 |       45 | Jacey Pathri         | Dublin-OH (Radiant Quizzers)               |    60 |   3.3 |      |  75% |
-|       46 | Ryan Matta           | Bellevue-WA (Don\'t Run from the Lord)     |    55 |   3.2 |      |  67% |
+|       46 | Ryan Matta           | Bellevue-WA (Don't Run from the Lord)      |    55 |   3.2 |      |  67% |
 |       47 | Jayda Spencer        | Houston-PA (Central Assembly of God)       |    50 |   2.8 |      |  83% |
 |       48 | Joshua Gunasingh     | Marietta-GA (More Than Conquerors)         |    45 |   2.5 |      |  83% |
 |       49 | Abel Karthik         | Dublin-OH (Radiant Quizzers)               |    40 |   2.2 |      |  50% |

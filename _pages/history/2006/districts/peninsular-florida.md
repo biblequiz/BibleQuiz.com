@@ -28,6 +28,6 @@ menubar_toc_static:
 
 ## Quoting Bee
 
-|    # | Quizzer                    |
-| ---: | -------------------------- |
-|    1 | Christina Simpson, Orlando |
+|    # | Quizzer           | Team    |
+| ---: | ----------------- | ------- |
+|    1 | Christina Simpson | Orlando |

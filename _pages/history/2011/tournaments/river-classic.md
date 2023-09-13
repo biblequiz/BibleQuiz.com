@@ -168,7 +168,7 @@ menubar_toc_static:
 |   26 | Bradley Leander     | Harvest Tulsa #2        | Harvest Church       |   340 |  22.67 |    1 |
 |   27 | Toshali Nutt        | Muskogee MSQ Team       | Muskogee - 1st A/G   |   310 |  20.67 |    1 |
 |   27 | Caleb Butler        | Not Yet Fifty           | Living Hope Church   |   310 |  20.67 |    1 |
-|   28 | Abby O\'Connell     | Five Barley Loaves      | JRAG                 |   305 |  20.33 |    2 |
+|   28 | Abby O'Connell      | Five Barley Loaves      | JRAG                 |   305 |  20.33 |    2 |
 |   29 | Keaton Post         | Retorted                | Brookside Church     |   300 |  20.00 |    3 |
 |   30 | Amy Robinson        | Retorted                | Brookside Church     |   300 |  20.00 |    1 |
 |   31 | Danielle Aubry      | Lambs Of God            | JRAG                 |   180 |  12.00 |      |

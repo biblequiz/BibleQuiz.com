@@ -102,7 +102,7 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 |       41 | Emily Robinson      | South Hills, PA          |   395 |  20.79 |        |       |
 |       42 | Aaron Brumit        | Cedar Hill, TX           |   390 |  20.53 |      1 |     2 |
 |       43 | Kyle Harr           | Greater Lansing, MI      |   380 |     20 |        |     6 |
-|       44 | Jamil Burton-Harris | Buffalo, NY              |   370 |  19.47 |        |       |
+|       44 | Jamil Barton-Harris | Buffalo, NY              |   370 |  19.47 |        |       |
 |       45 | Preston Drobeck     | Colorado Springs, CO     |   360 |  18.95 |        |       |
 |       46 | Joseph Fortunato    | Dunwoody, GA             |   330 |  17.37 |        |       |
 |       47 | Bryce Steel         | Toledo, OH               |   320 |  16.84 |      2 |     6 |
@@ -171,7 +171,7 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 |        3 | Jennifer Dunn       | Fremont, NC                    |  1545 | 81.32 |      6 |     6 |
 |        4 | Sharon Ely          | Grapevine, TX                  |  1465 | 77.11 |     10 |     1 |
 |        5 | Tyler Ferguson      | Appleton, WI                   |  1415 | 74.47 |      9 |     1 |
-|        6 | Eric Hernando       | Springfield, MO, King’s Chapel |  1330 |    70 |      8 |     4 |
+|        6 | Eric Hernando       | Springfield, MO, King's Chapel |  1330 |    70 |      8 |     4 |
 |        7 | Stephanie Nannarone | Grapveine, TX                  |  1280 | 67.37 |      8 |     5 |
 |        8 | Logan Newman        | Superior, WI                   |  1170 | 61.58 |      7 |     2 |
 |        9 | Mark Whitehead      | West Lafayette                 |  1150 | 60.53 |      4 |     8 |
@@ -198,7 +198,7 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 |       30 | Pat Bjorklund       | Bothell WA #2                  |   580 | 30.53 |      1 |     1 |
 |       31 | Kathryn Whitehead   | West Lafayette, IN             |   580 | 30.53 |      1 |     3 |
 |       32 | Wesley Glick        | Dixon, MO                      |   565 | 29.74 |      2 |     3 |
-|       33 | Joey Laurine        | Springfield, MO, King’s Chapel |   535 | 28.16 |      2 |     1 |
+|       33 | Joey Laurine        | Springfield, MO, King's Chapel |   535 | 28.16 |      2 |     1 |
 |       34 | Michelle Hart       | Orlando, FL                    |   435 | 22.89 |        |       |
 |       35 | Steve Gregg         | Allison Park, PA #2            |   430 | 22.63 |        |       |
 |       35 | Laura Jakstadt      | Bothell, WA #2                 |   430 | 22.63 |        |       |
@@ -210,7 +210,7 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 |       42 | Bekka Dunn          | Cedar Rapids, IA               |   250 | 13.16 |        |       |
 |       43 | Brittanica Chesser  | Orlando, FL                    |   235 | 12.37 |        |       |
 |       44 | DeAndre Johnson     | Shreveport, LA                 |   230 | 12.11 |        |       |
-|       45 | Chris Davis         | Springfield, MO, King’s Chapel |   225 | 11.84 |        |       |
+|       45 | Chris Davis         | Springfield, MO, King's Chapel |   225 | 11.84 |        |       |
 |       46 | Hannah Meyer        | Superior, WI                   |   195 | 10.26 |        |       |
 |       47 | Erica Streifel      | Rochester, MN                  |   175 |  9.21 |        |       |
 |       48 | Jarron Born         | Bothell, WA #2                 |   165 |  8.68 |        |       |
@@ -219,7 +219,7 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 |       51 | Jennifer Nevels     | Mountain Home, ID              |   100 |  5.26 |        |       |
 |       52 | Suni McClure        | Grapevine, TX                  |    90 |  4.74 |        |       |
 |       53 | Amanda Porter       | Mountain Home, ID              |    85 |  4.47 |        |       |
-|       53 | Kristin Kowalski    | Springfield, MO, King’s Chapel |    85 |  4.47 |        |       |
+|       53 | Kristin Kowalski    | Springfield, MO, King's Chapel |    85 |  4.47 |        |       |
 |       55 | Shelby Alfred       | Shreveport, LA                 |    65 |  3.42 |        |       |
 |       56 | Hannah McGlothlin   | Grapevine, TX                  |    50 |  2.63 |        |       |
 |       57 | Lindsay Flowers     | Bothell, WA #2                 |    45 |  2.37 |        |       |

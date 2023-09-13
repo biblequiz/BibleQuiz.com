@@ -264,50 +264,50 @@ menubar_toc_static:
 |  3.0 | RRSS- (Oxford 1st AG (307))                                                 | 4 / 2 |   325 | 54.2 |    1 |  86% |
 |  4.0 | Trinity Team #1 (trinity Church International (405))                        | 3 / 3 |   280 | 46.7 |    1 |  84% |
 |  5.0 | CLC Heat (Christian Life Center (404))                                      | 2 / 4 |   255 | 42.5 |    2 |  80% |
-|  6.1 | God\'s Girls (City Church(107) )                                            | 1 / 5 |   290 | 48.3 |      |  91% |
+|  6.1 | God's Girls (City Church(107) )                                             | 1 / 5 |   290 | 48.3 |      |  91% |
 |  7.0 | GRSS (Oxford 1st AG (306))                                                  | 1 / 5 |   155 | 25.8 |      |  84% |
 
 ### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                | Team                                                                        | Total |  Avg |   QO |   Q% |
-| -------: | ---------------------- | --------------------------------------------------------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Sarah Beaubrun         | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |   285 | 47.5 |    2 |  96% |
-|        2 | Nicholas Riveria       | RRSS- (Oxford 1st AG (307))                                                 |   240 |   40 |    1 |  83% |
-|        3 | Azariah Fuller         | God\'s Girls (City Church(107) )                                            |   230 | 38.3 |      |  87% |
-|        4 | Precious Okoh          | CLC Heat (Christian Life Center (404))                                      |   225 | 37.5 |    2 |  85% |
-|        5 | Isabella Perry         | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |   215 | 35.8 |      |  86% |
-|        6 | Jayden Bable           | Trinity Team #1 (trinity Church International (405))                        |   165 | 27.5 |    1 |  94% |
-|        7 | Arbuns Geffrard        | Master Quizzers (Christian Life Center (403))                               |   135 | 22.5 |      |  77% |
-|        8 | Marvens Geffrard       | Master Quizzers (Christian Life Center (403))                               |   120 |   20 |      |  93% |
-|        9 | Bruiyensen Gracelien   | Master Quizzers (Christian Life Center (403))                               |   105 | 17.5 |      |  92% |
-|       10 | Stephane Jules         | Master Quizzers (Christian Life Center (403))                               |   100 | 16.7 |      | 100% |
-|       11 | Tanner Rumer           | RRSS- (Oxford 1st AG (307))                                                 |    85 | 14.2 |      | 100% |
-|       12 | Jacob Sumner           | GRSS (Oxford 1st AG (306))                                                  |    60 |   10 |      | 100% |
-| **\*12** | Makayla Hayes          | God\'s Girls (City Church(107) )                                            |    60 |   10 |      | 100% |
-| **\*12** | Aiden Giles            | GRSS (Oxford 1st AG (306))                                                  |    60 |   10 |      |  78% |
-|       13 | Gael Rocha             | Trinity Team #1 (trinity Church International (405))                        |    55 |  9.2 |      |  71% |
-|       14 | Kinsee Walker          | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |    45 |  7.5 |      |  83% |
-| **\*14** | Ricardo Rocha          | Trinity Team #1 (trinity Church International (405))                        |    45 |  7.5 |      |  75% |
-|       15 | Emma Stagg             | GRSS (Oxford 1st AG (306))                                                  |    35 |  5.8 |      |  75% |
-|       16 | Gabrielle Anderson     | CLC Heat (Christian Life Center (404))                                      |    25 |  4.2 |      |  67% |
-|       17 | Eli Saligan            | Trinity Team #1 (trinity Church International (405))                        |    15 |  2.5 |      |  66% |
-|       18 | Hannah Moss            | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |    10 |  1.7 |      |  99% |
-| **\*18** | Oliver Boileau         | CLC Heat (Christian Life Center (404))                                      |    10 |  1.7 |      |  99% |
-|       19 | Hope Arent             | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |     0 |      |      |      |
-| **\*19** | Aileanna Mcduffie      | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |     0 |      |      |      |
-| **\*19** | Samuel Jordan          | Trinity Team #1 (trinity Church International (405))                        |     0 |      |      |      |
-| **\*19** | Emory Strickland       | RRSS- (Oxford 1st AG (307))                                                 |     0 |      |      |      |
-| **\*19** | Emma Strickland        | RRSS- (Oxford 1st AG (307))                                                 |     0 |      |      |      |
-| **\*19** | Natahaniel Petit-Clair | Master Quizzers (Christian Life Center (403))                               |     0 |      |      |      |
-| **\*19** | Alley Reep             | GRSS (Oxford 1st AG (306))                                                  |     0 |      |      |      |
-| **\*19** | Paris Nicolas          | CLC Heat (Christian Life Center (404))                                      |     0 |      |      |      |
-| **\*19** | Liz Joseph             | CLC Heat (Christian Life Center (404))                                      |     0 |      |      |      |
-| **\*19** | Marly Santos           | God\'s Girls (City Church(107) )                                            |     0 |      |      |      |
-| **\*19** | Maddy Santos           | God\'s Girls (City Church(107) )                                            |     0 |      |      |      |
-| **\*19** | Natalie Burgos         | God\'s Girls (City Church(107) )                                            |     0 |      |      |      |
-|       20 | Bryan Boileau          | CLC Heat (Christian Life Center (404))                                      |    -5 |  -.8 |      |      |
+|        # | Quizzer               | Team                                                                        | Total |  Avg |   QO |   Q% |
+| -------: | --------------------- | --------------------------------------------------------------------------- | ----: | ---: | ---: | ---: |
+|        1 | Sarah Beaubrun        | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |   285 | 47.5 |    2 |  96% |
+|        2 | Nicholas Riveria      | RRSS- (Oxford 1st AG (307))                                                 |   240 |   40 |    1 |  83% |
+|        3 | Azariah Fuller        | God's Girls (City Church(107) )                                             |   230 | 38.3 |      |  87% |
+|        4 | Precious Okoh         | CLC Heat (Christian Life Center (404))                                      |   225 | 37.5 |    2 |  85% |
+|        5 | Isabella Perry        | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |   215 | 35.8 |      |  86% |
+|        6 | Jayden Bable          | Trinity Team #1 (trinity Church International (405))                        |   165 | 27.5 |    1 |  94% |
+|        7 | Arbuns Geffrard       | Master Quizzers (Christian Life Center (403))                               |   135 | 22.5 |      |  77% |
+|        8 | Marvens Geffrard      | Master Quizzers (Christian Life Center (403))                               |   120 |   20 |      |  93% |
+|        9 | Bruiyensen Gracelien  | Master Quizzers (Christian Life Center (403))                               |   105 | 17.5 |      |  92% |
+|       10 | Stephane Jules        | Master Quizzers (Christian Life Center (403))                               |   100 | 16.7 |      | 100% |
+|       11 | Tanner Rumer          | RRSS- (Oxford 1st AG (307))                                                 |    85 | 14.2 |      | 100% |
+|       12 | Jacob Sumner          | GRSS (Oxford 1st AG (306))                                                  |    60 |   10 |      | 100% |
+| **\*12** | Makayla Hayes         | God's Girls (City Church(107) )                                             |    60 |   10 |      | 100% |
+| **\*12** | Aiden Giles           | GRSS (Oxford 1st AG (306))                                                  |    60 |   10 |      |  78% |
+|       13 | Gael Rocha            | Trinity Team #1 (trinity Church International (405))                        |    55 |  9.2 |      |  71% |
+|       14 | Kinsee Walker         | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |    45 |  7.5 |      |  83% |
+| **\*14** | Ricardo Rocha         | Trinity Team #1 (trinity Church International (405))                        |    45 |  7.5 |      |  75% |
+|       15 | Emma Stagg            | GRSS (Oxford 1st AG (306))                                                  |    35 |  5.8 |      |  75% |
+|       16 | Gabrielle Anderson    | CLC Heat (Christian Life Center (404))                                      |    25 |  4.2 |      |  67% |
+|       17 | Eli Saligan           | Trinity Team #1 (trinity Church International (405))                        |    15 |  2.5 |      |  66% |
+|       18 | Hannah Moss           | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |    10 |  1.7 |      |  99% |
+| **\*18** | Oliver Boileau        | CLC Heat (Christian Life Center (404))                                      |    10 |  1.7 |      |  99% |
+|       19 | Hope Arent            | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |     0 |      |      |      |
+| **\*19** | Aileanna Mcduffie     | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |     0 |      |      |      |
+| **\*19** | Samuel Jordan         | Trinity Team #1 (trinity Church International (405))                        |     0 |      |      |      |
+| **\*19** | Emory Strickland      | RRSS- (Oxford 1st AG (307))                                                 |     0 |      |      |      |
+| **\*19** | Emma Strickland       | RRSS- (Oxford 1st AG (307))                                                 |     0 |      |      |      |
+| **\*19** | Nathaniel Petit-Clair | Master Quizzers (Christian Life Center (403))                               |     0 |      |      |      |
+| **\*19** | Alley Reep            | GRSS (Oxford 1st AG (306))                                                  |     0 |      |      |      |
+| **\*19** | Paris Nicolas         | CLC Heat (Christian Life Center (404))                                      |     0 |      |      |      |
+| **\*19** | Liz Joseph            | CLC Heat (Christian Life Center (404))                                      |     0 |      |      |      |
+| **\*19** | Marly Santos          | God's Girls (City Church(107) )                                             |     0 |      |      |      |
+| **\*19** | Maddy Santos          | God's Girls (City Church(107) )                                             |     0 |      |      |      |
+| **\*19** | Natalie Burgos        | God's Girls (City Church(107) )                                             |     0 |      |      |      |
+|       20 | Bryan Boileau         | CLC Heat (Christian Life Center (404))                                      |    -5 |  -.8 |      |      |
 
 
 ## Flight 6
@@ -316,53 +316,53 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team                                                            | W/L   | Total |   Avg |   QO |   Q% |
-| ---: | --------------------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
-|  1.0 | Harvest Team 2 (Harvest Church Lakeland (610))                  | 6 / 0 |   955 | 159.1 |    7 |  90% |
-|  2.0 | Florida\'s First KidVenture Quizzer\'s (Florida\'s First (605)) | 5 / 1 |   470 |  78.3 |    2 |  93% |
-|  3.1 | Harvest Team 1 (Harvest Church Lakeland (609))                  | 3 / 3 |   475 |  79.2 |    1 |  89% |
-|  4.0 | Ocala B (1st AG (305))                                          | 3 / 3 |   360 |    60 |      |  94% |
-|  5.0 | DeLand 2 (1st AG - DeLand (202) )                               | 2 / 4 |   190 |  31.7 |      |  81% |
-|  6.1 | New Life Team B (New Life AG (504))                             | 1 / 5 |   115 |  19.2 |      |  92% |
-|  7.0 | Bible Bubble Busters (City Church (108))                        | 1 / 5 |    60 |    10 |      |  71% |
+|    # | Team                                                         | W/L   | Total |   Avg |   QO |   Q% |
+| ---: | ------------------------------------------------------------ | ----- | ----: | ----: | ---: | ---: |
+|  1.0 | Harvest Team 2 (Harvest Church Lakeland (610))               | 6 / 0 |   955 | 159.1 |    7 |  90% |
+|  2.0 | Florida's First KidVenture Quizzer's (Florida's First (605)) | 5 / 1 |   470 |  78.3 |    2 |  93% |
+|  3.1 | Harvest Team 1 (Harvest Church Lakeland (609))               | 3 / 3 |   475 |  79.2 |    1 |  89% |
+|  4.0 | Ocala B (1st AG (305))                                       | 3 / 3 |   360 |    60 |      |  94% |
+|  5.0 | DeLand 2 (1st AG - DeLand (202) )                            | 2 / 4 |   190 |  31.7 |      |  81% |
+|  6.1 | New Life Team B (New Life AG (504))                          | 1 / 5 |   115 |  19.2 |      |  92% |
+|  7.0 | Bible Bubble Busters (City Church (108))                     | 1 / 5 |    60 |    10 |      |  71% |
 
 ### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer              | Team                                                            | Total |   Avg |   QO |   Q% |
-| -------: | -------------------- | --------------------------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Isaac Ramos          | Harvest Team 2 (Harvest Church Lakeland (610))                  |   615 | 102.5 |    4 |  91% |
-|        2 | Sofia Rovira         | Harvest Team 2 (Harvest Church Lakeland (610))                  |   325 |  54.2 |    3 |  91% |
-|        3 | Benjamin Hagmann     | Florida\'s First KidVenture Quizzer\'s (Florida\'s First (605)) |   315 |  52.5 |    2 |  96% |
-|        4 | Logan Vandersteen    | Harvest Team 1 (Harvest Church Lakeland (609))                  |   290 |  48.3 |    1 |  92% |
-|        5 | Noah Perez           | Ocala B (1st AG (305))                                          |   190 |  31.7 |      | 100% |
-|        6 | Zian Stunkard        | Florida\'s First KidVenture Quizzer\'s (Florida\'s First (605)) |   155 |  25.8 |      |  87% |
-|        7 | Tiffany Savarese     | Ocala B (1st AG (305))                                          |   140 |  23.3 |      |  87% |
-|        8 | Sydney Vandersteen   | Harvest Team 1 (Harvest Church Lakeland (609))                  |   110 |  18.3 |      |  80% |
-|        9 | Bella Lozano         | New Life Team B (New Life AG (504))                             |    95 |  15.8 |      |  91% |
-|       10 | Cole Roman           | DeLand 2 (1st AG - DeLand (202) )                               |    65 |  10.8 |      |  75% |
-|       11 | Micah Wayte          | Bible Bubble Busters (City Church (108))                        |    55 |   9.2 |      |  80% |
-| **\*11** | Jaiden Roman-Pacheco | DeLand 2 (1st AG - DeLand (202) )                               |    55 |   9.2 |      |  75% |
-|       12 | Sophia Tepper        | DeLand 2 (1st AG - DeLand (202) )                               |    40 |   6.7 |      | 100% |
-|       13 | Catherine Paisley    | Harvest Team 1 (Harvest Church Lakeland (609))                  |    35 |   5.8 |      |  80% |
-|       14 | Piper Kramper        | Harvest Team 1 (Harvest Church Lakeland (609))                  |    30 |     5 |      | 100% |
-| **\*14** | Unity Buker          | DeLand 2 (1st AG - DeLand (202) )                               |    30 |     5 |      |  99% |
-|       15 | Serenity Root        | Ocala B (1st AG (305))                                          |    20 |   3.3 |      | 100% |
-|       16 | Gabriel Butler       | Harvest Team 1 (Harvest Church Lakeland (609))                  |    10 |   1.7 |      |  99% |
-| **\*16** | Maya Ramos           | Harvest Team 2 (Harvest Church Lakeland (610))                  |    10 |   1.7 |      |  99% |
-| **\*16** | Joshua Parrales      | Ocala B (1st AG (305))                                          |    10 |   1.7 |      |  99% |
-| **\*16** | Ariahna Cornelio     | New Life Team B (New Life AG (504))                             |    10 |   1.7 |      |  99% |
-| **\*16** | Angela Morgan        | New Life Team B (New Life AG (504))                             |    10 |   1.7 |      |  99% |
-|       17 | Mikey Wolf           | Bible Bubble Busters (City Church (108))                        |     5 |    .8 |      |  50% |
-| **\*17** | Jeremiah Mejia       | Harvest Team 2 (Harvest Church Lakeland (610))                  |     5 |    .8 |      |  50% |
-|       18 | Elizabeth Chelbezan  | DeLand 2 (1st AG - DeLand (202) )                               |     0 |       |      |      |
-| **\*18** | Noah Murray          | Florida\'s First KidVenture Quizzer\'s (Florida\'s First (605)) |     0 |       |      |      |
-| **\*18** | Gabrial Murray       | Florida\'s First KidVenture Quizzer\'s (Florida\'s First (605)) |     0 |       |      |      |
-| **\*18** | Joshua Hagmann       | Florida\'s First KidVenture Quizzer\'s (Florida\'s First (605)) |     0 |       |      |      |
-| **\*18** | Samuel Sargent       | Bible Bubble Busters (City Church (108))                        |     0 |       |      |      |
-| **\*18** | Aiden Greaver        | Bible Bubble Busters (City Church (108))                        |     0 |       |      |      |
-| **\*18** | Hannah Lozano        | New Life Team B (New Life AG (504))                             |     0 |       |      |      |
+|        # | Quizzer              | Team                                                         | Total |   Avg |   QO |   Q% |
+| -------: | -------------------- | ------------------------------------------------------------ | ----: | ----: | ---: | ---: |
+|        1 | Isaac Ramos          | Harvest Team 2 (Harvest Church Lakeland (610))               |   615 | 102.5 |    4 |  91% |
+|        2 | Sofia Rovira         | Harvest Team 2 (Harvest Church Lakeland (610))               |   325 |  54.2 |    3 |  91% |
+|        3 | Benjamin Hagmann     | Florida's First KidVenture Quizzer's (Florida's First (605)) |   315 |  52.5 |    2 |  96% |
+|        4 | Logan Vandersteen    | Harvest Team 1 (Harvest Church Lakeland (609))               |   290 |  48.3 |    1 |  92% |
+|        5 | Noah Perez           | Ocala B (1st AG (305))                                       |   190 |  31.7 |      | 100% |
+|        6 | Zian Stunkard        | Florida's First KidVenture Quizzer's (Florida's First (605)) |   155 |  25.8 |      |  87% |
+|        7 | Tiffany Savarese     | Ocala B (1st AG (305))                                       |   140 |  23.3 |      |  87% |
+|        8 | Sydney Vandersteen   | Harvest Team 1 (Harvest Church Lakeland (609))               |   110 |  18.3 |      |  80% |
+|        9 | Bella Lozano         | New Life Team B (New Life AG (504))                          |    95 |  15.8 |      |  91% |
+|       10 | Cole Roman           | DeLand 2 (1st AG - DeLand (202) )                            |    65 |  10.8 |      |  75% |
+|       11 | Micah Wayte          | Bible Bubble Busters (City Church (108))                     |    55 |   9.2 |      |  80% |
+| **\*11** | Jaiden Roman-Pacheco | DeLand 2 (1st AG - DeLand (202) )                            |    55 |   9.2 |      |  75% |
+|       12 | Sophia Tepper        | DeLand 2 (1st AG - DeLand (202) )                            |    40 |   6.7 |      | 100% |
+|       13 | Catherine Paisley    | Harvest Team 1 (Harvest Church Lakeland (609))               |    35 |   5.8 |      |  80% |
+|       14 | Piper Kramper        | Harvest Team 1 (Harvest Church Lakeland (609))               |    30 |     5 |      | 100% |
+| **\*14** | Unity Buker          | DeLand 2 (1st AG - DeLand (202) )                            |    30 |     5 |      |  99% |
+|       15 | Serenity Root        | Ocala B (1st AG (305))                                       |    20 |   3.3 |      | 100% |
+|       16 | Gabriel Butler       | Harvest Team 1 (Harvest Church Lakeland (609))               |    10 |   1.7 |      |  99% |
+| **\*16** | Maya Ramos           | Harvest Team 2 (Harvest Church Lakeland (610))               |    10 |   1.7 |      |  99% |
+| **\*16** | Joshua Parrales      | Ocala B (1st AG (305))                                       |    10 |   1.7 |      |  99% |
+| **\*16** | Ariahna Cornelio     | New Life Team B (New Life AG (504))                          |    10 |   1.7 |      |  99% |
+| **\*16** | Angela Morgan        | New Life Team B (New Life AG (504))                          |    10 |   1.7 |      |  99% |
+|       17 | Mikey Wolf           | Bible Bubble Busters (City Church (108))                     |     5 |    .8 |      |  50% |
+| **\*17** | Jeremiah Mejia       | Harvest Team 2 (Harvest Church Lakeland (610))               |     5 |    .8 |      |  50% |
+|       18 | Elizabeth Chelbezan  | DeLand 2 (1st AG - DeLand (202) )                            |     0 |       |      |      |
+| **\*18** | Noah Murray          | Florida's First KidVenture Quizzer's (Florida's First (605)) |     0 |       |      |      |
+| **\*18** | Gabrial Murray       | Florida's First KidVenture Quizzer's (Florida's First (605)) |     0 |       |      |      |
+| **\*18** | Joshua Hagmann       | Florida's First KidVenture Quizzer's (Florida's First (605)) |     0 |       |      |      |
+| **\*18** | Samuel Sargent       | Bible Bubble Busters (City Church (108))                     |     0 |       |      |      |
+| **\*18** | Aiden Greaver        | Bible Bubble Busters (City Church (108))                     |     0 |       |      |      |
+| **\*18** | Hannah Lozano        | New Life Team B (New Life AG (504))                          |     0 |       |      |      |
 
 
 ## Flight X1
@@ -373,7 +373,7 @@ menubar_toc_static:
 
 |    # | Team                                          | W/L   | Total |   Avg |   QO |   Q% |
 | ---: | --------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
-|  1.0 | God\'s Superheroes (LIFE Church AG)           | 6 / 0 |   695 | 115.8 |    3 |  89% |
+|  1.0 | God's Superheroes (LIFE Church AG)            | 6 / 0 |   695 | 115.8 |    3 |  89% |
 |  2.0 | FCF X division (Freedom Christian Fellowship) | 4 / 2 |   695 | 115.8 |    9 |  90% |
 |  3.0 | Minecraft Warriors JBQ Mode (City Church)     | 2 / 4 |   475 |  79.2 |    2 |  96% |
 |  4.0 | Highpoint Quizzers (Highpoint Church)         | 0 / 6 |   415 |  69.2 |    6 |  97% |
@@ -387,12 +387,12 @@ menubar_toc_static:
 |        1 | Maya Castro       | Highpoint Quizzers (Highpoint Church)         |   415 | 69.2 |    6 |  97% |
 |        2 | Makenna Harder    | FCF X division (Freedom Christian Fellowship) |   395 | 65.8 |    6 |  88% |
 |        3 | Daniella Myers    | FCF X division (Freedom Christian Fellowship) |   285 | 47.5 |    3 |  96% |
-|        4 | Sirayah Williams  | God\'s Superheroes (LIFE Church AG)           |   270 |   45 |    1 | 100% |
+|        4 | Sirayah Williams  | God's Superheroes (LIFE Church AG)            |   270 |   45 |    1 | 100% |
 |        5 | Nathanael Scott   | Minecraft Warriors JBQ Mode (City Church)     |   225 | 37.5 |    2 |  95% |
 |        6 | Daniel Moreno     | Minecraft Warriors JBQ Mode (City Church)     |   205 | 34.2 |      | 100% |
-|        7 | Briella LoGiudice | God\'s Superheroes (LIFE Church AG)           |   185 | 30.8 |    1 |  95% |
-|  **\*7** | Jonathan Williams | God\'s Superheroes (LIFE Church AG)           |   185 | 30.8 |    1 |  75% |
-|        8 | Jessa LoGiudice   | God\'s Superheroes (LIFE Church AG)           |    55 |  9.2 |      |  86% |
+|        7 | Briella LoGiudice | God's Superheroes (LIFE Church AG)            |   185 | 30.8 |    1 |  95% |
+|  **\*7** | Jonathan Williams | God's Superheroes (LIFE Church AG)            |   185 | 30.8 |    1 |  75% |
+|        8 | Jessa LoGiudice   | God's Superheroes (LIFE Church AG)            |    55 |  9.2 |      |  86% |
 |        9 | Ian Scott         | Minecraft Warriors JBQ Mode (City Church)     |    25 |  4.2 |      |  75% |
 |       10 | Zuriel Aponte     | Minecraft Warriors JBQ Mode (City Church)     |    20 |  3.3 |      | 100% |
 |       11 | Parker Cannon     | FCF X division (Freedom Christian Fellowship) |    15 |  2.5 |      |  66% |
@@ -400,7 +400,7 @@ menubar_toc_static:
 | **\*12** | Aliahna Serrano   | Highpoint Quizzers (Highpoint Church)         |     0 |      |      |      |
 | **\*12** | Lucas Serrano     | Highpoint Quizzers (Highpoint Church)         |     0 |      |      |      |
 | **\*12** | Ahnaley Serrano   | Highpoint Quizzers (Highpoint Church)         |     0 |      |      |      |
-| **\*12** | Madison Bowden    | God\'s Superheroes (LIFE Church AG)           |     0 |      |      |      |
+| **\*12** | Madison Bowden    | God's Superheroes (LIFE Church AG)            |     0 |      |      |      |
 
 
 ## Flight X2
@@ -415,7 +415,7 @@ menubar_toc_static:
 |  2.0 | Trinity 1X (Trinity AG)                      | 4 / 1 |   370 |   74 |    4 |  82% |
 |  3.0 | Buzz Lightkids (Christian Life Center)       | 3 / 2 |   380 |   76 |    2 |  83% |
 |  4.0 | Angels Army (Faith AG Orlando)               | 2 / 3 |   320 |   64 |    2 |  73% |
-|  5.0 | Bible Girl\'s (City Church)                  | 1 / 4 |   240 |   48 |      |  82% |
+|  5.0 | Bible Girl's (City Church)                   | 1 / 4 |   240 |   48 |      |  82% |
 |  6.0 | Trinity TCI X (Trinity Church International) | 0 / 5 |    30 |    6 |      | 100% |
 
 ### Individuals
@@ -429,26 +429,26 @@ menubar_toc_static:
 |  **\*2** | Brayden Gracelien   | Buzz Lightkids (Christian Life Center)       |   245 |   49 |    2 |  89% |
 |        3 | Gabe Thompson       | Mighty Mighty Christians (LIFE Church AG)    |   240 |   48 |    2 |  86% |
 |        4 | Kaden Johnson       | Mighty Mighty Christians (LIFE Church AG)    |   200 |   40 |      |  91% |
-|        5 | Alysa Cosat         | Bible Girl\'s (City Church)                  |   145 |   29 |      |  94% |
+|        5 | Alysa Cosat         | Bible Girl's (City Church)                   |   145 |   29 |      |  94% |
 |        6 | Kirra Perry         | Mighty Mighty Christians (LIFE Church AG)    |   110 |   22 |      | 100% |
 |        7 | Gunner Padgett      | Trinity 1X (Trinity AG)                      |    75 |   15 |      |  89% |
 |  **\*7** | Sebastian Jules     | Buzz Lightkids (Christian Life Center)       |    75 |   15 |      |  75% |
-|        8 | Ella Tyminski       | Bible Girl\'s (City Church)                  |    70 |   14 |      |  80% |
+|        8 | Ella Tyminski       | Bible Girl's (City Church)                   |    70 |   14 |      |  80% |
 |        9 | Zoe Dubois          | Angels Army (Faith AG Orlando)               |    65 |   13 |      |  87% |
 |       10 | Pleasant Okoh       | Buzz Lightkids (Christian Life Center)       |    60 |   12 |      |  78% |
 |       11 | Molly Saligan       | Trinity TCI X (Trinity Church International) |    30 |    6 |      | 100% |
 | **\*11** | Sydney Osorto       | Mighty Mighty Christians (LIFE Church AG)    |    30 |    6 |      | 100% |
-| **\*11** | Madi Stewart        | Bible Girl\'s (City Church)                  |    30 |    6 |      | 100% |
+| **\*11** | Madi Stewart        | Bible Girl's (City Church)                   |    30 |    6 |      | 100% |
 |       12 | Lydia Marrero       | Angels Army (Faith AG Orlando)               |    10 |    2 |      |  37% |
-|       13 | Makenzie Hayes      | Bible Girl\'s (City Church)                  |     5 |    1 |      |  50% |
+|       13 | Makenzie Hayes      | Bible Girl's (City Church)                   |     5 |    1 |      |  50% |
 |       14 | Omarie Jordan       | Trinity TCI X (Trinity Church International) |     0 |      |      |      |
 | **\*14** | Eliana Sam          | Trinity 1X (Trinity AG)                      |     0 |      |      |      |
 | **\*14** | Sheliana Sam        | Trinity 1X (Trinity AG)                      |     0 |      |      |      |
 | **\*14** | Isabella Longstreet | Mighty Mighty Christians (LIFE Church AG)    |     0 |      |      |      |
 | **\*14** | David Okoh          | Buzz Lightkids (Christian Life Center)       |     0 |      |      |      |
-| **\*14** | Kenzie Wayte        | Bible Girl\'s (City Church)                  |     0 |      |      |      |
+| **\*14** | Kenzie Wayte        | Bible Girl's (City Church)                   |     0 |      |      |      |
 | **\*14** | Charlie Gomez       | Angels Army (Faith AG Orlando)               |     0 |      |      |      |
 |       15 | Nicholas Low        | Trinity 1X (Trinity AG)                      |    -5 |   -1 |      |      |
 |       16 | Sadie Padgett       | Trinity 1X (Trinity AG)                      |   -10 |   -2 |      |      |
-| **\*16** | Mari Rivera         | Bible Girl\'s (City Church)                  |   -10 |   -2 |      |      |
+| **\*16** | Mari Rivera         | Bible Girl's (City Church)                   |   -10 |   -2 |      |      |
 

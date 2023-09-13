@@ -22,10 +22,10 @@ menubar_toc_static:
 
 ## Individuals
 
-|    # | Quizzer                       | Total |
-| ---: | ----------------------------- | ----: |
-|    1 | Eric Hernando                 |   940 |
-|    2 | Joey Bohanon                  |   930 |
-|    3 | Angela Soemo (Cape Girardeau) |       |
-|    4 | Angela Goodman (Dixon)        |       |
-|    5 | Megan Pincombe                |       |
+|    # | Quizzer        | Team           | Total |
+| ---: | -------------- | -------------- | ----: |
+|    1 | Eric Hernando  |                |   940 |
+|    2 | Joey Bohanon   |                |   930 |
+|    3 | Angela Soemo   | Cape Girardeau |       |
+|    4 | Angela Goodman | Dixon          |       |
+|    5 | Megan Pincombe |                |       |

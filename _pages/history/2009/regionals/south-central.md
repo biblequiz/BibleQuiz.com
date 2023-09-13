@@ -47,7 +47,7 @@ menubar_toc_static:
 |    5 | Hunter Funk       | Glad Tidings A/G, Austin, TX   |  1085 |    8 |   90 |
 |    6 | Daniel Wagner     | Owasso First, Owasso, OK       |   955 |    9 |   80 |
 |    7 | Jesse Wagner      | Owasso First, Owasso, OK       |   925 |    8 |   77 |
-|    8 | Ariel Brookbank   | Overland Park First,           |   905 |    8 |   75 |
+|    8 | Ariel Brookbank   | Overland Park First            |   905 |    8 |   75 |
 |    9 | Ose Omobhude      | Braeswood #2, Houston, TX      |   840 |    8 |   70 |
 |   10 | Chelsea Brookbank | Overland Park First            |   840 |    6 |   70 |
 |   11 | Joshua Echebiri   | Braeswood #1, Houston, TX      |   835 |    7 |   69 |

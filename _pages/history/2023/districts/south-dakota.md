@@ -65,25 +65,21 @@ menubar_toc_static:
 
 *Ties broken by Average Points then by Total Quiz Outs*
 
-|        # | Quizzer         | Team                                                                 | Total |  Avg |   QO |   Q% |
-| -------: | --------------- | -------------------------------------------------------------------- | ----: | ---: | ---: | ---: |
-|        1 | JT Gibbs        | Open Bible Church Rapid City #Champ 1 (Open Bible Church Rapid City) |   655 |  131 |    4 |  96% |
-|        2 | Rylyn Walker    | Bismarck Home Fellowship (Bismarck) #4 (Bismarck Home Fellowship)    |   395 |   79 |    4 |  74% |
-|        3 | Brooks Anderson | Bismarck Home Fellowship (Bismarck) #1 (Bismarck Home Fellowship)    |   345 |   69 |    2 |  78% |
-|        4 | Holden Walker   | Bismarck Home Fellowship (Bismarck) #4 (Bismarck Home Fellowship)    |   145 |   29 |      |  61% |
-|        5 | Ciara Hill      | Open Bible Church Rapid City #Champ 2 (Open Bible Church Rapid City) |   120 |   24 |      |  75% |
-|        6 | Shawn Vogel     | Bismarck Home Fellowship (Bismarck) #2 (Bismarck Home Fellowship)    |   100 |   20 |      |  73% |
-|        7 | Keian Ladd      | Open Bible Church Rapid City #Champ 1 (Open Bible Church Rapid City) |    90 |   18 |      |  75% |
-|        8 | Takayla Kaiser  | Open Bible Church Rapid City #Champ 2 (Open Bible Church Rapid City) |    40 |    8 |      | 100% |
-|        9 | Vanessa Vogel   | Bismarck Home Fellowship (Bismarck) #2 (Bismarck Home Fellowship)    |    30 |    6 |      |  75% |
-|       10 | Lillee Solvie   | Open Bible Church Rapid City #Champ 2 (Open Bible Church Rapid City) |     5 |    1 |      |  40% |
-|       11 | Luke            | Ghost Team of Crete (Bethel Assembly of God)                         |     0 |      |      |      |
-| **\*11** | Mark            | Ghost Team of Crete (Bethel Assembly of God)                         |     0 |      |      |      |
-| **\*11** | Peyton          | Bismarck Home Fellowship (Bismarck) #1 (Bismarck Home Fellowship)    |     0 |      |      |      |
-| **\*11** | Quizzer-3       | Bismarck Home Fellowship (Bismarck) #4 (Bismarck Home Fellowship)    |     0 |      |      |      |
-| **\*11** | Titus           | Ghost Team of Crete (Bethel Assembly of God)                         |     0 |      |      |      |
-|       12 | Noah Ternes     | Bismarck Home Fellowship (Bismarck) #1 (Bismarck Home Fellowship)    |    -5 |   -1 |      |  31% |
-|       13 | Joe Hammer      | Open Bible Church Rapid City #Champ 1 (Open Bible Church Rapid City) |   -10 |   -2 |      |  25% |
+|    # | Quizzer         | Team                                                                 | Total |  Avg |   QO |   Q% |
+| ---: | --------------- | -------------------------------------------------------------------- | ----: | ---: | ---: | ---: |
+|    1 | JT Gibbs        | Open Bible Church Rapid City #Champ 1 (Open Bible Church Rapid City) |   655 |  131 |    4 |  96% |
+|    2 | Rylyn Walker    | Bismarck Home Fellowship (Bismarck) #4 (Bismarck Home Fellowship)    |   395 |   79 |    4 |  74% |
+|    3 | Brooks Anderson | Bismarck Home Fellowship (Bismarck) #1 (Bismarck Home Fellowship)    |   345 |   69 |    2 |  78% |
+|    4 | Holden Walker   | Bismarck Home Fellowship (Bismarck) #4 (Bismarck Home Fellowship)    |   145 |   29 |      |  61% |
+|    5 | Ciara Hill      | Open Bible Church Rapid City #Champ 2 (Open Bible Church Rapid City) |   120 |   24 |      |  75% |
+|    6 | Shawn Vogel     | Bismarck Home Fellowship (Bismarck) #2 (Bismarck Home Fellowship)    |   100 |   20 |      |  73% |
+|    7 | Keian Ladd      | Open Bible Church Rapid City #Champ 1 (Open Bible Church Rapid City) |    90 |   18 |      |  75% |
+|    8 | Takayla Kaiser  | Open Bible Church Rapid City #Champ 2 (Open Bible Church Rapid City) |    40 |    8 |      | 100% |
+|    9 | Vanessa Vogel   | Bismarck Home Fellowship (Bismarck) #2 (Bismarck Home Fellowship)    |    30 |    6 |      |  75% |
+|   10 | Lillee Solvie   | Open Bible Church Rapid City #Champ 2 (Open Bible Church Rapid City) |     5 |    1 |      |  40% |
+|   11 | Peyton          | Bismarck Home Fellowship (Bismarck) #1 (Bismarck Home Fellowship)    |     0 |      |      |      |
+|   12 | Noah Ternes     | Bismarck Home Fellowship (Bismarck) #1 (Bismarck Home Fellowship)    |    -5 |   -1 |      |  31% |
+|   13 | Joe Hammer      | Open Bible Church Rapid City #Champ 1 (Open Bible Church Rapid City) |   -10 |   -2 |      |  25% |
 
 
 ## XP Division

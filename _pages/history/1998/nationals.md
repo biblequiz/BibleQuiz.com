@@ -140,7 +140,7 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 |       68 | Kirk Granberry      | Green's Bayou A/G, Houston, TX       |   155 |   6.74 |        |       |
 |       69 | Michelle Thayer     | Green's Bayou A/G, Houston, TX       |   135 |   5.87 |        |       |
 | **69\*** | Abigail Kish        | First A/G, Warren, OH                |   135 |   5.87 |        |     1 |
-|       71 | Terry Nance Jr.     | Mountain View A/G, Las Vegas, NV     |   130 |   5.65 |        |       |
+|       71 | Terry Nance, Jr.    | Mountain View A/G, Las Vegas, NV     |   130 |   5.65 |        |       |
 |       72 | Megan Miller        | Radiant Church, Colorado Springs, CO |   125 |   5.43 |        |       |
 |       73 | Timothy Sanders     | Racine A/G, Racine, WI               |   120 |   5.22 |        |       |
 |       74 | Will Goble          | Park Crest A/G, Springfield, MO      |   105 |   4.57 |        |       |
@@ -503,7 +503,7 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
     * Jason Martin
     * Nikki Milliron
     * Dave Shim
-    * [name omitted]
+    * \[Name Omitted\]
 * **Round Robin**:
   * Round 1: Won against First A/G, Warren, OH 240 to 45
   * Round 2: Lost to Bethel Temple, Bryan TX -20 to 180

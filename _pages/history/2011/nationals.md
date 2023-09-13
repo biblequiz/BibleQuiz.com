@@ -1103,7 +1103,7 @@ Also, we contested on the second question of a match for validity and the contes
 * **Tournaments attended this year**:
   * [River Classic]({% link _pages/history/2011/tournaments/river-classic.md %})
 * **Favorite non-quiz related moment(s) this year**\
-When we were trying to come up with a name for our team this year and brainstorming different possibilities, we all laughed about one that Bekah came up with and then kept going with more options. After several minutes of further discussion, a few of us said we really liked the one that Bekah had suggested - but none of us could remember it! As hard as we all tried to remember, we couldn't Talk about frustrating! You’d think that quizzers would have a better memory. So our team name became, Why Question Me?
+When we were trying to come up with a name for our team this year and brainstorming different possibilities, we all laughed about one that Bekah came up with and then kept going with more options. After several minutes of further discussion, a few of us said we really liked the one that Bekah had suggested - but none of us could remember it! As hard as we all tried to remember, we couldn't Talk about frustrating! You'd think that quizzers would have a better memory. So our team name became, Why Question Me?
 * **What opportunities has your team had to use Bible Quiz outside of the church?**\
 Just talking with people in our everyday lives about Bible Quiz, it opens up the opportunity to share the Gospel.
 {% endcapture %}

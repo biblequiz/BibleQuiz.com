@@ -92,7 +92,7 @@ menubar_toc_static:
 |    2 | Grapevine, TX        | Abundant Life Church | 4\4 |   675 |  84.38 |
 |    3 | CT Girls             | CT Church            | 4\4 |   425 |  53.13 |
 |    4 | Jacksonville, AR - S | McArthur Church      | 3\5 |   340 |   42.5 |
-|    5 | Harvest #1           | Harvest Chruch - OK  | 2\6 |   165 |  20.63 |
+|    5 | Harvest #1           | Harvest Church - OK  | 2\6 |   165 |  20.63 |
 
 ### Individuals
 
@@ -105,15 +105,15 @@ menubar_toc_static:
 |    3 | Elizabeth Pyle   | CT Girls             | CT Church            |   335 |  41.88 |    2 |
 |    4 | Jason Wisley     | Jacksonville, AR - S | McArthur Church      |   310 |  38.75 |    3 |
 |    5 | Caitlin Cruz     | Grapevine, TX        | Abundant Life Church |   125 |  15.63 |      |
-|    6 | Hannah Berner    | Harvest #1           | Harvest Chruch - OK  |   120 |     15 |      |
+|    6 | Hannah Berner    | Harvest #1           | Harvest Church - OK  |   120 |     15 |      |
 |    7 | Susanna Ferguson | Trinity              | Trinity Church       |   110 |  13.75 |      |
 |    8 | Christa Robbins  | CT Girls             | CT Church            |    80 |     10 |      |
 |    9 | Josh Cruz        | Grapevine, TX        | Abundant Life Church |    50 |   6.25 |      |
 |    9 | Bryson Cobb      | Grapevine, TX        | Abundant Life Church |    50 |   6.25 |      |
 |   10 | Riley Edwards    | Trinity              | Trinity Church       |    35 |   4.38 |      |
 |   10 | Hope Eilts       | Jacksonville, AR - S | McArthur Church      |    35 |   4.38 |      |
-|   11 | Danny Leander    | Harvest #1           | Harvest Chruch - OK  |    25 |   3.13 |      |
-|   12 | Rebekah Byrd     | Harvest #1           | Harvest Chruch - OK  |    20 |    2.5 |      |
+|   11 | Danny Leander    | Harvest #1           | Harvest Church - OK  |    25 |   3.13 |      |
+|   12 | Rebekah Byrd     | Harvest #1           | Harvest Church - OK  |    20 |    2.5 |      |
 |   13 | Anna Kirby       | CT Girls             | CT Church            |    15 |   1.88 |      |
 |   14 | Ciara Cruz       | Grapevine, TX        | Abundant Life Church |       |      0 |      |
 |   14 | Joe Pisenti      | Grapevine, TX        | Abundant Life Church |       |      0 |      |
@@ -176,6 +176,5 @@ menubar_toc_static:
 |   22 | Lovely Thompson  | Muskogee - B Team     | Muskogee 1st Assembly |       |      0 |      |
 |   22 | Johnny Lindner   | Jacksonville, AR - N  | McArthur Church       |       |      0 |      |
 |   22 | Sydney           | CT - Houston, TX      | CT Church             |       |      0 |      |
-|   22 | Quizzer #3       | Sanctuary             | Sanctuary of Praise   |       |      0 |      |
 |   23 | Chris Fenton     | Carrolton, TX         | Victory Assembly      |    -5 |  -0.56 |      |
 |   24 | Jillian Darden   | Harvest #2            | Harvest Church - OK   |   -30 |  -3.33 |      |

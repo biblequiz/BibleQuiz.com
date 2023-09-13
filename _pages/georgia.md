@@ -35,7 +35,7 @@ Doug Black—the coordinator for Georgia—will help you start your own Bible Qu
 
 ### Join the Facebook Group
 
-Connect with parents, coaches, and quizzers across the state of Georgia, all with the same passion of connecting students with God’s Word!
+Connect with parents, coaches, and quizzers across the state of Georgia, all with the same passion of connecting students with God's Word!
 
 It's the easy way to stay up-to-date with schedule changes, see results from meets, and ask questions.
 

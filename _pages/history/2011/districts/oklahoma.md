@@ -99,21 +99,21 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer              | Team                                      | Total |   Avg |   QO |
-| ---: | -------------------- | ----------------------------------------- | ----: | ----: | ---: |
-|    1 | Mary Meddaugh        | Muskogee First                            |   720 |   120 |    6 |
-|    2 | Toshali Nutt         | Muskogee First                            |   365 | 60.83 |    4 |
-|    3 | Emily Urbina         | Five Small Barley Loaves & Two Small Fish |   240 |    40 |    2 |
-|    4 | Kelly Fischer        | Xtreme A-team                             |   210 |    35 |    2 |
-|    5 | Dylan Wills          | Xtreme A-team                             |   210 |    35 |    1 |
-|    6 | Jacob Branda         | Harvest #2                                |    80 | 13.33 |      |
-|    7 | Darby Reeder         | Five Small Barley Loaves & Two Small Fish |    10 |  1.67 |      |
-|    7 | Ethan Bunn           | Five Small Barley Loaves & Two Small Fish |    10 |  1.67 |      |
-|    8 | Janelle Takyi- Micah | Five Small Barley Loaves & Two Small Fish |       |     0 |      |
-|    8 | Joelle Nelson        | Xtreme A-team                             |       |     0 |      |
-|    8 | Blade Nelson         | Xtreme A-team                             |       |     0 |      |
-|    8 | Colton Engleke       | Five Small Barley Loaves & Two Small Fish |       |     0 |      |
-|    8 | Jeremiah Boylan      | Muskogee First                            |       |     0 |      |
-|    8 | Parker Harris        | Muskogee First                            |       |     0 |      |
-|    9 | Matt Garman          | Xtreme A-team                             |    -5 | -0.83 |      |
-|    9 | Bradley Leander      | Harvest #2                                |    -5 | -0.83 |      |
+|    # | Quizzer             | Team                                      | Total |   Avg |   QO |
+| ---: | ------------------- | ----------------------------------------- | ----: | ----: | ---: |
+|    1 | Mary Meddaugh       | Muskogee First                            |   720 |   120 |    6 |
+|    2 | Toshali Nutt        | Muskogee First                            |   365 | 60.83 |    4 |
+|    3 | Emily Urbina        | Five Small Barley Loaves & Two Small Fish |   240 |    40 |    2 |
+|    4 | Kelly Fischer       | Xtreme A-team                             |   210 |    35 |    2 |
+|    5 | Dylan Wills         | Xtreme A-team                             |   210 |    35 |    1 |
+|    6 | Jacob Branda        | Harvest #2                                |    80 | 13.33 |      |
+|    7 | Darby Reeder        | Five Small Barley Loaves & Two Small Fish |    10 |  1.67 |      |
+|    7 | Ethan Bunn          | Five Small Barley Loaves & Two Small Fish |    10 |  1.67 |      |
+|    8 | Janelle Takyi-Micah | Five Small Barley Loaves & Two Small Fish |       |     0 |      |
+|    8 | Joelle Nelson       | Xtreme A-team                             |       |     0 |      |
+|    8 | Blade Nelson        | Xtreme A-team                             |       |     0 |      |
+|    8 | Colton Engleke      | Five Small Barley Loaves & Two Small Fish |       |     0 |      |
+|    8 | Jeremiah Boylan     | Muskogee First                            |       |     0 |      |
+|    8 | Parker Harris       | Muskogee First                            |       |     0 |      |
+|    9 | Matt Garman         | Xtreme A-team                             |    -5 | -0.83 |      |
+|    9 | Bradley Leander     | Harvest #2                                |    -5 | -0.83 |      |

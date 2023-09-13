@@ -59,7 +59,6 @@ menubar_toc_static:
 |   23 | Nathan Kolakaluri     | Reginald            | Bellevue Neighborhood Church |       |    .00 |      |
 |   23 | Rose Matta            | Reginald            | Bellevue Neighborhood Church |       |    .00 |      |
 |   23 | Ryan Matta            | Reginald            | Bellevue Neighborhood Church |       |    .00 |      |
-|   23 | Quizzer-3             | Doughnut Taste      | New Life Church              |       |    .00 |      |
 |   23 | Gideon Jennings       | Doughnut Taste      | New Life Church              |       |    .00 |      |
 |   23 | Sharon Godavarthi     | Squared Swordfish   | Bellevue Neighborhood Church |       |    .00 |      |
 |   23 | Seth Donaldson        | Unknown Males       | Tacoma Life Church           |       |    .00 |      |

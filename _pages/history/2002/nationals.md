@@ -76,7 +76,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 |       15 | Joe Bolognone     | Syracuse, NY         |  1030 |  54.21 |      3 |     2 |
 |       16 | Heather Patterson | Orlando, FL          |   970 |  51.05 |      5 |     1 |
 |       17 | David Herbert Jr. | Allison Park, PA     |   945 |  49.74 |      7 |     3 |
-|       18 | [NAME WITHHELD]   | Colorado Springs, CO |   945 |  49.74 |      3 |     7 |
+|       18 | \[Name Omitted\]  | Colorado Springs, CO |   945 |  49.74 |      3 |     7 |
 |       19 | Amanda Pryor      | Fort Worth, TX       |   940 |  49.47 |      5 |     1 |
 |       20 | Jed Gosnell       | Tacoma, WA           |   925 |  48.68 |        |     1 |
 |       21 | Ricky Haney       | Orange, CA           |   885 |  46.58 |      1 |     1 |
@@ -195,7 +195,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 |       22 | Linden Rost        | DeMotte, IN        |   760 |     40 |      6 |     1 |
 |       23 | Justin Ades        | Jackson, MS        |   740 |  38.95 |      4 |     2 |
 |       24 | Katie Whitehead    | West Lafayette, IN |   735 |  38.68 |      2 |     2 |
-|       25 | Micah van Gorp     | Greeley, CO        |   640 |  33.68 |      1 |     2 |
+|       25 | Micah Van Gorp     | Greeley, CO        |   640 |  33.68 |      1 |     2 |
 |       26 | Collins Lawlor     | Helena, MT         |   525 |  27.63 |      5 |     1 |
 |       27 | Kevin Davis        | Dallas, TX         |   505 |  26.58 |      2 |     2 |
 |       28 | Katie Graham       | Cedar Rapids, IA   |   485 |  25.53 |      3 |     2 |
@@ -207,7 +207,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 |       34 | Bailey Steel       | Toledo, OH         |   380 |     20 |        |     1 |
 |       35 | Nina Eagin         | West Lafayette, IN |   360 |  18.95 |      1 |     1 |
 |       36 | Brandy Steel       | Toledo, OH         |   340 |  17.89 |        |       |
-|       37 | Kari Beth van Gorp | Greeley, CO        |   325 |  17.11 |      6 |     1 |
+|       37 | Kari Van Gorp      | Greeley, CO        |   325 |  17.11 |      6 |     1 |
 |       38 | Daniel Cooper      | Ozark, MO          |   305 |  16.05 |      1 |     1 |
 |       39 | Griff Berg         | Helena, MT         |   295 |  15.53 |      4 |     2 |
 |       40 | Bethany Brodbeck   | Toledo, OH         |   250 |  13.16 |      1 |     2 |
@@ -1756,7 +1756,7 @@ Brianna Grantham
 {% capture image_html %}
 
 *(L-R Front) Ashley Mefford, Molly Pace, Mary Pace, Heather Steiger*\
-*(L-R Back) Ryan Popineau, Janelle Schneider, [NAME WITHHELD], Phil Steiger*
+*(L-R Back) Ryan Popineau, Janelle Schneider, \[Name Omitted\], Phil Steiger*
 
 #### 2nd Place
 
@@ -1767,7 +1767,7 @@ Brianna Grantham
     * Janelle Schneider
     * Ryan Popineau
     * Molly Pace
-    * [NAME WITHHELD]
+    * \[Name Omitted\]
     * Ashley Mefford
 * **Round Robin**:
   * Round 1: Won against Allison Park A/G, Allison Park, PA 205 to 80
@@ -1843,7 +1843,7 @@ Playoff: Won against Christian Chapel, Tulsa, OK
 * **Church**: Two Rivers Fellowship, Greeley, CO
 * **Coaches**: Caleb Van Gorp, Gary Van Gorp (assistant)
 * **Team**:
-    * Kari Beth Van Gorp
+    * Kari Van Gorp
     * Micah Van Gorp
 * **Round Robin**:
   * Round 1: Lost to Calvary A/G, DeMotte, IN -20 to 165

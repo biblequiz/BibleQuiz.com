@@ -274,5 +274,4 @@ menubar_toc_static:
 | **\*21** | Isaiah Rodrequez   | Maple Lane A/G (Deposit-NY)                 |     0 |       |      |      |
 | **\*21** | Alex Mitchell      | Maple Lane A/G (Deposit-NY)                 |     0 |       |      |      |
 | **\*21** | Kassidy Frederick  | Maple Lane A/G (Deposit-NY)                 |     0 |       |      |      |
-| **\*21** | --                 | MCC #3 (Mechanicsville-VA)                  |     0 |       |      |      |
 

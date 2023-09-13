@@ -110,7 +110,7 @@ menubar_toc_static:
 |  2.0 | Carlinville-IL (First Assembly of God) | 9 / 3  |  1460 | 121.7 |    6 |  89% |
 |  3.1 | Dublin-OH (Radiant Life Church)        | 8 / 4  |  1085 |  90.4 |    7 |  81% |
 |  4.1 | Marinette-WI (Calvary Church #2)       | 8 / 4  |   875 |  72.9 |    1 |  70% |
-|  5.0 | Louisville-OH (Buzz\'n Bees)           | 5 / 7  |   395 |  32.9 |    1 |  59% |
+|  5.0 | Louisville-OH (Buzz'n Bees)            | 5 / 7  |   395 |  32.9 |    1 |  59% |
 |  6.0 | Sparta-WI (New Life Assembly)          | 2 / 10 |   245 |  20.4 |      |  62% |
 |  7.0 | Marinette-WI (Calvary Church #3)       | 0 / 12 |   140 |  11.7 |      |  56% |
 
@@ -126,18 +126,18 @@ menubar_toc_static:
 |       4 | Anna Cloninger     | Carlinville-IL (First Assembly of God) |   550 | 45.8 |      | 100% |
 |       5 | Jacey Pathri       | Dublin-OH (Radiant Life Church)        |   495 | 41.3 |    3 |  83% |
 |       6 | Kora Pardee        | Marinette-WI (Calvary Church #2)       |   435 | 36.3 |    1 |  78% |
-|       7 | Landon Hester      | Louisville-OH (Buzz\'n Bees)           |   300 |   25 |    1 |  60% |
+|       7 | Landon Hester      | Louisville-OH (Buzz'n Bees)            |   300 |   25 |    1 |  60% |
 | **\*7** | McKinley Stevens   | Naperville-IL (Calvary Church)         |   300 |   25 |    1 |  58% |
 |       8 | Madison Day        | Marinette-WI (Calvary Church #2)       |   265 | 22.1 |      |  71% |
 |       9 | Caleb Cloninger    | Carlinville-IL (First Assembly of God) |   180 |   15 |      |  92% |
 |      10 | Miguel Vargas      | Marinette-WI (Calvary Church #2)       |   175 | 14.6 |      |  59% |
 |      11 | Amaya Allard       | Sparta-WI (New Life Assembly)          |   170 | 14.2 |      |  65% |
 |      12 | Zoe Thornton       | Marinette-WI (Calvary Church #3)       |   150 | 12.5 |      |  69% |
-|      13 | Caleb Cullins      | Louisville-OH (Buzz\'n Bees)           |   120 |   10 |      |  76% |
+|      13 | Caleb Cullins      | Louisville-OH (Buzz'n Bees)            |   120 |   10 |      |  76% |
 |      14 | Ava Millard        | Sparta-WI (New Life Assembly)          |    70 |  5.8 |      |  58% |
 |      15 | Esther Siony       | Naperville-IL (Calvary Church)         |    45 |  3.8 |      |  57% |
 |      16 | Robson Yoder       | Marinette-WI (Calvary Church #3)       |    10 |   .8 |      |  50% |
 |      17 | MacKenzie Schubert | Sparta-WI (New Life Assembly)          |     5 |   .4 |      |  50% |
 |      18 | Adan Casale        | Marinette-WI (Calvary Church #3)       |   -20 | -1.7 |      |  35% |
-|      19 | Victoria Cullins   | Louisville-OH (Buzz\'n Bees)           |   -25 | -2.1 |      |  29% |
+|      19 | Victoria Cullins   | Louisville-OH (Buzz'n Bees)            |   -25 | -2.1 |      |  29% |
 

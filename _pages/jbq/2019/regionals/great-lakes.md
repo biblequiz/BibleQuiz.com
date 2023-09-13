@@ -37,7 +37,7 @@ menubar_toc_static:
 | 17.0 | Greenwood-IN (BB) (Grace Buzzer Bangers)               | 2 / 17 |  1580 |  83.2 |    9 |  74% |
 | 18.0 | Berea-KY (SS) (Scripture Spies)                        | 2 / 17 |  1535 |  80.8 |    6 |  79% |
 | 19.0 | London-KY (Faith Kids)                                 | 2 / 17 |  1505 |  79.2 |    3 |  80% |
-| 20.0 | Berea-KY (GWL) (God\'s Word Lovers)                    | 1 / 18 |  1325 |  69.7 |    3 |  92% |
+| 20.0 | Berea-KY (GWL) (God's Word Lovers)                     | 1 / 18 |  1325 |  69.7 |    3 |  92% |
 
 ## Individuals
 
@@ -76,7 +76,7 @@ menubar_toc_static:
 |       28 | David Barney         | Shelby Township-MI (HH) (Heavenly Hotpockets)          |   920 |  48.4 |      |  81% |
 |       29 | Devin Welty          | Greenwood-IN (BB) (Grace Buzzer Bangers)               |   900 |  47.4 |    9 |  74% |
 |       30 | Ethan Kihiu          | Indianapolis-IN (Church52 FWC)                         |   900 |  47.4 |    4 |  65% |
-|       31 | Abigail Isaacs       | Berea-KY (GWL) (God\'s Word Lovers)                    |   825 |  43.4 |    3 |  91% |
+|       31 | Abigail Isaacs       | Berea-KY (GWL) (God's Word Lovers)                     |   825 |  43.4 |    3 |  91% |
 |       32 | Aseda Essandoh       | Dublin-OH (Radiant Life Church)                        |   775 |  40.8 |    4 |  68% |
 |       33 | Daima Mashibe        | Georgetown-KY (Truth Seekers)                          |   765 |  40.3 |    2 |  90% |
 |       34 | Soren Pappas         | Dublin-OH (Radiant Life Church)                        |   750 |  39.5 |    1 |  85% |
@@ -98,7 +98,7 @@ menubar_toc_static:
 |       50 | Emeka Ilochonwu      | Rockford-IL (Life Church)                              |   265 |  13.9 |    1 |  84% |
 |       51 | James Barney         | Shelby Township-MI (HH) (Heavenly Hotpockets)          |   265 |  13.9 |      |  74% |
 |       52 | Sally Isaacs         | Berea-KY (SS) (Scripture Spies)                        |   250 |  13.2 |      |  91% |
-|       53 | Ally Mayo            | Berea-KY (GWL) (God\'s Word Lovers)                    |   235 |  12.4 |      |  88% |
+|       53 | Ally Mayo            | Berea-KY (GWL) (God's Word Lovers)                     |   235 |  12.4 |      |  88% |
 |       54 | Tanner Houchens      | London-KY (Faith Kids)                                 |   230 |  12.1 |      |  71% |
 |       55 | Gabriel Parra        | Naperville-IL (D) (Naperville (D))                     |   225 |  11.8 |      |  64% |
 |       56 | Solomon Thang        | Fort Wayne-IN (First Assembly of God)                  |   220 |  11.6 |      |  83% |
@@ -106,12 +106,12 @@ menubar_toc_static:
 | **\*57** | Oye Essandoh         | Dublin-OH (Radiant Life Church)                        |   205 |  10.8 |      |  66% |
 |       58 | David Brunson        | Greenwood-IN (BB) (Grace Buzzer Bangers)               |   200 |  10.5 |      |  74% |
 | **\*58** | Josh Hung            | \*\*Naperville-IL (M) (Naperville (M))                 |   200 |  10.5 |      |  74% |
-|       59 | Isabella Thompson    | Berea-KY (GWL) (God\'s Word Lovers)                    |   185 |   9.7 |      |  94% |
+|       59 | Isabella Thompson    | Berea-KY (GWL) (God's Word Lovers)                     |   185 |   9.7 |      |  94% |
 |       60 | Mariel Parra         | Naperville-IL (S) (Naperville (S))                     |   165 |   8.7 |      |  89% |
 |       61 | Chloe Mayo           | Berea-KY (SS) (Scripture Spies)                        |   140 |   7.4 |      | 100% |
 |       62 | Aubrey Salyer        | Georgetown-KY (Truth Seekers)                          |   100 |   5.3 |      | 100% |
 |       63 | Michael Lian         | Fort Wayne-IN (First Assembly of God)                  |    85 |   4.5 |      |  45% |
-|       64 | Eliza Isaacs         | Berea-KY (GWL) (God\'s Word Lovers)                    |    80 |   4.2 |      | 100% |
+|       64 | Eliza Isaacs         | Berea-KY (GWL) (God's Word Lovers)                     |    80 |   4.2 |      | 100% |
 | **\*64** | Obi Ilochonwu        | Rockford-IL (Life Church)                              |    80 |   4.2 |      |  82% |
 |       65 | Ezekiel Caudill      | Georgetown-KY (Truth Seekers)                          |    75 |   3.9 |      |  75% |
 |       66 | Hadassah Thang       | Fort Wayne-IN (First Assembly of God)                  |    70 |   3.7 |      |  82% |

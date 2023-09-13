@@ -58,20 +58,8 @@ menubar_toc_static:
 |   22 | Jeffrey Hackney   | The Giant Slayers  | The Refuge                     |    20 |   2.00 |      |
 |   23 | Bree Walden       | Fantastic 5        | Evangel Assembly               |    10 |   1.00 |      |
 |   23 | Jessica Britton   | The Giant Slayers  | The Refuge                     |    10 |   1.00 |      |
-|   24 | B Quizzer         | James River Church | James River Church             |       |    .00 |      |
-|   24 | A Quizzer         | James River Church | James River Church             |       |    .00 |      |
-|   24 | B Quizzer         | 360 Quizzers       | Life 360 Church                |       |    .00 |      |
-|   24 | A Quizzer         | Fantastic 5        | Evangel Assembly               |       |    .00 |      |
-|   24 | A Quizzer         | NHF Super Quizzers | New Hope Fellowship: Hillsboro |       |    .00 |      |
-|   24 | B Quizzer         | NHF Super Quizzers | New Hope Fellowship: Hillsboro |       |    .00 |      |
 |   24 | Ally O'Connell    | James River Church | James River Church             |       |    .00 |      |
-|   24 | B Quizzer         | Powdered Donuts    | Central Assembly               |       |    .00 |      |
-|   24 | A Quizzer         | Powdered Donuts    | Central Assembly               |       |    .00 |      |
-|   24 | A Quizzer         | 360 Quizzers       | Life 360 Church                |       |    .00 |      |
-|   24 | B Quizzer         | Fantastic 5        | Evangel Assembly               |       |    .00 |      |
 |   24 | Alex Lawson       | The Giant Slayers  | The Refuge                     |       |    .00 |      |
-|   24 | A Quizzer         | The Giant Slayers  | The Refuge                     |       |    .00 |      |
-|   24 | B Quizzer         | The Giant Slayers  | The Refuge                     |       |    .00 |      |
 
 
 ## A Achiever
@@ -110,14 +98,8 @@ menubar_toc_static:
 |   14 | Leilana Runyan   | Jesus Freaks       | Lebanon First Assembly       |    10 |   1.67 |      |
 |   15 | Jenna Rosen      | Jesus Freaks       | Lebanon First Assembly       |       |    .00 |      |
 |   15 | Bo Rosen         | Jesus Freaks       | Lebanon First Assembly       |       |    .00 |      |
-|   15 | A Quizzer        | Word Warriors      | Sheffield Family Life Center |       |    .00 |      |
-|   15 | B Quizzer        | Word Warriors      | Sheffield Family Life Center |       |    .00 |      |
-|   15 | B Quizzer        | Warriors           | Bethel Assembly of God       |       |    .00 |      |
-|   15 | B Quizzer        | GracePointe Gators | GracePointe Community Church |       |    .00 |      |
-|   15 | A Quizzer        | GracePointe Gators | GracePointe Community Church |       |    .00 |      |
 |   15 | Michaela Bailey  | GracePointe Gators | GracePointe Community Church |       |    .00 |      |
 |   15 | Luke Tally       | Warriors           | Bethel Assembly of God       |       |    .00 |      |
-|   15 | A Quizzer        | Warriors           | Bethel Assembly of God       |       |    .00 |      |
 |   16 | Elijah Rogers    | Jesus Freaks       | Lebanon First Assembly       |    -5 |  -0.83 |      |
 
 
@@ -155,14 +137,7 @@ menubar_toc_static:
 |   12 | Paige Price       | Brighton Super Quizzers | Brighton Assembly     |       |    .00 |      |
 |   12 | M.J. Hawkins      | Desperation Team A      | Desperation Church    |       |    .00 |      |
 |   12 | Daniel Robertson  | Desperation Team A      | Desperation Church    |       |    .00 |      |
-|   12 | A Quizzer         | Brighton Super Quizzers | Brighton Assembly     |       |    .00 |      |
-|   12 | A Quizzer         | Desperation Team A      | Desperation Church    |       |    .00 |      |
-|   12 | B Quizzer         | Desperation Team A      | Desperation Church    |       |    .00 |      |
-|   12 | A Quizzer         | Quizzing Buddies        | Blue Springs          |       |    .00 |      |
-|   12 | B Quizzer         | Brighton Super Quizzers | Brighton Assembly     |       |    .00 |      |
-|   12 | B Quizzer         | That One Team           | Pebble Creek Assembly |       |    .00 |      |
 |   12 | Antoine Johnson   | That One Team           | Pebble Creek Assembly |       |    .00 |      |
-|   12 | A Quizzer         | That One Team           | Pebble Creek Assembly |       |    .00 |      |
 |   13 | Justin Spracklen  | Brighton Super Quizzers | Brighton Assembly     |   -10 |  -1.67 |      |
 |   14 | Abigail Cooke     | That One Team           | Pebble Creek Assembly |    -5 |  -0.83 |      |
 
@@ -196,15 +171,7 @@ menubar_toc_static:
 |    8 | Nate Vast-Binder  | Quizzin Quotin Cardinals-Blazing Swords | West County Assembly of God |    85 |  14.17 |      |
 |    9 | Autumn Morgan     | God Girls                               | Grace Community Church      |    35 |   5.83 |      |
 |   10 | Liam Holt         | Faith Warriors                          | Faith Community Church      |    20 |   3.33 |      |
-|   11 | B Quizzer         | Quizzin Quotin Cardinals-Blazing Swords | West County Assembly of God |       |    .00 |      |
-|   11 | B Quizzer         | God Girls                               | Grace Community Church      |       |    .00 |      |
-|   11 | A Quizzer         | Quizzin Quotin Cardinals-Blazing Swords | West County Assembly of God |       |    .00 |      |
-|   11 | A Quizzer         | Faith Warriors                          | Faith Community Church      |       |    .00 |      |
-|   11 | B Quizzer         | Faith Warriors                          | Faith Community Church      |       |    .00 |      |
-|   11 | A Quizzer         | God Girls                               | Grace Community Church      |       |    .00 |      |
 |   11 | Grace Parks       | God Girls                               | Grace Community Church      |       |    .00 |      |
-|   11 | A Quizzer         | NHF Heaven's Hitters                    | New Hope Fellowship: Fenton |       |    .00 |      |
-|   11 | B Quizzer         | NHF Heaven's Hitters                    | New Hope Fellowship: Fenton |       |    .00 |      |
 
 
 ## B Master
@@ -245,13 +212,8 @@ menubar_toc_static:
 |   16 | A Quizzer        | Lightning Buzzers     | Evangel Assembly   |       |    .00 |      |
 |   16 | Noelle Germany   | James River Church    | James River Church |       |    .00 |      |
 |   16 | Jack Wiebe       | Brighton Quiz Masters | Brighton Assembly  |       |    .00 |      |
-|   16 | A Quizzer        | Brighton Quiz Masters | Brighton Assembly  |       |    .00 |      |
-|   16 | B Quizzer        | Brighton Quiz Masters | Brighton Assembly  |       |    .00 |      |
 |   16 | Drew Cooper      | Brighton Quiz Masters | Brighton Assembly  |       |    .00 |      |
-|   16 | B Quizzer        | Lightning Buzzers     | Evangel Assembly   |       |    .00 |      |
 |   16 | Rileigh Jamison  | James River Church    | James River Church |       |    .00 |      |
-|   16 | A Quizzer        | Cha Cha Cheetahs      | Central Assembly   |       |    .00 |      |
-|   16 | B Quizzer        | Cha Cha Cheetahs      | Central Assembly   |       |    .00 |      |
 
 
 ## B Achiever
@@ -287,21 +249,11 @@ menubar_toc_static:
 |   11 | Drew Schnable      | Faith Fighters             | Faith Community Church      |    30 |  5.00 |      |
 |   12 | Trevor Schnable    | Faith Fighters             | Faith Community Church      |    25 |  4.17 |      |
 |   13 | Emma Hill          | 360 Blues                  | Life 360                    |    20 |  3.33 |      |
-|   14 | A Quizzer          | Knights                    | Bethel Assembly of God      |       |   .00 |      |
 |   14 | Shirah Ramaji      | Lightning - Blazing Swords | West County Assembly of God |       |   .00 |      |
 |   14 | Lance Cooper       | 360 Blues                  | Life 360                    |       |   .00 |      |
-|   14 | B Quizzer          | Knights                    | Bethel Assembly of God      |       |   .00 |      |
 |   14 | McKenna Black      | 360 Blues                  | Life 360                    |       |   .00 |      |
-|   14 | D Quizzer          | 360 Blues                  | Life 360                    |       |   .00 |      |
-|   14 | C Quizzer          | 360 Blues                  | Life 360                    |       |   .00 |      |
-|   14 | A Quizzer          | 360 Blues                  | Life 360                    |       |   .00 |      |
-|   14 | B Quizzer          | 360 Blues                  | Life 360                    |       |   .00 |      |
 |   14 | Nate Moore         | Knights                    | Bethel Assembly of God      |       |   .00 |      |
-|   14 | A Quizzer          | Lightning - Blazing Swords | West County Assembly of God |       |   .00 |      |
-|   14 | B Quizzer          | Lightning - Blazing Swords | West County Assembly of God |       |   .00 |      |
-|   14 | B Quizzer          | Faith Fighters             | Faith Community Church      |       |   .00 |      |
 |   14 | Ben Schamburg      | Faith Fighters             | Faith Community Church      |       |   .00 |      |
-|   14 | A Quizzer          | Faith Fighters             | Faith Community Church      |       |   .00 |      |
 |   15 | Eleanore Newfield  | Faith Fighters             | Faith Community Church      |    -5 | -0.83 |      |
 
 
@@ -335,15 +287,7 @@ menubar_toc_static:
 |    9 | Alexis Robertson | Desperation B Team          | Desperation Church          |    25 |  4.17 |      |
 |   10 | Drew Fite        | Globetrotters               | Pebble Creek Assembly       |    20 |  3.33 |      |
 |   11 | Christine Joseph | Spartans - Blazing Swords   | West County Assembly of God |    10 |  1.67 |      |
-|   12 | B Quizzer        | Desperation B Team          | Desperation Church          |       |   .00 |      |
-|   12 | A Quizzer        | Desperation B Team          | Desperation Church          |       |   .00 |      |
-|   12 | A Quizzer        | Globetrotters               | Pebble Creek Assembly       |       |   .00 |      |
-|   12 | B Quizzer        | Globetrotters               | Pebble Creek Assembly       |       |   .00 |      |
-|   12 | A Quizzer        | Living Water-Blazing Swords | West County Assembly of God |       |   .00 |      |
-|   12 | B Quizzer        | Living Water-Blazing Swords | West County Assembly of God |       |   .00 |      |
-|   12 | B Quizzer        | Spartans - Blazing Swords   | West County Assembly of God |       |   .00 |      |
 |   12 | Dominic Hasty    | Spartans - Blazing Swords   | West County Assembly of God |       |   .00 |      |
-|   12 | A Quizzer        | Spartans - Blazing Swords   | West County Assembly of God |       |   .00 |      |
 |   13 | Isaiah Johnson   | Globetrotters               | Pebble Creek Assembly       |    -5 | -0.83 |      |
 
 
@@ -379,15 +323,7 @@ menubar_toc_static:
 |   11 | Emma Copeland   | Quiz Kids        | Grace Community Church       |    10 |  1.67 |      |
 |   11 | Hannah Scott    | Buzzing Belles   | Sheffield Family Life Center |    10 |  1.67 |      |
 |   12 | Karissa Gibbs   | Quiz Kids        | Grace Community Church       |     5 |   .83 |      |
-|   13 | A Quizzer       | Quiz Kids        | Grace Community Church       |       |   .00 |      |
-|   13 | B Quizzer       | Quiz Kids        | Grace Community Church       |       |   .00 |      |
 |   13 | MaKayla Swales  | NHF God's People | New Hope Fellowship - Fenton |       |   .00 |      |
-|   13 | A Quizzer       | NHF God's People | New Hope Fellowship - Fenton |       |   .00 |      |
-|   13 | B Quizzer       | NHF God's People | New Hope Fellowship - Fenton |       |   .00 |      |
 |   13 | Skylar Morgan   | Quiz Kids        | Grace Community Church       |       |   .00 |      |
-|   13 | B Quizzer       | Buzzer Fingers   | Central Assembly             |       |   .00 |      |
-|   13 | A Quizzer       | Buzzer Fingers   | Central Assembly             |       |   .00 |      |
 |   13 | Faith Scott     | Buzzing Belles   | Sheffield Family Life Center |       |   .00 |      |
-|   13 | A Quizzer       | Buzzing Belles   | Sheffield Family Life Center |       |   .00 |      |
-|   13 | B Quizzer       | Buzzing Belles   | Sheffield Family Life Center |       |   .00 |      |
 

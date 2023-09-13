@@ -25,7 +25,7 @@ menubar_toc_static:
 |  3.0 | Genesis A (Calvary Church)                 | 4 / 2 |  1275 | 212.5 |    7 |  93% |
 |  4.0 | Greater Life (Greater Life)                | 3 / 3 |   730 | 121.6 |    4 |  80% |
 |  5.0 | Wilmington Warriors A (New Hanover Church) | 2 / 4 |   730 | 121.6 |    4 |  73% |
-|  6.0 | Askewville ( )                             | 1 / 5 |   175 |  29.2 |      |  87% |
+|  6.0 | Askewville                                 | 1 / 5 |   175 |  29.2 |      |  87% |
 |  7.0 | Honor Rollers (Tabernacle of Praise)       | 0 / 6 |   205 |  34.2 |      |  75% |
 
 ### Individuals
@@ -53,14 +53,14 @@ menubar_toc_static:
 |       16 | Jordan Gopali      | CICF Children of God ( CICF)               |   125 |  20.8 |      |  93% |
 |       17 | Lilly Wolfe        | Greater Life (Greater Life)                |   115 |  19.2 |      |  69% |
 |       18 | Aena Madhanraj     | CICF Children of God ( CICF)               |   105 |  17.5 |      |  62% |
-|       19 | Savannah Olson     | Askewville ( )                             |    80 |    16 |      |  83% |
-|       20 | Caelyn Pesce       | Askewville ( )                             |    70 |    14 |      | 100% |
+|       19 | Savannah Olson     | Askewville                                 |    80 |    16 |      |  83% |
+|       20 | Caelyn Pesce       | Askewville                                 |    70 |    14 |      | 100% |
 |       21 | Shammah Shepard    | Honor Rollers (Tabernacle of Praise)       |    35 |     7 |      |  80% |
-|       22 | Olivia Bazemore    | Askewville ( )                             |    30 |     6 |      | 100% |
+|       22 | Olivia Bazemore    | Askewville                                 |    30 |     6 |      | 100% |
 |       23 | Elias Villars      | Honor Rollers (Tabernacle of Praise)       |    30 |     5 |      | 100% |
 |       24 | Katherine Harmston | Genesis A (Calvary Church)                 |     0 |       |      |      |
 |       25 | Sara Villars       | Honor Rollers (Tabernacle of Praise)       |    -5 |   -.8 |      |      |
-|       26 | Grace Olson        | Askewville ( )                             |    -5 |    -1 |      |      |
+|       26 | Grace Olson        | Askewville                                 |    -5 |    -1 |      |      |
 
 ## Novice
 
@@ -74,7 +74,7 @@ menubar_toc_static:
 |  2.0 | Genesis B (Calvary Church)  | 4 / 1 |   995 |  199 |    8 |  86% |
 |  3.0 | CICF Team Cross (CICF)      | 4 / 1 |   840 |  168 |    6 |  80% |
 |  4.0 | Rocky Mount B (Rocky Mount) | 2 / 3 |   290 |   58 |    2 |  89% |
-|  5.0 | Team Beekman ( )            | 1 / 4 |   155 |   31 |      |  82% |
+|  5.0 | Team Beekman                | 1 / 4 |   155 |   31 |      |  82% |
 |  6.0 | Greater Life (Greater Life) | 0 / 5 |    95 |   19 |      |  82% |
 
 ### Individuals
@@ -95,16 +95,16 @@ menubar_toc_static:
 |       10 | Sahas Kantimahanti | CICF Team Cross (CICF)      |   110 |   22 |    1 |  92% |
 |       11 | Rafael Gershom     | CICF Royals (CICF)          |   105 |   21 |      |  92% |
 |       12 | Leah Salazar       | Greater Life (Greater Life) |    95 |   19 |      |  89% |
-|       13 | Evie Chin          | Team Beekman ( )            |    90 |   18 |      |  86% |
-|       14 | Lena Chin          | Team Beekman ( )            |    60 |   12 |      | 100% |
+|       13 | Evie Chin          | Team Beekman                |    90 |   18 |      |  86% |
+|       14 | Lena Chin          | Team Beekman                |    60 |   12 |      | 100% |
 |       15 | Josh Winsley       | CICF Team Cross (CICF)      |    50 |   10 |      |  50% |
 |       16 | Simon Hall         | Rocky Mount B (Rocky Mount) |    35 |    7 |      |  80% |
 |       17 | Shravya Maddala    | Genesis B (Calvary Church)  |    20 |    4 |      |  50% |
-|       18 | Lili Wegener       | Team Beekman ( )            |     5 |    1 |      |  50% |
+|       18 | Lili Wegener       | Team Beekman                |     5 |    1 |      |  50% |
 |       19 | Jeremiah Hernandes | Greater Life (Greater Life) |     0 |      |      |  50% |
-| **\*19** | Grace Beekman      | Team Beekman ( )            |     0 |      |      |      |
-| **\*19** | Maddie Beekman     | Team Beekman ( )            |     0 |      |      |      |
-| **\*19** | Sofi Wegener       | Team Beekman ( )            |     0 |      |      |      |
+| **\*19** | Grace Beekman      | Team Beekman                |     0 |      |      |      |
+| **\*19** | Maddie Beekman     | Team Beekman                |     0 |      |      |      |
+| **\*19** | Sofi Wegener       | Team Beekman                |     0 |      |      |      |
 | **\*19** | Faith Jackson      | Rocky Mount B (Rocky Mount) |     0 |      |      |      |
 | **\*19** | Myasia             | Rocky Mount B (Rocky Mount) |     0 |      |      |      |
 | **\*19** | Ryan Michaud       | Greater Life (Greater Life) |     0 |      |      |      |

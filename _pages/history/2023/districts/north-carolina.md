@@ -62,7 +62,6 @@ menubar_toc_static:
 |       5 | Ian McCollum     | Messengers of God (Calvary Church)             |    35 |   5.8 |      |  50% |
 |       6 | Izlia Shepard    | Tabernacle of Praise (Tabernacle of Praise)    |     0 |       |      |      |
 | **\*6** | Leyla Vasquez    | Tabernacle of Praise (Tabernacle of Praise)    |     0 |       |      |      |
-| **\*6** | Quizzer-3        | Greater Life Church - B ( Greater Life Church) |     0 |       |      |      |
 | **\*6** | Jolene Thomas    | CCA-B (Carolina Christian Assembly)            |     0 |       |      |      |
 
 ## C League

@@ -1921,7 +1921,7 @@ Playoff: Lost to First A/G, Lafayette, IN
 {% capture image_html %}
 
 *(L-R Front) Stephen Davis, Jenna Rock, Caitlin Pace*\
-*(L-R Back) Raymond Mefford, [name removed], Andrew LaValley*
+*(L-R Back) Raymond Mefford, \[Name Omitted\], Andrew LaValley*
 
 #### 3rd Place
 

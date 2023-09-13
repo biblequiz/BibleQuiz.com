@@ -100,7 +100,6 @@ menubar_toc_static:
 | **\*14** | Kylie Surface          | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
 | **\*14** | LiviaTate              | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
 | **\*14** | Katlyn Dooley          | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
-| **\*14** | Quizzer-3              | Mountain West (Mountain West)                              |     0 |       |      |      |
 | **\*14** | Joshua Abraham         | Believers (Atlanta Tamil Church)                           |     0 |       |      |      |
 
 
@@ -133,7 +132,7 @@ menubar_toc_static:
 |        5 | Jeffy Joseph      | Chosen Generation (Atlanta Indian Prayer Fellowship) |   100 | 33.3 |      | 100% |
 |        6 | Ethan Cargile     | Servants of the Lord (Trinity Church)                |    95 | 31.7 |      |  89% |
 |        7 | Judy Abraham      | Little Lambs (2) (Calvary Assembly Church of God)    |    90 |   30 |      | 100% |
-|        8 | Sam Heilman ..    | Servants of the Lord (Trinity Church)                |    65 | 21.7 |      |  83% |
+|        8 | Sam Heilman       | Servants of the Lord (Trinity Church)                |    65 | 21.7 |      |  83% |
 |        9 | Luke Heilman      | God's Warriors (Trinity Church)                      |    50 | 16.7 |      |  67% |
 |       10 | Roman             | God's Warriors (Trinity Church)                      |    45 |   15 |      |  58% |
 |       11 | Yallerly Stephens | Stone Edge (Stone Edge)                              |    35 | 11.7 |      |  66% |

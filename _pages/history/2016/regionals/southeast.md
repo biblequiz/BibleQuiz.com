@@ -91,24 +91,24 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer            | Team                 | Church                                         | Total |   Avg |   QO |
-| ---: | ------------------ | -------------------- | ---------------------------------------------- | ----: | ----: | ---: |
-|    1 | Caleb Addis        | The Two              | Victorious Life Church, Wesley Chapel, FL      |   785 | 98.13 |    6 |
-|    2 | Jake Motta         | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |   515 | 64.38 |    5 |
-|    3 | Savannah Robinson  | Greatly Disturbed    | Calvary Church, Greensboro, NC                 |   460 | 57.50 |    4 |
-|    4 | Isabella Brusseau  | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |   330 | 41.25 |    1 |
-|    5 | Esther Olatunji    | The Two              | Victorious Life Church, Wesley Chapel, FL      |   280 | 35.00 |    1 |
-|    6 | Bethany Martin     | Greatly Disturbed    | Calvary Church, Greensboro, NC                 |   215 | 26.88 |      |
-|    7 | Kyndall Cone       | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |   120 | 15.00 |      |
-|    8 | Olivia George      | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |    70 |  8.75 |      |
-|    9 | Xavier Gray        | Snellville Middle    | Evangel Community Church, Snellville, GA       |    35 |  4.38 |      |
-|   10 | Paige Warburton    | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |    30 |  3.75 |      |
-|   10 | Peter Bailey       | Snellville Middle    | Evangel Community Church, Snellville, GA       |    30 |  3.75 |      |
-|   11 | Jamesl Igali       | Snellville Middle    | Evangel Community Church, Snellville, GA       |       |   .00 |      |
-|   11 | Haley Nutt         | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |       |   .00 |      |
-|   11 | Daniel Duve\' Yohn | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |       |   .00 |      |
-|   11 | Jake Arnett        | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |       |   .00 |      |
-|   11 | Sarah DosSantos    | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |       |   .00 |      |
-|   11 | Abigail Bailey     | Snellville Middle    | Evangel Community Church, Snellville, GA       |       |   .00 |      |
-|   11 | Vidal Gonzalez     | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |       |   .00 |      |
-|   12 | Stephen Windom     | Snellville Middle    | Evangel Community Church, Snellville, GA       |    -5 | -0.63 |      |
+|    # | Quizzer           | Team                 | Church                                         | Total |   Avg |   QO |
+| ---: | ----------------- | -------------------- | ---------------------------------------------- | ----: | ----: | ---: |
+|    1 | Caleb Addis       | The Two              | Victorious Life Church, Wesley Chapel, FL      |   785 | 98.13 |    6 |
+|    2 | Jake Motta        | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |   515 | 64.38 |    5 |
+|    3 | Savannah Robinson | Greatly Disturbed    | Calvary Church, Greensboro, NC                 |   460 | 57.50 |    4 |
+|    4 | Isabella Brusseau | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |   330 | 41.25 |    1 |
+|    5 | Esther Olatunji   | The Two              | Victorious Life Church, Wesley Chapel, FL      |   280 | 35.00 |    1 |
+|    6 | Bethany Martin    | Greatly Disturbed    | Calvary Church, Greensboro, NC                 |   215 | 26.88 |      |
+|    7 | Kyndall Cone      | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |   120 | 15.00 |      |
+|    8 | Olivia George     | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |    70 |  8.75 |      |
+|    9 | Xavier Gray       | Snellville Middle    | Evangel Community Church, Snellville, GA       |    35 |  4.38 |      |
+|   10 | Paige Warburton   | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |    30 |  3.75 |      |
+|   10 | Peter Bailey      | Snellville Middle    | Evangel Community Church, Snellville, GA       |    30 |  3.75 |      |
+|   11 | Jamesl Igali      | Snellville Middle    | Evangel Community Church, Snellville, GA       |       |   .00 |      |
+|   11 | Haley Nutt        | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |       |   .00 |      |
+|   11 | Daniel Duve' Yohn | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |       |   .00 |      |
+|   11 | Jake Arnett       | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |       |   .00 |      |
+|   11 | Sarah DosSantos   | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |       |   .00 |      |
+|   11 | Abigail Bailey    | Snellville Middle    | Evangel Community Church, Snellville, GA       |       |   .00 |      |
+|   11 | Vidal Gonzalez    | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |       |   .00 |      |
+|   12 | Stephen Windom    | Snellville Middle    | Evangel Community Church, Snellville, GA       |    -5 | -0.63 |      |

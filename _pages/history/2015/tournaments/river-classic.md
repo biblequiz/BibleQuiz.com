@@ -31,7 +31,7 @@ menubar_toc_static:
 |    9 | Newport Mesa               | Newport Mesa Church            |   6/9 |  2070 | 138.00 |
 |   10 | BNC                        | Bellevue Neighborhood Church   |   6/9 |  1875 | 125.00 |
 |   11 | Phoenix                    | North Valley A/G               |   6/9 |  1615 | 107.67 |
-|   12 | Double-Minded And Unstable | King\'s Chapel                 |  5/10 |  1505 | 100.33 |
+|   12 | Double-Minded And Unstable | King's Chapel                  |  5/10 |  1505 | 100.33 |
 |   13 | The Other Team             | Trinity AG - Georgetown        |  4/11 |  1395 |  93.00 |
 |   14 | CT Church                  | Christian Temple               |  3/12 |   845 |  56.33 |
 |   15 | Well Fed                   | Muskogee First Assembly Of God |  3/12 |   875 |  58.33 |
@@ -59,7 +59,7 @@ menubar_toc_static:
 |   14 | Zach Brookbank      | Evangel                    | Evangel Church                 |   940 |  62.67 |    8 |
 |   15 | Josiah Smith        | Lexington First            | Lexington A/G                  |   920 |  61.33 |   11 |
 |   16 | Leisl Jansen        | Zeal                       | James River Church             |   835 |  55.67 |    4 |
-|   17 | Luna Cooper         | Double-Minded And Unstable | King\'s Chapel                 |   800 |  53.33 |    7 |
+|   17 | Luna Cooper         | Double-Minded And Unstable | King's Chapel                  |   800 |  53.33 |    7 |
 |   18 | E.J. Olsen          | Speed and Finality         | Cedar Park Church              |   755 |  50.33 |    5 |
 |   19 | Jacob Schumacher    | Speed and Finality         | Cedar Park Church              |   745 |  49.67 |    5 |
 |   20 | Jessica Weller      | Bethel A/G                 | Bethel Assembly Of God         |   735 |  49.00 |    6 |
@@ -67,7 +67,7 @@ menubar_toc_static:
 |   22 | David Meddaugh      | Nourishing Sap             | Muskogee First Assembly Of God |   670 |  44.67 |    5 |
 |   23 | Sydny Bettis        | CT Church                  | Christian Temple               |   635 |  42.33 |    5 |
 |   24 | Jed Brookbank       | Evangel                    | Evangel Church                 |   610 |  40.67 |    7 |
-|   25 | Brock Peters        | Double-Minded And Unstable | King\'s Chapel                 |   590 |  39.33 |    5 |
+|   25 | Brock Peters        | Double-Minded And Unstable | King's Chapel                  |   590 |  39.33 |    5 |
 |   26 | John David Sullivan | Trinity                    | Trinity Church - Cedar Hill    |   570 |  38.00 |    5 |
 |   27 | Tirzah Brookbank    | Evangel                    | Evangel Church                 |   530 |  35.33 |    4 |
 |   28 | Josh Dupree         | Newport Mesa               | Newport Mesa Church            |   515 |  34.33 |    4 |
@@ -82,7 +82,7 @@ menubar_toc_static:
 |   37 | Kaelyn Comfort      | BNC                        | Bellevue Neighborhood Church   |   290 |  19.33 |    2 |
 |   38 | Andrew Roach        | CT Church                  | Christian Temple               |   220 |  14.67 |      |
 |   39 | Autumn Deaton       | The Other Team             | Trinity AG - Georgetown        |   175 |  11.67 |      |
-|   40 | Kara Peters         | Double-Minded And Unstable | King\'s Chapel                 |   135 |   9.00 |      |
+|   40 | Kara Peters         | Double-Minded And Unstable | King's Chapel                  |   135 |   9.00 |      |
 |   41 | Josh Fuller         | Fear The Sword             | New Day                        |   120 |   8.00 |      |
 |   42 | Katie Dowers        | The Other Team             | Trinity AG - Georgetown        |   110 |   7.33 |      |
 |   43 | Daniel Gallo        | BNC                        | Bellevue Neighborhood Church   |    95 |   6.33 |      |
@@ -189,7 +189,7 @@ menubar_toc_static:
 |   10 | Gavin Griffith     | Predestined         | James River Church  |   500 |  33.33 |    5 |
 |   11 | Lizzie Kirby       | CT #2               | Christian Temple    |   370 |  24.67 |      |
 |   12 | Davis Garrison     | Predestined         | James River Church  |   215 |  14.33 |    1 |
-|   13 | Ally O\'Connell    | Love in Action      | James River Church  |   150 |  10.00 |      |
+|   13 | Ally O'Connell     | Love in Action      | James River Church  |   150 |  10.00 |      |
 |   14 | Samuel Foley       | Quick To Shed Blood | The Oaks Fellowship |    55 |   3.67 |      |
 |   15 | Karmyn Bartels     | Tabula Rasa         | Life360             |    45 |   3.00 |      |
 |   16 | Darek Graves       | Happy               | James River Church  |       |    .00 |      |

@@ -30,7 +30,7 @@ menubar_toc_static:
 | 10.0 | Akron, OH (Kids on a Mission)                              | 9 / 7  |  2335 | 145.9 |    7 |  78% |
 | 11.0 | Painesville, OH (Truth Defenders)                          | 8 / 8  |  2345 | 146.6 |   11 |  72% |
 | 12.0 | \*\*New Whiteland, IN (B) (Grace Black: Buzzer Bangers)    | 7 / 9  |  2620 | 163.7 |    8 |  78% |
-| 13.0 | East Lansing, MI (Michigan\'s Young Bereans)               | 6 / 10 |  2305 | 144.1 |   12 |  73% |
+| 13.0 | East Lansing, MI (Michigan's Young Bereans)                | 6 / 10 |  2305 | 144.1 |   12 |  73% |
 | 14.0 | Warren, MI (Kingdom Warriors)                              | 5 / 11 |  1830 | 114.4 |    2 |  76% |
 | 15.0 | Fortville, IN (BDK Buzzer Breakers)                        | 4 / 12 |  1645 | 102.8 |    4 |  79% |
 | 16.0 | Ellettsville, IN (FBI Faithful Bible Investigators)        | 1 / 15 |   895 |  55.9 |    1 |  79% |
@@ -54,14 +54,14 @@ menubar_toc_static:
 |       10 | William Okyere       | \*\*New Whiteland, IN (B) (Grace Black: Buzzer Bangers)    |  1345 |  84.1 |    3 |  84% |
 |       11 | Elylah Stager        | Akron, OH (Kids on a Mission)                              |  1260 |  78.8 |    5 |  77% |
 |       12 | Garrett Crescenti    | \*\*Shelby Township, MI (Jedi Knights)                     |  1255 |  78.4 |    4 |  76% |
-|       13 | David Egbendewe      | East Lansing, MI (Michigan\'s Young Bereans)               |  1220 |  76.3 |    4 |  75% |
+|       13 | David Egbendewe      | East Lansing, MI (Michigan's Young Bereans)                |  1220 |  76.3 |    4 |  75% |
 |       14 | Makayla Reyes        | Naperville, IL (C) (Naperville (C))                        |  1010 |  63.1 |   13 |  84% |
 |       15 | Samuel Biruduganti   | Naperville, IL (D) (Naperville (D))                        |   930 |  58.1 |   11 |  84% |
 |       16 | Shaylee Powell       | Naperville, IL (M) (Naperville (M))                        |   905 |  56.6 |   12 |  80% |
 |       17 | Darla Holzhausen     | Fortville, IN (BDK Buzzer Breakers)                        |   855 |  53.4 |      |  92% |
 |       18 | McKinley Stevens     | \*\*Naperville, IL (S) (Naperville (S))                    |   850 |  53.1 |    8 |  77% |
 |       19 | Timothy Samuel       | Warren, MI (Kingdom Warriors)                              |   735 |  45.9 |      |  85% |
-|       20 | Kaden Buher          | East Lansing, MI (Michigan\'s Young Bereans)               |   715 |  44.7 |    8 |  72% |
+|       20 | Kaden Buher          | East Lansing, MI (Michigan's Young Bereans)                |   715 |  44.7 |    8 |  72% |
 |       21 | Caleb Karthik        | \*\*Gahanna, OH (Fluffy Panda Quizzers)                    |   700 |  43.8 |    4 |  74% |
 |       22 | Benjamin Brenda      | Berea, KY (Scripture Spies)                                |   680 |  42.5 |    2 |  85% |
 |       23 | Chloe Eder           | Akron, OH (Kids on a Mission)                              |   645 |  40.3 |    2 |  86% |
@@ -86,7 +86,7 @@ menubar_toc_static:
 |       40 | Konyinsola Sofowora  | Dublin, OH (Radiant Quizzers)                              |   320 |    20 |      | 100% |
 |       41 | Abigail Carlson      | New Whiteland, IN (R) (Grace Red: Pardon the Interruption) |   315 |  19.7 |    3 |  66% |
 |       42 | Daniel Priddy        | New Whiteland, IN (R) (Grace Red: Pardon the Interruption) |   290 |  18.1 |      |  89% |
-|       43 | Angel Egbendewe      | East Lansing, MI (Michigan\'s Young Bereans)               |   280 |  17.5 |      |  74% |
+|       43 | Angel Egbendewe      | East Lansing, MI (Michigan's Young Bereans)                |   280 |  17.5 |      |  74% |
 |       44 | Jacey Pathri         | \*\*Gahanna, OH (Fluffy Panda Quizzers)                    |   220 |  13.8 |    1 |  69% |
 |       45 | Gabriel Parra        | Naperville, IL (C) (Naperville (C))                        |   220 |  13.8 |      |  75% |
 |       46 | Josh Hinson          | Ellettsville, IN (FBI Faithful Bible Investigators)        |   215 |  13.4 |      |  73% |
@@ -100,7 +100,7 @@ menubar_toc_static:
 |       53 | Aseda Essandoh       | Dublin, OH (Radiant Quizzers)                              |   100 |   6.3 |      |  91% |
 |       54 | Mariel Parra         | Naperville, IL (C) (Naperville (C))                        |    70 |   4.4 |      | 100% |
 |       55 | Claire Adkins        | Painesville, OH (Truth Defenders)                          |    60 |   3.8 |      | 100% |
-| **\*55** | Torri Buher          | East Lansing, MI (Michigan\'s Young Bereans)               |    60 |   3.8 |      |  67% |
+| **\*55** | Torri Buher          | East Lansing, MI (Michigan's Young Bereans)                |    60 |   3.8 |      |  67% |
 |       56 | Sam Gastineau        | Ellettsville, IN (FBI Faithful Bible Investigators)        |    50 |   3.1 |      |  61% |
 | **\*56** | Evan Neerudu         | \*\*Gahanna, OH (Fluffy Panda Quizzers)                    |    50 |   3.1 |      |  53% |
 |       57 | Ethan Stager         | Akron, OH (Kids on a Mission)                              |    45 |   2.8 |      |  67% |
@@ -112,7 +112,7 @@ menubar_toc_static:
 | **\*59** | David Mackey         | Akron, OH (Kids on a Mission)                              |    35 |   2.2 |      |  50% |
 |       60 | Joshua Varghese      | Warren, MI (Kingdom Warriors)                              |    30 |   1.9 |      | 100% |
 | **\*60** | Ally Mayo            | Berea, KY (Scripture Spies)                                |    30 |   1.9 |      | 100% |
-| **\*60** | Debora Egbendewe     | East Lansing, MI (Michigan\'s Young Bereans)               |    30 |   1.9 |      |  75% |
+| **\*60** | Debora Egbendewe     | East Lansing, MI (Michigan's Young Bereans)                |    30 |   1.9 |      |  75% |
 |       61 | Samuel Moses         | Warren, MI (Kingdom Warriors)                              |    20 |   1.3 |      | 100% |
 |       62 | Eliza Isaacs         | Berea, KY (Scripture Spies)                                |     0 |       |      |      |
 | **\*62** | Abigail Isaacs       | Berea, KY (Scripture Spies)                                |     0 |       |      |      |

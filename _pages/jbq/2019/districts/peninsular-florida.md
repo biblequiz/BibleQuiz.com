@@ -110,7 +110,7 @@ menubar_toc_static:
 |        5 | noah ringeisen     | Victorious Life Church (Wesley Chapel) #1 (Victorious Life Church)                |   345 |  57.5 |    2 |      |
 |        6 | Ashley Hostetler   | Newbie Quizzers - LIFE Church A/G (FP) (LIFE Church Assembly of God)              |   320 |  53.3 |      |      |
 |        7 | Joseph Bland       | Knights of God (Faith Assembly of God)                                            |   290 |  48.3 |    3 |      |
-|        8 | Marcus Goss Jr     | Bible Bashers of City Church of Orlando (City Church of Orlando)                  |   280 |  46.7 |    1 |      |
+|        8 | Marcus Goss Jr.    | Bible Bashers of City Church of Orlando (City Church of Orlando)                  |   280 |  46.7 |    1 |      |
 |        9 | Daniel Gonzalez    | Holy Gummy Bears (Greeneway Church)                                               |   245 |  40.8 |    2 |      |
 |       10 | Allen Chamberlain  | Knights of God (Faith Assembly of God)                                            |   245 |  40.8 |      |      |
 |       11 | Christian Lamas    | Knights of God (Faith Assembly of God)                                            |   235 |  39.2 |      |      |
@@ -254,55 +254,55 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team                                                                              | W/L   | Total |  Avg |   QO |   Q% |
-| ---: | --------------------------------------------------------------------------------- | ----- | ----: | ---: | ---: | ---: |
-|  1.0 | Oxford - Double Edge #1 (Oxford Assembly of God)                                  | 6 / 0 |   370 | 61.7 |    1 |      |
-|  2.1 | Bethel Temple (Tampa) #2 (Bethel Temple)                                          | 4 / 2 |   270 |   45 |      |      |
-|  3.0 | Trinity Assembly of God (Deltona) #1 (Trinity Assembly of God)                    | 4 / 2 |   550 | 91.7 |    1 |      |
-|  4.1 | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                   | 3 / 3 |   305 | 50.8 |      |      |
-|  5.0 | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)                | 3 / 3 |   335 | 55.8 |      |      |
-|  6.0 | Trinity Church International (Lake Worth) #1 (Trinity Church International)       | 1 / 5 |   230 | 38.3 |      |      |
-|  7.0 | Florida\'s First Assembly of God (Wauchula) #1 (Florida\'s First Assembly of God) | 0 / 6 |    40 |  6.7 |      |      |
+|    # | Team                                                                            | W/L   | Total |  Avg |   QO |   Q% |
+| ---: | ------------------------------------------------------------------------------- | ----- | ----: | ---: | ---: | ---: |
+|  1.0 | Oxford - Double Edge #1 (Oxford Assembly of God)                                | 6 / 0 |   370 | 61.7 |    1 |      |
+|  2.1 | Bethel Temple (Tampa) #2 (Bethel Temple)                                        | 4 / 2 |   270 |   45 |      |      |
+|  3.0 | Trinity Assembly of God (Deltona) #1 (Trinity Assembly of God)                  | 4 / 2 |   550 | 91.7 |    1 |      |
+|  4.1 | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 | 3 / 3 |   305 | 50.8 |      |      |
+|  5.0 | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)              | 3 / 3 |   335 | 55.8 |      |      |
+|  6.0 | Trinity Church International (Lake Worth) #1 (Trinity Church International)     | 1 / 5 |   230 | 38.3 |      |      |
+|  7.0 | Florida's First Assembly of God (Wauchula) #1 (Florida's First Assembly of God) | 0 / 6 |    40 |  6.7 |      |      |
 
 ### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer               | Team                                                                              | Total |  Avg |   QO |   Q% |
-| -------: | --------------------- | --------------------------------------------------------------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Elijah Mendez         | Trinity Assembly of God (Deltona) #1 (Trinity Assembly of God)                    |   260 | 43.3 |    1 |      |
-|        2 | Je\'siah King-Howard  | Trinity Assembly of God (Deltona) #1 (Trinity Assembly of God)                    |   205 | 34.2 |      |      |
-|        3 | Nicholas Rivera       | Oxford - Double Edge #1 (Oxford Assembly of God)                                  |   190 | 31.7 |    1 |      |
-|        4 | Marvens Geffard       | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)                |   175 | 29.2 |      |      |
-|        5 | Piper Kramper         | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                   |   160 | 26.7 |      |      |
-|        6 | Emma Stagg            | Oxford - Double Edge #1 (Oxford Assembly of God)                                  |   150 |   25 |      |      |
-|        7 | Catherine Paisley     | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                   |   130 | 21.7 |      |      |
-|        8 | Samuel Jordan         | Trinity Church International (Lake Worth) #1 (Trinity Church International)       |   100 | 16.7 |      |      |
-|        9 | Pleasant Okoh         | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)                |    95 | 15.8 |      |      |
-|       10 | Joy Love              | Bethel Temple (Tampa) #2 (Bethel Temple)                                          |    90 |   15 |      |      |
-| **\*10** | Antonio Bentivegna    | Bethel Temple (Tampa) #2 (Bethel Temple)                                          |    90 |   15 |      |      |
-|       11 | Gaby Tedeman          | Bethel Temple (Tampa) #2 (Bethel Temple)                                          |    85 | 14.2 |      |      |
-|       12 | Ricardo Rocha         | Trinity Church International (Lake Worth) #1 (Trinity Church International)       |    65 | 10.8 |      |      |
-| **\*12** | Zian Stunkard         | Florida\'s First Assembly of God (Wauchula) #1 (Florida\'s First Assembly of God) |    65 | 10.8 |      |      |
-|       13 | Gabrielle Anderson    | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)                |    50 |  8.3 |      |      |
-|       14 | Joshua Paltrow        | Trinity Assembly of God (Deltona) #1 (Trinity Assembly of God)                    |    45 |  7.5 |      |      |
-| **\*14** | Gael Rocha            | Trinity Church International (Lake Worth) #1 (Trinity Church International)       |    45 |  7.5 |      |      |
-|       15 | Olivia Lugo           | Trinity Assembly of God (Deltona) #1 (Trinity Assembly of God)                    |    40 |  6.7 |      |      |
-|       16 | Aniya Barrett         | Trinity Church International (Lake Worth) #1 (Trinity Church International)       |    25 |  4.2 |      |      |
-|       17 | Emma Strickland       | Oxford - Double Edge #1 (Oxford Assembly of God)                                  |    20 |  3.3 |      |      |
-|       18 | Ashlee Cadet          | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)                |    15 |  2.5 |      |      |
-|       19 | Anna Stagg            | Oxford - Double Edge #1 (Oxford Assembly of God)                                  |    10 |  1.7 |      |      |
-| **\*19** | Braulio Serpa         | Bethel Temple (Tampa) #2 (Bethel Temple)                                          |    10 |  1.7 |      |      |
-| **\*19** | Johnnie Crespo        | Bethel Temple (Tampa) #2 (Bethel Temple)                                          |    10 |  1.7 |      |      |
-| **\*19** | Coralie Catrett       | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                   |    10 |  1.7 |      |      |
-|       20 | Lorelai Moreno        | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                   |     5 |   .8 |      |      |
-|       21 | Zoe Small             | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)                |     0 |      |      |      |
-| **\*21** | Nathaniel Petit-Clair | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)                |     0 |      |      |      |
-| **\*21** | Parker Kramper        | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                   |     0 |      |      |      |
-|       22 | Noah Murray           | Florida\'s First Assembly of God (Wauchula) #1 (Florida\'s First Assembly of God) |    -5 |  -.8 |      |      |
-| **\*22** | Omarie Jordan         | Trinity Church International (Lake Worth) #1 (Trinity Church International)       |    -5 |  -.8 |      |      |
-|       23 | Lyric Tedeman         | Bethel Temple (Tampa) #2 (Bethel Temple)                                          |   -15 | -2.5 |      |      |
-|       24 | Gabriel Murray        | Florida\'s First Assembly of God (Wauchula) #1 (Florida\'s First Assembly of God) |   -20 | -3.3 |      |      |
+|        # | Quizzer               | Team                                                                            | Total |  Avg |   QO |   Q% |
+| -------: | --------------------- | ------------------------------------------------------------------------------- | ----: | ---: | ---: | ---: |
+|        1 | Elijah Mendez         | Trinity Assembly of God (Deltona) #1 (Trinity Assembly of God)                  |   260 | 43.3 |    1 |      |
+|        2 | Je'siah King-Howard   | Trinity Assembly of God (Deltona) #1 (Trinity Assembly of God)                  |   205 | 34.2 |      |      |
+|        3 | Nicholas Rivera       | Oxford - Double Edge #1 (Oxford Assembly of God)                                |   190 | 31.7 |    1 |      |
+|        4 | Marvens Geffard       | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)              |   175 | 29.2 |      |      |
+|        5 | Piper Kramper         | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 |   160 | 26.7 |      |      |
+|        6 | Emma Stagg            | Oxford - Double Edge #1 (Oxford Assembly of God)                                |   150 |   25 |      |      |
+|        7 | Catherine Paisley     | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 |   130 | 21.7 |      |      |
+|        8 | Samuel Jordan         | Trinity Church International (Lake Worth) #1 (Trinity Church International)     |   100 | 16.7 |      |      |
+|        9 | Pleasant Okoh         | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)              |    95 | 15.8 |      |      |
+|       10 | Joy Love              | Bethel Temple (Tampa) #2 (Bethel Temple)                                        |    90 |   15 |      |      |
+| **\*10** | Antonio Bentivegna    | Bethel Temple (Tampa) #2 (Bethel Temple)                                        |    90 |   15 |      |      |
+|       11 | Gaby Tedeman          | Bethel Temple (Tampa) #2 (Bethel Temple)                                        |    85 | 14.2 |      |      |
+|       12 | Ricardo Rocha         | Trinity Church International (Lake Worth) #1 (Trinity Church International)     |    65 | 10.8 |      |      |
+| **\*12** | Zian Stunkard         | Florida's First Assembly of God (Wauchula) #1 (Florida's First Assembly of God) |    65 | 10.8 |      |      |
+|       13 | Gabrielle Anderson    | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)              |    50 |  8.3 |      |      |
+|       14 | Joshua Paltrow        | Trinity Assembly of God (Deltona) #1 (Trinity Assembly of God)                  |    45 |  7.5 |      |      |
+| **\*14** | Gael Rocha            | Trinity Church International (Lake Worth) #1 (Trinity Church International)     |    45 |  7.5 |      |      |
+|       15 | Olivia Lugo           | Trinity Assembly of God (Deltona) #1 (Trinity Assembly of God)                  |    40 |  6.7 |      |      |
+|       16 | Aniya Barrett         | Trinity Church International (Lake Worth) #1 (Trinity Church International)     |    25 |  4.2 |      |      |
+|       17 | Emma Strickland       | Oxford - Double Edge #1 (Oxford Assembly of God)                                |    20 |  3.3 |      |      |
+|       18 | Ashlee Cadet          | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)              |    15 |  2.5 |      |      |
+|       19 | Anna Stagg            | Oxford - Double Edge #1 (Oxford Assembly of God)                                |    10 |  1.7 |      |      |
+| **\*19** | Braulio Serpa         | Bethel Temple (Tampa) #2 (Bethel Temple)                                        |    10 |  1.7 |      |      |
+| **\*19** | Johnnie Crespo        | Bethel Temple (Tampa) #2 (Bethel Temple)                                        |    10 |  1.7 |      |      |
+| **\*19** | Coralie Catrett       | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 |    10 |  1.7 |      |      |
+|       20 | Lorelai Moreno        | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 |     5 |   .8 |      |      |
+|       21 | Zoe Small             | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)              |     0 |      |      |      |
+| **\*21** | Nathaniel Petit-Clair | Christian Life Center (Fort Lauderdale) #2 (Christian Life Center)              |     0 |      |      |      |
+| **\*21** | Parker Kramper        | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 |     0 |      |      |      |
+|       22 | Noah Murray           | Florida's First Assembly of God (Wauchula) #1 (Florida's First Assembly of God) |    -5 |  -.8 |      |      |
+| **\*22** | Omarie Jordan         | Trinity Church International (Lake Worth) #1 (Trinity Church International)     |    -5 |  -.8 |      |      |
+|       23 | Lyric Tedeman         | Bethel Temple (Tampa) #2 (Bethel Temple)                                        |   -15 | -2.5 |      |      |
+|       24 | Gabriel Murray        | Florida's First Assembly of God (Wauchula) #1 (Florida's First Assembly of God) |   -20 | -3.3 |      |      |
 
 
 ## Flight 6
@@ -355,7 +355,7 @@ menubar_toc_static:
 | ---: | --------------------------------------------------------------------- | ----- | ----: | ---: | ---: | ---: |
 |  1.0 | Faithful Four - LIFE Church A/G (FP) (LIFE Church Assembly of God)    | 5 / 0 |   685 |  137 |   10 |      |
 |  2.0 | Mini Holy Gummy bears (Greeneway Church)                              | 4 / 1 |   665 |  133 |    6 |      |
-|  3.0 | God\'s Warriors - LIFE Church A/G (FP) (LIFE Church Assembly of God)  | 3 / 2 |   430 |   86 |    2 |      |
+|  3.0 | God's Warriors - LIFE Church A/G (FP) (LIFE Church Assembly of God)   | 3 / 2 |   430 |   86 |    2 |      |
 |  4.0 | Bible Masters (Faith Assembly of God)                                 | 2 / 3 |   430 |   86 |    6 |      |
 |  5.0 | Warriors for Jesus of City Church of Orlando (City Church of Orlando) | 1 / 4 |   445 |   89 |    5 |      |
 |  6.0 | Christian Life Center (Fort Lauderdale) #3 (Christian Life Center)    | 0 / 5 |   245 |   49 |      |      |
@@ -371,22 +371,22 @@ menubar_toc_static:
 |  **\*1** | Camden Spence     | Bible Masters (Faith Assembly of God)                                 |   350 |   70 |    5 |      |
 |        2 | Gabe Thompson     | Faithful Four - LIFE Church A/G (FP) (LIFE Church Assembly of God)    |   335 |   67 |    5 |      |
 |        3 | Daniel Moreno     | Warriors for Jesus of City Church of Orlando (City Church of Orlando) |   325 |   65 |    4 |      |
-|        4 | Jessa LoGiudice   | God\'s Warriors - LIFE Church A/G (FP) (LIFE Church Assembly of God)  |   260 |   52 |    2 |      |
+|        4 | Jessa LoGiudice   | God's Warriors - LIFE Church A/G (FP) (LIFE Church Assembly of God)   |   260 |   52 |    2 |      |
 |        5 | Adalynn Dubois    | Mini Holy Gummy bears (Greeneway Church)                              |   170 |   34 |    1 |      |
 |        6 | Brayden Gracelien | Christian Life Center (Fort Lauderdale) #3 (Christian Life Center)    |   165 |   33 |      |      |
 |        7 | Zoe Zubois        | Mini Holy Gummy bears (Greeneway Church)                              |   145 |   29 |      |      |
-|        8 | Allison Crouch    | God\'s Warriors - LIFE Church A/G (FP) (LIFE Church Assembly of God)  |   140 |   28 |      |      |
+|        8 | Allison Crouch    | God's Warriors - LIFE Church A/G (FP) (LIFE Church Assembly of God)   |   140 |   28 |      |      |
 |        9 | Makenzie Hayes    | Warriors for Jesus of City Church of Orlando (City Church of Orlando) |   115 |   23 |    1 |      |
 |       10 | Lydia Marrero     | Bible Masters (Faith Assembly of God)                                 |    80 |   16 |    1 |      |
 |       11 | Sebastian Jules   | Christian Life Center (Fort Lauderdale) #3 (Christian Life Center)    |    65 |   13 |      |      |
 |       12 | David Okoh        | Christian Life Center (Fort Lauderdale) #3 (Christian Life Center)    |    30 |    6 |      |      |
-| **\*12** | Dalton Crouch     | God\'s Warriors - LIFE Church A/G (FP) (LIFE Church Assembly of God)  |    30 |    6 |      |      |
+| **\*12** | Dalton Crouch     | God's Warriors - LIFE Church A/G (FP) (LIFE Church Assembly of God)   |    30 |    6 |      |      |
 |       13 | Kenny Batten      | Warriors for Jesus of City Church of Orlando (City Church of Orlando) |    10 |    2 |      |      |
 |       14 | Allen Crouch      | Faithful Four - LIFE Church A/G (FP) (LIFE Church Assembly of God)    |     0 |      |      |      |
 | **\*14** | Madison Bowden    | Faithful Four - LIFE Church A/G (FP) (LIFE Church Assembly of God)    |     0 |      |      |      |
 | **\*14** | Preston Hayes     | Warriors for Jesus of City Church of Orlando (City Church of Orlando) |     0 |      |      |      |
 | **\*14** | Alyssa Cosat      | Warriors for Jesus of City Church of Orlando (City Church of Orlando) |     0 |      |      |      |
-| **\*14** | Hunter Bowden     | God\'s Warriors - LIFE Church A/G (FP) (LIFE Church Assembly of God)  |     0 |      |      |      |
+| **\*14** | Hunter Bowden     | God's Warriors - LIFE Church A/G (FP) (LIFE Church Assembly of God)   |     0 |      |      |      |
 |       15 | Ian Scott         | Warriors for Jesus of City Church of Orlando (City Church of Orlando) |    -5 |   -1 |      |      |
 |       16 | Zion Small        | Christian Life Center (Fort Lauderdale) #3 (Christian Life Center)    |   -15 |   -3 |      |      |
 

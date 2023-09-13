@@ -70,7 +70,7 @@ menubar_toc_static:
 |    5 | A Pair of Pairs! (Harvest Assembly of God)                    | 3 / 4 |  43% |   985 | 140.7 |    5 |  86% |      7 |
 |    6 | Night and Day (Lighthouse Assembly of God)                    | 2 / 5 |  29% |   845 | 120.7 |    8 |  78% |      7 |
 |    7 | Alone in Athens (First Assembly of God)                       | 1 / 6 |  14% |   995 | 142.1 |    8 |  84% |      7 |
-|    8 | Flaming Fire (King\'s Way Assembly of God)                    | 0 / 7 |      |   480 |  68.6 |    1 |  74% |      7 |
+|    8 | Flaming Fire (King's Way Assembly of God)                     | 0 / 7 |      |   480 |  68.6 |    1 |  74% |      7 |
 
 ### Individuals
 
@@ -91,19 +91,16 @@ menubar_toc_static:
 |       11 | Isaac Powell        | Night and Day (Lighthouse Assembly of God)                    |   405 |  57.9 |    4 |  66% |
 |       12 | Lacy Pardee         | A Pair of Pairs! (Harvest Assembly of God)                    |   400 |  57.1 |    1 |  88% |
 |       13 | Hannah Winslow      | A Pair of Pairs! (Harvest Assembly of God)                    |   355 |  50.7 |    3 |  79% |
-|       14 | Josiah Self         | Flaming Fire (King\'s Way Assembly of God)                    |   345 |  49.3 |    1 |  71% |
+|       14 | Josiah Self         | Flaming Fire (King's Way Assembly of God)                     |   345 |  49.3 |    1 |  71% |
 |       15 | Konyinsola Sofowora | The Approved Messengers (Radiant Life Church Assembly of God) |   245 |    35 |    1 |  94% |
 |       16 | Jimmy Lawerence     | A Pair of Pairs! (Harvest Assembly of God)                    |   230 |  32.9 |    1 | 100% |
-|       17 | Jaxon Dickerson     | Flaming Fire (King\'s Way Assembly of God)                    |   130 |  18.6 |      |  80% |
+|       17 | Jaxon Dickerson     | Flaming Fire (King's Way Assembly of God)                     |   130 |  18.6 |      |  80% |
 |       18 | Aseda Essandoh      | The Approved Messengers (Radiant Life Church Assembly of God) |   115 |  16.4 |      |  92% |
-|       19 | Emma                | Flaming Fire (King\'s Way Assembly of God)                    |    10 |   1.4 |      | 100% |
+|       19 | Emma                | Flaming Fire (King's Way Assembly of God)                     |    10 |   1.4 |      | 100% |
 |       20 | Jackson Rakowski    | A Pair of Pairs! (Harvest Assembly of God)                    |     0 |       |      |      |
 | **\*20** | Oye Essandoh        | The Approved Messengers (Radiant Life Church Assembly of God) |     0 |       |      |      |
-| **\*20** | Paz Bermeo          | Flaming Fire (King\'s Way Assembly of God)                    |     0 |       |      |      |
-| **\*20** | Quizzer-1           | Night and Day (Lighthouse Assembly of God)                    |     0 |       |      |      |
-| **\*20** | Quizzer-2           | Night and Day (Lighthouse Assembly of God)                    |     0 |       |      |      |
-| **\*20** | Quizzer-3           | Night and Day (Lighthouse Assembly of God)                    |     0 |       |      |      |
-|       21 | Luci Mjos           | Flaming Fire (King\'s Way Assembly of God)                    |    -5 |   -.7 |      |      |
+| **\*20** | Paz Bermeo          | Flaming Fire (King's Way Assembly of God)                     |     0 |       |      |      |
+|       21 | Luci Mjos           | Flaming Fire (King's Way Assembly of God)                     |    -5 |   -.7 |      |      |
 
 ## XP Top 4
 
@@ -146,7 +143,7 @@ menubar_toc_static:
 |    1 | Alone in Athens (First Assembly of God)    | 2 / 0 | 100% |   355 | 177.5 |    4 |  83% |      2 |
 |    2 | A Pair of Pairs! (Harvest Assembly of God) | 2 / 1 |  67% |   440 | 146.7 |    2 |  85% |      3 |
 |    3 | Night and Day (Lighthouse Assembly of God) | 1 / 1 |  50% |   250 |   125 |    2 |  71% |      2 |
-|    4 | Flaming Fire (King\'s Way Assembly of God) | 0 / 3 |      |    55 |  18.3 |      |  80% |      3 |
+|    4 | Flaming Fire (King's Way Assembly of God)  | 0 / 3 |      |    55 |  18.3 |      |  80% |      3 |
 
 ### Individuals
 
@@ -160,14 +157,11 @@ menubar_toc_static:
 |       4 | Jimmy Lawerence   | A Pair of Pairs! (Harvest Assembly of God) |   200 |  66.7 |    1 |  92% |
 |       5 | Lacy Pardee       | A Pair of Pairs! (Harvest Assembly of God) |   125 |  41.7 |      |  77% |
 |       6 | Hannah Winslow    | A Pair of Pairs! (Harvest Assembly of God) |   115 |  38.3 |    1 |  89% |
-|       7 | Emma              | Flaming Fire (King\'s Way Assembly of God) |    55 |  18.3 |      |  80% |
+|       7 | Emma              | Flaming Fire (King's Way Assembly of God)  |    55 |  18.3 |      |  80% |
 |       8 | Austanne Barney   | Night and Day (Lighthouse Assembly of God) |    35 |  17.5 |      |  56% |
 |       9 | Jackson Rakowski  | A Pair of Pairs! (Harvest Assembly of God) |     0 |       |      |      |
-| **\*9** | Jaxon Dickerson   | Flaming Fire (King\'s Way Assembly of God) |     0 |       |      |      |
-| **\*9** | Josiah Self       | Flaming Fire (King\'s Way Assembly of God) |     0 |       |      |      |
-| **\*9** | Luci Mjos         | Flaming Fire (King\'s Way Assembly of God) |     0 |       |      |      |
-| **\*9** | Paz Bermeo        | Flaming Fire (King\'s Way Assembly of God) |     0 |       |      |      |
-| **\*9** | Quizzer-1         | Night and Day (Lighthouse Assembly of God) |     0 |       |      |      |
-| **\*9** | Quizzer-2         | Night and Day (Lighthouse Assembly of God) |     0 |       |      |      |
-| **\*9** | Quizzer-3         | Night and Day (Lighthouse Assembly of God) |     0 |       |      |      |
+| **\*9** | Jaxon Dickerson   | Flaming Fire (King's Way Assembly of God)  |     0 |       |      |      |
+| **\*9** | Josiah Self       | Flaming Fire (King's Way Assembly of God)  |     0 |       |      |      |
+| **\*9** | Luci Mjos         | Flaming Fire (King's Way Assembly of God)  |     0 |       |      |      |
+| **\*9** | Paz Bermeo        | Flaming Fire (King's Way Assembly of God)  |     0 |       |      |      |
 

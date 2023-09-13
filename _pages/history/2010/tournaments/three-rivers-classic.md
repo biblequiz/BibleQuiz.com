@@ -85,7 +85,7 @@ menubar_toc_static:
 |    2 | Isabelle Stasenko | Southhills (S)   |   765 |    6 |
 |    3 | Colton Bononi     | Journey Church   |   605 |    4 |
 |    4 | Isaac Kandavalli  | Swedesboro       |   595 |    5 |
-|    5 | Connor O’Keefe    | Journey Church   |   515 |    5 |
+|    5 | Connor O'Keefe    | Journey Church   |   515 |    5 |
 |    6 | Chase Hill        | Living Hope      |   515 |    4 |
 |    7 | Jade Ashton       | Allison Park     |   505 |    2 |
 |    8 | Jordan Wiltanger  | Southhills (S)   |   415 |    2 |

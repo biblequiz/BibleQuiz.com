@@ -22,7 +22,7 @@ menubar_toc_static:
 | ---: | ---------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | 05 Springfield, MO (Life 360)                  | 8 / 1 |  2060 | 228.9 |   18 |  82% |
 |  2.0 | 02 Mechanicsville, VA (Mechancisville CC)      | 7 / 2 |  1870 | 207.8 |   15 |  80% |
-|  3.0 | 13 Lee\'s Summitt, MO (Crown Pointe)           | 9 / 0 |  1805 | 200.5 |   16 |  79% |
+|  3.0 | 13 Lee's Summitt, MO (Crown Pointe)            | 9 / 0 |  1805 | 200.5 |   16 |  79% |
 |  4.0 | 10 Utica, NY (Redemmer Church)                 | 7 / 2 |  1730 | 192.2 |   12 |  72% |
 |  5.0 | 01 Tucson, AZ (Victory)                        | 6 / 3 |  1595 | 177.2 |   12 |  84% |
 |  6.0 | 12 Lexington, KY (First A/G)                   | 7 / 2 |  1530 |   170 |    9 |  83% |
@@ -54,7 +54,7 @@ menubar_toc_static:
 |        1 | Zak Kellock         | 01 Tucson, AZ (Victory)                        |  1100 | 122.2 |    8 |  88% |
 |        2 | Josiah Smith        | 12 Lexington, KY (First A/G)                   |  1000 | 111.1 |    8 |  83% |
 |  **\*2** | Cameron Ramsey      | 05 Springfield, MO (Life 360)                  |  1000 | 111.1 |    8 |  83% |
-|        3 | Tirzah Brookbank    | 13 Lee\'s Summitt, MO (Crown Pointe)           |   955 | 106.1 |    8 |  78% |
+|        3 | Tirzah Brookbank    | 13 Lee's Summitt, MO (Crown Pointe)            |   955 | 106.1 |    8 |  78% |
 |  **\*3** | Seth Robertson      | 24 Houston, PA (Central A/G)                   |   955 | 106.1 |    8 |  75% |
 |        4 | Leisl Jansen        | 17 Ozark, MO (James River Church)              |   915 | 101.7 |    8 |  84% |
 |        5 | Katrina Dowdy       | 16 Swedesboro, NJ (Living Hope Worship Center) |   890 |  98.9 |    7 |  80% |
@@ -64,7 +64,7 @@ menubar_toc_static:
 |        9 | Kelise Braithwaite  | 14 Springfield, MO (Evangel Temple)            |   750 |  83.3 |    7 |  73% |
 |       10 | Judah Stevens       | 10 Utica, NY (Redemmer Church)                 |   710 |  78.9 |    6 |  67% |
 |       11 | Darcie Harr         | 07 Ohio/Michigan, OH (OHMI)                    |   700 |  77.8 |    5 |  81% |
-|       12 | Rachel Brookbank    | 13 Lee\'s Summitt, MO (Crown Pointe)           |   685 |  76.1 |    8 |  86% |
+|       12 | Rachel Brookbank    | 13 Lee's Summitt, MO (Crown Pointe)            |   685 |  76.1 |    8 |  86% |
 |       13 | Caedon Hull         | 21 Indianapolis, IN (Lakeview Church)          |   680 |  75.6 |    3 |  83% |
 |       14 | Julia Martello      | 04 Greensboro, NC (Calvary Church)             |   675 |    75 |    5 |  78% |
 | **\*14** | Jackson DeMasi      | 22 Smithtown, NY (Smithown Gospel Tab.)        |   675 |    75 |    5 |  71% |
@@ -100,7 +100,7 @@ menubar_toc_static:
 |       42 | Josh Fuller         | 08 Upper St. Clair, PA (New Day A/G)           |   200 |  22.2 |    1 |  58% |
 |       43 | Rachel Adelmann     | 09 Wyckoff, NJ (Bethany Church)                |   175 |  19.4 |    1 |  57% |
 |       44 | Hannah Facer        | 07 Ohio/Michigan, OH (OHMI)                    |   170 |  18.9 |    1 |  63% |
-|       45 | Josiah Brookbank    | 13 Lee\'s Summitt, MO (Crown Pointe)           |   165 |  18.3 |      |  65% |
+|       45 | Josiah Brookbank    | 13 Lee's Summitt, MO (Crown Pointe)            |   165 |  18.3 |      |  65% |
 |       46 | Christian Stevens   | 10 Utica, NY (Redemmer Church)                 |   160 |  17.8 |    1 |  79% |
 |       47 | Emily Larson        | 11 Allison Park, PA (Allison Park Church)      |   140 |  15.6 |      |  78% |
 |       48 | Pete Spiak          | 11 Allison Park, PA (Allison Park Church)      |   135 |    15 |      |  81% |
@@ -145,7 +145,7 @@ menubar_toc_static:
 |  1.0 | 10 Utica, NY (Redemmer Church)            | 7 / 0 |  1365 |   195 |   11 |  77% |
 |  2.0 | 02 Mechanicsville, VA (Mechancisville CC) | 5 / 2 |  1145 | 163.5 |    8 |  78% |
 |  3.1 | 05 Springfield, MO (Life 360)             | 4 / 3 |  1225 |   175 |   10 |  73% |
-|  4.0 | 13 Lee\'s Summitt, MO (Crown Pointe)      | 4 / 3 |  1035 | 147.8 |    8 |  67% |
+|  4.0 | 13 Lee's Summitt, MO (Crown Pointe)       | 4 / 3 |  1035 | 147.8 |    8 |  67% |
 |  5.1 | 01 Tucson, AZ (Victory)                   | 3 / 4 |  1115 | 159.3 |    8 |  85% |
 |  6.0 | 17 Ozark, MO (James River Church)         | 3 / 4 |   875 |   125 |    7 |  70% |
 |  7.0 | 12 Lexington, KY (First A/G)              | 2 / 5 |   825 | 117.8 |    7 |  69% |
@@ -163,9 +163,9 @@ menubar_toc_static:
 |    4 | Anna Kelly        | 02 Mechanicsville, VA (Mechancisville CC) |   660 | 94.3 |    5 |  79% |
 |    5 | Austin Ramsey     | 05 Springfield, MO (Life 360)             |   600 | 85.7 |    6 |  79% |
 |    6 | Cameron Ramsey    | 05 Springfield, MO (Life 360)             |   535 | 76.4 |    3 |  76% |
-|    7 | Tirzah Brookbank  | 13 Lee\'s Summitt, MO (Crown Pointe)      |   485 | 69.3 |    4 |  63% |
+|    7 | Tirzah Brookbank  | 13 Lee's Summitt, MO (Crown Pointe)       |   485 | 69.3 |    4 |  63% |
 |    8 | Leisl Jansen      | 17 Ozark, MO (James River Church)         |   480 | 68.6 |    3 |  68% |
-|    9 | Rachel Brookbank  | 13 Lee\'s Summitt, MO (Crown Pointe)      |   440 | 62.9 |    4 |  72% |
+|    9 | Rachel Brookbank  | 13 Lee's Summitt, MO (Crown Pointe)       |   440 | 62.9 |    4 |  72% |
 |   10 | Joanne Sinniah    | 17 Ozark, MO (James River Church)         |   395 | 56.4 |    4 |  72% |
 |   11 | Amelia Gephart    | 01 Tucson, AZ (Victory)                   |   380 | 54.3 |    2 |  86% |
 |   12 | Phoebe Hoffman    | 02 Mechanicsville, VA (Mechancisville CC) |   375 | 53.6 |    3 |  81% |
@@ -173,7 +173,7 @@ menubar_toc_static:
 |   14 | Ethan Hoffmann    | 10 Utica, NY (Redemmer Church)            |   315 |   45 |    3 |  78% |
 |   15 | Graham Hoffmann   | 10 Utica, NY (Redemmer Church)            |   305 | 43.6 |    2 |  80% |
 |   16 | Sydney Bollinger  | 06 Sarver, PA (Evangel Heights A/G)       |   270 | 38.6 |    1 |  77% |
-|   17 | Josiah Brookbank  | 13 Lee\'s Summitt, MO (Crown Pointe)      |   115 | 16.4 |      |  64% |
+|   17 | Josiah Brookbank  | 13 Lee's Summitt, MO (Crown Pointe)       |   115 | 16.4 |      |  64% |
 |   18 | Tyler McCracken   | 12 Lexington, KY (First A/G)              |   110 | 15.7 |    1 |  69% |
 |   19 | Madison Steele    | 02 Mechanicsville, VA (Mechancisville CC) |   110 | 15.7 |      |  67% |
 |   20 | Kaitlyn Ramsey    | 05 Springfield, MO (Life 360)             |    90 | 12.9 |    1 |  56% |

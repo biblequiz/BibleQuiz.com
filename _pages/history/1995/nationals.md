@@ -377,7 +377,7 @@ This was the only the second national championship for the Northeast region. The
 * **Pastor**: Don Steiger
 * **Coach**: Phil Steiger
 * **Team**:
-    * (name removed)
+    * \[Name Omitted\]
     * Patrick David
     * Laura Jones
     * Rachel Jones

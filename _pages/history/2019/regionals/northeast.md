@@ -33,7 +33,7 @@ menubar_toc_static:
 | 11.0 | Servants of Christ - Calvary Temple (Wayne, NJ)          | 3 / 10 |   815 |  62.7 |    4 |  77% |
 | 12.0 | Metuchen Assembly of God (Metuchen, NJ)                  | 2 / 11 |   240 |  18.5 |      |  74% |
 | 13.0 | FLASH - River of God Church (Enola, PA)                  | 1 / 12 |    55 |   4.2 |    1 |  45% |
-| 14.0 | IFC ( )                                                  | 0 / 13 |     0 |       |      |      |
+| 14.0 | IFC                                                      | 0 / 13 |     0 |       |      |      |
 
 ### Individuals
 
@@ -83,9 +83,6 @@ menubar_toc_static:
 |       36 | Amala Ezekoye     | FLASH - River of God Church (Enola, PA)                  |    15 |   1.2 |      |  57% |
 | **\*36** | Lydia Dawit       | Power to Demolish - Word of Life AG (Springfield, VA)    |    15 |   1.2 |      |  55% |
 |       37 | Darren Asoppiah   | Metuchen Assembly of God (Metuchen, NJ)                  |     0 |       |      |      |
-| **\*37** | Quizzer-1         | IFC ( )                                                  |     0 |       |      |      |
-| **\*37** | Quizzer-2         | IFC ( )                                                  |     0 |       |      |      |
-| **\*37** | Quizzer-3         | IFC ( )                                                  |     0 |       |      |      |
 | **\*37** | Luke Kelly        | Constantly Running to Asia (MCC) (Mechanicsville, VA)    |     0 |       |      |      |
 |       38 | Colby Heller      | FLASH - River of God Church (Enola, PA)                  |   -20 |  -1.5 |    1 |  34% |
 
@@ -98,7 +95,7 @@ menubar_toc_static:
 |    # | Team                                                 | W/L   | Total |   Avg |   QO |   Q% |
 | ---: | ---------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | Abnormally Born - Praise Church (Garfield, NJ)       | 8 / 1 |  1815 | 201.6 |   14 |  91% |
-|  2.0 | The Lord\'s People - Calvary Temple (Wayne, NJ)      | 7 / 2 |  1665 |   185 |   10 |  78% |
+|  2.0 | The Lord's People - Calvary Temple (Wayne, NJ)       | 7 / 2 |  1665 |   185 |   10 |  78% |
 |  3.0 | Tamil Gospel Church (Monmouth Junction, NJ)          | 7 / 2 |  1630 | 181.1 |   13 |  78% |
 |  4.0 | Webster AG (Webster, NY)                             | 7 / 2 |  1475 | 163.9 |   11 |  79% |
 |  5.1 | We Win! (MCC) (Mechanicsville, VA)                   | 5 / 4 |  1605 | 178.3 |   10 |  84% |
@@ -116,7 +113,7 @@ menubar_toc_static:
 | -------: | ------------------- | ---------------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Ryan Schiebel       | Abnormally Born - Praise Church (Garfield, NJ)       |  1245 | 138.3 |    9 |  94% |
 |        2 | Remiel Brigilin     | Tamil Gospel Church (Monmouth Junction, NJ)          |  1090 | 121.1 |    8 |  88% |
-|        3 | Daniel Gerges       | The Lord\'s People - Calvary Temple (Wayne, NJ)      |  1030 | 114.4 |    7 |  85% |
+|        3 | Daniel Gerges       | The Lord's People - Calvary Temple (Wayne, NJ)       |  1030 | 114.4 |    7 |  85% |
 |        4 | Bethel Dawit        | Ready For Battle - Word of Life AG (Springfield, VA) |   730 |  81.1 |    6 |  75% |
 |        5 | Nick Odle           | Webster AG (Webster, NY)                             |   655 |  72.8 |    5 |  86% |
 |        6 | Joan Mare           | UECF Warriors (Westfield, NJ)                        |   645 |  71.7 |    3 |  89% |
@@ -128,11 +125,11 @@ menubar_toc_static:
 |       12 | Nathaniel Jebaraj   | Tamil Gospel Church (Monmouth Junction, NJ)          |   540 |    60 |    5 |  69% |
 |       13 | Jayda Spencer       | Central AG (Houston, PA)                             |   500 |  55.6 |    2 |  90% |
 |       14 | Angel Walker        | We Win! (MCC) (Mechanicsville, VA)                   |   440 |  48.9 |    2 |  93% |
-|       15 | Joanna Paulraj      | The Lord\'s People - Calvary Temple (Wayne, NJ)      |   405 |    45 |    2 |  90% |
+|       15 | Joanna Paulraj      | The Lord's People - Calvary Temple (Wayne, NJ)       |   405 |    45 |    2 |  90% |
 |       16 | Jonathan Joshua     | Planters Of The Word - Tamil AG (Iselin, NJ)         |   370 |  41.1 |    4 |  68% |
 |       17 | Isabella DiMarco    | Webster AG (Webster, NY)                             |   245 |  27.2 |    2 |  85% |
 |       18 | David Frederick     | Planters Of The Word - Tamil AG (Iselin, NJ)         |   240 |  26.7 |    1 | 100% |
-|       19 | Jonathan Ortiz      | The Lord\'s People - Calvary Temple (Wayne, NJ)      |   230 |  25.6 |    1 |  61% |
+|       19 | Jonathan Ortiz      | The Lord's People - Calvary Temple (Wayne, NJ)       |   230 |  25.6 |    1 |  61% |
 |       20 | Angelica Vellore    | UECF Warriors (Westfield, NJ)                        |   220 |  24.4 |      |  85% |
 |       21 | Samuel Riverson     | Ready For Battle - Word of Life AG (Springfield, VA) |   135 |    15 |    1 |  65% |
 |       22 | Caleb Zimmerman     | The Revolution - Central AG (Cumberland, MD)         |    75 |   8.3 |      |  67% |
@@ -143,6 +140,6 @@ menubar_toc_static:
 | **\*26** | Biniam Mesfin       | Ready For Battle - Word of Life AG (Springfield, VA) |     0 |       |      |      |
 | **\*26** | Micah Kelly         | We Win! (MCC) (Mechanicsville, VA)                   |     0 |       |      |      |
 | **\*26** | Rithika Muthyala    | UECF Warriors (Westfield, NJ)                        |     0 |       |      |      |
-| **\*26** | Efrain Martinez     | The Lord\'s People - Calvary Temple (Wayne, NJ)      |     0 |       |      |      |
+| **\*26** | Efrain Martinez     | The Lord's People - Calvary Temple (Wayne, NJ)       |     0 |       |      |      |
 | **\*26** | Jonathan Winfred    | Planters Of The Word - Tamil AG (Iselin, NJ)         |     0 |       |      |      |
 |       27 | Carolina Arasavilli | UECF Warriors (Westfield, NJ)                        |    -5 |   -.6 |      |      |

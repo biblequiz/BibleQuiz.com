@@ -29,18 +29,20 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer                   | Team         | Total |
-| ---: | ------------------------- | ------------ | ----: |
-|    1 | James Lex                 | Cumming #1   |  1760 |
-|    2 | Hudson Kelley             | Montgomery   |  1640 |
-|    3 | Rebekah Kelly             | Lexington #2 |  1025 |
-|    4 | Sarah Rice                | Cumming #1   |   845 |
-|    5 | Rachel Rice (Friday only) | Cumming #2   |   810 |
-|    6 | Billy Laakkonen           | Lexington #1 |   640 |
-|    7 | David Smith               | Lexington #1 |   640 |
-|    8 | Victoria Kelly            | Lexington #3 |   625 |
-|    9 | Olivia Cox                | Lexington #2 |   560 |
-|   10 | Anna Rice                 | Cumming #1   |   545 |
+|    # | Quizzer         | Team         | Total |
+| ---: | --------------- | ------------ | ----: |
+|    1 | James Lex       | Cumming #1   |  1760 |
+|    2 | Hudson Kelley   | Montgomery   |  1640 |
+|    3 | Rebekah Kelly   | Lexington #2 |  1025 |
+|    4 | Sarah Rice      | Cumming #1   |   845 |
+|    5 | Rachel Rice*    | Cumming #2   |   810 |
+|    6 | Billy Laakkonen | Lexington #1 |   640 |
+|    7 | David Smith     | Lexington #1 |   640 |
+|    8 | Victoria Kelly  | Lexington #3 |   625 |
+|    9 | Olivia Cox      | Lexington #2 |   560 |
+|   10 | Anna Rice       | Cumming #1   |   545 |
+
+\* Friday Only
 
 ## Championship Division II
 

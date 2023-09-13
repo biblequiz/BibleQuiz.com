@@ -104,18 +104,18 @@ spot, thus a team with a 7-2 (2nd place) is ahead of a team with a
 
 ### Top Individuals (61 Quizzers)
 
-|    # | Quizzer            | Team            |    Avg |
-| ---: | ------------------ | --------------- | -----: |
-|    1 | Natalie Liberati   | Bethel Park #2  | 135.00 |
-|    2 | Cara Rozgonyi      | Bethel Park #4  | 115.00 |
-|    3 | Brennen De Fazio   | Hermitage       |  99.09 |
-|    4 | C.J. Barna         | Bethel Park #3  |  98.64 |
-|    5 | Mark James Stasenk | Bethel Park #3  |  96.82 |
-|    6 | Kyle Heyne         | Orlando         |  87.27 |
-|    7 | Meghan Fenton      | Allison Park #6 |  83.18 |
-|    8 | Chris Patterson    | Orlando         |  82.27 |
-|    9 | Isaiah Hunter      | Hermitage       |  70.45 |
-|   10 | Kendra White       | Lexington       |  64.55 |
+|    # | Quizzer             | Team            |    Avg |
+| ---: | ------------------- | --------------- | -----: |
+|    1 | Natalie Liberati    | Bethel Park #2  | 135.00 |
+|    2 | Cara Rozgonyi       | Bethel Park #4  | 115.00 |
+|    3 | Brennen De Fazio    | Hermitage       |  99.09 |
+|    4 | C.J. Barna          | Bethel Park #3  |  98.64 |
+|    5 | Mark James Stasenko | Bethel Park #3  |  96.82 |
+|    6 | Kyle Heyne          | Orlando         |  87.27 |
+|    7 | Meghan Fenton       | Allison Park #6 |  83.18 |
+|    8 | Chris Patterson     | Orlando         |  82.27 |
+|    9 | Isaiah Hunter       | Hermitage       |  70.45 |
+|   10 | Kendra White        | Lexington       |  64.55 |
 
 ## Novice Division
 
