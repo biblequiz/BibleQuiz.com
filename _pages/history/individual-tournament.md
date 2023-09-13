@@ -6,6 +6,8 @@ date: "2020-02-09"
 menubar: menu_history
 ---
 
+The individual tournament was started in 1986. It has changed in format many times. Until 1999, it was a double-elimination tournament. The number of participants changed several times in that period. In 1999, six quizzers competed and the top three moved on. From 2000 on, four quizzers have competed and the top two move on.
+
 | Year | Quizzer              | Church                       | City                  |
 | ---- | -------------------- | ---------------------------- | --------------------- |
 | 2023 | Andrew Pickrell      | Trinity Church               | Cedar Hill, TX        |

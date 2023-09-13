@@ -1,7 +1,8 @@
 jbq:
 - id: 49b66b2a-bf2f-4b08-1cad-08db9c64fc8b
   season: 2024
-  registrationDates: Closes Sep 10, 2023
+  registrationDates: Closed
+  isLive: true
   isVisible: true
   name: 'Tennessee Meet #1 - September 16th'
   scope: region
@@ -11,6 +12,7 @@ jbq:
 - id: 86f74cbd-a8fb-401d-1cab-08db9c64fc8b
   season: 2024
   registrationDates: Closed
+  isLive: true
   isVisible: true
   name: JBQ Kansas City MO Section 2023-2024
   scope: district
@@ -46,16 +48,6 @@ jbq:
   locationName: Owasso 1st Assembly
   locationCity: Owasso, OK
   dates: Oct 7, 2023
-- id: 9bbfd7c0-0f4f-43a8-aab4-08dbafd18f81
-  season: 2024
-  registrationDates: Closes Oct 9, 2023
-  isVisible: true
-  name: October JBQ
-  scope: district
-  scopeLabel: Alabama
-  locationName: Evangel Church
-  locationCity: Montgomery, AL
-  dates: Oct 14, 2023
 - id: 9deb6cbf-3518-4fb6-aab5-08dbafd18f81
   season: 2024
   registrationDates: Closes Oct 9, 2023
@@ -88,7 +80,8 @@ jbq:
 tbq:
 - id: 00cfe723-78b2-4863-1cae-08db9c64fc8b
   season: 2024
-  registrationDates: Closes Sep 10, 2023
+  registrationDates: Closed
+  isLive: true
   isVisible: true
   name: 'Tennessee Meet #1 - September 16th'
   scope: district

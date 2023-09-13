@@ -6,6 +6,9 @@ date: "2020-02-09"
 menubar: menu_history
 ---
 
+The quoting bee was started in 2000. The basic format is that quizzers start in multiple rooms and have a prescribed amount of time to quote a verse given a reference. This continues until two quizzers remain. These quizzers move on to the final round which
+follows the same format. Eventually quizzers have to quote two (or even three) random verses within 15 seconds. Starting in 2003, quizzers whose teams did not make nationals were allowed to participate in this event. In 2005, this was won by one of these quizzers.
+
 | Year | Quizzer              | Church                           | City              |
 | ---- | -------------------- | -------------------------------- | ----------------- |
 | 2023 | Leslie Cowan         | Atlanta Indian Prayer Fellowship | Marietta, GA      |
