@@ -43,9 +43,9 @@ menubar_toc_static:
 |    3 | George Ukomadu      | Braeswood, Houston             |   950 |   63 |
 |    4 | Kevin Davis         | Oak Cliff, Dallas              |   865 |   57 |
 |    5 | Grant Shaefer       | Christian Chapel #1, Tulsa     |   785 |   52 |
-|    6 | Sean McCready       | Christian Chapel #2, Tulsa,OK  |   740 |   49 |
+|    6 | Sean McCready       | Christian Chapel #2, Tulsa, OK |   740 |   49 |
 |    7 | Nathaniel McFarland | Braeswood, Houston, TX         |   660 |   44 |
 |    8 | Dayton Shorter      | Harvest, Ft Worth              |   630 |   42 |
-|    9 | Zach Sullivan       | Harvest Time #1, Midland,      |   550 |   36 |
+|    9 | Zach Sullivan       | Harvest Time #1, Midland, TX   |   550 |   36 |
 |   10 | Tiffany Perez       | Overland Park, KS              |   520 |   34 |
 

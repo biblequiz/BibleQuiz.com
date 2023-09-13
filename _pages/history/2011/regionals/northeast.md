@@ -26,7 +26,7 @@ menubar_toc_static:
 |    6 | Living Hope Worship Center, Swedesb    |    8 |    4 |  1910 |  159 |
 |    7 | Bethlehem Church, Richmond Hill, NY    |    7 |    5 |  1575 |  131 |
 |    8 | Walnut Grove A/G, West Mifflin, PA "B  |    6 |    6 |  1365 |  114 |
-|    9 | Vineyard Haven A/G, Vineyard Haven,    |    4 |    8 |   650 |   54 |
+|    9 | Vineyard Haven A/G, Vineyard Haven     |    4 |    8 |   650 |   54 |
 |   10 | Bethany Church, Wyckoff, NJ            |    3 |    9 |   860 |   72 |
 |   11 | State College A/G, State College, PA " |    2 |   10 |   380 |   32 |
 |   12 | Evangel A/G, Ephrata, PA "Simon Say    |    1 |   11 |   440 |   37 |
@@ -52,7 +52,7 @@ menubar_toc_static:
 |   14 | Rebecca Ford       | Bethlehem Church, Richmond Hill, NY    |   615 |    6 |   51 |
 |   15 | Sam York           | Word of Life, Springfield, VA          |   590 |    5 |   49 |
 |   16 | Christopher Galea  | Praise A/G, Garfield, NJ "Taste Death" |   585 |    6 |   49 |
-|   17 | Kija Nivala        | Vineyard Haven A/G, Vineyard Haven,    |   570 |    4 |   48 |
+|   17 | Kija Nivala        | Vineyard Haven A/G, Vineyard Haven     |   570 |    4 |   48 |
 |   18 | Rachael Singh      | Bethlehem Church, Richmond Hill, NY    |   460 |    1 |   38 |
 |   19 | Caleb Pons         | State College A/G, State College, PA " |   370 |    4 |   31 |
 |   20 | Jonathan Kelly     | Walnut Grove A/G, West Mifflin, PA "B  |   355 |    1 |   30 |
@@ -68,7 +68,7 @@ menubar_toc_static:
 |   30 | Melody Asper       | Evangel A/G, Ephrata, PA "Simon Say    |   145 |    0 |   12 |
 |   31 | Victoria Thee      | Manassas A/G, Manassas, VA             |   140 |    0 |   12 |
 |   32 | Cynthia Earl       | Evangel A/G, Ephrata, PA "Simon Say    |    85 |    0 |    7 |
-|   33 | Benjamin Nivala    | Vineyard Haven A/G, Vineyard Haven,    |    80 |    0 |    7 |
+|   33 | Benjamin Nivala    | Vineyard Haven A/G, Vineyard Haven     |    80 |    0 |    7 |
 |   34 | Kerry O’bannon     | Manassas A/G, Manassas, VA             |    50 |    0 |    4 |
 |   35 | Osasha London      | Full Gospel Church, Livingston, NJ     |    30 |    0 |    3 |
 |   36 | Reyna Martin       | Full Gospel Church, Livingston, NJ     |    30 |    0 |    3 |

@@ -80,7 +80,7 @@ menubar_toc_static:
 |       36 | Tristan Heath        | Lakeville, MN - FBI (Faithful Bible Investigators) (Celebration Church) |   420 |  26.3 |    1 |  56% |
 |       37 | Gregory Beliel       | Des Moines, IA (DW) - The Fantastic Four (First Assembly of God)        |   405 |  25.3 |    2 |  73% |
 |       38 | Jayva McKibben       | Minot, ND - Legacy Kids (First Assembly of God)                         |   405 |  25.3 |      |  76% |
-|       39 | Jose O\'Brien        | Brookfield, WI - Brookfield CSI (Lifeline Church)                       |   335 |  20.9 |    2 |  83% |
+|       39 | Jose O'Brien         | Brookfield, WI - Brookfield CSI (Lifeline Church)                       |   335 |  20.9 |    2 |  83% |
 | **\*39** | Eli Horn             | Brookfield, WI - Brookfield CSI (Lifeline Church)                       |   335 |  20.9 |    2 |  77% |
 |       40 | Brennan Tisdell      | Baxter, MN - Lights Shine Bright (Heritage Assembly of God)             |   315 |  19.7 |    1 |  75% |
 |       41 | Joe Hetrick          | Omaha, NE (DW) - G Force (Glad Tidings Assembly of God)                 |   305 |  19.1 |      |  97% |

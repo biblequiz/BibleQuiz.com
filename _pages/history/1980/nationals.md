@@ -20,7 +20,7 @@ The event was won by Bigelow A/G, Bigelow, AR (pictured) after an unprecedented 
 
 The team from Bigelow A/G, Bigelow, AR was composed entirely of young ladies and their victory was the second consecutive win for the Gulf region and the first (and only to date) win for the state of Arkansas. The Bigelow team had to win it the hard way by first defeating Stone Church, Palos Heights, IL in one playoff while Calvary Temple A/G, Riverside, CA defeated Trinity A/G, Lanham, MD in the other playoff. A final playoff victory over Riverside gave Bigelow the first place trophy.
 
-The top quizzer at the 1980 National Finals was Billy Muniz of Calvary Temple A/G, Riverside, CA. This was a highly contested honor as a mere 70 points separated the top 5 quizzers. Keith Short from Riverside was also among the top 6 as he placed 5th. Sadly, Riverside was unable to win the tournament as they placed second for the third consecutive year and thus became known as one of the greatest teams never to win National Finals.
+The top quizzer at the 1980 National Finals was Billy Muniz (pictured) of Calvary Temple A/G, Riverside, CA. This was a highly contested honor as a mere 70 points separated the top 5 quizzers. Keith Short from Riverside was also among the top 6 as he placed 5th. Sadly, Riverside was unable to win the tournament as they placed second for the third consecutive year and thus became known as one of the greatest teams never to win National Finals.
 
 ## Results
 
@@ -53,14 +53,14 @@ The top quizzer at the 1980 National Finals was Billy Muniz of Calvary Temple A/
 
 ![]({% link assets/1980/BillyTrophy.jpg %})
 
-|    # | Quizzer                | Church                            | Total |   Avg |
-| ---: | ---------------------- | --------------------------------- | ----: | ----: |
-|    1 | Billy Muniz (pictured) | Calvary Temple A/G, Riverside, CA |   590 | 84.29 |
-|    2 | Jeff Wood              | First A/G, Helena, MT             |   585 | 83.57 |
-|    3 | Mark Penney            | Bethel Temple A/G, Tampa, FL      |   575 | 82.14 |
-|    4 | Kevin Vanderplas       | Assembly of God, New Sharon, IA   |   555 | 79.29 |
-|    5 | Keith Short            | Calvary Temple A/G, Riverside, CA |   520 | 74.29 |
-|    6 | Terrie Pope            | College Heights A/G, Bryan, TX    |   420 |    60 |
+|    # | Quizzer          | Church                            | Total |   Avg |
+| ---: | ---------------- | --------------------------------- | ----: | ----: |
+|    1 | Billy Muniz      | Calvary Temple A/G, Riverside, CA |   590 | 84.29 |
+|    2 | Jeff Wood        | First A/G, Helena, MT             |   585 | 83.57 |
+|    3 | Mark Penney      | Bethel Temple A/G, Tampa, FL      |   575 | 82.14 |
+|    4 | Kevin Vanderplas | Assembly of God, New Sharon, IA   |   555 | 79.29 |
+|    5 | Keith Short      | Calvary Temple A/G, Riverside, CA |   520 | 74.29 |
+|    6 | Terrie Pope      | College Heights A/G, Bryan, TX    |   420 |    60 |
 
 ## Teams
 

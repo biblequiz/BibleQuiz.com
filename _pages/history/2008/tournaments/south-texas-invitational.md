@@ -41,37 +41,37 @@ menubar_toc_static:
 
 ### Individuals
 
-| Team                      | Quizzer           | Total |  Avg |   QO |
-| ------------------------- | ----------------- | ----: | ---: | ---: |
-| Owasso First              | Joshua Wagner     |  2115 |  124 |   17 |
-| Orange Hills              | James Pryer       |  2090 |  123 |   17 |
-| Glad Tidings, Austin      | Hunter Funk       |  1705 |  100 |   12 |
-| Christian Chapel,Tulsa    | Alyssa Batchelder |  1610 |   95 |   12 |
-| Oaks Fellowship,Red Oak   | Tiffany Pettis    |  1600 |   94 |   12 |
-| Noble (Whatever is Noble) | Cameron Smith     |  1580 |   93 |   13 |
-| Santa Ana                 | Zach Mang         |  1460 |   86 |   13 |
-| Owasso First              | Daniel Wagner     |  1395 |   82 |   14 |
-| Briargate                 | P. J. Grigg       |  1295 |   76 |    9 |
-| Hosanna, Shreveport       | Sarah Ingerson    |  1220 |   72 |    5 |
-| Tacoma Life Center        | J. P. O'Connor    |  1185 |   70 |   12 |
-| Orange Hills              | Jessica Lynch     |  1160 |   68 |   11 |
-| Owasso First              | Jesse Wagner      |  1110 |   65 |    8 |
-| South Dakota #1           | Esther Nissen     |  1085 |   64 |    7 |
-| Christian T.,Houston      | Adam Forsman      |  1075 |   63 |   10 |
-| Victory                   | Bailey Moellering |   985 |   58 |    6 |
-| Overland Park             | Ariel Brookbank   |   970 |   57 |    8 |
-| Santa Ana                 | Jonathan Barthuly |   895 |   53 |    7 |
-| Faith A/G, West Plains    | Jonathan George   |   895 |   53 |    8 |
-| Orange Hills              | Mary Pryer        |   885 |   52 |    9 |
-| Christian T.,Houston      | Joshua Forsman    |   825 |   49 |    6 |
-| Faith A/G, West Plains    | Joshua George     |   780 |   46 |    5 |
-| Christian Chapel, Tulsa   | Michelle Paulson  |   720 |   42 |    3 |
-| Briargate                 | Michael Rose      |   720 |   42 |    5 |
-| Faith A/G, West Plains    | Karan Bhargava    |   705 |   41 |    3 |
-| Briargate                 | Julianne Kelly    |   685 |   40 |    5 |
-| Overland Park             | Chelsea Brookbank |   665 |   39 |    5 |
-| Briargate #2              | Kellen Hall       |   585 |   34 |    3 |
-| Hosanna, Shreveport       | Andrew Ingerson   |   555 |   33 |    5 |
+| Quizzer           | Team                      | Total |  Avg |   QO |
+| ----------------- | ------------------------- | ----: | ---: | ---: |
+| Joshua Wagner     | Owasso First              |  2115 |  124 |   17 |
+| James Pryer       | Orange Hills              |  2090 |  123 |   17 |
+| Hunter Funk       | Glad Tidings, Austin      |  1705 |  100 |   12 |
+| Alyssa Batchelder | Christian Chapel,Tulsa    |  1610 |   95 |   12 |
+| Tiffany Pettis    | Oaks Fellowship,Red Oak   |  1600 |   94 |   12 |
+| Cameron Smith     | Noble (Whatever is Noble) |  1580 |   93 |   13 |
+| Zach Mang         | Santa Ana                 |  1460 |   86 |   13 |
+| Daniel Wagner     | Owasso First              |  1395 |   82 |   14 |
+| P. J. Grigg       | Briargate                 |  1295 |   76 |    9 |
+| Sarah Ingerson    | Hosanna, Shreveport       |  1220 |   72 |    5 |
+| J. P. O'Connor    | Tacoma Life Center        |  1185 |   70 |   12 |
+| Jessica Lynch     | Orange Hills              |  1160 |   68 |   11 |
+| Jesse Wagner      | Owasso First              |  1110 |   65 |    8 |
+| Esther Nissen     | South Dakota #1           |  1085 |   64 |    7 |
+| Adam Forsman      | Christian T.,Houston      |  1075 |   63 |   10 |
+| Bailey Moellering | Victory                   |   985 |   58 |    6 |
+| Ariel Brookbank   | Overland Park             |   970 |   57 |    8 |
+| Jonathan Barthuly | Santa Ana                 |   895 |   53 |    7 |
+| Jonathan George   | Faith A/G, West Plains    |   895 |   53 |    8 |
+| Mary Pryer        | Orange Hills              |   885 |   52 |    9 |
+| Joshua Forsman    | Christian T.,Houston      |   825 |   49 |    6 |
+| Joshua George     | Faith A/G, West Plains    |   780 |   46 |    5 |
+| Michelle Paulson  | Christian Chapel, Tulsa   |   720 |   42 |    3 |
+| Michael Rose      | Briargate                 |   720 |   42 |    5 |
+| Karan Bhargava    | Faith A/G, West Plains    |   705 |   41 |    3 |
+| Julianne Kelly    | Briargate                 |   685 |   40 |    5 |
+| Chelsea Brookbank | Overland Park             |   665 |   39 |    5 |
+| Kellen Hall       | Briargate #2              |   585 |   34 |    3 |
+| Andrew Ingerson   | Hosanna, Shreveport       |   555 |   33 |    5 |
 
 ## A-2 Division
 
@@ -87,7 +87,7 @@ menubar_toc_static:
 
 ### Individuals
 
-| Team             | Quizzer                | Total |  Avg |   QO |
+| Quizzer          | Team                   | Total |  Avg |   QO |
 | ---------------- | ---------------------- | ----: | ---: | ---: |
 | Micah Samuelson  | Lakeside A/G - OKC     |   880 |  110 |    6 |
 | Joey Urbina      | Lakeside A/G - OKC     |   490 |   61 |    3 |
@@ -112,7 +112,7 @@ menubar_toc_static:
 
 ### Individuals
 
-| Team               | Quizzer                    | Total |  Avg |   QO |
+| Quizzer            | Team                       | Total |  Avg |   QO |
 | ------------------ | -------------------------- | ----: | ---: | ---: |
 | Megan Derenge      | South Dakota #3            |   580 |   97 |    6 |
 | Amie Oss           | Briargate (Fruitful Labor) |   475 |   79 |    4 |

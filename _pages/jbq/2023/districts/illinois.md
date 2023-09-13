@@ -143,7 +143,7 @@ menubar_toc_static:
 | **\*23** | Annabelle Kumah     | Bolingbrook (Living Water Community Church) |     0 |       |      |      |
 | **\*23** | Coltin Specht       | Rock Island (Bethel Assembly of God)        |     0 |       |      |      |
 | **\*23** | Emma Gonzalez       | Naperville (Calvary Church)                 |     0 |       |      |      |
-| **\*23** | Emmy O\'Connell     | Orland Park (L) (The Stone Church)          |     0 |       |      |      |
+| **\*23** | Emmy O'Connell      | Orland Park (L) (The Stone Church)          |     0 |       |      |      |
 | **\*23** | Jahmere Morris      | Bolingbrook (Living Water Community Church) |     0 |       |      |      |
 | **\*23** | Janiyah Mensah      | Rock Island (Bethel Assembly of God)        |     0 |       |      |      |
 | **\*23** | Korbin Specht       | Rock Island (Bethel Assembly of God)        |     0 |       |      |      |

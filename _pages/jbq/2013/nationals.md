@@ -90,7 +90,7 @@ menubar_toc_static:
 |    2 | BC United              | Wyckoff-NJ     | 5/2 |  1175 | 167.86 |
 |    3 | Calvary West           | Sugar Grove-IL | 4/3 |  1210 | 172.86 |
 |    4 | ATC Flames             | Norcross-GA    | 3/3 |  1015 | 169.17 |
-|    5 | God\'s Girlz           | Surprise-AZ    | 3/3 |   835 | 139.17 |
+|    5 | God's Girlz            | Surprise-AZ    | 3/3 |   835 | 139.17 |
 |    6 | DeSoto Doves           | DeSoto-MO      | 2/4 |   865 | 144.17 |
 |    7 | Faithful Falcons       | Austin-TX      | 2/4 |   740 | 123.33 |
 |    8 | Parkway                | Grants Pass-OR | 0/6 |   385 |  64.17 |
@@ -105,13 +105,13 @@ menubar_toc_static:
 |    2 | Mark Grogan               | DeSoto Doves           | DeSoto-MO      |   645 | 107.50 |    3 |
 |    3 | Ezequiel Navarro          | Calvary West           | Sugar Grove-IL |   560 |  80.00 |    2 |
 |    4 | Jonathan Schweitzer       | Calvary West           | Sugar Grove-IL |   540 |  77.14 |    3 |
-|    5 | Faith Brown               | God\'s Girlz           | Surprise-AZ    |   535 |  89.17 |    4 |
+|    5 | Faith Brown               | God's Girlz            | Surprise-AZ    |   535 |  89.17 |    4 |
 |    6 | Ronald George             | ATC Flames             | Norcross-GA    |   515 |  85.83 |    1 |
 |    7 | Josh James                | Faithful Falcons       | Austin-TX      |   485 |  80.83 |    2 |
 |    8 | Emmanuel Joshua Yesudasan | ATC Flames             | Norcross-GA    |   445 |  74.17 |    4 |
 |    9 | Emma Moorman              | BC United              | Wyckoff-NJ     |   390 |  55.71 |    1 |
 |   10 | Cayla Brodeur             | BC United              | Wyckoff-NJ     |   390 |  55.71 |      |
-|   11 | Kenzie Brown              | God\'s Girlz           | Surprise-AZ    |   300 |  50.00 |    1 |
+|   11 | Kenzie Brown              | God's Girlz            | Surprise-AZ    |   300 |  50.00 |    1 |
 |   12 | Emanuel Lewis             | BC United              | Wyckoff-NJ     |   280 |  40.00 |    3 |
 |   13 | Nick Cook                 | Lawson Illuminators #2 | Lawson-MO      |   265 |  44.17 |    3 |
 |   14 | Nicole Kemmer             | Parkway                | Grants Pass-OR |   220 |  36.67 |    1 |
@@ -131,10 +131,10 @@ menubar_toc_static:
 |   27 | Christopher Schweitzer    | Calvary West           | Sugar Grove-IL |       |    .00 |      |
 |   27 | Eleanor Barton            | Calvary West           | Sugar Grove-IL |       |    .00 |      |
 |   27 | Grace Iranloye            | Calvary West           | Sugar Grove-IL |       |    .00 |      |
-|   27 | Faith Blinn               | God\'s Girlz           | Surprise-AZ    |       |    .00 |      |
-|   27 | Ashlyn Pamame             | God\'s Girlz           | Surprise-AZ    |       |    .00 |      |
+|   27 | Faith Blinn               | God's Girlz            | Surprise-AZ    |       |    .00 |      |
+|   27 | Ashlyn Pamame             | God's Girlz            | Surprise-AZ    |       |    .00 |      |
 |   27 | Luciana Salerno           | BC United              | Wyckoff-NJ     |       |    .00 |      |
-|   27 | Keira Pamame              | God\'s Girlz           | Surprise-AZ    |       |    .00 |      |
+|   27 | Keira Pamame              | God's Girlz            | Surprise-AZ    |       |    .00 |      |
 |   27 | Joy Fambrough             | DeSoto Doves           | DeSoto-MO      |       |    .00 |      |
 |   27 | Linda Jawahar             | ATC Flames             | Norcross-GA    |       |    .00 |      |
 |   27 | Hailey Nichol             | DeSoto Doves           | DeSoto-MO      |       |    .00 |      |
@@ -227,7 +227,7 @@ menubar_toc_static:
 |    5 | Thing 1              | St.Cloud-MN       | 4/3   |  1005 | 143.57 |
 |    6 | MCC Etoiles De Bible | Mechanicsville-VA | 3/4   |   795 | 113.57 |
 |    7 | Bellevue Buzzers     | Bellevue-WA       | 2/5   |  1010 | 144.29 |
-|    8 | Flamin\' Hot Buzzers | Albuquerque-NM    | 0 / 7 |   410 |  58.57 |
+|    8 | Flamin' Hot Buzzers  | Albuquerque-NM    | 0 / 7 |   410 |  58.57 |
 
 #### Individuals
 
@@ -254,29 +254,29 @@ menubar_toc_static:
 |   16 | Nathaniel Walker     | MCC Etoiles De Bible | Mechanicsville-VA |   255 |  36.43 |    1 |
 |   17 | Emma Stewart         | Love Boldly          | Tallahassee-FL    |   225 |  32.14 |      |
 |   18 | Isaac Cuevas         | Greensboro - WOW     | Greensboro-NC     |   150 |  21.43 |      |
-|   19 | Braylen Elzy         | Flamin\' Hot Buzzers | Albuquerque-NM    |   135 |  19.29 |      |
+|   19 | Braylen Elzy         | Flamin' Hot Buzzers  | Albuquerque-NM    |   135 |  19.29 |      |
 |   20 | Morgan Peltz         | Thing 1              | St.Cloud-MN       |   120 |  17.14 |      |
-|   20 | Drew Wilson          | Flamin\' Hot Buzzers | Albuquerque-NM    |   120 |  17.14 |      |
+|   20 | Drew Wilson          | Flamin' Hot Buzzers  | Albuquerque-NM    |   120 |  17.14 |      |
 |   21 | Madison Steele       | MCC Etoiles De Bible | Mechanicsville-VA |    95 |  13.57 |    1 |
 |   22 | Mikaela Fielder      | Love Boldly          | Tallahassee-FL    |    90 |  12.86 |      |
 |   23 | Justice Schwickerath | MCC Etoiles De Bible | Mechanicsville-VA |    80 |  11.43 |      |
 |   24 | Sophia Whitfield     | MCC Etoiles De Bible | Mechanicsville-VA |    75 |  10.71 |      |
 |   25 | Matthew Baloga       | Greensboro - WOW     | Greensboro-NC     |    70 |  10.00 |      |
 |   26 | Isaiah Smith         | Juicy Fruit Ninjas   | Branson-MO        |    65 |   9.29 |      |
-|   26 | Gabriel Gonzales     | Flamin\' Hot Buzzers | Albuquerque-NM    |    65 |   9.29 |      |
+|   26 | Gabriel Gonzales     | Flamin' Hot Buzzers  | Albuquerque-NM    |    65 |   9.29 |      |
 |   27 | Alex McCollum        | Greensboro - WOW     | Greensboro-NC     |    60 |   8.57 |      |
-|   27 | Mandy Rydeski        | Flamin\' Hot Buzzers | Albuquerque-NM    |    60 |   8.57 |      |
+|   27 | Mandy Rydeski        | Flamin' Hot Buzzers  | Albuquerque-NM    |    60 |   8.57 |      |
 |   28 | Noah Gallo           | Bellevue Buzzers     | Bellevue-WA       |    45 |   6.43 |      |
 |   29 | Mervin wallace       | Love Boldly          | Tallahassee-FL    |    35 |   5.00 |      |
 |   29 | Nicola Betz          | Quiz Commanders      | Yorkville-IL      |    35 |   5.00 |      |
 |   30 | Noah Rothwell        | Thing 1              | St.Cloud-MN       |    20 |   2.86 |      |
-|   30 | Sarah Winfield       | Flamin\' Hot Buzzers | Albuquerque-NM    |    20 |   2.86 |      |
+|   30 | Sarah Winfield       | Flamin' Hot Buzzers  | Albuquerque-NM    |    20 |   2.86 |      |
 |   30 | Allison Stanley      | MCC Etoiles De Bible | Mechanicsville-VA |    20 |   2.86 |      |
 |   31 | Hope Alford          | Love Boldly          | Tallahassee-FL    |    10 |   1.43 |      |
 |   31 | Carter Garza         | Quiz Commanders      | Yorkville-IL      |    10 |   1.43 |      |
-|   31 | Janaya Linder        | Flamin\' Hot Buzzers | Albuquerque-NM    |    10 |   1.43 |      |
+|   31 | Janaya Linder        | Flamin' Hot Buzzers  | Albuquerque-NM    |    10 |   1.43 |      |
 |   32 | Zachary Lickey       | Bellevue Buzzers     | Bellevue-WA       |     5 |    .71 |      |
-|   33 | Stephanie Gutierrez  | Flamin\' Hot Buzzers | Albuquerque-NM    |       |    .00 |      |
+|   33 | Stephanie Gutierrez  | Flamin' Hot Buzzers  | Albuquerque-NM    |       |    .00 |      |
 |   33 | Landon Holloway      | Juicy Fruit Ninjas   | Branson-MO        |       |    .00 |      |
 |   33 | Meleah Wallace       | Love Boldly          | Tallahassee-FL    |       |    .00 |      |
 |   33 | Megan Bartlett       | Thing 1              | St.Cloud-MN       |       |    .00 |      |
@@ -291,11 +291,11 @@ menubar_toc_static:
 |    # | Team                     | Church        | W/L   | Total |    Avg |
 | ---: | ------------------------ | ------------- | ----- | ----: | -----: |
 |    1 | FBI Flaming Buzzers Inc. | Brookfield-WI | 6/1   |  1355 | 193.57 |
-|    2 | Guardians of God\'s Word | Cincinnati-OH | 6/1   |  1255 | 179.29 |
+|    2 | Guardians of God's Word  | Cincinnati-OH | 6/1   |  1255 | 179.29 |
 |    3 | Bible Treasure Seekers   | Greensboro-NC | 5/1   |  1055 | 175.83 |
 |    4 | Fibulator Tribulators    | Fort Wayne-IN | 3/4   |   920 | 131.43 |
 |    5 | CIA - Special Agents     | Mendon-MA     | 3/4   |  1040 | 148.57 |
-|    6 | Alpha & Omega\'s Kids    | San Jose-CA   | 2/5   |  1040 | 148.57 |
+|    6 | Alpha & Omega's Kids     | San Jose-CA   | 2/5   |  1040 | 148.57 |
 |    7 | Cedar Park Eagles - A2   | Bothell-WA    | 2/4   |   530 |  88.33 |
 |    8 | Purple People            | Manhattan-KS  | 0 / 7 |   625 |  89.29 |
 
@@ -307,24 +307,24 @@ menubar_toc_static:
 | ---: | -------------------- | ------------------------ | ------------- | ----: | -----: | ---: |
 |    1 | Olivia Cypcar        | FBI Flaming Buzzers Inc. | Brookfield-WI |   855 | 122.14 |    4 |
 |    2 | Abigail Prejean      | Bible Treasure Seekers   | Greensboro-NC |   605 | 100.83 |    3 |
-|    3 | Samuel Jebaraj       | Alpha & Omega\'s Kids    | San Jose-CA   |   585 |  83.57 |    2 |
-|    4 | Jadyn Kleinhenz      | Guardians of God\'s Word | Cincinnati-OH |   450 |  64.29 |    1 |
-|    5 | David Haynes         | Guardians of God\'s Word | Cincinnati-OH |   440 |  62.86 |      |
+|    3 | Samuel Jebaraj       | Alpha & Omega's Kids     | San Jose-CA   |   585 |  83.57 |    2 |
+|    4 | Jadyn Kleinhenz      | Guardians of God's Word  | Cincinnati-OH |   450 |  64.29 |    1 |
+|    5 | David Haynes         | Guardians of God's Word  | Cincinnati-OH |   440 |  62.86 |      |
 |    6 | Miles Kastner        | FBI Flaming Buzzers Inc. | Brookfield-WI |   395 |  56.43 |    5 |
 |    7 | Ryan Ravitz          | CIA - Special Agents     | Mendon-MA     |   355 |  50.71 |      |
 |    8 | Dylan Stewart        | Fibulator Tribulators    | Fort Wayne-IN |   350 |  50.00 |    3 |
-|    9 | Josh Kiefer          | Guardians of God\'s Word | Cincinnati-OH |   335 |  47.86 |    3 |
+|    9 | Josh Kiefer          | Guardians of God's Word  | Cincinnati-OH |   335 |  47.86 |    3 |
 |   10 | Faith Caughey        | CIA - Special Agents     | Mendon-MA     |   330 |  47.14 |    1 |
 |   11 | Samuel Del Toro      | Purple People            | Manhattan-KS  |   325 |  46.43 |    3 |
 |   12 | Emily May            | Cedar Park Eagles - A2   | Bothell-WA    |   295 |  49.17 |    1 |
-|   13 | Jabez Williams       | Alpha & Omega\'s Kids    | San Jose-CA   |   275 |  39.29 |      |
+|   13 | Jabez Williams       | Alpha & Omega's Kids     | San Jose-CA   |   275 |  39.29 |      |
 |   14 | Michelle Vannelli    | CIA - Special Agents     | Mendon-MA     |   255 |  36.43 |    1 |
 |   15 | Isaiah Madonia       | Bible Treasure Seekers   | Greensboro-NC |   245 |  40.83 |    1 |
 |   16 | Stephen King         | Fibulator Tribulators    | Fort Wayne-IN |   200 |  28.57 |      |
 |   17 | Tony Benedetti       | Fibulator Tribulators    | Fort Wayne-IN |   170 |  24.29 |      |
 |   17 | Sarah Settles        | Bible Treasure Seekers   | Greensboro-NC |   170 |  28.33 |      |
 |   17 | Ethan Walker         | Purple People            | Manhattan-KS  |   170 |  24.29 |      |
-|   17 | Sarah Shivakumar     | Alpha & Omega\'s Kids    | San Jose-CA   |   170 |  24.29 |      |
+|   17 | Sarah Shivakumar     | Alpha & Omega's Kids     | San Jose-CA   |   170 |  24.29 |      |
 |   18 | Seth King            | Fibulator Tribulators    | Fort Wayne-IN |   160 |  22.86 |      |
 |   19 | Amariah Walker       | Purple People            | Manhattan-KS  |   130 |  18.57 |      |
 |   20 | Christiaan West      | Cedar Park Eagles - A2   | Bothell-WA    |   115 |  19.17 |      |
@@ -333,10 +333,10 @@ menubar_toc_static:
 |   22 | Michael Fouch        | Cedar Park Eagles - A2   | Bothell-WA    |    80 |  13.33 |      |
 |   23 | Kiley Frank          | Cedar Park Eagles - A2   | Bothell-WA    |    40 |   6.67 |      |
 |   23 | Sean King            | Fibulator Tribulators    | Fort Wayne-IN |    40 |   5.71 |      |
-|   24 | Julia Kiefer         | Guardians of God\'s Word | Cincinnati-OH |    30 |   4.29 |      |
+|   24 | Julia Kiefer         | Guardians of God's Word  | Cincinnati-OH |    30 |   4.29 |      |
 |   25 | Nathaniel Prejean    | Bible Treasure Seekers   | Greensboro-NC |    25 |   4.17 |      |
 |   26 | Julia Martello       | Bible Treasure Seekers   | Greensboro-NC |    10 |   1.67 |      |
-|   26 | Abishai Shivakumar   | Alpha & Omega\'s Kids    | San Jose-CA   |    10 |   1.43 |      |
+|   26 | Abishai Shivakumar   | Alpha & Omega's Kids     | San Jose-CA   |    10 |   1.43 |      |
 |   27 | Brianna Cypcar       | FBI Flaming Buzzers Inc. | Brookfield-WI |     5 |    .71 |      |
 |   28 | Ethan Stewart        | Fibulator Tribulators    | Fort Wayne-IN |       |    .00 |      |
 |   28 | Zoe Kastner          | FBI Flaming Buzzers Inc. | Brookfield-WI |       |    .00 |      |
@@ -544,7 +544,7 @@ menubar_toc_static:
 |    5 | The Chosen Ones          | Houston-TX          | 3/3 |   740 | 123.33 |
 |    6 | Amazing Eight            | Scottsdale-AZ       | 2/5 |  1015 | 145.00 |
 |    7 | The Force                | Benton-AR           | 2/5 |   745 | 106.43 |
-|    8 | God\'s Force             | West Mifflin, PA-PA | 1/6 |   695 |  99.29 |
+|    8 | God's Force              | West Mifflin, PA-PA | 1/6 |   695 |  99.29 |
 
 #### Individuals
 
@@ -566,18 +566,18 @@ menubar_toc_static:
 |   10 | Holly Garrett       | Amazing Eight            | Scottsdale-AZ       |   265 |  37.86 |    2 |
 |   11 | Joanna Moses        | Amazing Eight            | Scottsdale-AZ       |   255 |  36.43 |    1 |
 |   12 | Chase Buher         | Cousins, Convis and Crew | East Lansing-MI     |   225 |  32.14 |    1 |
-|   13 | LeeAnn Harris       | God\'s Force             | West Mifflin, PA-PA |   220 |  31.43 |    1 |
+|   13 | LeeAnn Harris       | God's Force              | West Mifflin, PA-PA |   220 |  31.43 |    1 |
 |   14 | Andrew Abuluyan     | River of Life            | Kent-WA             |   210 |  30.00 |    1 |
 |   15 | Jared Watson        | The Force                | Benton-AR           |   185 |  26.43 |    2 |
 |   16 | Sarah Onwudinjo     | The Chosen Ones          | Houston-TX          |   160 |  26.67 |      |
-|   17 | John Adams          | God\'s Force             | West Mifflin, PA-PA |   155 |  22.14 |      |
+|   17 | John Adams          | God's Force              | West Mifflin, PA-PA |   155 |  22.14 |      |
 |   18 | Bobbie Jean Barnes  | The Force                | Benton-AR           |   150 |  21.43 |      |
 |   19 | Wayne Ellis         | The Chosen Ones          | Houston-TX          |   145 |  24.17 |      |
-|   20 | Erin Brody          | God\'s Force             | West Mifflin, PA-PA |   130 |  18.57 |      |
+|   20 | Erin Brody          | God's Force              | West Mifflin, PA-PA |   130 |  18.57 |      |
 |   21 | Daniel Ejim         | The Chosen Ones          | Houston-TX          |   120 |  20.00 |      |
 |   21 | Rachel Hetrick      | Glad Tidings             | Omaha-NE            |   120 |  17.14 |      |
-|   22 | Will Brugos         | God\'s Force             | West Mifflin, PA-PA |   115 |  16.43 |      |
-|   23 | Raymond Harris      | God\'s Force             | West Mifflin, PA-PA |    95 |  13.57 |      |
+|   22 | Will Brugos         | God's Force              | West Mifflin, PA-PA |   115 |  16.43 |      |
+|   23 | Raymond Harris      | God's Force              | West Mifflin, PA-PA |    95 |  13.57 |      |
 |   23 | Drew Dellacca       | River of Life            | Kent-WA             |    95 |  13.57 |      |
 |   24 | Alexis Kaffenberger | Glad Tidings             | Omaha-NE            |    75 |  10.71 |      |
 |   25 | Eli Buxton          | River of Life            | Kent-WA             |    60 |   8.57 |      |
@@ -595,8 +595,8 @@ menubar_toc_static:
 |   33 | Brittyn Glover      | The Force                | Benton-AR           |       |    .00 |      |
 |   33 | Abigail Massih      | Amazing Eight            | Scottsdale-AZ       |       |    .00 |      |
 |   33 | Serenity Nicolas    | Amazing Eight            | Scottsdale-AZ       |       |    .00 |      |
-|   34 | Brooke Patterson    | God\'s Force             | West Mifflin, PA-PA |   -15 |  -2.14 |      |
-|   35 | Jeremiah Brugos     | God\'s Force             | West Mifflin, PA-PA |    -5 |  -0.71 |      |
+|   34 | Brooke Patterson    | God's Force              | West Mifflin, PA-PA |   -15 |  -2.14 |      |
+|   35 | Jeremiah Brugos     | God's Force              | West Mifflin, PA-PA |    -5 |  -0.71 |      |
 |   35 | Lauren Oriza        | Amazing Eight            | Scottsdale-AZ       |    -5 |  -0.71 |      |
 
 

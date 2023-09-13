@@ -20,59 +20,59 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
-|    # | Team                            | Church           | W/L | Total |    Avg |
-| ---: | ------------------------------- | ---------------- | --- | ----: | -----: |
-|    1 | Grace Assembly of God           | New Whiteland-IN | 6/1 |  1515 | 216.43 |
-|    2 | S.P.Y. Kids 007                 | Leesburg-VA      | 6/1 |  1205 | 172.14 |
-|    3 | Wilmington Warriors             | Wilmington-NC    | 6/1 |  1175 | 167.86 |
-|    4 | River of Life                   | Kent-WA          | 4/3 |  1035 | 147.86 |
-|    5 | Kidtricity                      | Montgomery-AL    | 2/5 |   940 | 134.29 |
-|    6 | Chosen Ones                     | Houston-TX       | 2/5 |   785 | 112.14 |
-|    7 | DAG Church                      | Decatur-AR       | 1/6 |   720 | 102.86 |
-|    8 | Bismarck Boppin\' Bible Buzzers | Bismarck-ND      | 1/6 |   755 | 107.86 |
+|    # | Team                           | Church           | W/L | Total |    Avg |
+| ---: | ------------------------------ | ---------------- | --- | ----: | -----: |
+|    1 | Grace Assembly of God          | New Whiteland-IN | 6/1 |  1515 | 216.43 |
+|    2 | S.P.Y. Kids 007                | Leesburg-VA      | 6/1 |  1205 | 172.14 |
+|    3 | Wilmington Warriors            | Wilmington-NC    | 6/1 |  1175 | 167.86 |
+|    4 | River of Life                  | Kent-WA          | 4/3 |  1035 | 147.86 |
+|    5 | Kidtricity                     | Montgomery-AL    | 2/5 |   940 | 134.29 |
+|    6 | Chosen Ones                    | Houston-TX       | 2/5 |   785 | 112.14 |
+|    7 | DAG Church                     | Decatur-AR       | 1/6 |   720 | 102.86 |
+|    8 | Bismarck Boppin' Bible Buzzers | Bismarck-ND      | 1/6 |   755 | 107.86 |
 
 #### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer            | Team                            | Church           | Total |   Avg |   QO |
-| ---: | ------------------ | ------------------------------- | ---------------- | ----: | ----: | ---: |
-|    1 | Christian Hart     | Kidtricity                      | Montgomery-AL    |   550 | 78.57 |    2 |
-|    2 | Claire Richardson  | Grace Assembly of God           | New Whiteland-IN |   525 | 75.00 |    3 |
-|    3 | Elliott Murray     | Grace Assembly of God           | New Whiteland-IN |   510 | 72.86 |    1 |
-|    4 | Mateo Cuadros      | River of Life                   | Kent-WA          |   505 | 72.14 |      |
-|    5 | Christian Shelton  | Wilmington Warriors             | Wilmington-NC    |   425 | 60.71 |      |
-|    6 | Sarah Judd         | S.P.Y. Kids 007                 | Leesburg-VA      |   395 | 56.43 |    4 |
-|    7 | Diana Bozzay       | S.P.Y. Kids 007                 | Leesburg-VA      |   370 | 52.86 |    2 |
-|    8 | Kaden Sago         | Bismarck Boppin\' Bible Buzzers | Bismarck-ND      |   350 | 50.00 |    1 |
-|    9 | Nick Richardson    | Grace Assembly of God           | New Whiteland-IN |   315 | 45.00 |    2 |
-|   10 | Rachel Mgbeike     | Chosen Ones                     | Houston-TX       |   315 | 45.00 |    1 |
-|   11 | Amanda Duncan      | DAG Church                      | Decatur-AR       |   305 | 43.57 |    1 |
-|   12 | Brooke Leingang    | Bismarck Boppin\' Bible Buzzers | Bismarck-ND      |   275 | 39.29 |    1 |
-|   13 | Luke Yoder         | S.P.Y. Kids 007                 | Leesburg-VA      |   275 | 39.29 |      |
-|   14 | Johnathan Terrones | River of Life                   | Kent-WA          |   250 | 35.71 |    1 |
-|   15 | Zachary Leake      | Wilmington Warriors             | Wilmington-NC    |   250 | 35.71 |      |
-|   16 | Micah Brown        | Kidtricity                      | Montgomery-AL    |   240 | 34.29 |      |
-|   17 | Matt Anderson      | DAG Church                      | Decatur-AR       |   235 | 33.57 |    1 |
-|   18 | Jeffrey Gutterud   | River of Life                   | Kent-WA          |   190 | 27.14 |      |
-|   19 | Braden Cumbo       | Wilmington Warriors             | Wilmington-NC    |   185 | 26.43 |    2 |
-|   20 | Trey Anderson      | DAG Church                      | Decatur-AR       |   180 | 25.71 |      |
-|   21 | Chimezirim Nwogu   | Chosen Ones                     | Houston-TX       |   170 | 24.29 |    1 |
-|   22 | Jillian Garrett    | Grace Assembly of God           | New Whiteland-IN |   155 | 22.14 |      |
-|   23 | James Patterson    | Kidtricity                      | Montgomery-AL    |   150 | 21.43 |      |
-|   24 | Andy Boehling      | Wilmington Warriors             | Wilmington-NC    |   150 | 21.43 |      |
-|   25 | Katherine Bozzay   | S.P.Y. Kids 007                 | Leesburg-VA      |   140 | 20.00 |      |
-|   26 | Vistoria Wooten    | Chosen Ones                     | Houston-TX       |   135 | 19.29 |    1 |
-|   27 | Rylan Sago         | Bismarck Boppin\' Bible Buzzers | Bismarck-ND      |   135 | 19.29 |      |
-|   28 | Greyson Kerns      | Wilmington Warriors             | Wilmington-NC    |   120 | 17.14 |    2 |
-|   29 | Emily Bulger       | River of Life                   | Kent-WA          |    95 | 13.57 |      |
-|   30 | Chizaram Ajiwe     | Chosen Ones                     | Houston-TX       |    90 | 12.86 |      |
-|   31 | Michael Wooten     | Chosen Ones                     | Houston-TX       |    55 |  7.86 |      |
-|   32 | Kierstin Childs    | Wilmington Warriors             | Wilmington-NC    |    45 |  6.43 |      |
-|   33 | Wayne Ellis        | Chosen Ones                     | Houston-TX       |    30 |  4.29 |      |
-|   34 | Emily Walsh        | S.P.Y. Kids 007                 | Leesburg-VA      |    25 |  3.57 |      |
-|   35 | Stephanie Oyolu    | Chosen Ones                     | Houston-TX       |    20 |  2.86 |      |
-|   36 | Ryan Shover        | Grace Assembly of God           | New Whiteland-IN |    10 |  1.43 |      |
+|    # | Quizzer            | Team                           | Church           | Total |   Avg |   QO |
+| ---: | ------------------ | ------------------------------ | ---------------- | ----: | ----: | ---: |
+|    1 | Christian Hart     | Kidtricity                     | Montgomery-AL    |   550 | 78.57 |    2 |
+|    2 | Claire Richardson  | Grace Assembly of God          | New Whiteland-IN |   525 | 75.00 |    3 |
+|    3 | Elliott Murray     | Grace Assembly of God          | New Whiteland-IN |   510 | 72.86 |    1 |
+|    4 | Mateo Cuadros      | River of Life                  | Kent-WA          |   505 | 72.14 |      |
+|    5 | Christian Shelton  | Wilmington Warriors            | Wilmington-NC    |   425 | 60.71 |      |
+|    6 | Sarah Judd         | S.P.Y. Kids 007                | Leesburg-VA      |   395 | 56.43 |    4 |
+|    7 | Diana Bozzay       | S.P.Y. Kids 007                | Leesburg-VA      |   370 | 52.86 |    2 |
+|    8 | Kaden Sago         | Bismarck Boppin' Bible Buzzers | Bismarck-ND      |   350 | 50.00 |    1 |
+|    9 | Nick Richardson    | Grace Assembly of God          | New Whiteland-IN |   315 | 45.00 |    2 |
+|   10 | Rachel Mgbeike     | Chosen Ones                    | Houston-TX       |   315 | 45.00 |    1 |
+|   11 | Amanda Duncan      | DAG Church                     | Decatur-AR       |   305 | 43.57 |    1 |
+|   12 | Brooke Leingang    | Bismarck Boppin' Bible Buzzers | Bismarck-ND      |   275 | 39.29 |    1 |
+|   13 | Luke Yoder         | S.P.Y. Kids 007                | Leesburg-VA      |   275 | 39.29 |      |
+|   14 | Johnathan Terrones | River of Life                  | Kent-WA          |   250 | 35.71 |    1 |
+|   15 | Zachary Leake      | Wilmington Warriors            | Wilmington-NC    |   250 | 35.71 |      |
+|   16 | Micah Brown        | Kidtricity                     | Montgomery-AL    |   240 | 34.29 |      |
+|   17 | Matt Anderson      | DAG Church                     | Decatur-AR       |   235 | 33.57 |    1 |
+|   18 | Jeffrey Gutterud   | River of Life                  | Kent-WA          |   190 | 27.14 |      |
+|   19 | Braden Cumbo       | Wilmington Warriors            | Wilmington-NC    |   185 | 26.43 |    2 |
+|   20 | Trey Anderson      | DAG Church                     | Decatur-AR       |   180 | 25.71 |      |
+|   21 | Chimezirim Nwogu   | Chosen Ones                    | Houston-TX       |   170 | 24.29 |    1 |
+|   22 | Jillian Garrett    | Grace Assembly of God          | New Whiteland-IN |   155 | 22.14 |      |
+|   23 | James Patterson    | Kidtricity                     | Montgomery-AL    |   150 | 21.43 |      |
+|   24 | Andy Boehling      | Wilmington Warriors            | Wilmington-NC    |   150 | 21.43 |      |
+|   25 | Katherine Bozzay   | S.P.Y. Kids 007                | Leesburg-VA      |   140 | 20.00 |      |
+|   26 | Vistoria Wooten    | Chosen Ones                    | Houston-TX       |   135 | 19.29 |    1 |
+|   27 | Rylan Sago         | Bismarck Boppin' Bible Buzzers | Bismarck-ND      |   135 | 19.29 |      |
+|   28 | Greyson Kerns      | Wilmington Warriors            | Wilmington-NC    |   120 | 17.14 |    2 |
+|   29 | Emily Bulger       | River of Life                  | Kent-WA          |    95 | 13.57 |      |
+|   30 | Chizaram Ajiwe     | Chosen Ones                    | Houston-TX       |    90 | 12.86 |      |
+|   31 | Michael Wooten     | Chosen Ones                    | Houston-TX       |    55 |  7.86 |      |
+|   32 | Kierstin Childs    | Wilmington Warriors            | Wilmington-NC    |    45 |  6.43 |      |
+|   33 | Wayne Ellis        | Chosen Ones                    | Houston-TX       |    30 |  4.29 |      |
+|   34 | Emily Walsh        | S.P.Y. Kids 007                | Leesburg-VA      |    25 |  3.57 |      |
+|   35 | Stephanie Oyolu    | Chosen Ones                    | Houston-TX       |    20 |  2.86 |      |
+|   36 | Ryan Shover        | Grace Assembly of God          | New Whiteland-IN |    10 |  1.43 |      |
 
 
 ### Cream
@@ -83,7 +83,7 @@ menubar_toc_static:
 
 |    # | Team            | Church           | W/L   | Total |    Avg |
 | ---: | --------------- | ---------------- | ----- | ----: | -----: |
-|    1 | Super Q\'s      | Lexington-TN     | 7/0   |  1385 | 197.86 |
+|    1 | Super Q's       | Lexington-TN     | 7/0   |  1385 | 197.86 |
 |    2 | Naperville (S)  | Naperville-IL    | 5/2   |  1570 | 224.29 |
 |    3 | Firefighters    | Sanford-FL       | 5/2   |  1070 | 152.86 |
 |    4 | Quiz Kidz       | Scotch Plains-NJ | 4/3   |  1080 | 154.29 |
@@ -99,12 +99,12 @@ menubar_toc_static:
 |    # | Quizzer           | Team            | Church           | Total |    Avg |   QO |
 | ---: | ----------------- | --------------- | ---------------- | ----: | -----: | ---: |
 |    1 | Jake Wolfe        | Naperville (S)  | Naperville-IL    |   890 | 127.14 |    5 |
-|    2 | Reuben Savage     | Super Q\'s      | Lexington-TN     |   880 | 125.71 |    5 |
+|    2 | Reuben Savage     | Super Q's       | Lexington-TN     |   880 | 125.71 |    5 |
 |    3 | Toby Robinson     | Firefighters    | Sanford-FL       |   725 | 103.57 |    2 |
 |    4 | Noah Hensley      | Smileys         | Huntington-WV    |   620 |  88.57 |    1 |
 |    5 | Will Wolfe        | Naperville (S)  | Naperville-IL    |   525 |  75.00 |    7 |
 |    6 | Stanley Thomas    | Quiz Kidz       | Scotch Plains-NJ |   505 |  72.14 |    3 |
-|    7 | Seth Savage       | Super Q\'s      | Lexington-TN     |   430 |  61.43 |    5 |
+|    7 | Seth Savage       | Super Q's       | Lexington-TN     |   430 |  61.43 |    5 |
 |    8 | Noah Ku           | Westgate A Team | Edmonds-WA       |   380 |  54.29 |    1 |
 |    9 | Gabriella Hamvas  | Bible Saints    | Princeton-MN     |   365 |  52.14 |    2 |
 |   10 | Landon Grisham    | D.D.D.          | Mustang-OK       |   350 |  50.00 |    4 |
@@ -121,13 +121,13 @@ menubar_toc_static:
 |   21 | Mark Ziegler      | Smileys         | Huntington-WV    |    95 |  13.57 |      |
 |   22 | Kailan Weidner    | D.D.D.          | Mustang-OK       |    70 |  10.00 |      |
 |   23 | Caitlyn Leedy     | Smileys         | Huntington-WV    |    50 |   7.14 |      |
-|   24 | Shelby Webb       | Super Q\'s      | Lexington-TN     |    45 |   6.43 |      |
+|   24 | Shelby Webb       | Super Q's       | Lexington-TN     |    45 |   6.43 |      |
 |   25 | Julia White       | Smileys         | Huntington-WV    |    40 |   5.71 |      |
 |   26 | Grace Schafhauser | Quiz Kidz       | Scotch Plains-NJ |    30 |   4.29 |      |
 |   27 | Kyle Moos         | Bible Saints    | Princeton-MN     |    25 |   3.57 |      |
 |   28 | Joe Cheeli        | Quiz Kidz       | Scotch Plains-NJ |    20 |   2.86 |      |
-|   29 | Jacob Webb        | Super Q\'s      | Lexington-TN     |    20 |   2.86 |      |
-|   30 | Dylan Cotham      | Super Q\'s      | Lexington-TN     |    10 |   1.43 |      |
+|   29 | Jacob Webb        | Super Q's       | Lexington-TN     |    20 |   2.86 |      |
+|   30 | Dylan Cotham      | Super Q's       | Lexington-TN     |    10 |   1.43 |      |
 |   31 | Jordan Perez      | Firefighters    | Sanford-FL       |    10 |   1.43 |      |
 |   32 | Wade Lawrence     | Bible Saints    | Princeton-MN     |    10 |   1.43 |      |
 
@@ -140,10 +140,10 @@ menubar_toc_static:
 
 |    # | Team               | Church           | W/L | Total |    Avg |
 | ---: | ------------------ | ---------------- | --- | ----: | -----: |
-|    1 | Gideon\'s Army     | Huber Heights-OH | 6/1 |  1285 | 183.57 |
+|    1 | Gideon's Army      | Huber Heights-OH | 6/1 |  1285 | 183.57 |
 |    2 | Bible Jammers      | Sanford-FL       | 5/2 |  1290 | 184.29 |
 |    3 | Fireball Quizzers  | Waxahachie-TX    | 4/3 |  1235 | 176.43 |
-|    4 | God\'s Girlz       | Surprise-AZ      | 4/3 |  1035 | 147.86 |
+|    4 | God's Girlz        | Surprise-AZ      | 4/3 |  1035 | 147.86 |
 |    5 | Spirit Squadron    | West Mifflin -PA | 3/4 |   965 | 137.86 |
 |    6 | Searcy Fruit Loops | Searcy-AR        | 3/4 |   800 | 114.29 |
 |    7 | BC United          | Wyckoff-NJ       | 2/5 |   910 | 130.00 |
@@ -156,18 +156,18 @@ menubar_toc_static:
 |    # | Quizzer            | Team               | Church           | Total |    Avg |   QO |
 | ---: | ------------------ | ------------------ | ---------------- | ----: | -----: | ---: |
 |    1 | Peyton Goss        | Bible Jammers      | Sanford-FL       |   820 | 117.14 |    4 |
-|    2 | Sean Jones         | Gideon\'s Army     | Huber Heights-OH |   700 | 100.00 |    4 |
-|    3 | Faith Brown        | God\'s Girlz       | Surprise-AZ      |   535 |  76.43 |    4 |
+|    2 | Sean Jones         | Gideon's Army      | Huber Heights-OH |   700 | 100.00 |    4 |
+|    3 | Faith Brown        | God's Girlz        | Surprise-AZ      |   535 |  76.43 |    4 |
 |    4 | Reuben Deemy       | Fireball Quizzers  | Waxahachie-TX    |   470 |  67.14 |    2 |
 |    5 | Vinton Deemy       | Fireball Quizzers  | Waxahachie-TX    |   390 |  55.71 |    2 |
 |    6 | LeeAnn Harris      | Spirit Squadron    | West Mifflin -PA |   370 |  52.86 |    2 |
 |    7 | David Blomberg     | Comets             | New Richmond-WI  |   340 |  48.57 |    1 |
-|    8 | Kenzie Brown       | God\'s Girlz       | Surprise-AZ      |   340 |  48.57 |    1 |
-|    9 | Gabriel Ison       | Gideon\'s Army     | Huber Heights-OH |   330 |  47.14 |    4 |
+|    8 | Kenzie Brown       | God's Girlz        | Surprise-AZ      |   340 |  48.57 |    1 |
+|    9 | Gabriel Ison       | Gideon's Army      | Huber Heights-OH |   330 |  47.14 |    4 |
 |   10 | Allison Shipman    | Searcy Fruit Loops | Searcy-AR        |   330 |  47.14 |    1 |
 |   11 | Andrew Emberson    | Searcy Fruit Loops | Searcy-AR        |   285 |  40.71 |      |
 |   12 | Aubrey Goss        | Bible Jammers      | Sanford-FL       |   265 |  37.86 |    1 |
-|   13 | Jeannah Jones      | Gideon\'s Army     | Huber Heights-OH |   235 |  33.57 |      |
+|   13 | Jeannah Jones      | Gideon's Army      | Huber Heights-OH |   235 |  33.57 |      |
 |   14 | Cayla Brodeur      | BC United          | Wyckoff-NJ       |   235 |  33.57 |      |
 |   15 | Cassidy Neal       | Bible Jammers      | Sanford-FL       |   205 |  29.29 |      |
 |   16 | Jaqueline Martinez | Fireball Quizzers  | Waxahachie-TX    |   190 |  27.14 |    1 |
@@ -180,17 +180,17 @@ menubar_toc_static:
 |   23 | Kelsey McCafferty  | Spirit Squadron    | West Mifflin -PA |   130 |  18.57 |      |
 |   24 | Caleb Blomberg     | Comets             | New Richmond-WI  |   120 |  17.14 |      |
 |   25 | Michael Shipman    | Searcy Fruit Loops | Searcy-AR        |   105 |  15.00 |      |
-|   26 | McKenna Kollman    | God\'s Girlz       | Surprise-AZ      |   100 |  14.29 |      |
+|   26 | McKenna Kollman    | God's Girlz        | Surprise-AZ      |   100 |  14.29 |      |
 |   27 | Emma Moorman       | BC United          | Wyckoff-NJ       |   100 |  14.29 |      |
 |   28 | Joelle Rapp        | Comets             | New Richmond-WI  |    95 |  13.57 |      |
 |   29 | Noah Saenz         | Fireball Quizzers  | Waxahachie-TX    |    85 |  12.14 |      |
 |   30 | Dakota Marsh       | Searcy Fruit Loops | Searcy-AR        |    80 |  11.43 |      |
 |   31 | Garrett Adelmann   | BC United          | Wyckoff-NJ       |    80 |  11.43 |      |
 |   32 | Maribel Castaneda  | Fireball Quizzers  | Waxahachie-TX    |    80 |  11.43 |      |
-|   33 | Hannah Smith       | God\'s Girlz       | Surprise-AZ      |    40 |   5.71 |      |
-|   34 | Ryleigh Jones      | Gideon\'s Army     | Huber Heights-OH |    20 |   2.86 |      |
+|   33 | Hannah Smith       | God's Girlz        | Surprise-AZ      |    40 |   5.71 |      |
+|   34 | Ryleigh Jones      | Gideon's Army      | Huber Heights-OH |    20 |   2.86 |      |
 |   35 | Eli Saenz          | Fireball Quizzers  | Waxahachie-TX    |    20 |   2.86 |      |
-|   36 | Abigail Deshais    | God\'s Girlz       | Surprise-AZ      |    20 |   2.86 |      |
+|   36 | Abigail Deshais    | God's Girlz        | Surprise-AZ      |    20 |   2.86 |      |
 |   37 | Mitchell Covey     | Comets             | New Richmond-WI  |    15 |   2.14 |      |
 
 
@@ -255,7 +255,7 @@ menubar_toc_static:
 
 |    # | Team                       | Church        | W/L | Total |    Avg |
 | ---: | -------------------------- | ------------- | --- | ----: | -----: |
-|    1 | Guardians Of God\'s Word   | Cincinnati-OH | 6/1 |  1270 | 181.43 |
+|    1 | Guardians Of God's Word    | Cincinnati-OH | 6/1 |  1270 | 181.43 |
 |    2 | Bible Treasure Seekers     | Greensboro-NC | 6/1 |  1365 | 195.00 |
 |    3 | Harrison Thrashers         | Harrison-AR   | 5/2 |  1110 | 158.57 |
 |    4 | New Life Renton            | Renton-WA     | 5/2 |  1295 | 185.00 |
@@ -274,8 +274,8 @@ menubar_toc_static:
 |    2 | Alecia Rajesh           | Bible Treasure Seekers     | Greensboro-NC |   740 | 105.71 |    2 |
 |    3 | Kerigan Bradshaw        | Harrison Thrashers         | Harrison-AR   |   645 |  92.14 |    5 |
 |    4 | Nathaniel Duncan        | S.O.S.                     | Mikwaukee-WI  |   595 |  85.00 |    3 |
-|    5 | Gunnar Smart            | Guardians Of God\'s Word   | Cincinnati-OH |   555 |  79.29 |    3 |
-|    6 | David Haynes            | Guardians Of God\'s Word   | Cincinnati-OH |   470 |  67.14 |    2 |
+|    5 | Gunnar Smart            | Guardians Of God's Word    | Cincinnati-OH |   555 |  79.29 |    3 |
+|    6 | David Haynes            | Guardians Of God's Word    | Cincinnati-OH |   470 |  67.14 |    2 |
 |    7 | Abigail Prejean         | Bible Treasure Seekers     | Greensboro-NC |   390 |  55.71 |    3 |
 |    8 | David Moses             | North Scottsdale Christian | Scottsdale-AZ |   385 |  55.00 |    1 |
 |    9 | Holly Garrett           | North Scottsdale Christian | Scottsdale-AZ |   355 |  50.71 |    3 |
@@ -287,12 +287,12 @@ menubar_toc_static:
 |   15 | Lydia Kidroske          | Bible Treasure Seekers     | Greensboro-NC |   225 |  32.14 |      |
 |   16 | Nick Congdon            | Binghamton                 | Binghamton-NY |   195 |  27.86 |    1 |
 |   17 | Jessica Kyzer           | S.O.S.                     | Mikwaukee-WI  |   175 |  25.00 |      |
-|   18 | Josh Kiefer             | Guardians Of God\'s Word   | Cincinnati-OH |   155 |  22.14 |      |
+|   18 | Josh Kiefer             | Guardians Of God's Word    | Cincinnati-OH |   155 |  22.14 |      |
 |   19 | Andrew Scarinzi         | Binghamton                 | Binghamton-NY |   150 |  21.43 |      |
 |   20 | Joanna Moses            | North Scottsdale Christian | Scottsdale-AZ |   125 |  17.86 |      |
 |   21 | Bethany Warren          | Harrison Thrashers         | Harrison-AR   |   115 |  16.43 |      |
-|   22 | Jack Titkemeyer         | Guardians Of God\'s Word   | Cincinnati-OH |    90 |  12.86 |      |
-|   23 | Caleb O\'Neil           | S.O.S.                     | Mikwaukee-WI  |    75 |  10.71 |      |
+|   22 | Jack Titkemeyer         | Guardians Of God's Word    | Cincinnati-OH |    90 |  12.86 |      |
+|   23 | Caleb O'Neil            | S.O.S.                     | Mikwaukee-WI  |    75 |  10.71 |      |
 |   24 | Ellen Jacobs            | New Life Renton            | Renton-WA     |    70 |  10.00 |      |
 |   25 | Kelton Johnson          | Salt Shakers               | Lubbock-TX    |    45 |   6.43 |      |
 |   26 | Isabel Paul             | Harrison Thrashers         | Harrison-AR   |    40 |   5.71 |      |
@@ -372,54 +372,54 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
-|    # | Team                                                | Church             | W/L | Total |    Avg |
-| ---: | --------------------------------------------------- | ------------------ | --- | ----: | -----: |
-|    1 | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         | 6/1 |  1225 | 175.00 |
-|    2 | MCC Sonburst Bible Stars                            | Mechanicsville,-VA | 5/2 |  1110 | 158.57 |
-|    3 | 3 Men & A Lady                                      | Gahanna-OH         | 5/2 |  1070 | 152.86 |
-|    4 | Lightning on Sundae                                 | Bonifay-FL         | 3/4 |   975 | 139.29 |
-|    5 | TNT                                                 | Louisville-KY      | 3/4 |  1030 | 147.14 |
-|    6 | Brickmasters                                        | Racine-WI          | 2/5 |   935 | 133.57 |
-|    7 | JAG                                                 | Meriden-KS         | 2/5 |   855 | 122.14 |
-|    8 | IAG Soaring Eagles                                  | Gilbert-AZ         | 2/5 |   855 | 122.14 |
+|    # | Team                                               | Church             | W/L | Total |    Avg |
+| ---: | -------------------------------------------------- | ------------------ | --- | ----: | -----: |
+|    1 | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         | 6/1 |  1225 | 175.00 |
+|    2 | MCC Sonburst Bible Stars                           | Mechanicsville,-VA | 5/2 |  1110 | 158.57 |
+|    3 | 3 Men & A Lady                                     | Gahanna-OH         | 5/2 |  1070 | 152.86 |
+|    4 | Lightning on Sundae                                | Bonifay-FL         | 3/4 |   975 | 139.29 |
+|    5 | TNT                                                | Louisville-KY      | 3/4 |  1030 | 147.14 |
+|    6 | Brickmasters                                       | Racine-WI          | 2/5 |   935 | 133.57 |
+|    7 | JAG                                                | Meriden-KS         | 2/5 |   855 | 122.14 |
+|    8 | IAG Soaring Eagles                                 | Gilbert-AZ         | 2/5 |   855 | 122.14 |
 
 #### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer          | Team                                                | Church             | Total |    Avg |   QO |
-| ---: | ---------------- | --------------------------------------------------- | ------------------ | ----: | -----: | ---: |
-|    1 | Megumi Sinniah   | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |   850 | 121.43 |    5 |
-|    2 | Brenden Kent     | 3 Men & A Lady                                      | Gahanna-OH         |   845 | 120.71 |    3 |
-|    3 | Noah Barnes      | TNT                                                 | Louisville-KY      |   540 |  77.14 |    2 |
-|    4 | Rebekah Toeller  | Brickmasters                                        | Racine-WI          |   505 |  72.14 |    1 |
-|    5 | Jomi Malayil     | IAG Soaring Eagles                                  | Gilbert-AZ         |   420 |  60.00 |    2 |
-|    6 | Andrew Warren    | Lightning on Sundae                                 | Bonifay-FL         |   405 |  57.86 |      |
-|    7 | Griffin Simpson  | MCC Sonburst Bible Stars                            | Mechanicsville,-VA |   365 |  52.14 |    4 |
-|    8 | Nathan Kuenzi    | JAG                                                 | Meriden-KS         |   350 |  50.00 |    4 |
-|    9 | Julia Rivera     | JAG                                                 | Meriden-KS         |   350 |  50.00 |    1 |
-|   10 | Holly Bowen      | MCC Sonburst Bible Stars                            | Mechanicsville,-VA |   280 |  40.00 |      |
-|   11 | Joanne Sinniah   | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |   265 |  37.86 |      |
-|   12 | Trevor Webb      | TNT                                                 | Louisville-KY      |   255 |  36.43 |      |
-|   13 | JJ Paul          | Lightning on Sundae                                 | Bonifay-FL         |   245 |  35.00 |    2 |
-|   14 | Trea Webb        | TNT                                                 | Louisville-KY      |   235 |  33.57 |    3 |
-|   15 | Reanna Toeller   | Brickmasters                                        | Racine-WI          |   235 |  33.57 |      |
-|   16 | Nathaniel Walker | MCC Sonburst Bible Stars                            | Mechanicsville,-VA |   235 |  33.57 |      |
-|   17 | Noah Zook        | MCC Sonburst Bible Stars                            | Mechanicsville,-VA |   230 |  32.86 |      |
-|   18 | Jacob Smith      | 3 Men & A Lady                                      | Gahanna-OH         |   230 |  32.86 |      |
-|   19 | Michelle Koshy   | IAG Soaring Eagles                                  | Gilbert-AZ         |   225 |  32.14 |      |
-|   20 | Madison Ealum    | Lightning on Sundae                                 | Bonifay-FL         |   160 |  22.86 |      |
-|   21 | Jayden Garrison  | Brickmasters                                        | Racine-WI          |   145 |  20.71 |    1 |
-|   22 | Jonathan Moore   | JAG                                                 | Meriden-KS         |   130 |  18.57 |      |
-|   23 | Emilie Justice   | Lightning on Sundae                                 | Bonifay-FL         |   120 |  17.14 |      |
-|   24 | Landon Holloway  | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |   110 |  15.71 |    1 |
-|   25 | Gavin Kuruvilla  | IAG Soaring Eagles                                  | Gilbert-AZ         |    80 |  11.43 |      |
-|   26 | Albin Mathew     | IAG Soaring Eagles                                  | Gilbert-AZ         |    70 |  10.00 |      |
-|   27 | Joel Joseph      | IAG Soaring Eagles                                  | Gilbert-AZ         |    70 |  10.00 |      |
-|   28 | Morgan Zepp      | Lightning on Sundae                                 | Bonifay-FL         |    45 |   6.43 |      |
-|   29 | Sam David        | Brickmasters                                        | Racine-WI          |    35 |   5.00 |      |
-|   30 | Joshua Wearne    | JAG                                                 | Meriden-KS         |    25 |   3.57 |      |
-|   31 | Brandon Baer     | Brickmasters                                        | Racine-WI          |    20 |   2.86 |      |
+|    # | Quizzer          | Team                                               | Church             | Total |    Avg |   QO |
+| ---: | ---------------- | -------------------------------------------------- | ------------------ | ----: | -----: | ---: |
+|    1 | Megumi Sinniah   | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |   850 | 121.43 |    5 |
+|    2 | Brenden Kent     | 3 Men & A Lady                                     | Gahanna-OH         |   845 | 120.71 |    3 |
+|    3 | Noah Barnes      | TNT                                                | Louisville-KY      |   540 |  77.14 |    2 |
+|    4 | Rebekah Toeller  | Brickmasters                                       | Racine-WI          |   505 |  72.14 |    1 |
+|    5 | Jomi Malayil     | IAG Soaring Eagles                                 | Gilbert-AZ         |   420 |  60.00 |    2 |
+|    6 | Andrew Warren    | Lightning on Sundae                                | Bonifay-FL         |   405 |  57.86 |      |
+|    7 | Griffin Simpson  | MCC Sonburst Bible Stars                           | Mechanicsville,-VA |   365 |  52.14 |    4 |
+|    8 | Nathan Kuenzi    | JAG                                                | Meriden-KS         |   350 |  50.00 |    4 |
+|    9 | Julia Rivera     | JAG                                                | Meriden-KS         |   350 |  50.00 |    1 |
+|   10 | Holly Bowen      | MCC Sonburst Bible Stars                           | Mechanicsville,-VA |   280 |  40.00 |      |
+|   11 | Joanne Sinniah   | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |   265 |  37.86 |      |
+|   12 | Trevor Webb      | TNT                                                | Louisville-KY      |   255 |  36.43 |      |
+|   13 | JJ Paul          | Lightning on Sundae                                | Bonifay-FL         |   245 |  35.00 |    2 |
+|   14 | Trea Webb        | TNT                                                | Louisville-KY      |   235 |  33.57 |    3 |
+|   15 | Reanna Toeller   | Brickmasters                                       | Racine-WI          |   235 |  33.57 |      |
+|   16 | Nathaniel Walker | MCC Sonburst Bible Stars                           | Mechanicsville,-VA |   235 |  33.57 |      |
+|   17 | Noah Zook        | MCC Sonburst Bible Stars                           | Mechanicsville,-VA |   230 |  32.86 |      |
+|   18 | Jacob Smith      | 3 Men & A Lady                                     | Gahanna-OH         |   230 |  32.86 |      |
+|   19 | Michelle Koshy   | IAG Soaring Eagles                                 | Gilbert-AZ         |   225 |  32.14 |      |
+|   20 | Madison Ealum    | Lightning on Sundae                                | Bonifay-FL         |   160 |  22.86 |      |
+|   21 | Jayden Garrison  | Brickmasters                                       | Racine-WI          |   145 |  20.71 |    1 |
+|   22 | Jonathan Moore   | JAG                                                | Meriden-KS         |   130 |  18.57 |      |
+|   23 | Emilie Justice   | Lightning on Sundae                                | Bonifay-FL         |   120 |  17.14 |      |
+|   24 | Landon Holloway  | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |   110 |  15.71 |    1 |
+|   25 | Gavin Kuruvilla  | IAG Soaring Eagles                                 | Gilbert-AZ         |    80 |  11.43 |      |
+|   26 | Albin Mathew     | IAG Soaring Eagles                                 | Gilbert-AZ         |    70 |  10.00 |      |
+|   27 | Joel Joseph      | IAG Soaring Eagles                                 | Gilbert-AZ         |    70 |  10.00 |      |
+|   28 | Morgan Zepp      | Lightning on Sundae                                | Bonifay-FL         |    45 |   6.43 |      |
+|   29 | Sam David        | Brickmasters                                       | Racine-WI          |    35 |   5.00 |      |
+|   30 | Joshua Wearne    | JAG                                                | Meriden-KS         |    25 |   3.57 |      |
+|   31 | Brandon Baer     | Brickmasters                                       | Racine-WI          |    20 |   2.86 |      |
 
 
 ### Tan
@@ -515,7 +515,7 @@ menubar_toc_static:
 |    7 | Catrina Palmer     | 105                       | Wesley Chapel-FL |   365 |  52.14 |      |
 |    8 | Ben Harsha         | Two boys n the Houdes     | Billings-MT      |   335 |  47.86 |      |
 |    9 | Helyn Dunn         | 105                       | Wesley Chapel-FL |   325 |  46.43 |    1 |
-|   10 | My\'Randa Tolar    | Masters                   | Dodson-LA        |   305 |  43.57 |    1 |
+|   10 | My'Randa Tolar     | Masters                   | Dodson-LA        |   305 |  43.57 |    1 |
 |   11 | Trinity Garza      | Red Sea                   | Yorkville-IL     |   295 |  42.14 |    2 |
 |   12 | Joy Okafor         | Bethlehem Church          | Richmond Hill-NY |   285 |  40.71 |      |
 |   13 | Alex Rawlings      | Word Warriors             | Flower Mound-TX  |   280 |  40.00 |    2 |
@@ -614,7 +614,7 @@ menubar_toc_static:
 
 |    # | Team                  | Church        | W/L | Total |    Avg |
 | ---: | --------------------- | ------------- | --- | ----: | -----: |
-|    1 | Super Q\'s            | Lexington-TN  | 5/2 |  1045 | 149.29 |
+|    1 | Super Q's             | Lexington-TN  | 5/2 |  1045 | 149.29 |
 |    2 | Bible Jammers         | Sanford-FL    | 4/3 |  1055 | 150.71 |
 |    3 | Team-LakeShore Church | Rockwall-TX   | 4/3 |   990 | 141.43 |
 |    4 | Wilmington Warriors   | Wilmington-NC | 4/3 |   905 | 129.29 |
@@ -629,7 +629,7 @@ menubar_toc_static:
 
 |    # | Quizzer           | Team                  | Church        | Total |    Avg |   QO |
 | ---: | ----------------- | --------------------- | ------------- | ----: | -----: | ---: |
-|    1 | Reuben Savage     | Super Q\'s            | Lexington-TN  |   790 | 112.86 |    4 |
+|    1 | Reuben Savage     | Super Q's             | Lexington-TN  |   790 | 112.86 |    4 |
 |    2 | Tanner Laffey     | Red Sea               | Yorkville-IL  |   640 |  91.43 |    4 |
 |    3 | Russell Cook      | New Life Renton       | Renton-WA     |   565 |  80.71 |    3 |
 |    4 | Peyton Goss       | Bible Jammers         | Sanford-FL    |   540 |  77.14 |    1 |
@@ -642,7 +642,7 @@ menubar_toc_static:
 |   11 | Trinity Garza     | Red Sea               | Yorkville-IL  |   250 |  35.71 |    2 |
 |   12 | Cassidy Neal      | Bible Jammers         | Sanford-FL    |   235 |  33.57 |      |
 |   13 | Zachary Leake     | Wilmington Warriors   | Wilmington-NC |   205 |  29.29 |      |
-|   14 | Seth Savage       | Super Q\'s            | Lexington-TN  |   185 |  26.43 |    3 |
+|   14 | Seth Savage       | Super Q's             | Lexington-TN  |   185 |  26.43 |    3 |
 |   15 | Nathan Jacobs     | New Life Renton       | Renton-WA     |   180 |  25.71 |    2 |
 |   16 | Cecily Houser     | Cedar Park Eagles     | Bothell-WA    |   180 |  25.71 |      |
 |   17 | Greyson Kerns     | Wilmington Warriors   | Wilmington-NC |   175 |  25.00 |    1 |
@@ -657,10 +657,10 @@ menubar_toc_static:
 |   26 | Kellen Fairfield  | Cedar Park Eagles     | Bothell-WA    |    80 |  11.43 |      |
 |   27 | Morgan Zepp       | Lightning on Sundae   | Bonifay-FL    |    75 |  10.71 |      |
 |   28 | Destiny Garza     | Red Sea               | Yorkville-IL  |    65 |   9.29 |      |
-|   29 | Dylan Cotham      | Super Q\'s            | Lexington-TN  |    50 |   7.14 |      |
+|   29 | Dylan Cotham      | Super Q's             | Lexington-TN  |    50 |   7.14 |      |
 |   30 | Grant Fisher      | Team-LakeShore Church | Rockwall-TX   |    40 |   5.71 |      |
 |   31 | Andy Boehling     | Wilmington Warriors   | Wilmington-NC |    30 |   4.29 |      |
-|   32 | Jacob Webb        | Super Q\'s            | Lexington-TN  |    30 |   4.29 |      |
+|   32 | Jacob Webb        | Super Q's             | Lexington-TN  |    30 |   4.29 |      |
 |   33 | Gabe Waggoner     | Cedar Park Eagles     | Bothell-WA    |    25 |   3.57 |      |
 |   34 | Kierstin Childs   | Wilmington Warriors   | Wilmington-NC |    20 |   2.86 |      |
 |   35 | Peter Graunke     | Red Sea               | Yorkville-IL  |    20 |   2.86 |      |
@@ -674,57 +674,57 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
-|    # | Team                                                | Church             | W/L   | Total |    Avg |
-| ---: | --------------------------------------------------- | ------------------ | ----- | ----: | -----: |
-|    1 | NERDS                                               | Bismarck-ND        | 7/0   |  1400 | 200.00 |
-|    2 | The Illuminators                                    | Lawson-MO          | 4/3   |  1030 | 147.14 |
-|    3 | CRK Almighty                                        | Gloucester City-NJ | 4/3   |  1030 | 147.14 |
-|    4 | Quiz Kidz                                           | Scotch Plains-NJ   | 4/3   |  1010 | 144.29 |
-|    5 | Harrison Thrashers                                  | Harrison-AR        | 4/3   |   930 | 132.86 |
-|    6 | S.P.Y. Kids 007                                     | Leesburg-VA        | 3/4   |   970 | 138.57 |
-|    7 | Bible Boyz                                          | Orlando-FL         | 2/5   |  1045 | 149.29 |
-|    8 | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         | 0 / 7 |   680 |  97.14 |
+|    # | Team                                               | Church             | W/L   | Total |    Avg |
+| ---: | -------------------------------------------------- | ------------------ | ----- | ----: | -----: |
+|    1 | NERDS                                              | Bismarck-ND        | 7/0   |  1400 | 200.00 |
+|    2 | The Illuminators                                   | Lawson-MO          | 4/3   |  1030 | 147.14 |
+|    3 | CRK Almighty                                       | Gloucester City-NJ | 4/3   |  1030 | 147.14 |
+|    4 | Quiz Kidz                                          | Scotch Plains-NJ   | 4/3   |  1010 | 144.29 |
+|    5 | Harrison Thrashers                                 | Harrison-AR        | 4/3   |   930 | 132.86 |
+|    6 | S.P.Y. Kids 007                                    | Leesburg-VA        | 3/4   |   970 | 138.57 |
+|    7 | Bible Boyz                                         | Orlando-FL         | 2/5   |  1045 | 149.29 |
+|    8 | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         | 0 / 7 |   680 |  97.14 |
 
 #### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer           | Team                                                | Church             | Total |    Avg |   QO |
-| ---: | ----------------- | --------------------------------------------------- | ------------------ | ----: | -----: | ---: |
-|    1 | Joshua Sipes      | NERDS                                               | Bismarck-ND        |   890 | 127.14 |    3 |
-|    2 | Megumi Sinniah    | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |   600 |  85.71 |    3 |
-|    3 | Jonathan Archer   | The Illuminators                                    | Lawson-MO          |   530 |  75.71 |    1 |
-|    4 | Luke Yoder        | S.P.Y. Kids 007                                     | Leesburg-VA        |   520 |  74.29 |      |
-|    5 | Jonah Woodbine    | Bible Boyz                                          | Orlando-FL         |   500 |  71.43 |    1 |
-|    6 | Kerigan Bradshaw  | Harrison Thrashers                                  | Harrison-AR        |   495 |  70.71 |    4 |
-|    7 | Elijah Abad       | CRK Almighty                                        | Gloucester City-NJ |   395 |  56.43 |    2 |
-|    8 | Stanley Thomas    | Quiz Kidz                                           | Scotch Plains-NJ   |   385 |  55.00 |    2 |
-|    9 | Breanna Cole      | The Illuminators                                    | Lawson-MO          |   325 |  46.43 |    1 |
-|   10 | Jayden Freyer     | NERDS                                               | Bismarck-ND        |   295 |  42.14 |    2 |
-|   11 | Jillian Angeles   | CRK Almighty                                        | Gloucester City-NJ |   265 |  37.86 |      |
-|   12 | Nicholas Dillon   | Harrison Thrashers                                  | Harrison-AR        |   240 |  34.29 |      |
-|   13 | Sarah Judd        | S.P.Y. Kids 007                                     | Leesburg-VA        |   225 |  32.14 |    1 |
-|   14 | Jorge Suarez      | Bible Boyz                                          | Orlando-FL         |   225 |  32.14 |      |
-|   15 | Jacob Flores      | CRK Almighty                                        | Gloucester City-NJ |   210 |  30.00 |    1 |
-|   16 | Nathan Henderson  | Bible Boyz                                          | Orlando-FL         |   180 |  25.71 |    2 |
-|   17 | Bethany Warren    | Harrison Thrashers                                  | Harrison-AR        |   180 |  25.71 |      |
-|   18 | Nick Cook         | The Illuminators                                    | Lawson-MO          |   160 |  22.86 |    1 |
-|   19 | Russell Flores    | CRK Almighty                                        | Gloucester City-NJ |   160 |  22.86 |      |
-|   20 | Joe Cheeli        | Quiz Kidz                                           | Scotch Plains-NJ   |   160 |  22.86 |      |
-|   21 | Ashlyn Sipes      | NERDS                                               | Bismarck-ND        |   145 |  20.71 |    1 |
-|   22 | Jordan Woodbine   | Bible Boyz                                          | Orlando-FL         |   140 |  20.00 |      |
-|   23 | Grace Schafhauser | Quiz Kidz                                           | Scotch Plains-NJ   |   135 |  19.29 |    1 |
-|   24 | Anna Schafhauser  | Quiz Kidz                                           | Scotch Plains-NJ   |   135 |  19.29 |    1 |
-|   25 | Benshel Bright    | Quiz Kidz                                           | Scotch Plains-NJ   |   110 |  15.71 |      |
-|   26 | Diana Bozzay      | S.P.Y. Kids 007                                     | Leesburg-VA        |    90 |  12.86 |      |
-|   27 | Josiah Baik       | Quiz Kidz                                           | Scotch Plains-NJ   |    90 |  12.86 |      |
-|   28 | Emily Walsh       | S.P.Y. Kids 007                                     | Leesburg-VA        |    75 |  10.71 |      |
-|   29 | Derek Leingang    | NERDS                                               | Bismarck-ND        |    70 |  10.00 |      |
-|   30 | Katherine Bozzay  | S.P.Y. Kids 007                                     | Leesburg-VA        |    60 |   8.57 |      |
-|   31 | Joanne Sinniah    | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |    55 |   7.86 |      |
-|   32 | Landon Holloway   | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |    40 |   5.71 |      |
-|   33 | Seth Archer       | The Illuminators                                    | Lawson-MO          |    20 |   2.86 |      |
-|   34 | Isabel Paul       | Harrison Thrashers                                  | Harrison-AR        |    20 |   2.86 |      |
+|    # | Quizzer           | Team                                               | Church             | Total |    Avg |   QO |
+| ---: | ----------------- | -------------------------------------------------- | ------------------ | ----: | -----: | ---: |
+|    1 | Joshua Sipes      | NERDS                                              | Bismarck-ND        |   890 | 127.14 |    3 |
+|    2 | Megumi Sinniah    | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |   600 |  85.71 |    3 |
+|    3 | Jonathan Archer   | The Illuminators                                   | Lawson-MO          |   530 |  75.71 |    1 |
+|    4 | Luke Yoder        | S.P.Y. Kids 007                                    | Leesburg-VA        |   520 |  74.29 |      |
+|    5 | Jonah Woodbine    | Bible Boyz                                         | Orlando-FL         |   500 |  71.43 |    1 |
+|    6 | Kerigan Bradshaw  | Harrison Thrashers                                 | Harrison-AR        |   495 |  70.71 |    4 |
+|    7 | Elijah Abad       | CRK Almighty                                       | Gloucester City-NJ |   395 |  56.43 |    2 |
+|    8 | Stanley Thomas    | Quiz Kidz                                          | Scotch Plains-NJ   |   385 |  55.00 |    2 |
+|    9 | Breanna Cole      | The Illuminators                                   | Lawson-MO          |   325 |  46.43 |    1 |
+|   10 | Jayden Freyer     | NERDS                                              | Bismarck-ND        |   295 |  42.14 |    2 |
+|   11 | Jillian Angeles   | CRK Almighty                                       | Gloucester City-NJ |   265 |  37.86 |      |
+|   12 | Nicholas Dillon   | Harrison Thrashers                                 | Harrison-AR        |   240 |  34.29 |      |
+|   13 | Sarah Judd        | S.P.Y. Kids 007                                    | Leesburg-VA        |   225 |  32.14 |    1 |
+|   14 | Jorge Suarez      | Bible Boyz                                         | Orlando-FL         |   225 |  32.14 |      |
+|   15 | Jacob Flores      | CRK Almighty                                       | Gloucester City-NJ |   210 |  30.00 |    1 |
+|   16 | Nathan Henderson  | Bible Boyz                                         | Orlando-FL         |   180 |  25.71 |    2 |
+|   17 | Bethany Warren    | Harrison Thrashers                                 | Harrison-AR        |   180 |  25.71 |      |
+|   18 | Nick Cook         | The Illuminators                                   | Lawson-MO          |   160 |  22.86 |    1 |
+|   19 | Russell Flores    | CRK Almighty                                       | Gloucester City-NJ |   160 |  22.86 |      |
+|   20 | Joe Cheeli        | Quiz Kidz                                          | Scotch Plains-NJ   |   160 |  22.86 |      |
+|   21 | Ashlyn Sipes      | NERDS                                              | Bismarck-ND        |   145 |  20.71 |    1 |
+|   22 | Jordan Woodbine   | Bible Boyz                                         | Orlando-FL         |   140 |  20.00 |      |
+|   23 | Grace Schafhauser | Quiz Kidz                                          | Scotch Plains-NJ   |   135 |  19.29 |    1 |
+|   24 | Anna Schafhauser  | Quiz Kidz                                          | Scotch Plains-NJ   |   135 |  19.29 |    1 |
+|   25 | Benshel Bright    | Quiz Kidz                                          | Scotch Plains-NJ   |   110 |  15.71 |      |
+|   26 | Diana Bozzay      | S.P.Y. Kids 007                                    | Leesburg-VA        |    90 |  12.86 |      |
+|   27 | Josiah Baik       | Quiz Kidz                                          | Scotch Plains-NJ   |    90 |  12.86 |      |
+|   28 | Emily Walsh       | S.P.Y. Kids 007                                    | Leesburg-VA        |    75 |  10.71 |      |
+|   29 | Derek Leingang    | NERDS                                              | Bismarck-ND        |    70 |  10.00 |      |
+|   30 | Katherine Bozzay  | S.P.Y. Kids 007                                    | Leesburg-VA        |    60 |   8.57 |      |
+|   31 | Joanne Sinniah    | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |    55 |   7.86 |      |
+|   32 | Landon Holloway   | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO         |    40 |   5.71 |      |
+|   33 | Seth Archer       | The Illuminators                                   | Lawson-MO          |    20 |   2.86 |      |
+|   34 | Isabel Paul       | Harrison Thrashers                                 | Harrison-AR        |    20 |   2.86 |      |
 
 
 ### Lavender
@@ -740,7 +740,7 @@ menubar_toc_static:
 |    3 | MCC Sonburst Bible Stars | Mechanicsville,-VA | 4/3 |  1025 | 146.43 |
 |    4 | Grace Assembly of God    | New Whiteland-IN   | 4/3 |  1205 | 172.14 |
 |    5 | Warriors in Training     | Columbiaville-MI   | 3/4 |  1005 | 143.57 |
-|    6 | Guardians Of God\'s Word | Cincinnati-OH      | 2/5 |   870 | 124.29 |
+|    6 | Guardians Of God's Word  | Cincinnati-OH      | 2/5 |   870 | 124.29 |
 |    7 | Fireball Quizzers        | Waxahachie-TX      | 2/5 |   805 | 115.00 |
 |    8 | First Responders         | Ozark-MO           | 2/5 |   750 | 107.14 |
 
@@ -755,11 +755,11 @@ menubar_toc_static:
 |    3 | Elliott Murray      | Grace Assembly of God    | New Whiteland-IN   |   510 |  72.86 |      |
 |    4 | Will Wolfe          | Naperville (S)           | Naperville-IL      |   445 |  63.57 |    6 |
 |    5 | Kelise Bratihwaite  | First Responders         | Ozark-MO           |   430 |  61.43 |      |
-|    6 | David Haynes        | Guardians Of God\'s Word | Cincinnati-OH      |   425 |  60.71 |    1 |
+|    6 | David Haynes        | Guardians Of God's Word  | Cincinnati-OH      |   425 |  60.71 |    1 |
 |    7 | Noah Zook           | MCC Sonburst Bible Stars | Mechanicsville,-VA |   365 |  52.14 |      |
 |    8 | Matthew Frick       | Two boys n the Houdes    | Billings-MT        |   350 |  50.00 |    2 |
 |    9 | Holly Bowen         | MCC Sonburst Bible Stars | Mechanicsville,-VA |   320 |  45.71 |      |
-|   10 | Gunnar Smart        | Guardians Of God\'s Word | Cincinnati-OH      |   320 |  45.71 |      |
+|   10 | Gunnar Smart        | Guardians Of God's Word  | Cincinnati-OH      |   320 |  45.71 |      |
 |   11 | Reuben Deemy        | Fireball Quizzers        | Waxahachie-TX      |   310 |  44.29 |    1 |
 |   12 | Ben Harsha          | Two boys n the Houdes    | Billings-MT        |   310 |  44.29 |      |
 |   13 | Claire Richardson   | Grace Assembly of God    | New Whiteland-IN   |   275 |  39.29 |      |
@@ -775,11 +775,11 @@ menubar_toc_static:
 |   23 | Jaqueline Martinez  | Fireball Quizzers        | Waxahachie-TX      |   135 |  19.29 |      |
 |   24 | Noel Siony          | Naperville (S)           | Naperville-IL      |   130 |  18.57 |      |
 |   25 | Maribel Castaneda   | Fireball Quizzers        | Waxahachie-TX      |   100 |  14.29 |      |
-|   26 | Jack Titkemeyer     | Guardians Of God\'s Word | Cincinnati-OH      |    90 |  12.86 |      |
+|   26 | Jack Titkemeyer     | Guardians Of God's Word  | Cincinnati-OH      |    90 |  12.86 |      |
 |   27 | Josiah Tonsing      | First Responders         | Ozark-MO           |    75 |  10.71 |      |
 |   28 | Jayda Houde         | Two boys n the Houdes    | Billings-MT        |    60 |   8.57 |      |
 |   29 | Kambria Braithwaite | First Responders         | Ozark-MO           |    40 |   5.71 |      |
-|   30 | Josh Kiefer         | Guardians Of God\'s Word | Cincinnati-OH      |    35 |   5.00 |      |
+|   30 | Josh Kiefer         | Guardians Of God's Word  | Cincinnati-OH      |    35 |   5.00 |      |
 |   31 | Eli Saenz           | Fireball Quizzers        | Waxahachie-TX      |    35 |   5.00 |      |
 |   32 | Ryan Shover         | Grace Assembly of God    | New Whiteland-IN   |    20 |   2.86 |      |
 |   33 | Noah Saenz          | Fireball Quizzers        | Waxahachie-TX      |    15 |   2.14 |      |
@@ -794,7 +794,7 @@ menubar_toc_static:
 |    # | Team                 | Church           | W/L | Total |    Avg |
 | ---: | -------------------- | ---------------- | --- | ----: | -----: |
 |    1 | Naperville (J)       | Naperville-IL    | 7/0 |  1305 | 186.43 |
-|    2 | Gideon\'s Army       | Huber Heights-OH | 6/1 |  1430 | 204.29 |
+|    2 | Gideon's Army        | Huber Heights-OH | 6/1 |  1430 | 204.29 |
 |    3 | Quadruple Threat + 2 | Cedar Hill-TX    | 3/4 |  1010 | 144.29 |
 |    4 | Tribulation Force    | Red Oak-TX       | 3/4 |   950 | 135.71 |
 |    5 | Firefighters         | Sanford-FL       | 3/4 |   855 | 122.14 |
@@ -808,14 +808,14 @@ menubar_toc_static:
 
 |    # | Quizzer            | Team                 | Church           | Total |    Avg |   QO |
 | ---: | ------------------ | -------------------- | ---------------- | ----: | -----: | ---: |
-|    1 | Sean Jones         | Gideon\'s Army       | Huber Heights-OH |   980 | 140.00 |    6 |
+|    1 | Sean Jones         | Gideon's Army        | Huber Heights-OH |   980 | 140.00 |    6 |
 |    2 | Jessica McElwee    | Naperville (J)       | Naperville-IL    |   865 | 123.57 |    5 |
 |    3 | Toby Robinson      | Firefighters         | Sanford-FL       |   665 |  95.00 |    3 |
 |    4 | Lily Slater        | Now-n-Laters         | Springfield-MO   |   550 |  78.57 |    4 |
 |    5 | Sara Ann Haimchand | Bethlehem Church     | Richmond Hill-NY |   390 |  55.71 |    3 |
 |    6 | Parker Lubbe       | Quadruple Threat + 2 | Cedar Hill-TX    |   390 |  55.71 |      |
 |    7 | Ty Silas           | Naperville (J)       | Naperville-IL    |   385 |  55.00 |    5 |
-|    8 | Gabriel Ison       | Gideon\'s Army       | Huber Heights-OH |   375 |  53.57 |    4 |
+|    8 | Gabriel Ison       | Gideon's Army        | Huber Heights-OH |   375 |  53.57 |    4 |
 |    9 | David Hipshire     | Tribulation Force    | Red Oak-TX       |   350 |  50.00 |      |
 |   10 | Kendall Calvery    | Quadruple Threat + 2 | Cedar Hill-TX    |   345 |  49.29 |      |
 |   11 | Johnathan Terrones | River of Life        | Kent-WA          |   320 |  45.71 |    2 |
@@ -830,12 +830,12 @@ menubar_toc_static:
 |   20 | Joy Okafor         | Bethlehem Church     | Richmond Hill-NY |   135 |  19.29 |      |
 |   21 | Emily Bulger       | River of Life        | Kent-WA          |    75 |  10.71 |      |
 |   22 | Erin Laboy         | Naperville (J)       | Naperville-IL    |    55 |   7.86 |      |
-|   23 | Jeannah Jones      | Gideon\'s Army       | Huber Heights-OH |    55 |   7.86 |      |
+|   23 | Jeannah Jones      | Gideon's Army        | Huber Heights-OH |    55 |   7.86 |      |
 |   24 | Joshua Persad      | Bethlehem Church     | Richmond Hill-NY |    50 |   7.14 |      |
 |   25 | Brady Coleman      | Tribulation Force    | Red Oak-TX       |    45 |   6.43 |      |
 |   26 | Emma Miller        | Quadruple Threat + 2 | Cedar Hill-TX    |    40 |   5.71 |      |
 |   27 | John Georgiades    | Now-n-Laters         | Springfield-MO   |    40 |   5.71 |      |
-|   28 | Ryleigh Jones      | Gideon\'s Army       | Huber Heights-OH |    20 |   2.86 |      |
+|   28 | Ryleigh Jones      | Gideon's Army        | Huber Heights-OH |    20 |   2.86 |      |
 |   29 | Jordan Perez       | Firefighters         | Sanford-FL       |    20 |   2.86 |      |
 |   30 | Emily Singh        | Bethlehem Church     | Richmond Hill-NY |    15 |   2.14 |      |
 |   31 | Christian Boodram  | Bethlehem Church     | Richmond Hill-NY |    10 |   1.43 |      |
@@ -856,7 +856,7 @@ menubar_toc_static:
 |    4 | Word of Life Lightbearers | Springfield-VA  | 3/4 |   690 |  98.57 |
 |    5 | Fort Wayne: Team Solomon  | Fort Wayne-IN   | 3/4 |   910 | 130.00 |
 |    6 | Truth Seekers             | Kearney-NE      | 2/5 |   940 | 134.29 |
-|    7 | God\'s Girlz              | Surprise-AZ     | 2/5 |   815 | 116.43 |
+|    7 | God's Girlz               | Surprise-AZ     | 2/5 |   815 | 116.43 |
 |    8 | 3 Men & A Lady            | Gahanna-OH      | 2/5 |   705 | 100.71 |
 
 #### Individuals
@@ -869,7 +869,7 @@ menubar_toc_static:
 |    2 | Alecia Rajesh       | Bible Treasure Seekers    | Greensboro-NC   |   620 |  88.57 |    1 |
 |    3 | Sheldon Powell      | Naperville (C)            | Naperville-IL   |   520 |  74.29 |    7 |
 |    4 | Moriah Johnson      | Truth Seekers             | Kearney-NE      |   510 |  72.86 |    2 |
-|    5 | Kenzie Brown        | God\'s Girlz              | Surprise-AZ     |   495 |  70.71 |    3 |
+|    5 | Kenzie Brown        | God's Girlz               | Surprise-AZ     |   495 |  70.71 |    3 |
 |    6 | Abigail Prejean     | Bible Treasure Seekers    | Greensboro-NC   |   485 |  69.29 |    3 |
 |    7 | Landin Jacquay      | Fort Wayne: Team Solomon  | Fort Wayne-IN   |   375 |  53.57 |    2 |
 |    8 | Celestine Demmer    | Kids for Christ           | Fergus Falls-MN |   350 |  50.00 |      |
@@ -877,7 +877,7 @@ menubar_toc_static:
 |   10 | RuthAnn Demmer      | Kids for Christ           | Fergus Falls-MN |   270 |  38.57 |      |
 |   11 | Dylan Stewart       | Fort Wayne: Team Solomon  | Fort Wayne-IN   |   260 |  37.14 |    3 |
 |   12 | Micah Demmer        | Kids for Christ           | Fergus Falls-MN |   240 |  34.29 |    1 |
-|   13 | Faith Brown         | God\'s Girlz              | Surprise-AZ     |   240 |  34.29 |      |
+|   13 | Faith Brown         | God's Girlz               | Surprise-AZ     |   240 |  34.29 |      |
 |   14 | Lydia Kidroske      | Bible Treasure Seekers    | Greensboro-NC   |   225 |  32.14 |      |
 |   15 | Elijah Wentz        | Truth Seekers             | Kearney-NE      |   215 |  30.71 |      |
 |   16 | Jacob Smith         | 3 Men & A Lady            | Gahanna-OH      |   205 |  29.29 |    1 |
@@ -893,16 +893,16 @@ menubar_toc_static:
 |   26 | Braden Shinn        | Fort Wayne: Team Solomon  | Fort Wayne-IN   |   105 |  15.00 |      |
 |   27 | Omrane Ouedraogo    | Word of Life Lightbearers | Springfield-VA  |    55 |   7.86 |      |
 |   28 | Brennan Hanson      | Truth Seekers             | Kearney-NE      |    45 |   6.43 |      |
-|   29 | McKenna Kollman     | God\'s Girlz              | Surprise-AZ     |    40 |   5.71 |      |
+|   29 | McKenna Kollman     | God's Girlz               | Surprise-AZ     |    40 |   5.71 |      |
 |   30 | Grayson Vestergaard | Fort Wayne: Team Solomon  | Fort Wayne-IN   |    30 |   4.29 |      |
-|   31 | Hannah Smith        | God\'s Girlz              | Surprise-AZ     |    30 |   4.29 |      |
+|   31 | Hannah Smith        | God's Girlz               | Surprise-AZ     |    30 |   4.29 |      |
 |   32 | Sierra Waugh        | Truth Seekers             | Kearney-NE      |    30 |   4.29 |      |
 |   33 | Madison Jacquay     | Fort Wayne: Team Solomon  | Fort Wayne-IN   |    20 |   2.86 |      |
 |   34 | Hannah Weagerle     | Bible Treasure Seekers    | Greensboro-NC   |    20 |   2.86 |      |
 |   35 | Aidan Rajesh        | Bible Treasure Seekers    | Greensboro-NC   |    20 |   2.86 |      |
 |   36 | Sierra Jacquay      | Fort Wayne: Team Solomon  | Fort Wayne-IN   |    10 |   1.43 |      |
 |   37 | Hannah Eckhardt     | Kids for Christ           | Fergus Falls-MN |    10 |   1.43 |      |
-|   38 | Abigail Deshais     | God\'s Girlz              | Surprise-AZ     |    10 |   1.43 |      |
+|   38 | Abigail Deshais     | God's Girlz               | Surprise-AZ     |    10 |   1.43 |      |
 
 
 ### Pink
@@ -942,7 +942,7 @@ menubar_toc_static:
 |   12 | Jabez Williams  | Bethel Eagles              | San Jose-CA    |   235 |  33.57 |      |
 |   13 | Holly Garrett   | North Scottsdale Christian | Scottsdale-AZ  |   230 |  32.86 |    1 |
 |   14 | Gabriel Roberts | Bethel Flames              | San Jose-CA    |   230 |  32.86 |      |
-|   15 | My\'Randa Tolar | Masters                    | Dodson-LA      |   210 |  30.00 |      |
+|   15 | My'Randa Tolar  | Masters                    | Dodson-LA      |   210 |  30.00 |      |
 |   16 | Tabitha Nirmal  | Bethel Eagles              | San Jose-CA    |   160 |  22.86 |      |
 |   17 | Gavin Kuruvilla | IAG Soaring Eagles         | Gilbert-AZ     |   160 |  22.86 |      |
 |   18 | Joanna Moses    | North Scottsdale Christian | Scottsdale-AZ  |   155 |  22.14 |      |
@@ -1013,7 +1013,7 @@ menubar_toc_static:
 |   24 | Timothy Crowley     | Eternal Eight    | Hamburg-PA      |    95 | 13.57 |      |
 |   25 | Garrett Adelmann    | BC United        | Wyckoff-NJ      |    85 | 12.14 |      |
 |   26 | Levi Biniakewitz    | Buzz Hogs        | Mabelvale-AR    |    80 | 11.43 |      |
-|   27 | Caleb O\'Neil       | S.O.S.           | Mikwaukee-WI    |    65 |  9.29 |      |
+|   27 | Caleb O'Neil        | S.O.S.           | Mikwaukee-WI    |    65 |  9.29 |      |
 |   28 | Carley Cox          | Eternal Eight    | Hamburg-PA      |    40 |  5.71 |      |
 |   29 | Victoria Weidner    | S.O.S.           | Mikwaukee-WI    |    40 |  5.71 |      |
 |   30 | Samantha Pieper     | S.O.S.           | Mikwaukee-WI    |    40 |  5.71 |      |
@@ -1033,54 +1033,54 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
-|    # | Team                            | Church           | W/L | Total |    Avg |
-| ---: | ------------------------------- | ---------------- | --- | ----: | -----: |
-|    1 | SALT                            | Greensboro-NC    | 7/0 |  1185 | 169.29 |
-|    2 | 105                             | Wesley Chapel-FL | 5/2 |  1115 | 159.29 |
-|    3 | TNT                             | Louisville-KY    | 4/3 |  1110 | 158.57 |
-|    4 | Vailsburg Victors               | Newark-NJ        | 3/4 |  1070 | 152.86 |
-|    5 | Searcy Fruit Loops              | Searcy-AR        | 3/4 |  1005 | 143.57 |
-|    6 | D.D.D.                          | Mustang-OK       | 3/4 |   875 | 125.00 |
-|    7 | Bismarck Boppin\' Bible Buzzers | Bismarck-ND      | 2/5 |   845 | 120.71 |
-|    8 | PCC Giant Slayers               | Portland-OR      | 1/6 |   495 |  70.71 |
+|    # | Team                           | Church           | W/L | Total |    Avg |
+| ---: | ------------------------------ | ---------------- | --- | ----: | -----: |
+|    1 | SALT                           | Greensboro-NC    | 7/0 |  1185 | 169.29 |
+|    2 | 105                            | Wesley Chapel-FL | 5/2 |  1115 | 159.29 |
+|    3 | TNT                            | Louisville-KY    | 4/3 |  1110 | 158.57 |
+|    4 | Vailsburg Victors              | Newark-NJ        | 3/4 |  1070 | 152.86 |
+|    5 | Searcy Fruit Loops             | Searcy-AR        | 3/4 |  1005 | 143.57 |
+|    6 | D.D.D.                         | Mustang-OK       | 3/4 |   875 | 125.00 |
+|    7 | Bismarck Boppin' Bible Buzzers | Bismarck-ND      | 2/5 |   845 | 120.71 |
+|    8 | PCC Giant Slayers              | Portland-OR      | 1/6 |   495 |  70.71 |
 
 #### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer             | Team                            | Church           | Total |   Avg |   QO |
-| ---: | ------------------- | ------------------------------- | ---------------- | ----: | ----: | ---: |
-|    1 | Connor Patterson    | SALT                            | Greensboro-NC    |   570 | 81.43 |    1 |
-|    2 | Brooklyne Sederwall | Vailsburg Victors               | Newark-NJ        |   525 | 75.00 |    1 |
-|    3 | Kaden Sago          | Bismarck Boppin\' Bible Buzzers | Bismarck-ND      |   520 | 74.29 |    1 |
-|    4 | Catrina Palmer      | 105                             | Wesley Chapel-FL |   520 | 74.29 |    1 |
-|    5 | Noah Barnes         | TNT                             | Louisville-KY    |   455 | 65.00 |    2 |
-|    6 | Isaiah Madonia      | SALT                            | Greensboro-NC    |   390 | 55.71 |    5 |
-|    7 | Trevor Webb         | TNT                             | Louisville-KY    |   355 | 50.71 |    1 |
-|    8 | Caleb Horn          | D.D.D.                          | Mustang-OK       |   355 | 50.71 |      |
-|    9 | Andrew Emberson     | Searcy Fruit Loops              | Searcy-AR        |   345 | 49.29 |      |
-|   10 | Helyn Dunn          | 105                             | Wesley Chapel-FL |   345 | 49.29 |      |
-|   11 | Allison Shipman     | Searcy Fruit Loops              | Searcy-AR        |   330 | 47.14 |      |
-|   12 | Trea Webb           | TNT                             | Louisville-KY    |   300 | 42.86 |    4 |
-|   13 | Lauren Grisham      | D.D.D.                          | Mustang-OK       |   285 | 40.71 |      |
-|   14 | Fran-jec Makoule    | Vailsburg Victors               | Newark-NJ        |   265 | 37.86 |    1 |
-|   15 | Gigi Palmer         | 105                             | Wesley Chapel-FL |   250 | 35.71 |    1 |
-|   16 | Rylan Sago          | Bismarck Boppin\' Bible Buzzers | Bismarck-ND      |   245 | 35.00 |    2 |
-|   17 | Acacia Todd         | Vailsburg Victors               | Newark-NJ        |   230 | 32.86 |      |
-|   18 | Dakota Marsh        | Searcy Fruit Loops              | Searcy-AR        |   185 | 26.43 |      |
-|   19 | Karina Settles      | SALT                            | Greensboro-NC    |   180 | 25.71 |      |
-|   20 | Daniel Duran Jr.    | PCC Giant Slayers               | Portland-OR      |   165 | 23.57 |    1 |
-|   21 | Landon Grisham      | D.D.D.                          | Mustang-OK       |   165 | 23.57 |      |
-|   22 | Ari Lauthner        | PCC Giant Slayers               | Portland-OR      |   155 | 22.14 |      |
-|   23 | Michael Shipman     | Searcy Fruit Loops              | Searcy-AR        |   145 | 20.71 |    1 |
-|   24 | Emiliano Duran      | PCC Giant Slayers               | Portland-OR      |   125 | 17.86 |      |
-|   25 | Brooke Leingang     | Bismarck Boppin\' Bible Buzzers | Bismarck-ND      |    80 | 11.43 |      |
-|   26 | Kailan Weidner      | D.D.D.                          | Mustang-OK       |    70 | 10.00 |      |
-|   27 | Sarah Settles       | SALT                            | Greensboro-NC    |    45 |  6.43 |      |
-|   28 | Marvelous Ekeh      | Vailsburg Victors               | Newark-NJ        |    40 |  5.71 |      |
-|   29 | Katya Brodsky       | PCC Giant Slayers               | Portland-OR      |    30 |  4.29 |      |
-|   30 | Evan Llafet         | PCC Giant Slayers               | Portland-OR      |    20 |  2.86 |      |
-|   31 | Mia Howell          | Vailsburg Victors               | Newark-NJ        |    20 |  2.86 |      |
+|    # | Quizzer             | Team                           | Church           | Total |   Avg |   QO |
+| ---: | ------------------- | ------------------------------ | ---------------- | ----: | ----: | ---: |
+|    1 | Connor Patterson    | SALT                           | Greensboro-NC    |   570 | 81.43 |    1 |
+|    2 | Brooklyne Sederwall | Vailsburg Victors              | Newark-NJ        |   525 | 75.00 |    1 |
+|    3 | Kaden Sago          | Bismarck Boppin' Bible Buzzers | Bismarck-ND      |   520 | 74.29 |    1 |
+|    4 | Catrina Palmer      | 105                            | Wesley Chapel-FL |   520 | 74.29 |    1 |
+|    5 | Noah Barnes         | TNT                            | Louisville-KY    |   455 | 65.00 |    2 |
+|    6 | Isaiah Madonia      | SALT                           | Greensboro-NC    |   390 | 55.71 |    5 |
+|    7 | Trevor Webb         | TNT                            | Louisville-KY    |   355 | 50.71 |    1 |
+|    8 | Caleb Horn          | D.D.D.                         | Mustang-OK       |   355 | 50.71 |      |
+|    9 | Andrew Emberson     | Searcy Fruit Loops             | Searcy-AR        |   345 | 49.29 |      |
+|   10 | Helyn Dunn          | 105                            | Wesley Chapel-FL |   345 | 49.29 |      |
+|   11 | Allison Shipman     | Searcy Fruit Loops             | Searcy-AR        |   330 | 47.14 |      |
+|   12 | Trea Webb           | TNT                            | Louisville-KY    |   300 | 42.86 |    4 |
+|   13 | Lauren Grisham      | D.D.D.                         | Mustang-OK       |   285 | 40.71 |      |
+|   14 | Fran-jec Makoule    | Vailsburg Victors              | Newark-NJ        |   265 | 37.86 |    1 |
+|   15 | Gigi Palmer         | 105                            | Wesley Chapel-FL |   250 | 35.71 |    1 |
+|   16 | Rylan Sago          | Bismarck Boppin' Bible Buzzers | Bismarck-ND      |   245 | 35.00 |    2 |
+|   17 | Acacia Todd         | Vailsburg Victors              | Newark-NJ        |   230 | 32.86 |      |
+|   18 | Dakota Marsh        | Searcy Fruit Loops             | Searcy-AR        |   185 | 26.43 |      |
+|   19 | Karina Settles      | SALT                           | Greensboro-NC    |   180 | 25.71 |      |
+|   20 | Daniel Duran Jr.    | PCC Giant Slayers              | Portland-OR      |   165 | 23.57 |    1 |
+|   21 | Landon Grisham      | D.D.D.                         | Mustang-OK       |   165 | 23.57 |      |
+|   22 | Ari Lauthner        | PCC Giant Slayers              | Portland-OR      |   155 | 22.14 |      |
+|   23 | Michael Shipman     | Searcy Fruit Loops             | Searcy-AR        |   145 | 20.71 |    1 |
+|   24 | Emiliano Duran      | PCC Giant Slayers              | Portland-OR      |   125 | 17.86 |      |
+|   25 | Brooke Leingang     | Bismarck Boppin' Bible Buzzers | Bismarck-ND      |    80 | 11.43 |      |
+|   26 | Kailan Weidner      | D.D.D.                         | Mustang-OK       |    70 | 10.00 |      |
+|   27 | Sarah Settles       | SALT                           | Greensboro-NC    |    45 |  6.43 |      |
+|   28 | Marvelous Ekeh      | Vailsburg Victors              | Newark-NJ        |    40 |  5.71 |      |
+|   29 | Katya Brodsky       | PCC Giant Slayers              | Portland-OR      |    30 |  4.29 |      |
+|   30 | Evan Llafet         | PCC Giant Slayers              | Portland-OR      |    20 |  2.86 |      |
+|   31 | Mia Howell          | Vailsburg Victors              | Newark-NJ        |    20 |  2.86 |      |
 
 
 ### White
@@ -1223,9 +1223,9 @@ menubar_toc_static:
 |    5 | Bible Jammers          | Sanford-FL       | 5/4 |  1350 | 150.00 |
 |    6 | Naperville (S)         | Naperville-IL    | 5/4 |  1315 | 146.11 |
 |    7 | The Illuminators       | Lawson-MO        | 4/5 |  1170 | 130.00 |
-|    8 | Gideon\'s Army         | Huber Heights-OH | 4/5 |  1215 | 135.00 |
+|    8 | Gideon's Army          | Huber Heights-OH | 4/5 |  1215 | 135.00 |
 |    9 | Naperville (J)         | Naperville-IL    | 3/6 |  1320 | 146.67 |
-|   10 | Super Q\'s             | Lexington-TN     | 0/9 |   920 | 102.22 |
+|   10 | Super Q's              | Lexington-TN     | 0/9 |   920 | 102.22 |
 
 #### Individuals
 
@@ -1235,7 +1235,7 @@ menubar_toc_static:
 | ---: | --------------- | ---------------------- | ---------------- | ----: | -----: | ---: |
 |    1 | Shreanna Powell | Naperville (C)         | Naperville-IL    |  1160 | 128.89 |    6 |
 |    2 | Joshua Sipes    | NERDS                  | Bismarck-ND      |   935 | 103.89 |    4 |
-|    3 | Sean Jones      | Gideon\'s Army         | Huber Heights-OH |   915 | 101.67 |    4 |
+|    3 | Sean Jones      | Gideon's Army          | Huber Heights-OH |   915 | 101.67 |    4 |
 |    4 | Jessica McElwee | Naperville (J)         | Naperville-IL    |   855 |  95.00 |    3 |
 |    5 | Peyton Goss     | Bible Jammers          | Sanford-FL       |   850 |  94.44 |    4 |
 |    6 | Jake Wolfe      | Naperville (S)         | Naperville-IL    |   835 |  92.78 |    2 |
@@ -1244,31 +1244,31 @@ menubar_toc_static:
 |    9 | Jonathan Archer | The Illuminators       | Lawson-MO        |   585 |  65.00 |    1 |
 |   10 | Matthew Frick   | Two boys n the Houdes  | Billings-MT      |   550 |  61.11 |    3 |
 |   11 | Breanna Cole    | The Illuminators       | Lawson-MO        |   480 |  53.33 |    4 |
-|   12 | Reuben Savage   | Super Q\'s             | Lexington-TN     |   460 |  51.11 |      |
+|   12 | Reuben Savage   | Super Q's              | Lexington-TN     |   460 |  51.11 |      |
 |   13 | Ben Harsha      | Two boys n the Houdes  | Billings-MT      |   450 |  50.00 |      |
 |   14 | Will Wolfe      | Naperville (S)         | Naperville-IL    |   440 |  48.89 |    4 |
 |   15 | Ty Silas        | Naperville (J)         | Naperville-IL    |   410 |  45.56 |    5 |
 |   16 | Tessa Houde     | Two boys n the Houdes  | Billings-MT      |   410 |  45.56 |      |
 |   17 | Sheldon Powell  | Naperville (C)         | Naperville-IL    |   390 |  43.33 |    4 |
-|   18 | Seth Savage     | Super Q\'s             | Lexington-TN     |   385 |  42.78 |    5 |
+|   18 | Seth Savage     | Super Q's              | Lexington-TN     |   385 |  42.78 |    5 |
 |   19 | Jayden Freyer   | NERDS                  | Bismarck-ND      |   280 |  31.11 |    1 |
 |   20 | Aubrey Goss     | Bible Jammers          | Sanford-FL       |   255 |  28.33 |    1 |
 |   21 | Cassidy Neal    | Bible Jammers          | Sanford-FL       |   245 |  27.22 |      |
 |   22 | Lydia Kidroske  | Bible Treasure Seekers | Greensboro-NC    |   220 |  24.44 |    1 |
-|   23 | Gabriel Ison    | Gideon\'s Army         | Huber Heights-OH |   215 |  23.89 |    1 |
+|   23 | Gabriel Ison    | Gideon's Army          | Huber Heights-OH |   215 |  23.89 |    1 |
 |   24 | Nick Cook       | The Illuminators       | Lawson-MO        |   105 |  11.67 |      |
 |   24 | Ashlyn Sipes    | NERDS                  | Bismarck-ND      |   105 |  11.67 |      |
 |   25 | Jayda Houde     | Two boys n the Houdes  | Billings-MT      |    80 |   8.89 |      |
-|   26 | Jeannah Jones   | Gideon\'s Army         | Huber Heights-OH |    55 |   6.11 |      |
+|   26 | Jeannah Jones   | Gideon's Army          | Huber Heights-OH |    55 |   6.11 |      |
 |   27 | Noel Siony      | Naperville (S)         | Naperville-IL    |    40 |   4.44 |      |
-|   27 | Jacob Webb      | Super Q\'s             | Lexington-TN     |    40 |   4.44 |      |
+|   27 | Jacob Webb      | Super Q's              | Lexington-TN     |    40 |   4.44 |      |
 |   27 | Derek Leingang  | NERDS                  | Bismarck-ND      |    40 |   4.44 |      |
-|   28 | Ryleigh Jones   | Gideon\'s Army         | Huber Heights-OH |    35 |   3.89 |      |
+|   28 | Ryleigh Jones   | Gideon's Army          | Huber Heights-OH |    35 |   3.89 |      |
 |   28 | Shaymis Powell  | Naperville (C)         | Naperville-IL    |    35 |   3.89 |      |
 |   28 | Erin Laboy      | Naperville (J)         | Naperville-IL    |    35 |   3.89 |      |
 |   29 | Justiss Silas   | Naperville (J)         | Naperville-IL    |    20 |   2.22 |      |
-|   29 | Dylan Cotham    | Super Q\'s             | Lexington-TN     |    20 |   2.22 |      |
-|   30 | Shelby Webb     | Super Q\'s             | Lexington-TN     |    15 |   1.67 |      |
+|   29 | Dylan Cotham    | Super Q's              | Lexington-TN     |    20 |   2.22 |      |
+|   30 | Shelby Webb     | Super Q's              | Lexington-TN     |    15 |   1.67 |      |
 |   31 | Hannah Weagerle | Bible Treasure Seekers | Greensboro-NC    |     5 |    .56 |      |
 |   32 | Julia Martello  | Bible Treasure Seekers | Greensboro-NC    |       |    .00 |      |
 |   32 | Seth Archer     | The Illuminators       | Lawson-MO        |       |    .00 |      |
@@ -1369,7 +1369,7 @@ menubar_toc_static:
 |    5 | Warriors in Training     | Columbiaville-MI | 4/5 |  1080 | 120.00 |
 |    6 | Fort Wayne: Team Solomon | Fort Wayne-IN    | 4/5 |   965 | 107.22 |
 |    7 | Harrison Thrashers       | Harrison-AR      | 3/6 |  1185 | 131.67 |
-|    8 | Guardians Of God\'s Word | Cincinnati-OH    | 3/6 |  1100 | 122.22 |
+|    8 | Guardians Of God's Word  | Cincinnati-OH    | 3/6 |  1100 | 122.22 |
 |    9 | Truth Seekers            | Kearney-NE       | 3/6 |   945 | 105.00 |
 |   10 | Cedar Park Eagles        | Bothell-WA       | 2/7 |  1150 | 127.78 |
 
@@ -1387,7 +1387,7 @@ menubar_toc_static:
 |    6 | Jonathan Robinson   | Firefighters             | Sanford-FL       |   585 |  65.00 |    5 |
 |    7 | Reid Jarrell        | Cedar Park Eagles        | Bothell-WA       |   570 |  63.33 |    2 |
 |    8 | Kerigan Bradshaw    | Harrison Thrashers       | Harrison-AR      |   545 |  60.56 |    2 |
-|    9 | Gunnar Smart        | Guardians Of God\'s Word | Cincinnati-OH    |   490 |  54.44 |      |
+|    9 | Gunnar Smart        | Guardians Of God's Word  | Cincinnati-OH    |   490 |  54.44 |      |
 |   10 | Sarah Judd          | S.P.Y. Kids 007          | Leesburg-VA      |   475 |  52.78 |    6 |
 |   11 | Johnathan Terrones  | River of Life            | Kent-WA          |   445 |  49.44 |    3 |
 |   12 | Landin Jacquay      | Fort Wayne: Team Solomon | Fort Wayne-IN    |   370 |  41.11 |      |
@@ -1395,8 +1395,8 @@ menubar_toc_static:
 |   14 | Trinity Garza       | Red Sea                  | Yorkville-IL     |   345 |  38.33 |    3 |
 |   15 | Hunter Hollin       | Warriors in Training     | Columbiaville-MI |   275 |  30.56 |    2 |
 |   16 | Bethany Warren      | Harrison Thrashers       | Harrison-AR      |   250 |  27.78 |      |
-|   17 | Jack Titkemeyer     | Guardians Of God\'s Word | Cincinnati-OH    |   245 |  27.22 |      |
-|   17 | David Haynes        | Guardians Of God\'s Word | Cincinnati-OH    |   245 |  27.22 |      |
+|   17 | Jack Titkemeyer     | Guardians Of God's Word  | Cincinnati-OH    |   245 |  27.22 |      |
+|   17 | David Haynes        | Guardians Of God's Word  | Cincinnati-OH    |   245 |  27.22 |      |
 |   18 | Dylan Stewart       | Fort Wayne: Team Solomon | Fort Wayne-IN    |   240 |  26.67 |    1 |
 |   18 | Diana Bozzay        | S.P.Y. Kids 007          | Leesburg-VA      |   240 |  26.67 |    1 |
 |   19 | Destiny Garza       | Red Sea                  | Yorkville-IL     |   240 |  26.67 |      |
@@ -1411,7 +1411,7 @@ menubar_toc_static:
 |   26 | Gabe Waggoner       | Cedar Park Eagles        | Bothell-WA       |   135 |  15.00 |      |
 |   27 | Emily Walsh         | S.P.Y. Kids 007          | Leesburg-VA      |   130 |  14.44 |      |
 |   28 | Tykus Gans          | Truth Seekers            | Kearney-NE       |   125 |  13.89 |      |
-|   28 | Josh Kiefer         | Guardians Of God\'s Word | Cincinnati-OH    |   125 |  13.89 |      |
+|   28 | Josh Kiefer         | Guardians Of God's Word  | Cincinnati-OH    |   125 |  13.89 |      |
 |   29 | Mateo Cuadros       | River of Life            | Kent-WA          |   110 |  12.22 |      |
 |   30 | Kellen Fairfield    | Cedar Park Eagles        | Bothell-WA       |    85 |   9.44 |      |
 |   31 | Grayson Vestergaard | Fort Wayne: Team Solomon | Fort Wayne-IN    |    55 |   6.11 |      |
@@ -1421,7 +1421,7 @@ menubar_toc_static:
 |   34 | Isabel Paul         | Harrison Thrashers       | Harrison-AR      |    40 |   4.44 |      |
 |   35 | Sierra Waugh        | Truth Seekers            | Kearney-NE       |    30 |   3.33 |      |
 |   35 | Trey Madsen         | Red Sea                  | Yorkville-IL     |    30 |   3.33 |      |
-|   36 | Jadyn Kleinhenz     | Guardians Of God\'s Word | Cincinnati-OH    |    20 |   2.22 |      |
+|   36 | Jadyn Kleinhenz     | Guardians Of God's Word  | Cincinnati-OH    |    20 |   2.22 |      |
 |   36 | Stephen King        | Fort Wayne: Team Solomon | Fort Wayne-IN    |    20 |   2.22 |      |
 |   37 | Brennan Hanson      | Truth Seekers            | Kearney-NE       |    15 |   1.67 |      |
 |   38 | Jordan Perez        | Firefighters             | Sanford-FL       |     5 |    .56 |    1 |
@@ -1430,7 +1430,7 @@ menubar_toc_static:
 |   40 | Joshua Daniels      | S.P.Y. Kids 007          | Leesburg-VA      |       |    .00 |      |
 |   40 | Tyler Benson        | Red Sea                  | Yorkville-IL     |       |    .00 |      |
 |   40 | Hailie Huntley      | Warriors in Training     | Columbiaville-MI |       |    .00 |      |
-|   41 | Julia Kiefer        | Guardians Of God\'s Word | Cincinnati-OH    |   -20 |  -2.22 |      |
+|   41 | Julia Kiefer        | Guardians Of God's Word  | Cincinnati-OH    |   -20 |  -2.22 |      |
 |   42 | Seth King           | Fort Wayne: Team Solomon | Fort Wayne-IN    |    -5 |  -0.56 |      |
 |   42 | Ben Malas           | Red Sea                  | Yorkville-IL     |    -5 |  -0.56 |      |
 
@@ -1441,76 +1441,76 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
-|    # | Team                                                | Church           | W/L | Total |    Avg |
-| ---: | --------------------------------------------------- | ---------------- | --- | ----: | -----: |
-|    1 | Bethlehem Church                                    | Richmond Hill-NY | 7/2 |  1550 | 172.22 |
-|    2 | Fireball Quizzers                                   | Waxahachie-TX    | 7/2 |  1405 | 156.11 |
-|    3 | New Life Renton                                     | Renton-WA        | 6/3 |  1365 | 151.67 |
-|    4 | Bible Boyz                                          | Orlando-FL       | 6/3 |  1490 | 165.56 |
-|    5 | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO       | 5/4 |  1520 | 168.89 |
-|    6 | First Responders                                    | Ozark-MO         | 5/4 |  1305 | 145.00 |
-|    7 | God\'s Girlz                                        | Surprise-AZ      | 4/5 |  1135 | 126.11 |
-|    8 | 3 Men & A Lady                                      | Gahanna-OH       | 2/7 |  1165 | 129.44 |
-|    9 | Lightning on Sundae                                 | Bonifay-FL       | 2/7 |  1055 | 117.22 |
-|   10 | Now-n-Laters                                        | Springfield-MO   | 1/8 |   900 | 100.00 |
+|    # | Team                                               | Church           | W/L | Total |    Avg |
+| ---: | -------------------------------------------------- | ---------------- | --- | ----: | -----: |
+|    1 | Bethlehem Church                                   | Richmond Hill-NY | 7/2 |  1550 | 172.22 |
+|    2 | Fireball Quizzers                                  | Waxahachie-TX    | 7/2 |  1405 | 156.11 |
+|    3 | New Life Renton                                    | Renton-WA        | 6/3 |  1365 | 151.67 |
+|    4 | Bible Boyz                                         | Orlando-FL       | 6/3 |  1490 | 165.56 |
+|    5 | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO       | 5/4 |  1520 | 168.89 |
+|    6 | First Responders                                   | Ozark-MO         | 5/4 |  1305 | 145.00 |
+|    7 | God's Girlz                                        | Surprise-AZ      | 4/5 |  1135 | 126.11 |
+|    8 | 3 Men & A Lady                                     | Gahanna-OH       | 2/7 |  1165 | 129.44 |
+|    9 | Lightning on Sundae                                | Bonifay-FL       | 2/7 |  1055 | 117.22 |
+|   10 | Now-n-Laters                                       | Springfield-MO   | 1/8 |   900 | 100.00 |
 
 #### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer                 | Team                                                | Church           | Total |    Avg |   QO |
-| ---: | ----------------------- | --------------------------------------------------- | ---------------- | ----: | -----: | ---: |
-|    1 | Russell Cook            | New Life Renton                                     | Renton-WA        |   930 | 103.33 |    5 |
-|    2 | Megumi Sinniah          | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO       |   890 |  98.89 |    4 |
-|    3 | Brenden Kent            | 3 Men & A Lady                                      | Gahanna-OH       |   760 |  84.44 |    2 |
-|    4 | Kelise Bratihwaite      | First Responders                                    | Ozark-MO         |   730 |  81.11 |    4 |
-|    5 | Reuben Deemy            | Fireball Quizzers                                   | Waxahachie-TX    |   565 |  62.78 |    3 |
-|    6 | Sara Ann Haimchand      | Bethlehem Church                                    | Richmond Hill-NY |   510 |  56.67 |    4 |
-|    7 | Nathan Henderson        | Bible Boyz                                          | Orlando-FL       |   495 |  55.00 |    7 |
-|    8 | Jonah Woodbine          | Bible Boyz                                          | Orlando-FL       |   485 |  53.89 |    1 |
-|    9 | Lily Slater             | Now-n-Laters                                        | Springfield-MO   |   390 |  43.33 |    1 |
-|   10 | Kenzie Brown            | God\'s Girlz                                        | Surprise-AZ      |   380 |  42.22 |    2 |
-|   11 | Jordan Woodbine         | Bible Boyz                                          | Orlando-FL       |   370 |  41.11 |      |
-|   12 | Joanne Sinniah          | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO       |   365 |  40.56 |      |
-|   13 | Joshua Persad           | Bethlehem Church                                    | Richmond Hill-NY |   355 |  39.44 |      |
-|   14 | Joy Okafor              | Bethlehem Church                                    | Richmond Hill-NY |   350 |  38.89 |    1 |
-|   14 | Micah Tonsing           | First Responders                                    | Ozark-MO         |   350 |  38.89 |    1 |
-|   15 | Andrew Warren           | Lightning on Sundae                                 | Bonifay-FL       |   350 |  38.89 |      |
-|   16 | Vinton Deemy            | Fireball Quizzers                                   | Waxahachie-TX    |   325 |  36.11 |    1 |
-|   17 | McKenna Kollman         | God\'s Girlz                                        | Surprise-AZ      |   320 |  35.56 |      |
-|   18 | Faith Brown             | God\'s Girlz                                        | Surprise-AZ      |   315 |  35.00 |    1 |
-|   19 | Madison Ealum           | Lightning on Sundae                                 | Bonifay-FL       |   310 |  34.44 |      |
-|   20 | Nathan Jacobs           | New Life Renton                                     | Renton-WA        |   290 |  32.22 |    1 |
-|   21 | Landon Clark            | Now-n-Laters                                        | Springfield-MO   |   265 |  29.44 |      |
-|   22 | Jacob Smith             | 3 Men & A Lady                                      | Gahanna-OH       |   245 |  27.22 |    2 |
-|   23 | JJ Paul                 | Lightning on Sundae                                 | Bonifay-FL       |   245 |  27.22 |    1 |
-|   24 | John Georgiades         | Now-n-Laters                                        | Springfield-MO   |   230 |  25.56 |      |
-|   25 | Dwayne Bacchus          | Bethlehem Church                                    | Richmond Hill-NY |   220 |  24.44 |      |
-|   26 | Landon Holloway         | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO       |   210 |  23.33 |    1 |
-|   27 | Eli Saenz               | Fireball Quizzers                                   | Waxahachie-TX    |   165 |  18.33 |      |
-|   28 | Katie Mair              | 3 Men & A Lady                                      | Gahanna-OH       |   160 |  17.78 |      |
-|   29 | Josiah Tonsing          | First Responders                                    | Ozark-MO         |   145 |  16.11 |      |
-|   30 | Maribel Castaneda       | Fireball Quizzers                                   | Waxahachie-TX    |   140 |  15.56 |      |
-|   30 | Jorge Suarez            | Bible Boyz                                          | Orlando-FL       |   140 |  15.56 |      |
-|   31 | Jaqueline Martinez      | Fireball Quizzers                                   | Waxahachie-TX    |   135 |  15.00 |      |
-|   32 | Hannah Smith            | God\'s Girlz                                        | Surprise-AZ      |   120 |  13.33 |      |
-|   33 | Ellen Jacobs            | New Life Renton                                     | Renton-WA        |    95 |  10.56 |      |
-|   34 | Joshua Gangaram         | Bethlehem Church                                    | Richmond Hill-NY |    90 |  10.00 |      |
-|   35 | Emilie Justice          | Lightning on Sundae                                 | Bonifay-FL       |    75 |   8.33 |      |
-|   35 | Noah Saenz              | Fireball Quizzers                                   | Waxahachie-TX    |    75 |   8.33 |      |
-|   35 | Morgan Zepp             | Lightning on Sundae                                 | Bonifay-FL       |    75 |   8.33 |      |
-|   36 | Kambria Braithwaite     | First Responders                                    | Ozark-MO         |    70 |   7.78 |      |
-|   37 | Cage Holloway           | God\'s Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO       |    55 |   6.11 |      |
-|   38 | Gideon Jennings         | New Life Renton                                     | Renton-WA        |    30 |   3.33 |      |
-|   39 | Shanessa Pooranampillai | New Life Renton                                     | Renton-WA        |    20 |   2.22 |      |
-|   39 | Emily Singh             | Bethlehem Church                                    | Richmond Hill-NY |    20 |   2.22 |      |
-|   40 | Caleb Horsch            | Now-n-Laters                                        | Springfield-MO   |    15 |   1.67 |      |
-|   41 | Kosette Braithwaite     | First Responders                                    | Ozark-MO         |    10 |   1.11 |      |
-|   42 | Christian Boodram       | Bethlehem Church                                    | Richmond Hill-NY |     5 |    .56 |      |
-|   43 | Belen Castaneda         | Fireball Quizzers                                   | Waxahachie-TX    |       |    .00 |      |
-|   43 | Briona Pieters          | Bethlehem Church                                    | Richmond Hill-NY |       |    .00 |      |
-|   43 | Abigail Deshais         | God\'s Girlz                                        | Surprise-AZ      |       |    .00 |      |
-|   43 | JJ Mair                 | 3 Men & A Lady                                      | Gahanna-OH       |       |    .00 |      |
+|    # | Quizzer                 | Team                                               | Church           | Total |    Avg |   QO |
+| ---: | ----------------------- | -------------------------------------------------- | ---------------- | ----: | -----: | ---: |
+|    1 | Russell Cook            | New Life Renton                                    | Renton-WA        |   930 | 103.33 |    5 |
+|    2 | Megumi Sinniah          | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO       |   890 |  98.89 |    4 |
+|    3 | Brenden Kent            | 3 Men & A Lady                                     | Gahanna-OH       |   760 |  84.44 |    2 |
+|    4 | Kelise Bratihwaite      | First Responders                                   | Ozark-MO         |   730 |  81.11 |    4 |
+|    5 | Reuben Deemy            | Fireball Quizzers                                  | Waxahachie-TX    |   565 |  62.78 |    3 |
+|    6 | Sara Ann Haimchand      | Bethlehem Church                                   | Richmond Hill-NY |   510 |  56.67 |    4 |
+|    7 | Nathan Henderson        | Bible Boyz                                         | Orlando-FL       |   495 |  55.00 |    7 |
+|    8 | Jonah Woodbine          | Bible Boyz                                         | Orlando-FL       |   485 |  53.89 |    1 |
+|    9 | Lily Slater             | Now-n-Laters                                       | Springfield-MO   |   390 |  43.33 |    1 |
+|   10 | Kenzie Brown            | God's Girlz                                        | Surprise-AZ      |   380 |  42.22 |    2 |
+|   11 | Jordan Woodbine         | Bible Boyz                                         | Orlando-FL       |   370 |  41.11 |      |
+|   12 | Joanne Sinniah          | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO       |   365 |  40.56 |      |
+|   13 | Joshua Persad           | Bethlehem Church                                   | Richmond Hill-NY |   355 |  39.44 |      |
+|   14 | Joy Okafor              | Bethlehem Church                                   | Richmond Hill-NY |   350 |  38.89 |    1 |
+|   14 | Micah Tonsing           | First Responders                                   | Ozark-MO         |   350 |  38.89 |    1 |
+|   15 | Andrew Warren           | Lightning on Sundae                                | Bonifay-FL       |   350 |  38.89 |      |
+|   16 | Vinton Deemy            | Fireball Quizzers                                  | Waxahachie-TX    |   325 |  36.11 |    1 |
+|   17 | McKenna Kollman         | God's Girlz                                        | Surprise-AZ      |   320 |  35.56 |      |
+|   18 | Faith Brown             | God's Girlz                                        | Surprise-AZ      |   315 |  35.00 |    1 |
+|   19 | Madison Ealum           | Lightning on Sundae                                | Bonifay-FL       |   310 |  34.44 |      |
+|   20 | Nathan Jacobs           | New Life Renton                                    | Renton-WA        |   290 |  32.22 |    1 |
+|   21 | Landon Clark            | Now-n-Laters                                       | Springfield-MO   |   265 |  29.44 |      |
+|   22 | Jacob Smith             | 3 Men & A Lady                                     | Gahanna-OH       |   245 |  27.22 |    2 |
+|   23 | JJ Paul                 | Lightning on Sundae                                | Bonifay-FL       |   245 |  27.22 |    1 |
+|   24 | John Georgiades         | Now-n-Laters                                       | Springfield-MO   |   230 |  25.56 |      |
+|   25 | Dwayne Bacchus          | Bethlehem Church                                   | Richmond Hill-NY |   220 |  24.44 |      |
+|   26 | Landon Holloway         | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO       |   210 |  23.33 |    1 |
+|   27 | Eli Saenz               | Fireball Quizzers                                  | Waxahachie-TX    |   165 |  18.33 |      |
+|   28 | Katie Mair              | 3 Men & A Lady                                     | Gahanna-OH       |   160 |  17.78 |      |
+|   29 | Josiah Tonsing          | First Responders                                   | Ozark-MO         |   145 |  16.11 |      |
+|   30 | Maribel Castaneda       | Fireball Quizzers                                  | Waxahachie-TX    |   140 |  15.56 |      |
+|   30 | Jorge Suarez            | Bible Boyz                                         | Orlando-FL       |   140 |  15.56 |      |
+|   31 | Jaqueline Martinez      | Fireball Quizzers                                  | Waxahachie-TX    |   135 |  15.00 |      |
+|   32 | Hannah Smith            | God's Girlz                                        | Surprise-AZ      |   120 |  13.33 |      |
+|   33 | Ellen Jacobs            | New Life Renton                                    | Renton-WA        |    95 |  10.56 |      |
+|   34 | Joshua Gangaram         | Bethlehem Church                                   | Richmond Hill-NY |    90 |  10.00 |      |
+|   35 | Emilie Justice          | Lightning on Sundae                                | Bonifay-FL       |    75 |   8.33 |      |
+|   35 | Noah Saenz              | Fireball Quizzers                                  | Waxahachie-TX    |    75 |   8.33 |      |
+|   35 | Morgan Zepp             | Lightning on Sundae                                | Bonifay-FL       |    75 |   8.33 |      |
+|   36 | Kambria Braithwaite     | First Responders                                   | Ozark-MO         |    70 |   7.78 |      |
+|   37 | Cage Holloway           | God's Quad Squad Returns, Tri Lakes Church, Branso | Branson-MO       |    55 |   6.11 |      |
+|   38 | Gideon Jennings         | New Life Renton                                    | Renton-WA        |    30 |   3.33 |      |
+|   39 | Shanessa Pooranampillai | New Life Renton                                    | Renton-WA        |    20 |   2.22 |      |
+|   39 | Emily Singh             | Bethlehem Church                                   | Richmond Hill-NY |    20 |   2.22 |      |
+|   40 | Caleb Horsch            | Now-n-Laters                                       | Springfield-MO   |    15 |   1.67 |      |
+|   41 | Kosette Braithwaite     | First Responders                                   | Ozark-MO         |    10 |   1.11 |      |
+|   42 | Christian Boodram       | Bethlehem Church                                   | Richmond Hill-NY |     5 |    .56 |      |
+|   43 | Belen Castaneda         | Fireball Quizzers                                  | Waxahachie-TX    |       |    .00 |      |
+|   43 | Briona Pieters          | Bethlehem Church                                   | Richmond Hill-NY |       |    .00 |      |
+|   43 | Abigail Deshais         | God's Girlz                                        | Surprise-AZ      |       |    .00 |      |
+|   43 | JJ Mair                 | 3 Men & A Lady                                     | Gahanna-OH       |       |    .00 |      |
 
 
 ### Pink
@@ -1639,7 +1639,7 @@ menubar_toc_static:
 |   29 | Timothy Crowley            | Eternal Eight      | Hamburg-PA       |   140 |  15.56 |      |
 |   30 | Calvin Lee                 | Double-Edged Sword | Irvine-CA        |   130 |  14.44 |      |
 |   31 | Andrew Li                  | Double-Edged Sword | Irvine-CA        |   125 |  13.89 |      |
-|   32 | Caleb O\'Neil              | S.O.S.             | Mikwaukee-WI     |   110 |  12.22 |      |
+|   32 | Caleb O'Neil               | S.O.S.             | Mikwaukee-WI     |   110 |  12.22 |      |
 |   33 | Brandon Baer               | Brickmasters       | Racine-WI        |   100 |  11.11 |      |
 |   34 | Reagan McCreary            | Spirit Squadron    | West Mifflin -PA |    95 |  10.56 |      |
 |   35 | Joshua Zhang               | Double-Edged Sword | Irvine-CA        |    75 |   8.33 |      |
@@ -1760,67 +1760,67 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points (Scores sorted by TOTAL)*
 
-|    # | Team                            | Church          | W/L | Total |    Avg |
-| ---: | ------------------------------- | --------------- | --- | ----: | -----: |
-|    1 | Bismarck Boppin\' Bible Buzzers | Bismarck-ND     | 8/1 |  1570 | 174.44 |
-|    2 | DAG Church                      | Decatur-AR      | 7/2 |  1525 | 169.44 |
-|    3 | CIA - Special Agents            | Mendon-MA       | 6/3 |  1515 | 168.33 |
-|    4 | Westgate A Team                 | Edmonds-WA      | 5/4 |  1300 | 144.44 |
-|    5 | Kidtricity                      | Montgomery-AL   | 5/4 |  1225 | 136.11 |
-|    6 | PCC Giant Slayers               | Portland-OR     | 4/5 |  1335 | 148.33 |
-|    7 | Chosen Ones                     | Houston-TX      | 3/6 |  1105 | 122.78 |
-|    8 | Freedom Fighters                | Collierville-TN | 3/6 |  1130 | 125.56 |
-|    9 | Salt Shakers                    | Lubbock-TX      | 2/7 |  1075 | 119.44 |
-|   10 | Masters                         | Dodson-LA       | 2/7 |   740 |  82.22 |
+|    # | Team                           | Church          | W/L | Total |    Avg |
+| ---: | ------------------------------ | --------------- | --- | ----: | -----: |
+|    1 | Bismarck Boppin' Bible Buzzers | Bismarck-ND     | 8/1 |  1570 | 174.44 |
+|    2 | DAG Church                     | Decatur-AR      | 7/2 |  1525 | 169.44 |
+|    3 | CIA - Special Agents           | Mendon-MA       | 6/3 |  1515 | 168.33 |
+|    4 | Westgate A Team                | Edmonds-WA      | 5/4 |  1300 | 144.44 |
+|    5 | Kidtricity                     | Montgomery-AL   | 5/4 |  1225 | 136.11 |
+|    6 | PCC Giant Slayers              | Portland-OR     | 4/5 |  1335 | 148.33 |
+|    7 | Chosen Ones                    | Houston-TX      | 3/6 |  1105 | 122.78 |
+|    8 | Freedom Fighters               | Collierville-TN | 3/6 |  1130 | 125.56 |
+|    9 | Salt Shakers                   | Lubbock-TX      | 2/7 |  1075 | 119.44 |
+|   10 | Masters                        | Dodson-LA       | 2/7 |   740 |  82.22 |
 
 #### Individuals
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer           | Team                            | Church          | Total |    Avg |   QO |
-| ---: | ----------------- | ------------------------------- | --------------- | ----: | -----: | ---: |
-|    1 | Noah Ku           | Westgate A Team                 | Edmonds-WA      |  1060 | 117.78 |    7 |
-|    2 | Kaden Sago        | Bismarck Boppin\' Bible Buzzers | Bismarck-ND     |  1035 | 115.00 |    3 |
-|    3 | Samy Gunaraj      | Freedom Fighters                | Collierville-TN |   870 |  96.67 |    5 |
-|    4 | Tayla Vannelli    | CIA - Special Agents            | Mendon-MA       |   695 |  77.22 |    1 |
-|    5 | Amanda Duncan     | DAG Church                      | Decatur-AR      |   690 |  76.67 |    3 |
-|    6 | Christian Hart    | Kidtricity                      | Montgomery-AL   |   585 |  65.00 |      |
-|    7 | Brendon Johnson   | Salt Shakers                    | Lubbock-TX      |   500 |  55.56 |    1 |
-|    8 | Shannon Morrill   | CIA - Special Agents            | Mendon-MA       |   490 |  54.44 |    2 |
-|    9 | Angel McNeil      | Salt Shakers                    | Lubbock-TX      |   465 |  51.67 |    4 |
-|   10 | Matt Anderson     | DAG Church                      | Decatur-AR      |   450 |  50.00 |    5 |
-|   11 | Ari Lauthner      | PCC Giant Slayers               | Portland-OR     |   440 |  48.89 |    1 |
-|   12 | My\'Randa Tolar   | Masters                         | Dodson-LA       |   405 |  45.00 |    3 |
-|   13 | Daniel Duran Jr.  | PCC Giant Slayers               | Portland-OR     |   400 |  44.44 |    1 |
-|   14 | Chizaram Ajiwe    | Chosen Ones                     | Houston-TX      |   375 |  41.67 |    1 |
-|   15 | Rylan Sago        | Bismarck Boppin\' Bible Buzzers | Bismarck-ND     |   355 |  39.44 |    2 |
-|   16 | Trey Anderson     | DAG Church                      | Decatur-AR      |   335 |  37.22 |      |
-|   17 | Kaylen Williams   | Masters                         | Dodson-LA       |   310 |  34.44 |      |
-|   18 | James Patterson   | Kidtricity                      | Montgomery-AL   |   290 |  32.22 |    1 |
-|   19 | Micah Brown       | Kidtricity                      | Montgomery-AL   |   275 |  30.56 |      |
-|   20 | Evan Llafet       | PCC Giant Slayers               | Portland-OR     |   265 |  29.44 |      |
-|   21 | Josiah Tveit      | Westgate A Team                 | Edmonds-WA      |   245 |  27.22 |    2 |
-|   22 | Stephanie Oyolu   | Chosen Ones                     | Houston-TX      |   210 |  23.33 |      |
-|   23 | Danielle Hanks    | Freedom Fighters                | Collierville-TN |   200 |  22.22 |    1 |
-|   24 | Chimezirim Nwogu  | Chosen Ones                     | Houston-TX      |   190 |  21.11 |    2 |
-|   25 | Fatih Caughey     | CIA - Special Agents            | Mendon-MA       |   190 |  21.11 |      |
-|   26 | Emiliano Duran    | PCC Giant Slayers               | Portland-OR     |   175 |  19.44 |      |
-|   27 | Brooke Leingang   | Bismarck Boppin\' Bible Buzzers | Bismarck-ND     |   145 |  16.11 |      |
-|   27 | Michelle Vannelli | CIA - Special Agents            | Mendon-MA       |   145 |  16.11 |      |
-|   28 | Rachel Mgbeike    | Chosen Ones                     | Houston-TX      |   125 |  13.89 |      |
-|   29 | Kelton Johnson    | Salt Shakers                    | Lubbock-TX      |   110 |  12.22 |      |
-|   30 | Michael Wooten    | Chosen Ones                     | Houston-TX      |    95 |  10.56 |    1 |
-|   31 | Vistoria Wooten   | Chosen Ones                     | Houston-TX      |    85 |   9.44 |    1 |
-|   32 | Trey Hanks        | Freedom Fighters                | Collierville-TN |    60 |   6.67 |      |
-|   32 | Katya Brodsky     | PCC Giant Slayers               | Portland-OR     |    60 |   6.67 |      |
-|   33 | Johanna Day       | DAG Church                      | Decatur-AR      |    55 |   6.11 |      |
-|   34 | Brandon Martin    | Kidtricity                      | Montgomery-AL   |    45 |   5.00 |      |
-|   35 | Wayne Ellis       | Chosen Ones                     | Houston-TX      |    35 |   3.89 |      |
-|   35 | Kaylee Freyer     | Bismarck Boppin\' Bible Buzzers | Bismarck-ND     |    35 |   3.89 |      |
-|   36 | Skyla Walker      | Masters                         | Dodson-LA       |    30 |   3.33 |      |
-|   36 | Jessie Lipska     | Kidtricity                      | Montgomery-AL   |    30 |   3.33 |      |
-|   37 | Grace McNeil      | Salt Shakers                    | Lubbock-TX      |       |    .00 |      |
-|   37 | Amber Lydon       | DAG Church                      | Decatur-AR      |       |    .00 |      |
-|   38 | Nicole Ellis      | Chosen Ones                     | Houston-TX      |   -10 |  -1.11 |      |
-|   39 | Ethan Walker      | Masters                         | Dodson-LA       |    -5 |  -0.56 |      |
+|    # | Quizzer           | Team                           | Church          | Total |    Avg |   QO |
+| ---: | ----------------- | ------------------------------ | --------------- | ----: | -----: | ---: |
+|    1 | Noah Ku           | Westgate A Team                | Edmonds-WA      |  1060 | 117.78 |    7 |
+|    2 | Kaden Sago        | Bismarck Boppin' Bible Buzzers | Bismarck-ND     |  1035 | 115.00 |    3 |
+|    3 | Samy Gunaraj      | Freedom Fighters               | Collierville-TN |   870 |  96.67 |    5 |
+|    4 | Tayla Vannelli    | CIA - Special Agents           | Mendon-MA       |   695 |  77.22 |    1 |
+|    5 | Amanda Duncan     | DAG Church                     | Decatur-AR      |   690 |  76.67 |    3 |
+|    6 | Christian Hart    | Kidtricity                     | Montgomery-AL   |   585 |  65.00 |      |
+|    7 | Brendon Johnson   | Salt Shakers                   | Lubbock-TX      |   500 |  55.56 |    1 |
+|    8 | Shannon Morrill   | CIA - Special Agents           | Mendon-MA       |   490 |  54.44 |    2 |
+|    9 | Angel McNeil      | Salt Shakers                   | Lubbock-TX      |   465 |  51.67 |    4 |
+|   10 | Matt Anderson     | DAG Church                     | Decatur-AR      |   450 |  50.00 |    5 |
+|   11 | Ari Lauthner      | PCC Giant Slayers              | Portland-OR     |   440 |  48.89 |    1 |
+|   12 | My'Randa Tolar    | Masters                        | Dodson-LA       |   405 |  45.00 |    3 |
+|   13 | Daniel Duran Jr.  | PCC Giant Slayers              | Portland-OR     |   400 |  44.44 |    1 |
+|   14 | Chizaram Ajiwe    | Chosen Ones                    | Houston-TX      |   375 |  41.67 |    1 |
+|   15 | Rylan Sago        | Bismarck Boppin' Bible Buzzers | Bismarck-ND     |   355 |  39.44 |    2 |
+|   16 | Trey Anderson     | DAG Church                     | Decatur-AR      |   335 |  37.22 |      |
+|   17 | Kaylen Williams   | Masters                        | Dodson-LA       |   310 |  34.44 |      |
+|   18 | James Patterson   | Kidtricity                     | Montgomery-AL   |   290 |  32.22 |    1 |
+|   19 | Micah Brown       | Kidtricity                     | Montgomery-AL   |   275 |  30.56 |      |
+|   20 | Evan Llafet       | PCC Giant Slayers              | Portland-OR     |   265 |  29.44 |      |
+|   21 | Josiah Tveit      | Westgate A Team                | Edmonds-WA      |   245 |  27.22 |    2 |
+|   22 | Stephanie Oyolu   | Chosen Ones                    | Houston-TX      |   210 |  23.33 |      |
+|   23 | Danielle Hanks    | Freedom Fighters               | Collierville-TN |   200 |  22.22 |    1 |
+|   24 | Chimezirim Nwogu  | Chosen Ones                    | Houston-TX      |   190 |  21.11 |    2 |
+|   25 | Fatih Caughey     | CIA - Special Agents           | Mendon-MA       |   190 |  21.11 |      |
+|   26 | Emiliano Duran    | PCC Giant Slayers              | Portland-OR     |   175 |  19.44 |      |
+|   27 | Brooke Leingang   | Bismarck Boppin' Bible Buzzers | Bismarck-ND     |   145 |  16.11 |      |
+|   27 | Michelle Vannelli | CIA - Special Agents           | Mendon-MA       |   145 |  16.11 |      |
+|   28 | Rachel Mgbeike    | Chosen Ones                    | Houston-TX      |   125 |  13.89 |      |
+|   29 | Kelton Johnson    | Salt Shakers                   | Lubbock-TX      |   110 |  12.22 |      |
+|   30 | Michael Wooten    | Chosen Ones                    | Houston-TX      |    95 |  10.56 |    1 |
+|   31 | Vistoria Wooten   | Chosen Ones                    | Houston-TX      |    85 |   9.44 |    1 |
+|   32 | Trey Hanks        | Freedom Fighters               | Collierville-TN |    60 |   6.67 |      |
+|   32 | Katya Brodsky     | PCC Giant Slayers              | Portland-OR     |    60 |   6.67 |      |
+|   33 | Johanna Day       | DAG Church                     | Decatur-AR      |    55 |   6.11 |      |
+|   34 | Brandon Martin    | Kidtricity                     | Montgomery-AL   |    45 |   5.00 |      |
+|   35 | Wayne Ellis       | Chosen Ones                    | Houston-TX      |    35 |   3.89 |      |
+|   35 | Kaylee Freyer     | Bismarck Boppin' Bible Buzzers | Bismarck-ND     |    35 |   3.89 |      |
+|   36 | Skyla Walker      | Masters                        | Dodson-LA       |    30 |   3.33 |      |
+|   36 | Jessie Lipska     | Kidtricity                     | Montgomery-AL   |    30 |   3.33 |      |
+|   37 | Grace McNeil      | Salt Shakers                   | Lubbock-TX      |       |    .00 |      |
+|   37 | Amber Lydon       | DAG Church                     | Decatur-AR      |       |    .00 |      |
+|   38 | Nicole Ellis      | Chosen Ones                    | Houston-TX      |   -10 |  -1.11 |      |
+|   39 | Ethan Walker      | Masters                        | Dodson-LA       |    -5 |  -0.56 |      |
 

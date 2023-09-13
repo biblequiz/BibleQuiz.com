@@ -325,7 +325,7 @@ menubar_toc_static:
 |  4.0 | Maple Grove, MN (Life Assemblies of God Church)      | 10 / 5 |  2730 |   182 |   14 |  91% |
 |  5.1 | Shelby Township, MI (Lakeside R)                     | 9 / 6  |  2620 | 174.7 |   10 |  80% |
 |  6.0 | Bowling Green, OH (Dayspring Church)                 | 9 / 6  |  2525 | 168.3 |   14 |  80% |
-|  7.0 | Carrollton, TX (God\'s Holy Guacamole)               | 8 / 7  |  2390 | 159.3 |    8 |  82% |
+|  7.0 | Carrollton, TX (God's Holy Guacamole)                | 8 / 7  |  2390 | 159.3 |    8 |  82% |
 |  8.0 | Springfield, VA (Gospel Quizzers)                    | 8 / 7  |  2390 | 159.3 |   14 |  90% |
 |  9.0 | Bonifay, FL (MACA (Making America Christian Again))  | 8 / 7  |  2220 |   148 |    6 |  76% |
 | 10.0 | Indianapolis, IN (Church52 Family Worship Center)    | 7 / 8  |  2090 | 139.3 |    9 |  86% |
@@ -356,10 +356,10 @@ menubar_toc_static:
 |       12 | Amanda Weiler        | Fruitland Park, FL (Faithful Force)                  |   990 |    66 |    3 |  88% |
 |       13 | Brady Womble         | Bonifay, FL (MACA (Making America Christian Again))  |   980 |  65.3 |    2 |  87% |
 |       14 | Izundu Ike           | Houston, TX (The Chosen Warriors)                    |   925 |  61.7 |   10 |  83% |
-|       15 | Nathan Beckham       | Carrollton, TX (God\'s Holy Guacamole)               |   900 |    60 |      |  92% |
+|       15 | Nathan Beckham       | Carrollton, TX (God's Holy Guacamole)                |   900 |    60 |      |  92% |
 |       16 | Kaleb Stanley        | Mechanicsville, VA (Mechanicsville Christian Center) |   895 |  59.7 |    4 |  73% |
 |       17 | James Barney         | Shelby Township, MI (Lakeside R)                     |   840 |    56 |      |  82% |
-|       18 | Luke Osborn          | Carrollton, TX (God\'s Holy Guacamole)               |   765 |    51 |    6 |  85% |
+|       18 | Luke Osborn          | Carrollton, TX (God's Holy Guacamole)                |   765 |    51 |    6 |  85% |
 |       19 | Ty Glanzer           | Fargo, ND (Conquerers of Puny gods)                  |   730 |  48.7 |      |  79% |
 |       20 | Adelyn Davis         | Bowling Green, OH (Dayspring Church)                 |   720 |    48 |    6 |  87% |
 |       21 | Ope Alabi            | Fargo, ND (Conquerers of Puny gods)                  |   715 |  47.7 |    7 |  79% |
@@ -374,7 +374,7 @@ menubar_toc_static:
 |       29 | Charlie Womble       | Bonifay, FL (MACA (Making America Christian Again))  |   475 |  31.7 |    3 |  77% |
 |       30 | Roman Doboszenski    | Maple Grove, MN (Life Assemblies of God Church)      |   475 |  31.7 |    1 |  91% |
 |       31 | Simon Solomon        | Garland, TX (Keepers of the Command)                 |   440 |  29.3 |    2 |  68% |
-|       32 | Sadhana Paulson      | Carrollton, TX (God\'s Holy Guacamole)               |   430 |  28.7 |      |  68% |
+|       32 | Sadhana Paulson      | Carrollton, TX (God's Holy Guacamole)                |   430 |  28.7 |      |  68% |
 |       33 | Jason Ukonu          | Houston, TX (The Chosen Warriors)                    |   425 |  28.3 |    1 |  79% |
 |       34 | Abigail Riverson     | Springfield, VA (Gospel Quizzers)                    |   415 |  27.7 |    3 | 100% |
 |       35 | Jayden Ramesh        | Garland, TX (Keepers of the Command)                 |   380 |  25.3 |    2 |  65% |
@@ -383,7 +383,7 @@ menubar_toc_static:
 |       38 | Kayden Johnson       | Jacksonville, AR (Bethel Assembly of God)            |   310 |  20.7 |      |  97% |
 |       39 | Jovanny Adu-Gyamfi   | Houston, TX (The Chosen Warriors)                    |   295 |  19.7 |      |  74% |
 |       40 | Eleena Shelton       | Cordova, TN (Word Wise Quiz Kids)                    |   290 |  19.3 |      |  83% |
-|       41 | Trotter Smith        | Carrollton, TX (God\'s Holy Guacamole)               |   285 |    19 |    2 |  74% |
+|       41 | Trotter Smith        | Carrollton, TX (God's Holy Guacamole)                |   285 |    19 |    2 |  74% |
 |       42 | Leah Novit           | Indianapolis, IN (Church52 Family Worship Center)    |   280 |  18.7 |    1 |  93% |
 |       43 | Autumn Weiler        | Fruitland Park, FL (Faithful Force)                  |   240 |    16 |      |  82% |
 |       44 | Luke Thompson        | Fruitland Park, FL (Faithful Force)                  |   210 |    14 |      |  92% |
@@ -407,7 +407,7 @@ menubar_toc_static:
 |       59 | Owen McAfee          | Indianapolis, IN (Church52 Family Worship Center)    |    25 |   1.7 |      |  75% |
 |       60 | Briana Halley        | Shelby Township, MI (Lakeside R)                     |    20 |   1.3 |      |  75% |
 |       61 | David Womble         | Bonifay, FL (MACA (Making America Christian Again))  |    15 |     1 |      |  66% |
-|       62 | James Moreland       | Carrollton, TX (God\'s Holy Guacamole)               |    10 |    .7 |      |  99% |
+|       62 | James Moreland       | Carrollton, TX (God's Holy Guacamole)                |    10 |    .7 |      |  99% |
 | **\*62** | Chloe Garcia         | Mechanicsville, VA (Mechanicsville Christian Center) |    10 |    .7 |      |  99% |
 | **\*62** | Mercy Dahlmeier      | Fargo, ND (Conquerers of Puny gods)                  |    10 |    .7 |      |  99% |
 |       63 | Joseph Barthalow     | Cordova, TN (Word Wise Quiz Kids)                    |     0 |       |      |  33% |
@@ -569,7 +569,7 @@ menubar_toc_static:
 |  6.0 | Georgetown, KY (All 4 Christ!)                 | 3 / 5 |  1175 | 146.9 |    4 |  80% |
 |  7.0 | Charlotte, NC (Greater Quizzers)               | 2 / 6 |   970 | 121.2 |    3 |  84% |
 |  8.0 | Oak Creek, WI (Swords of the Spirit)           | 2 / 6 |   930 | 116.2 |    1 |  79% |
-|  9.0 | Carrollton, TX (God\'s Holy Guacamole)         | 2 / 6 |   895 | 111.9 |    1 |  75% |
+|  9.0 | Carrollton, TX (God's Holy Guacamole)          | 2 / 6 |   895 | 111.9 |    1 |  75% |
 
 #### Individuals
 
@@ -589,20 +589,20 @@ menubar_toc_static:
 |       10 | Adelyn Davis        | Bowling Green, OH (Dayspring Church)           |   365 |  45.6 |    3 |  84% |
 |       11 | Evan Burlingame     | New Richmond, WI (Cornerstone Assembly of God) |   310 |  38.8 |    3 |  74% |
 |       12 | Aubrey Salyer       | Georgetown, KY (All 4 Christ!)                 |   310 |  38.8 |    2 |  84% |
-|       13 | Nathan Beckham      | Carrollton, TX (God\'s Holy Guacamole)         |   310 |  38.8 |      |  94% |
+|       13 | Nathan Beckham      | Carrollton, TX (God's Holy Guacamole)          |   310 |  38.8 |      |  94% |
 |       14 | Kritagya Shrestha   | Apple Valley, MN (River Valley Church)         |   290 |  36.3 |    2 |  76% |
 |       15 | Caleb Channing      | New Richmond, WI (Cornerstone Assembly of God) |   280 |    35 |      |  62% |
 |       16 | Audriana Hirning    | Apple Valley, MN (River Valley Church)         |   270 |  33.8 |      |  83% |
 | **\*16** | Jason Gleason       | Oak Creek, WI (Swords of the Spirit)           |   270 |  33.8 |      |  81% |
 |       17 | Caleb Barnes        | Bowling Green, OH (Dayspring Church)           |   240 |    30 |      |  89% |
-|       18 | Trotter Smith       | Carrollton, TX (God\'s Holy Guacamole)         |   235 |  29.4 |    1 |  72% |
+|       18 | Trotter Smith       | Carrollton, TX (God's Holy Guacamole)          |   235 |  29.4 |    1 |  72% |
 |       19 | Zoe Nerquaye-Tetteh | Bristow, VA (Chapel Springs Fountains)         |   230 |  28.8 |    1 |  70% |
 |       20 | Vicente Rivera      | Montgomery, AL (Sacred Fire)                   |   215 |  26.9 |    1 |  72% |
-|       21 | Sadhana Paulson     | Carrollton, TX (God\'s Holy Guacamole)         |   210 |  26.3 |      |  69% |
+|       21 | Sadhana Paulson     | Carrollton, TX (God's Holy Guacamole)          |   210 |  26.3 |      |  69% |
 |       22 | Sofia Gonzalez      | Montgomery, AL (Sacred Fire)                   |   180 |  22.5 |      |  67% |
 | **\*22** | Kwabena Akuffo      | Bristow, VA (Chapel Springs Fountains)         |   180 |  22.5 |      |  67% |
 |       23 | Lucas Mank          | Oak Creek, WI (Swords of the Spirit)           |   150 |  18.8 |      |  78% |
-|       24 | Luke Osborn         | Carrollton, TX (God\'s Holy Guacamole)         |   140 |  17.5 |      |  69% |
+|       24 | Luke Osborn         | Carrollton, TX (God's Holy Guacamole)          |   140 |  17.5 |      |  69% |
 |       25 | Ava Addo            | Bristow, VA (Chapel Springs Fountains)         |   105 |  13.1 |      |  59% |
 |       26 | Ethan Davis         | Bowling Green, OH (Dayspring Church)           |    90 |  11.3 |      |  86% |
 |       27 | Shea Walsh          | Apple Valley, MN (River Valley Church)         |    65 |   8.1 |      |  87% |
@@ -623,7 +623,7 @@ menubar_toc_static:
 | **\*35** | Lucy Winkler        | Bowling Green, OH (Dayspring Church)           |    10 |   1.3 |      |  99% |
 | **\*35** | Josh Winkler        | Bowling Green, OH (Dayspring Church)           |    10 |   1.3 |      |  99% |
 | **\*35** | Charisma McKennett  | Bristow, VA (Chapel Springs Fountains)         |    10 |   1.3 |      |  99% |
-|       36 | James Moreland      | Carrollton, TX (God\'s Holy Guacamole)         |     0 |       |      |      |
+|       36 | James Moreland      | Carrollton, TX (God's Holy Guacamole)          |     0 |       |      |      |
 
 
 ### Orange

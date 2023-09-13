@@ -93,7 +93,7 @@ menubar_toc_static:
 |  4.0 | Supreme Skittles (Faith Assembly of God)                                        | 3 / 3 |   815 | 135.8 |    2 |  80% |
 |  5.1 | Fantastic Four (Faith Assembly of God)                                          | 2 / 4 |   575 |  95.8 |    1 |  77% |
 |  6.0 | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) | 2 / 4 |   560 |  93.3 |    3 |  91% |
-|  7.0 | Lord\'s Warriors (Faith Assembly of God)                                        | 1 / 5 |   550 |  91.7 |    1 |  76% |
+|  7.0 | Lord's Warriors (Faith Assembly of God)                                         | 1 / 5 |   550 |  91.7 |    1 |  76% |
 
 ### Individuals
 
@@ -105,7 +105,7 @@ menubar_toc_static:
 |        2 | Christian Gonzalez  | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 |   750 |   125 |    4 |  85% |
 |        3 | Victoria Okoh       | CLC Messengers of Hope (Christian Life Center)                                  |   500 |  83.3 |    5 |  95% |
 |        4 | Isabella Kirchon    | Victory Church (Lakeland) #1 (Victory Church)                                   |   485 |  80.8 |    5 |  92% |
-|        5 | Cristina Rios       | Lord\'s Warriors (Faith Assembly of God)                                        |   380 |  63.3 |    1 |  87% |
+|        5 | Cristina Rios       | Lord's Warriors (Faith Assembly of God)                                         |   380 |  63.3 |    1 |  87% |
 |        6 | Bree Lamas          | Supreme Skittles (Faith Assembly of God)                                        |   360 |    60 |    1 |  86% |
 |        7 | Allen Chamberlain   | Supreme Skittles (Faith Assembly of God)                                        |   340 |  56.7 |    1 |  75% |
 |        8 | Josiah Scott        | Fantastic Four (Faith Assembly of God)                                          |   315 |  52.5 |    1 |  76% |
@@ -113,10 +113,10 @@ menubar_toc_static:
 |       10 | Arianna Myers       | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) |   280 |  46.7 |    1 |  94% |
 |       11 | Enyichi Ohiaeriaku  | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) |   205 |  34.2 |    2 |  86% |
 |       12 | Nathanael Scott     | Fantastic Four (Faith Assembly of God)                                          |   175 |  29.2 |      |  93% |
-|       13 | Gabriel Curren      | Lord\'s Warriors (Faith Assembly of God)                                        |   120 |    20 |      |  64% |
+|       13 | Gabriel Curren      | Lord's Warriors (Faith Assembly of God)                                         |   120 |    20 |      |  64% |
 |       14 | Michael Reilly      | Supreme Skittles (Faith Assembly of God)                                        |   100 |  16.7 |      |  85% |
 |       15 | Zachary Reilly      | Fantastic Four (Faith Assembly of God)                                          |    60 |    10 |      |  55% |
-|       16 | Andrea Bonilla      | Lord\'s Warriors (Faith Assembly of God)                                        |    50 |   8.3 |      |  64% |
+|       16 | Andrea Bonilla      | Lord's Warriors (Faith Assembly of God)                                         |    50 |   8.3 |      |  64% |
 |       17 | Makayla Weatherholt | Victory Church (Lakeland) #1 (Victory Church)                                   |    45 |   7.5 |      |  83% |
 |       18 | Daniella Myers      | Freedom Tabernacle Kids (Freedom Christian Fellowship of the Assemblies of God) |    40 |   6.7 |      | 100% |
 | **\*18** | Lorelai Moreno      | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 |    40 |   6.7 |      | 100% |
@@ -127,7 +127,7 @@ menubar_toc_static:
 |       22 | Marvens Geffard     | CLC Messengers of Hope (Christian Life Center)                                  |     5 |    .8 |      |  50% |
 |       23 | Jeremiah Mejia      | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 |     0 |       |      |  50% |
 | **\*23** | Taylor Harrison     | Harvest Assembly of God (Lakeland) #2 (Harvest Assembly of God)                 |     0 |       |      |      |
-| **\*23** | Logan Godfrey       | Lord\'s Warriors (Faith Assembly of God)                                        |     0 |       |      |      |
+| **\*23** | Logan Godfrey       | Lord's Warriors (Faith Assembly of God)                                         |     0 |       |      |      |
 |       24 | Pleasant Okoh       | CLC Messengers of Hope (Christian Life Center)                                  |   -10 |  -1.7 |      |      |
 
 
@@ -215,7 +215,7 @@ menubar_toc_static:
 |        7 | Joshua Paltrow       | The Warriors of JBQ (Trinity Assembly of God)                                 |   200 |  33.3 |      | 100% |
 |  **\*7** | Olivia Lugo          | The Warriors of JBQ (Trinity Assembly of God)                                 |   200 |  33.3 |      | 100% |
 |        8 | Gaby Tedeman         | Bethel Temple (Tampa) #1 (Bethel Temple)                                      |   180 |    30 |      | 100% |
-|        9 | Je\'siah King-Howard | The Warriors of JBQ (Trinity Assembly of God)                                 |   165 |  27.5 |      |  81% |
+|        9 | Je'siah King-Howard  | The Warriors of JBQ (Trinity Assembly of God)                                 |   165 |  27.5 |      |  81% |
 |       10 | Stephan Jules        | CLC Blessed Hope (Christian Life Center)                                      |   130 |  21.7 |      |  65% |
 |       11 | Kirra Perry          | Kandy Quizzers - LIFE Church A/G (LIFE Church Assembly of God)                |   125 |  20.8 |      |  93% |
 |       12 | Emma Stagg           | Oxford Assembly of God (Oxford) #1 (Oxford Assembly of God)                   |   120 |    20 |      | 100% |

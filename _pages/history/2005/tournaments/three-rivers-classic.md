@@ -34,18 +34,18 @@ menubar_toc_static:
 
 ### Top Individuals
 
-|    # | Quizzer                             | Team  |  Total |  Avg |
-| ---: | ----------------------------------- | ----- | -----: | ---: |
-|    1 | Jonathan Galliers - Lexington 1     | 1,365 | 136.50 |    9 |
-|    2 | Patti Sunseri - Spring City         | 1,230 | 123.00 |    8 |
-|    3 | C.J. Barna - Crossway - Team 1      | 890   |  89.00 |    5 |
-|    4 | Micah Buckels - Lexington 1         | 850   |  85.00 |    8 |
-|    5 | Clayton DeFazio - Crossway - Team 2 | 735   |  73.00 |    6 |
-|    6 | Eddy Ferreira - Dunwoody            | 700   |  70.00 |    5 |
-|    7 | Elyssa DeFazio - Crossway - Team 1  | 680   |  68.00 |    4 |
-|    8 | Lisa Everett - New Philadelphia     | 655   |  65.50 |    2 |
-|    9 | Amy Semple - Syracuse               | 615   |  61.50 |    4 |
-|   10 | Brandy Steel - Toledo               | 525   |  52.50 |    2 |
+|    # | Quizzer           | Team              | Total |    Avg |   QO |
+| ---: | ----------------- | ----------------- | ----: | -----: | ---: |
+|    1 | Jonathan Galliers | Lexington 1       | 1,365 | 136.50 |    9 |
+|    2 | Patti Sunseri     | Spring City       | 1,230 | 123.00 |    8 |
+|    3 | C.J. Barna        | Crossway - Team 1 |   890 |  89.00 |    5 |
+|    4 | Micah Buckels     | Lexington 1       |   850 |  85.00 |    8 |
+|    5 | Clayton DeFazio   | Crossway - Team 2 |   735 |  73.00 |    6 |
+|    6 | Eddy Ferreira     | Dunwoody          |   700 |  70.00 |    5 |
+|    7 | Elyssa DeFazio    | Crossway - Team 1 |   680 |  68.00 |    4 |
+|    8 | Lisa Everett      | New Philadelphia  |   655 |  65.50 |    2 |
+|    9 | Amy Semple        | Syracuse          |   615 |  61.50 |    4 |
+|   10 | Brandy Steel      | Toledo            |   525 |  52.50 |    2 |
 
 ## Novice Division
 
@@ -69,15 +69,15 @@ menubar_toc_static:
 
 ### Top Individuals
 
-|    # | Quizzer                          | Team  |  Total |  Avg |
-| ---: | -------------------------------- | ----- | -----: | ---: |
-|    1 | Andrea Darmahkasih, Toledo       | 1,090 | 109.00 |    5 |
-|    2 | Isabelle Lex, Dunwoody           | 1,000 | 100.00 |    6 |
-|    3 | Yoki Belay, Dunwoody             | 725   |  72.50 |    3 |
-|    4 | Lucas Cox, Lexington             | 680   |  68.00 |    3 |
-|    5 | Candice Conrad, Lebanon          | 680   |  68.00 |    2 |
-|    6 | Josh Buettner, Lexington         | 670   |  67.00 |    4 |
-|    7 | Rommie Brown, South Hills - 1    | 635   |  63.50 |    4 |
-|    8 | David Beer, Sarver, PA           | 610   |  61.00 |    4 |
-|    9 | Michelle Bennett - Spring City 1 | 600   |  60.00 |    2 |
-|   10 | Brandon Powell, South Hills - 1  | 485   |  48.50 |    2 |
+|    # | Quizzer            | Team            | Total |    Avg |   QO |
+| ---: | ------------------ | --------------- | ----: | -----: | ---: |
+|    1 | Andrea Darmahkasih | Toledo          | 1,090 | 109.00 |    5 |
+|    2 | Isabelle Lex       | Dunwoody        | 1,000 | 100.00 |    6 |
+|    3 | Yoki Belay         | Dunwoody        |   725 |  72.50 |    3 |
+|    4 | Lucas Cox          | Lexington       |   680 |  68.00 |    3 |
+|    5 | Candice Conrad     | Lebanon         |   680 |  68.00 |    2 |
+|    6 | Josh Buettner      | Lexington       |   670 |  67.00 |    4 |
+|    7 | Rommie Brown       | South Hills - 1 |   635 |  63.50 |    4 |
+|    8 | David Beer         | Sarver, PA      |   610 |  61.00 |    4 |
+|    9 | Michelle Bennett   | Spring City 1   |   600 |  60.00 |    2 |
+|   10 | Brandon Powell     | South Hills - 1 |   485 |  48.50 |    2 |

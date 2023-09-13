@@ -55,7 +55,7 @@ menubar_toc_static:
 |    9 | Rachel Seidel           | Kids For Christ             | Fergus Falls, MN  |   945 |  67.50 |    1 |
 |   10 | Levi Anderson           | Gospel Gators               | Sanford, FL       |   915 |  65.36 |      |
 |   11 | Mary Meddaugh           | Muskogee Armored Saints     | Muskogee, OK      |   895 |  63.93 |    3 |
-|   12 | Elijah O\'Brien         | Angel Agents                | Brookfield, WI    |   875 |  62.50 |      |
+|   12 | Elijah O'Brien          | Angel Agents                | Brookfield, WI    |   875 |  62.50 |      |
 |   13 | Peyton Goss             | Gospel Gators               | Sanford, FL       |   845 |  60.36 |    5 |
 |   14 | Rachael Singh           | Bethlehem Church            | Richmond Hill, NY |   840 |  60.00 |    1 |
 |   15 | Paul Meddaugh           | Muskogee Armored Saints     | Muskogee, OK      |   810 |  57.86 |    4 |
@@ -69,7 +69,7 @@ menubar_toc_static:
 |   23 | Stephanie Hamel         | Word Warriors               | Mendon, MA        |   595 |  42.50 |    1 |
 |   24 | Jonathan Gomez          | Jedi Masters                | Elkhart, IN       |   590 |  42.14 |    5 |
 |   25 | Linsie Melugin          | Quizzer Chicks              | Pleasanton, KS    |   590 |  42.14 |    2 |
-|   26 | Elizabeth O\'Brien      | Angel Agents                | Brookfield, WI    |   555 |  39.64 |      |
+|   26 | Elizabeth O'Brien       | Angel Agents                | Brookfield, WI    |   555 |  39.64 |      |
 |   27 | Nathan Willis           | Ashland 1st A/G             | Ashland, AL       |   540 |  38.57 |    4 |
 |   28 | Jesse Ugstad            | Kids For Christ             | Fergus Falls, MN  |   510 |  36.43 |      |
 |   29 | Beatrice=Elizabeth Ross | Bible Cadets                | Escondido, CA     |   450 |  32.14 |    3 |
@@ -250,7 +250,7 @@ menubar_toc_static:
 | ---: | ------------------------------------------ | -------------------- | ---- | ----: | -----: |
 |    1 | Lifeguards                                 | Dayton, OH           | 13/2 |  2670 | 178.00 |
 |    2 | Wenatchee 1st A/G                          | Wenatchee, WA        | 12/3 |  2595 | 173.00 |
-|    3 | God\'s Quad Squad                          | Branson, MO          | 11/4 |  2450 | 163.33 |
+|    3 | God's Quad Squad                           | Branson, MO          | 11/4 |  2450 | 163.33 |
 |    4 | Quiz Kids                                  | Dripping Springs, TX | 9/6  |  2415 | 161.00 |
 |    5 | Askewville                                 | Askewville, NC       | 9/6  |  2575 | 171.67 |
 |    6 | The Fruitz                                 | Kansas City, MO      | 8/7  |  2060 | 137.33 |
@@ -272,7 +272,7 @@ menubar_toc_static:
 |    # | Quizzer             | Team                                       | Church               | Total |    Avg |   QO |
 | ---: | ------------------- | ------------------------------------------ | -------------------- | ----: | -----: | ---: |
 |    1 | Blake Isaacs        | Lifeguards                                 | Dayton, OH           |  1730 | 115.33 |   10 |
-|    2 | Joseph Pingleton    | God\'s Quad Squad                          | Branson, MO          |  1645 | 109.67 |    7 |
+|    2 | Joseph Pingleton    | God's Quad Squad                           | Branson, MO          |  1645 | 109.67 |    7 |
 |    3 | Issac Kandavalli    | Living Hope                                | Swedesboro, NJ       |  1570 | 104.67 |    8 |
 |    4 | Mikylla Davy        | Wenatchee 1st A/G                          | Wenatchee, WA        |  1510 | 100.67 |    4 |
 |    5 | Devin Ferguson      | The Fruitz                                 | Kansas City, MO      |  1290 |  86.00 |    2 |
@@ -290,23 +290,23 @@ menubar_toc_static:
 |   17 | Austin Harr         | Learners Under Discipline                  | East Lansing, MI     |   700 |  46.67 |    8 |
 |   18 | Will Bazemore       | Askewville                                 | Askewville, NC       |   655 |  43.67 |    7 |
 |   19 | Josiah Pait         | DeLand Jesus Freaks                        | DeLand, FL           |   620 |  41.33 |    4 |
-|   20 | Erin O\'Mara        | S.P.Y. Friends                             | Leesburg, VA         |   620 |  41.33 |      |
+|   20 | Erin O'Mara         | S.P.Y. Friends                             | Leesburg, VA         |   620 |  41.33 |      |
 |   21 | Hannah Brown        | Quiz Kids                                  | Dripping Springs, TX |   615 |  41.00 |      |
 |   22 | Madison Guzman      | The Interrupters - Pardon the Interruption | Rockford, IL         |   605 |  40.33 |    3 |
 |   23 | Kelsey Anderson     | Wenatchee 1st A/G                          | Wenatchee, WA        |   595 |  39.67 |    2 |
 |   23 | Madison Heath       | FBI (Faithful Bible Investigators)         | Lakeville, MN        |   595 |  39.67 |    2 |
 |   24 | Tia Lubinski        | FBI (Faithful Bible Investigators)         | Lakeville, MN        |   580 |  38.67 |      |
 |   25 | Eden Brock          | An Army of Three                           | Hanford, CA          |   520 |  34.67 |      |
-|   26 | Brian O\'Mara       | S.P.Y. Friends                             | Leesburg, VA         |   515 |  34.33 |    4 |
+|   26 | Brian O'Mara        | S.P.Y. Friends                             | Leesburg, VA         |   515 |  34.33 |    4 |
 |   27 | Caleb Jones         | Lifeguards                                 | Dayton, OH           |   515 |  34.33 |    3 |
 |   28 | Gabrielle Davy      | Wenatchee 1st A/G                          | Wenatchee, WA        |   490 |  32.67 |    2 |
 |   29 | Kayla Sowers        | S.P.Y. Friends                             | Leesburg, VA         |   480 |  32.00 |      |
 |   30 | Michael Joen        | JAG                                        | Meriden, KS          |   470 |  31.33 |      |
 |   31 | Connor Ferguson     | The Fruitz                                 | Kansas City, MO      |   465 |  31.00 |    4 |
 |   32 | James Maddox        | Buzz Hogs                                  | Mabelvale, AR        |   455 |  30.33 |    2 |
-|   33 | Luke Cooper         | God\'s Quad Squad                          | Branson, MO          |   410 |  27.33 |    2 |
+|   33 | Luke Cooper         | God's Quad Squad                           | Branson, MO          |   410 |  27.33 |    2 |
 |   34 | Katrina Dowdy       | Living Hope                                | Swedesboro, NJ       |   405 |  27.00 |    1 |
-|   35 | Tino Stevens        | God\'s Quad Squad                          | Branson, MO          |   395 |  26.33 |    2 |
+|   35 | Tino Stevens        | God's Quad Squad                           | Branson, MO          |   395 |  26.33 |    2 |
 |   35 | Tyler McCartney     | Learners Under Discipline                  | East Lansing, MI     |   395 |  26.33 |    2 |
 |   36 | Kirsten Andrews     | Learners Under Discipline                  | East Lansing, MI     |   355 |  23.67 |    1 |
 |   37 | Reece Skinner       | Quiz Kids                                  | Dripping Springs, TX |   335 |  22.33 |    2 |
@@ -342,7 +342,7 @@ menubar_toc_static:
 |   62 | Hannah Hill         | Living Hope                                | Swedesboro, NJ       |     5 |    .33 |      |
 |   63 | Savanah Biniakewitz | Buzz Hogs                                  | Mabelvale, AR        |       |    .00 |      |
 |   63 | Trenton Page        | Buzz Hogs                                  | Mabelvale, AR        |       |    .00 |      |
-|   63 | Ashley Carder       | God\'s Quad Squad                          | Branson, MO          |       |    .00 |      |
+|   63 | Ashley Carder       | God's Quad Squad                           | Branson, MO          |       |    .00 |      |
 |   63 | Krystal Stotts      | The Fruitz                                 | Kansas City, MO      |       |    .00 |      |
 |   63 | Hannah Alita        | The Interrupters - Pardon the Interruption | Rockford, IL         |       |    .00 |      |
 |   63 | Sarah Harrison      | Askewville                                 | Askewville, NC       |       |    .00 |      |
@@ -430,13 +430,13 @@ menubar_toc_static:
 |   45 | Jeremy Mgbeike      | Braeswood                 | Houston, TX          |   160 |  11.43 |      |
 |   46 | Ben Stevens         | Laffy Taffies             | Baxter, MN           |   120 |   8.57 |      |
 |   46 | Jordan Hasse        | Bethesda Christian Church | Sterling Heights, MI |   120 |   8.57 |      |
-|   47 | My\'Randa Tolar     | Dodson Assembly           | Dodson, LA           |   110 |   7.86 |      |
+|   47 | My'Randa Tolar      | Dodson Assembly           | Dodson, LA           |   110 |   7.86 |      |
 |   48 | Austin Barclay      | Bethesda Christian Church | Sterling Heights, MI |    95 |   6.79 |    1 |
 |   49 | Mariah Cowan        | Calvary Church (Dunwoody) | Dunwoody, GA         |    90 |   6.43 |      |
 |   49 | Robyn Patch         | JBR in da JBQ             | Bismarck, ND         |    90 |   6.43 |      |
 |   49 | Erykah Betterson    | Goldsboro Gladius         | Goldsboro, NC        |    90 |   6.43 |      |
 |   50 | Aili Dabill         | Laffy Taffies             | Baxter, MN           |    80 |   5.71 |      |
-|   51 | Abby O\'Connell     | James River Bullseye      | Ozark, MO            |    70 |   5.00 |      |
+|   51 | Abby O'Connell      | James River Bullseye      | Ozark, MO            |    70 |   5.00 |      |
 |   51 | Amber Walker        | MCC Son Burst Yellow      | Mechanicsville, VA   |    70 |   5.00 |      |
 |   51 | Nathan Isner        | MCC Son Burst Yellow      | Mechanicsville, VA   |    70 |   5.00 |      |
 |   52 | Nathaniel Walker    | MCC Son Burst Yellow      | Mechanicsville, VA   |    60 |   4.29 |      |
@@ -469,11 +469,11 @@ menubar_toc_static:
 | ---: | --------------------------- | ----------------- | ---- | ----: | -----: |
 |    1 | Sword Masters               | Zephyrhills, FL   | 13/2 |  2790 | 186.00 |
 |    2 | Power Possums               | Princeton, MN     | 9/6  |  2665 | 177.67 |
-|    3 | Master\'s Mavericks         | Grapevine, TX     | 9/6  |  2475 | 165.00 |
+|    3 | Master's Mavericks          | Grapevine, TX     | 9/6  |  2475 | 165.00 |
 |    4 | Calvary Church (Naperville) | Naperville, IL    | 9/6  |  2465 | 164.33 |
 |    5 | S.P.Y. Kids 007             | Leesburg, VA      | 9/6  |  2310 | 154.00 |
-|    6 | God\'s C.R.E.W.             | Oklahoma City, OK | 8/7  |  2200 | 146.67 |
-|    7 | Racin\' for God             | Racine, WI        | 8/7  |  2050 | 136.67 |
+|    6 | God's C.R.E.W.              | Oklahoma City, OK | 8/7  |  2200 | 146.67 |
+|    7 | Racin' for God              | Racine, WI        | 8/7  |  2050 | 136.67 |
 |    8 | Freedom Church              | Tallahassee, FL   | 8/7  |  1990 | 132.67 |
 |    9 | Word Warriors               | Grass Lake, MI    | 7/8  |  2135 | 142.33 |
 |   10 | Smyrna River Rapids         | Smyrna, TN        | 7/8  |  2235 | 149.00 |
@@ -497,18 +497,18 @@ menubar_toc_static:
 |    5 | Grace Geesey        | Matrix                      | Mesa, AZ          |  1410 |  94.00 |    2 |
 |    6 | Tim Lester          | Word Warriors               | Grass Lake, MI    |  1380 |  92.00 |    4 |
 |    7 | Christopher Turner  | Seed Sowers for Christ      | Georgetown, KY    |  1320 |  88.00 |    5 |
-|    8 | David Brauchler     | Master\'s Mavericks         | Grapevine, TX     |  1310 |  87.33 |    5 |
+|    8 | David Brauchler     | Master's Mavericks          | Grapevine, TX     |  1310 |  87.33 |    5 |
 |    9 | Patrick Kilgallon   | Calvary Church (Naperville) | Naperville, IL    |  1190 |  79.33 |   10 |
-|   10 | Sean Daniels        | Racin\' for God             | Racine, WI        |  1005 |  67.00 |    8 |
+|   10 | Sean Daniels        | Racin' for God              | Racine, WI        |  1005 |  67.00 |    8 |
 |   11 | Josh Rozelle        | S.P.Y. Kids 007             | Leesburg, VA      |   995 |  66.33 |    2 |
 |   12 | Benjamin Judd       | S.P.Y. Kids 007             | Leesburg, VA      |   930 |  62.00 |    9 |
 |   13 | Shreanna Powell     | Calvary Church (Naperville) | Naperville, IL    |   925 |  61.67 |    2 |
-|   14 | Damon Comfort       | God\'s C.R.E.W.             | Oklahoma City, OK |   890 |  59.33 |    2 |
+|   14 | Damon Comfort       | God's C.R.E.W.              | Oklahoma City, OK |   890 |  59.33 |    2 |
 |   15 | Samantha Anderson   | Tru God                     | Jacksonville, AR  |   850 |  56.67 |    1 |
 |   16 | Hannah Stephens     | Freedom Church              | Tallahassee, FL   |   825 |  55.00 |    3 |
-|   17 | Christina Baxter    | God\'s C.R.E.W.             | Oklahoma City, OK |   820 |  54.67 |    1 |
+|   17 | Christina Baxter    | God's C.R.E.W.              | Oklahoma City, OK |   820 |  54.67 |    1 |
 |   18 | Anshel Bright       | Evangel Eagles              | Scotch Plains, NJ |   800 |  53.33 |    1 |
-|   19 | Jacob Jeter         | Master\'s Mavericks         | Grapevine, TX     |   665 |  44.33 |    4 |
+|   19 | Jacob Jeter         | Master's Mavericks          | Grapevine, TX     |   665 |  44.33 |    4 |
 |   20 | Ruth Anne Sanderson | Evangel Eagles              | Scotch Plains, NJ |   640 |  42.67 |    7 |
 |   21 | Cassidy Boyce       | FLCC                        | Federal Way, WA   |   635 |  42.33 |    6 |
 |   22 | Jonathan Larson     | FLCC                        | Federal Way, WA   |   610 |  40.67 |    1 |
@@ -516,10 +516,10 @@ menubar_toc_static:
 |   24 | Nicolas Boyce       | FLCC                        | Federal Way, WA   |   560 |  37.33 |      |
 |   25 | Micah Roelofs       | Power Possums               | Princeton, MN     |   555 |  37.00 |    3 |
 |   26 | Lyndsey Sykes       | Freedom Church              | Tallahassee, FL   |   500 |  33.33 |    3 |
-|   27 | Johnny Trail        | God\'s C.R.E.W.             | Oklahoma City, OK |   490 |  32.67 |    3 |
-|   28 | Jaden Werley        | Master\'s Mavericks         | Grapevine, TX     |   475 |  31.67 |    2 |
+|   27 | Johnny Trail        | God's C.R.E.W.              | Oklahoma City, OK |   490 |  32.67 |    3 |
+|   28 | Jaden Werley        | Master's Mavericks          | Grapevine, TX     |   475 |  31.67 |    2 |
 |   28 | Matthew Lester      | Word Warriors               | Grass Lake, MI    |   475 |  31.67 |    2 |
-|   29 | Laura Cardenas      | Racin\' for God             | Racine, WI        |   475 |  31.67 |      |
+|   29 | Laura Cardenas      | Racin' for God              | Racine, WI        |   475 |  31.67 |      |
 |   30 | Stephen Thomas      | Evangel Eagles              | Scotch Plains, NJ |   425 |  28.33 |    1 |
 |   31 | Lilly Seigrist      | Tru God                     | Jacksonville, AR  |   410 |  27.33 |    2 |
 |   32 | Breanna Cole        | Soul Survivors              | Lawson, MO        |   370 |  24.67 |    2 |
@@ -528,7 +528,7 @@ menubar_toc_static:
 |   35 | Nicholas Wolbert    | Power Possums               | Princeton, MN     |   355 |  23.67 |      |
 |   36 | Zachary McClellan   | Sword Masters               | Zephyrhills, FL   |   350 |  23.33 |    1 |
 |   37 | Abigail DeGraff     | Calvary Church (Naperville) | Naperville, IL    |   340 |  22.67 |    3 |
-|   38 | Reanna Toeller      | Racin\' for God             | Racine, WI        |   305 |  20.33 |      |
+|   38 | Reanna Toeller      | Racin' for God              | Racine, WI        |   305 |  20.33 |      |
 |   39 | Connell Donoghue    | Freedom Church              | Tallahassee, FL   |   280 |  18.67 |      |
 |   39 | Joshua Wilcox       | Sword Masters               | Zephyrhills, FL   |   280 |  18.67 |      |
 |   40 | Robyn Sharp         | Smyrna River Rapids         | Smyrna, TN        |   270 |  18.00 |      |
@@ -541,9 +541,9 @@ menubar_toc_static:
 |   47 | Jonathan Archer     | Soul Survivors              | Lawson, MO        |   175 |  11.67 |      |
 |   48 | Montana Sager       | Word Warriors               | Grass Lake, MI    |   160 |  10.67 |      |
 |   49 | Caleb Daniels       | Power Possums               | Princeton, MN     |   155 |  10.33 |      |
-|   50 | Christina Belmares  | Racin\' for God             | Racine, WI        |   145 |   9.67 |      |
+|   50 | Christina Belmares  | Racin' for God              | Racine, WI        |   145 |   9.67 |      |
 |   51 | Isabella Frazier    | Freedom Church              | Tallahassee, FL   |   125 |   8.33 |      |
-|   52 | Liz Ashley          | Racin\' for God             | Racine, WI        |   120 |   8.00 |      |
+|   52 | Liz Ashley          | Racin' for God              | Racine, WI        |   120 |   8.00 |      |
 |   53 | Riley McClellan     | Sword Masters               | Zephyrhills, FL   |   105 |   7.00 |      |
 |   54 | Alex Roth           | Word Warriors               | Grass Lake, MI    |    95 |   6.33 |      |
 |   55 | Luke Yoder          | S.P.Y. Kids 007             | Leesburg, VA      |    90 |   6.00 |      |
@@ -552,7 +552,7 @@ menubar_toc_static:
 |   58 | Sarah Steinbach     | Seed Sowers for Christ      | Georgetown, KY    |    60 |   4.00 |      |
 |   59 | Daniel Bozzay       | S.P.Y. Kids 007             | Leesburg, VA      |    50 |   3.33 |      |
 |   60 | Alexis Wilcox       | Matrix                      | Mesa, AZ          |    40 |   2.67 |      |
-|   61 | Ciara Cruz          | Master\'s Mavericks         | Grapevine, TX     |    30 |   2.00 |      |
+|   61 | Ciara Cruz          | Master's Mavericks          | Grapevine, TX     |    30 |   2.00 |      |
 |   61 | Brianne Durham      | Tru God                     | Jacksonville, AR  |    30 |   2.00 |      |
 |   61 | Logan Wimbish       | Word Warriors               | Grass Lake, MI    |    30 |   2.00 |      |
 |   62 | Robert Laboy        | Calvary Church (Naperville) | Naperville, IL    |    20 |   1.33 |      |
@@ -560,11 +560,11 @@ menubar_toc_static:
 |   63 | Samantha Roth       | Word Warriors               | Grass Lake, MI    |    10 |    .67 |      |
 |   63 | Gabe Kolhoff        | Power Possums               | Princeton, MN     |    10 |    .67 |      |
 |   64 | Daniel Persaud      | Evangel Eagles              | Scotch Plains, NJ |     5 |    .33 |      |
-|   65 | Shannon Lojeski     | Racin\' for God             | Racine, WI        |       |    .00 |      |
+|   65 | Shannon Lojeski     | Racin' for God              | Racine, WI        |       |    .00 |      |
 |   65 | Kaden               | Matrix                      | Mesa, AZ          |       |    .00 |      |
 |   65 | Katherine Bozzay    | S.P.Y. Kids 007             | Leesburg, VA      |       |    .00 |      |
 |   65 | Brianna Haufman     | Evangel Eagles              | Scotch Plains, NJ |       |    .00 |      |
-|   65 | Catherine Baxter    | God\'s C.R.E.W.             | Oklahoma City, OK |       |    .00 |      |
+|   65 | Catherine Baxter    | God's C.R.E.W.              | Oklahoma City, OK |       |    .00 |      |
 |   65 | Rachel Sharp        | Smyrna River Rapids         | Smyrna, TN        |       |    .00 |      |
 |   65 | Autumn Pettit       | Seed Sowers for Christ      | Georgetown, KY    |       |    .00 |      |
 |   65 | Elijah Pettit       | Seed Sowers for Christ      | Georgetown, KY    |       |    .00 |      |
@@ -633,7 +633,7 @@ menubar_toc_static:
 |   31 | Divya Mathews           | Swordbearers                       | Springfield, VA |   100 | 11.11 |    1 |
 |   32 | Leah Thomas             | Swordbearers                       | Springfield, VA |   100 | 11.11 |      |
 |   33 | Samuel Landmark         | S.O.S.                             | Kenosha, WI     |    90 | 10.00 |    1 |
-|   34 | Abby O\'Connell         | James River Bullseye               | Ozark, MO       |    85 |  9.44 |      |
+|   34 | Abby O'Connell          | James River Bullseye               | Ozark, MO       |    85 |  9.44 |      |
 |   35 | Audrey Petravich        | S.O.S.                             | Kenosha, WI     |    80 |  8.89 |      |
 |   36 | Alex Roth               | Word Warriors                      | Grass Lake, MI  |    70 |  7.78 |      |
 |   37 | Cameron Calabrese       | S.O.S.                             | Kenosha, WI     |    60 |  6.67 |      |
@@ -702,7 +702,7 @@ menubar_toc_static:
 |   20 | David Osunkwo       | Calvary Church (Dunwoody)   | Dunwoody, GA     |   195 | 24.38 |    2 |
 |   21 | Trent Stafford      | An Army of Three            | Hanford, CA      |   185 | 23.13 |    2 |
 |   22 | Brendon Sturgeon    | The Crossing Place Quizzers | Franklin, LA     |   175 | 21.88 |    1 |
-|   23 | My\'Randa Tolar     | Dodson Assembly             | Dodson, LA       |   130 | 16.25 |      |
+|   23 | My'Randa Tolar      | Dodson Assembly             | Dodson, LA       |   130 | 16.25 |      |
 |   24 | Bridge Biniakewitz  | Buzz Hogs                   | Mabelvale, AR    |   105 | 13.13 |      |
 |   25 | Owen Derouen        | The Crossing Place Quizzers | Franklin, LA     |   100 | 12.50 |      |
 |   26 | Kaylen Williams     | Dodson Assembly             | Dodson, LA       |    90 | 11.25 |      |
@@ -756,13 +756,13 @@ menubar_toc_static:
 |    4 | Joshua Kukuvka      | MCC Son Burst Yellow   | Mechanicsville, VA |   630 |  78.75 |    3 |
 |    5 | Derrick Barger      | JAG                    | Meriden, KS        |   605 |  75.63 |    2 |
 |    6 | Linsie Melugin      | Quizzer Chicks         | Pleasanton, KS     |   570 |  71.25 |    2 |
-|    7 | Erin O\'Mara        | S.P.Y. Friends         | Leesburg, VA       |   555 |  69.38 |      |
+|    7 | Erin O'Mara         | S.P.Y. Friends         | Leesburg, VA       |   555 |  69.38 |      |
 |    8 | Paul Willis         | Ashland 1st A/G        | Ashland, AL        |   530 |  66.25 |    2 |
 |    9 | Jeffrey Chen        | OCCEC                  | Irvine, CA         |   480 |  60.00 |      |
 |   10 | Ruth Anne Sanderson | Evangel Eagles         | Scotch Plains, NJ  |   435 |  54.38 |    5 |
 |   11 | Nathan Willis       | Ashland 1st A/G        | Ashland, AL        |   355 |  44.38 |    3 |
 |   12 | Michael Joen        | JAG                    | Meriden, KS        |   345 |  43.13 |      |
-|   13 | Brian O\'Mara       | S.P.Y. Friends         | Leesburg, VA       |   330 |  41.25 |    3 |
+|   13 | Brian O'Mara        | S.P.Y. Friends         | Leesburg, VA       |   330 |  41.25 |    3 |
 |   14 | Stephen Thomas      | Evangel Eagles         | Scotch Plains, NJ  |   315 |  39.38 |      |
 |   15 | Marina Tinney       | Seed Sowers for Christ | Georgetown, KY     |   290 |  36.25 |    2 |
 |   16 | Haley Melugin       | Quizzer Chicks         | Pleasanton, KS     |   290 |  36.25 |      |
@@ -815,7 +815,7 @@ menubar_toc_static:
 |    3 | In His Image     | Chesterfield, MO  | 6/3 |  1355 | 150.56 |
 |    4 | First Responders | Lexington, KY     | 5/4 |  1475 | 163.89 |
 |    5 | Normal 1st A/G   | Normal, IL        | 5/4 |  1370 | 152.22 |
-|    5 | God\'s C.R.E.W.  | Oklahoma City, OK | 5/4 |  1370 | 152.22 |
+|    5 | God's C.R.E.W.   | Oklahoma City, OK | 5/4 |  1370 | 152.22 |
 |    6 | The Fruitz       | Kansas City, MO   | 4/5 |   985 | 109.44 |
 |    7 | Askewville       | Askewville, NC    | 4/5 |  1270 | 141.11 |
 |    8 | Laffy Taffies    | Baxter, MN        | 2/7 |  1150 | 127.78 |
@@ -836,13 +836,13 @@ menubar_toc_static:
 |    7 | Landon Powell      | Kinston          | Kinston, NC       |   615 | 68.33 |      |
 |    8 | Alyssa Harden      | Askewville       | Askewville, NC    |   570 | 63.33 |    1 |
 |    9 | Alex McCracken     | First Responders | Lexington, KY     |   525 | 58.33 |    2 |
-|   10 | Damon Comfort      | God\'s C.R.E.W.  | Oklahoma City, OK |   525 | 58.33 |    1 |
+|   10 | Damon Comfort      | God's C.R.E.W.   | Oklahoma City, OK |   525 | 58.33 |    1 |
 |   11 | Storm Gray         | Kinston          | Kinston, NC       |   500 | 55.56 |    5 |
-|   12 | Christina Baxter   | God\'s C.R.E.W.  | Oklahoma City, OK |   475 | 52.78 |      |
+|   12 | Christina Baxter   | God's C.R.E.W.   | Oklahoma City, OK |   475 | 52.78 |      |
 |   13 | Benjamin Judd      | S.P.Y. Kids 007  | Leesburg, VA      |   455 | 50.56 |    3 |
 |   14 | Maggie Daniels     | Askewville       | Askewville, NC    |   450 | 50.00 |    3 |
 |   15 | Jonathan Eckhardt  | Kids For Christ  | Fergus Falls, MN  |   390 | 43.33 |    3 |
-|   16 | Johnny Trail       | God\'s C.R.E.W.  | Oklahoma City, OK |   380 | 42.22 |    3 |
+|   16 | Johnny Trail       | God's C.R.E.W.   | Oklahoma City, OK |   380 | 42.22 |    3 |
 |   17 | Lacon Walsh        | Normal 1st A/G   | Normal, IL        |   380 | 42.22 |    2 |
 |   18 | Connor White       | Kinston          | Kinston, NC       |   320 | 35.56 |      |
 |   18 | Rachel Seidel      | Kids For Christ  | Fergus Falls, MN  |   320 | 35.56 |      |
@@ -870,7 +870,7 @@ menubar_toc_static:
 |   37 | Jacob Hansel       | Normal 1st A/G   | Normal, IL        |       |   .00 |      |
 |   37 | Krystal Stotts     | The Fruitz       | Kansas City, MO   |       |   .00 |      |
 |   37 | Tyler McCracken    | First Responders | Lexington, KY     |       |   .00 |      |
-|   37 | Catherine Baxter   | God\'s C.R.E.W.  | Oklahoma City, OK |       |   .00 |      |
+|   37 | Catherine Baxter   | God's C.R.E.W.   | Oklahoma City, OK |       |   .00 |      |
 |   37 | Grace Rivedl       | Laffy Taffies    | Baxter, MN        |       |   .00 |      |
 |   37 | Katherine Bozzay   | S.P.Y. Kids 007  | Leesburg, VA      |       |   .00 |      |
 |   37 | Sarah Harrison     | Askewville       | Askewville, NC    |       |   .00 |      |
@@ -962,9 +962,9 @@ menubar_toc_static:
 |    # | Team                        | Church               | W/L | Total |    Avg |
 | ---: | --------------------------- | -------------------- | --- | ----: | -----: |
 |    1 | International A/G #1        | Warren, MI           | 7/2 |  1405 | 156.11 |
-|    2 | God\'s Quad Squad           | Branson, MO          | 6/3 |  1320 | 146.67 |
+|    2 | God's Quad Squad            | Branson, MO          | 6/3 |  1320 | 146.67 |
 |    3 | Calvary Church (Naperville) | Naperville, IL       | 5/4 |  1520 | 168.89 |
-|    4 | Master\'s Mavericks         | Grapevine, TX        | 5/4 |  1320 | 146.67 |
+|    4 | Master's Mavericks          | Grapevine, TX        | 5/4 |  1320 | 146.67 |
 |    5 | Quiz Kids                   | Dripping Springs, TX | 5/4 |  1200 | 133.33 |
 |    5 | K.J. St. N.W.               | Renton, WA           | 5/4 |  1200 | 133.33 |
 |    6 | Kingdom Explorers           | Dallas, TX           | 4/5 |  1300 | 144.44 |
@@ -980,13 +980,13 @@ menubar_toc_static:
 | ---: | ----------------- | --------------------------- | -------------------- | ----: | -----: | ---: |
 |    1 | Aliyah Fashaw     | Spy All Stars               | Kent, WA             |   940 | 104.44 |    4 |
 |    2 | Patrick Kilgallon | Calvary Church (Naperville) | Naperville, IL       |   930 | 103.33 |    8 |
-|    3 | Joseph Pingleton  | God\'s Quad Squad           | Branson, MO          |   865 |  96.11 |    4 |
+|    3 | Joseph Pingleton  | God's Quad Squad            | Branson, MO          |   865 |  96.11 |    4 |
 |    4 | Jason Markarian   | K.J. St. N.W.               | Renton, WA           |   860 |  95.56 |    5 |
 |    5 | Samuel Grey       | Kingdom Explorers           | Dallas, TX           |   720 |  80.00 |    4 |
-|    6 | Jacob Jeter       | Master\'s Mavericks         | Grapevine, TX        |   615 |  68.33 |    4 |
+|    6 | Jacob Jeter       | Master's Mavericks          | Grapevine, TX        |   615 |  68.33 |    4 |
 |    7 | Alyssa Skinner    | Quiz Kids                   | Dripping Springs, TX |   570 |  63.33 |      |
 |    8 | Kelsey Stewart    | Storm                       | Bonifay, FL          |   525 |  58.33 |    2 |
-|    9 | David Brauchler   | Master\'s Mavericks         | Grapevine, TX        |   495 |  55.00 |      |
+|    9 | David Brauchler   | Master's Mavericks          | Grapevine, TX        |   495 |  55.00 |      |
 |   10 | Shreanna Powell   | Calvary Church (Naperville) | Naperville, IL       |   475 |  52.78 |      |
 |   11 | Jennise George    | International A/G #1        | Warren, MI           |   470 |  52.22 |    1 |
 |   12 | Sabrina Justice   | Storm                       | Bonifay, FL          |   460 |  51.11 |      |
@@ -997,10 +997,10 @@ menubar_toc_static:
 |   17 | Kiersten George   | International A/G #1        | Warren, MI           |   340 |  37.78 |      |
 |   18 | Kelly Fischbeck   | K.J. St. N.W.               | Renton, WA           |   305 |  33.89 |    3 |
 |   19 | Peyton Goss       | Gospel Gators               | Sanford, FL          |   280 |  31.11 |    1 |
-|   20 | Tino Stevens      | God\'s Quad Squad           | Branson, MO          |   235 |  26.11 |    1 |
+|   20 | Tino Stevens      | God's Quad Squad            | Branson, MO          |   235 |  26.11 |    1 |
 |   21 | Reece Skinner     | Quiz Kids                   | Dripping Springs, TX |   220 |  24.44 |    2 |
-|   22 | Jaden Werley      | Master\'s Mavericks         | Grapevine, TX        |   215 |  23.89 |      |
-|   23 | Luke Cooper       | God\'s Quad Squad           | Branson, MO          |   210 |  23.33 |    2 |
+|   22 | Jaden Werley      | Master's Mavericks          | Grapevine, TX        |   215 |  23.89 |      |
+|   23 | Luke Cooper       | God's Quad Squad            | Branson, MO          |   210 |  23.33 |    2 |
 |   24 | Hannah Brown      | Quiz Kids                   | Dripping Springs, TX |   210 |  23.33 |      |
 |   25 | Emily Myers       | Quiz Kids                   | Dripping Springs, TX |   200 |  22.22 |    1 |
 |   26 | Michaela Toole    | Spy All Stars               | Kent, WA             |   180 |  20.00 |      |
@@ -1022,12 +1022,12 @@ menubar_toc_static:
 |   38 | Wesley Jacobs     | K.J. St. N.W.               | Renton, WA           |    20 |   2.22 |      |
 |   39 | Nolan Griggs      | K.J. St. N.W.               | Renton, WA           |    15 |   1.67 |      |
 |   40 | Cason Moore       | Storm                       | Bonifay, FL          |    10 |   1.11 |      |
-|   40 | Ashley Carder     | God\'s Quad Squad           | Branson, MO          |    10 |   1.11 |      |
+|   40 | Ashley Carder     | God's Quad Squad            | Branson, MO          |    10 |   1.11 |      |
 |   41 | Steven Torres     | Kingdom Explorers           | Dallas, TX           |     5 |    .56 |      |
 |   42 | Sami Stuefen      | K.J. St. N.W.               | Renton, WA           |       |    .00 |      |
 |   42 | Faith Myers       | Quiz Kids                   | Dripping Springs, TX |       |    .00 |      |
 |   42 | Tony DeWitt       | K.J. St. N.W.               | Renton, WA           |       |    .00 |      |
-|   43 | Ciara Cruz        | Master\'s Mavericks         | Grapevine, TX        |    -5 |  -0.56 |      |
+|   43 | Ciara Cruz        | Master's Mavericks          | Grapevine, TX        |    -5 |  -0.56 |      |
 
 
 ### Tan
@@ -1124,7 +1124,7 @@ menubar_toc_static:
 |    6 | Learners Under Discipline                  | East Lansing, MI     | 5/4 |  1270 | 141.11 |
 |    7 | Freedom Church                             | Tallahassee, FL      | 4/5 |  1415 | 157.22 |
 |    8 | Angel Agents                               | Brookfield, WI       | 1/8 |   765 |  85.00 |
-|    9 | Racin\' for God                            | Racine, WI           | 1/8 |  1005 | 111.67 |
+|    9 | Racin' for God                             | Racine, WI           | 1/8 |  1005 | 111.67 |
 
 #### Individuals
 
@@ -1145,29 +1145,29 @@ menubar_toc_static:
 |   11 | Hannah Stephens     | Freedom Church                             | Tallahassee, FL      |   510 |  56.67 |    2 |
 |   12 | Madison Guzman      | The Interrupters - Pardon the Interruption | Rockford, IL         |   495 |  55.00 |    5 |
 |   13 | Ariel Watson        | Reborn Army                                | Lubbock, TX          |   465 |  51.67 |    4 |
-|   14 | Sean Daniels        | Racin\' for God                            | Racine, WI           |   430 |  47.78 |    3 |
+|   14 | Sean Daniels        | Racin' for God                             | Racine, WI           |   430 |  47.78 |    3 |
 |   15 | Sean Watson         | Reborn Army                                | Lubbock, TX          |   420 |  46.67 |      |
 |   16 | Lyndsey Sykes       | Freedom Church                             | Tallahassee, FL      |   410 |  45.56 |    2 |
-|   17 | Elijah O\'Brien     | Angel Agents                               | Brookfield, WI       |   380 |  42.22 |      |
+|   17 | Elijah O'Brien      | Angel Agents                               | Brookfield, WI       |   380 |  42.22 |      |
 |   18 | Austin Harr         | Learners Under Discipline                  | East Lansing, MI     |   300 |  33.33 |    2 |
-|   19 | Laura Cardenas      | Racin\' for God                            | Racine, WI           |   290 |  32.22 |      |
+|   19 | Laura Cardenas      | Racin' for God                             | Racine, WI           |   290 |  32.22 |      |
 |   20 | Caleb Stephens      | Freedom Church                             | Tallahassee, FL      |   270 |  30.00 |      |
 |   21 | Elle Miller         | The Olympians                              | Cedar Hill, TX       |   260 |  28.89 |      |
 |   22 | Kendra Zwonitzer    | The Interrupters - Pardon the Interruption | Rockford, IL         |   250 |  27.78 |      |
 |   23 | Connell Donoghue    | Freedom Church                             | Tallahassee, FL      |   200 |  22.22 |      |
 |   24 | Kirsten Andrews     | Learners Under Discipline                  | East Lansing, MI     |   160 |  17.78 |      |
-|   24 | Elizabeth O\'Brien  | Angel Agents                               | Brookfield, WI       |   160 |  17.78 |      |
-|   25 | Reanna Toeller      | Racin\' for God                            | Racine, WI           |   155 |  17.22 |      |
+|   24 | Elizabeth O'Brien   | Angel Agents                               | Brookfield, WI       |   160 |  17.78 |      |
+|   25 | Reanna Toeller      | Racin' for God                             | Racine, WI           |   155 |  17.22 |      |
 |   25 | Rickey Bridges      | Angel Agents                               | Brookfield, WI       |   155 |  17.22 |      |
 |   26 | Moriah Tecsom       | Bethesda Christian Church                  | Sterling Heights, MI |   130 |  14.44 |      |
 |   27 | Danielle Alita      | The Interrupters - Pardon the Interruption | Rockford, IL         |   105 |  11.67 |      |
 |   28 | Tyler McCartney     | Learners Under Discipline                  | East Lansing, MI     |    85 |   9.44 |      |
 |   28 | Michael Ragap       | Bethesda Christian Church                  | Sterling Heights, MI |    85 |   9.44 |      |
-|   29 | Christina Belmares  | Racin\' for God                            | Racine, WI           |    70 |   7.78 |      |
+|   29 | Christina Belmares  | Racin' for God                             | Racine, WI           |    70 |   7.78 |      |
 |   29 | William Ubert       | Angel Agents                               | Brookfield, WI       |    70 |   7.78 |      |
 |   30 | Glenn Kaboskey      | Biblikids                                  | Oak Creek, WI        |    65 |   7.22 |      |
 |   30 | Jacob Morton        | Muskogee Armored Saints                    | Muskogee, OK         |    65 |   7.22 |      |
-|   31 | Liz Ashley          | Racin\' for God                            | Racine, WI           |    60 |   6.67 |      |
+|   31 | Liz Ashley          | Racin' for God                             | Racine, WI           |    60 |   6.67 |      |
 |   31 | Peter Tamblyn       | Biblikids                                  | Oak Creek, WI        |    60 |   6.67 |      |
 |   32 | John Schafer        | Learners Under Discipline                  | East Lansing, MI     |    50 |   5.56 |      |
 |   33 | Jordan Hasse        | Bethesda Christian Church                  | Sterling Heights, MI |    30 |   3.33 |      |
@@ -1177,7 +1177,7 @@ menubar_toc_static:
 |   35 | Sam Carter          | Muskogee Armored Saints                    | Muskogee, OK         |    10 |   1.11 |      |
 |   36 | Janna Gaines        | Reborn Army                                | Lubbock, TX          |     5 |    .56 |      |
 |   37 | Daniel Piasecki     | Biblikids                                  | Oak Creek, WI        |       |    .00 |      |
-|   37 | Shannon Lojeski     | Racin\' for God                            | Racine, WI           |       |    .00 |      |
+|   37 | Shannon Lojeski     | Racin' for God                             | Racine, WI           |       |    .00 |      |
 |   37 | Mason Tidwell       | Reborn Army                                | Lubbock, TX          |       |    .00 |      |
 |   37 | Hannah Alita        | The Interrupters - Pardon the Interruption | Rockford, IL         |       |    .00 |      |
 |   37 | Christopher Calvery | The Olympians                              | Cedar Hill, TX       |       |    .00 |      |

@@ -22,7 +22,7 @@ menubar_toc_static:
 | ---: | ---------------------------------------------------------------------------------------- | ----- | ---: | ----: | ----: | ---: | ---: |
 |    1 | Keepers of the Command (First at Firewheel)                                              | 6 / 1 |  86% |  1350 | 192.9 |    8 |  79% |
 |    2 | Amazing Grace (Glad Tidings Assembly of God)                                             | 5 / 2 |  71% |  1265 | 180.7 |    2 |  84% |
-|    3 | Lettuce Taco \'Bout Jesus (Trinity Church)                                               | 5 / 2 |  71% |  1220 | 174.3 |   10 |  82% |
+|    3 | Lettuce Taco 'Bout Jesus (Trinity Church)                                                | 5 / 2 |  71% |  1220 | 174.3 |   10 |  82% |
 |    4 | MC Prayer Pushers (Mountain Creek Church)                                                | 4 / 3 |  57% |   985 | 140.7 |    4 |  72% |
 |    5 | The Truth Tribe (Oaks Church)                                                            | 4 / 3 |  57% |  1380 | 197.1 |    7 |  93% |
 |    6 | F & C - Faith and Courageous (Glad Tidings Assembly of God)                              | 3 / 4 |  43% |   895 | 127.9 |    6 |  70% |
@@ -35,12 +35,12 @@ menubar_toc_static:
 
 |        # | Quizzer                    | Team                                                                                     | Total |   Avg |   QO |   Q% |
 | -------: | -------------------------- | ---------------------------------------------------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Asher Claunch              | Lettuce Taco \'Bout Jesus (Trinity Church)                                               |   865 | 123.6 |    6 |  82% |
+|        1 | Asher Claunch              | Lettuce Taco 'Bout Jesus (Trinity Church)                                                |   865 | 123.6 |    6 |  82% |
 |        2 | Hannah Lapusan             | The Truth Tribe (Oaks Church)                                                            |   760 | 108.6 |    3 | 100% |
 |        3 | Jayden Ramesh              | Keepers of the Command (First at Firewheel)                                              |   740 | 105.7 |    5 |  76% |
 |        4 | Driston Shrewin Alex Edwin | Amazing Grace (Glad Tidings Assembly of God)                                             |   705 | 100.7 |    1 |  96% |
 |        5 | Caleb Stumper              | MC Prayer Pushers (Mountain Creek Church)                                                |   545 |  77.9 |    2 |  72% |
-|        6 | Benjamin Ahime             | Lettuce Taco \'Bout Jesus (Trinity Church)                                               |   355 |  50.7 |    4 |  82% |
+|        6 | Benjamin Ahime             | Lettuce Taco 'Bout Jesus (Trinity Church)                                                |   355 |  50.7 |    4 |  82% |
 |        7 | Sandra Selwyn              | F & C - Faith and Courageous (Glad Tidings Assembly of God)                              |   350 |    50 |    2 |  69% |
 |        8 | Raegan Wirth               | The Truth Tribe (Oaks Church)                                                            |   315 |    45 |    1 |  93% |
 |        9 | Ariella Fortygin           | Encounter Church (Fate) #1 (Encounter Church)                                            |   310 |  44.3 |    1 |  86% |
@@ -84,7 +84,7 @@ menubar_toc_static:
 |    4 | Encounter Church (Fate) #2 (Encounter Church)                                            | 2 / 4 |  33% |   250 |  41.7 |      |  84% |
 |    5 | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) | 2 / 4 |  33% |   380 |  63.3 |    2 |  81% |
 |    6 | Hot Tamales (Mission Church)                                                             | 1 / 5 |  17% |   150 |    25 |    1 |  58% |
-|    7 | Jesus\' Army (Oaks Church)                                                               | 1 / 5 |  17% |   265 |  44.2 |      |  68% |
+|    7 | Jesus' Army (Oaks Church)                                                                | 1 / 5 |  17% |   265 |  44.2 |      |  68% |
 
 ### Individuals
 
@@ -101,9 +101,9 @@ menubar_toc_static:
 |        7 | Stephen Kadari     | Hot Tamales (Mission Church)                                                             |   170 |  28.3 |    1 |  67% |
 |        8 | Jonathan Burns     | Children of Fire (Freedom Church)                                                        |   170 |  28.3 |      |  82% |
 |        9 | Kaylie Fortygin    | Encounter Church (Fate) #2 (Encounter Church)                                            |   150 |    25 |      | 100% |
-|       10 | Samantha Colley    | Jesus\' Army (Oaks Church)                                                               |   145 |  24.2 |      |  81% |
+|       10 | Samantha Colley    | Jesus' Army (Oaks Church)                                                                |   145 |  24.2 |      |  81% |
 |       11 | Christina Darko    | Fluffy Armadillos-First at Firewheel (First at Firewheel)                                |   140 |  23.3 |    1 |  71% |
-|       12 | Sam O\'Neal        | Jesus\' Army (Oaks Church)                                                               |   120 |    20 |      |  56% |
+|       12 | Sam O'Neal         | Jesus' Army (Oaks Church)                                                                |   120 |    20 |      |  56% |
 |       13 | Kamsi Osuagwu      | Fluffy Armadillos-First at Firewheel (First at Firewheel)                                |    55 |   9.2 |      |  67% |
 | **\*13** | Naomi Salinas      | Encounter Church (Fate) #2 (Encounter Church)                                            |    55 |   9.2 |      |  67% |
 |       14 | Caleb Nesterenko   | Encounter Church (Fate) #2 (Encounter Church)                                            |    45 |   7.5 |      |  83% |
@@ -114,10 +114,10 @@ menubar_toc_static:
 |       18 | Abigail Dixon      | His Holy Quizzers (Oaks Church)                                                          |    10 |   1.7 |      | 100% |
 | **\*18** | Diya Harilal       | Fluffy Armadillos-First at Firewheel (First at Firewheel)                                |    10 |   1.7 |      | 100% |
 |       19 | Colton Bjerke      | His Holy Quizzers (Oaks Church)                                                          |     0 |       |      |      |
-| **\*19** | G\'ani Rivera      | Jesus\' Army (Oaks Church)                                                               |     0 |       |      |      |
+| **\*19** | G'ani Rivera       | Jesus' Army (Oaks Church)                                                                |     0 |       |      |      |
 | **\*19** | Kaylee Driver      | Hot Tamales (Mission Church)                                                             |     0 |       |      |      |
 | **\*19** | Roshan Jayam       | Hot Tamales (Mission Church)                                                             |     0 |       |      |      |
-| **\*19** | Violet Cano        | Jesus\' Army (Oaks Church)                                                               |     0 |       |      |      |
+| **\*19** | Violet Cano        | Jesus' Army (Oaks Church)                                                                |     0 |       |      |      |
 | **\*19** | yotam Haile        | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) |     0 |       |      |      |
 | **\*19** | Aster Mulushewa    | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) |     0 |       |      |  33% |
 |       20 | Fenn Rogers        | Hot Tamales (Mission Church)                                                             |   -10 |  -1.7 |      |      |

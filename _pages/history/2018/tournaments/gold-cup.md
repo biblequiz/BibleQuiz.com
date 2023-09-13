@@ -23,7 +23,7 @@ menubar_toc_static:
 |  1.1 | Trinity Juan (Trinity Cedar Hill)                  | 6 / 1 |  1130 | 161.4 |    9 |  67% |
 |  1.0 | Braeswood (Braeswood AG)                           | 6 / 1 |  1295 |   185 |    9 |  72% |
 |  2.1 | Sitting There Thinking (Purcell-Memorial AG)       | 5 / 2 |   980 |   140 |    9 |  82% |
-|  2.0 | Mark\'d Quizzers (First @ Firewheel)               | 5 / 2 |   730 | 104.3 |    5 |  75% |
+|  2.0 | Mark'd Quizzers (First @ Firewheel)                | 5 / 2 |   730 | 104.3 |    5 |  75% |
 |  3.0 | CT Church (Christian Temple)                       | 4 / 3 |   570 |  81.4 |    4 |  65% |
 |  4.0 | Mustard Seeds (Trinity Cedar Hill)                 | 3 / 4 |   755 | 107.8 |    5 |  70% |
 |  5.0 | Team-Two Rivers Fellowship (Two Rivers Fellowship) | 2 / 5 |   775 | 110.7 |    6 |  83% |
@@ -39,7 +39,7 @@ menubar_toc_static:
 | -------: | ------------------- | -------------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Kristina Van Gorp   | Team-Two Rivers Fellowship (Two Rivers Fellowship) |   775 | 110.7 |    6 |  83% |
 |        2 | Stephen DiCarlo     | Spring (Spring First AG)                           |   660 |  94.3 |    5 |  89% |
-|        3 | Zane Brown          | Mark\'d Quizzers (First @ Firewheel)               |   545 |  77.9 |    4 |  76% |
+|        3 | Zane Brown          | Mark'd Quizzers (First @ Firewheel)                |   545 |  77.9 |    4 |  76% |
 |        4 | Michael Ukonu       | Braeswood (Braeswood AG)                           |   535 |  76.4 |    5 |  81% |
 |        5 | Jonathan King       | Sitting There Thinking (Purcell-Memorial AG)       |   495 |  70.7 |    5 |  72% |
 |        6 | Faith King          | Sitting There Thinking (Purcell-Memorial AG)       |   490 |    70 |    4 |  97% |
@@ -52,7 +52,7 @@ menubar_toc_static:
 |       13 | John David Sullivan | Trinity Juan (Trinity Cedar Hill)                  |   245 |    35 |    2 |  60% |
 |       14 | Samson Mutegeki     | The Harvest Has Come (Harvest AG Ft Worth)         |   230 |  32.9 |    1 |  64% |
 |       15 | Ethan Pickrell      | Mustard Seeds (Trinity Cedar Hill)                 |   225 |  32.1 |    2 |  60% |
-|       16 | Joanne Ramesh       | Mark\'d Quizzers (First @ Firewheel)               |   185 |  26.4 |    1 |  73% |
+|       16 | Joanne Ramesh       | Mark'd Quizzers (First @ Firewheel)                |   185 |  26.4 |    1 |  73% |
 |       17 | Joseph Hames        | Mustard Seeds (Trinity Cedar Hill)                 |   145 |  20.7 |    1 |  73% |
 |       18 | Jacob Pyle          | CT Church (Christian Temple)                       |   135 |  19.3 |    1 |  68% |
 |       19 | Joseph Royer        | Spring (Spring First AG)                           |   125 |  17.9 |      |  71% |
@@ -103,7 +103,7 @@ menubar_toc_static:
 |        8 | Joseph Barajas       | "B" The Believers (Trinity Cedar Hill)          |   235 |   47 |    1 |  56% |
 |        9 | Kaylen Hames         | Way of the Cross (Trinity Cedar Hill. )         |   230 |   46 |    3 |  78% |
 |       10 | Natalie Bartholomew  | Honey-Coated Camels Hair (The oaks fellowship ) |   135 |   27 |    1 |  85% |
-| **\*10** | Dannyy\'El Gonzalez  | Three Marketeers (First @ Firewheel)            |   135 |   27 |    1 |  79% |
+| **\*10** | Dannyy'El Gonzalez   | Three Marketeers (First @ Firewheel)            |   135 |   27 |    1 |  79% |
 |       11 | Frida Ouedraogo      | Way of the Cross (Trinity Cedar Hill. )         |   115 |   23 |      |  87% |
 |       12 | Demi Landeros        | "B" The Disciples (Trinity Cedar Hill )         |    80 |   16 |      | 100% |
 |       13 | Elijah Lee           | Way of the Cross (Trinity Cedar Hill. )         |    55 |   11 |      |  54% |

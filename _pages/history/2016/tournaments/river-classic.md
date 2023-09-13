@@ -27,7 +27,7 @@ menubar_toc_static:
 |    5 | One In Heart And Mind      | James River        |   8/5 |  1635 | 125.77 |
 |    6 | Dakota Quiz (A)            | Bethel AG          |   7/6 |  1490 | 114.62 |
 |    7 | Naperville (Jolene)        | Calvary Church     |   7/6 |  1265 |  97.31 |
-|    8 | Lee\'s Summit              | Lee\'s Summit      |   7/6 |  1135 |  87.31 |
+|    8 | Lee's Summit               | Lee's Summit       |   7/6 |  1135 |  87.31 |
 |    9 | Syracuse To Phoenix        | North Valley AG    |   5/8 |  1050 |  80.77 |
 |   10 | May Another Take His Place | Evangel Temple     |   4/9 |   760 |  58.46 |
 |   11 | You be the Judges          | Evangel Heights AG |   4/9 |   805 |  61.92 |
@@ -51,13 +51,13 @@ menubar_toc_static:
 |    8 | Linsey Garrison     | One In Heart And Mind      | James River        |   830 |  63.85 |    8 |
 |    9 | Reagan Griessel     | One In Heart And Mind      | James River        |   685 |  52.69 |    7 |
 |   10 | Sheldon Powell      | Naperville (Jolene)        | Calvary Church     |   650 |  50.00 |    5 |
-|   10 | Tirzah Brookbank    | Lee\'s Summit              | Lee\'s Summit      |   650 |  50.00 |    5 |
+|   10 | Tirzah Brookbank    | Lee's Summit               | Lee's Summit       |   650 |  50.00 |    5 |
 |   11 | Shreanna Powell     | Naperville (Jolene)        | Calvary Church     |   620 |  47.69 |    6 |
 |   12 | Madison Holcomb     | You be the Judges          | Evangel Heights AG |   615 |  47.31 |    3 |
 |   13 | Zak Kellock         | Syracuse To Phoenix        | North Valley AG    |   585 |  45.00 |    1 |
 |   14 | Leisl Jansen        | Driving You Insane         | James River        |   530 |  40.77 |    5 |
 |   15 | Seth Smith          | God-Fearing Geeks          | Lexington 1st AG   |   525 |  40.38 |    4 |
-|   16 | Rachel Brookbank    | Lee\'s Summit              | Lee\'s Summit      |   495 |  38.08 |    4 |
+|   16 | Rachel Brookbank    | Lee's Summit               | Lee's Summit       |   495 |  38.08 |    4 |
 |   17 | Kelise Braithwaite  | May Another Take His Place | Evangel Temple     |   425 |  32.69 |    3 |
 |   18 | Caleb Czaja         | Unusual Kindness           | Stone Church       |   425 |  32.69 |      |
 |   19 | Paul Meddaugh       | Muskogee                   | Muskogee 1st AG    |   350 |  26.92 |    2 |
@@ -102,9 +102,9 @@ menubar_toc_static:
 |    2 | CT (Challenger)      | Christian Temple                 |   9/3 |   480 | 40.00 |
 |    3 | Italian Regiment     | Cedar Rapids 1st AG              |   6/6 |   295 | 24.58 |
 |    4 | Naperville (Scott)   | Calvary Church                   |   6/6 |   335 | 27.92 |
-|    5 | Rhoda\'s Joy         | Sioux Falls 1st & Christian Life |   4/8 |   200 | 16.67 |
+|    5 | Rhoda's Joy          | Sioux Falls 1st & Christian Life |   4/8 |   200 | 16.67 |
 |    6 | Warner Robins (Todd) | The Assembly                     |   3/9 |   120 | 10.00 |
-|    7 | King\'s Way          | King\'s Way Church               |   3/9 |   100 |  8.33 |
+|    7 | King's Way           | King's Way Church                |   3/9 |   100 |  8.33 |
 
 ### Individuals
 
@@ -120,25 +120,25 @@ menubar_toc_static:
 |    6 | Jacob Pyle         | CT (Challenger)      | Christian Temple                 |   140 | 11.67 |      |
 |    7 | Veronica Johnson   | Warner Robins (Todd) | The Assembly                     |   130 | 10.83 |      |
 |    8 | Ethan Satish       | Naperville (Scott)   | Calvary Church                   |   125 | 10.42 |      |
-|    9 | Katrin Flores      | King\'s Way          | King\'s Way Church               |    85 |  7.08 |      |
-|   10 | Brianna McKinley   | Rhoda\'s Joy         | Sioux Falls 1st & Christian Life |    75 |  6.25 |      |
-|   11 | Merisa Rodriguez   | Rhoda\'s Joy         | Sioux Falls 1st & Christian Life |    65 |  5.42 |      |
-|   12 | Matthew McKinley   | Rhoda\'s Joy         | Sioux Falls 1st & Christian Life |    60 |  5.00 |      |
+|    9 | Katrin Flores      | King's Way           | King's Way Church                |    85 |  7.08 |      |
+|   10 | Brianna McKinley   | Rhoda's Joy          | Sioux Falls 1st & Christian Life |    75 |  6.25 |      |
+|   11 | Merisa Rodriguez   | Rhoda's Joy          | Sioux Falls 1st & Christian Life |    65 |  5.42 |      |
+|   12 | Matthew McKinley   | Rhoda's Joy          | Sioux Falls 1st & Christian Life |    60 |  5.00 |      |
 |   12 | Daniel Mione       | Italian Regiment     | Cedar Rapids 1st AG              |    60 |  5.00 |      |
 |   13 | Young Sang Aum     | Naperville (Scott)   | Calvary Church                   |    55 |  4.58 |      |
 |   14 | Tyler McCracken    | Lexington            | Lexington 1st AG                 |    30 |  2.50 |      |
-|   15 | Keenan Flores      | King\'s Way          | King\'s Way Church               |    20 |  1.67 |      |
+|   15 | Keenan Flores      | King's Way           | King's Way Church                |    20 |  1.67 |      |
 |   16 | Sam Kelly          | Lexington            | Lexington 1st AG                 |    15 |  1.25 |      |
 |   17 | Lola Babatola      | Warner Robins (Todd) | The Assembly                     |    10 |   .83 |      |
 |   18 | Timi Fagbamiye     | Warner Robins (Todd) | The Assembly                     |     5 |   .42 |      |
 |   19 | Sammy Kelly        | Lexington            | Lexington 1st AG                 |       |   .00 |      |
 |   19 | Jonathan Laakkonen | Lexington            | Lexington 1st AG                 |       |   .00 |      |
-|   19 | Emily McKinley     | Rhoda\'s Joy         | Sioux Falls 1st & Christian Life |       |   .00 |      |
+|   19 | Emily McKinley     | Rhoda's Joy          | Sioux Falls 1st & Christian Life |       |   .00 |      |
 |   19 | Miquela Prieto     | Warner Robins (Todd) | The Assembly                     |       |   .00 |      |
 |   20 | Calle Greathouse   | Warner Robins (Todd) | The Assembly                     |   -20 | -1.67 |      |
 |   21 | Domenica Mione     | Italian Regiment     | Cedar Rapids 1st AG              |   -10 | -0.83 |      |
 |   21 | Kyla Schrock       | CT (Challenger)      | Christian Temple                 |   -10 | -0.83 |      |
-|   22 | Jared Christian    | King\'s Way          | King\'s Way Church               |    -5 | -0.42 |      |
+|   22 | Jared Christian    | King's Way           | King's Way Church                |    -5 | -0.42 |      |
 
 
 ## C-Contender
@@ -179,7 +179,7 @@ menubar_toc_static:
 |    8 | Krysta Tower         | Take Courage                           | South Hills AG |   660 |  55.00 |    4 |
 |    9 | Gabe Lapusan         | Amazed & Perplexed                     | Harvest AG     |   645 |  53.75 |    5 |
 |   10 | Paige Chrastina      | Four Unmarried Daughters               | James River    |   555 |  46.25 |    5 |
-|   11 | Ally O\'Connell      | Four Unmarried Daughters               | James River    |   445 |  37.08 |    4 |
+|   11 | Ally O'Connell       | Four Unmarried Daughters               | James River    |   445 |  37.08 |    4 |
 |   12 | Kemi Omoniyi         | Silver Or Gold                         | Stone Church   |   430 |  35.83 |    2 |
 |   13 | Josiah Smith         | No One Else Dared Join Them            | James River    |   415 |  34.58 |    1 |
 |   14 | Olivia Chrastina     | Women At The River                     | James River    |   390 |  32.50 |    2 |

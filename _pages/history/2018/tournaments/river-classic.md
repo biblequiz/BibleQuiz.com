@@ -35,7 +35,7 @@ menubar_toc_static:
 | 13.0 | OHMI (MI,GreaterLancing - First A/G)                              | 8 / 11 |  2290 | 120.5 |   15 |  75% |
 | 14.1 | Sent Two (NJ,Swedesboro - Living Hope Worship)                    | 7 / 12 |  1940 | 102.1 |   15 |  66% |
 | 15.0 | Hungry And In Need (SD,RapidCity - Bethel AG)                     | 7 / 12 |  1740 |  91.6 |   12 |  77% |
-| 16.1 | Don\'t You Remember? (OK,Purcell - Memorial Assembly )            | 6 / 13 |  1825 |    96 |   12 |  74% |
+| 16.1 | Don't You Remember? (OK,Purcell - Memorial Assembly )             | 6 / 13 |  1825 |    96 |   12 |  74% |
 | 17.0 | Baptist On A Platter (MI,Grant - The Vine)                        | 6 / 13 |  1990 | 104.7 |   11 |  68% |
 | 18.1 | Romano (WA,Bellevue - Bellevue Neighborhood Church)               | 4 / 15 |  1325 |  69.7 |   10 |  62% |
 | 19.0 | Braeswood AG (TX,Houston - Braeswood AG)                          | 4 / 15 |  1125 |  59.2 |    7 |  55% |
@@ -65,13 +65,13 @@ menubar_toc_static:
 |       16 | Noble Spire         | Hungry And In Need (SD,RapidCity - Bethel AG)                     |  1205 |  63.4 |   11 |  78% |
 |       17 | Logan Webb          | Central (PA,Houston - Central AG)                                 |  1145 |  60.3 |   10 |  79% |
 |       18 | Westin Haugo        | Sheep will be Shattered (WA,Bothell - Cedar Park Church)          |  1115 |  58.7 |    8 |  67% |
-|       19 | Faith King          | Don\'t You Remember? (OK,Purcell - Memorial Assembly )            |  1045 |    55 |    7 |  81% |
+|       19 | Faith King          | Don't You Remember? (OK,Purcell - Memorial Assembly )             |  1045 |    55 |    7 |  81% |
 |       20 | Sydney Bollinger    | Evangel Heights AG (PA,Sarver - Evangel Heights AG)               |  1010 |  53.2 |   10 |  78% |
 |       21 | Austin Ramsey       | Badly Mistaken (MO,Springfield - Life360 A/G)                     |   930 |  48.9 |    8 |  74% |
 |       22 | Joanne Sinniah      | Fire and Water (MO,Ozark - James River Church)                    |   840 |  44.2 |    8 |  73% |
 |       23 | Kara Peters         | Whiter Than Anyone In The World (MO,Springfield - Evangel Temple) |   835 |  43.9 |    7 |  70% |
 |       24 | Rachel Brookbank    | Brookbanks (MO,LeesSummit - Crown Pointe)                         |   830 |  43.7 |    7 |  73% |
-|       25 | Jonathan King       | Don\'t You Remember? (OK,Purcell - Memorial Assembly )            |   815 |  42.9 |    5 |  67% |
+|       25 | Jonathan King       | Don't You Remember? (OK,Purcell - Memorial Assembly )             |   815 |  42.9 |    5 |  67% |
 |       26 | Reid Jarrell        | Sheep will be Shattered (WA,Bothell - Cedar Park Church)          |   805 |  42.4 |    6 |  81% |
 |       27 | Jenna Roberts       | We really Dug (WA,Bothell - Cedar Park Church)                    |   770 |  40.5 |    6 |  82% |
 |       28 | Hannah Facer        | OHMI (MI,GreaterLancing - First A/G)                              |   690 |  36.3 |    4 |  83% |
@@ -124,10 +124,10 @@ menubar_toc_static:
 | ---: | --------------------------------------------------------- | ------ | ----: | ----: | ---: | ---: |
 |  1.0 | Straight Up Salty (PA,BethelPark - South Hills AG)        | 13 / 1 |  2030 |   145 |   17 |  77% |
 |  2.0 | No Money In Our Belts (SD,SiouxFalls - Sioux Falls First) | 9 / 5  |  1785 | 127.5 |   11 |  78% |
-|  3.0 | That\'s A Knee (WA,Bellevue - Neighborhood Church)        | 9 / 5  |  1455 | 103.9 |    8 |  82% |
+|  3.0 | That's A Knee (WA,Bellevue - Neighborhood Church)         | 9 / 5  |  1455 | 103.9 |    8 |  82% |
 |  4.0 | Leave A MARK (SD,RapidCity - Open Bible Christian )       | 9 / 5  |  1165 |  83.2 |    9 |  73% |
 |  5.1 | Understand This (TX,Princeton - Legacy Church)            | 6 / 8  |   775 |  55.4 |    6 |  66% |
-|  6.0 | Don\'t You Understand (KY,Georgetown - Trinity AG)        | 6 / 8  |   700 |    50 |    5 |  77% |
+|  6.0 | Don't You Understand (KY,Georgetown - Trinity AG)         | 6 / 8  |   700 |    50 |    5 |  77% |
 |  7.0 | El Equipo (MO,Ozark - James River Church)                 | 3 / 11 |   415 |  29.6 |      |  67% |
 |  8.0 | Warner Robins (GA,WarnerRobins - The Assembly)            | 1 / 13 |    75 |   5.4 |      |  63% |
 
@@ -139,24 +139,24 @@ menubar_toc_static:
 | -------: | -------------------- | --------------------------------------------------------- | ----: | ---: | ---: | ---: |
 |        1 | Grace Fabian         | Straight Up Salty (PA,BethelPark - South Hills AG)        |  1230 | 87.9 |   11 |  77% |
 |        2 | Matthew McKinley     | No Money In Our Belts (SD,SiouxFalls - Sioux Falls First) |  1140 | 81.4 |    8 |  78% |
-|        3 | Avinash Poguluri     | That\'s A Knee (WA,Bellevue - Neighborhood Church)        |  1065 | 76.1 |    8 |  83% |
+|        3 | Avinash Poguluri     | That's A Knee (WA,Bellevue - Neighborhood Church)         |  1065 | 76.1 |    8 |  83% |
 |        4 | Kyli Ladd            | Leave A MARK (SD,RapidCity - Open Bible Christian )       |  1025 | 73.2 |    9 |  78% |
 |        5 | Jaxon Prom           | Understand This (TX,Princeton - Legacy Church)            |   620 | 44.3 |    6 |  65% |
-|        6 | Hannah Tinney        | Don\'t You Understand (KY,Georgetown - Trinity AG)        |   560 |   40 |    5 |  72% |
+|        6 | Hannah Tinney        | Don't You Understand (KY,Georgetown - Trinity AG)         |   560 |   40 |    5 |  72% |
 |        7 | Emily McKinley       | No Money In Our Belts (SD,SiouxFalls - Sioux Falls First) |   525 | 37.5 |    3 |  78% |
 |        8 | Hannah Tower         | Straight Up Salty (PA,BethelPark - South Hills AG)        |   500 | 35.7 |    5 |  77% |
 |        9 | Alexandria Thornton  | Straight Up Salty (PA,BethelPark - South Hills AG)        |   250 | 17.9 |    1 |  81% |
-|       10 | Padmini Abothu       | That\'s A Knee (WA,Bellevue - Neighborhood Church)        |   250 | 17.9 |      |  78% |
+|       10 | Padmini Abothu       | That's A Knee (WA,Bellevue - Neighborhood Church)         |   250 | 17.9 |      |  78% |
 |       11 | Zara Rethman         | El Equipo (MO,Ozark - James River Church)                 |   200 | 14.3 |      |  83% |
 |       12 | Paige Chrastina      | El Equipo (MO,Ozark - James River Church)                 |   160 | 11.4 |      |  61% |
-|       13 | Shannon Tinney       | Don\'t You Understand (KY,Georgetown - Trinity AG)        |   140 |   10 |      | 100% |
-| **\*13** | Elizabeth Godavarthi | That\'s A Knee (WA,Bellevue - Neighborhood Church)        |   140 |   10 |      |  82% |
+|       13 | Shannon Tinney       | Don't You Understand (KY,Georgetown - Trinity AG)         |   140 |   10 |      | 100% |
+| **\*13** | Elizabeth Godavarthi | That's A Knee (WA,Bellevue - Neighborhood Church)         |   140 |   10 |      |  82% |
 |       14 | Kodi Ladd            | Leave A MARK (SD,RapidCity - Open Bible Christian )       |   135 |  9.6 |      |  71% |
 |       15 | Merisa Rodriguez     | No Money In Our Belts (SD,SiouxFalls - Sioux Falls First) |   125 |  8.9 |      |  83% |
 |       16 | Grace Surber         | Warner Robins (GA,WarnerRobins - The Assembly)            |    80 |  5.7 |      |  87% |
 | **\*16** | Connor McDaniel      | Understand This (TX,Princeton - Legacy Church)            |    80 |  5.7 |      |  61% |
 |       17 | Jadyn Prom           | Understand This (TX,Princeton - Legacy Church)            |    75 |  5.4 |      |  77% |
-|       18 | Ally O\'Connell      | El Equipo (MO,Ozark - James River Church)                 |    60 |  4.3 |      |  54% |
+|       18 | Ally O'Connell       | El Equipo (MO,Ozark - James River Church)                 |    60 |  4.3 |      |  54% |
 |       19 | Krysta Tower         | Straight Up Salty (PA,BethelPark - South Hills AG)        |    50 |  3.6 |      |  67% |
 |       20 | Sadie Surber         | Warner Robins (GA,WarnerRobins - The Assembly)            |    20 |  1.4 |      | 100% |
 |       21 | Amber Ragains        | Leave A MARK (SD,RapidCity - Open Bible Christian )       |    10 |   .7 |      |  46% |

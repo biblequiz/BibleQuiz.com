@@ -29,7 +29,7 @@ menubar_toc_static:
 |    7 | Giant Slayers (A)      | De Soto 1st AG          | 8/6  |  2405 | 171.79 |
 |    8 | Phone Home             | Evangel Temple          | 8/6  |  2170 | 155.00 |
 |    9 | Blockbusters           | Brighton AG             | 6/8  |  1400 | 100.00 |
-|   10 | Fisher\'s of Men       | New Hope Fellowship     | 5/9  |  1225 |  87.50 |
+|   10 | Fisher's of Men        | New Hope Fellowship     | 5/9  |  1225 |  87.50 |
 |   11 | Bible Ninjas           | Crown Pointe Church     | 4/10 |  1150 |  82.14 |
 |   12 | Blazing Swords         | St. Louis + West County | 3/11 |  1360 |  97.14 |
 |   13 | Pebble Creek (A)       | Pebble Creek AG         | 3/11 |  1175 |  83.93 |
@@ -49,7 +49,7 @@ menubar_toc_static:
 |    5 | Grace Wright        | Giant Slayers (A)      | De Soto 1st AG          |  1590 | 113.57 |    5 |
 |    6 | Hannah Plake        | Lightning Quizzers     | Central AG              |  1310 |  93.57 |    6 |
 |    7 | Kosette Braithwaite | Phone Home             | Evangel Temple          |  1110 |  79.29 |    7 |
-|    8 | Dominique Mitkos    | Fisher\'s of Men       | New Hope Fellowship     |  1065 |  76.07 |    7 |
+|    8 | Dominique Mitkos    | Fisher's of Men        | New Hope Fellowship     |  1065 |  76.07 |    7 |
 |    9 | Joseph Glaser       | Marshmallow Cats       | West County AG          |  1065 |  76.07 |    2 |
 |   10 | Parker Hoel         | Phone Home             | Evangel Temple          |   970 |  69.29 |    9 |
 |   11 | Alycia Johnson      | Pebble Creek (A)       | Pebble Creek AG         |   955 |  68.21 |    5 |
@@ -84,7 +84,7 @@ menubar_toc_static:
 |   38 | Bethany Plake       | Lightning Quizzers     | Central AG              |   175 |  12.50 |      |
 |   39 | Lance Ramirez       | Blockbusters           | Brighton AG             |   165 |  11.79 |    1 |
 |   40 | Peyton Bough        | Truth Finders          | James River Church      |   165 |  11.79 |      |
-|   41 | Jordan Snyder       | Fisher\'s of Men       | New Hope Fellowship     |   160 |  11.43 |      |
+|   41 | Jordan Snyder       | Fisher's of Men        | New Hope Fellowship     |   160 |  11.43 |      |
 |   42 | Kaitlyn Gregg       | Bible Ninjas           | Crown Pointe Church     |   145 |  10.36 |      |
 |   42 | Casen Gray          | Bible Ninjas           | Crown Pointe Church     |   145 |  10.36 |      |
 |   43 | Tristen Bough       | Truth Finders          | James River Church      |   135 |   9.64 |      |

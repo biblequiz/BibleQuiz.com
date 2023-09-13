@@ -66,7 +66,7 @@ menubar_toc_static:
 |    # | Quizzer                | Team                                            | Total |
 | ---: | ---------------------- | ----------------------------------------------- | ----: |
 |    1 | Eliot Butay            | Spirit Born, Christian Chapel, Tulsa,OK         |   905 |
-|    2 | Chris Byrd,            | Five Barley Loaves, Christian Chapel, Tulsa, OK |   885 |
+|    2 | Chris Byrd             | Five Barley Loaves, Christian Chapel, Tulsa, OK |   885 |
 |    3 | Davis Good             | Five Barley Loaves, Christian Chapel, Tulsa, OK |   860 |
 |    4 | Da'Nae Atkins          | Bethel Assembly,Killeen, Killeen, TX            |   815 |
 |    5 | Alan Orcutt            | The Oaks Fellowship, Dallas, OK                 |   760 |

@@ -25,7 +25,7 @@ menubar_toc_static:
 |  3.0 | Dublin, OH (Radiant Quizzers)               | 4 / 2 |   870 |   145 |    6 |  78% |
 |  4.0 | Ypsilanti, MI (Two For A Penny)             | 2 / 4 |   435 |  72.5 |    3 |  81% |
 |  5.0 | Mooresville, IN (The girls without Gideon ) | 2 / 4 |   225 |  37.5 |    2 |  84% |
-|  6.0 | Mooresville, IN (We\'ll give it a go.)      | 2 / 4 |    60 |    10 |      |  73% |
+|  6.0 | Mooresville, IN (We'll give it a go.)       | 2 / 4 |    60 |    10 |      |  73% |
 |  7.0 | Louisville, OH (First Assembly of God)      | 0 / 6 |   -50 |  -8.3 |      |  32% |
 
 ### Individuals
@@ -45,10 +45,10 @@ menubar_toc_static:
 |        9 | Shaymis Powell   | Naperville, IL (Calvary Church)             |   205 |  34.2 |    1 |  64% |
 |       10 | Abel Karthik     | Dublin, OH (Radiant Quizzers)               |    85 |  14.2 |      |  69% |
 |       11 | Chloe King       | Lexington, KY (Eyes Are Unhealthy)          |    40 |   6.7 |      |  75% |
-|       12 | Josiah Lucero    | Mooresville, IN (We\'ll give it a go.)      |    25 |   4.2 |      |  75% |
-| **\*12** | Eli Elmore       | Mooresville, IN (We\'ll give it a go.)      |    25 |   4.2 |      |  67% |
+|       12 | Josiah Lucero    | Mooresville, IN (We'll give it a go.)       |    25 |   4.2 |      |  75% |
+| **\*12** | Eli Elmore       | Mooresville, IN (We'll give it a go.)       |    25 |   4.2 |      |  67% |
 |       13 | Alexis Squires   | Mooresville, IN (The girls without Gideon ) |    10 |   1.7 |      |  99% |
-| **\*13** | Nico Inman       | Mooresville, IN (We\'ll give it a go.)      |    10 |   1.7 |      |  99% |
+| **\*13** | Nico Inman       | Mooresville, IN (We'll give it a go.)       |    10 |   1.7 |      |  99% |
 |       14 | Robson Yoder     | Ypsilanti, MI (Two For A Penny)             |     0 |       |      |      |
 | **\*14** | Shawn Timothy    | Naperville, IL (Calvary Church)             |     0 |       |      |      |
 | **\*14** | Caleb Song       | Lexington, KY (Eyes Are Unhealthy)          |     0 |       |      |      |

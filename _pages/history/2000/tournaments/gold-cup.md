@@ -113,13 +113,13 @@ At the end of the seeding rounds, all teams were divided down into single elimin
 
 ### Top Individuals (81 Quizzers)
 
-|    # | Quizzer                | Team                               | Total |
-| ---: | ---------------------- | ---------------------------------- | ----: |
-|    1 | Valerie Marchalonis    | Mountain View A/G, Las Vegas, NV   |  1065 |
-|    2 | Sharron Ely, First A/G | Lewisville, TX                     |   975 |
-|    3 | Kevin Davis            | Oak Cliff A/G, Dallas, TX          |   945 |
-|    4 | Dan Marlow             | Sons of God A/G, Overland Park, KS |   890 |
-|    5 | Joey Bohanon           | Central A/G, Springfield, MO       |   850 |
+|    # | Quizzer             | Team                               | Total |
+| ---: | ------------------- | ---------------------------------- | ----: |
+|    1 | Valerie Marchalonis | Mountain View A/G, Las Vegas, NV   |  1065 |
+|    2 | Sharron Ely         | First A/G, Lewisville, TX          |   975 |
+|    3 | Kevin Davis         | Oak Cliff A/G, Dallas, TX          |   945 |
+|    4 | Dan Marlow          | Sons of God A/G, Overland Park, KS |   890 |
+|    5 | Joey Bohanon        | Central A/G, Springfield, MO       |   850 |
 
 ### One-on-One (42 Quizzers)
 

@@ -117,7 +117,7 @@ menubar_toc_static:
 |    2 | Three That Testify        | Central A/G                  |   9/5 |   915 |  65.36 |
 |    3 | North Valley              | North Valley A/G             |   9/5 |  1375 |  98.21 |
 |    4 | Warner Robins             | The A/G at Warner Robins     |   8/6 |   995 |  71.07 |
-|    5 | Labor Pains               | King\'s Chapel               |   7/7 |   855 |  61.07 |
+|    5 | Labor Pains               | King's Chapel                |   7/7 |   855 |  61.07 |
 |    6 | Three Green               | Truth A/G                    |   6/8 |   865 |  61.79 |
 |    7 | Once a Blasphemer         | The Oaks Fellowship          |   5/9 |   860 |  61.43 |
 |    8 | Big Fish Quizzers         | Meadowbrook Community Church |  0/14 |   160 |  11.43 |
@@ -135,11 +135,11 @@ menubar_toc_static:
 |    5 | Matthias Plank    | Three Green               | Truth A/G                    |   660 | 47.14 |    6 |
 |    6 | Mary Meddaugh     | Pudens, Linus and Claudia | Muskogee 1st A/G             |   585 | 41.79 |    5 |
 |    7 | Amie Oss          | Three That Testify        | Central A/G                  |   570 | 40.71 |    4 |
-|    8 | Kara Peters       | Labor Pains               | King\'s Chapel               |   545 | 38.93 |    7 |
+|    8 | Kara Peters       | Labor Pains               | King's Chapel                |   545 | 38.93 |    7 |
 |    9 | Ashley Kellock    | North Valley              | North Valley A/G             |   530 | 37.86 |    3 |
 |   10 | Caroline Oss      | Three That Testify        | Central A/G                  |   350 | 25.00 |      |
 |   11 | Cherokee Hill     | Pudens, Linus and Claudia | Muskogee 1st A/G             |   345 | 24.64 |    1 |
-|   12 | Brock Peters      | Labor Pains               | King\'s Chapel               |   315 | 22.50 |    4 |
+|   12 | Brock Peters      | Labor Pains               | King's Chapel                |   315 | 22.50 |    4 |
 |   13 | Veronica Johnson  | Warner Robins             | The A/G at Warner Robins     |   170 | 12.14 |      |
 |   14 | Gideon Plank      | Three Green               | Truth A/G                    |   165 | 11.79 |    1 |
 |   15 | Olivia Scott      | Big Fish Quizzers         | Meadowbrook Community Church |   165 | 11.79 |      |
@@ -167,7 +167,7 @@ menubar_toc_static:
 |    3 | Controversial Speculations | James River Church   |  14/4 |  2665 | 148.06 |
 |    4 | JRC-TBD                    | James River Church   |  13/5 |  2905 | 161.39 |
 |    5 | JRC-Vessels of Honor I     | James River Church   |  10/8 |  2175 | 120.83 |
-|    6 | JRC-We Eat Anyones\' Food  | James River Church   |  10/8 |  2160 | 120.00 |
+|    6 | JRC-We Eat Anyones' Food   | James River Church   |  10/8 |  2160 | 120.00 |
 |    7 | Muskogee MSQ               | Muskogee 1st A/G     |  6/12 |  1525 |  84.72 |
 |    8 | Brothers and A Sister      | New Day A/G          |  6/12 |  1455 |  80.83 |
 |    9 | JRC-Vessels of Honor II    | James River Church   |  3/15 |   875 |  48.61 |
@@ -188,15 +188,15 @@ menubar_toc_static:
 |    7 | Christina Burks      | JRC-Vessels of Honor I     | James River Church   |  1245 |  69.17 |   11 |
 |    8 | Megumi Sinniah       | JRC-TBD                    | James River Church   |  1200 |  66.67 |    7 |
 |    9 | Stacy Roberts        | JRC-Vessels of Honor II    | James River Church   |   920 |  51.11 |    6 |
-|   10 | Hayden Ballard       | JRC-We Eat Anyones\' Food  | James River Church   |   850 |  47.22 |    5 |
+|   10 | Hayden Ballard       | JRC-We Eat Anyones' Food   | James River Church   |   850 |  47.22 |    5 |
 |   11 | Kelise Braithwaite   | Stand Firm                 | James River Church   |   720 |  40.00 |    6 |
-|   12 | Jonathon Dasal       | JRC-We Eat Anyones\' Food  | James River Church   |   665 |  36.94 |    2 |
-|   13 | Acacia Graves        | JRC-We Eat Anyones\' Food  | James River Church   |   645 |  35.83 |    3 |
+|   12 | Jonathon Dasal       | JRC-We Eat Anyones' Food   | James River Church   |   665 |  36.94 |    2 |
+|   13 | Acacia Graves        | JRC-We Eat Anyones' Food   | James River Church   |   645 |  35.83 |    3 |
 |   14 | Angela Burks         | Stand Firm                 | James River Church   |   615 |  34.17 |    4 |
 |   15 | Alex Bradley         | Brothers and A Sister      | New Day A/G          |   565 |  31.39 |    2 |
 |   16 | Sarah Roberts        | JRC-Vessels of Honor I     | James River Church   |   540 |  30.00 |    1 |
 |   17 | Justin Reid          | Brothers and A Sister      | New Day A/G          |   435 |  24.17 |    3 |
-|   18 | Abby O\'Connell      | JRC-Vessels of Honor I     | James River Church   |   390 |  21.67 |    2 |
+|   18 | Abby O'Connell       | JRC-Vessels of Honor I     | James River Church   |   390 |  21.67 |    2 |
 |   19 | Liam Rooney          | Brothers and A Sister      | New Day A/G          |   360 |  20.00 |    2 |
 |   20 | Gavin Griffith       | JRC-TBD                    | James River Church   |   295 |  16.39 |      |
 |   21 | Jake Ward            | Controversial Speculations | James River Church   |   225 |  12.50 |    1 |
@@ -219,7 +219,7 @@ menubar_toc_static:
 |   32 | Carissa Budday       | Brothers and A Sister      | New Day A/G          |       |    .00 |      |
 |   32 | Ruth Martinov        | Controversial Speculations | James River Church   |       |    .00 |      |
 |   32 | Mareena Bogun        | JRC-Vessels of Honor II    | James River Church   |       |    .00 |      |
-|   32 | Danielle Aubrey      | JRC-We Eat Anyones\' Food  | James River Church   |       |    .00 |      |
+|   32 | Danielle Aubrey      | JRC-We Eat Anyones' Food   | James River Church   |       |    .00 |      |
 |   32 | Micheal Warner       | Muskogee MSQ               | Muskogee 1st A/G     |       |    .00 |      |
 |   33 | Lexi Farrell         | JRC-Vessels of Honor II    | James River Church   |   -45 |   -2.5 |      |
 |   34 | Jeffrey Coder        | Cedar Rapids-Contender     | Cedar Rapids 1st A/G |   -15 |  -0.83 |      |

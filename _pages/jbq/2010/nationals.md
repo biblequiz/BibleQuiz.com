@@ -157,7 +157,7 @@ menubar_toc_static:
 |    # | Team              | Church                                         | W/L   | Total |    Avg |
 | ---: | ----------------- | ---------------------------------------------- | ----- | ----: | -----: |
 |    1 | Fearsome Foursome | Trinity Church (Cedar Hill, TX)                | 6/1   |  1405 | 200.71 |
-|    2 | Christ\'s Crew    | Dayspring A/G (Bowling Green, OH)              | 5/2   |  1215 | 173.57 |
+|    2 | Christ's Crew     | Dayspring A/G (Bowling Green, OH)              | 5/2   |  1215 | 173.57 |
 |    3 | CRK Almighty      | Church of the Risen King (Gloucester City, NJ) | 5/2   |  1100 | 157.14 |
 |    4 | Blazing Swords    | West County (Chesterfield, MO)                 | 4/3   |  1035 | 147.86 |
 |    5 | Silver Spurs      | Bethel A/G (Askewville, NC)                    | 4/3   |  1150 | 164.29 |
@@ -175,15 +175,15 @@ menubar_toc_static:
 |    2 | Alyssa Harden   | Silver Spurs      | Bethel A/G (Askewville, NC)                    |   650 |  92.86 |    2 |
 |    3 | Jared Jordan    | CRK Almighty      | Church of the Risen King (Gloucester City, NJ) |   605 |  86.43 |    3 |
 |    4 | Stephen Moses   | Scottsdale Free   | 1st A/G (Scottsdale, AZ)                       |   570 |  81.43 |    1 |
-|    5 | Aaron Smith     | Christ\'s Crew    | Dayspring A/G (Bowling Green, OH)              |   470 |  67.14 |    1 |
+|    5 | Aaron Smith     | Christ's Crew     | Dayspring A/G (Bowling Green, OH)              |   470 |  67.14 |    1 |
 |    6 | Daniel Kinger   | Blazing Swords    | West County (Chesterfield, MO)                 |   435 |  62.14 |    5 |
-|    7 | Evan Kobylski   | Christ\'s Crew    | Dayspring A/G (Bowling Green, OH)              |   410 |  58.57 |      |
+|    7 | Evan Kobylski   | Christ's Crew     | Dayspring A/G (Bowling Green, OH)              |   410 |  58.57 |      |
 |    8 | Sarah Kinger    | Blazing Swords    | West County (Chesterfield, MO)                 |   390 |  55.71 |    1 |
 |    9 | Aaron Hardinge  | God Squad         | 1st A/G (Bernalillo, NM)                       |   390 |  55.71 |      |
 |   10 | Noah Ridgway    | Get Smart         | 1st A/G (Des Moines, IA)                       |   380 |  54.29 |      |
 |   11 | Coby Calvery    | Fearsome Foursome | Trinity Church (Cedar Hill, TX)                |   370 |  52.86 |    5 |
 |   12 | Will Bazemore   | Silver Spurs      | Bethel A/G (Askewville, NC)                    |   345 |  49.29 |    3 |
-|   13 | Lilly Schmitz   | Christ\'s Crew    | Dayspring A/G (Bowling Green, OH)              |   320 |  45.71 |    3 |
+|   13 | Lilly Schmitz   | Christ's Crew     | Dayspring A/G (Bowling Green, OH)              |   320 |  45.71 |    3 |
 |   14 | Russell Flores  | CRK Almighty      | Church of the Risen King (Gloucester City, NJ) |   290 |  41.43 |    2 |
 |   15 | Elijah Abad     | CRK Almighty      | Church of the Risen King (Gloucester City, NJ) |   205 |  29.29 |      |
 |   16 | Sophia Ridgway  | Get Smart         | 1st A/G (Des Moines, IA)                       |   190 |  27.14 |      |
@@ -203,7 +203,7 @@ menubar_toc_static:
 |   29 | JD Welter       | God Squad         | 1st A/G (Bernalillo, NM)                       |    30 |   4.29 |      |
 |   30 | Holly Garrett   | Scottsdale Free   | 1st A/G (Scottsdale, AZ)                       |    25 |   3.57 |      |
 |   31 | Danielle Borja  | CRK Almighty      | Church of the Risen King (Gloucester City, NJ) |    20 |   2.86 |      |
-|   32 | Seth Estep      | Christ\'s Crew    | Dayspring A/G (Bowling Green, OH)              |    15 |   2.14 |      |
+|   32 | Seth Estep      | Christ's Crew     | Dayspring A/G (Bowling Green, OH)              |    15 |   2.14 |      |
 |   33 | Sofia Beker     | God Squad         | 1st A/G (Bernalillo, NM)                       |       |    .00 |      |
 |   33 | Yasmine Barlow  | God Squad         | 1st A/G (Bernalillo, NM)                       |       |    .00 |      |
 |   33 | Leslie Flores   | God Squad         | 1st A/G (Bernalillo, NM)                       |       |    .00 |      |
@@ -292,7 +292,7 @@ menubar_toc_static:
 | ---: | ----------------------- | ---------------------------------------- | --- | ----: | -----: |
 |    1 | Soul Survivors          | Lawson A/G (Lawson, MO)                  | 6/1 |  1145 | 163.57 |
 |    2 | Naperville              | Calvary Church (Naperville, IL)          | 6/1 |  1745 | 249.29 |
-|    3 | God\'s C.R.E.W.         | Capitol Hill A/G (OKC, OK)               | 4/3 |  1075 | 153.57 |
+|    3 | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               | 4/3 |  1075 | 153.57 |
 |    4 | Bible Cadets            | Ross Prep. Academy (Fallbrook, CA)       | 4/3 |   905 | 129.29 |
 |    5 | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) | 2/5 |  1050 | 150.00 |
 |    6 | Word Warriors           | Bethany Comm. Church (Mendon, MA)        | 2/5 |   835 | 119.29 |
@@ -309,13 +309,13 @@ menubar_toc_static:
 |    2 | Zachary Cook                  | Soul Survivors          | Lawson A/G (Lawson, MO)                  |   855 | 122.14 |    4 |
 |    3 | Alexandra E. E. Ross          | Bible Cadets            | Ross Prep. Academy (Fallbrook, CA)       |   650 |  92.86 |    3 |
 |    4 | Jordan Landry                 | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |   615 |  87.86 |    2 |
-|    5 | Christina Baxter              | God\'s C.R.E.W.         | Capitol Hill A/G (OKC, OK)               |   560 |  80.00 |    1 |
+|    5 | Christina Baxter              | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |   560 |  80.00 |    1 |
 |    6 | Robert Laboy                  | Naperville              | Calvary Church (Naperville, IL)          |   505 |  72.14 |    7 |
 |    7 | Katie Burke                   | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |   375 |  53.57 |      |
 |    8 | Garrett Miyaoka               | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |   340 |  48.57 |      |
 |    9 | Grace Artis                   | Light                   | World Harvest (Roswell, GA)              |   325 |  46.43 |    1 |
 |   10 | Daniel Ferreira               | Light                   | World Harvest (Roswell, GA)              |   315 |  45.00 |      |
-|   11 | Catherine Baxter              | God\'s C.R.E.W.         | Capitol Hill A/G (OKC, OK)               |   290 |  41.43 |    2 |
+|   11 | Catherine Baxter              | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |   290 |  41.43 |    2 |
 |   12 | Lauren Huseman                | Naperville              | Calvary Church (Naperville, IL)          |   285 |  40.71 |    1 |
 |   13 | Beatrice-Elizabeth A. C. Ross | Bible Cadets            | Ross Prep. Academy (Fallbrook, CA)       |   255 |  36.43 |    3 |
 |   14 | Brendon Sturgeon              | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |   240 |  34.29 |    2 |
@@ -324,19 +324,19 @@ menubar_toc_static:
 |   17 | Trent Hashimoto               | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |   220 |  31.43 |    1 |
 |   18 | Nicholas Tveit                | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |   195 |  27.86 |    2 |
 |   19 | Bailey Bullock                | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |   195 |  27.86 |    1 |
-|   20 | Kaelyn Comfort                | God\'s C.R.E.W.         | Capitol Hill A/G (OKC, OK)               |   190 |  27.14 |      |
+|   20 | Kaelyn Comfort                | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |   190 |  27.14 |      |
 |   21 | Cristian Huix                 | Light                   | World Harvest (Roswell, GA)              |   180 |  25.71 |    2 |
 |   22 | Grace Caughey                 | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |   120 |  17.14 |      |
 |   23 | John Fugere                   | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |    75 |  10.71 |      |
 |   24 | Jonathan Archer               | Soul Survivors          | Lawson A/G (Lawson, MO)                  |    50 |   7.14 |      |
 |   25 | Isabelle Smith                | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |    25 |   3.57 |      |
-|   26 | Jonathan Burke                | God\'s C.R.E.W.         | Capitol Hill A/G (OKC, OK)               |    20 |   2.86 |      |
+|   26 | Jonathan Burke                | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |    20 |   2.86 |      |
 |   26 | Tayla Vannelli                | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |    20 |   2.86 |      |
 |   26 | Bethany Perry                 | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |    20 |   2.86 |      |
-|   27 | Miken Melvin                  | God\'s C.R.E.W.         | Capitol Hill A/G (OKC, OK)               |    15 |   2.14 |      |
+|   27 | Miken Melvin                  | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |    15 |   2.14 |      |
 |   28 | Julia DeGraff                 | Naperville              | Calvary Church (Naperville, IL)          |    10 |   1.43 |      |
 |   29 | Abigail Bullock               | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |       |    .00 |      |
-|   29 | Nathan Burke                  | God\'s C.R.E.W.         | Capitol Hill A/G (OKC, OK)               |       |    .00 |      |
+|   29 | Nathan Burke                  | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |       |    .00 |      |
 |   29 | Jessica McElwee               | Naperville              | Calvary Church (Naperville, IL)          |       |    .00 |      |
 |   29 | Nicholas Theriot              | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |       |    .00 |      |
 
@@ -413,13 +413,13 @@ menubar_toc_static:
 
 |    # | Team                  | Church                                        | W/L | Total |    Avg |
 | ---: | --------------------- | --------------------------------------------- | --- | ----: | -----: |
-|    1 | Master\'s Mavericks   | Abundant Life Church (Grapevine, TX)          | 6/1 |  1275 | 182.14 |
+|    1 | Master's Mavericks    | Abundant Life Church (Grapevine, TX)          | 6/1 |  1275 | 182.14 |
 |    2 | Buzz Hogs             | River of Life (Mabelvale, AR)                 | 5/2 |  1005 | 143.57 |
 |    3 | FCA - Cincinnati      | First Christian A/G (Cincinnati, OH)          | 5/2 |  1050 | 150.00 |
 |    4 | Los Chicos            | City Church (Sanford, FL)                     | 4/3 |   940 | 134.29 |
 |    5 | Double Edge Swordmans | Orange Co. Christian Evangelical (Irvine, CA) | 3/4 |   915 | 130.71 |
 |    6 | Parkway               | Parkway Christian Ctr. (Grants Pass, OR)      | 2/5 |   820 | 117.14 |
-|    7 | God\'s Victory Kids   | Victory A/G (Universal City, TX)              | 2/5 |   825 | 117.86 |
+|    7 | God's Victory Kids    | Victory A/G (Universal City, TX)              | 2/5 |   825 | 117.86 |
 |    8 | Quiztastic Four       | Tiffany Fellowship (KC, MO)                   | 1/6 |   550 |  78.57 |
 
 #### Individuals
@@ -429,13 +429,13 @@ menubar_toc_static:
 |    # | Quizzer             | Team                  | Church                                        | Total |   Avg |   QO |
 | ---: | ------------------- | --------------------- | --------------------------------------------- | ----: | ----: | ---: |
 |    1 | Jared Minick        | Buzz Hogs             | River of Life (Mabelvale, AR)                 |   575 | 82.14 |    1 |
-|    2 | David Brauchler     | Master\'s Mavericks   | Abundant Life Church (Grapevine, TX)          |   570 | 81.43 |    2 |
+|    2 | David Brauchler     | Master's Mavericks    | Abundant Life Church (Grapevine, TX)          |   570 | 81.43 |    2 |
 |    3 | Tyler Cardiel       | Parkway               | Parkway Christian Ctr. (Grants Pass, OR)      |   560 | 80.00 |    2 |
 |    4 | Brennan Dodds       | FCA - Cincinnati      | First Christian A/G (Cincinnati, OH)          |   430 | 61.43 |      |
 |    5 | Peyton Goss         | Los Chicos            | City Church (Sanford, FL)                     |   400 | 57.14 |      |
-|    6 | Zach Wylie          | God\'s Victory Kids   | Victory A/G (Universal City, TX)              |   390 | 55.71 |      |
-|    7 | Jaden Werley        | Master\'s Mavericks   | Abundant Life Church (Grapevine, TX)          |   380 | 54.29 |    4 |
-|    8 | Jacob Jeter         | Master\'s Mavericks   | Abundant Life Church (Grapevine, TX)          |   325 | 46.43 |      |
+|    6 | Zach Wylie          | God's Victory Kids    | Victory A/G (Universal City, TX)              |   390 | 55.71 |      |
+|    7 | Jaden Werley        | Master's Mavericks    | Abundant Life Church (Grapevine, TX)          |   380 | 54.29 |    4 |
+|    8 | Jacob Jeter         | Master's Mavericks    | Abundant Life Church (Grapevine, TX)          |   325 | 46.43 |      |
 |    9 | Carmel Lee          | Double Edge Swordmans | Orange Co. Christian Evangelical (Irvine, CA) |   320 | 45.71 |      |
 |   10 | Trenton Page        | Buzz Hogs             | River of Life (Mabelvale, AR)                 |   310 | 44.29 |    4 |
 |   11 | Matthew Robinson    | Los Chicos            | City Church (Sanford, FL)                     |   305 | 43.57 |    2 |
@@ -443,8 +443,8 @@ menubar_toc_static:
 |   13 | Jared Kleinhenz     | FCA - Cincinnati      | First Christian A/G (Cincinnati, OH)          |   280 | 40.00 |      |
 |   14 | Jeremy Wu           | Double Edge Swordmans | Orange Co. Christian Evangelical (Irvine, CA) |   270 | 38.57 |    2 |
 |   15 | Ariana Zhu          | Double Edge Swordmans | Orange Co. Christian Evangelical (Irvine, CA) |   220 | 31.43 |      |
-|   16 | Paul Russell, Jr.   | God\'s Victory Kids   | Victory A/G (Universal City, TX)              |   210 | 30.00 |      |
-|   17 | Noah Harris         | God\'s Victory Kids   | Victory A/G (Universal City, TX)              |   195 | 27.86 |      |
+|   16 | Paul Russell, Jr.   | God's Victory Kids    | Victory A/G (Universal City, TX)              |   210 | 30.00 |      |
+|   17 | Noah Harris         | God's Victory Kids    | Victory A/G (Universal City, TX)              |   195 | 27.86 |      |
 |   18 | Toby Robinson       | Los Chicos            | City Church (Sanford, FL)                     |   180 | 25.71 |    1 |
 |   19 | Bekah Ray           | FCA - Cincinnati      | First Christian A/G (Cincinnati, OH)          |   160 | 22.86 |    1 |
 |   20 | Ethan Smith         | FCA - Cincinnati      | First Christian A/G (Cincinnati, OH)          |   160 | 22.86 |      |
@@ -457,13 +457,13 @@ menubar_toc_static:
 |   25 | Jordan Birmingham   | Quiztastic Four       | Tiffany Fellowship (KC, MO)                   |    65 |  9.29 |      |
 |   26 | Braden Pennington   | Parkway               | Parkway Christian Ctr. (Grants Pass, OR)      |    60 |  8.57 |      |
 |   27 | Aubrey Goss         | Los Chicos            | City Church (Sanford, FL)                     |    40 |  5.71 |      |
-|   28 | Jakob Schweizerhoff | God\'s Victory Kids   | Victory A/G (Universal City, TX)              |    30 |  4.29 |      |
+|   28 | Jakob Schweizerhoff | God's Victory Kids    | Victory A/G (Universal City, TX)              |    30 |  4.29 |      |
 |   29 | Gunnar Smart        | FCA - Cincinnati      | First Christian A/G (Cincinnati, OH)          |    20 |  2.86 |      |
 |   29 | Jonathan Huber      | Los Chicos            | City Church (Sanford, FL)                     |    20 |  2.86 |      |
 |   29 | Savanah Biniakewitz | Buzz Hogs             | River of Life (Mabelvale, AR)                 |    20 |  2.86 |      |
 |   30 | Calvin Lee          | Double Edge Swordmans | Orange Co. Christian Evangelical (Irvine, CA) |    10 |  1.43 |      |
 |   31 | Julie Huber         | Los Chicos            | City Church (Sanford, FL)                     |       |   .00 |      |
-|   31 | Kasie Narvaez       | God\'s Victory Kids   | Victory A/G (Universal City, TX)              |       |   .00 |      |
+|   31 | Kasie Narvaez       | God's Victory Kids    | Victory A/G (Universal City, TX)              |       |   .00 |      |
 |   31 | Janet Li            | Double Edge Swordmans | Orange Co. Christian Evangelical (Irvine, CA) |       |   .00 |      |
 |   31 | Levi Biniakewitz    | Buzz Hogs             | River of Life (Mabelvale, AR)                 |       |   .00 |      |
 |   31 | Jack Titkemeyer     | FCA - Cincinnati      | First Christian A/G (Cincinnati, OH)          |       |   .00 |      |
@@ -499,7 +499,7 @@ menubar_toc_static:
 |    4 | Tyler Howard      | Overland Park First Assembly of God | 1st A/G (Overland Park, KS)       |   475 | 67.86 |    2 |
 |    5 | Erika Fox         | Overland Park First Assembly of God | 1st A/G (Overland Park, KS)       |   465 | 66.43 |    3 |
 |    6 | Matthew Bozzay    | S.P.Y. Kids 006                     | The Worship Center (Leesburg, VA) |   460 | 65.71 |    1 |
-|    7 | Erin O\'Mara      | S.P.Y. Kids 006                     | The Worship Center (Leesburg, VA) |   415 | 59.29 |      |
+|    7 | Erin O'Mara       | S.P.Y. Kids 006                     | The Worship Center (Leesburg, VA) |   415 | 59.29 |      |
 |    8 | Samuel Wilkerson  | 3-n-1                               | 1st A/G (Goldsboro, NC)           |   410 | 58.57 |      |
 |    9 | Sarah Lane        | Phoenix First Frogs                 | 1st A/G (Phoenix, AZ)             |   400 | 57.14 |      |
 |   10 | Carson Nix        | Status Update                       | 1st A/G (Fargo, ND)               |   395 | 56.43 |      |
@@ -516,7 +516,7 @@ menubar_toc_static:
 |   21 | Micah Marchand    | Status Update                       | 1st A/G (Fargo, ND)               |   165 | 23.57 |      |
 |   22 | Renee Betterson   | 3-n-1                               | 1st A/G (Goldsboro, NC)           |   135 | 19.29 |    1 |
 |   23 | Abby Bailey       | Harrison Thrashers                  | Faith A/G (Harrison, AR)          |   125 | 17.86 |      |
-|   24 | Brian O\'Mara     | S.P.Y. Kids 006                     | The Worship Center (Leesburg, VA) |   115 | 16.43 |    1 |
+|   24 | Brian O'Mara      | S.P.Y. Kids 006                     | The Worship Center (Leesburg, VA) |   115 | 16.43 |    1 |
 |   25 | Bethany Lane      | Phoenix First Frogs                 | 1st A/G (Phoenix, AZ)             |   115 | 16.43 |      |
 |   26 | Tirzah Brookbank  | Overland Park First Assembly of God | 1st A/G (Overland Park, KS)       |   110 | 15.71 |      |
 |   27 | Evan Gray         | G.R.I.P.                            | The Bridge (Mustang, OK)          |    45 |  6.43 |      |
@@ -576,7 +576,7 @@ menubar_toc_static:
 |   18 | Laura Hetrick          | God Worshippers               | Glad Tidings (Omaha, NE)           |   170 |  24.29 |      |
 |   19 | Noah Hensley           | The Giant Smarties            | Bethel Temple A/G (Huntington, WV) |   160 |  22.86 |    1 |
 |   20 | Sarah Jacob            | International Assembly of God | International A/G (Warren, MI)     |   155 |  22.14 |      |
-|   21 | Abby O\'Connell        | Fizz Over                     | James River Assembly (Ozark, MO)   |   100 |  14.29 |      |
+|   21 | Abby O'Connell         | Fizz Over                     | James River Assembly (Ozark, MO)   |   100 |  14.29 |      |
 |   21 | Stanley Thomas         | Evangel Qwizzlers             | Evangel Church (Scotch Plains, NJ) |   100 |  14.29 |      |
 |   22 | Philip Greenaway       | Ocala First                   | 1st A/G (Ocala, FL)                |    95 |  13.57 |      |
 |   23 | Makayla Lowe           | The Giant Smarties            | Bethel Temple A/G (Huntington, WV) |    80 |  11.43 |      |
@@ -621,7 +621,7 @@ menubar_toc_static:
 |    2 | David Inyangson      | Word of Life Swordbearers | Word of Life (Springfield, VA)           |   500 | 71.43 |      |
 |    3 | David Saunders       | Tribulation Force         | The Oaks Fellowship (Red Oak, TX)        |   480 | 68.57 |      |
 |    4 | Tia Lubinski         | FBI                       | Celebration Church (Lakeville, MN)       |   475 | 67.86 |      |
-|    5 | Elijah O\'Brien      | The BK - Believing Kids   | Victory Int. Fellowship (Brookfield, WI) |   470 | 67.14 |      |
+|    5 | Elijah O'Brien       | The BK - Believing Kids   | Victory Int. Fellowship (Brookfield, WI) |   470 | 67.14 |      |
 |    6 | Parker Frankiewicz   | Tribulation Force         | The Oaks Fellowship (Red Oak, TX)        |   460 | 65.71 |      |
 |    7 | Chris Collins        | Lebanon Swordsmen         | 1st A/G (Lebanon, MO)                    |   440 | 62.86 |      |
 |    8 | Danika Houde         | New Life C.L.A.Y.         | New Life Church (Billings, MT)           |   370 | 52.86 |      |
@@ -784,7 +784,7 @@ menubar_toc_static:
 |    6 | Alecia Rajesh       | Army of God                   | Calvary Church (Greensboro, NC)   |   295 | 59.00 |      |
 |    7 | Sherlin Chacko      | International Assembly of God | International A/G (Warren, MI)    |   250 | 50.00 |      |
 |    8 | Matthew Bozzay      | S.P.Y. Kids 006               | The Worship Center (Leesburg, VA) |   220 | 44.00 |      |
-|    9 | Erin O\'Mara        | S.P.Y. Kids 006               | The Worship Center (Leesburg, VA) |   215 | 43.00 |      |
+|    9 | Erin O'Mara         | S.P.Y. Kids 006               | The Worship Center (Leesburg, VA) |   215 | 43.00 |      |
 |   10 | Rohan George        | Army of God                   | Calvary Church (Greensboro, NC)   |   170 | 34.00 |    1 |
 |   11 | Albert George       | International Assembly of God | International A/G (Warren, MI)    |   160 | 32.00 |    1 |
 |   12 | Trenton Page        | Buzz Hogs                     | River of Life (Mabelvale, AR)     |   150 | 30.00 |      |
@@ -805,7 +805,7 @@ menubar_toc_static:
 |   22 | Autumn Pettit       | Seed Sowers                   | Trinity A/G (Georgetown, KY)      |       |   .00 |      |
 |   22 | Elijah Pettit       | Seed Sowers                   | Trinity A/G (Georgetown, KY)      |       |   .00 |      |
 |   22 | Julia DeGraff       | Naperville                    | Calvary Church (Naperville, IL)   |       |   .00 |      |
-|   22 | Brian O\'Mara       | S.P.Y. Kids 006               | The Worship Center (Leesburg, VA) |       |   .00 |      |
+|   22 | Brian O'Mara        | S.P.Y. Kids 006               | The Worship Center (Leesburg, VA) |       |   .00 |      |
 |   22 | Elizabeth Steinbach | Seed Sowers                   | Trinity A/G (Georgetown, KY)      |       |   .00 |      |
 |   22 | Maddi Evans         | Seed Sowers                   | Trinity A/G (Georgetown, KY)      |       |   .00 |      |
 |   23 | Levi Biniakewitz    | Buzz Hogs                     | River of Life (Mabelvale, AR)     |    -5 |    -1 |      |
@@ -833,7 +833,7 @@ menubar_toc_static:
 | ---: | -------------------- | ------------------------- | ---------------------------------------- | ----: | -----: | ---: |
 |    1 | Alyssa Walker        | Sonburst Alpha            | MCC (Mechanicsville, VA)                 |   440 | 110.00 |    2 |
 |    2 | Aaron Hardinge       | God Squad                 | 1st A/G (Bernalillo, NM)                 |   400 | 100.00 |    2 |
-|    3 | Elijah O\'Brien      | The BK - Believing Kids   | Victory Int. Fellowship (Brookfield, WI) |   370 |  92.50 |    1 |
+|    3 | Elijah O'Brien       | The BK - Believing Kids   | Victory Int. Fellowship (Brookfield, WI) |   370 |  92.50 |    1 |
 |    4 | Brooklyne Sederwall  | Swordsmen                 | Vailsburg Assembly (Newark, NJ)          |   240 |  60.00 |    2 |
 |    5 | Joshua Kukuvka       | Sonburst Alpha            | MCC (Mechanicsville, VA)                 |   210 |  52.50 |      |
 |    6 | William Ubert        | The BK - Believing Kids   | Victory Int. Fellowship (Brookfield, WI) |   170 |  42.50 |    1 |
@@ -1024,7 +1024,7 @@ menubar_toc_static:
 |    3 | Tribulation Force | The Oaks Fellowship (Red Oak, TX)    | 3/2 |   865 | 173.00 |
 |    4 | FCA - Cincinnati  | First Christian A/G (Cincinnati, OH) | 2/3 |   750 | 150.00 |
 |    5 | Jedi Knights      | Calvary A/G (Elkhart, IN)            | 2/3 |   570 | 114.00 |
-|    6 | God\'s C.R.E.W.   | Capitol Hill A/G (OKC, OK)           | 0/5 |   430 |  86.00 |
+|    6 | God's C.R.E.W.    | Capitol Hill A/G (OKC, OK)           | 0/5 |   430 |  86.00 |
 
 #### Individuals
 
@@ -1038,7 +1038,7 @@ menubar_toc_static:
 |    4 | Parker Frankiewicz | Tribulation Force | The Oaks Fellowship (Red Oak, TX)    |   320 |  64.00 |      |
 |    5 | Brennan Dodds      | FCA - Cincinnati  | First Christian A/G (Cincinnati, OH) |   285 |  57.00 |    2 |
 |    6 | David Saunders     | Tribulation Force | The Oaks Fellowship (Red Oak, TX)    |   255 |  51.00 |      |
-|    7 | Christina Baxter   | God\'s C.R.E.W.   | Capitol Hill A/G (OKC, OK)           |   230 |  46.00 |      |
+|    7 | Christina Baxter   | God's C.R.E.W.    | Capitol Hill A/G (OKC, OK)           |   230 |  46.00 |      |
 |    8 | Cameron Berta      | Tribulation Force | The Oaks Fellowship (Red Oak, TX)    |   210 |  42.00 |    1 |
 |    9 | Sean Jones         | Lifeguards        | Destiny Christian Ctr. (Dayton, OH)  |   210 |  42.00 |      |
 |   10 | Jared Kleinhenz    | FCA - Cincinnati  | First Christian A/G (Cincinnati, OH) |   170 |  34.00 |      |
@@ -1047,8 +1047,8 @@ menubar_toc_static:
 |   12 | Jonathan Gomez     | Jedi Knights      | Calvary A/G (Elkhart, IN)            |   125 |  25.00 |    1 |
 |   13 | Daniel Gallegos    | SPY Warriors      | River of Life Fellowship (Kent, WA)  |   125 |  25.00 |      |
 |   13 | Ethan Smith        | FCA - Cincinnati  | First Christian A/G (Cincinnati, OH) |   125 |  25.00 |      |
-|   14 | Kaelyn Comfort     | God\'s C.R.E.W.   | Capitol Hill A/G (OKC, OK)           |   100 |  20.00 |      |
-|   15 | Catherine Baxter   | God\'s C.R.E.W.   | Capitol Hill A/G (OKC, OK)           |    90 |  18.00 |      |
+|   14 | Kaelyn Comfort     | God's C.R.E.W.    | Capitol Hill A/G (OKC, OK)           |   100 |  20.00 |      |
+|   15 | Catherine Baxter   | God's C.R.E.W.    | Capitol Hill A/G (OKC, OK)           |    90 |  18.00 |      |
 |   16 | Joey Jones         | Lifeguards        | Destiny Christian Ctr. (Dayton, OH)  |    85 |  17.00 |      |
 |   17 | Matthew Braham     | SPY Warriors      | River of Life Fellowship (Kent, WA)  |    75 |  15.00 |      |
 |   18 | Jason Root         | Lifeguards        | Destiny Christian Ctr. (Dayton, OH)  |    60 |  12.00 |      |
@@ -1059,13 +1059,13 @@ menubar_toc_static:
 |   21 | Harrison Hoggard   | Tribulation Force | The Oaks Fellowship (Red Oak, TX)    |    20 |   4.00 |      |
 |   21 | Jack Titkemeyer    | FCA - Cincinnati  | First Christian A/G (Cincinnati, OH) |    20 |   4.00 |      |
 |   21 | Gunnar Smart       | FCA - Cincinnati  | First Christian A/G (Cincinnati, OH) |    20 |   4.00 |      |
-|   22 | Jonathan Burke     | God\'s C.R.E.W.   | Capitol Hill A/G (OKC, OK)           |    10 |   2.00 |      |
+|   22 | Jonathan Burke     | God's C.R.E.W.    | Capitol Hill A/G (OKC, OK)           |    10 |   2.00 |      |
 |   23 | Dylan Quiggle      | Jedi Knights      | Calvary A/G (Elkhart, IN)            |     5 |   1.00 |      |
 |   24 | Ben Beeson         | Lifeguards        | Destiny Christian Ctr. (Dayton, OH)  |       |    .00 |      |
 |   24 | Natalie Isaacs     | Lifeguards        | Destiny Christian Ctr. (Dayton, OH)  |       |    .00 |      |
-|   24 | Miken Melvin       | God\'s C.R.E.W.   | Capitol Hill A/G (OKC, OK)           |       |    .00 |      |
+|   24 | Miken Melvin       | God's C.R.E.W.    | Capitol Hill A/G (OKC, OK)           |       |    .00 |      |
 |   24 | Dena Schaeffer     | Lifeguards        | Destiny Christian Ctr. (Dayton, OH)  |       |    .00 |      |
-|   24 | Nathan Burke       | God\'s C.R.E.W.   | Capitol Hill A/G (OKC, OK)           |       |    .00 |      |
+|   24 | Nathan Burke       | God's C.R.E.W.    | Capitol Hill A/G (OKC, OK)           |       |    .00 |      |
 
 
 ### Pink
@@ -1107,7 +1107,7 @@ menubar_toc_static:
 |   15 | Josiah Stewart   | Super Sonic Sailfish                | New Life Church (Princeton, MN)                |   115 |  23.00 |      |
 |   16 | Teddy Gutterud   | SPY All Stars                       | River of Life Fellowship (Kent, WA)            |    60 |  12.00 |      |
 |   17 | Montana Lawrence | Super Sonic Sailfish                | New Life Church (Princeton, MN)                |    40 |   8.00 |      |
-|   17 | Abby O\'Connell  | Fizz Over                           | James River Assembly (Ozark, MO)               |    40 |   8.00 |      |
+|   17 | Abby O'Connell   | Fizz Over                           | James River Assembly (Ozark, MO)               |    40 |   8.00 |      |
 |   18 | Katie Tamblyn    | Oak Creek Biblikids                 | Oak Creek A/G (Oak Creek, WI)                  |    20 |   4.00 |      |
 |   18 | Jillian Angeles  | CRK Almighty                        | Church of the Risen King (Gloucester City, NJ) |    20 |   4.00 |      |
 |   19 | Ryan Moos        | Super Sonic Sailfish                | New Life Church (Princeton, MN)                |    10 |   2.00 |      |
@@ -1339,9 +1339,9 @@ menubar_toc_static:
 |    # | Team                      | Church                               | W/L | Total |    Avg |
 | ---: | ------------------------- | ------------------------------------ | --- | ----: | -----: |
 |    1 | Stone Quizzers            | Stone Church (Palos Heights, IL)     | 5/0 |   910 | 182.00 |
-|    2 | Master\'s Mavericks       | Abundant Life Church (Grapevine, TX) | 4/1 |   955 | 191.00 |
+|    2 | Master's Mavericks        | Abundant Life Church (Grapevine, TX) | 4/1 |   955 | 191.00 |
 |    3 | Greeneway Gospel Warriors | Greeneway Church (Orlando, FL)       | 3/2 |   755 | 151.00 |
-|    4 | Christ\'s Crew            | Dayspring A/G (Bowling Green, OH)    | 2/3 |   590 | 118.00 |
+|    4 | Christ's Crew             | Dayspring A/G (Bowling Green, OH)    | 2/3 |   590 | 118.00 |
 |    5 | Soul Survivors            | Lawson A/G (Lawson, MO)              | 1/4 |   530 | 106.00 |
 |    6 | Alien Ambassadors         | River of Life (Minot, ND)            | 0/5 |   495 |  99.00 |
 
@@ -1351,19 +1351,19 @@ menubar_toc_static:
 
 |    # | Quizzer           | Team                      | Church                               | Total |   Avg |   QO |
 | ---: | ----------------- | ------------------------- | ------------------------------------ | ----: | ----: | ---: |
-|    1 | David Brauchler   | Master\'s Mavericks       | Abundant Life Church (Grapevine, TX) |   485 | 97.00 |    2 |
+|    1 | David Brauchler   | Master's Mavericks        | Abundant Life Church (Grapevine, TX) |   485 | 97.00 |    2 |
 |    2 | Zachary Barlow    | Greeneway Gospel Warriors | Greeneway Church (Orlando, FL)       |   385 | 77.00 |      |
 |    3 | Caleb Czaja       | Stone Quizzers            | Stone Church (Palos Heights, IL)     |   360 | 72.00 |      |
 |    4 | Zachary Cook      | Soul Survivors            | Lawson A/G (Lawson, MO)              |   350 | 70.00 |    1 |
 |    5 | McKenzie Barlow   | Greeneway Gospel Warriors | Greeneway Church (Orlando, FL)       |   310 | 62.00 |    2 |
-|    6 | Jaden Werley      | Master\'s Mavericks       | Abundant Life Church (Grapevine, TX) |   295 | 59.00 |    3 |
+|    6 | Jaden Werley      | Master's Mavericks        | Abundant Life Church (Grapevine, TX) |   295 | 59.00 |    3 |
 |    7 | Casey Walin       | Stone Quizzers            | Stone Church (Palos Heights, IL)     |   280 | 56.00 |    3 |
-|    8 | Lilly Schmitz     | Christ\'s Crew            | Dayspring A/G (Bowling Green, OH)    |   220 | 44.00 |    2 |
+|    8 | Lilly Schmitz     | Christ's Crew             | Dayspring A/G (Bowling Green, OH)    |   220 | 44.00 |    2 |
 |    9 | Caleb Hoverson    | Alien Ambassadors         | River of Life (Minot, ND)            |   205 | 41.00 |      |
 |   10 | Sopulu Anidobu    | Stone Quizzers            | Stone Church (Palos Heights, IL)     |   180 | 36.00 |      |
-|   10 | Aaron Smith       | Christ\'s Crew            | Dayspring A/G (Bowling Green, OH)    |   180 | 36.00 |      |
-|   10 | Evan Kobylski     | Christ\'s Crew            | Dayspring A/G (Bowling Green, OH)    |   180 | 36.00 |      |
-|   11 | Jacob Jeter       | Master\'s Mavericks       | Abundant Life Church (Grapevine, TX) |   175 | 35.00 |      |
+|   10 | Aaron Smith       | Christ's Crew             | Dayspring A/G (Bowling Green, OH)    |   180 | 36.00 |      |
+|   10 | Evan Kobylski     | Christ's Crew             | Dayspring A/G (Bowling Green, OH)    |   180 | 36.00 |      |
+|   11 | Jacob Jeter       | Master's Mavericks        | Abundant Life Church (Grapevine, TX) |   175 | 35.00 |      |
 |   12 | Kristian Hoverson | Alien Ambassadors         | River of Life (Minot, ND)            |   165 | 33.00 |      |
 |   13 | Breanna Cole      | Soul Survivors            | Lawson A/G (Lawson, MO)              |   140 | 28.00 |      |
 |   14 | Tucker Paulson    | Alien Ambassadors         | River of Life (Minot, ND)            |   125 | 25.00 |      |
@@ -1372,7 +1372,7 @@ menubar_toc_static:
 |   16 | Kyler Stephan     | Stone Quizzers            | Stone Church (Palos Heights, IL)     |    40 |  8.00 |      |
 |   17 | Kyle Ritter       | Greeneway Gospel Warriors | Greeneway Church (Orlando, FL)       |    30 |  6.00 |      |
 |   17 | Caleb Barlow      | Greeneway Gospel Warriors | Greeneway Church (Orlando, FL)       |    30 |  6.00 |      |
-|   18 | Seth Estep        | Christ\'s Crew            | Dayspring A/G (Bowling Green, OH)    |    10 |  2.00 |      |
+|   18 | Seth Estep        | Christ's Crew             | Dayspring A/G (Bowling Green, OH)    |    10 |  2.00 |      |
 |   19 | Udo Anidobu       | Stone Quizzers            | Stone Church (Palos Heights, IL)     |       |   .00 |      |
 
 
@@ -1465,7 +1465,7 @@ menubar_toc_static:
 |    1 | Light                     | World Harvest (Roswell, GA)              | 8/1 |  1675 | 186.11 |
 |    2 | Phoenix First Frogs       | 1st A/G (Phoenix, AZ)                    | 8/1 |  1650 | 183.33 |
 |    3 | Quiztastic Four           | Tiffany Fellowship (KC, MO)              | 6/3 |  1330 | 147.78 |
-|    4 | God\'s Victory Kids       | Victory A/G (Universal City, TX)         | 6/3 |  1340 | 148.89 |
+|    4 | God's Victory Kids        | Victory A/G (Universal City, TX)         | 6/3 |  1340 | 148.89 |
 |    5 | Cordova                   | 1st A/G (Cordova, TN)                    | 5/4 |  1050 | 116.67 |
 |    6 | Get Smart                 | 1st A/G (Des Moines, IA)                 | 4/5 |  1480 | 164.44 |
 |    7 | The BK - Believing Kids   | Victory Int. Fellowship (Brookfield, WI) | 4/5 |  1405 | 156.11 |
@@ -1480,22 +1480,22 @@ menubar_toc_static:
 |    # | Quizzer              | Team                      | Church                                   | Total |   Avg |   QO |
 | ---: | -------------------- | ------------------------- | ---------------------------------------- | ----: | ----: | ---: |
 |    1 | Daniel Ferreira      | Light                     | World Harvest (Roswell, GA)              |   875 | 97.22 |    2 |
-|    2 | Elijah O\'Brien      | The BK - Believing Kids   | Victory Int. Fellowship (Brookfield, WI) |   720 | 80.00 |    1 |
+|    2 | Elijah O'Brien       | The BK - Believing Kids   | Victory Int. Fellowship (Brookfield, WI) |   720 | 80.00 |    1 |
 |    3 | Bethany Lane         | Phoenix First Frogs       | 1st A/G (Phoenix, AZ)                    |   675 | 75.00 |      |
 |    4 | Brendan Ferguson     | Quiztastic Four           | Tiffany Fellowship (KC, MO)              |   660 | 73.33 |    2 |
 |    5 | Robert Brock         | Wild Things               | Glad Tidings Church (Hanford, CA)        |   630 | 70.00 |    3 |
 |    6 | Sarah Lane           | Phoenix First Frogs       | 1st A/G (Phoenix, AZ)                    |   630 | 70.00 |    2 |
 |    7 | Sophia Ridgway       | Get Smart                 | 1st A/G (Des Moines, IA)                 |   585 | 65.00 |    1 |
-|    8 | Paul Russell, Jr.    | God\'s Victory Kids       | Victory A/G (Universal City, TX)         |   515 | 57.22 |      |
+|    8 | Paul Russell, Jr.    | God's Victory Kids        | Victory A/G (Universal City, TX)         |   515 | 57.22 |      |
 |    9 | Daniel Deppe         | Cordova                   | 1st A/G (Cordova, TN)                    |   510 | 56.67 |    2 |
 |   10 | Noah Ridgway         | Get Smart                 | 1st A/G (Des Moines, IA)                 |   480 | 53.33 |    2 |
 |   11 | Taylor Bridges       | The BK - Believing Kids   | Victory Int. Fellowship (Brookfield, WI) |   475 | 52.78 |    2 |
 |   12 | Grace Artis          | Light                     | World Harvest (Roswell, GA)              |   465 | 51.67 |    3 |
 |   13 | Ashley Theesfeld     | IAG Seals                 | International A/G (Mesa, AZ)             |   430 | 47.78 |    1 |
 |   14 | Amelia Dixon         | Get Smart                 | 1st A/G (Des Moines, IA)                 |   400 | 44.44 |    3 |
-|   15 | Noah Harris          | God\'s Victory Kids       | Victory A/G (Universal City, TX)         |   390 | 43.33 |    4 |
+|   15 | Noah Harris          | God's Victory Kids        | Victory A/G (Universal City, TX)         |   390 | 43.33 |    4 |
 |   16 | Jared Deppe          | Cordova                   | 1st A/G (Cordova, TN)                    |   385 | 42.78 |    2 |
-|   17 | Zach Wylie           | God\'s Victory Kids       | Victory A/G (Universal City, TX)         |   385 | 42.78 |      |
+|   17 | Zach Wylie           | God's Victory Kids        | Victory A/G (Universal City, TX)         |   385 | 42.78 |      |
 |   18 | James Lane           | Phoenix First Frogs       | 1st A/G (Phoenix, AZ)                    |   345 | 38.33 |    4 |
 |   19 | Cristian Huix        | Light                     | World Harvest (Roswell, GA)              |   335 | 37.22 |    1 |
 |   20 | Connor Ferguson      | Quiztastic Four           | Tiffany Fellowship (KC, MO)              |   325 | 36.11 |      |
@@ -1509,7 +1509,7 @@ menubar_toc_static:
 |   28 | Jonah Gomes          | Ewa Beach Assembly of God | Ewa Beach A/G (Ewa Beach, HI)            |    75 |  8.33 |      |
 |   29 | Nicole Bradberry     | Cordova                   | 1st A/G (Cordova, TN)                    |    65 |  7.22 |      |
 |   30 | Isaac Stalcup        | Ewa Beach Assembly of God | Ewa Beach A/G (Ewa Beach, HI)            |    55 |  6.11 |      |
-|   31 | Jakob Schweizerhoff  | God\'s Victory Kids       | Victory A/G (Universal City, TX)         |    50 |  5.56 |      |
+|   31 | Jakob Schweizerhoff  | God's Victory Kids        | Victory A/G (Universal City, TX)         |    50 |  5.56 |      |
 |   32 | Anthony Mikolajewski | The BK - Believing Kids   | Victory Int. Fellowship (Brookfield, WI) |    40 |  4.44 |      |
 |   33 | Chasity Stalcup      | Ewa Beach Assembly of God | Ewa Beach A/G (Ewa Beach, HI)            |    25 |  2.78 |      |
 |   34 | Lola Phillips        | Get Smart                 | 1st A/G (Des Moines, IA)                 |    15 |  1.67 |      |
@@ -1517,7 +1517,7 @@ menubar_toc_static:
 |   35 | Tristyn Celestino    | Ewa Beach Assembly of God | Ewa Beach A/G (Ewa Beach, HI)            |       |   .00 |      |
 |   35 | Katie Stalcup        | Ewa Beach Assembly of God | Ewa Beach A/G (Ewa Beach, HI)            |       |   .00 |      |
 |   35 | Heather Erickson     | The BK - Believing Kids   | Victory Int. Fellowship (Brookfield, WI) |       |   .00 |      |
-|   35 | Kasie Narvaez        | God\'s Victory Kids       | Victory A/G (Universal City, TX)         |       |   .00 |      |
+|   35 | Kasie Narvaez        | God's Victory Kids        | Victory A/G (Universal City, TX)         |       |   .00 |      |
 |   35 | Justin Cheriyan      | IAG Seals                 | International A/G (Mesa, AZ)             |       |   .00 |      |
 |   36 | Ayzhia-Marie Tadeo   | Ewa Beach Assembly of God | Ewa Beach A/G (Ewa Beach, HI)            |    -5 | -0.56 |      |
 
@@ -1611,7 +1611,7 @@ menubar_toc_static:
 | ---: | ------------------- | --------------------------------- | --- | ----: | -----: |
 |    1 | Oak Creek Biblikids | Oak Creek A/G (Oak Creek, WI)     | 7/2 |  1395 | 155.00 |
 |    2 | Jedi Knights        | Calvary A/G (Elkhart, IN)         | 7/2 |  1640 | 182.22 |
-|    3 | God\'s C.R.E.W.     | Capitol Hill A/G (OKC, OK)        | 6/3 |  1305 | 145.00 |
+|    3 | God's C.R.E.W.      | Capitol Hill A/G (OKC, OK)        | 6/3 |  1305 | 145.00 |
 |    4 | Soul Survivors      | Lawson A/G (Lawson, MO)           | 5/4 |  1425 | 158.33 |
 |    4 | Fearsome Foursome   | Trinity Church (Cedar Hill, TX)   | 5/4 |  1425 | 158.33 |
 |    5 | Fizz Over           | James River Assembly (Ozark, MO)  | 5/4 |  1320 | 146.67 |
@@ -1631,7 +1631,7 @@ menubar_toc_static:
 |    3 | Elle Miller            | Fearsome Foursome   | Trinity Church (Cedar Hill, TX)   |   765 |  85.00 |    1 |
 |    4 | Jaron Klassen          | Fizz Over           | James River Assembly (Ozark, MO)  |   755 |  83.89 |    2 |
 |    5 | Elijah Evers           | Oak Creek Biblikids | Oak Creek A/G (Oak Creek, WI)     |   740 |  82.22 |    4 |
-|    6 | Christina Baxter       | God\'s C.R.E.W.     | Capitol Hill A/G (OKC, OK)        |   720 |  80.00 |    1 |
+|    6 | Christina Baxter       | God's C.R.E.W.      | Capitol Hill A/G (OKC, OK)        |   720 |  80.00 |    1 |
 |    7 | Caleb Hoverson         | Alien Ambassadors   | River of Life (Minot, ND)         |   605 |  67.22 |    1 |
 |    8 | Glenn Kaboskey         | Oak Creek Biblikids | Oak Creek A/G (Oak Creek, WI)     |   520 |  57.78 |    4 |
 |    9 | Coby Calvery           | Fearsome Foursome   | Trinity Church (Cedar Hill, TX)   |   485 |  53.89 |    6 |
@@ -1641,14 +1641,14 @@ menubar_toc_static:
 |   13 | Jillian Griffith       | Fizz Over           | James River Assembly (Ozark, MO)  |   350 |  38.89 |    1 |
 |   14 | Elizabeth Kaffenberger | God Worshippers     | Glad Tidings (Omaha, NE)          |   285 |  31.67 |    3 |
 |   15 | Breanna Cole           | Soul Survivors      | Lawson A/G (Lawson, MO)           |   265 |  29.44 |    3 |
-|   16 | Erin O\'Mara           | S.P.Y. Kids 006     | The Worship Center (Leesburg, VA) |   260 |  28.89 |      |
+|   16 | Erin O'Mara            | S.P.Y. Kids 006     | The Worship Center (Leesburg, VA) |   260 |  28.89 |      |
 |   17 | Will Brovold           | God Worshippers     | Glad Tidings (Omaha, NE)          |   245 |  27.22 |      |
-|   18 | Kaelyn Comfort         | God\'s C.R.E.W.     | Capitol Hill A/G (OKC, OK)        |   240 |  26.67 |      |
+|   18 | Kaelyn Comfort         | God's C.R.E.W.      | Capitol Hill A/G (OKC, OK)        |   240 |  26.67 |      |
 |   19 | Ben Rozelle            | S.P.Y. Kids 006     | The Worship Center (Leesburg, VA) |   235 |  26.11 |    1 |
 |   20 | Amanda Kepplin         | God Worshippers     | Glad Tidings (Omaha, NE)          |   230 |  25.56 |      |
-|   21 | Abby O\'Connell        | Fizz Over           | James River Assembly (Ozark, MO)  |   215 |  23.89 |    1 |
+|   21 | Abby O'Connell         | Fizz Over           | James River Assembly (Ozark, MO)  |   215 |  23.89 |    1 |
 |   22 | Laura Hetrick          | God Worshippers     | Glad Tidings (Omaha, NE)          |   205 |  22.78 |    1 |
-|   23 | Catherine Baxter       | God\'s C.R.E.W.     | Capitol Hill A/G (OKC, OK)        |   205 |  22.78 |      |
+|   23 | Catherine Baxter       | God's C.R.E.W.      | Capitol Hill A/G (OKC, OK)        |   205 |  22.78 |      |
 |   24 | Jonathan Gomez         | Jedi Knights        | Calvary A/G (Elkhart, IN)         |   190 |  21.11 |    1 |
 |   24 | Tucker Paulson         | Alien Ambassadors   | River of Life (Minot, ND)         |   190 |  21.11 |    1 |
 |   25 | Aaron CyrilJohn        | Army of God         | Calvary Church (Greensboro, NC)   |   180 |  20.00 |      |
@@ -1656,19 +1656,19 @@ menubar_toc_static:
 |   27 | Katie Tamblyn          | Oak Creek Biblikids | Oak Creek A/G (Oak Creek, WI)     |   135 |  15.00 |      |
 |   27 | Kristian Hoverson      | Alien Ambassadors   | River of Life (Minot, ND)         |   135 |  15.00 |      |
 |   28 | Rachel Rimmer          | Fearsome Foursome   | Trinity Church (Cedar Hill, TX)   |   100 |  11.11 |      |
-|   29 | Brian O\'Mara          | S.P.Y. Kids 006     | The Worship Center (Leesburg, VA) |    95 |  10.56 |      |
+|   29 | Brian O'Mara           | S.P.Y. Kids 006     | The Worship Center (Leesburg, VA) |    95 |  10.56 |      |
 |   30 | Abigail Prejean        | Army of God         | Calvary Church (Greensboro, NC)   |    90 |  10.00 |      |
 |   30 | Faith Davis            | Army of God         | Calvary Church (Greensboro, NC)   |    90 |  10.00 |      |
-|   30 | Miken Melvin           | God\'s C.R.E.W.     | Capitol Hill A/G (OKC, OK)        |    90 |  10.00 |      |
+|   30 | Miken Melvin           | God's C.R.E.W.      | Capitol Hill A/G (OKC, OK)        |    90 |  10.00 |      |
 |   31 | Jonathan Archer        | Soul Survivors      | Lawson A/G (Lawson, MO)           |    85 |   9.44 |      |
 |   32 | Lance Lewis            | Jedi Knights        | Calvary A/G (Elkhart, IN)         |    75 |   8.33 |      |
 |   32 | Ben Manoli             | Fearsome Foursome   | Trinity Church (Cedar Hill, TX)   |    75 |   8.33 |      |
-|   33 | Jonathan Burke         | God\'s C.R.E.W.     | Capitol Hill A/G (OKC, OK)        |    50 |   5.56 |      |
+|   33 | Jonathan Burke         | God's C.R.E.W.      | Capitol Hill A/G (OKC, OK)        |    50 |   5.56 |      |
 |   34 | Catherine Hetrick      | God Worshippers     | Glad Tidings (Omaha, NE)          |    45 |   5.00 |      |
 |   35 | Duncan Connors         | S.P.Y. Kids 006     | The Worship Center (Leesburg, VA) |    25 |   2.78 |      |
 |   35 | Dylan Quiggle          | Jedi Knights        | Calvary A/G (Elkhart, IN)         |    25 |   2.78 |      |
 |   36 | Leisl Janesen          | Fizz Over           | James River Assembly (Ozark, MO)  |     5 |    .56 |      |
-|   37 | Nathan Burke           | God\'s C.R.E.W.     | Capitol Hill A/G (OKC, OK)        |       |    .00 |      |
+|   37 | Nathan Burke           | God's C.R.E.W.      | Capitol Hill A/G (OKC, OK)        |       |    .00 |      |
 |   37 | Alyssa Sachs           | Oak Creek Biblikids | Oak Creek A/G (Oak Creek, WI)     |       |    .00 |      |
 |   37 | Esji Johnson           | Oak Creek Biblikids | Oak Creek A/G (Oak Creek, WI)     |       |    .00 |      |
 |   37 | Gavin Griffith         | Fizz Over           | James River Assembly (Ozark, MO)  |       |    .00 |      |
@@ -1770,7 +1770,7 @@ menubar_toc_static:
 |    1 | Overland Park First Assembly of God | 1st A/G (Overland Park, KS)          | 7/2 |  1355 | 150.56 |
 |    2 | Supernova                           | Central Assembly (Springfield, MO)   | 7/2 |  1495 | 166.11 |
 |    3 | Tribulation Force                   | The Oaks Fellowship (Red Oak, TX)    | 6/3 |  1605 | 178.33 |
-|    4 | Christ\'s Crew                      | Dayspring A/G (Bowling Green, OH)    | 6/3 |  1480 | 164.44 |
+|    4 | Christ's Crew                       | Dayspring A/G (Bowling Green, OH)    | 6/3 |  1480 | 164.44 |
 |    5 | FCA - Cincinnati                    | First Christian A/G (Cincinnati, OH) | 6/3 |  1340 | 148.89 |
 |    6 | International Assembly of God       | International A/G (Warren, MI)       | 5/4 |  1240 | 137.78 |
 |    7 | Super Sonic Sailfish                | New Life Church (Princeton, MN)      | 3/6 |  1190 | 132.22 |
@@ -1786,7 +1786,7 @@ menubar_toc_static:
 | ---: | ------------------- | ----------------------------------- | ------------------------------------ | ----: | ----: | ---: |
 |    1 | Hannah Quick        | Supernova                           | Central Assembly (Springfield, MO)   |   865 | 96.11 |    1 |
 |    2 | Erika Fox           | Overland Park First Assembly of God | 1st A/G (Overland Park, KS)          |   795 | 88.33 |    6 |
-|    3 | Evan Kobylski       | Christ\'s Crew                      | Dayspring A/G (Bowling Green, OH)    |   790 | 87.78 |    4 |
+|    3 | Evan Kobylski       | Christ's Crew                       | Dayspring A/G (Bowling Green, OH)    |   790 | 87.78 |    4 |
 |    4 | Sherlin Chacko      | International Assembly of God       | International A/G (Warren, MI)       |   780 | 86.67 |    4 |
 |    5 | Brennan Dodds       | FCA - Cincinnati                    | First Christian A/G (Cincinnati, OH) |   765 | 85.00 |    3 |
 |    6 | Parker Frankiewicz  | Tribulation Force                   | The Oaks Fellowship (Red Oak, TX)    |   720 | 80.00 |    2 |
@@ -1798,8 +1798,8 @@ menubar_toc_static:
 |   12 | David Saunders      | Tribulation Force                   | The Oaks Fellowship (Red Oak, TX)    |   465 | 51.67 |      |
 |   13 | Luis Torres         | Kingdom Explorers                   | Mt. Creek Comm. Church (Dallas, TX)  |   460 | 51.11 |    1 |
 |   14 | Luke Slater         | Supernova                           | Central Assembly (Springfield, MO)   |   420 | 46.67 |    3 |
-|   15 | Aaron Smith         | Christ\'s Crew                      | Dayspring A/G (Bowling Green, OH)    |   350 | 38.89 |      |
-|   16 | Lilly Schmitz       | Christ\'s Crew                      | Dayspring A/G (Bowling Green, OH)    |   340 | 37.78 |    2 |
+|   15 | Aaron Smith         | Christ's Crew                       | Dayspring A/G (Bowling Green, OH)    |   350 | 38.89 |      |
+|   16 | Lilly Schmitz       | Christ's Crew                       | Dayspring A/G (Bowling Green, OH)    |   340 | 37.78 |    2 |
 |   17 | Micah Roelofs       | Super Sonic Sailfish                | New Life Church (Princeton, MN)      |   320 | 35.56 |    1 |
 |   18 | Bridge Biniakewitz  | Buzz Hogs                           | River of Life (Mabelvale, AR)        |   260 | 28.89 |    2 |
 |   19 | Bekah Ray           | FCA - Cincinnati                    | First Christian A/G (Cincinnati, OH) |   255 | 28.33 |    1 |
@@ -1827,7 +1827,7 @@ menubar_toc_static:
 |   38 | Savanah Biniakewitz | Buzz Hogs                           | River of Life (Mabelvale, AR)        |    10 |  1.11 |      |
 |   38 | Ryan Moos           | Super Sonic Sailfish                | New Life Church (Princeton, MN)      |    10 |  1.11 |      |
 |   39 | Jack Titkemeyer     | FCA - Cincinnati                    | First Christian A/G (Cincinnati, OH) |     5 |   .56 |      |
-|   40 | Seth Estep          | Christ\'s Crew                      | Dayspring A/G (Bowling Green, OH)    |       |   .00 |      |
+|   40 | Seth Estep          | Christ's Crew                       | Dayspring A/G (Bowling Green, OH)    |       |   .00 |      |
 |   40 | Harrison Hoggard    | Tribulation Force                   | The Oaks Fellowship (Red Oak, TX)    |       |   .00 |      |
 |   40 | Jed Brookbank       | Overland Park First Assembly of God | 1st A/G (Overland Park, KS)          |       |   .00 |      |
 |   40 | Caleb Daniels       | Super Sonic Sailfish                | New Life Church (Princeton, MN)      |       |   .00 |      |

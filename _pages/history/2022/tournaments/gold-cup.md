@@ -64,7 +64,7 @@ menubar_toc_static:
 |       23 | Caleb Brookbank      | The Brookbanks (Crown Pointe Church)                             |   155 |  17.2 |    1 |  62% |
 |       24 | Joanne Ramesh        | The Return of Hungry and Thirsty! (First at Firewheel - Garland) |    60 |   6.7 |      |  58% |
 |       25 | Judith Ramesh        | The Return of Hungry and Thirsty! (First at Firewheel - Garland) |    55 |   6.1 |      |  57% |
-|       26 | Daniyy\'El Gonzalez  | The Return of Hungry and Thirsty! (First at Firewheel - Garland) |    45 |     5 |      |  80% |
+|       26 | Daniyy'El Gonzalez   | The Return of Hungry and Thirsty! (First at Firewheel - Garland) |    45 |     5 |      |  80% |
 |       27 | Keian Ladd           | We Desire Mercy (Open Bible Church - Rapid City)                 |    40 |   4.4 |      | 100% |
 |       28 | Jadon Sheomangal     | Team Danny (Trinity Church - Cedar Hill)                         |    30 |   3.3 |      |  55% |
 |       29 | Julia Sullivan       | Team John (Trinity Church - Cedar Hill)                          |    20 |   2.2 |      | 100% |

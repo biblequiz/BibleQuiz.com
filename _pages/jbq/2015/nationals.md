@@ -22,7 +22,7 @@ menubar_toc_static:
 
 |    # | Team                          | Church                | W/L  | Total |    Avg |
 | ---: | ----------------------------- | --------------------- | ---- | ----: | -----: |
-|    1 | Sanford-FL                    | God\'s Incredibles    | 13/2 |  3155 | 210.33 |
+|    1 | Sanford-FL                    | God's Incredibles     | 13/2 |  3155 | 210.33 |
 |    2 | San Jose-CA                   | Souled Out            | 12/3 |  2545 | 169.67 |
 |    3 | Mechanicsville-VA - Obedience | Contagious Obedience  | 10/5 |  2595 | 173.00 |
 |    4 | New Albany-OH                 | Fluffy Panda Quizzers | 10/5 |  2250 | 150.00 |
@@ -45,7 +45,7 @@ menubar_toc_static:
 
 |    # | Quizzer           | Team                          | Church                | Total |    Avg |   QO |
 | ---: | ----------------- | ----------------------------- | --------------------- | ----: | -----: | ---: |
-|    1 | Toby Robinson     | Sanford-FL                    | God\'s Incredibles    |  2000 | 133.33 |   12 |
+|    1 | Toby Robinson     | Sanford-FL                    | God's Incredibles     |  2000 | 133.33 |   12 |
 |    2 | Samuel Jebaraj    | San Jose-CA                   | Souled Out            |  1770 | 118.00 |   11 |
 |    3 | Josiah Mair       | New Albany-OH                 | Fluffy Panda Quizzers |  1590 | 106.00 |    9 |
 |    4 | Ethan Stewart     | Tallahassee-FL                | More than Conquerers  |  1450 |  96.67 |    7 |
@@ -55,7 +55,7 @@ menubar_toc_static:
 |    8 | Bobbie Barnes     | Benton-AR                     | Kung Fu Quizzers      |  1265 |  84.33 |    2 |
 |    9 | Elizabeth Jones   | Springfield -MO - Dau         | Daughters of the King |  1095 |  73.00 |    3 |
 |   10 | Josh Broxterman   | Meriden-KS                    | JAG Jaguars           |  1070 |  71.33 |    2 |
-|   11 | Jordan Perez      | Sanford-FL                    | God\'s Incredibles    |   810 |  54.00 |    3 |
+|   11 | Jordan Perez      | Sanford-FL                    | God's Incredibles     |   810 |  54.00 |    3 |
 |   12 | Preston Hoggard   | Red Oak-TX                    | Tribulation Force     |   790 |  52.67 |   11 |
 |   13 | Christiaan West   | Bothell-WA                    | Cedar Park Eagles     |   735 |  49.00 |    5 |
 |   14 | Elyssa Fulfer     | Red Oak-TX                    | Tribulation Force     |   730 |  48.67 |      |
@@ -82,7 +82,7 @@ menubar_toc_static:
 |   34 | Sieanna Sowers    | Montgomery-AL                 | Montgomery 1st        |   385 |  25.67 |      |
 |   35 | Aaron Bumbaca     | San Jose-CA                   | Souled Out            |   380 |  25.33 |    1 |
 |   36 | Charlotte Elliott | Omaha-NE                      | Agents of the Shield  |   380 |  25.33 |      |
-|   37 | Wesley Thomas     | Sanford-FL                    | God\'s Incredibles    |   345 |  23.00 |    1 |
+|   37 | Wesley Thomas     | Sanford-FL                    | God's Incredibles     |   345 |  23.00 |    1 |
 |   38 | Jasmine Sirvent   | San Jose-CA                   | Souled Out            |   325 |  21.67 |      |
 |   39 | Joshua Kuruvilla  | Warren-MI                     | IAG Eagles            |   310 |  20.67 |      |
 |   40 | Noah Zananiri     | New Albany-OH                 | Fluffy Panda Quizzers |   300 |  20.00 |    2 |
@@ -117,7 +117,7 @@ menubar_toc_static:
 |   64 | Hope Alford       | Tallahassee-FL                | More than Conquerers  |       |    .00 |      |
 |   64 | Aidan Fulfer      | Red Oak-TX                    | Tribulation Force     |       |    .00 |      |
 |   64 | Tyler Kelly       | Benton-AR                     | Kung Fu Quizzers      |       |    .00 |      |
-|   64 | Alyssa Jenks      | Sanford-FL                    | God\'s Incredibles    |       |    .00 |      |
+|   64 | Alyssa Jenks      | Sanford-FL                    | God's Incredibles     |       |    .00 |      |
 |   64 | Chalice sanders   | Benton-AR                     | Kung Fu Quizzers      |       |    .00 |      |
 |   64 | Lauren Green      | Benton-AR                     | Kung Fu Quizzers      |       |    .00 |      |
 
@@ -287,7 +287,7 @@ menubar_toc_static:
 |   23 | Tyler Trexler        | Phoenix-AZ           | Phoenix First Bible Warriors     |   615 |  41.00 |    5 |
 |   24 | Phillip Bozzay       | Leesburg-VA          | S.P.Y. Dudes                     |   600 |  40.00 |      |
 |   25 | Kristin Schmidt      | Phoenix-AZ           | Phoenix First Bible Warriors     |   575 |  38.33 |      |
-|   26 | M\'Kayla McDaniel    | Dumas-TX             | Undignified                      |   515 |  34.33 |    3 |
+|   26 | M'Kayla McDaniel     | Dumas-TX             | Undignified                      |   515 |  34.33 |    3 |
 |   27 | Casey McDermitt      | Griffin-GA           | Griffin First Gospel Gang        |   490 |  32.67 |      |
 |   28 | Patrick Norris       | Swedesboro-NJ        | Resurrection Sunday              |   485 |  32.33 |    5 |
 |   29 | Annabel Tiong        | Irvine-CA            | OCCEC Eagles                     |   485 |  32.33 |      |
@@ -559,7 +559,7 @@ menubar_toc_static:
 |    # | Team              | Church                      | W/L | Total |    Avg |
 | ---: | ----------------- | --------------------------- | --- | ----: | -----: |
 |    1 | Houston-TX        | The Chosen Ones             | 8/1 |  1760 | 195.56 |
-|    2 | Sanford-FL        | God\'s Incredibles          | 6/3 |  1585 | 176.11 |
+|    2 | Sanford-FL        | God's Incredibles           | 6/3 |  1585 | 176.11 |
 |    3 | Scotch Plains-NJ  | Quiz Kids                   | 6/3 |  1535 | 170.56 |
 |    4 | Naperville-IL - M | Naperville M                | 6/3 |  1505 | 167.22 |
 |    5 | Akron-OH          | Celebration Quizzers        | 5/4 |  1325 | 147.22 |
@@ -575,7 +575,7 @@ menubar_toc_static:
 
 |    # | Quizzer            | Team              | Church                      | Total |    Avg |   QO |
 | ---: | ------------------ | ----------------- | --------------------------- | ----: | -----: | ---: |
-|    1 | Toby Robinson      | Sanford-FL        | God\'s Incredibles          |  1135 | 126.11 |    7 |
+|    1 | Toby Robinson      | Sanford-FL        | God's Incredibles           |  1135 | 126.11 |    7 |
 |    2 | David Blomberg     | Brookfield-WI     | FBI - Flaming Buzzers, Inc. |  1015 | 112.78 |    2 |
 |    3 | Sheldon Powell     | Naperville-IL - M | Naperville M                |   965 | 107.22 |    4 |
 |    4 | Darcie Harr        | East Lansing-MI   | Greater Lansing             |   960 | 106.67 |    4 |
@@ -592,12 +592,12 @@ menubar_toc_static:
 |   15 | Chloe Eder         | Akron-OH          | Celebration Quizzers        |   330 |  36.67 |    2 |
 |   16 | Julia Correa       | Bellevue-WA       | Neighborhood Church         |   315 |  35.00 |    2 |
 |   17 | Victoria Hernandez | Scotch Plains-NJ  | Quiz Kids                   |   295 |  32.78 |    1 |
-|   18 | Jordan Perez       | Sanford-FL        | God\'s Incredibles          |   265 |  29.44 |    1 |
+|   18 | Jordan Perez       | Sanford-FL        | God's Incredibles           |   265 |  29.44 |    1 |
 |   19 | Miles Kastner      | Brookfield-WI     | FBI - Flaming Buzzers, Inc. |   260 |  28.89 |    2 |
 |   20 | Bianca Hernandez   | Scotch Plains-NJ  | Quiz Kids                   |   230 |  25.56 |    1 |
 |   20 | Jackson Convis     | East Lansing-MI   | Greater Lansing             |   230 |  25.56 |    1 |
 |   21 | Sarah Onwudinjo    | Houston-TX        | The Chosen Ones             |   210 |  23.33 |      |
-|   22 | Wesley Thomas      | Sanford-FL        | God\'s Incredibles          |   190 |  21.11 |      |
+|   22 | Wesley Thomas      | Sanford-FL        | God's Incredibles           |   190 |  21.11 |      |
 |   23 | Isaac Ubert        | Brookfield-WI     | FBI - Flaming Buzzers, Inc. |   155 |  17.22 |      |
 |   24 | Madeline Lickey    | Bellevue-WA       | Neighborhood Church         |   130 |  14.44 |      |
 |   25 | Michael Ukonu      | Houston-TX        | The Chosen Ones             |   125 |  13.89 |      |
@@ -617,7 +617,7 @@ menubar_toc_static:
 |   35 | Elizabeth Murray   | Brookfield-WI     | FBI - Flaming Buzzers, Inc. |       |    .00 |      |
 |   35 | Sean Wallis        | Akron-OH          | Celebration Quizzers        |       |    .00 |      |
 |   35 | Riley Marks        | Akron-OH          | Celebration Quizzers        |       |    .00 |      |
-|   35 | Alyssa Jenks       | Sanford-FL        | God\'s Incredibles          |       |    .00 |      |
+|   35 | Alyssa Jenks       | Sanford-FL        | God's Incredibles           |       |    .00 |      |
 
 ### Green (L2)
 
@@ -1104,7 +1104,7 @@ menubar_toc_static:
 |   15 | Ryan Astorga       | Montgomery-AL            | Montgomery 1st                 |   365 |  40.56 |    4 |
 |   16 | Gracee Langstaff   | Rapid City-SD            | Sanctified Sisters             |   365 |  40.56 |    2 |
 |   17 | Jett King          | Mustang-OK               | Blood Bought Brothers          |   360 |  40.00 |      |
-|   18 | M\'Kayla McDaniel  | Dumas-TX                 | Undignified                    |   315 |  35.00 |    1 |
+|   18 | M'Kayla McDaniel   | Dumas-TX                 | Undignified                    |   315 |  35.00 |    1 |
 |   19 | Sieanna Sowers     | Montgomery-AL            | Montgomery 1st                 |   285 |  31.67 |      |
 |   20 | Amelia Stieb       | Las Vegas-NV             | Champion Center                |   270 |  30.00 |    1 |
 |   21 | Britt Adams        | Mechanicsville-VA - Hope | Contagious Hope                |   240 |  26.67 |    1 |

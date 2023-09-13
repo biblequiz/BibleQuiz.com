@@ -127,7 +127,7 @@ menubar_toc_static:
 | ---: | ----------------------------------------------------- | ------ | ----: | ----: | ---: | ---: |
 |  1.0 | New Creatures (Beulah-ND)                             | 14 / 1 |  2990 | 199.3 |   16 |  93% |
 |  2.0 | Word Warriors (Brighton -MI)                          | 12 / 3 |  2835 |   189 |   14 |  87% |
-|  3.0 | Exalt The Lord\'s Name Steadfastly (Bothell-WA)       | 11 / 4 |  2665 | 177.7 |   12 |  82% |
+|  3.0 | Exalt The Lord's Name Steadfastly (Bothell-WA)        | 11 / 4 |  2665 | 177.7 |   12 |  82% |
 |  4.1 | BC United (Wyckoff-NJ)                                | 10 / 5 |  2550 |   170 |   16 |  81% |
 |  5.0 | Triple Threat (Cedar Hill-TX)                         | 10 / 5 |  2630 | 175.3 |   16 |  82% |
 |  6.0 | Good News Church (Omaha-NE)                           | 9 / 6  |  2750 | 183.3 |   10 |  84% |
@@ -155,7 +155,7 @@ menubar_toc_static:
 |        5 | Bethel Dawit        | WoL Swordbearers (Springfield-VA)                     |  1410 |    94 |    6 |  75% |
 |        6 | Jenny Christopher   | ATC Flames (Norcross -GA)                             |  1345 |  89.7 |    4 |  84% |
 |        7 | Noah Claunch        | Triple Threat (Cedar Hill-TX)                         |  1255 |  83.7 |    7 |  84% |
-|        8 | Sancia Gladwin      | Exalt The Lord\'s Name Steadfastly (Bothell-WA)       |  1205 |  80.3 |    3 |  92% |
+|        8 | Sancia Gladwin      | Exalt The Lord's Name Steadfastly (Bothell-WA)        |  1205 |  80.3 |    3 |  92% |
 |        9 | Lademi Davies       | Good News Church (Omaha-NE)                           |  1150 |  76.7 |    8 |  86% |
 |       10 | Kristyn Bauer       | New Creatures (Beulah-ND)                             |  1120 |  74.7 |    3 |  92% |
 |       11 | Joel Ravela         | Victory Boyz (Lakeland-FL)                            |  1085 |  72.3 |    2 |  79% |
@@ -171,11 +171,11 @@ menubar_toc_static:
 |       21 | Braden Tew          | SCC Truth Seekers (Shreveport-LA)                     |   725 |  48.3 |    1 |  87% |
 |       22 | Gabriella Demoff    | Word Warriors (Brighton -MI)                          |   715 |  47.7 |    7 |  83% |
 |       23 | Jubilee Ward        | BC United (Wyckoff-NJ)                                |   715 |  47.7 |    1 |  82% |
-|       24 | Elijah Chadwick     | Exalt The Lord\'s Name Steadfastly (Bothell-WA)       |   700 |  46.7 |    4 |  74% |
+|       24 | Elijah Chadwick     | Exalt The Lord's Name Steadfastly (Bothell-WA)        |   700 |  46.7 |    4 |  74% |
 |       25 | Mabry Haley         | Spurs (San Antonio-TX)                                |   675 |    45 |      |  89% |
 |       26 | Myah Berkey         | WKTB (We Know The Bible) (Tucson-AZ)                  |   635 |  42.3 |    1 |  73% |
 |       27 | Faith Poling        | Radiant Quizzers (Dublin-OH)                          |   550 |  36.7 |    4 |  80% |
-|       28 | Lucky Baldwin       | Exalt The Lord\'s Name Steadfastly (Bothell-WA)       |   535 |  35.7 |    5 |  77% |
+|       28 | Lucky Baldwin       | Exalt The Lord's Name Steadfastly (Bothell-WA)        |   535 |  35.7 |    5 |  77% |
 |       29 | Caroline Tew        | SCC Truth Seekers (Shreveport-LA)                     |   515 |  34.3 |    3 |  73% |
 |       30 | Adeline Keith       | Triple Threat (Cedar Hill-TX)                         |   515 |  34.3 |    1 |  90% |
 |       31 | Liana Thomas        | Spurs (San Antonio-TX)                                |   495 |    33 |    3 |  87% |
@@ -196,11 +196,11 @@ menubar_toc_static:
 |       45 | Joel Christopher    | ATC Flames (Norcross -GA)                             |   190 |  12.7 |    1 |  90% |
 |       46 | Marissa Gephart     | WKTB (We Know The Bible) (Tucson-AZ)                  |   185 |  12.3 |      |  55% |
 |       47 | Aaron Martin        | Good News Church (Omaha-NE)                           |   150 |    10 |      |  89% |
-|       48 | Noah Myhill         | Exalt The Lord\'s Name Steadfastly (Bothell-WA)       |   125 |   8.3 |      |  91% |
+|       48 | Noah Myhill         | Exalt The Lord's Name Steadfastly (Bothell-WA)        |   125 |   8.3 |      |  91% |
 |       49 | Ileina Fern         | Good News Church (Omaha-NE)                           |   110 |   7.3 |      | 100% |
 |       50 | Camilla Joye        | Lake Wylie Coyotes (Lake Wylie-SC)                    |   105 |     7 |      |  79% |
 | **\*50** | Phoenix Butler      | Lake Wylie Coyotes (Lake Wylie-SC)                    |   105 |     7 |      |  69% |
-|       51 | Talia Jarrell       | Exalt The Lord\'s Name Steadfastly (Bothell-WA)       |   100 |   6.7 |      | 100% |
+|       51 | Talia Jarrell       | Exalt The Lord's Name Steadfastly (Bothell-WA)        |   100 |   6.7 |      | 100% |
 | **\*51** | Grace Hammett       | Radiant Quizzers (Dublin-OH)                          |   100 |   6.7 |      | 100% |
 |       52 | Amaris Bravo        | WKTB (We Know The Bible) (Tucson-AZ)                  |    70 |   4.7 |      | 100% |
 |       53 | Jonathan Paredes    | SCC Truth Seekers (Shreveport-LA)                     |    55 |   3.7 |      |  64% |
@@ -244,13 +244,13 @@ menubar_toc_static:
 |  6.0 | Contagious Valor (Mechanicsville-VA)           | 9 / 6  |  2405 | 160.3 |    5 |  80% |
 |  7.0 | Zion Zelotes (Harrisburg-NC)                   | 8 / 7  |  2565 |   171 |    7 |  85% |
 |  8.0 | ATCS Living Stones (Lawrenceville-GA)          | 7 / 8  |  2005 | 133.7 |    4 |  71% |
-|  9.0 | God\'s Squad (Chandler-AZ)                     | 6 / 9  |  2230 | 148.7 |    4 |  78% |
+|  9.0 | God's Squad (Chandler-AZ)                      | 6 / 9  |  2230 | 148.7 |    4 |  78% |
 | 10.0 | Truth Defenders (Painesville-OH)               | 6 / 9  |  2045 | 136.3 |    8 |  74% |
 | 11.0 | Racine Far From Over (Racine-WI)               | 6 / 9  |  1990 | 132.7 |    4 |  76% |
 | 12.0 | Exodus Expedition (Mount Washington-KY)        | 6 / 9  |  1870 | 124.7 |    6 |  84% |
-| 13.0 | Webster Odlebury\'s (Webster-NY)               | 5 / 10 |  1855 | 123.7 |    7 |  78% |
+| 13.0 | Webster Odlebury's (Webster-NY)                | 5 / 10 |  1855 | 123.7 |    7 |  78% |
 | 14.0 | The Avengers of JBQ (Orlando-FL)               | 4 / 11 |  1605 |   107 |    3 |  74% |
-| 15.0 | God\'s Gang (Fargo-ND)                         | 2 / 13 |  1665 |   111 |    5 |  72% |
+| 15.0 | God's Gang (Fargo-ND)                          | 2 / 13 |  1665 |   111 |    5 |  72% |
 | 16.0 | Gateway Master (Shreveport-LA)                 | 1 / 14 |  1000 |  66.7 |    3 |  59% |
 
 #### Individuals
@@ -265,7 +265,7 @@ menubar_toc_static:
 |        4 | Naomi Shtyrkalo     | Conquerors Through Christ (Humble-TX)          |  1590 |   106 |   12 |  90% |
 |        5 | Jonathan Shtyrkalo  | Conquerors Through Christ (Humble-TX)          |  1285 |  85.7 |   12 |  80% |
 |        6 | Jack Adkins         | Truth Defenders (Painesville-OH)               |  1230 |    82 |    3 |  82% |
-|        7 | Timothy Mathew      | God\'s Squad (Chandler-AZ)                     |  1210 |  80.7 |    2 |  84% |
+|        7 | Timothy Mathew      | God's Squad (Chandler-AZ)                      |  1210 |  80.7 |    2 |  84% |
 |        8 | Sarah Jones         | Double Trouble (Springfield-MO)                |  1115 |  74.3 |   14 |  94% |
 |        9 | Matthew Walker      | Racine Far From Over (Racine-WI)               |  1115 |  74.3 |    2 |  71% |
 |       10 | Lily Smith          | Exodus Expedition (Mount Washington-KY)        |  1090 |  72.7 |    5 |  91% |
@@ -273,8 +273,8 @@ menubar_toc_static:
 |       12 | Shaylee Powell      | Naperville (M) (Naperville-IL)                 |   960 |    64 |   12 |  81% |
 |       13 | Christian Steele    | Contagious Valor (Mechanicsville-VA)           |   870 |    58 |    4 |  83% |
 |       14 | Ron Kommoji         | ATCS Living Stones (Lawrenceville-GA)          |   805 |  53.7 |    1 |  77% |
-|       15 | Isaac Salisbury     | Webster Odlebury\'s (Webster-NY)               |   750 |    50 |    1 |  76% |
-|       16 | Tori Glanzer        | God\'s Gang (Fargo-ND)                         |   745 |  49.7 |    1 |  76% |
+|       15 | Isaac Salisbury     | Webster Odlebury's (Webster-NY)                |   750 |    50 |    1 |  76% |
+|       16 | Tori Glanzer        | God's Gang (Fargo-ND)                          |   745 |  49.7 |    1 |  76% |
 |       17 | Jason Charwin       | Zion Zelotes (Harrisburg-NC)                   |   735 |    49 |    1 |  89% |
 |       18 | Rachel Joel         | Zion Zelotes (Harrisburg-NC)                   |   725 |  48.3 |    1 |  81% |
 |       19 | Payton Durbin       | Exodus Expedition (Mount Washington-KY)        |   680 |  45.3 |    1 |  78% |
@@ -285,52 +285,52 @@ menubar_toc_static:
 |       24 | Angelina Arasavelli | The Neighborhood Church Bellevue (Bellevue-WA) |   610 |  40.7 |      | 100% |
 |       25 | Nynee Padala        | ATCS Living Stones (Lawrenceville-GA)          |   565 |  37.7 |    1 |  73% |
 |       26 | Brooks Adams        | Contagious Valor (Mechanicsville-VA)           |   560 |  37.3 |    1 |  72% |
-|       27 | Ola Alabi           | God\'s Gang (Fargo-ND)                         |   520 |  34.7 |    4 |  73% |
+|       27 | Ola Alabi           | God's Gang (Fargo-ND)                          |   520 |  34.7 |    4 |  73% |
 |       28 | Anthony Collins     | Truth Defenders (Painesville-OH)               |   500 |  33.3 |    5 |  66% |
-|       29 | Isaiah Salisbury    | Webster Odlebury\'s (Webster-NY)               |   440 |  29.3 |    5 |  76% |
+|       29 | Isaiah Salisbury    | Webster Odlebury's (Webster-NY)                |   440 |  29.3 |    5 |  76% |
 |       30 | Sarah Isabel        | Zion Zelotes (Harrisburg-NC)                   |   440 |  29.3 |    1 |  95% |
-|       31 | Addison Odle        | Webster Odlebury\'s (Webster-NY)               |   440 |  29.3 |      |  86% |
+|       31 | Addison Odle        | Webster Odlebury's (Webster-NY)                |   440 |  29.3 |      |  86% |
 |       32 | Aubrey Spence       | The Avengers of JBQ (Orlando-FL)               |   430 |  28.7 |    3 |  77% |
 |       33 | Savannah Harper     | Contagious Valor (Mechanicsville-VA)           |   420 |    28 |      |  73% |
 |       34 | Aiyana Jaramillo    | Racine Far From Over (Racine-WI)               |   355 |  23.7 |    2 |  92% |
 | **\*34** | Elijah Gallo        | The Neighborhood Church Bellevue (Bellevue-WA) |   355 |  23.7 |    2 |  65% |
-|       35 | Hans Jacob          | God\'s Squad (Chandler-AZ)                     |   355 |  23.7 |    1 |  76% |
-|       36 | Joanna Thomas       | God\'s Squad (Chandler-AZ)                     |   330 |    22 |    1 |  79% |
+|       35 | Hans Jacob          | God's Squad (Chandler-AZ)                      |   355 |  23.7 |    1 |  76% |
+|       36 | Joanna Thomas       | God's Squad (Chandler-AZ)                      |   330 |    22 |    1 |  79% |
 |       37 | Gracie Bland        | The Avengers of JBQ (Orlando-FL)               |   330 |    22 |      |  93% |
 |       38 | Roshini Rayarala    | ATCS Living Stones (Lawrenceville-GA)          |   320 |  21.3 |    2 |  65% |
 |       39 | Angel Walker        | Contagious Valor (Mechanicsville-VA)           |   320 |  21.3 |      | 100% |
 | **\*39** | Reuben Jaramillo    | Racine Far From Over (Racine-WI)               |   320 |  21.3 |      |  65% |
 |       40 | Hiram Salinas       | 3N1 (Waxahachie-TX)                            |   310 |  20.7 |      |  83% |
-|       41 | Anita Mathew        | God\'s Squad (Chandler-AZ)                     |   305 |  20.3 |      |  69% |
-|       42 | Benita Ayebo        | God\'s Gang (Fargo-ND)                         |   285 |    19 |      |  81% |
+|       41 | Anita Mathew        | God's Squad (Chandler-AZ)                      |   305 |  20.3 |      |  69% |
+|       42 | Benita Ayebo        | God's Gang (Fargo-ND)                          |   285 |    19 |      |  81% |
 |       43 | Justin Klco         | Truth Defenders (Painesville-OH)               |   255 |    17 |      |  76% |
 |       44 | Jason Stroughter    | Gateway Master (Shreveport-LA)                 |   210 |    14 |    2 |  59% |
 |       45 | Nicholas Tait       | Racine Far From Over (Racine-WI)               |   200 |  13.3 |      |  81% |
 |       46 | Lainey Kondepudi    | ATCS Living Stones (Lawrenceville-GA)          |   175 |  11.7 |      |  80% |
 |       47 | Jordan Spence       | The Avengers of JBQ (Orlando-FL)               |   165 |    11 |      |  61% |
 |       48 | Jeremiah Das        | ATCS Living Stones (Lawrenceville-GA)          |   145 |   9.7 |      |  61% |
-|       49 | Luke Odle           | Webster Odlebury\'s (Webster-NY)               |   135 |     9 |    1 |  75% |
+|       49 | Luke Odle           | Webster Odlebury's (Webster-NY)                |   135 |     9 |    1 |  75% |
 |       50 | Roby Matta          | The Neighborhood Church Bellevue (Bellevue-WA) |   135 |     9 |      |  71% |
 |       51 | Kaleb Stanley       | Contagious Valor (Mechanicsville-VA)           |   120 |     8 |      | 100% |
 | **\*51** | Josh Hung           | Naperville (M) (Naperville-IL)                 |   120 |     8 |      |  71% |
-|       52 | Ope Alabi           | God\'s Gang (Fargo-ND)                         |   115 |   7.7 |      |  58% |
+|       52 | Ope Alabi           | God's Gang (Fargo-ND)                          |   115 |   7.7 |      |  58% |
 |       53 | John Hung           | Naperville (M) (Naperville-IL)                 |   110 |   7.3 |      |  86% |
 |       54 | Kenneth Stanley     | Contagious Valor (Mechanicsville-VA)           |   100 |   6.7 |      |  72% |
 | **\*54** | Norman Thomas       | Gateway Master (Shreveport-LA)                 |   100 |   6.7 |      |  58% |
-|       55 | Judah Salisbury     | Webster Odlebury\'s (Webster-NY)               |    95 |   6.3 |      |  91% |
+|       55 | Judah Salisbury     | Webster Odlebury's (Webster-NY)                |    95 |   6.3 |      |  91% |
 |       56 | Lacee Smith         | Gateway Master (Shreveport-LA)                 |    65 |   4.3 |      |  87% |
 |       57 | Claire Adkins       | Truth Defenders (Painesville-OH)               |    60 |     4 |      | 100% |
 |       58 | Jacob Luxem         | The Neighborhood Church Bellevue (Bellevue-WA) |    50 |   3.3 |      | 100% |
 |       59 | Levi Smith          | Exodus Expedition (Mount Washington-KY)        |    40 |   2.7 |      | 100% |
 | **\*59** | Luke Smith          | Exodus Expedition (Mount Washington-KY)        |    40 |   2.7 |      |  60% |
-|       60 | Shreya Ganesan      | God\'s Squad (Chandler-AZ)                     |    30 |     2 |      |  66% |
+|       60 | Shreya Ganesan      | God's Squad (Chandler-AZ)                      |    30 |     2 |      |  66% |
 |       61 | Patrick Durbin      | Exodus Expedition (Mount Washington-KY)        |    20 |   1.3 |      | 100% |
 |       62 | Berkley Adams       | Contagious Valor (Mechanicsville-VA)           |    15 |     1 |      |  66% |
 |       63 | Bryson Thomas       | Gateway Master (Shreveport-LA)                 |    10 |    .7 |      |  99% |
 |       64 | Landon Dissmore     | Racine Far From Over (Racine-WI)               |     0 |       |      |      |
-| **\*64** | Zane Smaaladen      | God\'s Gang (Fargo-ND)                         |     0 |       |      |      |
+| **\*64** | Zane Smaaladen      | God's Gang (Fargo-ND)                          |     0 |       |      |      |
 | **\*64** | Jalen Porter        | Exodus Expedition (Mount Washington-KY)        |     0 |       |      |      |
-|       65 | Eden Salisbury      | Webster Odlebury\'s (Webster-NY)               |    -5 |   -.3 |      |      |
+|       65 | Eden Salisbury      | Webster Odlebury's (Webster-NY)                |    -5 |   -.3 |      |      |
 
 
 ### Pink
@@ -356,7 +356,7 @@ menubar_toc_static:
 | 13.0 | Buzz Hogs (Mabelvale-AR)                            | 5 / 10 |  1825 | 121.7 |    3 |  75% |
 | 14.1 | Anointed Ones (Marietta-GA)                         | 4 / 11 |  1890 |   126 |    4 |  78% |
 | 15.0 | CIA Special Agents (Mendon-MA)                      | 4 / 11 |  1850 | 123.3 |    6 |  73% |
-| 16.0 | What\'s Your Name (Rapid City-SD)                   | 0 / 15 |   645 |    43 |      |  83% |
+| 16.0 | What's Your Name (Rapid City-SD)                    | 0 / 15 |   645 |    43 |      |  83% |
 
 #### Individuals
 
@@ -397,7 +397,7 @@ menubar_toc_static:
 |       31 | Hannah Mathew          | BLC Soldiers of God (Bloomington-MN)                |   430 |  28.7 |    2 |  77% |
 |       32 | Nehemiah Page          | Buzz Hogs (Mabelvale-AR)                            |   430 |  28.7 |    1 |  80% |
 |       33 | Amayah Pate            | Grace Black: Buzzer Bangers (New Whiteland-IN)      |   425 |  28.3 |    1 |  81% |
-|       34 | Lillee Solvie          | What\'s Your Name (Rapid City-SD)                   |   420 |    28 |      |  82% |
+|       34 | Lillee Solvie          | What's Your Name (Rapid City-SD)                    |   420 |    28 |      |  82% |
 |       35 | Carson Fincher         | United for Christ (Mustang-OK)                      |   385 |  25.7 |    3 |  88% |
 |       36 | Amaya Allard           | Sparta Salt (Sparta-WI)                             |   370 |  24.7 |    2 |  80% |
 |       37 | Rylie Pugh             | Guardians of the Gospel (Garland-TX)                |   350 |  23.3 |      |  79% |
@@ -411,7 +411,7 @@ menubar_toc_static:
 |       44 | Nick McGee             | Kids on a Mission (Akron-OH)                        |   240 |    16 |      |  90% |
 |       45 | Reese Pugh             | Guardians of the Gospel (Garland-TX)                |   235 |  15.7 |    1 |  65% |
 |       46 | Alicia Twiford         | Word Warriors (Hanford-CA)                          |   230 |  15.3 |      |  94% |
-|       47 | Emily Ragains          | What\'s Your Name (Rapid City-SD)                   |   225 |    15 |      |  85% |
+|       47 | Emily Ragains          | What's Your Name (Rapid City-SD)                    |   225 |    15 |      |  85% |
 |       48 | Garrett McElroy        | United for Christ (Mustang-OK)                      |   185 |  12.3 |      |  71% |
 |       49 | Joshua Gunasingh       | Anointed Ones (Marietta-GA)                         |   180 |    12 |      | 100% |
 |       50 | Gabriel Parra          | Naperville (C) (Naperville-IL)                      |   175 |  11.7 |      |  73% |
@@ -626,66 +626,66 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team                                            | W/L   | Total |   Avg |   QO |   Q% |
-| ---: | ----------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
-|  1.0 | United for Christ (Mustang-OK)                  | 8 / 1 |  1530 |   170 |    4 |  80% |
-|  2.1 | Naperville (C) (Naperville-IL)                  | 6 / 3 |  1380 | 153.3 |    9 |  77% |
-|  3.0 | Naperville (M) (Naperville-IL)                  | 6 / 3 |  1340 | 148.9 |    9 |  75% |
-|  4.0 | Naperville (S) (Naperville-IL)                  | 5 / 4 |  1665 |   185 |   10 |  83% |
-|  5.0 | Titans for Christ (Phoenix-AZ)                  | 5 / 4 |  1410 | 156.6 |    7 |  78% |
-|  6.0 | More Than Conquerors (Tallahassee-FL)           | 5 / 4 |  1300 | 144.4 |    8 |  72% |
-|  7.0 | Exalt The Lord\'s Name Steadfastly (Bothell-WA) | 4 / 5 |  1155 | 128.3 |    1 |  77% |
-|  8.0 | 3N1 (Waxahachie-TX)                             | 3 / 6 |  1235 | 137.2 |    3 |  79% |
-|  9.0 | Minds of the Bible (Apple Valley-MN)            | 2 / 7 |  1305 |   145 |    5 |  84% |
-| 10.0 | BC United (Wyckoff-NJ)                          | 1 / 8 |  1050 | 116.7 |    2 |  79% |
+|    # | Team                                           | W/L   | Total |   Avg |   QO |   Q% |
+| ---: | ---------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
+|  1.0 | United for Christ (Mustang-OK)                 | 8 / 1 |  1530 |   170 |    4 |  80% |
+|  2.1 | Naperville (C) (Naperville-IL)                 | 6 / 3 |  1380 | 153.3 |    9 |  77% |
+|  3.0 | Naperville (M) (Naperville-IL)                 | 6 / 3 |  1340 | 148.9 |    9 |  75% |
+|  4.0 | Naperville (S) (Naperville-IL)                 | 5 / 4 |  1665 |   185 |   10 |  83% |
+|  5.0 | Titans for Christ (Phoenix-AZ)                 | 5 / 4 |  1410 | 156.6 |    7 |  78% |
+|  6.0 | More Than Conquerors (Tallahassee-FL)          | 5 / 4 |  1300 | 144.4 |    8 |  72% |
+|  7.0 | Exalt The Lord's Name Steadfastly (Bothell-WA) | 4 / 5 |  1155 | 128.3 |    1 |  77% |
+|  8.0 | 3N1 (Waxahachie-TX)                            | 3 / 6 |  1235 | 137.2 |    3 |  79% |
+|  9.0 | Minds of the Bible (Apple Valley-MN)           | 2 / 7 |  1305 |   145 |    5 |  84% |
+| 10.0 | BC United (Wyckoff-NJ)                         | 1 / 8 |  1050 | 116.7 |    2 |  79% |
 
 #### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer           | Team                                            | Total |   Avg |   QO |   Q% |
-| -------: | ----------------- | ----------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Reagan Stevens    | Naperville (S) (Naperville-IL)                  |  1050 | 116.7 |    5 |  87% |
-|        2 | Joy Escobar       | 3N1 (Waxahachie-TX)                             |   920 | 102.2 |    3 |  82% |
-|        3 | Shaymis Powell    | Naperville (M) (Naperville-IL)                  |   845 |  93.9 |    3 |  77% |
-|        4 | Shawn Timothy     | Naperville (C) (Naperville-IL)                  |   840 |  93.3 |    4 |  75% |
-|        5 | Christian Alapati | United for Christ (Mustang-OK)                  |   800 |  88.9 |    2 |  80% |
-|        6 | Elijah Stewart    | More Than Conquerors (Tallahassee-FL)           |   710 |  78.9 |    6 |  73% |
-|        7 | Cole Muscari      | Titans for Christ (Phoenix-AZ)                  |   605 |  67.2 |    2 |  73% |
-|        8 | Brooke Kennedy    | BC United (Wyckoff-NJ)                          |   585 |    65 |    1 |  82% |
-|        9 | Sancia Gladwin    | Exalt The Lord\'s Name Steadfastly (Bothell-WA) |   525 |  58.3 |      |  92% |
-|       10 | Makayla Reyes     | Naperville (C) (Naperville-IL)                  |   495 |    55 |    5 |  81% |
-|       11 | Spencer Morrison  | Minds of the Bible (Apple Valley-MN)            |   460 |  51.1 |    1 |  89% |
-|       12 | Addie Putman      | Minds of the Bible (Apple Valley-MN)            |   440 |  48.9 |      |  89% |
-|       13 | Shaylee Powell    | Naperville (M) (Naperville-IL)                  |   430 |  47.8 |    6 |  75% |
-|       14 | Cade Muscari      | Titans for Christ (Phoenix-AZ)                  |   430 |  47.8 |    5 |  78% |
-| **\*14** | McKinley Stevens  | Naperville (S) (Naperville-IL)                  |   430 |  47.8 |    5 |  76% |
-|       15 | Emma Stewart      | More Than Conquerors (Tallahassee-FL)           |   405 |    45 |    1 |  79% |
-|       16 | Lauren Pahl       | Minds of the Bible (Apple Valley-MN)            |   400 |  44.4 |    4 |  82% |
-|       17 | Wesley Horn       | United for Christ (Mustang-OK)                  |   310 |  34.4 |    1 |  81% |
-|       18 | Nathan Bello      | BC United (Wyckoff-NJ)                          |   305 |  33.9 |    1 |  76% |
-|       19 | Lizzie Biek       | Titans for Christ (Phoenix-AZ)                  |   305 |  33.9 |      |  93% |
-|       20 | Carson Fincher    | United for Christ (Mustang-OK)                  |   230 |  25.6 |    1 |  92% |
-|       21 | Elijah Chadwick   | Exalt The Lord\'s Name Steadfastly (Bothell-WA) |   195 |  21.7 |    1 |  58% |
-|       22 | Charlie Zimmerman | More Than Conquerors (Tallahassee-FL)           |   185 |  20.6 |    1 |  65% |
-|       23 | Pierce Stevens    | Naperville (S) (Naperville-IL)                  |   175 |  19.4 |      |  93% |
-| **\*23** | Hector Rivera     | 3N1 (Waxahachie-TX)                             |   175 |  19.4 |      |  68% |
-| **\*23** | Lucky Baldwin     | Exalt The Lord\'s Name Steadfastly (Bothell-WA) |   175 |  19.4 |      |  66% |
-|       24 | Jubilee Ward      | BC United (Wyckoff-NJ)                          |   160 |  17.8 |      |  78% |
-|       25 | Noah Myhill       | Exalt The Lord\'s Name Steadfastly (Bothell-WA) |   140 |  15.6 |      | 100% |
-| **\*25** | Hiram Salinas     | 3N1 (Waxahachie-TX)                             |   140 |  15.6 |      | 100% |
-|       26 | Talia Jarrell     | Exalt The Lord\'s Name Steadfastly (Bothell-WA) |   120 |  13.3 |      | 100% |
-|       27 | Cameron Lykes     | United for Christ (Mustang-OK)                  |   100 |  11.1 |      | 100% |
-|       28 | Garrett McElroy   | United for Christ (Mustang-OK)                  |    90 |    10 |      |  58% |
-|       29 | Tyler Trexler     | Titans for Christ (Phoenix-AZ)                  |    70 |   7.8 |      |  80% |
-|       30 | Josh Hung         | Naperville (M) (Naperville-IL)                  |    45 |     5 |      |  67% |
-|       31 | Gabriel Parra     | Naperville (C) (Naperville-IL)                  |    40 |   4.4 |      |  60% |
-|       32 | John Hung         | Naperville (M) (Naperville-IL)                  |    20 |   2.2 |      |  99% |
-|       33 | Esther Siony      | Naperville (S) (Naperville-IL)                  |    10 |   1.1 |      |  99% |
-|       34 | Mariel Parra      | Naperville (C) (Naperville-IL)                  |     5 |    .6 |      |  50% |
-| **\*34** | Lukas Harries     | Minds of the Bible (Apple Valley-MN)            |     5 |    .6 |      |  33% |
-|       35 | Logan MacPherson  | Titans for Christ (Phoenix-AZ)                  |     0 |       |      |      |
-| **\*35** | JP Dissmore       | More Than Conquerors (Tallahassee-FL)           |     0 |       |      |      |
+|        # | Quizzer           | Team                                           | Total |   Avg |   QO |   Q% |
+| -------: | ----------------- | ---------------------------------------------- | ----: | ----: | ---: | ---: |
+|        1 | Reagan Stevens    | Naperville (S) (Naperville-IL)                 |  1050 | 116.7 |    5 |  87% |
+|        2 | Joy Escobar       | 3N1 (Waxahachie-TX)                            |   920 | 102.2 |    3 |  82% |
+|        3 | Shaymis Powell    | Naperville (M) (Naperville-IL)                 |   845 |  93.9 |    3 |  77% |
+|        4 | Shawn Timothy     | Naperville (C) (Naperville-IL)                 |   840 |  93.3 |    4 |  75% |
+|        5 | Christian Alapati | United for Christ (Mustang-OK)                 |   800 |  88.9 |    2 |  80% |
+|        6 | Elijah Stewart    | More Than Conquerors (Tallahassee-FL)          |   710 |  78.9 |    6 |  73% |
+|        7 | Cole Muscari      | Titans for Christ (Phoenix-AZ)                 |   605 |  67.2 |    2 |  73% |
+|        8 | Brooke Kennedy    | BC United (Wyckoff-NJ)                         |   585 |    65 |    1 |  82% |
+|        9 | Sancia Gladwin    | Exalt The Lord's Name Steadfastly (Bothell-WA) |   525 |  58.3 |      |  92% |
+|       10 | Makayla Reyes     | Naperville (C) (Naperville-IL)                 |   495 |    55 |    5 |  81% |
+|       11 | Spencer Morrison  | Minds of the Bible (Apple Valley-MN)           |   460 |  51.1 |    1 |  89% |
+|       12 | Addie Putman      | Minds of the Bible (Apple Valley-MN)           |   440 |  48.9 |      |  89% |
+|       13 | Shaylee Powell    | Naperville (M) (Naperville-IL)                 |   430 |  47.8 |    6 |  75% |
+|       14 | Cade Muscari      | Titans for Christ (Phoenix-AZ)                 |   430 |  47.8 |    5 |  78% |
+| **\*14** | McKinley Stevens  | Naperville (S) (Naperville-IL)                 |   430 |  47.8 |    5 |  76% |
+|       15 | Emma Stewart      | More Than Conquerors (Tallahassee-FL)          |   405 |    45 |    1 |  79% |
+|       16 | Lauren Pahl       | Minds of the Bible (Apple Valley-MN)           |   400 |  44.4 |    4 |  82% |
+|       17 | Wesley Horn       | United for Christ (Mustang-OK)                 |   310 |  34.4 |    1 |  81% |
+|       18 | Nathan Bello      | BC United (Wyckoff-NJ)                         |   305 |  33.9 |    1 |  76% |
+|       19 | Lizzie Biek       | Titans for Christ (Phoenix-AZ)                 |   305 |  33.9 |      |  93% |
+|       20 | Carson Fincher    | United for Christ (Mustang-OK)                 |   230 |  25.6 |    1 |  92% |
+|       21 | Elijah Chadwick   | Exalt The Lord's Name Steadfastly (Bothell-WA) |   195 |  21.7 |    1 |  58% |
+|       22 | Charlie Zimmerman | More Than Conquerors (Tallahassee-FL)          |   185 |  20.6 |    1 |  65% |
+|       23 | Pierce Stevens    | Naperville (S) (Naperville-IL)                 |   175 |  19.4 |      |  93% |
+| **\*23** | Hector Rivera     | 3N1 (Waxahachie-TX)                            |   175 |  19.4 |      |  68% |
+| **\*23** | Lucky Baldwin     | Exalt The Lord's Name Steadfastly (Bothell-WA) |   175 |  19.4 |      |  66% |
+|       24 | Jubilee Ward      | BC United (Wyckoff-NJ)                         |   160 |  17.8 |      |  78% |
+|       25 | Noah Myhill       | Exalt The Lord's Name Steadfastly (Bothell-WA) |   140 |  15.6 |      | 100% |
+| **\*25** | Hiram Salinas     | 3N1 (Waxahachie-TX)                            |   140 |  15.6 |      | 100% |
+|       26 | Talia Jarrell     | Exalt The Lord's Name Steadfastly (Bothell-WA) |   120 |  13.3 |      | 100% |
+|       27 | Cameron Lykes     | United for Christ (Mustang-OK)                 |   100 |  11.1 |      | 100% |
+|       28 | Garrett McElroy   | United for Christ (Mustang-OK)                 |    90 |    10 |      |  58% |
+|       29 | Tyler Trexler     | Titans for Christ (Phoenix-AZ)                 |    70 |   7.8 |      |  80% |
+|       30 | Josh Hung         | Naperville (M) (Naperville-IL)                 |    45 |     5 |      |  67% |
+|       31 | Gabriel Parra     | Naperville (C) (Naperville-IL)                 |    40 |   4.4 |      |  60% |
+|       32 | John Hung         | Naperville (M) (Naperville-IL)                 |    20 |   2.2 |      |  99% |
+|       33 | Esther Siony      | Naperville (S) (Naperville-IL)                 |    10 |   1.1 |      |  99% |
+|       34 | Mariel Parra      | Naperville (C) (Naperville-IL)                 |     5 |    .6 |      |  50% |
+| **\*34** | Lukas Harries     | Minds of the Bible (Apple Valley-MN)           |     5 |    .6 |      |  33% |
+|       35 | Logan MacPherson  | Titans for Christ (Phoenix-AZ)                 |     0 |       |      |      |
+| **\*35** | JP Dissmore       | More Than Conquerors (Tallahassee-FL)          |     0 |       |      |      |
 
 
 ### Lavender
@@ -848,7 +848,7 @@ menubar_toc_static:
 | ---: | ----------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | WoL Swordbearers (Springfield-VA)                     | 8 / 1 |  1810 | 201.1 |    9 |  81% |
 |  2.0 | Grace Red: Pardon the Interruption (New Whiteland-IN) | 7 / 2 |  1480 | 164.4 |    6 |  83% |
-|  3.0 | God\'s Squad (Chandler-AZ)                            | 6 / 3 |  1615 | 179.4 |    4 |  79% |
+|  3.0 | God's Squad (Chandler-AZ)                             | 6 / 3 |  1615 | 179.4 |    4 |  79% |
 |  4.1 | Tribulation Force (Red Oak-TX)                        | 5 / 4 |  1415 | 157.2 |    7 |  79% |
 |  5.0 | Sparta Light (Sparta-WI)                              | 5 / 4 |  1395 |   155 |    1 |  82% |
 |  6.0 | Sparta Salt (Sparta-WI)                               | 4 / 5 |  1115 | 123.9 |    4 |  76% |
@@ -866,7 +866,7 @@ menubar_toc_static:
 |        1 | Bethel Dawit       | WoL Swordbearers (Springfield-VA)                     |  1065 | 118.3 |    7 |  80% |
 |        2 | Larissa Cox        | Grace Red: Pardon the Interruption (New Whiteland-IN) |   985 | 109.4 |    5 |  86% |
 |        3 | Ben Butler         | Faith Temple (Rochester-NY)                           |   950 | 105.6 |    6 |  81% |
-|        4 | Timothy Mathew     | God\'s Squad (Chandler-AZ)                            |   915 | 101.7 |    3 |  87% |
+|        4 | Timothy Mathew     | God's Squad (Chandler-AZ)                             |   915 | 101.7 |    3 |  87% |
 |        5 | Bryce Helgerson    | Sparta Salt (Sparta-WI)                               |   820 |  91.1 |    3 |  83% |
 |        6 | Jack Adkins        | Truth Defenders (Painesville-OH)                      |   700 |  77.8 |    3 |  83% |
 |        7 | Noah Janssens      | Tribulation Force (Red Oak-TX)                        |   695 |  77.2 |    1 |  90% |
@@ -877,17 +877,17 @@ menubar_toc_static:
 |       12 | Ezra King          | Tribulation Force (Red Oak-TX)                        |   475 |  52.8 |    6 |  77% |
 |       13 | Benjamin Antony    | Word Wise Quiz Kids (Cordova-TN)                      |   355 |  39.4 |      |  90% |
 |       14 | Anthony Collins    | Truth Defenders (Painesville-OH)                      |   345 |  38.3 |    4 |  69% |
-|       15 | Anita Mathew       | God\'s Squad (Chandler-AZ)                            |   290 |  32.2 |      |  84% |
+|       15 | Anita Mathew       | God's Squad (Chandler-AZ)                             |   290 |  32.2 |      |  84% |
 |       16 | Anna Le            | AAA Batteries (Springfield-MO)                        |   285 |  31.7 |      |  74% |
 |       17 | Sarah Dawit        | WoL Swordbearers (Springfield-VA)                     |   255 |  28.3 |    1 |  93% |
 |       18 | Aidan Fulfer       | Tribulation Force (Red Oak-TX)                        |   245 |  27.2 |      |  63% |
 |       19 | Eliana Phelps      | AAA Batteries (Springfield-MO)                        |   240 |  26.7 |    1 |  76% |
-|       20 | Joanna Thomas      | God\'s Squad (Chandler-AZ)                            |   230 |  25.6 |    1 |  70% |
+|       20 | Joanna Thomas      | God's Squad (Chandler-AZ)                             |   230 |  25.6 |    1 |  70% |
 |       21 | Nathanael Obel     | WoL Swordbearers (Springfield-VA)                     |   190 |  21.1 |    1 |  90% |
 |       22 | Lucas Brunson      | Grace Red: Pardon the Interruption (New Whiteland-IN) |   180 |    20 |      |  85% |
 |       23 | Hector Siaca       | Faith Temple (Rochester-NY)                           |   175 |  19.4 |    1 |  61% |
 |       24 | Abigail Carlson    | Grace Red: Pardon the Interruption (New Whiteland-IN) |   170 |  18.9 |    1 |  82% |
-|       25 | Hans Jacob         | God\'s Squad (Chandler-AZ)                            |   160 |  17.8 |      |  76% |
+|       25 | Hans Jacob         | God's Squad (Chandler-AZ)                             |   160 |  17.8 |      |  76% |
 |       26 | Daniel Priddy      | Grace Red: Pardon the Interruption (New Whiteland-IN) |   145 |  16.1 |      |  77% |
 | **\*26** | Joel Doosey        | WoL Swordbearers (Springfield-VA)                     |   145 |  16.1 |      |  75% |
 |       27 | Amaya Allard       | Sparta Salt (Sparta-WI)                               |   140 |  15.6 |      |  88% |
@@ -903,7 +903,7 @@ menubar_toc_static:
 |       36 | Ava Robertson      | Word Wise Quiz Kids (Cordova-TN)                      |    30 |   3.3 |      | 100% |
 |       37 | Jack Altman        | Faith Temple (Rochester-NY)                           |    25 |   2.8 |      |  55% |
 |       38 | Claire Adkins      | Truth Defenders (Painesville-OH)                      |    20 |   2.2 |      |  99% |
-| **\*38** | Shreya Ganesan     | God\'s Squad (Chandler-AZ)                            |    20 |   2.2 |      |  99% |
+| **\*38** | Shreya Ganesan     | God's Squad (Chandler-AZ)                             |    20 |   2.2 |      |  99% |
 | **\*38** | Issac Briski       | Sparta Salt (Sparta-WI)                               |    20 |   2.2 |      |  60% |
 |       39 | Aaron Kefyalew     | WoL Swordbearers (Springfield-VA)                     |     0 |       |      |      |
 | **\*39** | Ezra Kefyalew      | WoL Swordbearers (Springfield-VA)                     |     0 |       |      |      |
@@ -1003,7 +1003,7 @@ menubar_toc_static:
 | ---: | ------------------------------------ | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | Avengers (Hamburg-PA)                | 8 / 1 |  1455 | 161.6 |    4 |  79% |
 |  2.0 | Anointed Ones (Marietta-GA)          | 7 / 2 |  1550 | 172.2 |    8 |  81% |
-|  3.1 | Webster Odlebury\'s (Webster-NY)     | 6 / 3 |  1460 | 162.2 |    3 |  78% |
+|  3.1 | Webster Odlebury's (Webster-NY)      | 6 / 3 |  1460 | 162.2 |    3 |  78% |
 |  4.0 | Victory Boyz (Lakeland-FL)           | 6 / 3 |  1520 | 168.9 |    9 |  77% |
 |  5.1 | Carmel Crusaders (Bonifay-FL)        | 5 / 4 |  1390 | 154.4 |    3 |  76% |
 |  6.0 | Buzz Hogs (Mabelvale-AR)             | 5 / 4 |  1185 | 131.7 |    4 |  72% |
@@ -1022,13 +1022,13 @@ menubar_toc_static:
 |        2 | Steve Joy              | Anointed Ones (Marietta-GA)          |   905 | 100.6 |    6 |  82% |
 |        3 | Mackenzie Hight        | Fireball Ninjas (Perry-IA)           |   775 |  86.1 |    3 |  91% |
 |        4 | Lauryn Jackson         | Buzz Hogs (Mabelvale-AR)             |   625 |  69.4 |    3 |  80% |
-|        5 | Isaac Salisbury        | Webster Odlebury\'s (Webster-NY)     |   570 |  63.3 |      |  80% |
+|        5 | Isaac Salisbury        | Webster Odlebury's (Webster-NY)      |   570 |  63.3 |      |  80% |
 |        6 | Kiersten Womble        | Carmel Crusaders (Bonifay-FL)        |   565 |  62.8 |      |  79% |
 |        7 | Charli Fitzgerald      | Avengers (Hamburg-PA)                |   535 |  59.4 |    1 |  85% |
 |        8 | Alana Hight            | Fireball Ninjas (Perry-IA)           |   425 |  47.2 |    1 |  84% |
-|        9 | Addison Odle           | Webster Odlebury\'s (Webster-NY)     |   390 |  43.3 |      |  87% |
+|        9 | Addison Odle           | Webster Odlebury's (Webster-NY)      |   390 |  43.3 |      |  87% |
 |       10 | Will Anderson          | The Avengers of JBQ (Orlando-FL)     |   370 |  41.1 |      |  58% |
-|       11 | Isaiah Salisbury       | Webster Odlebury\'s (Webster-NY)     |   340 |  37.8 |    3 |  77% |
+|       11 | Isaiah Salisbury       | Webster Odlebury's (Webster-NY)      |   340 |  37.8 |    3 |  77% |
 |       12 | Myah Berkey            | WKTB (We Know The Bible) (Tucson-AZ) |   330 |  36.7 |      |  70% |
 |       13 | Rebecca Lee            | Carmel Crusaders (Bonifay-FL)        |   315 |    35 |      |  92% |
 |       14 | Micah Warren           | Carmel Crusaders (Bonifay-FL)        |   305 |  33.9 |    3 |  72% |
@@ -1050,7 +1050,7 @@ menubar_toc_static:
 |       29 | Alaina Yarnall         | Avengers (Hamburg-PA)                |   195 |  21.7 |    1 |  65% |
 |       30 | Tegan Crowley          | Avengers (Hamburg-PA)                |   195 |  21.7 |      |  87% |
 |       31 | Gracie Bland           | The Avengers of JBQ (Orlando-FL)     |   190 |  21.1 |      | 100% |
-|       32 | Luke Odle              | Webster Odlebury\'s (Webster-NY)     |   160 |  17.8 |      |  71% |
+|       32 | Luke Odle              | Webster Odlebury's (Webster-NY)      |   160 |  17.8 |      |  71% |
 |       33 | Brady WOmble           | Carmel Crusaders (Bonifay-FL)        |   130 |  14.4 |      | 100% |
 |       34 | Quinton Zepp           | Carmel Crusaders (Bonifay-FL)        |   100 |  11.1 |      |  72% |
 |       35 | Joshua Gunasingh       | Anointed Ones (Marietta-GA)          |    80 |   8.9 |      |  82% |
@@ -1065,8 +1065,8 @@ menubar_toc_static:
 |       41 | Sheila Pissarra        | Avengers (Hamburg-PA)                |    10 |   1.1 |      |  99% |
 |       42 | Trinity Terry          | Buzz Hogs (Mabelvale-AR)             |     0 |       |      |      |
 | **\*42** | Malayah Thomas         | Avengers (Hamburg-PA)                |     0 |       |      |      |
-| **\*42** | Judah Salisbury        | Webster Odlebury\'s (Webster-NY)     |     0 |       |      |      |
-| **\*42** | Eden Salisbury         | Webster Odlebury\'s (Webster-NY)     |     0 |       |      |      |
+| **\*42** | Judah Salisbury        | Webster Odlebury's (Webster-NY)      |     0 |       |      |      |
+| **\*42** | Eden Salisbury         | Webster Odlebury's (Webster-NY)      |     0 |       |      |      |
 | **\*42** | Jace Hance             | Victory Boyz (Lakeland-FL)           |     0 |       |      |      |
 |       43 | Sam Lee                | Carmel Crusaders (Bonifay-FL)        |   -20 |  -2.2 |      |  20% |
 
@@ -1080,14 +1080,14 @@ menubar_toc_static:
 |    # | Team                                 | W/L   | Total |   Avg |   QO |   Q% |
 | ---: | ------------------------------------ | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | CIA Special Agents (Mendon-MA)       | 9 / 0 |  1830 | 203.3 |   11 |  79% |
-|  2.1 | God\'s Gang (Fargo-ND)               | 7 / 2 |  1540 | 171.1 |   11 |  80% |
+|  2.1 | God's Gang (Fargo-ND)                | 7 / 2 |  1540 | 171.1 |   11 |  80% |
 |  3.0 | Shoreline (Shoreline-WA)             | 7 / 2 |  1600 | 177.8 |    8 |  84% |
 |  4.1 | 4K (Montgomery-AL)                   | 5 / 4 |  1370 | 152.2 |    3 |  77% |
 |  5.0 | SCC Truth Seekers (Shreveport-LA)    | 5 / 4 |  1130 | 125.5 |    4 |  66% |
 |  6.1 | Quiz Avengers (North Little Rock-AR) | 4 / 5 |   900 |   100 |    3 |  67% |
 |  7.0 | The Remix (Oswego-KS)                | 4 / 5 |  1540 | 171.1 |    7 |  86% |
 |  8.0 | Gateway Master (Shreveport-LA)       | 2 / 7 |   830 |  92.2 |    2 |  64% |
-|  9.0 | What\'s Your Name (Rapid City-SD)    | 1 / 8 |   590 |  65.5 |    2 |  74% |
+|  9.0 | What's Your Name (Rapid City-SD)     | 1 / 8 |   590 |  65.5 |    2 |  74% |
 | 10.0 | Lake Wylie Coyotes (Lake Wylie-SC)   | 1 / 8 |   380 |  42.2 |      |  77% |
 
 #### Individuals
@@ -1099,18 +1099,18 @@ menubar_toc_static:
 |        1 | Hayden Monty        | CIA Special Agents (Mendon-MA)       |  1305 |   145 |    8 |  91% |
 |        2 | Corinne Arnold      | Shoreline (Shoreline-WA)             |  1035 |   115 |    6 |  85% |
 |        3 | Kacey Mayfield      | The Remix (Oswego-KS)                |   905 | 100.6 |    2 |  97% |
-|        4 | Tori Glanzer        | God\'s Gang (Fargo-ND)               |   830 |  92.2 |    5 |  80% |
+|        4 | Tori Glanzer        | God's Gang (Fargo-ND)                |   830 |  92.2 |    5 |  80% |
 |        5 | Anna Jordan         | Quiz Avengers (North Little Rock-AR) |   645 |  71.7 |    2 |  69% |
 |        6 | Braden Tew          | SCC Truth Seekers (Shreveport-LA)    |   575 |  63.9 |    3 |  72% |
-|        7 | Ola Alabi           | God\'s Gang (Fargo-ND)               |   490 |  54.4 |    6 |  83% |
+|        7 | Ola Alabi           | God's Gang (Fargo-ND)                |   490 |  54.4 |    6 |  83% |
 |        8 | Grace Noel          | The Remix (Oswego-KS)                |   450 |    50 |    5 |  79% |
 |        9 | Patrick Thomas      | Gateway Master (Shreveport-LA)       |   435 |  48.3 |    1 |  57% |
 |       10 | Vicente Rivera      | 4K (Montgomery-AL)                   |   420 |  46.7 |    3 |  80% |
 |       11 | Caroline Tew        | SCC Truth Seekers (Shreveport-LA)    |   380 |  42.2 |    1 |  65% |
 |       12 | Trey Oliver         | 4K (Montgomery-AL)                   |   360 |    40 |      |  78% |
 | **\*12** | Eliana Rivera       | 4K (Montgomery-AL)                   |   360 |    40 |      |  73% |
-|       13 | Lillee Solvie       | What\'s Your Name (Rapid City-SD)    |   295 |  32.8 |    2 |  68% |
-|       14 | Emily Ragains       | What\'s Your Name (Rapid City-SD)    |   295 |  32.8 |      |  79% |
+|       13 | Lillee Solvie       | What's Your Name (Rapid City-SD)     |   295 |  32.8 |    2 |  68% |
+|       14 | Emily Ragains       | What's Your Name (Rapid City-SD)     |   295 |  32.8 |      |  79% |
 |       15 | Maya Arnold         | Shoreline (Shoreline-WA)             |   285 |  31.7 |    1 |  87% |
 |       16 | Ezekiel Hamel       | CIA Special Agents (Mendon-MA)       |   280 |  31.1 |    2 |  76% |
 |       17 | Janae Arnold        | Shoreline (Shoreline-WA)             |   280 |  31.1 |    1 |  79% |
@@ -1120,11 +1120,11 @@ menubar_toc_static:
 |       21 | David Girdner       | 4K (Montgomery-AL)                   |   190 |  21.1 |      |  65% |
 |       22 | Camilla Joye        | Lake Wylie Coyotes (Lake Wylie-SC)   |   170 |  18.9 |      |  82% |
 |       23 | Phoenix Butler      | Lake Wylie Coyotes (Lake Wylie-SC)   |   150 |  16.7 |      |  78% |
-|       24 | Benita Ayebo        | God\'s Gang (Fargo-ND)               |   140 |  15.6 |      |  60% |
+|       24 | Benita Ayebo        | God's Gang (Fargo-ND)                |   140 |  15.6 |      |  60% |
 |       25 | Braylon Sutherland  | Quiz Avengers (North Little Rock-AR) |   135 |    15 |    1 |  57% |
 |       26 | Hannah Noel         | The Remix (Oswego-KS)                |   110 |  12.2 |      |  86% |
 |       27 | Brooklyn Sutherland | Quiz Avengers (North Little Rock-AR) |    85 |   9.4 |      |  90% |
-|       28 | Ope Alabi           | God\'s Gang (Fargo-ND)               |    80 |   8.9 |      |  82% |
+|       28 | Ope Alabi           | God's Gang (Fargo-ND)                |    80 |   8.9 |      |  82% |
 |       29 | Lane Wolsey         | The Remix (Oswego-KS)                |    75 |   8.3 |      |  89% |
 | **\*29** | Norman Thomas       | Gateway Master (Shreveport-LA)       |    75 |   8.3 |      |  59% |
 |       30 | Davaney McSwain     | Lake Wylie Coyotes (Lake Wylie-SC)   |    55 |   6.1 |      |  83% |
@@ -1143,7 +1143,7 @@ menubar_toc_static:
 | **\*36** | Madison Woodbury    | Lake Wylie Coyotes (Lake Wylie-SC)   |     0 |       |      |      |
 | **\*36** | Hailey Woodbury     | Lake Wylie Coyotes (Lake Wylie-SC)   |     0 |       |      |      |
 | **\*36** | Terrill Walls Jr    | Lake Wylie Coyotes (Lake Wylie-SC)   |     0 |       |      |      |
-| **\*36** | Zane Smaaladen      | God\'s Gang (Fargo-ND)               |     0 |       |      |      |
+| **\*36** | Zane Smaaladen      | God's Gang (Fargo-ND)                |     0 |       |      |      |
 | **\*36** | Aliyah Morais       | CIA Special Agents (Mendon-MA)       |     0 |       |      |      |
 | **\*36** | Katelynn Do         | 4K (Montgomery-AL)                   |     0 |       |      |      |
 | **\*36** | Kasey Do            | 4K (Montgomery-AL)                   |     0 |       |      |      |

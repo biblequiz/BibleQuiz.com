@@ -91,7 +91,7 @@ menubar_toc_static:
 |    7 | Caught up in the Clouds (Open Bible - Rapid City-SD)         | 4 / 7  |  36% |  1070 |  97.3 |    7 |  86% |
 |    8 | The Broken Utensil (Harvest AG - Oconto-WI)                  | 4 / 7  |  36% |  1370 | 124.5 |   11 |  92% |
 |    9 | The Three Trumpeteers (Bethel AG - Rapid City-SD)            | 3 / 8  |  27% |  1055 |  95.9 |    8 |  78% |
-|   10 | God\'s CoWorkers (Bethel AG - Rapid City-SD)                 | 3 / 8  |  27% |   985 |  89.5 |    5 |  79% |
+|   10 | God's CoWorkers (Bethel AG - Rapid City-SD)                  | 3 / 8  |  27% |   985 |  89.5 |    5 |  79% |
 |   11 | Children of the Light (Open Bible - Rapid City-SD)           | 2 / 9  |  18% |  1250 | 113.6 |    9 |  87% |
 |   12 | Faith #1 (Faith AG - Algona-IA)                              | 0 / 11 |      |   735 |  66.8 |    3 |  91% |
 
@@ -116,10 +116,10 @@ menubar_toc_static:
 |       13 | Emeline White               | Caught up in the Clouds (Open Bible - Rapid City-SD)         |   740 |  67.3 |    6 |  88% |
 |       14 | Sienna Allard               | Messengers Approved by God (New Life AG - Sparta-WI)         |   705 |  64.1 |    7 |  74% |
 |       15 | Jeb Dow                     | Faith #1 (Faith AG - Algona-IA)                              |   665 |  60.5 |    3 |  93% |
-|       16 | Nicolas Stein               | God\'s CoWorkers (Bethel AG - Rapid City-SD)                 |   595 |  54.1 |    4 |  85% |
+|       16 | Nicolas Stein               | God's CoWorkers (Bethel AG - Rapid City-SD)                  |   595 |  54.1 |    4 |  85% |
 |       17 | Elijah Helgerson            | A Thief in the Night (New Life AG - Sparta-WI)               |   590 |  53.6 |    3 |  82% |
 |       18 | Cambell Quinonez            | Not Asleep (Open Bible - Rapid City-SD)                      |   445 |  40.5 |    2 |  86% |
-|       19 | Zacharias Solvie            | God\'s CoWorkers (Bethel AG - Rapid City-SD)                 |   330 |    30 |    1 |  92% |
+|       19 | Zacharias Solvie            | God's CoWorkers (Bethel AG - Rapid City-SD)                  |   330 |    30 |    1 |  92% |
 |       20 | Leyton Kenner               | Not Asleep (Open Bible - Rapid City-SD)                      |   290 |  26.4 |      | 100% |
 |       21 | Zayn Styles                 | Caught up in the Clouds (Open Bible - Rapid City-SD)         |   270 |  24.5 |    1 |  90% |
 |       22 | Ellie Holle                 | The Three Trumpeteers (Bethel AG - Rapid City-SD)            |   190 |  17.3 |      |  83% |
@@ -128,7 +128,7 @@ menubar_toc_static:
 |       25 | Jordyn Quinonez             | Children of the Light (Open Bible - Rapid City-SD)           |   110 |    10 |      |  71% |
 |       26 | Jackson Rakowski            | Believers Who Have Died (Harvest AG - Oconto-WI)             |   100 |   9.1 |      | 100% |
 |       27 | Jaxon Olmstead              | Faith #1 (Faith AG - Algona-IA)                              |    70 |   6.4 |      |  75% |
-|       28 | Gabe Thibodeau              | God\'s CoWorkers (Bethel AG - Rapid City-SD)                 |    60 |   5.5 |      |  56% |
+|       28 | Gabe Thibodeau              | God's CoWorkers (Bethel AG - Rapid City-SD)                  |    60 |   5.5 |      |  56% |
 |       29 | Grace Ragains               | Children of the Light (Open Bible - Rapid City-SD)           |    45 |   4.1 |      | 100% |
 |       30 | Kirsten Young               | The Three Trumpeteers (Bethel AG - Rapid City-SD)            |    40 |   3.6 |      |  54% |
 |       31 | Jude Beautiful Bald Eagle   | Caught up in the Clouds (Open Bible - Rapid City-SD)         |    35 |   3.2 |      | 100% |

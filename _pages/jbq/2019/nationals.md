@@ -23,7 +23,7 @@ menubar_toc_static:
 |    # | Team                                         | W/L    | Total |   Avg |   QO |   Q% |
 | ---: | -------------------------------------------- | ------ | ----: | ----: | ---: | ---: |
 |  1.1 | Wayne, NJ (CTI-JOY)                          | 14 / 1 |  2790 |   186 |    9 |  85% |
-|  2.0 | Houston, TX (Gideon\'s Army)                 | 14 / 1 |  2980 | 198.7 |   13 |  81% |
+|  2.0 | Houston, TX (Gideon's Army)                  | 14 / 1 |  2980 | 198.7 |   13 |  81% |
 |  3.1 | Garland, TX (Guardians of the Gospel)        | 12 / 3 |  2815 | 187.7 |   14 |  77% |
 |  4.0 | Wilmington, NC (New Hanover Church)          | 12 / 3 |  2890 | 192.7 |   11 |  82% |
 |  5.1 | Naperville, IL (Naperville (S))              | 9 / 6  |  2750 | 183.3 |   15 |  78% |
@@ -53,7 +53,7 @@ menubar_toc_static:
 |        6 | Nathan Koch           | Garland, TX (Guardians of the Gospel)        |  1225 | 81.7 |    6 |  71% |
 |        7 | Colson Sago           | Beulah, ND (New Creatures)                   |  1165 | 77.7 |    5 |  96% |
 |        8 | Kelechi Oriaku        | Wayne, NJ (CTI-JOY)                          |  1150 | 76.7 |      |  87% |
-|        9 | Priscilla Adu-Gyamfi  | Houston, TX (Gideon\'s Army)                 |  1095 |   73 |   10 |  75% |
+|        9 | Priscilla Adu-Gyamfi  | Houston, TX (Gideon's Army)                  |  1095 |   73 |   10 |  75% |
 |       10 | Temaria Murphy        | Lakeland, FL (Victory Church)                |  1025 | 68.3 |    2 |  67% |
 |       11 | Kristyn Bauer         | Beulah, ND (New Creatures)                   |   980 | 65.3 |    2 |  82% |
 |       12 | Drew Malchek          | Two Rivers, WI (Renew Church)                |   905 | 60.3 |    4 |  75% |
@@ -64,13 +64,13 @@ menubar_toc_static:
 |       17 | Simeon Cheeran        | Roswell, GA (Georgia Christian Assembly)     |   785 | 52.3 |    1 |  75% |
 |       18 | Elliot Rivera         | Wayne, NJ (CTI-JOY)                          |   765 |   51 |    9 |  82% |
 |       19 | Daniel Boehling       | Wilmington, NC (New Hanover Church)          |   765 |   51 |    3 |  75% |
-|       20 | Aretha CC-Okeke       | Houston, TX (Gideon\'s Army)                 |   755 | 50.3 |      |  86% |
+|       20 | Aretha CC-Okeke       | Houston, TX (Gideon's Army)                  |   755 | 50.3 |      |  86% |
 |       21 | Reese Pugh            | Garland, TX (Guardians of the Gospel)        |   750 |   50 |    8 |  80% |
 |       22 | Tabitha Barney        | Shelby Township, MI (John Three Sixteam)     |   705 |   47 |    9 |  79% |
 |       23 | Brianna Bobbie        | Ozone Park, NY (Calvary Assembly of God)     |   700 | 46.7 |    1 |  76% |
 |       24 | Aseda Essandoh        | Dublin, OH (RLC Diamonds)                    |   680 | 45.3 |    1 |  72% |
 |       25 | Ariella Grimmond      | Ozone Park, NY (Calvary Assembly of God)     |   635 | 42.3 |      |  71% |
-|       26 | Garen Umukoro         | Houston, TX (Gideon\'s Army)                 |   620 | 41.3 |    3 |  81% |
+|       26 | Garen Umukoro         | Houston, TX (Gideon's Army)                  |   620 | 41.3 |    3 |  81% |
 |       27 | Faith Poling          | Dublin, OH (RLC Diamonds)                    |   580 | 38.7 |    6 |  79% |
 |       28 | Jeremiah Moses Raj    | Roswell, GA (Georgia Christian Assembly)     |   535 | 35.7 |      |  92% |
 |       29 | Soren Pappas          | Dublin, OH (RLC Diamonds)                    |   515 | 34.3 |      |  95% |
@@ -80,7 +80,7 @@ menubar_toc_static:
 |       33 | Alissa Daniel         | Chandler, AZ (Overcomers)                    |   485 | 32.3 |    2 |  85% |
 |       34 | Isabella Kirchon      | Lakeland, FL (Victory Church)                |   480 |   32 |    2 |  89% |
 |       35 | Josh Luckow           | Two Rivers, WI (Renew Church)                |   480 |   32 |    1 |  58% |
-|       36 | Chidinma Kanu         | Houston, TX (Gideon\'s Army)                 |   445 | 29.7 |      |  96% |
+|       36 | Chidinma Kanu         | Houston, TX (Gideon's Army)                  |   445 | 29.7 |      |  96% |
 |       37 | Jack Willson          | Wilmington, NC (New Hanover Church)          |   440 | 29.3 |    3 |  77% |
 |       38 | Luke Morency          | Shelby Township, MI (John Three Sixteam)     |   440 | 29.3 |      |  93% |
 |       39 | Matthew Vengal        | Bloomington, MN (Bread of Life Church)       |   415 | 27.7 |    3 |  68% |
@@ -100,9 +100,9 @@ menubar_toc_static:
 |       51 | Joel Ertzberger       | Wilmington, NC (New Hanover Church)          |    70 |  4.7 |      | 100% |
 |       52 | Hannah Mathew         | Bloomington, MN (Bread of Life Church)       |    65 |  4.3 |      |  73% |
 |       53 | Jocelyn Martina       | Naperville, IL (Naperville (S))              |    60 |    4 |      | 100% |
-|       54 | Jovanny Adu-Gyamfi    | Houston, TX (Gideon\'s Army)                 |    40 |  2.7 |      | 100% |
+|       54 | Jovanny Adu-Gyamfi    | Houston, TX (Gideon's Army)                  |    40 |  2.7 |      | 100% |
 |       55 | Luke Santee           | Wilmington, NC (New Hanover Church)          |    30 |    2 |      | 100% |
-|       56 | Kesiena Umukoro       | Houston, TX (Gideon\'s Army)                 |    25 |  1.7 |      |  67% |
+|       56 | Kesiena Umukoro       | Houston, TX (Gideon's Army)                  |    25 |  1.7 |      |  67% |
 |       57 | London Hamilton       | Shreveport, LA (Shreveport Community Church) |    20 |  1.3 |      | 100% |
 | **\*57** | Annalisa Skelly       | Ozone Park, NY (Calvary Assembly of God)     |    20 |  1.3 |      | 100% |
 | **\*57** | Arielle Erickson      | Shreveport, LA (Shreveport Community Church) |    20 |  1.3 |      |  54% |
@@ -126,100 +126,100 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team                                                     | W/L    | Total |   Avg |   QO |   Q% |
-| ---: | -------------------------------------------------------- | ------ | ----: | ----: | ---: | ---: |
-|  1.0 | Houston, TX (The Chosen Ones)                            | 13 / 2 |  3040 | 202.7 |   16 |  79% |
-|  2.0 | Tallahassee, FL (More Than Conquerors)                   | 12 / 3 |  2955 |   197 |   19 |  85% |
-|  3.0 | Bowling Green, OH (Dayspring Assembly of God)            | 12 / 3 |  2625 |   175 |    9 |  78% |
-|  4.0 | Cedar Hill, TX (Thunder \'n Lightning)                   | 12 / 3 |  2495 | 166.3 |   11 |  75% |
-|  5.0 | Metuchen, NJ (Metuchen Assembly of God)                  | 10 / 5 |  2665 | 177.7 |    7 |  78% |
-|  6.0 | Apple Valley, MN (The Pentateuch)                        | 9 / 6  |  2875 | 191.7 |   16 |  86% |
-|  7.0 | Greenwood, IN (Grace Pardon the Interruption)            | 9 / 6  |  2610 |   174 |   12 |  83% |
-|  8.0 | Richmond Hill, NY (Bethlehem Church)                     | 9 / 6  |  2260 | 150.7 |    5 |  74% |
-|  9.0 | Billings, MT (Fourtify)                                  | 8 / 7  |  2600 | 173.3 |   11 |  81% |
-| 10.0 | Brookfield, WI (CSI: Christ\'s Sanctified Investigators) | 7 / 8  |  2030 | 135.3 |    5 |  90% |
-| 11.1 | Rockford, IL (Life Church)                               | 5 / 10 |  2100 |   140 |   12 |  84% |
-| 12.0 | Lees Summit, MO (Crown Pointe Church)                    | 5 / 10 |  1390 |  92.7 |    1 |  60% |
-| 13.0 | Wesley Chapel, FL (Life Church)                          | 4 / 11 |  1625 | 108.3 |    5 |  76% |
-| 14.0 | Fenton, MI (The Freedom Center)                          | 3 / 12 |  1525 | 101.7 |    6 |  84% |
-| 15.0 | Las Vegas, NV (The Champion Center)                      | 2 / 13 |  1380 |    92 |    1 |  73% |
-| 16.0 | Seminole, TX (First Assembly of God)                     | 0 / 15 |   590 |  39.3 |    1 |  80% |
+|    # | Team                                                    | W/L    | Total |   Avg |   QO |   Q% |
+| ---: | ------------------------------------------------------- | ------ | ----: | ----: | ---: | ---: |
+|  1.0 | Houston, TX (The Chosen Ones)                           | 13 / 2 |  3040 | 202.7 |   16 |  79% |
+|  2.0 | Tallahassee, FL (More Than Conquerors)                  | 12 / 3 |  2955 |   197 |   19 |  85% |
+|  3.0 | Bowling Green, OH (Dayspring Assembly of God)           | 12 / 3 |  2625 |   175 |    9 |  78% |
+|  4.0 | Cedar Hill, TX (Thunder 'n Lightning)                   | 12 / 3 |  2495 | 166.3 |   11 |  75% |
+|  5.0 | Metuchen, NJ (Metuchen Assembly of God)                 | 10 / 5 |  2665 | 177.7 |    7 |  78% |
+|  6.0 | Apple Valley, MN (The Pentateuch)                       | 9 / 6  |  2875 | 191.7 |   16 |  86% |
+|  7.0 | Greenwood, IN (Grace Pardon the Interruption)           | 9 / 6  |  2610 |   174 |   12 |  83% |
+|  8.0 | Richmond Hill, NY (Bethlehem Church)                    | 9 / 6  |  2260 | 150.7 |    5 |  74% |
+|  9.0 | Billings, MT (Fourtify)                                 | 8 / 7  |  2600 | 173.3 |   11 |  81% |
+| 10.0 | Brookfield, WI (CSI: Christ's Sanctified Investigators) | 7 / 8  |  2030 | 135.3 |    5 |  90% |
+| 11.1 | Rockford, IL (Life Church)                              | 5 / 10 |  2100 |   140 |   12 |  84% |
+| 12.0 | Lees Summit, MO (Crown Pointe Church)                   | 5 / 10 |  1390 |  92.7 |    1 |  60% |
+| 13.0 | Wesley Chapel, FL (Life Church)                         | 4 / 11 |  1625 | 108.3 |    5 |  76% |
+| 14.0 | Fenton, MI (The Freedom Center)                         | 3 / 12 |  1525 | 101.7 |    6 |  84% |
+| 15.0 | Las Vegas, NV (The Champion Center)                     | 2 / 13 |  1380 |    92 |    1 |  73% |
+| 16.0 | Seminole, TX (First Assembly of God)                    | 0 / 15 |   590 |  39.3 |    1 |  80% |
 
 #### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                 | Team                                                     | Total |   Avg |   QO |   Q% |
-| -------: | ----------------------- | -------------------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Elijah Stewart          | Tallahassee, FL (More Than Conquerors)                   |  1835 | 122.3 |   11 |  83% |
-|        2 | Spencer Morrison        | Apple Valley, MN (The Pentateuch)                        |  1650 |   110 |    8 |  85% |
-|        3 | Brandon Ukonu           | Houston, TX (The Chosen Ones)                            |  1425 |    95 |    6 |  82% |
-|        4 | Kaiden Taylor           | Billings, MT (Fourtify)                                  |  1300 |  86.7 |    6 |  80% |
-|        5 | Larissa Cox             | Greenwood, IN (Grace Pardon the Interruption)            |  1275 |    85 |    4 |  83% |
-|        6 | Josiah Smigielski       | Fenton, MI (The Freedom Center)                          |  1255 |  83.7 |    6 |  81% |
-|        7 | Abilash Balamanoranjith | Metuchen, NJ (Metuchen Assembly of God)                  |  1085 |  72.3 |    2 |  75% |
-|        8 | Nehemiah Barnes         | Bowling Green, OH (Dayspring Assembly of God)            |  1045 |  69.7 |    6 |  71% |
-|        9 | Andrey Dmitriev         | Rockford, IL (Life Church)                               |   955 |  63.7 |    2 |  80% |
-|       10 | Hannah Murray           | Brookfield, WI (CSI: Christ\'s Sanctified Investigators) |   910 |  60.7 |    2 |  97% |
-|       11 | Ijeoma Ilochonwu        | Rockford, IL (Life Church)                               |   870 |    58 |    9 |  85% |
-|       12 | trinity hills           | Wesley Chapel, FL (Life Church)                          |   845 |  56.3 |    1 |  78% |
-|       13 | Jase Cooper             | Billings, MT (Fourtify)                                  |   775 |  51.7 |    3 |  81% |
-|       14 | Andrew Pickrell         | Cedar Hill, TX (Thunder \'n Lightning)                   |   770 |  51.3 |    2 |  73% |
-|       15 | Lauren Pahl             | Apple Valley, MN (The Pentateuch)                        |   765 |    51 |    8 |  85% |
-|       16 | Lucas Brunson           | Greenwood, IN (Grace Pardon the Interruption)            |   765 |    51 |    4 |  78% |
-|       17 | Iyanu Akanbi            | Houston, TX (The Chosen Ones)                            |   765 |    51 |    2 |  77% |
-|       18 | Samantha Anselmo        | Richmond Hill, NY (Bethlehem Church)                     |   765 |    51 |    1 |  77% |
-|       19 | Charlie Zimmerman       | Tallahassee, FL (More Than Conquerors)                   |   760 |  50.7 |    8 |  85% |
-|       20 | Joel Raj                | Metuchen, NJ (Metuchen Assembly of God)                  |   755 |  50.3 |    1 |  77% |
-|       21 | Haddie Brookbank        | Lees Summit, MO (Crown Pointe Church)                    |   745 |  49.7 |    1 |  74% |
-|       22 | Katie Little            | Cedar Hill, TX (Thunder \'n Lightning)                   |   740 |  49.3 |    9 |  75% |
-|       23 | Samuel Desilva          | Richmond Hill, NY (Bethlehem Church)                     |   735 |    49 |    2 |  77% |
-|       24 | Jaden Ukonu             | Houston, TX (The Chosen Ones)                            |   680 |  45.3 |    8 |  76% |
-|       25 | Kendal Davis            | Bowling Green, OH (Dayspring Assembly of God)            |   645 |    43 |    1 |  89% |
-|       26 | William Okyere          | Greenwood, IN (Grace Pardon the Interruption)            |   570 |    38 |    4 |  89% |
-|       27 | Elijah Hicks            | Las Vegas, NV (The Champion Center)                      |   560 |  37.3 |      |  70% |
-|       28 | Elijah Smith            | Bowling Green, OH (Dayspring Assembly of God)            |   550 |  36.7 |      |  84% |
-|       29 | Abraham Johnson         | Metuchen, NJ (Metuchen Assembly of God)                  |   500 |  33.3 |    3 |  73% |
-|       30 | jonah karydis           | Wesley Chapel, FL (Life Church)                          |   480 |    32 |    4 |  81% |
-|       31 | Dominick Forbus         | Las Vegas, NV (The Champion Center)                      |   475 |  31.7 |      |  74% |
-|       32 | Jadon Sheomangal        | Cedar Hill, TX (Thunder \'n Lightning)                   |   445 |  29.7 |      |  64% |
-|       33 | Elijah Lapusan          | Seminole, TX (First Assembly of God)                     |   410 |  27.3 |      |  75% |
-| **\*33** | Gabe Ubert              | Brookfield, WI (CSI: Christ\'s Sanctified Investigators) |   410 |  27.3 |      |  74% |
-|       34 | Hailey Lane             | Billings, MT (Fourtify)                                  |   395 |  26.3 |    2 |  85% |
-|       35 | Corneal Lawrence        | Bowling Green, OH (Dayspring Assembly of God)            |   385 |  25.7 |    2 |  77% |
-|       36 | Aulora Sullivan         | Cedar Hill, TX (Thunder \'n Lightning)                   |   380 |  25.3 |      | 100% |
-|       37 | Jose O\'Brien           | Brookfield, WI (CSI: Christ\'s Sanctified Investigators) |   370 |  24.7 |    2 |  97% |
-| **\*37** | Samuel Chambuchi        | Richmond Hill, NY (Bethlehem Church)                     |   370 |  24.7 |    2 |  69% |
-|       38 | Eli Horn                | Brookfield, WI (CSI: Christ\'s Sanctified Investigators) |   345 |    23 |    1 |  92% |
-|       39 | Reshma Solomon          | Metuchen, NJ (Metuchen Assembly of God)                  |   325 |  21.7 |    1 |  97% |
-|       40 | Emeka Ilochonwu         | Rockford, IL (Life Church)                               |   275 |  18.3 |    1 |  92% |
-|       41 | Gavin Burton            | Fenton, MI (The Freedom Center)                          |   270 |    18 |      |  93% |
-|       42 | George Hoelzel          | Lees Summit, MO (Crown Pointe Church)                    |   260 |  17.3 |      |  60% |
-|       43 | Josiah Morales          | Las Vegas, NV (The Champion Center)                      |   255 |    17 |    1 |  83% |
-|       44 | Savanna Barber          | Lees Summit, MO (Crown Pointe Church)                    |   240 |    16 |      |  60% |
-|       45 | Cienna Field            | Apple Valley, MN (The Pentateuch)                        |   220 |  14.7 |      | 100% |
-| **\*45** | noah ringeisen          | Wesley Chapel, FL (Life Church)                          |   220 |  14.7 |      |  68% |
-|       46 | Kathryn Dissmore        | Tallahassee, FL (More Than Conquerors)                   |   190 |  12.7 |      |  91% |
-|       47 | Kamryn LeBlanc          | Seminole, TX (First Assembly of God)                     |   180 |    12 |    1 |  90% |
-|       48 | Jason Ukonu             | Houston, TX (The Chosen Ones)                            |   170 |  11.3 |      |  90% |
-| **\*48** | JP Dissmore             | Tallahassee, FL (More Than Conquerors)                   |   170 |  11.3 |      |  90% |
-| **\*48** | Cashmere Saez           | Richmond Hill, NY (Bethlehem Church)                     |   170 |  11.3 |      |  72% |
-|       49 | London Lovelace         | Lees Summit, MO (Crown Pointe Church)                    |   160 |  10.7 |      |  49% |
-|       50 | Hannah Hancock          | Richmond Hill, NY (Bethlehem Church)                     |   140 |   9.3 |      | 100% |
-|       51 | Analise Exley           | Apple Valley, MN (The Pentateuch)                        |   135 |     9 |      |  87% |
-|       52 | Joshua Sullivan         | Cedar Hill, TX (Thunder \'n Lightning)                   |   130 |   8.7 |      |  79% |
-| **\*52** | Shayda Morgan           | Billings, MT (Fourtify)                                  |   130 |   8.7 |      |  73% |
-|       53 | Audriana Hirning        | Apple Valley, MN (The Pentateuch)                        |   105 |     7 |      |  80% |
-|       54 | Daniel Hayes            | Las Vegas, NV (The Champion Center)                      |    90 |     6 |      |  62% |
-|       55 | Jon Luc Jobson - Larkin | Richmond Hill, NY (Bethlehem Church)                     |    85 |   5.7 |      |  56% |
-|       56 | wesley kinsey           | Wesley Chapel, FL (Life Church)                          |    80 |   5.3 |      |  73% |
-|       57 | Nicholas Nailor         | Cedar Hill, TX (Thunder \'n Lightning)                   |    30 |     2 |      |  99% |
-|       58 | Macie Pahl              | Apple Valley, MN (The Pentateuch)                        |     0 |       |      |  33% |
-| **\*58** | Julien Jobson - Larkin  | Richmond Hill, NY (Bethlehem Church)                     |     0 |       |      |      |
-| **\*58** | Chase Cory              | Richmond Hill, NY (Bethlehem Church)                     |     0 |       |      |      |
-| **\*58** | Kynzee LeBlanc          | Seminole, TX (First Assembly of God)                     |     0 |       |      |      |
-| **\*58** | Obi Ilochonwu           | Rockford, IL (Life Church)                               |     0 |       |      |      |
-| **\*58** | Aaron Johnson           | Metuchen, NJ (Metuchen Assembly of God)                  |     0 |       |      |      |
+|        # | Quizzer                 | Team                                                    | Total |   Avg |   QO |   Q% |
+| -------: | ----------------------- | ------------------------------------------------------- | ----: | ----: | ---: | ---: |
+|        1 | Elijah Stewart          | Tallahassee, FL (More Than Conquerors)                  |  1835 | 122.3 |   11 |  83% |
+|        2 | Spencer Morrison        | Apple Valley, MN (The Pentateuch)                       |  1650 |   110 |    8 |  85% |
+|        3 | Brandon Ukonu           | Houston, TX (The Chosen Ones)                           |  1425 |    95 |    6 |  82% |
+|        4 | Kaiden Taylor           | Billings, MT (Fourtify)                                 |  1300 |  86.7 |    6 |  80% |
+|        5 | Larissa Cox             | Greenwood, IN (Grace Pardon the Interruption)           |  1275 |    85 |    4 |  83% |
+|        6 | Josiah Smigielski       | Fenton, MI (The Freedom Center)                         |  1255 |  83.7 |    6 |  81% |
+|        7 | Abilash Balamanoranjith | Metuchen, NJ (Metuchen Assembly of God)                 |  1085 |  72.3 |    2 |  75% |
+|        8 | Nehemiah Barnes         | Bowling Green, OH (Dayspring Assembly of God)           |  1045 |  69.7 |    6 |  71% |
+|        9 | Andrey Dmitriev         | Rockford, IL (Life Church)                              |   955 |  63.7 |    2 |  80% |
+|       10 | Hannah Murray           | Brookfield, WI (CSI: Christ's Sanctified Investigators) |   910 |  60.7 |    2 |  97% |
+|       11 | Ijeoma Ilochonwu        | Rockford, IL (Life Church)                              |   870 |    58 |    9 |  85% |
+|       12 | trinity hills           | Wesley Chapel, FL (Life Church)                         |   845 |  56.3 |    1 |  78% |
+|       13 | Jase Cooper             | Billings, MT (Fourtify)                                 |   775 |  51.7 |    3 |  81% |
+|       14 | Andrew Pickrell         | Cedar Hill, TX (Thunder 'n Lightning)                   |   770 |  51.3 |    2 |  73% |
+|       15 | Lauren Pahl             | Apple Valley, MN (The Pentateuch)                       |   765 |    51 |    8 |  85% |
+|       16 | Lucas Brunson           | Greenwood, IN (Grace Pardon the Interruption)           |   765 |    51 |    4 |  78% |
+|       17 | Iyanu Akanbi            | Houston, TX (The Chosen Ones)                           |   765 |    51 |    2 |  77% |
+|       18 | Samantha Anselmo        | Richmond Hill, NY (Bethlehem Church)                    |   765 |    51 |    1 |  77% |
+|       19 | Charlie Zimmerman       | Tallahassee, FL (More Than Conquerors)                  |   760 |  50.7 |    8 |  85% |
+|       20 | Joel Raj                | Metuchen, NJ (Metuchen Assembly of God)                 |   755 |  50.3 |    1 |  77% |
+|       21 | Haddie Brookbank        | Lees Summit, MO (Crown Pointe Church)                   |   745 |  49.7 |    1 |  74% |
+|       22 | Katie Little            | Cedar Hill, TX (Thunder 'n Lightning)                   |   740 |  49.3 |    9 |  75% |
+|       23 | Samuel Desilva          | Richmond Hill, NY (Bethlehem Church)                    |   735 |    49 |    2 |  77% |
+|       24 | Jaden Ukonu             | Houston, TX (The Chosen Ones)                           |   680 |  45.3 |    8 |  76% |
+|       25 | Kendal Davis            | Bowling Green, OH (Dayspring Assembly of God)           |   645 |    43 |    1 |  89% |
+|       26 | William Okyere          | Greenwood, IN (Grace Pardon the Interruption)           |   570 |    38 |    4 |  89% |
+|       27 | Elijah Hicks            | Las Vegas, NV (The Champion Center)                     |   560 |  37.3 |      |  70% |
+|       28 | Elijah Smith            | Bowling Green, OH (Dayspring Assembly of God)           |   550 |  36.7 |      |  84% |
+|       29 | Abraham Johnson         | Metuchen, NJ (Metuchen Assembly of God)                 |   500 |  33.3 |    3 |  73% |
+|       30 | jonah karydis           | Wesley Chapel, FL (Life Church)                         |   480 |    32 |    4 |  81% |
+|       31 | Dominick Forbus         | Las Vegas, NV (The Champion Center)                     |   475 |  31.7 |      |  74% |
+|       32 | Jadon Sheomangal        | Cedar Hill, TX (Thunder 'n Lightning)                   |   445 |  29.7 |      |  64% |
+|       33 | Elijah Lapusan          | Seminole, TX (First Assembly of God)                    |   410 |  27.3 |      |  75% |
+| **\*33** | Gabe Ubert              | Brookfield, WI (CSI: Christ's Sanctified Investigators) |   410 |  27.3 |      |  74% |
+|       34 | Hailey Lane             | Billings, MT (Fourtify)                                 |   395 |  26.3 |    2 |  85% |
+|       35 | Corneal Lawrence        | Bowling Green, OH (Dayspring Assembly of God)           |   385 |  25.7 |    2 |  77% |
+|       36 | Aulora Sullivan         | Cedar Hill, TX (Thunder 'n Lightning)                   |   380 |  25.3 |      | 100% |
+|       37 | Jose O'Brien            | Brookfield, WI (CSI: Christ's Sanctified Investigators) |   370 |  24.7 |    2 |  97% |
+| **\*37** | Samuel Chambuchi        | Richmond Hill, NY (Bethlehem Church)                    |   370 |  24.7 |    2 |  69% |
+|       38 | Eli Horn                | Brookfield, WI (CSI: Christ's Sanctified Investigators) |   345 |    23 |    1 |  92% |
+|       39 | Reshma Solomon          | Metuchen, NJ (Metuchen Assembly of God)                 |   325 |  21.7 |    1 |  97% |
+|       40 | Emeka Ilochonwu         | Rockford, IL (Life Church)                              |   275 |  18.3 |    1 |  92% |
+|       41 | Gavin Burton            | Fenton, MI (The Freedom Center)                         |   270 |    18 |      |  93% |
+|       42 | George Hoelzel          | Lees Summit, MO (Crown Pointe Church)                   |   260 |  17.3 |      |  60% |
+|       43 | Josiah Morales          | Las Vegas, NV (The Champion Center)                     |   255 |    17 |    1 |  83% |
+|       44 | Savanna Barber          | Lees Summit, MO (Crown Pointe Church)                   |   240 |    16 |      |  60% |
+|       45 | Cienna Field            | Apple Valley, MN (The Pentateuch)                       |   220 |  14.7 |      | 100% |
+| **\*45** | noah ringeisen          | Wesley Chapel, FL (Life Church)                         |   220 |  14.7 |      |  68% |
+|       46 | Kathryn Dissmore        | Tallahassee, FL (More Than Conquerors)                  |   190 |  12.7 |      |  91% |
+|       47 | Kamryn LeBlanc          | Seminole, TX (First Assembly of God)                    |   180 |    12 |    1 |  90% |
+|       48 | Jason Ukonu             | Houston, TX (The Chosen Ones)                           |   170 |  11.3 |      |  90% |
+| **\*48** | JP Dissmore             | Tallahassee, FL (More Than Conquerors)                  |   170 |  11.3 |      |  90% |
+| **\*48** | Cashmere Saez           | Richmond Hill, NY (Bethlehem Church)                    |   170 |  11.3 |      |  72% |
+|       49 | London Lovelace         | Lees Summit, MO (Crown Pointe Church)                   |   160 |  10.7 |      |  49% |
+|       50 | Hannah Hancock          | Richmond Hill, NY (Bethlehem Church)                    |   140 |   9.3 |      | 100% |
+|       51 | Analise Exley           | Apple Valley, MN (The Pentateuch)                       |   135 |     9 |      |  87% |
+|       52 | Joshua Sullivan         | Cedar Hill, TX (Thunder 'n Lightning)                   |   130 |   8.7 |      |  79% |
+| **\*52** | Shayda Morgan           | Billings, MT (Fourtify)                                 |   130 |   8.7 |      |  73% |
+|       53 | Audriana Hirning        | Apple Valley, MN (The Pentateuch)                       |   105 |     7 |      |  80% |
+|       54 | Daniel Hayes            | Las Vegas, NV (The Champion Center)                     |    90 |     6 |      |  62% |
+|       55 | Jon Luc Jobson - Larkin | Richmond Hill, NY (Bethlehem Church)                    |    85 |   5.7 |      |  56% |
+|       56 | wesley kinsey           | Wesley Chapel, FL (Life Church)                         |    80 |   5.3 |      |  73% |
+|       57 | Nicholas Nailor         | Cedar Hill, TX (Thunder 'n Lightning)                   |    30 |     2 |      |  99% |
+|       58 | Macie Pahl              | Apple Valley, MN (The Pentateuch)                       |     0 |       |      |  33% |
+| **\*58** | Julien Jobson - Larkin  | Richmond Hill, NY (Bethlehem Church)                    |     0 |       |      |      |
+| **\*58** | Chase Cory              | Richmond Hill, NY (Bethlehem Church)                    |     0 |       |      |      |
+| **\*58** | Kynzee LeBlanc          | Seminole, TX (First Assembly of God)                    |     0 |       |      |      |
+| **\*58** | Obi Ilochonwu           | Rockford, IL (Life Church)                              |     0 |       |      |      |
+| **\*58** | Aaron Johnson           | Metuchen, NJ (Metuchen Assembly of God)                 |     0 |       |      |      |
 
 ### Lavender
 
@@ -230,13 +230,13 @@ menubar_toc_static:
 |    # | Team                                         | W/L    | Total |   Avg |   QO |   Q% |
 | ---: | -------------------------------------------- | ------ | ----: | ----: | ---: | ---: |
 |  1.0 | San Antonio, TX (Spurs)                      | 14 / 1 |  2815 | 187.7 |   11 |  80% |
-|  2.0 | Holt, MI (Michigan\'s Young Bereans)         | 12 / 3 |  2840 | 189.3 |   17 |  79% |
+|  2.0 | Holt, MI (Michigan's Young Bereans)          | 12 / 3 |  2840 | 189.3 |   17 |  79% |
 |  3.1 | Mustang, OK (United for Christ)              | 11 / 4 |  2820 |   188 |   11 |  83% |
 |  4.0 | Metuchen, NJ (Armor of God)                  | 11 / 4 |  2825 | 188.3 |   11 |  80% |
 |  5.1 | Bothell, WA (MENT to Declare His Glory)      | 10 / 5 |  2525 | 168.3 |    8 |  86% |
 |  6.0 | Gahanna, OH (Fluffy Panda Quizzers)          | 10 / 5 |  2505 |   167 |   13 |  81% |
 |  7.0 | Marietta, GA (Anointed Ones)                 | 8 / 7  |  2255 | 150.3 |   16 |  81% |
-|  8.0 | Lexington, TN (Crosspoint Super Q\'s)        | 7 / 8  |  1685 | 112.3 |    5 |  69% |
+|  8.0 | Lexington, TN (Crosspoint Super Q's)         | 7 / 8  |  1685 | 112.3 |    5 |  69% |
 |  9.0 | Lakeville, MN (Celebration Church)           | 6 / 9  |  2145 |   143 |    8 |  76% |
 | 10.0 | Chandler, AZ (God Squad)                     | 6 / 9  |  2095 | 139.7 |    5 |  74% |
 | 11.0 | Concord, NC (The Defenders)                  | 6 / 9  |  2015 | 134.3 |    8 |  71% |
@@ -253,7 +253,7 @@ menubar_toc_static:
 |        # | Quizzer              | Team                                         | Total |   Avg |   QO |   Q% |
 | -------: | -------------------- | -------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Christian Alapati    | Mustang, OK (United for Christ)              |  1645 | 109.7 |    7 |  85% |
-|        2 | David Egbendewe      | Holt, MI (Michigan\'s Young Bereans)         |  1610 | 107.3 |    9 |  85% |
+|        2 | David Egbendewe      | Holt, MI (Michigan's Young Bereans)          |  1610 | 107.3 |    9 |  85% |
 |        3 | Elijah Chadwick      | Bothell, WA (MENT to Declare His Glory)      |  1520 | 101.3 |    3 |  84% |
 |        4 | Steve Joy            | Marietta, GA (Anointed Ones)                 |  1515 |   101 |   11 |  81% |
 |        5 | Mabry Haley          | San Antonio, TX (Spurs)                      |  1445 |  96.3 |    3 |  86% |
@@ -261,7 +261,7 @@ menubar_toc_static:
 |        7 | Andrea Mason         | Bristow, VA (Chapel Springs Assembly of God) |  1205 |  80.3 |    6 |  78% |
 |        8 | Jacey Pathri         | Gahanna, OH (Fluffy Panda Quizzers)          |  1200 |    80 |    7 |  85% |
 |        9 | Kailyn Heath         | Lakeville, MN (Celebration Church)           |  1180 |  78.7 |    3 |  82% |
-|       10 | Luke Hillegass       | Lexington, TN (Crosspoint Super Q\'s)        |  1150 |  76.7 |    2 |  75% |
+|       10 | Luke Hillegass       | Lexington, TN (Crosspoint Super Q's)         |  1150 |  76.7 |    2 |  75% |
 |       11 | Jonathan An          | San Diego, CA (Living Water Bible Church)    |  1125 |    75 |    5 |  76% |
 |       12 | Caleb Karthik        | Gahanna, OH (Fluffy Panda Quizzers)          |  1040 |  69.3 |    6 |  76% |
 |       13 | Brady Hansen         | Somerset, KY (Quiz Ninjas)                   |   890 |  59.3 |    5 |  79% |
@@ -277,24 +277,24 @@ menubar_toc_static:
 |       23 | Cian Van Offeren     | Racine, WI (Anointed Avengers for Jesus)     |   685 |  45.7 |      |  67% |
 |       24 | Caris Thomas         | San Antonio, TX (Spurs)                      |   645 |    43 |    7 |  83% |
 |       25 | Aceline Owusu        | Bristow, VA (Chapel Springs Assembly of God) |   645 |    43 |    5 |  86% |
-|       26 | Kaden Buher          | Holt, MI (Michigan\'s Young Bereans)         |   615 |    41 |    8 |  73% |
+|       26 | Kaden Buher          | Holt, MI (Michigan's Young Bereans)          |   615 |    41 |    8 |  73% |
 |       27 | Victoria Okoh        | Fort Lauderdale, FL (CLC Messengers of Hope) |   515 |  34.3 |    4 |  89% |
 |       28 | Maria Yevtushenko    | Bothell, WA (MENT to Declare His Glory)      |   515 |  34.3 |    1 |  85% |
 |       29 | Talia Jarrell        | Bothell, WA (MENT to Declare His Glory)      |   490 |  32.7 |    4 |  89% |
 |       30 | Tristan Heath        | Lakeville, MN (Celebration Church)           |   490 |  32.7 |    1 |  67% |
 |       31 | Hayden Garrett       | Lakeville, MN (Celebration Church)           |   480 |    32 |    4 |  81% |
 |       32 | Liana Thomas         | San Antonio, TX (Spurs)                      |   460 |  30.7 |      |  69% |
-|       33 | Thomas Hillegass     | Lexington, TN (Crosspoint Super Q\'s)        |   445 |  29.7 |    3 |  64% |
+|       33 | Thomas Hillegass     | Lexington, TN (Crosspoint Super Q's)         |   445 |  29.7 |    3 |  64% |
 |       34 | Andrew Kumar         | Metuchen, NJ (Armor of God)                  |   425 |  28.3 |      |  81% |
 | **\*34** | Seth Hudson          | Concord, NC (The Defenders)                  |   425 |  28.3 |      |  64% |
 |       35 | Garrett McElroy      | Mustang, OK (United for Christ)              |   405 |    27 |    1 |  72% |
 |       36 | Abel Jacob           | Chandler, AZ (God Squad)                     |   400 |  26.7 |      |  66% |
 |       37 | Hannah Liu           | San Diego, CA (Living Water Bible Church)    |   335 |  22.3 |    1 |  80% |
-|       38 | Angel Egbendewe      | Holt, MI (Michigan\'s Young Bereans)         |   335 |  22.3 |      |  77% |
+|       38 | Angel Egbendewe      | Holt, MI (Michigan's Young Bereans)          |   335 |  22.3 |      |  77% |
 |       39 | Noah Albarren        | Racine, WI (Anointed Avengers for Jesus)     |   290 |  19.3 |    1 |  74% |
 |       40 | Janet An             | San Diego, CA (Living Water Bible Church)    |   290 |  19.3 |      |  86% |
 |       41 | Dorothy Sam          | Gahanna, OH (Fluffy Panda Quizzers)          |   265 |  17.7 |      |  88% |
-|       42 | Torri Buher          | Holt, MI (Michigan\'s Young Bereans)         |   240 |    16 |      |  82% |
+|       42 | Torri Buher          | Holt, MI (Michigan's Young Bereans)          |   240 |    16 |      |  82% |
 |       43 | Shreya Ganesan       | Chandler, AZ (God Squad)                     |   230 |  15.3 |      |  86% |
 |       44 | Gavin Lewis          | Somerset, KY (Quiz Ninjas)                   |   220 |  14.7 |      |  87% |
 |       45 | Meredith Haley       | San Antonio, TX (Spurs)                      |   205 |  13.7 |    1 |  81% |
@@ -304,15 +304,15 @@ menubar_toc_static:
 |       48 | Megan Pierce         | Concord, NC (The Defenders)                  |   140 |   9.3 |    1 |  63% |
 |       49 | Zoe Nerquaye-Tetteh  | Bristow, VA (Chapel Springs Assembly of God) |   140 |   9.3 |      |  79% |
 |       50 | Ephraim Kurian       | Chandler, AZ (God Squad)                     |    85 |   5.7 |      |  77% |
-| **\*50** | Tyler Hutcherson     | Lexington, TN (Crosspoint Super Q\'s)        |    85 |   5.7 |      |  58% |
+| **\*50** | Tyler Hutcherson     | Lexington, TN (Crosspoint Super Q's)         |    85 |   5.7 |      |  58% |
 |       51 | McKinley Lewis       | Somerset, KY (Quiz Ninjas)                   |    70 |   4.7 |      | 100% |
 |       52 | Trinidy Calvary      | Racine, WI (Anointed Avengers for Jesus)     |    60 |     4 |      | 100% |
 | **\*52** | Cheyanne Barrios     | Racine, WI (Anointed Avengers for Jesus)     |    60 |     4 |      | 100% |
 |       53 | Angel Charles        | Chandler, AZ (God Squad)                     |    50 |   3.3 |      | 100% |
 | **\*53** | Daniel Liu           | San Diego, CA (Living Water Bible Church)    |    50 |   3.3 |      |  86% |
 | **\*53** | Janessa Walker       | San Antonio, TX (Spurs)                      |    50 |   3.3 |      |  75% |
-|       54 | Debora Egbendewe     | Holt, MI (Michigan\'s Young Bereans)         |    40 |   2.7 |      | 100% |
-|       55 | Alaina Johnson       | Lexington, TN (Crosspoint Super Q\'s)        |    15 |     1 |      | 100% |
+|       54 | Debora Egbendewe     | Holt, MI (Michigan's Young Bereans)          |    40 |   2.7 |      | 100% |
+|       55 | Alaina Johnson       | Lexington, TN (Crosspoint Super Q's)         |    15 |     1 |      | 100% |
 | **\*55** | Elizabeth Walker     | San Antonio, TX (Spurs)                      |    15 |     1 |      |  50% |
 |       56 | Bruiyensen Gracelien | Fort Lauderdale, FL (CLC Messengers of Hope) |     0 |       |      |      |
 | **\*56** | Widly Eltine         | Fort Lauderdale, FL (CLC Messengers of Hope) |     0 |       |      |      |
@@ -549,8 +549,8 @@ menubar_toc_static:
 |  3.1 | Tallahassee, FL (More Than Conquerors)          | 6 / 3 |  1430 | 158.9 |    8 |  80% |
 |  4.0 | Monmouth Junction, NJ (Knights 4 Christ -Faith) | 6 / 3 |  1630 | 181.1 |    7 |  86% |
 |  5.0 | Humble, TX (Conquerors Through Christ)          | 4 / 5 |  1305 |   145 |    6 |  80% |
-|  6.0 | Houston, TX (Gideon\'s Army)                    | 4 / 5 |  1300 | 144.4 |    6 |  73% |
-|  7.0 | Holt, MI (Michigan\'s Young Bereans)            | 4 / 5 |  1215 |   135 |    6 |  74% |
+|  6.0 | Houston, TX (Gideon's Army)                     | 4 / 5 |  1300 | 144.4 |    6 |  73% |
+|  7.0 | Holt, MI (Michigan's Young Bereans)             | 4 / 5 |  1215 |   135 |    6 |  74% |
 |  8.0 | San Antonio, TX (Spurs)                         | 3 / 6 |  1185 | 131.7 |    4 |  75% |
 |  9.0 | Wayne, NJ (CTI-JOY)                             | 2 / 7 |   940 | 104.4 |    3 |  75% |
 | 10.0 | Carrollton, TX (Chain Breakers)                 | 1 / 8 |  1030 | 114.4 |    2 |  75% |
@@ -568,41 +568,41 @@ menubar_toc_static:
 |        5 | Jonathan Shtyrkalo   | Humble, TX (Conquerors Through Christ)          |   675 |    75 |    4 |  80% |
 |        6 | Mabry Haley          | San Antonio, TX (Spurs)                         |   655 |  72.8 |    2 |  75% |
 |        7 | Naomi Shtyrkalo      | Humble, TX (Conquerors Through Christ)          |   630 |    70 |    2 |  81% |
-|        8 | David Egbendewe      | Holt, MI (Michigan\'s Young Bereans)            |   620 |  68.9 |    2 |  72% |
+|        8 | David Egbendewe      | Holt, MI (Michigan's Young Bereans)             |   620 |  68.9 |    2 |  72% |
 |        9 | Samuel Jebaraj       | Monmouth Junction, NJ (Knights 4 Christ -Faith) |   535 |  59.4 |      |  87% |
 |       10 | Sarah Klongpayabal   | Carrollton, TX (Chain Breakers)                 |   505 |  56.1 |    2 |  87% |
-|       11 | Priscilla Adu-Gyamfi | Houston, TX (Gideon\'s Army)                    |   445 |  49.4 |    4 |  67% |
+|       11 | Priscilla Adu-Gyamfi | Houston, TX (Gideon's Army)                     |   445 |  49.4 |    4 |  67% |
 |       12 | Iyanu Akanbi         | Houston, TX (The Chosen Ones)                   |   415 |  46.1 |      |  74% |
 |       13 | Elliot Rivera        | Wayne, NJ (CTI-JOY)                             |   410 |  45.6 |    3 |  84% |
-|       14 | Kaden Buher          | Holt, MI (Michigan\'s Young Bereans)            |   400 |  44.4 |    4 |  75% |
+|       14 | Kaden Buher          | Holt, MI (Michigan's Young Bereans)             |   400 |  44.4 |    4 |  75% |
 |       15 | Aiden Albert         | Monmouth Junction, NJ (Knights 4 Christ -Faith) |   395 |  43.9 |    4 |  85% |
 |       16 | Charlie Zimmerman    | Tallahassee, FL (More Than Conquerors)          |   390 |  43.3 |    3 |  85% |
 |       17 | Emily Beckham        | Carrollton, TX (Chain Breakers)                 |   340 |  37.8 |      |  72% |
-|       18 | Garen Umukoro        | Houston, TX (Gideon\'s Army)                    |   325 |  36.1 |    1 |  73% |
+|       18 | Garen Umukoro        | Houston, TX (Gideon's Army)                     |   325 |  36.1 |    1 |  73% |
 |       19 | Caris Thomas         | San Antonio, TX (Spurs)                         |   320 |  35.6 |    2 |  83% |
 |       20 | John Hetrick         | Omaha, NE (Good News Church)                    |   295 |  32.8 |      |  81% |
 |       21 | Kelechi Oriaku       | Wayne, NJ (CTI-JOY)                             |   280 |  31.1 |      |  65% |
 |       22 | Jaden Ukonu          | Houston, TX (The Chosen Ones)                   |   275 |  30.6 |    4 |  72% |
-|       23 | Aretha CC-Okeke      | Houston, TX (Gideon\'s Army)                    |   260 |  28.9 |      |  75% |
+|       23 | Aretha CC-Okeke      | Houston, TX (Gideon's Army)                     |   260 |  28.9 |      |  75% |
 |       24 | Jason Alicea         | Wayne, NJ (CTI-JOY)                             |   250 |  27.8 |      |  67% |
 |       25 | Joe Hetrick          | Omaha, NE (Good News Church)                    |   190 |  21.1 |      |  95% |
 |       26 | David Mathews        | Carrollton, TX (Chain Breakers)                 |   165 |  18.3 |      |  64% |
-|       27 | Chidinma Kanu        | Houston, TX (Gideon\'s Army)                    |   145 |  16.1 |      |  90% |
-|       28 | Kesiena Umukoro      | Houston, TX (Gideon\'s Army)                    |   125 |  13.9 |    1 |  79% |
-|       29 | Angel Egbendewe      | Holt, MI (Michigan\'s Young Bereans)            |   120 |  13.3 |      |  86% |
+|       27 | Chidinma Kanu        | Houston, TX (Gideon's Army)                     |   145 |  16.1 |      |  90% |
+|       28 | Kesiena Umukoro      | Houston, TX (Gideon's Army)                     |   125 |  13.9 |    1 |  79% |
+|       29 | Angel Egbendewe      | Holt, MI (Michigan's Young Bereans)             |   120 |  13.3 |      |  86% |
 |       30 | Liana Thomas         | San Antonio, TX (Spurs)                         |   100 |  11.1 |      |  64% |
 |       31 | Meredith Haley       | San Antonio, TX (Spurs)                         |    90 |    10 |      |  65% |
 |       32 | Kathryn Dissmore     | Tallahassee, FL (More Than Conquerors)          |    70 |   7.8 |      |  71% |
-|       33 | Debora Egbendewe     | Holt, MI (Michigan\'s Young Bereans)            |    40 |   4.4 |      | 100% |
+|       33 | Debora Egbendewe     | Holt, MI (Michigan's Young Bereans)             |    40 |   4.4 |      | 100% |
 | **\*33** | Ariana Aristy        | Omaha, NE (Good News Church)                    |    40 |   4.4 |      | 100% |
-|       34 | Torri Buher          | Holt, MI (Michigan\'s Young Bereans)            |    35 |   3.9 |      |  62% |
+|       34 | Torri Buher          | Holt, MI (Michigan's Young Bereans)             |    35 |   3.9 |      |  62% |
 |       35 | JP Dissmore          | Tallahassee, FL (More Than Conquerors)          |    25 |   2.8 |      |  75% |
 |       36 | Nathan Beckham       | Carrollton, TX (Chain Breakers)                 |    20 |   2.2 |      | 100% |
 | **\*36** | Jason Ukonu          | Houston, TX (The Chosen Ones)                   |    20 |   2.2 |      | 100% |
 |       37 | Janessa Walker       | San Antonio, TX (Spurs)                         |    10 |   1.1 |      |  99% |
 | **\*37** | Elizabeth Walker     | San Antonio, TX (Spurs)                         |    10 |   1.1 |      |  99% |
 |       38 | Chisom Joy Oriaku    | Wayne, NJ (CTI-JOY)                             |     0 |       |      |      |
-| **\*38** | Jovanny Adu-Gyamfi   | Houston, TX (Gideon\'s Army)                    |     0 |       |      |      |
+| **\*38** | Jovanny Adu-Gyamfi   | Houston, TX (Gideon's Army)                     |     0 |       |      |      |
 
 
 ### Green (S)
@@ -617,7 +617,7 @@ menubar_toc_static:
 |  2.1 | Shelby Township, MI (Heavenly Hotpockets)     | 6 / 3 |  1465 | 162.8 |    2 |  78% |
 |  3.0 | Naperville, IL (Naperville (M))               | 6 / 3 |  1520 | 168.9 |    9 |  79% |
 |  4.0 | Garland, TX (Guardians of the Gospel)         | 5 / 4 |  1175 | 130.5 |    6 |  66% |
-|  5.0 | Cedar Hill, TX (Thunder \'n Lightning)        | 4 / 5 |  1240 | 137.8 |    5 |  68% |
+|  5.0 | Cedar Hill, TX (Thunder 'n Lightning)         | 4 / 5 |  1240 | 137.8 |    5 |  68% |
 |  6.0 | Metuchen, NJ (Armor of God)                   | 4 / 5 |  1130 | 125.5 |    4 |  67% |
 |  7.0 | Wilmington, NC (New Hanover Church)           | 4 / 5 |  1040 | 115.5 |    1 |  73% |
 |  8.0 | Charlotte, NC (CICF Champions)                | 3 / 6 |  1155 | 128.3 |      |  77% |
@@ -640,34 +640,34 @@ menubar_toc_static:
 |        8 | Rebecca Ebenezer Joel | Charlotte, NC (CICF Champions)                |   425 |  47.2 |      |  87% |
 |        9 | Josita Agnes Paulraj  | Charlotte, NC (CICF Champions)                |   375 |  41.7 |      |  76% |
 |       10 | Pierce Stevens        | Naperville, IL (Naperville (D))               |   370 |  41.1 |    3 |  76% |
-|       11 | Katie Little          | Cedar Hill, TX (Thunder \'n Lightning)        |   350 |  38.9 |    4 |  68% |
+|       11 | Katie Little          | Cedar Hill, TX (Thunder 'n Lightning)         |   350 |  38.9 |    4 |  68% |
 |       12 | Irenov Joel           | Metuchen, NJ (Armor of God)                   |   350 |  38.9 |    1 |  74% |
 |       13 | Reese Pugh            | Garland, TX (Guardians of the Gospel)         |   345 |  38.3 |    3 |  70% |
 |       14 | Judith Ramesh         | Garland, TX (Guardians of the Gospel)         |   330 |  36.7 |      |  68% |
 |       15 | Elijah Smith          | Bowling Green, OH (Dayspring Assembly of God) |   310 |  34.4 |      |  68% |
 |       16 | Bryan James           | Metuchen, NJ (Armor of God)                   |   285 |  31.7 |    3 |  67% |
 |       17 | Carson Fincher        | Mustang, OK (United for Christ)               |   285 |  31.7 |    1 |  95% |
-|       18 | Andrew Pickrell       | Cedar Hill, TX (Thunder \'n Lightning)        |   280 |  31.1 |      |  62% |
+|       18 | Andrew Pickrell       | Cedar Hill, TX (Thunder 'n Lightning)         |   280 |  31.1 |      |  62% |
 |       19 | Jayden Suresh         | Naperville, IL (Naperville (M))               |   275 |  30.6 |    2 |  85% |
 |       20 | Michael Rice          | Shelby Township, MI (Heavenly Hotpockets)     |   270 |    30 |    1 |  73% |
 |       21 | Samuel Joshua         | Metuchen, NJ (Armor of God)                   |   270 |    30 |      |  61% |
-|       22 | Jadon Sheomangal      | Cedar Hill, TX (Thunder \'n Lightning)        |   240 |  26.7 |      |  65% |
+|       22 | Jadon Sheomangal      | Cedar Hill, TX (Thunder 'n Lightning)         |   240 |  26.7 |      |  65% |
 |       23 | Nehemiah Barnes       | Bowling Green, OH (Dayspring Assembly of God) |   235 |  26.1 |    1 |  51% |
 |       24 | Garrett McElroy       | Mustang, OK (United for Christ)               |   225 |    25 |    1 |  68% |
 |       25 | Andrew Kumar          | Metuchen, NJ (Armor of God)                   |   225 |    25 |      |  71% |
 |       26 | Corneal Lawrence      | Bowling Green, OH (Dayspring Assembly of God) |   200 |  22.2 |    1 |  67% |
 |       27 | Kendal Davis          | Bowling Green, OH (Dayspring Assembly of God) |   195 |  21.7 |      |  71% |
-|       28 | Aulora Sullivan       | Cedar Hill, TX (Thunder \'n Lightning)        |   190 |  21.1 |      |  71% |
+|       28 | Aulora Sullivan       | Cedar Hill, TX (Thunder 'n Lightning)         |   190 |  21.1 |      |  71% |
 |       29 | Daniel Boehling       | Wilmington, NC (New Hanover Church)           |   175 |  19.4 |      |  62% |
 |       30 | Jotham Edwin          | Charlotte, NC (CICF Champions)                |   140 |  15.6 |      |  68% |
-|       31 | Joshua Sullivan       | Cedar Hill, TX (Thunder \'n Lightning)        |   135 |    15 |    1 |  79% |
+|       31 | Joshua Sullivan       | Cedar Hill, TX (Thunder 'n Lightning)         |   135 |    15 |    1 |  79% |
 |       32 | Enoch Edwin           | Charlotte, NC (CICF Champions)                |   135 |    15 |      |  76% |
 |       33 | Josh Hung             | Naperville, IL (Naperville (M))               |    95 |  10.6 |      |  71% |
 |       34 | James Barney          | Shelby Township, MI (Heavenly Hotpockets)     |    90 |    10 |      |  82% |
 |       35 | Shalom Ebenezer       | Charlotte, NC (CICF Champions)                |    80 |   8.9 |      |  77% |
 |       36 | Jack Willson          | Wilmington, NC (New Hanover Church)           |    75 |   8.3 |      |  50% |
 |       37 | Luke Santee           | Wilmington, NC (New Hanover Church)           |    60 |   6.7 |      | 100% |
-|       38 | Nicholas Nailor       | Cedar Hill, TX (Thunder \'n Lightning)        |    45 |     5 |      |  66% |
+|       38 | Nicholas Nailor       | Cedar Hill, TX (Thunder 'n Lightning)         |    45 |     5 |      |  66% |
 |       39 | Ella Willson          | Wilmington, NC (New Hanover Church)           |    40 |   4.4 |      | 100% |
 |       40 | Joel Ertzberger       | Wilmington, NC (New Hanover Church)           |    35 |   3.9 |      |  80% |
 |       41 | John Hung             | Naperville, IL (Naperville (M))               |    25 |   2.8 |      |  44% |
@@ -768,7 +768,7 @@ menubar_toc_static:
 |  5.0 | Leesburg, VA (SPY Dudes)                      | 4 / 5 |  1325 | 147.2 |    4 |  74% |
 |  6.0 | Great Bend, KS (Quizzards of Oz)              | 4 / 5 |  1225 | 136.1 |      |  69% |
 |  7.0 | Chandler, AZ (Overcomers)                     | 4 / 5 |  1185 | 131.7 |    1 |  78% |
-|  8.0 | Lexington, TN (Crosspoint Super Q\'s)         | 4 / 5 |   935 | 103.9 |    6 |  69% |
+|  8.0 | Lexington, TN (Crosspoint Super Q's)          | 4 / 5 |   935 | 103.9 |    6 |  69% |
 |  9.0 | Marietta, GA (Anointed Ones)                  | 3 / 6 |  1225 | 136.1 |    7 |  81% |
 | 10.0 | Dublin, OH (RLC Diamonds)                     | 2 / 7 |  1110 | 123.3 |    3 |  82% |
 
@@ -785,7 +785,7 @@ menubar_toc_static:
 |        5 | James Bozzay            | Leesburg, VA (SPY Dudes)                      |   705 |  78.3 |    1 |  85% |
 |        6 | Keren Koshy             | Chandler, AZ (Overcomers)                     |   640 |  71.1 |      |  85% |
 |        7 | Samuel Desilva          | Richmond Hill, NY (Bethlehem Church)          |   625 |  69.4 |    4 |  75% |
-|        8 | Luke Hillegass          | Lexington, TN (Crosspoint Super Q\'s)         |   590 |  65.6 |    4 |  69% |
+|        8 | Luke Hillegass          | Lexington, TN (Crosspoint Super Q's)          |   590 |  65.6 |    4 |  69% |
 |        9 | Morgan MacKinney        | Great Bend, KS (Quizzards of Oz)              |   575 |  63.9 |      |  73% |
 |       10 | Lindsey Perry           | Askewville, NC (Bethel Assembly of God)       |   550 |  61.1 |    2 |  72% |
 |       11 | Joshua Gunasingh        | Marietta, GA (Anointed Ones)                  |   405 |    45 |    1 |  87% |
@@ -798,7 +798,7 @@ menubar_toc_static:
 |       18 | Jaden Jablonski         | Leesburg, VA (SPY Dudes)                      |   300 |  33.3 |    3 |  69% |
 |       19 | Jon Luc Jobson - Larkin | Richmond Hill, NY (Bethlehem Church)          |   300 |  33.3 |    2 |  74% |
 |       20 | Alissa Daniel           | Chandler, AZ (Overcomers)                     |   245 |  27.2 |    1 |  79% |
-|       21 | Thomas Hillegass        | Lexington, TN (Crosspoint Super Q\'s)         |   235 |  26.1 |    2 |  68% |
+|       21 | Thomas Hillegass        | Lexington, TN (Crosspoint Super Q's)          |   235 |  26.1 |    2 |  68% |
 |       22 | Aseda Essandoh          | Dublin, OH (RLC Diamonds)                     |   225 |    25 |    1 |  59% |
 |       23 | Isaac Helgerson         | Sparta, WI (Sparta Salt & Light)              |   225 |    25 |      |  80% |
 |       24 | Oye Essandoh            | Dublin, OH (RLC Diamonds)                     |   200 |  22.2 |      |  91% |
@@ -811,13 +811,13 @@ menubar_toc_static:
 |       31 | Taylor Jablonski        | Leesburg, VA (SPY Dudes)                      |   135 |    15 |      |  65% |
 |       32 | Olivia Bazemore         | Askewville, NC (Bethel Assembly of God)       |   105 |  11.7 |      |  92% |
 | **\*32** | Mady Hammeke            | Great Bend, KS (Quizzards of Oz)              |   105 |  11.7 |      |  72% |
-|       33 | Tyler Hutcherson        | Lexington, TN (Crosspoint Super Q\'s)         |   100 |  11.1 |      |  69% |
+|       33 | Tyler Hutcherson        | Lexington, TN (Crosspoint Super Q's)          |   100 |  11.1 |      |  69% |
 |       34 | Cashmere Saez           | Richmond Hill, NY (Bethlehem Church)          |    65 |   7.2 |      |  73% |
 |       35 | Hannah Hancock          | Richmond Hill, NY (Bethlehem Church)          |    40 |   4.4 |      |  75% |
 |       36 | Ava Millard             | Sparta, WI (Sparta Salt & Light)              |    35 |   3.9 |      |  80% |
 |       37 | Samuel Chambuchi        | Richmond Hill, NY (Bethlehem Church)          |    20 |   2.2 |      |  50% |
 |       38 | Julien Jobson - Larkin  | Richmond Hill, NY (Bethlehem Church)          |    10 |   1.1 |      |  99% |
-| **\*38** | Alaina Johnson          | Lexington, TN (Crosspoint Super Q\'s)         |    10 |   1.1 |      |  99% |
+| **\*38** | Alaina Johnson          | Lexington, TN (Crosspoint Super Q's)          |    10 |   1.1 |      |  99% |
 | **\*38** | Carson Sandberg         | Leesburg, VA (SPY Dudes)                      |    10 |   1.1 |      |  99% |
 | **\*38** | Lilly Burton            | Great Bend, KS (Quizzards of Oz)              |    10 |   1.1 |      |  50% |
 |       39 | Chase Cory              | Richmond Hill, NY (Bethlehem Church)          |     0 |       |      |      |
@@ -837,69 +837,69 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team                                                     | W/L   | Total |   Avg |   QO |   Q% |
-| ---: | -------------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
-|  1.0 | Ozone Park, NY (Calvary Assembly of God)                 | 7 / 2 |  1540 | 171.1 |    2 |  78% |
-|  2.1 | Hibbing, MN (Abundant Life Church)                       | 6 / 3 |  1195 | 132.8 |    2 |  85% |
-|  3.0 | Beulah, ND (New Creatures)                               | 6 / 3 |  1470 | 163.3 |    5 |  90% |
-|  4.1 | Brookfield, WI (CSI: Christ\'s Sanctified Investigators) | 5 / 4 |  1315 | 146.1 |    4 |  85% |
-|  5.0 | Chandler, AZ (God Squad)                                 | 5 / 4 |  1375 | 152.8 |    4 |  76% |
-|  6.1 | Lakeville, MN (Celebration Church)                       | 4 / 5 |  1355 | 150.5 |    4 |  73% |
-|  7.0 | Burlington, MA (Mount Hope Christian Center)             | 4 / 5 |  1440 |   160 |    1 |  80% |
-|  8.1 | Georgetown, KY (Truth Seekers)                           | 3 / 6 |   805 |  89.4 |    4 |  64% |
-|  9.0 | Cambridge, MA (Pentecostal Tabernacle)                   | 3 / 6 |  1260 |   140 |    1 |  71% |
-| 10.0 | Billings, MT (Fourtify)                                  | 2 / 7 |  1160 | 128.9 |    4 |  72% |
+|    # | Team                                                    | W/L   | Total |   Avg |   QO |   Q% |
+| ---: | ------------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
+|  1.0 | Ozone Park, NY (Calvary Assembly of God)                | 7 / 2 |  1540 | 171.1 |    2 |  78% |
+|  2.1 | Hibbing, MN (Abundant Life Church)                      | 6 / 3 |  1195 | 132.8 |    2 |  85% |
+|  3.0 | Beulah, ND (New Creatures)                              | 6 / 3 |  1470 | 163.3 |    5 |  90% |
+|  4.1 | Brookfield, WI (CSI: Christ's Sanctified Investigators) | 5 / 4 |  1315 | 146.1 |    4 |  85% |
+|  5.0 | Chandler, AZ (God Squad)                                | 5 / 4 |  1375 | 152.8 |    4 |  76% |
+|  6.1 | Lakeville, MN (Celebration Church)                      | 4 / 5 |  1355 | 150.5 |    4 |  73% |
+|  7.0 | Burlington, MA (Mount Hope Christian Center)            | 4 / 5 |  1440 |   160 |    1 |  80% |
+|  8.1 | Georgetown, KY (Truth Seekers)                          | 3 / 6 |   805 |  89.4 |    4 |  64% |
+|  9.0 | Cambridge, MA (Pentecostal Tabernacle)                  | 3 / 6 |  1260 |   140 |    1 |  71% |
+| 10.0 | Billings, MT (Fourtify)                                 | 2 / 7 |  1160 | 128.9 |    4 |  72% |
 
 #### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                | Team                                                     | Total |  Avg |   QO |   Q% |
-| -------: | ---------------------- | -------------------------------------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Kailyn Heath           | Lakeville, MN (Celebration Church)                       |   760 | 84.4 |    2 |  79% |
-|  **\*1** | Joshua Simon           | Chandler, AZ (God Squad)                                 |   760 | 84.4 |    2 |  75% |
-|        2 | Michelle Muddasu       | Burlington, MA (Mount Hope Christian Center)             |   740 | 82.2 |    1 |  90% |
-|        3 | Hannah Farnsworth      | Hibbing, MN (Abundant Life Church)                       |   670 | 74.4 |    1 |  85% |
-|        4 | Colson Sago            | Beulah, ND (New Creatures)                               |   665 | 73.9 |    2 |  93% |
-|        5 | Brianna Bobbie         | Ozone Park, NY (Calvary Assembly of God)                 |   615 | 68.3 |    1 |  81% |
-|        6 | Kaiden Taylor          | Billings, MT (Fourtify)                                  |   610 | 67.8 |    2 |  64% |
-|        7 | Kristyn Bauer          | Beulah, ND (New Creatures)                               |   560 | 62.2 |    1 |  88% |
-|        8 | Ariella Grimmond       | Ozone Park, NY (Calvary Assembly of God)                 |   550 | 61.1 |      |  85% |
-|        9 | Daima Mashibe          | Georgetown, KY (Truth Seekers)                           |   520 | 57.8 |    3 |  66% |
-|       10 | Anju Rajakumar         | Burlington, MA (Mount Hope Christian Center)             |   460 | 51.1 |      |  90% |
-|       11 | Kaleb Noel             | Cambridge, MA (Pentecostal Tabernacle)                   |   440 | 48.9 |      |  89% |
-|       12 | Jose O\'Brien          | Brookfield, WI (CSI: Christ\'s Sanctified Investigators) |   430 | 47.8 |    3 |  90% |
-|       13 | Hannah Murray          | Brookfield, WI (CSI: Christ\'s Sanctified Investigators) |   400 | 44.4 |      |  94% |
-|       14 | Tristan Heath          | Lakeville, MN (Celebration Church)                       |   345 | 38.3 |    2 |  68% |
-|       15 | Jase Cooper            | Billings, MT (Fourtify)                                  |   330 | 36.7 |    1 |  76% |
-|       16 | Isaac Farnsworth       | Hibbing, MN (Abundant Life Church)                       |   315 |   35 |    1 |  78% |
-|       17 | Chiamara Beulah Odunze | Cambridge, MA (Pentecostal Tabernacle)                   |   305 | 33.9 |      |  67% |
-|       18 | Abel Jacob             | Chandler, AZ (God Squad)                                 |   295 | 32.8 |    2 |  74% |
-|       19 | Enzi Mashibe           | Georgetown, KY (Truth Seekers)                           |   285 | 31.7 |    1 |  62% |
-|       20 | Gabe Ubert             | Brookfield, WI (CSI: Christ\'s Sanctified Investigators) |   280 | 31.1 |      |  74% |
-|       21 | Gideon Legall          | Cambridge, MA (Pentecostal Tabernacle)                   |   275 | 30.6 |    1 |  67% |
-|       22 | Shreya Ganesan         | Chandler, AZ (God Squad)                                 |   270 |   30 |      |  87% |
-|       23 | Hayden Garrett         | Lakeville, MN (Celebration Church)                       |   250 | 27.8 |      |  72% |
-|       24 | Aubryn Sago            | Beulah, ND (New Creatures)                               |   245 | 27.2 |    2 |  89% |
-|       25 | Rolph Presume          | Cambridge, MA (Pentecostal Tabernacle)                   |   240 | 26.7 |      |  70% |
-|       26 | Hailey Lane            | Billings, MT (Fourtify)                                  |   220 | 24.4 |    1 |  80% |
-|       27 | Rebeca Jemmott Thomas  | Ozone Park, NY (Calvary Assembly of God)                 |   215 | 23.9 |    1 |  70% |
-|       28 | Abigail Farnsworth     | Hibbing, MN (Abundant Life Church)                       |   210 | 23.3 |      | 100% |
-|       29 | Eli Horn               | Brookfield, WI (CSI: Christ\'s Sanctified Investigators) |   205 | 22.8 |    1 |  81% |
-|       30 | Jafet Jemmott Thomas   | Ozone Park, NY (Calvary Assembly of God)                 |   160 | 17.8 |      |  76% |
-|       31 | Jordyn Weir            | Burlington, MA (Mount Hope Christian Center)             |   135 |   15 |      |  71% |
-|       32 | Hannah Titus           | Burlington, MA (Mount Hope Christian Center)             |    80 |  8.9 |      | 100% |
-|       33 | Angel Charles          | Chandler, AZ (God Squad)                                 |    60 |  6.7 |      | 100% |
-|       34 | Mayope Faleye          | Burlington, MA (Mount Hope Christian Center)             |    25 |  2.8 |      |  44% |
-|       35 | Kaylee Tidaback        | Georgetown, KY (Truth Seekers)                           |     0 |      |      |      |
-| **\*35** | Himaya Mashibe         | Georgetown, KY (Truth Seekers)                           |     0 |      |      |      |
-| **\*35** | Rachel Caudill         | Georgetown, KY (Truth Seekers)                           |     0 |      |      |      |
-| **\*35** | Elijah Caudill         | Georgetown, KY (Truth Seekers)                           |     0 |      |      |      |
-| **\*35** | Audrey Caudill         | Georgetown, KY (Truth Seekers)                           |     0 |      |      |      |
-| **\*35** | Shayda Morgan          | Billings, MT (Fourtify)                                  |     0 |      |      |      |
-| **\*35** | Annalisa Skelly        | Ozone Park, NY (Calvary Assembly of God)                 |     0 |      |      |      |
-| **\*35** | Leanna Ramdial         | Ozone Park, NY (Calvary Assembly of God)                 |     0 |      |      |      |
-|       36 | Ephraim Kurian         | Chandler, AZ (God Squad)                                 |   -10 | -1.1 |      |      |
+|        # | Quizzer                | Team                                                    | Total |  Avg |   QO |   Q% |
+| -------: | ---------------------- | ------------------------------------------------------- | ----: | ---: | ---: | ---: |
+|        1 | Kailyn Heath           | Lakeville, MN (Celebration Church)                      |   760 | 84.4 |    2 |  79% |
+|  **\*1** | Joshua Simon           | Chandler, AZ (God Squad)                                |   760 | 84.4 |    2 |  75% |
+|        2 | Michelle Muddasu       | Burlington, MA (Mount Hope Christian Center)            |   740 | 82.2 |    1 |  90% |
+|        3 | Hannah Farnsworth      | Hibbing, MN (Abundant Life Church)                      |   670 | 74.4 |    1 |  85% |
+|        4 | Colson Sago            | Beulah, ND (New Creatures)                              |   665 | 73.9 |    2 |  93% |
+|        5 | Brianna Bobbie         | Ozone Park, NY (Calvary Assembly of God)                |   615 | 68.3 |    1 |  81% |
+|        6 | Kaiden Taylor          | Billings, MT (Fourtify)                                 |   610 | 67.8 |    2 |  64% |
+|        7 | Kristyn Bauer          | Beulah, ND (New Creatures)                              |   560 | 62.2 |    1 |  88% |
+|        8 | Ariella Grimmond       | Ozone Park, NY (Calvary Assembly of God)                |   550 | 61.1 |      |  85% |
+|        9 | Daima Mashibe          | Georgetown, KY (Truth Seekers)                          |   520 | 57.8 |    3 |  66% |
+|       10 | Anju Rajakumar         | Burlington, MA (Mount Hope Christian Center)            |   460 | 51.1 |      |  90% |
+|       11 | Kaleb Noel             | Cambridge, MA (Pentecostal Tabernacle)                  |   440 | 48.9 |      |  89% |
+|       12 | Jose O'Brien           | Brookfield, WI (CSI: Christ's Sanctified Investigators) |   430 | 47.8 |    3 |  90% |
+|       13 | Hannah Murray          | Brookfield, WI (CSI: Christ's Sanctified Investigators) |   400 | 44.4 |      |  94% |
+|       14 | Tristan Heath          | Lakeville, MN (Celebration Church)                      |   345 | 38.3 |    2 |  68% |
+|       15 | Jase Cooper            | Billings, MT (Fourtify)                                 |   330 | 36.7 |    1 |  76% |
+|       16 | Isaac Farnsworth       | Hibbing, MN (Abundant Life Church)                      |   315 |   35 |    1 |  78% |
+|       17 | Chiamara Beulah Odunze | Cambridge, MA (Pentecostal Tabernacle)                  |   305 | 33.9 |      |  67% |
+|       18 | Abel Jacob             | Chandler, AZ (God Squad)                                |   295 | 32.8 |    2 |  74% |
+|       19 | Enzi Mashibe           | Georgetown, KY (Truth Seekers)                          |   285 | 31.7 |    1 |  62% |
+|       20 | Gabe Ubert             | Brookfield, WI (CSI: Christ's Sanctified Investigators) |   280 | 31.1 |      |  74% |
+|       21 | Gideon Legall          | Cambridge, MA (Pentecostal Tabernacle)                  |   275 | 30.6 |    1 |  67% |
+|       22 | Shreya Ganesan         | Chandler, AZ (God Squad)                                |   270 |   30 |      |  87% |
+|       23 | Hayden Garrett         | Lakeville, MN (Celebration Church)                      |   250 | 27.8 |      |  72% |
+|       24 | Aubryn Sago            | Beulah, ND (New Creatures)                              |   245 | 27.2 |    2 |  89% |
+|       25 | Rolph Presume          | Cambridge, MA (Pentecostal Tabernacle)                  |   240 | 26.7 |      |  70% |
+|       26 | Hailey Lane            | Billings, MT (Fourtify)                                 |   220 | 24.4 |    1 |  80% |
+|       27 | Rebeca Jemmott Thomas  | Ozone Park, NY (Calvary Assembly of God)                |   215 | 23.9 |    1 |  70% |
+|       28 | Abigail Farnsworth     | Hibbing, MN (Abundant Life Church)                      |   210 | 23.3 |      | 100% |
+|       29 | Eli Horn               | Brookfield, WI (CSI: Christ's Sanctified Investigators) |   205 | 22.8 |    1 |  81% |
+|       30 | Jafet Jemmott Thomas   | Ozone Park, NY (Calvary Assembly of God)                |   160 | 17.8 |      |  76% |
+|       31 | Jordyn Weir            | Burlington, MA (Mount Hope Christian Center)            |   135 |   15 |      |  71% |
+|       32 | Hannah Titus           | Burlington, MA (Mount Hope Christian Center)            |    80 |  8.9 |      | 100% |
+|       33 | Angel Charles          | Chandler, AZ (God Squad)                                |    60 |  6.7 |      | 100% |
+|       34 | Mayope Faleye          | Burlington, MA (Mount Hope Christian Center)            |    25 |  2.8 |      |  44% |
+|       35 | Kaylee Tidaback        | Georgetown, KY (Truth Seekers)                          |     0 |      |      |      |
+| **\*35** | Himaya Mashibe         | Georgetown, KY (Truth Seekers)                          |     0 |      |      |      |
+| **\*35** | Rachel Caudill         | Georgetown, KY (Truth Seekers)                          |     0 |      |      |      |
+| **\*35** | Elijah Caudill         | Georgetown, KY (Truth Seekers)                          |     0 |      |      |      |
+| **\*35** | Audrey Caudill         | Georgetown, KY (Truth Seekers)                          |     0 |      |      |      |
+| **\*35** | Shayda Morgan          | Billings, MT (Fourtify)                                 |     0 |      |      |      |
+| **\*35** | Annalisa Skelly        | Ozone Park, NY (Calvary Assembly of God)                |     0 |      |      |      |
+| **\*35** | Leanna Ramdial         | Ozone Park, NY (Calvary Assembly of God)                |     0 |      |      |      |
+|       36 | Ephraim Kurian         | Chandler, AZ (God Squad)                                |   -10 | -1.1 |      |      |
 
 
 ### Silver (C)

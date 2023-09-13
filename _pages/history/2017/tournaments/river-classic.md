@@ -149,7 +149,7 @@ menubar_toc_static:
 |        8 | Tyler McCracken    | Lexington (Heather) (Lexington First Assembly)         |   260 | 18.6 |    1 |  67% |
 |        9 | Young Sang Aum     | Calvary Church (Scott) (Calvary Church)                |   240 | 17.1 |      |  74% |
 |       10 | Noah Gallo         | Regulated Rivalry (Bellevue Neighborhood Church)       |   230 | 16.4 |    1 |  56% |
-|       11 | Abby O\'Connell    | Illuminated (James River Church)                       |   145 | 13.2 |    1 |  72% |
+|       11 | Abby O'Connell     | Illuminated (James River Church)                       |   145 | 13.2 |    1 |  72% |
 |       12 | Kodi Ladd          | Overflowing with Thankfulness (Bethel Assembly of God) |   165 | 11.8 |      |  88% |
 |       13 | Brianna McKinley   | Waterfalls (Sioux Falls First)                         |   140 |   10 |      | 100% |
 |       14 | Zara Rethman       | Illuminated (James River Church)                       |   135 |  9.6 |      |  93% |
@@ -164,7 +164,7 @@ menubar_toc_static:
 |       22 | Mike Galliers      | Lexington (Heather) (Lexington First Assembly)         |     5 |   .4 |      |  60% |
 |       23 | Natalie Walnofer   | Waterfalls (Sioux Falls First)                         |     0 |      |      |      |
 | **\*23** | Emily McKinley     | Waterfalls (Sioux Falls First)                         |     0 |      |      |      |
-| **\*23** | Abby O\'Connell    | Illuminated (James River Church)                       |     0 |      |      |      |
+| **\*23** | Abby O'Connell     | Illuminated (James River Church)                       |     0 |      |      |      |
 |       24 | Esther Ingram      | All Rights Reserved (Lighthouse Assembly of God)       |   -20 | -1.4 |      |  40% |
 | **\*24** | Olivia Chrastina   | Illuminated (James River Church)                       |   -20 | -1.4 |      |      |
 |       25 | Emme Vemuri        | Regulated Rivalry (Bellevue Neighborhood Church)       |   -30 | -2.1 |      |  27% |
@@ -193,7 +193,7 @@ menubar_toc_static:
 |        1 | Josiah Laakkonen    | Lexington MS (Lucas) (Lexington First Assembly)    |   910 | 75.8 |    6 |  79% |
 |        2 | Davis Garrison      | Final Greetings (James River Church)               |   705 | 58.8 |    5 |  70% |
 |        3 | Paige Chrastina     | Final Greetings (James River Church)               |   640 | 53.3 |    5 |  68% |
-|        4 | Ally O\'Connell     | Final Greetings (James River Church)               |   550 | 45.8 |    3 |  67% |
+|        4 | Ally O'Connell      | Final Greetings (James River Church)               |   550 | 45.8 |    3 |  67% |
 |        5 | Kambria Braithwaite | Weak and Miserable Forces (Evangel Temple)         |   505 | 42.1 |    4 |  68% |
 |        6 | Kosette Braithwaite | Weak and Miserable Forces (Evangel Temple)         |   445 | 37.1 |    3 |  77% |
 |        7 | Lexi Parry          | Central-Springfield, MO (Central A/G)              |   355 | 29.6 |    2 |  76% |

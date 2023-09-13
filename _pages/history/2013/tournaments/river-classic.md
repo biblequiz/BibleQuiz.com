@@ -117,7 +117,7 @@ menubar_toc_static:
 |    9 | Trinity A             | Trinity A/G                    |   6/7 |   965 |  74.23 |
 |   10 | Bible BRATS           | Evangel Comm. Church           |   5/8 |   730 |  56.15 |
 |   11 | Sheep Among Wolves    | Stone Church                   |   4/9 |   910 |  70.00 |
-|   12 | Don\'t Know JACK      | Evangel Comm. Church           |  3/10 |   215 |  16.54 |
+|   12 | Don't Know JACK       | Evangel Comm. Church           |  3/10 |   215 |  16.54 |
 |   13 | Big Fish Quizzers     | Meadowbrook Comm. Church       |  1/12 |   455 |  35.00 |
 |   14 | Those Having Seizures | Stone Church                   |  0/13 |    55 |   4.23 |
 
@@ -148,7 +148,7 @@ menubar_toc_static:
 |   19 | J.B. Van Horn      | Heartland             | Heartland Academy Comm. Church |   305 |  23.46 |      |
 |   20 | Cody Stuart        | Sheep Among Wolves    | Stone Church                   |   235 |  18.08 |      |
 |   21 | Courtney Turner    | Trinity A             | Trinity A/G                    |   220 |  16.92 |      |
-|   22 | Justin Alger       | Don\'t Know JACK      | Evangel Comm. Church           |   205 |  15.77 |    1 |
+|   22 | Justin Alger       | Don't Know JACK       | Evangel Comm. Church           |   205 |  15.77 |    1 |
 |   23 | Chasey Knepler     | Ministering Spirits   | 1st A/G, Moberly, MO           |   190 |  14.62 |      |
 |   24 | Emily Urbina       | The Five              | Highpointe Church              |   165 |  12.69 |      |
 |   25 | Kimber Cruz        | Newport Mesa          | Newport Mesa Church            |   155 |  11.92 |      |
@@ -157,7 +157,7 @@ menubar_toc_static:
 |   28 | Susanna Ferguson   | Trinity Burkhalter    | Trinity A/G                    |    80 |   6.15 |      |
 |   29 | Mary Meddaugh      | They Don?t Wash?      | Muskogee 1st A/G               |    70 |   5.38 |      |
 |   30 | Jessica Baskette   | Newport Mesa          | Newport Mesa Church            |    65 |   5.00 |      |
-|   31 | Casey Bailey       | Don\'t Know JACK      | Evangel Comm. Church           |    60 |   4.62 |      |
+|   31 | Casey Bailey       | Don't Know JACK       | Evangel Comm. Church           |    60 |   4.62 |      |
 |   32 | Camryn Stuart      | Those Having Seizures | Stone Church                   |    30 |   2.31 |      |
 |   33 | Kyler Stephan      | Those Having Seizures | Stone Church                   |    25 |   1.92 |      |
 |   34 | Taylor Kincer      | Bible BRATS           | Evangel Comm. Church           |    10 |    .77 |      |
@@ -217,7 +217,7 @@ menubar_toc_static:
 |   25 | Jeffrey Coder        | D2Js L.I.G.H.T.         | 1st A/G Cedar Rapids |   155 |  14.09 |    1 |
 |   26 | Danielle Aubry       | Unquenchable Fire       | James River A/G      |   145 |  13.18 |      |
 |   27 | Talita Renee Kamletz | Good Genes & S.W.A.G.   | Owasso 1st A/G       |   130 |  11.82 |      |
-|   28 | Abby O\'Connell      | Wolf Among Sheep        | James River A/G      |    90 |   8.18 |      |
+|   28 | Abby O'Connell       | Wolf Among Sheep        | James River A/G      |    90 |   8.18 |      |
 |   29 | Izzy Lashley-Bobb    | Czech Tech              | Muskogee 1st A/G     |    75 |   6.82 |      |
 |   30 | Hayden Ballard       | Unquenchable Fire       | James River A/G      |    50 |   4.55 |      |
 |   31 | Toni Smith           | Magi From The ECC       | Evangel Comm. Church |    25 |   2.27 |      |

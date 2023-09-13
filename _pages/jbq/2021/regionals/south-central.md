@@ -24,7 +24,7 @@ menubar_toc_static:
 |  4.0 | \*Keepers of the Command (First @ Firewheel, TX) | 7 / 4  |  1995 | 181.3 |    6 |  76% |
 |  5.0 | Bible Buzzers (Trinity, TX)                      | 7 / 4  |  1920 | 174.5 |   10 |  77% |
 |  6.0 | \*Covid Overcomers (The Bridge, OK)              | 7 / 4  |  1750 | 159.1 |   11 |  91% |
-|  7.1 | God\'s Holy Guacamole (Freedom Church, TX)       | 6 / 5  |  1820 | 165.4 |    6 |  80% |
+|  7.1 | God's Holy Guacamole (Freedom Church, TX)        | 6 / 5  |  1820 | 165.4 |    6 |  80% |
 |  8.0 | Power Kids (Kids Club, TX)                       | 6 / 5  |  1800 | 163.6 |   13 |  89% |
 |  9.0 | \*Faith Fighters (Chosen Generation, TX)         | 4 / 7  |  1485 |   135 |    5 |  91% |
 | 10.0 | Faith Chapel Volts (Faith Chapel, KS)            | 2 / 9  |   935 |    85 |    4 |  96% |
@@ -45,7 +45,7 @@ menubar_toc_static:
 |        6 | Jonathan Moses       | Power Kids (Kids Club, TX)                       |  1095 |  99.5 |    6 |  93% |
 |        7 | Jaydon Redmon        | Faith Chapel Volts (Faith Chapel, KS)            |   890 |  80.9 |    4 |  96% |
 |        8 | Joseph Lee           | Bible Buzzers (Trinity, TX)                      |   855 |  77.7 |    3 |  80% |
-|        9 | Nathan Beckham       | God\'s Holy Guacamole (Freedom Church, TX)       |   840 |  76.4 |    2 |  80% |
+|        9 | Nathan Beckham       | God's Holy Guacamole (Freedom Church, TX)        |   840 |  76.4 |    2 |  80% |
 |       10 | Timothy Samuel       | \*Keepers of the Command (First @ Firewheel, TX) |   835 |  75.9 |    2 |  81% |
 |       11 | Janessa Walker       | \*Spurs Silver (1st AG San Antonio, TX)          |   790 |  71.8 |    4 |  87% |
 |       12 | Meredith Haley       | Spurs Black (1st AG San Antonio, TX)             |   785 |  71.4 |    8 |  85% |
@@ -54,9 +54,9 @@ menubar_toc_static:
 |       15 | Nathan Colley        | Super Smash Bros (The Oaks, TX)                  |   560 |  50.9 |    5 |  93% |
 |       16 | Jayden Ramesh        | \*Keepers of the Command (First @ Firewheel, TX) |   525 |  47.7 |    2 |  70% |
 |       17 | James Cornish        | \*Keepers of the Command (First @ Firewheel, TX) |   460 |  41.8 |    2 |  90% |
-|       18 | Luke Osborn          | God\'s Holy Guacamole (Freedom Church, TX)       |   455 |  41.4 |    4 |  84% |
+|       18 | Luke Osborn          | God's Holy Guacamole (Freedom Church, TX)        |   455 |  41.4 |    4 |  84% |
 |       19 | Judah Guntle         | \*Spurs Silver (1st AG San Antonio, TX)          |   395 |  35.9 |    2 |  93% |
-|       20 | Sadhana Paulson      | God\'s Holy Guacamole (Freedom Church, TX)       |   380 |  34.5 |      |  75% |
+|       20 | Sadhana Paulson      | God's Holy Guacamole (Freedom Church, TX)        |   380 |  34.5 |      |  75% |
 |       21 | Luke Thomas          | Spurs Black (1st AG San Antonio, TX)             |   335 |  30.5 |    2 |  74% |
 |       22 | Chisom OKafor        | Bethel Warriors (Convenant AG, TX)               |   330 |    30 |    1 |  79% |
 |       23 | Jayla Sobers         | Bible Buzzers (Trinity, TX)                      |   295 |  26.8 |    1 |  81% |
@@ -66,7 +66,7 @@ menubar_toc_static:
 |       27 | Simon Solomon        | \*Keepers of the Command (First @ Firewheel, TX) |   170 |  15.5 |      |  68% |
 | **\*27** | John Colley          | Super Smash Bros (The Oaks, TX)                  |   170 |  15.5 |      |  65% |
 |       28 | Halonna Maxcy        | \*Faith Fighters (Chosen Generation, TX)         |   150 |  13.6 |      |  80% |
-|       29 | Trotter Smith        | God\'s Holy Guacamole (Freedom Church, TX)       |   140 |  12.7 |      |  74% |
+|       29 | Trotter Smith        | God's Holy Guacamole (Freedom Church, TX)        |   140 |  12.7 |      |  74% |
 |       30 | Zivah Warnemuende    | \*Covid Overcomers (The Bridge, OK)              |   135 |  12.3 |    1 |  82% |
 |       31 | Rylee Dent           | Wallbreakers (Living Word, KS)                   |    70 |   6.4 |      |  67% |
 |       32 | Lawson Remboldt      | Wallbreakers (Living Word, KS)                   |    60 |   5.5 |      |  70% |
@@ -74,7 +74,7 @@ menubar_toc_static:
 | **\*33** | Daniel Bartholomew   | Super Smash Bros (The Oaks, TX)                  |    40 |   3.6 |      | 100% |
 |       34 | Karsynn Bennett      | Faith Chapel Volts (Faith Chapel, KS)            |    35 |   3.2 |      | 100% |
 |       35 | Chizaram Iwuogaranya | \*Keepers of the Command (First @ Firewheel, TX) |    10 |    .9 |      |  99% |
-| **\*35** | James Moreland       | God\'s Holy Guacamole (Freedom Church, TX)       |    10 |    .9 |      |  99% |
+| **\*35** | James Moreland       | God's Holy Guacamole (Freedom Church, TX)        |    10 |    .9 |      |  99% |
 | **\*35** | Zayden Bennett       | Faith Chapel Volts (Faith Chapel, KS)            |    10 |    .9 |      |  99% |
 |       36 | Chibuikem Ikwuagwu   | Bethel Warriors (Convenant AG, TX)               |     0 |       |      |  50% |
 | **\*36** | Isabella Darko       | \*Keepers of the Command (First @ Firewheel, TX) |     0 |       |      |      |

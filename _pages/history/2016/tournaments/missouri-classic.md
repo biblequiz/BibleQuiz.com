@@ -158,7 +158,7 @@ menubar_toc_static:
 |    8 | Julianna Torbett    | Joy in Your Presence | James River Church  |   380 | 63.33 |    4 |
 |    9 | Darek Graves        | Therefore            | James River Church  |   295 | 49.17 |    3 |
 |   10 | Joy Alayande        | Blood and Fire       | Trinity Cedar Hill  |   240 | 40.00 |    2 |
-|   11 | Anna O\'Neil        | The Oaks Experience  | The Oaks Fellowship |   185 | 30.83 |    1 |
+|   11 | Anna O'Neil         | The Oaks Experience  | The Oaks Fellowship |   185 | 30.83 |    1 |
 |   12 | Danielle Asbjornson | Blood and Fire       | Trinity Cedar Hill  |   165 | 27.50 |    1 |
 |   13 | Lexi Parry          | We are not Sad U see | Central AG          |   135 | 22.50 |      |
 |   14 | Erin Asbjornson     | Blood and Fire       | Trinity Cedar Hill  |   130 | 21.67 |    1 |
@@ -225,7 +225,7 @@ menubar_toc_static:
 | ---: | ------------------ | -------------------- | ------------------- | ----: | ----: | ---: |
 |    1 | Abby Illum         | We are not Sad U see | Central AG          |   155 | 77.50 |    1 |
 |    2 | Darek Graves       | Therefore            | James River Church  |   115 | 57.50 |    1 |
-|    3 | Anna O\'Neil       | The Oaks Experience  | The Oaks Fellowship |    60 | 30.00 |      |
+|    3 | Anna O'Neil        | The Oaks Experience  | The Oaks Fellowship |    60 | 30.00 |      |
 |    4 | Lexi Parry         | We are not Sad U see | Central AG          |    40 | 20.00 |      |
 |    5 | Jeremy Eden        | Therefore            | James River Church  |    10 |  5.00 |      |
 |    6 | Brandon Mudersbach | Therefore            | James River Church  |       |   .00 |      |
@@ -263,7 +263,7 @@ menubar_toc_static:
 |    5 | Josiah Smith         | No One Else Dared Join Them | James River Church |   340 |  56.67 |    2 |
 |    6 | Abigail Dasal        | Philosophers                | James River Church |   295 |  49.17 |    3 |
 |    7 | Paige Chrastina      | Four Unmarried Daughters    | James River Church |   290 |  48.33 |    2 |
-|    8 | Ally O\'Connell      | Four Unmarried Daughters    | James River Church |   280 |  46.67 |    3 |
+|    8 | Ally O'Connell       | Four Unmarried Daughters    | James River Church |   280 |  46.67 |    3 |
 |    9 | Gavin Griffith       | No One Else Dared Join Them | James River Church |   225 |  37.50 |    2 |
 |   10 | Ethan Pickrell       | Trinity Cedar Hill MS       | Trinity Cedar Hill |   220 |  36.67 |    2 |
 |   11 | Zara Rethman         | Women at the River          | James River Church |   210 |  35.00 |    2 |
@@ -315,7 +315,7 @@ menubar_toc_static:
 |    8 | Jonathan Dasal       | No One Else Dared Join Them | James River Church |   130 |  43.33 |      |
 |    9 | Josiah Smith         | No One Else Dared Join Them | James River Church |    50 |  16.67 |      |
 |   10 | Vanessa Ellingsworth | Philosophers                | James River Church |    30 |  10.00 |      |
-|   11 | Ally O\'Connell      | Four Unmarried Daughters    | James River Church |    25 |   8.33 |      |
+|   11 | Ally O'Connell       | Four Unmarried Daughters    | James River Church |    25 |   8.33 |      |
 |   11 | Julia Sullivan       | Trinity Cedar Hill MS       | Trinity Cedar Hill |    25 |   8.33 |      |
 |   12 | Acacia Graves        | No One Else Dared Join Them | James River Church |       |    .00 |      |
 |   12 | Elizabeth Sims       | Trinity Cedar Hill MS       | Trinity Cedar Hill |       |    .00 |      |

@@ -135,7 +135,7 @@ menubar_toc_static:
 | ---: | ---------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | Lion Warriors (The Oaks Church)          | 3 / 1 |   540 |   135 |    5 |  95% |
 |  2.0 | Transform (First @ Firewheel)            | 3 / 1 |   515 | 128.7 |    4 |  83% |
-|  3.0 | God\'s Knights (Dripping Springs UMC)    | 3 / 1 |   340 |    85 |    2 |  86% |
+|  3.0 | God's Knights (Dripping Springs UMC)     | 3 / 1 |   340 |    85 |    2 |  86% |
 |  4.0 | Quiz Kids (Freedom Church)               | 2 / 2 |   385 |  96.2 |    3 |  85% |
 |  5.0 | Victorious Bible Lions (The Oaks Church) | 1 / 3 |    65 |  16.2 |      |  69% |
 |  6.0 | Starburst (Casa View)                    | 0 / 4 |   100 |    25 |      |  75% |
@@ -148,17 +148,17 @@ menubar_toc_static:
 | -------: | --------------- | ---------------------------------------- | ----: | ---: | ---: | ---: |
 |        1 | Michael Schmude | Lion Warriors (The Oaks Church)          |   275 | 68.8 |    3 |  96% |
 |        2 | Joel Maddox     | Lion Warriors (The Oaks Church)          |   260 |   65 |    2 |  94% |
-|        3 | Emmett Taylor   | God\'s Knights (Dripping Springs UMC)    |   220 |   55 |    2 |  90% |
+|        3 | Emmett Taylor   | God's Knights (Dripping Springs UMC)     |   220 |   55 |    2 |  90% |
 |        4 | Simon Solomon   | Transform (First @ Firewheel)            |   210 | 52.5 |    2 |  81% |
 |        5 | Ian Ciruelos    | Quiz Kids (Freedom Church)               |   175 | 43.8 |    2 |  82% |
 |        6 | Seth Thomas     | Quiz Kids (Freedom Church)               |   160 |   40 |    1 |  85% |
 |        7 | Nathan Moges    | Transform (First @ Firewheel)            |   145 | 36.3 |    1 |  91% |
 |        8 | Alex Lopez      | Transform (First @ Firewheel)            |   135 | 33.8 |    1 |  82% |
 |        9 | Micah Marroquin | Victorious Bible Lions (The Oaks Church) |    70 | 17.5 |      |  87% |
-|  **\*9** | Charlotte Smith | God\'s Knights (Dripping Springs UMC)    |    70 | 17.5 |      |  75% |
+|  **\*9** | Charlotte Smith | God's Knights (Dripping Springs UMC)     |    70 | 17.5 |      |  75% |
 |  **\*9** | Jayden Esparza  | Starburst (Casa View)                    |    70 | 17.5 |      |  69% |
 |       10 | James Moreland  | Quiz Kids (Freedom Church)               |    50 | 12.5 |      | 100% |
-| **\*10** | Jaya Gastineau  | God\'s Knights (Dripping Springs UMC)    |    50 | 12.5 |      |  86% |
+| **\*10** | Jaya Gastineau  | God's Knights (Dripping Springs UMC)     |    50 | 12.5 |      |  86% |
 |       11 | Chizaram Echefu | Transform (First @ Firewheel)            |    30 |  7.5 |      | 100% |
 | **\*11** | Camila Romero   | Starburst (Casa View)                    |    30 |  7.5 |      | 100% |
 |       12 | Gabriel Schmude | Victorious Bible Lions (The Oaks Church) |    15 |  3.8 |      |  66% |

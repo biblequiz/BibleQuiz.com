@@ -26,18 +26,18 @@ menubar_toc_static:
 |    6 | Quadruple threat         | Trinity church         | 13 / 6 |  3115 | 163.95 |
 |    7 | Wind of the Word         | Lakeshore Church       | 12 / 7 |  3285 | 172.89 |
 |    8 | Army of God              | Mountain Creek Church  | 11 / 8 |  3390 | 178.42 |
-|    9 | God\'s Girls \*          | Oswego AG              | 11 / 8 |  3075 | 161.84 |
+|    9 | God's Girls \*           | Oswego AG              | 11 / 8 |  3075 | 161.84 |
 |   10 | Blood Bought Brothers \* | The Bridge AG          | 11 / 8 |  2885 | 151.84 |
 |   11 | Glow Kids                | San Antonio 1st AG     | 11 / 8 |  2845 | 149.74 |
 |   12 | Undignified \*           | 1st AG                 | 10 / 9 |  3075 | 161.84 |
 |   13 | The Overcomers           | Houston + Braeswood AG | 9 / 10 |  2710 | 142.63 |
 |   14 | Humble Heros             | Humble 1st AG          | 8 / 11 |  2555 | 134.47 |
 |   15 | Expert Witnesses         | Freedom Life Church    | 7 / 12 |  2040 | 107.37 |
-|   16 | God\'s Masterpieces      | Emporia Life Church    | 5 / 14 |  2110 | 111.05 |
+|   16 | God's Masterpieces       | Emporia Life Church    | 5 / 14 |  2110 | 111.05 |
 |   17 | KC Quizzers              | Overland Park 1st AG   | 4 / 15 |  1695 |  89.21 |
 |   18 | Bible Coalition          | Woodlake Church        | 3 / 16 |  1920 | 101.05 |
 |   19 | Bible Warriors           | Great Bend 1st AG      | 2 / 17 |  1810 |  95.26 |
-|   20 | Hope\'s Responders       | New Hope AG            | 0/19   |   550 |  28.95 |
+|   20 | Hope's Responders        | New Hope AG            | 0/19   |   550 |  28.95 |
 
 ## Individuals
 
@@ -57,12 +57,12 @@ menubar_toc_static:
 |   10 | Noah Claunch\*       | Mighty Minions           | Trinity church         |  1270 |  66.84 |    9 |
 |   11 | Esther Zavala        | Undignified \*           | 1st AG                 |  1255 |  66.05 |    4 |
 |   12 | Jadyn Thomas\*       | Glow Kids                | San Antonio 1st AG     |  1225 |  64.47 |    1 |
-|   13 | Noah Small \*        | God\'s Masterpieces      | Emporia Life Church    |  1195 |  62.89 |    2 |
-|   14 | Carmen Eisenbrandt   | God\'s Girls \*          | Oswego AG              |  1195 |  62.89 |    1 |
+|   13 | Noah Small \*        | God's Masterpieces       | Emporia Life Church    |  1195 |  62.89 |    2 |
+|   14 | Carmen Eisenbrandt   | God's Girls \*           | Oswego AG              |  1195 |  62.89 |    1 |
 |   15 | Josh Rose\*          | Blood Bought Brothers \* | The Bridge AG          |  1160 |  61.05 |      |
 |   16 | Samuel Hare          | Expert Witnesses         | Freedom Life Church    |  1125 |  59.21 |    6 |
 |   17 | Makenna Koch\*       | Wind of the Word         | Lakeshore Church       |  1110 |  58.42 |    1 |
-|   18 | Cecillia Newby\*     | God\'s Girls \*          | Oswego AG              |  1105 |  58.16 |    1 |
+|   18 | Cecillia Newby\*     | God's Girls \*           | Oswego AG              |  1105 |  58.16 |    1 |
 |   19 | Naomi Shtyrkalo\*    | Humble Heros             | Humble 1st AG          |  1035 |  54.47 |    1 |
 |   20 | Aiden Fulfer         | Tribulation Force        | The Oaks Fellowship    |  1035 |  54.47 |      |
 |   21 | Christian Alapati    | Heart of a Lion \*       | Angleton First         |  1015 |  53.42 |   13 |
@@ -89,50 +89,50 @@ menubar_toc_static:
 |   42 | Jude Thomas          | Expert Witnesses         | Freedom Life Church    |   500 |  26.32 |    1 |
 |   43 | Andrew Lopez         | Wind of the Word         | Lakeshore Church       |   485 |  25.53 |    2 |
 |   44 | Michael Ikechukwu    | Transformed              | First @ Firewheel      |   480 |  25.26 |    3 |
-|   45 | Adin Lantz           | God\'s Masterpieces      | Emporia Life Church    |   470 |  24.74 |    2 |
-|   46 | Grace Noel           | God\'s Girls \*          | Oswego AG              |   445 |  23.42 |    2 |
+|   45 | Adin Lantz           | God's Masterpieces       | Emporia Life Church    |   470 |  24.74 |    2 |
+|   46 | Grace Noel           | God's Girls \*           | Oswego AG              |   445 |  23.42 |    2 |
 |   47 | Judah James          | Humble Heros             | Humble 1st AG          |   445 |  23.42 |      |
 |   48 | Faithful Iwuamadi    | Transformed              | First @ Firewheel      |   420 |  22.11 |    2 |
 |   49 | Madison Claunch      | Mighty Minions           | Trinity church         |   410 |  21.58 |      |
 |   50 | Addy Dougherty       | Bible Warriors           | Great Bend 1st AG      |   400 |  21.05 |    2 |
-|   51 | Portia Wolfe         | God\'s Masterpieces      | Emporia Life Church    |   395 |  20.79 |      |
+|   51 | Portia Wolfe         | God's Masterpieces       | Emporia Life Church    |   395 |  20.79 |      |
 |   52 | Olivia Akonzee       | The Overcomers           | Houston + Braeswood AG |   385 |  20.26 |      |
 |   53 | Rylie Pugh           | Wind of the Word         | Lakeshore Church       |   375 |  19.74 |    1 |
 |   54 | Makayla Burton       | Bible Warriors           | Great Bend 1st AG      |   330 |  17.37 |    1 |
 |   55 | Chi Chi Otah\*       | Transformed              | First @ Firewheel      |   325 |  17.11 |      |
 |   56 | Wesley Horn          | Blood Bought Brothers \* | The Bridge AG          |   310 |  16.32 |      |
 |   57 | Malachi Wasson       | Bible Warriors           | Great Bend 1st AG      |   300 |  15.79 |      |
-|   58 | Delaney Reynolds     | God\'s Girls \*          | Oswego AG              |   290 |  15.26 |      |
+|   58 | Delaney Reynolds     | God's Girls \*           | Oswego AG              |   290 |  15.26 |      |
 |   59 | Iyanu Akanbi         | The Chosen Ones          | Houston + Braeswood AG |   270 |  14.21 |      |
 |   60 | Evan Moses Wesly     | Expert Witnesses         | Freedom Life Church    |   255 |  13.42 |      |
-|   61 | Ella Labounty        | Hope\'s Responders       | New Hope AG            |   250 |  13.16 |      |
+|   61 | Ella Labounty        | Hope's Responders        | New Hope AG            |   250 |  13.16 |      |
 |   62 | Kaylee Foor          | Bible Coalition          | Woodlake Church        |   205 |  10.79 |      |
 |   63 | Jacob Steen          | Humble Heros             | Humble 1st AG          |   180 |   9.47 |      |
 |   64 | Rachael Bartholomew  | Army of God              | Mountain Creek Church  |   175 |   9.21 |      |
 |   65 | Joseph Hare          | Expert Witnesses         | Freedom Life Church    |   160 |   8.42 |      |
 |   66 | Oduna Akonzee        | The Overcomers           | Houston + Braeswood AG |   155 |   8.16 |      |
-|   67 | Sieara Collins       | Hope\'s Responders       | New Hope AG            |   135 |   7.11 |      |
+|   67 | Sieara Collins       | Hope's Responders        | New Hope AG            |   135 |   7.11 |      |
 |   68 | Mabry Haley          | Glow Kids                | San Antonio 1st AG     |   130 |   6.84 |      |
 |   68 | Jace white           | Quadruple threat         | Trinity church         |   130 |   6.84 |      |
 |   69 | Yaeli Mayberry       | KC Quizzers              | Overland Park 1st AG   |   115 |   6.05 |      |
-|   70 | Hope Rombach         | Hope\'s Responders       | New Hope AG            |    95 |   5.00 |      |
+|   70 | Hope Rombach         | Hope's Responders        | New Hope AG            |    95 |   5.00 |      |
 |   71 | Emily Phillips       | KC Quizzers              | Overland Park 1st AG   |    65 |   3.42 |      |
-|   72 | M\'Kayla McDaniel    | Undignified \*           | 1st AG                 |    55 |   2.89 |      |
+|   72 | M'Kayla McDaniel     | Undignified \*           | 1st AG                 |    55 |   2.89 |      |
 |   72 | Justice Sanchez      | KC Quizzers              | Overland Park 1st AG   |    55 |   2.89 |      |
 |   73 | Nathan Hodson        | KC Quizzers              | Overland Park 1st AG   |    50 |   2.63 |      |
-|   73 | Kacey Mayfield       | God\'s Girls \*          | Oswego AG              |    50 |   2.63 |      |
+|   73 | Kacey Mayfield       | God's Girls \*           | Oswego AG              |    50 |   2.63 |      |
 |   73 | Isaac Harmsen        | Army of God              | Mountain Creek Church  |    50 |   2.63 |      |
-|   74 | Ella Roach           | Hope\'s Responders       | New Hope AG            |    45 |   2.37 |      |
+|   74 | Ella Roach           | Hope's Responders        | New Hope AG            |    45 |   2.37 |      |
 |   75 | Julian Castillo      | Undignified \*           | 1st AG                 |    35 |   1.84 |      |
 |   76 | Kylie vonHartitzsch  | Bible Coalition          | Woodlake Church        |    30 |   1.58 |      |
-|   77 | Addison Scott        | Hope\'s Responders       | New Hope AG            |    25 |   1.32 |      |
-|   77 | Jade Smith           | God\'s Masterpieces      | Emporia Life Church    |    25 |   1.32 |      |
-|   78 | Leila Ramirez        | God\'s Masterpieces      | Emporia Life Church    |    20 |   1.05 |      |
+|   77 | Addison Scott        | Hope's Responders        | New Hope AG            |    25 |   1.32 |      |
+|   77 | Jade Smith           | God's Masterpieces       | Emporia Life Church    |    25 |   1.32 |      |
+|   78 | Leila Ramirez        | God's Masterpieces       | Emporia Life Church    |    20 |   1.05 |      |
 |   79 | Reese Pugh           | Wind of the Word         | Lakeshore Church       |    10 |    .53 |      |
-|   79 | Gavin Stewart        | God\'s Masterpieces      | Emporia Life Church    |    10 |    .53 |      |
+|   79 | Gavin Stewart        | God's Masterpieces       | Emporia Life Church    |    10 |    .53 |      |
 |   80 | Roman Keele          | Bible Coalition          | Woodlake Church        |       |    .00 |      |
-|   80 | Emma Roach           | Hope\'s Responders       | New Hope AG            |       |    .00 |      |
-|   80 | Kylee White          | God\'s Masterpieces      | Emporia Life Church    |       |    .00 |      |
+|   80 | Emma Roach           | Hope's Responders        | New Hope AG            |       |    .00 |      |
+|   80 | Kylee White          | God's Masterpieces       | Emporia Life Church    |       |    .00 |      |
 |   81 | Ramon Castillo       | Undignified \*           | 1st AG                 |   -25 |  -1.32 |      |
-|   82 | Hannah Noel          | God\'s Girls \*          | Oswego AG              |    -5 |  -0.26 |      |
+|   82 | Hannah Noel          | God's Girls \*           | Oswego AG              |    -5 |  -0.26 |      |
 |   82 | Hayley Vecchio       | Undignified \*           | 1st AG                 |    -5 |  -0.26 |      |

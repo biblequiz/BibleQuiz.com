@@ -32,7 +32,7 @@ menubar_toc_static:
 |   12 | Oswego                     | Oswego A/G          | 8/10 |  2525 | 140.28 |
 |   13 | The Braeswood Marvels      | Braeswood A/G       | 8/10 |  2015 | 111.94 |
 |   14 | Undignified                | Dumas 1st           | 7/11 |  2395 | 133.06 |
-|   15 | God\'s Mighty Warriors     | The Bridge          | 5/13 |  1345 |  74.72 |
+|   15 | God's Mighty Warriors      | The Bridge          | 5/13 |  1345 |  74.72 |
 |   16 | Miami Mustaches            | Miami 1st           | 3/15 |  1655 |  91.94 |
 |   17 | Jesus League               | Odessa 1st          | 2/16 |  1005 |  55.83 |
 |   18 | United For Christ \*       | The Bridge          | 1/17 |  1420 |  78.89 |
@@ -79,14 +79,14 @@ menubar_toc_static:
 |   33 | Victoria Wooten       | The Braeswood Marvels      | Braeswood A/G       |   745 |  41.39 |    2 |
 |   34 | Michael Wooten II     | The Braeswood Marvels      | Braeswood A/G       |   645 |  35.83 |    3 |
 |   35 | Caroline Munoz        | Army of God                | Mountain Creek      |   630 |  35.00 |    1 |
-|   36 | Josh Rose             | God\'s Mighty Warriors     | The Bridge          |   565 |  31.39 |    2 |
+|   36 | Josh Rose             | God's Mighty Warriors      | The Bridge          |   565 |  31.39 |    2 |
 |   37 | Isaac Torrez          | Army of God                | Mountain Creek      |   515 |  28.61 |      |
 |   38 | Caleb Myers           | Quiz Kids                  | Dripping SpringsUMC |   470 |  26.11 |    1 |
 |   39 | Skylar Fleming        | Victory Warriors \*        | Victory A/G         |   460 |  25.56 |    2 |
 |   40 | Brandon Ukonu         | The Chosen Ones            | Braeswood A/G       |   450 |  25.00 |    3 |
 |   41 | Wesley Horn           | United For Christ \*       | The Bridge          |   440 |  24.44 |      |
 |   42 | Carmen Eisenbrandt    | Oswego                     | Oswego A/G          |   425 |  23.61 |    3 |
-|   43 | Jett King             | God\'s Mighty Warriors     | The Bridge          |   415 |  23.06 |    2 |
+|   43 | Jett King             | God's Mighty Warriors      | The Bridge          |   415 |  23.06 |    2 |
 |   44 | Jason Bartholomew     | Army of God                | Mountain Creek      |   385 |  21.39 |    1 |
 |   45 | Eberi Asilwe          | The Braeswood Marvels      | Braeswood A/G       |   350 |  19.44 |    1 |
 |   46 | Noah Small            | Life Church BRATS          | Life Church A/G     |   330 |  18.33 |    1 |
@@ -97,11 +97,11 @@ menubar_toc_static:
 |   51 | Delaney Reynolds      | Oswego                     | Oswego A/G          |   255 |  14.17 |      |
 |   52 | Daytin Blackshear     | God Squad                  | The Link Church     |   245 |  13.61 |      |
 |   53 | Matthias Moore        | Team-Jefferson Assembly \* | Jefferson A/G       |   230 |  12.78 |      |
-|   54 | Ayden Rush            | God\'s Mighty Warriors     | The Bridge          |   215 |  11.94 |    1 |
+|   54 | Ayden Rush            | God's Mighty Warriors      | The Bridge          |   215 |  11.94 |    1 |
 |   55 | Bailen Goodwin        | Victory Warriors \*        | Victory A/G         |   210 |  11.67 |      |
 |   56 | Abigail Chapa         | The Purple Prophetesses    | Lindale Church      |   195 |  10.83 |      |
-|   57 | Darrah McDaniel       | God\'s Mighty Warriors     | The Bridge          |   150 |   8.33 |      |
-|   58 | M\'Kayla McDaniel     | Undignified                | Dumas 1st           |   130 |   7.22 |      |
+|   57 | Darrah McDaniel       | God's Mighty Warriors      | The Bridge          |   150 |   8.33 |      |
+|   58 | M'Kayla McDaniel      | Undignified                | Dumas 1st           |   130 |   7.22 |      |
 |   59 | Elyssa Fulfer \*      | Tribulation Force          | The Oaks Fellowship |   120 |   6.67 |      |
 |   60 | David Ubak \*         | The Chosen Ones            | Braeswood A/G       |    90 |   5.00 |      |
 |   61 | Laila Mata            | Jesus League               | Odessa 1st          |    80 |   4.44 |      |

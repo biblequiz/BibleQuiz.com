@@ -83,7 +83,7 @@ menubar_toc_static:
 | ---: | --------------------------------------------------------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | Freedom Christian Fellowship Wisdom Talkers (Freedom Christian Fellowship of the Assemblies of God) | 7 / 0 |  1320 | 188.5 |    7 |  82% |
 |  2.1 | God's Gang (Life Church)                                                                            | 5 / 2 |   870 | 124.3 |    5 |  82% |
-|  3.0 | God\'s Sanitizers (Faith Assembly of God)                                                           | 5 / 2 |   950 | 135.7 |    8 |  76% |
+|  3.0 | God's Sanitizers (Faith Assembly of God)                                                            | 5 / 2 |   950 | 135.7 |    8 |  76% |
 |  4.0 | Believers of the Bible (LIFE Church Assembly of God)                                                | 4 / 3 |   940 | 134.3 |    6 |  83% |
 |  5.0 | Jesus Family Ministries #1 (Jesus Family Ministries)                                                | 3 / 4 |   870 | 124.3 |    6 |  86% |
 |  6.1 | One way (First Assembly of God)                                                                     | 2 / 5 |   910 |   130 |    4 |  80% |
@@ -97,7 +97,7 @@ menubar_toc_static:
 |        # | Quizzer            | Team                                                                                                | Total |   Avg |   QO |   Q% |
 | -------: | ------------------ | --------------------------------------------------------------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Vicente Rivera     | Freedom Christian Fellowship Wisdom Talkers (Freedom Christian Fellowship of the Assemblies of God) |  1000 | 142.9 |    7 |  93% |
-|        2 | Alicia Johnson     | God\'s Sanitizers (Faith Assembly of God)                                                           |   610 |  87.1 |    5 |  80% |
+|        2 | Alicia Johnson     | God's Sanitizers (Faith Assembly of God)                                                            |   610 |  87.1 |    5 |  80% |
 |        3 | John Benkiruba     | Jesus Family Ministries #1 (Jesus Family Ministries)                                                |   590 |  84.3 |    5 | 100% |
 |        4 | Bethany Enwere     | God's Gang (Life Church)                                                                            |   575 |  82.1 |    4 |  88% |
 |        5 | Kristopher Jacques | Keepers of the Command (New Life Assembly)                                                          |   535 |  76.4 |    5 |  87% |
@@ -106,11 +106,11 @@ menubar_toc_static:
 |        8 | Jessa LoGiudice    | Believers of the Bible (LIFE Church Assembly of God)                                                |   440 |  62.9 |    1 |  89% |
 |        9 | Jaxton Edmonson    | One way (First Assembly of God)                                                                     |   365 |  52.1 |    1 |  72% |
 |       10 | Muna Uzo           | God's Gang (Life Church)                                                                            |   280 |    40 |    1 |  79% |
-|       11 | Titus Trimble      | God\'s Sanitizers (Faith Assembly of God)                                                           |   265 |  37.9 |    3 |  70% |
+|       11 | Titus Trimble      | God's Sanitizers (Faith Assembly of God)                                                            |   265 |  37.9 |    3 |  70% |
 |       12 | Andrea Poovairaj   | Jesus Family Ministries #1 (Jesus Family Ministries)                                                |   235 |  33.6 |    1 |  81% |
 |       13 | Enyichi Ohiaeriaku | Freedom Christian Fellowship Wisdom Talkers (Freedom Christian Fellowship of the Assemblies of God) |   185 |  26.4 |      |  75% |
 |       14 | Johnny Cagle       | One way (First Assembly of God)                                                                     |    75 |  10.7 |    1 |  86% |
-|       15 | Andrea Bonilla     | God\'s Sanitizers (Faith Assembly of God)                                                           |    75 |  10.7 |      |  87% |
+|       15 | Andrea Bonilla     | God's Sanitizers (Faith Assembly of God)                                                            |    75 |  10.7 |      |  87% |
 |       16 | river skinner      | Freedom Christian Fellowship Wisdom Talkers (Freedom Christian Fellowship of the Assemblies of God) |    70 |    10 |      | 100% |
 |       17 | Layton Weathington | Freedom Christian Fellowship Wisdom Talkers (Freedom Christian Fellowship of the Assemblies of God) |    45 |   6.4 |      |  54% |
 | **\*17** | Gabriel Alexander  | Jesus Family Ministries #1 (Jesus Family Ministries)                                                |    45 |   6.4 |      |  54% |
@@ -125,7 +125,7 @@ menubar_toc_static:
 |       24 | Evelyn Jeffin      | Jesus Family Ministries #1 (Jesus Family Ministries)                                                |     0 |       |      |      |
 | **\*24** | Zion Castro        | MZ² (Highpoint Church)                                                                              |     0 |       |      |      |
 | **\*24** | Maya Castro        | MZ² (Highpoint Church)                                                                              |     0 |       |      |      |
-| **\*24** | Joseph Bland       | God\'s Sanitizers (Faith Assembly of God)                                                           |     0 |       |      |      |
+| **\*24** | Joseph Bland       | God's Sanitizers (Faith Assembly of God)                                                            |     0 |       |      |      |
 |       25 | Daniel Fernandez   | Keepers of the Command (New Life Assembly)                                                          |    -5 |   -.7 |      |  40% |
 | **\*25** | Tatiana Ray        | God's Gang (Life Church)                                                                            |    -5 |   -.7 |      |      |
 

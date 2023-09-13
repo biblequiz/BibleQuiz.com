@@ -122,7 +122,7 @@ menubar_toc_static:
 |  1.0 | Monmouth Junction, NJ (Knights 4 Christ - Faith)   | 12 / 1 |  2830 | 217.7 |   21 |  88% |
 |  2.1 | Hibbing, MN (Guardians of the Gospel)              | 11 / 2 |  2510 | 193.1 |   14 |  83% |
 |  3.0 | Red Oak, TX (Super Smash Bros)                     | 11 / 2 |  2865 | 220.4 |   19 |  88% |
-|  4.0 | San Jose, CA (Bethel\'s Wonderful Warriors)        | 9 / 4  |  2385 | 183.4 |   12 |  82% |
+|  4.0 | San Jose, CA (Bethel's Wonderful Warriors)         | 9 / 4  |  2385 | 183.4 |   12 |  82% |
 |  5.0 | Orlando, FL (Fruit of the Spirit)                  | 8 / 5  |  2455 | 188.8 |   11 |  84% |
 |  6.0 | Marietta, GA (Anointed Ones)                       | 8 / 5  |  1985 | 152.7 |    8 |  80% |
 |  7.0 | Sparta, WI (Sparta)                                | 8 / 5  |  1960 | 150.8 |    7 |  76% |
@@ -145,7 +145,7 @@ menubar_toc_static:
 |        3 | Josiah Lapusan         | Red Oak, TX (Super Smash Bros)                     |  1525 | 117.3 |    8 |  83% |
 |        4 | Aubrey Spence          | Orlando, FL (Fruit of the Spirit)                  |  1485 | 114.2 |    6 |  85% |
 |        5 | Mason Monty            | Mendon, MA (Bethany Community Church)              |  1470 | 113.1 |    9 |  81% |
-|        6 | Tehillah Jebaraj       | San Jose, CA (Bethel\'s Wonderful Warriors)        |  1320 | 101.5 |    6 |  82% |
+|        6 | Tehillah Jebaraj       | San Jose, CA (Bethel's Wonderful Warriors)         |  1320 | 101.5 |    6 |  82% |
 |        7 | Nathan Nimako          | Dublin, OH (Mighty Kingdom Warriors)               |  1265 |  97.3 |    7 |  87% |
 |        8 | Adrin Joseph           | Marietta, GA (Anointed Ones)                       |   920 |  70.8 |    4 |  84% |
 |        9 | Emmanuel David Jebaraj | Monmouth Junction, NJ (Knights 4 Christ - Faith)   |   895 |  68.8 |   12 |  85% |
@@ -158,7 +158,7 @@ menubar_toc_static:
 |       16 | Benjamin McCollam      | Dublin, OH (Mighty Kingdom Warriors)               |   700 |  53.8 |    8 |  78% |
 |       17 | Ezra Thomas            | Southhaven, MS (The CityGate Conquerors)           |   630 |  48.5 |    6 |  75% |
 |       18 | Daelyn Allard          | Sparta, WI (Sparta)                                |   590 |  45.4 |    6 |  83% |
-|       19 | Ethan Jala             | San Jose, CA (Bethel\'s Wonderful Warriors)        |   585 |    45 |    6 |  84% |
+|       19 | Ethan Jala             | San Jose, CA (Bethel's Wonderful Warriors)         |   585 |    45 |    6 |  84% |
 |       20 | Noah Thomas            | Southhaven, MS (The CityGate Conquerors)           |   560 |  43.1 |    4 |  66% |
 |       21 | Miguel Rios            | Orlando, FL (Fruit of the Spirit)                  |   540 |  41.5 |    5 |  80% |
 |       22 | Braden Bowker          | Carlinville, IL (Carlinville First)                |   510 |  39.2 |    2 |  91% |
@@ -171,7 +171,7 @@ menubar_toc_static:
 |       29 | Savannah Olson         | Askewville, NC (Askewville Bethel Assembly of God) |   345 |  26.5 |      |  75% |
 |       30 | Landon Helgerson       | Sparta, WI (Sparta)                                |   320 |  24.6 |      |  94% |
 |       31 | Abigail Abraham        | Monmouth Junction, NJ (Knights 4 Christ - Faith)   |   310 |  23.8 |      | 100% |
-| **\*31** | Aaryanna Aaron         | San Jose, CA (Bethel\'s Wonderful Warriors)        |   310 |  23.8 |      |  76% |
+| **\*31** | Aaryanna Aaron         | San Jose, CA (Bethel's Wonderful Warriors)         |   310 |  23.8 |      |  76% |
 |       32 | Jeremiah Andrew        | Shelby Township, MI (The Comeback Crew)            |   260 |    20 |    2 |  60% |
 |       33 | Harshish Jayakrishnan  | Marietta, GA (Anointed Ones)                       |   245 |  18.8 |    2 |  81% |
 |       34 | Lucas Abbott           | Sparta, WI (Sparta)                                |   225 |  17.3 |      |  50% |
@@ -179,8 +179,8 @@ menubar_toc_static:
 |       36 | Ashleigh Griffin       | Harrison, AR (Harrison Faith)                      |   120 |   9.2 |      | 100% |
 |       37 | Caden Day              | Hibbing, MN (Guardians of the Gospel)              |   110 |   8.5 |      | 100% |
 |       38 | Raphael Gideon         | Shelby Township, MI (The Comeback Crew)            |    95 |   7.3 |      |  82% |
-|       39 | Siobhan Aaron          | San Jose, CA (Bethel\'s Wonderful Warriors)        |    85 |   6.5 |      |  90% |
-| **\*39** | Livia Litman           | San Jose, CA (Bethel\'s Wonderful Warriors)        |    85 |   6.5 |      |  87% |
+|       39 | Siobhan Aaron          | San Jose, CA (Bethel's Wonderful Warriors)         |    85 |   6.5 |      |  90% |
+| **\*39** | Livia Litman           | San Jose, CA (Bethel's Wonderful Warriors)         |    85 |   6.5 |      |  87% |
 | **\*39** | Andi Wilson            | Harrison, AR (Harrison Faith)                      |    85 |   6.5 |      |  67% |
 |       40 | Hannah Lapusan         | Red Oak, TX (Super Smash Bros)                     |    80 |   6.2 |      | 100% |
 |       41 | Josh Birch             | Mendon, MA (Bethany Community Church)              |    65 |     5 |      |  87% |
@@ -307,7 +307,7 @@ menubar_toc_static:
 |    # | Team                                       | W/L    | Total |   Avg |   QO |   Q% |
 | ---: | ------------------------------------------ | ------ | ----: | ----: | ---: | ---: |
 |  1.0 | Bothell, WA (Beet-ih-tudes from Baby-lawn) | 14 / 0 |  2815 | 201.1 |   11 |  85% |
-|  2.0 | Cedar Hill, TX (Lettuce Taco \'Bout Jesus) | 11 / 3 |  2445 | 174.6 |   11 |  85% |
+|  2.0 | Cedar Hill, TX (Lettuce Taco 'Bout Jesus)  | 11 / 3 |  2445 | 174.6 |   11 |  85% |
 |  3.0 | Metuchen, NJ (Metuchen Assembly of God)    | 10 / 4 |  2500 | 178.6 |    4 |  81% |
 |  4.1 | Indianapolis, IN (Church52 -WITHER BOSSES) | 9 / 5  |  2345 | 167.5 |   13 |  75% |
 |  5.0 | Charlotte, NC (CICF Light of God)          | 9 / 5  |  2685 | 191.8 |   14 |  83% |
@@ -328,7 +328,7 @@ menubar_toc_static:
 
 |        # | Quizzer                      | Team                                       | Total |   Avg |   QO |   Q% |
 | -------: | ---------------------------- | ------------------------------------------ | ----: | ----: | ---: | ---: |
-|        1 | Asher Claunch                | Cedar Hill, TX (Lettuce Taco \'Bout Jesus) |  1795 | 128.2 |    9 |  88% |
+|        1 | Asher Claunch                | Cedar Hill, TX (Lettuce Taco 'Bout Jesus)  |  1795 | 128.2 |    9 |  88% |
 |        2 | Ethan Kihiu                  | Indianapolis, IN (Church52 -WITHER BOSSES) |  1680 |   120 |   11 |  79% |
 |        3 | London Lovelace              | Lees Summit, MO (Rock Kids)                |  1655 | 118.2 |    7 |  86% |
 |        4 | Adrian Samuel Winsley        | Charlotte, NC (CICF Light of God)          |  1610 |   115 |    8 |  83% |
@@ -351,7 +351,7 @@ menubar_toc_static:
 |       21 | Kojo Akuffo                  | Bristow, VA (Chapel Springs Gushers)       |   650 |  46.4 |    4 |  82% |
 |       22 | Lacee Smith                  | Shreveport, LA (Shining Stars)             |   640 |  45.7 |    1 |  88% |
 |       23 | Daniel McElfresh             | Maple Grove, MN (Velociquizzers)           |   580 |  41.4 |    7 |  76% |
-|       24 | Benjamin Ahime               | Cedar Hill, TX (Lettuce Taco \'Bout Jesus) |   555 |  39.6 |    2 |  86% |
+|       24 | Benjamin Ahime               | Cedar Hill, TX (Lettuce Taco 'Bout Jesus)  |   555 |  39.6 |    2 |  86% |
 |       25 | Caleb Vigh                   | Novi, MI (The Brave and the Bold)          |   505 |  36.1 |    5 |  69% |
 |       26 | Sarah Somarsapali            | Gahanna, OH (Fluffy Panda Quizzers)        |   405 |  28.9 |    2 |  77% |
 |       27 | Chinonso Okafor              | San Antonio, TX (Bethel Fire)              |   390 |  27.9 |    3 |  71% |
@@ -377,7 +377,7 @@ menubar_toc_static:
 | **\*44** | Josh Winsley                 | Charlotte, NC (CICF Light of God)          |   125 |   8.9 |      |  80% |
 |       45 | Michael McElfresh            | Maple Grove, MN (Velociquizzers)           |   110 |   7.9 |      | 100% |
 |       46 | Ruby Kilgore                 | Lees Summit, MO (Rock Kids)                |   100 |   7.1 |      | 100% |
-|       47 | Sonia Ahime                  | Cedar Hill, TX (Lettuce Taco \'Bout Jesus) |    95 |   6.8 |      |  67% |
+|       47 | Sonia Ahime                  | Cedar Hill, TX (Lettuce Taco 'Bout Jesus)  |    95 |   6.8 |      |  67% |
 |       48 | Catherine Laing              | Gahanna, OH (Fluffy Panda Quizzers)        |    80 |   5.7 |      | 100% |
 | **\*48** | Bryson Thomas                | Shreveport, LA (Shining Stars)             |    80 |   5.7 |      | 100% |
 |       49 | Alegra Castillo              | San Antonio, TX (Bethel Fire)              |    70 |     5 |      |  80% |
@@ -513,7 +513,7 @@ menubar_toc_static:
 |  7.1 | Greensboro, NC (Genesis A)                       | 3 / 6 |  1400 | 155.5 |    5 |  74% |
 |  8.0 | Hibbing, MN (Guardians of the Gospel)            | 3 / 6 |  1070 | 118.9 |    4 |  75% |
 |  9.0 | Springfield, VA (Gospel Quizzers)                | 2 / 7 |  1095 | 121.7 |    3 |  80% |
-| 10.0 | Cedar Hill, TX (Lettuce Taco \'Bout Jesus)       | 2 / 7 |   780 |  86.7 |    2 |  66% |
+| 10.0 | Cedar Hill, TX (Lettuce Taco 'Bout Jesus)        | 2 / 7 |   780 |  86.7 |    2 |  66% |
 
 #### Individuals
 
@@ -530,7 +530,7 @@ menubar_toc_static:
 |        7 | Timothy Liu            | Bothell, WA (Beet-ih-tudes from Baby-lawn)       |   640 |  71.1 |    1 |  80% |
 |        8 | Isaac Farnsworth       | Hibbing, MN (Guardians of the Gospel)            |   620 |  68.9 |    2 |  76% |
 |        9 | Rebecca Ebenezer Joel  | Charlotte, NC (CICF Children of God)             |   610 |  67.8 |      |  87% |
-|       10 | Asher Claunch          | Cedar Hill, TX (Lettuce Taco \'Bout Jesus)       |   545 |  60.6 |    1 |  68% |
+|       10 | Asher Claunch          | Cedar Hill, TX (Lettuce Taco 'Bout Jesus)        |   545 |  60.6 |    1 |  68% |
 |       11 | Rakshania Thomas       | Charlotte, NC (CICF Children of God)             |   510 |  56.7 |    2 |  70% |
 |       12 | Hannan Rapaka          | Greensboro, NC (Genesis A)                       |   465 |  51.7 |      |  76% |
 |       13 | Emmanuel David Jebaraj | Monmouth Junction, NJ (Knights 4 Christ - Faith) |   445 |  49.4 |    3 |  82% |
@@ -542,7 +542,7 @@ menubar_toc_static:
 |       19 | Amen Taye              | Springfield, VA (Gospel Quizzers)                |   360 |    40 |    2 |  69% |
 |       20 | Abigail Riverson       | Springfield, VA (Gospel Quizzers)                |   255 |  28.3 |      |  87% |
 |       21 | Drew Ramsey            | Nixa, MO (Impact JBQ -- M.E.N.D.)                |   245 |  27.2 |    1 |  79% |
-|       22 | Benjamin Ahime         | Cedar Hill, TX (Lettuce Taco \'Bout Jesus)       |   215 |  23.9 |    1 |  64% |
+|       22 | Benjamin Ahime         | Cedar Hill, TX (Lettuce Taco 'Bout Jesus)        |   215 |  23.9 |    1 |  64% |
 |       23 | Abigail Farnsworth     | Hibbing, MN (Guardians of the Gospel)            |   205 |  22.8 |    1 |  79% |
 |       24 | Elliot White           | Hibbing, MN (Guardians of the Gospel)            |   185 |  20.6 |    1 |  68% |
 |       25 | Aena Merlyn Madhanraj  | Charlotte, NC (CICF Children of God)             |   160 |  17.8 |    1 |  89% |
@@ -559,7 +559,7 @@ menubar_toc_static:
 | **\*34** | Abnet Kahsay           | Springfield, VA (Gospel Quizzers)                |    40 |   4.4 |      | 100% |
 |       35 | Sheryl Deepak          | Metuchen, NJ (Armored Warriors of Christ)        |    20 |   2.2 |      | 100% |
 | **\*35** | Abigail Abraham        | Monmouth Junction, NJ (Knights 4 Christ - Faith) |    20 |   2.2 |      |  99% |
-| **\*35** | Sonia Ahime            | Cedar Hill, TX (Lettuce Taco \'Bout Jesus)       |    20 |   2.2 |      |  60% |
+| **\*35** | Sonia Ahime            | Cedar Hill, TX (Lettuce Taco 'Bout Jesus)        |    20 |   2.2 |      |  60% |
 |       36 | Samuel Farnsworth      | Hibbing, MN (Guardians of the Gospel)            |    10 |   1.1 |      |  99% |
 | **\*36** | Ryker Day              | Hibbing, MN (Guardians of the Gospel)            |    10 |   1.1 |      |  99% |
 |       37 | Katherine Harmston     | Greensboro, NC (Genesis A)                       |     0 |       |      |      |
@@ -573,67 +573,67 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team                                        | W/L   | Total |   Avg |   QO |   Q% |
-| ---: | ------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
-|  1.0 | Red Oak, TX (Super Smash Bros)              | 7 / 1 |  1565 | 195.6 |   10 |  87% |
-|  2.0 | Metuchen, NJ (Metuchen Assembly of God)     | 6 / 2 |  1730 | 216.2 |    4 |  86% |
-|  3.1 | Shelby Township, MI (Those Kids)            | 5 / 3 |  1365 | 170.6 |    6 |  83% |
-|  4.0 | Houston, TX (The Chosen Warriors)           | 5 / 3 |   950 | 118.7 |    2 |  74% |
-|  5.1 | Apple Valley, MN (Pentateuch)               | 4 / 4 |  1215 | 151.9 |    6 |  81% |
-|  6.0 | Indianapolis, IN (Church52 -WITHER BOSSES)  | 4 / 4 |  1110 | 138.7 |    6 |  66% |
-|  7.1 | Mechanicsville, VA (MCC World Changers)     | 2 / 6 |   935 | 116.9 |    2 |  79% |
-|  8.0 | San Jose, CA (Bethel\'s Wonderful Warriors) | 2 / 6 |   895 | 111.9 |    1 |  85% |
-|  9.0 | San Antonio, TX (Mountain Movers)           | 1 / 7 |   910 | 113.7 |    4 |  73% |
+|    # | Team                                       | W/L   | Total |   Avg |   QO |   Q% |
+| ---: | ------------------------------------------ | ----- | ----: | ----: | ---: | ---: |
+|  1.0 | Red Oak, TX (Super Smash Bros)             | 7 / 1 |  1565 | 195.6 |   10 |  87% |
+|  2.0 | Metuchen, NJ (Metuchen Assembly of God)    | 6 / 2 |  1730 | 216.2 |    4 |  86% |
+|  3.1 | Shelby Township, MI (Those Kids)           | 5 / 3 |  1365 | 170.6 |    6 |  83% |
+|  4.0 | Houston, TX (The Chosen Warriors)          | 5 / 3 |   950 | 118.7 |    2 |  74% |
+|  5.1 | Apple Valley, MN (Pentateuch)              | 4 / 4 |  1215 | 151.9 |    6 |  81% |
+|  6.0 | Indianapolis, IN (Church52 -WITHER BOSSES) | 4 / 4 |  1110 | 138.7 |    6 |  66% |
+|  7.1 | Mechanicsville, VA (MCC World Changers)    | 2 / 6 |   935 | 116.9 |    2 |  79% |
+|  8.0 | San Jose, CA (Bethel's Wonderful Warriors) | 2 / 6 |   895 | 111.9 |    1 |  85% |
+|  9.0 | San Antonio, TX (Mountain Movers)          | 1 / 7 |   910 | 113.7 |    4 |  73% |
 
 #### Individuals
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                 | Team                                        | Total |   Avg |   QO |   Q% |
-| -------: | ----------------------- | ------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Josiah Lapusan          | Red Oak, TX (Super Smash Bros)              |  1025 | 128.1 |    5 |  88% |
-|        2 | Ethan Kihiu             | Indianapolis, IN (Church52 -WITHER BOSSES)  |   945 | 118.1 |    6 |  78% |
-|        3 | Valentina Immanuvel     | Metuchen, NJ (Metuchen Assembly of God)     |   885 | 110.6 |    3 |  97% |
-|        4 | Douglas Ringeisen       | Apple Valley, MN (Pentateuch)               |   720 |    90 |    4 |  75% |
-|        5 | Tehillah Jebaraj        | San Jose, CA (Bethel\'s Wonderful Warriors) |   570 |  71.3 |    1 |  88% |
-|        6 | Joshua James            | Shelby Township, MI (Those Kids)            |   540 |  67.5 |    1 |  81% |
-|        7 | Meredith Haley          | San Antonio, TX (Mountain Movers)           |   505 |  63.1 |      |  67% |
-|        8 | Roshan Padmanabhan      | Shelby Township, MI (Those Kids)            |   480 |    60 |    5 |  91% |
-|        9 | Jaden Ukonu             | Houston, TX (The Chosen Warriors)           |   480 |    60 |    1 |  71% |
-|       10 | Michelle Ajoy           | Metuchen, NJ (Metuchen Assembly of God)     |   450 |  56.3 |    1 |  82% |
-|       11 | Grace Bartholomew       | Red Oak, TX (Super Smash Bros)              |   440 |    55 |    5 |  84% |
-|       12 | Luke Thomas             | San Antonio, TX (Mountain Movers)           |   400 |    50 |    4 |  80% |
-|       13 | Kaleb Stanley           | Mechanicsville, VA (MCC World Changers)     |   380 |  47.5 |    1 |  74% |
-|       14 | Kritagya Shrestha       | Apple Valley, MN (Pentateuch)               |   335 |  41.9 |    2 |  87% |
-|       15 | Berkley Adams           | Mechanicsville, VA (MCC World Changers)     |   335 |  41.9 |      |  77% |
-|       16 | Tireni Akanbi           | Houston, TX (The Chosen Warriors)           |   270 |  33.8 |    1 |  86% |
-|       17 | Caleb Hartsock          | Mechanicsville, VA (MCC World Changers)     |   220 |  27.5 |    1 |  92% |
-|       18 | James Barney            | Shelby Township, MI (Those Kids)            |   220 |  27.5 |      |  65% |
-|       19 | Joanna Ajay             | Metuchen, NJ (Metuchen Assembly of God)     |   155 |  19.4 |      |  85% |
-|       20 | Alyssa Dean             | Metuchen, NJ (Metuchen Assembly of God)     |   140 |  17.5 |      |  88% |
-|       21 | Ariana Moussa           | Shelby Township, MI (Those Kids)            |   125 |  15.6 |      |  82% |
-|       22 | Nathaniel (Nate) Tonade | Indianapolis, IN (Church52 -WITHER BOSSES)  |   120 |    15 |      |  56% |
-|       23 | Onyinyechi Kanu         | Houston, TX (The Chosen Warriors)           |   110 |  13.8 |      | 100% |
-| **\*23** | Aaryanna Aaron          | San Jose, CA (Bethel\'s Wonderful Warriors) |   110 |  13.8 |      | 100% |
-|       24 | John Colley             | Red Oak, TX (Super Smash Bros)              |   100 |  12.5 |      | 100% |
-| **\*24** | Joshua Abraham          | Metuchen, NJ (Metuchen Assembly of God)     |   100 |  12.5 |      |  68% |
-|       25 | Ethan Jala              | San Jose, CA (Bethel\'s Wonderful Warriors) |    95 |  11.9 |      |  69% |
-|       26 | Livia Litman            | San Jose, CA (Bethel\'s Wonderful Warriors) |    90 |  11.3 |      |  86% |
-|       27 | Izundu Ike              | Houston, TX (The Chosen Warriors)           |    85 |  10.6 |      |  44% |
-|       28 | Macie Pahl              | Apple Valley, MN (Pentateuch)               |    80 |    10 |      | 100% |
-|       29 | Kayden Decker           | Apple Valley, MN (Pentateuch)               |    70 |   8.8 |      | 100% |
-|       30 | James Smith             | Indianapolis, IN (Church52 -WITHER BOSSES)  |    50 |   6.3 |      |  53% |
-|       31 | Siobhan Aaron           | San Jose, CA (Bethel\'s Wonderful Warriors) |    30 |   3.8 |      | 100% |
-|       32 | Shea Walsh              | Apple Valley, MN (Pentateuch)               |    10 |   1.3 |      |  99% |
-| **\*32** | Somto Onyekwelu         | Houston, TX (The Chosen Warriors)           |    10 |   1.3 |      |  99% |
-|       33 | Miles Haley             | San Antonio, TX (Mountain Movers)           |     5 |    .6 |      |  50% |
-|       34 | Hannah Lapusan          | Red Oak, TX (Super Smash Bros)              |     0 |       |      |      |
-| **\*34** | Raegan Wirth            | Red Oak, TX (Super Smash Bros)              |     0 |       |      |      |
-| **\*34** | Vhiel Rola              | San Antonio, TX (Mountain Movers)           |     0 |       |      |      |
-| **\*34** | Annakate Thompson       | Mechanicsville, VA (MCC World Changers)     |     0 |       |      |      |
-| **\*34** | Yane Azuike             | Houston, TX (The Chosen Warriors)           |     0 |       |      |      |
-|       35 | Owen McAfee             | Indianapolis, IN (Church52 -WITHER BOSSES)  |    -5 |   -.6 |      |      |
-| **\*35** | Benjamin Adu-gyamfi     | Houston, TX (The Chosen Warriors)           |    -5 |   -.6 |      |      |
+|        # | Quizzer                 | Team                                       | Total |   Avg |   QO |   Q% |
+| -------: | ----------------------- | ------------------------------------------ | ----: | ----: | ---: | ---: |
+|        1 | Josiah Lapusan          | Red Oak, TX (Super Smash Bros)             |  1025 | 128.1 |    5 |  88% |
+|        2 | Ethan Kihiu             | Indianapolis, IN (Church52 -WITHER BOSSES) |   945 | 118.1 |    6 |  78% |
+|        3 | Valentina Immanuvel     | Metuchen, NJ (Metuchen Assembly of God)    |   885 | 110.6 |    3 |  97% |
+|        4 | Douglas Ringeisen       | Apple Valley, MN (Pentateuch)              |   720 |    90 |    4 |  75% |
+|        5 | Tehillah Jebaraj        | San Jose, CA (Bethel's Wonderful Warriors) |   570 |  71.3 |    1 |  88% |
+|        6 | Joshua James            | Shelby Township, MI (Those Kids)           |   540 |  67.5 |    1 |  81% |
+|        7 | Meredith Haley          | San Antonio, TX (Mountain Movers)          |   505 |  63.1 |      |  67% |
+|        8 | Roshan Padmanabhan      | Shelby Township, MI (Those Kids)           |   480 |    60 |    5 |  91% |
+|        9 | Jaden Ukonu             | Houston, TX (The Chosen Warriors)          |   480 |    60 |    1 |  71% |
+|       10 | Michelle Ajoy           | Metuchen, NJ (Metuchen Assembly of God)    |   450 |  56.3 |    1 |  82% |
+|       11 | Grace Bartholomew       | Red Oak, TX (Super Smash Bros)             |   440 |    55 |    5 |  84% |
+|       12 | Luke Thomas             | San Antonio, TX (Mountain Movers)          |   400 |    50 |    4 |  80% |
+|       13 | Kaleb Stanley           | Mechanicsville, VA (MCC World Changers)    |   380 |  47.5 |    1 |  74% |
+|       14 | Kritagya Shrestha       | Apple Valley, MN (Pentateuch)              |   335 |  41.9 |    2 |  87% |
+|       15 | Berkley Adams           | Mechanicsville, VA (MCC World Changers)    |   335 |  41.9 |      |  77% |
+|       16 | Tireni Akanbi           | Houston, TX (The Chosen Warriors)          |   270 |  33.8 |    1 |  86% |
+|       17 | Caleb Hartsock          | Mechanicsville, VA (MCC World Changers)    |   220 |  27.5 |    1 |  92% |
+|       18 | James Barney            | Shelby Township, MI (Those Kids)           |   220 |  27.5 |      |  65% |
+|       19 | Joanna Ajay             | Metuchen, NJ (Metuchen Assembly of God)    |   155 |  19.4 |      |  85% |
+|       20 | Alyssa Dean             | Metuchen, NJ (Metuchen Assembly of God)    |   140 |  17.5 |      |  88% |
+|       21 | Ariana Moussa           | Shelby Township, MI (Those Kids)           |   125 |  15.6 |      |  82% |
+|       22 | Nathaniel (Nate) Tonade | Indianapolis, IN (Church52 -WITHER BOSSES) |   120 |    15 |      |  56% |
+|       23 | Onyinyechi Kanu         | Houston, TX (The Chosen Warriors)          |   110 |  13.8 |      | 100% |
+| **\*23** | Aaryanna Aaron          | San Jose, CA (Bethel's Wonderful Warriors) |   110 |  13.8 |      | 100% |
+|       24 | John Colley             | Red Oak, TX (Super Smash Bros)             |   100 |  12.5 |      | 100% |
+| **\*24** | Joshua Abraham          | Metuchen, NJ (Metuchen Assembly of God)    |   100 |  12.5 |      |  68% |
+|       25 | Ethan Jala              | San Jose, CA (Bethel's Wonderful Warriors) |    95 |  11.9 |      |  69% |
+|       26 | Livia Litman            | San Jose, CA (Bethel's Wonderful Warriors) |    90 |  11.3 |      |  86% |
+|       27 | Izundu Ike              | Houston, TX (The Chosen Warriors)          |    85 |  10.6 |      |  44% |
+|       28 | Macie Pahl              | Apple Valley, MN (Pentateuch)              |    80 |    10 |      | 100% |
+|       29 | Kayden Decker           | Apple Valley, MN (Pentateuch)              |    70 |   8.8 |      | 100% |
+|       30 | James Smith             | Indianapolis, IN (Church52 -WITHER BOSSES) |    50 |   6.3 |      |  53% |
+|       31 | Siobhan Aaron           | San Jose, CA (Bethel's Wonderful Warriors) |    30 |   3.8 |      | 100% |
+|       32 | Shea Walsh              | Apple Valley, MN (Pentateuch)              |    10 |   1.3 |      |  99% |
+| **\*32** | Somto Onyekwelu         | Houston, TX (The Chosen Warriors)          |    10 |   1.3 |      |  99% |
+|       33 | Miles Haley             | San Antonio, TX (Mountain Movers)          |     5 |    .6 |      |  50% |
+|       34 | Hannah Lapusan          | Red Oak, TX (Super Smash Bros)             |     0 |       |      |      |
+| **\*34** | Raegan Wirth            | Red Oak, TX (Super Smash Bros)             |     0 |       |      |      |
+| **\*34** | Vhiel Rola              | San Antonio, TX (Mountain Movers)          |     0 |       |      |      |
+| **\*34** | Annakate Thompson       | Mechanicsville, VA (MCC World Changers)    |     0 |       |      |      |
+| **\*34** | Yane Azuike             | Houston, TX (The Chosen Warriors)          |     0 |       |      |      |
+|       35 | Owen McAfee             | Indianapolis, IN (Church52 -WITHER BOSSES) |    -5 |   -.6 |      |      |
+| **\*35** | Benjamin Adu-gyamfi     | Houston, TX (The Chosen Warriors)          |    -5 |   -.6 |      |      |
 
 
 ### Lavender

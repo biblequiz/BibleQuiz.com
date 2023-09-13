@@ -59,7 +59,7 @@ menubar_toc_static:
 |   20 | Garrett Dorsey       | Starburst          | NLR First AG           |    55 |   6.88 |      |
 |   21 | Afton Tharp          | Word Warriors      | Bella Vista AG         |    40 |   5.00 |      |
 |   21 | Nevaeh Watson        | K-2 Boltz          | New Life AG (Sherwood) |    40 |   5.00 |      |
-|   21 | Alex\'s Harvey       | McArthur           | McArthur Church        |    40 |   5.00 |      |
+|   21 | Alex's Harvey        | McArthur           | McArthur Church        |    40 |   5.00 |      |
 |   22 | Alice Weeley         | McArthur           | McArthur Church        |    30 |   3.75 |      |
 |   23 | Aubrey Harvey        | McArthur           | McArthur Church        |    25 |   3.13 |      |
 |   24 | Ty Harper            | Starburst          | NLR First AG           |    20 |   2.50 |      |

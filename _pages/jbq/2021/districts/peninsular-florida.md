@@ -78,8 +78,8 @@ menubar_toc_static:
 |    # | Team                                                           | W/L   | Total |   Avg |   QO |   Q% |
 | ---: | -------------------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.1 | Captain Unicorn Quizzers (Faith Assembly of God)               | 4 / 2 |   665 | 110.8 |    3 |  74% |
-|  2.1 | God\'s Gamers (Faith Assembly of God)                          | 4 / 2 |   630 |   105 |    1 |  88% |
-|  3.0 | God\'s Army (Faith Assembly of God)                            | 2 / 4 |   475 |  79.2 |    3 |  71% |
+|  2.1 | God's Gamers (Faith Assembly of God)                           | 4 / 2 |   630 |   105 |    1 |  88% |
+|  3.0 | God's Army (Faith Assembly of God)                             | 2 / 4 |   475 |  79.2 |    3 |  71% |
 |  4.0 | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) | 2 / 4 |   460 |  76.7 |    1 |  87% |
 
 ### Individuals
@@ -88,21 +88,21 @@ menubar_toc_static:
 
 |        # | Quizzer           | Team                                                           | Total |  Avg |   QO |   Q% |
 | -------: | ----------------- | -------------------------------------------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Camden Spence     | God\'s Gamers (Faith Assembly of God)                          |   540 |   90 |    1 |  93% |
+|        1 | Camden Spence     | God's Gamers (Faith Assembly of God)                           |   540 |   90 |    1 |  93% |
 |        2 | Joseph Bland      | Captain Unicorn Quizzers (Faith Assembly of God)               |   435 | 72.5 |    3 |  84% |
 |        3 | Sirayah Williams  | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) |   335 | 55.8 |    1 |  89% |
-|        4 | Alicia Johnson    | God\'s Army (Faith Assembly of God)                            |   275 | 45.8 |    2 |  80% |
+|        4 | Alicia Johnson    | God's Army (Faith Assembly of God)                             |   275 | 45.8 |    2 |  80% |
 |        5 | Jasmine Archinihu | Captain Unicorn Quizzers (Faith Assembly of God)               |   210 |   35 |      |  75% |
-|        6 | J.D. Pereira      | God\'s Army (Faith Assembly of God)                            |   190 | 31.7 |    1 |  61% |
+|        6 | J.D. Pereira      | God's Army (Faith Assembly of God)                             |   190 | 31.7 |    1 |  61% |
 |        7 | Kirra Perry       | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) |    95 | 15.8 |      |  80% |
-|        8 | Zoey Morales      | God\'s Gamers (Faith Assembly of God)                          |    50 |  8.3 |      |  80% |
-|        9 | Benjamin Reilly   | God\'s Gamers (Faith Assembly of God)                          |    40 |  6.7 |      |  71% |
+|        8 | Zoey Morales      | God's Gamers (Faith Assembly of God)                           |    50 |  8.3 |      |  80% |
+|        9 | Benjamin Reilly   | God's Gamers (Faith Assembly of God)                           |    40 |  6.7 |      |  71% |
 |       10 | Guillermo Diaz    | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) |    30 |    5 |      | 100% |
-|       11 | Michael Reilly    | God\'s Army (Faith Assembly of God)                            |    15 |  2.5 |      |  50% |
+|       11 | Michael Reilly    | God's Army (Faith Assembly of God)                             |    15 |  2.5 |      |  50% |
 |       12 | Liam Morales      | Captain Unicorn Quizzers (Faith Assembly of God)               |    10 |  1.7 |      |  99% |
 | **\*12** | Andrea Bonilla    | Captain Unicorn Quizzers (Faith Assembly of God)               |    10 |  1.7 |      |  36% |
 |       13 | Allison Crouch    | The Buzzie Bees (LIFE Church AG) (LIFE Church Assembly of God) |     0 |      |      |      |
-|       14 | Daniel Bonilla    | God\'s Army (Faith Assembly of God)                            |    -5 |  -.8 |      |      |
+|       14 | Daniel Bonilla    | God's Army (Faith Assembly of God)                             |    -5 |  -.8 |      |      |
 
 
 ## Flight 3
@@ -114,7 +114,7 @@ menubar_toc_static:
 |    # | Team                                                            | W/L   | Total |   Avg |   QO |   Q% |
 | ---: | --------------------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | The Quarantined (LIFE Church AG) (LIFE Church Assembly of God)  | 6 / 0 |   635 | 105.8 |    1 |  89% |
-|  2.0 | Jesus\' Disciples (Faith Assembly of God)                       | 4 / 2 |   690 |   115 |    2 |  77% |
+|  2.0 | Jesus' Disciples (Faith Assembly of God)                        | 4 / 2 |   690 |   115 |    2 |  77% |
 |  3.0 | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God) | 2 / 4 |   230 |  38.3 |      |  78% |
 |  4.0 | KFC (Kids for Christ) (Trinity Assembly of God)                 | 0 / 6 |   145 |  24.2 |      |  76% |
 
@@ -124,14 +124,14 @@ menubar_toc_static:
 
 |        # | Quizzer           | Team                                                            | Total |  Avg |   QO |   Q% |
 | -------: | ----------------- | --------------------------------------------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Cristina Rios     | Jesus\' Disciples (Faith Assembly of God)                       |   325 | 54.2 |    1 |  84% |
+|        1 | Cristina Rios     | Jesus' Disciples (Faith Assembly of God)                        |   325 | 54.2 |    1 |  84% |
 |        2 | Chloe Averill     | The Quarantined (LIFE Church AG) (LIFE Church Assembly of God)  |   285 | 47.5 |      |  89% |
 |        3 | Jonathan Williams | The Quarantined (LIFE Church AG) (LIFE Church Assembly of God)  |   230 | 38.3 |    1 |  91% |
 |        4 | Piper Kramper     | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God) |   205 | 34.2 |      |  87% |
-|        5 | Ethan Cruz        | Jesus\' Disciples (Faith Assembly of God)                       |   175 | 29.2 |      |  86% |
+|        5 | Ethan Cruz        | Jesus' Disciples (Faith Assembly of God)                        |   175 | 29.2 |      |  86% |
 |        6 | Benjamin Craddock | KFC (Kids for Christ) (Trinity Assembly of God)                 |   145 | 24.2 |      |  84% |
-|        7 | Lydia Marrero     | Jesus\' Disciples (Faith Assembly of God)                       |    95 | 15.8 |    1 |  57% |
-|        8 | Miguel Rios       | Jesus\' Disciples (Faith Assembly of God)                       |    95 | 15.8 |      |  91% |
+|        7 | Lydia Marrero     | Jesus' Disciples (Faith Assembly of God)                        |    95 | 15.8 |    1 |  57% |
+|        8 | Miguel Rios       | Jesus' Disciples (Faith Assembly of God)                        |    95 | 15.8 |      |  91% |
 |        9 | Brighton Hill     | The Quarantined (LIFE Church AG) (LIFE Church Assembly of God)  |    70 | 11.7 |      | 100% |
 |       10 | Dalton Crouch     | The Quarantined (LIFE Church AG) (LIFE Church Assembly of God)  |    50 |  8.3 |      |  67% |
 |       11 | Lorelai Moreno    | Harvest Assembly of God (Lakeland) #1 (Harvest Assembly of God) |    25 |  4.2 |      |  57% |

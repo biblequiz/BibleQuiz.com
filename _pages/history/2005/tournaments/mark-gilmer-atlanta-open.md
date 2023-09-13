@@ -138,16 +138,16 @@ only on the divisional rounds played.
 
 #### Top Individuals
 
-|    # | Quizzer                         | Team | Total |  Avg |   QO |
-| ---: | ------------------------------- | ---- | ----: | ---: | ---: |
-|    1 | Cami Gregory, Denton            | 545  |    77 |    9 |      |
-|    2 | Bradley Chapman, Dahlonega      | 375  |       |      |      |
-|    3 | Chelsea Gonzalez, Fort Myers #2 | 365  |       |      |      |
-|    4 | Marylee Couch, Fort Myers #2    | 285  |       |      |      |
-|   4* | Jessica Temple, Rome            | 285  |       |      |      |
-|    6 | Daniel O'Brien, Lexington #1    | 200  |       |      |      |
-|    7 | Paul Jones, Lexington #1        | 185  |       |      |      |
-|    8 | Maria Valenti, Fort Myers #3    | 165  |       |      |      |
-|    9 | Amber Schlesinger, Rome         | 150  |       |      |      |
-|   10 | Heather Irvine, Fort Myers #1   | 145  |       |      |      |
+|    # | Quizzer           | Team          | Total |  Avg |   QO |
+| ---: | ----------------- | ------------- | ----: | ---: | ---: |
+|    1 | Cami Gregory      | Denton        |   545 |   77 |    9 |
+|    2 | Bradley Chapman   | Dahlonega     |   375 |      |      |
+|    3 | Chelsea Gonzalez  | Fort Myers #2 |   365 |      |      |
+|    4 | Marylee Couch     | Fort Myers #2 |   285 |      |      |
+|   4* | Jessica Temple    | Rome          |   285 |      |      |
+|    6 | Daniel O'Brien    | Lexington #1  |   200 |      |      |
+|    7 | Paul Jones        | Lexington #1  |   185 |      |      |
+|    8 | Maria Valenti     | Fort Myers #3 |   165 |      |      |
+|    9 | Amber Schlesinger | Rome          |   150 |      |      |
+|   10 | Heather Irvine    | Fort Myers #1 |   145 |      |      |
 

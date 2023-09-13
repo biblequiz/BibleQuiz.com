@@ -22,7 +22,7 @@ menubar_toc_static:
 |  2.0 | \*\*Naperville-IL (Calvary Church)                    | 11 / 3 |  2950 | 210.7 |   22 |  89% |
 |  3.0 | \*\*Gahanna-OH (Fluffy Panda Quizzers)                | 11 / 3 |  2685 | 191.8 |   23 |  86% |
 |  4.0 | Dublin-OH (Radiant Life Church)                       | 11 / 3 |  2635 | 188.2 |    8 |  80% |
-|  5.0 | Holt-MI (Michigan\'s Young Bereans)                   | 11 / 3 |  2545 | 181.8 |   15 |  81% |
+|  5.0 | Holt-MI (Michigan's Young Bereans)                    | 11 / 3 |  2545 | 181.8 |   15 |  81% |
 |  6.0 | Bowling Green-OH (Dayspring Church)                   | 9 / 5  |  2390 | 170.7 |   14 |  78% |
 |  7.0 | Lexington-KY (C.I.A.)                                 | 8 / 6  |  2220 | 158.6 |   11 |  78% |
 |  8.1 | \*\*Georgetown-KY (All 4 Christ!)                     | 7 / 7  |  2360 | 168.6 |   17 |  79% |
@@ -40,7 +40,7 @@ menubar_toc_static:
 
 |        # | Quizzer              | Team                                                  | Total |   Avg |   QO |   Q% |
 | -------: | -------------------- | ----------------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Angel Egbendewe      | Holt-MI (Michigan\'s Young Bereans)                   |  1940 | 138.6 |   13 |  92% |
+|        1 | Angel Egbendewe      | Holt-MI (Michigan's Young Bereans)                    |  1940 | 138.6 |   13 |  92% |
 |        2 | Caleb Karthik        | \*\*Gahanna-OH (Fluffy Panda Quizzers)                |  1885 | 134.6 |   12 |  89% |
 |        3 | Pierce Stevens       | \*\*Naperville-IL (Calvary Church)                    |  1720 | 122.9 |   11 |  87% |
 |        4 | Ethan Kihiu          | \*\*Indianapolis-IN (Church52)                        |  1425 | 101.8 |    9 |  84% |
@@ -72,10 +72,10 @@ menubar_toc_static:
 |       30 | Sage Donahue         | Fort Wayne-IN (Central Ministries)                    |   300 |  21.4 |      |  75% |
 |       31 | Jonah Burroughs      | Temperance-MI (Compelled Church)                      |   265 |  18.9 |      |  94% |
 | **\*31** | Andrew Hoffman       | Fort Wayne-IN (Central Ministries)                    |   265 |  18.9 |      |  64% |
-|       32 | Jaren Stepp          | Holt-MI (Michigan\'s Young Bereans)                   |   260 |  18.6 |    1 |  74% |
+|       32 | Jaren Stepp          | Holt-MI (Michigan's Young Bereans)                    |   260 |  18.6 |    1 |  74% |
 |       33 | Caleb Barnes         | Bowling Green-OH (Dayspring Church)                   |   260 |  18.6 |      |  89% |
 | **\*33** | Leah Novit           | \*\*Indianapolis-IN (Church52)                        |   260 |  18.6 |      |  89% |
-|       34 | JJ Burns             | Holt-MI (Michigan\'s Young Bereans)                   |   250 |  17.9 |    1 |  88% |
+|       34 | JJ Burns             | Holt-MI (Michigan's Young Bereans)                    |   250 |  17.9 |    1 |  88% |
 |       35 | Luke Householder     | Shelby Township-MI (F) (Lakeside Assembly of God)     |   250 |  17.9 |      |  90% |
 |       36 | Lawson Bailey        | Sandusky-OH (Faith Memorial Church)                   |   245 |  17.5 |      |  89% |
 |       37 | Ethan Davis          | Bowling Green-OH (Dayspring Church)                   |   240 |  17.1 |      |  73% |
@@ -86,13 +86,13 @@ menubar_toc_static:
 |       42 | Chase Berberick      | Sandusky-OH (Faith Memorial Church)                   |    90 |   6.4 |      | 100% |
 |       43 | Colten Vandercook    | Temperance-MI (Compelled Church)                      |    75 |   5.4 |      |  62% |
 |       44 | Malia Bowker         | Carlinville-IL (First Assembly of God)                |    70 |     5 |      | 100% |
-|       45 | Koah Richey          | Holt-MI (Michigan\'s Young Bereans)                   |    65 |   4.6 |      |  52% |
+|       45 | Koah Richey          | Holt-MI (Michigan's Young Bereans)                    |    65 |   4.6 |      |  52% |
 |       46 | James Smith          | \*\*Indianapolis-IN (Church52)                        |    60 |   4.3 |      |  87% |
 | **\*46** | Isabella Thompson    | Berea-KY (Church on the Rock)                         |    60 |   4.3 |      |  60% |
 |       47 | Brock Schreiner      | \*\*Georgetown-KY (All 4 Christ!)                     |    50 |   3.6 |      | 100% |
 | **\*47** | Adrijana Gootee      | \*\*Indianapolis-IN (Church52)                        |    50 |   3.6 |      | 100% |
 |       48 | Ben Schuette         | Carlinville-IL (First Assembly of God)                |    45 |   3.2 |      |  71% |
-|       49 | Adelaide Blevins     | Holt-MI (Michigan\'s Young Bereans)                   |    30 |   2.1 |      | 100% |
+|       49 | Adelaide Blevins     | Holt-MI (Michigan's Young Bereans)                    |    30 |   2.1 |      | 100% |
 | **\*49** | Patrick Champion     | Fort Wayne-IN (Central Ministries)                    |    30 |   2.1 |      |  67% |
 |       50 | Owen McAfee          | \*\*Indianapolis-IN (Church52)                        |    25 |   1.8 |      | 100% |
 | **\*50** | Audrey Caudill       | \*\*Georgetown-KY (All 4 Christ!)                     |    25 |   1.8 |      |  75% |
@@ -102,7 +102,7 @@ menubar_toc_static:
 | **\*51** | Makenna Baker        | Fort Wayne-IN (Central Ministries)                    |    10 |    .7 |      |  66% |
 | **\*51** | David Rice           | Shelby Township-MI (F) (Lakeside Assembly of God)     |    10 |    .7 |      |  40% |
 |       52 | Eliza Isaacs         | Berea-KY (Church on the Rock)                         |     5 |    .4 |      |  99% |
-| **\*52** | Jemma Stepp          | Holt-MI (Michigan\'s Young Bereans)                   |     5 |    .4 |      |  66% |
+| **\*52** | Jemma Stepp          | Holt-MI (Michigan's Young Bereans)                    |     5 |    .4 |      |  66% |
 |       53 | Lucy Winkler         | Bowling Green-OH (Dayspring Church)                   |     0 |       |      |  33% |
 | **\*53** | Brinley Lamb         | Fort Wayne-IN (Central Ministries)                    |     0 |       |      |      |
 | **\*53** | Allison Grile        | Fort Wayne-IN (Central Ministries)                    |     0 |       |      |      |

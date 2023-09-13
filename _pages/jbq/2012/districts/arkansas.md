@@ -451,7 +451,7 @@ menubar_toc_static:
 |    # | Team                             | Church                             | W/L  | Total |    Avg |
 | ---: | -------------------------------- | ---------------------------------- | ---- | ----: | -----: |
 |    1 | Buzz Hogs                        | River of Life                      | 14/1 |  2975 | 198.33 |
-|    2 | God\'s Chosen                    | Harrison Faith Assembly            | 13/2 |  3495 | 233.00 |
+|    2 | God's Chosen                     | Harrison Faith Assembly            | 13/2 |  3495 | 233.00 |
 |    3 | Searcy Fruit Loops               | Searcy First Assembly of God       | 13/2 |  2700 | 180.00 |
 |    4 | DAG Church                       | Decatur AG church                  | 12/3 |  3230 | 215.33 |
 |    5 | Kung Fu Quizzers                 | Benton First Assembly              | 11/4 |  2665 | 177.67 |
@@ -477,12 +477,12 @@ menubar_toc_static:
 |    2 | Hannah Greenwell    | Kung Fu Quizzers                 | Benton First Assembly              |  1905 | 127.00 |   11 |
 |    3 | Diamond Jordan      | Crystal Hill                     | Crystal Hill Assembly of God       |  1825 | 121.67 |    9 |
 |    4 | Amanda Duncan       | DAG Church                       | Decatur AG church                  |  1685 | 112.33 |    9 |
-|    5 | Kerigan Bradshaw    | God\'s Chosen                    | Harrison Faith Assembly            |  1600 | 106.67 |   13 |
+|    5 | Kerigan Bradshaw    | God's Chosen                     | Harrison Faith Assembly            |  1600 | 106.67 |   13 |
 |    6 | Riley Johns         | McArthur Team A                  | McArthur Assembly of God           |  1480 |  98.67 |    8 |
 |    7 | Lance Duran         | Russellville First Assembly      | Russellville First Assembly of God |  1345 |  89.67 |   10 |
 |    8 | Katie Richardson    | McArthur Team B                  | McArthur Assembly of God           |  1285 |  85.67 |    5 |
 |    9 | Allison Shipman     | Searcy Fruit Loops               | Searcy First Assembly of God       |  1205 |  80.33 |    6 |
-|   10 | Nicholas Dillon     | God\'s Chosen                    | Harrison Faith Assembly            |  1200 |  80.00 |    6 |
+|   10 | Nicholas Dillon     | God's Chosen                     | Harrison Faith Assembly            |  1200 |  80.00 |    6 |
 |   11 | Emily McDonald      | Faithbuilders                    | Texarkana Faith Assembly of God    |  1005 |  67.00 |    2 |
 |   12 | Kevin Solley        | Sand Hill Assembly of God        | Sand Hill Assembly of God          |   995 |  66.33 |    8 |
 |   13 | Joe Hamby           | Team-Butterfield Assembly Of God | Butterfield Assembly Of God        |   915 |  61.00 |    2 |
@@ -496,7 +496,7 @@ menubar_toc_static:
 |   21 | Michael Johnson     | McArthur Team A                  | McArthur Assembly of God           |   610 |  40.67 |    6 |
 |   22 | Alyssa Brown        | Bible Bugs                       | Fordyce First A/G                  |   610 |  40.67 |    1 |
 |   23 | Isaiah Brown        | Team-Butterfield Assembly Of God | Butterfield Assembly Of God        |   545 |  36.33 |    3 |
-|   24 | Bethany Warren      | God\'s Chosen                    | Harrison Faith Assembly            |   500 |  33.33 |    3 |
+|   24 | Bethany Warren      | God's Chosen                     | Harrison Faith Assembly            |   500 |  33.33 |    3 |
 |   25 | Jakob Sheek         | Faithbuilders                    | Texarkana Faith Assembly of God    |   490 |  32.67 |    3 |
 |   26 | Alex Boryschtsck    | McArthur Team B                  | McArthur Assembly of God           |   485 |  32.33 |    6 |
 |   27 | Trey Anderson       | DAG Church                       | Decatur AG church                  |   480 |  32.00 |      |
@@ -510,7 +510,7 @@ menubar_toc_static:
 |   35 | Abigail Thompson    | Trinity Fellowship               | Trinity Fellowship                 |   230 |  15.33 |      |
 |   36 | Trent Ross          | McArthur Team A                  | McArthur Assembly of God           |   210 |  14.00 |      |
 |   36 | Maegan Vacco        | Jonesboro 1st                    | Jonesboro First Assembly of God    |   210 |  14.00 |      |
-|   37 | Micayla Herring     | God\'s Chosen                    | Harrison Faith Assembly            |   195 |  13.00 |      |
+|   37 | Micayla Herring     | God's Chosen                     | Harrison Faith Assembly            |   195 |  13.00 |      |
 |   37 | Marrisa Garrett     | Team-Butterfield Assembly Of God | Butterfield Assembly Of God        |   195 |  13.00 |      |
 |   38 | Abbie Pausch        | Jonesboro 1st                    | Jonesboro First Assembly of God    |   185 |  12.33 |      |
 |   39 | Breana Ogden        | Crystal Hill                     | Crystal Hill Assembly of God       |   165 |  11.00 |      |

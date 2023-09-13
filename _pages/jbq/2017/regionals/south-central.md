@@ -28,8 +28,8 @@ menubar_toc_static:
 |  5.1 | Transformed Souls (First At Firewheel)       | 13 / 8  |  3420 | 162.8 |   13 |  75% |
 |  5.0 | Expert Witnesses (Freedom Church)            | 13 / 8  |  3230 | 153.8 |    9 |  75% |
 |  6.0 | Bible Warriors (Great Bend 1st AG)           | 12 / 9  |  2985 | 142.1 |    9 |  84% |
-|  7.0 | God\'s Girls \* (Oswego AG)                  | 11 / 10 |  3400 | 161.9 |    7 |  74% |
-|  8.0 | God\'s Masterpiece (Emporia Life Church)     | 10 / 11 |  2890 | 137.6 |    9 |  83% |
+|  7.0 | God's Girls \* (Oswego AG)                   | 11 / 10 |  3400 | 161.9 |    7 |  74% |
+|  8.0 | God's Masterpiece (Emporia Life Church)      | 10 / 11 |  2890 | 137.6 |    9 |  83% |
 |  8.0 | KC Quizzers (Overland Park 1st AG)           | 10 / 11 |  2740 | 130.5 |   16 |  73% |
 |  8.0 | Humble Heroes (Humble First AOG)             | 10 / 11 |  2670 | 127.1 |   18 |  75% |
 |  9.0 | Undignified \* (1st AG)                      | 9 / 12  |  2750 | 130.9 |    9 |  70% |
@@ -51,7 +51,7 @@ menubar_toc_static:
 |        2 | Joanne Ramesh \*        | Transformed Souls (First At Firewheel)       |  2090 |  99.5 |    7 |  85% |
 |        3 | Joy Escobar \*          | Kids For Christ (Bethsda AG)                 |  2050 |  97.6 |    8 |  79% |
 |        4 | Michael Ukonu \*        | The Chosen Ones (Braeswood Church)           |  2025 |  96.4 |   10 |  82% |
-|        5 | Noah Small \*           | God\'s Masterpiece (Emporia Life Church)     |  1995 |    95 |    9 |  87% |
+|        5 | Noah Small \*           | God's Masterpiece (Emporia Life Church)      |  1995 |    95 |    9 |  87% |
 |        6 | Truett Van Slyke \*     | KC Quizzers (Overland Park 1st AG)           |  1840 |  87.6 |    8 |  76% |
 |        7 | Wesley Horn             | United for Christ \* (The Bridge AG)         |  1765 |    84 |    8 |  78% |
 |        8 | Esther Zavala \*        | Undignified \* (1st AG)                      |  1745 |  83.1 |    6 |  73% |
@@ -67,10 +67,10 @@ menubar_toc_static:
 |       18 | Christian Brumley       | Powerhouse Kids Ministry (Broken Bow 1st AG) |  1320 |  62.9 |    3 |  85% |
 |       19 | Precious Cyrus-David \* | The Overcomers (Braeswood Church)            |  1310 |  62.4 |    2 |  83% |
 |       20 | Elizabeth Wineinger     | The Fuse (Tulsa Faith)                       |  1300 |  61.9 |    5 |  82% |
-|       21 | Carmen Eisenbrandt      | God\'s Girls \* (Oswego AG)                  |  1275 |  60.7 |    2 |  72% |
+|       21 | Carmen Eisenbrandt      | God's Girls \* (Oswego AG)                   |  1275 |  60.7 |    2 |  72% |
 |       22 | Noah Claunch \*         | Triple Threat \* (Trinity Church)            |  1265 |  60.2 |    5 |  80% |
 |       23 | Christian Alapati       | Heart of a Lion \* (Angleton First)          |  1210 |  57.6 |   14 |  87% |
-|       24 | Cecillia Newby          | God\'s Girls \* (Oswego AG)                  |  1115 |  53.1 |    1 |  72% |
+|       24 | Cecillia Newby          | God's Girls \* (Oswego AG)                   |  1115 |  53.1 |    1 |  72% |
 |       25 | Joseph Barajas \*       | Triple Threat \* (Trinity Church)            |  1105 |  52.6 |   13 |  75% |
 |       26 | Iyanu Akanbi \*         | The Chosen Ones (Braeswood Church)           |  1095 |  52.1 |    9 |  87% |
 |       27 | Ezra King               | Tribulation Force (The Oaks Fellowship)      |  1020 |  48.6 |   12 |  77% |
@@ -88,30 +88,30 @@ menubar_toc_static:
 |       39 | William Adu-Gyamfi \*   | The Overcomers (Braeswood Church)            |   755 |    36 |    1 |  70% |
 |       40 | Faithful Iwuamadi       | Transformed Souls (First At Firewheel)       |   710 |  33.8 |    4 |  73% |
 |       41 | Andrew Lopez            | Guardians of the Gospel (First @ Firewheel)  |   695 |  33.1 |    8 |  71% |
-|       42 | Grace Noel              | God\'s Girls \* (Oswego AG)                  |   685 |  32.6 |    4 |  73% |
+|       42 | Grace Noel              | God's Girls \* (Oswego AG)                   |   685 |  32.6 |    4 |  73% |
 |       43 | Evan Richardson \*      | JBQ Kung Fu Tigers (Journey Church)          |   670 |  31.9 |    1 |  79% |
 |       44 | Hayley Vecchio          | Undignified \* (1st AG)                      |   645 |  30.7 |    3 |  74% |
 |       45 | Ismael Rodriguez        | Kids For Christ (Bethsda AG)                 |   635 |  30.2 |      |  83% |
 |       46 | Addy Dougherty          | Bible Warriors (Great Bend 1st AG)           |   625 |  29.8 |    2 |  63% |
 |       47 | Evan Moses Wesly        | Expert Witnesses (Freedom Church)            |   585 |  27.9 |    2 |  67% |
-|       48 | Portia Wolfe            | God\'s Masterpiece (Emporia Life Church)     |   540 |  25.7 |      |  83% |
+|       48 | Portia Wolfe            | God's Masterpiece (Emporia Life Church)      |   540 |  25.7 |      |  83% |
 |       49 | Braylon Hood-Colbert    | United for Christ \* (The Bridge AG)         |   445 |  21.2 |      |  84% |
 |       50 | Ella Krier              | Bible Warriors (Great Bend 1st AG)           |   420 |    20 |      |  85% |
 |       51 | Livingstone Iwuamadi    | Transformed Souls (First At Firewheel)       |   395 |  18.8 |    2 |  80% |
 |       52 | Dillon Crook            | The Fuse (Tulsa Faith)                       |   390 |  18.6 |      |  74% |
 |       53 | Sanjana Paulson \*      | Expert Witnesses (Freedom Church)            |   305 |  14.5 |      |  93% |
 |       54 | Rylie Pugh              | Guardians of the Gospel (First @ Firewheel)  |   300 |  14.3 |    1 |  65% |
-|       55 | Delaney Reynolds        | God\'s Girls \* (Oswego AG)                  |   300 |  14.3 |      | 100% |
+|       55 | Delaney Reynolds        | God's Girls \* (Oswego AG)                   |   300 |  14.3 |      | 100% |
 | **\*55** | Aiden Bryant            | Powerhouse Kids Ministry (Broken Bow 1st AG) |   300 |  14.3 |      |  76% |
 |       56 | Diamond Zavala          | Undignified \* (1st AG)                      |   295 |    14 |      |  75% |
-|       57 | Jade Smith              | God\'s Masterpiece (Emporia Life Church)     |   280 |  13.3 |      |  74% |
+|       57 | Jade Smith              | God's Masterpiece (Emporia Life Church)      |   280 |  13.3 |      |  74% |
 |       58 | Zoey Fischer            | United for Christ \* (The Bridge AG)         |   260 |  12.4 |    1 |  67% |
 |       59 | Cooper Wickert          | Trinity Alpha (Trinity)                      |   245 |  11.7 |      |  90% |
 |       60 | Cole Campbell           | United for Christ \* (The Bridge AG)         |   220 |  10.5 |      |  86% |
 |       61 | Cole MacKinney          | Bible Warriors (Great Bend 1st AG)           |   210 |    10 |    1 |  91% |
 |       62 | Joseph Lee              | Green Knights (Trinity Church)               |   210 |    10 |      |  85% |
 |       63 | Michael Ikechekwu       | Transformed Souls (First At Firewheel)       |   190 |     9 |      |  53% |
-|       64 | Zachary O\'Donnell      | Powerhouse Kids Ministry (Broken Bow 1st AG) |   180 |   8.6 |      |  91% |
+|       64 | Zachary O'Donnell       | Powerhouse Kids Ministry (Broken Bow 1st AG) |   180 |   8.6 |      |  91% |
 |       65 | Rustin Hoover           | Powerhouse Kids Ministry (Broken Bow 1st AG) |   155 |   7.4 |      |  85% |
 |       66 | Justice Sanchez         | KC Quizzers (Overland Park 1st AG)           |   130 |   6.2 |      |  72% |
 |       67 | Damien Burac            | Green Knights (Trinity Church)               |   125 |     6 |      |  60% |
@@ -120,22 +120,22 @@ menubar_toc_static:
 |       70 | David Wineinger         | The Fuse (Tulsa Faith)                       |   105 |     5 |      |  92% |
 |       71 | Grace Ruiz              | Kids For Christ (Bethsda AG)                 |    95 |   4.5 |      |  79% |
 |       72 | Reese Pugh              | Guardians of the Gospel (First @ Firewheel)  |    80 |   3.8 |      | 100% |
-|       73 | Tripp Stormont          | God\'s Masterpiece (Emporia Life Church)     |    75 |   3.6 |      |  89% |
+|       73 | Tripp Stormont          | God's Masterpiece (Emporia Life Church)      |    75 |   3.6 |      |  89% |
 |       74 | Adyson Campbell         | United for Christ \* (The Bridge AG)         |    65 |   3.1 |      |  67% |
 |       75 | Remington Hughes        | JBQ Kung Fu Tigers (Journey Church)          |    60 |   2.9 |      |  69% |
 |       76 | Rhys Hoover             | Powerhouse Kids Ministry (Broken Bow 1st AG) |    50 |   2.4 |      |  75% |
 | **\*76** | Joseph Hare             | Expert Witnesses (Freedom Church)            |    50 |   2.4 |      |  58% |
 | **\*76** | Julian Castillo         | Undignified \* (1st AG)                      |    50 |   2.4 |      |  45% |
 |       77 | Chidie Echefu           | Transformed Souls (First At Firewheel)       |    30 |   1.4 |      | 100% |
-|       78 | Lane Wolsey             | God\'s Girls \* (Oswego AG)                  |    20 |     1 |      | 100% |
-|       79 | M\'Kayla McDaniel       | Undignified \* (1st AG)                      |    15 |    .7 |      |  33% |
+|       78 | Lane Wolsey             | God's Girls \* (Oswego AG)                   |    20 |     1 |      | 100% |
+|       79 | M'Kayla McDaniel        | Undignified \* (1st AG)                      |    15 |    .7 |      |  33% |
 |       80 | Kai Cruz                | Trinity Tornados (Trinity)                   |    10 |    .5 |      |  99% |
 | **\*80** | Christian Soloman       | Guardians of the Gospel (First @ Firewheel)  |    10 |    .5 |      |  99% |
 | **\*80** | Disaya Trinidad         | Trinity Alpha (Trinity)                      |    10 |    .5 |      |  50% |
 | **\*80** | Gladys Ayozie           | Transformed Souls (First At Firewheel)       |    10 |    .5 |      |  50% |
 |       81 | Jonathan Wineinger      | The Fuse (Tulsa Faith)                       |     5 |    .2 |      |  50% |
-| **\*81** | Hannah Noel             | God\'s Girls \* (Oswego AG)                  |     5 |    .2 |      |  50% |
-|       82 | Fred Jackson            | God\'s Masterpiece (Emporia Life Church)     |     0 |       |      |  33% |
+| **\*81** | Hannah Noel             | God's Girls \* (Oswego AG)                   |     5 |    .2 |      |  50% |
+|       82 | Fred Jackson            | God's Masterpiece (Emporia Life Church)      |     0 |       |      |  33% |
 | **\*82** | Marcus Cruz             | Trinity Tornados (Trinity)                   |     0 |       |      |      |
 | **\*82** | Megan Norris            | Trinity Alpha (Trinity)                      |     0 |       |      |      |
 | **\*82** | Collin Norris           | Trinity Alpha (Trinity)                      |     0 |       |      |      |
@@ -146,4 +146,4 @@ menubar_toc_static:
 | **\*82** | Madison See             | JBQ Kung Fu Tigers (Journey Church)          |     0 |       |      |      |
 | **\*82** | Izabella Sevievi        | KC Quizzers (Overland Park 1st AG)           |     0 |       |      |      |
 | **\*82** | Daniel Otah             | Guardians of the Gospel (First @ Firewheel)  |     0 |       |      |      |
-| **\*82** | Payton Gillund          | God\'s Masterpiece (Emporia Life Church)     |     0 |       |      |      |
+| **\*82** | Payton Gillund          | God's Masterpiece (Emporia Life Church)      |     0 |       |      |      |

@@ -24,7 +24,7 @@ menubar_toc_static:
 |    2 | The Oaks A                 | The Oaks Fellowship | 3/3 |  1025 | 170.83 |
 |    3 | Muskogee (Meddaugh)        | Muskogee 1st AG     | 3/3 |  1195 | 199.17 |
 |    4 | Zeal                       | James River         | 6/0 |  1120 | 186.67 |
-|    5 | Double Minded and Unstable | King\'s Chapel      | 3/3 |   895 | 149.17 |
+|    5 | Double Minded and Unstable | King's Chapel       | 3/3 |   895 | 149.17 |
 |    6 | Trinity Cedar Hill         | Trinity Church      | 0/6 |   280 |  46.67 |
 |    7 | Central (Oss)              | Central AG          | 1/5 |   490 |  81.67 |
 
@@ -35,7 +35,7 @@ menubar_toc_static:
 |    # | Quizzer               | Team                       | Church              | Total |    Avg |   QO |
 | ---: | --------------------- | -------------------------- | ------------------- | ----: | -----: | ---: |
 |    1 | Selena Rodriguez\*    | The Oaks A                 | The Oaks Fellowship |   755 | 125.83 |    6 |
-|    2 | Luna Cooper\*         | Double Minded and Unstable | King\'s Chapel      |   510 |  85.00 |    3 |
+|    2 | Luna Cooper\*         | Double Minded and Unstable | King's Chapel       |   510 |  85.00 |    3 |
 |    2 | David Meddaugh        | Muskogee (Meddaugh)        | Muskogee 1st AG     |   510 |  85.00 |    3 |
 |    3 | Daniel Quick\*        | Team (Porter)              | James River         |   485 |  80.83 |    3 |
 |    4 | Josiah Schwarz        | Muskogee (Meddaugh)        | Muskogee 1st AG     |   475 |  79.17 |    3 |
@@ -43,14 +43,14 @@ menubar_toc_static:
 |    6 | Caroline Oss\*        | Central (Oss)              | Central AG          |   395 |  65.83 |    2 |
 |    7 | Leisl Jansen\*        | Zeal                       | James River         |   390 |  65.00 |    3 |
 |    8 | Hannah Quick\*        | Team (Porter)              | James River         |   370 |  61.67 |    2 |
-|    9 | Kara Peters\*         | Double Minded and Unstable | King\'s Chapel      |   275 |  45.83 |    2 |
+|    9 | Kara Peters\*         | Double Minded and Unstable | King's Chapel       |   275 |  45.83 |    2 |
 |   10 | Kacie Garrison\*      | Team (Porter)              | James River         |   270 |  45.00 |    3 |
 |   11 | Linsey Garrison       | Zeal                       | James River         |   270 |  45.00 |    1 |
 |   12 | Cameron Berta         | The Oaks A                 | The Oaks Fellowship |   245 |  40.83 |    1 |
 |   13 | Paul Meddaugh         | Muskogee (Meddaugh)        | Muskogee 1st AG     |   210 |  35.00 |    2 |
 |   14 | Josh Clark\*          | Team (Porter)              | James River         |   170 |  28.33 |      |
 |   15 | Susanna Ferguson\*    | Trinity Cedar Hill         | Trinity Church      |   145 |  24.17 |      |
-|   16 | Brock Peters\*        | Double Minded and Unstable | King\'s Chapel      |   110 |  18.33 |    1 |
+|   16 | Brock Peters\*        | Double Minded and Unstable | King's Chapel       |   110 |  18.33 |    1 |
 |   17 | Elizabeth Hammes\*    | Trinity Cedar Hill         | Trinity Church      |    70 |  11.67 |      |
 |   17 | Lucas Clark\*         | Central (Oss)              | Central AG          |    70 |  11.67 |      |
 |   18 | John David Sullivan\* | Trinity Cedar Hill         | Trinity Church      |    60 |  10.00 |      |

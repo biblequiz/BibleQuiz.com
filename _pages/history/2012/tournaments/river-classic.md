@@ -209,7 +209,7 @@ menubar_toc_static:
 |    # | Team                      | Church               | W / L | Total |    Avg |
 | ---: | ------------------------- | -------------------- | ----: | ----: | -----: |
 |    1 | Together with Water       | James River A/G      |  12/1 |  2595 | 199.62 |
-|    2 | Slow Learners             | King\'s Chapel       |  12/1 |  2825 | 217.31 |
+|    2 | Slow Learners             | King's Chapel        |  12/1 |  2825 | 217.31 |
 |    3 | Scarlet Wool              | James River A/G      |  11/2 |  2100 | 161.54 |
 |    4 | Lexington MS              | Lexington 1st A/G    |  10/3 |  2155 | 165.77 |
 |    5 | Czech Tech                | Muskogee 1st A/G     |   7/6 |  1020 |  78.46 |
@@ -217,8 +217,8 @@ menubar_toc_static:
 |    7 | The Chosen Few            | James River A/G      |   6/7 |   820 |  63.08 |
 |    8 | The Good Things           | Central A/G          |   5/8 |  1380 | 106.15 |
 |    9 | Flame Quenchers           | Muskogee 1st A/G     |   5/8 |  1070 |  82.31 |
-|   10 | Pharoah\'s Daughter       | Highpointe           |   5/8 |  1065 |  81.92 |
-|   11 | Snellville BKMC\'s        | Evangel Comm. Church |   4/9 |   605 |  46.54 |
+|   10 | Pharoah's Daughter        | Highpointe           |   5/8 |  1065 |  81.92 |
+|   11 | Snellville BKMC's         | Evangel Comm. Church |   4/9 |   605 |  46.54 |
 |   12 | Flames of Fire            | Church at Briargate  |   4/9 |   825 |  63.46 |
 |   13 | And Branches of Hyssop    | James River A/G      |  3/10 |   975 |  75.00 |
 |   14 | Owasso (Munoz)            | Owasso 1st A/G       |  0/13 |   390 |  30.00 |
@@ -229,47 +229,47 @@ menubar_toc_static:
 
 |    # | Quizzer         | Team                      | Church               | Total |    Avg |   QO |
 | ---: | --------------- | ------------------------- | -------------------- | ----: | -----: | ---: |
-|    1 | Luna Cooper     | Slow Learners             | King\'s Chapel       |  1495 | 115.00 |   12 |
+|    1 | Luna Cooper     | Slow Learners             | King's Chapel        |  1495 | 115.00 |   12 |
 |    2 | Leisl Jansen    | Scarlet Wool              | James River A/G      |  1345 | 103.46 |   11 |
 |    3 | Seth Smith      | Lexington MS              | Lexington 1st A/G    |  1325 | 101.92 |   11 |
 |    4 | Christina Burks | Together with Water       | James River A/G      |  1110 |  85.38 |   10 |
 |    5 | Jaron Klassen   | Together with Water       | James River A/G      |   920 |  70.77 |    8 |
-|    6 | McKenna McGraw  | Pharoah\'s Daughter       | Highpointe           |   895 |  68.85 |    6 |
+|    6 | McKenna McGraw  | Pharoah's Daughter        | Highpointe           |   895 |  68.85 |    6 |
 |    7 | Mary Meddaugh   | Flame Quenchers           | Muskogee 1st A/G     |   880 |  67.69 |    7 |
 |    8 | Zara Rethman    | And Branches of Hyssop    | James River A/G      |   840 |  64.62 |    6 |
 |    9 | Matthew Walker  | Lexington MS              | Lexington 1st A/G    |   830 |  63.85 |    7 |
-|   10 | Brock Peters    | Slow Learners             | King\'s Chapel       |   805 |  61.92 |    7 |
+|   10 | Brock Peters    | Slow Learners             | King's Chapel        |   805 |  61.92 |    7 |
 |   11 | Josiah Schwarz  | Czech Tech                | Muskogee 1st A/G     |   770 |  59.23 |    8 |
 |   12 | Stacy Roberts   | The Chosen Few            | James River A/G      |   695 |  53.46 |    6 |
 |   13 | Nate Loper      | The Good Things           | Central A/G          |   680 |  52.31 |    7 |
 |   14 | Lillie Rainey   | Flames of Fire            | Church at Briargate  |   670 |  51.54 |    7 |
 |   15 | Travis Griessel | Together with Water       | James River A/G      |   565 |  43.46 |    3 |
 |   16 | Lucas Clark     | Celestial Masters of Fire | Central A/G          |   545 |  41.92 |    5 |
-|   17 | Abby O\'Connel  | Scarlet Wool              | James River A/G      |   460 |  35.38 |    2 |
+|   17 | Abby O'Connel   | Scarlet Wool              | James River A/G      |   460 |  35.38 |    2 |
 |   18 | Jacob Zorehkey  | The Good Things           | Central A/G          |   410 |  31.54 |    2 |
-|   19 | Maia Cooper     | Slow Learners             | King\'s Chapel       |   365 |  28.08 |    2 |
-|   20 | Keanna Clarke   | Snellville BKMC\'s        | Evangel Comm. Church |   315 |  24.23 |    1 |
+|   19 | Maia Cooper     | Slow Learners             | King's Chapel        |   365 |  28.08 |    2 |
+|   20 | Keanna Clarke   | Snellville BKMC's         | Evangel Comm. Church |   315 |  24.23 |    1 |
 |   21 | Sarah Roberts   | Scarlet Wool              | James River A/G      |   295 |  22.69 |      |
 |   22 | Matt Garman     | Owasso (Munoz)            | Owasso 1st A/G       |   280 |  21.54 |      |
 |   23 | Zach Schwarz    | Czech Tech                | Muskogee 1st A/G     |   270 |  20.77 |      |
 |   24 | Nathan Pulis    | The Good Things           | Central A/G          |   255 |  19.62 |    1 |
 |   25 | Michaelyn Loper | Celestial Masters of Fire | Central A/G          |   175 |  13.46 |      |
-|   26 | Courtney Ball   | Pharoah\'s Daughter       | Highpointe           |   170 |  13.08 |      |
-|   27 | Kara Peters     | Slow Learners             | King\'s Chapel       |   160 |  12.31 |      |
+|   26 | Courtney Ball   | Pharoah's Daughter        | Highpointe           |   170 |  13.08 |      |
+|   27 | Kara Peters     | Slow Learners             | King's Chapel        |   160 |  12.31 |      |
 |   28 | Amy Grigg       | Flames of Fire            | Church at Briargate  |   155 |  11.92 |      |
 |   28 | Toshali Nutt    | Flame Quenchers           | Muskogee 1st A/G     |   155 |  11.92 |      |
-|   29 | Brielle Smith   | Snellville BKMC\'s        | Evangel Comm. Church |   150 |  11.54 |    1 |
+|   29 | Brielle Smith   | Snellville BKMC's         | Evangel Comm. Church |   150 |  11.54 |    1 |
 |   30 | Acacia Graves   | The Chosen Few            | James River A/G      |   110 |   8.46 |      |
 |   30 | Joelle Nelson   | Owasso (Munoz)            | Owasso 1st A/G       |   110 |   8.46 |      |
 |   31 | Samuel Jensen   | Celestial Masters of Fire | Central A/G          |   105 |   8.08 |      |
-|   32 | Casey Bailey    | Snellville BKMC\'s        | Evangel Comm. Church |    85 |   6.54 |      |
+|   32 | Casey Bailey    | Snellville BKMC's         | Evangel Comm. Church |    85 |   6.54 |      |
 |   33 | Mark Cockroft   | And Branches of Hyssop    | James River A/G      |    80 |   6.15 |      |
 |   34 | Mark Dragoi     | Celestial Masters of Fire | Central A/G          |    70 |   5.38 |      |
 |   35 | Hayden Ballard  | And Branches of Hyssop    | James River A/G      |    55 |   4.23 |      |
 |   36 | Luke Anger      | The Good Things           | Central A/G          |    40 |   3.08 |      |
 |   37 | Nesha Warner    | Flame Quenchers           | Muskogee 1st A/G     |    35 |   2.69 |      |
-|   38 | Amy Bailey      | Snellville BKMC\'s        | Evangel Comm. Church |    30 |   2.31 |      |
-|   39 | Miciah Taylor   | Snellville BKMC\'s        | Evangel Comm. Church |    25 |   1.92 |      |
+|   38 | Amy Bailey      | Snellville BKMC's         | Evangel Comm. Church |    30 |   2.31 |      |
+|   39 | Miciah Taylor   | Snellville BKMC's         | Evangel Comm. Church |    25 |   1.92 |      |
 |   40 | Danielle Aubry  | The Chosen Few            | James River A/G      |    15 |   1.15 |      |
 |   41 | Parker Harris   | Czech Tech                | Muskogee 1st A/G     |       |    .00 |      |
 |   41 | Abby Smith      | Owasso (Munoz)            | Owasso 1st A/G       |       |    .00 |      |
