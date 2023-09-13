@@ -54,7 +54,7 @@ The top scorer at the 1988 National Finals was Marcae Johnson of Central A/G, Sp
 
 ### Individuals
 
-|     Rank | Quizzer           | Church                     | Total |   Avg |
+|        # | Quizzer           | Church                     | Total |   Avg |
 | -------: | ----------------- | -------------------------- | ----: | ----: |
 |        1 | Marcae Johnson    | Central, Springfield, MO   |  1380 |    92 |
 |        2 | Jason Picker      | Tucson, AZ                 |  1315 | 87.67 |

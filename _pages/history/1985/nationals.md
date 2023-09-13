@@ -42,18 +42,18 @@ The top scorer at the 1985 National Finals was Lester Cowen of Festus, MO. Nicol
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank    | Quizzer         | Church          | Total | Avg    |
-|--------:|-----------------|-----------------|------:|-------:|
-| 1       | Lester Cowan    | Festus, MO      | 765   | 109.29 |
-| 2       | Nicole Brandon  | Tulsa, OK       | 735   | 105    |
-| 3       | Sean Davis      | Renton, WA      | 730   | 104.29 |
-| 4       | Tammy Yost      | New Haven, CT   | 670   | 95.71  |
-| 5       | Becky Henderson | Yelm, WA        | 650   | 92.86  |
-| **5\*** | Jeff Gibson     | Hibbing, MN     | 650   | 92.86  |
-| 7       | Lea Coate       | Tucson, AZ      | 550   | 78.57  |
-| 8       | Kim Utt         | Ypsilanti, MI   | 540   | 77.14  |
-| 9       | Lori Barnes     | Tempe, AZ       | ????  | ????   |
-| 10      | Joseph Leija    | New Orleans, LA | ????  | ????   |
+|       # | Quizzer         | Church          | Total |    Avg |
+| ------: | --------------- | --------------- | ----: | -----: |
+|       1 | Lester Cowan    | Festus, MO      |   765 | 109.29 |
+|       2 | Nicole Brandon  | Tulsa, OK       |   735 |    105 |
+|       3 | Sean Davis      | Renton, WA      |   730 | 104.29 |
+|       4 | Tammy Yost      | New Haven, CT   |   670 |  95.71 |
+|       5 | Becky Henderson | Yelm, WA        |   650 |  92.86 |
+| **5\*** | Jeff Gibson     | Hibbing, MN     |   650 |  92.86 |
+|       7 | Lea Coate       | Tucson, AZ      |   550 |  78.57 |
+|       8 | Kim Utt         | Ypsilanti, MI   |   540 |  77.14 |
+|       9 | Lori Barnes     | Tempe, AZ       |  ???? |   ???? |
+|      10 | Joseph Leija    | New Orleans, LA |  ???? |   ???? |
 
 ## Teams
 

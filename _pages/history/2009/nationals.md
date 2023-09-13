@@ -65,7 +65,7 @@ The individual tournament was won by Daniel Wagner of Owasso, OK. This was the n
    icon="fas fa-info-circle"
    status="is-success" %}
 
-|     Rank | Quizzer              | Church                 | Total |    Avg |   QO |
+|        # | Quizzer              | Church                 | Total |    Avg |   QO |
 | -------: | -------------------- | ---------------------- | ----: | -----: | ---: |
 |        1 | Jared Burkhalter     | Orlando, FL            |  2200 | 115.79 |   15 |
 |        2 | James Lex            | Acworth, GA            |  2095 | 110.26 |   17 |
@@ -187,7 +187,7 @@ The individual tournament was won by Daniel Wagner of Owasso, OK. This was the n
 
 In the challenger division, Billy Branham (1) was the only quizzer to achieve a perfect game.
 
-|     Rank | Quizzer           | Church                        | Total |    Avg |   QO |
+|        # | Quizzer           | Church                        | Total |    Avg |   QO |
 | -------: | ----------------- | ----------------------------- | ----: | -----: | ---: |
 |        1 | Billy Branham     | Menominee, MI                 |  2290 | 120.53 |   18 |
 |        2 | Hudson Kelley     | Montgomery, AL                |  1710 |     90 |   14 |

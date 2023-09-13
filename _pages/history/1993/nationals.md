@@ -51,7 +51,7 @@ The top scorer at the 1993 National Finals was Lisa Wootton of Bartlesville, OK.
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                      | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church                      | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | --------------------------- | ----: | -----: | -----: | ----: |
 |        1 | Lisa Wootton        | Bartlesville, OK            |  1920 | 101.05 |      6 |     1 |
 |        2 | Dan Smith           | Lakewood, CA                |  1700 |  89.47 |     10 |     3 |

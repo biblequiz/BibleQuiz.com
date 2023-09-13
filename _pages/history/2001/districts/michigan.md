@@ -39,11 +39,11 @@ Over the course of the entire year, the positions were:
 
 #### Teams
 
-|    # | Team                | Avg (ppg) |
-| ---: | ------------------- | --------: |
-|    1 | Muskegon Central    |       145 |
-|    2 | Auburn Hills I      |       120 |
-|    3 | Greater Lansing III |       120 |
+|    # | Team                |  Avg |
+| ---: | ------------------- | ---: |
+|    1 | Muskegon Central    |  145 |
+|    2 | Auburn Hills I      |  120 |
+|    3 | Greater Lansing III |  120 |
 
 #### Individuals
 

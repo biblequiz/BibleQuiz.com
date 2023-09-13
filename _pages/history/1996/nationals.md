@@ -63,7 +63,7 @@ Central A/G (1), Springfield, MO, another perennial National finalist, won third
 
 The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Beulah, MI. Dan's per quiz average was 115.45. This was one of the highest scores in over a decade, but would be broken by over 35 points in 1999.
 
-|     Rank | Quizzer             | Church                                  | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church                                  | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | --------------------------------------- | ----: | -----: | -----: | ----: |
 |        1 | Daniel Slater       | Cornerstone A/G, Beulah, MI             |  2540 | 115.45 |     12 |     1 |
 |        2 | Jolene Papendick    | Calvary Church, Naperville, IL          |  2175 |  98.86 |     11 |     6 |

@@ -60,7 +60,7 @@ The top scorer at the 1999 National Finals was Kent Piacenti of Orange Hills A/G
 
 ### Individuals
 
-|      Rank | Quizzer             | Church                                          | Total |    Avg | QO Fwd | QO Bk | Perfect |
+|         # | Quizzer             | Church                                          | Total |    Avg | QO Fwd | QO Bk | Perfect |
 | --------: | ------------------- | ----------------------------------------------- | ----: | -----: | -----: | ----: | ------: |
 |         1 | Kent Piacenti       | Orange Hills A/G, Orange, CA                    |  3500 | 152.17 |     22 |     1 |      16 |
 |         2 | Jim Fenton          | Allison Park A/G, Allison Park, PA              |  1975 |  85.87 |      3 |     3 |       0 |

@@ -57,7 +57,7 @@ The individual tournament was won by Ryan Skolrud of Bothell, WA. The quoting be
 
 The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. Michael's per quiz average was 120.26. He also quizzed out forward in all but two games. Also breaking 100 points per game was Dan Marlow of Topeka, KS, high scorer from 2000.
 
-|     Rank | Quizzer           | Church                   | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer           | Church                   | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ----------------- | ------------------------ | ----: | -----: | -----: | ----: |
 |        1 | Michael Pearson   | Dallas, TX               |  2285 | 120.26 |     17 |     1 |
 |        2 | Dan Marlow        | Topeka, KS               |  2010 | 105.79 |     11 |     3 |
@@ -171,7 +171,7 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | ---------------------- | ----: | -----: | -----: | ----: |
 |        1 | Dan McLaughlin      | Buffalo, NY            |  2085 | 109.74 |     12 |     1 |
 |        2 | Kendi Beyer         | Oskaloosa, IA          |  1845 |  97.11 |     11 |     1 |
@@ -1832,7 +1832,7 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 
 #### Individuals
 
-|     Rank | Quizzer         | Team                 | Total |  Avg | QO Fwd | QO Bk |
+|        # | Quizzer         | Team                 | Total |  Avg | QO Fwd | QO Bk |
 | -------: | --------------- | -------------------- | ----: | ---: | -----: | ----: |
 |        1 | Kent Piacenti   | Everything/Losses    |  1140 |  114 |      8 |     0 |
 |        2 | Seth Sundell    | Red Clay             |   700 |   70 |      4 |     1 |
@@ -1858,7 +1858,7 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 
 #### Teams
 
-|    Rank | Team                               |    W |    L | Total |
+|       # | Team                               |    W |    L | Total |
 | ------: | ---------------------------------- | ---: | ---: | ----: |
 |       1 | Bethel Blessing Builders           |    8 |    0 |  1700 |
 |       2 | Not Dead But Asleep                |    6 |    2 |  1405 |
@@ -1872,7 +1872,7 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 
 #### Individuals
 
-|     Rank | Quizzer             | Team                 | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Team                 | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | -------------------- | ----: | -----: | -----: | ----: |
 |        1 | Jim Whitford        | Indiana A Team       |   940 |  117.5 |      5 |     0 |
 |        2 | Rachelle Henderson  | Not Dead But Asleep  |   890 | 111.25 |      5 |     0 |

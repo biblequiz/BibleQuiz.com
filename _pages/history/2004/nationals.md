@@ -57,7 +57,7 @@ The individual tournament was also won by David Dorey of Colorado Springs, CO. T
 
 The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey of Colorado Springs, CO. David was also the top scorer. The Top Quizzers from the 2004 National Bible Quiz Tournament for both divisions are listed below. Each participant is listed with statistics. If possible, ties are broken by number of quiz-outs.
 
-|     Rank | Quizzer             | Church                  | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church                  | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | ----------------------- | ----: | -----: | -----: | ----: |
 |        1 | David Dorey         | Colorado Springs CO #1  |  2595 | 136.58 |     17 |     1 |
 |        2 | Jonathon Galliers   | Lexington KY            |  1875 |  98.68 |      8 |     1 |
@@ -165,7 +165,7 @@ The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                   | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church                   | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | ------------------------ | ----: | -----: | -----: | ----: |
 |        1 | Chad Crawford       | Jacksonville FL          |  2215 | 116.58 |     15 |     1 |
 |        2 | Sara Sobkoviak      | Fort Myers FL            |  2105 | 110.79 |     14 |     3 |

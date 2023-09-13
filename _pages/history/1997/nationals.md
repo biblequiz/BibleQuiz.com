@@ -67,7 +67,7 @@ Jeremy Horn won the scholarship quiz at the banquet. Participants in the quiz in
 
 The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Beulah, MI. Dan's per quiz average was 115.45. This was one of the highest scores in over a decade, but would be broken by over 35 points in 1999.
 
-|      Rank | Quizzer             | Church                               | Total |    Avg | QO Fwd | QO Bk |
+|         # | Quizzer             | Church                               | Total |    Avg | QO Fwd | QO Bk |
 | --------: | ------------------- | ------------------------------------ | ----: | -----: | -----: | ----: |
 |         1 | Jeremy Horn         | First A/G, Shreveport, LA            |  2405 | 104.57 |     17 |     4 |
 |   **1\*** | Kent Piacenti       | Life Community Church, Sunnyvale, TX |  2405 | 104.57 |     13 |     3 |

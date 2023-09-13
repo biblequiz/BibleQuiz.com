@@ -59,7 +59,7 @@ This was the only the second national championship for the Northeast region. The
 
 ### Individuals
 
-| Rank     | Quizzer             | Church                                        | Total | Avg    | QO Fwd | QO Bk |
+| #        | Quizzer             | Church                                        | Total | Avg    | QO Fwd | QO Bk |
 | -------- | ------------------- | --------------------------------------------- | ----- | ------ | ------ | ----- |
 | 1        | Sanejo Leonard      | Orange County Christian Center, Santa Ana, CA | 2190  | 115.26 | 13     | 2     |
 | 2        | Jolene Papendick    | Calvary Church, Naperville, IL                | 2045  | 107.63 | 13     | 6     |

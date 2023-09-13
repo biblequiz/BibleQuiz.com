@@ -58,7 +58,7 @@ The individual tournament was won by Jenna-Jo Duffy of Bothell, WA. The quoting 
 
 Perfect games were achieved by only two quizzers. Lucas Cox got one in the championship division and LaJoie Ward got one in the challenger division. The Top Quizzers from the 2007 National Bible Quiz Tournament for both divisions are listed below. Each participant is listed with statistics. If possible, ties are broken by number of quiz-outs. The standings below show a tie for fourth place being broken in Josh Wagner's favor. This award actually goes to Jesse Czubkowski due to an error in his number of forward quiz-outs.
 
-|     Rank | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | ---------------------- | ----: | -----: | -----: | ----: |
 |        1 | Jared Burkhalter    | Orlando FL             |  2005 | 105.53 |     14 |     4 |
 |        2 | Brandon Duffy       | Bothell WA             |  1675 |  88.16 |     14 |     2 |
@@ -166,7 +166,7 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | ---------------------- | ----: | -----: | -----: | ----: |
 |        1 | LaJoie Ward         | Binghamton NY          |  2115 | 111.32 |     15 |     2 |
 |        2 | Simon Bennett       | St. Petersburg FL      |  1525 |  80.26 |     10 |     1 |

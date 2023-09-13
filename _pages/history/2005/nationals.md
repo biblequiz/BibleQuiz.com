@@ -59,7 +59,7 @@ Photos are provided courtesy of Larry Mullins.
 
 ### Individuals
 
-|     Rank | Quizzer            | Church                    | Total |   Avg |   QO |
+|        # | Quizzer            | Church                    | Total |   Avg |   QO |
 | -------: | ------------------ | ------------------------- | ----: | ----: | ---: |
 |        1 | Jon Galliers       | Lexington KY #1           |  1860 | 97.89 |    9 |
 |        2 | Brandon Duffy      | Bothell WA Fast & Furious |  1645 | 86.58 |    9 |
@@ -165,7 +165,7 @@ Photos are provided courtesy of Larry Mullins.
 
 ### Individuals
 
-|     Rank | Quizzer             | Church             | Total |    Avg |   QO |
+|        # | Quizzer             | Church             | Total |    Avg |   QO |
 | -------: | ------------------- | ------------------ | ----: | -----: | ---: |
 |        1 | Patti Sunseri       | Spring City PA     |  2275 | 119.74 |   14 |
 |        2 | Amy Semple          | Syracuse NY        |  1325 |  69.74 |    8 |

@@ -57,7 +57,7 @@ The individual tournament was won by Jordan Schneider of Colorado Springs, CO. T
 
 The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schneider of Radiant Church, Colorado Springs, CO. Dan Marlow of Overland Park, KS was the top scorer. Five quizzers in championship achieved a perfect game. Valerie Marchalonis and Joey Bohanon had two and Dan Marlow, Jordan Schneider and Tyler King had one. In the challenger division, Jennifer Dunn had one. The Top Quizzers from the 2000 National Bible Quiz Tournament for both divisions are listed below. Each participant is listed with statistics. If possible, ties are broken by number of quiz-outs.
 
-|     Rank | Quizzer             | Church                   | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church                   | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | ------------------------ | ----: | -----: | -----: | ----: |
 |        1 | Dan Marlow          | Overland Park, KS        |  2050 | 107.89 |     11 |     2 |
 |        2 | Valerie Marchalonis | Las Vegas, NV            |  1960 | 103.16 |     10 |     2 |
@@ -164,7 +164,7 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                         | Total |   Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church                         | Total |   Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | ------------------------------ | ----: | ----: | -----: | ----: |
 |        1 | Amy Hise            | Chesterland, OH                |  1740 | 91.58 |      9 |     2 |
 |        2 | Peter Brown         | Tacoma, WA                     |  1585 | 83.42 |      7 |     3 |

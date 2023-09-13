@@ -59,7 +59,7 @@ The top scorer at the 1994 National Finals was Lisa Wootton of Bartlesville, OK.
 
 ### Individuals
 
-| Rank     | Quizzer             | Church                                        | Total | Avg    | QO  |
+| #        | Quizzer             | Church                                        | Total | Avg    | QO  |
 | -------- | ------------------- | --------------------------------------------- | ----- | ------ | --- |
 | 1        | Lisa Wootton        | First A/G, Bartlesville, OK                   | 2170  | 114.21 | 13  |
 | 2        | Joy Daigle          | Grace A/G, Syracuse, NY                       | 1640  | 86.32  | 9   |

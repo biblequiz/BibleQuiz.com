@@ -54,7 +54,7 @@ The 1991 field contained three past and two future National Champions. In additi
 
 ### Individuals
 
-|     Rank | Quizzer           | Church                                    | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer           | Church                                    | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ----------------- | ----------------------------------------- | ----: | -----: | -----: | ----: |
 |        1 | Kimberly Smalley  | Charity A/G, Laveen, AZ                   |  1595 | 106.33 |      9 |     2 |
 |        2 | JoEllyn Kruger    | Christian Life Church, Farmington, MN     |  1405 |  93.66 |      9 |     5 |

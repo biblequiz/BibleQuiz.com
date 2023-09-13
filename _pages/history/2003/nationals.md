@@ -30,7 +30,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 
 ### Teams
 
-|     Rank | Team                                             | Record | Total |    Avg |
+|        # | Team                                             | Record | Total |    Avg |
 | -------: | ------------------------------------------------ | ------ | ----: | -----: |
 |        1 | Orange Hills A/G, Orange, CA                     | 19 / 0 |  4420 | 232.63 |
 |        2 | First A/G, San Angelo, TX*                       | 13 / 6 |  2705 | 142.37 |
@@ -57,7 +57,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 
 ### Individuals
 
-|     Rank | Quizzer             | Church            | Total |    Avg | QO Fwd | QO Bk |
+|        # | Quizzer             | Church            | Total |    Avg | QO Fwd | QO Bk |
 | -------: | ------------------- | ----------------- | ----: | -----: | -----: | ----: |
 |        1 | Zachary Sullivan    | San Angelo TX     |  2010 | 105.79 |     11 |     2 |
 |        2 | David Dorey         | Orange Hills CA   |  2005 | 105.53 |     17 |     1 |
@@ -142,7 +142,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 
 ### Teams
 
-|     Rank | Team                                            | Record | Total |    Avg |
+|        # | Team                                            | Record | Total |    Avg |
 | -------: | ----------------------------------------------- | ------ | ----: | -----: |
 |        1 | Christian Chapel, Tulsa, OK*                    | 16 / 3 |  2635 | 138.68 |
 |        2 | The Church at Briargate, Colorado Springs, CO   | 16 / 3 |  2960 | 155.79 |
@@ -169,7 +169,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 
 ### Individuals
 
-|     Rank | Quizzer              | Church              | Total |   Avg | QO Fwd | QO Bk |
+|        # | Quizzer              | Church              | Total |   Avg | QO Fwd | QO Bk |
 | -------: | -------------------- | ------------------- | ----: | ----: | -----: | ----: |
 |        1 | Becky York           | Bowie MD            |  1850 | 97.37 |     13 |     5 |
 |        2 | Mary Pace            | Colorado Springs CO |  1820 | 95.79 |     12 |     3 |
