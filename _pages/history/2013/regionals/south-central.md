@@ -95,24 +95,24 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer            | Team                  | Church         | Total |   Avg |   QO |
-| ---: | ------------------ | --------------------- | -------------- | ----: | ----: | ---: |
-|    1 | Josiah Schwarz     | Czech Tech            | Muskogee First |  1225 | 122.5 |    9 |
-|    2 | Zach Schwarz       | Czech Tech            | Muskogee First |   660 |    66 |    6 |
-|    3 | Talita Kamletz     | GENES                 | Owasso First   |   640 |    64 |    5 |
-|    4 | Rachel Mgbeike     | Jesus Freaks          | Braeswood A/G  |   625 |  62.5 |    5 |
-|    5 | Taylor Baker       | Pure in Heart         | Noble          |   560 |    56 |    5 |
-|    6 | Britney Pitts      | Pure in Heart         | Noble          |   455 |  45.5 |    5 |
-|    7 | Jeremy Mgbeike     | Bible Olympians       | Braeswood A/G  |   435 |  43.5 |    3 |
-|    8 | Stephanie Oyolu    | Jesus Freaks          | Braeswood A/G  |   395 |  39.5 |    2 |
-|    9 | Osi Nwogu          | Bible Olympians       | Braeswood A/G  |   330 |    33 |    2 |
-|   10 | Grace Smith        | Pure in Heart         | Noble          |   305 |  30.5 |    2 |
-|   11 | Taylor Ellis       | Jesus Freaks          | Braeswood A/G  |   190 |    19 |    1 |
-|   11 | Jose Lopez Jr.     | Bible Olympians       | Braeswood A/G  |   190 |    19 |    1 |
-|   12 | Izzy Lashley- Bobb | Czech Tech            | Muskogee First |   170 |    17 |    1 |
-|   13 | Matt Rangle        | GENES                 | Owasso First   |    90 |     9 |    1 |
-|   14 | Alexis Glover      | GENES                 | Owasso First   |    80 |     8 |      |
-|   15 | Chris Rauth        | Family Worship Center | El Dorado      |    55 |   5.5 |      |
-|   16 | Jeremiah Rauth     | Family Worship Center | El Dorado      |    10 |     1 |      |
-|   17 | Zach Thurmon       | Family Worship Center | El Dorado      |     5 |   0.5 |      |
-|   18 | Megan Pitts        | Pure in Heart         | Noble          |   -10 |    -1 |      |
+|    # | Quizzer           | Team                  | Church         | Total |   Avg |   QO |
+| ---: | ----------------- | --------------------- | -------------- | ----: | ----: | ---: |
+|    1 | Josiah Schwarz    | Czech Tech            | Muskogee First |  1225 | 122.5 |    9 |
+|    2 | Zach Schwarz      | Czech Tech            | Muskogee First |   660 |    66 |    6 |
+|    3 | Talita Kamletz    | GENES                 | Owasso First   |   640 |    64 |    5 |
+|    4 | Rachel Mgbeike    | Jesus Freaks          | Braeswood A/G  |   625 |  62.5 |    5 |
+|    5 | Taylor Baker      | Pure in Heart         | Noble          |   560 |    56 |    5 |
+|    6 | Britney Pitts     | Pure in Heart         | Noble          |   455 |  45.5 |    5 |
+|    7 | Jeremy Mgbeike    | Bible Olympians       | Braeswood A/G  |   435 |  43.5 |    3 |
+|    8 | Stephanie Oyolu   | Jesus Freaks          | Braeswood A/G  |   395 |  39.5 |    2 |
+|    9 | Osi Nwogu         | Bible Olympians       | Braeswood A/G  |   330 |    33 |    2 |
+|   10 | Grace Smith       | Pure in Heart         | Noble          |   305 |  30.5 |    2 |
+|   11 | Taylor Ellis      | Jesus Freaks          | Braeswood A/G  |   190 |    19 |    1 |
+|   11 | Jose Lopez Jr.    | Bible Olympians       | Braeswood A/G  |   190 |    19 |    1 |
+|   12 | Izzy Lashley-Bobb | Czech Tech            | Muskogee First |   170 |    17 |    1 |
+|   13 | Matt Rangle       | GENES                 | Owasso First   |    90 |     9 |    1 |
+|   14 | Alexis Glover     | GENES                 | Owasso First   |    80 |     8 |      |
+|   15 | Chris Rauth       | Family Worship Center | El Dorado      |    55 |   5.5 |      |
+|   16 | Jeremiah Rauth    | Family Worship Center | El Dorado      |    10 |     1 |      |
+|   17 | Zach Thurmon      | Family Worship Center | El Dorado      |     5 |   0.5 |      |
+|   18 | Megan Pitts       | Pure in Heart         | Noble          |   -10 |    -1 |      |

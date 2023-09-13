@@ -340,82 +340,82 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                 | Team                                            | Total |   Avg |   QO |   Q% |
-| -------: | ----------------------- | ----------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | David Biruduganti       | Naperville-IL (Naperville (S))                  |  1765 | 117.7 |    9 |  84% |
-|        2 | Meleah Sawastuk         | Ravenna-OH (God's Golden Girls)                 |  1650 |   110 |    8 |  86% |
-|        3 | Seth Archer             | Lawson-MO (Lawson-Wendy)                        |  1580 | 105.3 |    7 |  77% |
-|        4 | Shekinah Isaiah         | Bothell-WA (Cedar Park Eagles)                  |  1550 | 103.3 |    4 |  88% |
-|        5 | Shreya Joy              | Marietta-GA (Royal Diadem)                      |  1490 |  99.3 |    7 |  88% |
-|        6 | Faith Buchanan          | Richmond Hill -NY (Bethlehem Church)            |  1445 |  96.3 |    8 |  69% |
-|        7 | Michael Ukonu           | Houston-TX (The Chosen Ones)                    |  1335 |    89 |    6 |  82% |
-|        8 | Garrett Crescenti       | Shelby Township-MI (Jedi Knights)               |  1315 |  87.7 |    4 |  84% |
-|        9 | Isabella Kashubin       | Lakeville-MN (Under Armour of God)              |  1265 |  84.3 |    3 |  80% |
-|       10 | Brayden Shepherd        | Fruitland Park-FL (Kingdom Quizzers)            |  1220 |  81.3 |    4 |  75% |
-|       11 | James Coleman           | Brewton-AL (Connected God Squad)                |  1135 |  75.7 |    3 |  85% |
-|       12 | Brandon Ukonu           | Houston-TX (The Chosen Ones)                    |   940 |  62.7 |    8 |  83% |
-|       13 | Eli Turner              | Fordyce-AR (Fordyce Bible Bugs)                 |   890 |  59.3 |    2 |  73% |
-|       14 | Steve Joy               | Marietta-GA (Royal Diadem)                      |   885 |    59 |    7 |  77% |
-|       15 | Joel Paul               | Collierville-TN (Collierville Freedom Fighters) |   880 |  58.7 |      |  93% |
-|       16 | Braylon Hood-Colbert    | Mustang-OK (United for Christ)                  |   830 |  55.3 |    1 |  80% |
-|       17 | Iynu Akanbi             | Houston-TX (The Chosen Ones)                    |   795 |    53 |    5 |  92% |
-|       18 | Samuel Biruduganti      | Naperville-IL (Naperville (S))                  |   760 |  50.7 |   10 |  75% |
-|       19 | Noah Small              | Emporia-KS (God's Masterpiece)                  |   735 |    49 |    2 |  75% |
-|       20 | Austanne Barney         | Shelby Township-MI (Jedi Knights)               |   705 |    47 |    7 |  79% |
-|       21 | Ansley Hornaday         | Fordyce-AR (Fordyce Bible Bugs)                 |   705 |    47 |    5 |  66% |
-|       22 | Jocelyn Calvert         | Lawson-MO (Lawson-Wendy)                        |   685 |  45.7 |    6 |  93% |
-|       23 | Gavin Galloway          | Brewton-AL (Connected God Squad)                |   655 |  43.7 |    4 |  84% |
-|       24 | Nick Odle               | Webster-NY (Webster)                            |   635 |  42.3 |      |  62% |
-|       25 | Isaiah Kashubin         | Lakeville-MN (Under Armour of God)              |   630 |    42 |    7 |  80% |
-|       26 | Emily Sawastuk          | Ravenna-OH (God's Golden Girls)                 |   575 |  38.3 |    5 |  78% |
-|       27 | Will Thompson           | Fruitland Park-FL (Kingdom Quizzers)            |   510 |    34 |    1 |  87% |
-|       28 | Micah Trippe            | Brewton-AL (Connected God Squad)                |   480 |    32 |      |  81% |
-| **\*28** | Wesley Horn             | Mustang-OK (United for Christ)                  |   480 |    32 |      |  78% |
-|       29 | Gianna LoGiudice        | Fruitland Park-FL (Kingdom Quizzers)            |   475 |  31.7 |    3 |  78% |
-|       30 | Ella Buzzell            | Webster-NY (Webster)                            |   430 |  28.7 |    1 |  65% |
-|       31 | Luke Odle               | Webster-NY (Webster)                            |   395 |  26.3 |    2 |  68% |
-|       32 | Samantha Anselmo        | Richmond Hill -NY (Bethlehem Church)            |   375 |    25 |    2 |  88% |
-|       33 | Sancia Gladwin          | Bothell-WA (Cedar Park Eagles)                  |   355 |  23.7 |      |  66% |
-|       34 | Samuel DeSilva          | Richmond Hill -NY (Bethlehem Church)            |   350 |  23.3 |    2 |  82% |
-|       35 | Abby Tveit              | Bothell-WA (Cedar Park Eagles)                  |   330 |    22 |    2 |  64% |
-|       36 | Adalia Abinteh          | Collierville-TN (Collierville Freedom Fighters) |   325 |  21.7 |      |  92% |
-|       37 | Lucy Morency            | Shelby Township-MI (Jedi Knights)               |   320 |  21.3 |      | 100% |
-| **\*37** | Kailyn Heath            | Lakeville-MN (Under Armour of God)              |   320 |  21.3 |      |  80% |
-|       38 | Jadyn Archer            | Lawson-MO (Lawson-Wendy)                        |   275 |  18.3 |      |  91% |
-|       39 | Cole Campbell           | Mustang-OK (United for Christ)                  |   245 |  16.3 |    2 |  89% |
-|       40 | Shekinah Biruduganti    | Naperville-IL (Naperville (S))                  |   245 |  16.3 |      |  91% |
-|       41 | Josiah Brown            | Bothell-WA (Cedar Park Eagles)                  |   235 |  15.7 |    1 |  69% |
-|       42 | Jade Smith              | Emporia-KS (God's Masterpiece)                  |   230 |  15.3 |      |  77% |
-|       43 | Tabitha Barney          | Shelby Township-MI (Jedi Knights)               |   180 |    12 |      |  67% |
-|       44 | Eylene Kingsly          | Marietta-GA (Royal Diadem)                      |   160 |  10.7 |      |  94% |
-|       45 | Emma Kokora             | Richmond Hill -NY (Bethlehem Church)            |   145 |   9.7 |      |  65% |
-|       46 | Addison Odle            | Webster-NY (Webster)                            |   140 |   9.3 |    1 |  92% |
-|       47 | Eric Romanets           | Lakeville-MN (Under Armour of God)              |   140 |   9.3 |      | 100% |
-|       48 | Blaize Vaughn           | Lawson-MO (Lawson-Wendy)                        |   115 |   7.7 |      |  74% |
-|       49 | Portia Wolfe            | Emporia-KS (God's Masterpiece)                  |   105 |     7 |      |  80% |
-|       50 | Rachel Hodges           | Fordyce-AR (Fordyce Bible Bugs)                 |    95 |   6.3 |      |  91% |
-| **\*50** | Mayah Johnson           | Richmond Hill -NY (Bethlehem Church)            |    95 |   6.3 |      |  80% |
-|       51 | Adyson Campbell         | Mustang-OK (United for Christ)                  |    90 |     6 |      | 100% |
-|       52 | Meso Ogwo               | Collierville-TN (Collierville Freedom Fighters) |    85 |   5.7 |      |  83% |
-|       53 | Annelise Nowak          | Ravenna-OH (God's Golden Girls)                 |    70 |   4.7 |      |  78% |
-| **\*53** | Emily Buzzell           | Webster-NY (Webster)                            |    70 |   4.7 |      |  58% |
-|       54 | Jocelyn Nowak           | Ravenna-OH (God's Golden Girls)                 |    50 |   3.3 |      | 100% |
-| **\*54** | Zoey Fischer            | Mustang-OK (United for Christ)                  |    50 |   3.3 |      | 100% |
-|       55 | Muna Ogwo               | Collierville-TN (Collierville Freedom Fighters) |    45 |     3 |      |  62% |
-|       56 | Jon Luc Jobson - Larkin | Richmond Hill -NY (Bethlehem Church)            |    40 |   2.7 |      |  50% |
-|       57 | Dylan Smith             | Richmond Hill -NY (Bethlehem Church)            |    30 |     2 |      |  67% |
-| **\*57** | Lucky Baldwin           | Bothell-WA (Cedar Park Eagles)                  |    30 |     2 |      |  50% |
-|       58 | Adalyn Hornaday         | Fordyce-AR (Fordyce Bible Bugs)                 |    20 |   1.3 |      | 100% |
-| **\*58** | Elizabeth Knudson       | Fordyce-AR (Fordyce Bible Bugs)                 |    20 |   1.3 |      | 100% |
-|       59 | Evelyn Kingsly          | Marietta-GA (Royal Diadem)                      |    15 |     1 |      |  75% |
-|       60 | Kyla Trippe             | Brewton-AL (Connected God Squad)                |     5 |    .3 |      |  50% |
-|       61 | David Barney            | Shelby Township-MI (Jedi Knights)               |     0 |       |      |      |
-| **\*61** | Rahul Padmanabhan       | Shelby Township-MI (Jedi Knights)               |     0 |       |      |      |
-| **\*61** | Samuel Padmanabhan      | Shelby Township-MI (Jedi Knights)               |     0 |       |      |      |
-| **\*61** | Dharshini Jayakrishnan  | Marietta-GA (Royal Diadem)                      |     0 |       |      |      |
-| **\*61** | Payton Gillund          | Emporia-KS (God's Masterpiece)                  |     0 |       |      |      |
-| **\*61** | Tripp Stormont          | Emporia-KS (God's Masterpiece)                  |     0 |       |      |      |
-| **\*61** | Fred Jackson            | Emporia-KS (God's Masterpiece)                  |     0 |       |      |      |
+|        # | Quizzer                | Team                                            | Total |   Avg |   QO |   Q% |
+| -------: | ---------------------- | ----------------------------------------------- | ----: | ----: | ---: | ---: |
+|        1 | David Biruduganti      | Naperville-IL (Naperville (S))                  |  1765 | 117.7 |    9 |  84% |
+|        2 | Meleah Sawastuk        | Ravenna-OH (God's Golden Girls)                 |  1650 |   110 |    8 |  86% |
+|        3 | Seth Archer            | Lawson-MO (Lawson-Wendy)                        |  1580 | 105.3 |    7 |  77% |
+|        4 | Shekinah Isaiah        | Bothell-WA (Cedar Park Eagles)                  |  1550 | 103.3 |    4 |  88% |
+|        5 | Shreya Joy             | Marietta-GA (Royal Diadem)                      |  1490 |  99.3 |    7 |  88% |
+|        6 | Faith Buchanan         | Richmond Hill -NY (Bethlehem Church)            |  1445 |  96.3 |    8 |  69% |
+|        7 | Michael Ukonu          | Houston-TX (The Chosen Ones)                    |  1335 |    89 |    6 |  82% |
+|        8 | Garrett Crescenti      | Shelby Township-MI (Jedi Knights)               |  1315 |  87.7 |    4 |  84% |
+|        9 | Isabella Kashubin      | Lakeville-MN (Under Armour of God)              |  1265 |  84.3 |    3 |  80% |
+|       10 | Brayden Shepherd       | Fruitland Park-FL (Kingdom Quizzers)            |  1220 |  81.3 |    4 |  75% |
+|       11 | James Coleman          | Brewton-AL (Connected God Squad)                |  1135 |  75.7 |    3 |  85% |
+|       12 | Brandon Ukonu          | Houston-TX (The Chosen Ones)                    |   940 |  62.7 |    8 |  83% |
+|       13 | Eli Turner             | Fordyce-AR (Fordyce Bible Bugs)                 |   890 |  59.3 |    2 |  73% |
+|       14 | Steve Joy              | Marietta-GA (Royal Diadem)                      |   885 |    59 |    7 |  77% |
+|       15 | Joel Paul              | Collierville-TN (Collierville Freedom Fighters) |   880 |  58.7 |      |  93% |
+|       16 | Braylon Hood-Colbert   | Mustang-OK (United for Christ)                  |   830 |  55.3 |    1 |  80% |
+|       17 | Iynu Akanbi            | Houston-TX (The Chosen Ones)                    |   795 |    53 |    5 |  92% |
+|       18 | Samuel Biruduganti     | Naperville-IL (Naperville (S))                  |   760 |  50.7 |   10 |  75% |
+|       19 | Noah Small             | Emporia-KS (God's Masterpiece)                  |   735 |    49 |    2 |  75% |
+|       20 | Austanne Barney        | Shelby Township-MI (Jedi Knights)               |   705 |    47 |    7 |  79% |
+|       21 | Ansley Hornaday        | Fordyce-AR (Fordyce Bible Bugs)                 |   705 |    47 |    5 |  66% |
+|       22 | Jocelyn Calvert        | Lawson-MO (Lawson-Wendy)                        |   685 |  45.7 |    6 |  93% |
+|       23 | Gavin Galloway         | Brewton-AL (Connected God Squad)                |   655 |  43.7 |    4 |  84% |
+|       24 | Nick Odle              | Webster-NY (Webster)                            |   635 |  42.3 |      |  62% |
+|       25 | Isaiah Kashubin        | Lakeville-MN (Under Armour of God)              |   630 |    42 |    7 |  80% |
+|       26 | Emily Sawastuk         | Ravenna-OH (God's Golden Girls)                 |   575 |  38.3 |    5 |  78% |
+|       27 | Will Thompson          | Fruitland Park-FL (Kingdom Quizzers)            |   510 |    34 |    1 |  87% |
+|       28 | Micah Trippe           | Brewton-AL (Connected God Squad)                |   480 |    32 |      |  81% |
+| **\*28** | Wesley Horn            | Mustang-OK (United for Christ)                  |   480 |    32 |      |  78% |
+|       29 | Gianna LoGiudice       | Fruitland Park-FL (Kingdom Quizzers)            |   475 |  31.7 |    3 |  78% |
+|       30 | Ella Buzzell           | Webster-NY (Webster)                            |   430 |  28.7 |    1 |  65% |
+|       31 | Luke Odle              | Webster-NY (Webster)                            |   395 |  26.3 |    2 |  68% |
+|       32 | Samantha Anselmo       | Richmond Hill -NY (Bethlehem Church)            |   375 |    25 |    2 |  88% |
+|       33 | Sancia Gladwin         | Bothell-WA (Cedar Park Eagles)                  |   355 |  23.7 |      |  66% |
+|       34 | Samuel DeSilva         | Richmond Hill -NY (Bethlehem Church)            |   350 |  23.3 |    2 |  82% |
+|       35 | Abby Tveit             | Bothell-WA (Cedar Park Eagles)                  |   330 |    22 |    2 |  64% |
+|       36 | Adalia Abinteh         | Collierville-TN (Collierville Freedom Fighters) |   325 |  21.7 |      |  92% |
+|       37 | Lucy Morency           | Shelby Township-MI (Jedi Knights)               |   320 |  21.3 |      | 100% |
+| **\*37** | Kailyn Heath           | Lakeville-MN (Under Armour of God)              |   320 |  21.3 |      |  80% |
+|       38 | Jadyn Archer           | Lawson-MO (Lawson-Wendy)                        |   275 |  18.3 |      |  91% |
+|       39 | Cole Campbell          | Mustang-OK (United for Christ)                  |   245 |  16.3 |    2 |  89% |
+|       40 | Shekinah Biruduganti   | Naperville-IL (Naperville (S))                  |   245 |  16.3 |      |  91% |
+|       41 | Josiah Brown           | Bothell-WA (Cedar Park Eagles)                  |   235 |  15.7 |    1 |  69% |
+|       42 | Jade Smith             | Emporia-KS (God's Masterpiece)                  |   230 |  15.3 |      |  77% |
+|       43 | Tabitha Barney         | Shelby Township-MI (Jedi Knights)               |   180 |    12 |      |  67% |
+|       44 | Eylene Kingsly         | Marietta-GA (Royal Diadem)                      |   160 |  10.7 |      |  94% |
+|       45 | Emma Kokora            | Richmond Hill -NY (Bethlehem Church)            |   145 |   9.7 |      |  65% |
+|       46 | Addison Odle           | Webster-NY (Webster)                            |   140 |   9.3 |    1 |  92% |
+|       47 | Eric Romanets          | Lakeville-MN (Under Armour of God)              |   140 |   9.3 |      | 100% |
+|       48 | Blaize Vaughn          | Lawson-MO (Lawson-Wendy)                        |   115 |   7.7 |      |  74% |
+|       49 | Portia Wolfe           | Emporia-KS (God's Masterpiece)                  |   105 |     7 |      |  80% |
+|       50 | Rachel Hodges          | Fordyce-AR (Fordyce Bible Bugs)                 |    95 |   6.3 |      |  91% |
+| **\*50** | Mayah Johnson          | Richmond Hill -NY (Bethlehem Church)            |    95 |   6.3 |      |  80% |
+|       51 | Adyson Campbell        | Mustang-OK (United for Christ)                  |    90 |     6 |      | 100% |
+|       52 | Meso Ogwo              | Collierville-TN (Collierville Freedom Fighters) |    85 |   5.7 |      |  83% |
+|       53 | Annelise Nowak         | Ravenna-OH (God's Golden Girls)                 |    70 |   4.7 |      |  78% |
+| **\*53** | Emily Buzzell          | Webster-NY (Webster)                            |    70 |   4.7 |      |  58% |
+|       54 | Jocelyn Nowak          | Ravenna-OH (God's Golden Girls)                 |    50 |   3.3 |      | 100% |
+| **\*54** | Zoey Fischer           | Mustang-OK (United for Christ)                  |    50 |   3.3 |      | 100% |
+|       55 | Muna Ogwo              | Collierville-TN (Collierville Freedom Fighters) |    45 |     3 |      |  62% |
+|       56 | Jon Luc Jobson-Larkin  | Richmond Hill -NY (Bethlehem Church)            |    40 |   2.7 |      |  50% |
+|       57 | Dylan Smith            | Richmond Hill -NY (Bethlehem Church)            |    30 |     2 |      |  67% |
+| **\*57** | Lucky Baldwin          | Bothell-WA (Cedar Park Eagles)                  |    30 |     2 |      |  50% |
+|       58 | Adalyn Hornaday        | Fordyce-AR (Fordyce Bible Bugs)                 |    20 |   1.3 |      | 100% |
+| **\*58** | Elizabeth Knudson      | Fordyce-AR (Fordyce Bible Bugs)                 |    20 |   1.3 |      | 100% |
+|       59 | Evelyn Kingsly         | Marietta-GA (Royal Diadem)                      |    15 |     1 |      |  75% |
+|       60 | Kyla Trippe            | Brewton-AL (Connected God Squad)                |     5 |    .3 |      |  50% |
+|       61 | David Barney           | Shelby Township-MI (Jedi Knights)               |     0 |       |      |      |
+| **\*61** | Rahul Padmanabhan      | Shelby Township-MI (Jedi Knights)               |     0 |       |      |      |
+| **\*61** | Samuel Padmanabhan     | Shelby Township-MI (Jedi Knights)               |     0 |       |      |      |
+| **\*61** | Dharshini Jayakrishnan | Marietta-GA (Royal Diadem)                      |     0 |       |      |      |
+| **\*61** | Payton Gillund         | Emporia-KS (God's Masterpiece)                  |     0 |       |      |      |
+| **\*61** | Tripp Stormont         | Emporia-KS (God's Masterpiece)                  |     0 |       |      |      |
+| **\*61** | Fred Jackson           | Emporia-KS (God's Masterpiece)                  |     0 |       |      |      |
 
 ### Yellow
 
@@ -746,55 +746,55 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                 | Team                                                  | Total |   Avg |   QO |   Q% |
-| -------: | ----------------------- | ----------------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Meleah Sawastuk         | Ravenna-OH (God's Golden Girls)                       |   920 | 102.2 |    4 |  86% |
-|        2 | Faith Buchanan          | Richmond Hill -NY (Bethlehem Church)                  |   825 |  91.7 |    3 |  71% |
-|        3 | Noah Claunch            | Cedar Hill-TX (Triple Threat)                         |   680 |  75.6 |    3 |  82% |
-|        4 | Logan Orth              | Fortville-IN (Transformed Twins and Faithful Friends) |   640 |  71.1 |    4 |  73% |
-|  **\*4** | Mark Orth               | Fortville-IN (Transformed Twins and Faithful Friends) |   640 |  71.1 |    4 |  73% |
-|        5 | Angel Walker            | Mechanicsville-VA (Contagious Kindness)               |   605 |  67.2 |    2 |  87% |
-|        6 | Adeline Keith           | Cedar Hill-TX (Triple Threat)                         |   585 |    65 |    1 |  97% |
-|        7 | Emma Martello           | Greensboro-NC (Calvary Blue)                          |   565 |  62.8 |    3 |  78% |
-|        8 | Ellen Smith             | Bristow-VA (Gushers)                                  |   560 |  62.2 |    1 |  73% |
-|        9 | Madeline Berkey         | Tucson-AZ (#JesusJitters)                             |   550 |  61.1 |    2 |  76% |
-|       10 | Larissa Cox             | New Whiteland-IN (Pardon the Interruption)            |   540 |    60 |    2 |  90% |
-|       11 | Michelle Lobato         | Tucson-AZ (#JesusJitters)                             |   445 |  49.4 |    1 |  83% |
-|       12 | Morgan MacKinney        | Great Bend-KS (Bible Warriors)                        |   435 |  48.3 |      |  84% |
-|       13 | Joseph Barajas          | Cedar Hill-TX (Triple Threat)                         |   410 |  45.6 |    2 |  75% |
-|       14 | Emily Sawastuk          | Ravenna-OH (God's Golden Girls)                       |   405 |    45 |    4 |  79% |
-|       15 | Kathline Newland        | Bristow-VA (Gushers)                                  |   360 |    40 |      |  68% |
-|       16 | Savannah Harper         | Mechanicsville-VA (Contagious Kindness)               |   350 |  38.9 |    1 |  64% |
-|       17 | Cole MacKinney          | Great Bend-KS (Bible Warriors)                        |   335 |  37.2 |    2 |  87% |
-|       18 | Jack Martello           | Greensboro-NC (Calvary Blue)                          |   330 |  36.7 |    1 |  86% |
-|       19 | Addy Dougherty          | Great Bend-KS (Bible Warriors)                        |   260 |  28.9 |      |  64% |
-|       20 | Honey Schwickerath      | Mechanicsville-VA (Contagious Kindness)               |   240 |  26.7 |    1 |  80% |
-|       21 | Kayleigh Henley         | Bristow-VA (Gushers)                                  |   220 |  24.4 |    1 |  69% |
-|       22 | Lucas Brunson           | New Whiteland-IN (Pardon the Interruption)            |   210 |  23.3 |    1 |  85% |
-|       23 | Michael Newland         | Bristow-VA (Gushers)                                  |   190 |  21.1 |      |  91% |
-|       24 | Andrian Kolliegbo       | New Whiteland-IN (Pardon the Interruption)            |   180 |    20 |      |  62% |
-|       25 | Mayah Johnson           | Richmond Hill -NY (Bethlehem Church)                  |   155 |  17.2 |      |  90% |
-|       26 | Serenity Orozco         | Tucson-AZ (#JesusJitters)                             |   130 |  14.4 |      | 100% |
-|       27 | Samuel DeSilva          | Richmond Hill -NY (Bethlehem Church)                  |   125 |  13.9 |    1 |  74% |
-|       28 | Ella Krier              | Great Bend-KS (Bible Warriors)                        |   120 |  13.3 |      |  78% |
-| **\*28** | William Okyere          | New Whiteland-IN (Pardon the Interruption)            |   120 |  13.3 |      |  71% |
-|       29 | Graham Little           | New Whiteland-IN (Pardon the Interruption)            |   115 |  12.8 |      |  68% |
-|       30 | Makayla Burton          | Great Bend-KS (Bible Warriors)                        |    95 |  10.6 |    1 |  77% |
-|       31 | Keira Orth              | Fortville-IN (Transformed Twins and Faithful Friends) |    85 |   9.4 |      |  83% |
-|       32 | Myah Berkey             | Tucson-AZ (#JesusJitters)                             |    80 |   8.9 |      |  75% |
-|       33 | Mason Berkey            | Tucson-AZ (#JesusJitters)                             |    75 |   8.3 |      |  75% |
-|       34 | Samantha Anselmo        | Richmond Hill -NY (Bethlehem Church)                  |    70 |   7.8 |      |  69% |
-|       35 | Audrey Mason            | Bristow-VA (Gushers)                                  |    65 |   7.2 |      |  87% |
-| **\*35** | Emma Kokora             | Richmond Hill -NY (Bethlehem Church)                  |    65 |   7.2 |      |  54% |
-|       36 | Jocelyn Nowak           | Ravenna-OH (God's Golden Girls)                       |    60 |   6.7 |      | 100% |
-| **\*36** | Annelise Nowak          | Ravenna-OH (God's Golden Girls)                       |    60 |   6.7 |      | 100% |
-| **\*36** | Daniel Sprague          | New Whiteland-IN (Pardon the Interruption)            |    60 |   6.7 |      | 100% |
-| **\*36** | Jon Luc Jobson - Larkin | Richmond Hill -NY (Bethlehem Church)                  |    60 |   6.7 |      |  71% |
-|       37 | Berkley Adams           | Mechanicsville-VA (Contagious Kindness)               |    45 |     5 |      |  83% |
-|       38 | Darla Holzhausen        | Fortville-IN (Transformed Twins and Faithful Friends) |    35 |   3.9 |      |  75% |
-|       39 | Dylan Smith             | Richmond Hill -NY (Bethlehem Church)                  |     0 |       |      |      |
-| **\*39** | Brianna Madonia         | Greensboro-NC (Calvary Blue)                          |     0 |       |      |      |
-|       40 | Gabriella Lobato        | Tucson-AZ (#JesusJitters)                             |    -5 |   -.6 |      |      |
+|        # | Quizzer               | Team                                                  | Total |   Avg |   QO |   Q% |
+| -------: | --------------------- | ----------------------------------------------------- | ----: | ----: | ---: | ---: |
+|        1 | Meleah Sawastuk       | Ravenna-OH (God's Golden Girls)                       |   920 | 102.2 |    4 |  86% |
+|        2 | Faith Buchanan        | Richmond Hill -NY (Bethlehem Church)                  |   825 |  91.7 |    3 |  71% |
+|        3 | Noah Claunch          | Cedar Hill-TX (Triple Threat)                         |   680 |  75.6 |    3 |  82% |
+|        4 | Logan Orth            | Fortville-IN (Transformed Twins and Faithful Friends) |   640 |  71.1 |    4 |  73% |
+|  **\*4** | Mark Orth             | Fortville-IN (Transformed Twins and Faithful Friends) |   640 |  71.1 |    4 |  73% |
+|        5 | Angel Walker          | Mechanicsville-VA (Contagious Kindness)               |   605 |  67.2 |    2 |  87% |
+|        6 | Adeline Keith         | Cedar Hill-TX (Triple Threat)                         |   585 |    65 |    1 |  97% |
+|        7 | Emma Martello         | Greensboro-NC (Calvary Blue)                          |   565 |  62.8 |    3 |  78% |
+|        8 | Ellen Smith           | Bristow-VA (Gushers)                                  |   560 |  62.2 |    1 |  73% |
+|        9 | Madeline Berkey       | Tucson-AZ (#JesusJitters)                             |   550 |  61.1 |    2 |  76% |
+|       10 | Larissa Cox           | New Whiteland-IN (Pardon the Interruption)            |   540 |    60 |    2 |  90% |
+|       11 | Michelle Lobato       | Tucson-AZ (#JesusJitters)                             |   445 |  49.4 |    1 |  83% |
+|       12 | Morgan MacKinney      | Great Bend-KS (Bible Warriors)                        |   435 |  48.3 |      |  84% |
+|       13 | Joseph Barajas        | Cedar Hill-TX (Triple Threat)                         |   410 |  45.6 |    2 |  75% |
+|       14 | Emily Sawastuk        | Ravenna-OH (God's Golden Girls)                       |   405 |    45 |    4 |  79% |
+|       15 | Kathline Newland      | Bristow-VA (Gushers)                                  |   360 |    40 |      |  68% |
+|       16 | Savannah Harper       | Mechanicsville-VA (Contagious Kindness)               |   350 |  38.9 |    1 |  64% |
+|       17 | Cole MacKinney        | Great Bend-KS (Bible Warriors)                        |   335 |  37.2 |    2 |  87% |
+|       18 | Jack Martello         | Greensboro-NC (Calvary Blue)                          |   330 |  36.7 |    1 |  86% |
+|       19 | Addy Dougherty        | Great Bend-KS (Bible Warriors)                        |   260 |  28.9 |      |  64% |
+|       20 | Honey Schwickerath    | Mechanicsville-VA (Contagious Kindness)               |   240 |  26.7 |    1 |  80% |
+|       21 | Kayleigh Henley       | Bristow-VA (Gushers)                                  |   220 |  24.4 |    1 |  69% |
+|       22 | Lucas Brunson         | New Whiteland-IN (Pardon the Interruption)            |   210 |  23.3 |    1 |  85% |
+|       23 | Michael Newland       | Bristow-VA (Gushers)                                  |   190 |  21.1 |      |  91% |
+|       24 | Andrian Kolliegbo     | New Whiteland-IN (Pardon the Interruption)            |   180 |    20 |      |  62% |
+|       25 | Mayah Johnson         | Richmond Hill -NY (Bethlehem Church)                  |   155 |  17.2 |      |  90% |
+|       26 | Serenity Orozco       | Tucson-AZ (#JesusJitters)                             |   130 |  14.4 |      | 100% |
+|       27 | Samuel DeSilva        | Richmond Hill -NY (Bethlehem Church)                  |   125 |  13.9 |    1 |  74% |
+|       28 | Ella Krier            | Great Bend-KS (Bible Warriors)                        |   120 |  13.3 |      |  78% |
+| **\*28** | William Okyere        | New Whiteland-IN (Pardon the Interruption)            |   120 |  13.3 |      |  71% |
+|       29 | Graham Little         | New Whiteland-IN (Pardon the Interruption)            |   115 |  12.8 |      |  68% |
+|       30 | Makayla Burton        | Great Bend-KS (Bible Warriors)                        |    95 |  10.6 |    1 |  77% |
+|       31 | Keira Orth            | Fortville-IN (Transformed Twins and Faithful Friends) |    85 |   9.4 |      |  83% |
+|       32 | Myah Berkey           | Tucson-AZ (#JesusJitters)                             |    80 |   8.9 |      |  75% |
+|       33 | Mason Berkey          | Tucson-AZ (#JesusJitters)                             |    75 |   8.3 |      |  75% |
+|       34 | Samantha Anselmo      | Richmond Hill -NY (Bethlehem Church)                  |    70 |   7.8 |      |  69% |
+|       35 | Audrey Mason          | Bristow-VA (Gushers)                                  |    65 |   7.2 |      |  87% |
+| **\*35** | Emma Kokora           | Richmond Hill -NY (Bethlehem Church)                  |    65 |   7.2 |      |  54% |
+|       36 | Jocelyn Nowak         | Ravenna-OH (God's Golden Girls)                       |    60 |   6.7 |      | 100% |
+| **\*36** | Annelise Nowak        | Ravenna-OH (God's Golden Girls)                       |    60 |   6.7 |      | 100% |
+| **\*36** | Daniel Sprague        | New Whiteland-IN (Pardon the Interruption)            |    60 |   6.7 |      | 100% |
+| **\*36** | Jon Luc Jobson-Larkin | Richmond Hill -NY (Bethlehem Church)                  |    60 |   6.7 |      |  71% |
+|       37 | Berkley Adams         | Mechanicsville-VA (Contagious Kindness)               |    45 |     5 |      |  83% |
+|       38 | Darla Holzhausen      | Fortville-IN (Transformed Twins and Faithful Friends) |    35 |   3.9 |      |  75% |
+|       39 | Dylan Smith           | Richmond Hill -NY (Bethlehem Church)                  |     0 |       |      |      |
+| **\*39** | Brianna Madonia       | Greensboro-NC (Calvary Blue)                          |     0 |       |      |      |
+|       40 | Gabriella Lobato      | Tucson-AZ (#JesusJitters)                             |    -5 |   -.6 |      |      |
 
 
 ### Pink

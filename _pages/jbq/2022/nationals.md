@@ -94,7 +94,7 @@ menubar_toc_static:
 | **\*46** | Seraphina Franklin       | Metuchen, NJ (Armored Warriors of Christ)           |    30 |  2.3 |      | 100% |
 |       47 | Ella Anderson            | Fargo, ND (Burning Hearts Church Jesus is Awesome!) |    20 |  1.5 |      | 100% |
 |       48 | Carolyn Casada           | Springfield, MO (Life360 Church)                    |    15 |  1.2 |      |  66% |
-|       49 | Benjamin Adu-gyamfi      | Houston, TX (The Chosen Warriors)                   |    10 |   .8 |      |  99% |
+|       49 | Benjamin Adu-Gyamfi      | Houston, TX (The Chosen Warriors)                   |    10 |   .8 |      |  99% |
 | **\*49** | Yane Azuike              | Houston, TX (The Chosen Warriors)                   |    10 |   .8 |      |  99% |
 | **\*49** | Sheryl Deepak            | Metuchen, NJ (Armored Warriors of Christ)           |    10 |   .8 |      |  99% |
 | **\*49** | Irene Ortiz              | Dallas, TX (Prayer Mountain Explorers)              |    10 |   .8 |      |  99% |
@@ -633,7 +633,7 @@ menubar_toc_static:
 | **\*34** | Annakate Thompson       | Mechanicsville, VA (MCC World Changers)    |     0 |       |      |      |
 | **\*34** | Yane Azuike             | Houston, TX (The Chosen Warriors)          |     0 |       |      |      |
 |       35 | Owen McAfee             | Indianapolis, IN (Church52 -WITHER BOSSES) |    -5 |   -.6 |      |      |
-| **\*35** | Benjamin Adu-gyamfi     | Houston, TX (The Chosen Warriors)          |    -5 |   -.6 |      |      |
+| **\*35** | Benjamin Adu-Gyamfi     | Houston, TX (The Chosen Warriors)          |    -5 |   -.6 |      |      |
 
 
 ### Lavender

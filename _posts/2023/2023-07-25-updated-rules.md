@@ -101,7 +101,7 @@ Now, teams can contest both in a multi-issue contest. This reduces the number of
 
 From page 28: 
 
-> When only one team’s quizzer is ruled incorrect, and after Conferring that team decides not to Contest, they forfeit their right to any further Contesting on that question. (However, if one member says “no Contest” but another member immediately requests to Contest, then the Contest is allowed.)
+> When only one team's quizzer is ruled incorrect, and after Conferring that team decides not to Contest, they forfeit their right to any further Contesting on that question. (However, if one member says “no Contest” but another member immediately requests to Contest, then the Contest is allowed.)
 
 The rules already specified what happens when quizzers from *both* teams are counted incorrect. Now, there is clarity on the proper procedures when a quizzer from *only one* team is counted incorrect.
 

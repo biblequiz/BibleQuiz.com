@@ -110,7 +110,7 @@ menubar_toc_static:
 |        5 | noah ringeisen     | Victorious Life Church (Wesley Chapel) #1 (Victorious Life Church)                |   345 |  57.5 |    2 |      |
 |        6 | Ashley Hostetler   | Newbie Quizzers - LIFE Church A/G (FP) (LIFE Church Assembly of God)              |   320 |  53.3 |      |      |
 |        7 | Joseph Bland       | Knights of God (Faith Assembly of God)                                            |   290 |  48.3 |    3 |      |
-|        8 | Marcus Goss Jr     | Bible Bashers of City Church of Orlando (City Church of Orlando)                  |   280 |  46.7 |    1 |      |
+|        8 | Marcus Goss Jr.    | Bible Bashers of City Church of Orlando (City Church of Orlando)                  |   280 |  46.7 |    1 |      |
 |        9 | Daniel Gonzalez    | Holy Gummy Bears (Greeneway Church)                                               |   245 |  40.8 |    2 |      |
 |       10 | Allen Chamberlain  | Knights of God (Faith Assembly of God)                                            |   245 |  40.8 |      |      |
 |       11 | Christian Lamas    | Knights of God (Faith Assembly of God)                                            |   235 |  39.2 |      |      |

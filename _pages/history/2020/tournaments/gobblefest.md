@@ -227,41 +227,41 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                 | Team                                                                                     | Total |   Avg |   QO |   Q% |
-| -------: | ----------------------- | ---------------------------------------------------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Trace Reisinger         | R Newport \"Pure Nard\" Newport, PA (Assembly of God)                                    |  1280 | 142.2 |    9 |  92% |
-|        2 | Emily Larson            | R Allison Park Church (Allison Park) (Allison Park Church)                               |  1125 |   125 |    9 |  92% |
-|        3 | Alex Mitchell           | R Maple Lane Assembly of God (Deposit) #1 (Maple Lane Assembly of God)                   |   780 |  86.7 |    6 |  77% |
-|        4 | Andrew Wong             | R Smithtown Gospel Tabernacle (Smithtown) #1 (Smithtown Gospel Tabernacle)               |   740 |  82.2 |    6 |  85% |
-|        5 | Aidan Rajesh            | R Royal Priesthood (Greensboro, NC) Jasper (Calvary Church Assemblies of God Fellowship) |   720 |    80 |    7 |  75% |
-|        6 | Jubilee Ward            | R Gospel Publishing House Bethany Ch, Wyckoff, NJ (Bethany Church)                       |   710 |  78.9 |    6 |  83% |
-|        7 | Gabby Singer            | R Maple Lane Assembly of God (Deposit) #1 (Maple Lane Assembly of God)                   |   665 |  73.9 |    4 |  87% |
-|        8 | Tabo Mkandawire         | R Allison Park Church (Allison Park) (Allison Park Church)                               |   655 |  72.8 |    6 |  84% |
-|        9 | Eliseo Davilia          | R Fountain of Life Center (Burlington) #2 (Fountain of Life Center)                      |   640 |  71.1 |    5 |  83% |
-|       10 | Serenity Fenton         | R Redeemer Church (Utica) (Redeemer Church)                                              |   585 |    65 |    5 |  80% |
-|       11 | Issac Woo               | R Redeemer Church (Utica) (Redeemer Church)                                              |   535 |  59.4 |    4 |  71% |
-|       12 | Summer Woo              | R Redeemer Church (Utica) (Redeemer Church)                                              |   425 |  47.2 |    2 |  71% |
-|       13 | Daniel Wong             | R Smithtown Gospel Tabernacle (Smithtown) #1 (Smithtown Gospel Tabernacle)               |   355 |  39.4 |    1 |  86% |
-|       14 | Sarah Whitfield         | R Allison Park Church (Allison Park) (Allison Park Church)                               |   335 |  37.2 |    2 |  82% |
-|       15 | Erica Smith             | R Newport \"Pure Nard\" Newport, PA (Assembly of God)                                    |   325 |  36.1 |    1 |  83% |
-|       16 | Nathaniel Jebaraj       | R Royal Priesthood (Greensboro, NC) Jasper (Calvary Church Assemblies of God Fellowship) |   320 |  35.6 |    1 |  64% |
-|       17 | Kassidy Frederick       | R Maple Lane Assembly of God (Deposit) #1 (Maple Lane Assembly of God)                   |   280 |  31.1 |    2 |  88% |
-| **\*17** | Victoria Cullins        | R First Assembly of God (Louisville) #2 (First Assembly of God)                          |   280 |  31.1 |    2 |  67% |
-|       18 | Olivia Arroyo           | R Fountain of Life Center (Burlington) #2 (Fountain of Life Center)                      |   265 |  29.4 |      |  77% |
-|       19 | Samuel Jebaraj          | R Royal Priesthood (Greensboro, NC) Jasper (Calvary Church Assemblies of God Fellowship) |   195 |  21.7 |    1 |  81% |
-|       20 | Landon Hester           | R First Assembly of God (Louisville) #2 (First Assembly of God)                          |   185 |  20.6 |    1 |  60% |
-|       21 | Nathan Rozelle          | R Maple Lane Assembly of God (Deposit) #1 (Maple Lane Assembly of God)                   |   140 |  15.6 |      |  82% |
-|       22 | Luna Suarez             | R Gospel Publishing House Bethany Ch, Wyckoff, NJ (Bethany Church)                       |   125 |  13.9 |      |  85% |
-|       23 | Sarah Velicky           | R Gospel Publishing House Bethany Ch, Wyckoff, NJ (Bethany Church)                       |    70 |   7.8 |      |  54% |
-|       24 | Adeline Hwang           | R Smithtown Gospel Tabernacle (Smithtown) #1 (Smithtown Gospel Tabernacle)               |    65 |   7.2 |      |  83% |
-|       25 | Immanuel Vega           | R Fountain of Life Center (Burlington) #2 (Fountain of Life Center)                      |    40 |   4.4 |      |  83% |
-|       26 | Alex Peryea             | R Redeemer Church (Utica) (Redeemer Church)                                              |    30 |   3.3 |      |  50% |
-|       27 | Haley Hutzler           | R Smithtown Gospel Tabernacle (Smithtown) #1 (Smithtown Gospel Tabernacle)               |    20 |   2.2 |      |  66% |
-|       28 | Liberty Bunker          | R Newport \"Pure Nard\" Newport, PA (Assembly of God)                                    |     0 |       |      |      |
-| **\*28** | Samantha Anselmo        | R Bethlehem Church (Richmond Hill) #1 (Bethlehem Church)                                 |     0 |       |      |      |
-| **\*28** | Jon Luc Jobson - Larkin | R Bethlehem Church (Richmond Hill) #1 (Bethlehem Church)                                 |     0 |       |      |      |
-| **\*28** | Emma Kokora             | R Bethlehem Church (Richmond Hill) #1 (Bethlehem Church)                                 |     0 |       |      |      |
-|       29 | Riziki Omandi           | R Fountain of Life Center (Burlington) #2 (Fountain of Life Center)                      |   -10 |  -1.1 |      |      |
+|        # | Quizzer               | Team                                                                                     | Total |   Avg |   QO |   Q% |
+| -------: | --------------------- | ---------------------------------------------------------------------------------------- | ----: | ----: | ---: | ---: |
+|        1 | Trace Reisinger       | R Newport \"Pure Nard\" Newport, PA (Assembly of God)                                    |  1280 | 142.2 |    9 |  92% |
+|        2 | Emily Larson          | R Allison Park Church (Allison Park) (Allison Park Church)                               |  1125 |   125 |    9 |  92% |
+|        3 | Alex Mitchell         | R Maple Lane Assembly of God (Deposit) #1 (Maple Lane Assembly of God)                   |   780 |  86.7 |    6 |  77% |
+|        4 | Andrew Wong           | R Smithtown Gospel Tabernacle (Smithtown) #1 (Smithtown Gospel Tabernacle)               |   740 |  82.2 |    6 |  85% |
+|        5 | Aidan Rajesh          | R Royal Priesthood (Greensboro, NC) Jasper (Calvary Church Assemblies of God Fellowship) |   720 |    80 |    7 |  75% |
+|        6 | Jubilee Ward          | R Gospel Publishing House Bethany Ch, Wyckoff, NJ (Bethany Church)                       |   710 |  78.9 |    6 |  83% |
+|        7 | Gabby Singer          | R Maple Lane Assembly of God (Deposit) #1 (Maple Lane Assembly of God)                   |   665 |  73.9 |    4 |  87% |
+|        8 | Tabo Mkandawire       | R Allison Park Church (Allison Park) (Allison Park Church)                               |   655 |  72.8 |    6 |  84% |
+|        9 | Eliseo Davilia        | R Fountain of Life Center (Burlington) #2 (Fountain of Life Center)                      |   640 |  71.1 |    5 |  83% |
+|       10 | Serenity Fenton       | R Redeemer Church (Utica) (Redeemer Church)                                              |   585 |    65 |    5 |  80% |
+|       11 | Issac Woo             | R Redeemer Church (Utica) (Redeemer Church)                                              |   535 |  59.4 |    4 |  71% |
+|       12 | Summer Woo            | R Redeemer Church (Utica) (Redeemer Church)                                              |   425 |  47.2 |    2 |  71% |
+|       13 | Daniel Wong           | R Smithtown Gospel Tabernacle (Smithtown) #1 (Smithtown Gospel Tabernacle)               |   355 |  39.4 |    1 |  86% |
+|       14 | Sarah Whitfield       | R Allison Park Church (Allison Park) (Allison Park Church)                               |   335 |  37.2 |    2 |  82% |
+|       15 | Erica Smith           | R Newport \"Pure Nard\" Newport, PA (Assembly of God)                                    |   325 |  36.1 |    1 |  83% |
+|       16 | Nathaniel Jebaraj     | R Royal Priesthood (Greensboro, NC) Jasper (Calvary Church Assemblies of God Fellowship) |   320 |  35.6 |    1 |  64% |
+|       17 | Kassidy Frederick     | R Maple Lane Assembly of God (Deposit) #1 (Maple Lane Assembly of God)                   |   280 |  31.1 |    2 |  88% |
+| **\*17** | Victoria Cullins      | R First Assembly of God (Louisville) #2 (First Assembly of God)                          |   280 |  31.1 |    2 |  67% |
+|       18 | Olivia Arroyo         | R Fountain of Life Center (Burlington) #2 (Fountain of Life Center)                      |   265 |  29.4 |      |  77% |
+|       19 | Samuel Jebaraj        | R Royal Priesthood (Greensboro, NC) Jasper (Calvary Church Assemblies of God Fellowship) |   195 |  21.7 |    1 |  81% |
+|       20 | Landon Hester         | R First Assembly of God (Louisville) #2 (First Assembly of God)                          |   185 |  20.6 |    1 |  60% |
+|       21 | Nathan Rozelle        | R Maple Lane Assembly of God (Deposit) #1 (Maple Lane Assembly of God)                   |   140 |  15.6 |      |  82% |
+|       22 | Luna Suarez           | R Gospel Publishing House Bethany Ch, Wyckoff, NJ (Bethany Church)                       |   125 |  13.9 |      |  85% |
+|       23 | Sarah Velicky         | R Gospel Publishing House Bethany Ch, Wyckoff, NJ (Bethany Church)                       |    70 |   7.8 |      |  54% |
+|       24 | Adeline Hwang         | R Smithtown Gospel Tabernacle (Smithtown) #1 (Smithtown Gospel Tabernacle)               |    65 |   7.2 |      |  83% |
+|       25 | Immanuel Vega         | R Fountain of Life Center (Burlington) #2 (Fountain of Life Center)                      |    40 |   4.4 |      |  83% |
+|       26 | Alex Peryea           | R Redeemer Church (Utica) (Redeemer Church)                                              |    30 |   3.3 |      |  50% |
+|       27 | Haley Hutzler         | R Smithtown Gospel Tabernacle (Smithtown) #1 (Smithtown Gospel Tabernacle)               |    20 |   2.2 |      |  66% |
+|       28 | Liberty Bunker        | R Newport \"Pure Nard\" Newport, PA (Assembly of God)                                    |     0 |       |      |      |
+| **\*28** | Samantha Anselmo      | R Bethlehem Church (Richmond Hill) #1 (Bethlehem Church)                                 |     0 |       |      |      |
+| **\*28** | Jon Luc Jobson-Larkin | R Bethlehem Church (Richmond Hill) #1 (Bethlehem Church)                                 |     0 |       |      |      |
+| **\*28** | Emma Kokora           | R Bethlehem Church (Richmond Hill) #1 (Bethlehem Church)                                 |     0 |       |      |      |
+|       29 | Riziki Omandi         | R Fountain of Life Center (Burlington) #2 (Fountain of Life Center)                      |   -10 |  -1.1 |      |      |
 
 
 ## XP5 Orange

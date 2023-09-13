@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "National Coaches’ Newsletter – October 2015"
+title: "National Coaches' Newsletter – October 2015"
 author: James Lex
 date: "2015-10-01"
 categories: 

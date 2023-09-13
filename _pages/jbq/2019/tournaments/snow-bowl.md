@@ -64,7 +64,7 @@ menubar_toc_static:
 |       26 | David Matthew      | Chain Breakers (Freedom Life)             |   140 |    14 |      |  74% |
 |       27 | Daniel Bartholomew | The Gospel Ninjas (The Oaks Fellowship)   |   115 |  11.5 |      |  92% |
 |       28 | Joel Jacob         | Zion Lion (Zion Church)                   |   105 |  10.5 |      |  85% |
-|       29 | Juan Jose Enrique  | League of Quizzers (CDMG)                 |    95 |   9.5 |      |  54% |
+|       29 | Juan Jose Enriquez | League of Quizzers (CDMG)                 |    95 |   9.5 |      |  54% |
 |       30 | Eli Walsworth      | Chain Breakers (Freedom Life)             |    85 |   8.5 |      |  77% |
 |       31 | Nathan Colley      | The Gospel Ninjas (The Oaks Fellowship)   |    65 |   6.5 |      |  86% |
 |       32 | Marcos Marroquin   | The Gospel Ninjas (The Oaks Fellowship)   |    60 |     6 |      | 100% |

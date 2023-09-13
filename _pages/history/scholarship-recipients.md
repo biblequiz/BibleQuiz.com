@@ -46,7 +46,7 @@ menubar: menu_history
 | 2009 | Jenna-Jo Duffy    | Cedar Park AG              | Bothell, WA        |
 | 2008 | Blake Porter      | James River Church         | Ozark, MO          |
 | 2008 | Rebekah Nivala    | Martha Vineyard            | Vineyard Haven, MA |
-| 2008 | J.P. O’Connor     | Tacoma Life Center         | Tacoma, WA         |
+| 2008 | J.P. O'Connor     | Tacoma Life Center         | Tacoma, WA         |
 | 2008 | Brittany Porter   | James River Church         | Ozark, MO          |
 
 ## Curtis Scholarship

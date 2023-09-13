@@ -32,26 +32,26 @@ menubar_toc_static:
 
 ### Top Individuals
 
-|    # | Quizzer          | Team        | Total |   QO |
-| ---: | ---------------- | ----------- | ----: | ---: |
-|    1 | Cara Rozgonyi    | Monroeville |   900 |    6 |
-|    2 | C.J. Barna       | South Hills |   865 |    5 |
-|    3 | Katie Chenco     | Spring City |   795 |    5 |
-|    4 | Neha Saiya       | Lebanon     |   715 |    4 |
-|    5 | Isaiah Hunter    | Hermitage   |   420 |    4 |
-|    6 | Elyssa DeFazio   | Hermitage   |   420 |    3 |
-|    7 | Brennen DeFazio  | Hermitage   |   400 |    1 |
-|    8 | Joshua Sholly    | Lebanon     |   380 |    1 |
-|    9 | Patti Sunseri    | Spring City |   370 |    1 |
-|   10 | Jenna Liberati   | South Hills |   345 |    1 |
-|   11 | Tyler Burnworth  | Clarion     |   290 |    1 |
-|   12 | Alicia Seman     | Uniontown   |   285 |    1 |
-|   13 | Alicia King      | Uniontown   |   280 |    2 |
-|   14 | Chris Morante    | Monroeville |   270 |    1 |
-|   15 | Mark J. Stasenko | South Hills |   265 |    0 |
-|   16 | Dave Richmond    | Spring City |   255 |    1 |
-|   17 | Jeremiah Sholly  | Lebanon     |   245 |    1 |
-|   18 | Erik Steim       | Grantville  |   215 |    2 |
+|    # | Quizzer             | Team        | Total |   QO |
+| ---: | ------------------- | ----------- | ----: | ---: |
+|    1 | Cara Rozgonyi       | Monroeville |   900 |    6 |
+|    2 | C.J. Barna          | South Hills |   865 |    5 |
+|    3 | Katie Chenco        | Spring City |   795 |    5 |
+|    4 | Neha Saiya          | Lebanon     |   715 |    4 |
+|    5 | Isaiah Hunter       | Hermitage   |   420 |    4 |
+|    6 | Elyssa DeFazio      | Hermitage   |   420 |    3 |
+|    7 | Brennen DeFazio     | Hermitage   |   400 |    1 |
+|    8 | Joshua Sholly       | Lebanon     |   380 |    1 |
+|    9 | Patti Sunseri       | Spring City |   370 |    1 |
+|   10 | Jenna Liberati      | South Hills |   345 |    1 |
+|   11 | Tyler Burnworth     | Clarion     |   290 |    1 |
+|   12 | Alicia Seman        | Uniontown   |   285 |    1 |
+|   13 | Alicia King         | Uniontown   |   280 |    2 |
+|   14 | Chris Morante       | Monroeville |   270 |    1 |
+|   15 | Mark James Stasenko | South Hills |   265 |    0 |
+|   16 | Dave Richmond       | Spring City |   255 |    1 |
+|   17 | Jeremiah Sholly     | Lebanon     |   245 |    1 |
+|   18 | Erik Steim          | Grantville  |   215 |    2 |
 
 ## Novice Division
 

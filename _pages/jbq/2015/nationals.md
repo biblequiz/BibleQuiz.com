@@ -155,7 +155,7 @@ menubar_toc_static:
 | ---: | -------------------- | ------------------------ | ------------------------------ | ----: | -----: | ---: |
 |    1 | Ty Silas             | Naperville-IL - S        | Naperville S                   |  1745 | 116.33 |   11 |
 |    2 | Darcie Harr          | East Lansing-MI          | Greater Lansing                |  1435 |  95.67 |    9 |
-|    3 | Samuel Clinston      | Bellevue-WA              | Neighborhood Church            |  1415 |  94.33 |    5 |
+|    3 | Sam Clinston         | Bellevue-WA              | Neighborhood Church            |  1415 |  94.33 |    5 |
 |    4 | Cameron Ramsey       | Springfield-MO           | QuizMasters                    |  1390 |  92.67 |    6 |
 |    5 | Samuel Broeker       | Overland Park-KS         | Coca-Cola Quizzers             |  1345 |  89.67 |    5 |
 |    6 | Zane Brown           | Garland-TX               | Transformed                    |  1325 |  88.33 |    4 |
@@ -533,7 +533,7 @@ menubar_toc_static:
 |   52 | Aubrey Carrozzi        | Ravenna-OH             | Smarties                    |   120 |   8.00 |      |
 |   53 | Brianna Boodram        | Richmond Hill-NY       | Bethlehem Church            |    90 |   6.00 |      |
 |   54 | Savannah Stricklin     | North Little Rock-AR   | Eagles                      |    60 |   4.00 |      |
-|   54 | Jon Luc Jobson Larkin  | Richmond Hill-NY       | Bethlehem Church            |    60 |   4.00 |      |
+|   54 | Jon Luc Jobson-Larkin  | Richmond Hill-NY       | Bethlehem Church            |    60 |   4.00 |      |
 |   55 | Jackson Woodward       | Springfield-MO - Candy | Candy Crush                 |    45 |   3.00 |      |
 |   56 | Elli Woodward          | Springfield-MO - Candy | Candy Crush                 |    30 |   2.00 |      |
 |   56 | Kacey Mayfield         | Oswego-KS              | God Girls                   |    30 |   2.00 |      |
@@ -585,7 +585,7 @@ menubar_toc_static:
 |    8 | Brandon Ukonu      | Houston-TX        | The Chosen Ones             |   615 |  68.33 |    9 |
 |    9 | Simeon Thomas      | Scotch Plains-NJ  | Quiz Kids                   |   570 |  63.33 |      |
 |   10 | Shawn Timothy      | Naperville-IL - D | Naperville D                |   535 |  59.44 |    2 |
-|   11 | Samuel Clinston    | Bellevue-WA       | Neighborhood Church         |   520 |  57.78 |    1 |
+|   11 | Sam Clinston       | Bellevue-WA       | Neighborhood Church         |   520 |  57.78 |    1 |
 |   12 | Annabelle Kumar    | Scotch Plains-NJ  | Quiz Kids                   |   440 |  48.89 |    1 |
 |   13 | Shaymis Powell     | Naperville-IL - M | Naperville M                |   410 |  45.56 |    6 |
 |   14 | Nicola Betz        | Naperville-IL - D | Naperville D                |   365 |  40.56 |    4 |
@@ -682,7 +682,7 @@ menubar_toc_static:
 |   31 | Ashley Okafor          | Richmond Hill-NY              | Bethlehem Church      |    50 |   5.56 |      |
 |   32 | McKinley Stevens       | Naperville-IL - S             | Naperville S          |    20 |   2.22 |      |
 |   33 | Christian Steele       | Mechanicsville-VA - Obedience | Contagious Obedience  |     5 |    .56 |      |
-|   33 | Jon Luc Jobson Larkin  | Richmond Hill-NY              | Bethlehem Church      |     5 |    .56 |      |
+|   33 | Jon Luc Jobson-Larkin  | Richmond Hill-NY              | Bethlehem Church      |     5 |    .56 |      |
 |   34 | Michelle Aum           | Naperville-IL - C             | Naperville C          |       |    .00 |      |
 |   34 | Brianna Boodram        | Richmond Hill-NY              | Bethlehem Church      |       |    .00 |      |
 |   34 | Robert Trout 3 (Jacob) | Richmond Hill-NY              | Bethlehem Church      |       |    .00 |      |

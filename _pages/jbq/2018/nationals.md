@@ -86,7 +86,7 @@ menubar_toc_static:
 |       39 | Vicente Rivera        | 4K (Montgomery-AL)                              |   335 |  22.3 |    3 |  68% |
 |       40 | Shekinah Biruduganti  | Naperville (D) (Naperville-IL)                  |   335 |  22.3 |      |  94% |
 |       41 | Eliana Phelps         | AAA Batteries (Springfield-MO)                  |   315 |    21 |    2 |  65% |
-|       42 | Jon Luc Jobson Larkin | Bethlehem Church (Richmond Hill-NY)             |   305 |  20.3 |      |  75% |
+|       42 | Jon Luc Jobson-Larkin | Bethlehem Church (Richmond Hill-NY)             |   305 |  20.3 |      |  75% |
 |       43 | Cian VanOfferen       | Fruits of the Spirit (Racine-WI)                |   285 |    19 |      |  76% |
 |       44 | Janae Arnold          | Shoreline (Shoreline-WA)                        |   275 |  18.3 |      |  77% |
 |       45 | Mayah Johnson         | Bethlehem Church (Richmond Hill-NY)             |   270 |    18 |    1 |  58% |
@@ -967,7 +967,7 @@ menubar_toc_static:
 |       28 | Joel Christopher      | ATC Flames (Norcross -GA)               |   125 |  13.9 |    1 |  81% |
 |       29 | Samantha Anselmo      | Bethlehem Church (Richmond Hill-NY)     |   125 |  13.9 |      |  70% |
 |       30 | Nicholas Tait         | Racine Far From Over (Racine-WI)        |   120 |  13.3 |      |  87% |
-|       31 | Jon Luc Jobson Larkin | Bethlehem Church (Richmond Hill-NY)     |   105 |  11.7 |      |  75% |
+|       31 | Jon Luc Jobson-Larkin | Bethlehem Church (Richmond Hill-NY)     |   105 |  11.7 |      |  75% |
 |       32 | Annika Twiford        | Word Warriors (Hanford-CA)              |    90 |    10 |      | 100% |
 |       33 | Luke Smith            | Exodus Expedition (Mount Washington-KY) |    80 |   8.9 |      | 100% |
 | **\*33** | David Mackey          | Kids on a Mission (Akron-OH)            |    80 |   8.9 |      |  82% |

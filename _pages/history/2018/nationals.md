@@ -160,7 +160,7 @@ menubar_toc_static:
 | 10  | Noble Spire         | 12 Bethel AG (Rapid City, SD)                      | 1100  | 57.9 | 7   | 1   | 38  | 37  |
 | 11  | Anyiah Odera        | 18 Braeswood AG (Houston, TX)                      | 1015  | 53.4 | 10  | 1   | 34  | 41  |
 | 12  | Matthew McKlnley    | 17 Sioux Falls First (Sioux Falls, SD)             | 955   | 50.3 | 6   | 7   | 37  | 20  |
-| 13  | Samuel Clinston     | 03 Bellevue Neighborhood Church (Bellevue, WA)     | 945   | 49.7 | 8   | 2   | 14  | 56  |
+| 13  | Sam Clinston        | 03 Bellevue Neighborhood Church (Bellevue, WA)     | 945   | 49.7 | 8   | 2   | 14  | 56  |
 | 14  | Josiah Laakkonen    | 02 Lexington 1st AG (Lexington, KY)                | 945   | 49.7 | 7   | 1   | 20  | 51  |
 | 15  | Jaxon Prom          | 04 Legacy Church (Princeton, TX)                   | 915   | 48.2 | 6   | 7   | 41  | 21  |
 | 16  | Cole Abbott         | 05 New Life AG (Sparta, WI)                        | 890   | 46.8 | 5   | 3   | 32  | 31  |

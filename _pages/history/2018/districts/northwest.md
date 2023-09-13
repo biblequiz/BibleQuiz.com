@@ -34,7 +34,7 @@ menubar_toc_static:
 |        1 | Zach Ponraj           | Naarim Koumou (Life Center)              |   710 |  142 |    5 |  96% |
 |        2 | Westin Haugo          | Nearly Swamped (Cedar Park)              |   395 |   79 |    4 |  74% |
 |        3 | Teddy Arasavelli      | God Squad (Bellevue Neighborhood Church) |   390 |   78 |    4 |  76% |
-|        4 | Samuel Clinston       | God Squad (Bellevue Neighborhood Church) |   385 |   77 |    4 |  76% |
+|        4 | Sam Clinston          | God Squad (Bellevue Neighborhood Church) |   385 |   77 |    4 |  76% |
 |        5 | Cecily Houser         | Nearly Swamped (Cedar Park)              |   315 |   63 |    2 |  74% |
 |        6 | Wyatt Peterson        | Naarim Koumou (Life Center)              |   290 |   58 |    3 |  74% |
 |        7 | Josi Haugo            | Crippled Blindfolded Snakes (Cedar Park) |   250 |   50 |    1 |  63% |

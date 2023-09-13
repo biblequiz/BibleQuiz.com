@@ -23,9 +23,9 @@ menubar: menu_history
 | 2011 | Luke Hamilton  | Northfield Church             | Gering, NE         |
 | 2010 | Tori Beye      | Northridge AG                 | Grand Island, NE   |
 | 2009 | Tori Beye      | Northridge AG                 | Grand Island, NE   |
-| 2008 | Rebekah Nivala | Martha’s Vineyard             | Vineyard Haven, MA |
+| 2008 | Rebekah Nivala | Martha's Vineyard             | Vineyard Haven, MA |
 | 2007 | Sarah Ingerson | Hosanna Family Worship Center | Shreveport, LA     |
-| 2006 | Inga O’Connor  | Tacoma Life Center            | Tacoma, WA         |
+| 2006 | Inga O'Connor  | Tacoma Life Center            | Tacoma, WA         |
 | 2005 | Brandon Porter | James River AG                | Ozark, MO          |
 
 ## Team Dramatized Quoting

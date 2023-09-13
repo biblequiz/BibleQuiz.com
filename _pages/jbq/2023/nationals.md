@@ -165,7 +165,7 @@ menubar_toc_static:
 |       15 | Joel Villalba       | Winter Haven-FL    |   920 |  61.3 |    3 |  67% |   17 |   33 |    1 |
 |       16 | Mikey Till          | Burien-WA          |   915 |    61 |    7 |  72% |      |   35 |   33 |
 |       17 | Liam Fossas         | Lake Wylie-SC      |   855 |    57 |    1 |  86% |   11 |   26 |    7 |
-|       18 | Benjamin Adu-gyamfi | Houston-TX         |   835 |  55.7 |    2 |  80% |   24 |    9 |    6 |
+|       18 | Benjamin Adu-Gyamfi | Houston-TX         |   835 |  55.7 |    2 |  80% |   24 |    9 |    6 |
 |       19 | Benjamin McCollam   | Dublin-OH          |   790 |  52.7 |    4 |  82% |    1 |   16 |   48 |
 |       20 | Schuyler Lucero     | Mooresville-IN     |   695 |  46.3 |    1 |  86% |    1 |   35 |    2 |
 |       21 | Moses Scott         | Mooresville-IN     |   685 |  45.7 |    7 |  77% |      |      |   73 |
@@ -512,7 +512,7 @@ menubar_toc_static:
 | **\*39** | Lily Barton            | Omaha-NE             |   175 |  12.5 |    1 |  76% |    3 |      |   10 |
 |       40 | Jake King              | Temperance-MI        |   165 |  11.8 |    1 |  80% |    1 |      |   15 |
 |       41 | Klaus Lommel           | Bowling Green-OH     |   155 |  11.1 |      |  94% |      |      |   16 |
-| **\*41** | Hadassah O’dea         | Smyrna-TN            |   155 |  11.1 |      |  82% |    3 |    2 |    4 |
+| **\*41** | Hadassah O'dea         | Smyrna-TN            |   155 |  11.1 |      |  82% |    3 |    2 |    4 |
 |       42 | Abigail Abraham        | Monmouth Junction-NJ |   150 |  10.7 |      |  75% |      |    5 |    7 |
 |       43 | Smirna Ramesh          | Chandler-AZ          |   135 |   9.6 |      |  83% |      |      |   15 |
 |       44 | Rhema Prabu            | Lakeville-MN         |   120 |   8.6 |      | 100% |      |    6 |      |
@@ -522,7 +522,7 @@ menubar_toc_static:
 |       48 | Eden Thompson          | Wichita-KS           |    70 |     5 |      | 100% |      |      |    7 |
 | **\*48** | Naomi Burkholder       | Wichita-KS           |    70 |     5 |      | 100% |      |      |    7 |
 |       49 | Brianna Ramsey         | Nixa-MO              |    50 |   3.6 |      | 100% |      |    1 |    3 |
-|       50 | Lucia O’dea            | Smyrna-TN            |    45 |   3.2 |      |  52% |      |    2 |    9 |
+|       50 | Lucia O'dea            | Smyrna-TN            |    45 |   3.2 |      |  52% |      |    2 |    9 |
 |       51 | Sky Ward               | Bowling Green-OH     |    40 |   2.9 |      | 100% |      |      |    4 |
 |       52 | Bradley Sevier         | Smyrna-TN            |    20 |   1.4 |      | 100% |      |    1 |      |
 |       53 | Zailee Moraida         | Smyrna-TN            |    15 |   1.1 |      |  67% |      |      |    2 |
@@ -636,7 +636,7 @@ menubar_toc_static:
 |        4 | Aiden Samuel             | Snellville-GA  |   810 |    90 |    2 |  92% |   11 |   23 |    3 |
 |        5 | Abby Muddasu             | Burlington-MA  |   750 |  83.3 |    1 |  80% |   13 |   23 |      |
 |        6 | Sharon Javadala          | Bridgewater-NJ |   745 |  82.8 |    1 |  81% |   17 |   15 |    3 |
-|        7 | Benjamin Adu-gyamfi      | Houston-TX     |   710 |  78.9 |    1 |  77% |   19 |    8 |    9 |
+|        7 | Benjamin Adu-Gyamfi      | Houston-TX     |   710 |  78.9 |    1 |  77% |   19 |    8 |    9 |
 |        8 | Jayden Ramesh            | Garland-TX     |   625 |  69.4 |      |  78% |    9 |   23 |      |
 |        9 | Yane Azuike              | Houston-TX     |   620 |  68.9 |    3 |  80% |      |   32 |    5 |
 |       10 | Luke Thomas              | San Antonio-TX |   580 |  64.4 |      |  91% |      |   30 |    1 |
@@ -1078,7 +1078,7 @@ menubar_toc_static:
 |       12 | Brenden Boston       | Springfield-MO  |   325 |  40.6 |    3 |  80% |      |      |   35 |
 |       13 | Olivia White         | Rapid City-SD   |   325 |  40.6 |      |  89% |    2 |    6 |   16 |
 |       14 | Kaelynn Fry          | Springfield-MO  |   295 |  36.9 |      |  91% |    1 |   10 |    9 |
-|       15 | Hadassah O’dea       | Smyrna-TN       |   250 |  31.2 |      |  85% |    7 |    3 |    1 |
+|       15 | Hadassah O'dea       | Smyrna-TN       |   250 |  31.2 |      |  85% |    7 |    3 |    1 |
 |       16 | Layla Horn           | Waukesha-WI     |   215 |  26.9 |      |  83% |      |      |   24 |
 |       17 | Layne Burton         | Jacksonville-AR |   175 |  21.9 |    2 |  88% |      |    2 |   13 |
 |       18 | James Entzminger     | Smyrna-TN       |   130 |  16.2 |      |  75% |      |    4 |    8 |
@@ -1086,7 +1086,7 @@ menubar_toc_static:
 |       20 | Princess Dimasacat   | Chicago-IL      |   110 |  13.8 |      | 100% |    3 |    1 |      |
 |       21 | Juelia Styles        | Rapid City-SD   |    95 |  11.9 |      |  80% |    1 |    2 |    5 |
 |       22 | Leigha Meeks         | Rapid City-SD   |    85 |  10.6 |      |  71% |      |    5 |      |
-|       23 | Lucia O’dea          | Smyrna-TN       |    70 |   8.8 |      |  47% |    1 |      |   15 |
+|       23 | Lucia O'dea          | Smyrna-TN       |    70 |   8.8 |      |  47% |    1 |      |   15 |
 |       24 | Bradley Moore        | Jacksonville-AR |    50 |   6.2 |      |  75% |      |      |    6 |
 |       25 | Brantly Lawrence     | Harrison-AR     |    35 |   4.4 |      |  80% |      |      |    4 |
 |       26 | Maddie Ingram        | Smyrna-TN       |    30 |   3.8 |      | 100% |      |      |    3 |

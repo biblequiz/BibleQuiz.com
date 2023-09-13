@@ -211,11 +211,11 @@ menubar_toc_static:
 | **\*52** | Shayda Morgan           | Billings, MT (Fourtify)                                 |   130 |   8.7 |      |  73% |
 |       53 | Audriana Hirning        | Apple Valley, MN (The Pentateuch)                       |   105 |     7 |      |  80% |
 |       54 | Daniel Hayes            | Las Vegas, NV (The Champion Center)                     |    90 |     6 |      |  62% |
-|       55 | Jon Luc Jobson - Larkin | Richmond Hill, NY (Bethlehem Church)                    |    85 |   5.7 |      |  56% |
+|       55 | Jon Luc Jobson-Larkin   | Richmond Hill, NY (Bethlehem Church)                    |    85 |   5.7 |      |  56% |
 |       56 | wesley kinsey           | Wesley Chapel, FL (Life Church)                         |    80 |   5.3 |      |  73% |
 |       57 | Nicholas Nailor         | Cedar Hill, TX (Thunder 'n Lightning)                   |    30 |     2 |      |  99% |
 |       58 | Macie Pahl              | Apple Valley, MN (The Pentateuch)                       |     0 |       |      |  33% |
-| **\*58** | Julien Jobson - Larkin  | Richmond Hill, NY (Bethlehem Church)                    |     0 |       |      |      |
+| **\*58** | Julien Jobson-Larkin    | Richmond Hill, NY (Bethlehem Church)                    |     0 |       |      |      |
 | **\*58** | Chase Cory              | Richmond Hill, NY (Bethlehem Church)                    |     0 |       |      |      |
 | **\*58** | Kynzee LeBlanc          | Seminole, TX (First Assembly of God)                    |     0 |       |      |      |
 | **\*58** | Obi Ilochonwu           | Rockford, IL (Life Church)                              |     0 |       |      |      |
@@ -776,59 +776,59 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                 | Team                                          | Total |   Avg |   QO |   Q% |
-| -------: | ----------------------- | --------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Sawyer Curtis           | Sparta, WI (Sparta Salt & Light)              |   920 | 102.2 |    4 |  81% |
-|        2 | Steve Joy               | Marietta, GA (Anointed Ones)                  |   820 |  91.1 |    6 |  77% |
-|        3 | Larissa Cox             | Greenwood, IN (Grace Pardon the Interruption) |   775 |  86.1 |    1 |  81% |
-|        4 | Austin Perry            | Askewville, NC (Bethel Assembly of God)       |   735 |  81.7 |    4 |  75% |
-|        5 | James Bozzay            | Leesburg, VA (SPY Dudes)                      |   705 |  78.3 |    1 |  85% |
-|        6 | Keren Koshy             | Chandler, AZ (Overcomers)                     |   640 |  71.1 |      |  85% |
-|        7 | Samuel Desilva          | Richmond Hill, NY (Bethlehem Church)          |   625 |  69.4 |    4 |  75% |
-|        8 | Luke Hillegass          | Lexington, TN (Crosspoint Super Q's)          |   590 |  65.6 |    4 |  69% |
-|        9 | Morgan MacKinney        | Great Bend, KS (Quizzards of Oz)              |   575 |  63.9 |      |  73% |
-|       10 | Lindsey Perry           | Askewville, NC (Bethel Assembly of God)       |   550 |  61.1 |    2 |  72% |
-|       11 | Joshua Gunasingh        | Marietta, GA (Anointed Ones)                  |   405 |    45 |    1 |  87% |
-|       12 | William Okyere          | Greenwood, IN (Grace Pardon the Interruption) |   390 |  43.3 |    3 |  95% |
-|       13 | Soren Pappas            | Dublin, OH (RLC Diamonds)                     |   380 |  42.2 |      |  89% |
-|       14 | Ella Krier              | Great Bend, KS (Quizzards of Oz)              |   350 |  38.9 |      |  80% |
-|       15 | Samantha Anselmo        | Richmond Hill, NY (Bethlehem Church)          |   345 |  38.3 |      |  83% |
-|       16 | Lucas Brunson           | Greenwood, IN (Grace Pardon the Interruption) |   315 |    35 |    1 |  71% |
-|       17 | Faith Poling            | Dublin, OH (RLC Diamonds)                     |   305 |  33.9 |    2 |  91% |
-|       18 | Jaden Jablonski         | Leesburg, VA (SPY Dudes)                      |   300 |  33.3 |    3 |  69% |
-|       19 | Jon Luc Jobson - Larkin | Richmond Hill, NY (Bethlehem Church)          |   300 |  33.3 |    2 |  74% |
-|       20 | Alissa Daniel           | Chandler, AZ (Overcomers)                     |   245 |  27.2 |    1 |  79% |
-|       21 | Thomas Hillegass        | Lexington, TN (Crosspoint Super Q's)          |   235 |  26.1 |    2 |  68% |
-|       22 | Aseda Essandoh          | Dublin, OH (RLC Diamonds)                     |   225 |    25 |    1 |  59% |
-|       23 | Isaac Helgerson         | Sparta, WI (Sparta Salt & Light)              |   225 |    25 |      |  80% |
-|       24 | Oye Essandoh            | Dublin, OH (RLC Diamonds)                     |   200 |  22.2 |      |  91% |
-|       25 | Cole MacKinney          | Great Bend, KS (Quizzards of Oz)              |   185 |  20.6 |      |  59% |
-|       26 | Gabriel Otchere         | Leesburg, VA (SPY Dudes)                      |   180 |    20 |      |  67% |
-|       27 | Joanna Thomas           | Chandler, AZ (Overcomers)                     |   160 |  17.8 |      |  65% |
-|       28 | Olivia Collins          | Sparta, WI (Sparta Salt & Light)              |   150 |  16.7 |    1 |  58% |
-|       29 | Bryan Melvin            | Chandler, AZ (Overcomers)                     |   140 |  15.6 |      |  74% |
-|       30 | Amaya Allard            | Sparta, WI (Sparta Salt & Light)              |   135 |    15 |    1 |  64% |
-|       31 | Taylor Jablonski        | Leesburg, VA (SPY Dudes)                      |   135 |    15 |      |  65% |
-|       32 | Olivia Bazemore         | Askewville, NC (Bethel Assembly of God)       |   105 |  11.7 |      |  92% |
-| **\*32** | Mady Hammeke            | Great Bend, KS (Quizzards of Oz)              |   105 |  11.7 |      |  72% |
-|       33 | Tyler Hutcherson        | Lexington, TN (Crosspoint Super Q's)          |   100 |  11.1 |      |  69% |
-|       34 | Cashmere Saez           | Richmond Hill, NY (Bethlehem Church)          |    65 |   7.2 |      |  73% |
-|       35 | Hannah Hancock          | Richmond Hill, NY (Bethlehem Church)          |    40 |   4.4 |      |  75% |
-|       36 | Ava Millard             | Sparta, WI (Sparta Salt & Light)              |    35 |   3.9 |      |  80% |
-|       37 | Samuel Chambuchi        | Richmond Hill, NY (Bethlehem Church)          |    20 |   2.2 |      |  50% |
-|       38 | Julien Jobson - Larkin  | Richmond Hill, NY (Bethlehem Church)          |    10 |   1.1 |      |  99% |
-| **\*38** | Alaina Johnson          | Lexington, TN (Crosspoint Super Q's)          |    10 |   1.1 |      |  99% |
-| **\*38** | Carson Sandberg         | Leesburg, VA (SPY Dudes)                      |    10 |   1.1 |      |  99% |
-| **\*38** | Lilly Burton            | Great Bend, KS (Quizzards of Oz)              |    10 |   1.1 |      |  50% |
-|       39 | Chase Cory              | Richmond Hill, NY (Bethlehem Church)          |     0 |       |      |      |
-| **\*39** | Shilo Karakkattu        | Chandler, AZ (Overcomers)                     |     0 |       |      |      |
-| **\*39** | Nathan Nimako           | Dublin, OH (RLC Diamonds)                     |     0 |       |      |      |
-| **\*39** | Alwin Stephen           | Marietta, GA (Anointed Ones)                  |     0 |       |      |      |
-| **\*39** | Crista Bues             | Leesburg, VA (SPY Dudes)                      |     0 |       |      |      |
-| **\*39** | Shane Lowers            | Askewville, NC (Bethel Assembly of God)       |     0 |       |      |      |
-| **\*39** | Elijah Helgerson        | Sparta, WI (Sparta Salt & Light)              |     0 |       |      |      |
-| **\*39** | Sophia Curtis           | Sparta, WI (Sparta Salt & Light)              |     0 |       |      |      |
-| **\*39** | Sienna Allard           | Sparta, WI (Sparta Salt & Light)              |     0 |       |      |      |
+|        # | Quizzer               | Team                                          | Total |   Avg |   QO |   Q% |
+| -------: | --------------------- | --------------------------------------------- | ----: | ----: | ---: | ---: |
+|        1 | Sawyer Curtis         | Sparta, WI (Sparta Salt & Light)              |   920 | 102.2 |    4 |  81% |
+|        2 | Steve Joy             | Marietta, GA (Anointed Ones)                  |   820 |  91.1 |    6 |  77% |
+|        3 | Larissa Cox           | Greenwood, IN (Grace Pardon the Interruption) |   775 |  86.1 |    1 |  81% |
+|        4 | Austin Perry          | Askewville, NC (Bethel Assembly of God)       |   735 |  81.7 |    4 |  75% |
+|        5 | James Bozzay          | Leesburg, VA (SPY Dudes)                      |   705 |  78.3 |    1 |  85% |
+|        6 | Keren Koshy           | Chandler, AZ (Overcomers)                     |   640 |  71.1 |      |  85% |
+|        7 | Samuel Desilva        | Richmond Hill, NY (Bethlehem Church)          |   625 |  69.4 |    4 |  75% |
+|        8 | Luke Hillegass        | Lexington, TN (Crosspoint Super Q's)          |   590 |  65.6 |    4 |  69% |
+|        9 | Morgan MacKinney      | Great Bend, KS (Quizzards of Oz)              |   575 |  63.9 |      |  73% |
+|       10 | Lindsey Perry         | Askewville, NC (Bethel Assembly of God)       |   550 |  61.1 |    2 |  72% |
+|       11 | Joshua Gunasingh      | Marietta, GA (Anointed Ones)                  |   405 |    45 |    1 |  87% |
+|       12 | William Okyere        | Greenwood, IN (Grace Pardon the Interruption) |   390 |  43.3 |    3 |  95% |
+|       13 | Soren Pappas          | Dublin, OH (RLC Diamonds)                     |   380 |  42.2 |      |  89% |
+|       14 | Ella Krier            | Great Bend, KS (Quizzards of Oz)              |   350 |  38.9 |      |  80% |
+|       15 | Samantha Anselmo      | Richmond Hill, NY (Bethlehem Church)          |   345 |  38.3 |      |  83% |
+|       16 | Lucas Brunson         | Greenwood, IN (Grace Pardon the Interruption) |   315 |    35 |    1 |  71% |
+|       17 | Faith Poling          | Dublin, OH (RLC Diamonds)                     |   305 |  33.9 |    2 |  91% |
+|       18 | Jaden Jablonski       | Leesburg, VA (SPY Dudes)                      |   300 |  33.3 |    3 |  69% |
+|       19 | Jon Luc Jobson-Larkin | Richmond Hill, NY (Bethlehem Church)          |   300 |  33.3 |    2 |  74% |
+|       20 | Alissa Daniel         | Chandler, AZ (Overcomers)                     |   245 |  27.2 |    1 |  79% |
+|       21 | Thomas Hillegass      | Lexington, TN (Crosspoint Super Q's)          |   235 |  26.1 |    2 |  68% |
+|       22 | Aseda Essandoh        | Dublin, OH (RLC Diamonds)                     |   225 |    25 |    1 |  59% |
+|       23 | Isaac Helgerson       | Sparta, WI (Sparta Salt & Light)              |   225 |    25 |      |  80% |
+|       24 | Oye Essandoh          | Dublin, OH (RLC Diamonds)                     |   200 |  22.2 |      |  91% |
+|       25 | Cole MacKinney        | Great Bend, KS (Quizzards of Oz)              |   185 |  20.6 |      |  59% |
+|       26 | Gabriel Otchere       | Leesburg, VA (SPY Dudes)                      |   180 |    20 |      |  67% |
+|       27 | Joanna Thomas         | Chandler, AZ (Overcomers)                     |   160 |  17.8 |      |  65% |
+|       28 | Olivia Collins        | Sparta, WI (Sparta Salt & Light)              |   150 |  16.7 |    1 |  58% |
+|       29 | Bryan Melvin          | Chandler, AZ (Overcomers)                     |   140 |  15.6 |      |  74% |
+|       30 | Amaya Allard          | Sparta, WI (Sparta Salt & Light)              |   135 |    15 |    1 |  64% |
+|       31 | Taylor Jablonski      | Leesburg, VA (SPY Dudes)                      |   135 |    15 |      |  65% |
+|       32 | Olivia Bazemore       | Askewville, NC (Bethel Assembly of God)       |   105 |  11.7 |      |  92% |
+| **\*32** | Mady Hammeke          | Great Bend, KS (Quizzards of Oz)              |   105 |  11.7 |      |  72% |
+|       33 | Tyler Hutcherson      | Lexington, TN (Crosspoint Super Q's)          |   100 |  11.1 |      |  69% |
+|       34 | Cashmere Saez         | Richmond Hill, NY (Bethlehem Church)          |    65 |   7.2 |      |  73% |
+|       35 | Hannah Hancock        | Richmond Hill, NY (Bethlehem Church)          |    40 |   4.4 |      |  75% |
+|       36 | Ava Millard           | Sparta, WI (Sparta Salt & Light)              |    35 |   3.9 |      |  80% |
+|       37 | Samuel Chambuchi      | Richmond Hill, NY (Bethlehem Church)          |    20 |   2.2 |      |  50% |
+|       38 | Julien Jobson-Larkin  | Richmond Hill, NY (Bethlehem Church)          |    10 |   1.1 |      |  99% |
+| **\*38** | Alaina Johnson        | Lexington, TN (Crosspoint Super Q's)          |    10 |   1.1 |      |  99% |
+| **\*38** | Carson Sandberg       | Leesburg, VA (SPY Dudes)                      |    10 |   1.1 |      |  99% |
+| **\*38** | Lilly Burton          | Great Bend, KS (Quizzards of Oz)              |    10 |   1.1 |      |  50% |
+|       39 | Chase Cory            | Richmond Hill, NY (Bethlehem Church)          |     0 |       |      |      |
+| **\*39** | Shilo Karakkattu      | Chandler, AZ (Overcomers)                     |     0 |       |      |      |
+| **\*39** | Nathan Nimako         | Dublin, OH (RLC Diamonds)                     |     0 |       |      |      |
+| **\*39** | Alwin Stephen         | Marietta, GA (Anointed Ones)                  |     0 |       |      |      |
+| **\*39** | Crista Bues           | Leesburg, VA (SPY Dudes)                      |     0 |       |      |      |
+| **\*39** | Shane Lowers          | Askewville, NC (Bethel Assembly of God)       |     0 |       |      |      |
+| **\*39** | Elijah Helgerson      | Sparta, WI (Sparta Salt & Light)              |     0 |       |      |      |
+| **\*39** | Sophia Curtis         | Sparta, WI (Sparta Salt & Light)              |     0 |       |      |      |
+| **\*39** | Sienna Allard         | Sparta, WI (Sparta Salt & Light)              |     0 |       |      |      |
 
 
 ### Pink (C)

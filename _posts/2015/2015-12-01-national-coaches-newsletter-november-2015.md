@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "National Coaches’ Newsletter - November 2015"
+title: "National Coaches' Newsletter - November 2015"
 author: James Lex
 date: "2015-11-30"
 categories: 
@@ -10,7 +10,7 @@ published: true
 
 Who's ready for <del>Christmas</del> Thanksgiving!
 
-This month’s topics include:
+This month's topics include:
 
 - The SECOND Missionary BQ Coach
 - Official Corrections to the Scripture Portion

@@ -214,7 +214,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 |       41 | Andrew Newport       | Snellville GA       |   210 | 11.05 |        |     6 |
 |       42 | James Pryer          | Santa Ana CA        |   205 | 10.79 |        |       |
 |       43 | Christopher Bowers   | Memphis TN          |   200 | 10.53 |        |     4 |
-|       44 | Kari Beth Van Gorp   | Greeley CO          |   195 | 10.26 |        |       |
+|       44 | Kari Van Gorp        | Greeley CO          |   195 | 10.26 |        |       |
 |       45 | Damon Smith          | Greensboro NC       |   180 |  9.47 |      1 |    10 |
 |       46 | Christopher DeGray   | Milaca MN           |   180 |  9.47 |        |       |
 |       47 | Kammie Sands         | Springfield MO      |   135 |  7.11 |      1 |     8 |
@@ -1053,7 +1053,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 {% capture image_url %}{% link assets/2003/CO-Greeley.jpg %}{% endcapture %}
 {% capture image_html %}
 
-*(L-R) Faith van Gorp, Kari van Gorp, Micah van Gorp, Caleb van Gorp*
+*(L-R) Faith Van Gorp, Kari Van Gorp, Micah Van Gorp, Caleb Van Gorp*
 
 #### 4th Place
 

@@ -368,79 +368,79 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer                | Team                    | Church            | Total |    Avg |   QO |
-| ---: | ---------------------- | ----------------------- | ----------------- | ----: | -----: | ---: |
-|    1 | Ryan Yumang            | Mindcraft               | Fayetteville, AR  |  1760 | 117.33 |    8 |
-|    2 | Grace Dempsey          | Iron Sharp              | Normal, IL        |  1670 | 111.33 |   11 |
-|    3 | Ethan Stewart          | More Than Conquerors    | Tallahassee, FL   |  1545 | 103.00 |    9 |
-|    4 | Simeon Thomas          | Quiz Kidz IX            | Scotch Plains, NJ |  1425 |  95.00 |    2 |
-|    5 | Jehosh Jebaraj         | The Journey             | Charlotte, NC     |  1420 |  94.67 |    7 |
-|    6 | Elyssa Fulfer          | Tribulation Force       | Red Oak, TX       |  1240 |  82.67 |    5 |
-|    7 | Shekinah Isaiah        | Cedar Park Eagles       | Bothell, WA       |  1205 |  80.33 |    4 |
-|    8 | Abigail Slembarski     | Changed Inside Out      | Bowling Green, OH |  1065 |  71.00 |    2 |
-|    9 | Joseph Glaser          | Marshmallow Cats        | Chesterfield, MO  |  1005 |  67.00 |    4 |
-|   10 | McKenna Walker         | Racine Encouragers      | Racine, WI        |   990 |  66.00 |    3 |
-|   11 | Esther Zavala          | Undignified             | Dumas, TX         |   985 |  65.67 |    2 |
-|   12 | Jerusha Jebaraj        | The Journey             | Charlotte, NC     |   885 |  59.00 |    8 |
-|   13 | Colson Sago            | New Creatures           | Beulah, ND        |   870 |  58.00 |    3 |
-|   14 | Trevin Sago            | New Creatures           | Beulah, ND        |   760 |  50.67 |    1 |
-|   15 | Aidan Fulfer           | Tribulation Force       | Red Oak, TX       |   740 |  49.33 |      |
-|   16 | Noah Smith             | Changed Inside Out      | Bowling Green, OH |   720 |  48.00 |    8 |
-|   17 | Ashley Okafor          | Bethlehem Church        | Richmond Hill, NY |   665 |  44.33 |    2 |
-|   18 | Scotlynn Reinhold      | Triple Threat           | Fruitland, FL     |   660 |  44.00 |    1 |
-|   19 | Elijah Stewart         | More Than Conquerors    | Tallahassee, FL   |   645 |  43.00 |    6 |
-|   20 | Madeline Berkey        | M&M's of Christ         | Tucson, AZ        |   640 |  42.67 |      |
-|   21 | Spencer Morrison       | Blazing Buzzer Breakers | Apple Valley, MN  |   615 |  41.00 |    1 |
-|   22 | Michele Lobato         | M&M's of Christ         | Tucson, AZ        |   615 |  41.00 |      |
-|   23 | Clara Dempsey          | Iron Sharp              | Normal, IL        |   600 |  40.00 |    6 |
-|   24 | Olivia Neerudu         | Changed Inside Out      | Bowling Green, OH |   595 |  39.67 |      |
-|   25 | Dominic LoGiudice      | Triple Threat           | Fruitland, FL     |   585 |  39.00 |    1 |
-|   26 | Emma White             | Mindcraft               | Fayetteville, AR  |   555 |  37.00 |    3 |
-|   27 | Faith Buchanan         | Bethlehem Church        | Richmond Hill, NY |   550 |  36.67 |    2 |
-|   28 | Preston Hoggard        | Tribulation Force       | Red Oak, TX       |   545 |  36.33 |    7 |
-|   29 | Hannah Royer           | M&M's of Christ         | Tucson, AZ        |   520 |  34.67 |    3 |
-|   30 | Victoria Hernandez     | Quiz Kidz IX            | Scotch Plains, NJ |   520 |  34.67 |      |
-|   31 | Ariana Klein           | Racine Encouragers      | Racine, WI        |   495 |  33.00 |      |
-|   32 | Diamond Zavala         | Undignified             | Dumas, TX         |   445 |  29.67 |    3 |
-|   33 | Joshua Elliott         | Marshmallow Cats        | Chesterfield, MO  |   440 |  29.33 |    2 |
-|   34 | Josi Haugo             | Cedar Park Eagles       | Bothell, WA       |   435 |  29.00 |    4 |
-|   35 | Sancia Gladwin         | Cedar Park Eagles       | Bothell, WA       |   425 |  28.33 |      |
-|   36 | Laila Dasi             | Quiz Kidz IX            | Scotch Plains, NJ |   420 |  28.00 |    2 |
-|   37 | Brianna Boodram        | Bethlehem Church        | Richmond Hill, NY |   415 |  27.67 |      |
-|   38 | Will Thompson          | Triple Threat           | Fruitland, FL     |   405 |  27.00 |    1 |
-|   39 | Ben Elliott            | Marshmallow Cats        | Chesterfield, MO  |   380 |  25.33 |    1 |
-|   40 | Ian Poch               | Blazing Buzzer Breakers | Apple Valley, MN  |   360 |  24.00 |      |
-|   41 | Jayden Rodriquez       | Bethlehem Church        | Richmond Hill, NY |   355 |  23.67 |    3 |
-|   42 | Bella Reynolds         | Cedar Park Eagles       | Bothell, WA       |   340 |  22.67 |      |
-|   43 | Hannah Facer           | Changed Inside Out      | Bowling Green, OH |   330 |  22.00 |    1 |
-|   44 | Abigail Pedapudi       | Marshmallow Cats        | Chesterfield, MO  |   325 |  21.67 |      |
-|   45 | Sarai Zavala           | Undignified             | Dumas, TX         |   300 |  20.00 |      |
-|   46 | Aubryn Sago            | New Creatures           | Beulah, ND        |   285 |  19.00 |    1 |
-|   47 | Cienna Field           | Blazing Buzzer Breakers | Apple Valley, MN  |   255 |  17.00 |      |
-|   48 | Matthew Walker         | Racine Encouragers      | Racine, WI        |   250 |  16.67 |      |
-|   49 | Jon Luc Jobson- Larkin | Bethlehem Church        | Richmond Hill, NY |   205 |  13.67 |      |
-|   50 | Collin Nester          | More Than Conquerors    | Tallahassee, FL   |   190 |  12.67 |      |
-|   51 | Emma Stewart           | More Than Conquerors    | Tallahassee, FL   |   180 |  12.00 |      |
-|   51 | Jazlin Redding         | Mindcraft               | Fayetteville, AR  |   180 |  12.00 |      |
-|   52 | Hayley Vecchio         | Undignified             | Dumas, TX         |   170 |  11.33 |      |
-|   53 | Marianna Aguero        | Racine Encouragers      | Racine, WI        |   135 |   9.00 |      |
-|   54 | Myah Berkey            | M&M's of Christ         | Tucson, AZ        |   125 |   8.33 |      |
-|   55 | Brielle Field          | Blazing Buzzer Breakers | Apple Valley, MN  |   100 |   6.67 |      |
-|   56 | Miranda Moncayo        | Racine Encouragers      | Racine, WI        |    80 |   5.33 |      |
-|   57 | Nicholas Tait          | Racine Encouragers      | Racine, WI        |    65 |   4.33 |      |
-|   58 | Hannah Rumley          | Iron Sharp              | Normal, IL        |    40 |   2.67 |      |
-|   59 | Gabriella Lobato       | M&M's of Christ         | Tucson, AZ        |    35 |   2.33 |      |
-|   59 | Caitlyn Jackson        | Racine Encouragers      | Racine, WI        |    35 |   2.33 |      |
-|   60 | Olivia Houk            | Iron Sharp              | Normal, IL        |    20 |   1.33 |      |
-|   61 | M'Kayla McDaniel       | Undignified             | Dumas, TX         |    10 |    .67 |      |
-|   61 | Ramon Castillo         | Undignified             | Dumas, TX         |    10 |    .67 |      |
-|   62 | James Jobson - Larkin  | Bethlehem Church        | Richmond Hill, NY |     5 |    .33 |      |
-|   63 | Stephen Prakash        | The Journey             | Charlotte, NC     |       |    .00 |      |
-|   63 | Elias Jacob            | Iron Sharp              | Normal, IL        |       |    .00 |      |
-|   63 | Emma Kokora            | Bethlehem Church        | Richmond Hill, NY |       |    .00 |      |
-|   63 | Ariel Boodhram         | Bethlehem Church        | Richmond Hill, NY |       |    .00 |      |
-|   63 | Julian Castillo        | Undignified             | Dumas, TX         |       |    .00 |      |
-|   64 | Marcos Martinez        | Iron Sharp              | Normal, IL        |    -5 |  -0.33 |      |
+|    # | Quizzer               | Team                    | Church            | Total |    Avg |   QO |
+| ---: | --------------------- | ----------------------- | ----------------- | ----: | -----: | ---: |
+|    1 | Ryan Yumang           | Mindcraft               | Fayetteville, AR  |  1760 | 117.33 |    8 |
+|    2 | Grace Dempsey         | Iron Sharp              | Normal, IL        |  1670 | 111.33 |   11 |
+|    3 | Ethan Stewart         | More Than Conquerors    | Tallahassee, FL   |  1545 | 103.00 |    9 |
+|    4 | Simeon Thomas         | Quiz Kidz IX            | Scotch Plains, NJ |  1425 |  95.00 |    2 |
+|    5 | Jehosh Jebaraj        | The Journey             | Charlotte, NC     |  1420 |  94.67 |    7 |
+|    6 | Elyssa Fulfer         | Tribulation Force       | Red Oak, TX       |  1240 |  82.67 |    5 |
+|    7 | Shekinah Isaiah       | Cedar Park Eagles       | Bothell, WA       |  1205 |  80.33 |    4 |
+|    8 | Abigail Slembarski    | Changed Inside Out      | Bowling Green, OH |  1065 |  71.00 |    2 |
+|    9 | Joseph Glaser         | Marshmallow Cats        | Chesterfield, MO  |  1005 |  67.00 |    4 |
+|   10 | McKenna Walker        | Racine Encouragers      | Racine, WI        |   990 |  66.00 |    3 |
+|   11 | Esther Zavala         | Undignified             | Dumas, TX         |   985 |  65.67 |    2 |
+|   12 | Jerusha Jebaraj       | The Journey             | Charlotte, NC     |   885 |  59.00 |    8 |
+|   13 | Colson Sago           | New Creatures           | Beulah, ND        |   870 |  58.00 |    3 |
+|   14 | Trevin Sago           | New Creatures           | Beulah, ND        |   760 |  50.67 |    1 |
+|   15 | Aidan Fulfer          | Tribulation Force       | Red Oak, TX       |   740 |  49.33 |      |
+|   16 | Noah Smith            | Changed Inside Out      | Bowling Green, OH |   720 |  48.00 |    8 |
+|   17 | Ashley Okafor         | Bethlehem Church        | Richmond Hill, NY |   665 |  44.33 |    2 |
+|   18 | Scotlynn Reinhold     | Triple Threat           | Fruitland, FL     |   660 |  44.00 |    1 |
+|   19 | Elijah Stewart        | More Than Conquerors    | Tallahassee, FL   |   645 |  43.00 |    6 |
+|   20 | Madeline Berkey       | M&M's of Christ         | Tucson, AZ        |   640 |  42.67 |      |
+|   21 | Spencer Morrison      | Blazing Buzzer Breakers | Apple Valley, MN  |   615 |  41.00 |    1 |
+|   22 | Michele Lobato        | M&M's of Christ         | Tucson, AZ        |   615 |  41.00 |      |
+|   23 | Clara Dempsey         | Iron Sharp              | Normal, IL        |   600 |  40.00 |    6 |
+|   24 | Olivia Neerudu        | Changed Inside Out      | Bowling Green, OH |   595 |  39.67 |      |
+|   25 | Dominic LoGiudice     | Triple Threat           | Fruitland, FL     |   585 |  39.00 |    1 |
+|   26 | Emma White            | Mindcraft               | Fayetteville, AR  |   555 |  37.00 |    3 |
+|   27 | Faith Buchanan        | Bethlehem Church        | Richmond Hill, NY |   550 |  36.67 |    2 |
+|   28 | Preston Hoggard       | Tribulation Force       | Red Oak, TX       |   545 |  36.33 |    7 |
+|   29 | Hannah Royer          | M&M's of Christ         | Tucson, AZ        |   520 |  34.67 |    3 |
+|   30 | Victoria Hernandez    | Quiz Kidz IX            | Scotch Plains, NJ |   520 |  34.67 |      |
+|   31 | Ariana Klein          | Racine Encouragers      | Racine, WI        |   495 |  33.00 |      |
+|   32 | Diamond Zavala        | Undignified             | Dumas, TX         |   445 |  29.67 |    3 |
+|   33 | Joshua Elliott        | Marshmallow Cats        | Chesterfield, MO  |   440 |  29.33 |    2 |
+|   34 | Josi Haugo            | Cedar Park Eagles       | Bothell, WA       |   435 |  29.00 |    4 |
+|   35 | Sancia Gladwin        | Cedar Park Eagles       | Bothell, WA       |   425 |  28.33 |      |
+|   36 | Laila Dasi            | Quiz Kidz IX            | Scotch Plains, NJ |   420 |  28.00 |    2 |
+|   37 | Brianna Boodram       | Bethlehem Church        | Richmond Hill, NY |   415 |  27.67 |      |
+|   38 | Will Thompson         | Triple Threat           | Fruitland, FL     |   405 |  27.00 |    1 |
+|   39 | Ben Elliott           | Marshmallow Cats        | Chesterfield, MO  |   380 |  25.33 |    1 |
+|   40 | Ian Poch              | Blazing Buzzer Breakers | Apple Valley, MN  |   360 |  24.00 |      |
+|   41 | Jayden Rodriquez      | Bethlehem Church        | Richmond Hill, NY |   355 |  23.67 |    3 |
+|   42 | Bella Reynolds        | Cedar Park Eagles       | Bothell, WA       |   340 |  22.67 |      |
+|   43 | Hannah Facer          | Changed Inside Out      | Bowling Green, OH |   330 |  22.00 |    1 |
+|   44 | Abigail Pedapudi      | Marshmallow Cats        | Chesterfield, MO  |   325 |  21.67 |      |
+|   45 | Sarai Zavala          | Undignified             | Dumas, TX         |   300 |  20.00 |      |
+|   46 | Aubryn Sago           | New Creatures           | Beulah, ND        |   285 |  19.00 |    1 |
+|   47 | Cienna Field          | Blazing Buzzer Breakers | Apple Valley, MN  |   255 |  17.00 |      |
+|   48 | Matthew Walker        | Racine Encouragers      | Racine, WI        |   250 |  16.67 |      |
+|   49 | Jon Luc Jobson-Larkin | Bethlehem Church        | Richmond Hill, NY |   205 |  13.67 |      |
+|   50 | Collin Nester         | More Than Conquerors    | Tallahassee, FL   |   190 |  12.67 |      |
+|   51 | Emma Stewart          | More Than Conquerors    | Tallahassee, FL   |   180 |  12.00 |      |
+|   51 | Jazlin Redding        | Mindcraft               | Fayetteville, AR  |   180 |  12.00 |      |
+|   52 | Hayley Vecchio        | Undignified             | Dumas, TX         |   170 |  11.33 |      |
+|   53 | Marianna Aguero       | Racine Encouragers      | Racine, WI        |   135 |   9.00 |      |
+|   54 | Myah Berkey           | M&M's of Christ         | Tucson, AZ        |   125 |   8.33 |      |
+|   55 | Brielle Field         | Blazing Buzzer Breakers | Apple Valley, MN  |   100 |   6.67 |      |
+|   56 | Miranda Moncayo       | Racine Encouragers      | Racine, WI        |    80 |   5.33 |      |
+|   57 | Nicholas Tait         | Racine Encouragers      | Racine, WI        |    65 |   4.33 |      |
+|   58 | Hannah Rumley         | Iron Sharp              | Normal, IL        |    40 |   2.67 |      |
+|   59 | Gabriella Lobato      | M&M's of Christ         | Tucson, AZ        |    35 |   2.33 |      |
+|   59 | Caitlyn Jackson       | Racine Encouragers      | Racine, WI        |    35 |   2.33 |      |
+|   60 | Olivia Houk           | Iron Sharp              | Normal, IL        |    20 |   1.33 |      |
+|   61 | M'Kayla McDaniel      | Undignified             | Dumas, TX         |    10 |    .67 |      |
+|   61 | Ramon Castillo        | Undignified             | Dumas, TX         |    10 |    .67 |      |
+|   62 | James Jobson-Larkin   | Bethlehem Church        | Richmond Hill, NY |     5 |    .33 |      |
+|   63 | Stephen Prakash       | The Journey             | Charlotte, NC     |       |    .00 |      |
+|   63 | Elias Jacob           | Iron Sharp              | Normal, IL        |       |    .00 |      |
+|   63 | Emma Kokora           | Bethlehem Church        | Richmond Hill, NY |       |    .00 |      |
+|   63 | Ariel Boodhram        | Bethlehem Church        | Richmond Hill, NY |       |    .00 |      |
+|   63 | Julian Castillo       | Undignified             | Dumas, TX         |       |    .00 |      |
+|   64 | Marcos Martinez       | Iron Sharp              | Normal, IL        |    -5 |  -0.33 |      |
 
 
 ### Yellow
@@ -642,56 +642,56 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer                | Team                           | Church                | Total |    Avg |   QO |
-| ---: | ---------------------- | ------------------------------ | --------------------- | ----: | -----: | ---: |
-|    1 | Aidan Rajesh           | Bible Jedi                     | Greensboro, NC        |  1145 | 127.22 |    6 |
-|    2 | Gabi Acevedo           | God's Mighty Warriors          | Milwaukee, WI         |   965 | 107.22 |    5 |
-|    3 | Remi Brigilin          | Knights 4 Christ - Salvation   | Monmouth Junction, NJ |   945 | 105.00 |    4 |
-|    4 | Grace Dempsey          | Iron Sharp                     | Normal, IL            |   775 |  86.11 |    4 |
-|    5 | MacKenzie Wright       | The Parable of 2 Boys & a Girl | Lakeland, FL          |   690 |  76.67 |    1 |
-|    6 | Micah Hill             | Askewville Hashtags            | Askewville, NC        |   615 |  68.33 |    2 |
-|    7 | Joy Escobar            | God's Mighty Defenders         | Waxahatchie, TX       |   570 |  63.33 |      |
-|    8 | Stephen Bough          | Naperville (C)                 | Naperville, IL        |   495 |  55.00 |    5 |
-|    9 | Reagan Stevens         | Naperville (C)                 | Naperville, IL        |   475 |  52.78 |      |
-|   10 | Iakona Fern            | Agents of the Shield           | Omaha, NE             |   455 |  50.56 |    4 |
-|   11 | Clara Dempsey          | Iron Sharp                     | Normal, IL            |   350 |  38.89 |    2 |
-|   12 | David Biruduganti      | Naperville (C)                 | Naperville, IL        |   330 |  36.67 |    1 |
-|   13 | Brianna Boodram        | Bethlehem Church               | Richmond Hill, NY     |   320 |  35.56 |      |
-|   14 | Jayden Rodriquez       | Bethlehem Church               | Richmond Hill, NY     |   270 |  30.00 |    1 |
-|   15 | Ashley Okafor          | Bethlehem Church               | Richmond Hill, NY     |   255 |  28.33 |    1 |
-|   16 | Danny Dominic          | Knights 4 Christ - Salvation   | Monmouth Junction, NJ |   250 |  27.78 |      |
-|   16 | Joel Ravela            | The Parable of 2 Boys & a Girl | Lakeland, FL          |   250 |  27.78 |      |
-|   16 | Lademi Davies          | Agents of the Shield           | Omaha, NE             |   250 |  27.78 |      |
-|   17 | Haven Hoggard          | Askewville Hashtags            | Askewville, NC        |   245 |  27.22 |      |
-|   17 | Kaitlin Slottke        | God's Mighty Warriors          | Milwaukee, WI         |   245 |  27.22 |      |
-|   18 | Charlotte Elliott      | Agents of the Shield           | Omaha, NE             |   240 |  26.67 |      |
-|   18 | Aaron Martin           | Agents of the Shield           | Omaha, NE             |   240 |  26.67 |      |
-|   19 | Faith Buchanan         | Bethlehem Church               | Richmond Hill, NY     |   230 |  25.56 |      |
-|   20 | Josiah Horst           | The Parable of 2 Boys & a Girl | Lakeland, FL          |   225 |  25.00 |      |
-|   21 | Trenton Morris         | Bible Jedi                     | Greensboro, NC        |   205 |  22.78 |    2 |
-|   22 | Jason Theodore         | Knights 4 Christ - Salvation   | Monmouth Junction, NJ |   200 |  22.22 |    1 |
-|   23 | Freya Brigilin         | Knights 4 Christ - Salvation   | Monmouth Junction, NJ |   190 |  21.11 |      |
-|   24 | Eliana Bazemore        | Askewville Hashtags            | Askewville, NC        |   160 |  17.78 |      |
-|   24 | Jasmine Saenz          | God's Mighty Defenders         | Waxahatchie, TX       |   160 |  17.78 |      |
-|   25 | Hector Rivera          | God's Mighty Defenders         | Waxahatchie, TX       |   150 |  16.67 |    1 |
-|   26 | Daniel Kyzer           | God's Mighty Warriors          | Milwaukee, WI         |   150 |  16.67 |      |
-|   27 | Grace Ruiz             | God's Mighty Defenders         | Waxahatchie, TX       |   140 |  15.56 |      |
-|   28 | Jon Luc Jobson- Larkin | Bethlehem Church               | Richmond Hill, NY     |   130 |  14.44 |      |
-|   29 | Nathaniel Prejean      | Bible Jedi                     | Greensboro, NC        |   125 |  13.89 |      |
-|   30 | Samuel Biruduganti     | Naperville (C)                 | Naperville, IL        |    90 |  10.00 |      |
-|   31 | Ronnie Slottke         | God's Mighty Warriors          | Milwaukee, WI         |    60 |   6.67 |      |
-|   32 | Emma Martello          | Bible Jedi                     | Greensboro, NC        |    55 |   6.11 |      |
-|   33 | Jack Martello          | Bible Jedi                     | Greensboro, NC        |    50 |   5.56 |      |
-|   34 | Chrissy Hetrick        | Agents of the Shield           | Omaha, NE             |    45 |   5.00 |      |
-|   35 | Lynsey Bazemore        | Askewville Hashtags            | Askewville, NC        |    30 |   3.33 |      |
-|   36 | Hannah Rumley          | Iron Sharp                     | Normal, IL            |    20 |   2.22 |      |
-|   37 | Zach Weidner           | God's Mighty Warriors          | Milwaukee, WI         |    10 |   1.11 |      |
-|   37 | Olivia Houk            | Iron Sharp                     | Normal, IL            |    10 |   1.11 |      |
-|   38 | Elias Jacob            | Iron Sharp                     | Normal, IL            |       |    .00 |      |
-|   38 | Emma Kokora            | Bethlehem Church               | Richmond Hill, NY     |       |    .00 |      |
-|   38 | Ariel Boodhram         | Bethlehem Church               | Richmond Hill, NY     |       |    .00 |      |
-|   38 | James Jobson - Larkin  | Bethlehem Church               | Richmond Hill, NY     |       |    .00 |      |
-|   39 | Marcos Martinez        | Iron Sharp                     | Normal, IL            |   -10 |  -1.11 |      |
+|    # | Quizzer               | Team                           | Church                | Total |    Avg |   QO |
+| ---: | --------------------- | ------------------------------ | --------------------- | ----: | -----: | ---: |
+|    1 | Aidan Rajesh          | Bible Jedi                     | Greensboro, NC        |  1145 | 127.22 |    6 |
+|    2 | Gabi Acevedo          | God's Mighty Warriors          | Milwaukee, WI         |   965 | 107.22 |    5 |
+|    3 | Remi Brigilin         | Knights 4 Christ - Salvation   | Monmouth Junction, NJ |   945 | 105.00 |    4 |
+|    4 | Grace Dempsey         | Iron Sharp                     | Normal, IL            |   775 |  86.11 |    4 |
+|    5 | MacKenzie Wright      | The Parable of 2 Boys & a Girl | Lakeland, FL          |   690 |  76.67 |    1 |
+|    6 | Micah Hill            | Askewville Hashtags            | Askewville, NC        |   615 |  68.33 |    2 |
+|    7 | Joy Escobar           | God's Mighty Defenders         | Waxahatchie, TX       |   570 |  63.33 |      |
+|    8 | Stephen Bough         | Naperville (C)                 | Naperville, IL        |   495 |  55.00 |    5 |
+|    9 | Reagan Stevens        | Naperville (C)                 | Naperville, IL        |   475 |  52.78 |      |
+|   10 | Iakona Fern           | Agents of the Shield           | Omaha, NE             |   455 |  50.56 |    4 |
+|   11 | Clara Dempsey         | Iron Sharp                     | Normal, IL            |   350 |  38.89 |    2 |
+|   12 | David Biruduganti     | Naperville (C)                 | Naperville, IL        |   330 |  36.67 |    1 |
+|   13 | Brianna Boodram       | Bethlehem Church               | Richmond Hill, NY     |   320 |  35.56 |      |
+|   14 | Jayden Rodriquez      | Bethlehem Church               | Richmond Hill, NY     |   270 |  30.00 |    1 |
+|   15 | Ashley Okafor         | Bethlehem Church               | Richmond Hill, NY     |   255 |  28.33 |    1 |
+|   16 | Danny Dominic         | Knights 4 Christ - Salvation   | Monmouth Junction, NJ |   250 |  27.78 |      |
+|   16 | Joel Ravela           | The Parable of 2 Boys & a Girl | Lakeland, FL          |   250 |  27.78 |      |
+|   16 | Lademi Davies         | Agents of the Shield           | Omaha, NE             |   250 |  27.78 |      |
+|   17 | Haven Hoggard         | Askewville Hashtags            | Askewville, NC        |   245 |  27.22 |      |
+|   17 | Kaitlin Slottke       | God's Mighty Warriors          | Milwaukee, WI         |   245 |  27.22 |      |
+|   18 | Charlotte Elliott     | Agents of the Shield           | Omaha, NE             |   240 |  26.67 |      |
+|   18 | Aaron Martin          | Agents of the Shield           | Omaha, NE             |   240 |  26.67 |      |
+|   19 | Faith Buchanan        | Bethlehem Church               | Richmond Hill, NY     |   230 |  25.56 |      |
+|   20 | Josiah Horst          | The Parable of 2 Boys & a Girl | Lakeland, FL          |   225 |  25.00 |      |
+|   21 | Trenton Morris        | Bible Jedi                     | Greensboro, NC        |   205 |  22.78 |    2 |
+|   22 | Jason Theodore        | Knights 4 Christ - Salvation   | Monmouth Junction, NJ |   200 |  22.22 |    1 |
+|   23 | Freya Brigilin        | Knights 4 Christ - Salvation   | Monmouth Junction, NJ |   190 |  21.11 |      |
+|   24 | Eliana Bazemore       | Askewville Hashtags            | Askewville, NC        |   160 |  17.78 |      |
+|   24 | Jasmine Saenz         | God's Mighty Defenders         | Waxahatchie, TX       |   160 |  17.78 |      |
+|   25 | Hector Rivera         | God's Mighty Defenders         | Waxahatchie, TX       |   150 |  16.67 |    1 |
+|   26 | Daniel Kyzer          | God's Mighty Warriors          | Milwaukee, WI         |   150 |  16.67 |      |
+|   27 | Grace Ruiz            | God's Mighty Defenders         | Waxahatchie, TX       |   140 |  15.56 |      |
+|   28 | Jon Luc Jobson-Larkin | Bethlehem Church               | Richmond Hill, NY     |   130 |  14.44 |      |
+|   29 | Nathaniel Prejean     | Bible Jedi                     | Greensboro, NC        |   125 |  13.89 |      |
+|   30 | Samuel Biruduganti    | Naperville (C)                 | Naperville, IL        |    90 |  10.00 |      |
+|   31 | Ronnie Slottke        | God's Mighty Warriors          | Milwaukee, WI         |    60 |   6.67 |      |
+|   32 | Emma Martello         | Bible Jedi                     | Greensboro, NC        |    55 |   6.11 |      |
+|   33 | Jack Martello         | Bible Jedi                     | Greensboro, NC        |    50 |   5.56 |      |
+|   34 | Chrissy Hetrick       | Agents of the Shield           | Omaha, NE             |    45 |   5.00 |      |
+|   35 | Lynsey Bazemore       | Askewville Hashtags            | Askewville, NC        |    30 |   3.33 |      |
+|   36 | Hannah Rumley         | Iron Sharp                     | Normal, IL            |    20 |   2.22 |      |
+|   37 | Zach Weidner          | God's Mighty Warriors          | Milwaukee, WI         |    10 |   1.11 |      |
+|   37 | Olivia Houk           | Iron Sharp                     | Normal, IL            |    10 |   1.11 |      |
+|   38 | Elias Jacob           | Iron Sharp                     | Normal, IL            |       |    .00 |      |
+|   38 | Emma Kokora           | Bethlehem Church               | Richmond Hill, NY     |       |    .00 |      |
+|   38 | Ariel Boodhram        | Bethlehem Church               | Richmond Hill, NY     |       |    .00 |      |
+|   38 | James Jobson-Larkin   | Bethlehem Church               | Richmond Hill, NY     |       |    .00 |      |
+|   39 | Marcos Martinez       | Iron Sharp                     | Normal, IL            |   -10 |  -1.11 |      |
 
 
 ### Lavender (L3)

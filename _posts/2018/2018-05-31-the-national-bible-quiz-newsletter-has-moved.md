@@ -9,9 +9,9 @@ image: "Banner-848x221.jpg"
 published: true
 ---
 
-If you haven’t noticed, the last time we sent out a Newsletter was February. Obviously a lot has happened since then (tournaments, memorization award deadlines, Districts, Regionals, etc.) so where’s the Newsletter?
+If you haven't noticed, the last time we sent out a Newsletter was February. Obviously a lot has happened since then (tournaments, memorization award deadlines, Districts, Regionals, etc.) so where's the Newsletter?
 
-Well, it’s packed up and moved to a new home at the AG National Office!
+Well, it's packed up and moved to a new home at the AG National Office!
 
 If you are not getting the new Newsletter, [sign up here](http://bit.ly/2sriTzY).
 

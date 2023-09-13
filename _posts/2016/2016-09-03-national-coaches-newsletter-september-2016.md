@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "National Coaches’ Newsletter – September 2016"
+title: "National Coaches' Newsletter – September 2016"
 author: James Lex
 date: "2016-09-03"
 categories: 

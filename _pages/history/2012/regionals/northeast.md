@@ -127,7 +127,7 @@ menubar_toc_static:
 |    # | Team                                   | Church            | W\L  | Total |    Avg |
 | ---: | -------------------------------------- | ----------------- | ---- | ----: | -----: |
 |    1 | Word of Life Assembly                  | Springfield, VA   | 12\1 |  2545 | 195.77 |
-|    2 | South Hills A/G "4 J’s 4 Jesus"        | Bethel Park, PA   | 11\2 |  3000 | 230.77 |
+|    2 | South Hills A/G "4 J's 4 Jesus"        | Bethel Park, PA   | 11\2 |  3000 | 230.77 |
 |    3 | Redeemer Church                        | Utica, NY         | 10\3 |  2780 | 213.85 |
 |    4 | South Hills A/G "No Ordinary Child"    | Bethel Park, PA   | 10\3 |  2820 | 216.92 |
 |    5 | Journey A/G "Figuratively Speaking"    | Bridgeville, PA   | 8\5  |  2425 | 186.54 |
@@ -150,8 +150,8 @@ menubar_toc_static:
 | 1   | Kyle O'Keefe         | Journey A/G "Figuratively Speaking"    | Bridgeville, PA   | 1800  | 138.46 | 13  |
 | 2   | Hannah Tower         | South Hills A/G "No Ordinary Child"    | Bethel Park, PA   | 1700  | 130.77 | 12  |
 | 3   | Solomon Stevens      | Redeemer Church                        | Utica, NY         | 1450  | 111.54 | 10  |
-| 4   | James Khor           | South Hills A/G "4 J’s 4 Jesus"        | Bethel Park, PA   | 1285  | 98.85  | 11  |
-| 5   | Joey Lemley          | South Hills A/G "4 J’s 4 Jesus"        | Bethel Park, PA   | 1200  | 92.31  | 9   |
+| 4   | James Khor           | South Hills A/G "4 J's 4 Jesus"        | Bethel Park, PA   | 1285  | 98.85  | 11  |
+| 5   | Joey Lemley          | South Hills A/G "4 J's 4 Jesus"        | Bethel Park, PA   | 1200  | 92.31  | 9   |
 | 6   | Jacob Connerly       | Word of Life Assembly                  | Springfield, VA   | 1155  | 88.85  | 7   |
 | 7   | Natalie Borzone      | Bethany Church "People of God"         | Wyckoff, NJ       | 1070  | 82.31  | 8   |
 | 8   | Chad Sederwall       | Vailsburg Assembly of God              | Newark, NJ        | 1045  | 80.38  | 6   |
@@ -168,7 +168,7 @@ menubar_toc_static:
 | 19  | Rachel Girimonte     | Bethany Church "People of God"         | Wyckoff, NJ       | 635   | 48.85  | 3   |
 | 20  | Robin Solomon        | Metuchen Assembly of God               | Metuchen, NJ      | 545   | 41.92  | 3   |
 | 21  | Eli Martinez         | Redeemer Church                        | Utica, NY         | 515   | 39.62  | 4   |
-| 21  | Josh Fuller          | South Hills A/G "4 J’s 4 Jesus"        | Bethel Park, PA   | 515   | 39.62  | 4   |
+| 21  | Josh Fuller          | South Hills A/G "4 J's 4 Jesus"        | Bethel Park, PA   | 515   | 39.62  | 4   |
 | 22  | Elaine Robertson     | Journey A/G "Figuratively Speaking"    | Bridgeville, PA   | 500   | 38.46  | 5   |
 | 23  | Ben Fenstermaker     | Emmanuel A/G "Cloud of Witnesses"      | Allentown, PA     | 470   | 36.15  | 2   |
 | 24  | Sydney Misak         | South Hills A/G "No Ordinary Child"    | Bethel Park, PA   | 385   | 29.62  | 2   |

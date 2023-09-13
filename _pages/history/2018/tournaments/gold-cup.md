@@ -58,7 +58,7 @@ menubar_toc_static:
 |       19 | Joseph Royer        | Spring (Spring First AG)                           |   125 |  17.9 |      |  71% |
 |       20 | Jaxon Prom          | Legacy Church (Legacy Church)                      |   110 |  15.7 |    1 |  46% |
 |       21 | Jadyn Prom          | Legacy Church (Legacy Church)                      |   100 |  14.3 |      | 100% |
-| **\*21** | William Adu-Gyormfi | Braeswood (Braeswood AG)                           |   100 |  14.3 |      |  80% |
+| **\*21** | William Adu-Gyamfi  | Braeswood (Braeswood AG)                           |   100 |  14.3 |      |  80% |
 |       22 | Conor McDaniel      | CT Church (Christian Temple)                       |    95 |  13.6 |      |  60% |
 |       23 | Esther Birungi      | The Harvest Has Come (Harvest AG Ft Worth)         |    80 |  11.4 |      |  57% |
 |       24 | Madison Jenkins     | Legacy Church (Legacy Church)                      |    50 |   7.1 |      |  53% |

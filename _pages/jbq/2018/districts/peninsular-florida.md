@@ -271,43 +271,43 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                | Team                                                                        | Total |  Avg |   QO |   Q% |
-| -------: | ---------------------- | --------------------------------------------------------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Sarah Beaubrun         | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |   285 | 47.5 |    2 |  96% |
-|        2 | Nicholas Riveria       | RRSS- (Oxford 1st AG (307))                                                 |   240 |   40 |    1 |  83% |
-|        3 | Azariah Fuller         | God's Girls (City Church(107) )                                             |   230 | 38.3 |      |  87% |
-|        4 | Precious Okoh          | CLC Heat (Christian Life Center (404))                                      |   225 | 37.5 |    2 |  85% |
-|        5 | Isabella Perry         | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |   215 | 35.8 |      |  86% |
-|        6 | Jayden Bable           | Trinity Team #1 (trinity Church International (405))                        |   165 | 27.5 |    1 |  94% |
-|        7 | Arbuns Geffrard        | Master Quizzers (Christian Life Center (403))                               |   135 | 22.5 |      |  77% |
-|        8 | Marvens Geffrard       | Master Quizzers (Christian Life Center (403))                               |   120 |   20 |      |  93% |
-|        9 | Bruiyensen Gracelien   | Master Quizzers (Christian Life Center (403))                               |   105 | 17.5 |      |  92% |
-|       10 | Stephane Jules         | Master Quizzers (Christian Life Center (403))                               |   100 | 16.7 |      | 100% |
-|       11 | Tanner Rumer           | RRSS- (Oxford 1st AG (307))                                                 |    85 | 14.2 |      | 100% |
-|       12 | Jacob Sumner           | GRSS (Oxford 1st AG (306))                                                  |    60 |   10 |      | 100% |
-| **\*12** | Makayla Hayes          | God's Girls (City Church(107) )                                             |    60 |   10 |      | 100% |
-| **\*12** | Aiden Giles            | GRSS (Oxford 1st AG (306))                                                  |    60 |   10 |      |  78% |
-|       13 | Gael Rocha             | Trinity Team #1 (trinity Church International (405))                        |    55 |  9.2 |      |  71% |
-|       14 | Kinsee Walker          | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |    45 |  7.5 |      |  83% |
-| **\*14** | Ricardo Rocha          | Trinity Team #1 (trinity Church International (405))                        |    45 |  7.5 |      |  75% |
-|       15 | Emma Stagg             | GRSS (Oxford 1st AG (306))                                                  |    35 |  5.8 |      |  75% |
-|       16 | Gabrielle Anderson     | CLC Heat (Christian Life Center (404))                                      |    25 |  4.2 |      |  67% |
-|       17 | Eli Saligan            | Trinity Team #1 (trinity Church International (405))                        |    15 |  2.5 |      |  66% |
-|       18 | Hannah Moss            | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |    10 |  1.7 |      |  99% |
-| **\*18** | Oliver Boileau         | CLC Heat (Christian Life Center (404))                                      |    10 |  1.7 |      |  99% |
-|       19 | Hope Arent             | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |     0 |      |      |      |
-| **\*19** | Aileanna Mcduffie      | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |     0 |      |      |      |
-| **\*19** | Samuel Jordan          | Trinity Team #1 (trinity Church International (405))                        |     0 |      |      |      |
-| **\*19** | Emory Strickland       | RRSS- (Oxford 1st AG (307))                                                 |     0 |      |      |      |
-| **\*19** | Emma Strickland        | RRSS- (Oxford 1st AG (307))                                                 |     0 |      |      |      |
-| **\*19** | Natahaniel Petit-Clair | Master Quizzers (Christian Life Center (403))                               |     0 |      |      |      |
-| **\*19** | Alley Reep             | GRSS (Oxford 1st AG (306))                                                  |     0 |      |      |      |
-| **\*19** | Paris Nicolas          | CLC Heat (Christian Life Center (404))                                      |     0 |      |      |      |
-| **\*19** | Liz Joseph             | CLC Heat (Christian Life Center (404))                                      |     0 |      |      |      |
-| **\*19** | Marly Santos           | God's Girls (City Church(107) )                                             |     0 |      |      |      |
-| **\*19** | Maddy Santos           | God's Girls (City Church(107) )                                             |     0 |      |      |      |
-| **\*19** | Natalie Burgos         | God's Girls (City Church(107) )                                             |     0 |      |      |      |
-|       20 | Bryan Boileau          | CLC Heat (Christian Life Center (404))                                      |    -5 |  -.8 |      |      |
+|        # | Quizzer               | Team                                                                        | Total |  Avg |   QO |   Q% |
+| -------: | --------------------- | --------------------------------------------------------------------------- | ----: | ---: | ---: | ---: |
+|        1 | Sarah Beaubrun        | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |   285 | 47.5 |    2 |  96% |
+|        2 | Nicholas Riveria      | RRSS- (Oxford 1st AG (307))                                                 |   240 |   40 |    1 |  83% |
+|        3 | Azariah Fuller        | God's Girls (City Church(107) )                                             |   230 | 38.3 |      |  87% |
+|        4 | Precious Okoh         | CLC Heat (Christian Life Center (404))                                      |   225 | 37.5 |    2 |  85% |
+|        5 | Isabella Perry        | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |   215 | 35.8 |      |  86% |
+|        6 | Jayden Bable          | Trinity Team #1 (trinity Church International (405))                        |   165 | 27.5 |    1 |  94% |
+|        7 | Arbuns Geffrard       | Master Quizzers (Christian Life Center (403))                               |   135 | 22.5 |      |  77% |
+|        8 | Marvens Geffrard      | Master Quizzers (Christian Life Center (403))                               |   120 |   20 |      |  93% |
+|        9 | Bruiyensen Gracelien  | Master Quizzers (Christian Life Center (403))                               |   105 | 17.5 |      |  92% |
+|       10 | Stephane Jules        | Master Quizzers (Christian Life Center (403))                               |   100 | 16.7 |      | 100% |
+|       11 | Tanner Rumer          | RRSS- (Oxford 1st AG (307))                                                 |    85 | 14.2 |      | 100% |
+|       12 | Jacob Sumner          | GRSS (Oxford 1st AG (306))                                                  |    60 |   10 |      | 100% |
+| **\*12** | Makayla Hayes         | God's Girls (City Church(107) )                                             |    60 |   10 |      | 100% |
+| **\*12** | Aiden Giles           | GRSS (Oxford 1st AG (306))                                                  |    60 |   10 |      |  78% |
+|       13 | Gael Rocha            | Trinity Team #1 (trinity Church International (405))                        |    55 |  9.2 |      |  71% |
+|       14 | Kinsee Walker         | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |    45 |  7.5 |      |  83% |
+| **\*14** | Ricardo Rocha         | Trinity Team #1 (trinity Church International (405))                        |    45 |  7.5 |      |  75% |
+|       15 | Emma Stagg            | GRSS (Oxford 1st AG (306))                                                  |    35 |  5.8 |      |  75% |
+|       16 | Gabrielle Anderson    | CLC Heat (Christian Life Center (404))                                      |    25 |  4.2 |      |  67% |
+|       17 | Eli Saligan           | Trinity Team #1 (trinity Church International (405))                        |    15 |  2.5 |      |  66% |
+|       18 | Hannah Moss           | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |    10 |  1.7 |      |  99% |
+| **\*18** | Oliver Boileau        | CLC Heat (Christian Life Center (404))                                      |    10 |  1.7 |      |  99% |
+|       19 | Hope Arent            | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |     0 |      |      |      |
+| **\*19** | Aileanna Mcduffie     | First Coast Christian Center - Yellow (First Coast Christian Center (204) ) |     0 |      |      |      |
+| **\*19** | Samuel Jordan         | Trinity Team #1 (trinity Church International (405))                        |     0 |      |      |      |
+| **\*19** | Emory Strickland      | RRSS- (Oxford 1st AG (307))                                                 |     0 |      |      |      |
+| **\*19** | Emma Strickland       | RRSS- (Oxford 1st AG (307))                                                 |     0 |      |      |      |
+| **\*19** | Nathaniel Petit-Clair | Master Quizzers (Christian Life Center (403))                               |     0 |      |      |      |
+| **\*19** | Alley Reep            | GRSS (Oxford 1st AG (306))                                                  |     0 |      |      |      |
+| **\*19** | Paris Nicolas         | CLC Heat (Christian Life Center (404))                                      |     0 |      |      |      |
+| **\*19** | Liz Joseph            | CLC Heat (Christian Life Center (404))                                      |     0 |      |      |      |
+| **\*19** | Marly Santos          | God's Girls (City Church(107) )                                             |     0 |      |      |      |
+| **\*19** | Maddy Santos          | God's Girls (City Church(107) )                                             |     0 |      |      |      |
+| **\*19** | Natalie Burgos        | God's Girls (City Church(107) )                                             |     0 |      |      |      |
+|       20 | Bryan Boileau         | CLC Heat (Christian Life Center (404))                                      |    -5 |  -.8 |      |      |
 
 
 ## Flight 6

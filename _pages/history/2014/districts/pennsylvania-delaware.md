@@ -68,7 +68,7 @@ menubar_toc_static:
 |    6 | SHAG, Bethel Park Brothers and Sisters           | 4\5 |   750 |  83.33 |
 |    7 | Lighthouse AG, Breezewood Heavenly Attach        | 2\7 |   425 |  47.22 |
 |    8 | Lighthouse Christian, Pennsburg Sanctified       | 2\7 |   620 |  68.89 |
-|    9 | PCC, Mt Pocono The Lord’s Faithful               | 1\8 |   530 |  58.89 |
+|    9 | PCC, Mt Pocono The Lord's Faithful               | 1\8 |   530 |  58.89 |
 |   10 | State College AG, Justified by His Grace         | 1\8 |   390 |  43.33 |
 
 ### Individuals
@@ -86,7 +86,7 @@ menubar_toc_static:
 |    7 | Alex Thornton      | SHAG, Bethel Park Addicted to Jesus              |   465 |  51.67 |    3 |
 |    8 | Josh Fuller        | SHAG, Flaming Swords of the Archangel            |   445 |  49.44 |    2 |
 |    9 | Julia Beal         | Lighthouse Christian, Pennsburg Sanctified       |   390 |  43.33 |    3 |
-|   10 | Juliann Surrette   | PCC, Mt Pocono The Lord’s Faithful               |   380 |  42.22 |    2 |
+|   10 | Juliann Surrette   | PCC, Mt Pocono The Lord's Faithful               |   380 |  42.22 |    2 |
 |   11 | Alex Bradley       | New Day AG, Upper St Clair Brothers and a Sister |   365 |  40.56 |    4 |
 |   12 | Tanner Hoscheid    | EHAG, Sarver Blazing Encouragement               |   335 |  37.22 |    2 |
 |   13 | Justin Reid        | New Day AG, Upper St Clair Brothers and a Sister |   280 |  31.11 |    2 |
@@ -98,7 +98,7 @@ menubar_toc_static:
 |   19 | Grace Pitterle     | State College AG, Justified by His Grace         |   175 |  19.44 |      |
 |   20 | David Sikes        | SHAG, Flaming Swords of the Archangel            |   160 |  17.78 |    1 |
 |   21 | Luke Brambley      | Lighthouse AG, Breezewood Heavenly Attach        |   150 |  16.67 |    1 |
-|   22 | Michael Rodriguez  | PCC, Mt Pocono The Lord’s Faithful               |   145 |  16.11 |    1 |
+|   22 | Michael Rodriguez  | PCC, Mt Pocono The Lord's Faithful               |   145 |  16.11 |    1 |
 |   23 | Debbie Nwogu       | Lighthouse Christian, Pennsburg Sanctified       |   125 |  13.89 |      |
 |   24 | Lindsey Barber     | SHAG, Bethel Park Brothers and Sisters           |   115 |  12.78 |      |
 |   25 | Brooke Barzan      | SHAG, Bethel Park Brothers and Sisters           |   110 |  12.22 |      |
@@ -109,7 +109,7 @@ menubar_toc_static:
 |   29 | Carissa Budday     | New Day AG, Upper St Clair Brothers and a Sister |    70 |   7.78 |      |
 |   30 | David Batchelder   | New Day AG, Upper St Clair Brothers and a Sister |    55 |   6.11 |      |
 |   31 | Rebekah Anischenko | SHAG, Bethel Park Addicted to Jesus              |    20 |   2.22 |      |
-|   32 | Ryan Bond          | PCC, Mt Pocono The Lord’s Faithful               |    10 |   1.11 |      |
+|   32 | Ryan Bond          | PCC, Mt Pocono The Lord's Faithful               |    10 |   1.11 |      |
 |   33 | Grace Moyer        | State College AG, Justified by His Grace         |       |      0 |      |
 
 ## Pen-Del League

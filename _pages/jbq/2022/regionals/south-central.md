@@ -92,7 +92,7 @@ menubar_toc_static:
 |       45 | Karsynn Bennett      | \*Faith Chapel Volts (Overland Park, KS)  |    20 |   1.7 |      | 100% |
 | **\*45** | Chizaram Iwuogaranya | \*Keeper of the Command (Garland, TX)     |    20 |   1.7 |      | 100% |
 | **\*45** | Noah Zeli            | Prayer Mountain Explorers (Dallas, TX)    |    20 |   1.7 |      |  37% |
-|       46 | Benjamin Adu-gyamfi  | \*Braeswood (Houston, TX)                 |    15 |   1.3 |      |  66% |
+|       46 | Benjamin Adu-Gyamfi  | \*Braeswood (Houston, TX)                 |    15 |   1.3 |      |  66% |
 | **\*46** | Jimma Fraley         | Links 4 Life (Elk City, OK)               |    15 |   1.3 |      |  66% |
 |       47 | Jeremiah Martinez    | \*Betel AD (Dumas, TX)                    |    10 |    .8 |      |  50% |
 |       48 | Yane Azuike          | \*Braeswood (Houston, TX)                 |     5 |    .4 |      |  50% |

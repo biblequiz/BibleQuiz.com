@@ -49,18 +49,18 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer                      | Team            | Total |  Avg |   QO |
-| ---: | ---------------------------- | --------------- | ----: | ---: | ---: |
-|    1 | King's Chapel                | Luna Cooper     |   550 |   92 |    5 |
-|    2 | Central-Zorehkey             | Jacob Zorehkey  |   540 |   90 |    3 |
-|    3 | King's Chapel                | Brock Peters    |   505 |   85 |    4 |
-|    4 | JRA-Be Afraid                | Jaron Klassen   |   415 |   69 |    1 |
-|    5 | JRA-They Deliberately Forget | Leisl Jansen    |   375 |   63 |    3 |
-|    6 | Central-Zorehkey             | Nathan Pulis    |   360 |   60 |    4 |
-|    7 | JRA-Be Afraid                | Christina Burks |   330 |   55 |    2 |
-|    8 | JRA-Be Afraid                | Travis Griessel |   240 |   40 |    1 |
-|    9 | JRA-They Deliberately Forget | Abby O'Connell  |   205 |   34 |    2 |
-|   10 | JRA-They Deliberately Forget | Stacy Roberts   |    45 |    8 |    0 |
-|   11 | Central-Zorehkey             | Luke Anger      |    30 |    5 |    0 |
-|   12 | JRA-They Deliberately Forget | Sarah Roberts   |    20 |    4 |    0 |
-|   12 | King's Chapel                | Maia Cooper     |    20 |    3 |    0 |
+|    # | Quizzer         | Team                         | Total |  Avg |   QO |
+| ---: | --------------- | ---------------------------- | ----: | ---: | ---: |
+|    1 | Luna Cooper     | King's Chapel                |   550 |   92 |    5 |
+|    2 | Jacob Zorehkey  | Central-Zorehkey             |   540 |   90 |    3 |
+|    3 | Brock Peters    | King's Chapel                |   505 |   85 |    4 |
+|    4 | Jaron Klassen   | JRA-Be Afraid                |   415 |   69 |    1 |
+|    5 | Leisl Jansen    | JRA-They Deliberately Forget |   375 |   63 |    3 |
+|    6 | Nathan Pulis    | Central-Zorehkey             |   360 |   60 |    4 |
+|    7 | Christina Burks | JRA-Be Afraid                |   330 |   55 |    2 |
+|    8 | Travis Griessel | JRA-Be Afraid                |   240 |   40 |    1 |
+|    9 | Abby O'Connell  | JRA-They Deliberately Forget |   205 |   34 |    2 |
+|   10 | Stacy Roberts   | JRA-They Deliberately Forget |    45 |    8 |    0 |
+|   11 | Luke Anger      | Central-Zorehkey             |    30 |    5 |    0 |
+|   12 | Sarah Roberts   | JRA-They Deliberately Forget |    20 |    4 |    0 |
+|   12 | Maia Cooper     | King's Chapel                |    20 |    3 |    0 |

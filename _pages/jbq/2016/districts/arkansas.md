@@ -34,52 +34,52 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer              | Team               | Church                 | Total |    Avg |   QO |
-| ---: | -------------------- | ------------------ | ---------------------- | ----: | -----: | ---: |
-|    1 | Zachary Bernardini   | Rogers (K-2)       | Rogers 1st AG          |   945 | 118.13 |    5 |
-|    2 | Zechariah Cunningham | Word Warriors      | Bella Vista AG         |   735 |  91.88 |    6 |
-|    3 | Alex Eckart          | Lifesavers         | NLR First AG           |   735 |  91.88 |    4 |
-|    4 | Jordyn Smith         | Starburst          | NLR First AG           |   580 |  72.50 |    2 |
-|    5 | Addison Williams     | Bible Avengers     | Harrison Faith AG      |   435 |  54.38 |    5 |
-|    6 | Haleigh Griffin      | Bible Avengers     | Harrison Faith AG      |   410 |  51.25 |      |
-|    7 | Peyton Zermatten     | Lifesavers         | NLR First AG           |   360 |  45.00 |    3 |
-|    8 | Dixie Hill           | Prescott           | Prescott 1st AG        |   305 |  38.13 |    3 |
-|    9 | Krystal Lewis        | Starburst          | NLR First AG           |   295 |  36.88 |    1 |
-|   10 | Miles Brannan        | Rogers (K-2)       | Rogers 1st AG          |   290 |  36.25 |    1 |
-|   11 | Sarah Chima          | Starburst          | NLR First AG           |   285 |  35.63 |    2 |
-|   12 | Zoie Saine           | Lifesavers         | NLR First AG           |   215 |  26.88 |    1 |
-|   13 | Henry Rustad         | Word Warriors      | Bella Vista AG         |   195 |  24.38 |    1 |
-|   14 | Skyla Cope           | K-2 Boltz          | New Life AG (Sherwood) |   185 |  23.13 |    2 |
-|   15 | Trinity Henley       | Bible Avengers     | Harrison Faith AG      |   170 |  21.25 |      |
-|   16 | Tielyr Boysen        | Rogers (K-2)       | Rogers 1st AG          |   165 |  20.63 |    1 |
-|   17 | Adalee Roberts       | Bible Avengers     | Harrison Faith AG      |   155 |  19.38 |      |
-|   17 | Lauren Williams      | Rogers (K-2)       | Rogers 1st AG          |   155 |  19.38 |      |
-|   18 | ReeceAnn Hall-Folsom | McArthur           | McArthur Church        |   100 |  12.50 |      |
-|   19 | Gabe Fernandez       | Lifesavers         | NLR First AG           |    70 |   8.75 |      |
-|   20 | Garrett Dorsey       | Starburst          | NLR First AG           |    55 |   6.88 |      |
-|   21 | Afton Tharp          | Word Warriors      | Bella Vista AG         |    40 |   5.00 |      |
-|   21 | Nevaeh Watson        | K-2 Boltz          | New Life AG (Sherwood) |    40 |   5.00 |      |
-|   21 | Alex's Harvey        | McArthur           | McArthur Church        |    40 |   5.00 |      |
-|   22 | Alice Weeley         | McArthur           | McArthur Church        |    30 |   3.75 |      |
-|   23 | Aubrey Harvey        | McArthur           | McArthur Church        |    25 |   3.13 |      |
-|   24 | Ty Harper            | Starburst          | NLR First AG           |    20 |   2.50 |      |
-|   24 | Scout Bateman        | McArthur           | McArthur Church        |    20 |   2.50 |      |
-|   24 | Kaitlyn Larson       | McArthur           | McArthur Church        |    20 |   2.50 |      |
-|   24 | Sara Skaggs          | Russellville (K-2) | Russellville AG        |    20 |   2.50 |      |
-|   25 | Eyan Vorbau          | Lifesavers         | NLR First AG           |       |    .00 |      |
-|   25 | David Brewer         | Russellville (K-2) | Russellville AG        |       |    .00 |      |
-|   25 | Annie Sims           | Russellville (K-2) | Russellville AG        |       |    .00 |      |
-|   25 | Daulson Yarbrough    | Russellville (K-2) | Russellville AG        |       |    .00 |      |
-|   25 | Jackson Eckart       | K-2 Boltz          | New Life AG (Sherwood) |       |    .00 |      |
-|   25 | Evil Herrin          | McArthur           | McArthur Church        |       |    .00 |      |
-|   25 | William Jackson      | K-2 Boltz          | New Life AG (Sherwood) |       |    .00 |      |
-|   25 | Kirsten Boyer        | K-2 Boltz          | New Life AG (Sherwood) |       |    .00 |      |
-|   25 | Elijah Yates         | McArthur           | McArthur Church        |       |    .00 |      |
-|   25 | Avalon Coller        | Word Warriors      | Bella Vista AG         |       |    .00 |      |
-|   25 | Addisyn McCullough   | Starburst          | NLR First AG           |       |    .00 |      |
-|   25 | Destiny Hill         | Prescott           | Prescott 1st AG        |       |    .00 |      |
-|   25 | Jada Owens           | Word Warriors      | Bella Vista AG         |       |    .00 |      |
-|   26 | Andi Wilson          | Bible Avengers     | Harrison Faith AG      |   -25 |  -3.13 |      |
+|    # | Quizzer               | Team               | Church                 | Total |    Avg |   QO |
+| ---: | --------------------- | ------------------ | ---------------------- | ----: | -----: | ---: |
+|    1 | Zachary Bernardini    | Rogers (K-2)       | Rogers 1st AG          |   945 | 118.13 |    5 |
+|    2 | Zechariah Cunningham  | Word Warriors      | Bella Vista AG         |   735 |  91.88 |    6 |
+|    3 | Alex Eckart           | Lifesavers         | NLR First AG           |   735 |  91.88 |    4 |
+|    4 | Jordyn Smith          | Starburst          | NLR First AG           |   580 |  72.50 |    2 |
+|    5 | Addison Williams      | Bible Avengers     | Harrison Faith AG      |   435 |  54.38 |    5 |
+|    6 | Haleigh Griffin       | Bible Avengers     | Harrison Faith AG      |   410 |  51.25 |      |
+|    7 | Peyton Zermatten      | Lifesavers         | NLR First AG           |   360 |  45.00 |    3 |
+|    8 | Dixie Hill            | Prescott           | Prescott 1st AG        |   305 |  38.13 |    3 |
+|    9 | Krystal Lewis         | Starburst          | NLR First AG           |   295 |  36.88 |    1 |
+|   10 | Miles Brannan         | Rogers (K-2)       | Rogers 1st AG          |   290 |  36.25 |    1 |
+|   11 | Sarah Chima           | Starburst          | NLR First AG           |   285 |  35.63 |    2 |
+|   12 | Zoie Saine            | Lifesavers         | NLR First AG           |   215 |  26.88 |    1 |
+|   13 | Henry Rustad          | Word Warriors      | Bella Vista AG         |   195 |  24.38 |    1 |
+|   14 | Skyla Cope            | K-2 Boltz          | New Life AG (Sherwood) |   185 |  23.13 |    2 |
+|   15 | Trinity Henley        | Bible Avengers     | Harrison Faith AG      |   170 |  21.25 |      |
+|   16 | Tielyr Boysen         | Rogers (K-2)       | Rogers 1st AG          |   165 |  20.63 |    1 |
+|   17 | Adalee Roberts        | Bible Avengers     | Harrison Faith AG      |   155 |  19.38 |      |
+|   17 | Lauren Williams       | Rogers (K-2)       | Rogers 1st AG          |   155 |  19.38 |      |
+|   18 | Reece Ann Hall-Folsom | McArthur           | McArthur Church        |   100 |  12.50 |      |
+|   19 | Gabe Fernandez        | Lifesavers         | NLR First AG           |    70 |   8.75 |      |
+|   20 | Garrett Dorsey        | Starburst          | NLR First AG           |    55 |   6.88 |      |
+|   21 | Afton Tharp           | Word Warriors      | Bella Vista AG         |    40 |   5.00 |      |
+|   21 | Nevaeh Watson         | K-2 Boltz          | New Life AG (Sherwood) |    40 |   5.00 |      |
+|   21 | Alex's Harvey         | McArthur           | McArthur Church        |    40 |   5.00 |      |
+|   22 | Alice Weeley          | McArthur           | McArthur Church        |    30 |   3.75 |      |
+|   23 | Aubrey Harvey         | McArthur           | McArthur Church        |    25 |   3.13 |      |
+|   24 | Ty Harper             | Starburst          | NLR First AG           |    20 |   2.50 |      |
+|   24 | Scout Bateman         | McArthur           | McArthur Church        |    20 |   2.50 |      |
+|   24 | Kaitlyn Larson        | McArthur           | McArthur Church        |    20 |   2.50 |      |
+|   24 | Sara Skaggs           | Russellville (K-2) | Russellville AG        |    20 |   2.50 |      |
+|   25 | Eyan Vorbau           | Lifesavers         | NLR First AG           |       |    .00 |      |
+|   25 | David Brewer          | Russellville (K-2) | Russellville AG        |       |    .00 |      |
+|   25 | Annie Sims            | Russellville (K-2) | Russellville AG        |       |    .00 |      |
+|   25 | Daulson Yarbrough     | Russellville (K-2) | Russellville AG        |       |    .00 |      |
+|   25 | Jackson Eckart        | K-2 Boltz          | New Life AG (Sherwood) |       |    .00 |      |
+|   25 | Evil Herrin           | McArthur           | McArthur Church        |       |    .00 |      |
+|   25 | William Jackson       | K-2 Boltz          | New Life AG (Sherwood) |       |    .00 |      |
+|   25 | Kirsten Boyer         | K-2 Boltz          | New Life AG (Sherwood) |       |    .00 |      |
+|   25 | Elijah Yates          | McArthur           | McArthur Church        |       |    .00 |      |
+|   25 | Avalon Coller         | Word Warriors      | Bella Vista AG         |       |    .00 |      |
+|   25 | Addisyn McCullough    | Starburst          | NLR First AG           |       |    .00 |      |
+|   25 | Destiny Hill          | Prescott           | Prescott 1st AG        |       |    .00 |      |
+|   25 | Jada Owens            | Word Warriors      | Bella Vista AG         |       |    .00 |      |
+|   26 | Andi Wilson           | Bible Avengers     | Harrison Faith AG      |   -25 |  -3.13 |      |
 
 
 ## 3rd & 4th Grade

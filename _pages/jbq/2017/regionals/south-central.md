@@ -76,7 +76,7 @@ menubar_toc_static:
 |       27 | Ezra King               | Tribulation Force (The Oaks Fellowship)      |  1020 |  48.6 |   12 |  77% |
 |       28 | Camden Haney            | Green Knights (Trinity Church)               |  1015 |  48.3 |   13 |  76% |
 |       29 | Anyiah Odera \*         | The Overcomers (Braeswood Church)            |  1000 |  47.6 |      |  78% |
-|       30 | Priscilla Ady-Gyamfi    | The Overcomers (Braeswood Church)            |   995 |  47.4 |   10 |  82% |
+|       30 | Priscilla Adu-Gyamfi    | The Overcomers (Braeswood Church)            |   995 |  47.4 |   10 |  82% |
 |       31 | Aidan Fulfer            | Tribulation Force (The Oaks Fellowship)      |   955 |  45.5 |      |  64% |
 |       32 | Mia Sanchez             | Trinity Tornados (Trinity)                   |   910 |  43.3 |    2 |  87% |
 |       33 | Hector Rivera           | Kids For Christ (Bethsda AG)                 |   895 |  42.6 |    8 |  79% |

@@ -46,7 +46,7 @@ menubar_toc_static:
 |        8 | Helyn Dunn            | VLC (Victorious Life - Wesley Chapel, FL)                 |   400 |   50 |    2 |  83% |
 |        9 | Jonathan McGovern     | Embittered Children (Calvary (Greensboro, NC))            |   355 | 44.4 |    2 |  69% |
 |       10 | Savannah Robinson     | Seasoned with Salt (Calvary - Greensboro, NC)             |   330 | 41.3 |    3 |  79% |
-|       11 | Alex Mc Collum        | Seasoned with Salt (Calvary - Greensboro, NC)             |   330 | 41.3 |    2 |  75% |
+|       11 | Alex McCollum         | Seasoned with Salt (Calvary - Greensboro, NC)             |   330 | 41.3 |    2 |  75% |
 |       12 | EJ Cruz               | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |   285 | 35.6 |    1 |  76% |
 |       13 | Trevor McCoy          | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |   280 |   35 |    2 |  63% |
 |       14 | Autumn Simonds        | FWLP119 (1st AG - Dallas, GA)                             |   215 | 26.9 |    1 |  71% |
@@ -67,7 +67,7 @@ menubar_toc_static:
 | **\*23** | Lorena Lee            | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |     0 |      |      |      |
 | **\*23** | Lexi Perkins          | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |     0 |      |      |      |
 | **\*23** | Alecia Rajseh         | Seasoned with Salt (Calvary - Greensboro, NC)             |     0 |      |      |      |
-| **\*23** | Sheldon Mc Collum     | Seasoned with Salt (Calvary - Greensboro, NC)             |     0 |      |      |      |
+| **\*23** | Sheldon McCollum      | Seasoned with Salt (Calvary - Greensboro, NC)             |     0 |      |      |      |
 | **\*23** | Contessa Hieskell     | FWLP119 (1st AG - Dallas, GA)                             |     0 |      |      |      |
 | **\*23** | V. Alexandria Richter | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |     0 |      |      |      |
 | **\*23** | Teresa Richter        | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |     0 |      |      |      |

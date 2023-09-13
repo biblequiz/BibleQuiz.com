@@ -65,11 +65,11 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer          | Team                     | Church   | Total |  Avg |   QO |
-| ---: | ---------------- | ------------------------ | -------- | ----: | ---: | ---: |
-|    1 | Zach Schwarz     | Rebuking those that Fail | Muskogee |   545 |  109 |    4 |
-|    2 | Gabrielle Bell   | Pure in Heart            | Noble AG |   280 |   56 |    1 |
-|    3 | Allie Pitts      | Pure in Heart            | Noble AG |   270 |   54 |    2 |
-|    4 | Izzy Lashley-Bob | Rebuking those that Fail | Muskogee |   125 |   25 |    1 |
-|    5 | Bri Ryley        | Rebuking those that Fail | Muskogee |    30 |    6 |      |
-|    6 | Sam Carter       | Rebuking those that Fail | Muskogee |    20 |    4 |      |
+|    # | Quizzer           | Team                     | Church   | Total |  Avg |   QO |
+| ---: | ----------------- | ------------------------ | -------- | ----: | ---: | ---: |
+|    1 | Zach Schwarz      | Rebuking those that Fail | Muskogee |   545 |  109 |    4 |
+|    2 | Gabrielle Bell    | Pure in Heart            | Noble AG |   280 |   56 |    1 |
+|    3 | Allie Pitts       | Pure in Heart            | Noble AG |   270 |   54 |    2 |
+|    4 | Izzy Lashley-Bobb | Rebuking those that Fail | Muskogee |   125 |   25 |    1 |
+|    5 | Bri Ryley         | Rebuking those that Fail | Muskogee |    30 |    6 |      |
+|    6 | Sam Carter        | Rebuking those that Fail | Muskogee |    20 |    4 |      |
