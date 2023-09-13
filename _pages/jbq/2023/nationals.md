@@ -20,7 +20,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church      |  W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team               |  W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ------------------ | -----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Shelby Township-MI | 13 / 2 | 3,175 | 211.7 |   20 |  84% |   35 |   65 |   91 |
 |    2 | Sparta-WI          | 12 / 3 | 2,850 |   190 |   17 |  82% |   26 |   64 |  101 |
@@ -43,7 +43,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer                  | Team / Church      | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer                  | Team               | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | ------------------------ | ------------------ | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |        1 | London Lovelace          | Lees Summit-MO     | 2,065 | 137.7 |   13 |  93% |   30 |   56 |    1 |
 |        2 | Joshua James             | Shelby Township-MI | 2,020 | 134.7 |   12 |  88% |   35 |   50 |      |
@@ -123,7 +123,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church      |  W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team               |  W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ------------------ | -----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Dublin-OH          | 14 / 1 | 3,120 |   208 |   18 |  85% |   33 |   66 |   87 |
 |    2 | Oak Creek-WI       | 12 / 3 | 3,005 | 200.3 |   15 |  85% |   27 |   68 |   97 |
@@ -146,7 +146,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer             | Team / Church      | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer             | Team               | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | ------------------- | ------------------ | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |        1 | Nathan Nimako       | Dublin-OH          | 2,045 | 136.3 |   14 |  92% |   32 |   49 |    6 |
 |        2 | Lucas Mank          | Oak Creek-WI       | 1,600 | 106.7 |    6 |  82% |   27 |   46 |      |
@@ -226,7 +226,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church   |  W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team            |  W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | --------------- | -----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Oak Creek-WI    | 12 / 3 | 2,520 |   168 |    5 |  77% |   27 |   58 |   81 |
 |    2 | Fargo-ND        | 12 / 3 | 2,840 | 189.3 |    8 |  81% |   28 |   67 |   94 |
@@ -249,7 +249,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer                 | Team / Church   | Total |  AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer                 | Team            | Total |  AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | ----------------------- | --------------- | ----: | ---: | ---: | ---: | ---: | ---: | ---: |
 |        1 | Elizabeth Siony         | Naperville-IL   | 1,845 |  123 |   10 |  94% |   28 |   48 |    2 |
 |        2 | Channing Berberick      | Sandusky-OH     | 1,495 | 99.7 |    5 |  89% |   28 |   34 |    3 |
@@ -330,7 +330,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church       |  W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team                |  W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ------------------- | -----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Bowling Green-OH    | 13 / 2 | 2,940 |   196 |   11 |  82% |   29 |   70 |   90 |
 |    2 | Bothell-WA          | 12 / 3 | 3,000 |   200 |   11 |  86% |   33 |   61 |   89 |
@@ -353,7 +353,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer              | Team / Church       | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer              | Team                | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | -------------------- | ------------------- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |        1 | Jesselin Sudhan      | Waukesha-WI         | 1,610 | 107.3 |    6 |  90% |   26 |   40 |    5 |
 |        2 | Aiden Samuel         | Snellville-GA       | 1,605 |   107 |    6 |  92% |   29 |   37 |    1 |
@@ -444,7 +444,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church        |  W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team                 |  W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | -------------------- | -----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Monmouth Junction-NJ | 11 / 3 | 2,555 | 182.5 |   15 |  89% |   20 |   60 |   75 |
 |    2 | Greensboro-NC        | 11 / 3 | 2,835 | 202.5 |   11 |  91% |   24 |   66 |   82 |
@@ -466,7 +466,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer                | Team / Church        | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer                | Team                 | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | ---------------------- | -------------------- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |        1 | Daniel Sam Abraham     | Monmouth Junction-NJ | 1,625 | 116.1 |    7 |  96% |   20 |   48 |    3 |
 |        2 | Asher Claunch          | Cedar Hill-TX        | 1,475 | 105.4 |    8 |  78% |   23 |   45 |    5 |
@@ -542,7 +542,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church        | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team                 | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | -------------------- | ----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Bothell-WA           | 6 / 3 | 1,680 | 186.7 |    4 |  89% |   19 |   38 |   43 |
 |    2 | Oak Creek-WI         | 6 / 3 | 1,520 | 168.9 |    8 |  74% |   24 |   25 |   44 |
@@ -559,7 +559,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer                | Team / Church        | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer                | Team                 | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | ---------------------- | -------------------- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |        1 | Lucas Mank             | Oak Creek-WI         | 1,095 | 121.7 |    4 |  82% |   24 |   22 |      |
 |        2 | Joshua James           | Shelby Township-MI   |   970 | 107.8 |    5 |  86% |   16 |   26 |    1 |
@@ -611,7 +611,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church  | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team           | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | -------------- | ----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Houston-TX     | 9 / 0 | 1,570 | 174.4 |    4 |  75% |   19 |   40 |   46 |
 |    2 | San Antonio-TX | 6 / 3 | 1,490 | 165.6 |    3 |  90% |   14 |   35 |   45 |
@@ -628,7 +628,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer                  | Team / Church  | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer                  | Team           | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | ------------------------ | -------------- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |        1 | London Lovelace          | Lees Summit-MO |   930 | 103.3 |    4 |  80% |   17 |   24 |    3 |
 |        2 | Elizabeth Siony          | Naperville-IL  |   870 |  96.7 |    2 |  86% |   11 |   29 |    3 |
@@ -682,7 +682,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church     | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team              | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ----------------- | ----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Burien-WA         | 7 / 2 | 1,385 | 153.9 |    6 |  76% |   15 |   35 |   44 |
 |    2 | Charlotte-NC      | 7 / 2 | 1,475 | 163.9 |    5 |  78% |   16 |   35 |   48 |
@@ -699,7 +699,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer                 | Team / Church     | Total |  AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer                 | Team              | Total |  AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | ----------------------- | ----------------- | ----: | ---: | ---: | ---: | ---: | ---: | ---: |
 |        1 | Enzi Mashibe            | Georgetown-KY     |   865 | 96.1 |    3 |  81% |   14 |   24 |    4 |
 |        2 | Rakshania Thomas        | Charlotte-NC      |   740 | 82.2 |    3 |  82% |   16 |   15 |    2 |
@@ -755,7 +755,7 @@ menubar_toc_static:
 
 *Team Placement Reflects Changes Due to Playoffs...*
 
-|    # | Team / Church    | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team             | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ---------------- | ----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Novi-MI          | 8 / 1 | 1,825 | 202.8 |   11 |  79% |   18 |   44 |   53 |
 |    2 | Bowling Green-OH | 6 / 3 | 1,645 | 182.8 |    3 |  83% |   18 |   33 |   60 |
@@ -772,7 +772,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer              | Team / Church    | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer              | Team             | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | -------------------- | ---------------- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |        1 | Caleb Stumper        | Dallas-TX        | 1,010 | 112.2 |    4 |  88% |   14 |   31 |      |
 |        2 | Elijah Vigh          | Novi-MI          |   960 | 106.7 |    6 |  84% |   14 |   29 |      |
@@ -834,7 +834,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church      | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team               | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ------------------ | ----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Marietta-GA        | 7 / 2 | 1,455 | 161.7 |    6 |  73% |   16 |   38 |   40 |
 |    2 | Lakeland-FL        | 6 / 3 | 1,525 | 169.4 |    8 |  83% |   20 |   28 |   43 |
@@ -851,7 +851,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer             | Team / Church      | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer             | Team               | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | ------------------- | ------------------ | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |        1 | Isabella Kirchon    | Lakeland-FL        | 1,130 | 125.6 |    7 |  84% |   20 |   27 |    1 |
 |        2 | Elizabeth Rossignol | Douglas-WY         |   995 | 110.6 |    4 |  88% |   18 |   24 |      |
@@ -901,7 +901,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church       | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team                | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ------------------- | ----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Wichita-KS          | 8 / 1 | 1,715 | 190.6 |    8 |  88% |   18 |   43 |   35 |
 |    2 | Orlando-FL          | 6 / 3 | 1,395 |   155 |    6 |  73% |   13 |   37 |   51 |
@@ -918,7 +918,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer           | Team / Church       | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer           | Team                | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | ----------------- | ------------------- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |        1 | Ethan Parker      | Wichita-KS          | 1,210 | 134.4 |    7 |  91% |   18 |   33 |      |
 |        2 | Josiah Minick     | Mabelvale-AR        | 1,015 | 112.8 |    5 |  77% |   18 |   29 |    1 |
@@ -972,7 +972,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church    | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team             | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ---------------- | ----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Winter Haven-FL  | 8 / 1 | 1,550 | 172.2 |    6 |  73% |   13 |   45 |   51 |
 |    2 | Bellevue-WA      | 6 / 3 | 1,415 | 157.2 |    6 |  75% |   14 |   34 |   59 |
@@ -989,7 +989,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer           | Team / Church    | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer           | Team             | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | ----------------- | ---------------- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |        1 | Joel Villalba     | Winter Haven-FL  | 1,055 | 117.2 |    6 |  82% |   13 |   38 |      |
 |        2 | Kai Doboszenski   | Shakopee-MN      |   875 |  97.2 |    6 |  79% |    5 |   39 |    1 |
@@ -1046,7 +1046,7 @@ menubar_toc_static:
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
 
-|    # | Team / Church   | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team            | W / L | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | --------------- | ----: | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Mooresville-IN  | 7 / 1 | 1,810 | 226.2 |   12 |  88% |   19 |   37 |   51 |
 |    2 | Chicago-IL      | 7 / 1 | 1,110 | 138.8 |    7 |  91% |    3 |   30 |   41 |
@@ -1062,7 +1062,7 @@ menubar_toc_static:
 
 *Ranked by average points, then by total quiz outs.*
 
-|        # | Quizzer              | Team / Church   | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|        # | Quizzer              | Team            | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | -------: | -------------------- | --------------- | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |        1 | Jesselin Sudhan      | Waukesha-WI     | 1,070 | 133.8 |    7 |  88% |   19 |   25 |    1 |
 |        2 | Ashleigh Griffin     | Harrison-AR     |   825 | 103.1 |    5 |  89% |    2 |   37 |    2 |

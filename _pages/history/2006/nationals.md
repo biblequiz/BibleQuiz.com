@@ -28,7 +28,7 @@ The individual tournament was won by Brandon Duffy of Bothell, WA. The quoting b
 
 ### Teams
 
-| Rank | Team                                                                | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                                                | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | ------------------------------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | The Church at Briargate, "Speed and Finality", Colorado Springs, CO | 17 / 2 |  3270 | 172.11 |   1355 |      71.31 |
 |    2 | Cedar Park A/G, "Beyond Blessed", Bothell, WA*                      | 15 / 4 |  3235 | 170.26 |   1390 |      73.15 |
@@ -55,96 +55,96 @@ The individual tournament was won by Brandon Duffy of Bothell, WA. The quoting b
 
 ### Individuals
 
-|     Rank | Quizzer           | Church                 | Total |    Avg | QO Fwd | QO Back |
-| -------: | ----------------- | ---------------------- | ----: | -----: | -----: | ------: |
-|        1 | Jon Galliers      | Lexington KY           |  2520 | 132.63 |     19 |         |
-|        2 | Brandon Duffy     | Bothell WA "Beyond"    |  1935 | 101.84 |     15 |       1 |
-|        3 | Jared Paige       | Houston TX Braeswood   |  1835 |  96.58 |     14 |       3 |
-|        4 | Zach Schaalma     | Kimberly WI            |  1625 |  85.53 |     11 |       1 |
-|        5 | LaJoie Ward       | Binghamton NY          |  1560 |  82.11 |     12 |       4 |
-|        6 | Molly Pace        | Colorado Sprs. "Speed" |  1395 |  73.42 |     10 |       2 |
-|        7 | Jonathan Barthuly | Santa Ana CA           |  1380 |  72.63 |     13 |       5 |
-|        8 | Ruth Kinyua       | South Bend IN          |  1365 |  71.84 |      7 |       2 |
-|        9 | JP O'Connor       | Tacoma WA              |  1255 |  66.05 |      8 |       2 |
-|       10 | Michael Smoak     | Bothell WA "Eternal"   |  1210 |  63.68 |     10 |       7 |
-|       11 | Courtney Popineau | Colorado Sprs. "Speed" |  1190 |  62.63 |     10 |       1 |
-|       12 | Timothy Stride    | Naperville IL          |  1140 |     60 |      7 |       4 |
-|       13 | Brittany Porter   | Ozark MO "Joy"         |  1090 |  57.37 |      6 |       3 |
-|       14 | Hillari Wyatt     | Slidell LA             |  1030 |  54.21 |      9 |       4 |
-|       15 | Brandon Porter    | Ozark MO "Peace"       |  1025 |  53.95 |      6 |       5 |
-|       16 | Jared Burkhalter  | Orlando FL             |  1010 |  53.16 |      6 |      10 |
-|       17 | Jenna-Jo Duffy    | Bothell WA "Beyond"    |   985 |  51.84 |      3 |       1 |
-|       18 | Kristen Johnson   | Naperville IL          |   950 |     50 |      9 |       6 |
-|       19 | CJ Hock           | South Bend IN          |   920 |  48.42 |      9 |       6 |
-|       20 | Gina Fortunato    | Ozark MO "Joy"         |   910 |  47.89 |      4 |       1 |
-|       21 | Adam Forsman      | Houston TX Chr. Temple |   910 |  47.89 |      7 |       7 |
-|       22 | Josh Turner       | Portage WI             |   880 |  46.32 |      5 |      12 |
-|       23 | Hannah Franklin   | Elkton MD              |   865 |  45.53 |     10 |       1 |
-|       24 | Taiwo Masha       | Houston TX Braeswood   |   850 |  44.74 |      6 |       3 |
-|       25 | Laramie Mitchell  | Ozark MO "Joy"         |   775 |  40.79 |      9 |       1 |
-|       26 | Blake Porter      | Ozark MO "Peace"       |   760 |     40 |      5 |       1 |
-|       27 | Nathan Mori       | Bothell WA "Eternal"   |   745 |  39.21 |      6 |       6 |
-|       28 | Pherrah Gosnell   | Tacoma WA              |   725 |  38.16 |      4 |       1 |
-|       29 | Jasmine Franklin  | Elkton MD              |   725 |  38.16 |      2 |       3 |
-|       30 | Andrew Kelley     | Colorado Sprs. "Speed" |   705 |  37.11 |      2 |       1 |
-|       31 | Joshua Siddall    | Syracuse NY            |   685 |  36.05 |      6 |       1 |
-|       32 | Joshua Forsman    | Houston TX Chr. Temple |   655 |  34.47 |      2 |       3 |
-|       33 | Daniel Kober      | Kimberly WI            |   615 |  32.37 |      5 |       3 |
-|       34 | Elyssa DeFazio    | Valencia PA            |   590 |  31.05 |      2 |       4 |
-|       35 | David Knox        | Valencia PA            |   580 |  30.53 |      4 |       4 |
-|       36 | Christina Simpson | Orlando FL             |   565 |  29.74 |      2 |       2 |
-|       37 | Kourtni Wyatt     | Slidell LA             |   560 |  29.47 |      2 |       6 |
-|       38 | Matt Trumble      | Lexington KY           |   555 |  29.21 |      5 |       1 |
-|       39 | Clayton DeFazio   | Valencia PA            |   510 |  26.84 |      3 |       1 |
-|       40 | Kara Laufenburger | Lexington KY           |   505 |  26.58 |      4 |       1 |
-|       41 | Joshua Slater     | Ozark MO "Peace"       |   495 |  26.05 |      4 |       3 |
-|       42 | Corina Scarinzi   | Binghamton NY          |   470 |  24.74 |      3 |       2 |
-|       43 | Lauren Thorp      | Elkton MD              |   440 |  23.16 |      3 |       2 |
-|       44 | Naomi Turner      | Portage WI             |   415 |  21.84 |      4 |       5 |
-|       45 | Colin Kuroishi    | Santa Ana CA           |   385 |  20.26 |      1 |       1 |
-|       46 | Heather Karnes    | Bothell WA "Eternal"   |   355 |  18.68 |      1 |       1 |
-|       47 | Amy Siddall       | Syracuse NY            |   340 |  17.89 |      2 |       2 |
-|       48 | Lauryn Duffy      | Bothell WA "Beyond"    |   265 |  13.95 |      1 |       1 |
-|       49 | Jorey Melinder    | Houston TX Chr. Temple |   255 |  13.42 |      1 |       1 |
-| **49\*** | Lucas Cox         | Lexington KY           |   255 |  13.42 |      1 |       1 |
-|       51 | Alex Firari       | Portage WI             |   220 |  11.58 |      1 |       1 |
-|       52 | Brandon Rhynders  | Syracuse NY            |   215 |  11.32 |        |       1 |
-|       53 | Chris Teeny       | Tacoma WA              |   210 |  11.05 |      1 |       1 |
-|       54 | Rojan Easo        | Houston TX Braeswood   |   190 |     10 |        |       4 |
-|       55 | Katie Randolph    | South Bend IN          |   180 |   9.47 |        |         |
-|       56 | Aryka Turner      | Orlando FL             |   170 |   8.95 |        |         |
-|       57 | Jonathan Treubig  | Binghamton NY          |   135 |   7.11 |        |         |
-|       58 | David Kober       | Kimberly WI            |   125 |   6.58 |      1 |       1 |
-|       59 | Inga O'Connor     | Tacoma WA              |   115 |   6.05 |      1 |       1 |
-|       60 | Michael Rose      | Colorado Sprs. "Speed" |   115 |   6.05 |        |         |
-|       61 | Stephen Muller    | Naperville IL          |    95 |      5 |        |         |
-|       62 | Tamera Burkhalter | Orlando FL             |    95 |      5 |        |         |
-|       63 | Andrew Forsman    | Houston TX Chr. Temple |    70 |   3.68 |        |         |
-|       64 | Brianna Forsman   | Houston TX Chr. Temple |    65 |   3.42 |        |         |
-|       65 | Hilary Kunnanz    | Bothell WA "Beyond"    |    60 |   3.16 |        |         |
-| **65\*** | Beulah Oseke      | Houston TX Braeswood   |    60 |   3.16 |        |         |
-|       67 | Seth Turner       | Portage WI             |    45 |   2.37 |        |         |
-|       68 | Hannah Thorp      | Elkton MD              |    30 |   1.58 |        |         |
-| **68\*** | Joe Dean          | Ozark MO "Joy"         |    30 |   1.58 |        |         |
-|       70 | Max Houser        | Bothell WA "Eternal"   |    25 |   1.32 |        |       1 |
-|       71 | Amanda Summers    | Valencia PA            |    20 |   1.05 |        |         |
-| **71\*** | Nils Stoermer     | South Bend IN          |    20 |   1.05 |        |         |
-|       73 | Aamod Samuel      | South Bend IN          |    15 |   0.79 |        |         |
-| **73\*** | Kyle Thorp        | Elkton MD              |    15 |   0.79 |        |         |
-|       75 | Tiffany Turner    | Orlando FL             |    10 |   0.53 |        |         |
-|       76 | Emily Summers     | Valencia PA            |     0 |      0 |        |         |
-| **76\*** | Tiffani Crippin   | Slidell LA             |     0 |      0 |        |         |
-| **76\*** | Kaela Norman      | Elkton MD              |     0 |      0 |        |         |
-| **76\*** | Nathan Pietz      | Ozark MO "Peace"       |     0 |      0 |        |         |
-|       80 | Colin Knoth       | Ozark MO "Peace"       |    -5 |  -0.26 |        |         |
-|       81 | Ben Muller        | Naperville IL          |   -10 |  -0.53 |        |         |
-| **81\*** | Shola Babatunde   | Houston TX Braeswood   |   -10 |  -0.53 |        |         |
+|     Rank | Quizzer           | Church                 | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ----------------- | ---------------------- | ----: | -----: | -----: | ----: |
+|        1 | Jon Galliers      | Lexington KY           |  2520 | 132.63 |     19 |       |
+|        2 | Brandon Duffy     | Bothell WA "Beyond"    |  1935 | 101.84 |     15 |     1 |
+|        3 | Jared Paige       | Houston TX Braeswood   |  1835 |  96.58 |     14 |     3 |
+|        4 | Zach Schaalma     | Kimberly WI            |  1625 |  85.53 |     11 |     1 |
+|        5 | LaJoie Ward       | Binghamton NY          |  1560 |  82.11 |     12 |     4 |
+|        6 | Molly Pace        | Colorado Sprs. "Speed" |  1395 |  73.42 |     10 |     2 |
+|        7 | Jonathan Barthuly | Santa Ana CA           |  1380 |  72.63 |     13 |     5 |
+|        8 | Ruth Kinyua       | South Bend IN          |  1365 |  71.84 |      7 |     2 |
+|        9 | JP O'Connor       | Tacoma WA              |  1255 |  66.05 |      8 |     2 |
+|       10 | Michael Smoak     | Bothell WA "Eternal"   |  1210 |  63.68 |     10 |     7 |
+|       11 | Courtney Popineau | Colorado Sprs. "Speed" |  1190 |  62.63 |     10 |     1 |
+|       12 | Timothy Stride    | Naperville IL          |  1140 |     60 |      7 |     4 |
+|       13 | Brittany Porter   | Ozark MO "Joy"         |  1090 |  57.37 |      6 |     3 |
+|       14 | Hillari Wyatt     | Slidell LA             |  1030 |  54.21 |      9 |     4 |
+|       15 | Brandon Porter    | Ozark MO "Peace"       |  1025 |  53.95 |      6 |     5 |
+|       16 | Jared Burkhalter  | Orlando FL             |  1010 |  53.16 |      6 |    10 |
+|       17 | Jenna-Jo Duffy    | Bothell WA "Beyond"    |   985 |  51.84 |      3 |     1 |
+|       18 | Kristen Johnson   | Naperville IL          |   950 |     50 |      9 |     6 |
+|       19 | CJ Hock           | South Bend IN          |   920 |  48.42 |      9 |     6 |
+|       20 | Gina Fortunato    | Ozark MO "Joy"         |   910 |  47.89 |      4 |     1 |
+|       21 | Adam Forsman      | Houston TX Chr. Temple |   910 |  47.89 |      7 |     7 |
+|       22 | Josh Turner       | Portage WI             |   880 |  46.32 |      5 |    12 |
+|       23 | Hannah Franklin   | Elkton MD              |   865 |  45.53 |     10 |     1 |
+|       24 | Taiwo Masha       | Houston TX Braeswood   |   850 |  44.74 |      6 |     3 |
+|       25 | Laramie Mitchell  | Ozark MO "Joy"         |   775 |  40.79 |      9 |     1 |
+|       26 | Blake Porter      | Ozark MO "Peace"       |   760 |     40 |      5 |     1 |
+|       27 | Nathan Mori       | Bothell WA "Eternal"   |   745 |  39.21 |      6 |     6 |
+|       28 | Pherrah Gosnell   | Tacoma WA              |   725 |  38.16 |      4 |     1 |
+|       29 | Jasmine Franklin  | Elkton MD              |   725 |  38.16 |      2 |     3 |
+|       30 | Andrew Kelley     | Colorado Sprs. "Speed" |   705 |  37.11 |      2 |     1 |
+|       31 | Joshua Siddall    | Syracuse NY            |   685 |  36.05 |      6 |     1 |
+|       32 | Joshua Forsman    | Houston TX Chr. Temple |   655 |  34.47 |      2 |     3 |
+|       33 | Daniel Kober      | Kimberly WI            |   615 |  32.37 |      5 |     3 |
+|       34 | Elyssa DeFazio    | Valencia PA            |   590 |  31.05 |      2 |     4 |
+|       35 | David Knox        | Valencia PA            |   580 |  30.53 |      4 |     4 |
+|       36 | Christina Simpson | Orlando FL             |   565 |  29.74 |      2 |     2 |
+|       37 | Kourtni Wyatt     | Slidell LA             |   560 |  29.47 |      2 |     6 |
+|       38 | Matt Trumble      | Lexington KY           |   555 |  29.21 |      5 |     1 |
+|       39 | Clayton DeFazio   | Valencia PA            |   510 |  26.84 |      3 |     1 |
+|       40 | Kara Laufenburger | Lexington KY           |   505 |  26.58 |      4 |     1 |
+|       41 | Joshua Slater     | Ozark MO "Peace"       |   495 |  26.05 |      4 |     3 |
+|       42 | Corina Scarinzi   | Binghamton NY          |   470 |  24.74 |      3 |     2 |
+|       43 | Lauren Thorp      | Elkton MD              |   440 |  23.16 |      3 |     2 |
+|       44 | Naomi Turner      | Portage WI             |   415 |  21.84 |      4 |     5 |
+|       45 | Colin Kuroishi    | Santa Ana CA           |   385 |  20.26 |      1 |     1 |
+|       46 | Heather Karnes    | Bothell WA "Eternal"   |   355 |  18.68 |      1 |     1 |
+|       47 | Amy Siddall       | Syracuse NY            |   340 |  17.89 |      2 |     2 |
+|       48 | Lauryn Duffy      | Bothell WA "Beyond"    |   265 |  13.95 |      1 |     1 |
+|       49 | Jorey Melinder    | Houston TX Chr. Temple |   255 |  13.42 |      1 |     1 |
+| **49\*** | Lucas Cox         | Lexington KY           |   255 |  13.42 |      1 |     1 |
+|       51 | Alex Firari       | Portage WI             |   220 |  11.58 |      1 |     1 |
+|       52 | Brandon Rhynders  | Syracuse NY            |   215 |  11.32 |        |     1 |
+|       53 | Chris Teeny       | Tacoma WA              |   210 |  11.05 |      1 |     1 |
+|       54 | Rojan Easo        | Houston TX Braeswood   |   190 |     10 |        |     4 |
+|       55 | Katie Randolph    | South Bend IN          |   180 |   9.47 |        |       |
+|       56 | Aryka Turner      | Orlando FL             |   170 |   8.95 |        |       |
+|       57 | Jonathan Treubig  | Binghamton NY          |   135 |   7.11 |        |       |
+|       58 | David Kober       | Kimberly WI            |   125 |   6.58 |      1 |     1 |
+|       59 | Inga O'Connor     | Tacoma WA              |   115 |   6.05 |      1 |     1 |
+|       60 | Michael Rose      | Colorado Sprs. "Speed" |   115 |   6.05 |        |       |
+|       61 | Stephen Muller    | Naperville IL          |    95 |      5 |        |       |
+|       62 | Tamera Burkhalter | Orlando FL             |    95 |      5 |        |       |
+|       63 | Andrew Forsman    | Houston TX Chr. Temple |    70 |   3.68 |        |       |
+|       64 | Brianna Forsman   | Houston TX Chr. Temple |    65 |   3.42 |        |       |
+|       65 | Hilary Kunnanz    | Bothell WA "Beyond"    |    60 |   3.16 |        |       |
+| **65\*** | Beulah Oseke      | Houston TX Braeswood   |    60 |   3.16 |        |       |
+|       67 | Seth Turner       | Portage WI             |    45 |   2.37 |        |       |
+|       68 | Hannah Thorp      | Elkton MD              |    30 |   1.58 |        |       |
+| **68\*** | Joe Dean          | Ozark MO "Joy"         |    30 |   1.58 |        |       |
+|       70 | Max Houser        | Bothell WA "Eternal"   |    25 |   1.32 |        |     1 |
+|       71 | Amanda Summers    | Valencia PA            |    20 |   1.05 |        |       |
+| **71\*** | Nils Stoermer     | South Bend IN          |    20 |   1.05 |        |       |
+|       73 | Aamod Samuel      | South Bend IN          |    15 |   0.79 |        |       |
+| **73\*** | Kyle Thorp        | Elkton MD              |    15 |   0.79 |        |       |
+|       75 | Tiffany Turner    | Orlando FL             |    10 |   0.53 |        |       |
+|       76 | Emily Summers     | Valencia PA            |     0 |      0 |        |       |
+| **76\*** | Tiffani Crippin   | Slidell LA             |     0 |      0 |        |       |
+| **76\*** | Kaela Norman      | Elkton MD              |     0 |      0 |        |       |
+| **76\*** | Nathan Pietz      | Ozark MO "Peace"       |     0 |      0 |        |       |
+|       80 | Colin Knoth       | Ozark MO "Peace"       |    -5 |  -0.26 |        |       |
+|       81 | Ben Muller        | Naperville IL          |   -10 |  -0.53 |        |       |
+| **81\*** | Shola Babatunde   | Houston TX Braeswood   |   -10 |  -0.53 |        |       |
 
 ## Challenger
 
 ### Teams
 
-| Rank | Team                                                                 | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                                                 | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | -------------------------------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | First A/G, Lafayette, IN*                                            | 18 / 1 |  3255 | 171.31 |   2070 |     108.94 |
 |    2 | San Angelo First A/G, San Angelo, TX                                 | 18 / 1 |  3140 | 165.26 |   1585 |      83.42 |
@@ -171,73 +171,73 @@ The individual tournament was won by Brandon Duffy of Bothell, WA. The quoting b
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                      | Total |   Avg | QO Fwd | QO Back |
-| -------: | ------------------- | --------------------------- | ----: | ----: | -----: | ------: |
-|        1 | Bethany Laakkonen   | Duluth MN                   |  1880 | 98.95 |     15 |       2 |
-|        2 | Jesse Czubkowski    | Garfield NJ                 |  1795 | 94.47 |     13 |       4 |
-|        3 | Steven Johnson      | San Angelo TX               |  1745 | 91.84 |     12 |       3 |
-|        4 | Brandy Steel        | Toledo OH                   |  1585 | 83.42 |     16 |       3 |
-|        5 | Alan Orcutt         | Red Oak TX                  |  1570 | 82.63 |     10 |       8 |
-|        6 | Bryce Jensen        | Meridian ID                 |  1365 | 71.84 |     11 |       8 |
-|        7 | PJ Grigg            | Colorado Sprs CO "Prepared" |  1325 | 69.74 |      7 |       1 |
-|        8 | James Pryer         | Orange Hills CA             |  1295 | 68.16 |     10 |       5 |
-|        9 | Eowyn Thompson      | San Angelo TX               |  1280 | 67.37 |     14 |       3 |
-|       10 | James Lex           | Dunwoody GA                 |  1275 | 67.11 |     11 |       7 |
-|       11 | Danielle Goodrich   | Eau Claire WI               |  1175 | 61.84 |      7 |       5 |
-|       12 | Taylor Vickerman    | Lafayette IN                |  1170 | 61.58 |      7 |       1 |
-|       13 | Jaclyn Baker        | Deer Lodge MT               |  1140 |    60 |     10 |       2 |
-|       14 | Titus Stenberg      | Watford City ND             |  1130 | 59.47 |      8 |       4 |
-|       15 | Lisa Everett        | Brunswick OH                |  1060 | 55.79 |      4 |       4 |
-|       16 | Scott Walters       | Lafayette IN                |  1050 | 55.26 |     15 |       3 |
-|       17 | Emily Whitehead     | Lafayette IN                |  1050 | 55.26 |      4 |       1 |
-|       18 | Cameo Ewing         | Memphis TN                  |  1035 | 54.47 |      8 |       8 |
-|       19 | Benji Songsong      | Garfield NJ                 |  1020 | 53.68 |     12 |       2 |
-|       20 | Bailey Steel        | Toledo OH                   |   995 | 52.37 |      8 |       4 |
-|       21 | Brittany Laakkonen  | Duluth MN                   |   925 | 48.68 |      9 |       1 |
-|       22 | Braden McCready     | Tulsa OK                    |   925 | 48.68 |      8 |      10 |
-|       23 | Caitlin Pace        | Colorado Sprs CO "Agents"   |   870 | 45.79 |      6 |       2 |
-|       24 | Mary Pryer          | Orange Hills CA             |   865 | 45.53 |      9 |       2 |
-|       25 | Amanda Ferrin       | Colorado Sprs CO "Prepared" |   845 | 44.47 |     12 |       6 |
-|       26 | Karan Bhargava      | West Plains MO              |   820 | 43.16 |      6 |       6 |
-|       27 | Eric Everett        | Brunswick OH                |   815 | 42.89 |      9 |       2 |
-|       28 | Christopher Pursell | Red Oak TX                  |   785 | 41.32 |      7 |       1 |
-|       29 | Jonathan George     | West Plains MO              |   685 | 36.05 |      6 |       9 |
-|       30 | Miranda Haberberg   | Eau Claire WI               |   615 | 32.37 |      5 |       1 |
-|       31 | Shanna Taylor       | Raleigh NC                  |   550 | 28.95 |      3 |       3 |
-|       32 | Gabrielle Richmeier | Lexington NC                |   545 | 28.68 |      3 |       2 |
-|       33 | Yokabed Belay       | Dunwoody GA                 |   540 | 28.42 |      3 |       1 |
-|       34 | Alyssa Batchelder   | Tulsa OK                    |   505 | 26.58 |      4 |       1 |
-|       35 | Larissa Haberberg   | Eau Claire WI               |   485 | 25.53 |      1 |       1 |
-|       36 | Jenna Rock          | Colorado Sprs CO "Agents"   |   470 | 24.74 |      1 |       8 |
-|       37 | Jacob Dwire         | Colorado Sprs CO "Prepared" |   465 | 24.47 |      1 |       1 |
-|       38 | Nick Mulder         | Watford City ND             |   440 | 23.16 |      2 |       1 |
-|       39 | Ashley Carter       | Meridian ID                 |   380 |    20 |      1 |       1 |
-|       40 | Joelle Baker        | Deer Lodge MT               |   290 | 15.26 |      1 |       2 |
-|       41 | Weston Melby        | Watford City ND             |   280 | 14.74 |      1 |       1 |
-|       42 | Ivy Jensen          | Meridian ID                 |   270 | 14.21 |        |         |
-|       43 | Jerry Ewing         | Memphis TN                  |   255 | 13.42 |        |       4 |
-|       44 | Andrew LaValley     | Colorado Sprs CO "Agents"   |   245 | 12.89 |      1 |       1 |
-|       45 | Jeremiah George     | West Plains MO              |   240 | 12.63 |        |         |
-|       46 | Stephen Davis       | Colorado Sprs CO "Agents"   |   205 | 10.79 |        |         |
-|       47 | Brittany Richmeier  | Lexington NC                |   145 |  7.63 |        |         |
-|       48 | Kansas Calhoun      | San Angelo TX               |   140 |  7.37 |        |         |
-|       49 | Rachel Dockery      | Raleigh NC                  |   135 |  7.11 |        |       1 |
-|       50 | Mariah Shaw         | Tulsa OK                    |   100 |  5.26 |      1 |       1 |
-|       51 | Jordan Baker        | Deer Lodge MT               |   100 |  5.26 |        |         |
-|       52 | Alex Cheski         | Garfield NJ                 |    75 |  3.95 |        |         |
-|       53 | AJ Morales          | Garfield NJ                 |    75 |  3.95 |        |         |
-|       54 | Gina Corrigan       | Raleigh NC                  |    70 |  3.68 |        |         |
-|       55 | Nicole Maxwell      | Meridian ID                 |    70 |  3.68 |        |         |
-| **55\*** | Breanna Laakkonen   | Duluth MN                   |    70 |  3.68 |        |         |
-|       57 | Abi Duntley         | Tulsa OK                    |    65 |  3.42 |        |       1 |
-|       58 | Leah Dwire          | Colorado Sprs CO "Prepared" |    50 |  2.63 |        |         |
-|       59 | Joshua Garner       | Red Oak TX                  |    45 |  2.37 |        |       1 |
-|       60 | Isabella Lex        | Dunwoody GA                 |    40 |  2.11 |        |         |
-|       61 | Kameron Kissinger   | Red Oak TX                  |    25 |  1.32 |        |         |
-|       62 | Dustin Leverett     | Meridian ID                 |    10 |  0.53 |        |         |
-|       63 | Rebecca Haavik      | Duluth MN                   |     0 |     0 |        |         |
-|       64 | Thomas Pryer        | Orange Hills CA             |     0 |     0 |        |       2 |
-|       65 | Jessica Lynch       | Orange Hills CA             |    -5 | -0.26 |        |         |
+|     Rank | Quizzer             | Church                      | Total |   Avg | QO Fwd | QO Bk |
+| -------: | ------------------- | --------------------------- | ----: | ----: | -----: | ----: |
+|        1 | Bethany Laakkonen   | Duluth MN                   |  1880 | 98.95 |     15 |     2 |
+|        2 | Jesse Czubkowski    | Garfield NJ                 |  1795 | 94.47 |     13 |     4 |
+|        3 | Steven Johnson      | San Angelo TX               |  1745 | 91.84 |     12 |     3 |
+|        4 | Brandy Steel        | Toledo OH                   |  1585 | 83.42 |     16 |     3 |
+|        5 | Alan Orcutt         | Red Oak TX                  |  1570 | 82.63 |     10 |     8 |
+|        6 | Bryce Jensen        | Meridian ID                 |  1365 | 71.84 |     11 |     8 |
+|        7 | PJ Grigg            | Colorado Sprs CO "Prepared" |  1325 | 69.74 |      7 |     1 |
+|        8 | James Pryer         | Orange Hills CA             |  1295 | 68.16 |     10 |     5 |
+|        9 | Eowyn Thompson      | San Angelo TX               |  1280 | 67.37 |     14 |     3 |
+|       10 | James Lex           | Dunwoody GA                 |  1275 | 67.11 |     11 |     7 |
+|       11 | Danielle Goodrich   | Eau Claire WI               |  1175 | 61.84 |      7 |     5 |
+|       12 | Taylor Vickerman    | Lafayette IN                |  1170 | 61.58 |      7 |     1 |
+|       13 | Jaclyn Baker        | Deer Lodge MT               |  1140 |    60 |     10 |     2 |
+|       14 | Titus Stenberg      | Watford City ND             |  1130 | 59.47 |      8 |     4 |
+|       15 | Lisa Everett        | Brunswick OH                |  1060 | 55.79 |      4 |     4 |
+|       16 | Scott Walters       | Lafayette IN                |  1050 | 55.26 |     15 |     3 |
+|       17 | Emily Whitehead     | Lafayette IN                |  1050 | 55.26 |      4 |     1 |
+|       18 | Cameo Ewing         | Memphis TN                  |  1035 | 54.47 |      8 |     8 |
+|       19 | Benji Songsong      | Garfield NJ                 |  1020 | 53.68 |     12 |     2 |
+|       20 | Bailey Steel        | Toledo OH                   |   995 | 52.37 |      8 |     4 |
+|       21 | Brittany Laakkonen  | Duluth MN                   |   925 | 48.68 |      9 |     1 |
+|       22 | Braden McCready     | Tulsa OK                    |   925 | 48.68 |      8 |    10 |
+|       23 | Caitlin Pace        | Colorado Sprs CO "Agents"   |   870 | 45.79 |      6 |     2 |
+|       24 | Mary Pryer          | Orange Hills CA             |   865 | 45.53 |      9 |     2 |
+|       25 | Amanda Ferrin       | Colorado Sprs CO "Prepared" |   845 | 44.47 |     12 |     6 |
+|       26 | Karan Bhargava      | West Plains MO              |   820 | 43.16 |      6 |     6 |
+|       27 | Eric Everett        | Brunswick OH                |   815 | 42.89 |      9 |     2 |
+|       28 | Christopher Pursell | Red Oak TX                  |   785 | 41.32 |      7 |     1 |
+|       29 | Jonathan George     | West Plains MO              |   685 | 36.05 |      6 |     9 |
+|       30 | Miranda Haberberg   | Eau Claire WI               |   615 | 32.37 |      5 |     1 |
+|       31 | Shanna Taylor       | Raleigh NC                  |   550 | 28.95 |      3 |     3 |
+|       32 | Gabrielle Richmeier | Lexington NC                |   545 | 28.68 |      3 |     2 |
+|       33 | Yokabed Belay       | Dunwoody GA                 |   540 | 28.42 |      3 |     1 |
+|       34 | Alyssa Batchelder   | Tulsa OK                    |   505 | 26.58 |      4 |     1 |
+|       35 | Larissa Haberberg   | Eau Claire WI               |   485 | 25.53 |      1 |     1 |
+|       36 | Jenna Rock          | Colorado Sprs CO "Agents"   |   470 | 24.74 |      1 |     8 |
+|       37 | Jacob Dwire         | Colorado Sprs CO "Prepared" |   465 | 24.47 |      1 |     1 |
+|       38 | Nick Mulder         | Watford City ND             |   440 | 23.16 |      2 |     1 |
+|       39 | Ashley Carter       | Meridian ID                 |   380 |    20 |      1 |     1 |
+|       40 | Joelle Baker        | Deer Lodge MT               |   290 | 15.26 |      1 |     2 |
+|       41 | Weston Melby        | Watford City ND             |   280 | 14.74 |      1 |     1 |
+|       42 | Ivy Jensen          | Meridian ID                 |   270 | 14.21 |        |       |
+|       43 | Jerry Ewing         | Memphis TN                  |   255 | 13.42 |        |     4 |
+|       44 | Andrew LaValley     | Colorado Sprs CO "Agents"   |   245 | 12.89 |      1 |     1 |
+|       45 | Jeremiah George     | West Plains MO              |   240 | 12.63 |        |       |
+|       46 | Stephen Davis       | Colorado Sprs CO "Agents"   |   205 | 10.79 |        |       |
+|       47 | Brittany Richmeier  | Lexington NC                |   145 |  7.63 |        |       |
+|       48 | Kansas Calhoun      | San Angelo TX               |   140 |  7.37 |        |       |
+|       49 | Rachel Dockery      | Raleigh NC                  |   135 |  7.11 |        |     1 |
+|       50 | Mariah Shaw         | Tulsa OK                    |   100 |  5.26 |      1 |     1 |
+|       51 | Jordan Baker        | Deer Lodge MT               |   100 |  5.26 |        |       |
+|       52 | Alex Cheski         | Garfield NJ                 |    75 |  3.95 |        |       |
+|       53 | AJ Morales          | Garfield NJ                 |    75 |  3.95 |        |       |
+|       54 | Gina Corrigan       | Raleigh NC                  |    70 |  3.68 |        |       |
+|       55 | Nicole Maxwell      | Meridian ID                 |    70 |  3.68 |        |       |
+| **55\*** | Breanna Laakkonen   | Duluth MN                   |    70 |  3.68 |        |       |
+|       57 | Abi Duntley         | Tulsa OK                    |    65 |  3.42 |        |     1 |
+|       58 | Leah Dwire          | Colorado Sprs CO "Prepared" |    50 |  2.63 |        |       |
+|       59 | Joshua Garner       | Red Oak TX                  |    45 |  2.37 |        |     1 |
+|       60 | Isabella Lex        | Dunwoody GA                 |    40 |  2.11 |        |       |
+|       61 | Kameron Kissinger   | Red Oak TX                  |    25 |  1.32 |        |       |
+|       62 | Dustin Leverett     | Meridian ID                 |    10 |  0.53 |        |       |
+|       63 | Rebecca Haavik      | Duluth MN                   |     0 |     0 |        |       |
+|       64 | Thomas Pryer        | Orange Hills CA             |     0 |     0 |        |     2 |
+|       65 | Jessica Lynch       | Orange Hills CA             |    -5 | -0.26 |        |       |
 
 ## Teams
 

@@ -62,17 +62,17 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer         | Team                      | ^rTotal | ^rAvg |
-| ---: | --------------- | ------------------------- | ------- | ----- |
-|    1 | Maddy Halverson | FAL-Never Fail            | 230     | 38    |
-|    2 | Tiffani Shaw    | FAL-Never Fail            | 225     | 38    |
-|    3 | Liana Papini    | NLC-Robbed Other Churches | 70      | 12    |
-|    4 | Phillip Jacobs  | NLC-Robbed Other Churches | 35      | 6     |
-|    5 | Reese Benincasa | FAL-Indescribable         | 10      | 2     |
-|    6 | Elizabeth Ott   | NLC-Robbed Other Churches | -       | -     |
-|    7 | Ana Bury        | NLC-Robbed Other Churches | -       | -     |
-|    8 | John Uchytil    | FAL-Indescribable         | -10     | -2    |
-|    9 | Koleman Spitler | FAL-Indescribable         | -65     | -11   |
+|    # | Quizzer         | Team                      | Total |  Avg |
+| ---: | --------------- | ------------------------- | ----: | ---: |
+|    1 | Maddy Halverson | FAL-Never Fail            |   230 |   38 |
+|    2 | Tiffani Shaw    | FAL-Never Fail            |   225 |   38 |
+|    3 | Liana Papini    | NLC-Robbed Other Churches |    70 |   12 |
+|    4 | Phillip Jacobs  | NLC-Robbed Other Churches |    35 |    6 |
+|    5 | Reese Benincasa | FAL-Indescribable         |    10 |    2 |
+|    6 | Elizabeth Ott   | NLC-Robbed Other Churches |     - |    - |
+|    7 | Ana Bury        | NLC-Robbed Other Churches |     - |    - |
+|    8 | John Uchytil    | FAL-Indescribable         |   -10 |   -2 |
+|    9 | Koleman Spitler | FAL-Indescribable         |   -65 |  -11 |
 
 ## Junior Varsity Division
 
@@ -86,15 +86,15 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer                      | Team                | Total |  Avg |
-| ---: | ---------------------------- | ------------------- | ----: | ---: |
-|    1 | Isaac Moore                  | CP-Tomorrow We Die  |   425 |   71 |
-|    2 | Verna Spicer                 | TLC-In Deadly Peril |   305 |   51 |
-|    3 | Adam Smalley                 | Redmon Assembly     |   265 |   44 |
-|    4 | Andre Nicolov                | CP-Tomorrow We Die  |   115 |   19 |
-|    5 | Joshua Smalley               | Redmon Assembly     |    90 |   15 |
-|    6 | Maddie Williamso             | TLC-In Deadly Peril |    85 |   14 |
-|    7 | Gabby Umphenou               | TLC-In Deadly Peril |    35 |    6 |
-|    8 | Caleb Kelley Redmon Assembly |                     |    25 |    4 |
-|    9 | Cole Wagner                  | TLC-In Deadly Peril |     - |    - |
-|   10 | Aaron Graff Redmon Assembly  |                     |    -5 |   -1 |
+|    # | Quizzer          | Team                | Total |  Avg |
+| ---: | ---------------- | ------------------- | ----: | ---: |
+|    1 | Isaac Moore      | CP-Tomorrow We Die  |   425 |   71 |
+|    2 | Verna Spicer     | TLC-In Deadly Peril |   305 |   51 |
+|    3 | Adam Smalley     | Redmon Assembly     |   265 |   44 |
+|    4 | Andre Nicolov    | CP-Tomorrow We Die  |   115 |   19 |
+|    5 | Joshua Smalley   | Redmon Assembly     |    90 |   15 |
+|    6 | Maddie Williamso | TLC-In Deadly Peril |    85 |   14 |
+|    7 | Gabby Umphenou   | TLC-In Deadly Peril |    35 |    6 |
+|    8 | Caleb Kelley     | Redmond Assembly    |    25 |    4 |
+|    9 | Cole Wagner      | TLC-In Deadly Peril |     - |    - |
+|   10 | Aaron Graff      | Redmond Assembly    |    -5 |   -1 |

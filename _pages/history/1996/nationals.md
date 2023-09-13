@@ -31,7 +31,7 @@ Central A/G (1), Springfield, MO, another perennial National finalist, won third
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                                    | Record  | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                    | Record  | Total |    Avg | Margin | Avg Margin |
 | ---: | --------------------------------------- | ------- | ----: | -----: | -----: | ---------: |
 |    1 | Grace A/G, Syracuse, NY                 | 20 / 2  |  3770 | 171.36 |   2065 |      93.86 |
 |    2 | Evangel Heights A/G, Sarver, PA         | 19 / 3  |  3325 | 151.14 |   1280 |      58.18 |
@@ -63,108 +63,108 @@ Central A/G (1), Springfield, MO, another perennial National finalist, won third
 
 The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Beulah, MI. Dan's per quiz average was 115.45. This was one of the highest scores in over a decade, but would be broken by over 35 points in 1999.
 
-|     Rank | Quizzer             | Church                                  | Quizzer O           | Total |    Avg | QO Fwd | QO Back |
-| -------: | ------------------- | --------------------------------------- | ------------------- | ----: | -----: | -----: | ------: |
-|        1 | Daniel Slater       | Cornerstone A/G, Beulah, MI             | Daniel Slater       |  2540 | 115.45 |     12 |       1 |
-|        2 | Jolene Papendick    | Calvary Church, Naperville, IL          | Jolene Papendick    |  2175 |  98.86 |     11 |       6 |
-|        3 | Joy Daigle          | Grace A/G, Syracuse, NY                 | Joy Daigle          |  2120 |  96.36 |     11 |       4 |
-|        4 | Karl Dawson         | Central A/G (1), Springfield, MO        | Karl Dawson         |  1965 |  89.32 |     18 |       4 |
-|        5 | Jeremy Horn         | First A/G, Shreveport, LA               | Jeremy Horn         |  1920 |  87.27 |     11 |       1 |
-|        6 | Mike Claessens      | Evangel Heights A/G, Sarver, PA         | Mike Claessens      |  1770 |  80.45 |      5 |       4 |
-|        7 | Nathan Novak        | Life Center A/G, Tacoma, WA             | Nathan Novak        |  1705 |   77.5 |     10 |       2 |
-|        8 | Todd Katter         | Central A/G (1), Springfield, MO        | Todd Katter         |  1685 |  76.59 |      9 |       3 |
-|        9 | Seth Sundell        | Calvary A/G, Dunwoody, GA               | Seth Sundell        |  1650 |     75 |      5 |       5 |
-|       10 | Aaron Smith         | First A/G, Shreveport, LA               | Aaron Smith         |  1455 |  66.14 |      9 |       4 |
-|       11 | Joshua Stewart      | First A/G, Fort Myers, FL               | Joshua Stewart      |  1425 |  64.77 |      7 |       3 |
-|       12 | Jennifer Shim       | Allison Park A/G, Allison Park, PA      | Jennifer Shim       |  1405 |  63.86 |      4 |       2 |
-|       13 | Steven Patient      | Calvary Temple, Auburn, WA              | Steven Patient      |  1385 |  62.95 |     10 |       9 |
-| **13\*** | Alisha Smith        | Calvary Church, Naperville, IL          |                     |  1385 |  62.95 |     11 |       2 |
-| **13\*** | Megan Stephens      | Crossroads Cathedral, Oklahoma City, OK |                     |  1385 |  62.95 |      3 |       4 |
-|       16 | Jim Fenton          | Allison Park A/G, Allison Park, PA      | Jim Fenton          |  1320 |     60 |      7 |       1 |
-|       17 | Joey Bohanon        | Central A/G (2), Springfield, MO        | Joey Bohanon        |  1275 |  57.95 |      7 |       8 |
-|       18 | David Rees          | First A/G, Lexington, KY                | David Rees          |  1245 |  56.59 |      4 |       5 |
-|       19 | Kacey Wade          | First A/G, Lexington, KY                | Kacey Wade          |  1215 |  55.23 |      4 |       1 |
-|       20 | Jordan Schneider    | Radiant Church, Colorado Springs, CO    | Jordan Schneider    |  1210 |     55 |      4 |       5 |
-| **20\*** | Steven Starr        | College Heights A/G, Bryan, TX          |                     |  1210 |     55 |      4 |       9 |
-|       22 | Shannon Forare      | New Life A/G, Cokato, MN                | Shannon Forare      |  1195 |  54.32 |      7 |       6 |
-|       23 | Sarah Shewey        | Orange Christian Assembly, Orange, CA   | Sarah Shewey        |  1170 |  53.18 |      3 |       1 |
-| **23\*** | April Slater        | Cornerstone A/G, Beulah, MI             |                     |  1170 |  53.18 |      7 |       1 |
-|       25 | Krisha Beyer        | First A/G, Oskaloosa, IA                | Krisha Beyer        |  1125 |  51.14 |      5 |       7 |
-|       26 | Aaron Collins       | College Heights A/G, Bryan, TX          | Aaron Collins       |  1060 |  48.18 |      6 |       5 |
-|       27 | Zach Talbott        | First A/G, Fort Myers, FL               | Zach Talbott        |  1035 |  47.05 |      2 |       2 |
-|       28 | Andrea Blow         | Capitol Hill A/G, Oklahoma City, OK     | Andrea Blow         |  1015 |  46.14 |      3 |       3 |
-|       29 | Michelle McLaughlin | Grace A/G, Syracuse, NY                 | Michelle McLaughlin |   940 |  42.73 |      4 |       1 |
-|       30 | Krisha Kowalsky     | Evangel Heights A/G, Sarver, PA         | Krisha Kowalsky     |   915 |  41.59 |      1 |       1 |
-|       31 | Angie Pentz         | New Life Community Church, Oshkosh, WI  | Angie Pentz         |   910 |  41.36 |      5 |       6 |
-| **31\*** | Jonathan Shumate    | First A/G, Greely, CO                   |                     |   910 |  41.36 |      3 |      10 |
-|       33 | Emily Berger        | Calvary Temple, Auburn, WA              | Emily Berger        |   835 |  37.95 |      2 |       1 |
-| **33\*** | Kerry Forare        | New Life A/G, Cokato, MN                |                     |   835 |  37.95 |      5 |       9 |
-|       35 | B.J. Barrick        | Crossroads Cathedral, Oklahoma City, OK | B.J. Barrick        |   810 |  36.82 |      1 |       3 |
-|       36 | (name removed)      | Radiant Church, Colorado Springs, CO    | (name removed)      |   735 |  33.41 |      4 |       5 |
-|       37 | Malisa Berkey       | Faith A/G, Orlando, FL                  | Malisa Berkey       |   730 |  33.18 |      1 |       1 |
-|       38 | Scott Berkey        | Faith A/G, Orlando, FL                  | Scott Berkey        |   650 |  29.55 |      1 |       3 |
-|       39 | Kelsey Kirin        | Evangel Heights A/G, Sarver, PA         | Kelsey Kirin        |   605 |   27.5 |      2 |       2 |
-| **39\*** | Jason Martin        | Allison Park A/G, Allison Park, PA      |                     |   605 |   27.5 |      2 |       1 |
-| **39\*** | Nicole Martin       | Grace A/G, Syracuse, NY                 |                     |   605 |   27.5 |      1 |       1 |
-|       42 | Nathan Gorton       | Life Center A/G, Tacoma, WA             | Nathan Gorton       |   565 |  25.68 |      2 |       4 |
-|       43 | Joshua Hawks        | Faith A/G, Orlando, FL                  | Joshua Hawks        |   515 |  23.41 |        |         |
-|       44 | Nathan Goldsworth   | First A/G, Greely, CO                   | Nathan Goldsworth   |   485 |  22.05 |        |       1 |
-|       45 | Ralph French        | College Heights A/G, Bryan, TX          | Ralph French        |   465 |  21.14 |      2 |       4 |
-|       46 | Josh Sears          | Capitol Hill A/G, Oklahoma City, OK     | Josh Sears          |   460 |  20.91 |        |       3 |
-|       47 | Jon Higgins         | First A/G, Oskaloosa, IA                | Jon Higgins         |   410 |  18.64 |      1 |       5 |
-|       48 | Jessica Talbott     | First A/G, Fort Myers, FL               | Jessica Talbott     |   385 |   17.5 |      1 |       2 |
-|       49 | Becka Shults        | Capitol Hill A/G, Oklahoma City, OK     | Becka Shults        |   370 |  16.82 |        |       2 |
-|       50 | Chad Cates          | Crossroads Cathedral, Oklahoma City, OK | Chad Cates          |   360 |  16.36 |        |         |
-|       51 | Joshua Goldsworth   | First A/G, Greely, CO                   | Joshua Goldsworth   |   330 |     15 |        |         |
-|       52 | Molly Jacobsen      | New Life A/G, Cokato, MN                | Molly Jacobsen      |   280 |  12.73 |        |         |
-|       53 | Rebekah Schaalma    | New Life Community Church, Oshkosh, WI  | Rebekah Schaalma    |   265 |  12.05 |        |         |
-|       54 | Mandie Lynch        | New Life Community Church, Oshkosh, WI  | Mandie Lynch        |   235 |  10.68 |        |       1 |
-|       55 | Kayla Dee Rowe      | Central A/G (1), Springfield, MO        | Kayla Dee Rowe      |   220 |     10 |        |         |
-|       56 | Stephen Shewey      | Orange Christian Assembly, Orange, CA   | Stephen Shewey      |   215 |   9.77 |        |         |
-|       57 | Katie Boldt         | New Life Community Church, Oshkosh, WI  | Katie Boldt         |   185 |   8.41 |      1 |       2 |
-|       58 | Shelby Alfred       | First A/G, Shreveport, LA               | Shelby Alfred       |   165 |    7.5 |        |       1 |
-|       59 | Scott Bland         | Faith A/G, Orlando, FL                  | Scott Bland         |   130 |   5.91 |        |       1 |
-|       60 | Emily Stallman      | Central A/G (2), Springfield, MO        | Emily Stallman      |   120 |   5.45 |        |       4 |
-|       61 | Tika Daigle         | Grace A/G, Syracuse, NY                 | Tika Daigle         |   115 |   5.23 |        |         |
-|       62 | Gail Gandy          | Calvary Church, Naperville, IL          | Gail Gandy          |   110 |      5 |        |         |
-|       63 | Becky Rees          | First A/G, Lexington, KY                | Becky Rees          |   105 |   4.77 |        |       1 |
-|       64 | Bethany Ellis       | Calvary A/G, Dunwoody, GA               | Bethany Ellis       |    80 |   3.64 |        |         |
-|       65 | Amie Haughland      | Calvary Temple, Auburn, WA              | Amie Haughland      |    75 |   3.41 |        |         |
-|       66 | Betsy Regenfuss     | Calvary Church, Naperville, IL          | Betsy Regenfuss     |    65 |   2.95 |        |         |
-| **66\*** | Sheldon Sundell     | Calvary A/G, Dunwoody, GA               |                     |    65 |   2.95 |        |       4 |
-|       68 | Kjirstin Haughland  | Calvary Temple, Auburn, WA              | Kjirstin Haughland  |    55 |    2.5 |        |         |
-| **68\*** | Megan Roberts       | Radiant Church, Colorado Springs, CO    |                     |    55 |    2.5 |        |         |
-|       70 | Tim Barberg         | New Life A/G, Cokato, MN                | Tim Barberg         |    50 |   2.27 |        |         |
-| **70\*** | Kelli Blow          | Capitol Hill A/G, Oklahoma City, OK     |                     |    50 |   2.27 |        |         |
-|       72 | Kristen Kirk        | Calvary A/G, Dunwoody, GA               | Kristen Kirk        |    40 |   1.81 |        |         |
-| **72\*** | Nathan Watkins      | Evangel Heights A/G, Sarver, PA         |                     |    40 |   1.81 |        |         |
-|       74 | Missy Senf          | Calvary Church, Naperville, IL          | Missy Senf          |    35 |   1.59 |        |         |
-|       75 | Stephen Massey      | First A/G, Greely, CO                   | Stephen Massey      |    30 |   1.36 |        |         |
-|       76 | Eric Best           | Central A/G (2), Springfield, MO        | Eric Best           |    25 |   1.14 |        |       4 |
-|       77 | Alesha Guruswamy    | Crossroads Cathedral, Oklahoma City, OK | Alesha Guruswamy    |    20 |   0.91 |        |         |
-|       78 | Philip Dickey       | Central A/G (2), Springfield, MO        | Philip Dickey       |    10 |   0.45 |        |         |
-| **78\*** | Kris Olsen          | Calvary Temple, Auburn, WA              |                     |    10 |   0.45 |        |         |
-| **78\*** | Katy Selden         | Calvary Temple, Auburn, WA              |                     |    10 |   0.45 |        |         |
-| **78\*** | Amy Worrell         | First A/G, Greely, CO                   |                     |    10 |   0.45 |        |         |
-|       82 | Jennifer Talbott    | First A/G, Fort Myers, FL               | Jennifer Talbott    |     5 |   0.23 |        |         |
-|       83 | Rebekah Anderson    | Calvary Church, Naperville, IL          | Rebekah Anderson    |     0 |      0 |        |         |
-| **83\*** | Krista Buckel       | First A/G, Lexington, KY                |                     |     0 |      0 |        |         |
-| **83\*** | John Danula         | New Life Community Church, Oshkosh, WI  |                     |     0 |      0 |        |         |
-| **83\*** | Candace Evans       | Cornerstone A/G, Beulah, MI             |                     |     0 |      0 |        |         |
-| **83\*** | Melanie Fedon       | Evangel Heights A/G, Sarver, PA         |                     |     0 |      0 |        |         |
-| **83\*** | Rachelle Henderson  | Life Center A/G, Tacoma, WA             |                     |     0 |      0 |        |         |
-| **83\*** | Jack Herbert        | Life Center A/G, Tacoma, WA             |                     |     0 |      0 |        |         |
-| **83\*** | Laura Jones         | Radiant Church, Colorado Springs, CO    |                     |     0 |      0 |        |         |
-| **83\*** | Courtney Leopard    | College Heights A/G, Bryan, TX          |                     |     0 |      0 |        |         |
-| **83\*** | Michael Minardi     | Faith A/G, Orlando, FL                  |                     |     0 |      0 |        |         |
-| **83\*** | Tammy Nelson        | Life Center A/G, Tacoma, WA             |                     |     0 |      0 |        |         |
-| **83\*** | Kevin Quinones      | Faith A/G, Orlando, FL                  |                     |     0 |      0 |        |         |
-| **83\*** | Brad Shimomura      | Life Center A/G, Tacoma, WA             |                     |     0 |      0 |        |         |
-| **83\*** | Mike Straub         | Allison Park A/G, Allison Park, PA      |                     |     0 |      0 |        |         |
-| **83\*** | Robby Thompson      | First A/G, Shreveport, LA               |                     |     0 |      0 |        |         |
-|       98 | David Pentz         | New Life Community Church, Oshkosh, WI  | David Pentz         |    -5 |  -0.23 |        |         |
-|       99 | Crystal Streuber    | Calvary A/G, Dunwoody, GA               | Crystal Streuber    |   -10 |  -0.45 |        |         |
-|      100 | Amber Harrison      | College Heights A/G, Bryan, TX          | Amber Harrison      |   -15 |  -0.68 |        |         |
+|     Rank | Quizzer             | Church                                  | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ------------------- | --------------------------------------- | ----: | -----: | -----: | ----: |
+|        1 | Daniel Slater       | Cornerstone A/G, Beulah, MI             |  2540 | 115.45 |     12 |     1 |
+|        2 | Jolene Papendick    | Calvary Church, Naperville, IL          |  2175 |  98.86 |     11 |     6 |
+|        3 | Joy Daigle          | Grace A/G, Syracuse, NY                 |  2120 |  96.36 |     11 |     4 |
+|        4 | Karl Dawson         | Central A/G (1), Springfield, MO        |  1965 |  89.32 |     18 |     4 |
+|        5 | Jeremy Horn         | First A/G, Shreveport, LA               |  1920 |  87.27 |     11 |     1 |
+|        6 | Mike Claessens      | Evangel Heights A/G, Sarver, PA         |  1770 |  80.45 |      5 |     4 |
+|        7 | Nathan Novak        | Life Center A/G, Tacoma, WA             |  1705 |   77.5 |     10 |     2 |
+|        8 | Todd Katter         | Central A/G (1), Springfield, MO        |  1685 |  76.59 |      9 |     3 |
+|        9 | Seth Sundell        | Calvary A/G, Dunwoody, GA               |  1650 |     75 |      5 |     5 |
+|       10 | Aaron Smith         | First A/G, Shreveport, LA               |  1455 |  66.14 |      9 |     4 |
+|       11 | Joshua Stewart      | First A/G, Fort Myers, FL               |  1425 |  64.77 |      7 |     3 |
+|       12 | Jennifer Shim       | Allison Park A/G, Allison Park, PA      |  1405 |  63.86 |      4 |     2 |
+|       13 | Steven Patient      | Calvary Temple, Auburn, WA              |  1385 |  62.95 |     10 |     9 |
+| **13\*** | Alisha Smith        | Calvary Church, Naperville, IL          |  1385 |  62.95 |     11 |     2 |
+| **13\*** | Megan Stephens      | Crossroads Cathedral, Oklahoma City, OK |  1385 |  62.95 |      3 |     4 |
+|       16 | Jim Fenton          | Allison Park A/G, Allison Park, PA      |  1320 |     60 |      7 |     1 |
+|       17 | Joey Bohanon        | Central A/G (2), Springfield, MO        |  1275 |  57.95 |      7 |     8 |
+|       18 | David Rees          | First A/G, Lexington, KY                |  1245 |  56.59 |      4 |     5 |
+|       19 | Kacey Wade          | First A/G, Lexington, KY                |  1215 |  55.23 |      4 |     1 |
+|       20 | Jordan Schneider    | Radiant Church, Colorado Springs, CO    |  1210 |     55 |      4 |     5 |
+| **20\*** | Steven Starr        | College Heights A/G, Bryan, TX          |  1210 |     55 |      4 |     9 |
+|       22 | Shannon Forare      | New Life A/G, Cokato, MN                |  1195 |  54.32 |      7 |     6 |
+|       23 | Sarah Shewey        | Orange Christian Assembly, Orange, CA   |  1170 |  53.18 |      3 |     1 |
+| **23\*** | April Slater        | Cornerstone A/G, Beulah, MI             |  1170 |  53.18 |      7 |     1 |
+|       25 | Krisha Beyer        | First A/G, Oskaloosa, IA                |  1125 |  51.14 |      5 |     7 |
+|       26 | Aaron Collins       | College Heights A/G, Bryan, TX          |  1060 |  48.18 |      6 |     5 |
+|       27 | Zach Talbott        | First A/G, Fort Myers, FL               |  1035 |  47.05 |      2 |     2 |
+|       28 | Andrea Blow         | Capitol Hill A/G, Oklahoma City, OK     |  1015 |  46.14 |      3 |     3 |
+|       29 | Michelle McLaughlin | Grace A/G, Syracuse, NY                 |   940 |  42.73 |      4 |     1 |
+|       30 | Krisha Kowalsky     | Evangel Heights A/G, Sarver, PA         |   915 |  41.59 |      1 |     1 |
+|       31 | Angie Pentz         | New Life Community Church, Oshkosh, WI  |   910 |  41.36 |      5 |     6 |
+| **31\*** | Jonathan Shumate    | First A/G, Greely, CO                   |   910 |  41.36 |      3 |    10 |
+|       33 | Emily Berger        | Calvary Temple, Auburn, WA              |   835 |  37.95 |      2 |     1 |
+| **33\*** | Kerry Forare        | New Life A/G, Cokato, MN                |   835 |  37.95 |      5 |     9 |
+|       35 | B.J. Barrick        | Crossroads Cathedral, Oklahoma City, OK |   810 |  36.82 |      1 |     3 |
+|       36 | (name removed)      | Radiant Church, Colorado Springs, CO    |   735 |  33.41 |      4 |     5 |
+|       37 | Malisa Berkey       | Faith A/G, Orlando, FL                  |   730 |  33.18 |      1 |     1 |
+|       38 | Scott Berkey        | Faith A/G, Orlando, FL                  |   650 |  29.55 |      1 |     3 |
+|       39 | Kelsey Kirin        | Evangel Heights A/G, Sarver, PA         |   605 |   27.5 |      2 |     2 |
+| **39\*** | Jason Martin        | Allison Park A/G, Allison Park, PA      |   605 |   27.5 |      2 |     1 |
+| **39\*** | Nicole Martin       | Grace A/G, Syracuse, NY                 |   605 |   27.5 |      1 |     1 |
+|       42 | Nathan Gorton       | Life Center A/G, Tacoma, WA             |   565 |  25.68 |      2 |     4 |
+|       43 | Joshua Hawks        | Faith A/G, Orlando, FL                  |   515 |  23.41 |        |       |
+|       44 | Nathan Goldsworth   | First A/G, Greely, CO                   |   485 |  22.05 |        |     1 |
+|       45 | Ralph French        | College Heights A/G, Bryan, TX          |   465 |  21.14 |      2 |     4 |
+|       46 | Josh Sears          | Capitol Hill A/G, Oklahoma City, OK     |   460 |  20.91 |        |     3 |
+|       47 | Jon Higgins         | First A/G, Oskaloosa, IA                |   410 |  18.64 |      1 |     5 |
+|       48 | Jessica Talbott     | First A/G, Fort Myers, FL               |   385 |   17.5 |      1 |     2 |
+|       49 | Becka Shults        | Capitol Hill A/G, Oklahoma City, OK     |   370 |  16.82 |        |     2 |
+|       50 | Chad Cates          | Crossroads Cathedral, Oklahoma City, OK |   360 |  16.36 |        |       |
+|       51 | Joshua Goldsworth   | First A/G, Greely, CO                   |   330 |     15 |        |       |
+|       52 | Molly Jacobsen      | New Life A/G, Cokato, MN                |   280 |  12.73 |        |       |
+|       53 | Rebekah Schaalma    | New Life Community Church, Oshkosh, WI  |   265 |  12.05 |        |       |
+|       54 | Mandie Lynch        | New Life Community Church, Oshkosh, WI  |   235 |  10.68 |        |     1 |
+|       55 | Kayla Dee Rowe      | Central A/G (1), Springfield, MO        |   220 |     10 |        |       |
+|       56 | Stephen Shewey      | Orange Christian Assembly, Orange, CA   |   215 |   9.77 |        |       |
+|       57 | Katie Boldt         | New Life Community Church, Oshkosh, WI  |   185 |   8.41 |      1 |     2 |
+|       58 | Shelby Alfred       | First A/G, Shreveport, LA               |   165 |    7.5 |        |     1 |
+|       59 | Scott Bland         | Faith A/G, Orlando, FL                  |   130 |   5.91 |        |     1 |
+|       60 | Emily Stallman      | Central A/G (2), Springfield, MO        |   120 |   5.45 |        |     4 |
+|       61 | Tika Daigle         | Grace A/G, Syracuse, NY                 |   115 |   5.23 |        |       |
+|       62 | Gail Gandy          | Calvary Church, Naperville, IL          |   110 |      5 |        |       |
+|       63 | Becky Rees          | First A/G, Lexington, KY                |   105 |   4.77 |        |     1 |
+|       64 | Bethany Ellis       | Calvary A/G, Dunwoody, GA               |    80 |   3.64 |        |       |
+|       65 | Amie Haughland      | Calvary Temple, Auburn, WA              |    75 |   3.41 |        |       |
+|       66 | Betsy Regenfuss     | Calvary Church, Naperville, IL          |    65 |   2.95 |        |       |
+| **66\*** | Sheldon Sundell     | Calvary A/G, Dunwoody, GA               |    65 |   2.95 |        |     4 |
+|       68 | Kjirstin Haughland  | Calvary Temple, Auburn, WA              |    55 |    2.5 |        |       |
+| **68\*** | Megan Roberts       | Radiant Church, Colorado Springs, CO    |    55 |    2.5 |        |       |
+|       70 | Tim Barberg         | New Life A/G, Cokato, MN                |    50 |   2.27 |        |       |
+| **70\*** | Kelli Blow          | Capitol Hill A/G, Oklahoma City, OK     |    50 |   2.27 |        |       |
+|       72 | Kristen Kirk        | Calvary A/G, Dunwoody, GA               |    40 |   1.81 |        |       |
+| **72\*** | Nathan Watkins      | Evangel Heights A/G, Sarver, PA         |    40 |   1.81 |        |       |
+|       74 | Missy Senf          | Calvary Church, Naperville, IL          |    35 |   1.59 |        |       |
+|       75 | Stephen Massey      | First A/G, Greely, CO                   |    30 |   1.36 |        |       |
+|       76 | Eric Best           | Central A/G (2), Springfield, MO        |    25 |   1.14 |        |     4 |
+|       77 | Alesha Guruswamy    | Crossroads Cathedral, Oklahoma City, OK |    20 |   0.91 |        |       |
+|       78 | Philip Dickey       | Central A/G (2), Springfield, MO        |    10 |   0.45 |        |       |
+| **78\*** | Kris Olsen          | Calvary Temple, Auburn, WA              |    10 |   0.45 |        |       |
+| **78\*** | Katy Selden         | Calvary Temple, Auburn, WA              |    10 |   0.45 |        |       |
+| **78\*** | Amy Worrell         | First A/G, Greely, CO                   |    10 |   0.45 |        |       |
+|       82 | Jennifer Talbott    | First A/G, Fort Myers, FL               |     5 |   0.23 |        |       |
+|       83 | Rebekah Anderson    | Calvary Church, Naperville, IL          |     0 |      0 |        |       |
+| **83\*** | Krista Buckel       | First A/G, Lexington, KY                |     0 |      0 |        |       |
+| **83\*** | John Danula         | New Life Community Church, Oshkosh, WI  |     0 |      0 |        |       |
+| **83\*** | Candace Evans       | Cornerstone A/G, Beulah, MI             |     0 |      0 |        |       |
+| **83\*** | Melanie Fedon       | Evangel Heights A/G, Sarver, PA         |     0 |      0 |        |       |
+| **83\*** | Rachelle Henderson  | Life Center A/G, Tacoma, WA             |     0 |      0 |        |       |
+| **83\*** | Jack Herbert        | Life Center A/G, Tacoma, WA             |     0 |      0 |        |       |
+| **83\*** | Laura Jones         | Radiant Church, Colorado Springs, CO    |     0 |      0 |        |       |
+| **83\*** | Courtney Leopard    | College Heights A/G, Bryan, TX          |     0 |      0 |        |       |
+| **83\*** | Michael Minardi     | Faith A/G, Orlando, FL                  |     0 |      0 |        |       |
+| **83\*** | Tammy Nelson        | Life Center A/G, Tacoma, WA             |     0 |      0 |        |       |
+| **83\*** | Kevin Quinones      | Faith A/G, Orlando, FL                  |     0 |      0 |        |       |
+| **83\*** | Brad Shimomura      | Life Center A/G, Tacoma, WA             |     0 |      0 |        |       |
+| **83\*** | Mike Straub         | Allison Park A/G, Allison Park, PA      |     0 |      0 |        |       |
+| **83\*** | Robby Thompson      | First A/G, Shreveport, LA               |     0 |      0 |        |       |
+|       98 | David Pentz         | New Life Community Church, Oshkosh, WI  |    -5 |  -0.23 |        |       |
+|       99 | Crystal Streuber    | Calvary A/G, Dunwoody, GA               |   -10 |  -0.45 |        |       |
+|      100 | Amber Harrison      | College Heights A/G, Bryan, TX          |   -15 |  -0.68 |        |       |
 
 ## Teams
 

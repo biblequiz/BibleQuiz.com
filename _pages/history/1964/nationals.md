@@ -22,16 +22,16 @@ We have nearly complete results from this even as well as pictures of almost all
 
 ### Teams
 
-| Rank | Team                           | Record | Total Pts | Avg Pts | Margin | Avg Margin |
-|------|--------------------------------|--------|-----------|---------|--------|------------|
-| 1    | Burlington A/G, Burlington, NC | 3-0    | 580       | 193.33  | 235    | 78.33      |
-| 2    | East Gary A/G, East Gary, IN   | 2-1    | 460       | 153.33  | -25    | -8.33      |
-| 3    | Winthrop, WA                   | 1-1    | 305       | 149.5   | -40    | -20        |
-| 3    | Full Gospel Chapel, Denver, CO | 1-1    | 335       | 167.5   | 10     | 5          |
-| 5    | Conway, AR                     | 0-1    | 80        | 80      | -115   | -115       |
-| 5    | Little York A/G, Houston, TX   | 0-1    | 180       | 180     | -15    | -15        |
-| 5    | Bonesteel, SD                  | 0-1    | 120       | 120     | -20    | -20        |
-| 5    | First A/G, Lanaconing, MD      | 0-1    | 160       | 160     | -30    | -30        |
+|    # | Team                           |    W |    L | Total |    Avg | Margin | Avg Margin |
+| ---: | ------------------------------ | ---: | ---: | ----: | -----: | -----: | ---------: |
+|    1 | Burlington A/G, Burlington, NC |    3 |    0 |   580 | 193.33 |    235 |      78.33 |
+|    2 | East Gary A/G, East Gary, IN   |    2 |    1 |   460 | 153.33 |    -25 |      -8.33 |
+|    3 | Winthrop, WA                   |    1 |    1 |   305 |  149.5 |    -40 |        -20 |
+|    3 | Full Gospel Chapel, Denver, CO |    1 |    1 |   335 |  167.5 |     10 |          5 |
+|    5 | Conway, AR                     |    0 |    1 |    80 |     80 |   -115 |       -115 |
+|    5 | Little York A/G, Houston, TX   |    0 |    1 |   180 |    180 |    -15 |        -15 |
+|    5 | Bonesteel, SD                  |    0 |    1 |   120 |    120 |    -20 |        -20 |
+|    5 | First A/G, Lanaconing, MD      |    0 |    1 |   160 |    160 |    -30 |        -30 |
 
 
 ### Individuals

@@ -20,7 +20,7 @@ menubar_toc_static:
 
 **COMPLETE:** All Room(s) Reported.
 
-|    # | Team / Church                                                               | W/L   |   W% | Total |   Avg |   QO |   Q% |
+|    # | Team                                                                        | W/L   |   W% | Total |   Avg |   QO |   Q% |
 | ---: | --------------------------------------------------------------------------- | ----- | ---: | ----: | ----: | ---: | ---: |
 |    1 | Fruit of the Spirit (Faith Assembly of God)                                 | 9 / 0 | 100% |  1895 | 210.6 |    9 |  85% |
 |    2 | Fire of the Spirit (Haven Worship Center)                                   | 7 / 2 |  78% |  1595 | 177.2 |    4 |  87% |
@@ -37,7 +37,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then by Total Quiz Outs*
 
-|        # | Quizzer           | Team / Church                                                               | Total |   Avg |   QO |   Q% |
+|        # | Quizzer           | Team                                                                        | Total |   Avg |   QO |   Q% |
 | -------: | ----------------- | --------------------------------------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Isabella Kirchon  | Battling Bears (Victory Church)                                             |  1095 | 121.7 |    7 |  84% |
 |        2 | Camden Spence     | Fruit of the Spirit (Faith Assembly of God)                                 |  1070 | 118.9 |    4 |  89% |
@@ -86,7 +86,7 @@ menubar_toc_static:
 
 **COMPLETE:** All Room(s) Reported.
 
-|    # | Team / Church                                                  | W/L   |   W% | Total |   Avg |   QO |   Q% |
+|    # | Team                                                           | W/L   |   W% | Total |   Avg |   QO |   Q% |
 | ---: | -------------------------------------------------------------- | ----- | ---: | ----: | ----: | ---: | ---: |
 |    1 | Sin Stoppers (Haven Worship Center)                            | 5 / 1 |  83% |  1175 | 195.8 |    9 |  88% |
 |    2 | Blazing Buzzers (Haven Worship Center)                         | 4 / 2 |  67% |   615 | 102.5 |    3 |  71% |
@@ -100,7 +100,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then by Total Quiz Outs*
 
-|        # | Quizzer                | Team / Church                                                  | Total |   Avg |   QO |   Q% |
+|        # | Quizzer                | Team                                                           | Total |   Avg |   QO |   Q% |
 | -------: | ---------------------- | -------------------------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Jahdiel Gonzalez       | Sin Stoppers (Haven Worship Center)                            |   780 |   130 |    5 |  92% |
 |        2 | Sarah Beaubrun         | First Coast Christian Center #1 (First Coast Christian Center) |   730 | 121.7 |    4 |  91% |
@@ -141,7 +141,7 @@ menubar_toc_static:
 
 **COMPLETE:** All Room(s) Reported.
 
-|    # | Team / Church                                  | W/L   |   W% | Total |   Avg |   QO |   Q% |
+|    # | Team                                           | W/L   |   W% | Total |   Avg |   QO |   Q% |
 | ---: | ---------------------------------------------- | ----- | ---: | ----: | ----: | ---: | ---: |
 |    1 | God's Girls (Family First Assembly)            | 6 / 0 | 100% |   950 | 158.3 |    5 |  81% |
 |    2 | Victorious Warriors (Victory Church)           | 5 / 1 |  83% |   895 | 149.2 |    7 |  86% |
@@ -155,7 +155,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then by Total Quiz Outs*
 
-|        # | Quizzer             | Team / Church                                  | Total |  Avg |   QO |   Q% |
+|        # | Quizzer             | Team                                           | Total |  Avg |   QO |   Q% |
 | -------: | ------------------- | ---------------------------------------------- | ----: | ---: | ---: | ---: |
 |        1 | Paul Groves         | Victorious Warriors (Victory Church)           |   585 | 97.5 |    6 |  86% |
 |        2 | Philomena De Pablo  | God's Girls (Family First Assembly)            |   555 | 92.5 |    4 |  85% |
@@ -200,7 +200,7 @@ menubar_toc_static:
 
 **COMPLETE:** All Room(s) Reported.
 
-|    # | Team / Church                                                | W/L   |   W% | Total |  Avg |   QO |   Q% |
+|    # | Team                                                         | W/L   |   W% | Total |  Avg |   QO |   Q% |
 | ---: | ------------------------------------------------------------ | ----- | ---: | ----: | ---: | ---: | ---: |
 |    1 | FWC Orange (Family Worship Center)                           | 5 / 1 |  83% |   520 | 86.7 |    1 |  84% |
 |    2 | God Squad (First Assembly Deland)                            | 4 / 2 |  67% |   455 | 75.8 |    3 |  78% |
@@ -214,7 +214,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then by Total Quiz Outs*
 
-|        # | Quizzer               | Team / Church                                                | Total |  Avg |   QO |   Q% |
+|        # | Quizzer               | Team                                                         | Total |  Avg |   QO |   Q% |
 | -------: | --------------------- | ------------------------------------------------------------ | ----: | ---: | ---: | ---: |
 |        1 | Shendoah Rivenburg    | Jesus Freaks (LIFE Church Assembly of God)                   |   460 | 76.7 |      |  86% |
 |        2 | Noah Van Hoven        | Suncoast Shield Bearers (Suncoast Cathedral Assembly of God) |   445 | 74.2 |    5 |  92% |
@@ -262,7 +262,7 @@ menubar_toc_static:
 
 **COMPLETE:** All Room(s) Reported.
 
-|    # | Team / Church                                                            | W/L   |   W% | Total |  Avg |   QO |   Q% |
+|    # | Team                                                                     | W/L   |   W% | Total |  Avg |   QO |   Q% |
 | ---: | ------------------------------------------------------------------------ | ----- | ---: | ----: | ---: | ---: | ---: |
 |    1 | Lightning Bolts (City Church of Orlando)                                 | 4 / 1 |  80% |   425 |   85 |    1 |  82% |
 |    2 | Double Edge (Oxford Assembly of God)                                     | 4 / 1 |  80% |   270 |   54 |    2 |  73% |
@@ -275,7 +275,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then by Total Quiz Outs*
 
-|        # | Quizzer             | Team / Church                                                            | Total |  Avg |   QO |   Q% |
+|        # | Quizzer             | Team                                                                     | Total |  Avg |   QO |   Q% |
 | -------: | ------------------- | ------------------------------------------------------------------------ | ----: | ---: | ---: | ---: |
 |        1 | Christopher Ayala   | Lightning Bolts (City Church of Orlando)                                 |   280 |   56 |    1 |  81% |
 |        2 | Emma Staton         | Double Edge (Oxford Assembly of God)                                     |   240 |   48 |    2 |  88% |
@@ -321,7 +321,7 @@ menubar_toc_static:
 
 **COMPLETE:** All Room(s) Reported.
 
-|    # | Team / Church                                                    | W/L   |   W% | Total |   Avg |   QO |   Q% |
+|    # | Team                                                             | W/L   |   W% | Total |   Avg |   QO |   Q% |
 | ---: | ---------------------------------------------------------------- | ----- | ---: | ----: | ----: | ---: | ---: |
 |    1 | Scripture Seekers #3 (First Assembly of God)                     | 6 / 0 | 100% |   755 | 125.8 |    7 |  91% |
 |    2 | Smith Fan Club (Faith Assembly of God)                           | 5 / 1 |  83% |   995 | 165.8 |   13 |  97% |
@@ -335,7 +335,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then by Total Quiz Outs*
 
-|        # | Quizzer            | Team / Church                                                    | Total |  Avg |   QO |   Q% |
+|        # | Quizzer            | Team                                                             | Total |  Avg |   QO |   Q% |
 | -------: | ------------------ | ---------------------------------------------------------------- | ----: | ---: | ---: | ---: |
 |        1 | Destiny Johnson    | Scripture Seekers #3 (First Assembly of God)                     |   420 |   70 |    6 | 100% |
 |        2 | Eliah Martinez     | Smith Fan Club (Faith Assembly of God)                           |   405 | 67.5 |    6 |  92% |
@@ -372,7 +372,7 @@ menubar_toc_static:
 
 **COMPLETE:** All Room(s) Reported.
 
-|    # | Team / Church                                | W/L   |   W% | Total |   Avg |   QO |   Q% |
+|    # | Team                                         | W/L   |   W% | Total |   Avg |   QO |   Q% |
 | ---: | -------------------------------------------- | ----- | ---: | ----: | ----: | ---: | ---: |
 |    1 | FWC Blue (Family Worship Center)             | 6 / 0 | 100% |   940 | 156.7 |   11 |  88% |
 |    2 | Scripture Seekers #4 (First Assembly of God) | 5 / 1 |  83% |   530 |  88.3 |    7 |  81% |
@@ -386,7 +386,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then by Total Quiz Outs*
 
-|        # | Quizzer                 | Team / Church                                | Total |  Avg |   QO |   Q% |
+|        # | Quizzer                 | Team                                         | Total |  Avg |   QO |   Q% |
 | -------: | ----------------------- | -------------------------------------------- | ----: | ---: | ---: | ---: |
 |        1 | Abigail Soriano Batista | The Golden Gems (Haven Worship Center)       |   405 | 67.5 |    6 |  92% |
 |        2 | Noah Abraham            | FWC Blue (Family Worship Center)             |   400 | 66.7 |    6 |  90% |

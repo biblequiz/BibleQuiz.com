@@ -20,8 +20,8 @@ menubar_toc_static:
 | ---: | ----------------------------------------------- | -----: | ----: |
 |    1 | Northside Family Worship Center, Cumming, GA #1 |    5-0 |  1150 |
 |    2 | First A/G, Montgomery AL                        |    3-2 |   725 |
-|    3 | First A/G, Lexington, KY #2*                     |    3-2 |   655 |
-|    4 | First A/G, Lexington, KY #3*                     |    3-2 |   440 |
+|    3 | First A/G, Lexington, KY #2*                    |    3-2 |   655 |
+|    4 | First A/G, Lexington, KY #3*                    |    3-2 |   440 |
 |    5 | First A/G, Lexington, KY #1                     |    1-4 |   460 |
 |    6 | Northside Family Worship Center, Cumming, GA #2 |    0-5 |   -25 |
 
@@ -29,7 +29,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name                      | Team         | Total |
+|    # | Quizzer                   | Team         | Total |
 | ---: | ------------------------- | ------------ | ----: |
 |    1 | James Lex                 | Cumming #1   |  1760 |
 |    2 | Hudson Kelley             | Montgomery   |  1640 |
@@ -46,8 +46,8 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                        | Record | Total |
-| ---: | ------------------------------------------- | -----: | ----: |
+|    # | Team                                         | Record | Total |
+| ---: | -------------------------------------------- | -----: | ----: |
 |    1 | First A/G, Lexington, KY #4*                 |    3-3 |   195 |
 |    2 | Evangel Community Church, Snellville, GA #1* |    3-3 |   300 |
 |    3 | Rehoboth A/G, Toccoa, GA*                    |    3-3 |   425 |
@@ -57,7 +57,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name            | Team          | Total |
+|    # | Quizzer         | Team          | Total |
 | ---: | --------------- | ------------- | ----: |
 |    1 | Lindsay Cowan   | Toccoa        |   780 |
 |    2 | Rodney Brown    | Snellville #1 |   335 |
@@ -87,7 +87,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name              | Team            | Total |
+|    # | Quizzer           | Team            | Total |
 | ---: | ----------------- | --------------- | ----: |
 |    1 | Brayden Laakkonen | Lexington       |  1460 |
 |    2 | Tiffany Goff      | Honea Path      |   695 |

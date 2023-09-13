@@ -30,214 +30,214 @@ Team photos are provided courtesy of Larry Mullins.
 
 ### Teams
 
-| Rank | Team                                                              | Record | Total | Avg |  Margin | Avg Margin |
-| ---: | ----------------------------------------------------------------- | ------ | ----: | -----: | ---: | ---------: |
-|    1 | Owasso First A/G, Owasso, OK                                      | 19 / 0 |  4390 | 231.05 | 2850 |        150 |
-|    2 | Cedar Park A/G, Bothell, WA                                       | 16 / 3 |  4130 | 217.37 | 2230 |     117.37 |
-|    3 | James River A/G, "One in Christ", Ozark, MO                       | 15 / 4 |  3745 | 197.11 | 1835 |      96.58 |
-|    4 | Faith A/G, Orlando, FL                                            | 14 / 5 |  3510 | 184.74 |  975 |      51.32 |
-|    5 | First A/G, Lexington, KY                                          | 11 / 8 |  2875 | 151.32 |  180 |       9.47 |
-|    6 | The Church at Briargate, "Public Spectacle", Colorado Springs, CO | 11 / 8 |  2810 | 147.89 |  360 |      18.95 |
-|    7 | Braeswood A/G, Houston, TX                                        | 11 / 8 |  2475 | 130.26 |   35 |       1.84 |
-|    8 | Orange County Worship Center, Santa Ana, CA                       | 10 / 9 |  2405 | 126.57 | -225 |     -11.84 |
-|    9 | First A/G, Binghamton, NY                                         | 9 / 10 |  2795 | 147.11 |  285 |         15 |
-|   10 | Faith A/G, West Plains, MO                                        | 9 / 10 |  2000 | 105/26 | -755 |     -39.73 |
-|   11 | CrossPoint A/G, Portage, WI                                       | 9 / 10 |  2050 | 107.89 | -630 |     -33.16 |
-|   12 | Christian Temple, Houston, TX                                     | 8 / 11 |  1800 |  94.74 | -965 |     -50.79 |
-|   13 | Praise A/G, Garfield, NJ                                          | 8 / 11 |  2090 |    110 | -970 |     -51.05 |
-|   14 | Journey Fellowship Church, Slidell, LA                            | 7 / 12 |  1980 | 104.21 | -765 |     -40.26 |
-|   15 | Tacoma Life Center, Tacoma, WA                                    | 7 / 12 |  2380 | 125.26 | -735 |     -38.68 |
-|   16 | Christian Chapel, Tulsa, OK                                       | 6 / 13 |  1960 | 103.16 | -680 |     -35.79 |
-|   17 | Journey Church, Bridgeville, PA                                   | 6 / 13 |  2555 | 134.47 | -445 |     -23.42 |
-|   18 | Northridge A/G, Grand Island, NE                                  | 5 / 14 |  1905 | 100.26 | -885 |     -46.58 |
-|   19 | Manassas A/G, Bristow, VA                                         | 5 / 14 |  2335 | 122.89 | -725 |     -38.15 |
-|   20 | Dayspring A/G, Bowling Green, OH                                  | 4 / 15 |  1720 |  90.53 | -970 |     -51.05 |
+|    # | Team                                                              | Record | Total |    Avg | Margin | Avg Margin |
+| ---: | ----------------------------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
+|    1 | Owasso First A/G, Owasso, OK                                      | 19 / 0 |  4390 | 231.05 |   2850 |        150 |
+|    2 | Cedar Park A/G, Bothell, WA                                       | 16 / 3 |  4130 | 217.37 |   2230 |     117.37 |
+|    3 | James River A/G, "One in Christ", Ozark, MO                       | 15 / 4 |  3745 | 197.11 |   1835 |      96.58 |
+|    4 | Faith A/G, Orlando, FL                                            | 14 / 5 |  3510 | 184.74 |    975 |      51.32 |
+|    5 | First A/G, Lexington, KY                                          | 11 / 8 |  2875 | 151.32 |    180 |       9.47 |
+|    6 | The Church at Briargate, "Public Spectacle", Colorado Springs, CO | 11 / 8 |  2810 | 147.89 |    360 |      18.95 |
+|    7 | Braeswood A/G, Houston, TX                                        | 11 / 8 |  2475 | 130.26 |     35 |       1.84 |
+|    8 | Orange County Worship Center, Santa Ana, CA                       | 10 / 9 |  2405 | 126.57 |   -225 |     -11.84 |
+|    9 | First A/G, Binghamton, NY                                         | 9 / 10 |  2795 | 147.11 |    285 |         15 |
+|   10 | Faith A/G, West Plains, MO                                        | 9 / 10 |  2000 | 105/26 |   -755 |     -39.73 |
+|   11 | CrossPoint A/G, Portage, WI                                       | 9 / 10 |  2050 | 107.89 |   -630 |     -33.16 |
+|   12 | Christian Temple, Houston, TX                                     | 8 / 11 |  1800 |  94.74 |   -965 |     -50.79 |
+|   13 | Praise A/G, Garfield, NJ                                          | 8 / 11 |  2090 |    110 |   -970 |     -51.05 |
+|   14 | Journey Fellowship Church, Slidell, LA                            | 7 / 12 |  1980 | 104.21 |   -765 |     -40.26 |
+|   15 | Tacoma Life Center, Tacoma, WA                                    | 7 / 12 |  2380 | 125.26 |   -735 |     -38.68 |
+|   16 | Christian Chapel, Tulsa, OK                                       | 6 / 13 |  1960 | 103.16 |   -680 |     -35.79 |
+|   17 | Journey Church, Bridgeville, PA                                   | 6 / 13 |  2555 | 134.47 |   -445 |     -23.42 |
+|   18 | Northridge A/G, Grand Island, NE                                  | 5 / 14 |  1905 | 100.26 |   -885 |     -46.58 |
+|   19 | Manassas A/G, Bristow, VA                                         | 5 / 14 |  2335 | 122.89 |   -725 |     -38.15 |
+|   20 | Dayspring A/G, Bowling Green, OH                                  | 4 / 15 |  1720 |  90.53 |   -970 |     -51.05 |
 
 ### Individuals
 
-|     Rank | Quizzer            | Church                  | Total |    Avg | QO Fwd | QO Back |
-| -------: | ------------------ | ----------------------- | ----: | -----: | -----: | ------: |
-|        1 | Grant Warnock      | Bridgeville, PA         |  2090 |    110 |     16 |         |
-|        2 | Jared Burkhalter   | Orlando, FL             |  2020 | 106.32 |     15 |       3 |
-|        3 | Lucas Cox          | Lexington, KY           |  1770 |  93.16 |     12 |       2 |
-|        4 | Joshua Echebiri    | Braeswood, TX           |  1695 |  89.21 |     15 |       1 |
-|        5 | Josh Wagner        | Owasso, OK              |  1670 |  87.89 |     15 |       1 |
-|        6 | Brandon Duffy      | Bothell, WA             |  1640 |  86.32 |     11 |       2 |
-|        7 | Jesse Wagner       | Owasso, OK              |  1635 |  86.05 |     14 |         |
-|        8 | Blake Porter       | Ozark, MO (OIC)         |  1615 |     85 |     11 |       5 |
-|        9 | J. P. O'Connor     | Tacoma, WA              |  1610 |  84.74 |     12 |       4 |
-|       10 | LaJoie Ward        | Binghamton, NY          |  1400 |  73.68 |      9 |       3 |
-|       11 | Josh Turner        | Portage, WI             |  1370 |  72.11 |     11 |       7 |
-|       12 | Jenna-Jo Duffy     | Bothell, WA             |  1345 |  70.79 |     10 |       1 |
-|       13 | Lindsey Brower     | Bristow, VA             |  1340 |  70.53 |      8 |       1 |
-|       14 | Zach Mang          | Santa Ana, CA           |  1285 |  67.63 |      9 |       3 |
-|       15 | Tamera Burkhalter  | Orlando, FL             |  1235 |     65 |     13 |         |
-|       16 | Alyssa Batchelder  | Tulsa, OK               |  1210 |  63.68 |      9 |       9 |
-|       17 | Brittany Porter    | Ozark, MO (OIC)         |  1150 |  60.53 |      9 |       2 |
-|       18 | Kyler Sederwall    | Garfield, NJ            |  1125 |  59.21 |      3 |       2 |
-|       19 | Heather Karnes     | Bothell, WA             |  1065 |  56.05 |      7 |       1 |
-|       20 | Daniel Wagner      | Owasso, OK              |  1055 |  55.53 |      6 |       1 |
-|       21 | P. J. Grigg        | Colorado Springs, CO    |   985 |  51.84 |      5 |       2 |
-|       22 | Ryan Albrecht      | Bowling Green, OH       |   980 |  51.58 |     10 |       7 |
-|       23 | Michael Rose       | Colorado Springs, CO    |   925 |  48.68 |      6 |       1 |
-|       24 | Jonathan Barthuly  | Santa Ana, CA           |   910 |  47.89 |      7 |       5 |
-|       25 | Jacob Wyatt        | Slidell, LA             |   900 |  47.37 |      7 |       3 |
-|       26 | Colin Knoth        | Ozark, MO (OIC)         |   895 |  47.11 |      7 |       2 |
-|       27 | Adam Forsman       | Chr Temple, Houston, TX |   860 |  45.26 |      7 |       2 |
-|       28 | Elaine Walker      | Lexington, KY           |   855 |     45 |      7 |       1 |
-|       29 | Hannah Swanson     | Grand Island, NE        |   855 |     45 |      6 |       1 |
-|       30 | Julianne Kelley    | Colorado Springs, CO    |   840 |  44.21 |      5 |       1 |
-|       31 | Joshua George      | West Plains, MO         |   795 |  41.84 |      4 |       7 |
-|       32 | Justin Czubkowski  | Garfield, NJ            |   785 |  41.32 |      6 |       2 |
-|       33 | Kourtni Wyatt      | Slidell, LA             |   715 |  37.63 |      3 |       2 |
-|       34 | Jonathan George    | West Plains, MO         |   700 |  36.84 |      7 |       8 |
-|       35 | Isaac Ward         | Binghamton, NY          |   690 |  36.32 |      3 |       1 |
-|       36 | John Karluk        | Binghamton, NY          |   655 |  34.47 |      5 |       1 |
-|       37 | Catherine Hains    | Bristow, VA             |   650 |  34.21 |      3 |       1 |
-|       38 | Michelle Paulson   | Tulsa, OK               |   650 |  34.21 |      2 |       1 |
-|       39 | Mikayla Irle       | Tacoma, WA              |   650 |  34.21 |      6 |       4 |
-|       40 | Aaron Beye         | Grand Island, NE        |   565 |  29.74 |      4 |      10 |
-|       41 | Joshua Forsman     | Chr Temple, Houston, TX |   540 |  28.42 |      3 |       4 |
-|       42 | Karan Bhargava     | West Plains, MO         |   465 |  24.47 |        |         |
-|       43 | Jessica Sikes      | Bridgeville, PA         |   435 |  22.89 |      2 |       2 |
-|       44 | Roysan Easo        | Braeswood, TX           |   415 |  21.84 |        |       2 |
-|       45 | Andric Hofrichter  | Grand Island, NE        |   410 |  21.58 |      2 |       1 |
-|       46 | Hillari Wyatt      | Slidell, LA             |   395 |  20.79 |      3 |       4 |
-|       47 | Alex Firari        | Portage, WI             |   375 |  19.74 |      3 |       1 |
-|       48 | Jeremy Albrecht    | Bowling Green, OH       |   365 |  19.21 |      1 |       1 |
-|       49 | Joel Facer         | Bowling Green, OH       |   355 |  18.68 |      1 |       2 |
-|       50 | Shola Anifowose    | Braeswood, TX           |   340 |  17.89 |      1 |       5 |
-|       51 | Naomi Turner       | Portage, WI             |   310 |  16.32 |      2 |       6 |
-|       52 | Samantha Smith     | Bristow, VA             |   275 |  14.47 |      1 |       1 |
-|       53 | Andrew Forsman     | Chr Temple, Houston, TX |   250 |  13.16 |      1 |       1 |
-|       54 | Colin Kuroishi     | Santa Ana, CA           |   220 |  11.58 |        |       1 |
-|       55 | Rebekah Kelly      | Lexington, KY           |   220 |  11.58 |      1 |       1 |
-|       56 | Jeremy Butler      | Orlando, FL             |   185 |   9.74 |        |         |
-|       57 | Benji Songsong     | Garfield, NJ            |   180 |   9.47 |        |       3 |
-|       58 | Brianna Forsman    | Chr Temple, Houston, TX |   160 |   8.42 |        |         |
-|       59 | Rachel Holley      | Tacoma, WA              |   110 |   5.79 |        |         |
-|       60 | Justin Napper      | Ozark, MO (OIC)         |   105 |   5.53 |        |         |
-|       61 | Matthew Woods      | Tulsa, OK               |    80 |   4.21 |        |       2 |
-|       62 | Nathan Mori        | Bothell, WA             |    75 |   3.95 |        |         |
-|       63 | Sabrina Burkhalter | Orlando, FL             |    70 |   3.68 |        |         |
-| **63\*** | Cara Brower        | Bristow, VA             |    70 |   3.68 |        |         |
-|       65 | Tori Beye          | Grand Island, NE        |    55 |   2.89 |        |         |
-|       66 | Rachel Firestone   | Owasso, OK              |    40 |   2.11 |        |         |
-| **66\*** | James Craig        | Tulsa, OK               |    40 |   2.11 |        |         |
-|       68 | Madison Hall       | Colorado Springs, CO    |    35 |   1.84 |        |         |
-| **68\*** | Shane Warnock      | Bridgeville, PA         |    35 |   1.84 |        |         |
-|       70 | Nathaniel Winckler | Lexington, KY           |    30 |   1.58 |        |         |
-|       71 | Marshall Kobylski  | Bowling Green, OH       |    20 |   1.05 |        |         |
-|       72 | Alex Cheski        | Garfield, NJ            |    15 |   0.79 |        |         |
-|       73 | Heather Murdy      | West Plains, MO         |    10 |   0.53 |        |         |
-|       74 | Victoria Myrick    | Binghamton, NY          |    10 |   0.53 |        |         |
-|       75 | Sally Epp          | Grand Island, NE        |    10 |   0.53 |        |         |
-| **75\*** | Jeremiah George    | West Plains, MO         |    10 |   0.53 |        |         |
-| **75\*** | Obi Kpando         | Braeswood, TX           |    10 |   0.53 |        |         |
-| **75\*** | Corina Scarinzi    | Binghamton, NY          |    10 |   0.53 |        |         |
-|       79 | Seth Turner        | Portage, WI             |     0 |      0 |        |         |
+|     Rank | Quizzer            | Church                  | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ------------------ | ----------------------- | ----: | -----: | -----: | ----: |
+|        1 | Grant Warnock      | Bridgeville, PA         |  2090 |    110 |     16 |       |
+|        2 | Jared Burkhalter   | Orlando, FL             |  2020 | 106.32 |     15 |     3 |
+|        3 | Lucas Cox          | Lexington, KY           |  1770 |  93.16 |     12 |     2 |
+|        4 | Joshua Echebiri    | Braeswood, TX           |  1695 |  89.21 |     15 |     1 |
+|        5 | Josh Wagner        | Owasso, OK              |  1670 |  87.89 |     15 |     1 |
+|        6 | Brandon Duffy      | Bothell, WA             |  1640 |  86.32 |     11 |     2 |
+|        7 | Jesse Wagner       | Owasso, OK              |  1635 |  86.05 |     14 |       |
+|        8 | Blake Porter       | Ozark, MO (OIC)         |  1615 |     85 |     11 |     5 |
+|        9 | J. P. O'Connor     | Tacoma, WA              |  1610 |  84.74 |     12 |     4 |
+|       10 | LaJoie Ward        | Binghamton, NY          |  1400 |  73.68 |      9 |     3 |
+|       11 | Josh Turner        | Portage, WI             |  1370 |  72.11 |     11 |     7 |
+|       12 | Jenna-Jo Duffy     | Bothell, WA             |  1345 |  70.79 |     10 |     1 |
+|       13 | Lindsey Brower     | Bristow, VA             |  1340 |  70.53 |      8 |     1 |
+|       14 | Zach Mang          | Santa Ana, CA           |  1285 |  67.63 |      9 |     3 |
+|       15 | Tamera Burkhalter  | Orlando, FL             |  1235 |     65 |     13 |       |
+|       16 | Alyssa Batchelder  | Tulsa, OK               |  1210 |  63.68 |      9 |     9 |
+|       17 | Brittany Porter    | Ozark, MO (OIC)         |  1150 |  60.53 |      9 |     2 |
+|       18 | Kyler Sederwall    | Garfield, NJ            |  1125 |  59.21 |      3 |     2 |
+|       19 | Heather Karnes     | Bothell, WA             |  1065 |  56.05 |      7 |     1 |
+|       20 | Daniel Wagner      | Owasso, OK              |  1055 |  55.53 |      6 |     1 |
+|       21 | P. J. Grigg        | Colorado Springs, CO    |   985 |  51.84 |      5 |     2 |
+|       22 | Ryan Albrecht      | Bowling Green, OH       |   980 |  51.58 |     10 |     7 |
+|       23 | Michael Rose       | Colorado Springs, CO    |   925 |  48.68 |      6 |     1 |
+|       24 | Jonathan Barthuly  | Santa Ana, CA           |   910 |  47.89 |      7 |     5 |
+|       25 | Jacob Wyatt        | Slidell, LA             |   900 |  47.37 |      7 |     3 |
+|       26 | Colin Knoth        | Ozark, MO (OIC)         |   895 |  47.11 |      7 |     2 |
+|       27 | Adam Forsman       | Chr Temple, Houston, TX |   860 |  45.26 |      7 |     2 |
+|       28 | Elaine Walker      | Lexington, KY           |   855 |     45 |      7 |     1 |
+|       29 | Hannah Swanson     | Grand Island, NE        |   855 |     45 |      6 |     1 |
+|       30 | Julianne Kelley    | Colorado Springs, CO    |   840 |  44.21 |      5 |     1 |
+|       31 | Joshua George      | West Plains, MO         |   795 |  41.84 |      4 |     7 |
+|       32 | Justin Czubkowski  | Garfield, NJ            |   785 |  41.32 |      6 |     2 |
+|       33 | Kourtni Wyatt      | Slidell, LA             |   715 |  37.63 |      3 |     2 |
+|       34 | Jonathan George    | West Plains, MO         |   700 |  36.84 |      7 |     8 |
+|       35 | Isaac Ward         | Binghamton, NY          |   690 |  36.32 |      3 |     1 |
+|       36 | John Karluk        | Binghamton, NY          |   655 |  34.47 |      5 |     1 |
+|       37 | Catherine Hains    | Bristow, VA             |   650 |  34.21 |      3 |     1 |
+|       38 | Michelle Paulson   | Tulsa, OK               |   650 |  34.21 |      2 |     1 |
+|       39 | Mikayla Irle       | Tacoma, WA              |   650 |  34.21 |      6 |     4 |
+|       40 | Aaron Beye         | Grand Island, NE        |   565 |  29.74 |      4 |    10 |
+|       41 | Joshua Forsman     | Chr Temple, Houston, TX |   540 |  28.42 |      3 |     4 |
+|       42 | Karan Bhargava     | West Plains, MO         |   465 |  24.47 |        |       |
+|       43 | Jessica Sikes      | Bridgeville, PA         |   435 |  22.89 |      2 |     2 |
+|       44 | Roysan Easo        | Braeswood, TX           |   415 |  21.84 |        |     2 |
+|       45 | Andric Hofrichter  | Grand Island, NE        |   410 |  21.58 |      2 |     1 |
+|       46 | Hillari Wyatt      | Slidell, LA             |   395 |  20.79 |      3 |     4 |
+|       47 | Alex Firari        | Portage, WI             |   375 |  19.74 |      3 |     1 |
+|       48 | Jeremy Albrecht    | Bowling Green, OH       |   365 |  19.21 |      1 |     1 |
+|       49 | Joel Facer         | Bowling Green, OH       |   355 |  18.68 |      1 |     2 |
+|       50 | Shola Anifowose    | Braeswood, TX           |   340 |  17.89 |      1 |     5 |
+|       51 | Naomi Turner       | Portage, WI             |   310 |  16.32 |      2 |     6 |
+|       52 | Samantha Smith     | Bristow, VA             |   275 |  14.47 |      1 |     1 |
+|       53 | Andrew Forsman     | Chr Temple, Houston, TX |   250 |  13.16 |      1 |     1 |
+|       54 | Colin Kuroishi     | Santa Ana, CA           |   220 |  11.58 |        |     1 |
+|       55 | Rebekah Kelly      | Lexington, KY           |   220 |  11.58 |      1 |     1 |
+|       56 | Jeremy Butler      | Orlando, FL             |   185 |   9.74 |        |       |
+|       57 | Benji Songsong     | Garfield, NJ            |   180 |   9.47 |        |     3 |
+|       58 | Brianna Forsman    | Chr Temple, Houston, TX |   160 |   8.42 |        |       |
+|       59 | Rachel Holley      | Tacoma, WA              |   110 |   5.79 |        |       |
+|       60 | Justin Napper      | Ozark, MO (OIC)         |   105 |   5.53 |        |       |
+|       61 | Matthew Woods      | Tulsa, OK               |    80 |   4.21 |        |     2 |
+|       62 | Nathan Mori        | Bothell, WA             |    75 |   3.95 |        |       |
+|       63 | Sabrina Burkhalter | Orlando, FL             |    70 |   3.68 |        |       |
+| **63\*** | Cara Brower        | Bristow, VA             |    70 |   3.68 |        |       |
+|       65 | Tori Beye          | Grand Island, NE        |    55 |   2.89 |        |       |
+|       66 | Rachel Firestone   | Owasso, OK              |    40 |   2.11 |        |       |
+| **66\*** | James Craig        | Tulsa, OK               |    40 |   2.11 |        |       |
+|       68 | Madison Hall       | Colorado Springs, CO    |    35 |   1.84 |        |       |
+| **68\*** | Shane Warnock      | Bridgeville, PA         |    35 |   1.84 |        |       |
+|       70 | Nathaniel Winckler | Lexington, KY           |    30 |   1.58 |        |       |
+|       71 | Marshall Kobylski  | Bowling Green, OH       |    20 |   1.05 |        |       |
+|       72 | Alex Cheski        | Garfield, NJ            |    15 |   0.79 |        |       |
+|       73 | Heather Murdy      | West Plains, MO         |    10 |   0.53 |        |       |
+|       74 | Victoria Myrick    | Binghamton, NY          |    10 |   0.53 |        |       |
+|       75 | Sally Epp          | Grand Island, NE        |    10 |   0.53 |        |       |
+| **75\*** | Jeremiah George    | West Plains, MO         |    10 |   0.53 |        |       |
+| **75\*** | Obi Kpando         | Braeswood, TX           |    10 |   0.53 |        |       |
+| **75\*** | Corina Scarinzi    | Binghamton, NY          |    10 |   0.53 |        |       |
+|       79 | Seth Turner        | Portage, WI             |     0 |      0 |        |       |
 
 ## Challenger
 
 ### Teams
 
-| Rank | Team                                                                            | Record | Total | Avg |   Margin | Avg Margin |
-| ---: | ------------------------------------------------------------------------------- | ------ | ----: | -----: | ----: | ---------: |
-|    1 | James River A/G, "In Chains", Ozark, MO                                         | 18 / 1 |  3495 | 183.95 |  2295 |     120.79 |
-|    2 | Calvary A/G, South Bend, IN                                                     | 16 / 3 |  3020 | 158.95 |  1600 |      84.21 |
-|    3 | Calvary A/G, Dunwoody, GA                                                       | 14 / 5 |  3200 | 168.42 |  1640 |      86.32 |
-|    4 | Orange Hills A/G, Orange, CA                                                    | 14 / 5 |  2575 | 135.53 |   615 |      32.37 |
-|    5 | Grace A/G, Syracuse, NY                                                         | 13 / 6 |  2455 | 139.21 |   650 |      34.21 |
-|    6 | Harvest Time A/G, Brunswick, OH                                                 | 13 / 6 |  2600 | 136.84 |   825 |      43.42 |
-|    7 | Nyssa Christian Fellowship, Nyssa, OR                                           | 11 / 8 |  2175 | 114.47 |   535 |      28.16 |
-|    8 | Noble A/G, Noble, OK                                                            | 11 / 8 |  2355 | 123.95 |   280 |      14.74 |
-|    9 | New Life Community Church, Oshkosh, WI                                          | 10 / 9 |  2290 | 120.53 |   290 |      15.26 |
-|   10 | Central A/G, Springfield, MO                                                    | 10 / 9 |  1875 |  98.68 |  -470 |     -24.74 |
-|   11 | First A/G, Montgomery, AL                                                       | 9 / 10 |  1985 | 104.48 |  -255 |     -13.42 |
-|   12 | Meridian A/G, Meridian, ID                                                      | 8 / 11 |  1890 |  99.47 |  -330 |     -17.37 |
-|   13 | Turning Point Christian Center, Vancouver, WA                                   | 8 / 11 |  1790 |  94.21 |  -655 |     -34.47 |
-|   14 | Corydon A/G, Corydon, IA                                                        | 7 / 12 |  2255 | 118.68 |  -315 |     -16.58 |
-|   15 | First A/G, Lafayette, IN                                                        | 7 / 12 |  2295 | 120.79 |   245 |      12.89 |
-|   16 | The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO | 7 / 12 |  1930 | 101.58 |  6.84 |       1930 |
-|   17 | Victorious Life Church, Wesley Chapel, FL                                       | 6 / 13 |  1215 |  63.95 | -1255 |     -66.05 |
-|   18 | Suncoast A/G, St. Petersburg, FL                                                | 5 / 14 |  1210 |  63.68 | -1340 |     -70.53 |
-|   19 | Truth A/G, Chariton, IA                                                         | 3 / 16 |  1395 |  73.42 | -1295 |     -68.15 |
-|   20 | Timberline Church, Fort Collins, CO                                             | 0 / 19 |   360 |  18.95 | -2930 |    -154.21 |
+|    # | Team                                                                            | Record | Total |    Avg | Margin | Avg Margin |
+| ---: | ------------------------------------------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
+|    1 | James River A/G, "In Chains", Ozark, MO                                         | 18 / 1 |  3495 | 183.95 |   2295 |     120.79 |
+|    2 | Calvary A/G, South Bend, IN                                                     | 16 / 3 |  3020 | 158.95 |   1600 |      84.21 |
+|    3 | Calvary A/G, Dunwoody, GA                                                       | 14 / 5 |  3200 | 168.42 |   1640 |      86.32 |
+|    4 | Orange Hills A/G, Orange, CA                                                    | 14 / 5 |  2575 | 135.53 |    615 |      32.37 |
+|    5 | Grace A/G, Syracuse, NY                                                         | 13 / 6 |  2455 | 139.21 |    650 |      34.21 |
+|    6 | Harvest Time A/G, Brunswick, OH                                                 | 13 / 6 |  2600 | 136.84 |    825 |      43.42 |
+|    7 | Nyssa Christian Fellowship, Nyssa, OR                                           | 11 / 8 |  2175 | 114.47 |    535 |      28.16 |
+|    8 | Noble A/G, Noble, OK                                                            | 11 / 8 |  2355 | 123.95 |    280 |      14.74 |
+|    9 | New Life Community Church, Oshkosh, WI                                          | 10 / 9 |  2290 | 120.53 |    290 |      15.26 |
+|   10 | Central A/G, Springfield, MO                                                    | 10 / 9 |  1875 |  98.68 |   -470 |     -24.74 |
+|   11 | First A/G, Montgomery, AL                                                       | 9 / 10 |  1985 | 104.48 |   -255 |     -13.42 |
+|   12 | Meridian A/G, Meridian, ID                                                      | 8 / 11 |  1890 |  99.47 |   -330 |     -17.37 |
+|   13 | Turning Point Christian Center, Vancouver, WA                                   | 8 / 11 |  1790 |  94.21 |   -655 |     -34.47 |
+|   14 | Corydon A/G, Corydon, IA                                                        | 7 / 12 |  2255 | 118.68 |   -315 |     -16.58 |
+|   15 | First A/G, Lafayette, IN                                                        | 7 / 12 |  2295 | 120.79 |    245 |      12.89 |
+|   16 | The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO | 7 / 12 |  1930 | 101.58 |   6.84 |       1930 |
+|   17 | Victorious Life Church, Wesley Chapel, FL                                       | 6 / 13 |  1215 |  63.95 |  -1255 |     -66.05 |
+|   18 | Suncoast A/G, St. Petersburg, FL                                                | 5 / 14 |  1210 |  63.68 |  -1340 |     -70.53 |
+|   19 | Truth A/G, Chariton, IA                                                         | 3 / 16 |  1395 |  73.42 |  -1295 |     -68.15 |
+|   20 | Timberline Church, Fort Collins, CO                                             | 0 / 19 |   360 |  18.95 |  -2930 |    -154.21 |
 
 ### Individuals
 
-|     Rank | Quizzer            | Church               | Total |    Avg | QO Fwd | QO Back |
-| -------: | ------------------ | -------------------- | ----: | -----: | -----: | ------: |
-|        1 | James Lex          | Dunwoody, GA         |  1910 | 100.53 |     13 |       4 |
-|        2 | Danielle Brozovich | Ozark, MO (IC)       |  1665 |  87.63 |     17 |       1 |
-|        3 | James Pryer        | Orange, CA           |  1665 |  87.63 |     13 |       6 |
-|        4 | Devon Colegrove    | Corydon, IA          |  1620 |  85.26 |     10 |       2 |
-|        5 | Lisa Everett       | Brunswick, OH        |  1610 |  84.74 |     10 |       4 |
-|        6 | Whitney Garrison   | Ozark, MO (IC)       |  1510 |  79.47 |     11 |       3 |
-|        7 | Cameron Smith      | Noble, OK            |  1505 |  79.21 |     10 |       7 |
-|        8 | Jonathan Plank     | Chariton, IA         |  1400 |  73.68 |     13 |       5 |
-|        9 | Hudson Kelley      | Montgomery, AL       |  1365 |  71.84 |      9 |       6 |
-|       10 | Brandon Rhynders   | Syracuse, NY         |  1345 |  70.79 |     12 |       3 |
-|       11 | Ethan Hock         | South Bend, IN       |  1335 |  70.26 |     11 |       2 |
-|       12 | Tammy Vickerman    | Lafayette, IN        |  1170 |  61.58 |      8 |       1 |
-|       13 | Ashley Carter      | Meridian, ID         |  1165 |  61.32 |      8 |       3 |
-|       14 | David Kober        | Oshkosh, WI          |  1130 |  59.47 |      6 |       3 |
-|       15 | Yoki Belay         | Dunwoody, GA         |  1065 |  56.05 |      8 |       1 |
-|       16 | Amy Siddall        | Syracuse, NY         |  1060 |  55.79 |     13 |       1 |
-|       17 | Cecily Spicer      | Vancouver, WA        |  1050 |  55.26 |      9 |       3 |
-|       18 | Angie Larson       | Nyssa, OR            |   995 |  52.37 |      8 |       3 |
-|       19 | C. J. Hock         | South Bend, IN       |   975 |  51.32 |     10 |       4 |
-|       20 | Matthew Klika      | Springfield, MO      |   965 |  50.79 |      6 |       1 |
-|       21 | Brianna Riley      | Springfield, MO      |   915 |  48.16 |      7 |       1 |
-|       22 | Ellen Oss          | Colorado Springs, CO |   825 |  43.42 |      4 |       2 |
-|       23 | Mary Pryer         | Orange, CA           |   815 |  42.89 |      9 |       2 |
-|       24 | John McGillis      | Brunswick, OH        |   810 |  42.63 |      8 |       3 |
-|       25 | Spencer Walters    | Lafayette, IN        |   760 |     40 |     11 |       6 |
-|       26 | Simon Bennett      | St. Petersburg, FL   |   755 |  39.74 |      4 |       5 |
-|       27 | Kirsten Durfey     | South Bend, IN       |   720 |  37.89 |      4 |       1 |
-|       28 | Daniel Kober       | Oshkosh, WI          |   690 |  36.32 |      2 |       5 |
-|       29 | Kellen Hall        | Colorado Springs, CO |   630 |  33.16 |      4 |       1 |
-|       30 | Flynn Spicer       | Vancouver, WA        |   615 |  32.37 |      5 |       4 |
-|       31 | Donovan Colegrove  | Corydon, IA          |   605 |  31.84 |      5 |       3 |
-|       32 | Darren Larson      | Nyssa, OR            |   545 |  28.68 |      1 |       1 |
-|       33 | Melissa Larson     | Nyssa, OR            |   535 |  28.16 |      2 |       3 |
-|       34 | Caleb Turnage      | Oshkosh, WI          |   530 |  27.89 |      4 |       3 |
-|       35 | Andrew Banach      | Montgomery, AL       |   525 |  27.63 |      2 |       1 |
-|       36 | E. J. Mintah       | Wesley Chapel, FL    |   515 |  27.11 |      5 |       3 |
-|       37 | Lydia Hutchinson   | St. Petersburg, FL   |   510 |  26.84 |      3 |       2 |
-|       38 | Ivy Jensen         | Meridian, ID         |   500 |  26.32 |      5 |       3 |
-|       39 | Meg Pace           | Colorado Springs, CO |   480 |  25.26 |      4 |       3 |
-|       40 | Anthony Davis      | Noble, OK            |   430 |  22.63 |      3 |       1 |
-|       41 | Mallorie Ramsey    | Noble, OK            |   410 |  21.58 |      1 |       1 |
-|       42 | SeAyra Walters     | Lafayette, IN        |   370 |  19.47 |        |         |
-|       43 | Nathan Cowdery     | Wesley Chapel, FL    |   300 |  15.79 |      3 |       2 |
-|       44 | Erinn Wolf         | Wesley Chapel, FL    |   295 |  15.53 |        |         |
-|       45 | Karen McCormick    | Fort Collins, CO     |   265 |  13.95 |      1 |       2 |
-|       46 | Joe Dean           | Ozark, MO (IC)       |   255 |  13.42 |      1 |       1 |
-|       47 | Link Patrick       | Meridian, ID         |   235 |  12.37 |      1 |       2 |
-|       48 | Reesie Owens       | Wesley Chapel, FL    |   160 |   8.42 |      1 |       1 |
-|       49 | Ruth Spicer        | Vancouver, WA        |   125 |   6.58 |        |         |
-|       50 | Cory Williams      | Montgomery, AL       |   115 |   6.05 |        |       3 |
-|       51 | Katie Randolph     | Brunswick, OH        |   115 |   6.05 |        |         |
-|       52 | Samuel Pryer       | Orange, CA           |   110 |   5.79 |        |         |
-| **52\*** | Isabella Lex       | Dunwoody, GA         |   110 |   5.79 |        |         |
-|       54 | Carley Trammell    | Fort Collins, CO     |    95 |      5 |        |       1 |
-|       55 | Sarah Belay        | Dunwoody, GA         |    85 |   4.47 |        |         |
-|       56 | Ian McGillis       | Brunswick, OH        |    70 |   3.68 |        |         |
-|       57 | Jared Siddall      | Syracuse, NY         |    65 |   3.42 |        |         |
-|       58 | Joshua Napper      | Ozark, MO (IC)       |    50 |   2.63 |        |         |
-|       59 | Jonathan Kessie    | St. Petersburg, FL   |    35 |   1.84 |        |         |
-|       60 | Amanda Snider      | Chariton, IA         |    35 |   1.84 |        |       1 |
-|       61 | Nathan Kober       | Oshkosh, WI          |    10 |   0.53 |        |         |
-| **61\*** | Thomas Pryer       | Orange, CA           |    10 |   0.53 |        |         |
-|       63 | Danielle Tayler    | St. Petersburg, FL   |     0 |      0 |        |         |
-|       64 | Therese Simoneau   | St. Petersburg, FL   |   -15 |  -0.79 |        |         |
+|     Rank | Quizzer            | Church               | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ------------------ | -------------------- | ----: | -----: | -----: | ----: |
+|        1 | James Lex          | Dunwoody, GA         |  1910 | 100.53 |     13 |     4 |
+|        2 | Danielle Brozovich | Ozark, MO (IC)       |  1665 |  87.63 |     17 |     1 |
+|        3 | James Pryer        | Orange, CA           |  1665 |  87.63 |     13 |     6 |
+|        4 | Devon Colegrove    | Corydon, IA          |  1620 |  85.26 |     10 |     2 |
+|        5 | Lisa Everett       | Brunswick, OH        |  1610 |  84.74 |     10 |     4 |
+|        6 | Whitney Garrison   | Ozark, MO (IC)       |  1510 |  79.47 |     11 |     3 |
+|        7 | Cameron Smith      | Noble, OK            |  1505 |  79.21 |     10 |     7 |
+|        8 | Jonathan Plank     | Chariton, IA         |  1400 |  73.68 |     13 |     5 |
+|        9 | Hudson Kelley      | Montgomery, AL       |  1365 |  71.84 |      9 |     6 |
+|       10 | Brandon Rhynders   | Syracuse, NY         |  1345 |  70.79 |     12 |     3 |
+|       11 | Ethan Hock         | South Bend, IN       |  1335 |  70.26 |     11 |     2 |
+|       12 | Tammy Vickerman    | Lafayette, IN        |  1170 |  61.58 |      8 |     1 |
+|       13 | Ashley Carter      | Meridian, ID         |  1165 |  61.32 |      8 |     3 |
+|       14 | David Kober        | Oshkosh, WI          |  1130 |  59.47 |      6 |     3 |
+|       15 | Yoki Belay         | Dunwoody, GA         |  1065 |  56.05 |      8 |     1 |
+|       16 | Amy Siddall        | Syracuse, NY         |  1060 |  55.79 |     13 |     1 |
+|       17 | Cecily Spicer      | Vancouver, WA        |  1050 |  55.26 |      9 |     3 |
+|       18 | Angie Larson       | Nyssa, OR            |   995 |  52.37 |      8 |     3 |
+|       19 | C. J. Hock         | South Bend, IN       |   975 |  51.32 |     10 |     4 |
+|       20 | Matthew Klika      | Springfield, MO      |   965 |  50.79 |      6 |     1 |
+|       21 | Brianna Riley      | Springfield, MO      |   915 |  48.16 |      7 |     1 |
+|       22 | Ellen Oss          | Colorado Springs, CO |   825 |  43.42 |      4 |     2 |
+|       23 | Mary Pryer         | Orange, CA           |   815 |  42.89 |      9 |     2 |
+|       24 | John McGillis      | Brunswick, OH        |   810 |  42.63 |      8 |     3 |
+|       25 | Spencer Walters    | Lafayette, IN        |   760 |     40 |     11 |     6 |
+|       26 | Simon Bennett      | St. Petersburg, FL   |   755 |  39.74 |      4 |     5 |
+|       27 | Kirsten Durfey     | South Bend, IN       |   720 |  37.89 |      4 |     1 |
+|       28 | Daniel Kober       | Oshkosh, WI          |   690 |  36.32 |      2 |     5 |
+|       29 | Kellen Hall        | Colorado Springs, CO |   630 |  33.16 |      4 |     1 |
+|       30 | Flynn Spicer       | Vancouver, WA        |   615 |  32.37 |      5 |     4 |
+|       31 | Donovan Colegrove  | Corydon, IA          |   605 |  31.84 |      5 |     3 |
+|       32 | Darren Larson      | Nyssa, OR            |   545 |  28.68 |      1 |     1 |
+|       33 | Melissa Larson     | Nyssa, OR            |   535 |  28.16 |      2 |     3 |
+|       34 | Caleb Turnage      | Oshkosh, WI          |   530 |  27.89 |      4 |     3 |
+|       35 | Andrew Banach      | Montgomery, AL       |   525 |  27.63 |      2 |     1 |
+|       36 | E. J. Mintah       | Wesley Chapel, FL    |   515 |  27.11 |      5 |     3 |
+|       37 | Lydia Hutchinson   | St. Petersburg, FL   |   510 |  26.84 |      3 |     2 |
+|       38 | Ivy Jensen         | Meridian, ID         |   500 |  26.32 |      5 |     3 |
+|       39 | Meg Pace           | Colorado Springs, CO |   480 |  25.26 |      4 |     3 |
+|       40 | Anthony Davis      | Noble, OK            |   430 |  22.63 |      3 |     1 |
+|       41 | Mallorie Ramsey    | Noble, OK            |   410 |  21.58 |      1 |     1 |
+|       42 | SeAyra Walters     | Lafayette, IN        |   370 |  19.47 |        |       |
+|       43 | Nathan Cowdery     | Wesley Chapel, FL    |   300 |  15.79 |      3 |     2 |
+|       44 | Erinn Wolf         | Wesley Chapel, FL    |   295 |  15.53 |        |       |
+|       45 | Karen McCormick    | Fort Collins, CO     |   265 |  13.95 |      1 |     2 |
+|       46 | Joe Dean           | Ozark, MO (IC)       |   255 |  13.42 |      1 |     1 |
+|       47 | Link Patrick       | Meridian, ID         |   235 |  12.37 |      1 |     2 |
+|       48 | Reesie Owens       | Wesley Chapel, FL    |   160 |   8.42 |      1 |     1 |
+|       49 | Ruth Spicer        | Vancouver, WA        |   125 |   6.58 |        |       |
+|       50 | Cory Williams      | Montgomery, AL       |   115 |   6.05 |        |     3 |
+|       51 | Katie Randolph     | Brunswick, OH        |   115 |   6.05 |        |       |
+|       52 | Samuel Pryer       | Orange, CA           |   110 |   5.79 |        |       |
+| **52\*** | Isabella Lex       | Dunwoody, GA         |   110 |   5.79 |        |       |
+|       54 | Carley Trammell    | Fort Collins, CO     |    95 |      5 |        |     1 |
+|       55 | Sarah Belay        | Dunwoody, GA         |    85 |   4.47 |        |       |
+|       56 | Ian McGillis       | Brunswick, OH        |    70 |   3.68 |        |       |
+|       57 | Jared Siddall      | Syracuse, NY         |    65 |   3.42 |        |       |
+|       58 | Joshua Napper      | Ozark, MO (IC)       |    50 |   2.63 |        |       |
+|       59 | Jonathan Kessie    | St. Petersburg, FL   |    35 |   1.84 |        |       |
+|       60 | Amanda Snider      | Chariton, IA         |    35 |   1.84 |        |     1 |
+|       61 | Nathan Kober       | Oshkosh, WI          |    10 |   0.53 |        |       |
+| **61\*** | Thomas Pryer       | Orange, CA           |    10 |   0.53 |        |       |
+|       63 | Danielle Tayler    | St. Petersburg, FL   |     0 |      0 |        |       |
+|       64 | Therese Simoneau   | St. Petersburg, FL   |   -15 |  -0.79 |        |       |
 
 ## Preliminaries
 
 ### Group A
 
-| Rank | Team                                          | Record | Total |
+|    # | Team                                          | Record | Total |
 | ---: | --------------------------------------------- | ------ | ----: |
 |    1 | Cedar Park A/G, Bothell, WA                   | 8 / 1  |  2350 |
 |    2 | James River A/G, "One in Christ", Ozark, MO   | 8 / 1  |  1840 |
@@ -252,7 +252,7 @@ Team photos are provided courtesy of Larry Mullins.
 
 ### Group B
 
-| Rank | Team                            | Record | Total |
+|    # | Team                            | Record | Total |
 | ---: | ------------------------------- | ------ | ----: |
 |    1 | First A/G, Binghamton, NY       | 7 / 2  |  1255 |
 |    2 | Faith A/G, Orlando, FL          | 6 / 3  |  1680 |
@@ -269,7 +269,7 @@ Team photos are provided courtesy of Larry Mullins.
 
 ### Group C
 
-| Rank | Team                                                              | Record | Total |
+|    # | Team                                                              | Record | Total |
 | ---: | ----------------------------------------------------------------- | ------ | ----: |
 |    1 | Praise A/G, Garfield, NJ                                          | 9 / 0  |  1600 |
 |    2 | Manassas A/G, Bristow, VA                                         | 8 / 1  |  1435 |
@@ -284,7 +284,7 @@ Team photos are provided courtesy of Larry Mullins.
 
 ### Group D
 
-| Rank | Team                                                                            | Record | Total |
+|    # | Team                                                                            | Record | Total |
 | ---: | ------------------------------------------------------------------------------- | ------ | ----: |
 |    1 | Owasso First A/G, Owasso, OK                                                    | 9 / 0  |  2375 |
 |    2 | Norhtridge A/G, Grand Island, NE                                                | 6 / 3  |  1310 |

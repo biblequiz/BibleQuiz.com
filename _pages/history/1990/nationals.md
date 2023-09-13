@@ -22,24 +22,24 @@ The 1990 field contained three past and two future National Champions. In additi
 
 ### Teams
 
-| Rank | Team                                      | Record | Total | Avg    | Total Margin | Avg Margin |
-|-----:|-------------------------------------------|--------|------:|-------:|-------------:|-----------:|
-| 1    | Carpenter's Home Church, Lakeland, FL     | 13 / 2 | 2725  | 181.67 | 760          | 50.67      |
-| 2    | Park Crest A/G, Springfield, MO           | 12 / 3 | 2445  | 163    | 545          | 36.33      |
-| 3    | First A/G, Moberly, MO                    | 10 / 5 | 2335  | 155.67 | 1060         | 70.67      |
-| 4    | Renton A/G, Renton, WA                    | 10 / 5 | 2050  | 136.67 | -210         | -14        |
-| 5    | Citrus Heights A/G, Citrus Heights, CA    | 9 / 6  | 1965  | 131    | -760         | -50.67     |
-| 6    | First A/G, Bartlesville, OK               | 9 / 6  | 1895  | 126.33 | 305          | 20.33      |
-| 7    | Braeswood A/G, Houston, TX                | 7 / 8  | 1960  | 130.67 | 1170         | 78         |
-| 8    | First A/G, Warren, OH                     | 7 / 8  | 1815  | 121    | -350         | -23.33     |
-| 9    | Calvary Christian Center, Buena Park, CA  | 8 / 7  | 1590  | 106    | -305         | -20.33     |
-| 10   | Central A/G, Springfield, MO              | 8 / 7  | 2050  | 136.67 | 540          | 36         |
-| 11   | Allison Park A/G, Allison Park, PA        | 6 / 9  | 1900  | 126.67 | -545         | -36.33     |
-| 12   | Evangel Community Church, Centerville, GA | 6 / 9  | 2165  | 144.33 | 350          | 23.33      |
-| 13   | First A/G, Kenosha, WI                    | 5 / 10 | 1275  | 85     | -1060        | -70.67     |
-| 14   | Moosic A/G, Moosic, PA                    | 5 / 10 | 2260  | 150.67 | 210          | 14         |
-| 15   | Hobart A/G, Hobart, IN                    | 3 / 12 | 1510  | 100.67 | -540         | -36        |
-| 16   | Christian Life Center, Missoula, MT       | 2 / 13 | 790   | 52.67  | -1170        | -78        |
+|    # | Team                                      | Record | Total |    Avg | Total Margin | Avg Margin |
+| ---: | ----------------------------------------- | ------ | ----: | -----: | -----------: | ---------: |
+|    1 | Carpenter's Home Church, Lakeland, FL     | 13 / 2 |  2725 | 181.67 |          760 |      50.67 |
+|    2 | Park Crest A/G, Springfield, MO           | 12 / 3 |  2445 |    163 |          545 |      36.33 |
+|    3 | First A/G, Moberly, MO                    | 10 / 5 |  2335 | 155.67 |         1060 |      70.67 |
+|    4 | Renton A/G, Renton, WA                    | 10 / 5 |  2050 | 136.67 |         -210 |        -14 |
+|    5 | Citrus Heights A/G, Citrus Heights, CA    | 9 / 6  |  1965 |    131 |         -760 |     -50.67 |
+|    6 | First A/G, Bartlesville, OK               | 9 / 6  |  1895 | 126.33 |          305 |      20.33 |
+|    7 | Braeswood A/G, Houston, TX                | 7 / 8  |  1960 | 130.67 |         1170 |         78 |
+|    8 | First A/G, Warren, OH                     | 7 / 8  |  1815 |    121 |         -350 |     -23.33 |
+|    9 | Calvary Christian Center, Buena Park, CA  | 8 / 7  |  1590 |    106 |         -305 |     -20.33 |
+|   10 | Central A/G, Springfield, MO              | 8 / 7  |  2050 | 136.67 |          540 |         36 |
+|   11 | Allison Park A/G, Allison Park, PA        | 6 / 9  |  1900 | 126.67 |         -545 |     -36.33 |
+|   12 | Evangel Community Church, Centerville, GA | 6 / 9  |  2165 | 144.33 |          350 |      23.33 |
+|   13 | First A/G, Kenosha, WI                    | 5 / 10 |  1275 |     85 |        -1060 |     -70.67 |
+|   14 | Moosic A/G, Moosic, PA                    | 5 / 10 |  2260 | 150.67 |          210 |         14 |
+|   15 | Hobart A/G, Hobart, IN                    | 3 / 12 |  1510 | 100.67 |         -540 |        -36 |
+|   16 | Christian Life Center, Missoula, MT       | 2 / 13 |   790 |  52.67 |        -1170 |        -78 |
 
 ### Individuals
 
@@ -48,13 +48,13 @@ The 1990 field contained three past and two future National Champions. In additi
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Quizzer          | Church             | Total | Avg   |
-|-----:|------------------|--------------------|------:|------:|
-| 1    | Brian Gibbons    | Moosic, PA         | 1480  | 98.67 |
-| 2    | Mark Childers    | Centerville, GA    | 1305  | 87    |
-| 3    | Steve Schweitzer | Hobart, IN         | 1380  | 92    |
-| 4    | Garrett Smiley   | Lakeland, FL       | 1075  | 71.67 |
-| 5    | Bryan Martindale | Citrus Heights, CA | 1060  | 70.67 |
+|    # | Quizzer          | Church             | Total |   Avg |
+| ---: | ---------------- | ------------------ | ----: | ----: |
+|    1 | Brian Gibbons    | Moosic, PA         |  1480 | 98.67 |
+|    2 | Mark Childers    | Centerville, GA    |  1305 |    87 |
+|    3 | Steve Schweitzer | Hobart, IN         |  1380 |    92 |
+|    4 | Garrett Smiley   | Lakeland, FL       |  1075 | 71.67 |
+|    5 | Bryan Martindale | Citrus Heights, CA |  1060 | 70.67 |
 
 ## Teams
 

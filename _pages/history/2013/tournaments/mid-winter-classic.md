@@ -31,7 +31,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name              | Church                                  | Total |    Avg |
+|    # | Quizzer           | Church                                  | Total |    Avg |
 | ---: | ----------------- | --------------------------------------- | ----: | -----: |
 |    1 | Ryan Toeller      | Racine, WI                              |   925 | 102.78 |
 |    2 | Kenadee Schrock   | South Bend, IN "Southgate"              |   725 |  80.56 |
@@ -77,7 +77,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name               | Church                                    | Total |   Avg |
+|    # | Quizzer            | Church                                    | Total |   Avg |
 | ---: | ------------------ | ----------------------------------------- | ----: | ----: |
 |    1 | Christopher Turner | Georgetown, KY                            |   600 |   100 |
 |    2 | Sopulu Anidobu     | Orland Park, IL "Arrested for the Better" |   505 | 84.17 |
@@ -120,7 +120,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name            | Church               | Total |  Avg |
+|    # | Quizzer         | Church               | Total |  Avg |
 | ---: | --------------- | -------------------- | ----: | ---: |
 |    1 | Billy Branham   | Menominee, MI        |   610 |  122 |
 |    2 | Ross Toeller    | Racine, WI           |   550 |  110 |

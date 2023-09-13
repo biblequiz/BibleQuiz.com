@@ -25,7 +25,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name              | Team              | Total |
+|    # | Quizzer           | Team              | Total |
 | ---: | ----------------- | ----------------- | ----: |
 |    1 | Lindsay Cowan     | Toccoa, GA        |  1580 |
 |    2 | Emily Herron      | Warner Robins, GA |  1180 |
@@ -54,7 +54,7 @@ menubar_toc_static:
 
 #### Individuals
 
-|    # | Name              | Team              | Total |
+|    # | Quizzer           | Team              | Total |
 | ---: | ----------------- | ----------------- | ----: |
 |    1 | Seth Smith        | Lexington #1, KY  |   640 |
 |    2 | Alecia Rajesh     | Greensboro #1, NC |   465 |
@@ -79,7 +79,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name              | Team              | Total |
+|    # | Quizzer           | Team              | Total |
 | ---: | ----------------- | ----------------- | ----: |
 |    1 | Savannah Mims     | Montgomery, AL    |   340 |
 |    2 | Lily Barfield     | Honea Path, SC    |   140 |

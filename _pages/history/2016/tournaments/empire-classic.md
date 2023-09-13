@@ -36,7 +36,7 @@ And thank you to Jesse Czubkowski for writing questions this year!
 
 ### Teams
 
-| Rank | Team                                       |  Win | Loss |  Avg |
+|    # | Team                                       |    W |    L |  Avg |
 | ---: | ------------------------------------------ | ---: | ---: | ---: |
 |    1 | Maple Lane AG, Deposit, NY                 |    6 |    1 |  215 |
 |    2 | Living Hope Worship Center, Swedesboro, NJ |    5 |    2 |  190 |
@@ -49,36 +49,36 @@ And thank you to Jesse Czubkowski for writing questions this year!
 
 ### Individuals
 
-| Rank | Quizzer                   | Team                                       | Points |   QO |  Avg |
-| ---: | ------------------------- | ------------------------------------------ | -----: | ---: | ---: |
-|    1 | Gabriel Flores            | Bethany Church, Wyckoff, NJ                |    930 |    7 |  133 |
-|    2 | Katrina Dowdy             | Living Hope Worship Center, Swedesboro, NJ |    815 |    7 |  116 |
-|    3 | Chad Sederwall            | Vailsburg AG, Newark, NJ                   |    625 |    6 |   89 |
-|    4 | Caleb Hoffmann            | Maple Lane AG, Deposit, NY                 |    575 |    5 |   82 |
-|    5 | Hannah Erdvig             | Smithtown-Lori, Smithtown, NY              |    515 |    4 |   74 |
-|    6 | Veronica Cherednichenko   | First AG (Frank), Binghamton, NY           |    465 |    3 |   66 |
-|    7 | Solomon Stevens           | Maple Lane AG, Deposit, NY                 |    425 |    4 |   61 |
-|    8 | Nick Congdon              | First AG (Aaron), Binghamton, NY           |    420 |    3 |   60 |
-|    9 | Ally Waller               | Kennebec Valley AG, Chelsea, ME            |    390 |    2 |   56 |
-|   10 | Hannah Hill               | Living Hope Worship Center, Swedesboro, NJ |    375 |    3 |   54 |
-|   11 | Julia-Anna Cherednichenko | First AG (Aaron), Binghamton, NY           |    370 |    3 |   53 |
-|   12 | Liam Bartlett             | Kennebec Valley AG, Chelsea, ME            |    325 |    3 |   46 |
-|   13 | Judah Stevens             | Maple Lane AG, Deposit, NY                 |    265 |    2 |   38 |
-|   14 | Sarah Wong                | Smithtown-Lori, Smithtown, NY              |    260 |    1 |   37 |
-|   15 | Josiah Bartlett           | Kennebec Valley AG, Chelsea, ME            |    260 |    0 |   37 |
-|   16 | Ethan Hoffmann            | Maple Lane AG, Deposit, NY                 |    240 |    2 |   34 |
-|   17 | Lydia Hill                | Living Hope Worship Center, Swedesboro, NJ |    140 |    0 |   20 |
-|   18 | Andrew Loiacono           | Smithtown-Lori, Smithtown, NY              |    125 |    0 |   18 |
-|   19 | Caleb Gerhart             | First AG (Frank), Binghamton, NY           |    115 |    0 |   16 |
-|   20 | Daniel Flores             | Bethany Church, Wyckoff, NJ                |     95 |    0 |   14 |
-|   21 | David Mouwon              | Vailsburg AG, Newark, NJ                   |     85 |    0 |   12 |
-|   22 | Alexis Adelmann           | Bethany Church, Wyckoff, NJ                |     20 |    0 |    3 |
+|    # | Quizzer                   | Team                                       | Total |   QO |  Avg |
+| ---: | ------------------------- | ------------------------------------------ | ----: | ---: | ---: |
+|    1 | Gabriel Flores            | Bethany Church, Wyckoff, NJ                |   930 |    7 |  133 |
+|    2 | Katrina Dowdy             | Living Hope Worship Center, Swedesboro, NJ |   815 |    7 |  116 |
+|    3 | Chad Sederwall            | Vailsburg AG, Newark, NJ                   |   625 |    6 |   89 |
+|    4 | Caleb Hoffmann            | Maple Lane AG, Deposit, NY                 |   575 |    5 |   82 |
+|    5 | Hannah Erdvig             | Smithtown-Lori, Smithtown, NY              |   515 |    4 |   74 |
+|    6 | Veronica Cherednichenko   | First AG (Frank), Binghamton, NY           |   465 |    3 |   66 |
+|    7 | Solomon Stevens           | Maple Lane AG, Deposit, NY                 |   425 |    4 |   61 |
+|    8 | Nick Congdon              | First AG (Aaron), Binghamton, NY           |   420 |    3 |   60 |
+|    9 | Ally Waller               | Kennebec Valley AG, Chelsea, ME            |   390 |    2 |   56 |
+|   10 | Hannah Hill               | Living Hope Worship Center, Swedesboro, NJ |   375 |    3 |   54 |
+|   11 | Julia-Anna Cherednichenko | First AG (Aaron), Binghamton, NY           |   370 |    3 |   53 |
+|   12 | Liam Bartlett             | Kennebec Valley AG, Chelsea, ME            |   325 |    3 |   46 |
+|   13 | Judah Stevens             | Maple Lane AG, Deposit, NY                 |   265 |    2 |   38 |
+|   14 | Sarah Wong                | Smithtown-Lori, Smithtown, NY              |   260 |    1 |   37 |
+|   15 | Josiah Bartlett           | Kennebec Valley AG, Chelsea, ME            |   260 |    0 |   37 |
+|   16 | Ethan Hoffmann            | Maple Lane AG, Deposit, NY                 |   240 |    2 |   34 |
+|   17 | Lydia Hill                | Living Hope Worship Center, Swedesboro, NJ |   140 |    0 |   20 |
+|   18 | Andrew Loiacono           | Smithtown-Lori, Smithtown, NY              |   125 |    0 |   18 |
+|   19 | Caleb Gerhart             | First AG (Frank), Binghamton, NY           |   115 |    0 |   16 |
+|   20 | Daniel Flores             | Bethany Church, Wyckoff, NJ                |    95 |    0 |   14 |
+|   21 | David Mouwon              | Vailsburg AG, Newark, NJ                   |    85 |    0 |   12 |
+|   22 | Alexis Adelmann           | Bethany Church, Wyckoff, NJ                |    20 |    0 |    3 |
 
 ## MSQ Results
 
 ### Teams
 
-| Rank | Team                                       |  Win | Loss |  Avg |
+|    # | Team                                       |    W |    L |  Avg |
 | ---: | ------------------------------------------ | ---: | ---: | ---: |
 |    1 | Redeemer Church, Utica, NY                 |    6 |    1 |  199 |
 |    2 | Smithtown-Peter, Smithtown, New York       |    5 |    2 |  207 |
@@ -91,27 +91,27 @@ And thank you to Jesse Czubkowski for writing questions this year!
 
 ### Individuals
 
-| Rank | Quizzer              | Team                                       | Points |   QO |  Avg |
-| ---: | -------------------- | ------------------------------------------ | -----: | ---: | ---: |
-|    1 | Andrew Erdvig        | Smithtown-Peter, Smithtown, New York       |    910 |    7 |  130 |
-|    2 | Andrew Scarinzi      | First AG, Binghamton, NY                   |    750 |    6 |  107 |
-|    3 | Nathaniel Ward       | Bethany Church, Wyckoff, NJ                |    700 |    5 |  100 |
-|    4 | Christian Stevens    | Redeemer Church, Utica, NY                 |    640 |    6 |   91 |
-|    5 | Graham Hoffmann      | Redeemer Church, Utica, NY                 |    630 |    6 |   90 |
-|    6 | Hannah Fioramonti    | Smithtown-Heidi, Smithtown, New York       |    595 |    5 |   85 |
-|    7 | Molly Pellegrino     | Smithtown-Heidi, Smithtown, New York       |    550 |    5 |   79 |
-|    8 | Joshua Samuel        | Living Hope Worship Center, Swedesboro, NJ |    430 |    3 |   61 |
-|    9 | Naomi Giancana       | Smithtown-Peter, Smithtown, New York       |    335 |    2 |   48 |
-|   10 | Alisa Cherednichenko | First AG, Binghamton, NY                   |    320 |    3 |   46 |
-|   11 | Joseph Subrath       | Bethlehem Church, Richmond Hill, New York  |    215 |    1 |   31 |
-|   12 | Thomas Clinton       | Smithtown-Peter, Smithtown, New York       |    205 |    1 |   29 |
-|   13 | Garrett Adelmann     | Bethany Church, Wyckoff, NJ                |    180 |    1 |   26 |
-|   14 | Todd Pettet          | Bethany Church, Wyckoff, NJ                |    170 |    0 |   24 |
-|   14 | Daynah Dyal          | Bethlehem Church, Richmond Hill, New York  |    170 |    0 |   24 |
-|   15 | Ashley Swaner        | Smithtown-Heidi, Smithtown, New York       |    160 |    1 |   23 |
-|   16 | Nathan Dowdy         | Living Hope Worship Center, Swedesboro, NJ |    140 |    0 |   20 |
-|   17 | Sophie Di Iorio      | Bethany Church, Wyckoff, NJ                |    135 |    1 |   19 |
-|   18 | Noah Alquire         | Redeemer Church, Utica, NY                 |    105 |    0 |   15 |
-|   19 | Bradley Gerhart      | First AG, Binghamton, NY                   |     95 |    0 |   14 |
-|   20 | Matt Callahan        | Living Hope Worship Center, Swedesboro, NJ |     65 |    0 |    9 |
-|   21 | Ethan Hurst          | Redeemer Church, Utica, NY                 |     20 |    0 |    3 |
+|    # | Quizzer              | Team                                       | Total |   QO |  Avg |
+| ---: | -------------------- | ------------------------------------------ | ----: | ---: | ---: |
+|    1 | Andrew Erdvig        | Smithtown-Peter, Smithtown, New York       |   910 |    7 |  130 |
+|    2 | Andrew Scarinzi      | First AG, Binghamton, NY                   |   750 |    6 |  107 |
+|    3 | Nathaniel Ward       | Bethany Church, Wyckoff, NJ                |   700 |    5 |  100 |
+|    4 | Christian Stevens    | Redeemer Church, Utica, NY                 |   640 |    6 |   91 |
+|    5 | Graham Hoffmann      | Redeemer Church, Utica, NY                 |   630 |    6 |   90 |
+|    6 | Hannah Fioramonti    | Smithtown-Heidi, Smithtown, New York       |   595 |    5 |   85 |
+|    7 | Molly Pellegrino     | Smithtown-Heidi, Smithtown, New York       |   550 |    5 |   79 |
+|    8 | Joshua Samuel        | Living Hope Worship Center, Swedesboro, NJ |   430 |    3 |   61 |
+|    9 | Naomi Giancana       | Smithtown-Peter, Smithtown, New York       |   335 |    2 |   48 |
+|   10 | Alisa Cherednichenko | First AG, Binghamton, NY                   |   320 |    3 |   46 |
+|   11 | Joseph Subrath       | Bethlehem Church, Richmond Hill, New York  |   215 |    1 |   31 |
+|   12 | Thomas Clinton       | Smithtown-Peter, Smithtown, New York       |   205 |    1 |   29 |
+|   13 | Garrett Adelmann     | Bethany Church, Wyckoff, NJ                |   180 |    1 |   26 |
+|   14 | Todd Pettet          | Bethany Church, Wyckoff, NJ                |   170 |    0 |   24 |
+|   14 | Daynah Dyal          | Bethlehem Church, Richmond Hill, New York  |   170 |    0 |   24 |
+|   15 | Ashley Swaner        | Smithtown-Heidi, Smithtown, New York       |   160 |    1 |   23 |
+|   16 | Nathan Dowdy         | Living Hope Worship Center, Swedesboro, NJ |   140 |    0 |   20 |
+|   17 | Sophie Di Iorio      | Bethany Church, Wyckoff, NJ                |   135 |    1 |   19 |
+|   18 | Noah Alquire         | Redeemer Church, Utica, NY                 |   105 |    0 |   15 |
+|   19 | Bradley Gerhart      | First AG, Binghamton, NY                   |    95 |    0 |   14 |
+|   20 | Matt Callahan        | Living Hope Worship Center, Swedesboro, NJ |    65 |    0 |    9 |
+|   21 | Ethan Hurst          | Redeemer Church, Utica, NY                 |    20 |    0 |    3 |

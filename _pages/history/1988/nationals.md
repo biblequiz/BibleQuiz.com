@@ -33,79 +33,79 @@ The top scorer at the 1988 National Finals was Marcae Johnson of Central A/G, Sp
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                                      | Record | Total | Avg    | Margin | Avg Margin |
-|-----:|-------------------------------------------|--------|------:|-------:|-------:|-----------:|
-| 1    | Eastside A/G, Tucson, AZ                  | 13 / 2 | 2180  | 145.33 | 725    | 48.33      |
-| 2    | Central A/G, Springfield, MO              | 11 / 4 | 2260  | 150.67 | 750    | 50         |
-| 3    | First Christian A/G, Cincinnati, OH       | 10 / 5 | 1700  | 113.33 | -85    | -5.67      |
-| 4    | Trinity Christian Church, Hudson, OH      | 10 / 5 | 1905  | 127    | 135    | 9          |
-| 5    | Free Gospel Church, Flushing, NY          | 9 / 6  | 1690  | 112.67 | -125   | -8.33      |
-| 6    | Parkcrest A/G, Springfield, MO            | 9 / 6  | 1655  | 110.33 | 185    | 12.33      |
-| 7    | First A/G, Bartlesville, OK               | 8 / 7  | 1880  | 125.33 | 505    | 33.67      |
-| 8    | Carpenter's Home Church, Lakeland, FL A-2 | 8 / 7  | 1750  | 116.67 | 115    | 7.67       |
-| 9    | Citrus Heights A/G, Citrus Heights, CA    | 7 / 8  | 1950  | 130    | 520    | 34.67      |
-| 10   | First A/G, Billings, MT                   | 7 / 8  | 1445  | 96.33  | -385   | -25.67     |
-| 11   | First A/G, Burlington, IA                 | 7 / 8  | 1370  | 91.33  | -460   | -30.67     |
-| 12   | Evangel A/G, Wichita, KS                  | 6 / 9  | 1840  | 122.67 | 200    | 13.33      |
-| 13   | Carpenter's Home Church, Lakeland, FL A-1 | 5 / 10 | 1520  | 101.33 | -540   | -36        |
-| 14   | First A/G, Cedar Rapids, IA               | 5 / 10 | 1960  | 130.67 | 155    | 10.33      |
-| 15   | Hempstead A/G, Hempstead, NY              | 3 / 12 | 1400  | 93.33  | -715   | -47.67     |
-| 16   | Renton A/G, Renton, WA                    | 2 / 13 | 1135  | 75.67  | -1090  | -72.67     |
+|    # | Team                                      | Record | Total |    Avg | Margin | Avg Margin |
+| ---: | ----------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
+|    1 | Eastside A/G, Tucson, AZ                  | 13 / 2 |  2180 | 145.33 |    725 |      48.33 |
+|    2 | Central A/G, Springfield, MO              | 11 / 4 |  2260 | 150.67 |    750 |         50 |
+|    3 | First Christian A/G, Cincinnati, OH       | 10 / 5 |  1700 | 113.33 |    -85 |      -5.67 |
+|    4 | Trinity Christian Church, Hudson, OH      | 10 / 5 |  1905 |    127 |    135 |          9 |
+|    5 | Free Gospel Church, Flushing, NY          | 9 / 6  |  1690 | 112.67 |   -125 |      -8.33 |
+|    6 | Parkcrest A/G, Springfield, MO            | 9 / 6  |  1655 | 110.33 |    185 |      12.33 |
+|    7 | First A/G, Bartlesville, OK               | 8 / 7  |  1880 | 125.33 |    505 |      33.67 |
+|    8 | Carpenter's Home Church, Lakeland, FL A-2 | 8 / 7  |  1750 | 116.67 |    115 |       7.67 |
+|    9 | Citrus Heights A/G, Citrus Heights, CA    | 7 / 8  |  1950 |    130 |    520 |      34.67 |
+|   10 | First A/G, Billings, MT                   | 7 / 8  |  1445 |  96.33 |   -385 |     -25.67 |
+|   11 | First A/G, Burlington, IA                 | 7 / 8  |  1370 |  91.33 |   -460 |     -30.67 |
+|   12 | Evangel A/G, Wichita, KS                  | 6 / 9  |  1840 | 122.67 |    200 |      13.33 |
+|   13 | Carpenter's Home Church, Lakeland, FL A-1 | 5 / 10 |  1520 | 101.33 |   -540 |        -36 |
+|   14 | First A/G, Cedar Rapids, IA               | 5 / 10 |  1960 | 130.67 |    155 |      10.33 |
+|   15 | Hempstead A/G, Hempstead, NY              | 3 / 12 |  1400 |  93.33 |   -715 |     -47.67 |
+|   16 | Renton A/G, Renton, WA                    | 2 / 13 |  1135 |  75.67 |  -1090 |     -72.67 |
 
 ### Individuals
 
-| Rank     | Quizzer/Church    | Church                     | Total | Avg   |
-|---------:|-------------------|----------------------------|------:|------:|
-| 1        | Marcae Johnson    | Central, Springfield, MO   | 1380  | 92    |
-| 2        | Jason Picker      | Tucson, AZ                 | 1315  | 87.67 |
-| 3        | Jenny Hable       | Hudson, OH                 | 1305  | 87    |
-| 4        | Bryan Martindale  | Citrus Heights, CA         | 1155  | 77    |
-| 5        | Shauna Gorsuch    | Cincinnati, OH             | 1050  | 70    |
-| 6        | Maureen Billings  | Cedar Rapids, IA           | 985   | 65.67 |
-| 7        | Pat Hartsfield    | Renton, WA                 | 950   | 63.33 |
-| **7\***  | David Lowe        | Wichita, KS                | 950   | 63.33 |
-| 9        | Marcy McCollough  | Billings, MT               | 915   | 61    |
-| 10       | David Garth       | Cedar Rapids, IA           | 895   | 59.67 |
-| 11       | Jamew Winrow      | Lakeland #2, FL            | 890   | 59.33 |
-| 12       | Carl Wise         | Lakeland #1, FL            | 775   | 51.67 |
-| 13       | Darryl Wootton    | Bartlesville, OK           | 745   | 49.67 |
-| 14       | Kevin Gallo       | Hempstead, NY              | 645   | 43    |
-| **14\*** | Matt Wilkie       | Parkcrest, Springfield, MO | 645   | 43    |
-| 16       | Travis Button     | Lakeland #1, FL            | 635   | 42.33 |
-| 17       | Steve Chaney      | Citrus Heights, CA         | 615   | 41    |
-| 18       | Bryan Wootton     | Bartlesville, OK           | 595   | 39.67 |
-| 19       | Paul Johnson      | Central, Springfield, MO   | 590   | 39.33 |
-| 20       | Jared Vale        | Flushing, NY               | 585   | 39    |
-| 21       | Christina Messina | Flushing, NY               | 575   | 38.33 |
-| 22       | Jacinda Curtis    | Parkcrest, Springfield, MO | 570   | 38    |
-| 23       | Anders Eliason    | Flushing, NY               | 565   | 37.67 |
-| **23\*** | Barbara Turner    | Tucson, AZ                 | 565   | 37.67 |
-| 25       | Garrett Smiley    | Lakeland #2, FL            | 555   | 37    |
-| 26       | Shelby Pratt      | Bartlesville, OK           | 550   | 36.67 |
-| 27       | Nathan Pohl       | Burlington, IA             | 510   | 34    |
-| 28       | Jessica Caldwell  | Wichita, KS                | 490   | 32.67 |
-| 29       | Mary Jo Sharp     | Cincinnati, OH             | 485   | 32.33 |
-| 30       | Randy Cathcart    | Parkcrest, Springfield, MO | 450   | 30    |
-| 31       | Melissa Pohl      | Burlington, IA             | 430   | 28.67 |
-| 32       | Brian Walrond     | Hempstead, NY              | 395   | 26.33 |
-| 33       | Jeana Helt        | Wichita, KS                | 380   | 25.33 |
-| 34       | Kyle Riley        | Billings, MT               | 360   | 24    |
-| 35       | Matthew Hunt      | Burlington, IA             | 350   | 23.33 |
-| 36       | Petra McLure      | Hudson, OH                 | 320   | 21.33 |
-| 37       | Kim Wagner        | Tucson, AZ                 | 305   | 20.33 |
-| 38       | Kevin Revell      | Lakeland, #2, FL           | 280   | 18.67 |
-| 39       | Brad Walrond      | Hempstead, NY              | 265   | 17.67 |
-| 40       | Adrianna Oyola    | Central, Springfield, MO   | 250   | 16.67 |
-| 41       | Kai Stenberg      | Billings, MT               | 170   | 11.33 |
-| 42       | Tammie Hammerle   | Lakeland #1, FL            | 165   | 11    |
-| 43       | Ken Richards      | Cincinnati, OH             | 155   | 10.33 |
-| 44       | Lynnda Hickey     | Hudson, OH                 | 145   | 9.67  |
-| 45       | Christy Hable     | Hudson, OH                 | 135   | 9     |
-| 46       | Jeremy Black      | Citrus Heights, CA         | 130   | 8.67  |
-| 47       | Elaine Iannucci   | Hempstead, NY              | 110   | 7.33  |
-| 48       | Jason Campbell    | Cedar Rapids, IA           | 90    | 6     |
-| **48\*** | Dennis Palmer     | Renton, WA                 | 90    | 6     |
-| 50       | Andy Stott        | Burlington, IA             | 80    | 5.33  |
+|     Rank | Quizzer           | Church                     | Total |   Avg |
+| -------: | ----------------- | -------------------------- | ----: | ----: |
+|        1 | Marcae Johnson    | Central, Springfield, MO   |  1380 |    92 |
+|        2 | Jason Picker      | Tucson, AZ                 |  1315 | 87.67 |
+|        3 | Jenny Hable       | Hudson, OH                 |  1305 |    87 |
+|        4 | Bryan Martindale  | Citrus Heights, CA         |  1155 |    77 |
+|        5 | Shauna Gorsuch    | Cincinnati, OH             |  1050 |    70 |
+|        6 | Maureen Billings  | Cedar Rapids, IA           |   985 | 65.67 |
+|        7 | Pat Hartsfield    | Renton, WA                 |   950 | 63.33 |
+|  **7\*** | David Lowe        | Wichita, KS                |   950 | 63.33 |
+|        9 | Marcy McCollough  | Billings, MT               |   915 |    61 |
+|       10 | David Garth       | Cedar Rapids, IA           |   895 | 59.67 |
+|       11 | Jamew Winrow      | Lakeland #2, FL            |   890 | 59.33 |
+|       12 | Carl Wise         | Lakeland #1, FL            |   775 | 51.67 |
+|       13 | Darryl Wootton    | Bartlesville, OK           |   745 | 49.67 |
+|       14 | Kevin Gallo       | Hempstead, NY              |   645 |    43 |
+| **14\*** | Matt Wilkie       | Parkcrest, Springfield, MO |   645 |    43 |
+|       16 | Travis Button     | Lakeland #1, FL            |   635 | 42.33 |
+|       17 | Steve Chaney      | Citrus Heights, CA         |   615 |    41 |
+|       18 | Bryan Wootton     | Bartlesville, OK           |   595 | 39.67 |
+|       19 | Paul Johnson      | Central, Springfield, MO   |   590 | 39.33 |
+|       20 | Jared Vale        | Flushing, NY               |   585 |    39 |
+|       21 | Christina Messina | Flushing, NY               |   575 | 38.33 |
+|       22 | Jacinda Curtis    | Parkcrest, Springfield, MO |   570 |    38 |
+|       23 | Anders Eliason    | Flushing, NY               |   565 | 37.67 |
+| **23\*** | Barbara Turner    | Tucson, AZ                 |   565 | 37.67 |
+|       25 | Garrett Smiley    | Lakeland #2, FL            |   555 |    37 |
+|       26 | Shelby Pratt      | Bartlesville, OK           |   550 | 36.67 |
+|       27 | Nathan Pohl       | Burlington, IA             |   510 |    34 |
+|       28 | Jessica Caldwell  | Wichita, KS                |   490 | 32.67 |
+|       29 | Mary Jo Sharp     | Cincinnati, OH             |   485 | 32.33 |
+|       30 | Randy Cathcart    | Parkcrest, Springfield, MO |   450 |    30 |
+|       31 | Melissa Pohl      | Burlington, IA             |   430 | 28.67 |
+|       32 | Brian Walrond     | Hempstead, NY              |   395 | 26.33 |
+|       33 | Jeana Helt        | Wichita, KS                |   380 | 25.33 |
+|       34 | Kyle Riley        | Billings, MT               |   360 |    24 |
+|       35 | Matthew Hunt      | Burlington, IA             |   350 | 23.33 |
+|       36 | Petra McLure      | Hudson, OH                 |   320 | 21.33 |
+|       37 | Kim Wagner        | Tucson, AZ                 |   305 | 20.33 |
+|       38 | Kevin Revell      | Lakeland, #2, FL           |   280 | 18.67 |
+|       39 | Brad Walrond      | Hempstead, NY              |   265 | 17.67 |
+|       40 | Adrianna Oyola    | Central, Springfield, MO   |   250 | 16.67 |
+|       41 | Kai Stenberg      | Billings, MT               |   170 | 11.33 |
+|       42 | Tammie Hammerle   | Lakeland #1, FL            |   165 |    11 |
+|       43 | Ken Richards      | Cincinnati, OH             |   155 | 10.33 |
+|       44 | Lynnda Hickey     | Hudson, OH                 |   145 |  9.67 |
+|       45 | Christy Hable     | Hudson, OH                 |   135 |     9 |
+|       46 | Jeremy Black      | Citrus Heights, CA         |   130 |  8.67 |
+|       47 | Elaine Iannucci   | Hempstead, NY              |   110 |  7.33 |
+|       48 | Jason Campbell    | Cedar Rapids, IA           |    90 |     6 |
+| **48\*** | Dennis Palmer     | Renton, WA                 |    90 |     6 |
+|       50 | Andy Stott        | Burlington, IA             |    80 |  5.33 |
 
 ## Teams
 

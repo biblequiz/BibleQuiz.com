@@ -31,16 +31,16 @@ The top quizzer at the 1980 National Finals was Billy Muniz of Calvary Temple A/
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                              | Record | Total | Avg    | Margin | Avg Margin |
-| ---- | --------------------------------- | ------ | ----- | ------ | ------ | ---------- |
-| 1    | Bigelow A/G, Bigelow, AR*         | 5 / 2  | 1030  | 147.14 | 15     | 2.14       |
-| 2    | Calvary Temple A/G, Riverside, CA | 5 / 2  | 1270  | 181.43 | 460    | 65.71      |
-| 3    | Trinity A/G, Lanham, MD           | 5 / 2  | 1095  | 156.43 | 60     | 8.57       |
-| 4    | Stone Church, Palos Heights, IL   | 5 / 2  | 1170  | 167.14 | 445    | 63.57      |
-| 5    | Assembly of God, New Sharon, IA   | 3 / 4  | 895   | 127.86 | -345   | -49.29     |
-| 6    | First A/G, Helena, MT             | 2 / 5  | 995   | 142.14 | 45     | 6.43       |
-| 7    | Bethel Temple A/G, Tampa, FL      | 2 / 5  | 915   | 130.71 | -270   | -38.57     |
-| 8    | College Heights A/G, Bryan, TX    | 1 / 6  | 855   | 122.14 | -420   | -60        |
+| #   | Team                              | Record | Total | Avg    | Margin | Avg Margin |
+| --- | --------------------------------- | ------ | ----- | ------ | ------ | ---------- |
+| 1   | Bigelow A/G, Bigelow, AR*         | 5 / 2  | 1030  | 147.14 | 15     | 2.14       |
+| 2   | Calvary Temple A/G, Riverside, CA | 5 / 2  | 1270  | 181.43 | 460    | 65.71      |
+| 3   | Trinity A/G, Lanham, MD           | 5 / 2  | 1095  | 156.43 | 60     | 8.57       |
+| 4   | Stone Church, Palos Heights, IL   | 5 / 2  | 1170  | 167.14 | 445    | 63.57      |
+| 5   | Assembly of God, New Sharon, IA   | 3 / 4  | 895   | 127.86 | -345   | -49.29     |
+| 6   | First A/G, Helena, MT             | 2 / 5  | 995   | 142.14 | 45     | 6.43       |
+| 7   | Bethel Temple A/G, Tampa, FL      | 2 / 5  | 915   | 130.71 | -270   | -38.57     |
+| 8   | College Heights A/G, Bryan, TX    | 1 / 6  | 855   | 122.14 | -420   | -60        |
 
 \* Won 1st Place Playoff
 
@@ -53,7 +53,7 @@ The top quizzer at the 1980 National Finals was Billy Muniz of Calvary Temple A/
 
 ![]({% link assets/1980/BillyTrophy.jpg %})
 
-| Rank | Quizzer                | Church                            | Total |   Avg |
+|    # | Quizzer                | Church                            | Total |   Avg |
 | ---: | ---------------------- | --------------------------------- | ----: | ----: |
 |    1 | Billy Muniz (pictured) | Calvary Temple A/G, Riverside, CA |   590 | 84.29 |
 |    2 | Jeff Wood              | First A/G, Helena, MT             |   585 | 83.57 |

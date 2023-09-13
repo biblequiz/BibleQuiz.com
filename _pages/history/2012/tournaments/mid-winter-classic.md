@@ -32,7 +32,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name              | Church                                 | Total |    Avg |
+|    # | Quizzer           | Church                                 | Total |    Avg |
 | ---: | ----------------- | -------------------------------------- | ----: | -----: |
 |    1 | Josiah Coder      | Cedar Rapids, IA "Unreasoning Animals" |  1220 | 135.56 |
 |    2 | Luke Hamilton     | Taylor, NE "Salt Shakers"              |  1150 | 127.78 |
@@ -79,7 +79,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name             | Church                                | Total |    Avg |
+|    # | Quizzer          | Church                                | Total |    Avg |
 | ---: | ---------------- | ------------------------------------- | ----: | -----: |
 |    1 | Elijah Evers     | Oak Creek, WI "Bibliteens"            |  1010 | 126.25 |
 |    2 | Glenn Kaboskey   | Oak Creek, WI "Bibliteens"            |   460 |   57.5 |
@@ -106,7 +106,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name               | Church                     | Total |   Avg |
+|    # | Quizzer            | Church                     | Total |   Avg |
 | ---: | ------------------ | -------------------------- | ----: | ----: |
 |    1 | Candice Mittenzwei | Green Bay, WI "Westsiders" |   515 | 85.83 |
 |    2 | Nathan Dahlin      | "Things Not Yet Seen"      |   395 | 65.83 |

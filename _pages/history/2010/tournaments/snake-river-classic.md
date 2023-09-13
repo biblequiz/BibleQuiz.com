@@ -15,14 +15,14 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                  | Church         | W-L  | Total |
-| ---: | --------------------- | -------------- | ---- | ----: |
-|    1 | Never Surrender       | Cedar Park, WA | 16-0 |  4150 |
-|    2 | Super Apostles        | Bellgrade, MT  | 10-6 |  2670 |
-|    3 | Dying, Yet We Live    | Kuna, ID       | 10-0 |  2325 |
-|    4 | Unveiled Faces        |                | 8-8  |  2100 |
-|    5 | BNC                   | Bellevue, WA   | 8-8  |  2020 |
-|    6 | Regarded As Imposters | Meridian, ID   | 8-8  |  1820 |
+|    # | Team                  | Church         |    W |    L | Total |
+| ---: | --------------------- | -------------- | ---: | ---: | ----: |
+|    1 | Never Surrender       | Cedar Park, WA |   16 |    0 |  4150 |
+|    2 | Super Apostles        | Bellgrade, MT  |   10 |    6 |  2670 |
+|    3 | Dying, Yet We Live    | Kuna, ID       |   10 |    0 |  2325 |
+|    4 | Unveiled Faces        |                |    8 |    8 |  2100 |
+|    5 | BNC                   | Bellevue, WA   |    8 |    8 |  2020 |
+|    6 | Regarded As Imposters | Meridian, ID   |    8 |    8 |  1820 |
 
 ### Individuals
 
@@ -42,11 +42,11 @@ menubar_toc_static:
 
 ### Teams
 
-| Team                | Church       | W-L  | Total |
-| ------------------- | ------------ | ---- | ----: |
-| Urge U2 Imitate     | Meridian, ID | 11-1 |  1950 |
-| One Abnormally Born | Kuna, ID     | 8-4  |  1305 |
-| Sensible People     | Meridian, ID | 7-5  |  1000 |
+| Team                | Church       |    W |    L | Total |
+| ------------------- | ------------ | ---: | ---: | ----: |
+| Urge U2 Imitate     | Meridian, ID |   11 |    1 |  1950 |
+| One Abnormally Born | Kuna, ID     |    8 |    4 |  1305 |
+| Sensible People     | Meridian, ID |    7 |    5 |  1000 |
 
 ### Individuals
 

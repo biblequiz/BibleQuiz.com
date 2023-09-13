@@ -26,7 +26,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name              | Church                                  | Total |   Avg | Rounds |
+|    # | Quizzer           | Church                                  | Total |   Avg | Rounds |
 | ---: | ----------------- | --------------------------------------- | ----: | ----: | -----: |
 |    1 | Alexi Turnage     | Plymouth, WI "That is sooo Stupid"      |   750 | 93.75 |      8 |
 |    2 | Ryan Toeller      | Racine, WI                              |   685 | 85.63 |      8 |
@@ -60,7 +60,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name             | Church                             | Total |   Avg | Rounds |
+|    # | Quizzer          | Church                             | Total |   Avg | Rounds |
 | ---: | ---------------- | ---------------------------------- | ----: | ----: | -----: |
 |    1 | Janae Rapp       | New Richmond, WI "Alpha"           |   240 |    40 |      6 |
 |    2 | Nathaniel Duncan | Milwaukee, WI "Church in the City" |   225 |  37.5 |      6 |
@@ -90,7 +90,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name           | Church                                 | Total |  Avg | Rounds |
+|    # | Quizzer        | Church                                 | Total |  Avg | Rounds |
 | ---: | -------------- | -------------------------------------- | ----: | ---: | -----: |
 |    1 | Ross Toeller   | Racine                                 |   595 |  119 |      5 |
 |    2 | Don Batty      | Portage #1                             |   455 |   91 |      5 |
@@ -110,11 +110,11 @@ menubar_toc_static:
 
 ## Individual Tournament
 
-|    # | Name              | Church      | Points |
-| ---: | ----------------- | ----------- | -----: |
-|    1 | Ryan Toeller      | Racine, WI  |     90 |
-|    2 | Christian Jackson | Racine, WI  |     50 |
-|    3 | Reanna Toeller    | Racine, WI  |     40 |
-|    4 | Nathan Hazard     | Portage, WI |     15 |
-|   5* | Rebekah Toeller   | Racine, WI  |      0 |
-|   5* | Victoria Roesler  | Portage, WI |      0 |
+|    # | Quizzer           | Church      | Total |
+| ---: | ----------------- | ----------- | ----: |
+|    1 | Ryan Toeller      | Racine, WI  |    90 |
+|    2 | Christian Jackson | Racine, WI  |    50 |
+|    3 | Reanna Toeller    | Racine, WI  |    40 |
+|    4 | Nathan Hazard     | Portage, WI |    15 |
+|   5* | Rebekah Toeller   | Racine, WI  |     0 |
+|   5* | Victoria Roesler  | Portage, WI |     0 |

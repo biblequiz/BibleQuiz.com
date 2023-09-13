@@ -38,18 +38,18 @@ The top scorer at the 1984 National Finals was John Wootton of Byesville, OH. Jo
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Quizzer         | Church           |
-|-----:|-----------------|------------------|
-| 1    | John Wootton    | Byesville, OH    |
-| 2    | Jennifer Curtis | Springfield, MO  |
-| 3    | Kevin DeWeber   | Sandy, UT        |
-| 4    | Joseph Leija    | New Orleans, LA  |
-| 5    | Tali Poulson    | Garden Grove, CA |
-| 6    | Jerome Tang     | Houston, TX      |
-| 7    | Sean Davis      | Renton, WA       |
-| 8    | Keith Turner    | Ypsilanti, MI    |
-| 9    | ????            | ????             |
-| 10   | David Lowe      | Wichita, KS      |
+|    # | Quizzer         | Church           |
+| ---: | --------------- | ---------------- |
+|    1 | John Wootton    | Byesville, OH    |
+|    2 | Jennifer Curtis | Springfield, MO  |
+|    3 | Kevin DeWeber   | Sandy, UT        |
+|    4 | Joseph Leija    | New Orleans, LA  |
+|    5 | Tali Poulson    | Garden Grove, CA |
+|    6 | Jerome Tang     | Houston, TX      |
+|    7 | Sean Davis      | Renton, WA       |
+|    8 | Keith Turner    | Ypsilanti, MI    |
+|    9 | ????            | ????             |
+|   10 | David Lowe      | Wichita, KS      |
 
 ## Teams
 

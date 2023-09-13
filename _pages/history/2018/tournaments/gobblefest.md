@@ -19,7 +19,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                                  | W/L    | Total |   Avg |   QO |   Q% |
+|    # | Team                                           | W/L    | Total |   Avg |   QO |   Q% |
 | ---: | ---------------------------------------------- | ------ | ----: | ----: | ---: | ---: |
 |  1.0 | Redeemer Church, Utica. NY \"Sons of Thunder\" | 10 / 1 |  2770 | 251.8 |   23 |  80% |
 |  2.1 | Living Hope Worship Cntr, Swedesboro, NJ       | 9 / 2  |  1930 | 175.4 |   16 |  81% |
@@ -38,7 +38,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                   | Team / Church                                  | Total |   Avg |   QO |   Q% |
+|        # | Quizzer                   | Team                                           | Total |   Avg |   QO |   Q% |
 | -------: | ------------------------- | ---------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Katrina Dowdy             | Living Hope Worship Cntr, Swedesboro, NJ       |  1255 | 114.1 |    9 |  83% |
 |        2 | Judah Stevens             | Redeemer Church, Utica. NY \"Sons of Thunder\" |  1200 | 109.1 |    9 |  85% |
@@ -88,7 +88,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                                 | W/L    | Total |   Avg |   QO |   Q% |
+|    # | Team                                          | W/L    | Total |   Avg |   QO |   Q% |
 | ---: | --------------------------------------------- | ------ | ----: | ----: | ---: | ---: |
 |  1.0 | Mechanicsville CC, Mechanicsville, VA         | 10 / 1 |  2775 | 252.2 |   21 |  86% |
 |  2.0 | Redeemer Church, Utica. NY \"Without Honor\"  | 8 / 3  |  1800 | 163.6 |   14 |  73% |
@@ -107,7 +107,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer             | Team / Church                                 | Total |   Avg |   QO |   Q% |
+|        # | Quizzer             | Team                                          | Total |   Avg |   QO |   Q% |
 | -------: | ------------------- | --------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Seth Robertson      | 1.Central AG, Houston, PA \"Don't you care?\" |  1280 | 116.4 |    9 |  81% |
 |        2 | Anna Kelly          | Mechanicsville CC, Mechanicsville, VA         |  1270 | 115.5 |   10 |  84% |
@@ -158,7 +158,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                                    | W/L    | Total |   Avg |   QO |   Q% |
+|    # | Team                                             | W/L    | Total |   Avg |   QO |   Q% |
 | ---: | ------------------------------------------------ | ------ | ----: | ----: | ---: | ---: |
 |  1.1 | Central A/G, Houston, PA                         | 10 / 1 |  2075 | 188.6 |   19 |  85% |
 |  2.0 | Redeemer Church, Utica, NY                       | 10 / 1 |  2215 | 201.3 |   19 |  84% |
@@ -175,7 +175,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer           | Team / Church                                    | Total |   Avg |   QO |   Q% |
+|        # | Quizzer           | Team                                             | Total |   Avg |   QO |   Q% |
 | -------: | ----------------- | ------------------------------------------------ | ----: | ----: | ---: | ---: |
 |        1 | Trace Reisinger   | Newport A/G, Newport, PA \"Sons of Thunder\"     |  1460 | 132.7 |   11 |  85% |
 |        2 | Amaya Kocher      | Central A/G, Houston, PA                         |  1205 | 109.5 |   11 |  83% |
@@ -217,7 +217,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                                     | W/L    | Total |   Avg |   QO |   Q% |
+|    # | Team                                              | W/L    | Total |   Avg |   QO |   Q% |
 | ---: | ------------------------------------------------- | ------ | ----: | ----: | ---: | ---: |
 |  1.0 | 1.First A/G, Waynesburg, PA \"Mighty Messengers\" | 11 / 0 |  2035 |   185 |   15 |  76% |
 |  2.0 | Calvary Temple Intnat'l, Wayne, NJ \"Team Peace\" | 9 / 2  |  2100 | 190.9 |   18 |  82% |
@@ -234,7 +234,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer           | Team / Church                                     | Total |   Avg |   QO |   Q% |
+|        # | Quizzer           | Team                                              | Total |   Avg |   QO |   Q% |
 | -------: | ----------------- | ------------------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Toby Hill         | Living Hope Worship Cntr, Swedesboro, NJ          |  1265 |   115 |   10 |  79% |
 |        2 | Chinemi Oriaku    | Calvary Temple Intnat'l, Wayne, NJ \"Team Peace\" |  1230 | 111.8 |    9 |  83% |
@@ -282,7 +282,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                         | W/L    | Total |   Avg |   QO |   Q% |
+|    # | Team                                  | W/L    | Total |   Avg |   QO |   Q% |
 | ---: | ------------------------------------- | ------ | ----: | ----: | ---: | ---: |
 |  1.0 | First A/G, Louisville, OH             | 13 / 0 |  2435 | 187.3 |   22 |  89% |
 |  2.0 | Mechanicsville CC, VA                 | 12 / 2 |  2330 | 166.4 |   12 |  89% |
@@ -298,7 +298,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|    # | Quizzer             | Team / Church                         | Total |  Avg |   QO |   Q% |
+|    # | Quizzer             | Team                                  | Total |  Avg |   QO |   Q% |
 | ---: | ------------------- | ------------------------------------- | ----: | ---: | ---: | ---: |
 |    1 | Victoria Cullins    | First A/G, Louisville, OH             |  1265 | 97.3 |   11 |  89% |
 |    2 | Christopher Costlow | First A/G, Louisville, OH             |  1170 |   90 |   11 |  89% |

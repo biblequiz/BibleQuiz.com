@@ -18,7 +18,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-| #   | Team / Church                    | W/L   | Total | Avg  | QO | Q%  |
+| #   | Team                    | W/L   | Total | Avg  | QO | Q%  |
 |----:|----------------------------------|-------|------:|-----:|---:|----:|
 | 1.0 | CICF (Charlotte ICF)             | 4 / 0 | 370   | 92.5 | 4  | 73% |
 | 2.0 | CCA (Charlotte CCA)              | 2 / 2 | 355   | 88.7 | 1  | 78% |
@@ -28,7 +28,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-| #       | Quizzer         | Team / Church                    | Total | Avg  | QO | Q%   |
+| #       | Quizzer         | Team                    | Total | Avg  | QO | Q%   |
 |--------:|-----------------|----------------------------------|------:|-----:|---:|-----:|
 | 1       | Josita Paulraj  | CICF (Charlotte ICF)             | 235   | 58.8 | 3  | 74%  |
 | 2       | Emily Thomas    | CCA (Charlotte CCA)              | 175   | 43.8 | 1  | 82%  |
@@ -49,7 +49,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-| #   | Team / Church             | W/L   | Total | Avg | QO | Q%  |
+| #   | Team             | W/L   | Total | Avg | QO | Q%  |
 |----:|---------------------------|-------|------:|----:|---:|----:|
 | 1.0 | CCA (Charlotte CCA)       | 4 / 1 | 450   | 90  | 2  | 69% |
 | 2.0 | Matthews (Mathews Church) | 1 / 4 | 175   | 35  | 2  | 60% |
@@ -58,7 +58,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-| #       | Quizzer            | Team / Church             | Total | Avg | QO | Q%  |
+| #       | Quizzer            | Team             | Total | Avg | QO | Q%  |
 |--------:|--------------------|---------------------------|------:|----:|---:|----:|
 | 1       | Dillon Sam         | CCA (Charlotte CCA)       | 430   | 86  | 2  | 77% |
 | 2       | Stephen Prakash    | Matthews (Mathews Church) | 175   | 35  | 2  | 69% |
@@ -75,7 +75,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-| #   | Team / Church                    | W/L   | Total | Avg  | QO | Q%  |
+| #   | Team                    | W/L   | Total | Avg  | QO | Q%  |
 |----:|----------------------------------|-------|------:|-----:|---:|----:|
 | 1.0 | Fletcher (Fletcher)              | 2 / 1 | 165   | 55   |    | 94% |
 | 2.0 | Greensboro Blue (Calvary Church) | 1 / 2 | 70    | 23.3 |    | 61% |
@@ -84,7 +84,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-| #       | Quizzer        | Team / Church                    | Total | Avg | QO | Q%   |
+| #       | Quizzer        | Team                    | Total | Avg | QO | Q%   |
 |--------:|----------------|----------------------------------|------:|----:|---:|-----:|
 | 1       | Izlia Shepard  | Fletcher (Fletcher)              | 135   | 45  |    | 93%  |
 | 2       | Leyla Vasquez  | Fletcher (Fletcher)              | 30    | 10  |    | 100% |

@@ -28,7 +28,7 @@ The individual tournament was won by Ryan Skolrud of Bothell, WA. The quoting be
 
 ### Teams
 
-| Rank | Team                                          | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                          | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | --------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | The Church at Briargate, Colorado Springs, CO | 16 / 3 |  3035 | 159.74 |   1400 |      73.68 |
 |    2 | Faith Family Life Centre, Topeka, KS*         | 15 / 4 |  3175 | 167.11 |   1570 |      82.63 |
@@ -57,94 +57,94 @@ The individual tournament was won by Ryan Skolrud of Bothell, WA. The quoting be
 
 The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. Michael's per quiz average was 120.26. He also quizzed out forward in all but two games. Also breaking 100 points per game was Dan Marlow of Topeka, KS, high scorer from 2000.
 
-|     Rank | Quizzer           | Church                   | Total |    Avg | QO Fwd | QO Back |
-| -------: | ----------------- | ------------------------ | ----: | -----: | -----: | ------: |
-|        1 | Michael Pearson   | Dallas, TX               |  2285 | 120.26 |     17 |       1 |
-|        2 | Dan Marlow        | Topeka, KS               |  2010 | 105.79 |     11 |       3 |
-|        3 | Aaron Kohler      | Lebanon, PA              |  1760 |  92.63 |     11 |       1 |
-|        4 | Caleb Booth       | Tulsa, OK                |  1705 |  89.74 |     10 |       4 |
-|        5 | Jordan Schneider  | Colorado Springs, CO     |  1620 |  85.26 |     11 |       3 |
-|        6 | Richard Fair      | King's Chapel, Spfld, MO |  1495 |  78.68 |      6 |       2 |
-|        7 | Bryce Steel       | Toledo, OH               |  1485 |  78.16 |     10 |       5 |
-|        8 | Tyler Ferguson    | Appleton, WI             |  1385 |  72.89 |      5 |       1 |
-|        9 | Ricky Haney       | Orange, CA               |  1285 |  67.63 |      4 |       2 |
-|       10 | Michael Shenoda   | Santa Ana, CA            |  1285 |  67.63 |      2 |       3 |
-|       11 | Logan Newman      | Superior, WI             |  1180 |  62.11 |      5 |       2 |
-|       12 | Mary Pace         | Colorado Springs, CO     |  1105 |  58.16 |      4 |       1 |
-|       13 | Jessica Neilson   | Bothell, WA              |  1055 |  55.53 |      4 |       3 |
-|       14 | [NAME WITHELD]    | Topeka, KS               |  1025 |  53.95 |      6 |       1 |
-|       15 | Lori Rozgonyi     | Bethel Park, PA          |  1020 |  53.68 |      7 |       5 |
-|       16 | Jenny Dworzak     | Bothell, WA              |   980 |  51.58 |      2 |       1 |
-|       17 | Lydia Butay       | Tulsa, OK                |   955 |  50.26 |      3 |       1 |
-|       18 | Brandon Porter    | Dunwoody, GA             |   935 |  49.21 |      6 |       6 |
-|       19 | Eric Hernando     | King's Chapel, Spfld, MO |   895 |  47.11 |      4 |       3 |
-|       20 | David Dorey       | Orange, CA               |   880 |  46.32 |      2 |       2 |
-|       21 | Dapo Masha        | Houston, TX              |   880 |  46.32 |      2 |       4 |
-|       22 | Mark Whitehead    | West Lafayette, IN       |   870 |  45.79 |      5 |       6 |
-|       23 | Joe Bolognone     | Syracuse, NY             |   855 |     45 |      3 |       2 |
-|       24 | Sarette Albin     | Cedar Rapids, IA         |   780 |  41.05 |      2 |       3 |
-|       25 | Greg Aikens       | Centerville, GA          |   775 |  40.79 |      2 |       3 |
-|       26 | Frank Fortunato   | Dunwoody, GA             |   735 |  38.68 |      1 |       2 |
-|       27 | Katie Chenco      | Lebanon, PA              |   645 |  33.95 |      1 |       1 |
-|       28 | Jed Gosnell       | Tacoma, WA               |   640 |  33.68 |      1 |       1 |
-|       29 | Mariana Shenoda   | Orange, CA               |   530 |  27.89 |      3 |       3 |
-|       30 | Albert Osueke     | Houston, TX              |   495 |  26.05 |      1 |       2 |
-|       31 | Eunice Awuah      | Syracuse, NY             |   465 |  24.47 |      1 |       2 |
-|       32 | Laura Jakstadt    | Dunwoody, GA             |   460 |  24.21 |      2 |       1 |
-|       33 | Peter Brown       | Tacoma, WA               |   450 |  23.68 |        |       4 |
-|       34 | Ryan Skolrud      | Bothell, WA              |   425 |  22.37 |        |         |
-|       35 | James Watt        | Tacoma, WA               |   420 |  22.11 |      3 |       3 |
-|       36 | Prince Anyanwu    | Houston, TX              |   405 |  21.32 |      1 |       5 |
-|       37 | Bryan Batchelder  | Tulsa, OK                |   390 |  20.53 |      1 |       1 |
-|       38 | Kevin Davis       | Dallas, TX               |   340 |  17.89 |      1 |       1 |
-|       39 | Moneer Shenoda    | Santa Ana, CA            |   340 |  17.89 |        |         |
-|       40 | Hannah Meyer      | Superior, WI             |   325 |  17.11 |        |       1 |
-| **40\*** | Chris Hoklotubbe  | Orange, CA               |   325 |  17.11 |        |       1 |
-|       42 | Derek Wilson      | Dallas, TX               |   320 |  16.84 |        |         |
-|       43 | Seth Johnson      | Bethel Park, PA          |   275 |  14.47 |        |       1 |
-|       44 | Nina Eagin        | West Lafayette, IN       |   270 |  14.21 |      1 |       1 |
-|       45 | David Munn        | Toledo, OH               |   260 |  13.68 |      1 |       1 |
-|       46 | Katie Graham      | Cedar Rapids, IA         |   260 |  13.68 |        |       1 |
-|       47 | Bethany Brodbeck  | Toledo, OH               |   250 |  13.16 |        |         |
-|       48 | Janelle Schneider | Colorado Springs, CO     |   240 |  12.63 |        |         |
-|       49 | Rachel Rhynders   | Syracuse, NY             |   195 |  10.26 |        |         |
-|       50 | Matthew Dykema    | Centerville, GA          |   195 |  10.26 |        |       2 |
-|       51 | Jessica Chenco    | Lebanon, PA              |   160 |   8.42 |        |         |
-| **51\*** | Chris Davis       | King's Chapel, Spfld, MO |   150 |   7.89 |        |       2 |
-|       53 | Joseph Fortunato  | Dunwoody, GA             |   145 |   7.63 |        |         |
-|       54 | Chas Raeside      | Cedar Rapids, IA         |   130 |   6.84 |        |         |
-|       55 | Katie Whitehead   | West Lafayette, IN       |   120 |   6.32 |        |       1 |
-|       56 | Zachary Schaalma  | Appleton, WI             |   105 |   5.53 |        |       1 |
-|       57 | Ashley Mefford    | Topeka, KS               |    80 |   4.21 |        |         |
-|       58 | Jacob Ferguson    | Appleton, WI             |    70 |   3.68 |        |         |
-|       59 | Michelle Stevens  | Topeka, KS               |    60 |   3.16 |        |         |
-|       60 | Pherrah Gosnell   | Tacoma, WA               |    50 |   2.63 |        |         |
-|       61 | Richie Nelson     | Tacoma, WA               |    40 |   2.11 |        |         |
-| **61\*** | Aaron Shapiro     | Toledo, OH               |    40 |   2.11 |        |         |
-|       63 | Josh Verkerk      | Houston, TX              |    35 |   1.84 |        |         |
-| **\63*** | Natalie Asahara   | Bothell, WA              |    35 |   1.84 |        |         |
-|       65 | Ryan Popineau     | Colorado Springs, CO     |    30 |   1.58 |        |         |
-| **65\*** | Jeff Sharkey      | Superior, WI             |    30 |   1.58 |        |         |
-|       67 | Bethany Laakkonen | Superior, WI             |    10 |   0.53 |        |         |
-| **67\*** | Jeff Siddall      | Syracuse, NY             |    10 |   0.53 |        |         |
-|       69 | Naomi Meyer       | Superior, WI             |     0 |      0 |        |         |
-| **69\*** | Daniel Hernando   | King's Chapel, Spfld, MO |     0 |      0 |        |         |
-| **69\*** | Molly Pace        | Colorado Springs, CO     |     0 |      0 |        |         |
-| **69\*** | Christen Hoover   | King's Chapel, Spfld, MO |     0 |      0 |        |         |
-| **69\*** | Josh Smith        | Cedar Rapids, IA         |     0 |      0 |        |         |
-| **69\*** | Becky Glover      | Centerville, GA          |     0 |      0 |        |         |
-| **69\*** | Jonathon Falkey   | Santa Ana, CA            |     0 |      0 |        |         |
-| **69\*** | Matt Hight        | Cedar Rapids, IA         |     0 |      0 |        |         |
-| **69\*** | Shaina Albin      | Cedar Rapids, IA         |     0 |      0 |        |         |
-| **69\*** | Emily Whitehead   | West Lafayette, IN       |     0 |      0 |        |         |
-| **69\*** | Kristin Kowalski  | King's Chapel, Spfld, MO |     0 |      0 |        |         |
-|       80 | Katie Kuroishi    | Santa Ana, CA            |    -5 |  -0.26 |        |         |
+|     Rank | Quizzer           | Church                   | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ----------------- | ------------------------ | ----: | -----: | -----: | ----: |
+|        1 | Michael Pearson   | Dallas, TX               |  2285 | 120.26 |     17 |     1 |
+|        2 | Dan Marlow        | Topeka, KS               |  2010 | 105.79 |     11 |     3 |
+|        3 | Aaron Kohler      | Lebanon, PA              |  1760 |  92.63 |     11 |     1 |
+|        4 | Caleb Booth       | Tulsa, OK                |  1705 |  89.74 |     10 |     4 |
+|        5 | Jordan Schneider  | Colorado Springs, CO     |  1620 |  85.26 |     11 |     3 |
+|        6 | Richard Fair      | King's Chapel, Spfld, MO |  1495 |  78.68 |      6 |     2 |
+|        7 | Bryce Steel       | Toledo, OH               |  1485 |  78.16 |     10 |     5 |
+|        8 | Tyler Ferguson    | Appleton, WI             |  1385 |  72.89 |      5 |     1 |
+|        9 | Ricky Haney       | Orange, CA               |  1285 |  67.63 |      4 |     2 |
+|       10 | Michael Shenoda   | Santa Ana, CA            |  1285 |  67.63 |      2 |     3 |
+|       11 | Logan Newman      | Superior, WI             |  1180 |  62.11 |      5 |     2 |
+|       12 | Mary Pace         | Colorado Springs, CO     |  1105 |  58.16 |      4 |     1 |
+|       13 | Jessica Neilson   | Bothell, WA              |  1055 |  55.53 |      4 |     3 |
+|       14 | [NAME WITHELD]    | Topeka, KS               |  1025 |  53.95 |      6 |     1 |
+|       15 | Lori Rozgonyi     | Bethel Park, PA          |  1020 |  53.68 |      7 |     5 |
+|       16 | Jenny Dworzak     | Bothell, WA              |   980 |  51.58 |      2 |     1 |
+|       17 | Lydia Butay       | Tulsa, OK                |   955 |  50.26 |      3 |     1 |
+|       18 | Brandon Porter    | Dunwoody, GA             |   935 |  49.21 |      6 |     6 |
+|       19 | Eric Hernando     | King's Chapel, Spfld, MO |   895 |  47.11 |      4 |     3 |
+|       20 | David Dorey       | Orange, CA               |   880 |  46.32 |      2 |     2 |
+|       21 | Dapo Masha        | Houston, TX              |   880 |  46.32 |      2 |     4 |
+|       22 | Mark Whitehead    | West Lafayette, IN       |   870 |  45.79 |      5 |     6 |
+|       23 | Joe Bolognone     | Syracuse, NY             |   855 |     45 |      3 |     2 |
+|       24 | Sarette Albin     | Cedar Rapids, IA         |   780 |  41.05 |      2 |     3 |
+|       25 | Greg Aikens       | Centerville, GA          |   775 |  40.79 |      2 |     3 |
+|       26 | Frank Fortunato   | Dunwoody, GA             |   735 |  38.68 |      1 |     2 |
+|       27 | Katie Chenco      | Lebanon, PA              |   645 |  33.95 |      1 |     1 |
+|       28 | Jed Gosnell       | Tacoma, WA               |   640 |  33.68 |      1 |     1 |
+|       29 | Mariana Shenoda   | Orange, CA               |   530 |  27.89 |      3 |     3 |
+|       30 | Albert Osueke     | Houston, TX              |   495 |  26.05 |      1 |     2 |
+|       31 | Eunice Awuah      | Syracuse, NY             |   465 |  24.47 |      1 |     2 |
+|       32 | Laura Jakstadt    | Dunwoody, GA             |   460 |  24.21 |      2 |     1 |
+|       33 | Peter Brown       | Tacoma, WA               |   450 |  23.68 |        |     4 |
+|       34 | Ryan Skolrud      | Bothell, WA              |   425 |  22.37 |        |       |
+|       35 | James Watt        | Tacoma, WA               |   420 |  22.11 |      3 |     3 |
+|       36 | Prince Anyanwu    | Houston, TX              |   405 |  21.32 |      1 |     5 |
+|       37 | Bryan Batchelder  | Tulsa, OK                |   390 |  20.53 |      1 |     1 |
+|       38 | Kevin Davis       | Dallas, TX               |   340 |  17.89 |      1 |     1 |
+|       39 | Moneer Shenoda    | Santa Ana, CA            |   340 |  17.89 |        |       |
+|       40 | Hannah Meyer      | Superior, WI             |   325 |  17.11 |        |     1 |
+| **40\*** | Chris Hoklotubbe  | Orange, CA               |   325 |  17.11 |        |     1 |
+|       42 | Derek Wilson      | Dallas, TX               |   320 |  16.84 |        |       |
+|       43 | Seth Johnson      | Bethel Park, PA          |   275 |  14.47 |        |     1 |
+|       44 | Nina Eagin        | West Lafayette, IN       |   270 |  14.21 |      1 |     1 |
+|       45 | David Munn        | Toledo, OH               |   260 |  13.68 |      1 |     1 |
+|       46 | Katie Graham      | Cedar Rapids, IA         |   260 |  13.68 |        |     1 |
+|       47 | Bethany Brodbeck  | Toledo, OH               |   250 |  13.16 |        |       |
+|       48 | Janelle Schneider | Colorado Springs, CO     |   240 |  12.63 |        |       |
+|       49 | Rachel Rhynders   | Syracuse, NY             |   195 |  10.26 |        |       |
+|       50 | Matthew Dykema    | Centerville, GA          |   195 |  10.26 |        |     2 |
+|       51 | Jessica Chenco    | Lebanon, PA              |   160 |   8.42 |        |       |
+| **51\*** | Chris Davis       | King's Chapel, Spfld, MO |   150 |   7.89 |        |     2 |
+|       53 | Joseph Fortunato  | Dunwoody, GA             |   145 |   7.63 |        |       |
+|       54 | Chas Raeside      | Cedar Rapids, IA         |   130 |   6.84 |        |       |
+|       55 | Katie Whitehead   | West Lafayette, IN       |   120 |   6.32 |        |     1 |
+|       56 | Zachary Schaalma  | Appleton, WI             |   105 |   5.53 |        |     1 |
+|       57 | Ashley Mefford    | Topeka, KS               |    80 |   4.21 |        |       |
+|       58 | Jacob Ferguson    | Appleton, WI             |    70 |   3.68 |        |       |
+|       59 | Michelle Stevens  | Topeka, KS               |    60 |   3.16 |        |       |
+|       60 | Pherrah Gosnell   | Tacoma, WA               |    50 |   2.63 |        |       |
+|       61 | Richie Nelson     | Tacoma, WA               |    40 |   2.11 |        |       |
+| **61\*** | Aaron Shapiro     | Toledo, OH               |    40 |   2.11 |        |       |
+|       63 | Josh Verkerk      | Houston, TX              |    35 |   1.84 |        |       |
+| **\63*** | Natalie Asahara   | Bothell, WA              |    35 |   1.84 |        |       |
+|       65 | Ryan Popineau     | Colorado Springs, CO     |    30 |   1.58 |        |       |
+| **65\*** | Jeff Sharkey      | Superior, WI             |    30 |   1.58 |        |       |
+|       67 | Bethany Laakkonen | Superior, WI             |    10 |   0.53 |        |       |
+| **67\*** | Jeff Siddall      | Syracuse, NY             |    10 |   0.53 |        |       |
+|       69 | Naomi Meyer       | Superior, WI             |     0 |      0 |        |       |
+| **69\*** | Daniel Hernando   | King's Chapel, Spfld, MO |     0 |      0 |        |       |
+| **69\*** | Molly Pace        | Colorado Springs, CO     |     0 |      0 |        |       |
+| **69\*** | Christen Hoover   | King's Chapel, Spfld, MO |     0 |      0 |        |       |
+| **69\*** | Josh Smith        | Cedar Rapids, IA         |     0 |      0 |        |       |
+| **69\*** | Becky Glover      | Centerville, GA          |     0 |      0 |        |       |
+| **69\*** | Jonathon Falkey   | Santa Ana, CA            |     0 |      0 |        |       |
+| **69\*** | Matt Hight        | Cedar Rapids, IA         |     0 |      0 |        |       |
+| **69\*** | Shaina Albin      | Cedar Rapids, IA         |     0 |      0 |        |       |
+| **69\*** | Emily Whitehead   | West Lafayette, IN       |     0 |      0 |        |       |
+| **69\*** | Kristin Kowalski  | King's Chapel, Spfld, MO |     0 |      0 |        |       |
+|       80 | Katie Kuroishi    | Santa Ana, CA            |    -5 |  -0.26 |        |       |
 
 ## Challenger
 
 ### Teams
 
-| Rank | Team                                           | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                           | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | ---------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | Expressway A/G, Buffalo, NY*                   | 18 / 1 |  3385 | 178.16 |   2345 |     123.42 |
 |    2 | Minier A/G, Minier, IL                         | 18 / 1 |  3035 | 159.74 |   2280 |        120 |
@@ -171,83 +171,83 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Back |
-| -------: | ------------------- | ---------------------- | ----: | -----: | -----: | ------: |
-|        1 | Dan McLaughlin      | Buffalo, NY            |  2085 | 109.74 |     12 |       1 |
-|        2 | Kendi Beyer         | Oskaloosa, IA          |  1845 |  97.11 |     11 |       1 |
-|        3 | Cynthia Decker      | Minier, IL             |  1585 |  83.42 |     13 |       1 |
-|        4 | April Pryor         | Fort Worth, TX         |  1510 |  79.47 |     11 |       5 |
-|        5 | Amber Hise          | Chesterland, OH        |  1280 |  67.37 |      9 |       4 |
-|        6 | Megan Pincombe      | Central, Spfld, MO     |  1280 |  67.37 |      7 |       5 |
-|        7 | Jeremy White        | Lexington, KY          |  1160 |  61.05 |      7 |       4 |
-|        8 | John McLaughin      | Buffalo, NY            |  1120 |  58.95 |      5 |       1 |
-|        9 | Ryan Decker         | Minier, IL             |  1090 |  57.37 |      7 |       1 |
-|       10 | Noah McCalment      | DeMotte, IN            |   965 |  50.79 |      4 |       3 |
-|       11 | Amanda Pryor        | Fort Worth, TX         |   840 |  44.21 |      3 |       2 |
-|       12 | Heather Patterson   | Orlando, FL            |   820 |  43.16 |      3 |       1 |
-|       13 | Mia Angelakos       | Orlando, FL            |   805 |  42.37 |      3 |       2 |
-|       14 | Crystal Pilcher     | Ames, IA               |   800 |  42.11 |      3 |       1 |
-|       15 | Quinn Harr          | Greater Lansing, MI    |   790 |  41.58 |      3 |       4 |
-|       16 | David Womelsdorf    | James River, Spfld, MO |   775 |  40.79 |      2 |       4 |
-|       17 | Kyle Williams       | Vero Beach, FL         |   755 |  39.74 |      6 |       7 |
-|       18 | Shawn Patterson     | Vancouver, WA          |   740 |  38.95 |      2 |       1 |
-|       19 | David Shim          | Allison Park, PA       |   725 |  38.16 |      3 |       3 |
-|       20 | Kyle Harr           | Greater Lansing, MI    |   705 |  37.11 |      4 |       1 |
-|       21 | Bekah Regenfuss     | Ames, IA               |   705 |  37.11 |      3 |       3 |
-|       22 | Micah Buckel        | Lexington, KY          |   660 |  34.74 |      3 |       1 |
-|       23 | Katrina Martin      | Allison Park, PA       |   640 |  33.68 |      3 |       1 |
-|       24 | Michelle Hart       | Orlando, FL            |   640 |  33.68 |      1 |       1 |
-|       25 | Brianna Grantham    | Fort Myers, FL         |   590 |  31.05 |      2 |       5 |
-|       26 | Nikki Milliron      | Allison Park, PA       |   570 |     30 |      2 |       1 |
-|       27 | Amy Hise            | Chesterland, OH        |   565 |  29.74 |      2 |       1 |
-|       28 | Krista Williams     | Vero Beach, FL         |   555 |  29.21 |      1 |       5 |
-|       29 | Kelli Hedding       | Minier, IL             |   395 |  20.79 |      1 |       1 |
-|       30 | Michael Cole        | Vancouver, WA          |   395 |  20.79 |        |       1 |
-|       31 | Andrew Hejtmanek    | Shreveport, LA #1      |   370 |  19.47 |        |       5 |
-|       32 | Daniel Cooper       | James River, Spfld, MO |   325 |  17.11 |      1 |       2 |
-|       33 | Johnathon Erdmann   | Glendale, AZ           |   270 |  14.21 |      1 |       4 |
-|       34 | Chris Alfred        | Shreveport, LA #1      |   245 |  12.89 |      1 |       3 |
-|       35 | RaVae Walter        | Fort Collins, CO       |   240 |  12.63 |        |         |
-|       36 | Krissy Welborn      | Fort Myers, FL         |   225 |  11.84 |        |         |
-|       37 | Dawn Malcolm        | Greater Lansing, MI    |   220 |  11.58 |        |         |
-|       38 | Sara Curry          | Fort Collins, CO       |   215 |  11.32 |        |         |
-|       39 | Joshua Harrison     | Fort Collins, CO       |   210 |  11.05 |        |         |
-|       40 | Andy Wall           | James River, Spfld, MO |   190 |     10 |        |         |
-|       41 | Tony Fraticelli     | DeMotte, IN            |   185 |   9.74 |        |         |
-| **41\*** | Rachel Klein        | Greater Lansing, MI    |   185 |   9.74 |        |         |
-| **41\*** | Bethany Scotch      | Central, Spfld, MO     |   185 |   9.74 |        |         |
-|       44 | Jamil Barton-Harris | Buffalo, NY            |   180 |   9.47 |        |         |
-|       45 | Michael Henix       | Shreveport, LA #2      |   180 |   9.47 |        |       1 |
-|       46 | Shelby Alfred       | Shreveport, LA #1      |   175 |   9.21 |        |         |
-|       47 | Adam Hauf           | Glendale, AZ           |   165 |   8.68 |        |       4 |
-|       48 | Krista Buckel       | Lexington, KY          |   140 |   7.37 |        |         |
-|       49 | Ashley Erdmann      | Glendale, AZ           |   120 |   6.32 |        |         |
-|       50 | Abbey McCalment     | DeMotte, IN            |   110 |   5.79 |        |         |
-|       51 | Daniel Mitchell     | Vancouver, WA          |    95 |      5 |        |         |
-|       52 | Amber Hoyt          | Ames, IA               |    80 |   4.21 |        |         |
-|       53 | Christine Harr      | Greater Lansing, MI    |    65 |   3.42 |        |         |
-|       54 | Rachel Jerabek      | Fort Myers, FL         |    60 |   3.16 |        |         |
-|       55 | Megan Whitehead     | Oskaloosa, IA          |    45 |   2.37 |        |         |
-|       56 | Angi Witzenburg     | Oskaloosa, IA          |    35 |   1.84 |        |         |
-|       57 | Jeremy Alfred       | Shreveport, LA #2      |    35 |   1.84 |        |       2 |
-|       58 | Jimmy Anspaugh      | Shreveport, LA #2      |    30 |   1.58 |        |       1 |
-|       59 | Brandon Ashton      | Allison Park, PA       |    15 |   0.79 |        |         |
-| **59\*** | Sam Williford       | Fort Worth, TX         |    15 |   0.79 |        |         |
-|       61 | Lane Walter         | Fort Collins, CO       |    10 |   0.53 |        |         |
-| **61\*** | Kyle Heyne          | Vancouver, WA          |    10 |   0.53 |        |         |
-|       63 | Annie Hoyt          | Ames, IA               |     5 |   0.26 |        |         |
-|       64 | Annie Ormsbee       | Lexington, KY          |     0 |      0 |        |         |
-| **64\*** | Chris Patterson     | Orlando, FL            |     0 |      0 |        |         |
-| **64\*** | Chris Roath         | Shreveport, LA #1      |     0 |      0 |        |         |
-| **64\*** | Micah Harrison      | Fort Collins, CO       |     0 |      0 |        |         |
-| **64\*** | Shane Walter        | Fort Collins, CO       |     0 |      0 |        |         |
-| **64\*** | Cristina Fiucci     | Chesterland, OH        |     0 |      0 |        |         |
-| **64\*** | Andrea Pryor        | Fort Worth, TX         |     0 |      0 |        |         |
-| **64\*** | Angela Malcolm      | Greater Lansing, MI    |     0 |      0 |        |         |
-| **64\*** | Candice Lawler      | Fort Worth, TX         |     0 |      0 |        |         |
-| **64\*** | Amy Thomas          | Fort Myers, FL         |     0 |      0 |        |         |
-|       74 | Lucas Hauf          | Glendale, AZ           |   -15 |  -0.79 |        |         |
-|       75 | Autumn Brannoch     | Glendale, AZ           |   -20 |  -1.05 |        |         |
+|     Rank | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ------------------- | ---------------------- | ----: | -----: | -----: | ----: |
+|        1 | Dan McLaughlin      | Buffalo, NY            |  2085 | 109.74 |     12 |     1 |
+|        2 | Kendi Beyer         | Oskaloosa, IA          |  1845 |  97.11 |     11 |     1 |
+|        3 | Cynthia Decker      | Minier, IL             |  1585 |  83.42 |     13 |     1 |
+|        4 | April Pryor         | Fort Worth, TX         |  1510 |  79.47 |     11 |     5 |
+|        5 | Amber Hise          | Chesterland, OH        |  1280 |  67.37 |      9 |     4 |
+|        6 | Megan Pincombe      | Central, Spfld, MO     |  1280 |  67.37 |      7 |     5 |
+|        7 | Jeremy White        | Lexington, KY          |  1160 |  61.05 |      7 |     4 |
+|        8 | John McLaughin      | Buffalo, NY            |  1120 |  58.95 |      5 |     1 |
+|        9 | Ryan Decker         | Minier, IL             |  1090 |  57.37 |      7 |     1 |
+|       10 | Noah McCalment      | DeMotte, IN            |   965 |  50.79 |      4 |     3 |
+|       11 | Amanda Pryor        | Fort Worth, TX         |   840 |  44.21 |      3 |     2 |
+|       12 | Heather Patterson   | Orlando, FL            |   820 |  43.16 |      3 |     1 |
+|       13 | Mia Angelakos       | Orlando, FL            |   805 |  42.37 |      3 |     2 |
+|       14 | Crystal Pilcher     | Ames, IA               |   800 |  42.11 |      3 |     1 |
+|       15 | Quinn Harr          | Greater Lansing, MI    |   790 |  41.58 |      3 |     4 |
+|       16 | David Womelsdorf    | James River, Spfld, MO |   775 |  40.79 |      2 |     4 |
+|       17 | Kyle Williams       | Vero Beach, FL         |   755 |  39.74 |      6 |     7 |
+|       18 | Shawn Patterson     | Vancouver, WA          |   740 |  38.95 |      2 |     1 |
+|       19 | David Shim          | Allison Park, PA       |   725 |  38.16 |      3 |     3 |
+|       20 | Kyle Harr           | Greater Lansing, MI    |   705 |  37.11 |      4 |     1 |
+|       21 | Bekah Regenfuss     | Ames, IA               |   705 |  37.11 |      3 |     3 |
+|       22 | Micah Buckel        | Lexington, KY          |   660 |  34.74 |      3 |     1 |
+|       23 | Katrina Martin      | Allison Park, PA       |   640 |  33.68 |      3 |     1 |
+|       24 | Michelle Hart       | Orlando, FL            |   640 |  33.68 |      1 |     1 |
+|       25 | Brianna Grantham    | Fort Myers, FL         |   590 |  31.05 |      2 |     5 |
+|       26 | Nikki Milliron      | Allison Park, PA       |   570 |     30 |      2 |     1 |
+|       27 | Amy Hise            | Chesterland, OH        |   565 |  29.74 |      2 |     1 |
+|       28 | Krista Williams     | Vero Beach, FL         |   555 |  29.21 |      1 |     5 |
+|       29 | Kelli Hedding       | Minier, IL             |   395 |  20.79 |      1 |     1 |
+|       30 | Michael Cole        | Vancouver, WA          |   395 |  20.79 |        |     1 |
+|       31 | Andrew Hejtmanek    | Shreveport, LA #1      |   370 |  19.47 |        |     5 |
+|       32 | Daniel Cooper       | James River, Spfld, MO |   325 |  17.11 |      1 |     2 |
+|       33 | Johnathon Erdmann   | Glendale, AZ           |   270 |  14.21 |      1 |     4 |
+|       34 | Chris Alfred        | Shreveport, LA #1      |   245 |  12.89 |      1 |     3 |
+|       35 | RaVae Walter        | Fort Collins, CO       |   240 |  12.63 |        |       |
+|       36 | Krissy Welborn      | Fort Myers, FL         |   225 |  11.84 |        |       |
+|       37 | Dawn Malcolm        | Greater Lansing, MI    |   220 |  11.58 |        |       |
+|       38 | Sara Curry          | Fort Collins, CO       |   215 |  11.32 |        |       |
+|       39 | Joshua Harrison     | Fort Collins, CO       |   210 |  11.05 |        |       |
+|       40 | Andy Wall           | James River, Spfld, MO |   190 |     10 |        |       |
+|       41 | Tony Fraticelli     | DeMotte, IN            |   185 |   9.74 |        |       |
+| **41\*** | Rachel Klein        | Greater Lansing, MI    |   185 |   9.74 |        |       |
+| **41\*** | Bethany Scotch      | Central, Spfld, MO     |   185 |   9.74 |        |       |
+|       44 | Jamil Barton-Harris | Buffalo, NY            |   180 |   9.47 |        |       |
+|       45 | Michael Henix       | Shreveport, LA #2      |   180 |   9.47 |        |     1 |
+|       46 | Shelby Alfred       | Shreveport, LA #1      |   175 |   9.21 |        |       |
+|       47 | Adam Hauf           | Glendale, AZ           |   165 |   8.68 |        |     4 |
+|       48 | Krista Buckel       | Lexington, KY          |   140 |   7.37 |        |       |
+|       49 | Ashley Erdmann      | Glendale, AZ           |   120 |   6.32 |        |       |
+|       50 | Abbey McCalment     | DeMotte, IN            |   110 |   5.79 |        |       |
+|       51 | Daniel Mitchell     | Vancouver, WA          |    95 |      5 |        |       |
+|       52 | Amber Hoyt          | Ames, IA               |    80 |   4.21 |        |       |
+|       53 | Christine Harr      | Greater Lansing, MI    |    65 |   3.42 |        |       |
+|       54 | Rachel Jerabek      | Fort Myers, FL         |    60 |   3.16 |        |       |
+|       55 | Megan Whitehead     | Oskaloosa, IA          |    45 |   2.37 |        |       |
+|       56 | Angi Witzenburg     | Oskaloosa, IA          |    35 |   1.84 |        |       |
+|       57 | Jeremy Alfred       | Shreveport, LA #2      |    35 |   1.84 |        |     2 |
+|       58 | Jimmy Anspaugh      | Shreveport, LA #2      |    30 |   1.58 |        |     1 |
+|       59 | Brandon Ashton      | Allison Park, PA       |    15 |   0.79 |        |       |
+| **59\*** | Sam Williford       | Fort Worth, TX         |    15 |   0.79 |        |       |
+|       61 | Lane Walter         | Fort Collins, CO       |    10 |   0.53 |        |       |
+| **61\*** | Kyle Heyne          | Vancouver, WA          |    10 |   0.53 |        |       |
+|       63 | Annie Hoyt          | Ames, IA               |     5 |   0.26 |        |       |
+|       64 | Annie Ormsbee       | Lexington, KY          |     0 |      0 |        |       |
+| **64\*** | Chris Patterson     | Orlando, FL            |     0 |      0 |        |       |
+| **64\*** | Chris Roath         | Shreveport, LA #1      |     0 |      0 |        |       |
+| **64\*** | Micah Harrison      | Fort Collins, CO       |     0 |      0 |        |       |
+| **64\*** | Shane Walter        | Fort Collins, CO       |     0 |      0 |        |       |
+| **64\*** | Cristina Fiucci     | Chesterland, OH        |     0 |      0 |        |       |
+| **64\*** | Andrea Pryor        | Fort Worth, TX         |     0 |      0 |        |       |
+| **64\*** | Angela Malcolm      | Greater Lansing, MI    |     0 |      0 |        |       |
+| **64\*** | Candice Lawler      | Fort Worth, TX         |     0 |      0 |        |       |
+| **64\*** | Amy Thomas          | Fort Myers, FL         |     0 |      0 |        |       |
+|       74 | Lucas Hauf          | Glendale, AZ           |   -15 |  -0.79 |        |       |
+|       75 | Autumn Brannoch     | Glendale, AZ           |   -20 |  -1.05 |        |       |
 
 ## Teams
 
@@ -1821,7 +1821,7 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 
 #### Teams
 
-| Rank | Team                          |  Won | Lost | Total |
+|    # | Team                          |    W |    L | Total |
 | ---: | ----------------------------- | ---: | ---: | ----: |
 |    1 | Everything's Coming Up Losses |    9 |    1 |  1720 |
 |    2 | Red Clay                      |    8 |    2 |  1580 |
@@ -1832,33 +1832,33 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 
 #### Individuals
 
-|     Rank | Quizzer         | Team                 | Total |  Avg | QO Fwd | QO Back |
-| -------: | --------------- | -------------------- | ----: | ---: | -----: | ------: |
-|        1 | Kent Piacenti   | Everything/Losses    |  1140 |  114 |      8 |       0 |
-|        2 | Seth Sundell    | Red Clay             |   700 |   70 |      4 |       1 |
-|        3 | Rob Laurens     | Red Clay             |   675 | 67.5 |      2 |       0 |
-|        4 | Rhoda Yost      | Kings Chapel Coaches |   645 | 64.5 |      2 |       0 |
-|        5 | Dayla Shorter   | Everything/Losses    |   580 |   58 |      4 |       1 |
-|        6 | Nilay Saiya     | More Than Bologna    |   565 | 56.5 |      4 |       1 |
-|        7 | Aaron Collins   | Dead Men Talking     |   410 |   41 |      4 |       2 |
-|  **7\*** | Mary Chenco     | More Than Bologna    |   410 |   41 |      1 |       1 |
-|        9 | Joel Batchelder | Dead Men Talking     |   395 | 39.5 |      1 |       2 |
-|       10 | Rebekah Chalma  | Physicians Asst.     |   175 | 17.5 |      0 |       0 |
-|       11 | Beth Peters     | Kings Chapel Coaches |   155 | 15.5 |      0 |       0 |
-|       12 | Mark Gilmer     | Red Clay             |   120 |   12 |      0 |       0 |
-|       13 | Jeremy Gibbs    | Kings Chapel Coaches |   110 |   11 |      0 |       1 |
-|       14 | Mark Childers   | Red Clay             |    85 |  8.5 |      0 |       2 |
-|       15 | Mark Connor     | Dead Men Talking     |    65 |  6.5 |      0 |       1 |
-|       16 | Betsy Regenfuss | Physicians Asst.     |    50 |    5 |      0 |       2 |
-|       17 | Evan Distad     | Physicians Asst.     |    10 |    1 |      0 |       2 |
-|       18 | Krista Beyer    | Physicians Asst.     |     0 |    0 |      0 |       0 |
-| **18\*** | Matt Hernando   | Kings Chapel Coaches |     0 |    0 |      0 |       0 |
+|     Rank | Quizzer         | Team                 | Total |  Avg | QO Fwd | QO Bk |
+| -------: | --------------- | -------------------- | ----: | ---: | -----: | ----: |
+|        1 | Kent Piacenti   | Everything/Losses    |  1140 |  114 |      8 |     0 |
+|        2 | Seth Sundell    | Red Clay             |   700 |   70 |      4 |     1 |
+|        3 | Rob Laurens     | Red Clay             |   675 | 67.5 |      2 |     0 |
+|        4 | Rhoda Yost      | Kings Chapel Coaches |   645 | 64.5 |      2 |     0 |
+|        5 | Dayla Shorter   | Everything/Losses    |   580 |   58 |      4 |     1 |
+|        6 | Nilay Saiya     | More Than Bologna    |   565 | 56.5 |      4 |     1 |
+|        7 | Aaron Collins   | Dead Men Talking     |   410 |   41 |      4 |     2 |
+|  **7\*** | Mary Chenco     | More Than Bologna    |   410 |   41 |      1 |     1 |
+|        9 | Joel Batchelder | Dead Men Talking     |   395 | 39.5 |      1 |     2 |
+|       10 | Rebekah Chalma  | Physicians Asst.     |   175 | 17.5 |      0 |     0 |
+|       11 | Beth Peters     | Kings Chapel Coaches |   155 | 15.5 |      0 |     0 |
+|       12 | Mark Gilmer     | Red Clay             |   120 |   12 |      0 |     0 |
+|       13 | Jeremy Gibbs    | Kings Chapel Coaches |   110 |   11 |      0 |     1 |
+|       14 | Mark Childers   | Red Clay             |    85 |  8.5 |      0 |     2 |
+|       15 | Mark Connor     | Dead Men Talking     |    65 |  6.5 |      0 |     1 |
+|       16 | Betsy Regenfuss | Physicians Asst.     |    50 |    5 |      0 |     2 |
+|       17 | Evan Distad     | Physicians Asst.     |    10 |    1 |      0 |     2 |
+|       18 | Krista Beyer    | Physicians Asst.     |     0 |    0 |      0 |     0 |
+| **18\*** | Matt Hernando   | Kings Chapel Coaches |     0 |    0 |      0 |     0 |
 
 ### Novice Division
 
 #### Teams
 
-|    Rank | Team                               |  Won | Lost | Total |
+|    Rank | Team                               |    W |    L | Total |
 | ------: | ---------------------------------- | ---: | ---: | ----: |
 |       1 | Bethel Blessing Builders           |    8 |    0 |  1700 |
 |       2 | Not Dead But Asleep                |    6 |    2 |  1405 |
@@ -1872,47 +1872,47 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 
 #### Individuals
 
-|     Rank | Quizzer             | Team                 | Total |    Avg | QO Fwd | QO Back |
-| -------: | ------------------- | -------------------- | ----: | -----: | -----: | ------: |
-|        1 | Jim Whitford        | Indiana A Team       |   940 |  117.5 |      5 |       0 |
-|        2 | Rachelle Henderson  | Not Dead But Asleep  |   890 | 111.25 |      5 |       0 |
-|        3 | Donald Jones        | Bethel Blessing      |   880 |    110 |      8 |       0 |
-|        4 | Paul Munn           | Holey...Toledo       |   685 |  85.63 |      4 |       0 |
-|        5 | George Edgerly      | Ottumwa IA           |   660 |   82.5 |      4 |       1 |
-|        6 | Beth Prindle        | Bethel Blessing      |   640 |     80 |      6 |       0 |
-|        7 | Jeff Meyer          | Superior, WI         |   575 |  71.88 |      4 |       0 |
-|        8 | Sean Lester         | You Did Not Give...  |   480 |     60 |      3 |       0 |
-|        9 | Rachel Dawson       | Not Dead But Asleep  |   455 |  56.88 |      3 |       1 |
-|       10 | John Hunter         | Indiana A Team       |   430 |  53.75 |      4 |       2 |
-|       11 | Maureen Harr        | You Did Not Give...  |   420 |   52.5 |      2 |       1 |
-|       12 | Lorrie Grup         | Holey...Toledo       |   395 |  49.38 |      1 |       0 |
-|       13 | Joelle Cole         | Snakes and Scorpions |   375 |  46.88 |      1 |       0 |
-|       14 | Olivia Collins      | Pregnant/Nursing     |   295 |  36.88 |      0 |       1 |
-|       15 | Steve Sharkey       | Superior, WI         |   275 |  34.38 |      1 |       0 |
-|       16 | Dan Higgins         | Bethel Blessing      |   180 |   22.5 |      0 |       0 |
-|       17 | Jeannie Davis       | Pregnant/Nursing     |   165 |  20.63 |      1 |       2 |
-|       18 | John Foreman        | Snakes and Scorpions |   100 |   12.5 |      0 |       0 |
-| **18\*** | Karen Shepherd      | Ottumwa IA           |   100 |   12.5 |      0 |       0 |
-|       20 | Tom McLaughlin      | You Did Not Give...  |    90 |  11.25 |      0 |       0 |
-|       21 | Sharon Laakkonen    | Superior, WI         |    85 |  10.63 |      0 |       0 |
-| **21\*** | Pam Whitehead       | Indiana A Team       |    85 |  10.63 |      0 |       0 |
-| **21\*** | Erlinda Gosnell     | Not Dead But Asleep  |    85 |  10.63 |      0 |       0 |
-|       24 | Hope van Wardluizen | Ottumwa IA           |    80 |     10 |      0 |       0 |
-|       25 | Bryan Steel         | Holey...Toledo       |    30 |   3.75 |      0 |       0 |
-|       26 | Rick Harr           | You Did Not Give...  |    20 |    2.5 |      0 |       0 |
-| **26\*** | Stephen Sion        | Snakes and Scorpions |    20 |    2.5 |      0 |       0 |
-|       28 | Pam Meyer           | Superior, WI         |    10 |   1.25 |      0 |       0 |
-|       29 | Richard Nelson      | Not Dead But Asleep  |     5 |   0.63 |      0 |       0 |
-|       30 | Chris Castilleja    | Bethel Blessing      |     0 |      0 |      0 |       0 |
-| **30\*** | Marilyn Patterson   | Snakes and Scorpions |     0 |      0 |      0 |       0 |
-| **30\*** | Luke Dawson         | Not Dead But Asleep  |     0 |      0 |      0 |       0 |
-| **30\*** | Mary Williams       | Superior, WI         |     0 |      0 |      0 |       0 |
-| **30\*** | Laura Thomas        | Ottumwa IA           |     0 |      0 |      0 |       0 |
-| **30\*** | Fred Thomas         | Ottumwa IA           |     0 |      0 |      0 |       0 |
-| **30\*** | Linda Fears         | Ottumwa IA           |     0 |      0 |      0 |       0 |
-| **30\*** | Floyd Brown         | Not Dead But Asleep  |     0 |      0 |      0 |       0 |
-| **30\*** | Doug Newman         | Superior, WI         |     0 |      0 |      0 |       0 |
-|       39 | Judith Cole         | Snakes and Scorpions |   -10 |  -1.25 |      0 |       0 |
+|     Rank | Quizzer             | Team                 | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ------------------- | -------------------- | ----: | -----: | -----: | ----: |
+|        1 | Jim Whitford        | Indiana A Team       |   940 |  117.5 |      5 |     0 |
+|        2 | Rachelle Henderson  | Not Dead But Asleep  |   890 | 111.25 |      5 |     0 |
+|        3 | Donald Jones        | Bethel Blessing      |   880 |    110 |      8 |     0 |
+|        4 | Paul Munn           | Holey...Toledo       |   685 |  85.63 |      4 |     0 |
+|        5 | George Edgerly      | Ottumwa IA           |   660 |   82.5 |      4 |     1 |
+|        6 | Beth Prindle        | Bethel Blessing      |   640 |     80 |      6 |     0 |
+|        7 | Jeff Meyer          | Superior, WI         |   575 |  71.88 |      4 |     0 |
+|        8 | Sean Lester         | You Did Not Give...  |   480 |     60 |      3 |     0 |
+|        9 | Rachel Dawson       | Not Dead But Asleep  |   455 |  56.88 |      3 |     1 |
+|       10 | John Hunter         | Indiana A Team       |   430 |  53.75 |      4 |     2 |
+|       11 | Maureen Harr        | You Did Not Give...  |   420 |   52.5 |      2 |     1 |
+|       12 | Lorrie Grup         | Holey...Toledo       |   395 |  49.38 |      1 |     0 |
+|       13 | Joelle Cole         | Snakes and Scorpions |   375 |  46.88 |      1 |     0 |
+|       14 | Olivia Collins      | Pregnant/Nursing     |   295 |  36.88 |      0 |     1 |
+|       15 | Steve Sharkey       | Superior, WI         |   275 |  34.38 |      1 |     0 |
+|       16 | Dan Higgins         | Bethel Blessing      |   180 |   22.5 |      0 |     0 |
+|       17 | Jeannie Davis       | Pregnant/Nursing     |   165 |  20.63 |      1 |     2 |
+|       18 | John Foreman        | Snakes and Scorpions |   100 |   12.5 |      0 |     0 |
+| **18\*** | Karen Shepherd      | Ottumwa IA           |   100 |   12.5 |      0 |     0 |
+|       20 | Tom McLaughlin      | You Did Not Give...  |    90 |  11.25 |      0 |     0 |
+|       21 | Sharon Laakkonen    | Superior, WI         |    85 |  10.63 |      0 |     0 |
+| **21\*** | Pam Whitehead       | Indiana A Team       |    85 |  10.63 |      0 |     0 |
+| **21\*** | Erlinda Gosnell     | Not Dead But Asleep  |    85 |  10.63 |      0 |     0 |
+|       24 | Hope van Wardluizen | Ottumwa IA           |    80 |     10 |      0 |     0 |
+|       25 | Bryan Steel         | Holey...Toledo       |    30 |   3.75 |      0 |     0 |
+|       26 | Rick Harr           | You Did Not Give...  |    20 |    2.5 |      0 |     0 |
+| **26\*** | Stephen Sion        | Snakes and Scorpions |    20 |    2.5 |      0 |     0 |
+|       28 | Pam Meyer           | Superior, WI         |    10 |   1.25 |      0 |     0 |
+|       29 | Richard Nelson      | Not Dead But Asleep  |     5 |   0.63 |      0 |     0 |
+|       30 | Chris Castilleja    | Bethel Blessing      |     0 |      0 |      0 |     0 |
+| **30\*** | Marilyn Patterson   | Snakes and Scorpions |     0 |      0 |      0 |     0 |
+| **30\*** | Luke Dawson         | Not Dead But Asleep  |     0 |      0 |      0 |     0 |
+| **30\*** | Mary Williams       | Superior, WI         |     0 |      0 |      0 |     0 |
+| **30\*** | Laura Thomas        | Ottumwa IA           |     0 |      0 |      0 |     0 |
+| **30\*** | Fred Thomas         | Ottumwa IA           |     0 |      0 |      0 |     0 |
+| **30\*** | Linda Fears         | Ottumwa IA           |     0 |      0 |      0 |     0 |
+| **30\*** | Floyd Brown         | Not Dead But Asleep  |     0 |      0 |      0 |     0 |
+| **30\*** | Doug Newman         | Superior, WI         |     0 |      0 |      0 |     0 |
+|       39 | Judith Cole         | Snakes and Scorpions |   -10 |  -1.25 |      0 |     0 |
 
 ## Memories
 

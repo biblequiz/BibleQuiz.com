@@ -33,7 +33,7 @@ The top quizzer at the 1983 National Finals was John Wooton of Byesville A/G, By
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                         | Record | Total |    Avg | Margin | Avg Margin |
+|    # | Team                         | Record | Total |    Avg | Margin | Avg Margin |
 | ---: | ---------------------------- | ------ | ----: | -----: | -----: | ---------: |
 |    1 | First A/G, New Orleans, LA*  | 6 / 1  |  1455 | 207.86 |   1085 |        155 |
 |    2 | Byesville A/G, Byesville, OH | 6 / 1  |  1315 | 187.86 |    755 |     107.86 |
@@ -53,14 +53,14 @@ The top quizzer at the 1983 National Finals was John Wooton of Byesville A/G, By
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Quizzer       | Church                       | Total | Avg    |
-|-----:|---------------|------------------------------|------:|-------:|
-| 1    | John Wooton   | Byesville A/G, Byesville, OH | 795   | 113.67 |
-| 2    | Joseph Leija  | First A/G, New Orleans, LA   | 685   | 97.96  |
-| 3    | Paul Freitag  | Bethel A/G, Minneapolis, MN  | 565   | 80.71  |
-| 4    | Steve Eastin  | First A/G, Tempe, AZ         | 510   | 72.96  |
-| 5    | Debbie Kalmar | First A/G, Fort Myers, FL    | 445   | 63.67  |
-| 6    | Mark Malone   | Trinity A/G, Lanham, MD      | 425   | 60.71  |
+|    # | Quizzer       | Church                       | Total |    Avg |
+| ---: | ------------- | ---------------------------- | ----: | -----: |
+|    1 | John Wooton   | Byesville A/G, Byesville, OH |   795 | 113.67 |
+|    2 | Joseph Leija  | First A/G, New Orleans, LA   |   685 |  97.96 |
+|    3 | Paul Freitag  | Bethel A/G, Minneapolis, MN  |   565 |  80.71 |
+|    4 | Steve Eastin  | First A/G, Tempe, AZ         |   510 |  72.96 |
+|    5 | Debbie Kalmar | First A/G, Fort Myers, FL    |   445 |  63.67 |
+|    6 | Mark Malone   | Trinity A/G, Lanham, MD      |   425 |  60.71 |
 
 ## Teams
 

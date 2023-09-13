@@ -18,7 +18,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                               | W / L  | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team                                        | W / L  | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ------------------------------------------- | ------ | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Redeemer Church "Solomon" (Utica, NY)       | 10 \ 0 |  2330 |   233 |   20 |  74% |   24 |   58 |   50 |
 |    2 | DHEFC (Dix Hills, NY)                       | 8 \ 2  |  2085 | 208.5 |   17 |  76% |   21 |   47 |   46 |
@@ -37,7 +37,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|    # | Quizzer            | Team / Church                               | Total |   AVG | QO  | Q%  |  30s |  20s |  10s |
+|    # | Quizzer            | Team                                        | Total |   AVG | QO  | Q%  |  30s |  20s |  10s |
 | ---: | ------------------ | ------------------------------------------- | ----: | ----: | --- | --- | ---: | ---: | ---: |
 |    1 | Jackson DeMasi     | Resurgence Church (Mastic, NY)              |  1195 | 119.5 | 9   | 88% |   19 |   25 |    2 |
 |    2 | Ryan Schiebel      | Praise Church (Garfield, NJ)                |  1185 | 118.5 | 9   | 89% |   15 |   30 |    4 |
@@ -73,7 +73,7 @@ menubar_toc_static:
 
 *2 way ties broken by head to head, 3+ way ties broken by points*
 
-|    # | Team / Church                                     | W / L  | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
+|    # | Team                                              | W / L  | Total |   AVG |   QO |   Q% |  30s |  20s |  10s |
 | ---: | ------------------------------------------------- | ------ | ----: | ----: | ---: | ---: | ---: | ---: | ---: |
 |    1 | Dix Hills (Huntington, NY)                        | 9 \ 1  |  1810 |   181 |   15 |  86% |   16 |   40 |   37 |
 |    2 | Redeemer Church (Utica, NY)                       | 8 \ 2  |  1850 |   185 |   11 |  81% |   17 |   54 |   41 |
@@ -91,7 +91,7 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|    # | Quizzer           | Team / Church                                     | Total |   AVG | QO  | Q%  |  30s |  20s |  10s |
+|    # | Quizzer           | Team                                              | Total |   AVG | QO  | Q%  |  30s |  20s |  10s |
 | ---: | ----------------- | ------------------------------------------------- | ----: | ----: | --- | --- | ---: | ---: | ---: |
 |    1 | Katie Pelegrino   | Dix Hills (Huntington, NY)                        |  1145 | 114.5 | 9   | 91% |   11 |   30 |    8 |
 |    2 | Samuel Riverson   | Word of Life "Bring Me Food" (Springfield, VA)    |  1010 |   101 | 8   | 78% |    8 |   25 |   14 |

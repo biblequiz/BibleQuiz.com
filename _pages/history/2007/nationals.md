@@ -28,7 +28,7 @@ The individual tournament was won by Jenna-Jo Duffy of Bothell, WA. The quoting 
 
 ### Teams
 
-| Rank | Team                                               | Record | Total | Margin | Avg Margin |
+|    # | Team                                               | Record | Total | Margin | Avg Margin |
 | ---: | -------------------------------------------------- | ------ | ----: | -----: | ---------: |
 |    1 | The Church at Briargate #1, Colorado Springs , CO* | 17 / 2 |  3150 |   1370 |      72.11 |
 |    2 | Cedar Park A/G, Bothell, WA                        | 17 / 2 |  3960 |   2560 |     134.74 |
@@ -58,90 +58,90 @@ The individual tournament was won by Jenna-Jo Duffy of Bothell, WA. The quoting 
 
 Perfect games were achieved by only two quizzers. Lucas Cox got one in the championship division and LaJoie Ward got one in the challenger division. The Top Quizzers from the 2007 National Bible Quiz Tournament for both divisions are listed below. Each participant is listed with statistics. If possible, ties are broken by number of quiz-outs. The standings below show a tie for fourth place being broken in Josh Wagner's favor. This award actually goes to Jesse Czubkowski due to an error in his number of forward quiz-outs.
 
-|     Rank | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Back |
-| -------: | ------------------- | ---------------------- | ----: | -----: | -----: | ------: |
-|        1 | Jared Burkhalter    | Orlando FL             |  2005 | 105.53 |     14 |       4 |
-|        2 | Brandon Duffy       | Bothell WA             |  1675 |  88.16 |     14 |       2 |
-|        3 | J.P. O'Connor       | Tacoma WA              |  1585 |  83.42 |     11 |       3 |
-|        4 | Jesse Czubkowski    | Garfield NJ            |  1570 |  82.63 |      9 |       1 |
-|        5 | Joshua Wagner       | Owasso OK              |  1570 |  82.63 |      9 |       1 |
-|        6 | Jenna-Jo Duffy      | Bothell WA             |  1510 |  79.47 |     12 |       2 |
-|        7 | Lindsey Brower      | Manassas VA            |  1505 |  79.21 |     10 |       1 |
-|        8 | Blake Porter        | Ozark MO               |  1490 |  78.42 |     12 |       5 |
-|        9 | P.J. Grigg          | Colorado Springs CO #1 |  1420 |  74.74 |     15 |       4 |
-|       10 | Brandy Steel        | Toledo OH              |  1405 |  73.95 |     10 |       5 |
-|       11 | Lucas Cox           | Lexington KY           |  1300 |  68.42 |      5 |       3 |
-|       12 | Taylor Vickerman    | Lafayette IN #1        |  1290 |  67.89 |      9 |       6 |
-|       13 | Sommer Ferguson     | Carrollton TX          |  1275 |  67.11 |     11 |       2 |
-|       14 | Andrew Kelley       | Colorado Springs CO #1 |  1240 |  65.26 |      9 |       1 |
-|       15 | Jenna Liberati      | Bethel Park PA         |  1225 |  64.47 |      9 |       5 |
-|       16 | Bryce Jensen        | Meridian ID            |  1110 |  58.42 |      9 |       8 |
-|       17 | Jacob Wyatt         | Slidell LA             |  1025 |  53.95 |      4 |       5 |
-|       18 | Scott Walters       | Lafayette IN #1        |   970 |  51.05 |      9 |       4 |
-|       19 | Alan Orcutt         | Red Oak TX             |   935 |  49.21 |      9 |       6 |
-|       20 | James Pryer         | Orange CA              |   905 |  47.63 |      5 |       6 |
-|       21 | Tiffany Pettis      | Red Oak TX             |   870 |  45.79 |      6 |       1 |
-|       22 | Jonathan Barthuly   | Santa Ana CA           |   845 |  44.47 |      5 |       6 |
-|       23 | Adam Forsman        | Houston TX             |   835 |  43.95 |      4 |       4 |
-|       24 | Chance Watts        | Carrollton TX          |   795 |  41.84 |      5 |       4 |
-|       25 | Bailey Steel        | Toledo OH              |   790 |  41.58 |      8 |       5 |
-|       26 | Jesse Wagner        | Owasso OK              |   790 |  41.58 |      6 |       1 |
-|       27 | Heather Karnes      | Bothell WA             |   775 |  40.79 |      2 |       1 |
-|       28 | Brittany Porter     | Ozark MO               |   745 |  39.21 |      6 |       3 |
-|       29 | Daniel Godfrey      | Manassas VA            |   745 |  39.21 |      2 |       1 |
-|       30 | Colin Knoth         | Ozark MO               |   740 |  38.95 |      3 |       1 |
-|       31 | Zach Mang           | Santa Ana CA           |   705 |  37.11 |      5 |       5 |
-|       32 | Kourtni Wyatt       | Slidell LA             |   705 |  37.11 |      4 |       1 |
-|       33 | Chris Teeny         | Tacoma WA              |   695 |  36.58 |      7 |       5 |
-|       34 | Tamera Burkhalter   | Orlando FL             |   675 |  35.53 |      3 |       2 |
-|       35 | Mary Pryer          | Orange CA              |   665 |     35 |      4 |       2 |
-|       36 | Ryan Albrecht       | Bowling Green OH       |   590 |  31.05 |      3 |       5 |
-|       37 | Jeremy Albrecht     | Bowling Green OH       |   560 |  29.47 |      3 |       1 |
-|       38 | Joshua Forsman      | Houston TX             |   535 |  28.16 |      3 |       5 |
-|       39 | Joel Facer          | Bowling Green OH       |   530 |  27.89 |        |       2 |
-|       40 | Ashley Carter       | Meridian ID            |   510 |  26.84 |      3 |       1 |
-|       41 | Hillari Wyatt       | Slidell LA             |   490 |  25.79 |      8 |       1 |
-|       42 | Rebekah Kelly       | Lexington KY           |   450 |  23.68 |      2 |       1 |
-|       43 | Michael Rose        | Colorado Springs CO #1 |   445 |  23.42 |      2 |       1 |
-|       44 | Andrew Forsman      | Houston TX             |   355 |  18.68 |      1 |       1 |
-|       45 | Benji Songsong      | Garfield NJ            |   305 |  16.05 |      2 |       1 |
-|       46 | Christopher Pursell | Red Oak TX             |   305 |  16.05 |      1 |       1 |
-|       47 | Spencer Walters     | Lafayette IN #1        |   240 |  12.63 |        |         |
-|       48 | Jessica Sikes       | Bethel Park PA         |   220 |  11.58 |        |         |
-|       49 | Elaine Walker       | Lexington KY           |   185 |   9.74 |        |         |
-|       50 | Mikayla Irle        | Tacoma WA              |   180 |   9.47 |        |         |
-|       51 | Madison Hall        | Colorado Springs CO #1 |   130 |   6.84 |        |         |
-|       52 | Alex Cheski         | Garfield NJ            |   125 |   6.58 |        |       1 |
-|       53 | Jeremy Butler       | Manassas VA            |   100 |   5.26 |        |         |
-|       54 | Colin Kuroishi      | Santa Ana CA           |    95 |      5 |        |         |
-|       55 | Ivy Jensen          | Meridian ID            |    70 |   3.68 |        |         |
-|       56 | David Thigpen       | Toledo OH              |    50 |   2.63 |        |         |
-|       57 | David Ethridge      | Bethel Park PA         |    45 |   2.37 |        |         |
-|       58 | Jenna Rock          | Colorado Springs CO #1 |    35 |   1.84 |        |         |
-|       59 | Nicole Maxwell      | Meridian ID            |    20 |   1.05 |        |         |
-|       60 | Justin Napper       | Ozark MO               |    15 |   0.79 |        |         |
-|       61 | Brianna Forsman     | Houston TX             |    10 |   0.53 |        |         |
-| **61\*** | Wesley Leander      | Owasso OK              |    10 |   0.53 |        |         |
-|       63 | Bailey Moellering   | Carrollton TX          |     0 |      0 |        |         |
-| **63\*** | A.J. Morales        | Garfield NJ            |     0 |      0 |        |         |
-| **63\*** | Gabriela Martinez   | Garfield NJ            |     0 |      0 |        |         |
-| **63\*** | Laura Elizalde-Ruiz | Manassas VA            |     0 |      0 |        |         |
-| **63\*** | Matthew Godfrey     | Manassas VA            |     0 |      0 |        |         |
-| **63\*** | Timothy Pryer       | Orange CA              |     0 |      0 |        |         |
-| **63\*** | Sabrina Burkhalter  | Orlando FL             |     0 |      0 |        |         |
-| **63\*** | Stephen Coxon       | Orlando FL             |     0 |      0 |        |         |
-| **63\*** | Thomas Pryer        | Orange CA              |     0 |      0 |        |         |
-|       72 | Joanna Webb         | Lexington KY           |    -5 |  -0.26 |        |         |
-| **72\*** | Jessica Lynch       | Orange CA              |    -5 |  -0.26 |        |         |
-| **72\*** | Rachel Firestone    | Owasso OK              |    -5 |  -0.26 |        |         |
-| **72\*** | Emily Pursell       | Red Oak TX             |    -5 |  -0.26 |        |         |
-|       76 | Amy Leander         | Owasso OK              |   -10 |  -0.53 |        |         |
+|     Rank | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ------------------- | ---------------------- | ----: | -----: | -----: | ----: |
+|        1 | Jared Burkhalter    | Orlando FL             |  2005 | 105.53 |     14 |     4 |
+|        2 | Brandon Duffy       | Bothell WA             |  1675 |  88.16 |     14 |     2 |
+|        3 | J.P. O'Connor       | Tacoma WA              |  1585 |  83.42 |     11 |     3 |
+|        4 | Jesse Czubkowski    | Garfield NJ            |  1570 |  82.63 |      9 |     1 |
+|        5 | Joshua Wagner       | Owasso OK              |  1570 |  82.63 |      9 |     1 |
+|        6 | Jenna-Jo Duffy      | Bothell WA             |  1510 |  79.47 |     12 |     2 |
+|        7 | Lindsey Brower      | Manassas VA            |  1505 |  79.21 |     10 |     1 |
+|        8 | Blake Porter        | Ozark MO               |  1490 |  78.42 |     12 |     5 |
+|        9 | P.J. Grigg          | Colorado Springs CO #1 |  1420 |  74.74 |     15 |     4 |
+|       10 | Brandy Steel        | Toledo OH              |  1405 |  73.95 |     10 |     5 |
+|       11 | Lucas Cox           | Lexington KY           |  1300 |  68.42 |      5 |     3 |
+|       12 | Taylor Vickerman    | Lafayette IN #1        |  1290 |  67.89 |      9 |     6 |
+|       13 | Sommer Ferguson     | Carrollton TX          |  1275 |  67.11 |     11 |     2 |
+|       14 | Andrew Kelley       | Colorado Springs CO #1 |  1240 |  65.26 |      9 |     1 |
+|       15 | Jenna Liberati      | Bethel Park PA         |  1225 |  64.47 |      9 |     5 |
+|       16 | Bryce Jensen        | Meridian ID            |  1110 |  58.42 |      9 |     8 |
+|       17 | Jacob Wyatt         | Slidell LA             |  1025 |  53.95 |      4 |     5 |
+|       18 | Scott Walters       | Lafayette IN #1        |   970 |  51.05 |      9 |     4 |
+|       19 | Alan Orcutt         | Red Oak TX             |   935 |  49.21 |      9 |     6 |
+|       20 | James Pryer         | Orange CA              |   905 |  47.63 |      5 |     6 |
+|       21 | Tiffany Pettis      | Red Oak TX             |   870 |  45.79 |      6 |     1 |
+|       22 | Jonathan Barthuly   | Santa Ana CA           |   845 |  44.47 |      5 |     6 |
+|       23 | Adam Forsman        | Houston TX             |   835 |  43.95 |      4 |     4 |
+|       24 | Chance Watts        | Carrollton TX          |   795 |  41.84 |      5 |     4 |
+|       25 | Bailey Steel        | Toledo OH              |   790 |  41.58 |      8 |     5 |
+|       26 | Jesse Wagner        | Owasso OK              |   790 |  41.58 |      6 |     1 |
+|       27 | Heather Karnes      | Bothell WA             |   775 |  40.79 |      2 |     1 |
+|       28 | Brittany Porter     | Ozark MO               |   745 |  39.21 |      6 |     3 |
+|       29 | Daniel Godfrey      | Manassas VA            |   745 |  39.21 |      2 |     1 |
+|       30 | Colin Knoth         | Ozark MO               |   740 |  38.95 |      3 |     1 |
+|       31 | Zach Mang           | Santa Ana CA           |   705 |  37.11 |      5 |     5 |
+|       32 | Kourtni Wyatt       | Slidell LA             |   705 |  37.11 |      4 |     1 |
+|       33 | Chris Teeny         | Tacoma WA              |   695 |  36.58 |      7 |     5 |
+|       34 | Tamera Burkhalter   | Orlando FL             |   675 |  35.53 |      3 |     2 |
+|       35 | Mary Pryer          | Orange CA              |   665 |     35 |      4 |     2 |
+|       36 | Ryan Albrecht       | Bowling Green OH       |   590 |  31.05 |      3 |     5 |
+|       37 | Jeremy Albrecht     | Bowling Green OH       |   560 |  29.47 |      3 |     1 |
+|       38 | Joshua Forsman      | Houston TX             |   535 |  28.16 |      3 |     5 |
+|       39 | Joel Facer          | Bowling Green OH       |   530 |  27.89 |        |     2 |
+|       40 | Ashley Carter       | Meridian ID            |   510 |  26.84 |      3 |     1 |
+|       41 | Hillari Wyatt       | Slidell LA             |   490 |  25.79 |      8 |     1 |
+|       42 | Rebekah Kelly       | Lexington KY           |   450 |  23.68 |      2 |     1 |
+|       43 | Michael Rose        | Colorado Springs CO #1 |   445 |  23.42 |      2 |     1 |
+|       44 | Andrew Forsman      | Houston TX             |   355 |  18.68 |      1 |     1 |
+|       45 | Benji Songsong      | Garfield NJ            |   305 |  16.05 |      2 |     1 |
+|       46 | Christopher Pursell | Red Oak TX             |   305 |  16.05 |      1 |     1 |
+|       47 | Spencer Walters     | Lafayette IN #1        |   240 |  12.63 |        |       |
+|       48 | Jessica Sikes       | Bethel Park PA         |   220 |  11.58 |        |       |
+|       49 | Elaine Walker       | Lexington KY           |   185 |   9.74 |        |       |
+|       50 | Mikayla Irle        | Tacoma WA              |   180 |   9.47 |        |       |
+|       51 | Madison Hall        | Colorado Springs CO #1 |   130 |   6.84 |        |       |
+|       52 | Alex Cheski         | Garfield NJ            |   125 |   6.58 |        |     1 |
+|       53 | Jeremy Butler       | Manassas VA            |   100 |   5.26 |        |       |
+|       54 | Colin Kuroishi      | Santa Ana CA           |    95 |      5 |        |       |
+|       55 | Ivy Jensen          | Meridian ID            |    70 |   3.68 |        |       |
+|       56 | David Thigpen       | Toledo OH              |    50 |   2.63 |        |       |
+|       57 | David Ethridge      | Bethel Park PA         |    45 |   2.37 |        |       |
+|       58 | Jenna Rock          | Colorado Springs CO #1 |    35 |   1.84 |        |       |
+|       59 | Nicole Maxwell      | Meridian ID            |    20 |   1.05 |        |       |
+|       60 | Justin Napper       | Ozark MO               |    15 |   0.79 |        |       |
+|       61 | Brianna Forsman     | Houston TX             |    10 |   0.53 |        |       |
+| **61\*** | Wesley Leander      | Owasso OK              |    10 |   0.53 |        |       |
+|       63 | Bailey Moellering   | Carrollton TX          |     0 |      0 |        |       |
+| **63\*** | A.J. Morales        | Garfield NJ            |     0 |      0 |        |       |
+| **63\*** | Gabriela Martinez   | Garfield NJ            |     0 |      0 |        |       |
+| **63\*** | Laura Elizalde-Ruiz | Manassas VA            |     0 |      0 |        |       |
+| **63\*** | Matthew Godfrey     | Manassas VA            |     0 |      0 |        |       |
+| **63\*** | Timothy Pryer       | Orange CA              |     0 |      0 |        |       |
+| **63\*** | Sabrina Burkhalter  | Orlando FL             |     0 |      0 |        |       |
+| **63\*** | Stephen Coxon       | Orlando FL             |     0 |      0 |        |       |
+| **63\*** | Thomas Pryer        | Orange CA              |     0 |      0 |        |       |
+|       72 | Joanna Webb         | Lexington KY           |    -5 |  -0.26 |        |       |
+| **72\*** | Jessica Lynch       | Orange CA              |    -5 |  -0.26 |        |       |
+| **72\*** | Rachel Firestone    | Owasso OK              |    -5 |  -0.26 |        |       |
+| **72\*** | Emily Pursell       | Red Oak TX             |    -5 |  -0.26 |        |       |
+|       76 | Amy Leander         | Owasso OK              |   -10 |  -0.53 |        |       |
 
 ## Challenger
 
 ### Teams
 
-| Rank | Team                                              | Record | Total | Margin | Avg Margin |
+|    # | Team                                              | Record | Total | Margin | Avg Margin |
 | ---: | ------------------------------------------------- | ------ | ----: | -----: | ---------: |
 |    1 | First A/G, Binghamton, NY                         | 17 / 2 |  3295 |   2265 |     119.21 |
 |    2 | Grace A/G, Syracuse, NY                           | 16 / 3 |  2310 |   1270 |      66.84 |
@@ -166,69 +166,69 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Back |
-| -------: | ------------------- | ---------------------- | ----: | -----: | -----: | ------: |
-|        1 | LaJoie Ward         | Binghamton NY          |  2115 | 111.32 |     15 |       2 |
-|        2 | Simon Bennett       | St. Petersburg FL      |  1525 |  80.26 |     10 |       1 |
-|        3 | Tierney Gillihan    | Kuna ID                |  1320 |  69.47 |     10 |       1 |
-|        4 | Ariel Brookbank     | Overland Park KS       |  1315 |  69.21 |     10 |       2 |
-|        5 | Christina Simpson   | Fayetteville TN        |  1310 |  68.95 |      9 |       1 |
-|        6 | Brandon Rhynders    | Syracuse NY            |  1285 |  67.63 |     13 |       2 |
-|        7 | Jonathan Plank      | Corydon IA             |  1260 |  66.32 |     14 |       3 |
-|        8 | Joanna Duka         | Phoenix AZ             |  1245 |  65.53 |      8 |       5 |
-|        9 | Caitlin Pace        | Colorado Springs CO #2 |  1100 |  57.89 |     10 |       1 |
-|       10 | Corina Scarinzi     | Binghamton NY          |  1035 |  54.47 |     10 |       1 |
-|       11 | Amy Siddall         | Syracuse NY            |  1025 |  53.95 |      9 |       4 |
-|       12 | Chelsea Brookbank   | Overland Park KS       |   990 |  52.11 |      7 |       2 |
-|       13 | Mary Witt           | Lafayette IN #2        |   985 |  51.84 |      8 |       2 |
-|       14 | Sarah Ingerson      | Shreveport LA          |   970 |  51.05 |      4 |       2 |
-|       15 | Melissa Larson      | Nyssa OR               |   920 |  48.42 |      5 |       1 |
-|       16 | Julianne Kelley     | Colorado Springs CO #2 |   870 |  45.79 |      7 |       4 |
-|       17 | Charity Wipplinger  | Albert Lea MN          |   820 |  43.16 |      7 |       1 |
-|       18 | Daniel Kober        | Kimberly WI            |   805 |  42.37 |      7 |       1 |
-|       19 | Andrew Ingerson     | Shreveport LA          |   690 |  36.32 |      6 |       4 |
-|       20 | Jeffrey Meyer       | Sparta WI              |   615 |  32.37 |      3 |       7 |
-|       21 | Joshua George       | West Plains MO         |   600 |  31.58 |      4 |       9 |
-|       22 | Kendra Libby        | Rockford IL            |   580 |  30.53 |      6 |       6 |
-|       23 | Alyssa Austin       | Snellville GA          |   530 |  27.89 |      2 |       1 |
-|       24 | Darren Larson       | Nyssa OR               |   520 |  27.37 |      1 |       1 |
-|       25 | Angie Larson        | Nyssa OR               |   510 |  26.84 |      1 |       1 |
-|       26 | David Kober         | Kimberly WI            |   465 |  24.47 |      3 |       8 |
-|       27 | Karan Bhargava      | West Plains MO         |   460 |  24.21 |      2 |       4 |
-|       28 | Kelsi Hardy         | Kuna ID                |   435 |  22.89 |      1 |       1 |
-|       29 | Tammy Vickerman     | Lafayette IN #2        |   400 |  21.05 |      1 |       1 |
-|       30 | Ariel Garza         | Phoenix AZ             |   380 |     20 |      2 |       1 |
-|       31 | Stacey Brothers     | Kuna ID                |   380 |     20 |        |       1 |
-|       32 | Aryka Turner        | Fayetteville TN        |   375 |  19.74 |      3 |       1 |
-|       33 | James Burke         | Rockford IL            |   355 |  18.68 |      1 |       3 |
-|       34 | Jonathan George     | West Plains MO         |   340 |  17.89 |        |       1 |
-|       35 | Hannah Ingerson     | Shreveport LA          |   325 |  17.11 |        |       1 |
-|       36 | Jeffrey Johnson     | Augusta GA             |   265 |  13.95 |        |         |
-|       37 | Jonathan Kessie     | St. Petersburg FL      |   255 |  13.42 |      3 |       6 |
-|       38 | Chelsey Oswald      | Sparta WI              |   205 |  10.79 |        |       1 |
-|       39 | Stephanie Johnson   | Augusta GA             |   195 |  10.26 |        |         |
-|       40 | Ceiran Beasley      | Snellville GA          |   150 |   7.89 |        |         |
-|       41 | Victoria Myrick     | Binghamton NY          |   140 |   7.37 |        |         |
-|       42 | Tiffany Turner      | Fayetteville TN        |   125 |   6.58 |        |         |
-|       43 | Gabrielle Richmeier | Greensboro NC          |   105 |   5.53 |      1 |       1 |
-|       44 | James Wolter        | Greensboro NC          |    75 |   3.95 |        |         |
-|       45 | Kayla Postell       | Phoenix AZ             |    70 |   3.68 |        |         |
-| **45\*** | Rodney Brown        | Snellville GA          |    70 |   3.68 |        |         |
-|       47 | Christopher Smith   | Greensboro NC          |    40 |   2.11 |        |         |
-|       48 | James Wipplinger    | Albert Lea MN          |    20 |   1.05 |        |         |
-| **48\*** | Joshua Beatty       | Kimberly WI            |    20 |   1.05 |        |         |
-|       50 | Megan Postell       | Phoenix AZ             |    15 |   0.79 |        |         |
-| **50\*** | Carmelo Martinez    | Sparta WI              |    15 |   0.79 |        |         |
-|       52 | Shannon Smith       | Greensboro NC          |    10 |   0.53 |        |         |
-| **52\*** | Sarah Caroatta      | Rockford IL            |    10 |   0.53 |        |         |
-| **52\*** | Jeremiah George     | West Plains MO         |    10 |   0.53 |        |         |
-|       55 | Brianne Turner      | St. Petersburg FL      |     0 |      0 |        |         |
-| **55\*** | Danielle Taylor     | St. Petersburg FL      |     0 |      0 |        |         |
-| **55\*** | Trevor Willis       | St. Petersburg FL      |     0 |      0 |        |         |
-|       58 | Brandon Collins     | West Plains MO         |    -5 |  -0.26 |        |         |
-|       59 | Samuel Wipplinger   | Albert Lea MN          |   -10 |  -0.53 |        |         |
-| **59\*** | Angel Martinez      | Sparta WI              |   -10 |  -0.53 |        |         |
-|       61 | Chris Taylor        | St. Petersburg FL      |   -25 |  -1.32 |        |         |
+|     Rank | Quizzer             | Church                 | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ------------------- | ---------------------- | ----: | -----: | -----: | ----: |
+|        1 | LaJoie Ward         | Binghamton NY          |  2115 | 111.32 |     15 |     2 |
+|        2 | Simon Bennett       | St. Petersburg FL      |  1525 |  80.26 |     10 |     1 |
+|        3 | Tierney Gillihan    | Kuna ID                |  1320 |  69.47 |     10 |     1 |
+|        4 | Ariel Brookbank     | Overland Park KS       |  1315 |  69.21 |     10 |     2 |
+|        5 | Christina Simpson   | Fayetteville TN        |  1310 |  68.95 |      9 |     1 |
+|        6 | Brandon Rhynders    | Syracuse NY            |  1285 |  67.63 |     13 |     2 |
+|        7 | Jonathan Plank      | Corydon IA             |  1260 |  66.32 |     14 |     3 |
+|        8 | Joanna Duka         | Phoenix AZ             |  1245 |  65.53 |      8 |     5 |
+|        9 | Caitlin Pace        | Colorado Springs CO #2 |  1100 |  57.89 |     10 |     1 |
+|       10 | Corina Scarinzi     | Binghamton NY          |  1035 |  54.47 |     10 |     1 |
+|       11 | Amy Siddall         | Syracuse NY            |  1025 |  53.95 |      9 |     4 |
+|       12 | Chelsea Brookbank   | Overland Park KS       |   990 |  52.11 |      7 |     2 |
+|       13 | Mary Witt           | Lafayette IN #2        |   985 |  51.84 |      8 |     2 |
+|       14 | Sarah Ingerson      | Shreveport LA          |   970 |  51.05 |      4 |     2 |
+|       15 | Melissa Larson      | Nyssa OR               |   920 |  48.42 |      5 |     1 |
+|       16 | Julianne Kelley     | Colorado Springs CO #2 |   870 |  45.79 |      7 |     4 |
+|       17 | Charity Wipplinger  | Albert Lea MN          |   820 |  43.16 |      7 |     1 |
+|       18 | Daniel Kober        | Kimberly WI            |   805 |  42.37 |      7 |     1 |
+|       19 | Andrew Ingerson     | Shreveport LA          |   690 |  36.32 |      6 |     4 |
+|       20 | Jeffrey Meyer       | Sparta WI              |   615 |  32.37 |      3 |     7 |
+|       21 | Joshua George       | West Plains MO         |   600 |  31.58 |      4 |     9 |
+|       22 | Kendra Libby        | Rockford IL            |   580 |  30.53 |      6 |     6 |
+|       23 | Alyssa Austin       | Snellville GA          |   530 |  27.89 |      2 |     1 |
+|       24 | Darren Larson       | Nyssa OR               |   520 |  27.37 |      1 |     1 |
+|       25 | Angie Larson        | Nyssa OR               |   510 |  26.84 |      1 |     1 |
+|       26 | David Kober         | Kimberly WI            |   465 |  24.47 |      3 |     8 |
+|       27 | Karan Bhargava      | West Plains MO         |   460 |  24.21 |      2 |     4 |
+|       28 | Kelsi Hardy         | Kuna ID                |   435 |  22.89 |      1 |     1 |
+|       29 | Tammy Vickerman     | Lafayette IN #2        |   400 |  21.05 |      1 |     1 |
+|       30 | Ariel Garza         | Phoenix AZ             |   380 |     20 |      2 |     1 |
+|       31 | Stacey Brothers     | Kuna ID                |   380 |     20 |        |     1 |
+|       32 | Aryka Turner        | Fayetteville TN        |   375 |  19.74 |      3 |     1 |
+|       33 | James Burke         | Rockford IL            |   355 |  18.68 |      1 |     3 |
+|       34 | Jonathan George     | West Plains MO         |   340 |  17.89 |        |     1 |
+|       35 | Hannah Ingerson     | Shreveport LA          |   325 |  17.11 |        |     1 |
+|       36 | Jeffrey Johnson     | Augusta GA             |   265 |  13.95 |        |       |
+|       37 | Jonathan Kessie     | St. Petersburg FL      |   255 |  13.42 |      3 |     6 |
+|       38 | Chelsey Oswald      | Sparta WI              |   205 |  10.79 |        |     1 |
+|       39 | Stephanie Johnson   | Augusta GA             |   195 |  10.26 |        |       |
+|       40 | Ceiran Beasley      | Snellville GA          |   150 |   7.89 |        |       |
+|       41 | Victoria Myrick     | Binghamton NY          |   140 |   7.37 |        |       |
+|       42 | Tiffany Turner      | Fayetteville TN        |   125 |   6.58 |        |       |
+|       43 | Gabrielle Richmeier | Greensboro NC          |   105 |   5.53 |      1 |     1 |
+|       44 | James Wolter        | Greensboro NC          |    75 |   3.95 |        |       |
+|       45 | Kayla Postell       | Phoenix AZ             |    70 |   3.68 |        |       |
+| **45\*** | Rodney Brown        | Snellville GA          |    70 |   3.68 |        |       |
+|       47 | Christopher Smith   | Greensboro NC          |    40 |   2.11 |        |       |
+|       48 | James Wipplinger    | Albert Lea MN          |    20 |   1.05 |        |       |
+| **48\*** | Joshua Beatty       | Kimberly WI            |    20 |   1.05 |        |       |
+|       50 | Megan Postell       | Phoenix AZ             |    15 |   0.79 |        |       |
+| **50\*** | Carmelo Martinez    | Sparta WI              |    15 |   0.79 |        |       |
+|       52 | Shannon Smith       | Greensboro NC          |    10 |   0.53 |        |       |
+| **52\*** | Sarah Caroatta      | Rockford IL            |    10 |   0.53 |        |       |
+| **52\*** | Jeremiah George     | West Plains MO         |    10 |   0.53 |        |       |
+|       55 | Brianne Turner      | St. Petersburg FL      |     0 |      0 |        |       |
+| **55\*** | Danielle Taylor     | St. Petersburg FL      |     0 |      0 |        |       |
+| **55\*** | Trevor Willis       | St. Petersburg FL      |     0 |      0 |        |       |
+|       58 | Brandon Collins     | West Plains MO         |    -5 |  -0.26 |        |       |
+|       59 | Samuel Wipplinger   | Albert Lea MN          |   -10 |  -0.53 |        |       |
+| **59\*** | Angel Martinez      | Sparta WI              |   -10 |  -0.53 |        |       |
+|       61 | Chris Taylor        | St. Petersburg FL      |   -25 |  -1.32 |        |       |
 
 ## Teams
 

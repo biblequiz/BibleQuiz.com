@@ -27,24 +27,24 @@ The event was won by Citrus Heights A/G, Citrus Heights, CA (pictured). The seco
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                                      | Record |
-|-----:|-------------------------------------------|--------|
-| 1    | Citrus Heights A/G, Citrus Heights, CA    | 13 / 2 |
-| 2    | Calvary Christian Center, Buena Park, CA  | 11 / 4 |
-| 3    | Park Crest A/G, Springfield, MO           | 10 /5  |
-| 4    | Carpenter's Home Church, Lakeland, FL     | 9 / 6  |
-| 5    | First A/G, Branford, CT                   | 9 / 6  |
-| 6    | Christian Life Church, Farmington, MN     | 9 / 6  |
-| 7    | First A/G, Cedar Rapids, IA               | 8 / 7  |
-| 8    | College Heights A/G, Bryan, TX            | 8 / 7  |
-| 9    | Evangel Community Church, Centerville, GA | 7 / 8  |
-| 10   | First A/G, Warren, OH                     | 7 / 8  |
-| 11   | Allison Park A/G, Allison Park, PA        | 6 / 9  |
-| 12   | Braeswood A/G, Houston, TX                | 6 / 9  |
-| 13   | Central A/G, Springfield, MO              | 6 / 9  |
-| 14   | Tacoma Life Center, Tacoma, WA            | 5 / 10 |
-| 15   | Hobart A/G, Hobart, IN                    | 3 / 12 |
-| 16   | Glasgow A/G, Glasgow, MT                  | 3 / 12 |
+|    # | Team                                      | Record |
+| ---: | ----------------------------------------- | ------ |
+|    1 | Citrus Heights A/G, Citrus Heights, CA    | 13 / 2 |
+|    2 | Calvary Christian Center, Buena Park, CA  | 11 / 4 |
+|    3 | Park Crest A/G, Springfield, MO           | 10 /5  |
+|    4 | Carpenter's Home Church, Lakeland, FL     | 9 / 6  |
+|    5 | First A/G, Branford, CT                   | 9 / 6  |
+|    6 | Christian Life Church, Farmington, MN     | 9 / 6  |
+|    7 | First A/G, Cedar Rapids, IA               | 8 / 7  |
+|    8 | College Heights A/G, Bryan, TX            | 8 / 7  |
+|    9 | Evangel Community Church, Centerville, GA | 7 / 8  |
+|   10 | First A/G, Warren, OH                     | 7 / 8  |
+|   11 | Allison Park A/G, Allison Park, PA        | 6 / 9  |
+|   12 | Braeswood A/G, Houston, TX                | 6 / 9  |
+|   13 | Central A/G, Springfield, MO              | 6 / 9  |
+|   14 | Tacoma Life Center, Tacoma, WA            | 5 / 10 |
+|   15 | Hobart A/G, Hobart, IN                    | 3 / 12 |
+|   16 | Glasgow A/G, Glasgow, MT                  | 3 / 12 |
 
 ### Individuals
 

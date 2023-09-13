@@ -32,7 +32,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name              | Church                                     | Total |    Avg | Rounds |
+|    # | Quizzer           | Church                                     | Total |    Avg | Rounds |
 | ---: | ----------------- | ------------------------------------------ | ----: | -----: | -----: |
 |    1 | Spenser Wilhelm   | Rapid City, SD "Dakota Quiz- 2"            |  1465 | 133.18 |     11 |
 |    2 | Selena Rodriguez  | Rapid City, SD "Dakota Quiz- 1"            |  1455 | 132.27 |     11 |
@@ -86,7 +86,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name             | Church              | Total |   Avg | Rounds |
+|    # | Quizzer          | Church              | Total |   Avg | Rounds |
 | ---: | ---------------- | ------------------- | ----: | ----: | -----: |
 |    1 | Victoria Weidner | Milwaukee, WI "CIS" |   140 | 12.73 |     11 |
 |    2 | Eleanor Weidner  | Milwaukee, WI "CIS" |    15 | 1.364 |     11 |
@@ -108,7 +108,7 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Name               | Church                      | Total |    Avg | Rounds |
+|    # | Quizzer            | Church                      | Total |    Avg | Rounds |
 | ---: | ------------------ | --------------------------- | ----: | -----: | -----: |
 |    1 | Courtney Cobb      | Racine/Plymouth             |   890 | 127.14 |      7 |
 |    2 | Billy Branham      | Menominee "Agents of Wrath" |   860 | 122.86 |      7 |
@@ -139,7 +139,7 @@ menubar_toc_static:
 
 ## Individual Tournament
 
-|    # | Name             | Church                          | Total |
+|    # | Quizzer          | Church                          | Total |
 | ---: | ---------------- | ------------------------------- | ----: |
 |    1 | Spenser Wilhelm  | Rapid City, SD "Dakota Quiz- 2" |   115 |
 |    2 | Selena Rodriguez | Rapid City, SD "Dakota Quiz- 1" |    35 |

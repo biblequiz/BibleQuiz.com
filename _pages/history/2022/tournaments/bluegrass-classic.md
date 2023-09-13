@@ -16,14 +16,14 @@ menubar_toc_static:
 
 ### Teams
 
-| Team                                 | W / L |   Avg | Points |
-| ------------------------------------ | ----- | ----: | -----: |
-| Radiant Life #2 - Dublin, OH         | 6 / 4 | 130.5 |  1,305 |
-| Flowers of the Field - Lexington, KY | 6 / 4 | 116.5 |  1,165 |
-| Ypsilanti Assembly - Ypsilanti, MI   | 5 / 5 |   137 |  1,370 |
-| Eyes Are Unhealthy - Lexington, KY   | 5 / 5 |   114 |  1,140 |
-| Radiant Life #1 - Dublin, OH         | 4 / 6 | 117.5 |  1,175 |
-| Life Church - Germantown, WI         | 4 / 6 |  76.5 |    765 |
+| Team                                 | W / L |   Avg | Total |
+| ------------------------------------ | ----- | ----: | ----: |
+| Radiant Life #2 - Dublin, OH         | 6 / 4 | 130.5 | 1,305 |
+| Flowers of the Field - Lexington, KY | 6 / 4 | 116.5 | 1,165 |
+| Ypsilanti Assembly - Ypsilanti, MI   | 5 / 5 |   137 | 1,370 |
+| Eyes Are Unhealthy - Lexington, KY   | 5 / 5 |   114 | 1,140 |
+| Radiant Life #1 - Dublin, OH         | 4 / 6 | 117.5 | 1,175 |
+| Life Church - Germantown, WI         | 4 / 6 |  76.5 |   765 |
 
 ### Individuals
 

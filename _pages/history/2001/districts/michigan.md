@@ -20,20 +20,20 @@ Over the course of the entire year, the positions were:
 
 #### Teams
 
-|    # | Team               | Avg (ppg) |
-| ---: | ------------------ | --------: |
-|    1 | Greater Lansing    |       155 |
-|    2 | Greater Lansing II |       150 |
-|    3 | St. Clair Shores   |        25 |
-|    4 | Caro A/G           |        30 |
+|    # | Team               |  Avg |
+| ---: | ------------------ | ---: |
+|    1 | Greater Lansing    |  155 |
+|    2 | Greater Lansing II |  150 |
+|    3 | St. Clair Shores   |   25 |
+|    4 | Caro A/G           |   30 |
 
 #### Individuals
 
-|    # | Quizzer      | Team               | Avg (ppg) |
-| ---: | ------------ | ------------------ | --------: |
-|    1 | Kyle Harr    | Greater Lansing I  |        80 |
-|    2 | Quinn Harr   | Greater Lansing I  |        75 |
-|    3 | Dawn Malcolm | Greater Lansing II |        73 |
+|    # | Quizzer      | Team               |  Avg |
+| ---: | ------------ | ------------------ | ---: |
+|    1 | Kyle Harr    | Greater Lansing I  |   80 |
+|    2 | Quinn Harr   | Greater Lansing I  |   75 |
+|    3 | Dawn Malcolm | Greater Lansing II |   73 |
 
 ### B League
 
@@ -47,11 +47,11 @@ Over the course of the entire year, the positions were:
 
 #### Individuals
 
-|    # | Quizzer          | Team                | Avg (ppg) |
-| ---: | ---------------- | ------------------- | --------: |
-|    1 | Andrea Perry     | Greater Lansing III |        94 |
-|    2 | Nick Vandenbosch | Muskegon Central    |        79 |
-|    3 | Sarah Kleindl    | Auburn Hills I      |        74 |
+|    # | Quizzer          | Team                |  Avg |
+| ---: | ---------------- | ------------------- | ---: |
+|    1 | Andrea Perry     | Greater Lansing III |   94 |
+|    2 | Nick Vandenbosch | Muskegon Central    |   79 |
+|    3 | Sarah Kleindl    | Auburn Hills I      |   74 |
 
 ## District Results
 

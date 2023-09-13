@@ -28,7 +28,7 @@ menubar_toc_static:
 
 ### Individuals (Top 10)
 
-|    # | Name                | Church                           | Total |   Avg |   QO |
+|    # | Quizzer             | Church                           | Total |   Avg |   QO |
 | ---: | ------------------- | -------------------------------- | ----: | ----: | ---: |
 |    1 | Faith King          | Memorial A/G, Purcell, OK        |   565 | 94.17 |    4 |
 |    2 | David Meddaugh      | Muskogee First #1, Muskogee, OK  |   470 | 78.33 |    3 |
@@ -54,7 +54,7 @@ menubar_toc_static:
 
 ### Individuals (Top 6)
 
-|    # | Name              | Church                       | Total |   Avg |   QO |
+|    # | Quizzer           | Church                       | Total |   Avg |   QO |
 | ---: | ----------------- | ---------------------------- | ----: | ----: | ---: |
 |    1 | Jason Royer       | Spring First, Spring, OK     |   560 | 93.33 |    5 |
 |    2 | Reggie Conner     | CT Church, Houston, TX       |   505 | 84.17 |    5 |

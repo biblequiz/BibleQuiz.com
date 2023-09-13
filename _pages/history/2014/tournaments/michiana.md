@@ -16,18 +16,18 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team               | Wins | Losses | Total |   Avg |
-| ---: | ------------------ | ---- | -----: | ----: | ----: |
-|    1 | James River (John) | 8    |      1 |  1675 | 188.8 |
-|    2 | Cary/Coder         | 8    |      1 |  1645 | 182.8 |
-|    3 | South Gate         | 6    |      3 |   960 | 106.7 |
-|    4 | James River (Bev)  | 6    |      3 |  1440 | 168.8 |
-|    5 | White Cloud 1      | 5    |      4 |  1320 | 146.7 |
-|    6 | Lexington          | 4    |      5 |  1150 | 127.8 |
-|    7 | Georgetown         | 3    |      6 |   810 |  90.8 |
-|    8 | White Cloud 2      | 3    |      6 |   495 |  49.5 |
-|    9 | Lansing            | 2    |      7 |   485 |  64.3 |
-|   10 | Lakeview           | 0    |      9 |   455 |  51.1 |
+|    # | Team               | W   |    L | Total |   Avg |
+| ---: | ------------------ | --- | ---: | ----: | ----: |
+|    1 | James River (John) | 8   |    1 |  1675 | 188.8 |
+|    2 | Cary/Coder         | 8   |    1 |  1645 | 182.8 |
+|    3 | South Gate         | 6   |    3 |   960 | 106.7 |
+|    4 | James River (Bev)  | 6   |    3 |  1440 | 168.8 |
+|    5 | White Cloud 1      | 5   |    4 |  1320 | 146.7 |
+|    6 | Lexington          | 4   |    5 |  1150 | 127.8 |
+|    7 | Georgetown         | 3   |    6 |   810 |  90.8 |
+|    8 | White Cloud 2      | 3   |    6 |   495 |  49.5 |
+|    9 | Lansing            | 2   |    7 |   485 |  64.3 |
+|   10 | Lakeview           | 0   |    9 |   455 |  51.1 |
 
 ### Individuals
 
@@ -77,17 +77,17 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                    | Wins | Losses | Total |   Avg |
-| ---: | ----------------------- | ---- | -----: | ----: | ----: |
-|    1 | Lexington 3             | 8    |      0 |  1850 | 231.3 |
-|    2 | James River 4-Rose      | 6    |      2 |  1670 | 208.8 |
-|    3 | James River 3-Christian | 5    |      3 |   865 | 108.1 |
-|    5 | Pendleton               | 4    |      4 |  1275 | 159.4 |
-|    4 | Southwest               | 4    |      4 |   590 |  76.9 |
-|    6 | Lexington 2             | 4    |      4 |   670 |  83.8 |
-|    7 | Stone Church 2          | 3    |      6 |    75 |  10.7 |
-|    8 | Stone Church 1          | 2    |      7 |   890 | 110.1 |
-|    9 | Radiant Life            | 0    |      8 |    40 |   5.3 |
+|    # | Team                    | W   |    L | Total |   Avg |
+| ---: | ----------------------- | --- | ---: | ----: | ----: |
+|    1 | Lexington 3             | 8   |    0 |  1850 | 231.3 |
+|    2 | James River 4-Rose      | 6   |    2 |  1670 | 208.8 |
+|    3 | James River 3-Christian | 5   |    3 |   865 | 108.1 |
+|    5 | Pendleton               | 4   |    4 |  1275 | 159.4 |
+|    4 | Southwest               | 4   |    4 |   590 |  76.9 |
+|    6 | Lexington 2             | 4   |    4 |   670 |  83.8 |
+|    7 | Stone Church 2          | 3   |    6 |    75 |  10.7 |
+|    8 | Stone Church 1          | 2   |    7 |   890 | 110.1 |
+|    9 | Radiant Life            | 0   |    8 |    40 |   5.3 |
 
 ### Individuals
 
@@ -128,18 +128,18 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                   | Wins | Losses | Total |   Avg |
-| ---: | ---------------------- | ---- | -----: | ----: | ----: |
-|    1 | Saver (Lorna)          | 9    |      0 |  1820 | 192.5 |
-|    2 | James River (Danielle) | 7    |      2 |  2050 | 227.8 |
-|    3 | James River (Wade)     | 7    |      2 |  1470 | 163.3 |
-|    4 | James River (George)   | 6    |      3 |  1730 | 192.2 |
-|    5 | Pendleton Rock         | 4    |      5 |   630 |  70.0 |
-|    6 | James River (Angie)    | 4    |      3 |   910 | 101.1 |
-|    7 | Ozark Christian        | 3    |      4 |  1330 | 147.8 |
-|    8 | Lexington 4            | 2    |      7 |   505 |  56.1 |
-|    9 | Lakeview               | 1    |      8 |   220 |  24.4 |
-|   10 | Frankfort              | 1    |      8 |   275 |  30.6 |
+|    # | Team                   | W   |    L | Total |   Avg |
+| ---: | ---------------------- | --- | ---: | ----: | ----: |
+|    1 | Saver (Lorna)          | 9   |    0 |  1820 | 192.5 |
+|    2 | James River (Danielle) | 7   |    2 |  2050 | 227.8 |
+|    3 | James River (Wade)     | 7   |    2 |  1470 | 163.3 |
+|    4 | James River (George)   | 6   |    3 |  1730 | 192.2 |
+|    5 | Pendleton Rock         | 4   |    5 |   630 |  70.0 |
+|    6 | James River (Angie)    | 4   |    3 |   910 | 101.1 |
+|    7 | Ozark Christian        | 3   |    4 |  1330 | 147.8 |
+|    8 | Lexington 4            | 2   |    7 |   505 |  56.1 |
+|    9 | Lakeview               | 1   |    8 |   220 |  24.4 |
+|   10 | Frankfort              | 1   |    8 |   275 |  30.6 |
 
 ### Individuals
 

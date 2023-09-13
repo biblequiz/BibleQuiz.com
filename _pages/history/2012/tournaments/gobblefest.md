@@ -16,20 +16,20 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                                | Wins | Losses | Total |    Avg |
-| ---: | --------------------------------------------------- | ---: | -----: | ----: | -----: |
-|    1 | Praise A/G, Garfield, NJ "A Dreadful Thing"         |   11 |      0 |  2845 | 258.64 |
-|    2 | Journey A/G, Bridgeville, PA                        |   10 |      1 |  2665 | 242.27 |
-|    3 | Walnut Grove A/G, West Mifflin, PA*                 |    8 |      3 |  2055 | 186.82 |
-|    4 | Living Hope A/G, Swedesboro, NJ "Experts in Greed"* |    8 |      3 |  2655 | 241.36 |
-|    5 | Pocono Community, Mt. Pocono, PA                    |    7 |      4 |  1925 |    175 |
-|    6 | Grace A/G, Syracuse, NY                             |    6 |      5 |  1485 |    135 |
-|    7 | Southern A/G, Greensboro, NC                        |    5 |      6 |   925 |  84.09 |
-|    8 | First A/G, Elkton, MD                               |    3 |      8 |  1265 |    115 |
-|    9 | Evangel A/G, Ephrata, PA "Aliens & Strangers"       |    3 |      8 |   955 |  86.82 |
-|   10 | Cornerstone A/G, Bowie, MD                          |    3 |      8 |   530 |  48.18 |
-|   11 | Calvary Temple, Philadelphia, PA "Back from Death"  |    1 |     10 |   455 |  41.36 |
-|   12 | New Hope Bible, Front Royal, VA "The Chosen Ones"   |    1 |     10 |   380 |  34.55 |
+|    # | Team                                                |    W |    L | Total |    Avg |
+| ---: | --------------------------------------------------- | ---: | ---: | ----: | -----: |
+|    1 | Praise A/G, Garfield, NJ "A Dreadful Thing"         |   11 |    0 |  2845 | 258.64 |
+|    2 | Journey A/G, Bridgeville, PA                        |   10 |    1 |  2665 | 242.27 |
+|    3 | Walnut Grove A/G, West Mifflin, PA*                 |    8 |    3 |  2055 | 186.82 |
+|    4 | Living Hope A/G, Swedesboro, NJ "Experts in Greed"* |    8 |    3 |  2655 | 241.36 |
+|    5 | Pocono Community, Mt. Pocono, PA                    |    7 |    4 |  1925 |    175 |
+|    6 | Grace A/G, Syracuse, NY                             |    6 |    5 |  1485 |    135 |
+|    7 | Southern A/G, Greensboro, NC                        |    5 |    6 |   925 |  84.09 |
+|    8 | First A/G, Elkton, MD                               |    3 |    8 |  1265 |    115 |
+|    9 | Evangel A/G, Ephrata, PA "Aliens & Strangers"       |    3 |    8 |   955 |  86.82 |
+|   10 | Cornerstone A/G, Bowie, MD                          |    3 |    8 |   530 |  48.18 |
+|   11 | Calvary Temple, Philadelphia, PA "Back from Death"  |    1 |   10 |   455 |  41.36 |
+|   12 | New Hope Bible, Front Royal, VA "The Chosen Ones"   |    1 |   10 |   380 |  34.55 |
 
 \* Walnut Grove beat Swedesboro
 
@@ -86,20 +86,20 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                                         | Wins | Losses | Total |    Avg |
-| ---: | ------------------------------------------------------------ | ---: | -----: | ----: | -----: |
-|    1 | Dayspring A/G, Bowling Green, OH "Disputing with the Devil"* |    9 |      2 |  2660 | 241.82 |
-|    2 | First A/G, Binghamton, NY*                                   |    9 |      2 |  2515 | 228.64 |
-|    3 | Praise A/G, Garfield, NJ "Brotherhood of Believers"*         |    9 |      2 |  2400 | 218.18 |
-|    4 | Bethlehem Church, Richmond Hill, NY**                        |    7 |      4 |  1730 | 157.27 |
-|    5 | Word of Life, Springfield, VA**                              |    7 |      4 |  1880 | 170.91 |
-|    6 | Manassas A/G, Bristow, VA**                                  |    7 |      4 |  2130 | 193.64 |
-|    7 | Bethany Church - Wyckoff NJ                                  |    5 |      6 |  1310 | 119.09 |
-|    8 | New Hope Bible, Front Royal, VA "Dear Friends"               |    5 |      6 |  1590 | 144.55 |
-|    9 | Maranatha CA., Georgetown, Kentucky                          |    4 |      7 |  1325 | 120.45 |
-|   10 | The Worship Center, Leesburg, VA                             |    2 |      9 |   865 |  78.64 |
-|   11 | Houlton Full Gospel, Houlton, ME                             |    2 |      9 |  1435 | 130.45 |
-|   12 | Crossway A/G, Valencia, PA Lauren                            |    0 |     11 |   385 |     35 |
+|    # | Team                                                         |    W |    L | Total |    Avg |
+| ---: | ------------------------------------------------------------ | ---: | ---: | ----: | -----: |
+|    1 | Dayspring A/G, Bowling Green, OH "Disputing with the Devil"* |    9 |    2 |  2660 | 241.82 |
+|    2 | First A/G, Binghamton, NY*                                   |    9 |    2 |  2515 | 228.64 |
+|    3 | Praise A/G, Garfield, NJ "Brotherhood of Believers"*         |    9 |    2 |  2400 | 218.18 |
+|    4 | Bethlehem Church, Richmond Hill, NY**                        |    7 |    4 |  1730 | 157.27 |
+|    5 | Word of Life, Springfield, VA**                              |    7 |    4 |  1880 | 170.91 |
+|    6 | Manassas A/G, Bristow, VA**                                  |    7 |    4 |  2130 | 193.64 |
+|    7 | Bethany Church - Wyckoff NJ                                  |    5 |    6 |  1310 | 119.09 |
+|    8 | New Hope Bible, Front Royal, VA "Dear Friends"               |    5 |    6 |  1590 | 144.55 |
+|    9 | Maranatha CA., Georgetown, Kentucky                          |    4 |    7 |  1325 | 120.45 |
+|   10 | The Worship Center, Leesburg, VA                             |    2 |    9 |   865 |  78.64 |
+|   11 | Houlton Full Gospel, Houlton, ME                             |    2 |    9 |  1435 | 130.45 |
+|   12 | Crossway A/G, Valencia, PA Lauren                            |    0 |   11 |   385 |     35 |
 
 \* Each team beat each other
 \*\* Richmond Hill beat both Springfield and Bristow. Springfield beat Bristow.
@@ -159,19 +159,19 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                              | Wins | Losses | Total |   Avg |
-| ---: | ------------------------------------------------- | ---: | -----: | ----: | ----: |
-|    1 | Redeemer Church, Utica, NY                        |   10 |      0 |  2165 | 216.5 |
-|    2 | Maple Lane A/G, Deposit, NY                       |    9 |      1 |  1850 |   185 |
-|    3 | Word of Life, Springfield, VA                     |    7 |      3 |  2075 | 207.5 |
-|    4 | South Hills A/G, Bethel Park, PA "201"            |    6 |      4 |  1460 |   146 |
-|    5 | First A/G, Waynesburg, PA "Hard To Explain"       |    6 |      4 |  1370 |   137 |
-|    6 | Evangel Heights A/G, Sarver, PA                   |    4 |      6 |  1425 | 142.5 |
-|    7 | Faith A/G, Hazleton, PA "Christ Crew"             |    4 |      6 |  1360 |   136 |
-|    8 | First A/G, Elkton, MD                             |    4 |      6 |  1025 | 102.5 |
-|    9 | Fountain of Life, Burlington, NJ                  |    3 |      7 |   920 |    92 |
-|   10 | Monroeville A/G, Monroeville, PA                  |    1 |      9 |   515 |  51.5 |
-|   11 | Calvary Temple, Philadelphia, PA "Raised to Life" |    1 |      9 |   335 |  33.5 |
+|    # | Team                                              |    W |    L | Total |   Avg |
+| ---: | ------------------------------------------------- | ---: | ---: | ----: | ----: |
+|    1 | Redeemer Church, Utica, NY                        |   10 |    0 |  2165 | 216.5 |
+|    2 | Maple Lane A/G, Deposit, NY                       |    9 |    1 |  1850 |   185 |
+|    3 | Word of Life, Springfield, VA                     |    7 |    3 |  2075 | 207.5 |
+|    4 | South Hills A/G, Bethel Park, PA "201"            |    6 |    4 |  1460 |   146 |
+|    5 | First A/G, Waynesburg, PA "Hard To Explain"       |    6 |    4 |  1370 |   137 |
+|    6 | Evangel Heights A/G, Sarver, PA                   |    4 |    6 |  1425 | 142.5 |
+|    7 | Faith A/G, Hazleton, PA "Christ Crew"             |    4 |    6 |  1360 |   136 |
+|    8 | First A/G, Elkton, MD                             |    4 |    6 |  1025 | 102.5 |
+|    9 | Fountain of Life, Burlington, NJ                  |    3 |    7 |   920 |    92 |
+|   10 | Monroeville A/G, Monroeville, PA                  |    1 |    9 |   515 |  51.5 |
+|   11 | Calvary Temple, Philadelphia, PA "Raised to Life" |    1 |    9 |   335 |  33.5 |
 
 \* South Hills beat Waynesburg.
 
@@ -222,19 +222,19 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                                 | Wins | Losses | Total |   Avg |
-| ---: | ---------------------------------------------------- | ---: | -----: | ----: | ----: |
-|    1 | Vailsburg A/G, Newark, NJ                            |   10 |      0 |  2525 | 252.5 |
-|    2 | First A/G, Wilkes Barre, PA "The Seventh Day"        |    9 |      1 |  2050 |   205 |
-|    3 | Manassas A/G, Bristow, VA                            |    7 |      3 |  1785 | 178.5 |
-|    4 | Journey A/G, Bridgeville, PA*                        |    6 |      4 |  1780 |   178 |
-|    5 | First A/G, Waynesburg, PA "Only a Shadow"*           |    6 |      4 |  1865 | 186.5 |
-|    6 | Evangel Heights A/G, Sarver, PA*                     |    6 |      4 |  1600 |   160 |
-|    7 | Lighthouse A/G, Breezewood, PA                       |    4 |      6 |  1040 |   104 |
-|    8 | Living Hope Worship, Swedesboro, NJ "Dear Friends"   |    3 |      7 |  1335 | 133.5 |
-|    9 | South Hills A/G, Bethel Park, PA "301"               |    3 |      7 |   835 |  83.5 |
-|   10 | Monroeville A/G, Monroeville, PA                     |    1 |      9 |   515 |  51.5 |
-|   11 | Dayspring A/G, Bowling Green, OH "Swift Destruction" |    0 |     10 |   210 |    21 |
+|    # | Team                                                 |    W |    L | Total |   Avg |
+| ---: | ---------------------------------------------------- | ---: | ---: | ----: | ----: |
+|    1 | Vailsburg A/G, Newark, NJ                            |   10 |    0 |  2525 | 252.5 |
+|    2 | First A/G, Wilkes Barre, PA "The Seventh Day"        |    9 |    1 |  2050 |   205 |
+|    3 | Manassas A/G, Bristow, VA                            |    7 |    3 |  1785 | 178.5 |
+|    4 | Journey A/G, Bridgeville, PA*                        |    6 |    4 |  1780 |   178 |
+|    5 | First A/G, Waynesburg, PA "Only a Shadow"*           |    6 |    4 |  1865 | 186.5 |
+|    6 | Evangel Heights A/G, Sarver, PA*                     |    6 |    4 |  1600 |   160 |
+|    7 | Lighthouse A/G, Breezewood, PA                       |    4 |    6 |  1040 |   104 |
+|    8 | Living Hope Worship, Swedesboro, NJ "Dear Friends"   |    3 |    7 |  1335 | 133.5 |
+|    9 | South Hills A/G, Bethel Park, PA "301"               |    3 |    7 |   835 |  83.5 |
+|   10 | Monroeville A/G, Monroeville, PA                     |    1 |    9 |   515 |  51.5 |
+|   11 | Dayspring A/G, Bowling Green, OH "Swift Destruction" |    0 |   10 |   210 |    21 |
 
 \* Bridgeville beat both Waynesburg and Sarver. Waynesburg beat Sarver.
 
@@ -285,19 +285,19 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                                          | Wins | Losses | Total |   Avg |
-| ---: | ------------------------------------------------------------- | ---: | -----: | ----: | ----: |
-|    1 | Redeemer Church, Utica, NY*                                   |    8 |      2 |  2090 |   209 |
-|    2 | South Hills A/G, Bethel Park, PA "101"*                       |    8 |      2 |  1940 |   194 |
-|    3 | Covenant Life Fell. Hubbard, OH**                             |    6 |      4 |  1865 | 186.5 |
-|    4 | Christian Life A/G, Chambersburg, PA**                        |    6 |      4 |  1830 |   183 |
-|    5 | Columbiaville A/G, Columbiaville, MI "Yo Gabba Gabba 4 God"** |    6 |      4 |  1655 | 165.5 |
-|    6 | First A/G, Wilkes Barre, PA "The Friends of the High Priest"  |    5 |      5 |  1755 | 175.5 |
-|    7 | Full Gospel Church, Livingston, NJ                            |    5 |      5 |  1600 |   160 |
-|    8 | State College A/G, State College, PA                          |    5 |      5 |  1290 |   129 |
-|    9 | Covenant Church Acton, ME                                     |    4 |      6 |  1635 | 163.5 |
-|   10 | First A/G, Binghamton, NY                                     |    2 |      8 |  1050 |   105 |
-|   11 | First A/G, Salt Lake City, Utah                               |    0 |     11 |     0 |     0 |
+|    # | Team                                                          |    W |    L | Total |   Avg |
+| ---: | ------------------------------------------------------------- | ---: | ---: | ----: | ----: |
+|    1 | Redeemer Church, Utica, NY*                                   |    8 |    2 |  2090 |   209 |
+|    2 | South Hills A/G, Bethel Park, PA "101"*                       |    8 |    2 |  1940 |   194 |
+|    3 | Covenant Life Fell. Hubbard, OH**                             |    6 |    4 |  1865 | 186.5 |
+|    4 | Christian Life A/G, Chambersburg, PA**                        |    6 |    4 |  1830 |   183 |
+|    5 | Columbiaville A/G, Columbiaville, MI "Yo Gabba Gabba 4 God"** |    6 |    4 |  1655 | 165.5 |
+|    6 | First A/G, Wilkes Barre, PA "The Friends of the High Priest"  |    5 |    5 |  1755 | 175.5 |
+|    7 | Full Gospel Church, Livingston, NJ                            |    5 |    5 |  1600 |   160 |
+|    8 | State College A/G, State College, PA                          |    5 |    5 |  1290 |   129 |
+|    9 | Covenant Church Acton, ME                                     |    4 |    6 |  1635 | 163.5 |
+|   10 | First A/G, Binghamton, NY                                     |    2 |    8 |  1050 |   105 |
+|   11 | First A/G, Salt Lake City, Utah                               |    0 |   11 |     0 |     0 |
 
 \* Utica beat South Hills\
 \*\* Hubbard beat Chambersburg and Columbiaville. Chambersburg beat Columbiaville.

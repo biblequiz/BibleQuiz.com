@@ -14,47 +14,47 @@ menubar_toc_static:
 
 ## Preliminaries
 
-| Team                                        | Wins | Losses | Total |
-| ------------------------------------------- | ---: | -----: | ----: |
-| Victorious Life, Wesley Chapel, FL - Joshua |    9 |      0 |  1970 |
-| Northside Family Church, Cumming, GA        |    7 |      2 |  1820 |
-| Praise A/G, Garfield, NJ                    |    8 |      1 |  1710 |
-| James River A/G, Ozark, MO – John           |    9 |      0 |  1615 |
-| Manassas A/G, Bristow, VA                   |    7 |      2 |  1585 |
-| Faith A/G, Orlando, FL                      |    5 |      4 |  1570 |
-| First A/G, Binghamton, NY                   |    6 |      3 |  1550 |
-| Meadowbrook Community Church, Champaign, IL |    5 |      4 |  1490 |
-| Overland Park A/G, Overland Park, KS        |    5 |      4 |  1490 |
-| Living Hope Worship Center, Swedesboro, NJ  |    5 |      4 |  1415 |
-| Victorious Life, Wesley Chapel, FL - Ed     |    4 |      5 |  1415 |
-| James River A/G, Ozark, MO – Karl           |    5 |      4 |  1340 |
-| Braeswood A/G, Houston, TX                  |    4 |      4 |  1285 |
-| Dayspring A/G, Bowling Green, OH            |    5 |      4 |  1265 |
-| Evangel Heights A/G, Sarver, PA             |    3 |      6 |  1145 |
-| New Life A/G, White Cloud, MI               |    3 |      6 |  1060 |
-| First A/G, Lexington, KY - Karen            |    4 |      5 |  1020 |
-| First A/G of Greater Lansing, MI            |    3 |      6 |   950 |
-| First A/G, Montgomery, AL                   |    5 |      4 |   800 |
-| South Hills A/G, Bethel Park, PA            |    1 |      8 |   615 |
-| Word of Life A/G, Springfield, VA - Mat     |    1 |      8 |   610 |
-| First A/G, Lexington, KY - Becky            |    1 |      8 |   595 |
-| Word of Life A/G, Springfield, VA "Don"     |    1 |      7 |   520 |
-| Friendship Team, "K,P,O" USA                |    0 |      9 |   310 |
+| Team                                        |    W |    W | Total |
+| ------------------------------------------- | ---: | ---: | ----: |
+| Victorious Life, Wesley Chapel, FL - Joshua |    9 |    0 |  1970 |
+| Northside Family Church, Cumming, GA        |    7 |    2 |  1820 |
+| Praise A/G, Garfield, NJ                    |    8 |    1 |  1710 |
+| James River A/G, Ozark, MO – John           |    9 |    0 |  1615 |
+| Manassas A/G, Bristow, VA                   |    7 |    2 |  1585 |
+| Faith A/G, Orlando, FL                      |    5 |    4 |  1570 |
+| First A/G, Binghamton, NY                   |    6 |    3 |  1550 |
+| Meadowbrook Community Church, Champaign, IL |    5 |    4 |  1490 |
+| Overland Park A/G, Overland Park, KS        |    5 |    4 |  1490 |
+| Living Hope Worship Center, Swedesboro, NJ  |    5 |    4 |  1415 |
+| Victorious Life, Wesley Chapel, FL - Ed     |    4 |    5 |  1415 |
+| James River A/G, Ozark, MO – Karl           |    5 |    4 |  1340 |
+| Braeswood A/G, Houston, TX                  |    4 |    4 |  1285 |
+| Dayspring A/G, Bowling Green, OH            |    5 |    4 |  1265 |
+| Evangel Heights A/G, Sarver, PA             |    3 |    6 |  1145 |
+| New Life A/G, White Cloud, MI               |    3 |    6 |  1060 |
+| First A/G, Lexington, KY - Karen            |    4 |    5 |  1020 |
+| First A/G of Greater Lansing, MI            |    3 |    6 |   950 |
+| First A/G, Montgomery, AL                   |    5 |    4 |   800 |
+| South Hills A/G, Bethel Park, PA            |    1 |    8 |   615 |
+| Word of Life A/G, Springfield, VA - Mat     |    1 |    8 |   610 |
+| First A/G, Lexington, KY - Becky            |    1 |    8 |   595 |
+| Word of Life A/G, Springfield, VA "Don"     |    1 |    7 |   520 |
+| Friendship Team, "K,P,O" USA                |    0 |    9 |   310 |
 
 ## Gold
 
 ### Teams
 
-| #   | Team                                        | Wins | Losses | Total |
-| --- | ------------------------------------------- | ---- | ------ | ----- |
-| 1   | Victorious Life, Wesley Chapel, FL - Joshua | 7    | 0      | 1410  |
-| 2   | Praise A/G, Garfield, NJ                    | 4    | 3      | 1070  |
-| 3   | Manassas A/G, Bristow, VA                   | 3    | 4      | 985   |
-| 4   | Meadowbrook Community Church, Champaign, IL | 3    | 4      | 905   |
-| 5   | James River A/G, Ozark, MO – John           | 3    | 4      | 835   |
-| 6   | First A/G, Binghamton, NY                   | 3    | 4      | 815   |
-| 7   | Northside Family Church, Cumming, GA        | 3    | 4      | 805   |
-| 8   | Faith A/G, Orlando, FL                      | 2    | 5      | 755   |
+| #   | Team                                        | W   | L   | Total |
+| --- | ------------------------------------------- | --- | --- | ----- |
+| 1   | Victorious Life, Wesley Chapel, FL - Joshua | 7   | 0   | 1410  |
+| 2   | Praise A/G, Garfield, NJ                    | 4   | 3   | 1070  |
+| 3   | Manassas A/G, Bristow, VA                   | 3   | 4   | 985   |
+| 4   | Meadowbrook Community Church, Champaign, IL | 3   | 4   | 905   |
+| 5   | James River A/G, Ozark, MO – John           | 3   | 4   | 835   |
+| 6   | First A/G, Binghamton, NY                   | 3   | 4   | 815   |
+| 7   | Northside Family Church, Cumming, GA        | 3   | 4   | 805   |
+| 8   | Faith A/G, Orlando, FL                      | 2   | 5   | 755   |
 
 ### Individuals
 
@@ -95,16 +95,16 @@ menubar_toc_static:
 
 ### Teams
 
-| #   | Team                                       | Wins | Losses | Total |
-| --- | ------------------------------------------ | ---- | ------ | ----- |
-| 1   | Evangel Heights A/G, Sarver, PA*           | 5    | 2      | 1000  |
-| 2   | Braeswood A/G, Houston, TX*                | 5    | 2      | 900   |
-| 3   | Overland Park A/G, Overland Park, KS**     | 5    | 2      | 810   |
-| 4   | New Life A/G, White Cloud, MI              | 4    | 3      | 950   |
-| 5   | James River A/G, Ozark, MO – Karl          | 3    | 4      | 930   |
-| 6   | Living Hope Worship Center, Swedesboro, NJ | 2    | 5      | 1065  |
-| 7   | Dayspring A/G, Bowling Green, OH           | 2    | 5      | 805   |
-| 8   | Victorious Life, Wesley Chapel, FL - Ed    | 2    | 5      | 720   |
+| #   | Team                                       | W   | L   | Total |
+| --- | ------------------------------------------ | --- | --- | ----- |
+| 1   | Evangel Heights A/G, Sarver, PA*           | 5   | 2   | 1000  |
+| 2   | Braeswood A/G, Houston, TX*                | 5   | 2   | 900   |
+| 3   | Overland Park A/G, Overland Park, KS**     | 5   | 2   | 810   |
+| 4   | New Life A/G, White Cloud, MI              | 4   | 3   | 950   |
+| 5   | James River A/G, Ozark, MO – Karl          | 3   | 4   | 930   |
+| 6   | Living Hope Worship Center, Swedesboro, NJ | 2   | 5   | 1065  |
+| 7   | Dayspring A/G, Bowling Green, OH           | 2   | 5   | 805   |
+| 8   | Victorious Life, Wesley Chapel, FL - Ed    | 2   | 5   | 720   |
 
 \* Evangel Heights, Sarver beat both Braeswood A/G, Houston, TX and Overland Park, KS\
 \*\* Braeswood A/G, Houston, TX beat Overland Park, KS
@@ -147,16 +147,16 @@ menubar_toc_static:
 
 ### Teams
 
-| #   | Team                                     | Wins | Losses | Total |
-| --- | ---------------------------------------- | ---- | ------ | ----- |
-| 1   | First A/G, Montgomery, AL                | 7    | 0      | 1200  |
-| 2   | Word of Life A/G, Springfield, VA "Don"* | 5    | 2      | 755   |
-| 3   | First A/G of Greater Lansing, MI*        | 5    | 2      | 925   |
-| 4   | First A/G, Lexington, KY - Karen         | 3    | 4      | 675   |
-| 5   | South Hills A/G, Bethel Park, PA         | 3    | 4      | 480   |
-| 6   | First A/G, Lexington, KY - Becky         | 2    | 5      | 475   |
-| 7   | Word of Life A/G, Springfield, VA - Mat  | 2    | 5      | 225   |
-| 8   | Friendship Team, "K,P,O" USA             | 1    | 6      | 275   |
+| #   | Team                                     | W   | L   | Total |
+| --- | ---------------------------------------- | --- | --- | ----- |
+| 1   | First A/G, Montgomery, AL                | 7   | 0   | 1200  |
+| 2   | Word of Life A/G, Springfield, VA "Don"* | 5   | 2   | 755   |
+| 3   | First A/G of Greater Lansing, MI*        | 5   | 2   | 925   |
+| 4   | First A/G, Lexington, KY - Karen         | 3   | 4   | 675   |
+| 5   | South Hills A/G, Bethel Park, PA         | 3   | 4   | 480   |
+| 6   | First A/G, Lexington, KY - Becky         | 2   | 5   | 475   |
+| 7   | Word of Life A/G, Springfield, VA - Mat  | 2   | 5   | 225   |
+| 8   | Friendship Team, "K,P,O" USA             | 1   | 6   | 275   |
 
 \* Word of Life A/G, Springfield (Don) beat First A/G of Greater Lansing
 

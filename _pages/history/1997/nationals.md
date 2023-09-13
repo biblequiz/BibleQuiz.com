@@ -33,7 +33,7 @@ Jeremy Horn won the scholarship quiz at the banquet. Participants in the quiz in
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                                 | Record  | Total |    Avg | Margin | Avg Margin |
+|    # | Team                                 | Record  | Total |    Avg | Margin | Avg Margin |
 | ---: | ------------------------------------ | ------- | ----: | -----: | -----: | ---------: |
 |    1 | First A/G, Lexington, KY             | 19 / 4  |  3585 | 155.87 |   1855 |      80.65 |
 |    2 | Central A/G, Springfield, MO*        | 17 / 6  |  3285 | 142.83 |   1650 |      71.74 |
@@ -67,115 +67,115 @@ Jeremy Horn won the scholarship quiz at the banquet. Participants in the quiz in
 
 The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Beulah, MI. Dan's per quiz average was 115.45. This was one of the highest scores in over a decade, but would be broken by over 35 points in 1999.
 
-|      Rank | Quizzer             | Church                               | Total |    Avg | QO Fwd | QO Back |
-| --------: | ------------------- | ------------------------------------ | ----: | -----: | -----: | ------: |
-|         1 | Jeremy Horn         | First A/G, Shreveport, LA            |  2405 | 104.57 |     17 |       4 |
-|   **1\*** | Kent Piacenti       | Life Community Church, Sunnyvale, TX |  2405 | 104.57 |     13 |       3 |
-|         3 | Shelly Rogers       | Victorious Life, Waco, TX            |  2260 |  98.26 |     14 |       4 |
-|         4 | Shaun McFadden      | First A/G, Helena, MT                |  2085 |  90.65 |     16 |       5 |
-|         5 | Krisha Beyer        | First A/G, Oskaloosa, IA             |  2040 |   88.7 |     10 |       5 |
-|         6 | David Rees          | First A/G, Lexington, KY             |  1920 |  83.48 |      8 |       5 |
-|         7 | Steve Patient       | Calvary Temple, Auburn, WA           |  1770 |  76.96 |     11 |       4 |
-|         8 | Valerie Marchalonis | Mountain View A/G, Las Vegas, NV     |  1745 |  75.87 |      9 |       4 |
-|         9 | Nathan Novak        | Calvary Temple, Auburn, WA           |  1630 |  70.87 |      9 |       7 |
-|        10 | Renee Bollinger     | First A/G, Phoenix, AZ               |  1515 |  65.87 |      4 |       2 |
-|        11 | Ryan Decker         | Minier A/G, Minier, IL               |  1505 |  65.43 |      7 |       5 |
-|        12 | Jennifer Shim       | Allison Park A/G, Allison Park, PA   |  1460 |  63.48 |      8 |       2 |
-|        13 | Chris Moyer         | Life Community Church, Sunnyvale, TX |  1450 |  63.04 |     11 |       4 |
-|        14 | Joshua Stewart      | First A/G, Fort Myers, FL (Team 1)   |  1445 |  62.83 |      8 |       9 |
-|        15 | Jordan Schneider    | Radiant Church, Colorado Springs, CO |  1400 |  60.87 |      8 |       9 |
-|        16 | Tika Daigle         | Grace A/G, Syracuse, NY              |  1365 |  59.35 |      6 |       1 |
-|        17 | Andy Poelman        | Racine A/G, Racine, WI               |  1355 |  58.91 |      5 |       6 |
-|  **17\*** | Kacey Wade          | First A/G, Lexington, KY             |  1355 |  58.91 |      7 |       1 |
-|        19 | Joey Bohanon        | Central A/G, Springfield, MO         |  1335 |  58.04 |      5 |       3 |
-|        20 | Shawn Maust         | Calvary A/G, Elkhart, IN             |  1230 |  53.48 |      3 |       2 |
-|        21 | Naomi Welborn       | First A/G, Fort Myers, FL (Team 2)   |  1175 |  51.09 |      3 |       3 |
-|        22 | Todd Katter         | Central A/G, Springfield, MO         |  1155 |  50.22 |      5 |       2 |
-|        23 | Brent Ellwein       | Heights A/G, Billings, MT            |  1130 |  49.13 |      3 |       4 |
-|        24 | [name omitted]      | Allison Park A/G, Allison Park, PA   |  1075 |  46.74 |      2 |       1 |
-|        25 | Dayla Shorter       | Harvest A/G, Fort Worth, TX          |  1060 |  46.09 |      5 |      14 |
-|        26 | Teri Jolissaint     | First A/G, Warner Robins, GA         |  1040 |  45.22 |      7 |       8 |
-|        27 | Alissa Cooper       | Alpha A/G, Clarion, PA               |  1020 |  44.35 |      1 |       1 |
-|  **27\*** | Dan McLaughlin      | Grace A/G, Syracuse, NY              |  1020 |  44.35 |      2 |       1 |
-|        29 | Stan Hardter        | Grace A/G, Syracuse, NY              |   990 |  43.04 |      4 |       3 |
-|        30 | Jaron Burnworth     | Alpha A/G, Clarion, PA               |   955 |  41.52 |      4 |       1 |
-|        31 | Matthew Hernando    | King's Chapel, Springfield, MO       |   920 |     40 |      5 |       6 |
-|        32 | Michael Vargo       | First A/G, Phoenix, AZ               |   895 |  38.91 |      2 |       4 |
-|        33 | Christy Winner      | Harvest A/G, Fort Worth, TX          |   890 |   38.7 |      7 |       1 |
-|        34 | Courtney Cobb       | Racine A/G, Racine, WI               |   855 |  37.17 |      6 |       1 |
-|        35 | Kayla Rowe          | Central A/G, Springfield, MO         |   815 |  35.43 |      4 |       1 |
-|        36 | James Fenton        | Allison Park A/G, Allison Park, PA   |   795 |  34.57 |      4 |       1 |
-|  **36\*** | Shelby Alfred       | First A/G, Shreveport, LA            |   795 |  34.57 |      3 |       4 |
-|        38 | Stephanie Hunter    | Calvary A/G, Elkhart, IN             |   765 |  33.26 |      2 |       2 |
-|        39 | Merinda Cooper      | Alpha A/G, Clarion, PA               |   760 |  33.04 |        |         |
-|        40 | Zach Talbott        | First A/G, Fort Myers, FL (Team 1)   |   720 |   31.3 |      5 |       4 |
-|        41 | Seth Edwards        | Victorious Life, Waco, TX            |   655 |  28.48 |      1 |       5 |
-|        42 | Sara Beth Borho     | Watford A/G, Watford City, ND        |   640 |  27.83 |      1 |       2 |
-|        43 | Eric Hernando       | King's Chapel, Springfield, MO       |   620 |  26.96 |      3 |      12 |
-|        44 | Jon Higgins         | First A/G, Oskaloosa, IA             |   600 |  26.09 |      2 |       5 |
-|        45 | Laura Thaut         | Heights A/G, Billings, MT            |   505 |  21.96 |      2 |       1 |
-|        46 | Rachel Jones        | Radiant Church, Colorado Springs, CO |   500 |  21.74 |      1 |       2 |
-|        47 | Amy Swanson         | Minier A/G, Minier, IL               |   370 |  16.09 |        |         |
-|        48 | Brandon Moore       | First A/G, Phoenix, AZ               |   335 |  14.57 |        |       1 |
-|        49 | Michelle S. Beaver  | First A/G, Oskaloosa, IA             |   325 |  14.13 |        |         |
-|        50 | Michael Kindel      | Watford A/G, Watford City, ND        |   320 |  13.91 |      1 |       3 |
-|        51 | DeAndre Johnson     | First A/G, Shreveport, LA            |   315 |   13.7 |        |         |
-|        52 | Jeffrey Kindel      | Watford A/G, Watford City, ND        |   310 |  13.48 |      1 |       6 |
-|        53 | Stephen Horn        | First A/G, Lexington, KY             |   280 |  12.17 |        |         |
-|        54 | Kimberly Slabaugh   | Calvary A/G, Elkhart, IN             |   255 |  11.09 |        |         |
-|  **54\*** | Shane Welborn       | First A/G, Fort Myers, FL (Team 2)   |   255 |  11.09 |        |         |
-|        56 | Adam Bennison       | First A/G, Helena, MT                |   250 |  10.87 |        |       2 |
-|        57 | Jennifer Martin     | Harvest A/G, Fort Worth, TX          |   245 |  10.65 |        |         |
-|  **57\*** | Terry Nance, Jr.    | Mountain View A/G, Las Vegas, NV     |   245 |  10.65 |        |       2 |
-|        59 | Kyle Rogers         | Victorious Life, Waco, TX            |   230 |     10 |      1 |       1 |
-|        60 | Eric Peeters        | Life Community Church, Sunnyvale, TX |   210 |   9.13 |        |         |
-|        61 | Laurel Phillips     | First A/G, Helena, MT                |   190 |   8.26 |        |         |
-|        62 | Anita Boeninger     | Radiant Church, Colorado Springs, CO |   155 |   6.74 |        |       2 |
-|        63 | Jessica Talbott     | First A/G, Fort Myers, FL            |   150 |   6.52 |        |         |
-|        64 | Adeanna Westmeyer   | First A/G, Warner Robins, GA         |   120 |   5.22 |        |         |
-|        65 | Katie McCleary      | Heights A/G, Billings, MT            |   110 |   4.78 |        |         |
-|  **65\*** | Mark Knoles         | First A/G, Phoenix, AZ               |   110 |   4.78 |        |         |
-|        67 | Kami Ecker          | Watford A/G, Watford City, ND        |   105 |   4.57 |        |         |
-|        68 | Todd Hengemuhle     | Racine A/G, Racine, WI               |    80 |   3.48 |        |         |
-|        69 | Scott Winter        | Allison Park A/G, Allison Park, PA   |    75 |   3.26 |      1 |       1 |
-|  **69\*** | Mike Hengemuhle     | Racine A/G, Racine, WI               |       |        |        |         |
-|  **69\*** | Faith Allwood       | Mountain View A/G, Las Vegas, NV     |       |        |        |         |
-|        72 | Ryan Clark          | Calvary A/G, Elkhart, IN             |    70 |   3.04 |        |         |
-|  **72\*** | Bethany Runyon      | Calvary A/G, Elkhart, IN             |    70 |   3.04 |        |         |
-|  **72\*** | Jason Martin        | Allison Park A/G, Allison Park, PA   |    70 |   3.04 |        |         |
-|        75 | Kjirstin Haugland   | Calvary Temple, Auburn, WA           |    65 |   2.83 |        |         |
-|        76 | Becky Rees          | First A/G, Lexington, KY             |    50 |   2.17 |        |         |
-|        77 | Sonja Waters        | First A/G, Warner Robins, GA         |    40 |   1.74 |        |         |
-|        78 | Timothy Sanders     | Racine A/G, Racine, WI               |    35 |   1.52 |        |         |
-|  **78\*** | Danielle Bertovich  | First A/G, Warner Robins, GA         |    35 |   1.52 |        |         |
-|  **78\*** | Alex Harris         | Mountain View A/G, Las Vegas, NV     |    35 |   1.52 |        |         |
-|        81 | Jonathan Talbott    | First A/G, Fort Myers, FL (Team 2)   |    30 |    1.3 |        |         |
-|  **81\*** | Wallace Ragains     | Watford A/G, Watford City, ND        |    30 |    1.3 |        |         |
-|  **81\*** | Wynter Gingery      | Minier A/G, Minier, IL               |    30 |    1.3 |        |         |
-|        84 | Michael Bolognone   | Grace A/G, Syracuse, NY              |    20 |   0.87 |        |         |
-|  **84\*** | Megan Miller        | Radiant Church, Colorado Springs, CO |    20 |   0.87 |        |         |
-|  **84\*** | Megan Pincombe      | Central A/G, Springfield, MO         |    20 |   0.87 |        |         |
-|  **84\*** | Moriah Thacker      | Minier A/G, Minier, IL               |    20 |   0.87 |        |         |
-|        88 | Jeremy DeLaCerda    | First A/G, Shreveport, LA            |    15 |   0.65 |        |         |
-|        89 | Tonia Marie Lee     | King's Chapel, Springfield, MO       |    10 |   0.43 |        |         |
-|        90 | Mike Torres         | First A/G, Phoenix, AZ               |     5 |   0.22 |        |         |
-|        91 | Danielle Goheen     | Alpha A/G, Clarion, PA               |     0 |      0 |        |         |
-|  **91\*** | Melanie Raines      | Victorious Life, Waco, TX            |     0 |      0 |        |         |
-|  **91\*** | David Trower        | Victorious Life, Waco, TX            |     0 |      0 |        |         |
-|  **91\*** | Darla Wickert       | Victorious Life, Waco, TX            |     0 |      0 |        |         |
-|  **91\*** | Rachel Jerabek      | First A/G, Fort Myers, FL (Team 2)   |     0 |      0 |        |         |
-|  **91\*** | David Skidmark      | First A/G, Shreveport, LA            |     0 |      0 |        |         |
-|  **91\*** | Rudy Pierce         | Calvary Temple, Auburn, WA           |     0 |      0 |        |         |
-|  **91\*** | Kathleen Peters     | Life Community Church, Sunnyvale, TX |     0 |      0 |        |         |
-|  **91\*** | Preston Drobeck     | Radiant Church, Colorado Springs, CO |     0 |      0 |        |         |
-|  **91\*** | Chris Sides         | Radiant Church, Colorado Springs, CO |     0 |      0 |        |         |
-|  **91\*** | Traci Jolissaint    | First A/G, Warner Robins, GA         |     0 |      0 |        |         |
-|  **91\*** | Thomas Chenault     | King's Chapel, Springfield, MO       |     0 |      0 |        |         |
-|  **91\*** | Jennifer Talbott    | First A/G, Fort Myers, FL (Team 1)   |     0 |      0 |        |         |
-|       104 | Amie Haugland       | Calvary Temple, Auburn, WA           |    -5 |  -0.22 |        |         |
-| **104\*** | Kuntyi Samqui       | Harvest A/G, Fort Worth, TX          |    -5 |  -0.22 |        |         |
-|       106 | Amber Lovell        | Minier A/G, Minier, IL               |   -10 |  -0.43 |        |         |
-|       107 | Tiffany Kuhn        | Allison Park A/G, Allison Park, PA   |   -20 |  -0.87 |        |         |
+|      Rank | Quizzer             | Church                               | Total |    Avg | QO Fwd | QO Bk |
+| --------: | ------------------- | ------------------------------------ | ----: | -----: | -----: | ----: |
+|         1 | Jeremy Horn         | First A/G, Shreveport, LA            |  2405 | 104.57 |     17 |     4 |
+|   **1\*** | Kent Piacenti       | Life Community Church, Sunnyvale, TX |  2405 | 104.57 |     13 |     3 |
+|         3 | Shelly Rogers       | Victorious Life, Waco, TX            |  2260 |  98.26 |     14 |     4 |
+|         4 | Shaun McFadden      | First A/G, Helena, MT                |  2085 |  90.65 |     16 |     5 |
+|         5 | Krisha Beyer        | First A/G, Oskaloosa, IA             |  2040 |   88.7 |     10 |     5 |
+|         6 | David Rees          | First A/G, Lexington, KY             |  1920 |  83.48 |      8 |     5 |
+|         7 | Steve Patient       | Calvary Temple, Auburn, WA           |  1770 |  76.96 |     11 |     4 |
+|         8 | Valerie Marchalonis | Mountain View A/G, Las Vegas, NV     |  1745 |  75.87 |      9 |     4 |
+|         9 | Nathan Novak        | Calvary Temple, Auburn, WA           |  1630 |  70.87 |      9 |     7 |
+|        10 | Renee Bollinger     | First A/G, Phoenix, AZ               |  1515 |  65.87 |      4 |     2 |
+|        11 | Ryan Decker         | Minier A/G, Minier, IL               |  1505 |  65.43 |      7 |     5 |
+|        12 | Jennifer Shim       | Allison Park A/G, Allison Park, PA   |  1460 |  63.48 |      8 |     2 |
+|        13 | Chris Moyer         | Life Community Church, Sunnyvale, TX |  1450 |  63.04 |     11 |     4 |
+|        14 | Joshua Stewart      | First A/G, Fort Myers, FL (Team 1)   |  1445 |  62.83 |      8 |     9 |
+|        15 | Jordan Schneider    | Radiant Church, Colorado Springs, CO |  1400 |  60.87 |      8 |     9 |
+|        16 | Tika Daigle         | Grace A/G, Syracuse, NY              |  1365 |  59.35 |      6 |     1 |
+|        17 | Andy Poelman        | Racine A/G, Racine, WI               |  1355 |  58.91 |      5 |     6 |
+|  **17\*** | Kacey Wade          | First A/G, Lexington, KY             |  1355 |  58.91 |      7 |     1 |
+|        19 | Joey Bohanon        | Central A/G, Springfield, MO         |  1335 |  58.04 |      5 |     3 |
+|        20 | Shawn Maust         | Calvary A/G, Elkhart, IN             |  1230 |  53.48 |      3 |     2 |
+|        21 | Naomi Welborn       | First A/G, Fort Myers, FL (Team 2)   |  1175 |  51.09 |      3 |     3 |
+|        22 | Todd Katter         | Central A/G, Springfield, MO         |  1155 |  50.22 |      5 |     2 |
+|        23 | Brent Ellwein       | Heights A/G, Billings, MT            |  1130 |  49.13 |      3 |     4 |
+|        24 | [name omitted]      | Allison Park A/G, Allison Park, PA   |  1075 |  46.74 |      2 |     1 |
+|        25 | Dayla Shorter       | Harvest A/G, Fort Worth, TX          |  1060 |  46.09 |      5 |    14 |
+|        26 | Teri Jolissaint     | First A/G, Warner Robins, GA         |  1040 |  45.22 |      7 |     8 |
+|        27 | Alissa Cooper       | Alpha A/G, Clarion, PA               |  1020 |  44.35 |      1 |     1 |
+|  **27\*** | Dan McLaughlin      | Grace A/G, Syracuse, NY              |  1020 |  44.35 |      2 |     1 |
+|        29 | Stan Hardter        | Grace A/G, Syracuse, NY              |   990 |  43.04 |      4 |     3 |
+|        30 | Jaron Burnworth     | Alpha A/G, Clarion, PA               |   955 |  41.52 |      4 |     1 |
+|        31 | Matthew Hernando    | King's Chapel, Springfield, MO       |   920 |     40 |      5 |     6 |
+|        32 | Michael Vargo       | First A/G, Phoenix, AZ               |   895 |  38.91 |      2 |     4 |
+|        33 | Christy Winner      | Harvest A/G, Fort Worth, TX          |   890 |   38.7 |      7 |     1 |
+|        34 | Courtney Cobb       | Racine A/G, Racine, WI               |   855 |  37.17 |      6 |     1 |
+|        35 | Kayla Rowe          | Central A/G, Springfield, MO         |   815 |  35.43 |      4 |     1 |
+|        36 | James Fenton        | Allison Park A/G, Allison Park, PA   |   795 |  34.57 |      4 |     1 |
+|  **36\*** | Shelby Alfred       | First A/G, Shreveport, LA            |   795 |  34.57 |      3 |     4 |
+|        38 | Stephanie Hunter    | Calvary A/G, Elkhart, IN             |   765 |  33.26 |      2 |     2 |
+|        39 | Merinda Cooper      | Alpha A/G, Clarion, PA               |   760 |  33.04 |        |       |
+|        40 | Zach Talbott        | First A/G, Fort Myers, FL (Team 1)   |   720 |   31.3 |      5 |     4 |
+|        41 | Seth Edwards        | Victorious Life, Waco, TX            |   655 |  28.48 |      1 |     5 |
+|        42 | Sara Beth Borho     | Watford A/G, Watford City, ND        |   640 |  27.83 |      1 |     2 |
+|        43 | Eric Hernando       | King's Chapel, Springfield, MO       |   620 |  26.96 |      3 |    12 |
+|        44 | Jon Higgins         | First A/G, Oskaloosa, IA             |   600 |  26.09 |      2 |     5 |
+|        45 | Laura Thaut         | Heights A/G, Billings, MT            |   505 |  21.96 |      2 |     1 |
+|        46 | Rachel Jones        | Radiant Church, Colorado Springs, CO |   500 |  21.74 |      1 |     2 |
+|        47 | Amy Swanson         | Minier A/G, Minier, IL               |   370 |  16.09 |        |       |
+|        48 | Brandon Moore       | First A/G, Phoenix, AZ               |   335 |  14.57 |        |     1 |
+|        49 | Michelle S. Beaver  | First A/G, Oskaloosa, IA             |   325 |  14.13 |        |       |
+|        50 | Michael Kindel      | Watford A/G, Watford City, ND        |   320 |  13.91 |      1 |     3 |
+|        51 | DeAndre Johnson     | First A/G, Shreveport, LA            |   315 |   13.7 |        |       |
+|        52 | Jeffrey Kindel      | Watford A/G, Watford City, ND        |   310 |  13.48 |      1 |     6 |
+|        53 | Stephen Horn        | First A/G, Lexington, KY             |   280 |  12.17 |        |       |
+|        54 | Kimberly Slabaugh   | Calvary A/G, Elkhart, IN             |   255 |  11.09 |        |       |
+|  **54\*** | Shane Welborn       | First A/G, Fort Myers, FL (Team 2)   |   255 |  11.09 |        |       |
+|        56 | Adam Bennison       | First A/G, Helena, MT                |   250 |  10.87 |        |     2 |
+|        57 | Jennifer Martin     | Harvest A/G, Fort Worth, TX          |   245 |  10.65 |        |       |
+|  **57\*** | Terry Nance, Jr.    | Mountain View A/G, Las Vegas, NV     |   245 |  10.65 |        |     2 |
+|        59 | Kyle Rogers         | Victorious Life, Waco, TX            |   230 |     10 |      1 |     1 |
+|        60 | Eric Peeters        | Life Community Church, Sunnyvale, TX |   210 |   9.13 |        |       |
+|        61 | Laurel Phillips     | First A/G, Helena, MT                |   190 |   8.26 |        |       |
+|        62 | Anita Boeninger     | Radiant Church, Colorado Springs, CO |   155 |   6.74 |        |     2 |
+|        63 | Jessica Talbott     | First A/G, Fort Myers, FL            |   150 |   6.52 |        |       |
+|        64 | Adeanna Westmeyer   | First A/G, Warner Robins, GA         |   120 |   5.22 |        |       |
+|        65 | Katie McCleary      | Heights A/G, Billings, MT            |   110 |   4.78 |        |       |
+|  **65\*** | Mark Knoles         | First A/G, Phoenix, AZ               |   110 |   4.78 |        |       |
+|        67 | Kami Ecker          | Watford A/G, Watford City, ND        |   105 |   4.57 |        |       |
+|        68 | Todd Hengemuhle     | Racine A/G, Racine, WI               |    80 |   3.48 |        |       |
+|        69 | Scott Winter        | Allison Park A/G, Allison Park, PA   |    75 |   3.26 |      1 |     1 |
+|  **69\*** | Mike Hengemuhle     | Racine A/G, Racine, WI               |       |        |        |       |
+|  **69\*** | Faith Allwood       | Mountain View A/G, Las Vegas, NV     |       |        |        |       |
+|        72 | Ryan Clark          | Calvary A/G, Elkhart, IN             |    70 |   3.04 |        |       |
+|  **72\*** | Bethany Runyon      | Calvary A/G, Elkhart, IN             |    70 |   3.04 |        |       |
+|  **72\*** | Jason Martin        | Allison Park A/G, Allison Park, PA   |    70 |   3.04 |        |       |
+|        75 | Kjirstin Haugland   | Calvary Temple, Auburn, WA           |    65 |   2.83 |        |       |
+|        76 | Becky Rees          | First A/G, Lexington, KY             |    50 |   2.17 |        |       |
+|        77 | Sonja Waters        | First A/G, Warner Robins, GA         |    40 |   1.74 |        |       |
+|        78 | Timothy Sanders     | Racine A/G, Racine, WI               |    35 |   1.52 |        |       |
+|  **78\*** | Danielle Bertovich  | First A/G, Warner Robins, GA         |    35 |   1.52 |        |       |
+|  **78\*** | Alex Harris         | Mountain View A/G, Las Vegas, NV     |    35 |   1.52 |        |       |
+|        81 | Jonathan Talbott    | First A/G, Fort Myers, FL (Team 2)   |    30 |    1.3 |        |       |
+|  **81\*** | Wallace Ragains     | Watford A/G, Watford City, ND        |    30 |    1.3 |        |       |
+|  **81\*** | Wynter Gingery      | Minier A/G, Minier, IL               |    30 |    1.3 |        |       |
+|        84 | Michael Bolognone   | Grace A/G, Syracuse, NY              |    20 |   0.87 |        |       |
+|  **84\*** | Megan Miller        | Radiant Church, Colorado Springs, CO |    20 |   0.87 |        |       |
+|  **84\*** | Megan Pincombe      | Central A/G, Springfield, MO         |    20 |   0.87 |        |       |
+|  **84\*** | Moriah Thacker      | Minier A/G, Minier, IL               |    20 |   0.87 |        |       |
+|        88 | Jeremy DeLaCerda    | First A/G, Shreveport, LA            |    15 |   0.65 |        |       |
+|        89 | Tonia Marie Lee     | King's Chapel, Springfield, MO       |    10 |   0.43 |        |       |
+|        90 | Mike Torres         | First A/G, Phoenix, AZ               |     5 |   0.22 |        |       |
+|        91 | Danielle Goheen     | Alpha A/G, Clarion, PA               |     0 |      0 |        |       |
+|  **91\*** | Melanie Raines      | Victorious Life, Waco, TX            |     0 |      0 |        |       |
+|  **91\*** | David Trower        | Victorious Life, Waco, TX            |     0 |      0 |        |       |
+|  **91\*** | Darla Wickert       | Victorious Life, Waco, TX            |     0 |      0 |        |       |
+|  **91\*** | Rachel Jerabek      | First A/G, Fort Myers, FL (Team 2)   |     0 |      0 |        |       |
+|  **91\*** | David Skidmark      | First A/G, Shreveport, LA            |     0 |      0 |        |       |
+|  **91\*** | Rudy Pierce         | Calvary Temple, Auburn, WA           |     0 |      0 |        |       |
+|  **91\*** | Kathleen Peters     | Life Community Church, Sunnyvale, TX |     0 |      0 |        |       |
+|  **91\*** | Preston Drobeck     | Radiant Church, Colorado Springs, CO |     0 |      0 |        |       |
+|  **91\*** | Chris Sides         | Radiant Church, Colorado Springs, CO |     0 |      0 |        |       |
+|  **91\*** | Traci Jolissaint    | First A/G, Warner Robins, GA         |     0 |      0 |        |       |
+|  **91\*** | Thomas Chenault     | King's Chapel, Springfield, MO       |     0 |      0 |        |       |
+|  **91\*** | Jennifer Talbott    | First A/G, Fort Myers, FL (Team 1)   |     0 |      0 |        |       |
+|       104 | Amie Haugland       | Calvary Temple, Auburn, WA           |    -5 |  -0.22 |        |       |
+| **104\*** | Kuntyi Samqui       | Harvest A/G, Fort Worth, TX          |    -5 |  -0.22 |        |       |
+|       106 | Amber Lovell        | Minier A/G, Minier, IL               |   -10 |  -0.43 |        |       |
+|       107 | Tiffany Kuhn        | Allison Park A/G, Allison Park, PA   |   -20 |  -0.87 |        |       |
 
 ## Teams
 

@@ -31,84 +31,84 @@ The 1991 field contained three past and two future National Champions. In additi
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| Rank | Team                                      | Record | Total | Avg    | Margin | Avg Margin |
-|-----:|-------------------------------------------|--------|------:|-------:|-------:|-----------:|
-| 1    | Carpenter's Home Church, Lakeland, FL     | 13 / 2 | 2625  | 175    | 1705   | 113.66     |
-| 2    | Calvary Christian Center, Buena Park, CA* | 11 / 4 | 2305  | 153.66 | 790    | 52.66      |
-| 3    | Christian Life Church, Farmington, MN     | 11 / 4 | 2230  | 148.66 | 1125   | 75         |
-| 4    | Evangel Community Church, Centerville, GA | 10 / 5 | 2390  | 159.33 | 925    | 61.66      |
-| 5    | Braeswood A/G, Houston, TX                | 10 / 5 | 2395  | 159.66 | 790    | 52.66      |
-| 6    | First A/G, Bartlesville, OK               | 9 / 6  | 2125  | 141.66 | 695    | 46.331     |
-| 7    | First A/G, Merrillville, IN               | 8 / 7  | 1655  | 110.33 | -225   | -15        |
-| 8    | First A/G, Kenosha, WI                    | 7 / 8  | 1540  | 102.66 | -500   | -33.33     |
-| 9    | Central A/G, Springfield, MO              | 7 / 8  | 1540  | 102.66 | -65    | -4.33      |
-| 10   | Parkcrest A/G, Springfield, MO            | 6 / 9  | 1735  | 115.66 | -135   | -9         |
-| 11   | Charity A/G, Laveen, AZ                   | 6 / 9  | 1570  | 104.66 | -675   | -45        |
-| 12   | Allison Park A/G, Allison Park, PA        | 5 / 10 | 1430  | 95.33  | -535   | -35.66     |
-| 13   | Calvary A/G, Elkhart, IN                  | 5 / 10 | 1345  | 89.66  | -815   | -54.33     |
-| 14   | First A/G, Nampa, ID                      | 5 / 10 | 1235  | 82.33  | -1000  | -66.66     |
-| 15   | Wyckoff A/G, Wyckoff, NJ                  | 4 / 11 | 1175  | 78.33  | -1185  | -79        |
-| 16   | Renton A/G, Renton, WA                    | 3 / 12 | 1180  | 78.66  | -1055  | -70.33     |
+|    # | Team                                      | Record | Total |    Avg | Margin | Avg Margin |
+| ---: | ----------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
+|    1 | Carpenter's Home Church, Lakeland, FL     | 13 / 2 |  2625 |    175 |   1705 |     113.66 |
+|    2 | Calvary Christian Center, Buena Park, CA* | 11 / 4 |  2305 | 153.66 |    790 |      52.66 |
+|    3 | Christian Life Church, Farmington, MN     | 11 / 4 |  2230 | 148.66 |   1125 |         75 |
+|    4 | Evangel Community Church, Centerville, GA | 10 / 5 |  2390 | 159.33 |    925 |      61.66 |
+|    5 | Braeswood A/G, Houston, TX                | 10 / 5 |  2395 | 159.66 |    790 |      52.66 |
+|    6 | First A/G, Bartlesville, OK               | 9 / 6  |  2125 | 141.66 |    695 |     46.331 |
+|    7 | First A/G, Merrillville, IN               | 8 / 7  |  1655 | 110.33 |   -225 |        -15 |
+|    8 | First A/G, Kenosha, WI                    | 7 / 8  |  1540 | 102.66 |   -500 |     -33.33 |
+|    9 | Central A/G, Springfield, MO              | 7 / 8  |  1540 | 102.66 |    -65 |      -4.33 |
+|   10 | Parkcrest A/G, Springfield, MO            | 6 / 9  |  1735 | 115.66 |   -135 |         -9 |
+|   11 | Charity A/G, Laveen, AZ                   | 6 / 9  |  1570 | 104.66 |   -675 |        -45 |
+|   12 | Allison Park A/G, Allison Park, PA        | 5 / 10 |  1430 |  95.33 |   -535 |     -35.66 |
+|   13 | Calvary A/G, Elkhart, IN                  | 5 / 10 |  1345 |  89.66 |   -815 |     -54.33 |
+|   14 | First A/G, Nampa, ID                      | 5 / 10 |  1235 |  82.33 |  -1000 |     -66.66 |
+|   15 | Wyckoff A/G, Wyckoff, NJ                  | 4 / 11 |  1175 |  78.33 |  -1185 |        -79 |
+|   16 | Renton A/G, Renton, WA                    | 3 / 12 |  1180 |  78.66 |  -1055 |     -70.33 |
 
 \* Won 2nd Place Playoff
 
 ### Individuals
 
-| Rank     | Quizzer           | Church                                    | Total | Avg    | QO Fwd | QO Back |
-|---------:|-------------------|-------------------------------------------|-------:|-------:|-------:|--------:|
-| 1        | Kimberly Smalley  | Charity A/G, Laveen, AZ                   | 1595  | 106.33 | 9      | 2       |
-| 2        | JoEllyn Kruger    | Christian Life Church, Farmington, MN     | 1405  | 93.66  | 9      | 5       |
-| 3        | Mark Childers     | Evangel Community Church, Centerville, GA | 1380  | 92     | 10     | 4       |
-| 4        | Garrett Smiley    | Carpenter's Home Church, Lakeland, FL     | 1335  | 89     | 11     | 3       |
-| 5        | Lisa Wootton      | First A/G, Bartlesville, OK               | 1220  | 81.33  | 6      | 3       |
-| 6        | Jason Sorens      | Houston, TX                               | 1165  | 77.67  | 5      | 4       |
-| 7        | Dionne Jobe       | Houston, TX                               | 1135  | 75.67  | 7      | 3       |
-| 8        | Josh Weber        | Lakeland, FL                              | 1100  | 73.33  | 8      | 1       |
-| 9        | Mel Aou           | Buena Park, CA                            | 1015  | 67.67  | 6      | 3       |
-| 10       | Chad Nelson       | Park Crest, Springfield, MO               | 985   | 65.67  | 6      | 3       |
-| 11       | Steven Schweitzer | Merrillville, IN                          | 985   | 65.67  | 3      | 1       |
-| 12       | Kerry Salerno     | Wyckoff, NJ                               | 945   | 63     | 7      | 3       |
-| 13       | Chris Cohilas     | Centerville, GA                           | 940   | 62.67  | 7      | 6       |
-| 14       | Tanya Peterson    | Farmington, MN                            | 925   | 61.67  | 5      | 2       |
-| 15       | Dan Smith         | Buena Park, CA                            | 915   | 61     | 5      | 6       |
-| 16       | Bob Eby           | Elkhart, IN                               | 865   | 57.67  | 4      | 2       |
-| 17       | Katey Callahan    | Allison Park, PA                          | 850   | 56.67  | 3      | 4       |
-| 18       | Luisa Oyola       | Central, Springfield, MO                  | 830   | 55.33  | 5      | 2       |
-| 19       | Eric Bauerle      | Nampa, ID                                 | 805   | 53.67  | 3      | 3       |
-| 20       | Todd Nelson       | Kenosha, WI                               | 770   | 51.33  | 4      | 4       |
-| 21       | Bryan Wootton     | Bartlesville, OK                          | 770   | 51.33  | 2      | 2       |
-| 22       | Travis Knight     | Renton, WA                                | 700   | 46.67  | 5      | 5       |
-| 23       | David Conaway     | Central, Springfield, MO                  | 665   | 44.33  | 5      | 6       |
-| 24       | David Nelson      | Kenosha, WI                               | 655   | 43.67  | 4      | 9       |
-| 25       | Mark Bane         | Merrillville, IN                          | 640   | 42.67  | 2      | 2       |
-| 26       | Justin Moody      | Park Crest, Springfield, MO               | 460   | 30.67  | 1      | 4       |
-| 27       | Daryn Trout       | Allison Park, PA                          | 410   | 27.33  |        |         |
-| 28       | Sydney Overby     | Renton, WA                                | 405   | 27-Jan | 1      | 10      |
-| 29       | Brian Schneider   | Nampa, ID                                 | 395   | 26.33  | 1      | 3       |
-| 30       | Lori Bienz        | Elkhart, IN                               | 315   | 21     |        |         |
-| 31       | Rochelle Cathcart | Park Crest, Springfield, MO               | 310   | 20.67  |        |         |
-| 32       | Joy Kuroishi      | Buena Park, CA                            | 300   | 20     |        |         |
-| 33       | Rachel Weber      | Lakeland, FL                              | 195   | 13     |        |         |
-| 34       | Derrick Miller    | Elkhart, IN                               | 170   | 11.33  |        |         |
-| **34\*** | Daryl Trout       | Allison Park, PA                          | 170   | 11.33  |        |         |
-| 36       | Wendy Salerno     | Wyckoff, NJ                               | 165   | 11     |        |         |
-| 37       | Joel Wilkie       | Bartlesville, OK                          | 140   | 9.33   |        |         |
-| 38       | Neil Sorens       | Houston, TX                               | 100   | 6.67   |        |         |
-| 39       | Scott Nelson      | Kenosha, WI                               | 90    | 0-1    | 1      | 6       |
-| 40       | Joy Gilmer        | Centerville, GA                           | 70    | 4.67   |        |         |
-| 41       | Vanessa Berg      | Wyckoff, NJ                               | 65    | 4.33   |        |         |
-| 42       | Mark Nelson       | Kenosha, WI                               | 60    | 4      |        |         |
-| 43       | Dennis Palmer     | Renton, WA                                | 55    | 3.67   |        |         |
-| 44       | Nikki Gray        | Bartlesville, OK                          | 50    | 3.33   |        |         |
-| 45       | Michelle Hansen   | Central, Springfield, MO                  | 25    | 1.67   |        |         |
-| **45\*** | Wendy Smalley     | Laveen, AZ                                | 25    | 1.67   |        |         |
-| 47       | Joanna Allen      | Nampa, ID                                 | 20    | 1.33   |        |         |
-| **47\*** | Sharla Waggoner   | Central, Springfield, MO                  | 20    | 1.33   |        |         |
-| **47\*** | Nicole Grant      | Renton, WA                                | 20    | 1.33   |        |         |
-| 50       | Dave Schweitzer   | Merrillville, IN                          | 20    | 1.33   |        |         |
-| 51       | John Mills        | Nampa, ID                                 | 15    | 1      |        |         |
-| 52       | Ryan Neese        | Merrillville, IN                          | 10    | 0.67   |        |         |
-| 53       | Kevin Williams    | Houston, TX                               | 5     | 0.33   |        |         |
+|     Rank | Quizzer           | Church                                    | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ----------------- | ----------------------------------------- | ----: | -----: | -----: | ----: |
+|        1 | Kimberly Smalley  | Charity A/G, Laveen, AZ                   |  1595 | 106.33 |      9 |     2 |
+|        2 | JoEllyn Kruger    | Christian Life Church, Farmington, MN     |  1405 |  93.66 |      9 |     5 |
+|        3 | Mark Childers     | Evangel Community Church, Centerville, GA |  1380 |     92 |     10 |     4 |
+|        4 | Garrett Smiley    | Carpenter's Home Church, Lakeland, FL     |  1335 |     89 |     11 |     3 |
+|        5 | Lisa Wootton      | First A/G, Bartlesville, OK               |  1220 |  81.33 |      6 |     3 |
+|        6 | Jason Sorens      | Houston, TX                               |  1165 |  77.67 |      5 |     4 |
+|        7 | Dionne Jobe       | Houston, TX                               |  1135 |  75.67 |      7 |     3 |
+|        8 | Josh Weber        | Lakeland, FL                              |  1100 |  73.33 |      8 |     1 |
+|        9 | Mel Aou           | Buena Park, CA                            |  1015 |  67.67 |      6 |     3 |
+|       10 | Chad Nelson       | Park Crest, Springfield, MO               |   985 |  65.67 |      6 |     3 |
+|       11 | Steven Schweitzer | Merrillville, IN                          |   985 |  65.67 |      3 |     1 |
+|       12 | Kerry Salerno     | Wyckoff, NJ                               |   945 |     63 |      7 |     3 |
+|       13 | Chris Cohilas     | Centerville, GA                           |   940 |  62.67 |      7 |     6 |
+|       14 | Tanya Peterson    | Farmington, MN                            |   925 |  61.67 |      5 |     2 |
+|       15 | Dan Smith         | Buena Park, CA                            |   915 |     61 |      5 |     6 |
+|       16 | Bob Eby           | Elkhart, IN                               |   865 |  57.67 |      4 |     2 |
+|       17 | Katey Callahan    | Allison Park, PA                          |   850 |  56.67 |      3 |     4 |
+|       18 | Luisa Oyola       | Central, Springfield, MO                  |   830 |  55.33 |      5 |     2 |
+|       19 | Eric Bauerle      | Nampa, ID                                 |   805 |  53.67 |      3 |     3 |
+|       20 | Todd Nelson       | Kenosha, WI                               |   770 |  51.33 |      4 |     4 |
+|       21 | Bryan Wootton     | Bartlesville, OK                          |   770 |  51.33 |      2 |     2 |
+|       22 | Travis Knight     | Renton, WA                                |   700 |  46.67 |      5 |     5 |
+|       23 | David Conaway     | Central, Springfield, MO                  |   665 |  44.33 |      5 |     6 |
+|       24 | David Nelson      | Kenosha, WI                               |   655 |  43.67 |      4 |     9 |
+|       25 | Mark Bane         | Merrillville, IN                          |   640 |  42.67 |      2 |     2 |
+|       26 | Justin Moody      | Park Crest, Springfield, MO               |   460 |  30.67 |      1 |     4 |
+|       27 | Daryn Trout       | Allison Park, PA                          |   410 |  27.33 |        |       |
+|       28 | Sydney Overby     | Renton, WA                                |   405 | 27-Jan |      1 |    10 |
+|       29 | Brian Schneider   | Nampa, ID                                 |   395 |  26.33 |      1 |     3 |
+|       30 | Lori Bienz        | Elkhart, IN                               |   315 |     21 |        |       |
+|       31 | Rochelle Cathcart | Park Crest, Springfield, MO               |   310 |  20.67 |        |       |
+|       32 | Joy Kuroishi      | Buena Park, CA                            |   300 |     20 |        |       |
+|       33 | Rachel Weber      | Lakeland, FL                              |   195 |     13 |        |       |
+|       34 | Derrick Miller    | Elkhart, IN                               |   170 |  11.33 |        |       |
+| **34\*** | Daryl Trout       | Allison Park, PA                          |   170 |  11.33 |        |       |
+|       36 | Wendy Salerno     | Wyckoff, NJ                               |   165 |     11 |        |       |
+|       37 | Joel Wilkie       | Bartlesville, OK                          |   140 |   9.33 |        |       |
+|       38 | Neil Sorens       | Houston, TX                               |   100 |   6.67 |        |       |
+|       39 | Scott Nelson      | Kenosha, WI                               |    90 |    0-1 |      1 |     6 |
+|       40 | Joy Gilmer        | Centerville, GA                           |    70 |   4.67 |        |       |
+|       41 | Vanessa Berg      | Wyckoff, NJ                               |    65 |   4.33 |        |       |
+|       42 | Mark Nelson       | Kenosha, WI                               |    60 |      4 |        |       |
+|       43 | Dennis Palmer     | Renton, WA                                |    55 |   3.67 |        |       |
+|       44 | Nikki Gray        | Bartlesville, OK                          |    50 |   3.33 |        |       |
+|       45 | Michelle Hansen   | Central, Springfield, MO                  |    25 |   1.67 |        |       |
+| **45\*** | Wendy Smalley     | Laveen, AZ                                |    25 |   1.67 |        |       |
+|       47 | Joanna Allen      | Nampa, ID                                 |    20 |   1.33 |        |       |
+| **47\*** | Sharla Waggoner   | Central, Springfield, MO                  |    20 |   1.33 |        |       |
+| **47\*** | Nicole Grant      | Renton, WA                                |    20 |   1.33 |        |       |
+|       50 | Dave Schweitzer   | Merrillville, IN                          |    20 |   1.33 |        |       |
+|       51 | John Mills        | Nampa, ID                                 |    15 |      1 |        |       |
+|       52 | Ryan Neese        | Merrillville, IN                          |    10 |   0.67 |        |       |
+|       53 | Kevin Williams    | Houston, TX                               |     5 |   0.33 |        |       |
 
 ## Teams
 

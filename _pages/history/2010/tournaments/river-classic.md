@@ -16,26 +16,26 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                     | Wins | Losses | Total |    Avg |
-| ---: | ---------------------------------------- | ---: | -----: | ----: | -----: |
-|    1 | Owasso First Assembly                    |   16 |      1 |  3780 | 222.35 |
-|    2 | Overland Park "Fragrance of Life"        |   15 |      2 |  2600 | 152.94 |
-|    3 | JRAG "Strict Training"                   |   14 |      3 |  3090 | 181.76 |
-|    4 | JRAG "Perfect in Weakness"               |   13 |      4 |  2575 | 151.47 |
-|    5 | Central Assembly "Resounding Gong"       |   12 |      5 |  2080 | 122.35 |
-|    6 | Meadowbrook Community "Big Fish Quizzers |   11 |      6 |  2575 | 151.47 |
-|    7 | Dayspring Assembly                       |   11 |      6 |  1825 | 107.35 |
-|    8 | Orange County "Not Talk But Power"       |    9 |      8 |  2405 | 141.47 |
-|    9 | Braeswood Assembly                       |    8 |      9 |  1730 | 101.76 |
-|   10 | Cedar Park Assembly                      |    8 |      9 |  1545 |  90.88 |
-|   11 | First A/G Greater Lansing                |    6 |     11 |  1110 |  65.29 |
-|   12 | Faith Assembly "Indescribably Gift"      |    6 |     11 |  1005 |  59.12 |
-|   13 | Stoney River                             |    5 |     12 |  1175 |  69.12 |
-|   14 | Church at Briargate                      |    5 |     12 |  1060 |  62.35 |
-|   15 | Living Hope Church (LHC)                 |    5 |     12 |   830 |  48.82 |
-|   16 | HighPoint "Super Apostles"               |    4 |     13 |  1240 |  72.94 |
-|   17 | Muskogee "C.O.P.S."                      |    3 |     14 |   845 |  49.71 |
-|   18 | Christian Chapel                         |    2 |     15 |   525 |  30.88 |
+|    # | Team                                     |    W |    L | Total |    Avg |
+| ---: | ---------------------------------------- | ---: | ---: | ----: | -----: |
+|    1 | Owasso First Assembly                    |   16 |    1 |  3780 | 222.35 |
+|    2 | Overland Park "Fragrance of Life"        |   15 |    2 |  2600 | 152.94 |
+|    3 | JRAG "Strict Training"                   |   14 |    3 |  3090 | 181.76 |
+|    4 | JRAG "Perfect in Weakness"               |   13 |    4 |  2575 | 151.47 |
+|    5 | Central Assembly "Resounding Gong"       |   12 |    5 |  2080 | 122.35 |
+|    6 | Meadowbrook Community "Big Fish Quizzers |   11 |    6 |  2575 | 151.47 |
+|    7 | Dayspring Assembly                       |   11 |    6 |  1825 | 107.35 |
+|    8 | Orange County "Not Talk But Power"       |    9 |    8 |  2405 | 141.47 |
+|    9 | Braeswood Assembly                       |    8 |    9 |  1730 | 101.76 |
+|   10 | Cedar Park Assembly                      |    8 |    9 |  1545 |  90.88 |
+|   11 | First A/G Greater Lansing                |    6 |   11 |  1110 |  65.29 |
+|   12 | Faith Assembly "Indescribably Gift"      |    6 |   11 |  1005 |  59.12 |
+|   13 | Stoney River                             |    5 |   12 |  1175 |  69.12 |
+|   14 | Church at Briargate                      |    5 |   12 |  1060 |  62.35 |
+|   15 | Living Hope Church (LHC)                 |    5 |   12 |   830 |  48.82 |
+|   16 | HighPoint "Super Apostles"               |    4 |   13 |  1240 |  72.94 |
+|   17 | Muskogee "C.O.P.S."                      |    3 |   14 |   845 |  49.71 |
+|   18 | Christian Chapel                         |    2 |   15 |   525 |  30.88 |
 
 ### Individuals
 
@@ -114,30 +114,30 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                     | Wins | Losses | Total |  Avg |
-| ---: | ---------------------------------------- | ---: | -----: | ----: | ---: |
-|    1 | Central Assembly "Clanging Cymbal"       |   16 |      1 |  4245 |
-|    2 | Harvest Assembly "Fallen Asleep"         |   16 |      1 |  4640 |
-|    3 | JRAG "Kober"                             |   14 |      3 |  3215 |
-|    4 | Owasso First - Josh                      |   14 |      3 |  2740 |
-|    5 | JRAG "Hungry and Thirsty"                |   13 |      4 |  2945 |
-|    6 | Corydon Assembly "Born to Quiz"          |   13 |      4 |  2445 |
-|    7 | HighPoint "Minds of Christ"              |   10 |      7 |  1945 |
-|    8 | Muskogee "S.W.A.T."                      |    9 |      8 |  1530 |
-|    9 | JRAG "Knowledge Puffs"                   |    9 |      8 |  1475 |
-|   10 | Brookside Church "Boasts in the Lord"    |    7 |     10 |   935 |
-|   11 | Meadowbrook Community "Big Fish Quizzers |    7 |     10 |   795 |
-|   12 | JRAG "Members of Christ"                 |    7 |     10 |   700 |
-|   13 | King's Chapel                            |    6 |     11 |  1135 |
-|   14 | Evangel Community, Snellville            |    4 |     13 |   850 |
-|   15 | Harvest Church                           |    4 |     13 |   830 |
-|   16 | Owasso First "The Three Amigos"          |    2 |     15 |   340 |
-|   17 | Owasso First - Angela                    |    1 |     16 |   245 |
-|   18 | Christian Chapel                         |    1 |     16 |   210 |
+|    # | Team                                     |    W |    L | Total |
+| ---: | ---------------------------------------- | ---: | ---: | ----: |
+|    1 | Central Assembly "Clanging Cymbal"       |   16 |    1 |  4245 |
+|    2 | Harvest Assembly "Fallen Asleep"         |   16 |    1 |  4640 |
+|    3 | JRAG "Kober"                             |   14 |    3 |  3215 |
+|    4 | Owasso First - Josh                      |   14 |    3 |  2740 |
+|    5 | JRAG "Hungry and Thirsty"                |   13 |    4 |  2945 |
+|    6 | Corydon Assembly "Born to Quiz"          |   13 |    4 |  2445 |
+|    7 | HighPoint "Minds of Christ"              |   10 |    7 |  1945 |
+|    8 | Muskogee "S.W.A.T."                      |    9 |    8 |  1530 |
+|    9 | JRAG "Knowledge Puffs"                   |    9 |    8 |  1475 |
+|   10 | Brookside Church "Boasts in the Lord"    |    7 |   10 |   935 |
+|   11 | Meadowbrook Community "Big Fish Quizzers |    7 |   10 |   795 |
+|   12 | JRAG "Members of Christ"                 |    7 |   10 |   700 |
+|   13 | King's Chapel                            |    6 |   11 |  1135 |
+|   14 | Evangel Community, Snellville            |    4 |   13 |   850 |
+|   15 | Harvest Church                           |    4 |   13 |   830 |
+|   16 | Owasso First "The Three Amigos"          |    2 |   15 |   340 |
+|   17 | Owasso First - Angela                    |    1 |   16 |   245 |
+|   18 | Christian Chapel                         |    1 |   16 |   210 |
 
 ### Individuals
 
-| Rank | Quizzer           | Team                                      | Total |   Avg |
+|    # | Quizzer           | Team                                      | Total |   Avg |
 | ---: | ----------------- | ----------------------------------------- | ----: | ----: |
 |    1 | Austin Lovekamp   | Harvest Assembly "Fallen Asleep"          |  2150 | 126.5 |
 |    2 | Daniel Quick      | Central Assembly "Clanging Cymbal"        |  1945 | 114.4 |
@@ -218,22 +218,22 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                  | Wins | Losses | Total |    Avg |
-| ---: | ------------------------------------- | ---: | -----: | ----: | -----: |
-|    1 | First A/G Lexington 2                 |   13 |      0 |  1870 | 143.85 |
-|    2 | Barean "Futile Thoughts"              |   11 |      2 |  1915 | 147.31 |
-|    3 | First A/G Lexington 1                 |   10 |      3 |  1200 |  92.31 |
-|    4 | Racine Assembly "Perfectly United"    |    9 |      4 |   985 |  75.77 |
-|    5 | Braveheart                            |    8 |      5 |   895 |  68.85 |
-|    6 | First A/G Lafayette                   |    7 |      6 |   960 |  73.85 |
-|    7 | CrossPoint Assembly 1                 |    7 |      6 |   610 |  46.92 |
-|    8 | Radiant Life Assembly                 |    6 |      7 |   810 |  62.31 |
-|    9 | First A/G Cedar Rapids "Muzzled Oxen" |    5 |      8 |   950 |  73.08 |
-|   10 | Evangel Community, Snellville 1       |    5 |      8 |   465 |  35.77 |
-|   11 | CrossPoint Assembly 2                 |    5 |      8 |   445 |  34.23 |
-|   12 | Owasso First "Day of Salvation"       |    4 |      9 |   755 |  58.08 |
-|   13 | Evangel Community, Snellville 2       |    1 |     12 |   -30 |  -2.31 |
-|   14 | Harvest Church                        |    1 |     12 |   -75 |  -5.77 |
+|    # | Team                                  |    W |    L | Total |    Avg |
+| ---: | ------------------------------------- | ---: | ---: | ----: | -----: |
+|    1 | First A/G Lexington 2                 |   13 |    0 |  1870 | 143.85 |
+|    2 | Barean "Futile Thoughts"              |   11 |    2 |  1915 | 147.31 |
+|    3 | First A/G Lexington 1                 |   10 |    3 |  1200 |  92.31 |
+|    4 | Racine Assembly "Perfectly United"    |    9 |    4 |   985 |  75.77 |
+|    5 | Braveheart                            |    8 |    5 |   895 |  68.85 |
+|    6 | First A/G Lafayette                   |    7 |    6 |   960 |  73.85 |
+|    7 | CrossPoint Assembly 1                 |    7 |    6 |   610 |  46.92 |
+|    8 | Radiant Life Assembly                 |    6 |    7 |   810 |  62.31 |
+|    9 | First A/G Cedar Rapids "Muzzled Oxen" |    5 |    8 |   950 |  73.08 |
+|   10 | Evangel Community, Snellville 1       |    5 |    8 |   465 |  35.77 |
+|   11 | CrossPoint Assembly 2                 |    5 |    8 |   445 |  34.23 |
+|   12 | Owasso First "Day of Salvation"       |    4 |    9 |   755 |  58.08 |
+|   13 | Evangel Community, Snellville 2       |    1 |   12 |   -30 |  -2.31 |
+|   14 | Harvest Church                        |    1 |   12 |   -75 |  -5.77 |
 
 ### Individuals
 

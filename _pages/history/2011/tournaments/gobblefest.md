@@ -16,18 +16,18 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                   | Wins | Losses | Total |    Avg |
-| ---: | -------------------------------------- | ---: | -----: | ----: | -----: |
-|    1 | Dayspring A/G, Bowling Green, OH       |    9 |      0 |  2170 | 241.11 |
-|    2 | Living Hope A/G, Swedesboro, NJ        |    8 |      1 |  2065 | 229.44 |
-|    3 | Journey Church, Bridgeville, PA        |    7 |      2 |  1735 | 192.78 |
-|    4 | Bethlehem Church, Richmond Hill, NY*   |    5 |      4 |  1570 | 174.44 |
-|    5 | Bethany Church, Wyckoff, NJ*           |    5 |      4 |   960 | 106.67 |
-|    6 | First A/G, Binghamton, NY**            |    4 |      5 |  1280 | 142.22 |
-|    7 | Crossway A/G, Valencia, PA**           |    4 |      5 |  1030 | 114.44 |
-|    8 | Living Word Church, Mechanicsville, MD |    2 |      7 |  1030 | 114.44 |
-|    9 | First A/G, Elkton, MD                  |    1 |      8 |   320 |  35.56 |
-|   10 | The Worship Center, Leesburg, VA       |    0 |      9 |   185 |  20.56 |
+|    # | Team                                   |    W |    L | Total |    Avg |
+| ---: | -------------------------------------- | ---: | ---: | ----: | -----: |
+|    1 | Dayspring A/G, Bowling Green, OH       |    9 |    0 |  2170 | 241.11 |
+|    2 | Living Hope A/G, Swedesboro, NJ        |    8 |    1 |  2065 | 229.44 |
+|    3 | Journey Church, Bridgeville, PA        |    7 |    2 |  1735 | 192.78 |
+|    4 | Bethlehem Church, Richmond Hill, NY*   |    5 |    4 |  1570 | 174.44 |
+|    5 | Bethany Church, Wyckoff, NJ*           |    5 |    4 |   960 | 106.67 |
+|    6 | First A/G, Binghamton, NY**            |    4 |    5 |  1280 | 142.22 |
+|    7 | Crossway A/G, Valencia, PA**           |    4 |    5 |  1030 | 114.44 |
+|    8 | Living Word Church, Mechanicsville, MD |    2 |    7 |  1030 | 114.44 |
+|    9 | First A/G, Elkton, MD                  |    1 |    8 |   320 |  35.56 |
+|   10 | The Worship Center, Leesburg, VA       |    0 |    9 |   185 |  20.56 |
 
 \* Bethany Church beat Bethlehem Church head-to-head.\
 \*\* Crossway Church beat 1st A/G Binghamton head-to-head.
@@ -83,19 +83,19 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                               | Wins | Losses | Total |   Avg |
-| ---: | ---------------------------------- | ---: | -----: | ----: | ----: |
-|    1 | Praise Assembly Garfield, NJ       |   10 |      0 |  3020 |   302 |
-|    3 | Radiant Life Church, Elkhart, IN   |    9 |      1 |  1875 | 187.5 |
-|    2 | Manassas A/G, Bristow, VA          |    8 |      2 |  1980 |   198 |
-|    4 | Word of Life A/G, Springfield, VA  |    7 |      3 |  1615 | 161.5 |
-|    5 | South Hills A/G, Bethel Park, PA   |    5 |      5 |  1620 |   162 |
-|    6 | Walnut Grove A/G, West Mifflin, PA |    4 |      6 |  1190 |   119 |
-|    8 | Martha’s Vineyard, MA              |    4 |      6 |  1150 |   115 |
-|    7 | Evangel Heights A/G, Sarver, PA    |    3 |      7 |  1320 |   132 |
-|    9 | Living Waters Chapel, Lebanon, PA  |    3 |      7 |   950 |    95 |
-|   11 | First A/G, Waynesburg, PA          |    1 |      9 |   750 |    75 |
-|   10 | State College A/G, PA              |    1 |      9 |   620 |    62 |
+|    # | Team                               |    W |    L | Total |   Avg |
+| ---: | ---------------------------------- | ---: | ---: | ----: | ----: |
+|    1 | Praise Assembly Garfield, NJ       |   10 |    0 |  3020 |   302 |
+|    3 | Radiant Life Church, Elkhart, IN   |    9 |    1 |  1875 | 187.5 |
+|    2 | Manassas A/G, Bristow, VA          |    8 |    2 |  1980 |   198 |
+|    4 | Word of Life A/G, Springfield, VA  |    7 |    3 |  1615 | 161.5 |
+|    5 | South Hills A/G, Bethel Park, PA   |    5 |    5 |  1620 |   162 |
+|    6 | Walnut Grove A/G, West Mifflin, PA |    4 |    6 |  1190 |   119 |
+|    8 | Martha’s Vineyard, MA              |    4 |    6 |  1150 |   115 |
+|    7 | Evangel Heights A/G, Sarver, PA    |    3 |    7 |  1320 |   132 |
+|    9 | Living Waters Chapel, Lebanon, PA  |    3 |    7 |   950 |    95 |
+|   11 | First A/G, Waynesburg, PA          |    1 |    9 |   750 |    75 |
+|   10 | State College A/G, PA              |    1 |    9 |   620 |    62 |
 
 ### Individuals
 
@@ -144,19 +144,19 @@ menubar_toc_static:
 
 ### Teams
 
-| #   | Team                                  | Wins | Losses | Total | Avg   |
-| --- | ------------------------------------- | ---- | ------ | ----- | ----- |
-| 1   | Mohawk Valley Home School, NY         | 10   | 0      | 2475  | 247.5 |
-| 2   | Word of Life A/G, Springfield, VA*    | 8    | 2      | 2195  | 219.5 |
-| 3   | Dayspring A/G, Bowling Green, OH*     | 8    | 2      | 2110  | 211   |
-| 4   | Praise A/G, Garfield, NJ              | 7    | 3      | 1830  | 183   |
-| 5   | Living Waters Chapel, Lebanon, PA     | 5    | 5      | 1380  | 138   |
-| 6   | Calvary Temple, Philadelphia, PA      | 5    | 5      | 1365  | 136.5 |
-| 7   | Christian Life A/G, Chambersburg, PA  | 5    | 5      | 1060  | 106   |
-| 8   | Journey Church, Bridgeville, PA       | 4    | 6      | 1235  | 123.5 |
-| 9   | First A/G, Waynesburg, PA             | 2    | 8      | 930   | 93    |
-| 10  | Pocono Comm. Church, Mount Pocono, PA | 1    | 9      | 895   | 89.5  |
-| 11  | Evangel Heights A/G, Sarver, PA       | 0    | 10     | 155   | 15.5  |
+| #   | Team                                  | W   | L   | Total | Avg   |
+| --- | ------------------------------------- | --- | --- | ----- | ----- |
+| 1   | Mohawk Valley Home School, NY         | 10  | 0   | 2475  | 247.5 |
+| 2   | Word of Life A/G, Springfield, VA*    | 8   | 2   | 2195  | 219.5 |
+| 3   | Dayspring A/G, Bowling Green, OH*     | 8   | 2   | 2110  | 211   |
+| 4   | Praise A/G, Garfield, NJ              | 7   | 3   | 1830  | 183   |
+| 5   | Living Waters Chapel, Lebanon, PA     | 5   | 5   | 1380  | 138   |
+| 6   | Calvary Temple, Philadelphia, PA      | 5   | 5   | 1365  | 136.5 |
+| 7   | Christian Life A/G, Chambersburg, PA  | 5   | 5   | 1060  | 106   |
+| 8   | Journey Church, Bridgeville, PA       | 4   | 6   | 1235  | 123.5 |
+| 9   | First A/G, Waynesburg, PA             | 2   | 8   | 930   | 93    |
+| 10  | Pocono Comm. Church, Mount Pocono, PA | 1   | 9   | 895   | 89.5  |
+| 11  | Evangel Heights A/G, Sarver, PA       | 0   | 10  | 155   | 15.5  |
 
 \* Word of Life beat Dayspring head-to-head.
 
@@ -207,19 +207,19 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                                 | Wins | Losses | Total |   Avg |
-| ---: | ------------------------------------ | ---: | -----: | ----: | ----: |
-|    1 | South Hills A/G, Bethel Park, PA*    |    9 |      1 |  2085 | 208.5 |
-|    2 | Southern A/G, NC*                    |    9 |      1 |  1875 | 187.5 |
-|    3 | Mohawk Valley Home School, NY        |    8 |      2 |  1895 | 189.5 |
-|    4 | Pocono Comm.Church, Mount Pocono, PA |    6 |      4 |  1805 | 180.5 |
-|    5 | First A/G, Elkton, MD                |    6 |      4 |  1600 |   160 |
-|    6 | First A/G, Binghamton, NY            |    6 |      4 |  1555 | 155.5 |
-|    7 | Christian Life A/G, Chambersburg, PA |    4 |      6 |  1270 |   127 |
-|    8 | Evangel Heights A/G, Sarver, PA      |    4 |      6 |   795 |  79.5 |
-|    9 | Crossway A/G, Valencia, PA           |    1 |      9 |   690 |    69 |
-|   10 | Worship Center, Leesburg, VA         |    1 |      9 |   515 |  51.5 |
-|   11 | Emmanuel A/G, Allentown, PA          |    1 |      9 |   475 |  47.5 |
+|    # | Team                                 |    W |    L | Total |   Avg |
+| ---: | ------------------------------------ | ---: | ---: | ----: | ----: |
+|    1 | South Hills A/G, Bethel Park, PA*    |    9 |    1 |  2085 | 208.5 |
+|    2 | Southern A/G, NC*                    |    9 |    1 |  1875 | 187.5 |
+|    3 | Mohawk Valley Home School, NY        |    8 |    2 |  1895 | 189.5 |
+|    4 | Pocono Comm.Church, Mount Pocono, PA |    6 |    4 |  1805 | 180.5 |
+|    5 | First A/G, Elkton, MD                |    6 |    4 |  1600 |   160 |
+|    6 | First A/G, Binghamton, NY            |    6 |    4 |  1555 | 155.5 |
+|    7 | Christian Life A/G, Chambersburg, PA |    4 |    6 |  1270 |   127 |
+|    8 | Evangel Heights A/G, Sarver, PA      |    4 |    6 |   795 |  79.5 |
+|    9 | Crossway A/G, Valencia, PA           |    1 |    9 |   690 |    69 |
+|   10 | Worship Center, Leesburg, VA         |    1 |    9 |   515 |  51.5 |
+|   11 | Emmanuel A/G, Allentown, PA          |    1 |    9 |   475 |  47.5 |
 
 \* South Hills beat Southern head-to-head.
 

@@ -30,7 +30,7 @@ The individual tournament was won by Jordan Schneider of Colorado Springs, CO. T
 
 ### Teams
 
-| Rank | Team                                            | Record | Total |    Avg | Total Margin | Avg Margin |
+|    # | Team                                            | Record | Total |    Avg | Total Margin | Avg Margin |
 | ---: | ----------------------------------------------- | ------ | ----: | -----: | -----------: | ---------: |
 |    1 | Mountain View A/G, Las Vegas, NV                | 16 / 3 |  3295 | 173.42 |         1600 |      84.21 |
 |    2 | Radiant Church, Colorado Springs, CO            | 15 / 4 |  3115 | 163.95 |         1315 |      69.21 |
@@ -57,89 +57,89 @@ The individual tournament was won by Jordan Schneider of Colorado Springs, CO. T
 
 The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schneider of Radiant Church, Colorado Springs, CO. Dan Marlow of Overland Park, KS was the top scorer. Five quizzers in championship achieved a perfect game. Valerie Marchalonis and Joey Bohanon had two and Dan Marlow, Jordan Schneider and Tyler King had one. In the challenger division, Jennifer Dunn had one. The Top Quizzers from the 2000 National Bible Quiz Tournament for both divisions are listed below. Each participant is listed with statistics. If possible, ties are broken by number of quiz-outs.
 
-|     Rank | Quizzer             | Church                   | Total |    Avg | QO Fwd | QO Back |
-| -------: | ------------------- | ------------------------ | ----: | -----: | -----: | ------: |
-|        1 | Dan Marlow          | Overland Park, KS        |  2050 | 107.89 |     11 |       2 |
-|        2 | Valerie Marchalonis | Las Vegas, NV            |  1960 | 103.16 |     10 |       2 |
-|        3 | Jordan Schneider    | Colorado Springs, CO     |  1870 |  98.42 |      6 |       5 |
-|        4 | Joey Bohanon        | Springfield, MO, Central |  1810 |  95.26 |      4 |       2 |
-|        5 | Ricky Haney         | Orange, CA               |  1505 |  79.21 |      5 |       5 |
-|        6 | Caleb Booth         | Tulsa, OK                |  1475 |  77.63 |      8 |       7 |
-|        7 | Jim Fenton          | Allison Park, PA #1      |  1310 |  68.95 |      5 |       1 |
-|        8 | Dan McLaughlin      | Buffalo, NY              |  1305 |  68.68 |      8 |       6 |
-|        9 | David Dorey         | Orange, CA               |  1200 |  63.16 |      8 |       1 |
-|       10 | David Womelsdorf    | Cedar Hill, TX           |  1155 |  60.79 |      3 |       3 |
-|       11 | Derek Harris        | Las Vegas, NV            |  1115 |  58.68 |      3 |       1 |
-|       12 | Steve Patient       | Auburn, WA               |  1095 |  57.63 |      1 |       3 |
-|       13 | Jessica Neilson     | Bothell, WA #1           |  1085 |  57.11 |      3 |       6 |
-|       14 | Aaron Fell          | Auburn, WA               |  1020 |  53.68 |      3 |       3 |
-|       15 | David Munn          | Toledo, OH               |   965 |  50.79 |      1 |       3 |
-|       16 | Nathaniel McFarland | Houston, TX              |   940 |  49.47 |      6 |       6 |
-|       17 | Tyler King          | Greater Lansing, MI      |   920 |  48.42 |      4 |       4 |
-|       18 | Sterling Johnson    | Cedar Hill, TX           |   900 |  47.37 |      3 |       2 |
-|       19 | George Ukomadu      | Houston, TX              |   895 |  47.11 |      2 |       5 |
-|       20 | Aaron Kohler        | Lebanon, PA              |   865 |  45.53 |      2 |       1 |
-|       21 | Ryan Decker         | Minier, IL               |   855 |     45 |      4 |       2 |
-|       22 | Betsy Regenfuss     | Ames, IA                 |   845 |  44.47 |      1 |       7 |
-|       23 | Mary Pace           | Colorado Springs, CO     |   825 |  43.42 |      2 |       1 |
-|       24 | Lori Rozgonyi       | South Hills, PA          |   810 |  42.63 |      3 |       2 |
-|       25 | Megan Pincombe      | Springfield, MO, Central |   800 |  42.11 |      1 |       1 |
-|       26 | Frank Fortunato     | Dunwoody, GA             |   750 |  39.47 |      1 |       5 |
-|       27 | Cynthia Decker      | Minier, IL               |   720 |  37.89 |      2 |       6 |
-|       28 | Dave Savage         | Bothell, WA #1           |   700 |  36.84 |        |         |
-|       29 | Nilay Saiya         | Lebanon, PA              |   670 |  35.26 |      4 |       7 |
-|       30 | Brandon Porter      | Dunwoody, GA             |   635 |  33.42 |      5 |       3 |
-|       31 | Crystal Pilcher     | Ames, IA                 |   635 |  33.42 |      1 |       2 |
-|       32 | Jared Stepp         | South Hills, PA          |   625 |  32.89 |      3 |       4 |
-|       33 | Amy Thomas          | Fort Myers, FL           |   610 |  32.11 |      1 |       1 |
-|       34 | Brandon Blankenship | Fort Myers, FL           |   585 |  30.79 |        |       3 |
-|       35 | Quinn Harr          | Greater Lansing, MI      |   565 |  29.74 |      1 |       1 |
-|       36 | Aaron Taylor        | Overland Park, KS        |   530 |  27.89 |        |         |
-|       37 | Brett Flowers       | Bothell, WA #1           |   515 |  27.11 |        |       1 |
-|       38 | Michelle Stewart    | Tulsa, OK                |   505 |  26.58 |      2 |       3 |
-|       39 | David Scarborough   | Allison Park, PA #1      |   500 |  26.32 |      1 |       1 |
-|       40 | Dave Shim           | Allison Park, PA #1      |   435 |  22.89 |      1 |       1 |
-|       41 | Emily Robinson      | South Hills, PA          |   395 |  20.79 |        |         |
-|       42 | Aaron Brumit        | Cedar Hill, TX           |   390 |  20.53 |      1 |       2 |
-|       43 | Kyle Harr           | Greater Lansing, MI      |   380 |     20 |        |       6 |
-|       44 | Jamil Burton-Harris | Buffalo, NY              |   370 |  19.47 |        |         |
-|       45 | Preston Drobeck     | Colorado Springs, CO     |   360 |  18.95 |        |         |
-|       46 | Joseph Fortunato    | Dunwoody, GA             |   330 |  17.37 |        |         |
-|       47 | Bryce Steel         | Toledo, OH               |   320 |  16.84 |      2 |       6 |
-|       48 | Christina Barrans   | Auburn, WA               |   290 |  15.26 |        |         |
-|       49 | Prince Anyanwu      | Houston, TX              |   250 |  13.16 |        |         |
-| **49\*** | Shaundra Fletcher   | Springfield, MO, Central |   250 |  13.16 |      1 |         |
-|       51 | Bryan Batchelder    | Tulsa, OK                |   240 |  12.63 |        |         |
-|       52 | Aaron Shapiro       | Toledo, OH               |   230 |  12.11 |        |       3 |
-|       53 | John McLaughlin     | Buffalo, NY              |   215 |  11.32 |      1 |       1 |
-|       54 | Thomas van Kempen   | Las Vegas, NV            |   210 |  11.05 |        |       2 |
-|       55 | Katie Chenco        | Lebanon, PA              |   185 |   9.74 |      1 |       1 |
-|       56 | Shane Welborn       | Fort Myers, FL           |   180 |   9.47 |        |         |
-|       57 | Kelli Hedding       | Minier, IL               |   165 |   8.68 |        |         |
-|       58 | Jeff Herzberg       | Allison Park, PA #1      |   105 |   5.53 |        |         |
-|       59 | James Swinford      | Springfield, MO, Central |    90 |   4.74 |        |         |
-|       60 | Nikki Milliron      | Allison Park, PA #1      |    75 |   3.95 |        |         |
-|       61 | Jeremiah Gruber     | Lebanon, PA              |    70 |   3.68 |        |         |
-|       62 | Megan Miller        | Colorado Springs, CO     |    60 |   3.16 |        |         |
-|       63 | Kara Bailey         | South Hills, PA          |    55 |   2.89 |        |         |
-|       64 | John Engel          | Lebanon, PA              |    50 |   2.63 |        |         |
-| **64\*** | Dapo Masha          | Houston, TX              |    50 |   2.63 |      1 |         |
-| **64\*** | Ryan Skolrud        | Bothell, WA #1           |    50 |   2.63 |      1 |         |
-| **64\*** | Annie Hoyt          | Ames, IA                 |    50 |   2.63 |      1 |         |
-|       68 | Mindy Rogers        | Auburn, WA               |    40 |   2.11 |        |         |
-|       69 | Amber Hoyt          | Ames, IA                 |    25 |   1.32 |        |         |
-|       70 | Rebekah Klein       | Greater Lansing, MI      |    15 |   0.79 |        |         |
-| **70\*** | Alex Harris         | Las Vegas, NV            |    15 |   0.79 |      1 |         |
-|       72 | Bethany Brodbeck    | Toledo, OH               |    10 |   0.53 |        |         |
-|       73 | Christine Harr      | Greater Lansing, MI      |     5 |   0.26 |        |         |
-|       74 | David Masha         | Houston, TX              |     0 |      0 |        |         |
-| **74\*** | Seth Johnson        | South Hills, PA          |     0 |      0 |        |         |
+|     Rank | Quizzer             | Church                   | Total |    Avg | QO Fwd | QO Bk |
+| -------: | ------------------- | ------------------------ | ----: | -----: | -----: | ----: |
+|        1 | Dan Marlow          | Overland Park, KS        |  2050 | 107.89 |     11 |     2 |
+|        2 | Valerie Marchalonis | Las Vegas, NV            |  1960 | 103.16 |     10 |     2 |
+|        3 | Jordan Schneider    | Colorado Springs, CO     |  1870 |  98.42 |      6 |     5 |
+|        4 | Joey Bohanon        | Springfield, MO, Central |  1810 |  95.26 |      4 |     2 |
+|        5 | Ricky Haney         | Orange, CA               |  1505 |  79.21 |      5 |     5 |
+|        6 | Caleb Booth         | Tulsa, OK                |  1475 |  77.63 |      8 |     7 |
+|        7 | Jim Fenton          | Allison Park, PA #1      |  1310 |  68.95 |      5 |     1 |
+|        8 | Dan McLaughlin      | Buffalo, NY              |  1305 |  68.68 |      8 |     6 |
+|        9 | David Dorey         | Orange, CA               |  1200 |  63.16 |      8 |     1 |
+|       10 | David Womelsdorf    | Cedar Hill, TX           |  1155 |  60.79 |      3 |     3 |
+|       11 | Derek Harris        | Las Vegas, NV            |  1115 |  58.68 |      3 |     1 |
+|       12 | Steve Patient       | Auburn, WA               |  1095 |  57.63 |      1 |     3 |
+|       13 | Jessica Neilson     | Bothell, WA #1           |  1085 |  57.11 |      3 |     6 |
+|       14 | Aaron Fell          | Auburn, WA               |  1020 |  53.68 |      3 |     3 |
+|       15 | David Munn          | Toledo, OH               |   965 |  50.79 |      1 |     3 |
+|       16 | Nathaniel McFarland | Houston, TX              |   940 |  49.47 |      6 |     6 |
+|       17 | Tyler King          | Greater Lansing, MI      |   920 |  48.42 |      4 |     4 |
+|       18 | Sterling Johnson    | Cedar Hill, TX           |   900 |  47.37 |      3 |     2 |
+|       19 | George Ukomadu      | Houston, TX              |   895 |  47.11 |      2 |     5 |
+|       20 | Aaron Kohler        | Lebanon, PA              |   865 |  45.53 |      2 |     1 |
+|       21 | Ryan Decker         | Minier, IL               |   855 |     45 |      4 |     2 |
+|       22 | Betsy Regenfuss     | Ames, IA                 |   845 |  44.47 |      1 |     7 |
+|       23 | Mary Pace           | Colorado Springs, CO     |   825 |  43.42 |      2 |     1 |
+|       24 | Lori Rozgonyi       | South Hills, PA          |   810 |  42.63 |      3 |     2 |
+|       25 | Megan Pincombe      | Springfield, MO, Central |   800 |  42.11 |      1 |     1 |
+|       26 | Frank Fortunato     | Dunwoody, GA             |   750 |  39.47 |      1 |     5 |
+|       27 | Cynthia Decker      | Minier, IL               |   720 |  37.89 |      2 |     6 |
+|       28 | Dave Savage         | Bothell, WA #1           |   700 |  36.84 |        |       |
+|       29 | Nilay Saiya         | Lebanon, PA              |   670 |  35.26 |      4 |     7 |
+|       30 | Brandon Porter      | Dunwoody, GA             |   635 |  33.42 |      5 |     3 |
+|       31 | Crystal Pilcher     | Ames, IA                 |   635 |  33.42 |      1 |     2 |
+|       32 | Jared Stepp         | South Hills, PA          |   625 |  32.89 |      3 |     4 |
+|       33 | Amy Thomas          | Fort Myers, FL           |   610 |  32.11 |      1 |     1 |
+|       34 | Brandon Blankenship | Fort Myers, FL           |   585 |  30.79 |        |     3 |
+|       35 | Quinn Harr          | Greater Lansing, MI      |   565 |  29.74 |      1 |     1 |
+|       36 | Aaron Taylor        | Overland Park, KS        |   530 |  27.89 |        |       |
+|       37 | Brett Flowers       | Bothell, WA #1           |   515 |  27.11 |        |     1 |
+|       38 | Michelle Stewart    | Tulsa, OK                |   505 |  26.58 |      2 |     3 |
+|       39 | David Scarborough   | Allison Park, PA #1      |   500 |  26.32 |      1 |     1 |
+|       40 | Dave Shim           | Allison Park, PA #1      |   435 |  22.89 |      1 |     1 |
+|       41 | Emily Robinson      | South Hills, PA          |   395 |  20.79 |        |       |
+|       42 | Aaron Brumit        | Cedar Hill, TX           |   390 |  20.53 |      1 |     2 |
+|       43 | Kyle Harr           | Greater Lansing, MI      |   380 |     20 |        |     6 |
+|       44 | Jamil Burton-Harris | Buffalo, NY              |   370 |  19.47 |        |       |
+|       45 | Preston Drobeck     | Colorado Springs, CO     |   360 |  18.95 |        |       |
+|       46 | Joseph Fortunato    | Dunwoody, GA             |   330 |  17.37 |        |       |
+|       47 | Bryce Steel         | Toledo, OH               |   320 |  16.84 |      2 |     6 |
+|       48 | Christina Barrans   | Auburn, WA               |   290 |  15.26 |        |       |
+|       49 | Prince Anyanwu      | Houston, TX              |   250 |  13.16 |        |       |
+| **49\*** | Shaundra Fletcher   | Springfield, MO, Central |   250 |  13.16 |      1 |       |
+|       51 | Bryan Batchelder    | Tulsa, OK                |   240 |  12.63 |        |       |
+|       52 | Aaron Shapiro       | Toledo, OH               |   230 |  12.11 |        |     3 |
+|       53 | John McLaughlin     | Buffalo, NY              |   215 |  11.32 |      1 |     1 |
+|       54 | Thomas van Kempen   | Las Vegas, NV            |   210 |  11.05 |        |     2 |
+|       55 | Katie Chenco        | Lebanon, PA              |   185 |   9.74 |      1 |     1 |
+|       56 | Shane Welborn       | Fort Myers, FL           |   180 |   9.47 |        |       |
+|       57 | Kelli Hedding       | Minier, IL               |   165 |   8.68 |        |       |
+|       58 | Jeff Herzberg       | Allison Park, PA #1      |   105 |   5.53 |        |       |
+|       59 | James Swinford      | Springfield, MO, Central |    90 |   4.74 |        |       |
+|       60 | Nikki Milliron      | Allison Park, PA #1      |    75 |   3.95 |        |       |
+|       61 | Jeremiah Gruber     | Lebanon, PA              |    70 |   3.68 |        |       |
+|       62 | Megan Miller        | Colorado Springs, CO     |    60 |   3.16 |        |       |
+|       63 | Kara Bailey         | South Hills, PA          |    55 |   2.89 |        |       |
+|       64 | John Engel          | Lebanon, PA              |    50 |   2.63 |        |       |
+| **64\*** | Dapo Masha          | Houston, TX              |    50 |   2.63 |      1 |       |
+| **64\*** | Ryan Skolrud        | Bothell, WA #1           |    50 |   2.63 |      1 |       |
+| **64\*** | Annie Hoyt          | Ames, IA                 |    50 |   2.63 |      1 |       |
+|       68 | Mindy Rogers        | Auburn, WA               |    40 |   2.11 |        |       |
+|       69 | Amber Hoyt          | Ames, IA                 |    25 |   1.32 |        |       |
+|       70 | Rebekah Klein       | Greater Lansing, MI      |    15 |   0.79 |        |       |
+| **70\*** | Alex Harris         | Las Vegas, NV            |    15 |   0.79 |      1 |       |
+|       72 | Bethany Brodbeck    | Toledo, OH               |    10 |   0.53 |        |       |
+|       73 | Christine Harr      | Greater Lansing, MI      |     5 |   0.26 |        |       |
+|       74 | David Masha         | Houston, TX              |     0 |      0 |        |       |
+| **74\*** | Seth Johnson        | South Hills, PA          |     0 |      0 |        |       |
 
 ## Challenger
 
 ### Teams
 
-| Rank | Team                                             | Record | Total |    Avg | Total Margin | Avg Margin |
+|    # | Team                                             | Record | Total |    Avg | Total Margin | Avg Margin |
 | ---: | ------------------------------------------------ | ------ | ----: | -----: | -----------: | ---------: |
 |    1 | Cornerstone A/G, Fremont, NC                     | 17 / 2 |  3065 | 161.32 |         1865 |      98.16 |
 |    2 | King's Chapel, Springfield, MO                   | 16 / 3 |  2135 | 112.37 |          730 |      38.42 |
@@ -164,89 +164,89 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 
 ### Individuals
 
-|     Rank | Quizzer             | Church                         | Total |   Avg | QO Fwd | QO Back |
-| -------: | ------------------- | ------------------------------ | ----: | ----: | -----: | ------: |
-|        1 | Amy Hise            | Chesterland, OH                |  1740 | 91.58 |      9 |       2 |
-|        2 | Peter Brown         | Tacoma, WA                     |  1585 | 83.42 |      7 |       3 |
-|        3 | Jennifer Dunn       | Fremont, NC                    |  1545 | 81.32 |      6 |       6 |
-|        4 | Sharon Ely          | Grapevine, TX                  |  1465 | 77.11 |     10 |       1 |
-|        5 | Tyler Ferguson      | Appleton, WI                   |  1415 | 74.47 |      9 |       1 |
-|        6 | Eric Hernando       | Springfield, MO, King’s Chapel |  1330 |    70 |      8 |       4 |
-|        7 | Stephanie Nannarone | Grapveine, TX                  |  1280 | 67.37 |      8 |       5 |
-|        8 | Logan Newman        | Superior, WI                   |  1170 | 61.58 |      7 |       2 |
-|        9 | Mark Whitehead      | West Lafayette                 |  1150 | 60.53 |      4 |       8 |
-|       10 | Angela Savage       | Bothell, WA #2                 |  1140 |    60 |      5 |       1 |
-|       11 | Marla Porter        | Mountain Home, ID              |  1050 | 55.26 |      5 |       4 |
-|       12 | Bronson Clark       | Kernersville NC                |  1005 | 52.89 |      5 |       4 |
-|       13 | Evan Distad         | Rochester, MN                  |   955 | 50.26 |      5 |       6 |
-|       14 | Angela Goodman      | Dixon, MO                      |   885 | 46.58 |      5 |       6 |
-|       15 | Erick Schubert      | Aurora, CO                     |   880 | 46.32 |      4 |       3 |
-|       16 | Dave Herbert        | Allison Park, PA #2            |   875 | 46.05 |      2 |       3 |
-|       17 | Richard Fair        | Mountain Home, AR              |   865 | 45.54 |      5 |       8 |
-|       18 | Abigail Knotts      | Fremont, NC                    |   850 | 44.74 |      3 |       2 |
-|       19 | Andrew Hejtmanek    | Shreveport, LA                 |   820 | 43.16 |      4 |       8 |
-|       20 | Johnathan Falkey    | Santa Ana, CA                  |   775 | 40.79 |        |       6 |
-|       21 | James Watt          | Tacoma, WA                     |   760 |    40 |      2 |       1 |
-|       22 | Melissa Falkey      | Santa Ana, CA                  |   735 | 38.68 |      1 |       1 |
-|       23 | Rebekah Schaalma    | Appleton, WI                   |   710 | 37.37 |      2 |       2 |
-|       24 | Charity Daniel      | Fremont, NC                    |   695 | 36.58 |      1 |       1 |
-|       25 | Katrina Martin      | Allison Park, PA #2            |   670 | 35.26 |      1 |       1 |
-|       26 | Andrea Bunnis       | Mountain Home, ID              |   645 | 33.95 |      5 |       4 |
-|       27 | Amber Hise          | Chesterland, OH                |   595 | 31.32 |      3 |       5 |
-|       28 | Emily Raeside       | Cedar Rapids, IA               |   590 | 31.05 |      2 |       6 |
-|       29 | Heather Patterson   | Orlando, FL                    |   590 | 31.05 |      2 |       4 |
-|       30 | Pat Bjorklund       | Bothell WA #2                  |   580 | 30.53 |      1 |       1 |
-|       31 | Kathryn Whitehead   | West Lafayette, IN             |   580 | 30.53 |      1 |       3 |
-|       32 | Wesley Glick        | Dixon, MO                      |   565 | 29.74 |      2 |       3 |
-|       33 | Joey Laurine        | Springfield, MO, King’s Chapel |   535 | 28.16 |      2 |       1 |
-|       34 | Michelle Hart       | Orlando, FL                    |   435 | 22.89 |        |         |
-|       35 | Steve Gregg         | Allison Park, PA #2            |   430 | 22.63 |        |         |
-|       35 | Laura Jakstadt      | Bothell, WA #2                 |   430 | 22.63 |        |         |
-|       37 | Christina Saavedra  | Santa Ana, CA                  |   400 | 21.05 |        |         |
-|       38 | Sarette Albin       | Cedar Rapids, IA               |   330 | 17.37 |        |         |
-| **38\*** | Kyle Heyne          | Orlando, FL                    |   330 | 17.37 |      1 |         |
-|       40 | Scott Hamilton      | Aurora, CO                     |   325 | 17.11 |        |         |
-|       41 | Christopher Alfred  | Shreveport, LA                 |   325 | 17.11 |        |         |
-|       42 | Bekka Dunn          | Cedar Rapids, IA               |   250 | 13.16 |        |         |
-|       43 | Brittanica Chesser  | Orlando, FL                    |   235 | 12.37 |        |         |
-|       44 | DeAndre Johnson     | Shreveport, LA                 |   230 | 12.11 |        |         |
-|       45 | Chris Davis         | Springfield, MO, King’s Chapel |   225 | 11.84 |        |         |
-|       46 | Hannah Meyer        | Superior, WI                   |   195 | 10.26 |        |         |
-|       47 | Erica Streifel      | Rochester, MN                  |   175 |  9.21 |        |         |
-|       48 | Jarron Born         | Bothell, WA #2                 |   165 |  8.68 |        |         |
-|       49 | Chelsea Clark       | Kernersville, NC               |   150 |  7.89 |        |         |
-|       50 | Jed Gosnell         | Tacoma, WA                     |   125 |  6.58 |        |         |
-|       51 | Jennifer Nevels     | Mountain Home, ID              |   100 |  5.26 |        |         |
-|       52 | Suni McClure        | Grapevine, TX                  |    90 |  4.74 |        |         |
-|       53 | Amanda Porter       | Mountain Home, ID              |    85 |  4.47 |        |         |
-|       53 | Kristin Kowalski    | Springfield, MO, King’s Chapel |    85 |  4.47 |        |         |
-|       55 | Shelby Alfred       | Shreveport, LA                 |    65 |  3.42 |        |         |
-|       56 | Hannah McGlothlin   | Grapevine, TX                  |    50 |  2.63 |        |         |
-|       57 | Lindsay Flowers     | Bothell, WA #2                 |    45 |  2.37 |        |         |
-|       58 | Abigail Alvino      | Aurora, CO                     |    40 |  2.11 |        |         |
-| **58\*** | Jesse Creason       | Kernersville, NC               |    40 |  2.11 |      1 |         |
-|       60 | CaRanda Haun        | Mountain Home, AR              |    35 |  1.84 |        |         |
-|       61 | Jody Gayhart        | Mountain Home, AR              |    30 |  1.58 |        |         |
-|       62 | Marisa Wallis       | Mountain Home, AR              |    25 |  1.32 |        |         |
-| **62\*** | Emily Whitehead     | Mountain Home, AR              |    25 |  1.32 |      1 |         |
-|       64 | Christina Fiucci    | Chesterland, OH                |    20 |  1.05 |        |         |
-|       65 | Katie Kuroishi      | Santa Ana, CA                  |     5 |  0.26 |        |         |
-|       66 | Regina Olexa        | Cedar Rapids, IA Rachel Grant  |     0 |     0 |        |         |
-| **66\*** | Rachel Grant        | Allison Park, PA #2            |     0 |     0 |      1 |         |
-| **66\*** | Steve Yenca         | Allison Park, PA #2            |     0 |     0 |      1 |         |
-| **66\*** | Tiffany Sewell      | Mountain Home, AR              |     0 |     0 |      1 |         |
-| **66\*** | Michelle Longston   | Mountain Home, AR              |     0 |     0 |      1 |         |
-| **66\*** | Chris Patterson     | Orlando, FL                    |     0 |     0 |      1 |         |
-| **66\*** | Mia Angelakos       | Orlando, FL                    |     0 |     0 |      1 |         |
-| **66\*** | Jared Gafkjen       | Rochester, MN                  |     0 |     0 |      1 |         |
-| **66\*** | Jeff Sharkey        | Superior, WI                   |     0 |     0 |      1 |         |
-|       75 | Richie Nelson       | Tacoma, WA                     |   -50 | -2.63 |        |         |
+|     Rank | Quizzer             | Church                         | Total |   Avg | QO Fwd | QO Bk |
+| -------: | ------------------- | ------------------------------ | ----: | ----: | -----: | ----: |
+|        1 | Amy Hise            | Chesterland, OH                |  1740 | 91.58 |      9 |     2 |
+|        2 | Peter Brown         | Tacoma, WA                     |  1585 | 83.42 |      7 |     3 |
+|        3 | Jennifer Dunn       | Fremont, NC                    |  1545 | 81.32 |      6 |     6 |
+|        4 | Sharon Ely          | Grapevine, TX                  |  1465 | 77.11 |     10 |     1 |
+|        5 | Tyler Ferguson      | Appleton, WI                   |  1415 | 74.47 |      9 |     1 |
+|        6 | Eric Hernando       | Springfield, MO, King’s Chapel |  1330 |    70 |      8 |     4 |
+|        7 | Stephanie Nannarone | Grapveine, TX                  |  1280 | 67.37 |      8 |     5 |
+|        8 | Logan Newman        | Superior, WI                   |  1170 | 61.58 |      7 |     2 |
+|        9 | Mark Whitehead      | West Lafayette                 |  1150 | 60.53 |      4 |     8 |
+|       10 | Angela Savage       | Bothell, WA #2                 |  1140 |    60 |      5 |     1 |
+|       11 | Marla Porter        | Mountain Home, ID              |  1050 | 55.26 |      5 |     4 |
+|       12 | Bronson Clark       | Kernersville NC                |  1005 | 52.89 |      5 |     4 |
+|       13 | Evan Distad         | Rochester, MN                  |   955 | 50.26 |      5 |     6 |
+|       14 | Angela Goodman      | Dixon, MO                      |   885 | 46.58 |      5 |     6 |
+|       15 | Erick Schubert      | Aurora, CO                     |   880 | 46.32 |      4 |     3 |
+|       16 | Dave Herbert        | Allison Park, PA #2            |   875 | 46.05 |      2 |     3 |
+|       17 | Richard Fair        | Mountain Home, AR              |   865 | 45.54 |      5 |     8 |
+|       18 | Abigail Knotts      | Fremont, NC                    |   850 | 44.74 |      3 |     2 |
+|       19 | Andrew Hejtmanek    | Shreveport, LA                 |   820 | 43.16 |      4 |     8 |
+|       20 | Johnathan Falkey    | Santa Ana, CA                  |   775 | 40.79 |        |     6 |
+|       21 | James Watt          | Tacoma, WA                     |   760 |    40 |      2 |     1 |
+|       22 | Melissa Falkey      | Santa Ana, CA                  |   735 | 38.68 |      1 |     1 |
+|       23 | Rebekah Schaalma    | Appleton, WI                   |   710 | 37.37 |      2 |     2 |
+|       24 | Charity Daniel      | Fremont, NC                    |   695 | 36.58 |      1 |     1 |
+|       25 | Katrina Martin      | Allison Park, PA #2            |   670 | 35.26 |      1 |     1 |
+|       26 | Andrea Bunnis       | Mountain Home, ID              |   645 | 33.95 |      5 |     4 |
+|       27 | Amber Hise          | Chesterland, OH                |   595 | 31.32 |      3 |     5 |
+|       28 | Emily Raeside       | Cedar Rapids, IA               |   590 | 31.05 |      2 |     6 |
+|       29 | Heather Patterson   | Orlando, FL                    |   590 | 31.05 |      2 |     4 |
+|       30 | Pat Bjorklund       | Bothell WA #2                  |   580 | 30.53 |      1 |     1 |
+|       31 | Kathryn Whitehead   | West Lafayette, IN             |   580 | 30.53 |      1 |     3 |
+|       32 | Wesley Glick        | Dixon, MO                      |   565 | 29.74 |      2 |     3 |
+|       33 | Joey Laurine        | Springfield, MO, King’s Chapel |   535 | 28.16 |      2 |     1 |
+|       34 | Michelle Hart       | Orlando, FL                    |   435 | 22.89 |        |       |
+|       35 | Steve Gregg         | Allison Park, PA #2            |   430 | 22.63 |        |       |
+|       35 | Laura Jakstadt      | Bothell, WA #2                 |   430 | 22.63 |        |       |
+|       37 | Christina Saavedra  | Santa Ana, CA                  |   400 | 21.05 |        |       |
+|       38 | Sarette Albin       | Cedar Rapids, IA               |   330 | 17.37 |        |       |
+| **38\*** | Kyle Heyne          | Orlando, FL                    |   330 | 17.37 |      1 |       |
+|       40 | Scott Hamilton      | Aurora, CO                     |   325 | 17.11 |        |       |
+|       41 | Christopher Alfred  | Shreveport, LA                 |   325 | 17.11 |        |       |
+|       42 | Bekka Dunn          | Cedar Rapids, IA               |   250 | 13.16 |        |       |
+|       43 | Brittanica Chesser  | Orlando, FL                    |   235 | 12.37 |        |       |
+|       44 | DeAndre Johnson     | Shreveport, LA                 |   230 | 12.11 |        |       |
+|       45 | Chris Davis         | Springfield, MO, King’s Chapel |   225 | 11.84 |        |       |
+|       46 | Hannah Meyer        | Superior, WI                   |   195 | 10.26 |        |       |
+|       47 | Erica Streifel      | Rochester, MN                  |   175 |  9.21 |        |       |
+|       48 | Jarron Born         | Bothell, WA #2                 |   165 |  8.68 |        |       |
+|       49 | Chelsea Clark       | Kernersville, NC               |   150 |  7.89 |        |       |
+|       50 | Jed Gosnell         | Tacoma, WA                     |   125 |  6.58 |        |       |
+|       51 | Jennifer Nevels     | Mountain Home, ID              |   100 |  5.26 |        |       |
+|       52 | Suni McClure        | Grapevine, TX                  |    90 |  4.74 |        |       |
+|       53 | Amanda Porter       | Mountain Home, ID              |    85 |  4.47 |        |       |
+|       53 | Kristin Kowalski    | Springfield, MO, King’s Chapel |    85 |  4.47 |        |       |
+|       55 | Shelby Alfred       | Shreveport, LA                 |    65 |  3.42 |        |       |
+|       56 | Hannah McGlothlin   | Grapevine, TX                  |    50 |  2.63 |        |       |
+|       57 | Lindsay Flowers     | Bothell, WA #2                 |    45 |  2.37 |        |       |
+|       58 | Abigail Alvino      | Aurora, CO                     |    40 |  2.11 |        |       |
+| **58\*** | Jesse Creason       | Kernersville, NC               |    40 |  2.11 |      1 |       |
+|       60 | CaRanda Haun        | Mountain Home, AR              |    35 |  1.84 |        |       |
+|       61 | Jody Gayhart        | Mountain Home, AR              |    30 |  1.58 |        |       |
+|       62 | Marisa Wallis       | Mountain Home, AR              |    25 |  1.32 |        |       |
+| **62\*** | Emily Whitehead     | Mountain Home, AR              |    25 |  1.32 |      1 |       |
+|       64 | Christina Fiucci    | Chesterland, OH                |    20 |  1.05 |        |       |
+|       65 | Katie Kuroishi      | Santa Ana, CA                  |     5 |  0.26 |        |       |
+|       66 | Regina Olexa        | Cedar Rapids, IA Rachel Grant  |     0 |     0 |        |       |
+| **66\*** | Rachel Grant        | Allison Park, PA #2            |     0 |     0 |      1 |       |
+| **66\*** | Steve Yenca         | Allison Park, PA #2            |     0 |     0 |      1 |       |
+| **66\*** | Tiffany Sewell      | Mountain Home, AR              |     0 |     0 |      1 |       |
+| **66\*** | Michelle Longston   | Mountain Home, AR              |     0 |     0 |      1 |       |
+| **66\*** | Chris Patterson     | Orlando, FL                    |     0 |     0 |      1 |       |
+| **66\*** | Mia Angelakos       | Orlando, FL                    |     0 |     0 |      1 |       |
+| **66\*** | Jared Gafkjen       | Rochester, MN                  |     0 |     0 |      1 |       |
+| **66\*** | Jeff Sharkey        | Superior, WI                   |     0 |     0 |      1 |       |
+|       75 | Richie Nelson       | Tacoma, WA                     |   -50 | -2.63 |        |       |
 
 ## Preliminaries
 
 ### Group A
 
-| Rank | Team                                            | Record | Total |
+|    # | Team                                            | Record | Total |
 | ---: | ----------------------------------------------- | ------ | ----: |
 |    1 | Mountain View A/G, Las Vegas, NV                | 7 / 0  |  1640 |
 |    2 | Adat Yeshua Messianic Center, Overland Park, KS | 5 / 2  |  1250 |
@@ -259,7 +259,7 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 
 ### Group B
 
-| Rank | Team                           | Record | Total |
+|    # | Team                           | Record | Total |
 | ---: | ------------------------------ | ------ | ----: |
 |    1 | First A/G, East Lansing, MI    | 6 / 1  |  1185 |
 |    2 | Braeswood A/G, Houston, TX     | 6 / 1  |  1065 |
@@ -274,11 +274,11 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 
 ### Group C
 
-| Rank | Team                                                | Record | Total |
+|    # | Team                                                | Record | Total |
 | ---: | --------------------------------------------------- | ------ | ----: |
 |    1 | Allison Park A/G "Heart and Mind", Allison Park, PA | 7 / 0  |  1275 |
 |    2 | Cedar Park A/G #1, Bothell, WA                      | 5 / 2  |  1200 |
-|    3 | Christian Chapel, Tulsa, OK*                         | 5 / 2  |   985 |
+|    3 | Christian Chapel, Tulsa, OK*                        | 5 / 2  |   985 |
 |    4 | Orange County Worship Center, Santa Ana, CA         | 5 / 2  |   785 |
 |    5 | Bethel Life Christian Center, West Lafayette, IN    | 3 / 4  |   610 |
 |    6 | Faith A/G, Orlando, FL                              | 2 / 5  |   520 |
@@ -289,7 +289,7 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 
 ### Group D
 
-| Rank | Team                                          | Record | Total |
+|    # | Team                                          | Record | Total |
 | ---: | --------------------------------------------- | ------ | ----: |
 |    1 | Radiant Church, Colorado Springs, CO          | 5 / 2  |  1275 |
 |    2 | Minier A/G, Minier, IL                        | 5 / 2  |  1100 |
