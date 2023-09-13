@@ -91,19 +91,19 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer             | Team                   | Church           |   Total |      Avg |   QO |
-| ---: | ------------------- | ---------------------- | ---------------- | ------: | -------: | ---: |
-|    1 | Mary Meddaugh       | Muskogee First         | Muskogee First   |     830 |   103.75 |    6 |
-|    2 | Deborah Okoro       | Braeswood              | Braeswood        |     415 |    51.88 |    3 |
-|    3 | Ben Ofomata         | Braeswood              | Braeswood        |     395 |    49.38 |    3 |
-|    4 | Daniel Kirby        | CT Church              | CT Church        |     390 |    48.75 |    3 |
-|    5 | Andres Garro        | CT Church              | CT Church        |     325 |    40.63 |    3 |
-|    6 | Toshali Nutt        | Muskogee First         | Muskogee First   |     250 |    31.25 |    1 |
-|    7 | Dylan Wills         | Xtreme Middle School   | Owasso First     |     190 |    23.75 |      |
-|    8 | Kelly Fischer       | Xtreme Middle School   | Owasso First     |     100 |     12.5 |      |
-|    9 | Danielle Comstock   | Awesome                | Fredonia First   |      70 |     8.75 |      |
-|   10 | Michaela Tindle     | Awesome                | Fredonia First   |      35 |     4.38 |      |
-|   11 | Matt Garman         | Xtreme Middle School   | Owasso First     |      30 |     3.75 |      |
-|   11 | Parker Harris       | Muskogee First         | Muskogee First   |      30 |     3.75 |      |
-|   12 | Cejae Jordan        | Awesome                | Fredonia First   |      25 |     3.13 |      |
-|   13 | Jeremiah Boylan     | Muskogee First         | Muskogee First   |         |        0 |      |
+|    # | Quizzer           | Team                 | Church         | Total |    Avg |   QO |
+| ---: | ----------------- | -------------------- | -------------- | ----: | -----: | ---: |
+|    1 | Mary Meddaugh     | Muskogee First       | Muskogee First |   830 | 103.75 |    6 |
+|    2 | Deborah Okoro     | Braeswood            | Braeswood      |   415 |  51.88 |    3 |
+|    3 | Ben Ofomata       | Braeswood            | Braeswood      |   395 |  49.38 |    3 |
+|    4 | Daniel Kirby      | CT Church            | CT Church      |   390 |  48.75 |    3 |
+|    5 | Andres Garro      | CT Church            | CT Church      |   325 |  40.63 |    3 |
+|    6 | Toshali Nutt      | Muskogee First       | Muskogee First |   250 |  31.25 |    1 |
+|    7 | Dylan Wills       | Xtreme Middle School | Owasso First   |   190 |  23.75 |      |
+|    8 | Kelly Fischer     | Xtreme Middle School | Owasso First   |   100 |   12.5 |      |
+|    9 | Danielle Comstock | Awesome              | Fredonia First |    70 |   8.75 |      |
+|   10 | Michaela Tindle   | Awesome              | Fredonia First |    35 |   4.38 |      |
+|   11 | Matt Garman       | Xtreme Middle School | Owasso First   |    30 |   3.75 |      |
+|   11 | Parker Harris     | Muskogee First       | Muskogee First |    30 |   3.75 |      |
+|   12 | Cejae Jordan      | Awesome              | Fredonia First |    25 |   3.13 |      |
+|   13 | Jeremiah Boylan   | Muskogee First       | Muskogee First |       |      0 |      |

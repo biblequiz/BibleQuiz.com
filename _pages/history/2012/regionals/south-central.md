@@ -83,17 +83,17 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer          | Team                | Church                |   Total |   Avg |   QO |
-| ---: | ---------------- | ------------------- | --------------------- | ------: | ----: | ---: |
-|    1 | Oom Strickland   | Unfading Beauty     | Noble Assembly        |     540 |   108 |    3 |
-|    2 | Josiah Schwarz   | Czech Tech          | Muskogee 1st          |     405 |    81 |    3 |
-|    3 | Jeremy Mgbeike   | Braeswood MSQ       | Braeswood             |     395 |    79 |    4 |
-|    4 | Cameron Berta    | No Ordinary Child   | The Oaks Fellowship   |     370 |    74 |    3 |
-|    5 | Grace Smith      | Unfading Beauty     | Noble Assembly        |     200 |    40 |    1 |
-|    6 | Zach Schwarz     | Czech Tech          | Muskogee 1st          |     175 |    35 |    1 |
-|    7 | David Saunders   | No Ordinary Child   | The Oaks Fellowship   |     150 |    30 |      |
-|    8 | Jose Lopez       | Braeswood MSQ       | Braeswood             |      45 |     9 |      |
-|    9 | Solomon Stitt    | No Ordinary Child   | The Oaks Fellowship   |      40 |     8 |      |
-|   10 | Taylor Baker     | Unfading Beauty     | Noble Assembly        |      30 |     6 |      |
-|   11 | Osinachi Nwogu   | Braeswood MSQ       | Braeswood             |      10 |     2 |      |
-|   11 | Parker Harris    | Czech Tech          | Muskogee 1st          |      10 |     2 |      |
+|    # | Quizzer        | Team              | Church              | Total |  Avg |   QO |
+| ---: | -------------- | ----------------- | ------------------- | ----: | ---: | ---: |
+|    1 | Oom Strickland | Unfading Beauty   | Noble Assembly      |   540 |  108 |    3 |
+|    2 | Josiah Schwarz | Czech Tech        | Muskogee 1st        |   405 |   81 |    3 |
+|    3 | Jeremy Mgbeike | Braeswood MSQ     | Braeswood           |   395 |   79 |    4 |
+|    4 | Cameron Berta  | No Ordinary Child | The Oaks Fellowship |   370 |   74 |    3 |
+|    5 | Grace Smith    | Unfading Beauty   | Noble Assembly      |   200 |   40 |    1 |
+|    6 | Zach Schwarz   | Czech Tech        | Muskogee 1st        |   175 |   35 |    1 |
+|    7 | David Saunders | No Ordinary Child | The Oaks Fellowship |   150 |   30 |      |
+|    8 | Jose Lopez     | Braeswood MSQ     | Braeswood           |    45 |    9 |      |
+|    9 | Solomon Stitt  | No Ordinary Child | The Oaks Fellowship |    40 |    8 |      |
+|   10 | Taylor Baker   | Unfading Beauty   | Noble Assembly      |    30 |    6 |      |
+|   11 | Osinachi Nwogu | Braeswood MSQ     | Braeswood           |    10 |    2 |      |
+|   11 | Parker Harris  | Czech Tech        | Muskogee 1st        |    10 |    2 |      |

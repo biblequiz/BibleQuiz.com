@@ -14,15 +14,15 @@ menubar_toc_static:
 
 ## Teams
 
-| Team                     |    W |    L | Total |   Avg |
-| ------------------------ | ---: | ---: | ----: | ----: |
-| Owasso A/G               |   10 |    2 |  2965 | 247.1 |
+| Team                    |    W |    L | Total |   Avg |
+| ----------------------- | ---: | ---: | ----: | ----: |
+| Owasso A/G              |   10 |    2 |  2965 | 247.1 |
 | Central - This One Man* |    9 |    3 |  2505 | 208.8 |
-| Central - Brute Beasts   |    9 |    3 |  2140 | 178.3 |
-| CT Church #1             |    7 |    5 |  1770 | 147.5 |
-| Braeswood                |    5 |    7 |  1150 |  95.8 |
-| Orange County WC         |    2 |   10 |   995 |  82.9 |
-| CT Church #2             |    0 |   12 |   115 |   9.6 |
+| Central - Brute Beasts  |    9 |    3 |  2140 | 178.3 |
+| CT Church #1            |    7 |    5 |  1770 | 147.5 |
+| Braeswood               |    5 |    7 |  1150 |  95.8 |
+| Orange County WC        |    2 |   10 |   995 |  82.9 |
+| CT Church #2            |    0 |   12 |   115 |   9.6 |
 
 \* Central – This One Man won play-off against Central-Brute Beasts
 

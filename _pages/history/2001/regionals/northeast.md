@@ -69,7 +69,7 @@ menubar_toc_static:
 
 |    # | Quizzer             | Team           | Total |   QO |
 | ---: | ------------------- | -------------- | ----: | ---: |
-|    1 | Neha Saiya          | Lebanon PA     | 1065 |    8 |
+|    1 | Neha Saiya          | Lebanon PA     |  1065 |    8 |
 |    2 | Amy Semple          | Syracuse NY    |   810 |    5 |
 |    3 | Cara Rozgonyi       | Bethel Park PA |   680 |    3 |
 |    4 | C.J. Barna          | Bethel Park PA |   670 |    4 |
