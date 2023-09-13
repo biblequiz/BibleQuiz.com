@@ -103,9 +103,6 @@ menubar_toc_static:
 |       13 | Ahbree Armstrong   | Devil Crushers (First Assembly of God)             |     0 |      |      |      |
 | **\*13** | Beckham Wedington  | Quantum Quizzers (Discovery Assembly of God)       |     0 |      |      |      |
 | **\*13** | Olivia Willoughby  | Quantum Quizzers (Discovery Assembly of God)       |     0 |      |      |      |
-| **\*13** | Quizzer-1          | Ghost Team (Church)                                |     0 |      |      |      |
-| **\*13** | Quizzer-2          | Ghost Team (Church)                                |     0 |      |      |      |
-| **\*13** | Quizzer-3          | Ghost Team (Church)                                |     0 |      |      |      |
 | **\*13** | Vivian Frescott    | Battle Creek Jenks (Jenks) #1 (Battle Creek Jenks) |     0 |      |      |      |
 
 *\* Tie couldn't be broken by tie breaking rules.*

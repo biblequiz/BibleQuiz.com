@@ -53,11 +53,9 @@ menubar_toc_static:
 |       18 | Daniel Bartholomew  | Super Smash Bros (The Oaks Fellowship)     |    40 |     4 |      | 100% |
 |       19 | Trotter Smith       | God's Holy Guacamole (Freedom Church)      |    20 |     2 |      | 100% |
 |       20 | Grace Bartholomew   | Super Smash Bros (The Oaks Fellowship)     |     0 |       |      |      |
-| **\*20** | Quizzer-3           | Power Kids (Kids Club)                     |     0 |       |      |      |
 | **\*20** | Isabella Darko      | Keepers of the Command (First @ Firewheel) |     0 |       |      |      |
 | **\*20** | Chizarm Iwuogaranya | Keepers of the Command (First @ Firewheel) |     0 |       |      |      |
 | **\*20** | Chizaram Echefu     | Keepers of the Command (First @ Firewheel) |     0 |       |      |      |
-| **\*20** | Quizzer-3           | Blazing Lions (Dripping Springs UMC)       |     0 |       |      |      |
 
 
 ## Intermediate
@@ -104,7 +102,6 @@ menubar_toc_static:
 |       20 | Kaevyan Burrow      | God's Squad (Freedon Chruch)              |    40 |  3.3 |      | 100% |
 | **\*20** | Ann Pickrell        | Quizzers for God (The Oaks Fellowship)    |    40 |  3.3 |      | 100% |
 |       21 | Daniel Ngira        | Harvest AG #1 (Harvest AG)                |     0 |      |      |      |
-| **\*21** | Quizzer-3           | Harvest AG #1 (Harvest AG)                |     0 |      |      |      |
 | **\*21** | Samuel Andrade      | God's Squad (Freedon Chruch)              |     0 |      |      |      |
 | **\*21** | Raelee Deaton       | Bible Searchers (First @ Firewheel)       |     0 |      |      |      |
 |       22 | Nakiya Davis        | Encouter Church #1 (The Encouter Church)  |   -10 |  -.8 |      |  33% |
@@ -185,9 +182,6 @@ menubar_toc_static:
 |       14 | Israel Fajemirokun     | The Elected (Mountain Creek Church)      |    40 |    8 |      |  67% |
 |       15 | Jeremias(JD) Rodriguez | The Elected (Mountain Creek Church)      |    25 |    5 |      |  75% |
 |       16 | Samantha Colley        | God's Mini Helpers (The Oaks Fellowship) |    20 |    4 |      |  67% |
-|       17 | Peter                  | The 12 Apostles (Holy Ghost)             |    10 |    2 |      |  99% |
-|       18 | Joshua Applegate       | Harvest #2 (Harvest Church)              |     0 |      |      |      |
-| **\*18** | Andrew                 | The 12 Apostles (Holy Ghost)             |     0 |      |      |      |
-| **\*18** | John                   | The 12 Apostles (Holy Ghost)             |     0 |      |      |      |
-|       19 | Ethan Fajemirokun      | The Elected (Mountain Creek Church)      |    -5 |   -1 |      |      |
+|       17 | Joshua Applegate       | Harvest #2 (Harvest Church)              |     0 |      |      |      |
+|       18 | Ethan Fajemirokun      | The Elected (Mountain Creek Church)      |    -5 |   -1 |      |      |
 

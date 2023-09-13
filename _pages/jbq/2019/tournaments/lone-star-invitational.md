@@ -70,7 +70,6 @@ menubar_toc_static:
 |       33 | Dustin Trombley    | Bible Buzzin' Bros (Trinity Church of the AG)           |   120 |   6.7 |      |  70% |
 |       34 | Joseph Lee         | Bible Buzzin' Bros (Trinity Church of the AG)           |    75 |   4.2 |      |  47% |
 |       35 | Eldana Yosefe      | Keepers of the Command (First @ Firewheel church)       |     0 |       |      |      |
-| **\*35** | Quizzer-3          | First Assembly of God(Humble)#1 (First Assembly of God) |     0 |       |      |      |
 | **\*35** | Zoey Fischer       | United for Christ (The Bridge Assembly of God)          |     0 |       |      |      |
 | **\*35** | Abigail Koch       | Guardians of the Gospel (First @ Firewheel church)      |     0 |       |      |      |
 

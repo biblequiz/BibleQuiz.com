@@ -100,7 +100,6 @@ menubar_toc_static:
 | **\*14** | Kylie Surface          | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
 | **\*14** | LiviaTate              | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
 | **\*14** | Katlyn Dooley          | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
-| **\*14** | Quizzer-3              | Mountain West (Mountain West)                              |     0 |       |      |      |
 | **\*14** | Joshua Abraham         | Believers (Atlanta Tamil Church)                           |     0 |       |      |      |
 
 

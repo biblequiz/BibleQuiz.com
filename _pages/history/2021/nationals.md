@@ -143,7 +143,6 @@ menubar_toc_static:
 | 17  | First Assembly of God (Louisville, OH)                                |    3 |   15 | 340   | 18.9  |     | 59% |     | 6   | 43  |
 | 18  | Monkey Madness (Sioux Falls First, Sioux Falls, SD)                   |    2 |   16 | 685   | 38.1  | 6   | 59% | 3   | 15  | 68  |
 | 19  | Imitators (Deeper Church, Burien, WA)                                 |    0 |   18 | 305   | 16.9  |     | 64% | 1   | 6   | 34  |
-| 20  | Ghost Team (First Assembly, Valentine, NE)                            |    0 |    0 | 0     |       |     | %   |     |     |     |
 
 ### Individuals
 
@@ -201,18 +200,12 @@ menubar_toc_static:
 | 47  | Benaiah Hodge        | Prepared to Give an Answer (New Life AG, Frankfort, IN)               | 20    | 1.1   |     | 54%  |     |     | 6   |
 | 48  | Kelly Hodge          | Prepared to Give an Answer (New Life AG, Frankfort, IN)               | 15    | .8    |     | 50%  |     |     | 3   |
 | 48  | Quentin Counley      | Imitators (Deeper Church, Burien, WA)                                 | 15    | .8    |     | 48%  |     | 1   | 9   |
-| 49  | Quizzer-3            | Double Edged (Praise Church, Garfield, NJ)                            | 0     |       |     | %    |     |     |     |
 | 49  | Michael Ukonu        | Braeswood Assembly (Houston, TX)                                      | 0     |       |     | %    |     |     |     |
 | 49  | Brandon Ukonu        | Braeswood Assembly (Houston, TX)                                      | 0     |       |     | %    |     |     |     |
 | 49  | Caleb Song           | Order of Aaron (First Assembly, Lexington, KY)                        | 0     |       |     | %    |     |     |     |
 | 49  | Aaron Lin            | Order of Aaron (First Assembly, Lexington, KY)                        | 0     |       |     | %    |     |     |     |
-| 49  | Quizzer-3            | God's Elect From Oklahoma (Mustang, OK)                               | 0     |       |     | %    |     |     |     |
 | 49  | Brittney Gauldin     | Calvary Church (Greensboro, NC)                                       | 0     |       |     | %    |     |     |     |
 | 49  | Robson Yoder         | Calvary Assembly of God (Marinette, WI)                               | 0     |       |     | %    |     |     |     |
-| 49  | Inky                 | Ghost Team (1st Assembly, Valentine, NE)                              | 0     |       |     | %    |     |     |     |
-| 49  | Blinky               | Ghost Team (1st Assembly, Valentine, NE)                              | 0     |       |     | %    |     |     |     |
-| 49  | Pinky                | Ghost Team (1st Assembly, Valentine, NE)                              | 0     |       |     | %    |     |     |     |
-| 49  | Clyde                | Ghost Team (1st Assembly, Valentine, NE)                              | 0     |       |     | %    |     |     |     |
 | 50  | Sasha Mobley         | Imitators (Deeper Church, Burien, WA)                                 | -5    | -.3   |     | 50%  |     |     | 1   |
 | 50  | Brandon Ukonu        | Braeswood Assembly (Houston, TX)                                      | -5    | -.3   |     | %    |     |     |     |
 | 51  | Jonathan Shtyrkalo   | Braeswood Assembly (Houston, TX)                                      | -10   | -.5   |     | 25%  |     |     | 1   |
@@ -367,7 +360,6 @@ menubar_toc_static:
 |       19 | Padmini Abothu       | Don\'t Run from the Lord (Bellevue Church, Bellevue, WA)    |    20 |   2.9 |      | 100% |
 |       20 | Jonathan Shtyrkalo   | Braeswood Assembly (Houston, TX)                            |    10 |   1.4 |      |  99% |
 |       21 | Avinash Poguluri     | Don\'t Run from the Lord (Bellevue Church, Bellevue, WA)    |     0 |       |      |      |
-| **\*21** | Quizzer-3            | Double Edged (Praise Church, Garfield, NJ)                  |     0 |       |      |      |
 | **\*21** | Michael Ukonu        | Braeswood Assembly (Houston, TX)                            |     0 |       |      |      |
 | **\*21** | Brandon Ukonu        | Braeswood Assembly (Houston, TX)                            |     0 |       |      |      |
 | **\*21** | Brittney Gauldin     | Calvary Church (Greensboro, NC)                             |     0 |       |      |      |
@@ -474,7 +466,6 @@ menubar_toc_static:
 |       19 | Eric Carty         | 13 Living Hope (Swedesboro, NJ)                                 |     5 |    .8 |      |  50% |
 | **\*19** | Hannah Tinney      | 9 Order of Aaron (First Assembly, Lexington, KY)                |     5 |    .8 |      |  36% |
 |       20 | Madison Claunch    | 5 Trinity One (Trinity Church, TX)                              |     0 |       |      |      |
-| **\*20** | Quizzer-3          | 14 God\'s Elect From Oklahoma (Mustang, OK)                     |     0 |       |      |      |
 | **\*20** | Aaron Lin          | 9 Order of Aaron (First Assembly, Lexington, KY)                |     0 |       |      |      |
 
 ## Special Events

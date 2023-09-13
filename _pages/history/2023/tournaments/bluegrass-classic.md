@@ -100,9 +100,6 @@ menubar_toc_static:
 |       20 | Jackson Rakowski    | A Pair of Pairs! (Harvest Assembly of God)                    |     0 |       |      |      |
 | **\*20** | Oye Essandoh        | The Approved Messengers (Radiant Life Church Assembly of God) |     0 |       |      |      |
 | **\*20** | Paz Bermeo          | Flaming Fire (King\'s Way Assembly of God)                    |     0 |       |      |      |
-| **\*20** | Quizzer-1           | Night and Day (Lighthouse Assembly of God)                    |     0 |       |      |      |
-| **\*20** | Quizzer-2           | Night and Day (Lighthouse Assembly of God)                    |     0 |       |      |      |
-| **\*20** | Quizzer-3           | Night and Day (Lighthouse Assembly of God)                    |     0 |       |      |      |
 |       21 | Luci Mjos           | Flaming Fire (King\'s Way Assembly of God)                    |    -5 |   -.7 |      |      |
 
 ## XP Top 4
@@ -167,7 +164,4 @@ menubar_toc_static:
 | **\*9** | Josiah Self       | Flaming Fire (King\'s Way Assembly of God) |     0 |       |      |      |
 | **\*9** | Luci Mjos         | Flaming Fire (King\'s Way Assembly of God) |     0 |       |      |      |
 | **\*9** | Paz Bermeo        | Flaming Fire (King\'s Way Assembly of God) |     0 |       |      |      |
-| **\*9** | Quizzer-1         | Night and Day (Lighthouse Assembly of God) |     0 |       |      |      |
-| **\*9** | Quizzer-2         | Night and Day (Lighthouse Assembly of God) |     0 |       |      |      |
-| **\*9** | Quizzer-3         | Night and Day (Lighthouse Assembly of God) |     0 |       |      |      |
 

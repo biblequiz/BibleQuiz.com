@@ -42,7 +42,6 @@ menubar_toc_static:
 |        9 | Elijah Lee        | Trinity - John (Trinity church)      |    40 |  6.7 |      |  80% |
 |       10 | Noah Lee          | Trinity - Lori (Trinity church)      |     0 |      |      |      |
 | **\*10** | Esther Birungi    | Harvest Flames of Fire (Harvest AG)  |     0 |      |      |      |
-| **\*10** | Quizzer-3         | Harvest Flames of Fire (Harvest AG)  |     0 |      |      |      |
 | **\*10** | Madison Claunch   | Trinity - John (Trinity church)      |     0 |      |      |      |
 |       11 | Aulora Sullivan   | Trinity - Lori (Trinity church)      |    -5 |  -.8 |      |  44% |
 | **\*11** | Ndubueze Echefu   | Human Rejects (First @ Firewheel AG) |    -5 |  -.8 |      |      |

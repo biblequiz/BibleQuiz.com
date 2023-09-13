@@ -54,7 +54,6 @@ menubar_toc_static:
 | **\*15** | Alyssa Gonzales       | Mission Possible (Mountain Creek Church)        |     0 |      |      |      |
 | **\*15** | Nehemiah(Quizzer 1)   | Invisible Warriors (The Unseen AG)              |     0 |      |      |      |
 | **\*15** | Zerubbabel(Quizzer 2) | Invisible Warriors (The Unseen AG)              |     0 |      |      |      |
-| **\*15** | Quizzer-3             | Invisible Warriors (The Unseen AG)              |     0 |      |      |      |
 | **\*15** | Glen Holland          | Christ Church FW Bible Force (Christ Church AG) |     0 |      |      |      |
 | **\*15** | Emsley Ivey           | Christ Church FW Bible Force (Christ Church AG) |     0 |      |      |      |
 | **\*15** | Willow Johnston       | Christ Church FW Bible Force (Christ Church AG) |     0 |      |      |      |

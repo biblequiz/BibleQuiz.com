@@ -188,7 +188,6 @@ menubar_toc_static:
 | ---: | ---------------------------------------------- | --- | ----: | ----: |
 |    1 | Lighthouse Christian Fellowship, Pennsburg, PA | 4/3 |   320 | 45.71 |
 |    2 | Hamlin A/G, Lake Ariel, PA                     | 3/4 |   275 | 39.29 |
-|    3 | Ghost                                          | 0/0 |       |   .00 |
 
 ### Individuals
 
@@ -215,7 +214,6 @@ menubar_toc_static:
 | ---: | ---------------------------------------------- | --- | ----: | ----: |
 |    1 | Hamlin A/G, Lake Ariel, PA                     | 5/0 |   460 | 92.00 |
 |    2 | Lighthouse Christian Fellowship, Pennsburg, PA | 0/5 |    75 | 15.00 |
-|    3 | Ghost                                          | 0/0 |       |   .00 |
 
 ### Individuals
 
@@ -242,7 +240,6 @@ menubar_toc_static:
 | ---: | -------------------------------- | --- | ----: | -----: |
 |    1 | Fountain of Life, Burlington, NJ | 1/0 |   100 | 100.00 |
 |    2 | Experience Total                 | 0/1 |    45 |  45.00 |
-|    3 | Ghost                            | 0/0 |       |    .00 |
 
 ### Individuals
 

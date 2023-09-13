@@ -66,7 +66,6 @@ menubar_toc_static:
 | **\*24** | Jason Bartholomew   | Exasperated Children (The Oaks)                    |     0 |       |      |      |
 | **\*24** | Hailey Janssens     | Exasperated Children (The Oaks)                    |     0 |       |      |      |
 | **\*24** | Goodnews Juriamade  | Firewheel (First @ Firewheel)                      |     0 |       |      |      |
-| **\*24** | Quizzer-3           | Pure and Blameless (The Oaks)                      |     0 |       |      |      |
 | **\*24** | Ngota Ngira         | Justified Gentiles (Harvest A/G)                   |     0 |       |      |      |
 | **\*24** | Esperance Ngira     | Justified Gentiles (Harvest A/G)                   |     0 |       |      |      |
 |       25 | Grace Ngira         | Justified Gentiles (Harvest A/G)                   |   -20 |  -2.5 |      |  17% |

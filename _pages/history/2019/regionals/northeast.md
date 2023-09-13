@@ -83,9 +83,6 @@ menubar_toc_static:
 |       36 | Amala Ezekoye     | FLASH - River of God Church (Enola, PA)                  |    15 |   1.2 |      |  57% |
 | **\*36** | Lydia Dawit       | Power to Demolish - Word of Life AG (Springfield, VA)    |    15 |   1.2 |      |  55% |
 |       37 | Darren Asoppiah   | Metuchen Assembly of God (Metuchen, NJ)                  |     0 |       |      |      |
-| **\*37** | Quizzer-1         | IFC ( )                                                  |     0 |       |      |      |
-| **\*37** | Quizzer-2         | IFC ( )                                                  |     0 |       |      |      |
-| **\*37** | Quizzer-3         | IFC ( )                                                  |     0 |       |      |      |
 | **\*37** | Luke Kelly        | Constantly Running to Asia (MCC) (Mechanicsville, VA)    |     0 |       |      |      |
 |       38 | Colby Heller      | FLASH - River of God Church (Enola, PA)                  |   -20 |  -1.5 |    1 |  34% |
 

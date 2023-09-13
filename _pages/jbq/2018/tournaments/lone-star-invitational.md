@@ -81,7 +81,6 @@ menubar_toc_static:
 |       40 | Abigail Koch               | Guardians of the Gospel (First @ Firewheel)               |    10 |    .9 |      |  99% |
 |       41 | Jonathan Yosefe            | Keepers of the Command (First @ Firewheel)                |     5 |    .5 |      |  50% |
 | **\*41** | AJ Lopez                   | Guardians of the Gospel (First @ Firewheel)               |     5 |    .5 |      |  50% |
-|       42 | Quizzer-3                  | Double Trouble (Central Assembly Springfield)             |     0 |       |      |      |
-|       43 | Joseph Lee                 | The Green Knights (Trinity Church)                        |    -5 |   -.5 |      |  29% |
+|       42 | Joseph Lee                 | The Green Knights (Trinity Church)                        |    -5 |   -.5 |      |  29% |
 | **\*43** | Eldana Yosefe              | Keepers of the Command (First @ Firewheel)                |    -5 |   -.5 |      |      |
 

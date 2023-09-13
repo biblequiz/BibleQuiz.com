@@ -83,7 +83,7 @@ menubar_toc_static:
 |    3 | His Holy Quizzers (Oaks Church)                                                          | 4 / 2 |  67% |   830 | 138.3 |    7 |  82% |
 |    4 | Encounter Church (Fate) #2 (Encounter Church)                                            | 2 / 4 |  33% |   250 |  41.7 |      |  84% |
 |    5 | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) | 2 / 4 |  33% |   380 |  63.3 |    2 |  81% |
-|    6 | Hot Tamales (Mission Churech)                                                            | 1 / 5 |  17% |   150 |    25 |    1 |  58% |
+|    6 | Hot Tamales (Mission Church)                                                             | 1 / 5 |  17% |   150 |    25 |    1 |  58% |
 |    7 | Jesus\' Army (Oaks Church)                                                               | 1 / 5 |  17% |   265 |  44.2 |      |  68% |
 
 ### Individuals
@@ -98,7 +98,7 @@ menubar_toc_static:
 |        4 | Diana Moreland     | Children of Fire (Freedom Church)                                                        |   345 |  57.5 |    3 |  97% |
 |        5 | Yabets Belayneh    | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) |   335 |  55.8 |    2 |  90% |
 |        6 | Eva King           | His Holy Quizzers (Oaks Church)                                                          |   200 |  33.3 |    1 |  77% |
-|        7 | Stephen Kadari     | Hot Tamales (Mission Churech)                                                            |   170 |  28.3 |    1 |  67% |
+|        7 | Stephen Kadari     | Hot Tamales (Mission Church)                                                             |   170 |  28.3 |    1 |  67% |
 |        8 | Jonathan Burns     | Children of Fire (Freedom Church)                                                        |   170 |  28.3 |      |  82% |
 |        9 | Kaylie Fortygin    | Encounter Church (Fate) #2 (Encounter Church)                                            |   150 |    25 |      | 100% |
 |       10 | Samantha Colley    | Jesus\' Army (Oaks Church)                                                               |   145 |  24.2 |      |  81% |
@@ -109,19 +109,19 @@ menubar_toc_static:
 |       14 | Caleb Nesterenko   | Encounter Church (Fate) #2 (Encounter Church)                                            |    45 |   7.5 |      |  83% |
 |       15 | Hannah Ye          | Fluffy Armadillos-First at Firewheel (First at Firewheel)                                |    30 |     5 |      | 100% |
 |       16 | Delina Aseged      | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) |    25 |   4.2 |      | 100% |
-| **\*16** | Hudson Rogers      | Hot Tamales (Mission Churech)                                                            |    25 |   4.2 |      |  75% |
+| **\*16** | Hudson Rogers      | Hot Tamales (Mission Church)                                                             |    25 |   4.2 |      |  75% |
 |       17 | Noah Yonas         | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) |    20 |   3.3 |      |  57% |
 |       18 | Abigail Dixon      | His Holy Quizzers (Oaks Church)                                                          |    10 |   1.7 |      | 100% |
 | **\*18** | Diya Harilal       | Fluffy Armadillos-First at Firewheel (First at Firewheel)                                |    10 |   1.7 |      | 100% |
 |       19 | Colton Bjerke      | His Holy Quizzers (Oaks Church)                                                          |     0 |       |      |      |
 | **\*19** | G\'ani Rivera      | Jesus\' Army (Oaks Church)                                                               |     0 |       |      |      |
-| **\*19** | Kaylee Driver      | Hot Tamales (Mission Churech)                                                            |     0 |       |      |      |
-| **\*19** | Roshan Jayam       | Hot Tamales (Mission Churech)                                                            |     0 |       |      |      |
+| **\*19** | Kaylee Driver      | Hot Tamales (Mission Church)                                                             |     0 |       |      |      |
+| **\*19** | Roshan Jayam       | Hot Tamales (Mission Church)                                                             |     0 |       |      |      |
 | **\*19** | Violet Cano        | Jesus\' Army (Oaks Church)                                                               |     0 |       |      |      |
 | **\*19** | yotam Haile        | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) |     0 |       |      |      |
 | **\*19** | Aster Mulushewa    | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) |     0 |       |      |  33% |
-|       20 | Fenn Rogers        | Hot Tamales (Mission Churech)                                                            |   -10 |  -1.7 |      |      |
-|       21 | Noah Matlock       | Hot Tamales (Mission Churech)                                                            |   -35 |  -5.8 |      |  17% |
+|       20 | Fenn Rogers        | Hot Tamales (Mission Church)                                                             |   -10 |  -1.7 |      |      |
+|       21 | Noah Matlock       | Hot Tamales (Mission Church)                                                             |   -35 |  -5.8 |      |  17% |
 
 ## Beginner
 
@@ -177,7 +177,6 @@ menubar_toc_static:
 | **\*23** | Madison Henson      | Bible Blasters (Lighthouse Church - Dallas, TX)          |     0 |      |      |      |
 | **\*23** | Milanna Mincks      | God's Holy Thunder Gamers (Freedom Church-Carrolton, TX) |     0 |      |      |      |
 | **\*23** | Nessa Vitale        | God's Holy Thunder Gamers (Freedom Church-Carrolton, TX) |     0 |      |      |      |
-| **\*23** | Quizzer-3           | Bible Superheroes (Trinity Church-Cedar Hill, TX)        |     0 |      |      |      |
 |       24 | Joshua Odedrian     | Bible Blasters (Lighthouse Church - Dallas, TX)          |   -30 |   -5 |      |  29% |
 
 ## PeeWee
@@ -220,7 +219,6 @@ menubar_toc_static:
 | **\*14** | Baily Martinez        | Trinity Quiz Kids (Trinity Church)    |    10 |    2 |      |  50% |
 |       15 | Fiona Campbell        | God's Sunflowers (Freedom Church)     |     0 |      |      |      |
 | **\*15** | Josiah Hare           | God's Sunflowers (Freedom Church)     |     0 |      |      |      |
-| **\*15** | Quizzer-3             | Faith, Hope & Love (Mt. Creek Church) |     0 |      |      |      |
 | **\*15** | Junior Darko          | Team Believe (First @ Firewheel)      |     0 |      |      |      |
 | **\*15** | Norbert Azubuike      | Team Believe (First @ Firewheel)      |     0 |      |      |      |
 | **\*15** | Gideon Bennett        | Trinity Quiz Kids (Trinity Church)    |     0 |      |      |      |

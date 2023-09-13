@@ -189,12 +189,10 @@ menubar_toc_static:
 | 47  | Benaiah Hodge        | to Give an Answer (New Life AG, Frankfort, IN)                                | 20    | 1.1   |     | 54%  |     |     | 6   |
 | 48  | Kelly Hodge          | to Give an Answer (New Life AG, Frankfort, IN)                                | 15    | .8    |     | 50%  |     |     | 3   |
 | 48  | Quentin Counley      | (Deeper Church, Burien, WA)                                                   | 15    | .8    |     | 48%  |     | 1   | 9   |
-| 49  | Quizzer-3            | Edged (Praise Church, Garfield, NJ)                                           | 0     |       |     | %    |     |     |     |
 | 49  | Michael Ukonu        | Assembly (Houston, TX)                                                        | 0     |       |     | %    |     |     |     |
 | 49  | Brandon Ukonu        | Assembly (Houston, TX)                                                        | 0     |       |     | %    |     |     |     |
 | 49  | Caleb Song           | of Aaron (First Assembly, Lexington, KY)                                      | 0     |       |     | %    |     |     |     |
 | 49  | Aaron Lin            | of Aaron (First Assembly, Lexington, KY)                                      | 0     |       |     | %    |     |     |     |
-| 49  | Quizzer-3            | Elect From Oklahoma (Mustang, OK)                                             | 0     |       |     | %    |     |     |     |
 | 49  | Brittney Gauldin     | Church (Greensboro, NC)                                                       | 0     |       |     | %    |     |     |     |
 | 49  | Robson Yoder         | Assembly of God (Marinette, WI)                                               | 0     |       |     | %    |     |     |     |
 | 49  | Inky                 | Team (1st Assembly, Valentine, NE)                                            | 0     |       |     | %    |     |     |     |

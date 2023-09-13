@@ -69,12 +69,9 @@ menubar_toc_static:
 |       28 | Joanna Paulraj      | \"Way Maker\" - CTI (Wayne, NJ)                                   |    40 |   3.6 |      |  83% |
 |       29 | Chineme Oriaku      | \"Way Maker\" - CTI (Wayne, NJ)                                   |    10 |    .9 |      |  66% |
 | **\*29** | David Kwabi-Addo    | \"Living Hope\" - Word of Life (Springfield, VA)                  |    10 |    .9 |      |  33% |
-|       30 | Quizzer-3           | UECF \"Warriors\" (Westfield, NJ)                                 |     0 |       |      |      |
-| **\*30** | Quizzer-3           | \"Fully Sober\" - Praise Church (Garfield, NJ)                    |     0 |       |      |      |
-| **\*30** | Rochelle Sherry     | \"Holly Blameless and Pure\" - Kinport Assembly (Cherry Tree, PA) |     0 |       |      |      |
+|       30 | Rochelle Sherry     | \"Holly Blameless and Pure\" - Kinport Assembly (Cherry Tree, PA) |     0 |       |      |      |
 | **\*30** | Caleb Cook          | \"Way Maker\" - CTI (Wayne, NJ)                                   |     0 |       |      |      |
 | **\*30** | Ariella Grimmond    | Calvary Assembly of God (Ozone Park, NY)                          |     0 |       |      |      |
-| **\*30** | Quizzer-3           | Calvary Assembly of God (Ozone Park, NY)                          |     0 |       |      |      |
 | **\*30** | Bethany Barath      | \"Warriors of Faith\" - Indians for Christ (Silver Spring, MD)    |     0 |       |      |      |
 |       31 | Daniel Wong         | Smithtown Gospel Tabernacle (Smithtown, NY)                       |   -10 |   -.9 |      |  44% |
 | **\*31** | Abenezer Mekuria    | \"Living Hope\" - Word of Life (Springfield, VA)                  |   -10 |   -.9 |      |      |
@@ -126,7 +123,4 @@ menubar_toc_static:
 | **\*21** | Olivia Arroyo     | Fountain of Life Center (Burlington, NJ)                    |    30 |   4.3 |      | 100% |
 |       22 | Ava Manser        | \"Fury of the Flames\" - Resurgence Church (Mastic, NY)     |    25 |   3.6 |      |  75% |
 |       23 | Addison Odle      | \"The Invisible Goatskins\" - Webster AG (Webster, NY)      |    20 |   2.9 |      | 100% |
-|       24 | Quizzer-3         | \"The Tootsie Rolls\" - LHWC (Swedesboro, NJ)               |     0 |       |      |      |
-| **\*24** | Elena Seeburger   | \"The Invisible Goatskins\" - Webster AG (Webster, NY)      |     0 |       |      |      |
-| **\*24** | Quizzer-2         | \"Promise Keeper\" - CTI (Wayne, NJ)                        |     0 |       |      |      |
-| **\*24** | Quizzer-3         | \"Promise Keeper\" - CTI (Wayne, NJ)                        |     0 |       |      |      |
+|       24 | Elena Seeburger   | \"The Invisible Goatskins\" - Webster AG (Webster, NY)      |     0 |       |      |      |

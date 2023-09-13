@@ -54,8 +54,6 @@ menubar_toc_static:
 | **\*17** | Kailyn Gillis      | Disciplining Dinos (Dripping Springs) |    10 |    2 |      |  99% |
 | **\*17** | Praise Iwuogaranya | The Church Mice (First @ Firewheel)   |    10 |    2 |      |  50% |
 |       18 | Molly Larroquin    | Acorns (The Oaks)                     |     0 |      |      |  33% |
-| **\*18** | Quizzer-3          | Saplings (The Oaks)                   |     0 |      |      |      |
-| **\*18** | Quizzer-3          | Little Bible Avengers (Harvest)       |     0 |      |      |      |
 | **\*18** | Elia Villa         | Trinity PeeWees (Trinity Church)      |     0 |      |      |      |
 | **\*18** | Noah Alva          | Trinity PeeWees (Trinity Church)      |     0 |      |      |      |
 | **\*18** | Ninja 2            | The Invisibles (Cloaked Church)       |     0 |      |      |      |

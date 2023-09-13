@@ -144,8 +144,7 @@ menubar_toc_static:
 |       16 | Nevaeh Watson   | The Ridge (The Ridge)       |    20 |    4 |      |  99% |
 |       17 | Leah Carlisle   | Change Point (Change Point) |    10 |    2 |      |  99% |
 | **\*17** | Kirsten Boyer   | The Ridge (The Ridge)       |    10 |    2 |      |  99% |
-|       18 | Quizzer-3       | Change Point (Change Point) |     0 |      |      |      |
-| **\*18** | Jackson Eckart  | The Ridge (The Ridge)       |     0 |      |      |      |
+|       18 | Jackson Eckart  | The Ridge (The Ridge)       |     0 |      |      |      |
 | **\*18** | Aidan Scissell  | McArthur B (McArthur)       |     0 |      |      |      |
 | **\*18** | Evie Herrin     | McArthur B (McArthur)       |     0 |      |      |      |
 
