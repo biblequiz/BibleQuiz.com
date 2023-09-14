@@ -88,7 +88,7 @@ menubar_toc_static:
 | ------: | -------------- | -------------------------------- | ----: | ---: | ---: | ---: |
 |       1 | Izlia Shepard  | Fletcher (Fletcher)              |   135 |   45 |      |  93% |
 |       2 | Leyla Vasquez  | Fletcher (Fletcher)              |    30 |   10 |      | 100% |
-| **\*2** | Braeden Darby  | Greensboro Blue (Calvary Church) |    30 |   10 |      |  61% |
+| **\*2** | Braedan Darby  | Greensboro Blue (Calvary Church) |    30 |   10 |      |  61% |
 | **\*2** | Ian McCollum   | Greensboro Blue (Calvary Church) |    30 |   10 |      |  50% |
 |       3 | Danielle Riego | Greensboro Blue (Calvary Church) |    10 |  3.3 |      |  99% |
 |       4 | Eden Asmelash  | Greensboro Blue (Calvary Church) |     0 |      |      |      |

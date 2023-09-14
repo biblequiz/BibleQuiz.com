@@ -56,7 +56,7 @@ menubar_toc_static:
 |       17 | Will Ross             | The Worship Center Assembly of God (Leesburg) SPY Kids (The Worship Center Assembly of God) |   350 |  38.9 |    4 |      |
 |       18 | Stephen Lococo        | Tanglewood Church of God (Kinston) #1 (Tanglewood Church of God)                            |   340 |  37.8 |      |      |
 |       19 | Miles Pierce          | The Defenders (Concord) (First Assembly of God)                                             |   275 |  30.6 |    1 |      |
-|       20 | Braeden Darby         | Calvary Church (Greensboro) - JBQ Skittles (Calvary Church Assemblies of God Fellowship)    |   270 |    30 |      |      |
+|       20 | Braedan Darby         | Calvary Church (Greensboro) - JBQ Skittles (Calvary Church Assemblies of God Fellowship)    |   270 |    30 |      |      |
 |       21 | Enoch Edwin           | Florida Wildcards! (Independent JBQ Group)                                                  |   265 |  29.4 |      |      |
 |       22 | Lydia Hill            | The Defenders (Concord) (First Assembly of God)                                             |   260 |  28.9 |      |      |
 | **\*22** | Jotham Edwin          | CICF Champions (Charlotte Indian Christian Fellowship (CICF))                               |   260 |  28.9 |      |      |
@@ -189,7 +189,7 @@ menubar_toc_static:
 |        3 | Waylon Moore      | Tanglewood Church of God (Kinston) #1 (Tanglewood Church of God)                         |   105 | 52.5 |    1 |      |
 |        4 | Allen Chamberlain | Florida Wildcards! (Independent JBQ Group)                                               |   105 | 52.5 |      |      |
 |        5 | Stephen Lococo    | Tanglewood Church of God (Kinston) #1 (Tanglewood Church of God)                         |    90 |   45 |      |      |
-|        6 | Braeden Darby     | Calvary Church (Greensboro) - JBQ Skittles (Calvary Church Assemblies of God Fellowship) |    60 |   30 |      |      |
+|        6 | Braedan Darby     | Calvary Church (Greensboro) - JBQ Skittles (Calvary Church Assemblies of God Fellowship) |    60 |   30 |      |      |
 |        7 | Enoch Edwin       | Florida Wildcards! (Independent JBQ Group)                                               |    45 | 22.5 |      |      |
 |        8 | Joey Bland        | Florida Wildcards! (Independent JBQ Group)                                               |    35 | 17.5 |      |      |
 |        9 | Caleb Johnston    | Tanglewood Church of God (Kinston) #1 (Tanglewood Church of God)                         |    20 |   10 |      |      |
