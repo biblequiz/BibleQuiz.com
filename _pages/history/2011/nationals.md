@@ -195,7 +195,7 @@ If possible, ties are broken by number of quiz-outs.
 |       17 | Makena Schrock      | Elkhart, IN                        |   925 | 48.68 |    5 |
 |       18 | Sam York            | Springfield, VA                    |   890 | 46.84 |   10 |
 |       19 | Josh Gallo          | Bellevue, WA                       |   880 | 46.32 |    4 |
-|       20 | Billy Laakkonen III | Lexington, KY                      |   865 | 45.53 |    8 |
+|       20 | Billy Laakkonen     | Lexington, KY                      |   865 | 45.53 |    8 |
 |       21 | Adi Purohith        | Bothell, WA                        |   855 |    45 |    9 |
 |       22 | Anna Rice           | Cumming, GA                        |   850 | 44.74 |    2 |
 |       23 | Daniel Notman       | Fort Lauderdale, FL                |   835 | 43.95 |    7 |

@@ -296,7 +296,7 @@ This question remains the same.
 ⚠️ = Not required, but optional  
 🚫 = Not allowed
 
-\*If the location portion of the introductory remarks states multiple books, chapters, or section titles, then the introductory remarks do not have to state "from separate verses."
+\* If the location portion of the introductory remarks states multiple books, chapters, or section titles, then the introductory remarks do not have to state "from separate verses."
 
 ---
 

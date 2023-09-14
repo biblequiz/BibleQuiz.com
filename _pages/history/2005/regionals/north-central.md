@@ -64,5 +64,5 @@ defeated Portage 35-5. Then in the second playoff match, Ottumwa defeated St. Cl
 |    7 | Miranda Habergerg | Eau Claire, WI   |   625 |  62.5 |
 |    8 | Stephanie Graham  | Cedar Rapids, IA |   535 |  53.5 |
 |    9 | Josh Turner       | Portage, WI      |   505 |  50.5 |
-|   10 | Bethany Lakkonen  | Superior, WI     |   455 |  45.5 |
+|   10 | Bethany Laakkonen | Superior, WI     |   455 |  45.5 |
 
