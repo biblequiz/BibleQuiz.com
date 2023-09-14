@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Teen Nationals Recap: Naperville, IL completes \"The Double\""
+title: "Teen Nationals Recap: Naperville, IL completes "The Double""
 author: Robert Carter
 date: "2021-07-01"
 tags: 

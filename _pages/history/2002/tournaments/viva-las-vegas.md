@@ -37,7 +37,7 @@ menubar_toc_static:
 |   17 | Faith A/G (B), Orlando, FL                       |    4 |   13 | 1,805 | 106.17 |
 |   18 | Calvary A/G, DeMotte, IN                         |    4 |   13 | 1,795 | 105.59 |
 
-\* Placement determined by playoff. All other positions after 4th where ties existed in win/loss records were determined by points.
+\* Placement determined by playoff. All other positions after 4th where ties existed in win/loss records were determined by points.
 
 ### Individuals
 
@@ -207,12 +207,12 @@ menubar_toc_static:
 ## Individual Competition
 
 1. Mary Pace
-2. Lydia Butay
+2. Lydia Butay
 3. Michael Pearson
 4. Peter Brown
 
 ## Adult One-on-One
 
 1. John Sullivan
-2. Kent Piacenti
+2. Kent Piacenti
 3. Richard Ely

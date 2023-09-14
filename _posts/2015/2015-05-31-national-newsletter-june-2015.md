@@ -64,24 +64,24 @@ Wild card: Cedar Hill, TX
 5. Bothell, WA Team 2
 
 **SOUTHWEST REGION**
-1. North Scottsdale, AZ Team 1
+1. North Scottsdale, AZ Team 1
 2. Phoenix, AZ
-3. North Scottsdale, AZ Team 2
+3. North Scottsdale, AZ Team 2
 4. Costa Mesa, CA
 
 **_REGIONAL CHAMPIONS_**
 Northeast: New Day AG, Upper St. Clair, PA\
 Southeast: Victorious Life Church, Wesley Chapel, FL\
 Great Lakes: First A/G, Lexington, KY
-Gulf: James River Church, Ozark, MO\
-North Central: Racine Assembly of God, Racine, WI\
+Gulf: James River Church, Ozark, MO\
+North Central: Racine Assembly of God, Racine, WI\
 South Central: Braeswood Assembly, Houston, TX\
 Northwest: Cedar Park AG, Bothell, WA\
-Southwest: North Scottsdale Christian, Scottsdale, AZ
+Southwest: North Scottsdale Christian, Scottsdale, AZ
 
 ### QUESTIONS AVALIABLE
 
-Pre-Nat # 1 questions are available now: [http://bit.ly/1JaSXwL](http://bit.ly/1JaSXwL)
+Pre-Nat # 1 questions are available now: [http://bit.ly/1JaSXwL](http://bit.ly/1JaSXwL)
 
 Pre-Nats # 2 questions will be released June 12 for teams not attending any tournament.
 
@@ -168,13 +168,13 @@ Contact Bernie Elliot at [ElliotBQ@aol.com](mailto:elliotbq@aol.com)
 
 _**ReACTion BQ CampAug 20-22, 2015**_
 
-Bethel A/G – Rapid City, SD\
+Bethel A/G – Rapid City, SD\
 Limited to 50 quizzers\
 Contact Denise & David Sullivan at [sullivan@rap.midco.net](mailto:sullivan@rap.midco.net)
 
 **_Great Lakes Region TBQ Camp_**\
 Aug 28-30, 2015\
-Pokagon State Park – Angola, IN\
+Pokagon State Park – Angola, IN\
 Something for quizzers at every level-even adults! Limited to 100 quizzers and 20 adults. Contact Julie Steel at [juliesteel@gmail.com](mailto:juliesteel@gmail.com)
 
 _**Northern New England Bible Quiz Retreat**_\
@@ -197,7 +197,7 @@ October 23-24, 2015\
 “A” Acts 1-9; Second division covering Acts 1-4; Newcomer division covering Acts 2 only\
 Contact Lori Sullivan [safkids@gmail.com](mailto:safkids@gmail.com)
 
-_**22nd Gobblefest BQ Tournament**_\
+_**22nd Gobblefest BQ Tournament**_\
 University of Valley Forge, PA, Nov 20-21, 2015\
 A League: Acts 1-13; Middle School: Acts 1-6 Limited to 48 teams (2 per church)\
 Contact Bernie Elliot at [ElliotBQ@aol.com](mailto:ElliotBQ@aol.com)

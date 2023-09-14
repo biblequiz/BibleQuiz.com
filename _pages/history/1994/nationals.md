@@ -54,8 +54,8 @@ The top scorer at the 1994 National Finals was Lisa Wootton of Bartlesville, OK.
 |   19 | First A/G, Belton, TX                         | 4 / 15 |  1670 |  87.89 |   -910 |     -47.89 |
 |   20 | Heights A/G, Billings, MT                     | 1 / 18 |  1015 |  53.42 |  -2250 |    -118.42 |
 
-\* Won 2nd Place Playoff
-\*\* Won 3rd Place Playoff
+\* Won 2nd Place Playoff
+\*\* Won 3rd Place Playoff
 
 ### Individuals
 

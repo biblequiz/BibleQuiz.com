@@ -11,10 +11,10 @@ published: true
 
 September is (already) here, which means it's time for another edition of the National Coaches' Newsletter.
 
- 
+ 
 
 <a href="{% link assets/2016/Sept.pdf %}" class="button is-primary">Download Now</a>
 
- 
+ 
 
 Start planning what tournaments you need to attend by visiting the [Competitions]({% link _pages/events/index.md %}) page on BibleQuiz.com.

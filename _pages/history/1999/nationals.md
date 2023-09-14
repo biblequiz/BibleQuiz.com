@@ -33,8 +33,8 @@ The top scorer at the 1999 National Finals was Kent Piacenti of Orange Hills A/G
 
 |    # | Team                                             | Record  | Total |    Avg | Margin | Avg Margin |
 | ---: | ------------------------------------------------ | ------- | ----: | -----: | -----: | ---------: |
-|    1 | Orange Hills A/G, Orange, CA                     | 23 / 0  |  6450 | 280.44 |   5605 |      243.7 |
-|    2 | Christian Chapel A/G, Tulsa, OK                  | 17 / 6  |  3105 |    135 |   1670 |      72.61 |
+|    1 | Orange Hills A/G, Orange, CA                     | 23 / 0  |  6450 | 280.44 |   5605 |      243.7 |
+|    2 | Christian Chapel A/G, Tulsa, OK                  | 17 / 6  |  3105 |    135 |   1670 |      72.61 |
 |    3 | Grace A/G, Syracuse, NY                          | 17 / 6  |  2580 | 112.17 |    940 |      40.87 |
 |    4 | Mountain View A/G, Las Vegas, NV                 | 17 / 6  |  3100 | 134.78 |   1420 |      61.74 |
 |    5 | Allison Park A/G, Allison Park, PA               | 16 / 7  |  2730 |  118.7 |   1140 |      49.57 |

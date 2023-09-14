@@ -26,6 +26,6 @@ Acts 7:49–50 Heaven is my throne, and the earth is my footstool. What kind of 
 
 Acts 13 Bar-Jesus and Elymas are considered two different individuals. _(This information came from the National Bible Quiz Coordinator)_
 
- 
+ 
 
 Did you spot an error we missed? Have a question? Drop a comment below!

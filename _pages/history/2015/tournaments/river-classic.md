@@ -46,7 +46,7 @@ menubar_toc_static:
 |    1 | Abby Rogers         | Speed and Finality         | Cedar Park Church              |  2055 | 137.00 |   14 |
 |    2 | Kelsey Cruz         | Newport Mesa               | Newport Mesa Church            |  1560 | 104.00 |   12 |
 |    3 | Damon Comfort       | BNC                        | Bellevue Neighborhood Church   |  1475 |  98.33 |   12 |
-|    4 | JoeLemley           | Fear The Sword             | New Day                        |  1470 |  98.00 |   13 |
+|    4 | Joe Lemley          | Fear The Sword             | New Day                        |  1470 |  98.00 |   13 |
 |    5 | Jonathan Brown      | Fear The Sword             | New Day                        |  1430 |  95.33 |   11 |
 |    6 | Daniel Quick        | On Fire                    | James River Church             |  1400 |  93.33 |   11 |
 |    7 | Spenser Wilhelm     | Bethel A/G                 | Bethel Assembly Of God         |  1335 |  89.00 |   11 |

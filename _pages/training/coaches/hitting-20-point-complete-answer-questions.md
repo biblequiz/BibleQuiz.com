@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /training/coaches/hitting-20-point-complete-answer-questions/
-title: "Hitting 20 point \"complete answer\" questions"
+title: "Hitting 20 point "complete answer" questions"
 date: "2016-05-02"
 ---
 

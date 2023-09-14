@@ -74,7 +74,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 |       13 | Brooke Whitford     | West Lafayette IN |  1210 |  63.68 |      6 |     4 |
 |       14 | Michael Pearson     | Dallas TX         |  1210 |  63.68 |      5 |     8 |
 |       15 | Mariana Shenoda     | Orange Hills CA   |  1150 |  60.53 |      9 |     1 |
-|       16 | C J Barna           | Bethel Park PA    |  1085 |  57.11 |      6 |     5 |
+|       16 | C.J. Barna          | Bethel Park PA    |  1085 |  57.11 |      6 |     5 |
 |       17 | Sara Sobkowiak      | Fort Myers FL     |  1080 |  56.84 |      4 |     7 |
 |       18 | April Pryor         | Fort Worth TX     |  1030 |  54.21 |      5 |    10 |
 |       19 | Cara Rozgonyi       | Monroeville PA    |  1015 |  53.42 |      5 |     1 |

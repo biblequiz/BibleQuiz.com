@@ -2139,28 +2139,28 @@ Photos are provided courtesy of Larry Mullins.
 |    2 | John Angelis     | Great Lakes, Good Quizzers      |   720 |      |
 |    3 | Richard Ely      | Yes, Yes and No, No             |   615 |      |
 |    4 | Sharon Ely       | Yes, Yes and No, No             |   475 |      |
-|    5 | Jimmy Sedam      | Furious Storm                   |   475 |      |
+|    5 | Jimmy Sedam      | Furious Storm                   |   475 |      |
 |    6 | Mark Connor      | Lord, Save Us                   |   405 |      |
 |    7 | Gilda Shorter    | Lord, Save Us                   |   400 |      |
 |    8 | Mark Whitehead   | Great Lakes, Good Quizzers      |   390 |      |
 |    9 | Jeremy White     | Strained Gnats                  |   390 |      |
 |   10 | Dave Richmond    | The Good, the Bad, and the Ugly |   350 |      |
-|   11 | Emeka Kanu       | Marvelous in Our Eyes           |   300 |      |
+|   11 | Emeka Kanu       | Marvelous in Our Eyes           |   300 |      |
 |   12 | Zachary Sullivan | Marvelous in Our Eyes           |   255 |      |
-|   13 | Dayla Shorter    | Lord, Save Us                   |   210 |      |
+|   13 | Dayla Shorter    | Lord, Save Us                   |   210 |      |
 |   14 | Aaron Kohler     | The Good, the Bad, and the Ugly |   205 |      |
 |   15 | Matthew Teal     | Furious Storm                   |   205 |      |
-|   16 | Charles Ragains  | Wehttam                         |   190 |      |
-|   17 | Katie Chenco     | The Good, the Bad, and the Ugly |   190 |      |
+|   16 | Charles Ragains  | Wehttam                         |   190 |      |
+|   17 | Katie Chenco     | The Good, the Bad, and the Ugly |   190 |      |
 |   18 | Janet Fukuda     | Yes, Yes and No, No             |   165 |      |
-|   19 | Krista Buckel    | Strained Gnats                  |   110 |      |
+|   19 | Krista Buckel    | Strained Gnats                  |   110 |      |
 |   20 | Jody Osborne     | Wehttam                         |   110 |      |
-|   21 | Bethany Brodbeck | Furious Storm                   |    65 |      |
-|   22 | Bill Reinig      | Strained Gnats                  |    15 |      |
+|   21 | Bethany Brodbeck | Furious Storm                   |    65 |      |
+|   22 | Bill Reinig      | Strained Gnats                  |    15 |      |
 |   23 | Jenny Thompson   | Furious Storm                   |    10 |      |
-|   24 | Sandy Ragains    | Wehttam                         |     5 |      |
-|   25 | Jessie Galliers  | Strained Gnats                  |     0 |      |
-|   26 | Bobbie Ragains   | Wehttam                         |     0 |      |
+|   24 | Sandy Ragains    | Wehttam                         |     5 |      |
+|   25 | Jessie Galliers  | Strained Gnats                  |     0 |      |
+|   26 | Bobbie Ragains   | Wehttam                         |     0 |      |
 |   27 | Paul Kramer      | Marvelous in Our Eyes           |     0 |      |
 |   28 | Carolyn Ely      | Yes, Yes and No, No             |   -15 |      |
 
@@ -2182,24 +2182,24 @@ Photos are provided courtesy of Larry Mullins.
 
 |    # | Quizzer           | Team                | Total |   QO |
 | ---: | ----------------- | ------------------- | ----: | ---: |
-|    1 | Deanna Reisinger  | Today's Trouble     |   535 |      |
+|    1 | Deanna Reisinger  | Today's Trouble     |   535 |      |
 |    2 | Jeff Meyer        | Giving to the Needy |   455 |      |
 |    3 | Don Jones         | Moth and Rust       |   430 |      |
 |    4 | Kate Green        | Birdsboro           |   410 |      |
 |    5 | Beth Abbot        | Moth and Rust       |   385 |      |
-|    6 | John Nardozzi     | The Merciful        |   330 |    3 |
-|    7 | Penny Frownfelter | Good Fruit          |   330 |    2 |
+|    6 | John Nardozzi     | The Merciful        |   330 |    3 |
+|    7 | Penny Frownfelter | Good Fruit          |   330 |    2 |
 |    8 | Sue Green         | The Merciful        |   320 |      |
 |    9 | Becky Richmond    | The Salty Seekers   |   190 |      |
 |   10 | Angie Miller      | Good Fruit          |   185 |      |
-|   11 | Elaine Laine      | Today's Trouble     |   135 |      |
-|   12 | Rick Reisinger    | Today's Trouble     |   135 |      |
-|   13 | Bill Laakkonen    | Giving to the Needy |   105 |      |
+|   11 | Elaine Laine      | Today's Trouble     |   135 |      |
+|   12 | Rick Reisinger    | Today's Trouble     |   135 |      |
+|   13 | Bill Laakkonen    | Giving to the Needy |   105 |      |
 |   14 | Sam Fain          | The Salty Seekers   |    60 |      |
 |   15 | Jill Beal         | Birdsboro           |    40 |      |
 |   16 | Steve Beal        | Birdsboro           |    30 |      |
 |   17 | Steve Sharkey     | Giving to the Needy |    15 |      |
-|   18 | Mayrene Hertzler  | Good Fruit          |     5 |      |
+|   18 | Mayrene Hertzler  | Good Fruit          |     5 |      |
 |   19 | Bonnie Inman      | The Salty Seekers   |     0 |      |
-|   20 | Rose Gainey       | The Merciful        |     0 |      |
-|   21 | Anne Shawver      | The Merciful        |     0 |      |
+|   20 | Rose Gainey       | The Merciful        |     0 |      |
+|   21 | Anne Shawver      | The Merciful        |     0 |      |

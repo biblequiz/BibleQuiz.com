@@ -8,7 +8,7 @@ categories:
 published: true
 ---
 
-Who's ready for <del>Christmas</del> Thanksgiving!
+Who's ready for <del>Christmas</del> Thanksgiving!
 
 This month's topics include:
 

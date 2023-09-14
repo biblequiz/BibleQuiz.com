@@ -9,7 +9,7 @@ image: "pexels-photo-28446-large.jpg"
 published: true
 ---
 
-[Go here]({% link assets/2016/May-2016.pdf %}) to download the May edition of the Bible Quiz Coaches' Newsletter.
+[Go here]({% link assets/2016/May-2016.pdf %}) to download the May edition of the Bible Quiz Coaches' Newsletter.
 
 ### Regionals At A Glance
 

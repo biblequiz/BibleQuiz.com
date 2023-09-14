@@ -57,7 +57,7 @@ Central A/G (1), Springfield, MO, another perennial National finalist, won third
 |   22 | First A/G, Oskaloosa, IA                | 5 / 17  |  1535 |  69.77 |  -1670 |     -75.91 |
 |   23 | Capitol Hill A/G, Oklahoma City, OK     | 5 / 17  |  1885 |  85.68 |  -1045 |      -47.5 |
 
-\* Won 3rd Place Playoff
+\* Won 3rd Place Playoff
 
 ### Individuals
 

@@ -33,7 +33,7 @@ This tourney consisted of twelve teams that would quiz an 11 match round-robin i
 |    # | Quizzer            | Team                          | Total |
 | ---: | ------------------ | ----------------------------- | ----: |
 |    1 | Caleb Booth        | Tulsa Christian Chapel        |  1565 |
-|    2 | Andre` Rodriguez   | Auburn Hills Christian Center |  1180 |
+|    2 | Andre Rodriguez    | Auburn Hills Christian Center |  1180 |
 |    3 | David W. Onelsdorf | Trinity Church #1             |   885 |
 |    4 | Sterling Johnson   | Trinity Church #1             |   880 |
 |    5 | Jeremy Hix         | Trinity Church #2             |   815 |

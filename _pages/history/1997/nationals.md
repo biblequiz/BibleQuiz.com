@@ -60,8 +60,8 @@ Jeremy Horn won the scholarship quiz at the banquet. Participants in the quiz in
 |   23 | First A/G, Fort Myers, FL (Team 2)   | 4 / 19  |  1450 |  63.04 |  -2455 |    -106.74 |
 |   24 | First A/G, Warner Robbins, GA        | 2 / 21  |  1235 |   53.7 |  -2245 |     -97.61 |
 
-\* Won 2nd Place Playoff
-\*\* Won 3rd Place Playoff
+\* Won 2nd Place Playoff
+\*\* Won 3rd Place Playoff
 
 ### Individuals
 

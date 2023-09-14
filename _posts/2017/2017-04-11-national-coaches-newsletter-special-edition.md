@@ -16,7 +16,7 @@ If you plan on attending National Finals this year, then you **need** to read th
 
 Key information about hotel accommodations, registration, scholarships, and more are contained, so be sure to read through it all.
 
- 
+ 
 
 You can quickly subscribe to the National Coaches' Newsletter by visiting BibleQuiz.com/subscribe.
 

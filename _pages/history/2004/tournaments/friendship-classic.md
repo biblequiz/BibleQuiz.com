@@ -50,7 +50,7 @@ menubar_toc_static:
 |    6 | Brian Lewis         | Calvary Temple, Indianapolis, IN  |    87 |    9 |
 |    7 | Jon Galliers        | First A/G, Lexington, KY          |    86 |    8 |
 |    8 | Gina Fortunato      | Calvary A/G, Dunwoody, GA         |    83 |    9 |
-|    9 | C.J.Barna           | South Hills A/G, Bethel Park, PA  |    80 |    6 |
+|    9 | C.J. Barna          | South Hills A/G, Bethel Park, PA  |    80 |    6 |
 |   10 | Michelle Hart       | Faith A/G, Orlando, FL            |    77 |    5 |
 |   11 | Eddy Ferreia        | Calvary A/G, Dunwoody, GA         |    76 |    9 |
 |   12 | Brooke Whitford     | Bethel A/G, West Lafayette, IN    |    72 |    5 |

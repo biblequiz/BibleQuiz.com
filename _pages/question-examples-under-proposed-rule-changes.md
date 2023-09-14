@@ -14,8 +14,8 @@ Here's a before-and-after for a multiple-part question from the same chapter.
 
 > **20 points. 2-part reference question. From First Peter chapter 1.**  
 **What** will be revealed, and **who** will be revealed?  
-\[1P 1:5\]      the salvation that is ready to be revealed in the last time.  
-\[1P 1:13\]    Jesus Christ 
+\[1P 1:5\]      the salvation that is ready to be revealed in the last time.  
+\[1P 1:13\]    Jesus Christ 
 
 > **20 points. 2-part question. From separate verses of First Peter chapter 1.**  
 **What** will be revealed, and **who** will be revealed?
@@ -37,7 +37,7 @@ If the introductory remarks specify multiple chapters, you may not hear "From se
 > **20 points. 2-part question. Give a complete answer from 2 consecutive verses. From First Peter chapter 2.**  
 Like newborn babies, what should you do, and why?
 
-> **20 points. 2-part question. Give a complete answer. From 2 consecutive verses of First Peter chapter 2.**  
+> **20 points. 2-part question. Give a complete answer. From 2 consecutive verses of First Peter chapter 2.**  
 Like newborn babies, what should you do, and why?
 
 ---
@@ -52,8 +52,8 @@ Give all Enoch's words.
 
 > **20 points. Give 3 complete answers. From Hebrews chapter 3.**  
 According to separate verses, hold firmly to what?  
-\[H 3:6\]       if indeed we hold firmly to our confidence and the hope in which we glory.  
-\[H 3:14\]     We have come to share in Christ, if indeed we hold our original conviction firmly to the very end.  
+\[H 3:6\]       if indeed we hold firmly to our confidence and the hope in which we glory.  
+\[H 3:14\]     We have come to share in Christ, if indeed we hold our original conviction firmly to the very end.  
 
 > **20 points. Give 3 complete answers. From 2 separate verses of Hebrews chapter 3.**  
 Hold firmly to what?
@@ -247,8 +247,8 @@ What and whom are described as being, quote, "of Christ"?
 
 > **20 points. 3-Part answer. From Hebrews.**  
 Who were persecuted?  
-\[H 10:33\]   Sometimes you (Hebrews) were publicly exposed to insult and persecution; at other times you stood side by side with those who were so treated.  
-\[H 11:37\]   They (the faithful) were put to death by stoning; they were sawed in two; they were killed by the sword. They went about in sheepskins and goatskins, destitute, persecuted and mistreated—
+\[H 10:33\]   Sometimes you (Hebrews) were publicly exposed to insult and persecution; at other times you stood side by side with those who were so treated.  
+\[H 11:37\]   They (the faithful) were put to death by stoning; they were sawed in two; they were killed by the sword. They went about in sheepskins and goatskins, destitute, persecuted and mistreated—
 
 > **20 points. 3-Part answer. From separate verses of Hebrews.**  
 Who were persecuted?

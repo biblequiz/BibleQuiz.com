@@ -23,18 +23,18 @@ You get the picture.
 
 Created to help quizzers better finish questions, the Reference Question, in theory, indicates that each question will come from a separate verse. In practice, however, it has been used to indicate that the answers come from more than one verse rather than the questions. Take a look at the following example:
 
-> **20 points. Two-part reference question. Seven-part chapter analysis answer**.  
+> **20 points. Two-part reference question. Seven-part chapter analysis answer**.  
 > Matthew chapter 14 names which individuals and mentions which geographical location?
 > 
 > Individuals  
-> 14:1+    Herod  
-> 14:1+    Jesus  
-> 14:2+    John (the Baptist)  
-> 14:3      Herodias  
-> 14:3      Philip  
-> 14:28+  Peter  
+> 14:1+    Herod  
+> 14:1+    Jesus  
+> 14:2+    John (the Baptist)  
+> 14:3      Herodias  
+> 14:3      Philip  
+> 14:28+  Peter  
 > Geographical Location  
-> 14:34    Gennesaret
+> 14:34    Gennesaret
 
 Do the questions come from separate verses? Not really. The questions themselves aren't coming from any specific verses at all. These are general questions about the chapter. The answers, however, clearly come from separate verses. So, why is this a reference question? _Exactly_. And therein lies the problem.
 
@@ -52,21 +52,21 @@ The location introductory remarks now have the ability to tell you where the ans
 
 Take a look at the following example:
 
-> **20 points. Two-part question. Four-part answer. From separate verses of Matthew.**  
+> **20 points. Two-part question. Four-part answer. From separate verses of Matthew.**  
 > What was mixed with what?
 > 
-> 13:33    ...“The kingdom of heaven is like yeast that a woman took and mixed into about sixty pounds of flour until it worked all through the dough.”  
-> 27:34    There they offered Jesus wine to drink, mixed with gall
+> 13:33    ...“The kingdom of heaven is like yeast that a woman took and mixed into about sixty pounds of flour until it worked all through the dough.”  
+> 27:34    There they offered Jesus wine to drink, mixed with gall
 
 The quizzer now knows to look for two questions with four answers and to look in separate verses of Matthew for those four answers--almost exactly the same information they would have had under the old reference question rules.
 
 And since not every question requiring multiple verses will come from non-consecutive verses, questions will also indicate if the answers come from consecutive verses, as in the following example:
 
-> **20 points. Two-part question. Four-part answer. From consecutive verses of the section titled “The Destruction of the Temple and Signs of the End Times.”**  
+> **20 points. Two-part question. Four-part answer. From consecutive verses of the section titled “The Destruction of the Temple and Signs of the End Times.”**  
 > What will and will not pass away?
 > 
-> 24:34    Truly I tell you, this generation will certainly not pass away until all these things have happened.  
-> 24:35    Heaven and earth will pass away, but my words will never pass away.
+> 24:34    Truly I tell you, this generation will certainly not pass away until all these things have happened.  
+> 24:35    Heaven and earth will pass away, but my words will never pass away.
 
 The quizzer now knows to look for two questions with four answers and to look in _consecutive_ verses of the particular section for those four answers.
 

@@ -98,7 +98,7 @@ menubar_toc_static:
 |       13 | Zachary Thomas         | Christ Avengers (Georgia Christian Assembly Church of God) |    35 |  11.7 |      |  75% |
 |       14 | Jonathan Hughey        | Mountain West (Mountain West)                              |     0 |       |      |  50% |
 | **\*14** | Kylie Surface          | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
-| **\*14** | LiviaTate              | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
+| **\*14** | Livia Tate             | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
 | **\*14** | Katlyn Dooley          | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
 | **\*14** | Joshua Abraham         | Believers (Atlanta Tamil Church)                           |     0 |       |      |      |
 
