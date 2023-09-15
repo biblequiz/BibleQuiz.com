@@ -46,6 +46,7 @@ menubar_toc_static:
 |    9 | Matthew Alfaro    | Highpointe            | Highpointe              |       |      0 |      |
 |    9 | Adrian Davis      | Highpointe            | Highpointe              |       |      0 |      |
 |   10 | Ryley Nutt        | Muskogee A Team       | Muskokee First Assembly |   -15 |  -3.75 |      |
+
 ## B League
 
 ### Teams
