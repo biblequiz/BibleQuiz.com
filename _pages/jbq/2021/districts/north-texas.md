@@ -87,9 +87,9 @@ menubar_toc_static:
 |        5 | Chika Iwuogaranya   | Bible Searchers (First @ Firewheel)       |   715 | 59.6 |    8 |  90% |
 |        6 | Ntalie Linton       | Alpha and Omega (Dripping Springs UMC)    |   630 | 52.5 |    1 |  92% |
 |        7 | Dozie Osuagwu       | Bible Searchers (First @ Firewheel)       |   615 | 51.3 |    2 |  73% |
-|        8 | Michael Zell        | Kingdom Explorers (Mountain Creek Church) |   520 | 43.3 |    4 |  69% |
+|        8 | Michael Zeli        | Kingdom Explorers (Mountain Creek Church) |   520 | 43.3 |    4 |  69% |
 |        9 | Raegan Wirth        | Quizzers for God (The Oaks Fellowship)    |   470 | 39.2 |    1 |  84% |
-|       10 | David Zell          | Kingdom Explorers (Mountain Creek Church) |   445 | 37.1 |    3 |  81% |
+|       10 | David Zeli          | Kingdom Explorers (Mountain Creek Church) |   445 | 37.1 |    3 |  81% |
 |       11 | Isabella Berlinskiy | Encouter Church #1 (The Encouter Church)  |   425 | 35.4 |      |  81% |
 |       12 | Ariella Fortygin    | Encouter Church #1 (The Encouter Church)  |   405 | 33.8 |    2 |  90% |
 |       13 | Rachel Linton       | Alpha and Omega (Dripping Springs UMC)    |   330 | 27.5 |      |  94% |
