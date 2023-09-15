@@ -112,7 +112,7 @@ menubar_toc_static:
 |        4 | Dylan Powell      | Beast Bible Boyz (Life Church (603))          |   425 |  70.8 |    1 |  77% |
 |        5 | Luke Thompson     | The Buzzer Boys (LIFE Church AG (303))        |   365 |  60.8 |    2 |  86% |
 |        6 | Salem Addis       | Without Brothers (Life Church (604))          |   330 |    55 |    2 |  92% |
-|        7 | Marcus Goss Jr.   | Gospel Warriors (City Church (105) )          |   320 |  53.3 |      |  71% |
+|        7 | Marcus Goss, Jr.  | Gospel Warriors (City Church (105) )          |   320 |  53.3 |      |  71% |
 |        8 | Cheyene Puckett   | Team 2 -Victory Church (Victory Church (607)) |   295 |  49.2 |    2 |  84% |
 |        9 | Logan Godfrey     | Ultimate JBQ Lions (Faith AG Orlando(102))    |   245 |  40.8 |    1 |  89% |
 |       10 | Gavin Harrop      | Gospel Warriors (City Church (105) )          |   240 |    40 |    3 |  80% |
@@ -131,7 +131,7 @@ menubar_toc_static:
 |       22 | Grace Walker      | Without Brothers (Life Church (604))          |    10 |   1.7 |      |  99% |
 |       23 | Marley Walker     | Beast Bible Boyz (Life Church (603))          |     5 |    .8 |      |  50% |
 | **\*23** | Logan Cook        | Team 2 -Victory Church (Victory Church (607)) |     5 |    .8 |      |  50% |
-| **\*23** | Widly Jr.         | Buzzer Genius (Christian Life Center (402))   |     5 |    .8 |      |  50% |
+| **\*23** | Widly Eltine      | Buzzer Genius (Christian Life Center (402))   |     5 |    .8 |      |  50% |
 | **\*23** | Hannah Place      | Without Brothers (Life Church (604))          |     5 |    .8 |      |  50% |
 |       24 | Jacob Agnes       | Beast Bible Boyz (Life Church (603))          |     0 |       |      |      |
 | **\*24** | Alexander Aponte  | Gospel Warriors (City Church (105) )          |     0 |       |      |      |

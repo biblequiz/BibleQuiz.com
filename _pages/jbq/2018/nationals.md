@@ -210,7 +210,7 @@ menubar_toc_static:
 | **\*54** | Ethan Paredes       | SCC Truth Seekers (Shreveport-LA)                     |    30 |     2 |      |  67% |
 |       55 | Josiah Riverson     | WoL Swordbearers (Springfield-VA)                     |    25 |   1.7 |      |  57% |
 | **\*55** | Davaney McSwain     | Lake Wylie Coyotes (Lake Wylie-SC)                    |    25 |   1.7 |      |  50% |
-|       56 | Terrill Walls Jr    | Lake Wylie Coyotes (Lake Wylie-SC)                    |    15 |     1 |      | 100% |
+|       56 | Terrill Walls, Jr.  | Lake Wylie Coyotes (Lake Wylie-SC)                    |    15 |     1 |      | 100% |
 | **\*56** | Aseda Essandoh      | Radiant Quizzers (Dublin-OH)                          |    15 |     1 |      |  66% |
 |       57 | Hayden Wright       | Victory Boyz (Lakeland-FL)                            |    10 |    .7 |      |  99% |
 | **\*57** | Konyinsola Sofowora | Radiant Quizzers (Dublin-OH)                          |    10 |    .7 |      |  99% |
@@ -511,7 +511,7 @@ menubar_toc_static:
 |       38 | Andrea Mason        | Gushers (Bristow-VA)                    |   310 |  20.7 |      |  76% |
 | **\*38** | Randi Goodwin       | Bethel A/G (Askewville-NC)              |   310 |  20.7 |      |  62% |
 |       39 | Micah Warren        | Carmel Crusaders (Bonifay-FL)           |   295 |  19.7 |    2 |  69% |
-|       40 | Brady WOmble        | Carmel Crusaders (Bonifay-FL)           |   280 |  18.7 |      |  88% |
+|       40 | Brady Womble        | Carmel Crusaders (Bonifay-FL)           |   280 |  18.7 |      |  88% |
 |       41 | Samuel Joshua       | Armor of God (Metuchen-NJ)              |   275 |  18.3 |    1 |  83% |
 |       42 | Pierce Stevens      | Naperville (S) (Naperville-IL)          |   270 |    18 |      |  75% |
 |       43 | Judah Guntle        | Avengers (Hamburg-PA)                   |   250 |  16.7 |    1 |  93% |
@@ -1051,7 +1051,7 @@ menubar_toc_static:
 |       30 | Tegan Crowley          | Avengers (Hamburg-PA)                |   195 |  21.7 |      |  87% |
 |       31 | Gracie Bland           | The Avengers of JBQ (Orlando-FL)     |   190 |  21.1 |      | 100% |
 |       32 | Luke Odle              | Webster Odlebury's (Webster-NY)      |   160 |  17.8 |      |  71% |
-|       33 | Brady WOmble           | Carmel Crusaders (Bonifay-FL)        |   130 |  14.4 |      | 100% |
+|       33 | Brady Womble           | Carmel Crusaders (Bonifay-FL)        |   130 |  14.4 |      | 100% |
 |       34 | Quinton Zepp           | Carmel Crusaders (Bonifay-FL)        |   100 |  11.1 |      |  72% |
 |       35 | Joshua Gunasingh       | Anointed Ones (Marietta-GA)          |    80 |   8.9 |      |  82% |
 |       36 | Judah Guntle           | Avengers (Hamburg-PA)                |    70 |   7.8 |      | 100% |
@@ -1142,7 +1142,7 @@ menubar_toc_static:
 | **\*36** | Lennen Juarez       | Quiz Avengers (North Little Rock-AR) |     0 |       |      |      |
 | **\*36** | Madison Woodbury    | Lake Wylie Coyotes (Lake Wylie-SC)   |     0 |       |      |      |
 | **\*36** | Hailey Woodbury     | Lake Wylie Coyotes (Lake Wylie-SC)   |     0 |       |      |      |
-| **\*36** | Terrill Walls Jr    | Lake Wylie Coyotes (Lake Wylie-SC)   |     0 |       |      |      |
+| **\*36** | Terrill Walls, Jr.  | Lake Wylie Coyotes (Lake Wylie-SC)   |     0 |       |      |      |
 | **\*36** | Zane Smaaladen      | God's Gang (Fargo-ND)                |     0 |       |      |      |
 | **\*36** | Aliyah Morais       | CIA Special Agents (Mendon-MA)       |     0 |       |      |      |
 | **\*36** | Katelynn Do         | 4K (Montgomery-AL)                   |     0 |       |      |      |

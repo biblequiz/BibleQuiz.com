@@ -83,7 +83,7 @@ menubar_toc_static:
 |    6 | Jennifer Wells    | Mountain Top |   340 |    2 |
 |    7 | Jacob Schwalm     | Lebanon      |   320 |    2 |
 |    8 | Joshua Hummel     | Lebanon      |   280 |    3 |
-|    9 | Johnny Langel     | Newport      |   280 |    1 |
+|    9 | John Langel       | Newport      |   280 |    1 |
 |   10 | Elizabeth Sikes   | Bridgeville  |   230 |    1 |
 |   11 | Hannah Sproull    | Newport      |   225 |    1 |
 |   12 | Callie Weitzel    | Lebanon      |   200 |    0 |

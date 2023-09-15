@@ -42,7 +42,7 @@ The top quizzer at the 1980 National Finals was Billy Muniz (pictured) of Calvar
 | 7   | Bethel Temple A/G, Tampa, FL      | 2 / 5  | 915   | 130.71 | -270   | -38.57     |
 | 8   | College Heights A/G, Bryan, TX    | 1 / 6  | 855   | 122.14 | -420   | -60        |
 
-\* Won 1st Place Playoff
+\* Won 1st Place Playoff
 
 ### Individuals
 

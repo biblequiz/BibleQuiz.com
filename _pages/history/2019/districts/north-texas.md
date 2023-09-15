@@ -44,7 +44,7 @@ menubar_toc_static:
 |       12 | James Birungi       | God's Co-workers    |    30 |  3.8 |      | 100% |
 | **\*12** | Ndubueze Echefu     | Eyes on the Unseen  |    30 |  3.8 |      |  67% |
 |       13 | Esther Birungi      | God's Co-workers    |    25 |  3.1 |      |  50% |
-|       14 | DaniyyEl Gonzalez   | Eyes on the Unseen  |    10 |  1.3 |      |  50% |
+|       14 | Daniyy'El Gonzalez  | Eyes on the Unseen  |    10 |  1.3 |      |  50% |
 |       15 | Esperance Ngira     | God's Co-workers    |     0 |      |      |  33% |
 | **\*15** | Alex Hernandez      | Dancing River Goats |     0 |      |      |      |
 | **\*15** | Gabe Lapusan        | Thank God for Us    |     0 |      |      |      |

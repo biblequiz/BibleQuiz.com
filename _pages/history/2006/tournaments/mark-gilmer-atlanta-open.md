@@ -181,7 +181,7 @@ Division II scores only.
 |    7 | Kriaten Coleman    | Lexington, KY #3 |    70 |
 |    8 | Rachel Melcher     | Lexington, KY #3 |    55 |
 |    9 | Andy Kauffman      | Centerville, GA  |    50 |
-|   10 | Danny OBrien      | Lexington, KY #3 |    40 |
+|   10 | Danny O'Brien      | Lexington, KY #3 |    40 |
 |   10 | Kaitlyn Gambrell   | Fountain Inn, SC |    40 |
 |   10 | Ronnie Adams       | Dahlonega, GA    |    40 |
 

@@ -97,7 +97,7 @@ menubar_toc_static:
 |       27 | Carter Bruckhart      | Flamez of Fire (Ephrata Community Church)                         |    85 |   8.5 |      |  90% |
 |       28 | Kimberly Earl         | Daughters Forevermore (Ephrata Community Church)                  |    75 |   7.5 |      |  78% |
 |       29 | Abby Harnish          | Daughters Forevermore (Ephrata Community Church)                  |    65 |   6.5 |      |  78% |
-|       30 | John Stauffer Jr.     | Strengthened by Grace (ECC) (Ephrata Community Church)            |    45 |   4.5 |      |  67% |
+|       30 | John Stauffer, Jr.    | Strengthened by Grace (ECC) (Ephrata Community Church)            |    45 |   4.5 |      |  67% |
 |       31 | Jacob Tuminaro        | Ministering Spirits (Trinity Church, Hockessin, DE)               |    20 |     2 |      | 100% |
 | **\*31** | Kirabella Masterjohn  | Strengthened by Grace (ST) (State College A/G, State College, PA) |    20 |     2 |      |  99% |
 | **\*31** | Jaryn Miller          | Flesh and Blood (Hamlin A/G, Lake Ariel, PA)                      |    20 |     2 |      |  99% |

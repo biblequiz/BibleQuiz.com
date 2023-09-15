@@ -9,7 +9,7 @@ image: "January.jpg"
 published: true
 ---
 
-Here is the January 2018 edition of the National Bible Quiz Newsletter.
+Here is the January 2018 edition of the National Bible Quiz Newsletter.
 
 <a href="{% link assets/2018/Jan-2018.pdf %}" class="button is-primary">Download Now</a>
 

@@ -37,4 +37,4 @@ menubar_toc_static:
 |    7 | Daron Williford   | Rockwood Park |       |
 |    8 | Andy Hainey       | Rockwood Park |       |
 |    9 | David Wolmansdorf | Trinity       |       |
-|   10 | Joshua VanHorn    | Harvest       |       |
+|   10 | Joshua Van Horn   | Harvest       |       |

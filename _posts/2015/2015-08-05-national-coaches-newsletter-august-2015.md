@@ -21,4 +21,4 @@ In this edition of the National Coaches' Newsletter:
 
 \[dg ids="145"\]
 
-_Windows: You will need [Adobe Acrobat Reader DC](https://get.adobe.com/reader/) to view the document._ _OS X: Use the Preview app._
+_Windows: You will need [Adobe Acrobat Reader DC](https://get.adobe.com/reader/) to view the document._ _OS X: Use the Preview app._

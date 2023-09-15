@@ -108,7 +108,7 @@ menubar_toc_static:
 |    9 | Osi Nwogu         | Bible Olympians       | Braeswood A/G  |   330 |    33 |    2 |
 |   10 | Grace Smith       | Pure in Heart         | Noble          |   305 |  30.5 |    2 |
 |   11 | Taylor Ellis      | Jesus Freaks          | Braeswood A/G  |   190 |    19 |    1 |
-|   11 | Jose Lopez Jr.    | Bible Olympians       | Braeswood A/G  |   190 |    19 |    1 |
+|   11 | Jose Lopez        | Bible Olympians       | Braeswood A/G  |   190 |    19 |    1 |
 |   12 | Izzy Lashley-Bobb | Czech Tech            | Muskogee First |   170 |    17 |    1 |
 |   13 | Matt Rangle       | GENES                 | Owasso First   |    90 |     9 |    1 |
 |   14 | Alexis Glover     | GENES                 | Owasso First   |    80 |     8 |      |

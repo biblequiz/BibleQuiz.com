@@ -59,7 +59,7 @@ menubar_toc_static:
 |   20 | James Blount       | GT Church (Tinton Falls, NJ)                      |    75 |   8.3 |      |  80% |      |    2 |    6 |
 |   21 | Michael Faleska    | Living Hope #1 (Swedesboro)                       |    70 |   7.8 |      |  67% |      |    3 |    3 |
 | /*21 | Luke Anderson      | Resurgence Church #2 (Mastic, NY)                 |    70 |   7.8 |      |  58% |    1 |    1 |    9 |
-|   22 | Corey Ott Jr.      | GT Church (Tinton Falls, NJ)                      |    10 |   1.1 |      |  99% |      |      |    1 |
+|   22 | Corey Ott, Jr.     | GT Church (Tinton Falls, NJ)                      |    10 |   1.1 |      |  99% |      |      |    1 |
 |   23 | Leunam Guzman      | Resurgence Church #1 (Mastic, NY)                 |     5 |   0.6 |      |  48% |      |      |   12 |
 |   24 | Gabriel Villanueva | Resurgence Church #2 (Mastic, NY)                 |     0 |       |      |  33% |      |    1 |      |
 |   25 | Ethan Franco       | Resurgence Church #2 (Mastic, NY)                 |   -25 |  -2.8 |      |  37% |      |    1 |    9 |
@@ -86,8 +86,8 @@ menubar_toc_static:
 |    2 | Ethan Schiebel  | Praise Church (Garfield, NJ)    |   415 | 103.8 |    3 |  86% |    4 |   12 |    3 |
 |    3 | Maliha Shaik    | UECF Warriors 1 (Westfield, NJ) |   315 |  78.8 |    2 |  95% |    1 |    9 |    8 |
 |    4 | Blessy Devi     | UECF Warriors 1 (Westfield, NJ) |   185 |  46.3 |      |  93% |    1 |    4 |    8 |
-|    5 | Mirabelle E     | Praise Church (Garfield, NJ)    |   135 |  33.8 |      |  77% |    1 |    3 |    6 |
+|    5 | Mirabelle E.    | Praise Church (Garfield, NJ)    |   135 |  33.8 |      |  77% |    1 |    3 |    6 |
 |    6 | Ashriel Vellore | UECF Warriors 1 (Westfield, NJ) |   100 |    25 |      |  75% |      |    5 |    4 |
 |    7 | Viraj Sandela   | UECF Warriors 2 (Westfield, NJ) |    60 |    15 |      | 100% |      |      |    6 |
-|    8 | Edward K        | Praise Church (Garfield, NJ)    |    35 |   8.8 |      |  75% |      |    1 |    2 |
+|    8 | Edward K.       | Praise Church (Garfield, NJ)    |    35 |   8.8 |      |  75% |      |    1 |    2 |
 |    9 | Preethi Bandi   | UECF Warriors 1 (Westfield, NJ) |    10 |   2.5 |      |  99% |      |      |    1 |

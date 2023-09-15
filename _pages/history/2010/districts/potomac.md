@@ -21,7 +21,7 @@ menubar_toc_static:
 |    2 | Word of Life 2  |    3 |    1 |   745 |
 |    3 | Word of Life 1  |    2 |    2 |   370 |
 |    4 | Elkton          |    1 |    3 |   240 |
-|    5 | Worship  Center |    0 |    4 |    50 |
+|    5 | Worship  Center |    0 |    4 |    50 |
 
 ### Individuals
 
@@ -41,7 +41,7 @@ menubar_toc_static:
 | ---: | ----------------- | ---: | ---: | ----: |
 |    1 | Elkton            |    4 |    0 |   510 |
 |    2 | New Hope          |    2 |    2 |   415 |
-|    4 | Worship  Center 1 |    0 |    4 |    20 |
+|    4 | Worship  Center 1 |    0 |    4 |    20 |
 
 ### Individuals
 

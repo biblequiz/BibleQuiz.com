@@ -21,7 +21,7 @@ Recommended for all teams competing at League Meets.
 
 ## Digital Bundle - $120
 
-A bundle of all the below resources in a single package. 
+A bundle of all the below resources in a single package. 
 
 The Digital Bundle includes:
 
@@ -30,7 +30,7 @@ The Digital Bundle includes:
 - Contender Practice Questions
 - Study Guide
 
-Duplication allowed within a single church. 
+Duplication allowed within a single church. 
 
 <a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2023-2024/TBQ_Bundle_Romans_James_2023_2024" class="button is-primary">Go Now</a>
 
@@ -38,7 +38,7 @@ Duplication allowed within a single church. 
 
 ## Basic Five - $70
 
-Basic practice questions that every coach needs to help their students prepare for the meets and tournaments in Championship, Contender, and XP5. 
+Basic practice questions that every coach needs to help their students prepare for the meets and tournaments in Championship, Contender, and XP5. 
 
 The Basic Five includes:
 
@@ -48,7 +48,7 @@ The Basic Five includes:
 - Phrase Questions
 - Progressive Sets
 
-Duplication allowed within a single church. 
+Duplication allowed within a single church. 
 
 <a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2023-2024/Basic_Five_Romans_James_2023_2024" class="button is-primary">Go Now</a>
 

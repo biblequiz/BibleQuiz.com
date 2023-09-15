@@ -81,7 +81,7 @@ menubar_toc_static:
 |    # | Quizzer          | City                                | Total |   QO |
 | ---: | ---------------- | ----------------------------------- | ----: | ---: |
 |    1 | Becky York       | Cornerstone A/G, Bowie, MD          |  1520 |   11 |
-|    2 | C.J.Barna        | South Hills A/G, Bethel Park, PA    |  1455 |   10 |
+|    2 | C.J. Barna       | South Hills A/G, Bethel Park, PA    |  1455 |   10 |
 |    3 | Damon Smith      | Calvary A/G, Greensboro, NC-Gold    |  1195 |    7 |
 |    4 | Lisa Everett     | First A/G, New Philadelphia, OH     |  1005 |    5 |
 |    5 | Isaiah Hunter    | First A/G, Hermitage, PA            |   990 |    8 |

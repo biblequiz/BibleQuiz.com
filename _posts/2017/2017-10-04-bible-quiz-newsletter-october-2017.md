@@ -9,7 +9,7 @@ image: "pexels-photo-265315-848x566.jpg"
 published: true
 ---
 
-Here is the October 2017 edition of the National Bible Quiz Newsletter.
+Here is the October 2017 edition of the National Bible Quiz Newsletter.
 
 <a href="{% link assets/2017/BQ-Newsletter-10.17.pdf %}" class="button is-primary">Download Now</a>
 

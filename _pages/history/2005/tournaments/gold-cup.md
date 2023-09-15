@@ -81,7 +81,7 @@ and $500. Coming in 2nd Place, Briargate went home with $300 and Evangelistic Te
 | Evangelistic Temple-"Women" | Christine Welden |   535 |
 | Evangelistic Temple-"Men"   | Mitch Case       |   480 |
 | Evangelistic Temple-"Women" | Aimee Gibson     |   420 |
-| Church at Briargate #2      | P.J. Griggs      |   415 |
+| Church at Briargate #2      | PJ Grigg         |   415 |
 | Bastrop First A/G           | Jonathan Voigt   |   415 |
 | Church at Briargate #1      | Catlin Pace      |   355 |
 | Evangelistic Temple-"Men"   | Wesley Leander   |   335 |

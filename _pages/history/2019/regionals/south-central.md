@@ -57,5 +57,5 @@ menubar_toc_static:
 | **\*18** | James Birungi        | God's Co-workers (Harvest AG)                |     0 |      |      |      |
 | **\*18** | Gabe Lapusan         | Thank God for Us (The Oaks Fellowship)       |     0 |      |      |      |
 | **\*18** | Jason Bartholomew    | Thank God for Us (The Oaks Fellowship)       |     0 |      |      |      |
-| **\*18** | DaniyyEl Gonzalez    | Eyes on the Unseen (First @ Firewheel)       |     0 |      |      |      |
+| **\*18** | Daniyy'El Gonzalez   | Eyes on the Unseen (First @ Firewheel)       |     0 |      |      |      |
 |       19 | Billy Howard         | Dancing River Goats (Legacy Church)          |   -30 |   -5 |      |  33% |

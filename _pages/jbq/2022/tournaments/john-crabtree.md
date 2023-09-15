@@ -46,7 +46,7 @@ menubar_toc_static:
 |       12 | Luke Householder        | Shelby Township, MI (M) (Lakeside Assembly of God) |   475 |  39.6 |    1 |  88% |
 |       13 | Evie Gillott            | Normal, IL (First Assembly of God)                 |   305 |  25.4 |      |  87% |
 |       14 | Elizabeth Siony         | Naperville, IL (Calvary Church)                    |   235 |  19.6 |      | 100% |
-|       15 | Nathanael (Nate) Tonade | Indianapolis, IN (Church52 Family Worship Center)  |   220 |  18.3 |      |  67% |
+|       15 | Nathaniel (Nate) Tonade | Indianapolis, IN (Church52 Family Worship Center)  |   220 |  18.3 |      |  67% |
 |       16 | Ariana Moussa           | Shelby Township, MI (M) (Lakeside Assembly of God) |   140 |  11.7 |      |  53% |
 |       17 | Shawn Selvam            | Shelby Township, MI (R) (Lakeside Assembly of God) |   125 |  10.4 |      |  87% |
 |       18 | Himaya Mashibe          | Georgetown, KY (Trinity Assembly of God)           |   120 |    10 |      | 100% |

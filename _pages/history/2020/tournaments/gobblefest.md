@@ -214,7 +214,7 @@ menubar_toc_static:
 | ---: | ---------------------------------------------------------------------------------------- | ----- | ----: | ----: | ---: | ---: |
 |  1.0 | R Allison Park Church (Allison Park) (Allison Park Church)                               | 7 / 2 |  2115 |   235 |   17 |  86% |
 |  2.0 | R Maple Lane Assembly of God (Deposit) #1 (Maple Lane Assembly of God)                   | 7 / 2 |  1865 | 207.2 |   12 |  83% |
-|  3.0 | R Newport \"Pure Nard\" Newport, PA (Assembly of God)                                    | 7 / 2 |  1680 | 186.6 |   10 |  85% |
+|  3.0 | R Newport "Pure Nard" Newport, PA (Assembly of God)                                      | 7 / 2 |  1680 | 186.6 |   10 |  85% |
 |  4.1 | R Royal Priesthood (Greensboro, NC) Jasper (Calvary Church Assemblies of God Fellowship) | 6 / 3 |  1235 | 137.2 |    9 |  72% |
 |  5.0 | R Redeemer Church (Utica) (Redeemer Church)                                              | 6 / 3 |  1575 |   175 |   11 |  73% |
 |  6.1 | R Fountain of Life Center (Burlington) #2 (Fountain of Life Center)                      | 4 / 5 |   935 | 103.9 |    5 |  79% |
@@ -229,7 +229,7 @@ menubar_toc_static:
 
 |        # | Quizzer               | Team                                                                                     | Total |   Avg |   QO |   Q% |
 | -------: | --------------------- | ---------------------------------------------------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Trace Reisinger       | R Newport \"Pure Nard\" Newport, PA (Assembly of God)                                    |  1280 | 142.2 |    9 |  92% |
+|        1 | Trace Reisinger       | R Newport "Pure Nard" Newport, PA (Assembly of God)                                      |  1280 | 142.2 |    9 |  92% |
 |        2 | Emily Larson          | R Allison Park Church (Allison Park) (Allison Park Church)                               |  1125 |   125 |    9 |  92% |
 |        3 | Alex Mitchell         | R Maple Lane Assembly of God (Deposit) #1 (Maple Lane Assembly of God)                   |   780 |  86.7 |    6 |  77% |
 |        4 | Andrew Wong           | R Smithtown Gospel Tabernacle (Smithtown) #1 (Smithtown Gospel Tabernacle)               |   740 |  82.2 |    6 |  85% |
@@ -243,7 +243,7 @@ menubar_toc_static:
 |       12 | Summer Woo            | R Redeemer Church (Utica) (Redeemer Church)                                              |   425 |  47.2 |    2 |  71% |
 |       13 | Daniel Wong           | R Smithtown Gospel Tabernacle (Smithtown) #1 (Smithtown Gospel Tabernacle)               |   355 |  39.4 |    1 |  86% |
 |       14 | Sarah Whitfield       | R Allison Park Church (Allison Park) (Allison Park Church)                               |   335 |  37.2 |    2 |  82% |
-|       15 | Erica Smith           | R Newport \"Pure Nard\" Newport, PA (Assembly of God)                                    |   325 |  36.1 |    1 |  83% |
+|       15 | Erica Smith           | R Newport "Pure Nard" Newport, PA (Assembly of God)                                      |   325 |  36.1 |    1 |  83% |
 |       16 | Nathaniel Jebaraj     | R Royal Priesthood (Greensboro, NC) Jasper (Calvary Church Assemblies of God Fellowship) |   320 |  35.6 |    1 |  64% |
 |       17 | Kassidy Frederick     | R Maple Lane Assembly of God (Deposit) #1 (Maple Lane Assembly of God)                   |   280 |  31.1 |    2 |  88% |
 | **\*17** | Victoria Cullins      | R First Assembly of God (Louisville) #2 (First Assembly of God)                          |   280 |  31.1 |    2 |  67% |
@@ -257,7 +257,7 @@ menubar_toc_static:
 |       25 | Immanuel Vega         | R Fountain of Life Center (Burlington) #2 (Fountain of Life Center)                      |    40 |   4.4 |      |  83% |
 |       26 | Alex Peryea           | R Redeemer Church (Utica) (Redeemer Church)                                              |    30 |   3.3 |      |  50% |
 |       27 | Haley Hutzler         | R Smithtown Gospel Tabernacle (Smithtown) #1 (Smithtown Gospel Tabernacle)               |    20 |   2.2 |      |  66% |
-|       28 | Liberty Bunker        | R Newport \"Pure Nard\" Newport, PA (Assembly of God)                                    |     0 |       |      |      |
+|       28 | Liberty Bunker        | R Newport "Pure Nard" Newport, PA (Assembly of God)                                      |     0 |       |      |      |
 | **\*28** | Samantha Anselmo      | R Bethlehem Church (Richmond Hill) #1 (Bethlehem Church)                                 |     0 |       |      |      |
 | **\*28** | Jon Luc Jobson-Larkin | R Bethlehem Church (Richmond Hill) #1 (Bethlehem Church)                                 |     0 |       |      |      |
 | **\*28** | Emma Kokora           | R Bethlehem Church (Richmond Hill) #1 (Bethlehem Church)                                 |     0 |       |      |      |

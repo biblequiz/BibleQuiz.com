@@ -61,8 +61,7 @@ Top Scorer trophies were based on the total of all rounds played.
 |    5 | Evangel C.C., Centerville, GA   |    1 |    4 |   125 |   25 |
 |    6 | 1st A/G, Lexington, KY #5       |    1 |    4 |    65 |   13 |
 
-\*\*Lexington #6 defeated Lexington #4 in the 1st playoff.
-Greensboro then defeated Lexington #6 in the 2nd playoff.
+\* Lexington #6 defeated Lexington #4 in the 1st playoff. Greensboro then defeated Lexington #6 in the 2nd playoff.
 
 #### Top Individuals
 

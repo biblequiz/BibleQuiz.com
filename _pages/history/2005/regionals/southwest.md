@@ -39,6 +39,6 @@ menubar_toc_static:
 |    6 | Trevor Eastin     | Mesa, AZ             |   875 |  62.5 |    3 |
 |    7 | Michael Rose      | Colorado Springs, CO |   810 |  57.9 |    2 |
 |    8 | Brandyn Shepherd  | Mesa, AZ             |   695 |  49.6 |    5 |
-|    9 | P.J. Grigg        | Colorado Springs, CO |   545 |  38.9 |    4 |
+|    9 | PJ Grigg          | Colorado Springs, CO |   545 |  38.9 |    4 |
 |   10 | Tiffany Hendrix   | Phoenix, AZ          |   545 |  38.9 |    2 |
 

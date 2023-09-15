@@ -60,7 +60,7 @@ menubar_toc_static:
 |  23* | Tobi Morakinyo     | Fort Lauderdale FL |    40 |     5 |      |
 |   25 | Sidney Mims        | Montgomery AL      |    35 |  4.38 |      |
 |  25* | Lacey Cowan        | Toccoa GA          |    35 |  4.38 |      |
-|   27 | E.J. Mintah        | Wesley Chapel FL   |    20 |   2.5 |      |
+|   27 | EJ Mintah          | Wesley Chapel FL   |    20 |   2.5 |      |
 |  27* | Curtis Gardner     | Cumming GA         |    20 |   2.5 |      |
 |   29 | David Willis       | Ashland AL         |    10 |  1.25 |      |
 |  29* | Josh Hester        | Ashland AL         |    10 |  1.25 |      |

@@ -109,7 +109,7 @@ menubar_toc_static:
 |   59 | Bethany Holm         | F.A.Q.               | San Antonio 1st AG         |    40 |   2.50 |      |
 |   60 | Megan Huddleston     | Harvesters           | Harvest Church             |    35 |   2.19 |      |
 |   61 | Mariah Walker        | F.A.Q.               | San Antonio 1st AG         |    30 |   1.88 |      |
-|   61 | J.B.Huddleston       | Harvesters           | Harvest Church             |    30 |   1.88 |      |
+|   61 | J.B. Huddleston      | Harvesters           | Harvest Church             |    30 |   1.88 |      |
 |   61 | Madilyn Johnson      | Warriors of Wisdom   | Church in the Wildwood     |    30 |   1.88 |      |
 |   61 | Kelton Johnson       | \*Saltshakers        | Lubbock 1st AG             |    30 |   1.88 |      |
 |   62 | Evy Ortega           | Harvesters           | Harvest Church             |    20 |   1.25 |      |

@@ -77,7 +77,7 @@ Team photos are provided courtesy of Larry Mullins.
 |       18 | Kyler Sederwall    | Garfield, NJ            |  1125 |  59.21 |      3 |     2 |
 |       19 | Heather Karnes     | Bothell, WA             |  1065 |  56.05 |      7 |     1 |
 |       20 | Daniel Wagner      | Owasso, OK              |  1055 |  55.53 |      6 |     1 |
-|       21 | P. J. Grigg        | Colorado Springs, CO    |   985 |  51.84 |      5 |     2 |
+|       21 | PJ Grigg           | Colorado Springs, CO    |   985 |  51.84 |      5 |     2 |
 |       22 | Ryan Albrecht      | Bowling Green, OH       |   980 |  51.58 |     10 |     7 |
 |       23 | Michael Rose       | Colorado Springs, CO    |   925 |  48.68 |      6 |     1 |
 |       24 | Jonathan Barthuly  | Santa Ana, CA           |   910 |  47.89 |      7 |     5 |
@@ -186,7 +186,7 @@ Team photos are provided courtesy of Larry Mullins.
 |       16 | Amy Siddall        | Syracuse, NY         |  1060 |  55.79 |     13 |     1 |
 |       17 | Cecily Spicer      | Vancouver, WA        |  1050 |  55.26 |      9 |     3 |
 |       18 | Angie Larson       | Nyssa, OR            |   995 |  52.37 |      8 |     3 |
-|       19 | C. J. Hock         | South Bend, IN       |   975 |  51.32 |     10 |     4 |
+|       19 | C.J. Hock          | South Bend, IN       |   975 |  51.32 |     10 |     4 |
 |       20 | Matthew Klika      | Springfield, MO      |   965 |  50.79 |      6 |     1 |
 |       21 | Brianna Riley      | Springfield, MO      |   915 |  48.16 |      7 |     1 |
 |       22 | Ellen Oss          | Colorado Springs, CO |   825 |  43.42 |      4 |     2 |
@@ -203,7 +203,7 @@ Team photos are provided courtesy of Larry Mullins.
 |       33 | Melissa Larson     | Nyssa, OR            |   535 |  28.16 |      2 |     3 |
 |       34 | Caleb Turnage      | Oshkosh, WI          |   530 |  27.89 |      4 |     3 |
 |       35 | Andrew Banach      | Montgomery, AL       |   525 |  27.63 |      2 |     1 |
-|       36 | E. J. Mintah       | Wesley Chapel, FL    |   515 |  27.11 |      5 |     3 |
+|       36 | E.J. Mintah        | Wesley Chapel, FL    |   515 |  27.11 |      5 |     3 |
 |       37 | Lydia Hutchinson   | St. Petersburg, FL   |   510 |  26.84 |      3 |     2 |
 |       38 | Ivy Jensen         | Meridian, ID         |   500 |  26.32 |      5 |     3 |
 |       39 | Meg Pace           | Colorado Springs, CO |   480 |  25.26 |      4 |     3 |
@@ -1284,7 +1284,7 @@ Church:	Tacoma Life Center, Tacoma, WA
 Coaches:	Rich Nelson, Rachel Dawson (assistant), Kathy Holley (assistant)
 Team:	Rachel Holley
 Mikayla Irle
-J.P. O'Connor
+JP O'Connor
 * **Preliminaries**:
 Round 1: Lost to Faith A/G, Orlando, FL 150 to 195
 Round 2: Lost to First A/G, Binghamton, NY 130 to 160

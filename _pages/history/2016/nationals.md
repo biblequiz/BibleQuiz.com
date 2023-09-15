@@ -196,7 +196,7 @@ menubar_toc_static:
 | 46  | Sharon Godavarthi     | Neighborhood Church - Grief to Joy      | Bellevue, WA     | 75    | 3.95  |     |
 | 47  | Matthew McKinley      | First AG - Rhoda's Joy                  | Sioux Falls, SD  | 50    | 2.63  |     |
 | 48  | Merisa Rodriguez      | First AG - Rhoda's Joy                  | Sioux Falls, SD  | 30    | 1.58  |     |
-| 49  | Mik?kalah Patterson   | Fountain of Life - Shipwreck Survivors  | Burlington, NJ   | 20    | 1.05  |     |
+| 49  | Mik'kalah Patterson   | Fountain of Life - Shipwreck Survivors  | Burlington, NJ   | 20    | 1.05  |     |
 | 50  | Zoie Mafe             | First AG - It's Whom!                   | East Lansing, MI |       | 0     |     |
 | 50  | Chris Adams           | Memorial AG (OK)                        | Purcell, OK      |       | 0     |     |
 | 50  | Austin Harr           | First AG - It's Whom!                   | East Lansing, MI |       | 0     |     |
@@ -397,7 +397,7 @@ menubar_toc_static:
 | 18  | Padmini Abothu      | Neighborhood Church - Grief to Joy     | Bellevue, WA   | 10    | 1.43  |     |
 | 19  | Jake Carty          | Living Hope - Acts 24/7                | Swedesboro, NJ |       | 0     |     |
 | 19  | Annabelle Gabsi     | Fountain of Life - Shipwreck Survivors | Burlington, NJ |       | 0     |     |
-| 19  | Mik?kalah Patterson | Fountain of Life - Shipwreck Survivors | Burlington, NJ |       | 0     |     |
+| 19  | Mik'kalah Patterson | Fountain of Life - Shipwreck Survivors | Burlington, NJ |       | 0     |     |
 | 19  | Mike Galliers       | First AG - God-Fearing Geeks           | Lexington, KY  |       | 0     |     |
 | 19  | Sharon Godavarthi   | Neighborhood Church - Grief to Joy     | Bellevue, WA   |       | 0     |     |
 

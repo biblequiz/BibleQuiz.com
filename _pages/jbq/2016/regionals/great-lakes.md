@@ -121,32 +121,13 @@ menubar_toc_static:
 |   69 | Dana Goyer         | Toledo, OH             | Full Armored Disciples   |    10 |    .56 |      |
 |   69 | Brenda Light       | \*\*Gahanna, OH        | Fluffy Panda Quizzers    |    10 |    .56 |      |
 |   70 | Patrick Durbin     | Mt. Washington, KY     | Exodus Expedition        |       |    .00 |      |
-|   70 | EQ1                | \*\*Versailles, KY     | Truth Seekers            |       |    .00 |      |
 |   70 | Elias Jacob        | Normal, IL             | Iron Sharp               |       |    .00 |      |
-|   70 | EQ1                | Indianapolis, IN       | CP Golden Eagles         |       |    .00 |      |
-|   70 | EQ2                | Indianapolis, IN       | CP Golden Eagles         |       |    .00 |      |
 |   70 | Colin Porter       | Mt. Washington, KY     | Exodus Expedition        |       |    .00 |      |
-|   70 | EQ1                | Bowling Green, OH      | Changed Inside Out       |       |    .00 |      |
 |   70 | Payton McIntyre    | Novi, MI               | The Awakening Force      |       |    .00 |      |
-|   70 | EQ1                | \*\*Brighton, MI       | MJG Quizzers             |       |    .00 |      |
-|   70 | EQ1                | \*\*Naperville, IL (M) | Naperville (M)           |       |    .00 |      |
 |   70 | Jalen Porter       | Mt. Washington, KY     | Exodus Expedition        |       |    .00 |      |
-|   70 | EQ1                | Mt. Washington, KY     | Exodus Expedition        |       |    .00 |      |
 |   70 | Darla Holzhausen   | \*\*Fortville, IN      | Minecraft Bible Builders |       |    .00 |      |
 |   70 | Keira Orth         | \*\*Fortville, IN      | Minecraft Bible Builders |       |    .00 |      |
-|   70 | EQ1                | Toledo, OH             | Full Armored Disciples   |       |    .00 |      |
-|   70 | EQ1                | \*\*Fortville, IN      | Minecraft Bible Builders |       |    .00 |      |
-|   70 | EQ1                | Ravenna, OH            | Ravenna Smarties         |       |    .00 |      |
-|   70 | EQ1                | Fort Wayne, IN (DD)    | FW Dancing Disciples     |       |    .00 |      |
 |   70 | Fracine Brozek     | Columbiaville, MI      | Warriors in Training     |       |    .00 |      |
 |   70 | Abigail Yatooma    | Novi, MI               | The Awakening Force      |       |    .00 |      |
 |   70 | Brookleyn Light    | \*\*Gahanna, OH        | Fluffy Panda Quizzers    |       |    .00 |      |
-|   70 | EQ1                | \*\*Gahanna, OH        | Fluffy Panda Quizzers    |       |    .00 |      |
-|   70 | EQ1                | Naperville, IL (C)     | Naperville (C)           |       |    .00 |      |
 |   70 | Ethan Swaggerty    | Novi, MI               | The Awakening Force      |       |    .00 |      |
-|   70 | EQ1                | Normal, IL             | Iron Sharp               |       |    .00 |      |
-|   70 | EQ1                | Louisville, KY         | Redeemed                 |       |    .00 |      |
-|   70 | EQ1                | Warren, MI             | IAG                      |       |    .00 |      |
-|   70 | EQ1                | Columbiaville, MI      | Warriors in Training     |       |    .00 |      |
-|   70 | EQ1                | Naperville, IL (D)     | Naperville (D)           |       |    .00 |      |
-|   70 | EQ1                | Fort Wayne, IN (DiM)   | FW Devotion in Motion    |       |    .00 |      |

@@ -39,7 +39,7 @@ After 9 preliminary rounds, teams were bracketed 1 - 23 by average scores. The t
 |    5 | Brandy Steel       | Calvary A/G, Toldeo, OH          |   315 |    0 |
 |    6 | Brandon Porter     | James River A/G, Ozark, MO "S"   |   280 |    1 |
 |    7 | C.J. Barna         | South Hills A/G, Bethel Park, PA |   275 |    1 |
-|    8 | C. J. Hock         | Calvary A/G, Elkhart, IN         |   275 |    1 |
+|    8 | C.J. Hock          | Calvary A/G, Elkhart, IN         |   275 |    1 |
 |    9 | Blake Porter       | James River A/G, Ozark, MO "S"   |   260 |    3 |
 |   10 | Jessica Laine      | Kennebunk C., Kennebunk, ME      |   215 |    0 |
 

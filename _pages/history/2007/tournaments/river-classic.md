@@ -47,7 +47,7 @@ menubar_toc_static:
 | Sommer Ferguson   | Victory A/G, One Last Chance      |   935 |  62.33 |    8 |
 | Tamera Burkhalter | Faith A/G, Orlando                |   800 |  53.33 |    8 |
 | Taylor Vickerman  | Lafayette First A/G               |   795 |  53.00 |    6 |
-| P.J. Grigg        | Church at Briargate-E. & M.       |   750 |  50.00 |    5 |
+| PJ Grigg          | Church at Briargate-E. & M.       |   750 |  50.00 |    5 |
 | Zach Mang         | Orange County Worship Center      |   750 |  50.00 |    5 |
 | Jonathon Barthuly | Orange County Worship Center      |   740 |  49.33 |    4 |
 

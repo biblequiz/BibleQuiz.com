@@ -8,7 +8,7 @@ menubar: menu_history
 
 | Year | Quizzer                  | Church                   | City              |
 | ---- | ------------------------ | ------------------------ | ----------------- |
-| 2019 | Aaron Hoffman            | Redeemer Church          | Utica, NY         |
+| 2019 | Aaron Hoffmann           | Redeemer Church          | Utica, NY         |
 | 2018 | Ronald Barr              | Bethel Church            | Blackwood, NJ     |
 | 2017 | Tabitha Nirmal           | Covenant Life Church     | Cary, NC          |
 | 2016 | No competition this year |                          |                   |

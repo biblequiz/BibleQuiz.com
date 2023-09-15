@@ -55,7 +55,7 @@ menubar_toc_static:
 |   19 | Kelly Anderson   | Abundant Life |    90 |  11.25 |    0 |       0 |
 |   20 | Katie Ryan       | Abundant Life |    70 |   8.75 |    0 |       0 |
 |   21 | John Morris      | Springhill    |    60 |    7.5 |    0 |       0 |
-|   22 | E. J. Spears     | Trinity       |    60 |    7.5 |    0 |       0 |
+|   22 | E.J. Spears      | Trinity       |    60 |    7.5 |    0 |       0 |
 |   23 | Derek Wilson     | The Oaks      |    50 |   6.75 |    0 |       0 |
 |   24 | Chelsea Flores   | Wichita Falls |    50 |   6.75 |    0 |       0 |
 |   25 | Laura Mallett    | Trinity       |    45 |   5.63 |    0 |       0 |

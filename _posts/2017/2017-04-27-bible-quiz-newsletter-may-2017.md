@@ -9,7 +9,7 @@ image: "pexels-photo-29017-848x492.jpg"
 published: true
 ---
 
-Here is the May 2017 edition of the National Bible Quiz Newsletter.
+Here is the May 2017 edition of the National Bible Quiz Newsletter.
 
 <a href="{% link assets/2017/May-2017.pdf %}" class="button is-primary">Download Now</a>
 

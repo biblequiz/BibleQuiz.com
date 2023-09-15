@@ -303,42 +303,42 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer                       | Team                    | Church                                   | Total |    Avg |   QO |
-| ---: | ----------------------------- | ----------------------- | ---------------------------------------- | ----: | -----: | ---: |
-|    1 | Shreanna Powell               | Naperville              | Calvary Church (Naperville, IL)          |   945 | 135.00 |    6 |
-|    2 | Zachary Cook                  | Soul Survivors          | Lawson A/G (Lawson, MO)                  |   855 | 122.14 |    4 |
-|    3 | Alexandra E. E. Ross          | Bible Cadets            | Ross Prep. Academy (Fallbrook, CA)       |   650 |  92.86 |    3 |
-|    4 | Jordan Landry                 | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |   615 |  87.86 |    2 |
-|    5 | Christina Baxter              | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |   560 |  80.00 |    1 |
-|    6 | Robert Laboy                  | Naperville              | Calvary Church (Naperville, IL)          |   505 |  72.14 |    7 |
-|    7 | Katie Burke                   | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |   375 |  53.57 |      |
-|    8 | Garrett Miyaoka               | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |   340 |  48.57 |      |
-|    9 | Grace Artis                   | Light                   | World Harvest (Roswell, GA)              |   325 |  46.43 |    1 |
-|   10 | Daniel Ferreira               | Light                   | World Harvest (Roswell, GA)              |   315 |  45.00 |      |
-|   11 | Catherine Baxter              | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |   290 |  41.43 |    2 |
-|   12 | Lauren Huseman                | Naperville              | Calvary Church (Naperville, IL)          |   285 |  40.71 |    1 |
-|   13 | Beatrice-Elizabeth A. C. Ross | Bible Cadets            | Ross Prep. Academy (Fallbrook, CA)       |   255 |  36.43 |    3 |
-|   14 | Brendon Sturgeon              | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |   240 |  34.29 |    2 |
-|   15 | Breanna Cole                  | Soul Survivors          | Lawson A/G (Lawson, MO)                  |   240 |  34.29 |    1 |
-|   16 | Filip DaSilva                 | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |   225 |  32.14 |    1 |
-|   17 | Trent Hashimoto               | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |   220 |  31.43 |    1 |
-|   18 | Nicholas Tveit                | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |   195 |  27.86 |    2 |
-|   19 | Bailey Bullock                | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |   195 |  27.86 |    1 |
-|   20 | Kaelyn Comfort                | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |   190 |  27.14 |      |
-|   21 | Cristian Huix                 | Light                   | World Harvest (Roswell, GA)              |   180 |  25.71 |    2 |
-|   22 | Grace Caughey                 | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |   120 |  17.14 |      |
-|   23 | John Fugere                   | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |    75 |  10.71 |      |
-|   24 | Jonathan Archer               | Soul Survivors          | Lawson A/G (Lawson, MO)                  |    50 |   7.14 |      |
-|   25 | Isabelle Smith                | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |    25 |   3.57 |      |
-|   26 | Jonathan Burke                | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |    20 |   2.86 |      |
-|   26 | Tayla Vannelli                | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |    20 |   2.86 |      |
-|   26 | Bethany Perry                 | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |    20 |   2.86 |      |
-|   27 | Miken Melvin                  | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |    15 |   2.14 |      |
-|   28 | Julia DeGraff                 | Naperville              | Calvary Church (Naperville, IL)          |    10 |   1.43 |      |
-|   29 | Abigail Bullock               | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |       |    .00 |      |
-|   29 | Nathan Burke                  | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |       |    .00 |      |
-|   29 | Jessica McElwee               | Naperville              | Calvary Church (Naperville, IL)          |       |    .00 |      |
-|   29 | Nicholas Theriot              | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |       |    .00 |      |
+|    # | Quizzer                 | Team                    | Church                                   | Total |    Avg |   QO |
+| ---: | ----------------------- | ----------------------- | ---------------------------------------- | ----: | -----: | ---: |
+|    1 | Shreanna Powell         | Naperville              | Calvary Church (Naperville, IL)          |   945 | 135.00 |    6 |
+|    2 | Zachary Cook            | Soul Survivors          | Lawson A/G (Lawson, MO)                  |   855 | 122.14 |    4 |
+|    3 | Alexandra E. E. Ross    | Bible Cadets            | Ross Prep. Academy (Fallbrook, CA)       |   650 |  92.86 |    3 |
+|    4 | Jordan Landry           | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |   615 |  87.86 |    2 |
+|    5 | Christina Baxter        | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |   560 |  80.00 |    1 |
+|    6 | Robert Laboy            | Naperville              | Calvary Church (Naperville, IL)          |   505 |  72.14 |    7 |
+|    7 | Katie Burke             | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |   375 |  53.57 |      |
+|    8 | Garrett Miyaoka         | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |   340 |  48.57 |      |
+|    9 | Grace Artis             | Light                   | World Harvest (Roswell, GA)              |   325 |  46.43 |    1 |
+|   10 | Daniel Ferreira         | Light                   | World Harvest (Roswell, GA)              |   315 |  45.00 |      |
+|   11 | Catherine Baxter        | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |   290 |  41.43 |    2 |
+|   12 | Lauren Huseman          | Naperville              | Calvary Church (Naperville, IL)          |   285 |  40.71 |    1 |
+|   13 | Beatrice-Elizabeth Ross | Bible Cadets            | Ross Prep. Academy (Fallbrook, CA)       |   255 |  36.43 |    3 |
+|   14 | Brendon Sturgeon        | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |   240 |  34.29 |    2 |
+|   15 | Breanna Cole            | Soul Survivors          | Lawson A/G (Lawson, MO)                  |   240 |  34.29 |    1 |
+|   16 | Filip DaSilva           | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |   225 |  32.14 |    1 |
+|   17 | Trent Hashimoto         | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |   220 |  31.43 |    1 |
+|   18 | Nicholas Tveit          | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |   195 |  27.86 |    2 |
+|   19 | Bailey Bullock          | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |   195 |  27.86 |    1 |
+|   20 | Kaelyn Comfort          | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |   190 |  27.14 |      |
+|   21 | Cristian Huix           | Light                   | World Harvest (Roswell, GA)              |   180 |  25.71 |    2 |
+|   22 | Grace Caughey           | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |   120 |  17.14 |      |
+|   23 | John Fugere             | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |    75 |  10.71 |      |
+|   24 | Jonathan Archer         | Soul Survivors          | Lawson A/G (Lawson, MO)                  |    50 |   7.14 |      |
+|   25 | Isabelle Smith          | Westgate Chapel A Team  | Westgate Chapel (Edmonds, WA)            |    25 |   3.57 |      |
+|   26 | Jonathan Burke          | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |    20 |   2.86 |      |
+|   26 | Tayla Vannelli          | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |    20 |   2.86 |      |
+|   26 | Bethany Perry           | Word Warriors           | Bethany Comm. Church (Mendon, MA)        |    20 |   2.86 |      |
+|   27 | Miken Melvin            | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |    15 |   2.14 |      |
+|   28 | Julia DeGraff           | Naperville              | Calvary Church (Naperville, IL)          |    10 |   1.43 |      |
+|   29 | Abigail Bullock         | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |       |    .00 |      |
+|   29 | Nathan Burke            | God's C.R.E.W.          | Capitol Hill A/G (OKC, OK)               |       |    .00 |      |
+|   29 | Jessica McElwee         | Naperville              | Calvary Church (Naperville, IL)          |       |    .00 |      |
+|   29 | Nicholas Theriot        | Crossing Place Quizzers | Crossing Place Fellowship (Franklin, LA) |       |    .00 |      |
 
 
 ### Pink
@@ -940,35 +940,35 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer                       | Team              | Church                             | Total |    Avg |   QO |
-| ---: | ----------------------------- | ----------------- | ---------------------------------- | ----: | -----: | ---: |
-|    1 | Joshua Sipes                  | Skittles          | Evangel A/G (Bismarck, ND)         |   595 | 119.00 |    2 |
-|    2 | Alexandra E. E. Ross          | Bible Cadets      | Ross Prep. Academy (Fallbrook, CA) |   520 | 104.00 |    1 |
-|    3 | Stephen Thomas                | Evangel Qwizzlers | Evangel Church (Scotch Plains, NJ) |   470 |  94.00 |    3 |
-|    4 | Kelise Braithwaite            | Fizz Up           | James River Assembly (Ozark, MO)   |   395 |  79.00 |    1 |
-|    5 | Kirsten Andrews               | Greater Lansing   | 1st A/G (East Lansing, MI)         |   370 |  74.00 |    1 |
-|    6 | Paul Willis                   | Ashland           | 1st A/G (Ashland, AL)              |   305 |  61.00 |      |
-|    7 | Beatrice-Elizabeth A. C. Ross | Bible Cadets      | Ross Prep. Academy (Fallbrook, CA) |   220 |  44.00 |    3 |
-|    8 | Tyler McCartney               | Greater Lansing   | 1st A/G (East Lansing, MI)         |   210 |  42.00 |    1 |
-|    9 | Teddy Willis                  | Ashland           | 1st A/G (Ashland, AL)              |   175 |  35.00 |    1 |
-|   10 | Travis Griessel               | Fizz Up           | James River Assembly (Ozark, MO)   |   175 |  35.00 |      |
-|   11 | Claire Convis                 | Greater Lansing   | 1st A/G (East Lansing, MI)         |   155 |  31.00 |    1 |
-|   12 | Reagan Griessel               | Fizz Up           | James River Assembly (Ozark, MO)   |   145 |  29.00 |      |
-|   13 | Ruth Anne Sanderson           | Evangel Qwizzlers | Evangel Church (Scotch Plains, NJ) |   140 |  28.00 |      |
-|   14 | Jayden Freyer                 | Skittles          | Evangel A/G (Bismarck, ND)         |   115 |  23.00 |    1 |
-|   15 | Benshel Bright                | Evangel Qwizzlers | Evangel Church (Scotch Plains, NJ) |   105 |  21.00 |      |
-|   16 | John Schafer                  | Greater Lansing   | 1st A/G (East Lansing, MI)         |    90 |  18.00 |      |
-|   17 | Brianna Sipes                 | Skittles          | Evangel A/G (Bismarck, ND)         |    70 |  14.00 |      |
-|   18 | Elijah Sauer                  | Skittles          | Evangel A/G (Bismarck, ND)         |    55 |  11.00 |      |
-|   19 | Grace Catchings               | Ashland           | 1st A/G (Ashland, AL)              |    30 |   6.00 |      |
-|   20 | Brianna Haufman               | Evangel Qwizzlers | Evangel Church (Scotch Plains, NJ) |    20 |   4.00 |      |
-|   21 | Stanley Thomas                | Evangel Qwizzlers | Evangel Church (Scotch Plains, NJ) |    10 |   2.00 |      |
-|   21 | Caroline Coleman              | Ashland           | 1st A/G (Ashland, AL)              |    10 |   2.00 |      |
-|   21 | Ashlyn Sipes                  | Skittles          | Evangel A/G (Bismarck, ND)         |    10 |   2.00 |      |
-|   22 | Nathanael Heide               | Fizz Up           | James River Assembly (Ozark, MO)   |     5 |   1.00 |      |
-|   23 | Celah Convis                  | Greater Lansing   | 1st A/G (East Lansing, MI)         |       |    .00 |      |
-|   23 | Darcie Harr                   | Greater Lansing   | 1st A/G (East Lansing, MI)         |       |    .00 |      |
-|   23 | Sara Gaither                  | Ashland           | 1st A/G (Ashland, AL)              |       |    .00 |      |
+|    # | Quizzer                 | Team              | Church                             | Total |    Avg |   QO |
+| ---: | ----------------------- | ----------------- | ---------------------------------- | ----: | -----: | ---: |
+|    1 | Joshua Sipes            | Skittles          | Evangel A/G (Bismarck, ND)         |   595 | 119.00 |    2 |
+|    2 | Alexandra E. E. Ross    | Bible Cadets      | Ross Prep. Academy (Fallbrook, CA) |   520 | 104.00 |    1 |
+|    3 | Stephen Thomas          | Evangel Qwizzlers | Evangel Church (Scotch Plains, NJ) |   470 |  94.00 |    3 |
+|    4 | Kelise Braithwaite      | Fizz Up           | James River Assembly (Ozark, MO)   |   395 |  79.00 |    1 |
+|    5 | Kirsten Andrews         | Greater Lansing   | 1st A/G (East Lansing, MI)         |   370 |  74.00 |    1 |
+|    6 | Paul Willis             | Ashland           | 1st A/G (Ashland, AL)              |   305 |  61.00 |      |
+|    7 | Beatrice-Elizabeth Ross | Bible Cadets      | Ross Prep. Academy (Fallbrook, CA) |   220 |  44.00 |    3 |
+|    8 | Tyler McCartney         | Greater Lansing   | 1st A/G (East Lansing, MI)         |   210 |  42.00 |    1 |
+|    9 | Teddy Willis            | Ashland           | 1st A/G (Ashland, AL)              |   175 |  35.00 |    1 |
+|   10 | Travis Griessel         | Fizz Up           | James River Assembly (Ozark, MO)   |   175 |  35.00 |      |
+|   11 | Claire Convis           | Greater Lansing   | 1st A/G (East Lansing, MI)         |   155 |  31.00 |    1 |
+|   12 | Reagan Griessel         | Fizz Up           | James River Assembly (Ozark, MO)   |   145 |  29.00 |      |
+|   13 | Ruth Anne Sanderson     | Evangel Qwizzlers | Evangel Church (Scotch Plains, NJ) |   140 |  28.00 |      |
+|   14 | Jayden Freyer           | Skittles          | Evangel A/G (Bismarck, ND)         |   115 |  23.00 |    1 |
+|   15 | Benshel Bright          | Evangel Qwizzlers | Evangel Church (Scotch Plains, NJ) |   105 |  21.00 |      |
+|   16 | John Schafer            | Greater Lansing   | 1st A/G (East Lansing, MI)         |    90 |  18.00 |      |
+|   17 | Brianna Sipes           | Skittles          | Evangel A/G (Bismarck, ND)         |    70 |  14.00 |      |
+|   18 | Elijah Sauer            | Skittles          | Evangel A/G (Bismarck, ND)         |    55 |  11.00 |      |
+|   19 | Grace Catchings         | Ashland           | 1st A/G (Ashland, AL)              |    30 |   6.00 |      |
+|   20 | Brianna Haufman         | Evangel Qwizzlers | Evangel Church (Scotch Plains, NJ) |    20 |   4.00 |      |
+|   21 | Stanley Thomas          | Evangel Qwizzlers | Evangel Church (Scotch Plains, NJ) |    10 |   2.00 |      |
+|   21 | Caroline Coleman        | Ashland           | 1st A/G (Ashland, AL)              |    10 |   2.00 |      |
+|   21 | Ashlyn Sipes            | Skittles          | Evangel A/G (Bismarck, ND)         |    10 |   2.00 |      |
+|   22 | Nathanael Heide         | Fizz Up           | James River Assembly (Ozark, MO)   |     5 |   1.00 |      |
+|   23 | Celah Convis            | Greater Lansing   | 1st A/G (East Lansing, MI)         |       |    .00 |      |
+|   23 | Darcie Harr             | Greater Lansing   | 1st A/G (East Lansing, MI)         |       |    .00 |      |
+|   23 | Sara Gaither            | Ashland           | 1st A/G (Ashland, AL)              |       |    .00 |      |
 
 ### Lime
 
@@ -1401,57 +1401,57 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer                       | Team                        | Church                               | Total |    Avg |   QO |
-| ---: | ----------------------------- | --------------------------- | ------------------------------------ | ----: | -----: | ---: |
-|    1 | Stephen Thomas                | Evangel Qwizzlers           | Evangel Church (Scotch Plains, NJ)   |  1150 | 127.78 |    7 |
-|    2 | Hannah Stephens               | Tallahassee Freedom         | Freedom Church (Tallahassee, FL)     |   990 | 110.00 |    4 |
-|    3 | Alexandra E. E. Ross          | Bible Cadets                | Ross Prep. Academy (Fallbrook, CA)   |   745 |  82.78 |    1 |
-|    4 | Alissa Garrett                | Grace Assembly of God       | Grace A/G (New Whiteland, IN)        |   640 |  71.11 |    1 |
-|    5 | Luke Richardson               | Grace Assembly of God       | Grace A/G (New Whiteland, IN)        |   610 |  67.78 |    2 |
-|    6 | Josh Rozelle                  | S.P.Y. Kids 007             | The Worship Center (Leesburg, VA)    |   605 |  67.22 |    1 |
-|    7 | Alyssa Harden                 | Silver Spurs                | Bethel A/G (Askewville, NC)          |   555 |  61.67 |    1 |
-|    8 | Sarah Kinger                  | Blazing Swords              | West County (Chesterfield, MO)       |   505 |  56.11 |    1 |
-|    9 | Evan Still                    | Harrison Thrashers          | Faith A/G (Harrison, AR)             |   470 |  52.22 |      |
-|   10 | Beatrice-Elizabeth A. C. Ross | Bible Cadets                | Ross Prep. Academy (Fallbrook, CA)   |   435 |  48.33 |    5 |
-|   11 | Makenzie Bradshaw             | Harrison Thrashers          | Faith A/G (Harrison, AR)             |   435 |  48.33 |      |
-|   11 | Benjamin Judd                 | S.P.Y. Kids 007             | The Worship Center (Leesburg, VA)    |   435 |  48.33 |      |
-|   12 | Aidan Strain                  | Grace Assembly of God       | Grace A/G (New Whiteland, IN)        |   395 |  43.89 |    4 |
-|   13 | Matthew Robinson              | Los Chicos                  | City Church (Sanford, FL)            |   390 |  43.33 |    1 |
-|   14 | Jeanette Surajbali            | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |   320 |  35.56 |      |
-|   15 | Peyton Goss                   | Los Chicos                  | City Church (Sanford, FL)            |   315 |  35.00 |      |
-|   16 | Will Bazemore                 | Silver Spurs                | Bethel A/G (Askewville, NC)          |   305 |  33.89 |    2 |
-|   17 | Joy Okafor                    | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |   280 |  31.11 |    2 |
-|   17 | Daniel Kinger                 | Blazing Swords              | West County (Chesterfield, MO)       |   280 |  31.11 |    2 |
-|   18 | Connell Donoghue              | Tallahassee Freedom         | Freedom Church (Tallahassee, FL)     |   255 |  28.33 |      |
-|   19 | Luke Yoder                    | S.P.Y. Kids 007             | The Worship Center (Leesburg, VA)    |   250 |  27.78 |    1 |
-|   20 | Jaret Williams                | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |   245 |  27.22 |      |
-|   21 | Daniel Castello               | Silver Spurs                | Bethel A/G (Askewville, NC)          |   235 |  26.11 |    1 |
-|   22 | Eliott Gathman                | Blazing Swords              | West County (Chesterfield, MO)       |   215 |  23.89 |      |
-|   23 | Toby Robinson                 | Los Chicos                  | City Church (Sanford, FL)            |   205 |  22.78 |      |
-|   24 | Abby Bailey                   | Harrison Thrashers          | Faith A/G (Harrison, AR)             |   180 |  20.00 |    1 |
-|   25 | Ruth Anne Sanderson           | Evangel Qwizzlers           | Evangel Church (Scotch Plains, NJ)   |   175 |  19.44 |    1 |
-|   26 | Sarah Judd                    | S.P.Y. Kids 007             | The Worship Center (Leesburg, VA)    |   150 |  16.67 |      |
-|   27 | Benshel Bright                | Evangel Qwizzlers           | Evangel Church (Scotch Plains, NJ)   |   145 |  16.11 |      |
-|   28 | Noble Frazier                 | Tallahassee Freedom         | Freedom Church (Tallahassee, FL)     |   135 |  15.00 |      |
-|   29 | Stanley Thomas                | Evangel Qwizzlers           | Evangel Church (Scotch Plains, NJ)   |   100 |  11.11 |      |
-|   30 | Hope Richards                 | Tallahassee Freedom         | Freedom Church (Tallahassee, FL)     |    85 |   9.44 |      |
-|   30 | Rebecca Ramnauth              | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |    85 |   9.44 |      |
-|   31 | Kerigan Bradshaw              | Harrison Thrashers          | Faith A/G (Harrison, AR)             |    80 |   8.89 |      |
-|   32 | Joy Richards                  | Tallahassee Freedom         | Freedom Church (Tallahassee, FL)     |    50 |   5.56 |      |
-|   32 | Jeremiah Umali                | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |    50 |   5.56 |      |
-|   32 | Kaleb Smith                   | Blazing Swords              | West County (Chesterfield, MO)       |    50 |   5.56 |      |
-|   33 | Brianna Haufman               | Evangel Qwizzlers           | Evangel Church (Scotch Plains, NJ)   |    40 |   4.44 |      |
-|   33 | Shashendri DeSilva            | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |    40 |   4.44 |      |
-|   34 | Aubrey Goss                   | Los Chicos                  | City Church (Sanford, FL)            |    30 |   3.33 |      |
-|   34 | Jonathan Robinson             | Los Chicos                  | City Church (Sanford, FL)            |    30 |   3.33 |      |
-|   35 | Colton Hoggard                | Silver Spurs                | Bethel A/G (Askewville, NC)          |    25 |   2.78 |      |
-|   36 | Claire Richardson             | Grace Assembly of God       | Grace A/G (New Whiteland, IN)        |    20 |   2.22 |      |
-|   37 | Andrea Little                 | Grace Assembly of God       | Grace A/G (New Whiteland, IN)        |    10 |   1.11 |      |
-|   38 | Jonathan Huber                | Los Chicos                  | City Church (Sanford, FL)            |     5 |    .56 |      |
-|   39 | Julie Huber                   | Los Chicos                  | City Church (Sanford, FL)            |       |    .00 |      |
-|   39 | Christon Stewart              | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |       |    .00 |      |
-|   39 | Laura Henderson               | Harrison Thrashers          | Faith A/G (Harrison, AR)             |       |    .00 |      |
-|   40 | Nicole DeSilva                | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |   -30 |  -3.33 |      |
+|    # | Quizzer                 | Team                        | Church                               | Total |    Avg |   QO |
+| ---: | ----------------------- | --------------------------- | ------------------------------------ | ----: | -----: | ---: |
+|    1 | Stephen Thomas          | Evangel Qwizzlers           | Evangel Church (Scotch Plains, NJ)   |  1150 | 127.78 |    7 |
+|    2 | Hannah Stephens         | Tallahassee Freedom         | Freedom Church (Tallahassee, FL)     |   990 | 110.00 |    4 |
+|    3 | Alexandra E. E. Ross    | Bible Cadets                | Ross Prep. Academy (Fallbrook, CA)   |   745 |  82.78 |    1 |
+|    4 | Alissa Garrett          | Grace Assembly of God       | Grace A/G (New Whiteland, IN)        |   640 |  71.11 |    1 |
+|    5 | Luke Richardson         | Grace Assembly of God       | Grace A/G (New Whiteland, IN)        |   610 |  67.78 |    2 |
+|    6 | Josh Rozelle            | S.P.Y. Kids 007             | The Worship Center (Leesburg, VA)    |   605 |  67.22 |    1 |
+|    7 | Alyssa Harden           | Silver Spurs                | Bethel A/G (Askewville, NC)          |   555 |  61.67 |    1 |
+|    8 | Sarah Kinger            | Blazing Swords              | West County (Chesterfield, MO)       |   505 |  56.11 |    1 |
+|    9 | Evan Still              | Harrison Thrashers          | Faith A/G (Harrison, AR)             |   470 |  52.22 |      |
+|   10 | Beatrice-Elizabeth Ross | Bible Cadets                | Ross Prep. Academy (Fallbrook, CA)   |   435 |  48.33 |    5 |
+|   11 | Makenzie Bradshaw       | Harrison Thrashers          | Faith A/G (Harrison, AR)             |   435 |  48.33 |      |
+|   11 | Benjamin Judd           | S.P.Y. Kids 007             | The Worship Center (Leesburg, VA)    |   435 |  48.33 |      |
+|   12 | Aidan Strain            | Grace Assembly of God       | Grace A/G (New Whiteland, IN)        |   395 |  43.89 |    4 |
+|   13 | Matthew Robinson        | Los Chicos                  | City Church (Sanford, FL)            |   390 |  43.33 |    1 |
+|   14 | Jeanette Surajbali      | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |   320 |  35.56 |      |
+|   15 | Peyton Goss             | Los Chicos                  | City Church (Sanford, FL)            |   315 |  35.00 |      |
+|   16 | Will Bazemore           | Silver Spurs                | Bethel A/G (Askewville, NC)          |   305 |  33.89 |    2 |
+|   17 | Joy Okafor              | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |   280 |  31.11 |    2 |
+|   17 | Daniel Kinger           | Blazing Swords              | West County (Chesterfield, MO)       |   280 |  31.11 |    2 |
+|   18 | Connell Donoghue        | Tallahassee Freedom         | Freedom Church (Tallahassee, FL)     |   255 |  28.33 |      |
+|   19 | Luke Yoder              | S.P.Y. Kids 007             | The Worship Center (Leesburg, VA)    |   250 |  27.78 |    1 |
+|   20 | Jaret Williams          | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |   245 |  27.22 |      |
+|   21 | Daniel Castello         | Silver Spurs                | Bethel A/G (Askewville, NC)          |   235 |  26.11 |    1 |
+|   22 | Eliott Gathman          | Blazing Swords              | West County (Chesterfield, MO)       |   215 |  23.89 |      |
+|   23 | Toby Robinson           | Los Chicos                  | City Church (Sanford, FL)            |   205 |  22.78 |      |
+|   24 | Abby Bailey             | Harrison Thrashers          | Faith A/G (Harrison, AR)             |   180 |  20.00 |    1 |
+|   25 | Ruth Anne Sanderson     | Evangel Qwizzlers           | Evangel Church (Scotch Plains, NJ)   |   175 |  19.44 |    1 |
+|   26 | Sarah Judd              | S.P.Y. Kids 007             | The Worship Center (Leesburg, VA)    |   150 |  16.67 |      |
+|   27 | Benshel Bright          | Evangel Qwizzlers           | Evangel Church (Scotch Plains, NJ)   |   145 |  16.11 |      |
+|   28 | Noble Frazier           | Tallahassee Freedom         | Freedom Church (Tallahassee, FL)     |   135 |  15.00 |      |
+|   29 | Stanley Thomas          | Evangel Qwizzlers           | Evangel Church (Scotch Plains, NJ)   |   100 |  11.11 |      |
+|   30 | Hope Richards           | Tallahassee Freedom         | Freedom Church (Tallahassee, FL)     |    85 |   9.44 |      |
+|   30 | Rebecca Ramnauth        | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |    85 |   9.44 |      |
+|   31 | Kerigan Bradshaw        | Harrison Thrashers          | Faith A/G (Harrison, AR)             |    80 |   8.89 |      |
+|   32 | Joy Richards            | Tallahassee Freedom         | Freedom Church (Tallahassee, FL)     |    50 |   5.56 |      |
+|   32 | Jeremiah Umali          | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |    50 |   5.56 |      |
+|   32 | Kaleb Smith             | Blazing Swords              | West County (Chesterfield, MO)       |    50 |   5.56 |      |
+|   33 | Brianna Haufman         | Evangel Qwizzlers           | Evangel Church (Scotch Plains, NJ)   |    40 |   4.44 |      |
+|   33 | Shashendri DeSilva      | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |    40 |   4.44 |      |
+|   34 | Aubrey Goss             | Los Chicos                  | City Church (Sanford, FL)            |    30 |   3.33 |      |
+|   34 | Jonathan Robinson       | Los Chicos                  | City Church (Sanford, FL)            |    30 |   3.33 |      |
+|   35 | Colton Hoggard          | Silver Spurs                | Bethel A/G (Askewville, NC)          |    25 |   2.78 |      |
+|   36 | Claire Richardson       | Grace Assembly of God       | Grace A/G (New Whiteland, IN)        |    20 |   2.22 |      |
+|   37 | Andrea Little           | Grace Assembly of God       | Grace A/G (New Whiteland, IN)        |    10 |   1.11 |      |
+|   38 | Jonathan Huber          | Los Chicos                  | City Church (Sanford, FL)            |     5 |    .56 |      |
+|   39 | Julie Huber             | Los Chicos                  | City Church (Sanford, FL)            |       |    .00 |      |
+|   39 | Christon Stewart        | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |       |    .00 |      |
+|   39 | Laura Henderson         | Harrison Thrashers          | Faith A/G (Harrison, AR)             |       |    .00 |      |
+|   40 | Nicole DeSilva          | Bethlehem Church Fast Track | Bethlehem Church (Richmond Hill, NY) |   -30 |  -3.33 |      |
 
 
 ### Gray

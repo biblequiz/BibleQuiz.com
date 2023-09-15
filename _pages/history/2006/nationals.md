@@ -1295,7 +1295,7 @@ Playoff: Won against James River A/G, "Joy", Ozark, MO
 * **Team**:
     * Chris Teeny
     * Inga O'Connor
-    * J.P. O'Connor
+    * JP O'Connor
     * Pherrah Gosnell
 * **Preliminaries**:
   * Round 1: Lost to Watford City A/G, Watford City, ND 165 to 170

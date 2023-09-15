@@ -232,7 +232,7 @@ In the challenger division, Billy Branham (1) was the only quizzer to achieve a 
 | **40\*** | Tierney Gillihan  | Kuna, ID                      |   350 |  18.42 |    3 |
 |       42 | Ross Toeller      | Racine, WI                    |   340 |  17.89 |    3 |
 |       43 | Heidee Kolenda    | Menominee, MI                 |   330 |  17.37 |      |
-|       44 | H. David Kolenda  | Menominee, MI                 |   310 |  16.32 |      |
+|       44 | David Kolenda     | Menominee, MI                 |   310 |  16.32 |      |
 |       45 | Marshall Kobylski | Bowling Green, OH             |   305 |  16.05 |    1 |
 |       46 | Sreya Santhosh    | Bellevue, WA                  |   300 |  15.79 |      |
 |       47 | Thomas Pryer      | White Cloud, MI               |   220 |  11.58 |    1 |

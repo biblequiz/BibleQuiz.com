@@ -150,7 +150,7 @@ menubar_toc_static:
 |        # | Quizzer            | Team                                  | Total |   Avg |   QO |   Q% |
 | -------: | ------------------ | ------------------------------------- | ----: | ----: | ---: | ---: |
 |        1 | Shawn Timothy      | Naperville-IL (Naperville (C))        |  2045 | 136.3 |   13 |  93% |
-|        2 | Samuel E. Jebaraj  | San Jose-CA (Warriors of the faith)   |  1975 | 131.7 |   14 |  88% |
+|        2 | Samuel Jebaraj     | San Jose-CA (Warriors of the faith)   |  1975 | 131.7 |   14 |  88% |
 |        3 | Grace Searcy       | Lawson-MO (Lawson-Connie )            |  1420 |  94.7 |    5 |  85% |
 |        4 | Elijah Stewart     | Tallahassee-FL (More Than Conquerors) |  1375 |  91.7 |   11 |  82% |
 |        5 | Chineme Oriaku     | Wayne-NJ (CTI - JOY)                  |  1270 |  84.7 |    6 |  80% |
@@ -609,7 +609,7 @@ menubar_toc_static:
 
 |        # | Quizzer            | Team                                               | Total |   Avg |   QO |   Q% |
 | -------: | ------------------ | -------------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Samuel E. Jebaraj  | San Jose-CA (Warriors of the faith)                |  1120 | 124.4 |    7 |  87% |
+|        1 | Samuel Jebaraj     | San Jose-CA (Warriors of the faith)                |  1120 | 124.4 |    7 |  87% |
 |        2 | Shekinah Isaiah    | Bothell-WA (Cedar Park Eagles)                     |   950 | 105.6 |    3 |  89% |
 |        3 | Remi Briglin       | Monmouth Junction-NJ (Knights 4 Christ -Salvation) |   895 |  99.4 |    3 |  91% |
 |        4 | Abel Karthik       | Gahanna-OH (Fluffy Panda Quizzers)                 |   805 |  89.4 |    2 |  78% |

@@ -9,7 +9,7 @@ image: "decmber.jpg"
 published: true
 ---
 
-Here is the December 2017 edition of the National Bible Quiz Newsletter.
+Here is the December 2017 edition of the National Bible Quiz Newsletter.
 
 <a href="{% link assets/2017/Dec_2017.pdf %}" class="button is-primary">Download Now</a>
 

@@ -82,7 +82,7 @@ menubar_toc_static:
 |   36 | James Blount        | Glad Tidings AG        | Glad Tidings AG - Tinton Falls NJ       |    25 |   2.27 |      |
 |   37 | Jeffrey Bradley     | New Day AG             | New Day AG - Upper Saint Clair PA       |    20 |   1.82 |      |
 |   37 | Jason Czerniejewski | New Day AG             | New Day AG - Upper Saint Clair PA       |    20 |   1.82 |      |
-|   38 | Corey Ott Jr.       | Glad Tidings AG        | Glad Tidings AG - Tinton Falls NJ       |       |    .00 |      |
+|   38 | Corey Ott, Jr.      | Glad Tidings AG        | Glad Tidings AG - Tinton Falls NJ       |       |    .00 |      |
 |   38 | Matthew Gerhauser   | The Pointless Utensils | Resurgence Church - Mastic NY           |       |    .00 |      |
 |   38 | Madeline Jones      | Don't Think            | Redeemer Church - Utica NY              |       |    .00 |      |
 |   38 | Audrey Han          | The Pointless Utensils | Resurgence Church - Mastic NY           |       |    .00 |      |

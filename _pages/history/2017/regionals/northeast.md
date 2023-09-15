@@ -20,7 +20,7 @@ menubar_toc_static:
 
 |    # | Team                                           | Church              | W/L    | Total |    Avg |
 | ---: | ---------------------------------------------- | ------------------- | ------ | ----: | -----: |
-|    1 | Maple Lane A/G \"Final Greetings\"             | Deposit, NY         | 17/0   |  3845 | 226.18 |
+|    1 | Maple Lane A/G "Final Greetings"               | Deposit, NY         | 17/0   |  3845 | 226.18 |
 |    2 | Newport A/G-Torn Between the Two?              | Newport, PA         | 13/4   |  2645 | 155.59 |
 |    3 | MCC-Fine-Sounding Four                         | Mechanicsville, VA  | 13/4   |  2575 | 151.47 |
 |    4 | Word of Life Assembly-Ambassadors in Chains    | Springfield, VA     | 11/6   |  2740 | 161.18 |
@@ -30,7 +30,7 @@ menubar_toc_static:
 |    8 | Allison Park Church-Grumbling Stomachs         | Allison Park, PA    | 10 / 7 |  1950 | 114.71 |
 |    9 | Kennebec Valley A/G-Keep In Step               | Chelsea, ME         | 10 / 7 |  2090 | 122.94 |
 |   10 | Bethany Church #1                              | Wyckoff, NJ         | 8/9    |  2200 | 129.41 |
-|   11 | Maple Lane A/G \"The Untitled Team\"           | Deposit, NY         | 8/9    |  2070 | 121.76 |
+|   11 | Maple Lane A/G "The Untitled Team"             | Deposit, NY         | 8/9    |  2070 | 121.76 |
 |   12 | Cornerstone Church-Chief Cornerstone           | Bowie, MD           | 7/10   |  1815 | 106.76 |
 |   13 | Smithtown Gospel                               | Smithtown, NY       | 7/10   |  1600 |  94.12 |
 |   14 | FOLC-God's Humble Servants                     | Burlington, NJ      | 4/13   |  1050 |  61.76 |
@@ -49,7 +49,7 @@ menubar_toc_static:
 |    2 | Katrina Dowdy     | LHWC-Depth of Nsyte                            | Swedesboro, NJ      |  1885 | 110.88 |   15 |
 |    3 | Nigus Dawit       | Word of Life Assembly-Ambassadors in Chains    | Springfield, VA     |  1860 | 109.41 |   13 |
 |    4 | Madison Holcomb   | Evangel Heights A/G-Without Wrinkle or Blemish | Sarver, PA          |  1585 |  93.24 |   10 |
-|    5 | Judah Stevens     | Maple Lane A/G \"Final Greetings\"             | Deposit, NY         |  1450 |  85.29 |   12 |
+|    5 | Judah Stevens     | Maple Lane A/G "Final Greetings"               | Deposit, NY         |  1450 |  85.29 |   12 |
 |    6 | Joel Larson       | Allison Park Church-Grumbling Stomachs         | Allison Park, PA    |  1385 |  81.47 |   10 |
 |    7 | Seth Robertson    | Central A/G-Great Endurance                    | Houston, PA         |  1365 |  80.29 |   12 |
 |    8 | Phoebe Hoffman    | MCC-Fine-Sounding Four                         | Mechanicsville, VA  |  1220 |  71.76 |   11 |
@@ -57,11 +57,11 @@ menubar_toc_static:
 |   10 | Josiah Bartlett   | Kennebec Valley A/G-Keep In Step               | Chelsea, ME         |  1080 |  63.53 |    8 |
 |   11 | Marc Smith        | Cornerstone Church-Chief Cornerstone           | Bowie, MD           |  1025 |  60.29 |    7 |
 |   12 | Liam Bartlett     | Kennebec Valley A/G-Keep In Step               | Chelsea, ME         |  1010 |  59.41 |    7 |
-|   12 | Graham Hoffmann   | Maple Lane A/G \"The Untitled Team\"           | Deposit, NY         |  1010 |  59.41 |    7 |
-|   13 | Solomon Stevens   | Maple Lane A/G \"Final Greetings\"             | Deposit, NY         |  1005 |  59.12 |    9 |
+|   12 | Graham Hoffmann   | Maple Lane A/G "The Untitled Team"             | Deposit, NY         |  1010 |  59.41 |    7 |
+|   13 | Solomon Stevens   | Maple Lane A/G "Final Greetings"               | Deposit, NY         |  1005 |  59.12 |    9 |
 |   14 | Rachel Adelmann   | Bethany Church #1                              | Wyckoff, NJ         |   985 |  57.94 |    4 |
-|   15 | Christian Stevens | Maple Lane A/G \"The Untitled Team\"           | Deposit, NY         |   930 |  54.71 |   11 |
-|   16 | Caleb Hoffmann    | Maple Lane A/G \"Final Greetings\"             | Deposit, NY         |   840 |  49.41 |    6 |
+|   15 | Christian Stevens | Maple Lane A/G "The Untitled Team"             | Deposit, NY         |   930 |  54.71 |   11 |
+|   16 | Caleb Hoffmann    | Maple Lane A/G "Final Greetings"               | Deposit, NY         |   840 |  49.41 |    6 |
 |   17 | Hava Parker       | Pleasant Valley AG-Perplexed About You         | Broadheadsville, PA |   810 |  47.65 |    6 |
 |   18 | Hannah Hill       | LHWC-Depth of Nsyte                            | Swedesboro, NJ      |   790 |  46.47 |    6 |
 |   19 | Sydney Bollinger  | Evangel Heights A/G-Without Wrinkle or Blemish | Sarver, PA          |   735 |  43.24 |    6 |
@@ -72,7 +72,7 @@ menubar_toc_static:
 |   24 | Divya Mathews     | Word of Life Assembly-Ambassadors in Chains    | Springfield, VA     |   570 |  33.53 |    2 |
 |   25 | Juliann Surette   | Pleasant Valley AG-Perplexed About You         | Broadheadsville, PA |   560 |  32.94 |    6 |
 |   26 | Sarah Wong        | Smithtown Gospel                               | Smithtown, NY       |   555 |  32.65 |    3 |
-|   27 | Ethan Hoffmann    | Maple Lane A/G \"Final Greetings\"             | Deposit, NY         |   550 |  32.35 |    2 |
+|   27 | Ethan Hoffmann    | Maple Lane A/G "Final Greetings"               | Deposit, NY         |   550 |  32.35 |    2 |
 |   28 | Cayla Brodeur     | Bethany Church #1                              | Wyckoff, NJ         |   530 |  31.18 |    4 |
 |   29 | Ronald Barr       | Bethel Church                                  | Blackwood, NJ       |   510 |  30.00 |    2 |
 |   30 | Sophie Di Iorio   | Bethany Church #2                              | Wyckoff, NJ         |   480 |  28.24 |    1 |
@@ -90,7 +90,7 @@ menubar_toc_static:
 |   41 | Emily Larson      | Allison Park Church-Grumbling Stomachs         | Allison Park, PA    |   175 |  10.29 |      |
 |   42 | Joel Thompson     | Cornerstone Church-Chief Cornerstone           | Bowie, MD           |   155 |   9.12 |      |
 |   43 | Tosin Oladipo     | Metuchen A/G                                   | Metuchen, NJ        |   140 |   8.24 |      |
-|   44 | Pete Spiak        | Maple Lane A/G \"The Untitled Team\"           | Deposit, NY         |   135 |   7.94 |      |
+|   44 | Pete Spiak        | Maple Lane A/G "The Untitled Team"             | Deposit, NY         |   135 |   7.94 |      |
 |   45 | Mariah Thompson   | Cornerstone Church-Chief Cornerstone           | Bowie, MD           |   130 |   7.65 |      |
 |   46 | Todd Pettet       | Bethany Church #2                              | Wyckoff, NJ         |   125 |   7.35 |      |
 |   46 | Savannah Cosme    | FOLC-God's Humble Servants                     | Burlington, NJ      |   125 |   7.35 |      |

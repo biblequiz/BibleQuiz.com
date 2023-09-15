@@ -13,7 +13,7 @@ Here is the April 2017 edition of the National Coaches' Newsletter. It is much s
 
 <a href="{% link assets/2017/Apr-2017.pdf %}" class="button is-primary">Download Now</a>
 
-**Be on the lookout for a SPECIAL coaches' newsletter next week!**
+**Be on the lookout for a SPECIAL coaches' newsletter next week!**
 
 You can quickly subscribe to the National Coaches' Newsletter by visiting BibleQuiz.com/subscribe.
 

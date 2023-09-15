@@ -42,7 +42,7 @@ The top quizzer at the 1981 National Finals was Kari Brodin of Renton A/G, Rento
 |    7 | Greely First A/G, Greely, CO      | 2 / 5  |   865 | 123.57 |   -415 |     -59.29 |
 |    8 | First A/G, Tecumseh, OK           | 0 / 7  |   865 | 123.57 |   -515 |     -73.57 |
 
-\* Won 1st Place Playoff
+\* Won 1st Place Playoff
 
 ### Individuals
 

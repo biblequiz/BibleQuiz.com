@@ -16,7 +16,7 @@ The BibleQuiz.com logo has been simplified to a modest "BQ" and is now consisten
 
 ### A New Website
 
-Smartphones and tablets can enjoy the same comfortable viewing experience on BibleQuiz.com that laptops and desktops have for years. With the new framework it's built on, the site is now more flexible than it has ever been.
+Smartphones and tablets can enjoy the same comfortable viewing experience on BibleQuiz.com that laptops and desktops have for years. With the new framework it's built on, the site is now more flexible than it has ever been.
 
 Because of the way BibleQuiz.com has been maintained over the years, every page is still not up-to-date with the latest redesign, particularly pages in the History section. If you spot a page outside of the History section that needs to be updated, please leave a comment below.
 

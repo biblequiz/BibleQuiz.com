@@ -136,7 +136,7 @@ If possible, ties are broken by number of quiz-outs.
 |       62 | Zachary Freer         | Orlando FL                                    |   100 |   5.26 |      |
 |       63 | Jared Hill            | Swedesboro NJ                                 |    75 |   3.95 |      |
 |       64 | Arinze Onyenezi       | Houston TX Braeswood                          |    35 |   1.84 |    1 |
-|       65 | J. David Smith        | Lexington KY-Donut Holes                      |    35 |   1.84 |      |
+|       65 | David Smith           | Lexington KY-Donut Holes                      |    35 |   1.84 |      |
 | **65\*** | Alex Cheski           | Garfield NJ                                   |    35 |   1.84 |      |
 |       67 | Marshall Kobylski     | Bowling Green OH-Am Herratz                   |    25 |   1.32 |      |
 |       68 | Hailey DePriest       | Ozark MO Sufficient Grace                     |    15 |   0.79 |      |
@@ -238,7 +238,7 @@ If possible, ties are broken by number of quiz-outs.
 |       50 | Kenadee Schrock     | Radiant Life                     |   135 |   7.11 |      |
 |       51 | Tyler Roesler       | Crosspoint A/G                   |   130 |   6.84 |      |
 |       52 | Sarah Murdy         | Faith A/G                        |   120 |   6.32 |      |
-|       53 | Rodney Brown Jr.    | Evangel Community                |   110 |   5.79 |      |
+|       53 | Rodney Brown        | Evangel Community                |   110 |   5.79 |      |
 |       54 | Tim Pyle            | Houston, TX                      |   105 |   5.53 |      |
 |       55 | David Willis        | First A/G                        |    85 |   4.47 |      |
 |       56 | Seth Urbina         | Highpointe Church-Super Apostles |    55 |   2.89 |      |

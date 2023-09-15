@@ -32,7 +32,7 @@ menubar_toc_static:
 
 |    # | Quizzer           | Team                           | Church           | Total |    Avg |   QO |
 | ---: | ----------------- | ------------------------------ | ---------------- | ----: | -----: | ---: |
-|    1 | P.J. Grigg        | Enslaved & Mistreated          | Briargate        |  1210 | 100.83 |   10 |
+|    1 | PJ Grigg          | Enslaved & Mistreated          | Briargate        |  1210 | 100.83 |   10 |
 |    2 | Joanna Duka       | Flying Penguins                | Paradise Hills   |  1120 |  93.33 |    8 |
 |    3 | Andrew Kelley     | Enslaved & Mistreated          | Briargate        |  1080 |  90.00 |    9 |
 |    4 | Jonathan Barthuly | Hoping To Reach Phoenix        | Orange County WC |  1075 |  89.58 |    7 |

@@ -31,18 +31,18 @@ menubar_toc_static:
 
 ### Top Individuals
 
-| Quizzer             | Team              | Total |  Avg |
-| ------------------- | ----------------- | ----: | ---: |
-| Christine McKibben  | Under Grace       |   650 |  108 |
-| Ariel Brookbank     | Overland Park     |   595 |   99 |
-| Jessica Seigel      | Living Sacrafices |   530 |   88 |
-| Matt Brookbank      | Overland Park     |   525 |   87 |
-| Chelsea Brookbank   | Overland Park     |   400 |   67 |
-| Sidney Shannon      | Under Grace       |   270 |   45 |
-| Hannah Joens        | Topeka 1st #1     |   270 |   45 |
-| Nii Kpakpo Abrahams | Under Grace       |   170 |   28 |
-| Josh Peoples        | Topeka 1st #1     |   140 |   23 |
-| Luke Hull           | Manhattan         |    60 |   10 |
+| Quizzer            | Team              | Total |  Avg |
+| ------------------ | ----------------- | ----: | ---: |
+| Christine McKibben | Under Grace       |   650 |  108 |
+| Ariel Brookbank    | Overland Park     |   595 |   99 |
+| Jessica Seigel     | Living Sacrafices |   530 |   88 |
+| Matt Brookbank     | Overland Park     |   525 |   87 |
+| Chelsea Brookbank  | Overland Park     |   400 |   67 |
+| Sidney Shannon     | Under Grace       |   270 |   45 |
+| Hannah Joens       | Topeka 1st #1     |   270 |   45 |
+| Nii Abrahams       | Under Grace       |   170 |   28 |
+| Josh Peoples       | Topeka 1st #1     |   140 |   23 |
+| Luke Hull          | Manhattan         |    60 |   10 |
 
 ## Novice Division
 
@@ -55,13 +55,13 @@ menubar_toc_static:
 
 ### Top Individuals
 
-| Quizzer           | Team       | Total |  Avg |
-| ----------------- | ---------- | ----: | ---: |
-| Nii Addo Abrahams | Outspoken  |   205 |   41 |
-| Michael Peoples   | Topeka 1st |   180 |   36 |
-| Cole Kuenzi       | Topeka 1st |    95 |   19 |
-| Trey Shannon      | Outspoken  |    65 |   13 |
-| Bailey Cole       | Topeka 1st |    20 |    4 |
+| Quizzer         | Team       | Total |  Avg |
+| --------------- | ---------- | ----: | ---: |
+| Nii Abrahams    | Outspoken  |   205 |   41 |
+| Michael Peoples | Topeka 1st |   180 |   36 |
+| Cole Kuenzi     | Topeka 1st |    95 |   19 |
+| Trey Shannon    | Outspoken  |    65 |   13 |
+| Bailey Cole     | Topeka 1st |    20 |    4 |
 
 ## One-on-One Tournament
 

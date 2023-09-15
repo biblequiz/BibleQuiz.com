@@ -61,18 +61,18 @@ menubar_toc_static:
 
 ### Top Individuals
 
-|    # | Quizzer                | Team                                                  | Total |   QO |    Avg |
-| ---: | ---------------------- | ----------------------------------------------------- | ----: | ---: | -----: |
-|    1 | Mary Mox               | Covenant Fellowship, Glen Mills "Adelphoi"            |   760 |    6 | 126.67 |
-|    2 | Zach Misak             | South Hills A/G, Bethel Park "Ambassadors in Chains"  |   710 |    6 | 118.33 |
-|    3 | Seth Bartynski         | Emmanuel A/G, Allentown "G.U.E.S.S."                  |   305 |    1 |  50.83 |
-|    4 | Jacob Schwalm          | Living Waters Chapel, Lebanon "Indecisive Discipler"  |   295 |    2 |  49.17 |
-|    5 | Callie Weitzel         | Living Waters Chapel, Lebanon "Indecisive Discipler"  |   250 |    1 |  41.67 |
-|    6 | Joshua Hummel          | Living Waters Chapel, Lebanon "Indecisive Discipler"  |   230 |    2 |  38.33 |
-|    7 | Christopher R. Capaldi | Calvary Temple, Philadelphia "Saints"                 |   190 |    2 |  31.67 |
-|    8 | Ryan Dunkelberger      | Christian Life A/G, Chambersburg "The Exhortationist" |   190 |    0 |  31.67 |
-|    9 | Hannah Barton          | Evangel Heights A/G, Sarver "I Do Not Know"           |   150 |    0 |  25.00 |
-|   10 | Ian Dickey             | South Hills A/G, Bethel Park "Ambassadors in Chains"  |   130 |    0 |  21.67 |
+|    # | Quizzer             | Team                                                  | Total |   QO |    Avg |
+| ---: | ------------------- | ----------------------------------------------------- | ----: | ---: | -----: |
+|    1 | Mary Mox            | Covenant Fellowship, Glen Mills "Adelphoi"            |   760 |    6 | 126.67 |
+|    2 | Zach Misak          | South Hills A/G, Bethel Park "Ambassadors in Chains"  |   710 |    6 | 118.33 |
+|    3 | Seth Bartynski      | Emmanuel A/G, Allentown "G.U.E.S.S."                  |   305 |    1 |  50.83 |
+|    4 | Jacob Schwalm       | Living Waters Chapel, Lebanon "Indecisive Discipler"  |   295 |    2 |  49.17 |
+|    5 | Callie Weitzel      | Living Waters Chapel, Lebanon "Indecisive Discipler"  |   250 |    1 |  41.67 |
+|    6 | Joshua Hummel       | Living Waters Chapel, Lebanon "Indecisive Discipler"  |   230 |    2 |  38.33 |
+|    7 | Christopher Capaldi | Calvary Temple, Philadelphia "Saints"                 |   190 |    2 |  31.67 |
+|    8 | Ryan Dunkelberger   | Christian Life A/G, Chambersburg "The Exhortationist" |   190 |    0 |  31.67 |
+|    9 | Hannah Barton       | Evangel Heights A/G, Sarver "I Do Not Know"           |   150 |    0 |  25.00 |
+|   10 | Ian Dickey          | South Hills A/G, Bethel Park "Ambassadors in Chains"  |   130 |    0 |  21.67 |
 
 ## B Division
 

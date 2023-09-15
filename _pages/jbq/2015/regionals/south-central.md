@@ -81,7 +81,7 @@ menubar_toc_static:
 |   32 | Mathew Aneke         | Gods SuperStars          | Braeswood Asemby of God Church  |   835 |  39.76 |    9 |
 |   33 | Josh Rose            | Blood Bought Brothers \* | The Bridge                      |   820 |  39.05 |      |
 |   34 | Alyssa Johnson       | Miami Mustaches          | Miami 1st AG                    |   815 |  38.81 |    2 |
-|   35 | Daniyy'El Gonzales   | Dallas Dyanmite          | Dallas 1st AG                   |   815 |  38.81 |      |
+|   35 | Daniyy'El Gonzalez   | Dallas Dyanmite          | Dallas 1st AG                   |   815 |  38.81 |      |
 |   36 | MKayla McDaniel      | Undignified \*           | 1st AG                          |   795 |  37.86 |    9 |
 |   37 | Jett King            | Blood Bought Brothers \* | The Bridge                      |   760 |  36.19 |      |
 |   38 | Hector Rivera        | En Fuego                 | Waxahachie Bethesda AG          |   750 |  35.71 |    3 |
