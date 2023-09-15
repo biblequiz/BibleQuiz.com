@@ -176,7 +176,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 |        3 | Lydia Butay          | Tulsa OK            |  1585 | 83.42 |     10 |     3 |
 |        4 | Patti Sunseri        | Spring City PA      |  1440 | 75.79 |      6 |     4 |
 |        5 | Bryce Steel          | Toledo OH           |  1225 | 64.47 |      7 |    10 |
-|        6 | John DeGray Jr       | Milaca MN           |  1020 | 53.68 |      7 |     8 |
+|        6 | John DeGray, Jr      | Milaca MN           |  1020 | 53.68 |      7 |     8 |
 |        7 | Rachel May           | Cedar Rapids IA     |   995 | 52.37 |      2 |     1 |
 |        8 | Jed Gosnell          | Tacoma WA #1        |   990 | 52.11 |      2 |     1 |
 |        9 | Brandy Steel         | Toledo OH           |   855 |    45 |      5 |     2 |
@@ -192,7 +192,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 |       19 | Katie Graham         | Cedar Rapids IA     |   560 | 29.47 |      2 |     3 |
 |       20 | Cody Conway          | Orange TX           |   550 | 28.95 |      1 |     6 |
 |       21 | Pherrah Gosnell      | Tacoma WA #2        |   550 | 28.95 |        |       |
-|       22 | Richard Nelson Jr.   | Tacoma WA #1        |   535 | 28.16 |        |     1 |
+|       22 | Richard Nelson       | Tacoma WA #1        |   535 | 28.16 |        |     1 |
 |       23 | Stephen Langford     | Tacoma WA #2        |   470 | 24.74 |      1 |     1 |
 |       24 | Trevor Eastin        | Mesa AZ             |   440 | 23.16 |        |     6 |
 |       25 | Daniel Cooper        | Ozark MO            |   410 | 21.58 |      1 |     5 |
@@ -590,7 +590,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 * **Coaches**: John DeGray, Patrice DeGray (assistant)
 * **Team**:
     * Christopher DeGray
-    * John DeGray Jr.
+    * John DeGray, Jr.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Milaca A/G, Milaca, MN" html=image_html %}

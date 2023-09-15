@@ -38,7 +38,7 @@ menubar_toc_static:
 |    2 | Jaclyn Baker     | "Wild by Nature"         |   94 |
 |    3 | Bryce Jensen     | "Scorching Heat"         |   90 |
 |    4 | Shannon Maynard  | "Rescued Remnant"        |   85 |
-|    5 | J.P. O'Connor    | "Subject to Frustration" |   80 |
+|    5 | JP O'Connor      | "Subject to Frustration" |   80 |
 |    6 | Jenna-Jo Duffy   | "Beyond Blessed"         |   75 |
 |    7 | Michael Smoak    | "Eternal Mystery"        |   66 |
 |    8 | Pherrah Gosnell  | "Subject to Frustration" |   54 |

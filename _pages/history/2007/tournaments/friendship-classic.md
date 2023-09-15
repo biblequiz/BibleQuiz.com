@@ -108,7 +108,7 @@ After 9 preliminary rounds, teams were bracketed 1 - 23 by average scores. The t
 |    # | Quizzer          | City              | Total |   QO |
 | ---: | ---------------- | ----------------- | ----: | ---: |
 |    1 | Rebekah Nivala   | Martha's Vineyard |   490 |    4 |
-|    2 | J.P. O'Connor    | Tacoma            |   455 |    3 |
+|    2 | JP O'Connor      | Tacoma            |   455 |    3 |
 |    3 | Chelsea Convis   | Waterford         |   375 |    4 |
 |    4 | LiAnne Valentin  | Algood            |   285 |    0 |
 |    5 | Chris Teeny      | Tacoma            |   275 |    1 |

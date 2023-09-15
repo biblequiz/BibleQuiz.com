@@ -355,7 +355,7 @@ menubar_toc_static:
 |   41 | Josh Pollard      | Ozark, MO #10     |    -5 |  -0.45 |      0 |     0 |
 |   42 | Seth Keesler      | Holland, MI #2    |    -5 |   -0.5 |      0 |     3 |
 |   43 | Angela Stegink    | Holland, MI #1    |   -10 |     -1 |      0 |     0 |
-|   43 | Jasmine R         | Holland, MI #1    |   -10 |     -1 |      0 |     0 |
+|   43 | Jasmine R.        | Holland, MI #1    |   -10 |     -1 |      0 |     0 |
 
 ## Competitor Division
 

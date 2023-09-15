@@ -69,7 +69,7 @@ menubar_toc_static:
 |   31 | Victoria Thee      | Manassas A/G, Manassas, VA             |   140 |    0 |   12 |
 |   32 | Cynthia Earl       | Evangel A/G, Ephrata, PA "Simon Say    |    85 |    0 |    7 |
 |   33 | Benjamin Nivala    | Vineyard Haven A/G, Vineyard Haven     |    80 |    0 |    7 |
-|   34 | Kerry O'bannon     | Manassas A/G, Manassas, VA             |    50 |    0 |    4 |
+|   34 | Kerry O'Bannon     | Manassas A/G, Manassas, VA             |    50 |    0 |    4 |
 |   35 | Osasha London      | Full Gospel Church, Livingston, NJ     |    30 |    0 |    3 |
 |   36 | Reyna Martin       | Full Gospel Church, Livingston, NJ     |    30 |    0 |    3 |
 |   37 | Stephen Pitterle   | State College A/G, State College, PA " |    15 |    0 |    1 |

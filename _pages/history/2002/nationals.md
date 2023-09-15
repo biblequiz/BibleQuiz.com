@@ -75,7 +75,7 @@ The top scorer at the 2002 National Finals was Peter Brown from Orange, CA . Pet
 |       14 | Angela Goodman    | Springfield, MO      |  1030 |  54.21 |      3 |     1 |
 |       15 | Joe Bolognone     | Syracuse, NY         |  1030 |  54.21 |      3 |     2 |
 |       16 | Heather Patterson | Orlando, FL          |   970 |  51.05 |      5 |     1 |
-|       17 | David Herbert Jr. | Allison Park, PA     |   945 |  49.74 |      7 |     3 |
+|       17 | David Herbert     | Allison Park, PA     |   945 |  49.74 |      7 |     3 |
 |       18 | \[Name Omitted\]  | Colorado Springs, CO |   945 |  49.74 |      3 |     7 |
 |       19 | Amanda Pryor      | Fort Worth, TX       |   940 |  49.47 |      5 |     1 |
 |       20 | Jed Gosnell       | Tacoma, WA           |   925 |  48.68 |        |     1 |

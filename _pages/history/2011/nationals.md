@@ -115,7 +115,7 @@ If possible, ties are broken by number of quiz-outs.
 |       44 | Kristyn Jones      | Bristow, VA                   |   375 |  19.74 |    2 |
 |       45 | Sabrina Burkhalter | Orlando, FL                   |   365 |  19.21 |      |
 |       46 | Hannah May         | Cedar Rapids, IA              |   330 |  17.37 |      |
-|       47 | Connor O.Keefe     | Bridgeville, PA               |   255 |  13.42 |    1 |
+|       47 | Connor O'Keefe     | Bridgeville, PA               |   255 |  13.42 |    1 |
 |       48 | Brianna Silvey     | Ozark, MO Nothing False       |   220 |  11.58 |    1 |
 |       49 | Connor McGraw      | Oklahoma City, OK             |   210 |  11.05 |      |
 |       50 | Matthew Samuelson  | Oklahoma City, OK             |   195 |  10.26 |    1 |
@@ -127,13 +127,13 @@ If possible, ties are broken by number of quiz-outs.
 |       56 | Victoria Thee      | Bristow, VA                   |    80 |   4.21 |      |
 |       57 | Leah May           | Cedar Rapids, IA              |    75 |   3.95 |      |
 |       58 | Elissa Beougher    | Mount Vernon, OH              |    70 |   3.68 |      |
-| **58\*** | Kerry O.Bannon     | Bristow, VA                   |    70 |   3.68 |      |
+| **58\*** | Kerry O'Bannon     | Bristow, VA                   |    70 |   3.68 |      |
 |       60 | David Pryer        | White Clound, MI              |    40 |   2.11 |      |
 |       61 | Aaron Jackson      | Owasso, OK                    |    30 |   1.58 |      |
 |       62 | Trey Sederwall     | Garfield, NJ                  |    25 |   1.32 |      |
 |       63 | Anna Kirby         | Houston, TX                   |    10 |   0.53 |      |
 | **63\*** | Seth Urbina        | Oklahoma City, OK             |    10 |   0.53 |      |
-|       65 | E.J. Mintah        | Wesley Chapel, FL             |     5 |   0.26 |      |
+|       65 | EJ Mintah          | Wesley Chapel, FL             |     5 |   0.26 |      |
 | **65\*** | Sidney Mims        | Montgomery, AL                |     5 |   0.26 |      |
 |       67 | Matthew Alfaro     | Oklahoma City, OK             |     0 |      0 |      |
 | **67\*** | Ryan Toeller       | Racine, WI                    |     0 |      0 |      |

@@ -62,7 +62,7 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 | -------: | ------------------- | ---------------------- | ----: | -----: | -----: | ----: |
 |        1 | Jared Burkhalter    | Orlando FL             |  2005 | 105.53 |     14 |     4 |
 |        2 | Brandon Duffy       | Bothell WA             |  1675 |  88.16 |     14 |     2 |
-|        3 | J.P. O'Connor       | Tacoma WA              |  1585 |  83.42 |     11 |     3 |
+|        3 | JP O'Connor         | Tacoma WA              |  1585 |  83.42 |     11 |     3 |
 |        4 | Jesse Czubkowski    | Garfield NJ            |  1570 |  82.63 |      9 |     1 |
 |        5 | Joshua Wagner       | Owasso OK              |  1570 |  82.63 |      9 |     1 |
 |        6 | Jenna-Jo Duffy      | Bothell WA             |  1510 |  79.47 |     12 |     2 |
@@ -1313,7 +1313,7 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 * **Team**:
     * Chris Teeny
     * Mikayla Irle
-    * J.P. O'Connor
+    * JP O'Connor
 * **Preliminaries**:
   * Round 1: Won against New Life A/G, Sparta, WI 175 to 75
   * Round 2: Won against First A/G, Augusta, GA 185 to 5

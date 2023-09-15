@@ -1284,7 +1284,7 @@ Church:	Tacoma Life Center, Tacoma, WA
 Coaches:	Rich Nelson, Rachel Dawson (assistant), Kathy Holley (assistant)
 Team:	Rachel Holley
 Mikayla Irle
-J.P. O'Connor
+JP O'Connor
 * **Preliminaries**:
 Round 1: Lost to Faith A/G, Orlando, FL 150 to 195
 Round 2: Lost to First A/G, Binghamton, NY 130 to 160

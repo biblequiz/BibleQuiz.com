@@ -98,7 +98,7 @@ Photos are provided courtesy of Larry Mullins.
 |       35 | Steven Johnson     | San Angelo TX             |   580 | 30.53 |    1 |
 |       36 | Joshua Slater      | Nixa MO                   |   520 | 27.37 |    4 |
 |       37 | Hillari Wyatt      | Williamsville NY          |   520 | 27.37 |    2 |
-|       38 | J.P. O'Connor      | Tacoma WA                 |   500 | 26.32 |    1 |
+|       38 | JP O'Connor        | Tacoma WA                 |   500 | 26.32 |    1 |
 |       39 | Bailey Steel       | Toledo OH                 |   495 | 26.05 |    1 |
 |       40 | Brianna Forsman    | Houston TX Chr. Temp      |   460 | 24.21 |      |
 |       41 | Spencer Newman     | Superior WI               |   455 | 23.95 |    1 |

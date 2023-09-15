@@ -126,7 +126,7 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 |  **54\*** | Shane Welborn       | First A/G, Fort Myers, FL (Team 2)   |   255 |  11.09 |        |       |
 |        56 | Adam Bennison       | First A/G, Helena, MT                |   250 |  10.87 |        |     2 |
 |        57 | Jennifer Martin     | Harvest A/G, Fort Worth, TX          |   245 |  10.65 |        |       |
-|  **57\*** | Terry Nance, Jr.    | Mountain View A/G, Las Vegas, NV     |   245 |  10.65 |        |     2 |
+|  **57\*** | Terry Nance         | Mountain View A/G, Las Vegas, NV     |   245 |  10.65 |        |     2 |
 |        59 | Kyle Rogers         | Victorious Life, Waco, TX            |   230 |     10 |      1 |     1 |
 |        60 | Eric Peeters        | Life Community Church, Sunnyvale, TX |   210 |   9.13 |        |       |
 |        61 | Laurel Phillips     | First A/G, Helena, MT                |   190 |   8.26 |        |       |
@@ -1024,7 +1024,7 @@ Playoff 1: Lost to Victorious Life Church, Waco, TX 140 to 175
     * Faith Alwood
     * Alex Harris
     * Valerie Marchalonis
-    * Terry Nance, Jr.
+    * Terry Nance
 * **Round Robin**:
   * Round 1: Lost to Alpha A/G, Clarion, PA 75 to 195
   * Round 2: Lost to Watford City A/G, Watford City, ND 45 to 135

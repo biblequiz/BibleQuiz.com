@@ -97,7 +97,7 @@ menubar_toc_static:
 |    9 | Christopher Capaldi | Calvary Temple, Philadelphia, PA "Boanerges"             |   740 |    6 |   62 |
 |   10 | Natasha Conerly     | Word of Life #1, Springfield, VA                         |   720 |    7 |   60 |
 |   11 | Kerry O'Bannon      | Manassas A/G,,Bristow, VA                                |   680 |    7 |   57 |
-|   12 | Johnny Langel       | Newport A/G, Newport, PA "Salteens"                      |   665 |    7 |   55 |
+|   12 | John Langel         | Newport A/G, Newport, PA "Salteens"                      |   665 |    7 |   55 |
 |   13 | Jared Hill          | Living Hope Worship Center, Swedesboro, NJ               |   555 |    5 |   46 |
 |   14 | Elizabeth Beachy    | South Hills A/G, Bethel Park, PA "Faithful Four"         |   525 |    3 |   44 |
 |   15 | Zerubabbel Tessema  | Word of Life #1, Springfield, VA                         |   510 |    5 |   43 |

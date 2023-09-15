@@ -147,84 +147,84 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer                   | Team                               | Church                            | Total |    Avg |   QO |
-| ---: | ------------------------- | ---------------------------------- | --------------------------------- | ----: | -----: | ---: |
-|    1 | Mateo Cuadros             | River of Life                      | River of Life Fellowship          |  1645 | 109.67 |    7 |
-|    2 | Parker Lubbe              | Triple Threat                      | Trinity                           |  1425 |  95.00 |    6 |
-|    3 | Trinity Garza             | Quiz Commanders                    | Proventus Academy                 |  1275 |  85.00 |    5 |
-|    4 | Harrison Stevens          | Naperville                         | Calvary Church - S                |  1210 |  80.67 |    4 |
-|    5 | David Shepard             | Seekers of Truth                   | Charleston 1st AG                 |  1160 |  77.33 |    5 |
-|    6 | Todd Pettet               | BC United                          | Bethany Church                    |  1140 |  76.00 |    4 |
-|    7 | Josh Broxterman           | JAG                                | Jefferson AG                      |  1135 |  75.67 |    2 |
-|    8 | Cayla Brodeur             | BC United                          | Bethany Church                    |  1100 |  73.33 |    2 |
-|    9 | Josh Barajas              | Triple Threat                      | Trinity                           |  1090 |  72.67 |    5 |
-|   10 | Shawn Timothy             | Naperville                         | Calvary Church - S                |  1075 |  71.67 |   12 |
-|   11 | Micah Maynard             | Kingsport Kidz                     | Kingsport 1st AG                  |  1050 |  70.00 |    3 |
-|   12 | Nate Demoff               | Brighton Assembly of God           | Brighton AG                       |  1035 |  69.00 |    5 |
-|   13 | Jeremy Dapaah             | Gushers                            | Chapel Springs Church             |   960 |  64.00 |    4 |
-|   14 | Seth Swain                | McArthur's Mighty Men & WomAn      | Jacksonvill McArthur Church       |   850 |  56.67 |    1 |
-|   15 | Garrett Adelmann          | BC United                          | Bethany Church                    |   800 |  53.33 |    8 |
-|   16 | Samuel Tran               | Gushers                            | Chapel Springs Church             |   800 |  53.33 |    7 |
-|   17 | Faith Caughey             | CIA - Special Agents               | Bethany Community Church          |   800 |  53.33 |    1 |
-|   18 | Landon Grisham            | UFC- United For Christ             | The Bridge                        |   790 |  52.67 |    8 |
-|   19 | Zach Rothwell             | Funky Town Monkeys                 | Life AG                           |   765 |  51.00 |      |
-|   20 | Makayla Demoff            | Brighton Assembly of God           | Brighton AG                       |   740 |  49.33 |      |
-|   21 | Blake Garza               | Quiz Commanders                    | Proventus Academy                 |   735 |  49.00 |    5 |
-|   22 | Andrea Bosteder           | River of Life                      | River of Life Fellowship          |   710 |  47.33 |    8 |
-|   23 | Jared Demoff              | Brighton Assembly of God           | Brighton AG                       |   695 |  46.33 |    8 |
-|   24 | Tabitha Joanna Nirmal     | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA |   660 |  44.00 |    2 |
-|   25 | Emma Hoffmann             | Funky Town Monkeys                 | Life AG                           |   640 |  42.67 |      |
-|   26 | Aryana Campbell           | UFC- United For Christ             | The Bridge                        |   620 |  41.33 |    1 |
-|   27 | Kyler Kaniper             | JAG                                | Jefferson AG                      |   615 |  41.00 |      |
-|   28 | Abeni Feurbacher          | JAG                                | Jefferson AG                      |   600 |  40.00 |    7 |
-|   29 | Tom Hoffmann              | Funky Town Monkeys                 | Life AG                           |   570 |  38.00 |    5 |
-|   30 | Emma Miller               | Triple Threat                      | Trinity                           |   555 |  37.00 |    2 |
-|   31 | Izlia Shepard             | Seekers of Truth                   | Charleston 1st AG                 |   530 |  35.33 |    3 |
-|   32 | David Warren              | Carmel Apples                      | Carmel AG                         |   520 |  34.67 |    1 |
-|   33 | Ethan Rosenbaum           | McArthur's Mighty Men & WomAn      | Jacksonvill McArthur Church       |   505 |  33.67 |      |
-|   34 | Wesley Horn               | UFC- United For Christ             | The Bridge                        |   500 |  33.33 |      |
-|   35 | Michelle Vannelli         | CIA - Special Agents               | Bethany Community Church          |   485 |  32.33 |      |
-|   36 | Hayden Alford             | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA |   480 |  32.00 |      |
-|   37 | Carter Garza              | Quiz Commanders                    | Proventus Academy                 |   445 |  29.67 |    4 |
-|   38 | Morgan Zepp               | Carmel Apples                      | Carmel AG                         |   385 |  25.67 |      |
-|   39 | Ashlyn Wilson             | McArthur's Mighty Men & WomAn      | Jacksonvill McArthur Church       |   305 |  20.33 |    2 |
-|   40 | Faith Dillon              | Carmel Apples                      | Carmel AG                         |   300 |  20.00 |      |
-|   41 | Morgan Peltz              | Funky Town Monkeys                 | Life AG                           |   250 |  16.67 |      |
-|   42 | Maison Ealum              | Carmel Apples                      | Carmel AG                         |   230 |  15.33 |    1 |
-|   43 | Gabrielle (Gabby) Mendoza | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA |   230 |  15.33 |      |
-|   43 | Garrett Richardson        | Gushers                            | Chapel Springs Church             |   230 |  15.33 |      |
-|   44 | Dakota Caldwell           | Kingsport Kidz                     | Kingsport 1st AG                  |   195 |  13.00 |      |
-|   45 | Bradley Beall             | Carmel Apples                      | Carmel AG                         |   185 |  12.33 |    1 |
-|   46 | Ashton Johnson            | McArthur's Mighty Men & WomAn      | Jacksonvill McArthur Church       |   175 |  11.67 |      |
-|   47 | KaAnna Salyer             | Kingsport Kidz                     | Kingsport 1st AG                  |   165 |  11.00 |      |
-|   48 | Caleb Sessoms             | River of Life                      | River of Life Fellowship          |   155 |  10.33 |      |
-|   49 | Joseph Skinner            | McArthur's Mighty Men & WomAn      | Jacksonvill McArthur Church       |   150 |  10.00 |    1 |
-|   50 | John Hull                 | Gushers                            | Chapel Springs Church             |   145 |   9.67 |      |
-|   50 | Bronte Mora               | Gushers                            | Chapel Springs Church             |   145 |   9.67 |      |
-|   51 | Reagan Stevens            | Naperville                         | Calvary Church - S                |   140 |   9.33 |      |
-|   52 | Elizabeth Fugere          | CIA - Special Agents               | Bethany Community Church          |   130 |   8.67 |      |
-|   53 | John Hamel                | CIA - Special Agents               | Bethany Community Church          |   110 |   7.33 |    1 |
-|   54 | Chloe Mora                | Gushers                            | Chapel Springs Church             |   110 |   7.33 |      |
-|   54 | Matthias Moore            | JAG                                | Jefferson AG                      |   110 |   7.33 |      |
-|   55 | Riley Longacre            | CIA - Special Agents               | Bethany Community Church          |   100 |   6.67 |      |
-|   56 | Luciana Salerno           | BC United                          | Bethany Church                    |    95 |   6.33 |      |
-|   57 | Kara Justice              | Carmel Apples                      | Carmel AG                         |    90 |   6.00 |      |
-|   58 | Noah Rothwell             | Funky Town Monkeys                 | Life AG                           |    85 |   5.67 |      |
-|   59 | Sebastian Steinbach       | Gushers                            | Chapel Springs Church             |    80 |   5.33 |      |
-|   60 | Jillian Kennard           | Kingsport Kidz                     | Kingsport 1st AG                  |    55 |   3.67 |      |
-|   61 | Carys Mora                | Gushers                            | Chapel Springs Church             |    45 |   3.00 |      |
-|   62 | Addison (Addy) McCullough | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA |    40 |   2.67 |      |
-|   62 | Zach Sessoms              | River of Life                      | River of Life Fellowship          |    40 |   2.67 |      |
-|   63 | Josiah Hopple             | Seekers of Truth                   | Charleston 1st AG                 |    35 |   2.33 |      |
-|   64 | Morgan Gibson             | Kingsport Kidz                     | Kingsport 1st AG                  |    25 |   1.67 |      |
-|   65 | McKinley Stevens          | Naperville                         | Calvary Church - S                |    15 |   1.00 |      |
-|   66 | Kamryn Kaniper            | JAG                                | Jefferson AG                      |     5 |    .33 |      |
-|   67 | Daniel Sils               | Seekers of Truth                   | Charleston 1st AG                 |       |    .00 |      |
-|   67 | Katie O'Connor            | Seekers of Truth                   | Charleston 1st AG                 |       |    .00 |      |
-|   67 | Megan Bartlett            | Funky Town Monkeys                 | Life AG                           |       |    .00 |      |
-|   67 | Sam Broxterman            | JAG                                | Jefferson AG                      |       |    .00 |      |
-|   67 | Madison Rutherford        | Seekers of Truth                   | Charleston 1st AG                 |       |    .00 |      |
-|   67 | Raqeem Graves             | Kingsport Kidz                     | Kingsport 1st AG                  |       |    .00 |      |
+|    # | Quizzer               | Team                               | Church                            | Total |    Avg |   QO |
+| ---: | --------------------- | ---------------------------------- | --------------------------------- | ----: | -----: | ---: |
+|    1 | Mateo Cuadros         | River of Life                      | River of Life Fellowship          |  1645 | 109.67 |    7 |
+|    2 | Parker Lubbe          | Triple Threat                      | Trinity                           |  1425 |  95.00 |    6 |
+|    3 | Trinity Garza         | Quiz Commanders                    | Proventus Academy                 |  1275 |  85.00 |    5 |
+|    4 | Harrison Stevens      | Naperville                         | Calvary Church - S                |  1210 |  80.67 |    4 |
+|    5 | David Shepard         | Seekers of Truth                   | Charleston 1st AG                 |  1160 |  77.33 |    5 |
+|    6 | Todd Pettet           | BC United                          | Bethany Church                    |  1140 |  76.00 |    4 |
+|    7 | Josh Broxterman       | JAG                                | Jefferson AG                      |  1135 |  75.67 |    2 |
+|    8 | Cayla Brodeur         | BC United                          | Bethany Church                    |  1100 |  73.33 |    2 |
+|    9 | Josh Barajas          | Triple Threat                      | Trinity                           |  1090 |  72.67 |    5 |
+|   10 | Shawn Timothy         | Naperville                         | Calvary Church - S                |  1075 |  71.67 |   12 |
+|   11 | Micah Maynard         | Kingsport Kidz                     | Kingsport 1st AG                  |  1050 |  70.00 |    3 |
+|   12 | Nate Demoff           | Brighton Assembly of God           | Brighton AG                       |  1035 |  69.00 |    5 |
+|   13 | Jeremy Dapaah         | Gushers                            | Chapel Springs Church             |   960 |  64.00 |    4 |
+|   14 | Seth Swain            | McArthur's Mighty Men & WomAn      | Jacksonvill McArthur Church       |   850 |  56.67 |    1 |
+|   15 | Garrett Adelmann      | BC United                          | Bethany Church                    |   800 |  53.33 |    8 |
+|   16 | Samuel Tran           | Gushers                            | Chapel Springs Church             |   800 |  53.33 |    7 |
+|   17 | Faith Caughey         | CIA - Special Agents               | Bethany Community Church          |   800 |  53.33 |    1 |
+|   18 | Landon Grisham        | UFC- United For Christ             | The Bridge                        |   790 |  52.67 |    8 |
+|   19 | Zach Rothwell         | Funky Town Monkeys                 | Life AG                           |   765 |  51.00 |      |
+|   20 | Makayla Demoff        | Brighton Assembly of God           | Brighton AG                       |   740 |  49.33 |      |
+|   21 | Blake Garza           | Quiz Commanders                    | Proventus Academy                 |   735 |  49.00 |    5 |
+|   22 | Andrea Bosteder       | River of Life                      | River of Life Fellowship          |   710 |  47.33 |    8 |
+|   23 | Jared Demoff          | Brighton Assembly of God           | Brighton AG                       |   695 |  46.33 |    8 |
+|   24 | Tabitha Joanna Nirmal | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA |   660 |  44.00 |    2 |
+|   25 | Emma Hoffmann         | Funky Town Monkeys                 | Life AG                           |   640 |  42.67 |      |
+|   26 | Aryana Campbell       | UFC- United For Christ             | The Bridge                        |   620 |  41.33 |    1 |
+|   27 | Kyler Kaniper         | JAG                                | Jefferson AG                      |   615 |  41.00 |      |
+|   28 | Abeni Feurbacher      | JAG                                | Jefferson AG                      |   600 |  40.00 |    7 |
+|   29 | Tom Hoffmann          | Funky Town Monkeys                 | Life AG                           |   570 |  38.00 |    5 |
+|   30 | Emma Miller           | Triple Threat                      | Trinity                           |   555 |  37.00 |    2 |
+|   31 | Izlia Shepard         | Seekers of Truth                   | Charleston 1st AG                 |   530 |  35.33 |    3 |
+|   32 | David Warren          | Carmel Apples                      | Carmel AG                         |   520 |  34.67 |    1 |
+|   33 | Ethan Rosenbaum       | McArthur's Mighty Men & WomAn      | Jacksonvill McArthur Church       |   505 |  33.67 |      |
+|   34 | Wesley Horn           | UFC- United For Christ             | The Bridge                        |   500 |  33.33 |      |
+|   35 | Michelle Vannelli     | CIA - Special Agents               | Bethany Community Church          |   485 |  32.33 |      |
+|   36 | Hayden Alford         | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA |   480 |  32.00 |      |
+|   37 | Carter Garza          | Quiz Commanders                    | Proventus Academy                 |   445 |  29.67 |    4 |
+|   38 | Morgan Zepp           | Carmel Apples                      | Carmel AG                         |   385 |  25.67 |      |
+|   39 | Ashlyn Wilson         | McArthur's Mighty Men & WomAn      | Jacksonvill McArthur Church       |   305 |  20.33 |    2 |
+|   40 | Faith Dillon          | Carmel Apples                      | Carmel AG                         |   300 |  20.00 |      |
+|   41 | Morgan Peltz          | Funky Town Monkeys                 | Life AG                           |   250 |  16.67 |      |
+|   42 | Maison Ealum          | Carmel Apples                      | Carmel AG                         |   230 |  15.33 |    1 |
+|   43 | Gabby Mendoza         | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA |   230 |  15.33 |      |
+|   43 | Garrett Richardson    | Gushers                            | Chapel Springs Church             |   230 |  15.33 |      |
+|   44 | Dakota Caldwell       | Kingsport Kidz                     | Kingsport 1st AG                  |   195 |  13.00 |      |
+|   45 | Bradley Beall         | Carmel Apples                      | Carmel AG                         |   185 |  12.33 |    1 |
+|   46 | Ashton Johnson        | McArthur's Mighty Men & WomAn      | Jacksonvill McArthur Church       |   175 |  11.67 |      |
+|   47 | KaAnna Salyer         | Kingsport Kidz                     | Kingsport 1st AG                  |   165 |  11.00 |      |
+|   48 | Caleb Sessoms         | River of Life                      | River of Life Fellowship          |   155 |  10.33 |      |
+|   49 | Joseph Skinner        | McArthur's Mighty Men & WomAn      | Jacksonvill McArthur Church       |   150 |  10.00 |    1 |
+|   50 | John Hull             | Gushers                            | Chapel Springs Church             |   145 |   9.67 |      |
+|   50 | Bronte Mora           | Gushers                            | Chapel Springs Church             |   145 |   9.67 |      |
+|   51 | Reagan Stevens        | Naperville                         | Calvary Church - S                |   140 |   9.33 |      |
+|   52 | Elizabeth Fugere      | CIA - Special Agents               | Bethany Community Church          |   130 |   8.67 |      |
+|   53 | John Hamel            | CIA - Special Agents               | Bethany Community Church          |   110 |   7.33 |    1 |
+|   54 | Chloe Mora            | Gushers                            | Chapel Springs Church             |   110 |   7.33 |      |
+|   54 | Matthias Moore        | JAG                                | Jefferson AG                      |   110 |   7.33 |      |
+|   55 | Riley Longacre        | CIA - Special Agents               | Bethany Community Church          |   100 |   6.67 |      |
+|   56 | Luciana Salerno       | BC United                          | Bethany Church                    |    95 |   6.33 |      |
+|   57 | Kara Justice          | Carmel Apples                      | Carmel AG                         |    90 |   6.00 |      |
+|   58 | Noah Rothwell         | Funky Town Monkeys                 | Life AG                           |    85 |   5.67 |      |
+|   59 | Sebastian Steinbach   | Gushers                            | Chapel Springs Church             |    80 |   5.33 |      |
+|   60 | Jillian Kennard       | Kingsport Kidz                     | Kingsport 1st AG                  |    55 |   3.67 |      |
+|   61 | Carys Mora            | Gushers                            | Chapel Springs Church             |    45 |   3.00 |      |
+|   62 | Addison McCullough    | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA |    40 |   2.67 |      |
+|   62 | Zach Sessoms          | River of Life                      | River of Life Fellowship          |    40 |   2.67 |      |
+|   63 | Josiah Hopple         | Seekers of Truth                   | Charleston 1st AG                 |    35 |   2.33 |      |
+|   64 | Morgan Gibson         | Kingsport Kidz                     | Kingsport 1st AG                  |    25 |   1.67 |      |
+|   65 | McKinley Stevens      | Naperville                         | Calvary Church - S                |    15 |   1.00 |      |
+|   66 | Kamryn Kaniper        | JAG                                | Jefferson AG                      |     5 |    .33 |      |
+|   67 | Daniel Sils           | Seekers of Truth                   | Charleston 1st AG                 |       |    .00 |      |
+|   67 | Katie O'Connor        | Seekers of Truth                   | Charleston 1st AG                 |       |    .00 |      |
+|   67 | Megan Bartlett        | Funky Town Monkeys                 | Life AG                           |       |    .00 |      |
+|   67 | Sam Broxterman        | JAG                                | Jefferson AG                      |       |    .00 |      |
+|   67 | Madison Rutherford    | Seekers of Truth                   | Charleston 1st AG                 |       |    .00 |      |
+|   67 | Raqeem Graves         | Kingsport Kidz                     | Kingsport 1st AG                  |       |    .00 |      |
 
 
 ### Mint
@@ -1110,43 +1110,43 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer                   | Team                               | Church                                     | Total |    Avg |   QO |
-| ---: | ------------------------- | ---------------------------------- | ------------------------------------------ | ----: | -----: | ---: |
-|    1 | Samy Paul                 | Collierville Freedom Fighters      | Collierville 1st AG                        |  1145 | 127.22 |    7 |
-|    2 | Nathan Mills              | Victory Warriors                   | Universal City - Victory AG                |   955 | 106.11 |    4 |
-|    3 | Kevin Ju                  | OCCEC                              | Orange County Christian Evangelical Church |   890 |  98.89 |    3 |
-|    4 | Miles Kastner             | Crazy Conquerors 4 Christ          | Victory International Fellowship           |   885 |  98.33 |    4 |
-|    5 | Mark Grogan               | NHF Super Quizzers                 | New Hope Fellowship                        |   775 |  86.11 |    5 |
-|    6 | Aryana Campbell           | UFC- United For Christ             | The Bridge                                 |   770 |  85.56 |    1 |
-|    7 | Tabitha Joanna Nirmal     | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA          |   700 |  77.78 |    6 |
-|    8 | Ezekiel (Zeke) Loper      | COTN                               | Church of the Nations                      |   650 |  72.22 |    3 |
-|    9 | Hayden Alford             | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA          |   590 |  65.56 |      |
-|   10 | Katelyn Hall              | #hashtag                           | LifeChurch AG                              |   535 |  59.44 |    2 |
-|   11 | Joey Paul                 | Collierville Freedom Fighters      | Collierville 1st AG                        |   420 |  46.67 |    2 |
-|   12 | Landon Grisham            | UFC- United For Christ             | The Bridge                                 |   415 |  46.11 |    4 |
-|   13 | Wesley Horn               | UFC- United For Christ             | The Bridge                                 |   415 |  46.11 |      |
-|   14 | Isaac Ubert               | Crazy Conquerors 4 Christ          | Victory International Fellowship           |   410 |  45.56 |    4 |
-|   15 | Jordan Nix                | #hashtag                           | LifeChurch AG                              |   385 |  42.78 |      |
-|   16 | Dallas Pitman             | #hashtag                           | LifeChurch AG                              |   375 |  41.67 |    4 |
-|   17 | Dominique Siegler         | NHF Super Quizzers                 | New Hope Fellowship                        |   360 |  40.00 |    4 |
-|   18 | Kendra Winkleblech        | Righteous Refusers                 | Walnut Grove                               |   285 |  31.67 |      |
-|   19 | Kathryn Ouyang            | COTN                               | Church of the Nations                      |   280 |  31.11 |      |
-|   20 | Reagan McCreary           | Righteous Refusers                 | Walnut Grove                               |   270 |  30.00 |    2 |
-|   21 | Raymond Harris            | Righteous Refusers                 | Walnut Grove                               |   245 |  27.22 |    2 |
-|   22 | Tyler Chang               | OCCEC                              | Orange County Christian Evangelical Church |   220 |  24.44 |    1 |
-|   23 | Aiden McCreary            | Righteous Refusers                 | Walnut Grove                               |   220 |  24.44 |      |
-|   24 | Adam Shuman               | COTN                               | Church of the Nations                      |   210 |  23.33 |      |
-|   25 | Skylar Fleming            | Victory Warriors                   | Universal City - Victory AG                |   135 |  15.00 |      |
-|   26 | Gabrielle (Gabby) Mendoza | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA          |   105 |  11.67 |      |
-|   27 | Samuel Dimmock            | Crazy Conquerors 4 Christ          | Victory International Fellowship           |   100 |  11.11 |      |
-|   28 | Faith Horne               | Victory Warriors                   | Universal City - Victory AG                |    80 |   8.89 |      |
-|   28 | Joy Fambrough             | NHF Super Quizzers                 | New Hope Fellowship                        |    80 |   8.89 |      |
-|   29 | Elizabeth Murray          | Crazy Conquerors 4 Christ          | Victory International Fellowship           |    60 |   6.67 |      |
-|   29 | Bailen Goodwin            | Victory Warriors                   | Universal City - Victory AG                |    60 |   6.67 |      |
-|   30 | Michele Zheng             | OCCEC                              | Orange County Christian Evangelical Church |    45 |   5.00 |      |
-|   30 | Addison (Addy) McCullough | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA          |    45 |   5.00 |      |
-|   31 | Linden Bowden             | COTN                               | Church of the Nations                      |    20 |   2.22 |      |
-|   32 | Josiah Murphy             | Collierville Freedom Fighters      | Collierville 1st AG                        |    15 |   1.67 |      |
-|   33 | John Adams                | Righteous Refusers                 | Walnut Grove                               |       |    .00 |      |
-|   34 | Chloe Mitchell            | NHF Super Quizzers                 | New Hope Fellowship                        |    -5 |  -0.56 |      |
+|    # | Quizzer               | Team                               | Church                                     | Total |    Avg |   QO |
+| ---: | --------------------- | ---------------------------------- | ------------------------------------------ | ----: | -----: | ---: |
+|    1 | Samy Paul             | Collierville Freedom Fighters      | Collierville 1st AG                        |  1145 | 127.22 |    7 |
+|    2 | Nathan Mills          | Victory Warriors                   | Universal City - Victory AG                |   955 | 106.11 |    4 |
+|    3 | Kevin Ju              | OCCEC                              | Orange County Christian Evangelical Church |   890 |  98.89 |    3 |
+|    4 | Miles Kastner         | Crazy Conquerors 4 Christ          | Victory International Fellowship           |   885 |  98.33 |    4 |
+|    5 | Mark Grogan           | NHF Super Quizzers                 | New Hope Fellowship                        |   775 |  86.11 |    5 |
+|    6 | Aryana Campbell       | UFC- United For Christ             | The Bridge                                 |   770 |  85.56 |    1 |
+|    7 | Tabitha Joanna Nirmal | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA          |   700 |  77.78 |    6 |
+|    8 | Ezekiel (Zeke) Loper  | COTN                               | Church of the Nations                      |   650 |  72.22 |    3 |
+|    9 | Hayden Alford         | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA          |   590 |  65.56 |      |
+|   10 | Katelyn Hall          | #hashtag                           | LifeChurch AG                              |   535 |  59.44 |    2 |
+|   11 | Joey Paul             | Collierville Freedom Fighters      | Collierville 1st AG                        |   420 |  46.67 |    2 |
+|   12 | Landon Grisham        | UFC- United For Christ             | The Bridge                                 |   415 |  46.11 |    4 |
+|   13 | Wesley Horn           | UFC- United For Christ             | The Bridge                                 |   415 |  46.11 |      |
+|   14 | Isaac Ubert           | Crazy Conquerors 4 Christ          | Victory International Fellowship           |   410 |  45.56 |    4 |
+|   15 | Jordan Nix            | #hashtag                           | LifeChurch AG                              |   385 |  42.78 |      |
+|   16 | Dallas Pitman         | #hashtag                           | LifeChurch AG                              |   375 |  41.67 |    4 |
+|   17 | Dominique Siegler     | NHF Super Quizzers                 | New Hope Fellowship                        |   360 |  40.00 |    4 |
+|   18 | Kendra Winkleblech    | Righteous Refusers                 | Walnut Grove                               |   285 |  31.67 |      |
+|   19 | Kathryn Ouyang        | COTN                               | Church of the Nations                      |   280 |  31.11 |      |
+|   20 | Reagan McCreary       | Righteous Refusers                 | Walnut Grove                               |   270 |  30.00 |    2 |
+|   21 | Raymond Harris        | Righteous Refusers                 | Walnut Grove                               |   245 |  27.22 |    2 |
+|   22 | Tyler Chang           | OCCEC                              | Orange County Christian Evangelical Church |   220 |  24.44 |    1 |
+|   23 | Aiden McCreary        | Righteous Refusers                 | Walnut Grove                               |   220 |  24.44 |      |
+|   24 | Adam Shuman           | COTN                               | Church of the Nations                      |   210 |  23.33 |      |
+|   25 | Skylar Fleming        | Victory Warriors                   | Universal City - Victory AG                |   135 |  15.00 |      |
+|   26 | Gabby Mendoza         | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA          |   105 |  11.67 |      |
+|   27 | Samuel Dimmock        | Crazy Conquerors 4 Christ          | Victory International Fellowship           |   100 |  11.11 |      |
+|   28 | Faith Horne           | Victory Warriors                   | Universal City - Victory AG                |    80 |   8.89 |      |
+|   28 | Joy Fambrough         | NHF Super Quizzers                 | New Hope Fellowship                        |    80 |   8.89 |      |
+|   29 | Elizabeth Murray      | Crazy Conquerors 4 Christ          | Victory International Fellowship           |    60 |   6.67 |      |
+|   29 | Bailen Goodwin        | Victory Warriors                   | Universal City - Victory AG                |    60 |   6.67 |      |
+|   30 | Michele Zheng         | OCCEC                              | Orange County Christian Evangelical Church |    45 |   5.00 |      |
+|   30 | Addison McCullough    | Noble Christians In Service (NCIS) | Glad Tidings Church - Hanford, CA          |    45 |   5.00 |      |
+|   31 | Linden Bowden         | COTN                               | Church of the Nations                      |    20 |   2.22 |      |
+|   32 | Josiah Murphy         | Collierville Freedom Fighters      | Collierville 1st AG                        |    15 |   1.67 |      |
+|   33 | John Adams            | Righteous Refusers                 | Walnut Grove                               |       |    .00 |      |
+|   34 | Chloe Mitchell        | NHF Super Quizzers                 | New Hope Fellowship                        |    -5 |  -0.56 |      |
 

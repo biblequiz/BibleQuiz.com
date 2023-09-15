@@ -149,7 +149,7 @@ menubar_toc_static:
 |   37 | David O'Donoghue      | First A/G, Waynesburg, PA           |    20 |    0 |   3.33 |
 |   38 | Stephanie Hamel       | Bethany C.C. , Mendon, MA           |    20 |    0 |   2.86 |
 |   39 | Kristyn Jones         | Manassas A/G, Bristow, VA           |    20 |    0 |    2.5 |
-|   40 | John Langel, Jr.      | Newport A/G, Newport, PA            |    20 |    0 |    2.5 |
+|   40 | John Langel           | Newport A/G, Newport, PA            |    20 |    0 |    2.5 |
 |   41 | Trina Norton          | Bethany C.C. , Mendon, MA           |    20 |    0 |      5 |
 |   42 | Megan Beigay          | Evangel Heights A/G, Sarver, PA     |    10 |    0 |   1.43 |
 |   43 | Megan Webb            | South Hills A/G, Bethel Park, PA    |    10 |    0 |   1.43 |

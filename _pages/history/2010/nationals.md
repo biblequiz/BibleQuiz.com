@@ -238,7 +238,7 @@ If possible, ties are broken by number of quiz-outs.
 |       50 | Kenadee Schrock     | Radiant Life                     |   135 |   7.11 |      |
 |       51 | Tyler Roesler       | Crosspoint A/G                   |   130 |   6.84 |      |
 |       52 | Sarah Murdy         | Faith A/G                        |   120 |   6.32 |      |
-|       53 | Rodney Brown Jr.    | Evangel Community                |   110 |   5.79 |      |
+|       53 | Rodney Brown        | Evangel Community                |   110 |   5.79 |      |
 |       54 | Tim Pyle            | Houston, TX                      |   105 |   5.53 |      |
 |       55 | David Willis        | First A/G                        |    85 |   4.47 |      |
 |       56 | Seth Urbina         | Highpointe Church-Super Apostles |    55 |   2.89 |      |

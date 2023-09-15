@@ -164,24 +164,24 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|    # | Quizzer                | Team                                     | Total |  Avg |   QO |   Q% |
-| ---: | ---------------------- | ---------------------------------------- | ----: | ---: | ---: | ---: |
-|    1 | Sarah Lapusan          | God's Mini Helpers (The Oaks Fellowship) |   410 |   82 |    5 |  86% |
-|    2 | Neo Pradeep            | Holy Faith (Dripping Springs UMC)        |   390 |   78 |    3 | 100% |
-|    3 | Elisha Chee            | Holy Faith (Dripping Springs UMC)        |   305 |   61 |    5 |  88% |
-|    4 | Lilly Jeter            | God's Mini Helpers (The Oaks Fellowship) |   225 |   45 |    2 |  88% |
-|    5 | Caleb Applegate        | Harvest #2 (Harvest Church)              |   220 |   44 |    1 |  90% |
-|    6 | Noah Zeli              | The Elected (Mountain Creek Church)      |   215 |   43 |    2 |  74% |
-|    7 | Christiana Darko       | Chi Rho Tots (First @ Firewheel Church)  |   190 |   38 |    2 |  90% |
-|    8 | LJ Moura               | Harvest #2 (Harvest Church)              |   165 |   33 |    1 |  92% |
-|    9 | Praise Iwuogaranya     | Chi Rho Tots (First @ Firewheel Church)  |   130 |   26 |      |  79% |
-|   10 | Nyagoma Kayesu         | Harvest #2 (Harvest Church)              |   105 |   21 |      |  90% |
-|   11 | Abigail Pradeep        | Holy Faith (Dripping Springs UMC)        |    75 |   15 |      |  87% |
-|   12 | Jessa Gastineau        | Holy Faith (Dripping Springs UMC)        |    60 |   12 |      | 100% |
-|   13 | Zach Samuel            | Chi Rho Tots (First @ Firewheel Church)  |    55 |   11 |      |  78% |
-|   14 | Israel Fajemirokun     | The Elected (Mountain Creek Church)      |    40 |    8 |      |  67% |
-|   15 | Jeremias(JD) Rodriguez | The Elected (Mountain Creek Church)      |    25 |    5 |      |  75% |
-|   16 | Samantha Colley        | God's Mini Helpers (The Oaks Fellowship) |    20 |    4 |      |  67% |
-|   17 | Joshua Applegate       | Harvest #2 (Harvest Church)              |     0 |      |      |      |
-|   18 | Ethan Fajemirokun      | The Elected (Mountain Creek Church)      |    -5 |   -1 |      |      |
+|    # | Quizzer            | Team                                     | Total |  Avg |   QO |   Q% |
+| ---: | ------------------ | ---------------------------------------- | ----: | ---: | ---: | ---: |
+|    1 | Sarah Lapusan      | God's Mini Helpers (The Oaks Fellowship) |   410 |   82 |    5 |  86% |
+|    2 | Neo Pradeep        | Holy Faith (Dripping Springs UMC)        |   390 |   78 |    3 | 100% |
+|    3 | Elisha Chee        | Holy Faith (Dripping Springs UMC)        |   305 |   61 |    5 |  88% |
+|    4 | Lilly Jeter        | God's Mini Helpers (The Oaks Fellowship) |   225 |   45 |    2 |  88% |
+|    5 | Caleb Applegate    | Harvest #2 (Harvest Church)              |   220 |   44 |    1 |  90% |
+|    6 | Noah Zeli          | The Elected (Mountain Creek Church)      |   215 |   43 |    2 |  74% |
+|    7 | Christiana Darko   | Chi Rho Tots (First @ Firewheel Church)  |   190 |   38 |    2 |  90% |
+|    8 | LJ Moura           | Harvest #2 (Harvest Church)              |   165 |   33 |    1 |  92% |
+|    9 | Praise Iwuogaranya | Chi Rho Tots (First @ Firewheel Church)  |   130 |   26 |      |  79% |
+|   10 | Nyagoma Kayesu     | Harvest #2 (Harvest Church)              |   105 |   21 |      |  90% |
+|   11 | Abigail Pradeep    | Holy Faith (Dripping Springs UMC)        |    75 |   15 |      |  87% |
+|   12 | Jessa Gastineau    | Holy Faith (Dripping Springs UMC)        |    60 |   12 |      | 100% |
+|   13 | Zach Samuel        | Chi Rho Tots (First @ Firewheel Church)  |    55 |   11 |      |  78% |
+|   14 | Israel Fajemirokun | The Elected (Mountain Creek Church)      |    40 |    8 |      |  67% |
+|   15 | JD Rodriguez       | The Elected (Mountain Creek Church)      |    25 |    5 |      |  75% |
+|   16 | Samantha Colley    | God's Mini Helpers (The Oaks Fellowship) |    20 |    4 |      |  67% |
+|   17 | Joshua Applegate   | Harvest #2 (Harvest Church)              |     0 |      |      |      |
+|   18 | Ethan Fajemirokun  | The Elected (Mountain Creek Church)      |    -5 |   -1 |      |      |
 

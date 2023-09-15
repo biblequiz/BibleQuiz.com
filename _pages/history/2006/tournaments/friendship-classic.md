@@ -125,7 +125,7 @@ Played 9 rounds at random and then sorted into divisions by scores:
 |   16 | Emily Whitehead  | 1st AG, Lafayette, IN              |   120 |    0 |
 |   17 | Eric Everett     | Harvest Time A/G, Brunswick, OH    |   115 |    0 |
 |   18 | John McGillis    | Harvest Time A/G, Brunswick, OH    |    70 |    0 |
-|   19 | Alfred Morales   | Praise A/G, Garfield, NJ           |    50 |    0 |
+|   19 | AJ Morales       | Praise A/G, Garfield, NJ           |    50 |    0 |
 |   20 | Mary Jones       | Manassas A/G, Manassas, VA         |    35 |    0 |
 |   21 | Matthew Godfrey  | Manassas A/G, Manassas, VA         |    30 |    0 |
 |   22 | Taylor Vickerman | 1st AG, Lafayette, IN              |    20 |    0 |
