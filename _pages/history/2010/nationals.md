@@ -136,7 +136,7 @@ If possible, ties are broken by number of quiz-outs.
 |       62 | Zachary Freer         | Orlando FL                                    |   100 |   5.26 |      |
 |       63 | Jared Hill            | Swedesboro NJ                                 |    75 |   3.95 |      |
 |       64 | Arinze Onyenezi       | Houston TX Braeswood                          |    35 |   1.84 |    1 |
-|       65 | J. David Smith        | Lexington KY-Donut Holes                      |    35 |   1.84 |      |
+|       65 | David Smith           | Lexington KY-Donut Holes                      |    35 |   1.84 |      |
 | **65\*** | Alex Cheski           | Garfield NJ                                   |    35 |   1.84 |      |
 |       67 | Marshall Kobylski     | Bowling Green OH-Am Herratz                   |    25 |   1.32 |      |
 |       68 | Hailey DePriest       | Ozark MO Sufficient Grace                     |    15 |   0.79 |      |

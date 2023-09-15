@@ -192,7 +192,7 @@ menubar_toc_static:
 |       13 | Micah Sherry      | Kinport A/G, Chry Tree, PA "A Furious Squall"  |   530 |  48.2 |    1 |  76% |
 |       14 | Emerson Watkins   | 1.Evangel Heights A/G, Sarver, PA              |   505 |  45.9 |    4 |  77% |
 |       15 | Caleb Ferraro     | First A/G, Binghamton, NY                      |   500 |  45.5 |    4 |  63% |
-|       16 | Judah M           | Hamlin A/G, Lake Ariel, PA                     |   420 |  38.2 |    2 |  69% |
+|       16 | Judah Miller      | Hamlin A/G, Lake Ariel, PA                     |   420 |  38.2 |    2 |  69% |
 |       17 | Anna C            | Hamlin A/G, Lake Ariel, PA                     |   370 |  33.6 |    1 |  79% |
 |       18 | Silas Sherry      | Kinport A/G, Chry Tree, PA "A Furious Squall"  |   290 |  26.4 |    1 |  63% |
 |       19 | Dylan Green       | First A/G, Binghamton, NY                      |   260 |  23.6 |      |  78% |
@@ -207,7 +207,7 @@ menubar_toc_static:
 |       26 | Joshua Baloga     | Calvary Ch Grnsboro, NC "Team Transfiguration" |    10 |    .9 |      |  36% |
 |       27 | Jack Martello     | Calvary Ch Grnsboro, NC "Team Transfiguration" |     0 |       |      |      |
 | **\*27** | Chase Rudy        | Newport A/G, Newport, PA "Sons of Thunder"     |     0 |       |      |      |
-| **\*27** | Elijah S          | Hamlin A/G, Lake Ariel, PA                     |     0 |       |      |      |
+| **\*27** | Elijah Strocchia  | Hamlin A/G, Lake Ariel, PA                     |     0 |       |      |      |
 |       28 | Melody Botros     | Calvary Temple Intrnatl, Wayne, NJ "Team Love" |   -20 |    -2 |      |      |
 
 

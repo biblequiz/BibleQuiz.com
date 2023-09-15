@@ -42,7 +42,7 @@ menubar_toc_static:
 |   11 | Becca Toth         | Sarver, PA       |   210 |    1 |
 |   12 | Dylan Reigle       | Lebanon, PA      |   195 |    0 |
 |   13 | David Ethridge     | Bethel Park, PA  |   175 |    0 |
-|   14 | T.J. Shevchenko    | Indianapolis, IN |   160 |    1 |
+|   14 | TJ Shevchenko      | Indianapolis, IN |   160 |    1 |
 |   15 | Brandon Powell     | Bethel Park, PA  |   155 |    1 |
 |   16 | Chessia Matthews   | South Bend, IN   |   150 |    0 |
 

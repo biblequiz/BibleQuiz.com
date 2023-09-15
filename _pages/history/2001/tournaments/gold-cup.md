@@ -151,7 +151,7 @@ The following represents the top scorers in the morning placement rounds.
 
 |    # | Quizzer         | Team                           |
 | ---: | --------------- | ------------------------------ |
-|    1 | E. J. Spears    | Trinity Church, Cedar Hill, TX |
+|    1 | E.J. Spears     | Trinity Church, Cedar Hill, TX |
 |    2 | Jaynell Kargill | Oak Cliff A/G, Dallas, TX      |
 |    3 | Adam Palmer     | Trinity Church, Cedar Hill, TX |
 

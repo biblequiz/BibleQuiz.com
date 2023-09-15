@@ -191,7 +191,7 @@ At the end of the seeding rounds, all teams were divided down into single elimin
 |    # | Quizzer         | Team                           |
 | ---: | --------------- | ------------------------------ |
 |    1 | Forrest Johnson | Trinity Church, Cedar Hill, TX |
-|    2 | E. J. Spears    | Trinity Church, Cedar Hill, TX |
+|    2 | E.J. Spears     | Trinity Church, Cedar Hill, TX |
 |    3 | Jenny Pearson   | Oak Cliff A/G, Dallas, TX      |
 
 ## Team Scavenger Hunt

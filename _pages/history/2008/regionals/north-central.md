@@ -77,7 +77,7 @@ Wildcard invite Oshkosh, WI made the most of their opportunity to tie Portage, W
 |   25 | Donovan Colegrove  | Corydon, IA      |   200 |  15.4 |
 |   25 | Shelby Schoon      | Sioux Falls, SD  |   200 |  15.4 |
 |   26 | Rebecca DeGray     | Pine City, MN    |   195 |  15.0 |
-|   27 | H. David Kolenda   | Menominee, MI    |   175 |  13.5 |
+|   27 | David Kolenda      | Menominee, MI    |   175 |  13.5 |
 |   28 | Nathan Dahlin      | Racine, WI       |   165 |  12.7 |
 |   29 | John DenHartog     | Omaha, NE        |   160 |  12.3 |
 |   30 | Nathan Kober       | Oshkosh, WI      |   145 |  11.2 |

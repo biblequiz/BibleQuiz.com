@@ -34,48 +34,48 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer               | Team                                                      | Total |  Avg |   QO |   Q% |
-| -------: | --------------------- | --------------------------------------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Julia Martello        | Embittered Children (Calvary (Greensboro, NC))            |   640 |   80 |    4 |  79% |
-|        2 | Tabitha Nirmal        | Public Spectacle (Covenant Life - Cary, NC)               |   620 | 77.5 |    6 |  77% |
-|        3 | Ronald George         | Atlanta Tamil Church (Tamil - Norcross, GA)               |   610 | 76.3 |    3 |  73% |
-|        4 | Joshua McGovern       | Embittered Children (Calvary (Greensboro, NC))            |   500 | 62.5 |    6 |  78% |
-|        5 | Caleb Addis           | VLC (Victorious Life - Wesley Chapel, FL)                 |   435 | 54.4 |    3 |  86% |
-|        6 | Abigail Prejean       | Seasoned with Salt (Calvary - Greensboro, NC)             |   425 | 53.1 |    2 |  73% |
-|        7 | Veronica Johnson      | Team on Fleek (North Highland - Columbus, GA)             |   410 | 51.3 |    4 |  76% |
-|        8 | Helyn Dunn            | VLC (Victorious Life - Wesley Chapel, FL)                 |   400 |   50 |    2 |  83% |
-|        9 | Jonathan McGovern     | Embittered Children (Calvary (Greensboro, NC))            |   355 | 44.4 |    2 |  69% |
-|       10 | Savannah Robinson     | Seasoned with Salt (Calvary - Greensboro, NC)             |   330 | 41.3 |    3 |  79% |
-|       11 | Alex McCollum         | Seasoned with Salt (Calvary - Greensboro, NC)             |   330 | 41.3 |    2 |  75% |
-|       12 | EJ Cruz               | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |   285 | 35.6 |    1 |  76% |
-|       13 | Trevor McCoy          | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |   280 |   35 |    2 |  63% |
-|       14 | Autumn Simonds        | FWLP119 (1st AG - Dallas, GA)                             |   215 | 26.9 |    1 |  71% |
-|       15 | Isaac Lee             | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |   210 | 26.3 |    2 |  66% |
-|       16 | Davey Motta           | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |   195 | 24.4 |      |  82% |
-|       17 | Samuel Devasahayam    | Atlanta Tamil Church (Tamil - Norcross, GA)               |   155 | 19.4 |      |  87% |
-|       18 | Daniel Adewunmi       | VLC (Victorious Life - Wesley Chapel, FL)                 |    90 | 11.3 |      |  90% |
-|       19 | Joanna Holloway       | FWLP119 (1st AG - Dallas, GA)                             |    40 |    5 |      |  62% |
-|       20 | Bethany Martin        | Embittered Children (Calvary (Greensboro, NC))            |    30 |  3.8 |      | 100% |
-| **\*20** | Linnea Rainbow        | FWLP119 (1st AG - Dallas, GA)                             |    30 |  3.8 |      |  54% |
-|       21 | Joshua Samraj         | Atlanta Tamil Church (Tamil - Norcross, GA)               |    20 |  2.5 |      | 100% |
-| **\*21** | Ethan Cruz            | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |    20 |  2.5 |      |  38% |
-|       22 | Joshua Devasahayam    | Atlanta Tamil Church (Tamil - Norcross, GA)               |    10 |  1.3 |      |  50% |
-|       23 | Nathaniel Prejean     | Seasoned with Salt (Calvary - Greensboro, NC)             |     0 |      |      |  33% |
-| **\*23** | Christopher Johnson   | Team on Fleek (North Highland - Columbus, GA)             |     0 |      |      |      |
-| **\*23** | Kevinpaul Gunasingh   | Atlanta Tamil Church (Tamil - Norcross, GA)               |     0 |      |      |      |
-| **\*23** | Kevin Samraj          | Atlanta Tamil Church (Tamil - Norcross, GA)               |     0 |      |      |      |
-| **\*23** | Lorena Lee            | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |     0 |      |      |      |
-| **\*23** | Lexi Perkins          | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |     0 |      |      |      |
-| **\*23** | Alecia Rajseh         | Seasoned with Salt (Calvary - Greensboro, NC)             |     0 |      |      |      |
-| **\*23** | Sheldon McCollum      | Seasoned with Salt (Calvary - Greensboro, NC)             |     0 |      |      |      |
-| **\*23** | Contessa Hieskell     | FWLP119 (1st AG - Dallas, GA)                             |     0 |      |      |      |
-| **\*23** | V. Alexandria Richter | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |     0 |      |      |      |
-| **\*23** | Teresa Richter        | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |     0 |      |      |      |
-|       24 | Eden Cruz             | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |    -5 |  -.6 |      |      |
-|       25 | Jake Motta            | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |   -10 | -1.3 |      |      |
-|       26 | Jonathan Holloway     | FWLP119 (1st AG - Dallas, GA)                             |   -15 | -1.9 |      |  25% |
-| **\*26** | Timothy Nirmal        | Public Spectacle (Covenant Life - Cary, NC)               |   -15 | -1.9 |      |      |
-|       27 | Olivia George         | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |   -20 | -2.5 |      |      |
+|        # | Quizzer             | Team                                                      | Total |  Avg |   QO |   Q% |
+| -------: | ------------------- | --------------------------------------------------------- | ----: | ---: | ---: | ---: |
+|        1 | Julia Martello      | Embittered Children (Calvary (Greensboro, NC))            |   640 |   80 |    4 |  79% |
+|        2 | Tabitha Nirmal      | Public Spectacle (Covenant Life - Cary, NC)               |   620 | 77.5 |    6 |  77% |
+|        3 | Ronald George       | Atlanta Tamil Church (Tamil - Norcross, GA)               |   610 | 76.3 |    3 |  73% |
+|        4 | Joshua McGovern     | Embittered Children (Calvary (Greensboro, NC))            |   500 | 62.5 |    6 |  78% |
+|        5 | Caleb Addis         | VLC (Victorious Life - Wesley Chapel, FL)                 |   435 | 54.4 |    3 |  86% |
+|        6 | Abigail Prejean     | Seasoned with Salt (Calvary - Greensboro, NC)             |   425 | 53.1 |    2 |  73% |
+|        7 | Veronica Johnson    | Team on Fleek (North Highland - Columbus, GA)             |   410 | 51.3 |    4 |  76% |
+|        8 | Helyn Dunn          | VLC (Victorious Life - Wesley Chapel, FL)                 |   400 |   50 |    2 |  83% |
+|        9 | Jonathan McGovern   | Embittered Children (Calvary (Greensboro, NC))            |   355 | 44.4 |    2 |  69% |
+|       10 | Savannah Robinson   | Seasoned with Salt (Calvary - Greensboro, NC)             |   330 | 41.3 |    3 |  79% |
+|       11 | Alex McCollum       | Seasoned with Salt (Calvary - Greensboro, NC)             |   330 | 41.3 |    2 |  75% |
+|       12 | EJ Cruz             | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |   285 | 35.6 |    1 |  76% |
+|       13 | Trevor McCoy        | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |   280 |   35 |    2 |  63% |
+|       14 | Autumn Simonds      | FWLP119 (1st AG - Dallas, GA)                             |   215 | 26.9 |    1 |  71% |
+|       15 | Isaac Lee           | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |   210 | 26.3 |    2 |  66% |
+|       16 | Davey Motta         | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |   195 | 24.4 |      |  82% |
+|       17 | Samuel Devasahayam  | Atlanta Tamil Church (Tamil - Norcross, GA)               |   155 | 19.4 |      |  87% |
+|       18 | Daniel Adewunmi     | VLC (Victorious Life - Wesley Chapel, FL)                 |    90 | 11.3 |      |  90% |
+|       19 | Joanna Holloway     | FWLP119 (1st AG - Dallas, GA)                             |    40 |    5 |      |  62% |
+|       20 | Bethany Martin      | Embittered Children (Calvary (Greensboro, NC))            |    30 |  3.8 |      | 100% |
+| **\*20** | Linnea Rainbow      | FWLP119 (1st AG - Dallas, GA)                             |    30 |  3.8 |      |  54% |
+|       21 | Joshua Samraj       | Atlanta Tamil Church (Tamil - Norcross, GA)               |    20 |  2.5 |      | 100% |
+| **\*21** | Ethan Cruz          | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |    20 |  2.5 |      |  38% |
+|       22 | Joshua Devasahayam  | Atlanta Tamil Church (Tamil - Norcross, GA)               |    10 |  1.3 |      |  50% |
+|       23 | Nathaniel Prejean   | Seasoned with Salt (Calvary - Greensboro, NC)             |     0 |      |      |  33% |
+| **\*23** | Christopher Johnson | Team on Fleek (North Highland - Columbus, GA)             |     0 |      |      |      |
+| **\*23** | Kevinpaul Gunasingh | Atlanta Tamil Church (Tamil - Norcross, GA)               |     0 |      |      |      |
+| **\*23** | Kevin Samraj        | Atlanta Tamil Church (Tamil - Norcross, GA)               |     0 |      |      |      |
+| **\*23** | Lorena Lee          | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |     0 |      |      |      |
+| **\*23** | Lexi Perkins        | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |     0 |      |      |      |
+| **\*23** | Alecia Rajseh       | Seasoned with Salt (Calvary - Greensboro, NC)             |     0 |      |      |      |
+| **\*23** | Sheldon McCollum    | Seasoned with Salt (Calvary - Greensboro, NC)             |     0 |      |      |      |
+| **\*23** | Contessa Hieskell   | FWLP119 (1st AG - Dallas, GA)                             |     0 |      |      |      |
+| **\*23** | Alexandria Richter  | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |     0 |      |      |      |
+| **\*23** | Teresa Richter      | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |     0 |      |      |      |
+|       24 | Eden Cruz           | Calvary Limitless (Calvary Christian - Ormond Beach, FL)  |    -5 |  -.6 |      |      |
+|       25 | Jake Motta          | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |   -10 | -1.3 |      |      |
+|       26 | Jonathan Holloway   | FWLP119 (1st AG - Dallas, GA)                             |   -15 | -1.9 |      |  25% |
+| **\*26** | Timothy Nirmal      | Public Spectacle (Covenant Life - Cary, NC)               |   -15 | -1.9 |      |      |
+|       27 | Olivia George       | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |   -20 | -2.5 |      |      |
 
 ## Middle School League
 

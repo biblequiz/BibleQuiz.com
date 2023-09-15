@@ -203,7 +203,7 @@ Team photos are provided courtesy of Larry Mullins.
 |       33 | Melissa Larson     | Nyssa, OR            |   535 |  28.16 |      2 |     3 |
 |       34 | Caleb Turnage      | Oshkosh, WI          |   530 |  27.89 |      4 |     3 |
 |       35 | Andrew Banach      | Montgomery, AL       |   525 |  27.63 |      2 |     1 |
-|       36 | E. J. Mintah       | Wesley Chapel, FL    |   515 |  27.11 |      5 |     3 |
+|       36 | E.J. Mintah        | Wesley Chapel, FL    |   515 |  27.11 |      5 |     3 |
 |       37 | Lydia Hutchinson   | St. Petersburg, FL   |   510 |  26.84 |      3 |     2 |
 |       38 | Ivy Jensen         | Meridian, ID         |   500 |  26.32 |      5 |     3 |
 |       39 | Meg Pace           | Colorado Springs, CO |   480 |  25.26 |      4 |     3 |

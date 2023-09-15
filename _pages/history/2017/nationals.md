@@ -44,7 +44,7 @@ menubar_toc_static:
 
 | #   | Quizzer               | Team                                                                  | Total | AVG   | QO  | Q%   | 30s | 20s | 10s |
 | --- | --------------------- | --------------------------------------------------------------------- | ----- | ----- | --- | ---- | --- | --- | --- |
-| 1   | Halle J. Reisinger    | Newport AG - Newport, PA (Torn Between the Two)                       | 2175  | 114.5 | 15  | 85%  | 26  | 62  | 2   |
+| 1   | Halle Reisinger       | Newport AG - Newport, PA (Torn Between the Two)                       | 2175  | 114.5 | 15  | 85%  | 26  | 62  | 2   |
 | 2   | Zak Kellock           | Dream City Church - Scottsdale, AZ (Made the Two Groups One)          | 2095  | 110.3 | 14  | 87%  | 24  | 61  | 3   |
 | 3   | Hannah Quick          | James River - Ozark, MO (The Flames)                                  | 1780  | 93.7  | 14  | 79%  | 18  | 55  | 11  |
 | 4   | Shreanna Powell       | Calvary Church - Naperville, IL (Calvary Church)                      | 1685  | 88.7  | 12  | 86%  | 16  | 41  | 27  |
@@ -75,7 +75,7 @@ menubar_toc_static:
 | 27  | Jackson Houser        | Cedar Park - Bothell, WA (Those Dogs)                                 | 740   | 38.9  | 6   | 64%  | 1   | 21  | 45  |
 | 28  | Kelise Braithwaite    | Evangel Temple - Springfield, MO (The Church That Meets in Your Home) | 740   | 38.9  | 3   | 57%  | 15  | 27  | 15  |
 | 29  | Cecily Houser         | Cedar Park - Bothell, WA (Obligated to Answer)                        | 705   | 37.1  | 4   | 78%  | 4   | 19  | 22  |
-| 30  | Trace E. Reisinger    | Newport AG - Newport, PA (Torn Between the Two)                       | 675   | 35.5  | 7   | 68%  |     | 6   | 61  |
+| 30  | Trace Reisinger       | Newport AG - Newport, PA (Torn Between the Two)                       | 675   | 35.5  | 7   | 68%  |     | 6   | 61  |
 | 31  | Gabe Lapusan          | The Oaks Fellowship - Red Oak, TX (Pure and Blameless)                | 660   | 34.7  | 7   | 72%  |     | 1   | 63  |
 | 32  | Kara Peters           | Evangel Temple - Springfield, MO (The Church That Meets in Your Home) | 620   | 32.6  | 5   | 68%  | 2   | 13  | 36  |
 | 33  | Divya Mathews         | Word of Life - Springfield, VA (Ambassadors in Chains)                | 600   | 31.6  | 4   | 66%  |     | 18  | 33  |
@@ -334,35 +334,35 @@ menubar_toc_static:
 
 #### Individuals
 
-| #   | Quizzer            | Team                                                            | Total | AVG   | QO  | Q%   | 30s | 20s | 10s |
-| --- | ------------------ | --------------------------------------------------------------- | ----- | ----- | --- | ---- | --- | --- | --- |
-| 1   | Halle J. Reisinger | Newport AG - Newport, PA (Torn Between the Two)                 | 950   | 135.7 | 7   | 92%  | 15  | 20  |     |
-| 2   | Josiah Schwarz     | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)           | 725   | 120.8 | 5   | 85%  | 11  | 17  | 1   |
-| 3   | Sheldon Powell     | Calvary Church - Naperville, IL (Calvary Church)                | 680   | 97.1  | 7   | 90%  | 5   | 12  | 18  |
-| 4   | Cameron Ramsey     | Life 360 - Springfield, MO (Exasperated Children)               | 665   | 95    | 4   | 79%  | 7   | 23  | 1   |
-| 5   | Shreanna Powell    | Calvary Church - Naperville, IL (Calvary Church)                | 530   | 75.7  | 4   | 79%  | 3   | 17  | 10  |
-| 6   | Joel Larson        | Allison Park Church - Allison Park, Pa (Grumbling Stomachs)     | 475   | 67.9  | 3   | 69%  | 4   | 21  |     |
-| 7   | Zach Ponraj        | Tacoma Life Center - Tacoma, WA (Unknown Males)                 | 385   | 55    | 2   | 71%  | 4   | 12  | 9   |
-| 8   | Trace E. Reisinger | Newport AG - Newport, PA (Torn Between the Two)                 | 310   | 44.3  | 3   | 77%  |     | 3   | 24  |
-| 9   | Samuel Dawson      | Tacoma Life Center - Tacoma, WA (Unknown Males)                 | 290   | 41.4  | 4   | 83%  |     | 1   | 24  |
-| 10  | Harrison Stevens   | Calvary Church - Naperville, IL (Calvary Church)                | 255   | 36.4  | 1   | 89%  | 1   | 6   | 10  |
-| 11  | Julia Martello     | Calvary Church - Greensboro, NC (Embittered Children)           | 255   | 36.4  |     | 68%  |     | 16  | 1   |
-| 12  | Zach Schwarz       | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)           | 175   | 29.2  | 2   | 68%  |     | 2   | 15  |
-| 13  | Stephen DiCarlo    | Dayspring Assembly - Bowling Green, OH (Irrelevant Information) | 200   | 28.6  |     | 55%  | 1   | 12  | 9   |
-| 14  | Joshua Larson      | Allison Park Church - Allison Park, Pa (Grumbling Stomachs)     | 190   | 27.1  | 2   | 74%  |     |     | 20  |
-| 15  | Joshua McGovern    | Calvary Church - Greensboro, NC (Embittered Children)           | 165   | 23.6  | 2   | 61%  | 1   | 3   | 15  |
-| 16  | Austin Ramsey      | Life 360 - Springfield, MO (Exasperated Children)               | 160   | 22.9  | 1   | 64%  |     | 5   | 11  |
-| 17  | Faith King         | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)           | 130   | 21.7  |     | 75%  |     | 4   | 8   |
-| 18  | Gannon Breig       | Life 360 - Springfield, MO (Exasperated Children)               | 120   | 17.1  |     | 67%  |     |     | 16  |
-| 19  | Sarah Sproull      | Newport AG - Newport, PA (Torn Between the Two)                 | 50    | 7.1   |     | 100% |     | 1   | 3   |
-| 20  | Jonathan McGovern  | Calvary Church - Greensboro, NC (Embittered Children)           | 45    | 6.4   |     | 73%  |     | 1   | 7   |
-| 21  | Wyatt Peterson     | Tacoma Life Center - Tacoma, WA (Unknown Males)                 | 35    | 5     |     | 67%  |     | 1   | 5   |
-| 22  | Bethany Martin     | Calvary Church - Greensboro, NC (Embittered Children)           | 20    | 2.9   |     | 99%  |     | 1   |     |
-| *22 | Emily Larson       | Allison Park Church - Allison Park, Pa (Grumbling Stomachs)     | 20    | 2.9   |     | 60%  |     |     | 3   |
-| 23  | Sierra Tripp       | Dayspring Assembly - Bowling Green, OH (Irrelevant Information) | 10    | 1.4   |     | 50%  |     | 1   | 3   |
-| 24  | Mary Meddaugh      | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)           | 0     |       |     | %    |     |     |     |
-| *24 | KayLee Heller      | Newport AG - Newport, PA (Torn Between the Two)                 | 0     |       |     | %    |     |     |     |
-| 25  | Hannah Facer       | Dayspring Assembly - Bowling Green, OH (Irrelevant Information) | -20   | -2.9  |     | 29%  |     |     | 2   |
+| #   | Quizzer           | Team                                                            | Total | AVG   | QO  | Q%   | 30s | 20s | 10s |
+| --- | ----------------- | --------------------------------------------------------------- | ----- | ----- | --- | ---- | --- | --- | --- |
+| 1   | Halle Reisinger   | Newport AG - Newport, PA (Torn Between the Two)                 | 950   | 135.7 | 7   | 92%  | 15  | 20  |     |
+| 2   | Josiah Schwarz    | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)           | 725   | 120.8 | 5   | 85%  | 11  | 17  | 1   |
+| 3   | Sheldon Powell    | Calvary Church - Naperville, IL (Calvary Church)                | 680   | 97.1  | 7   | 90%  | 5   | 12  | 18  |
+| 4   | Cameron Ramsey    | Life 360 - Springfield, MO (Exasperated Children)               | 665   | 95    | 4   | 79%  | 7   | 23  | 1   |
+| 5   | Shreanna Powell   | Calvary Church - Naperville, IL (Calvary Church)                | 530   | 75.7  | 4   | 79%  | 3   | 17  | 10  |
+| 6   | Joel Larson       | Allison Park Church - Allison Park, Pa (Grumbling Stomachs)     | 475   | 67.9  | 3   | 69%  | 4   | 21  |     |
+| 7   | Zach Ponraj       | Tacoma Life Center - Tacoma, WA (Unknown Males)                 | 385   | 55    | 2   | 71%  | 4   | 12  | 9   |
+| 8   | Trace Reisinger   | Newport AG - Newport, PA (Torn Between the Two)                 | 310   | 44.3  | 3   | 77%  |     | 3   | 24  |
+| 9   | Samuel Dawson     | Tacoma Life Center - Tacoma, WA (Unknown Males)                 | 290   | 41.4  | 4   | 83%  |     | 1   | 24  |
+| 10  | Harrison Stevens  | Calvary Church - Naperville, IL (Calvary Church)                | 255   | 36.4  | 1   | 89%  | 1   | 6   | 10  |
+| 11  | Julia Martello    | Calvary Church - Greensboro, NC (Embittered Children)           | 255   | 36.4  |     | 68%  |     | 16  | 1   |
+| 12  | Zach Schwarz      | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)           | 175   | 29.2  | 2   | 68%  |     | 2   | 15  |
+| 13  | Stephen DiCarlo   | Dayspring Assembly - Bowling Green, OH (Irrelevant Information) | 200   | 28.6  |     | 55%  | 1   | 12  | 9   |
+| 14  | Joshua Larson     | Allison Park Church - Allison Park, Pa (Grumbling Stomachs)     | 190   | 27.1  | 2   | 74%  |     |     | 20  |
+| 15  | Joshua McGovern   | Calvary Church - Greensboro, NC (Embittered Children)           | 165   | 23.6  | 2   | 61%  | 1   | 3   | 15  |
+| 16  | Austin Ramsey     | Life 360 - Springfield, MO (Exasperated Children)               | 160   | 22.9  | 1   | 64%  |     | 5   | 11  |
+| 17  | Faith King        | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)           | 130   | 21.7  |     | 75%  |     | 4   | 8   |
+| 18  | Gannon Breig      | Life 360 - Springfield, MO (Exasperated Children)               | 120   | 17.1  |     | 67%  |     |     | 16  |
+| 19  | Sarah Sproull     | Newport AG - Newport, PA (Torn Between the Two)                 | 50    | 7.1   |     | 100% |     | 1   | 3   |
+| 20  | Jonathan McGovern | Calvary Church - Greensboro, NC (Embittered Children)           | 45    | 6.4   |     | 73%  |     | 1   | 7   |
+| 21  | Wyatt Peterson    | Tacoma Life Center - Tacoma, WA (Unknown Males)                 | 35    | 5     |     | 67%  |     | 1   | 5   |
+| 22  | Bethany Martin    | Calvary Church - Greensboro, NC (Embittered Children)           | 20    | 2.9   |     | 99%  |     | 1   |     |
+| *22 | Emily Larson      | Allison Park Church - Allison Park, Pa (Grumbling Stomachs)     | 20    | 2.9   |     | 60%  |     |     | 3   |
+| 23  | Sierra Tripp      | Dayspring Assembly - Bowling Green, OH (Irrelevant Information) | 10    | 1.4   |     | 50%  |     | 1   | 3   |
+| 24  | Mary Meddaugh     | Muskogee 1st - Muskogee, OK (Muskogee First Assembly)           | 0     |       |     | %    |     |     |     |
+| *24 | KayLee Heller     | Newport AG - Newport, PA (Torn Between the Two)                 | 0     |       |     | %    |     |     |     |
+| 25  | Hannah Facer      | Dayspring Assembly - Bowling Green, OH (Irrelevant Information) | -20   | -2.9  |     | 29%  |     |     | 2   |
 
 ### Group D
 
