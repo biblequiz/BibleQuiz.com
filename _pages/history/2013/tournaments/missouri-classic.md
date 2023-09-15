@@ -87,14 +87,14 @@ menubar_toc_static:
 |    # | Quizzer             | Team           | Church                           | Total |    Avg |   QO |
 | ---: | ------------------- | -------------- | -------------------------------- | ----: | -----: | ---: |
 |    1 | Luke Hamilton       | EFC            | Grand Island-NE-Evangelical Free |   755 | 125.83 |    6 |
-|    2 | Andrew VanHorn      | Not in Thought | Fort Worth-TX-Harvest AG         |   450 |  75.00 |    4 |
+|    2 | Andrew Van Horn     | Not in Thought | Fort Worth-TX-Harvest AG         |   450 |  75.00 |    4 |
 |    3 | Lucas Hying         | Moberly        | Moberly-MO-Moberly 1st AG        |   385 |  64.17 |    3 |
 |    4 | Kara Peters         | Labor Pains    | Springfield-MO-King's Chapel     |   370 |  61.67 |    4 |
 |    5 | Nathan Hazard       | CrossPoint     | Portage-WI-CrossPoint AG         |   260 |  43.33 |    3 |
 |    6 | Caroline Oss        | Central AG     | Springfield-MO-Central AG        |   260 |  43.33 |    2 |
 |    7 | Josh Frederick      | EFC            | Grand Island-NE-Evangelical Free |   220 |  36.67 |    3 |
 |    8 | Amie Oss            | Central AG     | Springfield-MO-Central AG        |   185 |  30.83 |    1 |
-|    9 | J.B. VanHorn        | Not in Thought | Fort Worth-TX-Harvest AG         |   165 |  27.50 |    1 |
+|    9 | J.B. Van Horn       | Not in Thought | Fort Worth-TX-Harvest AG         |   165 |  27.50 |    1 |
 |   10 | Cherokee Hill       | By Name        | Christian Chapel                 |   140 |  23.33 |    2 |
 |   11 | Brock Peters        | Labor Pains    | Springfield-MO-King's Chapel     |   115 |  19.17 |      |
 |   12 | Rhianna Benson      | By Name        | Christian Chapel                 |    85 |  14.17 |      |

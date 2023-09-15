@@ -37,7 +37,7 @@ After 9 preliminary rounds, teams were bracketed 1 - 23 by average scores. The t
 |    # | Quizzer           | City             | Total |   QO |
 | ---: | ----------------- | ---------------- | ----: | ---: |
 |    1 | Jared Burhalter   | Orlando          |   815 |    5 |
-|    2 | P.J. Grigg        | Colorado Springs |   650 |    5 |
+|    2 | PJ Grigg          | Colorado Springs |   650 |    5 |
 |    3 | Lucas Cox         | Lexington        |   625 |    4 |
 |    4 | Taylor Vickerman  | Lafayette        |   620 |    3 |
 |    5 | LaJoie Ward       | Binghamton       |   595 |    5 |

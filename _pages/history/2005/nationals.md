@@ -112,7 +112,7 @@ Photos are provided courtesy of Larry Mullins.
 |       49 | Jordan Zych        | Williamsville NY          |   255 | 13.42 |      |
 | **49\*** | Nathan Miller      | San Angelo TX             |   255 | 13.42 |      |
 |       51 | Lauryn Duffy       | Bothell WA Ferocious      |   245 | 12.89 |      |
-|       52 | P.J. Grigg         | Colorado Sprs Snakes      |   225 | 11.84 |      |
+|       52 | PJ Grigg           | Colorado Sprs Snakes      |   225 | 11.84 |      |
 | **52\*** | Eric Ferreira      | Dunwoody GA               |   225 | 11.84 |      |
 |       54 | Sasha Hosfelt      | Galena KS                 |   210 | 11.05 |      |
 |       55 | Ana Callon         | Aurora CO                 |   185 |  9.74 |      |

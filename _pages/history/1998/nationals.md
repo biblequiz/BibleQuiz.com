@@ -427,7 +427,7 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 * **Pastor**: Harold Schutte
 * **Coaches**: Charlotte Beyer, Susan Beaver
 * **Team**:
-    * Michelle S. Beaver
+    * Michelle Beaver
     * Krisha Beyer
     * Jon Higgins
 * **Round Robin**:

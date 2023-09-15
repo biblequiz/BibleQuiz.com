@@ -44,7 +44,7 @@ menubar_toc_static:
 |    6 | Greg Aikens       | Centerville |   565 |   57 |    6 |
 |    7 | Laura Jakstadt    | Dunwoody    |   490 |   49 |    3 |
 |    8 | Heather Patterson | Orlando     |   470 |   47 |    3 |
-|    9 | D. J. Daughtrey   | Askewville  |   455 |   46 |    1 |
+|    9 | D.J. Daughtrey    | Askewville  |   455 |   46 |    1 |
 |   10 | Krista Williams   | Vero Beach  |   425 |   43 |    2 |
 
 ## B Division

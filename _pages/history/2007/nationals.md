@@ -68,7 +68,7 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 |        6 | Jenna-Jo Duffy      | Bothell WA             |  1510 |  79.47 |     12 |     2 |
 |        7 | Lindsey Brower      | Manassas VA            |  1505 |  79.21 |     10 |     1 |
 |        8 | Blake Porter        | Ozark MO               |  1490 |  78.42 |     12 |     5 |
-|        9 | P.J. Grigg          | Colorado Springs CO #1 |  1420 |  74.74 |     15 |     4 |
+|        9 | PJ Grigg            | Colorado Springs CO #1 |  1420 |  74.74 |     15 |     4 |
 |       10 | Brandy Steel        | Toledo OH              |  1405 |  73.95 |     10 |     5 |
 |       11 | Lucas Cox           | Lexington KY           |  1300 |  68.42 |      5 |     3 |
 |       12 | Taylor Vickerman    | Lafayette IN #1        |  1290 |  67.89 |      9 |     6 |

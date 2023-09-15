@@ -54,7 +54,7 @@ menubar_toc_static:
 |   13 | Caroline Oss           | Not in Darkness | MO-Springfield, Central AG      |   460 |  57.50 |    3 |
 |   14 | Mitt Wyatt             | Spring Gold     | TX-Spring, 1st AG               |   455 |  56.88 |    5 |
 |   15 | Mary Meddaugh          | 1-Muskogee      | OK-Muskogee, 1st AG             |   450 |  56.25 |    5 |
-|   16 | JB Van Horn            | Harvest Gold    | TX-FtWorth, Harvest AG          |   440 |  55.00 |    4 |
+|   16 | J.B. Van Horn          | Harvest Gold    | TX-FtWorth, Harvest AG          |   440 |  55.00 |    4 |
 |   17 | Brock Peters           | Labor Pains     | MO-Springfield, King's Chapel   |   390 |  48.75 |    4 |
 |   18 | Paul Meddaugh          | 2-Muskogee      | OK-Muskogee, 1st AG             |   380 |  47.50 |    4 |
 |   19 | Joy Umoekpo            | 1-Braeswood     | TX-Houston, Braeswood           |   375 |  46.88 |    3 |

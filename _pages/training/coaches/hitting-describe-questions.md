@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /training/coaches/hitting-describe-questions/
-title: "Hitting "describe" questions"
+title: "Hitting \"describe\" questions"
 date: "2016-05-02"
 ---
 

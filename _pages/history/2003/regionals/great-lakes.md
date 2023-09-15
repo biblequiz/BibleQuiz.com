@@ -80,7 +80,7 @@ menubar_toc_static:
 
 |    # | Quizzer           | Team                                           | Total |
 | ---: | ----------------- | ---------------------------------------------- | ----: |
-|    1 | C. J. Hock        | Calvary Assembly of God, Elkhart, IN           |  1425 |
+|    1 | C.J. Hock         | Calvary Assembly of God, Elkhart, IN           |  1425 |
 |    2 | Josiah Durham     | First Assembly of God, Lexington, KY           |  1295 |
 |    3 | Janelle Klein     | First Assembly of God, Greater Lansing, MI     |  1280 |
 |    4 | Luke Furr         | Calvary Temple Assembly of God, Indy, IN       |   955 |

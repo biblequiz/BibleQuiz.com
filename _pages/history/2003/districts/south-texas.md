@@ -46,6 +46,6 @@ menubar_toc_static:
 |    # | Quizzer          | Team         | Total |
 | ---: | ---------------- | ------------ | ----: |
 |    1 | Kenny Masha      | Braeswood #4 |   195 |
-|    2 | D. J. Turner     | Braeswood #4 |   165 |
+|    2 | D.J. Turner      | Braeswood #4 |   165 |
 |    3 | Stephanie Marler | Greens Bayou |    85 |
 

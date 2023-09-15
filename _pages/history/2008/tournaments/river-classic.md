@@ -32,7 +32,7 @@ menubar_toc_static:
 |    4 | Whitney Garrison  | James River "In Chains"      |  1470 |  86.47 |   10 |       1 |
 |    5 | Josh Turner       | Portage A/G, Portage, WI     |  1380 |  81.18 |   13 |       0 |
 |    6 | Ariel Brookbank   | Overland Park 1st A/G        |  1335 |  78.53 |   13 |       0 |
-|    7 | P. J. Grigg       | Briargate 1, CO Springs, CO  |  1295 |  76.18 |   11 |       0 |
+|    7 | PJ Grigg          | Briargate 1, CO Springs, CO  |  1295 |  76.18 |   11 |       0 |
 |    8 | Daniel Wagner     | Owasso A/G #1                |  1240 |  72.94 |    9 |       0 |
 |    9 | Tamera Burkhalter | Faith A/G, Orlando, FL       |  1130 |  66.47 |   12 |       0 |
 |   10 | Jesse Wagner      | Owasso A/G #1                |  1125 |  66.18 |    6 |       0 |

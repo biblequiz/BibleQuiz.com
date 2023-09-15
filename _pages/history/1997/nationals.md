@@ -117,7 +117,7 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 |        46 | Rachel Jones        | Radiant Church, Colorado Springs, CO |   500 |  21.74 |      1 |     2 |
 |        47 | Amy Swanson         | Minier A/G, Minier, IL               |   370 |  16.09 |        |       |
 |        48 | Brandon Moore       | First A/G, Phoenix, AZ               |   335 |  14.57 |        |     1 |
-|        49 | Michelle S. Beaver  | First A/G, Oskaloosa, IA             |   325 |  14.13 |        |       |
+|        49 | Michelle Beaver     | First A/G, Oskaloosa, IA             |   325 |  14.13 |        |       |
 |        50 | Michael Kindel      | Watford A/G, Watford City, ND        |   320 |  13.91 |      1 |     3 |
 |        51 | DeAndre Johnson     | First A/G, Shreveport, LA            |   315 |   13.7 |        |       |
 |        52 | Jeffrey Kindel      | Watford A/G, Watford City, ND        |   310 |  13.48 |      1 |     6 |
@@ -407,7 +407,7 @@ Playoff 1: Lost to Central A/G, Springfield, MO 70 to 115
 * **Pastor**: Harold Schutte
 * **Coaches**: Charlotte Beyer, Susan Beaver
 * **Team**:
-    * Michelle S. Beaver
+    * Michelle Beaver
     * Krisha Beyer
     * Jon Higgins
 * **Round Robin**:

@@ -77,7 +77,7 @@ Team photos are provided courtesy of Larry Mullins.
 |       18 | Kyler Sederwall    | Garfield, NJ            |  1125 |  59.21 |      3 |     2 |
 |       19 | Heather Karnes     | Bothell, WA             |  1065 |  56.05 |      7 |     1 |
 |       20 | Daniel Wagner      | Owasso, OK              |  1055 |  55.53 |      6 |     1 |
-|       21 | P. J. Grigg        | Colorado Springs, CO    |   985 |  51.84 |      5 |     2 |
+|       21 | PJ Grigg           | Colorado Springs, CO    |   985 |  51.84 |      5 |     2 |
 |       22 | Ryan Albrecht      | Bowling Green, OH       |   980 |  51.58 |     10 |     7 |
 |       23 | Michael Rose       | Colorado Springs, CO    |   925 |  48.68 |      6 |     1 |
 |       24 | Jonathan Barthuly  | Santa Ana, CA           |   910 |  47.89 |      7 |     5 |
@@ -186,7 +186,7 @@ Team photos are provided courtesy of Larry Mullins.
 |       16 | Amy Siddall        | Syracuse, NY         |  1060 |  55.79 |     13 |     1 |
 |       17 | Cecily Spicer      | Vancouver, WA        |  1050 |  55.26 |      9 |     3 |
 |       18 | Angie Larson       | Nyssa, OR            |   995 |  52.37 |      8 |     3 |
-|       19 | C. J. Hock         | South Bend, IN       |   975 |  51.32 |     10 |     4 |
+|       19 | C.J. Hock          | South Bend, IN       |   975 |  51.32 |     10 |     4 |
 |       20 | Matthew Klika      | Springfield, MO      |   965 |  50.79 |      6 |     1 |
 |       21 | Brianna Riley      | Springfield, MO      |   915 |  48.16 |      7 |     1 |
 |       22 | Ellen Oss          | Colorado Springs, CO |   825 |  43.42 |      4 |     2 |

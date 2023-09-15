@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /training/officials/fun-atmosphere/
-title: "Creating a "fun" but "fair" atmosphere"
+title: "Creating a \"fun\" but \"fair\" atmosphere"
 date: "2016-05-03"
 ---
 
