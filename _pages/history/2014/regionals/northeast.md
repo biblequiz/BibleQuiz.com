@@ -81,7 +81,7 @@ menubar_toc_static:
 |   35 | Eve Vargas                | Praise AG "Ohhimark"                           | Garfield NJ        |   100 |   6.67 |      |
 |   36 | James Khor                | New Day AG "Final Charge"                      | Upper St. Clair PA |    90 |   6.00 |      |
 |   37 | Michael Brunell           | Emmanuel AG "GWWEH"                            | Allentown PA       |    70 |   4.67 |      |
-|   38 | Julie Anna Cherednichenko | First AG                                       | Binghamton NY      |    50 |   3.33 |      |
+|   38 | Julie-Anna Cherednichenko | First AG                                       | Binghamton NY      |    50 |   3.33 |      |
 |   39 | Alex Stewart              | Bethany Church "Thoroughly Equipped"           | Wyckoff NJ         |    30 |   2.00 |      |
 |   39 | Sadya Ouedraogo           | Word of Life AG                                | Springfield VA     |    30 |   2.00 |      |
 |   39 | Jacob Carty               | Living Hope WC "Worthy Women with Labor Pains" | Swedesboro NJ      |    30 |   2.00 |      |

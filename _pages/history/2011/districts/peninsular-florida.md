@@ -33,7 +33,7 @@ menubar_toc_static:
 | Daniel Notman      | Fort Lauderdale Christian Life Center |   110 |
 | Rachel DeLongy     | Fort Lauderdale Christian Life Center |    70 |
 | Oore Morakinyo     | Fort Lauderdale Christian Life Center |    65 |
-| Mo Abduwemni       | Wesley Chapel Victorious Life         |    20 |
+| Mo Adewunmi        | Wesley Chapel Victorious Life         |    20 |
 | Zach Freer         | Orlando Faith                         |    10 |
 | Tobi Morakinyo     | Fort Lauderdale Christian Life Center |    10 |
 | Jonice Grant       | Orlando Faith                         |     0 |
@@ -73,7 +73,7 @@ menubar_toc_static:
 | Jaclynn Scott      | North Fort Myers Faith            |    30 |
 | Jasmine Brown      | Vero Beach Treasure Coast #1      |     5 |
 | Joey Fitzjurls     | Vero Beach Treasure Coast         |     5 |
-| Daniel Abduwemn    | Wesley Chapel Victorious Life     |     0 |
+| Daniel Adewunmi    | Wesley Chapel Victorious Life     |     0 |
 | Christiana Fimbel  | North Fort Myers Faith            |     0 |
 | Daniel Olatungi    | Wesley Chapel Victorious Life     |     0 |
 | Kaitlynn Patten    | North Fort Myers Faith            |     0 |

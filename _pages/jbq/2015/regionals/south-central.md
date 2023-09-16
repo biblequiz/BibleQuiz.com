@@ -82,7 +82,7 @@ menubar_toc_static:
 |   33 | Josh Rose            | Blood Bought Brothers \* | The Bridge                      |   820 |  39.05 |      |
 |   34 | Alyssa Johnson       | Miami Mustaches          | Miami 1st AG                    |   815 |  38.81 |    2 |
 |   35 | Daniyy'El Gonzalez   | Dallas Dyanmite          | Dallas 1st AG                   |   815 |  38.81 |      |
-|   36 | MKayla McDaniel      | Undignified \*           | 1st AG                          |   795 |  37.86 |    9 |
+|   36 | M'Kayla McDaniel     | Undignified \*           | 1st AG                          |   795 |  37.86 |    9 |
 |   37 | Jett King            | Blood Bought Brothers \* | The Bridge                      |   760 |  36.19 |      |
 |   38 | Hector Rivera        | En Fuego                 | Waxahachie Bethesda AG          |   750 |  35.71 |    3 |
 |   39 | Preston Hoggard      | Tribulation Force        | The Oaks Fellowship             |   740 |  35.24 |    9 |

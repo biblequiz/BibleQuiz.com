@@ -145,7 +145,7 @@ menubar_toc_static:
 | ---: | ------------------ | ---------------------------------------- | ----: | -----: |
 |    1 | Jordan Zych        | Evangel Assembly, Williamsville, NY (B)  |  1265 | 140.56 |
 |    2 | Charlene Ellis     | Calvary Assembly of God, Elkhart, IN (F) |   990 | 110.00 |
-|    3 | CJ Hock Calvary    | Assembly of God, Elkhart, IN (E)         |   910 | 101.11 |
+|    3 | CJ Hock            | Calvary Assembly of God, Elkhart, IN (E) |   910 | 101.11 |
 |    4 | Aamod Samuel       | Living Epistles, Mishawaka               |   670 |  74.44 |
 |    5 | Serena Mathews     | Living Epistles, Mishawaka               |   625 |  69.44 |
 |    6 | Nick Burt          | Calvary Assembly of God, Elkhart, IN (E) |   605 |  67.22 |

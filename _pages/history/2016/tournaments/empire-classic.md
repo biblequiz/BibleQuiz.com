@@ -61,7 +61,7 @@ And thank you to Jesse Czubkowski for writing questions this year!
 |    8 | Nick Congdon              | First AG (Aaron), Binghamton, NY           |   420 |    3 |   60 |
 |    9 | Ally Waller               | Kennebec Valley AG, Chelsea, ME            |   390 |    2 |   56 |
 |   10 | Hannah Hill               | Living Hope Worship Center, Swedesboro, NJ |   375 |    3 |   54 |
-|   11 | Julia-Anna Cherednichenko | First AG (Aaron), Binghamton, NY           |   370 |    3 |   53 |
+|   11 | Julie-Anna Cherednichenko | First AG (Aaron), Binghamton, NY           |   370 |    3 |   53 |
 |   12 | Liam Bartlett             | Kennebec Valley AG, Chelsea, ME            |   325 |    3 |   46 |
 |   13 | Judah Stevens             | Maple Lane AG, Deposit, NY                 |   265 |    2 |   38 |
 |   14 | Sarah Wong                | Smithtown-Lori, Smithtown, NY              |   260 |    1 |   37 |

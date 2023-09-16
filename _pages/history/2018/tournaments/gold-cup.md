@@ -103,7 +103,7 @@ menubar_toc_static:
 |        8 | Joseph Barajas       | "B" The Believers (Trinity Cedar Hill)          |   235 |   47 |    1 |  56% |
 |        9 | Kaylen Hames         | Way of the Cross (Trinity Cedar Hill. )         |   230 |   46 |    3 |  78% |
 |       10 | Natalie Bartholomew  | Honey-Coated Camels Hair (The oaks fellowship ) |   135 |   27 |    1 |  85% |
-| **\*10** | Dannyy'El Gonzalez   | Three Marketeers (First @ Firewheel)            |   135 |   27 |    1 |  79% |
+| **\*10** | Daniyy'El Gonzalez   | Three Marketeers (First @ Firewheel)            |   135 |   27 |    1 |  79% |
 |       11 | Frida Ouedraogo      | Way of the Cross (Trinity Cedar Hill. )         |   115 |   23 |      |  87% |
 |       12 | Demi Landeros        | "B" The Disciples (Trinity Cedar Hill )         |    80 |   16 |      | 100% |
 |       13 | Elijah Lee           | Way of the Cross (Trinity Cedar Hill. )         |    55 |   11 |      |  54% |

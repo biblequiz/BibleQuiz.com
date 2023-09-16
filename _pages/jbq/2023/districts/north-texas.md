@@ -198,31 +198,31 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer               | Team                                  | Total |  Avg |   QO |   Q% |
-| -------: | --------------------- | ------------------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Xavier Azubuike       | Team Believe (First @ Firewheel)      |   340 |   68 |    5 |  94% |
-|  **\*1** | Skyler Howard         | Trinity Quiz Kids (Trinity Church)    |   340 |   68 |    5 |  94% |
-|        2 | Ryan Azubuike         | Team Believe (First @ Firewheel)      |   330 |   66 |    4 | 100% |
-|        3 | Hope Zeli             | Faith, Hope & Love (Mt. Creek Church) |   255 |   51 |    4 |  74% |
-|        4 | Asher Johnson         | Trinity Quiz Kids (Trinity Church)    |   180 |   36 |      |  83% |
-|        5 | Dallas Oliverz-Binion | David's Army (Encounter Church)       |   175 |   35 |    1 |  79% |
-|        6 | Caroline Rowland      | David's Army (Encounter Church)       |   120 |   24 |    1 |  62% |
-|        7 | Jameson Whiston       | God's Sunflowers (Freedom Church)     |   110 |   22 |    1 | 100% |
-|  **\*7** | Faith Fajemirokun     | Faith, Hope & Love (Mt. Creek Church) |   110 |   22 |    1 |  75% |
-|        8 | Harper Martinez       | Trinity Quiz Kids (Trinity Church)    |   105 |   21 |      |  80% |
-|        9 | Callowaye Burrow      | God's Sunflowers (Freedom Church)     |   100 |   20 |      |  75% |
-|       10 | Vincent Rowland       | David's Army (Encounter Church)       |    95 |   19 |    1 |  56% |
-|       11 | Raphael               | Archangels (Kingdom of God)           |    90 |   18 |      | 100% |
-|       12 | Michael               | Archangels (Kingdom of God)           |    30 |    6 |      | 100% |
-|       13 | AnnaRose Hodge        | God's Sunflowers (Freedom Church)     |    20 |    4 |      |  50% |
-|       14 | Gabriel               | Archangels (Kingdom of God)           |    10 |    2 |      |  99% |
-| **\*14** | Baily Martinez        | Trinity Quiz Kids (Trinity Church)    |    10 |    2 |      |  50% |
-|       15 | Fiona Campbell        | God's Sunflowers (Freedom Church)     |     0 |      |      |      |
-| **\*15** | Josiah Hare           | God's Sunflowers (Freedom Church)     |     0 |      |      |      |
-| **\*15** | Junior Darko          | Team Believe (First @ Firewheel)      |     0 |      |      |      |
-| **\*15** | Norbert Azubuike      | Team Believe (First @ Firewheel)      |     0 |      |      |      |
-| **\*15** | Gideon Bennett        | Trinity Quiz Kids (Trinity Church)    |     0 |      |      |      |
-| **\*15** | Brookly Herrera       | Trinity Quiz Kids (Trinity Church)    |     0 |      |      |      |
-| **\*15** | London Martinez       | Trinity Quiz Kids (Trinity Church)    |     0 |      |      |      |
-|       16 | AnnaMarie Whiston     | God's Sunflowers (Freedom Church)     |   -35 |   -7 |      |  10% |
+|        # | Quizzer                | Team                                  | Total |  Avg |   QO |   Q% |
+| -------: | ---------------------- | ------------------------------------- | ----: | ---: | ---: | ---: |
+|        1 | Xavier Azubuike        | Team Believe (First @ Firewheel)      |   340 |   68 |    5 |  94% |
+|  **\*1** | Skyler Howard          | Trinity Quiz Kids (Trinity Church)    |   340 |   68 |    5 |  94% |
+|        2 | Ryan Azubuike          | Team Believe (First @ Firewheel)      |   330 |   66 |    4 | 100% |
+|        3 | Hope Zeli              | Faith, Hope & Love (Mt. Creek Church) |   255 |   51 |    4 |  74% |
+|        4 | Asher Johnson          | Trinity Quiz Kids (Trinity Church)    |   180 |   36 |      |  83% |
+|        5 | Dallas Olivarez-Binion | David's Army (Encounter Church)       |   175 |   35 |    1 |  79% |
+|        6 | Caroline Rowland       | David's Army (Encounter Church)       |   120 |   24 |    1 |  62% |
+|        7 | Jameson Whiston        | God's Sunflowers (Freedom Church)     |   110 |   22 |    1 | 100% |
+|  **\*7** | Faith Fajemirokun      | Faith, Hope & Love (Mt. Creek Church) |   110 |   22 |    1 |  75% |
+|        8 | Harper Martinez        | Trinity Quiz Kids (Trinity Church)    |   105 |   21 |      |  80% |
+|        9 | Callowaye Burrow       | God's Sunflowers (Freedom Church)     |   100 |   20 |      |  75% |
+|       10 | Vincent Rowland        | David's Army (Encounter Church)       |    95 |   19 |    1 |  56% |
+|       11 | Raphael                | Archangels (Kingdom of God)           |    90 |   18 |      | 100% |
+|       12 | Michael                | Archangels (Kingdom of God)           |    30 |    6 |      | 100% |
+|       13 | AnnaRose Hodge         | God's Sunflowers (Freedom Church)     |    20 |    4 |      |  50% |
+|       14 | Gabriel                | Archangels (Kingdom of God)           |    10 |    2 |      |  99% |
+| **\*14** | Baily Martinez         | Trinity Quiz Kids (Trinity Church)    |    10 |    2 |      |  50% |
+|       15 | Fiona Campbell         | God's Sunflowers (Freedom Church)     |     0 |      |      |      |
+| **\*15** | Josiah Hare            | God's Sunflowers (Freedom Church)     |     0 |      |      |      |
+| **\*15** | Junior Darko           | Team Believe (First @ Firewheel)      |     0 |      |      |      |
+| **\*15** | Norbert Azubuike       | Team Believe (First @ Firewheel)      |     0 |      |      |      |
+| **\*15** | Gideon Bennett         | Trinity Quiz Kids (Trinity Church)    |     0 |      |      |      |
+| **\*15** | Brookly Herrera        | Trinity Quiz Kids (Trinity Church)    |     0 |      |      |      |
+| **\*15** | London Martinez        | Trinity Quiz Kids (Trinity Church)    |     0 |      |      |      |
+|       16 | AnnaMarie Whiston      | God's Sunflowers (Freedom Church)     |   -35 |   -7 |      |  10% |
 

@@ -115,7 +115,7 @@ menubar_toc_static:
 | 63  | Abenezer Mekuria     | Fury of the Flames (Word of Life Assembly, Springfield, VA) | 0     |       |     | %    |     |     |     |
 | 63  | McKinley Stevens     | Calvary Church - S (Naperville, IL)                         | 0     |       |     | %    |     |     |     |
 | 63  | Noah Lee             | Terrifying Sights (Trinity Church, TX)                      | 0     |       |     | %    |     |     |     |
-| 64  | Danny'El Gonzalez    | Human Rejects (First at Firewheel, Garland, TX)             | \-5   | \-.3  |     | 50%  |     |     | 2   |
+| 64  | Daniyy'El Gonzalez   | Human Rejects (First at Firewheel, Garland, TX)             | \-5   | \-.3  |     | 50%  |     |     | 2   |
 | 64  | Padmini Abothu       | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     | \-5   | \-.3  |     | %    |     |     |     |
 
 ## Challenger Results
@@ -304,7 +304,7 @@ menubar_toc_static:
 |       16 | Ariella Grimmond    | Living Stones (Calvary Assembly, Ozone Park, NY)                      |   170 |  24.3 |    1 |  70% |
 |       17 | Gabriella Singh     | Living Stones (Calvary Assembly, Ozone Park, NY)                      |   160 |  22.9 |    2 |  55% |
 |       18 | Jacob Thomas        | Race Runners (Carolinas Christian Assembly, Charlotte, NC)            |    95 |  13.6 |      |  62% |
-|       19 | Danny'El Gonzalez   | Human Rejects (First at Firewheel, Garland, TX)                       |    20 |   2.9 |      |  60% |
+|       19 | Daniyy'El Gonzalez  | Human Rejects (First at Firewheel, Garland, TX)                       |    20 |   2.9 |      |  60% |
 |       20 | Jocelyn Squires     | Gideon and the Girls (Lakeview Church, Indianapolis, IN)              |    10 |   1.4 |      |  99% |
 | **\*20** | Jerusha Jebaraj     | Race Runners (Carolinas Christian Assembly, Charlotte, NC)            |    10 |   1.4 |      |  66% |
 |       21 | Kora Pardee         | Calvary Assembly of God (Marinette, WI)                               |     5 |    .7 |      |  50% |

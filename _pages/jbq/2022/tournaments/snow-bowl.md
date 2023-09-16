@@ -55,7 +55,7 @@ menubar_toc_static:
 | **\*18** | Muna Osuagwu         | Bible Searchers (First @ Firewheel AG)                   |     0 |       |      |      |
 | **\*18** | Isabella Darko       | Bible Searchers (First @ Firewheel AG)                   |     0 |       |      |      |
 | **\*18** | G'ani Rivera         | God's Super Way-makers (Oaks Church)                     |     0 |       |      |      |
-| **\*18** | Sam O'Neil           | God's Super Way-makers (Oaks Church)                     |     0 |       |      |      |
+| **\*18** | Sam O'Neal           | God's Super Way-makers (Oaks Church)                     |     0 |       |      |      |
 | **\*18** | Jeremiah Moss        | God's Three Musketeers & Friends (Mountain Creek Church) |     0 |       |      |      |
 |       19 | John Pettis          | God's Super Way-makers (Oaks Church)                     |   -10 |  -1.3 |      |  40% |
 

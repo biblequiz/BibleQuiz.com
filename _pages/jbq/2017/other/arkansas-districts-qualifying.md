@@ -30,7 +30,7 @@ menubar_toc_static:
 |       # | Quizzer         | Team                   | Total |  Avg |   QO |   Q% |
 | ------: | --------------- | ---------------------- | ----: | ---: | ---: | ---: |
 |       1 | Aubrey Harvey   | McArthur (McArthur AG) |   110 |  110 |    1 | 100% |
-|       2 | ReeseAnn Folsom | McArthur (McArthur AG) |    20 |   20 |      |  99% |
+|       2 | ReeceAnn Folsom | McArthur (McArthur AG) |    20 |   20 |      |  99% |
 | **\*2** | Alice Weeley    | McArthur (McArthur AG) |    20 |   20 |      |  50% |
 |       3 | Jackson Eckart  | The Ridge (The Ridge)  |    10 |   10 |      |  99% |
 | **\*3** | Alexis Harvey   | McArthur (McArthur AG) |    10 |   10 |      |  66% |
