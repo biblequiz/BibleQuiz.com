@@ -557,7 +557,7 @@ menubar_toc_static:
 |   69 | Brittany Norman     | Jonesboro 1st       | Jonesboro 1st AG    |    20 |   1.18 |      |
 |   70 | Hunter Gregory      | Acts 29             | Van Buren 1st AG    |    15 |    .88 |      |
 |   71 | Ashlyn Gibbs        | Nashville           | Nashville 1st AG    |    10 |    .59 |      |
-|   71 | John Micheal Elliot | Mayflower Crusaders | Mayflower Lakeside  |    10 |    .59 |      |
+|   71 | John Michael Elliot | Mayflower Crusaders | Mayflower Lakeside  |    10 |    .59 |      |
 |   71 | Brianna Whitener    | McArthur Warriors   | McArthur Church     |    10 |    .59 |      |
 |   72 | Alexis Sharps       | NOTW                | 1st AG              |     5 |    .29 |      |
 |   72 | Lena Davis          | Acts 29             | Van Buren 1st AG    |     5 |    .29 |      |

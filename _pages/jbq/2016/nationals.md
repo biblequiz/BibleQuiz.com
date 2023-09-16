@@ -224,7 +224,7 @@ menubar_toc_static:
 |   61 | Olivia Moore         | Kung Fu Quizzers             | Benton, AR            |    10 |    .67 |      |
 |   61 | Aaron Barlow         | Parkway Christian Center     | Grants Pass, OR       |    10 |    .67 |      |
 |   61 | Angel Walker         | Contagious Havoc             | Mechanicsville, VA    |    10 |    .67 |      |
-|   61 | Corrie lee Boehling  | Wilmington Warriors          | Wilmington, NC        |    10 |    .67 |      |
+|   61 | Corrie Lee Boehling  | Wilmington Warriors          | Wilmington, NC        |    10 |    .67 |      |
 |   62 | Noah Sanders         | Kung Fu Quizzers             | Benton, AR            |       |    .00 |      |
 |   62 | Jace White           | Mighty Minions               | Cedar Hill, TX        |       |    .00 |      |
 |   62 | Joy Holzhausen       | Minecraft Bible Builders     | Fortville, IN         |       |    .00 |      |
@@ -613,7 +613,7 @@ menubar_toc_static:
 |   34 | Anna Scott Witzenman | Wilmington Warriors     | Wilmington, NC        |    40 |   4.44 |      |
 |   35 | Brenda Light         | Fluffy Panda Quizzers   | Gahanna, OH           |    20 |   2.22 |      |
 |   36 | Josiah Self          | Truth Seekers           | Versailles, KY        |     5 |    .56 |      |
-|   37 | Corrie lee Boehling  | Wilmington Warriors     | Wilmington, NC        |       |    .00 |      |
+|   37 | Corrie Lee Boehling  | Wilmington Warriors     | Wilmington, NC        |       |    .00 |      |
 |   37 | Carley McDonald      | Wilmington Warriors     | Wilmington, NC        |       |    .00 |      |
 |   37 | Brookleyn Light      | Fluffy Panda Quizzers   | Gahanna, OH           |       |    .00 |      |
 |   38 | Angel Walker         | Contagious Havoc        | Mechanicsville, VA    |    -5 |  -0.56 |      |
