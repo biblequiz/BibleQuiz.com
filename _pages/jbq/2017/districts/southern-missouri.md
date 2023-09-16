@@ -214,7 +214,7 @@ menubar_toc_static:
 |       19 | Jason Cerce       | Deep Fried Twinkies (Brighton AG)                          |   435 |  39.5 |    1 |  82% |
 |       20 | Aahana Shrestha   | The Lightning Ninja Quizzers (West County AG, Chesterfiel) |   310 |  28.2 |      |  94% |
 |       21 | Brian Honea       | Giant Slayers (De Soto 1st AG)                             |   195 |  17.7 |      |  81% |
-|       22 | J.J. myers        | Team-Central (Central)                                     |   150 |  13.6 |      |  75% |
+|       22 | J.J. Myers        | Team-Central (Central)                                     |   150 |  13.6 |      |  75% |
 |       23 | Andrew Green      | Followers of Jesus Christ (West County AG)                 |   110 |    10 |      |  92% |
 |       24 | Scarlette Hasty   | Racing for Jesus (New Hope Fellowship)                     |   105 |   9.5 |      |  89% |
 | **\*24** | Micah Allen       | Desperation Church (Desperation Church)                    |   105 |   9.5 |      |  76% |
@@ -271,7 +271,7 @@ menubar_toc_static:
 |       13 | David Miller    | Deep Fried Twinkies (Brighton AG)                          |    10 |  3.3 |      |  99% |
 |       14 | Aahana Shrestha | The Lightning Ninja Quizzers (West County AG, Chesterfiel) |     0 |      |      |      |
 | **\*14** | Isabel Nichol   | Giant Slayers (De Soto 1st AG)                             |     0 |      |      |      |
-|       15 | J.J. myers      | Team-Central (Central)                                     |   -10 | -3.3 |      |      |
+|       15 | J.J. Myers      | Team-Central (Central)                                     |   -10 | -3.3 |      |      |
 
 ## B Achiever Playoffs
 

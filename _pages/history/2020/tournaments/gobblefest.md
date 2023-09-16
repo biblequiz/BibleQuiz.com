@@ -300,7 +300,7 @@ menubar_toc_static:
 |       11 | Elijah Strocchia              | John's Disciples (Hamlin, Lake Ariel) (Hamlin Assembly of God)                       |   495 |  41.3 |    2 |  89% |
 |       12 | Abigail Powell                | Lighthouse Assembly of God (Harbor Beach) #1 (Lighthouse Assembly of God)            |   470 |  39.2 |    3 |  82% |
 |       13 | Elizabeth Powell              | Lighthouse Assembly of God (Harbor Beach) #1 (Lighthouse Assembly of God)            |   365 |  30.4 |    3 |  90% |
-|       14 | Daniel fabian                 | New Day Assembly of God (Upper Saint Clair) #2 (New Day Assembly of God)             |   330 |  27.5 |    2 |  72% |
+|       14 | Daniel Fabian                 | New Day Assembly of God (Upper Saint Clair) #2 (New Day Assembly of God)             |   330 |  27.5 |    2 |  72% |
 |       15 | Isaac Powell                  | Lighthouse Assembly of God (Harbor Beach) #1 (Lighthouse Assembly of God)            |   280 |  23.3 |    1 |  73% |
 |       16 | Jonathan Weber                | Mechanicsville Christian Center (Mechanicsville) # (Mechanicsville Christian Center) |   260 |  21.7 |      |  85% |
 |       17 | Bobby Dommel                  | First Spanish Assembly of God (Lancaster) #1 (First Spanish Assembly of God)         |   180 |    15 |    1 |  58% |

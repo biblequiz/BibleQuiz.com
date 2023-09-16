@@ -162,7 +162,7 @@ menubar_toc_static:
 |        9 | Andrey Dmitriev         | Rockford, IL (Life Church)                              |   955 |  63.7 |    2 |  80% |
 |       10 | Hannah Murray           | Brookfield, WI (CSI: Christ's Sanctified Investigators) |   910 |  60.7 |    2 |  97% |
 |       11 | Ijeoma Ilochonwu        | Rockford, IL (Life Church)                              |   870 |    58 |    9 |  85% |
-|       12 | trinity hills           | Wesley Chapel, FL (Life Church)                         |   845 |  56.3 |    1 |  78% |
+|       12 | Trinity Hills           | Wesley Chapel, FL (Life Church)                         |   845 |  56.3 |    1 |  78% |
 |       13 | Jase Cooper             | Billings, MT (Fourtify)                                 |   775 |  51.7 |    3 |  81% |
 |       14 | Andrew Pickrell         | Cedar Hill, TX (Thunder 'n Lightning)                   |   770 |  51.3 |    2 |  73% |
 |       15 | Lauren Pahl             | Apple Valley, MN (The Pentateuch)                       |   765 |    51 |    8 |  85% |
@@ -180,7 +180,7 @@ menubar_toc_static:
 |       27 | Elijah Hicks            | Las Vegas, NV (The Champion Center)                     |   560 |  37.3 |      |  70% |
 |       28 | Elijah Smith            | Bowling Green, OH (Dayspring Assembly of God)           |   550 |  36.7 |      |  84% |
 |       29 | Abraham Johnson         | Metuchen, NJ (Metuchen Assembly of God)                 |   500 |  33.3 |    3 |  73% |
-|       30 | jonah karydis           | Wesley Chapel, FL (Life Church)                         |   480 |    32 |    4 |  81% |
+|       30 | Jonah Karydis           | Wesley Chapel, FL (Life Church)                         |   480 |    32 |    4 |  81% |
 |       31 | Dominick Forbus         | Las Vegas, NV (The Champion Center)                     |   475 |  31.7 |      |  74% |
 |       32 | Jadon Sheomangal        | Cedar Hill, TX (Thunder 'n Lightning)                   |   445 |  29.7 |      |  64% |
 |       33 | Elijah Lapusan          | Seminole, TX (First Assembly of God)                    |   410 |  27.3 |      |  75% |
@@ -198,7 +198,7 @@ menubar_toc_static:
 |       43 | Josiah Morales          | Las Vegas, NV (The Champion Center)                     |   255 |    17 |    1 |  83% |
 |       44 | Savanna Barber          | Lees Summit, MO (Crown Pointe Church)                   |   240 |    16 |      |  60% |
 |       45 | Cienna Field            | Apple Valley, MN (The Pentateuch)                       |   220 |  14.7 |      | 100% |
-| **\*45** | noah ringeisen          | Wesley Chapel, FL (Life Church)                         |   220 |  14.7 |      |  68% |
+| **\*45** | Noah Ringeisen          | Wesley Chapel, FL (Life Church)                         |   220 |  14.7 |      |  68% |
 |       46 | Kathryn Dissmore        | Tallahassee, FL (More Than Conquerors)                  |   190 |  12.7 |      |  91% |
 |       47 | Kamryn LeBlanc          | Seminole, TX (First Assembly of God)                    |   180 |    12 |    1 |  90% |
 |       48 | Jason Ukonu             | Houston, TX (The Chosen Ones)                           |   170 |  11.3 |      |  90% |
@@ -212,7 +212,7 @@ menubar_toc_static:
 |       53 | Audriana Hirning        | Apple Valley, MN (The Pentateuch)                       |   105 |     7 |      |  80% |
 |       54 | Daniel Hayes            | Las Vegas, NV (The Champion Center)                     |    90 |     6 |      |  62% |
 |       55 | Jon Luc Jobson-Larkin   | Richmond Hill, NY (Bethlehem Church)                    |    85 |   5.7 |      |  56% |
-|       56 | wesley kinsey           | Wesley Chapel, FL (Life Church)                         |    80 |   5.3 |      |  73% |
+|       56 | Wesley Kinsey           | Wesley Chapel, FL (Life Church)                         |    80 |   5.3 |      |  73% |
 |       57 | Nicholas Nailor         | Cedar Hill, TX (Thunder 'n Lightning)                   |    30 |     2 |      |  99% |
 |       58 | Macie Pahl              | Apple Valley, MN (The Pentateuch)                       |     0 |       |      |  33% |
 | **\*58** | Julien Jobson-Larkin    | Richmond Hill, NY (Bethlehem Church)                    |     0 |       |      |      |
@@ -1001,7 +1001,7 @@ menubar_toc_static:
 |        2 | Andrea Mason        | Bristow, VA (Chapel Springs Assembly of God) |   865 |  96.1 |    5 |  75% |
 |        3 | Gianna LoGiudice    | Fruitland Park, FL (Triple Truth)            |   810 |    90 |    6 |  80% |
 |        4 | Jonathan An         | San Diego, CA (Living Water Bible Church)    |   755 |  83.9 |    3 |  78% |
-|        5 | trinity hills       | Wesley Chapel, FL (Life Church)              |   735 |  81.7 |    3 |  75% |
+|        5 | Trinity Hills       | Wesley Chapel, FL (Life Church)              |   735 |  81.7 |    3 |  75% |
 |        6 | Temaria Murphy      | Lakeland, FL (Victory Church)                |   645 |  71.7 |    3 |  67% |
 |        7 | Josh Luckow         | Two Rivers, WI (Renew Church)                |   600 |  66.7 |    3 |  74% |
 |        8 | Aceline Owusu       | Bristow, VA (Chapel Springs Assembly of God) |   545 |  60.6 |    4 |  87% |
@@ -1014,7 +1014,7 @@ menubar_toc_static:
 |       15 | Lucky Bandaru       | Bellevue, WA (Neighborhood Church)           |   370 |  41.1 |      |  76% |
 | **\*15** | Ashlin Vanderslice  | Jenks, OK (Newspring Assembly of God)        |   370 |  41.1 |      |  76% |
 |       16 | Hannah Liu          | San Diego, CA (Living Water Bible Church)    |   345 |  38.3 |    1 |  91% |
-|       17 | jonah karydis       | Wesley Chapel, FL (Life Church)              |   335 |  37.2 |    2 |  83% |
+|       17 | Jonah Karydis       | Wesley Chapel, FL (Life Church)              |   335 |  37.2 |    2 |  83% |
 |       18 | Chloe Siebold       | Two Rivers, WI (Renew Church)                |   330 |  36.7 |    2 |  85% |
 |       19 | Yatin Mokana        | Bellevue, WA (Neighborhood Church)           |   325 |  36.1 |      |  81% |
 |       20 | Ayushi Vara         | Bellevue, WA (Neighborhood Church)           |   285 |  31.7 |    2 |  85% |
@@ -1023,13 +1023,13 @@ menubar_toc_static:
 |       23 | Rylan Hance         | Lakeland, FL (Victory Church)                |   180 |    20 |      |  73% |
 |       24 | Gavin Burton        | Fenton, MI (The Freedom Center)              |   150 |  16.7 |      |  81% |
 |       25 | Lexie McKennett     | Bristow, VA (Chapel Springs Assembly of God) |   140 |  15.6 |      | 100% |
-|       26 | noah ringeisen      | Wesley Chapel, FL (Life Church)              |   135 |    15 |      |  73% |
+|       26 | Noah Ringeisen      | Wesley Chapel, FL (Life Church)              |   135 |    15 |      |  73% |
 |       27 | Adam Theriault      | Bellevue, WA (Neighborhood Church)           |   125 |  13.9 |    1 |  87% |
 |       28 | Daniel Liu          | San Diego, CA (Living Water Bible Church)    |   105 |  11.7 |      |  86% |
 |       29 | Janet An            | San Diego, CA (Living Water Bible Church)    |    80 |   8.9 |      |  55% |
 |       30 | Zoe Nerquaye-Tetteh | Bristow, VA (Chapel Springs Assembly of God) |    65 |   7.2 |      |  80% |
 |       31 | Briella LoGiudice   | Fruitland Park, FL (Triple Truth)            |    55 |   6.1 |      |  56% |
-|       32 | wesley kinsey       | Wesley Chapel, FL (Life Church)              |    50 |   5.6 |      | 100% |
+|       32 | Wesley Kinsey       | Wesley Chapel, FL (Life Church)              |    50 |   5.6 |      | 100% |
 | **\*32** | Nicholas Ortega     | Tucson, AZ (The Interrupters)                |    50 |   5.6 |      |  71% |
 |       33 | Talitha Konda       | Bellevue, WA (Neighborhood Church)           |    40 |   4.4 |      | 100% |
 |       34 | Elizabeth Larson    | Bellevue, WA (Neighborhood Church)           |    25 |   2.8 |      |  75% |

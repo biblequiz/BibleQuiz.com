@@ -248,7 +248,7 @@ menubar_toc_static:
 |       15 | Austin Spence    | Fantastic Four (Thousand Hills Church)     |    20 |    5 |      |  60% |
 | **\*15** | Kinley Garcia    | Word Warriors - Hope Church (Hope Church)  |    20 |    5 |      |  60% |
 |       16 | Sina Solomon     | Army of God (Dallas 1st AG)                |    10 |  2.5 |      |  99% |
-| **\*16** | Hannah deLeon    | The Sword Users (Trinity Church)           |    10 |  2.5 |      |  50% |
+| **\*16** | Hannah DeLeon    | The Sword Users (Trinity Church)           |    10 |  2.5 |      |  50% |
 | **\*16** | Elim             | Word Warriors - Dallas 1st (Dallas 1st AG) |    10 |  2.5 |      |  43% |
 |       17 | Foster Medley    | Fantastic Four (Thousand Hills Church)     |     0 |      |      |      |
 | **\*17** | Awet Samson      | Word Warriors - Dallas 1st (Dallas 1st AG) |     0 |      |      |      |

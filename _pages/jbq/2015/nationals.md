@@ -118,7 +118,7 @@ menubar_toc_static:
 |   64 | Aidan Fulfer      | Red Oak-TX                    | Tribulation Force     |       |    .00 |      |
 |   64 | Tyler Kelly       | Benton-AR                     | Kung Fu Quizzers      |       |    .00 |      |
 |   64 | Alyssa Jenks      | Sanford-FL                    | God's Incredibles     |       |    .00 |      |
-|   64 | Chalice sanders   | Benton-AR                     | Kung Fu Quizzers      |       |    .00 |      |
+|   64 | Chalice Sanders   | Benton-AR                     | Kung Fu Quizzers      |       |    .00 |      |
 |   64 | Lauren Green      | Benton-AR                     | Kung Fu Quizzers      |       |    .00 |      |
 
 
@@ -1057,7 +1057,7 @@ menubar_toc_static:
 |   38 | Kacey Mayfield      | Oswego-KS             | God Girls                        |       |    .00 |      |
 |   38 | Luke Shelton        | Wilmingon-NC - White  | Wilmington Warriors White Swords |       |    .00 |      |
 |   38 | Jeweleann Davis     | Benton-AR             | Kung Fu Quizzers                 |       |    .00 |      |
-|   38 | Chalice sanders     | Benton-AR             | Kung Fu Quizzers                 |       |    .00 |      |
+|   38 | Chalice Sanders     | Benton-AR             | Kung Fu Quizzers                 |       |    .00 |      |
 |   38 | Lauren Green        | Benton-AR             | Kung Fu Quizzers                 |       |    .00 |      |
 
 

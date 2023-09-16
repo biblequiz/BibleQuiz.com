@@ -118,7 +118,7 @@ menubar_toc_static:
 | **\*19** | Kaylee Driver      | Hot Tamales (Mission Church)                                                             |     0 |       |      |      |
 | **\*19** | Roshan Jayam       | Hot Tamales (Mission Church)                                                             |     0 |       |      |      |
 | **\*19** | Violet Cano        | Jesus' Army (Oaks Church)                                                                |     0 |       |      |      |
-| **\*19** | yotam Haile        | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) |     0 |       |      |      |
+| **\*19** | Yotam Haile        | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) |     0 |       |      |      |
 | **\*19** | Aster Mulushewa    | Ethiopian Evangelical Baptist Church (Garland) #2 (Ethiopian Evangelical Baptist Church) |     0 |       |      |  33% |
 |       20 | Fenn Rogers        | Hot Tamales (Mission Church)                                                             |   -10 |  -1.7 |      |      |
 |       21 | Noah Matlock       | Hot Tamales (Mission Church)                                                             |   -35 |  -5.8 |      |  17% |

@@ -73,7 +73,7 @@ menubar_toc_static:
 |    # | Quizzer         | Team                  | Total |
 | ---: | --------------- | --------------------- | ----: |
 |    1 | Alicia Randolph | Radiant Life, Elkhart |   920 |
-|    2 | nathan Hodge    | New Life, Frankfort   |   660 |
+|    2 | Nathan Hodge    | New Life, Frankfort   |   660 |
 |    3 | Rachel Polley   | First, Franklin       |   610 |
 |    4 | Rebekkah Polley | First, Franklin       |   475 |
 |    5 | Ali Priest      | Calvary, Indianapolis |   355 |

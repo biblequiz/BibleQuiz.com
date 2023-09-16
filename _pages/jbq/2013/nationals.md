@@ -267,7 +267,7 @@ menubar_toc_static:
 |   27 | Alex McCollum        | Greensboro - WOW     | Greensboro-NC     |    60 |   8.57 |      |
 |   27 | Mandy Rydeski        | Flamin' Hot Buzzers  | Albuquerque-NM    |    60 |   8.57 |      |
 |   28 | Noah Gallo           | Bellevue Buzzers     | Bellevue-WA       |    45 |   6.43 |      |
-|   29 | Mervin wallace       | Love Boldly          | Tallahassee-FL    |    35 |   5.00 |      |
+|   29 | Mervin Wallace       | Love Boldly          | Tallahassee-FL    |    35 |   5.00 |      |
 |   29 | Nicola Betz          | Quiz Commanders      | Yorkville-IL      |    35 |   5.00 |      |
 |   30 | Noah Rothwell        | Thing 1              | St.Cloud-MN       |    20 |   2.86 |      |
 |   30 | Sarah Winfield       | Flamin' Hot Buzzers  | Albuquerque-NM    |    20 |   2.86 |      |

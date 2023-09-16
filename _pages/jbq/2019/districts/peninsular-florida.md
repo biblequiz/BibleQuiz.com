@@ -39,7 +39,7 @@ menubar_toc_static:
 |        1 | Steffi Padmanaban    | Christian Life Center (Fort Lauderdale) #1 (Christian Life Center)           |  1015 | 126.9 |    5 |      |
 |        2 | Eden Castro          | Biblepedias Highpoint Church (Port Saint Lucie) (Highpoint Community Church) |   930 | 116.3 |    3 |      |
 |        3 | Gianna LoGiudice     | Triple Truth - LIFE Church A/G (FP) (LIFE Church Assembly of God)            |   850 | 106.3 |    8 |      |
-|        4 | trinity hills        | Victorious Life Church (Wesley Chapel) #2 (Victorious Life Church)           |   850 | 106.3 |    3 |      |
+|        4 | Trinity Hills        | Victorious Life Church (Wesley Chapel) #2 (Victorious Life Church)           |   850 | 106.3 |    3 |      |
 |        5 | Kayla Alicea         | New Life Assembly (Lehigh) #1 (New Life Assembly)                            |   720 |    90 |    4 |      |
 |        6 | William Anderson     | Avengers of JBQ (Faith Assembly of God)                                      |   675 |  84.4 |    4 |      |
 |        7 | Edie Thompson        | Triple Truth - LIFE Church A/G (FP) (LIFE Church Assembly of God)            |   560 |    70 |      |      |
@@ -51,14 +51,14 @@ menubar_toc_static:
 | **\*12** | Luke Thompson        | Guardian Gummy Bears - LIFE Church A/G (FP) (LIFE Church Assembly of God)    |   450 |  56.3 |      |      |
 |       13 | Victoria Okoh        | Christian Life Center (Fort Lauderdale) #1 (Christian Life Center)           |   355 |  44.4 |    2 |      |
 |       14 | Abby Thomas          | Guardian Gummy Bears - LIFE Church A/G (FP) (LIFE Church Assembly of God)    |   330 |  41.3 |    2 |      |
-|       15 | jonah karydis        | Victorious Life Church (Wesley Chapel) #2 (Victorious Life Church)           |   325 |  40.6 |    3 |      |
+|       15 | Jonah Karydis        | Victorious Life Church (Wesley Chapel) #2 (Victorious Life Church)           |   325 |  40.6 |    3 |      |
 |       16 | Rylan Hance          | Victory Church (Lakeland) #1 (Victory Church)                                |   285 |  35.6 |    2 |      |
 |       17 | Isabella Kirchon     | Victory Church (Lakeland) #1 (Victory Church)                                |   250 |  31.3 |      |      |
 |       18 | Briella LoGiudice    | Triple Truth - LIFE Church A/G (FP) (LIFE Church Assembly of God)            |   195 |  24.4 |    1 |      |
 |       19 | Maya Castro          | Biblepedias Highpoint Church (Port Saint Lucie) (Highpoint Community Church) |   175 |  21.9 |    1 |      |
 |       20 | Cameron Hendrickson  | Guardian Gummy Bears - LIFE Church A/G (FP) (LIFE Church Assembly of God)    |    90 |  11.3 |      |      |
 |       21 | Naqahla Pawlak       | First Assembly Deland (Deland) #1 (First Assembly Deland)                    |    50 |   6.3 |      |      |
-|       22 | wesley kinsey        | Victorious Life Church (Wesley Chapel) #2 (Victorious Life Church)           |    45 |   5.6 |      |      |
+|       22 | Wesley Kinsey        | Victorious Life Church (Wesley Chapel) #2 (Victorious Life Church)           |    45 |   5.6 |      |      |
 |       23 | Hayden Wright        | Victory Church (Lakeland) #1 (Victory Church)                                |    30 |   3.8 |      |      |
 | **\*23** | Widly Eltine         | Christian Life Center (Fort Lauderdale) #1 (Christian Life Center)           |    30 |   3.8 |      |      |
 |       24 | Elijah Tanner        | First Assembly Deland (Deland) #1 (First Assembly Deland)                    |    20 |   2.5 |      |      |
@@ -74,7 +74,7 @@ menubar_toc_static:
 | **\*26** | Allana Sinvil        | Biblepedias Highpoint Church (Port Saint Lucie) (Highpoint Community Church) |     0 |       |      |      |
 | **\*26** | Gabriel Tirado       | Guardian Gummy Bears - LIFE Church A/G (FP) (LIFE Church Assembly of God)    |     0 |       |      |      |
 | **\*26** | tobey powell         | Victorious Life Church (Wesley Chapel) #2 (Victorious Life Church)           |     0 |       |      |      |
-| **\*26** | annaliese doolin     | Victorious Life Church (Wesley Chapel) #2 (Victorious Life Church)           |     0 |       |      |      |
+| **\*26** | Annaliese Doolin     | Victorious Life Church (Wesley Chapel) #2 (Victorious Life Church)           |     0 |       |      |      |
 | **\*26** | Claire Maricle       | First Assembly Deland (Deland) #1 (First Assembly Deland)                    |     0 |       |      |      |
 | **\*26** | Chase Maricle        | First Assembly Deland (Deland) #1 (First Assembly Deland)                    |     0 |       |      |      |
 | **\*26** | Stephan Jules        | Christian Life Center (Fort Lauderdale) #1 (Christian Life Center)           |     0 |       |      |      |
@@ -107,7 +107,7 @@ menubar_toc_static:
 |        2 | Ananiah Robinson   | First Assembly of God (New Port Richey) #1 (First Assembly of God)                |   455 |  75.8 |      |      |
 |        3 | salem addis        | Victorious Life Church (Wesley Chapel) #1 (Victorious Life Church)                |   390 |    65 |    1 |      |
 |        4 | Gavin Harrop       | Bible Bashers of City Church of Orlando (City Church of Orlando)                  |   360 |    60 |    5 |      |
-|        5 | noah ringeisen     | Victorious Life Church (Wesley Chapel) #1 (Victorious Life Church)                |   345 |  57.5 |    2 |      |
+|        5 | Noah Ringeisen     | Victorious Life Church (Wesley Chapel) #1 (Victorious Life Church)                |   345 |  57.5 |    2 |      |
 |        6 | Ashley Hostetler   | Newbie Quizzers - LIFE Church A/G (FP) (LIFE Church Assembly of God)              |   320 |  53.3 |      |      |
 |        7 | Joseph Bland       | Knights of God (Faith Assembly of God)                                            |   290 |  48.3 |    3 |      |
 |        8 | Marcus Goss, Jr.   | Bible Bashers of City Church of Orlando (City Church of Orlando)                  |   280 |  46.7 |    1 |      |
