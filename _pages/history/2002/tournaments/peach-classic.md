@@ -134,6 +134,6 @@ After preliminary rounds, teams were divided into Gold and Silver Divisions in e
 | Victoria Leight   | Jacksonville #2     |   240 |
 | Travis Porter     | Jacksonville #1     |   225 |
 | Catie White       | Acworth             |   215 |
-| Haley bartlebaugh | Warner Robins Faith |   200 |
+| Haley Bartlebaugh | Warner Robins Faith |   200 |
 | Zachary Perry     | Stockbridge         |   125 |
 

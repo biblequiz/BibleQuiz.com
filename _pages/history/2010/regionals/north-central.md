@@ -76,7 +76,7 @@ menubar_toc_static:
 |    6 | Isaiah Sherman     | Cedar Rapids, IA  |   440 |   44 |
 |    7 | Caleb Beliel       | Des Moines, IA    |   430 |   43 |
 |    8 | Brianna Harris     | Grand Island, NE  |   390 |   39 |
-|    9 | len Oygaard        | Rapid City, SD    |   350 |   35 |
+|    9 | Len Oygaard        | Rapid City, SD    |   350 |   35 |
 |   10 | Trask Freydenfelt  | Cedar Rapids, IA  |   185 | 18.5 |
 |   11 | Adrian Epp         | Grand Island, NE  |   170 |   17 |
 |   12 | Natalie Ridgway    | Des Moines, IA    |   125 | 12.5 |
