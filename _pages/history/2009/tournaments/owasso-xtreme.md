@@ -68,7 +68,7 @@ menubar_toc_static:
 |   29 | Hannah Ingerson   |   260 |     20 |    1 |
 |   30 | Zack Brookbank    |   245 |  18.85 |    0 |
 |   31 | David Batchelder  |   235 |  18.08 |    3 |
-|   32 | Micheal Chorley   |   210 |  16.15 |    0 |
+|   32 | Michael Chorley   |   210 |  16.15 |    0 |
 |   33 | Brianna Forsman   |   180 |  13.85 |    2 |
 |   34 | Arinze Onyonezi   |   165 |  12.69 |    1 |
 |   36 | Nick Faulkner     |   150 |  11.54 |    0 |

@@ -29,7 +29,7 @@ menubar_toc_static:
 | Quizzer          | Team       | Total |
 | ---------------- | ---------- | ----: |
 | Jenna-Jo Duffy   | Cedar Park |  1115 |
-| JP O'Conner      | Tacoma     |   995 |
+| JP O'Connor      | Tacoma     |   995 |
 | Bryce Jensen     | Meridian   |   975 |
 | Heather Karnes   | Cedar Park |   805 |
 | Tierney Gillihan | Kuna       |   750 |

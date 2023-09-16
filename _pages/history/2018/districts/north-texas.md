@@ -77,7 +77,7 @@ menubar_toc_static:
 |        7 | Gabe Lapusan         | Honey Coated Camel's Hair (The Oaks) |   165 |  27.5 |    1 |  69% |
 |        8 | Frida Ouedraogo      | Consecrated Bread (Trinity)          |   160 |  26.7 |      |  76% |
 |        9 | Brandon Aguilar      | Legend (Destiny)                     |   140 |  23.3 |    1 |  58% |
-|       10 | Dannyy'El Gonzalez   | Three Marketeers (First@Firewheel)   |   100 |  16.7 |      |  65% |
+|       10 | Daniyy'El Gonzalez   | Three Marketeers (First@Firewheel)   |   100 |  16.7 |      |  65% |
 |       11 | Michael Stone        | Legend (Destiny)                     |    10 |   1.7 |      |  66% |
 |       12 | Kaylen Hames         | Consecrated Bread (Trinity)          |     0 |       |      |      |
 | **\*12** | Christian Hames      | Consecrated Bread (Trinity)          |     0 |       |      |      |

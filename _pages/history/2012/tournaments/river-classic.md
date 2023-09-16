@@ -154,7 +154,7 @@ menubar_toc_static:
 |   14 | Ben Hazard         | Portage CrossPoint          | CrossPoint A/G           |   660 |  44.00 |    3 |
 |   15 | Will Turner        | Maranatha Christian Academy | Home School Team         |   620 |  41.33 |    4 |
 |   16 | Andy Okala         | BOOS CARS                   | Evangel Comm. Church     |   590 |  39.33 |    3 |
-|   17 | PaulaAnn Granston  | Snellville LIP GEL          | Evangel Comm. Church     |   570 |  38.00 |      |
+|   17 | Paula Ann Granston | Snellville LIP GEL          | Evangel Comm. Church     |   570 |  38.00 |      |
 |   18 | Bethany Ehrlich    | Lexington B                 | Lexington 1st A/G        |   560 |  37.33 |    3 |
 |   19 | Olivia Scott       | Big Fish Quizzers           | Meadowbrook Comm. Church |   535 |  35.67 |    2 |
 |   20 | Eli Sapien         | In Tents                    | Living Hope Church       |   515 |  34.33 |    4 |
@@ -245,7 +245,7 @@ menubar_toc_static:
 |   14 | Lillie Rainey   | Flames of Fire            | Church at Briargate  |   670 |  51.54 |    7 |
 |   15 | Travis Griessel | Together with Water       | James River A/G      |   565 |  43.46 |    3 |
 |   16 | Lucas Clark     | Celestial Masters of Fire | Central A/G          |   545 |  41.92 |    5 |
-|   17 | Abby O'Connel   | Scarlet Wool              | James River A/G      |   460 |  35.38 |    2 |
+|   17 | Abby O'Connell  | Scarlet Wool              | James River A/G      |   460 |  35.38 |    2 |
 |   18 | Jacob Zorehkey  | The Good Things           | Central A/G          |   410 |  31.54 |    2 |
 |   19 | Maia Cooper     | Slow Learners             | King's Chapel        |   365 |  28.08 |    2 |
 |   20 | Keanna Clarke   | Snellville BKMC's         | Evangel Comm. Church |   315 |  24.23 |    1 |
@@ -281,4 +281,3 @@ menubar_toc_static:
 |   41 | Danielle Aubry  | And Branches of Hyssop    | James River A/G      |       |    .00 |      |
 |   41 | Victoriah Shook | And Branches of Hyssop    | James River A/G      |       |    .00 |      |
 |   42 | Michel Warner   | Czech Tech                | Muskogee 1st A/G     |   -20 |  -1.54 |      |
-

@@ -518,7 +518,7 @@ menubar_toc_static:
 |   42 | Avryl Weiland         | West Ridge Warriors           | West Ridge Church               |   235 |  15.67 |    1 |
 |   43 | Joey Paul             | Collierville Freedom Fighters | Collierville 1st AG             |   230 |  15.33 |      |
 |   43 | Seth Christopher      | Bible Minions                 | Mechanicsville Christian Center |   230 |  15.33 |      |
-|   44 | Brock boehling        | Wilmington warriors           | Church on the cape              |   210 |  14.00 |      |
+|   44 | Brock Boehling        | Wilmington warriors           | Church on the cape              |   210 |  14.00 |      |
 |   45 | Amarachi Ayozie       | Transformed                   | Garland-First@Firewheel         |   205 |  13.67 |      |
 |   46 | Sarah Mathew          | God Squad                     | International AG Mesa Az        |   190 |  12.67 |      |
 |   47 | Julia Correa          | Neighborhood                  | Neighborhood AG                 |   185 |  12.33 |    1 |
@@ -908,7 +908,7 @@ menubar_toc_static:
 |   24 | Broxton Cole          | Lawson Son Worshippers #1 | Lawson AG                 |   135 | 15.00 |      |
 |   25 | Ethan Phillips        | Team A                    | Portland Christian Center |   110 | 12.22 |      |
 |   25 | Caleb Black           | 360 Quizzers              | Life360 Church            |   110 | 12.22 |      |
-|   25 | Brock boehling        | Wilmington warriors       | Church on the cape        |   110 | 12.22 |      |
+|   25 | Brock Boehling        | Wilmington warriors       | Church on the cape        |   110 | 12.22 |      |
 |   26 | Blake Garza           | Quiz Commanders           | Proventus Academy         |   100 | 11.11 |      |
 |   27 | Reagan Stevens        | Naperville                | Calvary Church - S        |    70 |  7.78 |      |
 |   28 | Seth Archer           | Lawson Son Worshippers #2 | Lawson AG                 |    65 |  7.22 |      |

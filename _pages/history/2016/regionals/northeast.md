@@ -36,65 +36,65 @@ menubar_toc_static:
 
 ### Individuals
 
-| #    | Quizzer                  | Team                            | Church                                       | Total | Avg    | QO   |
-| :--- | :----------------------- | :------------------------------ | :------------------------------------------- | :---- | :----- | :--- |
-| 1    | Halle Reisinger          | Eunuch-corns                    | Newport AG-Newport, PA                       | 1820  | 121.33 | 15   |
-| 2    | Julia Rodriguez          | PCC-Sheep to Slaughter          | Pocono CC-Mt. Pocono, PA                     | 1725  | 115.00 | 12   |
-| 3    | Jonathan Brown           | Finish the Race                 | New Day AG-Upper St. Clair, PA               | 1590  | 106.00 | 14   |
-| 4    | Gabriel Flores           | JLA 726 Suffered No Ill Effects | Bethany Church-Wyckoff, NJ                   | 1440  | 96.00  | 12   |
-| 5    | Madison Holcomb          | You Be the Judge                | Evangel Heights AG-Sarver, PA                | 1390  | 92.67  | 12   |
-| 6    | Solomon Stevens          | Maple Lane AG                   | Maple Lane AG-Deposit, NY                    | 1245  | 83.00  | 11   |
-| 7    | Caleb Hoffmann           | Maple Lane AG                   | Maple Lane AG-Deposit, NY                    | 1195  | 79.67  | 9    |
-| 8    | Joseph Lemley            | Finish the Race                 | New Day AG-Upper St. Clair, PA               | 1190  | 79.33  | 13   |
-| 9    | Judah Stevens            | Maple Lane AG                   | Maple Lane AG-Deposit, NY                    | 840   | 56.00  | 7    |
-| 10   | Katrina Dowdy            | Living Hope Worship Center      | Living Hope Worship Center-Swedesboro, NJ    | 700   | 46.67  | 4    |
-| 11   | Divya Mathews            | Word Of Life Assembly           | Word Of Life Assembly-Springfield, VA        | 640   | 42.67  | 5    |
-| 12   | Ally Waller              | Do you speak Greek?             | Kennebec Valley AG-Chelsea, ME               | 640   | 42.67  | 3    |
-| 13   | Hannah Hill              | Living Hope Worship Center      | Living Hope Worship Center-Swedesboro, NJ    | 620   | 41.33  | 5    |
-| 14   | Sydney Bollinger         | You Be the Judge                | Evangel Heights AG-Sarver, PA                | 555   | 37.00  | 5    |
-| 15   | Jackson DeMasi           | Smithtown Christian             | Smithtown Christian-Smithtown, NY            | 550   | 36.67  | 1    |
-| 16   | Nathaniel Stuart         | PCC-Sheep to Slaughter          | Pocono CC-Mt. Pocono, PA                     | 460   | 30.67  | 1    |
-| 17   | Hannah Erdvig            | Smithtown Christian             | Smithtown Christian-Smithtown, NY            | 405   | 27.00  | 1    |
-| 18   | Cassie Washington        | Charleston Pentecostal Church   | Charleston Pentecostal Church-Charleston, ME | 380   | 25.33  | 2    |
-| 19   | Ethan Hoffmann           | Maple Lane AG                   | Maple Lane AG-Deposit, NY                    | 370   | 24.67  | 2    |
-| 20   | Hava Parker              | PCC-Sheep to Slaughter          | Pocono CC-Mt. Pocono, PA                     | 355   | 23.67  | 2    |
-| 21   | Sarah Wong               | Smithtown Christian             | Smithtown Christian-Smithtown, NY            | 330   | 22.00  | 1    |
-| 22   | Madison Steele           | MCC-Love                        | Mechanicsville CC-Mechanicsville, VA         | 325   | 21.67  | 1    |
-| 22   | Robin Solomon            | Metuchen AG - Damascus Road     | Metuchen AG-Metuchen, NJ                     | 325   | 21.67  | 1    |
-| 23   | Trace Reisinger          | Eunuch-corns                    | Newport AG-Newport, PA                       | 320   | 21.33  |      |
-| 24   | JulieAnna Cherednichenko | First AG                        | First AG-Binghamton, NY                      | 315   | 21.00  | 2    |
-| 25   | Samuel Thrift            | Charleston Pentecostal Church   | Charleston Pentecostal Church-Charleston, ME | 305   | 20.33  | 1    |
-| 26   | Veronica Cherednichenko  | First AG                        | First AG-Binghamton, NY                      | 300   | 20.00  | 1    |
-| 27   | Olufemi Oladipo          | Metuchen AG - Damascus Road     | Metuchen AG-Metuchen, NJ                     | 285   | 19.00  |      |
-| 28   | Ben Beckering            | Grace AG                        | Grace AG-Syracuse, NY                        | 280   | 18.67  | 1    |
-| 29   | Liam Bartlett            | Do you speak Greek?             | Kennebec Valley AG-Chelsea, ME               | 255   | 17.00  |      |
-| 30   | Phoebe Hoffman           | MCC-Love                        | Mechanicsville CC-Mechanicsville, VA         | 250   | 16.67  | 1    |
-| 31   | Alyssa Walker            | MCC-Love                        | Mechanicsville CC-Mechanicsville, VA         | 245   | 16.33  | 1    |
-| 32   | Josiah Bartlett          | Do you speak Greek?             | Kennebec Valley AG-Chelsea, ME               | 225   | 15.00  | 1    |
-| 33   | Hannah Cole              | First AG                        | First AG-Binghamton, NY                      | 205   | 13.67  | 1    |
-| 34   | Lydia Dawit              | Word Of Life Assembly           | Word Of Life Assembly-Springfield, VA        | 200   | 13.33  |      |
-| 35   | Savannah Cosme           | Ship Wreck Survivors            | Fountain of Life Center-Burlington, NJ       | 185   | 12.33  |      |
-| 36   | Alex Stewart             | JLA 726 Suffered No Ill Effects | Bethany Church-Wyckoff, NJ                   | 135   | 9.00   |      |
-| 37   | Josh Fuller              | Finish the Race                 | New Day AG-Upper St. Clair, PA               | 125   | 8.33   |      |
-| 38   | Kalena Parks             | Charleston Pentecostal Church   | Charleston Pentecostal Church-Charleston, ME | 110   | 7.33   |      |
-| 39   | Helan Thomas             | Metuchen AG - Damascus Road     | Metuchen AG-Metuchen, NJ                     | 85    | 5.67   |      |
-| 40   | Kristianna Nye           | Eunuch-corns                    | Newport AG-Newport, PA                       | 65    | 4.33   |      |
-| 41   | Jacob Carty              | Living Hope Worship Center      | Living Hope Worship Center-Swedesboro, NJ    | 60    | 4.00   |      |
-| 42   | Abby Beckering           | Grace AG                        | Grace AG-Syracuse, NY                        | 35    | 2.33   |      |
-| 43   | Annabelle Gabsi          | Ship Wreck Survivors            | Fountain of Life Center-Burlington, NJ       | 30    | 2.00   |      |
-| 44   | Alexis Adelmann          | JLA 726 Suffered No Ill Effects | Bethany Church-Wyckoff, NJ                   | 20    | 1.33   |      |
-| 44   | Hannah Thrift            | Charleston Pentecostal Church   | Charleston Pentecostal Church-Charleston, ME | 20    | 1.33   |      |
-| 44   | Wesley White             | Ship Wreck Survivors            | Fountain of Life Center-Burlington, NJ       | 20    | 1.33   |      |
-| 45   | Nathaniel Walker         | MCC-Love                        | Mechanicsville CC-Mechanicsville, VA         | 10    | 0.67   |      |
-| 46   | Lenora Reinhardt         | Grace AG                        | Grace AG-Syracuse, NY                        |       | 0.00   |      |
-| 46   | Rod Cesar                | Smithtown Christian             | Smithtown Christian-Smithtown, NY            |       | 0.00   |      |
-| 46   | Mark Churchill           | Charleston Pentecostal Church   | Charleston Pentecostal Church-Charleston, ME |       | 0.00   |      |
-| 46   | Mik'kalah Patterson      | Ship Wreck Survivors            | Fountain of Life Center-Burlington, NJ       |       | 0.00   |      |
-| 46   | Caleb Gerhardt           | First AG                        | First AG-Binghamton, NY                      |       | 0.00   |      |
-| 46   | Nick Congdon             | First AG                        | First AG-Binghamton, NY                      |       | 0.00   |      |
-| 46   | Andrew Loiacono          | Smithtown Christian             | Smithtown Christian-Smithtown, NY            |       | 0.00   |      |
-| 47   | Lydia Hill               | Living Hope Worship Center      | Living Hope Worship Center-Swedesboro, NJ    | -40   | -2.67  |      |
-| 48   | Colby Heller             | Eunuch-corns                    | Newport AG-Newport, PA                       | -25   | -1.67  |      |
+| #    | Quizzer                   | Team                            | Church                                       | Total | Avg    | QO   |
+| :--- | :------------------------ | :------------------------------ | :------------------------------------------- | :---- | :----- | :--- |
+| 1    | Halle Reisinger           | Eunuch-corns                    | Newport AG-Newport, PA                       | 1820  | 121.33 | 15   |
+| 2    | Julia Rodriguez           | PCC-Sheep to Slaughter          | Pocono CC-Mt. Pocono, PA                     | 1725  | 115.00 | 12   |
+| 3    | Jonathan Brown            | Finish the Race                 | New Day AG-Upper St. Clair, PA               | 1590  | 106.00 | 14   |
+| 4    | Gabriel Flores            | JLA 726 Suffered No Ill Effects | Bethany Church-Wyckoff, NJ                   | 1440  | 96.00  | 12   |
+| 5    | Madison Holcomb           | You Be the Judge                | Evangel Heights AG-Sarver, PA                | 1390  | 92.67  | 12   |
+| 6    | Solomon Stevens           | Maple Lane AG                   | Maple Lane AG-Deposit, NY                    | 1245  | 83.00  | 11   |
+| 7    | Caleb Hoffmann            | Maple Lane AG                   | Maple Lane AG-Deposit, NY                    | 1195  | 79.67  | 9    |
+| 8    | Joseph Lemley             | Finish the Race                 | New Day AG-Upper St. Clair, PA               | 1190  | 79.33  | 13   |
+| 9    | Judah Stevens             | Maple Lane AG                   | Maple Lane AG-Deposit, NY                    | 840   | 56.00  | 7    |
+| 10   | Katrina Dowdy             | Living Hope Worship Center      | Living Hope Worship Center-Swedesboro, NJ    | 700   | 46.67  | 4    |
+| 11   | Divya Mathews             | Word Of Life Assembly           | Word Of Life Assembly-Springfield, VA        | 640   | 42.67  | 5    |
+| 12   | Ally Waller               | Do you speak Greek?             | Kennebec Valley AG-Chelsea, ME               | 640   | 42.67  | 3    |
+| 13   | Hannah Hill               | Living Hope Worship Center      | Living Hope Worship Center-Swedesboro, NJ    | 620   | 41.33  | 5    |
+| 14   | Sydney Bollinger          | You Be the Judge                | Evangel Heights AG-Sarver, PA                | 555   | 37.00  | 5    |
+| 15   | Jackson DeMasi            | Smithtown Christian             | Smithtown Christian-Smithtown, NY            | 550   | 36.67  | 1    |
+| 16   | Nathaniel Stuart          | PCC-Sheep to Slaughter          | Pocono CC-Mt. Pocono, PA                     | 460   | 30.67  | 1    |
+| 17   | Hannah Erdvig             | Smithtown Christian             | Smithtown Christian-Smithtown, NY            | 405   | 27.00  | 1    |
+| 18   | Cassie Washington         | Charleston Pentecostal Church   | Charleston Pentecostal Church-Charleston, ME | 380   | 25.33  | 2    |
+| 19   | Ethan Hoffmann            | Maple Lane AG                   | Maple Lane AG-Deposit, NY                    | 370   | 24.67  | 2    |
+| 20   | Hava Parker               | PCC-Sheep to Slaughter          | Pocono CC-Mt. Pocono, PA                     | 355   | 23.67  | 2    |
+| 21   | Sarah Wong                | Smithtown Christian             | Smithtown Christian-Smithtown, NY            | 330   | 22.00  | 1    |
+| 22   | Madison Steele            | MCC-Love                        | Mechanicsville CC-Mechanicsville, VA         | 325   | 21.67  | 1    |
+| 22   | Robin Solomon             | Metuchen AG - Damascus Road     | Metuchen AG-Metuchen, NJ                     | 325   | 21.67  | 1    |
+| 23   | Trace Reisinger           | Eunuch-corns                    | Newport AG-Newport, PA                       | 320   | 21.33  |      |
+| 24   | Julie-Anna Cherednichenko | First AG                        | First AG-Binghamton, NY                      | 315   | 21.00  | 2    |
+| 25   | Samuel Thrift             | Charleston Pentecostal Church   | Charleston Pentecostal Church-Charleston, ME | 305   | 20.33  | 1    |
+| 26   | Veronica Cherednichenko   | First AG                        | First AG-Binghamton, NY                      | 300   | 20.00  | 1    |
+| 27   | Olufemi Oladipo           | Metuchen AG - Damascus Road     | Metuchen AG-Metuchen, NJ                     | 285   | 19.00  |      |
+| 28   | Ben Beckering             | Grace AG                        | Grace AG-Syracuse, NY                        | 280   | 18.67  | 1    |
+| 29   | Liam Bartlett             | Do you speak Greek?             | Kennebec Valley AG-Chelsea, ME               | 255   | 17.00  |      |
+| 30   | Phoebe Hoffman            | MCC-Love                        | Mechanicsville CC-Mechanicsville, VA         | 250   | 16.67  | 1    |
+| 31   | Alyssa Walker             | MCC-Love                        | Mechanicsville CC-Mechanicsville, VA         | 245   | 16.33  | 1    |
+| 32   | Josiah Bartlett           | Do you speak Greek?             | Kennebec Valley AG-Chelsea, ME               | 225   | 15.00  | 1    |
+| 33   | Hannah Cole               | First AG                        | First AG-Binghamton, NY                      | 205   | 13.67  | 1    |
+| 34   | Lydia Dawit               | Word Of Life Assembly           | Word Of Life Assembly-Springfield, VA        | 200   | 13.33  |      |
+| 35   | Savannah Cosme            | Ship Wreck Survivors            | Fountain of Life Center-Burlington, NJ       | 185   | 12.33  |      |
+| 36   | Alex Stewart              | JLA 726 Suffered No Ill Effects | Bethany Church-Wyckoff, NJ                   | 135   | 9.00   |      |
+| 37   | Josh Fuller               | Finish the Race                 | New Day AG-Upper St. Clair, PA               | 125   | 8.33   |      |
+| 38   | Kalena Parks              | Charleston Pentecostal Church   | Charleston Pentecostal Church-Charleston, ME | 110   | 7.33   |      |
+| 39   | Helan Thomas              | Metuchen AG - Damascus Road     | Metuchen AG-Metuchen, NJ                     | 85    | 5.67   |      |
+| 40   | Kristianna Nye            | Eunuch-corns                    | Newport AG-Newport, PA                       | 65    | 4.33   |      |
+| 41   | Jacob Carty               | Living Hope Worship Center      | Living Hope Worship Center-Swedesboro, NJ    | 60    | 4.00   |      |
+| 42   | Abby Beckering            | Grace AG                        | Grace AG-Syracuse, NY                        | 35    | 2.33   |      |
+| 43   | Annabelle Gabsi           | Ship Wreck Survivors            | Fountain of Life Center-Burlington, NJ       | 30    | 2.00   |      |
+| 44   | Alexis Adelmann           | JLA 726 Suffered No Ill Effects | Bethany Church-Wyckoff, NJ                   | 20    | 1.33   |      |
+| 44   | Hannah Thrift             | Charleston Pentecostal Church   | Charleston Pentecostal Church-Charleston, ME | 20    | 1.33   |      |
+| 44   | Wesley White              | Ship Wreck Survivors            | Fountain of Life Center-Burlington, NJ       | 20    | 1.33   |      |
+| 45   | Nathaniel Walker          | MCC-Love                        | Mechanicsville CC-Mechanicsville, VA         | 10    | 0.67   |      |
+| 46   | Lenora Reinhardt          | Grace AG                        | Grace AG-Syracuse, NY                        |       | 0.00   |      |
+| 46   | Rod Cesar                 | Smithtown Christian             | Smithtown Christian-Smithtown, NY            |       | 0.00   |      |
+| 46   | Mark Churchill            | Charleston Pentecostal Church   | Charleston Pentecostal Church-Charleston, ME |       | 0.00   |      |
+| 46   | Mik'kalah Patterson       | Ship Wreck Survivors            | Fountain of Life Center-Burlington, NJ       |       | 0.00   |      |
+| 46   | Caleb Gerhardt            | First AG                        | First AG-Binghamton, NY                      |       | 0.00   |      |
+| 46   | Nick Congdon              | First AG                        | First AG-Binghamton, NY                      |       | 0.00   |      |
+| 46   | Andrew Loiacono           | Smithtown Christian             | Smithtown Christian-Smithtown, NY            |       | 0.00   |      |
+| 47   | Lydia Hill                | Living Hope Worship Center      | Living Hope Worship Center-Swedesboro, NJ    | -40   | -2.67  |      |
+| 48   | Colby Heller              | Eunuch-corns                    | Newport AG-Newport, PA                       | -25   | -1.67  |      |
 
 
 

@@ -116,7 +116,7 @@ menubar_toc_static:
 |    1 | Maelee Becton        | Kinston                             | Tanglewood Church     |   565 | 113.00 |    3 |
 |    2 | Zachary Leake        | Wilmington Warriors- "A"red swords  | New Hanover Church    |   495 |  99.00 |    2 |
 |    3 | Toby Robinson        | Sanfords God's Incredibles          | Orlando City Church   |   460 |  92.00 |    2 |
-|    4 | Brock boehling       | Wilmington warriors"B"-white swords | New Hanover Church    |   455 |  91.00 |    3 |
+|    4 | Brock Boehling       | Wilmington warriors"B"-white swords | New Hanover Church    |   455 |  91.00 |    3 |
 |    5 | Aidan Rajesh         | Greensboro BibleCraft               | Calvary Church        |   365 |  73.00 |    2 |
 |    6 | Adyson Whaley        | Kinston                             | Tanglewood Church     |   255 |  51.00 |    3 |
 |    7 | Christian Shelton    | Wilmington Warriors- "A"red swords  | New Hanover Church    |   210 |  42.00 |      |

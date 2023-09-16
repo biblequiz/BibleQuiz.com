@@ -94,7 +94,7 @@ menubar_toc_static:
 |    3 | Dakarai Cherefant | Orlando, FL          | Faith Assembly           |   305 |  38.13 |    3 |
 |    4 | Brielle Smith     | Snellville, GA       | Evangel Community Church |   280 |  35.00 |    1 |
 |    5 | Cassidy Powell    | Griffin, GA          | First Assembly           |   265 |  33.13 |      |
-|    6 | Olupero Adewumni  | Wesley Chapel, FL    | Victorious Life Church   |   230 |  28.75 |    1 |
+|    6 | Olupero Adewunmi  | Wesley Chapel, FL    | Victorious Life Church   |   230 |  28.75 |    1 |
 |    7 | Emily Freer       | Orlando, FL          | Faith Assembly           |   160 |  20.00 |      |
 |    8 | Daniel Adewunmi   | Wesley Chapel, FL    | Victorious Life Church   |   155 |  19.38 |      |
 |    9 | Kelso Morant      | Wesley Chapel, FL    | Victorious Life Church   |   120 |  15.00 |      |

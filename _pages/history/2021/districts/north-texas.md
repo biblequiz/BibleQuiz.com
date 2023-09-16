@@ -29,24 +29,24 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer           | Team                                 | Total |  Avg |   QO |   Q% |
-| -------: | ----------------- | ------------------------------------ | ----: | ---: | ---: | ---: |
-|        1 | Josh Barajas      | Trinity - John (Trinity church)      |   575 | 95.8 |    5 |  74% |
-|        2 | Zane Brown        | Human Rejects (First @ Firewheel AG) |   485 | 80.8 |    3 |  73% |
-|        3 | Camden Haney      | Trinity - Lori (Trinity church)      |   465 | 77.5 |    3 |  69% |
-|        4 | Joanne Ramesh     | Human Rejects (First @ Firewheel AG) |   455 | 75.8 |    2 |  85% |
-|        5 | Noah Claunch      | Trinity - John (Trinity church)      |   275 | 45.8 |    2 |  71% |
-|        6 | James Birungi     | Harvest Flames of Fire (Harvest AG)  |   270 |   45 |    2 |  81% |
-|        7 | Joy Escobar       | Trinity - Lori (Trinity church)      |   250 | 41.7 |    2 |  77% |
-|        8 | Julia Sullivan    | Trinity - John (Trinity church)      |   130 | 21.7 |      |  86% |
-|        9 | Elijah Lee        | Trinity - John (Trinity church)      |    40 |  6.7 |      |  80% |
-|       10 | Noah Lee          | Trinity - Lori (Trinity church)      |     0 |      |      |      |
-| **\*10** | Esther Birungi    | Harvest Flames of Fire (Harvest AG)  |     0 |      |      |      |
-| **\*10** | Madison Claunch   | Trinity - John (Trinity church)      |     0 |      |      |      |
-|       11 | Aulora Sullivan   | Trinity - Lori (Trinity church)      |    -5 |  -.8 |      |  44% |
-| **\*11** | Ndubueze Echefu   | Human Rejects (First @ Firewheel AG) |    -5 |  -.8 |      |      |
-|       12 | Danny'El Gonzales | Human Rejects (First @ Firewheel AG) |   -10 | -1.7 |      |  30% |
-|       13 | Joseph Barajas    | Trinity - Lori (Trinity church)      |   -25 | -4.2 |      |  40% |
+|        # | Quizzer            | Team                                 | Total |  Avg |   QO |   Q% |
+| -------: | ------------------ | ------------------------------------ | ----: | ---: | ---: | ---: |
+|        1 | Josh Barajas       | Trinity - John (Trinity church)      |   575 | 95.8 |    5 |  74% |
+|        2 | Zane Brown         | Human Rejects (First @ Firewheel AG) |   485 | 80.8 |    3 |  73% |
+|        3 | Camden Haney       | Trinity - Lori (Trinity church)      |   465 | 77.5 |    3 |  69% |
+|        4 | Joanne Ramesh      | Human Rejects (First @ Firewheel AG) |   455 | 75.8 |    2 |  85% |
+|        5 | Noah Claunch       | Trinity - John (Trinity church)      |   275 | 45.8 |    2 |  71% |
+|        6 | James Birungi      | Harvest Flames of Fire (Harvest AG)  |   270 |   45 |    2 |  81% |
+|        7 | Joy Escobar        | Trinity - Lori (Trinity church)      |   250 | 41.7 |    2 |  77% |
+|        8 | Julia Sullivan     | Trinity - John (Trinity church)      |   130 | 21.7 |      |  86% |
+|        9 | Elijah Lee         | Trinity - John (Trinity church)      |    40 |  6.7 |      |  80% |
+|       10 | Noah Lee           | Trinity - Lori (Trinity church)      |     0 |      |      |      |
+| **\*10** | Esther Birungi     | Harvest Flames of Fire (Harvest AG)  |     0 |      |      |      |
+| **\*10** | Madison Claunch    | Trinity - John (Trinity church)      |     0 |      |      |      |
+|       11 | Aulora Sullivan    | Trinity - Lori (Trinity church)      |    -5 |  -.8 |      |  44% |
+| **\*11** | Ndubueze Echefu    | Human Rejects (First @ Firewheel AG) |    -5 |  -.8 |      |      |
+|       12 | Daniyy'El Gonzalez | Human Rejects (First @ Firewheel AG) |   -10 | -1.7 |      |  30% |
+|       13 | Joseph Barajas     | Trinity - Lori (Trinity church)      |   -25 | -4.2 |      |  40% |
 
 
 ## MSQ Division

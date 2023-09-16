@@ -68,10 +68,10 @@ menubar_toc_static:
 |       23 | Aaron Martin       | Agents of the Shield (Omaha, NE-Glad Tidings Church)        |   620 |  38.8 |    4 |  69% |
 |       24 | Isaiah Kashubin    | Under Armour of God (Lakeville, MN-Celebration Church)      |   565 |  35.3 |    5 |  76% |
 |       25 | Dallas Pitman      | Frac Attack (Williston, ND-LifeChurch AG)                   |   565 |  35.3 |      |  71% |
-|       26 | Hannah ODell       | Connie (Lawson, MO-Lawson AG)                               |   545 |  34.1 |    2 |  85% |
+|       26 | Hannah O'Dell      | Connie (Lawson, MO-Lawson AG)                               |   545 |  34.1 |    2 |  85% |
 |       27 | Jadyn Archer       | Chad (Lawson, MO-Lawson AG)                                 |   530 |  33.1 |    1 |  80% |
 |       28 | Bryce Helgerson    | Blazing Boys of the Bible (Sparta, WI-New Life AG)          |   525 |  32.8 |    1 |  68% |
-|       29 | Isaiah OBrien      | M.A.D. Quizzers (Brookfield, WI-Victory Int Fellowship)     |   510 |  31.9 |    2 |  55% |
+|       29 | Isaiah O'Brien     | M.A.D. Quizzers (Brookfield, WI-Victory Int Fellowship)     |   510 |  31.9 |    2 |  55% |
 |       30 | Lademi Davies      | Agents of the Shield (Omaha, NE-Glad Tidings Church)        |   510 |  31.9 |      |  80% |
 |       31 | Lauren Zanto       | Fire Flaming Buzzers (Apple Valley, MN-River Valley Church) |   500 |  31.3 |      |  83% |
 |       32 | Marianna Aguero    | B.F.F. (Racine, WI-Racine AG)                               |   485 |  30.3 |    3 |  87% |

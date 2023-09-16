@@ -42,7 +42,7 @@ menubar_toc_static:
 |        8 | Christian Alapati    | God's Elect (The Bridge)             |    60 |    15 |    1 |  56% |
 |        9 | Julia Sullivan       | Trinity - John (Trinity church)      |    60 |    15 |      |  78% |
 |       10 | Joseph Barajas       | Trinity - Lori (Trinity church)      |    55 |  13.8 |      |  60% |
-|       11 | Danny'El Gonzales    | Human Rejects (First @ Firewheel AG) |    30 |   7.5 |      |  67% |
+|       11 | Daniyy'El Gonzalez   | Human Rejects (First @ Firewheel AG) |    30 |   7.5 |      |  67% |
 | **\*11** | Chidinma Kanu        | Braeswood (Braeswood)                |    30 |   7.5 |      |  60% |
 | **\*11** | Joy Escobar          | Trinity - Lori (Trinity church)      |    30 |   7.5 |      |  50% |
 |       12 | Brandon Ukonu        | Braeswood (Braeswood)                |    15 |   3.8 |      |  50% |

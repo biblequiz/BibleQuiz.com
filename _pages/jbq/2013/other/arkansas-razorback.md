@@ -134,53 +134,53 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by AVERAGE)*
 
-|    # | Quizzer              | Team                   | Church                 | Total |    Avg |   QO |
-| ---: | -------------------- | ---------------------- | ---------------------- | ----: | -----: | ---: |
-|    1 | Jared Minick         | Buzz Hogs              | River of Life          |  1480 | 134.55 |    9 |
-|    2 | Hannah Greenwell     | Benton 1st JediKnights | Benton 1st Assembly    |  1285 | 116.82 |    6 |
-|    3 | Mark Grogan          | Desoto Doves           | Desoto, MO             |  1260 | 114.55 |    6 |
-|    4 | Aedan Moore          | NOTW                   | First Assembly of God  |  1235 | 112.27 |    7 |
-|    5 | Ross Wyles           | Mayflower Crusaders    | Mayflower              |  1065 |  96.82 |    4 |
-|    6 | Diamond Jordan       | Crystal Hill A/G       | Crystal Hill A/G       |  1025 |  93.18 |    5 |
-|    7 | Amberlie Ming        | Acts29                 | Van Buren 1st Assembly |   640 |  58.18 |      |
-|    8 | Hannah Miller        | The Obsession          | Faith Assembly         |   615 |  55.91 |    1 |
-|    9 | Seth Swain           | McArthur - Team 1      | McArthur A/G           |   600 |  54.55 |    1 |
-|   10 | Jonathan Duggins     | Buzz Hogs              | River of Life          |   565 |  51.36 |    7 |
-|   11 | Tre Dubrava          | Benton 1st JediKnights | Benton 1st Assembly    |   555 |  50.45 |    8 |
-|   12 | Breana Odgen         | Crystal Hill A/G       | Crystal Hill A/G       |   505 |  45.91 |    5 |
-|   13 | Allie Turner         | Fordyce Bible Bugs     | Fordyce                |   485 |  44.09 |      |
-|   14 | Kaylee Grider        | Acts29                 | Van Buren 1st Assembly |   470 |  42.73 |    2 |
-|   15 | Aubrey Hornaday      | Fordyce Bible Bugs     | Fordyce                |   360 |  32.73 |    2 |
-|   16 | Anna Lara            | NOTW                   | First Assembly of God  |   345 |  31.36 |    3 |
-|   17 | Mathew Keeler        | Mayflower Crusaders    | Mayflower              |   345 |  31.36 |    2 |
-|   18 | Nicholas Dillon      | The Obsession          | Faith Assembly         |   340 |  30.91 |    3 |
-|   19 | Luke Rogers          | Mayflower Crusaders    | Mayflower              |   335 |  30.45 |    4 |
-|   20 | Zach Murdock         | McArthur - Team 1      | McArthur A/G           |   325 |  29.55 |    2 |
-|   21 | Madison Herring      | Obsessed               | Faith Assembly         |   300 |  27.27 |    2 |
-|   22 | Christian Robertson  | Acts29                 | Van Buren 1st Assembly |   300 |  27.27 |    1 |
-|   23 | Emily Greenwell      | Benton 1st JediKnights | Benton 1st Assembly    |   220 |  20.00 |      |
-|   24 | Anna Jordan          | Crystal Hill A/G       | Crystal Hill A/G       |   200 |  18.18 |      |
-|   25 | Alexis Sharps        | NOTW                   | First Assembly of God  |   195 |  17.73 |    1 |
-|   26 | Taryn Moore          | NOTW                   | First Assembly of God  |   190 |  17.27 |      |
-|   27 | Abbie Paul           | The Obsession          | Faith Assembly         |   170 |  15.45 |      |
-|   28 | Emma Crabtree        | Acts29                 | Van Buren 1st Assembly |   165 |  15.00 |      |
-|   29 | Sophie Lawson        | Desoto Doves           | Desoto, MO             |   160 |  14.55 |      |
-|   29 | Isabel Paul          | The Obsession          | Faith Assembly         |   160 |  14.55 |      |
-|   30 | Hailey Nichol        | Desoto Doves           | Desoto, MO             |   130 |  11.82 |      |
-|   31 | Rachel Millsap       | Obsessed               | Faith Assembly         |   115 |  10.45 |      |
-|   32 | Brianna Whitener     | McArthur - Team 2      | McArthur A/G           |    95 |   8.64 |      |
-|   33 | Joseph Skinner       | McArthur - Team 1      | McArthur A/G           |    85 |   7.73 |      |
-|   33 | Jared Watson         | Benton 1st JediKnights | Benton 1st Assembly    |    85 |   7.73 |      |
-|   34 | Danielle Lara        | NOTW                   | First Assembly of God  |    70 |   6.36 |      |
-|   35 | Levi Biniakewitz     | Buzz Hogs              | River of Life          |    55 |   5.00 |      |
-|   35 | Alexis Rowland       | Benton 1st JediKnights | Benton 1st Assembly    |    55 |   5.00 |      |
-|   36 | Ansley Hornaday      | Fordyce Bible Bugs     | Fordyce                |    40 |   3.64 |      |
-|   37 | Lena Davis           | Acts29                 | Van Buren 1st Assembly |    30 |   2.73 |      |
-|   37 | Hanah Hall           | NOTW                   | First Assembly of God  |    30 |   2.73 |      |
-|   38 | Lauryn Jackson       | Buzz Hogs              | River of Life          |    25 |   2.27 |      |
-|   39 | McInzie Carolan      | McArthur - Team 2      | McArthur A/G           |    20 |   1.82 |      |
-|   39 | Haven Jackson        | Buzz Hogs              | River of Life          |    20 |   1.82 |      |
-|   40 | Grant Keeler         | Mayflower Crusaders    | Mayflower              |    10 |    .91 |      |
-|   40 | John Michael Elliott | Mayflower Crusaders    | Mayflower              |    10 |    .91 |      |
-|   41 | Abigail Richards     | Benton 1st JediKnights | Benton 1st Assembly    |     5 |    .45 |      |
+|    # | Quizzer             | Team                   | Church                 | Total |    Avg |   QO |
+| ---: | ------------------- | ---------------------- | ---------------------- | ----: | -----: | ---: |
+|    1 | Jared Minick        | Buzz Hogs              | River of Life          |  1480 | 134.55 |    9 |
+|    2 | Hannah Greenwell    | Benton 1st JediKnights | Benton 1st Assembly    |  1285 | 116.82 |    6 |
+|    3 | Mark Grogan         | Desoto Doves           | Desoto, MO             |  1260 | 114.55 |    6 |
+|    4 | Aedan Moore         | NOTW                   | First Assembly of God  |  1235 | 112.27 |    7 |
+|    5 | Ross Wyles          | Mayflower Crusaders    | Mayflower              |  1065 |  96.82 |    4 |
+|    6 | Diamond Jordan      | Crystal Hill A/G       | Crystal Hill A/G       |  1025 |  93.18 |    5 |
+|    7 | Amberlie Ming       | Acts29                 | Van Buren 1st Assembly |   640 |  58.18 |      |
+|    8 | Hannah Miller       | The Obsession          | Faith Assembly         |   615 |  55.91 |    1 |
+|    9 | Seth Swain          | McArthur - Team 1      | McArthur A/G           |   600 |  54.55 |    1 |
+|   10 | Jonathan Duggins    | Buzz Hogs              | River of Life          |   565 |  51.36 |    7 |
+|   11 | Tre Dubrava         | Benton 1st JediKnights | Benton 1st Assembly    |   555 |  50.45 |    8 |
+|   12 | Breana Odgen        | Crystal Hill A/G       | Crystal Hill A/G       |   505 |  45.91 |    5 |
+|   13 | Allie Turner        | Fordyce Bible Bugs     | Fordyce                |   485 |  44.09 |      |
+|   14 | Kaylee Grider       | Acts29                 | Van Buren 1st Assembly |   470 |  42.73 |    2 |
+|   15 | Aubrey Hornaday     | Fordyce Bible Bugs     | Fordyce                |   360 |  32.73 |    2 |
+|   16 | Anna Lara           | NOTW                   | First Assembly of God  |   345 |  31.36 |    3 |
+|   17 | Mathew Keeler       | Mayflower Crusaders    | Mayflower              |   345 |  31.36 |    2 |
+|   18 | Nicholas Dillon     | The Obsession          | Faith Assembly         |   340 |  30.91 |    3 |
+|   19 | Luke Rogers         | Mayflower Crusaders    | Mayflower              |   335 |  30.45 |    4 |
+|   20 | Zach Murdock        | McArthur - Team 1      | McArthur A/G           |   325 |  29.55 |    2 |
+|   21 | Madison Herring     | Obsessed               | Faith Assembly         |   300 |  27.27 |    2 |
+|   22 | Christian Robertson | Acts29                 | Van Buren 1st Assembly |   300 |  27.27 |    1 |
+|   23 | Emily Greenwell     | Benton 1st JediKnights | Benton 1st Assembly    |   220 |  20.00 |      |
+|   24 | Anna Jordan         | Crystal Hill A/G       | Crystal Hill A/G       |   200 |  18.18 |      |
+|   25 | Alexis Sharps       | NOTW                   | First Assembly of God  |   195 |  17.73 |    1 |
+|   26 | Taryn Moore         | NOTW                   | First Assembly of God  |   190 |  17.27 |      |
+|   27 | Abbie Paul          | The Obsession          | Faith Assembly         |   170 |  15.45 |      |
+|   28 | Emma Crabtree       | Acts29                 | Van Buren 1st Assembly |   165 |  15.00 |      |
+|   29 | Sophie Lawson       | Desoto Doves           | Desoto, MO             |   160 |  14.55 |      |
+|   29 | Isabel Paul         | The Obsession          | Faith Assembly         |   160 |  14.55 |      |
+|   30 | Hailey Nichol       | Desoto Doves           | Desoto, MO             |   130 |  11.82 |      |
+|   31 | Rachel Millsap      | Obsessed               | Faith Assembly         |   115 |  10.45 |      |
+|   32 | Brianna Whitener    | McArthur - Team 2      | McArthur A/G           |    95 |   8.64 |      |
+|   33 | Joseph Skinner      | McArthur - Team 1      | McArthur A/G           |    85 |   7.73 |      |
+|   33 | Jared Watson        | Benton 1st JediKnights | Benton 1st Assembly    |    85 |   7.73 |      |
+|   34 | Danielle Lara       | NOTW                   | First Assembly of God  |    70 |   6.36 |      |
+|   35 | Levi Biniakewitz    | Buzz Hogs              | River of Life          |    55 |   5.00 |      |
+|   35 | Alexis Rowland      | Benton 1st JediKnights | Benton 1st Assembly    |    55 |   5.00 |      |
+|   36 | Ansley Hornaday     | Fordyce Bible Bugs     | Fordyce                |    40 |   3.64 |      |
+|   37 | Lena Davis          | Acts29                 | Van Buren 1st Assembly |    30 |   2.73 |      |
+|   37 | Hanah Hall          | NOTW                   | First Assembly of God  |    30 |   2.73 |      |
+|   38 | Lauryn Jackson      | Buzz Hogs              | River of Life          |    25 |   2.27 |      |
+|   39 | McInzie Carolan     | McArthur - Team 2      | McArthur A/G           |    20 |   1.82 |      |
+|   39 | Haven Jackson       | Buzz Hogs              | River of Life          |    20 |   1.82 |      |
+|   40 | Grant Keeler        | Mayflower Crusaders    | Mayflower              |    10 |    .91 |      |
+|   40 | John Michael Elliot | Mayflower Crusaders    | Mayflower              |    10 |    .91 |      |
+|   41 | Abigail Richards    | Benton 1st JediKnights | Benton 1st Assembly    |     5 |    .45 |      |
 

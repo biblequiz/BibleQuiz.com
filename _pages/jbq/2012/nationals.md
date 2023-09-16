@@ -1658,7 +1658,7 @@ menubar_toc_static:
 |   43 | Samantha Pieper            | S.O.S.             | Mikwaukee-WI     |    20 |   2.22 |      |
 |   43 | Brandon Navilliat          | Spirit Squadron    | West Mifflin -PA |    20 |   2.22 |      |
 |   43 | Carley Cox                 | Eternal Eight      | Hamburg-PA       |    20 |   2.22 |      |
-|   44 | Hannah G Daniel            | FIRE               | Norcross-GA      |       |    .00 |      |
+|   44 | Hannah Gabriela Daniel     | FIRE               | Norcross-GA      |       |    .00 |      |
 |   44 | Kevin Yao                  | Double-Edged Sword | Irvine-CA        |       |    .00 |      |
 |   44 | Phoebe Wang                | Double-Edged Sword | Irvine-CA        |       |    .00 |      |
 |   44 | Roshan Muthugomu           | FIRE               | Norcross-GA      |       |    .00 |      |

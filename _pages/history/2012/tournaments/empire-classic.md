@@ -30,38 +30,38 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer             | Team                                          | Total |   QO |  Avg |
-| ---: | ------------------- | --------------------------------------------- | ----: | ---: | ---: |
-|    1 | Kyler Sederwall     | Praise A/G (Garfield, NJ) Darkness            |   960 |    7 |  120 |
-|    2 | Justin Czubkowski   | Praise A/G (Garfield, NJ) Storm               |   905 |    7 |  113 |
-|    3 | Cynthia Earl        | Evangel A/G (Ephrata, PA) Alien and Strangers |   710 |    6 |   89 |
-|    4 | Christopher Galea   | Praise A/G (Garfield, NJ) Gloom               |   700 |    5 |   88 |
-|    5 | Jacob Martinez      | Redeemer Church (Utica, NY)                   |   670 |    5 |   84 |
-|    6 | Caleb Hoffmann      | Redeemer Church (Utica, NY)                   |   615 |    7 |   77 |
-|    7 | Rachael Singh       | Bethlehem Church (Richmond Hill, NY) Caryl    |   610 |    4 |   76 |
-|    8 | Omari Dixon         | Bethlehem Church (Richmond Hill, NY) Caryl    |   515 |    4 |   64 |
-|    9 | Rebecca Ford        | Bethlehem Church (Richmond Hill, NY) Jackie   |   425 |    4 |   53 |
-|   10 | Kimara Davis        | Bethlehem Church (Richmond Hill, NY) Jackie   |   360 |    3 |   45 |
-|   11 | Selena DeSilva      | Bethlehem Church (Richmond Hill, NY) Jackie   |   295 |    1 |   37 |
-|   12 | Trey Sederwall      | Praise A/G (Garfield, NJ) Gloom               |   285 |    3 |   36 |
-|   13 | Evellyse Vargas     | Praise A/G (Garfield, NJ) Storm               |   270 |    3 |   34 |
-|   14 | Jared Siddall       | Grace A/G (Syracuse, NY)                      |   245 |    3 |   31 |
-|   15 | Shannon O'Brien     | Evangel A/G (Ephrata, PA) Alien and Strangers |   230 |    1 |   29 |
-|   16 | Zach Wisz           | Praise A/G (Garfield, NJ) Darkness            |   170 |    0 |   21 |
-|   17 | A.J. Songsong       | Praise A/G (Garfield, NJ) Storm               |   165 |    1 |   21 |
-|   18 | Faith Wisz          | Praise A/G (Garfield, NJ) Darkness            |   165 |    2 |   21 |
-|   19 | Abraham Stevens     | Redeemer Church (Utica, NY)                   |   100 |    0 |   13 |
-|   20 | Jordan Ennis        | Grace A/G (Syracuse, NY)                      |   100 |    0 |   13 |
-|   21 | Benjamin Beckering  | Grace A/G (Syracuse, NY)                      |    85 |    0 |   11 |
-|   22 | Zach Martinez       | Redeemer Church (Utica, NY)                   |    80 |    0 |   10 |
-|   23 | Elainie Emaly Singh | Bethlehem Church (Richmond Hill, NY) Caryl    |    75 |    0 |    9 |
-|   24 | Brianna Ramdarie    | Grace International (Mineola, NY)             |    70 |    0 |    9 |
-|   25 | Sara singh          | Bethlehem Church (Richmond Hill, NY) Jackie   |    30 |    0 |    4 |
-|   26 | David Mosciszko     | Praise A/G (Garfield, NJ) Storm               |    25 |    0 |    3 |
-|   27 | Steven Gangaram     | Bethlehem Church (Richmond Hill, NY) Caryl    |    25 |    0 |    3 |
-|   28 | Emily Ramdarie      | Grace International (Mineola, NY)             |    20 |    0 |    3 |
-|   29 | Gwen Wisz           | Praise A/G (Garfield, NJ) Gloom               |    10 |    0 |    1 |
-|   30 | Reuben Singh        | Bethlehem Church (Richmond Hill, NY) Caryl    |    10 |    0 |    1 |
+|    # | Quizzer            | Team                                          | Total |   QO |  Avg |
+| ---: | ------------------ | --------------------------------------------- | ----: | ---: | ---: |
+|    1 | Kyler Sederwall    | Praise A/G (Garfield, NJ) Darkness            |   960 |    7 |  120 |
+|    2 | Justin Czubkowski  | Praise A/G (Garfield, NJ) Storm               |   905 |    7 |  113 |
+|    3 | Cynthia Earl       | Evangel A/G (Ephrata, PA) Alien and Strangers |   710 |    6 |   89 |
+|    4 | Christopher Galea  | Praise A/G (Garfield, NJ) Gloom               |   700 |    5 |   88 |
+|    5 | Jacob Martinez     | Redeemer Church (Utica, NY)                   |   670 |    5 |   84 |
+|    6 | Caleb Hoffmann     | Redeemer Church (Utica, NY)                   |   615 |    7 |   77 |
+|    7 | Rachael Singh      | Bethlehem Church (Richmond Hill, NY) Caryl    |   610 |    4 |   76 |
+|    8 | Omari Dixon        | Bethlehem Church (Richmond Hill, NY) Caryl    |   515 |    4 |   64 |
+|    9 | Rebecca Ford       | Bethlehem Church (Richmond Hill, NY) Jackie   |   425 |    4 |   53 |
+|   10 | Kimara Davis       | Bethlehem Church (Richmond Hill, NY) Jackie   |   360 |    3 |   45 |
+|   11 | Selena DeSilva     | Bethlehem Church (Richmond Hill, NY) Jackie   |   295 |    1 |   37 |
+|   12 | Trey Sederwall     | Praise A/G (Garfield, NJ) Gloom               |   285 |    3 |   36 |
+|   13 | Evellyse Vargas    | Praise A/G (Garfield, NJ) Storm               |   270 |    3 |   34 |
+|   14 | Jared Siddall      | Grace A/G (Syracuse, NY)                      |   245 |    3 |   31 |
+|   15 | Shannon O'Brien    | Evangel A/G (Ephrata, PA) Alien and Strangers |   230 |    1 |   29 |
+|   16 | Zach Wisz          | Praise A/G (Garfield, NJ) Darkness            |   170 |    0 |   21 |
+|   17 | A.J. Songsong      | Praise A/G (Garfield, NJ) Storm               |   165 |    1 |   21 |
+|   18 | Faith Wisz         | Praise A/G (Garfield, NJ) Darkness            |   165 |    2 |   21 |
+|   19 | Abraham Stevens    | Redeemer Church (Utica, NY)                   |   100 |    0 |   13 |
+|   20 | Jordan Ennis       | Grace A/G (Syracuse, NY)                      |   100 |    0 |   13 |
+|   21 | Benjamin Beckering | Grace A/G (Syracuse, NY)                      |    85 |    0 |   11 |
+|   22 | Zach Martinez      | Redeemer Church (Utica, NY)                   |    80 |    0 |   10 |
+|   23 | Emaly Singh        | Bethlehem Church (Richmond Hill, NY) Caryl    |    75 |    0 |    9 |
+|   24 | Brianna Ramdarie   | Grace International (Mineola, NY)             |    70 |    0 |    9 |
+|   25 | Sara singh         | Bethlehem Church (Richmond Hill, NY) Jackie   |    30 |    0 |    4 |
+|   26 | David Mosciszko    | Praise A/G (Garfield, NJ) Storm               |    25 |    0 |    3 |
+|   27 | Steven Gangaram    | Bethlehem Church (Richmond Hill, NY) Caryl    |    25 |    0 |    3 |
+|   28 | Emily Ramdarie     | Grace International (Mineola, NY)             |    20 |    0 |    3 |
+|   29 | Gwen Wisz          | Praise A/G (Garfield, NJ) Gloom               |    10 |    0 |    1 |
+|   30 | Reuben Singh       | Bethlehem Church (Richmond Hill, NY) Caryl    |    10 |    0 |    1 |
 
 ## Middle School
 

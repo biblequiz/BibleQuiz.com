@@ -109,7 +109,7 @@ menubar_toc_static:
 |   16 | Quintin Risch       | Moberly        | Moberly-MO-Moberly 1st AG        |   -10 |  -1.67 |      |
 |   16 | Jordan Bauer        | CrossPoint     | Portage-WI-CrossPoint AG         |   -10 |  -1.67 |      |
 |   16 | Christian Frederick | EFC            | Grand Island-NE-Evangelical Free |   -10 |  -1.67 |      |
-|   16 | C J Risch           | Moberly        | Moberly-MO-Moberly 1st AG        |   -10 |  -1.67 |      |
+|   16 | CJ Risch            | Moberly        | Moberly-MO-Moberly 1st AG        |   -10 |  -1.67 |      |
 |   17 | Chandler Kellett    | Not in Thought | Fort Worth-TX-Harvest AG         |    -5 |  -0.83 |      |
 
 \* Middle School Quizzers

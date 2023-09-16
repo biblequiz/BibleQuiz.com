@@ -144,7 +144,7 @@ menubar_toc_static:
 |    2 | Mary Meddaugh       | Muskogee MSQ Team       | Muskogee - 1st A/G   |  1405 |  93.67 |   11 |
 |    3 | Hope Rogers         | Shining In The Darkness | JRAG                 |  1255 |  83.67 |   11 |
 |    4 | Nate Loper          | Widespread Whispering   | Central A/G          |  1245 |  83.00 |   14 |
-|    5 | PaulaAnn Grantston  | Snellville PaCK B       | Evangel Comm. Church |  1155 |  77.00 |   10 |
+|    5 | Paula Ann Granston  | Snellville PaCK B       | Evangel Comm. Church |  1155 |  77.00 |   10 |
 |    6 | Hannah Quick        | Expensive Perfume       | Central A/G          |  1140 |  76.00 |   11 |
 |    7 | Jenna DePriest      | Shining In The Darkness | JRAG                 |   990 |  66.00 |   10 |
 |    8 | Spencer Graves      | Taught By Christ        | JRAG                 |   965 |  64.33 |    8 |

@@ -62,7 +62,7 @@ menubar_toc_static:
 |       22 | Joshua Devasahayam  | Atlanta Tamil Church (Tamil - Norcross, GA)               |    10 |  1.3 |      |  50% |
 |       23 | Nathaniel Prejean   | Seasoned with Salt (Calvary - Greensboro, NC)             |     0 |      |      |  33% |
 | **\*23** | Christopher Johnson | Team on Fleek (North Highland - Columbus, GA)             |     0 |      |      |      |
-| **\*23** | Kevinpaul Gunasingh | Atlanta Tamil Church (Tamil - Norcross, GA)               |     0 |      |      |      |
+| **\*23** | KevinPaul Gunasingh | Atlanta Tamil Church (Tamil - Norcross, GA)               |     0 |      |      |      |
 | **\*23** | Kevin Samraj        | Atlanta Tamil Church (Tamil - Norcross, GA)               |     0 |      |      |      |
 | **\*23** | Lorena Lee          | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |     0 |      |      |      |
 | **\*23** | Lexi Perkins        | Seasoned with Salt (Freedom Christian - Jacksonville, FL) |     0 |      |      |      |

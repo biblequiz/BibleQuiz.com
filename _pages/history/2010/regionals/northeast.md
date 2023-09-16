@@ -132,7 +132,7 @@ menubar_toc_static:
 |   18 | Abby Weatherholtz  | Grace Bible Church, Marshall, VA                     |   160 |    0 |  17.78 |
 |   19 | Zack Wisz          | Praise A/G, Garfield, NJ                             |   140 |    1 |  15.56 |
 |   20 | Cougar Poths       | Grace Bible Church, Marshall, VA                     |   105 |    1 |  11.67 |
-|   21 | Elaine Emaly Singh | Bethlehem Church, Richmond Hill, NY                  |   100 |    0 |  11.11 |
+|   21 | Emaly Singh        | Bethlehem Church, Richmond Hill, NY                  |   100 |    0 |  11.11 |
 |   22 | Brandon Congdon    | First A/G, Binghamton, NY                            |    80 |    0 |   8.89 |
 |   23 | Joshua Anischenko  | South Hills A/G, Bethel Park, PA "Fool's for Christ" |    75 |    0 |   8.33 |
 |   24 | Sarah Chaffee      | Praise A/G, Elkton, MD                               |    45 |    0 |      5 |
