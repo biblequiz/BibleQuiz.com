@@ -16,19 +16,19 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                              | W / L | Total |       Avg |
-| ---: | --------------------------------- | ----- | ----: | --------: |
-|    1 | Grace Syracuse, NY Mary           | 9 / 1 |  1820 |       182 |
-|    2 | Living Waters Chapel, Lebanon, PA | 9 / 2 |  2250 |  204.55 * |
-|    3 | South Hills, Bethel Park, PA      | 8 / 3 |  1895 |  172.27 * |
-|    4 | Allison Park A/G, PA              | 7 / 3 |  1610 |       161 |
-|    5 | 1st A/G, Hermitage, PA            | 6 / 5 |  1415 | 128.64 ** |
-|    6 | Curtis Lake, Sanford, ME          | 6 / 6 |  1270 | 105.83 ** |
-|    7 | Alpha A/G, Clarion, PA            | 5 / 6 |  1115 | 101.36 ** |
-|    8 | Cornerstone A/G Bowie, MD         | 4 / 6 |  1040 |       104 |
-|    9 | Tabernacle, Orchard Park, NY      | 2 / 8 |   595 |      59.5 |
-|   10 | Cedarville A/G MD                 | 2 / 8 |   340 |        34 |
-|   11 | Grace Syracuse, NY Randy          | 0 / 9 |   365 |      36.5 |
+|    # | Team                               | W / L | Total |    Avg |
+| ---: | ---------------------------------- | ----- | ----: | -----: |
+|    1 | Grace Syracuse, NY Mary            | 9 / 1 |  1820 |    182 |
+|    2 | Living Waters Chapel, Lebanon, PA* | 9 / 2 |  2250 | 204.55 |
+|    3 | South Hills, Bethel Park, PA*      | 8 / 3 |  1895 | 172.27 |
+|    4 | Allison Park A/G, PA               | 7 / 3 |  1610 |    161 |
+|    5 | 1st A/G, Hermitage, PA**           | 6 / 5 |  1415 | 128.64 |
+|    6 | Curtis Lake, Sanford, ME**         | 6 / 6 |  1270 | 105.83 |
+|    7 | Alpha A/G, Clarion, PA**           | 5 / 6 |  1115 | 101.36 |
+|    8 | Cornerstone A/G Bowie, MD          | 4 / 6 |  1040 |    104 |
+|    9 | Tabernacle, Orchard Park, NY       | 2 / 8 |   595 |   59.5 |
+|   10 | Cedarville A/G MD                  | 2 / 8 |   340 |     34 |
+|   11 | Grace Syracuse, NY Randy           | 0 / 9 |   365 |   36.5 |
 
 \* Lebanon beat Bethel Park in playoff.
 \*\* Sanford beat Clarion in first playoff. Hermitage beat Sanford on 20th question.
@@ -61,18 +61,18 @@ menubar_toc_static:
 
 ### Teams
 
-|    # | Team                              | W / L | Total |      Avg |
-| ---: | --------------------------------- | ----- | ----: | -------: |
-|    1 | 1st A/G, Hermitage, PA            | 9 / 0 |  1720 |   191.11 |
-|    2 | Glad Tidings A/G, West Lawn, PA   | 8 / 1 |  1805 |   200.56 |
-|    3 | South Hills A/G, Bethel Park, PA  | 7 / 2 |  1925 |   213.89 |
-|    4 | Webster A/G, NY                   | 5 / 4 |  1175 | 130.56 * |
-|    5 | Living Waters Chapel, Lebanon, PA | 5 / 4 |  1345 | 149.44 * |
-|    6 | Spencerport A/G, NY               | 4 / 5 |  1015 |   112.78 |
-|    7 | Ellsworth A/G, ME                 | 2 / 7 |   880 |    97.78 |
-|    8 | Englewood A/G, NJ                 | 2 / 7 |   700 |    77.78 |
-|    9 | Manassas A/G VA                   | 2 / 7 |   550 |    61.11 |
-|   10 | First A/G Elkton, MD              | 1 / 8 |   490 |    54.44 |
+|    # | Team                               | W / L | Total |    Avg |
+| ---: | ---------------------------------- | ----- | ----: | -----: |
+|    1 | 1st A/G, Hermitage, PA             | 9 / 0 |  1720 | 191.11 |
+|    2 | Glad Tidings A/G, West Lawn, PA    | 8 / 1 |  1805 | 200.56 |
+|    3 | South Hills A/G, Bethel Park, PA   | 7 / 2 |  1925 | 213.89 |
+|    4 | Webster A/G, NY*                   | 5 / 4 |  1175 | 130.56 |
+|    5 | Living Waters Chapel, Lebanon, PA* | 5 / 4 |  1345 | 149.44 |
+|    6 | Spencerport A/G, NY                | 4 / 5 |  1015 | 112.78 |
+|    7 | Ellsworth A/G, ME                  | 2 / 7 |   880 |  97.78 |
+|    8 | Englewood A/G, NJ                  | 2 / 7 |   700 |  77.78 |
+|    9 | Manassas A/G VA                    | 2 / 7 |   550 |  61.11 |
+|   10 | First A/G Elkton, MD               | 1 / 8 |   490 |  54.44 |
 
 \* No playoff as Webster won head-to-head
 
