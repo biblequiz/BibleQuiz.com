@@ -204,13 +204,13 @@ menubar_toc_static:
 |   48 | Chi Chi Otah         | Garland-TX               | Transformed                    |   170 |  11.33 |      |
 |   49 | Samuel March         | St. Cloud-MN             | Gods Lighthouse                |   160 |  10.67 |      |
 |   50 | Catie Wolfe          | Springfield-MO           | QuizMasters                    |   150 |  10.00 |      |
-|   51 | Anna scott witzenman | Wilmington-NC - Red      | Wilmington Warriors Red Swords |   145 |   9.67 |      |
+|   51 | Anna Scott Witzenman | Wilmington-NC - Red      | Wilmington Warriors Red Swords |   145 |   9.67 |      |
 |   52 | Angel Walker         | Mechanicsville-VA - Hope | Contagious Hope                |   140 |   9.33 |      |
 |   53 | David Biruduganti    | Naperville-IL - S        | Naperville S                   |   130 |   8.67 |      |
 |   53 | Amarachi Ayozie      | Garland-TX               | Transformed                    |   130 |   8.67 |      |
 |   54 | Onome Oghor          | East Lansing-MI          | Greater Lansing                |   115 |   7.67 |      |
 |   55 | McKinley Stevens     | Naperville-IL - S        | Naperville S                   |   110 |   7.33 |      |
-|   56 | Kora Beth witzenman  | Wilmington-NC - Red      | Wilmington Warriors Red Swords |   105 |   7.00 |      |
+|   56 | Kora Beth Witzenman  | Wilmington-NC - Red      | Wilmington Warriors Red Swords |   105 |   7.00 |      |
 |   57 | Marcus Mesis         | Midland-GA               | Hard Core Quizzers             |    90 |   6.00 |      |
 |   58 | Savannah Harper      | Mechanicsville-VA - Hope | Contagious Hope                |    85 |   5.67 |    1 |
 |   59 | Cierra Convis        | East Lansing-MI          | Greater Lansing                |    60 |   4.00 |      |
@@ -748,13 +748,13 @@ menubar_toc_static:
 |   33 | Colson Sago          | Beulah-ND           | New Creatures                  |    85 |   9.44 |      |
 |   34 | Emma Stewart         | Tallahassee-FL      | More than Conquerers           |    80 |   8.89 |      |
 |   35 | Christian Shelton    | Wilmington-NC - Red | Wilmington Warriors Red Swords |    75 |   8.33 |      |
-|   36 | Anna scott witzenman | Wilmington-NC - Red | Wilmington Warriors Red Swords |    70 |   7.78 |      |
+|   36 | Anna Scott Witzenman | Wilmington-NC - Red | Wilmington Warriors Red Swords |    70 |   7.78 |      |
 |   37 | Savannah Robinson    | Greensboro-NC       | Biblecraft                     |    45 |   5.00 |      |
 |   38 | Rylin Taylor         | Billings-MT         | Billings New Life              |    40 |   4.44 |      |
 |   38 | John Kruger          | Beulah-ND           | New Creatures                  |    40 |   4.44 |      |
 |   38 | Rachel Nadia         | Warren-MI           | IAG Eagles                     |    40 |   4.44 |      |
 |   38 | Elijah Stewart       | Tallahassee-FL      | More than Conquerers           |    40 |   4.44 |      |
-|   39 | Kora Beth witzenman  | Wilmington-NC - Red | Wilmington Warriors Red Swords |    35 |   3.89 |      |
+|   39 | Kora Beth Witzenman  | Wilmington-NC - Red | Wilmington Warriors Red Swords |    35 |   3.89 |      |
 |   40 | Hope Alford          | Tallahassee-FL      | More than Conquerers           |    30 |   3.33 |      |
 |   40 | Joshua Baloga        | Greensboro-NC       | Biblecraft                     |    30 |   3.33 |      |
 |   41 | Brooke Bentz         | Billings-MT         | Billings New Life              |    10 |   1.11 |      |

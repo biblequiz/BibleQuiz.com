@@ -195,7 +195,7 @@ menubar_toc_static:
 |   38 | Iyanu Akanbi         | The Chosen Ones              | Houston, TX           |   310 |  20.67 |      |
 |   39 | Nathan Wiltrout      | Parkway Christian Center     | Grants Pass, OR       |   290 |  19.33 |      |
 |   40 | Jebi Sukumar         | Souled Out                   | San Jose, CA          |   285 |  19.00 |    1 |
-|   41 | Kora Beth witzenman  | Wilmington Warriors          | Wilmington, NC        |   280 |  18.67 |    1 |
+|   41 | Kora Beth Witzenman  | Wilmington Warriors          | Wilmington, NC        |   280 |  18.67 |    1 |
 |   41 | Alyssa Ramsey        | 360 Quizzers                 | Springfield, MO       |   280 |  18.67 |    1 |
 |   42 | Joseph Barajas       | Mighty Minions               | Cedar Hill, TX        |   275 |  18.33 |      |
 |   43 | Michelle Muddasu     | Mount Hope Burlington        | Burlington, MA        |   260 |  17.33 |      |
@@ -216,7 +216,7 @@ menubar_toc_static:
 |   56 | Ronnie Slottke       | God's Mighty Warriors        | Milwaukee, WI         |    60 |   4.00 |      |
 |   56 | Joel Indipiginja     | Mount Hope Burlington        | Burlington, MA        |    60 |   4.00 |      |
 |   56 | Madison Claunch      | Mighty Minions               | Cedar Hill, TX        |    60 |   4.00 |      |
-|   57 | Anna Scott witzenman | Wilmington Warriors          | Wilmington, NC        |    50 |   3.33 |      |
+|   57 | Anna Scott Witzenman | Wilmington Warriors          | Wilmington, NC        |    50 |   3.33 |      |
 |   58 | Caden Sanders        | Kung Fu Quizzers             | Benton, AR            |    35 |   2.33 |      |
 |   59 | Keira Orth           | Minecraft Bible Builders     | Fortville, IN         |    25 |   1.67 |      |
 |   60 | Madison Weir         | Mount Hope Burlington        | Burlington, MA        |    20 |   1.33 |      |
@@ -472,80 +472,80 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer              | Team                                 | Church                | Total |   Avg |   QO |
-| ---: | -------------------- | ------------------------------------ | --------------------- | ----: | ----: | ---: |
-|    1 | Aidan Rajesh         | Bible Jedi                           | Greensboro, NC        |  1460 | 97.33 |    7 |
-|    2 | Jet Blackburn        | Full Armored Disciples               | Toledo, OH            |  1440 | 96.00 |    6 |
-|    3 | Nick Cook            | Lawson - Connie                      | Lawson, MO            |  1350 | 90.00 |    9 |
-|    4 | Hannah G Daniel      | ATC FLAMES                           | Norcross, GA          |  1305 | 87.00 |    4 |
-|    5 | Makayla Demoff       | MJG Quizzers                         | Brighton, MI          |  1270 | 84.67 |    8 |
-|    6 | Chineme Oriaku       | CTI JOY                              | Wayne, NJ             |  1225 | 81.67 |    5 |
-|    7 | Cora Self            | Truth Seekers                        | Versailles, KY        |  1220 | 81.33 |    6 |
-|    8 | Joy Escobar          | God's Mighty Defenders               | Waxahatchie, TX       |  1205 | 80.33 |    5 |
-|    9 | Jaden Garland        | Renton Royals                        | Renton, WA            |  1125 | 75.00 |    5 |
-|   10 | Gabby Pahl           | Minds of the Bible                   | Shakopee, MN          |  1120 | 74.67 |    3 |
-|   11 | Timothy Mathew       | God Squad                            | Chandler, AZ          |  1110 | 74.00 |    2 |
-|   12 | Jared Demoff         | MJG Quizzers                         | Brighton, MI          |  1045 | 69.67 |    2 |
-|   13 | Hayden Monty         | CIA Special Agents                   | Mendon, MA            |   940 | 62.67 |    1 |
-|   14 | Wesley Self          | Truth Seekers                        | Versailles, KY        |   860 | 57.33 |    3 |
-|   15 | Samuel Deppe         | Word Wise Quiz Kids - Memphis 1st A1 | Cordova, TN           |   835 | 55.67 |    1 |
-|   16 | Caleb Cook           | CTI JOY                              | Wayne, NJ             |   785 | 52.33 |    8 |
-|   17 | Jacob Blackburn      | Eagles                               | North Little Rock, AR |   740 | 49.33 |    1 |
-|   18 | Anyiah Odera         | The Overcomers                       | Houston, TX           |   740 | 49.33 |      |
-|   19 | Lauren Pahl          | Minds of the Bible                   | Shakopee, MN          |   730 | 48.67 |    8 |
-|   20 | Evangeline Antony    | Word Wise Quiz Kids - Memphis 1st A1 | Cordova, TN           |   725 | 48.33 |    5 |
-|   21 | Grace Searcy         | Lawson - Connie                      | Lawson, MO            |   720 | 48.00 |    5 |
-|   22 | Ian Chilson          | Renton Royals                        | Renton, WA            |   650 | 43.33 |    6 |
-|   23 | Trenton Morris       | Bible Jedi                           | Greensboro, NC        |   620 | 41.33 |    6 |
-|   24 | Jack Douglass        | Full Armored Disciples               | Toledo, OH            |   620 | 41.33 |    5 |
-|   25 | Precious Cyrus-David | The Overcomers                       | Houston, TX           |   615 | 41.00 |      |
-|   26 | Hector Rivera        | God's Mighty Defenders               | Waxahatchie, TX       |   605 | 40.33 |    5 |
-|   27 | Josh Rose            | Blood Bought Brothers                | Mustang, OK           |   600 | 40.00 |      |
-|   28 | Elizabeth            | Eagles                               | North Little Rock, AR |   575 | 38.33 |    4 |
-|   29 | Ayden Rush           | Blood Bought Brothers                | Mustang, OK           |   570 | 38.00 |    7 |
-|   30 | Hannah Massard       | Minds of the Bible                   | Shakopee, MN          |   565 | 37.67 |      |
-|   31 | Jeremy Varghese      | God Squad                            | Chandler, AZ          |   525 | 35.00 |    4 |
-|   32 | Joshua Malayil       | God Squad                            | Chandler, AZ          |   510 | 34.00 |      |
-|   33 | Jett King            | Blood Bought Brothers                | Mustang, OK           |   445 | 29.67 |      |
-|   34 | Brooke Zermatten     | Eagles                               | North Little Rock, AR |   405 | 27.00 |      |
-|   35 | Ezekiel Hamel        | CIA Special Agents                   | Mendon, MA            |   385 | 25.67 |    1 |
-|   36 | Hans A Daniel        | ATC FLAMES                           | Norcross, GA          |   385 | 25.67 |      |
-|   37 | Olivia Akonzee       | The Overcomers                       | Houston, TX           |   380 | 25.33 |    1 |
-|   38 | Jasmine Saenz        | God's Mighty Defenders               | Waxahatchie, TX       |   380 | 25.33 |      |
-|   39 | Gabriella Demoff     | MJG Quizzers                         | Brighton, MI          |   355 | 23.67 |    2 |
-|   40 | Oduna Akonzee        | The Overcomers                       | Houston, TX           |   330 | 22.00 |    2 |
-|   41 | Joanna Paulraj       | CTI JOY                              | Wayne, NJ             |   320 | 21.33 |      |
-|   42 | Nathaniel Prejean    | Bible Jedi                           | Greensboro, NC        |   275 | 18.33 |      |
-|   43 | Grace Ruiz           | God's Mighty Defenders               | Waxahatchie, TX       |   260 | 17.33 |      |
-|   44 | Joshua Lewis         | Full Armored Disciples               | Toledo, OH            |   250 | 16.67 |      |
-|   45 | Taylor Searcy        | Lawson - Connie                      | Lawson, MO            |   230 | 15.33 |      |
-|   45 | Jenny CHRISTOPHER    | ATC FLAMES                           | Norcross, GA          |   230 | 15.33 |      |
-|   46 | Olivia Lee           | Truth Seekers                        | Versailles, KY        |   205 | 13.67 |      |
-|   47 | Matthew Hamel        | CIA Special Agents                   | Mendon, MA            |   195 | 13.00 |      |
-|   48 | Priscilla Adu-Gyamfi | The Overcomers                       | Houston, TX           |   180 | 12.00 |      |
-|   49 | Wesley Horn          | Blood Bought Brothers                | Mustang, OK           |   170 | 11.33 |      |
-|   50 | Aleena Varghese      | God Squad                            | Chandler, AZ          |   125 |  8.33 |      |
-|   51 | Benjamin Antony      | Word Wise Quiz Kids - Memphis 1st A1 | Cordova, TN           |   105 |  7.00 |      |
-|   52 | Jacob Solvang        | Renton Royals                        | Renton, WA            |   100 |  6.67 |    1 |
-|   53 | Eliana Lee           | Truth Seekers                        | Versailles, KY        |    90 |  6.00 |      |
-|   54 | Emma Martello        | Bible Jedi                           | Greensboro, NC        |    80 |  5.33 |      |
-|   55 | Jack Martello        | Bible Jedi                           | Greensboro, NC        |    65 |  4.33 |      |
-|   56 | Jacob Lewis          | Full Armored Disciples               | Toledo, OH            |    55 |  3.67 |      |
-|   56 | Alicia Akinyi        | Renton Royals                        | Renton, WA            |    55 |  3.67 |      |
-|   57 | Tanner Longacre      | CIA Special Agents                   | Mendon, MA            |    50 |  3.33 |      |
-|   57 | Sarah Robertson      | Word Wise Quiz Kids - Memphis 1st A1 | Cordova, TN           |    50 |  3.33 |      |
-|   58 | Josiah Self          | Truth Seekers                        | Versailles, KY        |    45 |  3.00 |      |
-|   59 | Matthew Wiley        | Full Armored Disciples               | Toledo, OH            |    40 |  2.67 |      |
-|   60 | Efrain Martinez      | CTI JOY                              | Wayne, NJ             |    25 |  1.67 |      |
-|   61 | Aliyah Gibson        | Eagles                               | North Little Rock, AR |    20 |  1.33 |      |
-|   62 | Kelechi Oriaku       | CTI JOY                              | Wayne, NJ             |    15 |  1.00 |      |
-|   63 | Dana Goyer           | Full Armored Disciples               | Toledo, OH            |    10 |   .67 |      |
-|   63 | Annalise Jennings    | Renton Royals                        | Renton, WA            |    10 |   .67 |      |
-|   64 | Joel CHRISTOPHER     | ATC FLAMES                           | Norcross, GA          |       |   .00 |      |
-|   64 | Ian Sharps           | Eagles                               | North Little Rock, AR |       |   .00 |      |
-|   64 | Ava Robertson        | Word Wise Quiz Kids - Memphis 1st A1 | Cordova, TN           |       |   .00 |      |
-|   64 | Malia Goda           | Renton Royals                        | Renton, WA            |       |   .00 |      |
-|   65 | David Doan           | Renton Royals                        | Renton, WA            |   -35 | -2.33 |      |
+|    # | Quizzer                | Team                                 | Church                | Total |   Avg |   QO |
+| ---: | ---------------------- | ------------------------------------ | --------------------- | ----: | ----: | ---: |
+|    1 | Aidan Rajesh           | Bible Jedi                           | Greensboro, NC        |  1460 | 97.33 |    7 |
+|    2 | Jet Blackburn          | Full Armored Disciples               | Toledo, OH            |  1440 | 96.00 |    6 |
+|    3 | Nick Cook              | Lawson - Connie                      | Lawson, MO            |  1350 | 90.00 |    9 |
+|    4 | Hannah Gabriela Daniel | ATC FLAMES                           | Norcross, GA          |  1305 | 87.00 |    4 |
+|    5 | Makayla Demoff         | MJG Quizzers                         | Brighton, MI          |  1270 | 84.67 |    8 |
+|    6 | Chineme Oriaku         | CTI JOY                              | Wayne, NJ             |  1225 | 81.67 |    5 |
+|    7 | Cora Self              | Truth Seekers                        | Versailles, KY        |  1220 | 81.33 |    6 |
+|    8 | Joy Escobar            | God's Mighty Defenders               | Waxahatchie, TX       |  1205 | 80.33 |    5 |
+|    9 | Jaden Garland          | Renton Royals                        | Renton, WA            |  1125 | 75.00 |    5 |
+|   10 | Gabby Pahl             | Minds of the Bible                   | Shakopee, MN          |  1120 | 74.67 |    3 |
+|   11 | Timothy Mathew         | God Squad                            | Chandler, AZ          |  1110 | 74.00 |    2 |
+|   12 | Jared Demoff           | MJG Quizzers                         | Brighton, MI          |  1045 | 69.67 |    2 |
+|   13 | Hayden Monty           | CIA Special Agents                   | Mendon, MA            |   940 | 62.67 |    1 |
+|   14 | Wesley Self            | Truth Seekers                        | Versailles, KY        |   860 | 57.33 |    3 |
+|   15 | Samuel Deppe           | Word Wise Quiz Kids - Memphis 1st A1 | Cordova, TN           |   835 | 55.67 |    1 |
+|   16 | Caleb Cook             | CTI JOY                              | Wayne, NJ             |   785 | 52.33 |    8 |
+|   17 | Jacob Blackburn        | Eagles                               | North Little Rock, AR |   740 | 49.33 |    1 |
+|   18 | Anyiah Odera           | The Overcomers                       | Houston, TX           |   740 | 49.33 |      |
+|   19 | Lauren Pahl            | Minds of the Bible                   | Shakopee, MN          |   730 | 48.67 |    8 |
+|   20 | Evangeline Antony      | Word Wise Quiz Kids - Memphis 1st A1 | Cordova, TN           |   725 | 48.33 |    5 |
+|   21 | Grace Searcy           | Lawson - Connie                      | Lawson, MO            |   720 | 48.00 |    5 |
+|   22 | Ian Chilson            | Renton Royals                        | Renton, WA            |   650 | 43.33 |    6 |
+|   23 | Trenton Morris         | Bible Jedi                           | Greensboro, NC        |   620 | 41.33 |    6 |
+|   24 | Jack Douglass          | Full Armored Disciples               | Toledo, OH            |   620 | 41.33 |    5 |
+|   25 | Precious Cyrus-David   | The Overcomers                       | Houston, TX           |   615 | 41.00 |      |
+|   26 | Hector Rivera          | God's Mighty Defenders               | Waxahatchie, TX       |   605 | 40.33 |    5 |
+|   27 | Josh Rose              | Blood Bought Brothers                | Mustang, OK           |   600 | 40.00 |      |
+|   28 | Elizabeth              | Eagles                               | North Little Rock, AR |   575 | 38.33 |    4 |
+|   29 | Ayden Rush             | Blood Bought Brothers                | Mustang, OK           |   570 | 38.00 |    7 |
+|   30 | Hannah Massard         | Minds of the Bible                   | Shakopee, MN          |   565 | 37.67 |      |
+|   31 | Jeremy Varghese        | God Squad                            | Chandler, AZ          |   525 | 35.00 |    4 |
+|   32 | Joshua Malayil         | God Squad                            | Chandler, AZ          |   510 | 34.00 |      |
+|   33 | Jett King              | Blood Bought Brothers                | Mustang, OK           |   445 | 29.67 |      |
+|   34 | Brooke Zermatten       | Eagles                               | North Little Rock, AR |   405 | 27.00 |      |
+|   35 | Ezekiel Hamel          | CIA Special Agents                   | Mendon, MA            |   385 | 25.67 |    1 |
+|   36 | Hans Asher Daniel      | ATC FLAMES                           | Norcross, GA          |   385 | 25.67 |      |
+|   37 | Olivia Akonzee         | The Overcomers                       | Houston, TX           |   380 | 25.33 |    1 |
+|   38 | Jasmine Saenz          | God's Mighty Defenders               | Waxahatchie, TX       |   380 | 25.33 |      |
+|   39 | Gabriella Demoff       | MJG Quizzers                         | Brighton, MI          |   355 | 23.67 |    2 |
+|   40 | Oduna Akonzee          | The Overcomers                       | Houston, TX           |   330 | 22.00 |    2 |
+|   41 | Joanna Paulraj         | CTI JOY                              | Wayne, NJ             |   320 | 21.33 |      |
+|   42 | Nathaniel Prejean      | Bible Jedi                           | Greensboro, NC        |   275 | 18.33 |      |
+|   43 | Grace Ruiz             | God's Mighty Defenders               | Waxahatchie, TX       |   260 | 17.33 |      |
+|   44 | Joshua Lewis           | Full Armored Disciples               | Toledo, OH            |   250 | 16.67 |      |
+|   45 | Taylor Searcy          | Lawson - Connie                      | Lawson, MO            |   230 | 15.33 |      |
+|   45 | Jenny CHRISTOPHER      | ATC FLAMES                           | Norcross, GA          |   230 | 15.33 |      |
+|   46 | Olivia Lee             | Truth Seekers                        | Versailles, KY        |   205 | 13.67 |      |
+|   47 | Matthew Hamel          | CIA Special Agents                   | Mendon, MA            |   195 | 13.00 |      |
+|   48 | Priscilla Adu-Gyamfi   | The Overcomers                       | Houston, TX           |   180 | 12.00 |      |
+|   49 | Wesley Horn            | Blood Bought Brothers                | Mustang, OK           |   170 | 11.33 |      |
+|   50 | Aleena Varghese        | God Squad                            | Chandler, AZ          |   125 |  8.33 |      |
+|   51 | Benjamin Antony        | Word Wise Quiz Kids - Memphis 1st A1 | Cordova, TN           |   105 |  7.00 |      |
+|   52 | Jacob Solvang          | Renton Royals                        | Renton, WA            |   100 |  6.67 |    1 |
+|   53 | Eliana Lee             | Truth Seekers                        | Versailles, KY        |    90 |  6.00 |      |
+|   54 | Emma Martello          | Bible Jedi                           | Greensboro, NC        |    80 |  5.33 |      |
+|   55 | Jack Martello          | Bible Jedi                           | Greensboro, NC        |    65 |  4.33 |      |
+|   56 | Jacob Lewis            | Full Armored Disciples               | Toledo, OH            |    55 |  3.67 |      |
+|   56 | Alicia Akinyi          | Renton Royals                        | Renton, WA            |    55 |  3.67 |      |
+|   57 | Tanner Longacre        | CIA Special Agents                   | Mendon, MA            |    50 |  3.33 |      |
+|   57 | Sarah Robertson        | Word Wise Quiz Kids - Memphis 1st A1 | Cordova, TN           |    50 |  3.33 |      |
+|   58 | Josiah Self            | Truth Seekers                        | Versailles, KY        |    45 |  3.00 |      |
+|   59 | Matthew Wiley          | Full Armored Disciples               | Toledo, OH            |    40 |  2.67 |      |
+|   60 | Efrain Martinez        | CTI JOY                              | Wayne, NJ             |    25 |  1.67 |      |
+|   61 | Aliyah Gibson          | Eagles                               | North Little Rock, AR |    20 |  1.33 |      |
+|   62 | Kelechi Oriaku         | CTI JOY                              | Wayne, NJ             |    15 |  1.00 |      |
+|   63 | Dana Goyer             | Full Armored Disciples               | Toledo, OH            |    10 |   .67 |      |
+|   63 | Annalise Jennings      | Renton Royals                        | Renton, WA            |    10 |   .67 |      |
+|   64 | Joel CHRISTOPHER       | ATC FLAMES                           | Norcross, GA          |       |   .00 |      |
+|   64 | Ian Sharps             | Eagles                               | North Little Rock, AR |       |   .00 |      |
+|   64 | Ava Robertson          | Word Wise Quiz Kids - Memphis 1st A1 | Cordova, TN           |       |   .00 |      |
+|   64 | Malia Goda             | Renton Royals                        | Renton, WA            |       |   .00 |      |
+|   65 | David Doan             | Renton Royals                        | Renton, WA            |   -35 | -2.33 |      |
 
 
 ## Saturday
@@ -603,14 +603,14 @@ menubar_toc_static:
 |   25 | Hannah Facer         | Changed Inside Out      | Bowling Green, OH     |   215 |  23.89 |      |
 |   26 | Jocelyn Fredrick     | Knights 4 Christ- Faith | Monmouth Junction, NJ |   180 |  20.00 |      |
 |   26 | Shaylee Powell       | Naperville              | Naperville, IL        |   180 |  20.00 |      |
-|   27 | Kora Beth witzenman  | Wilmington Warriors     | Wilmington, NC        |   145 |  16.11 |    1 |
+|   27 | Kora Beth Witzenman  | Wilmington Warriors     | Wilmington, NC        |   145 |  16.11 |    1 |
 |   28 | Luke shelton         | Wilmington Warriors     | Wilmington, NC        |   130 |  14.44 |      |
 |   29 | Olivia Lee           | Truth Seekers           | Versailles, KY        |   105 |  11.67 |      |
 |   30 | Eliana Lee           | Truth Seekers           | Versailles, KY        |   100 |  11.11 |      |
 |   31 | Rachel McDonald      | Wilmington Warriors     | Wilmington, NC        |    80 |   8.89 |      |
 |   32 | Abby Jones           | Jewels for Jesus        | Springfield, MO       |    70 |   7.78 |      |
 |   33 | Trinity Phelps       | Jewels for Jesus        | Springfield, MO       |    60 |   6.67 |      |
-|   34 | Anna Scott witzenman | Wilmington Warriors     | Wilmington, NC        |    40 |   4.44 |      |
+|   34 | Anna Scott Witzenman | Wilmington Warriors     | Wilmington, NC        |    40 |   4.44 |      |
 |   35 | Brenda Light         | Fluffy Panda Quizzers   | Gahanna, OH           |    20 |   2.22 |      |
 |   36 | Josiah Self          | Truth Seekers           | Versailles, KY        |     5 |    .56 |      |
 |   37 | Corrie lee Boehling  | Wilmington Warriors     | Wilmington, NC        |       |    .00 |      |
@@ -927,63 +927,63 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer           | Team                     | Church         | Total |    Avg |   QO |
-| ---: | ----------------- | ------------------------ | -------------- | ----: | -----: | ---: |
-|    1 | Hannah G Daniel   | ATC FLAMES               | Norcross, GA   |  1210 | 134.44 |    8 |
-|    2 | Jaden Garland     | Renton Royals            | Renton, WA     |   930 | 103.33 |    5 |
-|    3 | Hans Holzhausen   | Minecraft Bible Builders | Fortville, IN  |   770 |  85.56 |    2 |
-|    4 | Ethan Sipes       | Kinetic Konnection       | Bismarck, ND   |   605 |  67.22 |      |
-|    5 | McKenna Walker    | Racine Encouragers       | Racine, WI     |   580 |  64.44 |      |
-|    6 | Taylen Manns      | Lawson - Chad            | Lawson, MO     |   550 |  61.11 |    5 |
-|    7 | Eric Bender       | Kinetic Konnection       | Bismarck, ND   |   545 |  60.56 |    1 |
-|    8 | Seth Archer       | Lawson - Chad            | Lawson, MO     |   485 |  53.89 |    1 |
-|    9 | Kevin Sowers      | Catching Fire            | Montgomery, AL |   460 |  51.11 |    1 |
-|   10 | Micah Houde       | 4 girls 'n the Houde     | Billings, MT   |   455 |  50.56 |    1 |
-|   11 | Max Ortega        | FBI                      | Tucson, AZ     |   430 |  47.78 |    1 |
-|   12 | Elijah Bohlen     | Kinetic Konnection       | Bismarck, ND   |   415 |  46.11 |    5 |
-|   13 | Ian Chilson       | Renton Royals            | Renton, WA     |   405 |  45.00 |    3 |
-|   14 | Anthony Diaz      | FBI                      | Tucson, AZ     |   400 |  44.44 |    1 |
-|   15 | Mark Orth         | Minecraft Bible Builders | Fortville, IN  |   385 |  42.78 |    4 |
-|   16 | Michele Lobato    | M&M's of Christ          | Tucson, AZ     |   315 |  35.00 |      |
-|   17 | Madeline Berkey   | M&M's of Christ          | Tucson, AZ     |   305 |  33.89 |      |
-|   18 | Peyton Shuffitt   | Catching Fire            | Montgomery, AL |   290 |  32.22 |    1 |
-|   19 | Hannah Royer      | M&M's of Christ          | Tucson, AZ     |   280 |  31.11 |    2 |
-|   20 | Ariana Klein      | Racine Encouragers       | Racine, WI     |   260 |  28.89 |      |
-|   21 | Logan Orth        | Minecraft Bible Builders | Fortville, IN  |   245 |  27.22 |      |
-|   22 | Cristina Gonzalez | Catching Fire            | Montgomery, AL |   220 |  24.44 |      |
-|   23 | Nevaeh Walker     | 4 girls 'n the Houde     | Billings, MT   |   205 |  22.78 |      |
-|   24 | Jenny CHRISTOPHER | ATC FLAMES               | Norcross, GA   |   190 |  21.11 |      |
-|   25 | Serenity Orozco   | FBI                      | Tucson, AZ     |   165 |  18.33 |    1 |
-|   26 | Hannah Bohlen     | Kinetic Konnection       | Bismarck, ND   |   160 |  17.78 |      |
-|   27 | Aaliyah Landers   | 4 girls 'n the Houde     | Billings, MT   |   145 |  16.11 |      |
-|   28 | Hans A Daniel     | ATC FLAMES               | Norcross, GA   |   140 |  15.56 |      |
-|   29 | Matthew Walker    | Racine Encouragers       | Racine, WI     |   125 |  13.89 |      |
-|   30 | John Cooley       | FBI                      | Tucson, AZ     |    90 |  10.00 |      |
-|   31 | Allie Haynes      | Catching Fire            | Montgomery, AL |    80 |   8.89 |      |
-|   32 | Ayden Sorensen    | FBI                      | Tucson, AZ     |    70 |   7.78 |      |
-|   33 | Marianna Aguero   | Racine Encouragers       | Racine, WI     |    55 |   6.11 |      |
-|   34 | Myah Berkey       | M&M's of Christ          | Tucson, AZ     |    45 |   5.00 |      |
-|   35 | Caitlyn Jackson   | Racine Encouragers       | Racine, WI     |    40 |   4.44 |      |
-|   36 | Miranda Moncayo   | Racine Encouragers       | Racine, WI     |    35 |   3.89 |      |
-|   37 | Jadyn Archer      | Lawson - Chad            | Lawson, MO     |    30 |   3.33 |      |
-|   37 | Gabriella Lobato  | M&M's of Christ          | Tucson, AZ     |    30 |   3.33 |      |
-|   37 | Darla Holzhausen  | Minecraft Bible Builders | Fortville, IN  |    30 |   3.33 |      |
-|   38 | Nicholas Tait     | Racine Encouragers       | Racine, WI     |    25 |   2.78 |      |
-|   38 | Jacob Solvang     | Renton Royals            | Renton, WA     |    25 |   2.78 |      |
-|   39 | Lily Robinson     | 4 girls 'n the Houde     | Billings, MT   |    20 |   2.22 |      |
-|   40 | Joy Holzhausen    | Minecraft Bible Builders | Fortville, IN  |    10 |   1.11 |      |
-|   40 | Keira Orth        | Minecraft Bible Builders | Fortville, IN  |    10 |   1.11 |      |
-|   40 | Adeline Powell    | Catching Fire            | Montgomery, AL |    10 |   1.11 |      |
-|   40 | Alicia Akinyi     | Renton Royals            | Renton, WA     |    10 |   1.11 |      |
-|   41 | Malia Goda        | Renton Royals            | Renton, WA     |       |    .00 |      |
-|   41 | Brody Acra        | Minecraft Bible Builders | Fortville, IN  |       |    .00 |      |
-|   41 | Annalise Jennings | Renton Royals            | Renton, WA     |       |    .00 |      |
-|   41 | Julia Loven       | Kinetic Konnection       | Bismarck, ND   |       |    .00 |      |
-|   41 | David Doan        | Renton Royals            | Renton, WA     |       |    .00 |      |
-|   41 | Kaia Orth         | Minecraft Bible Builders | Fortville, IN  |       |    .00 |      |
-|   41 | Ana Gonzalez      | Catching Fire            | Montgomery, AL |       |    .00 |      |
-|   41 | Joel CHRISTOPHER  | ATC FLAMES               | Norcross, GA   |       |    .00 |      |
-|   42 | Brooke Bentz      | 4 girls 'n the Houde     | Billings, MT   |   -20 |  -2.22 |      |
+|    # | Quizzer                | Team                     | Church         | Total |    Avg |   QO |
+| ---: | ---------------------- | ------------------------ | -------------- | ----: | -----: | ---: |
+|    1 | Hannah Gabriela Daniel | ATC FLAMES               | Norcross, GA   |  1210 | 134.44 |    8 |
+|    2 | Jaden Garland          | Renton Royals            | Renton, WA     |   930 | 103.33 |    5 |
+|    3 | Hans Holzhausen        | Minecraft Bible Builders | Fortville, IN  |   770 |  85.56 |    2 |
+|    4 | Ethan Sipes            | Kinetic Konnection       | Bismarck, ND   |   605 |  67.22 |      |
+|    5 | McKenna Walker         | Racine Encouragers       | Racine, WI     |   580 |  64.44 |      |
+|    6 | Taylen Manns           | Lawson - Chad            | Lawson, MO     |   550 |  61.11 |    5 |
+|    7 | Eric Bender            | Kinetic Konnection       | Bismarck, ND   |   545 |  60.56 |    1 |
+|    8 | Seth Archer            | Lawson - Chad            | Lawson, MO     |   485 |  53.89 |    1 |
+|    9 | Kevin Sowers           | Catching Fire            | Montgomery, AL |   460 |  51.11 |    1 |
+|   10 | Micah Houde            | 4 girls 'n the Houde     | Billings, MT   |   455 |  50.56 |    1 |
+|   11 | Max Ortega             | FBI                      | Tucson, AZ     |   430 |  47.78 |    1 |
+|   12 | Elijah Bohlen          | Kinetic Konnection       | Bismarck, ND   |   415 |  46.11 |    5 |
+|   13 | Ian Chilson            | Renton Royals            | Renton, WA     |   405 |  45.00 |    3 |
+|   14 | Anthony Diaz           | FBI                      | Tucson, AZ     |   400 |  44.44 |    1 |
+|   15 | Mark Orth              | Minecraft Bible Builders | Fortville, IN  |   385 |  42.78 |    4 |
+|   16 | Michele Lobato         | M&M's of Christ          | Tucson, AZ     |   315 |  35.00 |      |
+|   17 | Madeline Berkey        | M&M's of Christ          | Tucson, AZ     |   305 |  33.89 |      |
+|   18 | Peyton Shuffitt        | Catching Fire            | Montgomery, AL |   290 |  32.22 |    1 |
+|   19 | Hannah Royer           | M&M's of Christ          | Tucson, AZ     |   280 |  31.11 |    2 |
+|   20 | Ariana Klein           | Racine Encouragers       | Racine, WI     |   260 |  28.89 |      |
+|   21 | Logan Orth             | Minecraft Bible Builders | Fortville, IN  |   245 |  27.22 |      |
+|   22 | Cristina Gonzalez      | Catching Fire            | Montgomery, AL |   220 |  24.44 |      |
+|   23 | Nevaeh Walker          | 4 girls 'n the Houde     | Billings, MT   |   205 |  22.78 |      |
+|   24 | Jenny CHRISTOPHER      | ATC FLAMES               | Norcross, GA   |   190 |  21.11 |      |
+|   25 | Serenity Orozco        | FBI                      | Tucson, AZ     |   165 |  18.33 |    1 |
+|   26 | Hannah Bohlen          | Kinetic Konnection       | Bismarck, ND   |   160 |  17.78 |      |
+|   27 | Aaliyah Landers        | 4 girls 'n the Houde     | Billings, MT   |   145 |  16.11 |      |
+|   28 | Hans Asher Daniel      | ATC FLAMES               | Norcross, GA   |   140 |  15.56 |      |
+|   29 | Matthew Walker         | Racine Encouragers       | Racine, WI     |   125 |  13.89 |      |
+|   30 | John Cooley            | FBI                      | Tucson, AZ     |    90 |  10.00 |      |
+|   31 | Allie Haynes           | Catching Fire            | Montgomery, AL |    80 |   8.89 |      |
+|   32 | Ayden Sorensen         | FBI                      | Tucson, AZ     |    70 |   7.78 |      |
+|   33 | Marianna Aguero        | Racine Encouragers       | Racine, WI     |    55 |   6.11 |      |
+|   34 | Myah Berkey            | M&M's of Christ          | Tucson, AZ     |    45 |   5.00 |      |
+|   35 | Caitlyn Jackson        | Racine Encouragers       | Racine, WI     |    40 |   4.44 |      |
+|   36 | Miranda Moncayo        | Racine Encouragers       | Racine, WI     |    35 |   3.89 |      |
+|   37 | Jadyn Archer           | Lawson - Chad            | Lawson, MO     |    30 |   3.33 |      |
+|   37 | Gabriella Lobato       | M&M's of Christ          | Tucson, AZ     |    30 |   3.33 |      |
+|   37 | Darla Holzhausen       | Minecraft Bible Builders | Fortville, IN  |    30 |   3.33 |      |
+|   38 | Nicholas Tait          | Racine Encouragers       | Racine, WI     |    25 |   2.78 |      |
+|   38 | Jacob Solvang          | Renton Royals            | Renton, WA     |    25 |   2.78 |      |
+|   39 | Lily Robinson          | 4 girls 'n the Houde     | Billings, MT   |    20 |   2.22 |      |
+|   40 | Joy Holzhausen         | Minecraft Bible Builders | Fortville, IN  |    10 |   1.11 |      |
+|   40 | Keira Orth             | Minecraft Bible Builders | Fortville, IN  |    10 |   1.11 |      |
+|   40 | Adeline Powell         | Catching Fire            | Montgomery, AL |    10 |   1.11 |      |
+|   40 | Alicia Akinyi          | Renton Royals            | Renton, WA     |    10 |   1.11 |      |
+|   41 | Malia Goda             | Renton Royals            | Renton, WA     |       |    .00 |      |
+|   41 | Brody Acra             | Minecraft Bible Builders | Fortville, IN  |       |    .00 |      |
+|   41 | Annalise Jennings      | Renton Royals            | Renton, WA     |       |    .00 |      |
+|   41 | Julia Loven            | Kinetic Konnection       | Bismarck, ND   |       |    .00 |      |
+|   41 | David Doan             | Renton Royals            | Renton, WA     |       |    .00 |      |
+|   41 | Kaia Orth              | Minecraft Bible Builders | Fortville, IN  |       |    .00 |      |
+|   41 | Ana Gonzalez           | Catching Fire            | Montgomery, AL |       |    .00 |      |
+|   41 | Joel CHRISTOPHER       | ATC FLAMES               | Norcross, GA   |       |    .00 |      |
+|   42 | Brooke Bentz           | 4 girls 'n the Houde     | Billings, MT   |   -20 |  -2.22 |      |
 
 
 ### Tan (L7)
