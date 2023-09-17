@@ -150,7 +150,7 @@ menubar_toc_static:
 | #   | Quizzer             | Team                                                            | Total | AVG  | QO  | Q%   | 30s | 20s | 10s |
 | --- | ------------------- | --------------------------------------------------------------- | ----- | ---- | --- | ---- | --- | --- | --- |
 | 1   | Zach Ponraj         | Tacoma Life Center - Tacoma, WA (Unknown Males)                 | 1520  | 80   | 10  | 76%  | 18  | 44  | 15  |
-| 2   | Theodore Arasavelli | Neighborhood Church - Bellevue, WA (Squared Swordfish)          | 1470  | 77.4 | 12  | 75%  | 12  | 41  | 31  |
+| 2   | Teddy Arasavelli    | Neighborhood Church - Bellevue, WA (Squared Swordfish)          | 1470  | 77.4 | 12  | 75%  | 12  | 41  | 31  |
 | 3   | Noble Spire         | Bethel A/G - Rapid City, SD (Overflowing with Thankfulness)     | 1450  | 76.3 | 13  | 80%  | 11  | 30  | 45  |
 | 4   | Joel Larson         | Allison Park Church - Allison Park, Pa (Grumbling Stomachs)     | 1405  | 73.9 | 11  | 70%  | 12  | 53  | 11  |
 | 5   | Liam Bartlett       | Kennebec Valley - Chelsea, ME (Keep in Step)                    | 1390  | 73.2 | 10  | 74%  | 9   | 49  | 16  |
@@ -214,7 +214,7 @@ menubar_toc_static:
 | *57 | Kevin Samraj        | Atlanta Tamil - Norcross, GA (Curry Their Favor)                | 0     |      |     | %    |     |     |     |
 | *57 | Montanna Dargatz    | Sioux Falls 1st - Sioux Falls, SD (Wind and Waves)              | 0     |      |     | %    |     |     |     |
 | *57 | David Gallo         | Neighborhood Church - Bellevue, WA (Squared Swordfish)          | 0     |      |     | %    |     |     |     |
-| *57 | Arianna Gallo       | Neighborhood Church - Bellevue, WA (Squared Swordfish)          | 0     |      |     | %    |     |     |     |
+| *57 | Anna Gallo          | Neighborhood Church - Bellevue, WA (Squared Swordfish)          | 0     |      |     | %    |     |     |     |
 | 58  | Padmini Abothu      | Neighborhood Church - Bellevue, WA (Squared Swordfish)          | -5    | -0.3 |     | 31%  |     | 4   | 1   |
 | 59  | Joshua Samraj       | Atlanta Tamil - Norcross, GA (Curry Their Favor)                | -10   | -0.5 |     | 25%  |     | 1   |     |
 
@@ -428,38 +428,38 @@ menubar_toc_static:
 
 #### Individuals
 
-| #   | Quizzer             | Team                                                         | Total | AVG  | QO  | Q%   | 30s | 20s | 10s |
-| --- | ------------------- | ------------------------------------------------------------ | ----- | ---- | --- | ---- | --- | --- | --- |
-| 1   | Zak Kellock         | Dream City Church - Scottsdale, AZ (Made the Two Groups One) | 695   | 99.3 | 5   | 76%  | 9   | 21  | 1   |
-| 2   | Solomon Stevens     | Maple Lane A/G - Deposit, NY (Final Greetings)               | 600   | 85.7 | 5   | 83%  | 5   | 16  | 9   |
-| 3   | Seth Robertson      | Central A/G - Houston, PA (Great Endurance)                  | 445   | 63.6 | 4   | 68%  | 2   | 20  | 6   |
-| 4   | Stephen Moses       | Dream City Church - Scottsdale, AZ (Made the Two Groups One) | 415   | 59.3 | 4   | 72%  | 2   | 9   | 17  |
-| 5   | Faith Pryer         | Grant Assembly - Grant, MI (Appearance of Wisdom)            | 415   | 59.3 | 2   | 61%  | 8   | 13  | 4   |
-| 6   | Judah Stevens       | Maple Lane A/G - Deposit, NY (Final Greetings)               | 410   | 58.6 | 3   | 71%  | 5   | 11  | 9   |
-| 7   | Nigus Dawit         | Word of Life - Springfield, VA (Ambassadors in Chains)       | 385   | 55   | 3   | 63%  | 5   | 16  | 5   |
-| 8   | Theodore Arasavelli | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | 335   | 47.9 | 3   | 63%  | 4   | 10  | 8   |
-| 9   | Reagan Griessel     | James River Church - Ozark, MO (Goals)                       | 330   | 47.1 | 2   | 75%  |     | 9   | 15  |
-| 10  | Linsey Garrison     | James River Church - Ozark, MO (Goals)                       | 330   | 47.1 | 1   | 64%  | 4   | 15  | 2   |
-| 11  | Divya Mathews       | Word of Life - Springfield, VA (Ambassadors in Chains)       | 275   | 39.3 | 2   | 71%  |     | 7   | 17  |
-| 12  | Caleb Hoffman       | Maple Lane A/G - Deposit, NY (Final Greetings)               | 230   | 32.9 |     | 74%  | 2   | 8   | 7   |
-| 13  | Aaron Pryer         | Grant Assembly - Grant, MI (Appearance of Wisdom)            | 190   | 27.1 | 2   | 68%  |     | 2   | 17  |
-| 14  | Ethan Hoffman       | Maple Lane A/G - Deposit, NY (Final Greetings)               | 185   | 26.4 | 1   | 69%  |     | 4   | 14  |
-| 15  | Joanna Moses        | Dream City Church - Scottsdale, AZ (Made the Two Groups One) | 180   | 25.7 |     | 78%  |     | 3   | 15  |
-| 16  | Zachary Budday      | Central A/G - Houston, PA (Great Endurance)                  | 175   | 25   | 1   | 69%  |     |     | 22  |
-| 17  | Sam Clinston        | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | 145   | 20.7 | 1   | 64%  |     | 2   | 14  |
-| 18  | Noble Spire         | Bethel A/G - Rapid City, SD (Overflowing with Thankfulness)  | 125   | 17.9 |     | 57%  |     | 7   | 10  |
-| 19  | Danelle Ragains     | Bethel A/G - Rapid City, SD (Overflowing with Thankfulness)  | 95    | 13.6 |     | 87%  |     | 3   | 4   |
-| 20  | Padmini Abothu      | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | 80    | 11.4 |     | 64%  |     | 4   | 5   |
-| 21  | Isabel Wilhelm      | Bethel A/G - Rapid City, SD (Overflowing with Thankfulness)  | 40    | 5.7  |     | 100% |     |     | 4   |
-| *21 | Lydia Dawit         | Word of Life - Springfield, VA (Ambassadors in Chains)       | 40    | 5.7  |     | 71%  |     |     | 5   |
-| 22  | Kodi Ladd           | Bethel A/G - Rapid City, SD (Overflowing with Thankfulness)  | 30    | 4.3  |     | 75%  |     | 1   | 2   |
-| 23  | Davis Garrison      | James River Church - Ozark, MO (Goals)                       | 25    | 3.6  |     | 55%  |     |     | 5   |
-| 24  | Isabella Burt       | Word of Life - Springfield, VA (Ambassadors in Chains)       | 15    | 2.1  |     | 50%  |     | 1   |     |
-| 25  | Charolette Burt     | Word of Life - Springfield, VA (Ambassadors in Chains)       | 0     |      |     | %    |     |     |     |
-| *25 | David Gallo         | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | 0     |      |     | %    |     |     |     |
-| *25 | Arianna Gallo       | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | 0     |      |     | %    |     |     |     |
-| 26  | Noah Gallo          | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | -5    | -0.7 |     | 50%  |     |     | 2   |
-| 27  | David Moses         | Dream City Church - Scottsdale, AZ (Made the Two Groups One) | -10   | -1.4 |     | %    |     |     |     |
+| #   | Quizzer          | Team                                                         | Total | AVG  | QO  | Q%   | 30s | 20s | 10s |
+| --- | ---------------- | ------------------------------------------------------------ | ----- | ---- | --- | ---- | --- | --- | --- |
+| 1   | Zak Kellock      | Dream City Church - Scottsdale, AZ (Made the Two Groups One) | 695   | 99.3 | 5   | 76%  | 9   | 21  | 1   |
+| 2   | Solomon Stevens  | Maple Lane A/G - Deposit, NY (Final Greetings)               | 600   | 85.7 | 5   | 83%  | 5   | 16  | 9   |
+| 3   | Seth Robertson   | Central A/G - Houston, PA (Great Endurance)                  | 445   | 63.6 | 4   | 68%  | 2   | 20  | 6   |
+| 4   | Stephen Moses    | Dream City Church - Scottsdale, AZ (Made the Two Groups One) | 415   | 59.3 | 4   | 72%  | 2   | 9   | 17  |
+| 5   | Faith Pryer      | Grant Assembly - Grant, MI (Appearance of Wisdom)            | 415   | 59.3 | 2   | 61%  | 8   | 13  | 4   |
+| 6   | Judah Stevens    | Maple Lane A/G - Deposit, NY (Final Greetings)               | 410   | 58.6 | 3   | 71%  | 5   | 11  | 9   |
+| 7   | Nigus Dawit      | Word of Life - Springfield, VA (Ambassadors in Chains)       | 385   | 55   | 3   | 63%  | 5   | 16  | 5   |
+| 8   | Teddy Arasavelli | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | 335   | 47.9 | 3   | 63%  | 4   | 10  | 8   |
+| 9   | Reagan Griessel  | James River Church - Ozark, MO (Goals)                       | 330   | 47.1 | 2   | 75%  |     | 9   | 15  |
+| 10  | Linsey Garrison  | James River Church - Ozark, MO (Goals)                       | 330   | 47.1 | 1   | 64%  | 4   | 15  | 2   |
+| 11  | Divya Mathews    | Word of Life - Springfield, VA (Ambassadors in Chains)       | 275   | 39.3 | 2   | 71%  |     | 7   | 17  |
+| 12  | Caleb Hoffman    | Maple Lane A/G - Deposit, NY (Final Greetings)               | 230   | 32.9 |     | 74%  | 2   | 8   | 7   |
+| 13  | Aaron Pryer      | Grant Assembly - Grant, MI (Appearance of Wisdom)            | 190   | 27.1 | 2   | 68%  |     | 2   | 17  |
+| 14  | Ethan Hoffman    | Maple Lane A/G - Deposit, NY (Final Greetings)               | 185   | 26.4 | 1   | 69%  |     | 4   | 14  |
+| 15  | Joanna Moses     | Dream City Church - Scottsdale, AZ (Made the Two Groups One) | 180   | 25.7 |     | 78%  |     | 3   | 15  |
+| 16  | Zachary Budday   | Central A/G - Houston, PA (Great Endurance)                  | 175   | 25   | 1   | 69%  |     |     | 22  |
+| 17  | Sam Clinston     | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | 145   | 20.7 | 1   | 64%  |     | 2   | 14  |
+| 18  | Noble Spire      | Bethel A/G - Rapid City, SD (Overflowing with Thankfulness)  | 125   | 17.9 |     | 57%  |     | 7   | 10  |
+| 19  | Danelle Ragains  | Bethel A/G - Rapid City, SD (Overflowing with Thankfulness)  | 95    | 13.6 |     | 87%  |     | 3   | 4   |
+| 20  | Padmini Abothu   | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | 80    | 11.4 |     | 64%  |     | 4   | 5   |
+| 21  | Isabel Wilhelm   | Bethel A/G - Rapid City, SD (Overflowing with Thankfulness)  | 40    | 5.7  |     | 100% |     |     | 4   |
+| *21 | Lydia Dawit      | Word of Life - Springfield, VA (Ambassadors in Chains)       | 40    | 5.7  |     | 71%  |     |     | 5   |
+| 22  | Kodi Ladd        | Bethel A/G - Rapid City, SD (Overflowing with Thankfulness)  | 30    | 4.3  |     | 75%  |     | 1   | 2   |
+| 23  | Davis Garrison   | James River Church - Ozark, MO (Goals)                       | 25    | 3.6  |     | 55%  |     |     | 5   |
+| 24  | Isabella Burt    | Word of Life - Springfield, VA (Ambassadors in Chains)       | 15    | 2.1  |     | 50%  |     | 1   |     |
+| 25  | Charolette Burt  | Word of Life - Springfield, VA (Ambassadors in Chains)       | 0     |      |     | %    |     |     |     |
+| *25 | David Gallo      | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | 0     |      |     | %    |     |     |     |
+| *25 | Anna Gallo       | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | 0     |      |     | %    |     |     |     |
+| 26  | Noah Gallo       | Neighborhood Church - Bellevue, WA (Squared Swordfish)       | -5    | -0.7 |     | 50%  |     |     | 2   |
+| 27  | David Moses      | Dream City Church - Scottsdale, AZ (Made the Two Groups One) | -10   | -1.4 |     | %    |     |     |     |
 
 ## Special Events
 
