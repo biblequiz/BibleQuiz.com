@@ -260,7 +260,7 @@ function showQuizzerScores(quizzer) {
         name += ` (${quizzer.on.join(', ')})`;
     }
 
-    scoresModalTitle.innerText = name;
+    scoresModalTitle.innerText = `${name} - ${quizzer.eventCount} Event(s)`;
 
     scoresModalTableBody.innerHTML = "";
     if (quizzer.t) {
