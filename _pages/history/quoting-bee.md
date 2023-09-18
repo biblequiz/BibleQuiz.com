@@ -16,7 +16,7 @@ follows the same format. Eventually quizzers have to quote two (or even three) r
 | 2021 | Kyli Ladd                                                                                        | Open Bible Church                | Rapid City, SD    |
 | 2020 | None due to COVID-19                                                                             |                                  |                   |
 | 2019 | Judah Stevens                                                                                    | Redeemer Church                  | Utica, NY         |
-| 2018 | {% include image-modal.html link="/assets/individuals/quoting-bee/2018.jpg" alt="Zak Kellock" %} | Dream City Church                | Scottsdale, AZ    |
+| 2018 | {% include image-modal-link.html link="/assets/individuals/quoting-bee/2018.jpg" text="Zak Kellock" %} | Dream City Church                | Scottsdale, AZ    |
 | 2017 | Solomon Stevens                                                                                  | Maple Lane AG                    | Deposit, NY       |
 | 2016 | Zak Kellock                                                                                      | North Valley AG                  | Phoenix, AZ       |
 | 2015 | Tyler Adelman                                                                                    | Bethany Church                   | Wyckoff, NJ       |
