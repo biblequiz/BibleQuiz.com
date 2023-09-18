@@ -57,7 +57,7 @@ menubar_toc_static:
 |    1 | Hilary Kunnanz  | CP-Majestic Clouds     |   740 |   74 |
 |    2 | Emily Ganzfried | Faith Lacey Flip-Flops |   645 |   65 |
 |    3 | Chris Tenny     | TLC-Deluged Elements   |   605 |   61 |
-|      | JP O'Connor     | TLC-Deluged Elements   |   605 |   61 |
+|   3* | JP O'Connor     | TLC-Deluged Elements   |   605 |   61 |
 |    5 | Erica Jones     | Faith Lacey Once More  |   590 |   59 |
 
 ## Novice Division

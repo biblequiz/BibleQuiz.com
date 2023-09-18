@@ -77,7 +77,7 @@ menubar_toc_static:
 |   31 | Jaqueline Martinez \* | Reign of Fire              | Bethesda A/G        |   785 |  43.61 |    6 |
 |   32 | Abbi Good             | Life Church BRATS          | Life Church A/G     |   755 |  41.94 |    5 |
 |   33 | Victoria Wooten       | The Braeswood Marvels      | Braeswood A/G       |   745 |  41.39 |    2 |
-|   34 | Michael Wooten II     | The Braeswood Marvels      | Braeswood A/G       |   645 |  35.83 |    3 |
+|   34 | Michael Wooten        | The Braeswood Marvels      | Braeswood A/G       |   645 |  35.83 |    3 |
 |   35 | Caroline Munoz        | Army of God                | Mountain Creek      |   630 |  35.00 |    1 |
 |   36 | Josh Rose             | God's Mighty Warriors      | The Bridge          |   565 |  31.39 |    2 |
 |   37 | Isaac Torrez          | Army of God                | Mountain Creek      |   515 |  28.61 |      |
