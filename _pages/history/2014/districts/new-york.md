@@ -39,7 +39,7 @@ menubar_toc_static:
 | Ethan Hoffmann            | Maple Lane A/G, Deposit |   185 |   37 |    2 |
 | Caleb Gerhart             | First AG, Binghamton    |   180 |   36 |    1 |
 | Nick Congdon              | First AG, Binghamton    |   135 |   27 |    1 |
-| Julie Anna Cherednichenko | First AG, Binghamton    |   120 |   24 |    1 |
+| Julie-Anna Cherednichenko | First AG, Binghamton    |   120 |   24 |    1 |
 | Veronica Cherednichenko   | First AG, Binghamton    |   120 |   24 |    1 |
 | Terril Grant              | Calvary AG, Ozone Park  |    65 |   13 |    1 |
 | Abigail Beckering         | Grace AG, Syracuse      |    20 |    4 |    0 |

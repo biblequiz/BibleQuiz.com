@@ -71,7 +71,7 @@ menubar_toc_static:
 |   12 | Mary Morris         | Parkhill                   |    50 |
 |   14 | Liberty Thorgramson | Sidney                     |    45 |
 |   15 | Desiree Turner      | Sidney                     |    30 |
-|   16 | Kirsti Brockschimdt | Parkhill                   |    10 |
+|   16 | Kirsti Brockschmidt | Parkhill                   |    10 |
 |   17 | Kaitlyn Nolte       | Boulder                    |     5 |
 |   18 | Josh Kallberg       | Boulder                    |     5 |
 

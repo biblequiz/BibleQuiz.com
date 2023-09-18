@@ -72,7 +72,7 @@ menubar_toc_static:
 |   26 | Elizabeth O'Brien       | Angel Agents                | Brookfield, WI    |   555 |  39.64 |      |
 |   27 | Nathan Willis           | Ashland 1st A/G             | Ashland, AL       |   540 |  38.57 |    4 |
 |   28 | Jesse Ugstad            | Kids For Christ             | Fergus Falls, MN  |   510 |  36.43 |      |
-|   29 | Beatrice=Elizabeth Ross | Bible Cadets                | Escondido, CA     |   450 |  32.14 |    3 |
+|   29 | Beatrice-Elizabeth Ross | Bible Cadets                | Escondido, CA     |   450 |  32.14 |    3 |
 |   30 | Matthew Robinson        | Gospel Gators               | Sanford, FL       |   435 |  31.07 |    2 |
 |   31 | Nicole DeSilva          | Bethlehem Church            | Richmond Hill, NY |   395 |  28.21 |    2 |
 |   32 | Rickey Bridges          | Angel Agents                | Brookfield, WI    |   380 |  27.14 |    2 |
@@ -617,7 +617,7 @@ menubar_toc_static:
 |   16 | Will Brovold            | The High Pursurers                 | Omaha, NE       |   290 | 32.22 |    1 |
 |   17 | Madison Heath           | FBI (Faithful Bible Investigators) | Lakeville, MN   |   280 | 31.11 |    2 |
 |   18 | Tia Lubinski            | FBI (Faithful Bible Investigators) | Lakeville, MN   |   280 | 31.11 |      |
-|   19 | Beatrice=Elizabeth Ross | Bible Cadets                       | Escondido, CA   |   245 | 27.22 |      |
+|   19 | Beatrice-Elizabeth Ross | Bible Cadets                       | Escondido, CA   |   245 | 27.22 |      |
 |   20 | David Inyangson         | Swordbearers                       | Springfield, VA |   240 | 26.67 |      |
 |   21 | Dylan Hogan             | S.O.S.                             | Kenosha, WI     |   175 | 19.44 |    1 |
 |   22 | Kelise Braithwaite      | James River Bullseye               | Ozark, MO       |   160 | 17.78 |    1 |

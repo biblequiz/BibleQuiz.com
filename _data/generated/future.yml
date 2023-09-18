@@ -1,14 +1,4 @@
 jbq:
-- id: 49b66b2a-bf2f-4b08-1cad-08db9c64fc8b
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Tennessee Meet #1 - September 16th'
-  scope: region
-  scopeLabel: Gulf
-  locationName: various
-  dates: Sep 16, 2023
 - id: 86f74cbd-a8fb-401d-1cab-08db9c64fc8b
   season: 2024
   registrationDates: Closed
@@ -20,6 +10,16 @@ jbq:
   locationName: Blue Springs Assembly of God
   locationCity: Blue Springs, MO
   dates: Sep 16 - Mar 16, 2024
+- id: fecab638-419c-45f9-0f57-08dbb09b83f3
+  season: 2024
+  registrationDates: Closes Sep 28, 2023
+  isVisible: true
+  name: NW–JBQ Qualifier (2023)
+  scope: district
+  scopeLabel: Northwest
+  locationName: Cedar Park Assembly of God
+  locationCity: Bothell, WA
+  dates: Sep 30, 2023
 - id: 242d7b85-6872-41b6-9a9b-08db94f0949e
   season: 2024
   registrationDates: Closes Sep 25, 2023
@@ -30,6 +30,15 @@ jbq:
   locationName: Trinity Church
   locationCity: Sharpsburg, GA
   dates: Sep 30 - Mar 2, 2024
+- id: 1840a2cc-06b5-4eab-aab7-08dbafd18f81
+  season: 2024
+  registrationDates: Closes Sep 30, 2023
+  isVisible: true
+  name: North Texas 2023-2024 Team Registration
+  scope: district
+  scopeLabel: North Texas
+  locationName: North Texas District
+  dates: Oct 1 - Mar 23, 2024
 - id: 4287651f-4735-4ad0-f027-08db864fd5d2
   season: 2024
   registrationDates: Closes Sep 30, 2023
@@ -78,16 +87,6 @@ jbq:
   locationCity: Bridgewater, NJ
   dates: Jan 1 - Mar 2, 2024
 tbq:
-- id: 00cfe723-78b2-4863-1cae-08db9c64fc8b
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Tennessee Meet #1 - September 16th'
-  scope: district
-  scopeLabel: Tennessee
-  locationName: Various
-  dates: Sep 16, 2023
 - id: 9a50af49-cdcc-4040-1caf-08db9c64fc8b
   season: 2024
   registrationDates: Closes Sep 21, 2023
@@ -99,9 +98,9 @@ tbq:
   dates: Sep 23, 2023
 - id: 56b3d7d0-bb44-446b-ee1a-08dba741e37f
   season: 2024
-  registrationDates: Closes Sep 15, 2023
+  registrationDates: Closes Sep 17, 2023
   isVisible: true
-  name: 'League Meet #1'
+  name: 'Dakota Quiz League Meet #1'
   scope: district
   scopeLabel: South Dakota
   locationName: Sioux Falls First Assembly

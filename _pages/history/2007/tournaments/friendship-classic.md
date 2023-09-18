@@ -37,7 +37,7 @@ After 9 preliminary rounds, teams were bracketed 1 - 23 by average scores. The t
 |    # | Quizzer           | City             | Total |   QO |
 | ---: | ----------------- | ---------------- | ----: | ---: |
 |    1 | Jared Burhalter   | Orlando          |   815 |    5 |
-|    2 | P.J. Grigg        | Colorado Springs |   650 |    5 |
+|    2 | PJ Grigg          | Colorado Springs |   650 |    5 |
 |    3 | Lucas Cox         | Lexington        |   625 |    4 |
 |    4 | Taylor Vickerman  | Lafayette        |   620 |    3 |
 |    5 | LaJoie Ward       | Binghamton       |   595 |    5 |
@@ -108,7 +108,7 @@ After 9 preliminary rounds, teams were bracketed 1 - 23 by average scores. The t
 |    # | Quizzer          | City              | Total |   QO |
 | ---: | ---------------- | ----------------- | ----: | ---: |
 |    1 | Rebekah Nivala   | Martha's Vineyard |   490 |    4 |
-|    2 | J.P. O'Connor    | Tacoma            |   455 |    3 |
+|    2 | JP O'Connor      | Tacoma            |   455 |    3 |
 |    3 | Chelsea Convis   | Waterford         |   375 |    4 |
 |    4 | LiAnne Valentin  | Algood            |   285 |    0 |
 |    5 | Chris Teeny      | Tacoma            |   275 |    1 |

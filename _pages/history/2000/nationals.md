@@ -231,7 +231,7 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 | **62\*** | Emily Whitehead     | Mountain Home, AR              |    25 |  1.32 |      1 |       |
 |       64 | Christina Fiucci    | Chesterland, OH                |    20 |  1.05 |        |       |
 |       65 | Katie Kuroishi      | Santa Ana, CA                  |     5 |  0.26 |        |       |
-|       66 | Regina Olexa        | Cedar Rapids, IA Rachel Grant  |     0 |     0 |        |       |
+|       66 | Regina Olexa        | Cedar Rapids, IA Rachel Grant  |     0 |     0 |        |       |
 | **66\*** | Rachel Grant        | Allison Park, PA #2            |     0 |     0 |      1 |       |
 | **66\*** | Steve Yenca         | Allison Park, PA #2            |     0 |     0 |      1 |       |
 | **66\*** | Tiffany Sewell      | Mountain Home, AR              |     0 |     0 |      1 |       |

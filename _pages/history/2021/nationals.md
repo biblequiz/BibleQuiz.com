@@ -31,7 +31,7 @@ menubar_toc_static:
 | 11  | Calvary Church - S (Naperville, IL)                         |    9 |   10 | 2310  | 121.6 | 18  | 73% | 16  | 61  | 71  |
 | 12  | Radiant Life Church (Dublin, OH)                            |    8 |   11 | 2395  | 126   | 15  | 75% | 23  | 67  | 54  |
 | 13  | Scoffers Gonna Scoff (Journey Life Church, Holt, MI)        |    8 |   11 | 2075  | 109.2 | 14  | 71% | 17  | 58  | 70  |
-| 14  | Don\`t Run from the Lord (Bellevue Church, Bellevue, WA)    |    7 |   12 | 2175  | 114.5 | 13  | 70% | 18  | 68  | 60  |
+| 14  | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     |    7 |   12 | 2175  | 114.5 | 13  | 70% | 18  | 68  | 60  |
 | 15  | Proven Geniuses (Cedar Park, Bothell, WA)                   |    7 |   12 | 2180  | 114.7 | 15  | 68% | 23  | 68  | 61  |
 | 16  | Race Runners (Carolinas Christian Assembly, Charlotte, NC)  |    6 |   13 | 1895  | 99.7  | 14  | 69% | 12  | 61  | 60  |
 | 17  | Fury of the Flames (Word of Life Assembly, Springfield, VA) |    6 |   13 | 2625  | 138.2 | 20  | 73% | 24  | 74  | 52  |
@@ -57,7 +57,7 @@ menubar_toc_static:
 | 10  | Toby Hill            | Living Hope (Swedesboro, NJ)                                | 1580  | 83.2  | 10  | 74%  | 20  | 44  | 17  |
 | 11  | Rachel Brookbank     | The Brookbanks (Colorado Springs, CO)                       | 1535  | 80.8  | 10  | 73%  | 17  | 56  | 4   |
 | 12  | Jayden Nimako        | Radiant Life Church (Dublin, OH)                            | 1525  | 80.3  | 10  | 81%  | 20  | 35  | 22  |
-| 13  | Sam Clinston         | Don\`t Run from the Lord (Bellevue Church, Bellevue, WA)    | 1490  | 78.4  | 12  | 73%  | 17  | 47  | 13  |
+| 13  | Sam Clinston         | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     | 1490  | 78.4  | 12  | 73%  | 17  | 47  | 13  |
 | 14  | Shawn Timothy        | Calvary Church - S (Naperville, IL)                         | 1445  | 76.1  | 9   | 71%  | 15  | 56  | 2   |
 | 15  | Alex Jarrell         | Proven Geniuses (Cedar Park, Bothell, WA)                   | 1320  | 69.5  | 10  | 70%  | 17  | 41  | 16  |
 | 16  | Kaitlyn Ramsey       | Ramsey Family (Springfield, MO)                             | 1305  | 68.7  | 15  | 83%  | 1   | 21  | 68  |
@@ -84,7 +84,7 @@ menubar_toc_static:
 | 37  | Emily Thomas         | Race Runners (Carolinas Christian Assembly, Charlotte, NC)  | 715   | 37.6  | 5   | 74%  | 1   | 23  | 29  |
 | 38  | Josi Haugo           | Proven Geniuses (Cedar Park, Bothell, WA)                   | 605   | 31.8  | 4   | 64%  | 6   | 17  | 34  |
 | 39  | Seth Christopher     | Fury of the Flames (Word of Life Assembly, Springfield, VA) | 570   | 30    | 5   | 67%  |     | 12  | 42  |
-| 40  | Elizabeth Godavarthi | Don\`t Run from the Lord (Bellevue Church, Bellevue, WA)    | 445   | 23.4  | 1   | 75%  | 1   | 12  | 24  |
+| 40  | Elizabeth Godavarthi | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     | 445   | 23.4  | 1   | 75%  | 1   | 12  | 24  |
 | 41  | Aaron Hoffmann       | The New Order (Redeemer Church, Utica, NY)                  | 420   | 22.1  | 2   | 68%  | 4   | 11  | 17  |
 | 42  | Joseph Barajas       | Terrifying Sights (Trinity Church, TX)                      | 410   | 21.6  | 4   | 58%  | 1   | 9   | 34  |
 | 43  | Joy Escobar          | Terrifying Sights (Trinity Church, TX)                      | 360   | 18.9  | 3   | 72%  |     | 2   | 34  |
@@ -95,7 +95,7 @@ menubar_toc_static:
 | 48  | Lilli Haugo          | Proven Geniuses (Cedar Park, Bothell, WA)                   | 255   | 13.4  | 1   | 70%  |     | 10  | 11  |
 | 49  | Krysle John          | Warriors of the Faith (Bethel Church, San Jose, CA)         | 240   | 12.6  | 1   | 85%  |     | 1   | 22  |
 | 50  | Glory Stevens        | The New Order (Redeemer Church, Utica, NY)                  | 215   | 11.3  |     | 66%  | 2   | 5   | 16  |
-| 50  | Ryan Matta           | Don\`t Run from the Lord (Bellevue Church, Bellevue, WA)    | 215   | 11.3  |     | 57%  |     | 7   | 22  |
+| 50  | Ryan Matta           | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     | 215   | 11.3  |     | 57%  |     | 7   | 22  |
 | 51  | Alyssa Ramsey        | Ramsey Family (Springfield, MO)                             | 195   | 10.3  |     | 79%  | 1   | 5   | 9   |
 | 52  | Elijah Lee           | Trinity One (Trinity Church, TX)                            | 145   | 7.6   |     | 92%  |     | 4   | 7   |
 | 53  | Jacob Thomas         | Race Runners (Carolinas Christian Assembly, Charlotte, NC)  | 140   | 7.4   |     | 80%  | 1   | 6   | 1   |
@@ -105,7 +105,7 @@ menubar_toc_static:
 | 56  | Maddie Clements      | Alive and Active (CrossPoint AG, Portage, WI)               | 65    | 3.4   |     | 100% |     |     | 7   |
 | 57  | Shaylee Powell       | Calvary Church - J (Naperville, IL)                         | 60    | 3.2   |     | 50%  |     | 3   | 6   |
 | 58  | Reagan Stevens       | Calvary Church - S (Naperville, IL)                         | 55    | 2.9   |     | 57%  | 1   | 1   | 2   |
-| 59  | Avinash Poguluri     | Don\`t Run from the Lord (Bellevue Church, Bellevue, WA)    | 50    | 2.6   |     | 100% |     | 2   | 1   |
+| 59  | Avinash Poguluri     | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     | 50    | 2.6   |     | 100% |     | 2   | 1   |
 | 60  | Cierra Convis        | Scoffers Gonna Scoff (Journey Life Church, Holt, MI)        | 35    | 1.8   |     | 100% |     | 1   | 2   |
 | 61  | Pierce Stevens       | Calvary Church - S (Naperville, IL)                         | 20    | 1.1   |     | 66%  |     | 1   | 1   |
 | 62  | Ndubueze Echefu      | Human Rejects (First at Firewheel, Garland, TX)             | 15    | .8    |     | 66%  |     |     | 2   |
@@ -115,8 +115,8 @@ menubar_toc_static:
 | 63  | Abenezer Mekuria     | Fury of the Flames (Word of Life Assembly, Springfield, VA) | 0     |       |     | %    |     |     |     |
 | 63  | McKinley Stevens     | Calvary Church - S (Naperville, IL)                         | 0     |       |     | %    |     |     |     |
 | 63  | Noah Lee             | Terrifying Sights (Trinity Church, TX)                      | 0     |       |     | %    |     |     |     |
-| 64  | Danny\`El Gonzalez   | Human Rejects (First at Firewheel, Garland, TX)             | \-5   | \-.3  |     | 50%  |     |     | 2   |
-| 64  | Padmini Abothu       | Don\`t Run from the Lord (Bellevue Church, Bellevue, WA)    | \-5   | \-.3  |     | %    |     |     |     |
+| 64  | Daniyy'El Gonzalez   | Human Rejects (First at Firewheel, Garland, TX)             | \-5   | \-.3  |     | 50%  |     |     | 2   |
+| 64  | Padmini Abothu       | Don't Run from the Lord (Bellevue Church, Bellevue, WA)     | \-5   | \-.3  |     | %    |     |     |     |
 
 ## Challenger Results
 
@@ -128,7 +128,7 @@ menubar_toc_static:
 | 2   | Living Water Dolphins (Living Water Bible Church, CA)                 |   16 |    2 | 3040  | 168.9 | 24  | 81% | 29  | 76  | 53  |
 | 3   | Braeswood Assembly (Houston, TX)                                      |   15 |    3 | 2840  | 157.8 | 18  | 79% | 28  | 64  | 76  |
 | 4   | Order of Aaron (First Assembly, Lexington, KY)                        |   14 |    4 | 2560  | 142.2 | 17  | 76% | 11  | 75  | 88  |
-| 5   | God\`s Elect From Oklahoma (Mustang, OK)                              |   13 |    5 | 2305  | 128   | 20  | 74% | 21  | 49  | 73  |
+| 5   | God's Elect From Oklahoma (Mustang, OK)                               |   13 |    5 | 2305  | 128   | 20  | 74% | 21  | 49  | 73  |
 | 6   | Culmination of the Ages (Covenant Life, Cary, NC)                     |   12 |    6 | 2250  | 125   | 18  | 76% | 15  | 60  | 69  |
 | 7   | More Than Conquerors (Atlanta Indian Prayer Fellowship, Marietta, GA) |   11 |    7 | 2550  | 141.7 | 20  | 86% | 15  | 60  | 70  |
 | 8   | Gideon and the Girls (Lakeview Church, Indianapolis, IN)              |   11 |    7 | 2255  | 125.3 | 16  | 84% | 27  | 56  | 19  |
@@ -304,7 +304,7 @@ menubar_toc_static:
 |       16 | Ariella Grimmond    | Living Stones (Calvary Assembly, Ozone Park, NY)                      |   170 |  24.3 |    1 |  70% |
 |       17 | Gabriella Singh     | Living Stones (Calvary Assembly, Ozone Park, NY)                      |   160 |  22.9 |    2 |  55% |
 |       18 | Jacob Thomas        | Race Runners (Carolinas Christian Assembly, Charlotte, NC)            |    95 |  13.6 |      |  62% |
-|       19 | Danny'El Gonzalez   | Human Rejects (First at Firewheel, Garland, TX)                       |    20 |   2.9 |      |  60% |
+|       19 | Daniyy'El Gonzalez  | Human Rejects (First at Firewheel, Garland, TX)                       |    20 |   2.9 |      |  60% |
 |       20 | Jocelyn Squires     | Gideon and the Girls (Lakeview Church, Indianapolis, IN)              |    10 |   1.4 |      |  99% |
 | **\*20** | Jerusha Jebaraj     | Race Runners (Carolinas Christian Assembly, Charlotte, NC)            |    10 |   1.4 |      |  66% |
 |       21 | Kora Pardee         | Calvary Assembly of God (Marinette, WI)                               |     5 |    .7 |      |  50% |

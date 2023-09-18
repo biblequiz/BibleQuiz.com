@@ -5,7 +5,7 @@ title: "Creating a \"fun\" but \"fair\" atmosphere"
 date: "2016-05-03"
 ---
 
-_Written by Joe Bohanon_
+_Written by Joe Bohanon_
 
 One comment that I got from a parent of a quizzer who had been in my room was that I created a "fun" atmosphere. While I'm not 100% sure how to define that, here's an attempt.
 

@@ -570,7 +570,7 @@ menubar_toc_static:
 |    2 | Parker Lubbe      | Quadruple Threat + 2      | Cedar Hill-TX    |   570 | 81.43 |    2 |
 |    3 | Hudson Hollin     | Warriors in Training      | Columbiaville-MI |   545 | 77.86 |    1 |
 |    4 | Emma Wolfe        | Knights in Shining Armour | Springfield-MO   |   445 | 63.57 |    3 |
-|    5 | Daniel Duran Jr.  | PCC Giant Slayers         | Portland-OR      |   395 | 56.43 |      |
+|    5 | Daniel Duran, Jr. | PCC Giant Slayers         | Portland-OR      |   395 | 56.43 |      |
 |    6 | Benjamin Beekman  | New Life Pineville        | Waxhaw-NC        |   395 | 56.43 |      |
 |    7 | Micah Demmer      | Kids for Christ           | Fergus Falls-MN  |   380 | 54.29 |    3 |
 |    8 | Hunter Hollin     | Warriors in Training      | Columbiaville-MI |   350 | 50.00 |    3 |
@@ -1069,7 +1069,7 @@ menubar_toc_static:
 |   17 | Acacia Todd         | Vailsburg Victors              | Newark-NJ        |   230 | 32.86 |      |
 |   18 | Dakota Marsh        | Searcy Fruit Loops             | Searcy-AR        |   185 | 26.43 |      |
 |   19 | Karina Settles      | SALT                           | Greensboro-NC    |   180 | 25.71 |      |
-|   20 | Daniel Duran Jr.    | PCC Giant Slayers              | Portland-OR      |   165 | 23.57 |    1 |
+|   20 | Daniel Duran, Jr.   | PCC Giant Slayers              | Portland-OR      |   165 | 23.57 |    1 |
 |   21 | Landon Grisham      | D.D.D.                         | Mustang-OK       |   165 | 23.57 |      |
 |   22 | Ari Lauthner        | PCC Giant Slayers              | Portland-OR      |   155 | 22.14 |      |
 |   23 | Michael Shipman     | Searcy Fruit Loops             | Searcy-AR        |   145 | 20.71 |    1 |
@@ -1658,7 +1658,7 @@ menubar_toc_static:
 |   43 | Samantha Pieper            | S.O.S.             | Mikwaukee-WI     |    20 |   2.22 |      |
 |   43 | Brandon Navilliat          | Spirit Squadron    | West Mifflin -PA |    20 |   2.22 |      |
 |   43 | Carley Cox                 | Eternal Eight      | Hamburg-PA       |    20 |   2.22 |      |
-|   44 | Hannah G Daniel            | FIRE               | Norcross-GA      |       |    .00 |      |
+|   44 | Hannah Gabriela Daniel     | FIRE               | Norcross-GA      |       |    .00 |      |
 |   44 | Kevin Yao                  | Double-Edged Sword | Irvine-CA        |       |    .00 |      |
 |   44 | Phoebe Wang                | Double-Edged Sword | Irvine-CA        |       |    .00 |      |
 |   44 | Roshan Muthugomu           | FIRE               | Norcross-GA      |       |    .00 |      |
@@ -1791,7 +1791,7 @@ menubar_toc_static:
 |   10 | Matt Anderson     | DAG Church                     | Decatur-AR      |   450 |  50.00 |    5 |
 |   11 | Ari Lauthner      | PCC Giant Slayers              | Portland-OR     |   440 |  48.89 |    1 |
 |   12 | My'Randa Tolar    | Masters                        | Dodson-LA       |   405 |  45.00 |    3 |
-|   13 | Daniel Duran Jr.  | PCC Giant Slayers              | Portland-OR     |   400 |  44.44 |    1 |
+|   13 | Daniel Duran, Jr. | PCC Giant Slayers              | Portland-OR     |   400 |  44.44 |    1 |
 |   14 | Chizaram Ajiwe    | Chosen Ones                    | Houston-TX      |   375 |  41.67 |    1 |
 |   15 | Rylan Sago        | Bismarck Boppin' Bible Buzzers | Bismarck-ND     |   355 |  39.44 |    2 |
 |   16 | Trey Anderson     | DAG Church                     | Decatur-AR      |   335 |  37.22 |      |

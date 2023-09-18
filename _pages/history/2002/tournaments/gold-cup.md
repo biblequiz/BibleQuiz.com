@@ -129,7 +129,7 @@ Gold Cup placements are determined by a single-elimination tournament, seeded by
 |    2 | Sara Curry        | Foothills A/G        |    75 |
 |    3 | Stephen Hernandez | New Life A/G         | 61.88 |
 |    4 | Megan Stump       | Gulf Coast Christian |    55 |
-|    5 | E.J. Speares      | Trinity Church       | 52.14 |
+|    5 | E.J. Spears       | Trinity Church       | 52.14 |
 |    6 | Tyler Fuller      | Hope Worship Center  | 49.28 |
 |    7 | Derek Wilson      | The Oaks A/G         | 48.75 |
 |    8 | Andrew Ahles      | First Colleyville    | 48.57 |

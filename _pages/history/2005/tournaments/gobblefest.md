@@ -48,7 +48,7 @@ menubar_toc_static:
 |   10 | Ruth Kinyua          | Calvary A/G, Elkhart, IN "J"      |   665 |    7 |
 |   11 | Josh Siddall         | Grace A/G, Syracuse, NY           |   640 |    8 |
 |   12 | Tianna Hammaker      | Christian Life A/G, Camp Hill, PA |   570 |    4 |
-|   13 | C.J.Hock             | Calvary A/G, Elkhart, IN "J"      |   565 |    3 |
+|   13 | C.J. Hock            | Calvary A/G, Elkhart, IN "J"      |   565 |    3 |
 |   14 | Jordan Zych          | Evangel A/G, Williamsville, NY    |   545 |    5 |
 |   15 | Isaiah Hunter        | First A/G, Hermitage, PA          |   460 |    5 |
 |   16 | Hillari Wyatt        | Evangel A/G, Williamsville, NY    |   455 |    5 |

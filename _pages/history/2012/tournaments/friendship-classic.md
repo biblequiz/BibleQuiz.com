@@ -88,7 +88,7 @@ menubar_toc_static:
 |   39 | Kara Gallo         | Bellevue Neighborhood Church, WA           |   330 |    1 |  36.67 |
 |   40 | Olivia Davis       | Grandville A/G, Grandville, MI             |   310 |    4 |  34.44 |
 |   41 | Luke Wagner        | Central A/G, Springfield, MO (Oss)         |   300 |    1 |  33.33 |
-|   42 | JonathanKelly      | Walnut Grove A/G, West Mifflin, PA         |   285 |    1 |  31.67 |
+|   42 | Jonathan Kelly     | Walnut Grove A/G, West Mifflin, PA         |   285 |    1 |  31.67 |
 |   43 | Reesie Owens       | Victorious Life Church, Wesley Chapel, FL  |   265 |    1 |  29.44 |
 |   44 | Brianna Silvey     | Southwest A/G, Fort Wayne, IN              |   265 |    1 |  29.44 |
 |   45 | Chris Galea        | Praise A/G, Garfield, NJ                   |   260 |    0 |  28.89 |

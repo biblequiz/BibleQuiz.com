@@ -33,33 +33,33 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer           | Team                                                       | Total |   Avg |   QO |   Q% |
-| -------: | ----------------- | ---------------------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Zach Ponraj       | Deeper Church (Burien) #1 (Deeper Church)                  |   755 | 107.9 |    5 |  80% |
-|        2 | Joanne Ramesh     | Human Rejects (First at Firewheel)                         |   690 |  98.6 |    4 |  89% |
-|        3 | Cameron Ramsey    | Ramsey Family (Life360 Church)                             |   635 |  90.7 |    4 |  76% |
-|        4 | Rachel Brookbank  | Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church) |   620 |  88.6 |    4 |  75% |
-|        5 | Josh Barajas      | Trinity Juan (Cedar Hill) (Trinity Church)                 |   600 |  85.7 |    5 |  71% |
-|        6 | Hannah Alapati    | Flames of Fire (The Bridge Assembly of God)                |   580 |  82.9 |    4 |  74% |
-|        7 | Zane Brown        | Human Rejects (First at Firewheel)                         |   540 |  77.1 |    4 |  85% |
-|        8 | Josiah Brookbank  | Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church) |   485 |  69.3 |    4 |  70% |
-|        9 | Kaitlyn Ramsey    | Ramsey Family (Life360 Church)                             |   475 |  67.9 |    5 |  77% |
-|       10 | Joy Escobar       | Trinity Danny (Cedar Hill) (Trinity Church)                |   465 |  66.4 |    4 |  77% |
-| **\*10** | Noah Claunch      | Trinity Juan (Cedar Hill) (Trinity Church)                 |   465 |  66.4 |    4 |  76% |
-|       11 | Camden Haney      | Trinity Danny (Cedar Hill) (Trinity Church)                |   440 |  62.9 |    4 |  70% |
-|       12 | Joseph Barajas    | Trinity Tami (Cedar Hill) (Trinity Church)                 |   330 |  47.1 |    4 |  61% |
-|       13 | Haddie Brookbank  | Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church) |   300 |  42.9 |    2 |  74% |
-|       14 | Elaina Ponraj     | Deeper Church (Burien) #1 (Deeper Church)                  |   290 |  41.4 |    2 |  87% |
-|       15 | Christian Alapati | Flames of Fire (The Bridge Assembly of God)                |   250 |  35.7 |    1 | 100% |
-|       16 | Simeon Ponraj     | Deeper Church (Burien) #1 (Deeper Church)                  |   190 |  27.1 |    2 |  61% |
-|       17 | Aulora Sullivan   | Trinity Tami (Cedar Hill) (Trinity Church)                 |   150 |  21.4 |    1 |  55% |
-|       18 | Julia Sullivan    | Trinity Juan (Cedar Hill) (Trinity Church)                 |   120 |  17.1 |    1 |  75% |
-|       19 | Elijah Lee        | Trinity Tami (Cedar Hill) (Trinity Church)                 |   115 |  16.4 |      |  82% |
-|       20 | Alyssa Ramsey     | Ramsey Family (Life360 Church)                             |    90 |  12.9 |    1 |  58% |
-|       21 | Danny'El Gonzalez | Human Rejects (First at Firewheel)                         |    45 |   6.4 |      |  44% |
-|       22 | Madison Claunch   | Trinity Juan (Cedar Hill) (Trinity Church)                 |    40 |   5.7 |      | 100% |
-|       23 | Noah Lee          | Trinity Danny (Cedar Hill) (Trinity Church)                |    20 |   2.9 |      |  50% |
-|       24 | Ndubueze Echefu   | Human Rejects (First at Firewheel)                         |    -5 |   -.7 |      |      |
+|        # | Quizzer            | Team                                                       | Total |   Avg |   QO |   Q% |
+| -------: | ------------------ | ---------------------------------------------------------- | ----: | ----: | ---: | ---: |
+|        1 | Zach Ponraj        | Deeper Church (Burien) #1 (Deeper Church)                  |   755 | 107.9 |    5 |  80% |
+|        2 | Joanne Ramesh      | Human Rejects (First at Firewheel)                         |   690 |  98.6 |    4 |  89% |
+|        3 | Cameron Ramsey     | Ramsey Family (Life360 Church)                             |   635 |  90.7 |    4 |  76% |
+|        4 | Rachel Brookbank   | Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church) |   620 |  88.6 |    4 |  75% |
+|        5 | Josh Barajas       | Trinity Juan (Cedar Hill) (Trinity Church)                 |   600 |  85.7 |    5 |  71% |
+|        6 | Hannah Alapati     | Flames of Fire (The Bridge Assembly of God)                |   580 |  82.9 |    4 |  74% |
+|        7 | Zane Brown         | Human Rejects (First at Firewheel)                         |   540 |  77.1 |    4 |  85% |
+|        8 | Josiah Brookbank   | Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church) |   485 |  69.3 |    4 |  70% |
+|        9 | Kaitlyn Ramsey     | Ramsey Family (Life360 Church)                             |   475 |  67.9 |    5 |  77% |
+|       10 | Joy Escobar        | Trinity Danny (Cedar Hill) (Trinity Church)                |   465 |  66.4 |    4 |  77% |
+| **\*10** | Noah Claunch       | Trinity Juan (Cedar Hill) (Trinity Church)                 |   465 |  66.4 |    4 |  76% |
+|       11 | Camden Haney       | Trinity Danny (Cedar Hill) (Trinity Church)                |   440 |  62.9 |    4 |  70% |
+|       12 | Joseph Barajas     | Trinity Tami (Cedar Hill) (Trinity Church)                 |   330 |  47.1 |    4 |  61% |
+|       13 | Haddie Brookbank   | Crown Pointe Church (Lees Summit) #1 (Crown Pointe Church) |   300 |  42.9 |    2 |  74% |
+|       14 | Elaina Ponraj      | Deeper Church (Burien) #1 (Deeper Church)                  |   290 |  41.4 |    2 |  87% |
+|       15 | Christian Alapati  | Flames of Fire (The Bridge Assembly of God)                |   250 |  35.7 |    1 | 100% |
+|       16 | Simeon Ponraj      | Deeper Church (Burien) #1 (Deeper Church)                  |   190 |  27.1 |    2 |  61% |
+|       17 | Aulora Sullivan    | Trinity Tami (Cedar Hill) (Trinity Church)                 |   150 |  21.4 |    1 |  55% |
+|       18 | Julia Sullivan     | Trinity Juan (Cedar Hill) (Trinity Church)                 |   120 |  17.1 |    1 |  75% |
+|       19 | Elijah Lee         | Trinity Tami (Cedar Hill) (Trinity Church)                 |   115 |  16.4 |      |  82% |
+|       20 | Alyssa Ramsey      | Ramsey Family (Life360 Church)                             |    90 |  12.9 |    1 |  58% |
+|       21 | Daniyy'El Gonzalez | Human Rejects (First at Firewheel)                         |    45 |   6.4 |      |  44% |
+|       22 | Madison Claunch    | Trinity Juan (Cedar Hill) (Trinity Church)                 |    40 |   5.7 |      | 100% |
+|       23 | Noah Lee           | Trinity Danny (Cedar Hill) (Trinity Church)                |    20 |   2.9 |      |  50% |
+|       24 | Ndubueze Echefu    | Human Rejects (First at Firewheel)                         |    -5 |   -.7 |      |      |
 
 
 ## Silver Division

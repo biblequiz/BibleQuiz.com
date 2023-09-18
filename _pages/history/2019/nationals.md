@@ -190,7 +190,7 @@ menubar_toc_static:
 | 40  | Seth Christopher    | Scum &amp; Garbage (1 on 1 Team)                              | 145   | 7.6   |     | 63%  |     | 7   | 10  |
 | 41  | Billy Howard        | Dancing River Goats (Legacy Church - Princeton-TX)            | 110   | 5.8   | 2   | 42%  |     | 7   | 18  |
 | 42  | Kyla Schrock        | Lakeview Church (Lakeview Church - Indianapolis-IN)           | 75    | 3.9   | 1   | 41%  |     | 4   | 22  |
-| 43  | Danny'El Gonzalez   | Eyes on the Unseen (First at Firewheel - Garland-TX)          | 70    | 3.7   |     | 100% |     |     | 7   |
+| 43  | Daniyy'El Gonzalez  | Eyes on the Unseen (First at Firewheel - Garland-TX)          | 70    | 3.7   |     | 100% |     |     | 7   |
 | 44  | Reagan Stevens      | Calvary Church(S) (Calvary Church - Naperville-IL)            | 60    | 3.2   |     | 75%  |     | 2   | 4   |
 | 45  | Romario Rodriguez   | The Crafty Fellows (First Assembly - Sioux Falls-SD)          | 20    | 1.1   |     | 100% |     |     | 2   |
 | *45 | Alex Hernandez      | Dancing River Goats (Legacy Church - Princeton-TX)            | 20    | 1.1   |     | 99%  |     | 1   |     |
@@ -291,7 +291,7 @@ menubar_toc_static:
 | 18  | Benjamin Sokalski     | Church on the Rise (Church on the Rise - Rocky Mount-NC)  | 25    | 4.2  |     | 66% |     | 1   | 1   |
 | 19  | Josiah Brown          | Shipwrecked In Paradise (Cedar Park - Bothell-WA)         | 15    | 2.5  |     | 66% |     |     | 2   |
 | 20  | Hope King             | Memorial Assembly of God (Memorial Assembly - Purcell-OK) | 10    | 1.7  |     | 99% |     |     | 1   |
-| 21  | Danny'El Gonzalez     | Eyes on the Unseen (First at Firewheel - Garland-TX)      | 0     |      |     | %   |     |     |     |
+| 21  | Daniyy'El Gonzalez    | Eyes on the Unseen (First at Firewheel - Garland-TX)      | 0     |      |     | %   |     |     |     |
 | *21 | Aaron Lane            | Life Church (Life Church - Germantown-WI)                 | 0     |      |     | %   |     |     |     |
 | 22  | Ndubueze Echefu       | Eyes on the Unseen (First at Firewheel - Garland-TX)      | -5    | -.8  |     | %   |     |     |     |
 

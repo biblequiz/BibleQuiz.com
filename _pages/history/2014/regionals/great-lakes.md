@@ -46,7 +46,7 @@ menubar_toc_static:
 |    4 | Seth Smith         | "Five Guys", Lexington-KY                  |  76.2 |   990 |      9 |     1 |
 |    5 | Faith Pryer        | "Without Paying For it", Grant-MI          |  74.6 |   970 |      7 |     4 |
 |    6 | Christopher Turner | Trinity Assembly, Georgetown-KY            |    70 |   910 |      7 |     1 |
-|    7 | Joey Huntley Jr    | "Chosen", Columbiaville-MI                 |  58.8 |   765 |      6 |     3 |
+|    7 | Joey Huntley       | "Chosen", Columbiaville-MI                 |  58.8 |   765 |      6 |     3 |
 |    8 | Claire Convis      | First A/G Greater Lansing, East Lansing-MI |  57.3 |   745 |      6 |     1 |
 |    9 | Sheila Peters      | "Chosen", Columbiaville-MI                 |  55.8 |   725 |      5 |     3 |
 |   10 | David Kim          | First Assembly, Lafayette-IN               |  53.1 |   690 |      6 |     4 |

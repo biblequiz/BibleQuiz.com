@@ -106,7 +106,7 @@ menubar_toc_static:
 |   10 | Peter Bailey      | Snellville Middle    | Evangel Community Church, Snellville, GA       |    30 |  3.75 |      |
 |   11 | Jamesl Igali      | Snellville Middle    | Evangel Community Church, Snellville, GA       |       |   .00 |      |
 |   11 | Haley Nutt        | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |       |   .00 |      |
-|   11 | Daniel Duve' Yohn | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |       |   .00 |      |
+|   11 | Daniel Duve       | ET, Jacksonville, FL | Evangel Temple, Jacksonville, FL               |       |   .00 |      |
 |   11 | Jake Arnett       | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |       |   .00 |      |
 |   11 | Sarah DosSantos   | White Washed Walls   | Freedom Christian Fellowship, Jacksonville, FL |       |   .00 |      |
 |   11 | Abigail Bailey    | Snellville Middle    | Evangel Community Church, Snellville, GA       |       |   .00 |      |

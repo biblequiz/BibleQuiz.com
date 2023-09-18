@@ -54,7 +54,7 @@ Individual results were from the entire day.
 |    # | Quizzer          | Team            | Total |
 | ---: | ---------------- | --------------- | ----: |
 |    1 | Melissa Valentin | Algood #1       |   375 |
-|    2 | LeAnner Valentin | Algood #1       |   370 |
+|    2 | LiAnne Valentin  | Algood #1       |   370 |
 |    3 | Kevin Forst      | Fayetteville #2 |   170 |
 |    4 | Rodney Brown     | Snellville #2   |    60 |
 

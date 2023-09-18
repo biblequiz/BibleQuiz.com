@@ -39,7 +39,7 @@ menubar_toc_static:
 |    # | Quizzer             | Team              | Total |   QO |
 | ---: | ------------------- | ----------------- | ----: | ---: |
 |    1 | Patti Sunseri       | Spring City, PA   |  1330 |    8 |
-|    2 | C.J.Barna           | Valencia, PA      |  1310 |    7 |
+|    2 | C.J. Barna          | Valencia, PA      |  1310 |    7 |
 |    3 | Amy Semple          | Syracuse, NY      |   980 |    4 |
 |    4 | Kourtni Wyatt       | Williamsville, NY |   890 |    4 |
 |    5 | Clayton DeFazio     | Valencia, PA      |   835 |    6 |

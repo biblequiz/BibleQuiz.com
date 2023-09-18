@@ -40,7 +40,7 @@ menubar_toc_static:
 |    # | Quizzer            | City              | Total |   QO |
 | ---: | ------------------ | ----------------- | ----: | ---: |
 |    1 | Lori Rozgonyi      | Monroeville, PA   |  2010 |   13 |
-|    2 | Chris (C.J.) Barna | South Hills, PA   |  1785 |   10 |
+|    2 | C.J. Barna         | South Hills, PA   |  1785 |   10 |
 |    3 | Brian Lewis        | Indianapolis,IN   |  1650 |    7 |
 |    4 | Sara Sobkowiak     | Ft. Myers, FL     |  1585 |   10 |
 |    5 | Becky York         | Bowie, MD         |  1540 |   10 |

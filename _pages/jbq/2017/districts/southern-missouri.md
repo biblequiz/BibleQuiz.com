@@ -208,13 +208,13 @@ menubar_toc_static:
 |       14 | Aidyn Mitchell    | Racing for Jesus (New Hope Fellowship)                     |   550 |    50 |    3 |  95% |
 |       15 | Jonathan Benedict | Followers of Jesus Christ (West County AG)                 |   535 |  48.6 |    4 |  76% |
 |       16 | George Hoelzel    | Royal Quizzers (Crown Pointe Church)                       |   455 |  41.4 |    1 |  84% |
-|       17 | C.C.Myers         | Team-Central (Central)                                     |   450 |  40.9 |      |  94% |
+|       17 | C.C. Myers        | Team-Central (Central)                                     |   450 |  40.9 |      |  94% |
 |       18 | Bryce Wright      | Giant Slayers (De Soto 1st AG)                             |   435 |  39.5 |    3 |  91% |
 | **\*18** | Isaiah Johnson    | Pebble Creek (Pebble Creek AG)                             |   435 |  39.5 |    3 |  76% |
 |       19 | Jason Cerce       | Deep Fried Twinkies (Brighton AG)                          |   435 |  39.5 |    1 |  82% |
 |       20 | Aahana Shrestha   | The Lightning Ninja Quizzers (West County AG, Chesterfiel) |   310 |  28.2 |      |  94% |
 |       21 | Brian Honea       | Giant Slayers (De Soto 1st AG)                             |   195 |  17.7 |      |  81% |
-|       22 | J.J. myers        | Team-Central (Central)                                     |   150 |  13.6 |      |  75% |
+|       22 | J.J. Myers        | Team-Central (Central)                                     |   150 |  13.6 |      |  75% |
 |       23 | Andrew Green      | Followers of Jesus Christ (West County AG)                 |   110 |    10 |      |  92% |
 |       24 | Scarlette Hasty   | Racing for Jesus (New Hope Fellowship)                     |   105 |   9.5 |      |  89% |
 | **\*24** | Micah Allen       | Desperation Church (Desperation Church)                    |   105 |   9.5 |      |  76% |
@@ -264,14 +264,14 @@ menubar_toc_static:
 |        6 | Jason Cerce     | Deep Fried Twinkies (Brighton AG)                          |   150 |   50 |    1 |  86% |
 |        7 | Joshua Vennum   | Deep Fried Twinkies (Brighton AG)                          |   150 |   50 |      | 100% |
 |        8 | Bryce Wright    | Giant Slayers (De Soto 1st AG)                             |   115 | 38.3 |    1 |  92% |
-|        9 | C.C.Myers       | Team-Central (Central)                                     |    65 | 21.7 |      |  75% |
+|        9 | C.C. Myers      | Team-Central (Central)                                     |    65 | 21.7 |      |  75% |
 |       10 | Isaac Elliott   | The Lightning Ninja Quizzers (West County AG, Chesterfiel) |    40 | 13.3 |      |  67% |
 |       11 | Trevor Tucker   | Deep Fried Twinkies (Brighton AG)                          |    25 |  8.3 |      |  75% |
 |       12 | Brian Honea     | Giant Slayers (De Soto 1st AG)                             |    20 |  6.7 |      | 100% |
 |       13 | David Miller    | Deep Fried Twinkies (Brighton AG)                          |    10 |  3.3 |      |  99% |
 |       14 | Aahana Shrestha | The Lightning Ninja Quizzers (West County AG, Chesterfiel) |     0 |      |      |      |
 | **\*14** | Isabel Nichol   | Giant Slayers (De Soto 1st AG)                             |     0 |      |      |      |
-|       15 | J.J. myers      | Team-Central (Central)                                     |   -10 | -3.3 |      |      |
+|       15 | J.J. Myers      | Team-Central (Central)                                     |   -10 | -3.3 |      |      |
 
 ## B Achiever Playoffs
 

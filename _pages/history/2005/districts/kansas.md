@@ -34,7 +34,7 @@ menubar_toc_static:
 | ---: | ------------------ | ----------- | ----: | ---: |
 |    1 | Jason Gisi         | Galena      |  1000 |  100 |
 |    2 | Ariel Brookbank    | O.P. 1st    |   980 |   98 |
-|    3 | B. J. Thome        | Bethel Life |   925 | 92.5 |
+|    3 | B.J. Thome         | Bethel Life |   925 | 92.5 |
 |    4 | Christine McKibben | Galena      |   715 | 71.5 |
 |    5 | Matt Brookbank     | O.P. 1st    |   710 |   71 |
 |    6 | Chelsea Brookbank  | O.P. 1st    |   540 |   54 |

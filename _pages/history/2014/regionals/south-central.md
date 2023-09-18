@@ -40,7 +40,7 @@ menubar_toc_static:
 | Luke Wagner      | Muskogee First   |  1140 |  114 |    8 |
 | Andrew Roach     | CT Church        |   980 |   98 |    8 |
 | Jacob Wyatt      | Spring First     |   860 |   86 |    7 |
-| Andrew VanHorn   | Harvest AG       |   725 | 72.5 |    5 |
+| Andrew Van Horn  | Harvest AG       |   725 | 72.5 |    5 |
 | Cameron Berta    | The Oaks         |   700 |   70 |    5 |
 | David Meddaugh   | Muskogee First   |   685 | 68.5 |    3 |
 | Caleb Cain       | Noble AG         |   605 | 60.5 |    4 |
@@ -51,7 +51,7 @@ menubar_toc_static:
 | Faith King       | Memorial AG      |   360 |   36 |    3 |
 | Cherokee Hill    | Christian Chapel |   325 | 32.5 |    2 |
 | Taylor Ellis     | Braeswood #1     |   310 |   31 |    1 |
-| JB VanHorn       | Harvest AG       |   305 | 30.5 |    2 |
+| J.B. Van Horn    | Harvest AG       |   305 | 30.5 |    2 |
 | Jeremy Mgbeike   | Braeswood #2     |   290 |   29 |    1 |
 | Mitt Wyatt       | Spring First     |   265 | 26.5 |    1 |
 | Sydny Bettis     | CT Church        |   210 |   21 |    1 |

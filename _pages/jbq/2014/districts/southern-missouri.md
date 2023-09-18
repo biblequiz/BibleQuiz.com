@@ -209,7 +209,6 @@ menubar_toc_static:
 |   14 | Julia Garman     | Lightning Buzzers     | Evangel Assembly   |    20 |   3.33 |      |
 |   15 | Peyton Bough     | James River Church    | James River Church |    10 |   1.67 |      |
 |   15 | Eliot Wagner     | Lightning Buzzers     | Evangel Assembly   |    10 |   1.67 |      |
-|   16 | A Quizzer        | Lightning Buzzers     | Evangel Assembly   |       |    .00 |      |
 |   16 | Noelle Germany   | James River Church    | James River Church |       |    .00 |      |
 |   16 | Jack Wiebe       | Brighton Quiz Masters | Brighton Assembly  |       |    .00 |      |
 |   16 | Drew Cooper      | Brighton Quiz Masters | Brighton Assembly  |       |    .00 |      |

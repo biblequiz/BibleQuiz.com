@@ -41,79 +41,79 @@ menubar_toc_static:
 
 ### Individuals
 
-| #   | Quizzer            | Team                                        | Church             | Total | AVG   | QO  |
-| --- | ------------------ | ------------------------------------------- | ------------------ | ----- | ----- | --- |
-| 1   | Halle Reisinger    | Newport AG - Eunuch-Corns                   | Newport, PA        | 1900  | 100   | 16  |
-| 2   | Jonathan Brown     | New Day AG - Finish the Race                | Upper St Clair, PA | 1860  | 97.89 | 16  |
-| 3   | Julia Rodriguez    | Community Church (PA)                       | Mt Pocono, PA      | 1790  | 94.21 | 12  |
-| 4   | Spenser Wilhelm    | Bethel AG - The Rest of Mankind             | Rapid City, SD     | 1705  | 89.74 | 16  |
-| 5   | Abigail Peterson   | Tacoma Life - Without Hindrance             | Tacoma, WA         | 1665  | 87.63 | 14  |
-| 6   | Jacob Schumacher   | Cedar Park - Savage Northwest SIRS          | Bothell, WA        | 1615  | 85    | 12  |
-| 7   | Katrina Dowdy      | Living Hope - Acts 24/7                     | Swedesboro, NJ     | 1535  | 80.79 | 13  |
-| 8   | Solomon Stevens    | Maple Lane AG - The Northeaster             | Deposit, NY        | 1445  | 76.05 | 15  |
-| 9   | Joe Lemley         | New Day AG - Finish the Race                | Upper St Clair, PA | 1375  | 72.37 | 15  |
-| 10  | Shannon Wolf       | Victorious Life - We Are His Offspring      | Wesley Chapel, FL  | 1350  | 71.05 | 11  |
-| 11  | Hannah Quick       | JRC - Driving You Insane                    | Ozark, MO          | 1315  | 69.21 | 9   |
-| 12  | Josiah Schwarz     | First AG (OK)                               | Muskogee, OK       | 1295  | 68.16 | 9   |
-| 13  | Sheldon Powell     | Calvary Church (IL)                         | Naperville, IL     | 1280  | 67.37 | 14  |
-| 14  | Judah Stevens      | Maple Lane AG - The Northeaster             | Deposit, NY        | 1230  | 64.74 | 9   |
-| 15  | Shreanna Powell    | Calvary Church (IL)                         | Naperville, IL     | 1195  | 62.89 | 11  |
-| 16  | Zak Kellock        | North Valley AG - Syracuse to Phoenix       | Phoenix, AZ        | 1160  | 61.05 | 7   |
-| 17  | Travis Griessel    | JRC - Driving You Insane                    | Ozark, MO          | 1155  | 60.79 | 12  |
-| 18  | Aaron Pryer        | Grant AG - Too Much Whine                   | Grant, MI          | 1025  | 53.95 | 12  |
-| 19  | Josiah Smith       | First AG - God-Fearing Geeks                | Lexington, KY      | 1015  | 53.42 | 6   |
-| 20  | Jackson Houser     | Cedar Park - Savage Northwest SIRS          | Bothell, WA        | 850   | 44.74 | 9   |
-| 21  | Madison Holcomb    | Evangel Heights AG - You Be The Judges      | Sarver, PA         | 795   | 41.84 | 5   |
-| 22  | Paul Meddaugh      | First AG (OK)                               | Muskogee, OK       | 765   | 40.26 | 7   |
-| 23  | Faith Pryer        | Grant AG - Too Much Whine                   | Grant, MI          | 760   | 40    | 5   |
-| 24  | Kelise Braithwaite | Evangel Temple - May Another Take His Place | Springfield, MO    | 745   | 39.21 | 7   |
-| 25  | Linsey Garrison    | JRC - One in Heart and Mind                 | Ozark, MO          | 720   | 37.89 | 3   |
-| 26  | Caleb Hoffmann     | Maple Lane AG - The Northeaster             | Deposit, NY        | 700   | 36.84 | 5   |
-| 27  | Reagan Griessel    | JRC - One in Heart and Mind                 | Ozark, MO          | 695   | 36.58 | 5   |
-| 28  | Leisl Jansen       | JRC - Driving You Insane                    | Ozark, MO          | 625   | 32.89 | 5   |
-| 29  | Seth Smith         | First AG - God-Fearing Geeks                | Lexington, KY      | 585   | 30.79 | 5   |
-| 30  | Hava Parker        | Community Church (PA)                       | Mt Pocono, PA      | 560   | 29.47 | 4   |
-| 30  | Triston Rosario    | Trinity Church (TX)                         | Cedar Hill, TX     | 560   | 29.47 | 4   |
-| 31  | Ashley Kellock     | North Valley AG - Syracuse to Phoenix       | Phoenix, AZ        | 530   | 27.89 | 4   |
-| 32  | Madison Steele     | MCC - The Overlooked                        | Mechanicsville, VA | 470   | 24.74 | 1   |
-| 33  | Hannah Hill        | Living Hope - Acts 24/7                     | Swedesboro, NJ     | 415   | 21.84 | 1   |
-| 34  | Megumi Sinniah     | JRC - One in Heart and Mind                 | Ozark, MO          | 410   | 21.58 | 3   |
-| 35  | JohnDavid Sullivan | Trinity Church (TX)                         | Cedar Hill, TX     | 400   | 21.05 | 2   |
-| 36  | Nathaniel Stuart   | Community Church (PA)                       | Mt Pocono, PA      | 380   | 20    | 1   |
-| 37  | Alyssa Walker      | MCC - The Overlooked                        | Mechanicsville, VA | 375   | 19.74 | 1   |
-| 38  | Amelia Gephart     | North Valley AG - Syracuse to Phoenix       | Phoenix, AZ        | 335   | 17.63 | 1   |
-| 39  | Helyn Dunn         | Victorious Life - We Are His Offspring      | Wesley Chapel, FL  | 295   | 15.53 | 1   |
-| 40  | Sydney Bollinger   | Evangel Heights AG - You Be The Judges      | Sarver, PA         | 240   | 12.63 |     |
-| 41  | Josh Barajas       | Trinity Church (TX)                         | Cedar Hill, TX     | 215   | 11.32 | 1   |
-| 42  | Ethan Hoffmann     | Maple Lane AG - The Northeaster             | Deposit, NY        | 200   | 10.53 | 2   |
-| 43  | Trace Reisinger    | Newport AG - Eunuch-Corns                   | Newport, PA        | 190   | 10    | 1   |
-| 44  | Danelle Ragains    | Bethel AG - The Rest of Mankind             | Rapid City, SD     | 165   | 8.68  |     |
-| 45  | Reid Jarrell       | Cedar Park - Savage Northwest SIRS          | Bothell, WA        | 140   | 7.37  |     |
-| 46  | Kara Peters        | Evangel Temple - May Another Take His Place | Springfield, MO    | 130   | 6.84  |     |
-| 47  | Nathaniel Walker   | MCC - The Overlooked                        | Mechanicsville, VA | 105   | 5.53  |     |
-| 48  | Wyatt Peterson     | Tacoma Life - Without Hindrance             | Tacoma, WA         | 100   | 5.26  |     |
-| 49  | Harrison Stevens   | Calvary Church (IL)                         | Naperville, IL     | 95    | 5     |     |
-| 50  | Zach Schwarz       | First AG (OK)                               | Muskogee, OK       | 90    | 4.74  |     |
-| 51  | Brock Peters       | Evangel Temple - May Another Take His Place | Springfield, MO    | 85    | 4.47  |     |
-| 52  | Isabel Wilhelm     | Bethel AG - The Rest of Mankind             | Rapid City, SD     | 80    | 4.21  |     |
-| 53  | Noble Spire        | Bethel AG - The Rest of Mankind             | Rapid City, SD     | 75    | 3.95  |     |
-| 54  | Zach Ponraj        | Tacoma Life - Without Hindrance             | Tacoma, WA         | 65    | 3.42  |     |
-| 54  | Josh Fuller        | New Day AG - Finish the Race                | Upper St Clair, PA | 65    | 3.42  |     |
-| 55  | Kristianna Nye     | Newport AG - Eunuch-Corns                   | Newport, PA        | 60    | 3.16  |     |
-| 56  | Cade Chrastina     | JRC - Driving You Insane                    | Ozark, MO          | 55    | 2.89  |     |
-| 56  | Phoebe Hoffman     | MCC - The Overlooked                        | Mechanicsville, VA | 55    | 2.89  |     |
-| 57  | Anna Kelly         | First AG - God-Fearing Geeks                | Lexington, KY      | 30    | 1.58  |     |
-| 58  | Elizabeth Hames    | Trinity Church (TX)                         | Cedar Hill, TX     | 20    | 1.05  |     |
-| 59  | Luna Cooper        | Evangel Temple - May Another Take His Place | Springfield, MO    | 10    | 0.53  |     |
-| 59  | Izzy Lashley-Bobb  | First AG (OK)                               | Muskogee, OK       | 10    | 0.53  |     |
-| 60  | Jake Carty         | Living Hope - Acts 24/7                     | Swedesboro, NJ     |       | 0     |     |
-| 60  | Seth Donaldson     | Tacoma Life - Without Hindrance             | Tacoma, WA         |       | 0     |     |
-| 60  | Samuel Dawson      | Tacoma Life - Without Hindrance             | Tacoma, WA         |       | 0     |     |
-| 60  | Joshua Roberts     | Cedar Park - Savage Northwest SIRS          | Bothell, WA        |       | 0     |     |
-| 60  | Mike Galliers      | First AG - God-Fearing Geeks                | Lexington, KY      |       | 0     |     |
-| 61  | Lydia Hill         | Living Hope - Acts 24/7                     | Swedesboro, NJ     | -40   | -2.11 |     |
-| 62  | Colby Heller       | Newport AG - Eunuch-Corns                   | Newport, PA        | -20   | -1.05 |     |
-| 63  | Jonathan Roberts   | Cedar Park - Savage Northwest SIRS          | Bothell, WA        | -5    | -0.26 |     |
+| #   | Quizzer             | Team                                        | Church             | Total | AVG   | QO  |
+| --- | ------------------- | ------------------------------------------- | ------------------ | ----- | ----- | --- |
+| 1   | Halle Reisinger     | Newport AG - Eunuch-Corns                   | Newport, PA        | 1900  | 100   | 16  |
+| 2   | Jonathan Brown      | New Day AG - Finish the Race                | Upper St Clair, PA | 1860  | 97.89 | 16  |
+| 3   | Julia Rodriguez     | Community Church (PA)                       | Mt Pocono, PA      | 1790  | 94.21 | 12  |
+| 4   | Spenser Wilhelm     | Bethel AG - The Rest of Mankind             | Rapid City, SD     | 1705  | 89.74 | 16  |
+| 5   | Abigail Peterson    | Tacoma Life - Without Hindrance             | Tacoma, WA         | 1665  | 87.63 | 14  |
+| 6   | Jacob Schumacher    | Cedar Park - Savage Northwest SIRS          | Bothell, WA        | 1615  | 85    | 12  |
+| 7   | Katrina Dowdy       | Living Hope - Acts 24/7                     | Swedesboro, NJ     | 1535  | 80.79 | 13  |
+| 8   | Solomon Stevens     | Maple Lane AG - The Northeaster             | Deposit, NY        | 1445  | 76.05 | 15  |
+| 9   | Joe Lemley          | New Day AG - Finish the Race                | Upper St Clair, PA | 1375  | 72.37 | 15  |
+| 10  | Shannon Wolf        | Victorious Life - We Are His Offspring      | Wesley Chapel, FL  | 1350  | 71.05 | 11  |
+| 11  | Hannah Quick        | JRC - Driving You Insane                    | Ozark, MO          | 1315  | 69.21 | 9   |
+| 12  | Josiah Schwarz      | First AG (OK)                               | Muskogee, OK       | 1295  | 68.16 | 9   |
+| 13  | Sheldon Powell      | Calvary Church (IL)                         | Naperville, IL     | 1280  | 67.37 | 14  |
+| 14  | Judah Stevens       | Maple Lane AG - The Northeaster             | Deposit, NY        | 1230  | 64.74 | 9   |
+| 15  | Shreanna Powell     | Calvary Church (IL)                         | Naperville, IL     | 1195  | 62.89 | 11  |
+| 16  | Zak Kellock         | North Valley AG - Syracuse to Phoenix       | Phoenix, AZ        | 1160  | 61.05 | 7   |
+| 17  | Travis Griessel     | JRC - Driving You Insane                    | Ozark, MO          | 1155  | 60.79 | 12  |
+| 18  | Aaron Pryer         | Grant AG - Too Much Whine                   | Grant, MI          | 1025  | 53.95 | 12  |
+| 19  | Josiah Smith        | First AG - God-Fearing Geeks                | Lexington, KY      | 1015  | 53.42 | 6   |
+| 20  | Jackson Houser      | Cedar Park - Savage Northwest SIRS          | Bothell, WA        | 850   | 44.74 | 9   |
+| 21  | Madison Holcomb     | Evangel Heights AG - You Be The Judges      | Sarver, PA         | 795   | 41.84 | 5   |
+| 22  | Paul Meddaugh       | First AG (OK)                               | Muskogee, OK       | 765   | 40.26 | 7   |
+| 23  | Faith Pryer         | Grant AG - Too Much Whine                   | Grant, MI          | 760   | 40    | 5   |
+| 24  | Kelise Braithwaite  | Evangel Temple - May Another Take His Place | Springfield, MO    | 745   | 39.21 | 7   |
+| 25  | Linsey Garrison     | JRC - One in Heart and Mind                 | Ozark, MO          | 720   | 37.89 | 3   |
+| 26  | Caleb Hoffmann      | Maple Lane AG - The Northeaster             | Deposit, NY        | 700   | 36.84 | 5   |
+| 27  | Reagan Griessel     | JRC - One in Heart and Mind                 | Ozark, MO          | 695   | 36.58 | 5   |
+| 28  | Leisl Jansen        | JRC - Driving You Insane                    | Ozark, MO          | 625   | 32.89 | 5   |
+| 29  | Seth Smith          | First AG - God-Fearing Geeks                | Lexington, KY      | 585   | 30.79 | 5   |
+| 30  | Hava Parker         | Community Church (PA)                       | Mt Pocono, PA      | 560   | 29.47 | 4   |
+| 30  | Triston Rosario     | Trinity Church (TX)                         | Cedar Hill, TX     | 560   | 29.47 | 4   |
+| 31  | Ashley Kellock      | North Valley AG - Syracuse to Phoenix       | Phoenix, AZ        | 530   | 27.89 | 4   |
+| 32  | Madison Steele      | MCC - The Overlooked                        | Mechanicsville, VA | 470   | 24.74 | 1   |
+| 33  | Hannah Hill         | Living Hope - Acts 24/7                     | Swedesboro, NJ     | 415   | 21.84 | 1   |
+| 34  | Megumi Sinniah      | JRC - One in Heart and Mind                 | Ozark, MO          | 410   | 21.58 | 3   |
+| 35  | John-David Sullivan | Trinity Church (TX)                         | Cedar Hill, TX     | 400   | 21.05 | 2   |
+| 36  | Nathaniel Stuart    | Community Church (PA)                       | Mt Pocono, PA      | 380   | 20    | 1   |
+| 37  | Alyssa Walker       | MCC - The Overlooked                        | Mechanicsville, VA | 375   | 19.74 | 1   |
+| 38  | Amelia Gephart      | North Valley AG - Syracuse to Phoenix       | Phoenix, AZ        | 335   | 17.63 | 1   |
+| 39  | Helyn Dunn          | Victorious Life - We Are His Offspring      | Wesley Chapel, FL  | 295   | 15.53 | 1   |
+| 40  | Sydney Bollinger    | Evangel Heights AG - You Be The Judges      | Sarver, PA         | 240   | 12.63 |     |
+| 41  | Josh Barajas        | Trinity Church (TX)                         | Cedar Hill, TX     | 215   | 11.32 | 1   |
+| 42  | Ethan Hoffmann      | Maple Lane AG - The Northeaster             | Deposit, NY        | 200   | 10.53 | 2   |
+| 43  | Trace Reisinger     | Newport AG - Eunuch-Corns                   | Newport, PA        | 190   | 10    | 1   |
+| 44  | Danelle Ragains     | Bethel AG - The Rest of Mankind             | Rapid City, SD     | 165   | 8.68  |     |
+| 45  | Reid Jarrell        | Cedar Park - Savage Northwest SIRS          | Bothell, WA        | 140   | 7.37  |     |
+| 46  | Kara Peters         | Evangel Temple - May Another Take His Place | Springfield, MO    | 130   | 6.84  |     |
+| 47  | Nathaniel Walker    | MCC - The Overlooked                        | Mechanicsville, VA | 105   | 5.53  |     |
+| 48  | Wyatt Peterson      | Tacoma Life - Without Hindrance             | Tacoma, WA         | 100   | 5.26  |     |
+| 49  | Harrison Stevens    | Calvary Church (IL)                         | Naperville, IL     | 95    | 5     |     |
+| 50  | Zach Schwarz        | First AG (OK)                               | Muskogee, OK       | 90    | 4.74  |     |
+| 51  | Brock Peters        | Evangel Temple - May Another Take His Place | Springfield, MO    | 85    | 4.47  |     |
+| 52  | Isabel Wilhelm      | Bethel AG - The Rest of Mankind             | Rapid City, SD     | 80    | 4.21  |     |
+| 53  | Noble Spire         | Bethel AG - The Rest of Mankind             | Rapid City, SD     | 75    | 3.95  |     |
+| 54  | Zach Ponraj         | Tacoma Life - Without Hindrance             | Tacoma, WA         | 65    | 3.42  |     |
+| 54  | Josh Fuller         | New Day AG - Finish the Race                | Upper St Clair, PA | 65    | 3.42  |     |
+| 55  | Kristianna Nye      | Newport AG - Eunuch-Corns                   | Newport, PA        | 60    | 3.16  |     |
+| 56  | Cade Chrastina      | JRC - Driving You Insane                    | Ozark, MO          | 55    | 2.89  |     |
+| 56  | Phoebe Hoffman      | MCC - The Overlooked                        | Mechanicsville, VA | 55    | 2.89  |     |
+| 57  | Anna Kelly          | First AG - God-Fearing Geeks                | Lexington, KY      | 30    | 1.58  |     |
+| 58  | Elizabeth Hames     | Trinity Church (TX)                         | Cedar Hill, TX     | 20    | 1.05  |     |
+| 59  | Luna Cooper         | Evangel Temple - May Another Take His Place | Springfield, MO    | 10    | 0.53  |     |
+| 59  | Izzy Lashley-Bobb   | First AG (OK)                               | Muskogee, OK       | 10    | 0.53  |     |
+| 60  | Jake Carty          | Living Hope - Acts 24/7                     | Swedesboro, NJ     |       | 0     |     |
+| 60  | Seth Donaldson      | Tacoma Life - Without Hindrance             | Tacoma, WA         |       | 0     |     |
+| 60  | Samuel Dawson       | Tacoma Life - Without Hindrance             | Tacoma, WA         |       | 0     |     |
+| 60  | Joshua Roberts      | Cedar Park - Savage Northwest SIRS          | Bothell, WA        |       | 0     |     |
+| 60  | Mike Galliers       | First AG - God-Fearing Geeks                | Lexington, KY      |       | 0     |     |
+| 61  | Lydia Hill          | Living Hope - Acts 24/7                     | Swedesboro, NJ     | -40   | -2.11 |     |
+| 62  | Colby Heller        | Newport AG - Eunuch-Corns                   | Newport, PA        | -20   | -1.05 |     |
+| 63  | Jonathan Roberts    | Cedar Park - Savage Northwest SIRS          | Bothell, WA        | -5    | -0.26 |     |
 
 ## Challenger
 
@@ -196,7 +196,7 @@ menubar_toc_static:
 | 46  | Sharon Godavarthi     | Neighborhood Church - Grief to Joy      | Bellevue, WA     | 75    | 3.95  |     |
 | 47  | Matthew McKinley      | First AG - Rhoda's Joy                  | Sioux Falls, SD  | 50    | 2.63  |     |
 | 48  | Merisa Rodriguez      | First AG - Rhoda's Joy                  | Sioux Falls, SD  | 30    | 1.58  |     |
-| 49  | Mik?kalah Patterson   | Fountain of Life - Shipwreck Survivors  | Burlington, NJ   | 20    | 1.05  |     |
+| 49  | Mik'kalah Patterson   | Fountain of Life - Shipwreck Survivors  | Burlington, NJ   | 20    | 1.05  |     |
 | 50  | Zoie Mafe             | First AG - It's Whom!                   | East Lansing, MI |       | 0     |     |
 | 50  | Chris Adams           | Memorial AG (OK)                        | Purcell, OK      |       | 0     |     |
 | 50  | Austin Harr           | First AG - It's Whom!                   | East Lansing, MI |       | 0     |     |
@@ -243,7 +243,7 @@ menubar_toc_static:
 | 10  | Ezequiel Navarro      | Calvary Church - Ninjas of The Word | Sugar Grove, IL | 240   | 34.29 | 1   |
 | 11  | Hava Parker           | Community Church (PA)               | Mt Pocono, PA   | 215   | 30.71 | 1   |
 | 12  | Anastasia Yevtushenko | Cedar Park - That's Debatable       | Bothell, WA     | 165   | 23.57 | 2   |
-| 13  | JohnDavid Sullivan    | Trinity Church (TX)                 | Cedar Hill, TX  | 120   | 17.14 |     |
+| 13  | John-David Sullivan   | Trinity Church (TX)                 | Cedar Hill, TX  | 120   | 17.14 |     |
 | 14  | Josh Barajas          | Trinity Church (TX)                 | Cedar Hill, TX  | 105   | 15    | 1   |
 | 15  | Nathaniel Stuart      | Community Church (PA)               | Mt Pocono, PA   | 105   | 15    |     |
 | 16  | Megumi Sinniah        | JRC - One in Heart and Mind         | Ozark, MO       | 85    | 12.14 |     |
@@ -397,7 +397,7 @@ menubar_toc_static:
 | 18  | Padmini Abothu      | Neighborhood Church - Grief to Joy     | Bellevue, WA   | 10    | 1.43  |     |
 | 19  | Jake Carty          | Living Hope - Acts 24/7                | Swedesboro, NJ |       | 0     |     |
 | 19  | Annabelle Gabsi     | Fountain of Life - Shipwreck Survivors | Burlington, NJ |       | 0     |     |
-| 19  | Mik?kalah Patterson | Fountain of Life - Shipwreck Survivors | Burlington, NJ |       | 0     |     |
+| 19  | Mik'kalah Patterson | Fountain of Life - Shipwreck Survivors | Burlington, NJ |       | 0     |     |
 | 19  | Mike Galliers       | First AG - God-Fearing Geeks           | Lexington, KY  |       | 0     |     |
 | 19  | Sharon Godavarthi   | Neighborhood Church - Grief to Joy     | Bellevue, WA   |       | 0     |     |
 

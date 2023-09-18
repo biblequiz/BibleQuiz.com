@@ -72,7 +72,7 @@ menubar_toc_static:
 |    7 | Rosina Albanese    | Evangel Heights A/G, Sarver      |   570 |    4 |
 |    8 | Tyler Frey         | Praise A/G, Newark, DE           |   485 |    4 |
 |    9 | Ryan Dunelberger   | Christian Life A/G, Chambersburg |   485 |    3 |
-|   10 | Johnny Langel      | Newport A/G, Newport             |   480 |    3 |
+|   10 | John Langel        | Newport A/G, Newport             |   480 |    3 |
 
 ## B Division
 

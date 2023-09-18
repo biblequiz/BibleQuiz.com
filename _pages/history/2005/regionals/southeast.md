@@ -70,7 +70,7 @@ menubar_toc_static:
 |    4 | Shannon Smith     | Greensboro |   495 |
 |    5 | Yoki Belay        | Dunwoody   |   490 |
 |    6 | Tiffany Turner    | Orlando    |   375 |
-|    7 | K. D. Couch       | Ft. Myers  |   325 |
+|    7 | K.D. Couch        | Ft. Myers  |   325 |
 |    8 | Bekah Bentley     | Ocoee      |   320 |
 |    9 | Bradley Chapman   | Dahlonega  |   315 |
 |   10 | Gabriel Kennedy   | Goldsboro  |   290 |

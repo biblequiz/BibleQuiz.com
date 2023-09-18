@@ -56,7 +56,7 @@ menubar_toc_static:
 |   19 | David Buffham      | Greater Lansing, Mi #2 |   420 |  38.18 |      3 |     4 |
 |   20 | Autumn Rogers      | Ozark, Mo #2           |   420 |  38.18 |      2 |     2 |
 |   21 | Natalie Garrison   | Ozark, Mo #1           |   395 |  35.91 |      3 |     1 |
-|   22 | Billy Lakkonen     | Lexington, Ky #1       |   360 |  32.73 |      4 |     5 |
+|   22 | Billy Laakkonen    | Lexington, Ky #1       |   360 |  32.73 |      4 |     5 |
 |   23 | Steffi Wesoloski   | Sarver, Pa #1          |   355 |  32.27 |      3 |     0 |
 |   24 | Drew Harr          | Greater Lansing, Mi #2 |   345 |  31.36 |      1 |     2 |
 |   25 | Jessie Kue         | Greater Lansing, Mi #2 |   310 |  28.18 |      0 |     2 |
@@ -282,7 +282,7 @@ menubar_toc_static:
 |    1 | Victoria Kelly      | Lexington, Ky #3      |  1405 | 127.73 |     11 |     0 |
 |    2 | Bethany Erhlich     | Lexington, Ky #3      |   820 |  74.55 |      8 |     0 |
 |    3 | Katrina Bopp        | Des Moines, Ia #2     |   765 |  69.55 |      6 |     0 |
-|    4 | Brayden Lakkonen    | Lexington, Ky #3      |   765 |  69.55 |      6 |     2 |
+|    4 | Brayden Laakkonen   | Lexington, Ky #3      |   765 |  69.55 |      6 |     2 |
 |    5 | Angela Magditch     | Warner Robbins, Ga #2 |   615 |  55.91 |      4 |     0 |
 |    6 | Katy Kennedy        | Des Moines, Ia #2     |   600 |  54.55 |      4 |     1 |
 |    7 | Grace Ishikawa      | Indianapolis, In #2   |   480 |  43.64 |      1 |     0 |

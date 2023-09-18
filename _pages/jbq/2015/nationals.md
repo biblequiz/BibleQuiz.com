@@ -118,7 +118,7 @@ menubar_toc_static:
 |   64 | Aidan Fulfer      | Red Oak-TX                    | Tribulation Force     |       |    .00 |      |
 |   64 | Tyler Kelly       | Benton-AR                     | Kung Fu Quizzers      |       |    .00 |      |
 |   64 | Alyssa Jenks      | Sanford-FL                    | God's Incredibles     |       |    .00 |      |
-|   64 | Chalice sanders   | Benton-AR                     | Kung Fu Quizzers      |       |    .00 |      |
+|   64 | Chalice Sanders   | Benton-AR                     | Kung Fu Quizzers      |       |    .00 |      |
 |   64 | Lauren Green      | Benton-AR                     | Kung Fu Quizzers      |       |    .00 |      |
 
 
@@ -204,13 +204,13 @@ menubar_toc_static:
 |   48 | Chi Chi Otah         | Garland-TX               | Transformed                    |   170 |  11.33 |      |
 |   49 | Samuel March         | St. Cloud-MN             | Gods Lighthouse                |   160 |  10.67 |      |
 |   50 | Catie Wolfe          | Springfield-MO           | QuizMasters                    |   150 |  10.00 |      |
-|   51 | Anna scott witzenman | Wilmington-NC - Red      | Wilmington Warriors Red Swords |   145 |   9.67 |      |
+|   51 | Anna Scott Witzenman | Wilmington-NC - Red      | Wilmington Warriors Red Swords |   145 |   9.67 |      |
 |   52 | Angel Walker         | Mechanicsville-VA - Hope | Contagious Hope                |   140 |   9.33 |      |
 |   53 | David Biruduganti    | Naperville-IL - S        | Naperville S                   |   130 |   8.67 |      |
 |   53 | Amarachi Ayozie      | Garland-TX               | Transformed                    |   130 |   8.67 |      |
 |   54 | Onome Oghor          | East Lansing-MI          | Greater Lansing                |   115 |   7.67 |      |
 |   55 | McKinley Stevens     | Naperville-IL - S        | Naperville S                   |   110 |   7.33 |      |
-|   56 | Kora Beth witzenman  | Wilmington-NC - Red      | Wilmington Warriors Red Swords |   105 |   7.00 |      |
+|   56 | Kora Beth Witzenman  | Wilmington-NC - Red      | Wilmington Warriors Red Swords |   105 |   7.00 |      |
 |   57 | Marcus Mesis         | Midland-GA               | Hard Core Quizzers             |    90 |   6.00 |      |
 |   58 | Savannah Harper      | Mechanicsville-VA - Hope | Contagious Hope                |    85 |   5.67 |    1 |
 |   59 | Cierra Convis        | East Lansing-MI          | Greater Lansing                |    60 |   4.00 |      |
@@ -258,83 +258,83 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer              | Team                 | Church                           | Total |    Avg |   QO |
-| ---: | -------------------- | -------------------- | -------------------------------- | ----: | -----: | ---: |
-|    1 | Alaynee Hawley       | Havre-MT             | Havre Assembly Rebels            |  1940 | 129.33 |   12 |
-|    2 | Brock Eder           | Akron-OH             | Celebration Quizzers             |  1865 | 124.33 |   12 |
-|    3 | Shawn Timothy        | Naperville-IL - D    | Naperville D                     |  1580 | 105.33 |    9 |
-|    4 | Josh Barajas         | Cedar Hill-TX        | Triple Threat                    |  1280 |  85.33 |    5 |
-|    5 | Brock Boehling       | Wilmingon-NC - White | Wilmington Warriors White Swords |  1265 |  84.33 |    4 |
-|    6 | Cole Muscari         | Phoenix-AZ           | Phoenix First Bible Warriors     |  1245 |  83.00 |    8 |
-|    7 | Rayanne Danso        | Rochester-MN         | Unstoppable                      |  1200 |  80.00 |    3 |
-|    8 | Mercy Germany        | Ozark-MO             | Voices of Victory                |  1185 |  79.00 |    7 |
-|    9 | Annie Akins          | Dumas-TX             | Undignified                      |  1140 |  76.00 |    4 |
-|   10 | Emma Miller          | Cedar Hill-TX        | Triple Threat                    |  1135 |  75.67 |    3 |
-|   11 | Cole Abbott          | Sparta-WI            | Sparta                           |  1115 |  74.33 |    6 |
-|   12 | Lyric Coker          | Griffin-GA           | Griffin First Gospel Gang        |  1045 |  69.67 |    3 |
-|   13 | Truman Griessel      | Ozark-MO             | Voices of Victory                |   990 |  66.00 |    6 |
-|   14 | Seth Swain           | Jacksonville-AR      | Ablaze                           |   990 |  66.00 |    1 |
-|   15 | Jason Li             | Irvine-CA            | OCCEC Eagles                     |   915 |  61.00 |    7 |
-|   16 | Toby Hill            | Swedesboro-NJ        | Resurrection Sunday              |   900 |  60.00 |    4 |
-|   17 | Ethan Gates          | Rochester-MN         | Unstoppable                      |   765 |  51.00 |    9 |
-|   17 | Nicola Betz          | Naperville-IL - D    | Naperville D                     |   765 |  51.00 |    9 |
-|   18 | Andrew Judd          | Leesburg-VA          | S.P.Y. Dudes                     |   720 |  48.00 |    6 |
-|   19 | McKenna Cape         | Rochester-MN         | Unstoppable                      |   670 |  44.67 |      |
-|   19 | Micah DeSanto        | Swedesboro-NJ        | Resurrection Sunday              |   670 |  44.67 |      |
-|   20 | Chloe Eder           | Akron-OH             | Celebration Quizzers             |   655 |  43.67 |    4 |
-|   21 | Caleb Whitener       | Jacksonville-AR      | Ablaze                           |   625 |  41.67 |      |
-|   22 | Ashton Johnson       | Jacksonville-AR      | Ablaze                           |   620 |  41.33 |    8 |
-|   23 | Tyler Trexler        | Phoenix-AZ           | Phoenix First Bible Warriors     |   615 |  41.00 |    5 |
-|   24 | Phillip Bozzay       | Leesburg-VA          | S.P.Y. Dudes                     |   600 |  40.00 |      |
-|   25 | Kristin Schmidt      | Phoenix-AZ           | Phoenix First Bible Warriors     |   575 |  38.33 |      |
-|   26 | M'Kayla McDaniel     | Dumas-TX             | Undignified                      |   515 |  34.33 |    3 |
-|   27 | Casey McDermitt      | Griffin-GA           | Griffin First Gospel Gang        |   490 |  32.67 |      |
-|   28 | Patrick Norris       | Swedesboro-NJ        | Resurrection Sunday              |   485 |  32.33 |    5 |
-|   29 | Annabel Tiong        | Irvine-CA            | OCCEC Eagles                     |   485 |  32.33 |      |
-|   29 | Samuel Otchere       | Leesburg-VA          | S.P.Y. Dudes                     |   485 |  32.33 |      |
-|   30 | Jude Calvery         | Cedar Hill-TX        | Triple Threat                    |   455 |  30.33 |    3 |
-|   31 | Jocelyn Coker        | Griffin-GA           | Griffin First Gospel Gang        |   450 |  30.00 |    1 |
-|   32 | Cate Wilhelm         | Rapid City-SD        | Sanctified Sisters               |   440 |  29.33 |      |
-|   33 | Alaura Hawley        | Havre-MT             | Havre Assembly Rebels            |   410 |  27.33 |      |
-|   33 | Joshua Daniel        | Leesburg-VA          | S.P.Y. Dudes                     |   410 |  27.33 |      |
-|   34 | Corrie Lee Boehlinig | Wilmingon-NC - White | Wilmington Warriors White Swords |   395 |  26.33 |    2 |
-|   35 | Elylah Stager        | Akron-OH             | Celebration Quizzers             |   370 |  24.67 |      |
-|   36 | Gracee Langstaff     | Rapid City-SD        | Sanctified Sisters               |   345 |  23.00 |      |
-|   37 | Bryce Helgerson      | Sparta-WI            | Sparta                           |   315 |  21.00 |    1 |
-|   38 | Adalina Ma           | Irvine-CA            | OCCEC Eagles                     |   315 |  21.00 |      |
-|   39 | Isabell McClanahan   | Ozark-MO             | Voices of Victory                |   260 |  17.33 |      |
-|   39 | Breydon Hawley       | Havre-MT             | Havre Assembly Rebels            |   260 |  17.33 |      |
-|   40 | Stephen Bough        | Naperville-IL - D    | Naperville D                     |   205 |  13.67 |      |
-|   41 | Luke Shelton         | Wilmingon-NC - White | Wilmington Warriors White Swords |   200 |  13.33 |    1 |
-|   42 | Nathaniel Dowdy      | Swedesboro-NJ        | Resurrection Sunday              |   145 |   9.67 |      |
-|   43 | Rachel McDonald      | Wilmingon-NC - White | Wilmington Warriors White Swords |   140 |   9.33 |      |
-|   43 | Samuel Biruduganti   | Naperville-IL - D    | Naperville D                     |   140 |   9.33 |      |
-|   44 | Michele Zheng        | Irvine-CA            | OCCEC Eagles                     |   135 |   9.00 |      |
-|   45 | Adam Murdock         | Jacksonville-AR      | Ablaze                           |   130 |   8.67 |      |
-|   45 | Chuck Myers          | Ozark-MO             | Voices of Victory                |   130 |   8.67 |      |
-|   46 | Corbin Frydenlund    | Sparta-WI            | Sparta                           |   125 |   8.33 |      |
-|   47 | Josiah Boe           | Havre-MT             | Havre Assembly Rebels            |   115 |   7.67 |      |
-|   48 | Justice Glassgow     | Rapid City-SD        | Sanctified Sisters               |   100 |   6.67 |      |
-|   49 | Luke Ertzberger      | Wilmingon-NC - White | Wilmington Warriors White Swords |    90 |   6.00 |      |
-|   50 | Anna Ligtenberg      | Rapid City-SD        | Sanctified Sisters               |    50 |   3.33 |      |
-|   51 | Sofia Marks          | Akron-OH             | Celebration Quizzers             |    40 |   2.67 |      |
-|   52 | Sofie McClanahan     | Ozark-MO             | Voices of Victory                |    30 |   2.00 |      |
-|   52 | Madelyn Grant        | Griffin-GA           | Griffin First Gospel Gang        |    30 |   2.00 |      |
-|   53 | Riley Marks          | Akron-OH             | Celebration Quizzers             |    20 |   1.33 |      |
-|   53 | Angel Johnson        | Jacksonville-AR      | Ablaze                           |    20 |   1.33 |      |
-|   54 | Jiana Speir          | Griffin-GA           | Griffin First Gospel Gang        |    15 |   1.00 |      |
-|   54 | Samantha Rowe        | Sparta-WI            | Sparta                           |    15 |   1.00 |      |
-|   54 | Joel Samuel          | Swedesboro-NJ        | Resurrection Sunday              |    15 |   1.00 |      |
-|   55 | Carly McDonald       | Wilmingon-NC - White | Wilmington Warriors White Swords |    10 |    .67 |      |
-|   55 | Jessica Samuel       | Swedesboro-NJ        | Resurrection Sunday              |    10 |    .67 |      |
-|   56 | Jayda Butts          | Rapid City-SD        | Sanctified Sisters               |       |    .00 |      |
-|   56 | Gracelyn Daniel      | Leesburg-VA          | S.P.Y. Dudes                     |       |    .00 |      |
-|   56 | Jacob Burke          | Sparta-WI            | Sparta                           |       |    .00 |      |
-|   56 | Mariela Trujiillo    | Leesburg-VA          | S.P.Y. Dudes                     |       |    .00 |      |
-|   56 | Leah Hodge           | Leesburg-VA          | S.P.Y. Dudes                     |       |    .00 |      |
-|   56 | Sean Wallis          | Akron-OH             | Celebration Quizzers             |       |    .00 |      |
-|   56 | Hannah Judd          | Leesburg-VA          | S.P.Y. Dudes                     |       |    .00 |      |
-|   57 | Noelle Germany       | Ozark-MO             | Voices of Victory                |    -5 |  -0.33 |      |
+|    # | Quizzer             | Team                 | Church                           | Total |    Avg |   QO |
+| ---: | ------------------- | -------------------- | -------------------------------- | ----: | -----: | ---: |
+|    1 | Alaynee Hawley      | Havre-MT             | Havre Assembly Rebels            |  1940 | 129.33 |   12 |
+|    2 | Brock Eder          | Akron-OH             | Celebration Quizzers             |  1865 | 124.33 |   12 |
+|    3 | Shawn Timothy       | Naperville-IL - D    | Naperville D                     |  1580 | 105.33 |    9 |
+|    4 | Josh Barajas        | Cedar Hill-TX        | Triple Threat                    |  1280 |  85.33 |    5 |
+|    5 | Brock Boehling      | Wilmingon-NC - White | Wilmington Warriors White Swords |  1265 |  84.33 |    4 |
+|    6 | Cole Muscari        | Phoenix-AZ           | Phoenix First Bible Warriors     |  1245 |  83.00 |    8 |
+|    7 | Rayanne Danso       | Rochester-MN         | Unstoppable                      |  1200 |  80.00 |    3 |
+|    8 | Mercy Germany       | Ozark-MO             | Voices of Victory                |  1185 |  79.00 |    7 |
+|    9 | Annie Akins         | Dumas-TX             | Undignified                      |  1140 |  76.00 |    4 |
+|   10 | Emma Miller         | Cedar Hill-TX        | Triple Threat                    |  1135 |  75.67 |    3 |
+|   11 | Cole Abbott         | Sparta-WI            | Sparta                           |  1115 |  74.33 |    6 |
+|   12 | Lyric Coker         | Griffin-GA           | Griffin First Gospel Gang        |  1045 |  69.67 |    3 |
+|   13 | Truman Griessel     | Ozark-MO             | Voices of Victory                |   990 |  66.00 |    6 |
+|   14 | Seth Swain          | Jacksonville-AR      | Ablaze                           |   990 |  66.00 |    1 |
+|   15 | Jason Li            | Irvine-CA            | OCCEC Eagles                     |   915 |  61.00 |    7 |
+|   16 | Toby Hill           | Swedesboro-NJ        | Resurrection Sunday              |   900 |  60.00 |    4 |
+|   17 | Ethan Gates         | Rochester-MN         | Unstoppable                      |   765 |  51.00 |    9 |
+|   17 | Nicola Betz         | Naperville-IL - D    | Naperville D                     |   765 |  51.00 |    9 |
+|   18 | Andrew Judd         | Leesburg-VA          | S.P.Y. Dudes                     |   720 |  48.00 |    6 |
+|   19 | McKenna Cape        | Rochester-MN         | Unstoppable                      |   670 |  44.67 |      |
+|   19 | Micah DeSanto       | Swedesboro-NJ        | Resurrection Sunday              |   670 |  44.67 |      |
+|   20 | Chloe Eder          | Akron-OH             | Celebration Quizzers             |   655 |  43.67 |    4 |
+|   21 | Caleb Whitener      | Jacksonville-AR      | Ablaze                           |   625 |  41.67 |      |
+|   22 | Ashton Johnson      | Jacksonville-AR      | Ablaze                           |   620 |  41.33 |    8 |
+|   23 | Tyler Trexler       | Phoenix-AZ           | Phoenix First Bible Warriors     |   615 |  41.00 |    5 |
+|   24 | Phillip Bozzay      | Leesburg-VA          | S.P.Y. Dudes                     |   600 |  40.00 |      |
+|   25 | Kristin Schmidt     | Phoenix-AZ           | Phoenix First Bible Warriors     |   575 |  38.33 |      |
+|   26 | M'Kayla McDaniel    | Dumas-TX             | Undignified                      |   515 |  34.33 |    3 |
+|   27 | Casey McDermitt     | Griffin-GA           | Griffin First Gospel Gang        |   490 |  32.67 |      |
+|   28 | Patrick Norris      | Swedesboro-NJ        | Resurrection Sunday              |   485 |  32.33 |    5 |
+|   29 | Annabel Tiong       | Irvine-CA            | OCCEC Eagles                     |   485 |  32.33 |      |
+|   29 | Samuel Otchere      | Leesburg-VA          | S.P.Y. Dudes                     |   485 |  32.33 |      |
+|   30 | Jude Calvery        | Cedar Hill-TX        | Triple Threat                    |   455 |  30.33 |    3 |
+|   31 | Jocelyn Coker       | Griffin-GA           | Griffin First Gospel Gang        |   450 |  30.00 |    1 |
+|   32 | Cate Wilhelm        | Rapid City-SD        | Sanctified Sisters               |   440 |  29.33 |      |
+|   33 | Alaura Hawley       | Havre-MT             | Havre Assembly Rebels            |   410 |  27.33 |      |
+|   33 | Joshua Daniel       | Leesburg-VA          | S.P.Y. Dudes                     |   410 |  27.33 |      |
+|   34 | Corrie Lee Boehling | Wilmingon-NC - White | Wilmington Warriors White Swords |   395 |  26.33 |    2 |
+|   35 | Elylah Stager       | Akron-OH             | Celebration Quizzers             |   370 |  24.67 |      |
+|   36 | Gracee Langstaff    | Rapid City-SD        | Sanctified Sisters               |   345 |  23.00 |      |
+|   37 | Bryce Helgerson     | Sparta-WI            | Sparta                           |   315 |  21.00 |    1 |
+|   38 | Adalina Ma          | Irvine-CA            | OCCEC Eagles                     |   315 |  21.00 |      |
+|   39 | Isabell McClanahan  | Ozark-MO             | Voices of Victory                |   260 |  17.33 |      |
+|   39 | Breydon Hawley      | Havre-MT             | Havre Assembly Rebels            |   260 |  17.33 |      |
+|   40 | Stephen Bough       | Naperville-IL - D    | Naperville D                     |   205 |  13.67 |      |
+|   41 | Luke Shelton        | Wilmingon-NC - White | Wilmington Warriors White Swords |   200 |  13.33 |    1 |
+|   42 | Nathaniel Dowdy     | Swedesboro-NJ        | Resurrection Sunday              |   145 |   9.67 |      |
+|   43 | Rachel McDonald     | Wilmingon-NC - White | Wilmington Warriors White Swords |   140 |   9.33 |      |
+|   43 | Samuel Biruduganti  | Naperville-IL - D    | Naperville D                     |   140 |   9.33 |      |
+|   44 | Michele Zheng       | Irvine-CA            | OCCEC Eagles                     |   135 |   9.00 |      |
+|   45 | Adam Murdock        | Jacksonville-AR      | Ablaze                           |   130 |   8.67 |      |
+|   45 | Chuck Myers         | Ozark-MO             | Voices of Victory                |   130 |   8.67 |      |
+|   46 | Corbin Frydenlund   | Sparta-WI            | Sparta                           |   125 |   8.33 |      |
+|   47 | Josiah Boe          | Havre-MT             | Havre Assembly Rebels            |   115 |   7.67 |      |
+|   48 | Justice Glassgow    | Rapid City-SD        | Sanctified Sisters               |   100 |   6.67 |      |
+|   49 | Luke Ertzberger     | Wilmingon-NC - White | Wilmington Warriors White Swords |    90 |   6.00 |      |
+|   50 | Anna Ligtenberg     | Rapid City-SD        | Sanctified Sisters               |    50 |   3.33 |      |
+|   51 | Sofia Marks         | Akron-OH             | Celebration Quizzers             |    40 |   2.67 |      |
+|   52 | Sofie McClanahan    | Ozark-MO             | Voices of Victory                |    30 |   2.00 |      |
+|   52 | Madelyn Grant       | Griffin-GA           | Griffin First Gospel Gang        |    30 |   2.00 |      |
+|   53 | Riley Marks         | Akron-OH             | Celebration Quizzers             |    20 |   1.33 |      |
+|   53 | Angel Johnson       | Jacksonville-AR      | Ablaze                           |    20 |   1.33 |      |
+|   54 | Jiana Speir         | Griffin-GA           | Griffin First Gospel Gang        |    15 |   1.00 |      |
+|   54 | Samantha Rowe       | Sparta-WI            | Sparta                           |    15 |   1.00 |      |
+|   54 | Joel Samuel         | Swedesboro-NJ        | Resurrection Sunday              |    15 |   1.00 |      |
+|   55 | Carly McDonald      | Wilmingon-NC - White | Wilmington Warriors White Swords |    10 |    .67 |      |
+|   55 | Jessica Samuel      | Swedesboro-NJ        | Resurrection Sunday              |    10 |    .67 |      |
+|   56 | Jayda Butts         | Rapid City-SD        | Sanctified Sisters               |       |    .00 |      |
+|   56 | Gracelyn Daniel     | Leesburg-VA          | S.P.Y. Dudes                     |       |    .00 |      |
+|   56 | Jacob Burke         | Sparta-WI            | Sparta                           |       |    .00 |      |
+|   56 | Mariela Trujiillo   | Leesburg-VA          | S.P.Y. Dudes                     |       |    .00 |      |
+|   56 | Leah Hodge          | Leesburg-VA          | S.P.Y. Dudes                     |       |    .00 |      |
+|   56 | Sean Wallis         | Akron-OH             | Celebration Quizzers             |       |    .00 |      |
+|   56 | Hannah Judd         | Leesburg-VA          | S.P.Y. Dudes                     |       |    .00 |      |
+|   57 | Noelle Germany      | Ozark-MO             | Voices of Victory                |    -5 |  -0.33 |      |
 
 
 ### Pink
@@ -475,78 +475,78 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer                | Team                   | Church                      | Total |    Avg |   QO |
-| ---: | ---------------------- | ---------------------- | --------------------------- | ----: | -----: | ---: |
-|    1 | Jonathan Archer        | Lawson-MO - Wendy      | Lawson AG Wendy             |  1910 | 127.33 |   10 |
-|    2 | David Blomberg         | Brookfield-WI          | FBI - Flaming Buzzers, Inc. |  1710 | 114.00 |    8 |
-|    3 | Maelee Becton          | Kinston-NC             | Tanglewood - Kinston        |  1680 | 112.00 |    9 |
-|    4 | Caleb Shackelford      | Colorado Springs-CO    | Knights of Christ           |  1570 | 104.67 |    6 |
-|    5 | Landon Clark           | Springfield-MO - Candy | Candy Crush                 |  1560 | 104.00 |    7 |
-|    6 | Harrison Stevens       | Naperville-IL - C      | Naperville C                |  1550 | 103.33 |    7 |
-|    7 | Rylan Sago             | Beulah-ND              | New Creatures               |  1425 |  95.00 |    6 |
-|    8 | Joshua Daniel Dupati   | Norcross-GA            | ATC Flames                  |  1295 |  86.33 |    4 |
-|    9 | Simeon Thomas          | Scotch Plains-NJ       | Quiz Kids                   |  1055 |  70.33 |    1 |
-|   10 | Ronald George          | Norcross-GA            | ATC Flames                  |  1015 |  67.67 |   11 |
-|   11 | Shobby Enakpene        | Tucson-AZ              | Interrupting Odd Squad      |   975 |  65.00 |    2 |
-|   12 | Jacob Blackburn        | North Little Rock-AR   | Eagles                      |   910 |  60.67 |    1 |
-|   13 | Alexis Carrozzi        | Ravenna-OH             | Smarties                    |   890 |  59.33 |      |
-|   14 | Joy Escobar            | Waxahachie-TX          | En-Fuego                    |   840 |  56.00 |    1 |
-|   15 | Faith Buchanan         | Richmond Hill-NY       | Bethlehem Church            |   820 |  54.67 |    8 |
-|   16 | Erin Laboy             | Naperville-IL - C      | Naperville C                |   810 |  54.00 |   10 |
-|   17 | Ismael Rodriguez       | Waxahachie-TX          | En-Fuego                    |   715 |  47.67 |      |
-|   18 | Bianca Hernandez       | Scotch Plains-NJ       | Quiz Kids                   |   705 |  47.00 |    5 |
-|   19 | Hannah Jones           | Springfield-MO - Candy | Candy Crush                 |   700 |  46.67 |    4 |
-|   20 | Hannah Hall            | North Little Rock-AR   | Eagles                      |   685 |  45.67 |    5 |
-|   21 | Samuel Enget           | Beulah-ND              | New Creatures               |   655 |  43.67 |    6 |
-|   22 | Cecillia Newby         | Oswego-KS              | God Girls                   |   565 |  37.67 |    1 |
-|   23 | Hector Rivera          | Waxahachie-TX          | En-Fuego                    |   555 |  37.00 |    2 |
-|   24 | Annabelle Kumar        | Scotch Plains-NJ       | Quiz Kids                   |   535 |  35.67 |      |
-|   25 | Godson Massene         | Richmond Hill-NY       | Bethlehem Church            |   530 |  35.33 |      |
-|   26 | Miles Kastner          | Brookfield-WI          | FBI - Flaming Buzzers, Inc. |   520 |  34.67 |    5 |
-|   27 | Ethan Shackelford      | Colorado Springs-CO    | Knights of Christ           |   520 |  34.67 |    1 |
-|   28 | Sarah Clements         | Kinston-NC             | Tanglewood - Kinston        |   490 |  32.67 |    3 |
-|   29 | Carmen Eisenbrandt     | Oswego-KS              | God Girls                   |   490 |  32.67 |      |
-|   30 | Emily Sawastuk         | Ravenna-OH             | Smarties                    |   485 |  32.33 |    1 |
-|   31 | Daynah Dyal            | Richmond Hill-NY       | Bethlehem Church            |   485 |  32.33 |      |
-|   32 | Max Ortega             | Tucson-AZ              | Interrupting Odd Squad      |   445 |  29.67 |    5 |
-|   33 | Josh Rose              | Mustang-OK             | Blood Bought Brothers       |   430 |  28.67 |      |
-|   34 | Ayden Rush             | Mustang-OK             | Blood Bought Brothers       |   410 |  27.33 |    2 |
-|   35 | Delaney Reynolds       | Oswego-KS              | God Girls                   |   365 |  24.33 |      |
-|   36 | Meleah Sawastuk        | Ravenna-OH             | Smarties                    |   360 |  24.00 |      |
-|   37 | Adyson Whaley          | Kinston-NC             | Tanglewood - Kinston        |   355 |  23.67 |    1 |
-|   38 | Brianna Cypcar         | Brookfield-WI          | FBI - Flaming Buzzers, Inc. |   350 |  23.33 |      |
-|   39 | Justin Arocho          | Richmond Hill-NY       | Bethlehem Church            |   325 |  21.67 |      |
-|   40 | Jaydon Dimitrov        | Lawson-MO - Wendy      | Lawson AG Wendy             |   320 |  21.33 |    2 |
-|   41 | Jett King              | Mustang-OK             | Blood Bought Brothers       |   320 |  21.33 |      |
-|   42 | Victoria Hernandez     | Scotch Plains-NJ       | Quiz Kids                   |   290 |  19.33 |    1 |
-|   43 | Trevin Sago            | Beulah-ND              | New Creatures               |   260 |  17.33 |      |
-|   44 | Reagan Stevens         | Naperville-IL - C      | Naperville C                |   245 |  16.33 |      |
-|   45 | Grace Noel             | Oswego-KS              | God Girls                   |   240 |  16.00 |      |
-|   46 | Seth Archer            | Lawson-MO - Wendy      | Lawson AG Wendy             |   230 |  15.33 |      |
-|   47 | Omosuiwa Enakpene      | Tucson-AZ              | Interrupting Odd Squad      |   210 |  14.00 |      |
-|   48 | Isaac Ubert            | Brookfield-WI          | FBI - Flaming Buzzers, Inc. |   190 |  12.67 |      |
-|   49 | Ashley Okafor          | Richmond Hill-NY       | Bethlehem Church            |   180 |  12.00 |      |
-|   50 | Ayden Sorensen         | Tucson-AZ              | Interrupting Odd Squad      |   140 |   9.33 |      |
-|   50 | Vanessa Gomez          | Tucson-AZ              | Interrupting Odd Squad      |   140 |   9.33 |      |
-|   51 | Nico Georgiades        | Springfield-MO - Candy | Candy Crush                 |   120 |   8.00 |    1 |
-|   52 | Colson Sago            | Beulah-ND              | New Creatures               |   120 |   8.00 |      |
-|   52 | Aubrey Carrozzi        | Ravenna-OH             | Smarties                    |   120 |   8.00 |      |
-|   53 | Brianna Boodram        | Richmond Hill-NY       | Bethlehem Church            |    90 |   6.00 |      |
-|   54 | Savannah Stricklin     | North Little Rock-AR   | Eagles                      |    60 |   4.00 |      |
-|   54 | Jon Luc Jobson-Larkin  | Richmond Hill-NY       | Bethlehem Church            |    60 |   4.00 |      |
-|   55 | Jackson Woodward       | Springfield-MO - Candy | Candy Crush                 |    45 |   3.00 |      |
-|   56 | Elli Woodward          | Springfield-MO - Candy | Candy Crush                 |    30 |   2.00 |      |
-|   56 | Kacey Mayfield         | Oswego-KS              | God Girls                   |    30 |   2.00 |      |
-|   57 | Michelle Aum           | Naperville-IL - C      | Naperville C                |    20 |   1.33 |      |
-|   58 | Jadyn Archer           | Lawson-MO - Wendy      | Lawson AG Wendy             |    15 |   1.00 |      |
-|   58 | John Kruger            | Beulah-ND              | New Creatures               |    15 |   1.00 |      |
-|   59 | Aliyah Gibson          | North Little Rock-AR   | Eagles                      |    10 |    .67 |      |
-|   59 | Elizabeth Murray       | Brookfield-WI          | FBI - Flaming Buzzers, Inc. |    10 |    .67 |      |
-|   60 | Ashton Mearns          | Ravenna-OH             | Smarties                    |     5 |    .33 |      |
-|   61 | Maddie Higgins         | North Little Rock-AR   | Eagles                      |       |    .00 |      |
-|   61 | Hannah Noel            | Oswego-KS              | God Girls                   |       |    .00 |      |
-|   61 | Zachary Dupati         | Norcross-GA            | ATC Flames                  |       |    .00 |      |
-|   61 | Robert Trout 3 (Jacob) | Richmond Hill-NY       | Bethlehem Church            |       |    .00 |      |
+|    # | Quizzer               | Team                   | Church                      | Total |    Avg |   QO |
+| ---: | --------------------- | ---------------------- | --------------------------- | ----: | -----: | ---: |
+|    1 | Jonathan Archer       | Lawson-MO - Wendy      | Lawson AG Wendy             |  1910 | 127.33 |   10 |
+|    2 | David Blomberg        | Brookfield-WI          | FBI - Flaming Buzzers, Inc. |  1710 | 114.00 |    8 |
+|    3 | Maelee Becton         | Kinston-NC             | Tanglewood - Kinston        |  1680 | 112.00 |    9 |
+|    4 | Caleb Shackelford     | Colorado Springs-CO    | Knights of Christ           |  1570 | 104.67 |    6 |
+|    5 | Landon Clark          | Springfield-MO - Candy | Candy Crush                 |  1560 | 104.00 |    7 |
+|    6 | Harrison Stevens      | Naperville-IL - C      | Naperville C                |  1550 | 103.33 |    7 |
+|    7 | Rylan Sago            | Beulah-ND              | New Creatures               |  1425 |  95.00 |    6 |
+|    8 | Joshua Daniel Dupati  | Norcross-GA            | ATC Flames                  |  1295 |  86.33 |    4 |
+|    9 | Simeon Thomas         | Scotch Plains-NJ       | Quiz Kids                   |  1055 |  70.33 |    1 |
+|   10 | Ronald George         | Norcross-GA            | ATC Flames                  |  1015 |  67.67 |   11 |
+|   11 | Shobby Enakpene       | Tucson-AZ              | Interrupting Odd Squad      |   975 |  65.00 |    2 |
+|   12 | Jacob Blackburn       | North Little Rock-AR   | Eagles                      |   910 |  60.67 |    1 |
+|   13 | Alexis Carrozzi       | Ravenna-OH             | Smarties                    |   890 |  59.33 |      |
+|   14 | Joy Escobar           | Waxahachie-TX          | En-Fuego                    |   840 |  56.00 |    1 |
+|   15 | Faith Buchanan        | Richmond Hill-NY       | Bethlehem Church            |   820 |  54.67 |    8 |
+|   16 | Erin Laboy            | Naperville-IL - C      | Naperville C                |   810 |  54.00 |   10 |
+|   17 | Ismael Rodriguez      | Waxahachie-TX          | En-Fuego                    |   715 |  47.67 |      |
+|   18 | Bianca Hernandez      | Scotch Plains-NJ       | Quiz Kids                   |   705 |  47.00 |    5 |
+|   19 | Hannah Jones          | Springfield-MO - Candy | Candy Crush                 |   700 |  46.67 |    4 |
+|   20 | Hannah Hall           | North Little Rock-AR   | Eagles                      |   685 |  45.67 |    5 |
+|   21 | Samuel Enget          | Beulah-ND              | New Creatures               |   655 |  43.67 |    6 |
+|   22 | Cecillia Newby        | Oswego-KS              | God Girls                   |   565 |  37.67 |    1 |
+|   23 | Hector Rivera         | Waxahachie-TX          | En-Fuego                    |   555 |  37.00 |    2 |
+|   24 | Annabelle Kumar       | Scotch Plains-NJ       | Quiz Kids                   |   535 |  35.67 |      |
+|   25 | Godson Massene        | Richmond Hill-NY       | Bethlehem Church            |   530 |  35.33 |      |
+|   26 | Miles Kastner         | Brookfield-WI          | FBI - Flaming Buzzers, Inc. |   520 |  34.67 |    5 |
+|   27 | Ethan Shackelford     | Colorado Springs-CO    | Knights of Christ           |   520 |  34.67 |    1 |
+|   28 | Sarah Clements        | Kinston-NC             | Tanglewood - Kinston        |   490 |  32.67 |    3 |
+|   29 | Carmen Eisenbrandt    | Oswego-KS              | God Girls                   |   490 |  32.67 |      |
+|   30 | Emily Sawastuk        | Ravenna-OH             | Smarties                    |   485 |  32.33 |    1 |
+|   31 | Daynah Dyal           | Richmond Hill-NY       | Bethlehem Church            |   485 |  32.33 |      |
+|   32 | Max Ortega            | Tucson-AZ              | Interrupting Odd Squad      |   445 |  29.67 |    5 |
+|   33 | Josh Rose             | Mustang-OK             | Blood Bought Brothers       |   430 |  28.67 |      |
+|   34 | Ayden Rush            | Mustang-OK             | Blood Bought Brothers       |   410 |  27.33 |    2 |
+|   35 | Delaney Reynolds      | Oswego-KS              | God Girls                   |   365 |  24.33 |      |
+|   36 | Meleah Sawastuk       | Ravenna-OH             | Smarties                    |   360 |  24.00 |      |
+|   37 | Adyson Whaley         | Kinston-NC             | Tanglewood - Kinston        |   355 |  23.67 |    1 |
+|   38 | Brianna Cypcar        | Brookfield-WI          | FBI - Flaming Buzzers, Inc. |   350 |  23.33 |      |
+|   39 | Justin Arocho         | Richmond Hill-NY       | Bethlehem Church            |   325 |  21.67 |      |
+|   40 | Jaydon Dimitrov       | Lawson-MO - Wendy      | Lawson AG Wendy             |   320 |  21.33 |    2 |
+|   41 | Jett King             | Mustang-OK             | Blood Bought Brothers       |   320 |  21.33 |      |
+|   42 | Victoria Hernandez    | Scotch Plains-NJ       | Quiz Kids                   |   290 |  19.33 |    1 |
+|   43 | Trevin Sago           | Beulah-ND              | New Creatures               |   260 |  17.33 |      |
+|   44 | Reagan Stevens        | Naperville-IL - C      | Naperville C                |   245 |  16.33 |      |
+|   45 | Grace Noel            | Oswego-KS              | God Girls                   |   240 |  16.00 |      |
+|   46 | Seth Archer           | Lawson-MO - Wendy      | Lawson AG Wendy             |   230 |  15.33 |      |
+|   47 | Omosuiwa Enakpene     | Tucson-AZ              | Interrupting Odd Squad      |   210 |  14.00 |      |
+|   48 | Isaac Ubert           | Brookfield-WI          | FBI - Flaming Buzzers, Inc. |   190 |  12.67 |      |
+|   49 | Ashley Okafor         | Richmond Hill-NY       | Bethlehem Church            |   180 |  12.00 |      |
+|   50 | Ayden Sorensen        | Tucson-AZ              | Interrupting Odd Squad      |   140 |   9.33 |      |
+|   50 | Vanessa Gomez         | Tucson-AZ              | Interrupting Odd Squad      |   140 |   9.33 |      |
+|   51 | Nico Georgiades       | Springfield-MO - Candy | Candy Crush                 |   120 |   8.00 |    1 |
+|   52 | Colson Sago           | Beulah-ND              | New Creatures               |   120 |   8.00 |      |
+|   52 | Aubrey Carrozzi       | Ravenna-OH             | Smarties                    |   120 |   8.00 |      |
+|   53 | Brianna Boodram       | Richmond Hill-NY       | Bethlehem Church            |    90 |   6.00 |      |
+|   54 | Savannah Stricklin    | North Little Rock-AR   | Eagles                      |    60 |   4.00 |      |
+|   54 | Jon Luc Jobson-Larkin | Richmond Hill-NY       | Bethlehem Church            |    60 |   4.00 |      |
+|   55 | Jackson Woodward      | Springfield-MO - Candy | Candy Crush                 |    45 |   3.00 |      |
+|   56 | Elli Woodward         | Springfield-MO - Candy | Candy Crush                 |    30 |   2.00 |      |
+|   56 | Kacey Mayfield        | Oswego-KS              | God Girls                   |    30 |   2.00 |      |
+|   57 | Michelle Aum          | Naperville-IL - C      | Naperville C                |    20 |   1.33 |      |
+|   58 | Jadyn Archer          | Lawson-MO - Wendy      | Lawson AG Wendy             |    15 |   1.00 |      |
+|   58 | John Kruger           | Beulah-ND              | New Creatures               |    15 |   1.00 |      |
+|   59 | Aliyah Gibson         | North Little Rock-AR   | Eagles                      |    10 |    .67 |      |
+|   59 | Elizabeth Murray      | Brookfield-WI          | FBI - Flaming Buzzers, Inc. |    10 |    .67 |      |
+|   60 | Ashton Mearns         | Ravenna-OH             | Smarties                    |     5 |    .33 |      |
+|   61 | Maddie Higgins        | North Little Rock-AR   | Eagles                      |       |    .00 |      |
+|   61 | Hannah Noel           | Oswego-KS              | God Girls                   |       |    .00 |      |
+|   61 | Zachary Dupati        | Norcross-GA            | ATC Flames                  |       |    .00 |      |
+|   61 | Robert Trout (Jacob)  | Richmond Hill-NY       | Bethlehem Church            |       |    .00 |      |
 
 ## Saturday
 
@@ -642,50 +642,50 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer                | Team                          | Church                | Total |    Avg |   QO |
-| ---: | ---------------------- | ----------------------------- | --------------------- | ----: | -----: | ---: |
-|    1 | Laken Manns            | Lawson-MO - Connie            | Lawson Connie         |   980 | 108.89 |    5 |
-|    2 | Josiah Mair            | New Albany-OH                 | Fluffy Panda Quizzers |   920 | 102.22 |    6 |
-|    3 | Madison Steele         | Mechanicsville-VA - Obedience | Contagious Obedience  |   905 | 100.56 |    4 |
-|    4 | Harrison Stevens       | Naperville-IL - C             | Naperville C          |   900 | 100.00 |    5 |
-|    5 | Alaynee Hawley         | Havre-MT                      | Havre Assembly Rebels |   865 |  96.11 |    2 |
-|    6 | Ty Silas               | Naperville-IL - S             | Naperville S          |   840 |  93.33 |    5 |
-|    7 | Trey Crowley           | Hamburg-PA                    | Lightning Hawks       |   695 |  77.22 |    3 |
-|    8 | Zachariah Rothwell     | St. Cloud-MN                  | Gods Lighthouse       |   535 |  59.44 |    1 |
-|    9 | Godson Massene         | Richmond Hill-NY              | Bethlehem Church      |   470 |  52.22 |      |
-|    9 | Josh Barajas           | Cedar Hill-TX                 | Triple Threat         |   470 |  52.22 |      |
-|   10 | Nick Cook              | Lawson-MO - Connie            | Lawson Connie         |   430 |  47.78 |    3 |
-|   11 | Megan Bartlett         | St. Cloud-MN                  | Gods Lighthouse       |   420 |  46.67 |      |
-|   12 | Faith Buchanan         | Richmond Hill-NY              | Bethlehem Church      |   360 |  40.00 |    2 |
-|   13 | Justiss Silas          | Naperville-IL - S             | Naperville S          |   345 |  38.33 |    3 |
-|   14 | Emma Miller            | Cedar Hill-TX                 | Triple Threat         |   340 |  37.78 |      |
-|   15 | Erin Laboy             | Naperville-IL - C             | Naperville C          |   320 |  35.56 |    4 |
-|   16 | Daynah Dyal            | Richmond Hill-NY              | Bethlehem Church      |   310 |  34.44 |    1 |
-|   17 | Noah Zananiri          | New Albany-OH                 | Fluffy Panda Quizzers |   275 |  30.56 |    2 |
-|   18 | Braden Adams           | Mechanicsville-VA - Obedience | Contagious Obedience  |   230 |  25.56 |    1 |
-|   19 | Aicha Fitzgerald       | Hamburg-PA                    | Lightning Hawks       |   230 |  25.56 |      |
-|   20 | Will Rittenhouse       | Mechanicsville-VA - Obedience | Contagious Obedience  |   210 |  23.33 |    1 |
-|   21 | Thomas Pospisil        | Hamburg-PA                    | Lightning Hawks       |   205 |  22.78 |      |
-|   22 | Caleb Roos             | St. Cloud-MN                  | Gods Lighthouse       |   200 |  22.22 |    1 |
-|   23 | David Biruduganti      | Naperville-IL - S             | Naperville S          |   190 |  21.11 |      |
-|   24 | Jude Calvery           | Cedar Hill-TX                 | Triple Threat         |   180 |  20.00 |      |
-|   25 | Taylen Manns           | Lawson-MO - Connie            | Lawson Connie         |   150 |  16.67 |    1 |
-|   26 | Reagan Stevens         | Naperville-IL - C             | Naperville C          |   145 |  16.11 |      |
-|   26 | Breydon Hawley         | Havre-MT                      | Havre Assembly Rebels |   145 |  16.11 |      |
-|   27 | Alaura Hawley          | Havre-MT                      | Havre Assembly Rebels |   110 |  12.22 |      |
-|   28 | Justin Arocho          | Richmond Hill-NY              | Bethlehem Church      |    95 |  10.56 |      |
-|   28 | Abel Karthik           | New Albany-OH                 | Fluffy Panda Quizzers |    95 |  10.56 |      |
-|   29 | Brooks Adams           | Mechanicsville-VA - Obedience | Contagious Obedience  |    85 |   9.44 |      |
-|   29 | Josiah Boe             | Havre-MT                      | Havre Assembly Rebels |    85 |   9.44 |      |
-|   30 | Samuel March           | St. Cloud-MN                  | Gods Lighthouse       |    60 |   6.67 |      |
-|   31 | Samuel Mair            | New Albany-OH                 | Fluffy Panda Quizzers |    50 |   5.56 |      |
-|   31 | Ashley Okafor          | Richmond Hill-NY              | Bethlehem Church      |    50 |   5.56 |      |
-|   32 | McKinley Stevens       | Naperville-IL - S             | Naperville S          |    20 |   2.22 |      |
-|   33 | Christian Steele       | Mechanicsville-VA - Obedience | Contagious Obedience  |     5 |    .56 |      |
-|   33 | Jon Luc Jobson-Larkin  | Richmond Hill-NY              | Bethlehem Church      |     5 |    .56 |      |
-|   34 | Michelle Aum           | Naperville-IL - C             | Naperville C          |       |    .00 |      |
-|   34 | Brianna Boodram        | Richmond Hill-NY              | Bethlehem Church      |       |    .00 |      |
-|   34 | Robert Trout 3 (Jacob) | Richmond Hill-NY              | Bethlehem Church      |       |    .00 |      |
+|    # | Quizzer               | Team                          | Church                | Total |    Avg |   QO |
+| ---: | --------------------- | ----------------------------- | --------------------- | ----: | -----: | ---: |
+|    1 | Laken Manns           | Lawson-MO - Connie            | Lawson Connie         |   980 | 108.89 |    5 |
+|    2 | Josiah Mair           | New Albany-OH                 | Fluffy Panda Quizzers |   920 | 102.22 |    6 |
+|    3 | Madison Steele        | Mechanicsville-VA - Obedience | Contagious Obedience  |   905 | 100.56 |    4 |
+|    4 | Harrison Stevens      | Naperville-IL - C             | Naperville C          |   900 | 100.00 |    5 |
+|    5 | Alaynee Hawley        | Havre-MT                      | Havre Assembly Rebels |   865 |  96.11 |    2 |
+|    6 | Ty Silas              | Naperville-IL - S             | Naperville S          |   840 |  93.33 |    5 |
+|    7 | Trey Crowley          | Hamburg-PA                    | Lightning Hawks       |   695 |  77.22 |    3 |
+|    8 | Zachariah Rothwell    | St. Cloud-MN                  | Gods Lighthouse       |   535 |  59.44 |    1 |
+|    9 | Godson Massene        | Richmond Hill-NY              | Bethlehem Church      |   470 |  52.22 |      |
+|    9 | Josh Barajas          | Cedar Hill-TX                 | Triple Threat         |   470 |  52.22 |      |
+|   10 | Nick Cook             | Lawson-MO - Connie            | Lawson Connie         |   430 |  47.78 |    3 |
+|   11 | Megan Bartlett        | St. Cloud-MN                  | Gods Lighthouse       |   420 |  46.67 |      |
+|   12 | Faith Buchanan        | Richmond Hill-NY              | Bethlehem Church      |   360 |  40.00 |    2 |
+|   13 | Justiss Silas         | Naperville-IL - S             | Naperville S          |   345 |  38.33 |    3 |
+|   14 | Emma Miller           | Cedar Hill-TX                 | Triple Threat         |   340 |  37.78 |      |
+|   15 | Erin Laboy            | Naperville-IL - C             | Naperville C          |   320 |  35.56 |    4 |
+|   16 | Daynah Dyal           | Richmond Hill-NY              | Bethlehem Church      |   310 |  34.44 |    1 |
+|   17 | Noah Zananiri         | New Albany-OH                 | Fluffy Panda Quizzers |   275 |  30.56 |    2 |
+|   18 | Braden Adams          | Mechanicsville-VA - Obedience | Contagious Obedience  |   230 |  25.56 |    1 |
+|   19 | Aicha Fitzgerald      | Hamburg-PA                    | Lightning Hawks       |   230 |  25.56 |      |
+|   20 | Will Rittenhouse      | Mechanicsville-VA - Obedience | Contagious Obedience  |   210 |  23.33 |    1 |
+|   21 | Thomas Pospisil       | Hamburg-PA                    | Lightning Hawks       |   205 |  22.78 |      |
+|   22 | Caleb Roos            | St. Cloud-MN                  | Gods Lighthouse       |   200 |  22.22 |    1 |
+|   23 | David Biruduganti     | Naperville-IL - S             | Naperville S          |   190 |  21.11 |      |
+|   24 | Jude Calvery          | Cedar Hill-TX                 | Triple Threat         |   180 |  20.00 |      |
+|   25 | Taylen Manns          | Lawson-MO - Connie            | Lawson Connie         |   150 |  16.67 |    1 |
+|   26 | Reagan Stevens        | Naperville-IL - C             | Naperville C          |   145 |  16.11 |      |
+|   26 | Breydon Hawley        | Havre-MT                      | Havre Assembly Rebels |   145 |  16.11 |      |
+|   27 | Alaura Hawley         | Havre-MT                      | Havre Assembly Rebels |   110 |  12.22 |      |
+|   28 | Justin Arocho         | Richmond Hill-NY              | Bethlehem Church      |    95 |  10.56 |      |
+|   28 | Abel Karthik          | New Albany-OH                 | Fluffy Panda Quizzers |    95 |  10.56 |      |
+|   29 | Brooks Adams          | Mechanicsville-VA - Obedience | Contagious Obedience  |    85 |   9.44 |      |
+|   29 | Josiah Boe            | Havre-MT                      | Havre Assembly Rebels |    85 |   9.44 |      |
+|   30 | Samuel March          | St. Cloud-MN                  | Gods Lighthouse       |    60 |   6.67 |      |
+|   31 | Samuel Mair           | New Albany-OH                 | Fluffy Panda Quizzers |    50 |   5.56 |      |
+|   31 | Ashley Okafor         | Richmond Hill-NY              | Bethlehem Church      |    50 |   5.56 |      |
+|   32 | McKinley Stevens      | Naperville-IL - S             | Naperville S          |    20 |   2.22 |      |
+|   33 | Christian Steele      | Mechanicsville-VA - Obedience | Contagious Obedience  |     5 |    .56 |      |
+|   33 | Jon Luc Jobson-Larkin | Richmond Hill-NY              | Bethlehem Church      |     5 |    .56 |      |
+|   34 | Michelle Aum          | Naperville-IL - C             | Naperville C          |       |    .00 |      |
+|   34 | Brianna Boodram       | Richmond Hill-NY              | Bethlehem Church      |       |    .00 |      |
+|   34 | Robert Trout (Jacob)  | Richmond Hill-NY              | Bethlehem Church      |       |    .00 |      |
 
 
 ### Lavender (L3)
@@ -748,13 +748,13 @@ menubar_toc_static:
 |   33 | Colson Sago          | Beulah-ND           | New Creatures                  |    85 |   9.44 |      |
 |   34 | Emma Stewart         | Tallahassee-FL      | More than Conquerers           |    80 |   8.89 |      |
 |   35 | Christian Shelton    | Wilmington-NC - Red | Wilmington Warriors Red Swords |    75 |   8.33 |      |
-|   36 | Anna scott witzenman | Wilmington-NC - Red | Wilmington Warriors Red Swords |    70 |   7.78 |      |
+|   36 | Anna Scott Witzenman | Wilmington-NC - Red | Wilmington Warriors Red Swords |    70 |   7.78 |      |
 |   37 | Savannah Robinson    | Greensboro-NC       | Biblecraft                     |    45 |   5.00 |      |
 |   38 | Rylin Taylor         | Billings-MT         | Billings New Life              |    40 |   4.44 |      |
 |   38 | John Kruger          | Beulah-ND           | New Creatures                  |    40 |   4.44 |      |
 |   38 | Rachel Nadia         | Warren-MI           | IAG Eagles                     |    40 |   4.44 |      |
 |   38 | Elijah Stewart       | Tallahassee-FL      | More than Conquerers           |    40 |   4.44 |      |
-|   39 | Kora Beth witzenman  | Wilmington-NC - Red | Wilmington Warriors Red Swords |    35 |   3.89 |      |
+|   39 | Kora Beth Witzenman  | Wilmington-NC - Red | Wilmington Warriors Red Swords |    35 |   3.89 |      |
 |   40 | Hope Alford          | Tallahassee-FL      | More than Conquerers           |    30 |   3.33 |      |
 |   40 | Joshua Baloga        | Greensboro-NC       | Biblecraft                     |    30 |   3.33 |      |
 |   41 | Brooke Bentz         | Billings-MT         | Billings New Life              |    10 |   1.11 |      |
@@ -1006,59 +1006,59 @@ menubar_toc_static:
 
 *Ties broken by QuizOuts (Scores sorted by TOTAL)*
 
-|    # | Quizzer              | Team                  | Church                           | Total |    Avg |   QO |
-| ---: | -------------------- | --------------------- | -------------------------------- | ----: | -----: | ---: |
-|    1 | Bobbie Barnes        | Benton-AR             | Kung Fu Quizzers                 |   930 | 103.33 |    4 |
-|    2 | Blake Garza          | Suwanee-GA            | Proventus Academy                |   825 |  91.67 |    4 |
-|    3 | Elizabeth Jones      | Springfield -MO - Dau | Daughters of the King            |   700 |  77.78 |    1 |
-|    4 | Brock Boehling       | Wilmingon-NC - White  | Wilmington Warriors White Swords |   645 |  71.67 |    3 |
-|    5 | Carter Garza         | Suwanee-GA            | Proventus Academy                |   605 |  67.22 |    2 |
-|    6 | Joy Escobar          | Waxahachie-TX         | En-Fuego                         |   595 |  66.11 |    1 |
-|    7 | Carmen Eisenbrandt   | Oswego-KS             | God Girls                        |   550 |  61.11 |      |
-|    8 | Ethan Sipes          | Bismarck-ND           | Power Up                         |   545 |  60.56 |      |
-|    9 | Jason Li             | Irvine-CA             | OCCEC Eagles                     |   480 |  53.33 |    4 |
-|   10 | Adalina Ma           | Irvine-CA             | OCCEC Eagles                     |   475 |  52.78 |      |
-|   11 | Raymond Harris       | West Mifflin-PA       | Light Knights                    |   465 |  51.67 |      |
-|   12 | Ismael Rodriguez     | Waxahachie-TX         | En-Fuego                         |   450 |  50.00 |    2 |
-|   13 | Annabel Tiong        | Irvine-CA             | OCCEC Eagles                     |   415 |  46.11 |      |
-|   14 | Cecillia Newby       | Oswego-KS             | God Girls                        |   380 |  42.22 |    1 |
-|   15 | Eric Bender          | Bismarck-ND           | Power Up                         |   350 |  38.89 |      |
-|   16 | Sedenia Dawit        | Springfield-VA        | Swordbearers                     |   330 |  36.67 |    1 |
-|   17 | Elijah Bohlen        | Bismarck-ND           | Power Up                         |   320 |  35.56 |    3 |
-|   18 | Levi Dawit           | Springfield-VA        | Swordbearers                     |   320 |  35.56 |      |
-|   19 | Corrie Lee Boehlinig | Wilmingon-NC - White  | Wilmington Warriors White Swords |   305 |  33.89 |    2 |
-|   20 | Kendra Winkleblech   | West Mifflin-PA       | Light Knights                    |   285 |  31.67 |      |
-|   21 | Bethel Dawit         | Springfield-VA        | Swordbearers                     |   265 |  29.44 |    2 |
-|   22 | Bittyn Glover        | Benton-AR             | Kung Fu Quizzers                 |   230 |  25.56 |    1 |
-|   23 | Rachel McDonald      | Wilmingon-NC - White  | Wilmington Warriors White Swords |   230 |  25.56 |      |
-|   24 | Hector Rivera        | Waxahachie-TX         | En-Fuego                         |   225 |  25.00 |    1 |
-|   25 | Delaney Reynolds     | Oswego-KS             | God Girls                        |   190 |  21.11 |      |
-|   26 | Hana Tariku          | Springfield-VA        | Swordbearers                     |   165 |  18.33 |      |
-|   27 | Shekinah Phelps      | Springfield -MO - Dau | Daughters of the King            |   160 |  17.78 |    1 |
-|   28 | Hannah Plake         | Springfield -MO - Dau | Daughters of the King            |   160 |  17.78 |      |
-|   28 | Anthony Raygoza      | West Mifflin-PA       | Light Knights                    |   160 |  17.78 |      |
-|   28 | Tyler Kelly          | Benton-AR             | Kung Fu Quizzers                 |   160 |  17.78 |      |
-|   29 | Abigail Jones        | Springfield -MO - Dau | Daughters of the King            |   155 |  17.22 |    1 |
-|   30 | Michele Zheng        | Irvine-CA             | OCCEC Eagles                     |   155 |  17.22 |      |
-|   31 | Ezekiel Bohlen       | Bismarck-ND           | Power Up                         |   150 |  16.67 |    1 |
-|   32 | Kimbre Earnest       | Benton-AR             | Kung Fu Quizzers                 |   120 |  13.33 |      |
-|   33 | Christian Dawit      | Springfield-VA        | Swordbearers                     |   110 |  12.22 |      |
-|   34 | Adrianna Raygoza     | West Mifflin-PA       | Light Knights                    |   105 |  11.67 |      |
-|   35 | Grace Noel           | Oswego-KS             | God Girls                        |    45 |   5.00 |      |
-|   36 | James Ragains        | Bismarck-ND           | Power Up                         |    15 |   1.67 |      |
-|   37 | Trinity Phelps       | Springfield -MO - Dau | Daughters of the King            |    10 |   1.11 |      |
-|   37 | Luke Ertzberger      | Wilmingon-NC - White  | Wilmington Warriors White Swords |    10 |   1.11 |      |
-|   38 | Carly McDonald       | Wilmingon-NC - White  | Wilmington Warriors White Swords |       |    .00 |      |
-|   38 | Solomon Kefyalew     | Springfield-VA        | Swordbearers                     |       |    .00 |      |
-|   38 | Daniel Solomon       | Springfield-VA        | Swordbearers                     |       |    .00 |      |
-|   38 | Hannah Noel          | Oswego-KS             | God Girls                        |       |    .00 |      |
-|   38 | Josh Moore           | West Mifflin-PA       | Light Knights                    |       |    .00 |      |
-|   38 | Blen Hailu           | Springfield-VA        | Swordbearers                     |       |    .00 |      |
-|   38 | Kacey Mayfield       | Oswego-KS             | God Girls                        |       |    .00 |      |
-|   38 | Luke Shelton         | Wilmingon-NC - White  | Wilmington Warriors White Swords |       |    .00 |      |
-|   38 | Jeweleann Davis      | Benton-AR             | Kung Fu Quizzers                 |       |    .00 |      |
-|   38 | Chalice sanders      | Benton-AR             | Kung Fu Quizzers                 |       |    .00 |      |
-|   38 | Lauren Green         | Benton-AR             | Kung Fu Quizzers                 |       |    .00 |      |
+|    # | Quizzer             | Team                  | Church                           | Total |    Avg |   QO |
+| ---: | ------------------- | --------------------- | -------------------------------- | ----: | -----: | ---: |
+|    1 | Bobbie Barnes       | Benton-AR             | Kung Fu Quizzers                 |   930 | 103.33 |    4 |
+|    2 | Blake Garza         | Suwanee-GA            | Proventus Academy                |   825 |  91.67 |    4 |
+|    3 | Elizabeth Jones     | Springfield -MO - Dau | Daughters of the King            |   700 |  77.78 |    1 |
+|    4 | Brock Boehling      | Wilmingon-NC - White  | Wilmington Warriors White Swords |   645 |  71.67 |    3 |
+|    5 | Carter Garza        | Suwanee-GA            | Proventus Academy                |   605 |  67.22 |    2 |
+|    6 | Joy Escobar         | Waxahachie-TX         | En-Fuego                         |   595 |  66.11 |    1 |
+|    7 | Carmen Eisenbrandt  | Oswego-KS             | God Girls                        |   550 |  61.11 |      |
+|    8 | Ethan Sipes         | Bismarck-ND           | Power Up                         |   545 |  60.56 |      |
+|    9 | Jason Li            | Irvine-CA             | OCCEC Eagles                     |   480 |  53.33 |    4 |
+|   10 | Adalina Ma          | Irvine-CA             | OCCEC Eagles                     |   475 |  52.78 |      |
+|   11 | Raymond Harris      | West Mifflin-PA       | Light Knights                    |   465 |  51.67 |      |
+|   12 | Ismael Rodriguez    | Waxahachie-TX         | En-Fuego                         |   450 |  50.00 |    2 |
+|   13 | Annabel Tiong       | Irvine-CA             | OCCEC Eagles                     |   415 |  46.11 |      |
+|   14 | Cecillia Newby      | Oswego-KS             | God Girls                        |   380 |  42.22 |    1 |
+|   15 | Eric Bender         | Bismarck-ND           | Power Up                         |   350 |  38.89 |      |
+|   16 | Sedenia Dawit       | Springfield-VA        | Swordbearers                     |   330 |  36.67 |    1 |
+|   17 | Elijah Bohlen       | Bismarck-ND           | Power Up                         |   320 |  35.56 |    3 |
+|   18 | Levi Dawit          | Springfield-VA        | Swordbearers                     |   320 |  35.56 |      |
+|   19 | Corrie Lee Boehling | Wilmingon-NC - White  | Wilmington Warriors White Swords |   305 |  33.89 |    2 |
+|   20 | Kendra Winkleblech  | West Mifflin-PA       | Light Knights                    |   285 |  31.67 |      |
+|   21 | Bethel Dawit        | Springfield-VA        | Swordbearers                     |   265 |  29.44 |    2 |
+|   22 | Bittyn Glover       | Benton-AR             | Kung Fu Quizzers                 |   230 |  25.56 |    1 |
+|   23 | Rachel McDonald     | Wilmingon-NC - White  | Wilmington Warriors White Swords |   230 |  25.56 |      |
+|   24 | Hector Rivera       | Waxahachie-TX         | En-Fuego                         |   225 |  25.00 |    1 |
+|   25 | Delaney Reynolds    | Oswego-KS             | God Girls                        |   190 |  21.11 |      |
+|   26 | Hana Tariku         | Springfield-VA        | Swordbearers                     |   165 |  18.33 |      |
+|   27 | Shekinah Phelps     | Springfield -MO - Dau | Daughters of the King            |   160 |  17.78 |    1 |
+|   28 | Hannah Plake        | Springfield -MO - Dau | Daughters of the King            |   160 |  17.78 |      |
+|   28 | Anthony Raygoza     | West Mifflin-PA       | Light Knights                    |   160 |  17.78 |      |
+|   28 | Tyler Kelly         | Benton-AR             | Kung Fu Quizzers                 |   160 |  17.78 |      |
+|   29 | Abigail Jones       | Springfield -MO - Dau | Daughters of the King            |   155 |  17.22 |    1 |
+|   30 | Michele Zheng       | Irvine-CA             | OCCEC Eagles                     |   155 |  17.22 |      |
+|   31 | Ezekiel Bohlen      | Bismarck-ND           | Power Up                         |   150 |  16.67 |    1 |
+|   32 | Kimbre Earnest      | Benton-AR             | Kung Fu Quizzers                 |   120 |  13.33 |      |
+|   33 | Christian Dawit     | Springfield-VA        | Swordbearers                     |   110 |  12.22 |      |
+|   34 | Adrianna Raygoza    | West Mifflin-PA       | Light Knights                    |   105 |  11.67 |      |
+|   35 | Grace Noel          | Oswego-KS             | God Girls                        |    45 |   5.00 |      |
+|   36 | James Ragains       | Bismarck-ND           | Power Up                         |    15 |   1.67 |      |
+|   37 | Trinity Phelps      | Springfield -MO - Dau | Daughters of the King            |    10 |   1.11 |      |
+|   37 | Luke Ertzberger     | Wilmingon-NC - White  | Wilmington Warriors White Swords |    10 |   1.11 |      |
+|   38 | Carly McDonald      | Wilmingon-NC - White  | Wilmington Warriors White Swords |       |    .00 |      |
+|   38 | Solomon Kefyalew    | Springfield-VA        | Swordbearers                     |       |    .00 |      |
+|   38 | Daniel Solomon      | Springfield-VA        | Swordbearers                     |       |    .00 |      |
+|   38 | Hannah Noel         | Oswego-KS             | God Girls                        |       |    .00 |      |
+|   38 | Josh Moore          | West Mifflin-PA       | Light Knights                    |       |    .00 |      |
+|   38 | Blen Hailu          | Springfield-VA        | Swordbearers                     |       |    .00 |      |
+|   38 | Kacey Mayfield      | Oswego-KS             | God Girls                        |       |    .00 |      |
+|   38 | Luke Shelton        | Wilmingon-NC - White  | Wilmington Warriors White Swords |       |    .00 |      |
+|   38 | Jeweleann Davis     | Benton-AR             | Kung Fu Quizzers                 |       |    .00 |      |
+|   38 | Chalice Sanders     | Benton-AR             | Kung Fu Quizzers                 |       |    .00 |      |
+|   38 | Lauren Green        | Benton-AR             | Kung Fu Quizzers                 |       |    .00 |      |
 
 
 ### Yellow (L8)

@@ -50,4 +50,4 @@ menubar_toc_static:
 | --------------- | -------------- | ----: |
 | Alyssa McKnight | Trinity 1      |   905 |
 | Meagan Busby    | Bethel, Temple |   890 |
-| E. J. Spears    | Trinity 2      |   680 |
+| E.J. Spears     | Trinity 2      |   680 |

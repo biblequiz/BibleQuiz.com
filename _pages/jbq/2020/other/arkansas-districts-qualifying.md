@@ -84,24 +84,24 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                | Team                        | Total |  Avg |   QO |   Q% |
-| -------: | ---------------------- | --------------------------- | ----: | ---: | ---: | ---: |
-|        1 | Noah Brady             | Change Point (Change Point) |   250 | 83.3 |    2 | 100% |
-|        2 | Kayden Johnson         | Bethel (Bethel)             |   250 | 83.3 |    1 |  87% |
-|        3 | Jayden Maris           | Change Point (Change Point) |   145 | 48.3 |    1 |  90% |
-|        4 | Lexi Shalter           | McArthur A (McArthur)       |   100 | 33.3 |      |  67% |
-|        5 | Karter Ballard         | McArthur A (McArthur)       |    80 | 26.7 |      | 100% |
-|        6 | Joshua Clark           | McArthur A (McArthur)       |    75 |   25 |      |  73% |
-|        7 | Taylinn Cotner         | McArthur A (McArthur)       |    70 | 23.3 |      | 100% |
-|        8 | Trevor Maris           | Change Point (Change Point) |    60 |   20 |      | 100% |
-|        9 | Kayden Moore           | Bethel (Bethel)             |    30 |   10 |      |  67% |
-|       10 | Lyle Wake              | Buzz Hogs (River of Life)   |    10 |  3.3 |      |  45% |
-|       11 | Connor Carlisle        | Change Point (Change Point) |     0 |      |      |      |
-| **\*11** | Reece Anne Hall-Folsom | Buzz Hogs (River of Life)   |     0 |      |      |      |
-| **\*11** | Caleb Hoofman          | Buzz Hogs (River of Life)   |     0 |      |      |      |
-| **\*11** | Mikaela Herbert        | Bethel (Bethel)             |     0 |      |      |      |
-| **\*11** | Mel Stone              | McArthur A (McArthur)       |     0 |      |      |      |
-| **\*11** | Addison Cotner         | McArthur A (McArthur)       |     0 |      |      |      |
+|        # | Quizzer               | Team                        | Total |  Avg |   QO |   Q% |
+| -------: | --------------------- | --------------------------- | ----: | ---: | ---: | ---: |
+|        1 | Noah Brady            | Change Point (Change Point) |   250 | 83.3 |    2 | 100% |
+|        2 | Kayden Johnson        | Bethel (Bethel)             |   250 | 83.3 |    1 |  87% |
+|        3 | Jayden Maris          | Change Point (Change Point) |   145 | 48.3 |    1 |  90% |
+|        4 | Lexi Shalter          | McArthur A (McArthur)       |   100 | 33.3 |      |  67% |
+|        5 | Karter Ballard        | McArthur A (McArthur)       |    80 | 26.7 |      | 100% |
+|        6 | Joshua Clark          | McArthur A (McArthur)       |    75 |   25 |      |  73% |
+|        7 | Taylinn Cotner        | McArthur A (McArthur)       |    70 | 23.3 |      | 100% |
+|        8 | Trevor Maris          | Change Point (Change Point) |    60 |   20 |      | 100% |
+|        9 | Kayden Moore          | Bethel (Bethel)             |    30 |   10 |      |  67% |
+|       10 | Lyle Wake             | Buzz Hogs (River of Life)   |    10 |  3.3 |      |  45% |
+|       11 | Connor Carlisle       | Change Point (Change Point) |     0 |      |      |      |
+| **\*11** | Reece Ann Hall-Folsom | Buzz Hogs (River of Life)   |     0 |      |      |      |
+| **\*11** | Caleb Hoofman         | Buzz Hogs (River of Life)   |     0 |      |      |      |
+| **\*11** | Mikaela Herbert       | Bethel (Bethel)             |     0 |      |      |      |
+| **\*11** | Mel Stone             | McArthur A (McArthur)       |     0 |      |      |      |
+| **\*11** | Addison Cotner        | McArthur A (McArthur)       |     0 |      |      |      |
 
 
 ## North Central Area - 5th & 6th Grade

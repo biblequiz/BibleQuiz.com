@@ -57,7 +57,7 @@ menubar_toc_static:
 |   23 | Katie Dowers      | Lakeview           |   165 | 18.3 |
 |   24 | Josh Clark        | James River (John) |   150 | 16.7 |
 |   25 | Jenna Klein       | Lansing            |   120 | 13.3 |
-|   26 | Elisa hodge       | Lakeview           |   110 | 12.2 |
+|   26 | Elisa Hodge       | Lakeview           |   110 | 12.2 |
 |   27 | Matthew Coder     | Cary/Coder         |    90 | 10.0 |
 |   28 | David Cherry      | White Cloud 2      |    80 |  8.9 |
 |   29 | Celah Convis      | Lansing            |    60 |  6.7 |
@@ -153,7 +153,7 @@ menubar_toc_static:
 |    6 | Gavin Griffith       | James River (Angie)    |   680 |  75.6 |
 |    7 | Megumi Sinniah       | James River (Wade)     |   620 |  68.9 |
 |    8 | Zara Rethman         | James River (George)   |   515 |  57.2 |
-|    9 | Jacob ohierking      | Ozark Christian        |   505 |  56.1 |
+|    9 | Jacob Ohierking      | Ozark Christian        |   505 |  56.1 |
 |   10 | Renee Thiele         | Saver (Lorna)          |   495 |  55.0 |
 |   11 | Kelise Braithwaite   | James River (Danielle) |   460 |  51.1 |
 |   12 | Madison Finch        | Pendleton Rock         |   425 |  47.2 |

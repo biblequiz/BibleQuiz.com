@@ -9,7 +9,7 @@ image: "olympic.jpg"
 published: true
 ---
 
-Here is the February 2018 edition of the National Bible Quiz Newsletter.
+Here is the February 2018 edition of the National Bible Quiz Newsletter.
 
 <a href="{% link assets/2018/Feb-2018.pdf %}" class="button is-primary">Download Now</a>
 

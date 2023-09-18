@@ -318,7 +318,7 @@ menubar_toc_static:
 | **\*59** | Faith Anderson          | Fargo-ND        |       |      |      |      |      |      |      |
 | **\*59** | Griffin Motley          | Harrison-AR     |       |      |      |      |      |      |      |
 | **\*59** | Justus Lawrence         | Harrison-AR     |       |      |      |      |      |      |      |
-| **\*59** | Leah D`Alessio          | Bridgewater-NJ  |       |      |      |      |      |      |      |
+| **\*59** | Leah D'Alessio          | Bridgewater-NJ  |       |      |      |      |      |      |      |
 | **\*59** | Nathan Araujo           | Oak Creek-WI    |       |      |      |      |      |      |      |
 |       60 | Niara Chandler          | Naperville-IL   |    -5 |  -.3 |      |  50% |      |      |    1 |
 
@@ -671,7 +671,7 @@ menubar_toc_static:
 |       34 | Darien Edward            | Naperville-IL  |    20 |   2.2 |      | 100% |      |    1 |      |
 | **\*34** | Elise Williams           | Nixa-MO        |    20 |   2.2 |      | 100% |      |      |    2 |
 |       35 | Chika Iwuogaranya        | Garland-TX     |       |       |      |      |      |      |      |
-| **\*35** | Leah D`Alessio           | Bridgewater-NJ |       |       |      |      |      |      |      |
+| **\*35** | Leah D'Alessio           | Bridgewater-NJ |       |       |      |      |      |      |      |
 | **\*35** | Niara Chandler           | Naperville-IL  |       |       |      |      |      |      |      |
 
 *\* Tie couldn't be broken by tie breaking rules.*

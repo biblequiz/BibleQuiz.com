@@ -25,7 +25,7 @@ menubar_toc_static:
 |    # | Quizzer          | Church   | Total |   Avg |
 | ---: | ---------------- | -------- | ----: | ----: |
 |    1 | Cameron Berta    | The Oaks |   580 | 96.67 |
-|    2 | Andrew VanHorn   | Harvest  |   435 |  72.5 |
+|    2 | Andrew Van Horn  | Harvest  |   435 |  72.5 |
 |    3 | Susanna Ferguson | Trinity  |   340 | 56.67 |
-|    4 | JB VanHorn       | Harvest  |   220 | 36.67 |
+|    4 | J.B. Van Horn    | Harvest  |   220 | 36.67 |
 |    5 | Andrew Garcia    | The Oaks |   120 |    20 |

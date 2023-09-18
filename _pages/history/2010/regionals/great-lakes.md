@@ -125,52 +125,52 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer             | Team                                             |  Avg | Total | QO Fwd | QO Bk |
-| ---: | ------------------- | ------------------------------------------------ | ---: | ----: | -----: | ----: |
-|    1 | Brayden Laakkonen   | First Assembly - Lexington, KY                   | 89.6 |  1165 |      9 |     2 |
-|    2 | Lucas Myers         | Rochester 1st Assembly - Rochester Hills, MI     | 86.5 |  1125 |      9 |     1 |
-|    3 | Zachary Clough      | 1st Assembly Greater Lansing - East Lansing, MI  | 70.4 |   915 |     10 |     2 |
-|    4 | Jonathan Burd       | Southwest Assembly - Fort Wayne, IN              | 64.2 |   835 |      6 |     4 |
-|    5 | Daniel Buffham      | 1st Assembly Greater Lansing - East Lansing, MI  | 61.2 |   795 |      5 |     2 |
-|    6 | Grace Ishikawa      | Lakeview Church - Indianapolis, IN               | 56.5 |   735 |      5 |     0 |
-|    7 | Ashley Johnson      | Trinity Assembly #1 - Georgetown, KY             | 52.7 |   685 |      4 |     1 |
-|    8 | Michael Limentato   | Meadowbrook - Champaign, IL                      | 45.4 |   590 |      6 |     1 |
-|    9 | Kameron Sorensen    | Living Hope Church - Merrillville, IN            | 43.8 |   570 |      5 |     4 |
-|   10 | Kathleen Muloma     | Lakeview Church - Indianapolis, IN               | 42.3 |   550 |      4 |     2 |
-|   11 | Shan Antony         | Calvary Assembly - Elkhart, IN                   | 36.5 |   475 |      1 |     0 |
-|   12 | Cody Donovan        | Auburn Hills Christian Center - Auburn Hills, MI | 36.2 |   470 |      2 |     4 |
-|   13 | Seth Imbrunone      | Auburn Hills Christian Center - Auburn Hills, MI | 33.5 |   435 |      0 |     1 |
-|   14 | Josie Gidman        | Calvary Assembly - Elkhart, IN                   | 32.7 |   425 |      1 |     0 |
-|   15 | Sarah Neeper        | Calvary Assembly - Toledo, OH                    | 30.8 |   400 |      1 |     0 |
-|   16 | Courtney Turner     | Trinity Assembly #2 - Georgetown, KY             | 29.6 |   385 |      0 |     0 |
-|   17 | Jonathan Steinbach  | Trinity Assembly #2 - Georgetown, KY             | 26.2 |   340 |      0 |     0 |
-|   18 | Jenna Klein         | 1st Assembly Greater Lansing - East Lansing, MI  | 23.8 |   310 |      0 |     0 |
-|   19 | Austin Harr         | 1st Assembly Greater Lansing - East Lansing, MI  | 23.1 |   300 |      2 |     0 |
-|   20 | Michael Sawczak     | Living Hope Church - Merrillville, IN            | 23.1 |   300 |      0 |     0 |
-|   21 | Alex McCracken      | First Assembly - Lexington, KY                   | 21.9 |   285 |      1 |     0 |
-|   22 | Tyler Snodderly     | Southwest Assembly - Fort Wayne, IN              | 21.5 |   280 |      1 |     0 |
-|   23 | Joey Ufolla         | Rochester 1st Assembly - Rochester Hills, MI     | 18.1 |   235 |      0 |     0 |
-|   24 | Olivia Scott        | Meadowbrook - Champaign, IL                      | 18.1 |   235 |      0 |     2 |
-|   25 | Wesley Wilson       | Calvary Assembly - Toledo, OH                    | 16.5 |   215 |      0 |     1 |
-|   26 | Jessica Lowe        | Bethel Temple "Power of One" - Huntington, WV    | 14.2 |   185 |      1 |     1 |
-|   27 | Max Hamer           | Auburn Hills Christian Center - Auburn Hills, MI | 13.8 |   180 |      0 |     0 |
-|   28 | Marina Tinney       | Trinity Assembly #1 - Georgetown, KY             | 12.3 |   160 |      1 |     0 |
-|   29 | Kelsi Morris        | Trinity Assembly #2 - Georgetown, KY             | 11.2 |   145 |      0 |     0 |
-|   30 | Caroline Dillplane  | Rochester 1st Assembly - Rochester Hills, MI     | 10.4 |   135 |      0 |     0 |
-|   31 | Elena Hutchinson    | Living Hope Church - Merrillville, IN            |  9.2 |   120 |      0 |     0 |
-|   32 | Caleb Harmon        | The Stone Church - Palos Heights, IL             |  8.8 |   115 |      0 |     0 |
-|   33 | Kyle McNamara       | The Stone Church - Palos Heights, IL             |  2.3 |    30 |      0 |     0 |
-|   34 | Madeline Headtke    | Meadowbrook - Champaign, IL                      |  1.5 |    20 |      0 |     0 |
-|   35 | Sam Daniel          | Bethel Temple "Power of One" - Huntington, WV    |  1.2 |    15 |      0 |     1 |
-|   36 | Lisa Andrews        | 1st Assembly Greater Lansing - East Lansing, MI  |  0.8 |    10 |      0 |     0 |
-|   37 | Jake Daniel         | Bethel Temple "Power of One" - Huntington, WV    |  0.8 |    10 |      0 |     0 |
-|   38 | Evan Clements       | The Stone Church - Palos Heights, IL             |  0.8 |    10 |      0 |     0 |
-|   39 | David Beckberger Jr | The Stone Church - Palos Heights, IL             |  0.8 |    10 |      0 |     0 |
-|   40 | Nicholle Robinson   | Rochester 1st Assembly - Rochester Hills, MI     |  0.8 |    10 |      0 |     0 |
-|   41 | Tiffany Wolf        | Southwest Assembly - Fort Wayne, IN              |  0.8 |    10 |      0 |     0 |
-|   42 | Matt Butler         | Calvary Assembly - Elkhart, IN                   |  0.8 |    10 |      0 |     0 |
-|   43 | Ryan Blue           | Auburn Hills Christian Center - Auburn Hills, MI |  0.8 |    10 |      0 |     0 |
-|   44 | Kaylor Sheehy       | Living Hope Church - Merrillville, IN            |  0.8 |    10 |      0 |     0 |
-|   45 | Sobe Anidobu        | The Stone Church - Palos Heights, IL             |  0.4 |     5 |      0 |     0 |
-|   46 | Julie Graham        | Meadowbrook - Champaign, IL                      | -0.8 |   -10 |      0 |     0 |
-|   47 | Brianne Grup        | Calvary Assembly - Toledo, OH                    | -1.2 |   -15 |      0 |     0 |
+|    # | Quizzer            | Team                                             |  Avg | Total | QO Fwd | QO Bk |
+| ---: | ------------------ | ------------------------------------------------ | ---: | ----: | -----: | ----: |
+|    1 | Brayden Laakkonen  | First Assembly - Lexington, KY                   | 89.6 |  1165 |      9 |     2 |
+|    2 | Lucas Myers        | Rochester 1st Assembly - Rochester Hills, MI     | 86.5 |  1125 |      9 |     1 |
+|    3 | Zachary Clough     | 1st Assembly Greater Lansing - East Lansing, MI  | 70.4 |   915 |     10 |     2 |
+|    4 | Jonathan Burd      | Southwest Assembly - Fort Wayne, IN              | 64.2 |   835 |      6 |     4 |
+|    5 | Daniel Buffham     | 1st Assembly Greater Lansing - East Lansing, MI  | 61.2 |   795 |      5 |     2 |
+|    6 | Grace Ishikawa     | Lakeview Church - Indianapolis, IN               | 56.5 |   735 |      5 |     0 |
+|    7 | Ashley Johnson     | Trinity Assembly #1 - Georgetown, KY             | 52.7 |   685 |      4 |     1 |
+|    8 | Michael Limentato  | Meadowbrook - Champaign, IL                      | 45.4 |   590 |      6 |     1 |
+|    9 | Kameron Sorensen   | Living Hope Church - Merrillville, IN            | 43.8 |   570 |      5 |     4 |
+|   10 | Kathleen Muloma    | Lakeview Church - Indianapolis, IN               | 42.3 |   550 |      4 |     2 |
+|   11 | Shan Antony        | Calvary Assembly - Elkhart, IN                   | 36.5 |   475 |      1 |     0 |
+|   12 | Cody Donovan       | Auburn Hills Christian Center - Auburn Hills, MI | 36.2 |   470 |      2 |     4 |
+|   13 | Seth Imbrunone     | Auburn Hills Christian Center - Auburn Hills, MI | 33.5 |   435 |      0 |     1 |
+|   14 | Josie Gidman       | Calvary Assembly - Elkhart, IN                   | 32.7 |   425 |      1 |     0 |
+|   15 | Sarah Neeper       | Calvary Assembly - Toledo, OH                    | 30.8 |   400 |      1 |     0 |
+|   16 | Courtney Turner    | Trinity Assembly #2 - Georgetown, KY             | 29.6 |   385 |      0 |     0 |
+|   17 | Jonathan Steinbach | Trinity Assembly #2 - Georgetown, KY             | 26.2 |   340 |      0 |     0 |
+|   18 | Jenna Klein        | 1st Assembly Greater Lansing - East Lansing, MI  | 23.8 |   310 |      0 |     0 |
+|   19 | Austin Harr        | 1st Assembly Greater Lansing - East Lansing, MI  | 23.1 |   300 |      2 |     0 |
+|   20 | Michael Sawczak    | Living Hope Church - Merrillville, IN            | 23.1 |   300 |      0 |     0 |
+|   21 | Alex McCracken     | First Assembly - Lexington, KY                   | 21.9 |   285 |      1 |     0 |
+|   22 | Tyler Snodderly    | Southwest Assembly - Fort Wayne, IN              | 21.5 |   280 |      1 |     0 |
+|   23 | Joey Ufolla        | Rochester 1st Assembly - Rochester Hills, MI     | 18.1 |   235 |      0 |     0 |
+|   24 | Olivia Scott       | Meadowbrook - Champaign, IL                      | 18.1 |   235 |      0 |     2 |
+|   25 | Wesley Wilson      | Calvary Assembly - Toledo, OH                    | 16.5 |   215 |      0 |     1 |
+|   26 | Jessica Lowe       | Bethel Temple "Power of One" - Huntington, WV    | 14.2 |   185 |      1 |     1 |
+|   27 | Max Hamer          | Auburn Hills Christian Center - Auburn Hills, MI | 13.8 |   180 |      0 |     0 |
+|   28 | Marina Tinney      | Trinity Assembly #1 - Georgetown, KY             | 12.3 |   160 |      1 |     0 |
+|   29 | Kelsi Morris       | Trinity Assembly #2 - Georgetown, KY             | 11.2 |   145 |      0 |     0 |
+|   30 | Caroline Dillplane | Rochester 1st Assembly - Rochester Hills, MI     | 10.4 |   135 |      0 |     0 |
+|   31 | Elena Hutchinson   | Living Hope Church - Merrillville, IN            |  9.2 |   120 |      0 |     0 |
+|   32 | Caleb Harmon       | The Stone Church - Palos Heights, IL             |  8.8 |   115 |      0 |     0 |
+|   33 | Kyle McNamara      | The Stone Church - Palos Heights, IL             |  2.3 |    30 |      0 |     0 |
+|   34 | Madeline Headtke   | Meadowbrook - Champaign, IL                      |  1.5 |    20 |      0 |     0 |
+|   35 | Sam Daniel         | Bethel Temple "Power of One" - Huntington, WV    |  1.2 |    15 |      0 |     1 |
+|   36 | Lisa Andrews       | 1st Assembly Greater Lansing - East Lansing, MI  |  0.8 |    10 |      0 |     0 |
+|   37 | Jake Daniel        | Bethel Temple "Power of One" - Huntington, WV    |  0.8 |    10 |      0 |     0 |
+|   38 | Evan Clements      | The Stone Church - Palos Heights, IL             |  0.8 |    10 |      0 |     0 |
+|   39 | David Beckberger   | The Stone Church - Palos Heights, IL             |  0.8 |    10 |      0 |     0 |
+|   40 | Nicholle Robinson  | Rochester 1st Assembly - Rochester Hills, MI     |  0.8 |    10 |      0 |     0 |
+|   41 | Tiffany Wolf       | Southwest Assembly - Fort Wayne, IN              |  0.8 |    10 |      0 |     0 |
+|   42 | Matt Butler        | Calvary Assembly - Elkhart, IN                   |  0.8 |    10 |      0 |     0 |
+|   43 | Ryan Blue          | Auburn Hills Christian Center - Auburn Hills, MI |  0.8 |    10 |      0 |     0 |
+|   44 | Kaylor Sheehy      | Living Hope Church - Merrillville, IN            |  0.8 |    10 |      0 |     0 |
+|   45 | Sobe Anidobu       | The Stone Church - Palos Heights, IL             |  0.4 |     5 |      0 |     0 |
+|   46 | Julie Graham       | Meadowbrook - Champaign, IL                      | -0.8 |   -10 |      0 |     0 |
+|   47 | Brianne Grup       | Calvary Assembly - Toledo, OH                    | -1.2 |   -15 |      0 |     0 |

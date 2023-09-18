@@ -97,18 +97,16 @@ menubar_toc_static:
 |   54 | Kendall Facer      | Dayspring Assembly                        |    20 |   1.18 |    0 |
 |   55 | Teaghen Reader     | HighPoint "Super Apostles"                |    10 |   0.59 |    0 |
 |   56 | Seth Urbina        | Stoney River                              |     0 |      0 |    0 |
-|   57 | Quizzer 4          | Braeswood Assembly                        |     0 |      0 |    0 |
-|   58 | Quizzer 5          | Braeswood Assembly                        |     0 |      0 |    0 |
-|   59 | Seth Urbina        | HighPoint "Super Apostles"                |     0 |      0 |    0 |
-|   60 | Jordan Longstreth  | HighPoint "Super Apostles"                |     0 |      0 |    0 |
-|   61 | Hayley DePriest    | JRAG "Strict Training"                    |     0 |      0 |    0 |
-|   62 | Melanie Brodsky    | Living Hope Church (LHC)                  |     0 |      0 |    0 |
-|   63 | Jeremiah Boylan    | Muskogee "C.O.P.S."                       |     0 |      0 |    0 |
-|   64 | Mikayla Majeski    | Orange County "Not Talk But Power"        |     0 |      0 |    0 |
-|   65 | Rachel Firestone   | Christian Chapel                          |    -5 |  -0.29 |    0 |
-|   66 | Marshall Kobylski  | Dayspring Assembly                        |   -20 |  -1.18 |    0 |
-|   67 | Arinze Onyenezi    | Braeswood Assembly                        |   -25 |  -1.47 |    0 |
-|   68 | Dane Kuroishi      | Orange County "Not Talk But Power"        |   -25 |  -1.47 |    0 |
+|   57 | Seth Urbina        | HighPoint "Super Apostles"                |     0 |      0 |    0 |
+|   58 | Jordan Longstreth  | HighPoint "Super Apostles"                |     0 |      0 |    0 |
+|   59 | Hayley DePriest    | JRAG "Strict Training"                    |     0 |      0 |    0 |
+|   60 | Melanie Brodsky    | Living Hope Church (LHC)                  |     0 |      0 |    0 |
+|   61 | Jeremiah Boylan    | Muskogee "C.O.P.S."                       |     0 |      0 |    0 |
+|   62 | Mikayla Majeski    | Orange County "Not Talk But Power"        |     0 |      0 |    0 |
+|   63 | Rachel Firestone   | Christian Chapel                          |    -5 |  -0.29 |    0 |
+|   64 | Marshall Kobylski  | Dayspring Assembly                        |   -20 |  -1.18 |    0 |
+|   65 | Arinze Onyenezi    | Braeswood Assembly                        |   -25 |  -1.47 |    0 |
+|   66 | Dane Kuroishi      | Orange County "Not Talk But Power"        |   -25 |  -1.47 |    0 |
 
 ## Contender
 

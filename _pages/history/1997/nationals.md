@@ -60,8 +60,8 @@ Jeremy Horn won the scholarship quiz at the banquet. Participants in the quiz in
 |   23 | First A/G, Fort Myers, FL (Team 2)   | 4 / 19  |  1450 |  63.04 |  -2455 |    -106.74 |
 |   24 | First A/G, Warner Robbins, GA        | 2 / 21  |  1235 |   53.7 |  -2245 |     -97.61 |
 
-\* Won 2nd Place Playoff
-\*\* Won 3rd Place Playoff
+\* Won 2nd Place Playoff
+\*\* Won 3rd Place Playoff
 
 ### Individuals
 
@@ -117,7 +117,7 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 |        46 | Rachel Jones        | Radiant Church, Colorado Springs, CO |   500 |  21.74 |      1 |     2 |
 |        47 | Amy Swanson         | Minier A/G, Minier, IL               |   370 |  16.09 |        |       |
 |        48 | Brandon Moore       | First A/G, Phoenix, AZ               |   335 |  14.57 |        |     1 |
-|        49 | Michelle S. Beaver  | First A/G, Oskaloosa, IA             |   325 |  14.13 |        |       |
+|        49 | Michelle Beaver     | First A/G, Oskaloosa, IA             |   325 |  14.13 |        |       |
 |        50 | Michael Kindel      | Watford A/G, Watford City, ND        |   320 |  13.91 |      1 |     3 |
 |        51 | DeAndre Johnson     | First A/G, Shreveport, LA            |   315 |   13.7 |        |       |
 |        52 | Jeffrey Kindel      | Watford A/G, Watford City, ND        |   310 |  13.48 |      1 |     6 |
@@ -126,7 +126,7 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
 |  **54\*** | Shane Welborn       | First A/G, Fort Myers, FL (Team 2)   |   255 |  11.09 |        |       |
 |        56 | Adam Bennison       | First A/G, Helena, MT                |   250 |  10.87 |        |     2 |
 |        57 | Jennifer Martin     | Harvest A/G, Fort Worth, TX          |   245 |  10.65 |        |       |
-|  **57\*** | Terry Nance, Jr.    | Mountain View A/G, Las Vegas, NV     |   245 |  10.65 |        |     2 |
+|  **57\*** | Terry Nance         | Mountain View A/G, Las Vegas, NV     |   245 |  10.65 |        |     2 |
 |        59 | Kyle Rogers         | Victorious Life, Waco, TX            |   230 |     10 |      1 |     1 |
 |        60 | Eric Peeters        | Life Community Church, Sunnyvale, TX |   210 |   9.13 |        |       |
 |        61 | Laurel Phillips     | First A/G, Helena, MT                |   190 |   8.26 |        |       |
@@ -407,7 +407,7 @@ Playoff 1: Lost to Central A/G, Springfield, MO 70 to 115
 * **Pastor**: Harold Schutte
 * **Coaches**: Charlotte Beyer, Susan Beaver
 * **Team**:
-    * Michelle S. Beaver
+    * Michelle Beaver
     * Krisha Beyer
     * Jon Higgins
 * **Round Robin**:
@@ -1024,7 +1024,7 @@ Playoff 1: Lost to Victorious Life Church, Waco, TX 140 to 175
     * Faith Alwood
     * Alex Harris
     * Valerie Marchalonis
-    * Terry Nance, Jr.
+    * Terry Nance
 * **Round Robin**:
   * Round 1: Lost to Alpha A/G, Clarion, PA 75 to 195
   * Round 2: Lost to Watford City A/G, Watford City, ND 45 to 135

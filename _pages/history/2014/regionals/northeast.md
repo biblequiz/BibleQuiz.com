@@ -81,7 +81,7 @@ menubar_toc_static:
 |   35 | Eve Vargas                | Praise AG "Ohhimark"                           | Garfield NJ        |   100 |   6.67 |      |
 |   36 | James Khor                | New Day AG "Final Charge"                      | Upper St. Clair PA |    90 |   6.00 |      |
 |   37 | Michael Brunell           | Emmanuel AG "GWWEH"                            | Allentown PA       |    70 |   4.67 |      |
-|   38 | Julie Anna Cherednichenko | First AG                                       | Binghamton NY      |    50 |   3.33 |      |
+|   38 | Julie-Anna Cherednichenko | First AG                                       | Binghamton NY      |    50 |   3.33 |      |
 |   39 | Alex Stewart              | Bethany Church "Thoroughly Equipped"           | Wyckoff NJ         |    30 |   2.00 |      |
 |   39 | Sadya Ouedraogo           | Word of Life AG                                | Springfield VA     |    30 |   2.00 |      |
 |   39 | Jacob Carty               | Living Hope WC "Worthy Women with Labor Pains" | Swedesboro NJ      |    30 |   2.00 |      |
@@ -153,7 +153,7 @@ menubar_toc_static:
 |   15 | Alex Bradley        | New Day AG "Sons of Blazing Fire"                | Upper St. Clair PA |   760 |  58.46 |    4 |
 |   16 | Justin Reid         | New Day AG "Sons of Blazing Fire"                | Upper St. Clair PA |   725 |  55.77 |    6 |
 |   17 | Aidan McIntire      | Evangel Heights AG "Blazing Encouragement"       | Sarver PA          |   700 |  53.85 |    5 |
-|   18 | Mikkalah Patterson  | Fountain of Life Center                          | Burlington NJ      |   635 |  48.85 |    4 |
+|   18 | Mik'kalah Patterson | Fountain of Life Center                          | Burlington NJ      |   635 |  48.85 |    4 |
 |   19 | Seth Misak          | South Hills AG "Flaming Swords of the Archangel" | Bethel Park PA     |   625 |  48.08 |    4 |
 |   20 | Sydney Avery        | Kennebec Valley AG "L2PG"                        | Chelsea ME         |   565 |  43.46 |    5 |
 |   21 | Alex Thornton       | South Hills AG "Addicted to Jesus"               | Bethel Park PA     |   550 |  42.31 |    2 |

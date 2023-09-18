@@ -32,7 +32,7 @@ menubar_toc_static:
 
 |    # | Quizzer          | Team                              | Total |   QO |
 | ---: | ---------------- | --------------------------------- | ----: | ---: |
-|    1 | C.J.Barna        | South Hills A/G, Bethel Park, PA  |   930 |    6 |
+|    1 | C.J. Barna       | South Hills A/G, Bethel Park, PA  |   930 |    6 |
 |    2 | Bryce Steel      | Calvary A/G, Toledo, OH           |   890 |    5 |
 |    3 | Katie Chenco     | Living Waters Chapel, Lebanon, PA |   865 |    4 |
 |    4 | Lori Rozgonyi    | Monroeville A/G, Monroeville,PA   |   665 |    3 |

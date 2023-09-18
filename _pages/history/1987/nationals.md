@@ -55,7 +55,7 @@ The top scorer at the 1987 National Finals was Tammy Yost of First A/G, Branford
 |   16 | St. Clair Shores A/G, St. Clair Shores, MI   | 3 / 13 |  1250 |  78.13 |  -1050 |     -65.63 |
 |   17 | Bethel A/G, Jacksonville, NC                 | 1 / 15 |   685 |  42.81 |  -2095 |    -130.94 |
 
-\* Won 2nd Place Playoff
+\* Won 2nd Place Playoff
 
 ### Individuals
 

@@ -15,4 +15,4 @@ Thanks to Jared Hill, you're covered. He just released 26 sets of District Final
 
 You can download them today from our [Questions page]({% link _pages/questions.md %}).
 
-Please thank Jared by leaving a comment below. Also leave a comment if you spot any invalid questions.
+Please thank Jared by leaving a comment below. Also leave a comment if you spot any invalid questions.

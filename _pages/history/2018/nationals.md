@@ -52,7 +52,7 @@ menubar_toc_static:
 | 7   | Shreanna Powell       | 08 Calvary Church (Naperville, IL)                      | 1455  | 76.6 | 12  | 15  | 41  | 19  |
 | 8   | Joshua Barajas        | 17 Trinity Church (Cedar Hill, TX)                      | 1450  | 76.3 | 10  | 17  | 54  | 5   |
 | 9   | Cameron Ramsey        | 10 Life 360 (Springfield, MO)                           | 1380  | 72.6 | 8   | 9   | 44  | 19  |
-| 10  | Tirzah Brookbank      | 07 Crown Point (Lee\`s Summit, MO)                      | 1375  | 72.4 | 10  | 17  | 45  | 11  |
+| 10  | Tirzah Brookbank      | 07 Crown Point (Lee's Summit, MO)                       | 1375  | 72.4 | 10  | 17  | 45  | 11  |
 | 11  | Sheldon Powell        | 08 Calvary Church (Naperville, IL)                      | 1360  | 71.6 | 14  | 7   | 30  | 46  |
 | 12  | Madison Holcomb       | 20 Evangel Heights (Sarver, PA)                         | 1340  | 70.5 | 7   | 13  | 44  | 17  |
 | 13  | Seth Robertson        | 02 Central AG (Houston, PA)                             | 1185  | 62.4 | 8   | 7   | 47  | 17  |
@@ -70,7 +70,7 @@ menubar_toc_static:
 | 25  | Cayla Brodeur         | 09 Bethany Church (Wyckoff, NJ)                         | 915   | 48.2 | 8   | 1   | 27  | 40  |
 | 26  | Faith King            | 03 Memorial AG (Purcell, OK)                            | 850   | 44.7 | 6   | 2   | 23  | 42  |
 | 27  | Cecily Houser         | 11 Cedar Park (Nearly Swamped) (Bothell, WA)            | 850   | 44.7 | 2   | 10  | 32  | 5   |
-| 28  | Rachel Brookbank      | 07 Crown Point (Lee\`s Summit, MO)                      | 835   | 43.9 | 8   | 1   | 20  | 49  |
+| 28  | Rachel Brookbank      | 07 Crown Point (Lee's Summit, MO)                       | 835   | 43.9 | 8   | 1   | 20  | 49  |
 | 29  | Logan Webb            | 02 Central AG (Houston, PA)                             | 805   | 42.4 | 5   | 2   | 15  | 46  |
 | 30  | Darcie Harr           | 06 1st AG of Greater Lansing (Greater Lansing, MI)      | 785   | 41.3 | 5   | 5   | 26  | 27  |
 | 31  | Sydney Bollinger      | 20 Evangel Heights (Sarver, PA)                         | 745   | 39.2 | 5   | 1   | 11  | 54  |
@@ -84,7 +84,7 @@ menubar_toc_static:
 | 39  | Samuel Dawson         | 05 Tacoma Life Center AG (Tacoma, WA)                   | 470   | 24.7 | 5   | 0   | 6   | 41  |
 | 40  | Wyatt Peterson        | 05 Tacoma Life Center AG (Tacoma, WA)                   | 460   | 24.2 | 1   | 1   | 20  | 19  |
 | 41  | David Moses           | 18 Dream City Church (Scottsdale, AZ)                   | 390   | 20.5 | 1   | 0   | 7   | 34  |
-| 42  | Josiah Brookbank      | 07 Crown Point (Lee\`s Summit, MO)                      | 380   | 20   | 0   | 0   | 15  | 20  |
+| 42  | Josiah Brookbank      | 07 Crown Point (Lee's Summit, MO)                       | 380   | 20   | 0   | 0   | 15  | 20  |
 | 43  | Divya Mathews         | 14 Word of Life (Springfield, VA)                       | 360   | 18.9 | 2   | 0   | 14  | 24  |
 | 44  | Madison Steele        | 16 Mechanicsville Christian Center (Mechanicsville, VA) | 350   | 18.4 | 0   | 0   | 6   | 28  |
 | 45  | Rachel Adelmann       | 09 Bethany Church (Wyckoff, NJ)                         | 330   | 17.4 | 0   | 2   | 20  | 8   |
@@ -235,7 +235,7 @@ menubar_toc_static:
 | 1   | Calvary Church (Naperville, IL)              | 6/1   | 1520  | 217.1 | 13  | 31  | 40  |
 | 2   | Cornerstone Church (Bowie, MD)               | 6/1   | 1305  | 186.4 | 10  | 34  | 33  |
 | 3   | Tacoma Life Center AG (Tacoma, WA)           | 6/1   | 1190  | 170   | 10  | 29  | 33  |
-| 4   | Crown Point (Lee\`s Summit, MO)              | 4/3   | 970   | 138.6 | 7   | 32  | 28  |
+| 4   | Crown Point (Lee's Summit, MO)               | 4/3   | 970   | 138.6 | 7   | 32  | 28  |
 | 5   | Kuna Life Church (Kuna, ID)                  | 3/4   | 740   | 105.7 | 3   | 28  | 29  |
 | 6   | The Vine (Grant, MI)                         | 2/5   | 525   | 75    | 3   | 17  | 25  |
 | 7   | Open Bible Christian Center (Rapid City, SD) | 1/6   | 250   | 35.7  | 0   | 14  | 13  |

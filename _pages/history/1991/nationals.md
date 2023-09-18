@@ -50,7 +50,7 @@ The 1991 field contained three past and two future National Champions. In additi
 |   15 | Wyckoff A/G, Wyckoff, NJ                  | 4 / 11 |  1175 |  78.33 |  -1185 |        -79 |
 |   16 | Renton A/G, Renton, WA                    | 3 / 12 |  1180 |  78.66 |  -1055 |     -70.33 |
 
-\* Won 2nd Place Playoff
+\* Won 2nd Place Playoff
 
 ### Individuals
 

@@ -56,7 +56,7 @@ menubar_toc_static:
 |   17 | Erinn Wolf         | FL-Shrewd Wesley Chapel | Victorious Life Church |   110 |  12.22 |      |
 |   18 | Bryce Landers      | GA-Griffin              | Griffin 1st A/G        |    75 |   8.33 |      |
 |   19 | David Barnes       | NC-Greensboro           | Calvary A/G            |    70 |   7.78 |      |
-|   20 | Paula-Ann Granston | GA-1Snellville          | Evangel Community      |    65 |   7.22 |      |
+|   20 | Paula Ann Granston | GA-1Snellville          | Evangel Community      |    65 |   7.22 |      |
 |   21 | Elizabeth Olatunji | FL-Shrewd Wesley Chapel | Victorious Life Church |    60 |   6.67 |      |
 |   22 | Rowojo Okala       | GA-1Snellville          | Evangel Community      |    55 |   6.11 |      |
 |   23 | Shannon Wolf       | FL-Shrewd Wesley Chapel | Victorious Life Church |    40 |   4.44 |      |

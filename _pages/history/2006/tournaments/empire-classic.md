@@ -54,7 +54,7 @@ menubar_toc_static:
 |   15 | Whitney LaPointe     | First A/G, Binghamton, NY (Green) #2   |   325 |    3 |   30 |
 |   16 | Shada Caesar         | Calvary A/G, Ozone Park, NY            |   320 |    2 |   29 |
 |   17 | Alex Cheski          | Praise A/G, Garfield, NJ               |   320 |    1 |   29 |
-|   18 | Alfred (AJ) Morales  | Praise A/G, Garfield, NJ               |   290 |    1 |   26 |
+|   18 | AJ Morales           | Praise A/G, Garfield, NJ               |   290 |    1 |   26 |
 |   19 | Leron Darrell        | Calvary A/G, Ozone Park, NY            |   280 |    1 |   25 |
 |   20 | Michael Laine        | Kennebunk Christian A/G, Kennebunk, ME |   260 |    3 |   24 |
 |   21 | Brittany Empie-Smith | Calvary A/G, Cobleskill, NY #1         |   245 |    1 |   22 |

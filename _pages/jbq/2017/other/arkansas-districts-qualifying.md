@@ -30,7 +30,7 @@ menubar_toc_static:
 |       # | Quizzer         | Team                   | Total |  Avg |   QO |   Q% |
 | ------: | --------------- | ---------------------- | ----: | ---: | ---: | ---: |
 |       1 | Aubrey Harvey   | McArthur (McArthur AG) |   110 |  110 |    1 | 100% |
-|       2 | ReeseAnn Folsom | McArthur (McArthur AG) |    20 |   20 |      |  99% |
+|       2 | ReeceAnn Folsom | McArthur (McArthur AG) |    20 |   20 |      |  99% |
 | **\*2** | Alice Weeley    | McArthur (McArthur AG) |    20 |   20 |      |  50% |
 |       3 | Jackson Eckart  | The Ridge (The Ridge)  |    10 |   10 |      |  99% |
 | **\*3** | Alexis Harvey   | McArthur (McArthur AG) |    10 |   10 |      |  66% |
@@ -220,8 +220,7 @@ menubar_toc_static:
 |       13 | Zayin Rochier      | BVAG 5-6 Incredible Quizzers (BVAG) |    30 |   7.5 |      |      |
 |       14 | Kyli Badgewell     | Faith Harrison 5-6 Blue (Faith)     |    20 |     5 |      |      |
 | **\*14** | Devin Ferguson     | Newsong 5-6 (Newsong)               |    20 |     5 |      |      |
-|       15 | EmptyChair         | BVAG 5-6 Incredible Quizzers (BVAG) |     0 |       |      |      |
-| **\*15** | Kalin Badgewell    | Faith Harrison 5-6 Blue (Faith)     |     0 |       |      |      |
+|       15 | Kalin Badgewell    | Faith Harrison 5-6 Blue (Faith)     |     0 |       |      |      |
 | **\*15** | Empty Chair        | Newsong 5-6 (Newsong)               |     0 |       |      |      |
 | **\*15** | Tielyr Boysen      | Rogers 5-6 (RFAG)                   |     0 |       |      |      |
 | **\*15** | Silvestre Trujillo | Trinity Fellowship 5-6 (TF)         |     0 |       |      |      |

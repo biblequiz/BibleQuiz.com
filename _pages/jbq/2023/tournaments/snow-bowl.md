@@ -30,27 +30,27 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer                  | Team                                              | Total |   Avg |   QO |   Q% |
-| -------: | ------------------------ | ------------------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Jayden Ramesh            | Keepers of the Command (First @ Firewheel)        |  1110 | 138.8 |    7 |  94% |
-|        2 | Hannah Lapusan           | God's Royal Reindeer (Oaks Church)                |   735 |  91.9 |    4 |  92% |
-|        3 | Caleb Stumper            | Prayer Mountain Explorers (Mountain Creek Church) |   675 |  84.4 |    5 |  71% |
-|        4 | Jonthan Dawit            | The A Team (First @ Firewheel)                    |   550 |  68.8 |    3 |  79% |
-|        5 | Chizaram Iwuogaranya     | Keepers of the Command (First @ Firewheel)        |   360 |    45 |    3 |  79% |
-|        6 | Raegan Wirth             | God's Royal Reindeer (Oaks Church)                |   325 |  40.6 |    1 |  93% |
-|        7 | Noah Zeli                | Prayer Mountain Explorers (Mountain Creek Church) |   295 |  36.9 |    2 |  67% |
-|        8 | Sarah Lapusan            | God's Royal Reindeer (Oaks Church)                |   215 |  26.9 |    1 |  79% |
-|        9 | Victoria Preciado        | Maranatha (Mountain Creek Church)                 |   160 |    20 |    1 |  87% |
-|       10 | Chizaram Echefu          | Keepers of the Command (First @ Firewheel)        |   150 |  18.8 |    1 |  74% |
-|       11 | Israel Fajemirokun       | Maranatha (Mountain Creek Church)                 |   140 |  17.5 |      | 100% |
-|       12 | Abigail Lapusan          | God's Royal Reindeer (Oaks Church)                |   120 |    15 |      |  78% |
-|       13 | Chika Iwuogaranya        | The A Team (First @ Firewheel)                    |   110 |  13.8 |      |  90% |
-| **\*13** | Dozie Osuagwu            | Keepers of the Command (First @ Firewheel)        |   110 |  13.8 |      |  56% |
-|       14 | Joseph Daniel Zeli       | Maranatha (Mountain Creek Church)                 |   105 |  13.1 |      |  53% |
-|       15 | Irene Ortiz              | Prayer Mountain Explorers (Mountain Creek Church) |    45 |   5.6 |      |  83% |
-|       16 | Munachiso Osuagwu (Muna) | The A Team (First @ Firewheel)                    |    40 |     5 |      |  55% |
-|       17 | Chinasa Ayozie           | The A Team (First @ Firewheel)                    |    10 |   1.3 |      |  99% |
-|       18 | Hannah Gonzales          | Prayer Mountain Explorers (Mountain Creek Church) |     0 |       |      |      |
+|        # | Quizzer              | Team                                              | Total |   Avg |   QO |   Q% |
+| -------: | -------------------- | ------------------------------------------------- | ----: | ----: | ---: | ---: |
+|        1 | Jayden Ramesh        | Keepers of the Command (First @ Firewheel)        |  1110 | 138.8 |    7 |  94% |
+|        2 | Hannah Lapusan       | God's Royal Reindeer (Oaks Church)                |   735 |  91.9 |    4 |  92% |
+|        3 | Caleb Stumper        | Prayer Mountain Explorers (Mountain Creek Church) |   675 |  84.4 |    5 |  71% |
+|        4 | Jonthan Dawit        | The A Team (First @ Firewheel)                    |   550 |  68.8 |    3 |  79% |
+|        5 | Chizaram Iwuogaranya | Keepers of the Command (First @ Firewheel)        |   360 |    45 |    3 |  79% |
+|        6 | Raegan Wirth         | God's Royal Reindeer (Oaks Church)                |   325 |  40.6 |    1 |  93% |
+|        7 | Noah Zeli            | Prayer Mountain Explorers (Mountain Creek Church) |   295 |  36.9 |    2 |  67% |
+|        8 | Sarah Lapusan        | God's Royal Reindeer (Oaks Church)                |   215 |  26.9 |    1 |  79% |
+|        9 | Victoria Preciado    | Maranatha (Mountain Creek Church)                 |   160 |    20 |    1 |  87% |
+|       10 | Chizaram Echefu      | Keepers of the Command (First @ Firewheel)        |   150 |  18.8 |    1 |  74% |
+|       11 | Israel Fajemirokun   | Maranatha (Mountain Creek Church)                 |   140 |  17.5 |      | 100% |
+|       12 | Abigail Lapusan      | God's Royal Reindeer (Oaks Church)                |   120 |    15 |      |  78% |
+|       13 | Chika Iwuogaranya    | The A Team (First @ Firewheel)                    |   110 |  13.8 |      |  90% |
+| **\*13** | Dozie Osuagwu        | Keepers of the Command (First @ Firewheel)        |   110 |  13.8 |      |  56% |
+|       14 | Joseph Daniel Zeli   | Maranatha (Mountain Creek Church)                 |   105 |  13.1 |      |  53% |
+|       15 | Irene Ortiz          | Prayer Mountain Explorers (Mountain Creek Church) |    45 |   5.6 |      |  83% |
+|       16 | Muna Osuagwu         | The A Team (First @ Firewheel)                    |    40 |     5 |      |  55% |
+|       17 | Chinasa Ayozie       | The A Team (First @ Firewheel)                    |    10 |   1.3 |      |  99% |
+|       18 | Hannah Gonzales      | Prayer Mountain Explorers (Mountain Creek Church) |     0 |       |      |      |
 
 ## Beginner Division
 

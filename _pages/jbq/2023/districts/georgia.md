@@ -93,12 +93,12 @@ menubar_toc_static:
 |        8 | Blessy Rajkumar        | Royal Diadem (Atlanta Indian Prayer Fellowship)            |    70 |    35 |      | 100% |
 |        9 | Joel M Varghese        | Blessed Bunch (1) (Calvary Assembly Church of God)         |   100 |  33.3 |      | 100% |
 |       10 | Aksah Varghese         | Blessed Bunch (1) (Calvary Assembly Church of God)         |    70 |  23.3 |      | 100% |
-|       11 | jeshuran kurian        | Blessed Bunch (1) (Calvary Assembly Church of God)         |    50 |  16.7 |      | 100% |
+|       11 | Jeshuran Kurian        | Blessed Bunch (1) (Calvary Assembly Church of God)         |    50 |  16.7 |      | 100% |
 |       12 | Krish Sivaramachandran | Mountain West (Mountain West)                              |    40 |  13.3 |      | 100% |
 |       13 | Zachary Thomas         | Christ Avengers (Georgia Christian Assembly Church of God) |    35 |  11.7 |      |  75% |
 |       14 | Jonathan Hughey        | Mountain West (Mountain West)                              |     0 |       |      |  50% |
 | **\*14** | Kylie Surface          | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
-| **\*14** | LiviaTate              | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
+| **\*14** | Livia Tate             | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
 | **\*14** | Katlyn Dooley          | Truth Seekers (The Church at the Groves)                   |     0 |       |      |      |
 | **\*14** | Joshua Abraham         | Believers (Atlanta Tamil Church)                           |     0 |       |      |      |
 

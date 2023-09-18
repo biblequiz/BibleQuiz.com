@@ -51,7 +51,7 @@ menubar_toc_static:
 | Cameron Smith     | Noble (Whatever is Noble) |  1580 |   93 |   13 |
 | Zach Mang         | Santa Ana                 |  1460 |   86 |   13 |
 | Daniel Wagner     | Owasso First              |  1395 |   82 |   14 |
-| P. J. Grigg       | Briargate                 |  1295 |   76 |    9 |
+| PJ Grigg          | Briargate                 |  1295 |   76 |    9 |
 | Sarah Ingerson    | Hosanna, Shreveport       |  1220 |   72 |    5 |
 | J. P. O'Connor    | Tacoma Life Center        |  1185 |   70 |   12 |
 | Jessica Lynch     | Orange Hills              |  1160 |   68 |   11 |

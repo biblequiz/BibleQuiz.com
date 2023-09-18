@@ -44,7 +44,7 @@ The top quizzer at the 1983 National Finals was John Wooton of Byesville A/G, By
 |    7 | Evangel A/G, Wichita, KS     | 1 / 6  |   440 |  62.86 |   -770 |       -110 |
 |    8 | First A/G, Tempe, AZ         | 1 / 6  |   640 |  91.43 |   -590 |     -84.29 |
 
-\* Won 1st Place Playoff
+\* Won 1st Place Playoff
 
 ### Individuals
 

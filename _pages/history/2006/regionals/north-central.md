@@ -45,7 +45,7 @@ menubar_toc_static:
 |    8 | Aaron Beye         | Grand Island, NE |   750 |  68.18 |
 |    9 | Nick Mulder        | Watford City, ND |   655 |  59.55 |
 |   10 | Brittany Laakkonen | Duluth, MN       |   655 |  59.55 |
-|   11 | John DeGray Jr.    | Pine City, MN    |   630 |  57.27 |
+|   11 | John DeGray, Jr.   | Pine City, MN    |   630 |  57.27 |
 |   12 | Cameron Tilus      | Ottumwa, IA      |   580 |  52.73 |
 |   13 | Larissa Haberberg  | Eau Claire, WI   |   545 |  49.55 |
 |   14 | Nicholle Allen     | Ames, IA         |   515 |  46.82 |
