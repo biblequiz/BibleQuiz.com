@@ -20,7 +20,7 @@ Bethel has competed in Regionals and National finals before, but it has been sin
 
 |    # | Quizzer       | Team               | Total |
 | ---: | ------------- | ------------------ | ----: |
-|    1 | Bobbie DeGray | Pine City          |   530 |
+|    1 | Bobby DeGray  | Pine City          |   530 |
 |    2 | Kari Van Gorp | Our Father's House |   490 |
 |    3 | Laura Jones   | Bethel             |   390 |
 

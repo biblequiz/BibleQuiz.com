@@ -539,7 +539,7 @@ menubar_toc_static:
 |   58 | Cheyenne Corley     | Paris               | Paris 1st AG        |    90 |   5.29 |      |
 |   59 | Kimberly Sullinger  | Team-Pocahontas     | Pocahontas 1st AG   |    80 |   4.71 |      |
 |   59 | Elizabeth Riggins   | Rogers 1st          | Rogers 1st AG       |    80 |   4.71 |      |
-|   60 | Mattea (Tea) Cliff  | Jonesboro 1st       | Jonesboro 1st AG    |    70 |   4.12 |      |
+|   60 | Mattea Cliff        | Jonesboro 1st       | Jonesboro 1st AG    |    70 |   4.12 |      |
 |   60 | Angela Lovelace     | Jonesboro 1st       | Jonesboro 1st AG    |    70 |   4.12 |      |
 |   60 | Mariah Kelley       | Team-Camden         | Camden 1st A.G.     |    70 |   4.12 |      |
 |   61 | Jacob Partridge     | RFA                 | Russellville 1st AG |    65 |   3.82 |      |

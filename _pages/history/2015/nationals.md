@@ -41,81 +41,81 @@ menubar_toc_static:
 
 ### Individuals
 
-| #   | Quizzer             | Team                        | Church                     | Total | AVG    | QO  |
-| --- | ------------------- | --------------------------- | -------------------------- | ----- | ------ | --- |
-| 1   | Abby Rogers         | Bothell, WA- Carry On       | Cedar Park A/G             | 2600  | 136.84 | 17  |
-| 2   | Selena Rodriguez    | Sioux Falls, SD             | 1st A/G                    | 2195  | 115.53 | 16  |
-| 3   | Daniel Quick        | Ozark, MO- On Fire          | James River Church         | 2025  | 106.58 | 18  |
-| 4   | Damon Comfort       | Bellevue, WA                | Neighborhood Church        | 1860  | 97.89  | 14  |
-| 5   | Jonathan Brown      | Upper St. Clair, PA         | New Day A/G                | 1560  | 82.11  | 14  |
-| 6   | Chase Hill          | Swedesboro, NJ              | Living Hope Worship Center | 1545  | 81.32  | 13  |
-| 7   | Solomon Stevens     | Deposit, NY                 | Maple Lane A/G             | 1435  | 75.53  | 10  |
-| 8   | Josiah Schwarz      | Muskogee, OK - Spain        | 1st A/G                    | 1420  | 74.74  | 9   |
-| 9   | Joseph Lemley       | Upper St. Clair, PA         | New Day A/G                | 1415  | 74.47  | 13  |
-| 10  | Gabriel Flores      | Wyckoff, NJ                 | Bethany Church             | 1375  | 72.37  | 13  |
-| 11  | Caleb Hoffmann      | Deposit, NY                 | Maple Lane A/G             | 1285  | 67.63  | 11  |
-| 12  | Katrina Dowdy       | Swedesboro, NJ              | Living Hope Worship Center | 1270  | 66.84  | 14  |
-| 13  | EJ Olsen            | Bothell, WA- Carry On       | Cedar Park A/G             | 1270  | 66.84  | 13  |
-| 14  | Halle Reisinger     | Newport, PA                 | Newport A/G                | 1225  | 64.47  | 8   |
-| 15  | Hannah Quick        | Ozark, MO- On Fire          | James River Church         | 1195  | 62.89  | 9   |
-| 16  | Tyler Adelmann      | Wyckoff, NJ                 | Bethany Church             | 1160  | 61.05  | 7   |
-| 17  | Mary Meddaugh       | Muskogee, OK - Moths        | 1st A/G                    | 1155  | 60.79  | 10  |
-| 18  | Leisl Jansen        | Ozark, MO- Zeal             | James River Church         | 1125  | 59.21  | 6   |
-| 19  | Travis Griessel     | Ozark, MO- Zeal             | James River Church         | 1095  | 57.63  | 6   |
-| 20  | Paul Meddaugh       | Muskogee, OK - Spain        | 1st A/G                    | 1075  | 56.58  | 12  |
-| 21  | Faith Brown         | Scottsdale, AZ- God's Girls | North Scottsdale Christian | 1015  | 53.42  | 7   |
-| 22  | Chad Stogner        | Phoenix, AZ                 | North Valley A/G           | 970   | 51.05  | 9   |
-| 23  | Chad Sederwall      | Newark, NJ                  | Vailsburg A/G              | 905   | 47.63  | 4   |
-| 24  | Madison Holcomb     | Sarver, PA                  | Evangel Heights A/G        | 830   | 43.68  | 5   |
-| 25  | Michael Williams    | Muskogee, OK - Moths        | 1st A/G                    | 800   | 42.11  | 8   |
-| 26  | Tirzah Brookbank    | Kansas City, MO             | Evangel Church             | 780   | 41.05  | 4   |
-| 26  | Keilah Rodgers      | Dublin, OH                  | Radiant Life Church        | 780   | 41.05  | 4   |
-| 27  | Zak Kellock         | Phoenix, AZ                 | North Valley A/G           | 725   | 38.16  | 3   |
-| 28  | Kelsey Cruz         | Costa Mesa, CA              | Newport Mesa Church        | 715   | 37.63  | 2   |
-| 29  | Jacob Schumacher    | Bothell, WA- Carry On       | Cedar Park A/G             | 660   | 34.74  | 5   |
-| 30  | Hannah Smith        | Scottsdale, AZ- God's Girls | North Scottsdale Christian | 635   | 33.42  | 2   |
-| 31  | Kara Peters         | Springfield, MO             | King's Chapel              | 615   | 32.37  | 3   |
-| 32  | Joshua Dupree       | Costa Mesa, CA              | Newport Mesa Church        | 610   | 32.11  | 5   |
-| 33  | David Meddaugh      | Muskogee, OK - Spain        | 1st A/G                    | 590   | 31.05  | 2   |
-| 34  | Jed Brookbank       | Kansas City, MO             | Evangel Church             | 585   | 30.79  | 5   |
-| 35  | Sydney Bollinger    | Sarver, PA                  | Evangel Heights A/G        | 585   | 30.79  | 3   |
-| 36  | Kenzie Brown        | Scottsdale, AZ- God's Girls | North Scottsdale Christian | 565   | 29.74  | 2   |
-| 37  | Kacie Garrison      | Ozark, MO- On Fire          | James River Church         | 545   | 28.68  | 4   |
-| 38  | Hannah Sproull      | Newport, PA                 | Newport A/G                | 540   | 28.42  | 5   |
-| 39  | Brock Peters        | Springfield, MO             | King's Chapel              | 510   | 26.84  | 4   |
-| 40  | Zachary Wisz        | Newark, NJ                  | Vailsburg A/G              | 460   | 24.21  | 4   |
-| 41  | Ashley Kellock      | Phoenix, AZ                 | North Valley A/G           | 420   | 22.11  |     |
-| 42  | Josh Clark          | Ozark, MO- On Fire          | James River Church         | 415   | 21.84  | 2   |
-| 43  | Judah Stevens       | Deposit, NY                 | Maple Lane A/G             | 380   | 20     | 1   |
-| 44  | Reagan Griessel     | Ozark, MO- Zeal             | James River Church         | 350   | 18.42  | 3   |
-| 45  | Zach Brookbank      | Kansas City, MO             | Evangel Church             | 315   | 16.58  | 2   |
-| 46  | Jackson Houser      | Bothell, WA- Carry On       | Cedar Park A/G             | 245   | 12.89  | 2   |
-| 47  | Kaelyn Comfort      | Bellevue, WA                | Neighborhood Church        | 215   | 11.32  |     |
-| 48  | Ethan Hoffmann      | Deposit, NY                 | Maple Lane A/G             | 205   | 10.79  | 1   |
-| 49  | Anna Rodgers        | Dublin, OH                  | Radiant Life Church        | 195   | 10.26  |     |
-| 50  | Brianna McKinley    | Sioux Falls, SD             | 1st A/G                    | 190   | 10     | 1   |
-| 51  | Victoria Stewart    | Wyckoff, NJ                 | Bethany Church             | 145   | 7.63   |     |
-| 52  | Theodore Arasavelli | Bellevue, WA                | Neighborhood Church        | 140   | 7.37   |     |
-| 53  | Linsey Garrison     | Ozark, MO- Zeal             | James River Church         | 130   | 6.84   |     |
-| 54  | Willow Chemacki     | Dublin, OH                  | Radiant Life Church        | 115   | 6.05   |     |
-| 55  | Josh Fuller         | Upper St. Clair, PA         | New Day A/G                | 80    | 4.21   |     |
-| 55  | Rachel Adelmann     | Wyckoff, NJ                 | Bethany Church             | 80    | 4.21   |     |
-| 56  | Renee Thiele        | Sarver, PA                  | Evangel Heights A/G        | 55    | 2.89   |     |
-| 56  | David Mouwon        | Newark, NJ                  | Vailsburg A/G              | 55    | 2.89   |     |
-| 57  | Alexis Adelmann     | Wyckoff, NJ                 | Bethany Church             | 50    | 2.63   |     |
-| 57  | Hannah Hill         | Swedesboro, NJ              | Living Hope Worship Center | 50    | 2.63   |     |
-| 58  | Noah Gallo          | Bellevue, WA                | Neighborhood Church        | 25    | 1.32   |     |
-| 59  | Chad Schwartz       | Sioux Falls, SD             | 1st A/G                    | 20    | 1.05   |     |
-| 60  | Morgan Nardozzi     | Phoenix, AZ                 | North Valley A/G           | 10    | 0.53   |     |
-| 60  | Jacob Carty         | Swedesboro, NJ              | Living Hope Worship Center | 10    | 0.53   |     |
-| 61  | Andre Nicolov       | Bothell, WA- Carry On       | Cedar Park A/G             | 5     | 0.26   |     |
-| 62  | Zachary Chemacki    | Dublin, OH                  | Radiant Life Church        |       | 0      |     |
-| 62  | Merisa Rodriguez    | Sioux Falls, SD             | 1st A/G                    |       | 0      |     |
-| 62  | Matthew McKinley    | Sioux Falls, SD             | 1st A/G                    |       | 0      |     |
-| 63  | Zach Schwarz        | Muskogee, OK - Moths        | 1st A/G                    | -20   | -1.05  |     |
-| 64  | Jasmine Weibley     | Newport, PA                 | Newport A/G                | -10   | -0.53  |     |
-| 64  | Jonathan Braden     | Sioux Falls, SD             | 1st A/G                    | -10   | -0.53  |     |
-| 65  | Ethan Sproull       | Newport, PA                 | Newport A/G                | -5    | -0.26  |     |
+| #   | Quizzer          | Team                        | Church                     | Total | AVG    | QO  |
+| --- | ---------------- | --------------------------- | -------------------------- | ----- | ------ | --- |
+| 1   | Abby Rogers      | Bothell, WA- Carry On       | Cedar Park A/G             | 2600  | 136.84 | 17  |
+| 2   | Selena Rodriguez | Sioux Falls, SD             | 1st A/G                    | 2195  | 115.53 | 16  |
+| 3   | Daniel Quick     | Ozark, MO- On Fire          | James River Church         | 2025  | 106.58 | 18  |
+| 4   | Damon Comfort    | Bellevue, WA                | Neighborhood Church        | 1860  | 97.89  | 14  |
+| 5   | Jonathan Brown   | Upper St. Clair, PA         | New Day A/G                | 1560  | 82.11  | 14  |
+| 6   | Chase Hill       | Swedesboro, NJ              | Living Hope Worship Center | 1545  | 81.32  | 13  |
+| 7   | Solomon Stevens  | Deposit, NY                 | Maple Lane A/G             | 1435  | 75.53  | 10  |
+| 8   | Josiah Schwarz   | Muskogee, OK - Spain        | 1st A/G                    | 1420  | 74.74  | 9   |
+| 9   | Joseph Lemley    | Upper St. Clair, PA         | New Day A/G                | 1415  | 74.47  | 13  |
+| 10  | Gabriel Flores   | Wyckoff, NJ                 | Bethany Church             | 1375  | 72.37  | 13  |
+| 11  | Caleb Hoffmann   | Deposit, NY                 | Maple Lane A/G             | 1285  | 67.63  | 11  |
+| 12  | Katrina Dowdy    | Swedesboro, NJ              | Living Hope Worship Center | 1270  | 66.84  | 14  |
+| 13  | EJ Olsen         | Bothell, WA- Carry On       | Cedar Park A/G             | 1270  | 66.84  | 13  |
+| 14  | Halle Reisinger  | Newport, PA                 | Newport A/G                | 1225  | 64.47  | 8   |
+| 15  | Hannah Quick     | Ozark, MO- On Fire          | James River Church         | 1195  | 62.89  | 9   |
+| 16  | Tyler Adelmann   | Wyckoff, NJ                 | Bethany Church             | 1160  | 61.05  | 7   |
+| 17  | Mary Meddaugh    | Muskogee, OK - Moths        | 1st A/G                    | 1155  | 60.79  | 10  |
+| 18  | Leisl Jansen     | Ozark, MO- Zeal             | James River Church         | 1125  | 59.21  | 6   |
+| 19  | Travis Griessel  | Ozark, MO- Zeal             | James River Church         | 1095  | 57.63  | 6   |
+| 20  | Paul Meddaugh    | Muskogee, OK - Spain        | 1st A/G                    | 1075  | 56.58  | 12  |
+| 21  | Faith Brown      | Scottsdale, AZ- God's Girls | North Scottsdale Christian | 1015  | 53.42  | 7   |
+| 22  | Chad Stogner     | Phoenix, AZ                 | North Valley A/G           | 970   | 51.05  | 9   |
+| 23  | Chad Sederwall   | Newark, NJ                  | Vailsburg A/G              | 905   | 47.63  | 4   |
+| 24  | Madison Holcomb  | Sarver, PA                  | Evangel Heights A/G        | 830   | 43.68  | 5   |
+| 25  | Michael Williams | Muskogee, OK - Moths        | 1st A/G                    | 800   | 42.11  | 8   |
+| 26  | Tirzah Brookbank | Kansas City, MO             | Evangel Church             | 780   | 41.05  | 4   |
+| 26  | Keilah Rodgers   | Dublin, OH                  | Radiant Life Church        | 780   | 41.05  | 4   |
+| 27  | Zak Kellock      | Phoenix, AZ                 | North Valley A/G           | 725   | 38.16  | 3   |
+| 28  | Kelsey Cruz      | Costa Mesa, CA              | Newport Mesa Church        | 715   | 37.63  | 2   |
+| 29  | Jacob Schumacher | Bothell, WA- Carry On       | Cedar Park A/G             | 660   | 34.74  | 5   |
+| 30  | Hannah Smith     | Scottsdale, AZ- God's Girls | North Scottsdale Christian | 635   | 33.42  | 2   |
+| 31  | Kara Peters      | Springfield, MO             | King's Chapel              | 615   | 32.37  | 3   |
+| 32  | Joshua Dupree    | Costa Mesa, CA              | Newport Mesa Church        | 610   | 32.11  | 5   |
+| 33  | David Meddaugh   | Muskogee, OK - Spain        | 1st A/G                    | 590   | 31.05  | 2   |
+| 34  | Jed Brookbank    | Kansas City, MO             | Evangel Church             | 585   | 30.79  | 5   |
+| 35  | Sydney Bollinger | Sarver, PA                  | Evangel Heights A/G        | 585   | 30.79  | 3   |
+| 36  | Kenzie Brown     | Scottsdale, AZ- God's Girls | North Scottsdale Christian | 565   | 29.74  | 2   |
+| 37  | Kacie Garrison   | Ozark, MO- On Fire          | James River Church         | 545   | 28.68  | 4   |
+| 38  | Hannah Sproull   | Newport, PA                 | Newport A/G                | 540   | 28.42  | 5   |
+| 39  | Brock Peters     | Springfield, MO             | King's Chapel              | 510   | 26.84  | 4   |
+| 40  | Zachary Wisz     | Newark, NJ                  | Vailsburg A/G              | 460   | 24.21  | 4   |
+| 41  | Ashley Kellock   | Phoenix, AZ                 | North Valley A/G           | 420   | 22.11  |     |
+| 42  | Josh Clark       | Ozark, MO- On Fire          | James River Church         | 415   | 21.84  | 2   |
+| 43  | Judah Stevens    | Deposit, NY                 | Maple Lane A/G             | 380   | 20     | 1   |
+| 44  | Reagan Griessel  | Ozark, MO- Zeal             | James River Church         | 350   | 18.42  | 3   |
+| 45  | Zach Brookbank   | Kansas City, MO             | Evangel Church             | 315   | 16.58  | 2   |
+| 46  | Jackson Houser   | Bothell, WA- Carry On       | Cedar Park A/G             | 245   | 12.89  | 2   |
+| 47  | Kaelyn Comfort   | Bellevue, WA                | Neighborhood Church        | 215   | 11.32  |     |
+| 48  | Ethan Hoffmann   | Deposit, NY                 | Maple Lane A/G             | 205   | 10.79  | 1   |
+| 49  | Anna Rodgers     | Dublin, OH                  | Radiant Life Church        | 195   | 10.26  |     |
+| 50  | Brianna McKinley | Sioux Falls, SD             | 1st A/G                    | 190   | 10     | 1   |
+| 51  | Victoria Stewart | Wyckoff, NJ                 | Bethany Church             | 145   | 7.63   |     |
+| 52  | Teddy Arasavelli | Bellevue, WA                | Neighborhood Church        | 140   | 7.37   |     |
+| 53  | Linsey Garrison  | Ozark, MO- Zeal             | James River Church         | 130   | 6.84   |     |
+| 54  | Willow Chemacki  | Dublin, OH                  | Radiant Life Church        | 115   | 6.05   |     |
+| 55  | Josh Fuller      | Upper St. Clair, PA         | New Day A/G                | 80    | 4.21   |     |
+| 55  | Rachel Adelmann  | Wyckoff, NJ                 | Bethany Church             | 80    | 4.21   |     |
+| 56  | Renee Thiele     | Sarver, PA                  | Evangel Heights A/G        | 55    | 2.89   |     |
+| 56  | David Mouwon     | Newark, NJ                  | Vailsburg A/G              | 55    | 2.89   |     |
+| 57  | Alexis Adelmann  | Wyckoff, NJ                 | Bethany Church             | 50    | 2.63   |     |
+| 57  | Hannah Hill      | Swedesboro, NJ              | Living Hope Worship Center | 50    | 2.63   |     |
+| 58  | Noah Gallo       | Bellevue, WA                | Neighborhood Church        | 25    | 1.32   |     |
+| 59  | Chad Schwartz    | Sioux Falls, SD             | 1st A/G                    | 20    | 1.05   |     |
+| 60  | Morgan Nardozzi  | Phoenix, AZ                 | North Valley A/G           | 10    | 0.53   |     |
+| 60  | Jacob Carty      | Swedesboro, NJ              | Living Hope Worship Center | 10    | 0.53   |     |
+| 61  | Andre Nicolov    | Bothell, WA- Carry On       | Cedar Park A/G             | 5     | 0.26   |     |
+| 62  | Zachary Chemacki | Dublin, OH                  | Radiant Life Church        |       | 0      |     |
+| 62  | Merisa Rodriguez | Sioux Falls, SD             | 1st A/G                    |       | 0      |     |
+| 62  | Matthew McKinley | Sioux Falls, SD             | 1st A/G                    |       | 0      |     |
+| 63  | Zach Schwarz     | Muskogee, OK - Moths        | 1st A/G                    | -20   | -1.05  |     |
+| 64  | Jasmine Weibley  | Newport, PA                 | Newport A/G                | -10   | -0.53  |     |
+| 64  | Jonathan Braden  | Sioux Falls, SD             | 1st A/G                    | -10   | -0.53  |     |
+| 65  | Ethan Sproull    | Newport, PA                 | Newport A/G                | -5    | -0.26  |     |
 
 ## Challenger
 
@@ -348,41 +348,41 @@ menubar_toc_static:
 
 #### Individuals
 
-| #   | Quizzer             | Team                        | Church                       | Total | AVG    | QO  |
-| --- | ------------------- | --------------------------- | ---------------------------- | ----- | ------ | --- |
-| 1   | Daniel Quick        | Ozark, MO- On Fire          | James River Church           | 705   | 100.71 | 5   |
-| 2   | Hannah Quick        | Ozark, MO- On Fire          | James River Church           | 700   | 100    | 7   |
-| 3   | Damon Comfort       | Bellevue, WA                | Neighborhood Church          | 630   | 90     | 4   |
-| 4   | Spenser Wilhelm     | Rapid City, SD              | Bethel A/G                   | 485   | 69.29  | 3   |
-| 4   | Faith Brown         | Scottsdale, AZ- God's Girls | North Scottsdale Christian   | 485   | 69.29  | 3   |
-| 5   | Layne Perkins       | Jacksonville, FL            | Freedom Christian Fellowship | 405   | 57.86  | 3   |
-| 6   | Kenzie Brown        | Scottsdale, AZ- God's Girls | North Scottsdale Christian   | 390   | 55.71  | 3   |
-| 7   | Hannah Smith        | Scottsdale, AZ- God's Girls | North Scottsdale Christian   | 330   | 47.14  | 1   |
-| 8   | Keilah Rodgers      | Dublin, OH                  | Radiant Life Church          | 325   | 46.43  | 1   |
-| 9   | Josh Clark          | Ozark, MO- On Fire          | James River Church           | 315   | 45     | 2   |
-| 10  | Bethany York        | Bowie, MD                   | Cornerstone Church           | 310   | 44.29  | 2   |
-| 11  | Kacie Garrison      | Ozark, MO- On Fire          | James River Church           | 250   | 35.71  | 2   |
-| 12  | Andrew Roach        | Houston, TX (CT)            | Christian Temple             | 220   | 31.43  | 2   |
-| 13  | Jessica Weller      | Rapid City, SD              | Bethel A/G                   | 195   | 27.86  | 2   |
-| 14  | Theodore Arasavelli | Bellevue, WA                | Neighborhood Church          | 115   | 16.43  |     |
-| 15  | Sydny Bettis        | Houston, TX (CT)            | Christian Temple             | 110   | 15.71  | 1   |
-| 16  | Davey Motta         | Jacksonville, FL            | Freedom Christian Fellowship | 85    | 12.14  |     |
-| 16  | Kaelyn Comfort      | Bellevue, WA                | Neighborhood Church          | 85    | 12.14  |     |
-| 17  | Daniel Kirby        | Houston, TX (CT)            | Christian Temple             | 75    | 10.71  |     |
-| 18  | Willow Chemacki     | Dublin, OH                  | Radiant Life Church          | 70    | 10     |     |
-| 18  | Mariah Thompson     | Bowie, MD                   | Cornerstone Church           | 70    | 10     |     |
-| 19  | Anna Rodgers        | Dublin, OH                  | Radiant Life Church          | 50    | 7.14   |     |
-| 20  | Carson Sehr         | Rapid City, SD              | Bethel A/G                   | 35    | 5      |     |
-| 21  | Isaac Lee           | Jacksonville, FL            | Freedom Christian Fellowship | 10    | 1.43   |     |
-| 21  | Magdaline Thompson  | Bowie, MD                   | Cornerstone Church           | 10    | 1.43   |     |
-| 22  | Beth Pyle           | Houston, TX (CT)            | Christian Temple             |       | 0      |     |
-| 22  | Zachary Chemacki    | Dublin, OH                  | Radiant Life Church          |       | 0      |     |
-| 22  | Curtis Svenson      | Rapid City, SD              | Bethel A/G                   |       | 0      |     |
-| 22  | Beau Perkins        | Jacksonville, FL            | Freedom Christian Fellowship |       | 0      |     |
-| 22  | Lorena Lee          | Jacksonville, FL            | Freedom Christian Fellowship |       | 0      |     |
-| 22  | Micah Pennel        | Rapid City, SD              | Bethel A/G                   |       | 0      |     |
-| 23  | Noah Gallo          | Bellevue, WA                | Neighborhood Church          | -10   | -1.43  |     |
-| 24  | Kayla Roettgers     | Houston, TX (CT)            | Christian Temple             | -5    | -0.71  |     |
+| #   | Quizzer            | Team                        | Church                       | Total | AVG    | QO  |
+| --- | ------------------ | --------------------------- | ---------------------------- | ----- | ------ | --- |
+| 1   | Daniel Quick       | Ozark, MO- On Fire          | James River Church           | 705   | 100.71 | 5   |
+| 2   | Hannah Quick       | Ozark, MO- On Fire          | James River Church           | 700   | 100    | 7   |
+| 3   | Damon Comfort      | Bellevue, WA                | Neighborhood Church          | 630   | 90     | 4   |
+| 4   | Spenser Wilhelm    | Rapid City, SD              | Bethel A/G                   | 485   | 69.29  | 3   |
+| 4   | Faith Brown        | Scottsdale, AZ- God's Girls | North Scottsdale Christian   | 485   | 69.29  | 3   |
+| 5   | Layne Perkins      | Jacksonville, FL            | Freedom Christian Fellowship | 405   | 57.86  | 3   |
+| 6   | Kenzie Brown       | Scottsdale, AZ- God's Girls | North Scottsdale Christian   | 390   | 55.71  | 3   |
+| 7   | Hannah Smith       | Scottsdale, AZ- God's Girls | North Scottsdale Christian   | 330   | 47.14  | 1   |
+| 8   | Keilah Rodgers     | Dublin, OH                  | Radiant Life Church          | 325   | 46.43  | 1   |
+| 9   | Josh Clark         | Ozark, MO- On Fire          | James River Church           | 315   | 45     | 2   |
+| 10  | Bethany York       | Bowie, MD                   | Cornerstone Church           | 310   | 44.29  | 2   |
+| 11  | Kacie Garrison     | Ozark, MO- On Fire          | James River Church           | 250   | 35.71  | 2   |
+| 12  | Andrew Roach       | Houston, TX (CT)            | Christian Temple             | 220   | 31.43  | 2   |
+| 13  | Jessica Weller     | Rapid City, SD              | Bethel A/G                   | 195   | 27.86  | 2   |
+| 14  | Teddy Arasavelli   | Bellevue, WA                | Neighborhood Church          | 115   | 16.43  |     |
+| 15  | Sydny Bettis       | Houston, TX (CT)            | Christian Temple             | 110   | 15.71  | 1   |
+| 16  | Davey Motta        | Jacksonville, FL            | Freedom Christian Fellowship | 85    | 12.14  |     |
+| 16  | Kaelyn Comfort     | Bellevue, WA                | Neighborhood Church          | 85    | 12.14  |     |
+| 17  | Daniel Kirby       | Houston, TX (CT)            | Christian Temple             | 75    | 10.71  |     |
+| 18  | Willow Chemacki    | Dublin, OH                  | Radiant Life Church          | 70    | 10     |     |
+| 18  | Mariah Thompson    | Bowie, MD                   | Cornerstone Church           | 70    | 10     |     |
+| 19  | Anna Rodgers       | Dublin, OH                  | Radiant Life Church          | 50    | 7.14   |     |
+| 20  | Carson Sehr        | Rapid City, SD              | Bethel A/G                   | 35    | 5      |     |
+| 21  | Isaac Lee          | Jacksonville, FL            | Freedom Christian Fellowship | 10    | 1.43   |     |
+| 21  | Magdaline Thompson | Bowie, MD                   | Cornerstone Church           | 10    | 1.43   |     |
+| 22  | Beth Pyle          | Houston, TX (CT)            | Christian Temple             |       | 0      |     |
+| 22  | Zachary Chemacki   | Dublin, OH                  | Radiant Life Church          |       | 0      |     |
+| 22  | Curtis Svenson     | Rapid City, SD              | Bethel A/G                   |       | 0      |     |
+| 22  | Beau Perkins       | Jacksonville, FL            | Freedom Christian Fellowship |       | 0      |     |
+| 22  | Lorena Lee         | Jacksonville, FL            | Freedom Christian Fellowship |       | 0      |     |
+| 22  | Micah Pennel       | Rapid City, SD              | Bethel A/G                   |       | 0      |     |
+| 23  | Noah Gallo         | Bellevue, WA                | Neighborhood Church          | -10   | -1.43  |     |
+| 24  | Kayla Roettgers    | Houston, TX (CT)            | Christian Temple             | -5    | -0.71  |     |
 
 ### Group D
 
