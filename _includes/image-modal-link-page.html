@@ -1,0 +1,14 @@
+<div id="image-link-modal" class="modal">
+    <div class="modal-background" onclick="document.getElementById('image-link-modal').classList.remove('is-active')" />
+    <div class="modal-content"><img id="image-link-modal-image" /></div>
+    <button class="modal-close is-large" aria-label="close" onclick="document.getElementById('image-link-modal').classList.remove('is-active')"></button>
+</div>
+
+<script type="application/javascript">
+    const linkModal = document.getElementById("image-link-modal");
+    const modalImage = document.getElementById("image-link-modal-image");
+    function showImageModal(source) {
+        modalImage.source = `{{ include.prefix }}${source}`;
+        linkModal.classList.add("is-active");
+    }
+</script>
