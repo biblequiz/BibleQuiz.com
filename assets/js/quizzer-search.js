@@ -215,12 +215,12 @@ function updateSearchResult() {
 function addUrlRows(season, type, urlPrefix, urls) {
     for (let i = 0; i < urls.length; i++) {
 
-        const url = urls[i];
+        const url = urlPrefix + urls[i];
 
         const pageLink = document.createElement("a");
         pageLink.href = url;
         pageLink.target = "_blank";
-        pageLink.innerText = allPages[urlPrefix + url];
+        pageLink.innerText = allPages[url];
 
         const externalLink = document.createElement("i");
         externalLink.className = "fas fa-external-link-alt";
