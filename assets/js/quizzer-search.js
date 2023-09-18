@@ -222,8 +222,13 @@ function addUrlRows(season, type, urlPrefix, urls) {
         pageLink.target = "_blank";
         pageLink.innerText = allPages[urlPrefix + url];
 
+        const externalLink = document.createElement("i");
+        externalLink.className = "fas fa-external-link-alt";
+
         const pageCell = document.createElement("td");
         pageCell.appendChild(pageLink);
+        pageCell.appendChild(document.createTextNode(" "));
+        pageCell.appendChild(externalLink);
 
         const typeCell = document.createElement("td");
         typeCell.innerText = type;
