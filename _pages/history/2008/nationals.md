@@ -2236,6 +2236,14 @@ Round 19: Lost to Grace A/G, Syracuse, NY 85 to 120
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="The Church at Briargate, 'Children of the Desolate Woman', Colorado Springs, CO" html=image_html %}
 
+## Special Events
+
+### Senior Shootout
+
+Tied first place between:
+* Joshua Forsman from Christian Temple, Houston, TX
+* James Pryer from Orange Hills AG, Orange, CA
+
 ## Memories
 
 ### Stories

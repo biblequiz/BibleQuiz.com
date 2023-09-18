@@ -2178,6 +2178,12 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="The Church at Briargate #2, Colorado Springs, CO" html=image_html %}
 
+## Special Events
+
+### Senior Shootout
+
+Won by Taylor Vickerman from First AG, Lafayette, IN
+
 ## Memories
 
 ### Stories

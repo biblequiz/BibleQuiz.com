@@ -2326,6 +2326,10 @@ At the Georgia District Competition there was a tie for first place between Snel
 
 ## Special Events
 
+### Senior Shootout
+
+Won by Ellen Oss from Central AG, Springfield, MO
+
 ### Match of Death
 
 <a href="{% link assets/2012/match-of-death-questions.pdf %}" class="button is-primary">Questions</a>

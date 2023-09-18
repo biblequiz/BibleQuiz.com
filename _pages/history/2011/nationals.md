@@ -2700,3 +2700,9 @@ Grace Xu
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Orange Country Christian Evangelical Church, Irvine, CA" html=image_html %}
+
+## Special Events
+
+### Senior Shootout
+
+Won by Kayla Hill from Living Hope Worship Center, Swedesboro, NJ

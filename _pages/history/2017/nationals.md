@@ -463,6 +463,10 @@ menubar_toc_static:
 
 ## Special Events
 
+### Senior Shootout
+
+Won by Halle Reisinger from Newport AG, Newport, PA
+
 ### Individual Tournament
 
 If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).

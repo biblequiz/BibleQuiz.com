@@ -2865,3 +2865,9 @@ In June, when we were having a break from quoting, David made up a simple but ch
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Orange County Christian Evangelical Church, Irvine, CA" html=image_html %}
+
+## Special Events
+
+### Senior Shootout
+
+Won by Danielle Brozovich from James River AG, Ozark, MO

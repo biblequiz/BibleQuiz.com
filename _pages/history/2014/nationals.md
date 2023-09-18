@@ -494,6 +494,10 @@ menubar_toc_static:
 
 ## Special Events
 
+### Senior Shootout
+
+Won by Kenny Ukoh from Braeswood AG, Houston, TX
+
 ### Individual Tournament
 
 If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).

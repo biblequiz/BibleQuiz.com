@@ -436,6 +436,10 @@ menubar_toc_static:
 
 ## Special Events
 
+### Senior Shootout
+
+Won by Devon Colegrove from James River AG, Ozark, MO
+
 ### Match of Death
 
 <a href="{% link assets/2013/MatchOfDeath.docx %}" class="button is-primary">Questions</a>
