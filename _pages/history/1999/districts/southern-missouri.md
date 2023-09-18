@@ -9,18 +9,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Joey Bohanon"
-  sort: "Bohanon, Joey"
-  l: "B"
-- name: "Angela Goodman"
-  sort: "Goodman, Angela"
-  l: "G"
-- name: "Eric Hernando"
-  sort: "Hernando, Eric"
-  l: "H"
 ---
 
 ## A Division
@@ -42,3 +30,4 @@ quizzers:
 |    1 | Joey Bohanon   |
 |    2 | Eric Hernando  |
 |    3 | Angela Goodman |
+

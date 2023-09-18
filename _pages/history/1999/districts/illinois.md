@@ -10,24 +10,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Laura Centeno"
-  sort: "Centeno, Laura"
-  l: "C"
-- name: "Cindy Decker"
-  sort: "Decker, Cindy"
-  l: "D"
-- name: "Ryan Decker"
-  sort: "Decker, Ryan"
-  l: "D"
-- name: "Missy Senf"
-  sort: "Senf, Missy"
-  l: "S"
-- name: "Sam Vales"
-  sort: "Vales, Sam"
-  l: "V"
 ---
 
 ## Teams
@@ -49,3 +31,4 @@ quizzers:
 |    3 | Missy Senf    | Naperville    |   405 |  50.63 |
 |    4 | Sam Vales     | Palos Heights |   325 |  40.63 |
 |    5 | Laura Centeno | Palos Heights |   235 |  29.38 |
+

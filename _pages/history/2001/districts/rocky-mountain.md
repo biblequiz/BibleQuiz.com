@@ -10,21 +10,6 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
-type: t
-season: 2001
-quizzers:
-- name: "Sara Curry"
-  sort: "Curry, Sara"
-  l: "C"
-- name: "Mary Pace"
-  sort: "Pace, Mary"
-  l: "P"
-- name: "Jordan Schneider"
-  sort: "Schneider, Jordan"
-  l: "S"
-- name: "Ravae Walter"
-  sort: "Walter, Ravae"
-  l: "W"
 ---
 
 Briargate Church went undefeated to advance to Regional competition along with Foothills A/G from Ft. Collins, CO.

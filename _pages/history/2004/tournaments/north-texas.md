@@ -9,69 +9,6 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
-type: t
-season: 2004
-quizzers:
-- name: "Ibukun Akindele"
-  sort: "Akindele, Ibukun"
-  l: "A"
-- name: "Marci Alcala"
-  sort: "Alcala, Marci"
-  l: "A"
-- name: "Esther Anyanwu"
-  sort: "Anyanwu, Esther"
-  l: "A"
-- name: "Christopher Bowers"
-  sort: "Bowers, Christopher"
-  l: "B"
-- name: "Rojan Easo"
-  sort: "Easo, Rojan"
-  l: "E"
-- name: "Cameo Ewing"
-  sort: "Ewing, Cameo"
-  l: "E"
-- name: "Donnubari Gbaanador"
-  sort: "Gbaanador, Donnubari"
-  l: "G"
-- name: "Taiwo Masha"
-  sort: "Masha, Taiwo"
-  l: "M"
-- name: "Chichi Nwabadike"
-  sort: "Nwabadike, Chichi"
-  l: "N"
-- name: "Ngozi Nwabudike"
-  sort: "Nwabudike, Ngozi"
-  l: "N"
-- name: "Jared Paige"
-  sort: "Paige, Jared"
-  l: "P"
-- name: "Amanda Pryor"
-  sort: "Pryor, Amanda"
-  l: "P"
-- name: "April Pryor"
-  sort: "Pryor, April"
-  l: "P"
-- name: "Aaron Shipley"
-  sort: "Shipley, Aaron"
-  l: "S"
-- name: "Dayton Shorter"
-  sort: "Shorter, Dayton"
-  l: "S"
-- name: "Eowyn Thompson"
-  sort: "Thompson, Eowyn"
-  l: "T"
-- name: "Jonathan Voigt"
-  sort: "Voigt, Jonathan"
-  l: "V"
-- name: "Chance Watts"
-  sort: "Watts, Chance"
-  l: "W"
-- name: "Jennifer Welborn"
-  sort: "Welborn, Jennifer"
-  l: "W"
-- name: "Megan Welborn"
-  sort: "Welborn, Megan"
-  l: "W"
 ---
 
 ## Championship Division
@@ -131,3 +68,4 @@ quizzers:
 | Rojan Easo       | Braeswood |   380 |
 | Jennifer Welborn | Harvest   |   350 |
 | Marci Alcala     | Harvest   |   255 |
+

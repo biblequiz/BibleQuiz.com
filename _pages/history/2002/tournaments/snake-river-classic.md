@@ -10,45 +10,6 @@ menubar_toc_static:
   - name: 2002 Season
     link: /history/2002/
     icon: fas fa-home
-type: t
-season: 2002
-quizzers:
-- name: "Jenny Dworzak"
-  sort: "Dworzak, Jenny"
-  l: "D"
-- name: "Rachel Gilpin"
-  sort: "Gilpin, Rachel"
-  l: "G"
-- name: "Jed Gosnell"
-  sort: "Gosnell, Jed"
-  l: "G"
-- name: "Ben Keehl"
-  sort: "Keehl, Ben"
-  l: "K"
-- name: "Stephanie Major"
-  sort: "Major, Stephanie"
-  l: "M"
-- name: "Shannon Maynard"
-  sort: "Maynard, Shannon"
-  l: "M"
-- name: "Joshua McLean"
-  sort: "McLean, Joshua"
-  l: "M"
-- name: "Hannah Moore"
-  sort: "Moore, Hannah"
-  l: "M"
-- name: "Bob Nelson"
-  sort: "Nelson, Bob"
-  l: "N"
-- name: "Jordan Shipley"
-  sort: "Shipley, Jordan"
-  l: "S"
-- name: "Lauren Spear"
-  sort: "Spear, Lauren"
-  l: "S"
-- name: "Michael Weaver"
-  sort: "Weaver, Michael"
-  l: "W"
 ---
 
 First place in Divisions A,B and C were all won in playoffs.
@@ -132,3 +93,4 @@ First place in Divisions A,B and C were all won in playoffs.
 | Hannah Moore    | Cedar Park    |  1410 |
 | Shannon Maynard | Helena, MT    |  1405 |
 | Michael Weaver  | Whitefish, MT |   910 |
+

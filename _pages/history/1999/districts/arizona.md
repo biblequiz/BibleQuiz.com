@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Meredith Allen"
-  sort: "Allen, Meredith"
-  l: "A"
-- name: "Alison Ballard"
-  sort: "Ballard, Alison"
-  l: "B"
-- name: "Brian Bell"
-  sort: "Bell, Brian"
-  l: "B"
-- name: "Katie Byron"
-  sort: "Byron, Katie"
-  l: "B"
-- name: "Bobby Gutierrez"
-  sort: "Gutierrez, Bobby"
-  l: "G"
-- name: "Sarah Ingroum"
-  sort: "Ingroum, Sarah"
-  l: "I"
-- name: "Adam Johnson"
-  sort: "Johnson, Adam"
-  l: "J"
-- name: "Amber McCormick"
-  sort: "McCormick, Amber"
-  l: "M"
-- name: "Jordan Ropeter"
-  sort: "Ropeter, Jordan"
-  l: "R"
-- name: "Andrew Wren"
-  sort: "Wren, Andrew"
-  l: "W"
 ---
 
 ## Division I
@@ -89,3 +56,4 @@ quizzers:
 |    6 | Phoenix North Freeway  |    4 |   10 |    15 |
 |    7 | Miami Word of Life     |    3 |   11 |   -25 |
 |    8 | Gilbert Sonrise 1      |    1 |   13 |   -15 |
+

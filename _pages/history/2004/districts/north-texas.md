@@ -10,54 +10,6 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
-type: t
-season: 2004
-quizzers:
-- name: "Da'nae Atkins"
-  sort: "Atkins, Da'nae"
-  l: "A"
-- name: "Monica Cantu"
-  sort: "Cantu, Monica"
-  l: "C"
-- name: "Kevin Davis"
-  sort: "Davis, Kevin"
-  l: "D"
-- name: "Brittanie Hodges"
-  sort: "Hodges, Brittanie"
-  l: "H"
-- name: "Steven Johnson"
-  sort: "Johnson, Steven"
-  l: "J"
-- name: "Davis Martinez"
-  sort: "Martinez, Davis"
-  l: "M"
-- name: "Alan Orcutt"
-  sort: "Orcutt, Alan"
-  l: "O"
-- name: "Amanda Pryor"
-  sort: "Pryor, Amanda"
-  l: "P"
-- name: "April Pryor"
-  sort: "Pryor, April"
-  l: "P"
-- name: "Chris Pursell"
-  sort: "Pursell, Chris"
-  l: "P"
-- name: "Dayton Shorter"
-  sort: "Shorter, Dayton"
-  l: "S"
-- name: "Eowyn Thompson"
-  sort: "Thompson, Eowyn"
-  l: "T"
-- name: "Chance Watts"
-  sort: "Watts, Chance"
-  l: "W"
-- name: "Jennifer Welborn"
-  sort: "Welborn, Jennifer"
-  l: "W"
-- name: "Megan Welborn"
-  sort: "Welborn, Megan"
-  l: "W"
 ---
 
 ## A Division
@@ -119,3 +71,4 @@ quizzers:
 |    3 | Davis Martinez   | Bethel Temple |   175 |
 |    4 | Brittanie Hodges | Harvest       |   155 |
 |    5 | Monica Cantu     | Bethel Temple |    80 |
+

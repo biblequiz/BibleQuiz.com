@@ -9,30 +9,6 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
-type: t
-season: 2003
-quizzers:
-- name: "Latara Bowder"
-  sort: "Bowder, Latara"
-  l: "B"
-- name: "Erin Coffey"
-  sort: "Coffey, Erin"
-  l: "C"
-- name: "Paul Corrigan"
-  sort: "Corrigan, Paul"
-  l: "C"
-- name: "Troy King"
-  sort: "King, Troy"
-  l: "K"
-- name: "Christopher Smith"
-  sort: "Smith, Christopher"
-  l: "S"
-- name: "Damon Smith"
-  sort: "Smith, Damon"
-  l: "S"
-- name: "James Wolter"
-  sort: "Wolter, James"
-  l: "W"
 ---
 
 ## A Division
@@ -69,3 +45,4 @@ quizzers:
 | Christopher Smith | Mission 3:16 |   295 |
 | Erin Coffey       | C.B.Q.G.     |    80 |
 | Latara Bowder     | C.B.Q.G.     |    35 |
+

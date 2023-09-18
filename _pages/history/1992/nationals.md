@@ -10,27 +10,6 @@ menubar_toc_static:
   - name: 1992 Season
     link: /history/1992/
     icon: fas fa-home
-type: t
-season: 1992
-quizzers:
-- name: "Brian Boeninger"
-  sort: "Boeninger, Brian"
-  l: "B"
-- name: "Karl Dawson"
-  sort: "Dawson, Karl"
-  l: "D"
-- name: "Josh Weber"
-  sort: "Weber, Josh"
-  l: "W"
-- name: "Bryan Wootton"
-  sort: "Wootton, Bryan"
-  l: "W"
-- name: "Lisa Wootton"
-  sort: "Wootton, Lisa"
-  l: "W"
-- name: "Jennifer Zarro"
-  sort: "Zarro, Jennifer"
-  l: "Z"
 ---
 
 ![]({% link assets/1985/nationals-cover.jpg %})

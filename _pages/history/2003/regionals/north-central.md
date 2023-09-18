@@ -10,46 +10,6 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
-type: t
-season: 2003
-quizzers:
-- name: "Bobby DeGray"
-  sort: "DeGray, Bobby"
-  l: "D"
-  other:
-  - "Bobby"
-- name: "John DeGray"
-  sort: "DeGray, John"
-  l: "D"
-  other:
-  - "Bobby"
-- name: "Teresa Henderson"
-  sort: "Henderson, Teresa"
-  l: "H"
-- name: "Rachel May"
-  sort: "May, Rachel"
-  l: "M"
-- name: "Hannah Meyer"
-  sort: "Meyer, Hannah"
-  l: "M"
-- name: "Alicia Morken"
-  sort: "Morken, Alicia"
-  l: "M"
-- name: "Logan Newman"
-  sort: "Newman, Logan"
-  l: "N"
-- name: "Crystal Pilcher"
-  sort: "Pilcher, Crystal"
-  l: "P"
-- name: "Bekah Regenfus"
-  sort: "Regenfus, Bekah"
-  l: "R"
-- name: "Zachary Schaalma"
-  sort: "Schaalma, Zachary"
-  l: "S"
-- name: "Tyler Turnage"
-  sort: "Turnage, Tyler"
-  l: "T"
 ---
 
 ## Teams
@@ -91,3 +51,4 @@ This left a one-question winner take all overtime question for the last place at
 |    8 | Zachary Schaalma    | Fond Du Lac, WI  |   815 |   74 |
 |    9 | Teresa Henderson    | St. Cloud, MN    |   675 |   61 |
 |   10 | Crystal Pilcher     | Ames, IA         |   600 |   55 |
+

@@ -9,18 +9,6 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
-type: t
-season: 2008
-quizzers:
-- name: "Sarah Ingerson"
-  sort: "Ingerson, Sarah"
-  l: "I"
-- name: "Hillari Wyatt"
-  sort: "Wyatt, Hillari"
-  l: "W"
-- name: "Kourtni Wyatt"
-  sort: "Wyatt, Kourtni"
-  l: "W"
 ---
 
 ## Top Teams
@@ -40,3 +28,4 @@ quizzers:
 |    1 | Sarah Ingerson |   485 | 121 |
 |    2 | Kourtni Wyatt  |   270 | 68  |
 |    3 | Hillari Wyatt  |   235 | 59  |
+

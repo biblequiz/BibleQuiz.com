@@ -9,24 +9,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Jim Fenton"
-  sort: "Fenton, Jim"
-  l: "F"
-- name: "Becky Gainey"
-  sort: "Gainey, Becky"
-  l: "G"
-- name: "Stan Hardter"
-  sort: "Hardter, Stan"
-  l: "H"
-- name: "Dave Scarborough"
-  sort: "Scarborough, Dave"
-  l: "S"
-- name: "Nathan Watkins"
-  sort: "Watkins, Nathan"
-  l: "W"
 ---
 
 ## Top Teams
@@ -50,3 +32,4 @@ quizzers:
 |    3 | Stan Hardter     | Syracuse     |  1040 |
 |    4 | Dave Scarborough | Allison Park |  1035 |
 |    5 | Becky Gainey     | Auburn       |  1030 |
+

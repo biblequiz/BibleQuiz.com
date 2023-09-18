@@ -9,42 +9,6 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
-type: t
-season: 2008
-quizzers:
-- name: "Kierstyn Anderson"
-  sort: "Anderson, Kierstyn"
-  l: "A"
-- name: "Billy Branham"
-  sort: "Branham, Billy"
-  l: "B"
-- name: "Davis Buffham"
-  sort: "Buffham, Davis"
-  l: "B"
-- name: "Cameron Davis"
-  sort: "Davis, Cameron"
-  l: "D"
-- name: "Olivia Davis"
-  sort: "Davis, Olivia"
-  l: "D"
-- name: "Alex Firari"
-  sort: "Firari, Alex"
-  l: "F"
-- name: "Hudson Kelly"
-  sort: "Kelly, Hudson"
-  l: "K"
-- name: "David Kober"
-  sort: "Kober, David"
-  l: "K"
-- name: "Ross Toeller"
-  sort: "Toeller, Ross"
-  l: "T"
-- name: "Josh Turner"
-  sort: "Turner, Josh"
-  l: "T"
-- name: "Naomi Turner"
-  sort: "Turner, Naomi"
-  l: "T"
 ---
 
 ## Teams
@@ -79,3 +43,4 @@ quizzers:
 | Olivia Davis      | Holland 2, MI |  1050 |    9 |
 | Kierstyn Anderson | Holland 1, MI |  1040 |   11 |
 | David Kober       | Oshkosh       |  1040 |    6 |
+

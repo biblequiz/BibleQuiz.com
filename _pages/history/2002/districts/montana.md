@@ -9,39 +9,6 @@ menubar_toc_static:
   - name: 2002 Season
     link: /history/2002/
     icon: fas fa-home
-type: t
-season: 2002
-quizzers:
-- name: "Griff Berg"
-  sort: "Berg, Griff"
-  l: "B"
-- name: "Rachel Gilpin"
-  sort: "Gilpin, Rachel"
-  l: "G"
-- name: "Collins Lawlor"
-  sort: "Lawlor, Collins"
-  l: "L"
-- name: "Shannon Maynard"
-  sort: "Maynard, Shannon"
-  l: "M"
-- name: "Bob Nelson"
-  sort: "Nelson, Bob"
-  l: "N"
-- name: "Autumn Nolte"
-  sort: "Nolte, Autumn"
-  l: "N"
-- name: "Caleb Skjervem"
-  sort: "Skjervem, Caleb"
-  l: "S"
-- name: "Brianna Turnquist"
-  sort: "Turnquist, Brianna"
-  l: "T"
-- name: "Jessica Weaver"
-  sort: "Weaver, Jessica"
-  l: "W"
-- name: "John Michael Weaver"
-  sort: "Weaver, John Michael"
-  l: "W"
 ---
 
 ## A Division
@@ -97,3 +64,4 @@ quizzers:
 |    3 | Jessica Weaver      | Whitefish Assembly         |
 |    4 | Brianna Turnquist   | Billings First Life Center |
 |    5 | Caleb Skjervem      | Helena First Assembly      |
+

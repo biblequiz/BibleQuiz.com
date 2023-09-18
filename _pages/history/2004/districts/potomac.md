@@ -10,48 +10,6 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
-type: t
-season: 2004
-quizzers:
-- name: "Lindsey Brower"
-  sort: "Brower, Lindsey"
-  l: "B"
-- name: "Stephanie Edwards"
-  sort: "Edwards, Stephanie"
-  l: "E"
-- name: "Taye Falaiye"
-  sort: "Falaiye, Taye"
-  l: "F"
-- name: "Tayo Falaiye"
-  sort: "Falaiye, Tayo"
-  l: "F"
-- name: "Jasmine Franklin"
-  sort: "Franklin, Jasmine"
-  l: "F"
-- name: "Jessica Malinger"
-  sort: "Malinger, Jessica"
-  l: "M"
-- name: "Emily Roberts"
-  sort: "Roberts, Emily"
-  l: "R"
-- name: "Billy Selkirk"
-  sort: "Selkirk, Billy"
-  l: "S"
-- name: "Gabrielle Strim"
-  sort: "Strim, Gabrielle"
-  l: "S"
-- name: "Lauren Thorp"
-  sort: "Thorp, Lauren"
-  l: "T"
-- name: "Cameron Weatherholtz"
-  sort: "Weatherholtz, Cameron"
-  l: "W"
-- name: "Bijon Yavar"
-  sort: "Yavar, Bijon"
-  l: "Y"
-- name: "Becky York"
-  sort: "York, Becky"
-  l: "Y"
 ---
 
 ## A Division
@@ -104,3 +62,4 @@ quizzers:
 |    3 | Stephanie Edwards    | Manassas     |    65 |
 |    4 | Tayo Falaiye         | Word of Life |    50 |
 |    5 | Taye Falaiye         | Word of Life |    25 |
+

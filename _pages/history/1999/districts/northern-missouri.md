@@ -10,18 +10,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Towela Magai"
-  sort: "Magai, Towela"
-  l: "M"
-- name: "Alissa Neff"
-  sort: "Neff, Alissa"
-  l: "N"
-- name: "Naomi Weisbrook"
-  sort: "Weisbrook, Naomi"
-  l: "W"
 ---
 
 ## Teams
@@ -38,3 +26,4 @@ quizzers:
 |    1 | Towela Magai    | Christian Chapel |
 |    2 | Naomi Weisbrook | Christian Chapel |
 |    3 | Alissa Neff     | Moberly          |
+

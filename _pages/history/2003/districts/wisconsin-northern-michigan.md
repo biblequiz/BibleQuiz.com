@@ -10,69 +10,6 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
-type: t
-season: 2003
-quizzers:
-- name: "Michael Adsit"
-  sort: "Adsit, Michael"
-  l: "A"
-- name: "Rachael Belmont"
-  sort: "Belmont, Rachael"
-  l: "B"
-- name: "Mark Benson"
-  sort: "Benson, Mark"
-  l: "B"
-- name: "Zach Ehr"
-  sort: "Ehr, Zach"
-  l: "E"
-- name: "Victor Gavidia"
-  sort: "Gavidia, Victor"
-  l: "G"
-- name: "Emily Hazard"
-  sort: "Hazard, Emily"
-  l: "H"
-- name: "Danielle Johnson"
-  sort: "Johnson, Danielle"
-  l: "J"
-- name: "Rebekah King"
-  sort: "King, Rebekah"
-  l: "K"
-- name: "Daniel Kober"
-  sort: "Kober, Daniel"
-  l: "K"
-- name: "Harmonee Kolenda"
-  sort: "Kolenda, Harmonee"
-  l: "K"
-- name: "Hannah Meyer"
-  sort: "Meyer, Hannah"
-  l: "M"
-- name: "Naomi Meyer"
-  sort: "Meyer, Naomi"
-  l: "M"
-- name: "Logan Newman"
-  sort: "Newman, Logan"
-  l: "N"
-- name: "Heidi Quist"
-  sort: "Quist, Heidi"
-  l: "Q"
-- name: "Cameron Rebarchek"
-  sort: "Rebarchek, Cameron"
-  l: "R"
-- name: "Brian Sanders"
-  sort: "Sanders, Brian"
-  l: "S"
-- name: "Ross Sanderson"
-  sort: "Sanderson, Ross"
-  l: "S"
-- name: "Zach Schaalma"
-  sort: "Schaalma, Zach"
-  l: "S"
-- name: "Tyler Turnage"
-  sort: "Turnage, Tyler"
-  l: "T"
-- name: "Josh Turner"
-  sort: "Turner, Josh"
-  l: "T"
 ---
 
 ## Division I
@@ -141,3 +78,4 @@ quizzers:
 |    8 | Mark Benson       | Janesville I |   300 | 30.0 |
 |    9 | Cameron Rebarchek | Janesville I |   295 | 29.5 |
 |   10 | Zach Ehr          | Plymouth     |   255 | 25.5 |
+

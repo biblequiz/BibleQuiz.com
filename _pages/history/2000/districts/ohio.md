@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
-type: t
-season: 2000
-quizzers:
-- name: "Megan Barth"
-  sort: "Barth, Megan"
-  l: "B"
-- name: "Nathan Deem"
-  sort: "Deem, Nathan"
-  l: "D"
-- name: "Kurt Halter"
-  sort: "Halter, Kurt"
-  l: "H"
-- name: "Renee Helms"
-  sort: "Helms, Renee"
-  l: "H"
-- name: "Steve Hill"
-  sort: "Hill, Steve"
-  l: "H"
-- name: "Amber Hise"
-  sort: "Hise, Amber"
-  l: "H"
-- name: "Amy Hise"
-  sort: "Hise, Amy"
-  l: "H"
-- name: "David Munn"
-  sort: "Munn, David"
-  l: "M"
-- name: "Bryce Steel"
-  sort: "Steel, Bryce"
-  l: "S"
-- name: "Justin Stentz"
-  sort: "Stentz, Justin"
-  l: "S"
 ---
 
 ## A Division
@@ -86,3 +53,4 @@ quizzers:
 |    3 | Justin Stentz | Mansfield  |   255 | 51.0 |
 |    4 | Kurt Halter   | Louisville |   230 | 46.0 |
 |    5 | Renee Helms   | Parma      |   220 | 44.0 |
+

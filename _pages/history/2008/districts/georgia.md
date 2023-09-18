@@ -9,72 +9,6 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
-type: t
-season: 2008
-quizzers:
-- name: "Alyssa Austin"
-  sort: "Austin, Alyssa"
-  l: "A"
-- name: "Anna Austin"
-  sort: "Austin, Anna"
-  l: "A"
-- name: "Ceiran Beasley"
-  sort: "Beasley, Ceiran"
-  l: "B"
-- name: "Sarah Belay"
-  sort: "Belay, Sarah"
-  l: "B"
-- name: "Yoki Belay"
-  sort: "Belay, Yoki"
-  l: "B"
-- name: "Brad Boling"
-  sort: "Boling, Brad"
-  l: "B"
-- name: "Bruce Borah"
-  sort: "Borah, Bruce"
-  l: "B"
-- name: "Rodney Brown"
-  sort: "Brown, Rodney"
-  l: "B"
-- name: "Randy Brumbalow"
-  sort: "Brumbalow, Randy"
-  l: "B"
-- name: "Meghann Gibson"
-  sort: "Gibson, Meghann"
-  l: "G"
-- name: "Benjamin Harkins"
-  sort: "Harkins, Benjamin"
-  l: "H"
-- name: "Bryan Harkins"
-  sort: "Harkins, Bryan"
-  l: "H"
-- name: "Zach Hollingsworth"
-  sort: "Hollingsworth, Zach"
-  l: "H"
-- name: "Jeffrey Johnson"
-  sort: "Johnson, Jeffrey"
-  l: "J"
-- name: "Stephanie Johnson"
-  sort: "Johnson, Stephanie"
-  l: "J"
-- name: "Isabella Lex"
-  sort: "Lex, Isabella"
-  l: "L"
-- name: "James Lex"
-  sort: "Lex, James"
-  l: "L"
-- name: "Summer Osbun"
-  sort: "Osbun, Summer"
-  l: "O"
-- name: "Jacob Simoneau"
-  sort: "Simoneau, Jacob"
-  l: "S"
-- name: "Jessie Temple"
-  sort: "Temple, Jessie"
-  l: "T"
-- name: "Sydney Tuckey"
-  sort: "Tuckey, Sydney"
-  l: "T"
 ---
 
 ## A Division
@@ -151,3 +85,4 @@ District Finals for B Division was held on March 22.
 |   3* | Summer Osbun       | Smyrna |
 |   3* | Brad Boling        | Rome   |
 |   3* | Zach Hollingsworth |        |
+

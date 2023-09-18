@@ -10,27 +10,6 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
-type: t
-season: 2003
-quizzers:
-- name: "Chris Bowers"
-  sort: "Bowers, Chris"
-  l: "B"
-- name: "Cameo Ewing"
-  sort: "Ewing, Cameo"
-  l: "E"
-- name: "Chris Harrelson"
-  sort: "Harrelson, Chris"
-  l: "H"
-- name: "Josh Morgan"
-  sort: "Morgan, Josh"
-  l: "M"
-- name: "Matthew Teal"
-  sort: "Teal, Matthew"
-  l: "T"
-- name: "Christen Willis"
-  sort: "Willis, Christen"
-  l: "W"
 ---
 
 ## Teams
@@ -54,3 +33,4 @@ quizzers:
 |    4 | Chris Bowers    | Memphis, Raleigh |   48 |    3 |
 |    5 | Christen Willis | Dickson 1, First |   40 |    0 |
 |    6 | Cameo Ewing     | Memphis, Raleigh |   30 |    0 |
+

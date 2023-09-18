@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Len Blackson"
-  sort: "Blackson, Len"
-  l: "B"
-- name: "Brandon Blankenship"
-  sort: "Blankenship, Brandon"
-  l: "B"
-- name: "Charity Daniel"
-  sort: "Daniel, Charity"
-  l: "D"
-- name: "Jennifer Dunn"
-  sort: "Dunn, Jennifer"
-  l: "D"
-- name: "Jennifer Hunter"
-  sort: "Hunter, Jennifer"
-  l: "H"
-- name: "Sarah Roberts"
-  sort: "Roberts, Sarah"
-  l: "R"
-- name: "Katie Shepherd"
-  sort: "Shepherd, Katie"
-  l: "S"
-- name: "Laura Smith"
-  sort: "Smith, Laura"
-  l: "S"
-- name: "Daniel Tidwell"
-  sort: "Tidwell, Daniel"
-  l: "T"
-- name: "Shane Welborn"
-  sort: "Welborn, Shane"
-  l: "W"
 ---
 
 ## Teams
@@ -74,3 +41,4 @@ quizzers:
 |    8 | Laura Smith         | Pensacola   |   320 |
 |    9 | Daniel Tidwell      | Logansville |   245 |
 |   10 | Jennifer Hunter     | Ocala       |   185 |
+

@@ -10,27 +10,6 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
-type: t
-season: 2001
-quizzers:
-- name: "Sarette Albin"
-  sort: "Albin, Sarette"
-  l: "A"
-- name: "Kendi Beyer"
-  sort: "Beyer, Kendi"
-  l: "B"
-- name: "Tyler Ferguson"
-  sort: "Ferguson, Tyler"
-  l: "F"
-- name: "Hannah Meyer"
-  sort: "Meyer, Hannah"
-  l: "M"
-- name: "Logan Newman"
-  sort: "Newman, Logan"
-  l: "N"
-- name: "Bekah Regenfus"
-  sort: "Regenfus, Bekah"
-  l: "R"
 ---
 
 ## Teams
@@ -58,3 +37,4 @@ quizzers:
 |    4 | Sarette Albin  | Cedar Rapids, IA |   610 |
 |    5 | Hannah Meyer   | Superior, WI     |   460 |
 |    6 | Bekah Regenfus | Ames, IA         |   360 |
+

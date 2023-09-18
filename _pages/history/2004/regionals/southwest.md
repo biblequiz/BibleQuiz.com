@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
-type: t
-season: 2004
-quizzers:
-- name: "David Dorey"
-  sort: "Dorey, David"
-  l: "D"
-- name: "Trevor Eastin"
-  sort: "Eastin, Trevor"
-  l: "E"
-- name: "Andrew Kelly"
-  sort: "Kelly, Andrew"
-  l: "K"
-- name: "Preston McCullough"
-  sort: "McCullough, Preston"
-  l: "M"
-- name: "Mary Pace"
-  sort: "Pace, Mary"
-  l: "P"
-- name: "Molly Pace"
-  sort: "Pace, Molly"
-  l: "P"
-- name: "Courtney Popineau"
-  sort: "Popineau, Courtney"
-  l: "P"
-- name: "Brian Porzio"
-  sort: "Porzio, Brian"
-  l: "P"
-- name: "Mariana Shenoda"
-  sort: "Shenoda, Mariana"
-  l: "S"
-- name: "Brandyn Shepherd"
-  sort: "Shepherd, Brandyn"
-  l: "S"
 ---
 
 Since there were only 6 teams present and none from Hawaii or Northern-California/Nevada districts, there was a triple round-robin.
@@ -74,3 +41,4 @@ Since there were only 6 teams present and none from Hawaii or Northern-Californi
 |    8 | Mariana Shenoda    | Santa Ana    |   530 |  35.33 |
 |    9 | Trevor Eastin      | Red Mtn.     |   515 |  34.33 |
 |   10 | Brandyn Shepherd   | Red Mtn.     |   490 |  32.67 |
+

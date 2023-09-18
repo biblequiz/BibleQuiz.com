@@ -10,72 +10,6 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
-type: t
-season: 2003
-quizzers:
-- name: "Erica Ash"
-  sort: "Ash, Erica"
-  l: "A"
-- name: "Tiffany Auiler"
-  sort: "Auiler, Tiffany"
-  l: "A"
-- name: "Christopher Bowers"
-  sort: "Bowers, Christopher"
-  l: "B"
-- name: "Raymond Boyer"
-  sort: "Boyer, Raymond"
-  l: "B"
-- name: "Daniel Cooper"
-  sort: "Cooper, Daniel"
-  l: "C"
-- name: "Cameo Ewing"
-  sort: "Ewing, Cameo"
-  l: "E"
-- name: "Crystal Franklin"
-  sort: "Franklin, Crystal"
-  l: "F"
-- name: "Alan Gookin"
-  sort: "Gookin, Alan"
-  l: "G"
-- name: "Ashleigh Hanssen"
-  sort: "Hanssen, Ashleigh"
-  l: "H"
-- name: "Joshua Hanssen"
-  sort: "Hanssen, Joshua"
-  l: "H"
-- name: "Chris Harrelson"
-  sort: "Harrelson, Chris"
-  l: "H"
-- name: "Josh Havens"
-  sort: "Havens, Josh"
-  l: "H"
-- name: "Rebecca Jensen"
-  sort: "Jensen, Rebecca"
-  l: "J"
-- name: "Ryan Kowalski"
-  sort: "Kowalski, Ryan"
-  l: "K"
-- name: "Rachel Love"
-  sort: "Love, Rachel"
-  l: "L"
-- name: "Chris Morgan"
-  sort: "Morgan, Chris"
-  l: "M"
-- name: "Josh Morgan"
-  sort: "Morgan, Josh"
-  l: "M"
-- name: "Kammie Sands"
-  sort: "Sands, Kammie"
-  l: "S"
-- name: "Corrine Smith"
-  sort: "Smith, Corrine"
-  l: "S"
-- name: "Matthew Teal"
-  sort: "Teal, Matthew"
-  l: "T"
-- name: "David Womelsdorf"
-  sort: "Womelsdorf, David"
-  l: "W"
 ---
 
 ## A Division
@@ -139,3 +73,4 @@ $250.00 scholarship sponsored by the Southern Missouri District.
 |    3 | Rachel Love      | Praise A/G, Springfield, MO      |   105 |   26 |
 |    4 | Alan Gookin      | King's Chapel,Springfield, MO    |    85 |   21 |
 |    5 | Crystal Franklin | Sheffield Family Life Center, MO |    50 |   13 |
+

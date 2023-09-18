@@ -9,36 +9,6 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
-type: t
-season: 2001
-quizzers:
-- name: "Addie Fisher"
-  sort: "Fisher, Addie"
-  l: "F"
-- name: "Allegra Fisher"
-  sort: "Fisher, Allegra"
-  l: "F"
-- name: "Sasha Hosfelt"
-  sort: "Hosfelt, Sasha"
-  l: "H"
-- name: "Whitney Klaassen"
-  sort: "Klaassen, Whitney"
-  l: "K"
-- name: "Dan Marlow"
-  sort: "Marlow, Dan"
-  l: "M"
-- name: "John Mitchell"
-  sort: "Mitchell, John"
-  l: "M"
-- name: "David Riddle"
-  sort: "Riddle, David"
-  l: "R"
-- name: "Paige Riddle"
-  sort: "Riddle, Paige"
-  l: "R"
-- name: "Aaron Vance"
-  sort: "Vance, Aaron"
-  l: "V"
 ---
 
 ## A Division
@@ -80,3 +50,4 @@ quizzers:
 |    3 | Allegra Fisher   | Topeka Faith B |   540 |
 |    4 | Aaron Vance      | Evangel B      |   295 |
 |    5 | Addie Fisher     | Topeka Faith B |   280 |
+

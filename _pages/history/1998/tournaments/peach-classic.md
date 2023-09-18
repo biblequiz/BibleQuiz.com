@@ -9,54 +9,6 @@ menubar_toc_static:
   - name: 1998 Season
     link: /history/1998/
     icon: fas fa-home
-type: t
-season: 1998
-quizzers:
-- name: "Amanda Barrett"
-  sort: "Barrett, Amanda"
-  l: "B"
-- name: "Evy Bertovich"
-  sort: "Bertovich, Evy"
-  l: "B"
-- name: "Daniel Cowan"
-  sort: "Cowan, Daniel"
-  l: "C"
-- name: "Josh Goodwin"
-  sort: "Goodwin, Josh"
-  l: "G"
-- name: "Daniel Grace"
-  sort: "Grace, Daniel"
-  l: "G"
-- name: "Lynn Kunkel"
-  sort: "Kunkel, Lynn"
-  l: "K"
-- name: "Matt Miller"
-  sort: "Miller, Matt"
-  l: "M"
-- name: "Audrey Steele"
-  sort: "Steele, Audrey"
-  l: "S"
-- name: "Tim Stevens"
-  sort: "Stevens, Tim"
-  l: "S"
-- name: "Katherine Thomason"
-  sort: "Thomason, Katherine"
-  l: "T"
-- name: "Daniel Tidwell"
-  sort: "Tidwell, Daniel"
-  l: "T"
-- name: "Angel Traylor"
-  sort: "Traylor, Angel"
-  l: "T"
-- name: "Adeana Westmeyer"
-  sort: "Westmeyer, Adeana"
-  l: "W"
-- name: "Jeffrey Wilson"
-  sort: "Wilson, Jeffrey"
-  l: "W"
-- name: "Justin Wright"
-  sort: "Wright, Justin"
-  l: "W"
 ---
 
 ## Gold Division
@@ -115,3 +67,4 @@ quizzers:
 |    3 | Evy Bertovich  | First A/G, Warner Robins, GA #2 |    65 |
 |    4 | Justin Wright  | Parkway Assembly, Macon, GA     |    50 |
 |    4 | Angel Traylor  | First A/G, Warner Robins, GA #2 |    50 |
+

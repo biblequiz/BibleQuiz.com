@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
-type: t
-season: 2000
-quizzers:
-- name: "Brandon Blankenship"
-  sort: "Blankenship, Brandon"
-  l: "B"
-- name: "Bronson Clark"
-  sort: "Clark, Bronson"
-  l: "C"
-- name: "Jennifer Dunn"
-  sort: "Dunn, Jennifer"
-  l: "D"
-- name: "Frank Fortunato"
-  sort: "Fortunato, Frank"
-  l: "F"
-- name: "Michelle Hart"
-  sort: "Hart, Michelle"
-  l: "H"
-- name: "Abby Knotts"
-  sort: "Knotts, Abby"
-  l: "K"
-- name: "Heather Patterson"
-  sort: "Patterson, Heather"
-  l: "P"
-- name: "Brandon Porter"
-  sort: "Porter, Brandon"
-  l: "P"
-- name: "Sarah Roberts"
-  sort: "Roberts, Sarah"
-  l: "R"
-- name: "Amy Thomas"
-  sort: "Thomas, Amy"
-  l: "T"
 ---
 
 ## Teams
@@ -77,3 +44,4 @@ quizzers:
 |    8 | Michelle Hart       | Orlando      |   675 |    3 |
 |    9 | Amy Thomas          | Ft. Myers    |   630 |    4 |
 |   10 | Abby Knotts         | Fremont      |   540 |    3 |
+

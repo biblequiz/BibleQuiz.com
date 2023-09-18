@@ -9,69 +9,6 @@ menubar_toc_static:
   - name: 2006 Season
     link: /history/2006/
     icon: fas fa-home
-type: t
-season: 2006
-quizzers:
-- name: "Karan Bhargava"
-  sort: "Bhargava, Karan"
-  l: "B"
-- name: "Brittany Cantrell"
-  sort: "Cantrell, Brittany"
-  l: "C"
-- name: "Jordan Clark"
-  sort: "Clark, Jordan"
-  l: "C"
-- name: "Lori Cranford"
-  sort: "Cranford, Lori"
-  l: "C"
-- name: "Hayley DePriest"
-  sort: "DePriest, Hayley"
-  l: "D"
-- name: "Cameo Ewing"
-  sort: "Ewing, Cameo"
-  l: "E"
-- name: "Gina Fortunato"
-  sort: "Fortunato, Gina"
-  l: "F"
-- name: "Whitney Garrison"
-  sort: "Garrison, Whitney"
-  l: "G"
-- name: "Jonathan George"
-  sort: "George, Jonathan"
-  l: "G"
-- name: "Trevor Lindner"
-  sort: "Lindner, Trevor"
-  l: "L"
-- name: "Zach Pietz"
-  sort: "Pietz, Zach"
-  l: "P"
-- name: "Blake Porter"
-  sort: "Porter, Blake"
-  l: "P"
-- name: "Brandon Porter"
-  sort: "Porter, Brandon"
-  l: "P"
-- name: "Brittany Porter"
-  sort: "Porter, Brittany"
-  l: "P"
-- name: "Josh Slater"
-  sort: "Slater, Josh"
-  l: "S"
-- name: "Joshua Tuttle"
-  sort: "Tuttle, Joshua"
-  l: "T"
-- name: "Chris VanDevender"
-  sort: "VanDevender, Chris"
-  l: "V"
-- name: "Heidi Womelsdorf"
-  sort: "Womelsdorf, Heidi"
-  l: "W"
-- name: "Hillari Wyatt"
-  sort: "Wyatt, Hillari"
-  l: "W"
-- name: "Kourtni Wyatt"
-  sort: "Wyatt, Kourtni"
-  l: "W"
 ---
 
 ## A Division
@@ -136,3 +73,4 @@ quizzers:
 |    8 | Brittany Cantrell | Cooper Assembly     |   155 | 25.83 |    1 |
 |    9 | Jordan Clark      | Cooper Assembly     |    80 | 13.33 |    0 |
 |   10 | Heidi Womelsdorf  | JR - Jason's Angels |    40 |  6.67 |    0 |
+

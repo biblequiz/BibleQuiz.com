@@ -10,54 +10,6 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
-type: t
-season: 2004
-quizzers:
-- name: "Chris Bowers"
-  sort: "Bowers, Chris"
-  l: "B"
-- name: "Cameo Ewing"
-  sort: "Ewing, Cameo"
-  l: "E"
-- name: "Kathleen Hahn"
-  sort: "Hahn, Kathleen"
-  l: "H"
-- name: "Joshua Hanssen"
-  sort: "Hanssen, Joshua"
-  l: "H"
-- name: "Chris Harrelson"
-  sort: "Harrelson, Chris"
-  l: "H"
-- name: "Isaiah Jensen"
-  sort: "Jensen, Isaiah"
-  l: "J"
-- name: "Rebecca Jensen"
-  sort: "Jensen, Rebecca"
-  l: "J"
-- name: "Colin Knoth"
-  sort: "Knoth, Colin"
-  l: "K"
-- name: "Laura Laskaris"
-  sort: "Laskaris, Laura"
-  l: "L"
-- name: "Brandon Porter"
-  sort: "Porter, Brandon"
-  l: "P"
-- name: "Brittany Porter"
-  sort: "Porter, Brittany"
-  l: "P"
-- name: "Joshua Slater"
-  sort: "Slater, Joshua"
-  l: "S"
-- name: "Nathan Tuttle"
-  sort: "Tuttle, Nathan"
-  l: "T"
-- name: "Patience Tuttle"
-  sort: "Tuttle, Patience"
-  l: "T"
-- name: "Laura Virnig"
-  sort: "Virnig, Laura"
-  l: "V"
 ---
 
 ## A Division
@@ -110,3 +62,4 @@ quizzers:
 |    3 | Colin Knoth     | James River   |   48 |
 |    4 | Laura Laskaris  | Nixa-Laskaris |   47 |
 |    5 | Isaiah Jensen   | Murfreesboro  |   45 |
+

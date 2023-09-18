@@ -9,63 +9,6 @@ menubar_toc_static:
   - name: 2006 Season
     link: /history/2006/
     icon: fas fa-home
-type: t
-season: 2006
-quizzers:
-- name: "Ceiran Beasley"
-  sort: "Beasley, Ceiran"
-  l: "B"
-- name: "Yoki Belay"
-  sort: "Belay, Yoki"
-  l: "B"
-- name: "Simon Bennett"
-  sort: "Bennett, Simon"
-  l: "B"
-- name: "Bruce Borah"
-  sort: "Borah, Bruce"
-  l: "B"
-- name: "Erin Borah"
-  sort: "Borah, Erin"
-  l: "B"
-- name: "Jared Burkhalter"
-  sort: "Burkhalter, Jared"
-  l: "B"
-- name: "Marylee Couch"
-  sort: "Couch, Marylee"
-  l: "C"
-- name: "Elizabeth Deans"
-  sort: "Deans, Elizabeth"
-  l: "D"
-- name: "Rachel Dockery"
-  sort: "Dockery, Rachel"
-  l: "D"
-- name: "Michael Johnson"
-  sort: "Johnson, Michael"
-  l: "J"
-- name: "James Lex"
-  sort: "Lex, James"
-  l: "L"
-- name: "Evan Richardson"
-  sort: "Richardson, Evan"
-  l: "R"
-- name: "Brittany Richmeier"
-  sort: "Richmeier, Brittany"
-  l: "R"
-- name: "Gabrielle Richmeier"
-  sort: "Richmeier, Gabrielle"
-  l: "R"
-- name: "Daniel Rodriguez"
-  sort: "Rodriguez, Daniel"
-  l: "R"
-- name: "Christina Simpson"
-  sort: "Simpson, Christina"
-  l: "S"
-- name: "Shana Taylor"
-  sort: "Taylor, Shana"
-  l: "T"
-- name: "Aryka Turner"
-  sort: "Turner, Aryka"
-  l: "T"
 ---
 
 ## A Division
@@ -133,3 +76,4 @@ A single 20 question head-to-head match with the top quizzers from each team and
 |   2* | Evan Richardson | Ft. Myers #1 |    30 |
 |    4 | Michael Johnson | Ft. Myers #2 |    20 |
 |   4* | Erin Borah      | Smyrna       |    20 |
+

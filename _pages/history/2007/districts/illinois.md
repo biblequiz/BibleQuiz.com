@@ -9,45 +9,6 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
-type: t
-season: 2007
-quizzers:
-- name: "James Burke"
-  sort: "Burke, James"
-  l: "B"
-- name: "Bethany Caraotta"
-  sort: "Caraotta, Bethany"
-  l: "C"
-- name: "Joanna Guevara"
-  sort: "Guevara, Joanna"
-  l: "G"
-- name: "Chantal Kahsay"
-  sort: "Kahsay, Chantal"
-  l: "K"
-- name: "Mahalia Kahsay"
-  sort: "Kahsay, Mahalia"
-  l: "K"
-- name: "Kendra Libby"
-  sort: "Libby, Kendra"
-  l: "L"
-- name: "Catie Morris"
-  sort: "Morris, Catie"
-  l: "M"
-- name: "Laura Prosapio"
-  sort: "Prosapio, Laura"
-  l: "P"
-- name: "Tabitha Tibble"
-  sort: "Tibble, Tabitha"
-  l: "T"
-- name: "Andrew Torres"
-  sort: "Torres, Andrew"
-  l: "T"
-- name: "Courtney Walin"
-  sort: "Walin, Courtney"
-  l: "W"
-- name: "Cody Wolf"
-  sort: "Wolf, Cody"
-  l: "W"
 ---
 
 ## A Division
@@ -89,3 +50,4 @@ quizzers:
 | Joanna Guevara   | Rockford 6 | 19.17 |
 | Tabitha Tibble   | Rockford 6 | 17.50 |
 | Bethany Caraotta | Rockford 7 | 12.50 |
+

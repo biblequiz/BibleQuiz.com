@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
-type: t
-season: 2001
-quizzers:
-- name: "Casey Copeland"
-  sort: "Copeland, Casey"
-  l: "C"
-- name: "Chris Davis"
-  sort: "Davis, Chris"
-  l: "D"
-- name: "Richard Fair"
-  sort: "Fair, Richard"
-  l: "F"
-- name: "Eric Hernando"
-  sort: "Hernando, Eric"
-  l: "H"
-- name: "Anna Kennedy"
-  sort: "Kennedy, Anna"
-  l: "K"
-- name: "David Mannell"
-  sort: "Mannell, David"
-  l: "M"
-- name: "Megan Pincombe"
-  sort: "Pincombe, Megan"
-  l: "P"
-- name: "Kammie Sands"
-  sort: "Sands, Kammie"
-  l: "S"
-- name: "Robert Whitis"
-  sort: "Whitis, Robert"
-  l: "W"
-- name: "David Womelsdorf"
-  sort: "Womelsdorf, David"
-  l: "W"
 ---
 
 ## A Division
@@ -89,3 +56,4 @@ quizzers:
 |    3 | Anna Kennedy   | James River    |   560 |
 |   4* | Kammie Sands   | King's Chapel  |   540 |
 |   4* | David Mannell  | Evangel Temple |   540 |
+

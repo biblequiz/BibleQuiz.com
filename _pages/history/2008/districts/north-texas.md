@@ -10,54 +10,6 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
-type: t
-season: 2008
-quizzers:
-- name: "Mitchell Barker"
-  sort: "Barker, Mitchell"
-  l: "B"
-- name: "Paul Ferguson"
-  sort: "Ferguson, Paul"
-  l: "F"
-- name: "Hunter Funk"
-  sort: "Funk, Hunter"
-  l: "F"
-- name: "Josh Garner"
-  sort: "Garner, Josh"
-  l: "G"
-- name: "Tobias Garner"
-  sort: "Garner, Tobias"
-  l: "G"
-- name: "Rebekah Mallette"
-  sort: "Mallette, Rebekah"
-  l: "M"
-- name: "Janna Michaels"
-  sort: "Michaels, Janna"
-  l: "M"
-- name: "Bailey Moellering"
-  sort: "Moellering, Bailey"
-  l: "M"
-- name: "Tiffany Pettis"
-  sort: "Pettis, Tiffany"
-  l: "P"
-- name: "Chelsea Pinkston"
-  sort: "Pinkston, Chelsea"
-  l: "P"
-- name: "Jessica Price"
-  sort: "Price, Jessica"
-  l: "P"
-- name: "Chris Pursell"
-  sort: "Pursell, Chris"
-  l: "P"
-- name: "Mandi Shelton"
-  sort: "Shelton, Mandi"
-  l: "S"
-- name: "Shandi Shelton"
-  sort: "Shelton, Shandi"
-  l: "S"
-- name: "Jonathan Voigt"
-  sort: "Voigt, Jonathan"
-  l: "V"
 ---
 
 ## Championship (Gold) Division
@@ -111,3 +63,4 @@ quizzers:
 |    3 | Mitchell Barker  | Lakeshore    |   335 |    3 |         |
 |    4 | Shandi Shelton   | Harvest      |   325 |    2 |         |
 |    5 | Mandi Shelton    | Harvest      |   305 |    3 |         |
+

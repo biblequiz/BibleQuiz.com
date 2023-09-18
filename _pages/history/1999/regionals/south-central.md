@@ -9,39 +9,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Caleb Booth"
-  sort: "Booth, Caleb"
-  l: "B"
-- name: "Kevin Davis"
-  sort: "Davis, Kevin"
-  l: "D"
-- name: "Sean McCready"
-  sort: "McCready, Sean"
-  l: "M"
-- name: "Nathaniel McFarland"
-  sort: "McFarland, Nathaniel"
-  l: "M"
-- name: "Tiffany Perez"
-  sort: "Perez, Tiffany"
-  l: "P"
-- name: "Grant Shaefer"
-  sort: "Shaefer, Grant"
-  l: "S"
-- name: "Dayla Shorter"
-  sort: "Shorter, Dayla"
-  l: "S"
-- name: "Dayton Shorter"
-  sort: "Shorter, Dayton"
-  l: "S"
-- name: "Zach Sullivan"
-  sort: "Sullivan, Zach"
-  l: "S"
-- name: "George Ukomadu"
-  sort: "Ukomadu, George"
-  l: "U"
 ---
 
 ## Teams
@@ -81,3 +48,4 @@ quizzers:
 |    8 | Dayton Shorter      | Harvest, Ft Worth              |   630 |   42 |
 |    9 | Zach Sullivan       | Harvest Time #1, Midland, TX   |   550 |   36 |
 |   10 | Tiffany Perez       | Overland Park, KS              |   520 |   34 |
+

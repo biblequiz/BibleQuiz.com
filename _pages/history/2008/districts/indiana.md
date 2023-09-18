@@ -10,54 +10,6 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
-type: t
-season: 2008
-quizzers:
-- name: "Brian Austgen"
-  sort: "Austgen, Brian"
-  l: "A"
-- name: "Kristen Austgen"
-  sort: "Austgen, Kristen"
-  l: "A"
-- name: "Karen Coniff"
-  sort: "Coniff, Karen"
-  l: "C"
-- name: "Kirsten Durfey"
-  sort: "Durfey, Kirsten"
-  l: "D"
-- name: "CJ Hock"
-  sort: "Hock, CJ"
-  l: "H"
-- name: "Ethan Hock"
-  sort: "Hock, Ethan"
-  l: "H"
-- name: "Nathan Hodge"
-  sort: "Hodge, Nathan"
-  l: "H"
-- name: "Grace Ishikawa"
-  sort: "Ishikawa, Grace"
-  l: "I"
-- name: "Hannah Netherton"
-  sort: "Netherton, Hannah"
-  l: "N"
-- name: "Rachel Polley"
-  sort: "Polley, Rachel"
-  l: "P"
-- name: "Rebekkah Polley"
-  sort: "Polley, Rebekkah"
-  l: "P"
-- name: "Ali Priest"
-  sort: "Priest, Ali"
-  l: "P"
-- name: "Alicia Randolph"
-  sort: "Randolph, Alicia"
-  l: "R"
-- name: "David Sears"
-  sort: "Sears, David"
-  l: "S"
-- name: "Tammy Vickerman"
-  sort: "Vickerman, Tammy"
-  l: "V"
 ---
 
 ## A Division
@@ -125,3 +77,4 @@ quizzers:
 |    3 | Rachel Polley   | First, Franklin       |   610 |
 |    4 | Rebekkah Polley | First, Franklin       |   475 |
 |    5 | Ali Priest      | Calvary, Indianapolis |   355 |
+

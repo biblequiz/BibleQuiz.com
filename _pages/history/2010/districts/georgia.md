@@ -9,48 +9,6 @@ menubar_toc_static:
   - name: 2010 Season
     link: /history/2010/
     icon: fas fa-home
-type: t
-season: 2010
-quizzers:
-- name: "Ceiran Beasley"
-  sort: "Beasley, Ceiran"
-  l: "B"
-- name: "Yoki Belay"
-  sort: "Belay, Yoki"
-  l: "B"
-- name: "Bruce Borah"
-  sort: "Borah, Bruce"
-  l: "B"
-- name: "Lindsay Cowan"
-  sort: "Cowan, Lindsay"
-  l: "C"
-- name: "Logan Gregory"
-  sort: "Gregory, Logan"
-  l: "G"
-- name: "Allison Johnson"
-  sort: "Johnson, Allison"
-  l: "J"
-- name: "James Lex"
-  sort: "Lex, James"
-  l: "L"
-- name: "Angela Magditch"
-  sort: "Magditch, Angela"
-  l: "M"
-- name: "Stephen Okala"
-  sort: "Okala, Stephen"
-  l: "O"
-- name: "Anna Rice"
-  sort: "Rice, Anna"
-  l: "R"
-- name: "Rachel Rice"
-  sort: "Rice, Rachel"
-  l: "R"
-- name: "Sarah Rice"
-  sort: "Rice, Sarah"
-  l: "R"
-- name: "Abby Stocksdale"
-  sort: "Stocksdale, Abby"
-  l: "S"
 ---
 
 ## A Division
@@ -98,3 +56,4 @@ quizzers:
 |    1 | Abby Stocksdale | Cumming       |   120 |   24 |
 |    2 | Angela Magditch | Warner Robins |    95 |   19 |
 |    3 | Logan Gregory   | Warner Robins |    50 |   10 |
+

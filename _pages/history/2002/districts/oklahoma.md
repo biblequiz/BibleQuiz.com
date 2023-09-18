@@ -9,39 +9,6 @@ menubar_toc_static:
   - name: 2002 Season
     link: /history/2002/
     icon: fas fa-home
-type: t
-season: 2002
-quizzers:
-- name: "Craig Batchelder"
-  sort: "Batchelder, Craig"
-  l: "B"
-- name: "Caleb Booth"
-  sort: "Booth, Caleb"
-  l: "B"
-- name: "Lydia Butay"
-  sort: "Butay, Lydia"
-  l: "B"
-- name: "Robert Butler"
-  sort: "Butler, Robert"
-  l: "B"
-- name: "Chris Byrd"
-  sort: "Byrd, Chris"
-  l: "B"
-- name: "Jamie Douthit"
-  sort: "Douthit, Jamie"
-  l: "D"
-- name: "Tyler Fuller"
-  sort: "Fuller, Tyler"
-  l: "F"
-- name: "Jennifer Gates"
-  sort: "Gates, Jennifer"
-  l: "G"
-- name: "Nick Melberg"
-  sort: "Melberg, Nick"
-  l: "M"
-- name: "Eric Reside"
-  sort: "Reside, Eric"
-  l: "R"
 ---
 
 ## A Division
@@ -96,3 +63,4 @@ quizzers:
 |    3 | Eric Reside      | E.T.             |   195 |
 |    4 | Craig Batchelder | Christian Chapel |    85 |
 |    5 | Robert Butler    | Catoosa          |    75 |
+

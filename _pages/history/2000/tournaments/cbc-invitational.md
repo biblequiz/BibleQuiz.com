@@ -10,24 +10,6 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
-type: t
-season: 2000
-quizzers:
-- name: "Caleb Booth"
-  sort: "Booth, Caleb"
-  l: "B"
-- name: "Jeremy Hix"
-  sort: "Hix, Jeremy"
-  l: "H"
-- name: "Sterling Johnson"
-  sort: "Johnson, Sterling"
-  l: "J"
-- name: "David Onelsdorf"
-  sort: "Onelsdorf, David"
-  l: "O"
-- name: "Andre Rodriguez"
-  sort: "Rodriguez, Andre"
-  l: "R"
 ---
 
 This tourney consisted of twelve teams that would quiz an 11 match round-robin in two days of quizzing. Any . Here are the top five teams and individuals from the tournament.

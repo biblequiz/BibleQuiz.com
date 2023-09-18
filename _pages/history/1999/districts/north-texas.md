@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Kevin Davis"
-  sort: "Davis, Kevin"
-  l: "D"
-- name: "Andy Hainey"
-  sort: "Hainey, Andy"
-  l: "H"
-- name: "Sterling Johnson"
-  sort: "Johnson, Sterling"
-  l: "J"
-- name: "Jennifer Martin"
-  sort: "Martin, Jennifer"
-  l: "M"
-- name: "Michael Pearson"
-  sort: "Pearson, Michael"
-  l: "P"
-- name: "Dayla Shorter"
-  sort: "Shorter, Dayla"
-  l: "S"
-- name: "Dayton Shorter"
-  sort: "Shorter, Dayton"
-  l: "S"
-- name: "Joshua Van Horn"
-  sort: "Van Horn, Joshua"
-  l: "V"
-- name: "Daron Williford"
-  sort: "Williford, Daron"
-  l: "W"
-- name: "David Wolmansdorf"
-  sort: "Wolmansdorf, David"
-  l: "W"
 ---
 
 ## Teams

@@ -9,39 +9,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Brent Ellwien"
-  sort: "Ellwien, Brent"
-  l: "E"
-- name: "Kevin Gillatt"
-  sort: "Gillatt, Kevin"
-  l: "G"
-- name: "Stephanie Knight"
-  sort: "Knight, Stephanie"
-  l: "K"
-- name: "Wendy Mercer"
-  sort: "Mercer, Wendy"
-  l: "M"
-- name: "Jessica Neilson"
-  sort: "Neilson, Jessica"
-  l: "N"
-- name: "Nellena Nelsen"
-  sort: "Nelsen, Nellena"
-  l: "N"
-- name: "Steve Patient"
-  sort: "Patient, Steve"
-  l: "P"
-- name: "Jon Pon"
-  sort: "Pon, Jon"
-  l: "P"
-- name: "Chandra Porter"
-  sort: "Porter, Chandra"
-  l: "P"
-- name: "Mindy Rogers"
-  sort: "Rogers, Mindy"
-  l: "R"
 ---
 
 ## Teams
@@ -82,3 +49,4 @@ quizzers:
 | Chandra Porter  | Mt. Home   |
 | Jon Pon         | Meridian   |
 | Jessica Neilson | Cedar Park |
+

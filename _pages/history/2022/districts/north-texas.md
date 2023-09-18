@@ -10,57 +10,6 @@ menubar_toc_static:
   - name: 2022 Season
     link: /history/2022/
     icon: fas fa-home
-type: t
-season: 2022
-quizzers:
-- name: "Yeamlak Adane"
-  sort: "Adane, Yeamlak"
-  l: "A"
-- name: "Joseph Barajas"
-  sort: "Barajas, Joseph"
-  l: "B"
-- name: "Zane Brown"
-  sort: "Brown, Zane"
-  l: "B"
-- name: "Noah Claunch"
-  sort: "Claunch, Noah"
-  l: "C"
-- name: "Chidie Echefu"
-  sort: "Echefu, Chidie"
-  l: "E"
-- name: "Joy Escobar"
-  sort: "Escobar, Joy"
-  l: "E"
-- name: "Camden Haney"
-  sort: "Haney, Camden"
-  l: "H"
-- name: "Elijah Lee"
-  sort: "Lee, Elijah"
-  l: "L"
-- name: "Andrew Pickrell"
-  sort: "Pickrell, Andrew"
-  l: "P"
-- name: "Joanne Ramesh"
-  sort: "Ramesh, Joanne"
-  l: "R"
-- name: "Judith Ramesh"
-  sort: "Ramesh, Judith"
-  l: "R"
-- name: "Jadon Sheonmangal"
-  sort: "Sheonmangal, Jadon"
-  l: "S"
-- name: "Christian Solomon"
-  sort: "Solomon, Christian"
-  l: "S"
-- name: "Aulora Sullivan"
-  sort: "Sullivan, Aulora"
-  l: "S"
-- name: "Joshua Sullivan"
-  sort: "Sullivan, Joshua"
-  l: "S"
-- name: "Julia Sullivan"
-  sort: "Sullivan, Julia"
-  l: "S"
 ---
 
 ## Teams
@@ -95,3 +44,4 @@ quizzers:
 | **\*11** | Julia Sullivan    | Team John (Trinity Church)                      |     0 |      |      |      |
 | **\*11** | Elijah Lee        | Team John (Trinity Church)                      |     0 |      |      |      |
 |       12 | Chidie Echefu     | Five Loaves & Two Fishes (First @ Firewheel AG) |   -10 | -2.5 |      |      |
+

@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2009 Season
     link: /history/2009/
     icon: fas fa-home
-type: t
-season: 2009
-quizzers:
-- name: "Jonathan Hill"
-  sort: "Hill, Jonathan"
-  l: "H"
-- name: "Tatianna Kufferath"
-  sort: "Kufferath, Tatianna"
-  l: "K"
-- name: "James Lynch"
-  sort: "Lynch, James"
-  l: "L"
-- name: "Zach Mang"
-  sort: "Mang, Zach"
-  l: "M"
-- name: "Christin Milman"
-  sort: "Milman, Christin"
-  l: "M"
-- name: "Elizabeth Milman"
-  sort: "Milman, Elizabeth"
-  l: "M"
-- name: "Ellen Oss"
-  sort: "Oss, Ellen"
-  l: "O"
-- name: "Meg Pace"
-  sort: "Pace, Meg"
-  l: "P"
-- name: "Rachel Stout"
-  sort: "Stout, Rachel"
-  l: "S"
-- name: "Tiffany Wu"
-  sort: "Wu, Tiffany"
-  l: "W"
 ---
 
 ## Teams

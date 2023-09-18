@@ -10,63 +10,6 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
-type: t
-season: 2003
-quizzers:
-- name: "Eunice Auwah"
-  sort: "Auwah, Eunice"
-  l: "A"
-- name: "CJ Barna"
-  sort: "Barna, CJ"
-  l: "B"
-- name: "Joe Bolognone"
-  sort: "Bolognone, Joe"
-  l: "B"
-- name: "Bethany Brodbeck"
-  sort: "Brodbeck, Bethany"
-  l: "B"
-- name: "Katie Chenco"
-  sort: "Chenco, Katie"
-  l: "C"
-- name: "Brennen DeFazio"
-  sort: "DeFazio, Brennen"
-  l: "D"
-- name: "Lisa Everett"
-  sort: "Everett, Lisa"
-  l: "E"
-- name: "Isaiah Hunter"
-  sort: "Hunter, Isaiah"
-  l: "H"
-- name: "Seth Johnson"
-  sort: "Johnson, Seth"
-  l: "J"
-- name: "John McLaughlin"
-  sort: "McLaughlin, John"
-  l: "M"
-- name: "Dave Richmond"
-  sort: "Richmond, Dave"
-  l: "R"
-- name: "Cara Rozgonyi"
-  sort: "Rozgonyi, Cara"
-  l: "R"
-- name: "Lori Rozgonyi"
-  sort: "Rozgonyi, Lori"
-  l: "R"
-- name: "Neha Saiya"
-  sort: "Saiya, Neha"
-  l: "S"
-- name: "Bailey Steel"
-  sort: "Steel, Bailey"
-  l: "S"
-- name: "Brandy Steel"
-  sort: "Steel, Brandy"
-  l: "S"
-- name: "Bryce Steel"
-  sort: "Steel, Bryce"
-  l: "S"
-- name: "Patti Sunseri"
-  sort: "Sunseri, Patti"
-  l: "S"
 ---
 
 ## Teams
@@ -107,3 +50,4 @@ quizzers:
 |   16 | Eunice Auwah     | Grace A/G, Syracuse, NY           |   185 |    0 |
 |   17 | Bailey Steel     | Calvary A/G, Toledo, OH           |   180 |    0 |
 |   18 | Bethany Brodbeck | Calvary A/G, Toledo, OH           |   155 |    0 |
+

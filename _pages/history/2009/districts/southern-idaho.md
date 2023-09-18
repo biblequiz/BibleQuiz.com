@@ -10,42 +10,6 @@ menubar_toc_static:
   - name: 2009 Season
     link: /history/2009/
     icon: fas fa-home
-type: t
-season: 2009
-quizzers:
-- name: "Ashley Carter"
-  sort: "Carter, Ashley"
-  l: "C"
-- name: "Derrick Elguezabal"
-  sort: "Elguezabal, Derrick"
-  l: "E"
-- name: "Tierney Gillihn"
-  sort: "Gillihn, Tierney"
-  l: "G"
-- name: "Kelsi Hardy"
-  sort: "Hardy, Kelsi"
-  l: "H"
-- name: "Ivy Jensen"
-  sort: "Jensen, Ivy"
-  l: "J"
-- name: "Melissa Larson"
-  sort: "Larson, Melissa"
-  l: "L"
-- name: "Naomi Larson"
-  sort: "Larson, Naomi"
-  l: "L"
-- name: "Ashley Mendiola"
-  sort: "Mendiola, Ashley"
-  l: "M"
-- name: "Terrance Morton"
-  sort: "Morton, Terrance"
-  l: "M"
-- name: "Trevor Olson"
-  sort: "Olson, Trevor"
-  l: "O"
-- name: "Kenzi Zesiger"
-  sort: "Zesiger, Kenzi"
-  l: "Z"
 ---
 
 ## A Division
@@ -87,3 +51,4 @@ quizzers:
 | Terrance Morton    | Meridian |   210 |
 | Naomi Larson       | Merdian  |   160 |
 | Derrick Elguezabal | Nyssa    |   110 |
+

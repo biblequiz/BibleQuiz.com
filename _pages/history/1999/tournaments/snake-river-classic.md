@@ -10,36 +10,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Sarette Albin"
-  sort: "Albin, Sarette"
-  l: "A"
-- name: "Laura Brothers"
-  sort: "Brothers, Laura"
-  l: "B"
-- name: "Nellena Nelson"
-  sort: "Nelson, Nellena"
-  l: "N"
-- name: "Jennifer Nevels"
-  sort: "Nevels, Jennifer"
-  l: "N"
-- name: "Jessica Nielson"
-  sort: "Nielson, Jessica"
-  l: "N"
-- name: "Jon Pon"
-  sort: "Pon, Jon"
-  l: "P"
-- name: "Amanda Porter"
-  sort: "Porter, Amanda"
-  l: "P"
-- name: "Tandy Stitt"
-  sort: "Stitt, Tandy"
-  l: "S"
-- name: "Dan Wight"
-  sort: "Wight, Dan"
-  l: "W"
 ---
 
 This tournament covered only Acts 1-20. The win loss records represent only the official rounds.

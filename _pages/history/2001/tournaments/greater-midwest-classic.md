@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
-type: t
-season: 2001
-quizzers:
-- name: "Kendi Beyer"
-  sort: "Beyer, Kendi"
-  l: "B"
-- name: "Caleb Booth"
-  sort: "Booth, Caleb"
-  l: "B"
-- name: "Andrew Davidhizer"
-  sort: "Davidhizer, Andrew"
-  l: "D"
-- name: "Richard Fair"
-  sort: "Fair, Richard"
-  l: "F"
-- name: "Eric Hernando"
-  sort: "Hernando, Eric"
-  l: "H"
-- name: "Aaron Kohler"
-  sort: "Kohler, Aaron"
-  l: "K"
-- name: "Brandon Porter"
-  sort: "Porter, Brandon"
-  l: "P"
-- name: "April Pryor"
-  sort: "Pryor, April"
-  l: "P"
-- name: "Jeremy White"
-  sort: "White, Jeremy"
-  l: "W"
-- name: "Mark Whitehead"
-  sort: "Whitehead, Mark"
-  l: "W"
 ---
 
 Christian Chapel, Tulsa, OK and Calvary AG, Dunwoody, GA successfully defended their 'A' and 'B' titles, respectively at the 2001 (and 24th annual) Greater Midwest BQ tournament.

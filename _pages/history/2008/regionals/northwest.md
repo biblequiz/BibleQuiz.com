@@ -10,69 +10,6 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
-type: t
-season: 2008
-quizzers:
-- name: "Jaclyn Baker"
-  sort: "Baker, Jaclyn"
-  l: "B"
-- name: "Sage Brinckerhoff"
-  sort: "Brinckerhoff, Sage"
-  l: "B"
-- name: "Stacey Brothers"
-  sort: "Brothers, Stacey"
-  l: "B"
-- name: "Ashley Carter"
-  sort: "Carter, Ashley"
-  l: "C"
-- name: "Brandon Duffy"
-  sort: "Duffy, Brandon"
-  l: "D"
-- name: "Jenna-Jo Duffy"
-  sort: "Duffy, Jenna-Jo"
-  l: "D"
-- name: "Jerrica Florez"
-  sort: "Florez, Jerrica"
-  l: "F"
-- name: "Keaton Gillihan"
-  sort: "Gillihan, Keaton"
-  l: "G"
-- name: "Stephen Gothard"
-  sort: "Gothard, Stephen"
-  l: "G"
-- name: "Mikayla Irle"
-  sort: "Irle, Mikayla"
-  l: "I"
-- name: "Anita Jaganath"
-  sort: "Jaganath, Anita"
-  l: "J"
-- name: "Kyrah Kirchner"
-  sort: "Kirchner, Kyrah"
-  l: "K"
-- name: "Melissa Larson"
-  sort: "Larson, Melissa"
-  l: "L"
-- name: "Jessica Moore"
-  sort: "Moore, Jessica"
-  l: "M"
-- name: "JP O'Conner"
-  sort: "O'Conner, JP"
-  l: "O"
-- name: "Trevor Olson"
-  sort: "Olson, Trevor"
-  l: "O"
-- name: "Adi Purohith"
-  sort: "Purohith, Adi"
-  l: "P"
-- name: "Ani Purohith"
-  sort: "Purohith, Ani"
-  l: "P"
-- name: "Cecily Spicer"
-  sort: "Spicer, Cecily"
-  l: "S"
-- name: "Flynn Spicer"
-  sort: "Spicer, Flynn"
-  l: "S"
 ---
 
 ## Senior Division
@@ -137,3 +74,4 @@ quizzers:
 |    8 | Ani Purohith      | Cedar Park "Power & Dominion"       |   27 |
 |    9 | Stephen Gothard   | Meridian "Chosen"                   |   25 |
 |   10 | Jessica Moore     | Cedar Park "Three Spies"            |   24 |
+

@@ -9,66 +9,6 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
-type: t
-season: 2005
-quizzers:
-- name: "Jesse Czubkowski"
-  sort: "Czubkowski, Jesse"
-  l: "C"
-- name: "Vanessa Garcia"
-  sort: "Garcia, Vanessa"
-  l: "G"
-- name: "Michelle Gomez"
-  sort: "Gomez, Michelle"
-  l: "G"
-- name: "Jonathan Harris"
-  sort: "Harris, Jonathan"
-  l: "H"
-- name: "Nathaniel Harris"
-  sort: "Harris, Nathaniel"
-  l: "H"
-- name: "Bobby Hoagh"
-  sort: "Hoagh, Bobby"
-  l: "H"
-- name: "Nicole Jackuki"
-  sort: "Jackuki, Nicole"
-  l: "J"
-- name: "Herschel Jenkins"
-  sort: "Jenkins, Herschel"
-  l: "J"
-- name: "Laura Miller"
-  sort: "Miller, Laura"
-  l: "M"
-- name: "Tope Odedele"
-  sort: "Odedele, Tope"
-  l: "O"
-- name: "Ike Okorafor"
-  sort: "Okorafor, Ike"
-  l: "O"
-- name: "Shelly Raudenbash"
-  sort: "Raudenbash, Shelly"
-  l: "R"
-- name: "Kristen Rayner"
-  sort: "Rayner, Kristen"
-  l: "R"
-- name: "Amanda Romero"
-  sort: "Romero, Amanda"
-  l: "R"
-- name: "Jordan Romero"
-  sort: "Romero, Jordan"
-  l: "R"
-- name: "Jonathan Silva"
-  sort: "Silva, Jonathan"
-  l: "S"
-- name: "Benji Songsong"
-  sort: "Songsong, Benji"
-  l: "S"
-- name: "Daniel Terrero"
-  sort: "Terrero, Daniel"
-  l: "T"
-- name: "Christina Yastough"
-  sort: "Yastough, Christina"
-  l: "Y"
 ---
 
 ## A Division
@@ -126,3 +66,4 @@ quizzers:
 |   10 | Jordan Romero      | Englewood |    30 |
 |   11 | Tope Odedele       | Newark    |    10 |
 |   12 | Christina Yastough | Newark    |     0 |
+

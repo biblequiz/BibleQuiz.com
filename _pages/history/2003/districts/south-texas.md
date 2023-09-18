@@ -9,36 +9,6 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
-type: t
-season: 2003
-quizzers:
-- name: "Ibukun Akindele"
-  sort: "Akindele, Ibukun"
-  l: "A"
-- name: "Cody Conway"
-  sort: "Conway, Cody"
-  l: "C"
-- name: "Donnubari Gbaanador"
-  sort: "Gbaanador, Donnubari"
-  l: "G"
-- name: "Stephanie Marler"
-  sort: "Marler, Stephanie"
-  l: "M"
-- name: "Kenny Masha"
-  sort: "Masha, Kenny"
-  l: "M"
-- name: "Taiwo Masha"
-  sort: "Masha, Taiwo"
-  l: "M"
-- name: "Ngozi Nwabudike"
-  sort: "Nwabudike, Ngozi"
-  l: "N"
-- name: "Jared Paige"
-  sort: "Paige, Jared"
-  l: "P"
-- name: "DJ Turner"
-  sort: "Turner, DJ"
-  l: "T"
 ---
 
 ## A Division
@@ -78,3 +48,4 @@ quizzers:
 |    1 | Kenny Masha      | Braeswood #4 |   195 |
 |    2 | D.J. Turner      | Braeswood #4 |   165 |
 |    3 | Stephanie Marler | Greens Bayou |    85 |
+

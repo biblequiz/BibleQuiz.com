@@ -10,69 +10,6 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
-type: t
-season: 2007
-quizzers:
-- name: "Rosina Albanese"
-  sort: "Albanese, Rosina"
-  l: "A"
-- name: "David Beer"
-  sort: "Beer, David"
-  l: "B"
-- name: "Lindsey Brower"
-  sort: "Brower, Lindsey"
-  l: "B"
-- name: "Jesse Czubkowski"
-  sort: "Czubkowski, Jesse"
-  l: "C"
-- name: "Daniel Godfrey"
-  sort: "Godfrey, Daniel"
-  l: "G"
-- name: "Cathernine Hains"
-  sort: "Hains, Cathernine"
-  l: "H"
-- name: "Steve Herring"
-  sort: "Herring, Steve"
-  l: "H"
-- name: "John Karluk"
-  sort: "Karluk, John"
-  l: "K"
-- name: "Tiffany Kitner"
-  sort: "Kitner, Tiffany"
-  l: "K"
-- name: "Jenna Liberati"
-  sort: "Liberati, Jenna"
-  l: "L"
-- name: "Stephanie Melcher"
-  sort: "Melcher, Stephanie"
-  l: "M"
-- name: "Rebekah Nivala"
-  sort: "Nivala, Rebekah"
-  l: "N"
-- name: "Brandon Rhynders"
-  sort: "Rhynders, Brandon"
-  l: "R"
-- name: "Kyler Sederwall"
-  sort: "Sederwall, Kyler"
-  l: "S"
-- name: "Amy Siddall"
-  sort: "Siddall, Amy"
-  l: "S"
-- name: "Samantha Smith"
-  sort: "Smith, Samantha"
-  l: "S"
-- name: "Isaac Ward"
-  sort: "Ward, Isaac"
-  l: "W"
-- name: "LaJoie Ward"
-  sort: "Ward, LaJoie"
-  l: "W"
-- name: "Ashleigh Weatherholtz"
-  sort: "Weatherholtz, Ashleigh"
-  l: "W"
-- name: "Sam York"
-  sort: "York, Sam"
-  l: "Y"
 ---
 
 ## A Division
@@ -170,3 +107,4 @@ quizzers:
 |    8 | Samantha Smith        | Manassas A/G, Manassas, VA       |  1090 |   12 |   78 |
 |    9 | Rosina Albanese       | Evangel Heights A/G, Sarver, PA  |   910 |    9 |   65 |
 |   10 | Ashleigh Weatherholtz | Grace Bible Church, Marshall, VA |   830 |    5 |   59 |
+

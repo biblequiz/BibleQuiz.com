@@ -9,57 +9,6 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
-type: t
-season: 2008
-quizzers:
-- name: "Anna Austin"
-  sort: "Austin, Anna"
-  l: "A"
-- name: "Andrew Banach"
-  sort: "Banach, Andrew"
-  l: "B"
-- name: "Yoki Belay"
-  sort: "Belay, Yoki"
-  l: "B"
-- name: "Simon Bennett"
-  sort: "Bennett, Simon"
-  l: "B"
-- name: "Roman Brown"
-  sort: "Brown, Roman"
-  l: "B"
-- name: "Jared Burkhalter"
-  sort: "Burkhalter, Jared"
-  l: "B"
-- name: "Tamera Burkhalter"
-  sort: "Burkhalter, Tamera"
-  l: "B"
-- name: "Brian Coleman"
-  sort: "Coleman, Brian"
-  l: "C"
-- name: "Rachel Dockery"
-  sort: "Dockery, Rachel"
-  l: "D"
-- name: "Meghann Gibson"
-  sort: "Gibson, Meghann"
-  l: "G"
-- name: "Hudson Kelley"
-  sort: "Kelley, Hudson"
-  l: "K"
-- name: "James Lex"
-  sort: "Lex, James"
-  l: "L"
-- name: "EJ Mintah"
-  sort: "Mintah, EJ"
-  l: "M"
-- name: "Gabrielle Richmeier"
-  sort: "Richmeier, Gabrielle"
-  l: "R"
-- name: "Chris Shankle"
-  sort: "Shankle, Chris"
-  l: "S"
-- name: "Sydney Tuckey"
-  sort: "Tuckey, Sydney"
-  l: "T"
 ---
 
 ## A Division
@@ -114,3 +63,4 @@ quizzers:
 | Anna Austin    | SNV  |    80 |  8.9 |    0 |
 | Roman Brown    | SNV  |    75 |  8.3 |    0 |
 | Chris Shankle  | RAL  |    70 |  7.8 |    0 |
+

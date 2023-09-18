@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
-type: t
-season: 2000
-quizzers:
-- name: "Joey Bohannon"
-  sort: "Bohannon, Joey"
-  l: "B"
-- name: "Caleb Booth"
-  sort: "Booth, Caleb"
-  l: "B"
-- name: "David Dorey"
-  sort: "Dorey, David"
-  l: "D"
-- name: "Sharon Ely"
-  sort: "Ely, Sharon"
-  l: "E"
-- name: "Ricky Haney"
-  sort: "Haney, Ricky"
-  l: "H"
-- name: "Eric Hernando"
-  sort: "Hernando, Eric"
-  l: "H"
-- name: "Dan Marlow"
-  sort: "Marlow, Dan"
-  l: "M"
-- name: "Stephanie Nannerone"
-  sort: "Nannerone, Stephanie"
-  l: "N"
-- name: "Dayton Shorter"
-  sort: "Shorter, Dayton"
-  l: "S"
-- name: "David Womelsdorf"
-  sort: "Womelsdorf, David"
-  l: "W"
 ---
 
 The tournament began with 20 teams in both divisions. On Friday night, seeding rounds were held to determine the 12 teams that would compete in the A-league and the 8

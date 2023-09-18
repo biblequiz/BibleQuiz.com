@@ -9,48 +9,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Thomas Hays"
-  sort: "Hays, Thomas"
-  l: "H"
-- name: "Trissa Lowe"
-  sort: "Lowe, Trissa"
-  l: "L"
-- name: "Megan Miller"
-  sort: "Miller, Megan"
-  l: "M"
-- name: "Mary Pace"
-  sort: "Pace, Mary"
-  l: "P"
-- name: "Andrew Parish"
-  sort: "Parish, Andrew"
-  l: "P"
-- name: "Jordan Schneider"
-  sort: "Schneider, Jordan"
-  l: "S"
-- name: "Josie Schneider"
-  sort: "Schneider, Josie"
-  l: "S"
-- name: "Erik Schubert"
-  sort: "Schubert, Erik"
-  l: "S"
-- name: "Lane Walter"
-  sort: "Walter, Lane"
-  l: "W"
-- name: "Ravae Walter"
-  sort: "Walter, Ravae"
-  l: "W"
-- name: "Shane Walter"
-  sort: "Walter, Shane"
-  l: "W"
-- name: "Heather West"
-  sort: "West, Heather"
-  l: "W"
-- name: "Amy Worrell"
-  sort: "Worrell, Amy"
-  l: "W"
 ---
 
 ## A Division
@@ -100,3 +58,4 @@ quizzers:
 | Shane Walter  | Greeley      |   155 |
 | Heather West  | Glenwood 1   |   135 |
 | Thomas Hays   | Glenwood 2   |   125 |
+

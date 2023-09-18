@@ -10,69 +10,6 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
-type: t
-season: 2007
-quizzers:
-- name: "Miranda Benningfield"
-  sort: "Benningfield, Miranda"
-  l: "B"
-- name: "Brandon Duffy"
-  sort: "Duffy, Brandon"
-  l: "D"
-- name: "Jenna-Jo Duffy"
-  sort: "Duffy, Jenna-Jo"
-  l: "D"
-- name: "Angelina Frisby"
-  sort: "Frisby, Angelina"
-  l: "F"
-- name: "Maria Frisby"
-  sort: "Frisby, Maria"
-  l: "F"
-- name: "Emily Ganzfried"
-  sort: "Ganzfried, Emily"
-  l: "G"
-- name: "Devon Griggs"
-  sort: "Griggs, Devon"
-  l: "G"
-- name: "Melissa Halverson"
-  sort: "Halverson, Melissa"
-  l: "H"
-- name: "Rachel Holley"
-  sort: "Holley, Rachel"
-  l: "H"
-- name: "Heather Karnes"
-  sort: "Karnes, Heather"
-  l: "K"
-- name: "Brenda Lee"
-  sort: "Lee, Brenda"
-  l: "L"
-- name: "Melissa Lee"
-  sort: "Lee, Melissa"
-  l: "L"
-- name: "Josh Mottaz"
-  sort: "Mottaz, Josh"
-  l: "M"
-- name: "JP O'Connor"
-  sort: "O'Connor, JP"
-  l: "O"
-- name: "Danielle Schiewek"
-  sort: "Schiewek, Danielle"
-  l: "S"
-- name: "Meghan Shipley"
-  sort: "Shipley, Meghan"
-  l: "S"
-- name: "Cecily Spicer"
-  sort: "Spicer, Cecily"
-  l: "S"
-- name: "Flynn Spicer"
-  sort: "Spicer, Flynn"
-  l: "S"
-- name: "Cassie Staub"
-  sort: "Staub, Cassie"
-  l: "S"
-- name: "Chris Teeny"
-  sort: "Teeny, Chris"
-  l: "T"
 ---
 
 ## A-1 Division
@@ -144,3 +81,4 @@ quizzers:
 |    3 | Cassie Staub    | Tacoma Life |    57 |
 |    4 | Angelina Frisby | Belfair     |    54 |
 |    5 | Meghan Shipley  | Cedar Park  |    48 |
+

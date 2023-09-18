@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2002 Season
     link: /history/2002/
     icon: fas fa-home
-type: t
-season: 2002
-quizzers:
-- name: "Bethany Brodbeck"
-  sort: "Brodbeck, Bethany"
-  l: "B"
-- name: "Tracey Burkes"
-  sort: "Burkes, Tracey"
-  l: "B"
-- name: "Nathan Davis"
-  sort: "Davis, Nathan"
-  l: "D"
-- name: "Lisa Everett"
-  sort: "Everett, Lisa"
-  l: "E"
-- name: "Jackie Hatcher"
-  sort: "Hatcher, Jackie"
-  l: "H"
-- name: "Steve Hill"
-  sort: "Hill, Steve"
-  l: "H"
-- name: "Adam Leigh"
-  sort: "Leigh, Adam"
-  l: "L"
-- name: "Sonia Noble"
-  sort: "Noble, Sonia"
-  l: "N"
-- name: "Melissa Regal"
-  sort: "Regal, Melissa"
-  l: "R"
-- name: "Bryce Steel"
-  sort: "Steel, Bryce"
-  l: "S"
 ---
 
 ## A Division
@@ -92,3 +59,4 @@ quizzers:
 |    3 | Jackie Hatcher | Reynoldsburg        |  81.0 |
 |    4 | Melissa Regal  | Warren First #2     |  62.0 |
 |    5 | Sonia Noble    | Mansfield First #2  |  52.0 |
+

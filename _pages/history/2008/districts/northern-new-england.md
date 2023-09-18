@@ -9,42 +9,6 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
-type: t
-season: 2008
-quizzers:
-- name: "Nathan Cawley"
-  sort: "Cawley, Nathan"
-  l: "C"
-- name: "Beth Churchill"
-  sort: "Churchill, Beth"
-  l: "C"
-- name: "Alex Gray"
-  sort: "Gray, Alex"
-  l: "G"
-- name: "Dara Higgins"
-  sort: "Higgins, Dara"
-  l: "H"
-- name: "Ethan Holmes"
-  sort: "Holmes, Ethan"
-  l: "H"
-- name: "Felycia Lambert"
-  sort: "Lambert, Felycia"
-  l: "L"
-- name: "Stephanie Melcher"
-  sort: "Melcher, Stephanie"
-  l: "M"
-- name: "Kaija Nivala"
-  sort: "Nivala, Kaija"
-  l: "N"
-- name: "Rebekah Nivala"
-  sort: "Nivala, Rebekah"
-  l: "N"
-- name: "Tamiko Ray"
-  sort: "Ray, Tamiko"
-  l: "R"
-- name: "Jake True"
-  sort: "True, Jake"
-  l: "T"
 ---
 
 ## A Division
@@ -89,3 +53,4 @@ quizzers:
 | Ethan Holmes    | Houltin    |   110 |    0 |
 | Nathan Cawley   | Stetson    |    65 |    0 |
 | Felycia Lambert | Charleston |    65 |    0 |
+

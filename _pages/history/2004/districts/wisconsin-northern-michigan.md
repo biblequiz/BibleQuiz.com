@@ -10,72 +10,6 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
-type: t
-season: 2004
-quizzers:
-- name: "Michael Adsit"
-  sort: "Adsit, Michael"
-  l: "A"
-- name: "Victoria Adsit"
-  sort: "Adsit, Victoria"
-  l: "A"
-- name: "Amanda Belmont"
-  sort: "Belmont, Amanda"
-  l: "B"
-- name: "Mark Benson"
-  sort: "Benson, Mark"
-  l: "B"
-- name: "Billy Branham"
-  sort: "Branham, Billy"
-  l: "B"
-- name: "Zach Ehr"
-  sort: "Ehr, Zach"
-  l: "E"
-- name: "Danielle Goodrich"
-  sort: "Goodrich, Danielle"
-  l: "G"
-- name: "Miranda Haberberg"
-  sort: "Haberberg, Miranda"
-  l: "H"
-- name: "Jason Hummelt"
-  sort: "Hummelt, Jason"
-  l: "H"
-- name: "Daniel Kober"
-  sort: "Kober, Daniel"
-  l: "K"
-- name: "Paul McConley"
-  sort: "McConley, Paul"
-  l: "M"
-- name: "Sam McCumber"
-  sort: "McCumber, Sam"
-  l: "M"
-- name: "Lydia Messer"
-  sort: "Messer, Lydia"
-  l: "M"
-- name: "Jeff Meyer"
-  sort: "Meyer, Jeff"
-  l: "M"
-- name: "Logan Newman"
-  sort: "Newman, Logan"
-  l: "N"
-- name: "Spencer Newman"
-  sort: "Newman, Spencer"
-  l: "N"
-- name: "Heidi Quist"
-  sort: "Quist, Heidi"
-  l: "Q"
-- name: "Zachary Schaalma"
-  sort: "Schaalma, Zachary"
-  l: "S"
-- name: "Jacob Turnage"
-  sort: "Turnage, Jacob"
-  l: "T"
-- name: "Josh Turner"
-  sort: "Turner, Josh"
-  l: "T"
-- name: "Victor Velazquez"
-  sort: "Velazquez, Victor"
-  l: "V"
 ---
 
 ## Division I
@@ -148,3 +82,4 @@ quizzers:
 |    8 | Zach Ehr       | Plymouth      |   315 | 26.3 |
 |    9 | Mark Benson    | Janesville #1 |   310 | 25.8 |
 |   10 | Jason Hummelt  | Brookfield #1 |   210 | 21.0 |
+

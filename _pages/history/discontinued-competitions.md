@@ -4,26 +4,6 @@ permalink: /history/discontinued-competitions/
 title: "Discontinued Competitions"
 date: "2020-02-09"
 menubar: menu_history
-type: o
-quizzers:
-- name: "Tori Beye"
-  sort: "Beye, Tori"
-  l: "B"
-- name: "Luke Hamilton"
-  sort: "Hamilton, Luke"
-  l: "H"
-- name: "Sarah Ingerson"
-  sort: "Ingerson, Sarah"
-  l: "I"
-- name: "Rebekah Nivala"
-  sort: "Nivala, Rebekah"
-  l: "N"
-- name: "Inga O'Connor"
-  sort: "O'Connor, Inga"
-  l: "O"
-- name: "Brandon Porter"
-  sort: "Porter, Brandon"
-  l: "P"
 ---
 
 ## Preaching Competition
@@ -53,3 +33,4 @@ quizzers:
 | Year | Church      | City        |
 | ---- | ----------- | ----------- |
 | 2007 | Manassas AG | Bristow, VA |
+

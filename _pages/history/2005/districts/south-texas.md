@@ -9,39 +9,6 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
-type: t
-season: 2005
-quizzers:
-- name: "Sierra Clark"
-  sort: "Clark, Sierra"
-  l: "C"
-- name: "David Diaz de Leon"
-  sort: "Diaz de Leon, David"
-  l: "D"
-- name: "Rojan Easo"
-  sort: "Easo, Rojan"
-  l: "E"
-- name: "Roysan Easo"
-  sort: "Easo, Roysan"
-  l: "E"
-- name: "Warren Ellard"
-  sort: "Ellard, Warren"
-  l: "E"
-- name: "Adam Forsman"
-  sort: "Forsman, Adam"
-  l: "F"
-- name: "Joshua Forsman"
-  sort: "Forsman, Joshua"
-  l: "F"
-- name: "Rayn Gabbard"
-  sort: "Gabbard, Rayn"
-  l: "G"
-- name: "Taiwo Masha"
-  sort: "Masha, Taiwo"
-  l: "M"
-- name: "Jared Paige"
-  sort: "Paige, Jared"
-  l: "P"
 ---
 
 ## A Division
@@ -87,3 +54,4 @@ quizzers:
 |    3 | Warren Ellard      | Faith Temple     |   165 |
 |    4 | David Diaz de Leon | Faith Temple     |    90 |
 |    5 | Sierra Clark       | Braeswood        |    80 |
+

@@ -9,39 +9,6 @@ menubar_toc_static:
   - name: 2010 Season
     link: /history/2010/
     icon: fas fa-home
-type: t
-season: 2010
-quizzers:
-- name: "Emily Beazley"
-  sort: "Beazley, Emily"
-  l: "B"
-- name: "Cara Brower"
-  sort: "Brower, Cara"
-  l: "B"
-- name: "Anna Giesing"
-  sort: "Giesing, Anna"
-  l: "G"
-- name: "Catherine Hains"
-  sort: "Hains, Catherine"
-  l: "H"
-- name: "Abhishek Mathews"
-  sort: "Mathews, Abhishek"
-  l: "M"
-- name: "Santosh Mathews"
-  sort: "Mathews, Santosh"
-  l: "M"
-- name: "Kelsey Moses"
-  sort: "Moses, Kelsey"
-  l: "M"
-- name: "Cougar Poths"
-  sort: "Poths, Cougar"
-  l: "P"
-- name: "Sequoia Poths"
-  sort: "Poths, Sequoia"
-  l: "P"
-- name: "Abby Weatherholtz"
-  sort: "Weatherholtz, Abby"
-  l: "W"
 ---
 
 ## A League

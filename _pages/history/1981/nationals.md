@@ -10,27 +10,6 @@ menubar_toc_static:
   - name: 1981 Season
     link: /history/1981/
     icon: fas fa-home
-type: t
-season: 1981
-quizzers:
-- name: "Kari Brodin"
-  sort: "Brodin, Kari"
-  l: "B"
-- name: "Adrian Edwards"
-  sort: "Edwards, Adrian"
-  l: "E"
-- name: "Mark Gilmer"
-  sort: "Gilmer, Mark"
-  l: "G"
-- name: "Ken Henderson"
-  sort: "Henderson, Ken"
-  l: "H"
-- name: "Rhett Laurens"
-  sort: "Laurens, Rhett"
-  l: "L"
-- name: "Paul Lewis"
-  sort: "Lewis, Paul"
-  l: "L"
 ---
 
 ![]({% link assets/1981/WA-Renton.jpg %})

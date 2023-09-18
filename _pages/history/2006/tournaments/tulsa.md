@@ -9,39 +9,6 @@ menubar_toc_static:
   - name: 2006 Season
     link: /history/2006/
     icon: fas fa-home
-type: t
-season: 2006
-quizzers:
-- name: "Tiffany Auiler"
-  sort: "Auiler, Tiffany"
-  l: "A"
-- name: "Joshua Carl"
-  sort: "Carl, Joshua"
-  l: "C"
-- name: "Kara DePriest"
-  sort: "DePriest, Kara"
-  l: "D"
-- name: "Gina Fortunato"
-  sort: "Fortunato, Gina"
-  l: "F"
-- name: "Whitney Garrison"
-  sort: "Garrison, Whitney"
-  l: "G"
-- name: "Alan Orcutt"
-  sort: "Orcutt, Alan"
-  l: "O"
-- name: "Molly Pace"
-  sort: "Pace, Molly"
-  l: "P"
-- name: "Brandon Porter"
-  sort: "Porter, Brandon"
-  l: "P"
-- name: "Laura Roller"
-  sort: "Roller, Laura"
-  l: "R"
-- name: "Megan Welborn"
-  sort: "Welborn, Megan"
-  l: "W"
 ---
 
 ## Championship Division
@@ -113,3 +80,4 @@ quizzers:
 |    3 | Whitney Garrison | James River, Ozark, MO        |  1525 |
 |    4 | Tiffany Auiler   | Kings Chapel, Springfield, MO |  1485 |
 |    5 | Joshua Carl      | Longview, TX                  |  1310 |
+

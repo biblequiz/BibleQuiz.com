@@ -9,21 +9,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Natasha Bannon"
-  sort: "Bannon, Natasha"
-  l: "B"
-- name: "Delana Brown"
-  sort: "Brown, Delana"
-  l: "B"
-- name: "Leslie Roop"
-  sort: "Roop, Leslie"
-  l: "R"
-- name: "Dusty Thornton"
-  sort: "Thornton, Dusty"
-  l: "T"
 ---
 
 ## Teams
@@ -45,3 +30,4 @@ quizzers:
 |    2 | Delana Brown   | Tuscaloosa |    50 |
 |   2* | Natasha Bannon | Elba       |    50 |
 |    4 | Dusty Thornton | Dothan     |    30 |
+

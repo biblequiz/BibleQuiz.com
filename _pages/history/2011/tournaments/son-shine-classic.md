@@ -9,24 +9,6 @@ menubar_toc_static:
   - name: 2011 Season
     link: /history/2011/
     icon: fas fa-home
-type: t
-season: 2011
-quizzers:
-- name: "Mo Adewunmi"
-  sort: "Adewunmi, Mo"
-  l: "A"
-- name: "Daniel Notman"
-  sort: "Notman, Daniel"
-  l: "N"
-- name: "Abby Rogers"
-  sort: "Rogers, Abby"
-  l: "R"
-- name: "Erinn Wolf"
-  sort: "Wolf, Erinn"
-  l: "W"
-- name: "Shannon Wolf"
-  sort: "Wolf, Shannon"
-  l: "W"
 ---
 
 We do not have complete results, but here is what we do have:

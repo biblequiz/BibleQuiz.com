@@ -10,33 +10,6 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
-type: t
-season: 2001
-quizzers:
-- name: "Bethany Broadbeck"
-  sort: "Broadbeck, Bethany"
-  l: "B"
-- name: "Amber Hise"
-  sort: "Hise, Amber"
-  l: "H"
-- name: "Amy Hise"
-  sort: "Hise, Amy"
-  l: "H"
-- name: "Eric Lanzer"
-  sort: "Lanzer, Eric"
-  l: "L"
-- name: "Mike Regal"
-  sort: "Regal, Mike"
-  l: "R"
-- name: "Bailey Steel"
-  sort: "Steel, Bailey"
-  l: "S"
-- name: "Brandy Steel"
-  sort: "Steel, Brandy"
-  l: "S"
-- name: "Bryce Steel"
-  sort: "Steel, Bryce"
-  l: "S"
 ---
 
 ## A Division
@@ -79,3 +52,4 @@ quizzers:
 |    1 | Eric Lanzer  | New Philly #1 | 142.5 |
 |    2 | Bailey Steel | Toledo #2     | 117.5 |
 |    3 | Brandy Steel | Toledo #2     |  92.5 |
+

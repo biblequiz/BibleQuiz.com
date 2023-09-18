@@ -9,33 +9,6 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
-type: t
-season: 2001
-quizzers:
-- name: "David Dorey"
-  sort: "Dorey, David"
-  l: "D"
-- name: "Ricky Haney"
-  sort: "Haney, Ricky"
-  l: "H"
-- name: "Chris Hoklotubbe"
-  sort: "Hoklotubbe, Chris"
-  l: "H"
-- name: "Mary Pace"
-  sort: "Pace, Mary"
-  l: "P"
-- name: "Jordan Schneider"
-  sort: "Schneider, Jordan"
-  l: "S"
-- name: "Michael Shinoda"
-  sort: "Shinoda, Michael"
-  l: "S"
-- name: "Moneer Shinoda"
-  sort: "Shinoda, Moneer"
-  l: "S"
-- name: "RaVae Walter"
-  sort: "Walter, RaVae"
-  l: "W"
 ---
 
 ## Teams
@@ -61,3 +34,4 @@ quizzers:
 | Moneer Shinoda   | Santa Ana    |   585 |  39.00 |
 | Chris Hoklotubbe | Orange Hills |   570 |  38.00 |
 | RaVae Walter     | Fort Collins |   430 |  28.67 |
+

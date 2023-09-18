@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
-type: t
-season: 2000
-quizzers:
-- name: "Katie Byron"
-  sort: "Byron, Katie"
-  l: "B"
-- name: "David Dorey"
-  sort: "Dorey, David"
-  l: "D"
-- name: "Jonathan Falkey"
-  sort: "Falkey, Jonathan"
-  l: "F"
-- name: "Melissa Falkey"
-  sort: "Falkey, Melissa"
-  l: "F"
-- name: "Ricky Haney"
-  sort: "Haney, Ricky"
-  l: "H"
-- name: "Valerie Marchalonis"
-  sort: "Marchalonis, Valerie"
-  l: "M"
-- name: "Mary Pace"
-  sort: "Pace, Mary"
-  l: "P"
-- name: "Christina Savedra"
-  sort: "Savedra, Christina"
-  l: "S"
-- name: "Jordan Schneider"
-  sort: "Schneider, Jordan"
-  l: "S"
-- name: "Erik Schubert"
-  sort: "Schubert, Erik"
-  l: "S"
 ---
 
 To make an extremely long story short, our region had to hold two levels of finals this year due to a mixup in dates in one district. Therefore, the numbers below will look a little odd. The averages of the top three teams and top five individuals are rather low since the top three teams just played each other in a Quintuple Round-Robin (15 rounds, 10 games). Consequently, the scores of the bottom five teams are much higher than normal because they didn't have to play the top three teams at all. Also, the number of games played does not match. Suffice it to say that the five teams going to nationals from the Southwest Region are (in order):

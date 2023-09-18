@@ -10,24 +10,6 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
-type: t
-season: 2004
-quizzers:
-- name: "Kalyne Bassett"
-  sort: "Bassett, Kalyne"
-  l: "B"
-- name: "Katie Garlington"
-  sort: "Garlington, Katie"
-  l: "G"
-- name: "Andrew Godfrey"
-  sort: "Godfrey, Andrew"
-  l: "G"
-- name: "Daniel Godfrey"
-  sort: "Godfrey, Daniel"
-  l: "G"
-- name: "Beth Mace"
-  sort: "Mace, Beth"
-  l: "M"
 ---
 
 ## Top Teams
@@ -46,3 +28,4 @@ quizzers:
 |    3 | Kalyne Bassett   |   185 |   37 |      |         |
 |    4 | Beth Mace        |   155 |   31 |      |         |
 |    5 | Andrew Godfrey   |       |      |      |         |
+

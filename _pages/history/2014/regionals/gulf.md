@@ -10,45 +10,6 @@ menubar_toc_static:
   - name: 2014 Season
     link: /history/2014/
     icon: fas fa-home
-type: t
-season: 2014
-quizzers:
-- name: "Jed Brookbank"
-  sort: "Brookbank, Jed"
-  l: "B"
-- name: "Tirzah Brookbank"
-  sort: "Brookbank, Tirzah"
-  l: "B"
-- name: "Zack Brookbank"
-  sort: "Brookbank, Zack"
-  l: "B"
-- name: "Josh Clark"
-  sort: "Clark, Josh"
-  l: "C"
-- name: "Kacie Garrison"
-  sort: "Garrison, Kacie"
-  l: "G"
-- name: "Travis Griessel"
-  sort: "Griessel, Travis"
-  l: "G"
-- name: "Jillian Griffith"
-  sort: "Griffith, Jillian"
-  l: "G"
-- name: "Leisl Jansen"
-  sort: "Jansen, Leisl"
-  l: "J"
-- name: "Brock Peters"
-  sort: "Peters, Brock"
-  l: "P"
-- name: "Kara Peters"
-  sort: "Peters, Kara"
-  l: "P"
-- name: "Daniel Quick"
-  sort: "Quick, Daniel"
-  l: "Q"
-- name: "Hannah Quick"
-  sort: "Quick, Hannah"
-  l: "Q"
 ---
 
 ## A Division

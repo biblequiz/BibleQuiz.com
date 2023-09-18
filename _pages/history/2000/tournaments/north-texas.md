@@ -9,36 +9,6 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
-type: t
-season: 2000
-quizzers:
-- name: "Meagan Busby"
-  sort: "Busby, Meagan"
-  l: "B"
-- name: "Sharon Ely"
-  sort: "Ely, Sharon"
-  l: "E"
-- name: "Sterling Johnson"
-  sort: "Johnson, Sterling"
-  l: "J"
-- name: "Dan Marlow"
-  sort: "Marlow, Dan"
-  l: "M"
-- name: "Alyssa McKnight"
-  sort: "McKnight, Alyssa"
-  l: "M"
-- name: "Stephanie Nannarone"
-  sort: "Nannarone, Stephanie"
-  l: "N"
-- name: "Michael Pearson"
-  sort: "Pearson, Michael"
-  l: "P"
-- name: "EJ Spears"
-  sort: "Spears, EJ"
-  l: "S"
-- name: "David Womelsdorf"
-  sort: "Womelsdorf, David"
-  l: "W"
 ---
 
 ## A League

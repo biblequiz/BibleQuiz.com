@@ -9,51 +9,6 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
-type: t
-season: 2000
-quizzers:
-- name: "Eunice Awuah"
-  sort: "Awuah, Eunice"
-  l: "A"
-- name: "Jamil Barton-Harris"
-  sort: "Barton-Harris, Jamil"
-  l: "B"
-- name: "Joey Bolognone"
-  sort: "Bolognone, Joey"
-  l: "B"
-- name: "LeAnne Bowers"
-  sort: "Bowers, LeAnne"
-  l: "B"
-- name: "Brittany Demers"
-  sort: "Demers, Brittany"
-  l: "D"
-- name: "Jenna Jurgielewicz"
-  sort: "Jurgielewicz, Jenna"
-  l: "J"
-- name: "Dan McGlaughlin"
-  sort: "McGlaughlin, Dan"
-  l: "M"
-- name: "John McGlaughlin"
-  sort: "McGlaughlin, John"
-  l: "M"
-- name: "Aaron Muha"
-  sort: "Muha, Aaron"
-  l: "M"
-- name: "Jonathon Olenick"
-  sort: "Olenick, Jonathon"
-  l: "O"
-- name: "Jason Prime"
-  sort: "Prime, Jason"
-  l: "P"
-- name: "Joshua Soto"
-  sort: "Soto, Joshua"
-  l: "S"
-- name: "Rob Thousand"
-  sort: "Thousand, Rob"
-  l: "T"
-- name: "Hanna Vecsernyes"
-  sort: "Vecsernyes, Hanna"
-  l: "V"
 ---
 
 ## A Division
@@ -113,3 +68,4 @@ quizzers:
 |    5 | Joshua Soto        | Niagara Falls   |   230 |    0 |
 |    6 | Jonathon Olenick   | Niagara Falls   |   225 |    0 |
 |    7 | Jenna Jurgielewicz | Center Moriches |   220 |    0 |
+

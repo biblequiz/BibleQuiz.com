@@ -9,39 +9,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Joey Bohanon"
-  sort: "Bohanon, Joey"
-  l: "B"
-- name: "Caleb Booth"
-  sort: "Booth, Caleb"
-  l: "B"
-- name: "David Dorey"
-  sort: "Dorey, David"
-  l: "D"
-- name: "Hannah Duncan"
-  sort: "Duncan, Hannah"
-  l: "D"
-- name: "Will Goble"
-  sort: "Goble, Will"
-  l: "G"
-- name: "Ricky Haney"
-  sort: "Haney, Ricky"
-  l: "H"
-- name: "Eric Hernando"
-  sort: "Hernando, Eric"
-  l: "H"
-- name: "David Pentz"
-  sort: "Pentz, David"
-  l: "P"
-- name: "Nathan Pentz"
-  sort: "Pentz, Nathan"
-  l: "P"
-- name: "Kent Piacenti"
-  sort: "Piacenti, Kent"
-  l: "P"
 ---
 
 ## A Division
@@ -82,3 +49,4 @@ No results are available.
 |    3 | Hannah Duncan | King's Chapel |
 |    4 | Eric Hernando | King's Chapel |
 |    5 | Ricky Haney   | Orange A/G    |
+

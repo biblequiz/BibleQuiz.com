@@ -10,66 +10,6 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
-type: t
-season: 2007
-quizzers:
-- name: "Karan Bhargava"
-  sort: "Bhargava, Karan"
-  l: "B"
-- name: "Daniel Clark"
-  sort: "Clark, Daniel"
-  l: "C"
-- name: "Joe Dean"
-  sort: "Dean, Joe"
-  l: "D"
-- name: "Mary Detrick"
-  sort: "Detrick, Mary"
-  l: "D"
-- name: "Kevin Forst"
-  sort: "Forst, Kevin"
-  l: "F"
-- name: "Natalie Garrison"
-  sort: "Garrison, Natalie"
-  l: "G"
-- name: "Whitney Garrison"
-  sort: "Garrison, Whitney"
-  l: "G"
-- name: "Keenan Gore"
-  sort: "Gore, Keenan"
-  l: "G"
-- name: "Sarah Ingerson"
-  sort: "Ingerson, Sarah"
-  l: "I"
-- name: "Chris Knoth"
-  sort: "Knoth, Chris"
-  l: "K"
-- name: "Colin Knoth"
-  sort: "Knoth, Colin"
-  l: "K"
-- name: "Zach Pietz"
-  sort: "Pietz, Zach"
-  l: "P"
-- name: "Blake Porter"
-  sort: "Porter, Blake"
-  l: "P"
-- name: "Brittany Porter"
-  sort: "Porter, Brittany"
-  l: "P"
-- name: "Christine Simpson"
-  sort: "Simpson, Christine"
-  l: "S"
-- name: "Charles Turner"
-  sort: "Turner, Charles"
-  l: "T"
-- name: "Hillari Wyatt"
-  sort: "Wyatt, Hillari"
-  l: "W"
-- name: "Jacob Wyatt"
-  sort: "Wyatt, Jacob"
-  l: "W"
-- name: "Kourtni Wyatt"
-  sort: "Wyatt, Kourtni"
-  l: "W"
 ---
 
 ## A Division
@@ -132,3 +72,4 @@ quizzers:
 |    7 | Chris Knoth      | JR - ActSquad    |   175 |  43.8 |
 |    8 | Kevin Forst      | Hope Assembly    |   140 |  35.0 |
 |    9 | Charles Turner   | Hope Assembly    |   100 |  25.0 |
+

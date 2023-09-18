@@ -10,72 +10,6 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
-type: t
-season: 2007
-quizzers:
-- name: "Rosina Albanese"
-  sort: "Albanese, Rosina"
-  l: "A"
-- name: "Jeremy Albrecht"
-  sort: "Albrecht, Jeremy"
-  l: "A"
-- name: "David Beer"
-  sort: "Beer, David"
-  l: "B"
-- name: "Lindsey Brower"
-  sort: "Brower, Lindsey"
-  l: "B"
-- name: "Lucas Cox"
-  sort: "Cox, Lucas"
-  l: "C"
-- name: "Jesse Czubkowski"
-  sort: "Czubkowski, Jesse"
-  l: "C"
-- name: "Cameron Davis"
-  sort: "Davis, Cameron"
-  l: "D"
-- name: "Olivia Davis"
-  sort: "Davis, Olivia"
-  l: "D"
-- name: "Lisa Everett"
-  sort: "Everett, Lisa"
-  l: "E"
-- name: "Lindsay Facer"
-  sort: "Facer, Lindsay"
-  l: "F"
-- name: "Chris Galea"
-  sort: "Galea, Chris"
-  l: "G"
-- name: "Daniel Godfrey"
-  sort: "Godfrey, Daniel"
-  l: "G"
-- name: "Tiffany Kittner"
-  sort: "Kittner, Tiffany"
-  l: "K"
-- name: "James Lex"
-  sort: "Lex, James"
-  l: "L"
-- name: "Jenna Liberati"
-  sort: "Liberati, Jenna"
-  l: "L"
-- name: "John McGillis"
-  sort: "McGillis, John"
-  l: "M"
-- name: "Isaac Nichols"
-  sort: "Nichols, Isaac"
-  l: "N"
-- name: "Kyler Sederwall"
-  sort: "Sederwall, Kyler"
-  l: "S"
-- name: "Samantha Smith"
-  sort: "Smith, Samantha"
-  l: "S"
-- name: "LaJoie Ward"
-  sort: "Ward, LaJoie"
-  l: "W"
-- name: "Sam York"
-  sort: "York, Sam"
-  l: "Y"
 ---
 
 ## A Division
@@ -146,3 +80,4 @@ quizzers:
 |    9 | Isaac Nichols   | Lexington, KY          |   485 |    3 |
 |   10 | Olivia Davis    | Resurrection Life, MI  |   440 |    3 |
 |   11 | Samantha Smith  | Manassas, VA           |   440 |    2 |
+

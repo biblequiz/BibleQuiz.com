@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
-type: t
-season: 2000
-quizzers:
-- name: "Justin Ades"
-  sort: "Ades, Justin"
-  l: "A"
-- name: "Len Blackson"
-  sort: "Blackson, Len"
-  l: "B"
-- name: "Luke Blackson"
-  sort: "Blackson, Luke"
-  l: "B"
-- name: "Bronson Clark"
-  sort: "Clark, Bronson"
-  l: "C"
-- name: "Michelle Hart"
-  sort: "Hart, Michelle"
-  l: "H"
-- name: "Kyle Heyne"
-  sort: "Heyne, Kyle"
-  l: "H"
-- name: "Heather Patterson"
-  sort: "Patterson, Heather"
-  l: "P"
-- name: "Sarah Roberts"
-  sort: "Roberts, Sarah"
-  l: "R"
-- name: "Krista Williams"
-  sort: "Williams, Krista"
-  l: "W"
-- name: "Kyle Williams"
-  sort: "Williams, Kyle"
-  l: "W"
 ---
 
 ## Teams

@@ -9,24 +9,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "LeAnne Bowers"
-  sort: "Bowers, LeAnne"
-  l: "B"
-- name: "Becky Gainey"
-  sort: "Gainey, Becky"
-  l: "G"
-- name: "Stan Hardter"
-  sort: "Hardter, Stan"
-  l: "H"
-- name: "Dan McGlaughlin"
-  sort: "McGlaughlin, Dan"
-  l: "M"
-- name: "Michael Shenoda"
-  sort: "Shenoda, Michael"
-  l: "S"
 ---
 
 ## A Division
@@ -58,3 +40,4 @@ quizzers:
 | ---: | ------------ |
 |    1 | Expressway   |
 |    2 | Resurrection |
+

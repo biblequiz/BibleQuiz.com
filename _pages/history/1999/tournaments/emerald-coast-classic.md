@@ -9,39 +9,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Justin Ades"
-  sort: "Ades, Justin"
-  l: "A"
-- name: "Len Blackson"
-  sort: "Blackson, Len"
-  l: "B"
-- name: "Brandon Blankenship"
-  sort: "Blankenship, Brandon"
-  l: "B"
-- name: "Charity Daniel"
-  sort: "Daniel, Charity"
-  l: "D"
-- name: "Kevin Davis"
-  sort: "Davis, Kevin"
-  l: "D"
-- name: "Jennifer Dunn"
-  sort: "Dunn, Jennifer"
-  l: "D"
-- name: "Michael Pearson"
-  sort: "Pearson, Michael"
-  l: "P"
-- name: "Katie Shephard"
-  sort: "Shephard, Katie"
-  l: "S"
-- name: "Laura Smith"
-  sort: "Smith, Laura"
-  l: "S"
-- name: "Shane Welborn"
-  sort: "Welborn, Shane"
-  l: "W"
 ---
 
 ## Teams

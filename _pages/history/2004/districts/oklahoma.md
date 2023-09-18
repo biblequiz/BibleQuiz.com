@@ -10,30 +10,6 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
-type: t
-season: 2004
-quizzers:
-- name: "Elliot Butay"
-  sort: "Butay, Elliot"
-  l: "B"
-- name: "Lydia Butay"
-  sort: "Butay, Lydia"
-  l: "B"
-- name: "Chris Byrd"
-  sort: "Byrd, Chris"
-  l: "B"
-- name: "Megan Gates"
-  sort: "Gates, Megan"
-  l: "G"
-- name: "Luke Graves"
-  sort: "Graves, Luke"
-  l: "G"
-- name: "Andrew Quinn"
-  sort: "Quinn, Andrew"
-  l: "Q"
-- name: "Amy Summers"
-  sort: "Summers, Amy"
-  l: "S"
 ---
 
 ## A Division
@@ -77,3 +53,4 @@ quizzers:
 | ------------ | --------------------------- |
 | Andrew Quinn | Bartlesville First Assembly |
 | Elliot Butay | Tulsa Christian Chapel      |
+

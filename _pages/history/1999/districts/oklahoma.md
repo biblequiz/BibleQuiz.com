@@ -9,27 +9,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Brianna Ash"
-  sort: "Ash, Brianna"
-  l: "A"
-- name: "Caleb Booth"
-  sort: "Booth, Caleb"
-  l: "B"
-- name: "Jamie Douhit"
-  sort: "Douhit, Jamie"
-  l: "D"
-- name: "Ryan Steadly"
-  sort: "Steadly, Ryan"
-  l: "S"
-- name: "Joe Stephens"
-  sort: "Stephens, Joe"
-  l: "S"
-- name: "Brycen Turner"
-  sort: "Turner, Brycen"
-  l: "T"
 ---
 
 ## Teams

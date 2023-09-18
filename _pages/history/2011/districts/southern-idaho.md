@@ -9,24 +9,6 @@ menubar_toc_static:
   - name: 2011 Season
     link: /history/2011/
     icon: fas fa-home
-type: t
-season: 2011
-quizzers:
-- name: "Marissa Emerson"
-  sort: "Emerson, Marissa"
-  l: "E"
-- name: "Keaton Gillihan"
-  sort: "Gillihan, Keaton"
-  l: "G"
-- name: "Trevor Olson"
-  sort: "Olson, Trevor"
-  l: "O"
-- name: "Link Patrick"
-  sort: "Patrick, Link"
-  l: "P"
-- name: "Missa Quintana"
-  sort: "Quintana, Missa"
-  l: "Q"
 ---
 
 ## A Division

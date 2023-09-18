@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
-type: t
-season: 2004
-quizzers:
-- name: "Holly Bennett"
-  sort: "Bennett, Holly"
-  l: "B"
-- name: "Patti Carpe"
-  sort: "Carpe, Patti"
-  l: "C"
-- name: "Chad Crawford"
-  sort: "Crawford, Chad"
-  l: "C"
-- name: "Michelle Hart"
-  sort: "Hart, Michelle"
-  l: "H"
-- name: "Kelsey Heyne"
-  sort: "Heyne, Kelsey"
-  l: "H"
-- name: "Billy Jerabek"
-  sort: "Jerabek, Billy"
-  l: "J"
-- name: "Travis Porter"
-  sort: "Porter, Travis"
-  l: "P"
-- name: "Christina Simpson"
-  sort: "Simpson, Christina"
-  l: "S"
-- name: "Sara Sobkowiak"
-  sort: "Sobkowiak, Sara"
-  l: "S"
-- name: "Chad Westrick"
-  sort: "Westrick, Chad"
-  l: "W"
 ---
 
 The top 8 teams in A Division and the top 5 teams in Novice Division competed.
@@ -90,3 +57,4 @@ The top 8 teams in A Division and the top 5 teams in Novice Division competed.
 |    3 | Chad Westrick     | Lehigh Acres New Life |     4 |    205 | 51.2 |
 |    4 | Billy Jerabek     | Fort Myers First      |     4 |    110 | 27.5 |
 |    5 | Kelsey Heyne      | Orlando Faith         |     4 |    105 | 26.3 |
+

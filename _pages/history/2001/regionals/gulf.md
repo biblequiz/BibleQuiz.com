@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
-type: t
-season: 2001
-quizzers:
-- name: "Chris Alfred"
-  sort: "Alfred, Chris"
-  l: "A"
-- name: "Daniel Cooper"
-  sort: "Cooper, Daniel"
-  l: "C"
-- name: "Chris Davis"
-  sort: "Davis, Chris"
-  l: "D"
-- name: "Richard Fair"
-  sort: "Fair, Richard"
-  l: "F"
-- name: "Andrew Hejtmanek"
-  sort: "Hejtmanek, Andrew"
-  l: "H"
-- name: "Michael Henix"
-  sort: "Henix, Michael"
-  l: "H"
-- name: "Eric Hernando"
-  sort: "Hernando, Eric"
-  l: "H"
-- name: "Megan Pincombe"
-  sort: "Pincombe, Megan"
-  l: "P"
-- name: "Andy Wall"
-  sort: "Wall, Andy"
-  l: "W"
-- name: "David Womelsdorf"
-  sort: "Womelsdorf, David"
-  l: "W"
 ---
 
 ## Teams
@@ -76,3 +43,4 @@ quizzers:
 |    8 | Andy Wall        | Springfield James River   |   210 |
 |    9 | Daniel Cooper    | Springfield James River   |   200 |
 |   10 | Michael Henix    | Shreveport #2             |   170 |
+

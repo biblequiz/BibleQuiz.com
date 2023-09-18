@@ -10,33 +10,6 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
-type: t
-season: 2007
-quizzers:
-- name: "Ariel Brookbank"
-  sort: "Brookbank, Ariel"
-  l: "B"
-- name: "Sommer Ferguson"
-  sort: "Ferguson, Sommer"
-  l: "F"
-- name: "Hanna Ingerson"
-  sort: "Ingerson, Hanna"
-  l: "I"
-- name: "Colin Knoth"
-  sort: "Knoth, Colin"
-  l: "K"
-- name: "Alan Orcutt"
-  sort: "Orcutt, Alan"
-  l: "O"
-- name: "Blake Porter"
-  sort: "Porter, Blake"
-  l: "P"
-- name: "James Pryer"
-  sort: "Pryer, James"
-  l: "P"
-- name: "Jacob Wyatt"
-  sort: "Wyatt, Jacob"
-  l: "W"
 ---
 
 Each team competed in a twelve team round robin. After the initial round robin, the top six teams competed in a round robin and the bottom six teams competed in their own round robin.

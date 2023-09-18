@@ -9,72 +9,6 @@ menubar_toc_static:
   - name: 2009 Season
     link: /history/2009/
     icon: fas fa-home
-type: t
-season: 2009
-quizzers:
-- name: "Ronnie Adams"
-  sort: "Adams, Ronnie"
-  l: "A"
-- name: "Joseph Arcuri"
-  sort: "Arcuri, Joseph"
-  l: "A"
-- name: "Peter Barron"
-  sort: "Barron, Peter"
-  l: "B"
-- name: "Ceiran Beasley"
-  sort: "Beasley, Ceiran"
-  l: "B"
-- name: "Yoki Belay"
-  sort: "Belay, Yoki"
-  l: "B"
-- name: "Bruce Borah"
-  sort: "Borah, Bruce"
-  l: "B"
-- name: "Erin Borah"
-  sort: "Borah, Erin"
-  l: "B"
-- name: "Rodney Brown"
-  sort: "Brown, Rodney"
-  l: "B"
-- name: "Roman Brown"
-  sort: "Brown, Roman"
-  l: "B"
-- name: "Lindsay Cowan"
-  sort: "Cowan, Lindsay"
-  l: "C"
-- name: "Katie Fleck"
-  sort: "Fleck, Katie"
-  l: "F"
-- name: "Allison Johnson"
-  sort: "Johnson, Allison"
-  l: "J"
-- name: "Jeffrey Johnson"
-  sort: "Johnson, Jeffrey"
-  l: "J"
-- name: "Bella Lex"
-  sort: "Lex, Bella"
-  l: "L"
-- name: "James Lex"
-  sort: "Lex, James"
-  l: "L"
-- name: "Amy Melton"
-  sort: "Melton, Amy"
-  l: "M"
-- name: "Andy Okala"
-  sort: "Okala, Andy"
-  l: "O"
-- name: "Stephen Okala"
-  sort: "Okala, Stephen"
-  l: "O"
-- name: "Anna Rice"
-  sort: "Rice, Anna"
-  l: "R"
-- name: "Rachel Rice"
-  sort: "Rice, Rachel"
-  l: "R"
-- name: "Sarah Rice"
-  sort: "Rice, Sarah"
-  l: "R"
 ---
 
 ## A Division
@@ -150,3 +84,4 @@ quizzers:
 |    1 | Stephen Okala | Snellville |   445 |   89 |
 |    2 | Ronnie Adams  | Dahlonega  |    65 |   13 |
 |    3 | Peter Barron  | Snellville |    25 |    5 |
+

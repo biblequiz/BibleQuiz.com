@@ -10,64 +10,6 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
-type: t
-season: 2003
-quizzers:
-- name: "Genaya Cook"
-  sort: "Cook, Genaya"
-  l: "C"
-- name: "Bobby DeGray"
-  sort: "DeGray, Bobby"
-  l: "D"
-  other:
-  - "Bobby"
-- name: "Chris DeGray"
-  sort: "DeGray, Chris"
-  l: "D"
-- name: "John DeGray"
-  sort: "DeGray, John"
-  l: "D"
-  other:
-  - "Bobby"
-- name: "Mark Fredrickson"
-  sort: "Fredrickson, Mark"
-  l: "F"
-- name: "Melissa Henderson"
-  sort: "Henderson, Melissa"
-  l: "H"
-- name: "Teressa Henderson"
-  sort: "Henderson, Teressa"
-  l: "H"
-- name: "Jennifer Huhn"
-  sort: "Huhn, Jennifer"
-  l: "H"
-- name: "Trevor Johnson"
-  sort: "Johnson, Trevor"
-  l: "J"
-- name: "Laura Jones"
-  sort: "Jones, Laura"
-  l: "J"
-- name: "Ben Markwardt"
-  sort: "Markwardt, Ben"
-  l: "M"
-- name: "Adam Norton"
-  sort: "Norton, Adam"
-  l: "N"
-- name: "Kim Olson"
-  sort: "Olson, Kim"
-  l: "O"
-- name: "Heidi Schroeder"
-  sort: "Schroeder, Heidi"
-  l: "S"
-- name: "Joelle Waskey"
-  sort: "Waskey, Joelle"
-  l: "W"
-- name: "Amber Wipplinger"
-  sort: "Wipplinger, Amber"
-  l: "W"
-- name: "Charity Wipplinger"
-  sort: "Wipplinger, Charity"
-  l: "W"
 ---
 
 ## A Division
@@ -122,3 +64,4 @@ quizzers:
 |    4 | Adam Norton     | Chisago |   100 | 20.00 |
 |    5 | Joelle Waskey   | Chisago |    90 | 18.00 |
 |    6 | Genaya Cook     | Milaca  |    20 |  5.00 |
+

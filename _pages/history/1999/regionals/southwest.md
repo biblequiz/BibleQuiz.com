@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Katie Byron"
-  sort: "Byron, Katie"
-  l: "B"
-- name: "David Dorey"
-  sort: "Dorey, David"
-  l: "D"
-- name: "Melissa Falkey"
-  sort: "Falkey, Melissa"
-  l: "F"
-- name: "Ricky Haney"
-  sort: "Haney, Ricky"
-  l: "H"
-- name: "Sarah Ingroum"
-  sort: "Ingroum, Sarah"
-  l: "I"
-- name: "Valerie Marchalonis"
-  sort: "Marchalonis, Valerie"
-  l: "M"
-- name: "Mary Pace"
-  sort: "Pace, Mary"
-  l: "P"
-- name: "Kent Piacenti"
-  sort: "Piacenti, Kent"
-  l: "P"
-- name: "Jordan Schneider"
-  sort: "Schneider, Jordan"
-  l: "S"
-- name: "Erik Schubert"
-  sort: "Schubert, Erik"
-  l: "S"
 ---
 
 ## Teams
@@ -74,3 +41,4 @@ quizzers:
 |    8 | Sarah Ingroum       | Kingman Living Faith |   775 |  43.06 |    3 |
 |    9 | Mary Pace           | CO Springs           |   715 |  39.72 |    4 |
 |   10 | Katie Byron         | Paradise Hills       |   540 |  30.00 |    1 |
+

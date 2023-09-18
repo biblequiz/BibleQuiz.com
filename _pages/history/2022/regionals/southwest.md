@@ -10,54 +10,6 @@ menubar_toc_static:
   - name: 2022 Season
     link: /history/2022/
     icon: fas fa-home
-type: t
-season: 2022
-quizzers:
-- name: "Janet An"
-  sort: "An, Janet"
-  l: "A"
-- name: "Jonathan An"
-  sort: "An, Jonathan"
-  l: "A"
-- name: "Caleb Brookbank"
-  sort: "Brookbank, Caleb"
-  l: "B"
-- name: "Hadassah Brookbank"
-  sort: "Brookbank, Hadassah"
-  l: "B"
-- name: "Josiah Brookbank"
-  sort: "Brookbank, Josiah"
-  l: "B"
-- name: "Rachel Brookbank"
-  sort: "Brookbank, Rachel"
-  l: "B"
-- name: "Samuel Jebaraj"
-  sort: "Jebaraj, Samuel"
-  l: "J"
-- name: "Miraclin Jebastian"
-  sort: "Jebastian, Miraclin"
-  l: "J"
-- name: "Hansel John"
-  sort: "John, Hansel"
-  l: "J"
-- name: "Krysle John"
-  sort: "John, Krysle"
-  l: "J"
-- name: "David Lee"
-  sort: "Lee, David"
-  l: "L"
-- name: "Michelle Lee"
-  sort: "Lee, Michelle"
-  l: "L"
-- name: "Elizabeth Li"
-  sort: "Li, Elizabeth"
-  l: "L"
-- name: "Hannah Liu"
-  sort: "Liu, Hannah"
-  l: "L"
-- name: "Daniel Zhang"
-  sort: "Zhang, Daniel"
-  l: "Z"
 ---
 
 ## Teams
@@ -92,3 +44,4 @@ quizzers:
 |       13 | Miraclin Jebastian | Bethel Church of San Jose (San Jose) #1 (Bethel Church of San Jose) |       |       |      |      |
 | **\*13** | Michelle Lee       | Living Water Sheep\^4 (Living Water Bible Church)                   |       |       |      |      |
 | **\*13** | David Lee          | Living Water Sheep\^4 (Living Water Bible Church)                   |       |       |      |      |
+

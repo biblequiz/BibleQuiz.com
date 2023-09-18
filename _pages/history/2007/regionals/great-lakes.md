@@ -9,69 +9,6 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
-type: t
-season: 2007
-quizzers:
-- name: "Jeremy Albrecht"
-  sort: "Albrecht, Jeremy"
-  l: "A"
-- name: "Ryan Albrecht"
-  sort: "Albrecht, Ryan"
-  l: "A"
-- name: "Lucas Cox"
-  sort: "Cox, Lucas"
-  l: "C"
-- name: "Cameron Davis"
-  sort: "Davis, Cameron"
-  l: "D"
-- name: "Olivia Davis"
-  sort: "Davis, Olivia"
-  l: "D"
-- name: "Lindsay Facer"
-  sort: "Facer, Lindsay"
-  l: "F"
-- name: "Hannah Ishikawa"
-  sort: "Ishikawa, Hannah"
-  l: "I"
-- name: "Kendra Libby"
-  sort: "Libby, Kendra"
-  l: "L"
-- name: "Kezia Mathew"
-  sort: "Mathew, Kezia"
-  l: "M"
-- name: "Catherine Morris"
-  sort: "Morris, Catherine"
-  l: "M"
-- name: "Lisa Muloma"
-  sort: "Muloma, Lisa"
-  l: "M"
-- name: "Hannah Netherton"
-  sort: "Netherton, Hannah"
-  l: "N"
-- name: "Isaac Nichols"
-  sort: "Nichols, Isaac"
-  l: "N"
-- name: "Zach Nichols"
-  sort: "Nichols, Zach"
-  l: "N"
-- name: "Bailey Steel"
-  sort: "Steel, Bailey"
-  l: "S"
-- name: "Brandy Steel"
-  sort: "Steel, Brandy"
-  l: "S"
-- name: "Taylor Vickerman"
-  sort: "Vickerman, Taylor"
-  l: "V"
-- name: "Courtney Walin"
-  sort: "Walin, Courtney"
-  l: "W"
-- name: "Scott Walters"
-  sort: "Walters, Scott"
-  l: "W"
-- name: "SeAyra Walters"
-  sort: "Walters, SeAyra"
-  l: "W"
 ---
 
 ## A Division
@@ -140,3 +77,4 @@ quizzers:
 |    8 | Hannah Ishikawa  | Indianapolis, IN Team C          |   680 |  61.82 |      3 |     0 |
 |    9 | Isaac Nichols    | Lexington, KY                    |   620 |  56.36 |      3 |     1 |
 |   10 | Hannah Netherton | Lafayette, IN                    |   580 |  52.73 |      5 |     0 |
+

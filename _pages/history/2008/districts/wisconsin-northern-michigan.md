@@ -10,72 +10,6 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
-type: t
-season: 2008
-quizzers:
-- name: "Emme Arroyo"
-  sort: "Arroyo, Emme"
-  l: "A"
-- name: "Elizabeth Baumeister"
-  sort: "Baumeister, Elizabeth"
-  l: "B"
-- name: "Billy Branham"
-  sort: "Branham, Billy"
-  l: "B"
-- name: "Nathan Dahlin"
-  sort: "Dahlin, Nathan"
-  l: "D"
-- name: "Alex Daniels"
-  sort: "Daniels, Alex"
-  l: "D"
-- name: "Stewart Evers"
-  sort: "Evers, Stewart"
-  l: "E"
-- name: "Crissy Fagan"
-  sort: "Fagan, Crissy"
-  l: "F"
-- name: "Alex Firari"
-  sort: "Firari, Alex"
-  l: "F"
-- name: "Ben Hazard"
-  sort: "Hazard, Ben"
-  l: "H"
-- name: "Daniel Kober"
-  sort: "Kober, Daniel"
-  l: "K"
-- name: "David Kober"
-  sort: "Kober, David"
-  l: "K"
-- name: "Heidee Kolenda"
-  sort: "Kolenda, Heidee"
-  l: "K"
-- name: "Rachel Luedtke"
-  sort: "Luedtke, Rachel"
-  l: "L"
-- name: "Jeffrey Meyer"
-  sort: "Meyer, Jeffrey"
-  l: "M"
-- name: "Kayla Parham"
-  sort: "Parham, Kayla"
-  l: "P"
-- name: "Tyler Roesler"
-  sort: "Roesler, Tyler"
-  l: "R"
-- name: "Ross Toeller"
-  sort: "Toeller, Ross"
-  l: "T"
-- name: "Ryan Toeller"
-  sort: "Toeller, Ryan"
-  l: "T"
-- name: "Caleb Turnage"
-  sort: "Turnage, Caleb"
-  l: "T"
-- name: "Josh Turner"
-  sort: "Turner, Josh"
-  l: "T"
-- name: "Naomi Turner"
-  sort: "Turner, Naomi"
-  l: "T"
 ---
 
 ## A Division
@@ -140,3 +74,4 @@ quizzers:
 |    4 | Rachel Luedtke | Green Bay BRB   |   130 | 21.7 |      |
 |    5 | Emme Arroyo    | Green Bay UPDOG |   110 | 18.3 |    1 |
 |   5* | Crissy Fagan   | Green Bay UPDOG |   110 | 18.3 |      |
+

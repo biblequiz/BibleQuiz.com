@@ -10,36 +10,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Caleb Booth"
-  sort: "Booth, Caleb"
-  l: "B"
-- name: "Jamie Douthit"
-  sort: "Douthit, Jamie"
-  l: "D"
-- name: "Hannah Duncan"
-  sort: "Duncan, Hannah"
-  l: "D"
-- name: "Towela Magai"
-  sort: "Magai, Towela"
-  l: "M"
-- name: "Dan Marlow"
-  sort: "Marlow, Dan"
-  l: "M"
-- name: "Heather Sartain"
-  sort: "Sartain, Heather"
-  l: "S"
-- name: "Grant Schaffer"
-  sort: "Schaffer, Grant"
-  l: "S"
-- name: "Jordan Schneider"
-  sort: "Schneider, Jordan"
-  l: "S"
-- name: "Naomi Westbrook"
-  sort: "Westbrook, Naomi"
-  l: "W"
 ---
 
 ## A Division
@@ -88,3 +58,4 @@ quizzers:
 |    1 | Jamie Douthit   | Purcell Memorial   |   590 | 59.00 |
 |    2 | Grant Schaffer  | Christian Chapel 2 |   440 | 44.00 |
 |    3 | Heather Sartain | Trinity 2          |   435 | 43.50 |
+

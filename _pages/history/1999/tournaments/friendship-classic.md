@@ -9,57 +9,6 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
-type: t
-season: 1999
-quizzers:
-- name: "Joey Bohanon"
-  sort: "Bohanon, Joey"
-  l: "B"
-- name: "Angela Burnworth"
-  sort: "Burnworth, Angela"
-  l: "B"
-- name: "Ryan Decker"
-  sort: "Decker, Ryan"
-  l: "D"
-- name: "David Dorey"
-  sort: "Dorey, David"
-  l: "D"
-- name: "Hannah Duncan"
-  sort: "Duncan, Hannah"
-  l: "D"
-- name: "Jim Fenton"
-  sort: "Fenton, Jim"
-  l: "F"
-- name: "Ricky Haney"
-  sort: "Haney, Ricky"
-  l: "H"
-- name: "Eric Hernando"
-  sort: "Hernando, Eric"
-  l: "H"
-- name: "Valerie Marchalonis"
-  sort: "Marchalonis, Valerie"
-  l: "M"
-- name: "Dan McLaughlin"
-  sort: "McLaughlin, Dan"
-  l: "M"
-- name: "Kent Piacenti"
-  sort: "Piacenti, Kent"
-  l: "P"
-- name: "Cindy Rodman"
-  sort: "Rodman, Cindy"
-  l: "R"
-- name: "Jesse Spencer"
-  sort: "Spencer, Jesse"
-  l: "S"
-- name: "Jared Stepp"
-  sort: "Stepp, Jared"
-  l: "S"
-- name: "Nathan Watkins"
-  sort: "Watkins, Nathan"
-  l: "W"
-- name: "David Whitehead"
-  sort: "Whitehead, David"
-  l: "W"
 ---
 
 Each bracket played a round-robin to determine the top two teams from each bracket, and then those four teams played a round-robin to determine the winner (ties were broken by points).
@@ -110,3 +59,4 @@ Each bracket played a round-robin to determine the top two teams from each brack
 |   13 | David Dorey         | Orange Hills       |   785 |  65.41 |    5 |
 |   14 | Jesse Spencer       | Crawfordsville, IN |   740 |  61.66 |    4 |
 |   15 | Jared Stepp         | Bethel Park, PA    |   720 |  60.00 |    6 |
+

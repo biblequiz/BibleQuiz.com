@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2011 Season
     link: /history/2011/
     icon: fas fa-home
-type: t
-season: 2011
-quizzers:
-- name: "Jeremy Albrecht"
-  sort: "Albrecht, Jeremy"
-  l: "A"
-- name: "Susie Bowen"
-  sort: "Bowen, Susie"
-  l: "B"
-- name: "Daniel Buffham"
-  sort: "Buffham, Daniel"
-  l: "B"
-- name: "Jonathan Burd"
-  sort: "Burd, Jonathan"
-  l: "B"
-- name: "Rebekah Kelly"
-  sort: "Kelly, Rebekah"
-  l: "K"
-- name: "Samuel Pryer"
-  sort: "Pryer, Samuel"
-  l: "P"
-- name: "Laura Roller"
-  sort: "Roller, Laura"
-  l: "R"
-- name: "Rachel Roller"
-  sort: "Roller, Rachel"
-  l: "R"
-- name: "Makena Schrock"
-  sort: "Schrock, Makena"
-  l: "S"
-- name: "Courtney Walin"
-  sort: "Walin, Courtney"
-  l: "W"
 ---
 
 ## A League

@@ -10,63 +10,6 @@ menubar_toc_static:
   - name: 2021 Season
     link: /jbq/2021/
     icon: fas fa-home
-type: j
-season: 2021
-quizzers:
-- name: "Daniel Bartholomew"
-  sort: "Bartholomew, Daniel"
-  l: "B"
-- name: "Grace Bartholomew"
-  sort: "Bartholomew, Grace"
-  l: "B"
-- name: "John Colley"
-  sort: "Colley, John"
-  l: "C"
-- name: "Nathan Colley"
-  sort: "Colley, Nathan"
-  l: "C"
-- name: "James Cornish"
-  sort: "Cornish, James"
-  l: "C"
-- name: "Isabella Darko"
-  sort: "Darko, Isabella"
-  l: "D"
-- name: "Chizaram Echefu"
-  sort: "Echefu, Chizaram"
-  l: "E"
-- name: "Judah Guntle"
-  sort: "Guntle, Judah"
-  l: "G"
-- name: "Meredith Haley"
-  sort: "Haley, Meredith"
-  l: "H"
-- name: "Chizaram Iwuogaranya"
-  sort: "Iwuogaranya, Chizaram"
-  l: "I"
-- name: "Josiah Lapusan"
-  sort: "Lapusan, Josiah"
-  l: "L"
-- name: "Jayden Ramesh"
-  sort: "Ramesh, Jayden"
-  l: "R"
-- name: "Timothy Samuel"
-  sort: "Samuel, Timothy"
-  l: "S"
-- name: "Simon Solomon"
-  sort: "Solomon, Simon"
-  l: "S"
-- name: "Caris Thomas"
-  sort: "Thomas, Caris"
-  l: "T"
-- name: "Luke Thomas"
-  sort: "Thomas, Luke"
-  l: "T"
-- name: "Elizabeth Walker"
-  sort: "Walker, Elizabeth"
-  l: "W"
-- name: "Janessa Walker"
-  sort: "Walker, Janessa"
-  l: "W"
 ---
 
 ## Teams
@@ -104,3 +47,4 @@ quizzers:
 | **\*15** | Chizaram Echefu      | Keepers of the Command (First @ Firewheel AG) |     0 |       |      |      |
 | **\*15** | Chizaram Iwuogaranya | Keepers of the Command (First @ Firewheel AG) |     0 |       |      |      |
 | **\*15** | Isabella Darko       | Keepers of the Command (First @ Firewheel AG) |     0 |       |      |      |
+

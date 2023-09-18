@@ -10,39 +10,6 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
-type: t
-season: 2004
-quizzers:
-- name: "Angelina Bardin"
-  sort: "Bardin, Angelina"
-  l: "B"
-- name: "Christopher Bowers"
-  sort: "Bowers, Christopher"
-  l: "B"
-- name: "Cameo Ewing"
-  sort: "Ewing, Cameo"
-  l: "E"
-- name: "Jerry Lane Ewing II"
-  sort: "Ewing, Jerry Lane II"
-  l: "E"
-- name: "Chris Harrelson"
-  sort: "Harrelson, Chris"
-  l: "H"
-- name: "Isaiah Jensen"
-  sort: "Jensen, Isaiah"
-  l: "J"
-- name: "Marybeth Jensen"
-  sort: "Jensen, Marybeth"
-  l: "J"
-- name: "Rebecca Jensen"
-  sort: "Jensen, Rebecca"
-  l: "J"
-- name: "Alyssa Rydholm"
-  sort: "Rydholm, Alyssa"
-  l: "R"
-- name: "Gabrielle Rydholm"
-  sort: "Rydholm, Gabrielle"
-  l: "R"
 ---
 
 ## A Division
@@ -85,3 +52,4 @@ quizzers:
 |    3 | Jerry Lane Ewing II | Memphis      |   150 | 16.7 |      |
 |    4 | Gabrielle Rydholm   | Murfreesboro |   115 | 12.8 |      |
 |    5 | Alyssa Rydholm      | Savannah 1   |    70 |  7.8 |      |
+

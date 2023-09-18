@@ -10,45 +10,6 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
-type: t
-season: 2005
-quizzers:
-- name: "Joseph Arcuri"
-  sort: "Arcuri, Joseph"
-  l: "A"
-- name: "Yoki Belay"
-  sort: "Belay, Yoki"
-  l: "B"
-- name: "Bradley Chapman"
-  sort: "Chapman, Bradley"
-  l: "C"
-- name: "Chris Ciraky"
-  sort: "Ciraky, Chris"
-  l: "C"
-- name: "Eddy Ferreira"
-  sort: "Ferreira, Eddy"
-  l: "F"
-- name: "Isabella Lex"
-  sort: "Lex, Isabella"
-  l: "L"
-- name: "James Lex"
-  sort: "Lex, James"
-  l: "L"
-- name: "Lillian Matamoros"
-  sort: "Matamoros, Lillian"
-  l: "M"
-- name: "MacKenzie McKay"
-  sort: "McKay, MacKenzie"
-  l: "M"
-- name: "Amber Schlesinger"
-  sort: "Schlesinger, Amber"
-  l: "S"
-- name: "Terri Sills"
-  sort: "Sills, Terri"
-  l: "S"
-- name: "Ben Spencer"
-  sort: "Spencer, Ben"
-  l: "S"
 ---
 
 ## A Division

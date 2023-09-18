@@ -10,42 +10,6 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
-type: t
-season: 2005
-quizzers:
-- name: "Phillip Bishop"
-  sort: "Bishop, Phillip"
-  l: "B"
-- name: "Lindsey Brower"
-  sort: "Brower, Lindsey"
-  l: "B"
-- name: "Brittany Edwards"
-  sort: "Edwards, Brittany"
-  l: "E"
-- name: "Hannah Franklin"
-  sort: "Franklin, Hannah"
-  l: "F"
-- name: "Jasmine Franklin"
-  sort: "Franklin, Jasmine"
-  l: "F"
-- name: "Alex Hardinge"
-  sort: "Hardinge, Alex"
-  l: "H"
-- name: "Billy Selkirk"
-  sort: "Selkirk, Billy"
-  l: "S"
-- name: "Kyle Thorp"
-  sort: "Thorp, Kyle"
-  l: "T"
-- name: "Lauren Thorp"
-  sort: "Thorp, Lauren"
-  l: "T"
-- name: "Ashleigh Weatherholtz"
-  sort: "Weatherholtz, Ashleigh"
-  l: "W"
-- name: "Cameron Weatherholtz"
-  sort: "Weatherholtz, Cameron"
-  l: "W"
 ---
 
 ## A Division
@@ -93,3 +57,4 @@ quizzers:
 |    3 | Ashleigh Weatherholtz | Grace Bible #1 |   295 |
 |    4 | Brittany Edwards      | Manassas A/G   |   280 |
 |    5 | Alex Hardinge         | Warwick A/G    |   220 |
+

@@ -10,36 +10,6 @@ menubar_toc_static:
   - name: 1984 Season
     link: /history/1984/
     icon: fas fa-home
-type: t
-season: 1984
-quizzers:
-- name: "Jennifer Curtis"
-  sort: "Curtis, Jennifer"
-  l: "C"
-- name: "Sean Davis"
-  sort: "Davis, Sean"
-  l: "D"
-- name: "Kevin DeWeber"
-  sort: "DeWeber, Kevin"
-  l: "D"
-- name: "Joseph Leija"
-  sort: "Leija, Joseph"
-  l: "L"
-- name: "David Lowe"
-  sort: "Lowe, David"
-  l: "L"
-- name: "Tali Poulson"
-  sort: "Poulson, Tali"
-  l: "P"
-- name: "Jerome Tang"
-  sort: "Tang, Jerome"
-  l: "T"
-- name: "Keith Turner"
-  sort: "Turner, Keith"
-  l: "T"
-- name: "John Wootton"
-  sort: "Wootton, John"
-  l: "W"
 ---
 
 The 22nd National Bible Quiz Finals took place in the summer of 1984 in Springfield, Missouri covering the epistles of Galatians, Ephesians, Philippians and Colossians. Rex Bornman was the National Coordinator and Dale and David Baird were the official question writers.

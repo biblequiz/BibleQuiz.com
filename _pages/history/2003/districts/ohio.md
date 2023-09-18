@@ -10,33 +10,6 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
-type: t
-season: 2003
-quizzers:
-- name: "Andrew Darmahkasih"
-  sort: "Darmahkasih, Andrew"
-  l: "D"
-- name: "Eric Everett"
-  sort: "Everett, Eric"
-  l: "E"
-- name: "Lisa Everett"
-  sort: "Everett, Lisa"
-  l: "E"
-- name: "Neil Everett"
-  sort: "Everett, Neil"
-  l: "E"
-- name: "Bailey Steel"
-  sort: "Steel, Bailey"
-  l: "S"
-- name: "Brandy Steel"
-  sort: "Steel, Brandy"
-  l: "S"
-- name: "Bryce Steel"
-  sort: "Steel, Bryce"
-  l: "S"
-- name: "Tim Wade"
-  sort: "Wade, Tim"
-  l: "W"
 ---
 
 ## A Division
@@ -82,3 +55,4 @@ quizzers:
 |    4 | Louisville First             |    2 |    3 |
 |    5 | Port Clinton Erie Shores #2  |    1 |    4 |
 |    6 | Columbus Easton Worship C #2 |    0 |    5 |
+

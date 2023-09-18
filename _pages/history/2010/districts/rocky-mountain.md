@@ -10,69 +10,6 @@ menubar_toc_static:
   - name: 2010 Season
     link: /history/2010/
     icon: fas fa-home
-type: t
-season: 2010
-quizzers:
-- name: "Nathan Bradshaw"
-  sort: "Bradshaw, Nathan"
-  l: "B"
-- name: "Madison Laughlin"
-  sort: "Laughlin, Madison"
-  l: "L"
-- name: "Marin Laughlin"
-  sort: "Laughlin, Marin"
-  l: "L"
-- name: "Laura Lipsky"
-  sort: "Lipsky, Laura"
-  l: "L"
-- name: "Christin Milman"
-  sort: "Milman, Christin"
-  l: "M"
-- name: "Elizabeth Milman"
-  sort: "Milman, Elizabeth"
-  l: "M"
-- name: "Amie Oss"
-  sort: "Oss, Amie"
-  l: "O"
-- name: "Caroline Oss"
-  sort: "Oss, Caroline"
-  l: "O"
-- name: "Ellen Oss"
-  sort: "Oss, Ellen"
-  l: "O"
-- name: "Caitlin Pace"
-  sort: "Pace, Caitlin"
-  l: "P"
-- name: "Meg Pace"
-  sort: "Pace, Meg"
-  l: "P"
-- name: "Serena Peters"
-  sort: "Peters, Serena"
-  l: "P"
-- name: "Jackson Rose"
-  sort: "Rose, Jackson"
-  l: "R"
-- name: "Michaelan Samm"
-  sort: "Samm, Michaelan"
-  l: "S"
-- name: "Noah Samm"
-  sort: "Samm, Noah"
-  l: "S"
-- name: "Armando Sapien"
-  sort: "Sapien, Armando"
-  l: "S"
-- name: "Emily Sapien"
-  sort: "Sapien, Emily"
-  l: "S"
-- name: "Melinda Van Gorp"
-  sort: "Van Gorp, Melinda"
-  l: "V"
-- name: "Kory Witter"
-  sort: "Witter, Kory"
-  l: "W"
-- name: "Kyle Witter"
-  sort: "Witter, Kyle"
-  l: "W"
 ---
 
 ## A Division
@@ -130,3 +67,4 @@ quizzers:
 |    3 | Emily Sapien    | Living Hope |  83.75 |
 |    4 | Nathan Bradshaw | Brighton    |  41.25 |
 |    5 | Marin Laughlin  | Timberline  |  27.50 |
+

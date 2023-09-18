@@ -9,45 +9,6 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
-type: t
-season: 2003
-quizzers:
-- name: "Jordan Bruner"
-  sort: "Bruner, Jordan"
-  l: "B"
-- name: "Jason Gisi"
-  sort: "Gisi, Jason"
-  l: "G"
-- name: "Adam Gouge"
-  sort: "Gouge, Adam"
-  l: "G"
-- name: "Sasha Hosfelt"
-  sort: "Hosfelt, Sasha"
-  l: "H"
-- name: "Christine McKibben"
-  sort: "McKibben, Christine"
-  l: "M"
-- name: "Leslie Nolan"
-  sort: "Nolan, Leslie"
-  l: "N"
-- name: "Patrick Nolan"
-  sort: "Nolan, Patrick"
-  l: "N"
-- name: "Emily Oakley"
-  sort: "Oakley, Emily"
-  l: "O"
-- name: "David Riddle"
-  sort: "Riddle, David"
-  l: "R"
-- name: "Paige Riddle"
-  sort: "Riddle, Paige"
-  l: "R"
-- name: "Brendan Rissen"
-  sort: "Rissen, Brendan"
-  l: "R"
-- name: "BJ Thome"
-  sort: "Thome, BJ"
-  l: "T"
 ---
 
 ## Teams

@@ -10,72 +10,6 @@ menubar_toc_static:
   - name: 2019 Season
     link: /jbq/2019/
     icon: fas fa-home
-type: j
-season: 2019
-quizzers:
-- name: "Noah Alva"
-  sort: "Alva, Noah"
-  l: "A"
-- name: "Christina Darko"
-  sort: "Darko, Christina"
-  l: "D"
-- name: "Jessa Gastineau"
-  sort: "Gastineau, Jessa"
-  l: "G"
-- name: "Kailyn Gillis"
-  sort: "Gillis, Kailyn"
-  l: "G"
-- name: "Rex Gomez"
-  sort: "Gomez, Rex"
-  l: "G"
-- name: "Garret Howley"
-  sort: "Howley, Garret"
-  l: "H"
-- name: "Katelynn Isham"
-  sort: "Isham, Katelynn"
-  l: "I"
-- name: "Praise Iwuogaranya"
-  sort: "Iwuogaranya, Praise"
-  l: "I"
-- name: "Jaxon Johnson"
-  sort: "Johnson, Jaxon"
-  l: "J"
-- name: "Hannah Lapusan"
-  sort: "Lapusan, Hannah"
-  l: "L"
-- name: "Sarah Lapusan"
-  sort: "Lapusan, Sarah"
-  l: "L"
-- name: "Molly Larroquin"
-  sort: "Larroquin, Molly"
-  l: "L"
-- name: "Ian Linton"
-  sort: "Linton, Ian"
-  l: "L"
-- name: "Liam Maddox"
-  sort: "Maddox, Liam"
-  l: "M"
-- name: "Kamsi Osuagwu"
-  sort: "Osuagwu, Kamsi"
-  l: "O"
-- name: "Jayden Ramesh"
-  sort: "Ramesh, Jayden"
-  l: "R"
-- name: "Charley Reed"
-  sort: "Reed, Charley"
-  l: "R"
-- name: "Cera Schmude"
-  sort: "Schmude, Cera"
-  l: "S"
-- name: "Bella Vail"
-  sort: "Vail, Bella"
-  l: "V"
-- name: "Elia Villa"
-  sort: "Villa, Elia"
-  l: "V"
-- name: "Abigail Yosefe"
-  sort: "Yosefe, Abigail"
-  l: "Y"
 ---
 
 ## Teams
@@ -123,3 +57,4 @@ quizzers:
 | **\*18** | Elia Villa         | Trinity PeeWees (Trinity Church)      |     0 |      |      |      |
 | **\*18** | Noah Alva          | Trinity PeeWees (Trinity Church)      |     0 |      |      |      |
 | **\*18** | Ninja 2            | The Invisibles (Cloaked Church)       |     0 |      |      |      |
+

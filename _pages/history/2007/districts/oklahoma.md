@@ -9,39 +9,6 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
-type: t
-season: 2007
-quizzers:
-- name: "Luke Graves"
-  sort: "Graves, Luke"
-  l: "G"
-- name: "Braden McCready"
-  sort: "McCready, Braden"
-  l: "M"
-- name: "Michelle Paulson"
-  sort: "Paulson, Michelle"
-  l: "P"
-- name: "Micah Samuelson"
-  sort: "Samuelson, Micah"
-  l: "S"
-- name: "Cameron Smith"
-  sort: "Smith, Cameron"
-  l: "S"
-- name: "Brandy Snavely"
-  sort: "Snavely, Brandy"
-  l: "S"
-- name: "Seth Urbina"
-  sort: "Urbina, Seth"
-  l: "U"
-- name: "Daniel Wagner"
-  sort: "Wagner, Daniel"
-  l: "W"
-- name: "Jesse Wagner"
-  sort: "Wagner, Jesse"
-  l: "W"
-- name: "Josh Wagner"
-  sort: "Wagner, Josh"
-  l: "W"
 ---
 
 ## A Division
@@ -91,3 +58,4 @@ quizzers:
 |    3 | Michelle Paulson | Christian Chapel  |   505 |    3 |
 |    4 | Seth Urbina      | Lakeside Assembly |   340 |    3 |
 |    5 | Brandy Snavely   | Owasso First      |   220 |      |
+

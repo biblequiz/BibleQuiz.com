@@ -10,69 +10,6 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
-type: t
-season: 2004
-quizzers:
-- name: "Jamie Bennett"
-  sort: "Bennett, Jamie"
-  l: "B"
-- name: "Andrea Boyer"
-  sort: "Boyer, Andrea"
-  l: "B"
-- name: "Billy Branham"
-  sort: "Branham, Billy"
-  l: "B"
-- name: "Hannah Franks"
-  sort: "Franks, Hannah"
-  l: "F"
-- name: "Melissa Henderson"
-  sort: "Henderson, Melissa"
-  l: "H"
-- name: "Teresa Henderson"
-  sort: "Henderson, Teresa"
-  l: "H"
-- name: "Andric Hofrichter"
-  sort: "Hofrichter, Andric"
-  l: "H"
-- name: "Alecia Johnson"
-  sort: "Johnson, Alecia"
-  l: "J"
-- name: "Bekah May"
-  sort: "May, Bekah"
-  l: "M"
-- name: "Rachel May"
-  sort: "May, Rachel"
-  l: "M"
-- name: "Alicia Morken"
-  sort: "Morken, Alicia"
-  l: "M"
-- name: "Logan Newman"
-  sort: "Newman, Logan"
-  l: "N"
-- name: "Spencer Newman"
-  sort: "Newman, Spencer"
-  l: "N"
-- name: "Tyler Peterson"
-  sort: "Peterson, Tyler"
-  l: "P"
-- name: "Zachary Schaalma"
-  sort: "Schaalma, Zachary"
-  l: "S"
-- name: "Ashley Stampe"
-  sort: "Stampe, Ashley"
-  l: "S"
-- name: "Titus Stenburg"
-  sort: "Stenburg, Titus"
-  l: "S"
-- name: "Cameron Tilus"
-  sort: "Tilus, Cameron"
-  l: "T"
-- name: "Jacob Turnage"
-  sort: "Turnage, Jacob"
-  l: "T"
-- name: "Charity Wipplinger"
-  sort: "Wipplinger, Charity"
-  l: "W"
 ---
 
 ## A Division
@@ -121,3 +58,4 @@ quizzers:
 |   18 | Ashley Stampe      | Pierre, SD       |   235 |  21.36 |
 |   19 | Hannah Franks      | Omaha, NE        |   230 |  20.91 |
 |   20 | Alecia Johnson     | Pierre, SD       |   200 |  18.18 |
+
