@@ -284,6 +284,12 @@ function showQuizzerScores(quizzer) {
 
 // Update the event handlers.
 searchBox.onchange = updateSearchResult;
+searchBox.onkeyup = e => {
+    if (e.keyCode === 13 || e.keyCode === 10) {
+        updateSearchResult();
+    }
+};
+
 scoresModalClose.onclick = () => scoresModal.classList.remove("is-active");
 
 window.changeTabLetter = changeTabLetter;
