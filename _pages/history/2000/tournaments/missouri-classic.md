@@ -10,6 +10,72 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "Joey Bohannon"
+  sort: "Bohannon, Joey"
+  l: "B"
+- name: "Dan Borth"
+  sort: "Borth, Dan"
+  l: "B"
+- name: "Kevin Davis"
+  sort: "Davis, Kevin"
+  l: "D"
+- name: "Jonathan Falkey"
+  sort: "Falkey, Jonathan"
+  l: "F"
+- name: "Melissa Falkey"
+  sort: "Falkey, Melissa"
+  l: "F"
+- name: "Wesley Glick"
+  sort: "Glick, Wesley"
+  l: "G"
+- name: "Angela Goodman"
+  sort: "Goodman, Angela"
+  l: "G"
+- name: "Eric Hernando"
+  sort: "Hernando, Eric"
+  l: "H"
+- name: "Jeremy Hix"
+  sort: "Hix, Jeremy"
+  l: "H"
+- name: "DeAndre Johnson"
+  sort: "Johnson, DeAndre"
+  l: "J"
+- name: "Sterling Johnson"
+  sort: "Johnson, Sterling"
+  l: "J"
+- name: "Joey Laurine"
+  sort: "Laurine, Joey"
+  l: "L"
+- name: "Laura Mallett"
+  sort: "Mallett, Laura"
+  l: "M"
+- name: "Sarah Mallett"
+  sort: "Mallett, Sarah"
+  l: "M"
+- name: "Dan Marlow"
+  sort: "Marlow, Dan"
+  l: "M"
+- name: "Michael Pearson"
+  sort: "Pearson, Michael"
+  l: "P"
+- name: "Crystal Pilcher"
+  sort: "Pilcher, Crystal"
+  l: "P"
+- name: "Megan Pincombe"
+  sort: "Pincombe, Megan"
+  l: "P"
+- name: "Betsy Regenfuss"
+  sort: "Regenfuss, Betsy"
+  l: "R"
+- name: "Aaron Taylor"
+  sort: "Taylor, Aaron"
+  l: "T"
+- name: "David Womelsdorf"
+  sort: "Womelsdorf, David"
+  l: "W"
 ---
 
 ## Teams
@@ -64,4 +130,3 @@ menubar_toc_static:
 |    1 | Joey Bohannon | Central A/G |
 |    2 | Dan Marlow    | Adat Yeshua |
 |    3 | Jeremy Hix    | Trinity #1  |
-

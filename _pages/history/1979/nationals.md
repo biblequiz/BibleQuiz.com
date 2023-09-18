@@ -10,6 +10,27 @@ menubar_toc_static:
   - name: 1979 Season
     link: /history/1979/
     icon: fas fa-home
+type: t
+season: 1979
+quizzers:
+- name: "John Bayko"
+  sort: "Bayko, John"
+  l: "B"
+- name: "Bill DeSoto"
+  sort: "DeSoto, Bill"
+  l: "D"
+- name: "Mark Gilmer"
+  sort: "Gilmer, Mark"
+  l: "G"
+- name: "Greg Kelley"
+  sort: "Kelley, Greg"
+  l: "K"
+- name: "Rhett Laurens"
+  sort: "Laurens, Rhett"
+  l: "L"
+- name: "Randy Moss"
+  sort: "Moss, Randy"
+  l: "M"
 ---
 
 ![]({% link assets/1979/CA-Riverside2.jpg %})

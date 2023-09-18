@@ -10,6 +10,27 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "Evan Distad"
+  sort: "Distad, Evan"
+  l: "D"
+- name: "Tyler Ferguson"
+  sort: "Ferguson, Tyler"
+  l: "F"
+- name: "Michael Kindel"
+  sort: "Kindel, Michael"
+  l: "K"
+- name: "Logan Newman"
+  sort: "Newman, Logan"
+  l: "N"
+- name: "Betsy Regenfuss"
+  sort: "Regenfuss, Betsy"
+  l: "R"
+- name: "Rebekah Schaalma"
+  sort: "Schaalma, Rebekah"
+  l: "S"
 ---
 
 ## Teams
@@ -32,4 +53,3 @@ menubar_toc_static:
 |    4 | Evan Distad      | Rochester MN    |   895 |  68.85 |     13 |
 |    5 | Rebekah Schaalma | Appleton WI     |   815 |  62.69 |     13 |
 |    6 | Michael Kindel   | Watford City ND |   775 |  59.62 |     13 |
-

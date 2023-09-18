@@ -10,6 +10,69 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
+type: t
+season: 2004
+quizzers:
+- name: "Natalie Asahara"
+  sort: "Asahara, Natalie"
+  l: "A"
+- name: "Austin Deppa"
+  sort: "Deppa, Austin"
+  l: "D"
+- name: "Brandon Duffy"
+  sort: "Duffy, Brandon"
+  l: "D"
+- name: "Lauryn Duffy"
+  sort: "Duffy, Lauryn"
+  l: "D"
+- name: "Davy Dworzak"
+  sort: "Dworzak, Davy"
+  l: "D"
+- name: "Jenny Dworzak"
+  sort: "Dworzak, Jenny"
+  l: "D"
+- name: "Emily Ganzfried"
+  sort: "Ganzfried, Emily"
+  l: "G"
+- name: "Jed Gosnell"
+  sort: "Gosnell, Jed"
+  l: "G"
+- name: "Pherrah Gosnell"
+  sort: "Gosnell, Pherrah"
+  l: "G"
+- name: "Erica Jones"
+  sort: "Jones, Erica"
+  l: "J"
+- name: "Hilary Kunnanz"
+  sort: "Kunnanz, Hilary"
+  l: "K"
+- name: "Stephen Langford"
+  sort: "Langford, Stephen"
+  l: "L"
+- name: "Charity Littrell"
+  sort: "Littrell, Charity"
+  l: "L"
+- name: "Naomi Meyer"
+  sort: "Meyer, Naomi"
+  l: "M"
+- name: "Hannah Moore"
+  sort: "Moore, Hannah"
+  l: "M"
+- name: "Richie Nelson"
+  sort: "Nelson, Richie"
+  l: "N"
+- name: "JP O'Connor"
+  sort: "O'Connor, JP"
+  l: "O"
+- name: "Annah Snyder"
+  sort: "Snyder, Annah"
+  l: "S"
+- name: "Cecily Spicer"
+  sort: "Spicer, Cecily"
+  l: "S"
+- name: "Chris Tenny"
+  sort: "Tenny, Chris"
+  l: "T"
 ---
 
 ## A-1 Division
@@ -82,4 +145,3 @@ menubar_toc_static:
 |    3 | Cecily Spicer    | Turning Point |   560 |   70 |
 |    4 | Charity Littrell | CP-Just Think |   530 |   66 |
 |    5 | Davy Dworzak     | CP-True Sons  |   505 |   63 |
-

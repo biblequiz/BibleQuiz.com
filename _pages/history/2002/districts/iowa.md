@@ -10,6 +10,30 @@ menubar_toc_static:
   - name: 2002 Season
     link: /history/2002/
     icon: fas fa-home
+type: t
+season: 2002
+quizzers:
+- name: "Bobby DeGray"
+  sort: "DeGray, Bobby"
+  l: "D"
+- name: "Mark Fredrickson"
+  sort: "Fredrickson, Mark"
+  l: "F"
+- name: "Laura Jones"
+  sort: "Jones, Laura"
+  l: "J"
+- name: "Tyler Kinser"
+  sort: "Kinser, Tyler"
+  l: "K"
+- name: "Ben Markwardt"
+  sort: "Markwardt, Ben"
+  l: "M"
+- name: "Caleb Unseth"
+  sort: "Unseth, Caleb"
+  l: "U"
+- name: "Amber Wipplinger"
+  sort: "Wipplinger, Amber"
+  l: "W"
 ---
 
 ## Teams
@@ -38,4 +62,3 @@ Grasston Open Arms also quizzed, but were not eligible to advance to Regional Fi
 |    5 | Mark Fredrickson | Hutchinson  |   155 | 25.83 |
 |   5* | Tyler Kinser     | Mt. Olivet  |   155 | 25.83 |
 |    7 | Ben Markwardt    | Bloomington |   110 | 18.33 |
-

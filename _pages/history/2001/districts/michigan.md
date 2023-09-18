@@ -10,6 +10,27 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "Kyle Harr"
+  sort: "Harr, Kyle"
+  l: "H"
+- name: "Quinn Harr"
+  sort: "Harr, Quinn"
+  l: "H"
+- name: "Sarah Kleindl"
+  sort: "Kleindl, Sarah"
+  l: "K"
+- name: "Dawn Malcolm"
+  sort: "Malcolm, Dawn"
+  l: "M"
+- name: "Andrea Perry"
+  sort: "Perry, Andrea"
+  l: "P"
+- name: "Nick Vandenbosch"
+  sort: "Vandenbosch, Nick"
+  l: "V"
 ---
 
 ## Prior Placements

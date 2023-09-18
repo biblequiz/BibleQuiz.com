@@ -9,6 +9,63 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
+type: t
+season: 2008
+quizzers:
+- name: "Amanda Armstrong"
+  sort: "Armstrong, Amanda"
+  l: "A"
+- name: "Lindsey Brower"
+  sort: "Brower, Lindsey"
+  l: "B"
+- name: "Natasha Conerly"
+  sort: "Conerly, Natasha"
+  l: "C"
+- name: "Kelsey Gentry"
+  sort: "Gentry, Kelsey"
+  l: "G"
+- name: "Catherine Hains"
+  sort: "Hains, Catherine"
+  l: "H"
+- name: "Alex Hardinge"
+  sort: "Hardinge, Alex"
+  l: "H"
+- name: "Abhishek Mathews"
+  sort: "Mathews, Abhishek"
+  l: "M"
+- name: "Santosh Mathews"
+  sort: "Mathews, Santosh"
+  l: "M"
+- name: "Christine O'Mara"
+  sort: "O'Mara, Christine"
+  l: "O"
+- name: "Samantha Smith"
+  sort: "Smith, Samantha"
+  l: "S"
+- name: "Zerubabbel Tessena"
+  sort: "Tessena, Zerubabbel"
+  l: "T"
+- name: "Kyle Thorp"
+  sort: "Thorp, Kyle"
+  l: "T"
+- name: "Lauren Thorp"
+  sort: "Thorp, Lauren"
+  l: "T"
+- name: "Ashleigh Weatherholtz"
+  sort: "Weatherholtz, Ashleigh"
+  l: "W"
+- name: "Bryce Weatherholtz"
+  sort: "Weatherholtz, Bryce"
+  l: "W"
+- name: "Cameron Weatherholtz"
+  sort: "Weatherholtz, Cameron"
+  l: "W"
+- name: "Ally Welsh"
+  sort: "Welsh, Ally"
+  l: "W"
+- name: "Sam York"
+  sort: "York, Sam"
+  l: "Y"
 ---
 
 ## A Division
@@ -64,4 +121,3 @@ menubar_toc_static:
 |    5 | Ally Welsh         | Centerpointe            |   115 | 28.75 |
 |    6 | Bryce Weatherholtz | Grace Bible             |    85 | 21.25 |
 |    7 | Amanda Armstrong   | Worship Center Leesburg |    75 | 18.75 |
-

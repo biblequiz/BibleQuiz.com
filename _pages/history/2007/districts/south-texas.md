@@ -9,6 +9,27 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
+type: t
+season: 2007
+quizzers:
+- name: "Brady Emokpae"
+  sort: "Emokpae, Brady"
+  l: "E"
+- name: "Adam Forsman"
+  sort: "Forsman, Adam"
+  l: "F"
+- name: "Josh Forsman"
+  sort: "Forsman, Josh"
+  l: "F"
+- name: "Kenny Masha"
+  sort: "Masha, Kenny"
+  l: "M"
+- name: "Sean Pyle"
+  sort: "Pyle, Sean"
+  l: "P"
+- name: "Danielle Tompkins"
+  sort: "Tompkins, Danielle"
+  l: "T"
 ---
 
 ## A Division

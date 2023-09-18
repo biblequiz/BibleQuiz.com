@@ -10,6 +10,36 @@ menubar_toc_static:
   - name: 2012 Season
     link: /history/2012/
     icon: fas fa-home
+type: t
+season: 2012
+quizzers:
+- name: "Christina Burks"
+  sort: "Burks, Christina"
+  l: "B"
+- name: "Luna Cooper"
+  sort: "Cooper, Luna"
+  l: "C"
+- name: "Josh George"
+  sort: "George, Josh"
+  l: "G"
+- name: "Nate Loper"
+  sort: "Loper, Nate"
+  l: "L"
+- name: "Tiffani Phaneuf"
+  sort: "Phaneuf, Tiffani"
+  l: "P"
+- name: "Justin Polley"
+  sort: "Polley, Justin"
+  l: "P"
+- name: "Brianna Riley"
+  sort: "Riley, Brianna"
+  l: "R"
+- name: "Daniel Wagner"
+  sort: "Wagner, Daniel"
+  l: "W"
+- name: "Jacob Zorehkey"
+  sort: "Zorehkey, Jacob"
+  l: "Z"
 ---
 
 ## Championship

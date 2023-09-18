@@ -10,6 +10,69 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
+type: t
+season: 2004
+quizzers:
+- name: "Jaclyn Baker"
+  sort: "Baker, Jaclyn"
+  l: "B"
+- name: "Sarah Bales"
+  sort: "Bales, Sarah"
+  l: "B"
+- name: "Tim Butterfield"
+  sort: "Butterfield, Tim"
+  l: "B"
+- name: "Austin Deppa"
+  sort: "Deppa, Austin"
+  l: "D"
+- name: "Jenna-Jo Duffy"
+  sort: "Duffy, Jenna-Jo"
+  l: "D"
+- name: "Jed Gosnell"
+  sort: "Gosnell, Jed"
+  l: "G"
+- name: "Christine Jacob"
+  sort: "Jacob, Christine"
+  l: "J"
+- name: "Bryce Jensen"
+  sort: "Jensen, Bryce"
+  l: "J"
+- name: "Stephen Langrord"
+  sort: "Langrord, Stephen"
+  l: "L"
+- name: "Collins Lawlor"
+  sort: "Lawlor, Collins"
+  l: "L"
+- name: "Charity Littrell"
+  sort: "Littrell, Charity"
+  l: "L"
+- name: "Naomi Meyer"
+  sort: "Meyer, Naomi"
+  l: "M"
+- name: "Sara Morris"
+  sort: "Morris, Sara"
+  l: "M"
+- name: "Stephen Mutch"
+  sort: "Mutch, Stephen"
+  l: "M"
+- name: "Shawn Patterson"
+  sort: "Patterson, Shawn"
+  l: "P"
+- name: "Jordan Shipley"
+  sort: "Shipley, Jordan"
+  l: "S"
+- name: "Caleb Skjervern"
+  sort: "Skjervern, Caleb"
+  l: "S"
+- name: "Annah Snyder"
+  sort: "Snyder, Annah"
+  l: "S"
+- name: "Brianna Turnquist"
+  sort: "Turnquist, Brianna"
+  l: "T"
+- name: "Raini Way"
+  sort: "Way, Raini"
+  l: "W"
 ---
 
 ## A Division
@@ -95,4 +158,3 @@ menubar_toc_static:
 | Annah Snyder     | Cedar Park |   985 |
 | Charity Littrell | Cedar Park |   780 |
 | Stephen Mutch    | Cedar Park |   595 |
-

@@ -9,6 +9,24 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "Brandon Ashton"
+  sort: "Ashton, Brandon"
+  l: "A"
+- name: "Elizabeth Brotzman"
+  sort: "Brotzman, Elizabeth"
+  l: "B"
+- name: "Teresa Henderson"
+  sort: "Henderson, Teresa"
+  l: "H"
+- name: "Katrina Martin"
+  sort: "Martin, Katrina"
+  l: "M"
+- name: "Lori Rozgonyi"
+  sort: "Rozgonyi, Lori"
+  l: "R"
 ---
 
 B-Friend Day, a B-league (sixth through eighth graders) version of the Friendship Classic.

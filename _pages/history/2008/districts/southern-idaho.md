@@ -9,6 +9,45 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
+type: t
+season: 2008
+quizzers:
+- name: "Stacey Brothers"
+  sort: "Brothers, Stacey"
+  l: "B"
+- name: "Christina Burns"
+  sort: "Burns, Christina"
+  l: "B"
+- name: "Ashley Carter"
+  sort: "Carter, Ashley"
+  l: "C"
+- name: "Jerrica Florez"
+  sort: "Florez, Jerrica"
+  l: "F"
+- name: "Keaton Gillihan"
+  sort: "Gillihan, Keaton"
+  l: "G"
+- name: "Tierney Gillihan"
+  sort: "Gillihan, Tierney"
+  l: "G"
+- name: "Kelsi Hardy"
+  sort: "Hardy, Kelsi"
+  l: "H"
+- name: "Ivy Jensen"
+  sort: "Jensen, Ivy"
+  l: "J"
+- name: "Darren Larson"
+  sort: "Larson, Darren"
+  l: "L"
+- name: "Melissa Larson"
+  sort: "Larson, Melissa"
+  l: "L"
+- name: "Seth Larson"
+  sort: "Larson, Seth"
+  l: "L"
+- name: "Trevor Olson"
+  sort: "Olson, Trevor"
+  l: "O"
 ---
 
 ## Senior Division
@@ -52,4 +91,3 @@ menubar_toc_static:
 | Christina Burns | Nyssa    |   455 |
 | Trevor Olson    | Kuna     |   290 |
 | Seth Larson     | Nyssa    |   140 |
-

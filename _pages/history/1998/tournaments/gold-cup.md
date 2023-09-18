@@ -10,6 +10,42 @@ menubar_toc_static:
   - name: 1998 Season
     link: /history/1998/
     icon: fas fa-home
+type: t
+season: 1998
+quizzers:
+- name: "Caleb Booth"
+  sort: "Booth, Caleb"
+  l: "B"
+- name: "David Dorey"
+  sort: "Dorey, David"
+  l: "D"
+- name: "Bill Dugas"
+  sort: "Dugas, Bill"
+  l: "D"
+- name: "Hannah Duncan"
+  sort: "Duncan, Hannah"
+  l: "D"
+- name: "Ricky Haney"
+  sort: "Haney, Ricky"
+  l: "H"
+- name: "Kristin Herdejurgen"
+  sort: "Herdejurgen, Kristin"
+  l: "H"
+- name: "Eric Hernando"
+  sort: "Hernando, Eric"
+  l: "H"
+- name: "Valerie Marchalonis"
+  sort: "Marchalonis, Valerie"
+  l: "M"
+- name: "Stephanie Nannerone"
+  sort: "Nannerone, Stephanie"
+  l: "N"
+- name: "Kent Piacenti"
+  sort: "Piacenti, Kent"
+  l: "P"
+- name: "Dayla Shorter"
+  sort: "Shorter, Dayla"
+  l: "S"
 ---
 
 More than 34 teams from seven different states were in attendance for the two-day event, which boasted a two-bracket 80-quizzer one-on-one tournament,

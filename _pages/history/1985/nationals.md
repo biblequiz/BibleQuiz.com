@@ -10,6 +10,39 @@ menubar_toc_static:
   - name: 1985 Season
     link: /history/1985/
     icon: fas fa-home
+type: t
+season: 1985
+quizzers:
+- name: "Lori Barnes"
+  sort: "Barnes, Lori"
+  l: "B"
+- name: "Nicole Brandon"
+  sort: "Brandon, Nicole"
+  l: "B"
+- name: "Lea Coate"
+  sort: "Coate, Lea"
+  l: "C"
+- name: "Lester Cowan"
+  sort: "Cowan, Lester"
+  l: "C"
+- name: "Sean Davis"
+  sort: "Davis, Sean"
+  l: "D"
+- name: "Jeff Gibson"
+  sort: "Gibson, Jeff"
+  l: "G"
+- name: "Becky Henderson"
+  sort: "Henderson, Becky"
+  l: "H"
+- name: "Joseph Leija"
+  sort: "Leija, Joseph"
+  l: "L"
+- name: "Kim Utt"
+  sort: "Utt, Kim"
+  l: "U"
+- name: "Tammy Yost"
+  sort: "Yost, Tammy"
+  l: "Y"
 ---
 
 ![]({% link assets/1985/nationals-cover.jpg %})

@@ -10,6 +10,54 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "Bryan Batchelder"
+  sort: "Batchelder, Bryan"
+  l: "B"
+- name: "Kendi Beyer"
+  sort: "Beyer, Kendi"
+  l: "B"
+- name: "Krisha Beyer"
+  sort: "Beyer, Krisha"
+  l: "B"
+- name: "Joey Bohanon"
+  sort: "Bohanon, Joey"
+  l: "B"
+- name: "Caleb Booth"
+  sort: "Booth, Caleb"
+  l: "B"
+- name: "Corrie Brown"
+  sort: "Brown, Corrie"
+  l: "B"
+- name: "Jim Fenton"
+  sort: "Fenton, Jim"
+  l: "F"
+- name: "James Fowles"
+  sort: "Fowles, James"
+  l: "F"
+- name: "Eric Hernando"
+  sort: "Hernando, Eric"
+  l: "H"
+- name: "Charissa Maust"
+  sort: "Maust, Charissa"
+  l: "M"
+- name: "David Pafford"
+  sort: "Pafford, David"
+  l: "P"
+- name: "Cindy Rodman"
+  sort: "Rodman, Cindy"
+  l: "R"
+- name: "Ryan Steadley"
+  sort: "Steadley, Ryan"
+  l: "S"
+- name: "Nathan Watkins"
+  sort: "Watkins, Nathan"
+  l: "W"
+- name: "Chandler Zachary"
+  sort: "Zachary, Chandler"
+  l: "Z"
 ---
 
 ## A Division
@@ -68,4 +116,3 @@ menubar_toc_static:
 | ---: | ---------------- | ------------------ |
 |    1 | Chandler Zachary | Crawfordsville, IN |
 |    2 | Ryan Steadley    | Tulsa OK           |
-

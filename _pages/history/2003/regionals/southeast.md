@@ -10,6 +10,76 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
+type: t
+season: 2003
+quizzers:
+- name: "Mia Angelakos"
+  sort: "Angelakos, Mia"
+  l: "A"
+- name: "Heather Arcuri"
+  sort: "Arcuri, Heather"
+  l: "A"
+- name: "Latara Bowder"
+  sort: "Bowder, Latara"
+  l: "B"
+- name: "Eddy Ferreira"
+  sort: "Ferreira, Eddy"
+  l: "F"
+- name: "Gina Fortunato"
+  sort: "Fortunato, Gina"
+  l: "F"
+- name: "Joe Fortunato"
+  sort: "Fortunato, Joe"
+  l: "F"
+- name: "Amanda Garden"
+  sort: "Garden, Amanda"
+  l: "G"
+  other:
+  - "Amanda"
+- name: "Amy Garden"
+  sort: "Garden, Amy"
+  l: "G"
+  other:
+  - "Amanda"
+- name: "Michelle Hart"
+  sort: "Hart, Michelle"
+  l: "H"
+- name: "Henry Hemphill"
+  sort: "Hemphill, Henry"
+  l: "H"
+- name: "Carly Houpt"
+  sort: "Houpt, Carly"
+  l: "H"
+- name: "Bethany Laakkonen"
+  sort: "Laakkonen, Bethany"
+  l: "L"
+- name: "Andrew Leigh"
+  sort: "Leigh, Andrew"
+  l: "L"
+- name: "Laura Musselman"
+  sort: "Musselman, Laura"
+  l: "M"
+- name: "Brandon Porter"
+  sort: "Porter, Brandon"
+  l: "P"
+- name: "Bobby Poulin"
+  sort: "Poulin, Bobby"
+  l: "P"
+- name: "Shanelle Schlesinger"
+  sort: "Schlesinger, Shanelle"
+  l: "S"
+- name: "Christopher Smith"
+  sort: "Smith, Christopher"
+  l: "S"
+- name: "Damon Smith"
+  sort: "Smith, Damon"
+  l: "S"
+- name: "Jessica Sobkowiak"
+  sort: "Sobkowiak, Jessica"
+  l: "S"
+- name: "Sara Sobkowiak"
+  sort: "Sobkowiak, Sara"
+  l: "S"
 ---
 
 ## A Division
@@ -74,4 +144,3 @@ menubar_toc_static:
 |    8 | Andrew Leigh         | Oceanway A/G, Jacksonville |   185 |
 |    9 | Latara Bowder        | Calvary-Greensboro, N-1    |   180 |
 |   10 | Henry Hemphill       | Griffin First              |   155 |
-

@@ -10,6 +10,24 @@ menubar_toc_static:
   - name: 2002 Season
     link: /history/2002/
     icon: fas fa-home
+type: t
+season: 2002
+quizzers:
+- name: "Angelina Bardin"
+  sort: "Bardin, Angelina"
+  l: "B"
+- name: "Brittanie Faulkner"
+  sort: "Faulkner, Brittanie"
+  l: "F"
+- name: "Chris Harrelson"
+  sort: "Harrelson, Chris"
+  l: "H"
+- name: "Josh Morgan"
+  sort: "Morgan, Josh"
+  l: "M"
+- name: "Matthew Teal"
+  sort: "Teal, Matthew"
+  l: "T"
 ---
 
 ## Teams
@@ -31,4 +49,3 @@ menubar_toc_static:
 |    3 | Matthew Teal       | Raleigh, Memphis    |
 |    4 | Brittanie Faulkner | Emmanuel, Knoxville |
 |    5 | Angelina Bardin    | Dickson             |
-

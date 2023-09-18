@@ -10,6 +10,12 @@ menubar_toc_static:
   - name: 2006 Season
     link: /history/2006/
     icon: fas fa-home
+type: t
+season: 2006
+quizzers:
+- name: "Christina Simpson"
+  sort: "Simpson, Christina"
+  l: "S"
 ---
 
 ## A Division

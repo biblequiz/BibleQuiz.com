@@ -9,6 +9,24 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "Joey Bohanon"
+  sort: "Bohanon, Joey"
+  l: "B"
+- name: "Angela Goodman"
+  sort: "Goodman, Angela"
+  l: "G"
+- name: "Eric Hernando"
+  sort: "Hernando, Eric"
+  l: "H"
+- name: "Megan Pincombe"
+  sort: "Pincombe, Megan"
+  l: "P"
+- name: "Angela Soemo"
+  sort: "Soemo, Angela"
+  l: "S"
 ---
 
 ## Teams

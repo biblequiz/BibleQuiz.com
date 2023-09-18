@@ -9,6 +9,39 @@ menubar_toc_static:
   - name: 2010 Season
     link: /history/2010/
     icon: fas fa-home
+type: t
+season: 2010
+quizzers:
+- name: "Joshua Echebiri"
+  sort: "Echebiri, Joshua"
+  l: "E"
+- name: "Andrew Forsman"
+  sort: "Forsman, Andrew"
+  l: "F"
+- name: "Matthew Kirby"
+  sort: "Kirby, Matthew"
+  l: "K"
+- name: "David Kpando"
+  sort: "Kpando, David"
+  l: "K"
+- name: "Obi Kpando"
+  sort: "Kpando, Obi"
+  l: "K"
+- name: "Ben Ofamata"
+  sort: "Ofamata, Ben"
+  l: "O"
+- name: "Uzze Okeke"
+  sort: "Okeke, Uzze"
+  l: "O"
+- name: "Uzondu Okoro"
+  sort: "Okoro, Uzondu"
+  l: "O"
+- name: "Elizabeth Pyle"
+  sort: "Pyle, Elizabeth"
+  l: "P"
+- name: "Rachel Wix"
+  sort: "Wix, Rachel"
+  l: "W"
 ---
 
 ## A Division

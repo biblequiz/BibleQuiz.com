@@ -10,6 +10,33 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "David Dorey"
+  sort: "Dorey, David"
+  l: "D"
+- name: "Jonathan Falkey"
+  sort: "Falkey, Jonathan"
+  l: "F"
+- name: "Ricky Haney"
+  sort: "Haney, Ricky"
+  l: "H"
+- name: "Chris Hoklotubbe"
+  sort: "Hoklotubbe, Chris"
+  l: "H"
+- name: "Katie Kuroishi"
+  sort: "Kuroishi, Katie"
+  l: "K"
+- name: "Mariana Shinoda"
+  sort: "Shinoda, Mariana"
+  l: "S"
+- name: "Michael Shinoda"
+  sort: "Shinoda, Michael"
+  l: "S"
+- name: "Moneer Shinoda"
+  sort: "Shinoda, Moneer"
+  l: "S"
 ---
 
 At the end of Luke, the district only had 2 eligible teams in the A Division. Santa Ana combined their teams into one and Corona is a Friends Church.
@@ -34,4 +61,3 @@ We do have three other divisions, but none of them move on to Regional Finals. H
 |    6 | Mariana Shinoda  | Santa Ana    |
 |    7 | Jonathan Falkey  | Santa Ana    |
 |    8 | Michael Shinoda  | Santa Ana    |
-

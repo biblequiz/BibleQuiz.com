@@ -9,6 +9,54 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
+type: t
+season: 2005
+quizzers:
+- name: "Jacyln Baker"
+  sort: "Baker, Jacyln"
+  l: "B"
+- name: "Joelle Baker"
+  sort: "Baker, Joelle"
+  l: "B"
+- name: "Ashley Carter"
+  sort: "Carter, Ashley"
+  l: "C"
+- name: "Brandon Duffy"
+  sort: "Duffy, Brandon"
+  l: "D"
+- name: "Jenna-Jo Duffy"
+  sort: "Duffy, Jenna-Jo"
+  l: "D"
+- name: "Tierney Gillihan"
+  sort: "Gillihan, Tierney"
+  l: "G"
+- name: "Pherrah Gosnell"
+  sort: "Gosnell, Pherrah"
+  l: "G"
+- name: "Bryce Jensen"
+  sort: "Jensen, Bryce"
+  l: "J"
+- name: "Jenea Johnson"
+  sort: "Johnson, Jenea"
+  l: "J"
+- name: "Stephen Langford"
+  sort: "Langford, Stephen"
+  l: "L"
+- name: "Darren Larson"
+  sort: "Larson, Darren"
+  l: "L"
+- name: "Shelby Plumer"
+  sort: "Plumer, Shelby"
+  l: "P"
+- name: "Cecily Spicer"
+  sort: "Spicer, Cecily"
+  l: "S"
+- name: "Josiah Thalhofer"
+  sort: "Thalhofer, Josiah"
+  l: "T"
+- name: "Raini Way"
+  sort: "Way, Raini"
+  l: "W"
 ---
 
 ## Division A
@@ -83,4 +131,3 @@ menubar_toc_static:
 |    3 | Ashley Carter    | Meridian  |  1105 |
 |    4 | Shelby Plumer    | Kuna      |   960 |
 |    5 | Jenea Johnson    | Kalispell |   930 |
-

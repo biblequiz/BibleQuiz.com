@@ -9,6 +9,69 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
+type: t
+season: 2007
+quizzers:
+- name: "Alyssa Austin"
+  sort: "Austin, Alyssa"
+  l: "A"
+- name: "Anna Austin"
+  sort: "Austin, Anna"
+  l: "A"
+- name: "Robyn Austin"
+  sort: "Austin, Robyn"
+  l: "A"
+- name: "Ceiran Beasley"
+  sort: "Beasley, Ceiran"
+  l: "B"
+- name: "Simon Bennett"
+  sort: "Bennett, Simon"
+  l: "B"
+- name: "Jared Burkhalter"
+  sort: "Burkhalter, Jared"
+  l: "B"
+- name: "Tamera Burkhalter"
+  sort: "Burkhalter, Tamera"
+  l: "B"
+- name: "James Coutts"
+  sort: "Coutts, James"
+  l: "C"
+- name: "Stephen Coxon"
+  sort: "Coxon, Stephen"
+  l: "C"
+- name: "Nathan Heathcoat"
+  sort: "Heathcoat, Nathan"
+  l: "H"
+- name: "Zach Hollingsworth"
+  sort: "Hollingsworth, Zach"
+  l: "H"
+- name: "Jeffrey Johnson"
+  sort: "Johnson, Jeffrey"
+  l: "J"
+- name: "Stephanie Johnson"
+  sort: "Johnson, Stephanie"
+  l: "J"
+- name: "Amy Joyce"
+  sort: "Joyce, Amy"
+  l: "J"
+- name: "Ryan Kelly"
+  sort: "Kelly, Ryan"
+  l: "K"
+- name: "Jonathan Kessie"
+  sort: "Kessie, Jonathan"
+  l: "K"
+- name: "Summer Osbon"
+  sort: "Osbon, Summer"
+  l: "O"
+- name: "Gabrielle Richmeier"
+  sort: "Richmeier, Gabrielle"
+  l: "R"
+- name: "Jessie Temple"
+  sort: "Temple, Jessie"
+  l: "T"
+- name: "Ian Waldrop"
+  sort: "Waldrop, Ian"
+  l: "W"
 ---
 
 ## A Division
@@ -67,4 +130,3 @@ menubar_toc_static:
 | Jessie Temple      | Rome         |    35 |    9 |
 | James Coutts       | Havelock     |    10 |    3 |
 | Summer Osbon       | Smyrna       |    10 |    3 |
-

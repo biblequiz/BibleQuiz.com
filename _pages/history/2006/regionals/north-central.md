@@ -10,6 +10,69 @@ menubar_toc_static:
   - name: 2006 Season
     link: /history/2006/
     icon: fas fa-home
+type: t
+season: 2006
+quizzers:
+- name: "Nicholle Allen"
+  sort: "Allen, Nicholle"
+  l: "A"
+- name: "Aaron Beye"
+  sort: "Beye, Aaron"
+  l: "B"
+- name: "Josh Cave"
+  sort: "Cave, Josh"
+  l: "C"
+- name: "John DeGray Jr."
+  sort: "DeGray, John Jr."
+  l: "D"
+- name: "Danielle Goodrich"
+  sort: "Goodrich, Danielle"
+  l: "G"
+- name: "Larissa Haberberg"
+  sort: "Haberberg, Larissa"
+  l: "H"
+- name: "Andric Hofrichter"
+  sort: "Hofrichter, Andric"
+  l: "H"
+- name: "Daniel Kober"
+  sort: "Kober, Daniel"
+  l: "K"
+- name: "Bethany Laakkonen"
+  sort: "Laakkonen, Bethany"
+  l: "L"
+- name: "Breanna Laakkonen"
+  sort: "Laakkonen, Breanna"
+  l: "L"
+- name: "Brittany Laakkonen"
+  sort: "Laakkonen, Brittany"
+  l: "L"
+- name: "Eric Leggett"
+  sort: "Leggett, Eric"
+  l: "L"
+- name: "Nick Mulder"
+  sort: "Mulder, Nick"
+  l: "M"
+- name: "Tiffani Pilcher"
+  sort: "Pilcher, Tiffani"
+  l: "P"
+- name: "Zach Schaalma"
+  sort: "Schaalma, Zach"
+  l: "S"
+- name: "Erica Smith"
+  sort: "Smith, Erica"
+  l: "S"
+- name: "Titus Stenberg"
+  sort: "Stenberg, Titus"
+  l: "S"
+- name: "Cameron Tilus"
+  sort: "Tilus, Cameron"
+  l: "T"
+- name: "Josh Turner"
+  sort: "Turner, Josh"
+  l: "T"
+- name: "Naomi Turner"
+  sort: "Turner, Naomi"
+  l: "T"
 ---
 
 ## Teams
@@ -55,4 +118,3 @@ menubar_toc_static:
 |   18 | Tiffani Pilcher    | Ames, IA         |   350 |  31.82 |
 |   19 | Josh Cave          | Omaha,NE         |   330 |  30.00 |
 |   20 | Naomi Turner       | Portage, WI      |   320 |  29.09 |
-

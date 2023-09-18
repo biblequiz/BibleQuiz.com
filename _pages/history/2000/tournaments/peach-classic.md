@@ -10,6 +10,54 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "Bronson Clark"
+  sort: "Clark, Bronson"
+  l: "C"
+- name: "Daniel Cowan"
+  sort: "Cowan, Daniel"
+  l: "C"
+- name: "Danielle Doleman"
+  sort: "Doleman, Danielle"
+  l: "D"
+- name: "Frank Fortunato"
+  sort: "Fortunato, Frank"
+  l: "F"
+- name: "Joseph Fortunato"
+  sort: "Fortunato, Joseph"
+  l: "F"
+- name: "Michelle Hart"
+  sort: "Hart, Michelle"
+  l: "H"
+- name: "Lynn Kunkel"
+  sort: "Kunkel, Lynn"
+  l: "K"
+- name: "Heather Patterson"
+  sort: "Patterson, Heather"
+  l: "P"
+- name: "Brandon Prter"
+  sort: "Prter, Brandon"
+  l: "P"
+- name: "Felicia Rexford"
+  sort: "Rexford, Felicia"
+  l: "R"
+- name: "Adri Rydholm"
+  sort: "Rydholm, Adri"
+  l: "R"
+- name: "Markie Rydholm"
+  sort: "Rydholm, Markie"
+  l: "R"
+- name: "Tim Stevens"
+  sort: "Stevens, Tim"
+  l: "S"
+- name: "Ric White"
+  sort: "White, Ric"
+  l: "W"
+- name: "Kyle Williams"
+  sort: "Williams, Kyle"
+  l: "W"
 ---
 
 After seven preliminary rounds, teams were seeded into three divisions for a single-elimination playoff. The top two teams and the top five scorers in each division are listed below.
@@ -71,4 +119,3 @@ Individual scores were determined from the seven preliminary rounds and the firs
 |    3 | Danielle Doleman | Columbus                           |    65 |
 |   3* | Markie Rydholm   | Oak Hill A/G, Nashville, TN        |    65 |
 |    5 | Adri Rydholm     | Nashville                          |    50 |
-

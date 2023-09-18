@@ -10,6 +10,64 @@ menubar_toc_static:
   - name: 2023 Season
     link: /history/2023/
     icon: fas fa-home
+type: t
+season: 2023
+quizzers:
+- "Ember Yoder"
+- "Juliana Stepp"
+- "Jaren Stepp"
+- "Laura Knopf"
+- "Sarah Knopf"
+- "Leah Sizemore"
+- "Robson Yoder"
+type: t
+season: 2023
+quizzers:
+- name: "Laura Knopf"
+  sort: "Knopf, Laura"
+  l: "K"
+- name: "Sarah Knopf"
+  sort: "Knopf, Sarah"
+  l: "K"
+- name: "Leah Sizemore"
+  sort: "Sizemore, Leah"
+  l: "S"
+- name: "Jaren Stepp"
+  sort: "Stepp, Jaren"
+  l: "S"
+- name: "Juliana Stepp"
+  sort: "Stepp, Juliana"
+  l: "S"
+- name: "Ember Yoder"
+  sort: "Yoder, Ember"
+  l: "Y"
+- name: "Robson Yoder"
+  sort: "Yoder, Robson"
+  l: "Y"
+type: t
+season: 2023
+quizzers:
+- name: "Laura Knopf"
+  sort: "Knopf, Laura"
+  l: "K"
+- name: "Sarah Knopf"
+  sort: "Knopf, Sarah"
+  l: "K"
+- name: "Leah Sizemore"
+  sort: "Sizemore, Leah"
+  l: "S"
+- name: "Jaren Stepp"
+  sort: "Stepp, Jaren"
+  l: "S"
+- name: "Juliana Stepp"
+  sort: "Stepp, Juliana"
+  l: "S"
+- name: "Ember Yoder"
+  sort: "Yoder, Ember"
+  l: "Y"
+- name: "Robson Yoder"
+  sort: "Yoder, Robson"
+  l: "Y"
 ---
 
 ## Teams

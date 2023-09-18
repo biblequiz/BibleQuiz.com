@@ -9,6 +9,60 @@ menubar_toc_static:
   - name: 2009 Season
     link: /history/2009/
     icon: fas fa-home
+type: t
+season: 2009
+quizzers:
+- name: "Yoki Belay"
+  sort: "Belay, Yoki"
+  l: "B"
+- name: "Jared Burkhalter"
+  sort: "Burkhalter, Jared"
+  l: "B"
+- name: "Sabrina Burkhalter"
+  sort: "Burkhalter, Sabrina"
+  l: "B"
+- name: "Tamera Burkhalter"
+  sort: "Burkhalter, Tamera"
+  l: "B"
+- name: "Brian Coleman"
+  sort: "Coleman, Brian"
+  l: "C"
+- name: "Lindsay Cowan"
+  sort: "Cowan, Lindsay"
+  l: "C"
+- name: "Zach Freer"
+  sort: "Freer, Zach"
+  l: "F"
+- name: "Jonice Grant"
+  sort: "Grant, Jonice"
+  l: "G"
+- name: "Lydia Hutchison"
+  sort: "Hutchison, Lydia"
+  l: "H"
+- name: "Hudson Kelley"
+  sort: "Kelley, Hudson"
+  l: "K"
+- name: "James Lex"
+  sort: "Lex, James"
+  l: "L"
+- name: "Andy Okala"
+  sort: "Okala, Andy"
+  l: "O"
+- name: "Abby Rogers"
+  sort: "Rogers, Abby"
+  l: "R"
+- name: "Joseph Vuke"
+  sort: "Vuke, Joseph"
+  l: "V"
+- name: "EJ Mintah Wesley"
+  sort: "Wesley, EJ Mintah"
+  l: "W"
+- name: "Katie Willis"
+  sort: "Willis, Katie"
+  l: "W"
+- name: "Erinn Wolf"
+  sort: "Wolf, Erinn"
+  l: "W"
 ---
 
 ## A Division
@@ -73,4 +127,3 @@ menubar_toc_static:
 |    4 | Andy Okala    | Snellville, GA |   400 | 44.44 |    4 |
 |    5 | Brian Coleman | Raleigh, NC    |   285 | 31.67 |    3 |
 |    6 | Joseph Vuke   | Raleigh, NC    |   240 | 26.67 |    1 |
-

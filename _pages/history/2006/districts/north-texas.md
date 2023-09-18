@@ -9,6 +9,54 @@ menubar_toc_static:
   - name: 2006 Season
     link: /history/2006/
     icon: fas fa-home
+type: t
+season: 2006
+quizzers:
+- name: "Joshua Carl"
+  sort: "Carl, Joshua"
+  l: "C"
+- name: "Paul Ferguson"
+  sort: "Ferguson, Paul"
+  l: "F"
+- name: "Sommer Ferguson"
+  sort: "Ferguson, Sommer"
+  l: "F"
+- name: "Daniel Garner"
+  sort: "Garner, Daniel"
+  l: "G"
+- name: "Steven Johnson"
+  sort: "Johnson, Steven"
+  l: "J"
+- name: "Hannah Nickel"
+  sort: "Nickel, Hannah"
+  l: "N"
+- name: "Alan Orcutt"
+  sort: "Orcutt, Alan"
+  l: "O"
+- name: "Tiffany Pettis"
+  sort: "Pettis, Tiffany"
+  l: "P"
+- name: "Christopher Pursell"
+  sort: "Pursell, Christopher"
+  l: "P"
+- name: "Emilly Pursell"
+  sort: "Pursell, Emilly"
+  l: "P"
+- name: "Laura Roller"
+  sort: "Roller, Laura"
+  l: "R"
+- name: "Eowyn Thompson"
+  sort: "Thompson, Eowyn"
+  l: "T"
+- name: "Chance Watts"
+  sort: "Watts, Chance"
+  l: "W"
+- name: "Jennifer Welborn"
+  sort: "Welborn, Jennifer"
+  l: "W"
+- name: "Megan Welborn"
+  sort: "Welborn, Megan"
+  l: "W"
 ---
 
 ## Gold Division
@@ -61,4 +109,3 @@ menubar_toc_static:
 |    3 | Emilly Pursell | The Oaks |   550 |  91.67 |    5 |
 |    4 | Daniel Garner  | The Oaks |   440 |  73.33 |    4 |
 |    5 | Hannah Nickel  | CLA      |   395 |  65.83 |    5 |
-

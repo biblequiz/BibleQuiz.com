@@ -9,6 +9,69 @@ menubar_toc_static:
   - name: 2010 Season
     link: /history/2010/
     icon: fas fa-home
+type: t
+season: 2010
+quizzers:
+- name: "Ceiran Beasley"
+  sort: "Beasley, Ceiran"
+  l: "B"
+- name: "Rodney Brown"
+  sort: "Brown, Rodney"
+  l: "B"
+- name: "Kindsay Cowan"
+  sort: "Cowan, Kindsay"
+  l: "C"
+- name: "Aleema Goff"
+  sort: "Goff, Aleema"
+  l: "G"
+- name: "Tiffany Goff"
+  sort: "Goff, Tiffany"
+  l: "G"
+- name: "Johnna Johnson"
+  sort: "Johnson, Johnna"
+  l: "J"
+- name: "James Lex"
+  sort: "Lex, James"
+  l: "L"
+- name: "Austin Lovekamp"
+  sort: "Lovekamp, Austin"
+  l: "L"
+- name: "Kaleigh Lovekamp"
+  sort: "Lovekamp, Kaleigh"
+  l: "L"
+- name: "Andy Okala"
+  sort: "Okala, Andy"
+  l: "O"
+- name: "Andrea Poone"
+  sort: "Poone, Andrea"
+  l: "P"
+- name: "Anna Rice"
+  sort: "Rice, Anna"
+  l: "R"
+- name: "Rachel Rice"
+  sort: "Rice, Rachel"
+  l: "R"
+- name: "Sarah Rice"
+  sort: "Rice, Sarah"
+  l: "R"
+- name: "Jamimah Shibu"
+  sort: "Shibu, Jamimah"
+  l: "S"
+- name: "Pheba Shibu"
+  sort: "Shibu, Pheba"
+  l: "S"
+- name: "Tobi Shitta-Ben"
+  sort: "Shitta-Ben, Tobi"
+  l: "S"
+- name: "Christina Simpson"
+  sort: "Simpson, Christina"
+  l: "S"
+- name: "Abby Stocksdale"
+  sort: "Stocksdale, Abby"
+  l: "S"
+- name: "Tiffany Turner"
+  sort: "Turner, Tiffany"
+  l: "T"
 ---
 
 ## A League
@@ -77,4 +140,3 @@ Junior Varsity (Novice/B Leagues) quizzed a complete round robin and then broke 
 |    3 | Johnna Johnson  | Dahlonega     |   245 |
 |    4 | Andrea Poone    | Honea Path #2 |    90 |
 |    5 | Aleema Goff     | Honea Path #2 |    55 |
-

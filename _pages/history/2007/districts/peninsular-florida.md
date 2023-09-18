@@ -10,6 +10,36 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
+type: t
+season: 2007
+quizzers:
+- name: "Simon Bennett"
+  sort: "Bennett, Simon"
+  l: "B"
+- name: "Jared Burkhalter"
+  sort: "Burkhalter, Jared"
+  l: "B"
+- name: "Tamera Burkhalter"
+  sort: "Burkhalter, Tamera"
+  l: "B"
+- name: "Belinda Celestin"
+  sort: "Celestin, Belinda"
+  l: "C"
+- name: "Amy Joyce"
+  sort: "Joyce, Amy"
+  l: "J"
+- name: "Ryan Kelly"
+  sort: "Kelly, Ryan"
+  l: "K"
+- name: "Josh Smith"
+  sort: "Smith, Josh"
+  l: "S"
+- name: "Meghan Strope"
+  sort: "Strope, Meghan"
+  l: "S"
+- name: "Daniel Walker"
+  sort: "Walker, Daniel"
+  l: "W"
 ---
 
 Orlando has now won District Finals in 5 of the last 6 years.

@@ -10,6 +10,39 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "Caleb Booth"
+  sort: "Booth, Caleb"
+  l: "B"
+- name: "David Dorey"
+  sort: "Dorey, David"
+  l: "D"
+- name: "Sharon Ely"
+  sort: "Ely, Sharon"
+  l: "E"
+- name: "Ricky Haney"
+  sort: "Haney, Ricky"
+  l: "H"
+- name: "Eric Hernando"
+  sort: "Hernando, Eric"
+  l: "H"
+- name: "Sterling Johnson"
+  sort: "Johnson, Sterling"
+  l: "J"
+- name: "Michael Pearson"
+  sort: "Pearson, Michael"
+  l: "P"
+- name: "Kuntyi Samqui"
+  sort: "Samqui, Kuntyi"
+  l: "S"
+- name: "Jordan Schneider"
+  sort: "Schneider, Jordan"
+  l: "S"
+- name: "Dayton Shorter"
+  sort: "Shorter, Dayton"
+  l: "S"
 ---
 
 Going into the final two rounds there were six teams, all within one game of each other, vying for first place. What was more incredible was that in the remaining two rounds

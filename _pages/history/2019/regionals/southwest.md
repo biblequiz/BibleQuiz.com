@@ -10,6 +10,51 @@ menubar_toc_static:
   - name: 2019 Season
     link: /history/2019/
     icon: fas fa-home
+type: t
+season: 2019
+quizzers:
+- name: "Amelia Gephart"
+  sort: "Gephart, Amelia"
+  l: "G"
+- name: "Marisa Gephart"
+  sort: "Gephart, Marisa"
+  l: "G"
+- name: "Samuel Jebaraj"
+  sort: "Jebaraj, Samuel"
+  l: "J"
+- name: "Hansel John"
+  sort: "John, Hansel"
+  l: "J"
+- name: "Zak Kellock"
+  sort: "Kellock, Zak"
+  l: "K"
+- name: "Stephanie Leavitt"
+  sort: "Leavitt, Stephanie"
+  l: "L"
+- name: "Travis Leavitt"
+  sort: "Leavitt, Travis"
+  l: "L"
+- name: "Joshua Malayil"
+  sort: "Malayil, Joshua"
+  l: "M"
+- name: "Timothy Mathew"
+  sort: "Mathew, Timothy"
+  l: "M"
+- name: "David Moses"
+  sort: "Moses, David"
+  l: "M"
+- name: "Joanna Moses"
+  sort: "Moses, Joanna"
+  l: "M"
+- name: "Brennan Navarro-Bania"
+  sort: "Navarro-Bania, Brennan"
+  l: "N"
+- name: "Owen Navarro-Bania"
+  sort: "Navarro-Bania, Owen"
+  l: "N"
+- name: "Jeremy Varghese"
+  sort: "Varghese, Jeremy"
+  l: "V"
 ---
 
 ## Teams
@@ -45,4 +90,3 @@ menubar_toc_static:
 |   12 | Owen Navarro-Bania    | North Valley A/G   | North Valley A/G              |   115 |  11.50 |      |
 |   13 | Stephanie Leavitt     | Champion Center    | Champion Center               |    10 |   1.00 |      |
 |   14 | Travis Leavitt        | Champion Center    | Champion Center               |       |    .00 |      |
-

@@ -9,6 +9,39 @@ menubar_toc_static:
   - name: 2002 Season
     link: /history/2002/
     icon: fas fa-home
+type: t
+season: 2002
+quizzers:
+- name: "Taylor Eisenhauer"
+  sort: "Eisenhauer, Taylor"
+  l: "E"
+- name: "Adam Gouge"
+  sort: "Gouge, Adam"
+  l: "G"
+- name: "Sasha Hosfelt"
+  sort: "Hosfelt, Sasha"
+  l: "H"
+- name: "Whitney Klaassen"
+  sort: "Klaassen, Whitney"
+  l: "K"
+- name: "Hannah Knox"
+  sort: "Knox, Hannah"
+  l: "K"
+- name: "Christine McKibben"
+  sort: "McKibben, Christine"
+  l: "M"
+- name: "Emily Oakley"
+  sort: "Oakley, Emily"
+  l: "O"
+- name: "Page Riddle"
+  sort: "Riddle, Page"
+  l: "R"
+- name: "Emily Siegel"
+  sort: "Siegel, Emily"
+  l: "S"
+- name: "BJ Thome"
+  sort: "Thome, BJ"
+  l: "T"
 ---
 
 ## Teams (Both Divisions)

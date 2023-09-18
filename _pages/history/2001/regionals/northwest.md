@@ -9,6 +9,42 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "Natalie Asahara"
+  sort: "Asahara, Natalie"
+  l: "A"
+- name: "Peter Brown"
+  sort: "Brown, Peter"
+  l: "B"
+- name: "Jenny Dworzak"
+  sort: "Dworzak, Jenny"
+  l: "D"
+- name: "Jed Gosnell"
+  sort: "Gosnell, Jed"
+  l: "G"
+- name: "Ian McFarland"
+  sort: "McFarland, Ian"
+  l: "M"
+- name: "Jessica Neilson"
+  sort: "Neilson, Jessica"
+  l: "N"
+- name: "Shawn Patterson"
+  sort: "Patterson, Shawn"
+  l: "P"
+- name: "Marla Porter"
+  sort: "Porter, Marla"
+  l: "P"
+- name: "Owen Scott"
+  sort: "Scott, Owen"
+  l: "S"
+- name: "Laura Thaut"
+  sort: "Thaut, Laura"
+  l: "T"
+- name: "James Watt"
+  sort: "Watt, James"
+  l: "W"
 ---
 
 It was a SeaTac battle to the end, as Tacoma Life Center & Cedar Park entered the final round each undefeated. Cedar Park got off to a fast start, but Tacoma battled back and hit the crucial questions down the stretch to win the Region.

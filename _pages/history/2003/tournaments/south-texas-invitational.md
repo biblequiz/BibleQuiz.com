@@ -10,6 +10,69 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
+type: t
+season: 2003
+quizzers:
+- name: "Lydia Butay"
+  sort: "Butay, Lydia"
+  l: "B"
+- name: "Cody Conway"
+  sort: "Conway, Cody"
+  l: "C"
+- name: "Gina Fortunato"
+  sort: "Fortunato, Gina"
+  l: "F"
+- name: "Jed Gosnell"
+  sort: "Gosnell, Jed"
+  l: "G"
+- name: "Hannah Meyer"
+  sort: "Meyer, Hannah"
+  l: "M"
+- name: "Maris Naylor"
+  sort: "Naylor, Maris"
+  l: "N"
+- name: "Logan Newman"
+  sort: "Newman, Logan"
+  l: "N"
+- name: "Mary Pace"
+  sort: "Pace, Mary"
+  l: "P"
+- name: "Jared Paige"
+  sort: "Paige, Jared"
+  l: "P"
+- name: "Michael Pearson"
+  sort: "Pearson, Michael"
+  l: "P"
+- name: "Brandon Porter"
+  sort: "Porter, Brandon"
+  l: "P"
+- name: "Amanda Pryor"
+  sort: "Pryor, Amanda"
+  l: "P"
+- name: "April Pryor"
+  sort: "Pryor, April"
+  l: "P"
+- name: "Amy Summers"
+  sort: "Summers, Amy"
+  l: "S"
+- name: "James Watt"
+  sort: "Watt, James"
+  l: "W"
+- name: "Megan Welborn"
+  sort: "Welborn, Megan"
+  l: "W"
+- name: "Katie Whitehead"
+  sort: "Whitehead, Katie"
+  l: "W"
+- name: "Brooke Whitford"
+  sort: "Whitford, Brooke"
+  l: "W"
+- name: "David Womelsdorf"
+  sort: "Womelsdorf, David"
+  l: "W"
+- name: "Becky York"
+  sort: "York, Becky"
+  l: "Y"
 ---
 
 ## Teams
@@ -62,4 +125,3 @@ menubar_toc_static:
 |   18 | Cody Conway      | Orange Community, Orange,TX  |   810 |    3 |
 |   19 | Amy Summers      | Noble, Noble, OK             |   790 |    3 |
 |   20 | Katie Whitehead  | Bethel, West Lafayette, IN   |   785 |    4 |
-

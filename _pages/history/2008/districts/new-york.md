@@ -10,6 +10,66 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
+type: t
+season: 2008
+quizzers:
+- name: "Shomal Caesar"
+  sort: "Caesar, Shomal"
+  l: "C"
+- name: "Joel Carini"
+  sort: "Carini, Joel"
+  l: "C"
+- name: "Selena DeSilva"
+  sort: "DeSilva, Selena"
+  l: "D"
+- name: "Jessica Dispenza"
+  sort: "Dispenza, Jessica"
+  l: "D"
+- name: "Clifton Haimchand"
+  sort: "Haimchand, Clifton"
+  l: "H"
+- name: "John Karluk"
+  sort: "Karluk, John"
+  l: "K"
+- name: "Adrian Padarath"
+  sort: "Padarath, Adrian"
+  l: "P"
+- name: "Josiah Renz"
+  sort: "Renz, Josiah"
+  l: "R"
+- name: "Nathaniel Renz"
+  sort: "Renz, Nathaniel"
+  l: "R"
+- name: "Noah Renz"
+  sort: "Renz, Noah"
+  l: "R"
+- name: "Brandon Rhynders"
+  sort: "Rhynders, Brandon"
+  l: "R"
+- name: "Anthony Sanders"
+  sort: "Sanders, Anthony"
+  l: "S"
+- name: "Renee Sanders"
+  sort: "Sanders, Renee"
+  l: "S"
+- name: "Jonathan Sanger"
+  sort: "Sanger, Jonathan"
+  l: "S"
+- name: "Stefan Scarinzi"
+  sort: "Scarinzi, Stefan"
+  l: "S"
+- name: "Amy Siddall"
+  sort: "Siddall, Amy"
+  l: "S"
+- name: "Sara Singh"
+  sort: "Singh, Sara"
+  l: "S"
+- name: "Isaac Ward"
+  sort: "Ward, Isaac"
+  l: "W"
+- name: "LaJoie Ward"
+  sort: "Ward, LaJoie"
+  l: "W"
 ---
 
 ## A Division
@@ -82,4 +142,3 @@ menubar_toc_static:
 |    4 | Nathaniel Renz | Greece A/G                     |    90 |    0 |   23 |
 |    5 | Noah Renz      | Greece A/G                     |    80 |    0 |   20 |
 |    6 | Shomal Caesar  | Calvary A/G Ozone Park         |    40 |    0 |   10 |
-

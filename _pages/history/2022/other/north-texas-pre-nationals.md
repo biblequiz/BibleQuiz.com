@@ -10,6 +10,63 @@ menubar_toc_static:
   - name: 2022 Season
     link: /history/2022/
     icon: fas fa-home
+type: t
+season: 2022
+quizzers:
+- name: "Yeamlak Adane"
+  sort: "Adane, Yeamlak"
+  l: "A"
+- name: "Christian Alapati"
+  sort: "Alapati, Christian"
+  l: "A"
+- name: "Hannah Alapati"
+  sort: "Alapati, Hannah"
+  l: "A"
+- name: "Joseph Barajas"
+  sort: "Barajas, Joseph"
+  l: "B"
+- name: "Zane Brown"
+  sort: "Brown, Zane"
+  l: "B"
+- name: "Noah Claunch"
+  sort: "Claunch, Noah"
+  l: "C"
+- name: "Chidie Echefu"
+  sort: "Echefu, Chidie"
+  l: "E"
+- name: "Joy Escobar"
+  sort: "Escobar, Joy"
+  l: "E"
+- name: "Camden Haney"
+  sort: "Haney, Camden"
+  l: "H"
+- name: "Elijah Lee"
+  sort: "Lee, Elijah"
+  l: "L"
+- name: "Andrew Pickrell"
+  sort: "Pickrell, Andrew"
+  l: "P"
+- name: "Joanne Ramesh"
+  sort: "Ramesh, Joanne"
+  l: "R"
+- name: "Judith Ramesh"
+  sort: "Ramesh, Judith"
+  l: "R"
+- name: "Jadon Sheonmangal"
+  sort: "Sheonmangal, Jadon"
+  l: "S"
+- name: "Christian Solomon"
+  sort: "Solomon, Christian"
+  l: "S"
+- name: "Aulora Sullivan"
+  sort: "Sullivan, Aulora"
+  l: "S"
+- name: "Joshua Sullivan"
+  sort: "Sullivan, Joshua"
+  l: "S"
+- name: "Julia Sullivan"
+  sort: "Sullivan, Julia"
+  l: "S"
 ---
 
 ## Teams
@@ -53,4 +110,3 @@ menubar_toc_static:
 | **\*15** | Jadon Sheonmangal | Team Lori (Trinity Church)                      |     0 |      |      |      |
 | **\*15** | Julia Sullivan    | Team John (Trinity Church)                      |     0 |      |      |      |
 |       16 | Noah Claunch      | Team John (Trinity Church)                      |   -15 | -2.5 |      |  37% |
-

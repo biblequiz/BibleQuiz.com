@@ -10,6 +10,39 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "Schuyler Branton"
+  sort: "Branton, Schuyler"
+  l: "B"
+- name: "Charles Campbell"
+  sort: "Campbell, Charles"
+  l: "C"
+- name: "Lindsey Davenport"
+  sort: "Davenport, Lindsey"
+  l: "D"
+- name: "Andrew Davis"
+  sort: "Davis, Andrew"
+  l: "D"
+- name: "Andrew Dees"
+  sort: "Dees, Andrew"
+  l: "D"
+- name: "Jacque Kowalsky"
+  sort: "Kowalsky, Jacque"
+  l: "K"
+- name: "Jennifer Stewart"
+  sort: "Stewart, Jennifer"
+  l: "S"
+- name: "Amber Throgmartin"
+  sort: "Throgmartin, Amber"
+  l: "T"
+- name: "Austin Trippe"
+  sort: "Trippe, Austin"
+  l: "T"
+- name: "Brandon Trippe"
+  sort: "Trippe, Brandon"
+  l: "T"
 ---
 
 ## Teams
@@ -40,4 +73,3 @@ menubar_toc_static:
 |    8 | Lindsey Davenport | Dothan First      |    35 |
 |    9 | Charles Campbell  | Clio Calvary      |    30 |
 |   10 | Andrew Dees       | B'ham Garywood    |    20 |
-

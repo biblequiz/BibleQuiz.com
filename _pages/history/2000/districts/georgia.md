@@ -9,6 +9,39 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "Daniel Cowan"
+  sort: "Cowan, Daniel"
+  l: "C"
+- name: "Frank Fortunato"
+  sort: "Fortunato, Frank"
+  l: "F"
+- name: "Joseph Fortunato"
+  sort: "Fortunato, Joseph"
+  l: "F"
+- name: "Lynn Kunkel"
+  sort: "Kunkel, Lynn"
+  l: "K"
+- name: "Beth Lindsey"
+  sort: "Lindsey, Beth"
+  l: "L"
+- name: "Amanda Porter"
+  sort: "Porter, Amanda"
+  l: "P"
+- name: "Brandon Porter"
+  sort: "Porter, Brandon"
+  l: "P"
+- name: "Melinda Porter"
+  sort: "Porter, Melinda"
+  l: "P"
+- name: "Ketherine Thomason"
+  sort: "Thomason, Ketherine"
+  l: "T"
+- name: "Ric White"
+  sort: "White, Ric"
+  l: "W"
 ---
 
 ## Teams

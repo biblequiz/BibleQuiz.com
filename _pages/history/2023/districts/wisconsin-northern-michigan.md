@@ -10,6 +10,60 @@ menubar_toc_static:
   - name: 2023 Season
     link: /history/2023/
     icon: fas fa-home
+type: t
+season: 2023
+quizzers:
+- name: "Cole Abbott"
+  sort: "Abbott, Cole"
+  l: "A"
+- name: "Lucas Abbott"
+  sort: "Abbott, Lucas"
+  l: "A"
+- name: "Brooks Anderson"
+  sort: "Anderson, Brooks"
+  l: "A"
+- name: "Maddie Clements"
+  sort: "Clements, Maddie"
+  l: "C"
+- name: "Miriam Clements"
+  sort: "Clements, Miriam"
+  l: "C"
+- name: "Sawyer Curtis"
+  sort: "Curtis, Sawyer"
+  l: "C"
+- name: "Sophia Curtis"
+  sort: "Curtis, Sophia"
+  l: "C"
+- name: "Madison Day"
+  sort: "Day, Madison"
+  l: "D"
+- name: "Byrce Helgerson"
+  sort: "Helgerson, Byrce"
+  l: "H"
+- name: "Aaron Lane"
+  sort: "Lane, Aaron"
+  l: "L"
+- name: "Kora Pardee"
+  sort: "Pardee, Kora"
+  l: "P"
+- name: "Lacy Pardee"
+  sort: "Pardee, Lacy"
+  l: "P"
+- name: "Ava Schoessow"
+  sort: "Schoessow, Ava"
+  l: "S"
+- name: "Brenna Schoessow"
+  sort: "Schoessow, Brenna"
+  l: "S"
+- name: "Zoe Thornton"
+  sort: "Thornton, Zoe"
+  l: "T"
+- name: "Miguel Vargus"
+  sort: "Vargus, Miguel"
+  l: "V"
+- name: "Hannah Winslow"
+  sort: "Winslow, Hannah"
+  l: "W"
 ---
 
 ## Teams
@@ -48,4 +102,3 @@ menubar_toc_static:
 | **\*12** | Zoe Thornton     | "Old Wives" (Harvest A/G)                               |     0 |      |      |      |
 
 *\* Tie couldn't be broken by tie breaking rules.*
-

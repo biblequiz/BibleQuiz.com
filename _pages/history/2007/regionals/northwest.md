@@ -9,6 +9,69 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
+type: t
+season: 2007
+quizzers:
+- name: "Jaclyn Baker"
+  sort: "Baker, Jaclyn"
+  l: "B"
+- name: "Stacey Brothers"
+  sort: "Brothers, Stacey"
+  l: "B"
+- name: "Ashley Carter"
+  sort: "Carter, Ashley"
+  l: "C"
+- name: "McKenzie Chambers"
+  sort: "Chambers, McKenzie"
+  l: "C"
+- name: "Brandon Duffy"
+  sort: "Duffy, Brandon"
+  l: "D"
+- name: "Jenna-Jo Duffy"
+  sort: "Duffy, Jenna-Jo"
+  l: "D"
+- name: "Jerri Florez"
+  sort: "Florez, Jerri"
+  l: "F"
+- name: "Tierney Gillihan"
+  sort: "Gillihan, Tierney"
+  l: "G"
+- name: "Devon Griggs"
+  sort: "Griggs, Devon"
+  l: "G"
+- name: "Bryce Jensen"
+  sort: "Jensen, Bryce"
+  l: "J"
+- name: "Carrie Jensen"
+  sort: "Jensen, Carrie"
+  l: "J"
+- name: "Gabrielle Jensen"
+  sort: "Jensen, Gabrielle"
+  l: "J"
+- name: "Darren Larson"
+  sort: "Larson, Darren"
+  l: "L"
+- name: "Caleb Lashway"
+  sort: "Lashway, Caleb"
+  l: "L"
+- name: "Jenny Mallory"
+  sort: "Mallory, Jenny"
+  l: "M"
+- name: "Alayney O'Connor"
+  sort: "O'Connor, Alayney"
+  l: "O"
+- name: "JP O'Connor"
+  sort: "O'Connor, JP"
+  l: "O"
+- name: "Link Patrick"
+  sort: "Patrick, Link"
+  l: "P"
+- name: "Meghan Shipley"
+  sort: "Shipley, Meghan"
+  l: "S"
+- name: "Elijah Walker"
+  sort: "Walker, Elijah"
+  l: "W"
 ---
 
 ## A Division
@@ -72,4 +135,3 @@ menubar_toc_static:
 |    8 | Jerri Florez      | Meridian   |   24 |
 |    9 | Elijah Walker     | Helena     |   22 |
 |   10 | Jenny Mallory     | Meridian   |   21 |
-

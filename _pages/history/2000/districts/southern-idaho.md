@@ -9,6 +9,39 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "Laura Brothers"
+  sort: "Brothers, Laura"
+  l: "B"
+- name: "Andrea Bunnis"
+  sort: "Bunnis, Andrea"
+  l: "B"
+- name: "Brad Carroll"
+  sort: "Carroll, Brad"
+  l: "C"
+- name: "Bethany Gliddon"
+  sort: "Gliddon, Bethany"
+  l: "G"
+- name: "Will Jensen"
+  sort: "Jensen, Will"
+  l: "J"
+- name: "Jennifer Nevels"
+  sort: "Nevels, Jennifer"
+  l: "N"
+- name: "Jon Pon"
+  sort: "Pon, Jon"
+  l: "P"
+- name: "Marla Porter"
+  sort: "Porter, Marla"
+  l: "P"
+- name: "Rachel Ross"
+  sort: "Ross, Rachel"
+  l: "R"
+- name: "Kimberly Whitney"
+  sort: "Whitney, Kimberly"
+  l: "W"
 ---
 
 ## Top Teams

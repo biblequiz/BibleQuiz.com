@@ -10,6 +10,42 @@ menubar_toc_static:
   - name: 2019 Season
     link: /history/2019/
     icon: fas fa-home
+type: t
+season: 2019
+quizzers:
+- name: "Kambria Braithwaite"
+  sort: "Braithwaite, Kambria"
+  l: "B"
+- name: "Kosette Braithwaite"
+  sort: "Braithwaite, Kosette"
+  l: "B"
+- name: "Gannon Breig"
+  sort: "Breig, Gannon"
+  l: "B"
+- name: "Riley Breig"
+  sort: "Breig, Riley"
+  l: "B"
+- name: "Josiah Brookbank"
+  sort: "Brookbank, Josiah"
+  l: "B"
+- name: "Rachel Brookbank"
+  sort: "Brookbank, Rachel"
+  l: "B"
+- name: "Tirzah Brookbank"
+  sort: "Brookbank, Tirzah"
+  l: "B"
+- name: "Austin Ramsey"
+  sort: "Ramsey, Austin"
+  l: "R"
+- name: "Cameron Ramsey"
+  sort: "Ramsey, Cameron"
+  l: "R"
+- name: "Kaitlyn Ramsey"
+  sort: "Ramsey, Kaitlyn"
+  l: "R"
+- name: "Joanne Sinniah"
+  sort: "Sinniah, Joanne"
+  l: "S"
 ---
 
 ## Teams

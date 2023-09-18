@@ -10,6 +10,39 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
+type: t
+season: 2005
+quizzers:
+- name: "Danielle Goodrich"
+  sort: "Goodrich, Danielle"
+  l: "G"
+- name: "Stephanie Graham"
+  sort: "Graham, Stephanie"
+  l: "G"
+- name: "Miranda Habergerg"
+  sort: "Habergerg, Miranda"
+  l: "H"
+- name: "Melissa Henderson"
+  sort: "Henderson, Melissa"
+  l: "H"
+- name: "Bethany Laakkonen"
+  sort: "Laakkonen, Bethany"
+  l: "L"
+- name: "Logan Newman"
+  sort: "Newman, Logan"
+  l: "N"
+- name: "Tyler Peterson"
+  sort: "Peterson, Tyler"
+  l: "P"
+- name: "Titus Stenburg"
+  sort: "Stenburg, Titus"
+  l: "S"
+- name: "Cameron Tilus"
+  sort: "Tilus, Cameron"
+  l: "T"
+- name: "Josh Turner"
+  sort: "Turner, Josh"
+  l: "T"
 ---
 
 ## Teams (All)
@@ -65,4 +98,3 @@ defeated Portage 35-5. Then in the second playoff match, Ottumwa defeated St. Cl
 |    8 | Stephanie Graham  | Cedar Rapids, IA |   535 |  53.5 |
 |    9 | Josh Turner       | Portage, WI      |   505 |  50.5 |
 |   10 | Bethany Laakkonen | Superior, WI     |   455 |  45.5 |
-

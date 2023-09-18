@@ -10,6 +10,27 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
+type: t
+season: 2007
+quizzers:
+- name: "Andrew Ingerson"
+  sort: "Ingerson, Andrew"
+  l: "I"
+- name: "Hannah Ingerson"
+  sort: "Ingerson, Hannah"
+  l: "I"
+- name: "Sarah Ingerson"
+  sort: "Ingerson, Sarah"
+  l: "I"
+- name: "Hillari Wyatt"
+  sort: "Wyatt, Hillari"
+  l: "W"
+- name: "Jacob Wyatt"
+  sort: "Wyatt, Jacob"
+  l: "W"
+- name: "Kourtni Wyatt"
+  sort: "Wyatt, Kourtni"
+  l: "W"
 ---
 
 ## Teams
@@ -30,4 +51,3 @@ menubar_toc_static:
 |    4 | Sarah Ingerson  | Hosanna            |   190 |   48 |    1 |
 |    5 | Hannah Ingerson | Hosanna            |   120 |   30 |    1 |
 |    6 | Andrew Ingerson | Hosanna            |    90 |   23 |    1 |
-

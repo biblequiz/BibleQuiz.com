@@ -9,6 +9,54 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
+type: t
+season: 2007
+quizzers:
+- name: "Alyssa Batchelder"
+  sort: "Batchelder, Alyssa"
+  l: "B"
+- name: "Daniel Clark"
+  sort: "Clark, Daniel"
+  l: "C"
+- name: "Joe Dean"
+  sort: "Dean, Joe"
+  l: "D"
+- name: "Sommer Ferguson"
+  sort: "Ferguson, Sommer"
+  l: "F"
+- name: "Whitney Garrison"
+  sort: "Garrison, Whitney"
+  l: "G"
+- name: "Colin Knoth"
+  sort: "Knoth, Colin"
+  l: "K"
+- name: "Braden McCready"
+  sort: "McCready, Braden"
+  l: "M"
+- name: "Alan Orcutt"
+  sort: "Orcutt, Alan"
+  l: "O"
+- name: "Tiffany Pettis"
+  sort: "Pettis, Tiffany"
+  l: "P"
+- name: "Blake Porter"
+  sort: "Porter, Blake"
+  l: "P"
+- name: "Laura Roller"
+  sort: "Roller, Laura"
+  l: "R"
+- name: "Micah Samuelson"
+  sort: "Samuelson, Micah"
+  l: "S"
+- name: "Daniel Wagner"
+  sort: "Wagner, Daniel"
+  l: "W"
+- name: "Josh Wagner"
+  sort: "Wagner, Josh"
+  l: "W"
+- name: "Chance Watts"
+  sort: "Watts, Chance"
+  l: "W"
 ---
 
 ## Championship Division
@@ -55,4 +103,3 @@ menubar_toc_static:
 |    3 | Daniel Wagner    | Owasso, OK                     |
 |    4 | Daniel Clark     | Central, Springfield           |
 |    5 | Laura Roller     | Faith Chapel, Overland Pk., KS |
-

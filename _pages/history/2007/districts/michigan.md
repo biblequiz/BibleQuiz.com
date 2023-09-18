@@ -9,6 +9,69 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
+type: t
+season: 2007
+quizzers:
+- name: "Kierstyn Anderson"
+  sort: "Anderson, Kierstyn"
+  l: "A"
+- name: "Danae Andrews"
+  sort: "Andrews, Danae"
+  l: "A"
+- name: "Gina Capotosto"
+  sort: "Capotosto, Gina"
+  l: "C"
+- name: "Isaac Conroy"
+  sort: "Conroy, Isaac"
+  l: "C"
+- name: "Caedy Convis"
+  sort: "Convis, Caedy"
+  l: "C"
+- name: "Chelsea Convis"
+  sort: "Convis, Chelsea"
+  l: "C"
+- name: "Cameron Davis"
+  sort: "Davis, Cameron"
+  l: "D"
+- name: "Olivia Davis"
+  sort: "Davis, Olivia"
+  l: "D"
+- name: "Brett Farris"
+  sort: "Farris, Brett"
+  l: "F"
+- name: "Joshua Kearney"
+  sort: "Kearney, Joshua"
+  l: "K"
+- name: "Janelle Klein"
+  sort: "Klein, Janelle"
+  l: "K"
+- name: "Rose Klein"
+  sort: "Klein, Rose"
+  l: "K"
+- name: "Hannah Kleindl"
+  sort: "Kleindl, Hannah"
+  l: "K"
+- name: "Jessie Kue"
+  sort: "Kue, Jessie"
+  l: "K"
+- name: "Hannah Leonhardt"
+  sort: "Leonhardt, Hannah"
+  l: "L"
+- name: "Kezia Mathew"
+  sort: "Mathew, Kezia"
+  l: "M"
+- name: "Ruth Paula"
+  sort: "Paula, Ruth"
+  l: "P"
+- name: "Anna Root"
+  sort: "Root, Anna"
+  l: "R"
+- name: "Jonas Sese"
+  sort: "Sese, Jonas"
+  l: "S"
+- name: "Erin Worman"
+  sort: "Worman, Erin"
+  l: "W"
 ---
 
 ## A Division
@@ -74,4 +137,3 @@ menubar_toc_static:
 |    8 | Ruth Paula       | Auburn Hills HY-PER |   315 |
 |    9 | Hannah Leonhardt | Cornerstone         |   300 |
 |   10 | Erin Worman      | Bethesda            |   250 |
-

@@ -9,6 +9,45 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "Brittany Asahara"
+  sort: "Asahara, Brittany"
+  l: "A"
+- name: "Christina Barrans"
+  sort: "Barrans, Christina"
+  l: "B"
+- name: "Juliann Born"
+  sort: "Born, Juliann"
+  l: "B"
+- name: "Peter Brown"
+  sort: "Brown, Peter"
+  l: "B"
+- name: "Matthew Conway"
+  sort: "Conway, Matthew"
+  l: "C"
+- name: "Jenny Dworzak"
+  sort: "Dworzak, Jenny"
+  l: "D"
+- name: "Tirzah Gosnell"
+  sort: "Gosnell, Tirzah"
+  l: "G"
+- name: "Bryce Jensen"
+  sort: "Jensen, Bryce"
+  l: "J"
+- name: "Will Jensen"
+  sort: "Jensen, Will"
+  l: "J"
+- name: "Marla Porter"
+  sort: "Porter, Marla"
+  l: "P"
+- name: "Owen Scott"
+  sort: "Scott, Owen"
+  l: "S"
+- name: "Jordan Shipley"
+  sort: "Shipley, Jordan"
+  l: "S"
 ---
 
 ## Division I-A
@@ -73,4 +112,3 @@ First year with Novice Teams at the tournament with *nine* teams. What a blessin
 |    3 | Bryce Jensen     | Meridian, ID            |
 |    4 | Will Jensen      | Meridian, ID            |
 |    5 | Brittany Asahara | Cedar Park, Bothell, WA |
-

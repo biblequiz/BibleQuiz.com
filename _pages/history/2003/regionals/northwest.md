@@ -9,6 +9,69 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
+type: t
+season: 2003
+quizzers:
+- name: "Natalie Asahara"
+  sort: "Asahara, Natalie"
+  l: "A"
+- name: "Jaclyn Baker"
+  sort: "Baker, Jaclyn"
+  l: "B"
+- name: "Janice Cole"
+  sort: "Cole, Janice"
+  l: "C"
+- name: "Lauryn Duffy"
+  sort: "Duffy, Lauryn"
+  l: "D"
+- name: "Jenny Dworzak"
+  sort: "Dworzak, Jenny"
+  l: "D"
+- name: "Jed Gosnell"
+  sort: "Gosnell, Jed"
+  l: "G"
+- name: "Lisa Hart"
+  sort: "Hart, Lisa"
+  l: "H"
+- name: "Bryce Jensen"
+  sort: "Jensen, Bryce"
+  l: "J"
+- name: "Stephen Langford"
+  sort: "Langford, Stephen"
+  l: "L"
+- name: "Collins Lawlor"
+  sort: "Lawlor, Collins"
+  l: "L"
+- name: "Miche'la Lenior"
+  sort: "Lenior, Miche'la"
+  l: "L"
+- name: "Arita Lickey"
+  sort: "Lickey, Arita"
+  l: "L"
+- name: "Stephen Mutch"
+  sort: "Mutch, Stephen"
+  l: "M"
+- name: "Richie Nelson"
+  sort: "Nelson, Richie"
+  l: "N"
+- name: "Jaymeson Pon"
+  sort: "Pon, Jaymeson"
+  l: "P"
+- name: "Amy Schauble"
+  sort: "Schauble, Amy"
+  l: "S"
+- name: "Davielle Shelman"
+  sort: "Shelman, Davielle"
+  l: "S"
+- name: "Annah Snyder"
+  sort: "Snyder, Annah"
+  l: "S"
+- name: "Leann Walz"
+  sort: "Walz, Leann"
+  l: "W"
+- name: "James Watt"
+  sort: "Watt, James"
+  l: "W"
 ---
 
 ## A Division
@@ -72,4 +135,3 @@ menubar_toc_static:
 |    8 | Arita Lickey     | Renton, WA     |   465 |
 |    9 | Leann Walz       | Renton, WA     |   420 |
 |   10 | Annah Snyder     | Bothell, WA    |   295 |
-

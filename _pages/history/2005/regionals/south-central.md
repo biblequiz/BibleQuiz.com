@@ -9,6 +9,69 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
+type: t
+season: 2005
+quizzers:
+- name: "Alyssa Batchelder"
+  sort: "Batchelder, Alyssa"
+  l: "B"
+- name: "Ariel Brookbank"
+  sort: "Brookbank, Ariel"
+  l: "B"
+- name: "Breanna Duncan"
+  sort: "Duncan, Breanna"
+  l: "D"
+- name: "Roysan Easo"
+  sort: "Easo, Roysan"
+  l: "E"
+- name: "Adam Forsman"
+  sort: "Forsman, Adam"
+  l: "F"
+- name: "Joshua Forsman"
+  sort: "Forsman, Joshua"
+  l: "F"
+- name: "Jason Gisi"
+  sort: "Gisi, Jason"
+  l: "G"
+- name: "Hannah Joens"
+  sort: "Joens, Hannah"
+  l: "J"
+- name: "Braden Jones"
+  sort: "Jones, Braden"
+  l: "J"
+- name: "Braden McCready"
+  sort: "McCready, Braden"
+  l: "M"
+- name: "Jared Paige"
+  sort: "Paige, Jared"
+  l: "P"
+- name: "Josh Peoples"
+  sort: "Peoples, Josh"
+  l: "P"
+- name: "Tiffany Pettis"
+  sort: "Pettis, Tiffany"
+  l: "P"
+- name: "Laura Roller"
+  sort: "Roller, Laura"
+  l: "R"
+- name: "Cameron Smith"
+  sort: "Smith, Cameron"
+  l: "S"
+- name: "Amy Summers"
+  sort: "Summers, Amy"
+  l: "S"
+- name: "Eowyn Thompson"
+  sort: "Thompson, Eowyn"
+  l: "T"
+- name: "Zacary Vaughn"
+  sort: "Vaughn, Zacary"
+  l: "V"
+- name: "Chance Watts"
+  sort: "Watts, Chance"
+  l: "W"
+- name: "Megan Welborn"
+  sort: "Welborn, Megan"
+  l: "W"
 ---
 
 ## A Division
@@ -80,4 +143,3 @@ menubar_toc_static:
 |    8 | Cameron Smith     | Noble            |   340 |   42 |
 |    9 | Josh Peoples      | Topeka 1st       |   325 |   40 |
 |   10 | Braden Jones      | Victorious Life  |   280 |   35 |
-

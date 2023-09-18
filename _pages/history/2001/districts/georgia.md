@@ -10,6 +10,72 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "Greg Aikens"
+  sort: "Aikens, Greg"
+  l: "A"
+- name: "Dylan Brumley"
+  sort: "Brumley, Dylan"
+  l: "B"
+- name: "Chris Cobbett"
+  sort: "Cobbett, Chris"
+  l: "C"
+- name: "Daniel Cowan"
+  sort: "Cowan, Daniel"
+  l: "C"
+- name: "Matthew Dykema"
+  sort: "Dykema, Matthew"
+  l: "D"
+- name: "Frank Fortunato"
+  sort: "Fortunato, Frank"
+  l: "F"
+- name: "Gina Fortunato"
+  sort: "Fortunato, Gina"
+  l: "F"
+- name: "Joseph Fortunato"
+  sort: "Fortunato, Joseph"
+  l: "F"
+- name: "Brandon Heitz"
+  sort: "Heitz, Brandon"
+  l: "H"
+- name: "Blayne Hiner"
+  sort: "Hiner, Blayne"
+  l: "H"
+- name: "Laura Jakstadt"
+  sort: "Jakstadt, Laura"
+  l: "J"
+- name: "Lynn Kunkel"
+  sort: "Kunkel, Lynn"
+  l: "K"
+- name: "Beth Lindsey"
+  sort: "Lindsey, Beth"
+  l: "L"
+- name: "Andrew Moore"
+  sort: "Moore, Andrew"
+  l: "M"
+- name: "Andrew Newport"
+  sort: "Newport, Andrew"
+  l: "N"
+- name: "Dustin Oakes"
+  sort: "Oakes, Dustin"
+  l: "O"
+- name: "Brandon Porter"
+  sort: "Porter, Brandon"
+  l: "P"
+- name: "Tony Rook"
+  sort: "Rook, Tony"
+  l: "R"
+- name: "Samuel Sundell"
+  sort: "Sundell, Samuel"
+  l: "S"
+- name: "Micah White"
+  sort: "White, Micah"
+  l: "W"
+- name: "Amanda Williams"
+  sort: "Williams, Amanda"
+  l: "W"
 ---
 
 ## A Division
@@ -66,4 +132,3 @@ menubar_toc_static:
 |    8 | Blayne Hiner    | Loganville  |    75 |      |
 |    9 | Dylan Brumley   | Loganville  |    35 |      |
 |   10 | Chris Cobbett   | Dunwoody #2 |    20 |      |
-

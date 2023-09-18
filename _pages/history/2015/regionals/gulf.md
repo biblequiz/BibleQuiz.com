@@ -10,6 +10,51 @@ menubar_toc_static:
   - name: 2015 Season
     link: /history/2015/
     icon: fas fa-home
+type: t
+season: 2015
+quizzers:
+- name: "Jed Brookbank"
+  sort: "Brookbank, Jed"
+  l: "B"
+- name: "Tirzah Brookbank"
+  sort: "Brookbank, Tirzah"
+  l: "B"
+- name: "Zach Brookbank"
+  sort: "Brookbank, Zach"
+  l: "B"
+- name: "Josh Clark"
+  sort: "Clark, Josh"
+  l: "C"
+- name: "Luna Cooper"
+  sort: "Cooper, Luna"
+  l: "C"
+- name: "Kacie Garrison"
+  sort: "Garrison, Kacie"
+  l: "G"
+- name: "Linsey Garrison"
+  sort: "Garrison, Linsey"
+  l: "G"
+- name: "Reagan Griessel"
+  sort: "Griessel, Reagan"
+  l: "G"
+- name: "Travis Griessel"
+  sort: "Griessel, Travis"
+  l: "G"
+- name: "Leisl Jansen"
+  sort: "Jansen, Leisl"
+  l: "J"
+- name: "Brock Peters"
+  sort: "Peters, Brock"
+  l: "P"
+- name: "Kara Peters"
+  sort: "Peters, Kara"
+  l: "P"
+- name: "Daniel Quick"
+  sort: "Quick, Daniel"
+  l: "Q"
+- name: "Hannah Quick"
+  sort: "Quick, Hannah"
+  l: "Q"
 ---
 
 ## A Division

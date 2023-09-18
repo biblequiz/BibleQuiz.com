@@ -10,6 +10,21 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "Chad Crawford"
+  sort: "Crawford, Chad"
+  l: "C"
+- name: "Heather Patterson"
+  sort: "Patterson, Heather"
+  l: "P"
+- name: "Amy Thomas"
+  sort: "Thomas, Amy"
+  l: "T"
+- name: "Kyle Williams"
+  sort: "Williams, Kyle"
+  l: "W"
 ---
 
 ## Teams
@@ -35,4 +50,3 @@ menubar_toc_static:
 |    2 | Kyle Williams     | Vero Beach   |   495 |
 |    3 | Chad Crawford     | Jacksonville |   445 |
 |    4 | Heather Patterson | Orlando      |   420 |
-

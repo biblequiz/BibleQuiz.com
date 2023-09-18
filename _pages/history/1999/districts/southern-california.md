@@ -10,6 +10,33 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "David Dorey"
+  sort: "Dorey, David"
+  l: "D"
+- name: "Jonathon Falkey"
+  sort: "Falkey, Jonathon"
+  l: "F"
+- name: "Melissa Falkey"
+  sort: "Falkey, Melissa"
+  l: "F"
+- name: "Holly Fellows"
+  sort: "Fellows, Holly"
+  l: "F"
+- name: "Ricky Haney"
+  sort: "Haney, Ricky"
+  l: "H"
+- name: "Donna Harris"
+  sort: "Harris, Donna"
+  l: "H"
+- name: "Courtney Lorenz"
+  sort: "Lorenz, Courtney"
+  l: "L"
+- name: "Kent Piacenti"
+  sort: "Piacenti, Kent"
+  l: "P"
 ---
 
 ## A Division
@@ -38,4 +65,3 @@ menubar_toc_static:
 |    6 | Jonathon Falkey | Orange County Worship  |   285 |  35.62 |         |
 |    7 | Melissa Falkey  | Orange County Worship  |   280 |  35.00 |         |
 |    8 | Donna Harris    | Newport Mesa Christian |   110 |  13.75 |         |
-

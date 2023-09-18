@@ -10,6 +10,39 @@ menubar_toc_static:
   - name: 2002 Season
     link: /history/2002/
     icon: fas fa-home
+type: t
+season: 2002
+quizzers:
+- name: "Caleb Ashton"
+  sort: "Ashton, Caleb"
+  l: "A"
+- name: "Elyssa DeFazio"
+  sort: "DeFazio, Elyssa"
+  l: "D"
+- name: "Kristen Fedon Evangel"
+  sort: "Evangel, Kristen Fedon"
+  l: "E"
+- name: "Ethan Lovell"
+  sort: "Lovell, Ethan"
+  l: "L"
+- name: "Jodi Mattocks"
+  sort: "Mattocks, Jodi"
+  l: "M"
+- name: "Cara Rozgonyi"
+  sort: "Rozgonyi, Cara"
+  l: "R"
+- name: "Jeremiah Sholly"
+  sort: "Sholly, Jeremiah"
+  l: "S"
+- name: "Joshua Sholly"
+  sort: "Sholly, Joshua"
+  l: "S"
+- name: "Kayla Stamm"
+  sort: "Stamm, Kayla"
+  l: "S"
+- name: "Kendra Willman"
+  sort: "Willman, Kendra"
+  l: "W"
 ---
 
 ## Teams

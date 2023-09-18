@@ -10,6 +10,30 @@ menubar_toc_static:
   - name: 1978 Season
     link: /history/1978/
     icon: fas fa-home
+type: t
+season: 1978
+quizzers:
+- name: "Jim Brent"
+  sort: "Brent, Jim"
+  l: "B"
+- name: "Kari Brodin"
+  sort: "Brodin, Kari"
+  l: "B"
+- name: "Mike Cocolin"
+  sort: "Cocolin, Mike"
+  l: "C"
+- name: "Greg Kelley"
+  sort: "Kelley, Greg"
+  l: "K"
+- name: "Rhett Laurens"
+  sort: "Laurens, Rhett"
+  l: "L"
+- name: "Sherah Rury"
+  sort: "Rury, Sherah"
+  l: "R"
+- name: "Ronnie Wright"
+  sort: "Wright, Ronnie"
+  l: "W"
 ---
 
 ![]({% link assets/1978/78match.jpg %})

@@ -9,6 +9,21 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
+type: t
+season: 2003
+quizzers:
+- name: "Andrew Godfrey"
+  sort: "Godfrey, Andrew"
+  l: "G"
+- name: "Daniel Godfrey"
+  sort: "Godfrey, Daniel"
+  l: "G"
+- name: "Bethany Hedberg"
+  sort: "Hedberg, Bethany"
+  l: "H"
+- name: "Zoe Lopez"
+  sort: "Lopez, Zoe"
+  l: "L"
 ---
 
 ## A Division
@@ -41,4 +56,3 @@ menubar_toc_static:
 | ---: | --------------- | -------------------------- | ----: | ---: |
 |      | Zoe Lopez       | Albuquerque Revival Center |   460 |   66 |
 |      | Bethany Hedberg | Albuquerque Revival Center |   450 |   64 |
-

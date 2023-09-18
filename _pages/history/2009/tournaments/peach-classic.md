@@ -9,6 +9,63 @@ menubar_toc_static:
   - name: 2009 Season
     link: /history/2009/
     icon: fas fa-home
+type: t
+season: 2009
+quizzers:
+- name: "Ronnie Adams"
+  sort: "Adams, Ronnie"
+  l: "A"
+- name: "Ceiran Beasley"
+  sort: "Beasley, Ceiran"
+  l: "B"
+- name: "Sarah Belay"
+  sort: "Belay, Sarah"
+  l: "B"
+- name: "Yoki Belay"
+  sort: "Belay, Yoki"
+  l: "B"
+- name: "Erin Borah"
+  sort: "Borah, Erin"
+  l: "B"
+- name: "Rodney Brown"
+  sort: "Brown, Rodney"
+  l: "B"
+- name: "Roman Brown"
+  sort: "Brown, Roman"
+  l: "B"
+- name: "Katie Fleck"
+  sort: "Fleck, Katie"
+  l: "F"
+- name: "Meghan Gibson"
+  sort: "Gibson, Meghan"
+  l: "G"
+- name: "Isabella Lex"
+  sort: "Lex, Isabella"
+  l: "L"
+- name: "James Lex"
+  sort: "Lex, James"
+  l: "L"
+- name: "Angela Magditch"
+  sort: "Magditch, Angela"
+  l: "M"
+- name: "Emma McBrearty"
+  sort: "McBrearty, Emma"
+  l: "M"
+- name: "Jarvis Mills"
+  sort: "Mills, Jarvis"
+  l: "M"
+- name: "Daniel Parr"
+  sort: "Parr, Daniel"
+  l: "P"
+- name: "Anna Rice"
+  sort: "Rice, Anna"
+  l: "R"
+- name: "Rachel Rice"
+  sort: "Rice, Rachel"
+  l: "R"
+- name: "Kristina Smith"
+  sort: "Smith, Kristina"
+  l: "S"
 ---
 
 ## A League
@@ -73,4 +130,3 @@ menubar_toc_static:
 |    5 | Roman Brown     | Snellville    |   195 |
 |    6 | Kristina Smith  | Dahlonega     |   120 |
 |    7 | Emma McBrearty  | Warner Robins |    90 |
-

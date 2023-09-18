@@ -9,6 +9,69 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
+type: t
+season: 2008
+quizzers:
+- name: "Janae Bakke"
+  sort: "Bakke, Janae"
+  l: "B"
+- name: "Miranda Benningfield"
+  sort: "Benningfield, Miranda"
+  l: "B"
+- name: "Anastazja Bury"
+  sort: "Bury, Anastazja"
+  l: "B"
+- name: "Brandon Duffy"
+  sort: "Duffy, Brandon"
+  l: "D"
+- name: "Jenna-Jo Duffy"
+  sort: "Duffy, Jenna-Jo"
+  l: "D"
+- name: "Kara Gallo"
+  sort: "Gallo, Kara"
+  l: "G"
+- name: "Emily Ganzfried"
+  sort: "Ganzfried, Emily"
+  l: "G"
+- name: "Melissa Ganzfried"
+  sort: "Ganzfried, Melissa"
+  l: "G"
+- name: "Devon Griggs"
+  sort: "Griggs, Devon"
+  l: "G"
+- name: "Annalies Herms"
+  sort: "Herms, Annalies"
+  l: "H"
+- name: "Mikayla Irle"
+  sort: "Irle, Mikayla"
+  l: "I"
+- name: "Heather Karnes"
+  sort: "Karnes, Heather"
+  l: "K"
+- name: "Isaac Moore"
+  sort: "Moore, Isaac"
+  l: "M"
+- name: "Jessica Moore"
+  sort: "Moore, Jessica"
+  l: "M"
+- name: "JP O'Connor"
+  sort: "O'Connor, JP"
+  l: "O"
+- name: "Rachel Preston"
+  sort: "Preston, Rachel"
+  l: "P"
+- name: "Adi Purohith"
+  sort: "Purohith, Adi"
+  l: "P"
+- name: "Ani Purohith"
+  sort: "Purohith, Ani"
+  l: "P"
+- name: "Cecily Spicer"
+  sort: "Spicer, Cecily"
+  l: "S"
+- name: "Flynn Spicer"
+  sort: "Spicer, Flynn"
+  l: "S"
 ---
 
 ## A-1 Division
@@ -82,4 +145,3 @@ menubar_toc_static:
 |    3 | Adi Purohith   | "Power & Dominion"    |   28 |
 |    4 | Jessica Moore  | "Three Spies"         |   14 |
 |    5 | Ani Purohith   | "Power & Dominion"    |    4 |
-

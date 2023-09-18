@@ -10,6 +10,45 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
+type: t
+season: 2005
+quizzers:
+- name: "Cody Boorman"
+  sort: "Boorman, Cody"
+  l: "B"
+- name: "Stacey Brothers"
+  sort: "Brothers, Stacey"
+  l: "B"
+- name: "Ashley Carter"
+  sort: "Carter, Ashley"
+  l: "C"
+- name: "Tierney Gillihan"
+  sort: "Gillihan, Tierney"
+  l: "G"
+- name: "Bryce Jensen"
+  sort: "Jensen, Bryce"
+  l: "J"
+- name: "Ivy Jensen"
+  sort: "Jensen, Ivy"
+  l: "J"
+- name: "Darren Larson"
+  sort: "Larson, Darren"
+  l: "L"
+- name: "Melissa Larson"
+  sort: "Larson, Melissa"
+  l: "L"
+- name: "Dustin Leverett"
+  sort: "Leverett, Dustin"
+  l: "L"
+- name: "Jenny Mallory"
+  sort: "Mallory, Jenny"
+  l: "M"
+- name: "Shelby Plumer"
+  sort: "Plumer, Shelby"
+  l: "P"
+- name: "Genelle Weimer"
+  sort: "Weimer, Genelle"
+  l: "W"
 ---
 
 ## A Division
@@ -57,4 +96,3 @@ menubar_toc_static:
 |    4 | Ivy Jensen       | Meridian    |   805 |
 |    5 | Jenny Mallory    | Cornerstone |   400 |
 |    6 | Cody Boorman     | Meridian    |   340 |
-

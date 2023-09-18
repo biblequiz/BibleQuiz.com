@@ -9,6 +9,18 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "Jamie Bennett"
+  sort: "Bennett, Jamie"
+  l: "B"
+- name: "Michael Kindel"
+  sort: "Kindel, Michael"
+  l: "K"
+- name: "Pat Tufton"
+  sort: "Tufton, Pat"
+  l: "T"
 ---
 
 Triple round robin state finals with 3 teams competing for the two positions to advance to regionals.

@@ -10,6 +10,72 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
+type: t
+season: 2005
+quizzers:
+- name: "Amanda Belmont"
+  sort: "Belmont, Amanda"
+  l: "B"
+- name: "Nathan Boeckers"
+  sort: "Boeckers, Nathan"
+  l: "B"
+- name: "Billy Branham"
+  sort: "Branham, Billy"
+  l: "B"
+- name: "Zach Ehr"
+  sort: "Ehr, Zach"
+  l: "E"
+- name: "Krista Erickson"
+  sort: "Erickson, Krista"
+  l: "E"
+- name: "Danielle Goodrich"
+  sort: "Goodrich, Danielle"
+  l: "G"
+- name: "Miranda Haberberg"
+  sort: "Haberberg, Miranda"
+  l: "H"
+- name: "Daniel Kober"
+  sort: "Kober, Daniel"
+  l: "K"
+- name: "Bethany Laakkonen"
+  sort: "Laakkonen, Bethany"
+  l: "L"
+- name: "Paul McConley"
+  sort: "McConley, Paul"
+  l: "M"
+- name: "Sam McCumber"
+  sort: "McCumber, Sam"
+  l: "M"
+- name: "Shaunna McCumber"
+  sort: "McCumber, Shaunna"
+  l: "M"
+- name: "Logan Newman"
+  sort: "Newman, Logan"
+  l: "N"
+- name: "Spencer Newman"
+  sort: "Newman, Spencer"
+  l: "N"
+- name: "Chelsey Oswald"
+  sort: "Oswald, Chelsey"
+  l: "O"
+- name: "Anthony Resnick"
+  sort: "Resnick, Anthony"
+  l: "R"
+- name: "Sarah Sharkey"
+  sort: "Sharkey, Sarah"
+  l: "S"
+- name: "Brie Sheard"
+  sort: "Sheard, Brie"
+  l: "S"
+- name: "Ross Toeller"
+  sort: "Toeller, Ross"
+  l: "T"
+- name: "Jacob Turnage"
+  sort: "Turnage, Jacob"
+  l: "T"
+- name: "Josh Turner"
+  sort: "Turner, Josh"
+  l: "T"
 ---
 
 ## Division I
@@ -77,4 +143,3 @@ menubar_toc_static:
 |    8 | Paul McConley    | Elkhorn         |   130 | 16.3 |      8 |
 |    9 | Anthony Resnick  | Mad. Evangel    |    95 | 11.9 |      8 |
 |   9* | Nathan Boeckers  | Plymouth        |    95 | 11.9 |      8 |
-

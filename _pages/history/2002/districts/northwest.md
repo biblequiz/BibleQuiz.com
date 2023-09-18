@@ -10,6 +10,54 @@ menubar_toc_static:
   - name: 2002 Season
     link: /history/2002/
     icon: fas fa-home
+type: t
+season: 2002
+quizzers:
+- name: "Brittany Asahara"
+  sort: "Asahara, Brittany"
+  l: "A"
+- name: "Natalie Asahara"
+  sort: "Asahara, Natalie"
+  l: "A"
+- name: "Jarron Born"
+  sort: "Born, Jarron"
+  l: "B"
+- name: "Jenny Dworzak"
+  sort: "Dworzak, Jenny"
+  l: "D"
+- name: "Jed Gosnell"
+  sort: "Gosnell, Jed"
+  l: "G"
+- name: "Tirzah Gosnell"
+  sort: "Gosnell, Tirzah"
+  l: "G"
+- name: "Hilary Kunnanz"
+  sort: "Kunnanz, Hilary"
+  l: "K"
+- name: "Stephen Langford"
+  sort: "Langford, Stephen"
+  l: "L"
+- name: "Richie Nelson"
+  sort: "Nelson, Richie"
+  l: "N"
+- name: "Erik Normansen"
+  sort: "Normansen, Erik"
+  l: "N"
+- name: "Danny Patient"
+  sort: "Patient, Danny"
+  l: "P"
+- name: "Angela Savage"
+  sort: "Savage, Angela"
+  l: "S"
+- name: "Abigail Schaufler"
+  sort: "Schaufler, Abigail"
+  l: "S"
+- name: "Jordan Shipley"
+  sort: "Shipley, Jordan"
+  l: "S"
+- name: "James Watt"
+  sort: "Watt, James"
+  l: "W"
 ---
 
 ## A-1 Division
@@ -81,4 +129,3 @@ menubar_toc_static:
 |    3 | Tacoma Life Center 3                  |    4 |    4 |   780 |
 |    4 | Calvary Temple 2                      |    3 |    5 |   775 |
 |    5 | Lake City 2                           |    0 |    8 |   100 |
-

@@ -10,6 +10,54 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
+type: t
+season: 2008
+quizzers:
+- name: "Rosina Albanese"
+  sort: "Albanese, Rosina"
+  l: "A"
+- name: "Christopher Galea"
+  sort: "Galea, Christopher"
+  l: "G"
+- name: "Steve Herring"
+  sort: "Herring, Steve"
+  l: "H"
+- name: "John Karluk"
+  sort: "Karluk, John"
+  l: "K"
+- name: "Gabriela Martinez"
+  sort: "Martinez, Gabriela"
+  l: "M"
+- name: "Robbie Mitchell"
+  sort: "Mitchell, Robbie"
+  l: "M"
+- name: "Brandon Rhynders"
+  sort: "Rhynders, Brandon"
+  l: "R"
+- name: "David Richards"
+  sort: "Richards, David"
+  l: "R"
+- name: "Anthony Sanders"
+  sort: "Sanders, Anthony"
+  l: "S"
+- name: "Renee Sanders"
+  sort: "Sanders, Renee"
+  l: "S"
+- name: "Stefan Scarinizi"
+  sort: "Scarinizi, Stefan"
+  l: "S"
+- name: "Kyler Sederwall"
+  sort: "Sederwall, Kyler"
+  l: "S"
+- name: "Benji Songsong"
+  sort: "Songsong, Benji"
+  l: "S"
+- name: "Isaac Ward"
+  sort: "Ward, Isaac"
+  l: "W"
+- name: "LaJoie Ward"
+  sort: "Ward, LaJoie"
+  l: "W"
 ---
 
 ## A League
@@ -69,4 +117,3 @@ menubar_toc_static:
 |    3 | Renee Sanders     | First A/G, Binghamton, NY |   740 |    4 |   62 |
 |    4 | Anthony Sanders   | First A/G, Binghamton, NY |   485 |    4 |   40 |
 |    5 | Stefan Scarinizi  | First A/G, Binghamton, NY |    90 |    0 |    8 |
-

@@ -10,6 +10,39 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
+type: t
+season: 2005
+quizzers:
+- name: "Jonathan Barthuly"
+  sort: "Barthuly, Jonathan"
+  l: "B"
+- name: "Trevor Eastin"
+  sort: "Eastin, Trevor"
+  l: "E"
+- name: "PJ Grigg"
+  sort: "Grigg, PJ"
+  l: "G"
+- name: "Tiffany Hendrix"
+  sort: "Hendrix, Tiffany"
+  l: "H"
+- name: "Andrew Kelly"
+  sort: "Kelly, Andrew"
+  l: "K"
+- name: "Molly Pace"
+  sort: "Pace, Molly"
+  l: "P"
+- name: "James Pryer"
+  sort: "Pryer, James"
+  l: "P"
+- name: "Scott Reyes"
+  sort: "Reyes, Scott"
+  l: "R"
+- name: "Michael Rose"
+  sort: "Rose, Michael"
+  l: "R"
+- name: "Brandyn Shepherd"
+  sort: "Shepherd, Brandyn"
+  l: "S"
 ---
 
 ## Teams
@@ -41,4 +74,3 @@ menubar_toc_static:
 |    8 | Brandyn Shepherd  | Mesa, AZ             |   695 |  49.6 |    5 |
 |    9 | PJ Grigg          | Colorado Springs, CO |   545 |  38.9 |    4 |
 |   10 | Tiffany Hendrix   | Phoenix, AZ          |   545 |  38.9 |    2 |
-

@@ -10,6 +10,39 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "Caleb Booth"
+  sort: "Booth, Caleb"
+  l: "B"
+- name: "Lydia Butay"
+  sort: "Butay, Lydia"
+  l: "B"
+- name: "Dan Marlow"
+  sort: "Marlow, Dan"
+  l: "M"
+- name: "Dapo Masha"
+  sort: "Masha, Dapo"
+  l: "M"
+- name: "Nate McFarland"
+  sort: "McFarland, Nate"
+  l: "M"
+- name: "Philip Mefford"
+  sort: "Mefford, Philip"
+  l: "M"
+- name: "Albert Osueke"
+  sort: "Osueke, Albert"
+  l: "O"
+- name: "Michael Pearson"
+  sort: "Pearson, Michael"
+  l: "P"
+- name: "Amanda Pryor"
+  sort: "Pryor, Amanda"
+  l: "P"
+- name: "April Pryor"
+  sort: "Pryor, April"
+  l: "P"
 ---
 
 ## Teams

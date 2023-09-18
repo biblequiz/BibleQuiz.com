@@ -10,6 +10,45 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "Laura Brothers"
+  sort: "Brothers, Laura"
+  l: "B"
+- name: "Andrea Bunnis"
+  sort: "Bunnis, Andrea"
+  l: "B"
+- name: "Kevin Gillatt"
+  sort: "Gillatt, Kevin"
+  l: "G"
+- name: "Will Jensen"
+  sort: "Jensen, Will"
+  l: "J"
+- name: "Michelle Larrabee"
+  sort: "Larrabee, Michelle"
+  l: "L"
+- name: "Wendy Mercer"
+  sort: "Mercer, Wendy"
+  l: "M"
+- name: "Jennifer Pon"
+  sort: "Pon, Jennifer"
+  l: "P"
+- name: "Jon Pon"
+  sort: "Pon, Jon"
+  l: "P"
+- name: "Chandra Porter"
+  sort: "Porter, Chandra"
+  l: "P"
+- name: "Marla Porter"
+  sort: "Porter, Marla"
+  l: "P"
+- name: "Daniel Wight"
+  sort: "Wight, Daniel"
+  l: "W"
+- name: "Cathy Wood"
+  sort: "Wood, Cathy"
+  l: "W"
 ---
 
 ## A Division
@@ -38,4 +77,3 @@ menubar_toc_static:
 |    9 | Will Jensen       | Meridian          |
 |   9* | Daniel Wight      | Fruitland         |
 |   10 | Cathy Wood        | Fruitland         |
-

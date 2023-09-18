@@ -10,6 +10,27 @@ menubar_toc_static:
   - name: 1983 Season
     link: /history/1983/
     icon: fas fa-home
+type: t
+season: 1983
+quizzers:
+- name: "Steve Eastin"
+  sort: "Eastin, Steve"
+  l: "E"
+- name: "Paul Freitag"
+  sort: "Freitag, Paul"
+  l: "F"
+- name: "Debbie Kalmar"
+  sort: "Kalmar, Debbie"
+  l: "K"
+- name: "Joseph Leija"
+  sort: "Leija, Joseph"
+  l: "L"
+- name: "Mark Malone"
+  sort: "Malone, Mark"
+  l: "M"
+- name: "John Wooton"
+  sort: "Wooton, John"
+  l: "W"
 ---
 
 ![]({% link assets/1983/LA-NewOrleans.jpg %})

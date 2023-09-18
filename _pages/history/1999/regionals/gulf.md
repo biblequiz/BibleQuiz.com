@@ -10,6 +10,27 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "Justin Aides"
+  sort: "Aides, Justin"
+  l: "A"
+- name: "Joey Bohanon"
+  sort: "Bohanon, Joey"
+  l: "B"
+- name: "Hannah Duncan"
+  sort: "Duncan, Hannah"
+  l: "D"
+- name: "Richard Fair"
+  sort: "Fair, Richard"
+  l: "F"
+- name: "Eric Hernando"
+  sort: "Hernando, Eric"
+  l: "H"
+- name: "Megan Pincombe"
+  sort: "Pincombe, Megan"
+  l: "P"
 ---
 
 ## Top Teams
@@ -30,4 +51,3 @@ menubar_toc_static:
 |    4 | Megan Pincombe | Central A/G, Springfield, MO       |
 |    5 | Eric Hernando  | King's Chapel A/G, Springfield, MO |
 |    6 | Hannah Duncan  | King's Chapel A/G, Springfield, MO |
-

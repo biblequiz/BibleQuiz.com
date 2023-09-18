@@ -10,6 +10,69 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "Andrew Davidhizar"
+  sort: "Davidhizar, Andrew"
+  l: "D"
+- name: "Cynthia Decker"
+  sort: "Decker, Cynthia"
+  l: "D"
+- name: "Ryan Elam"
+  sort: "Elam, Ryan"
+  l: "E"
+- name: "Tim Fraticelli"
+  sort: "Fraticelli, Tim"
+  l: "F"
+- name: "Quinn Harr"
+  sort: "Harr, Quinn"
+  l: "H"
+- name: "Amber Hise"
+  sort: "Hise, Amber"
+  l: "H"
+- name: "Jordan Howe"
+  sort: "Howe, Jordan"
+  l: "H"
+- name: "Joshua Kliendl"
+  sort: "Kliendl, Joshua"
+  l: "K"
+- name: "Sarah Kliendl"
+  sort: "Kliendl, Sarah"
+  l: "K"
+- name: "Eric Lanzer"
+  sort: "Lanzer, Eric"
+  l: "L"
+- name: "Noah McCalment"
+  sort: "McCalment, Noah"
+  l: "M"
+- name: "Andrea Perry"
+  sort: "Perry, Andrea"
+  l: "P"
+- name: "Linden Rost"
+  sort: "Rost, Linden"
+  l: "R"
+- name: "Bailey Steel"
+  sort: "Steel, Bailey"
+  l: "S"
+- name: "Brandy Steel"
+  sort: "Steel, Brandy"
+  l: "S"
+- name: "Bryce Steel"
+  sort: "Steel, Bryce"
+  l: "S"
+- name: "Jeremy White"
+  sort: "White, Jeremy"
+  l: "W"
+- name: "Mark Whitehead"
+  sort: "Whitehead, Mark"
+  l: "W"
+- name: "Bethany Whitford"
+  sort: "Whitford, Bethany"
+  l: "W"
+- name: "Brooke Whitford"
+  sort: "Whitford, Brooke"
+  l: "W"
 ---
 
 ## A Division
@@ -87,4 +150,3 @@ menubar_toc_static:
 |    8 | Ryan Elam      | Lexington           |   850 |  70.83 |
 |    9 | Joshua Kliendl | Auburn Hills        |   815 |  67.92 |
 |   10 | Linden Rost    | Demotte             |   805 |  67.08 |
-

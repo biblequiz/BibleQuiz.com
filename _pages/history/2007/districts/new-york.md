@@ -10,6 +10,69 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
+type: t
+season: 2007
+quizzers:
+- name: "Amanda Carini"
+  sort: "Carini, Amanda"
+  l: "C"
+- name: "Sherilyn Fenton"
+  sort: "Fenton, Sherilyn"
+  l: "F"
+- name: "Scott Gainey"
+  sort: "Gainey, Scott"
+  l: "G"
+- name: "Brian Haimchand"
+  sort: "Haimchand, Brian"
+  l: "H"
+- name: "Clifton Haimchand"
+  sort: "Haimchand, Clifton"
+  l: "H"
+- name: "John Karluk"
+  sort: "Karluk, John"
+  l: "K"
+- name: "Timothy Ortiz"
+  sort: "Ortiz, Timothy"
+  l: "O"
+- name: "Michelle Procanick"
+  sort: "Procanick, Michelle"
+  l: "P"
+- name: "Brandon Rhynders"
+  sort: "Rhynders, Brandon"
+  l: "R"
+- name: "Jonathan Sanger"
+  sort: "Sanger, Jonathan"
+  l: "S"
+- name: "Corina Scarinzi"
+  sort: "Scarinzi, Corina"
+  l: "S"
+- name: "Jianna Shawver"
+  sort: "Shawver, Jianna"
+  l: "S"
+- name: "Amy Siddall"
+  sort: "Siddall, Amy"
+  l: "S"
+- name: "Jared Siddall"
+  sort: "Siddall, Jared"
+  l: "S"
+- name: "Reuben Singh"
+  sort: "Singh, Reuben"
+  l: "S"
+- name: "Jacqueline Steves"
+  sort: "Steves, Jacqueline"
+  l: "S"
+- name: "Alyssa Tucker"
+  sort: "Tucker, Alyssa"
+  l: "T"
+- name: "Josh Visalli"
+  sort: "Visalli, Josh"
+  l: "V"
+- name: "Isaac Ward"
+  sort: "Ward, Isaac"
+  l: "W"
+- name: "LaJoie Ward"
+  sort: "Ward, LaJoie"
+  l: "W"
 ---
 
 ## A Division
@@ -72,4 +135,3 @@ menubar_toc_static:
 |    8 | Jianna Shawver    | Living Hope Assembly of God, Waterloo |   230 |    2 |   46 |
 |    9 | Jacqueline Steves | Webster Assembly of God               |   210 |    0 |   42 |
 |   10 | Reuben Singh      | Bethlehem Church, Richmond Hill       |   195 |    1 |   39 |
-

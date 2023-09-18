@@ -10,6 +10,69 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "Brandon Ashton"
+  sort: "Ashton, Brandon"
+  l: "A"
+- name: "Eunice Awuah"
+  sort: "Awuah, Eunice"
+  l: "A"
+- name: "CJ Barna"
+  sort: "Barna, CJ"
+  l: "B"
+- name: "Hannah Bashor"
+  sort: "Bashor, Hannah"
+  l: "B"
+- name: "Joey Bolognone"
+  sort: "Bolognone, Joey"
+  l: "B"
+- name: "Anji Burnworth"
+  sort: "Burnworth, Anji"
+  l: "B"
+- name: "Tyler Burnworth"
+  sort: "Burnworth, Tyler"
+  l: "B"
+- name: "Brennan DeFazio"
+  sort: "DeFazio, Brennan"
+  l: "D"
+- name: "Jim Fenton"
+  sort: "Fenton, Jim"
+  l: "F"
+- name: "David Guthrie"
+  sort: "Guthrie, David"
+  l: "G"
+- name: "Teresa Henderson"
+  sort: "Henderson, Teresa"
+  l: "H"
+- name: "Dave Herbert"
+  sort: "Herbert, Dave"
+  l: "H"
+- name: "Aaron Kohler"
+  sort: "Kohler, Aaron"
+  l: "K"
+- name: "Jessica Laine"
+  sort: "Laine, Jessica"
+  l: "L"
+- name: "Dan McLaughlin"
+  sort: "McLaughlin, Dan"
+  l: "M"
+- name: "Lori Rozgonyi"
+  sort: "Rozgonyi, Lori"
+  l: "R"
+- name: "Nilay Saiya"
+  sort: "Saiya, Nilay"
+  l: "S"
+- name: "Jared Stepp"
+  sort: "Stepp, Jared"
+  l: "S"
+- name: "Stephen Waldron"
+  sort: "Waldron, Stephen"
+  l: "W"
+- name: "Becky York"
+  sort: "York, Becky"
+  l: "Y"
 ---
 
 ## A Division
@@ -87,4 +150,3 @@ menubar_toc_static:
 |    8 | Hannah Bashor    | Calvary A/G, Connellsville PA   |   495 |    2 |
 |    9 | Brandon Ashton   | Allison Park (PA) A/G           |   465 |    2 |
 |   10 | Stephen Waldron  | Trinity A/G, Derry NH           |   460 |    2 |
-

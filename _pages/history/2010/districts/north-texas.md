@@ -9,6 +9,33 @@ menubar_toc_static:
   - name: 2010 Season
     link: /history/2010/
     icon: fas fa-home
+type: t
+season: 2010
+quizzers:
+- name: "Mitchell Barker"
+  sort: "Barker, Mitchell"
+  l: "B"
+- name: "Caleb Byers"
+  sort: "Byers, Caleb"
+  l: "B"
+- name: "Wayne Elkins"
+  sort: "Elkins, Wayne"
+  l: "E"
+- name: "Kelli Guinn"
+  sort: "Guinn, Kelli"
+  l: "G"
+- name: "Austin Lovekamp"
+  sort: "Lovekamp, Austin"
+  l: "L"
+- name: "Kaleigh Lovekamp"
+  sort: "Lovekamp, Kaleigh"
+  l: "L"
+- name: "Emily Purcell"
+  sort: "Purcell, Emily"
+  l: "P"
+- name: "Sara Purcell"
+  sort: "Purcell, Sara"
+  l: "P"
 ---
 
 ## Teams

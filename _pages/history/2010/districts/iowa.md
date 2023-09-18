@@ -9,6 +9,33 @@ menubar_toc_static:
   - name: 2010 Season
     link: /history/2010/
     icon: fas fa-home
+type: t
+season: 2010
+quizzers:
+- name: "Katrine Bopp"
+  sort: "Bopp, Katrine"
+  l: "B"
+- name: "Josiah Coder"
+  sort: "Coder, Josiah"
+  l: "C"
+- name: "Devon Colegrove"
+  sort: "Colegrove, Devon"
+  l: "C"
+- name: "Jenn Maki"
+  sort: "Maki, Jenn"
+  l: "M"
+- name: "Anna Plank"
+  sort: "Plank, Anna"
+  l: "P"
+- name: "Jonathan Plank"
+  sort: "Plank, Jonathan"
+  l: "P"
+- name: "Matthias Plank"
+  sort: "Plank, Matthias"
+  l: "P"
+- name: "Mikaela Plank"
+  sort: "Plank, Mikaela"
+  l: "P"
 ---
 
 ## A Division

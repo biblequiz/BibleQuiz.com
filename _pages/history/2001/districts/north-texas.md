@@ -9,6 +9,54 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "Meagan Busby"
+  sort: "Busby, Meagan"
+  l: "B"
+- name: "Kevin Davis"
+  sort: "Davis, Kevin"
+  l: "D"
+- name: "Sharon Ely"
+  sort: "Ely, Sharon"
+  l: "E"
+- name: "Sterling Johnson"
+  sort: "Johnson, Sterling"
+  l: "J"
+- name: "Janelle Kargel"
+  sort: "Kargel, Janelle"
+  l: "K"
+- name: "Laura Mallett"
+  sort: "Mallett, Laura"
+  l: "M"
+- name: "Adam Palmer"
+  sort: "Palmer, Adam"
+  l: "P"
+- name: "Andrea Palmer"
+  sort: "Palmer, Andrea"
+  l: "P"
+- name: "Michael Pearson"
+  sort: "Pearson, Michael"
+  l: "P"
+- name: "Wendy Pearson"
+  sort: "Pearson, Wendy"
+  l: "P"
+- name: "Amanda Pryor"
+  sort: "Pryor, Amanda"
+  l: "P"
+- name: "April Pryor"
+  sort: "Pryor, April"
+  l: "P"
+- name: "Dayton Shorter"
+  sort: "Shorter, Dayton"
+  l: "S"
+- name: "EJ Spears"
+  sort: "Spears, EJ"
+  l: "S"
+- name: "Marie Trower"
+  sort: "Trower, Marie"
+  l: "T"
 ---
 
 ## A Division
@@ -65,4 +113,3 @@ menubar_toc_static:
 |    3 | Wendy Pearson  | Oak Cliff |
 |    4 | Marie Trower   | Moody     |
 |    5 | Janelle Kargel | Oak Cliff |
-

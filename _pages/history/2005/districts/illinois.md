@@ -9,6 +9,72 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
+type: t
+season: 2005
+quizzers:
+- name: "Lonnie Brooks"
+  sort: "Brooks, Lonnie"
+  l: "B"
+- name: "James Burke"
+  sort: "Burke, James"
+  l: "B"
+- name: "Max Burke"
+  sort: "Burke, Max"
+  l: "B"
+- name: "Sarah Caraotta"
+  sort: "Caraotta, Sarah"
+  l: "C"
+- name: "Aaron Carlson"
+  sort: "Carlson, Aaron"
+  l: "C"
+- name: "Elizabeth Centeno"
+  sort: "Centeno, Elizabeth"
+  l: "C"
+- name: "Abigail Eschbach"
+  sort: "Eschbach, Abigail"
+  l: "E"
+- name: "Joey Fettig"
+  sort: "Fettig, Joey"
+  l: "F"
+- name: "Miriam Ibarra"
+  sort: "Ibarra, Miriam"
+  l: "I"
+- name: "Mahalia Kahsay"
+  sort: "Kahsay, Mahalia"
+  l: "K"
+- name: "Derrick Leone"
+  sort: "Leone, Derrick"
+  l: "L"
+- name: "Dan Ley"
+  sort: "Ley, Dan"
+  l: "L"
+- name: "Jon Ley"
+  sort: "Ley, Jon"
+  l: "L"
+- name: "Ben Morris"
+  sort: "Morris, Ben"
+  l: "M"
+- name: "Stephen Muller"
+  sort: "Muller, Stephen"
+  l: "M"
+- name: "Jordan Paulsen"
+  sort: "Paulsen, Jordan"
+  l: "P"
+- name: "Stephen Scott"
+  sort: "Scott, Stephen"
+  l: "S"
+- name: "Haley Spangler"
+  sort: "Spangler, Haley"
+  l: "S"
+- name: "Kim Stout"
+  sort: "Stout, Kim"
+  l: "S"
+- name: "Rachael Stout"
+  sort: "Stout, Rachael"
+  l: "S"
+- name: "Cody Wolf"
+  sort: "Wolf, Cody"
+  l: "W"
 ---
 
 ## A Division
@@ -75,4 +141,3 @@ menubar_toc_static:
 |    8 | Max Burke        | Rockford     |   230 |  32.86 |
 |    9 | Joey Fettig      | Princeton    |   185 |  26.43 |
 |   10 | Sarah Caraotta   | Rockford     |   165 |  23.57 |
-

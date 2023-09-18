@@ -10,6 +10,66 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "David Dorey"
+  sort: "Dorey, David"
+  l: "D"
+- name: "Scott Hamilton"
+  sort: "Hamilton, Scott"
+  l: "H"
+- name: "Ricky Haney"
+  sort: "Haney, Ricky"
+  l: "H"
+- name: "Derek Harris"
+  sort: "Harris, Derek"
+  l: "H"
+- name: "Dayna Johnson"
+  sort: "Johnson, Dayna"
+  l: "J"
+- name: "Sterling Johnson"
+  sort: "Johnson, Sterling"
+  l: "J"
+- name: "Valerie Marchalonis"
+  sort: "Marchalonis, Valerie"
+  l: "M"
+- name: "Nellena Nelson"
+  sort: "Nelson, Nellena"
+  l: "N"
+- name: "Molly Pace"
+  sort: "Pace, Molly"
+  l: "P"
+- name: "Sara Parish"
+  sort: "Parish, Sara"
+  l: "P"
+- name: "Michael Pearson"
+  sort: "Pearson, Michael"
+  l: "P"
+- name: "Courtney Popineau"
+  sort: "Popineau, Courtney"
+  l: "P"
+- name: "Jared Rosen"
+  sort: "Rosen, Jared"
+  l: "R"
+- name: "Janelle Schneider"
+  sort: "Schneider, Janelle"
+  l: "S"
+- name: "Jordan Schneider"
+  sort: "Schneider, Jordan"
+  l: "S"
+- name: "Erik Schubert"
+  sort: "Schubert, Erik"
+  l: "S"
+- name: "Zach Sullivan"
+  sort: "Sullivan, Zach"
+  l: "S"
+- name: "RaVae Walter"
+  sort: "Walter, RaVae"
+  l: "W"
+- name: "David Womelsdorf"
+  sort: "Womelsdorf, David"
+  l: "W"
 ---
 
 After seven preliminary rounds, teams were seeded into three divisions for a single-elimination playoff. The top two teams and the top five scorers in each division are listed below.
@@ -95,4 +155,3 @@ Individual scores were determined from the seven preliminary rounds and the firs
 |    2 | Sara Parish       | Dakota Ridge 1 |   160 |
 |    3 | Courtney Popineau | Radiant 3      |   135 |
 |    4 | Dayna Johnson     | Tramway 2      |   115 |
-

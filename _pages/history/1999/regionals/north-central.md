@@ -9,6 +9,39 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "Kendi Beyer"
+  sort: "Beyer, Kendi"
+  l: "B"
+- name: "Krisha Beyer"
+  sort: "Beyer, Krisha"
+  l: "B"
+- name: "David Cunningham"
+  sort: "Cunningham, David"
+  l: "C"
+- name: "Evan Distad"
+  sort: "Distad, Evan"
+  l: "D"
+- name: "Towela Magai"
+  sort: "Magai, Towela"
+  l: "M"
+- name: "David Pentz"
+  sort: "Pentz, David"
+  l: "P"
+- name: "Nathan Pentz"
+  sort: "Pentz, Nathan"
+  l: "P"
+- name: "Betsy Regenfuss"
+  sort: "Regenfuss, Betsy"
+  l: "R"
+- name: "Rebekah Schaalma"
+  sort: "Schaalma, Rebekah"
+  l: "S"
+- name: "Naomi Weisbrook"
+  sort: "Weisbrook, Naomi"
+  l: "W"
 ---
 
 ## Teams

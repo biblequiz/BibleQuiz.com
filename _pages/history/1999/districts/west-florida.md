@@ -10,6 +10,18 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "David Grubbs"
+  sort: "Grubbs, David"
+  l: "G"
+- name: "Sarah Roberts"
+  sort: "Roberts, Sarah"
+  l: "R"
+- name: "Laura Smith"
+  sort: "Smith, Laura"
+  l: "S"
 ---
 
 ## Top Teams
@@ -27,4 +39,3 @@ menubar_toc_static:
 |    1 | Laura Smith   | Brownsville |   405 |
 |    2 | Sarah Roberts | Brownsville |   315 |
 |    3 | David Grubbs  | Niceville   |   185 |
-

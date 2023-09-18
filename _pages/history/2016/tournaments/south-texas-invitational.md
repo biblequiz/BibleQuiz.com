@@ -10,6 +10,27 @@ menubar_toc_static:
   - name: 2016 Season
     link: /history/2016/
     icon: fas fa-home
+type: t
+season: 2016
+quizzers:
+- name: "Cameron Berta"
+  sort: "Berta, Cameron"
+  l: "B"
+- name: "Gabe Lapusan"
+  sort: "Lapusan, Gabe"
+  l: "L"
+- name: "Stephanie Nieves"
+  sort: "Nieves, Stephanie"
+  l: "N"
+- name: "Darren Rogers"
+  sort: "Rogers, Darren"
+  l: "R"
+- name: "John David Sullivan"
+  sort: "Sullivan, John David"
+  l: "S"
+- name: "Triston Thompson"
+  sort: "Thompson, Triston"
+  l: "T"
 ---
 
 ## A Division

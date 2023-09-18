@@ -10,6 +10,60 @@ menubar_toc_static:
   - name: 2002 Season
     link: /history/2002/
     icon: fas fa-home
+type: t
+season: 2002
+quizzers:
+- name: "Greg Aikens"
+  sort: "Aikens, Greg"
+  l: "A"
+- name: "Chad Crawford"
+  sort: "Crawford, Chad"
+  l: "C"
+- name: "Matt Dykema"
+  sort: "Dykema, Matt"
+  l: "D"
+- name: "Eddy Ferreria"
+  sort: "Ferreria, Eddy"
+  l: "F"
+- name: "Joseph Fortunato"
+  sort: "Fortunato, Joseph"
+  l: "F"
+- name: "Michelle Hart"
+  sort: "Hart, Michelle"
+  l: "H"
+- name: "Zack Huffman"
+  sort: "Huffman, Zack"
+  l: "H"
+- name: "Kristen Jakstadt"
+  sort: "Jakstadt, Kristen"
+  l: "J"
+- name: "Danielle Kuhn"
+  sort: "Kuhn, Danielle"
+  l: "K"
+- name: "Bethany Laakkonen"
+  sort: "Laakkonen, Bethany"
+  l: "L"
+- name: "Heather Patterson"
+  sort: "Patterson, Heather"
+  l: "P"
+- name: "Brandon Porter"
+  sort: "Porter, Brandon"
+  l: "P"
+- name: "Brittany Porter"
+  sort: "Porter, Brittany"
+  l: "P"
+- name: "Travis Porter"
+  sort: "Porter, Travis"
+  l: "P"
+- name: "Shanelle Schlesinger"
+  sort: "Schlesinger, Shanelle"
+  l: "S"
+- name: "Sara Sobkoviak"
+  sort: "Sobkoviak, Sara"
+  l: "S"
+- name: "James Wolter"
+  sort: "Wolter, James"
+  l: "W"
 ---
 
 ## A Division
@@ -72,4 +126,3 @@ menubar_toc_static:
 |    5 | Kristen Jakstadt     |   375 |
 |    6 | Danielle Kuhn        |   315 |
 |    7 | Brittany Porter      |   295 |
-

@@ -9,6 +9,27 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "Andrew Corn"
+  sort: "Corn, Andrew"
+  l: "C"
+- name: "David Pafford"
+  sort: "Pafford, David"
+  l: "P"
+- name: "Cindy Rodman"
+  sort: "Rodman, Cindy"
+  l: "R"
+- name: "Jesse Spencer"
+  sort: "Spencer, Jesse"
+  l: "S"
+- name: "David Whitehead"
+  sort: "Whitehead, David"
+  l: "W"
+- name: "Mark Whitehead"
+  sort: "Whitehead, Mark"
+  l: "W"
 ---
 
 ## A Division

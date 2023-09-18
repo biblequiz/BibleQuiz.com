@@ -10,6 +10,69 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
+type: t
+season: 2003
+quizzers:
+- name: "CJ Barna"
+  sort: "Barna, CJ"
+  l: "B"
+- name: "Samantha Bertocchi"
+  sort: "Bertocchi, Samantha"
+  l: "B"
+- name: "Joe Bolognone"
+  sort: "Bolognone, Joe"
+  l: "B"
+- name: "Katie Chenco"
+  sort: "Chenco, Katie"
+  l: "C"
+- name: "Clayton DeFazio"
+  sort: "DeFazio, Clayton"
+  l: "D"
+- name: "Kristen Fedon"
+  sort: "Fedon, Kristen"
+  l: "F"
+- name: "Isaiah Hunter"
+  sort: "Hunter, Isaiah"
+  l: "H"
+- name: "Tim Lewis"
+  sort: "Lewis, Tim"
+  l: "L"
+- name: "Jenna Liberati"
+  sort: "Liberati, Jenna"
+  l: "L"
+- name: "Michelle Lowrey"
+  sort: "Lowrey, Michelle"
+  l: "L"
+- name: "John McLaughlin"
+  sort: "McLaughlin, John"
+  l: "M"
+- name: "Stephanie Melcher"
+  sort: "Melcher, Stephanie"
+  l: "M"
+- name: "Rebekah Nivala"
+  sort: "Nivala, Rebekah"
+  l: "N"
+- name: "Cara Rozgonyi"
+  sort: "Rozgonyi, Cara"
+  l: "R"
+- name: "Lori Rozgonyi"
+  sort: "Rozgonyi, Lori"
+  l: "R"
+- name: "Ethan Sholly"
+  sort: "Sholly, Ethan"
+  l: "S"
+- name: "Jeremiah Sholly"
+  sort: "Sholly, Jeremiah"
+  l: "S"
+- name: "Patti Sunseri"
+  sort: "Sunseri, Patti"
+  l: "S"
+- name: "Becky York"
+  sort: "York, Becky"
+  l: "Y"
+- name: "Jordan Zych"
+  sort: "Zych, Jordan"
+  l: "Z"
 ---
 
 ## A Division
@@ -87,4 +150,3 @@ menubar_toc_static:
 |    8 | Samantha Bertocchi | First A/G - Hermitage, PA            |   980 |    5 |  75.38 |
 |    9 | Kristen Fedon      | Evangel A/G - Sarver, PA             |   980 |    5 |  75.38 |
 |   10 | Rebekah Nivala     | Faith Community Church,Edgertown, MA |   925 |    6 |  71.15 |
-

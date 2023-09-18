@@ -9,6 +9,45 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
+type: t
+season: 2003
+quizzers:
+- name: "Samantha Bertocchi"
+  sort: "Bertocchi, Samantha"
+  l: "B"
+- name: "Mary Claire"
+  sort: "Claire, Mary"
+  l: "C"
+- name: "Clayton DeFazio"
+  sort: "DeFazio, Clayton"
+  l: "D"
+- name: "Kristen Fedon"
+  sort: "Fedon, Kristen"
+  l: "F"
+- name: "Jenna Liberati"
+  sort: "Liberati, Jenna"
+  l: "L"
+- name: "Ethan Lovell"
+  sort: "Lovell, Ethan"
+  l: "L"
+- name: "Bridgett McQuaide"
+  sort: "McQuaide, Bridgett"
+  l: "M"
+- name: "Sarah Rolla"
+  sort: "Rolla, Sarah"
+  l: "R"
+- name: "Ethan Sholly"
+  sort: "Sholly, Ethan"
+  l: "S"
+- name: "Jeremiah Sholly"
+  sort: "Sholly, Jeremiah"
+  l: "S"
+- name: "Toni White"
+  sort: "White, Toni"
+  l: "W"
+- name: "Jordan Zych"
+  sort: "Zych, Jordan"
+  l: "Z"
 ---
 
 ## Top Teams

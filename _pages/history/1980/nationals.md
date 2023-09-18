@@ -10,6 +10,27 @@ menubar_toc_static:
   - name: 1980 Season
     link: /history/1980/
     icon: fas fa-home
+type: t
+season: 1980
+quizzers:
+- name: "Billy Muniz"
+  sort: "Muniz, Billy"
+  l: "M"
+- name: "Mark Penney"
+  sort: "Penney, Mark"
+  l: "P"
+- name: "Terrie Pope"
+  sort: "Pope, Terrie"
+  l: "P"
+- name: "Keith Short"
+  sort: "Short, Keith"
+  l: "S"
+- name: "Kevin Vanderplas"
+  sort: "Vanderplas, Kevin"
+  l: "V"
+- name: "Jeff Wood"
+  sort: "Wood, Jeff"
+  l: "W"
 ---
 
 ![]({% link assets/1980/AR-Bigelow.jpg %})

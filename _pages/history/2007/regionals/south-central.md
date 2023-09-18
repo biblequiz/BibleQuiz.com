@@ -9,6 +9,69 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
+type: t
+season: 2007
+quizzers:
+- name: "Justin Brandt"
+  sort: "Brandt, Justin"
+  l: "B"
+- name: "Ariel Brookbank"
+  sort: "Brookbank, Ariel"
+  l: "B"
+- name: "Joshua Carl"
+  sort: "Carl, Joshua"
+  l: "C"
+- name: "Paul Ferguson"
+  sort: "Ferguson, Paul"
+  l: "F"
+- name: "Sommer Ferguson"
+  sort: "Ferguson, Sommer"
+  l: "F"
+- name: "Joshua Forsman"
+  sort: "Forsman, Joshua"
+  l: "F"
+- name: "Hunter Funk"
+  sort: "Funk, Hunter"
+  l: "F"
+- name: "Danny Leander"
+  sort: "Leander, Danny"
+  l: "L"
+- name: "Rachel Leland"
+  sort: "Leland, Rachel"
+  l: "L"
+- name: "Alan Orcut"
+  sort: "Orcut, Alan"
+  l: "O"
+- name: "Michele Paulson"
+  sort: "Paulson, Michele"
+  l: "P"
+- name: "Tiffany Pettis"
+  sort: "Pettis, Tiffany"
+  l: "P"
+- name: "Sara Pursell"
+  sort: "Pursell, Sara"
+  l: "P"
+- name: "Laura Roller"
+  sort: "Roller, Laura"
+  l: "R"
+- name: "Micah Samuelson"
+  sort: "Samuelson, Micah"
+  l: "S"
+- name: "Cameron Smith"
+  sort: "Smith, Cameron"
+  l: "S"
+- name: "Daniel Wagner"
+  sort: "Wagner, Daniel"
+  l: "W"
+- name: "Jesse Wagner"
+  sort: "Wagner, Jesse"
+  l: "W"
+- name: "Joshua Wagner"
+  sort: "Wagner, Joshua"
+  l: "W"
+- name: "Chance Watts"
+  sort: "Watts, Chance"
+  l: "W"
 ---
 
 ## A Division
@@ -74,4 +137,3 @@ menubar_toc_static:
 |    8 | Danny Leander   | Owasso, OK              |   260 |  37.1 |
 |    9 | Justin Brandt   | Overland Park, KS       |   185 |  26.4 |
 |   10 | Joshua Carl     | Longview, TX            |   180 |  30.0 |
-

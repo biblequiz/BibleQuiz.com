@@ -10,6 +10,24 @@ menubar_toc_static:
   - name: 1990 Season
     link: /history/1990/
     icon: fas fa-home
+type: t
+season: 1990
+quizzers:
+- name: "Mark Childers"
+  sort: "Childers, Mark"
+  l: "C"
+- name: "Brian Gibbons"
+  sort: "Gibbons, Brian"
+  l: "G"
+- name: "Bryan Martindale"
+  sort: "Martindale, Bryan"
+  l: "M"
+- name: "Steve Schweitzer"
+  sort: "Schweitzer, Steve"
+  l: "S"
+- name: "Garrett Smiley"
+  sort: "Smiley, Garrett"
+  l: "S"
 ---
 
 The 28th National Bible Quiz Finals took place August 6-10, 1990 in Springfield, MO at Central Assembly of God covering the epistles of James and Romans. Dick Van Huss was the National Coordinator and Bryan Turner was the official question writer.

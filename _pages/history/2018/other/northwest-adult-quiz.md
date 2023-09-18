@@ -10,6 +10,69 @@ menubar_toc_static:
   - name: 2018 Season
     link: /history/2018/
     icon: fas fa-home
+type: t
+season: 2018
+quizzers:
+- name: "Samuel Jeshurun Balli"
+  sort: "Balli, Samuel Jeshurun"
+  l: "B"
+- name: "Srinivas Bandaru"
+  sort: "Bandaru, Srinivas"
+  l: "B"
+- name: "Uma Bandaru"
+  sort: "Bandaru, Uma"
+  l: "B"
+- name: "Sandeep Battagani"
+  sort: "Battagani, Sandeep"
+  l: "B"
+- name: "Anusha Bhimala"
+  sort: "Bhimala, Anusha"
+  l: "B"
+- name: "Sandesh Edara"
+  sort: "Edara, Sandesh"
+  l: "E"
+- name: "Kanakaiah Etipakam"
+  sort: "Etipakam, Kanakaiah"
+  l: "E"
+- name: "Joshua Gallo"
+  sort: "Gallo, Joshua"
+  l: "G"
+- name: "Rajesh Godavarthi"
+  sort: "Godavarthi, Rajesh"
+  l: "G"
+- name: "Sunitha Godavarthi"
+  sort: "Godavarthi, Sunitha"
+  l: "G"
+- name: "Deepa Godavarthy"
+  sort: "Godavarthy, Deepa"
+  l: "G"
+- name: "Deepthi Madhurima"
+  sort: "Madhurima, Deepthi"
+  l: "M"
+- name: "Shashi Priya Mattukoyya"
+  sort: "Mattukoyya, Shashi Priya"
+  l: "M"
+- name: "Hepsiba Nesamani"
+  sort: "Nesamani, Hepsiba"
+  l: "N"
+- name: "Jayaprakash Poguluri"
+  sort: "Poguluri, Jayaprakash"
+  l: "P"
+- name: "Kirti Sasnur"
+  sort: "Sasnur, Kirti"
+  l: "S"
+- name: "Sathish Tammala"
+  sort: "Tammala, Sathish"
+  l: "T"
+- name: "Anand Tatpati"
+  sort: "Tatpati, Anand"
+  l: "T"
+- name: "Praveen Ubbala"
+  sort: "Ubbala, Praveen"
+  l: "U"
+- name: "Vani Vinukonda"
+  sort: "Vinukonda, Vani"
+  l: "V"
 ---
 
 ## Meet #1
@@ -51,4 +114,3 @@ menubar_toc_static:
 |       15 | Sathish Tammala         | Joyful              |     0 |       |      |      |
 | **\*15** | Deepthi Madhurima       | Emmanuel            |     0 |       |      |      |
 |       16 | Kanakaiah Etipakam      | Joyful              |    -5 |   -.8 |      |      |
-

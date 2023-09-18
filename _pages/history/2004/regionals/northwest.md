@@ -9,6 +9,54 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
+type: t
+season: 2004
+quizzers:
+- name: "Natalie Asahara"
+  sort: "Asahara, Natalie"
+  l: "A"
+- name: "Jaclyn Baker"
+  sort: "Baker, Jaclyn"
+  l: "B"
+- name: "Tim Butterfield"
+  sort: "Butterfield, Tim"
+  l: "B"
+- name: "Austin Deppa"
+  sort: "Deppa, Austin"
+  l: "D"
+- name: "Brandon Duffy"
+  sort: "Duffy, Brandon"
+  l: "D"
+- name: "Lauryn Duffy"
+  sort: "Duffy, Lauryn"
+  l: "D"
+- name: "Jenny Dworzak"
+  sort: "Dworzak, Jenny"
+  l: "D"
+- name: "Jed Gosnell"
+  sort: "Gosnell, Jed"
+  l: "G"
+- name: "Bryce Jensen"
+  sort: "Jensen, Bryce"
+  l: "J"
+- name: "Charity Littrell"
+  sort: "Littrell, Charity"
+  l: "L"
+- name: "Naomi Meyer"
+  sort: "Meyer, Naomi"
+  l: "M"
+- name: "Richie Nelson"
+  sort: "Nelson, Richie"
+  l: "N"
+- name: "Jordan Shipley"
+  sort: "Shipley, Jordan"
+  l: "S"
+- name: "Annah Snyder"
+  sort: "Snyder, Annah"
+  l: "S"
+- name: "Cecily Spicer"
+  sort: "Spicer, Cecily"
+  l: "S"
 ---
 
 ## Senior Division
@@ -69,4 +117,3 @@ menubar_toc_static:
 |    3 | Charity Littrell | CP Just Think |  1320 |   88 |
 |    4 | Cecily Spicer    | Vancouver, WA |   960 |   64 |
 |    5 | Annah Snyder     | CP Just Think |   905 |   60 |
-

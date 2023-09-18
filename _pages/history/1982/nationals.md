@@ -10,6 +10,27 @@ menubar_toc_static:
   - name: 1982 Season
     link: /history/1982/
     icon: fas fa-home
+type: t
+season: 1982
+quizzers:
+- name: "Paul Freitag"
+  sort: "Freitag, Paul"
+  l: "F"
+- name: "Tammy Hagaman"
+  sort: "Hagaman, Tammy"
+  l: "H"
+- name: "Ken Henderson"
+  sort: "Henderson, Ken"
+  l: "H"
+- name: "Rhett Laurens"
+  sort: "Laurens, Rhett"
+  l: "L"
+- name: "Paul Lewis"
+  sort: "Lewis, Paul"
+  l: "L"
+- name: "Linda Malone"
+  sort: "Malone, Linda"
+  l: "M"
 ---
 
 The 20th National Bible Quiz Finals took place August 11-13, 1982 in Springfield, Missouri at Central Assembly of God covering the books of I,II Thessalonians, I,II Peter, and James. Terry Carter was the National Coordinator.

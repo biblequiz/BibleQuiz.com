@@ -9,6 +9,54 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "Pat Bjorklund"
+  sort: "Bjorklund, Pat"
+  l: "B"
+- name: "Nathan Black"
+  sort: "Black, Nathan"
+  l: "B"
+- name: "Katie Byron"
+  sort: "Byron, Katie"
+  l: "B"
+- name: "David Dorey"
+  sort: "Dorey, David"
+  l: "D"
+- name: "Brett Flowers"
+  sort: "Flowers, Brett"
+  l: "F"
+- name: "Ricky Haney"
+  sort: "Haney, Ricky"
+  l: "H"
+- name: "Derek Harris"
+  sort: "Harris, Derek"
+  l: "H"
+- name: "Sarah Ingroum"
+  sort: "Ingroum, Sarah"
+  l: "I"
+- name: "Valerie Marchalonis"
+  sort: "Marchalonis, Valerie"
+  l: "M"
+- name: "Jessica Neilson"
+  sort: "Neilson, Jessica"
+  l: "N"
+- name: "Kent Piacenti"
+  sort: "Piacenti, Kent"
+  l: "P"
+- name: "Chandra Porter"
+  sort: "Porter, Chandra"
+  l: "P"
+- name: "Marla Porter"
+  sort: "Porter, Marla"
+  l: "P"
+- name: "Jordan Schneider"
+  sort: "Schneider, Jordan"
+  l: "S"
+- name: "Tandy Stitt"
+  sort: "Stitt, Tandy"
+  l: "S"
 ---
 
 ## A Division
@@ -61,4 +109,3 @@ menubar_toc_static:
 |    3 | Sarah Ingroum | Kingman, AZ    |   520 | 47.27 |
 |    4 | Nathan Black  | Kingman, AZ    |   420 | 38.18 |
 |    5 | Pat Bjorklund | Cedar Park, WA |   400 | 36.36 |
-

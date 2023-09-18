@@ -9,6 +9,24 @@ menubar_toc_static:
   - name: 2012 Season
     link: /history/2012/
     icon: fas fa-home
+type: t
+season: 2012
+quizzers:
+- name: "Cameron Berta"
+  sort: "Berta, Cameron"
+  l: "B"
+- name: "Bryan Cobb"
+  sort: "Cobb, Bryan"
+  l: "C"
+- name: "Bridgett Donnells"
+  sort: "Donnells, Bridgett"
+  l: "D"
+- name: "Wayne Elkins"
+  sort: "Elkins, Wayne"
+  l: "E"
+- name: "Susannah Ferguson"
+  sort: "Ferguson, Susannah"
+  l: "F"
 ---
 
 ## Teams

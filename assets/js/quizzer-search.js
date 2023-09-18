@@ -283,7 +283,7 @@ function showQuizzerScores(quizzer) {
 }
 
 // Update the event handlers.
-searchBox.onkeyup = updateSearchResult;
+searchBox.onchange = updateSearchResult;
 scoresModalClose.onclick = () => scoresModal.classList.remove("is-active");
 
 window.changeTabLetter = changeTabLetter;

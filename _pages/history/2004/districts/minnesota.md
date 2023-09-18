@@ -10,6 +10,42 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
+type: t
+season: 2004
+quizzers:
+- name: "Ben Freitag"
+  sort: "Freitag, Ben"
+  l: "F"
+- name: "Sarah Geppert"
+  sort: "Geppert, Sarah"
+  l: "G"
+- name: "Melissa Henderson"
+  sort: "Henderson, Melissa"
+  l: "H"
+- name: "Teressa Henderson"
+  sort: "Henderson, Teressa"
+  l: "H"
+- name: "Heidi Huhn"
+  sort: "Huhn, Heidi"
+  l: "H"
+- name: "Jade Johnson"
+  sort: "Johnson, Jade"
+  l: "J"
+- name: "Trevor Johnson"
+  sort: "Johnson, Trevor"
+  l: "J"
+- name: "Brittany Jones"
+  sort: "Jones, Brittany"
+  l: "J"
+- name: "Heidi Schroeder"
+  sort: "Schroeder, Heidi"
+  l: "S"
+- name: "Beth Thomas"
+  sort: "Thomas, Beth"
+  l: "T"
+- name: "Charity Wipplinger"
+  sort: "Wipplinger, Charity"
+  l: "W"
 ---
 
 ## Teams
@@ -41,4 +77,3 @@ menubar_toc_static:
 |    9 | Beth Thomas        | Hutchinson  |    80 |  13.33 |
 |   10 | Sarah Geppert      | Rochester   |    60 |  10.00 |
 |  10* | Heidi Huhn         | Hutchinson  |    60 |  10.00 |
-

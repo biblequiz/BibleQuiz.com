@@ -9,6 +9,69 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
+type: t
+season: 2004
+quizzers:
+- name: "Tiffany Auiler"
+  sort: "Auiler, Tiffany"
+  l: "A"
+- name: "Katrina Bradford"
+  sort: "Bradford, Katrina"
+  l: "B"
+- name: "Alan Gookin"
+  sort: "Gookin, Alan"
+  l: "G"
+- name: "Kathleen Hahn"
+  sort: "Hahn, Kathleen"
+  l: "H"
+- name: "Adam Havens"
+  sort: "Havens, Adam"
+  l: "H"
+- name: "Josh Havens"
+  sort: "Havens, Josh"
+  l: "H"
+- name: "Colin Knoth"
+  sort: "Knoth, Colin"
+  l: "K"
+- name: "Amy Leander"
+  sort: "Leander, Amy"
+  l: "L"
+- name: "Wesley Leander"
+  sort: "Leander, Wesley"
+  l: "L"
+- name: "Francyne Melberg"
+  sort: "Melberg, Francyne"
+  l: "M"
+- name: "Nick Melberg"
+  sort: "Melberg, Nick"
+  l: "M"
+- name: "Alicia Morken"
+  sort: "Morken, Alicia"
+  l: "M"
+- name: "Blake Porter"
+  sort: "Porter, Blake"
+  l: "P"
+- name: "Eric Reside"
+  sort: "Reside, Eric"
+  l: "R"
+- name: "Joshua Slater"
+  sort: "Slater, Joshua"
+  l: "S"
+- name: "Corinne Smith"
+  sort: "Smith, Corinne"
+  l: "S"
+- name: "Titus Stenberg"
+  sort: "Stenberg, Titus"
+  l: "S"
+- name: "Amy Summers"
+  sort: "Summers, Amy"
+  l: "S"
+- name: "Nathan Tuttle"
+  sort: "Tuttle, Nathan"
+  l: "T"
+- name: "Emma Virnig"
+  sort: "Virnig, Emma"
+  l: "V"
 ---
 
 ## Gold Division
@@ -82,4 +145,3 @@ A One-on-one competition took place with the top 8 individuals in the Novice Div
 | ---: | ----------- |
 |    1 | Emma Virnig |
 |    2 | Alan Gookin |
-

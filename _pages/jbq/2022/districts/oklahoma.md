@@ -10,6 +10,66 @@ menubar_toc_static:
   - name: 2022 Season
     link: /jbq/2022/
     icon: fas fa-home
+type: j
+season: 2022
+quizzers:
+- name: "Jaron Aranda"
+  sort: "Aranda, Jaron"
+  l: "A"
+- name: "Kaitlyn Baker"
+  sort: "Baker, Kaitlyn"
+  l: "B"
+- name: "Lydia Beiler"
+  sort: "Beiler, Lydia"
+  l: "B"
+- name: "Madelyn Blackshear"
+  sort: "Blackshear, Madelyn"
+  l: "B"
+- name: "Declan Brown"
+  sort: "Brown, Declan"
+  l: "B"
+- name: "Emma Buchanan"
+  sort: "Buchanan, Emma"
+  l: "B"
+- name: "Allyson Cameron"
+  sort: "Cameron, Allyson"
+  l: "C"
+- name: "Josie Dobbs"
+  sort: "Dobbs, Josie"
+  l: "D"
+- name: "Anistyn Elliott"
+  sort: "Elliott, Anistyn"
+  l: "E"
+- name: "Jayms Fraley"
+  sort: "Fraley, Jayms"
+  l: "F"
+- name: "Jimma Fraley"
+  sort: "Fraley, Jimma"
+  l: "F"
+- name: "Britian Isgrigg"
+  sort: "Isgrigg, Britian"
+  l: "I"
+- name: "Pierce Jensen"
+  sort: "Jensen, Pierce"
+  l: "J"
+- name: "Gabe Leavell"
+  sort: "Leavell, Gabe"
+  l: "L"
+- name: "Tommy Leavell"
+  sort: "Leavell, Tommy"
+  l: "L"
+- name: "Lucas Madrid"
+  sort: "Madrid, Lucas"
+  l: "M"
+- name: "Elyssa Ullrich"
+  sort: "Ullrich, Elyssa"
+  l: "U"
+- name: "Zariah Ullrich"
+  sort: "Ullrich, Zariah"
+  l: "U"
+- name: "Aedyn Whisenant"
+  sort: "Whisenant, Aedyn"
+  l: "W"
 ---
 
 ## Teams
@@ -48,4 +108,3 @@ menubar_toc_static:
 |       16 | Declan Brown       | Links 4 Life (The Link)                |     0 |      |      |      |
 | **\*16** | Jimma Fraley       | Links 4 Life (The Link)                |     0 |      |      |      |
 | **\*16** | Jayms Fraley       | Links 4 Life (The Link)                |     0 |      |      |      |
-

@@ -10,6 +10,27 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
+type: t
+season: 2005
+quizzers:
+- name: "Ben Freitag"
+  sort: "Freitag, Ben"
+  l: "F"
+- name: "Melissa Henderson"
+  sort: "Henderson, Melissa"
+  l: "H"
+- name: "Foster Loven"
+  sort: "Loven, Foster"
+  l: "L"
+- name: "Allon Lover"
+  sort: "Lover, Allon"
+  l: "L"
+- name: "Heidi Schroeder"
+  sort: "Schroeder, Heidi"
+  l: "S"
+- name: "Charity Wipplinger"
+  sort: "Wipplinger, Charity"
+  l: "W"
 ---
 
 ## Teams
@@ -33,4 +54,3 @@ menubar_toc_static:
 |    4 | Heidi Schroeder    | Milaca     |   145 |  24.17 |
 |    5 | Foster Loven       | St. Cloud  |    55 |   9.17 |
 |    6 | Allon Lover        | St. Cloud  |    20 |   3.33 |
-

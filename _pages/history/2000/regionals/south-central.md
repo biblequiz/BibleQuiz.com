@@ -10,6 +10,69 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "Caleb Booth"
+  sort: "Booth, Caleb"
+  l: "B"
+- name: "Meagan Busby"
+  sort: "Busby, Meagan"
+  l: "B"
+- name: "Lydia Butay"
+  sort: "Butay, Lydia"
+  l: "B"
+- name: "Tim Chorley"
+  sort: "Chorley, Tim"
+  l: "C"
+- name: "Sharon Ely"
+  sort: "Ely, Sharon"
+  l: "E"
+- name: "Forrest Johnson"
+  sort: "Johnson, Forrest"
+  l: "J"
+- name: "Sterling Johnson"
+  sort: "Johnson, Sterling"
+  l: "J"
+- name: "Katherine Keeling"
+  sort: "Keeling, Katherine"
+  l: "K"
+- name: "Dan Marlow"
+  sort: "Marlow, Dan"
+  l: "M"
+- name: "Alyssa McKnight"
+  sort: "McKnight, Alyssa"
+  l: "M"
+- name: "Lacrista Medina"
+  sort: "Medina, Lacrista"
+  l: "M"
+- name: "Phillip Mefford"
+  sort: "Mefford, Phillip"
+  l: "M"
+- name: "Nick Melberg"
+  sort: "Melberg, Nick"
+  l: "M"
+- name: "Stephanie Nannarone"
+  sort: "Nannarone, Stephanie"
+  l: "N"
+- name: "Anna Peters"
+  sort: "Peters, Anna"
+  l: "P"
+- name: "EJ Spears"
+  sort: "Spears, EJ"
+  l: "S"
+- name: "Ryan Steadley"
+  sort: "Steadley, Ryan"
+  l: "S"
+- name: "Michelle Stewart"
+  sort: "Stewart, Michelle"
+  l: "S"
+- name: "George Ukomadu"
+  sort: "Ukomadu, George"
+  l: "U"
+- name: "David Womelsdorf"
+  sort: "Womelsdorf, David"
+  l: "W"
 ---
 
 ## A Division
@@ -86,4 +149,3 @@ menubar_toc_static:
 |    8 | Katherine Keeling | Tulsa OK #1      |   625 |  69.4 |
 |    9 | Alyssa McKnight   | Cedar Hill TX #2 |   535 |  59.4 |
 |   10 | Anna Peters       | Greens Bayou     |   445 |  49.4 |
-

@@ -10,6 +10,51 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
+type: t
+season: 2007
+quizzers:
+- name: "Stacey Brothers"
+  sort: "Brothers, Stacey"
+  l: "B"
+- name: "Christina Burns"
+  sort: "Burns, Christina"
+  l: "B"
+- name: "Ashley Carter"
+  sort: "Carter, Ashley"
+  l: "C"
+- name: "Jerri Florez"
+  sort: "Florez, Jerri"
+  l: "F"
+- name: "Tierney Gillihan"
+  sort: "Gillihan, Tierney"
+  l: "G"
+- name: "Kelsi Hardy"
+  sort: "Hardy, Kelsi"
+  l: "H"
+- name: "Bryce Jensen"
+  sort: "Jensen, Bryce"
+  l: "J"
+- name: "Angie Larson"
+  sort: "Larson, Angie"
+  l: "L"
+- name: "Darren Larson"
+  sort: "Larson, Darren"
+  l: "L"
+- name: "Melissa Larson"
+  sort: "Larson, Melissa"
+  l: "L"
+- name: "Jenny Mallory"
+  sort: "Mallory, Jenny"
+  l: "M"
+- name: "Link Patrick"
+  sort: "Patrick, Link"
+  l: "P"
+- name: "Brent Walter"
+  sort: "Walter, Brent"
+  l: "W"
+- name: "Josh Weimer"
+  sort: "Weimer, Josh"
+  l: "W"
 ---
 
 ## Senior Division
@@ -55,4 +100,3 @@ menubar_toc_static:
 |    4 | Christina Burns | Nyssa       |   285 |
 |    5 | Josh Weimer     | Cornerstone |   135 |
 |    6 | Jenny Mallory   | Meridian    |    70 |
-

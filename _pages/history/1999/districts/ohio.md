@@ -10,6 +10,33 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "Corey Bess"
+  sort: "Bess, Corey"
+  l: "B"
+- name: "Jonathan Feicht"
+  sort: "Feicht, Jonathan"
+  l: "F"
+- name: "Julie Gerth"
+  sort: "Gerth, Julie"
+  l: "G"
+- name: "Amber Hise"
+  sort: "Hise, Amber"
+  l: "H"
+- name: "Amy Hise"
+  sort: "Hise, Amy"
+  l: "H"
+- name: "David Munn"
+  sort: "Munn, David"
+  l: "M"
+- name: "Bryce Steel"
+  sort: "Steel, Bryce"
+  l: "S"
+- name: "Megan Webb"
+  sort: "Webb, Megan"
+  l: "W"
 ---
 
 ## A Division
@@ -49,4 +76,3 @@ menubar_toc_static:
 |    1 | Bryce Steel | Toledo #1 |   875 |  109 |
 |    2 | Julie Gerth | Marion    |   445 |   55 |
 |    3 | Corey Bess  | Toledo #2 |   395 |   49 |
-

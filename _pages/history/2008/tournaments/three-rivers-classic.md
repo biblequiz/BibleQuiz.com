@@ -10,6 +10,63 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
+type: t
+season: 2008
+quizzers:
+- name: "Jonathan Anischenko"
+  sort: "Anischenko, Jonathan"
+  l: "A"
+- name: "David Beer"
+  sort: "Beer, David"
+  l: "B"
+- name: "Lindsey Brower"
+  sort: "Brower, Lindsey"
+  l: "B"
+- name: "Rachel Dockery"
+  sort: "Dockery, Rachel"
+  l: "D"
+- name: "Ethan Everett"
+  sort: "Everett, Ethan"
+  l: "E"
+- name: "Lisa Everett"
+  sort: "Everett, Lisa"
+  l: "E"
+- name: "Chris Galea"
+  sort: "Galea, Chris"
+  l: "G"
+- name: "Catherine Hains"
+  sort: "Hains, Catherine"
+  l: "H"
+- name: "Kayla Hill"
+  sort: "Hill, Kayla"
+  l: "H"
+- name: "Joshua Hummel"
+  sort: "Hummel, Joshua"
+  l: "H"
+- name: "Dave Knox"
+  sort: "Knox, Dave"
+  l: "K"
+- name: "Zach Misak"
+  sort: "Misak, Zach"
+  l: "M"
+- name: "Robbie Mitchell"
+  sort: "Mitchell, Robbie"
+  l: "M"
+- name: "Alicia Randolph"
+  sort: "Randolph, Alicia"
+  l: "R"
+- name: "Jacob Schwalm"
+  sort: "Schwalm, Jacob"
+  l: "S"
+- name: "Kyler Sederwall"
+  sort: "Sederwall, Kyler"
+  l: "S"
+- name: "Jessica Sikes"
+  sort: "Sikes, Jessica"
+  l: "S"
+- name: "Grant Warnock"
+  sort: "Warnock, Grant"
+  l: "W"
 ---
 
 ## A Division
@@ -66,4 +123,3 @@ menubar_toc_static:
 |    6 | Jonathan Anischenko | South Hills Assembly, Bethel Park, PA |   245 |    0 |
 |    7 | Joshua Hummel       | Living Waters, Lebanon, PA            |   140 |    2 |
 |    8 | Ethan Everett       | Harvest Time Assembly, Brunswick, OH  |   100 |    1 |
-

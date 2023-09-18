@@ -10,6 +10,39 @@ menubar_toc_static:
   - name: 2008 Season
     link: /history/2008/
     icon: fas fa-home
+type: t
+season: 2008
+quizzers:
+- name: "Jeanie Burnett"
+  sort: "Burnett, Jeanie"
+  l: "B"
+- name: "Lindsey Butler"
+  sort: "Butler, Lindsey"
+  l: "B"
+- name: "Brittney Cantrell"
+  sort: "Cantrell, Brittney"
+  l: "C"
+- name: "Jordan Clark"
+  sort: "Clark, Jordan"
+  l: "C"
+- name: "Erin Decker"
+  sort: "Decker, Erin"
+  l: "D"
+- name: "Hannah Frisby"
+  sort: "Frisby, Hannah"
+  l: "F"
+- name: "Amber Kirkpatrick"
+  sort: "Kirkpatrick, Amber"
+  l: "K"
+- name: "Megan Stewart"
+  sort: "Stewart, Megan"
+  l: "S"
+- name: "Justin Williford"
+  sort: "Williford, Justin"
+  l: "W"
+- name: "Tristan Williford"
+  sort: "Williford, Tristan"
+  l: "W"
 ---
 
 ## Teams
@@ -36,4 +69,3 @@ menubar_toc_static:
 |    8 | Megan Stewart     | McArthur Assembly     |    70 | 17.50 |      |
 |    9 | Hannah Frisby     | NLR Assembly          |    65 | 16.25 |      |
 |   10 | Jeanie Burnett    | Wellington Village    |    55 | 13.75 |      |
-

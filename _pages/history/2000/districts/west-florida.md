@@ -9,6 +9,27 @@ menubar_toc_static:
   - name: 2000 Season
     link: /history/2000/
     icon: fas fa-home
+type: t
+season: 2000
+quizzers:
+- name: "James Fry"
+  sort: "Fry, James"
+  l: "F"
+- name: "Ashley Grubbs"
+  sort: "Grubbs, Ashley"
+  l: "G"
+- name: "David Grubbs"
+  sort: "Grubbs, David"
+  l: "G"
+- name: "Sarah Roberts"
+  sort: "Roberts, Sarah"
+  l: "R"
+- name: "Stephanie Santiago"
+  sort: "Santiago, Stephanie"
+  l: "S"
+- name: "Laura Smith"
+  sort: "Smith, Laura"
+  l: "S"
 ---
 
 ## Teams
@@ -32,4 +53,3 @@ menubar_toc_static:
 |    4 | Ashley Grubbs      | Navarre     |    95 |
 |   4* | James Fry          | Panama City |    95 |
 |    6 | Stephanie Santiago | Niceville   |    90 |
-

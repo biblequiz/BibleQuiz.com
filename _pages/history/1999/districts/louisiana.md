@@ -9,6 +9,33 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "Jeremy Alfred"
+  sort: "Alfred, Jeremy"
+  l: "A"
+- name: "Shelby Alfred"
+  sort: "Alfred, Shelby"
+  l: "A"
+- name: "Jason Craft"
+  sort: "Craft, Jason"
+  l: "C"
+- name: "Michael DelCambre"
+  sort: "DelCambre, Michael"
+  l: "D"
+- name: "Andrew Hejtmanek"
+  sort: "Hejtmanek, Andrew"
+  l: "H"
+- name: "Bethany Hejtmanek"
+  sort: "Hejtmanek, Bethany"
+  l: "H"
+- name: "Michael Henix"
+  sort: "Henix, Michael"
+  l: "H"
+- name: "DeAndre Johnson"
+  sort: "Johnson, DeAndre"
+  l: "J"
 ---
 
 ## A Division
@@ -48,4 +75,3 @@ menubar_toc_static:
 |    2 | Michael Henix     | Shreveport |
 |    3 | Jason Craft       | Haughton   |
 |    4 | Bethany Hejtmanek | Shreveport |
-

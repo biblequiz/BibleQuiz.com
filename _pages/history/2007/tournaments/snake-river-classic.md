@@ -10,6 +10,54 @@ menubar_toc_static:
   - name: 2007 Season
     link: /history/2007/
     icon: fas fa-home
+type: t
+season: 2007
+quizzers:
+- name: "Jaclyn Baker"
+  sort: "Baker, Jaclyn"
+  l: "B"
+- name: "Janae Bakke"
+  sort: "Bakke, Janae"
+  l: "B"
+- name: "Cody Boorman"
+  sort: "Boorman, Cody"
+  l: "B"
+- name: "Christina Burns"
+  sort: "Burns, Christina"
+  l: "B"
+- name: "Jenna-Jo Duffy"
+  sort: "Duffy, Jenna-Jo"
+  l: "D"
+- name: "Tierney Gillihan"
+  sort: "Gillihan, Tierney"
+  l: "G"
+- name: "Devon Griggs"
+  sort: "Griggs, Devon"
+  l: "G"
+- name: "Bryce Jensen"
+  sort: "Jensen, Bryce"
+  l: "J"
+- name: "Heather Karnes"
+  sort: "Karnes, Heather"
+  l: "K"
+- name: "Melissa Lee"
+  sort: "Lee, Melissa"
+  l: "L"
+- name: "JP O'Connor"
+  sort: "O'Connor, JP"
+  l: "O"
+- name: "Link Patrick"
+  sort: "Patrick, Link"
+  l: "P"
+- name: "Megan Shipley"
+  sort: "Shipley, Megan"
+  l: "S"
+- name: "Cecily Spicer"
+  sort: "Spicer, Cecily"
+  l: "S"
+- name: "Flynn Spicer"
+  sort: "Spicer, Flynn"
+  l: "S"
 ---
 
 ## Division I
@@ -75,4 +123,3 @@ menubar_toc_static:
 | Megan Shipley   | Cedar Park |   905 |
 | Christina Burns | Nyssa      |   790 |
 | Janae Bakke     | Vancouver  |   630 |
-

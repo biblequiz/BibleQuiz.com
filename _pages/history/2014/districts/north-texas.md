@@ -9,6 +9,24 @@ menubar_toc_static:
   - name: 2014 Season
     link: /history/2014/
     icon: fas fa-home
+type: t
+season: 2014
+quizzers:
+- name: "Cameron Berta"
+  sort: "Berta, Cameron"
+  l: "B"
+- name: "Susanna Ferguson"
+  sort: "Ferguson, Susanna"
+  l: "F"
+- name: "Andrew Garcia"
+  sort: "Garcia, Andrew"
+  l: "G"
+- name: "Andrew Van Horn"
+  sort: "Van Horn, Andrew"
+  l: "V"
+- name: "JB Van Horn"
+  sort: "Van Horn, JB"
+  l: "V"
 ---
 
 ## Teams

@@ -10,6 +10,24 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
+type: t
+season: 2005
+quizzers:
+- name: "Weston Melby"
+  sort: "Melby, Weston"
+  l: "M"
+- name: "Nick Mulder"
+  sort: "Mulder, Nick"
+  l: "M"
+- name: "Tyler Peterson"
+  sort: "Peterson, Tyler"
+  l: "P"
+- name: "Erica Smith"
+  sort: "Smith, Erica"
+  l: "S"
+- name: "Titus Stenberg"
+  sort: "Stenberg, Titus"
+  l: "S"
 ---
 
 ## Top Teams
@@ -28,4 +46,3 @@ menubar_toc_static:
 |    3 | Erica Smith    | Ellendale    |   240 |
 |    4 | Nick Mulder    | Watford City |    95 |
 |    5 | Weston Melby   | Watford City |    70 |
-

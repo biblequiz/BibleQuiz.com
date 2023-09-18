@@ -10,6 +10,18 @@ menubar_toc_static:
   - name: 1999 Season
     link: /history/1999/
     icon: fas fa-home
+type: t
+season: 1999
+quizzers:
+- name: "Kendi Beyer"
+  sort: "Beyer, Kendi"
+  l: "B"
+- name: "Krisha Beyer"
+  sort: "Beyer, Krisha"
+  l: "B"
+- name: "Betsy Regenfuss"
+  sort: "Regenfuss, Betsy"
+  l: "R"
 ---
 
 ## Teams
@@ -26,4 +38,3 @@ menubar_toc_static:
 |    1 | Krisha Beyer    | Oskaloosa |
 |    2 | Betsy Regenfuss | Ames      |
 |    3 | Kendi Beyer     | Oskaloosa |
-

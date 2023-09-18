@@ -9,6 +9,66 @@ menubar_toc_static:
   - name: 2009 Season
     link: /history/2009/
     icon: fas fa-home
+type: t
+season: 2009
+quizzers:
+- name: "Alyssa Batchelder"
+  sort: "Batchelder, Alyssa"
+  l: "B"
+- name: "Joseph Batista"
+  sort: "Batista, Joseph"
+  l: "B"
+- name: "Hannah Berner"
+  sort: "Berner, Hannah"
+  l: "B"
+- name: "Anthony Davis"
+  sort: "Davis, Anthony"
+  l: "D"
+- name: "Mallory Faulkner"
+  sort: "Faulkner, Mallory"
+  l: "F"
+- name: "Philp Kamletz"
+  sort: "Kamletz, Philp"
+  l: "K"
+- name: "Jason Makela"
+  sort: "Makela, Jason"
+  l: "M"
+- name: "Braden McCready"
+  sort: "McCready, Braden"
+  l: "M"
+- name: "David Meddaugh"
+  sort: "Meddaugh, David"
+  l: "M"
+- name: "Ryley Nutt"
+  sort: "Nutt, Ryley"
+  l: "N"
+- name: "Jonathon Reading"
+  sort: "Reading, Jonathon"
+  l: "R"
+- name: "Micah Samuelson"
+  sort: "Samuelson, Micah"
+  l: "S"
+- name: "Cameron Smith"
+  sort: "Smith, Cameron"
+  l: "S"
+- name: "Dori Thomas"
+  sort: "Thomas, Dori"
+  l: "T"
+- name: "Daniel Wagner"
+  sort: "Wagner, Daniel"
+  l: "W"
+- name: "Jesse Wagner"
+  sort: "Wagner, Jesse"
+  l: "W"
+- name: "Josh Wagner"
+  sort: "Wagner, Josh"
+  l: "W"
+- name: "Logan Welch"
+  sort: "Welch, Logan"
+  l: "W"
+- name: "Michael Woods"
+  sort: "Woods, Michael"
+  l: "W"
 ---
 
 ## A Division
@@ -73,4 +133,3 @@ menubar_toc_static:
 |    7 | Logan Welch      | Praise Assembly  |   365 |    2 |
 |    8 | Jonathon Reading | Muskogee         |   320 |    3 |
 |    9 | Hannah Berner    | Harvest          |   200 |    1 |
-

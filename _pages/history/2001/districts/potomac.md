@@ -9,6 +9,39 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "Brittany Bradley"
+  sort: "Bradley, Brittany"
+  l: "B"
+- name: "Tara Hardwicke"
+  sort: "Hardwicke, Tara"
+  l: "H"
+- name: "Ashley Hartz"
+  sort: "Hartz, Ashley"
+  l: "H"
+- name: "Jacob Kalu"
+  sort: "Kalu, Jacob"
+  l: "K"
+- name: "Candice Malinger"
+  sort: "Malinger, Candice"
+  l: "M"
+- name: "Katibeth Rabern"
+  sort: "Rabern, Katibeth"
+  l: "R"
+- name: "David Windsor"
+  sort: "Windsor, David"
+  l: "W"
+- name: "Neil Windsor"
+  sort: "Windsor, Neil"
+  l: "W"
+- name: "Chucky Winkler"
+  sort: "Winkler, Chucky"
+  l: "W"
+- name: "Becky York"
+  sort: "York, Becky"
+  l: "Y"
 ---
 
 ## Teams
@@ -40,4 +73,3 @@ menubar_toc_static:
 |    8 | Candice Malinger |   110 | Manassas A/G       |
 |    9 | Brittany Bradley |   105 | Front Royal A/G    |
 |   10 | Ashley Hartz     |    75 | Central Assembly   |
-

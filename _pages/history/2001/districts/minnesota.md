@@ -10,6 +10,18 @@ menubar_toc_static:
   - name: 2001 Season
     link: /history/2001/
     icon: fas fa-home
+type: t
+season: 2001
+quizzers:
+- name: "Bobby DeGray"
+  sort: "DeGray, Bobby"
+  l: "D"
+- name: "Laura Jones"
+  sort: "Jones, Laura"
+  l: "J"
+- name: "Kari Van Gorp"
+  sort: "Van Gorp, Kari"
+  l: "V"
 ---
 
 First Place went to the team from Pine City, Minnesota with 5 wins and zero losses.  This was the first state title for Pine City.
@@ -23,4 +35,3 @@ Bethel has competed in Regionals and National finals before, but it has been sin
 |    1 | Bobby DeGray  | Pine City          |   530 |
 |    2 | Kari Van Gorp | Our Father's House |   490 |
 |    3 | Laura Jones   | Bethel             |   390 |
-

@@ -9,6 +9,69 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
+type: t
+season: 2005
+quizzers:
+- name: "Yoki Belay"
+  sort: "Belay, Yoki"
+  l: "B"
+- name: "Bekah Bentley"
+  sort: "Bentley, Bekah"
+  l: "B"
+- name: "Jared Burkhalter"
+  sort: "Burkhalter, Jared"
+  l: "B"
+- name: "Tamera Burkhalter"
+  sort: "Burkhalter, Tamera"
+  l: "B"
+- name: "Bradley Chapman"
+  sort: "Chapman, Bradley"
+  l: "C"
+- name: "KD Couch"
+  sort: "Couch, KD"
+  l: "C"
+- name: "Marylee Couch"
+  sort: "Couch, Marylee"
+  l: "C"
+- name: "Chad Crawford"
+  sort: "Crawford, Chad"
+  l: "C"
+- name: "Eddy Ferreira"
+  sort: "Ferreira, Eddy"
+  l: "F"
+- name: "Madison Hall"
+  sort: "Hall, Madison"
+  l: "H"
+- name: "Gabriel Kennedy"
+  sort: "Kennedy, Gabriel"
+  l: "K"
+- name: "Bobby Kirkpatrick"
+  sort: "Kirkpatrick, Bobby"
+  l: "K"
+- name: "Isabella Lex"
+  sort: "Lex, Isabella"
+  l: "L"
+- name: "James Lex"
+  sort: "Lex, James"
+  l: "L"
+- name: "Gabrielle Richmeier"
+  sort: "Richmeier, Gabrielle"
+  l: "R"
+- name: "Terri Sills"
+  sort: "Sills, Terri"
+  l: "S"
+- name: "Christina Simpson"
+  sort: "Simpson, Christina"
+  l: "S"
+- name: "Damon Smith"
+  sort: "Smith, Damon"
+  l: "S"
+- name: "Shannon Smith"
+  sort: "Smith, Shannon"
+  l: "S"
+- name: "Tiffany Turner"
+  sort: "Turner, Tiffany"
+  l: "T"
 ---
 
 ## A Division
@@ -74,4 +137,3 @@ menubar_toc_static:
 |    8 | Bekah Bentley     | Ocoee      |   320 |
 |    9 | Bradley Chapman   | Dahlonega  |   315 |
 |   10 | Gabriel Kennedy   | Goldsboro  |   290 |
-

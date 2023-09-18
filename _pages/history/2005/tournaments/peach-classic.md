@@ -10,6 +10,57 @@ menubar_toc_static:
   - name: 2005 Season
     link: /history/2005/
     icon: fas fa-home
+type: t
+season: 2005
+quizzers:
+- name: "Tamara Burkhalter"
+  sort: "Burkhalter, Tamara"
+  l: "B"
+- name: "Bradley Chapman"
+  sort: "Chapman, Bradley"
+  l: "C"
+- name: "Chris Ciraky"
+  sort: "Ciraky, Chris"
+  l: "C"
+- name: "Daniel Connell"
+  sort: "Connell, Daniel"
+  l: "C"
+- name: "Eddy Ferreria"
+  sort: "Ferreria, Eddy"
+  l: "F"
+- name: "Madison Hall"
+  sort: "Hall, Madison"
+  l: "H"
+- name: "James Johnson"
+  sort: "Johnson, James"
+  l: "J"
+- name: "Jeffrey Johnson"
+  sort: "Johnson, Jeffrey"
+  l: "J"
+- name: "Stephanie Johnson"
+  sort: "Johnson, Stephanie"
+  l: "J"
+- name: "Bobby Kirkpatrick"
+  sort: "Kirkpatrick, Bobby"
+  l: "K"
+- name: "Isabella Lex"
+  sort: "Lex, Isabella"
+  l: "L"
+- name: "James Lex"
+  sort: "Lex, James"
+  l: "L"
+- name: "Amber Schlesinger"
+  sort: "Schlesinger, Amber"
+  l: "S"
+- name: "Terri Sills"
+  sort: "Sills, Terri"
+  l: "S"
+- name: "Jessica Temple"
+  sort: "Temple, Jessica"
+  l: "T"
+- name: "Tiffany Turner"
+  sort: "Turner, Tiffany"
+  l: "T"
 ---
 
 ## A League
@@ -81,4 +132,3 @@ Teams played an 8-team round robin to determine placing into Gold and Silver div
 |    3 | Daniel Connell    | Warner Robins |   420 |
 |    4 | Amber Schlesinger | Rome          |   210 |
 |    5 | James Johnson     | Dahlonega     |    95 |
-

@@ -1,0 +1,3 @@
+---
+---
+{{% for page in site.pages %}{% if page.quizzers and page.title != "" %}{% unless forloop.first %},{% endunless %}{"{{ site.baseurl }}{{ page.url }}":"{{ page.title }}"}{% endfor %}}

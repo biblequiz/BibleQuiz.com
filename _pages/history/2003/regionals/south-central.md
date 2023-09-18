@@ -9,6 +9,69 @@ menubar_toc_static:
   - name: 2003 Season
     link: /history/2003/
     icon: fas fa-home
+type: t
+season: 2003
+quizzers:
+- name: "Da'Nae Atkins"
+  sort: "Atkins, Da'Nae"
+  l: "A"
+- name: "Eliot Butay"
+  sort: "Butay, Eliot"
+  l: "B"
+- name: "Lydia Butay"
+  sort: "Butay, Lydia"
+  l: "B"
+- name: "Chris Byrd"
+  sort: "Byrd, Chris"
+  l: "B"
+- name: "Cody Conway"
+  sort: "Conway, Cody"
+  l: "C"
+- name: "Jennifer Gates"
+  sort: "Gates, Jennifer"
+  l: "G"
+- name: "Davis Good"
+  sort: "Good, Davis"
+  l: "G"
+- name: "Zoe Lopez"
+  sort: "Lopez, Zoe"
+  l: "L"
+- name: "Steffanie Marler"
+  sort: "Marler, Steffanie"
+  l: "M"
+- name: "Maris Naylor"
+  sort: "Naylor, Maris"
+  l: "N"
+- name: "Alan Orcutt"
+  sort: "Orcutt, Alan"
+  l: "O"
+- name: "Albert Osueke"
+  sort: "Osueke, Albert"
+  l: "O"
+- name: "Jared Paige"
+  sort: "Paige, Jared"
+  l: "P"
+- name: "Michael Pearson"
+  sort: "Pearson, Michael"
+  l: "P"
+- name: "Samantha Pendleton"
+  sort: "Pendleton, Samantha"
+  l: "P"
+- name: "Amanda Pryor"
+  sort: "Pryor, Amanda"
+  l: "P"
+- name: "April Pryor"
+  sort: "Pryor, April"
+  l: "P"
+- name: "Sean Steadley"
+  sort: "Steadley, Sean"
+  l: "S"
+- name: "Christian Stringfellow"
+  sort: "Stringfellow, Christian"
+  l: "S"
+- name: "Zachary Sullivan"
+  sort: "Sullivan, Zachary"
+  l: "S"
 ---
 
 ## A Division
@@ -75,4 +138,3 @@ menubar_toc_static:
 |    8 | Zoe Lopez              | Albuqueque Revival Center, Albuqueque, NM       |   500 |
 |    9 | Steffanie Marler       | Greens Bayou Assembly, Houston, Tx              |   405 |
 |   10 | Christian Stringfellow | First Assembly,Topeka, Topeka, KS               |   295 |
-

@@ -9,6 +9,45 @@ menubar_toc_static:
   - name: 2004 Season
     link: /history/2004/
     icon: fas fa-home
+type: t
+season: 2004
+quizzers:
+- name: "Andrea Darmahkasih"
+  sort: "Darmahkasih, Andrea"
+  l: "D"
+- name: "Andrew Darmahkasih"
+  sort: "Darmahkasih, Andrew"
+  l: "D"
+- name: "Eric Everett"
+  sort: "Everett, Eric"
+  l: "E"
+- name: "Lisa Everett"
+  sort: "Everett, Lisa"
+  l: "E"
+- name: "Maggie Hill"
+  sort: "Hill, Maggie"
+  l: "H"
+- name: "Melissa Kellams"
+  sort: "Kellams, Melissa"
+  l: "K"
+- name: "Danny Petric"
+  sort: "Petric, Danny"
+  l: "P"
+- name: "Bailey Steel"
+  sort: "Steel, Bailey"
+  l: "S"
+- name: "Brandy Steel"
+  sort: "Steel, Brandy"
+  l: "S"
+- name: "Bryce Steel"
+  sort: "Steel, Bryce"
+  l: "S"
+- name: "Lindsay Vassallo"
+  sort: "Vassallo, Lindsay"
+  l: "V"
+- name: "Jaime Vedrody"
+  sort: "Vedrody, Jaime"
+  l: "V"
 ---
 
 ## A Division
@@ -60,4 +99,3 @@ menubar_toc_static:
 |    3 | Danny Petric       | Well  |  51.0 |
 |    4 | Melissa Kellams    | Lou#2 |  43.0 |
 |    5 | Lindsay Vassallo   | Sand  |  39.0 |
-
