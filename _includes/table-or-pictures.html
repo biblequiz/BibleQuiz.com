@@ -1,0 +1,82 @@
+{% assign columns = include.columns %}
+{% assign rows = include.rows %}
+
+<div class="tabs is-toggle is-toggle-rounded is-centered">
+    <ul>
+        <li class="is-active" id="tableOrPictures-table-button">
+            <a>
+                <span class="icon is-small"><i class="fas fa-table"></i></span>
+                <span>{{ include.tableLabel | default: "Table View" }}</span>
+            </a>
+        </li>
+        <li id="tableOrPictures-gallery-button">
+            <a>
+                <span class="icon is-small"><i class="fas fa-image"></i></span>
+                <span>{{ include.galleryLabel | default: "Gallery View" }}</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<table class="table is-striped is-fullwidth" id="tableOrPictures-table">
+    <thead>
+        {% for column in columns -%}
+        <th{% if column.class %} class="{{ column.class }}" {% endif %}>{{ column.name }}</th>
+            {% endfor -%}
+    </thead>
+    <tbody>
+        {% for row in rows -%}
+        <tr>
+            {% for column in columns -%}
+            <td>{{ row[column.name] | default: "&nbsp;" }}</td>
+            {% endfor -%}
+        </tr>
+        {% endfor -%}
+    </tbody>
+</table>
+
+
+<div class="columns is-multiline is-centered is-vcentered" id="tableOrPictures-gallery" style="display:none">
+    {% for row in rows -%}
+    <div class="column is-2 box m-1 has-text-centered">
+        {% if row.imageFile -%}
+        <div>
+            <img src="{{ include.imagePrefix }}{{ row.imageFile }}" />
+        </div>
+        {% endif -%}
+        {% for column in columns -%}
+        {% assign cellValue = row[column.name] -%}
+        {% if cellValue -%}
+        <p{% if column.class %} class="{{ column.class }}"{% endif %}>{{ cellValue }}</p>
+        {% endif -%}
+        {% endfor -%}
+    </div>
+    {% endfor -%}
+</div>
+
+<script type="text/javascript">
+    const table = document.getElementById('tableOrPictures-table');
+    const tableButton = document.getElementById('tableOrPictures-table-button');
+
+    const gallery = document.getElementById('tableOrPictures-gallery');
+    const galleryButton = document.getElementById('tableOrPictures-gallery-button');
+
+    function showTableorGallery(isGalleryVisible) {
+        if (isGalleryVisible) {
+            table.style.display = "none";
+            tableButton.classList.remove("is-active");
+
+            gallery.style.display = "";
+            galleryButton.classList.add("is-active");
+        } else {
+            table.style.display = "";
+            tableButton.classList.add("is-active");
+
+            gallery.style.display = "none";
+            galleryButton.classList.remove("is-active");
+        }
+    }
+
+    tableButton.onclick = () => showTableorGallery(false);
+    galleryButton.onclick = () => showTableorGallery(true);
+</script>
