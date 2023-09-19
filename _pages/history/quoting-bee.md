@@ -4,7 +4,7 @@ permalink: /history/quoting-bee/
 title: "Quoting Bee"
 date: "2020-02-09"
 menubar: menu_history
-imagePrefix: /assets/individuals/quoting-bee/
+imagePrefix: /assets/quoting-bee/
 columns:
 - name: Year
   class: "title is-5"
