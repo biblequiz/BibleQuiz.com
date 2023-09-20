@@ -486,6 +486,10 @@ menubar_toc_static:
 
 ## Special Events
 
+### Senior Shootout
+
+Won by Daniel Quick from James River Church, Ozark, MO
+
 ### Individual Tournament
 
 If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).

@@ -1942,6 +1942,12 @@ In the challenger division, Billy Branham (1) was the only quizzer to achieve a 
   * Round 18: Lost to Racine A/G, Racine, WI 25 to 195
   * Round 19: Lost to First A/G, Lexington, KY 80 to 110
 
+## Special Events
+
+### Senior Shootout
+
+Won by Brandon Duffy from Cedar Park AG, Bothell, WA
+
 ## Memories
 
 ### Stories

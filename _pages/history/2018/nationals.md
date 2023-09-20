@@ -303,6 +303,10 @@ menubar_toc_static:
 
 ## Special Events
 
+### Senior Shootout
+
+Won by Jonathan Laakonen from First A/G, Lexington, KY
+
 ### Individual Tournament
 
 If you have results, please email [hello@biblequiz.com](mailto:hello@biblequiz.com).

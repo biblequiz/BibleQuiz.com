@@ -2060,6 +2060,12 @@ Playoff: Lost to First A/G, Lafayette, IN
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Orange Hills A/G, Orange, CA" html=image_html %}
 
+## Special Events
+
+### Senior Shootout
+
+Won by Jared Paige from Braeswood AG, Houston, TX
+
 ## Memories
 
 Below is a video recorded by Jesse Czubkowski of playoff match for second place between Bothell and James River.
