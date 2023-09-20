@@ -107,20 +107,25 @@ rows:
   imagePath: /assets/question-writers/RichardEly.jpg
 - Year: 2004
   Material: Hebrews, 1 & 2 Peter
-  A League: Kent Piacenti, Mel Aou, Tim Bahra
+  A League: Kent Piacenti*, Mel Aou*, Tim Bahra*
   MSQ/Novice: Nilay Saiya
+  imagePath: /assets/question-writers/KentPiacenti_MelAou_TimBahra.jpg
 - Year: 2003
   Material: John
-  A League: Kent Piacenti, Mel Aou, Tim Bahra
+  A League: Kent Piacenti*, Mel Aou*, Tim Bahra*
+  imagePath: /assets/question-writers/KentPiacenti_MelAou_TimBahra.jpg
 - Year: 2002
   Material: 1 & 2 Corinthians
-  A League: Greg House, Mel Aou, Tim Bahra
+  A League: Greg House*, Mel Aou*, Tim Bahra*
+  imagePath: /assets/question-writers/GregHouse_MelAou_TimBahra.jpg
 - Year: 2001
   Material: Luke
-  A League: Greg House, Dan Smith, Rick Faulkner, Tim Bahra
+  A League: Greg House*, Dan Smith*, Rick Faulkner*, Tim Bahra*
+  imagePath: /assets/question-writers/GregHouse_DanSmith_RickFaulkner_TimBahra.jpg
 - Year: 2000
   Material: Galatians, Ephesians, Philippians, Colossians & Philemon
-  A League: Greg House, Dan Smith, Rick Faulkner, Tim Bahra
+  A League: Greg House*, Dan Smith*, Rick Faulkner*, Tim Bahra*
+  imagePath: /assets/question-writers/GregHouse_DanSmith_RickFaulkner_TimBahra.jpg
 - Year: 1999
   Material: Acts
   A League: Monica Batty*
