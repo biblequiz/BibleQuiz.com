@@ -6,17 +6,18 @@ date: "2020-02-09"
 menubar: menu_history
 columns:
 - name: Year
-  class: "title is-5"
+  tableClass: "has-text-right"
+  cardClass: "title is-5"
 - name: Quizzer
-  class: "subtitle is-5"
+  cardClass: "subtitle is-5"
 - name: Church
 - name: City
 - name: Avg
-  class: "has-text-right"
-  cardPrefix: "Avg: "
+  tableClass: "has-text-right"
+  cardPrefix: "<i>Avg</i>: "
 - name: QO
-  class: "has-text-right"
-  cardPrefix: "QO: "
+  tableClass: "has-text-right"
+  cardPrefix: "<i>QO</i>: "
 rows:
 - Year: 2023
   Quizzer: Samuel Jebaraj

@@ -21,20 +21,19 @@
 <table class="table is-striped is-fullwidth" id="tableOrPictures-table">
     <thead>
         {% for column in columns -%}
-        <th{% if column.class %} class="{{ column.class }}" {% endif %}>{{ column.name }}</th>
-            {% endfor -%}
+        <th{% if column.tableClass %} class="{{ column.tableClass }}" {% endif %}>{{ column.name }}</th>
+        {% endfor -%}
     </thead>
     <tbody>
         {% for row in rows -%}
         <tr>
             {% for column in columns -%}
-            <td>{{ row[column.name] | default: "&nbsp;" }}</td>
+            <td{% if column.tableClass %} class="{{ column.tableClass }}" {% endif %}>{{ row[column.name] | default: "&nbsp;" }}</td>
             {% endfor -%}
         </tr>
         {% endfor -%}
     </tbody>
 </table>
-
 
 <div class="columns is-multiline is-centered is-vcentered" id="tableOrPictures-gallery" style="display:none">
     {% for row in rows -%}
@@ -49,7 +48,7 @@
             {% for column in columns -%}
             {% assign cellValue = row[column.name] -%}
             {% if cellValue -%}
-            <p{% if column.class %} class="{{ column.class }}" {% endif %}>{{ column.cardPrefix }}{{ cellValue }}</p>
+            <p{% if column.cardClass %} class="{{ column.cardClass }}" {% endif %}>{{ column.cardPrefix }}{{ cellValue }}</p>
                 {% endif -%}
                 {% endfor -%}
                 {% if row.imagePath and include.showModal -%}

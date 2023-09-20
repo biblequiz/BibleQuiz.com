@@ -6,9 +6,10 @@ date: "2020-02-09"
 menubar: menu_history
 columns:
 - name: Year
-  class: "title is-5"
+  tableClass: "has-text-right"
+  cardClass: "title is-5"
 - name: Team
-  class: "subtitle is-5"
+  cardClass: "subtitle is-5"
 - name: City
 - name: Region
 rows:
