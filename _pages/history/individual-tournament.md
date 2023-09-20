@@ -177,7 +177,6 @@ The individual tournament was started in 1986. It has changed in format many tim
 {% include table-or-pictures.html
      tableLabel="View Quizzers by Table"
      galleryLabel="View Quizzers by Picture"
-     imagePrefix=page.imagePrefix
      columns=page.columns
      rows=page.rows
      showModal=false %}

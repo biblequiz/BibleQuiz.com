@@ -311,7 +311,6 @@ rows:
 {% include table-or-pictures.html
      tableLabel="View Team by Table"
      galleryLabel="View Team by Picture"
-     imagePrefix=page.imagePrefix
      columns=page.columns
      rows=page.rows
      showModal=true %}
