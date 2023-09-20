@@ -49,7 +49,7 @@
             {% for column in columns -%}
             {% assign cellValue = row[column.name] -%}
             {% if cellValue -%}
-            <p{% if column.class %} class="{{ column.class }}" {% endif %}>{{ cellValue }}</p>
+            <p{% if column.class %} class="{{ column.class }}" {% endif %}>{{ column.cardPrefix }}{{ cellValue }}</p>
                 {% endif -%}
                 {% endfor -%}
                 {% if row.imagePath and include.showModal -%}
