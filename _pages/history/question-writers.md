@@ -4,6 +4,22 @@ permalink: /history/question-writers/
 title: "Question Writers"
 date: "2020-02-09"
 menubar: menu_history
+columns:
+- name: Season
+  tableClass: "has-text-right"
+  cardClass: "title is-5"
+- name: Material
+- name: A League
+- name: MSQ/Novice
+rows:
+- Year: 2024
+  Material: Romans and James
+  A League: Jesse Czubkowski
+  MSQ/Novice: Micah Van Gorp
+- Year: 2023
+  Material: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John
+  A League: Josh Forsman and Josh Gallo
+  MSQ/Novice: Heather Cox
 ---
 
 | Season | Material                                                  | A League                                        | MSQ/Novice         |
@@ -71,3 +87,11 @@ menubar: menu_history
 | 1964   | 1 & 2 Corinthians                                         | Donald F. Johns                                 |                    |
 | 1963   | Luke                                                      | Stan Walters                                    |                    |
 | 1962   | Acts                                                      | Nicholas Nikoloff                               |                    |
+
+{% include table-or-pictures.html
+     tableLabel="View Writers by Table"
+     galleryLabel="View Writers by Picture"
+     imagePrefix=page.imagePrefix
+     columns=page.columns
+     rows=page.rows
+     showModal=true %}
