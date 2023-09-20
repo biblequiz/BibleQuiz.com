@@ -110,22 +110,27 @@ rows:
   A League: Kent Piacenti*, Mel Aou*, Tim Bahra*
   MSQ/Novice: Nilay Saiya
   imagePath: /assets/question-writers/KentPiacenti_MelAou_TimBahra.jpg
+  showModal: true
 - Year: 2003
   Material: John
   A League: Kent Piacenti*, Mel Aou*, Tim Bahra*
   imagePath: /assets/question-writers/KentPiacenti_MelAou_TimBahra.jpg
+  showModal: true
 - Year: 2002
   Material: 1 & 2 Corinthians
   A League: Greg House*, Mel Aou*, Tim Bahra*
   imagePath: /assets/question-writers/GregHouse_MelAou_TimBahra.jpg
+  showModal: true
 - Year: 2001
   Material: Luke
   A League: Greg House*, Dan Smith*, Rick Faulkner*, Tim Bahra*
   imagePath: /assets/question-writers/GregHouse_DanSmith_RickFaulkner_TimBahra.jpg
+  showModal: true
 - Year: 2000
   Material: Galatians, Ephesians, Philippians, Colossians & Philemon
   A League: Greg House*, Dan Smith*, Rick Faulkner*, Tim Bahra*
   imagePath: /assets/question-writers/GregHouse_DanSmith_RickFaulkner_TimBahra.jpg
+  showModal: true
 - Year: 1999
   Material: Acts
   A League: Monica Batty*
@@ -188,6 +193,7 @@ rows:
   Material: Galatians, Ephesians, Philippians, & Colossians
   A League: Dale Baird* and David Baird*
   imagePath: /assets/question-writers/DavidAndDaleBaird.jpg
+  showModal: true
 - Year: 1983
   Material: Acts
   A League: Brenton Osgood*
@@ -273,6 +279,6 @@ rows:
      imagePrefix=page.imagePrefix
      columns=page.columns
      rows=page.rows
-     showModal=true %}
+     showModal=false %}
 
 \* Indicates the individual in the picture when looking at Picture View.
