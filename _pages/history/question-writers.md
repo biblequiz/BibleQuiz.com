@@ -4,7 +4,6 @@ permalink: /history/question-writers/
 title: "Question Writers"
 date: "2020-02-09"
 menubar: menu_history
-cardColumnWidth: 3
 columns:
 - name: Season
   tableClass: "has-text-right"
@@ -279,9 +278,9 @@ rows:
 {% include table-or-pictures.html
      tableLabel="View Writers by Table"
      galleryLabel="View Writers by Picture"
-     imagePrefix=page.imagePrefix
      columns=page.columns
      rows=page.rows
+     cardColumnWidth=3
      showModal=false %}
 
 \* Indicates the individual in the picture when looking at Picture View.

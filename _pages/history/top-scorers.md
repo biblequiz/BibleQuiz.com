@@ -340,7 +340,6 @@ These are the top scores at Nationals Finals since 1963.
 {% include table-or-pictures.html
      tableLabel="View Quizzers by Table"
      galleryLabel="View Quizzers by Picture"
-     imagePrefix=page.imagePrefix
      columns=page.columns
      rows=page.rows
      showModal=false %}

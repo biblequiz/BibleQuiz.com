@@ -130,7 +130,6 @@ follows the same format. Eventually quizzers have to quote two (or even three) r
 {% include table-or-pictures.html
      tableLabel="View Quizzers by Table"
      galleryLabel="View Quizzers by Picture"
-     imagePrefix=page.imagePrefix
      columns=page.columns
      rows=page.rows
      showModal=false %}
