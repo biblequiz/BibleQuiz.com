@@ -50,8 +50,8 @@ rows:
   City: Scottsdale, AZ
   Avg: 98.4
   QO: 14
-- Year: 2017
   imagePath: /assets/2018/top-scorer.jpg
+- Year: 2017
   Quizzer: Halle Reisinger
   Church: Newport AG
   City: Newport, PA
