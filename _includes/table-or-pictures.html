@@ -38,9 +38,9 @@
 
 <div class="columns is-multiline is-centered is-vcentered" id="tableOrPictures-gallery" style="display:none">
     {% for row in rows -%}
-    <div class="column is-{{ column.width || default: '2' }} box m-1 has-text-centered">
+    <div class="column is-{{ cardColumnWidth || default: '2' }} box m-1 has-text-centered">
         {% if row.imagePath -%}
-        {% if include.showModal -%}<a onclick="showImageModal('{{ row.imagePath }}')">{% endif
+        {% if include.showModal or row.showModal -%}<a onclick="showImageModal('{{ row.imagePath }}')">{% endif
             -%}
             <div>
                 <img src="{{ row.imagePath }}" />
@@ -52,7 +52,7 @@
             <p{% if column.class %} class="{{ column.class }}" {% endif %}>{{ column.cardPrefix }}{{ cellValue }}</p>
                 {% endif -%}
                 {% endfor -%}
-                {% if row.imagePath and include.showModal -%}
+                {% if row.imagePath and (include.showModal or row.showModal) -%}
         </a>{% endif -%}
     </div>
     {% endfor -%}

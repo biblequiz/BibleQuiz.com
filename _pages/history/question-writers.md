@@ -4,6 +4,7 @@ permalink: /history/question-writers/
 title: "Question Writers"
 date: "2020-02-09"
 menubar: menu_history
+cardColumnWidth: 3
 columns:
 - name: Season
   tableClass: "has-text-right"
