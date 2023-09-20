@@ -165,7 +165,7 @@ rows:
   imagePath: /assets/question-writers/JohnBayko.jpg
 - Year: 1988
   Material: Hebrews, 1 & 2 Peter
-  A League: John Wootton
+  A League: John Wootton*
   imagePath: /assets/question-writers/JohnWootton.jpg
 - Year: 1987
   Material: John
@@ -258,7 +258,7 @@ rows:
   A League: Stan Walters
 - Year: 1962
   Material: Acts
-  A League: Nicholas Nikoloff
+  A League: Nicholas Nikoloff*
   imagePath: /assets/question-writers/NicholasNikoloff.jpg
 ---
 
