@@ -274,7 +274,7 @@ rows:
   Team: First AG
   City: Wilmington, CA
   Region: Southwest
-  imageFile: http://biblequiz.com/assets/1969/CA-Wilmington2.jpg
+  imageFile: /assets/1969/CA-Wilmington2.jpg
 - Year: 1968
   Team: Bethel AG
   City: Arlington, TX
@@ -312,4 +312,5 @@ rows:
      galleryLabel="View Team by Picture"
      imagePrefix=page.imagePrefix
      columns=page.columns
-     rows=page.rows %}
+     rows=page.rows
+     showModal=true %}

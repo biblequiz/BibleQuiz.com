@@ -40,18 +40,37 @@
     {% for row in rows -%}
     <div class="column is-{{ column.width || default: '2' }} box m-1 has-text-centered">
         {% if row.imageFile -%}
-        <div>
-            <img src="{{ include.imagePrefix }}{{ row.imageFile }}" />
-        </div>
-        {% endif -%}
-        {% for column in columns -%}
-        {% assign cellValue = row[column.name] -%}
-        {% if cellValue -%}
-        <p{% if column.class %} class="{{ column.class }}"{% endif %}>{{ cellValue }}</p>
-        {% endif -%}
-        {% endfor -%}
+        {% if include.showModal -%}<a onclick="showImageModal('{{ include.imagePrefix }}{{ row.imageFile }}')">{% endif
+            -%}
+            <div>
+                <img src="{{ include.imagePrefix }}{{ row.imageFile }}" />
+            </div>
+            {% endif -%}
+            {% for column in columns -%}
+            {% assign cellValue = row[column.name] -%}
+            {% if cellValue -%}
+            <p{% if column.class %} class="{{ column.class }}" {% endif %}>{{ cellValue }}</p>
+                {% endif -%}
+                {% endfor -%}
+                {% if row.imageFile and include.showModal -%}
+        </a>{% endif -%}
     </div>
     {% endfor -%}
+</div>
+
+<div id="tableOrPictures-modal" class="modal">
+    <div class="modal-background" id="tableOrPictures-modal-bkg"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title" id="tableOrPictures-modal-title" />
+        </header>
+        <section class="modal-card-body">
+            <img id="tableOrPictures-modal-image">
+        </section>
+        <footer class="modal-card-foot" style="text-align:right">
+            <button class="button" id="tableOrPictures-modal-close">Close</button>
+        </footer>
+    </div>
 </div>
 
 <script type="text/javascript">
@@ -60,6 +79,12 @@
 
     const gallery = document.getElementById('tableOrPictures-gallery');
     const galleryButton = document.getElementById('tableOrPictures-gallery-button');
+
+    const modal = document.getElementById("tableOrPictures-modal");
+    const modalBackground = document.getElementById("tableOrPictures-modal-bkg");
+    const modalTitle = document.getElementById("tableOrPictures-modal-title");
+    const modalImage = document.getElementById("tableOrPictures-modal-image");
+    const modalClose = document.getElementById("tableOrPictures-modal-close");
 
     function showTableorGallery(isGalleryVisible) {
         if (isGalleryVisible) {
@@ -77,6 +102,27 @@
         }
     }
 
+    function showImageModal(link) {
+        modalImage.src = link;
+        modal.classList.add("is-active");
+    }
+
+    function closeImageModal() {
+        modal.classList.remove("is-active");
+    }
+
     tableButton.onclick = () => showTableorGallery(false);
     galleryButton.onclick = () => showTableorGallery(true);
+
+    modalBackground.onclick = closeImageModal;
+    modalClose.onclick = closeImageModal;
+
+    const closeModal = (e) => {
+        if (e.keyCode === 27) {
+            modal.classList.remove("is-active");
+            window.removeEventListener("onkeydown", closeModal);
+        }
+    };
+
+    window.onkeyup = closeModal;
 </script>

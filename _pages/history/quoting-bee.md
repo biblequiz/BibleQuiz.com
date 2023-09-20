@@ -133,4 +133,5 @@ follows the same format. Eventually quizzers have to quote two (or even three) r
      galleryLabel="View Quizzers by Picture"
      imagePrefix=page.imagePrefix
      columns=page.columns
-     rows=page.rows %}
+     rows=page.rows
+     showModal=false %}

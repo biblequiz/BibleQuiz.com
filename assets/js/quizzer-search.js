@@ -253,7 +253,7 @@ function showQuizzerScores(quizzer) {
         }
     };
 
-    window.onkeydown = closeModal;
+    window.onkeyup = closeModal;
 
     let name = quizzer.n;
     if (quizzer.on) {
