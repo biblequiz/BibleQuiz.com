@@ -40,10 +40,10 @@
     {% for row in rows -%}
     <div class="column is-{{ column.width || default: '2' }} box m-1 has-text-centered">
         {% if row.imageFile -%}
-        {% if include.showModal -%}<a onclick="showImageModal('{{ include.imagePrefix }}{{ row.imageFile }}')">{% endif
+        {% if include.showModal -%}<a onclick="showImageModal('{{ row.imageFile }}')">{% endif
             -%}
             <div>
-                <img src="{{ include.imagePrefix }}{{ row.imageFile }}" />
+                <img src="{{ row.imageFile }}" />
             </div>
             {% endif -%}
             {% for column in columns -%}
