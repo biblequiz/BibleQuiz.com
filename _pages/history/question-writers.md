@@ -11,7 +11,9 @@ columns:
   cardClass: "title is-5"
 - name: Material
 - name: A League
+  cardPrefix: "<i>A:</i> "
 - name: MSQ/Novice
+  cardPrefix: "<i>MSQ/N:</i> "
 rows:
 - Year: 2024
   Material: Romans and James
