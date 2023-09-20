@@ -22,71 +22,207 @@ rows:
   MSQ/Novice: Heather Cox
 ---
 
-| Season | Material                                                  | A League                                        | MSQ/Novice         |
-| ------ | --------------------------------------------------------- | ----------------------------------------------- | ------------------ |
-| 2024   | Romans and James                                          | Jesse Czubkowski                                | Micah Van Gorp     |
-| 2023   | 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John | Josh Forsman and Josh Gallo                     | Heather Cox        |
-| 2022   | Matthew                                                   | Selena Davis                                    | Josh Gallo         |
-| 2021   | Hebrews, 1 & 2 Peter, Jude                                | James and LaJoie Lex                            | Jared Hill         |
-| 2020   | John                                                      | Jesse Czubkowski                                | Danielle Mori      |
-| 2019   | 1 & 2 Corinthians                                         | Aaron and Katie Kohler                          | Selena Rodriguez   |
-| 2018   | Mark                                                      | Seth Sundell                                    | Doug Black         |
-| 2017   | Galatians, Ephesians, Philippians, Colossians & Philemon  | Jesse Czubkowski                                | Danielle Brozovich |
-| 2016   | Acts                                                      | Kent Kloefkorn                                  | LaJoie Lex         |
-| 2015   | Romans and James                                          | Seth Sundell                                    | Katie Kohler       |
-| 2014   | 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John | Kent Kloefkorn                                  | Doug Black         |
-| 2013   | Matthew                                                   | Kent Kloefkorn                                  | Mark Whitehead     |
-| 2012   | Hebrews, 1 & 2 Peter, Jude                                | Seth Sundell                                    | Mark Whitehead     |
-| 2011   | John                                                      | Kent Kloefkorn                                  |                    |
-| 2010   | 1 & 2 Corinthians                                         | Richard Ely                                     | Brian Lewis        |
-| 2009   | Mark                                                      | Aaron Kohler                                    | Nilay Saiya        |
-| 2008   | Galatians, Ephesians, Philippians, Colossians & Philemon  | Aaron Kohler                                    | Nilay Saiya        |
-| 2007   | Acts                                                      | Richard Ely                                     | Nilay Saiya        |
-| 2006   | Romans and James                                          | Richard Ely                                     | Nilay Saiya        |
-| 2005   | Matthew                                                   | Richard Ely                                     | Nilay Saiya        |
-| 2004   | Hebrews, 1 & 2 Peter                                      | Kent Piacenti, Mel Aou, and Tim Bahra           | Nilay Saiya        |
-| 2003   | John                                                      | Kent Piacenti, Mel Aou, and Tim Bahra           |                    |
-| 2002   | 1 & 2 Corinthians                                         | Greg House, Mel Aou, Tim Bahra                  |                    |
-| 2001   | Luke                                                      | Greg House, Dan Smith, Rick Faulkner, Tim Bahra |                    |
-| 2000   | Galatians, Ephesians, Philippians, Colossians & Philemon  | Greg House, Dan Smith, Rick Faulkner, Tim Bahra |                    |
-| 1999   | Acts                                                      | Monica Batty                                    |                    |
-| 1998   | Romans and James                                          | Rick Faulkner                                   |                    |
-| 1997   | Matthew                                                   | Dan Smith                                       |                    |
-| 1996   | Hebrews, 1 & 2 Peter                                      | Bryan Turner                                    |                    |
-| 1995   | John                                                      | Mike Batty                                      |                    |
-| 1994   | 1 & 2 Corinthians                                         | Mark Girimonte                                  |                    |
-| 1993   | Luke                                                      | Sean Davis                                      |                    |
-| 1992   | Galatians, Ephesians, Philippians, Colossians & Philemon  | Bob Roller                                      |                    |
-| 1991   | Acts                                                      | Glen Percifield                                 |                    |
-| 1990   | James & Romans                                            | Bryan Turner                                    |                    |
-| 1989   | Matthew                                                   | John Bayko                                      |                    |
-| 1988   | Hebrews, 1 & 2 Peter                                      | John Wootton                                    |                    |
-| 1987   | John                                                      | Paul Freitag                                    |                    |
-| 1986   | 1 & 2 Corinthians                                         | Kari Brodin                                     |                    |
-| 1985   | Luke                                                      | David Baird?                                    |                    |
-| 1984   | Galatians, Ephesians, Philippians, & Colossians           | David Baird and Dale Baird                      |                    |
-| 1983   | Acts                                                      | Brenton Osgood                                  |                    |
-| 1982   | 1 & 2 Thessalonians, 1 & 2 Peter, James                   | Unknown                                         |                    |
-| 1981   | Matthew                                                   | Thom Loven                                      |                    |
-| 1980   | Romans and James                                          | Unknown                                         |                    |
-| 1979   | John                                                      | Unknown                                         |                    |
-| 1978   | 1 & 2 Corinthians                                         | Steve Sorenson                                  |                    |
-| 1977   | Luke                                                      | Brenton Osgood                                  |                    |
-| 1976   | Galatians, Ephesians, Philippians, & Colossians           | Brenton Osgood                                  |                    |
-| 1975   | Acts                                                      | Brenton Osgood                                  |                    |
-| 1974   | 1 & 2 Thessalonians, 1 & 2 Peter, James                   | Unknown                                         |                    |
-| 1973   | John                                                      | George Edgerly                                  |                    |
-| 1972   | Romans and Galatians                                      | Unknown                                         |                    |
-| 1971   | Matthew                                                   | George O. Wood                                  |                    |
-| 1970   | 1 & 2 Corinthians                                         | George Edgerly                                  |                    |
-| 1969   | Mark                                                      | George Edgerly and Verne McKinney               |                    |
-| 1968   | Ephesians, Philippians, Colossians, 1 & 2 Timothy, Titus  | Unknown                                         |                    |
-| 1967   | John                                                      | Tony Palma                                      |                    |
-| 1966   | Romans                                                    | G. Raymond Carlson                              |                    |
-| 1965   | Mark                                                      | Kermit Jeffrey                                  |                    |
-| 1964   | 1 & 2 Corinthians                                         | Donald F. Johns                                 |                    |
-| 1963   | Luke                                                      | Stan Walters                                    |                    |
-| 1962   | Acts                                                      | Nicholas Nikoloff                               |                    |
+- Year: 2022
+  Material: Matthew
+  A League: Selena Davis
+  MSQ/Novice: Josh Gallo
+- Year: 2021
+  Material: Hebrews, 1 & 2 Peter, Jude
+  A League: James and LaJoie Lex
+  MSQ/Novice: Jared Hill
+- Year: 2020
+  Material: John
+  A League: Jesse Czubkowski
+  MSQ/Novice: Danielle Mori
+- Year: 2019
+  Material: 1 & 2 Corinthians
+  A League: Aaron and Katie Kohler
+  MSQ/Novice: Selena Rodriguez
+- Year: 2018
+  Material: Mark
+  A League: Seth Sundell
+  MSQ/Novice: Doug Black
+- Year: 2017
+  Material: Galatians, Ephesians, Philippians, Colossians & Philemon
+  A League: Jesse Czubkowski
+  MSQ/Novice: Danielle Brozovich
+- Year: 2016
+  Material: Acts
+  A League: Kent Kloefkorn
+  MSQ/Novice: LaJoie Lex
+- Year: 2015
+  Material: Romans and James
+  A League: Seth Sundell
+  MSQ/Novice: Katie Kohler
+- Year: 2014
+  Material: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John
+  A League: Kent Kloefkorn
+  MSQ/Novice: Doug Black
+- Year: 2013
+  Material: Matthew
+  A League: Kent Kloefkorn
+  MSQ/Novice: Mark Whitehead
+- Year: 2012
+  Material: Hebrews, 1 & 2 Peter, Jude
+  A League: Seth Sundell
+  MSQ/Novice: Mark Whitehead
+- Year: 2011
+  Material: John
+  A League: Kent Kloefkorn
+- Year: 2010
+  Material: 1 & 2 Corinthians
+  A League: Richard Ely
+  MSQ/Novice: Brian Lewis
+- Year: 2009
+  Material: Mark
+  A League: Aaron Kohler
+  MSQ/Novice: Nilay Saiya
+- Year: 2008
+  Material: Galatians, Ephesians, Philippians, Colossians & Philemon
+  A League: Aaron Kohler
+  MSQ/Novice: Nilay Saiya
+- Year: 2007
+  Material: Acts
+  A League: Richard Ely
+  MSQ/Novice: Nilay Saiya
+- Year: 2006
+  Material: Romans and James
+  A League: Richard Ely
+  MSQ/Novice: Nilay Saiya
+- Year: 2005
+  Material: Matthew
+  A League: Richard Ely
+  MSQ/Novice: Nilay Saiya
+- Year: 2004
+  Material: Hebrews, 1 & 2 Peter
+  A League: Kent Piacenti, Mel Aou, and Tim Bahra
+  MSQ/Novice: Nilay Saiya
+- Year: 2003
+  Material: John
+  MSQ/Novice: Kent Piacenti, Mel Aou, and Tim Bahra
+- Year: 2002
+  Material: 1 & 2 Corinthians
+  MSQ/Novice: Greg House, Mel Aou, Tim Bahra
+- Year: 2001
+  Material: Luke
+  MSQ/Novice: Greg House, Dan Smith, Rick Faulkner, Tim Bahra
+- Year: 2000
+  Material: Galatians, Ephesians, Philippians, Colossians & Philemon
+  MSQ/Novice: Greg House, Dan Smith, Rick Faulkner, Tim Bahra
+- Year: 1999
+  Material: Acts
+  MSQ/Novice: Monica Batty
+- Year: 1998
+  Material: Romans and James
+  MSQ/Novice: Rick Faulkner
+- Year: 1997
+  Material: Matthew
+  MSQ/Novice: Dan Smith
+- Year: 1996
+  Material: Hebrews, 1 & 2 Peter
+  MSQ/Novice: Bryan Turner
+- Year: 1995
+  Material: John
+  MSQ/Novice: Mike Batty
+- Year: 1994
+  Material: 1 & 2 Corinthians
+  MSQ/Novice: Mark Girimonte
+- Year: 1993
+  Material: Luke
+  MSQ/Novice: Sean Davis
+- Year: 1992
+  Material: Galatians, Ephesians, Philippians, Colossians & Philemon
+  MSQ/Novice: Bob Roller
+- Year: 1991
+  Material: Acts
+  MSQ/Novice: Glen Percifield
+- Year: 1990
+  Material: James & Romans
+  MSQ/Novice: Bryan Turner
+- Year: 1989
+  Material: Matthew
+  MSQ/Novice: John Bayko
+- Year: 1988
+  Material: Hebrews, 1 & 2 Peter
+  MSQ/Novice: John Wootton
+- Year: 1987
+  Material: John
+  MSQ/Novice: Paul Freitag
+- Year: 1986
+  Material: 1 & 2 Corinthians
+  MSQ/Novice: Kari Brodin
+- Year: 1985
+  Material: Luke
+  MSQ/Novice: David Baird?
+- Year: 1984
+  Material: Galatians, Ephesians, Philippians, & Colossians
+  MSQ/Novice: David Baird and Dale Baird
+- Year: 1983
+  Material: Acts
+  MSQ/Novice: Brenton Osgood
+- Year: 1982
+  Material: 1 & 2 Thessalonians, 1 & 2 Peter, James
+  MSQ/Novice: Unknown
+- Year: 1981
+  Material: Matthew
+  MSQ/Novice: Thom Loven
+- Year: 1980
+  Material: Romans and James
+  MSQ/Novice: Unknown
+- Year: 1979
+  Material: John
+  MSQ/Novice: Unknown
+- Year: 1978
+  Material: 1 & 2 Corinthians
+  MSQ/Novice: Steve Sorenson
+- Year: 1977
+  Material: Luke
+  MSQ/Novice: Brenton Osgood
+- Year: 1976
+  Material: Galatians, Ephesians, Philippians, & Colossians
+  MSQ/Novice: Brenton Osgood
+- Year: 1975
+  Material: Acts
+  MSQ/Novice: Brenton Osgood
+- Year: 1974
+  Material: 1 & 2 Thessalonians, 1 & 2 Peter, James
+  MSQ/Novice: Unknown
+- Year: 1973
+  Material: John
+  MSQ/Novice: George Edgerly
+- Year: 1972
+  Material: Romans and Galatians
+  MSQ/Novice: Unknown
+- Year: 1971
+  Material: Matthew
+  MSQ/Novice: George O. Wood
+- Year: 1970
+  Material: 1 & 2 Corinthians
+  MSQ/Novice: George Edgerly
+- Year: 1969
+  Material: Mark
+  MSQ/Novice: George Edgerly and Verne McKinney
+- Year: 1968
+  Material: Ephesians, Philippians, Colossians, 1 & 2 Timothy, Titus
+  MSQ/Novice: Unknown
+- Year: 1967
+  Material: John
+  MSQ/Novice: Tony Palma
+- Year: 1966
+  Material: Romans
+  MSQ/Novice: G. Raymond Carlson
+- Year: 1965
+  Material: Mark
+  MSQ/Novice: Kermit Jeffrey
+- Year: 1964
+  Material: 1 & 2 Corinthians
+  MSQ/Novice: Donald F. Johns
+- Year: 1963
+  Material: Luke
+  MSQ/Novice: Stan Walters
+- Year: 1962
+  Material: Acts
+  MSQ/Novice: Nicholas Nikoloff
 
 {% include table-or-pictures.html
      tableLabel="View Writers by Table"
