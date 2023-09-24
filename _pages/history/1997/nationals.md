@@ -1050,5 +1050,13 @@ Playoff 1: Lost to Victorious Life Church, Waco, TX 140 to 175
   * Round 22: Lost to First A/G, Oskaloosa, IA 100 to 105
   * Round 23: Lost to Grace A/G, Syracuse, PA 125 to 170
 
+## Individual Tournament
+
+|    # | Quizzer        | Church                    |
+| ---: | -------------- | ------------------------- |
+|    1 | Jeremy Horn    | First A/G, Shreveport, LA |
+|    2 | David Rees     | First A/G, Lexington, KY  |
+|    3 | Shaun McFadden | First A/G, Helena, MT     |
+
 ## Memories
 * [Joey Bohanon]({% link _pages/history/1997/memories/joey-bohanon.md %})

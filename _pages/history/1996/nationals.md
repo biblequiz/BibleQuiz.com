@@ -1001,7 +1001,11 @@ Playoff: Won against Calvary Church, Naperville, IL
 
 ## Individual Tournament
 
-The individual tournament was won by Nicole Martin of Grace A/G, Syracuse, NY. Nicole was the 37th high scorer, making her the lowest placing person to ever win the individual competition.
+|    # | Quizzer        | Church                             |
+| ---: | -------------- | ---------------------------------- |
+|    1 | Nicole Martin  | Grace A/G, Syracuse, NY            |
+|    2 | Jenn Shim      | Allison Park A/G, Allison Park, PA |
+|    3 | Mike Claessens | Evangel Heights A/G, Sarver, PA    |
 
 ## Scholarship Quiz
 

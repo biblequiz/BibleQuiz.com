@@ -2178,6 +2178,15 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="The Church at Briargate #2, Colorado Springs, CO" html=image_html %}
 
+## Individual Tournament
+
+|    # | Quizzer        | Church                         |
+| ---: | -------------- | ------------------------------ |
+|    1 | Jenna-Jo Duffy | Cedar Park Church, Bothell, WA |
+|    2 | Blake Porter   | James River A/G, Ozark, MO     |
+|    3 | James Pryer    | Orange Hills A/G, Orange, CA   |
+|    4 | Brandon Duffy  | Cedar Park Church, Bothell, WA |
+
 ## Special Events
 
 ### Senior Shootout

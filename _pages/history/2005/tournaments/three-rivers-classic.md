@@ -34,18 +34,18 @@ menubar_toc_static:
 
 ### Top Individuals
 
-|    # | Quizzer           | Team              | Total |    Avg |   QO |
-| ---: | ----------------- | ----------------- | ----: | -----: | ---: |
-|    1 | Jonathan Galliers | Lexington 1       | 1,365 | 136.50 |    9 |
-|    2 | Patti Sunseri     | Spring City       | 1,230 | 123.00 |    8 |
-|    3 | C.J. Barna        | Crossway - Team 1 |   890 |  89.00 |    5 |
-|    4 | Micah Buckels     | Lexington 1       |   850 |  85.00 |    8 |
-|    5 | Clayton DeFazio   | Crossway - Team 2 |   735 |  73.00 |    6 |
-|    6 | Eddy Ferreira     | Dunwoody          |   700 |  70.00 |    5 |
-|    7 | Elyssa DeFazio    | Crossway - Team 1 |   680 |  68.00 |    4 |
-|    8 | Lisa Everett      | New Philadelphia  |   655 |  65.50 |    2 |
-|    9 | Amy Semple        | Syracuse          |   615 |  61.50 |    4 |
-|   10 | Brandy Steel      | Toledo            |   525 |  52.50 |    2 |
+|    # | Quizzer         | Team              | Total |    Avg |   QO |
+| ---: | --------------- | ----------------- | ----: | -----: | ---: |
+|    1 | Jon Galliers    | Lexington 1       | 1,365 | 136.50 |    9 |
+|    2 | Patti Sunseri   | Spring City       | 1,230 | 123.00 |    8 |
+|    3 | C.J. Barna      | Crossway - Team 1 |   890 |  89.00 |    5 |
+|    4 | Micah Buckels   | Lexington 1       |   850 |  85.00 |    8 |
+|    5 | Clayton DeFazio | Crossway - Team 2 |   735 |  73.00 |    6 |
+|    6 | Eddy Ferreira   | Dunwoody          |   700 |  70.00 |    5 |
+|    7 | Elyssa DeFazio  | Crossway - Team 1 |   680 |  68.00 |    4 |
+|    8 | Lisa Everett    | New Philadelphia  |   655 |  65.50 |    2 |
+|    9 | Amy Semple      | Syracuse          |   615 |  61.50 |    4 |
+|   10 | Brandy Steel    | Toledo            |   525 |  52.50 |    2 |
 
 ## Novice Division
 

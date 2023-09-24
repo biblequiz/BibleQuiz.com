@@ -385,7 +385,11 @@ This was the only the second national championship for the Northeast region. The
 
 ## Individual Tournament
 
-The individual tournament was won by Matt Reed of St. Clair Shores, MI.
+|    # | Quizzer          | Church                                     |
+| ---: | ---------------- | ------------------------------------------ |
+|    1 | Matt Reed        | St. Clair Shores A/G, St. Clair Shores, MI |
+|    2 | Jolene Papendick | Calvary Church, Naperville, IL             |
+|    3 | Daniel Slater    | St. Clair Shores A/G, St. Clair Shores, MI |
 
 ## Scholarship Quiz
 

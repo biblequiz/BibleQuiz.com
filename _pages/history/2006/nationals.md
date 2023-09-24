@@ -2060,6 +2060,15 @@ Playoff: Lost to First A/G, Lafayette, IN
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Orange Hills A/G, Orange, CA" html=image_html %}
 
+## Individual Tournament
+
+|    # | Quizzer        | Church                         |
+| ---: | -------------- | ------------------------------ |
+|    1 | Brandon Duffy  | Cedar Park Church, Bothell, WA |
+|    2 | Jared Paige    | Braeswood A/G, Houston, TX     |
+|    3 | Gina Fortunato | James River A/G, Ozark, MO     |
+|    4 | Jon Galliers   | First A/G, Lexington, KY       |
+
 ## Special Events
 
 ### Senior Shootout

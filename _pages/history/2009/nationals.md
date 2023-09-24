@@ -1942,6 +1942,15 @@ In the challenger division, Billy Branham (1) was the only quizzer to achieve a 
   * Round 18: Lost to Racine A/G, Racine, WI 25 to 195
   * Round 19: Lost to First A/G, Lexington, KY 80 to 110
 
+## Individual Tournament
+
+|    # | Quizzer        | Church                         |
+| ---: | -------------- | ------------------------------ |
+|    1 | Daniel Wagner  | Owasso First A/G, Owasso, OK   |
+|    2 | Brandon Duffy  | Cedar Park Church, Bothell, WA |
+|    3 | Josh Echebiri  | Braeswood A/G, Houston, TX     |
+|    4 | Jenna-Jo Duffy | Cedar Park Church, Bothell, WA |
+
 ## Special Events
 
 ### Senior Shootout

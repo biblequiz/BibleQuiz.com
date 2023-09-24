@@ -456,3 +456,12 @@ The top scorer at the 1999 National Finals was Kent Piacenti of Orange Hills A/G
     * Valerie Marchalonis
     * Terry Nance
     * Thomas Van Kempen
+
+## Individual Tournament
+
+|    # | Quizzer          | Church                               |
+| ---: | ---------------- | ------------------------------------ |
+|    1 | Kent Piacenti    | Orange Hills A/G, Orange, CA         |
+|    2 | Jordan Schneider | Radiant Church, Colorado Springs, CO |
+|    3 | Ryan Cooper      | Grace A/G, Syracuse, NY              |
+|    4 | Joey Bohanon     | Central A/G, Springfield, MO         |

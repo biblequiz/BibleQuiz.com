@@ -62,7 +62,7 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 |        1 | Zachary Sullivan    | San Angelo TX     |  2010 | 105.79 |     11 |     2 |
 |        2 | David Dorey         | Orange Hills CA   |  2005 | 105.53 |     17 |     1 |
 |        3 | Tyler Turnage       | Fond du Lac WI    |  1620 |  85.26 |     11 |     6 |
-|        4 | Jonathan Galliers   | Lexington KY      |  1600 |  84.21 |     11 |     1 |
+|        4 | Jon Galliers        | Lexington KY      |  1600 |  84.21 |     11 |     1 |
 |        5 | Logan Newman        | Superior WI       |  1530 |  80.53 |     11 |     4 |
 |        6 | Jenny Dworzak       | Bothell WA        |  1350 |  71.05 |      6 |     3 |
 |        7 | Jared Paige         | Houston TX        |  1325 |  69.74 |     10 |     2 |
@@ -1084,6 +1084,15 @@ The individual tournament was won by Peter Brown of Orange, CA. This was the sev
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Orange County Worship Center, Santa Ana, CA" html=image_html %}
+
+## Individual Tournament
+
+|    # | Quizzer      | Church                           |
+| ---: | ------------ | -------------------------------- |
+|    1 | Peter Brown  | Orange Hills A/G, Orange, CA     |
+|    2 | April Pryor  | Fossil Creek A/G, Fort Worth, TX |
+|    3 | Logan Newman | Central A/G, Superior, WI        |
+|    4 | Jon Galliers | First A/G, Lexington, KY         |
 
 ## Memories
 * [Tyler Turnage]({% link _pages/history/2003/memories/tyler-turnage.md %})

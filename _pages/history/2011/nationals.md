@@ -2701,6 +2701,15 @@ Grace Xu
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html alt="Orange Country Christian Evangelical Church, Irvine, CA" html=image_html %}
 
+## Individual Tournament
+
+|    # | Quizzer       | Church                                    |
+| ---: | ------------- | ----------------------------------------- |
+|    1 | Daniel Wagner | Owasso First A/G, Owasso, OK              |
+|    2 | Abby Rogers   | Victorious Life Church, Wesley Chapel, FL |
+|    3 | Hudson Kelley | First A/G, Montgomery, AL                 |
+|    4 | Jesse Wagner  | Owasso First A/G, Owasso, OK              |
+
 ## Special Events
 
 ### Senior Shootout

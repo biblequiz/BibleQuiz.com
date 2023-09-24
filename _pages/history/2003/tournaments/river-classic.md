@@ -41,7 +41,7 @@ menubar_toc_static:
 |    1 | Micah Buckel*      | First A/G, Lexington, KY         |  1810 |
 |    2 | Lydia Butay        | Christian Chapel, Tulsa, OK      |  1760 |
 |    3 | Bekah Regenfuss    | First A/G, Ames, IA              |  1645 |
-|    4 | Jonathan Galliers  | First A/G, Lexington, KY         |  1130 |
+|    4 | Jon Galliers       | First A/G, Lexington, KY         |  1130 |
 |    5 | Josh Havens        | Ash Grove A/G, Ash Grove, MO     |  1070 |
 |    6 | David Womelsdorf   | James River A/G, Ozark, MO       |  1030 |
 |    7 | Kristen Johnson    | Calvary A/G, Napierville, IL-T   |   995 |

@@ -577,4 +577,7 @@ The top scorer at the 1988 National Finals was Marcae Johnson of Central A/G, Sp
 
 ## Individual Tournament
 
-Marcae Johnson won the individual tournament and David Lowe finished second.
+|    # | Quizzer        | Church                       |
+| ---: | -------------- | ---------------------------- |
+|    1 | Marcae Johnson | Central A/G, Springfield, MO |
+|    2 | David Lowe     | Evangel A/G, Wichita, KS     |

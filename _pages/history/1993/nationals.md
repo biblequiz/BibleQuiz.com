@@ -856,7 +856,11 @@ The top scorer at the 1993 National Finals was Lisa Wootton of Bartlesville, OK.
 
 ## Individual Tournament
 
-The one-on-one was won by Dan Smith of Lakewood, CA. This was the second consecutive year that Dan won this. Lisa Wootton won the scholarship quiz.
+|    # | Quizzer          | Church                        |
+| ---: | ---------------- | ----------------------------- |
+|    1 | Dan Smith        | Life Center A/G, Lakewood, CA |
+|    2 | Sanejo Leonard   | First A/G, Santa Ana, CA      |
+|    3 | Jeremy Rodriguez | Life Center A/G, Lakewood, CA |
 
 ## Memories
 * [Dan Smith]({% link _pages/history/1993/memories/dan-smith.md %})

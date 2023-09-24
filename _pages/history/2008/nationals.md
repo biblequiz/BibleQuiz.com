@@ -2236,6 +2236,15 @@ Round 19: Lost to Grace A/G, Syracuse, NY 85 to 120
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="The Church at Briargate, 'Children of the Desolate Woman', Colorado Springs, CO" html=image_html %}
 
+## Individual Tournament
+
+|    # | Quizzer          | Church                         |
+| ---: | ---------------- | ------------------------------ |
+|    1 | Blake Porter     | James River A/G, Ozark, MO     |
+|    2 | Daniel Wagner    | Owasso First A/G, Owasso, OK   |
+|    3 | Jared Burkhalter | Faith A/G, Orlando, FL         |
+|    4 | Brandon Duffy    | Cedar Park Church, Bothell, WA |
+
 ## Special Events
 
 ### Senior Shootout

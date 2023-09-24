@@ -2112,6 +2112,15 @@ The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Orange County Worship Center, Santa Ana, CA" html=image_html %}
 
+## Individual Tournament
+
+|    # | Quizzer       | Church                                    |
+| ---: | ------------- | ----------------------------------------- |
+|    1 | David Dorey   | Church at Briargate, Colorado Springs, CO |
+|    2 | Brian Lewis   | Calvary Temple, Indianapolis, IN          |
+|    3 | Molly Pace    | Church at Briargate, Colorado Springs, CO |
+|    4 | Jenny Dworzak | Cedar Park Church, Bothell, WA            |
+
 ## Memories
 
 ### Videos
