@@ -43,11 +43,12 @@ Scott was captain of the first team to win national finals, from Bouldercrest A/
 
 Mark Gilmer quizzed from 1974 to 1981 for Evangel Temple in Decatur, GA. These were the days when only one team from each region competed at nationals. Mark's team competed at nationals in all of those years except 1974, 1977 and 1980.
 
-In 1976 and 1978, Mark's team won national finals, making them the first church to win three national finals (they also won in 1963). While much of the individual data from those years is missing, we do know that Mark placed among the top 6 scorers in both 1979 and 1981.
+In [1976]({% link _pages/history/1976/nationals.md %}) and [1978]({% link _pages/history/1978/nationals.md %}), Mark's team won national finals, making them the first church to win three national finals (they also won in 1963). While much of the individual data from those years is missing, we do know that Mark placed among the top 6 scorers in both 1979 and 1981.
 
 Mark was one of the most consistent and reliable quizzers of his generation; in every year that he quizzed, he earned a starting position on the team at a church that was known at the time for having a very competitive quiz program. Mark was also renowned for his ability to get his team back into matches in which they were behind by methodically and reliably interrupting 10 and 20 point questions at crucial points. He may not have been the high scorer on his team, but it was often his quiz-out on the critical 10s and 20s that made the difference in his team's wins. He was also known for his incredible accuracy; Mark allegedly had the fewest errors among all of the top scoring quizzers at national finals in each of his 5 national finals appearances.
 
-Following his quizzing years, Mark coached 12 teams at national finals from 1984 to 2010. Mark passed away on July 21, 2010 shortly after taking his team to nationals one last time. You can read what many wrote about him here and here.
+Following his quizzing years, Mark coached 12 teams at national finals from 1984 to 2010. Mark passed away on July 21, 2010 shortly after taking his team to nationals one last time.
+{% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Mark Gilmer" html=image_html %}
 
@@ -74,6 +75,7 @@ Marcae was the catalyst for one of the most consistent programs in Bible Quiz. C
 After Marcae's impressive performance at the '88 Finals, it took almost a decade for another quizzer to duplicate her feat. To this day, she remains a legend in the Bible Quiz world. She went on to coach Central Assembly for several of those Nationals appearances, training and building up other great quizzers. When people think of the historically great program of Central, Marcae's name is the first that comes to mind.
 
 Today, Marcae Johnson Robertson and her husband, along with two daughters, are Assemblies of God World Missionaries. Her life has been dedicated to studying God's Word and leading others to do the same.
+{% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Marcae Johnson" html=image_html %}
 
@@ -86,6 +88,7 @@ Joshua Weber was part of the famous Lakeland, FL teams of the early 1990s. In 19
 The Lakeland team was known for its brash style and competitive spirit. Teammates Garrett Smiley and Kevin Revell joined with Joshua to form the nucleus of an intimidating group of quizzers. In 1991, after Kevin graduated, Joshua and Garrett once again took Nationals by storm, finishing with a two-game lead over the second place team. Joshua was the 8th high scorer that season. In 1992, although his team slipped to 10th place, Joshua averaged 90 points per game to lead all scorers over Galatians, Ephesians, Philippians, Colossians, and Philemon.
 
 Over Joshua's three National Finals appearances, he won two Championships and a scoring title. He takes his place among the greatest quizzers because of his talent, skill, style, and diligence. Today, Joshua lives in the Tampa, FL area with his wife and children where he coaches Bible Quiz. In 2010, his team won the National Championship.
+{% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Joshua Weber" html=image_html %}
 
@@ -98,6 +101,7 @@ For the Woottons, quizzing was a family thing. It began with Lisa's parents, Sue
 Individually, Lisa was one of the top scorers in history. She was 5th in 1991, 4th in 1992, and 1st in 1993 and 1994. Lisa was a fiery competitor who worked extraordinarily hard and was devoted to her studies. In addition to her outstanding Nationals finishes, she was among the top scorers at every tournament she attended and was considered by many to be the single-greatest quizzer of her time.
 
 Today, Lisa Wootton Ramsey lives in Springfield, MO with her family where her husband is a doctor.
+{% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Lisa Wootton" html=image_html %}
 
@@ -114,6 +118,7 @@ Winning everything at National Finals in 1998 was never good enough for Kent; he
 Since graduation from BQ, Kent has pursued degrees in music and law, being named editor-in-chief of the Law Review at University of Virginia School of Law, obtaining a clerkship with a Federal Appeals Court Judge in Portland, and accepting a position with one of the top law firms in Texas.
 
 Anyone who wants to view what everyone else saw in 1999 should watch the Orange Hills 1999 game against Allison Park, PA video, and the East-West Quiz video, in the Memories section of the 1999 History page on this website.
+{% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Kent Piacenti" html=image_html %}
 
@@ -128,6 +133,7 @@ Blake was an extremely driven quizzer, often challenging his teammates to be bet
 In his 2008 Individual Tournament win, he had to mount a fierce comeback in the final few questions to earn the victory. In each of his teams' four 3rd place finishes, they were in striking distance of winning the title. Quizzing at that level often comes down to one or two questions, leaving one to wonder what could have been. Through it all, Blake was his consistent, fiery self, driven to do his very best to win every possible game.
 
 Blake's fierce determination and notable consistency earn him a spot among the all-time greats. Today, Blake is studying accounting at Evangel.
+{% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Blake Porter" html=image_html %}
 
