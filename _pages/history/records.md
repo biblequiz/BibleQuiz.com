@@ -331,11 +331,10 @@ For all the years that 380 was the maximum score for a single team, a game in wh
 | 1986 |     1 | 315                                      | First A/G, Tempe, AZ                      | Steve Eastin        |
 | 1985 |     1 | 330                                      | First A/G, New Orleans, LA                | Alice Brent         |
 
-
->**NOTES:**
-> * 1964, 1975, 1978-1984, 1988 - 1989, 1991, 1997 - 1998, 2000, 2006 - 2007: No Perfect Games
-> * 1963, 1965, 1971, 1972, 1976: No Perfect Games in the available incomplete data
-> * 1966 - 1974, 1977, 1992, 1994 - 1995, 2003: No round-by-round data
+**NOTES:**
+* 1964, 1975, 1978-1984, 1988 - 1989, 1991, 1997 - 1998, 2000, 2006 - 2007: No Perfect Games
+* 1963, 1965, 1971, 1972, 1976: No Perfect Games in the available incomplete data
+* 1966 - 1974, 1977, 1992, 1994 - 1995, 2003: No round-by-round data
 
 ### National Champions, but not Regional Champions
 
@@ -492,6 +491,8 @@ No scores have been altered. The number of questions for a quiz-out is now 5, bu
 
 ### Difference in Avg Score between 1st and 2nd
 
+> No data for 1963 - 1978, 1984, 1989, 1991
+
 Since the total possible score differs significantly over the years (see [Eras of Quizzing]({% link _pages/history/eras-of-quizzing.md %}) for more details), the differences are listed by average points per game. Consider that a 100-point gap when there are 19 games is different than when there are only 7 games.
 
 Other interesting observations related to this data:
@@ -533,8 +534,6 @@ All years for which we have data are included. In some years, this gap was extra
 | 2002 | 32.68 | Peter Brown                    | Aaron Kohler                         |
 | 2004 |  37.9 | David Dorey                    | Jon Galliers                         |
 | 1999 |  66.3 | Kent Piacenti                  | Jim Fenton<br />Valerie Marchalonis  |
-
-Note: No data exists for 1963-1978, 1984, 1989 & 1991
 
 ### Years High Scorer on National Championship Team
 
