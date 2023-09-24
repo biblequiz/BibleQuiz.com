@@ -324,16 +324,16 @@ Ronnie went on to a very successful academic career, eventually graduating from 
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Ronnie Wright" html=image_html %}
 
-{% capture image_url %}{% link assets/50greatest/TariHayward.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/50greatest/TeriHayward.jpg %}{% endcapture %}
 {% capture image_html %}
-## Tari Hayward
+## Teri Hayward
 
 Teri Hayward quizzed for First A/G in Tempe, AZ from 1984 to 1987. The only year we have her individual stats is 1986, where she placed 11th and averaged 64.33 points per game. That year was also the first year of the individual tournament, then played as a double-elimination one-on-one, and she was the first winner. In 1985, following the Final Four playoffs, her team placed 2nd, barely losing a playoff to Ypsilanti, MI on the last question. The following two years, in 1986 and 1987, they were back-to-back champions, going 12-3, then 14-2. These were also the first two years in which a 16-team round robin was played (with one extra team in 1987 due to a technicality).
 
 The Tempe program was part of the superior run of the Southwest Region in the 80s. Teri was the leader of one of the top teams of that run, and her quizzing was key to her team's victory. A pioneer of one-on-one quizzing, she blazed a trail that all the top quizzers follow, seeking similar glory. Teri Hayward earned her spot among the 50 greatest quizzers.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Tari Hayward" html=image_html %}
+{% include image-card.html link=image_url alt="Teri Hayward" html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/BryanWootton.jpg %}{% endcapture %}
 {% capture image_html %}
