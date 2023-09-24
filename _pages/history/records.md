@@ -3,12 +3,8 @@ layout: page
 permalink: /history/records/
 title: "National Records"
 date: "2023-09-20"
-menubar_toc: true
-menubar_toc_static:
-- items:
-  - name: History by Season
-    link: /history/
-    icon: fas fa-home
+menubar: menu_history
+toc: true
 ---
 
 > Records haven't been refreshed for a number of years, so there may be newer records.
