@@ -22,12 +22,6 @@ While the complete list of participants, as well as the round by round schedule,
 
 ### Teams
 
-{% include notification.html
-   message="While we have nearly complete records of the participants and the schedule, we don't have records of the results."
-   icon="fas fa-info-circle"
-   status="is-success" %}
-
-
 The 1st place winner from the 1971 National Bible Quiz Tournament was First A/G, New Orleans, LA. Second place went to Centerville A/G, Centreville, VA. While we have complete records of the participants and the schedule, we don't have records of the results.
 
 ### Individuals

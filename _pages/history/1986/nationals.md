@@ -555,6 +555,10 @@ The top scorer at the 1986 National Finals was Nicole Brandon of Woodlake A/G, T
 
 ## Individual Tournament
 
-The winner of the 1986 National Bible Quiz Individual Tournament was Teri Hayward of Tempe, AZ and the runner-up was Paul Johnson of Central A/G, Springfield, MO.
+|    # | Quizzer      | Church                       |
+| ---: | ------------ | ---------------------------- |
+|    1 | Teri Hayward | First A/G, Tempe, AZ         |
+|    2 | Paul Johnson | Central A/G, Springfield, MO |
+|    3 | Viola Holt   | Life Center A/G, Tacoma, WA  |
 
 ![]({% link assets/1986/individual-tournament.gif %})

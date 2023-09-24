@@ -25,7 +25,7 @@ The top quizzer at the 1982 National Finals was Ken Henderson of First A/G, Tecu
 ### Teams
 
 {% include notification.html
-   message="The results are based on win-loss record, and a four-team playoff for first place. When equal records exist, the ties are broken first by head to head; second by head to head and point differential; and third by head to head, point differential and point total."
+   message="The results are based on win-loss record. When equal records exist, the ties are broken first by head to head; second by head to head and point differential; and third by head to head, point differential and point total."
    icon="fas fa-info-circle"
    status="is-success" %}
 

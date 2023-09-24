@@ -299,6 +299,10 @@ The top scorer at the 1992 National Finals was Josh Weber of Lakeland, FL. Josh 
     * Dara Pishcura
     * Tabitha Prothero
 
-## One-on-One Tournament
+## Individual Tournament
 
-The one-on-one was won by Dan Smith of Lakewood, CA. This was the first of two consecutive years that Dan won this. However, the remainder of the individual tournament results are as yet unknown.
+|    # | Quizzer      | Church                          |
+| ---: | ------------ | ------------------------------- |
+|    1 | Dan Smith    | Life Center A/G, Lakewood, CA   |
+|    2 | Chad Nelson  | Park Crest A/G, Springfield, MO |
+|    3 | Justin Moody | Park Crest A/G, Springfield, MO |

@@ -2114,6 +2114,14 @@ Photos are provided courtesy of Larry Mullins.
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="The Church at Briargate, 'Innocent Doves', Colorado Springs, CO" html=image_html %}
 
+## Individual Tournament
+
+|    # | Quizzer         | Church                     |
+| ---: | --------------- | -------------------------- |
+|    1 | Jared Paige     | Braeswood A/G, Houston, TX |
+|    2 | Jon Galliers    | First A/G, Lexington, KY   |
+|    ? | Brittany Porter | James River A/G, Ozark, MO |
+
 ## Adult
 
 ### Veteran Division (Matthew 1 - 8)

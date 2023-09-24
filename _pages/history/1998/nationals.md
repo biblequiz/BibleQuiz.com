@@ -1033,3 +1033,11 @@ The top scorer at the 1996 National Finals was Dan Slater of Cornerstone A/G, Be
   * Round 21: Lost to Faith A/G, Orlando, FL 70 to 85
   * Round 22: Lost to Greens Bayou, Houston, TX 70 to 200
   * Round 23: Lost to Bethel Temple, Bryan TX 20 to 215
+
+## Individual Tournament
+
+|    # | Quizzer       | Church                        |
+| ---: | ------------- | ----------------------------- |
+|    1 | Kent Piacenti | Greens Bayou A/G, Houston, TX |
+|    2 | Aaron Collins | Bethel Temple A/G, Bryan, TX  |
+|    3 | Tika Daigle   | Grace A/G, Syracuse, NY       |

@@ -1815,6 +1815,15 @@ The top scorer at the 2001 National Finals was Michael Pearson from Dallas, TX. 
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Haverstime A/G, Glendale, AZ" html=image_html %}
 
+## Individual Tournament
+
+|    # | Quizzer         | Church                             |
+| ---: | --------------- | ---------------------------------- |
+|    1 | Ryan Skolrud    | Cedar Park A/G, Bothell, WA        |
+|    2 | Dan Marlow      | First A/G, Topeka, KS              |
+|    3 | Jessica Neilson | Cedar Park A/G, Bothell, WA        |
+|    4 | Ricky Haney     | Orange Hills A/G, Orange Hills, CA |
+
 ## Adult Quizzing
 
 ### Veterans Division

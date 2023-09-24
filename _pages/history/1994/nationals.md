@@ -414,7 +414,11 @@ The top scorer at the 1994 National Finals was Lisa Wootton of Bartlesville, OK.
 
 ## Individual Tournament
 
-The individual tournament was won by Lisa Eutsey of Warren, OH.
+|    # | Quizzer      | Church                                     |
+| ---: | ------------ | ------------------------------------------ |
+|    1 | Lisa Eutsey  | First A/G, Warren, OH                      |
+|    2 | Lisa Wootton | First A/G, Bartlesville, OK                |
+|    3 | Matt Reed    | St. Clair Shores A/G, St. Clair Shores, MI |
 
 ## Scholarship Quiz
 

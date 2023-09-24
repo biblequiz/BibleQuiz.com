@@ -28,29 +28,28 @@ The individual tournament was won by Jenna-Jo Duffy of Bothell, WA. The quoting 
 
 ### Teams
 
-|    # | Team                                               | Record | Total | Margin | Avg Margin |
-| ---: | -------------------------------------------------- | ------ | ----: | -----: | ---------: |
-|    1 | The Church at Briargate #1, Colorado Springs , CO* | 17 / 2 |  3150 |   1370 |      72.11 |
-|    2 | Cedar Park A/G, Bothell, WA                        | 17 / 2 |  3960 |   2560 |     134.74 |
-|    3 | James River A/G, Ozark, MO                         | 14 / 5 |  3070 |   1610 |      84.74 |
-|    4 | First A/G #1, Lafayette, IN                        | 12 / 7 |  2500 |    605 |      31.84 |
-|    5 | Journey Fellowship Church, Slidell, LA             | 12 / 7 |  2400 |    765 |      40.26 |
-|    6 | Faith A/G, Orlando, FL                             | 12 / 7 |  2630 |    145 |       7.63 |
-|    7 | Calvary A/G, Toledo, OH                            | 12 / 7 |  2220 |     55 |       2.89 |
-|    8 | The Oaks Fellowship, Red Oak, TX                   | 11 / 8 |  2095 |    170 |       8.95 |
-|    9 | Tacoma Life Center, Tacoma, WA                     | 10 / 9 |  2455 |    125 |       6.58 |
-|   10 | Manassas A/G, Bristow, VA                          | 9 / 10 |  2345 |     -5 |      -0.26 |
-|   11 | Christian Temple, Houston, TX                      | 9 / 10 |  1735 |   -735 |     -38.68 |
-|   12 | Victory A/G, Carrollton, TX                        | 8 / 11 |  2045 |   -160 |      -8.42 |
-|   13 | First A/G, Lexington, KY                           | 8 / 11 |  1930 |   -530 |     -27.89 |
-|   14 | Orange Hills A/G, Orange, CA                       | 8 / 11 |  1550 |  -1035 |     -54.47 |
-|   15 | Dayspring A/G, Bowling Green, OH                   | 6 / 13 |  1675 |   -735 |     -38.68 |
-|   16 | First A/G, Owasso, OK                              | 6 / 13 |  2280 |   -380 |        -20 |
-|   17 | Praise A/G, Garfield, NJ                           | 6 / 13 |  1990 |   -425 |     -22.37 |
-|   18 | Meridian A/G, Meridian, ID                         | 6 / 13 |  1715 |   -795 |     -41.84 |
-|   19 | Orange County Worship Center, Santa Ana, CA        | 4 / 15 |  1640 |  -1000 |     -52.63 |
-|   20 | South Hills A/G, Bethel Park, PA                   | 3 / 16 |  1490 |  -1575 |     -82.89 |
-
+|    # | Team                                              | Record | Total | Margin | Avg Margin |
+| ---: | ------------------------------------------------- | ------ | ----: | -----: | ---------: |
+|    1 | The Church at Briargate #1, Colorado Springs, CO* | 17 / 2 |  3150 |   1370 |      72.11 |
+|    2 | Cedar Park A/G, Bothell, WA                       | 17 / 2 |  3960 |   2560 |     134.74 |
+|    3 | James River A/G, Ozark, MO                        | 14 / 5 |  3070 |   1610 |      84.74 |
+|    4 | First A/G #1, Lafayette, IN                       | 12 / 7 |  2500 |    605 |      31.84 |
+|    5 | Journey Fellowship Church, Slidell, LA            | 12 / 7 |  2400 |    765 |      40.26 |
+|    6 | Faith A/G, Orlando, FL                            | 12 / 7 |  2630 |    145 |       7.63 |
+|    7 | Calvary A/G, Toledo, OH                           | 12 / 7 |  2220 |     55 |       2.89 |
+|    8 | The Oaks Fellowship, Red Oak, TX                  | 11 / 8 |  2095 |    170 |       8.95 |
+|    9 | Tacoma Life Center, Tacoma, WA                    | 10 / 9 |  2455 |    125 |       6.58 |
+|   10 | Manassas A/G, Bristow, VA                         | 9 / 10 |  2345 |     -5 |      -0.26 |
+|   11 | Christian Temple, Houston, TX                     | 9 / 10 |  1735 |   -735 |     -38.68 |
+|   12 | Victory A/G, Carrollton, TX                       | 8 / 11 |  2045 |   -160 |      -8.42 |
+|   13 | First A/G, Lexington, KY                          | 8 / 11 |  1930 |   -530 |     -27.89 |
+|   14 | Orange Hills A/G, Orange, CA                      | 8 / 11 |  1550 |  -1035 |     -54.47 |
+|   15 | Dayspring A/G, Bowling Green, OH                  | 6 / 13 |  1675 |   -735 |     -38.68 |
+|   16 | First A/G, Owasso, OK                             | 6 / 13 |  2280 |   -380 |        -20 |
+|   17 | Praise A/G, Garfield, NJ                          | 6 / 13 |  1990 |   -425 |     -22.37 |
+|   18 | Meridian A/G, Meridian, ID                        | 6 / 13 |  1715 |   -795 |     -41.84 |
+|   19 | Orange County Worship Center, Santa Ana, CA       | 4 / 15 |  1640 |  -1000 |     -52.63 |
+|   20 | South Hills A/G, Bethel Park, PA                  | 3 / 16 |  1490 |  -1575 |     -82.89 |
 
 \* Won in Playoff
 
@@ -141,28 +140,28 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 
 ### Teams
 
-|    # | Team                                              | Record | Total | Margin | Avg Margin |
-| ---: | ------------------------------------------------- | ------ | ----: | -----: | ---------: |
-|    1 | First A/G, Binghamton, NY                         | 17 / 2 |  3295 |   2265 |     119.21 |
-|    2 | Grace A/G, Syracuse, NY                           | 16 / 3 |  2310 |   1270 |      66.84 |
-|    3 | Overland Park A/G, Overland Park, KS              | 15 / 4 |  2270 |   1350 |      71.05 |
-|    4 | Hosanna Family Worship Center, Shreveport, LA     | 14 / 5 |  2065 |    725 |      38.16 |
-|    5 | Nyssa Christian Fellowship, Nyssa, OR             | 14 / 5 |  1950 |    415 |      21.84 |
-|    6 | Kuna Life Church, Kuna, ID                        | 14 / 5 |  2130 |   1005 |      52.89 |
-|    7 | The Church at Briargate #2, Colorado Springs , CO | 13 / 6 |  1980 |    635 |      33.42 |
-|    8 | Paradise Hills A/G, Phoenix, AZ                   | 11 / 8 |  1680 |    145 |       7.63 |
-|    9 | Hope A/G, Fayetteville, TN                        | 10 / 9 |  1810 |    120 |       6.32 |
-|   10 | Faith A/G, West Plains, MO                        | 10 / 9 |  1395 |    410 |      21.58 |
-|   11 | Suncoast Cathedral, St. Petersburg, FL            | 9 / 10 |  1745 |    270 |      14.21 |
-|   12 | Fox Valley Christian Fellowship, Kimberly, WI     | 9 / 10 |  1290 |   -170 |      -8.95 |
-|   13 | First A/G #2, Lafayette, IN                       | 8 / 11 |  1385 |   -385 |     -20.26 |
-|   14 | Corydon A/G, Corydon, IA                          | 8 / 11 |  1240 |   -430 |     -22.63 |
-|   15 | First A/G, Rockford, IL                           | 5 / 14 |   930 |   -730 |     -38.42 |
-|   16 | First A/G, Augusta, GA                            | 4 / 15 |   380 |  -1620 |     -85.26 |
-|   17 | Albert Lea A/G, Albert Lea, MN                    | 4 / 15 |   830 |  -1110 |     -58.42 |
-|   18 | Evangel Community Church, Snellville, GA          | 4 / 15 |   750 |  -1350 |     -71.05 |
-|   19 | New Life A/G, Sparta, WI                          | 3 / 16 |   820 |  -1060 |     -55.79 |
-|   20 | Calvary Church, Greensboro, NC                    | 2 / 17 |   230 |  -1755 |     -92.37 |
+|    # | Team                                             | Record | Total | Margin | Avg Margin |
+| ---: | ------------------------------------------------ | ------ | ----: | -----: | ---------: |
+|    1 | First A/G, Binghamton, NY                        | 17 / 2 |  3295 |   2265 |     119.21 |
+|    2 | Grace A/G, Syracuse, NY                          | 16 / 3 |  2310 |   1270 |      66.84 |
+|    3 | Overland Park A/G, Overland Park, KS             | 15 / 4 |  2270 |   1350 |      71.05 |
+|    4 | Hosanna Family Worship Center, Shreveport, LA    | 14 / 5 |  2065 |    725 |      38.16 |
+|    5 | Nyssa Christian Fellowship, Nyssa, OR            | 14 / 5 |  1950 |    415 |      21.84 |
+|    6 | Kuna Life Church, Kuna, ID                       | 14 / 5 |  2130 |   1005 |      52.89 |
+|    7 | The Church at Briargate #2, Colorado Springs, CO | 13 / 6 |  1980 |    635 |      33.42 |
+|    8 | Paradise Hills A/G, Phoenix, AZ                  | 11 / 8 |  1680 |    145 |       7.63 |
+|    9 | Hope A/G, Fayetteville, TN                       | 10 / 9 |  1810 |    120 |       6.32 |
+|   10 | Faith A/G, West Plains, MO                       | 10 / 9 |  1395 |    410 |      21.58 |
+|   11 | Suncoast Cathedral, St. Petersburg, FL           | 9 / 10 |  1745 |    270 |      14.21 |
+|   12 | Fox Valley Christian Fellowship, Kimberly, WI    | 9 / 10 |  1290 |   -170 |      -8.95 |
+|   13 | First A/G #2, Lafayette, IN                      | 8 / 11 |  1385 |   -385 |     -20.26 |
+|   14 | Corydon A/G, Corydon, IA                         | 8 / 11 |  1240 |   -430 |     -22.63 |
+|   15 | First A/G, Rockford, IL                          | 5 / 14 |   930 |   -730 |     -38.42 |
+|   16 | First A/G, Augusta, GA                           | 4 / 15 |   380 |  -1620 |     -85.26 |
+|   17 | Albert Lea A/G, Albert Lea, MN                   | 4 / 15 |   830 |  -1110 |     -58.42 |
+|   18 | Evangel Community Church, Snellville, GA         | 4 / 15 |   750 |  -1350 |     -71.05 |
+|   19 | New Life A/G, Sparta, WI                         | 3 / 16 |   820 |  -1060 |     -55.79 |
+|   20 | Calvary Church, Greensboro, NC                   | 2 / 17 |   230 |  -1755 |     -92.37 |
 
 ### Individuals
 
@@ -2177,6 +2176,15 @@ Perfect games were achieved by only two quizzers. Lucas Cox got one in the champ
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="The Church at Briargate #2, Colorado Springs, CO" html=image_html %}
+
+## Individual Tournament
+
+|    # | Quizzer        | Church                         |
+| ---: | -------------- | ------------------------------ |
+|    1 | Jenna-Jo Duffy | Cedar Park Church, Bothell, WA |
+|    2 | Blake Porter   | James River A/G, Ozark, MO     |
+|    3 | James Pryer    | Orange Hills A/G, Orange, CA   |
+|    4 | Brandon Duffy  | Cedar Park Church, Bothell, WA |
 
 ## Special Events
 

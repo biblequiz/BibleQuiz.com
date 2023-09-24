@@ -29,22 +29,22 @@ The top quizzer at the 1983 National Finals was John Wooton of Byesville A/G, By
 ### Teams
 
 {% include notification.html
-   message="The results are based on win-loss record, and a four-team playoff for first place. When equal records exist, the ties are broken first by head to head; second by head to head and point differential; and third by head to head, point differential and point total."
+   message="The results are based on win-loss record, and a playoff for first place. When equal records exist, the ties are broken first by head to head; second by head to head and point differential; and third by head to head, point differential and point total."
    icon="fas fa-info-circle"
    status="is-success" %}
 
-|    # | Team                         | Record | Total |    Avg | Margin | Avg Margin |
-| ---: | ---------------------------- | ------ | ----: | -----: | -----: | ---------: |
-|    1 | First A/G, New Orleans, LA*  | 6 / 1  |  1455 | 207.86 |   1085 |        155 |
-|    2 | Byesville A/G, Byesville, OH | 6 / 1  |  1315 | 187.86 |    755 |     107.86 |
-|    3 | Trinity A/G, Lanham, MD      | 5 / 2  |  1030 | 147.14 |    355 |      50.71 |
-|    4 | Bethel A/G, Minneapolis, MN  | 4 / 3  |   895 | 127.86 |   -110 |     -15.71 |
-|    5 | First A/G, Fort Myers, FL    | 3 / 4  |   730 | 104.29 |   -325 |     -46.43 |
-|    6 | Renton A/G, Renton, WA       | 2 / 5  |   645 |  92.14 |   -510 |     -72.86 |
-|    7 | Evangel A/G, Wichita, KS     | 1 / 6  |   440 |  62.86 |   -770 |       -110 |
-|    8 | First A/G, Tempe, AZ         | 1 / 6  |   640 |  91.43 |   -590 |     -84.29 |
+|    # | Team                          |    W |    L | Total |    Avg | Margin | Avg Margin |
+| ---: | ----------------------------- | ---: | ---: | ----: | -----: | -----: | ---------: |
+|    1 | First A/G, New Orleans, LA*   |    6 |    1 |  1455 | 207.86 |   1085 |        155 |
+|    2 | Byesville A/G, Byesville, OH* |    6 |    1 |  1315 | 187.86 |    755 |     107.86 |
+|    3 | Trinity A/G, Lanham, MD       |    5 |    2 |  1030 | 147.14 |    355 |      50.71 |
+|    4 | Bethel A/G, Minneapolis, MN   |    4 |    3 |   895 | 127.86 |   -110 |     -15.71 |
+|    5 | First A/G, Fort Myers, FL     |    3 |    4 |   730 | 104.29 |   -325 |     -46.43 |
+|    6 | Renton A/G, Renton, WA        |    2 |    5 |   645 |  92.14 |   -510 |     -72.86 |
+|    7 | Evangel A/G, Wichita, KS      |    1 |    6 |   440 |  62.86 |   -770 |       -110 |
+|    8 | First A/G, Tempe, AZ          |    1 |    6 |   640 |  91.43 |   -590 |     -84.29 |
 
-\* Won 1st Place Playoff
+\* Won in playoff.
 
 ### Individuals
 

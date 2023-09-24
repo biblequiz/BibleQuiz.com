@@ -1968,6 +1968,15 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="First A/G, Aurora, CO" html=image_html %}
 
+## Individual Tournament
+
+|    # | Quizzer          | Church                               |
+| ---: | ---------------- | ------------------------------------ |
+|    1 | Jordan Schneider | Radiant Church, Colorado Springs, CO |
+|    2 | Dan Marlow       | First A/G, Topeka, KS                |
+|    3 | Joey Bohanon     | Central A/G, Springfield, MO         |
+|    4 | Steve Patient    | Calvary Temple, Auburn, WA           |
+
 ## Memories
 
 ### Stories

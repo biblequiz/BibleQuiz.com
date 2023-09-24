@@ -522,4 +522,8 @@ The 1990 field contained three past and two future National Champions. In additi
 
 ## Individual Tournament
 
-The winner of the 1990 National Bible Quiz Individual Tournament was Kevin Revell of Carpenter's Home Church of, Lakeland, FL. However, the remainder of the results from the individual tournament are as yet unknown.
+|    # | Quizzer      | Church                                |
+| ---: | ------------ | ------------------------------------- |
+|    1 | Kevin Revell | Carpenter's Home Church, Lakeland, FL |
+|    2 | Aaron Blanco | Christian Temple, Houston, TX         |
+|    3 | Lisa Wootton | First A/G, Bartlesville, OK           |

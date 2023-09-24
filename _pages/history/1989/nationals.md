@@ -262,4 +262,8 @@ The top scorer at the 1989 National Finals was Kevin Revell of Lakeland, FL. Kev
 
 ## Individual Tournament
 
-The individual tournament was won by Brian Martindale of Citrus Heights, CA and the runner-up was Kevin Revell.
+|    # | Quizzer          | Church                                 |
+| ---: | ---------------- | -------------------------------------- |
+|    1 | Bryan Martindale | Citrus Heights A/G, Citrus Heights, CA |
+|    2 | Kevin Revell     | Carpenter's Home Church, Lakeland, FL  |
+|    3 | Steve Schweitzer | First A/G, Merrillville, IN            |

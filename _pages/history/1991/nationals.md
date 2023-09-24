@@ -569,4 +569,7 @@ The 1991 field contained three past and two future National Champions. In additi
 
 ## Individual Tournament
 
-The individual tournament was won by Mark Childers of Evangel Community Church, Centerville, GA and the runner-up was Josh Weber of Carpenter's Home Church, Lakeland, FL. However, the remainder of the top scorers are as yet unknown.
+|    # | Quizzer       | Church                                    |
+| ---: | ------------- | ----------------------------------------- |
+|    1 | Mark Childers | Evangel Community Church, Centerville, GA |
+|    2 | Josh Weber    | Carpenter's Home Church, Lakeland, FL     |

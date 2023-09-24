@@ -2866,6 +2866,15 @@ In June, when we were having a break from quoting, David made up a simple but ch
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Orange County Christian Evangelical Church, Irvine, CA" html=image_html %}
 
+## Individual Tournament
+
+|    # | Quizzer         | Church                                    |
+| ---: | --------------- | ----------------------------------------- |
+|    1 | Abby Rogers     | Victorious Life Church, Wesley Chapel, FL |
+|    2 | Ariel Brookbank | Overlard Park A/G, Overland Park, KS      |
+|    3 | Joshua Echebiri | Braeswood A/G, Houston, TX                |
+|    4 | Jeremy Albrecht | Dayspring A/G, Bowling Green, OH          |
+
 ## Special Events
 
 ### Senior Shootout

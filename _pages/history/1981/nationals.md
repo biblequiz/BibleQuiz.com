@@ -27,22 +27,22 @@ The top quizzer at the 1981 National Finals was Kari Brodin of Renton A/G, Rento
 ### Teams
 
 {% include notification.html
-   message="The results are based on win-loss record, and a four-team playoff for first place. When equal records exist, the ties are broken first by head to head; second by head to head and point differential; and third by head to head, point differential and point total."
+   message="The results are based on win-loss record, and a three-team playoff for first place. When equal records exist, the ties are broken first by head to head; second by head to head and point differential; and third by head to head, point differential and point total."
    icon="fas fa-info-circle"
    status="is-success" %}
 
-|    # | Team                              | Record | Total |    Avg | Margin | Avg Margin |
-| ---: | --------------------------------- | ------ | ----: | -----: | -----: | ---------: |
-|    1 | Renton A/G, Renton, WA*           | 5 / 2  |  1170 | 167.14 |    330 |      47.14 |
-|    2 | Evangel Temple, Springfield, MO   | 5 / 2  |  1175 | 167.86 |    330 |      47.14 |
-|    3 | Trinity A/G, Lanham, MD           | 5 / 2  |  1100 | 157.14 |     95 |      13.57 |
-|    4 | Evangel Temple A/G, Decatur, GA   | 4 / 3  |  1275 | 182.14 |    405 |      57.86 |
-|    5 | Faith City A/G, Michigan City, IN | 4 / 3  |   845 | 120.71 |    -75 |     -10.71 |
-|    6 | Central A/G, Superior, WI         | 2 / 5  |   980 |    140 |   -165 |     -23.57 |
-|    7 | Greely First A/G, Greely, CO      | 2 / 5  |   865 | 123.57 |   -415 |     -59.29 |
-|    8 | First A/G, Tecumseh, OK           | 0 / 7  |   865 | 123.57 |   -515 |     -73.57 |
+|    # | Team                              |    W |    L | Total |    Avg | Margin | Avg Margin |
+| ---: | --------------------------------- | ---: | ---: | ----: | -----: | -----: | ---------: |
+|    1 | Renton A/G, Renton, WA*           |    5 |    2 |  1170 | 167.14 |    330 |      47.14 |
+|    2 | Evangel Temple, Springfield, MO*  |    5 |    2 |  1175 | 167.86 |    330 |      47.14 |
+|    3 | Trinity A/G, Lanham, MD*          |    5 |    2 |  1100 | 157.14 |     95 |      13.57 |
+|    4 | Evangel Temple A/G, Decatur, GA   |    4 |    3 |  1275 | 182.14 |    405 |      57.86 |
+|    5 | Faith City A/G, Michigan City, IN |    4 |    3 |   845 | 120.71 |    -75 |     -10.71 |
+|    6 | Central A/G, Superior, WI         |    2 |    5 |   980 |    140 |   -165 |     -23.57 |
+|    7 | Greely First A/G, Greely, CO      |    2 |    5 |   865 | 123.57 |   -415 |     -59.29 |
+|    8 | First A/G, Tecumseh, OK           |    0 |    7 |   865 | 123.57 |   -515 |     -73.57 |
 
-\* Won 1st Place Playoff
+\* Won in playoff.
 
 ### Individuals
 

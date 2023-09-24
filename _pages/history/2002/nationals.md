@@ -1868,3 +1868,12 @@ Playoff: Won against Christian Chapel, Tulsa, OK
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Two Rivers Fellowship, Greeley, CO" html=image_html %}
+
+## Individual Tournament
+
+|    # | Quizzer          | Church                           |
+| ---: | ---------------- | -------------------------------- |
+|    1 | Caleb Booth      | Christian Chapel, Tulsa, OK      |
+|    2 | Tyler Ferguson   | Fond du Lac A/G, Fond du Lac, WI |
+|    3 | Joe Bolognone    | Grace A/G, Syracuse, NY          |
+|    4 | David Womelsdorf | James River A/G, Ozark, MO       |
