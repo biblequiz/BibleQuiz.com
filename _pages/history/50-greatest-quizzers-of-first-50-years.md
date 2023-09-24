@@ -489,7 +489,7 @@ Ken went on to a highly successful career in the technology profession, becoming
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Ken Henderson" html=image_html %}
 
-{% capture image_url %}{% link assets/50greatest/JosephLeija.jpg %}{% endcapture %}
+{% capture image_url %}{% link assets/50greatest/JosephEija.jpg %}{% endcapture %}
 {% capture image_html %}
 ## Joseph Leija
 
