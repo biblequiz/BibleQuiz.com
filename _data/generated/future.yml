@@ -57,6 +57,16 @@ jbq:
   locationName: Owasso 1st Assembly
   locationCity: Owasso, OK
   dates: Oct 7, 2023
+- id: 7f5c8b6c-ea00-4c36-aabd-08dbafd18f81
+  season: 2024
+  registrationDates: Closes Oct 6, 2023
+  isVisible: true
+  name: North Carolina JBQ Kick-Off Event
+  scope: district
+  scopeLabel: North Carolina
+  locationName: Calvary Church
+  locationCity: Greensboro, NC
+  dates: Oct 14, 2023
 - id: 9deb6cbf-3518-4fb6-aab5-08dbafd18f81
   season: 2024
   registrationDates: Closes Oct 9, 2023
@@ -76,6 +86,15 @@ jbq:
   scopeLabel: Peninsular Florida
   locationName: Various Locations in the Pen Florida District
   dates: Oct 14 - Feb 24, 2024
+- id: 95808b72-b853-4453-aabb-08dbafd18f81
+  season: 2024
+  registrationDates: Closes Nov 12, 2023
+  isVisible: true
+  name: 'Tennessee Meet #2 - November 18th'
+  scope: region
+  scopeLabel: Gulf
+  locationName: various
+  dates: Nov 18, 2023
 - id: 6ae074f1-3ae3-4160-0f55-08dbb09b83f3
   season: 2024
   registrationDates: Closes Dec 30, 2023
@@ -87,30 +106,10 @@ jbq:
   locationCity: Bridgewater, NJ
   dates: Jan 1 - Mar 2, 2024
 tbq:
-- id: 9a50af49-cdcc-4040-1caf-08db9c64fc8b
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 2023 Liberty Classic
-  scope: nation
-  locationName: Bethany Church
-  locationCity: Wyckoff, NJ
-  dates: Sep 23, 2023
-- id: 41598ae5-2718-43bc-aaba-08dbafd18f81
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Crossroads League Meet #1 9/23/2023'
-  scope: district
-  scopeLabel: Southern New England
-  locationName: Crossroads Community Cathedral
-  locationCity: East Hartford, CT
-  dates: Sep 23, 2023
 - id: 56b3d7d0-bb44-446b-ee1a-08dba741e37f
   season: 2024
   registrationDates: Closes Sep 20, 2023
+  isLive: true
   isVisible: true
   name: 'Dakota Quiz League Meet #1'
   scope: district
@@ -193,3 +192,12 @@ tbq:
   locationName: First Assembly of God
   locationCity: Lexington, KY
   dates: Oct 28, 2023
+- id: 4a6fdea0-73fa-4c2a-aabc-08dbafd18f81
+  season: 2024
+  registrationDates: Closes Nov 12, 2023
+  isVisible: true
+  name: 'Tennessee Meet #2 - November 18th'
+  scope: district
+  scopeLabel: Tennessee
+  locationName: various
+  dates: Nov 18, 2023
