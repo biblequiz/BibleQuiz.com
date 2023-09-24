@@ -36,30 +36,32 @@ Team photos are available for purchase from Larry Mullins.
 
 ### Teams
 
-Where ties exist, they are broken by head-to-head, then by point-differential, then by points. The top four places were decided by the Final Four playoffs.
+Where ties exist, they are broken by head-to-head, then by point-differential, then by points.
 
-|    # | Team                                         | Record | Total |    Avg | Margin | Avg Margin |
-| ---: | -------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
-|    1 | Owasso First A/G, Owasso, OK                 | 17 / 2 |  4190 | 220.53 |   2800 |     147.37 |
-|    2 | Praise A/G, Garfield, NJ                     | 18 / 1 |  3580 | 188.42 |   2175 |     114.47 |
-|    3 | Victorious Life Church, Wesley Chapel, FL    | 16 / 3 |  3675 | 193.42 |   1575 |      82.89 |
-|    4 | Central A/G, Springfield, MO "Without Limit" | 14 / 5 |  2935 | 154.47 |    945 |      49.74 |
-|    5 | James River A/G, Ozark, MO, "Bread of Life"  | 13 / 6 |  3490 | 183.68 |   1640 |      86.32 |
-|    6 | First A/G, Binghamton, NY                    | 11 / 8 |  2630 | 138.42 |    290 |      15.26 |
-|    7 | Dayspring A/G, Bowling Green, OH             | 10 / 9 |  2520 | 132.63 |    255 |      13.42 |
-|    8 | First A/G, Montgomery, AL                    | 10 / 9 |  2365 | 124.47 |   -150 |      -7.89 |
-|    9 | Journey Church, Bridgeville, PA              | 10 / 9 |  2175 | 114.47 |   -120 |      -6.32 |
-|   10 | New Life A/G, White Cloud, MI                | 9 / 10 |  2300 | 121.05 |   -145 |      -7.63 |
-|   11 | Christian Temple, Houston, TX                | 9 / 10 |  2080 | 109.47 |   -355 |     -18.68 |
-|   12 | Highpointe Church, Oklahoma City, OK         | 9 / 10 |  1800 |  94.74 |   -595 |     -31.32 |
-|   13 | Manassas A/G, Bristow, VA                    | 8 / 11 |  2145 |  112.9 |   -400 |     -21.05 |
-|   14 | Living Hope Church, Colorado Springs, CO     | 8 / 11 |  1805 |     95 |   -655 |     -34.47 |
-|   15 | Harvest Christian Center, Mt. Vernon, OH     | 7 / 12 |  1580 |  83.16 |  -1300 |     -68.42 |
-|   16 | Faith A/G, Orlando, FL                       | 6 / 13 |  2265 | 119.21 |   -815 |     -42.89 |
-|   17 | James River A/G, Ozark, MO, "Nothing False"  | 6 / 13 |  1575 |  82.89 |  -1255 |     -66.05 |
-|   18 | First A/G, Cedar Rapids, IA                  | 4 / 15 |  1805 |     95 |  -1100 |     -57.89 |
-|   19 | Living Hope Worship Center, Swedesboro, NJ   | 3 / 16 |  1555 |  81.84 |  -1270 |     -66.84 |
-|   20 | Racine A/G, Racine, WI                       | 2 / 17 |  1575 |  82.89 |  -1520 |        -80 |
+|    # | Team                                          | Record | Total |    Avg | Margin | Avg Margin |
+| ---: | --------------------------------------------- | ------ | ----: | -----: | -----: | ---------: |
+|    1 | Owasso First A/G, Owasso, OK*                 | 17 / 2 |  4190 | 220.53 |   2800 |     147.37 |
+|    2 | Praise A/G, Garfield, NJ*                     | 18 / 1 |  3580 | 188.42 |   2175 |     114.47 |
+|    3 | Victorious Life Church, Wesley Chapel, FL*    | 16 / 3 |  3675 | 193.42 |   1575 |      82.89 |
+|    4 | Central A/G, Springfield, MO "Without Limit"* | 14 / 5 |  2935 | 154.47 |    945 |      49.74 |
+|    5 | James River A/G, Ozark, MO, "Bread of Life"   | 13 / 6 |  3490 | 183.68 |   1640 |      86.32 |
+|    6 | First A/G, Binghamton, NY                     | 11 / 8 |  2630 | 138.42 |    290 |      15.26 |
+|    7 | Dayspring A/G, Bowling Green, OH              | 10 / 9 |  2520 | 132.63 |    255 |      13.42 |
+|    8 | First A/G, Montgomery, AL                     | 10 / 9 |  2365 | 124.47 |   -150 |      -7.89 |
+|    9 | Journey Church, Bridgeville, PA               | 10 / 9 |  2175 | 114.47 |   -120 |      -6.32 |
+|   10 | New Life A/G, White Cloud, MI                 | 9 / 10 |  2300 | 121.05 |   -145 |      -7.63 |
+|   11 | Christian Temple, Houston, TX                 | 9 / 10 |  2080 | 109.47 |   -355 |     -18.68 |
+|   12 | Highpointe Church, Oklahoma City, OK          | 9 / 10 |  1800 |  94.74 |   -595 |     -31.32 |
+|   13 | Manassas A/G, Bristow, VA                     | 8 / 11 |  2145 |  112.9 |   -400 |     -21.05 |
+|   14 | Living Hope Church, Colorado Springs, CO      | 8 / 11 |  1805 |     95 |   -655 |     -34.47 |
+|   15 | Harvest Christian Center, Mt. Vernon, OH      | 7 / 12 |  1580 |  83.16 |  -1300 |     -68.42 |
+|   16 | Faith A/G, Orlando, FL                        | 6 / 13 |  2265 | 119.21 |   -815 |     -42.89 |
+|   17 | James River A/G, Ozark, MO, "Nothing False"   | 6 / 13 |  1575 |  82.89 |  -1255 |     -66.05 |
+|   18 | First A/G, Cedar Rapids, IA                   | 4 / 15 |  1805 |     95 |  -1100 |     -57.89 |
+|   19 | Living Hope Worship Center, Swedesboro, NJ    | 3 / 16 |  1555 |  81.84 |  -1270 |     -66.84 |
+|   20 | Racine A/G, Racine, WI                        | 2 / 17 |  1575 |  82.89 |  -1520 |        -80 |
+
+\* Won in Final Four playoffs.
 
 ### Individuals
 

@@ -27,16 +27,18 @@ The event was won by Evangel Temple A/G, Decatur, GA (pictured) which became the
    icon="fas fa-info-circle"
    status="is-success" %}
 
-|       # | Team                            | Record |
-| ------: | ------------------------------- | ------ |
-|       1 | Evangel Temple A/G, Decatur, GA | 5 / 2  |
-|       2 | Assembly of God, Kent, WA       | 5 / 2  |
-| **3\*** | Central A/G, Springfield, MO    | 4 / 3  |
-| **3\*** | Assembly of God, Ebony, VA      | 4 / 3  |
-| **3\*** | Stone Church, Palos Heights, IL | 4 / 3  |
-|       6 | Assembly of God, Bellevue, NE   | 3 / 4  |
-|       7 | Evangel A/G, Wichita, KS        | 3 / 4  |
-|       8 | First A/G, Clifton, AZ          | 0 / 7  |
+|       # | Team                             |    W |    L |
+| ------: | -------------------------------- | ---: | ---: |
+|       1 | Evangel Temple A/G, Decatur, GA* |    5 |    2 |
+|       2 | Assembly of God, Kent, WA*       |    5 |    2 |
+| **3\*** | Central A/G, Springfield, MO     |    4 |    3 |
+| **3\*** | Assembly of God, Ebony, VA       |    4 |    3 |
+| **3\*** | Stone Church, Palos Heights, IL  |    4 |    3 |
+|       6 | Assembly of God, Bellevue, NE    |    3 |    4 |
+|       7 | Evangel A/G, Wichita, KS         |    3 |    4 |
+|       8 | First A/G, Clifton, AZ           |    0 |    7 |
+
+\* Won in playoff.
 
 ### Individuals
 

@@ -29,13 +29,13 @@ Ultimately the records are what they are and do not make for perfect comparisons
 
 ### Most National Championships
 
-| Count | Team                                  | Seasons          |
-| ----: | ------------------------------------- | ---------------- |
-|     3 | Bouldercrest/Decatur/Centerville, GA  | 1963, 1976, 1978 |
-|     3 | First A/G, New Orleans, LA            | 1971, 1983, 1984 |
-|     2 | Full Gospel Chapel, Denver, CO        | 1966, 1967       |
-|     2 | Carpenter's Home Church, Lakeland, FL | 1990, 1991       |
-|     2 | First A/G, Tempe, AZ                  | 1986, 1987       |
+| Count | Team                                                                                                       | Seasons          |
+| ----: | ---------------------------------------------------------------------------------------------------------- | ---------------- |
+|     3 | Bouldercrest A/G, Atlanta, GA<br />Evangel A/G, Decatur, GA<br />Evangel Community Church, Centerville, GA | 1963, 1976, 1978 |
+|     3 | First A/G, New Orleans, LA                                                                                 | 1971, 1983, 1984 |
+|     2 | Full Gospel Chapel, Denver, CO                                                                             | 1966, 1967       |
+|     2 | Carpenter's Home Church, Lakeland, FL                                                                      | 1990, 1991       |
+|     2 | First A/G, Tempe, AZ                                                                                       | 1986, 1987       |
 
 ### Most National 2nd Place Wins
 
@@ -52,12 +52,12 @@ Ultimately the records are what they are and do not make for perfect comparisons
 
 > Includes Nationals after 1966 and ties (if there weren't playoffs that year)
 
-| Count | Team                                 | Seasons                      |
-| ----: | ------------------------------------ | ---------------------------- |
-|     5 | Trinity A/G, Lanham, MD              | 1979, 1980, 1981, 1982, 1983 |
-|     2 | Bouldercrest/Decatur/Centerville, GA | 1979, 1986                   |
-|     2 | Central A/G, Springfield, MO         | 1987, 1996                   |
-|     2 | Grace A/G, Syracuse, NY              | 1998, 1999                   |
+| Count | Team                                                                                                       | Seasons                      |
+| ----: | ---------------------------------------------------------------------------------------------------------- | ---------------------------- |
+|     5 | Trinity A/G, Lanham, MD                                                                                    | 1979, 1980, 1981, 1982, 1983 |
+|     2 | Bouldercrest A/G, Atlanta, GA<br />Evangel A/G, Decatur, GA<br />Evangel Community Church, Centerville, GA | 1979, 1986                   |
+|     2 | Central A/G, Springfield, MO                                                                               | 1987, 1996                   |
+|     2 | Grace A/G, Syracuse, NY                                                                                    | 1998, 1999                   |
 
 ### Best National Team Champions By Win-Loss
 
@@ -117,12 +117,14 @@ Ties have not been broken, but have been sorted in reverse chronological order (
 |  N/A | 1967 | Full Gospel Chapel, Denver, CO             |  N/A |  N/A |     N/A | Lanny Wirth         |
 |  N/A | 1966 | Full Gospel Chapel, Denver, CO             |  N/A |  N/A |     N/A | Lanny Wirth         |
 
-\* Although 16 teams went to Nationals, they were divided into two separate groups of 8, played a 7-game round robin, and then moved into playoffs. For these two years, their percentage was based on their combined 7-game round robin and playoff performance.
+\* Although 16 teams went to Nationals, they were divided into two separate groups of 8, played a 7-game round robin, and then moved into playoffs. For these two years, their percentage was based on their combined 7-game round robin and playoff performance.\
 \*\* Playoff rounds are included in the round robin percentage as it is impossible to have a full picture of the win-loss record without it.
 
 ### Best National Team Champions By Average
 
-All scores with an asterisk after them have been normalized. Until 2005, there were 380 points available per game, counting bonus points. Now there are 430 points available, 80 of which are bonus points. The formula for normalized points is 380 divided by 430 times (points). Therefore, ranking is based on percentage of total points attainable. Years with an asterisk (*) next to them were normalized so that proper comparisons could be made. Years with a a double asterisk (**) were the years that had extra playoffs following the regular round robin (1984, 1985 and 2010) - for these years, their average was based solely on their regular round robin performance. Several years of data are missing due to the fact that official scores were announced but not available via an official printout and we have yet to find scoresheets for these years. In addition for some years, we do not have every round's score, but we have most of them.
+> Missing several years due missing official printouts for these years, although the results were announced at the official competition.
+
+Ranking is based on a percentage of total attainable points. For a detailed explanation of the differences across the years, see the [Eras of Quizzing]({% link _pages/history/eras-of-quizzing.md %}) page.
 
 | Rank | Year | Team                                          |       Avg | Coach               |
 | ---: | ---: | --------------------------------------------- | --------: | ------------------- |
@@ -165,7 +167,7 @@ All scores with an asterisk after them have been normalized. Until 2005, there w
 |   37 | 2007 | Church at Briargate, Colorado Springs, CO     |   146.51* | Greg House          |
 |   38 | 1988 | Eastside A/G, Tucson, AZ                      |    145.33 | Ed Picker           |
 |   39 | 1995 | Allison Park A/G, Allison Park, PA            |    141.05 | John Porter         |
-|   40 | 1976 | Evangel Temple A/G, Decatur, GA               |     97.00 | Pat Cobb***         |
+|   40 | 1976 | Evangel Temple A/G, Decatur, GA               |  97.00*** | Pat Cobb            |
 |  N/A | 1977 | First A/G, Aurora, CO                         |       N/A | Lanny Wirth         |
 |  N/A | 1974 | Brookfield A/G, Brookfield, MO                |       N/A | Janet Robinson      |
 |  N/A | 1973 | Ebony A/G, Ebony, VA                          |       N/A | Dale Baird          |
@@ -176,11 +178,15 @@ All scores with an asterisk after them have been normalized. Until 2005, there w
 |  N/A | 1966 | Full Gospel Chapel, Denver, CO                |       N/A | Lanny Wirth         |
 |  N/A | 1965 | Calvary Full Gospel A/G, Inglewood, CA        |       N/A | Rick Ellis          |
 
+\* Normalized using `(380 / 430) * (points)`\
+\*\* Years with extra playoffs. The average only includes their regular round robin performance.\
 \*\*\* Not all rounds have data.
 
 ### Best National Team Champions By Average Margin
 
-The "winning margin" indicates the average of how many points a teams won their games by. This is the sum, over all matches, of their score minus their opponent's score. All scores with an asterisk (*) after the average indicate that there were only five questions required for a quiz-out and that 430 points per game were available to a team, compared to 380 available before 2006. Years with a double asterisk (**) were the years when 16 teams went to National Finals, but they were divided into two groups of 8, played a 7-game round robin, then moved into playoffs - for these 2 years, their winning margin was based solely on their 7-game round robin performance, although they never had to play the 8 teams from the other bracket. As both teams in both formats were able to benefit from this, the statistic is nearly unchanged, so scores have not been normalized. Only championship teams are included here. Several years of data are missing due to the fact that round-by-round scores were not archived every year.
+> Missing several years due missing official printouts for these years, although the results were announced at the official competition.
+
+Ranking is based on the "winning margin" (sum, over all matches, of a team's score minus their opponent's score).
 
 | Rank | Year | Team                                       |    Margin | Coach               |
 | ---: | ---: | ------------------------------------------ | --------: | ------------------- |
@@ -233,33 +239,13 @@ The "winning margin" indicates the average of how many points a teams won their 
 |  N/A | 1966 | Full Gospel Chapel, Denver, CO             |       N/A | Lanny Wirth         |
 |  N/A | 1965 | Calvary Full Gospel A/G, Inglewood, CA     |       N/A | Rick Ellis          |
 
+\* Only five questions required for a quiz-out with 430 point maximum compared to a 380 maximum before 2006.\
+\*\* 16 teams at National Finals divided into two separate groups. The winning margin based solely on their 7-game round robin performance, even though they never played the 8 teams from the other group. As both teams benefited from this, no scores were normalized as it very minimal effect.\
 \*\*\* Not all rounds have data.
-
-### Playoffs for the National Championship
-
->No data from 1966-1970, 1973, 1974, or 1977
-
-| Year | Teams                                                                                                                                         |
-| ---: | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2011 | Owasso First A/G, Owasso, OK<br />Praise A/G, Garfield, NJ<br />Victorious Life Church, Wesley Chapel, FL<br />Central A/G, Springfield, MO   |
-| 2010 | Victorious Life Church, Wesley Chapel, FL<br />Owasso First A/G, Owasso, OK<br />Praise A/G, Garfield, NJ<br />Cedar Park Church, Bothell, WA |
-| 2007 | Church at Briargate, Colorado Springs, CO<br />Cedar Park A/G, Bothell, WA                                                                    |
-| 2005 | Cedar Park A/G, Bothell, WA<br />First A/G, Lexington, KY                                                                                     |
-| 1995 | Allison Park A/G, Allison Park, PA<br />Grace A/G, Syracuse, NY                                                                               |
-| 1985 | Ypsilanti A/G, Ypsilanti, MI<br />First A/G, Tempe, AZ                                                                                        |
-| 1984 | First A/G, New Orleans, LA<br />Byesville A/G, Byesville, OH                                                                                  |
-| 1983 | First A/G, New Orleans, LA<br />Byesville A/G, Byesville, OH                                                                                  |
-| 1981 | Renton A/G, Renton, WA<br />Evangel Temple, Springfield, MO<br />Trinity A/G, Lanham, MD                                                      |
-| 1980 | Bigelow A/G, Bigelow, AR<br />Calvary Temple A/G, Riverside, CA<br />Trinity A/G, Lanham, MD<br />Stone Church, Palos Heights, IL             |
-| 1976 | Evangel A/G, Decatur, GA<br />A/G, Kent, WA                                                                                                   |
-| 1971 | First A/G, New Orleans, LA<br />Centreville A/G, Centreville, VA                                                                              |
-| 1965 | Calvary Full Gospel A/G, Inglewood, CA<br />Fremont A/G, Fremont, NE                                                                          |
-| 1964 | Burlington A/G, Burlington, NC<br />East Gary A/G, East Gary, IN                                                                              |
-| 1963 | Bouldercrest A/G, Atlanta, GA<br />First A/G, Plainview, TX                                                                                   |
 
 ### Largest National 1st/2nd Place Margin of Victory
 
-The last record measured years where the National Championship was very closely decided between multiple teams. This record is just the opposite. The gap described below is the difference between the number of wins of the first place team and second place team. Only years with a 2 or more game difference are listed. The remaining years were all won by 1 game. See the records above for details on why two teams had a negative margin.
+The last record measured years where National Championship was very closely decided between multiple teams. This record is just the opposite. The gap described below is the difference between the number of wins of the first place team and second place team. Only years with a 2 or more game difference are listed. The remaining years were all won by 1 game. See the records above for details on why two teams had a negative margin.
 
 | Games | Year | Team                                      | Coach               |
 | ----: | ---: | ----------------------------------------- | ------------------- |
@@ -309,7 +295,7 @@ The last record measured years where the National Championship was very closely 
 
 ### Perfect Games at National Finals
 
-A perfect game indicates a team getting the highest possible score. This also means getting the highest possible number of quiz-outs. Before 2006 this number was three. From 2006 on, that number is four. For teams with only three quizzers, any match where all three quiz out, with no errors or fouls also counts as a perfect game, provided the unanswered questions are all 10s.
+A perfect game indicates a team getting the highest possible score, which requires the highest possible number of quiz-outs. Before 2006 this number was three. From 2006 on, that number is four. For teams with only three quizzers, any match where all three quiz out, with no errors or fouls also counts as a perfect game, provided the unanswered questions are all 10s.
 
 | Year | Team                            | Games | Coach            |
 | ---: | ------------------------------- | ----: | ---------------- |
@@ -345,54 +331,67 @@ For all the years that 380 was the maximum score for a single team, a game in wh
 | 1986 |     1 | 315                                      | First A/G, Tempe, AZ                      | Steve Eastin        |
 | 1985 |     1 | 330                                      | First A/G, New Orleans, LA                | Alice Brent         |
 
-Note: 1964, 1975, 1978-1984, 1988-1989, 1991, 1997-1998, 2000, 2006-2007 - No Games Match This Criteria
 
-1963, 1965, 1971, 1972, 1976 - Incomplete Data but None for the Data We Have
-
-1966-1974, 1977, 1992, 1994-1995, 2003 - No Round by Round Data
+>**NOTES:**
+> * 1964, 1975, 1978-1984, 1988 - 1989, 1991, 1997 - 1998, 2000, 2006 - 2007: No Perfect Games
+> * 1963, 1965, 1971, 1972, 1976: No Perfect Games in the available incomplete data
+> * 1966 - 1974, 1977, 1992, 1994 - 1995, 2003: No round-by-round data
 
 ### National Champions, but not Regional Champions
 
-This record is to commend teams that put in the extra effort to turn things around between Regional Finals and National Finals. Six teams placed second at Regional Finals, while only Mountain View A/G, Las Vegas, NV placed third at Regional Finals. From 1963 to 1983 only regional champions competed at nationals.
+> From 1963 to 1983, only regional champions competed at Nationals.
+
+This record commends the teams putting in the extra effort between Regional and National Finals.
 
 | Year | Team                                     | Regionals |
 | ---: | ---------------------------------------- | --------: |
-| 1989 | Citrus Heights A/G, Citrus Heights, CA   |       2nd |
-| 1990 | Carpenter's Home Church, Lakeland, FL    |       2nd |
-| 1991 | Carpenter's Home Church, Lakeland, FL    |       2nd |
-| 1996 | Grace A/G, Syracuse, NY                  |       2nd |
 | 2010 | Victorous Life Church, Wesley Chapel, FL |       2nd |
-| 2000 | Mountain View A/G, Las Vegas, NV         |       3rd |
+| 2000 | Mountain View A/G, Las Vegas, NV*        |       3rd |
+| 1996 | Grace A/G, Syracuse, NY                  |       2nd |
+| 1991 | Carpenter's Home Church, Lakeland, FL    |       2nd |
+| 1990 | Carpenter's Home Church, Lakeland, FL    |       2nd |
+| 1989 | Citrus Heights A/G, Citrus Heights, CA   |       2nd |
+
+\* Six teams placed second at Regional Finals, while only Mountain View A/G, Las Vegas, NV placed third at Regional Finals.
 
 ### 8+ Consecutive Championship Division Appearences
 
-There are many ways that this record must be approached. First, with a different number of teams allowed to attend national finals, allowing five teams to attend national finals, some previous teams would certainly have made it to nationals more years, if five were allowed to attend. No team accomplished this feat when only eight teams were allowed to attend. As displayed below, only one team is known to have won eight consecutive regional championships, from 1989 to 1996. If five teams were allowed to attend, Central A/G, Springfield, MO would have attended in 1994 and 1998 making a 16 year streak. Similarly for Bouldercrest/Decatur. This record also only takes into account whether a church had a team at national finals, ignoring if they sent multiple teams. For three teams below, multiple churches are listed. In these cases, the entire team moved to another church (in the instance of Radiant/Briagate this was a church-plant and everyone from the team the previous year moved).
+No team accomplished this feat when only eight teams were allowed to attend (prior to 1986). Only one team is known to have won eight consecutive regional championships. A different number of teams were allowed to attend Nationals across the years. If five teams were always permitted to attend, other teams would certaintly have made it to more Nationals, such as Central A/G, Springfield, MO that would have attended in 1994 and 1998 making a 16 year streak; a similar scenario exists for Bouldercrest/Decatur. This record also only takes into account whether a church had a team at national finals, ignoring if they sent multiple teams. For a detailed explanation of the differences across the years, see the [Eras of Quizzing]({% link _pages/history/eras-of-quizzing.md %}) page.
 
-|    # | Team                                                     | Years   | Coach(es)                                                |
-| ---: | -------------------------------------------------------- | ------- | -------------------------------------------------------- |
-|   14 | Radiant Church/Church at Briargate, Colorado Springs, CO | 1996-09 | Phil Steiger/Jordan Schneider/Greg House                 |
-|  13* | Cedar Park A/G, Bothell, WA                              | 1998-10 | Richard Conner/Kent Kloefkorn/Chandra Porter/Kari Brodin |
-|   12 | Allison Park A/G, Allison Park, PA                       | 1989-02 | John Porter/Jason Martin/Bev Herzberg                    |
-|    8 | Central A/G, Springfield, MO                             | 1986-93 | Ron Johnson, Kathy Wootton, Rob Laurens, Marcae Johnson  |
-|    8 | Calvary Christian Center/Life Center/Orange, CA          | 1989-96 | Greg House                                               |
-|    8 | Braeswood A/G, Houston, TX                               | 1999-06 | Paul Kramer/Emeka Kanu                                   |
+|    # | Team                                                       | Years   | Coach(es)                                                |
+| ---: | ---------------------------------------------------------- | ------- | -------------------------------------------------------- |
+|   14 | Radiant Church/Church at Briargate, Colorado Springs, CO** | 1996-09 | Phil Steiger/Jordan Schneider/Greg House                 |
+|   13 | Cedar Park A/G, Bothell, WA*                               | 1998-10 | Richard Conner/Kent Kloefkorn/Chandra Porter/Kari Brodin |
+|   12 | Allison Park A/G, Allison Park, PA                         | 1989-02 | John Porter/Jason Martin/Bev Herzberg                    |
+|    8 | Central A/G, Springfield, MO                               | 1986-93 | Ron Johnson, Kathy Wootton, Rob Laurens, Marcae Johnson  |
+|    8 | Calvary Christian Center/Life Center/Orange, CA**          | 1989-96 | Greg House                                               |
+|    8 | Braeswood A/G, Houston, TX                                 | 1999-06 | Paul Kramer/Emeka Kanu                                   |
 
-\* In 2002, Bothell's "second" team was in the championship division while their "first" team was in the challenger division. Chandra Porter coached the "second" team that year.
+\* In 2002, Bothell's "second" team was in the championship division while their "first" team was in the challenger division. Chandra Porter coached the "second" team that year.\
+\*\* The entire team moved to another church. Radiant Church planted Briargate and the entire team moved.
 
 ### 10+ Championsip Division Appearances
 
-All of the challenges of the previous record apply here as well. This record includes if a church sent multiple teams in one year. Several teams falling short of this due only to the championship division restriction are Fort Myers, FL, Tacoma, WA, Orlando, FL, Santa Ana, CA, Dunwoody, GA, Lexington, KY and West Lafayette, IN. Radiant also attended in 1995, but did not make it out of the third-place touranament. Also included below is the collective win-loss record for these teams.
+This record includes if a church sent multiple teams in one year. Since this record only includes the Championship Division, multiple teams aren't included:
+* Fort Myers, FL
+* Tacoma, WA
+* Orlando, FL
+* Santa Ana, CA
+* Dunwoody, GA
+* Lexington, KY
+* West Lafayette, IN
+* Radiant Church, Colorado Springs, CO attended in 1995, but didn't make it out of the third-place tournament.
 
-|    # | Team                                                                                                                                                            | Years                                                       | Coach(es)                                                                                                                   |    W |    L |
-| ---: | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---: | ---: |
-|   17 | Central A/G, Springfield, MO                                                                                                                                    | 1976, '86-'93, '95, '96 (2), '97, '99-'00, '09-'10          | Greg Mundis, Ron Johnson, Kathy Wootton, Rob Laurens, Marcae Johnson, Dilla Dawson, Kevin Dawson, Dave Hatley, Richard Fair |  163 |  136 |
-|   15 | Radiant Church/Church at Briargate, Colorado Springs, CO                                                                                                        | '92-'93, '96-'02, '04, '05 (2), '06-'09                     | Darla Caudle, Phil Steiger, Jordan Schneider, Eric Lind, Greg House                                                         |  187 |  129 |
-|  15* | Cedar Park A/G, Bothell, WA                                                                                                                                     | '98-'04, '05 (2), '06 (2), '07-'10                          | Richard Conner/Kent Kloefkorn/Chandra Porter/Kari Brodin                                                                    |  179 |  114 |
-|   15 | Braeswood A/G, Houston, TX                                                                                                                                      | '90-'93, '99-'06, '08-'10                                   | Jerome Tang/Paul Kramer/Emeka Kanu                                                                                          |  152 |  126 |
-|   14 | Bouldercrest A/G, Atlanta, GA<br />Evangel Temple A/G, Decatur, GA<br />Evangel Community Church, Centerville, GA<br />Evangel Community Church, Snellville, GA | '63, '65, '75, '76, '78-'79, '81-'82, '84-'85, '89-'91, '01 | Cleta Gustafson/Pat Cobb/Alex Cohilas/Susan Parr/Mark Gilmer/Rob Laurens                                                    |  N/A |  N/A |
-|   11 | Grace A/G, Syracuse, NY                                                                                                                                         | '93, '94 (2), '95-'99, '01-'02, '06                         | Kurt Mayer/Mary Daigle/John Nardozzi                                                                                        |  128 |   96 |
-|   11 | Faith A/G, Orlando, FL                                                                                                                                          | '93, '96, '98, '02-'03, '05-'10                             | Garrett Smiley/Ray Berkey                                                                                                   |   94 |  122 |
-|   10 | First A/G, Lexington, KY                                                                                                                                        | '96-'97, '02-'08, '10                                       | Donna Rees/Dave White/Karen White/Jon Galliers                                                                              |  119 |   78 |
+|        # | Team                                                                                                                                                            | Years                                                       | Coach(es)                                                                                                                   |    W |    L |
+| -------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---: | ---: |
+|       17 | Central A/G, Springfield, MO                                                                                                                                    | '76, '86-'93, '95, '96 (2), '97, '99-'00, '09-'10           | Greg Mundis, Ron Johnson, Kathy Wootton, Rob Laurens, Marcae Johnson, Dilla Dawson, Kevin Dawson, Dave Hatley, Richard Fair |  163 |  136 |
+|       15 | Radiant Church/Church at Briargate, Colorado Springs, CO                                                                                                        | '92-'93, '96-'02, '04, '05 (2), '06-'09                     | Darla Caudle, Phil Steiger, Jordan Schneider, Eric Lind, Greg House                                                         |  187 |  129 |
+| **15\*** | Cedar Park A/G, Bothell, WA                                                                                                                                     | '98-'04, '05 (2), '06 (2), '07-'10                          | Richard Conner/Kent Kloefkorn/Chandra Porter/Kari Brodin                                                                    |  179 |  114 |
+|       15 | Braeswood A/G, Houston, TX                                                                                                                                      | '90-'93, '99-'06, '08-'10                                   | Jerome Tang/Paul Kramer/Emeka Kanu                                                                                          |  152 |  126 |
+|       14 | Bouldercrest A/G, Atlanta, GA<br />Evangel Temple A/G, Decatur, GA<br />Evangel Community Church, Centerville, GA<br />Evangel Community Church, Snellville, GA | '63, '65, '75, '76, '78-'79, '81-'82, '84-'85, '89-'91, '01 | Cleta Gustafson/Pat Cobb/Alex Cohilas/Susan Parr/Mark Gilmer/Rob Laurens                                                    |  N/A |  N/A |
+|       11 | Grace A/G, Syracuse, NY                                                                                                                                         | '93, '94 (2), '95-'99, '01-'02, '06                         | Kurt Mayer/Mary Daigle/John Nardozzi                                                                                        |  128 |   96 |
+|       11 | Faith A/G, Orlando, FL                                                                                                                                          | '93, '96, '98, '02-'03, '05-'10                             | Garrett Smiley/Ray Berkey                                                                                                   |   94 |  122 |
+|       10 | First A/G, Lexington, KY                                                                                                                                        | '96-'97, '02-'08, '10                                       | Donna Rees/Dave White/Karen White/Jon Galliers                                                                              |  119 |   78 |
 
 ### Other Consecutive Team Records
 
@@ -451,7 +450,7 @@ All of the challenges of the previous record apply here as well. This record inc
 
 ### Highest Individual Average
 
-In this case, the scores have not been altered. The reason for this is two-fold. The number of questions for a quiz-out is now 5, but the bonus points are now 20. To an extent, these factors off-set each other. Under this system, no new quizzer will ever break the record set by Kent Piacenti in 1999, however, Kent achieved his record with sixteen perfect games (160). Even under today's slighty relaxed standards, no one else has ever come close to his record.
+No scores have been altered. The number of questions for a quiz-out is now 5, but the bonus points are now 20. To an extent, these factors off-set each other. Under this system, no new quizzer will ever break the record set by Kent Piacenti in 1999, however, Kent achieved his record with sixteen perfect games (160). Even under today's slighty relaxed standards, no one else has ever come close to his record.
 
 |        # | Year | Quizzer          | Team                                      | Total | Rounds |    Avg |
 | -------: | ---: | ---------------- | ----------------------------------------- | ----: | -----: | -----: |
@@ -476,8 +475,8 @@ In this case, the scores have not been altered. The reason for this is two-fold.
 |       19 | 2000 | Dan Marlow       | First A/G, Topeka, KS                     |  2050 |     19 | 107.89 |
 |       20 | 1991 | Kim Smalley      | Charity A/G, Laveen, AZ                   |  1595 |     15 | 106.33 |
 |       21 | 2003 | Zachary Sullivan | First A/G, San Angelo, TX                 |  2010 |     19 | 105.79 |
-|       22 | 1997 | Kent Piacenti    | Life Community Church, Sunnyvale, TX      |  2405 |     23 | 104.57 |
-| **22\*** | 1997 | Jeremy Horn      | First A/G, Shreveport, LA                 |  2405 |     23 | 104.57 |
+|       22 | 1997 | Kent Piacenti**  | Life Community Church, Sunnyvale, TX      |  2405 |     23 | 104.57 |
+| **22\*** | 1997 | Jeremy Horn**    | First A/G, Shreveport, LA                 |  2405 |     23 | 104.57 |
 |       24 | 2007 | Jared Burkhalter | Faith A/G, Orlando, FL                    |  2005 |     19 | 105.53 |
 |       25 | 1993 | Lisa Wootton     | First A/G, Bartlesville, OK               |  1920 |     19 | 101.05 |
 |       26 | 1990 | Brian Gibbons    | Moosic A/G, Moosic, PA                    |  1480 |     15 |  98.67 |
@@ -488,44 +487,52 @@ In this case, the scores have not been altered. The reason for this is two-fold.
 |       31 | 1979 | Rhett Laurens    | Evangel Temple A/G, Decatur, GA           |   625 |      7 |  89.29 |
 |       32 | 1980 | Billy Muniz      | Calvary Temple A/G, Riverside, CA         |   590 |      7 |  84.29 |
 
-\* Quizzer was a member of the national championship team
+\* Quizzer was a member of the national championship team\
+\*\* Although ties are typically broken by quiz-outs, this one was not.
 
 ### Difference in Avg Score between 1st and 2nd
 
-The previous record indicates that we have only had one tie for top scorer. Ties are typically broken by quiz-outs, but this one was not. This record indicates some of the other years there was very tight competition for top scorer. In addition, a 100 point gap when there were 19 games is different than when there were 7 games. Therefore we list these by the difference in average points per game. In 1980, only 10 points per game separated the top 5 quizzers. In 1982, 8.58 points per game separated the top 3 quizzers. In 2000, 12.63 points per game separated the top 4 quizzers. All years for which we have data are included. In some years, this gap was extraordinarily high. The highest scoring quizzer is listed first for each year.
+Since the total possible score differs significantly over the years (see [Eras of Quizzing]({% link _pages/history/eras-of-quizzing.md %}) for more details), the differences are listed by average points per game. Consider that a 100-point gap when there are 19 games is different than when there are only 7 games.
 
-| Year |   Gap | Quizzer (1st)               | Quizzer (2nd)                     |
-| ---: | ----: | --------------------------- | --------------------------------- |
-| 2003 |  0.26 | Zach Sullivan               | David Dorey                       |
-| 1980 |  0.71 | Billy Muniz                 | Jeff Wood                         |
-| 1978 |  0.71 | Ronnie Wright               | Greg Kelley                       |
-| 2008 |  3.68 | Grant Warnock               | Jared Burkhalter                  |
-| 2010 |  3.95 | Abby Rogers                 | James Lex                         |
-| 1985 |  4.29 | Lester Cowan                | Nicole Brandon                    |
-| 1982 |  4.29 | Lester Cowan                | Nicole Brandon                    |
-| 1981 |  4.29 | Kari Brodin                 | Ken Henderson                     |
-| 1988 |  4.33 | Marcae Johnson              | Jason Picker                      |
-| 2000 |  4.73 | Dan Marlow                  | Valerie Marchalonis               |
-| 2009 |  5.53 | Jared Burkhalter            | James Lex                         |
-| 1986 |  5.67 | Nicole Brandon              | David Lowe                        |
-| 1997 |   6.3 | Kent Piacenti & Jeremy Horn | Shelly Rogers                     |
-| 1995 |  6.63 | Sanejo Leonard              | Jolene Papendick                  |
-| 1987 |  9.06 | Tammy Yost                  | David Lowe                        |
-| 2005 | 11.31 | Jon Galliers                | Brandon Duffy                     |
-| 1993 | 11.58 | Lisa Wootton                | Dan Smith                         |
-| 1990 | 11.67 | Brian Gibbons               | Mark Childers                     |
-| 1991 | 12.67 | Kim Smalley                 | JoEllyn Kruger                    |
-| 2001 | 14.47 | Michael Pearson             | Dan Marlow                        |
-| 1983 | 15.71 | John Wootton                | Joseph Leija                      |
-| 1996 | 16.59 | Dan Slater                  | Jolene Papendick                  |
-| 2007 | 17.37 | Jared Burkhalter            | Brandon Duffy                     |
-| 1994 | 27.89 | Lisa Wootton                | Joy Daigle                        |
-| 1998 | 28.26 | Kent Piacenti               | Aaron Collins                     |
-| 2006 | 30.79 | Jon Galliers                | Brandon Duffy                     |
-| 2011 | 31.58 | Abby Rogers                 | Tamera Burkhalter & Daniel Wagner |
-| 2002 | 32.68 | Peter Brown                 | Aaron Kohler                      |
-| 2004 |  37.9 | David Dorey                 | Jon Galliers                      |
-| 1999 |  66.3 | Kent Piacenti               | Jim Fenton & Valerie Marchalonis  |
+Other interesting observations related to this data:
+* In 1980, only 10 points per game separated the top 5 quizzers.
+* In 1982, 8.58 points per game separated the top 3 quizzers.
+* In 2000, 12.63 points per game separated the top 4 quizzers.
+
+All years for which we have data are included. In some years, this gap was extraordinarily high. The highest scoring quizzer is listed first for each year.
+
+| Year |   Gap | Quizzer (1st)                  | Quizzer (2nd)                        |
+| ---: | ----: | ------------------------------ | ------------------------------------ |
+| 2003 |  0.26 | Zach Sullivan                  | David Dorey                          |
+| 1980 |  0.71 | Billy Muniz                    | Jeff Wood                            |
+| 1978 |  0.71 | Ronnie Wright                  | Greg Kelley                          |
+| 2008 |  3.68 | Grant Warnock                  | Jared Burkhalter                     |
+| 2010 |  3.95 | Abby Rogers                    | James Lex                            |
+| 1985 |  4.29 | Lester Cowan                   | Nicole Brandon                       |
+| 1982 |  4.29 | Lester Cowan                   | Nicole Brandon                       |
+| 1981 |  4.29 | Kari Brodin                    | Ken Henderson                        |
+| 1988 |  4.33 | Marcae Johnson                 | Jason Picker                         |
+| 2000 |  4.73 | Dan Marlow                     | Valerie Marchalonis                  |
+| 2009 |  5.53 | Jared Burkhalter               | James Lex                            |
+| 1986 |  5.67 | Nicole Brandon                 | David Lowe                           |
+| 1997 |   6.3 | Kent Piacenti<br />Jeremy Horn | Shelly Rogers                        |
+| 1995 |  6.63 | Sanejo Leonard                 | Jolene Papendick                     |
+| 1987 |  9.06 | Tammy Yost                     | David Lowe                           |
+| 2005 | 11.31 | Jon Galliers                   | Brandon Duffy                        |
+| 1993 | 11.58 | Lisa Wootton                   | Dan Smith                            |
+| 1990 | 11.67 | Brian Gibbons                  | Mark Childers                        |
+| 1991 | 12.67 | Kim Smalley                    | JoEllyn Kruger                       |
+| 2001 | 14.47 | Michael Pearson                | Dan Marlow                           |
+| 1983 | 15.71 | John Wootton                   | Joseph Leija                         |
+| 1996 | 16.59 | Dan Slater                     | Jolene Papendick                     |
+| 2007 | 17.37 | Jared Burkhalter               | Brandon Duffy                        |
+| 1994 | 27.89 | Lisa Wootton                   | Joy Daigle                           |
+| 1998 | 28.26 | Kent Piacenti                  | Aaron Collins                        |
+| 2006 | 30.79 | Jon Galliers                   | Brandon Duffy                        |
+| 2011 | 31.58 | Abby Rogers                    | Tamera Burkhalter<br />Daniel Wagner |
+| 2002 | 32.68 | Peter Brown                    | Aaron Kohler                         |
+| 2004 |  37.9 | David Dorey                    | Jon Galliers                         |
+| 1999 |  66.3 | Kent Piacenti                  | Jim Fenton<br />Valerie Marchalonis  |
 
 Note: No data exists for 1963-1978, 1984, 1989 & 1991
 
@@ -609,6 +616,8 @@ Note: No data exists for 1963-1978, 1984, 1989 & 1991
 
 ### Highest Forward Quiz-Outs
 
+> Data either missing or not kept for 1963-1989 and 1992.
+
 Since 2006's change to 5 for a quiz out, this statistic is slightly skewed. Jon Galliers is the only quizzer to quiz out forward every round, however in both 1998 and 1999, Kent would've done so as well given only 5 for a quiz out.
 
 |        # | Year | Quizzer            | Rounds | QO Fwd | QO Bk |       % |
@@ -636,8 +645,6 @@ Since 2006's change to 5 for a quiz out, this statistic is slightly skewed. Jon 
 |       21 | 1993 | Stacy Hart         |     19 |     10 |     1 |  52.63% |
 | **21\*** | 1993 | Dan Smith          |     19 |     10 |     3 |  52.63% |
 | **21\*** | 2005 | Brittanica Chesser |     19 |     10 |   N/A |  52.63% |
-
-Note: Data either missing or not kept for 1963-1989 and 1992.
 
 ### Siblings in the Top 10
 

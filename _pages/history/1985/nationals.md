@@ -31,7 +31,7 @@ The top scorer at the 1985 National Finals was Lester Cowen of Festus, MO. Nicol
 ### Teams
 
 {% include notification.html
-   message="Due to the format of this national finals, it is impossible to assign a place to each team. Ypsilanti was first, Tempe was second and Renton and Hibbing tied for third. The rest of the teams cannot be ranked."
+   message="Due to the format of this national finals, it is impossible to assign a place to each team. Ypsilanti was first, Tempe was second and Renton and Hibbing tied for third. There was a playoff for first place. The rest of the teams cannot be ranked."
    icon="fas fa-info-circle"
    status="is-success" %}
 

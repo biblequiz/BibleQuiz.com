@@ -31,17 +31,18 @@ The third National Bible Quiz Finals was a single elimination tournament with th
    icon="fas fa-info-circle"
    status="is-success" %}
 
-| #   | Team                                   |    W |    L |
-| --- | -------------------------------------- | ---: | ---: |
-| 1   | Calvary Full Gospel A/G, Inglewood, CA |    3 |    0 |
-| 2   | Fremont A/G, Fremont, NE               |    2 |    1 |
-| 3   | Central A/G, Fayetteville, AR          |    1 |    1 |
-| 3   | Broken Arrow A/G, Broken Arrow, OK     |    1 |    1 |
-| 5   | Bouldercrest A/G, Atlanta, GA          |    0 |    1 |
-| 5   | Herminston A/G, Herminston, OR         |    0 |    1 |
-| 5   | First A/G, Lonaconing, MD              |    0 |    1 |
-| 5   | East Gary A/G, East Gary, IN           |    0 |    1 |
+| #   | Team                                    |    W |    L |
+| --- | --------------------------------------- | ---: | ---: |
+| 1   | Calvary Full Gospel A/G, Inglewood, CA* |    3 |    0 |
+| 2   | Fremont A/G, Fremont, NE*               |    2 |    1 |
+| 3   | Central A/G, Fayetteville, AR           |    1 |    1 |
+| 3   | Broken Arrow A/G, Broken Arrow, OK      |    1 |    1 |
+| 5   | Bouldercrest A/G, Atlanta, GA           |    0 |    1 |
+| 5   | Herminston A/G, Herminston, OR          |    0 |    1 |
+| 5   | First A/G, Lonaconing, MD               |    0 |    1 |
+| 5   | East Gary A/G, East Gary, IN            |    0 |    1 |
 
+\* Won in playoff.
 
 ### Individuals
 

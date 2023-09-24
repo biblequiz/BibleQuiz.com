@@ -27,7 +27,7 @@ The top scorer at the 1984 National Finals was John Wootton of Byesville, OH. Jo
 ### Teams
 
 {% include notification.html
-   message="Due to the format of this national finals, it is impossible to assign a place to each team. New Orleans was first, Byesville was second Springfield was third and Ypsilanti was fourth. The rest of the teams cannot be ranked."
+   message="Due to the format of this national finals, it is impossible to assign a place to each team. New Orleans was first, Byesville was second Springfield was third and Ypsilanti was fourth. There was a playoff for first place. The rest of the teams cannot be ranked."
    icon="fas fa-info-circle"
    status="is-success" %}
 

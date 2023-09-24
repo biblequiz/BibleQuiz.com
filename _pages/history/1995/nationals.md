@@ -54,7 +54,7 @@ This was the only the second national championship for the Northeast region. The
 |   19 | Park Crest A/G, Springfield, MO               | 3 / 16 |  1470 |  77.37 |  -1180 |     -62.11 |
 |   20 | Christian Faith Center, Nampa, ID             | 2 / 17 |  1070 |  56.32 |  -2080 |    -109.47 |
 
-\* Won 2nd Place Playoff
+\* Won 2nd Place Playoff\
 \*\* Won 3rd Place Playoff
 
 ### Individuals
