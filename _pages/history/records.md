@@ -647,13 +647,13 @@ Since 2006's change to 5 for a quiz out, this statistic is slightly skewed. Jon 
 
 ### Siblings in the Top 10
 
-| Year | Quizzers                                       | Church                                   |
-| ---: | ---------------------------------------------- | ---------------------------------------- |
-| 2011 | Daniel Wagner (3rd)<br />Jesse Wagner (4th)    | Owasso First A/G, Owasso, OK             |
-| 2010 | Daniel Wagner (4th)<br />Jesse Wagner (5th)    | Owasso First A/G, Owasso, OK             |
-| 2009 | Brandon Duffy (4th)<br />Jenna-Jo Duffy (10th) | Cedar Park Church, Bothell, WA           |
-| 2008 | Joshua Wagner (5th)<br />Jesse Wagner (7th)    | Owasso First A/G, Owasso, OK             |
-| 2007 | Brandon Duffy (2nd)<br />Jenna-Jo Duffy (6th)  | Cedar Park Church, Bothell, WA           |
-| 2005 | Brandon Duffy (2nd)<br />Jenna-Jo Duffy (10th) | Cedar Park Church, Bothell, WA           |
-| 1992 | Bryan Wootton (3rd)<br />Lisa Wootton (4th)    | First A/G, Bartlesville, OK              |
-| 1989 | Chris Aou (5th)<br />Mel Aou (10th)            | Calvary Christian Center, Buena Park, CA |
+| Year | Quizzers                          | Placements    | Church                                   |
+| ---: | --------------------------------- | ------------- | ---------------------------------------- |
+| 2011 | Daniel Wagner<br />Jesse Wagner   | 3rd<br />4th  | Owasso First A/G, Owasso, OK             |
+| 2010 | Daniel Wagner<br />Jesse Wagner   | 4th<br />5th  | Owasso First A/G, Owasso, OK             |
+| 2009 | Brandon Duffy<br />Jenna-Jo Duffy | 4th<br />10th | Cedar Park Church, Bothell, WA           |
+| 2008 | Joshua Wagner<br />Jesse Wagner   | 5th<br />7th  | Owasso First A/G, Owasso, OK             |
+| 2007 | Brandon Duffy<br />Jenna-Jo Duffy | 2nd<br />6th  | Cedar Park Church, Bothell, WA           |
+| 2005 | Brandon Duffy<br />Jenna-Jo Duffy | 2nd<br />10th | Cedar Park Church, Bothell, WA           |
+| 1992 | Bryan Wootton<br />Lisa Wootton   | 3rd<br />4th  | First A/G, Bartlesville, OK              |
+| 1989 | Chris Aou<br />Mel Aou            | 5th<br />10th | Calvary Christian Center, Buena Park, CA |

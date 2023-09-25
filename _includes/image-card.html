@@ -1,6 +1,6 @@
-<div class="card">{% if include.link %}
+<div class="card mt-5">{% if include.link %}
     <div class="card-image">
-        <figure class="image">
+        <figure{% unless include.excludeImageClass %} class="image"{% endunless %}>
             <img src="{{ include.link | absolute_url }}" alt="{{ include.alt }}">
         </figure>
     </div>{% endif %}
