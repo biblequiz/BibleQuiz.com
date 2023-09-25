@@ -13,6 +13,7 @@ jbq:
 - id: fecab638-419c-45f9-0f57-08dbb09b83f3
   season: 2024
   registrationDates: Closes Sep 28, 2023
+  isLive: true
   isVisible: true
   name: NW–JBQ Qualifier (2023)
   scope: district
@@ -23,6 +24,7 @@ jbq:
 - id: 242d7b85-6872-41b6-9a9b-08db94f0949e
   season: 2024
   registrationDates: Closed
+  isLive: true
   isVisible: true
   name: Georgia District 2023/2024 JBQ Season
   scope: district
@@ -120,6 +122,7 @@ tbq:
 - id: d98bc842-e907-457f-3dc6-08db8164d66e
   season: 2024
   registrationDates: Closes Sep 25, 2023
+  isLive: true
   isVisible: true
   name: 'Peninsular Florida TBQ 2023-2024, League #1'
   scope: region
@@ -137,6 +140,15 @@ tbq:
   locationName: YpsiAG
   locationCity: Ypsilanti, MI
   dates: Oct 7, 2023
+- id: 2ac28dc5-3618-45ba-0f58-08dbb09b83f3
+  season: 2024
+  registrationDates: Closes Oct 2, 2023
+  isVisible: true
+  name: Southern Missouri District Teen Bible Quiz 2023-24 Season
+  scope: district
+  scopeLabel: Southern Missouri
+  locationName: Various Churches in  Southern Missouri District
+  dates: Oct 7 - Feb 3, 2024
 - id: fe5394a8-1ca4-4455-075a-08db92de8fd7
   season: 2024
   registrationDates: Closes Sep 27, 2023
