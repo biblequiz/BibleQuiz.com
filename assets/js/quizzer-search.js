@@ -1,5 +1,3 @@
-import allPages from '/pages.json' assert {type: 'json'};
-import allQuizzers from '/quizzers.json' assert {type: 'json'};
 import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.esm.js'
 
 // Pre-process the quizzers.
@@ -50,6 +48,9 @@ function getSeasonHtml(urls) {
     return { events: eventCount, html: html };
 }
 
+const allPages = await (await fetch('/pages.json')).json();
+const allQuizzers = await (await fetch('/quizzers.json')).json();
+
 const indexedQuizzers = {};
 for (let i = 0; i < allQuizzers.length; i++) {
     const quizzer = allQuizzers[i];
@@ -98,6 +99,7 @@ for (let i = 0; i < allQuizzers.length; i++) {
 
 // Capture the controls.
 const searchBox = document.getElementById('search-input');
+const searchButton = document.getElementById("search-button");
 const listTabs = document.getElementById("list-tabs");
 const resultsTableBody = document.getElementById('results-table-body');
 
@@ -201,7 +203,7 @@ function updateSearchResult() {
     }
     else {
         const cell = document.createElement("td");
-        cell.colSpan = 2;
+        cell.colSpan = 3;
         cell.style.textAlign = "center";
         cell.innerHTML = "<i>No matching Quizzers can be found.</i>";
 
@@ -284,6 +286,7 @@ function showQuizzerScores(quizzer) {
 
 // Update the event handlers.
 searchBox.onchange = updateSearchResult;
+searchButton.onclick = updateSearchResult;
 searchBox.onkeyup = e => {
     if (e.keyCode === 13 || e.keyCode === 10) {
         updateSearchResult();

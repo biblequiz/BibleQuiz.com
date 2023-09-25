@@ -15,7 +15,7 @@ permalink: /quizzers/
             </span>
         </div>
         <div class="control">
-            <a class="button is-info">
+            <a id="search-button" class="button is-info">
                 Search
             </a>
         </div>
@@ -82,7 +82,11 @@ permalink: /quizzers/
                         <th>Season</th>
                     </tr>
                 </thead>
-                <tbody id="scores-modal-table-body" />
+                <tbody id="scores-modal-table-body">
+                    <tr>
+                        <td colspan="3"><i class="fas fa-spinner"></i> Loading Quizzers ...</td>
+                    </tr>
+                </tbody>
             </table>
         </section>
         <footer class="modal-card-foot" style="text-align:right">
