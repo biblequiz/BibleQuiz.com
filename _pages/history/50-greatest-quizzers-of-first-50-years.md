@@ -26,7 +26,7 @@ The ultimate purpose of this list is to recognize the rich history and tradition
 
 {% capture image_url %}{% link assets/50greatest/DavidBaird.jpg %}{% endcapture %}
 {% capture image_html %}
-## David Baird
+## Baird, David
 
 David Baird quizzed for Ebony A/G in Ebony, Virginia from 1972 to 1976 and quizzed three years at national finals. In [1973]({% link _pages/history/1973/nationals.md %}), he led his team to a national championship over the Gospel of John. Two years later, David was the top scorer at national finals in [1975]({% link _pages/history/1975/nationals.md %}). His final year at nationals, [1976]({% link _pages/history/1976/nationals.md %}), he placed what is believed to be 2nd high scorer in one of the most competitive national finals of the 1970's. Competitors remember David as an impressive quizzer who never let up, going toe-to-toe against every top scorer. His consistent dominance at the quiz table was unwavering from 1973 through 1976. He was often high scorer at tournaments, and everyone knew a game against his team, regardless of the level of competition, was going to be hard fought. In an era when only one team from each region moved on to national finals, there is broad agreement that the years David's team placed 2nd at regionals left one of the best teams in the country out of the running for the championship.
 
@@ -39,7 +39,7 @@ David continued to be involved with Bible Quiz for years, both as an official an
 
 {% capture image_url %}{% link assets/50greatest/JoeyBohanon.jpg %}{% endcapture %}
 {% capture image_html %}
-## Joey Bohanon
+## Bohanon, Joey
 
 Joey Bohanon quizzed for the legendary Central A/G program from 1994-2000. He competed at Nationals five times, finishing as high as 4th in scoring his senior year. In [1995]({% link _pages/history/1995/nationals.md %}), Joey was a part-time starter on the team with Karl Dawson, Todd Katter, and Shaun Lotter. That team finished 6th in the challenging first year of NIV quizzing over the Gospel of John.
 
@@ -60,7 +60,7 @@ Today, Joey serves as a popular question writer and quizmaster, as well as carry
 
 {% capture image_url %}{% link assets/50greatest/KariBrodin.jpg %}{% endcapture %}
 {% capture image_html %}
-## Kari Brodin
+## Brodin, Kari
 
 For those who knew Kari during her years as a quizzer, no one will be surprised to hear that now, as back then, she embodied the ideals of Bible Quiz. As great a competitor as she was at the quiz table, with what was proved to be unbeatable poise, she made sure to be first to make new friends, encourage younger quizzers, and practice in word and deed what she studied. In [1980]({% link _pages/history/1980/nationals.md %}) she was asked by the District Youth Director to quote the book of Romans at District Youth Convention, which she did perfectly and with both passion and meaning, bringing the verses to life in front of an awed crowd. The subsequent interest in the program from youth pastors who had attended the convention led to more than doubling the number of teams in the Northwest District.
 
@@ -75,7 +75,7 @@ Following graduation, Kari wrote for national finals in 1986 over I & II Corinth
 
 {% capture image_url %}{% link assets/50greatest/PeterBrown.jpg %}{% endcapture %}
 {% capture image_html %}
-## Peter Brown
+## Brown, Peter
 
 Peter was known by everyone in quiz for his quiet demeanor, friendly smile, and voracious desire to study and live out God's word.
 
@@ -94,7 +94,7 @@ Peter later graduated from Grove City College and now lives in Arizona. He is cu
 
 {% capture image_url %}{% link assets/50greatest/JaredBurkhalter.jpg %}{% endcapture %}
 {% capture image_html %}
-## Jared Burkhalter
+## Burkhalter, Jared
 
 Jared Burkhalter quizzed from 2003 to 2009 for Faith A/G in Orlando, Florida. His first year, in [2004]({% link _pages/history/2004/nationals.md %}) he was a substitute and only scored averaged 10 points per game. His team placed 7th that year. The following year, [2005]({% link _pages/history/2005/nationals.md %}), he was the top scorer on his team, averaging 53.95 points per game. His team placed 12th. He average 53.16 points per game in [2006]({% link _pages/history/2006/nationals.md %}) while his team placed 17th. The next three years both he and his team experienced major success. In [2007]({% link _pages/history/2007/nationals.md %}), he led the individual field, averaging 105.53, 17 points per game above the next quizzer. His team placed 6th. In [2008]({% link _pages/history/2008/nationals.md %}) he placed 2nd with a 106.32 point average, only 70 points behind the top scorer. His team ended up 4th. Finally, in [2009]({% link _pages/history/2009/nationals.md %}), he retook the individual title averaging 115.79 points per game and his team finished third.
 
@@ -105,7 +105,7 @@ As a younger quizzer, Jared was constantly trying to make himself a better quizz
 
 {% capture image_url %}{% link assets/50greatest/JoyDaigle.jpg %}{% endcapture %}
 {% capture image_html %}
-## Joy Daigle
+## Daigle, Joy
 
 Joy Daigle quizzed for Syracuse, NY in the mid-1990s. Her first trip to Nationals came in [1993]({% link _pages/history/1993/nationals.md %}) over the notoriously difficult Gospel of Luke. Her team finished 18th, and she placed 13th in scoring, all of which was a prelude to a fantastic Nationals career.
 
@@ -122,7 +122,7 @@ Joy Daigle's impressive four-year run as a Nationals quizzer demonstrated excell
 
 {% capture image_url %}{% link assets/50greatest/SeanDavis.jpg %}{% endcapture %}
 {% capture image_html %}
-## Sean Davis
+## Davis, Sean
 
 Sean quizzed four years at National Finals, [1981]({% link _pages/history/1981/nationals.md %}), [1983]({% link _pages/history/1983/nationals.md %}), [1984]({% link _pages/history/1984/nationals.md %}) and [1985]({% link _pages/history/1985/nationals.md %}) for Renton A/G in Renton, WA, missing only in 1982, when only one team moved on from both district and regional finals. One of his coaches remembers him as a "complete quizzer", one who had come up through the ranks and learned the game at every level, which gave him the ability to be as dominate on 10's as on 20's and 30's. More importantly, he was known as a quizzer who hungered more for the understanding of scripture than for the game itself.
 
@@ -141,7 +141,7 @@ Following graduation Sean remained active in Bible Quiz as an official, question
 
 {% capture image_url %}{% link assets/50greatest/KarlDawson.jpg %}{% endcapture %}
 {% capture image_html %}
-## Karl Dawson
+## Dawson, Karl
 
 Karl Dawson quizzed from 1990 to 1996 for Central A/G in Springfield, Missouri. After one year in B-league, Karl burst onto the national scene with a vengeance in [1992]({% link _pages/history/1992/nationals.md %}), placing 6th at national finals as an eighth grader, something nearly unheard-of in its day due to the inconsistency in question style, which often made the questions harder to complete than the answers.
 
@@ -158,7 +158,7 @@ Since graduation, Karl has been involved with quiz as a coach, question writer, 
 
 {% capture image_url %}{% link assets/50greatest/DavidDorey.jpg %}{% endcapture %}
 {% capture image_html %}
-## David Dorey
+## Dorey, David
 
 Without any discussion, David's name was picked by all of the people who worked on this list as an automatic entry into the top 50. Looking at his record it is easy to see why. David quizzed six consecutive years at national finals ([1999]({% link _pages/history/1999/nationals.md %}), [2000]({% link _pages/history/2000/nationals.md %}), [2001]({% link _pages/history/2001/nationals.md %}), [2002]({% link _pages/history/2002/nationals.md %}), [2003]({% link _pages/history/2003/nationals.md %}), and [2004]({% link _pages/history/2004/nationals.md %})) and amassed the following records:
 
@@ -183,7 +183,7 @@ Since graduation, David has been active in Bible Quiz through officiating and co
 
 {% capture image_url %}{% link assets/50greatest/BrandonDuffy.jpg %}{% endcapture %}
 {% capture image_html %}
-## Brandon Duffy
+## Duffy, Brandon
 
 Brandon Duffy quizzed from 2003 to 2009 and has one of the most impressive resumes around when it comes to doing well at nationals. He started his nationals career in [2004]({% link _pages/history/2004/nationals.md %}), quizzing for Calvary Chapel in Seattle, WA for coach Kari Brodin, a quizzing great in her own right.
 
@@ -209,7 +209,7 @@ While Jenna certainly never shied away from concordance questions, she was more 
 
 {% capture image_url %}{% link assets/50greatest/PaulFreitag.jpg %}{% endcapture %}
 {% capture image_html %}
-## Paul Freitag
+## Freitag, Paul
 
 Paul Freitag quizzed in the early 1980s for Bethel A/G, in Minneapolis, Minnesota. He holds the distinction of getting the first perfect match at national finals in regulation play (we believe one might have been achieved in a playoff earlier). This happened the first match of national finals in [1982]({% link _pages/history/1982/nationals.md %}). Paul followed this up with a 150 and 140. In the end, he finished in third, only 60 points behind top scorer Ken Henderson, but still breaking 100 points per game. His team finished tied for third. Paul returned the next year [1983]({% link _pages/history/1983/nationals.md %}) and repeated his third place finish with an average of 80.71 points per game. His team finished fourth.
 
@@ -222,7 +222,7 @@ Today, Paul is Vice-President for Advancement at North Central University.
 
 {% capture image_url %}{% link assets/50greatest/JonGalliers.jpg %}{% endcapture %}
 {% capture image_html %}
-## Jon Galliers
+## Galliers, Jon
 
 Jon Galliers quizzed for First A/G, Lexington, KY from 2002 to 2006, with four appearances at national finals. Only starting quizzing as a 9th grader, Jon took to the game like a natural placing fourth place in the championship division his first year, [2003]({% link _pages/history/2003/nationals.md %}) with an average of 84.21 points per game. While his team placed 10th that year, the next three years were extremely successful for both Jon and his team. In [2004]({% link _pages/history/2004/nationals.md %}), Lexington won second place in a tense playoff match against Spring City, PA. Jon placed second, averaging 98.68 points per game. In [2005]({% link _pages/history/2005/nationals.md %}), they tied for first place, losing to Bothell in a playoff match. Jon led the scoring field with an average of 97.89 points per game. Finally, in [2006]({% link _pages/history/2006/nationals.md %}), his team placed fourth while Jon became the fifth recorded person in history to win back-to-back scoring titles. In addition, 2006 was the first year modern year in which five questions were required for a quiz-out instead of six, and Jon became the first person to quiz out every round of national finals at least since expansion.
 
@@ -235,7 +235,7 @@ Following quiz, Jon attended Eastern Kentucky University. In 2008, he married Be
 
 {% capture image_url %}{% link assets/50greatest/MarkGilmer.jpg %}{% endcapture %}
 {% capture image_html %}
-## Mark Gilmer
+## Gilmer, Mark
 
 Mark Gilmer quizzed from 1974 to 1981 for Evangel Temple in Decatur, GA. These were the days when only one team from each region competed at nationals. Mark's team competed at nationals in all of those years except 1974, 1977 and 1980.
 
@@ -250,7 +250,7 @@ Following his quizzing years, Mark coached 12 teams at national finals from 1984
 
 {% capture image_url %}{% link assets/50greatest/RickyHaney.jpg %}{% endcapture %}
 {% capture image_html %}
-## Ricky Haney
+## Haney, Ricky
 
 Ricky Haney quizzed for Orange Hills A/G, Orange, CA from 1995-2002, starting in 6th grade and memorizing 15 books of the New Testament. Known to most of his competitors at the quiz table for his calm consistency, he was known during times of fellowship as a baseball fan and easy-going, all-around jokester. In an interview with his first coach, he was described jovially as the "thorn in my flesh, the messenger of Satan to torment me" and "the quizzer whom I had to drag through the book of Acts kicking and screaming". On a more serious note, his coach remembers him as the "team's needed jolt of humor and strength in what were many highly competitive situations throughout the years".
 
@@ -269,7 +269,7 @@ Since graudation, Ricky completed a degree in education from Louisiana State Uni
 
 {% capture image_url %}{% link assets/50greatest/TeriHayward.jpg %}{% endcapture %}
 {% capture image_html %}
-## Teri Hayward
+## Hayward, Teri
 
 Teri Hayward quizzed for First A/G in Tempe, AZ from 1984 to 1987. The only year we have her individual stats is [1986]({% link _pages/history/1986/nationals.md %}), where she placed 11th and averaged 64.33 points per game. That year was also the first year of the individual tournament, then played as a double-elimination one-on-one, and she was the first winner. In [1985]({% link _pages/history/1985/nationals.md %}), following the Final Four playoffs, her team placed 2nd, barely losing a playoff to Ypsilanti, MI on the last question. The following two years, in [1986]({% link _pages/history/1986/nationals.md %}) and [1987]({% link _pages/history/1987/nationals.md %}), they were back-to-back champions, going 12-3, then 14-2. These were also the first two years in which a 16-team round robin was played (with one extra team in 1987 due to a technicality).
 
@@ -280,7 +280,7 @@ The Tempe program was part of the superior run of the Southwest Region in the 80
 
 {% capture image_url %}{% link assets/50greatest/KenHenderson.jpg %}{% endcapture %}
 {% capture image_html %}
-## Ken Henderson
+## Henderson, Ken
 
 Ken Henderson quizzed at nationals in 1981 and 1982 for First A/G in Tecumseh, Oklahoma. Ken led his team through one of the most dramatic "worst to first" turnaround transformations in Bible Quiz history. After losing every single one of their matches and placing last at the [1981]({% link _pages/history/1981/nationals.md %}) National Finals, his team returned one year later to win the [1982]({% link _pages/history/1982/nationals.md %}) Nationals in dramatic fashion, on the final question of the final round. Coming into that final round in 1982, Ken's team from Tecumseh, Oklahoma was tied for first place with the team from Decatur, Georgia with identical 5-1 records. They faced each other in the last round, and in a very tight game in which the lead changed hands numerous times, the match came down to the 20th question. Decatur was leading, 120 to 105, with a single 20 point question left, and thus whomever took the final question would win the match and the national championship. In addition, although they did not know it at that moment, the captains of both teams (Ken, and Rhett Laurens from Decatur) were tied for top scorer with 760 points each, and thus the captain who took the last question would not only win a national championship for his team, but he would also win the individual top scorer award. Ken, who had been quizzing "in the zone" throughout the match, interrupted the question at a very early, seemingly impossible place, but he completed it without any hesitation and was correct. It was a quiz-out question, and thus the 20 points plus the 10-point bonus made Tecumseh the national champions over Decatur by a score of 135 to 120, and it also made Ken Henderson the top scorer over Rhett Laurens by a total points score of 790 to 760.
 
@@ -291,7 +291,7 @@ Ken went on to a highly successful career in the technology profession, becoming
 
 {% capture image_url %}{% link assets/50greatest/JodiHeugel.jpg %}{% endcapture %}
 {% capture image_html %}
-## Jodi Heugel
+## Heugel, Jodi
 
 Jodi Heugel quizzed for Aurora, Colorado in the mid-1970s. She went to nationals once, in 1977. Her team was first place and she was also the top scorer. While we have typically restricted our top 50 list to quizzers with more than one nationals appearance, quizzers in the "eight team" days get a little leeway in this regard. Making nationals was an amazing achievement by itself. Not only was only one team from each region allowed to compete at nationals, but only one team from each district was allowed to compete at regionals. As such, many truly great teams never got a chance to even compete at nationals. The first Bible Quiz newsletter, ever, featured a bio of Jodi's team following national finals. It may be read here.
 
@@ -302,7 +302,7 @@ Jodi currently lives in Colorado Springs, CO. Her daughters, Josie, Jordan and J
 
 {% capture image_url %}{% link assets/50greatest/MarcaeJohnson.jpg %}{% endcapture %}
 {% capture image_html %}
-## Marcae Johnson
+## Johnson, Marcae
 
 If the modern era of Bible Quiz began in 1986, Marcae was its first All-Star. In her three appearances, she finished 5th in scoring in [1986]({% link _pages/history/1986/nationals.md %}), 3rd in [1987]({% link _pages/history/1987/nationals.md %}), and 1st in [1988]({% link _pages/history/1988/nationals.md %}). Perhaps her most famous achievement was claiming both the high point quizzer and Individual Tournament titles in her senior year. This was all the more impressive considering that Marcae graduated from High School at 16 years of age.
 
@@ -317,7 +317,7 @@ Today, Marcae Johnson Robertson and her husband, along with two daughters, are A
 
 {% capture image_url %}{% link assets/50greatest/RhettLaurens.jpg %}{% endcapture %}
 {% capture image_html %}
-## Rhett Laurens
+## Laurens, Rhett
 
 Rhett Laurens quizzed for Evangel Temple in Decatur, Georgia from 1975 to 1982 and was likely the best quizzer of the eight-team era, having many impressive accomplishments. Rhett's first year at nationals was in [1976]({% link _pages/history/1976/nationals.md %}), quizzing on a team with other top 50 member Mark Gilmer and winning the national championship. Rhett returned in [1978]({% link _pages/history/1978/nationals.md %}), and his team won national finals again, this time undefeated and three wins over the second place team. In [1979]({% link _pages/history/1979/nationals.md %}), his team placed third and he was top scorer with a 109 point average. In 1981, his team placed fourth and he was fourth high scorer. His final year, [1982]({% link _pages/history/1982/nationals.md %}), his team placed second and he was second high scorer with an average of 108.57 points per game. This national finals featured the first two perfect games in the history of national finals (a perfect game being 160 at the time), accomplished first by Paul Freitag and followed closely by Rhett. Rhett placed in the top 6 four times, a feat that has only rarely been duplicated since.
 
@@ -330,7 +330,7 @@ Rhett is currently a licensed attorney, earning his JD from Harvard Law School a
 
 {% capture image_url %}{% link assets/50greatest/ScottLaurens.jpg %}{% endcapture %}
 {% capture image_html %}
-## Scott Laurens
+## Laurens, Scott
 
 Scott Laurens only quizzed at nationals one year, but what makes this entry unique was that it was the first year national finals was held, [1963]({% link _pages/history/1963/nationals.md %}).
 
@@ -343,7 +343,7 @@ Scott was captain of the first team to win national finals, from Bouldercrest A/
 
 {% capture image_url %}{% link assets/50greatest/JosephLeija.jpg %}{% endcapture %}
 {% capture image_html %}
-## Joseph Leija
+## Leija, Joseph
 
 For three consecutive years Joseph Leija led the team from First Assembly of God, New Orleans, LA to National Finals including two consecutive victories in [1983]({% link _pages/history/1983/nationals.md %}) and [1984]({% link _pages/history/1984/nationals.md %}) and a strong showing in [1985]({% link _pages/history/1985/nationals.md %}). Calm confidence would be an apt description of Joseph as he exuded this demeanor throughout his quizzing years. He was never too high nor too low and was a consistent gentleman in victory and defeat. In 1985, after winning twice in a row, New Orleans was still a strong team due to his presence and they were gracious to everyone as they passed their crown. The New Orleans teams were quite balanced as all persons could score, but Joseph was a clear leader during those years as he placed in the top 10 scorers at National Finals (2nd, 4th and 10th in 1983, 1984 and 1985, respectively). The team traveled in its own bus of sorts, and had Bible Quiz as part of their schooling, but being a champion in all facets of life was a part of Joseph's DNA. He was and remains a servant of God, helping others with the knowledge and wisdom he gained as part of the Bible Quiz community.
 {% endcapture %}
@@ -352,7 +352,7 @@ For three consecutive years Joseph Leija led the team from First Assembly of God
 
 {% capture image_url %}{% link assets/50greatest/ValerieMarchalonis.jpg %}{% endcapture %}
 {% capture image_html %}
-## Valerie Marchalonis
+## Marchalonis, Valerie
 
 Valerie Marchalonis quizzed from 1996 to 2000 for Mountain View A/G in Las Vegas, Nevada. Her first year at nationals was in [1997]({% link _pages/history/1997/nationals.md %}). where she placed 8th individually. The next three years, not only did she improve personally, but her team improved considerably. At the [1998]({% link _pages/history/1998/nationals.md %}) finals, she was 3rd high scorer while her team placed 5th. In [1999]({% link _pages/history/1999/nationals.md %}), she was 2nd high scorer and her team tied for 4th. Finally, in [2000]({% link _pages/history/2000/nationals.md %}), she placed 3rd and led her team to a national championship.
 
@@ -367,7 +367,7 @@ Following graduation, Valerie earned her B.A. from Biola University, and a M.A. 
 
 {% capture image_url %}{% link assets/50greatest/DanMarlow.jpg %}{% endcapture %}
 {% capture image_html %}
-## Dan Marlow
+## Marlow, Dan
 
 Dan Marlow quizzed from 1995 to 2001 and while he only appeared at national finals twice, he was extremely successful both years. In [2000]({% link _pages/history/2000/nationals.md %}) he was top scorer among a very dense field of good quizzers, including several others on the top 50 list. He averaged 107.89 points per game and quizzed for Adat Yeshua Messianic Center in Overland Park, Kansas. Dan had only one other teammate that year, yet they managed to place 8th with a record of 11-8. The following year, [2001]({% link _pages/history/2001/nationals.md %}), Dan quizzed for Topeka, Kansas. That year, Dan was 2nd high scorer, averaging 105.79 points per game. His team also finished 2nd following a playoff match against Tulsa, Oklahoma. Dan also finished second in the individual competition, the final match of which may be seen here.
 
@@ -380,7 +380,7 @@ Since graduation, Dan earned degrees in accounting and finance and serves as con
 
 {% capture image_url %}{% link assets/50greatest/BryanMartindale.jpg %}{% endcapture %}
 {% capture image_html %}
-## Bryan Martindale
+## Martindale, Bryan
 
 Bryan quizzed for Citrus Heights A/G, Citrus Heights, California and made three appearances at national finals from 1988 to 1990. He was a confident and dominant quizzer who often had an intuitive sense of when a "tricky" question was being read, which kept him from making too many mistakes. Bryan was respected by his competitors for his drive, completion skills, mastery of the material, and his ability to pull out the tough rounds. For the three years he quizzed at national finals, no team took Citrus Heights for granted. In [1988]({% link _pages/history/1988/nationals.md %}) his team finished 9th while Bryan was 4th high scorer with 77 points per game. The next year, in [1989]({% link _pages/history/1989/nationals.md %}), Citrus Heights won national finals with a 13-2 record. Brian was also 2nd high scorer, and won what was then an all day long one-on-one competition, with the final being played in front of thousands of spectators from both Bible Quiz and Teen Talent (now Fine Arts Festival) at the celebration service. Brian returned in [1990]({% link _pages/history/1990/nationals.md %}) where both he and his team placed 5th.
 
@@ -391,7 +391,7 @@ Although the questions in 1988 and 1990 were difficult, the 1989 questions made 
 
 {% capture image_url %}{% link assets/50greatest/BillyMuniz.jpg %}{% endcapture %}
 {% capture image_html %}
-## Billy Muniz
+## Muniz, Billy
 
 Billy Muniz quizzed for Calvary Temple A/G in Riverside, California in the late 70s and early 80s and led his team to three straight second place finishes. In 1978, his team found themselves in a three-way playoff with Pasadena, MD and Bastrop, LA for second place an, which they won on the last question. The also finished second the next year, in 1979. The following year, 1980 they were the odds on favorite going into nationals. After the round robin, four teams were tied at 5-2 and Riverside once again ended up second after a the four-way playoff, losing to Bigelow, AR. Coach JoAnn Collins recalled, years later, that the fact that Riverside, a team of all boys, insisted on having lunch with Bigelow, a team of all girls, just before the playoff, might have had something do with the loss! The only year we know Billy's individual placement is 1980, where he was top scorer, averaging 84.29 points per game.
 
@@ -406,7 +406,7 @@ Today, Billy is the assistant warden at a correctional institution in California
 
 {% capture image_url %}{% link assets/50greatest/MollyPace.jpg %}{% endcapture %}
 {% capture image_html %}
-## Molly Pace
+## Pace, Molly
 
 Molly pace quizzed from 2000 to 2006, and during that time amassed three national championships, more than anyone at that time but her former captain, David Dorey. This was done in [2001]({% link _pages/history/2001/nationals.md %}) as a sub, in [2004]({% link _pages/history/2004/nationals.md %}) as a consummate 10-point quizzer and third chair who went on to place 3rd in the individual competition, and finally in [2006]({% link _pages/history/2006/nationals.md %}) as 6th high scorer, first chair, and team captain.
 
@@ -421,7 +421,7 @@ Molly has seemingly always been in ministry as a Sunday School teacher and nurse
 
 {% capture image_url %}{% link assets/50greatest/KentPiacenti.jpg %}{% endcapture %}
 {% capture image_html %}
-## Kent Piacenti
+## Piacenti, Kent
 
 It's time to forget opinions, drop personal preferences, do away with niceties, and face the cold, hard facts - Kent Piacenti, by provable, statistical record, was the greatest quizzer ever to play the game. Like him, dislike him, or fear him at the quiz table (which most did), he was a quizzing machine. He was the perfect nexus of competitive drive, natural talent, unwavering poise, and unending dedication. It was never enough to win. Kent was built to dominate and set records, and he thrived in the perfection of his craft. Watching him quiz was a thing of beauty that few will ever forget.
 
@@ -436,7 +436,7 @@ Since graduation from BQ, Kent has pursued degrees in music and law, being named
 
 {% capture image_url %}{% link assets/50greatest/JasonPicker.jpg %}{% endcapture %}
 {% capture image_html %}
-## Jason Picker
+## Picker, Jason
 
 Jason Picker quizzed three times at National Finals ([1985]({% link _pages/history/1985/nationals.md %}), [1987]({% link _pages/history/1987/nationals.md %}), and [1988]({% link _pages/history/1988/nationals.md %})) for the team from Eastside A/G, Tucson, Arizona. In the region, as well as across the nation, he was known as much for his poise and consistency under pressure as he was for his sportsman-like conduct and friendly, endearing manner. Make no mistake, Jason was a fierce competitor every time he took his place at the quiz table, but he also knew that the competition was to be left at the table when the game had ended, and was usually the first to approach the other team to offer his congratulations or consolations.
 
@@ -453,7 +453,7 @@ Jason lives with his family in Idaho and works for Microsoft. He remembers his y
 
 {% capture image_url %}{% link assets/50greatest/BlakePorter.jpg %}{% endcapture %}
 {% capture image_html %}
-## Blake Porter
+## Porter, Blake
 
 Blake Porter quizzed for James River Assembly in Ozark, MO from 2004-2009, and made five straight Nationals appearances with four 3rd-place team finishes. This remarkable run included three top-10 individual scoring finishes. In [2008]({% link _pages/history/2008/nationals.md %}), he won the Individual Tournament.
 
@@ -468,7 +468,7 @@ Blake's fierce determination and notable consistency earn him a spot among the a
 
 {% capture image_url %}{% link assets/50greatest/MattReed.jpg %}{% endcapture %}
 {% capture image_html %}
-## Matt Reed
+## Reed, Matt
 
 Matt Reed quizzed for St. Clair Shores, MI in the mid-1990s. In [1994]({% link _pages/history/1994/nationals.md %}), this team burst unexpectedly onto the Nationals stage, capturing the title seemingly out of the blue. Matt was a junior this season, and finished 4th in individual scoring.
 
@@ -481,7 +481,7 @@ Though his Nationals career was brief, his results were meteoric, proving himsel
 
 {% capture image_url %}{% link assets/50greatest/KevinRevell.jpg %}{% endcapture %}
 {% capture image_html %}
-## Kevin Revell
+## Revell, Kevin
 
 Kevin Revell was the third member of the famed Lakeland, FL team of the early 90s. The oldest of the boys, Kevin's senior campaign ended in [1990]({% link _pages/history/1990/nationals.md %}) with their first title over James and Romans.
 
@@ -498,7 +498,7 @@ Today, Kevin resides in Kentucky and works at Murray State University. He comple
 
 {% capture image_url %}{% link assets/50greatest/JeremyRodriguez.jpg %}{% endcapture %}
 {% capture image_html %}
-## Jeremy Rodriguez
+## Rodriguez, Jeremy
 
 Jeremy Rodriguez quizzed from 1988 to 1993 at Life Center in Lakewood, CA, making two very unexpected yet successful trips to National Finals, and his performance as a second-chair quizzer in [1993]({% link _pages/history/1993/nationals.md %}) was integral to the success of his team's National Championship. He is one of only a small handful of 2nd chair quizzers to be honored in this Top 50 project due to his memorable performances.
 
@@ -515,7 +515,7 @@ Since graduation, Jeremy completed his B.A. from California State University, an
 
 {% capture image_url %}{% link assets/50greatest/AbbyRogers.jpg %}{% endcapture %}
 {% capture image_html %}
-## Abby Rogers
+## Rogers, Abby
 
 Abby Rogers is one of a very small number of current quizzers to make the list, and in looking at her brief but impressive resume', it's not difficult to see why. As a sixth-grade student in [2009]({% link _pages/history/2009/nationals.md %}), Abby stormed onto the Bible Quiz stage, finishing as the 3rd high scorer at Nationals. In that same year, she was also still participating in JBQ, where she finished as the high scorer at those Nationals.
 
@@ -530,7 +530,7 @@ Abby has four more years of quizzing ahead of her, and already she has become on
 
 {% capture image_url %}{% link assets/50greatest/JordanSchneider.jpg %}{% endcapture %}
 {% capture image_html %}
-## Jordan Schneider
+## Schneider, Jordan
 
 Jordan Schneider quizzed from 1995 to 2001 in Colorado Springs, CO, first at Radiant Church then at the Church at Briargate (a church-plant of Radiant), quizzing all six years at national finals. In [1996]({% link _pages/history/1996/nationals.md %}), she placed 20th with an average of 55 points per game, getting a rare perfect game at nationals as a 7th grader. In [1997]({% link _pages/history/1997/nationals.md %}), she placed 15th with 60.87 points per game. She then placed top 6 the next four years: 4th in [1998]({% link _pages/history/1998/nationals.md %}) (83.04), 6th in [1999]({% link _pages/history/1999/nationals.md %}) (73.48), 3rd in [2000]({% link _pages/history/2000/nationals.md %}) (98.42) and 5th in [2001]({% link _pages/history/2001/nationals.md %}) (85.26). She also won the individual competition in 2000 and the Curtis Scholarship in 2001. From 1999 to 2001, her team also posted high finishes, earning 5th in 1999, 2nd in 2000 and winning national finals in 2001. Jordan also is the daughter of Jodi Heugel, top scorer and championship team member from 1977.
 
@@ -574,7 +574,7 @@ Following graduation, Jordan continued to be involved with Bible Quiz for many y
 
 {% capture image_url %}{% link assets/50greatest/DanSlater.jpg %}{% endcapture %}
 {% capture image_html %}
-## Dan Slater
+## Slater, Dan
 
 Daniel Slater quizzed in Michigan, qualifying for Nationals three times, 1994-96. His first National Finals, [1994]({% link _pages/history/1994/nationals.md %}), as a sophomore, was his most successful. He was part of the St. Clair Shores team that seemed to come out of nowhere to win the title, upsetting several more established Nationals contenders. Daniel finished 9th in scoring, his first of three top-twelve finishes.
 
@@ -591,7 +591,7 @@ Today, Daniel lives with his wife and three children in Tennessee, and serves on
 
 {% capture image_url %}{% link assets/50greatest/GarrettSmiley.jpg %}{% endcapture %}
 {% capture image_html %}
-## Garrett Smiley
+## Smiley, Garrett
 
 Garrett Smiley quizzed for Carpenter's Home Church in Lakeland, Florida from 1988 to 1991, and quizzed at three national finals. Garrett's first year at nationals was in [1988]({% link _pages/history/1988/nationals.md %}) when his church was the first to send two teams to national finals, which could not have happened before the expansion to 16 teams in 1984. He finished 25th and his team placed 8th. Garrett returned to national finals in [1990]({% link _pages/history/1990/nationals.md %}) and [1991]({% link _pages/history/1991/nationals.md %}), together with hall-of-famer Joshua Weber, and led his team to back-to-back national championships. These back-to-back wins tied his team, at the time, with only three other churches who had accomplished this feat. Garrett placed 4th individually both of these years, averaging 71.67 and 89.00 points per game, respectively. His last year he also led the quiz-out forward race with 11 quiz-outs in 15 rounds, a record at that time. He was a take-charge quizzer who deftly helped his team to pull out difficult wins even after games had begun badly. This steely focus allowed them put together consecutive championships at a time when question completion was the most difficult part of the game.
 
@@ -602,7 +602,7 @@ In addition to his quizzing, Garrett was known by everyone to be a flashy and dr
 
 {% capture image_url %}{% link assets/50greatest/DanSmith.jpg %}{% endcapture %}
 {% capture image_html %}
-## Dan Smith
+## Smith, Dan
 
 "Dan the Man." It was a moniker given by his teammates when they saw how quickly he took to the varied elements of quizzing, and one oft repeated by his friends and competitors for his consistently amazing Bible Quiz performances. What most did not know was that Dan was "the man", but not for the reasons outlined above. Dan, as a freshman in 1989, came to Bible Quiz for one reason alone - he had an insatiable desire to know, understand, and apply scripture to his everyday life. What made Dan a great young man of God was this yearning for true knowledge. What made Dan a great quizzer was the fact he understood that mastering the game, which required mastering the material, would provide the drive to reach his ultimate goal - being "a workman that needeth not to be ashamed, rightly dividing the word of truth." Dan was lighthearted and easygoing, even in the most tense situations. He also endeared himself to his teammates by always putting team unity and performance way above individual achievements.
 
@@ -623,7 +623,7 @@ Since graduating college Dan has never stopped studying God's word, and can stil
 
 {% capture image_url %}{% link assets/50greatest/SteveSorenson.jpg %}{% endcapture %}
 {% capture image_html %}
-## Steve Sorenson
+## Sorenson, Steve
 
 Steve quizzed for Calvary Full Gospel A/G, Inglewood, California in an era that hardly resembles the quizzing of today. Quizzers wore mittens on their hands and raised them when they wanted to answer, along with the use of a quiz board, which was a long plank of wood with lights that were supposed to help officials whose job was to do nothing more than watch which hand went up first, since the "boards" were not always accurate. Questions styles were drastically different, and completing an interrupted question was often much more difficult than giving the answer. Consider the fact that teams would show up for a three game national sudden-death final after having heard fewer than 20 sets ever from the official writer over a book the size of Mark. Not to mention that the final championship round was played in front of thousands of spectators at General Council. To get an idea of what it might have been like, follow [this link]({% link _pages/history/1965/nationals.md %}).
 
@@ -636,7 +636,7 @@ After graduation, Steve continued to be involved in Southern California Bible Qu
 
 {% capture image_url %}{% link assets/50greatest/DarynTrout.jpg %}{% endcapture %}
 {% capture image_html %}
-## Daryn Trout
+## Trout, Daryn
 
 Daryn Trout quizzed for Allison Park, PA in the 1990s, and he holds a few important distinctions. Daryn is one of two of the first quizzers in history to compete at National Finals for six consecutive years. He (along with Rochelle Cathcart from Park Crest A/G in Springfield, MO) made his first trip to Nationals in 1990 as a 7th grader. This was unusual, because in those days, Nationals teams generally reserved their roster spots for older, more experienced quizzers. With only 16 teams competing out of more than 1200 nationwide, qualifying for Nationals was extremely difficult and usually required significant experience. So a 7th grade quizzer was highly unusual.
 
@@ -657,7 +657,7 @@ Today, Daryn lives in Maryland and is a distinguished police officer.
 
 {% capture image_url %}{% link assets/50greatest/DanielWagner.jpg %}{% endcapture %}
 {% capture image_html %}
-## Daniel Wagner
+## Wagner, Daniel
 
 Very few current quizzers have made this list, but it certainly would be incomplete without the inclusion of Daniel Wagner. Daniel has quizzed since 2006 with Owasso First A/G in Owasso, OK, and has one of the most impressive list of achievements of any quizzer in the past 50 years, not to mention one of the most determined faces ever to sit at the quiz table. If you officiate a game for his team, there is no question in your mind that Daniel is there not only to play, but to win. This should not be shocking to anyone who knows how much work he puts into his preparation for competition. A great attribute of Daniel's is his ability to be all business at the quiz table, and immediately after the game to shake hands and make friends. He is ferociousness in game play is pleasantly balanced by his friendly nature and infectious smile.
 
@@ -670,7 +670,7 @@ What many may not know is that Daniel is one of the brightest examples of puttin
 
 {% capture image_url %}{% link assets/50greatest/JesseWagner.jpg %}{% endcapture %}
 {% capture image_html %}
-## Jesse Wagner
+## Wagner, Jesse
 
 Jesse Wagner quizzed from 2006 to 2011 for Owasso First A/G in Owasso, OK. At his first National Finals, in [2007]({% link _pages/history/2007/nationals.md %}) Jesse placed 26th, but followed this with three top ten finishes for individual score in the next four years ([2008]({% link _pages/history/2008/nationals.md %}), [2009]({% link _pages/history/2009/nationals.md %}), [2010]({% link _pages/history/2010/nationals.md %}) and [2011]({% link _pages/history/2011/nationals.md %})) and three National Championships with his brothers. Jesse has never been the high scorer on his team, but his consistently amazing performance as third and second chair has made Owasso's outstanding accomplishments possible, and he is one of only a small handful of second chair quizzers to make the Top 50, which is quite an impressive feat. Jesse may often seem less intense at the quiz table than either Josh or Daniel, but don't let his easy going manner fool you, his commitment to God and studying his word have been proven time and again in his team and individual placement.
 
@@ -685,7 +685,7 @@ His future plans include finishing his college degree and moving forward in the 
 
 {% capture image_url %}{% link assets/50greatest/JoshuaWagner.jpg %}{% endcapture %}
 {% capture image_html %}
-## Joshua Wagner
+## Wagner, Joshua
 
 Josh quizzed at National Finals from in [2007]({% link _pages/history/2007/nationals.md %}), [2008]({% link _pages/history/2008/nationals.md %}) and [2009]({% link _pages/history/2009/nationals.md %}) in the early years of what would become one of the best teams in the history of Bible Quiz. Along with his two brothers, Jesse and Daniel, his team became only the fourth since the 1984 expansion to win an undefeated national title. What many may not know is that the Wagner family are Canadian citizens, which also made the 2008 championship the first by legal aliens.
 
@@ -704,7 +704,7 @@ Throughout high school, Josh's in-depth knowledge of scripture was a constant so
 
 {% capture image_url %}{% link assets/50greatest/JoshuaWeber.jpg %}{% endcapture %}
 {% capture image_html %}
-## Joshua Weber
+## Weber, Joshua
 
 Joshua Weber was part of the famous Lakeland, FL teams of the early 1990s. In [1990]({% link _pages/history/1990/nationals.md %}) and [1991]({% link _pages/history/1991/nationals.md %}), Lakeland won back-to-back National Championships over James & Romans and Acts. Joshua was a starter on both of those teams. In 1991, he was the runner-up in the Individual Tournament. In [1992]({% link _pages/history/1992/nationals.md %}), he was back at Nationals, winning the scoring title. These years were among the most competitive in Bible Quiz history, and some of the most legendary quizzers competed in that era. Joshua proved his mettle by pulling off an outstanding three-year run against some of the most difficult teams ever assembled.
 
@@ -717,7 +717,7 @@ Over Joshua's three National Finals appearances, he won two Championships and a 
 
 {% capture image_url %}{% link assets/50greatest/LindaWhorton.jpg %}{% endcapture %}
 {% capture image_html %}
-## Linda Whorton
+## Whorton, Linda
 
 Linda Whorton quizzed for Centreville A/G in Centreville, Virginia in the early 1970s. She is the first person to win back-to-back scoring titles since top scorers were announced starting in 1968. Northern Virginia quizzing was very strong in these days, with Centreville, then Ebony sending teams every year from 1968 to 1973. Linda's first year as top scorer was in 1970. Her team's placement is unknown. In [1971]({% link _pages/history/1971/nationals.md %}), Linda repeated as top scorer and her team was second, fighting it out with New Orleans in a playoff match. Linda was kind enough to provide us with scoresheets for all of these matches and it is easy to see that she was a phenomenal quizzer, posting scores well over 100 nearly every match. George Edgerly describes Centreville as the "first great interrupting team and among the first to deliberately interrupt". Linda's memory is still sharp as a tack. When asked if she still remembered details of her years as a quizzer, Linda replied "Your question made me laugh. There is NO way I could ever forget the games the year we had the playoff for the book of Matthew...sometimes I wish I could forget!"
 
@@ -728,7 +728,7 @@ Linda Whorton Winstead currently works at the Potomac district office and speaks
 
 {% capture image_url %}{% link assets/50greatest/BryanWootton.jpg %}{% endcapture %}
 {% capture image_html %}
-## Bryan Wootton
+## Wootton, Bryan
 
 Bryan Wootton quizzed from 1987 to 1993 for First A/G, Bartlesville, OK. His first year, in [1988]({% link _pages/history/1988/nationals.md %}), he placed 18th and average 39.67 points per game and his team finished 7th. In [1990]({% link _pages/history/1990/nationals.md %}), his team finished 6th. We have limited individual data from that year and do not know how he finished. In [1991]({% link _pages/history/1991/nationals.md %}) he placed 21st and average 51.33 points per game and his team finished 6th. In [1992]({% link _pages/history/1992/nationals.md %}), he finished third, with an unknown average (just above his sister, and hall-of-famer, Lisa) and his team placed third. In [1993]({% link _pages/history/1993/nationals.md %}), he placed 6th with an average of 72.11 and his team placed 2nd, with an impressive 17-2 record. In fact, his team was the only team to beat the national champions from Lakewood that year.
 
@@ -739,7 +739,7 @@ Bryan is a great example of the perfect team player. His skill set was designed 
 
 {% capture image_url %}{% link assets/50greatest/JohnWootton.jpg %}{% endcapture %}
 {% capture image_html %}
-## John Wootton
+## Wootton, John
 
 John Wootton quizzed in [1983]({% link _pages/history/1983/nationals.md %}) and [1984]({% link _pages/history/1984/nationals.md %}) for Byesville, OH. The last two of those years, his team competed at national finals. In both years they faced off against First A/G, New Orleans, LA in playoffs, coming in second each time.
 
@@ -752,7 +752,7 @@ In his prime, John was known for being a quizzer who was very steady in big matc
 
 {% capture image_url %}{% link assets/50greatest/LisaWootton.jpg %}{% endcapture %}
 {% capture image_html %}
-## Lisa Wootton
+## Wootton, Lisa
 
 For the Woottons, quizzing was a family thing. It began with Lisa's parents, Sue and Harold, who served as coaches and built a top-flight program that qualified for Nationals all but one year from 1987 to 1995. Bartlesville finished in the top six teams at Nationals in each of Lisa's five appearances.
 
@@ -765,7 +765,7 @@ Today, Lisa Wootton Ramsey lives in Springfield, MO with her family where her hu
 
 {% capture image_url %}{% link assets/50greatest/SharonWorkman.jpg %}{% endcapture %}
 {% capture image_html %}
-## Sharon Workman
+## Workman, Sharon
 
 Sharon Workman quizzed for Full Gospel Chapel in Denver, Colorado in [1966]({% link _pages/history/1966/nationals.md %}) and [1967]({% link _pages/history/1967/nationals.md %}). Most of the details of these years have been lost to history. We do know that they were the first two years in which national finals was played as an eight-team round robin, as opposed to a single-elimination tournament. Top scorers were not announced until 1968, so by convention she is listed as the top scorer these years because she was captain of the championship team. In these days, teams had very little information about the other teams before arriving at nationals. Invitational tournaments were still years away. George Edgerly recalls that Sharon led her team to the first back-to-back national championships ever, and that certainly merits inclusion in the list.
 {% endcapture %}
@@ -774,7 +774,7 @@ Sharon Workman quizzed for Full Gospel Chapel in Denver, Colorado in [1966]({% l
 
 {% capture image_url %}{% link assets/50greatest/RonnieWright.jpg %}{% endcapture %}
 {% capture image_html %}
-## Ronnie Wright
+## Wright, Ronnie
 
 Ronnie Wright quizzed for Evangel Temple in Decatur, Georgia from 1974 to 1978. His first year at nationals, in [1975]({% link _pages/history/1975/nationals.md %}), they placed sixth. However in both [1976]({% link _pages/history/1976/nationals.md %}) and [1978]({% link _pages/history/1978/nationals.md %}) they won the national championship. In [1978]({% link _pages/history/1978/nationals.md %}), Ronnie was also the top scorer. (We don't have complete individual data from the other two years).
 
