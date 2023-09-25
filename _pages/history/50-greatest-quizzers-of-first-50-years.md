@@ -6,106 +6,56 @@ date: "2023-09-20"
 menubar: menu_history
 toc: true
 quizzerIndex:
-- lastName: Baird
-  firstName: David
-- lastName: Bohanon
-  firstName: Joey
-- lastName: Brodin
-  firstName: Kari
-- lastName: Brown
-  firstName: Peter
-- lastName: Burkhalter
-  firstName: Jared
-- lastName: Daigle
-  firstName: Joy
-- lastName: Davis
-  firstName: Sean
-- lastName: Dawson
-  firstName: Karl
-- lastName: Dorey
-  firstName: David
-- lastName: Duffy
-  firstName: Brandon
-- lastName: Duffy
-  firstName: Jenna
-- lastName: Freitag
-  firstName: Paul
-- lastName: Galliers
-  firstName: Jon
-- lastName: Gilmer
-  firstName: Mark
-- lastName: Haney
-  firstName: Ricky
-- lastName: Hayward
-  firstName: Teri
-- lastName: Henderson
-  firstName: Ken
-- lastName: Heugel
-  firstName: Jodi
-- lastName: Johnson
-  firstName: Marcae
-- lastName: Laurens
-  firstName: Rhett
-- lastName: Laurens
-  firstName: Scott
-- lastName: Leija
-  firstName: Joseph
-- lastName: Marchalonis
-  firstName: Valerie
-- lastName: Marlow
-  firstName: Dan
-- lastName: Martindale
-  firstName: Bryan
-- lastName: Muniz
-  firstName: Billy
-- lastName: Pace
-  firstName: Molly
-- lastName: Piacenti
-  firstName: Kent
-- lastName: Picker
-  firstName: Jason
-- lastName: Porter
-  firstName: Blake
-- lastName: Reed
-  firstName: Matt
-- lastName: Revell
-  firstName: Kevin
-- lastName: Rodriguez
-  firstName: Jeremy
-- lastName: Rogers
-  firstName: Abby
-- lastName: Schneider
-  firstName: Jordan
-- lastName: Slater
-  firstName: Dan
-- lastName: Smiley
-  firstName: Garrett
-- lastName: Smith
-  firstName: Dan
-- lastName: Sorenson
-  firstName: Steve
-- lastName: Trout
-  firstName: Daryn
-- lastName: Wagner
-  firstName: Daniel
-- lastName: Wagner
-  firstName: Jesse
-- lastName: Wagner
-  firstName: Joshua
-- lastName: Weber
-  firstName: Joshua
-- lastName: Whorton
-  firstName: Linda
-- lastName: Wootton
-  firstName: Bryan
-- lastName: Wootton
-  firstName: John
-- lastName: Wootton
-  firstName: Lisa
-- lastName: Workman
-  firstName: Sharon
-- lastName: Wright
-  firstName: Ronnie
+- name: David Baird
+- name: Joey Bohanon
+- name: Kari Brodin
+- name: Peter Brown
+- name: Jared Burkhalter
+- name: Joy Daigle
+- name: Sean Davis
+- name: Karl Dawson
+- name: David Dorey
+- name: Brandon Duffy
+- name: Jenna-Jo Duffy
+- name: Paul Freitag
+- name: Jon Galliers
+- name: Mark Gilmer
+- name: Ricky Haney
+- name: Teri Hayward
+- name: Ken Henderson
+- name: Jodi Heugel
+- name: Marcae Johnson
+- name: Rhett Laurens
+- name: Scott Laurens
+- name: Joseph Leija
+- name: Valerie Marchalonis
+- name: Dan Marlow
+- name: Bryan Martindale
+- name: Billy Muniz
+- name: Molly Pace
+- name: Kent Piacenti
+- name: Jason Picker
+- name: Blake Porter
+- name: Matt Reed
+- name: Kevin Revell
+- name: Jeremy Rodriguez
+- name: Abby Rogers
+- name: Jordan Schneider
+- name: Dan Slater
+- name: Garrett Smiley
+- name: Dan Smith
+- name: Steve Sorenson
+- name: Daryn Trout
+- name: Daniel Wagner
+- name: Jesse Wagner
+- name: Joshua Wagner
+- name: Joshua Weber
+- name: Linda Whorton
+- name: Bryan Wootton
+- name: John Wootton
+- name: Lisa Wootton
+- name: Sharon Workman
+- name: Ronnie Wright
 ---
 
 ![]({% link assets/images/50_greatest_banner.png %})
