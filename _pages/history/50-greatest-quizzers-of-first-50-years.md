@@ -35,7 +35,7 @@ Quizzing has changed a lot since those days: question styles were very different
 Scott was captain of the first team to win national finals, from Bouldercrest A/G in Atlanta, GA. This church would change names several times over the next 50 years, and would send many teams to nationals, winning again in [1976]({% link _pages/history/1976/nationals.md %}) and [1978]({% link _pages/history/1978/nationals.md %}). Nationals that first year only consisted of three matches, played in tournament format, so it is difficult to name a top scorer, though Scott is usually credited with this honor. Scott was known as a strong team leader who could be relied on to quiz well under pressure, and he was a gracious and humble quizzing champion. Multiple other members of the Laurens family also quizzed at nationals including Scott's brother Rusty, who was also on that first national championship team, his brother Rhett, who will be featured in a future bio, and Scott's son Rob, who competed at national finals as both a quizzer and a coach, and who founded this website. You can read Scott's memories of [1963 national finals here]({% link _pages/history/1963/memories/scott-laurens.md %}).
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Scott Laurens" html=image_html %}
+{% include image-card.html link=image_url alt="Scott Laurens" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/MarkGilmer.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -50,7 +50,7 @@ Mark was one of the most consistent and reliable quizzers of his generation; in 
 Following his quizzing years, Mark coached 12 teams at national finals from 1984 to 2010. Mark passed away on July 21, 2010 shortly after taking his team to nationals one last time.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Mark Gilmer" html=image_html %}
+{% include image-card.html link=image_url alt="Mark Gilmer" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JohnWootton.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -63,7 +63,7 @@ The format of nationals in 1984 included a Final Four, although it was a differe
 In his prime, John was known for being a quizzer who was very steady in big matches; he shouldered the responsibility for carrying his team and he was under constant pressure to perform well in every quiz. He was fast on the buzzer, knew the material inside and out, and despite being a top-notch quizzer was a very humble young man. John graduated from Evangel University in 1988 (writing official questions that year as well) and currently serves as A/G district superintendent of Ohio.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="John Wootton" html=image_html %}
+{% include image-card.html link=image_url alt="John Wootton" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/MarcaeJohnson.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -78,7 +78,7 @@ After Marcae's impressive performance at the '88 Finals, it took almost a decade
 Today, Marcae Johnson Robertson and her husband, along with two daughters, are Assemblies of God World Missionaries. Her life has been dedicated to studying God's Word and leading others to do the same.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Marcae Johnson" html=image_html %}
+{% include image-card.html link=image_url alt="Marcae Johnson" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JoshuaWeber.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -91,7 +91,7 @@ The Lakeland team was known for its brash style and competitive spirit. Teammate
 Over Joshua's three National Finals appearances, he won two Championships and a scoring title. He takes his place among the greatest quizzers because of his talent, skill, style, and diligence. Today, Joshua lives in the Tampa, FL area with his wife and children where he coaches Bible Quiz. In 2010, his team won the National Championship.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Joshua Weber" html=image_html %}
+{% include image-card.html link=image_url alt="Joshua Weber" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/LisaWootton.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -104,7 +104,7 @@ Individually, Lisa was one of the top scorers in history. She was 5th in [1991](
 Today, Lisa Wootton Ramsey lives in Springfield, MO with her family where her husband is a doctor.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Lisa Wootton" html=image_html %}
+{% include image-card.html link=image_url alt="Lisa Wootton" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/KentPiacenti.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -119,7 +119,7 @@ Winning everything at National Finals in 1998 was never good enough for Kent; he
 Since graduation from BQ, Kent has pursued degrees in music and law, being named editor-in-chief of the Law Review at University of Virginia School of Law, obtaining a clerkship with a Federal Appeals Court Judge in Portland, and accepting a position with one of the top law firms in Texas.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Kent Piacenti" html=image_html %}
+{% include image-card.html link=image_url alt="Kent Piacenti" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/BlakePorter.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -134,7 +134,7 @@ In his 2008 Individual Tournament win, he had to mount a fierce comeback in the 
 Blake's fierce determination and notable consistency earn him a spot among the all-time greats. Today, Blake is studying accounting at Evangel.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Blake Porter" html=image_html %}
+{% include image-card.html link=image_url alt="Blake Porter" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/BrandonDuffy.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -149,7 +149,7 @@ Brandon had a fantastic individual career as well, placing in the top 6 in the c
 Brandon will graduate in May 2012 from Northwest University with majors in biology and environmental science.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Brandon Duffy" html=image_html %}
+{% include image-card.html link=image_url alt="Brandon Duffy" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/AbbyRogers.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -164,7 +164,7 @@ Abby followed up her unprecedented 2010 with another scoring title in [2011]({% 
 Abby has four more years of quizzing ahead of her, and already she has become one of the greatest quizzers of all time. Today, she is a Freshman in High School and is continuing to dazzle Bible Quiz audiences everywhere she goes.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Abby Rogers" html=image_html %}
+{% include image-card.html link=image_url alt="Abby Rogers" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/SteveSorenson.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -177,7 +177,7 @@ Steve quizzed for Calvary Full Gospel A/G, Inglewood, California in an era that 
 After graduation, Steve continued to be involved in Southern California Bible Quiz for many years, serving as an official and district coordinator. He also wrote the official questions in 1978 over I & II Corinthians.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Steve Sorenson" html=image_html %}
+{% include image-card.html link=image_url alt="Steve Sorenson" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/DavidBaird.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -190,7 +190,7 @@ When he became the national top scorer in 1975, David earned a reputation for hi
 David continued to be involved with Bible Quiz for years, both as an official and official question writer in 1984 and 1985. Following graduation, David married Jo Ann Grizzle, another quizzer from Centreville, VA. He is currently lead pastor of The Life Church in Manassas, VA.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="David Baird" html=image_html %}
+{% include image-card.html link=image_url alt="David Baird" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/RhettLaurens.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -203,7 +203,7 @@ Kari Brodin, said of Rhett, "I was there in '78 and just had my eyes opened to w
 Rhett is currently a licensed attorney, earning his JD from Harvard Law School and practicing law out of the Atlanta area.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Rhett Laurens" html=image_html %}
+{% include image-card.html link=image_url alt="Rhett Laurens" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/KariBrodin.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -218,7 +218,7 @@ Kari was a picture of cool, calm, confidence on the buzzer. Even if you were for
 Following graduation, Kari wrote for national finals in 1986 over I & II Corinthians, and coached Cedar Park A/G, Bothell, Washington at nationals finals from 2005 to 2011, leading them to four consecutive 2nd place finishes (a record), from 2006 to 2009. She earned her B.A. from what was then Northwest College, and went on to earn her Ph.D from Fuller Theological Seminary. She is now a professor at Northwest University, her alma mater.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Kari Brodin" html=image_html %}
+{% include image-card.html link=image_url alt="Kari Brodin" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/BryanMartindale.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -229,7 +229,7 @@ Bryan quizzed for Citrus Heights A/G, Citrus Heights, California and made three 
 Although the questions in 1988 and 1990 were difficult, the 1989 questions made for particularly difficult quizzing all around, with extremely short answers and difficult-to-understand question structure. This made Bryan's consistent accomplishment over this three-year period even more impressive. His adeptness at question completion, and his intuition about the writer's style served him well. Most reread 30's could be answered by anyone on any team who had a serious "in essence" knowledge of the material, and by everyone who had the material memorized. Question sets rarely had more than occasional concordance questions, which were always a short answer, except for the few found in the one-on-one competition. This resulted in lower high scores for the top quizzers who took the chance of interrupting, and often much higher scores for second and third chair quizzers who collected rereads.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Bryan Martindale" html=image_html %}
+{% include image-card.html link=image_url alt="Bryan Martindale" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/GarrettSmiley.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -240,7 +240,7 @@ Garrett Smiley quizzed for Carpenter's Home Church in Lakeland, Florida from 198
 In addition to his quizzing, Garrett was known by everyone to be a flashy and dramatic contestant who had a dominant presence the game. For probably the first time in the history of BQ, there was a top national quizzer who seemed to take his competitive stance more from successful sports figures than the usually timid attitude of most quizzers. He prepared for the competition by pumping himself up, and while conferring he never looked in the scripture portion or rule book, but spoke quite loudly for everyone to hear his thoughts. He certainly had his own special, and often funny, way of doing things; to the delight of other quizzers and stern looks from judges. Many who knew him said he was a "character", and that he brought a more jovial mood to the competition, which some thought was a needed boost to lighten up what were often long and tedious rounds.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Garrett Smiley" html=image_html %}
+{% include image-card.html link=image_url alt="Garrett Smiley" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/KarlDawson.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -257,7 +257,7 @@ Karl was also excellent at performing under pressure, and was a delight to watch
 Since graduation, Karl has been involved with quiz as a coach, question writer, blogger, trainer, and official. He currently works as a freelance editor/writer for Christian publications, and serves as one of the webmasters of this site.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Karl Dawson" html=image_html %}
+{% include image-card.html link=image_url alt="Karl Dawson" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/ValerieMarchalonis.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -272,7 +272,7 @@ Valerie was also one of the pioneers of taking Bible Quiz into the online world.
 Following graduation, Valerie earned her B.A. from Biola University, and a M.A. from the University of North Texas. She currently works in the Las Vegas area.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Valerie Marchalonis" html=image_html %}
+{% include image-card.html link=image_url alt="Valerie Marchalonis" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/DavidDorey.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -297,7 +297,7 @@ In fact, there is hardly a team or individual record that does not have David on
 Since graduation, David has been active in Bible Quiz through officiating and coaching. He says he keeps in close contact with many of his former teammates, considering them to be an extended family. He earned his Bachelor's degree in political science from the University of Colorado at Boulder, as well his Juris Doctorate from the University of Pennsylvania Law School in Philadelphia, where he is an editor of the law review. While in law school, David supervised a legal aid program through the local District Attorney's Office, providing legal help to battered women and children. In Autumn of 2012 he will begin working for one of the top litigation firms in Washington, D.C.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="David Dorey" html=image_html %}
+{% include image-card.html link=image_url alt="David Dorey" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/DanielWagner.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -310,7 +310,7 @@ Owasso's first year at National Finals, [2007]({% link _pages/history/2007/natio
 What many may not know is that Daniel is one of the brightest examples of putting God's word into godly deeds. His father is a world-renowned Evangelist, and Daniel has not only spoken at crusades to crowds of thousands under his father's direction, but has headed up and been the main speaker to youth conventions in various non-Christian countries around the world. These crusades are often attended by more than 10,000 teens, many of whom come to know Christ through the words God speaks through him. Daniel's wealth of scriptural knowledge has been the perfect preparation for ministry. He says he has been called by God to a lifetime of evangelistic work, and he has eagerly answered that call, excitedly jumping into ministry as a teenage Missionary/Evangelist. His current plans are to attend Oral Roberts University after high school to earn his bachelor's degree, followed by full-time ministry.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Daniel Wagner" html=image_html %}
+{% include image-card.html link=image_url alt="Daniel Wagner" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/RonnieWright.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -323,7 +323,7 @@ His former teammate, Rhett Laurens, said of him, "Ron (or Ronnie as he was known
 Ronnie went on to a very successful academic career, eventually graduating from Yale Law School. He is currently a Professor of Law at Wake Forest School of Law in North Carolina.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Ronnie Wright" html=image_html %}
+{% include image-card.html link=image_url alt="Ronnie Wright" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/TeriHayward.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -334,7 +334,7 @@ Teri Hayward quizzed for First A/G in Tempe, AZ from 1984 to 1987. The only year
 The Tempe program was part of the superior run of the Southwest Region in the 80s. Teri was the leader of one of the top teams of that run, and her quizzing was key to her team's victory. A pioneer of one-on-one quizzing, she blazed a trail that all the top quizzers follow, seeking similar glory. Teri Hayward earned her spot among the 50 greatest quizzers.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Teri Hayward" html=image_html %}
+{% include image-card.html link=image_url alt="Teri Hayward" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/BryanWootton.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -345,7 +345,7 @@ Bryan Wootton quizzed from 1987 to 1993 for First A/G, Bartlesville, OK. His fir
 Bryan is a great example of the perfect team player. His skill set was designed to specifically complement the talented quizzers around him (whom he was also related to). Bryan was a very quick hitter, and often he set the pace in games. He was less concerned with his average points per game, and far more concerned with making certain his team won. The Woottons are, by and large, a competitive family, and Bryan made Bartlesville a contender. He also overcame some issues with stuttering, proving that such difficulties do not have to hold a quizzer back from being among the best. Anyone who quizzed against Bartlesville knew that they had to contend with Bryan if they wanted to win.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Bryan Wootton" html=image_html %}
+{% include image-card.html link=image_url alt="Bryan Wootton" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JeremyRodriguez.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -362,7 +362,7 @@ His captain said of him: "Jeremy won Nationals for us. He was amazing and came t
 Since graduation, Jeremy completed his B.A. from California State University, and is active in both his church and various local charities. He regularly quizmasters in Southern California and has trained his parents to become BQ coaches.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Jeremy Rodriguez" html=image_html %}
+{% include image-card.html link=image_url alt="Jeremy Rodriguez" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JordanSchneider.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -374,39 +374,39 @@ Throughout her career, and especially in 2000 and 2001, Jordan was a formidable 
 
 The following year featured one of the most exciting matches at national finals ever. Following round 17, Briargate was in first place with three losses. Four teams, Topeka, Tulsa, Lebanon and King's Chapel from Springfield, MO were tied with four losses and Briargate had to face King's Chapel. The rest of the story, we leave to King's Chapel's captain, Richard Fair:
 
-    I was there. I really was. It is the only time, and probably the last time I will ever see a single question last at least 30 minutes due to contesting (without any appeals to the coordinator). Here's what was tricky. Briargate was up by 5 points with 2 questions left 19 for 20 points and 20 for 10 points. Number 19 was a Scripture Text Question, Give A Complete Answer From 2 consecutive verses. From Luke Chapter 6. Jordan had 5 right, so even if we got 19, she could get 20 for the quiz-out and win.
+*I was there. I really was. It is the only time, and probably the last time I will ever see a single question last at least 30 minutes due to contesting (without any appeals to the coordinator). Here's what was tricky. Briargate was up by 5 points with 2 questions left 19 for 20 points and 20 for 10 points. Number 19 was a Scripture Text Question, Give A Complete Answer From 2 consecutive verses. From Luke Chapter 6. Jordan had 5 right, so even if we got 19, she could get 20 for the quiz-out and win.*
 
-    **Question 19. What happened when Jesus, quote, "stood on a level place?"**\
-    I interrupted on Jesus and got it wrong. We then knew that it was over. The reread went to Jordan and she got it right. We confer. However, we contest on Jordan's answer. Here is Luke 6:17 and 18:\
-    He went down with them and stood on a level place. A large crowd of his disciples was there and a great number of people from all over Judea, from Jerusalem, and from the coast of Tyre and Sidon who had come to hear him and to be healed of their diseases. Those troubled by evil spirits were cured,
+***Question 19. What happened when Jesus, quote, "stood on a level place?"***\
+*I interrupted on Jesus and got it wrong. We then knew that it was over. The reread went to Jordan and she got it right. We confer. However, we contest on Jordan's answer. Here is Luke 6:17 and 18:*\
+*He went down with them and stood on a level place. A large crowd of his disciples was there and a great number of people from all over Judea, from Jerusalem, and from the coast of Tyre and Sidon who had come to hear him and to be healed of their diseases. Those troubled by evil spirits were cured,*
 
-    In verse 18, Jordan said the word sicknesses rather than diseases. We contest incorrect information due to Luke 7:21:\
-    At that very time Jesus cured many who had diseases, sicknesses and evil spirits, and gave sight to many who were blind.
+*In verse 18, Jordan said the word sicknesses rather than diseases. We contest incorrect information due to Luke 7:21:*\
+*At that very time Jesus cured many who had diseases, sicknesses and evil spirits, and gave sight to many who were blind.*
 
-    It was a brilliant idea to contest; I'd like to say I thought of it, but Eric Hernando did. Our premise was that since:\
-    A: Luke 7:21 lists three different things--especially differentiating between diseases and sicknesses.\
-    B: Luke 6:18 only mentions diseases and not both or just sicknesses\
-    C: sicknesses is incorrect information.
+*It was a brilliant idea to contest; I'd like to say I thought of it, but Eric Hernando did. Our premise was that since:*\
+*A: Luke 7:21 lists three different things--especially differentiating between diseases and sicknesses.*\
+*B: Luke 6:18 only mentions diseases and not both or just sicknesses*\
+*C: sicknesses is incorrect information.*
 
-    Initial vote was cast and split. Doug Black, Lorna Albanese, and George Edgerly discussed and discussed and discussed and discussed the issue. Meanwhile, other teams are looking into our room to see what's happening.
+*Initial vote was cast and split. Doug Black, Lorna Albanese, and George Edgerly discussed and discussed and discussed and discussed the issue. Meanwhile, other teams are looking into our room to see what's happening.*
 
-    We won the contest. Jordan then was counted wrong, given 30 seconds to confer and contests. I can't remember if that contest was a split vote or not, but it took a while on this question. Some team parents were filming this match and the camera went dead after this question.
+*We won the contest. Jordan then was counted wrong, given 30 seconds to confer and contests. I can't remember if that contest was a split vote or not, but it took a while on this question. Some team parents were filming this match and the camera went dead after this question.*
 
-    It is kind of ironic, though, that the match was won on 20 and not 19. When I missed the question, that should've been it. Jordan then hits on Luke 2:fo(u)r... and pulls it out. Here were the possibilities for a 10 point analysis question:
+*It is kind of ironic, though, that the match was won on 20 and not 19. When I missed the question, that should've been it. Jordan then hits on Luke 2:fo(u)r... and pulls it out. Here were the possibilities for a 10 point analysis question:*
 
-    2:4 several individuals and geographical locations\
-    2:14 Glory to God in the highest...no analysis\
-    2:41 Jerusalem\
-    2:43 Jerusalem or Jesus\
-    2:45 Jerusalem\
-    No other analysis in the 40s
+*2:4 several individuals and geographical locations*\
+*2:14 Glory to God in the highest...no analysis*\
+*2:41 Jerusalem*\
+*2:43 Jerusalem or Jesus*\
+*2:45 Jerusalem*\
+*No other analysis in the 40s*
 
-    Obviously 43 would be a bad verse, Jordan decided to pick 41 and was right. I asked her later how she knew 41, and she said that she remembered 45 being asked earlier in the year, so she went for 41. I didn't even remember what I ate for breakfast that day let alone questions asked 6 months earlier. But, I guess it's little things like that that help win Nationals. She quizzed out by the way, and Briargate had sealed up a well-deserved national title.
+*Obviously 43 would be a bad verse, Jordan decided to pick 41 and was right. I asked her later how she knew 41, and she said that she remembered 45 being asked earlier in the year, so she went for 41. I didn't even remember what I ate for breakfast that day let alone questions asked 6 months earlier. But, I guess it's little things like that that help win Nationals. She quizzed out by the way, and Briargate had sealed up a well-deserved national title.*
 
 Following graduation, Jordan continued to be involved with Bible Quiz for many years, including coaching the 2004 national champions from Briargate. She recently graduated from medical school and is currently an OB/GYN resident at the University of Colorado. She and her husband Ben are currently expecting their first child.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Jordan Schneider" html=image_html %}
+{% include image-card.html link=image_url alt="Jordan Schneider" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/DanMarlow.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -419,7 +419,7 @@ To those who quizzed against him, Dan was known as an extremely smart quizzer wh
 Since graduation, Dan earned degrees in accounting and finance and serves as controller for a leading pork processor.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Dan Marlow" html=image_html %}
+{% include image-card.html link=image_url alt="Dan Marlow" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/MollyPace.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -434,7 +434,7 @@ Her ability to see time at the quiz table as an opportunity to do her best, rath
 Molly has seemingly always been in ministry as a Sunday School teacher and nursery leader. She has a servant's heart and the knowledge of God's word upon which to base her ministry. She recently graduated from college and is involved in Library Sciences and as a teacher and presenter at community educational events. She has continued to be involved in Bible Quiz as a coach and official.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Molly Pace" html=image_html %}
+{% include image-card.html link=image_url alt="Molly Pace" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JonGalliers.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -447,7 +447,7 @@ It's been mentioned before that many of the truly great quizzers have a natural 
 Following quiz, Jon attended Eastern Kentucky University. In 2008, he married Bethany Laakkonen, another former quizzer. They have one daughter, Amariah.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Jon Galliers" html=image_html %}
+{% include image-card.html link=image_url alt="Jon Galliers" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JaredBurkhalter.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -458,7 +458,7 @@ Jared Burkhalter quizzed from 2003 to 2009 for Faith A/G in Orlando, Florida. Hi
 As a younger quizzer, Jared was constantly trying to make himself a better quizzer, getting quite frustrated at not being about to break through into the top tier, despite countless hours of studying. Once 2007 hit, he took off like a pro and was nearly untouchable. He had to work very hard to quote clearly when quoting fast, and improved dramatically between 2006 and 2009. His last three years yielded impressive performances at nationals and secured his place on this list.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Jared Burkhalter" html=image_html %}
+{% include image-card.html link=image_url alt="Jared Burkhalter" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JesseWagner.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -473,7 +473,7 @@ What some may not be aware of is that Jesse has already been involved in ministr
 His future plans include finishing his college degree and moving forward in the ministries God sets before him. Regardless of where he goes to minister, he knows the Spirit will encourage and sustain him by the words he has committed to his mind and his heart.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Jesse Wagner" html=image_html %}
+{% include image-card.html link=image_url alt="Jesse Wagner" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/KenHenderson.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -484,7 +484,7 @@ Ken Henderson quizzed at nationals in 1981 and 1982 for First A/G in Tecumseh, O
 Ken went on to a highly successful career in the technology profession, becoming an SQL "guru" and publishing numerous books on the subject. Sadly, he passed away in 2008 and is greatly missed by many.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Ken Henderson" html=image_html %}
+{% include image-card.html link=image_url alt="Ken Henderson" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JosephLeija.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -493,7 +493,7 @@ Ken went on to a highly successful career in the technology profession, becoming
 For three consecutive years Joseph Leija led the team from First Assembly of God, New Orleans, LA to National Finals including two consecutive victories in [1983]({% link _pages/history/1983/nationals.md %}) and [1984]({% link _pages/history/1984/nationals.md %}) and a strong showing in [1985]({% link _pages/history/1985/nationals.md %}). Calm confidence would be an apt description of Joseph as he exuded this demeanor throughout his quizzing years. He was never too high nor too low and was a consistent gentleman in victory and defeat. In 1985, after winning twice in a row, New Orleans was still a strong team due to his presence and they were gracious to everyone as they passed their crown. The New Orleans teams were quite balanced as all persons could score, but Joseph was a clear leader during those years as he placed in the top 10 scorers at National Finals (2nd, 4th and 10th in 1983, 1984 and 1985, respectively). The team traveled in its own bus of sorts, and had Bible Quiz as part of their schooling, but being a champion in all facets of life was a part of Joseph's DNA. He was and remains a servant of God, helping others with the knowledge and wisdom he gained as part of the Bible Quiz community.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Joseph Leija" html=image_html %}
+{% include image-card.html link=image_url alt="Joseph Leija" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JasonPicker.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -510,7 +510,7 @@ In 1988, Jason came back to National Finals as a senior with a mission - a team 
 Jason lives with his family in Idaho and works for Microsoft. He remembers his years in Bible Quiz as an ongoing positive influence in his daily life.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Jason Picker" html=image_html %}
+{% include image-card.html link=image_url alt="Jason Picker" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/KevinRevell.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -527,7 +527,7 @@ The 1990 National Finals brought together the brash group of boys from Lakeland,
 Today, Kevin resides in Kentucky and works at Murray State University. He completed his PhD in Chemistry from the University of South Florida in 2006.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Kevin Revell" html=image_html %}
+{% include image-card.html link=image_url alt="Kevin Revell" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/DanSmith.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -548,7 +548,7 @@ Back then Nationals was held in conjunction with General Council, and big BQ eve
 Since graduating college Dan has never stopped studying God's word, and can still perfectly quote huge portions of what he learned in BQ. Dan worked with a conservative think-tank in Washington, D.C., made a career in real estate, and is now a regional manager for a major energy company. He is happily married to the love of his life, Sheryl, and has five children. He has consistently served as a QM at all levels of BQ since 1993, and is an elder and teacher at his church.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Dan Smith" html=image_html %}
+{% include image-card.html link=image_url alt="Dan Smith" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/MattReed.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -561,7 +561,7 @@ In [1995]({% link _pages/history/1995/nationals.md %}), St. Clair Shores returne
 Though his Nationals career was brief, his results were meteoric, proving himself against some of the other great quizzers that occupy spots on this list. He was a lethal hitter and a smart competitor.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Matt Reed" html=image_html %}
+{% include image-card.html link=image_url alt="Matt Reed" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JoyDaigle.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -578,7 +578,7 @@ In her [1996]({% link _pages/history/1996/nationals.md %}) senior campaign, Joy 
 Joy Daigle's impressive four-year run as a Nationals quizzer demonstrated excellence and tenacity. Joy was feared for her ability to dominate games with difficult 30s and strong hits over tough questions. Her abilities as a quizzer and team leader make her a natural choice for the 50 Greatest Quizzers of the First 50 Years.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Joy Daigle" html=image_html %}
+{% include image-card.html link=image_url alt="Joy Daigle" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JoeyBohanon.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -599,7 +599,7 @@ Joey's skills as a hitter, his fearless approach, and his encyclopedic concordan
 Today, Joey serves as a popular question writer and quizmaster, as well as carrying the load as an administrator of biblequiz.com. He earned a PhD in Mathematics from Washington University in St. Louis, MO, and currently works for the US government.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Joey Bohanon" html=image_html %}
+{% include image-card.html link=image_url alt="Joey Bohanon" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/RickyHaney.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -618,7 +618,7 @@ The beginning of the 2001-2002 season brought a new quizzer to the Orange team, 
 Since graudation, Ricky completed a degree in education from Louisiana State University, and lives in Louisiana with his wife Beth and their beloved animals. He has been involved in quiz over the years as both a coach and an official. Ricky maintained his relationships with his old teammates and coaches, keeping in regular contact through phone, internet, and on various trips together. He has commented often that he doesn't know where he would have ended up without the relationships he forged through quizzing, and that he has found the scripture to be a constant source of positive growth and encouragement, and an ever-present help in making life's decisions, regardless of how small or large.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Ricky Haney" html=image_html %}
+{% include image-card.html link=image_url alt="Ricky Haney" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JennaJoDuffy.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -629,7 +629,7 @@ Jenna-Jo Duffy quizzed for Cedar Park Church in Bothell, Washington from 2004 to
 While Jenna certainly never shied away from concordance questions, she was more at home with the standard "meat and potatoes" questions. Very fast on the buzzer, she could always be counted on for those two or three 20's that can be crucial to a victory. She also had a personality that you couldn't help but like. In 2009, when she qualified for the semi-final match of the individual tournament along with the Daniel, Jesse and Joshua Wagner, the three brothers formed a tight huddle before the match to pray. Completely unfazed, Jenna-Jo muscled her way in to the laughter of the crowd. This spirit of boldness and her many accomplishments earn her a place in the list of top 50 quizzers.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Jenna-Jo Duffy" html=image_html %}
+{% include image-card.html link=image_url alt="Jenna-Jo Duffy" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/SharonWorkman.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -638,7 +638,7 @@ While Jenna certainly never shied away from concordance questions, she was more 
 Sharon Workman quizzed for Full Gospel Chapel in Denver, Colorado in [1966]({% link _pages/history/1966/nationals.md %}) and [1967]({% link _pages/history/1967/nationals.md %}). Most of the details of these years have been lost to history. We do know that they were the first two years in which national finals was played as an eight-team round robin, as opposed to a single-elimination tournament. Top scorers were not announced until 1968, so by convention she is listed as the top scorer these years because she was captain of the championship team. In these days, teams had very little information about the other teams before arriving at nationals. Invitational tournaments were still years away. George Edgerly recalls that Sharon led her team to the first back-to-back national championships ever, and that certainly merits inclusion in the list.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Sharon Workman" html=image_html %}
+{% include image-card.html link=image_url alt="Sharon Workman" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/LindaWhorton.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -649,7 +649,7 @@ Linda Whorton quizzed for Centreville A/G in Centreville, Virginia in the early 
 Linda Whorton Winstead currently works at the Potomac district office and speaks fondly of the effect that Bible Quiz had on her life.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Linda Whorton" html=image_html %}
+{% include image-card.html link=image_url alt="Linda Whorton" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JodiHeugel.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -660,7 +660,7 @@ Jodi Heugel quizzed for Aurora, Colorado in the mid-1970s. She went to nationals
 Jodi currently lives in Colorado Springs, CO. Her daughters, Josie, Jordan and Janelle (pictured above) were all involved in Bible Quiz. Jordan was also a national champion, in 2001.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Jodi Heugel" html=image_html %}
+{% include image-card.html link=image_url alt="Jodi Heugel" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/BillyMuniz.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -675,7 +675,7 @@ National coordinator Terry Carter once said that the Riverside was a model Bible
 Today, Billy is the assistant warden at a correctional institution in California. He has commented that he has an even greater respect for Paul, who wrote many of his epistles from prison.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Billy Muniz" html=image_html %}
+{% include image-card.html link=image_url alt="Billy Muniz" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/PaulFreitag.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -688,7 +688,7 @@ Following graduation, Paul remained involved with quiz, as an official and a que
 Today, Paul is Vice-President for Advancement at North Central University.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Paul Freitag" html=image_html %}
+{% include image-card.html link=image_url alt="Paul Freitag" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/SeanDavis.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -707,7 +707,7 @@ Sean's final competition, and strongest individual performance, was at the 1985 
 Following graduation Sean remained active in Bible Quiz as an official, question writer and coach, always looking for opportunities to give back to the program he loved. He graduated from North Central University, where he and Jerome Tang had coached the Farmington, MN team. Sean wrote the official questions in 1993 and was one of the first to offer consistent, quizzer-friendly questions that were easy to interrupt for those who were extremely well prepared. While the questions were easy to complete, his answers were the first to start raising the bar on long answers and concordance work. Moving back to the Northwest, Sean then coached at Renton A/G for a few years, taking them to Nationals in 1990. Sean is happily married with three children and again lives in the North Central area of the country, where he coaches his own children and serves as a very active lay leader in his church.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Sean Davis" html=image_html %}
+{% include image-card.html link=image_url alt="Sean Davis" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/DarynTrout.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -728,7 +728,7 @@ Daryn's comparatively low individual finishes may raise questions, but they shou
 Today, Daryn lives in Maryland and is a distinguished police officer.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Daryn Trout" html=image_html %}
+{% include image-card.html link=image_url alt="Daryn Trout" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/DanSlater.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -745,7 +745,7 @@ Daniel Slater was a focused, skilled competitor and a first-rate hitter. He hand
 Today, Daniel lives with his wife and three children in Tennessee, and serves on the faculty at Union University.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Dan Slater" html=image_html %}
+{% include image-card.html link=image_url alt="Dan Slater" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/PeterBrown.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -764,7 +764,7 @@ Peter returned to the 2002-2003 season without Ricky, who had graduated, and wit
 Peter later graduated from Grove City College and now lives in Arizona. He is currently contemplating going back to school for a degree in law or political science. In 2004 he consulted on a bestselling book about President Ronald Reagan's personal faith and the impact it had on his leadership.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Peter Brown" html=image_html %}
+{% include image-card.html link=image_url alt="Peter Brown" excludeImageClass=true html=image_html %}
 
 {% capture image_url %}{% link assets/50greatest/JoshuaWagner.jpg %}{% endcapture %}
 {% capture image_html %}
@@ -783,4 +783,4 @@ When Owasso returned to the 2009 finals, they were the odds-on favorite to win b
 Throughout high school, Josh's in-depth knowledge of scripture was a constant source of strength and confidence as he partnered with the Holy Spirit and spoke to groups of thousands at various Christian rallies and conferences around the world, often in nations that are openly hostile to Christianity. To complete his education before entering full-time ministry as an evangelist, Josh currently attends Oral Roberts University on a full-ride scholarship. He was recently married and lives happily with his new family in the Tulsa, OK area.
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
-{% include image-card.html link=image_url alt="Joshua Wagner" html=image_html %}
+{% include image-card.html link=image_url alt="Joshua Wagner" excludeImageClass=true html=image_html %}
