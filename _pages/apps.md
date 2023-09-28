@@ -6,7 +6,7 @@ date: "2023-05-27"
 ---
 
 <div class="columns is-multiline is-centered">
-    <div class="column is-6">
+    <div class="column is-4">
         <div class="icon callout-icon">
             <img src="{% link assets/images/icon-ezscore.png %}" alt="EZScore" />
         </div>
@@ -28,7 +28,7 @@ date: "2023-05-27"
             <li><a href="https://youtu.be/h4KwA00jp80">Closing a Match</a></li>
         </ul>
     </div>
-    <div class="column is-6">
+    <div class="column is-4">
         <div class="icon callout-icon">
             <img src="{% link assets/images/icon-scorekeep.png %}" alt="ScoreKeep" />
         </div>
@@ -48,7 +48,7 @@ date: "2023-05-27"
             <li><a href="https://youtu.be/ur4lzA_SlQY">Add Quizzer to Current Meet</a></li>
         </ul>
     </div>
-    <div class="column is-6">
+    <div class="column is-4">
         <div class="icon callout-icon">
             <img src="{% link assets/images/icon-coachapp.png %}" alt="CoachApp" />
         </div>
