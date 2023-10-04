@@ -6,56 +6,56 @@ date: "2023-09-20"
 menubar: menu_history
 toc: true
 quizzerIndex:
-- quizzer: David Baird
-- quizzer: Joey Bohanon
-- quizzer: Kari Brodin
-- quizzer: Peter Brown
-- quizzer: Jared Burkhalter
-- quizzer: Joy Daigle
-- quizzer: Sean Davis
-- quizzer: Karl Dawson
-- quizzer: David Dorey
-- quizzer: Brandon Duffy
-- quizzer: Jenna-Jo Duffy
-- quizzer: Paul Freitag
-- quizzer: Jon Galliers
-- quizzer: Mark Gilmer
-- quizzer: Ricky Haney
-- quizzer: Teri Hayward
-- quizzer: Ken Henderson
-- quizzer: Jodi Heugel
-- quizzer: Marcae Johnson
-- quizzer: Rhett Laurens
-- quizzer: Scott Laurens
-- quizzer: Joseph Leija
-- quizzer: Valerie Marchalonis
-- quizzer: Dan Marlow
-- quizzer: Bryan Martindale
-- quizzer: Billy Muniz
-- quizzer: Molly Pace
-- quizzer: Kent Piacenti
-- quizzer: Jason Picker
-- quizzer: Blake Porter
-- quizzer: Matt Reed
-- quizzer: Kevin Revell
-- quizzer: Jeremy Rodriguez
-- quizzer: Abby Rogers
-- quizzer: Jordan Schneider
-- quizzer: Dan Slater
-- quizzer: Garrett Smiley
-- quizzer: Dan Smith
-- quizzer: Steve Sorenson
-- quizzer: Daryn Trout
-- quizzer: Daniel Wagner
-- quizzer: Jesse Wagner
-- quizzer: Joshua Wagner
-- quizzer: Joshua Weber
-- quizzer: Linda Whorton
-- quizzer: Bryan Wootton
-- quizzer: John Wootton
-- quizzer: Lisa Wootton
-- quizzer: Sharon Workman
-- quizzer: Ronnie Wright
+- David Baird
+- Joey Bohanon
+- Kari Brodin
+- Peter Brown
+- Jared Burkhalter
+- Joy Daigle
+- Sean Davis
+- Karl Dawson
+- David Dorey
+- Brandon Duffy
+- Jenna-Jo Duffy
+- Paul Freitag
+- Jon Galliers
+- Mark Gilmer
+- Ricky Haney
+- Teri Hayward
+- Ken Henderson
+- Jodi Heugel
+- Marcae Johnson
+- Rhett Laurens
+- Scott Laurens
+- Joseph Leija
+- Valerie Marchalonis
+- Dan Marlow
+- Bryan Martindale
+- Billy Muniz
+- Molly Pace
+- Kent Piacenti
+- Jason Picker
+- Blake Porter
+- Matt Reed
+- Kevin Revell
+- Jeremy Rodriguez
+- Abby Rogers
+- Jordan Schneider
+- Dan Slater
+- Garrett Smiley
+- Dan Smith
+- Steve Sorenson
+- Daryn Trout
+- Daniel Wagner
+- Jesse Wagner
+- Joshua Wagner
+- Joshua Weber
+- Linda Whorton
+- Bryan Wootton
+- John Wootton
+- Lisa Wootton
+- Sharon Workman
+- Ronnie Wright
 ---
 
 ![]({% link assets/images/50_greatest_banner.png %})
