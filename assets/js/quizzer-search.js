@@ -48,8 +48,9 @@ function getSeasonHtml(urls) {
     return { events: eventCount, html: html };
 }
 
-const allPages = await (await fetch('/pages.json')).json();
-const allQuizzers = await (await fetch('/quizzers.json')).json();
+const allQuizzersAndPages = await (await fetch('/quizzerIndex.json')).json();
+const allQuizzers = allQuizzersAndPages.quizzers;
+const allPages = allQuizzersAndPages.pages;
 
 const indexedQuizzers = {};
 for (let i = 0; i < allQuizzers.length; i++) {
@@ -67,14 +68,14 @@ for (let i = 0; i < allQuizzers.length; i++) {
     // Pre-process the seasons.
     let eventCount = 0;
     let seasonHtml = "";
-    if (quizzer.t) {
-        const seasonInfo = getSeasonHtml(quizzer.t);
+    if (quizzer.t && quizzer.t.s) {
+        const seasonInfo = getSeasonHtml(quizzer.t.s);
         seasonHtml = `<i>TBQ:</i> ${seasonInfo.html}`;
         eventCount += seasonInfo.events;
     }
 
-    if (quizzer.j) {
-        const seasonInfo = getSeasonHtml(quizzer.j);
+    if (quizzer.j && quizzer.j.s) {
+        const seasonInfo = getSeasonHtml(quizzer.j.s);
         if (seasonHtml.length > 0) {
             seasonHtml += "<br />";
         }
@@ -214,15 +215,16 @@ function updateSearchResult() {
     }
 }
 
-function addUrlRows(season, type, urlPrefix, urls) {
-    for (let i = 0; i < urls.length; i++) {
+function addUrlRows(season, type, pageIds) {
+    for (let i = 0; i < pageIds.length; i++) {
 
-        const url = urlPrefix + urls[i];
+        const page = allPages[pageIds[i]];
+        const url = page.u;
 
         const pageLink = document.createElement("a");
         pageLink.href = url;
         pageLink.target = "_blank";
-        pageLink.innerText = allPages[url];
+        pageLink.innerText = page.t;
 
         const externalLink = document.createElement("i");
         externalLink.className = "fas fa-external-link-alt";
@@ -266,19 +268,27 @@ function showQuizzerScores(quizzer) {
 
     scoresModalTableBody.innerHTML = "";
     if (quizzer.t) {
-        for (const season in quizzer.t) {
-            addUrlRows(season, "TBQ", `/history/${season}/`, quizzer.t[season]);
+        if (quizzer.t.s) {
+            for (const season in quizzer.t.s) {
+                addUrlRows(season, "TBQ", quizzer.t.s[season]);
+            }
+        }
+
+        if (quizzer.t.n) {
+            addUrlRows(null, "TBQ", quizzer.t.n);
         }
     }
 
     if (quizzer.j) {
-        for (const season in quizzer.j) {
-            addUrlRows(season, "JBQ", `/jbq/${season}/`, quizzer.j[season]);
+        if (quizzer.j.s) {
+            for (const season in quizzer.j.s) {
+                addUrlRows(season, "JBQ", quizzer.j.s[season]);
+            }
         }
-    }
 
-    if (quizzer.o) {
-        addUrlRows(null, "Other", "", quizzer.o);
+        if (quizzer.j.n) {
+            addUrlRows(null, "JBQ", quizzer.j.n);
+        }
     }
 
     scoresModal.classList.add("is-active");
