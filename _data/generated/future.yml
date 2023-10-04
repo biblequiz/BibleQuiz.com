@@ -10,17 +10,6 @@ jbq:
   locationName: Blue Springs Assembly of God
   locationCity: Blue Springs, MO
   dates: Sep 16 - Mar 16, 2024
-- id: fecab638-419c-45f9-0f57-08dbb09b83f3
-  season: 2024
-  registrationDates: Closes Sep 28, 2023
-  isLive: true
-  isVisible: true
-  name: NW–JBQ Qualifier (2023)
-  scope: district
-  scopeLabel: Northwest
-  locationName: Cedar Park Assembly of God
-  locationCity: Bothell, WA
-  dates: Sep 30, 2023
 - id: 242d7b85-6872-41b6-9a9b-08db94f0949e
   season: 2024
   registrationDates: Closed
@@ -34,7 +23,7 @@ jbq:
   dates: Sep 30 - Mar 2, 2024
 - id: 1840a2cc-06b5-4eab-aab7-08dbafd18f81
   season: 2024
-  registrationDates: Closes Sep 30, 2023
+  registrationDates: Closed
   isLive: true
   isVisible: true
   name: North Texas 2023-2024 Team Registration
@@ -44,7 +33,8 @@ jbq:
   dates: Oct 1 - Mar 23, 2024
 - id: 4287651f-4735-4ad0-f027-08db864fd5d2
   season: 2024
-  registrationDates: Closes Sep 30, 2023
+  registrationDates: Closes Oct 4, 2023
+  isLive: true
   isVisible: true
   name: Springfield Section - JBQ 2023-2024 Regular Season
   scope: nation
@@ -52,7 +42,8 @@ jbq:
   dates: Oct 6, 2023
 - id: 8762c4f4-8e0b-4d2d-3edf-08db96dbedbd
   season: 2024
-  registrationDates: Closes Sep 30, 2023
+  registrationDates: Closes Oct 2, 2023
+  isLive: true
   isVisible: true
   name: Oklahoma NE League (Tulsa) 23-24
   scope: district
@@ -69,6 +60,16 @@ jbq:
   scopeLabel: North Carolina
   locationName: Calvary Church
   locationCity: Greensboro, NC
+  dates: Oct 14, 2023
+- id: cf2c44ac-bb48-4152-18d0-08dbc47d4242
+  season: 2024
+  registrationDates: Closes Oct 10, 2023
+  isVisible: true
+  name: October 2023 ND JBQ meet
+  scope: district
+  scopeLabel: North Dakota
+  locationName: Evangel Assembly of God
+  locationCity: Bismarck, ND
   dates: Oct 14, 2023
 - id: 9deb6cbf-3518-4fb6-aab5-08dbafd18f81
   season: 2024
@@ -92,7 +93,7 @@ jbq:
   dates: Oct 14, 2023
 - id: 97d01a27-743e-4916-9920-08db6db4e4af
   season: 2024
-  registrationDates: Closes Oct 1, 2023
+  registrationDates: Closed
   isVisible: true
   name: Pen Florida Junior Bible Quiz League Registration
   scope: district
@@ -119,31 +120,10 @@ jbq:
   locationCity: Bridgewater, NJ
   dates: Jan 1 - Mar 2, 2024
 tbq:
-- id: 56b3d7d0-bb44-446b-ee1a-08dba741e37f
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Dakota Quiz League Meet #1'
-  scope: district
-  scopeLabel: South Dakota
-  locationName: Sioux Falls First Assembly
-  locationCity: Sioux Falls, SD
-  dates: Sep 29 - 30, 2023
-- id: d98bc842-e907-457f-3dc6-08db8164d66e
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Peninsular Florida TBQ 2023-2024, League #1'
-  scope: region
-  scopeLabel: Southeast
-  locationName: Faith Assembly of God
-  locationCity: Orlando, FL
-  dates: Sep 30, 2023
 - id: 9eaaefa7-c60a-46f8-1cac-08db9c64fc8b
   season: 2024
-  registrationDates: Closes Oct 2, 2023
+  registrationDates: Closes Oct 3, 2023
+  isLive: true
   isVisible: true
   name: '2023-2024 MI TBQ League Meet #1'
   scope: district
@@ -153,7 +133,8 @@ tbq:
   dates: Oct 7, 2023
 - id: 2ac28dc5-3618-45ba-0f58-08dbb09b83f3
   season: 2024
-  registrationDates: Closes Oct 2, 2023
+  registrationDates: Closes Oct 5, 2023
+  isLive: true
   isVisible: true
   name: Southern Missouri District Teen Bible Quiz 2023-24 Season
   scope: district
@@ -190,7 +171,7 @@ tbq:
   dates: Oct 21, 2023
 - id: 4a891ed1-97b2-460b-049a-08db9c5fbd00
   season: 2024
-  registrationDates: Closes Oct 1, 2023
+  registrationDates: Closes Oct 15, 2023
   isVisible: true
   name: North Carolina League Meets
   scope: district
