@@ -7,10 +7,10 @@ function getSeasonHtml(urls) {
     let html = "";
     let initialSeason = -1;
     let lastSeason = -1;
-    let eventCount = 0;
+    let pageCount = 0;
     for (let i = 0; i < seasons.length; i++) {
         const season = Number.parseInt(seasons[i]);
-        eventCount += urls[season].length;
+        pageCount += urls[season].length;
 
         if (-1 == initialSeason) {
             initialSeason = season;
@@ -45,7 +45,7 @@ function getSeasonHtml(urls) {
 
     html += remainingRangeHtml;
 
-    return { events: eventCount, html: html };
+    return { pages: pageCount, html: html };
 }
 
 const allQuizzersAndPages = await (await fetch('/quizzerIndex.json')).json();
@@ -66,26 +66,38 @@ for (let i = 0; i < allQuizzers.length; i++) {
     quizzersForLetter.push(quizzer);
 
     // Pre-process the seasons.
-    let eventCount = 0;
+    let pageCount = 0;
     let seasonHtml = "";
-    if (quizzer.t && quizzer.t.s) {
-        const seasonInfo = getSeasonHtml(quizzer.t.s);
-        seasonHtml = `<i>TBQ:</i> ${seasonInfo.html}`;
-        eventCount += seasonInfo.events;
-    }
-
-    if (quizzer.j && quizzer.j.s) {
-        const seasonInfo = getSeasonHtml(quizzer.j.s);
-        if (seasonHtml.length > 0) {
-            seasonHtml += "<br />";
+    if (quizzer.t) {
+        if (quizzer.t.s) {
+            const seasonInfo = getSeasonHtml(quizzer.t.s);
+            seasonHtml = `<i>TBQ:</i> ${seasonInfo.html}`;
+            pageCount += seasonInfo.pages;
         }
 
-        seasonHtml += `<i>JBQ:</i> ${seasonInfo.html}`;
-        eventCount += seasonInfo.events;
+        if (quizzer.t.n) {
+            pageCount += quizzer.t.n.length;
+        }
+    }
+
+    if (quizzer.j) {
+        if (quizzer.j.s) {
+            const seasonInfo = getSeasonHtml(quizzer.j.s);
+            if (seasonHtml.length > 0) {
+                seasonHtml += "<br />";
+            }
+
+            seasonHtml += `<i>JBQ:</i> ${seasonInfo.html}`;
+            pageCount += seasonInfo.pages;
+        }
+
+        if (quizzer.j.n) {
+            pageCount += quizzer.j.n.length;
+        }
     }
 
     quizzer.seasonHtml = seasonHtml;
-    quizzer.eventCount = eventCount;
+    quizzer.pageCount = pageCount;
 
     // Pre-process the names.
     let nameHtml = quizzer.n;
@@ -190,14 +202,14 @@ function updateSearchResult() {
             seasonsCell.innerHTML = quizzer.seasonHtml;
 
             // Create the Events Cell.
-            const eventsCell = document.createElement("td");
-            eventsCell.style.textAlign = "right";
-            eventsCell.innerText = quizzer.eventCount;
+            const pagesCell = document.createElement("td");
+            pagesCell.style.textAlign = "right";
+            pagesCell.innerText = quizzer.pageCount;
 
             const row = document.createElement("tr");
             row.appendChild(nameCell);
             row.appendChild(seasonsCell);
-            row.appendChild(eventsCell);
+            row.appendChild(pagesCell);
 
             resultsTableBody.appendChild(row);
         }
@@ -264,7 +276,7 @@ function showQuizzerScores(quizzer) {
         name += ` (${quizzer.on.join(', ')})`;
     }
 
-    scoresModalTitle.innerText = `${name} - ${quizzer.eventCount} Event(s)`;
+    scoresModalTitle.innerText = `${name} - ${quizzer.pageCount} Page(s)`;
 
     scoresModalTableBody.innerHTML = "";
     if (quizzer.t) {
