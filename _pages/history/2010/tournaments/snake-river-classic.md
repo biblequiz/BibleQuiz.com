@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "2010 Snake Rier Classic"
+title: "2010 Snake River Classic"
 permalink: /history/2010/tournaments/snake-river-classic/
 toc_title: Results
 menubar_toc: true
