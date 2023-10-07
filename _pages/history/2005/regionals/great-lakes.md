@@ -41,7 +41,7 @@ menubar_toc_static:
 
 |    # | Quizzer            | Team            |   Avg | Total |   QO |
 | ---: | ------------------ | --------------- | ----: | ----: | ---: |
-|    1 | Jon Galiers        | Lexington #1    | 107.1 |  1500 |    8 |
+|    1 | Jon Galliers       | Lexington #1    | 107.1 |  1500 |    8 |
 |    2 | Brandy Steel       | Calvary Toledo  |  91.8 |  1285 |    7 |
 |    3 | Lisa Everett       | New Philly      |  84.6 |  1185 |    6 |
 |    4 | Brian Lewis        | Calvary Indy    |  81.1 |  1135 |    6 |

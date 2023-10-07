@@ -38,7 +38,7 @@ trophies in these two divisions were based on all rounds.
 |    1 | Micah Buckel      | Lexington, KY #1  |  2050 |   14 |
 |    2 | Michele Hart      | Orlando, FL       |  1660 |      |
 |    3 | Damon Smith       | Greensboro, NC    |  1175 |      |
-|    4 | John Galliers     | Lexington, KY # 1 |  1095 |      |
+|    4 | Jon Galliers      | Lexington, KY # 1 |  1095 |      |
 |    5 | Chris Harrelson   | Murfreesboro,TN   |  1090 |      |
 |    6 | Mia Angelakos     | Orlando, FL       |  1010 |      |
 |    7 | Kara Laufenburger | Lexington, KY # 2 |   885 |      |

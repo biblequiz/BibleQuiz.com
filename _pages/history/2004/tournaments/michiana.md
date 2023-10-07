@@ -48,7 +48,7 @@ At the end of regular rounds top 4 teams had playoffs:
 |    # | Quizzer         | Team              | Total |
 | ---: | --------------- | ----------------- | ----: |
 |    1 | Brandon Porter  | James River, MO   |   930 |
-|    2 | John Galliers   | Lexington, KY (B) |   925 |
+|    2 | Jon Galliers    | Lexington, KY (B) |   925 |
 |    3 | Logan Newman    | Superior, WI      |   900 |
 |    4 | Brian Lewis     | Indianapolis, IN  |   900 |
 |    5 | CJ Barna        | Bethel Park, PA   |   895 |

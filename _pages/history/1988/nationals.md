@@ -33,7 +33,6 @@ quizzerIndex:
 - Pat Tooke
 - Mendi Williamson
 - Jamey Winrow
-- Daryl Wootton
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
@@ -99,7 +98,7 @@ The top scorer at the 1988 National Finals was Marcae Johnson of Central A/G, Sp
 |       10 | David Garth       | Cedar Rapids, IA           |   895 | 59.67 |
 |       11 | Jamew Winrow      | Lakeland #2, FL            |   890 | 59.33 |
 |       12 | Carl Wise         | Lakeland #1, FL            |   775 | 51.67 |
-|       13 | Darryl Wootton    | Bartlesville, OK           |   745 | 49.67 |
+|       13 | Daryl Wootton     | Bartlesville, OK           |   745 | 49.67 |
 |       14 | Kevin Gallo       | Hempstead, NY              |   645 |    43 |
 | **14\*** | Matt Wilkie       | Parkcrest, Springfield, MO |   645 |    43 |
 |       16 | Travis Button     | Lakeland #1, FL            |   635 | 42.33 |

@@ -39,7 +39,7 @@ menubar_toc_static:
 
 |    # | Quizzer            | Team                  | Total |    Avg | QO Fwd | QO Bk |
 | ---: | ------------------ | --------------------- | ----: | -----: | -----: | ----: |
-|    1 | Jon Galiers        | Lexington, KY #1      |  2255 | 140.94 |     15 |     0 |
+|    1 | Jon Galliers       | Lexington, KY #1      |  2255 | 140.94 |     15 |     0 |
 |    2 | Brittanica Chesser | Indianapolis, IN (CT) |  1555 |  97.19 |     12 |     4 |
 |    3 | Brandy Steel       | Toledo, OH            |  1540 |  96.25 |     12 |     2 |
 |    4 | Lisa Everett       | Brunswick, OH         |  1535 |  95.94 |     11 |     2 |

@@ -34,7 +34,6 @@ quizzerIndex:
 - Alicia Shaw
 - Eddie Stelle
 - Aaron Wagar
-- John Wootton
 - Renee Yniquez
 toc_title: Results
 menubar_toc: true
@@ -55,7 +54,7 @@ The team from First A/G, New Orleans, LA became the third church to win National
 
 1983 marked the first time that quizzers who had graduated from high school but were still 19 by the beginning of the quiz year could not participate. This caused quite a turnover in quizzing personnel from the previous year. It also marked the final year of the eight team National Finals tournament as the next year participants who finished second in each region were allowed to participate with the eight regional champions.
 
-The top quizzer at the 1983 National Finals was John Wooton of Byesville A/G, Byesville, OH. In becoming the top scorer, John established a record for average points with 113.67 per quiz. This would become the first of 2 consecutive top scorer honors for John.
+The top quizzer at the 1983 National Finals was John Wootton of Byesville A/G, Byesville, OH. In becoming the top scorer, John established a record for average points with 113.67 per quiz. This would become the first of 2 consecutive top scorer honors for John.
 
 ## Results
 
@@ -88,7 +87,7 @@ The top quizzer at the 1983 National Finals was John Wooton of Byesville A/G, By
 
 |    # | Quizzer       | Church                       | Total |    Avg |
 | ---: | ------------- | ---------------------------- | ----: | -----: |
-|    1 | John Wooton   | Byesville A/G, Byesville, OH |   795 | 113.67 |
+|    1 | John Wootton  | Byesville A/G, Byesville, OH |   795 | 113.67 |
 |    2 | Joseph Leija  | First A/G, New Orleans, LA   |   685 |  97.96 |
 |    3 | Paul Freitag  | Bethel A/G, Minneapolis, MN  |   565 |  80.71 |
 |    4 | Steve Eastin  | First A/G, Tempe, AZ         |   510 |  72.96 |

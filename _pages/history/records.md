@@ -465,7 +465,7 @@ No scores have been altered. The number of questions for a quiz-out is now 5, bu
 |       10 | 1996 | Daniel Slater    | Cornerstone A/G, Beulah, MI               |  2540 |     22 | 115.41 |
 |       11 | 1995 | Sannejo Leonard  | First A/G, Santa Ana, CA                  |  2190 |     19 | 115.26 |
 |       12 | 1994 | Lisa Wootton     | First A/G, Bartlesville, OK               |  2170 |     19 | 114.21 |
-|       13 | 1983 | John Wooton      | Byesville A/G, Byesville, OK              |   795 |      7 | 113.57 |
+|       13 | 1983 | John Wootton     | Byesville A/G, Byesville, OK              |   795 |      7 | 113.57 |
 |       14 | 1982 | Ken Henderson*   | Tecumseh A/G, Tecumseh, OK                |   790 |      7 | 112.86 |
 |       15 | 1987 | Tammy Yost       | First A/G, Branford, CT                   |  1785 |     17 | 111.56 |
 |       16 | 2008 | Grant Warnock    | Journey Church, Bridgeville, PA           |  2090 |     19 |    110 |
