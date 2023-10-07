@@ -3,6 +3,14 @@ layout: page
 permalink: /history/2002/nationals/
 title: "2002 National Finals"
 date: "2002-07-12"
+quizzerIndex:
+- Prince Anywanwu
+- Brenne DeFazio
+- Jonathan Fenton
+- Joseph Fortunato
+- Andrew Harrington
+- Carolina Parr
+- Danielle Peppenger
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

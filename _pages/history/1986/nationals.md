@@ -3,6 +3,76 @@ layout: page
 permalink: /history/1986/nationals/
 title: "1986 National Finals"
 date: "1986-08-16"
+quizzerIndex:
+- Robbin Lynn Bahra
+- Mark Bayko
+- Susan Bernet
+- Janna Blow
+- Angie Booth
+- Crystal Booth
+- Paul Bovee
+- Matt Bradshaw
+- Nicole Brandon
+- Staci Renae Bretches
+- Dena Cambra
+- Jesse Cannon
+- Lance Christiansen
+- Lara Christiansen
+- Darin Clements
+- Tricia Cregger
+- Brock Davis
+- Scott Emerson
+- Trevor Estes
+- Rhonda Frey
+- Karina Gaesser
+- Tina Gavis
+- Niki Harwood
+- Julie Haven
+- Melissa Henderson
+- Karmel Herring
+- David Holt
+- Jeff Holt
+- Tom Holt
+- Audrey Hunt
+- Matthew Ingram
+- Kirsten Johnson
+- Lyn Johnson
+- Jennifer Jones
+- Kendra Jones
+- Krystal LaCoste
+- Matt Laurens
+- Rob Laurens
+- Mark Leach
+- Mike Linsalata
+- Kyla Litterall
+- Laura Lutz
+- Bob Lynd
+- Lisa Mascarella
+- Ann Moomaw
+- Melanie Morris
+- Jeanne Neuenschwander
+- Cindy Phillips
+- Sara Polaski
+- Bretta Rickel
+- Jeanette Carol Rouleau
+- Ewalani Santiago
+- Steve Schaus
+- Joy Schneider
+- Matt Schneider
+- Christy Shedd
+- Rachelle Strope
+- Tammy Tarpley
+- Genise Thompson
+- Chris Tostano
+- Erica Van Ranken
+- John Richard Vandervoort
+- Al Williams
+- Collece Lynn Williams
+- John Williams
+- Jon Wood
+- Kerri Young
+- Margie Yukon
+- Matthew Yukon
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

@@ -3,6 +3,13 @@ layout: page
 permalink: /history/2007/nationals/
 title: "2007 National Finals"
 date: "2007-07-13"
+quizzerIndex:
+- Donovan Colegrove
+- Angie Larsen
+- Darren Larsen
+- Melissa Larsen
+- Meg Pace
+- Daniel Wagner
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

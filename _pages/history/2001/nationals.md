@@ -3,6 +3,13 @@ layout: page
 permalink: /history/2001/nationals/
 title: "2001 National Finals"
 date: "2001-07-13"
+quizzerIndex:
+- Prince Anywanwu
+- Jonathan Erdmann
+- Jonathan Falkey
+- Danny Hernando
+- John McLaughlin
+- Dave Shim
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

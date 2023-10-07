@@ -3,6 +3,18 @@ layout: page
 permalink: /history/2000/nationals/
 title: "2000 National Finals"
 date: "2000-07-14"
+quizzerIndex:
+- Chris Alfred
+- Prince Anywanwu
+- Brandon Blakenship
+- Jeremiah Bruber
+- Jonathan Falkey
+- Cristina Fiucci
+- Andrea Molitaris
+- Rick Pollen
+- Ryan Popineau
+- Josh Prelich
+- Katie Whitehead
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

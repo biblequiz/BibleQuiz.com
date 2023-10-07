@@ -3,6 +3,22 @@ layout: page
 permalink: /history/2005/nationals/
 title: "2005 National Finals"
 date: "2005-07-15"
+quizzerIndex:
+- Angelina Bardin
+- Andrew Darmakish
+- Josiah Durham
+- Sally Epp
+- Lilian Ferreira
+- Andrew Forsman
+- Stephen Hahn
+- Ruth Kinyua
+- Hillary Kunnanz
+- Collins Laylor
+- Shannon Maynard
+- Caitlin Pace
+- Josh Slater
+- Aryka Turner
+- Christen Willis
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

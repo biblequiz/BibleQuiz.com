@@ -3,6 +3,22 @@ layout: page
 permalink: /history/2004/nationals/
 title: "2004 National Finals"
 date: "2004-07-09"
+quizzerIndex:
+- Ibukun Akindele
+- Kimberly Brindza
+- Brennan DeFazio
+- Molly Deitrich
+- Edy Ferriera
+- Jon Galliers
+- Stephen Hahn
+- Bethany Lakkonnen
+- Leeanne Maxes
+- Bonnie Packineau
+- Kirsten Prabhudas
+- Zach Schaalma
+- Josh Slater
+- Sara Sobkowiak
+- Anastasiya Walker
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
