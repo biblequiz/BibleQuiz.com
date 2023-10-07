@@ -59,7 +59,7 @@ menubar_toc_static:
 |   19 | Zevon Hartgraves  | VBFA               | Van Buren 1st AG   |    35 |   5.83 |      |
 |   20 | Seth Jackson      | Starburst          | NLR, 1st AG        |    20 |   3.33 |      |
 |   21 | Cate Saunders     | Laffy Taffy        | NLR, 1st AG        |    15 |   2.50 |      |
-|   22 | Ann Marie Sheek   | Faith              | Texarkana Faith AG |    10 |   1.67 |      |
+|   22 | Ann-Marie Sheek   | Faith              | Texarkana Faith AG |    10 |   1.67 |      |
 |   23 | Will Sheek        | Faith              | Texarkana Faith AG |     5 |    .83 |      |
 
 ### Red Division (AM)
@@ -225,7 +225,7 @@ menubar_toc_static:
 |    4 | Lexie Bennett    | Faith           | Texarkana Faith AG |    65 | 32.50 |      |
 |    5 | Colton Rosenbaum | Zords           | McArthur AG        |    60 | 30.00 |      |
 |    6 | Will Sheek       | Faith           | Texarkana Faith AG |    20 | 10.00 |      |
-|    7 | Ann Marie Sheek  | Faith           | Texarkana Faith AG |    10 |  5.00 |      |
+|    7 | Ann-Marie Sheek  | Faith           | Texarkana Faith AG |    10 |  5.00 |      |
 |    8 | Courtney Dunn    | Team-Pocahontas | Pocahontas 1st AG  |     5 |  2.50 |      |
 
 ## 3rd and 4th Grade

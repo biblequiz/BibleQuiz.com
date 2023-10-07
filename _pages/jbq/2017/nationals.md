@@ -358,7 +358,7 @@ menubar_toc_static:
 |       14 | Steve Joy              | Marietta-GA (Royal Diadem)                      |   885 |    59 |    7 |  77% |
 |       15 | Joel Paul              | Collierville-TN (Collierville Freedom Fighters) |   880 |  58.7 |      |  93% |
 |       16 | Braylon Hood-Colbert   | Mustang-OK (United for Christ)                  |   830 |  55.3 |    1 |  80% |
-|       17 | Iynu Akanbi            | Houston-TX (The Chosen Ones)                    |   795 |    53 |    5 |  92% |
+|       17 | Iyanu Akanbi           | Houston-TX (The Chosen Ones)                    |   795 |    53 |    5 |  92% |
 |       18 | Samuel Biruduganti     | Naperville-IL (Naperville (S))                  |   760 |  50.7 |   10 |  75% |
 |       19 | Noah Small             | Emporia-KS (God's Masterpiece)                  |   735 |    49 |    2 |  75% |
 |       20 | Austanne Barney        | Shelby Township-MI (Jedi Knights)               |   705 |    47 |    7 |  79% |
@@ -557,7 +557,7 @@ menubar_toc_static:
 |    8 | Reagan Stevens             | Naperville-IL (Naperville (D))       |   655 |  72.8 |    2 |  71% |
 |    9 | Shekinah Phelps            | Springfield-MO (Double Edged Swords) |   590 |  65.6 |    5 |  74% |
 |   10 | Brandon Ukonu              | Houston-TX (The Chosen Ones)         |   530 |  58.9 |    4 |  82% |
-|   11 | Iynu Akanbi                | Houston-TX (The Chosen Ones)         |   515 |  57.2 |    3 |  97% |
+|   11 | Iyanu Akanbi               | Houston-TX (The Chosen Ones)         |   515 |  57.2 |    3 |  97% |
 |   12 | Precious Cyrus-David       | Houston-TX (The Overcomers)          |   480 |  53.3 |      |  82% |
 |   13 | Christian Chowdary Alapati | Angleton-TX (Heart of a Lion)        |   470 |  52.2 |    6 |  84% |
 |   14 | Priscilla Adu-Gyamfi       | Houston-TX (The Overcomers)          |   470 |  52.2 |    4 |  88% |
@@ -719,7 +719,7 @@ menubar_toc_static:
 | **\*36** | Rahul Padmanabhan      | Shelby Township-MI (Jedi Knights)               |     0 |       |      |      |
 | **\*36** | Samuel Padmanabhan     | Shelby Township-MI (Jedi Knights)               |     0 |       |      |      |
 | **\*36** | Evelyn Kingsly         | Marietta-GA (Royal Diadem)                      |     0 |       |      |      |
-| **\*36** | Dharshini Jayakrishnan | Marietta-GA (Royal Diadem)                      |     0 |       |      |      |
+| **\*36** | Dharshine Jayakrishnan | Marietta-GA (Royal Diadem)                      |     0 |       |      |      |
 | **\*36** | Annabelle Morris       | Greensboro-NC (POW - Patriots of the Word)      |     0 |       |      |      |
 
 

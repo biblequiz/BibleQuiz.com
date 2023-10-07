@@ -35,18 +35,18 @@ round-robin schedule due to the different amount of teams.
 
 #### Top Individuals
 
-|    # | Quizzer            | Team         | Total |
-| ---: | ------------------ | ------------ | ----: |
-|    1 | Lucas Cox          | Lexington #1 |  1585 |
-|    2 | James Lex          | Dunwoody     |   775 |
-|    3 | Rebekah Kelly      | Lexington #1 |   715 |
-|    4 | Yoki Belay         | Dunwoody     |   465 |
-|    5 | Elaine Walker      | Lexington #1 |   415 |
-|    6 | Alyssa Austin      | Centerville  |   220 |
-|    7 | Gabrielle Richmeir | Greensboro   |   170 |
-|    8 | Isabella Lex       | Dunwoody     |    90 |
-|    9 | Ceiran Beasley     | Centerville  |    70 |
-|   10 | James Wolter       | Greensboro   |    35 |
+|    # | Quizzer             | Team         | Total |
+| ---: | ------------------- | ------------ | ----: |
+|    1 | Lucas Cox           | Lexington #1 |  1585 |
+|    2 | James Lex           | Dunwoody     |   775 |
+|    3 | Rebekah Kelly       | Lexington #1 |   715 |
+|    4 | Yoki Belay          | Dunwoody     |   465 |
+|    5 | Elaine Walker       | Lexington #1 |   415 |
+|    6 | Alyssa Austin       | Centerville  |   220 |
+|    7 | Gabrielle Richmeier | Greensboro   |   170 |
+|    8 | Isabella Lex        | Dunwoody     |    90 |
+|    9 | Ceiran Beasley      | Centerville  |    70 |
+|   10 | James Wolter        | Greensboro   |    35 |
 
 ### Division II
 

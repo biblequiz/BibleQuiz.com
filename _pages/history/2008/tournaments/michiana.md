@@ -160,7 +160,7 @@ menubar_toc_static:
 |    2 | Michael Klein     | Greater Lansing     |  95.9 |      9 |     0 |
 |    3 | Ashton Havens     | "Imitators of God"  |  95.5 |      5 |     0 |
 |    4 | Christian Slater  | West Plains         |  95.0 |      8 |     1 |
-|    5 | Briana Albrecht   | Dayspring           |  87.3 |      8 |     0 |
+|    5 | Brianna Albrecht  | Dayspring           |  87.3 |      8 |     0 |
 |    6 | Sydney Tuckey     | Warner Robbins      |  85.5 |      7 |     0 |
 |    7 | Jacqui McGarry    | Stone Church        |  83.2 |      8 |     1 |
 |    8 | Drew Harr         | Greater Lansing     |  82.7 |      8 |     1 |

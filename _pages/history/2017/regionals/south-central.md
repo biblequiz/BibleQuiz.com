@@ -42,7 +42,7 @@ menubar_toc_static:
 |        5 | Triston Rosario     | Those Esteemed as Quizzers (Trinity at Cedar Hill) |   470 |  58.8 |    6 |  73% |
 |        6 | Taylor Ellis        | Braeswood (Braeswood A/G)                          |   475 |  52.8 |    4 |  78% |
 |        7 | Gabe Lapusan        | Pure and Blameless (The Oaks)                      |   430 |  47.8 |    6 |  78% |
-|        8 | John-David Sullivan | Those Esteemed as Quizzers (Trinity at Cedar Hill) |   365 |  45.6 |    3 |  71% |
+|        8 | John David Sullivan | Those Esteemed as Quizzers (Trinity at Cedar Hill) |   365 |  45.6 |    3 |  71% |
 |        9 | Alex Koch           | Firewheel (First @ Firewheel)                      |   205 |  25.6 |    1 |  65% |
 |       10 | Mary Meddaugh       | Muskogee (Muskogee First)                          |   180 |  22.5 |      |  68% |
 |       11 | Faith King          | Muskogee (Muskogee First)                          |   175 |  21.9 |      |  80% |

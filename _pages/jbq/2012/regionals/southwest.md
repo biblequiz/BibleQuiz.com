@@ -87,7 +87,7 @@ menubar_toc_static:
 |   45 | Lacey Leebrick      | NSCC_A1                        | North Scottsdale Christian Church         |    10 |   .91 |      |
 |   45 | Swetha Ganeshan     | Soaring Eagles                 | International AG                          |    10 |   .91 |      |
 |   45 | Jasmine Sirvent     | The Mesa Lions and Bears       | Newport Mesa Church                       |    10 |   .91 |      |
-|   46 | Dinah-Lee Smith     | The Mesa Lions and Bears       | Newport Mesa Church                       |     5 |   .45 |      |
+|   46 | Dinah Lee Smith     | The Mesa Lions and Bears       | Newport Mesa Church                       |     5 |   .45 |      |
 |   46 | Tia Willett         | NSCC_A1                        | North Scottsdale Christian Church         |     5 |   .45 |      |
 |   47 | James Campos        | Knights of Christ              | Friendship AG                             |       |   .00 |      |
 |   47 | Talitha Weedon      | NSCC_A1                        | North Scottsdale Christian Church         |       |   .00 |      |

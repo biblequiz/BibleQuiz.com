@@ -49,7 +49,7 @@ menubar_toc_static:
 |   13 | Tabitha Nirmal     | Bible Surfers            | Bethel Church                 |   555 | 34.69 |    3 |
 |   14 | Cole Muscari       | Phoenix First #1         | Phoenix First Assembly of God |   540 | 33.75 |    1 |
 |   15 | Madeline Berkey    | Fire Bible Investigators | Victory Worship Center        |   505 | 31.56 |    1 |
-|   16 | Dinah-Lee Smith    | Mighty Levianthians      | Newport Mesa Church           |   475 | 29.69 |    3 |
+|   16 | Dinah Lee Smith    | Mighty Levianthians      | Newport Mesa Church           |   475 | 29.69 |    3 |
 |   17 | Tyler Trexler      | Phoenix First #1         | Phoenix First Assembly of God |   440 | 27.50 |    1 |
 |   18 | Michelle Labato    | Fire Bible Investigators | Victory Worship Center        |   390 | 24.38 |      |
 |   19 | Amelia Stieb       | Champion Center          | Champion Center               |   350 | 21.88 |      |
