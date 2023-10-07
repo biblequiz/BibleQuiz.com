@@ -3,6 +3,14 @@ layout: page
 permalink: /history/1974/nationals/
 title: "1974 National Finals"
 date: "1974-07-11"
+quizzerIndex:
+- Daniel Barnes
+- David Barnes
+- Carol Francis
+- Jesse Hykes
+- Jeanna Jenkins
+- Richard Ketchum
+- John Primrose
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

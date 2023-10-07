@@ -3,6 +3,8 @@ layout: page
 permalink: /history/1996/memories/karl-dawson/
 title: "1996 Nationals - Karl Dawson's Memories"
 author: Karl Dawson
+quizzerIndex:
+- Karl Dawson
 menubar_toc: true
 menubar_toc_static:
 - items:

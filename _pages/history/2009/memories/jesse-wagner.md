@@ -3,6 +3,8 @@ layout: page
 permalink: /history/2009/memories/jesse-wagner/
 title: "2009 Nationals - Jesse Wagner's Memories"
 author: Jesse Wagner
+quizzerIndex:
+- Jesse Wagner
 menubar_toc: true
 menubar_toc_static:
 - items:

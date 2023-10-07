@@ -3,6 +3,45 @@ layout: page
 permalink: /history/1983/nationals/
 title: "1983 National Finals"
 date: "1983-08-14"
+quizzerIndex:
+- Sheri Amrozowicz
+- Bill Baker
+- Brad Brager
+- Tamara Brent
+- Julie Crawford
+- Sean Davis
+- Margi Duhman
+- Steve Eastin
+- Robbie Egan
+- Sheri Ferguson
+- Jason Finley
+- Julie Freitag
+- Paul Freitag
+- Wilbur Gayle
+- Dorene Hamilton
+- Melissa Hopp
+- Cheryl Jackson
+- Curtis Johnson
+- Troy Jones
+- Debbie Kalmar
+- Dece Leach
+- Joseph Leija
+- David Lowe
+- Mark Malone
+- Laurie Nettles
+- Dianne Phillips
+- JR Phillips
+- Michelle Pint
+- Bridgette Rickel
+- Doug Rinearson
+- Heidi Rudd
+- Scott September
+- Alicia Shaw
+- Eddie Stelle
+- Aaron Wagar
+- John Wooton
+- John Wootton
+- Renee Yniquez
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

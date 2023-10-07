@@ -3,6 +3,8 @@ layout: page
 permalink: /history/2000/memories/daniel-marlow/
 title: "2000 Nationals - Daniel Marlow's Memories"
 author: Daniel Marlow
+quizzerIndex:
+- Daniel Marlow
 menubar_toc: true
 menubar_toc_static:
 - items:

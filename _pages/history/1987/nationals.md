@@ -3,6 +3,91 @@ layout: page
 permalink: /history/1987/nationals/
 title: "1987 National Finals"
 date: "1987-08-05"
+quizzerIndex:
+- Kristie Bailey
+- Andy Bateman
+- Angie Booth
+- Paul Bovee
+- Matt Bradshaw
+- Julie Brand
+- Jessica Caldwell
+- Jesse Cannon
+- Brandy Carrier
+- Kim Carrier
+- Lester Cowan
+- Brock Davis
+- Pam Denson
+- Scott Emerson
+- Trevor Estes
+- Sarah Foote
+- Tiffany Forrester
+- Rhonda Frey
+- Kevin Gallo
+- Jeff Gibson
+- Joy Gilmer
+- Lora Girgenti
+- Jeremy Graves
+- Elizabeth Hart
+- David Hatley
+- Teri Hayward
+- Link Hudson
+- Clint Hutchings
+- Elaine Iannucci
+- Becky Jackson
+- Marcae Johnson
+- Paul Johnson
+- Janine Kruger
+- Jennifer Kruger
+- Philip LaBelle
+- Matt Laurens
+- Trevis Litherland
+- David Lowe
+- David Markese
+- Sarah Martin
+- Shannon Martin
+- Robert Merrill
+- Leslie Middleton
+- Joe Mondt
+- Rachel Mondt
+- Neil Moody
+- Tammy Nelson
+- Jeanne Neuenschwander
+- Chad Ortis
+- Gary Paradoski
+- Jason Picker
+- Jeremy Pinnell
+- Shelby Pratt
+- Stacy Pratt
+- Eric Rice
+- Kori Rimbey
+- Debi Rischell
+- Dwayne Rury
+- Robin Salling
+- Steve Schaus
+- Mary Jo Sharp
+- Christy Shedd
+- Melanie Sinclair
+- Linda Souther
+- Marcy Sproull
+- David Sydes
+- Tammy Tarpley
+- Geen Thazhampallath
+- Chris Toscano
+- Barbara Turner
+- Deron Van Klompenburg
+- Kimberly Wadsworth
+- Kim Wagner
+- Joey Walker
+- Matt Wallace
+- Wesley Wallace
+- Brad Walrond
+- Brian Walrond
+- Sheldon Waters
+- Terry White
+- Robbie Wilson
+- Daryl Wootton
+- Tammy Yost
+- Kirsten Zeller
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

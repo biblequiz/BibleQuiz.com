@@ -3,6 +3,47 @@ layout: page
 permalink: /history/1963/nationals/
 title: "1963 National Finals"
 date: "1963-08-24"
+quizzerIndex:
+- George Bates
+- Rebecca Blubaugh
+- Peggy Caldwell
+- Paulette Christenson
+- John Crosswaite
+- Kenneth Crosswaite
+- Mary Dine
+- Ruth Dine
+- Bunny Frost
+- Drucilla Gibson
+- Shawna Gilly
+- Barbara Gregg
+- Brenda Gregg
+- Roxy Hartley
+- Robert L. Hartshorn
+- Sandra Hembree
+- Lucielle Howard
+- Joyce Jesse
+- Lena Johnson
+- Debbie Jones
+- Harold Jones
+- Dennis Lager
+- Rusty Laurens
+- Scott Laurens
+- Kay McCray
+- Patty Murphy
+- Gary Page
+- Ronnie Pruett
+- Dan Secrist
+- Melanie Sheely
+- Stanley Sturgeon
+- Craig Swope
+- Edward Wheeler
+- Byron Wilkinson
+- Vicki Wilkinson
+- Alyce Young
+- Margaret Young
+- Patsy Young
+- Reta Young
+- Thelma Young
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

@@ -3,6 +3,50 @@ layout: page
 permalink: /history/1978/nationals/
 title: "1978 National Finals"
 date: "1978-08-15"
+quizzerIndex:
+- Penny Akers
+- David Basel
+- Timothy Bender
+- Evelyn Bishopp
+- Jim Brent
+- Tim Brent
+- Kari Brodin
+- Michael Cocolin
+- Mike Cocolin
+- Nancy Cocolin
+- Lynda Ernst
+- Mark Gilmer
+- Karen Holmquist
+- Darryl Hudson
+- Terri Hungate
+- Jacque Johnston
+- Greg Kelley
+- Maureen Kellog
+- Rick Landrum
+- Rhett Laurens
+- John McGough
+- Brenda Miltenberger
+- Billy Muniz
+- Carmen Muniz
+- Danny Muniz
+- Gary Napier
+- Jamie Nickerson
+- Joanna Oquist
+- James T. Pyles
+- Dessita Rury
+- Marsha Rury
+- Sherah Rury
+- Ernie Shockey
+- Keith Short
+- Scott Simmering
+- Jeanne Stefensrud
+- Debbie Summers
+- Alan Watt
+- DeAun Williamson
+- Billy Wissinger
+- Kurt Woffram
+- Denis Wright
+- Ronnie Wright
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

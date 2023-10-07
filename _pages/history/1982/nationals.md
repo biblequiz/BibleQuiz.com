@@ -3,6 +3,50 @@ layout: page
 permalink: /history/1982/nationals/
 title: "1982 National Finals"
 date: "1982-08-13"
+quizzerIndex:
+- DeLynn Austin
+- Brad Brager
+- Geoffrey D. Bretches
+- Staci Brethces
+- Angela Carson
+- Martha Carson
+- Samantha Carson
+- Charissa Dennis
+- Paul Freitag
+- Andy Gaidurgis
+- Dangelo Gayle
+- Jackie Gayle
+- Wilbur Gayle
+- Wanda Gilmer
+- Tammy Hagaman
+- Ken Henderson
+- Lisa Higgins
+- Suzonne Hudson
+- Cheryl Jackson
+- David Kieffer
+- Rhett Laurens
+- Rob Laurens
+- Paul Lewis
+- Tavia Lewis
+- Linda Malone
+- Mark Malone
+- Lisa Newton
+- Kimme Northcutt
+- Shawn Northcutt
+- Tony Northcutt
+- Tammy Padgett
+- Karen Pencoff
+- Becky Powell
+- Donna Powell
+- Desiree Rider
+- Fari Rider
+- Angie Rounsavall
+- Julie Rounsavall
+- Mark Scheuffele
+- Jimmy Smith
+- Heather Thomas
+- Andrea Williamson
+- Debbie Wyatt
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

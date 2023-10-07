@@ -3,6 +3,20 @@ layout: page
 permalink: /history/1964/nationals/
 title: "1964 National Finals"
 date: "1964-08-21"
+quizzerIndex:
+- Donna Cox
+- Dave Eland
+- Nancy Eland
+- Barbara Hendrickson
+- James Johnson
+- Joe Johnson
+- Shirley Lindley
+- Dean Longanecker
+- Ernie Longanecker
+- Joyce Lufkin
+- Rich Peterson
+- Audrey Temple
+- Connie Wagoner
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

@@ -3,6 +3,8 @@ layout: page
 permalink: /history/2009/memories/kevin-wagner/
 title: "2009 Nationals - Kevin Wagner's Memories"
 author: Kevin Wagner
+quizzerIndex:
+- Kevin Wagner
 menubar_toc: true
 menubar_toc_static:
 - items:

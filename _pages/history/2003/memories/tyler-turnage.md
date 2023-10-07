@@ -3,6 +3,8 @@ layout: page
 permalink: /history/2003/memories/tyler-turnage/
 title: "2003 Nationals - Tyler Turnage's Memories"
 author: Tyler Turnage
+quizzerIndex:
+- Tyler Turnage
 menubar_toc: true
 menubar_toc_static:
 - items:

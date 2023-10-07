@@ -3,6 +3,53 @@ layout: page
 permalink: /history/1977/nationals/
 title: "1977 National Finals"
 date: "1977-08-11"
+quizzerIndex:
+- Shelly Ambrose
+- Terry Baisey
+- Kirby Beck
+- Sheila Blankenship
+- Marjie Boggs
+- Regina Boswell
+- Terry Boswell
+- Rob Brock
+- Jim Brownsfield
+- Debbie Butcher
+- Jim Butcher
+- Anel Epinnette
+- Roxanne Giardina
+- Becky Grady
+- Carol Guerrero
+- Jodi Heugel
+- Bev Hoover
+- Chuck Hunter
+- Tim Jackson
+- Wade Kimball
+- Chuck King
+- Karl Kunz Jr.
+- Dan Lunsford
+- Mark Mabry
+- Alvin Meyer
+- Billy Meyer
+- Rebecca Mohr
+- Dean Moretz
+- Danny Pleasant
+- Kris Porter
+- Lora Porter
+- Lori Reynolds
+- Kawood Roddenberry
+- Dessita Rury
+- Sherah Rury
+- Sheri Samms
+- Dodie Slabaugh
+- Jody Slabaugh
+- Debbie Taylor
+- Tammy Thompson
+- Carla Vandergraff
+- Donnie Walker
+- Ronnie Walker
+- Brian Weeks
+- Kevin Weeks
+- Kathy Wilson
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

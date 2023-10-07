@@ -3,6 +3,50 @@ layout: page
 permalink: /history/1968/nationals/
 title: "1968 National Finals"
 date: "1968-08-20"
+quizzerIndex:
+- Sandy Alexander
+- Koren Casper
+- Sharon Collier
+- Darlene Costanzo
+- Janet Cox
+- Judy Cox
+- Donna Curtis
+- Claudette Dacus
+- Rhett Dacus
+- Donna Dagone
+- Sandra Davis
+- Sherri Emdia
+- Mary Hanes
+- Debra Harrelson
+- William Harrelson
+- Debbie Hill
+- Frances Holden
+- Kathy Holden
+- Lissa Howell
+- Duane Hule
+- Jerry Hule
+- Gail Lombard
+- Sharon Lunis
+- Arlene Purcell
+- Judy Purcell
+- Larenda Purcell
+- Mark Purcell
+- Rusty Robinson
+- Joyce Rose
+- Steve Rose
+- Melody Senf
+- Nancy Senf
+- Irine Slate
+- Carolyn Stair
+- Marcia Storms
+- Ken Summers
+- Cindy Tooley
+- Vane Warner
+- Phyllis Weaver
+- Donna White
+- Nancy White
+- Randy Williams
+- Tracy Wilson
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

@@ -3,6 +3,53 @@ layout: page
 permalink: /history/1976/nationals/
 title: "1976 National Finals"
 date: "1976-08-11"
+quizzerIndex:
+- David Baird
+- Janie Bancroft
+- Russ Barrans
+- Ted Barrans
+- Priscilla Begay
+- Kathy Bristow
+- Debbie Butcher
+- Jim Butcher
+- Jaque Cates
+- Rhonda Cox
+- Joan Donald
+- Tod Eastlake
+- Stephen Feith
+- Eric Fox
+- Mark Gilmer
+- Jama Goolsby
+- Beth Grant
+- Debbie Hallford
+- David Harrison
+- Robert Hong
+- Jhan Hurst
+- Carolyn Johnson
+- Judy Johnson
+- Gloria Jones
+- Teressa Kearns
+- Alan Kirkpatrick
+- Diane Kissel
+- Kent Kloefkorn
+- Farley Lafferty
+- Rhett Laurens
+- Steve Lowe
+- Mike McCorcle
+- Deonn McDowell
+- Bruce McLellan
+- Lori Miclow
+- Scott Mulder
+- Phil Price
+- Tim Sanders
+- Scott Simmering
+- Terry Tarialley
+- Terry Tarr
+- Rod Teuber
+- Ronnie Walker
+- Kathy White
+- Rhonda White
+- Ronnie Wright
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

@@ -3,6 +3,47 @@ layout: page
 permalink: /history/1980/nationals/
 title: "1980 National Finals"
 date: "1980-08-14"
+quizzerIndex:
+- Jennifer Bates
+- Nancy Bates
+- John D. Bayko
+- Regina Bowen
+- John Criss
+- Lisa Current
+- Jeanne DeJong
+- Frank Divincenzo
+- Daniel Doty
+- Mark Edwards
+- Don Ertman
+- Lori Goodman
+- Cherie Hein
+- Andrea Homier
+- Paula Hopper
+- Christy Johnson
+- Molly Johnson
+- Diane Kissel
+- Dale Larson
+- Linda Malone
+- Dan McNaul
+- Cheryl Minsky
+- Billy Muniz
+- Carmen Muniz
+- Danny Muniz
+- Phil Parker
+- Karen Peake
+- Mark Penney
+- Steve Penney
+- Ronnie Pope
+- Terrie Pope
+- Paula Severance
+- Bret Shillingstad
+- Keith Short
+- Sue Siska
+- Cinda Van Dusseldorp
+- Sondra Van Dusseldorp
+- Kevin Vanderplas
+- Chuck Wagoner
+- Jeff Wood
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

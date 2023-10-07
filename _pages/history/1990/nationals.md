@@ -3,6 +3,77 @@ layout: page
 permalink: /history/1990/nationals/
 title: "1990 National Finals"
 date: "1990-08-10"
+quizzerIndex:
+- Christy Adams
+- Mel Aou
+- Tim Bahra
+- Fred Beaman
+- Jeremy Black
+- Aaron Blanco
+- Jeremy Blocher
+- Katey Callahan
+- Randy Cathcart
+- Rochelle Cathcart
+- Steve Chaney
+- Mark Childers
+- Chris Cohilas
+- David Conaway
+- Rick Faulkner
+- Shirley Ferrell
+- Brian Gibbons
+- Timothy Gibbons
+- Chad Gilligan
+- Joy Gilmer
+- Nikki Gray
+- Lori Ann Hansen
+- Michelle Hansen
+- Kari Hedge
+- Paul Hudson Jr.
+- Dionne Jobe
+- Andrew Knaff
+- Rebecca Knaff
+- Travis Knight
+- Joy Kuroishi
+- Chuck Laurens
+- Renee Loomis
+- Ron Loomis
+- Bryan Martindale
+- Michelle Martindale
+- Justin Moody
+- Chad Nelson
+- David Nelson
+- Scott Nelson
+- Todd Nelson
+- Megan Newman
+- Sydney Overby
+- Adrianna Oyola
+- Luisa Oyola
+- Seth Palmer
+- Loren Plank
+- Nathan Pratt
+- Kevin Revell
+- Rachel Roby
+- Joy Rosenberg
+- Beth Rutherford
+- Lynette Rutherford
+- Pam Santangelo
+- Elizabeth Schiche
+- Rachel Schroeder
+- Dave Schweitzer
+- Steve Schweitzer
+- Christy Shedd
+- Garrett Smiley
+- Jason Sorens
+- Tonya Thurman
+- Daryn Trout
+- Josh Weber
+- Joel Wilkie
+- Robyn Wilmoth
+- Eric Wissner
+- Bryan Wootton
+- Lisa Wootton
+- Aaron Woynarski
+- Sarah Wright
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

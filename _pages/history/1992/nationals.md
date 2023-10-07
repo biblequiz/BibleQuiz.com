@@ -3,6 +3,92 @@ layout: page
 permalink: /history/1992/nationals/
 title: "1992 National Finals"
 date: "1992-08-07"
+quizzerIndex:
+- Tim Bahra
+- Mark J. Bane
+- Scott Bane
+- Amanda Benigas
+- Brian Boeninger
+- Lee Bredell
+- Matthew Britt
+- Missy Brown
+- Katey Callahan
+- Randy Cathcart
+- Rochelle Cathcart
+- Patrick David
+- Karl Dawson
+- Kevin Dawson
+- Elizabeth Dunn
+- Angela Faith Ebanks
+- D. Ann Elscott
+- Ashley Estes
+- Lisa Eutsey
+- Richie Fenton
+- Amy Fry
+- John Fry
+- Josephine Gbain
+- Jeremy Gibbs
+- Brett Glover
+- Amy Goodlett
+- Keith Grabill
+- Nicole Grant
+- Sarah Haney
+- Michelle Hansen
+- Dionne Jobe
+- Christopher Kepilino
+- Travis Knight
+- Jennifer Koiter
+- Skyler W. Lashley
+- Eric Lind
+- Ana Lorvick
+- Anna McMillan
+- Melissa Milliron
+- Doug Mims
+- Justin Moody
+- Elizabeth Morgan
+- Sarah Morgan
+- Sheryl Lynn Neely
+- Ryan Neese
+- Chad Nelson
+- Jemi Overby
+- Luisa Oyola
+- Beth Parker
+- Tim Pfister
+- Angeline Pishcura
+- Dara Pishcura
+- Tabitha Prothero
+- Jeremy Rodriguez
+- Joy Rosenberg
+- Michael Rosenthal
+- Erika Ruff
+- Satish Sangapu
+- Dave T. Schweitzer
+- Sarah Shewey
+- Thalia Shortridge
+- Dan Smith
+- Jody Smith
+- Jason Sorens
+- Neil Sorens
+- John Steiger
+- Hope Mandolyn Stock
+- Cassie Swant
+- Stephanie Tarsel
+- Tailynn Tindall
+- Daryn Trout
+- Bryan Valentine
+- Sharla Waggoner
+- John Washam
+- Josh Weber
+- Matt Weber
+- Rachel Weber
+- Kevin Williams
+- Becky Wilmoth
+- Robyn Wilmoth
+- Bryan Wootton
+- Lisa Wootton
+- Veronica Worthey
+- Sarah Wright
+- Jennifer Zarro
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

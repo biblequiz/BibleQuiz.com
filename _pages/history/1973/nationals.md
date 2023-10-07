@@ -3,6 +3,51 @@ layout: page
 permalink: /history/1973/nationals/
 title: "1973 National Finals"
 date: "1973-07-11"
+quizzerIndex:
+- Brad Applegate
+- Gary Ayers
+- Greg Ayers
+- Tommy Ayers
+- David Baird
+- Rhonda Bibelheimer
+- Kathy Black
+- Sharon Blair
+- Dawn Borchers
+- Melody Borchers
+- Scott Borchers
+- Ray Brewer
+- Nancy Bush
+- Mark Calloway
+- Shirley Casteel
+- Debbie Cornell
+- Carolyn Crane
+- Veta Crouch
+- Vicki Crouch
+- Brenda Davidson
+- Tammy Davidson
+- Mike Dupree
+- David Fisher
+- Karen Forsgeren
+- Paul Horton
+- Dorcas Javes
+- Pam Jgo
+- Darius Johnston
+- Elwyn Johnston
+- Geraldine Jones
+- Gloria Jones
+- John Jordan
+- Steve Light
+- Susan Meadows
+- Don Pope
+- Phil Price
+- Marsha Savage
+- Sharon Smith
+- Susan Stanton
+- Robin Stearns
+- Sheryl Tedman
+- Peggy Wade
+- David Westman
+- Roger Wilson
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

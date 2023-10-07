@@ -3,6 +3,49 @@ layout: page
 permalink: /history/1966/nationals/
 title: "1966 National Finals"
 date: "1966-07-11"
+quizzerIndex:
+- Joyce Antin
+- Steven Antin
+- Willard Berndt
+- Wanda Bishop
+- Louis Bradley
+- Martha Bransford
+- Darrell Campbell
+- Jim Cheshier
+- Kathy Cheshier
+- Diane Claburn
+- Danny Cole
+- Di Ann Cole
+- Sharon Collier
+- Gerald Dailey
+- Danny Dorman
+- Marilyn Dorman
+- Jeanne Goodwin
+- Margaret Goodwin
+- William Harrelson
+- Lucy Holt
+- Darlene Jolley
+- Neal Jones
+- Philip King
+- Debbie Krapf
+- Dave Matheny
+- Bob McMillan
+- Susan McMillan
+- Steven Mills
+- Susan Paino
+- Steve Polk
+- Bobby Rayle
+- Yvanne Riggs
+- Bonnie Senf
+- Melody Senf
+- Ellen Shaver
+- Lilian Shaver
+- Larice Snoddy
+- Stephen Storms
+- Sharon Welch
+- Sheila Welch
+- Tracy Wilson
+- Sharon Workman
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

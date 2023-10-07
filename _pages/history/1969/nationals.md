@@ -3,6 +3,37 @@ layout: page
 permalink: /history/1969/nationals/
 title: "1969 National Finals"
 date: "1969-08-20"
+quizzerIndex:
+- Gloria Beal
+- Allen Belt
+- Phillip Blake
+- Leigh Ann Boettcher
+- Ron Boiter
+- Sharon Bolin
+- Mike Boyd
+- Carol Lee Carlson
+- Stan Carlson
+- Karen Casper
+- Deanna Catt
+- Kathy Cheshier
+- Danny Dorman
+- Terressa Dorman
+- Phil Fine
+- David Garrett
+- Joel Garrett
+- Larry Hickey
+- Sharon Lunis
+- Robert Mize
+- Marke Rawlings
+- David Shieck
+- Don Shieck
+- Mike Stearns
+- Opal Strawderman
+- Ricky Van Honn
+- Sharon Wall
+- David Wallace
+- Jackie Whorton
+- Linda Whorton
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

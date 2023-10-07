@@ -3,6 +3,49 @@ layout: page
 permalink: /history/1975/nationals/
 title: "1975 National Finals"
 date: "1975-08-13"
+quizzerIndex:
+- David Baird
+- Janie Bancroft
+- Priscilla Begay
+- David Brigham
+- Marilyn Casteel
+- Carolyn Crane
+- Gail Daniels
+- Phil DeBoef
+- Rose DeBoef
+- Donna Erby
+- Mark Gilmer
+- Debbie Hallford
+- David Harrison
+- Beth Henderson
+- Gloria Jones
+- John Jordan
+- David Joyner
+- Scott Klement
+- Dave Mann
+- Dianna Markert
+- Charylce Martin
+- Deonn McDowell
+- Dwila McDowell
+- Shirley McGaugh
+- Charlotte McNaul
+- Karen Mueller
+- Randy Rasey
+- Theresa Russell
+- Tim Sanders
+- Randy Shaffer
+- Scott Simmering
+- Pam Snook
+- Ross Stroud
+- Sue Talley
+- Cindy Thomas
+- David Westman
+- Rich Whipkey
+- Clayton White
+- Carol Williams
+- Brenda Wilson
+- Denis Wright
+- Ronnie Wright
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

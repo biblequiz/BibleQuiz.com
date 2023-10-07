@@ -3,6 +3,52 @@ layout: page
 permalink: /history/1967/nationals/
 title: "1967 National Finals"
 date: "1967-08-26"
+quizzerIndex:
+- Dennis Anderson
+- Joyce Antin
+- Steven Antin
+- Mike Barry
+- Beverly Belau
+- Joyce Bell
+- Valerie Bell
+- Wanda Bishop
+- Debbie Burchett
+- Rachel Burford
+- Danny Cole
+- Martie Crawford
+- Claudette Dacus
+- Doug Duncan
+- Linda Eggernd
+- Dawna Beth Eukel
+- Derf Eukel
+- Paula Frost
+- Kay Lynn Guerin
+- Dennis Hancock
+- Neal Jones
+- Philip King
+- Joan Kingsriter
+- John Lundquist
+- Ronnie Maddux
+- Ronnie Mann
+- Buddy Martinez
+- Louise Martinez
+- Kathleen McMurray
+- Larry Meadows
+- Jennifer Overton
+- Jim Paino
+- Tim Paino
+- Dale Parrott
+- Jim Richardson
+- Davie Rothford
+- Paula Sjelin
+- Debbie Smith
+- Nancy St. George
+- Jimmy Stephens
+- Carol Turnbull
+- Wayne Wells
+- Donna Winter
+- Sharon Workman
+- Denise Yoder
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
