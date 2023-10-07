@@ -4,31 +4,25 @@ permalink: /history/1979/nationals/
 title: "1979 National Finals"
 date: "1979-08-15"
 quizzerIndex:
-- John Bayko
 - John D. Bayko
 - Ceri Beach
 - Tim Bender
-- Bill DeSoto
 - Brad Dorsey
-- Mark Gilmer
 - Karen Harp
 - Warren Hazard
 - Rebecca Heacock
 - Beverly Houger
 - Kav Jackson
 - Louie Jackson
-- Greg Kelley
 - Maureen Kellogg
 - Mark Kingsley
 - Lisa Landrum
 - Rick Landrum
-- Rhett Laurens
 - Jonathan Love
 - Linda Malone
 - Rich Maxwell
 - Donnie Miller
 - Brenda Miltenberger
-- Randy Moss
 - Billy Muniz
 - Carmen Muniz
 - Danny Muniz

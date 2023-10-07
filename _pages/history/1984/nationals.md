@@ -14,9 +14,6 @@ quizzerIndex:
 - Wendy Courville
 - Chris Crawford
 - Jacinda Curtis
-- Jennifer Curtis
-- Sean Davis
-- Kevin DeWeber
 - Kristi DeWeber
 - Ann Duvarney
 - Robbie Egan
@@ -42,10 +39,8 @@ quizzerIndex:
 - Matt Laurens
 - Rob Laurens
 - Amy Leichsenring
-- Joseph Leija
 - Laurie Long
 - Chad Lorion
-- David Lowe
 - Korrie Maloney
 - Patti Moreland
 - Laurie Nettles
@@ -54,7 +49,6 @@ quizzerIndex:
 - JR Phillips
 - Tami Phillips
 - Dave Pilcher
-- Tali Poulson
 - Bryan Quigley
 - Faith Reichert
 - Doug Rinearson
@@ -67,15 +61,12 @@ quizzerIndex:
 - Russell Steponic
 - Terry Stout
 - Lisa Szymakowski
-- Jerome Tang
 - Mark Tang
-- Keith Turner
 - Kim Utt
 - Aaron Wagar
 - Grover Walters
 - Stephen Williams
 - Heather Witty
-- John Wootton
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

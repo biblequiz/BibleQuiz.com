@@ -8,11 +8,8 @@ quizzerIndex:
 - David Basel
 - Timothy Bender
 - Evelyn Bishopp
-- Jim Brent
 - Tim Brent
-- Kari Brodin
 - Michael Cocolin
-- Mike Cocolin
 - Nancy Cocolin
 - Lynda Ernst
 - Mark Gilmer
@@ -20,10 +17,8 @@ quizzerIndex:
 - Darryl Hudson
 - Terri Hungate
 - Jacque Johnston
-- Greg Kelley
 - Maureen Kellog
 - Rick Landrum
-- Rhett Laurens
 - John McGough
 - Brenda Miltenberger
 - Billy Muniz
@@ -35,7 +30,6 @@ quizzerIndex:
 - James T. Pyles
 - Dessita Rury
 - Marsha Rury
-- Sherah Rury
 - Ernie Shockey
 - Keith Short
 - Scott Simmering
@@ -46,7 +40,6 @@ quizzerIndex:
 - Billy Wissinger
 - Kurt Woffram
 - Denis Wright
-- Ronnie Wright
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

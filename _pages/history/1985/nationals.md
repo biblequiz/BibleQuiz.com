@@ -4,38 +4,31 @@ permalink: /history/1985/nationals/
 title: "1985 National Finals"
 date: "1985-08-07"
 quizzerIndex:
-- Lori Barnes
 - Steve Beeman
 - Chris Borges
 - Paul Bovee
-- Nicole Brandon
 - Tamara Brent
 - Beverly Burk
 - Angela Carson
 - Lance Christiansen
 - Lara Christiansen
-- Lea Coate
 - Lee Coate
 - Robin Coleman
 - Davina Collins
 - Wendy Courville
 - Daniel Cowan
-- Lester Cowan
 - Robert Cramer
 - Thomas Darby
-- Sean Davis
 - Robbie Egan
 - Shannon Egan
 - Tammy Ellison
 - Tammy Foley
 - Tina Gavis
-- Jeff Gibson
 - Chad Gilligan
 - Echo Grey
 - Pennie Hamack
 - Pat Hartsfield
 - Teri Hayward
-- Becky Henderson
 - Melissa Henderson
 - Karmel Herring
 - Adam Hughen
@@ -47,7 +40,6 @@ quizzerIndex:
 - Troy Jones
 - Matt Laurens
 - Rob Laurens
-- Joseph Leija
 - Jason Leland
 - Kyla Litterall
 - Todd Medley
@@ -77,7 +69,6 @@ quizzerIndex:
 - Mark Tang
 - Mark Triner
 - Keith Turner
-- Kim Utt
 - Tricia Vincent
 - Aaron Wagar
 - Grover Walters
@@ -87,7 +78,6 @@ quizzerIndex:
 - Stacy Wright
 - Sharmel Wyatt
 - Lori Yost
-- Tammy Yost
 - Kirsten Zeller
 toc_title: Results
 menubar_toc: true
