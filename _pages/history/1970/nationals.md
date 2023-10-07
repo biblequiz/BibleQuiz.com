@@ -3,6 +3,52 @@ layout: page
 permalink: /history/1970/nationals/
 title: "1970 National Finals"
 date: "1970-08-12"
+quizzerIndex:
+- Sandy Alexander
+- Carmen Assunto
+- Carrie Copeland
+- Claudette Dacus
+- Rhett Dacus
+- Don Douglas
+- Marsha Fisher
+- Betty Gonzales
+- Kathy Hamilton
+- Ed Hartman
+- Larry Hartman
+- Sherry Hartman
+- Sheila Hays
+- Dwayne Henson
+- Mike Henson
+- Wanda Hopkins
+- Darlene Houk
+- Connie Humphreys
+- Joe Jorris
+- Eugene Kelsey
+- Bob Kuehl
+- Kirk McCool
+- Randy Mesler
+- Blair Overturf
+- Gwen Overturf
+- Jim Palmer
+- John Palmer
+- Alva Perry
+- Vernel Perry
+- Becky Peterson
+- Barbara Plaisance
+- Dawn Plumb
+- Sheila Prophitt
+- Marke Rawlings
+- Jake Reidt
+- Shelly Reidt
+- Sherry Reidt
+- Deborah Richards
+- Teresa Richards
+- Pat Stevens
+- Ken Summers
+- Rick Thompson
+- Cathy Whorton
+- Jackie Whorton
+- Linda Whorton
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

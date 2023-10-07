@@ -3,6 +3,50 @@ layout: page
 permalink: /history/1972/nationals/
 title: "1972 National Finals"
 date: "1972-07-11"
+quizzerIndex:
+- Eddie Adams
+- Joyce Bayes
+- Susan Belcher
+- Kathy Black
+- Ron Boiter
+- David Carpentier
+- Mary Ann Chambers
+- Brad Cowles
+- Steve Decker
+- Margaret Drake
+- Lois Ephraim
+- Eddie Garrett
+- Danny Gifford
+- Larry Grant
+- Debbie Harrelson
+- Cheri Hartman
+- Donna Hawkins
+- Faith Hedrick
+- Mary Hong
+- Robert Hong
+- Paul Horton
+- Cindy Johnson
+- Darius Johnson
+- Elwyn Johnson
+- Jeannette LeBlance
+- Susan Miller
+- Markie Mitchell
+- Barbie Patz
+- Angela Pennington
+- Don Pope
+- Connie Ray
+- Angie Sennese
+- Melody Shaw
+- Connie Storms
+- Marcia Storms
+- Maury Stout
+- Darice Teate
+- Donna Watson
+- Ivan Weller
+- Jackie Whorton
+- Jere Williams
+- Tracy Wilson
+- Tommy Winstead
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

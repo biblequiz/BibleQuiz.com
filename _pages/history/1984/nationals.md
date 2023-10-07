@@ -3,6 +3,79 @@ layout: page
 permalink: /history/1984/nationals/
 title: "1984 National Finals"
 date: "1984-08-14"
+quizzerIndex:
+- Sharon Berry
+- Brad Brager
+- Tamara Brent
+- Geoff Bretches
+- Brett Buchanan
+- Angela Carson
+- Duane Colvin
+- Wendy Courville
+- Chris Crawford
+- Jacinda Curtis
+- Jennifer Curtis
+- Sean Davis
+- Kevin DeWeber
+- Kristi DeWeber
+- Ann Duvarney
+- Robbie Egan
+- Brenda Emerick
+- David Ertman
+- Dave Faris
+- Jason Finley
+- Tami Follett
+- Julie Freitag
+- Karen Friedman
+- David Gates
+- Wilbur Gayle
+- Lisa Gray
+- Dave Hanson
+- Nancy Hershner
+- Nancy Horn
+- Babs Johnson
+- Jan Johnson
+- Lyn Johnson
+- Troy Jones
+- Sherri Keith
+- Brian Kostanowski
+- Matt Laurens
+- Rob Laurens
+- Amy Leichsenring
+- Joseph Leija
+- Laurie Long
+- Chad Lorion
+- David Lowe
+- Korrie Maloney
+- Patti Moreland
+- Laurie Nettles
+- Shari Overby
+- Matt Pfister
+- JR Phillips
+- Tami Phillips
+- Dave Pilcher
+- Tali Poulson
+- Bryan Quigley
+- Faith Reichert
+- Doug Rinearson
+- Barbara Rivera
+- Eric Sand
+- Sandy Sands
+- Reina Santiago
+- Tim Skeie
+- Dottie Starling
+- Russell Steponic
+- Terry Stout
+- Lisa Szymakowski
+- Jerome Tang
+- Mark Tang
+- Keith Turner
+- Kim Utt
+- Aaron Wagar
+- Grover Walters
+- Stephen Williams
+- Heather Witty
+- John Wootton
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

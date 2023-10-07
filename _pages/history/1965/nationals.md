@@ -3,6 +3,49 @@ layout: page
 permalink: /history/1965/nationals/
 title: "1965 National Finals"
 date: "1965-08-28"
+quizzerIndex:
+- Jennifer Arnold
+- Barbara Ashley
+- Jeanne Ashley
+- Karen Beckham
+- Paula Beckham
+- Peggy Bevard
+- Martha Bransford
+- Steven Bransford
+- Cheryl Calvert
+- Cathy Cheshier
+- Jim Cheshier
+- Paula Compton
+- Ernie Conduff
+- Danny Dorman
+- Patti Dorman
+- Dave Field
+- David Garrett
+- Gale Garrett
+- Gary Garrett
+- Marc Gaston
+- Paul Gaston
+- Margaret Goodwin
+- Arnie Gustafson
+- Billy Hallman
+- Marie Handley
+- David Holliday
+- Donna Kroll
+- Rusty Laurens
+- Steve Mills
+- Wayne Parker
+- Susan Parr
+- Mary Ravenscrost
+- Cathy Scobey
+- Lillian Shaver
+- Ann Sorensen
+- Stan Sorensen
+- Steve Sorensen
+- Marlene Thomas
+- Jimmie Lee Timmons
+- Angela White
+- Eddie Yerton
+- Carol York
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

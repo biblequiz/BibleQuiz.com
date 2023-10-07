@@ -3,6 +3,87 @@ layout: page
 permalink: /history/1989/nationals/
 title: "1989 National Finals"
 date: "1989-08-11"
+quizzerIndex:
+- Chris Aou
+- Mel Aou
+- Chris Ayers
+- Deanna Besaw
+- Maureen Billings
+- Jeremy Black
+- Jeff Bogar
+- Blake Brumbalow
+- Travis Button
+- Jessica Caldwell
+- Jason Campbell
+- Jon Catron
+- Steve Chaney
+- Mark Childers
+- David Conaway
+- Michelle Duff
+- John Durham
+- Sean Ellars
+- Casey Elledge
+- David Garth
+- Chad Gilligan
+- Joy Gilmer
+- Patty Harper
+- David Hatley
+- Kari Hedge
+- Sara Hill
+- Lori Holbrook
+- David Holt
+- Melissa Holt
+- Thomas Holt
+- Paul Hudson Jr.
+- Kimberly Huskey
+- Shane Johnson
+- Justin Jones
+- Chad Katter
+- Karen Kish
+- Andrew Knaff
+- Rebecca Knaff
+- Jennifer Kruger
+- JoEllyn Kruger
+- Joy Kuroishi
+- Chuck Laurens
+- Renee Loomis
+- Sarah Martin
+- Bryan Martindale
+- Michelle Martindale
+- Lyra Mesnar
+- Shawn Neumayer
+- Megan Newman
+- Todd Nichols
+- Brian Opbroek
+- Adrianna Oyola
+- Eliezer Oyola
+- Melissa Paton
+- Alice Pauly
+- Heather Pauly
+- Mo Pauly
+- Cindy Phillips
+- Jerry Pugh
+- Kevin Revell
+- Joy Rosenberg
+- Erica Rybak
+- Steve Schweitzer
+- Christy Shedd
+- Rachel Simpson
+- Ricky Simpson
+- Eric Sitcler
+- John Sitcler
+- Mike Smith
+- David Stegall
+- Dana Stern
+- Geen Thazhampallath
+- DiRon Van Wagner
+- Robyn Wilmoth
+- Eric Wissner
+- Vanessa Wissner
+- Melanie Yenca
+- Stanley Yost
+- Tammy Yost
+- Cathy Young
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

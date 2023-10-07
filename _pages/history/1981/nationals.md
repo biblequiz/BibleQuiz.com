@@ -3,6 +3,52 @@ layout: page
 permalink: /history/1981/nationals/
 title: "1981 National Finals"
 date: "1981-08-14"
+quizzerIndex:
+- Pam Adamson
+- Bill Barnes
+- Shirley Barnes
+- John D. Bayko
+- Jon Bergman
+- Kari Brodin
+- Chris Bustrak
+- Angela Carson
+- Maria Cohilas
+- Jennifer Curtis
+- Sean Davis
+- Charissa Dennis
+- Adrian Edwards
+- Craig Edwards
+- Carol Elmgren
+- Diane Elmgren
+- Melissa Elmgren
+- Denise Franklin
+- Andy Gaidurgis
+- Mark Gilmer
+- Duane Graves
+- Marsha Hamilton
+- Ken Henderson
+- Sarah Johansson
+- Rhett Laurens
+- Rob Laurens
+- Paul Lewis
+- Tavia Lewis
+- Linda Malone
+- Paula Mickley
+- Kevin Montgomery
+- Ken Mullinax
+- Travis Neihaus
+- Mark Quinn
+- Desiree Rider
+- Fari Rider
+- Kari Rider
+- Darla Rotharmel
+- DeAnn Shoemaker
+- Rocky Tom
+- Cindi Tucker
+- Brian Weeks
+- Kevin Weeks
+- Andrea Williamson
+- David Zumbro
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

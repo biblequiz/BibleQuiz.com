@@ -3,6 +3,52 @@ layout: page
 permalink: /history/1971/nationals/
 title: "1971 National Finals"
 date: "1971-08-18"
+quizzerIndex:
+- Glen Anderson
+- Kandace Anderson
+- Bonnie Bands
+- Jeff Bass
+- Rick Cagle
+- Debbie Carlson
+- Mary Ann Chambers
+- Doug Davis
+- Mike Drew
+- Doug Duncan
+- Nancy Everett
+- Linda Flaloe
+- Betty Frear
+- Mary Guterin
+- Sheila Hamlette
+- Debbie Harrelson
+- Penny Hibbs
+- Darius Johnston
+- Dian Johnston
+- Elwyn Johnston
+- Barry Jorris
+- Joe Jorris
+- Barry Latimer
+- Lauri Leichty
+- David Lingle
+- Diana Mahl
+- Sherrie Mahl
+- Marion Mallett
+- Joe Mantorani
+- Gail McDaniel
+- Becky Peterson
+- Marke Rawlings
+- Gayeltte Richarson
+- Phil Ryhkoek
+- Charlene Schlute
+- Jimmy Simons
+- Jimmy Stephens
+- Bruce Tanke
+- Danita Tate
+- Becky Thompson
+- Rick Thompson
+- Yvonne Thompson
+- Donna Watson
+- Jackie Whorton
+- Linda Whorton
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
