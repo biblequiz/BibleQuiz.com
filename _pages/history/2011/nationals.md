@@ -2445,11 +2445,11 @@ Lacey Cowan
   * Carolyn Laughlin (assistant)
   * Susan Witter (assistant): 5 years coaching, first time at Nationals.
 * **Team**:
-Carley Trammell: 5 years. 2 times at Nationals.
-Kory Witter: 3 years. First time at Nationals, received the National Memorization Award 2 times.
-Kyle Witter: 5 years. First time at Nationals, received the National Memorization Award 5 times and the Master Memorization Award once.
-Madison Laughlin: 4 years. First time at Nationals.
-Marin Laughlin: 3 years. First time at Nationals.
+    * Carley Trammell: 5 years. 2 times at Nationals.
+    * Kory Witter: 3 years. First time at Nationals, received the National Memorization Award 2 times.
+    * Kyle Witter: 5 years. First time at Nationals, received the National Memorization Award 5 times and the Master Memorization Award once.
+    * Madison Laughlin: 4 years. First time at Nationals.
+    * Marin Laughlin: 3 years. First time at Nationals.
 * **Preliminaries**:
   * Round 1: Lost to Dayspring A/G, Bowling Green, OH 60 to 185
   * Round 2: Lost to Word of Life Church, Springfield, VA 115 to 160

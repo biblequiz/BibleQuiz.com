@@ -1687,7 +1687,7 @@ Angela Goodman
 * **Team**:
     * Jessica Sobkowiak
     * Sara Sobkowiak
-Brianna Grantham
+    * Brianna Grantham
 * **Round Robin**:
   * Round 1: Won against Southside A/G, Jackson, MS 80 to 75
   * Round 2: Lost to Calvary A/G, DeMotte, IN 70 to 115

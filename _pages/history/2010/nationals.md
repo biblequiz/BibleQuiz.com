@@ -1468,9 +1468,9 @@ During the quote-a-thon, when the quizzers ask for sponsors, they often quote so
   * Darlene Brower (assistant): She has coached for eight years, four times at Nationals.
   * Vivian Hains(assistant): She has coached for three years, each time at Nationals.
 * **Team**:
-  * Cara Brower - This is her fifth year of quizzing and her third at Nationals. She received her NMA this year.
-  * Ashleigh Weatherholtz - This is her fifth year of quizzing and her first at Nationals.
-  * Catherine Hains - This is her fourth year of quizzing and her third at Nationals. She received both her NMA and her MMA this year.
+    * Cara Brower: Fifth year of quizzing and her third at Nationals. She received her NMA this year.
+    * Ashleigh Weatherholtz: Fifth year of quizzing and her first at Nationals.
+    * Catherine Hains: Fourth year of quizzing and her third at Nationals. She received both her NMA and her MMA this year.
 * **Preliminaries**:
   * Round 1: Lost to Central A/G, Springfield, MO 145 to 160
   * Round 2: Won against CrossPoint A/G, Portage, WI 210 to 40
