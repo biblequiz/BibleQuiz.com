@@ -3,6 +3,8 @@ layout: page
 permalink: /history/1997/memories/joey-bohanon/
 title: "1997 Nationals - Joey Bohanon's Memories"
 author: Joey Bohanon
+quizzerIndex:
+- Joey Bohanon
 menubar_toc: true
 menubar_toc_static:
 - items:

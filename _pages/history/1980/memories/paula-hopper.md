@@ -3,6 +3,8 @@ layout: page
 permalink: /history/1980/memories/paula-hopper/
 title: "1980 Nationals - Paula Hopper's Memories"
 author: Paula Hopper
+quizzerIndex:
+- Paula Hopper
 menubar_toc: true
 menubar_toc_static:
 - items:

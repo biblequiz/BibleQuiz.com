@@ -3,6 +3,8 @@ layout: page
 permalink: /history/1975/memories/tim/
 title: "1975 Nationals - Tim McDaniel's Memories"
 author: Tim McDaniel
+quizzerIndex:
+- Tim McDaniel
 menubar_toc: true
 menubar_toc_static:
 - items:

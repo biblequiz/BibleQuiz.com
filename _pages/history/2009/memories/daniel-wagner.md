@@ -3,6 +3,8 @@ layout: page
 permalink: /history/2009/memories/daniel-wagner/
 title: "2009 Nationals - Daniel Wagner's Memories"
 author: Daniel Wagner
+quizzerIndex:
+- Daniel Wagner
 menubar_toc: true
 menubar_toc_static:
 - items:

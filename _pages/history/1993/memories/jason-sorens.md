@@ -3,6 +3,8 @@ layout: page
 permalink: /history/1993/memories/jason-sorens/
 title: "1993 Nationals - Jason Sorens' Memories"
 author: Jason Sorens
+quizzerIndex:
+- Jason Sorens
 menubar_toc: true
 menubar_toc_static:
 - items:

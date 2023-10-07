@@ -3,6 +3,8 @@ layout: page
 permalink: /history/2007/memories/jesse-czubkowski/
 title: "2007 Nationals - Jesse Czubkowski's Memories"
 author: Jesse Czubkowski
+quizzerIndex:
+- Jesse Czubkowski
 menubar_toc: true
 menubar_toc_static:
 - items:

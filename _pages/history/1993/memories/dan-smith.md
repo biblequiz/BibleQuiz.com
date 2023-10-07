@@ -3,6 +3,8 @@ layout: page
 permalink: /history/1993/memories/dan-smith/
 title: "1993 Nationals - Dan Smith's Memories"
 author: Dan Smith
+quizzerIndex:
+- Dan Smith
 menubar_toc: true
 menubar_toc_static:
 - items:

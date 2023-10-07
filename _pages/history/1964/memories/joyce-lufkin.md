@@ -3,6 +3,8 @@ layout: page
 permalink: /history/1964/memories/joyce-lufkin/
 title: "1964 Nationals - Joyce Lufkin's Memories"
 author: Joyce Lufkin
+quizzerIndex:
+- Joyce Lufkin
 menubar_toc: true
 menubar_toc_static:
 - items:
