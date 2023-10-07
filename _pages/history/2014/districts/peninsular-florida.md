@@ -45,7 +45,7 @@ menubar_toc_static:
 |   10 | Daniel Adewunmi    | Wesley Chapel #1 | Victorious Life Church |   145 |  24.17 |      |
 |   11 | Levi Anderson      | Sanford          | City Church            |   120 |     20 |      |
 |   12 | Michael Davis      | Clermont         | GateWay Church         |   110 |  18.33 |      |
-|   13 | Olepero Adewunmi   | Wesley Chapel #1 | Victorious Life Church |    75 |   12.5 |      |
+|   13 | Olupero Adewunmi   | Wesley Chapel #1 | Victorious Life Church |    75 |   12.5 |      |
 |   14 | Peyton Goss        | Sanford          | City Church            |    65 |  10.83 |      |
 |   15 | Shea Ireland       | Wesley Chapel #1 | Victorious Life Church |    60 |     10 |      |
 |   16 | Lorena Lee         | Jacksonville     | Freedom Christian      |    30 |      5 |      |

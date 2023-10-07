@@ -111,25 +111,25 @@ menubar_toc_static:
 
 ### Top Individuals
 
-|    # | Quizzer               | Team                                                 | Total |   QO |   Avg |
-| ---: | --------------------- | ---------------------------------------------------- | ----: | ---: | ----: |
-|    1 | Chris Galea           | Praise A/G, Garfield, NJ                             |  1190 |    9 | 85.00 |
-|    2 | Zach Misak            | South Hills A/G, Bethel Park "Ambassadors in Chains" |  1070 |    8 | 76.43 |
-|    3 | Mary Mox              | Covenant Fellowship, Glen Mills "Adelphoi"           |  1035 |    8 | 73.93 |
-|    4 | Robbie Mitchell       | Praise A/G, Garfield, NJ                             |   735 |    8 | 52.50 |
-|    5 | Jacob Schwalm         | Living Waters Chapel, Lebanon "Indecisive Discipler" |   655 |    4 | 46.79 |
-|    6 | Natasha Conerly       | Word of Life, Springfield, VA                        |   585 |    5 | 41.79 |
-|    7 | Josiah Renz           | Greece A/G, Rochester, NY                            |   535 |    5 | 38.21 |
-|    8 | Abhishek Mathews      | Word of Life, Springfield, VA                        |   490 |    3 | 35.00 |
-|    9 | Ian Dickey            | South Hills A/G, Bethel Park "Ambassadors in Chains" |   290 |    2 | 20.71 |
-|   10 | Kelsey Gentry         | The Worship Center, Leesburg VA                      |   285 |    1 | 20.36 |
-|   11 | Joshua Hummel         | Living Waters Chapel, Lebanon "Indecisive Discipler" |   285 |    1 | 20.36 |
-|   12 | Martha Machowski      | Covenant Fellowship, Glen Mills "Adelphoi"           |   270 |    1 | 19.29 |
-|   13 | Christine O'Mara      | The Worship Center, Leesburg VA                      |   240 |    1 | 17.14 |
-|   14 | Ethan Holmes          | Houlton Assembly of God, Houlton, ME                 |   230 |    1 | 16.43 |
-|   15 | Seth Bartynski        | Emmanuel A/G, Allentown "G.U.E.S.S."                 |   195 |    1 | 13.93 |
-|   16 | Hannah Barton         | Evangel Heights A/G, Sarver "I Do Not Know"          |   145 |    0 | 10.36 |
-|   17 | Maryanne Rauschenbach | Bethany A/G, Wyckoff, NJ                             |   135 |    0 |  9.64 |
-|   18 | Jonathan Anischenko   | South Hills A/G, Bethel Park "Ambassadors in Chains" |   115 |    0 |  8.21 |
-|   19 | Rebecca Robles        | Evangel Heights A/G, Sarver "I Do Not Know"          |   110 |    0 |  7.86 |
-|   20 | Noah Renz             | Greece A/G, Rochester, NY                            |   100 |    0 |  7.14 |
+|    # | Quizzer              | Team                                                 | Total |   QO |   Avg |
+| ---: | -------------------- | ---------------------------------------------------- | ----: | ---: | ----: |
+|    1 | Chris Galea          | Praise A/G, Garfield, NJ                             |  1190 |    9 | 85.00 |
+|    2 | Zach Misak           | South Hills A/G, Bethel Park "Ambassadors in Chains" |  1070 |    8 | 76.43 |
+|    3 | Mary Mox             | Covenant Fellowship, Glen Mills "Adelphoi"           |  1035 |    8 | 73.93 |
+|    4 | Robbie Mitchell      | Praise A/G, Garfield, NJ                             |   735 |    8 | 52.50 |
+|    5 | Jacob Schwalm        | Living Waters Chapel, Lebanon "Indecisive Discipler" |   655 |    4 | 46.79 |
+|    6 | Natasha Conerly      | Word of Life, Springfield, VA                        |   585 |    5 | 41.79 |
+|    7 | Josiah Renz          | Greece A/G, Rochester, NY                            |   535 |    5 | 38.21 |
+|    8 | Abhishek Mathews     | Word of Life, Springfield, VA                        |   490 |    3 | 35.00 |
+|    9 | Ian Dickey           | South Hills A/G, Bethel Park "Ambassadors in Chains" |   290 |    2 | 20.71 |
+|   10 | Kelsey Gentry        | The Worship Center, Leesburg VA                      |   285 |    1 | 20.36 |
+|   11 | Joshua Hummel        | Living Waters Chapel, Lebanon "Indecisive Discipler" |   285 |    1 | 20.36 |
+|   12 | Martha Machowski     | Covenant Fellowship, Glen Mills "Adelphoi"           |   270 |    1 | 19.29 |
+|   13 | Christine O'Mara     | The Worship Center, Leesburg VA                      |   240 |    1 | 17.14 |
+|   14 | Ethan Holmes         | Houlton Assembly of God, Houlton, ME                 |   230 |    1 | 16.43 |
+|   15 | Seth Bartynski       | Emmanuel A/G, Allentown "G.U.E.S.S."                 |   195 |    1 | 13.93 |
+|   16 | Hannah Barton        | Evangel Heights A/G, Sarver "I Do Not Know"          |   145 |    0 | 10.36 |
+|   17 | Maryann Rauschenbach | Bethany A/G, Wyckoff, NJ                             |   135 |    0 |  9.64 |
+|   18 | Jonathan Anischenko  | South Hills A/G, Bethel Park "Ambassadors in Chains" |   115 |    0 |  8.21 |
+|   19 | Rebecca Robles       | Evangel Heights A/G, Sarver "I Do Not Know"          |   110 |    0 |  7.86 |
+|   20 | Noah Renz            | Greece A/G, Rochester, NY                            |   100 |    0 |  7.14 |

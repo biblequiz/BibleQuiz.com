@@ -111,7 +111,7 @@ The winner of the 2004 National Bible Quiz Individual Tournament was David Dorey
 |       34 | Brittanica Chesser  | Indianapolis IN Calvary |   530 |  27.89 |      2 |     1 |
 |       35 | Joshua Slater       | Nixa MO                 |   530 |  27.89 |      1 |     6 |
 |       36 | Dave Richmond       | Spring City PA          |   515 |  27.11 |      2 |     1 |
-|       37 | Ibukin Akindele     | Houston TX              |   495 |  26.05 |      1 |     1 |
+|       37 | Ibukun Akindele     | Houston TX              |   495 |  26.05 |      1 |     1 |
 |       38 | Chris Morante       | Monroeville PA          |   470 |  24.74 |        |     1 |
 |       39 | Gina Fortunato      | Dunwoody GA             |   425 |  22.37 |        |     1 |
 |       40 | Spencer Newman      | Superior WI             |   420 |  22.11 |      1 |     1 |

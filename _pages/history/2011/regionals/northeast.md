@@ -34,57 +34,57 @@ menubar_toc_static:
 
 ### Individuals
 
-|    # | Quizzer            | Team                                   | Total |   QO |  Avg |
-| ---: | ------------------ | -------------------------------------- | ----: | ---: | ---: |
-|    1 | Catherine Hains    | Manassas A/G, Manassas, VA             |  1470 |   11 |  123 |
-|    2 | Isaac Ward         | First A/G, Binghamton, NY              |  1265 |   10 |  105 |
-|    3 | Kyler Sederwall    | Praise A/G, Garfield, NJ "Taste Death" |  1235 |   11 |  103 |
-|    4 | Justin Czubkowski  | Praise A/G, Garfield, NJ "Taste Death" |  1040 |   10 |   87 |
-|    5 | Jonathan Brown     | Walnut Grove A/G, West Mifflin, PA "B  |  1005 |    8 |   84 |
-|    6 | Joshua Inyangson   | Word of Life, Springfield, VA          |   945 |    6 |   79 |
-|    7 | Dana Warnock       | Journey Church, Bridgeville, PA "Witho |   945 |    5 |   79 |
-|    8 | Aaron Scarinzi     | First A/G, Binghamton, NY              |   915 |   10 |   76 |
-|    9 | Colton Bononi      | Journey Church, Bridgeville, PA "Witho |   875 |    7 |   73 |
-|   10 | Kayla Hill         | Living Hope Worship Center, Swedesb    |   850 |    8 |   71 |
-|   11 | Santosh Mathews    | Word of Life, Springfield, VA          |   770 |    5 |   64 |
-|   12 | Jared Hill         | Living Hope Worship Center, Swedesb    |   750 |    7 |   63 |
-|   13 | Rachael Stewart    | Bethany Church, Wyckoff, NJ            |   620 |    6 |   52 |
-|   14 | Rebecca Ford       | Bethlehem Church, Richmond Hill, NY    |   615 |    6 |   51 |
-|   15 | Sam York           | Word of Life, Springfield, VA          |   590 |    5 |   49 |
-|   16 | Christopher Galea  | Praise A/G, Garfield, NJ "Taste Death" |   585 |    6 |   49 |
-|   17 | Kija Nivala        | Vineyard Haven A/G, Vineyard Haven     |   570 |    4 |   48 |
-|   18 | Rachael Singh      | Bethlehem Church, Richmond Hill, NY    |   460 |    1 |   38 |
-|   19 | Caleb Pons         | State College A/G, State College, PA " |   370 |    4 |   31 |
-|   20 | Jonathan Kelly     | Walnut Grove A/G, West Mifflin, PA "B  |   355 |    1 |   30 |
-|   21 | Connor O'Keefe     | Journey Church, Bridgeville, PA "Witho |   320 |    4 |   27 |
-|   22 | Chase Hill         | Living Hope Worship Center, Swedesb    |   320 |    2 |   27 |
-|   23 | Nick DePasquale    | Full Gospel Church, Livingston, NJ     |   315 |    1 |   26 |
-|   24 | Kristyn Jones      | Manassas A/G, Manassas, VA             |   275 |    1 |   23 |
-|   25 | Vincent Okafor     | Bethlehem Church, Richmond Hill, NY    |   255 |    1 |   21 |
-|   26 | Robbie Mitchell    | Bethany Church, Wyckoff, NJ            |   245 |    0 |   20 |
-|   27 | Jordanne Prime     | Bethlehem Church, Richmond Hill, NY    |   235 |    1 |   20 |
-|   28 | Nathan Kiner       | Evangel A/G, Ephrata, PA "Simon Say    |   210 |    1 |   18 |
-|   29 | Zerubabbel Tessema | Word of Life, Springfield, VA          |   185 |    2 |   15 |
-|   30 | Melody Asper       | Evangel A/G, Ephrata, PA "Simon Say    |   145 |    0 |   12 |
-|   31 | Victoria Thee      | Manassas A/G, Manassas, VA             |   140 |    0 |   12 |
-|   32 | Cynthia Earl       | Evangel A/G, Ephrata, PA "Simon Say    |    85 |    0 |    7 |
-|   33 | Benjamin Nivala    | Vineyard Haven A/G, Vineyard Haven     |    80 |    0 |    7 |
-|   34 | Kerry O'Bannon     | Manassas A/G, Manassas, VA             |    50 |    0 |    4 |
-|   35 | Osasha London      | Full Gospel Church, Livingston, NJ     |    30 |    0 |    3 |
-|   36 | Reyna Martin       | Full Gospel Church, Livingston, NJ     |    30 |    0 |    3 |
-|   37 | Stephen Pitterle   | State College A/G, State College, PA " |    15 |    0 |    1 |
-|   38 | Jessica Kelly      | Walnut Grove A/G, West Mifflin, PA "B  |    10 |    0 |    1 |
-|   39 | Omari Dixon        | Bethlehem Church, Richmond Hill, NY    |    10 |    0 |    1 |
-|   40 | Liz DePasquale     | Full Gospel Church, Livingston, NJ     |    10 |    0 |    1 |
-|   41 | Trey Sederwall     | Praise A/G, Garfield, NJ "Taste Death" |    10 |    0 |    1 |
-|   42 | David Bambilla     | Full Gospel Church, Livingston, NJ     |     5 |    0 |    0 |
-|   43 | Maryanne Raushenb  | aBethany Church, Wyckoff, NJ           |     0 |    0 |    0 |
-|   44 | Rebekah Welesko    | Journey Church, Bridgeville, PA "Witho |     0 |    0 |    0 |
-|   45 | Anna Moyer         | State College A/G, State College, PA " |     0 |    0 |    0 |
-|   46 | Liz Smith          | State College A/G, State College, PA " |     0 |    0 |    0 |
-|   47 | Abhishek Mathews   | Word of Life, Springfield, VA          |     0 |    0 |    0 |
-|   48 | Jessica Fenton     | State College A/G, State College, PA " |    -5 |    0 |    0 |
-|   49 | Megan Steves       | Living Hope Worship Center, Swedesb    |   -10 |    0 |   -1 |
+|    # | Quizzer              | Team                                   | Total |   QO |  Avg |
+| ---: | -------------------- | -------------------------------------- | ----: | ---: | ---: |
+|    1 | Catherine Hains      | Manassas A/G, Manassas, VA             |  1470 |   11 |  123 |
+|    2 | Isaac Ward           | First A/G, Binghamton, NY              |  1265 |   10 |  105 |
+|    3 | Kyler Sederwall      | Praise A/G, Garfield, NJ "Taste Death" |  1235 |   11 |  103 |
+|    4 | Justin Czubkowski    | Praise A/G, Garfield, NJ "Taste Death" |  1040 |   10 |   87 |
+|    5 | Jonathan Brown       | Walnut Grove A/G, West Mifflin, PA "B  |  1005 |    8 |   84 |
+|    6 | Joshua Inyangson     | Word of Life, Springfield, VA          |   945 |    6 |   79 |
+|    7 | Dana Warnock         | Journey Church, Bridgeville, PA "Witho |   945 |    5 |   79 |
+|    8 | Aaron Scarinzi       | First A/G, Binghamton, NY              |   915 |   10 |   76 |
+|    9 | Colton Bononi        | Journey Church, Bridgeville, PA "Witho |   875 |    7 |   73 |
+|   10 | Kayla Hill           | Living Hope Worship Center, Swedesb    |   850 |    8 |   71 |
+|   11 | Santosh Mathews      | Word of Life, Springfield, VA          |   770 |    5 |   64 |
+|   12 | Jared Hill           | Living Hope Worship Center, Swedesb    |   750 |    7 |   63 |
+|   13 | Rachael Stewart      | Bethany Church, Wyckoff, NJ            |   620 |    6 |   52 |
+|   14 | Rebecca Ford         | Bethlehem Church, Richmond Hill, NY    |   615 |    6 |   51 |
+|   15 | Sam York             | Word of Life, Springfield, VA          |   590 |    5 |   49 |
+|   16 | Christopher Galea    | Praise A/G, Garfield, NJ "Taste Death" |   585 |    6 |   49 |
+|   17 | Kija Nivala          | Vineyard Haven A/G, Vineyard Haven     |   570 |    4 |   48 |
+|   18 | Rachael Singh        | Bethlehem Church, Richmond Hill, NY    |   460 |    1 |   38 |
+|   19 | Caleb Pons           | State College A/G, State College, PA " |   370 |    4 |   31 |
+|   20 | Jonathan Kelly       | Walnut Grove A/G, West Mifflin, PA "B  |   355 |    1 |   30 |
+|   21 | Connor O'Keefe       | Journey Church, Bridgeville, PA "Witho |   320 |    4 |   27 |
+|   22 | Chase Hill           | Living Hope Worship Center, Swedesb    |   320 |    2 |   27 |
+|   23 | Nick DePasquale      | Full Gospel Church, Livingston, NJ     |   315 |    1 |   26 |
+|   24 | Kristyn Jones        | Manassas A/G, Manassas, VA             |   275 |    1 |   23 |
+|   25 | Vincent Okafor       | Bethlehem Church, Richmond Hill, NY    |   255 |    1 |   21 |
+|   26 | Robbie Mitchell      | Bethany Church, Wyckoff, NJ            |   245 |    0 |   20 |
+|   27 | Jordanne Prime       | Bethlehem Church, Richmond Hill, NY    |   235 |    1 |   20 |
+|   28 | Nathan Kiner         | Evangel A/G, Ephrata, PA "Simon Say    |   210 |    1 |   18 |
+|   29 | Zerubabbel Tessema   | Word of Life, Springfield, VA          |   185 |    2 |   15 |
+|   30 | Melody Asper         | Evangel A/G, Ephrata, PA "Simon Say    |   145 |    0 |   12 |
+|   31 | Victoria Thee        | Manassas A/G, Manassas, VA             |   140 |    0 |   12 |
+|   32 | Cynthia Earl         | Evangel A/G, Ephrata, PA "Simon Say    |    85 |    0 |    7 |
+|   33 | Benjamin Nivala      | Vineyard Haven A/G, Vineyard Haven     |    80 |    0 |    7 |
+|   34 | Kerry O'Bannon       | Manassas A/G, Manassas, VA             |    50 |    0 |    4 |
+|   35 | Osasha London        | Full Gospel Church, Livingston, NJ     |    30 |    0 |    3 |
+|   36 | Reyna Martin         | Full Gospel Church, Livingston, NJ     |    30 |    0 |    3 |
+|   37 | Stephen Pitterle     | State College A/G, State College, PA " |    15 |    0 |    1 |
+|   38 | Jessica Kelly        | Walnut Grove A/G, West Mifflin, PA "B  |    10 |    0 |    1 |
+|   39 | Omari Dixon          | Bethlehem Church, Richmond Hill, NY    |    10 |    0 |    1 |
+|   40 | Liz DePasquale       | Full Gospel Church, Livingston, NJ     |    10 |    0 |    1 |
+|   41 | Trey Sederwall       | Praise A/G, Garfield, NJ "Taste Death" |    10 |    0 |    1 |
+|   42 | David Bambilla       | Full Gospel Church, Livingston, NJ     |     5 |    0 |    0 |
+|   43 | Maryann Rauschenbach | Bethany Church, Wyckoff, NJ            |     0 |    0 |    0 |
+|   44 | Rebekah Welesko      | Journey Church, Bridgeville, PA "Witho |     0 |    0 |    0 |
+|   45 | Anna Moyer           | State College A/G, State College, PA " |     0 |    0 |    0 |
+|   46 | Liz Smith            | State College A/G, State College, PA " |     0 |    0 |    0 |
+|   47 | Abhishek Mathews     | Word of Life, Springfield, VA          |     0 |    0 |    0 |
+|   48 | Jessica Fenton       | State College A/G, State College, PA " |    -5 |    0 |    0 |
+|   49 | Megan Steves         | Living Hope Worship Center, Swedesb    |   -10 |    0 |   -1 |
 
 ## Middle School Division
 

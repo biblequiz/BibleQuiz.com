@@ -31,30 +31,30 @@ menubar_toc_static:
 
 ### Top Individuals
 
-|    # | Quizzer         | Team            | Total |   Avg |   QO |
-| ---: | --------------- | --------------- | ----: | ----: | ---: |
-|    1 | Michael Pearson | Oaks Fellowship |   950 | 135.7 |    7 |
-|    2 | April Pryor     | Fossil Creek    |   820 | 117.1 |    6 |
-|    3 | Zach Sullivan   | San Angelo      |   790 | 112.9 |    4 |
-|    4 | Megan Welborn   | Harvest A       |   600 |  85.7 |    3 |
-|    5 | Dayton Shorter  | Harvest A       |   525 |  75.0 |    2 |
-|    6 | Steven Johnson  | San Angelo      |   440 |  62.9 |    2 |
-|    7 | Amanda Pryor    | Fossil Creek    |   430 |  61.4 |    2 |
-|    8 | Heather Lester  | Abundant Life   |   400 |  57.1 |    3 |
-|    9 | Chance Watts    | Springhill      |   395 |  56.4 |    2 |
-|   10 | Cristina Alcala | Harvest B       |   205 |  29.3 |    0 |
-|   11 | Derek Wilson    | Oaks Fellowship |   180 |  25.7 |    0 |
-|   12 | Scott Hodges    | Harvest A       |   160 |  22.9 |    0 |
-|   13 | Eowyn Thompson  | San Angelo      |   120 |  17.1 |    0 |
-|   14 | Marci Alcala    | Harvest B       |   110 |  15.7 |    0 |
-|   15 | Tim Clark       | Harvest B       |   100 |  14.3 |    0 |
-|   16 | Adam Palmer     | Oaks Fellowship |    45 |    15 |    0 |
-|   17 | Lee Smith       | Springhill      |    40 |   5.7 |    0 |
-|   18 | Kevin Davis     | Oaks Fellowship |    35 |   5.0 |    0 |
-|   19 | Josh Coder      | Bethel Killeen  |    30 |   4.3 |    0 |
-|   20 | Abby Shaefer    | Harvest B       |    20 |  10.0 |    0 |
-|   21 | Katie Ryan      | Abundant Life   |    15 |   2.1 |    0 |
-|   22 | Jerica Winderl  | Bethel Killeen  |     5 |    .7 |    0 |
+|    # | Quizzer          | Team            | Total |   Avg |   QO |
+| ---: | ---------------- | --------------- | ----: | ----: | ---: |
+|    1 | Michael Pearson  | Oaks Fellowship |   950 | 135.7 |    7 |
+|    2 | April Pryor      | Fossil Creek    |   820 | 117.1 |    6 |
+|    3 | Zach Sullivan    | San Angelo      |   790 | 112.9 |    4 |
+|    4 | Megan Welborn    | Harvest A       |   600 |  85.7 |    3 |
+|    5 | Dayton Shorter   | Harvest A       |   525 |  75.0 |    2 |
+|    6 | Steven Johnson   | San Angelo      |   440 |  62.9 |    2 |
+|    7 | Amanda Pryor     | Fossil Creek    |   430 |  61.4 |    2 |
+|    8 | Heather Lester   | Abundant Life   |   400 |  57.1 |    3 |
+|    9 | Chance Watts     | Springhill      |   395 |  56.4 |    2 |
+|   10 | Christina Alcala | Harvest B       |   205 |  29.3 |    0 |
+|   11 | Derek Wilson     | Oaks Fellowship |   180 |  25.7 |    0 |
+|   12 | Scott Hodges     | Harvest A       |   160 |  22.9 |    0 |
+|   13 | Eowyn Thompson   | San Angelo      |   120 |  17.1 |    0 |
+|   14 | Marci Alcala     | Harvest B       |   110 |  15.7 |    0 |
+|   15 | Tim Clark        | Harvest B       |   100 |  14.3 |    0 |
+|   16 | Adam Palmer      | Oaks Fellowship |    45 |    15 |    0 |
+|   17 | Lee Smith        | Springhill      |    40 |   5.7 |    0 |
+|   18 | Kevin Davis      | Oaks Fellowship |    35 |   5.0 |    0 |
+|   19 | Josh Coder       | Bethel Killeen  |    30 |   4.3 |    0 |
+|   20 | Abby Shaefer     | Harvest B       |    20 |  10.0 |    0 |
+|   21 | Katie Ryan       | Abundant Life   |    15 |   2.1 |    0 |
+|   22 | Jerica Winderl   | Bethel Killeen  |     5 |    .7 |    0 |
 
 ## Novice Division
 

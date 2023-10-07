@@ -33,35 +33,35 @@ menubar_toc_static:
 
 *Ties broken by Average Points then Total Quiz Outs*
 
-|        # | Quizzer               | Team                                   | Total |   Avg |   QO |   Q% |
-| -------: | --------------------- | -------------------------------------- | ----: | ----: | ---: | ---: |
-|        1 | Shekinah Biruduganti  | Naperville (J) (Calvary Church)        |   920 | 131.4 |    6 |  95% |
-|        2 | Ethan Victor          | Normal (First Assembly of God)         |   810 | 115.7 |    4 |  92% |
-|        3 | Jayden Suresh         | Naperville (J) (Calvary Church)        |   725 | 103.6 |    7 |  98% |
-|        4 | Lisha Mahiban         | Hanover Park (Evangel Assembly of God) |   680 |  97.1 |    4 |  79% |
-|        5 | Nathan Raj            | Hanover Park (Evangel Assembly of God) |   500 |  71.4 |    4 |  97% |
-|        6 | Braden Bowker         | Carlinville (First Assembly of God)    |   495 |  70.7 |    4 |  85% |
-|        7 | Natasha Berdin        | Naperville (M) (Calvary Church)        |   480 |  68.6 |    2 |  89% |
-|        8 | Ethan Cloninger       | Carlinville (First Assembly of God)    |   435 |  62.1 |    1 |  87% |
-|        9 | Levi Mojica           | Chicago (New Life Covenant)            |   385 |    55 |    1 |  62% |
-|       10 | Nathan Muchowicz      | Orland Park (The Stone Church)         |   360 |  51.4 |    1 |  86% |
-|       11 | Jordena Deshabathini  | Chicago (New Life Covenant)            |   320 |  45.7 |    3 |  89% |
-|       12 | Titus Cloninger       | Bethalto (Cornerstone Assembly of God) |   285 |  40.7 |    3 |  71% |
-|       13 | Elizabeth Siony       | Naperville (J) (Calvary Church)        |   280 |    40 |    1 |  93% |
-|       14 | Evie Gillott          | Normal (First Assembly of God)         |   275 |  39.3 |    2 |  96% |
-|       15 | John Schwider         | Orland Park (The Stone Church)         |   205 |  29.3 |    1 |  88% |
-|       16 | Bethany Cloninger     | Carlinville (First Assembly of God)    |   185 |  26.4 |      |  94% |
-|       17 | David Gillott         | Normal (First Assembly of God)         |    95 |  13.6 |      |  64% |
-|       18 | Aibhilin Sujin        | Normal (First Assembly of God)         |    80 |  11.4 |      | 100% |
-|       19 | Neharikha Gopikishnan | Naperville (M) (Calvary Church)        |    60 |   8.6 |      | 100% |
-|       20 | Joshua Thomas         | Hanover Park (Evangel Assembly of God) |    45 |   6.4 |      |  67% |
-|       21 | Corban Stanley        | Bethalto (Cornerstone Assembly of God) |    40 |   5.7 |      | 100% |
-| **\*21** | Niara Chandler        | Naperville (M) (Calvary Church)        |    40 |   5.7 |      | 100% |
-| **\*21** | Regina Guzman         | Chicago (New Life Covenant)            |    40 |   5.7 |      | 100% |
-|       22 | Ben Schuette          | Carlinville (First Assembly of God)    |    35 |     5 |      |  60% |
-|       23 | Aaron Malgireddy      | Naperville (J) (Calvary Church)        |    20 |   2.9 |      | 100% |
-|       24 | Micah Schneider       | Bethalto (Cornerstone Assembly of God) |     0 |       |      |  40% |
-| **\*24** | Jade Elleman          | Normal (First Assembly of God)         |     0 |       |      |      |
+|        # | Quizzer                | Team                                   | Total |   Avg |   QO |   Q% |
+| -------: | ---------------------- | -------------------------------------- | ----: | ----: | ---: | ---: |
+|        1 | Shekinah Biruduganti   | Naperville (J) (Calvary Church)        |   920 | 131.4 |    6 |  95% |
+|        2 | Ethan Victor           | Normal (First Assembly of God)         |   810 | 115.7 |    4 |  92% |
+|        3 | Jayden Suresh          | Naperville (J) (Calvary Church)        |   725 | 103.6 |    7 |  98% |
+|        4 | Lisha Mahiban          | Hanover Park (Evangel Assembly of God) |   680 |  97.1 |    4 |  79% |
+|        5 | Nathan Raj             | Hanover Park (Evangel Assembly of God) |   500 |  71.4 |    4 |  97% |
+|        6 | Braden Bowker          | Carlinville (First Assembly of God)    |   495 |  70.7 |    4 |  85% |
+|        7 | Natasha Berdin         | Naperville (M) (Calvary Church)        |   480 |  68.6 |    2 |  89% |
+|        8 | Ethan Cloninger        | Carlinville (First Assembly of God)    |   435 |  62.1 |    1 |  87% |
+|        9 | Levi Mojica            | Chicago (New Life Covenant)            |   385 |    55 |    1 |  62% |
+|       10 | Nathan Muchowicz       | Orland Park (The Stone Church)         |   360 |  51.4 |    1 |  86% |
+|       11 | Jordena Deshabathini   | Chicago (New Life Covenant)            |   320 |  45.7 |    3 |  89% |
+|       12 | Titus Cloninger        | Bethalto (Cornerstone Assembly of God) |   285 |  40.7 |    3 |  71% |
+|       13 | Elizabeth Siony        | Naperville (J) (Calvary Church)        |   280 |    40 |    1 |  93% |
+|       14 | Evie Gillott           | Normal (First Assembly of God)         |   275 |  39.3 |    2 |  96% |
+|       15 | John Schwider          | Orland Park (The Stone Church)         |   205 |  29.3 |    1 |  88% |
+|       16 | Bethany Cloninger      | Carlinville (First Assembly of God)    |   185 |  26.4 |      |  94% |
+|       17 | David Gillott          | Normal (First Assembly of God)         |    95 |  13.6 |      |  64% |
+|       18 | Aibhilin Sujin         | Normal (First Assembly of God)         |    80 |  11.4 |      | 100% |
+|       19 | Neharikha Gopikrishnan | Naperville (M) (Calvary Church)        |    60 |   8.6 |      | 100% |
+|       20 | Joshua Thomas          | Hanover Park (Evangel Assembly of God) |    45 |   6.4 |      |  67% |
+|       21 | Corban Stanley         | Bethalto (Cornerstone Assembly of God) |    40 |   5.7 |      | 100% |
+| **\*21** | Niara Chandler         | Naperville (M) (Calvary Church)        |    40 |   5.7 |      | 100% |
+| **\*21** | Regina Guzman          | Chicago (New Life Covenant)            |    40 |   5.7 |      | 100% |
+|       22 | Ben Schuette           | Carlinville (First Assembly of God)    |    35 |     5 |      |  60% |
+|       23 | Aaron Malgireddy       | Naperville (J) (Calvary Church)        |    20 |   2.9 |      | 100% |
+|       24 | Micah Schneider        | Bethalto (Cornerstone Assembly of God) |     0 |       |      |  40% |
+| **\*24** | Jade Elleman           | Normal (First Assembly of God)         |     0 |       |      |      |
 
 
 ## C Level

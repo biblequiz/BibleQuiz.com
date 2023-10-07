@@ -78,7 +78,7 @@ menubar_toc_static:
 | 32  | Madison Steele      | MCC - The Overlooked                        | Mechanicsville, VA | 470   | 24.74 | 1   |
 | 33  | Hannah Hill         | Living Hope - Acts 24/7                     | Swedesboro, NJ     | 415   | 21.84 | 1   |
 | 34  | Megumi Sinniah      | JRC - One in Heart and Mind                 | Ozark, MO          | 410   | 21.58 | 3   |
-| 35  | John-David Sullivan | Trinity Church (TX)                         | Cedar Hill, TX     | 400   | 21.05 | 2   |
+| 35  | John David Sullivan | Trinity Church (TX)                         | Cedar Hill, TX     | 400   | 21.05 | 2   |
 | 36  | Nathaniel Stuart    | Community Church (PA)                       | Mt Pocono, PA      | 380   | 20    | 1   |
 | 37  | Alyssa Walker       | MCC - The Overlooked                        | Mechanicsville, VA | 375   | 19.74 | 1   |
 | 38  | Amelia Gephart      | North Valley AG - Syracuse to Phoenix       | Phoenix, AZ        | 335   | 17.63 | 1   |
@@ -243,7 +243,7 @@ menubar_toc_static:
 | 10  | Ezequiel Navarro      | Calvary Church - Ninjas of The Word | Sugar Grove, IL | 240   | 34.29 | 1   |
 | 11  | Hava Parker           | Community Church (PA)               | Mt Pocono, PA   | 215   | 30.71 | 1   |
 | 12  | Anastasia Yevtushenko | Cedar Park - That's Debatable       | Bothell, WA     | 165   | 23.57 | 2   |
-| 13  | John-David Sullivan   | Trinity Church (TX)                 | Cedar Hill, TX  | 120   | 17.14 |     |
+| 13  | John David Sullivan   | Trinity Church (TX)                 | Cedar Hill, TX  | 120   | 17.14 |     |
 | 14  | Josh Barajas          | Trinity Church (TX)                 | Cedar Hill, TX  | 105   | 15    | 1   |
 | 15  | Nathaniel Stuart      | Community Church (PA)               | Mt Pocono, PA   | 105   | 15    |     |
 | 16  | Megumi Sinniah        | JRC - One in Heart and Mind         | Ozark, MO       | 85    | 12.14 |     |

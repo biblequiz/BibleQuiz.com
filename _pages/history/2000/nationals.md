@@ -218,7 +218,7 @@ The winner of the 2000 National Bible Quiz Individual Tournament was Jordan Schn
 |       38 | Sarette Albin       | Cedar Rapids, IA               |   330 | 17.37 |        |       |
 | **38\*** | Kyle Heyne          | Orlando, FL                    |   330 | 17.37 |      1 |       |
 |       40 | Scott Hamilton      | Aurora, CO                     |   325 | 17.11 |        |       |
-|       41 | Christopher Alfred  | Shreveport, LA                 |   325 | 17.11 |        |       |
+|       41 | Chris Alfred        | Shreveport, LA                 |   325 | 17.11 |        |       |
 |       42 | Bekka Dunn          | Cedar Rapids, IA               |   250 | 13.16 |        |       |
 |       43 | Brittanica Chesser  | Orlando, FL                    |   235 | 12.37 |        |       |
 |       44 | DeAndre Johnson     | Shreveport, LA                 |   230 | 12.11 |        |       |

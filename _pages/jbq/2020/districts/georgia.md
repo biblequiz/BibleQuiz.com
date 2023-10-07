@@ -102,7 +102,7 @@ menubar_toc_static:
 | **\*13** | Gaius Lejo               | Calvary Assembly Church of God (Snellville) #2 (Calvary Assembly Church of God) |    50 |  12.5 |      |  75% |
 |       14 | Bryan Biji Thomas        | Calvary Assembly Church of God (Snellville) #2 (Calvary Assembly Church of God) |    40 |    10 |      | 100% |
 |       15 | Enoch Thammadi           | Lifeline Church B-1 (Lifeline Church)                                           |    30 |   7.5 |      | 100% |
-|       16 | Harshini Jayakrishnan    | Chosen Generation (Atlanta Indian Prayer Fellowship)                            |    10 |   2.5 |      |  99% |
+|       16 | Harshine Jayakrishnan    | Chosen Generation (Atlanta Indian Prayer Fellowship)                            |    10 |   2.5 |      |  99% |
 |       17 | Jemimah Biji Thomas      | Calvary Assembly Church of God (Snellville) #2 (Calvary Assembly Church of God) |     0 |       |      |      |
 | **\*17** | Nolan Oakley             | Calvary Assembly Church of God (Snellville) #2 (Calvary Assembly Church of God) |     0 |       |      |      |
 | **\*17** | Jeremy Matthew           | Calvary Assembly Church of God (Snellville) #2 (Calvary Assembly Church of God) |     0 |       |      |      |

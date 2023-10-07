@@ -106,7 +106,7 @@ menubar_toc_static:
 |    5 | Justin Addo        | Frankincense - Word of Life (Springfield, VA) |   315 |    35 |    2 |  71% |
 |    6 | Aaron Johnson      | Metuchen Assembly of God #1 (Metuchen, NJ)    |   220 |  24.4 |    1 |  73% |
 |    7 | Leunam Guzman      | The 5 Loaves - Resurgence Church (Mastic, NY) |   180 |    20 |    2 |  58% |
-|    8 | Kezia Abraham      | Metuchen Assembly of God #2 (Metuchen, NJ)    |   100 |  11.1 |      |  78% |
+|    8 | Keziah Abraham     | Metuchen Assembly of God #2 (Metuchen, NJ)    |   100 |  11.1 |      |  78% |
 |    9 | Abraham Johnson    | Metuchen Assembly of God #2 (Metuchen, NJ)    |    80 |   8.9 |      |  77% |
 |   10 | Sarah Dawit        | Frankincense - Word of Life (Springfield, VA) |    45 |     5 |      |  64% |
 |   11 | Michael Han        | The 5 Loaves - Resurgence Church (Mastic, NY) |    15 |   1.7 |      |  37% |

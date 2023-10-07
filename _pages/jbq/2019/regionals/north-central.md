@@ -60,7 +60,7 @@ menubar_toc_static:
 |       16 | Drew Malchek         | Two Rivers, WI - Depending On God (Renew Church)                        |   845 |  52.8 |    1 |  80% |
 |       17 | Lauren Pahl          | Apple Valley, MN - The Pentateuch (River Valley Church)                 |   815 |  50.9 |    9 |  81% |
 |       18 | Landon Dissmore      | Racine, WI - Anointed Avengers for Jesus (Racine Assembly of God)       |   815 |  50.9 |    2 |  79% |
-|       19 | Opeyemi Alabi        | Fargo, ND - Firecrackers (First Assembly of God)                        |   805 |  50.3 |    9 |  72% |
+|       19 | Ope Alabi            | Fargo, ND - Firecrackers (First Assembly of God)                        |   805 |  50.3 |    9 |  72% |
 |       20 | Luke Patterson       | Des Moines, IA (DW) - The Fantastic Four (First Assembly of God)        |   800 |    50 |      |  91% |
 |       21 | Chloe Larson         | Apple Valley, MN - Divine Disciples (River Valley Church)               |   795 |  49.7 |      |  89% |
 |       22 | Enoch Mensah         | Omaha, NE - The E.G.G. Quizzers (Glad Tidings Assembly of God)          |   785 |  49.1 |    2 |  85% |

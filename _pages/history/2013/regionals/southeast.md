@@ -48,7 +48,7 @@ menubar_toc_static:
 |    9 | Veronica Johnson   | GA-Midland              | Solid Rock A/G         |   195 |  21.67 |      |
 |   10 | Angela Magditch    | GA-Warner Robins        | The Assembly           |   180 |  20.00 |    1 |
 |   11 | Keanna Clark       | GA-2Snellville          | Evangel Community      |   160 |  17.78 |      |
-|   12 | Olepero Adewunmi   | FL-Magi Wesley Chapel   | Victorious Life Church |   150 |  16.67 |      |
+|   12 | Olupero Adewunmi   | FL-Magi Wesley Chapel   | Victorious Life Church |   150 |  16.67 |      |
 |   13 | Charlie McDermitt  | GA-Griffin              | Griffin 1st A/G        |   145 |  16.11 |    1 |
 |   14 | Moe Adewunmi       | FL-Shrewd Wesley Chapel | Victorious Life Church |   140 |  15.56 |    1 |
 |   15 | Daniel Adewunmi    | FL-Shrewd Wesley Chapel | Victorious Life Church |   135 |  15.00 |      |
