@@ -3,6 +3,15 @@ layout: page
 permalink: /history/1999/nationals/
 title: "1999 National Finals"
 date: "1999-08-06"
+quizzerIndex:
+- Faith Allwood
+- Annette Beaver
+- Pat Bjorklund
+- Colin McMillan
+- Jessice Neilson
+- Ryan Popineall
+- Dave Savage
+- Ryan Skolrud
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

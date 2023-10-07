@@ -34,10 +34,10 @@ quizzerIndex:
 - David Holt
 - Melissa Holt
 - Thomas Holt
-- Paul Hudson Jr.
 - Kimberly Huskey
 - Shane Johnson
 - Justin Jones
+- Paul Hudson Jr.
 - Chad Katter
 - Karen Kish
 - Andrew Knaff
@@ -48,7 +48,6 @@ quizzerIndex:
 - Chuck Laurens
 - Renee Loomis
 - Sarah Martin
-- Bryan Martindale
 - Michelle Martindale
 - Lyra Mesnar
 - Shawn Neumayer
@@ -63,10 +62,8 @@ quizzerIndex:
 - Mo Pauly
 - Cindy Phillips
 - Jerry Pugh
-- Kevin Revell
 - Joy Rosenberg
 - Erica Rybak
-- Steve Schweitzer
 - Christy Shedd
 - Rachel Simpson
 - Ricky Simpson

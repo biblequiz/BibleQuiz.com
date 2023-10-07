@@ -3,6 +3,21 @@ layout: page
 permalink: /history/1998/nationals/
 title: "1998 National Finals"
 date: "1998-07-10"
+quizzerIndex:
+- Justin Brumit
+- Andrea Bunnis
+- Alissa Cooper
+- Tyler Ferguson
+- Jeremy Hix
+- Mark Knoles
+- Abigail Knotts
+- Jonathan Maisonet
+- Nikki Milliron
+- Stephen Nichols
+- Anthony Rosado
+- Kimberly Samac
+- Mike Torres
+- David Womelsdorf
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

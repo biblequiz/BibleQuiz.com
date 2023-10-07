@@ -3,6 +3,10 @@ layout: page
 permalink: /history/1996/nationals/
 title: "1996 National Finals"
 date: "1996-07-13"
+quizzerIndex:
+- Rachel Jones
+- Krista Kowalsky
+- Kris Olson
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

@@ -3,6 +3,14 @@ layout: page
 permalink: /history/2002/nationals/
 title: "2002 National Finals"
 date: "2002-07-12"
+quizzerIndex:
+- Prince Anywanwu
+- Brenne DeFazio
+- Jonathan Fenton
+- Joseph Fortunato
+- Andrew Harrington
+- Carolina Parr
+- Danielle Peppenger
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
@@ -1687,7 +1695,7 @@ Angela Goodman
 * **Team**:
     * Jessica Sobkowiak
     * Sara Sobkowiak
-Brianna Grantham
+    * Brianna Grantham
 * **Round Robin**:
   * Round 1: Won against Southside A/G, Jackson, MS 80 to 75
   * Round 2: Lost to Calvary A/G, DeMotte, IN 70 to 115

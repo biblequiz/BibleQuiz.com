@@ -3,6 +3,18 @@ layout: page
 permalink: /history/2006/nationals/
 title: "2006 National Finals"
 date: "2006-07-07"
+quizzerIndex:
+- Shola Babtunde
+- Yoki Belay
+- Sabrina Burkhalter
+- Tiffani Crispin
+- Lauren Duffy
+- Kameron Kissenger
+- Hillary Kunnanz
+- Wesley Leander
+- Josh Siddall
+- Tim Stride
+- Nils Stroermer
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

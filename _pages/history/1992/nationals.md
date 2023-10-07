@@ -8,7 +8,6 @@ quizzerIndex:
 - Mark J. Bane
 - Scott Bane
 - Amanda Benigas
-- Brian Boeninger
 - Lee Bredell
 - Matthew Britt
 - Missy Brown
@@ -16,7 +15,6 @@ quizzerIndex:
 - Randy Cathcart
 - Rochelle Cathcart
 - Patrick David
-- Karl Dawson
 - Kevin Dawson
 - Elizabeth Dunn
 - Angela Faith Ebanks
@@ -44,12 +42,10 @@ quizzerIndex:
 - Anna McMillan
 - Melissa Milliron
 - Doug Mims
-- Justin Moody
 - Elizabeth Morgan
 - Sarah Morgan
 - Sheryl Lynn Neely
 - Ryan Neese
-- Chad Nelson
 - Jemi Overby
 - Luisa Oyola
 - Beth Parker
@@ -65,7 +61,6 @@ quizzerIndex:
 - Dave T. Schweitzer
 - Sarah Shewey
 - Thalia Shortridge
-- Dan Smith
 - Jody Smith
 - Jason Sorens
 - Neil Sorens
@@ -78,17 +73,13 @@ quizzerIndex:
 - Bryan Valentine
 - Sharla Waggoner
 - John Washam
-- Josh Weber
 - Matt Weber
 - Rachel Weber
 - Kevin Williams
 - Becky Wilmoth
 - Robyn Wilmoth
-- Bryan Wootton
-- Lisa Wootton
 - Veronica Worthey
 - Sarah Wright
-- Jennifer Zarro
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

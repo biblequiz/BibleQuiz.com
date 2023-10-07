@@ -3,7 +3,7 @@ layout: page
 permalink: /history/2009/nationals/
 title: "2009 Nationals"
 date: "2009-07-31"
-toc_title: Navigation
+toc_title: Results
 menubar_toc: true
 menubar_toc_static:
 - items:

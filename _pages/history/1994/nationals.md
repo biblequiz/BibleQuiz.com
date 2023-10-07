@@ -3,6 +3,22 @@ layout: page
 permalink: /history/1994/nationals/
 title: "1994 National Finals"
 date: "1994-08-11"
+quizzerIndex:
+- Phillip Dyer
+- Bernie Elliot III
+- David Fox II
+- Jeremy Gibbs
+- Amy Goodlett
+- Scott Heritage
+- Rebecca Ingroum
+- Shaun Phelps
+- Jason Sharp
+- Hope Stock
+- Josh Wagner
+- Mark Walls
+- Jenny Williams
+- Matt Winger
+- Greg Zeller
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

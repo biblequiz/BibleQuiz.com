@@ -3,6 +3,13 @@ layout: page
 permalink: /history/1997/nationals/
 title: "1997 National Finals"
 date: "1997-08-08"
+quizzerIndex:
+- Faith Alwood
+- Jesse Lawrence
+- Eric Peters
+- David Skidmore
+- Adeana Westmeyer
+- Sean Winter
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

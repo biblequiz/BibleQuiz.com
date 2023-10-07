@@ -9,18 +9,15 @@ quizzerIndex:
 - Tim Bahra
 - Fred Beaman
 - Jeremy Black
-- Aaron Blanco
 - Jeremy Blocher
 - Katey Callahan
 - Randy Cathcart
 - Rochelle Cathcart
 - Steve Chaney
-- Mark Childers
 - Chris Cohilas
 - David Conaway
 - Rick Faulkner
 - Shirley Ferrell
-- Brian Gibbons
 - Timothy Gibbons
 - Chad Gilligan
 - Joy Gilmer
@@ -28,8 +25,8 @@ quizzerIndex:
 - Lori Ann Hansen
 - Michelle Hansen
 - Kari Hedge
-- Paul Hudson Jr.
 - Dionne Jobe
+- Paul Hudson Jr.
 - Andrew Knaff
 - Rebecca Knaff
 - Travis Knight
@@ -37,7 +34,6 @@ quizzerIndex:
 - Chuck Laurens
 - Renee Loomis
 - Ron Loomis
-- Bryan Martindale
 - Michelle Martindale
 - Justin Moody
 - Chad Nelson
@@ -51,7 +47,6 @@ quizzerIndex:
 - Seth Palmer
 - Loren Plank
 - Nathan Pratt
-- Kevin Revell
 - Rachel Roby
 - Joy Rosenberg
 - Beth Rutherford
@@ -60,9 +55,7 @@ quizzerIndex:
 - Elizabeth Schiche
 - Rachel Schroeder
 - Dave Schweitzer
-- Steve Schweitzer
 - Christy Shedd
-- Garrett Smiley
 - Jason Sorens
 - Tonya Thurman
 - Daryn Trout
@@ -71,7 +64,6 @@ quizzerIndex:
 - Robyn Wilmoth
 - Eric Wissner
 - Bryan Wootton
-- Lisa Wootton
 - Aaron Woynarski
 - Sarah Wright
 toc_title: Results

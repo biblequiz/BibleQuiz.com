@@ -3,6 +3,20 @@ layout: page
 permalink: /history/2003/nationals/
 title: "2003 National Finals"
 date: "2003-07-11"
+quizzerIndex:
+- Benjamine Allen
+- Daniel Black
+- Katie Chenco
+- Tirzah Gosnell
+- Ashleigh Hanssen
+- Rebekah May
+- Brittany Miller
+- Richie Nelson
+- Crystal Pilcher
+- Zach Schaalma
+- Zach Sullivan
+- Faith Van Gorp
+- Micah Van Gorp
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

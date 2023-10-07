@@ -3,6 +3,39 @@ layout: page
 permalink: /history/1993/nationals/
 title: "1993 National Finals"
 date: "1993-08-12"
+quizzerIndex:
+- Joseph Barth
+- Malisa Berkey
+- Scott Berkey
+- Jonathan Comfort
+- Philip Comfort
+- Jeff Couey
+- Adam Curington
+- Alice Deck
+- Amber Dennis
+- Andrew Englert
+- James Fountain
+- Jessica Frank
+- Angela French
+- Michelle Gennaro
+- Anna Gibson
+- Chrystie Hawley
+- Jennifer Himmelright
+- Barbara Horn
+- Scott Kuschmider
+- Katherine Lincoln
+- Elizabeth Morgan
+- Sarah Morgan
+- TJ Ross
+- Brandy Runz
+- Billy Thornbrugh
+- Tim Tran
+- Sam Waldner
+- Mary Anne Welsheimer
+- David Wertz Jr.
+- Michelle Wertz
+- Shawn Wiley
+- David Williams
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

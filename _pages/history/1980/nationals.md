@@ -26,24 +26,18 @@ quizzerIndex:
 - Linda Malone
 - Dan McNaul
 - Cheryl Minsky
-- Billy Muniz
 - Carmen Muniz
 - Danny Muniz
 - Phil Parker
 - Karen Peake
-- Mark Penney
 - Steve Penney
 - Ronnie Pope
-- Terrie Pope
 - Paula Severance
 - Bret Shillingstad
-- Keith Short
 - Sue Siska
 - Cinda Van Dusseldorp
 - Sondra Van Dusseldorp
-- Kevin Vanderplas
 - Chuck Wagoner
-- Jeff Wood
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:

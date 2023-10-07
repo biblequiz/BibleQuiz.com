@@ -3,6 +3,32 @@ layout: page
 permalink: /history/1991/nationals/
 title: "1991 National Finals"
 date: "1991-08-10"
+quizzerIndex:
+- Tim Bahra
+- Jessica R. Bailey
+- Mark J. Bane
+- Scott Bane
+- Vanessa Vanden Berg
+- Keri Brueggemann
+- Randy Cathcart
+- Jennifer Crews
+- Eloise DeLaCruz
+- Angela Hartman
+- D. Jobe
+- Stephen E. Martin
+- Megan Newman
+- Cory Odom
+- Dave T. Schweitzer
+- Stephen J. Schweitzer
+- Lonnie Smalley
+- Jason Paul Sorens
+- Neil Benjamin Sorens
+- Minh-Thu Tran
+- Shannon Walz
+- Kevin Anthony Williams
+- Karolyn Wilson
+- Kris Wilson
+- Stephanie JoAnne Yearwood
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
