@@ -44,6 +44,7 @@ jbq:
 - id: 7f5c8b6c-ea00-4c36-aabd-08dbafd18f81
   season: 2024
   registrationDates: Closed
+  isLive: true
   isVisible: true
   name: North Carolina JBQ Kick-Off Event
   scope: district
@@ -54,6 +55,7 @@ jbq:
 - id: cf2c44ac-bb48-4152-18d0-08dbc47d4242
   season: 2024
   registrationDates: Closes Oct 10, 2023
+  isLive: true
   isVisible: true
   name: October 2023 ND JBQ meet
   scope: district
@@ -64,6 +66,7 @@ jbq:
 - id: 9deb6cbf-3518-4fb6-aab5-08dbafd18f81
   season: 2024
   registrationDates: Closes Oct 9, 2023
+  isLive: true
   isVisible: true
   name: October Meet JBQ
   scope: district
@@ -74,6 +77,7 @@ jbq:
 - id: 7b820d4a-923e-4cc2-049b-08db9c5fbd00
   season: 2024
   registrationDates: Closes Oct 11, 2023
+  isLive: true
   isVisible: true
   name: 'Wyoming League Meet #1'
   scope: district
@@ -124,6 +128,7 @@ tbq:
 - id: fe5394a8-1ca4-4455-075a-08db92de8fd7
   season: 2024
   registrationDates: Closed
+  isLive: true
   isVisible: true
   name: 2023-2024 Bible  Quiz Georgia League Quiz
   scope: district
@@ -134,6 +139,7 @@ tbq:
 - id: f8eca8a7-68a0-4d70-8ffd-08db8fadd558
   season: 2024
   registrationDates: Closes Oct 12, 2023
+  isLive: true
   isVisible: true
   name: '2023-24 South Texas District TBQ League #1'
   scope: district
@@ -143,6 +149,7 @@ tbq:
 - id: a63f93ef-d55c-4167-f69b-08dbc5228776
   season: 2024
   registrationDates: Closes Oct 10, 2023
+  isLive: true
   isVisible: true
   name: 2023-24 Wisconsin/North Michigan BQ League
   scope: district
@@ -151,7 +158,7 @@ tbq:
   dates: Oct 14, 2023
 - id: d32892f3-0cde-4051-a4d7-08dbad5c3efd
   season: 2024
-  registrationDates: Closes Oct 7, 2023
+  registrationDates: Closes Oct 10, 2023
   isVisible: true
   name: 39th Annual Gold Cup Tournament
   scope: nation
@@ -194,6 +201,16 @@ tbq:
   scopeLabel: Peninsular Florida
   locationName: Oxford Assembly of God
   locationCity: Oxford, FL
+  dates: Nov 4, 2023
+- id: abd27489-1d60-4de8-2f8b-08dbc84a094b
+  season: 2024
+  registrationDates: Closes Oct 31, 2023
+  isVisible: true
+  name: 'Southern Missouri District TBQ League Meet #2 (Nov 4, 2023)'
+  scope: district
+  scopeLabel: Southern Missouri
+  locationName: Lebanon First Assembly
+  locationCity: Lebanon, MO
   dates: Nov 4, 2023
 - id: 4a6fdea0-73fa-4c2a-aabc-08dbafd18f81
   season: 2024
