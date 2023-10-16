@@ -90,17 +90,6 @@ tbq:
   scopeLabel: Southern Missouri
   locationName: Various Churches in  Southern Missouri District
   dates: Oct 7 - Feb 3, 2024
-- id: d98bc842-e907-457f-3dc6-08db8164d66e
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Peninsular Florida TBQ 2023-2024, League #2'
-  scope: district
-  scopeLabel: Peninsular Florida
-  locationName: Oxford Assembly of God
-  locationCity: Oxford, FL
-  dates: Oct 14 - Nov 4, 2023
 - id: 53a359a6-a54a-47d8-babb-08db899305d7
   season: 2024
   registrationDates: Closed
@@ -114,6 +103,7 @@ tbq:
 - id: d32892f3-0cde-4051-a4d7-08dbad5c3efd
   season: 2024
   registrationDates: Closes Oct 11, 2023
+  isLive: true
   isVisible: true
   name: 39th Annual Gold Cup Tournament
   scope: nation
@@ -123,6 +113,7 @@ tbq:
 - id: 4a891ed1-97b2-460b-049a-08db9c5fbd00
   season: 2024
   registrationDates: Closes Oct 20, 2023
+  isLive: true
   isVisible: true
   name: North Carolina League Meets
   scope: district
@@ -148,6 +139,16 @@ tbq:
   locationName: Cedar Park Assembly of God
   locationCity: Bothell, WA
   dates: Oct 28, 2023
+- id: d98bc842-e907-457f-3dc6-08db8164d66e
+  season: 2024
+  registrationDates: Closes Oct 30, 2023
+  isVisible: true
+  name: 'Peninsular Florida TBQ 2023-2024, League #2'
+  scope: district
+  scopeLabel: Peninsular Florida
+  locationName: Oxford Assembly of God
+  locationCity: Oxford, FL
+  dates: Nov 4, 2023
 - id: abd27489-1d60-4de8-2f8b-08dbc84a094b
   season: 2024
   registrationDates: Closes Oct 31, 2023
