@@ -1,6 +1,12 @@
 - name: Event Info
-  link: /upcoming-events/
   icon: fas fa-calendar-day
+  dropdown:
+    - name: Junior Bible Quiz (JBQ)
+      link: /upcoming-events/jbq/
+      image: /assets/images/icon-tbq-white-128px.png
+    - name: Teen Bible Quiz (TBQ)
+      image: /assets/images/icon-jbq-white-128px.png
+      link: /upcoming-events/tbq/
 - name: Teen Bible Quiz
   link: /#
   image: /assets/images/icon-tbq-white-128px.png
@@ -43,7 +49,7 @@
   image: /assets/images/icon-jbq-white-128px.png
   dropdown:
     - name: Events
-      link: /upcoming-events/
+      link: /upcoming-events/jbq/
       icon: fas fa-calendar-day
     - name: Register
       link: https://registration.biblequiz.com

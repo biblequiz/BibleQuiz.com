@@ -6,9 +6,11 @@
     {% for tab in tabs.items %}
         <li {% if tab.link == page.url %} class="is-active" {% endif %}>
             <a href="{{ tab.link | relative_url }}">
-                {% if tab.icon %}
-                <span class="icon is-small"><i class="fas {{ tab.icon }}" aria-hidden="true"></i></span>
-                {% endif %}
+                {% if tab.icon -%}
+                <span class="icon {{ tab.iconSize | default: 'is-small' }}"><i class="fas {{ tab.icon }}" aria-hidden="true"></i></span>
+                {% elsif tab.image %}
+                <span class="icon {{ tab.iconSize | default: 'is-small' }}"><img src="{{ tab.image }}" /></span>
+                {% endif -%}
                 <span>{{ tab.name }}</span>
             </a>
         </li>
