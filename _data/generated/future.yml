@@ -59,6 +59,15 @@ jbq:
   locationName: Carbondale Assembly of God
   locationCity: Tulsa, OK
   dates: Nov 4, 2023
+- id: 7a80209f-b376-4993-2ced-08dbca84d98d
+  season: 2024
+  registrationDates: Closes Nov 1, 2023
+  isVisible: true
+  name: NC JBQ Season (Nov - Feb)
+  scope: district
+  scopeLabel: North Carolina
+  locationName: TBD
+  dates: Nov 11 - Feb 10, 2024
 - id: 97d01a27-743e-4916-9920-08db6db4e4af
   season: 2024
   registrationDates: Closes Nov 6, 2023
@@ -111,6 +120,7 @@ tbq:
 - id: 0d103f2d-8781-4e0a-049d-08db9c5fbd00
   season: 2024
   registrationDates: Closes Oct 21, 2023
+  isLive: true
   isVisible: true
   name: 6th Annual Bluegrass Classic
   scope: nation
@@ -120,6 +130,7 @@ tbq:
 - id: ac1bcc38-93d3-4430-2ceb-08dbca84d98d
   season: 2024
   registrationDates: Closes Oct 25, 2023
+  isLive: true
   isVisible: true
   name: Northwest TBQ - League 1 (2024)
   scope: district
