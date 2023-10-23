@@ -2,6 +2,14 @@
     - name: Home
       link: /current-season/
       icon: fas fa-home
+- label: Compete
+  items:
+    - name: Register
+      link: https://registration.biblequiz.com
+      icon: fas fa-user-edit
+    - name: Tournaments
+      link: /events/tournaments/
+      icon: fas fa-shuttle-van
 - label: Prepare
   items:
     - name: League Meet Breakdown
@@ -10,17 +18,6 @@
     - name: Downloads & Forms
       link: /downloads/
       icon: fas fa-arrow-circle-down
-- label: Compete
-  items:
-    - name: Event Registration
-      link: https://registration.biblequiz.com
-      icon: fas fa-clipboard-check
-    - name: Event Info
-      link: /events/training/
-      icon: far fa-calendar-alt
-    - name: Results
-      link: /results/
-      icon: fas fa-trophy
 - label: Materials
   items:
     - name: Questions

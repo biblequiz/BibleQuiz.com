@@ -73,6 +73,10 @@ Once you've earned the NMA and/or the MMA, fill out the following form and send 
 
 * * *
 
+# Coaching App
+Designed for coaches to keep score, lookup answers, research data, see the latest rulebook, see the online score, and get an online schedule for any online registered competition on BibleQuiz.com.
+<a href="{% link _pages/apps.md %}" class="button is-primary">Go to App Downloads</a>
+
 # Scoresheets
 ### Paper Scoresheet
 The tested-and-true paper scoresheet has been a classic in Bible Quiz for decades.
