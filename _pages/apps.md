@@ -8,7 +8,7 @@ date: "2023-05-27"
 <div class="columns is-multiline is-centered">
     <div class="column is-4">
         <div class="icon callout-icon">
-            <img src="{% link assets/images/icon-ezscore.png %}" alt="EZScore" />
+            <img src="{% link assets/images/BQ-App-Score-v1.png %}" alt="EZScore" />
         </div>
         <p class="title is-5">EZScore</p>
         <p class="subtitle is-5">Electronic Score Sheet</p>
@@ -30,7 +30,7 @@ date: "2023-05-27"
     </div>
     <div class="column is-4">
         <div class="icon callout-icon">
-            <img src="{% link assets/images/icon-scorekeep.png %}" alt="ScoreKeep" />
+            <img src="{% link assets/images/BQ-App-Meet-v1.png %}" alt="ScoreKeep" />
         </div>
         <p class="title is-5">ScoreKeep</p>
         <p class="subtitle is-5">Meet Manager</p>
@@ -42,6 +42,7 @@ date: "2023-05-27"
         </a>
         <p class="title is-6" style="margin-top:30px">ScoreKeep Training Videos</p>
         <ul>
+            <li><a href="{% link _pages/training/apps/index.md %}">ScoreKeep Training</a></li>
             <li>Tablet Setup <a href="https://youtu.be/0ZEeuvC8u94">Part 1</a> &amp; <a href="https://youtu.be/AYCpEWIOYgA">Part 2</a></li>
             <li><a href="https://youtu.be/dG0jal8OAHQ">Add Meet and Load Questions</a></li>
             <li><a href="https://youtu.be/eVUvARFDXpM">Add or Move Quizzer after meet has started</a></li>
@@ -50,7 +51,7 @@ date: "2023-05-27"
     </div>
     <div class="column is-4">
         <div class="icon callout-icon">
-            <img src="{% link assets/images/icon-coachapp.png %}" alt="CoachApp" />
+            <img src="{% link assets/images/BQ-App-Coach-v1.png %}" alt="CoachApp" />
         </div>
         <p class="title is-5">CoachApp</p>
         <p class="subtitle is-5">Coaching App</p>

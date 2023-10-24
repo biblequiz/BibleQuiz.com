@@ -20,7 +20,7 @@
                             {% if item.icon %}
                             <i class="{{ item.icon }}"></i>&nbsp;
                             {% elsif item.image %}
-                            <image src="{{ item.image}}" />&nbsp;
+                            <image src="{{ item.image }}" />&nbsp;
                             {% endif %}
                             {{ item.name }}
                         </a>
@@ -29,8 +29,8 @@
                             <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">
                                 {% if subitem.icon %}
                                 <i class="{{ subitem.icon }}"></i>&nbsp;
-                                {% elsif item.image %}
-                                <image src="{{ item.image}}" />&nbsp;
+                                {% elsif subitem.image %}
+                                <image src="{{ subitem.image }}" />&nbsp;
                                 {% endif %}
                                 {{ subitem.name }}
                             </a>
@@ -42,7 +42,7 @@
                         {% if item.icon %}
                         <i class="{{ item.icon }}"></i>&nbsp;
                         {% elsif item.image %}
-                        <image src="{{ item.image}}" />&nbsp;
+                        <image src="{{ item.image }}" />&nbsp;
                         {% endif %}
                         {{ item.name }}
                     </a>

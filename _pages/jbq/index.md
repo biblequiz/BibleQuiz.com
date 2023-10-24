@@ -3,7 +3,6 @@ layout: page
 title: "Junior Bible Quiz (JBQ)"
 permalink: /jbq/
 date: "2023-04-22"
-hero_image: /assets/images/jbq-logo-small.jpg
 menubar: menu_jbq
 toc: true
 toc_title: Decades
