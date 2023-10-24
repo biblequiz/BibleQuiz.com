@@ -41,7 +41,7 @@ This feature is still in beta and may have some issues with typos or multiple qu
 
 If you have more historical information to add, email [hello@biblequiz.com](mailto:hello@biblequiz.com).
 
-## CoachApp
+## Coach's App
 
 Built by a coach and developer, CoachApp makes it easy for coaches to keep score, lookup answers, research data, see the rules, and get the online schedule for any registered competition on BibleQuiz.com. [Free to download on the Apps page]({{ site.url }}{% link _pages/apps.md %}).
 
