@@ -42,6 +42,7 @@ date: "2023-05-27"
         </a>
         <p class="title is-6" style="margin-top:30px">ScoreKeep Training Videos</p>
         <ul>
+            <li><a href="{% link _pages/training/apps/index.md %}">ScoreKeep Training</a></li>
             <li>Tablet Setup <a href="https://youtu.be/0ZEeuvC8u94">Part 1</a> &amp; <a href="https://youtu.be/AYCpEWIOYgA">Part 2</a></li>
             <li><a href="https://youtu.be/dG0jal8OAHQ">Add Meet and Load Questions</a></li>
             <li><a href="https://youtu.be/eVUvARFDXpM">Add or Move Quizzer after meet has started</a></li>
