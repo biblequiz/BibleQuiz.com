@@ -2,7 +2,7 @@
 layout: page
 permalink: /jbq/2024/other/8762c4f4-8e0b-4d2d-3edf-08db96dbedbd
 title: Oklahoma NE League (Tulsa) 23-24
-date: 2023-11-04
+date: 2023-11-05
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
