@@ -2,9 +2,7 @@
 layout: page
 permalink: /live-events/
 title: Live TBQ Events
-
+menubar: menu_current_season
 ---
-
-<a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
 
 {% include event-live-scores.html %}
