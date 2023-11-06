@@ -130,52 +130,61 @@ function ensureMainTableIsLoaded(eventId, urlParts, callback) {
             const eventTitle = document.getElementById("eventTitle");
             const mainTable = document.getElementById("mainTable");
 
-            eventTitle.innerText = data.EventName;
+            const eventName = data.EventName;
+            if (!eventName && !data.Meets) {
+                errorPane.innerText = "Looks like there aren't any meets uploaded for this event yet. Check back later.";
+                errorPane.style.display = "";
+                loadingPane.style.display = "none";
+                mainTablePane.style.display = "none";
+            }
+            else {
+                eventTitle.innerText = eventName;
 
-            if (data.Meets) {
-                const urlBase = "#/" + eventId;
+                if (data.Meets) {
+                    const urlBase = "#/" + eventId;
 
-                for (let i = 0; i < data.Meets.length; i++) {
+                    for (let i = 0; i < data.Meets.length; i++) {
 
-                    const meet = data.Meets[i];
-                    const row = mainTable.tBodies[0].insertRow(i);
+                        const meet = data.Meets[i];
+                        const row = mainTable.tBodies[0].insertRow(i);
 
-                    // Add the name cell
-                    row.insertCell(0).innerText = meet.Label;
+                        // Add the name cell
+                        row.insertCell(0).innerText = meet.Label;
 
-                    // Build the schedule cell.
-                    const scheduleCell = row.insertCell(1);
-                    scheduleCell.className = "has-text-centered";
-                    if (meet.HasSchedule) {
-                        const linkUrl = urlBase + "/" + meet.DatabaseId + "/Schedule/" + meet.MeetId;
-                        scheduleCell.innerHTML = "<a href=\"" + linkUrl + "\" class=\"button is-primary\"><i class=\"far fa-calendar-alt\"></i>&nbsp;Schedule</a>";
-                    }
-                    else {
-                        scheduleCell.innerHTML = "&nbsp;";
-                    }
+                        // Build the schedule cell.
+                        const scheduleCell = row.insertCell(1);
+                        scheduleCell.className = "has-text-centered";
+                        if (meet.HasSchedule) {
+                            const linkUrl = urlBase + "/" + meet.DatabaseId + "/Schedule/" + meet.MeetId;
+                            scheduleCell.innerHTML = "<a href=\"" + linkUrl + "\" class=\"button is-primary\"><i class=\"far fa-calendar-alt\"></i>&nbsp;Schedule</a>";
+                        }
+                        else {
+                            scheduleCell.innerHTML = "&nbsp;";
+                        }
 
-                    // Build the Scores cell.
-                    const scoreSummaryCell = row.insertCell(2);
-                    scoreSummaryCell.className = "has-text-centered";
+                        // Build the Scores cell.
+                        const scoreSummaryCell = row.insertCell(2);
+                        scoreSummaryCell.className = "has-text-centered";
 
-                    const scoreDetailsCell = row.insertCell(3);
-                    scoreDetailsCell.className = "has-text-centered";
+                        const scoreDetailsCell = row.insertCell(3);
+                        scoreDetailsCell.className = "has-text-centered";
 
-                    if (meet.HasScores) {
-                        const summaryLinkUrl = urlBase + "/" + meet.DatabaseId + "/Scores/" + meet.MeetId;
-                        scoreSummaryCell.innerHTML = "<a href=\"" + summaryLinkUrl + "\" class=\"button is-primary\"><i class=\"fas fa-stopwatch\"></i>&nbsp;Score Summary</a>";
+                        if (meet.HasScores) {
+                            const summaryLinkUrl = urlBase + "/" + meet.DatabaseId + "/Scores/" + meet.MeetId;
+                            scoreSummaryCell.innerHTML = "<a href=\"" + summaryLinkUrl + "\" class=\"button is-primary\"><i class=\"fas fa-stopwatch\"></i>&nbsp;Score Summary</a>";
 
-                        const detailsLinkUrl = urlBase + "/" + meet.DatabaseId + "/Dashboard/" + meet.MeetId;
-                        scoreDetailsCell.innerHTML = "<a href=\"" + detailsLinkUrl + "\" class=\"button is-primary\"><i class=\"fas fa-stopwatch\"></i>&nbsp;Score Details</a>";
-                    }
-                    else {
-                        scoreSummaryCell.innerHTML = "&nbsp;";
-                        scoreDetailsCell.innerHTML = "&nbsp;";
+                            const detailsLinkUrl = urlBase + "/" + meet.DatabaseId + "/Dashboard/" + meet.MeetId;
+                            scoreDetailsCell.innerHTML = "<a href=\"" + detailsLinkUrl + "\" class=\"button is-primary\"><i class=\"fas fa-stopwatch\"></i>&nbsp;Score Details</a>";
+                        }
+                        else {
+                            scoreSummaryCell.innerHTML = "&nbsp;";
+                            scoreDetailsCell.innerHTML = "&nbsp;";
+                        }
                     }
                 }
-            }
 
-            mainTablePane.style.display = "";
+                mainTablePane.style.display = "";
+            }
 
             callback(urlParts);
 
@@ -183,7 +192,7 @@ function ensureMainTableIsLoaded(eventId, urlParts, callback) {
 
             console.log('Failed to retrieve the meets table.', err);
 
-            errorPane.style.display = "Failed to retrieve the Event Details.";
+            errorPane.innerText = "Failed to retrieve the Event Details.";
             errorPane.style.display = "";
             loadingPane.style.display = "none";
             mainTablePane.style.display = "none";
