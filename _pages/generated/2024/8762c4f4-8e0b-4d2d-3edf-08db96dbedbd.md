@@ -2,7 +2,7 @@
 layout: page
 permalink: /jbq/2024/other/8762c4f4-8e0b-4d2d-3edf-08db96dbedbd
 title: Oklahoma NE League (Tulsa) 23-24
-date: 2023-11-05
+date: 2023-11-06
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
@@ -13,6 +13,12 @@ menubar_toc_static:
 ---
 
 ## OCT-Discoverer
+
+{% include notification.html
+   message="<b>COMPLETE:</b> All Room(s) Reported."
+   icon="fas fa-info-circle"
+   status="is-success" %}
+
 ### Teams
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
@@ -63,6 +69,12 @@ menubar_toc_static:
 
 *\* Tie couldn't be broken by tie breaking rules.*
 ## OCT-Searcher1
+
+{% include notification.html
+   message="<b>COMPLETE:</b> All Room(s) Reported."
+   icon="fas fa-info-circle"
+   status="is-success" %}
+
 ### Teams
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
@@ -104,6 +116,12 @@ menubar_toc_static:
 
 *\* Tie couldn't be broken by tie breaking rules.*
 ## OCT-Searcher2
+
+{% include notification.html
+   message="<b>COMPLETE:</b> All Room(s) Reported."
+   icon="fas fa-info-circle"
+   status="is-success" %}
+
 ### Teams
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
@@ -148,6 +166,12 @@ menubar_toc_static:
 
 *\* Tie couldn't be broken by tie breaking rules.*
 ## OCT-Master
+
+{% include notification.html
+   message="<b>COMPLETE:</b> All Room(s) Reported."
+   icon="fas fa-info-circle"
+   status="is-success" %}
+
 ### Teams
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
@@ -185,6 +209,12 @@ menubar_toc_static:
 
 *\* Tie couldn't be broken by tie breaking rules.*
 ## NOV-Discoverer
+
+{% include notification.html
+   message="<b>COMPLETE:</b> All Room(s) Reported."
+   icon="fas fa-info-circle"
+   status="is-success" %}
+
 ### Teams
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
@@ -231,6 +261,12 @@ menubar_toc_static:
 
 *\* Tie couldn't be broken by tie breaking rules.*
 ## NOV-Master
+
+{% include notification.html
+   message="<b>COMPLETE:</b> All Room(s) Reported."
+   icon="fas fa-info-circle"
+   status="is-success" %}
+
 ### Teams
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
@@ -263,6 +299,12 @@ menubar_toc_static:
 
 *\* Tie couldn't be broken by tie breaking rules.*
 ## NOV-Searcher1
+
+{% include notification.html
+   message="<b>COMPLETE:</b> All Room(s) Reported."
+   icon="fas fa-info-circle"
+   status="is-success" %}
+
 ### Teams
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
@@ -303,6 +345,12 @@ menubar_toc_static:
 
 *\* Tie couldn't be broken by tie breaking rules.*
 ## NOV-Searcher#2
+
+{% include notification.html
+   message="<b>COMPLETE:</b> All Room(s) Reported."
+   icon="fas fa-info-circle"
+   status="is-success" %}
+
 ### Teams
 
 *Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
