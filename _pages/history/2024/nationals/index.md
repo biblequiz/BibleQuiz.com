@@ -1,10 +1,9 @@
 ---
 layout: page
-permalink: /national-finals/
+permalink: /history/2024/nationals/
 title: "2024 National Finals"
-date: "2022-04-14"
+date: "2023-11-09"
 menubar: menu_current_season
-
 ---
 
 ![]({% link assets/2024/dal-hotel-v1.jpg %})

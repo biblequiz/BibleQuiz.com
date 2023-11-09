@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /national-finals-schedule/
-title: "2023 National Finals Schedule"
+permalink: /history/2024/nationals/schedule
+title: "2024 National Finals Schedule"
 date: "2023-05-29"
 ---
 
-<a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
+<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Nationals 2024 Home Page</a>
 
 ## Tuesday, July 4
 
@@ -66,7 +66,7 @@ date: "2023-05-29"
 
 *Note: Any additional evening meetings will be announced during the morning services.*
 
-<a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
+<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Nationals 2024 Home Page</a>
 
 ---
 
