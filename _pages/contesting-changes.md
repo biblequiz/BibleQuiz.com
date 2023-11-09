@@ -5,8 +5,7 @@ title: "Contesting Changes for National Finals"
 date: "2023-04-10"
 ---
 
-<a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
-
+<a href="{% link _pages/history/2023/nationals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
 
 As many of you know, starting last July at the National BQ Finals in Palm Springs, CA the Rules Committee met to discuss updating the Contesting Rules after receiving suggestions from Coaches, Officials, and Quizzers. Starting with Tournaments last October, we started incorporating the new suggestions. The Contesting Rules were “tweaked” throughout the year after each tournament. 
 
@@ -35,4 +34,4 @@ Teams may present validity as part of a multi-issue contest. If validity is pres
 1. All other conferring and contesting rules are in effect.
 2. Contact Bernie Elliot ([pastorbernie@biblequiz.com](mailto:pastorbernie@biblequiz.com)) with any questions.
 
-<a href="{% link _pages/national-finals.md %}" class="button is-primary">Nationals 2023 Home Page</a>
+<a href="{% link _pages/history/2023/nationals.md %}" class="button is-primary">Nationals 2024 Home Page</a>

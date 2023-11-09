@@ -17,6 +17,6 @@ The rules for the 2023-2024 season are now available. You can see [the summary o
 
 ## National Finals
 
-[![Hyatt Regency Dallas]({% link assets/2024/dal-hotel-v1.jpg %})]({% link _pages/national-finals.md %})
+[![Hyatt Regency Dallas]({% link assets/2024/dal-hotel-v1.jpg %})]({% link _pages/history/2024/nationals/index.md %})
 
-<a href="{% link _pages/national-finals.md %}" class="button is-primary">National Finals Info</a>
+<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">National Finals Info</a>
