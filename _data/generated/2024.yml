@@ -35,13 +35,26 @@ jbq:
     dates: Sep 30, 2023
     scoresLink: /jbq/2024/other/fecab638-419c-45f9-0f57-08dbb09b83f3
 tbq:
-  other:
+  tournament:
+  - name: 6th Annual Bluegrass Classic
+    scope: tournament
+    locationName: First Assembly of God
+    locationCity: Lexington, KY
+    dates: Oct 28, 2023
+    scoresLink: /history/2024/tournaments/6th Annual Bluegrass Classic
   - name: 39th Annual Gold Cup Tournament
-    scope: nation
+    scope: tournament
     locationName: Trinity Church
     locationCity: Cedar Hill, TX
     dates: Oct 21, 2023
-    scoresLink: /history/2024/other/d32892f3-0cde-4051-a4d7-08dbad5c3efd
+    scoresLink: /history/2024/tournaments/39th Annual Gold Cup Tournament
+  - name: 2023 Liberty Classic
+    scope: tournament
+    locationName: Bethany Church
+    locationCity: Wyckoff, NJ
+    dates: Sep 23, 2023
+    scoresLink: /history/2024/tournaments/2023 Liberty Classic
+  other:
   - name: 2023-2024 Bible  Quiz Georgia League Quiz
     scope: district
     scopeLabel: Georgia
