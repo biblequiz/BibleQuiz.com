@@ -63,6 +63,7 @@ jbq:
 - id: 0f0ffd56-d69d-485c-2cee-08dbca84d98d
   season: 2024
   registrationDates: Closes Nov 13, 2023
+  isLive: true
   isVisible: true
   name: 2023-11 MN Central
   scope: district
@@ -73,6 +74,7 @@ jbq:
 - id: 0f39f766-b6b8-4b48-e2a4-08dbdeec765c
   season: 2024
   registrationDates: Closes Nov 12, 2023
+  isLive: true
   isVisible: true
   name: MN Metro League Nov 2023
   scope: district
@@ -83,6 +85,7 @@ jbq:
 - id: 4afe1224-6a56-4760-b9b4-08dbd414b7ae
   season: 2024
   registrationDates: Closes Nov 13, 2023
+  isLive: true
   isVisible: true
   name: Nebraska November 2023 Match
   scope: district
@@ -93,6 +96,7 @@ jbq:
 - id: 95808b72-b853-4453-aabb-08dbafd18f81
   season: 2024
   registrationDates: Closes Nov 12, 2023
+  isLive: true
   isVisible: true
   name: 'Tennessee Meet #2 - November 18th'
   scope: region
@@ -102,6 +106,7 @@ jbq:
 - id: 7d61939b-daa8-4651-049c-08db9c5fbd00
   season: 2024
   registrationDates: Closes Nov 15, 2023
+  isLive: true
   isVisible: true
   name: 'Wyoming League Meet #2'
   scope: district
@@ -109,6 +114,15 @@ jbq:
   locationName: Element Church
   locationCity: Cheyenne, WY
   dates: Nov 18, 2023
+- id: 735f17ed-1f80-463f-8e92-08dbe336d9c0
+  season: 2024
+  registrationDates: Closes Nov 26, 2023
+  isVisible: true
+  name: 15th Annual Snow Bowl Invitational - 2023
+  scope: nation
+  locationName: First @ Firewheel Church
+  locationCity: Garland, TX
+  dates: Dec 2, 2023
 - id: 0dd02051-bf05-49d4-2cec-08dbca84d98d
   season: 2024
   registrationDates: Closed
@@ -117,6 +131,15 @@ jbq:
   scope: district
   scopeLabel: Wisconsin-Northern Michigan
   locationName: Eau Claire WI
+  dates: Dec 2, 2023
+- id: 13fa136f-6e46-48ff-8e93-08dbe336d9c0
+  season: 2024
+  registrationDates: Closes Nov 26, 2023
+  isVisible: true
+  name: 5th Annual Snow Ball Invitational - 2023
+  scope: nation
+  locationName: First @ Firewheel Church
+  locationCity: Garland, TX
   dates: Dec 2, 2023
 - id: ce452f00-a3de-48d4-38a1-08dbdcb46e0b
   season: 2024
@@ -173,6 +196,7 @@ tbq:
 - id: 4a6fdea0-73fa-4c2a-aabc-08dbafd18f81
   season: 2024
   registrationDates: Closes Nov 12, 2023
+  isLive: true
   isVisible: true
   name: 'Tennessee Meet #2 - November 18th'
   scope: district

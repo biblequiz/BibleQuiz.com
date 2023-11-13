@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/2024/other/040d3c2d-cefd-431a-d07b-08dbccc7cb83
 title: 2023-2024 Bible  Quiz Georgia League Quiz
-date: 2023-11-11
+date: 2023-11-12
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
@@ -21,13 +21,11 @@ menubar_toc_static:
 |--:|---|--:|--:|--:|--:|--:|--:|--:|--:|
 | 1 | More Than Conquerors (AIPF) | 6 | 0 | 1,355 | 225.8 | 11 | 88% | 15 | 32 | 12 |
 | 2 | Ambassadors for Christ (AIPF) | 5 | 1 | 1,265 | 210.8 | 11 | 86% | 10 | 35 | 15 |
-| 3 | Greatly Beloved (AIPF) | 3 | 2 | 895 | 179 | 6 | 92% | 6 | 26 | 12 |
-| **\*3** | Overcomers (AIPF) | 3 | 2 | 745 | 149 | 7 | 84% | 4 | 15 | 27 |
-| 4 | Prized Possessions | 2 | 4 | 690 | 115 | 6 | 83% | 6 | 22 | 2 |
-| 5 | The Messengers | 1 | 5 | 665 | 110.8 | 2 | 86% | 5 | 14 | 25 |
-| 6 | Messengers of God | 0 | 6 | 180 | 30 | 1 | 79% |  | 5 | 10 |
-
-*\* Tie couldn't be broken by tie breaking rules.*
+| 3 | Greatly Beloved (AIPF) | 4 | 2 | 1,030 | 171.7 | 7 | 90% | 7 | 30 | 15 |
+| 4 | Overcomers (AIPF) | 3 | 3 | 815 | 135.8 | 7 | 82% | 4 | 18 | 31 |
+| 5 | Prized Possessions | 2 | 4 | 690 | 115 | 6 | 83% | 6 | 22 | 2 |
+| 6 | The Messengers | 1 | 5 | 665 | 110.8 | 2 | 86% | 5 | 14 | 25 |
+| 7 | Messengers of God | 0 | 6 | 180 | 30 | 1 | 79% |  | 5 | 10 |
 
 ### Individuals
 
@@ -39,11 +37,11 @@ menubar_toc_static:
 | 2 | Jayden Nadar | Prized Possessions | 690 | 115 | 6 | 83% | 6 | 22 | 2 |
 | 3 | Tania Anand | Ambassadors for Christ (AIPF) | 660 | 110 | 6 | 100% | 2 | 20 | 8 |
 | 4 | Leslie Cowan | Ambassadors for Christ (AIPF) | 605 | 100.8 | 5 | 80% | 8 | 15 | 5 |
-| 5 | Alwin Stephen | Greatly Beloved (AIPF) | 470 | 94 | 4 | 92% | 2 | 13 | 9 |
-| 6 | Chris Immanuel John | Greatly Beloved (AIPF) | 430 | 86 | 2 | 91% | 4 | 13 | 3 |
-| 7 | Dharshine Jayakrishnan | More Than Conquerors (AIPF) | 510 | 85 | 5 | 83% |  | 17 | 12 |
-| 8 | Jerald Prince Jacob | Overcomers (AIPF) | 395 | 79 | 3 | 81% | 4 | 9 | 9 |
-| 9 | Joshua Gunasingh | Overcomers (AIPF) | 350 | 70 | 4 | 86% |  | 6 | 18 |
+| 5 | Chris Immanuel John | Greatly Beloved (AIPF) | 545 | 90.8 | 3 | 89% | 5 | 17 | 3 |
+| 6 | Dharshine Jayakrishnan | More Than Conquerors (AIPF) | 510 | 85 | 5 | 83% |  | 17 | 12 |
+| 7 | Alwin Stephen | Greatly Beloved (AIPF) | 490 | 81.7 | 4 | 90% | 2 | 13 | 12 |
+| 8 | Jerald Prince Jacob | Overcomers (AIPF) | 435 | 72.5 | 3 | 76% | 4 | 12 | 10 |
+| 9 | Joshua Gunasingh | Overcomers (AIPF) | 380 | 63.3 | 4 | 87% |  | 6 | 21 |
 | 10 | Hans Asher Daniel | The Messengers | 280 | 46.7 | 1 | 85% | 2 | 7 | 8 |
 | 11 | Rishona Nadar | The Messengers | 200 | 33.3 |  | 86% | 3 | 4 | 5 |
 | 12 | Shreyas Selvin Prabaharan | The Messengers | 185 | 30.8 | 1 | 88% |  | 3 | 12 |
