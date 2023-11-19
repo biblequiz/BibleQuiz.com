@@ -2,7 +2,7 @@
 layout: page
 permalink: /jbq/2024/other/8762c4f4-8e0b-4d2d-3edf-08db96dbedbd
 title: Oklahoma NE League (Tulsa) 23-24
-date: 2023-11-06
+date: 2023-11-18
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
@@ -246,7 +246,7 @@ menubar_toc_static:
 | 10 | Atlas Quinn | Carbondale Discoverer #1 | 10 | 1.7 |  | 100% |  |  | 1 |
 | **\*10** | Trinity Harris | Carbondale Discoverer #1 | 10 | 1.7 |  | 100% |  |  | 1 |
 | 11 | Claye Staten | Carbondale Discoverer #2 | 5 | .8 |  | 50% |  |  | 1 |
-| **\*11** | Maggie Johnson | Barnsdall #1 | 5 | .8 |  | 50% |  |  | 1 |
+| **\*11** | Extra-1 | Barnsdall #1 | 5 | .8 |  | 50% |  |  | 1 |
 | 12 | Ben Wilson | BattleCreek Jenks Discoverers |  |  |  |  |  |  |  |
 | **\*12** | Bronson Billingsley | Carbondale Discoverer #1 |  |  |  |  |  |  |  |
 | **\*12** | Caitlin Payne | Barnsdall #1 |  |  |  |  |  |  |  |
