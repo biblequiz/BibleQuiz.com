@@ -56,7 +56,7 @@ date: "2023-05-27"
         <p class="title is-5">CoachApp</p>
         <p class="subtitle is-5">Coaching App</p>
         <div class="content">
-            <p>Makes it easy for coaches to keep score, lookup answers, research data, see the latest rulebook, see the online score, and get an online schedule for any online registered competition on BibleQuiz.com. It is intended for use in conjunction with <a href="https://registration.biblequiz.com/" target="_blank">https://registration.biblequiz.com/</a>.</p>
+            <p>Makes it easy for both JBQ and TBQ coaches to keep score, lookup answers, research data, see the latest rulebook, see the online score, and get an online schedule for any online registered competition on BibleQuiz.com. It is intended for use in conjunction with <a href="https://registration.biblequiz.com/" target="_blank">https://registration.biblequiz.com/</a>.</p>
         </div>
         <a href="https://github.com/biblequiz/Releases.CoachApp/releases/latest/download/com.biblequiz.coachapp.windows.msixbundle" class="button is-primary">
             <i class="fab fa-windows"></i>&nbsp;Windows&nbsp;<span class="tag is-danger"><i>BETA</i></span>
