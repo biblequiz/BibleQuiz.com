@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "2024 JBQ Season"
-permalink: /jbq/2023/
+permalink: /jbq/2024/
 date: "2023-11-09"
 menubar: menu_jbq
 ---
