@@ -74,7 +74,7 @@
 {% assign my_toc = my_toc | markdownify | strip %}
 
 <div class="contents">
-    <div class="menu">
+    <div class="menu" id="pageTOC">
         {% comment %}Mimics the generation of menubar.html{% endcomment %}
         {% if include.static_nodes %}
         {% for menu in include.static_nodes %}

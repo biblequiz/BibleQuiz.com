@@ -1,0 +1,14 @@
+/* Configuration for the page when printing. */
+@media print {
+    .hide-on-print {
+        display: none;
+    }
+
+    .blank-schedule .show-if-schedule {
+        display: block
+    }
+
+    .blank-schedule .hide-if-schedule {
+        display: none
+    }
+}
