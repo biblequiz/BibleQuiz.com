@@ -1,5 +1,15 @@
 /* Configuration for the page when printing. */
 @media print {
+
+    .notification {
+        padding: 0
+    }
+
+    .is-success {
+        color: black;
+        background-color: unset;
+    }
+
     .hide-on-print {
         display: none;
     }
