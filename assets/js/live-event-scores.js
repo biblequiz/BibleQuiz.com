@@ -260,7 +260,7 @@ function initializeLiveEvents() {
 
             if (match) {
                 otherTeamCell.append($("<a />")
-                    .click(null, e => openMatchScoresheet(meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
+                    .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
                     .text(match.OtherTeam ? meet.Teams[match.OtherTeam].Name : "BYE"));
             }
             else {
@@ -298,8 +298,46 @@ function initializeLiveEvents() {
         teamModalContainer.addClass("is-active");
     }
 
-    function openMatchScoresheet(databaseId, meetId, matchId, roomId) {
-        alert(`Open Scoresheet ${databaseId}/${meetId}/${matchId}/${roomId}`);
+    function openMatchScoresheet(label, databaseId, meetId, matchId, roomId) {
+
+        teamModalTitle
+            .empty()
+            .append($("<button />")
+                .addClass(["button", "is-primary", "hide-on-print"])
+                .append($("<i />").addClass(["fas", "fa-sync-alt"]))
+                .click(null, e => {
+                    openMatchScoresheet(label, databaseId, meetId, matchId, roomId);
+                }))
+            .append("&nbsp;")
+            .append(label);
+
+        teamModalBody
+            .empty()
+            .append($("<p />")
+                .append($("<b />").text("Retrieving the Match's Scores ...")))
+            .append($("<progress />")
+                .addClass(["progress", "is-medium", "is-primary"])
+                .attr("max", 100)
+                .text("30%"));
+
+        teamModalContainer.addClass("is-active");
+
+        // Load the in-room scores.
+        fetch(`https://scores.biblequiz.com/api/Events/${eventId}/Databases/${databaseId}/Reports/${meetId}/Scores/${matchId}/${roomId}`)
+            .then(response => response.json())
+            .then(result => {
+                teamModalBody.html(result.Html)
+            })
+            .catch((err) => {
+
+                console.log('Failed to retrieve the scoring report.', err);
+
+                teamModalBody
+                    .empty()
+                    .append($("<div />")
+                        .addClass(["notification", "is-error"])
+                        .text("Failed to retrieve the in-room scores"));
+            });
     }
 
     // Retrieve the score report that contains all the information about the event.
@@ -814,7 +852,7 @@ function initializeLiveEvents() {
                                 .append($("<font />")
                                     .attr("color", "grey")
                                     .text(match ? match.Room : "--"))
-                                .click(null, e => openMatchScoresheet(meet.DatabaseId, meet.MeetId, matchId, match.RoomId));
+                                .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId));
 
                             if (match && meet.RankedTeams) {
 
