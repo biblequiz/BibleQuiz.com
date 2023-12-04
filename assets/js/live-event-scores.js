@@ -4,7 +4,22 @@ function initializeLiveEvents() {
     const resultsPane = $("#resultsPane");
     const errorPane = $("#errorPane");
 
-    $(document.body).css("overflow-x", "scroll")
+    $(document.body).css("overflow-x", "scroll");
+
+    // Setup the modal dialog.
+    const teamModalContainer = $("#teamModal");
+    const teamModalTitle = $("#teamModalTitle");
+    const teamModalBody = $("#teamModalBody");
+
+    $("#teamModalClose").click(
+        null,
+        e => teamModalContainer.removeClass("is-active"));
+
+    $(document).keydown(null, e => {
+        if (e.code === 'Escape') {
+            teamModalContainer.removeClass("is-active");
+        }
+    });
 
     // Apply classes to hide certain elements of the page when printing.
     $("#pageHeader").addClass("hide-on-print");
@@ -159,6 +174,132 @@ function initializeLiveEvents() {
             event => {
                 dropdownElements.removeClass("is-active");
             });
+    }
+
+    function openTeamSchedule(meet, team) {
+
+        teamModalTitle
+            .empty()
+            .append($("<button />")
+                .addClass(["button", "is-primary", "hide-on-print"])
+                .append($("<i />").addClass(["fas", "fa-print"]))
+                .click(null, e => {
+                    resultsPane.addClass("hide-on-print");
+                    teamModalContainer.removeClass("hide-on-print");
+
+                    window.print();
+
+                    resultsPane.removeClass("hide-on-print");
+                    teamModalContainer.addClass("hide-on-print");
+                }))
+            .append("&nbsp;")
+            .append(`${team.Name} @ ${meet.Name}`);
+
+        // Build the table.
+        const teamTableHeaderRow = $("<tr />")
+            .append($("<th />")
+                .addClass("has-text-right")
+                .attr("width", "3%")
+                .text("#"));
+
+        if (meet.RankedTeams) {
+            teamTableHeaderRow
+                .append($("<th />")
+                    .addClass("has-text-centered")
+                    .attr("width", "55")
+                    .text("W/L"))
+                .append($("<th />")
+                    .addClass("has-text-right")
+                    .attr("width", "55")
+                    .text("Score"))
+        }
+
+        teamTableHeaderRow
+            .append($("<th />")
+                .addClass("has-text-centered")
+                .attr("width", "55")
+                .text("Rm"))
+            .append($("<th />")
+                .addClass("has-text-centered")
+                .attr("width", "33%")
+                .text("vs. Team"));
+
+        if (meet.RankedTeams) {
+
+            teamTableHeaderRow
+                .append($("<th />")
+                    .addClass("has-text-right")
+                    .attr("width", "55")
+                    .text("Score"));
+        }
+
+        const teamTableBody = $("<tbody />");
+
+        let matchIndex = 0;
+        for (let match of team.Matches) {
+
+            const matchId = meet.Matches[matchIndex].Id;
+
+            const matchRow = $("<tr />")
+                .append($("<td />")
+                    .addClass("has-text-right")
+                    .text(matchId));
+
+            if (meet.RankedTeams) {
+                matchRow
+                    .append($("<td />")
+                        .addClass("has-text-centered")
+                        .text(match && match.Result ? match.Result : "--"))
+                    .append($("<td />")
+                        .addClass("has-text-right")
+                        .text(match && match.Result ? match.Score : "--"));
+            }
+
+            const otherTeamCell = $("<td />")
+                .addClass("has-text-centered");
+
+            if (match) {
+                otherTeamCell.append($("<a />")
+                    .click(null, e => openMatchScoresheet(meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
+                    .text(match.OtherTeam ? meet.Teams[match.OtherTeam].Name : "BYE"));
+            }
+            else {
+                otherTeamCell.text("--");
+            }
+
+            matchRow
+                .append($("<td />")
+                    .addClass("has-text-centered")
+                    .text(match && match.Room ? match.Room : "--"))
+                .append(otherTeamCell);
+
+            if (meet.RankedTeams) {
+                matchRow
+                    .append($("<td />")
+                        .addClass("has-text-right")
+                        .text(match && match.OtherTeam ? meet.Teams[match.OtherTeam].Matches[matchIndex].Score : "--"));
+            }
+
+            matchIndex++;
+
+            teamTableBody.append(matchRow);
+        }
+
+        teamModalBody
+            .empty()
+            .append(
+                $("<table />")
+                    .addClass(["table", "is-striped", "is-fullwidth", "is-bordered", "is-narrow"])
+                    .append($("<thead />")
+                        .append(teamTableHeaderRow))
+                    .append(teamTableBody));
+
+        // Make the modal visible.
+        teamModalContainer.addClass("is-active");
+    }
+
+    function openMatchScoresheet(databaseId, meetId, matchId, roomId) {
+        alert(`Open Scoresheet ${databaseId}/${meetId}/${matchId}/${roomId}`);
     }
 
     // Retrieve the score report that contains all the information about the event.
@@ -644,7 +785,10 @@ function initializeLiveEvents() {
                                 .text(rank));
                         }
 
-                        tableRow.append($("<td />").text(`${team.Name} (${team.ChurchName})`));
+                        tableRow.append($("<td />")
+                            .append($("<a />")
+                                .click(null, e => openTeamSchedule(meet, team))
+                                .text(`${team.Name} (${team.ChurchName})`)));
 
                         if (meet.RankedTeams) {
                             tableRow
@@ -662,12 +806,15 @@ function initializeLiveEvents() {
                                     .text(team.Scores.AveragePoints));
                         }
 
+                        let matchIndex = 0;
                         for (let match of team.Matches) {
 
-                            const matchCell = $("<td />")
+                            const matchId = meet.Matches[matchIndex++].Id;
+                            const matchLink = $("<a />")
                                 .append($("<font />")
                                     .attr("color", "grey")
-                                    .text(match ? match.Room : "--"));
+                                    .text(match ? match.Room : "--"))
+                                .click(null, e => openMatchScoresheet(meet.DatabaseId, meet.MeetId, matchId, match.RoomId));
 
                             if (match && meet.RankedTeams) {
 
@@ -685,7 +832,7 @@ function initializeLiveEvents() {
                                 }
 
                                 if (match.CurrentQuestion || match.Score || 0 == match.Score) {
-                                    matchCell.append(
+                                    matchLink.append(
                                         $("<font />")
                                             .addClass("hide-if-schedule")
                                             .attr("color", cellColor)
@@ -693,7 +840,7 @@ function initializeLiveEvents() {
                                 }
                             }
 
-                            tableRow.append(matchCell);
+                            tableRow.append($("<td />").append(matchLink));
                         }
 
                         tableBody.append(tableRow);
