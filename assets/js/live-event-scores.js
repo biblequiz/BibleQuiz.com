@@ -259,9 +259,18 @@ function initializeLiveEvents() {
                 .addClass("has-text-centered");
 
             if (match) {
-                otherTeamCell.append($("<a />")
-                    .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
-                    .text(match.OtherTeam ? meet.Teams[match.OtherTeam].Name : "BYE"));
+
+                let otherTeamContainer;
+                if (meet.RankedTeams) {
+                    otherTeamContainer = $("<a />")
+                        .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId));
+                    otherTeamCell.append(otherTeamContainer);
+                }
+                else {
+                    otherTeamContainer = otherTeamCell;
+                }
+
+                otherTeamContainer.text(match.OtherTeam ? meet.Teams[match.OtherTeam].Name : "BYE");
             }
             else {
                 otherTeamCell.text("--");
@@ -323,11 +332,9 @@ function initializeLiveEvents() {
         teamModalContainer.addClass("is-active");
 
         // Load the in-room scores.
-        fetch(`https://scores.biblequiz.com/api/Events/${eventId}/Databases/${databaseId}/Reports/${meetId}/Scores/${matchId}/${roomId}`)
+        fetch(`https://scores.biblequiz.com/Events/${eventId}/Reports/${databaseId}/Scores/${meetId}/${matchId}/${roomId}?m=true`)
             .then(response => response.json())
-            .then(result => {
-                teamModalBody.html(result.Html)
-            })
+            .then(html => teamModalBody.html(html))
             .catch((err) => {
 
                 console.log('Failed to retrieve the scoring report.', err);
@@ -848,11 +855,22 @@ function initializeLiveEvents() {
                         for (let match of team.Matches) {
 
                             const matchId = meet.Matches[matchIndex++].Id;
-                            const matchLink = $("<a />")
-                                .append($("<font />")
-                                    .attr("color", "grey")
-                                    .text(match ? match.Room : "--"))
-                                .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId));
+
+                            let matchContainer;
+                            if (meet.RankedTeams) {
+                                matchContainer = $("<a />")
+                                    .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId));
+
+                                tableRow.append($("<td />").append(matchContainer));
+                            }
+                            else {
+                                matchContainer = $("<td />");
+                                tableRow.append(matchContainer);
+                            }
+
+                            matchContainer.append($("<font />")
+                                .attr("color", "grey")
+                                .text(match ? match.Room : "--"));
 
                             if (match && meet.RankedTeams) {
 
@@ -870,15 +888,13 @@ function initializeLiveEvents() {
                                 }
 
                                 if (match.CurrentQuestion || match.Score || 0 == match.Score) {
-                                    matchLink.append(
+                                    matchContainer.append(
                                         $("<font />")
                                             .addClass("hide-if-schedule")
                                             .attr("color", cellColor)
                                             .text(match.CurrentQuestion ? ` [#${match.CurrentQuestion}]` : ` ~ ${match.Score}`));
                                 }
                             }
-
-                            tableRow.append($("<td />").append(matchLink));
                         }
 
                         tableBody.append(tableRow);
