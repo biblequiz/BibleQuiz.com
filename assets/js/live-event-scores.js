@@ -333,8 +333,10 @@ function initializeLiveEvents() {
 
         // Load the in-room scores.
         fetch(`https://scores.biblequiz.com/Events/${eventId}/Reports/${databaseId}/Scores/${meetId}/${matchId}/${roomId}?m=true`)
-            .then(response => response.json())
-            .then(html => teamModalBody.html(html))
+            .then(response => response.text())
+            .then(html => {
+                teamModalBody.html(html);
+            })
             .catch((err) => {
 
                 console.log('Failed to retrieve the scoring report.', err);
