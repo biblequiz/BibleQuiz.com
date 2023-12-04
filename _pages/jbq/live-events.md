@@ -2,7 +2,6 @@
 layout: page
 permalink: /jbq/live-events/
 title: Live JBQ Events
-menubar: menu_jbq
 menubar_toc: true
 menubar_toc_static:
 - items:
