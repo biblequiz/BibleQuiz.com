@@ -24,7 +24,7 @@
     {% include callouts.html %}
     <section class="section">
         <div class="container">
-            <div class="columns is-multiline">
+            <div class="columns is-multiline" id="pageContentColumns">
                 {% if page.menubar_toc %}
                 <div class="column is-3-desktop is-3-tablet">
                     {% assign contentsTitle = page.toc_title | default: 'Contents' %}

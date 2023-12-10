@@ -1,0 +1,28 @@
+/* Configuration for the page when printing. */
+@media print {
+
+    .notification {
+        padding: 0
+    }
+
+    .is-success {
+        color: black;
+        background-color: unset;
+    }
+
+    .show-on-print {
+        display: unset;
+    }
+
+    .hide-on-print {
+        display: none;
+    }
+
+    .blank-schedule .show-if-schedule {
+        display: block
+    }
+
+    .blank-schedule .hide-if-schedule {
+        display: none
+    }
+}
