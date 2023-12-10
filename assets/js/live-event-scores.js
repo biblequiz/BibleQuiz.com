@@ -270,7 +270,7 @@ function initializeLiveEvents() {
                     otherTeamContainer = otherTeamCell;
                 }
 
-                otherTeamContainer.text(match.OtherTeam ? meet.Teams[match.OtherTeam].Name : "BYE");
+                otherTeamContainer.text(match.OtherTeam || 0 == match.OtherTeam ? meet.Teams[match.OtherTeam].Name : "BYE");
             }
             else {
                 otherTeamCell.text("--");
@@ -286,7 +286,7 @@ function initializeLiveEvents() {
                 matchRow
                     .append($("<td />")
                         .addClass("has-text-right")
-                        .text(match && match.OtherTeam ? meet.Teams[match.OtherTeam].Matches[matchIndex].Score : "--"));
+                        .text(match && (match.OtherTeam || 0 == match.OtherTeam) ? meet.Teams[match.OtherTeam].Matches[matchIndex].Score : "--"));
             }
 
             matchIndex++;
