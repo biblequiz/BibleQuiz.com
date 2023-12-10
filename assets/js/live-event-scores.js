@@ -21,6 +21,10 @@ function initializeLiveEvents() {
         }
     });
 
+    $(".modal-background").click(
+        null,
+        e => teamModalContainer.removeClass("is-active"));
+
     // Apply classes to hide certain elements of the page when printing.
     $("#pageHeader").addClass("hide-on-print");
     $("#pageHero").addClass("hide-on-print");
