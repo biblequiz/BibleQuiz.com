@@ -922,7 +922,7 @@ function initializeLiveEvents() {
                                         default:
                                             matchText = `Playing "${meet.Teams[match.OtherTeam].Name}" in ${match.Room}`;
                                             if (hasMatchTimes) {
-                                                matchText += ` @ ${match.MatchTime}`;
+                                                matchText += ` @ ${meet.Matches[matchIndex].MatchTime}`;
                                             }
                                             break;
                                     }
@@ -988,10 +988,11 @@ function initializeLiveEvents() {
                             quizzers.push(meet.Quizzers[quizzerId].Name);
                         }
 
-                        teamsContainer.append(
+                        teamCardContent.append(
                             $("<p />")
                                 .addClass("is-size-7")
-                                .text(quizzers.join(", ")));
+                                .append($("<b />").text("Quizzers: "))
+                                .append(quizzers.join(", ")));
 
                         tableBody.append(tableRow);
                     }
