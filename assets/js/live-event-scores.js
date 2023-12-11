@@ -96,7 +96,7 @@ function initializeLiveEvents() {
     }
 
     const originalHash = window.location.hash;
-    window.location.hash = null;
+    window.location.hash = "";
 
     function parseUrl() {
 
@@ -692,7 +692,7 @@ function initializeLiveEvents() {
                                 $("<div />")
                                     .addClass(["columns", "is-mobile", "is-centered", "mt-2", "hide-if-schedule"])
                                     .append($("<div />")
-                                        .addClass(["column", "is-one-fifth", "has-text-centered", "team-card-right-border"])
+                                        .addClass(["column", "is-3", "has-text-centered", "team-card-right-border"])
                                         .append($("<span />")
                                             .addClass(["title", "is-5"])
                                             .text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''}`))
@@ -708,7 +708,7 @@ function initializeLiveEvents() {
                                         .append($("<br />"))
                                         .append($("<i />")
                                             .addClass(["subtitle", "is-6"])
-                                            .text("RECORD")))
+                                            .text("W-L")))
                                     .append($("<div />")
                                         .addClass(["column", "is-one-fifth", "has-text-centered", "team-card-right-border"])
                                         .append($("<span />")
@@ -876,14 +876,54 @@ function initializeLiveEvents() {
                     .text("Results"))
                 .append(tableOfContentsMeets);
 
-            // Reset the hash to its original value now that the form is completely loaded.
-            window.location.hash = originalHash;
+            // Persist the last position when unloading or changing the visibility of the page.
+            const storageKey = `${eventId}-last-position`;
+            window.addEventListener("visibilitychange", e => {
+                localStorage.setItem(
+                    storageKey,
+                    JSON.stringify({ x: window.scrollX, y: window.scrollY, time: new Date(), isStats: isStatsReport }));
+            });
+
+            window.addEventListener("beforeunload", e => {
+                localStorage.setItem(
+                    storageKey,
+                    JSON.stringify({ x: window.scrollX, y: window.scrollY, time: new Date(), isStats: isStatsReport }));
+            });
 
             makeDropdownsClickable();
 
             resultsPane.show();
             loadingPane.hide();
             errorPane.hide();
+
+            // Now that the UI has been updated, attempt to scroll to the last position (if it didn't happen too long ago).
+            let isScrolled = false;
+            const lastPositionJson = localStorage.getItem(storageKey);
+            if (lastPositionJson) {
+                try {
+                    const lastPosition = JSON.parse(lastPositionJson);
+                    if (null != lastPosition) {
+                        const x = lastPosition.x;
+                        const y = lastPosition.y;
+                        const isStats = lastPosition.isStats;
+                        const time = lastPosition.time;
+                        if (null != x && null != y && null != time && null != isStats && isStats === isStatsReport &&
+                            Date.parse(time) < new Date(new Date().getTime() + 120000)) {
+                            window.scrollTo(x, y);
+                            isScrolled = true;
+                        }
+                    }
+                } catch {
+                    // Ignore this error.
+                }
+
+                // Remove the item from the local storage regardless of whether it is still valid.
+                localStorage.removeItem(storageKey);
+            }
+
+            if (!isScrolled) {
+                window.location.hash = originalHash;
+            }
         })
         .catch((err) => {
 
