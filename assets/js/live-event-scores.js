@@ -268,6 +268,10 @@ function initializeLiveEvents() {
                     resultsPane.append($("<div />")
                         .addClass("meet-cell")
                         .css("page-break-after", "always"));
+
+                    if (!isStatsReport) {
+                        resultsPane.append($("<hr />").addClass("hide-on-print"));
+                    }
                 }
 
                 // Add the title to the results pane and start formatting the table of contents.
