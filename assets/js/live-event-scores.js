@@ -180,137 +180,6 @@ function initializeLiveEvents() {
             });
     }
 
-    function openTeamSchedule(meet, team) {
-
-        teamModalTitle
-            .empty()
-            .append($("<button />")
-                .addClass(["button", "is-primary", "hide-on-print"])
-                .append($("<i />").addClass(["fas", "fa-print"]))
-                .click(null, e => {
-                    resultsPane.addClass("hide-on-print");
-                    teamModalContainer.removeClass("hide-on-print");
-
-                    window.print();
-
-                    resultsPane.removeClass("hide-on-print");
-                    teamModalContainer.addClass("hide-on-print");
-                }))
-            .append("&nbsp;")
-            .append(`${team.Name} @ ${meet.Name}`);
-
-        // Build the table.
-        const teamTableHeaderRow = $("<tr />")
-            .append($("<th />")
-                .addClass("has-text-right")
-                .attr("width", "3%")
-                .text("#"));
-
-        if (meet.RankedTeams) {
-            teamTableHeaderRow
-                .append($("<th />")
-                    .addClass("has-text-centered")
-                    .attr("width", "55")
-                    .text("W/L"))
-                .append($("<th />")
-                    .addClass("has-text-right")
-                    .attr("width", "55")
-                    .text("Score"))
-        }
-
-        teamTableHeaderRow
-            .append($("<th />")
-                .addClass("has-text-centered")
-                .attr("width", "55")
-                .text("Rm"))
-            .append($("<th />")
-                .addClass("has-text-centered")
-                .attr("width", "33%")
-                .text("vs. Team"));
-
-        if (meet.RankedTeams) {
-
-            teamTableHeaderRow
-                .append($("<th />")
-                    .addClass("has-text-right")
-                    .attr("width", "55")
-                    .text("Score"));
-        }
-
-        const teamTableBody = $("<tbody />");
-
-        let matchIndex = 0;
-        for (let match of team.Matches) {
-
-            const matchId = meet.Matches[matchIndex].Id;
-
-            const matchRow = $("<tr />")
-                .append($("<td />")
-                    .addClass("has-text-right")
-                    .text(matchId));
-
-            if (meet.RankedTeams) {
-                matchRow
-                    .append($("<td />")
-                        .addClass("has-text-centered")
-                        .text(match && match.Result ? match.Result : "--"))
-                    .append($("<td />")
-                        .addClass("has-text-right")
-                        .text(match && match.Result ? match.Score : "--"));
-            }
-
-            const otherTeamCell = $("<td />")
-                .addClass("has-text-centered");
-
-            if (match) {
-
-                let otherTeamContainer;
-                if (meet.RankedTeams) {
-                    otherTeamContainer = $("<a />")
-                        .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId));
-                    otherTeamCell.append(otherTeamContainer);
-                }
-                else {
-                    otherTeamContainer = otherTeamCell;
-                }
-
-                otherTeamContainer.text(match.OtherTeam || 0 == match.OtherTeam ? meet.Teams[match.OtherTeam].Name : "BYE");
-            }
-            else {
-                otherTeamCell.text("--");
-            }
-
-            matchRow
-                .append($("<td />")
-                    .addClass("has-text-centered")
-                    .text(match && match.Room ? match.Room : "--"))
-                .append(otherTeamCell);
-
-            if (meet.RankedTeams) {
-                matchRow
-                    .append($("<td />")
-                        .addClass("has-text-right")
-                        .text(match && (match.OtherTeam || 0 == match.OtherTeam) ? meet.Teams[match.OtherTeam].Matches[matchIndex].Score : "--"));
-            }
-
-            matchIndex++;
-
-            teamTableBody.append(matchRow);
-        }
-
-        teamModalBody
-            .empty()
-            .append(
-                $("<table />")
-                    .addClass(["table", "is-striped", "is-fullwidth", "is-bordered", "is-narrow"])
-                    .append($("<thead />")
-                        .append(teamTableHeaderRow))
-                    .append(teamTableBody));
-
-        // Make the modal visible.
-        teamModalContainer.addClass("is-active");
-    }
-
     function openMatchScoresheet(label, databaseId, meetId, matchId, roomId) {
 
         teamModalTitle
@@ -790,60 +659,20 @@ function initializeLiveEvents() {
                                 allMeetCells.removeClass("hide-on-print");
                             }));
 
-                    // Build the header for the table.
-                    const tableHeaderRow = $("<tr />");
-
-                    if (meet.RankedTeams) {
-                        tableHeaderRow.append($("<th />")
-                            .addClass(["hide-if-schedule", "has-text-right"])
-                            .attr("width", "3%")
-                            .text("#"));
-                    }
-
-                    tableHeaderRow
-                        .append($("<th />")
-                            .attr("width", "33%")
-                            .text("Team (Church)"));
-
-                    if (meet.RankedTeams) {
-                        tableHeaderRow
-                            .append($("<th />")
-                                .addClass(["hide-if-schedule", "has-text-right"])
-                                .attr("width", "30")
-                                .text("W"))
-                            .append($("<th />")
-                                .addClass(["hide-if-schedule", "has-text-right"])
-                                .attr("width", "30")
-                                .text("L"))
-                            .append($("<th />")
-                                .addClass(["hide-if-schedule", "has-text-right"])
-                                .attr("width", "55")
-                                .text("Total"))
-                            .append($("<th />")
-                                .addClass(["hide-if-schedule", "has-text-right"])
-                                .attr("width", "55")
-                                .text("Avg"));
-                    }
-
                     let hasMatchTimes = false;
                     for (let match of meet.Matches) {
-                        tableHeaderRow.append($("<th />")
-                            .addClass("has-text-centered")
-                            .text(match.Id));
-
                         if (match.MatchTime) {
                             hasMatchTimes = true;
+                            break;
                         }
                     }
 
-                    // Build the body.
-                    const tableBody = $("<tbody />");
                     for (let i = 0; i < meet.Teams.length; i++) {
 
                         const team = meet.Teams[i];
 
-                        const teamCardContent = $("<div />")
-                            .addClass(["card-content", "p-3"])
+                        const teamCard = $("<div />")
+                            .addClass(["column", "is-half", "team-card", "p-3"])
                             .append($("<p />")
                                 .addClass(["title", "is-5"])
                                 .text(team.Name))
@@ -851,17 +680,11 @@ function initializeLiveEvents() {
                                 .addClass(["subtitle", "is-7"])
                                 .text(team.ChurchName));
 
-                        const teamCard = $("<div />")
-                            .addClass(["column", "is-half", "team-card"])
-                            .append(teamCardContent);
-
                         teamCells.append(teamCard);
-
-                        const tableRow = $("<tr />");
 
                         if (meet.RankedTeams) {
 
-                            teamCardContent.append(
+                            teamCard.append(
                                 $("<div />")
                                     .addClass(["columns", "is-mobile", "is-centered", "mt-2", "hide-if-schedule"])
                                     .append($("<div />")
@@ -871,7 +694,7 @@ function initializeLiveEvents() {
                                             .text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''}`))
                                         .append($("<br />"))
                                         .append($("<i />")
-                                            .addClass(["subtitle", "is-7"])
+                                            .addClass(["subtitle", "is-6"])
                                             .text("PLACE")))
                                     .append($("<div />")
                                         .addClass(["column", "is-one-fifth", "has-text-centered", "team-card-right-border"])
@@ -880,7 +703,7 @@ function initializeLiveEvents() {
                                             .text(`${team.Scores.Wins}-${team.Scores.Losses}`))
                                         .append($("<br />"))
                                         .append($("<i />")
-                                            .addClass(["subtitle", "is-7"])
+                                            .addClass(["subtitle", "is-6"])
                                             .text("RECORD")))
                                     .append($("<div />")
                                         .addClass(["column", "is-one-fifth", "has-text-centered", "team-card-right-border"])
@@ -889,7 +712,7 @@ function initializeLiveEvents() {
                                             .text(team.Scores.TotalPoints))
                                         .append($("<br />"))
                                         .append($("<i />")
-                                            .addClass(["subtitle", "is-7"])
+                                            .addClass(["subtitle", "is-6"])
                                             .text("PTS")))
                                     .append($("<div />")
                                         .addClass(["column", "is-one-fifth", "has-text-centered"])
@@ -898,150 +721,122 @@ function initializeLiveEvents() {
                                             .text(team.Scores.AveragePoints))
                                         .append($("<br />"))
                                         .append($("<i />")
-                                            .addClass(["subtitle", "is-7"])
+                                            .addClass(["subtitle", "is-6"])
                                             .text("AVG"))));
 
                             let rank = team.Scores.Rank;
                             if (team.Scores.IsTie) {
                                 rank += "*";
                             }
-
-                            tableRow.append($("<td />")
-                                .addClass(["hide-if-schedule", "has-text-right"])
-                                .text(rank));
                         }
 
                         const matchesList = $("<ol />")
                             .addClass("is-size-7");
-                        teamCardContent.append(matchesList);
-
-                        tableRow.append($("<td />")
-                            .append($("<a />")
-                                .click(null, e => openTeamSchedule(meet, team))
-                                .text(`${team.Name} (${team.ChurchName})`)));
-
-                        if (meet.RankedTeams) {
-                            tableRow
-                                .append($("<td />")
-                                    .addClass(["hide-if-schedule", "has-text-right"])
-                                    .text(team.Scores.Wins))
-                                .append($("<td />")
-                                    .addClass(["hide-if-schedule", "has-text-right"])
-                                    .text(team.Scores.Losses))
-                                .append($("<td />")
-                                    .addClass(["hide-if-schedule", "has-text-right"])
-                                    .text(team.Scores.TotalPoints))
-                                .append($("<td />")
-                                    .addClass(["hide-if-schedule", "has-text-right"])
-                                    .text(team.Scores.AveragePoints));
-                        }
+                        teamCard.append(matchesList);
 
                         let matchIndex = 0;
                         for (let match of team.Matches) {
 
                             const matchId = meet.Matches[matchIndex].Id;
 
+                            const matchListItem = $("<li />");
                             if (match) {
 
                                 const isLiveMatch = match.CurrentQuestion && meet.RankedTeams;
-                                let includeLink = true;
 
-                                let matchText;
+                                let scheduleText = `vs. `;
+                                let scoreText = null;
+                                if (meet.RankedTeams) {
+                                    
+                                }
+
+                                const matchTextElement = $("<span />")
+                                    .append($("<span />")
+                                        .addClass("show-if-schedule")
+                                        .hide()
+                                        .text("vs. "));
+
+                                switch (match.Result) {
+                                    case "W":
+                                        matchTextElement.append($("<span />")
+                                            .addClass("hide-if-schedule")
+                                            .text("Won against "));
+                                        break;
+                                    case "L":
+                                        matchTextElement.append($("<span />")
+                                            .addClass("hide-if-schedule")
+                                            .text("Lost to "));
+                                        break;
+                                    default:
+                                        if (meet.RankedTeams) {
+                                            if (!match.CurrentQuestion && null != match.Score) {
+                                                matchTextElement.append($("<span />")
+                                                    .addClass("hide-if-schedule")
+                                                    .text("Played "));
+                                            }
+                                            else {
+                                                matchTextElement.append($("<span />")
+                                                    .addClass("hide-if-schedule")
+                                                    .text(isLiveMatch ? "Playing " : "vs. "));
+                                            }
+                                        }
+                                        break;
+                                }
+
                                 if (match.OtherTeam || 0 == match.OtherTeam) {
-                                    const otherTeamName = meet.Teams[match.OtherTeam].Name;
-                                    const otherTeamScore = meet.Teams[match.OtherTeam].Matches[matchIndex].Score;
 
-                                    switch (match.Result) {
-                                        case "W":
-                                            matchText = `Won against "${meet.Teams[match.OtherTeam].Name}" ${match.Score} to ${meet.Teams[match.OtherTeam].Matches[matchIndex].Score}`;
-                                            break;
-                                        case "L":
-                                            matchText = `Lost to "${meet.Teams[match.OtherTeam].Name}" ${match.Score} to ${meet.Teams[match.OtherTeam].Matches[matchIndex].Score}`;
-                                            break;
-                                        default:
-                                            if (meet.RankedTeams) {
-                                                if (!match.CurrentQuestion && (match.Score || otherTeamScore || 0 == match.Score || 0 == otherTeamScore)) {
-                                                    matchText = `Played "${otherTeamName}" ${match.Score} to ${otherTeamScore}`;
-                                                    break;
-                                                }
-                                            }
+                                    matchTextElement.append($("<span />").text(`"${meet.Teams[match.OtherTeam].Name}"`));
 
-                                            matchText = `${isLiveMatch ? "Playing" : "vs."} "${meet.Teams[match.OtherTeam].Name}" in ${match.Room}`;
-                                            includeLink = isLiveMatch;
-                                            if (hasMatchTimes && !isLiveMatch) {
-                                                matchText += ` @ ${meet.Matches[matchIndex].MatchTime}`;
-                                            }
-                                            break;
+                                    if (meet.RankedTeams) {
+                                        matchTextElement.append($("<span />")
+                                            .addClass("hide-if-schedule")
+                                            .text(` ${match.Score} to ${meet.Teams[match.OtherTeam].Matches[matchIndex].Score}`));
                                     }
                                 }
                                 else {
-                                    matchText = "BYE with scoring";
+                                    matchTextElement.append($("<span />").text("\"BYE TEAM\""));
+
+                                    if (meet.RankedTeams) {
+                                        matchTextElement.append($("<span />")
+                                            .addClass("hide-if-schedule")
+                                            .text(` ${match.Score}`));
+                                    }
                                 }
 
-                                const matchListItem = $("<li />");
+                                let includeLink = true;
+                                let scheduleText = ` in ${match.Room}`;
+                                if (hasMatchTimes && !isLiveMatch) {
+                                    scheduleText += ` @ ${meet.Matches[matchIndex].MatchTime}`;
+                                    includeLink = false;
+                                }
+
+                                matchTextElement.append($("<span />")
+                                    .addClass(meet.RankedTeams ? ["show-if-schedule"] : [])
+                                    .text(scheduleText));
+
                                 if (includeLink) {
                                     matchListItem.append($("<a />")
                                         .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
-                                        .text(matchText));
+                                        .append(matchTextElement));
 
                                     if (isLiveMatch) {
                                         matchListItem
                                             .append($("<br />"))
                                             .append($("<i />")
-                                                .append($("<i />").addClass(["fas", "fa-broadcast-tower"]))
+                                                .append($("<i />").addClass(["fas", "fa-broadcast-tower", "hide-if-schedule"]))
                                                 .append("&nbsp;")
                                                 .append(`Question #${match.CurrentQuestion}`));
                                     }
                                 }
                                 else {
-                                    matchListItem.text(matchText);
+                                    matchListItem.append(matchTextElement);
                                 }
-
-                                matchesList.append(matchListItem);
                             }
                             else {
-                                matchesList.append($("<li />").text("BYE"));
+                                matchListItem.text("BYE");
                             }
 
-                            let matchContainer;
-                            if (meet.RankedTeams) {
-                                matchContainer = $("<a />")
-                                    .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId));
-
-                                tableRow.append($("<td />").append(matchContainer));
-                            }
-                            else {
-                                matchContainer = $("<td />");
-                                tableRow.append(matchContainer);
-                            }
-
-                            matchContainer.append($("<font />")
-                                .attr("color", "grey")
-                                .text(match ? match.Room : "--"));
-
-                            if (match && meet.RankedTeams) {
-
-                                let cellColor;
-                                switch (match.Result) {
-                                    case "W":
-                                        cellColor = "blue";
-                                        break;
-                                    case "L":
-                                        cellColor = "red";
-                                        break;
-                                    default:
-                                        cellColor = "black";
-                                        break;
-                                }
-
-                                if (match.CurrentQuestion || match.Score || 0 == match.Score) {
-                                    matchContainer.append(
-                                        $("<font />")
-                                            .addClass("hide-if-schedule")
-                                            .attr("color", cellColor)
-                                            .text(match.CurrentQuestion ? ` [#${match.CurrentQuestion}]` : ` ~ ${match.Score}`));
-                                }
-                            }
+                            matchesList.append(matchListItem);
 
                             matchIndex++;
                         }
@@ -1052,60 +847,13 @@ function initializeLiveEvents() {
                         }
 
                         if (quizzers.length > 0) {
-                            teamCardContent.append(
+                            teamCard.append(
                                 $("<p />")
                                     .addClass("is-size-7")
                                     .append($("<b />").text("Quizzers: "))
                                     .append(quizzers.join(" | ")));
                         }
-
-                        tableBody.append(tableRow);
                     }
-
-                    // Build the footer (if there are match times).
-                    const table = $("<table />")
-                        .addClass(["table", "is-striped", "is-fullwidth", "is-bordered", "is-narrow"])
-                        .append($("<thead />").append(tableHeaderRow))
-                        .append(tableBody);
-
-                    if (hasMatchTimes) {
-                        const tableFooterRow = $("<tr />");
-
-                        if (meet.RankedTeams) {
-                            tableFooterRow.append($("<th />")
-                                .addClass("hide-if-schedule")
-                                .append("&nbsp;"));
-                        }
-
-                        tableFooterRow.append($("<th />").text("Planned Start"));
-
-                        if (meet.RankedTeams) {
-                            tableFooterRow
-                                .append($("<th />")
-                                    .addClass("hide-if-schedule")
-                                    .append("&nbsp;"))
-                                .append($("<th />")
-                                    .addClass("hide-if-schedule")
-                                    .append("&nbsp;"))
-                                .append($("<th />")
-                                    .addClass("hide-if-schedule")
-                                    .append("&nbsp;"))
-                                .append($("<th />")
-                                    .addClass("hide-if-schedule")
-                                    .append("&nbsp;"));
-                        }
-
-                        for (let match of meet.Matches) {
-                            tableFooterRow.append($("<th />")
-                                .addClass("has-text-centered")
-                                .text(match.MatchTime));
-                        }
-
-                        table.append($("<tfoot />").append(tableFooterRow))
-                    }
-
-                    // Create the schedule table.
-                    meetCell.append(table);
                 }
 
                 resultsPane.append(meetCell);
