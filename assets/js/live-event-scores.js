@@ -353,6 +353,23 @@ function initializeLiveEvents() {
             });
     }
 
+    function ordinalWithSuffix(number) {
+        const tens = number % 10;
+        const hundreds = number % 100;
+
+        if (tens == 1 && hundreds != 11) {
+            return number + "st";
+        }
+        else if (tens == 2 && hundreds != 12) {
+            return number + "nd";
+        }
+        else if (tens == 3 && hundreds != 13) {
+            return number + "rd";
+        }
+
+        return number + "th";
+    }
+
     // Retrieve the score report that contains all the information about the event.
     fetch(`https://scores.biblequiz.com/api/Events/${eventId}/ScoringReport`)
         .then(response => response.json())
@@ -742,6 +759,11 @@ function initializeLiveEvents() {
                 }
                 else {
 
+                    const teamCells = $("<div />")
+                        .addClass(["columns", "is-multiline"]);
+
+                    meetCell.append(teamCells);
+
                     printMenu
                         .append($("<a />")
                             .addClass("dropdown-item")
@@ -818,13 +840,33 @@ function initializeLiveEvents() {
                     const tableBody = $("<tbody />");
                     for (let i = 0; i < meet.Teams.length; i++) {
 
-                        const team = meet.RankedTeams
-                            ? meet.Teams[meet.RankedTeams[i]]
-                            : meet.Teams[i];
+                        const team = meet.Teams[i];
+
+                        const teamCardContent = $("<div />")
+                            .addClass(["card-content", "p-3"])
+                            .append($("<p />")
+                                .addClass(["title", "is-5"])
+                                .text(team.Name))
+                            .append($("<p />")
+                                .addClass(["subtitle", "is-7"])
+                                .text(team.ChurchName));
+
+                        const teamCard = $("<div />")
+                            .addClass(["column", "is-half", "card", "mt-2"])
+                            .append(teamCardContent);
+
+                        teamCells.append(teamCard);
 
                         const tableRow = $("<tr />");
 
                         if (meet.RankedTeams) {
+
+                            teamCardContent
+                                .append($("<p />")
+                                    .append($("<i />").text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''} Place`))
+                                    .append(` (Won ${team.Scores.Wins} and lost ${team.Scores.Losses} games)`)
+                                    .append($("<br />"))
+                                    .append(`${team.Scores.TotalPoints} points (Avg ${team.Scores.AveragePoints} per Game)`));
 
                             let rank = team.Scores.Rank;
                             if (team.Scores.IsTie) {
@@ -835,6 +877,10 @@ function initializeLiveEvents() {
                                 .addClass(["hide-if-schedule", "has-text-right"])
                                 .text(rank));
                         }
+
+                        const matchesList = $("<ol />")
+                            .addClass("is-size-7");
+                        teamCardContent.append(matchesList);
 
                         tableRow.append($("<td />")
                             .append($("<a />")
@@ -860,7 +906,39 @@ function initializeLiveEvents() {
                         let matchIndex = 0;
                         for (let match of team.Matches) {
 
-                            const matchId = meet.Matches[matchIndex++].Id;
+                            const matchId = meet.Matches[matchIndex].Id;
+
+                            if (match) {
+
+                                let matchText;
+                                if (match.OtherTeam || 0 == match.OtherTeam) {
+                                    switch (match.Result) {
+                                        case "W":
+                                            matchText = `Won against "${meet.Teams[match.OtherTeam].Name}" ${match.Score} to ${meet.Teams[match.OtherTeam].Matches[matchIndex].Score}`;
+                                            break;
+                                        case "L":
+                                            matchText = `Lost to "${meet.Teams[match.OtherTeam].Name}" ${match.Score} to ${meet.Teams[match.OtherTeam].Matches[matchIndex].Score}`;
+                                            break;
+                                        default:
+                                            matchText = `Playing "${meet.Teams[match.OtherTeam].Name}" in ${match.Room}`;
+                                            if (hasMatchTimes) {
+                                                matchText += ` @ ${match.MatchTime}`;
+                                            }
+                                            break;
+                                    }
+                                }
+                                else {
+                                    matchText = "BYE with scoring";
+                                }
+
+                                matchesList.append($("<li />")
+                                    .append($("<a />")
+                                        .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
+                                        .text(matchText)));
+                            }
+                            else {
+                                matchesList.append($("<li />").text("BYE"));
+                            }
 
                             let matchContainer;
                             if (meet.RankedTeams) {
@@ -901,7 +979,19 @@ function initializeLiveEvents() {
                                             .text(match.CurrentQuestion ? ` [#${match.CurrentQuestion}]` : ` ~ ${match.Score}`));
                                 }
                             }
+
+                            matchIndex++;
                         }
+
+                        const quizzers = [];
+                        for (let quizzerId of team.Quizzers) {
+                            quizzers.push(meet.Quizzers[quizzerId].Name);
+                        }
+
+                        teamsContainer.append(
+                            $("<p />")
+                                .addClass("is-size-7")
+                                .text(quizzers.join(", ")));
 
                         tableBody.append(tableRow);
                     }
