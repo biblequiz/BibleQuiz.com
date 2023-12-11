@@ -852,7 +852,7 @@ function initializeLiveEvents() {
                                 .text(team.ChurchName));
 
                         const teamCard = $("<div />")
-                            .addClass(["column", "is-half", "card", "mt-2"])
+                            .addClass(["column", "is-half", "team-card"])
                             .append(teamCardContent);
 
                         teamCells.append(teamCard);
@@ -861,12 +861,45 @@ function initializeLiveEvents() {
 
                         if (meet.RankedTeams) {
 
-                            teamCardContent
-                                .append($("<p />")
-                                    .append($("<i />").text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''} Place`))
-                                    .append(` (Won ${team.Scores.Wins} and lost ${team.Scores.Losses} games)`)
-                                    .append($("<br />"))
-                                    .append(`${team.Scores.TotalPoints} points (Avg ${team.Scores.AveragePoints} per Game)`));
+                            teamCardContent.append(
+                                $("<div />")
+                                    .addClass(["columns", "is-mobile", "is-centered", "mt-2", "hide-if-schedule"])
+                                    .append($("<div />")
+                                        .addClass(["column", "is-one-fifth", "has-text-centered", "team-card-right-border"])
+                                        .append($("<span />")
+                                            .addClass(["title", "is-5"])
+                                            .text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''}`))
+                                        .append($("<br />"))
+                                        .append($("<i />")
+                                            .addClass(["subtitle", "is-6"])
+                                            .text("PLACE")))
+                                    .append($("<div />")
+                                        .addClass(["column", "is-one-fifth", "has-text-centered", "team-card-right-border"])
+                                        .append($("<span />")
+                                            .addClass(["title", "is-5"])
+                                            .text(`${team.Scores.Wins}-${team.Scores.Losses}`))
+                                        .append($("<br />"))
+                                        .append($("<i />")
+                                            .addClass(["subtitle", "is-6"])
+                                            .text("RECORD")))
+                                    .append($("<div />")
+                                        .addClass(["column", "is-one-fifth", "has-text-centered", "team-card-right-border"])
+                                        .append($("<span />")
+                                            .addClass(["title", "is-5"])
+                                            .text(team.Scores.TotalPoints))
+                                        .append($("<br />"))
+                                        .append($("<i />")
+                                            .addClass(["subtitle", "is-6"])
+                                            .text("PTS")))
+                                    .append($("<div />")
+                                        .addClass(["column", "is-one-fifth", "has-text-centered"])
+                                        .append($("<span />")
+                                            .addClass(["title", "is-5"])
+                                            .text(team.Scores.AveragePoints))
+                                        .append($("<br />"))
+                                        .append($("<i />")
+                                            .addClass(["subtitle", "is-6"])
+                                            .text("AVG"))));
 
                             let rank = team.Scores.Rank;
                             if (team.Scores.IsTie) {
@@ -910,8 +943,14 @@ function initializeLiveEvents() {
 
                             if (match) {
 
+                                const isLiveMatch = match.CurrentQuestion && meet.RankedTeams;
+                                let includeLink = true;
+
                                 let matchText;
                                 if (match.OtherTeam || 0 == match.OtherTeam) {
+                                    const otherTeamName = meet.Teams[match.OtherTeam].Name;
+                                    const otherTeamScore = meet.Teams[match.OtherTeam].Matches[matchIndex].Score;
+
                                     switch (match.Result) {
                                         case "W":
                                             matchText = `Won against "${meet.Teams[match.OtherTeam].Name}" ${match.Score} to ${meet.Teams[match.OtherTeam].Matches[matchIndex].Score}`;
@@ -920,8 +959,16 @@ function initializeLiveEvents() {
                                             matchText = `Lost to "${meet.Teams[match.OtherTeam].Name}" ${match.Score} to ${meet.Teams[match.OtherTeam].Matches[matchIndex].Score}`;
                                             break;
                                         default:
-                                            matchText = `Playing "${meet.Teams[match.OtherTeam].Name}" in ${match.Room}`;
-                                            if (hasMatchTimes) {
+                                            if (meet.RankedTeams) {
+                                                if (!match.CurrentQuestion && (match.Score || otherTeamScore || 0 == match.Score || 0 == otherTeamScore)) {
+                                                    matchText = `Played "${otherTeamName}" ${match.Score} to ${otherTeamScore}`;
+                                                    break;
+                                                }
+                                            }
+
+                                            matchText = `${isLiveMatch ? "Playing" : "vs."} "${meet.Teams[match.OtherTeam].Name}" in ${match.Room}`;
+                                            includeLink = isLiveMatch;
+                                            if (hasMatchTimes && !isLiveMatch) {
                                                 matchText += ` @ ${meet.Matches[matchIndex].MatchTime}`;
                                             }
                                             break;
@@ -931,10 +978,26 @@ function initializeLiveEvents() {
                                     matchText = "BYE with scoring";
                                 }
 
-                                matchesList.append($("<li />")
-                                    .append($("<a />")
+                                const matchListItem = $("<li />");
+                                if (includeLink) {
+                                    matchListItem.append($("<a />")
                                         .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
-                                        .text(matchText)));
+                                        .text(matchText));
+
+                                    if (isLiveMatch) {
+                                        matchListItem
+                                            .append($("<br />"))
+                                            .append($("<i />")
+                                                .append($("<i />").addClass(["fas", "fa-broadcast-tower"]))
+                                                .append("&nbsp;")
+                                                .append(`Question #${match.CurrentQuestion}`));
+                                    }
+                                }
+                                else {
+                                    matchListItem.text(matchText);
+                                }
+
+                                matchesList.append(matchListItem);
                             }
                             else {
                                 matchesList.append($("<li />").text("BYE"));
@@ -988,11 +1051,13 @@ function initializeLiveEvents() {
                             quizzers.push(meet.Quizzers[quizzerId].Name);
                         }
 
-                        teamCardContent.append(
-                            $("<p />")
-                                .addClass("is-size-7")
-                                .append($("<b />").text("Quizzers: "))
-                                .append(quizzers.join(", ")));
+                        if (quizzers.length > 0) {
+                            teamCardContent.append(
+                                $("<p />")
+                                    .addClass("is-size-7")
+                                    .append($("<b />").text("Quizzers: "))
+                                    .append(quizzers.join(" | ")));
+                        }
 
                         tableBody.append(tableRow);
                     }

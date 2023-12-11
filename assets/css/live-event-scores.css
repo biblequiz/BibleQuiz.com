@@ -1,3 +1,7 @@
+.team-card-right-border {
+    border-right: 1px solid grey
+}
+
 /* Configuration for the page when printing. */
 @media print {
 
@@ -24,5 +28,9 @@
 
     .blank-schedule .hide-if-schedule {
         display: none
+    }
+
+    div.team-card {
+        break-inside: avoid;
     }
 }
