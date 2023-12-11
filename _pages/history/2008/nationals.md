@@ -311,42 +311,43 @@ Team photos are provided courtesy of Larry Mullins.
 
 #### 1st Place
 
-Church:	Harvest Time A/G, Brunswick, OH
-Coaches:	Sandy Everett, Barbara Randolph (assistant), Scott McGillis (assistant)
-Team:	Lisa Everett
-Ian McGillis
-John McGillis
-Katie Randolph
+* **Church**: Harvest Time A/G, Brunswick, OH
+* **Coaches**: Sandy Everett, Barbara Randolph (assistant), Scott McGillis (assistant)
+* **Team:**
+   * Lisa Everett
+   * Ian McGillis
+   * John McGillis
+   * Katie Randolph
 * **Preliminaries**:
-Round 1: Lost to Owasso First A/G, Owasso, OK 95 to 255
-Round 2: Lost to Calvary A/G, Dunwoody, GA 70 to 155
-Round 3: Won against Central A/G, Springfield, MO 185 to 25
-Round 4: Lost to Norhtridge A/G, Grand Island, NE 110 to 115
-Round 5: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 140 to 80
-Round 6: Lost to CrossPoint A/G, Portage, WI 40 to 150
-Round 7: Lost to Meridian A/G, Meridian, ID 40 to 45
-Round 8: Won against Dayspring A/G, Bowling Green, OH 155 to 135
-Round 9: Lost to Orange County Worship Center, Santa Ana, CA 100 to 135
+  * Round 1: Lost to Owasso First A/G, Owasso, OK 95 to 255
+  * Round 2: Lost to Calvary A/G, Dunwoody, GA 70 to 155
+  * Round 3: Won against Central A/G, Springfield, MO 185 to 25
+  * Round 4: Lost to Norhtridge A/G, Grand Island, NE 110 to 115
+  * Round 5: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 140 to 80
+  * Round 6: Lost to CrossPoint A/G, Portage, WI 40 to 150
+  * Round 7: Lost to Meridian A/G, Meridian, ID 40 to 45
+  * Round 8: Won against Dayspring A/G, Bowling Green, OH 155 to 135
+  * Round 9: Lost to Orange County Worship Center, Santa Ana, CA 100 to 135
 * **Round Robin**:
-Round 1: Won against Turning Point Christian Center, Vancouver, WA 155 to 65
-Round 2: Won against Corydon A/G, Corydon, IA 175 to 75
-Round 3: Won against Truth A/G, Chariton, IA 140 to 100
-Round 4: Won against Calvary A/G, Dunwoody, GA 195 to 40
-Round 5: Lost to James River A/G, "In Chains", Ozark, MO 30 to 230
-Round 6: Lost to Orange Hills A/G, Orange, CA 60 to 95
-Round 7: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 205 to 60
-Round 8: Won against First A/G, Montgomery, AL 125 to 75
-Round 9: Lost to Calvary A/G, South Bend, IN 60 to 185
-Round 10: Won against First A/G, Lafayette, IN 215 to 30
-Round 11: Won against Meridian A/G, Meridian, ID 120 to 110
-Round 12: Lost to Grace A/G, Syracuse, NY 135 to 150
-Round 13: Won against Noble A/G, Noble, OK 160 to 115
-Round 14: Won against Timberline Church, Fort Collins, CO 215 to 20
-Round 15: Lost to Nyssa Christian Fellowship, Nyssa, OR 100 to 105
-Round 16: Won against Central A/G, Springfield, MO 145 to 95
-Round 17: Won against Suncoast Cathedral A/G, St. Petersburg, FL 150 to 10
-Round 18: Lost to Victorious Life Church, Wesley Chapel, FL 80 to 105
-Round 19: Won against New Life Community Church, Oshkosh, WI 135 to 110
+  * Round 1: Won against Turning Point Christian Center, Vancouver, WA 155 to 65
+  * Round 2: Won against Corydon A/G, Corydon, IA 175 to 75
+  * Round 3: Won against Truth A/G, Chariton, IA 140 to 100
+  * Round 4: Won against Calvary A/G, Dunwoody, GA 195 to 40
+  * Round 5: Lost to James River A/G, "In Chains", Ozark, MO 30 to 230
+  * Round 6: Lost to Orange Hills A/G, Orange, CA 60 to 95
+  * Round 7: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 205 to 60
+  * Round 8: Won against First A/G, Montgomery, AL 125 to 75
+  * Round 9: Lost to Calvary A/G, South Bend, IN 60 to 185
+  * Round 10: Won against First A/G, Lafayette, IN 215 to 30
+  * Round 11: Won against Meridian A/G, Meridian, ID 120 to 110
+  * Round 12: Lost to Grace A/G, Syracuse, NY 135 to 150
+  * Round 13: Won against Noble A/G, Noble, OK 160 to 115
+  * Round 14: Won against Timberline Church, Fort Collins, CO 215 to 20
+  * Round 15: Lost to Nyssa Christian Fellowship, Nyssa, OR 100 to 105
+  * Round 16: Won against Central A/G, Springfield, MO 145 to 95
+  * Round 17: Won against Suncoast Cathedral A/G, St. Petersburg, FL 150 to 10
+  * Round 18: Lost to Victorious Life Church, Wesley Chapel, FL 80 to 105
+  * Round 19: Won against New Life Community Church, Oshkosh, WI 135 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Harvest Time A/G, Brunswick, OH" html=image_html %}
@@ -359,42 +360,43 @@ Round 19: Won against New Life Community Church, Oshkosh, WI 135 to 110
 
 #### 2nd Place
 
-Church:	First A/G, Lexington, KY
-Coaches:	Karen White, Katie Branewie (assistant)
-Team:	Lucas Cox
-Rebekah Kelly
-Nathaniel Winckler
-Elaine Walker
+* **Church**: First A/G, Lexington, KY
+* **Coaches**: Karen White, Katie Branewie (assistant)
+* **Team:**
+   * Lucas Cox
+   * Rebekah Kelly
+   * Nathaniel Winckler
+   * Elaine Walker
 * **Preliminaries**:
-Round 1: Won against Cedar Park A/G, Bothell, WA 195 to 130
-Round 2: Won against First A/G, Montgomery, AL 225 to 0
-Round 3: Won against Journey Church, Bridgeville, PA 190 to 165
-Round 4: Lost to Grace A/G, Syracuse, NY 45 to 130
-Round 5: Won against Christian Chapel, Tulsa, OK 190 to 145
-Round 6: Won against New Life Community Church, Oshkosh, WI 175 to 35
-Round 7: Lost to James River A/G, "One in Christ", Ozark, MO 105 to 140
-Round 8: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 210 to 65
-Round 9: Won against Turning Point Christian Center, Vancouver, WA 170 to 20
+  * Round 1: Won against Cedar Park A/G, Bothell, WA 195 to 130
+  * Round 2: Won against First A/G, Montgomery, AL 225 to 0
+  * Round 3: Won against Journey Church, Bridgeville, PA 190 to 165
+  * Round 4: Lost to Grace A/G, Syracuse, NY 45 to 130
+  * Round 5: Won against Christian Chapel, Tulsa, OK 190 to 145
+  * Round 6: Won against New Life Community Church, Oshkosh, WI 175 to 35
+  * Round 7: Lost to James River A/G, "One in Christ", Ozark, MO 105 to 140
+  * Round 8: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 210 to 65
+  * Round 9: Won against Turning Point Christian Center, Vancouver, WA 170 to 20
 * **Round Robin**:
-Round 1: Won against Christian Temple, Houston, TX 210 to 110
-Round 2: Won against Braeswood A/G, Houston, TX 250 to 30
-Round 3: Won against Praise A/G, Garfield, NJ 210 to 30
-Round 4: Won against Journey Fellowship Church, Slidell, LA 175 to 95
-Round 5: Won against Dayspring A/G, Bowling Green, OH 195 to 65
-Round 6: Lost to Journey Church, Bridgeville, PA 80 to 165
-Round 7: Lost to Christian Chapel, Tulsa, OK 105 to 140
-Round 8: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 185 to 100
-Round 9: Won against CrossPoint A/G, Portage, WI 230 to 135
-Round 10: Lost to Cedar Park A/G, Bothell, WA 100 to 195
-Round 11: Lost to Orange County Worship Center, Santa Ana, CA 110 to 195
-Round 12: Won against Northridge A/G, Grand Island, NE 150 to 130
-Round 13: Lost to James River A/G, "One in Christ", Ozark, MO 70 to 280
-Round 14: Won against Faith A/G, West Plains, MO 255 to 50
-Round 15: Lost to Owasso First A/G, Owasso, OK 80 to 255
-Round 16: Won against Faith A/G, Orlando, FL 180 to 105
-Round 17: Won against Manassas A/G, Bristow, VA 145 to 135
-Round 18: Lost to Tacoma Life Center, Tacoma, WA 55 to 250
-Round 19: Lost to First A/G, Binghamton, NY 90 to 230
+  * Round 1: Won against Christian Temple, Houston, TX 210 to 110
+  * Round 2: Won against Braeswood A/G, Houston, TX 250 to 30
+  * Round 3: Won against Praise A/G, Garfield, NJ 210 to 30
+  * Round 4: Won against Journey Fellowship Church, Slidell, LA 175 to 95
+  * Round 5: Won against Dayspring A/G, Bowling Green, OH 195 to 65
+  * Round 6: Lost to Journey Church, Bridgeville, PA 80 to 165
+  * Round 7: Lost to Christian Chapel, Tulsa, OK 105 to 140
+  * Round 8: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 185 to 100
+  * Round 9: Won against CrossPoint A/G, Portage, WI 230 to 135
+  * Round 10: Lost to Cedar Park A/G, Bothell, WA 100 to 195
+  * Round 11: Lost to Orange County Worship Center, Santa Ana, CA 110 to 195
+  * Round 12: Won against Northridge A/G, Grand Island, NE 150 to 130
+  * Round 13: Lost to James River A/G, "One in Christ", Ozark, MO 70 to 280
+  * Round 14: Won against Faith A/G, West Plains, MO 255 to 50
+  * Round 15: Lost to Owasso First A/G, Owasso, OK 80 to 255
+  * Round 16: Won against Faith A/G, Orlando, FL 180 to 105
+  * Round 17: Won against Manassas A/G, Bristow, VA 145 to 135
+  * Round 18: Lost to Tacoma Life Center, Tacoma, WA 55 to 250
+  * Round 19: Lost to First A/G, Binghamton, NY 90 to 230
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="First A/G, Lexington, KY" html=image_html %}
@@ -407,44 +409,45 @@ Round 19: Lost to First A/G, Binghamton, NY 90 to 230
 
 #### 3rd Place
 
-Church:	Dayspring A/G, Bowling Green, OH
-Coaches:	Vicky Albrecht, Jeff Albrecht (assistant), Matt Valantine (assistant)
-Team:	Jeremy Albrecht
-Ryan Albrecht
-Marshall Kobylski
-Joel Facer
+* **Church**: Dayspring A/G, Bowling Green, OH
+* **Coaches**: Vicky Albrecht, Jeff Albrecht (assistant), Matt Valantine (assistant)
+* **Team:**
+   * Jeremy Albrecht
+   * Ryan Albrecht
+   * Marshall Kobylski
+   * Joel Facer
 * **Preliminaries**:
-Round 1: Lost to Orange County Worship Center, Santa Ana, CA 80 to 155
-Round 2: Lost to Central A/G, Springfield, MO 85 to 100
-Round 3: Lost to Owasso First A/G, Owasso, OK 65 to 240
-Round 4: Won against Calvary A/G, Dunwoody, GA 130 to 100
-Round 5: Lost to CrossPoint A/G, Portage, WI 90 to 175
-Round 6: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 155 to 40
-Round 7: Lost to Norhtridge A/G, Grand Island, NE 120 to 175
-Round 8: Lost to Harvest Time A/G, Brunswick, OH 135 to 155
-Round 9: Won against Meridian A/G, Meridian, ID 135 to 130
-Playoff Round 2: Won against Meridian A/G, Meridian, ID
-Playoff Round 3: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO
+  * Round 1: Lost to Orange County Worship Center, Santa Ana, CA 80 to 155
+  * Round 2: Lost to Central A/G, Springfield, MO 85 to 100
+  * Round 3: Lost to Owasso First A/G, Owasso, OK 65 to 240
+  * Round 4: Won against Calvary A/G, Dunwoody, GA 130 to 100
+  * Round 5: Lost to CrossPoint A/G, Portage, WI 90 to 175
+  * Round 6: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 155 to 40
+  * Round 7: Lost to Norhtridge A/G, Grand Island, NE 120 to 175
+  * Round 8: Lost to Harvest Time A/G, Brunswick, OH 135 to 155
+  * Round 9: Won against Meridian A/G, Meridian, ID 135 to 130
+  * Playoff Round 2: Won against Meridian A/G, Meridian, ID
+  * Playoff Round 3: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO
 * **Round Robin**:
-Round 1: Won against Christian Temple, Houston, TX 210 to 110
-Round 2: Won against Braeswood A/G, Houston, TX 250 to 30
-Round 3: Won against Praise A/G, Garfield, NJ 210 to 30
-Round 4: Won against Journey Fellowship Church, Slidell, LA 175 to 95
-Round 5: Won against Dayspring A/G, Bowling Green, OH 195 to 65
-Round 6: Lost to Journey Church, Bridgeville, PA 80 to 165
-Round 7: Lost to Christian Chapel, Tulsa, OK 105 to 140
-Round 8: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 185 to 100
-Round 9: Won against CrossPoint A/G, Portage, WI 230 to 135
-Round 10: Lost to Cedar Park A/G, Bothell, WA 100 to 195
-Round 11: Lost to Orange County Worship Center, Santa Ana, CA 110 to 195
-Round 12: Won against Northridge A/G, Grand Island, NE 150 to 130
-Round 13: Lost to James River A/G, "One in Christ", Ozark, MO 70 to 280
-Round 14: Won against Faith A/G, West Plains, MO 255 to 50
-Round 15: Lost to Owasso First A/G, Owasso, OK 80 to 255
-Round 16: Won against Faith A/G, Orlando, FL 180 to 105
-Round 17: Won against Manassas A/G, Bristow, VA 145 to 135
-Round 18: Lost to Tacoma Life Center, Tacoma, WA 55 to 250
-Round 19: Lost to First A/G, Binghamton, NY 90 to 230
+  * Round 1: Won against Christian Temple, Houston, TX 210 to 110
+  * Round 2: Won against Braeswood A/G, Houston, TX 250 to 30
+  * Round 3: Won against Praise A/G, Garfield, NJ 210 to 30
+  * Round 4: Won against Journey Fellowship Church, Slidell, LA 175 to 95
+  * Round 5: Won against Dayspring A/G, Bowling Green, OH 195 to 65
+  * Round 6: Lost to Journey Church, Bridgeville, PA 80 to 165
+  * Round 7: Lost to Christian Chapel, Tulsa, OK 105 to 140
+  * Round 8: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 185 to 100
+  * Round 9: Won against CrossPoint A/G, Portage, WI 230 to 135
+  * Round 10: Lost to Cedar Park A/G, Bothell, WA 100 to 195
+  * Round 11: Lost to Orange County Worship Center, Santa Ana, CA 110 to 195
+  * Round 12: Won against Northridge A/G, Grand Island, NE 150 to 130
+  * Round 13: Lost to James River A/G, "One in Christ", Ozark, MO 70 to 280
+  * Round 14: Won against Faith A/G, West Plains, MO 255 to 50
+  * Round 15: Lost to Owasso First A/G, Owasso, OK 80 to 255
+  * Round 16: Won against Faith A/G, Orlando, FL 180 to 105
+  * Round 17: Won against Manassas A/G, Bristow, VA 145 to 135
+  * Round 18: Lost to Tacoma Life Center, Tacoma, WA 55 to 250
+  * Round 19: Lost to First A/G, Binghamton, NY 90 to 230
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Dayspring A/G, Bowling Green, OH" html=image_html %}
@@ -457,41 +460,42 @@ Round 19: Lost to First A/G, Binghamton, NY 90 to 230
 
 #### 4th Place
 
-Church:	First A/G, Lafayette, IN
-Coaches:	Taylor Vickerman, Scott Walters (assistant), Deb Vickerman (assistant)
-Team:	Tammy Vickerman
-SeAyra Walters
-Spencer Walters
+* **Church**: First A/G, Lafayette, IN
+* **Coaches**: Taylor Vickerman, Scott Walters (assistant), Deb Vickerman (assistant)
+* **Team:**
+   * Tammy Vickerman
+   * SeAyra Walters
+   * Spencer Walters
 * **Preliminaries**:
-Round 1: Lost to Noble A/G, Noble, OK 65 to 160
-Round 2: Won against Truth A/G, Chariton, IA 150 to 100
-Round 3: Won against Tacoma Life Center, Tacoma, WA 185 to 105
-Round 4: Lost to Orange Hills A/G, Orange, CA 45 to 215
-Round 5: Lost to Faith A/G, West Plains, MO 80 to 170
-Round 6: Lost to Faith A/G, Orlando, FL 140 to 210
-Round 7: Lost to First A/G, Binghamton, NY 20 to 110
-Round 8: Lost to Calvary A/G, South Bend, IN 25 to 235
-Round 9: Won against Braeswood A/G, Houston, TX 120 to 30
+  * Round 1: Lost to Noble A/G, Noble, OK 65 to 160
+  * Round 2: Won against Truth A/G, Chariton, IA 150 to 100
+  * Round 3: Won against Tacoma Life Center, Tacoma, WA 185 to 105
+  * Round 4: Lost to Orange Hills A/G, Orange, CA 45 to 215
+  * Round 5: Lost to Faith A/G, West Plains, MO 80 to 170
+  * Round 6: Lost to Faith A/G, Orlando, FL 140 to 210
+  * Round 7: Lost to First A/G, Binghamton, NY 20 to 110
+  * Round 8: Lost to Calvary A/G, South Bend, IN 25 to 235
+  * Round 9: Won against Braeswood A/G, Houston, TX 120 to 30
 * **Round Robin**:
-Round 1: Won against Meridian A/G, Meridian, ID 195 to 50
-Round 2: Won against Noble A/G, Noble, OK 225 to 15
-Round 3: Lost to Nyssa Christian Fellowship, Nyssa, OR 40 to 140
-Round 4: Lost to Suncoast Cathedral A/G, St. Petersburg, FL 90 to 100
-Round 5: Lost to New Life Community Church, Oshkosh, WI 80 to 160
-Round 6: Lost to Corydon A/G, Corydon, IA 80 to 125
-Round 7: Lost to Calvary A/G, Dunwoody, GA 130 to 155
-Round 8: Lost to Orange Hills A/G, Orange, CA 100 to 135
-Round 9: Lost to First A/G, Montgomery, AL 85 to 145
-Round 10: Lost to Harvest Time A/G, Brunswick, OH 30 to 215
-Round 11: Won against Grace A/G, Syracuse, NY 135 to 120
-Round 12: Won against Timberline Church, Fort Collins, CO 235 to 20
-Round 13: Lost to Central A/G, Springfield, MO 75 to 120
-Round 14: Won against Victorious Life Church, Wesley Chapel, FL 150 to 20
-Round 15: Won against Turning Point Christian Center, Vancouver, WA 165 to 35
-Round 16: Lost to Truth A/G, Chariton, IA 95 to 120
-Round 17: Lost to James River A/G, "In Chains", Ozark, MO 130 to 165
-Round 18: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 115 to 55
-Round 19: Lost to Calvary A/G, South Bend, IN 140 to 155
+  * Round 1: Won against Meridian A/G, Meridian, ID 195 to 50
+  * Round 2: Won against Noble A/G, Noble, OK 225 to 15
+  * Round 3: Lost to Nyssa Christian Fellowship, Nyssa, OR 40 to 140
+  * Round 4: Lost to Suncoast Cathedral A/G, St. Petersburg, FL 90 to 100
+  * Round 5: Lost to New Life Community Church, Oshkosh, WI 80 to 160
+  * Round 6: Lost to Corydon A/G, Corydon, IA 80 to 125
+  * Round 7: Lost to Calvary A/G, Dunwoody, GA 130 to 155
+  * Round 8: Lost to Orange Hills A/G, Orange, CA 100 to 135
+  * Round 9: Lost to First A/G, Montgomery, AL 85 to 145
+  * Round 10: Lost to Harvest Time A/G, Brunswick, OH 30 to 215
+  * Round 11: Won against Grace A/G, Syracuse, NY 135 to 120
+  * Round 12: Won against Timberline Church, Fort Collins, CO 235 to 20
+  * Round 13: Lost to Central A/G, Springfield, MO 75 to 120
+  * Round 14: Won against Victorious Life Church, Wesley Chapel, FL 150 to 20
+  * Round 15: Won against Turning Point Christian Center, Vancouver, WA 165 to 35
+  * Round 16: Lost to Truth A/G, Chariton, IA 95 to 120
+  * Round 17: Lost to James River A/G, "In Chains", Ozark, MO 130 to 165
+  * Round 18: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 115 to 55
+  * Round 19: Lost to Calvary A/G, South Bend, IN 140 to 155
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="First A/G, Lafayette, IN" html=image_html %}
@@ -504,42 +508,43 @@ Round 19: Lost to Calvary A/G, South Bend, IN 140 to 155
 
 #### 5th Place
 
-Church:	Calvary A/G, South Bend, IN
-Coaches:	Brian Boeninger, Nilay Saiya (assistant)
-Team:	Kirstin Durfey
-C.J. Hock
-Ethan Hock
+* **Church**: Calvary A/G, South Bend, IN
+* **Coaches**: Brian Boeninger, Nilay Saiya (assistant)
+* **Team:**
+   * Kirstin Durfey
+   * C.J. Hock
+   * Ethan Hock
 * **Preliminaries**:
-Round 1: Lost to Braeswood A/G, Houston, TX 65 to 135
-Round 2: Won against Faith A/G, Orlando, FL 195 to 125
-Round 3: Lost to Faith A/G, West Plains, MO 85 to 245
-Round 4: Lost to Tacoma Life Center, Tacoma, WA 105 to 200
-Round 5: Won against First A/G, Binghamton, NY 230 to 130
-Round 6: Lost to Noble A/G, Noble, OK 120 to 140
-Round 7: Won against Truth A/G, Chariton, IA 160 to 10
-Round 8: Won against First A/G, Lafayette, IN 235 to 25
-Round 9: Won against Orange Hills A/G, Orange, CA 270 to 0
-Playoff Round 1: Lost to Braeswood A/G, Houston, TX
+  * Round 1: Lost to Braeswood A/G, Houston, TX 65 to 135
+  * Round 2: Won against Faith A/G, Orlando, FL 195 to 125
+  * Round 3: Lost to Faith A/G, West Plains, MO 85 to 245
+  * Round 4: Lost to Tacoma Life Center, Tacoma, WA 105 to 200
+  * Round 5: Won against First A/G, Binghamton, NY 230 to 130
+  * Round 6: Lost to Noble A/G, Noble, OK 120 to 140
+  * Round 7: Won against Truth A/G, Chariton, IA 160 to 10
+  * Round 8: Won against First A/G, Lafayette, IN 235 to 25
+  * Round 9: Won against Orange Hills A/G, Orange, CA 270 to 0
+  * Playoff Round 1: Lost to Braeswood A/G, Houston, TX
 * **Round Robin**:
-Round 1: Won against Grace A/G, Syracuse, NY 190 to 65
-Round 2: Won against Timberline Church, Fort Collins, CO 245 to 20
-Round 3: Lost to Central A/G, Springfield, MO 110 to 125
-Round 4: Won against Victorious Life Church, Wesley Chapel, FL 130 to 25
-Round 5: Won against Turning Point Christian Center, Vancouver, WA 155 to 55
-Round 6: Won against Truth A/G, Chariton, IA 215 to -10
-Round 7: Lost to James River A/G, "In Chains", Ozark, MO 65 to 235
-Round 8: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 165 to 35
-Round 9: Won against Harvest Time A/G, Brunswick, OH 185 to 60
-Round 10: Won against Meridian A/G, Meridian, ID 195 to 60
-Round 11: Won against Noble A/G, Noble, OK 195 to 55
-Round 12: Won against Nyssa Christian Fellowship, Nyssa, OR 115 to 95
-Round 13: Won against Suncoast Cathedral A/G, St. Petersburg, FL 140 to -15
-Round 14: Won against New Life Community Church, Oshkosh, WI 160 to 50
-Round 15: Won against Corydon A/G, Corydon, IA 225 to 40
-Round 16: Lost to Calvary A/G, Dunwoody, GA 0 to 190
-Round 17: Won against Orange Hills A/G, Orange, CA 200 to 105
-Round 18: Won against First A/G, Montgomery, AL 175 to 90
-Round 19: Won against First A/G, Lafayette, IN 155 to 140
+  * Round 1: Won against Grace A/G, Syracuse, NY 190 to 65
+  * Round 2: Won against Timberline Church, Fort Collins, CO 245 to 20
+  * Round 3: Lost to Central A/G, Springfield, MO 110 to 125
+  * Round 4: Won against Victorious Life Church, Wesley Chapel, FL 130 to 25
+  * Round 5: Won against Turning Point Christian Center, Vancouver, WA 155 to 55
+  * Round 6: Won against Truth A/G, Chariton, IA 215 to -10
+  * Round 7: Lost to James River A/G, "In Chains", Ozark, MO 65 to 235
+  * Round 8: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 165 to 35
+  * Round 9: Won against Harvest Time A/G, Brunswick, OH 185 to 60
+  * Round 10: Won against Meridian A/G, Meridian, ID 195 to 60
+  * Round 11: Won against Noble A/G, Noble, OK 195 to 55
+  * Round 12: Won against Nyssa Christian Fellowship, Nyssa, OR 115 to 95
+  * Round 13: Won against Suncoast Cathedral A/G, St. Petersburg, FL 140 to -15
+  * Round 14: Won against New Life Community Church, Oshkosh, WI 160 to 50
+  * Round 15: Won against Corydon A/G, Corydon, IA 225 to 40
+  * Round 16: Lost to Calvary A/G, Dunwoody, GA 0 to 190
+  * Round 17: Won against Orange Hills A/G, Orange, CA 200 to 105
+  * Round 18: Won against First A/G, Montgomery, AL 175 to 90
+  * Round 19: Won against First A/G, Lafayette, IN 155 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Calvary A/G, South Bend, IN" html=image_html %}
@@ -554,42 +559,43 @@ Round 19: Won against First A/G, Lafayette, IN 155 to 140
 
 #### 1st Place
 
-Church:	James River A/G, "One in Christ", Ozark, MO
-Coach:	John Porter, Seth Sundell (assistant)
-Team:	Colin Knoth
-Blake Porter
-Brittany Porter
-Justin Napper
+* **Church**: James River A/G, "One in Christ", Ozark, MO
+* **Coach**: John Porter, Seth Sundell (assistant)
+* **Team:**
+   * Colin Knoth
+   * Blake Porter
+   * Brittany Porter
+   * Justin Napper
 * **Preliminaries**:
-Round 1: Won against New Life Community Church, Oshkosh, WI 150 to 35
-Round 2: Won against Turning Point Christian Center, Vancouver, WA 175 to 45
-Round 3: Won against Christian Chapel, Tulsa, OK 330 to 25
-Round 4: Won against Journey Church, Bridgeville, PA 205 to 70
-Round 5: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 290 to 10
-Round 6: Won against Grace A/G, Syracuse, NY 175 to 40
-Round 7: Won against First A/G, Lexington, KY 140 to 105
-Round 8: Won against First A/G, Montgomery, AL 235 to 60
-Round 9: Lost to Cedar Park A/G, Bothell, WA 140 to 235
+  * Round 1: Won against New Life Community Church, Oshkosh, WI 150 to 35
+  * Round 2: Won against Turning Point Christian Center, Vancouver, WA 175 to 45
+  * Round 3: Won against Christian Chapel, Tulsa, OK 330 to 25
+  * Round 4: Won against Journey Church, Bridgeville, PA 205 to 70
+  * Round 5: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 290 to 10
+  * Round 6: Won against Grace A/G, Syracuse, NY 175 to 40
+  * Round 7: Won against First A/G, Lexington, KY 140 to 105
+  * Round 8: Won against First A/G, Montgomery, AL 235 to 60
+  * Round 9: Lost to Cedar Park A/G, Bothell, WA 140 to 235
 * **Round Robin**:
-Round 1: Won against Journey Church, Bridgeville, PA 325 to 35
-Round 2: Won against Faith A/G, West Plains, MO 195 to 40
-Round 3: Lost to Owasso First A/G, Owasso, OK 25 to 280
-Round 4: Won against Faith A/G, Orlando, FL 200 to 180
-Round 5: Won against Manassas A/G, Bristow, VA 255 to 80
-Round 6: Won against Tacoma Life Center, Tacoma, WA 265 to 5
-Round 7: Won against First A/G, Binghamton, NY 175 to 105
-Round 8: Lost to Christian Temple, Houston, TX 90 to 120
-Round 9: Lost to Braeswood A/G, Houston, TX 130 to 190
-Round 10: Won against Praise A/G, Garfield, NJ 265 to 35
-Round 11: Won against Journey Fellowship Church, Slidell, LA 225 to 35
-Round 12: Won against Dayspring A/G, Bowling Green, OH 165 to 140
-Round 13: Won against First A/G, Lexington, KY 280 to 70
-Round 14: Won against Christian Chapel, Tulsa, OK 170 to 50
-Round 15: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 195 to 130
-Round 16: Won against CrossPoint A/G, Portage, WI 190 to 15
-Round 17: Lost to Cedar Park A/G, Bothell, WA 95 to 240
-Round 18: Won against Orange County Worship Center, Santa Ana, CA 230 to 105
-Round 19: Won against Northridge A/G, Grand Island, NE 270 to 55
+  * Round 1: Won against Journey Church, Bridgeville, PA 325 to 35
+  * Round 2: Won against Faith A/G, West Plains, MO 195 to 40
+  * Round 3: Lost to Owasso First A/G, Owasso, OK 25 to 280
+  * Round 4: Won against Faith A/G, Orlando, FL 200 to 180
+  * Round 5: Won against Manassas A/G, Bristow, VA 255 to 80
+  * Round 6: Won against Tacoma Life Center, Tacoma, WA 265 to 5
+  * Round 7: Won against First A/G, Binghamton, NY 175 to 105
+  * Round 8: Lost to Christian Temple, Houston, TX 90 to 120
+  * Round 9: Lost to Braeswood A/G, Houston, TX 130 to 190
+  * Round 10: Won against Praise A/G, Garfield, NJ 265 to 35
+  * Round 11: Won against Journey Fellowship Church, Slidell, LA 225 to 35
+  * Round 12: Won against Dayspring A/G, Bowling Green, OH 165 to 140
+  * Round 13: Won against First A/G, Lexington, KY 280 to 70
+  * Round 14: Won against Christian Chapel, Tulsa, OK 170 to 50
+  * Round 15: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 195 to 130
+  * Round 16: Won against CrossPoint A/G, Portage, WI 190 to 15
+  * Round 17: Lost to Cedar Park A/G, Bothell, WA 95 to 240
+  * Round 18: Won against Orange County Worship Center, Santa Ana, CA 230 to 105
+  * Round 19: Won against Northridge A/G, Grand Island, NE 270 to 55
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="James River A/G, 'One in Christ', Ozark, MO" html=image_html %}
@@ -601,43 +607,44 @@ Round 19: Won against Northridge A/G, Grand Island, NE 270 to 55
 
 #### 2nd Place
 
-Church:	Journey Fellowship Church, Slidell, LA
-Coaches:	Karina Wyatt, Mitt Wyatt (assistant)
-Team:	Kourtni Wyatt
-Hillari Wyatt
-Jacob Wyatt
+* **Church**: Journey Fellowship Church, Slidell, LA
+* **Coaches**: Karina Wyatt, Mitt Wyatt (assistant)
+* **Team:**
+   * Kourtni Wyatt
+   * Hillari Wyatt
+   * Jacob Wyatt
 * **Preliminaries**:
-Round 1: Lost to Christian Temple, Houston, TX 80 to 130
-Round 2: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 130 to 165
-Round 3: Won against Timberline Church, Fort Collins, CO 220 to 20
-Round 4: Won against Nyssa Christian Fellowship, Nyssa, OR 120 to 80
-Round 5: Won against James River A/G, "In Chains", Ozark, MO 235 to 60
-Round 6: Lost to Praise A/G, Garfield, NJ 85 to 120
-Round 7: Lost to Corydon A/G, Corydon, IA 70 to 80
-Round 8: Won against Victorious Life Church, Wesley Chapel, FL 225 to 90
-Round 9: Lost to Manassas A/G, Bristow, VA 60 to 75
-Playoff Round 1: Won against Corydon A/G, Corydon, IA
-Playoff Round 2: Won against James River A/G, "In Chains", Ozark, MO
+  * Round 1: Lost to Christian Temple, Houston, TX 80 to 130
+  * Round 2: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 130 to 165
+  * Round 3: Won against Timberline Church, Fort Collins, CO 220 to 20
+  * Round 4: Won against Nyssa Christian Fellowship, Nyssa, OR 120 to 80
+  * Round 5: Won against James River A/G, "In Chains", Ozark, MO 235 to 60
+  * Round 6: Lost to Praise A/G, Garfield, NJ 85 to 120
+  * Round 7: Lost to Corydon A/G, Corydon, IA 70 to 80
+  * Round 8: Won against Victorious Life Church, Wesley Chapel, FL 225 to 90
+  * Round 9: Lost to Manassas A/G, Bristow, VA 60 to 75
+  * Playoff Round 1: Won against Corydon A/G, Corydon, IA
+  * Playoff Round 2: Won against James River A/G, "In Chains", Ozark, MO
 * **Round Robin**:
-Round 1: Lost to Praise A/G, Garfield, NJ 105 to 220
-Round 2: Won against Journey Church, Bridgeville, PA 145 to 45
-Round 3: Won against Dayspring A/G, Bowling Green, OH 160 to 25
-Round 4: Lost to First A/G, Lexington, KY 95 to 175
-Round 5: Won against Christian Chapel, Tulsa, OK 130 to 85
-Round 6: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 95 to 205
-Round 7: Lost to CrossPoint A/G, Portage, WI 70 to 120
-Round 8: Lost to Cedar Park A/G, Bothell, WA 20 to 290
-Round 9: Lost to Orange County Worship Center, Santa Ana, CA 75 to 220
-Round 10: Won against Northridge A/G, Grand Island, NE 105 to 40
-Round 11: Lost to James River A/G, "One in Christ", Ozark, MO 35 to 225
-Round 12: Lost to Faith A/G, West Plains, MO 110 to 150
-Round 13: Lost to Owasso First A/G, Owasso, OK 80 to 265
-Round 14: Lost to Faith A/G, Orlando, FL 120 to 155
-Round 15: Lost to Manassas A/G, Bristow, VA 80 to 115
-Round 16: Won against Tacoma Life Center, Tacoma, WA 170 to 110
-Round 17: Won against First A/G, Binghamton, NY 160 to 150
-Round 18: Won against Christian Temple, Houston, TX 180 to 15
-Round 19: Lost to Braeswood A/G, Houston, TX 45 to 135
+  * Round 1: Lost to Praise A/G, Garfield, NJ 105 to 220
+  * Round 2: Won against Journey Church, Bridgeville, PA 145 to 45
+  * Round 3: Won against Dayspring A/G, Bowling Green, OH 160 to 25
+  * Round 4: Lost to First A/G, Lexington, KY 95 to 175
+  * Round 5: Won against Christian Chapel, Tulsa, OK 130 to 85
+  * Round 6: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 95 to 205
+  * Round 7: Lost to CrossPoint A/G, Portage, WI 70 to 120
+  * Round 8: Lost to Cedar Park A/G, Bothell, WA 20 to 290
+  * Round 9: Lost to Orange County Worship Center, Santa Ana, CA 75 to 220
+  * Round 10: Won against Northridge A/G, Grand Island, NE 105 to 40
+  * Round 11: Lost to James River A/G, "One in Christ", Ozark, MO 35 to 225
+  * Round 12: Lost to Faith A/G, West Plains, MO 110 to 150
+  * Round 13: Lost to Owasso First A/G, Owasso, OK 80 to 265
+  * Round 14: Lost to Faith A/G, Orlando, FL 120 to 155
+  * Round 15: Lost to Manassas A/G, Bristow, VA 80 to 115
+  * Round 16: Won against Tacoma Life Center, Tacoma, WA 170 to 110
+  * Round 17: Won against First A/G, Binghamton, NY 160 to 150
+  * Round 18: Won against Christian Temple, Houston, TX 180 to 15
+  * Round 19: Lost to Braeswood A/G, Houston, TX 45 to 135
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Journey Fellowship Church, Slidell, LA" html=image_html %}
@@ -650,44 +657,45 @@ Round 19: Lost to Braeswood A/G, Houston, TX 45 to 135
 
 #### 3rd Place
 
-Church:	Faith A/G, West Plains, MO
-Coaches:	Sarah Georgem, Elizabeth Bhargava (assistant)
-Team:	Karan Bhargava
-Heather Murdy
-Jeremiah George
-Jonathan George
-Joshua George
-Brandon Collins
+* **Church**: Faith A/G, West Plains, MO
+* **Coaches**: Sarah Georgem, Elizabeth Bhargava (assistant)
+* **Team:**
+   * Karan Bhargava
+   * Heather Murdy
+   * Jeremiah George
+   * Jonathan George
+   * Joshua George
+   * Brandon Collins
 * **Preliminaries**:
-Round 1: Won against Truth A/G, Chariton, IA 165 to 55
-Round 2: Won against Orange Hills A/G, Orange, CA 110 to 100
-Round 3: Won against Calvary A/G, South Bend, IN 245 to 85
-Round 4: Won against Noble A/G, Noble, OK 115 to 105
-Round 5: Won against First A/G, Lafayette, IN 170 to 80
-Round 6: Lost to First A/G, Binghamton, NY 100 to 120
-Round 7: Lost to Braeswood A/G, Houston, TX 75 to 180
-Round 8: Lost to Faith A/G, Orlando, FL 70 to 220
-Round 9: Won against Tacoma Life Center, Tacoma, WA 135 to 65
+  * Round 1: Won against Truth A/G, Chariton, IA 165 to 55
+  * Round 2: Won against Orange Hills A/G, Orange, CA 110 to 100
+  * Round 3: Won against Calvary A/G, South Bend, IN 245 to 85
+  * Round 4: Won against Noble A/G, Noble, OK 115 to 105
+  * Round 5: Won against First A/G, Lafayette, IN 170 to 80
+  * Round 6: Lost to First A/G, Binghamton, NY 100 to 120
+  * Round 7: Lost to Braeswood A/G, Houston, TX 75 to 180
+  * Round 8: Lost to Faith A/G, Orlando, FL 70 to 220
+  * Round 9: Won against Tacoma Life Center, Tacoma, WA 135 to 65
 * **Round Robin**:
-Round 1: Won against Northridge A/G, Grand Island, NE 135 to 125
-Round 2: Lost to James River A/G, "One in Christ", Ozark, MO 40 to 195
-Round 3: Lost to Journey Church, Bridgeville, PA 30 to 145
-Round 4: Lost to Owasso First A/G, Owasso, OK 105 to 135
-Round 5: Lost to Faith A/G, Orlando, FL 175 to 185
-Round 6: Won against Manassas A/G, Bristow, VA 170 to 140
-Round 7: Won against Tacoma Life Center, Tacoma, WA 210 to 115
-Round 8: Lost to First A/G, Binghamton, NY 85 to 195
-Round 9: Lost to Christian Temple, Houston, TX 85 to 150
-Round 10: Lost to Braeswood A/G, Houston, TX 20 to 140
-Round 11: Won against Praise A/G, Garfield, NJ 215 to 105
-Round 12: Won against Journey Fellowship Church, Slidell, LA 150 to 110
-Round 13: Won against Dayspring A/G, Bowling Green, OH 100 to 25
-Round 14: Lost to First A/G, Lexington, KY 50 to 255
-Round 15: Won against Christian Chapel, Tulsa, OK 130 to 70
-Round 16: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 5 to 235
-Round 17: Won against CrossPoint A/G, Portage, WI 105 to 100
-Round 18: Lost to Cedar Park A/G, Bothell, WA 65 to 255
-Round 19: Won against Orange County Worship Center, Santa Ana, CA 125 to 75
+  * Round 1: Won against Northridge A/G, Grand Island, NE 135 to 125
+  * Round 2: Lost to James River A/G, "One in Christ", Ozark, MO 40 to 195
+  * Round 3: Lost to Journey Church, Bridgeville, PA 30 to 145
+  * Round 4: Lost to Owasso First A/G, Owasso, OK 105 to 135
+  * Round 5: Lost to Faith A/G, Orlando, FL 175 to 185
+  * Round 6: Won against Manassas A/G, Bristow, VA 170 to 140
+  * Round 7: Won against Tacoma Life Center, Tacoma, WA 210 to 115
+  * Round 8: Lost to First A/G, Binghamton, NY 85 to 195
+  * Round 9: Lost to Christian Temple, Houston, TX 85 to 150
+  * Round 10: Lost to Braeswood A/G, Houston, TX 20 to 140
+  * Round 11: Won against Praise A/G, Garfield, NJ 215 to 105
+  * Round 12: Won against Journey Fellowship Church, Slidell, LA 150 to 110
+  * Round 13: Won against Dayspring A/G, Bowling Green, OH 100 to 25
+  * Round 14: Lost to First A/G, Lexington, KY 50 to 255
+  * Round 15: Won against Christian Chapel, Tulsa, OK 130 to 70
+  * Round 16: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 5 to 235
+  * Round 17: Won against CrossPoint A/G, Portage, WI 105 to 100
+  * Round 18: Lost to Cedar Park A/G, Bothell, WA 65 to 255
+  * Round 19: Won against Orange County Worship Center, Santa Ana, CA 125 to 75
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Faith A/G, West Plains, MO" html=image_html %}
@@ -700,41 +708,42 @@ Round 19: Won against Orange County Worship Center, Santa Ana, CA 125 to 75
 
 #### 4th Place
 
-Church:	Central A/G, Springfield, MO
-Coach:	Richard Fair
-Team:	Matthew Klika
-Brianna Riley
+* **Church**: Central A/G, Springfield, MO
+* **Coach**: Richard Fair
+* **Team:**
+   * Matthew Klika
+   * Brianna Riley
 * **Preliminaries**:
-Round 1: Lost to Meridian A/G, Meridian, ID 130 to 135
-Round 2: Won against Dayspring A/G, Bowling Green, OH 100 to 85
-Round 3: Lost to Harvest Time A/G, Brunswick, OH 25 to 185
-Round 4: Won against CrossPoint A/G, Portage, WI 180 to -5
-Round 5: Lost to Orange County Worship Center, Santa Ana, CA 145 to 150
-Round 6: Lost to Owasso First A/G, Owasso, OK 10 to 285
-Round 7: Lost to Calvary A/G, Dunwoody, GA 115 to 195
-Round 8: Lost to Norhtridge A/G, Grand Island, NE 45 to 275
-Round 9: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 185 to 65
-Playoff Round 1: Lost to Meridian A/G, Meridian, ID
+  * Round 1: Lost to Meridian A/G, Meridian, ID 130 to 135
+  * Round 2: Won against Dayspring A/G, Bowling Green, OH 100 to 85
+  * Round 3: Lost to Harvest Time A/G, Brunswick, OH 25 to 185
+  * Round 4: Won against CrossPoint A/G, Portage, WI 180 to -5
+  * Round 5: Lost to Orange County Worship Center, Santa Ana, CA 145 to 150
+  * Round 6: Lost to Owasso First A/G, Owasso, OK 10 to 285
+  * Round 7: Lost to Calvary A/G, Dunwoody, GA 115 to 195
+  * Round 8: Lost to Norhtridge A/G, Grand Island, NE 45 to 275
+  * Round 9: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 185 to 65
+  * Playoff Round 1: Lost to Meridian A/G, Meridian, ID
 * **Round Robin**:
-Round 1: Lost to James River A/G, "In Chains", Ozark, MO 25 to 240
-Round 2: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 75 to 125
-Round 3: Won against Calvary A/G, South Bend, IN 125 to 110
-Round 4: Lost to Meridian A/G, Meridian, ID 40 to 135
-Round 5: Won against Noble A/G, Noble, OK 110 to 60
-Round 6: Won against Nyssa Christian Fellowship, Nyssa, OR 115 to 85
-Round 7: Won against Suncoast Cathedral A/G, St. Petersburg, FL 145 to 85
-Round 8: Lost to New Life Community Church, Oshkosh, WI 60 to 170
-Round 9: Won against Corydon A/G, Corydon, IA 160 to 155
-Round 10: Lost to Calvary A/G, Dunwoody, GA 60 to 215
-Round 11: Lost to Orange Hills A/G, Orange, CA 45 to 200
-Round 12: Won against First A/G, Montgomery, AL 165 to 100
-Round 13: Won against First A/G, Lafayette, IN 120 to 75
-Round 14: Lost to Grace A/G, Syracuse, NY 35 to 175
-Round 15: Won against Timberline Church, Fort Collins, CO 130 to 35
-Round 16: Lost to Harvest Time A/G, Brunswick, OH 95 to 145
-Round 17: Won against Victorious Life Church, Wesley Chapel, FL 175 to 50
-Round 18: Lost to Turning Point Christian Center, Vancouver, WA 85 to 115
-Round 19: Won against Truth A/G, Chariton, IA 110 to 70
+  * Round 1: Lost to James River A/G, "In Chains", Ozark, MO 25 to 240
+  * Round 2: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 75 to 125
+  * Round 3: Won against Calvary A/G, South Bend, IN 125 to 110
+  * Round 4: Lost to Meridian A/G, Meridian, ID 40 to 135
+  * Round 5: Won against Noble A/G, Noble, OK 110 to 60
+  * Round 6: Won against Nyssa Christian Fellowship, Nyssa, OR 115 to 85
+  * Round 7: Won against Suncoast Cathedral A/G, St. Petersburg, FL 145 to 85
+  * Round 8: Lost to New Life Community Church, Oshkosh, WI 60 to 170
+  * Round 9: Won against Corydon A/G, Corydon, IA 160 to 155
+  * Round 10: Lost to Calvary A/G, Dunwoody, GA 60 to 215
+  * Round 11: Lost to Orange Hills A/G, Orange, CA 45 to 200
+  * Round 12: Won against First A/G, Montgomery, AL 165 to 100
+  * Round 13: Won against First A/G, Lafayette, IN 120 to 75
+  * Round 14: Lost to Grace A/G, Syracuse, NY 35 to 175
+  * Round 15: Won against Timberline Church, Fort Collins, CO 130 to 35
+  * Round 16: Lost to Harvest Time A/G, Brunswick, OH 95 to 145
+  * Round 17: Won against Victorious Life Church, Wesley Chapel, FL 175 to 50
+  * Round 18: Lost to Turning Point Christian Center, Vancouver, WA 85 to 115
+  * Round 19: Won against Truth A/G, Chariton, IA 110 to 70
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Central A/G, Springfield, MO" html=image_html %}
@@ -747,43 +756,44 @@ Round 19: Won against Truth A/G, Chariton, IA 110 to 70
 
 #### 5th Place
 
-Church:	James River A/G, "In Chains", Ozark, MO
-Coach:	Paula Porter, Mark Porter (assistant), Brandon Porter (assistant)
-Team:	Danielle Brozovich
-Joe Dean
-Whitney Garrison
-Josh Napper
+* **Church**: James River A/G, "In Chains", Ozark, MO
+* **Coach**: Paula Porter, Mark Porter (assistant), Brandon Porter (assistant)
+* **Team:**
+   * Danielle Brozovich
+   * Joe Dean
+   * Whitney Garrison
+   * Josh Napper
 * **Preliminaries**:
-Round 1: Won against Victorious Life Church, Wesley Chapel, FL 240 to 40
-Round 2: Lost to Manassas A/G, Bristow, VA 40 to 175
-Round 3: Lost to Praise A/G, Garfield, NJ 20 to 125
-Round 4: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 125 to 140
-Round 5: Lost to Journey Fellowship Church, Slidell, LA 60 to 235
-Round 6: Won against Timberline Church, Fort Collins, CO 255 to -15
-Round 7: Won against Nyssa Christian Fellowship, Nyssa, OR 165 to 65
-Round 8: Won against Corydon A/G, Corydon, IA 285 to 40
-Round 9: Lost to Christian Temple, Houston, TX 145 to 150
-Playoff Round 2: Lost to Journey Fellowship Church, Slidell, LA
+  * Round 1: Won against Victorious Life Church, Wesley Chapel, FL 240 to 40
+  * Round 2: Lost to Manassas A/G, Bristow, VA 40 to 175
+  * Round 3: Lost to Praise A/G, Garfield, NJ 20 to 125
+  * Round 4: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 125 to 140
+  * Round 5: Lost to Journey Fellowship Church, Slidell, LA 60 to 235
+  * Round 6: Won against Timberline Church, Fort Collins, CO 255 to -15
+  * Round 7: Won against Nyssa Christian Fellowship, Nyssa, OR 165 to 65
+  * Round 8: Won against Corydon A/G, Corydon, IA 285 to 40
+  * Round 9: Lost to Christian Temple, Houston, TX 145 to 150
+  * Playoff Round 2: Lost to Journey Fellowship Church, Slidell, LA
 * **Round Robin**:
-Round 1: Won against Central A/G, Springfield, MO 240 to 25
-Round 2: Won against Victorious Life Church, Wesley Chapel, FL 220 to -20
-Round 3: Won against Turning Point Christian Center, Vancouver, WA 215 to 85
-Round 4: Won against Truth A/G, Chariton, IA 135 to 100
-Round 5: Won against Harvest Time A/G, Brunswick, OH 230 to 30
-Round 6: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 190 to 10
-Round 7: Won against Calvary A/G, South Bend, IN 235 to 65
-Round 8: Won against Meridian A/G, Meridian, ID 230 to 35
-Round 9: Won against Noble A/G, Noble, OK 190 to 70
-Round 10: Won against Nyssa Christian Fellowship, Nyssa, OR 95 to 55
-Round 11: Won against Suncoast Cathedral A/G, St. Petersburg, FL 225 to -60
-Round 12: Won against New Life Community Church, Oshkosh, WI 130 to 65
-Round 13: Won against Corydon A/G, Corydon, IA 155 to 140
-Round 14: Won against Calvary A/G, Dunwoody, GA 150 to 75
-Round 15: Won against Orange Hills A/G, Orange, CA 240 to 120
-Round 16: Won against First A/G, Montgomery, AL 210 to 70
-Round 17: Won against First A/G, Lafayette, IN 165 to 130
-Round 18: Lost to Grace A/G, Syracuse, NY 15 to 190
-Round 19: Won against Timberline Church, Fort Collins, CO 225 to 15
+  * Round 1: Won against Central A/G, Springfield, MO 240 to 25
+  * Round 2: Won against Victorious Life Church, Wesley Chapel, FL 220 to -20
+  * Round 3: Won against Turning Point Christian Center, Vancouver, WA 215 to 85
+  * Round 4: Won against Truth A/G, Chariton, IA 135 to 100
+  * Round 5: Won against Harvest Time A/G, Brunswick, OH 230 to 30
+  * Round 6: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 190 to 10
+  * Round 7: Won against Calvary A/G, South Bend, IN 235 to 65
+  * Round 8: Won against Meridian A/G, Meridian, ID 230 to 35
+  * Round 9: Won against Noble A/G, Noble, OK 190 to 70
+  * Round 10: Won against Nyssa Christian Fellowship, Nyssa, OR 95 to 55
+  * Round 11: Won against Suncoast Cathedral A/G, St. Petersburg, FL 225 to -60
+  * Round 12: Won against New Life Community Church, Oshkosh, WI 130 to 65
+  * Round 13: Won against Corydon A/G, Corydon, IA 155 to 140
+  * Round 14: Won against Calvary A/G, Dunwoody, GA 150 to 75
+  * Round 15: Won against Orange Hills A/G, Orange, CA 240 to 120
+  * Round 16: Won against First A/G, Montgomery, AL 210 to 70
+  * Round 17: Won against First A/G, Lafayette, IN 165 to 130
+  * Round 18: Lost to Grace A/G, Syracuse, NY 15 to 190
+  * Round 19: Won against Timberline Church, Fort Collins, CO 225 to 15
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="James River A/G, 'In Chains', Ozark, MO" html=image_html %}
@@ -798,42 +808,43 @@ Round 19: Won against Timberline Church, Fort Collins, CO 225 to 15
 
 #### 1st Place
 
-Church:	New Life Community Church, Oshkosh, WI
-Coaches:	Tyler Turnage, Justin Strachen (assistant)
-Team:	Daniel Kober
-David Kober
-Nathan Kober
-Caleb Turnage
+* **Church**: New Life Community Church, Oshkosh, WI
+* **Coaches**: Tyler Turnage, Justin Strachen (assistant)
+* **Team:**
+   * Daniel Kober
+   * David Kober
+   * Nathan Kober
+   * Caleb Turnage
 * **Preliminaries**:
-Round 1: Lost to James River A/G, "One in Christ", Ozark, MO 35 to 150
-Round 2: Lost to Cedar Park A/G, Bothell, WA -60 to 430
-Round 3: Won against Grace A/G, Syracuse, NY 120 to 115
-Round 4: Won against Turning Point Christian Center, Vancouver, WA 85 to 75
-Round 5: Lost to Journey Church, Bridgeville, PA 140 to 170
-Round 6: Lost to First A/G, Lexington, KY 35 to 175
-Round 7: Lost to Suncoast Cathedral A/G, Saint Petersburg, FL -60 to 125
-Round 8: Lost to Christian Chapel, Tulsa, OK 70 to 170
-Round 9: Won against First A/G, Montgomery, AL 110 to 35
+  * Round 1: Lost to James River A/G, "One in Christ", Ozark, MO 35 to 150
+  * Round 2: Lost to Cedar Park A/G, Bothell, WA -60 to 430
+  * Round 3: Won against Grace A/G, Syracuse, NY 120 to 115
+  * Round 4: Won against Turning Point Christian Center, Vancouver, WA 85 to 75
+  * Round 5: Lost to Journey Church, Bridgeville, PA 140 to 170
+  * Round 6: Lost to First A/G, Lexington, KY 35 to 175
+  * Round 7: Lost to Suncoast Cathedral A/G, Saint Petersburg, FL -60 to 125
+  * Round 8: Lost to Christian Chapel, Tulsa, OK 70 to 170
+  * Round 9: Won against First A/G, Montgomery, AL 110 to 35
 * **Round Robin**:
-Round 1: Won against Corydon A/G, Corydon, IA 240 to 55
-Round 2: Lost to Calvary A/G, Dunwoody, GA 60 to 215
-Round 3: Lost to Orange Hills A/G, Orange, CA 65 to 115
-Round 4: Lost to First A/G, Montgomery, AL 35 to 175
-Round 5: Won against First A/G, Lafayette, IN 160 to 80
-Round 6: Lost to Grace A/G, Syracuse, NY 40 to 135
-Round 7: Won against Timberline Church, Fort Collins, CO 105 to 35
-Round 8: Won against Central A/G, Springfield, MO 170 to 60
-Round 9: Lost to Victorious Life Church, Wesley Chapel, FL 90 to 120
-Round 10: Won against Turning Point Christian Center, Vancouver, WA 250 to 25
-Round 11: Won against Truth A/G, Chariton, IA 140 to 70
-Round 12: Lost to James River A/G, "In Chains", Ozark, MO 65 to 130
-Round 13: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 170 to 75
-Round 14: Lost to Calvary A/G, South Bend, IN 50 to 160
-Round 15: Won against Meridian A/G, Meridian, ID 110 to 85
-Round 16: Lost to Noble A/G, Noble, OK 100 to 180
-Round 17: Won against Nyssa Christian Fellowship, Nyssa, OR 125 to 75
-Round 18: Won against Suncoast Cathedral A/G, St. Petersburg, FL 205 to 75
-Round 19: Lost to Harvest Time A/G, Brunswick, OH 110 to 135
+  * Round 1: Won against Corydon A/G, Corydon, IA 240 to 55
+  * Round 2: Lost to Calvary A/G, Dunwoody, GA 60 to 215
+  * Round 3: Lost to Orange Hills A/G, Orange, CA 65 to 115
+  * Round 4: Lost to First A/G, Montgomery, AL 35 to 175
+  * Round 5: Won against First A/G, Lafayette, IN 160 to 80
+  * Round 6: Lost to Grace A/G, Syracuse, NY 40 to 135
+  * Round 7: Won against Timberline Church, Fort Collins, CO 105 to 35
+  * Round 8: Won against Central A/G, Springfield, MO 170 to 60
+  * Round 9: Lost to Victorious Life Church, Wesley Chapel, FL 90 to 120
+  * Round 10: Won against Turning Point Christian Center, Vancouver, WA 250 to 25
+  * Round 11: Won against Truth A/G, Chariton, IA 140 to 70
+  * Round 12: Lost to James River A/G, "In Chains", Ozark, MO 65 to 130
+  * Round 13: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 170 to 75
+  * Round 14: Lost to Calvary A/G, South Bend, IN 50 to 160
+  * Round 15: Won against Meridian A/G, Meridian, ID 110 to 85
+  * Round 16: Lost to Noble A/G, Noble, OK 100 to 180
+  * Round 17: Won against Nyssa Christian Fellowship, Nyssa, OR 125 to 75
+  * Round 18: Won against Suncoast Cathedral A/G, St. Petersburg, FL 205 to 75
+  * Round 19: Lost to Harvest Time A/G, Brunswick, OH 110 to 135
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="New Life Community Church, Oshkosh, WI" html=image_html %}
@@ -846,42 +857,43 @@ Round 19: Lost to Harvest Time A/G, Brunswick, OH 110 to 135
 
 #### 2nd Place
 
-Church:	CrossPoint A/G, Portage, WI
-Coaches:	Don Batty, Judy Turner (assistant)
-Team:	Alex Firari
-Josh Turner
-Naomi Turner
-Seth Turner
+* **Church**: CrossPoint A/G, Portage, WI
+* **Coaches**: Don Batty, Judy Turner (assistant)
+* **Team:**
+   * Alex Firari
+   * Josh Turner
+   * Naomi Turner
+   * Seth Turner
 * **Preliminaries**:
-Round 1: Won against Calvary A/G, Dunwoody, GA 160 to 125
-Round 2: Won against Orange County Worship Center, Santa Ana, CA 155 to 100
-Round 3: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 150 to 80
-Round 4: Lost to Central A/G, Springfield, MO -5 to 180
-Round 5: Won against Dayspring A/G, Bowling Green, OH 175 to 90
-Round 6: Won against Harvest Time A/G, Brunswick, OH 150 to 40
-Round 7: Lost to Owasso First A/G, Owasso, OK -5 to 260
-Round 8: Won against Meridian A/G, Meridian, ID 220 to 35
-Round 9: Lost to Norhtridge A/G, Grand Island, NE 70 to 185
+  * Round 1: Won against Calvary A/G, Dunwoody, GA 160 to 125
+  * Round 2: Won against Orange County Worship Center, Santa Ana, CA 155 to 100
+  * Round 3: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 150 to 80
+  * Round 4: Lost to Central A/G, Springfield, MO -5 to 180
+  * Round 5: Won against Dayspring A/G, Bowling Green, OH 175 to 90
+  * Round 6: Won against Harvest Time A/G, Brunswick, OH 150 to 40
+  * Round 7: Lost to Owasso First A/G, Owasso, OK -5 to 260
+  * Round 8: Won against Meridian A/G, Meridian, ID 220 to 35
+  * Round 9: Lost to Norhtridge A/G, Grand Island, NE 70 to 185
 * **Round Robin**:
-Round 1: Won against Manassas A/G, Bristow, VA 175 to 150
-Round 2: Won against Tacoma Life Center, Tacoma, WA 110 to 90
-Round 3: Lost to First A/G, Binghamton, NY 80 to 155
-Round 4: Won against Christian Temple, Houston, TX 120 to 110
-Round 5: Lost to Braeswood A/G, Houston, TX 45 to 145
-Round 6: Lost to Praise A/G, Garfield, NJ 95 to 105
-Round 7: Won against Journey Fellowship Church, Slidell, LA 120 to 70
-Round 8: Won against Dayspring A/G, Bowling Green, OH 130 to 100
-Round 9: Lost to First A/G, Lexington, KY 135 to 230
-Round 10: Won against Christian Chapel, Tulsa, OK 190 to 30
-Round 11: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO -10 to 185
-Round 12: Won against Journey Church, Bridgeville, PA 160 to 130
-Round 13: Won against Cedar Park A/G, Bothell, WA 165 to 160
-Round 14: Won against Orange County Worship Center, Santa Ana, CA 110 to 105
-Round 15: Lost to Northridge A/G, Grand Island, NE 160 to 170
-Round 16: Lost to James River A/G, "One in Christ", Ozark, MO 15 to 190
-Round 17: Lost to Faith A/G, West Plains, MO 100 to 105
-Round 18: Lost to Owasso First A/G, Owasso, OK 55 to 230
-Round 19: Lost to Faith A/G, Orlando, FL 95 to 220
+  * Round 1: Won against Manassas A/G, Bristow, VA 175 to 150
+  * Round 2: Won against Tacoma Life Center, Tacoma, WA 110 to 90
+  * Round 3: Lost to First A/G, Binghamton, NY 80 to 155
+  * Round 4: Won against Christian Temple, Houston, TX 120 to 110
+  * Round 5: Lost to Braeswood A/G, Houston, TX 45 to 145
+  * Round 6: Lost to Praise A/G, Garfield, NJ 95 to 105
+  * Round 7: Won against Journey Fellowship Church, Slidell, LA 120 to 70
+  * Round 8: Won against Dayspring A/G, Bowling Green, OH 130 to 100
+  * Round 9: Lost to First A/G, Lexington, KY 135 to 230
+  * Round 10: Won against Christian Chapel, Tulsa, OK 190 to 30
+  * Round 11: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO -10 to 185
+  * Round 12: Won against Journey Church, Bridgeville, PA 160 to 130
+  * Round 13: Won against Cedar Park A/G, Bothell, WA 165 to 160
+  * Round 14: Won against Orange County Worship Center, Santa Ana, CA 110 to 105
+  * Round 15: Lost to Northridge A/G, Grand Island, NE 160 to 170
+  * Round 16: Lost to James River A/G, "One in Christ", Ozark, MO 15 to 190
+  * Round 17: Lost to Faith A/G, West Plains, MO 100 to 105
+  * Round 18: Lost to Owasso First A/G, Owasso, OK 55 to 230
+  * Round 19: Lost to Faith A/G, Orlando, FL 95 to 220
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="CrossPoint A/G, Portage, WI" html=image_html %}
@@ -893,40 +905,41 @@ Round 19: Lost to Faith A/G, Orlando, FL 95 to 220
 
 #### 3rd Place
 
-Church:	Truth A/G, Chariton, IA
-Coaches:	Loren Plank, Ed Sornberger (assistant)
-Team:	Jonathan Plank
-Amanda Snider
+* **Church**: Truth A/G, Chariton, IA
+* **Coaches**: Loren Plank, Ed Sornberger (assistant)
+* **Team:**
+   * Jonathan Plank
+   * Amanda Snider
 * **Preliminaries**:
-Round 1: Lost to Faith A/G, West Plains, MO 55 to 165
-Round 2: Lost to First A/G, Lafayette, IN 100 to 150
-Round 3: Lost to Faith A/G, Orlando, FL 60 to 235
-Round 4: Lost to First A/G, Binghamton, NY 75 to 145
-Round 5: Lost to Orange Hills A/G, Orange, CA 140 to 210
-Round 6: Lost to Braeswood A/G, Houston, TX 70 to 245
-Round 7: Lost to Calvary A/G, South Bend, IN 10 to 160
-Round 8: Lost to Tacoma Life Center, Tacoma, WA 15 to 300
-Round 9: Lost to Noble A/G, Noble, OK 30 to 100
+  * Round 1: Lost to Faith A/G, West Plains, MO 55 to 165
+  * Round 2: Lost to First A/G, Lafayette, IN 100 to 150
+  * Round 3: Lost to Faith A/G, Orlando, FL 60 to 235
+  * Round 4: Lost to First A/G, Binghamton, NY 75 to 145
+  * Round 5: Lost to Orange Hills A/G, Orange, CA 140 to 210
+  * Round 6: Lost to Braeswood A/G, Houston, TX 70 to 245
+  * Round 7: Lost to Calvary A/G, South Bend, IN 10 to 160
+  * Round 8: Lost to Tacoma Life Center, Tacoma, WA 15 to 300
+  * Round 9: Lost to Noble A/G, Noble, OK 30 to 100
 * **Round Robin**:
-Round 1: Lost to Victorious Life Church, Wesley Chapel, FL 120 to 135
-Round 2: Lost to Turning Point Christian Center, Vancouver, WA 120 to 185
-Round 3: Lost to Harvest Time A/G, Brunswick, OH 100 to 140
-Round 4: Lost to James River A/G, "In Chains", Ozark, MO 100 to 135
-Round 5: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO -35 to 180
-Round 6: Lost to Calvary A/G, South Bend, IN -10 to 215
-Round 7: Lost to Meridian A/G, Meridian, ID 90 to 100
-Round 8: Lost to Noble A/G, Noble, OK 20 to 70
-Round 9: Lost to Nyssa Christian Fellowship, Nyssa, OR 80 to 190
-Round 10: Lost to Suncoast Cathedral A/G, St. Petersburg, FL 105 to 125
-Round 11: Lost to New Life Community Church, Oshkosh, WI 70 to 140
-Round 12: Won against Corydon A/G, Corydon, IA 120 to 90
-Round 13: Lost to Calvary A/G, Dunwoody, GA 70 to 210
-Round 14: Lost to Orange Hills A/G, Orange, CA 80 to 165
-Round 15: Lost to First A/G, Montgomery, AL 105 to 160
-Round 16: Won against First A/G, Lafayette, IN 120 to 95
-Round 17: Lost to Grace A/G, Syracuse, NY -15 to 175
-Round 18: Won against Timberline Church, Fort Collins, CO 85 to 70
-Round 19: Lost to Central A/G, Springfield, MO 70 to 110
+  * Round 1: Lost to Victorious Life Church, Wesley Chapel, FL 120 to 135
+  * Round 2: Lost to Turning Point Christian Center, Vancouver, WA 120 to 185
+  * Round 3: Lost to Harvest Time A/G, Brunswick, OH 100 to 140
+  * Round 4: Lost to James River A/G, "In Chains", Ozark, MO 100 to 135
+  * Round 5: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO -35 to 180
+  * Round 6: Lost to Calvary A/G, South Bend, IN -10 to 215
+  * Round 7: Lost to Meridian A/G, Meridian, ID 90 to 100
+  * Round 8: Lost to Noble A/G, Noble, OK 20 to 70
+  * Round 9: Lost to Nyssa Christian Fellowship, Nyssa, OR 80 to 190
+  * Round 10: Lost to Suncoast Cathedral A/G, St. Petersburg, FL 105 to 125
+  * Round 11: Lost to New Life Community Church, Oshkosh, WI 70 to 140
+  * Round 12: Won against Corydon A/G, Corydon, IA 120 to 90
+  * Round 13: Lost to Calvary A/G, Dunwoody, GA 70 to 210
+  * Round 14: Lost to Orange Hills A/G, Orange, CA 80 to 165
+  * Round 15: Lost to First A/G, Montgomery, AL 105 to 160
+  * Round 16: Won against First A/G, Lafayette, IN 120 to 95
+  * Round 17: Lost to Grace A/G, Syracuse, NY -15 to 175
+  * Round 18: Won against Timberline Church, Fort Collins, CO 85 to 70
+  * Round 19: Lost to Central A/G, Springfield, MO 70 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Truth A/G, Chariton, IA" html=image_html %}
@@ -938,41 +951,42 @@ Round 19: Lost to Central A/G, Springfield, MO 70 to 110
 
 #### 4th Place
 
-Church:	Corydon A/G, Corydon, IA
-Coaches:	Greg Colegrove, Rachelle Colegrove (assistant)
-Team:	Devon Colegrove
-Donovan Colegrove
+* **Church**: Corydon A/G, Corydon, IA
+* **Coaches**: Greg Colegrove, Rachelle Colegrove (assistant)
+* **Team:**
+   * Devon Colegrove
+   * Donovan Colegrove
 * **Preliminaries**:
-Round 1: Won against Timberline Church, Fort Collins, CO 140 to -10
-Round 2: Won against Nyssa Christian Fellowship, Nyssa, OR 150 to 125
-Round 3: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 35 to 220
-Round 4: Lost to Christian Temple, Houston, TX 110 to 160
-Round 5: Lost to Praise A/G, Garfield, NJ 20 to 325
-Round 6: Lost to Manassas A/G, Bristow, VA 95 to 165
-Round 7: Won against Journey Fellowship Church, Slidell, LA 80 to 70
-Round 8: Lost to James River A/G, "In Chains", Ozark, MO 40 to 285
-Round 9: Won against Victorious Life Church, Wesley Chapel, FL 200 to 55
-Playoff Round 1: Lost to Journey Fellowship Church, Slidell, LA
+  * Round 1: Won against Timberline Church, Fort Collins, CO 140 to -10
+  * Round 2: Won against Nyssa Christian Fellowship, Nyssa, OR 150 to 125
+  * Round 3: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 35 to 220
+  * Round 4: Lost to Christian Temple, Houston, TX 110 to 160
+  * Round 5: Lost to Praise A/G, Garfield, NJ 20 to 325
+  * Round 6: Lost to Manassas A/G, Bristow, VA 95 to 165
+  * Round 7: Won against Journey Fellowship Church, Slidell, LA 80 to 70
+  * Round 8: Lost to James River A/G, "In Chains", Ozark, MO 40 to 285
+  * Round 9: Won against Victorious Life Church, Wesley Chapel, FL 200 to 55
+  * Playoff Round 1: Lost to Journey Fellowship Church, Slidell, LA
 * **Round Robin**:
-Round 1: Lost to New Life Community Church, Oshkosh, WI 55 to 240
-Round 2: Lost to Harvest Time A/G, Brunswick, OH 75 to 175
-Round 3: Lost to Calvary A/G, Dunwoody, GA 135 to 250
-Round 4: Lost to Orange Hills A/G, Orange, CA 75 to 165
-Round 5: Won against First A/G, Montgomery, AL 155 to 95
-Round 6: Won against First A/G, Lafayette, IN 125 to 80
-Round 7: Lost to Grace A/G, Syracuse, NY 80 to 120
-Round 8: Won against Timberline Church, Fort Collins, CO 200 to -35
-Round 9: Lost to Central A/G, Springfield, MO 155 to 160
-Round 10: Won against Victorious Life Church, Wesley Chapel, FL 120 to 80
-Round 11: Won against Turning Point Christian Center, Vancouver, WA 150 to 125
-Round 12: Lost to Truth A/G, Chariton, IA 90 to 120
-Round 13: Lost to James River A/G, "In Chains", Ozark, MO 140 to 155
-Round 14: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 205 to 20
-Round 15: Lost to Calvary A/G, South Bend, IN 40 to 225
-Round 16: Won against Meridian A/G, Meridian, ID 155 to 145
-Round 17: Lost to Noble A/G, Noble, OK 105 to 170
-Round 18: Lost to Nyssa Christian Fellowship, Nyssa, OR 105 to 140
-Round 19: Lost to Suncoast Cathedral A/G, St. Petersburg, FL 90 to 140
+  * Round 1: Lost to New Life Community Church, Oshkosh, WI 55 to 240
+  * Round 2: Lost to Harvest Time A/G, Brunswick, OH 75 to 175
+  * Round 3: Lost to Calvary A/G, Dunwoody, GA 135 to 250
+  * Round 4: Lost to Orange Hills A/G, Orange, CA 75 to 165
+  * Round 5: Won against First A/G, Montgomery, AL 155 to 95
+  * Round 6: Won against First A/G, Lafayette, IN 125 to 80
+  * Round 7: Lost to Grace A/G, Syracuse, NY 80 to 120
+  * Round 8: Won against Timberline Church, Fort Collins, CO 200 to -35
+  * Round 9: Lost to Central A/G, Springfield, MO 155 to 160
+  * Round 10: Won against Victorious Life Church, Wesley Chapel, FL 120 to 80
+  * Round 11: Won against Turning Point Christian Center, Vancouver, WA 150 to 125
+  * Round 12: Lost to Truth A/G, Chariton, IA 90 to 120
+  * Round 13: Lost to James River A/G, "In Chains", Ozark, MO 140 to 155
+  * Round 14: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 205 to 20
+  * Round 15: Lost to Calvary A/G, South Bend, IN 40 to 225
+  * Round 16: Won against Meridian A/G, Meridian, ID 155 to 145
+  * Round 17: Lost to Noble A/G, Noble, OK 105 to 170
+  * Round 18: Lost to Nyssa Christian Fellowship, Nyssa, OR 105 to 140
+  * Round 19: Lost to Suncoast Cathedral A/G, St. Petersburg, FL 90 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Corydon A/G, Corydon, IA" html=image_html %}
@@ -985,44 +999,45 @@ Round 19: Lost to Suncoast Cathedral A/G, St. Petersburg, FL 90 to 140
 
 #### 5th Place
 
-Church:	Northridge A/G, Grand Island, NE
-Coaches:	Paul Hofrichter, Linda Parker (assistant)
-Team:	Andric Hofrichter
-Tori Beye
-Jacob Harris
-Hannah Swanson
-Aaron Beye
-Sally Epp
+* **Church**: Northridge A/G, Grand Island, NE
+* **Coaches**: Paul Hofrichter, Linda Parker (assistant)
+* **Team:**
+   * Andric Hofrichter
+   * Tori Beye
+   * Jacob Harris
+   * Hannah Swanson
+   * Aaron Beye
+   * Sally Epp
 * **Preliminaries**:
-Round 1: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 75 to 125
-Round 2: Lost to Owasso First A/G, Owasso, OK 35 to 295
-Round 3: Lost to Orange County Worship Center, Santa Ana, CA 35 to 240
-Round 4: Won against Harvest Time A/G, Brunswick, OH 115 to 110
-Round 5: Won against Calvary A/G, Dunwoody, GA 220 to 155
-Round 6: Won against Meridian A/G, Meridian, ID 195 to 20
-Round 7: Won against Dayspring A/G, Bowling Green, OH 175 to 120
-Round 8: Won against Central A/G, Springfield, MO 275 to 45
-Round 9: Won against CrossPoint A/G, Portage, WI 185 to 70
+  * Round 1: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 75 to 125
+  * Round 2: Lost to Owasso First A/G, Owasso, OK 35 to 295
+  * Round 3: Lost to Orange County Worship Center, Santa Ana, CA 35 to 240
+  * Round 4: Won against Harvest Time A/G, Brunswick, OH 115 to 110
+  * Round 5: Won against Calvary A/G, Dunwoody, GA 220 to 155
+  * Round 6: Won against Meridian A/G, Meridian, ID 195 to 20
+  * Round 7: Won against Dayspring A/G, Bowling Green, OH 175 to 120
+  * Round 8: Won against Central A/G, Springfield, MO 275 to 45
+  * Round 9: Won against CrossPoint A/G, Portage, WI 185 to 70
 * **Round Robin**:
-Round 1: Lost to Faith A/G, West Plains, MO 125 to 135
-Round 2: Lost to Owasso First A/G, Owasso, OK 0 to 250
-Round 3: Lost to Faith A/G, Orlando, FL 155 to 210
-Round 4: Won against Manassas A/G, Bristow, VA 150 to 120
-Round 5: Lost to Tacoma Life Center, Tacoma, WA 65 to 150
-Round 6: Won against First A/G, Binghamton, NY 165 to 45
-Round 7: Lost to Christian Temple, Houston, TX 90 to 100
-Round 8: Lost to Braeswood A/G, Houston, TX 70 to 90
-Round 9: Lost to Praise A/G, Garfield, NJ 105 to 160
-Round 10: Lost to Journey Fellowship Church, Slidell, LA 40 to 105
-Round 11: Lost to Dayspring A/G, Bowling Green, OH -15 to 125
-Round 12: Lost to First A/G, Lexington, KY 130 to 150
-Round 13: Won against Christian Chapel, Tulsa, OK 115 to 80
-Round 14: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 170 to 60
-Round 15: Won against CrossPoint A/G, Portage, WI 170 to 160
-Round 16: Lost to Cedar Park A/G, Bothell, WA 120 to 210
-Round 17: Lost to Orange County Worship Center, Santa Ana, CA 115 to 170
-Round 18: Lost to Journey Church, Bridgeville, PA 80 to 200
-Round 19: Lost to James River A/G, "One in Christ", Ozark, MO 55 to 270
+  * Round 1: Lost to Faith A/G, West Plains, MO 125 to 135
+  * Round 2: Lost to Owasso First A/G, Owasso, OK 0 to 250
+  * Round 3: Lost to Faith A/G, Orlando, FL 155 to 210
+  * Round 4: Won against Manassas A/G, Bristow, VA 150 to 120
+  * Round 5: Lost to Tacoma Life Center, Tacoma, WA 65 to 150
+  * Round 6: Won against First A/G, Binghamton, NY 165 to 45
+  * Round 7: Lost to Christian Temple, Houston, TX 90 to 100
+  * Round 8: Lost to Braeswood A/G, Houston, TX 70 to 90
+  * Round 9: Lost to Praise A/G, Garfield, NJ 105 to 160
+  * Round 10: Lost to Journey Fellowship Church, Slidell, LA 40 to 105
+  * Round 11: Lost to Dayspring A/G, Bowling Green, OH -15 to 125
+  * Round 12: Lost to First A/G, Lexington, KY 130 to 150
+  * Round 13: Won against Christian Chapel, Tulsa, OK 115 to 80
+  * Round 14: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 170 to 60
+  * Round 15: Won against CrossPoint A/G, Portage, WI 170 to 160
+  * Round 16: Lost to Cedar Park A/G, Bothell, WA 120 to 210
+  * Round 17: Lost to Orange County Worship Center, Santa Ana, CA 115 to 170
+  * Round 18: Lost to Journey Church, Bridgeville, PA 80 to 200
+  * Round 19: Lost to James River A/G, "One in Christ", Ozark, MO 55 to 270
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Northridge A/G, Grand Island, NE" html=image_html %}
@@ -1037,42 +1052,43 @@ Round 19: Lost to James River A/G, "One in Christ", Ozark, MO 55 to 270
 
 #### 1st Place
 
-Church:	Manassas A/G, Bristow, VA
-Coaches:	Darlene Brower, Sahar Smith (assistant), Vivian Hains (assistant)
-Team:	Cara Brower
-Lindsey Brower
-Samantha Smith
-Catherine Hains
+* **Church**: Manassas A/G, Bristow, VA
+* **Coaches**: Darlene Brower, Sahar Smith (assistant), Vivian Hains (assistant)
+* **Team:**
+   * Cara Brower
+   * Lindsey Brower
+   * Samantha Smith
+   * Catherine Hains
 * **Preliminaries**:
-Round 1: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 145 to 130
-Round 2: Won against James River A/G, "In Chains", Ozark, MO 175 to 40
-Round 3: Won against Nyssa Christian Fellowship, Nyssa, OR 150 to 60
-Round 4: Won against Victorious Life Church, Wesley Chapel, FL 205 to 35
-Round 5: Won against Timberline Church, Fort Collins, CO 285 to 15
-Round 6: Won against Corydon A/G, Corydon, IA 165 to 95
-Round 7: Won against Christian Temple, Houston, TX 195 to 50
-Round 8: Lost to Praise A/G, Garfield, NJ 40 to 200
-Round 9: Won against Journey Fellowship Church, Slidell, LA 75 to 60
+  * Round 1: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 145 to 130
+  * Round 2: Won against James River A/G, "In Chains", Ozark, MO 175 to 40
+  * Round 3: Won against Nyssa Christian Fellowship, Nyssa, OR 150 to 60
+  * Round 4: Won against Victorious Life Church, Wesley Chapel, FL 205 to 35
+  * Round 5: Won against Timberline Church, Fort Collins, CO 285 to 15
+  * Round 6: Won against Corydon A/G, Corydon, IA 165 to 95
+  * Round 7: Won against Christian Temple, Houston, TX 195 to 50
+  * Round 8: Lost to Praise A/G, Garfield, NJ 40 to 200
+  * Round 9: Won against Journey Fellowship Church, Slidell, LA 75 to 60
 * **Round Robin**:
-Round 1: Lost to CrossPoint A/G, Portage, WI 150 to 175
-Round 2: Lost to Cedar Park A/G, Bothell, WA 70 to 220
-Round 3: Lost to Orange County Worship Center, Santa Ana, CA 120 to 170
-Round 4: Lost to Northridge A/G, Grand Island, NE 120 to 150
-Round 5: Lost to James River A/G, "One in Christ", Ozark, MO 80 to 255
-Round 6: Lost to Faith A/G, West Plains, MO 140 to 170
-Round 7: Lost to Owasso First A/G, Owasso, OK -15 to 365
-Round 8: Lost to Faith A/G, Orlando, FL 120 to 225
-Round 9: Won against Journey Church, Bridgeville, PA 235 to 135
-Round 10: Lost to Tacoma Life Center, Tacoma, WA 85 to 190
-Round 11: Lost to First A/G, Binghamton, NY 120 to 125
-Round 12: Won against Christian Temple, Houston, TX 245 to 20
-Round 13: Lost to Braeswood A/G, Houston, TX 110 to 160
-Round 14: Won against Praise A/G, Garfield, NJ 175 to 20
-Round 15: Won against Journey Fellowship Church, Slidell, LA 115 to 80
-Round 16: Won against Dayspring A/G, Bowling Green, OH 135 to 105
-Round 17: Lost to First A/G, Lexington, KY 135 to 145
-Round 18: Lost to Christian Chapel, Tulsa, OK 45 to 185
-Round 19: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 150 to 165
+  * Round 1: Lost to CrossPoint A/G, Portage, WI 150 to 175
+  * Round 2: Lost to Cedar Park A/G, Bothell, WA 70 to 220
+  * Round 3: Lost to Orange County Worship Center, Santa Ana, CA 120 to 170
+  * Round 4: Lost to Northridge A/G, Grand Island, NE 120 to 150
+  * Round 5: Lost to James River A/G, "One in Christ", Ozark, MO 80 to 255
+  * Round 6: Lost to Faith A/G, West Plains, MO 140 to 170
+  * Round 7: Lost to Owasso First A/G, Owasso, OK -15 to 365
+  * Round 8: Lost to Faith A/G, Orlando, FL 120 to 225
+  * Round 9: Won against Journey Church, Bridgeville, PA 235 to 135
+  * Round 10: Lost to Tacoma Life Center, Tacoma, WA 85 to 190
+  * Round 11: Lost to First A/G, Binghamton, NY 120 to 125
+  * Round 12: Won against Christian Temple, Houston, TX 245 to 20
+  * Round 13: Lost to Braeswood A/G, Houston, TX 110 to 160
+  * Round 14: Won against Praise A/G, Garfield, NJ 175 to 20
+  * Round 15: Won against Journey Fellowship Church, Slidell, LA 115 to 80
+  * Round 16: Won against Dayspring A/G, Bowling Green, OH 135 to 105
+  * Round 17: Lost to First A/G, Lexington, KY 135 to 145
+  * Round 18: Lost to Christian Chapel, Tulsa, OK 45 to 185
+  * Round 19: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 150 to 165
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Manassas A/G, Bristow, VA" html=image_html %}
@@ -1085,44 +1101,45 @@ Round 19: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs,
 
 #### 2nd Place
 
-Church:	First A/G, Binghamton, NY
-Coaches:	Hank Ward, Annette Ward (assistant)
-Team:	Victoria Myrick
-Isaac Ward
-LaJoie Ward
-John Karluk
-Stephanie Karluk
-Corina Scarinzi
+* **Church**: First A/G, Binghamton, NY
+* **Coaches**: Hank Ward, Annette Ward (assistant)
+* **Team:**
+   * Victoria Myrick
+   * Isaac Ward
+   * LaJoie Ward
+   * John Karluk
+   * Stephanie Karluk
+   * Corina Scarinzi
 * **Preliminaries**:
-Round 1: Won against Orange Hills A/G, Orange, CA 170 to 105
-Round 2: Won against Tacoma Life Center, Tacoma, WA 160 to 130
-Round 3: Won against Noble A/G, Noble, OK 215 to 135
-Round 4: Won against Truth A/G, Chariton, IA 145 to 75
-Round 5: Lost to Calvary A/G, South Bend, IN 130 to 230
-Round 6: Won against Faith A/G, West Plains, MO 120 to 100
-Round 7: Won against First A/G, Lafayette, IN 110 to 20
-Round 8: Won against Braeswood A/G, Houston, TX 215 to 95
-Round 9: Lost to Faith A/G, Orlando, FL -10 to 260
+  * Round 1: Won against Orange Hills A/G, Orange, CA 170 to 105
+  * Round 2: Won against Tacoma Life Center, Tacoma, WA 160 to 130
+  * Round 3: Won against Noble A/G, Noble, OK 215 to 135
+  * Round 4: Won against Truth A/G, Chariton, IA 145 to 75
+  * Round 5: Lost to Calvary A/G, South Bend, IN 130 to 230
+  * Round 6: Won against Faith A/G, West Plains, MO 120 to 100
+  * Round 7: Won against First A/G, Lafayette, IN 110 to 20
+  * Round 8: Won against Braeswood A/G, Houston, TX 215 to 95
+  * Round 9: Lost to Faith A/G, Orlando, FL -10 to 260
 * **Round Robin**:
-Round 1: Won against Christian Chapel, Tulsa, OK 225 to 50
-Round 2: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 135 to 180
-Round 3: Won against CrossPoint A/G, Portage, WI 155 to 80
-Round 4: Lost to Cedar Park A/G, Bothell, WA 150 to 205
-Round 5: Won against Orange County Worship Center, Santa Ana, CA 130 to 65
-Round 6: Lost to Northridge A/G, Grand Island, NE 45 to 165
-Round 7: Lost to James River A/G, "One in Christ", Ozark, MO 105 to 175
-Round 8: Won against Faith A/G, West Plains, MO 195 to 85
-Round 9: Lost to Owasso First A/G, Owasso, OK 45 to 245
-Round 10: Lost to Faith A/G, Orlando, FL 160 to 185
-Round 11: Won against Manassas A/G, Bristow, VA 125 to 120
-Round 12: Won against Tacoma Life Center, Tacoma, WA 235 to 90
-Round 13: Lost to Journey Church, Bridgeville, PA 135 to 165
-Round 14: Lost to Christian Temple, Houston, TX 95 to 120
-Round 15: Won against Braeswood A/G, Houston, TX 190 to 120
-Round 16: Won against Praise A/G, Garfield, NJ 205 to 80
-Round 17: Lost to Journey Fellowship Church, Slidell, LA 150 to 160
-Round 18: Lost to Dayspring A/G, Bowling Green, OH 85 to 130
-Round 19: Won against First A/G, Lexington, KY 230 to 90
+  * Round 1: Won against Christian Chapel, Tulsa, OK 225 to 50
+  * Round 2: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 135 to 180
+  * Round 3: Won against CrossPoint A/G, Portage, WI 155 to 80
+  * Round 4: Lost to Cedar Park A/G, Bothell, WA 150 to 205
+  * Round 5: Won against Orange County Worship Center, Santa Ana, CA 130 to 65
+  * Round 6: Lost to Northridge A/G, Grand Island, NE 45 to 165
+  * Round 7: Lost to James River A/G, "One in Christ", Ozark, MO 105 to 175
+  * Round 8: Won against Faith A/G, West Plains, MO 195 to 85
+  * Round 9: Lost to Owasso First A/G, Owasso, OK 45 to 245
+  * Round 10: Lost to Faith A/G, Orlando, FL 160 to 185
+  * Round 11: Won against Manassas A/G, Bristow, VA 125 to 120
+  * Round 12: Won against Tacoma Life Center, Tacoma, WA 235 to 90
+  * Round 13: Lost to Journey Church, Bridgeville, PA 135 to 165
+  * Round 14: Lost to Christian Temple, Houston, TX 95 to 120
+  * Round 15: Won against Braeswood A/G, Houston, TX 190 to 120
+  * Round 16: Won against Praise A/G, Garfield, NJ 205 to 80
+  * Round 17: Lost to Journey Fellowship Church, Slidell, LA 150 to 160
+  * Round 18: Lost to Dayspring A/G, Bowling Green, OH 85 to 130
+  * Round 19: Won against First A/G, Lexington, KY 230 to 90
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="First A/G, Binghamton, NY" html=image_html %}
@@ -1135,44 +1152,45 @@ Round 19: Won against First A/G, Lexington, KY 230 to 90
 
 #### 3rd Place
 
-Church:	Praise A/G, Garfield, NJ
-Coaches:	Tammy Yukon, Jesse Czubkowski (assistant)
-Team:	Alex Cheski
-Justin Czubkowski
-Jacob Dipini
-Alex Cheski
-Kyler Sederwall
-Benji Songsong
+* **Church**: Praise A/G, Garfield, NJ
+* **Coaches**: Tammy Yukon, Jesse Czubkowski (assistant)
+* **Team:**
+   * Alex Cheski
+   * Justin Czubkowski
+   * Jacob Dipini
+   * Alex Cheski
+   * Kyler Sederwall
+   * Benji Songsong
 * **Preliminaries**:
-Round 1: Won against Nyssa Christian Fellowship, Nyssa, OR 140 to 95
-Round 2: Won against Christian Temple, Houston, TX 135 to 120
-Round 3: Won against James River A/G, "In Chains", Ozark, MO 125 to 20
-Round 4: Won against Timberline Church, Fort Collins, CO 215 to 5
-Round 5: Won against Corydon A/G, Corydon, IA 325 to 20
-Round 6: Won against Journey Fellowship Church, Slidell, LA 120 to 85
-Round 7: Won against Victorious Life Church, Wesley Chapel, FL 185 to 35
-Round 8: Won against Manassas A/G, Bristow, VA 200 to 40
-Round 9: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 155 to 95
+  * Round 1: Won against Nyssa Christian Fellowship, Nyssa, OR 140 to 95
+  * Round 2: Won against Christian Temple, Houston, TX 135 to 120
+  * Round 3: Won against James River A/G, "In Chains", Ozark, MO 125 to 20
+  * Round 4: Won against Timberline Church, Fort Collins, CO 215 to 5
+  * Round 5: Won against Corydon A/G, Corydon, IA 325 to 20
+  * Round 6: Won against Journey Fellowship Church, Slidell, LA 120 to 85
+  * Round 7: Won against Victorious Life Church, Wesley Chapel, FL 185 to 35
+  * Round 8: Won against Manassas A/G, Bristow, VA 200 to 40
+  * Round 9: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 155 to 95
 * **Round Robin**:
-Round 1: Won against Journey Fellowship Church, Slidell, LA 220 to 105
-Round 2: Won against Dayspring A/G, Bowling Green, OH 145 to 140
-Round 3: Lost to First A/G, Lexington, KY 30 to 210
-Round 4: Won against Christian Chapel, Tulsa, OK 90 to 65
-Round 5: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 150 to 120
-Round 6: Won against CrossPoint A/G, Portage, WI 105 to 95
-Round 7: Lost to Cedar Park A/G, Bothell, WA 150 to 180
-Round 8: Won against Orange County Worship Center, Santa Ana, CA 100 to 90
-Round 9: Won against Northridge A/G, Grand Island, NE 160 to 105
-Round 10: Lost to James River A/G, "One in Christ", Ozark, MO 35 to 265
-Round 11: Lost to Faith A/G, West Plains, MO 105 to 215
-Round 12: Lost to Owasso First A/G, Owasso, OK 130 to 175
-Round 13: Lost to Faith A/G, Orlando, FL 90 to 225
-Round 14: Lost to Manassas A/G, Bristow, VA 20 to 175
-Round 15: Lost to Tacoma Life Center, Tacoma, WA 150 to 155
-Round 16: Lost to First A/G, Binghamton, NY 80 to 205
-Round 17: Lost to Christian Temple, Houston, TX 75 to 245
-Round 18: Lost to Braeswood A/G, Houston, TX 105 to 150
-Round 19: Won against Journey Church, Bridgeville, PA 150 to 140
+  * Round 1: Won against Journey Fellowship Church, Slidell, LA 220 to 105
+  * Round 2: Won against Dayspring A/G, Bowling Green, OH 145 to 140
+  * Round 3: Lost to First A/G, Lexington, KY 30 to 210
+  * Round 4: Won against Christian Chapel, Tulsa, OK 90 to 65
+  * Round 5: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 150 to 120
+  * Round 6: Won against CrossPoint A/G, Portage, WI 105 to 95
+  * Round 7: Lost to Cedar Park A/G, Bothell, WA 150 to 180
+  * Round 8: Won against Orange County Worship Center, Santa Ana, CA 100 to 90
+  * Round 9: Won against Northridge A/G, Grand Island, NE 160 to 105
+  * Round 10: Lost to James River A/G, "One in Christ", Ozark, MO 35 to 265
+  * Round 11: Lost to Faith A/G, West Plains, MO 105 to 215
+  * Round 12: Lost to Owasso First A/G, Owasso, OK 130 to 175
+  * Round 13: Lost to Faith A/G, Orlando, FL 90 to 225
+  * Round 14: Lost to Manassas A/G, Bristow, VA 20 to 175
+  * Round 15: Lost to Tacoma Life Center, Tacoma, WA 150 to 155
+  * Round 16: Lost to First A/G, Binghamton, NY 80 to 205
+  * Round 17: Lost to Christian Temple, Houston, TX 75 to 245
+  * Round 18: Lost to Braeswood A/G, Houston, TX 105 to 150
+  * Round 19: Won against Journey Church, Bridgeville, PA 150 to 140
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Praise A/G, Garfield, NJ" html=image_html %}
@@ -1185,41 +1203,42 @@ Round 19: Won against Journey Church, Bridgeville, PA 150 to 140
 
 #### 4th Place
 
-Church:	Grace A/G, Syracuse, NY
-Coaches:	John Nardozzi, Randy Rhynders (assistant)
-Team:	Brandon Rhynders
-Amy Siddall
-Jared Siddall
+* **Church**: Grace A/G, Syracuse, NY
+* **Coaches**: John Nardozzi, Randy Rhynders (assistant)
+* **Team:**
+   * Brandon Rhynders
+   * Amy Siddall
+   * Jared Siddall
 * **Preliminaries**:
-Round 1: Lost to Suncoast Cathedral A/G, Saint Petersburg, FL 100 to 180
-Round 2: Lost to Christian Chapel, Tulsa, OK 110 to 130
-Round 3: Lost to New Life Community Church, Oshkosh, WI 115 to 120
-Round 4: Won against First A/G, Lexington, KY 130 to 45
-Round 5: Lost to First A/G, Montgomery, AL 130 to 150
-Round 6: Lost to James River A/G, "One in Christ", Ozark, MO 40 to 175
-Round 7: Lost to Cedar Park A/G, Bothell, WA -15 to 205
-Round 8: Won against Turning Point Christian Center, Vancouver, WA 135 to 115
-Round 9: Won against Journey Church, Bridgeville, PA 160 to 60
+  * Round 1: Lost to Suncoast Cathedral A/G, Saint Petersburg, FL 100 to 180
+  * Round 2: Lost to Christian Chapel, Tulsa, OK 110 to 130
+  * Round 3: Lost to New Life Community Church, Oshkosh, WI 115 to 120
+  * Round 4: Won against First A/G, Lexington, KY 130 to 45
+  * Round 5: Lost to First A/G, Montgomery, AL 130 to 150
+  * Round 6: Lost to James River A/G, "One in Christ", Ozark, MO 40 to 175
+  * Round 7: Lost to Cedar Park A/G, Bothell, WA -15 to 205
+  * Round 8: Won against Turning Point Christian Center, Vancouver, WA 135 to 115
+  * Round 9: Won against Journey Church, Bridgeville, PA 160 to 60
 * **Round Robin**:
-Round 1: Lost to Calvary A/G, South Bend, IN 65 to 190
-Round 2: Won against Meridian A/G, Meridian, ID 135 to 115
-Round 3: Lost to Noble A/G, Noble, OK 60 to 120
-Round 4: Lost to Nyssa Christian Fellowship, Nyssa, OR 75 to 140
-Round 5: Won against Suncoast Cathedral A/G, St. Petersburg, FL 165 to 60
-Round 6: Won against New Life Community Church, Oshkosh, WI 135 to 40
-Round 7: Won against Corydon A/G, Corydon, IA 120 to 80
-Round 8: Lost to Calvary A/G, Dunwoody, GA 50 to 240
-Round 9: Lost to Orange Hills A/G, Orange, CA 45 to 210
-Round 10: Won against First A/G, Montgomery, AL 165 to 80
-Round 11: Lost to First A/G, Lafayette, IN 120 to 135
-Round 12: Won against Harvest Time A/G, Brunswick, OH 150 to 135
-Round 13: Won against Timberline Church, Fort Collins, CO 240 to 5
-Round 14: Won against Central A/G, Springfield, MO 175 to 35
-Round 15: Won against Victorious Life Church, Wesley Chapel, FL 95 to 65
-Round 16: Won against Turning Point Christian Center, Vancouver, WA 175 to 70
-Round 17: Won against Truth A/G, Chariton, IA 175 to -15
-Round 18: Won against James River A/G, "In Chains", Ozark, MO 190 to 15
-Round 19: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 120 to 85
+  * Round 1: Lost to Calvary A/G, South Bend, IN 65 to 190
+  * Round 2: Won against Meridian A/G, Meridian, ID 135 to 115
+  * Round 3: Lost to Noble A/G, Noble, OK 60 to 120
+  * Round 4: Lost to Nyssa Christian Fellowship, Nyssa, OR 75 to 140
+  * Round 5: Won against Suncoast Cathedral A/G, St. Petersburg, FL 165 to 60
+  * Round 6: Won against New Life Community Church, Oshkosh, WI 135 to 40
+  * Round 7: Won against Corydon A/G, Corydon, IA 120 to 80
+  * Round 8: Lost to Calvary A/G, Dunwoody, GA 50 to 240
+  * Round 9: Lost to Orange Hills A/G, Orange, CA 45 to 210
+  * Round 10: Won against First A/G, Montgomery, AL 165 to 80
+  * Round 11: Lost to First A/G, Lafayette, IN 120 to 135
+  * Round 12: Won against Harvest Time A/G, Brunswick, OH 150 to 135
+  * Round 13: Won against Timberline Church, Fort Collins, CO 240 to 5
+  * Round 14: Won against Central A/G, Springfield, MO 175 to 35
+  * Round 15: Won against Victorious Life Church, Wesley Chapel, FL 95 to 65
+  * Round 16: Won against Turning Point Christian Center, Vancouver, WA 175 to 70
+  * Round 17: Won against Truth A/G, Chariton, IA 175 to -15
+  * Round 18: Won against James River A/G, "In Chains", Ozark, MO 190 to 15
+  * Round 19: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 120 to 85
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Grace A/G, Syracuse, NY" html=image_html %}
@@ -1231,41 +1250,42 @@ Round 19: Won against The Church at Briargate, "Children of the Desolate Woman",
 
 #### 5th Place
 
-Church:	Journey Church, Bridgeville, PA
-Coaches:	David Warnock, Nora Warnock (assistant), Nancy Sikes (assistant)
-Team:	Jessica Sikes
-Grant Warnock
-Shane Warnock
+* **Church**: Journey Church, Bridgeville, PA
+* **Coaches**: David Warnock, Nora Warnock (assistant), Nancy Sikes (assistant)
+* **Team:**
+   * Jessica Sikes
+   * Grant Warnock
+   * Shane Warnock
 * **Preliminaries**:
-Round 1: Won against Turning Point Christian Center, Vancouver, WA 190 to 100
-Round 2: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 175 to 50
-Round 3: Lost to First A/G, Lexington, KY 165 to 190
-Round 4: Lost to James River A/G, "One in Christ", Ozark, MO 70 to 205
-Round 5: Won against New Life Community Church, Oshkosh, WI 170 to 140
-Round 6: Won against Christian Chapel, Tulsa, OK 115 to 100
-Round 7: Won against First A/G, Montgomery, AL 165 to 130
-Round 8: Lost to Cedar Park A/G, Bothell, WA 45 to 310
-Round 9: Lost to Grace A/G, Syracuse, NY 60 to 160
+  * Round 1: Won against Turning Point Christian Center, Vancouver, WA 190 to 100
+  * Round 2: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 175 to 50
+  * Round 3: Lost to First A/G, Lexington, KY 165 to 190
+  * Round 4: Lost to James River A/G, "One in Christ", Ozark, MO 70 to 205
+  * Round 5: Won against New Life Community Church, Oshkosh, WI 170 to 140
+  * Round 6: Won against Christian Chapel, Tulsa, OK 115 to 100
+  * Round 7: Won against First A/G, Montgomery, AL 165 to 130
+  * Round 8: Lost to Cedar Park A/G, Bothell, WA 45 to 310
+  * Round 9: Lost to Grace A/G, Syracuse, NY 60 to 160
 * **Round Robin**:
-Round 1: Lost to James River A/G, "One in Christ", Ozark, MO 35 to 325
-Round 2: Lost to Journey Fellowship Church, Slidell, LA 45 to 145
-Round 3: Won against Faith A/G, West Plains, MO 145 to 30
-Round 4: Won against Dayspring A/G, Bowling Green, OH 145 to 90
-Round 5: Lost to Owasso First A/G, Owasso, OK 135 to 260
-Round 6: Won against First A/G, Lexington, KY 165 to 80
-Round 7: Lost to Faith A/G, Orlando, FL 115 to 215
-Round 8: Lost to Christian Chapel, Tulsa, OK 150 to 165
-Round 9: Lost to Manassas A/G, Bristow, VA 135 to 235
-Round 10: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 130 to 145
-Round 11: Won against Tacoma Life Center, Tacoma, WA 205 to 105
-Round 12: Lost to CrossPoint A/G, Portage, WI 130 to 160
-Round 13: Won against First A/G, Binghamton, NY 165 to 135
-Round 14: Lost to Cedar Park A/G, Bothell, WA 130 to 200
-Round 15: Lost to Christian Temple, Houston, TX 110 to 115
-Round 16: Lost to Orange County Worship Center, Santa Ana, CA 145 to 170
-Round 17: Lost to Braeswood A/G, Houston, TX 130 to 195
-Round 18: Won against Northridge A/G, Grand Island, NE 200 to 80
-Round 19: Lost to Praise A/G, Garfield, NJ 140 to 150
+  * Round 1: Lost to James River A/G, "One in Christ", Ozark, MO 35 to 325
+  * Round 2: Lost to Journey Fellowship Church, Slidell, LA 45 to 145
+  * Round 3: Won against Faith A/G, West Plains, MO 145 to 30
+  * Round 4: Won against Dayspring A/G, Bowling Green, OH 145 to 90
+  * Round 5: Lost to Owasso First A/G, Owasso, OK 135 to 260
+  * Round 6: Won against First A/G, Lexington, KY 165 to 80
+  * Round 7: Lost to Faith A/G, Orlando, FL 115 to 215
+  * Round 8: Lost to Christian Chapel, Tulsa, OK 150 to 165
+  * Round 9: Lost to Manassas A/G, Bristow, VA 135 to 235
+  * Round 10: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 130 to 145
+  * Round 11: Won against Tacoma Life Center, Tacoma, WA 205 to 105
+  * Round 12: Lost to CrossPoint A/G, Portage, WI 130 to 160
+  * Round 13: Won against First A/G, Binghamton, NY 165 to 135
+  * Round 14: Lost to Cedar Park A/G, Bothell, WA 130 to 200
+  * Round 15: Lost to Christian Temple, Houston, TX 110 to 115
+  * Round 16: Lost to Orange County Worship Center, Santa Ana, CA 145 to 170
+  * Round 17: Lost to Braeswood A/G, Houston, TX 130 to 195
+  * Round 18: Won against Northridge A/G, Grand Island, NE 200 to 80
+  * Round 19: Lost to Praise A/G, Garfield, NJ 140 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Journey Church, Bridgeville, PA" html=image_html %}
@@ -1280,42 +1300,43 @@ Round 19: Lost to Praise A/G, Garfield, NJ 140 to 150
 
 #### 1st Place
 
-Church:	Tacoma Life Center, Tacoma, WA
-Coaches:	Rich Nelson, Rachel Dawson (assistant), Kathy Holley (assistant)
-Team:	Rachel Holley
-Mikayla Irle
-JP O'Connor
+* **Church**: Tacoma Life Center, Tacoma, WA
+* **Coaches**: Rich Nelson, Rachel Dawson (assistant), Kathy Holley (assistant)
+* **Team:**
+   * Rachel Holley
+   * Mikayla Irle
+   * JP O'Connor
 * **Preliminaries**:
-Round 1: Lost to Faith A/G, Orlando, FL 150 to 195
-Round 2: Lost to First A/G, Binghamton, NY 130 to 160
-Round 3: Lost to First A/G, Lafayette, IN 105 to 185
-Round 4: Won against Calvary A/G, South Bend, IN 200 to 105
-Round 5: Won against Braeswood A/G, Houston, TX 240 to 55
-Round 6: Won against Orange Hills A/G, Orange, CA 190 to 50
-Round 7: Won against Noble A/G, Noble, OK 160 to 65
-Round 8: Won against Truth A/G, Chariton, IA 300 to 15
-Round 9: Lost to Faith A/G, West Plains, MO 65 to 135
-Playoff Round 1: Won against Orange Hills A/G, Orange, CA
+  * Round 1: Lost to Faith A/G, Orlando, FL 150 to 195
+  * Round 2: Lost to First A/G, Binghamton, NY 130 to 160
+  * Round 3: Lost to First A/G, Lafayette, IN 105 to 185
+  * Round 4: Won against Calvary A/G, South Bend, IN 200 to 105
+  * Round 5: Won against Braeswood A/G, Houston, TX 240 to 55
+  * Round 6: Won against Orange Hills A/G, Orange, CA 190 to 50
+  * Round 7: Won against Noble A/G, Noble, OK 160 to 65
+  * Round 8: Won against Truth A/G, Chariton, IA 300 to 15
+  * Round 9: Lost to Faith A/G, West Plains, MO 65 to 135
+  * Playoff Round 1: Won against Orange Hills A/G, Orange, CA
 * **Round Robin**:
-Round 1: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 95 to 205
-Round 2: Lost to CrossPoint A/G, Portage, WI 90 to 110
-Round 3: Lost to Cedar Park A/G, Bothell, WA 50 to 305
-Round 4: Lost to Orange County Worship Center, Santa Ana, CA 70 to 235
-Round 5: Won against Northridge A/G, Grand Island, NE 150 to 65
-Round 6: Lost to James River A/G, "One in Christ", Ozark, MO 5 to 265
-Round 7: Lost to Faith A/G, West Plains, MO 115 to 210
-Round 8: Lost to Owasso First A/G, Owasso, OK 145 to 190
-Round 9: Won against Faith A/G, Orlando, FL 160 to 140
-Round 10: Won against Manassas A/G, Bristow, VA 190 to 85
-Round 11: Lost to Journey Church, Bridgeville, PA 105 to 205
-Round 12: Lost to First A/G, Binghamton, NY 90 to 235
-Round 13: Won against Christian Temple, Houston, TX 220 to 40
-Round 14: Lost to Braeswood A/G, Houston, TX 20 to 210
-Round 15: Won against Praise A/G, Garfield, NJ 155 to 150
-Round 16: Lost to Journey Fellowship Church, Slidell, LA 110 to 170
-Round 17: Won against Dayspring A/G, Bowling Green, OH 250 to 90
-Round 18: Won against First A/G, Lexington, KY 250 to 55
-Round 19: Lost to Christian Chapel, Tulsa, OK 110 to 150
+  * Round 1: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 95 to 205
+  * Round 2: Lost to CrossPoint A/G, Portage, WI 90 to 110
+  * Round 3: Lost to Cedar Park A/G, Bothell, WA 50 to 305
+  * Round 4: Lost to Orange County Worship Center, Santa Ana, CA 70 to 235
+  * Round 5: Won against Northridge A/G, Grand Island, NE 150 to 65
+  * Round 6: Lost to James River A/G, "One in Christ", Ozark, MO 5 to 265
+  * Round 7: Lost to Faith A/G, West Plains, MO 115 to 210
+  * Round 8: Lost to Owasso First A/G, Owasso, OK 145 to 190
+  * Round 9: Won against Faith A/G, Orlando, FL 160 to 140
+  * Round 10: Won against Manassas A/G, Bristow, VA 190 to 85
+  * Round 11: Lost to Journey Church, Bridgeville, PA 105 to 205
+  * Round 12: Lost to First A/G, Binghamton, NY 90 to 235
+  * Round 13: Won against Christian Temple, Houston, TX 220 to 40
+  * Round 14: Lost to Braeswood A/G, Houston, TX 20 to 210
+  * Round 15: Won against Praise A/G, Garfield, NJ 155 to 150
+  * Round 16: Lost to Journey Fellowship Church, Slidell, LA 110 to 170
+  * Round 17: Won against Dayspring A/G, Bowling Green, OH 250 to 90
+  * Round 18: Won against First A/G, Lexington, KY 250 to 55
+  * Round 19: Lost to Christian Chapel, Tulsa, OK 110 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Tacoma Life Center, Tacoma, WA" html=image_html %}
@@ -1328,42 +1349,43 @@ Round 19: Lost to Christian Chapel, Tulsa, OK 110 to 150
 
 #### 2nd Place
 
-Church:	Cedar Park A/G, Bothell, WA
-Coaches:	Kari Brodin, Kristi Brodin (assistant), Hillary Kunnanz (assistant)
-Team:	Brandon Duffy
-Jenna-Jo Duffy
-Heather Karnes
-Nathan Mori
+* **Church**: Cedar Park A/G, Bothell, WA
+* **Coaches**: Kari Brodin, Kristi Brodin (assistant), Hillary Kunnanz (assistant)
+* **Team:**
+   * Brandon Duffy
+   * Jenna-Jo Duffy
+   * Heather Karnes
+   * Nathan Mori
 * **Preliminaries**:
-Round 1: Lost to First A/G, Lexington, KY 130 to 195
-Round 2: Won against New Life Community Church, Oshkosh, WI 430 to -60
-Round 3: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 235 to 95
-Round 4: Won against Christian Chapel, Tulsa, OK 275 to 25
-Round 5: Won against Turning Point Christian Center, Vancouver, WA 215 to 135
-Round 6: Won against First A/G, Montgomery, AL 315 to 20
-Round 7: Won against Grace A/G, Syracuse, NY 205 to -15
-Round 8: Won against Journey Church, Bridgeville, PA 310 to 45
-Round 9: Won against James River A/G, "One in Christ", Ozark, MO 235 to 140
+  * Round 1: Lost to First A/G, Lexington, KY 130 to 195
+  * Round 2: Won against New Life Community Church, Oshkosh, WI 430 to -60
+  * Round 3: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 235 to 95
+  * Round 4: Won against Christian Chapel, Tulsa, OK 275 to 25
+  * Round 5: Won against Turning Point Christian Center, Vancouver, WA 215 to 135
+  * Round 6: Won against First A/G, Montgomery, AL 315 to 20
+  * Round 7: Won against Grace A/G, Syracuse, NY 205 to -15
+  * Round 8: Won against Journey Church, Bridgeville, PA 310 to 45
+  * Round 9: Won against James River A/G, "One in Christ", Ozark, MO 235 to 140
 * **Round Robin**:
-Round 1: Lost to Faith A/G, Orlando, FL 160 to 165
-Round 2: Won against Manassas A/G, Bristow, VA 220 to 70
-Round 3: Won against Tacoma Life Center, Tacoma, WA 305 to 50
-Round 4: Won against First A/G, Binghamton, NY 205 to 150
-Round 5: Won against Christian Temple, Houston, TX 295 to 35
-Round 6: Won against Braeswood A/G, Houston, TX 230 to 95
-Round 7: Won against Praise A/G, Garfield, NJ 180 to 150
-Round 8: Won against Journey Fellowship Church, Slidell, LA 290 to 20
-Round 9: Won against Dayspring A/G, Bowling Green, OH 140 to 120
-Round 10: Won against First A/G, Lexington, KY 195 to 100
-Round 11: Won against Christian Chapel, Tulsa, OK 205 to 105
-Round 12: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 260 to 30
-Round 13: Lost to CrossPoint A/G, Portage, WI 160 to 165
-Round 14: Won against Journey Church, Bridgeville, PA 200 to 130
-Round 15: Won against Orange County Worship Center, Santa Ana, CA 210 to 55
-Round 16: Won against Northridge A/G, Grand Island, NE 210 to 120
-Round 17: Won against James River A/G, "One in Christ", Ozark, MO 240 to 95
-Round 18: Won against Faith A/G, West Plains, MO 255 to 65
-Round 19: Lost to Owasso First A/G, Owasso, OK 170 to 180
+  * Round 1: Lost to Faith A/G, Orlando, FL 160 to 165
+  * Round 2: Won against Manassas A/G, Bristow, VA 220 to 70
+  * Round 3: Won against Tacoma Life Center, Tacoma, WA 305 to 50
+  * Round 4: Won against First A/G, Binghamton, NY 205 to 150
+  * Round 5: Won against Christian Temple, Houston, TX 295 to 35
+  * Round 6: Won against Braeswood A/G, Houston, TX 230 to 95
+  * Round 7: Won against Praise A/G, Garfield, NJ 180 to 150
+  * Round 8: Won against Journey Fellowship Church, Slidell, LA 290 to 20
+  * Round 9: Won against Dayspring A/G, Bowling Green, OH 140 to 120
+  * Round 10: Won against First A/G, Lexington, KY 195 to 100
+  * Round 11: Won against Christian Chapel, Tulsa, OK 205 to 105
+  * Round 12: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 260 to 30
+  * Round 13: Lost to CrossPoint A/G, Portage, WI 160 to 165
+  * Round 14: Won against Journey Church, Bridgeville, PA 200 to 130
+  * Round 15: Won against Orange County Worship Center, Santa Ana, CA 210 to 55
+  * Round 16: Won against Northridge A/G, Grand Island, NE 210 to 120
+  * Round 17: Won against James River A/G, "One in Christ", Ozark, MO 240 to 95
+  * Round 18: Won against Faith A/G, West Plains, MO 255 to 65
+  * Round 19: Lost to Owasso First A/G, Owasso, OK 170 to 180
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Cedar Park A/G, Bothell, WA" html=image_html %}
@@ -1376,41 +1398,42 @@ Round 19: Lost to Owasso First A/G, Owasso, OK 170 to 180
 
 #### 3rd Place
 
-Church:	Nyssa Christian Fellowship, Nyssa, OR
-Coaches:	Dale Larson, Jeep Larson (assistant)
-Team:	Angie Larsen
-Melissa Larsen
-Darren Larsen
+* **Church**: Nyssa Christian Fellowship, Nyssa, OR
+* **Coaches**: Dale Larson, Jeep Larson (assistant)
+* **Team:**
+   * Angie Larsen
+   * Melissa Larsen
+   * Darren Larsen
 * **Preliminaries**:
-Round 1: Lost to Praise A/G, Garfield, NJ 95 to 140
-Round 2: Lost to Corydon A/G, Corydon, IA 125 to 150
-Round 3: Lost to Manassas A/G, Bristow, VA 60 to 150
-Round 4: Lost to Journey Fellowship Church, Slidell, LA 80 to 120
-Round 5: Lost to Christian Temple, Houston, TX 100 to 135
-Round 6: Won against Victorious Life Church, Wesley Chapel, FL 225 to 15
-Round 7: Lost to James River A/G, "In Chains", Ozark, MO 65 to 165
-Round 8: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 30 to 260
-Round 9: Won against Timberline Church, Fort Collins, CO 140 to 35
+  * Round 1: Lost to Praise A/G, Garfield, NJ 95 to 140
+  * Round 2: Lost to Corydon A/G, Corydon, IA 125 to 150
+  * Round 3: Lost to Manassas A/G, Bristow, VA 60 to 150
+  * Round 4: Lost to Journey Fellowship Church, Slidell, LA 80 to 120
+  * Round 5: Lost to Christian Temple, Houston, TX 100 to 135
+  * Round 6: Won against Victorious Life Church, Wesley Chapel, FL 225 to 15
+  * Round 7: Lost to James River A/G, "In Chains", Ozark, MO 65 to 165
+  * Round 8: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 30 to 260
+  * Round 9: Won against Timberline Church, Fort Collins, CO 140 to 35
 * **Round Robin**:
-Round 1: Lost to Orange Hills A/G, Orange, CA 130 to 135
-Round 2: Won against First A/G, Montgomery, AL 150 to 100
-Round 3: Won against First A/G, Lafayette, IN 140 to 40
-Round 4: Won against Grace A/G, Syracuse, NY 140 to 75
-Round 5: Won against Timberline Church, Fort Collins, CO 100 to 30
-Round 6: Lost to Central A/G, Springfield, MO 85 to 115
-Round 7: Won against Victorious Life Church, Wesley Chapel, FL 200 to 55
-Round 8: Lost to Turning Point Christian Center, Vancouver, WA 40 to 95
-Round 9: Won against Truth A/G, Chariton, IA 190 to 80
-Round 10: Lost to James River A/G, "In Chains", Ozark, MO 55 to 95
-Round 11: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 75 to 95
-Round 12: Lost to Calvary A/G, South Bend, IN 95 to 115
-Round 13: Won against Meridian A/G, Meridian, ID 155 to 40
-Round 14: Won against Noble A/G, Noble, OK 105 to 85
-Round 15: Won against Harvest Time A/G, Brunswick, OH 105 to 100
-Round 16: Won against Suncoast Cathedral A/G, St. Petersburg, FL 165 to -10
-Round 17: Lost to New Life Community Church, Oshkosh, WI 75 to 125
-Round 18: Won against Corydon A/G, Corydon, IA 140 to 105
-Round 19: Lost to Calvary A/G, Dunwoody, GA 30 to 165
+  * Round 1: Lost to Orange Hills A/G, Orange, CA 130 to 135
+  * Round 2: Won against First A/G, Montgomery, AL 150 to 100
+  * Round 3: Won against First A/G, Lafayette, IN 140 to 40
+  * Round 4: Won against Grace A/G, Syracuse, NY 140 to 75
+  * Round 5: Won against Timberline Church, Fort Collins, CO 100 to 30
+  * Round 6: Lost to Central A/G, Springfield, MO 85 to 115
+  * Round 7: Won against Victorious Life Church, Wesley Chapel, FL 200 to 55
+  * Round 8: Lost to Turning Point Christian Center, Vancouver, WA 40 to 95
+  * Round 9: Won against Truth A/G, Chariton, IA 190 to 80
+  * Round 10: Lost to James River A/G, "In Chains", Ozark, MO 55 to 95
+  * Round 11: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 75 to 95
+  * Round 12: Lost to Calvary A/G, South Bend, IN 95 to 115
+  * Round 13: Won against Meridian A/G, Meridian, ID 155 to 40
+  * Round 14: Won against Noble A/G, Noble, OK 105 to 85
+  * Round 15: Won against Harvest Time A/G, Brunswick, OH 105 to 100
+  * Round 16: Won against Suncoast Cathedral A/G, St. Petersburg, FL 165 to -10
+  * Round 17: Lost to New Life Community Church, Oshkosh, WI 75 to 125
+  * Round 18: Won against Corydon A/G, Corydon, IA 140 to 105
+  * Round 19: Lost to Calvary A/G, Dunwoody, GA 30 to 165
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Nyssa Christian Fellowship, Nyssa, OR" html=image_html %}
@@ -1422,43 +1445,44 @@ Round 19: Lost to Calvary A/G, Dunwoody, GA 30 to 165
 
 #### 4th Place
 
-Church:	Meridian A/G, Meridian, ID
-Coaches:	Bryce Jensen, Vicky Jensen (assistant)
-Team:	Ashley Carter
-Ivy Jensen
-Link Patrick
+* **Church**: Meridian A/G, Meridian, ID
+* **Coaches**: Bryce Jensen, Vicky Jensen (assistant)
+* **Team:**
+   * Ashley Carter
+   * Ivy Jensen
+   * Link Patrick
 * **Preliminaries**:
-Round 1: Won against Central A/G, Springfield, MO 135 to 130
-Round 2: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 105 to 90
-Round 3: Lost to Calvary A/G, Dunwoody, GA 145 to 210
-Round 4: Lost to Orange County Worship Center, Santa Ana, CA 55 to 170
-Round 5: Lost to Owasso First A/G, Owasso, OK 25 to 240
-Round 6: Lost to Norhtridge A/G, Grand Island, NE 20 to 195
-Round 7: Won against Harvest Time A/G, Brunswick, OH 45 to 40
-Round 8: Lost to CrossPoint A/G, Portage, WI 35 to 220
-Round 9: Lost to Dayspring A/G, Bowling Green, OH 130 to 135
-Playoff Round 1: Won against Central A/G, Springfield, MO
-Playoff Round 2: Lost to Dayspring A/G, Bowling Green, OH
+  * Round 1: Won against Central A/G, Springfield, MO 135 to 130
+  * Round 2: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 105 to 90
+  * Round 3: Lost to Calvary A/G, Dunwoody, GA 145 to 210
+  * Round 4: Lost to Orange County Worship Center, Santa Ana, CA 55 to 170
+  * Round 5: Lost to Owasso First A/G, Owasso, OK 25 to 240
+  * Round 6: Lost to Norhtridge A/G, Grand Island, NE 20 to 195
+  * Round 7: Won against Harvest Time A/G, Brunswick, OH 45 to 40
+  * Round 8: Lost to CrossPoint A/G, Portage, WI 35 to 220
+  * Round 9: Lost to Dayspring A/G, Bowling Green, OH 130 to 135
+  * Playoff Round 1: Won against Central A/G, Springfield, MO
+  * Playoff Round 2: Lost to Dayspring A/G, Bowling Green, OH
 * **Round Robin**:
-Round 1: Lost to First A/G, Lafayette, IN 50 to 195
-Round 2: Lost to Grace A/G, Syracuse, NY 115 to 135
-Round 3: Won against Timberline Church, Fort Collins, CO 100 to 15
-Round 4: Won against Central A/G, Springfield, MO 135 to 40
-Round 5: Won against Victorious Life Church, Wesley Chapel, FL 110 to 70
-Round 6: Won against Turning Point Christian Center, Vancouver, WA 125 to 25
-Round 7: Won against Truth A/G, Chariton, IA 100 to 90
-Round 8: Lost to James River A/G, "In Chains", Ozark, MO 35 to 230
-Round 9: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 20 to 225
-Round 10: Lost to Calvary A/G, South Bend, IN 60 to 195
-Round 11: Lost to Harvest Time A/G, Brunswick, OH 110 to 120
-Round 12: Won against Noble A/G, Noble, OK 185 to 100
-Round 13: Lost to Nyssa Christian Fellowship, Nyssa, OR 40 to 155
-Round 14: Won against Suncoast Cathedral A/G, St. Petersburg, FL 185 to 20
-Round 15: Lost to New Life Community Church, Oshkosh, WI 85 to 110
-Round 16: Lost to Corydon A/G, Corydon, IA 145 to 155
-Round 17: Lost to Calvary A/G, Dunwoody, GA 30 to 235
-Round 18: Won against Orange Hills A/G, Orange, CA 170 to 5
-Round 19: Lost to First A/G, Montgomery, AL 90 to 100
+  * Round 1: Lost to First A/G, Lafayette, IN 50 to 195
+  * Round 2: Lost to Grace A/G, Syracuse, NY 115 to 135
+  * Round 3: Won against Timberline Church, Fort Collins, CO 100 to 15
+  * Round 4: Won against Central A/G, Springfield, MO 135 to 40
+  * Round 5: Won against Victorious Life Church, Wesley Chapel, FL 110 to 70
+  * Round 6: Won against Turning Point Christian Center, Vancouver, WA 125 to 25
+  * Round 7: Won against Truth A/G, Chariton, IA 100 to 90
+  * Round 8: Lost to James River A/G, "In Chains", Ozark, MO 35 to 230
+  * Round 9: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 20 to 225
+  * Round 10: Lost to Calvary A/G, South Bend, IN 60 to 195
+  * Round 11: Lost to Harvest Time A/G, Brunswick, OH 110 to 120
+  * Round 12: Won against Noble A/G, Noble, OK 185 to 100
+  * Round 13: Lost to Nyssa Christian Fellowship, Nyssa, OR 40 to 155
+  * Round 14: Won against Suncoast Cathedral A/G, St. Petersburg, FL 185 to 20
+  * Round 15: Lost to New Life Community Church, Oshkosh, WI 85 to 110
+  * Round 16: Lost to Corydon A/G, Corydon, IA 145 to 155
+  * Round 17: Lost to Calvary A/G, Dunwoody, GA 30 to 235
+  * Round 18: Won against Orange Hills A/G, Orange, CA 170 to 5
+  * Round 19: Lost to First A/G, Montgomery, AL 90 to 100
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Meridian A/G, Meridian, ID" html=image_html %}
@@ -1470,41 +1494,42 @@ Round 19: Lost to First A/G, Montgomery, AL 90 to 100
 
 #### 5th Place
 
-Church:	Turning Point Christian Center, Vancouver, WA
-Coaches:	Kurt Spicer, Michaela Lenoir (assistant)
-Team:	Ruth Spicer
-Cecily Spicer
-Flynn Spicer
+* **Church**: Turning Point Christian Center, Vancouver, WA
+* **Coaches**: Kurt Spicer, Michaela Lenoir (assistant)
+* **Team:**
+   * Ruth Spicer
+   * Cecily Spicer
+   * Flynn Spicer
 * **Preliminaries**:
-Round 1: Lost to Journey Church, Bridgeville, PA 100 to 190
-Round 2: Lost to James River A/G, "One in Christ", Ozark, MO 45 to 175
-Round 3: Won against First A/G, Montgomery, AL 170 to 100
-Round 4: Lost to New Life Community Church, Oshkosh, WI 75 to 85
-Round 5: Lost to Cedar Park A/G, Bothell, WA 135 to 215
-Round 6: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 175 to 95
-Round 7: Lost to Christian Chapel, Tulsa, OK 10 to 125
-Round 8: Lost to Grace A/G, Syracuse, NY 115 to 135
-Round 9: Lost to First A/G, Lexington, KY 20 to 170
+  * Round 1: Lost to Journey Church, Bridgeville, PA 100 to 190
+  * Round 2: Lost to James River A/G, "One in Christ", Ozark, MO 45 to 175
+  * Round 3: Won against First A/G, Montgomery, AL 170 to 100
+  * Round 4: Lost to New Life Community Church, Oshkosh, WI 75 to 85
+  * Round 5: Lost to Cedar Park A/G, Bothell, WA 135 to 215
+  * Round 6: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 175 to 95
+  * Round 7: Lost to Christian Chapel, Tulsa, OK 10 to 125
+  * Round 8: Lost to Grace A/G, Syracuse, NY 115 to 135
+  * Round 9: Lost to First A/G, Lexington, KY 20 to 170
 * **Round Robin**:
-Round 1: Lost to Harvest Time A/G, Brunswick, OH 65 to 155
-Round 2: Won against Truth A/G, Chariton, IA 185 to 120
-Round 3: Lost to James River A/G, "In Chains", Ozark, MO 85 to 215
-Round 4: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 165 to 85
-Round 5: Lost to Calvary A/G, South Bend, IN 55 to 155
-Round 6: Lost to Meridian A/G, Meridian, ID 25 to 125
-Round 7: Won against Noble A/G, Noble, OK 125 to 45
-Round 8: Won against Nyssa Christian Fellowship, Nyssa, OR 95 to 40
-Round 9: Won against Suncoast Cathedral A/G, St. Petersburg, FL 100 to 95
-Round 10: Lost to New Life Community Church, Oshkosh, WI 25 to 250
-Round 11: Lost to Corydon A/G, Corydon, IA 125 to 150
-Round 12: Won against Calvary A/G, Dunwoody, GA 135 to 120
-Round 13: Lost to Orange Hills A/G, Orange, CA 30 to 175
-Round 14: Lost to First A/G, Montgomery, AL 65 to 90
-Round 15: Lost to First A/G, Lafayette, IN 35 to 165
-Round 16: Lost to Grace A/G, Syracuse, NY 70 to 175
-Round 17: Won against Timberline Church, Fort Collins, CO 190 to 50
-Round 18: Won against Central A/G, Springfield, MO 115 to 85
-Round 19: Lost to Victorious Life Church, Wesley Chapel, FL 100 to 150
+  * Round 1: Lost to Harvest Time A/G, Brunswick, OH 65 to 155
+  * Round 2: Won against Truth A/G, Chariton, IA 185 to 120
+  * Round 3: Lost to James River A/G, "In Chains", Ozark, MO 85 to 215
+  * Round 4: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 165 to 85
+  * Round 5: Lost to Calvary A/G, South Bend, IN 55 to 155
+  * Round 6: Lost to Meridian A/G, Meridian, ID 25 to 125
+  * Round 7: Won against Noble A/G, Noble, OK 125 to 45
+  * Round 8: Won against Nyssa Christian Fellowship, Nyssa, OR 95 to 40
+  * Round 9: Won against Suncoast Cathedral A/G, St. Petersburg, FL 100 to 95
+  * Round 10: Lost to New Life Community Church, Oshkosh, WI 25 to 250
+  * Round 11: Lost to Corydon A/G, Corydon, IA 125 to 150
+  * Round 12: Won against Calvary A/G, Dunwoody, GA 135 to 120
+  * Round 13: Lost to Orange Hills A/G, Orange, CA 30 to 175
+  * Round 14: Lost to First A/G, Montgomery, AL 65 to 90
+  * Round 15: Lost to First A/G, Lafayette, IN 35 to 165
+  * Round 16: Lost to Grace A/G, Syracuse, NY 70 to 175
+  * Round 17: Won against Timberline Church, Fort Collins, CO 190 to 50
+  * Round 18: Won against Central A/G, Springfield, MO 115 to 85
+  * Round 19: Lost to Victorious Life Church, Wesley Chapel, FL 100 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Turning Point Christian Center, Vancouver, WA" html=image_html %}
@@ -1519,42 +1544,43 @@ Round 19: Lost to Victorious Life Church, Wesley Chapel, FL 100 to 150
 
 #### 1st Place
 
-Church:	Owasso First A/G, Owasso, OK
-Coaches:	John Melberg, Kevin Wagner (assistant), Nicole Wagner (assistant)
-Team:	Rachel Firestone
-Daniel Wagner
-Jesse Wagner
-Joshua Wagner
+* **Church**: Owasso First A/G, Owasso, OK
+* **Coaches**: John Melberg, Kevin Wagner (assistant), Nicole Wagner (assistant)
+* **Team:**
+   * Rachel Firestone
+   * Daniel Wagner
+   * Jesse Wagner
+   * Joshua Wagner
 * **Preliminaries**:
-Round 1: Won against Harvest Time A/G, Brunswick, OH 255 to 95
-Round 2: Won against Norhtridge A/G, Grand Island, NE 295 to 35
-Round 3: Won against Dayspring A/G, Bowling Green, OH 240 to 65
-Round 4: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 245 to 45
-Round 5: Won against Meridian A/G, Meridian, ID 240 to 25
-Round 6: Won against Central A/G, Springfield, MO 285 to 10
-Round 7: Won against CrossPoint A/G, Portage, WI 260 to -5
-Round 8: Won against Orange County Worship Center, Santa Ana, CA 255 to 95
-Round 9: Won against Calvary A/G, Dunwoody, GA 300 to 30
+  * Round 1: Won against Harvest Time A/G, Brunswick, OH 255 to 95
+  * Round 2: Won against Norhtridge A/G, Grand Island, NE 295 to 35
+  * Round 3: Won against Dayspring A/G, Bowling Green, OH 240 to 65
+  * Round 4: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 245 to 45
+  * Round 5: Won against Meridian A/G, Meridian, ID 240 to 25
+  * Round 6: Won against Central A/G, Springfield, MO 285 to 10
+  * Round 7: Won against CrossPoint A/G, Portage, WI 260 to -5
+  * Round 8: Won against Orange County Worship Center, Santa Ana, CA 255 to 95
+  * Round 9: Won against Calvary A/G, Dunwoody, GA 300 to 30
 * **Round Robin**:
-Round 1: Won against Orange County Worship Center, Santa Ana, CA 255 to 100
-Round 2: Won against Northridge A/G, Grand Island, NE 250 to 0
-Round 3: Won against James River A/G, "One in Christ", Ozark, MO 280 to 25
-Round 4: Won against Faith A/G, West Plains, MO 135 to 105
-Round 5: Won against Journey Church, Bridgeville, PA 260 to 135
-Round 6: Won against Faith A/G, Orlando, FL 215 to 25
-Round 7: Won against Manassas A/G, Bristow, VA 365 to -15
-Round 8: Won against Tacoma Life Center, Tacoma, WA 190 to 145
-Round 9: Won against First A/G, Binghamton, NY 245 to 45
-Round 10: Won against Christian Temple, Houston, TX 185 to 90
-Round 11: Won against Braeswood A/G, Houston, TX 240 to 125
-Round 12: Won against Praise A/G, Garfield, NJ 175 to 130
-Round 13: Won against Journey Fellowship Church, Slidell, LA 265 to 80
-Round 14: Won against Dayspring A/G, Bowling Green, OH 285 to 5
-Round 15: Won against First A/G, Lexington, KY 255 to 80
-Round 16: Won against Christian Chapel, Tulsa, OK 140 to 125
-Round 17: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 240 to 115
-Round 18: Won against CrossPoint A/G, Portage, WI 230 to 55
-Round 19: Won against Cedar Park A/G, Bothell, WA 180 to 170
+  * Round 1: Won against Orange County Worship Center, Santa Ana, CA 255 to 100
+  * Round 2: Won against Northridge A/G, Grand Island, NE 250 to 0
+  * Round 3: Won against James River A/G, "One in Christ", Ozark, MO 280 to 25
+  * Round 4: Won against Faith A/G, West Plains, MO 135 to 105
+  * Round 5: Won against Journey Church, Bridgeville, PA 260 to 135
+  * Round 6: Won against Faith A/G, Orlando, FL 215 to 25
+  * Round 7: Won against Manassas A/G, Bristow, VA 365 to -15
+  * Round 8: Won against Tacoma Life Center, Tacoma, WA 190 to 145
+  * Round 9: Won against First A/G, Binghamton, NY 245 to 45
+  * Round 10: Won against Christian Temple, Houston, TX 185 to 90
+  * Round 11: Won against Braeswood A/G, Houston, TX 240 to 125
+  * Round 12: Won against Praise A/G, Garfield, NJ 175 to 130
+  * Round 13: Won against Journey Fellowship Church, Slidell, LA 265 to 80
+  * Round 14: Won against Dayspring A/G, Bowling Green, OH 285 to 5
+  * Round 15: Won against First A/G, Lexington, KY 255 to 80
+  * Round 16: Won against Christian Chapel, Tulsa, OK 140 to 125
+  * Round 17: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 240 to 115
+  * Round 18: Won against CrossPoint A/G, Portage, WI 230 to 55
+  * Round 19: Won against Cedar Park A/G, Bothell, WA 180 to 170
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Owasso First A/G, Owasso, OK" html=image_html %}
@@ -1567,44 +1593,45 @@ Round 19: Won against Cedar Park A/G, Bothell, WA 180 to 170
 
 #### 2nd Place
 
-Church:	Christian Temple, Houston, TX
-Coaches:	Mike Forsman, Andrea Forsman (assistant)
-Team:	Adam Forsman
-Andrew Forsman
-Brianna Forsman
-Joshua Forsman
-Josh Pyle
-Sean Pyle
+* **Church**: Christian Temple, Houston, TX
+* **Coaches**: Mike Forsman, Andrea Forsman (assistant)
+* **Team:**
+   * Adam Forsman
+   * Andrew Forsman
+   * Brianna Forsman
+   * Joshua Forsman
+   * Josh Pyle
+   * Sean Pyle
 * **Preliminaries**:
-Round 1: Won against Journey Fellowship Church, Slidell, LA 130 to 80
-Round 2: Lost to Praise A/G, Garfield, NJ 120 to 135
-Round 3: Won against Victorious Life Church, Wesley Chapel, FL 130 to 40
-Round 4: Won against Corydon A/G, Corydon, IA 160 to 110
-Round 5: Won against Nyssa Christian Fellowship, Nyssa, OR 135 to 100
-Round 6: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 55 to 220
-Round 7: Lost to Manassas A/G, Bristow, VA 50 to 195
-Round 8: Won against Timberline Church, Fort Collins, CO 215 to 20
-Round 9: Won against James River A/G, "In Chains", Ozark, MO 150 to 145
+  * Round 1: Won against Journey Fellowship Church, Slidell, LA 130 to 80
+  * Round 2: Lost to Praise A/G, Garfield, NJ 120 to 135
+  * Round 3: Won against Victorious Life Church, Wesley Chapel, FL 130 to 40
+  * Round 4: Won against Corydon A/G, Corydon, IA 160 to 110
+  * Round 5: Won against Nyssa Christian Fellowship, Nyssa, OR 135 to 100
+  * Round 6: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 55 to 220
+  * Round 7: Lost to Manassas A/G, Bristow, VA 50 to 195
+  * Round 8: Won against Timberline Church, Fort Collins, CO 215 to 20
+  * Round 9: Won against James River A/G, "In Chains", Ozark, MO 150 to 145
 * **Round Robin**:
-Round 1: Lost to First A/G, Lexington, KY 110 to 210
-Round 2: Won against Christian Chapel, Tulsa, OK 235 to 10
-Round 3: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 50 to 215
-Round 4: Lost to CrossPoint A/G, Portage, WI 110 to 120
-Round 5: Lost to Cedar Park A/G, Bothell, WA 35 to 295
-Round 6: Lost to Orange County Worship Center, Santa Ana, CA 65 to 75
-Round 7: Won against Northridge A/G, Grand Island, NE 100 to 90
-Round 8: Won against James River A/G, "One in Christ", Ozark, MO 120 to 90
-Round 9: Won against Faith A/G, West Plains, MO 150 to 85
-Round 10: Lost to Owasso First A/G, Owasso, OK 90 to 185
-Round 11: Lost to Faith A/G, Orlando, FL 40 to 225
-Round 12: Lost to Manassas A/G, Bristow, VA 20 to 245
-Round 13: Lost to Tacoma Life Center, Tacoma, WA 40 to 220
-Round 14: Won against First A/G, Binghamton, NY 120 to 95
-Round 15: Won against Journey Church, Bridgeville, PA 115 to 110
-Round 16: Lost to Braeswood A/G, Houston, TX 60 to 170
-Round 17: Won against Praise A/G, Garfield, NJ 245 to 75
-Round 18: Lost to Journey Fellowship Church, Slidell, LA 15 to 180
-Round 19: Won against Dayspring A/G, Bowling Green, OH 80 to 70
+  * Round 1: Lost to First A/G, Lexington, KY 110 to 210
+  * Round 2: Won against Christian Chapel, Tulsa, OK 235 to 10
+  * Round 3: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 50 to 215
+  * Round 4: Lost to CrossPoint A/G, Portage, WI 110 to 120
+  * Round 5: Lost to Cedar Park A/G, Bothell, WA 35 to 295
+  * Round 6: Lost to Orange County Worship Center, Santa Ana, CA 65 to 75
+  * Round 7: Won against Northridge A/G, Grand Island, NE 100 to 90
+  * Round 8: Won against James River A/G, "One in Christ", Ozark, MO 120 to 90
+  * Round 9: Won against Faith A/G, West Plains, MO 150 to 85
+  * Round 10: Lost to Owasso First A/G, Owasso, OK 90 to 185
+  * Round 11: Lost to Faith A/G, Orlando, FL 40 to 225
+  * Round 12: Lost to Manassas A/G, Bristow, VA 20 to 245
+  * Round 13: Lost to Tacoma Life Center, Tacoma, WA 40 to 220
+  * Round 14: Won against First A/G, Binghamton, NY 120 to 95
+  * Round 15: Won against Journey Church, Bridgeville, PA 115 to 110
+  * Round 16: Lost to Braeswood A/G, Houston, TX 60 to 170
+  * Round 17: Won against Praise A/G, Garfield, NJ 245 to 75
+  * Round 18: Lost to Journey Fellowship Church, Slidell, LA 15 to 180
+  * Round 19: Won against Dayspring A/G, Bowling Green, OH 80 to 70
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Christian Temple, Houston, TX" html=image_html %}
@@ -1617,42 +1644,43 @@ Round 19: Won against Dayspring A/G, Bowling Green, OH 80 to 70
 
 #### 3rd Place
 
-Church:	Christian Chapel, Tulsa, OK
-Coaches:	Bryan Turner, Mark Connor (assistant)
-Team:	Alyssa Batchelder
-James Craig
-Michelle Paulson
-Matthew Woods
+* **Church**: Christian Chapel, Tulsa, OK
+* **Coaches**: Bryan Turner, Mark Connor (assistant)
+* **Team:**
+   * Alyssa Batchelder
+   * James Craig
+   * Michelle Paulson
+   * Matthew Woods
 * **Preliminaries**:
-Round 1: Won against First A/G, Montgomery, AL 215 to -25
-Round 2: Won against Grace A/G, Syracuse, NY 130 to 110
-Round 3: Lost to James River A/G, "One in Christ", Ozark, MO 25 to 330
-Round 4: Lost to Cedar Park A/G, Bothell, WA 25 to 275
-Round 5: Lost to First A/G, Lexington, KY 145 to 190
-Round 6: Lost to Journey Church, Bridgeville, PA 100 to 115
-Round 7: Won against Turning Point Christian Center, Vancouver, WA 125 to 10
-Round 8: Won against New Life Community Church, Oshkosh, WI 170 to 70
-Round 9: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 210 to -10
+  * Round 1: Won against First A/G, Montgomery, AL 215 to -25
+  * Round 2: Won against Grace A/G, Syracuse, NY 130 to 110
+  * Round 3: Lost to James River A/G, "One in Christ", Ozark, MO 25 to 330
+  * Round 4: Lost to Cedar Park A/G, Bothell, WA 25 to 275
+  * Round 5: Lost to First A/G, Lexington, KY 145 to 190
+  * Round 6: Lost to Journey Church, Bridgeville, PA 100 to 115
+  * Round 7: Won against Turning Point Christian Center, Vancouver, WA 125 to 10
+  * Round 8: Won against New Life Community Church, Oshkosh, WI 170 to 70
+  * Round 9: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 210 to -10
 * **Round Robin**:
-Round 1: Lost to First A/G, Binghamton, NY 50 to 225
-Round 2: Lost to Christian Temple, Houston, TX 10 to 235
-Round 3: Lost to Braeswood A/G, Houston, TX 70 to 120
-Round 4: Lost to Praise A/G, Garfield, NJ 65 to 90
-Round 5: Lost to Journey Fellowship Church, Slidell, LA 85 to 130
-Round 6: Lost to Dayspring A/G, Bowling Green, OH 80 to 95
-Round 7: Won against First A/G, Lexington, KY 140 to 105
-Round 8: Won against Journey Church, Bridgeville, PA 165 to 150
-Round 9: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 190 to 90
-Round 10: Lost to CrossPoint A/G, Portage, WI 30 to 190
-Round 11: Lost to Cedar Park A/G, Bothell, WA 105 to 205
-Round 12: Lost to Orange County Worship Center, Santa Ana, CA 125 to 150
-Round 13: Lost to Northridge A/G, Grand Island, NE 80 to 115
-Round 14: Lost to James River A/G, "One in Christ", Ozark, MO 50 to 170
-Round 15: Lost to Faith A/G, West Plains, MO 70 to 130
-Round 16: Lost to Owasso First A/G, Owasso, OK 125 to 140
-Round 17: Won against Faith A/G, Orlando, FL 185 to 145
-Round 18: Won against Manassas A/G, Bristow, VA 185 to 45
-Round 19: Won against Tacoma Life Center, Tacoma, WA 150 to 110
+  * Round 1: Lost to First A/G, Binghamton, NY 50 to 225
+  * Round 2: Lost to Christian Temple, Houston, TX 10 to 235
+  * Round 3: Lost to Braeswood A/G, Houston, TX 70 to 120
+  * Round 4: Lost to Praise A/G, Garfield, NJ 65 to 90
+  * Round 5: Lost to Journey Fellowship Church, Slidell, LA 85 to 130
+  * Round 6: Lost to Dayspring A/G, Bowling Green, OH 80 to 95
+  * Round 7: Won against First A/G, Lexington, KY 140 to 105
+  * Round 8: Won against Journey Church, Bridgeville, PA 165 to 150
+  * Round 9: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 190 to 90
+  * Round 10: Lost to CrossPoint A/G, Portage, WI 30 to 190
+  * Round 11: Lost to Cedar Park A/G, Bothell, WA 105 to 205
+  * Round 12: Lost to Orange County Worship Center, Santa Ana, CA 125 to 150
+  * Round 13: Lost to Northridge A/G, Grand Island, NE 80 to 115
+  * Round 14: Lost to James River A/G, "One in Christ", Ozark, MO 50 to 170
+  * Round 15: Lost to Faith A/G, West Plains, MO 70 to 130
+  * Round 16: Lost to Owasso First A/G, Owasso, OK 125 to 140
+  * Round 17: Won against Faith A/G, Orlando, FL 185 to 145
+  * Round 18: Won against Manassas A/G, Bristow, VA 185 to 45
+  * Round 19: Won against Tacoma Life Center, Tacoma, WA 150 to 110
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Christian Chapel, Tulsa, OK" html=image_html %}
@@ -1664,40 +1692,41 @@ Round 19: Won against Tacoma Life Center, Tacoma, WA 150 to 110
 
 #### 4th Place
 
-Church:	Noble A/G, Noble, OK
-Coaches:	Cheri Smith, Ice Stickland (assistant), Megan Gates (assistant)
-Team:	Anthony Davis
-Mallorie Ramsey
-Cameron Smith
+* **Church**: Noble A/G, Noble, OK
+* **Coaches**: Cheri Smith, Ice Stickland (assistant), Megan Gates (assistant)
+* **Team:**
+   * Anthony Davis
+   * Mallorie Ramsey
+   * Cameron Smith
 * **Preliminaries**:
-Round 1: Won against First A/G, Lafayette, IN 160 to 65
-Round 2: Lost to Braeswood A/G, Houston, TX 30 to 160
-Round 3: Lost to First A/G, Binghamton, NY 135 to 215
-Round 4: Lost to Faith A/G, West Plains, MO 105 to 115
-Round 5: Lost to Faith A/G, Orlando, FL 125 to 165
-Round 6: Won against Calvary A/G, South Bend, IN 140 to 120
-Round 7: Lost to Tacoma Life Center, Tacoma, WA 65 to 160
-Round 8: Lost to Orange Hills A/G, Orange, CA 110 to 125
-Round 9: Won against Truth A/G, Chariton, IA 100 to 30
+  * Round 1: Won against First A/G, Lafayette, IN 160 to 65
+  * Round 2: Lost to Braeswood A/G, Houston, TX 30 to 160
+  * Round 3: Lost to First A/G, Binghamton, NY 135 to 215
+  * Round 4: Lost to Faith A/G, West Plains, MO 105 to 115
+  * Round 5: Lost to Faith A/G, Orlando, FL 125 to 165
+  * Round 6: Won against Calvary A/G, South Bend, IN 140 to 120
+  * Round 7: Lost to Tacoma Life Center, Tacoma, WA 65 to 160
+  * Round 8: Lost to Orange Hills A/G, Orange, CA 110 to 125
+  * Round 9: Won against Truth A/G, Chariton, IA 100 to 30
 * **Round Robin**:
-Round 2: Lost to First A/G, Lafayette, IN 15 to 225
-Round 3: Won against Grace A/G, Syracuse, NY 120 to 60
-Round 4: Won against Timberline Church, Fort Collins, CO 230 to 10
-Round 5: Lost to Central A/G, Springfield, MO 60 to 110
-Round 6: Won against Victorious Life Church, Wesley Chapel, FL 190 to 50
-Round 7: Lost to Turning Point Christian Center, Vancouver, WA 45 to 125
-Round 8: Won against Truth A/G, Chariton, IA 70 to 20
-Round 9: Lost to James River A/G, "In Chains", Ozark, MO 70 to 190
-Round 10: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 155 to 55
-Round 11: Lost to Calvary A/G, South Bend, IN 55 to 195
-Round 12: Lost to Meridian A/G, Meridian, ID 100 to 185
-Round 13: Lost to Harvest Time A/G, Brunswick, OH 115 to 160
-Round 14: Lost to Nyssa Christian Fellowship, Nyssa, OR 85 to 105
-Round 15: Won against Suncoast Cathedral A/G, St. Petersburg, FL 200 to 25
-Round 16: Won against New Life Community Church, Oshkosh, WI 180 to 100
-Round 17: Won against Corydon A/G, Corydon, IA 170 to 105
-Round 18: Won against Calvary A/G, Dunwoody, GA 150 to 90
-Round 19: Won against Orange Hills A/G, Orange, CA 160 to 130
+  * Round 2: Lost to First A/G, Lafayette, IN 15 to 225
+  * Round 3: Won against Grace A/G, Syracuse, NY 120 to 60
+  * Round 4: Won against Timberline Church, Fort Collins, CO 230 to 10
+  * Round 5: Lost to Central A/G, Springfield, MO 60 to 110
+  * Round 6: Won against Victorious Life Church, Wesley Chapel, FL 190 to 50
+  * Round 7: Lost to Turning Point Christian Center, Vancouver, WA 45 to 125
+  * Round 8: Won against Truth A/G, Chariton, IA 70 to 20
+  * Round 9: Lost to James River A/G, "In Chains", Ozark, MO 70 to 190
+  * Round 10: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 155 to 55
+  * Round 11: Lost to Calvary A/G, South Bend, IN 55 to 195
+  * Round 12: Lost to Meridian A/G, Meridian, ID 100 to 185
+  * Round 13: Lost to Harvest Time A/G, Brunswick, OH 115 to 160
+  * Round 14: Lost to Nyssa Christian Fellowship, Nyssa, OR 85 to 105
+  * Round 15: Won against Suncoast Cathedral A/G, St. Petersburg, FL 200 to 25
+  * Round 16: Won against New Life Community Church, Oshkosh, WI 180 to 100
+  * Round 17: Won against Corydon A/G, Corydon, IA 170 to 105
+  * Round 18: Won against Calvary A/G, Dunwoody, GA 150 to 90
+  * Round 19: Won against Orange Hills A/G, Orange, CA 160 to 130
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Noble A/G, Noble, OK" html=image_html %}
@@ -1710,44 +1739,45 @@ Round 19: Won against Orange Hills A/G, Orange, CA 160 to 130
 
 #### 5th Place
 
-Church:	Braeswood A/G, Houston, TX
-Coach:	Emeka Kanu, Paul Kramer (assistant)
-Team:	Roysan Easo
-Joshua Echebiri
-Unwana Ekpa
-Obi Kpando
-Shola Anifowose
+* **Church**: Braeswood A/G, Houston, TX
+* **Coach**: Emeka Kanu, Paul Kramer (assistant)
+* **Team:**
+   * Roysan Easo
+   * Joshua Echebiri
+   * Unwana Ekpa
+   * Obi Kpando
+   * Shola Anifowose
 * **Preliminaries**:
-Round 1: Won against Calvary A/G, South Bend, IN 135 to 65
-Round 2: Won against Noble A/G, Noble, OK 160 to 30
-Round 3: Lost to Orange Hills A/G, Orange, CA 100 to 155
-Round 4: Won against Faith A/G, Orlando, FL 210 to 150
-Round 5: Lost to Tacoma Life Center, Tacoma, WA 55 to 240
-Round 6: Won against Truth A/G, Chariton, IA 245 to 70
-Round 7: Won against Faith A/G, West Plains, MO 180 to 75
-Round 8: Lost to First A/G, Binghamton, NY 95 to 215
-Round 9: Lost to First A/G, Lafayette, IN 30 to 120
-Playoff Round 1: Won against Calvary A/G, South Bend, IN
+  * Round 1: Won against Calvary A/G, South Bend, IN 135 to 65
+  * Round 2: Won against Noble A/G, Noble, OK 160 to 30
+  * Round 3: Lost to Orange Hills A/G, Orange, CA 100 to 155
+  * Round 4: Won against Faith A/G, Orlando, FL 210 to 150
+  * Round 5: Lost to Tacoma Life Center, Tacoma, WA 55 to 240
+  * Round 6: Won against Truth A/G, Chariton, IA 245 to 70
+  * Round 7: Won against Faith A/G, West Plains, MO 180 to 75
+  * Round 8: Lost to First A/G, Binghamton, NY 95 to 215
+  * Round 9: Lost to First A/G, Lafayette, IN 30 to 120
+  * Playoff Round 1: Won against Calvary A/G, South Bend, IN
 * **Round Robin**:
-Round 1: Lost to Dayspring A/G, Bowling Green, OH 95 to 180
-Round 2: Lost to First A/G, Lexington, KY 30 to 250
-Round 3: Won against Christian Chapel, Tulsa, OK 120 to 70
-Round 4: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 80 to 145
-Round 5: Won against CrossPoint A/G, Portage, WI 145 to 45
-Round 6: Lost to Cedar Park A/G, Bothell, WA 95 to 230
-Round 7: Lost to Orange County Worship Center, Santa Ana, CA 115 to 150
-Round 8: Won against Northridge A/G, Grand Island, NE 90 to 70
-Round 9: Won against James River A/G, "One in Christ", Ozark, MO 190 to 130
-Round 10: Won against Faith A/G, West Plains, MO 140 to 20
-Round 11: Lost to Owasso First A/G, Owasso, OK 125 to 240
-Round 12: Lost to Faith A/G, Orlando, FL 110 to 250
-Round 13: Won against Manassas A/G, Bristow, VA 160 to 110
-Round 14: Won against Tacoma Life Center, Tacoma, WA 210 to 20
-Round 15: Lost to First A/G, Binghamton, NY 120 to 190
-Round 16: Won against Christian Temple, Houston, TX 170 to 60
-Round 17: Won against Journey Church, Bridgeville, PA 195 to 130
-Round 18: Won against Praise A/G, Garfield, NJ 150 to 105
-Round 19: Won against Journey Fellowship Church, Slidell, LA 135 to 45
+  * Round 1: Lost to Dayspring A/G, Bowling Green, OH 95 to 180
+  * Round 2: Lost to First A/G, Lexington, KY 30 to 250
+  * Round 3: Won against Christian Chapel, Tulsa, OK 120 to 70
+  * Round 4: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 80 to 145
+  * Round 5: Won against CrossPoint A/G, Portage, WI 145 to 45
+  * Round 6: Lost to Cedar Park A/G, Bothell, WA 95 to 230
+  * Round 7: Lost to Orange County Worship Center, Santa Ana, CA 115 to 150
+  * Round 8: Won against Northridge A/G, Grand Island, NE 90 to 70
+  * Round 9: Won against James River A/G, "One in Christ", Ozark, MO 190 to 130
+  * Round 10: Won against Faith A/G, West Plains, MO 140 to 20
+  * Round 11: Lost to Owasso First A/G, Owasso, OK 125 to 240
+  * Round 12: Lost to Faith A/G, Orlando, FL 110 to 250
+  * Round 13: Won against Manassas A/G, Bristow, VA 160 to 110
+  * Round 14: Won against Tacoma Life Center, Tacoma, WA 210 to 20
+  * Round 15: Lost to First A/G, Binghamton, NY 120 to 190
+  * Round 16: Won against Christian Temple, Houston, TX 170 to 60
+  * Round 17: Won against Journey Church, Bridgeville, PA 195 to 130
+  * Round 18: Won against Praise A/G, Garfield, NJ 150 to 105
+  * Round 19: Won against Journey Fellowship Church, Slidell, LA 135 to 45
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Braeswood A/G, Houston, TX" html=image_html %}
@@ -1762,42 +1792,43 @@ Round 19: Won against Journey Fellowship Church, Slidell, LA 135 to 45
 
 #### 1st Place
 
-Church:	Faith A/G, Orlando, FL
-Coaches:	Ray Berkey, Angie Berkey (assistant)
-Team:	Jared Burkhalter
-Sabrina Burkhalter
-Tamera Burkhalter
-Jeremy Butler
+* **Church**: Faith A/G, Orlando, FL
+* **Coaches**: Ray Berkey, Angie Berkey (assistant)
+* **Team:**
+   * Jared Burkhalter
+   * Sabrina Burkhalter
+   * Tamera Burkhalter
+   * Jeremy Butler
 * **Preliminaries**:
-Round 1: Won against Tacoma Life Center, Tacoma, WA 195 to 150
-Round 2: Lost to Calvary A/G, South Bend, IN 125 to 195
-Round 3: Won against Truth A/G, Chariton, IA 235 to 60
-Round 4: Lost to Braeswood A/G, Houston, TX 150 to 210
-Round 5: Won against Noble A/G, Noble, OK 165 to 125
-Round 6: Won against First A/G, Lafayette, IN 210 to 140
-Round 7: Lost to Orange Hills A/G, Orange, CA 120 to 190
-Round 8: Won against Faith A/G, West Plains, MO 220 to 70
-Round 9: Won against First A/G, Binghamton, NY 260 to -10
+  * Round 1: Won against Tacoma Life Center, Tacoma, WA 195 to 150
+  * Round 2: Lost to Calvary A/G, South Bend, IN 125 to 195
+  * Round 3: Won against Truth A/G, Chariton, IA 235 to 60
+  * Round 4: Lost to Braeswood A/G, Houston, TX 150 to 210
+  * Round 5: Won against Noble A/G, Noble, OK 165 to 125
+  * Round 6: Won against First A/G, Lafayette, IN 210 to 140
+  * Round 7: Lost to Orange Hills A/G, Orange, CA 120 to 190
+  * Round 8: Won against Faith A/G, West Plains, MO 220 to 70
+  * Round 9: Won against First A/G, Binghamton, NY 260 to -10
 * **Round Robin**:
-Round 1: Won against Cedar Park A/G, Bothell, WA 165 to 160
-Round 2: Won against Orange County Worship Center, Santa Ana, CA 265 to 55
-Round 3: Won against Northridge A/G, Grand Island, NE 210 to 155
-Round 4: Lost to James River A/G, "One in Christ", Ozark, MO 180 to 200
-Round 5: Won against Faith A/G, West Plains, MO 185 to 175
-Round 6: Lost to Owasso First A/G, Owasso, OK 25 to 215
-Round 7: Won against Journey Church, Bridgeville, PA 215 to 115
-Round 8: Won against Manassas A/G, Bristow, VA 225 to 120
-Round 9: Lost to Tacoma Life Center, Tacoma, WA 140 to 160
-Round 10: Won against First A/G, Binghamton, NY 185 to 160
-Round 11: Won against Christian Temple, Houston, TX 225 to 40
-Round 12: Won against Braeswood A/G, Houston, TX 250 to 110
-Round 13: Won against Praise A/G, Garfield, NJ 225 to 90
-Round 14: Won against Journey Fellowship Church, Slidell, LA 155 to 120
-Round 15: Won against Dayspring A/G, Bowling Green, OH 165 to 90
-Round 16: Lost to First A/G, Lexington, KY 105 to 180
-Round 17: Lost to Christian Chapel, Tulsa, OK 145 to 185
-Round 18: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 225 to 110
-Round 19: Won against CrossPoint A/G, Portage, WI 220 to 95
+  * Round 1: Won against Cedar Park A/G, Bothell, WA 165 to 160
+  * Round 2: Won against Orange County Worship Center, Santa Ana, CA 265 to 55
+  * Round 3: Won against Northridge A/G, Grand Island, NE 210 to 155
+  * Round 4: Lost to James River A/G, "One in Christ", Ozark, MO 180 to 200
+  * Round 5: Won against Faith A/G, West Plains, MO 185 to 175
+  * Round 6: Lost to Owasso First A/G, Owasso, OK 25 to 215
+  * Round 7: Won against Journey Church, Bridgeville, PA 215 to 115
+  * Round 8: Won against Manassas A/G, Bristow, VA 225 to 120
+  * Round 9: Lost to Tacoma Life Center, Tacoma, WA 140 to 160
+  * Round 10: Won against First A/G, Binghamton, NY 185 to 160
+  * Round 11: Won against Christian Temple, Houston, TX 225 to 40
+  * Round 12: Won against Braeswood A/G, Houston, TX 250 to 110
+  * Round 13: Won against Praise A/G, Garfield, NJ 225 to 90
+  * Round 14: Won against Journey Fellowship Church, Slidell, LA 155 to 120
+  * Round 15: Won against Dayspring A/G, Bowling Green, OH 165 to 90
+  * Round 16: Lost to First A/G, Lexington, KY 105 to 180
+  * Round 17: Lost to Christian Chapel, Tulsa, OK 145 to 185
+  * Round 18: Won against The Church at Briargate, "Public Spectacle", Colorado Springs, CO 225 to 110
+  * Round 19: Won against CrossPoint A/G, Portage, WI 220 to 95
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Faith A/G, Orlando, FL" html=image_html %}
@@ -1810,43 +1841,44 @@ Round 19: Won against CrossPoint A/G, Portage, WI 220 to 95
 
 #### 2nd Place
 
-Church:	Calvary A/G, Dunwoody, GA
-Coach:	Ermias Belay, Jim Lex (assistant)
-Team:	Isabella Lex
-James Lex
-Yoki Belay
-Sarah Belay
+* **Church**: Calvary A/G, Dunwoody, GA
+* **Coach**: Ermias Belay, Jim Lex (assistant)
+* **Team:**
+   * Isabella Lex
+   * James Lex
+   * Yoki Belay
+   * Sarah Belay
 * **Preliminaries**:
-Round 1: Lost to CrossPoint A/G, Portage, WI 125 to 160
-Round 2: Won against Harvest Time A/G, Brunswick, OH 155 to 70
-Round 3: Won against Meridian A/G, Meridian, ID 210 to 145
-Round 4: Lost to Dayspring A/G, Bowling Green, OH 100 to 130
-Round 5: Lost to Norhtridge A/G, Grand Island, NE 155 to 220
-Round 6: Lost to Orange County Worship Center, Santa Ana, CA 70 to 150
-Round 7: Won against Central A/G, Springfield, MO 195 to 115
-Round 8: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 100 to 200
-Round 9: Lost to Owasso First A/G, Owasso, OK 30 to 300
-Playoff Round 2: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO
+  * Round 1: Lost to CrossPoint A/G, Portage, WI 125 to 160
+  * Round 2: Won against Harvest Time A/G, Brunswick, OH 155 to 70
+  * Round 3: Won against Meridian A/G, Meridian, ID 210 to 145
+  * Round 4: Lost to Dayspring A/G, Bowling Green, OH 100 to 130
+  * Round 5: Lost to Norhtridge A/G, Grand Island, NE 155 to 220
+  * Round 6: Lost to Orange County Worship Center, Santa Ana, CA 70 to 150
+  * Round 7: Won against Central A/G, Springfield, MO 195 to 115
+  * Round 8: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 100 to 200
+  * Round 9: Lost to Owasso First A/G, Owasso, OK 30 to 300
+  * Playoff Round 2: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO
 * **Round Robin**:
-Round 1: Won against Suncoast Cathedral A/G, St. Petersburg, FL 135 to 100
-Round 2: Won against New Life Community Church, Oshkosh, WI 215 to 60
-Round 3: Won against Corydon A/G, Corydon, IA 250 to 135
-Round 4: Lost to Harvest Time A/G, Brunswick, OH 40 to 195
-Round 5: Won against Orange Hills A/G, Orange, CA 210 to 80
-Round 6: Won against First A/G, Montgomery, AL 190 to -5
-Round 7: Won against First A/G, Lafayette, IN 155 to 130
-Round 8: Won against Grace A/G, Syracuse, NY 240 to 50
-Round 9: Won against Timberline Church, Fort Collins, CO 250 to 25
-Round 10: Won against Central A/G, Springfield, MO 215 to 60
-Round 11: Lost to Victorious Life Church, Wesley Chapel, FL 25 to 75
-Round 12: Lost to Turning Point Christian Center, Vancouver, WA 120 to 135
-Round 13: Won against Truth A/G, Chariton, IA 210 to 70
-Round 14: Lost to James River A/G, "In Chains", Ozark, MO 75 to 150
-Round 15: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 190 to 90
-Round 16: Won against Calvary A/G, South Bend, IN 190 to 0
-Round 17: Won against Meridian A/G, Meridian, ID 235 to 30
-Round 18: Lost to Noble A/G, Noble, OK 90 to 150
-Round 19: Won against Nyssa Christian Fellowship, Nyssa, OR 165 to 30
+  * Round 1: Won against Suncoast Cathedral A/G, St. Petersburg, FL 135 to 100
+  * Round 2: Won against New Life Community Church, Oshkosh, WI 215 to 60
+  * Round 3: Won against Corydon A/G, Corydon, IA 250 to 135
+  * Round 4: Lost to Harvest Time A/G, Brunswick, OH 40 to 195
+  * Round 5: Won against Orange Hills A/G, Orange, CA 210 to 80
+  * Round 6: Won against First A/G, Montgomery, AL 190 to -5
+  * Round 7: Won against First A/G, Lafayette, IN 155 to 130
+  * Round 8: Won against Grace A/G, Syracuse, NY 240 to 50
+  * Round 9: Won against Timberline Church, Fort Collins, CO 250 to 25
+  * Round 10: Won against Central A/G, Springfield, MO 215 to 60
+  * Round 11: Lost to Victorious Life Church, Wesley Chapel, FL 25 to 75
+  * Round 12: Lost to Turning Point Christian Center, Vancouver, WA 120 to 135
+  * Round 13: Won against Truth A/G, Chariton, IA 210 to 70
+  * Round 14: Lost to James River A/G, "In Chains", Ozark, MO 75 to 150
+  * Round 15: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 190 to 90
+  * Round 16: Won against Calvary A/G, South Bend, IN 190 to 0
+  * Round 17: Won against Meridian A/G, Meridian, ID 235 to 30
+  * Round 18: Lost to Noble A/G, Noble, OK 90 to 150
+  * Round 19: Won against Nyssa Christian Fellowship, Nyssa, OR 165 to 30
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Calvary A/G, Dunwoody, GA" html=image_html %}
@@ -1859,41 +1891,42 @@ Round 19: Won against Nyssa Christian Fellowship, Nyssa, OR 165 to 30
 
 #### 3rd Place
 
-Church:	First A/G, Montgomery, AL
-Coaches:	Daniel Mims, Hillary Kelley (assistant)
-Team:	Hudson Kelley
-Andrew Banach
-Cory Williams
+* **Church**: First A/G, Montgomery, AL
+* **Coaches**: Daniel Mims, Hillary Kelley (assistant)
+* **Team:**
+   * Hudson Kelley
+   * Andrew Banach
+   * Cory Williams
 * **Preliminaries**:
-Round 1: Lost to Christian Chapel, Tulsa, OK -25 to 215
-Round 2: Lost to First A/G, Lexington, KY 0 to 225
-Round 3: Lost to Turning Point Christian Center, Vancouver, WA 100 to 170
-Round 4: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 100 to 60
-Round 5: Won against Grace A/G, Syracuse, NY 150 to 130
-Round 6: Lost to Cedar Park A/G, Bothell, WA 20 to 315
-Round 7: Lost to Journey Church, Bridgeville, PA 130 to 165
-Round 8: Lost to James River A/G, "One in Christ", Ozark, MO 60 to 235
-Round 9: Lost to New Life Community Church, Oshkosh, WI 35 to 110
+  * Round 1: Lost to Christian Chapel, Tulsa, OK -25 to 215
+  * Round 2: Lost to First A/G, Lexington, KY 0 to 225
+  * Round 3: Lost to Turning Point Christian Center, Vancouver, WA 100 to 170
+  * Round 4: Won against Suncoast Cathedral A/G, Saint Petersburg, FL 100 to 60
+  * Round 5: Won against Grace A/G, Syracuse, NY 150 to 130
+  * Round 6: Lost to Cedar Park A/G, Bothell, WA 20 to 315
+  * Round 7: Lost to Journey Church, Bridgeville, PA 130 to 165
+  * Round 8: Lost to James River A/G, "One in Christ", Ozark, MO 60 to 235
+  * Round 9: Lost to New Life Community Church, Oshkosh, WI 35 to 110
 * **Round Robin**:
-Round 1: Lost to Noble A/G, Noble, OK 135 to 185
-Round 2: Lost to Nyssa Christian Fellowship, Nyssa, OR 100 to 150
-Round 3: Won against Suncoast Cathedral A/G, St. Petersburg, FL 130 to 120
-Round 4: Won against New Life Community Church, Oshkosh, WI 175 to 35
-Round 5: Lost to Corydon A/G, Corydon, IA 95 to 155
-Round 6: Lost to Calvary A/G, Dunwoody, GA -5 to 190
-Round 7: Lost to Orange Hills A/G, Orange, CA 40 to 105
-Round 8: Lost to Harvest Time A/G, Brunswick, OH 75 to 125
-Round 9: Won against First A/G, Lafayette, IN 145 to 85
-Round 10: Lost to Grace A/G, Syracuse, NY 80 to 165
-Round 11: Won against Timberline Church, Fort Collins, CO 95 to 5
-Round 12: Lost to Central A/G, Springfield, MO 100 to 165
-Round 13: Won against Victorious Life Church, Wesley Chapel, FL 175 to 50
-Round 14: Won against Turning Point Christian Center, Vancouver, WA 90 to 65
-Round 15: Won against Truth A/G, Chariton, IA 160 to 105
-Round 16: Lost to James River A/G, "In Chains", Ozark, MO 70 to 210
-Round 17: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 135 to 60
-Round 18: Lost to Calvary A/G, South Bend, IN 90 to 175
-Round 19: Won against Meridian A/G, Meridian, ID 100 to 90
+  * Round 1: Lost to Noble A/G, Noble, OK 135 to 185
+  * Round 2: Lost to Nyssa Christian Fellowship, Nyssa, OR 100 to 150
+  * Round 3: Won against Suncoast Cathedral A/G, St. Petersburg, FL 130 to 120
+  * Round 4: Won against New Life Community Church, Oshkosh, WI 175 to 35
+  * Round 5: Lost to Corydon A/G, Corydon, IA 95 to 155
+  * Round 6: Lost to Calvary A/G, Dunwoody, GA -5 to 190
+  * Round 7: Lost to Orange Hills A/G, Orange, CA 40 to 105
+  * Round 8: Lost to Harvest Time A/G, Brunswick, OH 75 to 125
+  * Round 9: Won against First A/G, Lafayette, IN 145 to 85
+  * Round 10: Lost to Grace A/G, Syracuse, NY 80 to 165
+  * Round 11: Won against Timberline Church, Fort Collins, CO 95 to 5
+  * Round 12: Lost to Central A/G, Springfield, MO 100 to 165
+  * Round 13: Won against Victorious Life Church, Wesley Chapel, FL 175 to 50
+  * Round 14: Won against Turning Point Christian Center, Vancouver, WA 90 to 65
+  * Round 15: Won against Truth A/G, Chariton, IA 160 to 105
+  * Round 16: Lost to James River A/G, "In Chains", Ozark, MO 70 to 210
+  * Round 17: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 135 to 60
+  * Round 18: Lost to Calvary A/G, South Bend, IN 90 to 175
+  * Round 19: Won against Meridian A/G, Meridian, ID 100 to 90
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="First A/G, Montgomery, AL" html=image_html %}
@@ -1906,44 +1939,45 @@ Round 19: Won against Meridian A/G, Meridian, ID 100 to 90
 
 #### 4th Place
 
-Church:	Suncoast Cathedral A/G, Saint Petersburg, FL
-Coaches:	Rahbin Bennet, Sue Hutchison (assistant)
-Team:	Simon Bennett
-Jonathan Kessie
-Lydia Hutchison
-Brenden Moench
-Therese Simoneau
-Danielle Taylor
+* **Church**: Suncoast Cathedral A/G, Saint Petersburg, FL
+* **Coaches**: Rahbin Bennet, Sue Hutchison (assistant)
+* **Team:**
+   * Simon Bennett
+   * Jonathan Kessie
+   * Lydia Hutchison
+   * Brenden Moench
+   * Therese Simoneau
+   * Danielle Taylor
 * **Preliminaries**:
-Round 1: Won against Grace A/G, Syracuse, NY 180 to 100
-Round 2: Lost to Journey Church, Bridgeville, PA 50 to 175
-Round 3: Lost to Cedar Park A/G, Bothell, WA 95 to 235
-Round 4: Lost to First A/G, Montgomery, AL 60 to 100
-Round 5: Lost to James River A/G, "One in Christ", Ozark, MO 10 to 290
-Round 6: Lost to Turning Point Christian Center, Vancouver, WA 95 to 175
-Round 7: Won against New Life Community Church, Oshkosh, WI 125 to -60
-Round 8: Lost to First A/G, Lexington, KY 65 to 210
-Round 9: Lost to Christian Chapel, Tulsa, OK -10 to 210
+  * Round 1: Won against Grace A/G, Syracuse, NY 180 to 100
+  * Round 2: Lost to Journey Church, Bridgeville, PA 50 to 175
+  * Round 3: Lost to Cedar Park A/G, Bothell, WA 95 to 235
+  * Round 4: Lost to First A/G, Montgomery, AL 60 to 100
+  * Round 5: Lost to James River A/G, "One in Christ", Ozark, MO 10 to 290
+  * Round 6: Lost to Turning Point Christian Center, Vancouver, WA 95 to 175
+  * Round 7: Won against New Life Community Church, Oshkosh, WI 125 to -60
+  * Round 8: Lost to First A/G, Lexington, KY 65 to 210
+  * Round 9: Lost to Christian Chapel, Tulsa, OK -10 to 210
 * **Round Robin**:
-Round 1: Lost to Calvary A/G, Dunwoody, GA 100 to 135
-Round 2: Lost to Orange Hills A/G, Orange, CA 120 to 160
-Round 3: Lost to First A/G, Montgomery, AL 120 to 130
-Round 4: Won against First A/G, Lafayette, IN 100 to 90
-Round 5: Lost to Grace A/G, Syracuse, NY 60 to 165
-Round 6: Won against Timberline Church, Fort Collins, CO 75 to -10
-Round 7: Lost to Central A/G, Springfield, MO 85 to 145
-Round 8: Won against Victorious Life Church, Wesley Chapel, FL 125 to -5
-Round 9: Lost to Turning Point Christian Center, Vancouver, WA 95 to 100
-Round 10: Won against Truth A/G, Chariton, IA 125 to 105
-Round 11: Lost to James River A/G, "In Chains", Ozark, MO -60 to 225
-Round 12: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 20 to 175
-Round 13: Lost to Calvary A/G, South Bend, IN -15 to 140
-Round 14: Lost to Meridian A/G, Meridian, ID 20 to 185
-Round 15: Lost to Noble A/G, Noble, OK 25 to 200
-Round 16: Lost to Nyssa Christian Fellowship, Nyssa, OR -10 to 165
-Round 17: Lost to Harvest Time A/G, Brunswick, OH 10 to 150
-Round 18: Lost to New Life Community Church, Oshkosh, WI 75 to 205
-Round 19: Won against Corydon A/G, Corydon, IA 140 to 90
+  * Round 1: Lost to Calvary A/G, Dunwoody, GA 100 to 135
+  * Round 2: Lost to Orange Hills A/G, Orange, CA 120 to 160
+  * Round 3: Lost to First A/G, Montgomery, AL 120 to 130
+  * Round 4: Won against First A/G, Lafayette, IN 100 to 90
+  * Round 5: Lost to Grace A/G, Syracuse, NY 60 to 165
+  * Round 6: Won against Timberline Church, Fort Collins, CO 75 to -10
+  * Round 7: Lost to Central A/G, Springfield, MO 85 to 145
+  * Round 8: Won against Victorious Life Church, Wesley Chapel, FL 125 to -5
+  * Round 9: Lost to Turning Point Christian Center, Vancouver, WA 95 to 100
+  * Round 10: Won against Truth A/G, Chariton, IA 125 to 105
+  * Round 11: Lost to James River A/G, "In Chains", Ozark, MO -60 to 225
+  * Round 12: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 20 to 175
+  * Round 13: Lost to Calvary A/G, South Bend, IN -15 to 140
+  * Round 14: Lost to Meridian A/G, Meridian, ID 20 to 185
+  * Round 15: Lost to Noble A/G, Noble, OK 25 to 200
+  * Round 16: Lost to Nyssa Christian Fellowship, Nyssa, OR -10 to 165
+  * Round 17: Lost to Harvest Time A/G, Brunswick, OH 10 to 150
+  * Round 18: Lost to New Life Community Church, Oshkosh, WI 75 to 205
+  * Round 19: Won against Corydon A/G, Corydon, IA 140 to 90
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Suncoast Cathedral A/G, Saint Petersburg, FL" html=image_html %}
@@ -1955,42 +1989,43 @@ Round 19: Won against Corydon A/G, Corydon, IA 140 to 90
 
 #### 5th Place
 
-Church:	Victorious Life Church, Wesley Chapel, FL
-Coaches:	Joshua Weber, Lisa Owens (assistant) Ed Mintah, Sue Hutchison (assistant)
-Team:	Nathan Cowdery
-EJ Mintah
-Reesie Owens
-Erinn Wolf
+* **Church**: Victorious Life Church, Wesley Chapel, FL
+* **Coaches**: Joshua Weber, Lisa Owens (assistant) Ed Mintah, Sue Hutchison (assistant)
+* **Team:**
+   * Nathan Cowdery
+   * EJ Mintah
+   * Reesie Owens
+   * Erinn Wolf
 * **Preliminaries**:
-Round 1: Lost to James River A/G, "In Chains", Ozark, MO 40 to 240
-Round 2: Won against Timberline Church, Fort Collins, CO 95 to 15
-Round 3: Lost to Christian Temple, Houston, TX 40 to 130
-Round 4: Lost to Manassas A/G, Bristow, VA 35 to 205
-Round 5: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 10 to 280
-Round 6: Lost to Nyssa Christian Fellowship, Nyssa, OR 15 to 225
-Round 7: Lost to Praise A/G, Garfield, NJ 35 to 185
-Round 8: Lost to Journey Fellowship Church, Slidell, LA 90 to 225
-Round 9: Lost to Corydon A/G, Corydon, IA 55 to 200
+  * Round 1: Lost to James River A/G, "In Chains", Ozark, MO 40 to 240
+  * Round 2: Won against Timberline Church, Fort Collins, CO 95 to 15
+  * Round 3: Lost to Christian Temple, Houston, TX 40 to 130
+  * Round 4: Lost to Manassas A/G, Bristow, VA 35 to 205
+  * Round 5: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 10 to 280
+  * Round 6: Lost to Nyssa Christian Fellowship, Nyssa, OR 15 to 225
+  * Round 7: Lost to Praise A/G, Garfield, NJ 35 to 185
+  * Round 8: Lost to Journey Fellowship Church, Slidell, LA 90 to 225
+  * Round 9: Lost to Corydon A/G, Corydon, IA 55 to 200
 * **Round Robin**:
-Round 1: Won against Truth A/G, Chariton, IA 135 to 120
-Round 2: Lost to James River A/G, "In Chains", Ozark, MO -20 to 220
-Round 3: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO -60 to 220
-Round 4: Lost to Calvary A/G, South Bend, IN 25 to 130
-Round 5: Lost to Meridian A/G, Meridian, ID 70 to 110
-Round 6: Lost to Noble A/G, Noble, OK 50 to 190
-Round 7: Lost to Nyssa Christian Fellowship, Nyssa, OR 55 to 200
-Round 8: Lost to Suncoast Cathedral A/G, St. Petersburg, FL -5 to 125
-Round 9: Won against New Life Community Church, Oshkosh, WI 120 to 90
-Round 10: Lost to Corydon A/G, Corydon, IA 80 to 120
-Round 11: Won against Calvary A/G, Dunwoody, GA 75 to 25
-Round 12: Lost to Orange Hills A/G, Orange, CA 115 to 125
-Round 13: Lost to First A/G, Montgomery, AL 50 to 175
-Round 14: Lost to First A/G, Lafayette, IN 20 to 150
-Round 15: Lost to Grace A/G, Syracuse, NY 65 to 95
-Round 16: Won against Timberline Church, Fort Collins, CO 135 to 20
-Round 17: Lost to Central A/G, Springfield, MO 50 to 175
-Round 18: Won against Harvest Time A/G, Brunswick, OH 105 to 80
-Round 19: Won against Turning Point Christian Center, Vancouver, WA 150 to 100
+  * Round 1: Won against Truth A/G, Chariton, IA 135 to 120
+  * Round 2: Lost to James River A/G, "In Chains", Ozark, MO -20 to 220
+  * Round 3: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO -60 to 220
+  * Round 4: Lost to Calvary A/G, South Bend, IN 25 to 130
+  * Round 5: Lost to Meridian A/G, Meridian, ID 70 to 110
+  * Round 6: Lost to Noble A/G, Noble, OK 50 to 190
+  * Round 7: Lost to Nyssa Christian Fellowship, Nyssa, OR 55 to 200
+  * Round 8: Lost to Suncoast Cathedral A/G, St. Petersburg, FL -5 to 125
+  * Round 9: Won against New Life Community Church, Oshkosh, WI 120 to 90
+  * Round 10: Lost to Corydon A/G, Corydon, IA 80 to 120
+  * Round 11: Won against Calvary A/G, Dunwoody, GA 75 to 25
+  * Round 12: Lost to Orange Hills A/G, Orange, CA 115 to 125
+  * Round 13: Lost to First A/G, Montgomery, AL 50 to 175
+  * Round 14: Lost to First A/G, Lafayette, IN 20 to 150
+  * Round 15: Lost to Grace A/G, Syracuse, NY 65 to 95
+  * Round 16: Won against Timberline Church, Fort Collins, CO 135 to 20
+  * Round 17: Lost to Central A/G, Springfield, MO 50 to 175
+  * Round 18: Won against Harvest Time A/G, Brunswick, OH 105 to 80
+  * Round 19: Won against Turning Point Christian Center, Vancouver, WA 150 to 100
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Victorious Life Church, Wesley Chapel, FL" html=image_html %}
@@ -2005,42 +2040,43 @@ Round 19: Won against Turning Point Christian Center, Vancouver, WA 150 to 100
 
 #### 1st Place
 
-Church:	The Church at Briargate, "Public Spectacle", Colorado Springs, CO
-Coaches:	Greg House, Andrew Kelley (assistant)
-Team:	PJ Grigg
-Madison Hall
-Julianne Kelley
-Michael Rose
+* **Church**: The Church at Briargate, "Public Spectacle", Colorado Springs, CO
+* **Coaches**: Greg House, Andrew Kelley (assistant)
+* **Team:**
+   * PJ Grigg
+   * Madison Hall
+   * Julianne Kelley
+   * Michael Rose
 * **Preliminaries**:
-Round 1: Lost to Manassas A/G, Bristow, VA 130 to 145
-Round 2: Won against Journey Fellowship Church, Slidell, LA 165 to 130
-Round 3: Won against Corydon A/G, Corydon, IA 220 to 35
-Round 4: Won against James River A/G, "In Chains", Ozark, MO 140 to 125
-Round 5: Won against Victorious Life Church, Wesley Chapel, FL 280 to 10
-Round 6: Won against Christian Temple, Houston, TX 220 to 55
-Round 7: Won against Timberline Church, Fort Collins, CO 180 to -20
-Round 8: Won against Nyssa Christian Fellowship, Nyssa, OR 260 to 30
-Round 9: Lost to Praise A/G, Garfield, NJ 95 to 155
+  * Round 1: Lost to Manassas A/G, Bristow, VA 130 to 145
+  * Round 2: Won against Journey Fellowship Church, Slidell, LA 165 to 130
+  * Round 3: Won against Corydon A/G, Corydon, IA 220 to 35
+  * Round 4: Won against James River A/G, "In Chains", Ozark, MO 140 to 125
+  * Round 5: Won against Victorious Life Church, Wesley Chapel, FL 280 to 10
+  * Round 6: Won against Christian Temple, Houston, TX 220 to 55
+  * Round 7: Won against Timberline Church, Fort Collins, CO 180 to -20
+  * Round 8: Won against Nyssa Christian Fellowship, Nyssa, OR 260 to 30
+  * Round 9: Lost to Praise A/G, Garfield, NJ 95 to 155
 * **Round Robin**:
-Round 1: Won against Tacoma Life Center, Tacoma, WA 205 to 95
-Round 2: Won against First A/G, Binghamton, NY 180 to 135
-Round 3: Won against Christian Temple, Houston, TX 215 to 50
-Round 4: Won against Braeswood A/G, Houston, TX 145 to 80
-Round 5: Lost to Praise A/G, Garfield, NJ 120 to 150
-Round 6: Won against Journey Fellowship Church, Slidell, LA 205 to 95
-Round 7: Won against Dayspring A/G, Bowling Green, OH 225 to 10
-Round 8: Lost to First A/G, Lexington, KY 100 to 185
-Round 9: Lost to Christian Chapel, Tulsa, OK 90 to 190
-Round 10: Won against Journey Church, Bridgeville, PA 145 to 130
-Round 11: Won against CrossPoint A/G, Portage, WI 185 to -10
-Round 12: Lost to Cedar Park A/G, Bothell, WA 30 to 260
-Round 13: Won against Orange County Worship Center, Santa Ana, CA 150 to 95
-Round 14: Lost to Northridge A/G, Grand Island, NE 60 to 170
-Round 15: Lost to James River A/G, "One in Christ", Ozark, MO 130 to 195
-Round 16: Won against Faith A/G, West Plains, MO 235 to 5
-Round 17: Lost to Owasso First A/G, Owasso, OK 115 to 240
-Round 18: Lost to Faith A/G, Orlando, FL 110 to 225
-Round 19: Won against Manassas A/G, Bristow, VA 165 to 150
+  * Round 1: Won against Tacoma Life Center, Tacoma, WA 205 to 95
+  * Round 2: Won against First A/G, Binghamton, NY 180 to 135
+  * Round 3: Won against Christian Temple, Houston, TX 215 to 50
+  * Round 4: Won against Braeswood A/G, Houston, TX 145 to 80
+  * Round 5: Lost to Praise A/G, Garfield, NJ 120 to 150
+  * Round 6: Won against Journey Fellowship Church, Slidell, LA 205 to 95
+  * Round 7: Won against Dayspring A/G, Bowling Green, OH 225 to 10
+  * Round 8: Lost to First A/G, Lexington, KY 100 to 185
+  * Round 9: Lost to Christian Chapel, Tulsa, OK 90 to 190
+  * Round 10: Won against Journey Church, Bridgeville, PA 145 to 130
+  * Round 11: Won against CrossPoint A/G, Portage, WI 185 to -10
+  * Round 12: Lost to Cedar Park A/G, Bothell, WA 30 to 260
+  * Round 13: Won against Orange County Worship Center, Santa Ana, CA 150 to 95
+  * Round 14: Lost to Northridge A/G, Grand Island, NE 60 to 170
+  * Round 15: Lost to James River A/G, "One in Christ", Ozark, MO 130 to 195
+  * Round 16: Won against Faith A/G, West Plains, MO 235 to 5
+  * Round 17: Lost to Owasso First A/G, Owasso, OK 115 to 240
+  * Round 18: Lost to Faith A/G, Orlando, FL 110 to 225
+  * Round 19: Won against Manassas A/G, Bristow, VA 165 to 150
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="The Church at Briargate, 'Public Spectacle', Colorado Springs, CO" html=image_html %}
@@ -2053,44 +2089,45 @@ Round 19: Won against Manassas A/G, Bristow, VA 165 to 150
 
 #### 2nd Place
 
-Church:	Orange Hills A/G, Orange, CA
-Coaches:	Donna Pryer, Ronald Pryer (assistant)
-Team:	James Lynch
-James Pryer
-Mary Pryer
-Samuel Pryer
-Thomas Pryer
+* **Church**: Orange Hills A/G, Orange, CA
+* **Coaches**: Donna Pryer, Ronald Pryer (assistant)
+* **Team:**
+   * James Lynch
+   * James Pryer
+   * Mary Pryer
+   * Samuel Pryer
+   * Thomas Pryer
 * **Preliminaries**:
-Round 1: Lost to First A/G, Binghamton, NY 105 to 170
-Round 2: Lost to Faith A/G, West Plains, MO 100 to 110
-Round 3: Won against Braeswood A/G, Houston, TX 155 to 100
-Round 4: Won against First A/G, Lafayette, IN 215 to 45
-Round 5: Won against Truth A/G, Chariton, IA 210 to 140
-Round 6: Lost to Tacoma Life Center, Tacoma, WA 50 to 190
-Round 7: Won against Faith A/G, Orlando, FL 190 to 120
-Round 8: Won against Noble A/G, Noble, OK 125 to 110
-Round 9: Lost to Calvary A/G, South Bend, IN 0 to 270
-Playoff Round 1: Lost to Tacoma Life Center, Tacoma, WA
+  * Round 1: Lost to First A/G, Binghamton, NY 105 to 170
+  * Round 2: Lost to Faith A/G, West Plains, MO 100 to 110
+  * Round 3: Won against Braeswood A/G, Houston, TX 155 to 100
+  * Round 4: Won against First A/G, Lafayette, IN 215 to 45
+  * Round 5: Won against Truth A/G, Chariton, IA 210 to 140
+  * Round 6: Lost to Tacoma Life Center, Tacoma, WA 50 to 190
+  * Round 7: Won against Faith A/G, Orlando, FL 190 to 120
+  * Round 8: Won against Noble A/G, Noble, OK 125 to 110
+  * Round 9: Lost to Calvary A/G, South Bend, IN 0 to 270
+  * Playoff Round 1: Lost to Tacoma Life Center, Tacoma, WA
 * **Round Robin**:
-Round 1: Won against Nyssa Christian Fellowship, Nyssa, OR 135 to 130
-Round 2: Won against Suncoast Cathedral A/G, St. Petersburg, FL 160 to 120
-Round 3: Won against New Life Community Church, Oshkosh, WI 115 to 65
-Round 4: Won against Corydon A/G, Corydon, IA 165 to 75
-Round 5: Lost to Calvary A/G, Dunwoody, GA 80 to 210
-Round 6: Won against Harvest Time A/G, Brunswick, OH 95 to 60
-Round 7: Won against First A/G, Montgomery, AL 105 to 40
-Round 8: Won against First A/G, Lafayette, IN 135 to 100
-Round 9: Won against Grace A/G, Syracuse, NY 210 to 45
-Round 10: Won against Timberline Church, Fort Collins, CO 225 to 5
-Round 11: Won against Central A/G, Springfield, MO 200 to 45
-Round 12: Won against Victorious Life Church, Wesley Chapel, FL 125 to 115
-Round 13: Won against Turning Point Christian Center, Vancouver, WA 175 to 30
-Round 14: Won against Truth A/G, Chariton, IA 165 to 80
-Round 15: Lost to James River A/G, "In Chains", Ozark, MO 120 to 240
-Round 16: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 125 to 70
-Round 17: Lost to Calvary A/G, South Bend, IN 105 to 200
-Round 18: Lost to Meridian A/G, Meridian, ID 5 to 170
-Round 19: Lost to Noble A/G, Noble, OK 130 to 160
+  * Round 1: Won against Nyssa Christian Fellowship, Nyssa, OR 135 to 130
+  * Round 2: Won against Suncoast Cathedral A/G, St. Petersburg, FL 160 to 120
+  * Round 3: Won against New Life Community Church, Oshkosh, WI 115 to 65
+  * Round 4: Won against Corydon A/G, Corydon, IA 165 to 75
+  * Round 5: Lost to Calvary A/G, Dunwoody, GA 80 to 210
+  * Round 6: Won against Harvest Time A/G, Brunswick, OH 95 to 60
+  * Round 7: Won against First A/G, Montgomery, AL 105 to 40
+  * Round 8: Won against First A/G, Lafayette, IN 135 to 100
+  * Round 9: Won against Grace A/G, Syracuse, NY 210 to 45
+  * Round 10: Won against Timberline Church, Fort Collins, CO 225 to 5
+  * Round 11: Won against Central A/G, Springfield, MO 200 to 45
+  * Round 12: Won against Victorious Life Church, Wesley Chapel, FL 125 to 115
+  * Round 13: Won against Turning Point Christian Center, Vancouver, WA 175 to 30
+  * Round 14: Won against Truth A/G, Chariton, IA 165 to 80
+  * Round 15: Lost to James River A/G, "In Chains", Ozark, MO 120 to 240
+  * Round 16: Won against The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 125 to 70
+  * Round 17: Lost to Calvary A/G, South Bend, IN 105 to 200
+  * Round 18: Lost to Meridian A/G, Meridian, ID 5 to 170
+  * Round 19: Lost to Noble A/G, Noble, OK 130 to 160
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Orange Hills A/G, Orange, CA" html=image_html %}
@@ -2102,41 +2139,42 @@ Round 19: Lost to Noble A/G, Noble, OK 130 to 160
 
 #### 3rd Place
 
-Church:	Orange County Worship Center, Santa Ana, CA
-Coach:	Irv Kuroishi
-Team:	Colin Kuroishi
-Jonathan Barthuly
-Zach Mang
+* **Church**: Orange County Worship Center, Santa Ana, CA
+* **Coach**: Irv Kuroishi
+* **Team:**
+   * Colin Kuroishi
+   * Jonathan Barthuly
+   * Zach Mang
 * **Preliminaries**:
-Round 1: Won against Dayspring A/G, Bowling Green, OH 155 to 80
-Round 2: Lost to CrossPoint A/G, Portage, WI 100 to 155
-Round 3: Won against Norhtridge A/G, Grand Island, NE 240 to 35
-Round 4: Won against Meridian A/G, Meridian, ID 170 to 55
-Round 5: Won against Central A/G, Springfield, MO 150 to 145
-Round 6: Won against Calvary A/G, Dunwoody, GA 150 to 70
-Round 7: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 20 to 160
-Round 8: Lost to Owasso First A/G, Owasso, OK 95 to 255
-Round 9: Won against Harvest Time A/G, Brunswick, OH 135 to 100
+  * Round 1: Won against Dayspring A/G, Bowling Green, OH 155 to 80
+  * Round 2: Lost to CrossPoint A/G, Portage, WI 100 to 155
+  * Round 3: Won against Norhtridge A/G, Grand Island, NE 240 to 35
+  * Round 4: Won against Meridian A/G, Meridian, ID 170 to 55
+  * Round 5: Won against Central A/G, Springfield, MO 150 to 145
+  * Round 6: Won against Calvary A/G, Dunwoody, GA 150 to 70
+  * Round 7: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 20 to 160
+  * Round 8: Lost to Owasso First A/G, Owasso, OK 95 to 255
+  * Round 9: Won against Harvest Time A/G, Brunswick, OH 135 to 100
 * **Round Robin**:
-Round 1: Lost to Owasso First A/G, Owasso, OK 100 to 255
-Round 2: Lost to Faith A/G, Orlando, FL 55 to 265
-Round 3: Won against Manassas A/G, Bristow, VA 170 to 120
-Round 4: Won against Tacoma Life Center, Tacoma, WA 235 to 70
-Round 5: Lost to First A/G, Binghamton, NY 65 to 130
-Round 6: Won against Christian Temple, Houston, TX 75 to 65
-Round 7: Won against Braeswood A/G, Houston, TX 150 to 115
-Round 8: Lost to Praise A/G, Garfield, NJ 90 to 100
-Round 9: Won against Journey Fellowship Church, Slidell, LA 220 to 75
-Round 10: Won against Dayspring A/G, Bowling Green, OH 125 to 115
-Round 11: Won against First A/G, Lexington, KY 195 to 110
-Round 12: Won against Christian Chapel, Tulsa, OK 150 to 125
-Round 13: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 95 to 150
-Round 14: Lost to CrossPoint A/G, Portage, WI 105 to 110
-Round 15: Lost to Cedar Park A/G, Bothell, WA 55 to 210
-Round 16: Won against Journey Church, Bridgeville, PA 170 to 145
-Round 17: Won against Northridge A/G, Grand Island, NE 170 to 115
-Round 18: Lost to James River A/G, "One in Christ", Ozark, MO 105 to 230
-Round 19: Lost to Faith A/G, West Plains, MO 75 to 125
+  * Round 1: Lost to Owasso First A/G, Owasso, OK 100 to 255
+  * Round 2: Lost to Faith A/G, Orlando, FL 55 to 265
+  * Round 3: Won against Manassas A/G, Bristow, VA 170 to 120
+  * Round 4: Won against Tacoma Life Center, Tacoma, WA 235 to 70
+  * Round 5: Lost to First A/G, Binghamton, NY 65 to 130
+  * Round 6: Won against Christian Temple, Houston, TX 75 to 65
+  * Round 7: Won against Braeswood A/G, Houston, TX 150 to 115
+  * Round 8: Lost to Praise A/G, Garfield, NJ 90 to 100
+  * Round 9: Won against Journey Fellowship Church, Slidell, LA 220 to 75
+  * Round 10: Won against Dayspring A/G, Bowling Green, OH 125 to 115
+  * Round 11: Won against First A/G, Lexington, KY 195 to 110
+  * Round 12: Won against Christian Chapel, Tulsa, OK 150 to 125
+  * Round 13: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO 95 to 150
+  * Round 14: Lost to CrossPoint A/G, Portage, WI 105 to 110
+  * Round 15: Lost to Cedar Park A/G, Bothell, WA 55 to 210
+  * Round 16: Won against Journey Church, Bridgeville, PA 170 to 145
+  * Round 17: Won against Northridge A/G, Grand Island, NE 170 to 115
+  * Round 18: Lost to James River A/G, "One in Christ", Ozark, MO 105 to 230
+  * Round 19: Lost to Faith A/G, West Plains, MO 75 to 125
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Orange County Worship Center, Santa Ana, CA" html=image_html %}
@@ -2149,40 +2187,41 @@ Round 19: Lost to Faith A/G, West Plains, MO 75 to 125
 
 #### 4th Place
 
-Church:	Timberline Church, Fort Collins, CO
-Coaches:	Kimberly Trammell, Rene McCormick (assistant)
-Team:	Karen McCormick
-Carley Trammell
+* **Church**: Timberline Church, Fort Collins, CO
+* **Coaches**: Kimberly Trammell, Rene McCormick (assistant)
+* **Team:**
+   * Karen McCormick
+   * Carley Trammell
 * **Preliminaries**:
-Round 1: Lost to Corydon A/G, Corydon, IA -10 to 140
-Round 2: Lost to Victorious Life Church, Wesley Chapel, FL 15 to 95
-Round 3: Lost to Journey Fellowship Church, Slidell, LA 20 to 220
-Round 4: Lost to Praise A/G, Garfield, NJ 5 to 215
-Round 5: Lost to Manassas A/G, Bristow, VA 15 to 285
-Round 6: Lost to James River A/G, "In Chains", Ozark, MO -15 to 255
-Round 7: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO -20 to 180
-Round 8: Lost to Christian Temple, Houston, TX 20 to 215
-Round 9: Lost to Nyssa Christian Fellowship, Nyssa, OR 35 to 140
+  * Round 1: Lost to Corydon A/G, Corydon, IA -10 to 140
+  * Round 2: Lost to Victorious Life Church, Wesley Chapel, FL 15 to 95
+  * Round 3: Lost to Journey Fellowship Church, Slidell, LA 20 to 220
+  * Round 4: Lost to Praise A/G, Garfield, NJ 5 to 215
+  * Round 5: Lost to Manassas A/G, Bristow, VA 15 to 285
+  * Round 6: Lost to James River A/G, "In Chains", Ozark, MO -15 to 255
+  * Round 7: Lost to The Church at Briargate, "Public Spectacle", Colorado Springs, CO -20 to 180
+  * Round 8: Lost to Christian Temple, Houston, TX 20 to 215
+  * Round 9: Lost to Nyssa Christian Fellowship, Nyssa, OR 35 to 140
 * **Round Robin**:
-Round 1: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 25 to 210
-Round 2: Lost to Calvary A/G, South Bend, IN 20 to 245
-Round 3: Lost to Meridian A/G, Meridian, ID 15 to 100
-Round 4: Lost to Noble A/G, Noble, OK 10 to 230
-Round 5: Lost to Nyssa Christian Fellowship, Nyssa, OR 30 to 100
-Round 6: Lost to Suncoast Cathedral A/G, St. Petersburg, FL -10 to 75
-Round 7: Lost to New Life Community Church, Oshkosh, WI 35 to 105
-Round 8: Lost to Corydon A/G, Corydon, IA -35 to 200
-Round 9: Lost to Calvary A/G, Dunwoody, GA 25 to 250
-Round 10: Lost to Orange Hills A/G, Orange, CA 5 to 225
-Round 11: Lost to First A/G, Montgomery, AL 5 to 95
-Round 12: Lost to First A/G, Lafayette, IN 20 to 235
-Round 13: Lost to Grace A/G, Syracuse, NY 5 to 240
-Round 14: Lost to Harvest Time A/G, Brunswick, OH 20 to 215
-Round 15: Lost to Central A/G, Springfield, MO 35 to 130
-Round 16: Lost to Victorious Life Church, Wesley Chapel, FL 20 to 135
-Round 17: Lost to Turning Point Christian Center, Vancouver, WA 50 to 190
-Round 18: Lost to Truth A/G, Chariton, IA 70 to 85
-Round 19: Lost to James River A/G, "In Chains", Ozark, MO 15 to 225
+  * Round 1: Lost to The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO 25 to 210
+  * Round 2: Lost to Calvary A/G, South Bend, IN 20 to 245
+  * Round 3: Lost to Meridian A/G, Meridian, ID 15 to 100
+  * Round 4: Lost to Noble A/G, Noble, OK 10 to 230
+  * Round 5: Lost to Nyssa Christian Fellowship, Nyssa, OR 30 to 100
+  * Round 6: Lost to Suncoast Cathedral A/G, St. Petersburg, FL -10 to 75
+  * Round 7: Lost to New Life Community Church, Oshkosh, WI 35 to 105
+  * Round 8: Lost to Corydon A/G, Corydon, IA -35 to 200
+  * Round 9: Lost to Calvary A/G, Dunwoody, GA 25 to 250
+  * Round 10: Lost to Orange Hills A/G, Orange, CA 5 to 225
+  * Round 11: Lost to First A/G, Montgomery, AL 5 to 95
+  * Round 12: Lost to First A/G, Lafayette, IN 20 to 235
+  * Round 13: Lost to Grace A/G, Syracuse, NY 5 to 240
+  * Round 14: Lost to Harvest Time A/G, Brunswick, OH 20 to 215
+  * Round 15: Lost to Central A/G, Springfield, MO 35 to 130
+  * Round 16: Lost to Victorious Life Church, Wesley Chapel, FL 20 to 135
+  * Round 17: Lost to Turning Point Christian Center, Vancouver, WA 50 to 190
+  * Round 18: Lost to Truth A/G, Chariton, IA 70 to 85
+  * Round 19: Lost to James River A/G, "In Chains", Ozark, MO 15 to 225
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="Timberline Church, Fort Collins, CO" html=image_html %}
@@ -2194,44 +2233,45 @@ Round 19: Lost to James River A/G, "In Chains", Ozark, MO 15 to 225
 
 #### 5th Place
 
-Church:	The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO
-Coaches:	Molly Pace, YeVonda Hall (assistant)
-Team:	Becca Grigg
-Ellen Oss
-Meg Pace
-Kellen Hall
+* **Church**: The Church at Briargate, "Children of the Desolate Woman", Colorado Springs, CO
+* **Coaches**: Molly Pace, YeVonda Hall (assistant)
+* **Team:**
+   * Becca Grigg
+   * Ellen Oss
+   * Meg Pace
+   * Kellen Hall
 * **Preliminaries**:
-Round 1: Won against Norhtridge A/G, Grand Island, NE 125 to 75
-Round 2: Lost to Meridian A/G, Meridian, ID 90 to 105
-Round 3: Lost to CrossPoint A/G, Portage, WI 80 to 150
-Round 4: Lost to Owasso First A/G, Owasso, OK 45 to 245
-Round 5: Lost to Harvest Time A/G, Brunswick, OH 80 to 140
-Round 6: Lost to Dayspring A/G, Bowling Green, OH 40 to 155
-Round 7: Won against Orange County Worship Center, Santa Ana, CA 160 to 20
-Round 8: Won against Calvary A/G, Dunwoody, GA 200 to 100
-Round 9: Lost to Central A/G, Springfield, MO 65 to 185
-Playoff Round 2: Won against Calvary A/G, Dunwoody, GA
-Playoff Round 3: Lost to Dayspring A/G, Bowling Green, OH
+  * Round 1: Won against Norhtridge A/G, Grand Island, NE 125 to 75
+  * Round 2: Lost to Meridian A/G, Meridian, ID 90 to 105
+  * Round 3: Lost to CrossPoint A/G, Portage, WI 80 to 150
+  * Round 4: Lost to Owasso First A/G, Owasso, OK 45 to 245
+  * Round 5: Lost to Harvest Time A/G, Brunswick, OH 80 to 140
+  * Round 6: Lost to Dayspring A/G, Bowling Green, OH 40 to 155
+  * Round 7: Won against Orange County Worship Center, Santa Ana, CA 160 to 20
+  * Round 8: Won against Calvary A/G, Dunwoody, GA 200 to 100
+  * Round 9: Lost to Central A/G, Springfield, MO 65 to 185
+  * Playoff Round 2: Won against Calvary A/G, Dunwoody, GA
+  * Playoff Round 3: Lost to Dayspring A/G, Bowling Green, OH
 * **Round Robin**:
-Round 1: Won against Timberline Church, Fort Collins, CO 210 to 25
-Round 2: Won against Central A/G, Springfield, MO 125 to 75
-Round 3: Won against Victorious Life Church, Wesley Chapel, FL 220 to -60
-Round 4: Lost to Turning Point Christian Center, Vancouver, WA 85 to 165
-Round 5: Won against Truth A/G, Chariton, IA 180 to -35
-Round 6: Lost to James River A/G, "In Chains", Ozark, MO 10 to 190
-Round 7: Lost to Harvest Time A/G, Brunswick, OH 60 to 205
-Round 8: Lost to Calvary A/G, South Bend, IN 35 to 165
-Round 9: Won against Meridian A/G, Meridian, ID 225 to 20
-Round 10: Lost to Noble A/G, Noble, OK 55 to 155
-Round 11: Won against Nyssa Christian Fellowship, Nyssa, OR 95 to 75
-Round 12: Won against Suncoast Cathedral A/G, St. Petersburg, FL 175 to 20
-Round 13: Lost to New Life Community Church, Oshkosh, WI 75 to 170
-Round 14: Lost to Corydon A/G, Corydon, IA 20 to 204
-Round 15: Lost to Calvary A/G, Dunwoody, GA 90 to 190
-Round 16: Lost to Orange Hills A/G, Orange, CA 70 to 125
-Round 17: Lost to First A/G, Montgomery, AL 60 to 135
-Round 18: Lost to First A/G, Lafayette, IN 55 to 115
-Round 19: Lost to Grace A/G, Syracuse, NY 85 to 120
+  * Round 1: Won against Timberline Church, Fort Collins, CO 210 to 25
+  * Round 2: Won against Central A/G, Springfield, MO 125 to 75
+  * Round 3: Won against Victorious Life Church, Wesley Chapel, FL 220 to -60
+  * Round 4: Lost to Turning Point Christian Center, Vancouver, WA 85 to 165
+  * Round 5: Won against Truth A/G, Chariton, IA 180 to -35
+  * Round 6: Lost to James River A/G, "In Chains", Ozark, MO 10 to 190
+  * Round 7: Lost to Harvest Time A/G, Brunswick, OH 60 to 205
+  * Round 8: Lost to Calvary A/G, South Bend, IN 35 to 165
+  * Round 9: Won against Meridian A/G, Meridian, ID 225 to 20
+  * Round 10: Lost to Noble A/G, Noble, OK 55 to 155
+  * Round 11: Won against Nyssa Christian Fellowship, Nyssa, OR 95 to 75
+  * Round 12: Won against Suncoast Cathedral A/G, St. Petersburg, FL 175 to 20
+  * Round 13: Lost to New Life Community Church, Oshkosh, WI 75 to 170
+  * Round 14: Lost to Corydon A/G, Corydon, IA 20 to 204
+  * Round 15: Lost to Calvary A/G, Dunwoody, GA 90 to 190
+  * Round 16: Lost to Orange Hills A/G, Orange, CA 70 to 125
+  * Round 17: Lost to First A/G, Montgomery, AL 60 to 135
+  * Round 18: Lost to First A/G, Lafayette, IN 55 to 115
+  * Round 19: Lost to Grace A/G, Syracuse, NY 85 to 120
 {% endcapture %}
 {% capture image_html %}{{ image_html | markdownify }}{% endcapture %}
 {% include image-card.html link=image_url alt="The Church at Briargate, 'Children of the Desolate Woman', Colorado Springs, CO" html=image_html %}
