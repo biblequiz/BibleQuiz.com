@@ -17,7 +17,12 @@ a:hover {
 }
 
 .content table {
-	width: inherit;
+  width: inherit;
+
+  thead th {
+    color: #e9f4f4;
+    background-color: #0a6665;
+  }
 }
 
 .post-details {
