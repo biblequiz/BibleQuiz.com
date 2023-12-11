@@ -871,7 +871,7 @@ function initializeLiveEvents() {
                                             .text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''}`))
                                         .append($("<br />"))
                                         .append($("<i />")
-                                            .addClass(["subtitle", "is-6"])
+                                            .addClass(["subtitle", "is-7"])
                                             .text("PLACE")))
                                     .append($("<div />")
                                         .addClass(["column", "is-one-fifth", "has-text-centered", "team-card-right-border"])
@@ -880,7 +880,7 @@ function initializeLiveEvents() {
                                             .text(`${team.Scores.Wins}-${team.Scores.Losses}`))
                                         .append($("<br />"))
                                         .append($("<i />")
-                                            .addClass(["subtitle", "is-6"])
+                                            .addClass(["subtitle", "is-7"])
                                             .text("RECORD")))
                                     .append($("<div />")
                                         .addClass(["column", "is-one-fifth", "has-text-centered", "team-card-right-border"])
@@ -889,7 +889,7 @@ function initializeLiveEvents() {
                                             .text(team.Scores.TotalPoints))
                                         .append($("<br />"))
                                         .append($("<i />")
-                                            .addClass(["subtitle", "is-6"])
+                                            .addClass(["subtitle", "is-7"])
                                             .text("PTS")))
                                     .append($("<div />")
                                         .addClass(["column", "is-one-fifth", "has-text-centered"])
@@ -898,7 +898,7 @@ function initializeLiveEvents() {
                                             .text(team.Scores.AveragePoints))
                                         .append($("<br />"))
                                         .append($("<i />")
-                                            .addClass(["subtitle", "is-6"])
+                                            .addClass(["subtitle", "is-7"])
                                             .text("AVG"))));
 
                             let rank = team.Scores.Rank;
