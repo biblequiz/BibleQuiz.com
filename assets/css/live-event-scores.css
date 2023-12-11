@@ -3,6 +3,12 @@
 }
 
 /* Configuration for the page when printing. */
+@media not print {
+    .show-if-schedule {
+        display: none;
+    }
+}
+
 @media print {
     .notification {
         padding: 0;

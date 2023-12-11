@@ -744,92 +744,94 @@ function initializeLiveEvents() {
 
                                 const isLiveMatch = match.CurrentQuestion && meet.RankedTeams;
 
-                                let scheduleText = `vs. `;
+                                // Determine the prefix before each match.
+                                let scheduleText = ["vs."];
                                 let scoreText = null;
                                 if (meet.RankedTeams) {
-                                    
-                                }
 
-                                const matchTextElement = $("<span />")
-                                    .append($("<span />")
-                                        .addClass("show-if-schedule")
-                                        .hide()
-                                        .text("vs. "));
-
-                                switch (match.Result) {
-                                    case "W":
-                                        matchTextElement.append($("<span />")
-                                            .addClass("hide-if-schedule")
-                                            .text("Won against "));
-                                        break;
-                                    case "L":
-                                        matchTextElement.append($("<span />")
-                                            .addClass("hide-if-schedule")
-                                            .text("Lost to "));
-                                        break;
-                                    default:
-                                        if (meet.RankedTeams) {
+                                    scoreText = [];
+                                    switch (match.Result) {
+                                        case "W":
+                                            scoreText.push("Won against");
+                                            break;
+                                        case "L":
+                                            scoreText.push("Lost to");
+                                            break;
+                                        default:
                                             if (!match.CurrentQuestion && null != match.Score) {
-                                                matchTextElement.append($("<span />")
-                                                    .addClass("hide-if-schedule")
-                                                    .text("Played "));
+                                                scoreText.push("Played");
+                                            }
+                                            else if (isLiveMatch) {
+                                                scoreText.push("Playing");
                                             }
                                             else {
-                                                matchTextElement.append($("<span />")
-                                                    .addClass("hide-if-schedule")
-                                                    .text(isLiveMatch ? "Playing " : "vs. "));
+                                                // There is no score because this match hasn't been played yet.
+                                                scoreText = null;
                                             }
-                                        }
-                                        break;
+
+                                            break;
+                                    }
                                 }
 
+                                // Append the other team name and scores.
                                 if (match.OtherTeam || 0 == match.OtherTeam) {
 
-                                    matchTextElement.append($("<span />").text(`"${meet.Teams[match.OtherTeam].Name}"`));
+                                    const teamText = `"${meet.Teams[match.OtherTeam].Name}"`;
+                                    scheduleText.push(teamText);
 
-                                    if (meet.RankedTeams) {
-                                        matchTextElement.append($("<span />")
-                                            .addClass("hide-if-schedule")
-                                            .text(` ${match.Score} to ${meet.Teams[match.OtherTeam].Matches[matchIndex].Score}`));
+                                    if (scoreText) {
+                                        scoreText.push(teamText);
+
+                                        if (isLiveMatch) {
+                                            scoreText.push(`in ${match.Room}`);
+                                        }
+                                        else {
+                                            scoreText.push(`${match.Score} to ${meet.Teams[match.OtherTeam].Matches[matchIndex].Score}`);
+                                        }
                                     }
                                 }
                                 else {
-                                    matchTextElement.append($("<span />").text("\"BYE TEAM\""));
 
-                                    if (meet.RankedTeams) {
-                                        matchTextElement.append($("<span />")
-                                            .addClass("hide-if-schedule")
-                                            .text(` ${match.Score}`));
+                                    scheduleText.push("\"BYE TEAM\"");
+
+                                    if (scoreText) {
+                                        scoreText.push(`\"BYE TEAM\" ${match.Score}`);
                                     }
                                 }
 
-                                let includeLink = true;
-                                let scheduleText = ` in ${match.Room}`;
-                                if (hasMatchTimes && !isLiveMatch) {
-                                    scheduleText += ` @ ${meet.Matches[matchIndex].MatchTime}`;
-                                    includeLink = false;
+                                // Add the scheduled room and time.
+                                scheduleText.push(`in ${match.Room}`);
+                                if (hasMatchTimes) {
+                                    scheduleText.push(`@ ${meet.Matches[matchIndex].MatchTime}`);
                                 }
 
-                                matchTextElement.append($("<span />")
-                                    .addClass(meet.RankedTeams ? ["show-if-schedule"] : [])
-                                    .text(scheduleText));
+                                // If there isn't a score, no link is required AND there's no need to hide the schedule during printing.
+                                if (!scoreText) {
+                                    matchListItem.text(scheduleText.join(" "));
+                                }
+                                else {
 
-                                if (includeLink) {
-                                    matchListItem.append($("<a />")
-                                        .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
-                                        .append(matchTextElement));
+                                    const matchScoreContainer = $("<div />")
+                                        .addClass("hide-if-schedule")
+                                        .append($("<a />")
+                                            .addClass("hide-if-schedule")
+                                            .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
+                                            .text(scoreText.join(" ")));
 
                                     if (isLiveMatch) {
-                                        matchListItem
-                                            .append($("<br />"))
+                                        matchScoreContainer
+                                            .append("<br />")
                                             .append($("<i />")
-                                                .append($("<i />").addClass(["fas", "fa-broadcast-tower", "hide-if-schedule"]))
+                                                .append($("<i />").addClass(["fas", "fa-broadcast-tower"]))
                                                 .append("&nbsp;")
                                                 .append(`Question #${match.CurrentQuestion}`));
                                     }
-                                }
-                                else {
-                                    matchListItem.append(matchTextElement);
+
+                                    matchListItem
+                                        .append($("<div />")
+                                            .addClass("show-if-schedule")
+                                            .text(scheduleText.join(" ")))
+                                        .append(matchScoreContainer);
                                 }
                             }
                             else {
