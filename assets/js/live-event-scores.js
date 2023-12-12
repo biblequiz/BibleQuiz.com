@@ -244,6 +244,13 @@ function initializeLiveEvents() {
         .then(response => response.json())
         .then(report => {
 
+            if (report.Message) {
+                errorPane.text(report.Message);
+                errorPane.show();
+                loadingPane.hide();
+                return;
+            }
+
             // Update the title of the page.
             $(document).prop("title", report.EventName);
             $("#pageTitle").text(report.EventName);
