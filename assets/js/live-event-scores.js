@@ -6,6 +6,12 @@ function initializeLiveEvents() {
 
     $(document.body).css("overflow-x", "scroll");
 
+    // Capture the templates.
+    const statsTemplate = document.getElementById("statsTemplate");
+    const scheduleTemplate = document.getElementById("schedulesTemplate");
+    statsTemplate.remove();
+    scheduleTemplate.remove();
+
     // Setup the modal dialog.
     const teamModalContainer = $("#teamModal");
     const teamModalTitle = $("#teamModalTitle");
@@ -239,6 +245,48 @@ function initializeLiveEvents() {
         return number + "th";
     }
 
+    function cloneTemplate(template, newTagName = null) {
+        const newNode = $(`<${newTagName ?? template.tagName} />`);
+
+        // Clone the node.
+        const clone = template.tagName == "TEMPLATE"
+            ? template.content.cloneNode(true)
+            : template.cloneNode(true);
+
+        // Copy the attributes.
+        const clonedElement = newNode.get(0);
+        const attributes = template.attributes;
+        for (let i = 0; i < attributes.length; i++) {
+            const attribute = attributes[i];
+            if (attribute.name == "id") {
+                continue;
+            }
+
+            clonedElement.setAttribute(attribute.name, attribute.value);
+        }
+
+        // Clone the children.
+        const clonedChildren = clone.childNodes;
+        while (clonedChildren.length > 0) {
+
+            // When a child is appended, it is removed from clonedChildren.
+            newNode.append(clonedChildren[0]);
+        }
+
+        return newNode;
+    }
+
+    function getByAndRemoveId(templateContainer, id) {
+        const element = templateContainer
+            .find(`#${id}`)
+            .removeProp("id");
+        if (null == element || 0 == element.length) {
+            throw `Unable to locate ${id} under ${templateContainer}`;
+        }
+
+        return element;
+    }
+
     // Retrieve the score report that contains all the information about the event.
     fetch(`https://scores.biblequiz.com/api/Events/${eventId}/ScoringReport`)
         .then(response => response.json())
@@ -260,6 +308,8 @@ function initializeLiveEvents() {
                 .addClass("menu-list");
 
             // Process each meet.
+            const template = isStatsReport ? statsTemplate : scheduleTemplate;
+
             let isFirstMeet = true;
             for (let meet of report.Report.Meets) {
 
@@ -268,50 +318,24 @@ function initializeLiveEvents() {
                     continue;
                 }
 
+                // Clone the template so it is available.
+                const meetCell = cloneTemplate(template, "div")
+                    .addClass("meet-cell");
+
                 if (isFirstMeet) {
                     isFirstMeet = false;
                 }
                 else {
-                    resultsPane.append($("<div />")
-                        .addClass("meet-cell")
-                        .css("page-break-after", "always"));
+                    meetCell.css("page-break-before", "always");
 
                     if (!isStatsReport) {
-                        resultsPane.append($("<hr />").addClass("hide-on-print"));
+                        meetCell
+                            .prepend($("<hr />").addClass("hide-on-print"));
                     }
                 }
 
                 // Add the title to the results pane and start formatting the table of contents.
                 const titleAnchorId = `${meet.DatabaseId}_${meet.MeetId}`;
-
-                const printMenu = $("<div />")
-                    .addClass("dropdown-content");
-
-                const meetCell = $("<div />")
-                    .addClass("meet-cell")
-                    .append($("<div />")
-                        .addClass(["columns", "is-mobile", "mt-2"])
-                        .append($("<div />")
-                            .addClass(["column", "is-four-fifths"])
-                            .append($("<h2 />")
-                                .addClass(["title", "is-3"])
-                                .prop("id", titleAnchorId)
-                                .text(meet.Name))
-                            .append($("<p />")
-                                .addClass(["subtitle", "is-7"])
-                                .append($("<i />").text(`Last Updated: ${meet.LastUpdated}`))))
-                        .append($("<div />")
-                            .addClass(["column", "is-one-fifth", "has-text-right", "hide-on-print"])
-                            .append($("<div />")
-                                .addClass(["dropdown", "is-right"])
-                                .append($("<div />")
-                                    .addClass("dropdown-trigger")
-                                    .append($("<button />")
-                                        .addClass(["button", "is-primary"])
-                                        .append($("<i />").addClass(["fas", "fa-print"])))
-                                    .append($("<div />")
-                                        .addClass("dropdown-menu")
-                                        .append(printMenu))))));
 
                 const tocEntry = $("<li />")
                     .addClass("schedule-link")
@@ -319,84 +343,98 @@ function initializeLiveEvents() {
                         .attr("href", `#${titleAnchorId}`)
                         .text(meet.Name));
 
+                getByAndRemoveId(meetCell, "meetName")
+                    .prop("id", titleAnchorId)
+                    .text(meet.Name);
+                getByAndRemoveId(meetCell, "lastUpdated")
+                    .text(meet.LastUpdated);
+
                 // Generate the actual report from the data.
                 if (isStatsReport) {
 
-                    printMenu
-                        .append($("<a />")
-                            .addClass("dropdown-item")
-                            .text("Teams & Quizzers")
-                            .click(null, e => {
-                                allMeetCells.addClass("hide-on-print");
-                                meetCell.removeClass("hide-on-print");
-                                quizzersContainer.css("break-before", "page");
+                    // Update the print menu.
+                    getByAndRemoveId(meetCell, "print_TeamsAndQuizzers")
+                        .click(null, e => {
+                            allMeetCells.addClass("hide-on-print");
+                            meetCell.removeClass("hide-on-print");
+                            quizzersContainer.css("break-before", "page");
 
-                                window.print();
+                            window.print();
 
-                                quizzersContainer.css("break-before", "auto");
-                                allMeetCells.removeClass("hide-on-print");
-                            }))
-                        .append($("<a />")
-                            .addClass("dropdown-item")
-                            .text("Teams Only")
-                            .click(null, e => {
-                                allMeetCells.addClass("hide-on-print");
-                                meetCell.removeClass("hide-on-print");
-                                quizzersContainer.addClass("hide-on-print");
+                            quizzersContainer.css("break-before", "auto");
+                            allMeetCells.removeClass("hide-on-print");
+                        });
 
-                                window.print();
+                    getByAndRemoveId(meetCell, "print_TeamsOnly")
+                        .click(null, e => {
+                            allMeetCells.addClass("hide-on-print");
+                            meetCell.removeClass("hide-on-print");
+                            quizzersContainer.addClass("hide-on-print");
 
-                                quizzersContainer.removeClass("hide-on-print");
-                                allMeetCells.removeClass("hide-on-print");
-                            }))
-                        .append($("<a />")
-                            .addClass("dropdown-item")
-                            .text("Quizzers Only")
-                            .click(null, e => {
-                                allMeetCells.addClass("hide-on-print");
-                                meetCell.removeClass("hide-on-print");
-                                teamsContainer.addClass("hide-on-print");
+                            window.print();
 
-                                window.print();
+                            quizzersContainer.removeClass("hide-on-print");
+                            allMeetCells.removeClass("hide-on-print");
+                        });
 
-                                teamsContainer.removeClass("hide-on-print");
-                                allMeetCells.removeClass("hide-on-print");
-                            }));
+                    getByAndRemoveId(meetCell, "print_QuizzersOnly")
+                        .click(null, e => {
+                            allMeetCells.addClass("hide-on-print");
+                            meetCell.removeClass("hide-on-print");
+                            teamsContainer.addClass("hide-on-print");
 
-                    if (meet.HasRoomCompletionMismatch || meet.HasScoringCompleted) {
-                        meetCell.append($("<div />")
-                            .addClass(["notification", meet.HasScoringCompleted ? "is-success" : "is-warning"])
-                            .append($("<strong />").text(`${meet.HasScoringCompleted ? "COMPLETE" : "IN PROGRESS"}: ${meet.ScoringProgressMessage}`)));
+                            window.print();
+
+                            teamsContainer.removeClass("hide-on-print");
+                            allMeetCells.removeClass("hide-on-print");
+                        });
+
+                    // Update the progress.
+                    const meetProgressBanner_Completed = getByAndRemoveId(meetCell, "meetProgress_IsCompleted");
+                    const meetProgressBanner_Mismatch = getByAndRemoveId(meetCell, "meetProgress_IsMismatched");
+                    if (meet.HasScoringCompleted || meet.HasScoringCompleted) {
+
+                        getByAndRemoveId(meet.HasScoringCompleted ? meetProgressBanner_Completed : meetProgressBanner_Mismatch, "meetProgressLabel")
+                            .text(meet.ScoringProgressMessage);
+
+                        (meet.HasScoringCompleted ? meetProgressBanner_Mismatch : meetProgressBanner_Completed).remove();
+                    }
+                    else {
+                        meetProgressBanner_Completed.remove();
+                        meetProgressBanner_Mismatch.remove();
                     }
 
                     // Create the Teams table.
                     const teamsAnchorId = `${titleAnchorId}_teams`;
 
-                    const teamsContainer = $("<div />").append(
-                        $("<h3 />")
-                            .css("margin-top", "0px")
-                            .prop("id", teamsAnchorId)
-                            .text("Teams"));
+                    const teamsContainer = getByAndRemoveId(meetCell, "teamsSection")
+                        .prop("id", teamsAnchorId);
 
                     if (meet.TeamRankingLabel) {
-                        teamsContainer.append($("<div />")
-                            .addClass("is-size-6")
-                            .append($("<i />")
-                                .append($("<strong />").text("Team Report:"))
-                                .append(` ${meet.TeamRankingLabel}`)));
+                        getByAndRemoveId(teamsContainer, "teamRankingLabel")
+                            .text(meet.TeamRankingLabel);
+                    }
+                    else {
+                        teamsContainer
+                            .find("#teamRankingRow")
+                            .remove();
                     }
 
                     // Build the Teams table.
                     let hasTie = false;
-                    const teamTableBody = $("<tbody />");
+                    const teamTableBody = getByAndRemoveId(teamsContainer, "teamsTableBody");
+                    const teamTableRowTemplate = getByAndRemoveId(teamTableBody, "tableRow")
+                        .remove()
+                        .get(0);
+
                     for (let i = 0; i < meet.RankedTeams.length; i++) {
 
-                        const team = meet.Teams[meet.RankedTeams[i]]
+                        const team = meet.Teams[meet.RankedTeams[i]];
 
-                        const tableRow = $("<tr />");
+                        const tableRow = cloneTemplate(teamTableRowTemplate);
 
                         // Calculate the rank cell, including a tie.
-                        const rankCell = $("<td />").addClass("has-text-right");
+                        const rankCell = getByAndRemoveId(tableRow, "rankColumn");
                         if (team.Scores.IsTie) {
                             hasTie = true;
                             rankCell.append($("<b />")
@@ -406,134 +444,57 @@ function initializeLiveEvents() {
                             rankCell.text(team.Scores.Rank);
                         }
 
-                        tableRow.append(rankCell);
-
-                        tableRow
-                            .append($("<td />").text(`${team.Name} (${team.ChurchName})`))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .text(team.Scores.Wins))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .text(team.Scores.Losses))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .text(`${team.Scores.WinPercentage}%`))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .text(team.Scores.TotalPoints))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(team.Scores.AveragePoints ? team.Scores.AveragePoints : "&nbsp;"))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(team.Scores.QuizOuts ? team.Scores.QuizOuts : "&nbsp;"))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(team.Scores.QuestionCorrectPercentage ? `${team.Scores.WinPercentage}%` : "&nbsp;"))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(team.Scores.Correct30s ? team.Scores.Correct30s : "&nbsp;"))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(team.Scores.Correct20s ? team.Scores.Correct20s : "&nbsp;"))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(team.Scores.Correct10s ? team.Scores.Correct10s : "&nbsp;"));
+                        getByAndRemoveId(tableRow, "nameColumn").text(`${team.Name} (${team.ChurchName})`);
+                        getByAndRemoveId(tableRow, "winColumn").text(team.Scores.Wins);
+                        getByAndRemoveId(tableRow, "lossColumn").text(team.Scores.Losses);
+                        getByAndRemoveId(tableRow, "winPercentageColumn").text(`${team.Scores.WinPercentage}%`);
+                        getByAndRemoveId(tableRow, "totalColumn").text(team.Scores.TotalPoints);
+                        getByAndRemoveId(tableRow, "averageColumn").append(team.Scores.AveragePoints ? team.Scores.AveragePoints : "&nbsp;");
+                        getByAndRemoveId(tableRow, "quizOutColumn").append(team.Scores.QuizOuts ? team.Scores.QuizOuts : "&nbsp;");
+                        getByAndRemoveId(tableRow, "quizOutPercentageColumn").append(team.Scores.QuestionCorrectPercentage ? `${team.Scores.WinPercentage}%` : "&nbsp;");
+                        getByAndRemoveId(tableRow, "question30sColumn").append(team.Scores.Correct30s ? team.Scores.Correct30s : "&nbsp;");
+                        getByAndRemoveId(tableRow, "question20sColumn").append(team.Scores.Correct20s ? team.Scores.Correct20s : "&nbsp;");
+                        getByAndRemoveId(tableRow, "question10sColumn").append(team.Scores.Correct10s ? team.Scores.Correct10s : "&nbsp;");
 
                         teamTableBody.append(tableRow);
                     }
 
-                    teamsContainer.append(
-                        $("<table />")
-                            .addClass(["table", "is-striped", "is-fullwidth", "is-bordered", "is-narrow"])
-                            .append($("<thead />")
-                                .append($("<tr />")
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "30")
-                                        .text("#"))
-                                    .append($("<th />")
-                                        .attr("width", "33%")
-                                        .text("Team (Church)"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "30")
-                                        .text("W"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "30")
-                                        .text("L"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "65")
-                                        .text("W%"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "65")
-                                        .text("Total"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "65")
-                                        .text("Avg"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "45")
-                                        .text("QO"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "45")
-                                        .text("Q%"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "45")
-                                        .text("30s"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "45")
-                                        .text("20s"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "45")
-                                        .text("10s"))))
-                            .append(teamTableBody));
-
-                    if (hasTie) {
-                        teamsContainer.append($("<div />")
-                            .append($("<font />")
-                                .attr("size", 2)
-                                .append($("<i />").text("* Tie couldn't be broken by tie breaking rules."))));
+                    const teamTieBreakingRow = getByAndRemoveId(teamsContainer, "teamTieBreakingRow");
+                    if (!hasTie) {
+                        teamTieBreakingRow.remove();
                     }
-
-                    meetCell.append(teamsContainer);
 
                     // Create the Quizzers table.
                     const quizzersAnchorId = `${titleAnchorId}_quizzers`;
 
-                    const quizzersContainer = $("<div />").append(
-                        $("<h3 />")
-                            .prop("id", quizzersAnchorId)
-                            .text("Quizzers"));
+                    const quizzersContainer = getByAndRemoveId(meetCell, "quizzersSection")
+                        .prop("id", quizzersAnchorId);
 
                     if (meet.QuizzerRankingLabel) {
-                        quizzersContainer.append($("<div />")
-                            .addClass("is-size-6")
-                            .append($("<i />")
-                                .append($("<strong />").text("Individual Report:"))
-                                .append(` ${meet.QuizzerRankingLabel}`)));
+                        getByAndRemoveId(quizzersContainer, "quizzerRankingLabel")
+                            .text(meet.QuizzerRankingLabel);
+                    }
+                    else {
+                        quizzersContainer
+                            .find("#quizzersRankingRow")
+                            .remove();
                     }
 
                     // Build the Quizzers table.
                     hasTie = false;
-                    const quizzerTableBody = $("<tbody />");
+                    const quizzerTableBody = getByAndRemoveId(quizzersContainer, "quizzersTableBody");
+                    const quizzerTableRowTemplate = getByAndRemoveId(quizzerTableBody, "tableRow")
+                        .remove()
+                        .get(0);
+
                     for (let i = 0; i < meet.RankedQuizzers.length; i++) {
 
                         const quizzer = meet.Quizzers[meet.RankedQuizzers[i]]
 
-                        const tableRow = $("<tr />");
+                        const tableRow = cloneTemplate(quizzerTableRowTemplate);
 
                         // Calculate the rank cell, including a tie.
-                        const rankCell = $("<td />").addClass("has-text-right");
+                        const rankCell = getByAndRemoveId(tableRow, "rankColumn");
                         if (quizzer.Scores.IsTie) {
                             hasTie = true;
                             rankCell.append($("<b />")
@@ -543,87 +504,23 @@ function initializeLiveEvents() {
                             rankCell.text(quizzer.Scores.Rank);
                         }
 
-                        tableRow.append(rankCell);
-
-                        tableRow
-                            .append($("<td />").text(quizzer.Name))
-                            .append($("<td />").text(`${quizzer.TeamName} (${quizzer.ChurchName})`))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .text(quizzer.Scores.TotalPoints))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(quizzer.Scores.AveragePoints ? quizzer.Scores.AveragePoints : "&nbsp;"))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(quizzer.Scores.QuizOuts ? quizzer.Scores.QuizOuts : "&nbsp;"))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(quizzer.Scores.QuestionCorrectPercentage ? `${quizzer.Scores.QuestionCorrectPercentage}%` : "&nbsp;"))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(quizzer.Scores.Correct30s ? quizzer.Scores.Correct30s : "&nbsp;"))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(quizzer.Scores.Correct20s ? quizzer.Scores.Correct20s : "&nbsp;"))
-                            .append($("<td />")
-                                .addClass("has-text-right")
-                                .append(quizzer.Scores.Correct10s ? quizzer.Scores.Correct10s : "&nbsp;"));
+                        getByAndRemoveId(tableRow, "nameColumn").text(quizzer.Name);
+                        getByAndRemoveId(tableRow, "teamNameColumn").text(`${quizzer.TeamName} (${quizzer.ChurchName})`);
+                        getByAndRemoveId(tableRow, "totalColumn").text(quizzer.Scores.TotalPoints);
+                        getByAndRemoveId(tableRow, "averageColumn").append(quizzer.Scores.AveragePoints ? quizzer.Scores.AveragePoints : "&nbsp;");
+                        getByAndRemoveId(tableRow, "quizOutColumn").append(quizzer.Scores.QuizOuts ? quizzer.Scores.QuizOuts : "&nbsp;");
+                        getByAndRemoveId(tableRow, "quizOutPercentageColumn").append(quizzer.Scores.QuestionCorrectPercentage ? `${quizzer.Scores.QuestionCorrectPercentage}%` : "&nbsp;");
+                        getByAndRemoveId(tableRow, "question30sColumn").append(quizzer.Scores.Correct30s ? quizzer.Scores.Correct30s : "&nbsp;");
+                        getByAndRemoveId(tableRow, "question20sColumn").append(quizzer.Scores.Correct20s ? quizzer.Scores.Correct20s : "&nbsp;");
+                        getByAndRemoveId(tableRow, "question10sColumn").append(quizzer.Scores.Correct10s ? quizzer.Scores.Correct10s : "&nbsp;");
 
                         quizzerTableBody.append(tableRow);
                     }
 
-                    quizzersContainer.append(
-                        $("<table />")
-                            .addClass(["table", "is-striped", "is-fullwidth", "is-bordered", "is-narrow"])
-                            .append($("<thead />")
-                                .append($("<tr />")
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "30")
-                                        .text("#"))
-                                    .append($("<th />")
-                                        .text("Quizzer"))
-                                    .append($("<th />")
-                                        .text("Team (Church)"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "65")
-                                        .text("Total"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "65")
-                                        .text("Avg"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "45")
-                                        .text("QO"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "45")
-                                        .text("Q%"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "45")
-                                        .text("30s"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "45")
-                                        .text("20s"))
-                                    .append($("<th />")
-                                        .addClass("has-text-right")
-                                        .attr("width", "45")
-                                        .text("10s"))))
-                            .append(quizzerTableBody));
-
-                    if (hasTie) {
-                        quizzersContainer.append($("<div />")
-                            .append($("<font />")
-                                .attr("size", 2)
-                                .append($("<i />").text("* Tie couldn't be broken by tie breaking rules."))));
+                    const quizzersTieBreakingRow = getByAndRemoveId(quizzersContainer, "quizzerTieBreakingRow");
+                    if (!hasTie) {
+                        quizzersTieBreakingRow.remove();
                     }
-
-                    meetCell.append(quizzersContainer);
 
                     // Update the table of contents.
                     tocEntry.append(
@@ -638,119 +535,79 @@ function initializeLiveEvents() {
                                     .text("Quizzers"))));
                 }
                 else {
+                    // Update the print menu.
+                    getByAndRemoveId(meetCell, "print_ScheduleAndScores")
+                        .click(null, e => {
+                            allMeetCells.addClass("hide-on-print");
+                            meetCell.removeClass("hide-on-print");
 
-                    const teamCells = $("<div />")
-                        .addClass(["columns", "is-multiline"]);
+                            window.print();
 
-                    meetCell.append(teamCells);
+                            allMeetCells.removeClass("hide-on-print");
+                        });
 
-                    printMenu
-                        .append($("<a />")
-                            .addClass("dropdown-item")
-                            .text("Schedule and Scores")
-                            .click(null, e => {
-                                allMeetCells.addClass("hide-on-print");
-                                meetCell.removeClass("hide-on-print");
+                    getByAndRemoveId(meetCell, "print_ScheduleOnly")
+                        .click(null, e => {
+                            allMeetCells.addClass("hide-on-print");
+                            meetCell.removeClass("hide-on-print");
+                            resultsPane.addClass("blank-schedule");
+                            allScheduleOnlyCells.removeClass("hide-on-print");
 
-                                window.print();
+                            window.print();
 
-                                allMeetCells.removeClass("hide-on-print");
-                            }))
-                        .append($("<a />")
-                            .addClass("dropdown-item")
-                            .text("Schedule Only")
-                            .click(null, e => {
-                                allMeetCells.addClass("hide-on-print");
-                                meetCell.removeClass("hide-on-print");
-                                resultsPane.addClass("blank-schedule");
+                            allScheduleOnlyCells.addClass("hide-on-print");
+                            resultsPane.removeClass("blank-schedule");
+                            allMeetCells.removeClass("hide-on-print");
+                        });
 
-                                window.print();
+                    const teamCards = getByAndRemoveId(meetCell, "teamCards");
+                    const teamCardTemplate = getByAndRemoveId(teamCards, "cardTemplate")
+                        .remove()
+                        .get(0);
 
-                                resultsPane.removeClass("blank-schedule");
-                                allMeetCells.removeClass("hide-on-print");
-                            }));
-
-                    let hasMatchTimes = false;
-                    for (let match of meet.Matches) {
-                        if (match.MatchTime) {
-                            hasMatchTimes = true;
-                            break;
-                        }
-                    }
-
+                    // Build the team cards.
                     for (let i = 0; i < meet.Teams.length; i++) {
 
                         const team = meet.Teams[i];
 
-                        const teamCard = $("<div />")
-                            .addClass(["column", "is-half", "team-card", "p-3"])
-                            .append($("<p />")
-                                .addClass(["title", "is-5"])
-                                .text(team.Name))
-                            .append($("<p />")
-                                .addClass(["subtitle", "is-7"])
-                                .text(team.ChurchName));
+                        const teamCard = cloneTemplate(teamCardTemplate);
 
-                        teamCells.append(teamCard);
+                        // Add the team information.
+                        getByAndRemoveId(teamCard, "teamName")
+                            .text(team.Name);
+                        getByAndRemoveId(teamCard, "churchName")
+                            .text(team.ChurchName);
 
+                        teamCards.append(teamCard);
+
+                        // Add the ranking information (if present).
+                        const statsRow = getByAndRemoveId(teamCard, "statsRow");
                         if (meet.RankedTeams) {
-
-                            teamCard.append(
-                                $("<div />")
-                                    .addClass(["columns", "is-mobile", "is-centered", "mt-2", "hide-if-schedule"])
-                                    .append($("<div />")
-                                        .addClass(["column", "is-3", "has-text-centered", "team-card-right-border"])
-                                        .append($("<span />")
-                                            .addClass(["title", "is-5"])
-                                            .text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''}`))
-                                        .append($("<br />"))
-                                        .append($("<i />")
-                                            .addClass(["subtitle", "is-6"])
-                                            .text("PLACE")))
-                                    .append($("<div />")
-                                        .addClass(["column", "is-one-fifth", "has-text-centered", "team-card-right-border"])
-                                        .append($("<span />")
-                                            .addClass(["title", "is-5"])
-                                            .text(`${team.Scores.Wins}-${team.Scores.Losses}`))
-                                        .append($("<br />"))
-                                        .append($("<i />")
-                                            .addClass(["subtitle", "is-6"])
-                                            .text("W-L")))
-                                    .append($("<div />")
-                                        .addClass(["column", "is-one-fifth", "has-text-centered", "team-card-right-border"])
-                                        .append($("<span />")
-                                            .addClass(["title", "is-5"])
-                                            .text(team.Scores.TotalPoints))
-                                        .append($("<br />"))
-                                        .append($("<i />")
-                                            .addClass(["subtitle", "is-6"])
-                                            .text("PTS")))
-                                    .append($("<div />")
-                                        .addClass(["column", "is-one-fifth", "has-text-centered"])
-                                        .append($("<span />")
-                                            .addClass(["title", "is-5"])
-                                            .text(team.Scores.AveragePoints))
-                                        .append($("<br />"))
-                                        .append($("<i />")
-                                            .addClass(["subtitle", "is-6"])
-                                            .text("AVG"))));
-
-                            let rank = team.Scores.Rank;
-                            if (team.Scores.IsTie) {
-                                rank += "*";
-                            }
+                            getByAndRemoveId(teamCard, "rankLabel")
+                                .text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''}`);
+                            getByAndRemoveId(teamCard, "recordLabel")
+                                .text(`${team.Scores.Wins}-${team.Scores.Losses}`);
+                            getByAndRemoveId(teamCard, "pointsLabel")
+                                .text(team.Scores.TotalPoints);
+                            getByAndRemoveId(teamCard, "averageLabel")
+                                .text(team.Scores.AveragePoints);
+                        }
+                        else {
+                            statsRow.remove();
                         }
 
-                        const matchesList = $("<ol />")
-                            .addClass("is-size-7");
-                        teamCard.append(matchesList);
+                        // Add the match items.
+                        const matchesList = getByAndRemoveId(teamCard, "matchList");
+                        const matchItemTemplate = getByAndRemoveId(matchesList, "matchItem")
+                            .remove()
+                            .get(0);
 
                         let matchIndex = 0;
                         for (let match of team.Matches) {
 
                             const matchId = meet.Matches[matchIndex].Id;
 
-                            const matchListItem = $("<li />");
+                            const matchListItem = cloneTemplate(matchItemTemplate);
                             if (match) {
 
                                 const isLiveMatch = match.CurrentQuestion && meet.RankedTeams;
@@ -812,37 +669,34 @@ function initializeLiveEvents() {
 
                                 // Add the scheduled room and time.
                                 scheduleText.push(`in ${match.Room}`);
-                                if (hasMatchTimes) {
-                                    scheduleText.push(`@ ${meet.Matches[matchIndex].MatchTime}`);
+                                const matchTime = meet.Matches[matchIndex].MatchTime;
+                                if (matchTime) {
+                                    scheduleText.push(`@ ${matchTime}`);
                                 }
 
+                                // Output the schedule text for all scenarios.
+                                getByAndRemoveId(matchListItem, "scheduleLabel")
+                                    .text(scheduleText.join(" "));
+
                                 // If there isn't a score, no link is required AND there's no need to hide the schedule during printing.
+                                const statsLabel = getByAndRemoveId(matchListItem, "statsLabel");
                                 if (!scoreText) {
-                                    matchListItem.text(scheduleText.join(" "));
+                                    statsLabel.text(scheduleText.join(" "));
                                 }
                                 else {
 
-                                    const matchScoreContainer = $("<div />")
-                                        .addClass("hide-if-schedule")
-                                        .append($("<a />")
-                                            .addClass("hide-if-schedule")
-                                            .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
-                                            .text(scoreText.join(" ")));
+                                    getByAndRemoveId(statsLabel, "statsLink")
+                                        .click(null, e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
+                                        .text(scoreText.join(" "));
 
+                                    const liveEventLabel = getByAndRemoveId(matchListItem, "liveEventLabel");
                                     if (isLiveMatch) {
-                                        matchScoreContainer
-                                            .append("<br />")
-                                            .append($("<i />")
-                                                .append($("<i />").addClass(["fas", "fa-broadcast-tower"]))
-                                                .append("&nbsp;")
-                                                .append(`Question #${match.CurrentQuestion}`));
+                                        getByAndRemoveId(liveEventLabel, "questionNumber")
+                                            .text(match.CurrentQuestion);
                                     }
-
-                                    matchListItem
-                                        .append($("<div />")
-                                            .addClass("show-if-schedule")
-                                            .text(scheduleText.join(" ")))
-                                        .append(matchScoreContainer);
+                                    else {
+                                        liveEventLabel.remove();
+                                    }
                                 }
                             }
                             else {
@@ -854,17 +708,19 @@ function initializeLiveEvents() {
                             matchIndex++;
                         }
 
+                        // Build the list of quizzers.
                         const quizzers = [];
                         for (let quizzerId of team.Quizzers) {
                             quizzers.push(meet.Quizzers[quizzerId].Name);
                         }
 
+                        const quizzersContainer = getByAndRemoveId(teamCard, "quizzersContainer");
                         if (quizzers.length > 0) {
-                            teamCard.append(
-                                $("<p />")
-                                    .addClass("is-size-7")
-                                    .append($("<b />").text("Quizzers: "))
-                                    .append(quizzers.join(" | ")));
+                            getByAndRemoveId(quizzersContainer, "quizzersLabel")
+                                .text(quizzers.join(" | "));
+                        }
+                        else {
+                            quizzersContainer.remove();
                         }
                     }
                 }
@@ -875,6 +731,7 @@ function initializeLiveEvents() {
 
             // Capture all the meet cells.
             const allMeetCells = $(".meet-cell");
+            const allScheduleOnlyCells = $(".show-if-schedule");
 
             // Add the elements to the table of contents.
             $("#pageTOC")
