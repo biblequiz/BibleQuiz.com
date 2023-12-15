@@ -3,12 +3,12 @@
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/qrcode.min.js" type="text/javascript"></script>
-<script src="{{ site.baseurl }}/assets/js/live-event-scores.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/live-event-scores.js" type="module"></script>
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/live-event-scores.css">
 
 <div style="display:none" id="resultsPane">
   <div class="tabs is-boxed hide-on-print">
-    <ul>
+    <ul class="mt-0 ml-0">
       <li id="schedulesTab">
         <a>
           <span class="icon is-small"><i class="fas fa-calendar-alt"></i></span>
@@ -22,6 +22,49 @@
         </a>
       </li>
     </ul>
+  </div>
+
+  <div class="field has-addons hide-on-print">
+    <div class="dropdown" id="searchDropdown">
+      <div class="dropdown-menu" style="top: 75%">
+        <div class="dropdown-content">
+          <b class="dropdown-item">QUIZZERS</b>
+          <div id="quizzerResults">
+            <a class="dropdown-item" id="resultTemplate">
+              <span id="name"></span> @ <span id="meet"></span>
+              <br />
+              <i><span id="team"></span> (<span id="church"></span>)</i>
+            </a>
+            <i class="dropdown-item" id="noResultsTemplate">
+              No Results
+            </i>
+          </div>
+          <hr class="dropdown-divider">
+          <b class="dropdown-item">TEAMS</b>
+          <div id="teamResults">
+            <a class="dropdown-item" id="resultTemplate">
+              <span id="name"></span> @ <span id="meet"></span>
+              <br />
+              <i><span id="church"></span></i>
+            </a>
+            <i class="dropdown-item" id="noResultsTemplate">
+              No Results
+            </i>
+          </div>
+        </div>
+        <div class="dropdown-content" id="searchDropdownItems" style="display:none">
+        </div>
+      </div>
+    </div>
+    <p class="control is-expanded has-icons-left">
+      <input class="input" type="search" id="searchBox" placeholder="Search Team or Quizzer ..." />
+      <span class="icon is-small is-left"><i class="fas fa-search"></i></span>
+    </p>
+    <div class="control">
+      <a class="button is-primary" id="searchButton">
+        Search
+      </a>
+    </div>
   </div>
 </div>
 

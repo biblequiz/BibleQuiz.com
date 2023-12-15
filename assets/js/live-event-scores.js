@@ -1,3 +1,5 @@
+import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.esm.js'
+
 function initializeLiveEvents() {
 
     const loadingPane = $("#loadingPane");
@@ -5,6 +7,52 @@ function initializeLiveEvents() {
     const errorPane = $("#errorPane");
 
     $(document.body).css("overflow-x", "scroll");
+
+    // Configure search.
+    let searchIndex = null;
+    let searchIndexSource = null;
+    const searchDropdown = resultsPane.find("#searchDropdown");
+    const searchBox = resultsPane
+        .find("#searchBox")
+        .change(null, e => {
+            searchTeamsAndQuizzers(searchBox.val());
+        })
+        .focus(null, e => {
+            e.stopPropagation();
+            searchTeamsAndQuizzers(searchBox.val());
+        })
+        .click(null, e => {
+            e.stopPropagation();
+            searchTeamsAndQuizzers(searchBox.val());
+        });
+
+    const searchQuizzerElements = {
+        container: getByAndRemoveId(searchDropdown, "quizzerResults")
+    };
+
+    searchQuizzerElements.noResultsTemplate = getByAndRemoveId(searchQuizzerElements.container, "noResultsTemplate")
+        .remove()
+        .get(0);
+    searchQuizzerElements.resultTemplate = getByAndRemoveId(searchQuizzerElements.container, "resultTemplate")
+        .remove()
+        .get(0);
+
+    const searchTeamElements = {
+        container: getByAndRemoveId(searchDropdown, "teamResults")
+    };
+
+    searchTeamElements.noResultsTemplate = getByAndRemoveId(searchTeamElements.container, "noResultsTemplate")
+        .remove()
+        .get(0);
+    searchTeamElements.resultTemplate = getByAndRemoveId(searchTeamElements.container, "resultTemplate")
+        .remove()
+        .get(0);
+
+    resultsPane
+        .find("#searchButton")
+        .click(null, e => searchTeamsAndQuizzers(searchBox.val()));
+
+    const searchHighlightedElements = [];
 
     // Capture the templates.
     const statsTemplate = document.getElementById("statsTemplate");
@@ -287,6 +335,128 @@ function initializeLiveEvents() {
         return element;
     }
 
+    function searchTeamsAndQuizzers(text) {
+
+        // If there is no text, remove the drop down.
+        if (null == text || 0 == text.length) {
+            searchDropdown.removeClass("is-active");
+            return;
+        }
+
+        // Ensure the search index is initialized.
+        if (null == searchIndex) {
+            searchIndex = {
+                quizzers: new Fuse(
+                    searchIndexSource.quizzers,
+                    {
+                        shouldSort: false,
+                        includeScore: true,
+                        ignoreLocation: true,
+                        keys: ["name"],
+                        threshold: 0.4
+                    }),
+                teams: new Fuse(
+                    searchIndexSource.teams,
+                    {
+                        shouldSort: false,
+                        includeScore: true,
+                        ignoreLocation: true,
+                        keys: ["name", "church"],
+                        threshold: 0.4
+                    }),
+            };
+        }
+
+        // Search both the search indexes.
+        const quizzerResults = searchIndex.quizzers.search(text);
+        const teamResults = searchIndex.teams.search(text);
+
+        function sortSearchResults(a, b) {
+            if (a.score < b.score) {
+                return -1;
+            }
+            else if (a.score > b.score) {
+                return 1;
+            }
+            else {
+                return 0;
+            }
+        }
+
+        function selectSearchElement(event) {
+            event.stopPropagation();
+            searchDropdown.removeClass("is-active");
+
+            const elements = event.data;
+            elements.scroll.get(0).scrollIntoView(true);
+
+            for (let element of searchHighlightedElements) {
+                element.removeClass("search-highlight");
+            }
+
+            searchHighlightedElements.splice(0);
+
+            for (let element of elements.highlight) {
+                searchHighlightedElements.push(element);
+                element.addClass("search-highlight");
+            }
+        }
+
+        quizzerResults.sort(sortSearchResults);
+        teamResults.sort(sortSearchResults);
+
+        // Empty the exisiting elements.
+        searchQuizzerElements.container.empty();
+        searchTeamElements.container.empty();
+
+        // Append the quizzers.
+        let quizzerCount = Math.min(quizzerResults.length, 15);
+        if (quizzerCount > 0) {
+
+            for (let i = 0; i < quizzerCount; i++) {
+
+                const quizzer = quizzerResults[i].item;
+
+                const linkItem = cloneTemplate(searchQuizzerElements.resultTemplate)
+                    .click({ scroll: quizzer.scrollToElement, highlight: quizzer.highlightElements }, selectSearchElement);
+
+                getByAndRemoveId(linkItem, "name").text(quizzer.name);
+                getByAndRemoveId(linkItem, "meet").text(quizzer.meet);
+                getByAndRemoveId(linkItem, "team").text(quizzer.team);
+                getByAndRemoveId(linkItem, "church").text(quizzer.church);
+
+                searchQuizzerElements.container.append(linkItem);
+            }
+        }
+        else {
+            searchQuizzerElements.container.append(cloneTemplate(searchQuizzerElements.noResultsTemplate));
+        }
+
+        // Append the teams.
+        let teamCount = Math.min(teamResults.length, 15);
+        if (teamCount > 0) {
+
+            for (let i = 0; i < teamCount; i++) {
+
+                const team = teamResults[i].item;
+
+                const linkItem = cloneTemplate(searchTeamElements.resultTemplate)
+                    .click({ scroll: team.scrollToElement, highlight: team.highlightElements }, selectSearchElement);
+
+                getByAndRemoveId(linkItem, "name").text(team.name);
+                getByAndRemoveId(linkItem, "meet").text(team.meet);
+                getByAndRemoveId(linkItem, "church").text(team.church);
+
+                searchTeamElements.container.append(linkItem);
+            }
+        }
+        else {
+            searchTeamElements.container.append(cloneTemplate(searchTeamElements.noResultsTemplate));
+        }
+
+        searchDropdown.addClass("is-active");
+    }
+
     // Retrieve the score report that contains all the information about the event.
     fetch(`https://scores.biblequiz.com/api/Events/${eventId}/ScoringReport`)
         .then(response => response.json())
@@ -298,6 +468,10 @@ function initializeLiveEvents() {
                 loadingPane.hide();
                 return;
             }
+
+            // Reset the search.
+            searchIndexSource = { quizzers: [], teams: [] };
+            searchIndex = null;
 
             // Update the title of the page.
             $(document).prop("title", report.EventName);
@@ -444,7 +618,7 @@ function initializeLiveEvents() {
                             rankCell.text(team.Scores.Rank);
                         }
 
-                        getByAndRemoveId(tableRow, "nameColumn").text(`${team.Name} (${team.ChurchName})`);
+                        const highlightName = getByAndRemoveId(tableRow, "nameColumn").text(`${team.Name} (${team.ChurchName})`);
                         getByAndRemoveId(tableRow, "winColumn").text(team.Scores.Wins);
                         getByAndRemoveId(tableRow, "lossColumn").text(team.Scores.Losses);
                         getByAndRemoveId(tableRow, "winPercentageColumn").text(`${team.Scores.WinPercentage}%`);
@@ -455,6 +629,15 @@ function initializeLiveEvents() {
                         getByAndRemoveId(tableRow, "question30sColumn").append(team.Scores.Correct30s ? team.Scores.Correct30s : "&nbsp;");
                         getByAndRemoveId(tableRow, "question20sColumn").append(team.Scores.Correct20s ? team.Scores.Correct20s : "&nbsp;");
                         getByAndRemoveId(tableRow, "question10sColumn").append(team.Scores.Correct10s ? team.Scores.Correct10s : "&nbsp;");
+
+                        // Update the search index.
+                        searchIndexSource.teams.push({
+                            name: team.Name,
+                            church: team.ChurchName,
+                            meet: meet.Name,
+                            scrollToElement: tableRow,
+                            highlightElements: [highlightName]
+                        });
 
                         teamTableBody.append(tableRow);
                     }
@@ -504,7 +687,7 @@ function initializeLiveEvents() {
                             rankCell.text(quizzer.Scores.Rank);
                         }
 
-                        getByAndRemoveId(tableRow, "nameColumn").text(quizzer.Name);
+                        const highlightName = getByAndRemoveId(tableRow, "nameColumn").text(quizzer.Name);
                         getByAndRemoveId(tableRow, "teamNameColumn").text(`${quizzer.TeamName} (${quizzer.ChurchName})`);
                         getByAndRemoveId(tableRow, "totalColumn").text(quizzer.Scores.TotalPoints);
                         getByAndRemoveId(tableRow, "averageColumn").append(quizzer.Scores.AveragePoints ? quizzer.Scores.AveragePoints : "&nbsp;");
@@ -513,6 +696,16 @@ function initializeLiveEvents() {
                         getByAndRemoveId(tableRow, "question30sColumn").append(quizzer.Scores.Correct30s ? quizzer.Scores.Correct30s : "&nbsp;");
                         getByAndRemoveId(tableRow, "question20sColumn").append(quizzer.Scores.Correct20s ? quizzer.Scores.Correct20s : "&nbsp;");
                         getByAndRemoveId(tableRow, "question10sColumn").append(quizzer.Scores.Correct10s ? quizzer.Scores.Correct10s : "&nbsp;");
+
+                        // Update the search index.
+                        searchIndexSource.quizzers.push({
+                            name: quizzer.Name,
+                            team: quizzer.TeamName,
+                            church: quizzer.ChurchName,
+                            meet: meet.Name,
+                            scrollToElement: tableRow,
+                            highlightElements: [highlightName]
+                        });
 
                         quizzerTableBody.append(tableRow);
                     }
@@ -573,12 +766,21 @@ function initializeLiveEvents() {
                         const teamCard = cloneTemplate(teamCardTemplate);
 
                         // Add the team information.
-                        getByAndRemoveId(teamCard, "teamName")
+                        const highlightTeamName = getByAndRemoveId(teamCard, "teamName")
                             .text(team.Name);
                         getByAndRemoveId(teamCard, "churchName")
                             .text(team.ChurchName);
 
                         teamCards.append(teamCard);
+
+                        // Update the search index.
+                        searchIndexSource.teams.push({
+                            name: team.Name,
+                            church: team.ChurchName,
+                            meet: meet.Name,
+                            scrollToElement: teamCard,
+                            highlightElements: [highlightTeamName]
+                        });
 
                         // Add the ranking information (if present).
                         const statsRow = getByAndRemoveId(teamCard, "statsRow");
@@ -709,15 +911,36 @@ function initializeLiveEvents() {
                         }
 
                         // Build the list of quizzers.
-                        const quizzers = [];
-                        for (let quizzerId of team.Quizzers) {
-                            quizzers.push(meet.Quizzers[quizzerId].Name);
-                        }
-
                         const quizzersContainer = getByAndRemoveId(teamCard, "quizzersContainer");
-                        if (quizzers.length > 0) {
-                            getByAndRemoveId(quizzersContainer, "quizzersLabel")
-                                .text(quizzers.join(" | "));
+                        if (team.Quizzers.length > 0) {
+
+                            const quizzerElements = getByAndRemoveId(quizzersContainer, "quizzersLabel")
+                                .empty();
+
+                            let isFirstQuizzer = true;
+                            for (let quizzerId of team.Quizzers) {
+
+                                if (isFirstQuizzer) {
+                                    isFirstQuizzer = false;
+                                }
+                                else {
+                                    quizzerElements.append(" | ");
+                                }
+
+                                const quizzerName = meet.Quizzers[quizzerId].Name;
+                                const quizzerElement = $("<span />").text(quizzerName);
+                                quizzerElements.append(quizzerElement);
+
+                                // Update the search index.
+                                searchIndexSource.quizzers.push({
+                                    name: quizzerName,
+                                    team: team.Name,
+                                    church: team.ChurchName,
+                                    meet: meet.Name,
+                                    scrollToElement: teamCard,
+                                    highlightElements: [highlightTeamName, quizzerElement]
+                                });
+                            }
                         }
                         else {
                             quizzersContainer.remove();

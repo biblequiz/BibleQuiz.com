@@ -7,6 +7,10 @@
     .show-if-schedule {
         display: none;
     }
+
+    .search-highlight {
+        background-color: #ffff80;
+    }
 }
 
 @media print {
