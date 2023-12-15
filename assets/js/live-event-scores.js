@@ -392,7 +392,7 @@ function initializeLiveEvents() {
                     // Update the progress.
                     const meetProgressBanner_Completed = getByAndRemoveId(meetCell, "meetProgress_IsCompleted");
                     const meetProgressBanner_Mismatch = getByAndRemoveId(meetCell, "meetProgress_IsMismatched");
-                    if (meet.HasScoringCompleted || meet.HasScoringCompleted) {
+                    if (meet.HasScoringCompleted || meet.HasRoomCompletionMismatch) {
 
                         getByAndRemoveId(meet.HasScoringCompleted ? meetProgressBanner_Completed : meetProgressBanner_Mismatch, "meetProgressLabel")
                             .text(meet.ScoringProgressMessage);
