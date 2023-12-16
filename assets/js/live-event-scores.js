@@ -410,7 +410,7 @@ function initializeLiveEvents() {
         searchTeamElements.container.empty();
 
         // Append the quizzers.
-        let quizzerCount = Math.min(quizzerResults.length, 15);
+        let quizzerCount = Math.min(quizzerResults.length, 8);
         if (quizzerCount > 0) {
 
             for (let i = 0; i < quizzerCount; i++) {
@@ -433,7 +433,7 @@ function initializeLiveEvents() {
         }
 
         // Append the teams.
-        let teamCount = Math.min(teamResults.length, 15);
+        let teamCount = Math.min(teamResults.length, 8);
         if (teamCount > 0) {
 
             for (let i = 0; i < teamCount; i++) {
