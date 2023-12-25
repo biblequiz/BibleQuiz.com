@@ -5,8 +5,24 @@ title: "Scholarships"
 date: "2023-12-24"
 ---
 
+Each year, over $10,000 is awarded in scholarships to various Bible Quiz participants. Additionally, universities that recognize and appreciate the dedication of quizzers also extend scholarship opportunities. Explore the list of available scholarships below.
+
+Please note that scholarship details are subject to frequent updates. If you have any additional opportunities or suggestions, we welcome you to reach out via email at [hello@biblequiz.com](mailto:hello@biblequiz.com).
+
+---
+
+<a href="https://agyouth.formstack.com/forms/ag_youth_ministries_scholarship_form" target="blank">
+	<img src="{% link assets/images/ag-youth-logo.png %}" alt="" style="max-width:60%;">
+</a>
+
+For those who have earned scholarships from the Assemblies of God (e.g. placing in the top 3 at National Finals), you can request your scholarship money at the link below.
+
+<a href="https://agyouth.formstack.com/forms/ag_youth_ministries_scholarship_form" class="button is-primary" target="blank">AG General Scholarship Funds Request Form</a>
+
+---
+
 <a href="https://sagu.edu">
-	<img src="{% link assets/scholarships/sagu-logo-for-light-bg.png %}" alt="" style="max-width:40%;">
+	<img src="{% link assets/scholarships/sagu-logo-for-light-bg.png %}" alt="" style="max-width:60%;">
 </a>
 
 _[Dallas/Fort Worth Metroplex](https://maps.app.goo.gl/kXXrn1aRxLC9R2wq6) • [sagu.edu](https://sagu.edu)_
@@ -20,7 +36,7 @@ SAGU offers a generous amount of Bible Quiz scholarships, including 50% off tuit
 ---
 
 <a href="https://valleyforge.edu">
-	<img src="{% link assets/scholarships/UVF-Shield-Logo-navy.png %}" alt="" style="max-width:40%;">
+	<img src="{% link assets/scholarships/UVF-Shield-Logo-navy.png %}" alt="" style="max-width:60%;">
 </a>
 
 _[Phoenixville, PA](https://maps.app.goo.gl/kdZvyZb9m4if38WH9) • [valleyforge.edu](https://valleyforge.edu)_
@@ -34,7 +50,7 @@ UVF offers scholarships for both earning the National Memorization Award and for
 ---
 
 <a href="https://www.evangel.edu">
-	<img src="{% link assets/scholarships/evangel-university-logo.png %}" alt="" style="max-width:40%;">
+	<img src="{% link assets/scholarships/evangel-university-logo.png %}" alt="" style="max-width:60%;">
 </a>
 
 _[Springfield, MO](https://maps.app.goo.gl/2vepeXcQDwmnMkQ16) • [evangel.edu](https://www.evangel.edu)_
@@ -48,7 +64,7 @@ Scholarships are available for earing the National Memorization Award or for qui
 ---
 
 <a href="https://www.northwestu.edu">
-	<img src="{% link assets/scholarships/northwest-university-logo.png %}" alt="" style="max-width:40%;">
+	<img src="{% link assets/scholarships/northwest-university-logo.png %}" alt="" style="max-width:60%;">
 </a>
 
 _[Kirkland, WA](https://maps.app.goo.gl/5iwchBHuGK4GcFRU8) • [northwest.edu](https://www.northwestu.edu)_
