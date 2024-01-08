@@ -65,6 +65,7 @@ jbq:
 - id: 52d33f81-3305-4b26-6ef8-08dc02803b5e
   season: 2024
   registrationDates: Closes Jan 8, 2024
+  isLive: true
   isVisible: true
   name: Nebraska January 2024 JBQ Match
   scope: district
@@ -75,6 +76,7 @@ jbq:
 - id: e4863b91-71b9-4095-6efa-08dc02803b5e
   season: 2024
   registrationDates: Closes Jan 8, 2024
+  isLive: true
   isVisible: true
   name: STX 2023.24 League Meets
   scope: district
@@ -110,6 +112,16 @@ jbq:
   scopeLabel: Gulf
   locationName: various
   dates: Jan 20, 2024
+- id: 8762c4f4-8e0b-4d2d-3edf-08db96dbedbd
+  season: 2024
+  registrationDates: Closes Jan 28, 2024
+  isVisible: true
+  name: Oklahoma NE League (Tulsa) 23-24
+  scope: district
+  scopeLabel: Oklahoma
+  locationName: Carbondale Assembly of God
+  locationCity: Tulsa, OK
+  dates: Feb 3, 2024
 tbq:
 - id: 2ac28dc5-3618-45ba-0f58-08dbb09b83f3
   season: 2024
@@ -154,6 +166,7 @@ tbq:
 - id: d98bc842-e907-457f-3dc6-08db8164d66e
   season: 2024
   registrationDates: Closes Jan 11, 2024
+  isLive: true
   isVisible: true
   name: 'Peninsular Florida TBQ 2023-2024, League #3'
   scope: district
@@ -197,6 +210,16 @@ tbq:
   scope: tournament
   locationName: Living Hope Worship Center
   locationCity: Swedesboro, NJ
+  dates: Feb 3, 2024
+- id: 4ae3e681-4d75-4e20-6d8a-08dc0eb9527c
+  season: 2024
+  registrationDates: Closes Jan 31, 2024
+  isVisible: true
+  name: Southern Missouri District League Finals
+  scope: district
+  scopeLabel: Southern Missouri
+  locationName: Life360 Chesterfield
+  locationCity: Springfield, MO
   dates: Feb 3, 2024
 - id: ed6192d3-d767-46b4-6ef7-08dc02803b5e
   season: 2024
