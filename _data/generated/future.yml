@@ -53,7 +53,8 @@ jbq:
   dates: Nov 11 - Feb 24, 2024
 - id: 6ae074f1-3ae3-4160-0f55-08dbb09b83f3
   season: 2024
-  registrationDates: Closes Dec 30, 2023
+  registrationDates: Closed
+  isLive: true
   isVisible: true
   name: 2023-24 New Jersey Junior Bible Quiz Season
   scope: district
@@ -61,9 +62,21 @@ jbq:
   locationName: Evangel Chapel
   locationCity: Bridgewater, NJ
   dates: Jan 1 - Mar 2, 2024
+- id: 0f0ffd56-d69d-485c-2cee-08dbca84d98d
+  season: 2024
+  registrationDates: Closes Jan 15, 2024
+  isLive: true
+  isVisible: true
+  name: 2024-01 MN Central
+  scope: district
+  scopeLabel: Minnesota
+  locationName: Heritage Assembly of God
+  locationCity: Baxter, MN
+  dates: Jan 20, 2024
 - id: 770f16f7-49f4-4fdf-b8a5-08dbfcb5ed39
   season: 2024
   registrationDates: Closes Jan 15, 2024
+  isLive: true
   isVisible: true
   name: MN Metro League Jan 2024
   scope: district
@@ -74,12 +87,82 @@ jbq:
 - id: 121d1c27-2b0b-43d7-8e94-08dbe336d9c0
   season: 2024
   registrationDates: Closes Jan 17, 2024
+  isLive: true
   isVisible: true
   name: Prairie Invitational
   scope: tournament
   locationName: Element Church
   locationCity: Cheyenne, WY
   dates: Jan 20, 2024
+- id: 30cd1633-2b36-4c3a-ad03-08dc0265c589
+  season: 2024
+  registrationDates: Closed
+  isLive: true
+  isVisible: true
+  name: 'Tennessee Meet #3 - January 20th'
+  scope: region
+  scopeLabel: Gulf
+  locationName: various
+  dates: Jan 20, 2024
+- id: 52d33f81-3305-4b26-6ef8-08dc02803b5e
+  season: 2024
+  registrationDates: Closes Jan 23, 2024
+  isVisible: true
+  name: Nebraska January 2024 JBQ Match
+  scope: district
+  scopeLabel: Nebraska
+  locationName: New Life Assembly
+  locationCity: Kearney, NE
+  dates: Jan 27, 2024
+- id: bb2989e4-00d5-4170-aab8-08dbafd18f81
+  season: 2024
+  registrationDates: Closes Jan 30, 2024
+  isVisible: true
+  name: Woodlake - Playoffs
+  scope: district
+  scopeLabel: Oklahoma
+  locationName: Woodlake Church Bixby
+  locationCity: Tulsa, OK
+  dates: Jan 31, 2024
+- id: 637641a8-237b-4c32-6efc-08dc02803b5e
+  season: 2024
+  registrationDates: Closes Jan 30, 2024
+  isVisible: true
+  name: Alabama February Meet
+  scope: district
+  scopeLabel: Alabama
+  locationName: Evangel Church Montgomery
+  dates: Feb 3, 2024
+- id: 8762c4f4-8e0b-4d2d-3edf-08db96dbedbd
+  season: 2024
+  registrationDates: Closes Jan 28, 2024
+  isVisible: true
+  name: Oklahoma NE League (Tulsa) 23-24
+  scope: district
+  scopeLabel: Oklahoma
+  locationName: Carbondale Assembly of God
+  locationCity: Tulsa, OK
+  dates: Feb 3, 2024
+- id: e8a6387f-547a-42b6-a513-08dc0ec824e9
+  season: 2024
+  registrationDates: Closes Mar 1, 2024
+  isVisible: true
+  name: Pen Florida District Finals 2024
+  scope: district
+  scopeLabel: Peninsular Florida
+  locationName: Southeastern University
+  locationCity: Lakeland, FL
+  dates: Apr 13, 2024
+- id: 462b05ad-78fb-4e13-6d8b-08dc0eb9527c
+  season: 2024
+  registrationDates: Closes Mar 20, 2024
+  isVisible: true
+  name: Illinois District Finals
+  scope: district
+  scopeLabel: Illinois
+  locationName: First Assembly of God
+  locationCity: Normal, IL
+  dates: Apr 20, 2024
 tbq:
 - id: 2ac28dc5-3618-45ba-0f58-08dbb09b83f3
   season: 2024
@@ -111,28 +194,10 @@ tbq:
   scopeLabel: North Carolina
   locationName: TBD
   dates: Oct 21 - Mar 31, 2024
-- id: 4c296dcd-8f7a-4ee5-9995-08dbf5327d83
-  season: 2024
-  registrationDates: Closes Jan 3, 2024
-  isVisible: true
-  name: 'Southern Missouri District League Meet #4'
-  scope: district
-  scopeLabel: Southern Missouri
-  locationName: New Vision Ministries
-  locationCity: Springfield, MO
-  dates: Jan 6, 2024
-- id: 152d6cd7-2871-4b5c-c764-08dbe204ce9e
-  season: 2024
-  registrationDates: Closes Jan 8, 2024
-  isVisible: true
-  name: Mid-Winter Classic 2024
-  scope: tournament
-  locationName: Sioux Falls First
-  locationCity: Sioux Falls, SD
-  dates: Jan 12 - 13, 2024
 - id: d98bc842-e907-457f-3dc6-08db8164d66e
   season: 2024
-  registrationDates: Closes Jan 11, 2024
+  registrationDates: Closed
+  isLive: true
   isVisible: true
   name: 'Peninsular Florida TBQ 2023-2024, League #3'
   scope: district
@@ -140,6 +205,47 @@ tbq:
   locationName: Faith Assembly of God
   locationCity: Orlando, FL
   dates: Jan 13 - Apr 13, 2024
+- id: ccb1bd74-bddc-47ff-ad06-08dc0265c589
+  season: 2024
+  registrationDates: Closed
+  isLive: true
+  isVisible: true
+  name: '2023-2024 Bible Quiz Georgia League Meet #3'
+  scope: district
+  scopeLabel: Georgia
+  locationName: AIPF
+  locationCity: Johns Creek, GA
+  dates: Jan 20, 2024
+- id: ba798cdb-8c63-41a4-6d8c-08dc0eb9527c
+  season: 2024
+  registrationDates: Closes Jan 17, 2024
+  isLive: true
+  isVisible: true
+  name: Northwest TBQ - League 3 (2024)
+  scope: district
+  scopeLabel: Northwest
+  locationName: Bellevue Neighborhood Church
+  locationCity: Bellevue, WA
+  dates: Jan 20, 2024
+- id: 5f4ddfd8-6c91-4c28-ad04-08dc0265c589
+  season: 2024
+  registrationDates: Closed
+  isLive: true
+  isVisible: true
+  name: 'Tennessee Meet #3 - January 20th, 2024'
+  scope: district
+  scopeLabel: Tennessee
+  locationName: various
+  dates: Jan 20, 2024
+- id: 84fa570f-6b9b-4d1c-ad05-08dc0265c589
+  season: 2024
+  registrationDates: Closes Jan 14, 2024
+  isVisible: true
+  name: 39th TBQ Friendship Classic 2024
+  scope: nation
+  locationName: Oxford Assembly of God
+  locationCity: Oxford, FL
+  dates: Jan 26 - 27, 2024
 - id: df21f695-3c09-491c-9bb9-08dbca01dc26
   season: 2024
   registrationDates: Closes Jan 29, 2024
@@ -149,3 +255,22 @@ tbq:
   locationName: Living Hope Worship Center
   locationCity: Swedesboro, NJ
   dates: Feb 3, 2024
+- id: 4ae3e681-4d75-4e20-6d8a-08dc0eb9527c
+  season: 2024
+  registrationDates: Closes Jan 31, 2024
+  isVisible: true
+  name: Southern Missouri District League Finals
+  scope: district
+  scopeLabel: Southern Missouri
+  locationName: Life360 Chesterfield
+  locationCity: Springfield, MO
+  dates: Feb 3, 2024
+- id: ed6192d3-d767-46b4-6ef7-08dc02803b5e
+  season: 2024
+  registrationDates: Closes Feb 25, 2024
+  isVisible: true
+  name: Windy City Classic
+  scope: nation
+  locationName: Calvary Church
+  locationCity: Naperville, IL
+  dates: Mar 1 - 2, 2024

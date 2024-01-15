@@ -40,16 +40,20 @@
     - name: Products
       link: /products/
       icon: fas fa-shopping-cart
+    - name: Training
+      link: /training/
+      icon: fas fa-dumbbell
     - label:
+    - name: Scholarships
+      link: /scholarships/
+      icon: fas fa-user-graduate
     - name: Next Season
       link: /next-season/
       icon: fas fa-hourglass-start
     - name: History
       link: /history/
       icon: fas fa-history
-    - name: Training
-      link: /training/
-      icon: fas fa-dumbbell
+
 - name: Blog
   link: /blog/
   icon: fas fa-pencil-alt
