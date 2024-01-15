@@ -1,8 +1,21 @@
-/* Configuration for the page when printing. */
-@media print {
+.team-card-right-border {
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+}
 
+/* Configuration for the page when printing. */
+@media not print {
+    .show-if-schedule {
+        display: none;
+    }
+
+    .search-highlight {
+        background-color: #ffff80;
+    }
+}
+
+@media print {
     .notification {
-        padding: 0
+        padding: 0;
     }
 
     .is-success {
@@ -19,10 +32,14 @@
     }
 
     .blank-schedule .show-if-schedule {
-        display: block
+        display: block;
     }
 
     .blank-schedule .hide-if-schedule {
-        display: none
+        display: none;
+    }
+
+    div.team-card {
+        break-inside: avoid;
     }
 }
