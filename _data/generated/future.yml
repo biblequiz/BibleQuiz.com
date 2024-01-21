@@ -60,17 +60,6 @@ jbq:
   scopeLabel: Peninsular Florida
   locationName: Various Locations in the Pen Florida District
   dates: Nov 11 - Feb 24, 2024
-- id: 7d61939b-daa8-4651-049c-08db9c5fbd00
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Wyoming League Meet #2'
-  scope: district
-  scopeLabel: Wyoming
-  locationName: Element Church
-  locationCity: Cheyenne, WY
-  dates: Nov 18 - Jan 20, 2024
 - id: 6ae074f1-3ae3-4160-0f55-08dbb09b83f3
   season: 2024
   registrationDates: Closed
@@ -82,48 +71,6 @@ jbq:
   locationName: Evangel Chapel
   locationCity: Bridgewater, NJ
   dates: Jan 1 - Mar 2, 2024
-- id: 0f0ffd56-d69d-485c-2cee-08dbca84d98d
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 2024-01 MN Central
-  scope: district
-  scopeLabel: Minnesota
-  locationName: Heritage Assembly of God
-  locationCity: Baxter, MN
-  dates: Jan 20, 2024
-- id: 770f16f7-49f4-4fdf-b8a5-08dbfcb5ed39
-  season: 2024
-  registrationDates: Closes Jan 19, 2024
-  isLive: true
-  isVisible: true
-  name: MN Metro League Jan 2024
-  scope: district
-  scopeLabel: Minnesota
-  locationName: Cedar Valley Church
-  locationCity: Bloomington, MN
-  dates: Jan 20, 2024
-- id: 121d1c27-2b0b-43d7-8e94-08dbe336d9c0
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Prairie Invitational
-  scope: tournament
-  locationName: Element Church
-  locationCity: Cheyenne, WY
-  dates: Jan 20, 2024
-- id: 30cd1633-2b36-4c3a-ad03-08dc0265c589
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Tennessee Meet #3 - January 20th, 2024'
-  scope: region
-  scopeLabel: Gulf
-  locationName: various
-  dates: Jan 20, 2024
 - id: 0c184533-90ee-48b8-a514-08dc0ec824e9
   season: 2024
   registrationDates: Closed
@@ -246,27 +193,6 @@ tbq:
   locationName: Faith Assembly of God
   locationCity: Orlando, FL
   dates: Jan 13 - Apr 13, 2024
-- id: ba798cdb-8c63-41a4-6d8c-08dc0eb9527c
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Northwest TBQ - League 3 (2024)
-  scope: district
-  scopeLabel: Northwest
-  locationName: Bellevue Neighborhood Church
-  locationCity: Bellevue, WA
-  dates: Jan 20, 2024
-- id: 5f4ddfd8-6c91-4c28-ad04-08dc0265c589
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Tennessee Meet #3 - January 20th, 2024'
-  scope: district
-  scopeLabel: Tennessee
-  locationName: various
-  dates: Jan 20, 2024
 - id: ccb1bd74-bddc-47ff-ad06-08dc0265c589
   season: 2024
   registrationDates: Closed
@@ -281,6 +207,7 @@ tbq:
 - id: 84fa570f-6b9b-4d1c-ad05-08dc0265c589
   season: 2024
   registrationDates: Closes Jan 18, 2024
+  isLive: true
   isVisible: true
   name: 39th TBQ Friendship Classic 2024
   scope: nation
