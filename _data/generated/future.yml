@@ -76,6 +76,7 @@ jbq:
 - id: bb2989e4-00d5-4170-aab8-08dbafd18f81
   season: 2024
   registrationDates: Closes Jan 30, 2024
+  isLive: true
   isVisible: true
   name: Woodlake - Playoffs
   scope: district
@@ -112,6 +113,15 @@ jbq:
   locationName: Bethel Covenant Assembly of God
   locationCity: San Antonio, TX
   dates: Feb 3, 2024
+- id: 11e10b53-3b77-4ec2-94fc-08dc1c4946ac
+  season: 2024
+  registrationDates: Closes Feb 10, 2024
+  isVisible: true
+  name: 'Tennessee Meet #4 - February 17th, 2024'
+  scope: region
+  scopeLabel: Gulf
+  locationName: various - please choose one
+  dates: Feb 17, 2024
 - id: e8a6387f-547a-42b6-a513-08dc0ec824e9
   season: 2024
   registrationDates: Closes Mar 1, 2024
@@ -213,6 +223,15 @@ tbq:
   locationName: Life360 Chesterfield
   locationCity: Springfield, MO
   dates: Feb 3, 2024
+- id: c28097ea-4e5b-4025-94fd-08dc1c4946ac
+  season: 2024
+  registrationDates: Closes Feb 10, 2024
+  isVisible: true
+  name: 'Tennessee Meet #4 - February 17th, 2024'
+  scope: district
+  scopeLabel: Tennessee
+  locationName: various - please choose one
+  dates: Feb 17, 2024
 - id: ed6192d3-d767-46b4-6ef7-08dc02803b5e
   season: 2024
   registrationDates: Closes Feb 25, 2024
