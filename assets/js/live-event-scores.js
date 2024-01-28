@@ -11,6 +11,7 @@ function initializeLiveEvents() {
     // Configure search.
     let searchIndex = null;
     let searchIndexSource = null;
+    const searchRow = resultsPane.find("#searchRow");
     const searchDropdown = resultsPane.find("#searchDropdown");
     const searchBox = resultsPane
         .find("#searchBox")
@@ -123,14 +124,41 @@ function initializeLiveEvents() {
     }
 
     // Parse the URL.
-    let selectedTab;
+    const ScheduleViewType = {
+        Team: "Team",
+        Room: "Room",
+        Grid: "Grid"
+    };
+
     let isStatsReport = false;
+    let currentScheduleView = ScheduleViewType.Team;
 
     // Configure the tabs.
     const schedulesTab = $("#schedulesTab")
         .click(null, e => {
             if (isStatsReport) {
-                changeSelectedTab("schedule");
+                changeSelectedTab("schedule", ScheduleViewType.Team);
+            }
+        });
+
+    const schedulesViewTab_Team = $("#scheduleViewTab_Team")
+        .click(null, e => {
+            if (ScheduleViewType.Team !== currentScheduleView) {
+                changeSelectedTab("schedule", ScheduleViewType.Team);
+            }
+        });
+
+    const schedulesViewTab_Room = $("#scheduleViewTab_Room")
+        .click(null, e => {
+            if (ScheduleViewType.Room !== currentScheduleView) {
+                changeSelectedTab("schedule", ScheduleViewType.Room);
+            }
+        });
+
+    const schedulesViewTab_Grid = $("#scheduleViewTab_Grid")
+        .click(null, e => {
+            if (ScheduleViewType.Grid !== currentScheduleView) {
+                changeSelectedTab("schedule", ScheduleViewType.Grid);
             }
         });
 
@@ -139,7 +167,7 @@ function initializeLiveEvents() {
             null,
             e => {
                 if (!isStatsReport) {
-                    changeSelectedTab("stats");
+                    changeSelectedTab("stats", null);
                 }
             });
 
@@ -186,15 +214,33 @@ function initializeLiveEvents() {
         }
 
         // Capture the selected tab from the URL.
-        selectedTab = url.get("tab");
-        if (selectedTab == "stats") {
+        if (url.get("tab") == "stats") {
             isStatsReport = true;
 
             statsTab.addClass("is-active");
         }
         else {
-            selectedTab = "schedule";
             isStatsReport = false;
+
+            switch (url.get("view")) {
+                case ScheduleViewType.Room:
+                    schedulesViewTab_Room.addClass("is-active");
+                    currentScheduleView = ScheduleViewType.Room;
+                    searchRow.hide();
+                    break;
+
+                case ScheduleViewType.Grid:
+                    schedulesViewTab_Grid.addClass("is-active");
+                    currentScheduleView = ScheduleViewType.Grid;
+                    searchRow.hide();
+                    break;
+
+                default:
+                    schedulesViewTab_Team.addClass("is-active");
+                    currentScheduleView = ScheduleViewType.Team;
+                    searchRow.show();
+                    break;
+            }
 
             schedulesTab.addClass("is-active");
         }
@@ -202,10 +248,13 @@ function initializeLiveEvents() {
         return parsedEventId;
     }
 
-    function changeSelectedTab(newTab) {
+    function changeSelectedTab(newTab, tabView) {
 
         let url = new URL(window.location.href);
         url.search = `?eventId=${eventId}&tab=${newTab}`;
+        if (tabView != null) {
+            url.search += `&view=${tabView}`;
+        }
 
         if (!isStatsReport) {
             url.hash = url.hash
@@ -758,44 +807,66 @@ function initializeLiveEvents() {
                         .remove()
                         .get(0);
 
-                    // Build the team cards.
-                    for (let i = 0; i < meet.Teams.length; i++) {
+                    // Capture the data needed for the report.
+                    let isRoomReport;
+                    let cardItems;
+                    switch (currentScheduleView) {
+                        case ScheduleViewType.Room:
+                            cardItems = meet.Rooms;
+                            isRoomReport = true;
+                            break;
+                        default:
+                            cardItems = meet.Teams;
+                            isRoomReport = false;
+                            break;
+                    }
 
-                        const team = meet.Teams[i];
+                    // Build the cards.
+                    for (let i = 0; i < cardItems.length; i++) {
+
+                        const team = cardItems[i];
 
                         const teamCard = cloneTemplate(teamCardTemplate);
 
                         // Add the team information.
                         const highlightTeamName = getByAndRemoveId(teamCard, "teamName")
                             .text(team.Name);
-                        getByAndRemoveId(teamCard, "churchName")
-                            .text(team.ChurchName);
 
                         teamCards.append(teamCard);
 
-                        // Update the search index.
-                        searchIndexSource.teams.push({
-                            name: team.Name,
-                            church: team.ChurchName,
-                            meet: meet.Name,
-                            scrollToElement: teamCard,
-                            highlightElements: [highlightTeamName]
-                        });
-
-                        // Add the ranking information (if present).
+                        // Add team specific processing.
+                        const churchNameRow = getByAndRemoveId(teamCard, "churchName");
                         const statsRow = getByAndRemoveId(teamCard, "statsRow");
-                        if (meet.RankedTeams) {
-                            getByAndRemoveId(teamCard, "rankLabel")
-                                .text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''}`);
-                            getByAndRemoveId(teamCard, "recordLabel")
-                                .text(`${team.Scores.Wins}-${team.Scores.Losses}`);
-                            getByAndRemoveId(teamCard, "pointsLabel")
-                                .text(team.Scores.TotalPoints);
-                            getByAndRemoveId(teamCard, "averageLabel")
-                                .text(team.Scores.AveragePoints);
+                        if (isRoomReport) {
+                            churchNameRow.remove();
+                            statsRow.remove();
                         }
                         else {
-                            statsRow.remove();
+                            churchNameRow.text(team.ChurchName);
+
+                            // Update the search index.
+                            searchIndexSource.teams.push({
+                                name: team.Name,
+                                church: team.ChurchName,
+                                meet: meet.Name,
+                                scrollToElement: teamCard,
+                                highlightElements: [highlightTeamName]
+                            });
+
+                            // Add the ranking information (if present).
+                            if (meet.RankedTeams) {
+                                getByAndRemoveId(teamCard, "rankLabel")
+                                    .text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''}`);
+                                getByAndRemoveId(teamCard, "recordLabel")
+                                    .text(`${team.Scores.Wins}-${team.Scores.Losses}`);
+                                getByAndRemoveId(teamCard, "pointsLabel")
+                                    .text(team.Scores.TotalPoints);
+                                getByAndRemoveId(teamCard, "averageLabel")
+                                    .text(team.Scores.AveragePoints);
+                            }
+                            else {
+                                statsRow.remove();
+                            }
                         }
 
                         // Add the match items.
@@ -808,6 +879,11 @@ function initializeLiveEvents() {
                         for (let match of team.Matches) {
 
                             const matchId = meet.Matches[matchIndex].Id;
+                            let matchTeam = null;
+                            if (match && isRoomReport) {
+                                matchTeam = meet.Teams[match.Team1];
+                                match = matchTeam.Matches[matchIndex];
+                            }
 
                             const matchListItem = cloneTemplate(matchItemTemplate);
                             if (match) {
@@ -815,24 +891,34 @@ function initializeLiveEvents() {
                                 const isLiveMatch = match.CurrentQuestion && meet.RankedTeams;
 
                                 // Determine the prefix before each match.
-                                let scheduleText = ["vs."];
+                                let scheduleText = [];
+                                if (isRoomReport) {
+                                    scheduleText.push(`"${matchTeam.Name}"`);
+                                }
+
+                                scheduleText.push("vs.");
                                 let scoreText = null;
                                 if (meet.RankedTeams) {
 
                                     scoreText = [];
+
+                                    if (isRoomReport) {
+                                        scoreText.push(`"${matchTeam.Name}"`);
+                                    }
+
                                     switch (match.Result) {
                                         case "W":
-                                            scoreText.push("Won against");
+                                            scoreText.push(`${isRoomReport ? 'w' : 'W'}on against`);
                                             break;
                                         case "L":
-                                            scoreText.push("Lost to");
+                                            scoreText.push(`${isRoomReport ? 'l' : 'L'}ost to`);
                                             break;
                                         default:
                                             if (!match.CurrentQuestion && null != match.Score) {
-                                                scoreText.push("Played");
+                                                scoreText.push(`${isRoomReport ? 'p' : 'P'}layed`);
                                             }
                                             else if (isLiveMatch) {
-                                                scoreText.push("Playing");
+                                                scoreText.push(`${isRoomReport ? 'p' : 'P'}laying`);
                                             }
                                             else {
                                                 // There is no score because this match hasn't been played yet.
@@ -853,7 +939,9 @@ function initializeLiveEvents() {
                                         scoreText.push(teamText);
 
                                         if (isLiveMatch) {
-                                            scoreText.push(`in ${match.Room}`);
+                                            if (!isRoomReport) {
+                                                scoreText.push(`in ${match.Room}`);
+                                            }
                                         }
                                         else {
                                             scoreText.push(`${match.Score} to ${meet.Teams[match.OtherTeam].Matches[matchIndex].Score}`);
@@ -870,7 +958,10 @@ function initializeLiveEvents() {
                                 }
 
                                 // Add the scheduled room and time.
-                                scheduleText.push(`in ${match.Room}`);
+                                if (!isRoomReport) {
+                                    scheduleText.push(`in ${match.Room}`);
+                                }
+
                                 const matchTime = meet.Matches[matchIndex].MatchTime;
                                 if (matchTime) {
                                     scheduleText.push(`@ ${matchTime}`);
@@ -912,7 +1003,7 @@ function initializeLiveEvents() {
 
                         // Build the list of quizzers.
                         const quizzersContainer = getByAndRemoveId(teamCard, "quizzersContainer");
-                        if (team.Quizzers.length > 0) {
+                        if (!isRoomReport && team.Quizzers.length > 0) {
 
                             const quizzerElements = getByAndRemoveId(quizzersContainer, "quizzersLabel")
                                 .empty();
@@ -968,13 +1059,13 @@ function initializeLiveEvents() {
             window.addEventListener("visibilitychange", e => {
                 localStorage.setItem(
                     storageKey,
-                    JSON.stringify({ x: window.scrollX, y: window.scrollY, time: new Date(), isStats: isStatsReport }));
+                    JSON.stringify({ x: window.scrollX, y: window.scrollY, time: new Date(), isStats: isStatsReport, view: currentScheduleView }));
             });
 
             window.addEventListener("beforeunload", e => {
                 localStorage.setItem(
                     storageKey,
-                    JSON.stringify({ x: window.scrollX, y: window.scrollY, time: new Date(), isStats: isStatsReport }));
+                    JSON.stringify({ x: window.scrollX, y: window.scrollY, time: new Date(), isStats: isStatsReport, view: currentScheduleView }));
             });
 
             makeDropdownsClickable();
@@ -993,8 +1084,9 @@ function initializeLiveEvents() {
                         const x = lastPosition.x;
                         const y = lastPosition.y;
                         const isStats = lastPosition.isStats;
+                        const lastView = lastPosition.view;
                         const time = lastPosition.time;
-                        if (null != x && null != y && null != time && null != isStats && isStats === isStatsReport &&
+                        if (null != x && null != y && null != time && null != isStats && isStats === isStatsReport && currentScheduleView === lastView &&
                             Date.parse(time) < new Date(new Date().getTime() + 120000)) {
                             window.scrollTo(x, y);
                             isScrolled = true;
