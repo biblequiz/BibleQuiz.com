@@ -6,6 +6,15 @@
 <script src="{{ site.baseurl }}/assets/js/live-event-scores.js" type="module"></script>
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/live-event-scores.css">
 
+<div class="has-text-centered" id="loadingPane" style="margin-top:30px">
+  <p><b>Retrieving Latest Information for Event ...</b></p>
+  <progress class="progress is-medium is-primary" max="100">30%</progress>
+</div>
+
+<div class="notification is-danger" id="errorPane" style="margin-top:30px;display:none">
+  Failed to retrieve the latest information. Please try again ...
+</div>
+
 <div style="display:none" id="resultsPane">
   <div class="tabs is-boxed hide-on-print">
     <ul class="mt-0 ml-0">
@@ -24,7 +33,7 @@
     </ul>
   </div>
 
-  <div class="field has-addons hide-on-print">
+  <div class="field has-addons hide-on-print mb-0" id="searchRow">
     <div class="dropdown" id="searchDropdown">
       <div class="dropdown-menu" style="top: 75%">
         <div class="dropdown-content">
@@ -66,196 +75,248 @@
       </a>
     </div>
   </div>
-</div>
 
-<div class="has-text-centered" id="loadingPane" style="margin-top:30px">
-  <p><b>Retrieving Latest Information for Event ...</b></p>
-  <progress class="progress is-medium is-primary" max="100">30%</progress>
-</div>
-
-<div class="notification is-danger" id="errorPane" style="margin-top:30px;display:none">
-  Failed to retrieve the latest information. Please try again ...
-</div>
-
-<div class="modal hide-on-print" id="teamModal">
-  <div class="modal-background hide-on-print"></div>
-  <div class="modal-card" style="width:95%">
-    <header class="modal-card-head">
-      <p class="modal-card-title" id="teamModalTitle" style="margin-bottom:0px">Title</p>
-      <button class="delete hide-on-print" id="teamModalClose" />
-    </header>
-    <section class="modal-card-body" id="teamModalBody">Body</section>
+  <div class="tabs is-toggle is-small mb-0 hide-on-print" id="scheduleViewTabs">
+    <ul class="ml-0 mt-0">
+      <li id="scheduleViewTab_Team">
+        <a>
+          <i class="fas fa-users"></i>&nbsp;Team Schedules
+        </a>
+      </li>
+      <li id="scheduleViewTab_Room">
+        <a>
+          <i class="fas fa-door-open"></i>&nbsp;Room Schedules
+        </a>
+      </li>
+      <li id="scheduleViewTab_Grid">
+        <a>
+          <i class="fas fa-border-all"></i>&nbsp;Schedule Grid
+        </a>
+      </li>
+    </ul>
   </div>
-</div>
-
-<template id="statsTemplate">
-  <div class="columns is-mobile mt-2">
-    <div class="column is-four-fifths">
-      <p class="title is-3" id="meetName" />
-      <p class="subtitle is-7"><i>Last Updated: <span id="lastUpdated" /></i></p>
+  
+  <div class="modal hide-on-print" id="teamModal">
+    <div class="modal-background hide-on-print"></div>
+    <div class="modal-card" style="width:95%">
+      <header class="modal-card-head">
+        <p class="modal-card-title" id="teamModalTitle" style="margin-bottom:0px">Title</p>
+        <button class="delete hide-on-print" id="teamModalClose" />
+      </header>
+      <section class="modal-card-body" id="teamModalBody">Body</section>
     </div>
-    <div class="column is-one-fifth has-text-right hide-on-print">
-      <div class="dropdown is-right">
-        <div class="dropdown-trigger">
-          <button class="button is-primary"><i class="fas fa-print"></i></button>
-          <div class="dropdown-menu">
-            <div class="dropdown-content">
-              <a class="dropdown-item" id="print_TeamsAndQuizzers">Teams &amp; Quizzers</a>
-              <a class="dropdown-item" id="print_TeamsOnly">Teams Only</a>
-              <a class="dropdown-item" id="print_QuizzersOnly">Quizzers Only</a>
+  </div>
+
+  <template id="statsTemplate">
+    <div class="columns is-mobile mt-2">
+      <div class="column is-four-fifths">
+        <p class="title is-3" id="meetName" />
+        <p class="subtitle is-7"><i>Last Updated: <span id="lastUpdated" /></i></p>
+      </div>
+      <div class="column is-one-fifth has-text-right hide-on-print" id="statsPrintButton">
+        <div class="dropdown is-right">
+          <div class="dropdown-trigger">
+            <button class="button is-primary"><i class="fas fa-print"></i></button>
+            <div class="dropdown-menu">
+              <div class="dropdown-content">
+                <a class="dropdown-item" id="print_TeamsAndQuizzers">Teams &amp; Quizzers</a>
+                <a class="dropdown-item" id="print_TeamsOnly">Teams Only</a>
+                <a class="dropdown-item" id="print_QuizzersOnly">Quizzers Only</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="notification is-success" id="meetProgress_IsCompleted">
-    <strong>COMPLETE: <span id="meetProgressLabel" /></strong>
-  </div>
-  <div class="notification is-warning" id="meetProgress_IsMismatched">
-    <strong>IN PROGRESS: <span id="meetProgressLabel" /></strong>
-  </div>
-  <div id="teamsSection">
-    <p class="title is-4" style="margin-top: 0px;">Teams</p>
-    <div class="is-size-6" id="teamRankingRow">
-      <i><strong>Team Report:</strong> <span id="teamRankingLabel" /></i>
+    <div class="notification is-info" id="noScoresWarning">
+      <strong>Either the event coordinator hasn't enabled scores for this event yet or scoring hasn't started yet.</strong>
     </div>
-    <table class="table is-striped is-fullwidth is-bordered is-narrow">
-      <thead>
-        <tr>
-          <th class="has-text-right" width="30">#</th>
-          <th width="33%">Team (Church)</th>
-          <th class="has-text-right" width="30">W</th>
-          <th class="has-text-right" width="30">L</th>
-          <th class="has-text-right" width="65">W%</th>
-          <th class="has-text-right" width="65">Total</th>
-          <th class="has-text-right" width="65">Avg</th>
-          <th class="has-text-right" width="45">QO</th>
-          <th class="has-text-right" width="45">Q%</th>
-          <th class="has-text-right" width="45">30s</th>
-          <th class="has-text-right" width="45">20s</th>
-          <th class="has-text-right" width="45">10s</th>
-        </tr>
-      </thead>
-      <tbody id="teamsTableBody">
-        <tr id="tableRow">
-          <td class="has-text-right" id="rankColumn" />
-          <td id="nameColumn" />
-          <td class="has-text-right" id="winColumn" />
-          <td class="has-text-right" id="lossColumn" />
-          <td class="has-text-right" id="winPercentageColumn" />
-          <td class="has-text-right" id="totalColumn" />
-          <td class="has-text-right" id="averageColumn" />
-          <td class="has-text-right" id="quizOutColumn" />
-          <td class="has-text-right" id="quizOutPercentageColumn" />
-          <td class="has-text-right" id="question30sColumn" />
-          <td class="has-text-right" id="question20sColumn" />
-          <td class="has-text-right" id="question10sColumn" />
-        </tr>
-      </tbody>
-    </table>
-    <div id="teamTieBreakingRow">
-      <font size="2"><i>* Tie couldn't be broken by tie breaking rules.</i></font>
+    <div class="notification is-success" id="meetProgress_IsCompleted">
+      <strong>COMPLETE: <span id="meetProgressLabel" /></strong>
     </div>
-  </div>
-  <div id="quizzersSection" class="mt-4">
-    <p class="title is-4">Quizzers</p>
-    <div class="is-size-6" id="quizzersRankingRow">
-      <i><strong>Individual Report:</strong> <span id="quizzerRankingLabel" /></i>
+    <div class="notification is-warning" id="meetProgress_IsMismatched">
+      <strong>IN PROGRESS: <span id="meetProgressLabel" /></strong>
     </div>
-    <table class="table is-striped is-fullwidth is-bordered is-narrow">
-      <thead>
-        <tr>
-          <th class="has-text-right" width="30">#</th>
-          <th>Quizzer</th>
-          <th>Team (Church)</th>
-          <th class="has-text-right" width="65">Total</th>
-          <th class="has-text-right" width="65">Avg</th>
-          <th class="has-text-right" width="45">QO</th>
-          <th class="has-text-right" width="45">Q%</th>
-          <th class="has-text-right" width="45">30s</th>
-          <th class="has-text-right" width="45">20s</th>
-          <th class="has-text-right" width="45">10s</th>
-        </tr>
-      </thead>
-      <tbody id="quizzersTableBody">
-        <tr id="tableRow">
-          <td class="has-text-right" id="rankColumn" />
-          <td id="nameColumn" />
-          <td id="teamNameColumn" />
-          <td class="has-text-right" id="totalColumn" />
-          <td class="has-text-right" id="averageColumn" />
-          <td class="has-text-right" id="quizOutColumn" />
-          <td class="has-text-right" id="quizOutPercentageColumn" />
-          <td class="has-text-right" id="question30sColumn" />
-          <td class="has-text-right" id="question20sColumn" />
-          <td class="has-text-right" id="question10sColumn" />
-        </tr>
-      </tbody>
-    </table>
-    <div id="quizzerTieBreakingRow">
-      <font size="2"><i>* Tie couldn't be broken by tie breaking rules.</i></font>
+    <div id="teamsSection">
+      <p class="title is-4" style="margin-top: 0px;">Teams</p>
+      <div class="is-size-6" id="teamRankingRow">
+        <i><strong>Team Report:</strong> <span id="teamRankingLabel" /></i>
+      </div>
+      <table class="table is-striped is-fullwidth is-bordered is-narrow">
+        <thead>
+          <tr>
+            <th class="has-text-right" width="30">#</th>
+            <th width="33%">Team (Church)</th>
+            <th class="has-text-right" width="30">W</th>
+            <th class="has-text-right" width="30">L</th>
+            <th class="has-text-right" width="65">W%</th>
+            <th class="has-text-right" width="65">Total</th>
+            <th class="has-text-right" width="65">Avg</th>
+            <th class="has-text-right" width="45">QO</th>
+            <th class="has-text-right" width="45">Q%</th>
+            <th class="has-text-right" width="45">30s</th>
+            <th class="has-text-right" width="45">20s</th>
+            <th class="has-text-right" width="45">10s</th>
+          </tr>
+        </thead>
+        <tbody id="teamsTableBody">
+          <tr id="tableRow">
+            <td class="has-text-right" id="rankColumn" />
+            <td id="nameColumn" />
+            <td class="has-text-right" id="winColumn" />
+            <td class="has-text-right" id="lossColumn" />
+            <td class="has-text-right" id="winPercentageColumn" />
+            <td class="has-text-right" id="totalColumn" />
+            <td class="has-text-right" id="averageColumn" />
+            <td class="has-text-right" id="quizOutColumn" />
+            <td class="has-text-right" id="quizOutPercentageColumn" />
+            <td class="has-text-right" id="question30sColumn" />
+            <td class="has-text-right" id="question20sColumn" />
+            <td class="has-text-right" id="question10sColumn" />
+          </tr>
+        </tbody>
+      </table>
+      <div id="teamTieBreakingRow">
+        <font size="2"><i>* Tie couldn't be broken by tie breaking rules.</i></font>
+      </div>
     </div>
-  </div>
-</template>
+    <div id="quizzersSection" class="mt-4">
+      <p class="title is-4">Quizzers</p>
+      <div class="is-size-6" id="quizzersRankingRow">
+        <i><strong>Individual Report:</strong> <span id="quizzerRankingLabel" /></i>
+      </div>
+      <table class="table is-striped is-fullwidth is-bordered is-narrow">
+        <thead>
+          <tr>
+            <th class="has-text-right" width="30">#</th>
+            <th>Quizzer</th>
+            <th>Team (Church)</th>
+            <th class="has-text-right" width="65">Total</th>
+            <th class="has-text-right" width="65">Avg</th>
+            <th class="has-text-right" width="45">QO</th>
+            <th class="has-text-right" width="45">Q%</th>
+            <th class="has-text-right" width="45">30s</th>
+            <th class="has-text-right" width="45">20s</th>
+            <th class="has-text-right" width="45">10s</th>
+          </tr>
+        </thead>
+        <tbody id="quizzersTableBody">
+          <tr id="tableRow">
+            <td class="has-text-right" id="rankColumn" />
+            <td id="nameColumn" />
+            <td id="teamNameColumn" />
+            <td class="has-text-right" id="totalColumn" />
+            <td class="has-text-right" id="averageColumn" />
+            <td class="has-text-right" id="quizOutColumn" />
+            <td class="has-text-right" id="quizOutPercentageColumn" />
+            <td class="has-text-right" id="question30sColumn" />
+            <td class="has-text-right" id="question20sColumn" />
+            <td class="has-text-right" id="question10sColumn" />
+          </tr>
+        </tbody>
+      </table>
+      <div id="quizzerTieBreakingRow">
+        <font size="2"><i>* Tie couldn't be broken by tie breaking rules.</i></font>
+      </div>
+    </div>
+  </template>
 
-<template id="schedulesTemplate">
-  <div class="columns is-mobile mt-2">
-    <div class="column is-four-fifths">
-      <p class="title is-3" id="meetName" />
-      <p class="subtitle is-7"><i>Last Updated: <span id="lastUpdated" /></i></p>
-    </div>
-    <div class="column is-one-fifth has-text-right hide-on-print">
-      <div class="dropdown is-right">
-        <div class="dropdown-trigger">
-          <button class="button is-primary"><i class="fas fa-print"></i></button>
-          <div class="dropdown-menu">
-            <div class="dropdown-content">
-              <a class="dropdown-item" id="print_ScheduleAndScores">Schedule and Scores</a>
-              <a class="dropdown-item" id="print_ScheduleOnly">Schedule Only</a>
+  <template id="schedulesTemplate">
+    <div class="columns is-mobile mt-2">
+      <div class="column is-four-fifths">
+        <p class="title is-3" id="meetName" />
+        <p class="subtitle is-7"><i>Last Updated: <span id="lastUpdated" /></i></p>
+      </div>
+      <div class="column is-one-fifth has-text-right hide-on-print">
+        <div class="dropdown is-right">
+          <div class="dropdown-trigger">
+            <button class="button is-primary"><i class="fas fa-print"></i></button>
+            <div class="dropdown-menu">
+              <div class="dropdown-content">
+                <a class="dropdown-item" id="print_ScheduleAndScores">Schedule and Scores</a>
+                <a class="dropdown-item" id="print_ScheduleOnly">Schedule Only</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="columns is-multiline" id="teamCards">
-    <div class="column is-half team-card p-3" id="cardTemplate">
-      <p class="title is-5" id="teamName" />
-      <p class="subtitle is-7" id="churchName" />
-      <div class="columns is-mobile is-centered mt-2 hide-if-schedule" id="statsRow">
-        <div class="column is-3 has-text-centered team-card-right-border">
-          <span class="title is-5" id="rankLabel"></span><br />
-          <i class="subtitle is-6">PLACE</i>
+    <div class="columns is-multiline" id="teamCards">
+      <div class="column is-half team-card p-3" id="cardTemplate">
+        <p class="title is-5" id="teamName" />
+        <p class="subtitle is-7" id="churchName" />
+        <div class="columns is-mobile is-centered mt-2 hide-if-schedule" id="statsRow">
+          <div class="column is-3 has-text-centered team-card-right-border">
+            <span class="title is-5" id="rankLabel"></span><br />
+            <i class="subtitle is-6">PLACE</i>
+          </div>
+          <div class="column is-one-fifth has-text-centered team-card-right-border">
+            <span class="title is-5" id="recordLabel"></span><br />
+            <i class="subtitle is-6">W-L</i>
+          </div>
+          <div class="column is-one-fifth has-text-centered team-card-right-border">
+            <span class="title is-5" id="pointsLabel"></span><br>
+            <i class="subtitle is-6">PTS</i>
+          </div>
+          <div class="column is-one-fifth has-text-centered">
+            <span class="title is-5" id="averageLabel"></span><br />
+            <i class="subtitle is-6">AVG</i>
+          </div>
         </div>
-        <div class="column is-one-fifth has-text-centered team-card-right-border">
-          <span class="title is-5" id="recordLabel"></span><br />
-          <i class="subtitle is-6">W-L</i>
-        </div>
-        <div class="column is-one-fifth has-text-centered team-card-right-border">
-          <span class="title is-5" id="pointsLabel"></span><br>
-          <i class="subtitle is-6">PTS</i>
-        </div>
-        <div class="column is-one-fifth has-text-centered">
-          <span class="title is-5" id="averageLabel"></span><br />
-          <i class="subtitle is-6">AVG</i>
-        </div>
-      </div>
-      <ol class="is-size-7" id="matchList">
-        <li id="matchItem">
-          <div class="show-if-schedule hide-on-print" id="scheduleLabel"></div>
-          <div class="hide-if-schedule" id="statsLabel">
-            <a id="statsLink"></a>
-            <i id="liveEventLabel">
-              <br />
-              <i>
-                <i class="fas fa-broadcast-tower"></i>&nbsp;Question #<span id="questionNumber" />
+        <ol class="is-size-7" id="matchList">
+          <li id="matchItem">
+            <div class="show-if-schedule hide-on-print" id="scheduleLabel"></div>
+            <div class="hide-if-schedule" id="statsLabel">
+              <a id="statsLink"></a>
+              <i id="liveEventLabel">
+                <br />
+                <i>
+                  <i class="fas fa-broadcast-tower"></i>&nbsp;Question #<span id="questionNumber" />
+                </i>
               </i>
-            </i>
-          </div>
-        </li>
-      </ol>
-      <p class="is-size-7" id="quizzersContainer"><b>Quizzers: </b> <span id="quizzersLabel" /></p>
+            </div>
+          </li>
+        </ol>
+        <p class="is-size-7" id="quizzersContainer"><b>Quizzers: </b> <span id="quizzersLabel" /></p>
+      </div>
     </div>
-  </div>
-</template>
+    <div id="scheduleGrid">
+      <table class="table is-striped is-fullwidth is-bordered is-narrow">
+        <thead>
+          <tr id="scheduleTableHeaderRow">
+            <th class="has-text-right" width="30" class="hide-if-schedule">#</th>
+            <th width="33%">Team (Church)</th>
+            <th class="has-text-right" width="30" class="hide-if-schedule">W</th>
+            <th class="has-text-right" width="30" class="hide-if-schedule">L</th>
+            <th class="has-text-right" width="65" class="hide-if-schedule">Total</th>
+            <th class="has-text-right" width="65" class="hide-if-schedule">Avg</th>
+            <th class="has-text-centered" id="matchItem" />
+          </tr>
+        </thead>
+        <tbody id="scheduleTableBody">
+          <tr id="cardTemplate">
+            <td class="has-text-right" id="rankColumn" class="hide-if-schedule" />
+            <td id="nameColumn" />
+            <td class="has-text-right" id="winColumn" class="hide-if-schedule" />
+            <td class="has-text-right" id="lossColumn" class="hide-if-schedule" />
+            <td class="has-text-right" id="totalColumn" class="hide-if-schedule" />
+            <td class="has-text-right" id="averageColumn" class="hide-if-schedule" />
+            <td class="has-text-centered" id="matchItem">
+              <div class="show-if-schedule hide-on-print" id="scheduleLabel"></div>
+              <div class="hide-if-schedule" id="statsLabel">
+                <a id="statsLink"></a><br />
+                <i id="liveEventLabel">#<span id="questionNumber"></span></i>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot id="scheduleTableFooter">
+          <tr id="tableRow">
+            <th class="show-if-schedule">Planned Start Time for Match</th>
+            <th colspan="6" class="hide-if-schedule">Planned Start Time for Match</th>
+            <th class="has-text-centered" id="matchItem" />
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </template>
