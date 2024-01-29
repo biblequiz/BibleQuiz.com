@@ -62,17 +62,6 @@ jbq:
   locationName: Evangel Chapel
   locationCity: Bridgewater, NJ
   dates: Jan 1 - Mar 2, 2024
-- id: bacb28ac-6f07-4f71-27bb-08dc203693d1
-  season: 2024
-  registrationDates: Closes Jan 28, 2024
-  isLive: true
-  isVisible: true
-  name: First AG ParentBowl
-  scope: district
-  scopeLabel: South Texas
-  locationName: First Assembly of God
-  locationCity: San Antonio, TX
-  dates: Jan 28, 2024
 - id: bb2989e4-00d5-4170-aab8-08dbafd18f81
   season: 2024
   registrationDates: Closes Jan 30, 2024
@@ -87,6 +76,7 @@ jbq:
 - id: 637641a8-237b-4c32-6efc-08dc02803b5e
   season: 2024
   registrationDates: Closes Jan 30, 2024
+  isLive: true
   isVisible: true
   name: Alabama February Meet
   scope: district
@@ -96,6 +86,7 @@ jbq:
 - id: 8762c4f4-8e0b-4d2d-3edf-08db96dbedbd
   season: 2024
   registrationDates: Closes Jan 29, 2024
+  isLive: true
   isVisible: true
   name: Oklahoma NE League (Tulsa) 23-24
   scope: district
@@ -106,6 +97,7 @@ jbq:
 - id: a2ae2700-d784-4417-6d8d-08dc0eb9527c
   season: 2024
   registrationDates: Closes Jan 29, 2024
+  isLive: true
   isVisible: true
   name: 'South Texas District Meet #2'
   scope: district
@@ -113,6 +105,26 @@ jbq:
   locationName: Bethel Covenant Assembly of God
   locationCity: San Antonio, TX
   dates: Feb 3, 2024
+- id: 12bfa817-8e4c-4025-2fce-08dc207dd55e
+  season: 2024
+  registrationDates: Closes Feb 1, 2024
+  isVisible: true
+  name: 'NW–JBQ League #3 (23|24)'
+  scope: district
+  scopeLabel: Northwest
+  locationName: Cedar Park Assembly of God
+  locationCity: Bothell, WA
+  dates: Feb 4, 2024
+- id: 3d90be46-f450-4a80-5be9-08dc205fc709
+  season: 2024
+  registrationDates: Closes Feb 6, 2024
+  isVisible: true
+  name: February 2024 ND JBQ meet
+  scope: district
+  scopeLabel: North Dakota
+  locationName: First Assembly of God
+  locationCity: Jamestown, ND
+  dates: Feb 10, 2024
 - id: 11e10b53-3b77-4ec2-94fc-08dc1c4946ac
   season: 2024
   registrationDates: Closes Feb 10, 2024
@@ -196,6 +208,7 @@ tbq:
 - id: f08617af-f702-4d8f-94fb-08dc1c4946ac
   season: 2024
   registrationDates: Closes Feb 1, 2024
+  isLive: true
   isVisible: true
   name: '2023-2024 MI TBQ League Meet #4'
   scope: district
@@ -206,6 +219,7 @@ tbq:
 - id: df21f695-3c09-491c-9bb9-08dbca01dc26
   season: 2024
   registrationDates: Closes Jan 29, 2024
+  isLive: true
   isVisible: true
   name: 2024 President's Cup
   scope: tournament
@@ -215,6 +229,7 @@ tbq:
 - id: 4ae3e681-4d75-4e20-6d8a-08dc0eb9527c
   season: 2024
   registrationDates: Closes Jan 31, 2024
+  isLive: true
   isVisible: true
   name: Southern Missouri District League Finals
   scope: district
