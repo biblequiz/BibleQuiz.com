@@ -21,7 +21,7 @@ date: "2023-05-27"
         <a href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.android.apk" class="button is-primary mt-1">
             <i class="fab fa-android"></i>&nbsp;Android
         </a>
-        <a href="https://github.com/biblequiz/Releases.EZScore/releases" class="button is-warning mt-1">
+        <a href="https://github.com/biblequiz/Releases.EZScore/releases" class="button is-warning mt-1" target="_blank">
             <i class="fab fa-github"></i>&nbsp;All Releases
         </a>
         <p class="title is-6" style="margin-top:30px">EZScore Training Videos</p>
@@ -43,7 +43,7 @@ date: "2023-05-27"
         <a href="https://github.com/biblequiz/Releases.ScoreKeep/releases/latest/download/com.biblequiz.scorekeep.windows.msixbundle" class="button is-primary mt-1">
             <i class="fab fa-windows"></i>&nbsp;Windows
         </a>
-        <a href="https://github.com/biblequiz/Releases.ScoreKeep/releases" class="button is-warning mt-1">
+        <a href="https://github.com/biblequiz/Releases.ScoreKeep/releases" class="button is-warning mt-1" target="_blank">
             <i class="fab fa-github"></i>&nbsp;All Releases
         </a>
         <p class="title is-6" style="margin-top:30px">ScoreKeep Training Videos</p>
@@ -67,7 +67,7 @@ date: "2023-05-27"
         <a href="https://github.com/biblequiz/Releases.CoachApp/releases/latest/download/com.biblequiz.coachapp.windows.msixbundle" class="button is-primary mt-1">
             <i class="fab fa-windows"></i>&nbsp;Windows&nbsp;<span class="tag is-danger"><i>BETA</i></span>
         </a>
-        <a href="https://github.com/biblequiz/Releases.CoachApp/releases" class="button is-warning mt-1">
+        <a href="https://github.com/biblequiz/Releases.CoachApp/releases" class="button is-warning mt-1" target="_blank">
             <i class="fab fa-github"></i>&nbsp;All Releases
         </a>
         <p class="title is-6" style="margin-top:30px">CoachApp Training Videos</p>
