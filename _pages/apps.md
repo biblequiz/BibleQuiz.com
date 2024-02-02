@@ -15,11 +15,14 @@ date: "2023-05-27"
         <div class="content">
             <p>Keeps score for each room during a Bible Quiz competition. You need to register your competitions on <a href="https://registration.biblequiz.com/" target="_blank">https://registration.biblequiz.com/</a>. The schedule for the event is configured by the competition coordinator using ScoreKeep.</p>
         </div>
-        <a href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.windows.msixbundle" class="button is-primary">
+        <a href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.windows.msixbundle" class="button is-primary mt-1">
             <i class="fab fa-windows"></i>&nbsp;Windows
         </a>
-        <a href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.android.apk" class="button is-primary">
-            <i class="fab fa-android"></i>&nbsp;Android&nbsp;<span class="tag is-danger"><i>BETA</i></span>
+        <a href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.android.apk" class="button is-primary mt-1">
+            <i class="fab fa-android"></i>&nbsp;Android
+        </a>
+        <a href="https://github.com/biblequiz/Releases.EZScore/releases" class="button is-warning mt-1">
+            <i class="fab fa-github"></i>&nbsp;All Releases
         </a>
         <p class="title is-6" style="margin-top:30px">EZScore Training Videos</p>
         <ul>
@@ -37,8 +40,11 @@ date: "2023-05-27"
         <div class="content">
             <p>Manage a competition for use with EZScore and publishing scores on BibleQuiz.com. It is intended for use in conjunction with <a href="https://registration.biblequiz.com/" target="_blank">https://registration.biblequiz.com/</a>.</p>
         </div>
-        <a href="https://github.com/biblequiz/Releases.ScoreKeep/releases/latest/download/com.biblequiz.scorekeep.windows.msixbundle" class="button is-primary">
+        <a href="https://github.com/biblequiz/Releases.ScoreKeep/releases/latest/download/com.biblequiz.scorekeep.windows.msixbundle" class="button is-primary mt-1">
             <i class="fab fa-windows"></i>&nbsp;Windows
+        </a>
+        <a href="https://github.com/biblequiz/Releases.ScoreKeep/releases" class="button is-warning mt-1">
+            <i class="fab fa-github"></i>&nbsp;All Releases
         </a>
         <p class="title is-6" style="margin-top:30px">ScoreKeep Training Videos</p>
         <ul>
@@ -58,8 +64,11 @@ date: "2023-05-27"
         <div class="content">
             <p>Makes it easy for both JBQ and TBQ coaches to keep score, lookup answers, research data, see the latest rulebook, see the online score, and get an online schedule for any online registered competition on BibleQuiz.com. It is intended for use in conjunction with <a href="https://registration.biblequiz.com/" target="_blank">https://registration.biblequiz.com/</a>.</p>
         </div>
-        <a href="https://github.com/biblequiz/Releases.CoachApp/releases/latest/download/com.biblequiz.coachapp.windows.msixbundle" class="button is-primary">
+        <a href="https://github.com/biblequiz/Releases.CoachApp/releases/latest/download/com.biblequiz.coachapp.windows.msixbundle" class="button is-primary mt-1">
             <i class="fab fa-windows"></i>&nbsp;Windows&nbsp;<span class="tag is-danger"><i>BETA</i></span>
+        </a>
+        <a href="https://github.com/biblequiz/Releases.CoachApp/releases" class="button is-warning mt-1">
+            <i class="fab fa-github"></i>&nbsp;All Releases
         </a>
         <p class="title is-6" style="margin-top:30px">CoachApp Training Videos</p>
         <ul>
