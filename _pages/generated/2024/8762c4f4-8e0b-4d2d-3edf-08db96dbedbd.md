@@ -2,7 +2,7 @@
 layout: page
 permalink: /jbq/2024/other/8762c4f4-8e0b-4d2d-3edf-08db96dbedbd
 title: Oklahoma NE League (Tulsa) 23-24
-date: 2024-01-07
+date: 2024-02-02
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
@@ -156,13 +156,13 @@ menubar_toc_static:
 | 16 | Piper Ellis | BattleCreek Jenks Searchers |  |  |  | 50% |  |  | 1 |
 | **\*16** | Atlas Quinn | Christian Chapel #1 |  |  |  |  |  |  |  |
 | **\*16** | Ethan Rey | Christian Chapel #2 |  |  |  |  |  |  |  |
+| **\*16** | JJ Miller | Carbondale Searcher #1 |  |  |  |  |  |  |  |
 | **\*16** | Joseph Cates | Carbondale Searcher #2 |  |  |  |  |  |  |  |
 | **\*16** | Lydia Spencer | Christian Chapel #2 |  |  |  |  |  |  |  |
 | **\*16** | Paisley Wootton | Carbondale Searcher #1 |  |  |  |  |  |  |  |
 | **\*16** | Sadie Quinn | Christian Chapel #2 |  |  |  |  |  |  |  |
 | **\*16** | Shay Spencer | Christian Chapel #2 |  |  |  |  |  |  |  |
 | **\*16** | Summer Muilenburg | Carbondale Searcher #2 |  |  |  |  |  |  |  |
-| **\*16** | Zion Ullrich | Christian Chapel #2 |  |  |  |  |  |  |  |
 | 17 | Ethan Rey | Christian Chapel #2 | -10 | -2 |  | 25% |  | 1 | 2 |
 
 *\* Tie couldn't be broken by tie breaking rules.*
@@ -205,9 +205,9 @@ menubar_toc_static:
 | 10 | Shepard Lawrence | M-BattleCreek Jenks Master | 60 | 10 |  | 78% |  |  | 7 |
 | 11 | Kyra Mueters | M-Lightning Cheetahs #2 | 55 | 9.2 |  | 86% |  |  | 6 |
 | 12 | Liam Ellis | M-BattleCreek Jenks Master | 20 | 3.3 |  | 100% |  | 1 |  |
-| 13 | Charissa Posey | M-Lightning Cheetahs #2 |  |  |  |  |  |  |  |
+| 13 | Gavin Bryant | M-BattleCreek Jenks Master |  |  |  |  |  |  |  |
+| **\*13** | Charissa Posey | M-Lightning Cheetahs #2 |  |  |  |  |  |  |  |
 | **\*13** | Cydney Posey | M-Bible Bunch#1 |  |  |  |  |  |  |  |
-| **\*13** | Gavin Bryant | M-BattleCreek Jenks Master |  |  |  |  |  |  |  |
 
 *\* Tie couldn't be broken by tie breaking rules.*
 
@@ -445,10 +445,11 @@ menubar_toc_static:
 | 9 | Lola Holt | Carbondale Discoverer #2 | 5 | .8 |  | 50% |  |  | 1 |
 | 10 | Atlas Quinn | Carbondale Discoverer #1 |  |  |  |  |  |  |  |
 | **\*10** | Caitlin Payne | Barnsdall #1 |  |  |  |  |  |  |  |
-| **\*10** | Extra-2 | Barnsdall #1 |  |  |  |  |  |  |  |
 | **\*10** | Finn Kiefer | BattleCreek Jenks Discoverers |  |  |  |  |  |  |  |
 | **\*10** | Gabriel Messmore | BattleCreek Jenks Discoverers |  |  |  |  |  |  |  |
-| **\*10** | Jonah Bryant | BattleCreek Jenks Discoverers |  |  |  |  |  |  |  |
+| **\*10** | Gavin Muilenburg | Carbondale Discoverer #2 |  |  |  |  |  |  |  |
+| **\*10** | Graham Calvert | Carbondale Discoverer #2 |  |  |  |  |  |  |  |
+| **\*10** | JJ Miller | Carbondale Discoverer #2 |  |  |  |  |  |  |  |
 | 11 | Josiah Cobb | Carbondale Discoverer #2 | -5 | -.8 |  |  |  |  |  |
 | 12 | Caleb Cates | Carbondale Discoverer #1 | -10 | -1.7 |  |  |  |  |  |
 
@@ -497,8 +498,7 @@ menubar_toc_static:
 | 15 | Elliot Baker | BattleCreek Jenks Searchers | 45 | 9 |  | 83% |  |  | 5 |
 | 16 | Ella Chamberlain | M-Bible Bunch#1 | 35 | 7 |  | 62% |  |  | 5 |
 | 17 | Kyra Mueters | Fire Nation #4 | 20 | 4 |  | 100% |  |  | 2 |
-| 18 | Gavin Bryant | M-BattleCreek Jenks Master |  |  |  |  |  |  |  |
-| **\*18** | Liam Ellis | M-BattleCreek Jenks Master |  |  |  |  |  |  |  |
+| 18 | Liam Ellis | M-BattleCreek Jenks Master |  |  |  |  |  |  |  |
 | **\*18** | Piper Ellis | BattleCreek Jenks Searchers |  |  |  |  |  |  |  |
 | **\*18** | Saul Lawrence | BattleCreek Jenks Searchers |  |  |  |  |  |  |  |
 | **\*18** | Shepard Lawrence | M-BattleCreek Jenks Master |  |  |  |  |  |  |  |
@@ -547,17 +547,168 @@ menubar_toc_static:
 | 13 | Britton Greene | W-Kids Red | 15 | 3 |  | 67% |  |  | 2 |
 | 14 | Autrey Calvert | Carbondale Searcher #2 | 10 | 2 |  | 100% |  |  | 1 |
 | **\*14** | Josiah Haynes | W-Kids Red | 10 | 2 |  | 100% |  |  | 1 |
-| 15 | Charissa Posey | Quizzly Bears #3 |  |  |  |  |  |  |  |
+| 15 | Ethan Sloat | W-Kids Red |  |  |  |  |  |  |  |
 | **\*15** | Lydia Spencer | Christian Chapel #2 |  |  |  |  |  |  |  |
 | **\*15** | Mercy Rogers | Quizzly Bears #3 |  |  |  |  |  |  |  |
-| **\*15** | Molly Middleton | Carbondale Searcher #1 |  |  |  |  |  |  |  |
 | **\*15** | Paisley Wootton | Carbondale Searcher #1 |  |  |  |  |  |  |  |
 | **\*15** | Shay Spencer | Christian Chapel #2 |  |  |  |  |  |  |  |
 | **\*15** | Summer Muilenburg | Carbondale Searcher #2 |  |  |  |  |  |  |  |
 | **\*15** | Tatum Chambers | Carbondale Searcher #1 |  |  |  |  |  |  |  |
-| **\*15** | Zion Ullrich | Christian Chapel #2 |  |  |  |  |  |  |  |
 | 16 | Mercy Harris | Carbondale Searcher #1 | -5 | -1 |  |  |  |  |  |
 | 17 | Joseph Cates | Carbondale Searcher #2 | -35 | -7 |  | 35% |  |  | 7 |
+
+*\* Tie couldn't be broken by tie breaking rules.*
+
+## FEB-Discoverer
+
+{% include notification.html
+   message="<b>COMPLETE:</b> All Room(s) Reported."
+   icon="fas fa-info-circle"
+   status="is-success" %}
+
+
+### Teams
+
+*Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
+
+| # | Team / Church | W | L | Total | AVG | QO | Q% | 30s | 20s | 10s |
+|--:|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| 1 | BattleCreek Jenks Discoverers | 5 | 1 | 620 | 103.3 | 7 | 91% |  |  | 58 |
+| **\*1** | Carbondale Discoverer #1 | 5 | 1 | 570 | 95 | 4 | 83% |  |  | 59 |
+| 2 | Carbondale Discoverer #2 | 2 | 4 | 190 | 31.7 |  | 65% |  |  | 26 |
+| 3 | Barnsdall #1 | 0 | 6 | 140 | 23.3 |  | 100% |  |  | 14 |
+
+*\* Tie couldn't be broken by tie breaking rules.*
+
+### Individuals
+
+*Ranked by average points, then by total quiz outs.*
+
+| # | Quizzer | Team / Church | Total | AVG | QO | Q% | 30s | 20s | 10s |
+|--:|---|---|--:|--:|--:|--:|--:|--:|--:|
+| 1 | Elizabeth Bruce | BattleCreek Jenks Discoverers | 350 | 58.3 | 4 | 100% |  |  | 31 |
+| 2 | Trinity Harris | Carbondale Discoverer #1 | 330 | 55 | 3 | 89% |  |  | 32 |
+| 3 | Vivian Frescott | BattleCreek Jenks Discoverers | 285 | 47.5 | 3 | 90% |  |  | 27 |
+| 4 | Sadie Quinn | Carbondale Discoverer #1 | 205 | 34.2 | 1 | 88% |  |  | 21 |
+| 5 | Gavin Muilenburg | Carbondale Discoverer #2 | 105 | 17.5 |  | 92% |  |  | 11 |
+| 6 | Johnathan Payne | Barnsdall #1 | 90 | 15 |  | 100% |  |  | 9 |
+| 7 | Katherine Hazelrigg | Carbondale Discoverer #2 | 70 | 11.7 |  | 100% |  |  | 7 |
+| 8 | Adam Payne | Barnsdall #1 | 50 | 8.3 |  | 100% |  |  | 5 |
+| 9 | Levi Cobb | Carbondale Discoverer #2 | 35 | 5.8 |  | 62% |  |  | 5 |
+| 10 | Charlotte Potter | Carbondale Discoverer #1 | 15 | 2.5 |  | 67% |  |  | 2 |
+| 11 | Graham Calvert | Carbondale Discoverer #1 | 10 | 1.7 |  | 100% |  |  | 1 |
+| **\*11** | Lola Holt | Carbondale Discoverer #2 | 10 | 1.7 |  | 100% |  |  | 1 |
+| **\*11** | Lillian Potter | Carbondale Discoverer #1 | 10 | 1.7 |  | 43% |  |  | 3 |
+| 12 | Stephen Hazelrigg | Carbondale Discoverer #2 | 5 | .8 |  | 50% |  |  | 1 |
+| 13 | Atlas Quinn | Carbondale Discoverer #1 |  |  |  |  |  |  |  |
+| **\*13** | Caitlin Payne | Barnsdall #1 |  |  |  |  |  |  |  |
+| **\*13** | Caleb Cates | Carbondale Discoverer #1 |  |  |  |  |  |  |  |
+| **\*13** | Finn Kiefer | BattleCreek Jenks Discoverers |  |  |  |  |  |  |  |
+| **\*13** | Gabriel Messmore | BattleCreek Jenks Discoverers |  |  |  |  |  |  |  |
+| **\*13** | Josiah Cobb | Carbondale Discoverer #2 |  |  |  |  |  |  |  |
+| 14 | Ben Wilson | BattleCreek Jenks Discoverers | -15 | -2.5 |  |  |  |  |  |
+| 15 | JJ Miller | Carbondale Discoverer #2 | -35 | -5.8 |  | 10% |  |  | 1 |
+
+*\* Tie couldn't be broken by tie breaking rules.*
+
+## FEB-Searcher-M
+
+{% include notification.html
+   message="<b>COMPLETE:</b> All Room(s) Reported."
+   icon="fas fa-info-circle"
+   status="is-success" %}
+
+
+### Teams
+
+*Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
+
+| # | Team / Church | W | L | Total | AVG | QO | Q% | 30s | 20s | 10s |
+|--:|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| 1 | M-BattleCreek Jenks Master | 5 | 0 | 950 | 190 | 6 | 76% | 3 | 32 | 31 |
+| 2 | M-Bible Bunch#1 | 4 | 1 | 690 | 138 | 4 | 81% | 1 | 21 | 28 |
+| 3 | Fire Nation #4 | 2 | 3 | 670 | 134 | 6 | 92% |  | 19 | 25 |
+| 4 | W-Kids Red | 2 | 3 | 545 | 109 | 2 | 83% |  | 14 | 31 |
+| 5 | BattleCreek Jenks Searchers | 2 | 3 | 515 | 103 | 2 | 83% |  | 17 | 22 |
+
+### Individuals
+
+*Ranked by average points, then by total quiz outs.*
+
+| # | Quizzer | Team / Church | Total | AVG | QO | Q% | 30s | 20s | 10s |
+|--:|---|---|--:|--:|--:|--:|--:|--:|--:|
+| 1 | Sawyer Bell | M-BattleCreek Jenks Master | 545 | 109 | 4 | 84% | 3 | 23 | 1 |
+| 2 | Anna Wagner | M-Bible Bunch#1 | 535 | 107 | 4 | 97% | 1 | 20 | 8 |
+| 3 | Maverick Boggs | Fire Nation #4 | 500 | 100 | 5 | 88% |  | 17 | 13 |
+| 4 | Abigail Sloat | W-Kids Red | 290 | 58 | 2 | 91% |  | 9 | 11 |
+| 5 | Saul Lawrence | BattleCreek Jenks Searchers | 245 | 49 |  | 71% |  | 15 |  |
+| 6 | Sophia Frescott | M-BattleCreek Jenks Master | 190 | 38 | 1 | 73% |  | 5 | 11 |
+| 7 | Annabelle Frescott | BattleCreek Jenks Searchers | 175 | 35 | 1 | 94% |  | 2 | 13 |
+| **\*7** | Matthew Turner | M-BattleCreek Jenks Master | 175 | 35 | 1 | 76% |  | 3 | 13 |
+| 8 | Ximena Monroy | Fire Nation #4 | 140 | 28 | 1 | 100% |  | 1 | 11 |
+| 9 | Kaira Haynes | W-Kids Red | 140 | 28 |  | 76% |  | 4 | 9 |
+| 10 | Holden Hanover | M-Bible Bunch#1 | 130 | 26 |  | 65% |  | 1 | 16 |
+| 11 | Elliot Baker | BattleCreek Jenks Searchers | 85 | 17 | 1 | 89% |  |  | 8 |
+| 12 | Gabriel Taylor | W-Kids Red | 85 | 17 |  | 77% |  |  | 10 |
+| 13 | Mercy Rogers | Fire Nation #4 | 30 | 6 |  | 100% |  | 1 | 1 |
+| 14 | Ella Chamberlain | M-Bible Bunch#1 | 25 | 5 |  | 67% |  |  | 4 |
+| **\*14** | Tanner Wilmering | M-BattleCreek Jenks Master | 25 | 5 |  | 67% |  | 1 | 3 |
+| 15 | Ethan Sloat | W-Kids Red | 20 | 4 |  | 100% |  | 1 |  |
+| 16 | Shepard Lawrence | M-BattleCreek Jenks Master | 15 | 3 |  | 50% |  |  | 3 |
+| 17 | Britton Greene | W-Kids Red | 10 | 2 |  | 100% |  |  | 1 |
+| **\*17** | Faith Turner | BattleCreek Jenks Searchers | 10 | 2 |  | 100% |  |  | 1 |
+| 18 | Josiah Haynes | W-Kids Red |  |  |  |  |  |  |  |
+| **\*18** | Liam Ellis | M-BattleCreek Jenks Master |  |  |  |  |  |  |  |
+| **\*18** | Piper Ellis | BattleCreek Jenks Searchers |  |  |  |  |  |  |  |
+
+*\* Tie couldn't be broken by tie breaking rules.*
+
+## FEB-Searcher-2
+
+{% include notification.html
+   message="<b>COMPLETE:</b> All Room(s) Reported."
+   icon="fas fa-info-circle"
+   status="is-success" %}
+
+
+### Teams
+
+*Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.*
+
+| # | Team / Church | W | L | Total | AVG | QO | Q% | 30s | 20s | 10s |
+|--:|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| 1 | Christian Chapel #2 | 5 | 1 | 1,040 | 173.3 | 8 | 88% |  | 37 | 28 |
+| **\*1** | Carbondale Searcher #1 | 5 | 1 | 745 | 124.2 | 3 | 85% |  | 18 | 44 |
+| 2 | Carbondale Searcher #2 | 2 | 4 | 280 | 46.7 |  | 71% |  | 5 | 25 |
+| 3 | Quizzly Bears #3 | 0 | 6 | 215 | 35.8 |  | 80% |  | 1 | 23 |
+
+*\* Tie couldn't be broken by tie breaking rules.*
+
+### Individuals
+
+*Ranked by average points, then by total quiz outs.*
+
+| # | Quizzer | Team / Church | Total | AVG | QO | Q% | 30s | 20s | 10s |
+|--:|---|---|--:|--:|--:|--:|--:|--:|--:|
+| 1 | Caleb Rey | Christian Chapel #2 | 650 | 108.3 | 4 | 97% |  | 29 | 4 |
+| 2 | Peyton Morris | Christian Chapel #2 | 370 | 61.7 | 4 | 83% |  | 8 | 21 |
+| 3 | Selah Harris | Carbondale Searcher #1 | 360 | 60 | 1 | 92% |  | 15 | 7 |
+| 4 | Evelyn Potter | Carbondale Searcher #1 | 255 | 42.5 | 2 | 82% |  |  | 27 |
+| 5 | Stella Holt | Carbondale Searcher #2 | 125 | 20.8 |  | 92% |  | 1 | 11 |
+| **\*5** | Isabella Hutchison | Carbondale Searcher #2 | 125 | 20.8 |  | 67% |  | 4 | 8 |
+| 6 | Evelyn Stewart | Quizzly Bears #3 | 115 | 19.2 |  | 74% |  |  | 14 |
+| 7 | Paisley Wootton | Carbondale Searcher #1 | 90 | 15 |  | 91% |  |  | 10 |
+| 8 | Kyra Mueters | Quizzly Bears #3 | 80 | 13.3 |  | 89% |  | 1 | 7 |
+| 9 | Mercy Harris | Carbondale Searcher #1 | 40 | 6.7 |  | 60% |  | 3 |  |
+| 10 | Braxton Mueters | Quizzly Bears #3 | 20 | 3.3 |  | 100% |  |  | 2 |
+| **\*10** | Summer Muilenburg | Carbondale Searcher #2 | 20 | 3.3 |  | 100% |  |  | 2 |
+| 11 | Ethan Rey | Christian Chapel #2 | 15 | 2.5 |  | 67% |  |  | 2 |
+| 12 | Joseph Cates | Carbondale Searcher #2 | 10 | 1.7 |  | 44% |  |  | 4 |
+| 13 | McKinley Berglind | Christian Chapel #2 | 5 | .8 |  | 50% |  |  | 1 |
+| 14 | Autrey Calvert | Carbondale Searcher #2 |  |  |  |  |  |  |  |
+| **\*14** | Lydia Spencer | Christian Chapel #2 |  |  |  |  |  |  |  |
+| **\*14** | Shay Spencer | Christian Chapel #2 |  |  |  |  |  |  |  |
+| **\*14** | Tatum Chambers | Carbondale Searcher #1 |  |  |  |  |  |  |  |
 
 *\* Tie couldn't be broken by tie breaking rules.*
 
