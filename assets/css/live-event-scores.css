@@ -8,6 +8,10 @@
         display: none;
     }
 
+    .show-if-single-team {
+        display: none;
+    }
+
     .search-highlight {
         background-color: #ffff80;
     }
@@ -37,6 +41,10 @@
 
     .blank-schedule .hide-if-schedule {
         display: none;
+    }
+
+    .single-team-page .show-if-single-team {
+        display: block;
     }
 
     div.team-card {

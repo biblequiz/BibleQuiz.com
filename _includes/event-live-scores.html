@@ -95,7 +95,7 @@
       </li>
     </ul>
   </div>
-  
+
   <div class="modal hide-on-print" id="teamModal">
     <div class="modal-background hide-on-print"></div>
     <div class="modal-card" style="width:95%">
@@ -129,7 +129,8 @@
       </div>
     </div>
     <div class="notification is-info" id="noScoresWarning">
-      <strong>Either the event coordinator hasn't enabled scores for this event yet or scoring hasn't started yet.</strong>
+      <strong>Either the event coordinator hasn't enabled scores for this event yet or scoring hasn't started
+        yet.</strong>
     </div>
     <div class="notification is-success" id="meetProgress_IsCompleted">
       <strong>COMPLETE: <span id="meetProgressLabel" /></strong>
@@ -233,8 +234,19 @@
             <button class="button is-primary"><i class="fas fa-print"></i></button>
             <div class="dropdown-menu">
               <div class="dropdown-content">
+                <div class="dropdown-item">
+                  <h6 class="mb-0">MANY TEAMS PER PAGE</h6>
+                </div>
                 <a class="dropdown-item" id="print_ScheduleAndScores">Schedule and Scores</a>
                 <a class="dropdown-item" id="print_ScheduleOnly">Schedule Only</a>
+                <div id="print_ScheduleSingleTeam">
+                  <hr class="dropdown-divider" />
+                  <div class="dropdown-item">
+                    <h6 class="mb-0">SINGLE TEAMS PER PAGE</h6>
+                  </div>
+                  <a class="dropdown-item" id="print_ScheduleAndScores_TeamPerPage">Schedule and Scores</a>
+                  <a class="dropdown-item" id="print_ScheduleOnly_TeamPerPage">Schedule Only</a>
+                </div>
               </div>
             </div>
           </div>
@@ -277,13 +289,15 @@
             </div>
           </li>
         </ol>
-        <p class="is-size-7" id="quizzersContainer"><b>Quizzers: </b> <span id="quizzersLabel" /></p>
+        <p class="is-size-7 mb-0" id="coachContainer"><b>Head Coach: </b> <span id="coachLabel" /></p>
+        <p class="is-size-7 mb-0" id="quizzersContainer"><b>Quizzers: </b> <span id="quizzersLabel" /></p>
       </div>
+      <div class="show-if-single-team" id="spacerTemplate"></div>
     </div>
     <div id="scheduleGrid">
       <table class="table is-striped is-fullwidth is-bordered is-narrow">
         <thead>
-          <tr id="scheduleTableHeaderRow">
+          <tr id="scheduleTeamTableHeaderRow">
             <th class="has-text-right" width="30" class="hide-if-schedule">#</th>
             <th width="33%">Team (Church)</th>
             <th class="has-text-right" width="30" class="hide-if-schedule">W</th>
@@ -293,7 +307,7 @@
             <th class="has-text-centered" id="matchItem" />
           </tr>
         </thead>
-        <tbody id="scheduleTableBody">
+        <tbody id="scheduleTeamTableBody">
           <tr id="cardTemplate">
             <td class="has-text-right" id="rankColumn" class="hide-if-schedule" />
             <td id="nameColumn" />
@@ -310,13 +324,29 @@
             </td>
           </tr>
         </tbody>
-        <tfoot id="scheduleTableFooter">
+        <tfoot id="scheduleTeamTableFooter">
           <tr id="tableRow">
-            <th class="show-if-schedule">Planned Start Time for Match</th>
+            <th class="show-if-schedule hide-on-print">Planned Start Time for Match</th>
             <th colspan="6" class="hide-if-schedule">Planned Start Time for Match</th>
             <th class="has-text-centered" id="matchItem" />
           </tr>
         </tfoot>
+      </table>
+      <div style="break-before: page;" />
+      <table class="table is-striped is-fullwidth is-bordered is-narrow">
+        <thead>
+          <tr>
+            <th width="33%">Team / Coach</th>
+            <th width="66%" colspan="2">Quizzers</th>
+          </tr>
+        </thead>
+        <tbody id="scheduleIndividualTableBody">
+          <tr id="cardTemplate">
+            <td id="teamAndCoachColumn" />
+            <td id="quizzerColumn1" />
+            <td id="quizzerColumn2" />
+          </tr>
+        </tbody>
       </table>
     </div>
   </template>

@@ -798,35 +798,11 @@ function initializeLiveEvents() {
                     }
                 }
                 else {
-                    // Update the print menu.
-                    getByAndRemoveId(meetCell, "print_ScheduleAndScores")
-                        .click(null, e => {
-                            allMeetCells.addClass("hide-on-print");
-                            meetCell.removeClass("hide-on-print");
-
-                            window.print();
-
-                            allMeetCells.removeClass("hide-on-print");
-                        });
-
-                    getByAndRemoveId(meetCell, "print_ScheduleOnly")
-                        .click(null, e => {
-                            allMeetCells.addClass("hide-on-print");
-                            meetCell.removeClass("hide-on-print");
-                            resultsPane.addClass("blank-schedule");
-                            allScheduleOnlyCells.removeClass("hide-on-print");
-
-                            window.print();
-
-                            allScheduleOnlyCells.addClass("hide-on-print");
-                            resultsPane.removeClass("blank-schedule");
-                            allMeetCells.removeClass("hide-on-print");
-                        });
 
                     const scheduleGridTableContainer = getByAndRemoveId(meetCell, "scheduleGrid");
 
                     const teamCards = getByAndRemoveId(meetCell, "teamCards");
-                    const scheduleTableBody = getByAndRemoveId(scheduleGridTableContainer, "scheduleTableBody");
+                    const scheduleTeamTableBody = getByAndRemoveId(scheduleGridTableContainer, "scheduleTeamTableBody");
 
                     // Capture the data needed for the report.
                     let isRoomReport;
@@ -847,13 +823,13 @@ function initializeLiveEvents() {
                             isRoomReport = false;
 
                             // Configure the table.
-                            const tableHeaderRow = getByAndRemoveId(scheduleGridTableContainer, "scheduleTableHeaderRow");
-                            const tableHeaderCellTemplate = getByAndRemoveId(tableHeaderRow, "matchItem")
+                            const teamTableHeaderRow = getByAndRemoveId(scheduleGridTableContainer, "scheduleTeamTableHeaderRow");
+                            const teamTableHeaderCellTemplate = getByAndRemoveId(teamTableHeaderRow, "matchItem")
                                 .remove()
                                 .get(0);
 
-                            const tableFooter = getByAndRemoveId(scheduleGridTableContainer, "scheduleTableFooter");
-                            const tableFooterRow = getByAndRemoveId(tableFooter, "tableRow");
+                            const teamTableFooter = getByAndRemoveId(scheduleGridTableContainer, "scheduleTeamTableFooter");
+                            const tableFooterRow = getByAndRemoveId(teamTableFooter, "tableRow");
                             const tableFooterCellTemplate = getByAndRemoveId(tableFooterRow, "matchItem")
                                 .remove()
                                 .get(0);
@@ -862,9 +838,9 @@ function initializeLiveEvents() {
                             for (let match of meet.Matches) {
 
                                 // Add the match to the header.
-                                const headerCell = cloneTemplate(tableHeaderCellTemplate)
+                                const headerCell = cloneTemplate(teamTableHeaderCellTemplate)
                                     .text(match.Id);
-                                tableHeaderRow.append(headerCell);
+                                teamTableHeaderRow.append(headerCell);
 
                                 // Add the time to the footer.
                                 const footerCell = cloneTemplate(tableFooterCellTemplate);
@@ -883,7 +859,7 @@ function initializeLiveEvents() {
 
                             // If there aren't any times, remove the footer.
                             if (!hasAnyMatchTimes) {
-                                tableFooter.remove();
+                                teamTableFooter.remove();
                             }
 
                             teamCards.remove();
@@ -898,8 +874,72 @@ function initializeLiveEvents() {
                             break;
                     }
 
+                    // Update the print menu.
+                    const printScheduleAndScores = getByAndRemoveId(meetCell, "print_ScheduleAndScores")
+                        .click(null, e => {
+                            allMeetCells.addClass("hide-on-print");
+                            meetCell.removeClass("hide-on-print");
+
+                            window.print();
+
+                            allMeetCells.removeClass("hide-on-print");
+                        });
+
+                    const printScheduleOnly = getByAndRemoveId(meetCell, "print_ScheduleOnly")
+                        .click(null, e => {
+                            allMeetCells.addClass("hide-on-print");
+                            meetCell.removeClass("hide-on-print");
+                            resultsPane.addClass("blank-schedule");
+                            allScheduleOnlyCells.removeClass("hide-on-print");
+
+                            window.print();
+
+                            allScheduleOnlyCells.addClass("hide-on-print");
+                            resultsPane.removeClass("blank-schedule");
+                            allMeetCells.removeClass("hide-on-print");
+                        });
+
+                    const printScheduleSingleTeam = getByAndRemoveId(meetCell, "print_ScheduleSingleTeam");
+                    if (isCardReport && !isRoomReport) {
+
+                        getByAndRemoveId(meetCell, "print_ScheduleAndScores_TeamPerPage")
+                            .click(null, e => {
+
+                                allShowIfTeamCells
+                                    .addClass(["column", "is-half"])
+                                    .css("break-after", "page");
+
+                                printScheduleAndScores.triggerHandler("click");
+
+                                allShowIfTeamCells
+                                    .removeClass(["column", "is-half"])
+                                    .css("break-after", "");
+                            });
+
+                        getByAndRemoveId(meetCell, "print_ScheduleOnly_TeamPerPage")
+                            .click(null, e => {
+
+                                allShowIfTeamCells
+                                    .addClass(["column", "is-half"])
+                                    .css("break-after", "page");
+
+                                printScheduleOnly.triggerHandler("click");
+
+                                allShowIfTeamCells
+                                    .removeClass(["column", "is-half"])
+                                    .css("break-after", "");
+                            });
+                    }
+                    else {
+                        printScheduleSingleTeam.remove();
+                    }
+
                     // Build the cards.
-                    const teamCardTemplate = getByAndRemoveId(isCardReport ? teamCards : scheduleTableBody, "cardTemplate")
+                    const teamCardTemplate = getByAndRemoveId(isCardReport ? teamCards : scheduleTeamTableBody, "cardTemplate")
+                        .remove()
+                        .get(0);
+
+                    const teamCardSpacerTemplate = getByAndRemoveId(teamCards, "spacerTemplate")
                         .remove()
                         .get(0);
 
@@ -927,6 +967,9 @@ function initializeLiveEvents() {
                         if (isCardReport) {
 
                             teamCards.append(teamCardOrRow);
+                            if (i < cardItems.length - 1) {
+                                teamCards.append(cloneTemplate(teamCardSpacerTemplate));
+                            }
 
                             // Add team specific processing.
                             const churchNameRow = getByAndRemoveId(teamCardOrRow, "churchName");
@@ -971,7 +1014,7 @@ function initializeLiveEvents() {
                                 rankColumn.append("&nbsp;");
                             }
 
-                            scheduleTableBody.append(teamCardOrRow);
+                            scheduleTeamTableBody.append(teamCardOrRow);
                         }
 
                         // Add the match items.
@@ -1136,6 +1179,17 @@ function initializeLiveEvents() {
 
                         if (isCardReport) {
 
+                            // Build the list of coaches.
+                            const coachContainer = getByAndRemoveId(teamCardOrRow, "coachContainer");
+                            if (!isRoomReport && team.CoachName) {
+                                getByAndRemoveId(coachContainer, "coachLabel")
+                                    .empty()
+                                    .text(team.CoachName);
+                            }
+                            else {
+                                coachContainer.remove();
+                            }
+
                             // Build the list of quizzers.
                             const quizzersContainer = getByAndRemoveId(teamCardOrRow, "quizzersContainer");
                             if (!isRoomReport && team.Quizzers.length > 0) {
@@ -1174,6 +1228,63 @@ function initializeLiveEvents() {
                         }
                     }
 
+                    if (!isCardReport) {
+
+                        const scheduleIndividualsTableBody = getByAndRemoveId(scheduleGridTableContainer, "scheduleIndividualTableBody");
+                        const individualRowTemplate = getByAndRemoveId(scheduleIndividualsTableBody, "cardTemplate")
+                            .remove()
+                            .get(0);
+
+                        for (let i = 0; i < meet.Teams.length; i++) {
+
+                            const team = meet.Teams[i];
+                            const individualsRow = cloneTemplate(individualRowTemplate);
+
+                            const teamAndCoachColumn = getByAndRemoveId(individualsRow, "teamAndCoachColumn")
+                                .append($("<strong />").text(team.Name));
+                            if (team.CoachName) {
+                                teamAndCoachColumn
+                                    .append("<br />")
+                                    .append($("<span />").text(team.CoachName));
+                            }
+
+                            const column1 = getByAndRemoveId(individualsRow, "quizzerColumn1");
+                            const column2 = getByAndRemoveId(individualsRow, "quizzerColumn2");
+                            if (team.Quizzers.length > 0) {
+
+                                // Append the first column.
+                                const column1Count = Math.ceil(team.Quizzers.length / 2);
+                                for (let i = 0; i < column1Count; i++) {
+                                    if (i > 0) {
+                                        column1.append("<br />");
+                                    }
+
+                                    column1.append($("<span />").text(meet.Quizzers[team.Quizzers[i]].Name));
+                                }
+
+                                if (team.Quizzers.length > column1Count) {
+                                    for (let i = column1Count; i < team.Quizzers.length; i++) {
+                                        if (i > column1Count) {
+                                            column2.append("<br />");
+                                        }
+
+                                        column2.append($("<span />").text(meet.Quizzers[team.Quizzers[i]].Name));
+                                    }
+                                }
+                                else {
+                                    column1.attr("colspan", 2);
+                                    column2.remove();
+                                }
+                            }
+                            else {
+                                column2.remove();
+                                column1.attr("colspan", 2);
+                            }
+
+                            scheduleIndividualsTableBody.append(individualsRow);
+                        }
+                    }
+
                     // If there is no ranking, remove all the columns that would have been hidden for a schedule. The table only displays a schedule.
                     if (!meet.RankedTeams) {
                         scheduleGridTableContainer.find(".hide-if-schedule").remove();
@@ -1190,6 +1301,7 @@ function initializeLiveEvents() {
             // Capture all the meet cells.
             const allMeetCells = $(".meet-cell");
             const allScheduleOnlyCells = $(".show-if-schedule");
+            const allShowIfTeamCells = $(".show-if-single-team");
 
             // Add the elements to the table of contents.
             $("#pageTOC")
