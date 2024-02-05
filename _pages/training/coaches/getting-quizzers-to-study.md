@@ -5,9 +5,6 @@ title: "Getting Quizzers to Study"
 date: "2016-05-02"
 ---
 
-{% include youtube.html
-   video="BmRmPYXVov0" %}
-
 Well, let's get right to the heart of the matter. How do you get teenagers to memorize and review material on a daily basis? This is the critical element required to have a successful Bible Quiz team. Without it, you're just showing up and getting pummeled.
 
 There are lots of great ideas on how to get students into the Word. Here are a few guiding principles that will help you get started:
