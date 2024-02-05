@@ -58,13 +58,13 @@ defaults:
       type: "pages"
     values:
       hero_height: is-small
-      image_max_height: 500px
+      image_max_height: 700px
   - scope:
       path: ""
       type: "posts"
     values:
       hero_height: is-small
-      image_max_height: 500px
+      image_max_height: 700px
 
 # Set the Sass partials directory, as we're using @imports
 sass:
