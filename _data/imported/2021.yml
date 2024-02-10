@@ -1,54 +1,60 @@
 jbq:
   regionFinals:
-  - name: 2021 Great Lakes Regionals
-    scope: region
-    scopeLabel: Great Lakes
-    scoresLink: /jbq/2021/regionals/great-lakes/
-  - name: 2021 North Central Regionals
-    scope: region
-    scopeLabel: North Central
-    scoresLink: /jbq/2021/regionals/north-central/
-  - name: 2021 South Central Regionals
-    scope: region
-    scopeLabel: South Central
-    scoresLink: /jbq/2021/regionals/south-central/
+    - name: 2021 Great Lakes Regionals
+      scope: region
+      scopeLabel: Great Lakes
+      scoresLink: /jbq/2021/regionals/great-lakes/
+    - name: 2021 North Central Regionals
+      scope: region
+      scopeLabel: North Central
+      scoresLink: /jbq/2021/regionals/north-central/
+    - name: 2021 South Central Regionals
+      scope: region
+      scopeLabel: South Central
+      scoresLink: /jbq/2021/regionals/south-central/
   districtFinals:
-  - name: 2021 Arkansas District Finals
-    scope: district
-    scopeLabel: Arkansas
-    scoresLink: /jbq/2021/districts/arkansas/
-    dates: Apr 10, 2021
-  - name: 2021 North Carolina District Finals
-    scope: district
-    scopeLabel: North Carolina
-    scoresLink: /jbq/2021/districts/north-carolina/
-    dates: Apr 10, 2021
-  - name: 2021 North Texas District Finals
-    scope: district
-    scopeLabel: North Texas
-    scoresLink: /jbq/2021/districts/north-texas/
-    dates: Mar 13 & 27, 2021
-  - name: 2021 Northwest District Finals
-    scope: district
-    scopeLabel: Northwest
-    scoresLink: /jbq/2021/districts/northwest/
-    dates: May 2, 2021
-  - name: 2021 Oklahoma District Finals
-    scope: district
-    scopeLabel: Oklahoma
-    scoresLink: /jbq/2021/districts/oklahoma/
-    dates: Feb 27, 2021
-  - name: 2021 Peninsular-Florida District Finals
-    scope: district
-    scopeLabel: Peninsular-Florida
-    scoresLink: /jbq/2021/districts/peninsular-florida/
-    dates: Mar 14, 2021
-  - name: 2021 Pennsylvania-Delaware District Finals
-    scope: district
-    scopeLabel: Pennsylvania-Delaware
-    scoresLink: /jbq/2021/districts/pennsylvania-delaware/
-    dates: Feb 6, 2021
+    - name: 2021 Arkansas District Finals
+      scope: district
+      scopeLabel: Arkansas
+      scoresLink: /jbq/2021/districts/arkansas/
+      dates: Apr 10, 2021
+    - name: 2021 North Carolina District Finals
+      scope: district
+      scopeLabel: North Carolina
+      scoresLink: /jbq/2021/districts/north-carolina/
+      dates: Apr 10, 2021
+    - name: 2021 North Texas District Finals
+      scope: district
+      scopeLabel: North Texas
+      scoresLink: /jbq/2021/districts/north-texas/
+      dates: Mar 13 & 27, 2021
+    - name: 2021 Northwest District Finals
+      scope: district
+      scopeLabel: Northwest
+      scoresLink: /jbq/2021/districts/northwest/
+      dates: May 2, 2021
+    - name: 2021 Oklahoma District Finals
+      scope: district
+      scopeLabel: Oklahoma
+      scoresLink: /jbq/2021/districts/oklahoma/
+      dates: Feb 27, 2021
+    - name: 2021 Peninsular-Florida District Finals
+      scope: district
+      scopeLabel: Peninsular-Florida
+      scoresLink: /jbq/2021/districts/peninsular-florida/
+      dates: Mar 14, 2021
+    - name: 2021 Pennsylvania-Delaware District Finals
+      scope: district
+      scopeLabel: Pennsylvania-Delaware
+      scoresLink: /jbq/2021/districts/pennsylvania-delaware/
+      dates: Feb 6, 2021
   tournament:
+  - name: John Crabtree
+    scope: tournament
+    scoresLink: /jbq/2021/tournaments/john-crabtree/
+    locationName: First Assembly of God
+    locationCity: Normal, IL
+    dates: Feb 26 - 27, 2021
   - name: Carolina Classic
     scope: tournament
     scoresLink: /jbq/2022/tournaments/carolina-classic/
@@ -122,12 +128,6 @@ tbq:
     scope: tournament
     scoresLink: /history/2021/tournaments/gold-cup/
     dates: Oct 24, 2020
-  - name: John Crabtree
-    scope: tournament
-    scoresLink: /jbq/2021/tournaments/john-crabtree/
-    locationName: First Assembly of God
-    locationCity: Normal, IL
-    dates: Feb 26 - 27, 2021
   - name: Mid-Winter Classic
     scoresLink: /history/2021/tournaments/mid-winter-classic/
     dates: Jan 16, 2021
@@ -135,3 +135,7 @@ tbq:
     scope: tournament
     scoresLink: /history/2021/tournaments/windy-city-classic/
     dates: Mar 7, 2021
+  - name: Friendship Classic
+    scope: tournament
+    scoresLink: /history/2021/tournaments/friendship-classic/
+    dates: Jan 30, 2021
