@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/2024/other/040d3c2d-cefd-431a-d07b-08dbccc7cb83
 title: 2023-2024 Bible  Quiz Georgia League Quiz
-date: 2024-01-29
+date: 2024-02-13
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
@@ -90,14 +90,14 @@ menubar_toc_static:
 | 1 | Adrin Joseph | Epistles of Christ (AIPF) | 690 | 115 | 5 | 88% | 7 | 20 | 2 |
 | 2 | Harshish Jayakrishnan | Epistles of Christ (AIPF) | 420 | 70 | 4 | 86% | 2 | 10 | 12 |
 | **\*2** | Sherin Jenefa | Faithful Fighters | 420 | 70 | 4 | 80% | 3 | 10 | 11 |
-| 3 | Abhishek Prabhu samuel | Covenant Keepers | 370 | 61.7 | 3 | 77% | 4 | 7 | 12 |
-| 4 | Niven Vijay | Living Stones (AIPF) | 340 | 56.7 | 1 | 90% | 4 | 9 | 5 |
-| 5 | Karunya Karthikeyan | Faithful Fighters | 275 | 45.8 | 1 | 88% | 2 | 9 | 4 |
-| 6 | Blessy Peter | Epistles of Christ (AIPF) | 250 | 41.7 | 1 | 77% |  | 7 | 13 |
-| 7 | Nathan Vijay | Living Stones (AIPF) | 75 | 12.5 |  | 53% | 1 | 4 | 4 |
-| 8 | Angel Esther Prabhu Samuel | Covenant Keepers | 10 | 1.7 |  | 67% |  |  | 2 |
-| 9 | Jason Jeremy | Living Stones (AIPF) |  |  |  |  |  |  |  |
-| **\*9** | Jenisha Sherlyn Yogarajan | Faithful Fighters |  |  |  |  |  |  |  |
+| 4 | Abhishek Prabhu samuel | Covenant Keepers | 370 | 61.7 | 3 | 77% | 4 | 7 | 12 |
+| 5 | Niven Vijay | Living Stones (AIPF) | 340 | 56.7 | 1 | 90% | 4 | 9 | 5 |
+| 6 | Karunya Karthikeyan | Faithful Fighters | 275 | 45.8 | 1 | 88% | 2 | 9 | 4 |
+| 7 | Blessy Peter | Epistles of Christ (AIPF) | 250 | 41.7 | 1 | 77% |  | 7 | 13 |
+| 8 | Nathan Vijay | Living Stones (AIPF) | 75 | 12.5 |  | 53% | 1 | 4 | 4 |
+| 9 | Angel Esther Prabhu Samuel | Covenant Keepers | 10 | 1.7 |  | 67% |  |  | 2 |
+| 10 | Jason Jeremy | Living Stones (AIPF) |  |  |  |  |  |  |  |
+| **\*10** | Jenisha Sherlyn Yogarajan | Faithful Fighters |  |  |  |  |  |  |  |
 
 *\* Tie couldn't be broken by tie breaking rules.*
 
@@ -147,19 +147,20 @@ menubar_toc_static:
 | 13 | Joanna Varghese | Calvary Assembly Church Of God - Teens for Christ | 460 | 65.7 | 4 | 97% | 1 | 7 | 22 |
 | 14 | Hannah Jacob | Calvary Assembly Church Of God - Teens for Christ | 460 | 65.7 | 2 | 96% | 4 | 11 | 9 |
 | **\*14** | Gaius Lejo | Calvary Assembly Church Of God - Alabasters | 460 | 65.7 | 2 | 85% |  | 17 | 12 |
-| 15 | Johanna Shinu | Calvary Assembly Church Of God - Teens for Christ | 450 | 64.3 | 1 | 95% | 7 | 11 | 1 |
-| 16 | Harshine Jayakrishnan | Olive Trees (AIPF) | 440 | 62.9 | 5 | 94% |  | 5 | 26 |
-| 17 | Sanjana Potnuru | Lifeline Church Soaring Eagle | 380 | 54.3 | 2 | 89% | 1 | 11 | 12 |
-| 18 | Suhas Kothapally | Lifeline Church (Cumming) #2 | 365 | 52.1 | 2 | 83% | 3 | 6 | 16 |
-| 19 | Adriel Solomon | In for Christ | 290 | 41.4 |  | 83% | 2 | 10 | 8 |
-| 20 | Levy Fernando | All for Jesus | 265 | 37.9 | 1 | 95% | 1 | 5 | 12 |
-| 21 | Sera Lejo | Calvary Assembly Church Of God - Alabasters | 200 | 28.6 |  | 100% | 1 | 4 | 9 |
-| 22 | Jennuvi Hephzibah fernando | All for Jesus | 130 | 18.6 |  | 100% |  | 1 | 11 |
-| 23 | Brody Bacus | The Church at the Groves (Leesburg) #1 | 30 | 4.3 |  | 100% |  | 1 | 1 |
-| 24 | Kylie Samples | The Church at the Groves (Leesburg) #1 |  |  |  | 50% |  |  | 1 |
-| **\*24** | Andy Karemola | Lifeline Church (Cumming) #2 |  |  |  |  |  |  |  |
-| **\*24** | Cherisha Karthikeyan | In for Christ |  |  |  |  |  |  |  |
-| **\*24** | Johan Biju | Calvary Assembly Church Of God - Alabasters |  |  |  |  |  |  |  |
+| 16 | Johanna Shinu | Calvary Assembly Church Of God - Teens for Christ | 450 | 64.3 | 1 | 95% | 7 | 11 | 1 |
+| 17 | Harshine Jayakrishnan | Olive Trees (AIPF) | 440 | 62.9 | 5 | 94% |  | 5 | 26 |
+| 18 | Sanjana Potnuru | Lifeline Church Soaring Eagle | 380 | 54.3 | 2 | 89% | 1 | 11 | 12 |
+| 19 | Suhas Kothapally | Lifeline Church (Cumming) #2 | 365 | 52.1 | 2 | 83% | 3 | 6 | 16 |
+| 20 | Adriel Solomon | In for Christ | 290 | 41.4 |  | 83% | 2 | 10 | 8 |
+| 21 | Levy Fernando | All for Jesus | 265 | 37.9 | 1 | 95% | 1 | 5 | 12 |
+| 22 | Sera Lejo | Calvary Assembly Church Of God - Alabasters | 200 | 28.6 |  | 100% | 1 | 4 | 9 |
+| 23 | Jennuvi Hephzibah fernando | All for Jesus | 130 | 18.6 |  | 100% |  | 1 | 11 |
+| 24 | Brody Bacus | The Church at the Groves (Leesburg) #1 | 30 | 4.3 |  | 100% |  | 1 | 1 |
+| 25 | Kylie Samples | The Church at the Groves (Leesburg) #1 |  |  |  | 50% |  |  | 1 |
+| **\*25** | Andy Karemola | Lifeline Church (Cumming) #2 |  |  |  |  |  |  |  |
+| **\*25** | Cherisha Karthikeyan | In for Christ |  |  |  |  |  |  |  |
+| **\*25** | Johan Biju | Calvary Assembly Church Of God - Alabasters |  |  |  |  |  |  |  |
+| **\*25** | Madeline Pitts | The Church at the Groves (Leesburg) #1 |  |  |  |  |  |  |  |
 
 *\* Tie couldn't be broken by tie breaking rules.*
 
