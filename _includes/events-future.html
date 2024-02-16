@@ -2,6 +2,17 @@
 {% assign event_count = events | size %}
 
 {% if event_count > 0 %}
+
+{% assign first_event = events | first %}
+
+<div class="columns is-desktop">
+  <div class="column has-text-centered">
+    <a href="{{ include.history_base_url }}/{{ first_event.season }}" class="button is-primary">
+      See Past Events from the {{ first_event.season }} Season&nbsp;<i class="far fa-arrow-alt-circle-right"></i>
+    </a>
+  </div>
+</div>
+
 <table class="table is-striped is-narrow is-hoverable is-fullwidth">
   <thead>
     <tr>
@@ -31,7 +42,8 @@
       </td>
       <td>{{ event.scopeLabel }}</td>
       <td>
-        {% if event.isVisible %}<a href="https://registration.biblequiz.com/#/Registration/{{ event.id }}">{% endif %}{{ event.name }}{% if event.isVisible %}</a>{% endif %}
+        {% if event.isVisible %}<a href="https://registration.biblequiz.com/#/Registration/{{ event.id }}">{% endif %}{{
+          event.name }}{% if event.isVisible %}</a>{% endif %}
       </td>
       <td>{{ event.locationName }}<br><em>{{ event.locationCity }}</em></td>
       <td>
