@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/2024/other/040d3c2d-cefd-431a-d07b-08dbccc7cb83
 title: 2023-2024 Bible  Quiz Georgia League Quiz
-date: 2024-02-13
+date: 2024-02-18
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
