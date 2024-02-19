@@ -31,15 +31,6 @@ jbq:
   scopeLabel: North Texas
   locationName: North Texas District
   dates: Oct 1 - Mar 23, 2024
-- id: 521bceb9-e382-46dd-5485-08dbc805d3ff
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  name: 2023-24 NTX NFWSD League Meets
-  scope: district
-  scopeLabel: North Texas
-  locationName: NTX Churches
-  dates: Nov 11 - Feb 18, 2024
 - id: 97d01a27-743e-4916-9920-08db6db4e4af
   season: 2024
   registrationDates: Closed
@@ -64,6 +55,7 @@ jbq:
 - id: 23d31549-a3cf-4068-f6cb-08dc25289c9a
   season: 2024
   registrationDates: Closes Feb 19, 2024
+  isLive: true
   isVisible: true
   name: Oklahoma District Celebration 2024
   scope: district
@@ -213,12 +205,24 @@ tbq:
 - id: 8dc8b661-ad24-4eb5-2fcf-08dc207dd55e
   season: 2024
   registrationDates: Closed
+  isLive: true
   isVisible: true
   name: 'Dakota Quiz League Meet #4'
   scope: district
   scopeLabel: South Dakota
   locationName: Bethel Church
   locationCity: Rapid City, SD
+  dates: Feb 24, 2024
+- id: 4688a46e-958e-48b4-7283-08dc2f28d0e6
+  season: 2024
+  registrationDates: Closes Feb 21, 2024
+  isLive: true
+  isVisible: true
+  name: Northwest TBQ - League 4 (2024)
+  scope: district
+  scopeLabel: Northwest
+  locationName: Bellevue Neighborhood Church
+  locationCity: Bellevue, WA
   dates: Feb 24, 2024
 - id: ed6192d3-d767-46b4-6ef7-08dc02803b5e
   season: 2024
@@ -229,3 +233,13 @@ tbq:
   locationName: Calvary Church
   locationCity: Naperville, IL
   dates: Mar 1 - 2, 2024
+- id: 409c35df-8702-42e3-7282-08dc2f28d0e6
+  season: 2024
+  registrationDates: Closes Mar 12, 2024
+  isVisible: true
+  name: 2024 Bible Quiz Georgia District Finals
+  scope: district
+  scopeLabel: Georgia
+  locationName: Trinity Fellowship
+  locationCity: Sharpsburg, GA
+  dates: Mar 23, 2024
