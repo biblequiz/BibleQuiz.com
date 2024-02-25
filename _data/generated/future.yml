@@ -31,16 +31,6 @@ jbq:
   scopeLabel: North Texas
   locationName: North Texas District
   dates: Oct 1 - Mar 23, 2024
-- id: 97d01a27-743e-4916-9920-08db6db4e4af
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Pen Florida Junior Bible Quiz League Registration
-  scope: district
-  scopeLabel: Peninsular Florida
-  locationName: Various Locations in the Pen Florida District
-  dates: Jan 1 - Feb 24, 2024
 - id: 6ae074f1-3ae3-4160-0f55-08dbb09b83f3
   season: 2024
   registrationDates: Closed
@@ -52,17 +42,6 @@ jbq:
   locationName: Evangel Chapel
   locationCity: Bridgewater, NJ
   dates: Jan 1 - Mar 2, 2024
-- id: 23d31549-a3cf-4068-f6cb-08dc25289c9a
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Oklahoma District Celebration 2024
-  scope: district
-  scopeLabel: Oklahoma
-  locationName: BattleCreek Jenks
-  locationCity: Jenks, OK
-  dates: Feb 24, 2024
 - id: 78995266-2374-4544-b60b-08dc24504e6d
   season: 2024
   registrationDates: Closes Feb 25, 2024
@@ -220,28 +199,6 @@ tbq:
   scopeLabel: North Carolina
   locationName: TBD
   dates: Oct 21 - Mar 31, 2024
-- id: 8dc8b661-ad24-4eb5-2fcf-08dc207dd55e
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Dakota Quiz League Meet #4'
-  scope: district
-  scopeLabel: South Dakota
-  locationName: Bethel Church
-  locationCity: Rapid City, SD
-  dates: Feb 24, 2024
-- id: 4688a46e-958e-48b4-7283-08dc2f28d0e6
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Northwest TBQ - League 4 (2024)
-  scope: district
-  scopeLabel: Northwest
-  locationName: Bellevue Neighborhood Church
-  locationCity: Bellevue, WA
-  dates: Feb 24, 2024
 - id: d98bc842-e907-457f-3dc6-08db8164d66e
   season: 2024
   registrationDates: Closed
@@ -256,6 +213,7 @@ tbq:
 - id: ed6192d3-d767-46b4-6ef7-08dc02803b5e
   season: 2024
   registrationDates: Closes Feb 25, 2024
+  isLive: true
   isVisible: true
   name: Windy City Classic
   scope: nation
