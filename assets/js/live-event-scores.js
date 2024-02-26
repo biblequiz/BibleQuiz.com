@@ -506,6 +506,60 @@ function initializeLiveEvents() {
         searchDropdown.addClass("is-active");
     }
 
+    function formatElementTextSizes(elements, isSingleTeam) {
+
+        for (let i = 0; i < elements.length; i++) {
+
+            const addClasses = [];
+            const removeClasses = [];
+
+            let originalSizeClassName = null;
+            let updatedSizeClassName = null;
+
+            for (const className of elements.get(i).classList) {
+                if (!isSingleTeam) {
+                    if (className.endsWith("-if-not-single-team")) {
+                        removeClasses.push(className);
+                        addClasses.push(className.substr(0, className.length - "-if-not-single-team".length));
+                    }
+                    else if (className.endsWith("-if-single-team")) {
+                        removeClasses.push(className.substr(0, className.length - "-if-single-team".length));
+                    }
+                }
+                else {
+
+                    if (className.endsWith("-if-single-team")) {
+                        updatedSizeClassName = className.substr(0, className.length - "-if-single-team".length);
+                    }
+                    else if (className.startsWith("is-size-")) {
+                        const size = className.substr("is-size-".length, 1);
+                        if (!isNaN(size)) {
+                            originalSizeClassName = className;
+                        }
+                    }
+                    else if (className.startsWith("is-")) {
+                        const size = className.substr("is-".length, 1);
+                        if (!isNaN(size)) {
+                            originalSizeClassName = className;
+                        }
+                    }
+                }
+            }
+
+            if (originalSizeClassName != null && updatedSizeClassName != null) {
+                removeClasses.push(originalSizeClassName);
+                addClasses.push(updatedSizeClassName);
+                addClasses.push(originalSizeClassName + "-if-not-single-team");
+            }
+
+            if (addClasses.length > 0 || removeClasses.length > 0) {
+                $(elements.get(i))
+                    .addClass(addClasses)
+                    .removeClass(removeClasses);
+            }
+        }
+    }
+
     // Retrieve the score report that contains all the information about the event.
     fetch(`https://scores.biblequiz.com/api/Events/${eventId}/ScoringReport`)
         .then(response => response.json())
@@ -905,29 +959,45 @@ function initializeLiveEvents() {
                         getByAndRemoveId(meetCell, "print_ScheduleAndScores_TeamPerPage")
                             .click(null, e => {
 
-                                allShowIfTeamCells
-                                    .addClass(["column", "is-half"])
-                                    .css("break-after", "page");
+                                allIsFullIfSingleTeamElements
+                                    .removeClass("is-half")
+                                    .addClass("is-full");
+
+                                allShowIfTeamCells.css("break-after", "page");
+
+                                formatElementTextSizes(allResizableIfSingleTeamElements, true);
 
                                 printScheduleAndScores.triggerHandler("click");
 
-                                allShowIfTeamCells
-                                    .removeClass(["column", "is-half"])
-                                    .css("break-after", "");
+                                formatElementTextSizes(allResizableIfSingleTeamElements, false);
+
+                                allShowIfTeamCells.css("break-after", "");
+
+                                allIsFullIfSingleTeamElements
+                                    .removeClass("is-full")
+                                    .addClass("is-half");
                             });
 
                         getByAndRemoveId(meetCell, "print_ScheduleOnly_TeamPerPage")
                             .click(null, e => {
 
-                                allShowIfTeamCells
-                                    .addClass(["column", "is-half"])
-                                    .css("break-after", "page");
+                                allIsFullIfSingleTeamElements
+                                    .removeClass("is-half")
+                                    .addClass("is-full");
+
+                                allShowIfTeamCells.css("break-after", "page");
+
+                                formatElementTextSizes(allResizableIfSingleTeamElements, true);
 
                                 printScheduleOnly.triggerHandler("click");
 
-                                allShowIfTeamCells
-                                    .removeClass(["column", "is-half"])
-                                    .css("break-after", "");
+                                formatElementTextSizes(allResizableIfSingleTeamElements, false);
+
+                                allShowIfTeamCells.css("break-after", "");
+
+                                allIsFullIfSingleTeamElements
+                                    .removeClass("is-full")
+                                    .addClass("is-half");
                             });
                     }
                     else {
@@ -1302,6 +1372,8 @@ function initializeLiveEvents() {
             const allMeetCells = $(".meet-cell");
             const allScheduleOnlyCells = $(".show-if-schedule");
             const allShowIfTeamCells = $(".show-if-single-team");
+            const allIsFullIfSingleTeamElements = $(".is-full-if-single-team");
+            const allResizableIfSingleTeamElements = $(".is-3-if-single-team,.is-4-if-single-team,.is-5-if-single-team,.is-6-if-single-team,.is-7-if-single-team,.is-size-3-if-single-team,.is-size-4-if-single-team,.is-size-5-if-single-team,.is-size-6-if-single-team,.is-size-7-if-single-team");
 
             // Add the elements to the table of contents.
             $("#pageTOC")
