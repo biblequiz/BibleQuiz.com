@@ -254,28 +254,28 @@
       </div>
     </div>
     <div class="columns is-multiline" id="teamCards">
-      <div class="column is-half team-card p-3" id="cardTemplate">
-        <p class="title is-5" id="teamName" />
-        <p class="subtitle is-7" id="churchName" />
+      <div class="column is-half team-card is-full-if-single-team p-3" id="cardTemplate">
+        <p class="title is-5 is-4-if-single-team" id="teamName" />
+        <p class="subtitle is-7 is-6-if-single-team" id="churchName" />
         <div class="columns is-mobile is-centered mt-2 hide-if-schedule" id="statsRow">
           <div class="column is-3 has-text-centered team-card-right-border">
-            <span class="title is-5" id="rankLabel"></span><br />
-            <i class="subtitle is-6">PLACE</i>
+            <span class="title is-5 is-4-if-single-team" id="rankLabel"></span><br />
+            <i class="subtitle is-6 is-5-if-single-team">PLACE</i>
           </div>
           <div class="column is-one-fifth has-text-centered team-card-right-border">
-            <span class="title is-5" id="recordLabel"></span><br />
-            <i class="subtitle is-6">W-L</i>
+            <span class="title is-5 is-4-if-single-team" id="recordLabel"></span><br />
+            <i class="subtitle is-6 is-5-if-single-team">W-L</i>
           </div>
           <div class="column is-one-fifth has-text-centered team-card-right-border">
-            <span class="title is-5" id="pointsLabel"></span><br>
-            <i class="subtitle is-6">PTS</i>
+            <span class="title is-5 is-4-if-single-team" id="pointsLabel"></span><br>
+            <i class="subtitle is-6 is-5-if-single-team">PTS</i>
           </div>
           <div class="column is-one-fifth has-text-centered">
-            <span class="title is-5" id="averageLabel"></span><br />
-            <i class="subtitle is-6">AVG</i>
+            <span class="title is-5 is-4-if-single-team" id="averageLabel"></span><br />
+            <i class="subtitle is-6 is-5-if-single-team">AVG</i>
           </div>
         </div>
-        <ol class="is-size-7" id="matchList">
+        <ol class="is-size-7 is-size-5-if-single-team" id="matchList">
           <li id="matchItem">
             <div class="show-if-schedule hide-on-print" id="scheduleLabel"></div>
             <div class="hide-if-schedule" id="statsLabel">
