@@ -594,6 +594,7 @@ function initializeLiveEvents() {
             }
 
             let isFirstMeet = true;
+            let meetIndex = 0;
             for (let meet of report.Report.Meets) {
 
                 // Clone the template so it is available.
@@ -611,6 +612,39 @@ function initializeLiveEvents() {
                             .prepend($("<hr />").addClass("hide-on-print"));
                     }
                 }
+
+                // If this meet has links, there's special handling.
+                let linkedMeets = null;
+                if (ScheduleViewType.Room == currentScheduleView && meet.LinkedMeets && meet.LinkedMeets.length > 0) {
+                    if (meetIndex == meet.LinkedMeets[0]) {
+                        linkedMeets = [];
+                        let linkedMeetNames = [];
+                        for (let linkedMeetIndex of meet.LinkedMeets) {
+                            const linkedMeet = report.Report.Meets[linkedMeetIndex];
+
+                            linkedMeet.OriginalName = linkedMeet.Name;
+
+                            if (linkedMeetIndex > 0) {
+                                linkedMeets.push(linkedMeet);
+                            }
+
+                            linkedMeetNames.push(linkedMeet.Name);
+                        }
+
+                        for (let i = 0; i < linkedMeetNames.length - 2; i++) {
+                            linkedMeetNames[i] += ",";
+                        }
+
+                        linkedMeetNames[linkedMeetNames.length - 2] += " and";
+
+                        meet.Name = linkedMeetNames.join(" ");
+                    }
+                    else {
+                        continue;
+                    }
+                }
+
+                meetIndex++;
 
                 // Add the title to the results pane and start formatting the table of contents.
                 const titleAnchorId = `${meet.DatabaseId}_${meet.MeetId}`;
@@ -929,6 +963,8 @@ function initializeLiveEvents() {
                     }
 
                     // Update the print menu.
+                    const printSchedulesAndScoresSection = getByAndRemoveId(meetCell, "print_MultiplePerPageSection");
+
                     const printScheduleAndScores = getByAndRemoveId(meetCell, "print_ScheduleAndScores")
                         .click(null, e => {
                             allMeetCells.addClass("hide-on-print");
@@ -954,7 +990,13 @@ function initializeLiveEvents() {
                         });
 
                     const printScheduleSingleTeam = getByAndRemoveId(meetCell, "print_ScheduleSingleTeam");
-                    if (isCardReport && !isRoomReport) {
+                    if (isCardReport) {
+
+                        getByAndRemoveId(meetCell, "print_MultiplePerPageLabel")
+                            .text(isRoomReport ? "ROOMS" : "TEAMS");
+
+                        getByAndRemoveId(meetCell, "print_SinglePerPageLabel")
+                            .text(isRoomReport ? "ROOM" : "TEAM");
 
                         getByAndRemoveId(meetCell, "print_ScheduleAndScores_TeamPerPage")
                             .click(null, e => {
@@ -1001,6 +1043,7 @@ function initializeLiveEvents() {
                             });
                     }
                     else {
+                        printSchedulesAndScoresSection.remove();
                         printScheduleSingleTeam.remove();
                     }
 
@@ -1096,10 +1139,26 @@ function initializeLiveEvents() {
                         let matchIndex = 0;
                         for (let match of team.Matches) {
 
-                            const matchId = meet.Matches[matchIndex].Id;
+                            // If this is a linked meet, resolve the correct meet if there isn't a match in this room.
+                            let resolvedMeet = meet;
+                            if (match == null && linkedMeets != null) {
+                                for (const linkedMeet of linkedMeets) {
+                                    const linkedRoom = linkedMeet.Rooms[i];
+                                    if (linkedRoom) {
+                                        const linkedMatch = linkedRoom.Matches[matchIndex];
+                                        if (linkedMatch) {
+                                            resolvedMeet = linkedMeet;
+                                            match = linkedMatch;
+                                            break;
+                                        }
+                                    }
+                                }
+                            }
+
+                            const matchId = resolvedMeet.Matches[matchIndex].Id;
                             let matchTeam = null;
                             if (match && isRoomReport) {
-                                matchTeam = meet.Teams[match.Team1];
+                                matchTeam = resolvedMeet.Teams[match.Team1];
                                 match = matchTeam.Matches[matchIndex];
                             }
 
@@ -1111,7 +1170,7 @@ function initializeLiveEvents() {
                                 const statsLink = getByAndRemoveId(statsLabel, "statsLink");
                                 const liveEventLabel = getByAndRemoveId(matchListItem, "liveEventLabel");
 
-                                const isLiveMatch = match.CurrentQuestion && meet.RankedTeams;
+                                const isLiveMatch = match.CurrentQuestion && resolvedMeet.RankedTeams;
 
                                 if (isCardReport) {
                                     // Determine the prefix before each match.
@@ -1122,7 +1181,7 @@ function initializeLiveEvents() {
 
                                     scheduleText.push("vs.");
                                     let scoreText = null;
-                                    if (meet.RankedTeams) {
+                                    if (resolvedMeet.RankedTeams) {
 
                                         scoreText = [];
 
@@ -1156,7 +1215,7 @@ function initializeLiveEvents() {
                                     // Append the other team name and scores.
                                     if (match.OtherTeam || 0 == match.OtherTeam) {
 
-                                        const teamText = `"${meet.Teams[match.OtherTeam].Name}"`;
+                                        const teamText = `"${resolvedMeet.Teams[match.OtherTeam].Name}"`;
                                         scheduleText.push(teamText);
 
                                         if (scoreText) {
@@ -1168,7 +1227,7 @@ function initializeLiveEvents() {
                                                 }
                                             }
                                             else {
-                                                scoreText.push(`${match.Score} to ${meet.Teams[match.OtherTeam].Matches[matchIndex].Score}`);
+                                                scoreText.push(`${match.Score} to ${resolvedMeet.Teams[match.OtherTeam].Matches[matchIndex].Score}`);
                                             }
                                         }
                                     }
@@ -1186,9 +1245,12 @@ function initializeLiveEvents() {
                                         scheduleText.push(`in ${match.Room}`);
                                     }
 
-                                    const matchTime = meet.Matches[matchIndex].MatchTime;
+                                    const matchTime = resolvedMeet.Matches[matchIndex].MatchTime;
                                     if (matchTime) {
                                         scheduleText.push(`@ ${matchTime}`);
+                                    }
+                                    if (isRoomReport && linkedMeets) {
+                                        scheduleText.push(`(${resolvedMeet.OriginalName})`);
                                     }
 
                                     // Output the schedule text for all scenarios.
@@ -1200,6 +1262,10 @@ function initializeLiveEvents() {
                                         statsLabel.text(scheduleText.join(" "));
                                     }
                                     else {
+
+                                        if (linkedMeets) {
+                                            scoreText.push(`(${resolvedMeet.OriginalName})`);
+                                        }
 
                                         statsLink.text(scoreText.join(" "));
 
@@ -1221,7 +1287,7 @@ function initializeLiveEvents() {
                                     }
                                     else {
 
-                                        if (meet.RankedTeams && null != match.Score) {
+                                        if (resolvedMeet.RankedTeams && null != match.Score) {
                                             statsLink.append(
                                                 $("<font />")
                                                     .attr("color", match.Result === "W" ? "blue" : (match.Result === "L" ? "red" : "black"))
@@ -1232,10 +1298,10 @@ function initializeLiveEvents() {
                                     }
                                 }
 
-                                if (meet.RankedTeams) {
+                                if (resolvedMeet.RankedTeams) {
                                     statsLink.click(
                                         null,
-                                        e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${meet.Name}`, meet.DatabaseId, meet.MeetId, matchId, match.RoomId))
+                                        e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${resolvedMeet.OriginalName ?? resolvedMeet.Name}`, resolvedMeet.DatabaseId, resolvedMeet.MeetId, matchId, match.RoomId))
                                 }
                             }
                             else {
