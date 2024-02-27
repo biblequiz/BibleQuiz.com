@@ -108,13 +108,24 @@ function initializeLiveEvents() {
                     newClassNameParts[1] = "12";
 
                     const newClassName = newClassNameParts.join("-");
+                    let isSearchVisible = true;
 
                     window.addEventListener("beforeprint", () => {
                         pageColumns[1].classList.remove(originalClassName);
                         pageColumns[1].classList.add(newClassName);
+
+                        isSearchVisible = searchRow.is(":visible");
+                        if (isSearchVisible) {
+                            searchRow.hide();
+                        }
                     });
 
                     window.addEventListener("afterprint", (e) => {
+
+                        if (isSearchVisible) {
+                            searchRow.show();
+                        }
+
                         pageColumns[1].classList.remove(newClassName);
                         pageColumns[1].classList.add(originalClassName);
                     });
