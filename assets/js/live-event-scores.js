@@ -646,11 +646,12 @@ function initializeLiveEvents() {
                             linkedMeetNames[i] += ",";
                         }
 
-                        linkedMeetNames[linkedMeetNames.length - 2] += " and";
+                        linkedMeetNames[linkedMeetNames.length - 2] += `${linkedMeetNames.length > 2 ? "," : ""} and`;
 
                         meet.Name = linkedMeetNames.join(" ");
                     }
                     else {
+                        meetIndex++;
                         continue;
                     }
                 }
