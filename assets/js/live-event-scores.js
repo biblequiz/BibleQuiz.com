@@ -920,10 +920,18 @@ function initializeLiveEvents() {
                             break;
 
                         case ScheduleViewType.Grid:
-                            cardItems = meet.RankedTeams;
+
+                            if (meet.RankedTeams) {
+                                cardItems = meet.RankedTeams;
+                                isTeamRedirect = true;
+                            }
+                            else {
+                                cardItems = meet.Teams;
+                                isTeamRedirect = false;
+                            }
+                            
                             isCardReport = false;
                             isRoomReport = false;
-                            isTeamRedirect = true;
 
                             // Configure the table.
                             const teamTableHeaderRow = getByAndRemoveId(scheduleGridTableContainer, "scheduleTeamTableHeaderRow");
