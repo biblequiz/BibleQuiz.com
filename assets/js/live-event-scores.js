@@ -573,7 +573,7 @@ function initializeLiveEvents() {
 
     // Retrieve the score report that contains all the information about the event.
     fetch(`https://scores.biblequiz.com/api/Events/${eventId}/ScoringReport`)
-        .then(response => response.json())
+            .then(response => response.json())
         .then(report => {
 
             if (report.Message) {
@@ -605,8 +605,19 @@ function initializeLiveEvents() {
             }
 
             let isFirstMeet = true;
-            let meetIndex = 0;
             for (let meet of report.Report.Meets) {
+
+                let useCombinedName = false;
+                if (ScheduleViewType.Room == currentScheduleView && meet.HasLinkedMeets) {
+
+                    if (meet.CombinedName) {
+                        useCombinedName = true;
+                    }
+                    else {
+                        // This isn't the root linked meet.
+                        continue;
+                    }
+                }
 
                 // Clone the template so it is available.
                 const meetCell = cloneTemplate(template, "div")
@@ -624,52 +635,18 @@ function initializeLiveEvents() {
                     }
                 }
 
-                // If this meet has links, there's special handling.
-                let linkedMeets = null;
-                if (ScheduleViewType.Room == currentScheduleView && meet.LinkedMeets && meet.LinkedMeets.length > 0) {
-                    if (meetIndex == meet.LinkedMeets[0]) {
-                        linkedMeets = [];
-                        let linkedMeetNames = [];
-                        for (let linkedMeetIndex of meet.LinkedMeets) {
-                            const linkedMeet = report.Report.Meets[linkedMeetIndex];
-
-                            linkedMeet.OriginalName = linkedMeet.Name;
-
-                            if (linkedMeetIndex > 0) {
-                                linkedMeets.push(linkedMeet);
-                            }
-
-                            linkedMeetNames.push(linkedMeet.Name);
-                        }
-
-                        for (let i = 0; i < linkedMeetNames.length - 2; i++) {
-                            linkedMeetNames[i] += ",";
-                        }
-
-                        linkedMeetNames[linkedMeetNames.length - 2] += `${linkedMeetNames.length > 2 ? "," : ""} and`;
-
-                        meet.Name = linkedMeetNames.join(" ");
-                    }
-                    else {
-                        meetIndex++;
-                        continue;
-                    }
-                }
-
-                meetIndex++;
-
                 // Add the title to the results pane and start formatting the table of contents.
                 const titleAnchorId = `${meet.DatabaseId}_${meet.MeetId}`;
 
-                const tocEntry = $("<li />")
+                    const tocEntry = $("<li />")
                     .addClass("schedule-link")
                     .append($("<a />")
                         .attr("href", `#${titleAnchorId}`)
-                        .text(meet.Name));
+                        .text(useCombinedName ? meet.CombinedName : meet.Name));
 
                 getByAndRemoveId(meetCell, "meetName")
                     .prop("id", titleAnchorId)
-                    .text(meet.Name);
+                    .text(useCombinedName ? meet.CombinedName : meet.Name);
                 getByAndRemoveId(meetCell, "lastUpdated")
                     .text(meet.LastUpdated);
 
@@ -929,7 +906,7 @@ function initializeLiveEvents() {
                                 cardItems = meet.Teams;
                                 isTeamRedirect = false;
                             }
-                            
+
                             isCardReport = false;
                             isRoomReport = false;
 
@@ -1167,18 +1144,8 @@ function initializeLiveEvents() {
 
                             // If this is a linked meet, resolve the correct meet if there isn't a match in this room.
                             let resolvedMeet = meet;
-                            if (match == null && linkedMeets != null) {
-                                for (const linkedMeet of linkedMeets) {
-                                    const linkedRoom = linkedMeet.Rooms[i];
-                                    if (linkedRoom) {
-                                        const linkedMatch = linkedRoom.Matches[matchIndex];
-                                        if (linkedMatch) {
-                                            resolvedMeet = linkedMeet;
-                                            match = linkedMatch;
-                                            break;
-                                        }
-                                    }
-                                }
+                            if (match && match.LinkedMeet) {
+                                resolvedMeet = report.Report.Meets[match.LinkedMeet];
                             }
 
                             const matchId = resolvedMeet.Matches[matchIndex].Id;
@@ -1275,8 +1242,8 @@ function initializeLiveEvents() {
                                     if (matchTime) {
                                         scheduleText.push(`@ ${matchTime}`);
                                     }
-                                    if (isRoomReport && linkedMeets) {
-                                        scheduleText.push(`(${resolvedMeet.OriginalName})`);
+                                    if (isRoomReport && resolvedMeet.HasLinkedMeets) {
+                                        scheduleText.push(`(${resolvedMeet.Name})`);
                                     }
 
                                     // Output the schedule text for all scenarios.
@@ -1289,8 +1256,8 @@ function initializeLiveEvents() {
                                     }
                                     else {
 
-                                        if (linkedMeets) {
-                                            scoreText.push(`(${resolvedMeet.OriginalName})`);
+                                        if (isRoomReport && resolvedMeet.HasLinkedMeets) {
+                                            scoreText.push(`(${resolvedMeet.Name})`);
                                         }
 
                                         statsLink.text(scoreText.join(" "));
@@ -1327,7 +1294,7 @@ function initializeLiveEvents() {
                                 if (resolvedMeet.RankedTeams) {
                                     statsLink.click(
                                         null,
-                                        e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${resolvedMeet.OriginalName ?? resolvedMeet.Name}`, resolvedMeet.DatabaseId, resolvedMeet.MeetId, matchId, match.RoomId))
+                                        e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${resolvedMeet.Name}`, resolvedMeet.DatabaseId, resolvedMeet.MeetId, matchId, match.RoomId))
                                 }
                             }
                             else {
