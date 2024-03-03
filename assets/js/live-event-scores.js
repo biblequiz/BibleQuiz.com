@@ -907,18 +907,29 @@ function initializeLiveEvents() {
                     // Capture the data needed for the report.
                     let isRoomReport;
                     let isCardReport;
+                    let isTeamRedirect;
                     let cardItems;
                     switch (currentScheduleView) {
                         case ScheduleViewType.Room:
                             cardItems = meet.Rooms;
                             isRoomReport = true;
                             isCardReport = true;
+                            isTeamRedirect = false;
 
                             scheduleGridTableContainer.remove();
                             break;
 
                         case ScheduleViewType.Grid:
-                            cardItems = meet.Teams;
+
+                            if (meet.RankedTeams) {
+                                cardItems = meet.RankedTeams;
+                                isTeamRedirect = true;
+                            }
+                            else {
+                                cardItems = meet.Teams;
+                                isTeamRedirect = false;
+                            }
+                            
                             isCardReport = false;
                             isRoomReport = false;
 
@@ -969,6 +980,7 @@ function initializeLiveEvents() {
                             cardItems = meet.Teams;
                             isCardReport = true;
                             isRoomReport = false;
+                            isTeamRedirect = false;
 
                             scheduleGridTableContainer.remove();
                             break;
@@ -1070,7 +1082,9 @@ function initializeLiveEvents() {
 
                     for (let i = 0; i < cardItems.length; i++) {
 
-                        const team = cardItems[i];
+                        const team = isTeamRedirect
+                            ? meet.Teams[cardItems[i]]
+                            : cardItems[i];
 
                         const teamCardOrRow = cloneTemplate(teamCardTemplate);
 
