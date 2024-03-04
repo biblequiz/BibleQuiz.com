@@ -7,7 +7,7 @@ date: "2022-07-21"
 
 For the 2024-2025 season we will be quizzing over the book of Acts. This page will be updated as information becomes available.
 
-Once change from previous seasons: Championship division will only quiz on Acts 1-17.
+Once change from previous seasons: Championship division will only quiz on Acts 1-17 (more information available [here](https://biblequiz.com/2024/01/changes-for-acts-season)).
 
 ## League Meet breakdown
 

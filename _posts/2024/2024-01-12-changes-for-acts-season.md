@@ -116,6 +116,14 @@ We certainly hope so! We want more quizzers learning God's Word and more teams c
 
 There are no plans to quiz on Acts 18-28 in the future.
 
+### What about the unique word list?
+
+The scripture portion contains the entirety of Acts, and the unique word list was also created from the entirety of Acts.
+
+While there are technically more unique words in Acts 1-10 (Contender) and Acts 1-17 (Championship) versus the entire book, the official question writers will only reference the unique word list in the scripture portion when writing questions.
+
+For instance, if a word occurs twice within Acts—specifically in chapters 2 and 25—it wouldn't be classified as "unique" by the official writers even though it only appears once in chapters 1-10 and 1-17.
+
 ### Will there be other changes to the books in the cycle?
 
 The Steering Committee prioritized getting the changes for Acts implemented in time for the upcoming season. Any future changes to the cycle, if any, will be considered at a later time.
