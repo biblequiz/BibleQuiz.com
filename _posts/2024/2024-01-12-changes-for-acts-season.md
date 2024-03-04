@@ -122,7 +122,7 @@ The scripture portion contains the entirety of Acts, and the unique word list wa
 
 While there are technically more unique words in Acts 1-10 (Contender) and Acts 1-17 (Championship) versus the entire book, the official question writers will only reference the unique word list in the scripture portion when writing questions.
 
-For instance, if a word occurs twice within Acts—specifically in chapters 2 and 25—it wouldn't be classified as "unique" by the official writers even though it only appears once in chapters 1-10 and 1-17.
+For instance, if a word occurs twice within Acts—specifically in chapters 2 and 25—it will not be called "unique" by the official writers even though it only appears once in the material for the Championship and Challenger divisions.
 
 ### Will there be other changes to the books in the cycle?
 
