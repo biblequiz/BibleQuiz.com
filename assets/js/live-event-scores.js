@@ -58,8 +58,10 @@ function initializeLiveEvents() {
     // Capture the templates.
     const statsTemplate = document.getElementById("statsTemplate");
     const scheduleTemplate = document.getElementById("schedulesTemplate");
+    const coordinatorTemplate = document.getElementById("coordinatorTemplate");
     statsTemplate.remove();
     scheduleTemplate.remove();
+    coordinatorTemplate.remove();
 
     // Setup the modal dialog.
     const teamModalContainer = $("#teamModal");
@@ -135,19 +137,26 @@ function initializeLiveEvents() {
     }
 
     // Parse the URL.
+    const ReportType = {
+        Schedule: "Schedule",
+        Stats: "Stats",
+        Coordinator: "Coordinator"
+    };
+
     const ScheduleViewType = {
         Team: "Team",
         Room: "Room",
         Grid: "Grid"
     };
 
-    let isStatsReport = false;
+    let currentReportType = ReportType.Schedule;
     let currentScheduleView = ScheduleViewType.Team;
+    let meetCellTemplate = scheduleTemplate;
 
     // Configure the tabs.
     const schedulesTab = $("#schedulesTab")
         .click(null, e => {
-            if (isStatsReport) {
+            if (ReportType.Schedule !== currentReportType) {
                 changeSelectedTab("schedule", ScheduleViewType.Team);
             }
         });
@@ -177,8 +186,17 @@ function initializeLiveEvents() {
         .click(
             null,
             e => {
-                if (!isStatsReport) {
+                if (ReportType.Stats !== currentReportType) {
                     changeSelectedTab("stats", null);
+                }
+            });
+
+    const coordinatorTab = $("#coordinatorTab")
+        .click(
+            null,
+            e => {
+                if (ReportType.Coordinator !== currentReportType) {
+                    changeSelectedTab("coordinator", null);
                 }
             });
 
@@ -225,35 +243,49 @@ function initializeLiveEvents() {
         }
 
         // Capture the selected tab from the URL.
-        if (url.get("tab") == "stats") {
-            isStatsReport = true;
+        switch (url.get("tab")) {
+            case "stats":
+                currentReportType = ReportType.Stats;
+                meetCellTemplate = statsTemplate;
+                statsTab.addClass("is-active");
+                $("#scheduleViewTabs").remove();
+                searchRow.show();
+                break;
 
-            statsTab.addClass("is-active");
-        }
-        else {
-            isStatsReport = false;
+            case "coordinator":
+                currentReportType = ReportType.Coordinator;
+                meetCellTemplate = coordinatorTemplate;
+                coordinatorTab.addClass("is-active");
+                $("#scheduleViewTabs").remove();
+                searchRow.hide();
+                break;
 
-            switch (url.get("view")) {
-                case ScheduleViewType.Room:
-                    schedulesViewTab_Room.addClass("is-active");
-                    currentScheduleView = ScheduleViewType.Room;
-                    searchRow.hide();
-                    break;
+            default:
+                currentReportType = ReportType.Schedule;
+                meetCellTemplate = scheduleTemplate;
 
-                case ScheduleViewType.Grid:
-                    schedulesViewTab_Grid.addClass("is-active");
-                    currentScheduleView = ScheduleViewType.Grid;
-                    searchRow.show();
-                    break;
+                switch (url.get("view")) {
+                    case ScheduleViewType.Room:
+                        schedulesViewTab_Room.addClass("is-active");
+                        currentScheduleView = ScheduleViewType.Room;
+                        searchRow.hide();
+                        break;
 
-                default:
-                    schedulesViewTab_Team.addClass("is-active");
-                    currentScheduleView = ScheduleViewType.Team;
-                    searchRow.show();
-                    break;
-            }
+                    case ScheduleViewType.Grid:
+                        schedulesViewTab_Grid.addClass("is-active");
+                        currentScheduleView = ScheduleViewType.Grid;
+                        searchRow.show();
+                        break;
 
-            schedulesTab.addClass("is-active");
+                    default:
+                        schedulesViewTab_Team.addClass("is-active");
+                        currentScheduleView = ScheduleViewType.Team;
+                        searchRow.show();
+                        break;
+                }
+
+                schedulesTab.addClass("is-active");
+                break;
         }
 
         return parsedEventId;
@@ -267,7 +299,7 @@ function initializeLiveEvents() {
             url.search += `&view=${tabView}`;
         }
 
-        if (!isStatsReport) {
+        if (ReportType.Stats != currentReportType) {
             url.hash = url.hash
                 .replace("_teams", "")
                 .replace("_quizzers", "");
@@ -573,7 +605,7 @@ function initializeLiveEvents() {
 
     // Retrieve the score report that contains all the information about the event.
     fetch(`https://scores.biblequiz.com/api/Events/${eventId}/ScoringReport`)
-            .then(response => response.json())
+        .then(response => response.json())
         .then(report => {
 
             if (report.Message) {
@@ -596,19 +628,11 @@ function initializeLiveEvents() {
                 .addClass("menu-list");
 
             // Process each meet.
-            const template = isStatsReport ? statsTemplate : scheduleTemplate;
-
-            if (isStatsReport) {
-
-                // The schedule view tabs don't make sense for the Stats report.
-                $("#scheduleViewTabs").remove();
-            }
-
             let isFirstMeet = true;
             for (let meet of report.Report.Meets) {
 
                 let useCombinedName = false;
-                if (ScheduleViewType.Room == currentScheduleView && meet.HasLinkedMeets) {
+                if ((ScheduleViewType.Room == currentScheduleView || ReportType.Coordinator == currentReportType) && meet.HasLinkedMeets) {
 
                     if (meet.CombinedName) {
                         useCombinedName = true;
@@ -620,7 +644,7 @@ function initializeLiveEvents() {
                 }
 
                 // Clone the template so it is available.
-                const meetCell = cloneTemplate(template, "div")
+                const meetCell = cloneTemplate(meetCellTemplate, "div")
                     .addClass("meet-cell");
 
                 if (isFirstMeet) {
@@ -629,7 +653,7 @@ function initializeLiveEvents() {
                 else {
                     meetCell.css("page-break-before", "always");
 
-                    if (!isStatsReport) {
+                    if (ReportType.Schedule === currentReportType) {
                         meetCell
                             .prepend($("<hr />").addClass("hide-on-print"));
                     }
@@ -638,7 +662,7 @@ function initializeLiveEvents() {
                 // Add the title to the results pane and start formatting the table of contents.
                 const titleAnchorId = `${meet.DatabaseId}_${meet.MeetId}`;
 
-                    const tocEntry = $("<li />")
+                const tocEntry = $("<li />")
                     .addClass("schedule-link")
                     .append($("<a />")
                         .attr("href", `#${titleAnchorId}`)
@@ -651,776 +675,880 @@ function initializeLiveEvents() {
                     .text(meet.LastUpdated);
 
                 // Generate the actual report from the data.
-                if (isStatsReport) {
+                switch (currentReportType) {
 
-                    const noScoresWarning = getByAndRemoveId(meetCell, "noScoresWarning");
-                    if (meet.RankedTeams) {
-                        noScoresWarning.remove();
+                    case ReportType.Stats: {
+
+                        const noScoresWarning = getByAndRemoveId(meetCell, "noScoresWarning");
+                        if (meet.RankedTeams) {
+                            noScoresWarning.remove();
+
+                            // Update the print menu.
+                            getByAndRemoveId(meetCell, "print_TeamsAndQuizzers")
+                                .click(null, e => {
+                                    allMeetCells.addClass("hide-on-print");
+                                    meetCell.removeClass("hide-on-print");
+                                    quizzersContainer.css("break-before", "page");
+
+                                    window.print();
+
+                                    quizzersContainer.css("break-before", "auto");
+                                    allMeetCells.removeClass("hide-on-print");
+                                });
+
+                            getByAndRemoveId(meetCell, "print_TeamsOnly")
+                                .click(null, e => {
+                                    allMeetCells.addClass("hide-on-print");
+                                    meetCell.removeClass("hide-on-print");
+                                    quizzersContainer.addClass("hide-on-print");
+
+                                    window.print();
+
+                                    quizzersContainer.removeClass("hide-on-print");
+                                    allMeetCells.removeClass("hide-on-print");
+                                });
+
+                            getByAndRemoveId(meetCell, "print_QuizzersOnly")
+                                .click(null, e => {
+                                    allMeetCells.addClass("hide-on-print");
+                                    meetCell.removeClass("hide-on-print");
+                                    teamsContainer.addClass("hide-on-print");
+
+                                    window.print();
+
+                                    teamsContainer.removeClass("hide-on-print");
+                                    allMeetCells.removeClass("hide-on-print");
+                                });
+                        }
+                        else {
+                            getByAndRemoveId(meetCell, "statsPrintButton").remove();
+                        }
+
+                        // Update the progress.
+                        const meetProgressBanner_Completed = getByAndRemoveId(meetCell, "meetProgress_IsCompleted");
+                        const meetProgressBanner_Mismatch = getByAndRemoveId(meetCell, "meetProgress_IsMismatched");
+                        if (meet.RankedTeams && (meet.HasScoringCompleted || meet.HasRoomCompletionMismatch)) {
+
+                            getByAndRemoveId(meet.HasScoringCompleted ? meetProgressBanner_Completed : meetProgressBanner_Mismatch, "meetProgressLabel")
+                                .text(meet.ScoringProgressMessage);
+
+                            (meet.HasScoringCompleted ? meetProgressBanner_Mismatch : meetProgressBanner_Completed).remove();
+                        }
+                        else {
+                            meetProgressBanner_Completed.remove();
+                            meetProgressBanner_Mismatch.remove();
+                        }
+
+                        // Create the Teams table.
+                        const teamsAnchorId = `${titleAnchorId}_teams`;
+
+                        const teamsContainer = getByAndRemoveId(meetCell, "teamsSection")
+                            .prop("id", teamsAnchorId);
+
+                        let hasTie = false;
+                        if (!meet.RankedTeams) {
+                            teamsContainer.remove();
+                        }
+                        else {
+                            if (meet.TeamRankingLabel) {
+                                getByAndRemoveId(teamsContainer, "teamRankingLabel")
+                                    .text(meet.TeamRankingLabel);
+                            }
+                            else {
+                                teamsContainer
+                                    .find("#teamRankingRow")
+                                    .remove();
+                            }
+
+                            // Build the Teams table.
+                            const teamTableBody = getByAndRemoveId(teamsContainer, "teamsTableBody");
+                            const teamTableRowTemplate = getByAndRemoveId(teamTableBody, "tableRow")
+                                .remove()
+                                .get(0);
+
+                            for (let i = 0; i < meet.RankedTeams.length; i++) {
+
+                                const team = meet.Teams[meet.RankedTeams[i]];
+
+                                const tableRow = cloneTemplate(teamTableRowTemplate);
+
+                                // Calculate the rank cell, including a tie.
+                                const rankCell = getByAndRemoveId(tableRow, "rankColumn");
+                                if (team.Scores.IsTie) {
+                                    hasTie = true;
+                                    rankCell.append($("<b />")
+                                        .text(`*${team.Scores.Rank}`));
+                                }
+                                else {
+                                    rankCell.text(team.Scores.Rank);
+                                }
+
+                                const highlightName = getByAndRemoveId(tableRow, "nameColumn").text(`${team.Name} (${team.ChurchName})`);
+                                getByAndRemoveId(tableRow, "winColumn").text(team.Scores.Wins);
+                                getByAndRemoveId(tableRow, "lossColumn").text(team.Scores.Losses);
+                                getByAndRemoveId(tableRow, "winPercentageColumn").text(`${team.Scores.WinPercentage}%`);
+                                getByAndRemoveId(tableRow, "totalColumn").text(team.Scores.TotalPoints);
+                                getByAndRemoveId(tableRow, "averageColumn").append(team.Scores.AveragePoints ? team.Scores.AveragePoints : "&nbsp;");
+                                getByAndRemoveId(tableRow, "quizOutColumn").append(team.Scores.QuizOuts ? team.Scores.QuizOuts : "&nbsp;");
+                                getByAndRemoveId(tableRow, "quizOutPercentageColumn").append(team.Scores.QuestionCorrectPercentage ? `${team.Scores.QuestionCorrectPercentage}%` : "&nbsp;");
+                                getByAndRemoveId(tableRow, "question30sColumn").append(team.Scores.Correct30s ? team.Scores.Correct30s : "&nbsp;");
+                                getByAndRemoveId(tableRow, "question20sColumn").append(team.Scores.Correct20s ? team.Scores.Correct20s : "&nbsp;");
+                                getByAndRemoveId(tableRow, "question10sColumn").append(team.Scores.Correct10s ? team.Scores.Correct10s : "&nbsp;");
+
+                                // Update the search index.
+                                searchIndexSource.teams.push({
+                                    name: team.Name,
+                                    church: team.ChurchName,
+                                    meet: meet.Name,
+                                    scrollToElement: tableRow,
+                                    highlightElements: [highlightName]
+                                });
+
+                                teamTableBody.append(tableRow);
+                            }
+                        }
+
+                        const teamTieBreakingRow = getByAndRemoveId(teamsContainer, "teamTieBreakingRow");
+                        if (!hasTie) {
+                            teamTieBreakingRow.remove();
+                        }
+
+                        // Create the Quizzers table.
+                        const quizzersAnchorId = `${titleAnchorId}_quizzers`;
+
+                        const quizzersContainer = getByAndRemoveId(meetCell, "quizzersSection")
+                            .prop("id", quizzersAnchorId);
+
+                        hasTie = false;
+                        if (!meet.RankedQuizzers) {
+                            quizzersContainer.remove();
+                        }
+                        else {
+                            if (meet.QuizzerRankingLabel) {
+                                getByAndRemoveId(quizzersContainer, "quizzerRankingLabel")
+                                    .text(meet.QuizzerRankingLabel);
+                            }
+                            else {
+                                quizzersContainer
+                                    .find("#quizzersRankingRow")
+                                    .remove();
+                            }
+
+                            // Build the Quizzers table.
+                            const quizzerTableBody = getByAndRemoveId(quizzersContainer, "quizzersTableBody");
+                            const quizzerTableRowTemplate = getByAndRemoveId(quizzerTableBody, "tableRow")
+                                .remove()
+                                .get(0);
+
+                            for (let i = 0; i < meet.RankedQuizzers.length; i++) {
+
+                                const quizzer = meet.Quizzers[meet.RankedQuizzers[i]]
+
+                                const tableRow = cloneTemplate(quizzerTableRowTemplate);
+
+                                // Calculate the rank cell, including a tie.
+                                const rankCell = getByAndRemoveId(tableRow, "rankColumn");
+                                if (quizzer.Scores.IsTie) {
+                                    hasTie = true;
+                                    rankCell.append($("<b />")
+                                        .text(`*${quizzer.Scores.Rank}`));
+                                }
+                                else {
+                                    rankCell.text(quizzer.Scores.Rank);
+                                }
+
+                                const highlightName = getByAndRemoveId(tableRow, "nameColumn").text(quizzer.Name);
+                                getByAndRemoveId(tableRow, "teamNameColumn").text(`${quizzer.TeamName} (${quizzer.ChurchName})`);
+                                getByAndRemoveId(tableRow, "totalColumn").text(quizzer.Scores.TotalPoints);
+                                getByAndRemoveId(tableRow, "averageColumn").append(quizzer.Scores.AveragePoints ? quizzer.Scores.AveragePoints : "&nbsp;");
+                                getByAndRemoveId(tableRow, "quizOutColumn").append(quizzer.Scores.QuizOuts ? quizzer.Scores.QuizOuts : "&nbsp;");
+                                getByAndRemoveId(tableRow, "quizOutPercentageColumn").append(quizzer.Scores.QuestionCorrectPercentage ? `${quizzer.Scores.QuestionCorrectPercentage}%` : "&nbsp;");
+                                getByAndRemoveId(tableRow, "question30sColumn").append(quizzer.Scores.Correct30s ? quizzer.Scores.Correct30s : "&nbsp;");
+                                getByAndRemoveId(tableRow, "question20sColumn").append(quizzer.Scores.Correct20s ? quizzer.Scores.Correct20s : "&nbsp;");
+                                getByAndRemoveId(tableRow, "question10sColumn").append(quizzer.Scores.Correct10s ? quizzer.Scores.Correct10s : "&nbsp;");
+
+                                // Update the search index.
+                                searchIndexSource.quizzers.push({
+                                    name: quizzer.Name,
+                                    team: quizzer.TeamName,
+                                    church: quizzer.ChurchName,
+                                    meet: meet.Name,
+                                    scrollToElement: tableRow,
+                                    highlightElements: [highlightName]
+                                });
+
+                                quizzerTableBody.append(tableRow);
+                            }
+                        }
+
+                        const quizzersTieBreakingRow = getByAndRemoveId(quizzersContainer, "quizzerTieBreakingRow");
+                        if (!hasTie) {
+                            quizzersTieBreakingRow.remove();
+                        }
+
+                        // Update the table of contents.
+                        if (meet.RankedTeams || meet.RankedQuizzers) {
+                            tocEntry.append(
+                                $("<ul />")
+                                    .append($("<li />")
+                                        .append($("<a />")
+                                            .attr("href", `#${teamsAnchorId}`)
+                                            .text("Teams")))
+                                    .append($("<li />")
+                                        .append($("<a />")
+                                            .attr("href", `#${quizzersAnchorId}`)
+                                            .text("Quizzers"))));
+                        }
+                    }
+                        break;
+
+                    case ReportType.Schedule: {
+                        const scheduleGridTableContainer = getByAndRemoveId(meetCell, "scheduleGrid");
+
+                        const teamCards = getByAndRemoveId(meetCell, "teamCards");
+                        const scheduleTeamTableBody = getByAndRemoveId(scheduleGridTableContainer, "scheduleTeamTableBody");
+
+                        // Capture the data needed for the report.
+                        let isRoomReport;
+                        let isCardReport;
+                        let isTeamRedirect;
+                        let cardItems;
+                        switch (currentScheduleView) {
+                            case ScheduleViewType.Room:
+                                cardItems = meet.Rooms;
+                                isRoomReport = true;
+                                isCardReport = true;
+                                isTeamRedirect = false;
+
+                                scheduleGridTableContainer.remove();
+                                break;
+
+                            case ScheduleViewType.Grid:
+
+                                if (meet.RankedTeams) {
+                                    cardItems = meet.RankedTeams;
+                                    isTeamRedirect = true;
+                                }
+                                else {
+                                    cardItems = meet.Teams;
+                                    isTeamRedirect = false;
+                                }
+
+                                isCardReport = false;
+                                isRoomReport = false;
+
+                                // Configure the table.
+                                const teamTableHeaderRow = getByAndRemoveId(scheduleGridTableContainer, "scheduleTeamTableHeaderRow");
+                                const teamTableHeaderCellTemplate = getByAndRemoveId(teamTableHeaderRow, "matchItem")
+                                    .remove()
+                                    .get(0);
+
+                                const teamTableFooter = getByAndRemoveId(scheduleGridTableContainer, "scheduleTeamTableFooter");
+                                const tableFooterRow = getByAndRemoveId(teamTableFooter, "tableRow");
+                                const tableFooterCellTemplate = getByAndRemoveId(tableFooterRow, "matchItem")
+                                    .remove()
+                                    .get(0);
+
+                                let hasAnyMatchTimes = false;
+                                for (let match of meet.Matches) {
+
+                                    // Add the match to the header.
+                                    const headerCell = cloneTemplate(teamTableHeaderCellTemplate)
+                                        .text(match.Id);
+                                    teamTableHeaderRow.append(headerCell);
+
+                                    // Add the time to the footer.
+                                    const footerCell = cloneTemplate(tableFooterCellTemplate);
+
+                                    const matchTime = match.MatchTime;
+                                    if (matchTime) {
+                                        hasAnyMatchTimes = true;
+                                        footerCell.text(matchTime);
+                                    }
+                                    else {
+                                        footerCell.append("&nbsp");
+                                    }
+
+                                    tableFooterRow.append(footerCell);
+                                }
+
+                                // If there aren't any times, remove the footer.
+                                if (!hasAnyMatchTimes) {
+                                    teamTableFooter.remove();
+                                }
+
+                                teamCards.remove();
+                                break;
+
+                            default:
+                                cardItems = meet.Teams;
+                                isCardReport = true;
+                                isRoomReport = false;
+                                isTeamRedirect = false;
+
+                                scheduleGridTableContainer.remove();
+                                break;
+                        }
 
                         // Update the print menu.
-                        getByAndRemoveId(meetCell, "print_TeamsAndQuizzers")
+                        const printSchedulesAndScoresSection = getByAndRemoveId(meetCell, "print_MultiplePerPageSection");
+
+                        const printScheduleAndScores = getByAndRemoveId(meetCell, "print_ScheduleAndScores")
                             .click(null, e => {
                                 allMeetCells.addClass("hide-on-print");
                                 meetCell.removeClass("hide-on-print");
-                                quizzersContainer.css("break-before", "page");
 
                                 window.print();
 
-                                quizzersContainer.css("break-before", "auto");
                                 allMeetCells.removeClass("hide-on-print");
                             });
 
-                        getByAndRemoveId(meetCell, "print_TeamsOnly")
+                        const printScheduleOnly = getByAndRemoveId(meetCell, "print_ScheduleOnly")
                             .click(null, e => {
                                 allMeetCells.addClass("hide-on-print");
                                 meetCell.removeClass("hide-on-print");
-                                quizzersContainer.addClass("hide-on-print");
+                                resultsPane.addClass("blank-schedule");
+                                allScheduleOnlyCells.removeClass("hide-on-print");
 
                                 window.print();
 
-                                quizzersContainer.removeClass("hide-on-print");
+                                allScheduleOnlyCells.addClass("hide-on-print");
+                                resultsPane.removeClass("blank-schedule");
                                 allMeetCells.removeClass("hide-on-print");
                             });
 
-                        getByAndRemoveId(meetCell, "print_QuizzersOnly")
-                            .click(null, e => {
-                                allMeetCells.addClass("hide-on-print");
-                                meetCell.removeClass("hide-on-print");
-                                teamsContainer.addClass("hide-on-print");
-
-                                window.print();
-
-                                teamsContainer.removeClass("hide-on-print");
-                                allMeetCells.removeClass("hide-on-print");
-                            });
-                    }
-                    else {
-                        getByAndRemoveId(meetCell, "statsPrintButton").remove();
-                    }
-
-                    // Update the progress.
-                    const meetProgressBanner_Completed = getByAndRemoveId(meetCell, "meetProgress_IsCompleted");
-                    const meetProgressBanner_Mismatch = getByAndRemoveId(meetCell, "meetProgress_IsMismatched");
-                    if (meet.RankedTeams && (meet.HasScoringCompleted || meet.HasRoomCompletionMismatch)) {
-
-                        getByAndRemoveId(meet.HasScoringCompleted ? meetProgressBanner_Completed : meetProgressBanner_Mismatch, "meetProgressLabel")
-                            .text(meet.ScoringProgressMessage);
-
-                        (meet.HasScoringCompleted ? meetProgressBanner_Mismatch : meetProgressBanner_Completed).remove();
-                    }
-                    else {
-                        meetProgressBanner_Completed.remove();
-                        meetProgressBanner_Mismatch.remove();
-                    }
-
-                    // Create the Teams table.
-                    const teamsAnchorId = `${titleAnchorId}_teams`;
-
-                    const teamsContainer = getByAndRemoveId(meetCell, "teamsSection")
-                        .prop("id", teamsAnchorId);
-
-                    let hasTie = false;
-                    if (!meet.RankedTeams) {
-                        teamsContainer.remove();
-                    }
-                    else {
-                        if (meet.TeamRankingLabel) {
-                            getByAndRemoveId(teamsContainer, "teamRankingLabel")
-                                .text(meet.TeamRankingLabel);
-                        }
-                        else {
-                            teamsContainer
-                                .find("#teamRankingRow")
-                                .remove();
-                        }
-
-                        // Build the Teams table.
-                        const teamTableBody = getByAndRemoveId(teamsContainer, "teamsTableBody");
-                        const teamTableRowTemplate = getByAndRemoveId(teamTableBody, "tableRow")
-                            .remove()
-                            .get(0);
-
-                        for (let i = 0; i < meet.RankedTeams.length; i++) {
-
-                            const team = meet.Teams[meet.RankedTeams[i]];
-
-                            const tableRow = cloneTemplate(teamTableRowTemplate);
-
-                            // Calculate the rank cell, including a tie.
-                            const rankCell = getByAndRemoveId(tableRow, "rankColumn");
-                            if (team.Scores.IsTie) {
-                                hasTie = true;
-                                rankCell.append($("<b />")
-                                    .text(`*${team.Scores.Rank}`));
-                            }
-                            else {
-                                rankCell.text(team.Scores.Rank);
-                            }
-
-                            const highlightName = getByAndRemoveId(tableRow, "nameColumn").text(`${team.Name} (${team.ChurchName})`);
-                            getByAndRemoveId(tableRow, "winColumn").text(team.Scores.Wins);
-                            getByAndRemoveId(tableRow, "lossColumn").text(team.Scores.Losses);
-                            getByAndRemoveId(tableRow, "winPercentageColumn").text(`${team.Scores.WinPercentage}%`);
-                            getByAndRemoveId(tableRow, "totalColumn").text(team.Scores.TotalPoints);
-                            getByAndRemoveId(tableRow, "averageColumn").append(team.Scores.AveragePoints ? team.Scores.AveragePoints : "&nbsp;");
-                            getByAndRemoveId(tableRow, "quizOutColumn").append(team.Scores.QuizOuts ? team.Scores.QuizOuts : "&nbsp;");
-                            getByAndRemoveId(tableRow, "quizOutPercentageColumn").append(team.Scores.QuestionCorrectPercentage ? `${team.Scores.QuestionCorrectPercentage}%` : "&nbsp;");
-                            getByAndRemoveId(tableRow, "question30sColumn").append(team.Scores.Correct30s ? team.Scores.Correct30s : "&nbsp;");
-                            getByAndRemoveId(tableRow, "question20sColumn").append(team.Scores.Correct20s ? team.Scores.Correct20s : "&nbsp;");
-                            getByAndRemoveId(tableRow, "question10sColumn").append(team.Scores.Correct10s ? team.Scores.Correct10s : "&nbsp;");
-
-                            // Update the search index.
-                            searchIndexSource.teams.push({
-                                name: team.Name,
-                                church: team.ChurchName,
-                                meet: meet.Name,
-                                scrollToElement: tableRow,
-                                highlightElements: [highlightName]
-                            });
-
-                            teamTableBody.append(tableRow);
-                        }
-                    }
-
-                    const teamTieBreakingRow = getByAndRemoveId(teamsContainer, "teamTieBreakingRow");
-                    if (!hasTie) {
-                        teamTieBreakingRow.remove();
-                    }
-
-                    // Create the Quizzers table.
-                    const quizzersAnchorId = `${titleAnchorId}_quizzers`;
-
-                    const quizzersContainer = getByAndRemoveId(meetCell, "quizzersSection")
-                        .prop("id", quizzersAnchorId);
-
-                    hasTie = false;
-                    if (!meet.RankedQuizzers) {
-                        quizzersContainer.remove();
-                    }
-                    else {
-                        if (meet.QuizzerRankingLabel) {
-                            getByAndRemoveId(quizzersContainer, "quizzerRankingLabel")
-                                .text(meet.QuizzerRankingLabel);
-                        }
-                        else {
-                            quizzersContainer
-                                .find("#quizzersRankingRow")
-                                .remove();
-                        }
-
-                        // Build the Quizzers table.
-                        const quizzerTableBody = getByAndRemoveId(quizzersContainer, "quizzersTableBody");
-                        const quizzerTableRowTemplate = getByAndRemoveId(quizzerTableBody, "tableRow")
-                            .remove()
-                            .get(0);
-
-                        for (let i = 0; i < meet.RankedQuizzers.length; i++) {
-
-                            const quizzer = meet.Quizzers[meet.RankedQuizzers[i]]
-
-                            const tableRow = cloneTemplate(quizzerTableRowTemplate);
-
-                            // Calculate the rank cell, including a tie.
-                            const rankCell = getByAndRemoveId(tableRow, "rankColumn");
-                            if (quizzer.Scores.IsTie) {
-                                hasTie = true;
-                                rankCell.append($("<b />")
-                                    .text(`*${quizzer.Scores.Rank}`));
-                            }
-                            else {
-                                rankCell.text(quizzer.Scores.Rank);
-                            }
-
-                            const highlightName = getByAndRemoveId(tableRow, "nameColumn").text(quizzer.Name);
-                            getByAndRemoveId(tableRow, "teamNameColumn").text(`${quizzer.TeamName} (${quizzer.ChurchName})`);
-                            getByAndRemoveId(tableRow, "totalColumn").text(quizzer.Scores.TotalPoints);
-                            getByAndRemoveId(tableRow, "averageColumn").append(quizzer.Scores.AveragePoints ? quizzer.Scores.AveragePoints : "&nbsp;");
-                            getByAndRemoveId(tableRow, "quizOutColumn").append(quizzer.Scores.QuizOuts ? quizzer.Scores.QuizOuts : "&nbsp;");
-                            getByAndRemoveId(tableRow, "quizOutPercentageColumn").append(quizzer.Scores.QuestionCorrectPercentage ? `${quizzer.Scores.QuestionCorrectPercentage}%` : "&nbsp;");
-                            getByAndRemoveId(tableRow, "question30sColumn").append(quizzer.Scores.Correct30s ? quizzer.Scores.Correct30s : "&nbsp;");
-                            getByAndRemoveId(tableRow, "question20sColumn").append(quizzer.Scores.Correct20s ? quizzer.Scores.Correct20s : "&nbsp;");
-                            getByAndRemoveId(tableRow, "question10sColumn").append(quizzer.Scores.Correct10s ? quizzer.Scores.Correct10s : "&nbsp;");
-
-                            // Update the search index.
-                            searchIndexSource.quizzers.push({
-                                name: quizzer.Name,
-                                team: quizzer.TeamName,
-                                church: quizzer.ChurchName,
-                                meet: meet.Name,
-                                scrollToElement: tableRow,
-                                highlightElements: [highlightName]
-                            });
-
-                            quizzerTableBody.append(tableRow);
-                        }
-                    }
-
-                    const quizzersTieBreakingRow = getByAndRemoveId(quizzersContainer, "quizzerTieBreakingRow");
-                    if (!hasTie) {
-                        quizzersTieBreakingRow.remove();
-                    }
-
-                    // Update the table of contents.
-                    if (meet.RankedTeams || meet.RankedQuizzers) {
-                        tocEntry.append(
-                            $("<ul />")
-                                .append($("<li />")
-                                    .append($("<a />")
-                                        .attr("href", `#${teamsAnchorId}`)
-                                        .text("Teams")))
-                                .append($("<li />")
-                                    .append($("<a />")
-                                        .attr("href", `#${quizzersAnchorId}`)
-                                        .text("Quizzers"))));
-                    }
-                }
-                else {
-
-                    const scheduleGridTableContainer = getByAndRemoveId(meetCell, "scheduleGrid");
-
-                    const teamCards = getByAndRemoveId(meetCell, "teamCards");
-                    const scheduleTeamTableBody = getByAndRemoveId(scheduleGridTableContainer, "scheduleTeamTableBody");
-
-                    // Capture the data needed for the report.
-                    let isRoomReport;
-                    let isCardReport;
-                    let isTeamRedirect;
-                    let cardItems;
-                    switch (currentScheduleView) {
-                        case ScheduleViewType.Room:
-                            cardItems = meet.Rooms;
-                            isRoomReport = true;
-                            isCardReport = true;
-                            isTeamRedirect = false;
-
-                            scheduleGridTableContainer.remove();
-                            break;
-
-                        case ScheduleViewType.Grid:
-
-                            if (meet.RankedTeams) {
-                                cardItems = meet.RankedTeams;
-                                isTeamRedirect = true;
-                            }
-                            else {
-                                cardItems = meet.Teams;
-                                isTeamRedirect = false;
-                            }
-
-                            isCardReport = false;
-                            isRoomReport = false;
-
-                            // Configure the table.
-                            const teamTableHeaderRow = getByAndRemoveId(scheduleGridTableContainer, "scheduleTeamTableHeaderRow");
-                            const teamTableHeaderCellTemplate = getByAndRemoveId(teamTableHeaderRow, "matchItem")
-                                .remove()
-                                .get(0);
-
-                            const teamTableFooter = getByAndRemoveId(scheduleGridTableContainer, "scheduleTeamTableFooter");
-                            const tableFooterRow = getByAndRemoveId(teamTableFooter, "tableRow");
-                            const tableFooterCellTemplate = getByAndRemoveId(tableFooterRow, "matchItem")
-                                .remove()
-                                .get(0);
-
-                            let hasAnyMatchTimes = false;
-                            for (let match of meet.Matches) {
-
-                                // Add the match to the header.
-                                const headerCell = cloneTemplate(teamTableHeaderCellTemplate)
-                                    .text(match.Id);
-                                teamTableHeaderRow.append(headerCell);
-
-                                // Add the time to the footer.
-                                const footerCell = cloneTemplate(tableFooterCellTemplate);
-
-                                const matchTime = match.MatchTime;
-                                if (matchTime) {
-                                    hasAnyMatchTimes = true;
-                                    footerCell.text(matchTime);
-                                }
-                                else {
-                                    footerCell.append("&nbsp");
-                                }
-
-                                tableFooterRow.append(footerCell);
-                            }
-
-                            // If there aren't any times, remove the footer.
-                            if (!hasAnyMatchTimes) {
-                                teamTableFooter.remove();
-                            }
-
-                            teamCards.remove();
-                            break;
-
-                        default:
-                            cardItems = meet.Teams;
-                            isCardReport = true;
-                            isRoomReport = false;
-                            isTeamRedirect = false;
-
-                            scheduleGridTableContainer.remove();
-                            break;
-                    }
-
-                    // Update the print menu.
-                    const printSchedulesAndScoresSection = getByAndRemoveId(meetCell, "print_MultiplePerPageSection");
-
-                    const printScheduleAndScores = getByAndRemoveId(meetCell, "print_ScheduleAndScores")
-                        .click(null, e => {
-                            allMeetCells.addClass("hide-on-print");
-                            meetCell.removeClass("hide-on-print");
-
-                            window.print();
-
-                            allMeetCells.removeClass("hide-on-print");
-                        });
-
-                    const printScheduleOnly = getByAndRemoveId(meetCell, "print_ScheduleOnly")
-                        .click(null, e => {
-                            allMeetCells.addClass("hide-on-print");
-                            meetCell.removeClass("hide-on-print");
-                            resultsPane.addClass("blank-schedule");
-                            allScheduleOnlyCells.removeClass("hide-on-print");
-
-                            window.print();
-
-                            allScheduleOnlyCells.addClass("hide-on-print");
-                            resultsPane.removeClass("blank-schedule");
-                            allMeetCells.removeClass("hide-on-print");
-                        });
-
-                    const printScheduleSingleTeam = getByAndRemoveId(meetCell, "print_ScheduleSingleTeam");
-                    if (isCardReport) {
-
-                        getByAndRemoveId(meetCell, "print_MultiplePerPageLabel")
-                            .text(isRoomReport ? "ROOMS" : "TEAMS");
-
-                        getByAndRemoveId(meetCell, "print_SinglePerPageLabel")
-                            .text(isRoomReport ? "ROOM" : "TEAM");
-
-                        getByAndRemoveId(meetCell, "print_ScheduleAndScores_TeamPerPage")
-                            .click(null, e => {
-
-                                allIsFullIfSingleTeamElements
-                                    .removeClass("is-half")
-                                    .addClass("is-full");
-
-                                allShowIfTeamCells.css("break-after", "page");
-
-                                formatElementTextSizes(allResizableIfSingleTeamElements, true);
-
-                                printScheduleAndScores.triggerHandler("click");
-
-                                formatElementTextSizes(allResizableIfSingleTeamElements, false);
-
-                                allShowIfTeamCells.css("break-after", "");
-
-                                allIsFullIfSingleTeamElements
-                                    .removeClass("is-full")
-                                    .addClass("is-half");
-                            });
-
-                        getByAndRemoveId(meetCell, "print_ScheduleOnly_TeamPerPage")
-                            .click(null, e => {
-
-                                allIsFullIfSingleTeamElements
-                                    .removeClass("is-half")
-                                    .addClass("is-full");
-
-                                allShowIfTeamCells.css("break-after", "page");
-
-                                formatElementTextSizes(allResizableIfSingleTeamElements, true);
-
-                                printScheduleOnly.triggerHandler("click");
-
-                                formatElementTextSizes(allResizableIfSingleTeamElements, false);
-
-                                allShowIfTeamCells.css("break-after", "");
-
-                                allIsFullIfSingleTeamElements
-                                    .removeClass("is-full")
-                                    .addClass("is-half");
-                            });
-                    }
-                    else {
-                        printSchedulesAndScoresSection.remove();
-                        printScheduleSingleTeam.remove();
-                    }
-
-                    // Build the cards.
-                    const teamCardTemplate = getByAndRemoveId(isCardReport ? teamCards : scheduleTeamTableBody, "cardTemplate")
-                        .remove()
-                        .get(0);
-
-                    const teamCardSpacerTemplate = getByAndRemoveId(teamCards, "spacerTemplate")
-                        .remove()
-                        .get(0);
-
-                    for (let i = 0; i < cardItems.length; i++) {
-
-                        const team = isTeamRedirect
-                            ? meet.Teams[cardItems[i]]
-                            : cardItems[i];
-
-                        const teamCardOrRow = cloneTemplate(teamCardTemplate);
-
-                        // Add the team information.
-                        const highlightTeamName = getByAndRemoveId(teamCardOrRow, isCardReport ? "teamName" : "nameColumn")
-                            .text(team.Name);
-                        if (!isRoomReport) {
-
-                            // Update the search index.
-                            searchIndexSource.teams.push({
-                                name: team.Name,
-                                church: team.ChurchName,
-                                meet: meet.Name,
-                                scrollToElement: teamCardOrRow,
-                                highlightElements: [highlightTeamName]
-                            });
-                        }
-
+                        const printScheduleSingleTeam = getByAndRemoveId(meetCell, "print_ScheduleSingleTeam");
                         if (isCardReport) {
 
-                            teamCards.append(teamCardOrRow);
-                            if (i < cardItems.length - 1) {
-                                teamCards.append(cloneTemplate(teamCardSpacerTemplate));
-                            }
+                            getByAndRemoveId(meetCell, "print_MultiplePerPageLabel")
+                                .text(isRoomReport ? "ROOMS" : "TEAMS");
 
-                            // Add team specific processing.
-                            const churchNameRow = getByAndRemoveId(teamCardOrRow, "churchName");
-                            const statsRow = getByAndRemoveId(teamCardOrRow, "statsRow");
-                            if (isRoomReport) {
-                                churchNameRow.remove();
-                                statsRow.remove();
-                            }
-                            else {
-                                churchNameRow.text(team.ChurchName);
+                            getByAndRemoveId(meetCell, "print_SinglePerPageLabel")
+                                .text(isRoomReport ? "ROOM" : "TEAM");
 
-                                // Add the ranking information (if present).
-                                if (meet.RankedTeams) {
-                                    getByAndRemoveId(teamCardOrRow, "rankLabel")
-                                        .text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''}`);
-                                    getByAndRemoveId(teamCardOrRow, "recordLabel")
-                                        .text(`${team.Scores.Wins}-${team.Scores.Losses}`);
-                                    getByAndRemoveId(teamCardOrRow, "pointsLabel")
-                                        .text(team.Scores.TotalPoints);
-                                    getByAndRemoveId(teamCardOrRow, "averageLabel")
-                                        .text(team.Scores.AveragePoints);
-                                }
-                                else {
-                                    statsRow.remove();
-                                }
-                            }
+                            getByAndRemoveId(meetCell, "print_ScheduleAndScores_TeamPerPage")
+                                .click(null, e => {
+
+                                    allIsFullIfSingleTeamElements
+                                        .removeClass("is-half")
+                                        .addClass("is-full");
+
+                                    allShowIfTeamCells.css("break-after", "page");
+
+                                    formatElementTextSizes(allResizableIfSingleTeamElements, true);
+
+                                    printScheduleAndScores.triggerHandler("click");
+
+                                    formatElementTextSizes(allResizableIfSingleTeamElements, false);
+
+                                    allShowIfTeamCells.css("break-after", "");
+
+                                    allIsFullIfSingleTeamElements
+                                        .removeClass("is-full")
+                                        .addClass("is-half");
+                                });
+
+                            getByAndRemoveId(meetCell, "print_ScheduleOnly_TeamPerPage")
+                                .click(null, e => {
+
+                                    allIsFullIfSingleTeamElements
+                                        .removeClass("is-half")
+                                        .addClass("is-full");
+
+                                    allShowIfTeamCells.css("break-after", "page");
+
+                                    formatElementTextSizes(allResizableIfSingleTeamElements, true);
+
+                                    printScheduleOnly.triggerHandler("click");
+
+                                    formatElementTextSizes(allResizableIfSingleTeamElements, false);
+
+                                    allShowIfTeamCells.css("break-after", "");
+
+                                    allIsFullIfSingleTeamElements
+                                        .removeClass("is-full")
+                                        .addClass("is-half");
+                                });
                         }
                         else {
-                            const rankColumn = getByAndRemoveId(teamCardOrRow, "rankColumn");
-
-                            if (meet.RankedTeams) {
-
-                                rankColumn
-                                    .text(`${team.Scores.Rank}${team.Scores.IsTie ? '*' : ''}`);
-
-                                getByAndRemoveId(teamCardOrRow, "winColumn").text(team.Scores.Wins);
-                                getByAndRemoveId(teamCardOrRow, "lossColumn").text(team.Scores.Losses);
-                                getByAndRemoveId(teamCardOrRow, "totalColumn").text(team.Scores.TotalPoints);
-                                getByAndRemoveId(teamCardOrRow, "averageColumn").text(team.Scores.AveragePoints);
-                            }
-                            else {
-                                rankColumn.append("&nbsp;");
-                            }
-
-                            scheduleTeamTableBody.append(teamCardOrRow);
+                            printSchedulesAndScoresSection.remove();
+                            printScheduleSingleTeam.remove();
                         }
 
-                        // Add the match items.
-                        const matchesList = isCardReport ? getByAndRemoveId(teamCardOrRow, "matchList") : teamCardOrRow;
-                        const matchItemTemplate = getByAndRemoveId(isCardReport ? matchesList : teamCardOrRow, "matchItem")
+                        // Build the cards.
+                        const teamCardTemplate = getByAndRemoveId(isCardReport ? teamCards : scheduleTeamTableBody, "cardTemplate")
                             .remove()
                             .get(0);
 
-                        let matchIndex = 0;
-                        for (let match of team.Matches) {
+                        const teamCardSpacerTemplate = getByAndRemoveId(teamCards, "spacerTemplate")
+                            .remove()
+                            .get(0);
 
-                            // If this is a linked meet, resolve the correct meet if there isn't a match in this room.
-                            let resolvedMeet = meet;
-                            if (match && match.LinkedMeet) {
-                                resolvedMeet = report.Report.Meets[match.LinkedMeet];
+                        for (let i = 0; i < cardItems.length; i++) {
+
+                            const team = isTeamRedirect
+                                ? meet.Teams[cardItems[i]]
+                                : cardItems[i];
+
+                            const teamCardOrRow = cloneTemplate(teamCardTemplate);
+
+                            // Add the team information.
+                            const highlightTeamName = getByAndRemoveId(teamCardOrRow, isCardReport ? "teamName" : "nameColumn")
+                                .text(team.Name);
+                            if (!isRoomReport) {
+
+                                // Update the search index.
+                                searchIndexSource.teams.push({
+                                    name: team.Name,
+                                    church: team.ChurchName,
+                                    meet: meet.Name,
+                                    scrollToElement: teamCardOrRow,
+                                    highlightElements: [highlightTeamName]
+                                });
                             }
 
-                            const matchId = resolvedMeet.Matches[matchIndex].Id;
-                            let matchTeam = null;
-                            if (match && isRoomReport) {
-                                matchTeam = resolvedMeet.Teams[match.Team1];
-                                match = matchTeam.Matches[matchIndex];
-                            }
+                            if (isCardReport) {
 
-                            const matchListItem = cloneTemplate(matchItemTemplate);
-                            if (match) {
+                                teamCards.append(teamCardOrRow);
+                                if (i < cardItems.length - 1) {
+                                    teamCards.append(cloneTemplate(teamCardSpacerTemplate));
+                                }
 
-                                const scheduleLabel = getByAndRemoveId(matchListItem, "scheduleLabel");
-                                const statsLabel = getByAndRemoveId(matchListItem, "statsLabel");
-                                const statsLink = getByAndRemoveId(statsLabel, "statsLink");
-                                const liveEventLabel = getByAndRemoveId(matchListItem, "liveEventLabel");
+                                // Add team specific processing.
+                                const churchNameRow = getByAndRemoveId(teamCardOrRow, "churchName");
+                                const statsRow = getByAndRemoveId(teamCardOrRow, "statsRow");
+                                if (isRoomReport) {
+                                    churchNameRow.remove();
+                                    statsRow.remove();
+                                }
+                                else {
+                                    churchNameRow.text(team.ChurchName);
 
-                                const isLiveMatch = match.CurrentQuestion && resolvedMeet.RankedTeams;
-
-                                if (isCardReport) {
-                                    // Determine the prefix before each match.
-                                    let scheduleText = [];
-                                    if (isRoomReport) {
-                                        scheduleText.push(`"${matchTeam.Name}"`);
+                                    // Add the ranking information (if present).
+                                    if (meet.RankedTeams) {
+                                        getByAndRemoveId(teamCardOrRow, "rankLabel")
+                                            .text(`${ordinalWithSuffix(team.Scores.Rank)}${team.Scores.IsTie ? '*' : ''}`);
+                                        getByAndRemoveId(teamCardOrRow, "recordLabel")
+                                            .text(`${team.Scores.Wins}-${team.Scores.Losses}`);
+                                        getByAndRemoveId(teamCardOrRow, "pointsLabel")
+                                            .text(team.Scores.TotalPoints);
+                                        getByAndRemoveId(teamCardOrRow, "averageLabel")
+                                            .text(team.Scores.AveragePoints);
                                     }
+                                    else {
+                                        statsRow.remove();
+                                    }
+                                }
+                            }
+                            else {
+                                const rankColumn = getByAndRemoveId(teamCardOrRow, "rankColumn");
 
-                                    scheduleText.push("vs.");
-                                    let scoreText = null;
-                                    if (resolvedMeet.RankedTeams) {
+                                if (meet.RankedTeams) {
 
-                                        scoreText = [];
+                                    rankColumn
+                                        .text(`${team.Scores.Rank}${team.Scores.IsTie ? '*' : ''}`);
 
+                                    getByAndRemoveId(teamCardOrRow, "winColumn").text(team.Scores.Wins);
+                                    getByAndRemoveId(teamCardOrRow, "lossColumn").text(team.Scores.Losses);
+                                    getByAndRemoveId(teamCardOrRow, "totalColumn").text(team.Scores.TotalPoints);
+                                    getByAndRemoveId(teamCardOrRow, "averageColumn").text(team.Scores.AveragePoints);
+                                }
+                                else {
+                                    rankColumn.append("&nbsp;");
+                                }
+
+                                scheduleTeamTableBody.append(teamCardOrRow);
+                            }
+
+                            // Add the match items.
+                            const matchesList = isCardReport ? getByAndRemoveId(teamCardOrRow, "matchList") : teamCardOrRow;
+                            const matchItemTemplate = getByAndRemoveId(isCardReport ? matchesList : teamCardOrRow, "matchItem")
+                                .remove()
+                                .get(0);
+
+                            let matchIndex = 0;
+                            for (let match of team.Matches) {
+
+                                // If this is a linked meet, resolve the correct meet if there isn't a match in this room.
+                                let resolvedMeet = meet;
+                                if (match && match.LinkedMeet) {
+                                    resolvedMeet = report.Report.Meets[match.LinkedMeet];
+                                }
+
+                                const matchId = resolvedMeet.Matches[matchIndex].Id;
+                                let matchTeam = null;
+                                if (match && isRoomReport) {
+                                    matchTeam = resolvedMeet.Teams[match.Team1];
+                                    match = matchTeam.Matches[matchIndex];
+                                }
+
+                                const matchListItem = cloneTemplate(matchItemTemplate);
+                                if (match) {
+
+                                    const scheduleLabel = getByAndRemoveId(matchListItem, "scheduleLabel");
+                                    const statsLabel = getByAndRemoveId(matchListItem, "statsLabel");
+                                    const statsLink = getByAndRemoveId(statsLabel, "statsLink");
+                                    const liveEventLabel = getByAndRemoveId(matchListItem, "liveEventLabel");
+
+                                    const isLiveMatch = match.CurrentQuestion && resolvedMeet.RankedTeams;
+
+                                    if (isCardReport) {
+                                        // Determine the prefix before each match.
+                                        let scheduleText = [];
                                         if (isRoomReport) {
-                                            scoreText.push(`"${matchTeam.Name}"`);
+                                            scheduleText.push(`"${matchTeam.Name}"`);
                                         }
 
-                                        switch (match.Result) {
-                                            case "W":
-                                                scoreText.push(`${isRoomReport ? 'w' : 'W'}on against`);
-                                                break;
-                                            case "L":
-                                                scoreText.push(`${isRoomReport ? 'l' : 'L'}ost to`);
-                                                break;
-                                            default:
-                                                if (!match.CurrentQuestion && null != match.Score) {
-                                                    scoreText.push(`${isRoomReport ? 'p' : 'P'}layed`);
-                                                }
-                                                else if (isLiveMatch) {
-                                                    scoreText.push(`${isRoomReport ? 'p' : 'P'}laying`);
+                                        scheduleText.push("vs.");
+                                        let scoreText = null;
+                                        if (resolvedMeet.RankedTeams) {
+
+                                            scoreText = [];
+
+                                            if (isRoomReport) {
+                                                scoreText.push(`"${matchTeam.Name}"`);
+                                            }
+
+                                            switch (match.Result) {
+                                                case "W":
+                                                    scoreText.push(`${isRoomReport ? 'w' : 'W'}on against`);
+                                                    break;
+                                                case "L":
+                                                    scoreText.push(`${isRoomReport ? 'l' : 'L'}ost to`);
+                                                    break;
+                                                default:
+                                                    if (!match.CurrentQuestion && null != match.Score) {
+                                                        scoreText.push(`${isRoomReport ? 'p' : 'P'}layed`);
+                                                    }
+                                                    else if (isLiveMatch) {
+                                                        scoreText.push(`${isRoomReport ? 'p' : 'P'}laying`);
+                                                    }
+                                                    else {
+                                                        // There is no score because this match hasn't been played yet.
+                                                        scoreText = null;
+                                                    }
+
+                                                    break;
+                                            }
+                                        }
+
+                                        // Append the other team name and scores.
+                                        if (match.OtherTeam || 0 == match.OtherTeam) {
+
+                                            const teamText = `"${resolvedMeet.Teams[match.OtherTeam].Name}"`;
+                                            scheduleText.push(teamText);
+
+                                            if (scoreText) {
+                                                scoreText.push(teamText);
+
+                                                if (isLiveMatch) {
+                                                    if (!isRoomReport) {
+                                                        scoreText.push(`in ${match.Room}`);
+                                                    }
                                                 }
                                                 else {
-                                                    // There is no score because this match hasn't been played yet.
-                                                    scoreText = null;
-                                                }
-
-                                                break;
-                                        }
-                                    }
-
-                                    // Append the other team name and scores.
-                                    if (match.OtherTeam || 0 == match.OtherTeam) {
-
-                                        const teamText = `"${resolvedMeet.Teams[match.OtherTeam].Name}"`;
-                                        scheduleText.push(teamText);
-
-                                        if (scoreText) {
-                                            scoreText.push(teamText);
-
-                                            if (isLiveMatch) {
-                                                if (!isRoomReport) {
-                                                    scoreText.push(`in ${match.Room}`);
+                                                    scoreText.push(`${match.Score} to ${resolvedMeet.Teams[match.OtherTeam].Matches[matchIndex].Score}`);
                                                 }
                                             }
-                                            else {
-                                                scoreText.push(`${match.Score} to ${resolvedMeet.Teams[match.OtherTeam].Matches[matchIndex].Score}`);
-                                            }
-                                        }
-                                    }
-                                    else {
-
-                                        scheduleText.push("\"BYE TEAM\"");
-
-                                        if (scoreText) {
-                                            scoreText.push(`\"BYE TEAM\" ${match.Score}`);
-                                        }
-                                    }
-
-                                    // Add the scheduled room and time.
-                                    if (!isRoomReport) {
-                                        scheduleText.push(`in ${match.Room}`);
-                                    }
-
-                                    const matchTime = resolvedMeet.Matches[matchIndex].MatchTime;
-                                    if (matchTime) {
-                                        scheduleText.push(`@ ${matchTime}`);
-                                    }
-                                    if (isRoomReport && resolvedMeet.HasLinkedMeets) {
-                                        scheduleText.push(`(${resolvedMeet.Name})`);
-                                    }
-
-                                    // Output the schedule text for all scenarios.
-                                    scheduleLabel
-                                        .text(scheduleText.join(" "));
-
-                                    // If there isn't a score, no link is required AND there's no need to hide the schedule during printing.
-                                    if (!scoreText) {
-                                        statsLabel.text(scheduleText.join(" "));
-                                    }
-                                    else {
-
-                                        if (isRoomReport && resolvedMeet.HasLinkedMeets) {
-                                            scoreText.push(`(${resolvedMeet.Name})`);
-                                        }
-
-                                        statsLink.text(scoreText.join(" "));
-
-                                        if (isLiveMatch) {
-                                            getByAndRemoveId(liveEventLabel, "questionNumber")
-                                                .text(match.CurrentQuestion);
                                         }
                                         else {
+
+                                            scheduleText.push("\"BYE TEAM\"");
+
+                                            if (scoreText) {
+                                                scoreText.push(`\"BYE TEAM\" ${match.Score}`);
+                                            }
+                                        }
+
+                                        // Add the scheduled room and time.
+                                        if (!isRoomReport) {
+                                            scheduleText.push(`in ${match.Room}`);
+                                        }
+
+                                        const matchTime = resolvedMeet.Matches[matchIndex].MatchTime;
+                                        if (matchTime) {
+                                            scheduleText.push(`@ ${matchTime}`);
+                                        }
+                                        if (isRoomReport && resolvedMeet.HasLinkedMeets) {
+                                            scheduleText.push(`(${resolvedMeet.Name})`);
+                                        }
+
+                                        // Output the schedule text for all scenarios.
+                                        scheduleLabel
+                                            .text(scheduleText.join(" "));
+
+                                        // If there isn't a score, no link is required AND there's no need to hide the schedule during printing.
+                                        if (!scoreText) {
+                                            statsLabel.text(scheduleText.join(" "));
+                                        }
+                                        else {
+
+                                            if (isRoomReport && resolvedMeet.HasLinkedMeets) {
+                                                scoreText.push(`(${resolvedMeet.Name})`);
+                                            }
+
+                                            statsLink.text(scoreText.join(" "));
+
+                                            if (isLiveMatch) {
+                                                getByAndRemoveId(liveEventLabel, "questionNumber")
+                                                    .text(match.CurrentQuestion);
+                                            }
+                                            else {
+                                                liveEventLabel.remove();
+                                            }
+                                        }
+                                    }
+                                    else {
+                                        scheduleLabel.append(match.Room);
+                                        statsLink.append(match.Room);
+
+                                        if (isLiveMatch) {
+                                            getByAndRemoveId(liveEventLabel, "questionNumber").text(match.CurrentQuestion);
+                                        }
+                                        else {
+
+                                            if (resolvedMeet.RankedTeams && null != match.Score) {
+                                                statsLink.append(
+                                                    $("<font />")
+                                                        .attr("color", match.Result === "W" ? "blue" : (match.Result === "L" ? "red" : "black"))
+                                                        .text(` ~ ${match.Score}`));
+                                            }
+
                                             liveEventLabel.remove();
                                         }
                                     }
+
+                                    if (resolvedMeet.RankedTeams) {
+                                        statsLink.click(
+                                            null,
+                                            e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${resolvedMeet.Name}`, resolvedMeet.DatabaseId, resolvedMeet.MeetId, matchId, match.RoomId))
+                                    }
                                 }
                                 else {
-                                    scheduleLabel.append(match.Room);
-                                    statsLink.append(match.Room);
+                                    matchListItem.text(isCardReport ? "BYE" : "--");
+                                }
 
-                                    if (isLiveMatch) {
-                                        getByAndRemoveId(liveEventLabel, "questionNumber").text(match.CurrentQuestion);
-                                    }
-                                    else {
+                                matchesList.append(matchListItem);
 
-                                        if (resolvedMeet.RankedTeams && null != match.Score) {
-                                            statsLink.append(
-                                                $("<font />")
-                                                    .attr("color", match.Result === "W" ? "blue" : (match.Result === "L" ? "red" : "black"))
-                                                    .text(` ~ ${match.Score}`));
+                                matchIndex++;
+                            }
+
+                            if (isCardReport) {
+
+                                // Build the list of coaches.
+                                const coachContainer = getByAndRemoveId(teamCardOrRow, "coachContainer");
+                                if (!isRoomReport && team.CoachName) {
+                                    getByAndRemoveId(coachContainer, "coachLabel")
+                                        .empty()
+                                        .text(team.CoachName);
+                                }
+                                else {
+                                    coachContainer.remove();
+                                }
+
+                                // Build the list of quizzers.
+                                const quizzersContainer = getByAndRemoveId(teamCardOrRow, "quizzersContainer");
+                                if (!isRoomReport && team.Quizzers.length > 0) {
+
+                                    const quizzerElements = getByAndRemoveId(quizzersContainer, "quizzersLabel")
+                                        .empty();
+
+                                    let isFirstQuizzer = true;
+                                    for (let quizzerId of team.Quizzers) {
+
+                                        if (isFirstQuizzer) {
+                                            isFirstQuizzer = false;
+                                        }
+                                        else {
+                                            quizzerElements.append(" | ");
                                         }
 
-                                        liveEventLabel.remove();
+                                        const quizzerName = meet.Quizzers[quizzerId].Name;
+                                        const quizzerElement = $("<span />").text(quizzerName);
+                                        quizzerElements.append(quizzerElement);
+
+                                        // Update the search index.
+                                        searchIndexSource.quizzers.push({
+                                            name: quizzerName,
+                                            team: team.Name,
+                                            church: team.ChurchName,
+                                            meet: meet.Name,
+                                            scrollToElement: teamCardOrRow,
+                                            highlightElements: [highlightTeamName, quizzerElement]
+                                        });
                                     }
                                 }
-
-                                if (resolvedMeet.RankedTeams) {
-                                    statsLink.click(
-                                        null,
-                                        e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${resolvedMeet.Name}`, resolvedMeet.DatabaseId, resolvedMeet.MeetId, matchId, match.RoomId))
+                                else {
+                                    quizzersContainer.remove();
                                 }
                             }
-                            else {
-                                matchListItem.text(isCardReport ? "BYE" : "--");
-                            }
-
-                            matchesList.append(matchListItem);
-
-                            matchIndex++;
                         }
 
-                        if (isCardReport) {
+                        if (!isCardReport) {
 
-                            // Build the list of coaches.
-                            const coachContainer = getByAndRemoveId(teamCardOrRow, "coachContainer");
-                            if (!isRoomReport && team.CoachName) {
-                                getByAndRemoveId(coachContainer, "coachLabel")
-                                    .empty()
-                                    .text(team.CoachName);
-                            }
-                            else {
-                                coachContainer.remove();
-                            }
+                            const scheduleIndividualsTableBody = getByAndRemoveId(scheduleGridTableContainer, "scheduleIndividualTableBody");
+                            const individualRowTemplate = getByAndRemoveId(scheduleIndividualsTableBody, "cardTemplate")
+                                .remove()
+                                .get(0);
 
-                            // Build the list of quizzers.
-                            const quizzersContainer = getByAndRemoveId(teamCardOrRow, "quizzersContainer");
-                            if (!isRoomReport && team.Quizzers.length > 0) {
+                            for (let i = 0; i < meet.Teams.length; i++) {
 
-                                const quizzerElements = getByAndRemoveId(quizzersContainer, "quizzersLabel")
-                                    .empty();
+                                const team = meet.Teams[i];
+                                const individualsRow = cloneTemplate(individualRowTemplate);
 
-                                let isFirstQuizzer = true;
-                                for (let quizzerId of team.Quizzers) {
+                                const teamAndCoachColumn = getByAndRemoveId(individualsRow, "teamAndCoachColumn")
+                                    .append($("<strong />").text(team.Name));
+                                if (team.CoachName) {
+                                    teamAndCoachColumn
+                                        .append("<br />")
+                                        .append($("<span />").text(team.CoachName));
+                                }
 
-                                    if (isFirstQuizzer) {
-                                        isFirstQuizzer = false;
+                                const column1 = getByAndRemoveId(individualsRow, "quizzerColumn1");
+                                const column2 = getByAndRemoveId(individualsRow, "quizzerColumn2");
+                                if (team.Quizzers.length > 0) {
+
+                                    // Append the first column.
+                                    const column1Count = Math.ceil(team.Quizzers.length / 2);
+                                    for (let i = 0; i < column1Count; i++) {
+                                        if (i > 0) {
+                                            column1.append("<br />");
+                                        }
+
+                                        column1.append($("<span />").text(meet.Quizzers[team.Quizzers[i]].Name));
+                                    }
+
+                                    if (team.Quizzers.length > column1Count) {
+                                        for (let i = column1Count; i < team.Quizzers.length; i++) {
+                                            if (i > column1Count) {
+                                                column2.append("<br />");
+                                            }
+
+                                            column2.append($("<span />").text(meet.Quizzers[team.Quizzers[i]].Name));
+                                        }
                                     }
                                     else {
-                                        quizzerElements.append(" | ");
+                                        column1.attr("colspan", 2);
+                                        column2.remove();
                                     }
-
-                                    const quizzerName = meet.Quizzers[quizzerId].Name;
-                                    const quizzerElement = $("<span />").text(quizzerName);
-                                    quizzerElements.append(quizzerElement);
-
-                                    // Update the search index.
-                                    searchIndexSource.quizzers.push({
-                                        name: quizzerName,
-                                        team: team.Name,
-                                        church: team.ChurchName,
-                                        meet: meet.Name,
-                                        scrollToElement: teamCardOrRow,
-                                        highlightElements: [highlightTeamName, quizzerElement]
-                                    });
                                 }
-                            }
-                            else {
-                                quizzersContainer.remove();
+                                else {
+                                    column2.remove();
+                                    column1.attr("colspan", 2);
+                                }
+
+                                scheduleIndividualsTableBody.append(individualsRow);
                             }
                         }
+
+                        // If there is no ranking, remove all the columns that would have been hidden for a schedule. The table only displays a schedule.
+                        if (!meet.RankedTeams) {
+                            scheduleGridTableContainer.find(".hide-if-schedule").remove();
+                            scheduleGridTableContainer
+                                .find(".show-if-schedule")
+                                .removeClass(["show-if-schedule", "hide-on-print"]);
+                        }
                     }
+                        break;
 
-                    if (!isCardReport) {
+                    case ReportType.Coordinator: {
 
-                        const scheduleIndividualsTableBody = getByAndRemoveId(scheduleGridTableContainer, "scheduleIndividualTableBody");
-                        const individualRowTemplate = getByAndRemoveId(scheduleIndividualsTableBody, "cardTemplate")
+                        const statusHeaderRow = getByAndRemoveId(meetCell, "headerRow");
+                        const statusHeaderMatchCellTemplate = getByAndRemoveId(statusHeaderRow, "matchItem")
                             .remove()
                             .get(0);
 
-                        for (let i = 0; i < meet.Teams.length; i++) {
+                        // Determine the maximum number of matches.
+                        let maxMatchId = 0;
+                        for (let room of meet.Rooms) {
+                            maxMatchId = Math.max(maxMatchId, room.Matches.length);
+                        }
 
-                            const team = meet.Teams[i];
-                            const individualsRow = cloneTemplate(individualRowTemplate);
+                        // Append the header for the matches.
+                        for (let matchId = 1; matchId <= maxMatchId; matchId++) {
+                            statusHeaderRow.append(
+                                cloneTemplate(statusHeaderMatchCellTemplate).text(matchId));
+                        }
 
-                            const teamAndCoachColumn = getByAndRemoveId(individualsRow, "teamAndCoachColumn")
-                                .append($("<strong />").text(team.Name));
-                            if (team.CoachName) {
-                                teamAndCoachColumn
-                                    .append("<br />")
-                                    .append($("<span />").text(team.CoachName));
-                            }
+                        // Append the rows for each room.
+                        const statusTableRows = getByAndRemoveId(meetCell, "tableRows");
+                        const inProgressLinkTemplate = getByAndRemoveId(statusTableRows, "inProgressLink")
+                            .remove()
+                            .get(0);
+                        const completedLinkTemplate = getByAndRemoveId(statusTableRows, "completedLink")
+                            .remove()
+                            .get(0);
+                        const statusRowMatchCellTemplate = getByAndRemoveId(statusTableRows, "matchItem")
+                            .remove()
+                            .get(0);
 
-                            const column1 = getByAndRemoveId(individualsRow, "quizzerColumn1");
-                            const column2 = getByAndRemoveId(individualsRow, "quizzerColumn2");
-                            if (team.Quizzers.length > 0) {
+                        const statusRowTemplate = getByAndRemoveId(statusTableRows, "rowTemplate")
+                            .remove()
+                            .get(0);
 
-                                // Append the first column.
-                                const column1Count = Math.ceil(team.Quizzers.length / 2);
-                                for (let i = 0; i < column1Count; i++) {
-                                    if (i > 0) {
-                                        column1.append("<br />");
-                                    }
+                        for (const roomIndex in meet.Rooms) {
 
-                                    column1.append($("<span />").text(meet.Quizzers[team.Quizzers[i]].Name));
-                                }
+                            const room = meet.Rooms[roomIndex];
+                            const statusRow = cloneTemplate(statusRowTemplate);
+                            statusTableRows.append(statusRow);
 
-                                if (team.Quizzers.length > column1Count) {
-                                    for (let i = column1Count; i < team.Quizzers.length; i++) {
-                                        if (i > column1Count) {
-                                            column2.append("<br />");
-                                        }
+                            getByAndRemoveId(statusRow, "name").text(room.Name);
 
-                                        column2.append($("<span />").text(meet.Quizzers[team.Quizzers[i]].Name));
-                                    }
+                            for (let matchIndex = 0; matchIndex < maxMatchId; matchIndex++) {
+
+                                const matchCell = cloneTemplate(statusRowMatchCellTemplate);
+                                if (matchIndex >= room.Matches.length) {
+                                    matchCell
+                                        .empty()
+                                        .append("&nbsp;");
                                 }
                                 else {
-                                    column1.attr("colspan", 2);
-                                    column2.remove();
-                                }
-                            }
-                            else {
-                                column2.remove();
-                                column1.attr("colspan", 2);
-                            }
 
-                            scheduleIndividualsTableBody.append(individualsRow);
+                                    let match = room.Matches[matchIndex];
+                                    if (null == match) {
+                                        matchCell.text("--");
+                                        continue;
+                                    }
+
+                                    const resolvedMeet = !meet.HasLinkedMeets || null == match.LinkedMeet
+                                        ? meet
+                                        : report.Report.Meets[match.LinkedMeet];
+
+                                    const matchId = resolvedMeet.Matches[matchIndex].Id;
+                                    const roomId = resolvedMeet.Teams[match.Team1].Matches[matchIndex].RoomId;
+
+                                    let linkTemplate = null;
+                                    switch (match.State) {
+                                        case 1: // In Progress
+                                            linkTemplate = cloneTemplate(inProgressLinkTemplate)
+                                                .append(`#${match.CurrentQuestion}`);
+                                            break;
+
+                                        case 2: // Completed
+                                            linkTemplate = cloneTemplate(completedLinkTemplate)
+                                            break;
+
+                                        default: // Not Started
+                                            matchCell
+                                                .empty()
+                                                .append("&nbsp;");
+                                    }
+
+                                    if (null != linkTemplate) {
+                                        linkTemplate.click(
+                                            null,
+                                            e => openMatchScoresheet(`Match ${matchId} in ${room.Name} @ ${resolvedMeet.Name}`, resolvedMeet.DatabaseId, resolvedMeet.MeetId, matchId, roomId));
+
+                                        matchCell.append(linkTemplate);
+                                    }
+                                }
+
+                                statusRow.append(matchCell);
+                            }
                         }
                     }
 
-                    // If there is no ranking, remove all the columns that would have been hidden for a schedule. The table only displays a schedule.
-                    if (!meet.RankedTeams) {
-                        scheduleGridTableContainer.find(".hide-if-schedule").remove();
-                        scheduleGridTableContainer
-                            .find(".show-if-schedule")
-                            .removeClass(["show-if-schedule", "hide-on-print"]);
-                    }
+                        break;
                 }
 
                 resultsPane.append(meetCell);
@@ -1446,13 +1574,13 @@ function initializeLiveEvents() {
             window.addEventListener("visibilitychange", e => {
                 localStorage.setItem(
                     storageKey,
-                    JSON.stringify({ x: window.scrollX, y: window.scrollY, time: new Date(), isStats: isStatsReport, view: currentScheduleView }));
+                    JSON.stringify({ x: window.scrollX, y: window.scrollY, time: new Date(), report: currentReportType, view: currentScheduleView }));
             });
 
             window.addEventListener("beforeunload", e => {
                 localStorage.setItem(
                     storageKey,
-                    JSON.stringify({ x: window.scrollX, y: window.scrollY, time: new Date(), isStats: isStatsReport, view: currentScheduleView }));
+                    JSON.stringify({ x: window.scrollX, y: window.scrollY, time: new Date(), report: currentReportType, view: currentScheduleView }));
             });
 
             makeDropdownsClickable();
@@ -1470,10 +1598,10 @@ function initializeLiveEvents() {
                     if (null != lastPosition) {
                         const x = lastPosition.x;
                         const y = lastPosition.y;
-                        const isStats = lastPosition.isStats;
+                        const lastReport = lastPosition.report;
                         const lastView = lastPosition.view;
                         const time = lastPosition.time;
-                        if (null != x && null != y && null != time && null != isStats && isStats === isStatsReport && currentScheduleView === lastView &&
+                        if (null != x && null != y && null != time && lastReport === currentReportType && currentScheduleView === lastView &&
                             Date.parse(time) < new Date(new Date().getTime() + 120000)) {
                             window.scrollTo(x, y);
                             isScrolled = true;

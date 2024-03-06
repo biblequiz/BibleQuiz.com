@@ -30,6 +30,12 @@
           <span>Team &amp; Quizzer Stats</span>
         </a>
       </li>
+      <li id="coordinatorTab">
+        <a>
+          <span class="icon is-small"><i class="fas fa-thermometer-half"></i></span>
+          <span>Overall Status</span>
+        </a>
+      </li>
     </ul>
   </div>
 
@@ -345,6 +351,34 @@
             <td id="teamAndCoachColumn" />
             <td id="quizzerColumn1" />
             <td id="quizzerColumn2" />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </template>
+
+  <template id="coordinatorTemplate">
+    <div class="columns is-mobile mt-2">
+      <div class="column is-fullwidth">
+        <p class="title is-3" id="meetName" />
+        <p class="subtitle is-7"><i>Last Updated: <span id="lastUpdated" /></i></p>
+      </div>
+    </div>
+    <div>
+      <table class="table is-striped is-fullwidth is-bordered is-narrow">
+        <thead>
+          <tr id="headerRow">
+            <th class="has-text-right" width="65">Room</th>
+            <th class="has-text-centered" id="matchItem" />
+          </tr>
+        </thead>
+        <tbody id="tableRows">
+          <tr id="rowTemplate">
+            <td class="has-text-centered" id="name" />
+            <td class="has-text-centered" id="matchItem">
+              <a id="inProgressLink" style="cursor: pointer"><i class="fas fa-broadcast-tower"></i>&nbsp;</a>
+              <a id="completedLink" style="cursor: pointer"><i class="fas fa-check-circle" style="color:#009900"></i></a>
+            </td>
           </tr>
         </tbody>
       </table>
