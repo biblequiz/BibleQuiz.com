@@ -20,60 +20,6 @@ jbq:
   scopeLabel: North Texas
   locationName: North Texas District
   dates: Oct 1 - Mar 23, 2024
-- id: ea1637f8-34b2-425c-5bea-08dc205fc709
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Wyoming League Meet #4'
-  scope: district
-  scopeLabel: Wyoming
-  locationName: Douglas Assembly of God
-  locationCity: Douglas, WY
-  dates: Feb 10 - Mar 9, 2024
-- id: b263aad1-8d58-4892-7288-08dc2f28d0e6
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: March 2024 ND JBQ Meet - All State
-  scope: district
-  scopeLabel: North Dakota
-  locationName: Journey Church
-  locationCity: Minot, ND
-  dates: Mar 9, 2024
-- id: 54e0ed16-f146-4514-61e9-08dc38a77002
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: NC JBQ Semi-Finals 2024
-  scope: district
-  scopeLabel: North Carolina
-  locationName: Living Hope Church
-  locationCity: Lenoir
-  dates: Mar 9, 2024
-- id: 7c46b39a-561b-434d-c453-08dc26678b9a
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Nebraska March 2024 JBQ Match
-  scope: district
-  scopeLabel: Nebraska
-  locationName: Good News Church
-  locationCity: Omaha, NE
-  dates: Mar 9, 2024
-- id: 59a612bd-b881-4c37-7287-08dc2f28d0e6
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Wyoming League Meet #5'
-  scope: nation
-  locationName: Element Church
-  locationCity: Cheyenne, WY
-  dates: Mar 9, 2024
 - id: e8a6387f-547a-42b6-a513-08dc0ec824e9
   season: 2024
   registrationDates: Closed
@@ -87,12 +33,23 @@ jbq:
 - id: 451f0a19-1442-47b0-6efd-08dc02803b5e
   season: 2024
   registrationDates: Closes Mar 12, 2024
+  isLive: true
   isVisible: true
   name: Alabama March Meet - Semi Finals
   scope: district
   scopeLabel: Alabama
   locationName: Springville Camp
   dates: Mar 15 - 16, 2024
+- id: 0f0ffd56-d69d-485c-2cee-08dbca84d98d
+  season: 2024
+  registrationDates: Closes Mar 9, 2024
+  isVisible: true
+  name: 2024-03 MN Central
+  scope: district
+  scopeLabel: Minnesota
+  locationName: Heritage Assembly of God
+  locationCity: Baxter, MN
+  dates: Mar 16, 2024
 - id: 27829569-f2e2-4487-7281-08dc2f28d0e6
   season: 2024
   registrationDates: Closes Mar 4, 2024
@@ -251,17 +208,6 @@ tbq:
   scopeLabel: North Carolina
   locationName: TBD
   dates: Oct 21 - Mar 31, 2024
-- id: a63f93ef-d55c-4167-f69b-08dbc5228776
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 2023-24 Wisconsin/North Michigan BQ League
-  scope: district
-  scopeLabel: Wisconsin-Northern Michigan
-  locationName: Plymouth A/G
-  locationCity: Plymouth, WI
-  dates: Feb 10 - Mar 9, 2024
 - id: 7f99e0c2-3df7-4ee2-d3f6-08dc40518b54
   season: 2024
   registrationDates: Closed
@@ -272,16 +218,6 @@ tbq:
   scopeLabel: Illinois
   locationName: Normal First
   dates: Mar 8 - 10, 2024
-- id: 063a1e3e-3dfc-44b2-d3f7-08dc40518b54
-  season: 2024
-  registrationDates: Closes Mar 9, 2024
-  isLive: true
-  isVisible: true
-  name: 'Illinois District League Meet XP5 - League Meet #5'
-  scope: district
-  scopeLabel: Illinois
-  locationName: Calvary Church
-  dates: Mar 9, 2024
 - id: be08726a-f755-4770-61ea-08dc38a77002
   season: 2024
   registrationDates: Closes Mar 9, 2024
