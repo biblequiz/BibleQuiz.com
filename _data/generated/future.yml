@@ -43,6 +43,7 @@ jbq:
 - id: 0f0ffd56-d69d-485c-2cee-08dbca84d98d
   season: 2024
   registrationDates: Closes Mar 9, 2024
+  isLive: true
   isVisible: true
   name: 2024-03 MN Central
   scope: district
@@ -53,6 +54,7 @@ jbq:
 - id: 27829569-f2e2-4487-7281-08dc2f28d0e6
   season: 2024
   registrationDates: Closes Mar 4, 2024
+  isLive: true
   isVisible: true
   name: Kansas District Finals 2024
   scope: district
@@ -63,6 +65,7 @@ jbq:
 - id: 7e42eec9-a5b6-4151-91a2-08dc3cc5be04
   season: 2024
   registrationDates: Closes Mar 13, 2024
+  isLive: true
   isVisible: true
   name: MN Metro League Mar 2024
   scope: district
@@ -73,6 +76,7 @@ jbq:
 - id: a14dc4cc-db6f-4988-af6e-08dc3da061d1
   season: 2024
   registrationDates: Closes Mar 14, 2024
+  isLive: true
   isVisible: true
   name: 'NW–JBQ League #4 (23|24)'
   scope: region
@@ -208,26 +212,6 @@ tbq:
   scopeLabel: North Carolina
   locationName: TBD
   dates: Oct 21 - Mar 31, 2024
-- id: 7f99e0c2-3df7-4ee2-d3f6-08dc40518b54
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'Illinois District League Meet #5'
-  scope: district
-  scopeLabel: Illinois
-  locationName: Normal First
-  dates: Mar 8 - 10, 2024
-- id: be08726a-f755-4770-61ea-08dc38a77002
-  season: 2024
-  registrationDates: Closed
-  isVisible: true
-  name: 'NY Lakeshore Section Meet #4 - TEST'
-  scope: district
-  scopeLabel: New York
-  locationName: Assembly of God
-  locationCity: Webster, NY
-  dates: Mar 16, 2024
 - id: 409c35df-8702-42e3-7282-08dc2f28d0e6
   season: 2024
   registrationDates: Closes Mar 12, 2024
