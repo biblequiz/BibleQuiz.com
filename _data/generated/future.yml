@@ -20,19 +20,9 @@ jbq:
   scopeLabel: North Texas
   locationName: North Texas District
   dates: Oct 1 - Mar 23, 2024
-- id: e8a6387f-547a-42b6-a513-08dc0ec824e9
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  scope: district
-  scopeLabel: Peninsular Florida
-  locationName: Southeastern University
-  locationCity: Lakeland, FL
-  dates: Mar 9 - Apr 13, 2024
 - id: 451f0a19-1442-47b0-6efd-08dc02803b5e
   season: 2024
-  registrationDates: Closes Mar 15, 2024
+  registrationDates: Closed
   isLive: true
   isVisible: true
   name: Alabama March Meet - Semi Finals
@@ -50,6 +40,16 @@ jbq:
   scopeLabel: Minnesota
   locationName: Heritage Assembly of God
   locationCity: Baxter, MN
+  dates: Mar 16, 2024
+- id: 265ac028-6c22-40f0-a136-08dc4528c0eb
+  season: 2024
+  registrationDates: Closes Mar 15, 2024
+  isLive: true
+  isVisible: true
+  name: Alabama March Meet - Semi Finals(1)
+  scope: district
+  scopeLabel: Alabama
+  locationName: Springville Camp
   dates: Mar 16, 2024
 - id: 27829569-f2e2-4487-7281-08dc2f28d0e6
   season: 2024
@@ -151,6 +151,25 @@ jbq:
   locationName: First Assembly of God
   locationCity: Searcy, AR
   dates: Apr 6, 2024
+- id: 8a1181b7-0453-46b8-a135-08dc4528c0eb
+  season: 2024
+  registrationDates: Closes Apr 8, 2024
+  isVisible: true
+  name: Nebraska District JBQ April 2024 Match
+  scope: district
+  scopeLabel: Nebraska
+  locationName: The Crossing Retreat Center
+  locationCity: Lexington, NE
+  dates: Apr 13, 2024
+- id: e8a6387f-547a-42b6-a513-08dc0ec824e9
+  season: 2024
+  registrationDates: Closes Mar 5, 2024
+  isVisible: true
+  scope: district
+  scopeLabel: Peninsular Florida
+  locationName: Southeastern University
+  locationCity: Lakeland, FL
+  dates: Apr 13, 2024
 - id: 83fae7f5-546c-4160-6156-08dc3e9f4c90
   season: 2024
   registrationDates: Closes Apr 10, 2024
@@ -199,6 +218,16 @@ jbq:
   scopeLabel: Southeast
   locationName: Phenix City First
   locationCity: Phenix City, AL
+  dates: May 3 - 4, 2024
+- id: e055fbea-c0d1-4010-c7d6-08dc234b919d
+  season: 2024
+  registrationDates: Closes Apr 28, 2024
+  isVisible: true
+  name: Great Lakes Regional
+  scope: region
+  scopeLabel: Great Lakes
+  locationName: Dayspring Assembly of God
+  locationCity: Bowling Green, OH
   dates: May 3 - 4, 2024
 tbq:
 - id: 53a359a6-a54a-47d8-babb-08db899305d7
