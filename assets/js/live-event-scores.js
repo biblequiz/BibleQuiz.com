@@ -671,8 +671,18 @@ function initializeLiveEvents() {
                 getByAndRemoveId(meetCell, "meetName")
                     .prop("id", titleAnchorId)
                     .text(useCombinedName ? meet.CombinedName : meet.Name);
+
+                // Format the date
+                const lastUpdatedDate = new Date(meet.LastUpdated);
+                let lastUpdatedHours = lastUpdatedDate.getHours();
+                const lastUpdatedAmPm = lastUpdatedHours >= 12 ? "PM" : "AM";
+                const lastUpdatedMinutes = lastUpdatedDate.getMinutes();
+                if (lastUpdatedHours > 12) {
+                    lastUpdatedHours - 12;
+                }
+
                 getByAndRemoveId(meetCell, "lastUpdated")
-                    .text(meet.LastUpdated);
+                    .text(`${lastUpdatedDate.getMonth()}/${lastUpdatedDate.getDate()}/${lastUpdatedDate.getFullYear()} ${lastUpdatedHours}:${lastUpdatedMinutes < 10 ? "0" : ""}${lastUpdatedMinutes} ${lastUpdatedAmPm}`);
 
                 // Generate the actual report from the data.
                 switch (currentReportType) {
