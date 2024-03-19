@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "2023 Wisconsin / Northern Missouri"
-permalink: /history/2023/districts/wisconsin-northern-missouri/
+title: "2023 Wisconsin / Northern Michigan"
+permalink: /history/2023/districts/wisconsin-northern-michigan/
 date: "2023-04-01"
 toc_title: Results
 menubar_toc: true

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "2023 Wisconsin / Northern Missouri District Finals"
-permalink: /jbq/2023/districts/wisconsin-northern-missouri/
+title: "2023 Wisconsin / Northern Michigan District Finals"
+permalink: /jbq/2023/districts/wisconsin-northern-michigan/
 date: "2023-03-25"
 toc_title: Results
 menubar_toc: true
