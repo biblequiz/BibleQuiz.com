@@ -9,17 +9,6 @@ jbq:
   scopeLabel: North Texas
   locationName: NTX Churches
   dates: Nov 11 - Mar 24, 2024
-- id: dd02bd99-c717-4a40-a137-08dc4528c0eb
-  season: 2024
-  registrationDates: Closes Mar 18, 2024
-  isLive: true
-  isVisible: true
-  name: 2024 NYS JBQ District Finals
-  scope: district
-  scopeLabel: New York
-  locationName: Crosspoint Church
-  locationCity: Whitesboro, NY
-  dates: Mar 18, 2024
 - id: ce30e59d-ab48-4bb3-7289-08dc2f28d0e6
   season: 2024
   registrationDates: Closes Mar 10, 2024
@@ -257,11 +246,21 @@ tbq:
   season: 2024
   registrationDates: Closes Mar 25, 2024
   isVisible: true
-  scope: district
-  scopeLabel: South Dakota
+  name: Dakota Quiz District Finals
+  scope: region
+  scopeLabel: North Central
   locationName: Open Bible Church
   locationCity: Rapid City, SD
   dates: Apr 5 - 6, 2024
+- id: 7f488aff-c20f-48f6-af59-08dc47cc6dda
+  season: 2024
+  registrationDates: Closes Mar 27, 2024
+  isVisible: true
+  scope: district
+  scopeLabel: North Texas
+  locationName: First at Firewheel Church
+  locationCity: Garland, TX
+  dates: Apr 6, 2024
 - id: 244ee3dd-399a-4d66-cb09-08dc3707562a
   season: 2024
   registrationDates: Closes Mar 17, 2024
