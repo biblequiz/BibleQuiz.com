@@ -8,16 +8,16 @@ menubar: menu_current_season
 
 ![]({% link assets/2024/dal-hotel-v1.jpg %})
 
-### Date 📅
+### Date
 
 June 29 - July 5
 
-### Competition format ⚔️
+### Competition format
 
 40 teams and a 1 on 1 Tournament for those Championship quizzers whose team does not make it.  
 _(need minimum of 5 quizzers for the 1 on 1 tournament)_
 
-### Hotel 🛏️
+### Hotel
 
 [Hyatt Regency Dallas](https://www.hyatt.com/en-US/hotel/texas/hyatt-regency-dallas/dfwrd)
 
@@ -27,14 +27,6 @@ The first day to book hotel rooms is **Thursday, April 18, 2024**. The group cod
 
 The deadline to get the discounted rate for the hotel is **Tuesday, May 28, 2024**.
 
-### Note on flying in to Dallas ✈️
-
-There are two major airports in the Dallas-Fort Worth metroplex.
-
-[Dallas Love Field (DAL)](https://maps.app.goo.gl/yDUgzxnx6xjMq9xDA) is close to the Hyatt Regency and is a hub for Southwest Airlines.
-
-[Dallas Fort Worth International Airport (DFW)](https://maps.app.goo.gl/7t26htsKBrAiZk3F6) is one of the largest airports in the world, a hub for American Airlines, and is further away ([about 20-30 min drive](https://maps.app.goo.gl/3eBzcSyChbV5QR5PA)).
-
 ### Adult Bible Quiz
 
 Veteran division: James 1-5  
@@ -42,6 +34,14 @@ Fun division: James 1-2
 
 Contact [Patti Smith](mailto:p.s.momof5@gmail.com) with any questions.
 
----
+### FAQ
 
-_More information will be added to this page in the coming months._
+Find answers to the most commonly asked questions.
+
+<a href="{% link _pages/history/2024/nationals/faq.md %}" class="button is-primary">National Finals FAQ</a>
+
+### Giving and Donation Opportunities
+
+If you'd like to contribute and help make National Finals possible, take a look at the link below to see how you can make a difference.
+
+<a href="{% link _pages/history/2024/nationals/donations.md %}" class="button is-primary">National Finals Giving Opportunities</a>
