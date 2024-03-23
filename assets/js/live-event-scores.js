@@ -1181,7 +1181,7 @@ function initializeLiveEvents() {
 
                                 // If this is a linked meet, resolve the correct meet if there isn't a match in this room.
                                 let resolvedMeet = meet;
-                                if (match && match.LinkedMeet) {
+                                if (match && null != match.LinkedMeet) {
                                     resolvedMeet = report.Report.Meets[match.LinkedMeet];
                                 }
 
