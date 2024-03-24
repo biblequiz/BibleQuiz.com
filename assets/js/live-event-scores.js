@@ -784,7 +784,11 @@ function initializeLiveEvents() {
 
                                 // Calculate the rank cell, including a tie.
                                 const rankCell = getByAndRemoveId(tableRow, "rankColumn");
-                                if (team.Scores.IsTie) {
+                                if (null != team.Scores.FootnoteIndex) {
+                                    rankCell.append($("<b />")
+                                        .text(`${meet.TeamFootnotes[team.Scores.FootnoteIndex].Symbol}${team.Scores.Rank}`));
+                                }
+                                else if (team.Scores.IsTie) {
                                     hasTie = true;
                                     rankCell.append($("<b />")
                                         .text(`*${team.Scores.Rank}`));
@@ -816,6 +820,22 @@ function initializeLiveEvents() {
 
                                 teamTableBody.append(tableRow);
                             }
+                        }
+
+                        const teamFootnotesSection = getByAndRemoveId(teamsContainer, "teamFootnotes");
+                        if (meet.TeamFootnotes && meet.TeamFootnotes.length > 0) {
+                            const teamFootnotesText = teamFootnotesSection.find("#teamFootnotesText");
+                            for (let i = 0; i < meet.TeamFootnotes.length; i++){
+                                if (i > 0) {
+                                    teamFootnotesText.append("<br />");
+                                }
+
+                                const footnote = meet.TeamFootnotes[i];
+                                teamFootnotesText.append(`${footnote.Symbol.trim()} ${footnote.Text}`);
+                            }
+                        }
+                        else {
+                            teamFootnotesSection.remove();
                         }
 
                         const teamTieBreakingRow = getByAndRemoveId(teamsContainer, "teamTieBreakingRow");
@@ -858,7 +878,11 @@ function initializeLiveEvents() {
 
                                 // Calculate the rank cell, including a tie.
                                 const rankCell = getByAndRemoveId(tableRow, "rankColumn");
-                                if (quizzer.Scores.IsTie) {
+                                if (null != quizzer.Scores.FootnoteIndex) {
+                                    rankCell.append($("<b />")
+                                        .text(`${meet.QuizzerFootnotes[quizzer.Scores.FootnoteIndex].Symbol}${quizzer.Scores.Rank}`));
+                                }
+                                else if (quizzer.Scores.IsTie) {
                                     hasTie = true;
                                     rankCell.append($("<b />")
                                         .text(`*${quizzer.Scores.Rank}`));
@@ -889,6 +913,22 @@ function initializeLiveEvents() {
 
                                 quizzerTableBody.append(tableRow);
                             }
+                        }
+
+                        const quizzerFootnotesSection = getByAndRemoveId(quizzersContainer, "quizzerFootnotes");
+                        if (meet.QuizzerFootnotes && meet.QuizzerFootnotes.length > 0) {
+                            const quizzerFootnotesText = quizzerFootnotesSection.find("#quizzerFootnotesText");
+                            for (let i = 0; i < meet.QuizzerFootnotes.length; i++){
+                                if (i > 0) {
+                                    quizzerFootnotesText.append("<br />");
+                                }
+
+                                const footnote = meet.QuizzerFootnotes[i];
+                                quizzerFootnotesText.append(`${footnote.Symbol.trim()} ${footnote.Text}`);
+                            }
+                        }
+                        else {
+                            quizzerFootnotesSection.remove();
                         }
 
                         const quizzersTieBreakingRow = getByAndRemoveId(quizzersContainer, "quizzerTieBreakingRow");
@@ -964,7 +1004,7 @@ function initializeLiveEvents() {
 
                                     // Add the match to the header.
                                     const headerCell = cloneTemplate(teamTableHeaderCellTemplate)
-                                        .text(match.Id);
+                                        .text(null != match.PlayoffIndex ? `P${match.PlayoffIndex}` : match.Id);
                                     teamTableHeaderRow.append(headerCell);
 
                                     // Add the time to the footer.
@@ -1185,7 +1225,7 @@ function initializeLiveEvents() {
                                     resolvedMeet = report.Report.Meets[match.LinkedMeet];
                                 }
 
-                                const matchId = resolvedMeet.Matches[matchIndex].Id;
+                                const resolvedMatch = resolvedMeet.Matches[matchIndex];
                                 let matchTeam = null;
                                 if (match && isRoomReport) {
                                     matchTeam = resolvedMeet.Teams[match.Team1];
@@ -1205,6 +1245,10 @@ function initializeLiveEvents() {
                                     if (isCardReport) {
                                         // Determine the prefix before each match.
                                         let scheduleText = [];
+                                        if (null != resolvedMatch.PlayoffIndex) {
+                                            scheduleText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
+                                        }
+
                                         if (isRoomReport) {
                                             scheduleText.push(`"${matchTeam.Name}"`);
                                         }
@@ -1214,6 +1258,10 @@ function initializeLiveEvents() {
                                         if (resolvedMeet.RankedTeams) {
 
                                             scoreText = [];
+
+                                            if (null != resolvedMatch.PlayoffIndex) {
+                                                scoreText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
+                                            }
 
                                             if (isRoomReport) {
                                                 scoreText.push(`"${matchTeam.Name}"`);
@@ -1331,7 +1379,7 @@ function initializeLiveEvents() {
                                     if (resolvedMeet.RankedTeams) {
                                         statsLink.click(
                                             null,
-                                            e => openMatchScoresheet(`Match ${matchId} in ${match.Room} @ ${resolvedMeet.Name}`, resolvedMeet.DatabaseId, resolvedMeet.MeetId, matchId, match.RoomId))
+                                            e => openMatchScoresheet(`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`, resolvedMeet.DatabaseId, resolvedMeet.MeetId, resolvedMatch.Id, match.RoomId))
                                     }
                                 }
                                 else {
@@ -1482,6 +1530,9 @@ function initializeLiveEvents() {
 
                         // Append the rows for each room.
                         const statusTableRows = getByAndRemoveId(meetCell, "tableRows");
+                        const notStartedLinkTemplate = getByAndRemoveId(statusTableRows, "notStartedLink")
+                            .remove()
+                            .get(0);
                         const inProgressLinkTemplate = getByAndRemoveId(statusTableRows, "inProgressLink")
                             .remove()
                             .get(0);
@@ -1530,8 +1581,10 @@ function initializeLiveEvents() {
                                     let linkTemplate = null;
                                     switch (match.State) {
                                         case 1: // In Progress
-                                            linkTemplate = cloneTemplate(inProgressLinkTemplate)
-                                                .append(`#${match.CurrentQuestion}`);
+                                            linkTemplate = cloneTemplate(inProgressLinkTemplate);
+                                            linkTemplate
+                                                .find("#currentQuestion")
+                                                .text(`#${match.CurrentQuestion}`);
                                             break;
 
                                         case 2: // Completed
@@ -1539,12 +1592,25 @@ function initializeLiveEvents() {
                                             break;
 
                                         default: // Not Started
+                                            linkTemplate = cloneTemplate(notStartedLinkTemplate);
                                             matchCell
                                                 .empty()
                                                 .append("&nbsp;");
                                     }
 
                                     if (null != linkTemplate) {
+
+                                        if (meet.HasLinkedMeets) {
+                                            linkTemplate
+                                                .find("#linkedMeetName")
+                                                .text(resolvedMeet.Name);
+                                        }
+                                        else {
+                                            linkTemplate
+                                                .find("#linkedMeetSection")
+                                                .remove();
+                                        }
+
                                         linkTemplate.click(
                                             null,
                                             e => openMatchScoresheet(`Match ${matchId} in ${room.Name} @ ${resolvedMeet.Name}`, resolvedMeet.DatabaseId, resolvedMeet.MeetId, matchId, roomId));
