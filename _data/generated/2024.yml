@@ -7,7 +7,34 @@ jbq:
     locationCity: Port Edwards, WI
     dates: Mar 23, 2024
     scoresLink: /jbq/2024/districts/Wisconsin-Northern Michigan
+  - name: South Texas District Finals
+    scope: district
+    scopeLabel: South Texas
+    locationName: First Assembly of God
+    locationCity: San Antonio
+    dates: Mar 23, 2024
+    scoresLink: /jbq/2024/districts/South Texas
+  - name: Tennessee District Finals
+    scope: district
+    scopeLabel: Tennessee
+    locationName: Hope Church Algood
+    locationCity: Algood, TN
+    dates: Mar 23, 2024
+    scoresLink: /jbq/2024/districts/Tennessee
+  - name: Kansas District Finals
+    scope: district
+    scopeLabel: Kansas
+    locationName: Overland Park First Assembly of God
+    locationCity: Overland Park, KS
+    dates: Mar 16, 2024
+    scoresLink: /jbq/2024/districts/Kansas
   tournament:
+  - name: John Crabtree Tournament
+    scope: tournament
+    locationName: First Assembly of God
+    locationCity: Normal, IL
+    dates: Feb 23 - 24, 2024
+    scoresLink: /jbq/2024/tournaments/John Crabtree Tournament
   - name: 15th Annual Snow Bowl Invitational - 2023
     scope: tournament
     locationName: First @ Firewheel Church
@@ -28,20 +55,6 @@ jbq:
     locationCity: Bridgewater, NJ
     dates: Mar 23, 2024
     scoresLink: /jbq/2024/other/6e152636-29ab-4b97-0aa7-08dc2dc03676
-  - name: STX District Finals
-    scope: district
-    scopeLabel: South Texas
-    locationName: First Assembly of God
-    locationCity: San Antonio
-    dates: Mar 23, 2024
-    scoresLink: /jbq/2024/other/dbe5e7bb-6985-4e15-aa20-08dc3fb70ab8
-  - name: Tennessee Network Finals
-    scope: region
-    scopeLabel: Gulf
-    locationName: Hope Church Algood
-    locationCity: Algood, TN
-    dates: Mar 23, 2024
-    scoresLink: /jbq/2024/other/d23eb1c7-c790-4da1-7285-08dc2f28d0e6
   - name: 2024-03 MN Central
     scope: district
     scopeLabel: Minnesota
@@ -55,13 +68,6 @@ jbq:
     locationName: Springville Camp
     dates: Mar 16, 2024
     scoresLink: /jbq/2024/other/265ac028-6c22-40f0-a136-08dc4528c0eb
-  - name: Kansas District Finals 2024
-    scope: district
-    scopeLabel: Kansas
-    locationName: Overland Park First Assembly of God
-    locationCity: Overland Park, KS
-    dates: Mar 16, 2024
-    scoresLink: /jbq/2024/other/27829569-f2e2-4487-7281-08dc2f28d0e6
   - name: MN Metro League Mar 2024
     scope: district
     scopeLabel: Minnesota
@@ -136,12 +142,6 @@ jbq:
     locationCity: Jenks, OK
     dates: Feb 24, 2024
     scoresLink: /jbq/2024/other/23d31549-a3cf-4068-f6cb-08dc25289c9a
-  - name: John Crabtree Tournament
-    scope: nation
-    locationName: First Assembly of God
-    locationCity: Normal, IL
-    dates: Feb 23 - 24, 2024
-    scoresLink: /jbq/2024/other/e5174d99-755e-40ec-6ef6-08dc02803b5e
   - name: Pen Florida Junior Bible Quiz League Registration
     scope: district
     scopeLabel: Peninsular Florida
@@ -294,6 +294,13 @@ jbq:
     scoresLink: /jbq/2024/other/fecab638-419c-45f9-0f57-08dbb09b83f3
 tbq:
   districtFinals:
+  - name: North Carolina District Finals
+    scope: district
+    scopeLabel: North Carolina
+    locationName: Calvary Church
+    locationCity: Greensboro, NC
+    dates: Mar 23, 2024
+    scoresLink: /history/2024/districts/North Carolina
   - name: Northwest District Finals
     scope: district
     scopeLabel: Northwest
@@ -351,13 +358,6 @@ tbq:
     dates: Sep 23, 2023
     scoresLink: /history/2024/tournaments/2023 Liberty Classic
   other:
-  - name: North Carolina District Finals
-    scope: district
-    scopeLabel: North Carolina
-    locationName: Calvary Church
-    locationCity: Greensboro, NC
-    dates: Mar 23, 2024
-    scoresLink: /history/2024/other/f1af310f-002d-462f-7284-08dc2f28d0e6
   - name: Tennessee Network Finals
     scope: district
     scopeLabel: Tennessee
