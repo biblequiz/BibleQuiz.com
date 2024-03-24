@@ -20,63 +20,11 @@ jbq:
   locationName: Crosspoint Church
   locationCity: Whitesboro, NY
   dates: Mar 22 - 24, 2024
-- id: ce30e59d-ab48-4bb3-7289-08dc2f28d0e6
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  scope: district
-  scopeLabel: Wisconsin-Northern Michigan
-  locationName: Christian Life Fellowship
-  locationCity: Port Edwards, WI
-  dates: Mar 23, 2024
-- id: 6e152636-29ab-4b97-0aa7-08dc2dc03676
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: New Jersey Junior Bible Quiz -2024
-  scope: district
-  scopeLabel: New Jersey
-  locationName: Evangel Chapel
-  locationCity: Bridgewater, NJ
-  dates: Mar 23, 2024
-- id: 8ec649a1-9de5-402e-0055-08dc2dea195f
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  scope: district
-  scopeLabel: North Texas
-  locationName: CasaView Assembly Of God
-  locationCity: Dallas, TX
-  dates: Mar 23, 2024
-- id: dbe5e7bb-6985-4e15-aa20-08dc3fb70ab8
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: STX District Finals
-  scope: district
-  scopeLabel: South Texas
-  locationName: First Assembly of God
-  locationCity: San Antonio
-  dates: Mar 23, 2024
-- id: d23eb1c7-c790-4da1-7285-08dc2f28d0e6
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Tennessee Network Finals
-  scope: region
-  scopeLabel: Gulf
-  locationName: Hope Church Algood
-  locationCity: Algood, TN
-  dates: Mar 23, 2024
 - id: b7dc19d5-c703-4632-b60a-08dc24504e6d
   season: 2024
   registrationDates: Closes Mar 29, 2024
   isVisible: true
+  name: Southern Missouri District Finals
   scope: district
   scopeLabel: Southern Missouri
   locationName: Life 360 Chesterfield
@@ -125,6 +73,7 @@ jbq:
   season: 2024
   registrationDates: Closed
   isVisible: true
+  name: Peninsular Florida District Finals
   scope: district
   scopeLabel: Peninsular Florida
   locationName: Southeastern University
@@ -134,6 +83,7 @@ jbq:
   season: 2024
   registrationDates: Closes Apr 10, 2024
   isVisible: true
+  name: Wyoming District Finals
   scope: district
   scopeLabel: Wyoming
   locationName: Element Church
@@ -153,7 +103,7 @@ jbq:
   season: 2024
   registrationDates: Closes Apr 4, 2024
   isVisible: true
-  name: 2024 JBQ Northeast Regional Finals
+  name: Northeast Region Finals
   scope: region
   scopeLabel: Northeast
   locationName: Word of Life Assembly of God
@@ -173,7 +123,7 @@ jbq:
   season: 2024
   registrationDates: Closes Apr 6, 2024
   isVisible: true
-  name: South Central JBQ Regionals 2024
+  name: South Central Region Finals
   scope: region
   scopeLabel: South Central
   locationName: First at Firewheel
@@ -183,11 +133,21 @@ jbq:
   season: 2024
   registrationDates: Closes Apr 8, 2024
   isVisible: true
-  name: Gulf Regional Tournament
+  name: Gulf Region Finals
   scope: region
   scopeLabel: Gulf
   locationName: McArthur Assembly of God
   locationCity: Jacksonville, AR
+  dates: Apr 27, 2024
+- id: 2c1c2af1-8b1b-4b86-a138-08dc4528c0eb
+  season: 2024
+  registrationDates: Closes Apr 18, 2024
+  isVisible: true
+  name: Southwest Region Finals
+  scope: region
+  scopeLabel: Southwest
+  locationName: LifeSpring Assembly of God
+  locationCity: Riverside, CA
   dates: Apr 27, 2024
 - id: 26f46492-5224-4a86-dd49-08dc39fbbb03
   season: 2024
@@ -203,7 +163,7 @@ jbq:
   season: 2024
   registrationDates: Closes Apr 28, 2024
   isVisible: true
-  name: Great Lakes Regional
+  name: Great Lakes Region Finals
   scope: region
   scopeLabel: Great Lakes
   locationName: Dayspring Assembly of God
@@ -220,54 +180,11 @@ tbq:
   scopeLabel: New Jersey
   locationName: New Jersey TBQ
   dates: Oct 14 - Apr 6, 2024
-- id: 409c35df-8702-42e3-7282-08dc2f28d0e6
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 2024 Bible Quiz Georgia District Finals
-  scope: district
-  scopeLabel: Georgia
-  locationName: Trinity Fellowship
-  locationCity: Sharpsburg, GA
-  dates: Mar 23, 2024
-- id: f1af310f-002d-462f-7284-08dc2f28d0e6
-  season: 2024
-  registrationDates: Closes Mar 22, 2024
-  isLive: true
-  isVisible: true
-  name: North Carolina District Finals
-  scope: district
-  scopeLabel: North Carolina
-  locationName: Calvary Church
-  locationCity: Greensboro, NC
-  dates: Mar 23, 2024
-- id: 1821f058-b9b3-4beb-a13b-08dc4528c0eb
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  scope: district
-  scopeLabel: Northwest
-  locationName: Cedar Park Church
-  locationCity: Bothell, WA
-  dates: Mar 23, 2024
-- id: 9c66a829-e1ba-4e54-7286-08dc2f28d0e6
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Tennessee Network Finals
-  scope: district
-  scopeLabel: Tennessee
-  locationName: Hope Church Algood
-  locationCity: Algood, TN
-  dates: Mar 23, 2024
 - id: f73f8d33-f2f7-434a-d159-08dc45d707d3
   season: 2024
   registrationDates: Closes Mar 25, 2024
   isVisible: true
-  name: Dakota Quiz District Finals
+  name: North Central Region Finals
   scope: region
   scopeLabel: North Central
   locationName: Open Bible Church
@@ -277,6 +194,7 @@ tbq:
   season: 2024
   registrationDates: Closes Apr 1, 2024
   isVisible: true
+  name: Wisconsin-Northern Michigan District Finals
   scope: district
   scopeLabel: Wisconsin-Northern Michigan
   locationName: CrossPoint Assembly of God
@@ -286,6 +204,7 @@ tbq:
   season: 2024
   registrationDates: Closes Mar 27, 2024
   isVisible: true
+  name: North Texas District Finals
   scope: district
   scopeLabel: North Texas
   locationName: First at Firewheel Church
@@ -295,6 +214,7 @@ tbq:
   season: 2024
   registrationDates: Closes Mar 17, 2024
   isVisible: true
+  name: Peninsular Florida District Finals
   scope: district
   scopeLabel: Peninsular Florida
   locationName: Southeastern University
