@@ -183,6 +183,9 @@
           </tr>
         </tbody>
       </table>
+      <div id="teamFootnotes">
+        <font size="2" id="teamFootnotesText"></font>
+      </div>
       <div id="teamTieBreakingRow">
         <font size="2"><i>* Tie couldn't be broken by tie breaking rules.</i></font>
       </div>
@@ -222,6 +225,9 @@
           </tr>
         </tbody>
       </table>
+      <div id="quizzerFootnotes">
+        <font size="2" id="quizzerFootnotesText"></font>
+      </div>
       <div id="quizzerTieBreakingRow">
         <font size="2"><i>* Tie couldn't be broken by tie breaking rules.</i></font>
       </div>
@@ -304,24 +310,24 @@
       <table class="table is-striped is-fullwidth is-bordered is-narrow">
         <thead>
           <tr id="scheduleTeamTableHeaderRow">
-            <th class="has-text-right" width="30" class="hide-if-schedule">#</th>
+            <th width="30" class="has-text-right hide-if-schedule">#</th>
             <th width="33%">Team (Church)</th>
-            <th class="has-text-right" width="30" class="hide-if-schedule">W</th>
-            <th class="has-text-right" width="30" class="hide-if-schedule">L</th>
-            <th class="has-text-right" width="65" class="hide-if-schedule">Total</th>
-            <th class="has-text-right" width="65" class="hide-if-schedule">Avg</th>
+            <th width="30" class="has-text-right hide-if-schedule">W</th>
+            <th width="30" class="has-text-right hide-if-schedule">L</th>
+            <th width="65" class="has-text-right hide-if-schedule">Total</th>
+            <th width="65" class="has-text-right hide-if-schedule">Avg</th>
             <th class="has-text-centered" id="matchItem" />
           </tr>
         </thead>
         <tbody id="scheduleTeamTableBody">
           <tr id="cardTemplate">
-            <td class="has-text-right" id="rankColumn" class="hide-if-schedule" />
+            <td id="rankColumn" class="has-text-right hide-if-schedule" />
             <td id="nameColumn" />
-            <td class="has-text-right" id="winColumn" class="hide-if-schedule" />
-            <td class="has-text-right" id="lossColumn" class="hide-if-schedule" />
-            <td class="has-text-right" id="totalColumn" class="hide-if-schedule" />
-            <td class="has-text-right" id="averageColumn" class="hide-if-schedule" />
-            <td class="has-text-centered" id="matchItem">
+            <td id="winColumn" class="has-text-right hide-if-schedule" />
+            <td id="lossColumn" class="has-text-right hide-if-schedule" />
+            <td id="totalColumn" class="has-text-right hide-if-schedule" />
+            <td id="averageColumn" class="has-text-right hide-if-schedule" />
+            <td id="matchItem" class="has-text-centered">
               <div class="show-if-schedule hide-on-print" id="scheduleLabel"></div>
               <div class="hide-if-schedule" id="statsLabel">
                 <a id="statsLink"></a><br />
@@ -376,8 +382,27 @@
           <tr id="rowTemplate">
             <td class="has-text-centered" id="name" />
             <td class="has-text-centered" id="matchItem">
-              <a id="inProgressLink" style="cursor: pointer"><i class="fas fa-satellite-dish"></i>&nbsp;</a>
-              <a id="completedLink" style="cursor: pointer"><i class="fas fa-check-circle" style="color:#009900"></i></a>
+              <a id="notStartedLink" style="cursor: pointer">
+                <i class="fas fa-hourglass-start"></i>
+                <span id="linkedMeetSection">
+                  <br />
+                  <i id="linkedMeetName"></span>
+                </span>
+              </a>
+              <a id="inProgressLink" style="cursor: pointer">
+                <i class="fas fa-satellite-dish"></i>&nbsp;<span id="currentQuestion"></span>
+                <span id="linkedMeetSection">
+                  <br />
+                  <i id="linkedMeetName"></span>
+                </span>
+              </a>
+              <a id="completedLink" style="cursor: pointer">
+                <i class="fas fa-check-circle" style="color:#009900"></i>
+                <span id="linkedMeetSection">
+                  <br />
+                  <i id="linkedMeetName"></span>
+                </span>
+              </a>
             </td>
           </tr>
         </tbody>
