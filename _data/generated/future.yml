@@ -1,25 +1,4 @@
 jbq:
-- id: 521bceb9-e382-46dd-5485-08dbc805d3ff
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 2023-24 NTX NFWSD League Meets
-  scope: district
-  scopeLabel: North Texas
-  locationName: NTX Churches
-  dates: Nov 11 - Mar 24, 2024
-- id: dd02bd99-c717-4a40-a137-08dc4528c0eb
-  season: 2024
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 2024 NYS JBQ District Finals
-  scope: district
-  scopeLabel: New York
-  locationName: Crosspoint Church
-  locationCity: Whitesboro, NY
-  dates: Mar 22 - 24, 2024
 - id: b7dc19d5-c703-4632-b60a-08dc24504e6d
   season: 2024
   registrationDates: Closes Mar 29, 2024
@@ -41,7 +20,7 @@ jbq:
   dates: Apr 6, 2024
 - id: eb0118b3-64b4-41d9-61eb-08dc38a77002
   season: 2024
-  registrationDates: Closes Mar 16, 2024
+  registrationDates: Closed
   isVisible: true
   name: Arkansas District Tournament
   scope: district
@@ -59,6 +38,16 @@ jbq:
   locationName: Cedar Valley Church
   locationCity: Bloomington, MN
   dates: Apr 6, 2024
+- id: 78d46b31-a866-4c2f-0af1-08dc4c5d8fcc
+  season: 2024
+  registrationDates: Closes Apr 5, 2024
+  isVisible: true
+  name: North Carolina District Finals
+  scope: district
+  scopeLabel: North Carolina
+  locationName: Rise Church
+  locationCity: Rocky Mount, NC
+  dates: Apr 13, 2024
 - id: 8a1181b7-0453-46b8-a135-08dc4528c0eb
   season: 2024
   registrationDates: Closes Apr 8, 2024
