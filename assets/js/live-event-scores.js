@@ -825,7 +825,7 @@ function initializeLiveEvents() {
                         const teamFootnotesSection = getByAndRemoveId(teamsContainer, "teamFootnotes");
                         if (meet.TeamFootnotes && meet.TeamFootnotes.length > 0) {
                             const teamFootnotesText = teamFootnotesSection.find("#teamFootnotesText");
-                            for (let i = 0; i < meet.TeamFootnotes.length; i++){
+                            for (let i = 0; i < meet.TeamFootnotes.length; i++) {
                                 if (i > 0) {
                                     teamFootnotesText.append("<br />");
                                 }
@@ -918,7 +918,7 @@ function initializeLiveEvents() {
                         const quizzerFootnotesSection = getByAndRemoveId(quizzersContainer, "quizzerFootnotes");
                         if (meet.QuizzerFootnotes && meet.QuizzerFootnotes.length > 0) {
                             const quizzerFootnotesText = quizzerFootnotesSection.find("#quizzerFootnotesText");
-                            for (let i = 0; i < meet.QuizzerFootnotes.length; i++){
+                            for (let i = 0; i < meet.QuizzerFootnotes.length; i++) {
                                 if (i > 0) {
                                     quizzerFootnotesText.append("<br />");
                                 }
@@ -998,6 +998,25 @@ function initializeLiveEvents() {
                                 const tableFooterCellTemplate = getByAndRemoveId(tableFooterRow, "matchItem")
                                     .remove()
                                     .get(0);
+
+                                // Adjust the header and footer based on ranks being present.
+                                const rankHeaderColumn = getByAndRemoveId(teamTableHeaderRow, "rankColumn");
+                                const winHeaderColumn = getByAndRemoveId(teamTableHeaderRow, "winColumn");
+                                const lossHeaderColumn = getByAndRemoveId(teamTableHeaderRow, "lossColumn");
+                                const totalHeaderColumn = getByAndRemoveId(teamTableHeaderRow, "totalColumn");
+                                const averageHeaderColumn = getByAndRemoveId(teamTableHeaderRow, "averageColumn");
+                                if (!meet.RankedTeams) {
+                                    rankHeaderColumn.remove();
+                                    winHeaderColumn.remove();
+                                    lossHeaderColumn.remove();
+                                    totalHeaderColumn.remove();
+                                    averageHeaderColumn.remove();
+
+                                    tableFooterRow.find(".hide-if-schedule").remove();
+                                    tableFooterRow
+                                        .find(".show-if-schedule")
+                                        .removeClass(["show-if-schedule", "hide-on-print"]);
+                                }
 
                                 let hasAnyMatchTimes = false;
                                 for (let match of meet.Matches) {
@@ -1192,19 +1211,25 @@ function initializeLiveEvents() {
                             }
                             else {
                                 const rankColumn = getByAndRemoveId(teamCardOrRow, "rankColumn");
+                                const winColumn = getByAndRemoveId(teamCardOrRow, "winColumn");
+                                const lossColumn = getByAndRemoveId(teamCardOrRow, "lossColumn");
+                                const totalColumn = getByAndRemoveId(teamCardOrRow, "totalColumn");
+                                const averageColumn = getByAndRemoveId(teamCardOrRow, "averageColumn");
 
                                 if (meet.RankedTeams) {
 
-                                    rankColumn
-                                        .text(`${team.Scores.Rank}${team.Scores.IsTie ? '*' : ''}`);
-
-                                    getByAndRemoveId(teamCardOrRow, "winColumn").text(team.Scores.Wins);
-                                    getByAndRemoveId(teamCardOrRow, "lossColumn").text(team.Scores.Losses);
-                                    getByAndRemoveId(teamCardOrRow, "totalColumn").text(team.Scores.TotalPoints);
-                                    getByAndRemoveId(teamCardOrRow, "averageColumn").text(team.Scores.AveragePoints);
+                                    rankColumn.text(`${team.Scores.Rank}${team.Scores.IsTie ? '*' : ''}`);
+                                    winColumn.text(team.Scores.Wins);
+                                    lossColumn.text(team.Scores.Losses);
+                                    totalColumn.text(team.Scores.TotalPoints);
+                                    averageColumn.text(team.Scores.AveragePoints);
                                 }
                                 else {
-                                    rankColumn.append("&nbsp;");
+                                    rankColumn.remove();
+                                    winColumn.remove();
+                                    lossColumn.remove();
+                                    totalColumn.remove();
+                                    averageColumn.remove();
                                 }
 
                                 scheduleTeamTableBody.append(teamCardOrRow);
@@ -1240,7 +1265,7 @@ function initializeLiveEvents() {
                                     const statsLink = getByAndRemoveId(statsLabel, "statsLink");
                                     const liveEventLabel = getByAndRemoveId(matchListItem, "liveEventLabel");
 
-                                    const isLiveMatch = match.CurrentQuestion && resolvedMeet.RankedTeams;
+                                    const isLiveMatch = null != match.CurrentQuestion;
 
                                     if (isCardReport) {
                                         // Determine the prefix before each match.
@@ -1254,44 +1279,39 @@ function initializeLiveEvents() {
                                         }
 
                                         scheduleText.push("vs.");
-                                        let scoreText = null;
-                                        if (resolvedMeet.RankedTeams) {
+                                        let scoreText = [];
+                                        if (null != resolvedMatch.PlayoffIndex) {
+                                            scoreText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
+                                        }
 
-                                            scoreText = [];
+                                        if (isRoomReport) {
+                                            scoreText.push(`"${matchTeam.Name}"`);
+                                        }
 
-                                            if (null != resolvedMatch.PlayoffIndex) {
-                                                scoreText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
-                                            }
+                                        switch (match.Result) {
+                                            case "W":
+                                                scoreText.push(`${isRoomReport ? 'w' : 'W'}on against`);
+                                                break;
+                                            case "L":
+                                                scoreText.push(`${isRoomReport ? 'l' : 'L'}ost to`);
+                                                break;
+                                            default:
+                                                if (!match.CurrentQuestion && null != match.Score) {
+                                                    scoreText.push(`${isRoomReport ? 'p' : 'P'}layed`);
+                                                }
+                                                else if (isLiveMatch) {
+                                                    scoreText.push(`${isRoomReport ? 'p' : 'P'}laying`);
+                                                }
+                                                else {
+                                                    // There is no score because this match hasn't been played yet.
+                                                    scoreText = null;
+                                                }
 
-                                            if (isRoomReport) {
-                                                scoreText.push(`"${matchTeam.Name}"`);
-                                            }
-
-                                            switch (match.Result) {
-                                                case "W":
-                                                    scoreText.push(`${isRoomReport ? 'w' : 'W'}on against`);
-                                                    break;
-                                                case "L":
-                                                    scoreText.push(`${isRoomReport ? 'l' : 'L'}ost to`);
-                                                    break;
-                                                default:
-                                                    if (!match.CurrentQuestion && null != match.Score) {
-                                                        scoreText.push(`${isRoomReport ? 'p' : 'P'}layed`);
-                                                    }
-                                                    else if (isLiveMatch) {
-                                                        scoreText.push(`${isRoomReport ? 'p' : 'P'}laying`);
-                                                    }
-                                                    else {
-                                                        // There is no score because this match hasn't been played yet.
-                                                        scoreText = null;
-                                                    }
-
-                                                    break;
-                                            }
+                                                break;
                                         }
 
                                         // Append the other team name and scores.
-                                        if (match.OtherTeam || 0 == match.OtherTeam) {
+                                        if (null != match.OtherTeam) {
 
                                             const teamText = `"${resolvedMeet.Teams[match.OtherTeam].Name}"`;
                                             scheduleText.push(teamText);
@@ -1365,7 +1385,7 @@ function initializeLiveEvents() {
                                         }
                                         else {
 
-                                            if (resolvedMeet.RankedTeams && null != match.Score) {
+                                            if (null != match.Score) {
                                                 statsLink.append(
                                                     $("<font />")
                                                         .attr("color", match.Result === "W" ? "blue" : (match.Result === "L" ? "red" : "black"))
@@ -1376,7 +1396,7 @@ function initializeLiveEvents() {
                                         }
                                     }
 
-                                    if (resolvedMeet.RankedTeams) {
+                                    if (null != match.Score) {
                                         statsLink.click(
                                             null,
                                             e => openMatchScoresheet(`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`, resolvedMeet.DatabaseId, resolvedMeet.MeetId, resolvedMatch.Id, match.RoomId))
@@ -1497,14 +1517,6 @@ function initializeLiveEvents() {
 
                                 scheduleIndividualsTableBody.append(individualsRow);
                             }
-                        }
-
-                        // If there is no ranking, remove all the columns that would have been hidden for a schedule. The table only displays a schedule.
-                        if (!meet.RankedTeams) {
-                            scheduleGridTableContainer.find(".hide-if-schedule").remove();
-                            scheduleGridTableContainer
-                                .find(".show-if-schedule")
-                                .removeClass(["show-if-schedule", "hide-on-print"]);
                         }
                     }
                         break;
