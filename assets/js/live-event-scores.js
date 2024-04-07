@@ -351,7 +351,7 @@ function initializeLiveEvents() {
         teamModalContainer.addClass("is-active");
 
         // Load the in-room scores.
-        fetch(`https://scores.biblequiz.com/Events/${eventId}/Reports/${databaseId}/Scores/${meetId}/${matchId}/${roomId}?m=true`)
+        fetch(`https://scores.biblequiz.com/api/1.0/reports/Events/${eventId}/Reports/${databaseId}/Scores/${meetId}/${matchId}/${roomId}?m=true`)
             .then(response => response.text())
             .then(html => {
                 teamModalBody.html(html);
@@ -604,7 +604,7 @@ function initializeLiveEvents() {
     }
 
     // Retrieve the score report that contains all the information about the event.
-    fetch(`https://scores.biblequiz.com/api/Events/${eventId}/ScoringReport`)
+    fetch(`https://scores.biblequiz.com/api/1.0/reports/Events/${eventId}/ScoringReport`)
         .then(response => response.json())
         .then(report => {
 
