@@ -40,6 +40,10 @@ Find answers to the most commonly asked questions.
 
 <a href="{% link _pages/history/2024/nationals/faq.md %}" class="button is-primary">National Finals FAQ</a>
 
+Is this your first time competing at National Finals? Here's what you need to know.
+
+<a href="{% link _pages/history/2024/nationals/first-time.md %}" class="button is-primary">First-Year National Teams</a>
+
 ### Giving and Donation Opportunities
 
 If you'd like to contribute and help make National Finals possible, take a look at the link below to see how you can make a difference.
