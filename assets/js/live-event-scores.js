@@ -1592,14 +1592,14 @@ function initializeLiveEvents() {
 
                                     let linkTemplate = null;
                                     switch (match.State) {
-                                        case 1: // In Progress
+                                        case "InProgress":
                                             linkTemplate = cloneTemplate(inProgressLinkTemplate);
                                             linkTemplate
                                                 .find("#currentQuestion")
                                                 .text(`#${match.CurrentQuestion}`);
                                             break;
 
-                                        case 2: // Completed
+                                        case "Completed":
                                             linkTemplate = cloneTemplate(completedLinkTemplate)
                                             break;
 
