@@ -12,11 +12,11 @@ If you are interested in contributing to the Bible Quiz ministry and making Nati
 
 ### SPONSORSHIP
 
--   Need only 2 more Platinum Sponsors of at least $3,000.00
+-   ~~Need only 2 more Platinum Sponsors of at least $3,000.00~~
 -   Need only 1 more Diamond Sponsor of at least $1,500.00
--   Need only 2 more Silver Sponsors for Quiz Rooms sponsored at $300.00
--   Thursday night fellowship Platinum Sponsor of at least $3,000.00
--   Need 20 Bible Boosters of at least $25.00
+-   ~~Need only 2 more Silver Sponsors for Quiz Rooms sponsored at $300.00~~
+-   ~~Thursday night fellowship Platinum Sponsor of at least $3,000.00~~
+-   ~~Need 20 Bible Boosters of at least $25.00~~
 
 ### SCHOLARSHIPS
 
