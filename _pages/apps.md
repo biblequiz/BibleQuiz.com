@@ -24,6 +24,8 @@ date: "2023-05-27"
         <a href="https://github.com/biblequiz/Releases.EZScore/releases" class="button is-warning mt-1" target="_blank">
             <i class="fab fa-github"></i>&nbsp;All Releases
         </a>
+        <p>&nbsp;</p>
+        <p><i>For scorekeeping, we recommend the <a href="https://a.co/d/6hGs5Wg">Amazon Fire HD 10 tablets</a></i></p>
         <p class="title is-6" style="margin-top:30px">EZScore Training Videos</p>
         <ul>
             <li><a href="https://youtu.be/u1jXAshiqwA">Setup and Seating</a></li>
@@ -92,13 +94,14 @@ If you have one of the following apps installed, it is **STRONGLY** recommended 
 | ![ScoreKeep]({% link assets/images/old-app-instructions/icon-scorekeep.png %})                          | ScoreKeep                 | Last version before ScoreKeep Uploader (Beta).                                          |
 
 If you have any of these applications installed, uninstalling is easy. The following example shows how to uninstall `EZScore (Beta)`:
+
 1. Open Start Menu and type `EZScore (Beta)`. If the app isn't found, it isn't installed on your machine.\
-![]({% link assets/images/old-app-instructions/uninstall-start-menu.png %})
+   ![]({% link assets/images/old-app-instructions/uninstall-start-menu.png %})
 2. Click the `Uninstall` button.
 3. Find `EZScore (Beta)` in the list.\
-![]({% link assets/images/old-app-instructions/uninstall-control-panel.png %})
+   ![]({% link assets/images/old-app-instructions/uninstall-control-panel.png %})
 4. Click `Uninstall/Change`.
 5. Select `Remove the application from this computer.`\
-![]({% link assets/images/old-app-instructions/uninstall-confirmation.png %})
+   ![]({% link assets/images/old-app-instructions/uninstall-confirmation.png %})
 6. Click `OK`.
 7. Repeat these steps for each of the legacy apps.
