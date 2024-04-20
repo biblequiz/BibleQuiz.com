@@ -1396,7 +1396,7 @@ function initializeLiveEvents() {
                                         }
                                     }
 
-                                    if (null != match.Score) {
+                                    if (isLiveMatch || null != match.Score) {
                                         statsLink.click(
                                             null,
                                             e => openMatchScoresheet(`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`, resolvedMeet.DatabaseId, resolvedMeet.MeetId, resolvedMatch.Id, match.RoomId))
