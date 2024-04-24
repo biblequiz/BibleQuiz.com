@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /history/2024/nationals/
-title: "2024 National Finals"
+title: "2024 TBQ National Finals"
 date: "2023-11-09"
 menubar: menu_current_season
 ---
 
-![]({% link assets/2024/dal-hotel-v1.jpg %})
+![]({% link assets/2024/tbq-nats-24.png %})
 
 ### Date
 
@@ -21,6 +21,12 @@ Hotel for 1-4 in a room $139.00. (Regular rate $201.00). Discounted parking at $
 <a href="https://www.hyatt.com/en-US/group-booking/DFWRD/G-BIBL" class="button is-primary">Book your room</a>
 
 NOTE: The deadline to get the discounted rate for the hotel is **Tuesday, May 28, 2024**.
+
+### Registration
+
+All entrants to National Finals must register. This includes all coaches, quizzers, officials, children, guests, and family members.
+
+<a href="https://brushfire.com/agusa/NBQ/575453/" class="button is-primary">Register for Nationals</a>
 
 ### Schedule
 
@@ -49,6 +55,10 @@ Read the guide below to get a head start on your journey to Dallas!
 
 Veteran division: James 1-5  
 Fun division: James 1-2
+
+As part of the Adult Bible Quiz event at the National Finals for 2024, a Quoting Bee will be held before the ABQ team competition for all adults registered. There will be 2 Quoting Bees: The first, ages 18-39, and the second, ages 40 and up.  The Quoting Bee will cover James Chapter 1.
+
+Included in each set of questions for the "Fun division" there will be 1 Application Question over James 1 & 2.
 
 Contact [Patti Smith](mailto:p.s.momof5@gmail.com) with any questions.
 
