@@ -6,7 +6,7 @@ date: "2023-11-09"
 menubar: menu_current_season
 ---
 
-![]({% link assets/2024/tbq-nats-24.png %})
+![]({% link assets/2024/tbq-nats-24.jpg %})
 
 ### Date
 
