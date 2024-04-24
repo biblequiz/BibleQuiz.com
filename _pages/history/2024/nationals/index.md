@@ -22,11 +22,11 @@ Hotel for 1-4 in a room $139.00. (Regular rate $201.00). Discounted parking at $
 
 NOTE: The deadline to get the discounted rate for the hotel is **Tuesday, May 28, 2024**.
 
-### Registration
+<!-- ### Registration
 
 All entrants to National Finals must register. This includes all coaches, quizzers, officials, children, guests, and family members.
 
-<a href="https://brushfire.com/agusa/NBQ/575453/" class="button is-primary">Register for Nationals</a>
+<a href="https://brushfire.com/agusa/NBQ/575453/" class="button is-primary">Register for Nationals</a> -->
 
 ### Schedule
 
