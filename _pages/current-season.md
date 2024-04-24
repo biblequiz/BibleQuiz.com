@@ -14,9 +14,8 @@ The rules for the 2023-2024 season are now available. You can see [the summary o
 
 <a href="{% link assets/2024/23-24 Bible Quiz Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a> <a href="{% link _posts/2023/2023-07-25-updated-rules.md %}" class="button is-primary">Read summary of changes</a>
 
-
 ## National Finals
 
-[![Hyatt Regency Dallas]({% link assets/2024/dal-hotel-v1.jpg %})]({% link _pages/history/2024/nationals/index.md %})
+[![Hyatt Regency Dallas]({% link assets/2024/tbq-nats-24.png %})]({% link _pages/history/2024/nationals/index.md %})
 
 <a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">National Finals Info</a>

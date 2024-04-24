@@ -7,7 +7,7 @@ date: "2024-04-17"
 
 <a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Nationals 2024 Home Page</a>
 
-## Saturday, July 1
+## Saturday, June 29
 
 | Time           | Description                                                                                                   |
 | -------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -15,7 +15,7 @@ date: "2024-04-17"
 | 7:15 p.m.      | First Time Coaches to National Finals Mtg. _(Location TBA at Registration)_                                   |
 | 8:00 p.m.      | Ice Cream Fellowship                                                                                          |
 
-## Sunday, July 2
+## Sunday, June 30
 
 | Time       | Description          |
 | ---------- | -------------------- |
@@ -25,7 +25,7 @@ date: "2024-04-17"
 | 12:00 p.m. | Senior Shoot-out     |
 | 8:00 p.m.  | Officials Assignment |
 
-## Monday, July 3
+## Monday, July 1
 
 | Time       | Description                     |
 | ---------- | ------------------------------- |
@@ -42,7 +42,7 @@ date: "2024-04-17"
 | 3:15 p.m.  | Playoffs (if necessary)         |
 | 8:00 p.m.  | District BQ Coordinator Meeting |
 
-## Tuesday, July 4
+## Tuesday, July 2
 
 | Time           | Description                     |
 | -------------- | ------------------------------- |
@@ -60,7 +60,7 @@ date: "2024-04-17"
 | 4:00 p.m.      | Round 9                         |
 | 7:00-9:00 p.m. | Alumni Fellowship               |
 
-## Wednesday, July 5
+## Wednesday, July 3
 
 | Time       | Description                      |
 | ---------- | -------------------------------- |
@@ -77,7 +77,7 @@ date: "2024-04-17"
 | 3:15 p.m.  | Round 17                         |
 | 8:00 p.m.  | Prayer meeting                   |
 
-## Thursday, July 6
+## Thursday, July 4
 
 | Time       | Description                                                                                       |
 | ---------- | ------------------------------------------------------------------------------------------------- |
@@ -91,7 +91,7 @@ date: "2024-04-17"
 | 1:30 p.m.  | Finish Individual Tournament if needed, if not start Adult Quizzing                               |
 | 7:00 p.m.  | Fellowship night off-site<br />_(more information will be announced later)_                       |
 
-## Friday, July 7
+## Friday, July 5
 
 | Time      | Description    |
 | --------- | -------------- |
