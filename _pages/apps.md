@@ -67,7 +67,7 @@ date: "2023-05-27"
             <p>Makes it easy for both JBQ and TBQ coaches to keep score, lookup answers, research data, see the latest rulebook, see the online score, and get an online schedule for any online registered competition on BibleQuiz.com. It is intended for use in conjunction with <a href="https://registration.biblequiz.com/" target="_blank">https://registration.biblequiz.com/</a>.</p>
         </div>
         <a href="https://github.com/biblequiz/Releases.CoachApp/releases/latest/download/com.biblequiz.coachapp.windows.msixbundle" class="button is-primary mt-1">
-            <i class="fab fa-windows"></i>&nbsp;Windows&nbsp;<span class="tag is-danger"><i>BETA</i></span>
+            <i class="fab fa-windows"></i>&nbsp;Windows
         </a>
         <a href="https://github.com/biblequiz/Releases.CoachApp/releases" class="button is-warning mt-1" target="_blank">
             <i class="fab fa-github"></i>&nbsp;All Releases
