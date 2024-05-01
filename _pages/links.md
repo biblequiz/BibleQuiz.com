@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /tbq/links/
-title: "Links (TBQ)"
+title: "TBQ Links"
 date: "2024-05-01"
 menubar: menu_current_season
 ---
