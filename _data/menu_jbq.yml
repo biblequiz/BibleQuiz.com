@@ -1,16 +1,13 @@
 - items:
-    - name: History by Season
-      link: /jbq/
-      icon: fas fa-home
-    - name: Quizzer Search
-      link: /quizzers/
-      icon: fas fa-users
-- label: External Links
-  items:
-    - name: JBQ Rules
-      link: https://www.nationaljbqfestival.com/_files/ugd/4c9f74_87eccd4775864e28bbc81b5a7fb7a901.pdf
-      icon: fas fa-book
-    - name: National Festival Site
-      link: https://www.nationaljbqfestival.com/
-    - name: Main JBQ Site
-      link: https://kidmin.ag.org/ministries/JBQ/overview
+  - name: JBQ Rules
+    link: https://www.nationaljbqfestival.com/_files/ugd/4c9f74_87eccd4775864e28bbc81b5a7fb7a901.pdf
+    icon: fas fa-book
+  - name: History by Season
+    link: /jbq/
+    icon: fas fa-home
+  - name: Links
+    link: /jbq/links/
+    icon: fas fa-link
+  - name: Quizzer Search
+    link: /quizzers/
+    icon: fas fa-users
