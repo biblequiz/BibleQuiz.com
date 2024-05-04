@@ -62,7 +62,7 @@ menubar_toc_static:
 |   23 | James Patterson    | Kidtricity                     | Montgomery-AL    |   150 | 21.43 |      |
 |   24 | Andy Boehling      | Wilmington Warriors            | Wilmington-NC    |   150 | 21.43 |      |
 |   25 | Katherine Bozzay   | S.P.Y. Kids 007                | Leesburg-VA      |   140 | 20.00 |      |
-|   26 | Vistoria Wooten    | Chosen Ones                    | Houston-TX       |   135 | 19.29 |    1 |
+|   26 | Victoria Wooten    | Chosen Ones                    | Houston-TX       |   135 | 19.29 |    1 |
 |   27 | Rylan Sago         | Bismarck Boppin' Bible Buzzers | Bismarck-ND      |   135 | 19.29 |      |
 |   28 | Greyson Kerns      | Wilmington Warriors            | Wilmington-NC    |   120 | 17.14 |    2 |
 |   29 | Emily Bulger       | River of Life                  | Kent-WA          |    95 | 13.57 |      |
@@ -1194,7 +1194,7 @@ menubar_toc_static:
 |   25 | Fatih Caughey              | CIA - Special Agents | Mendon-MA        |   100 |  14.29 |      |
 |   26 | Joshua Wearne              | JAG                  | Meriden-KS       |    65 |   9.29 |      |
 |   27 | Savannah Reid              | DSI                  | Lakeville-MN     |    60 |   8.57 |      |
-|   28 | Vistoria Wooten            | Chosen Ones          | Houston-TX       |    55 |   7.86 |      |
+|   28 | Victoria Wooten            | Chosen Ones          | Houston-TX       |    55 |   7.86 |      |
 |   29 | Wayne Ellis                | Chosen Ones          | Houston-TX       |    50 |   7.14 |      |
 |   30 | Brennan McCreary           | Spirit Squadron      | West Mifflin -PA |    45 |   6.43 |      |
 |   31 | Michael Wooten             | Chosen Ones          | Houston-TX       |    35 |   5.00 |      |
@@ -1810,7 +1810,7 @@ menubar_toc_static:
 |   28 | Rachel Mgbeike    | Chosen Ones                    | Houston-TX      |   125 |  13.89 |      |
 |   29 | Kelton Johnson    | Salt Shakers                   | Lubbock-TX      |   110 |  12.22 |      |
 |   30 | Michael Wooten    | Chosen Ones                    | Houston-TX      |    95 |  10.56 |    1 |
-|   31 | Vistoria Wooten   | Chosen Ones                    | Houston-TX      |    85 |   9.44 |    1 |
+|   31 | Victoria Wooten   | Chosen Ones                    | Houston-TX      |    85 |   9.44 |    1 |
 |   32 | Trey Hanks        | Freedom Fighters               | Collierville-TN |    60 |   6.67 |      |
 |   32 | Katya Brodsky     | PCC Giant Slayers              | Portland-OR     |    60 |   6.67 |      |
 |   33 | Johanna Day       | DAG Church                     | Decatur-AR      |    55 |   6.11 |      |
