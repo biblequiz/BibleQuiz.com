@@ -1,5 +1,19 @@
 jbq:
   regionFinals:
+  - name: Great Lakes Region Finals
+    scope: region
+    scopeLabel: Great Lakes
+    locationName: Dayspring Assembly of God
+    locationCity: Bowling Green, OH
+    dates: May 3 - 4, 2024
+    scoresLink: /jbq/2024/regionals/great-lakes
+  - name: North Central Region Finals
+    scope: region
+    scopeLabel: North Central
+    locationName: Life Change Church (formerly Sioux Falls First Assembly)
+    locationCity: Sioux Falls, SD
+    dates: May 3 - 4, 2024
+    scoresLink: /jbq/2024/regionals/north-central
   - name: Gulf Region Finals
     scope: region
     scopeLabel: Gulf
@@ -133,6 +147,13 @@ jbq:
     dates: Dec 2, 2023
     scoresLink: /jbq/2024/tournaments/5th Annual Snow Ball Invitational - 2023
   other:
+  - name: 2024 Southeast Regional (JBQ)
+    scope: region
+    scopeLabel: Southeast
+    locationName: Phenix City First
+    locationCity: Phenix City, AL
+    dates: May 3 - 4, 2024
+    scoresLink: /jbq/2024/other/26f46492-5224-4a86-dd49-08dc39fbbb03
   - name: MIJBQ State Finals
     scope: district
     scopeLabel: Michigan
@@ -411,6 +432,28 @@ jbq:
     dates: Sep 30, 2023
     scoresLink: /jbq/2024/other/fecab638-419c-45f9-0f57-08dbb09b83f3
 tbq:
+  regionFinals:
+  - name: South Central Region Finals
+    scope: region
+    scopeLabel: South Central
+    locationName: First at Firewheel
+    locationCity: Garland, TX
+    dates: May 4, 2024
+    scoresLink: /history/2024/regionals/south-central
+  - name: Northeast Region Finals
+    scope: region
+    scopeLabel: Northeast
+    locationName: Crossroads Community Cathedral
+    locationCity: East Hartford, CT
+    dates: May 3 - 4, 2024
+    scoresLink: /history/2024/regionals/Northeast
+  - name: Northwest Region Finals
+    scope: region
+    scopeLabel: Northwest
+    locationName: Spokane Valley Assembly of God
+    locationCity: Spokane Valley, WA
+    dates: May 3 - 4, 2024
+    scoresLink: /history/2024/regionals/northwest
   districtFinals:
   - name: Peninsular Florida District Finals
     scope: district
