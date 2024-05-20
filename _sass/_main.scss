@@ -1,8 +1,8 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Rubik");
 
-$family-sans-serif: 'Montserrat', sans-serif;
-$primary: #188eac !default;
+$family-sans-serif: "Rubik", "Helvetica Neue", Arial, sans-serif;
+$primary: #0a6665 !default;
 
 $tabs-link-active-color: $primary;
 $tabs-link-active-border-bottom-color: $primary;
@@ -20,5 +20,5 @@ $hero-darken: $dark !default;
 @import "custom";
 
 .gh-sponsor {
-  color: #ea4aaa;
+    color: #ea4aaa;
 }
