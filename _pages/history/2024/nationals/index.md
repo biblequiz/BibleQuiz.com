@@ -39,7 +39,7 @@ _(need minimum of 5 quizzers for the 1 on 1 tournament)_ -->
 
 ### Scholarships
 
-Over $30,000 in scholarships will be awarded to quizzers at Nationals Finals. Hit the link below to view available scholarships. Deadline to apply is May 25, 2024.
+Over $30,000 in scholarships will be awarded to quizzers at Nationals Finals. Hit the link below to view available scholarships. Deadline to apply is June 14, 2024.
 
 <a href="{% link assets/2024/2024-tbq-nationals-scholarships.pdf %}" class="button is-primary">View Scholarship Information</a>
 
