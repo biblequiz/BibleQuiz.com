@@ -7,19 +7,18 @@ date: "2020-02-11"
 
 ## National Steering Committee
 
-| Name             | Position                                                                                    | Location          |
-| ---------------- | ------------------------------------------------------------------------------------------- | ----------------- |
-| Josh Wellborn    | National Youth Director                                                                     | Springfield, MO   |
-| Austin Westlake  | National Student Discipleship Director                                                      | Springfield, MO   |
-| Bernie Elliot    | National Bible Quiz Coordinator                                                             | West Mifflin, PA  |
-| Rosina Albanese  | On-Ramping Coordinator                                                                      | Lower Burrell, PA |
-| Steve Fowler     | Bible Quiz Coordinator, South Texas District; Alumni Coordinator                            | Baytown, TX       |
-| Dr. Paul Frietag | National Finals Coordinator                                                                 | Minneapolis, MN   |
-| Kevin Gallo      | Bible Quiz Coordinator, Northwest District; Technology Coordinator                          | Bellevue, WA      |
-| Dr. LaJoie Lex   | Materials Coordinator                                                                       | Waxahachie, TX    |
-| Jason Martin     | Assistant Bible Quiz Coordinator, Pennsylvania-Delaware District; Quality Assurance Advisor | Wexford, PA       |
-| John Porter      | Operational Director, National Steering Committee                                           |                   |
-| Bryan Turner     | Coordinator, Bible Quiz Rules Committee                                                     | Tulsa, OK         |
+| Name             | Position                                                                                    | Location         |
+| ---------------- | ------------------------------------------------------------------------------------------- | ---------------- |
+| Josh Wellborn    | National Youth Director                                                                     | Springfield, MO  |
+| Austin Westlake  | National Student Discipleship Director                                                      | Springfield, MO  |
+| Bernie Elliot    | National Bible Quiz Coordinator                                                             | West Mifflin, PA |
+| Steve Fowler     | Bible Quiz Coordinator, South Texas District; Alumni Coordinator                            | Baytown, TX      |
+| Dr. Paul Frietag | National Finals Coordinator                                                                 | Minneapolis, MN  |
+| Kevin Gallo      | Bible Quiz Coordinator, Northwest District; Technology Coordinator                          | Bellevue, WA     |
+| Dr. LaJoie Lex   | Materials Coordinator                                                                       | Waxahachie, TX   |
+| Jason Martin     | Assistant Bible Quiz Coordinator, Pennsylvania-Delaware District; Quality Assurance Advisor | Wexford, PA      |
+| John Porter      | Operational Director, National Steering Committee                                           |                  |
+| Bryan Turner     | Coordinator, Bible Quiz Rules Committee                                                     | Tulsa, OK        |
 
 ## District Coordinators
 

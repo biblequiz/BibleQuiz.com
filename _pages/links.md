@@ -8,10 +8,11 @@ menubar: menu_current_season
 
 ### Featured
 
-* [Official Assemblies of God Bible Quiz Site](https://youth.ag.org/biblequiz)
+-   [Official Assemblies of God Bible Quiz Site](https://youth.ag.org/biblequiz)
 
 ### District
 
-* [New Jersey](https://www.njbq.org)
-* [New York](https://nybiblequiz.com)
-* [Pen-Florida](https://biblequiz.penflorida.org/)
+-   [New Jersey](https://www.njbq.org)
+-   [New York](https://nybiblequiz.com)
+-   [North Texas](https://northtexasbq.com)
+-   [Pen-Florida](https://biblequiz.penflorida.org/)
