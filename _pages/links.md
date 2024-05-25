@@ -15,4 +15,3 @@ menubar: menu_current_season
 -   [New Jersey](https://www.njbq.org)
 -   [New York](https://nybiblequiz.com)
 -   [North Texas](https://northtexasbq.com)
--   [Pen-Florida](https://biblequiz.penflorida.org/)
