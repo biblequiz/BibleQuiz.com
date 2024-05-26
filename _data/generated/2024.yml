@@ -1,5 +1,12 @@
 jbq:
   regionFinals:
+  - name: Southeast Region Finals
+    scope: region
+    scopeLabel: Southeast
+    locationName: Phenix City First
+    locationCity: Phenix City, AL
+    dates: May 3 - 4, 2024
+    scoresLink: /jbq/2024/regionals/Southeast
   - name: Great Lakes Region Finals
     scope: region
     scopeLabel: Great Lakes
@@ -147,13 +154,6 @@ jbq:
     dates: Dec 2, 2023
     scoresLink: /jbq/2024/tournaments/5th Annual Snow Ball Invitational - 2023
   other:
-  - name: 2024 Southeast Regional (JBQ)
-    scope: region
-    scopeLabel: Southeast
-    locationName: Phenix City First
-    locationCity: Phenix City, AL
-    dates: May 3 - 4, 2024
-    scoresLink: /jbq/2024/other/26f46492-5224-4a86-dd49-08dc39fbbb03
   - name: MIJBQ State Finals
     scope: district
     scopeLabel: Michigan
