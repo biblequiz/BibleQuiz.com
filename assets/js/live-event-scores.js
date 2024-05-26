@@ -5,6 +5,7 @@ function initializeLiveEvents() {
     const loadingPane = $("#loadingPane");
     const resultsPane = $("#resultsPane");
     const errorPane = $("#errorPane");
+    const staticEventId = window.static_event_id;
 
     $(document.body).css("overflow-x", "scroll");
 
@@ -211,26 +212,9 @@ function initializeLiveEvents() {
 
     function parseUrl() {
 
-        // Check whether the hash is using the legacy format where the event id is included in the URL.
-        // If it is, the user needs to be redirected to the new format of the page.
-        // TODO: Remove this check once all the users have been removed.
-        const currentHash = window.location.hash;
-        if (currentHash && currentHash.startsWith("#/")) {
-            const urlParts = window.location.hash.split('/');
-            if (urlParts.length == 2) {
-
-                let newUrl = new URL(window.location.href);
-                newUrl.search = `?eventId=${urlParts[1]}`;
-                newUrl.hash = "";
-
-                window.location.href = newUrl.href;
-                return;
-            }
-        }
-
         // Parse the event ID from the URL.
         const url = new URLSearchParams(window.location.search);
-        const parsedEventId = url.get("eventId");
+        const parsedEventId = staticEventId ?? url.get("eventId");
         if (!parsedEventId) {
 
             errorPane.text("No event was specified in the URL.");
@@ -293,8 +277,12 @@ function initializeLiveEvents() {
 
     function changeSelectedTab(newTab, tabView) {
 
+        const eventIdFragment = staticEventId
+            ? ""
+            : `eventId=${eventId}&`;
+
         let url = new URL(window.location.href);
-        url.search = `?eventId=${eventId}&tab=${newTab}`;
+        url.search = `?${eventIdFragment}tab=${newTab}`;
         if (tabView != null) {
             url.search += `&view=${tabView}`;
         }

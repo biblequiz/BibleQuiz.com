@@ -6,6 +6,12 @@
 <script src="{{ site.baseurl }}/assets/js/live-event-scores.js?version=1" type="module"></script>
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/live-event-scores.css">
 
+{% if include.event_id %}
+<script type="text/javascript">
+  window.static_event_id = "{{ include.event_id }}"
+</script>
+{% endif %}
+
 <div class="has-text-centered" id="loadingPane" style="margin-top:30px">
   <p><b>Retrieving Latest Information for Event ...</b></p>
   <progress class="progress is-medium is-primary" max="100">30%</progress>
