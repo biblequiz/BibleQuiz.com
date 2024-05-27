@@ -48,7 +48,7 @@
       <td>{{ event.locationName }}<br><em>{{ event.locationCity }}</em></td>
       <td>
         {% if event.isLive %}
-        <a href="{{ include.liveScoresLink }}/#/{{ event.id }}">
+        <a href="{{ include.liveScoresLink }}/?eventId={{ event.id }}">
           <i class="fas fa-stopwatch"></i>&nbsp;Scores &amp; Schedule
         </a>
         {% else %}
