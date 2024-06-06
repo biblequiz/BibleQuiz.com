@@ -60,9 +60,11 @@ function initializeLiveEvents() {
     const statsTemplate = document.getElementById("statsTemplate");
     const scheduleTemplate = document.getElementById("schedulesTemplate");
     const coordinatorTemplate = document.getElementById("coordinatorTemplate");
+    const qrCodeTemplate = document.getElementById("codeTemplate");
     statsTemplate.remove();
     scheduleTemplate.remove();
     coordinatorTemplate.remove();
+    qrCodeTemplate.remove();
 
     // Setup the modal dialog.
     const teamModalContainer = $("#teamModal");
@@ -141,7 +143,8 @@ function initializeLiveEvents() {
     const ReportType = {
         Schedule: "Schedule",
         Stats: "Stats",
-        Coordinator: "Coordinator"
+        Coordinator: "Coordinator",
+        QRCode: "QRCode"
     };
 
     const ScheduleViewType = {
@@ -201,6 +204,15 @@ function initializeLiveEvents() {
                 }
             });
 
+    const qrCodeTab = $("#qrcodeTab")
+        .click(
+            null,
+            e => {
+                if (ReportType.Coordinator !== currentReportType) {
+                    changeSelectedTab("qrCode", null);
+                }
+            });
+
     // Parse the URL.
     const eventId = parseUrl();
     if (!eventId) {
@@ -240,6 +252,14 @@ function initializeLiveEvents() {
                 currentReportType = ReportType.Coordinator;
                 meetCellTemplate = coordinatorTemplate;
                 coordinatorTab.addClass("is-active");
+                $("#scheduleViewTabs").remove();
+                searchRow.hide();
+                break;
+
+            case "qrCode":
+                currentReportType = ReportType.QRCode;
+                meetCellTemplate = qrCodeTemplate;
+                qrCodeTab.addClass("is-active");
                 $("#scheduleViewTabs").remove();
                 searchRow.hide();
                 break;
@@ -599,6 +619,25 @@ function initializeLiveEvents() {
             if (report.Message) {
                 errorPane.text(report.Message);
                 errorPane.show();
+                loadingPane.hide();
+                return;
+            }
+            else if (ReportType.QRCode == currentReportType) {
+
+                const codeCell = cloneTemplate(meetCellTemplate, "div")
+                    .addClass("meet-cell");
+
+                const url = `https://scores.biblequiz.com/api/v1.0/reports/Events/${eventId}/qrcode?url=${window.location.origin}${window.location.pathname}?eventId=`;
+
+                const qrImage = getByAndRemoveId(codeCell, "qrCodeImage");
+                qrImage.attr("src", url);
+
+                const downloadButton = getByAndRemoveId(codeCell, "downloadButton");
+                downloadButton.attr("href", url);
+                downloadButton.attr("download", `${report.EventName}.png`);
+
+                resultsPane.append(codeCell);
+                resultsPane.show();
                 loadingPane.hide();
                 return;
             }

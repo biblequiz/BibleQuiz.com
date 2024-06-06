@@ -42,6 +42,12 @@
           <span>Overall Status</span>
         </a>
       </li>
+      <li id="qrcodeTab">
+        <a>
+          <span class="icon is-small"><i class="fas fa-qrcode"></i></span>
+          <span>QR Code</span>
+        </a>
+      </li>
     </ul>
   </div>
 
@@ -366,6 +372,17 @@
           </tr>
         </tbody>
       </table>
+    </div>
+  </template>
+
+  <template id="codeTemplate">
+    <div class="has-text-centered">
+      <img id="qrCodeImage" width="500" height="500" />
+    </div>
+    <div class="has-text-centered">
+      <a type="button" id="downloadButton" class="button is-primary">
+        <i class="fas fa-download"></i>&nbsp;Download QR Code Image
+      </a>
     </div>
   </template>
 
