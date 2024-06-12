@@ -12,21 +12,15 @@ menubar: menu_current_season
 
 June 29 - July 5
 
-### Hotel
+### Venue
 
-[Hyatt Regency Dallas](https://www.hyatt.com/en-US/hotel/texas/hyatt-regency-dallas/dfwrd)
+All competition will take place at the [Hyatt Regency in Dallas, TX](https://www.hyatt.com/en-US/hotel/texas/hyatt-regency-dallas/dfwrd).
 
-Hotel for 1-4 in a room $139.00. (Regular rate $201.00). Discounted parking at $10.00 per day. (Regular rate $22.00)
+<!-- Hotel for 1-4 in a room $139.00. (Regular rate $201.00). Discounted parking at $10.00 per day. (Regular rate $22.00) -->
 
-<a href="https://www.hyatt.com/en-US/group-booking/DFWRD/G-BIBL" class="button is-primary">Book your room</a>
+<!-- <a href="https://www.hyatt.com/en-US/group-booking/DFWRD/G-BIBL" class="button is-primary">Book your room</a> -->
 
-NOTE: The deadline to get the discounted rate for the hotel is **Tuesday, May 28, 2024**.
-
-### Registration
-
-All entrants to National Finals must register. This includes all coaches, quizzers, officials, children, guests, and family members.
-
-<a href="https://brushfire.com/agusa/NBQ/575453/" class="button is-primary">Register for Nationals</a>
+<!-- NOTE: The deadline to get the discounted rate for the hotel is **Tuesday, May 28, 2024**. -->
 
 ### Schedule
 
@@ -36,6 +30,12 @@ There will be a 1-on-1 Tournament for those Championship quizzers whose team doe
 _(need minimum of 5 quizzers for the 1 on 1 tournament)_ -->
 
 <a href="{% link _pages/history/2024/nationals/schedule.md %}" class="button is-primary">National Finals Schedule</a>
+
+### Registration
+
+All entrants to National Finals must register. This includes all coaches, quizzers, officials, children, guests, and family members.
+
+<a href="https://brushfire.com/agusa/NBQ/575453/" class="button is-primary">Register for Nationals</a>
 
 ### Scholarships
 
@@ -70,8 +70,8 @@ Included in each set of questions for the "Fun division" there will be 1 Applica
 
 Contact [Patti Smith](mailto:p.s.momof5@gmail.com) with any questions.
 
-### Giving and Donation Opportunities
+<!-- ### Giving and Donation Opportunities
 
 If you'd like to contribute and help make National Finals possible, take a look at the link below to see how you can make a difference.
 
-<a href="{% link _pages/history/2024/nationals/donations.md %}" class="button is-primary">National Finals Giving Opportunities</a>
+<a href="{% link _pages/history/2024/nationals/donations.md %}" class="button is-primary">National Finals Giving Opportunities</a> -->

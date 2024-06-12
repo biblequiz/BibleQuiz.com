@@ -89,7 +89,7 @@ date: "2024-04-17"
 | 11:30 a.m. | Individual Tournament                                                                             |
 | 1:00 p.m.  | Lunch                                                                                             |
 | 1:30 p.m.  | Finish Individual Tournament if needed, if not start Adult Quizzing                               |
-| 7:00 p.m.  | Fellowship night off-site<br />_(more information will be announced later)_                       |
+| 7:30 p.m.  | Fellowship night off-site<br />_(more information will be announced later)_                       |
 
 ## Friday, July 5
 
