@@ -37,6 +37,16 @@ All entrants to National Finals must register. This includes all coaches, quizze
 
 <a href="https://brushfire.com/agusa/NBQ/575453/" class="button is-primary">Register for Nationals</a>
 
+### Discord
+
+Communication at the event will be done through a free app called Discord.
+
+Discord is the platform where you will find the latest announcements and news throughout the week. Plus, it is also a great place to connect with the community by finding rides to/from the airport, setting up a time for fellowship in the lobbies, scheduling your team photos, and much more.
+
+Complete instructions on how to get setup and running with Discord is [available here]({% link _pages/discord.md %}).
+
+<a href="https://discord.gg/NcZecvWa3E" class="button is-primary">Join the Bible Quiz Discord Server</a>
+
 ### Scholarships
 
 Over $30,000 in scholarships will be awarded to quizzers at Nationals Finals. Hit the link below to view available scholarships. Deadline to apply is June 14, 2024.
