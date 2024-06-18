@@ -6,19 +6,21 @@ date: "2023-04-18"
 menubar: menu_current_season
 ---
 
-![]({% link /assets/pages/discord-header.jpg %})
+<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Nationals 2024 Home Page</a>
 
+![]({% link /assets/pages/discord-header.jpg %})
 
 This year at National Finals, we are organizing all communication using an app called [Discord](http://discord.com).
 
 Discord is 100% free to use on computers, phones, and tablets, and there is no advertising.
 
 Here are just a few of the things we will be using Discord for:
-* General announcements, like last-minute room changes
-* Quoting bee and individual tournament room assignments
-* Scheduling officials each day
-* Finding rides to the airport or to a restaurant
-* Finding teammates for Adult Bible Quiz
+
+-   General announcements, like last-minute room changes
+-   Quoting bee and individual tournament room assignments
+-   Scheduling officials each day
+-   Finding rides to the airport or to a restaurant
+-   Finding teammates for Adult Bible Quiz
 
 Best of all, you will have **complete control** over what notifications you get!
 
@@ -30,12 +32,9 @@ Like everything these days, you'll need an account. Here's a link to walk you th
 
 <a href="https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started" class="button is-primary">Create Discord Account</a>
 
-
 ## Join the server
 
-Once you have your account setup, check with your coach for the Discord invite link.
-
-<!-- <a href="https://forms.gle/xfWLZniwpVP2pAEp9" class="button is-primary">Request access</a> -->
+Once you have your account setup, check with your coach for the Discord invite link. You can also access Discord from the official [AG Bible Quiz Facebook Group](https://www.facebook.com/groups/agbiblequiz).
 
 ## Manage notifications
 
@@ -66,3 +65,5 @@ Tap the first option to select your mute settings, or All Messages to get all no
 If you're in the Discord server, go to the channel called **#discord-help** and post your issue, and one of the admins will help you out!
 
 ![]({% link /assets/pages/tech-support-channel-1024x681.jpg %})
+
+<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Nationals 2024 Home Page</a>

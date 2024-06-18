@@ -10,9 +10,11 @@ menubar: menu_current_season
 
 Welcome to National Finals! We're glad to have you celebrate a full week of studying and competing on God's Word in Dallas, TX.
 
-First, we highly recommend reading over the [Frequently Asked Questions]({% link _pages/history/2024/nationals/faq.md %}).
+We highly recommend reading over the [Frequently Asked Questions]({% link _pages/history/2024/nationals/faq.md %}). This will help answer both logistical and competition-related questions.
 
-Second, if you have any questions, reach out to the National TBQ Coordinator—Pastor Bernie Elliot—at [PastorBernie@BibleQuiz.com](mailto:pastorbernie@biblequiz.com).
+Next, we also recommend joining the Discord server for Nationals. Discord is the platform where you will find the latest announcements and news throughout the week. Plus, it is also a great place to connect with the community by finding a ride to/from the airport, setting up a time for fellowship in the lobbies, scheduling your team photos, and much more. Complete instructions on how to get setup and running with Discord is [available here]({% link _pages/discord.md %}).
+
+If you have any questions, reach out to the National TBQ Coordinator—Pastor Bernie Elliot—at [PastorBernie@BibleQuiz.com](mailto:pastorbernie@biblequiz.com).
 
 Here's a quick view of what the worship, quizzing, and fellowship moments looked like at National Finals last year.
 
