@@ -22,7 +22,7 @@ All competition will take place at the [Hyatt Regency in Dallas, TX](https://www
 
 <!-- NOTE: The deadline to get the discounted rate for the hotel is **Tuesday, May 28, 2024**. -->
 
-### Schedule
+### Schedule & Scores
 
 <!-- 40 teams compete over 4 days for the National Chamionship.
 
@@ -30,12 +30,7 @@ There will be a 1-on-1 Tournament for those Championship quizzers whose team doe
 _(need minimum of 5 quizzers for the 1 on 1 tournament)_ -->
 
 <a href="{% link _pages/history/2024/nationals/schedule.md %}" class="button is-primary">National Finals Schedule</a>
-
-### Registration
-
-All entrants to National Finals must register. This includes all coaches, quizzers, officials, children, guests, and family members.
-
-<a href="https://brushfire.com/agusa/NBQ/575453/" class="button is-primary">Register for Nationals</a>
+<a href="{% link _pages/live-events.md %}?eventId=7857ed3d-7ac4-4b4a-1275-08dc791c223e" class="button is-primary">Match Schedule &amp; Live Scores</a>
 
 ### Discord
 
@@ -53,7 +48,7 @@ Over $30,000 in scholarships will be awarded to quizzers at Nationals Finals. Hi
 
 <a href="{% link assets/2024/2024-tbq-nationals-scholarships.pdf %}" class="button is-primary">View Scholarship Information</a>
 
-<a href="https://agyouth.formstack.com/forms/scholarship2024" class="button is-primary">Apply for Scholarships</a>
+<!-- <a href="https://agyouth.formstack.com/forms/scholarship2024" class="button is-primary">Apply for Scholarships</a> -->
 
 ### FAQ
 

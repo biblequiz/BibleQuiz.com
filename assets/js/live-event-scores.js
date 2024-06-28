@@ -709,7 +709,7 @@ function initializeLiveEvents() {
                 }
 
                 getByAndRemoveId(meetCell, "lastUpdated")
-                    .text(`${lastUpdatedDate.getMonth()}/${lastUpdatedDate.getDate()}/${lastUpdatedDate.getFullYear()} ${lastUpdatedHours}:${lastUpdatedMinutes < 10 ? "0" : ""}${lastUpdatedMinutes} ${lastUpdatedAmPm}`);
+                    .text(`${lastUpdatedDate.getMonth() + 1}/${lastUpdatedDate.getDate()}/${lastUpdatedDate.getFullYear()} ${lastUpdatedHours}:${lastUpdatedMinutes < 10 ? "0" : ""}${lastUpdatedMinutes} ${lastUpdatedAmPm}`);
 
                 // Generate the actual report from the data.
                 switch (currentReportType) {
