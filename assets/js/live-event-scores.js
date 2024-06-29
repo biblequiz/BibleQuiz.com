@@ -1502,7 +1502,9 @@ function initializeLiveEvents() {
                                 const individualsRow = cloneTemplate(individualRowTemplate);
 
                                 const teamAndCoachColumn = getByAndRemoveId(individualsRow, "teamAndCoachColumn")
-                                    .append($("<strong />").text(team.Name));
+                                    .append($("<strong />").text(team.Name))
+                                    .append(" &#150; ")
+                                    .append($("<i />").text(team.ChurchName));
                                 if (team.CoachName) {
                                     teamAndCoachColumn
                                         .append("<br />")
