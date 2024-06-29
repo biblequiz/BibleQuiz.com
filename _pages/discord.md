@@ -34,7 +34,9 @@ Like everything these days, you'll need an account. Here's a link to walk you th
 
 ## Join the server
 
-Once you have your account setup, check with your coach for the Discord invite link. You can also access Discord from the official [AG Bible Quiz Facebook Group](https://www.facebook.com/groups/agbiblequiz).
+Once you have your account setup, hit this link
+
+<a href="https://discord.gg/URCCZpp9q5" class="button is-primary">Join the Bible Quiz Discord Server</a>
 
 ## Manage notifications
 
