@@ -42,11 +42,11 @@ Complete instructions on how to get setup and running with Discord is [available
 
 <a href="https://discord.gg/URCCZpp9q5" class="button is-primary">Join the Bible Quiz Discord Server</a>
 
-### Scholarships
+<!-- ### Scholarships
 
 Over $30,000 in scholarships will be awarded to quizzers at Nationals Finals. Hit the link below to view available scholarships. Deadline to apply is June 14, 2024.
 
-<a href="{% link assets/2024/2024-tbq-nationals-scholarships.pdf %}" class="button is-primary">View Scholarship Information</a>
+<a href="{% link assets/2024/2024-tbq-nationals-scholarships.pdf %}" class="button is-primary">View Scholarship Information</a> -->
 
 <!-- <a href="https://agyouth.formstack.com/forms/scholarship2024" class="button is-primary">Apply for Scholarships</a> -->
 
