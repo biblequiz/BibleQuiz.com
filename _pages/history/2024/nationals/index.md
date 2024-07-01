@@ -56,6 +56,10 @@ Find answers to the most commonly asked questions.
 
 <a href="{% link _pages/history/2024/nationals/faq.md %}" class="button is-primary">National Finals FAQ</a>
 
+### Tiebreakers
+
+<a href="{% link assets/2023/2023 National Finals Tie Breaker Rules.pdf %}" class="button is-primary">Download tiebreaking rules</a>
+
 ### First time at National Finals?
 
 Welcome! We look forward to enjoying a week studying and competing over Romans and James.
