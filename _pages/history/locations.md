@@ -8,6 +8,7 @@ menubar: menu_history
 
 | Year | Location                            | City                       |
 | ---- | ----------------------------------- | -------------------------- |
+| 2025 | Renaissance St. Louis Hotel Airport | St. Louis, MO              |
 | 2024 | Hyatt Regency Dallas                | Dallas, TX                 |
 | 2023 | Renaissance St. Louis Hotel Airport | St. Louis, MO              |
 | 2022 | Renaissance Palm Springs            | Palm Springs, CA           |
