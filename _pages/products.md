@@ -17,7 +17,7 @@ Download free practice questions for your XP5 team, courtesy of Karl Dawson.
 
 ## My Healthy Church
 
-Get starter bundles, scripture portions, and valuable study resources from My Healthy Church--the official product store from the Assemblies of God.
+Buy official scripture portions from the official product store of the Assemblies of God.
 
 <a href="https://myhealthychurch.com/store/startcat.cfm?cat=YMBIBQUIZ&mastercat=&path=YMBIBQUIZ" class="button is-primary">Go Now</a>
 

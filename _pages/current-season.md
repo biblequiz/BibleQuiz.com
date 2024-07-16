@@ -8,9 +8,9 @@ menubar: menu_current_season
 
 Use the menu to find information on the 2024-2025 Bible Quiz season covering Acts.
 
-## Updated Rules
+<!-- ## Updated Rules
 
-The rules for the 2024-2025 season over Acts will be posted to the website in August.
+The rules for the 2024-2025 season over Acts will be posted to the website in August. -->
 
 <!-- The rules for the 2023-2024 season are now available. You can see [the summary of changes on the blog]({% link _posts/2023/2023-07-25-updated-rules.md %}).
 

@@ -22,9 +22,11 @@ The fastest way to learn about Bible Quiz and a must-have for new teams at their
 
 ### Official Rules
 
-For use in all Bible Quiz matches, all year long.
+The rules for the 2024-2025 season over Acts will be posted here in August.
 
-<a href="{% link assets/2024/23-24 Bible Quiz Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a>
+<!-- For use in all Bible Quiz matches, all year long. -->
+
+<!-- <a href="{% link assets/2024/23-24 Bible Quiz Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a> -->
 
 <!-- To see a comparison between the updated rules and the rules from last season: -->
 
@@ -40,11 +42,11 @@ Only 10 pages long, these rules are great for getting started in Bible Quiz! All
 
 A few minor rule changes for XP5 competitions. All rules from the full set of Official Rules above are still in effect.
 
-<a href="{% link assets/2024/XP5-Match-Structure.pdf %}" class="button is-primary">Download XP5 Match Structure</a>
+<a href="{% link assets/2025/24-25_XP5-Match-Structure.pdf %}" class="button is-primary">Download XP5 Match Structure</a>
 
 ---
 
-# Award Guidelines and Forms
+<!-- # Award Guidelines and Forms
 
 ![]({% link assets/2024/Banner NMA.jpg %})
 
@@ -68,11 +70,11 @@ Once you've earned the NMA and/or the MMA, fill out the following form and send 
 
 <a href="{% link assets/2024/Memorization-Award-Form.doc %}" class="button is-primary">Memorization Award Form</a>
 
-<br /><br />
+<br /><br /> -->
 
-![]({% link assets/2024/Banner DA.jpg %})
+### Discipleship Award Guidelines
 
-<a href="{% link assets/2024/Discipleship-Award-Guidelines.pdf %}" class="button is-primary">Discipleship Award Guidelines</a>
+<a href="{% link assets/2025/24-25_Discipleship-Award-Guidelines.pdf %}" class="button is-primary">Discipleship Award Guidelines</a>
 
 ---
 
@@ -99,7 +101,7 @@ A free spreadsheet for tracking scores in a match.
 
 # Graphics
 
-### Scripture Portion Artwork
+<!-- ### Scripture Portion Artwork
 
 <img src="{% link assets/2024/23-24_romans-and-james-scripture-portion-cover.jpg %}" width="300">
 
@@ -109,7 +111,7 @@ A free spreadsheet for tracking scores in a match.
 
 ![]({% link assets/2024/Banner Empty.jpg %})
 
-<a href="{% link assets/2024/Banner Empty.jpg %}" class="button is-primary">Download Banner</a>
+<a href="{% link assets/2024/Banner Empty.jpg %}" class="button is-primary">Download Banner</a> -->
 
 ### Bible Quiz Logo
 
