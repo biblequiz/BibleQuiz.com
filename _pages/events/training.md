@@ -6,7 +6,7 @@ menubar: menu_current_season
 tabs: tabs_events
 ---
 
-**Pen-Florida BQ Training (Both Teen & JBQ)**\
+**Pen-Florida BQ Training**\
 July 27th, 2024\
 Oxford, FL\
 _Contact_: Dan Anderson at [sejbqdan@gmail.com](mailto:sejbqdan@gmail.com)
