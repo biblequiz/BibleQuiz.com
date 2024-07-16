@@ -7,10 +7,12 @@ menubar: menu_history
 ---
 
 ## East vs West
+
 Top quizzers from the Northeast, Southeast, Gulf, and Great Lakes regions form the East Team, while the Northwest, North Central, Southwest, and South Central regions comprise the West Team.
 
 | Year | Winner               | Final Score |
 | ---- | -------------------- | ----------- |
+| 2024 | West                 | 115-50      |
 | 2023 | East                 | 145-40      |
 | 2022 | East                 | 130-125     |
 | 2021 | East                 | 95-80       |
@@ -37,6 +39,7 @@ Top quizzers from the Northeast, Southeast, Gulf, and Great Lakes regions form t
 | 1999 | West                 | 190-70      |
 
 ## Boys vs Girls
+
 Top quizzers from the Championship and Challenger divisions competed in the Boys/Girls match.
 
 | Year   | Winner  | Final Score |

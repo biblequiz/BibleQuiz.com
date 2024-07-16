@@ -61,7 +61,7 @@ Starting in 2000, Bible Quiz National Finals has consisted of 40 teams, typicall
 
 * ***2000 - 2006***: 32 teams made up of the second, third, fourth, and fifth place teams from Regionals competed in 4 preliminary groups. The top three of each group joined the Regional champions in the Championship Division.
 * ***2007+***: 40 teams competed in 5 preliminary groups on Monday with the top four from each group advancing to the Championship Division.
-* ***2021***: Due to only 31 teams attending Nationals (2020 Nationals was canceled due to COVID-19), all teams participated in a single, 31 team round robin with each team receiving a bye.
+* ***2022***: Due to only 31 teams attending Nationals, all teams participated in a single, 31 team round robin with each team receiving a bye.
 
 **Noteworthy Rule Changes**:
 * In 2006, quizzing out only requires 5 correct answers with a twenty point bonus, making it possible for a fourth quizzer to quiz-out. This decreased a perfect score to 150 and increased the maximum team score from 380 to 430 points.

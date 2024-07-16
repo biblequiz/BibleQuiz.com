@@ -13,6 +13,10 @@ columns:
 - name: City
 - name: Region
 rows:
+- Year: 2024
+  Team: Radiant Life Church
+  City: Dublin, OH
+  Region: Great Lakes
 - Year: 2023
   Team: Trinity Church "One"
   City: Cedar Hill, TX

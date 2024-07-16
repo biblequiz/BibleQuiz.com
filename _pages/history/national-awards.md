@@ -10,6 +10,7 @@ menubar: menu_history
 
 | Year | Individuals      | Material                                                | Time & Mistake Restrictions        |
 | ---- | ---------------- | ------------------------------------------------------- | ---------------------------------- |
+| 2024 | 39 quizzers      | Romans & James                                          | 55 minutes, 11 mistakes            |
 | 2023 | 32 quizzers      | Thessalonians, Timothy, Titus, 1, 2, 3 John             | 45 minutes, 5 mistakes             |
 | 2022 | 16 quizzers      | Gospel of Matthew                                       | 1 hour and 45 minutes, 10 mistakes |
 | 2021 | 37 quizzers      | Hebrews, 1 & 2 Peter, Jude                              | 45 minutes, 5 mistakes             |
@@ -34,6 +35,7 @@ menubar: menu_history
 
 | Year | Individuals        | Material                                                |
 | ---- | ------------------ | ------------------------------------------------------- |
+| 2024 | 175 quizzers (2C)  | Romans & James                                          |
 | 2023 | 109 quizzers       | Thessalonians, Timothy, Titus, 1, 2, 3 John             |
 | 2022 | 95 quizzers        | Gospel of Matthew                                       |
 | 2021 | 101 quizzers (2c)  | Hebrews, 1 & 2 Peter, Jude                              |
@@ -59,10 +61,11 @@ menubar: menu_history
 | 2001 | 131 quizzers       | Luke                                                    |
 | 2000 | 205 quizzers       | Galatians, Ephesians, Philippians, Colossians, Philemon |
 
-## Discipleship Memorization Award
+## Discipleship Award
 
 | Year | Individuals     | Material                                                |
 | ---- | --------------- | ------------------------------------------------------- |
+| 2024 | 72 Individuals  | Romans & James                                          |
 | 2023 | 69 Individuals  | Thessalonians, Timothy, Titus, 1,2,3 John               |
 | 2022 | 43 Individuals  | Gospel of Matthew                                       |
 | 2021 | 40 Individuals  | Hebrews, 1 & 2 Peter, Jude                              |

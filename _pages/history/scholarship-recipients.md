@@ -10,6 +10,9 @@ menubar: menu_history
 
 | Year | Quizzer           | Church                     | City               |
 | ---- | ----------------- | -------------------------- | ------------------ |
+| 2024 | Camden Haney      | Trinity Church             | Cedar Hill, TX     |
+| 2024 | Kaitlyn Ramsey    | Hope Church                | Springfield, MO    |
+| 2024 | Courtney Ellwein  | Valley Assembly            | Spokane, WA        |
 | 2023 | Cole Abbott       | New Life Church            | Sparta, WI         |
 | 2022 | Josiah Laakkonen  | First AG                   | Lexington, KY      |
 | 2022 | Emma Schoessow    | Crosspoint AG              | Portage, WI        |

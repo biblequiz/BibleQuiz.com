@@ -19,6 +19,12 @@ columns:
   tableClass: "has-text-right"
   cardPrefix: "<i>QO</i>: "
 rows:
+- Year: 2024
+  Quizzer: Jayden Nimako
+  Church: Radiant Life Church
+  City: Dublin, OH
+  Avg: 118.9
+  QO: 16
 - Year: 2023
   Quizzer: Samuel Jebaraj
   Church: Bethel Church

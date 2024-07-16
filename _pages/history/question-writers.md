@@ -14,6 +14,10 @@ columns:
 - name: MSQ/Novice
   cardPrefix: "<i>MSQ/N:</i> "
 rows:
+- Season: 2025
+  Material: Romans and James
+  A League: Danielle Mori
+  MSQ/Novice: Jon Galliers
 - Season: 2024
   Material: Romans and James
   A League: Jesse Czubkowski

@@ -6,13 +6,23 @@ date: "2016-05-02"
 menubar: menu_current_season
 ---
 
+## Free practice questions
+
+Download free practice questions for your XP5 team, courtesy of Karl Dawson.
+
+-   [Acts chapter 2]({% link assets/2025/XP5-Chapter-2.pdf %})
+-   [Acts chapter 4]({% link assets/2025/XP5-Chapter-4.pdf %})
+-   [Acts chapter 5]({% link assets/2025/XP5-Chapter-5.pdf %})
+-   [Acts chapter 9]({% link assets/2025/XP5-Chapter-9.pdf %})
+
 ## My Healthy Church
 
-Get starter bundles, scripture portions, and valuable study resources from My Healthy Church--the official product store from the Assemblies of God.
+Buy official scripture portions from the official product store of the Assemblies of God.
 
 <a href="https://myhealthychurch.com/store/startcat.cfm?cat=YMBIBQUIZ&mastercat=&path=YMBIBQUIZ" class="button is-primary">Go Now</a>
 
 ---
+
 ## My Healthy Church Digital
 
 Get official questions packs and study apps from My Healthy Church Digital.
@@ -30,6 +40,7 @@ A myriad of helpful products for AG Bible Quiz! Recently popular for selling pap
 ---
 
 ## E-Score
+
 ![]({% link assets/pages/E-Score-1080-300x169.jpg %})
 
 The powerful, easy to use Bible Quiz scoresheet for Microsoft Excel. One license covers an entire church forever! Available for digital download.
@@ -39,6 +50,7 @@ The powerful, easy to use Bible Quiz scoresheet for Microsoft Excel. One license
 ---
 
 ## QuizEquipment.com
+
 ![]({% link assets/pages/kirkman.jpg %})
 
 Steve Kirkman's buzzer set is the most popular set used in AG quizzing.
@@ -46,5 +58,3 @@ Steve Kirkman's buzzer set is the most popular set used in AG quizzing.
 <a href="http://www.quizequipment.com/quizbox_pdf/ag_info.pdf" class="button is-primary">Browse Catalog</a>
 
 ---
-
-

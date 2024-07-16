@@ -13,6 +13,10 @@ columns:
 - name: Church
 - name: City
 rows:
+- Year: 2024
+  Quizzer: Jaydin Nimako
+  Church: Radiant Life Church
+  City: Dublin, OH
 - Year: 2023
   Quizzer: Leslie Cowan
   Church: Atlanta Indian Prayer Fellowship

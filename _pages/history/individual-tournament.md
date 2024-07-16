@@ -12,6 +12,10 @@ columns:
 - name: Church
 - name: City
 rows:
+- Year: 2024
+  Quizzer: Nathan Nimako
+  Church: Radiant Life Church
+  City: Dublin, OH
 - Year: 2023
   Quizzer: Andrew Pickrell
   Church: Trinity Church
