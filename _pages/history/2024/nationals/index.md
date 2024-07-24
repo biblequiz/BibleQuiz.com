@@ -40,7 +40,7 @@ Discord is the platform where you will find the latest announcements and news th
 
 Complete instructions on how to get setup and running with Discord is [available here]({% link _pages/discord.md %}).
 
-<a href="https://discord.gg/URCCZpp9q5" class="button is-primary">Join the Bible Quiz Discord Server</a>
+<!-- <a href="https://discord.gg/URCCZpp9q5" class="button is-primary">Join the Bible Quiz Discord Server</a> -->
 
 <!-- ### Scholarships
 
