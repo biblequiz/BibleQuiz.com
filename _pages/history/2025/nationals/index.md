@@ -2,7 +2,7 @@
 layout: page
 permalink: /history/2025/nationals/
 title: "2025 TBQ National Finals"
-date: "2023-11-09"
+date: "2024-07-06"
 menubar: menu_current_season
 ---
 

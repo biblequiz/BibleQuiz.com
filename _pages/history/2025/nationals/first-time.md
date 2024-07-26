@@ -1,14 +1,16 @@
 ---
 layout: page
-permalink: /history/2024/nationals/first-time
-title: "2024 National Finals - First Time"
-date: "2024-04-07"
+permalink: /history/2025/nationals/first-time
+title: "2025 National Finals - First Time"
+date: "2024-07-26"
 menubar: menu_current_season
 ---
 
-<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Back to National Finals Home</a>
+<a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">Back to National Finals Home</a>
 
-Welcome to National Finals! We're glad to have you celebrate a full week of studying and competing on God's Word in Dallas, TX.
+More information will be added closer to National Finals.
+
+<!-- Welcome to National Finals! We're glad to have you celebrate a full week of studying and competing on God's Word in Dallas, TX.
 
 We highly recommend reading over the [Frequently Asked Questions]({% link _pages/history/2024/nationals/faq.md %}). This will help answer both logistical and competition-related questions.
 
@@ -22,7 +24,7 @@ Here's a quick view of what the worship, quizzing, and fellowship moments looked
 
 ### Best advice
 
-We asked people in [the official Facebook group](https://www.facebook.com/groups/agbiblequiz/posts/7232432523460542/), what is your best advice for teams experiencing Nationals for the first time? Here are a few of the top responses:
+We asked people in [the official Facebook group](https://www.facebook.com/groups/agbiblequiz/posts/7232432523460542/), what is your best advice for teams experiencing Nationals for the first time? Here are a few of the top responses: -->
 
 > Be in the know with commincations....Facebook, Discord, etc. Meet as many people as possible and ask lots of questions. Walk away with many friends, enjoy every moment, and keep Jesus the main thing.
 
@@ -44,4 +46,4 @@ We asked people in [the official Facebook group](https://www.facebook.com/groups
 
 > Look for an experience with the Lord!
 
-<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Back to National Finals Home</a>
+<a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">Back to National Finals Home</a>

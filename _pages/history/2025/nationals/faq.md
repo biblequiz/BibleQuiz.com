@@ -1,14 +1,16 @@
 ---
 layout: page
-permalink: /history/2024/nationals/faq
-title: "2024 National Finals - FAQ"
-date: "2024-03-21"
+permalink: /history/2025/nationals/faq
+title: "2025 National Finals - FAQ"
+date: "2024-07-26"
 menubar: menu_current_season
 ---
 
-<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Back to National Finals Home</a>
+<a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">Back to National Finals Home</a>
 
-### What is available if I am flying to Dallas?
+More information will be added closer to the event.
+
+<!-- ### What is available if I am flying to Dallas?
 
 There are two major airports in the Dallas-Fort Worth metroplex. [Dallas Love Field \(DAL\)](https://maps.app.goo.gl/yDUgzxnx6xjMq9xDA) is close to the Hyatt Regency and is a hub for Southwest Airlines. [Dallas Fort Worth International Airport \(DFW\)](https://maps.app.goo.gl/7t26htsKBrAiZk3F6) is one of the largest airports in the world, a hub for American Airlines, and is [about a 20-30 minute drive](https://maps.app.goo.gl/3eBzcSyChbV5QR5PA).
 
@@ -66,6 +68,6 @@ Absolutely. Those that would like to share a 5- to 7-minute devotion, sing, play
 
 ### What’s new in Adult Quizzing this year?
 
-After all the Teen Bible quizzing is completed, on Thursday we have traditionally done adult quizzing. This year the Veteran Division will quiz over James chapters 1-5. The Fun/Novice Division will quiz over James chapters 1-2. The quizzers will be the quizmasters and judges. Seniors who competed at their last National Finals will have first choice for a position to officiate. Before we do the Adult quizzing, we will do an Adult Quoting Bee over James Chapter 1. There will be two groups. Ages 18-39 and the other group will be 40 years old and up. The registration for Adult Quiz will be on site and 100% of the fees goes into the BQ Scholarship Fund.
+After all the Teen Bible quizzing is completed, on Thursday we have traditionally done adult quizzing. This year the Veteran Division will quiz over James chapters 1-5. The Fun/Novice Division will quiz over James chapters 1-2. The quizzers will be the quizmasters and judges. Seniors who competed at their last National Finals will have first choice for a position to officiate. Before we do the Adult quizzing, we will do an Adult Quoting Bee over James Chapter 1. There will be two groups. Ages 18-39 and the other group will be 40 years old and up. The registration for Adult Quiz will be on site and 100% of the fees goes into the BQ Scholarship Fund. -->
 
-<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Back to National Finals Home</a>
+<a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">Back to National Finals Home</a>

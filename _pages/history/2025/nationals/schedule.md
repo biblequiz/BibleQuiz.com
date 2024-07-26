@@ -1,12 +1,15 @@
 ---
 layout: page
-permalink: /history/2024/nationals/schedule
-title: "2024 National Finals Schedule"
-date: "2024-04-17"
+permalink: /history/2025/nationals/schedule
+title: "2025 National Finals Schedule"
+date: "2025-04-17"
 ---
 
-<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Nationals 2024 Home Page</a>
+<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Nationals 2025 Home Page</a>
 
+More information will be added closer to National Finals.
+
+<!--
 ## Saturday, June 29
 
 | Time           | Description                                                                                                   |
