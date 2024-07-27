@@ -44,6 +44,10 @@ A few minor rule changes for XP5 competitions. All rules from the full set of Of
 
 <a href="{% link assets/2025/24-25_XP5-Match-Structure.pdf %}" class="button is-primary">Download XP5 Match Structure</a>
 
+### Tiebreakers
+
+<a href="{% link assets/2023/2023 National Finals Tie Breaker Rules.pdf %}" class="button is-primary">Download tiebreaking rules</a>
+
 ---
 
 <!-- # Award Guidelines and Forms
