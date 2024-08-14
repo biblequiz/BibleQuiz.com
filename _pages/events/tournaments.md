@@ -7,7 +7,7 @@ tabs: tabs_events
 ---
 
 **Liberty Classic**\
-September 28, 2024\
+September 21, 2024\
 _Location_: Wyckoff, NJ\
 _Contact_: Jesse Czubkowski at [jesseczubkowski@gmail.com](mailto:jesseczubkowski@gmail.com)
 
