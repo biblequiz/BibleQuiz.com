@@ -6,15 +6,6 @@ date: "2016-05-02"
 menubar: menu_current_season
 ---
 
-## Free practice questions
-
-Download free practice questions for your XP5 team, courtesy of Karl Dawson.
-
--   [Acts chapter 2]({% link assets/2025/XP5-Chapter-2.pdf %})
--   [Acts chapter 4]({% link assets/2025/XP5-Chapter-4.pdf %})
--   [Acts chapter 5]({% link assets/2025/XP5-Chapter-5.pdf %})
--   [Acts chapter 9]({% link assets/2025/XP5-Chapter-9.pdf %})
-
 ## My Healthy Church
 
 Buy official scripture portions from the official product store of the Assemblies of God.

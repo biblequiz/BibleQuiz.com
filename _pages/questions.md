@@ -18,6 +18,17 @@ Recommended for all teams competing at League Meets.
 
 <a href="{% link assets/2025/24-25_Acts-application-questions.doc %}" class="button is-primary">Application Questions (.doc)</a>
 
+--
+
+## Practice questions by Karl Dawson — FREE
+
+Download free practice questions for your XP5 team, courtesy of former quizzer Karl Dawson.
+
+-   [Acts chapter 2]({% link assets/2025/XP5-Chapter-2.pdf %})
+-   [Acts chapter 4]({% link assets/2025/XP5-Chapter-4.pdf %})
+-   [Acts chapter 5]({% link assets/2025/XP5-Chapter-5.pdf %})
+-   [Acts chapter 9]({% link assets/2025/XP5-Chapter-9.pdf %})
+
 ---
 
 ## Digital Bundle - $120
