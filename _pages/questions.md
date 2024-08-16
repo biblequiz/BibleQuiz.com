@@ -66,13 +66,17 @@ Duplication allowed within a single church.
 
 ---
 
-## Championship Practice Questions - $50
+## Championship Practice Questions by Danielle Mori - $50
 
-50 sets of practice questions for Championship quizzers.
-
-Questions are written by the official Championship division writer.
+50 sets of practice questions for Championship quizzers written by the official Championship division writer.
 
 <a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2024-2025/A_League_Practice_Sets_Acts_2024_2025" class="button is-primary">Go Now</a>
+
+---
+
+## Championship Practice Questions by Karl Dawson - $50
+
+Nationals coach and quizzer Karl Dawson is selling 53 Championship League-level sets for $50. Contact him at [karltdawson@mac.com](mailto:karltdawson@mac.com) to place your order.
 
 ---
 
