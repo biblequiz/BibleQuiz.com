@@ -107,8 +107,6 @@ A free spreadsheet for tracking scores in a match.
 
 <a href="{% link assets/2025/24-25_Acts Artwork.png %}" class="button is-primary">Download Scripture Portion Artwork</a>
 
-<a href="{% link assets/2024/Banner Empty.jpg %}" class="button is-primary">Download Banner</a> -->
-
 ### Bible Quiz Logo
 
 <img src="{% link assets/pages/biblequizlogo-805x1024.jpg %}" width="300">
