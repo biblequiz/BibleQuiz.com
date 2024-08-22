@@ -24,7 +24,7 @@ The fastest way to learn about Bible Quiz and a must-have for new teams at their
 
 <!-- The rules for the 2024-2025 season over Acts will be posted here in August. -->
 
-For use in all Bible Quiz matches, all year long. -->
+For use in all Bible Quiz matches, all year long.
 
 <a href="{% link assets/2025/24-25 Bible Quiz Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a>
 
