@@ -22,15 +22,11 @@ The fastest way to learn about Bible Quiz and a must-have for new teams at their
 
 ### Official Rules
 
-The rules for the 2024-2025 season over Acts will be posted here in August.
+<!-- The rules for the 2024-2025 season over Acts will be posted here in August. -->
 
-<!-- For use in all Bible Quiz matches, all year long. -->
+For use in all Bible Quiz matches, all year long. -->
 
-<!-- <a href="{% link assets/2024/23-24 Bible Quiz Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a> -->
-
-<!-- To see a comparison between the updated rules and the rules from last season: -->
-
-<!-- <a href="{% link assets/2024/23-24 Bible Quiz Rules Summary.pdf %}" class="button is-primary">Download summary of rule changes (PDF)</a> <a href="{% link _posts/2023/2023-07-25-updated-rules.md %}" class="button is-primary">Read explanation of changes</a> -->
+<a href="{% link assets/2025/24-25 Bible Quiz Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a>
 
 ### Simplified Rules
 
@@ -105,15 +101,11 @@ A free spreadsheet for tracking scores in a match.
 
 # Graphics
 
-<!-- ### Scripture Portion Artwork
+<!-- <!-- ### Scripture Portion Artwork -->
 
-<img src="{% link assets/2024/23-24_romans-and-james-scripture-portion-cover.jpg %}" width="300">
+<img src="{% link assets/2025/24-25_Acts Artwork.png %}" width="300">
 
-<a href="{% link assets/2024/23-24_romans-and-james-scripture-portion-cover.jpg %}" class="button is-primary">Download Scripture Portion Artwork</a>
-
-### Banner
-
-![]({% link assets/2024/Banner Empty.jpg %})
+<a href="{% link assets/2025/24-25_Acts Artwork.png %}" class="button is-primary">Download Scripture Portion Artwork</a>
 
 <a href="{% link assets/2024/Banner Empty.jpg %}" class="button is-primary">Download Banner</a> -->
 

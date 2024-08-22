@@ -8,7 +8,7 @@ tabs: tabs_events
 
 **Liberty Classic**\
 September 21, 2024\
-_Location_: Wyckoff, NJ\
+_Location_: Metuchen, NJ\
 _Contact_: Jesse Czubkowski at [jesseczubkowski@gmail.com](mailto:jesseczubkowski@gmail.com)
 
 **40th Annual Gold Cup**\

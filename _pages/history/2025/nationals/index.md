@@ -10,11 +10,13 @@ menubar: menu_current_season
 
 ### Date
 
-June 28 - July 4
+June 28, 2025 - July 4, 2025
 
 ### Venue
 
-All competition will take place at the [Renaissance St. Louis Airport Hotel](https://www.marriott.com/en-us/hotels/stlsa-renaissance-st-louis-airport-hotel/overview/).
+All competition will take place at the [Renaissance St. Louis Airport Hotel](https://www.marriott.com/en-us/hotels/stlsa-renaissance-st-louis-airport-hotel/overview/). Free parking all week.
+
+Hotel registration opens Monday, April 28, 2025 for $119/night.
 
 <!-- Hotel for 1-4 in a room $139.00. (Regular rate $201.00). Discounted parking at $10.00 per day. (Regular rate $22.00) -->
 
