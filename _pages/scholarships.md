@@ -21,17 +21,31 @@ For those who have earned scholarships from the Assemblies of God (e.g. placing 
 
 ---
 
-<a href="https://sagu.edu">
-	<img src="{% link assets/scholarships/sagu-logo-for-light-bg.png %}" alt="" style="max-width:60%;">
+<a href="https://nelson.edu">
+	<img src="{% link assets/scholarships/nelson-university.png %}" alt="" style="max-width:60%;">
 </a>
 
-_[Dallas/Fort Worth Metroplex](https://maps.app.goo.gl/kXXrn1aRxLC9R2wq6) • [sagu.edu](https://sagu.edu)_
+_[Dallas/Fort Worth Metroplex](https://maps.app.goo.gl/kXXrn1aRxLC9R2wq6) • [nelson.edu](https://nelson.edu)_
 
-Southwestern Assemblies of God University was founded in 1927 and is part of an international network of Assemblies of God colleges and universities.
+Nelson University (formerly Southwestern Assemblies of God University or SAGU) was founded in 1927 and is part of an international network of Assemblies of God colleges and universities.
 
-SAGU offers a generous amount of Bible Quiz scholarships, including 50% off tuition for one year each time a quizzer places in the Top 5 individually at National Finals.
+Nelson offers a generous amount of Bible Quiz scholarships, including 50% off tuition for one year each time a quizzer places in the Top 5 individually at National Finals.
 
 <a href="https://www.sagu.edu/financial-aid/assemblies-of-god-ministries-scholarship/" class="button is-primary">SAGU Bible Quiz Scholarship Information</a>
+
+---
+
+<a href="https://www.evangel.edu">
+	<img src="{% link assets/scholarships/evangel-university-logo.png %}" alt="" style="max-width:60%;">
+</a>
+
+_[Springfield, MO](https://maps.app.goo.gl/2vepeXcQDwmnMkQ16) • [evangel.edu](https://www.evangel.edu)_
+
+Evangel University was founded in 1955 and is part of an international network of Assemblies of God colleges and universities.
+
+Scholarships are available for earing the National Memorization Award or for quizzers placing in the top 5 individually at National Finals.
+
+## <a href="https://www.evangel.edu/financial-aid-and-scholarships/undergraduate-scholarships-grants/" class="button is-primary">Evangel Bible Quiz Scholarship Information</a>
 
 ---
 
@@ -46,20 +60,6 @@ The University of Valley Forge was founded in 1939 and is part of an internation
 UVF offers scholarships for both earning the National Memorization Award and for placing as a team or individual at District, Regional, or National Finals.
 
 <a href="{% link assets/scholarships/UVF_BibleQuiz.pdf %}" class="button is-primary">UVF Bible Quiz Scholarship Information</a>
-
----
-
-<a href="https://www.evangel.edu">
-	<img src="{% link assets/scholarships/evangel-university-logo.png %}" alt="" style="max-width:60%;">
-</a>
-
-_[Springfield, MO](https://maps.app.goo.gl/2vepeXcQDwmnMkQ16) • [evangel.edu](https://www.evangel.edu)_
-
-Evangel University was founded in 1955 and is part of an international network of Assemblies of God colleges and universities.
-
-Scholarships are available for earing the National Memorization Award or for quizzers placing in the top 5 individually at National Finals.
-
-<a href="https://www.evangel.edu/financial-aid-and-scholarships/undergraduate-scholarships-grants/" class="button is-primary">Evangel Bible Quiz Scholarship Information</a>
 
 ---
 
