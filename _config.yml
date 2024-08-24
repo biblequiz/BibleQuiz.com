@@ -16,6 +16,11 @@ avatar: /favicon.png
 # Theme for the site.
 remote_theme: chrisrhymes/bulma-clean-theme
 
+footer-links:
+  email: "hello@biblequiz.com"
+  facebook: "groups/agbiblequiz"
+  youtube: "@BibleQuiz-AG"
+
 # Disqus Comments
 disqus: # biblequiz
   shortname: # biblequiz
@@ -88,3 +93,4 @@ sass:
     # - node_modules
 
 hide_share_buttons: true
+
