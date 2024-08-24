@@ -15,7 +15,7 @@ Please note that scholarship details are subject to frequent updates. If you hav
 	<img src="{% link assets/images/ag-youth-logo.png %}" alt="" style="max-width:60%;">
 </a>
 
-For those who have earned scholarships from the Assemblies of God (e.g. placing in the top 3 at National Finals), you can request your scholarship money at the link below.
+For those who have earned scholarships at National Finals, you can request your scholarship money at the link below.
 
 <a href="https://agyouth.formstack.com/forms/ag_youth_ministries_scholarship_form" class="button is-primary" target="blank">AG General Scholarship Funds Request Form</a>
 
@@ -31,7 +31,7 @@ Nelson University (formerly Southwestern Assemblies of God University or SAGU) w
 
 Nelson offers a generous amount of Bible Quiz scholarships, including 50% off tuition for one year each time a quizzer places in the Top 5 individually at National Finals.
 
-<a href="https://www.sagu.edu/financial-aid/assemblies-of-god-ministries-scholarship/" class="button is-primary">SAGU Bible Quiz Scholarship Information</a>
+<a href="https://www.sagu.edu/financial-aid/assemblies-of-god-ministries-scholarship/" class="button is-primary">Nelson Bible Quiz Scholarship Information</a>
 
 ---
 
