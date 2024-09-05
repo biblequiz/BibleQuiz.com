@@ -8,16 +8,16 @@ menubar: menu_current_season
 
 Use the menu to find information on the 2024-2025 Bible Quiz season covering Acts.
 
-<!-- ## Updated Rules
+## Scripture portion
 
-The rules for the 2024-2025 season over Acts will be posted to the website in August. -->
+You can find and buy scripture portions from the [Products page]({% link _pages/products.md %}).
 
-<!-- The rules for the 2023-2024 season are now available. You can see [the summary of changes on the blog]({% link _posts/2023/2023-07-25-updated-rules.md %}).
+Note that scripture portions purchased from My Healthy Church have additions and corrections.
 
-<a href="{% link assets/2024/23-24 Bible Quiz Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a> <a href="{% link _posts/2023/2023-07-25-updated-rules.md %}" class="button is-primary">Read summary of changes</a> -->
+<a href="{% link _pages/history/2025/scripture-portion.md %}" class="button is-primary">Scripture Portion Updates</a>
 
 ## National Finals
 
-[![Renaissance St. Louis Airport Hotel]({% link assets/2023/stl-hotel-promo.jpg %})]({% link _pages/history/2025/nationals/index.md %})
+[![Renaissance St. Louis Airport Hotel]({% link assets/2023/stl-hotel-promo.jpg %}) ]({% link _pages/history/2025/nationals/index.md %})
 
 <a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">National Finals Info</a>

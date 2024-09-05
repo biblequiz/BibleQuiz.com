@@ -28,77 +28,80 @@ Some districts will have a League Meet 5 ("League Final"), which will cover all 
 
 ## WRITER'S TIPS & BREAKDOWN
 
-Coming soon.
+### Championship Division written by Danielle Mori
 
-<!--
-### Championship written by Danielle Mori
+#### General points:
 
-**General Tips**
-- Generally, questions will be easy to interrupt except Statement and Questions or Scripture-text Questions. Pay attention to what the introductory remarks say as well as what they do not say.
-- Knowing unique words, chapter analysis, conditional “if” statements, “let us” commands, and “do not“ commands will be valuable for teams.
-- Application Questions will be used for Leagues 1 – 4 only
-- Locators will shift from section titles to chapters as we approach Regionals/Nationals
+-   Most types of 10s will be of similar difficulty throughout the season.
+-   A few select types of 10s will ramp up in difficulty at the District, Regional, and National levels (i.e. the chapter required as the answer early in the season and the verse reference later in the season).
+-   The locator in the introductory remarks—whether blind (no location given), from a chapter, or from a section—will typically correlate to the interruption point and the length of the question.
+-   Most types of questions have a predictably anticipated interruption point; Scripture text questions, however, are less predictable and may have a much later interruption point.
 
-**10-point Questions**
-- The difficulty will be similar for all levels. (League Meet 1 and National Finals are identical in difficulty.) - All answers will come from a single verse and will usually require 7 words or less
+#### Leagues
 
-**League Meet 1-4**
-- 20s: These questions will typically be 8 words or more and will come from a single verse. I will emphasize an understanding of fundamental knowledge at this level. (Giving verses in essence, chapter analysis, references, and knowledge of unique words are paramount at this stage)
-- 30s: These questions will require answers almost always from a single verse, but answers will be longer than 20-point questions. It will be important to know how to quote by verse reference, know all section titles and verse references, as well as understand some basic cross-referencing from withing the same chapter.
+-   League questions start to reveal the pattern of types of questions and interruption points for the year.
+-   Quizzers would do well to focus on quoting the material perfectly, especially bulleted (black dot) verses, and learning the verse references for all verses. All point values of questions will use verse references in some of the question types.
+-   With the exception of lists, most 20-point questions will require part of a long verse or an entire short verse, and most 30-point questions will require all or most of a long verse.
+-   There will be two Application Questions per set in Leagues 1-4. Only the Application Questions covering the current material for that meet will be asked.
+-   A small number of questions will ask for an answer or answers coming from more than one verse, but the answers and difficulty will be comparable to questions asking for only one verse.
 
-**League Meet 5/League Finals**
-- 20s/30s The difficulty will remain the same as League Meet 1-4, but cover all material cumulatively.
+#### Districts
 
-**District Finals**
-- 20s: Question difficulty will increase slightly, with many questions coming from 2 verses. Chapter analysis will be used in greater capacity and basic concordance-type questions will be introduced.
-- 30s: Question difficulty will increase significantly, with questions coming from 3 verses on average. Chapter analysis will be used in greater capacity and basic concordance that cross references different chapter and books (i.e. from both Romans and James) will be introduced.
+-   Difficulty will start to increase at Districts, with some multi-verse, 20 and 30-point questions and some concordance questions (i.e. Essence question. 2-part answer. From separate verses of Acts chapter 1. Give in essence the verses in which John the Baptist is named).
+-   Quizzers will do well if they can quote the material, recite most intra-chapter chapter analysis in 30 seconds, and begin studying some of the 2- and 3-part concordance answers.
 
-**Regional Finals**
-- 20s: Mastery of the material will be highly advantageous. Questions will cover 1 – 3 verses, and concordance questions appearing with greater frequency,
-- 30s: Mastery of the material will be highly advantageous. Questions will cover 3 – 4 verses, with the introduction of chapter analysis by book and concordance-type questions increasing in difficulty.
+#### Regionals
 
-**National Finals**
-- 20s: Mastery of the material will be required. Questions will typically cover 1 – 4 verses, along with knowing chapter analysis, references, and unique words over all the material. Concordance-type questions will be asked frequently.
-- 30s: Mastery of the material will be required. Questions will typically cover 4 – 7 verses, along with knowing chapter analysis, references and unique words over all the material. Concordance-type questions will be asked frequently.
+-   Difficulty will take another step up at Regionals, primarily in length of answer.
+-   Continuing to study the concordance, chapter analysis, and quoting the material consistently will help the quizzers perform well.
 
+#### Nationals
 
+-   National-level questions, especially the 20s and 30s, will reflect the most difficult questions of the year. Quizzers will need to be able to quote the material perfectly and quickly.
+-   Nearly all 20- and 30-pointers will be asked from more than one verse, and many questions will require that quizzers have studied the concordance and chapter analysis beforehand.
 
-### Contender/XP5 written by Jon Galliers
+_Additional guidance on Regionals and Nationals questions will be provided in early 2025._
 
-**General Style**
+### Contender/XP5 Divisions written by Jon Galliers
 
-I favor questions that will help you understand the text being studied. In my questions, I rely on the wording from the Scripture rather than use my own. There will be a few cases where the Scripture would make the question too wordy or complicated so I do use my own. However, when in doubt use the Scripture to finish interrupted questions.
+#### General Style
 
-I attempt to use all the varieties of question and answer types. I like lists and multi-part answers.
+I like to prepare quizzers for common question styles used in higher levels of quiz but demanding shorter answers. Acts is similar to a gospel in the storytelling aspect, so many questions will focus on:
 
-My Statement and questions are focused on understanding Scriptural truths, thus they will be difficult to interrupt until after the statement is complete. The Contender Study and Practice questions will show a sampling of all the types of questions you will see throughout the quiz season.
+1. Words (answers, replies, conversations)
+2. Time periods (what happened when/before/during/after events)
+3. Addresses (how a speaker addresses their audience(
+4. Actions (what did God/the apostles/the people do).
 
-**By Point Value**
+I will also ask for chapter analysis frequently at all point levels.
 
-10-point questions will be no longer than three words throughout the entire season (articles don't count ie. the Lord Jesus Christ.) This is not a contestable standard but is the pattern I am using.
+The best tool for understanding what to expect will be the Contender Study Questions.
 
-Early in the season expect the 20 point questions that are not from the Study Questions to be small segments of verses, and growing in length as the season progresses.
+Scripture Text Questions and “According to” questions should be interrupted cautiously. Due to the simpler language of the NLT translation, “According to the nth verse” is used to avoid collisions where similar phrasing appears in multiple verses of the same section or chapter.
 
-30 point questions will be longer sections of verses or the entire verse depending on verse length for league meets, getting longer with League 5/League Finals, District Finals, and Regional Finals. The last few sets of the Practice Questions will show samplings of the harder questions that will appear in these later meets.
+#### League Competition
 
-**XP5**
+10-point questions will remain consistent in difficulty from the League level through Regional Finals. I write with a general rule of seven words or fewer for 10s, but most will be shorter (1-5 words), although rare exceptions may occur. Some reference knowledge will be required for all point values.
 
-The first 12 questions will be matched so that the same point value is read to both teams. Of the first 12 questions 10 will be from the Contender Study Questions.
+20-point answers generally range from 5 words up to an entire verse (if short).
 
-Question number 13 will be a 30 that will either be an application question or harder 30 point question.
+Most 30-point questions will require close to an entire verse in length.
 
-There will be a total of two application questions between questions 13 and 18. They will only come from the chapters being studied for this league meet.
+League 1 through League Finals will be consistent in difficulty and will only change the material being covered. Please be aware of the following requirements for the league level questions for the Contender and XP5 divisions:
 
-There will be no review questions from previous material.
+-   All Quotation Questions throughout the year will come from the marked primary verses in the Scripture portion.
+-   2 Application questions will appear in each set for League 1 through League 4
+    -   For XP5 rounds, these will appear between questions 13-18
+    -   For Contender rounds, these will appear after question 10
+-   Contender Study Questions will appear:
+    -   As 10 of the first 12 questions for all XP5 matches
+    -   As 10 questions per set for Contender League 1
+    -   As 5 questions per set for Contender Leagues 2 through 4
 
-**Contender**
+#### District Finals
 
-Questions will come in no particular order and I like to mix up where point values appear.
+Expect the difficulty of 20- and 30-point questions to increase. 30-point questions may span up to two verses. Understanding connections between portions of the text will become increasingly important, as will the ability to quote the material and recall verses by reference. Some single-verse concordance may be asked.
 
-League meets 2-4 will have 75% of the new material with 25% review from previous material.
+#### Regional Finals
 
-Application questions will appear in questions 11-20. They will come only from the new
-material for the league meet.
-
-League 1 will have 10 questions from the Contender Study Questions in each round.
-Leagues 2-4 will have 5 in each round. -->
+Expect Regional 20-point questions to be similar to 30-point questions at District Finals (1-2 verses in length). 30-point questions will span up to 2-3 consecutive verses may require medium chapter analysis lists, and some smaller concordance answers (up to 2 separate verses).
