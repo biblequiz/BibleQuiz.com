@@ -9,6 +9,7 @@ toc_title: Decades
 ---
 
 ## 2020s
+* [2025: Acts]({% link _pages/history/2025/index.md %})
 * [2024: Romans and James]({% link _pages/history/2024/index.md %})
 * [2023: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John]({% link _pages/history/2023/index.md %})
 * [2022: Gospel of Matthew]({% link _pages/history/2022/index.md %})
