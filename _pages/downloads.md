@@ -46,31 +46,33 @@ A few minor rule changes for XP5 competitions. All rules from the full set of Of
 
 ---
 
-<!-- # Award Guidelines and Forms
+# Award Guidelines and Forms
 
-![]({% link assets/2024/Banner NMA.jpg %})
+![]({% link assets/2025/NMA.jpg %})
 
 All of the material must be quoted one chapter at at time and in one sitting, with four mistakes or fewer. No time limit!
 
-<a href="{% link assets/2024/NMA-Guidelines.pdf %}" class="button is-primary">National Memorization Award Guidelines</a>
+<a href="{% link assets/2025/24-25 Acts NMA Guidelines.pdf %}" class="button is-primary">National Memorization Award Guidelines</a>
 
 <br /><br />
 
-![]({% link assets/2024/Banner MMA.jpg %})
+![]({% link assets/2025/MMA.jpg %})
 
-All of the material must be quoted consecutively in one sitting with 10 mistakes or fewer in 45 minutes or less.
+All of the material must be quoted consecutively in one sitting with 15 mistakes or fewer in 75 minutes or less.
 
-<a href="{% link assets/2024/MMA-Guidelines.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
+<a href="{% link assets/2025/24-25 Acts MMA Guidelines.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
 
 <br /><br />
 
-### Memorization Award Form
+<!-- ### Memorization Award Form -->
 
-Once you've earned the NMA and/or the MMA, fill out the following form and send to your District Bible Quiz Coordinator (DBQC). _If you are unsure of who your DBQC is, email <pastorbernie@biblequiz.com>._
+![]({% link assets/2025/NMA MMA Form.jpg %})
 
-<a href="{% link assets/2024/Memorization-Award-Form.doc %}" class="button is-primary">Memorization Award Form</a>
+Once you've earned the NMA and/or the MMA, fill out the following form and send to your District Bible Quiz Coordinator (DBQC). _If you are unsure of who your DBQC is, email <PastorBernie@BibleQuiz.com>._
 
-<br /><br /> -->
+<a href="{% link assets/2025/24-25 Acts NMA MMA Form.pdf %}" class="button is-primary">Memorization Award Form</a>
+
+<br /><br />
 
 ### Discipleship Award Guidelines
 
