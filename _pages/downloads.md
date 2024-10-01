@@ -74,9 +74,21 @@ Once you've earned the NMA and/or the MMA, fill out the following form and send 
 
 <br /><br />
 
-### Discipleship Award Guidelines
+![]({% link assets/2025/Discipleship.jpg %})
+
+<!-- ### Discipleship Award Guidelines -->
 
 <a href="{% link assets/2025/24-25_Discipleship-Award-Guidelines.pdf %}" class="button is-primary">Discipleship Award Guidelines</a>
+
+---
+
+## Pronunciation Guide
+
+Have you or your quizzers struggled to pronounce any of the names and places in Acts? This guide can help!
+
+<a href="{% link assets/2025/24-25 Acts Chapter Analysis Pronunciations.pdf %}" class="button is-primary">Acts Pronunciation Guide</a>
+
+<i>Note: This guide is not grounds for a contest.</i>
 
 ---
 
