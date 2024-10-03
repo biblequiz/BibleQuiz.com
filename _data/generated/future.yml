@@ -22,7 +22,7 @@ jbq:
   dates: Oct 5, 2024
 - id: 203e7c10-d803-4061-a328-08dcdefc5f41
   season: 2025
-  registrationDates: Closes Oct 2, 2024
+  registrationDates: Closed
   isLive: true
   isVisible: true
   name: Central Indiana
@@ -54,7 +54,7 @@ jbq:
   dates: Oct 5, 2024
 - id: b9e21702-189f-435b-565e-08dcce0e81d3
   season: 2025
-  registrationDates: Closes Oct 2, 2024
+  registrationDates: Closed
   isLive: true
   isVisible: true
   name: 'South Dakota East League Meet #1'
@@ -65,7 +65,7 @@ jbq:
   dates: Oct 5, 2024
 - id: aaef3c95-1488-417f-5659-08dcce0e81d3
   season: 2025
-  registrationDates: Closes Oct 2, 2024
+  registrationDates: Closed
   isLive: true
   isVisible: true
   name: 'South Dakota West League Meet #1'
@@ -158,6 +158,16 @@ jbq:
   locationName: Assembly of God
   locationCity: Batavia, NY
   dates: Nov 2, 2024
+- id: fba14c8e-d498-4c8b-0f86-08dce3a3cfba
+  season: 2025
+  registrationDates: Closes Nov 4, 2024
+  isVisible: true
+  name: 'Oklahoma NE League (Tulsa) 24-25 Meet #2'
+  scope: district
+  scopeLabel: Oklahoma
+  locationName: Carbondale Assembly of God
+  locationCity: Tulsa, OK
+  dates: Nov 9, 2024
 - id: 3e22fdb2-48f8-44b3-a03d-08dccae570d1
   season: 2025
   registrationDates: Closes Dec 31, 2024
@@ -204,7 +214,7 @@ tbq:
   dates: Oct 5, 2024
 - id: 5c7d9458-db37-43ff-3e52-08dcd5774eac
   season: 2025
-  registrationDates: Closes Oct 2, 2024
+  registrationDates: Closed
   isLive: true
   isVisible: true
   name: 'Southern Missouri District League Meet #1'
