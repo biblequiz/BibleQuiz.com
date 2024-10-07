@@ -9,6 +9,7 @@ toc_title: Decades
 ---
 
 ## 2020s
+* [2025]({% link _pages/jbq/2025/index.md %})
 * [2024]({% link _pages/jbq/2024/index.md %})
 * [2023]({% link _pages/jbq/2023/index.md %})
 * [2022]({% link _pages/jbq/2022/index.md %})
