@@ -1,49 +1,8 @@
 jbq:
-- id: 2cc7fd68-4c7d-4fd6-b8a6-08dcb22aa716
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: NC JBQ Season (October - Feb)
-  scope: district
-  scopeLabel: North Carolina
-  locationName: TBD
-  dates: Oct 12, 2024
-- id: 80596835-7428-496f-cc17-08dce1cd286a
-  season: 2025
-  registrationDates: Closes Oct 12, 2024
-  isLive: true
-  isVisible: true
-  name: October 12, 2024 ND JBQ meet
-  scope: district
-  scopeLabel: North Dakota
-  locationName: Evangel Assembly of God
-  locationCity: Bismarck, ND
-  dates: Oct 12, 2024
-- id: 4881da18-bbe6-4c3b-cb00-08dc9abf19f0
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Pen Florida Junior Bible Quiz League Registration
-  scope: district
-  scopeLabel: Peninsular Florida
-  locationName: Various Locations in the Pen Florida District
-  dates: Oct 12, 2024
-- id: 93d8251f-050d-4fb1-20b3-08dcea3f9ebb
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'STX Scrimmage #1 - Houston'
-  scope: district
-  scopeLabel: South Texas
-  locationName: His Touch Assembly of God
-  locationCity: San Leon, TX
-  dates: Oct 12, 2024
 - id: 5587f287-c3a7-4491-baa1-08dce0e0f326
   season: 2025
-  registrationDates: Closes Oct 14, 2024
+  registrationDates: Closed
+  isLive: true
   isVisible: true
   name: JBQ KC MO Season 2024-2025 - October
   scope: nation
@@ -52,7 +11,8 @@ jbq:
   dates: Oct 19, 2024
 - id: ef478868-6c19-4564-c695-08dcea1b22b9
   season: 2025
-  registrationDates: Closes Oct 14, 2024
+  registrationDates: Closed
+  isLive: true
   isVisible: true
   name: October 19th Wichita Meet
   scope: district
@@ -63,6 +23,7 @@ jbq:
 - id: 7548f3cb-6b57-4ff2-754a-08dcd29da0fd
   season: 2025
   registrationDates: Closed
+  isLive: true
   isVisible: true
   name: North Texas 2024-2025 Team Registration
   scope: district
@@ -147,53 +108,20 @@ jbq:
   locationName: Evangel Chapel
   locationCity: Bridgewater, NJ
   dates: Jan 4, 2025
+- id: 88445d76-09e3-4895-2cde-08dced412524
+  season: 2025
+  registrationDates: Closes Feb 16, 2025
+  isVisible: true
+  name: Smoky Mountain Invitational!
+  scope: tournament
+  locationName: Lighthouse Assembly of God
+  locationCity: Greeneville, TN
+  dates: Feb 28 - Mar 1, 2025
 tbq:
-- id: 377f612d-86b1-443c-e5b3-08dca8349943
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Pen Florida Teen Bible Quiz League Registration
-  scope: district
-  scopeLabel: Peninsular Florida
-  locationName: Various Locations in the Pen Florida District
-  dates: Oct 11 - 18, 2024
-- id: 0bf27770-c343-46ba-5caa-08dca34e29a6
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: '2024-2025 Bible Quiz Georgia League Meet #1'
-  scope: district
-  scopeLabel: Georgia
-  locationName: Atlanta Tamil Church
-  locationCity: Norcross, GA
-  dates: Oct 12, 2024
-- id: 17c4b331-aeef-49b3-c365-08dcd4019278
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: '2024-25 Wisconsin/NM TBQ League Meet #1'
-  scope: region
-  scopeLabel: North Central
-  locationName: New Life Assembly of God
-  locationCity: Sparta, WI
-  dates: Oct 12, 2024
-- id: 56a72f32-314b-4c51-cc76-08dce73545f9
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'CenCAL TBQ Meet #1'
-  scope: region
-  scopeLabel: Southwest
-  locationName: Glad Tidings Assembly of God
-  locationCity: Hanford, CA
-  dates: Oct 12, 2024
 - id: 2520d22f-99e7-427c-e109-08dca4da0d24
   season: 2025
   registrationDates: Closed
+  isLive: true
   isVisible: true
   name: 'NJ TBQ 2024-2025 League Meet #1'
   scope: region
@@ -202,7 +130,8 @@ tbq:
   dates: Oct 19, 2024
 - id: 752cf1bf-9e0e-4e07-7548-08dcd29da0fd
   season: 2025
-  registrationDates: Closes Oct 10, 2024
+  registrationDates: Closes Oct 18, 2024
+  isLive: true
   isVisible: true
   name: North Carolina League Meets 2024-2025
   scope: district
@@ -212,6 +141,7 @@ tbq:
 - id: cb263ad2-c1b5-4c30-a03e-08dccae570d1
   season: 2025
   registrationDates: Closes Oct 17, 2024
+  isLive: true
   isVisible: true
   name: 'OH Meet #1'
   scope: district
@@ -219,9 +149,30 @@ tbq:
   locationName: Louisville First AG
   locationCity: Louisville, OH
   dates: Oct 19, 2024
+- id: 377f612d-86b1-443c-e5b3-08dca8349943
+  season: 2025
+  registrationDates: Closes Oct 16, 2024
+  isLive: true
+  isVisible: true
+  name: Pen Florida Teen Bible Quiz League Registration
+  scope: district
+  scopeLabel: Peninsular Florida
+  locationName: Various Locations in the Pen Florida District
+  dates: Oct 19, 2024
+- id: e1737663-f04b-40e0-2777-08dcec91277e
+  season: 2025
+  registrationDates: Closed
+  isLive: true
+  isVisible: true
+  name: 'Upstate SC TBQ 2024-2025 - Meet #1'
+  scope: district
+  scopeLabel: South Carolina
+  locationName: Lake Wylie Christian Assembly of God
+  locationCity: Lake Wylie, SC
+  dates: Oct 20, 2024
 - id: d7cf8417-be7f-4db0-9aa7-08dcc44e82e0
   season: 2025
-  registrationDates: Closes Oct 6, 2024
+  registrationDates: Closes Oct 16, 2024
   isVisible: true
   name: 40th Annual Gold Cup Tournament
   scope: nation
@@ -247,6 +198,16 @@ tbq:
   locationName: Grace Community Assembly
   locationCity: Branson, MO
   dates: Nov 2, 2024
+- id: 1bf9b68d-c162-4b8b-2779-08dcebb80354
+  season: 2025
+  registrationDates: Closes Nov 4, 2024
+  isVisible: true
+  name: '2024-25 Wisconsin/NM TBQ League Meet #2'
+  scope: district
+  scopeLabel: Wisconsin-Northern Michigan
+  locationName: CrossPoint Assembly of God
+  locationCity: Portage, WI
+  dates: Nov 9, 2024
 - id: 1c240ead-211e-46b9-20b5-08dcea3f9ebb
   season: 2025
   registrationDates: Closes Nov 3, 2024
@@ -266,3 +227,12 @@ tbq:
   locationName: University of Valley Forge
   locationCity: Phoenixville, PA
   dates: Nov 22 - 23, 2024
+- id: db6250ec-0035-4ec0-2cdd-08dced412524
+  season: 2025
+  registrationDates: Closes Feb 16, 2025
+  isVisible: true
+  name: Smoky Mountain Invitational
+  scope: tournament
+  locationName: Lighthouse Assembly of God
+  locationCity: Greeneville, TN
+  dates: Feb 28 - Mar 1, 2025
