@@ -9,27 +9,6 @@ jbq:
   scopeLabel: North Texas
   locationName: North Texas District
   dates: Oct 18 - 25, 2024
-- id: 5587f287-c3a7-4491-baa1-08dce0e0f326
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: JBQ KC MO Season 2024-2025 - October
-  scope: nation
-  locationName: Blue Springs Assembly of God
-  locationCity: Blue Springs, MO
-  dates: Oct 19, 2024
-- id: ef478868-6c19-4564-c695-08dcea1b22b9
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: October 19th Wichita Meet
-  scope: district
-  scopeLabel: Kansas
-  locationName: Bethel Life Center Assembly of God
-  locationCity: Wichita, KS
-  dates: Oct 19, 2024
 - id: b252c5ee-20b7-43d1-e77f-08dcef1b77a7
   season: 2025
   registrationDates: Closed
@@ -119,6 +98,16 @@ jbq:
   locationName: Christian Life Assembly of God
   locationCity: Lubbock, TX
   dates: Nov 9, 2024
+- id: 62bfaa0f-f042-423d-7842-08dcf085fcce
+  season: 2025
+  registrationDates: Closes Nov 14, 2024
+  isVisible: true
+  name: MN Metro League Nov 2024
+  scope: district
+  scopeLabel: Minnesota
+  locationName: Cedar Valley Assemblies of God
+  locationCity: Bloomington, MN
+  dates: Nov 16, 2024
 - id: 3e22fdb2-48f8-44b3-a03d-08dccae570d1
   season: 2025
   registrationDates: Closes Dec 31, 2024
@@ -139,47 +128,6 @@ jbq:
   locationCity: Greeneville, TN
   dates: Feb 28 - Mar 1, 2025
 tbq:
-- id: 2520d22f-99e7-427c-e109-08dca4da0d24
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'NJ TBQ 2024-2025 League Meet #1'
-  scope: region
-  scopeLabel: Northeast
-  locationName: New Jersey TBQ
-  dates: Oct 19, 2024
-- id: 752cf1bf-9e0e-4e07-7548-08dcd29da0fd
-  season: 2025
-  registrationDates: Closes Oct 19, 2024
-  isLive: true
-  isVisible: true
-  name: North Carolina League Meets 2024-2025
-  scope: district
-  scopeLabel: North Carolina
-  locationName: To Be Determined
-  dates: Oct 19, 2024
-- id: cb263ad2-c1b5-4c30-a03e-08dccae570d1
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: 'OH Meet #1'
-  scope: district
-  scopeLabel: Ohio
-  locationName: Louisville First AG
-  locationCity: Louisville, OH
-  dates: Oct 19, 2024
-- id: 377f612d-86b1-443c-e5b3-08dca8349943
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  name: Pen Florida Teen Bible Quiz League Registration
-  scope: district
-  scopeLabel: Peninsular Florida
-  locationName: Various Locations in the Pen Florida District
-  dates: Oct 19, 2024
 - id: e1737663-f04b-40e0-2777-08dcec91277e
   season: 2025
   registrationDates: Closed
@@ -193,7 +141,7 @@ tbq:
   dates: Oct 20, 2024
 - id: d7cf8417-be7f-4db0-9aa7-08dcc44e82e0
   season: 2025
-  registrationDates: Closes Oct 16, 2024
+  registrationDates: Closed
   isVisible: true
   name: 40th Annual Gold Cup Tournament
   scope: nation
