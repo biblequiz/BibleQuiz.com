@@ -658,6 +658,24 @@ function initializeLiveEvents() {
             let isFirstMeet = true;
             for (let meet of report.Report.Meets) {
 
+                // Determine if this is a report where the events needs to be skipped.
+                switch (currentReportType) {
+                    case ReportType.Stats:
+                        if (null == meet.RankedTeams && null == meet.RankedQuizzers) {
+                            continue;
+                        }
+
+                        break;
+
+                    case ReportType.Schedule:
+                    case ReportType.Coordinator:
+                        if (null == meet.Rooms || null == meet.Matches) {
+                            continue;
+                        }
+
+                        break;
+                }
+
                 let useCombinedName = false;
                 if ((ScheduleViewType.Room == currentScheduleView || ReportType.Coordinator == currentReportType) && meet.HasLinkedMeets) {
 
@@ -881,6 +899,8 @@ function initializeLiveEvents() {
                             quizzersContainer.remove();
                         }
                         else {
+                            noScoresWarning.remove();
+
                             if (meet.QuizzerRankingLabel) {
                                 getByAndRemoveId(quizzersContainer, "quizzerRankingLabel")
                                     .text(meet.QuizzerRankingLabel);
