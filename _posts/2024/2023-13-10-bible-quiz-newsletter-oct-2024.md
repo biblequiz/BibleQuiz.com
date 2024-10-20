@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Teen Bible Quiz Newsletter - September 2024"
+title: "Teen Bible Quiz Newsletter - October 2024"
 author: BibleQuiz.com Admin
 date: "2024-10-13"
 image: "October-2024-newsletter.jpg"
