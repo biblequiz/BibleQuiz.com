@@ -1,95 +1,95 @@
 jbq:
   nationalFinals:
-    name: 2023 National JBQ Festival
-    scope: nation
     locationName: First Assembly of God
     locationCity: Fort Wayne, IN
     dates: Jun 8 - 10, 2023
+    name: 2023 National JBQ Festival
+    scope: nation
     scoresLink: /jbq/2023/nationals
   regionFinals:
-  - name: Southeast Region Finals
-    scope: region
-    scopeLabel: Southeast
-    locationName: Fort Myers First Assembly of God
+  - locationName: Fort Myers First Assembly of God
     locationCity: Fort Myers, FL
     dates: May 5 - 6, 2023
-    scoresLink: /jbq/2023/regionals/southeast
-  - name: Great Lakes Region Finals
+    name: Southeast Region Finals
     scope: region
-    scopeLabel: Great Lakes
-    locationName: Dayspring Assembly of God
+    scopeLabel: Southeast
+    scoresLink: /jbq/2023/regionals/southeast
+  - locationName: Dayspring Assembly of God
     locationCity: Bowling Green, OH
     dates: May 5 - 6, 2023
-    scoresLink: /jbq/2023/regionals/great-lakes
-  - name: North Central Region Finals
+    name: Great Lakes Region Finals
     scope: region
-    scopeLabel: North Central
-    locationName: Celebration Church
+    scopeLabel: Great Lakes
+    scoresLink: /jbq/2023/regionals/great-lakes
+  - locationName: Celebration Church
     locationCity: Lakeville, MN
     dates: May 5 - 6, 2023
-    scoresLink: /jbq/2023/regionals/north-central
-  - name: Northwest Region Finals
+    name: North Central Region Finals
     scope: region
-    scopeLabel: Northwest
-    locationName: Valley Assembly
+    scopeLabel: North Central
+    scoresLink: /jbq/2023/regionals/north-central
+  - locationName: Valley Assembly
     locationCity: Spokane Valley, WA
     dates: May 5 - 6, 2023
-    scoresLink: /jbq/2023/regionals/northwest
-  - name: Gulf Region Finals
+    name: Northwest Region Finals
     scope: region
-    scopeLabel: Gulf
-    locationName: First Assembly of God Memphis
+    scopeLabel: Northwest
+    scoresLink: /jbq/2023/regionals/northwest
+  - locationName: First Assembly of God Memphis
     locationCity: Cordova, TN
     dates: Apr 29, 2023
-    scoresLink: /jbq/2023/regionals/gulf
-  - name: South Central Region Finals
+    name: Gulf Region Finals
     scope: region
-    scopeLabel: South Central
-    locationName: Christian Chapel Assembly
+    scopeLabel: Gulf
+    scoresLink: /jbq/2023/regionals/gulf
+  - locationName: Christian Chapel Assembly
     locationCity: Tulsa, OK
     dates: Apr 28 - 29, 2023
+    name: South Central Region Finals
+    scope: region
+    scopeLabel: South Central
     scoresLink: /jbq/2023/regionals/south-central
   other:
-  - name: Pen Florida Junior Bible Quiz League Registration
+  - locationName: Various Locations in the PF District
+    dates: Jan 28 - Feb 25, 2023
+    name: Pen Florida Junior Bible Quiz League Registration
     scope: district
     scopeLabel: Peninsular Florida
-    locationName: Various Locations in the PF District
-    dates: Jan 28 - Feb 25, 2023
     scoresLink: /jbq/2023/other/e81b9532-aa5d-489d-a898-08da456dc18f
 tbq:
   regionFinals:
-  - name: Southeast Region Finals
-    scope: region
-    scopeLabel: Southeast
-    locationName: Parkway Assembly of God
+  - locationName: Parkway Assembly of God
     locationCity: Macon, GA
     dates: May 20, 2023
-    scoresLink: /history/2023/regionals/southeast
-  - name: Great Lakes Region Finals
+    name: Southeast Region Finals
     scope: region
-    scopeLabel: Great Lakes
-    locationName: Grace Assembly of God
+    scopeLabel: Southeast
+    scoresLink: /history/2023/regionals/southeast
+  - locationName: Grace Assembly of God
     locationCity: Greenwood, IN
     dates: May 13, 2023
-    scoresLink: /history/2023/regionals/great-lakes
-  - name: Northeast Region Finals
+    name: Great Lakes Region Finals
     scope: region
-    scopeLabel: Northeast
-    locationName: Evangel Church
+    scopeLabel: Great Lakes
+    scoresLink: /history/2023/regionals/great-lakes
+  - locationName: Evangel Church
     locationCity: Scotch Plains, NJ
     dates: May 5 - 6, 2023
-    scoresLink: /history/2023/regionals/northeast
-  - name: Northwest Region Finals
+    name: Northeast Region Finals
     scope: region
-    scopeLabel: Northwest
-    locationName: Cedar Park Assembly of God
+    scopeLabel: Northeast
+    scoresLink: /history/2023/regionals/northeast
+  - locationName: Cedar Park Assembly of God
     locationCity: Bothell, WA
     dates: Apr 28 - 29, 2023
-    scoresLink: /history/2023/regionals/northwest
-  - name: North Central Region Finals
+    name: Northwest Region Finals
     scope: region
-    scopeLabel: North Central
-    locationName: Sioux Falls First
+    scopeLabel: Northwest
+    scoresLink: /history/2023/regionals/northwest
+  - locationName: Sioux Falls First
     locationCity: Sioux Falls, SD
     dates: Apr 28 - 29, 2023
+    name: North Central Region Finals
+    scope: region
+    scopeLabel: North Central
     scoresLink: /history/2023/regionals/north central
