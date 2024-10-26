@@ -669,7 +669,7 @@ function initializeLiveEvents() {
 
                     case ReportType.Schedule:
                     case ReportType.Coordinator:
-                        if (null == meet.Rooms || null == meet.Matches) {
+                        if (null == meet.Rooms && null == meet.Matches) {
                             continue;
                         }
 
