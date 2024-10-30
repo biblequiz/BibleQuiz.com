@@ -800,6 +800,8 @@ function initializeLiveEvents() {
                         const teamsContainer = getByAndRemoveId(meetCell, "teamsSection")
                             .prop("id", teamsAnchorId);
 
+                        const teamsTitle = getByAndRemoveId(teamsContainer, "teamsTitle");
+
                         let hasTie = false;
                         if (!meet.RankedTeams) {
                             teamsContainer.remove();
@@ -894,12 +896,24 @@ function initializeLiveEvents() {
                         const quizzersContainer = getByAndRemoveId(meetCell, "quizzersSection")
                             .prop("id", quizzersAnchorId);
 
+                        const quizzersTitle = getByAndRemoveId(quizzersContainer, "quizzersTitle");
+
                         hasTie = false;
                         if (!meet.RankedQuizzers) {
                             quizzersContainer.remove();
+
+                            if (meet.RankedTeams) {
+                                teamsTitle.remove();
+                                quizzersTitle.remove();
+                            }
                         }
                         else {
                             noScoresWarning.remove();
+
+                            if (!meet.RankedTeams) {
+                                teamsTitle.remove();
+                                quizzersTitle.remove();
+                            }
 
                             if (meet.QuizzerRankingLabel) {
                                 getByAndRemoveId(quizzersContainer, "quizzerRankingLabel")
@@ -984,7 +998,7 @@ function initializeLiveEvents() {
                         }
 
                         // Update the table of contents.
-                        if (meet.RankedTeams || meet.RankedQuizzers) {
+                        if (meet.RankedTeams && meet.RankedQuizzers) {
                             tocEntry.append(
                                 $("<ul />")
                                     .append($("<li />")
@@ -1098,6 +1112,10 @@ function initializeLiveEvents() {
 
                             default:
                                 cardItems = meet.Teams;
+                                if (null == cardItems) {
+                                    continue;
+                                }
+
                                 isCardReport = true;
                                 isRoomReport = false;
                                 isTeamRedirect = false;
