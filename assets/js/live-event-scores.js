@@ -60,10 +60,12 @@ function initializeLiveEvents() {
     const statsTemplate = document.getElementById("statsTemplate");
     const scheduleTemplate = document.getElementById("schedulesTemplate");
     const coordinatorTemplate = document.getElementById("coordinatorTemplate");
+    const questionStatsTemplate = document.getElementById("questionStatsTemplate");
     const qrCodeTemplate = document.getElementById("codeTemplate");
     statsTemplate.remove();
     scheduleTemplate.remove();
     coordinatorTemplate.remove();
+    questionStatsTemplate.remove();
     qrCodeTemplate.remove();
 
     // Setup the modal dialog.
@@ -144,7 +146,8 @@ function initializeLiveEvents() {
         Schedule: "Schedule",
         Stats: "Stats",
         Coordinator: "Coordinator",
-        QRCode: "QRCode"
+        QRCode: "QRCode",
+        QStats: "QStats"
     };
 
     const ScheduleViewType = {
@@ -204,11 +207,20 @@ function initializeLiveEvents() {
                 }
             });
 
+    const questionStatsTab = $("#questionStatsTab")
+        .click(
+            null,
+            e => {
+                if (ReportType.QStats !== currentReportType) {
+                    changeSelectedTab("qstats", null);
+                }
+            });
+
     const qrCodeTab = $("#qrcodeTab")
         .click(
             null,
             e => {
-                if (ReportType.Coordinator !== currentReportType) {
+                if (ReportType.QRCode !== currentReportType) {
                     changeSelectedTab("qrCode", null);
                 }
             });
@@ -252,6 +264,14 @@ function initializeLiveEvents() {
                 currentReportType = ReportType.Coordinator;
                 meetCellTemplate = coordinatorTemplate;
                 coordinatorTab.addClass("is-active");
+                $("#scheduleViewTabs").remove();
+                searchRow.hide();
+                break;
+
+            case "qstats":
+                currentReportType = ReportType.QStats;
+                meetCellTemplate = questionStatsTemplate;
+                questionStatsTab.addClass("is-active");
                 $("#scheduleViewTabs").remove();
                 searchRow.hide();
                 break;
@@ -655,7 +675,10 @@ function initializeLiveEvents() {
                 .addClass("menu-list");
 
             // Process each meet.
+            const noStatsWarning = document.getElementById("noStatsWarning");
+
             let isFirstMeet = true;
+            let hasQStats = false;
             for (let meet of report.Report.Meets) {
 
                 // Determine if this is a report where the events needs to be skipped.
@@ -670,6 +693,13 @@ function initializeLiveEvents() {
                     case ReportType.Schedule:
                     case ReportType.Coordinator:
                         if (null == meet.Rooms && null == meet.Matches) {
+                            continue;
+                        }
+
+                        break;
+
+                    case ReportType.QStats:
+                        if (null == meet.Matches) {
                             continue;
                         }
 
@@ -1704,10 +1734,118 @@ function initializeLiveEvents() {
                     }
 
                         break;
+
+                    case ReportType.QStats: {
+
+                        const statsHeaderRow = getByAndRemoveId(meetCell, "headerRow");
+                        const statsHeaderQuestionCellTemplate = getByAndRemoveId(statsHeaderRow, "questionItem")
+                            .remove()
+                            .get(0);
+
+                        // Determine the maximum number of questions.
+                        let maxQuestionId = 0;
+                        for (let match of meet.Matches) {
+                            if (null == match.RegularQuestionStats) {
+                                maxQuestionId = -1;
+                                break;
+                            }
+
+                            maxQuestionId = Math.max(maxQuestionId, match.RegularQuestionStats.length);
+                        }
+
+                        if (-1 == maxQuestionId) {
+                            continue;
+                        }
+                        else {
+                            hasQStats = true;
+                        }
+
+                        // Append the header for the questions.
+                        for (let questionId = 1; questionId <= maxQuestionId; questionId++) {
+                            statsHeaderRow.append(
+                                cloneTemplate(statsHeaderQuestionCellTemplate).text(questionId));
+                        }
+
+                        // Append the rows for each room.
+                        const statsTableRows = getByAndRemoveId(meetCell, "tableRows");
+                        const correctCountTemplate = getByAndRemoveId(statsTableRows, "correctTemplate")
+                            .remove()
+                            .get(0);
+                        const incorrectCountTemplate = getByAndRemoveId(statsTableRows, "incorrectTemplate")
+                            .remove()
+                            .get(0);
+                        const noResponseCountTemplate = getByAndRemoveId(statsTableRows, "noResponseTemplate")
+                            .remove()
+                            .get(0);
+                        const statsRowQuestionCellTemplate = getByAndRemoveId(statsTableRows, "questionItem")
+                            .remove()
+                            .get(0);
+
+                        const statsRowTemplate = getByAndRemoveId(statsTableRows, "rowTemplate")
+                            .remove()
+                            .get(0);
+
+                        for (const matchIndex in meet.Matches) {
+
+                            const match = meet.Matches[matchIndex];
+                            const statsRow = cloneTemplate(statsRowTemplate);
+                            statsTableRows.append(statsRow);
+
+                            getByAndRemoveId(statsRow, "name").text(matchIndex + 1);
+
+                            for (let questionIndex = 0; questionIndex < maxQuestionId; questionIndex++) {
+
+                                const questionCell = cloneTemplate(statsRowQuestionCellTemplate);
+                                if (questionIndex >= match.RegularQuestionStats.length) {
+                                    questionCell
+                                        .empty()
+                                        .append("&nbsp;");
+                                }
+                                else {
+
+                                    let stats = match.RegularQuestionStats[questionIndex];
+                                    if (null == stats) {
+                                        questionCell.text("--");
+                                        continue;
+                                    }
+
+                                    getByAndRemoveId(questionCell, "pointValueLabel").text(`P${stats.PointValue}`);
+
+                                    const tagsContainer = getByAndRemoveId(questionCell, "pointTags");
+                                    if (stats.Correct > 0) {
+                                        tagsContainer.append(
+                                            cloneTemplate(correctCountTemplate).text(`${stats.Correct}`));
+                                    }
+
+                                    if (stats.Incorrect > 0) {
+                                        tagsContainer.append(
+                                            cloneTemplate(incorrectCountTemplate).text(`${stats.Incorrect}`));
+                                    }
+
+                                    if (stats.NoResponse > 0) {
+                                        tagsContainer.append(
+                                            cloneTemplate(noResponseCountTemplate).text(`${stats.NoResponse}`));
+                                    }
+                                }
+
+                                statsRow.append(questionCell);
+                            }
+                        }
+                    }
+
+                        break;
                 }
 
                 resultsPane.append(meetCell);
                 tableOfContentsMeets.append(tocEntry);
+            }
+
+            // If there are no stats and it is the stats tab, display the warning.
+            if (currentReportType == ReportType.QStats && !hasQStats) {
+                resultsPane.append(noStatsWarning);
+            }
+            else {
+                noStatsWarning.remove();
             }
 
             // Capture all the meet cells.
