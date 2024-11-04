@@ -3,7 +3,7 @@
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/qrcode.min.js" type="text/javascript"></script>
-<script src="{{ site.baseurl }}/assets/js/live-event-scores.js?version=2" type="module"></script>
+<script src="{{ site.baseurl }}/assets/js/live-event-scores.js?version=3" type="module"></script>
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/live-event-scores.css">
 
 {% if include.event_id %}
@@ -40,6 +40,12 @@
         <a>
           <span class="icon is-small"><i class="fas fa-thermometer-half"></i></span>
           <span>Overall Status</span>
+        </a>
+      </li>
+      <li id="questionStatsTab">
+        <a>
+          <span class="icon is-small"><i class="fas fa-chart-bar"></i></span>
+          <span>Q-Stats</span>
         </a>
       </li>
       <li id="qrcodeTab">
@@ -123,6 +129,10 @@
       </header>
       <section class="modal-card-body" id="teamModalBody">Body</section>
     </div>
+  </div>
+  
+  <div class="notification is-info" id="noStatsWarning">
+    <strong>Either the event coordinator hasn't enabled questin stats for this event yet or scoring hasn't completed for any matches.</strong>
   </div>
 
   <template id="statsTemplate">
@@ -383,6 +393,37 @@
       <a type="button" id="downloadButton" class="button is-primary">
         <i class="fas fa-download"></i>&nbsp;Download QR Code Image
       </a>
+    </div>
+  </template>
+
+  <template id="questionStatsTemplate">
+    <div class="columns is-mobile mt-2">
+      <div class="column is-fullwidth">
+        <p class="title is-3" id="meetName" />
+        <p class="subtitle is-7"><i>Last Updated: <span id="lastUpdated" /></i></p>
+      </div>
+    </div>
+    <div>
+      <table class="table is-striped is-fullwidth is-bordered is-narrow">
+        <thead>
+          <tr id="headerRow">
+            <th class="has-text-centered" width="65">Round</th>
+            <th class="has-text-centered" id="questionItem" />
+          </tr>
+        </thead>
+        <tbody id="tableRows">
+          <tr id="rowTemplate">
+            <td class="has-text-centered" id="name" />
+            <td class="has-text-centered" id="questionItem">
+              <i><span id="pointValueLabel"></span></i><br />
+              <div id="pointTags"></div>
+              <span class="tag is-info" id="correctTemplate"></span>
+              <span class="tag is-danger" id="incorrectTemplate"></span>
+              <span class="tag is-warning" id="noResponseTemplate"></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </template>
 
