@@ -675,11 +675,14 @@ function initializeLiveEvents() {
                 .addClass("menu-list");
 
             // Process each meet.
-            const noStatsWarning = document.getElementById("noStatsWarning");
-
             let isFirstMeet = true;
             let hasQStats = false;
             for (let meet of report.Report.Meets) {
+
+                // If there are any question stats, mark the flag.
+                if (meet.HasQuestionStats) {
+                    hasQStats = true;
+                }
 
                 // Determine if this is a report where the events needs to be skipped.
                 switch (currentReportType) {
@@ -1756,9 +1759,6 @@ function initializeLiveEvents() {
                         if (-1 == maxQuestionId) {
                             continue;
                         }
-                        else {
-                            hasQStats = true;
-                        }
 
                         // Append the header for the questions.
                         for (let questionId = 1; questionId <= maxQuestionId; questionId++) {
@@ -1840,12 +1840,9 @@ function initializeLiveEvents() {
                 tableOfContentsMeets.append(tocEntry);
             }
 
-            // If there are no stats and it is the stats tab, display the warning.
-            if (currentReportType == ReportType.QStats && !hasQStats) {
-                resultsPane.append(noStatsWarning);
-            }
-            else {
-                noStatsWarning.remove();
+            // If there are no stats and remove the stats tab.
+            if (!hasQStats) {
+                questionStatsTab.remove();
             }
 
             // Capture all the meet cells.
