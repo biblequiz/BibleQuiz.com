@@ -44,4 +44,4 @@ A 27:14 (called a "northeaster")
 -   The Philip named in Acts 1 is referring to Philip the Apostle and is a separate individual from Philip the Evangelist in Acts 6, 8 and 21.
 -   Pilate, named in Acts 3 and 13, should be combined with Pontius Pilate in Acts 4.
 -   The Antioch named in Acts 6 should be included with Antioch of Syria in Acts 11:19. The verse refers to Nicolas of Antioch, "an earlier convert to the Jewish faith", meaning he would have been one of the first believers from the Syrian Antioch.
--   Claudius Lysias in Acts 23 should be labeled under Lysias in Acts 24, as well as Porcius Festus in Acts 24 under Festus in Acts 24 and 25.
+-   Claudius Lysias in Acts 23 should be labeled under Lysias in Acts 24, as well as Porcius Festus in Acts 24 under Festus in Acts 25 and 26.
