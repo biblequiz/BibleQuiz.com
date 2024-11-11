@@ -768,8 +768,13 @@ function initializeLiveEvents() {
                     case ReportType.Stats: {
 
                         const noScoresWarning = getByAndRemoveId(meetCell, "noScoresWarning");
+                        const statsExcelButton = getByAndRemoveId(meetCell, "statsExcelButton");
                         if (meet.RankedTeams) {
                             noScoresWarning.remove();
+
+                            // Update the stats button.
+                            statsExcelButton.attr("href", `https://scores.biblequiz.com/api/v1.0/reports/Events/${eventId}/Stats`);
+                            statsExcelButton.attr("download", `Stats - ${report.EventName}.xlsx`);
 
                             // Update the print menu.
                             getByAndRemoveId(meetCell, "print_TeamsAndQuizzers")
@@ -810,6 +815,7 @@ function initializeLiveEvents() {
                         }
                         else {
                             getByAndRemoveId(meetCell, "statsPrintButton").remove();
+                            statsExcelButton.remove();
                         }
 
                         // Update the progress.
