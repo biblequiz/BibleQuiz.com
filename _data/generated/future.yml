@@ -33,7 +33,7 @@ jbq:
   scopeLabel: Minnesota
 - id: 4809c6e9-18d5-4d5f-ceb9-08dcf381e17a
   season: 2025
-  registrationDates: Closes Nov 11, 2024
+  registrationDates: Closed
   isLive: true
   isVisible: true
   locationName: The Rock Church
@@ -133,20 +133,9 @@ jbq:
   name: Smoky Mountain Invitational!
   scope: tournament
 tbq:
-- id: 9ec7b1c8-936a-4ccd-754b-08dcd29da0fd
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: North Texas TBQ District
-  locationCity: Red Oak, TX
-  dates: Nov 8 - 14, 2024
-  name: North Texas TBQ League Meets - 2024-25
-  scope: district
-  scopeLabel: North Texas
 - id: dd6971af-f7a5-4d15-691e-08dcfdd1f102
   season: 2025
-  registrationDates: Closes Nov 13, 2024
+  registrationDates: Closed
   isLive: true
   isVisible: true
   locationName: The Rock Church
@@ -194,6 +183,15 @@ tbq:
   name: 'Southern Missouri District League Meet #3'
   scope: district
   scopeLabel: Southern Missouri
+- id: 8d8797d9-d621-4fe2-5683-08dd0506ec87
+  season: 2025
+  registrationDates: Closes Jan 6, 2025
+  isVisible: true
+  locationName: Sioux Falls First
+  locationCity: Sioux Falls, SD
+  dates: Jan 10 - 11, 2025
+  name: Mid-Winter Classic 2025
+  scope: tournament
 - id: db6250ec-0035-4ec0-2cdd-08dced412524
   season: 2025
   registrationDates: Closes Feb 16, 2025
