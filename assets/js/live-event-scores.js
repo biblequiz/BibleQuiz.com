@@ -668,6 +668,7 @@ function initializeLiveEvents() {
 
             // Update the title of the page.
             $(document).prop("title", report.EventName);
+            $("#pageHero").addClass("hide-on-print");
             $("#pageTitle").text(report.EventName);
 
             // Initialize the table of contents.
