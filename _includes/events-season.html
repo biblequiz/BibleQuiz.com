@@ -25,7 +25,7 @@
         {% elsif event.scope == "district" or include.scope == "districtFinals" %}
         <span class="tag is-success">DISTRICT</span>
         {% endif %}
-        {% if event.scopeLabel and include.scope == "other" %}
+        {% if event.scopeLabel and (include.scope == "reports" or include.scope == "other") %}
         &nbsp;{{ event.scopeLabel }}
         {% endif %}
       </td>{% endif %}
