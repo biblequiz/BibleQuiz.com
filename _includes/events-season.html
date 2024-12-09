@@ -5,16 +5,16 @@
 {% if event_count > 0 %}
 <table class="table is-striped is-narrow is-hoverable is-fullwidth">
   <thead>
-    <tr>{% if include.scope == "other" %}
+    <tr>{% if include.scope == "reports" or include.scope == "other" %}
       <th>&nbsp;</th>{% endif %}
-      <th>Event</th>
+      <th>Event</th>{% if include.scope != "reports" %}
       <th>Location</th>
-      <th>Date(s)</th>
+      <th>Date(s)</th>{% endif %}
     </tr>
   </thead>
   <tbody>
     {% for event in events %}
-    <tr>{% if include.scope == "other" %}
+    <tr>{% if include.scope == "reports" or include.scope == "other" %}
       <td>
         {% if event.scope == "nation" or include.scope == "nation" %}
         <span class="tag is-dark">NATIONAL</span>
@@ -37,9 +37,9 @@
           {{ event.name }}
           {% endif %}
         </a>
-      </td>
+      </td>{% if include.scope != "reports" %}
       <td>{% if event.locationName %}{{ event.locationName }}<br>{% endif %}<em>{{ event.locationCity }}</em></td>
-      <td>{{ event.dates }}</td>
+      <td>{{ event.dates }}</td>{% endif %}
     </tr>
     {% endfor %}
   </tbody>
