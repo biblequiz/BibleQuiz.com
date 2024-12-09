@@ -21,6 +21,10 @@ menubar: menu_jbq
 
 {% include events-season.html type="jbq" year="2025" scope="districtFinals" %}
 
+## Reports
+
+{% include events-season.html type="jbq" year="2025" scope="reports" %}
+
 ## Other Competitions
 
 {% include events-season.html type="jbq" year="2025" scope="other" %}
