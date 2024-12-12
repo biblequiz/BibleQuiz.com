@@ -966,6 +966,12 @@ function initializeLiveEvents() {
                             }
 
                             // Build the Quizzers table.
+                            const quizzerTableHeader = getByAndRemoveId(quizzersContainer, "quizzersTableHeader");
+                            const quizzerTableYearsHeader = getByAndRemoveId(quizzerTableHeader, "yearsQuizzingColumn");
+                            if (!meet.ShowYearsQuizzing) {
+                                quizzerTableYearsHeader.remove();
+                            }
+
                             const quizzerTableBody = getByAndRemoveId(quizzersContainer, "quizzersTableBody");
                             const quizzerTableRowTemplate = getByAndRemoveId(quizzerTableBody, "tableRow")
                                 .remove()
@@ -973,7 +979,7 @@ function initializeLiveEvents() {
 
                             for (let i = 0; i < meet.RankedQuizzers.length; i++) {
 
-                                const quizzer = meet.Quizzers[meet.RankedQuizzers[i]]
+                                const quizzer = meet.Quizzers[meet.RankedQuizzers[i]];
 
                                 const tableRow = cloneTemplate(quizzerTableRowTemplate);
 
@@ -1001,6 +1007,14 @@ function initializeLiveEvents() {
                                 getByAndRemoveId(tableRow, "question30sColumn").append(quizzer.Scores.Correct30s ? quizzer.Scores.Correct30s : "&nbsp;");
                                 getByAndRemoveId(tableRow, "question20sColumn").append(quizzer.Scores.Correct20s ? quizzer.Scores.Correct20s : "&nbsp;");
                                 getByAndRemoveId(tableRow, "question10sColumn").append(quizzer.Scores.Correct10s ? quizzer.Scores.Correct10s : "&nbsp;");
+
+                                const yearsQuizzingColumn = getByAndRemoveId(tableRow, "yearsQuizzingColumn");
+                                if (meet.ShowYearsQuizzing) {
+                                    yearsQuizzingColumn.append(null == quizzer.YearsQuizzing ? "&nbsp;" : quizzer.YearsQuizzing);
+                                }
+                                else {
+                                    yearsQuizzingColumn.remove();
+                                }
 
                                 // Update the search index.
                                 searchIndexSource.quizzers.push({
