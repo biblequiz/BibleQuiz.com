@@ -79,6 +79,7 @@ Once you've earned the NMA and/or the MMA, fill out the following form and send 
 <!-- ### Discipleship Award Guidelines -->
 
 <a href="{% link assets/2025/24-25_Discipleship-Award-Guidelines.pdf %}" class="button is-primary">Discipleship Award Guidelines</a>
+<a href="{% link assets/2025/24-25 Acts Discussion Questions.pdf %}" class="button is-primary">Discussion Questions</a>
 
 ---
 
