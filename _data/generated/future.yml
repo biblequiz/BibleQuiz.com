@@ -8,6 +8,17 @@ jbq:
   dates: Dec 29, 2024
   name: Springfield Section - JBQ 2024 Dec Meet
   scope: nation
+- id: 731d99a4-4838-4b05-0e60-08dd288ceba4
+  season: 2025
+  registrationDates: Closes Dec 30, 2024
+  isLive: true
+  isVisible: true
+  locationName: Church Unleashed Commack
+  locationCity: Commack, NY
+  dates: Dec 31 - Jan 4, 2025
+  name: Long Island JBQ League Meet 2
+  scope: district
+  scopeLabel: New York
 - id: 3e22fdb2-48f8-44b3-a03d-08dccae570d1
   season: 2025
   registrationDates: Closes Dec 31, 2024
@@ -22,6 +33,7 @@ jbq:
 - id: b24b2db0-60d0-46c9-4dd8-08dd0b0e2ea9
   season: 2025
   registrationDates: Closes Dec 30, 2024
+  isLive: true
   isVisible: true
   locationName: Trinity Church
   locationCity: Sharpsburg, GA
@@ -32,6 +44,7 @@ jbq:
 - id: 6e55230f-4f0a-4ffd-be3b-08dd01805c37
   season: 2025
   registrationDates: Closes Dec 30, 2024
+  isLive: true
   isVisible: true
   locationName: Christian Chapel Assembly
   locationCity: Tulsa, OK
@@ -42,6 +55,7 @@ jbq:
 - id: 0261cace-a1dd-40bf-85ce-08dd1f98a595
   season: 2025
   registrationDates: Closed
+  isLive: true
   isVisible: true
   locationName: Open Bible Church
   locationCity: Rapid City, SD
@@ -52,6 +66,7 @@ jbq:
 - id: 22ebf7e9-af1c-4b3b-5f43-08dd253a77e5
   season: 2025
   registrationDates: Closes Jan 2, 2025
+  isLive: true
   isVisible: true
   locationName: Evangel Assembly of God
   locationCity: Williamsville, NY
@@ -176,6 +191,7 @@ tbq:
 - id: 05992147-ebc4-4e98-2e1a-08dd18b6075c
   season: 2025
   registrationDates: Closes Jan 1, 2025
+  isLive: true
   isVisible: true
   locationName: Oak Grove Assembly of God
   locationCity: Springfield, MO
