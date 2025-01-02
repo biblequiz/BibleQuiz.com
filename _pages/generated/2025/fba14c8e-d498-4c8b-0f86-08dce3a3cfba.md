@@ -27,8 +27,8 @@ menubar_toc_static:
 
 | # | Team / Church | W | L | Total | AVG | QO | Q% | 30s | 20s | 10s |
 |--:|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| 1 | Christian Chapel Assembly (Tulsa) #1 | 5 | 0 | 645 | 107.5 | 6 | 90% |  |  | 62 |
-| 2 | Carbondale Discoverer #1 | 4 | 1 | 275 | 45.8 | 1 | 62% |  |  | 38 |
+| 1 | Christian Chapel Assembly D | 5 | 0 | 645 | 107.5 | 6 | 90% |  |  | 62 |
+| 2 | Carbondale Discoverer | 4 | 1 | 275 | 45.8 | 1 | 62% |  |  | 38 |
 | 3 | Carbondale Discoverer #2 | 2 | 4 | 195 | 32.5 | 1 | 72% |  |  | 23 |
 
 ### Individuals
@@ -37,19 +37,18 @@ menubar_toc_static:
 
 | # | Quizzer | Team / Church | Total | AVG | QO | Q% | 30s | 20s | 10s |
 |--:|---|---|--:|--:|--:|--:|--:|--:|--:|
-| 1 | Deana Fladie | Christian Chapel Assembly (Tulsa) #1 | 385 | 64.2 | 5 | 97% |  |  | 34 |
-| 2 | Wesley Winn | Christian Chapel Assembly (Tulsa) #1 | 225 | 37.5 | 1 | 83% |  |  | 24 |
+| 1 | Deana Fladie | Christian Chapel Assembly D | 385 | 64.2 | 5 | 97% |  |  | 34 |
+| 2 | Wesley Winn | Christian Chapel Assembly D | 225 | 37.5 | 1 | 83% |  |  | 24 |
 | 3 | Evie Goodridge | Carbondale Discoverer #2 | 195 | 32.5 | 1 | 72% |  |  | 23 |
-| 4 | Lillian Potter | Carbondale Discoverer #1 | 190 | 31.7 | 1 | 70% |  |  | 23 |
-| 5 | Charlotte Potter | Carbondale Discoverer #1 | 85 | 14.2 |  | 54% |  |  | 15 |
-| 6 | Isaac Ray | Christian Chapel Assembly (Tulsa) #1 | 35 | 5.8 |  | 80% |  |  | 4 |
+| 4 | Lillian Potter | Carbondale Discoverer | 190 | 31.7 | 1 | 70% |  |  | 23 |
+| 5 | Charlotte Potter | Carbondale Discoverer | 85 | 14.2 |  | 54% |  |  | 15 |
+| 6 | Isaac Ray | Christian Chapel Assembly D | 35 | 5.8 |  | 80% |  |  | 4 |
 | **\*7** | Brady Billingsley | Carbondale Discoverer #2 |  |  |  |  |  |  |  |
 | **\*7** | Bronson Billingsley | Carbondale Discoverer #2 |  |  |  |  |  |  |  |
-| **\*7** | Eden Harris | Carbondale Discoverer #1 |  |  |  |  |  |  |  |
-| **\*7** | Jae Jones | Carbondale Discoverer #1 |  |  |  |  |  |  |  |
+| **\*7** | Eden Harris | Carbondale Discoverer |  |  |  |  |  |  |  |
 | **\*7** | Josie Jones | Carbondale Discoverer #2 |  |  |  |  |  |  |  |
-| **\*7** | Kyle Gancarz | Christian Chapel Assembly (Tulsa) #1 |  |  |  |  |  |  |  |
-| **\*7** | Summit Gancarz | Christian Chapel Assembly (Tulsa) #1 |  |  |  |  |  |  |  |
+| **\*7** | Kyle Gancarz | Christian Chapel Assembly D |  |  |  |  |  |  |  |
+| **\*7** | Summit Gancarz | Christian Chapel Assembly D |  |  |  |  |  |  |  |
 
 \* Tie couldn't be broken by tie breaking rules.
 
@@ -70,8 +69,8 @@ menubar_toc_static:
 | 1 | Faith Church (Tulsa) #1 | 5 | 0 | 570 | 114 | 6 | 85% |  | 12 | 32 |
 | **\*2** | Carbondale Searcher #2 | 3 | 2 | 250 | 50 |  | 68% |  | 3 | 31 |
 | **\*3** | Carbondale Searcher #4 | 3 | 2 | 310 | 62 | 1 | 86% |  | 2 | 30 |
-| **\*4** | Carbondale Searcher #1 | 2 | 3 | 290 | 58 |  | 74% |  | 7 | 24 |
-| **\*5** | Christian Chapel Assembly (Tulsa) #2 | 2 | 3 | 225 | 45 | 1 | 78% |  | 2 | 23 |
+| **\*4** | Carbondale Searcher #182 (one ate two) | 2 | 3 | 290 | 58 |  | 74% |  | 7 | 24 |
+| **\*5** | Christian Chapel Assembly S | 2 | 3 | 225 | 45 | 1 | 78% |  | 2 | 23 |
 | 6 | First Assembly of God (Muskogee) #1 | 0 | 5 |  |  |  |  |  |  |  |
 
 \* Tie broken by head-to-head record of teams.
@@ -85,25 +84,24 @@ menubar_toc_static:
 | 1 | Jazmyn Costa | Faith Church (Tulsa) #1 | 300 | 60 | 2 | 94% |  | 12 | 5 |
 | 2 | Grace Thomas | Faith Church (Tulsa) #1 | 270 | 54 | 4 | 79% |  |  | 27 |
 | 3 | Carly Middleton | Carbondale Searcher #4 | 220 | 44 | 1 | 96% |  |  | 22 |
-| 4 | Ethan Ray | Christian Chapel Assembly (Tulsa) #2 | 175 | 35 | 1 | 79% |  | 2 | 17 |
-| 5 | Sadie Quinn | Carbondale Searcher #1 | 135 | 27 |  | 62% |  | 6 | 10 |
+| 4 | Ethan Ray | Christian Chapel Assembly S | 175 | 35 | 1 | 79% |  | 2 | 17 |
+| 5 | Sadie Quinn | Carbondale Searcher #182 (one ate two) | 135 | 27 |  | 62% |  | 6 | 10 |
 | 6 | Joseph Cates | Carbondale Searcher #2 | 100 | 20 |  | 65% |  | 1 | 12 |
-| 7 | Molly Middleton | Carbondale Searcher #1 | 95 | 19 |  | 90% |  | 1 | 8 |
+| 7 | Molly Middleton | Carbondale Searcher #182 (one ate two) | 95 | 19 |  | 90% |  | 1 | 8 |
 | 8 | Levi Cobb | Carbondale Searcher #2 | 90 | 18 |  | 75% |  | 1 | 11 |
 | 9 | Stephen Hazelrigg | Carbondale Searcher #2 | 70 | 14 |  | 100% |  | 1 | 5 |
 | 10 | Mason Goodridge | Carbondale Searcher #4 | 65 | 13 |  | 70% |  | 2 | 5 |
-| 11 | Eowyn Berens | Christian Chapel Assembly (Tulsa) #2 | 50 | 10 |  | 75% |  |  | 6 |
-| 12 | Trinity Harris | Carbondale Searcher #1 | 40 | 8 |  | 100% |  |  | 4 |
-| 13 | Gabriel Richards | Carbondale Searcher #1 | 20 | 4 |  | 100% |  |  | 2 |
+| 11 | Eowyn Berens | Christian Chapel Assembly S | 50 | 10 |  | 75% |  |  | 6 |
+| 12 | Trinity Harris | Carbondale Searcher #182 (one ate two) | 40 | 8 |  | 100% |  |  | 4 |
+| 13 | Gabriel Richards | Carbondale Searcher #182 (one ate two) | 20 | 4 |  | 100% |  |  | 2 |
 | 14 | JJ Miller | Carbondale Searcher #4 | 15 | 3 |  | 67% |  |  | 2 |
 | 15 | Lola Holt | Carbondale Searcher #4 | 10 | 2 |  | 100% |  |  | 1 |
 | **\*16** | Alyson Taylor | First Assembly of God (Muskogee) #1 |  |  |  |  |  |  |  |
-| **\*16** | Atlas Quinn | Carbondale Searcher #1 |  |  |  |  |  |  |  |
 | **\*16** | Benjamin Hopfer | First Assembly of God (Muskogee) #1 |  |  |  |  |  |  |  |
 | **\*16** | Elijah Staggers | First Assembly of God (Muskogee) #1 |  |  |  |  |  |  |  |
 | **\*16** | Lilliana Staggers | First Assembly of God (Muskogee) #1 |  |  |  |  |  |  |  |
-| **\*16** | Peyton Morris | Christian Chapel Assembly (Tulsa) #2 |  |  |  |  |  |  |  |
-| 22 | Josiah Cobb | Carbondale Searcher #2 | -10 | -2 |  | 38% |  |  | 3 |
+| **\*16** | Peyton Morris | Christian Chapel Assembly S |  |  |  |  |  |  |  |
+| 21 | Josiah Cobb | Carbondale Searcher #2 | -10 | -2 |  | 38% |  |  | 3 |
 
 \* Tie couldn't be broken by tie breaking rules.
 
@@ -173,7 +171,7 @@ menubar_toc_static:
 | # | Team / Church | W | L | Total | AVG | QO | Q% | 30s | 20s | 10s |
 |--:|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | 1 | Owasso 1st Assembly (Owasso) God's Girls | 7 | 0 | 1,500 | 214.3 | 7 | 90% | 13 | 36 | 39 |
-| 2 | Carbondale Achiever #1 | 6 | 1 | 970 | 138.6 | 7 | 87% | 6 | 15 | 53 |
+| 2 | Carbondale Achiever | 6 | 1 | 970 | 138.6 | 7 | 87% | 6 | 15 | 53 |
 | **\*3** | Woodlake Blue | 4 | 3 | 580 | 82.9 | 3 | 80% | 5 | 18 | 13 |
 | **\*4** | Woodlake Red | 4 | 3 | 605 | 86.4 | 4 | 82% | 4 | 10 | 36 |
 | 5 | Carbondale Achiever #2 | 3 | 4 | 535 | 76.4 | 1 | 88% | 2 | 10 | 31 |
@@ -190,18 +188,18 @@ menubar_toc_static:
 |--:|---|---|--:|--:|--:|--:|--:|--:|--:|
 | 1 | Anna Wagner | Owasso 1st Assembly (Owasso) God's Girls | 1,010 | 144.3 | 7 | 100% | 11 | 30 | 1 |
 | 2 | Sam Ramsey | Woodlake Blue | 535 | 76.4 | 3 | 82% | 5 | 17 | 9 |
-| 3 | Paisley Wootton | Carbondale Achiever #1 | 515 | 73.6 | 4 | 94% | 3 | 10 | 21 |
+| 3 | Paisley Wootton | Carbondale Achiever | 515 | 73.6 | 4 | 94% | 3 | 10 | 21 |
 | 4 | Kaira Haynes | Woodlake Red | 445 | 63.6 | 4 | 86% | 3 | 8 | 21 |
 | 5 | Braxton Mueters | Owasso 1st Assembly (Owasso) Fire Nation | 355 | 50.7 | 2 | 94% |  | 6 | 23 |
 | 6 | Holden Hanover | Owasso 1st Assembly (Owasso) Memory Masters | 340 | 48.6 | 2 | 85% |  | 3 | 30 |
-| 7 | Evelynn Potter | Carbondale Achiever #1 | 330 | 47.1 | 3 | 80% | 1 | 3 | 29 |
+| 7 | Evelynn Potter | Carbondale Achiever | 330 | 47.1 | 3 | 80% | 1 | 3 | 29 |
 | **\*8** | Stella Holt | Carbondale Achiever #2 | 330 | 47.1 | 1 | 96% | 2 | 6 | 15 |
 | 9 | Ella Childress | Owasso 1st Assembly (Owasso) God's Girls | 190 | 27.1 |  | 90% |  | 1 | 18 |
 | 10 | Isabella Hutchison | Carbondale Achiever #2 | 180 | 25.7 |  | 89% |  | 4 | 12 |
 | 11 | Abby Ramsey | Woodlake Red | 170 | 24.3 |  | 78% | 1 | 2 | 15 |
 | 12 | Penelope Childress | Owasso 1st Assembly (Owasso) God's Girls | 160 | 22.9 |  | 82% |  |  | 18 |
 | 13 | Giulia Scalora | Owasso 1st Assembly (Owasso) God's Girls | 140 | 20 |  | 69% | 2 | 5 | 2 |
-| 14 | Mercy Harris | Carbondale Achiever #1 | 125 | 17.9 |  | 88% | 2 | 2 | 3 |
+| 14 | Mercy Harris | Carbondale Achiever | 125 | 17.9 |  | 88% | 2 | 2 | 3 |
 | **\*\*15** | Ella Chamberlain | Owasso 1st Assembly (Owasso) Fire Nation | 90 | 12.9 |  | 73% |  |  | 11 |
 | **\*\*15** | Kyra Mueters | Owasso 1st Assembly (Owasso) Fire Nation | 90 | 12.9 |  | 73% |  | 3 | 5 |
 | 17 | Evelyn Stewart | Owasso 1st Assembly (Owasso) Memory Masters | 60 | 8.6 |  | 75% |  | 1 | 5 |
@@ -211,8 +209,7 @@ menubar_toc_static:
 | 21 | Mercy Rogers | Owasso 1st Assembly (Owasso) Fire Nation | 5 | .7 |  | 50% |  |  | 1 |
 | **\*\*22** | Judah Haynes | Woodlake Red |  |  |  |  |  |  |  |
 | **\*\*22** | Maverick Boggs | Owasso 1st Assembly (Owasso) Memory Masters |  |  |  |  |  |  |  |
-| **\*\*22** | Schuyler Turner | Owasso 1st Assembly (Owasso) Memory Masters |  |  |  |  |  |  |  |
-| 25 | Teagan Wells | Woodlake Red | -10 | -1.4 |  |  |  |  |  |
+| 24 | Teagan Wells | Woodlake Red | -10 | -1.4 |  |  |  |  |  |
 
 \* Tie broken by total quiz outs.\
 \*\* Tie couldn't be broken by tie breaking rules.
