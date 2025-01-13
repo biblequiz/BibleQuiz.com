@@ -2,6 +2,7 @@ jbq:
 - id: 5e94c0f0-1a4a-47f9-a1a6-08dcfcf6d577
   season: 2025
   registrationDates: Closes Jan 11, 2025
+  isLive: true
   isVisible: true
   locationName: Heritage Assembly of God
   locationCity: Baxter, MN
@@ -12,6 +13,7 @@ jbq:
 - id: 56435e69-4e82-41a8-94d1-08dd334f9d8c
   season: 2025
   registrationDates: Closes Jan 12, 2025
+  isLive: true
   isVisible: true
   locationName: Blue Springs Assembly of God
   locationCity: Blue Springs, MO
@@ -21,6 +23,7 @@ jbq:
 - id: 62bfaa0f-f042-423d-7842-08dcf085fcce
   season: 2025
   registrationDates: Closes Jan 13, 2025
+  isLive: true
   isVisible: true
   locationName: Cedar Valley Assemblies of God
   locationCity: Bloomington, MN
@@ -31,6 +34,7 @@ jbq:
 - id: 88e120df-2fff-45e5-85cd-08dd1f98a595
   season: 2025
   registrationDates: Closes Jan 15, 2025
+  isLive: true
   isVisible: true
   locationName: Cedar Park Assembly of God
   locationCity: Bothell, WA
@@ -41,6 +45,7 @@ jbq:
 - id: 7e0ba5c2-094a-4cbe-cfa2-08dd01eff99b
   season: 2025
   registrationDates: Closed
+  isLive: true
   isVisible: true
   locationName: various
   dates: Jan 18, 2025
@@ -113,6 +118,16 @@ jbq:
   dates: Feb 28 - Mar 1, 2025
   name: Smoky Mountain Invitational!
   scope: tournament
+- id: 6830b4d5-298c-4fbd-1d8f-08dd3382099d
+  season: 2025
+  registrationDates: Closes Mar 16, 2025
+  isVisible: true
+  locationName: Hope Church
+  locationCity: Springfield, MO
+  dates: Mar 22, 2025
+  name: Southern Missouri District Finals
+  scope: district
+  scopeLabel: Southern Missouri
 - id: 66e50d1b-7d83-4f00-4a52-08dd2c42dae4
   season: 2025
   registrationDates: Closes Mar 1, 2025
@@ -127,6 +142,7 @@ tbq:
 - id: 9b90c898-63eb-436c-83fb-08dd08c791b4
   season: 2025
   registrationDates: Closes Jan 13, 2025
+  isLive: true
   isVisible: true
   locationName: Waypoint Baptist Church
   locationCity: Cumming, GA
@@ -137,6 +153,7 @@ tbq:
 - id: ff3bc8c5-6de2-4b46-f9d8-08dd32b4f553
   season: 2025
   registrationDates: Closes Jan 16, 2025
+  isLive: true
   isVisible: true
   locationName: Cedar Park Assembly of God
   locationCity: Bothell, WA
@@ -147,6 +164,7 @@ tbq:
 - id: 14e5d332-82d7-464f-f297-08dd335af574
   season: 2025
   registrationDates: Closes Jan 17, 2025
+  isLive: true
   isVisible: true
   locationName: Covenant Life Fellowship
   locationCity: Hubbard, OH
@@ -157,6 +175,7 @@ tbq:
 - id: 34a6d8d6-ad50-44be-cfa3-08dd01eff99b
   season: 2025
   registrationDates: Closes Jan 12, 2025
+  isLive: true
   isVisible: true
   locationName: various
   dates: Jan 18, 2025
