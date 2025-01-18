@@ -37,7 +37,7 @@ menubar_toc_static:
 | Kevin Gillatt    | Christian Faith Center   |   710 |
 | Steve Patient    | Calvary Temple           |   680 |
 | Mindy Rogers     | Calvary Temple           |   615 |
-| Brent Ellwien    | Parkhill                 |   570 |
+| Brent Ellwein    | Parkhill                 |   570 |
 | Nellena Nelsen   | Clearwater Valley        |   500 |
 | Jon Pon          | Meridian                 |   455 |
 | Stephanie Knight | 1st Assembly Life Center |   430 |
