@@ -1225,7 +1225,13 @@ function initializeLiveEvents() {
 
                                     formatElementTextSizes(allResizableIfSingleTeamElements, true);
 
+                                    allMeetCellTitles.hide();
+                                    allTeamNamePrefixes.show();
+
                                     printScheduleAndScores.triggerHandler("click");
+
+                                    allTeamNamePrefixes.hide();
+                                    allMeetCellTitles.show();
 
                                     formatElementTextSizes(allResizableIfSingleTeamElements, false);
 
@@ -1247,7 +1253,13 @@ function initializeLiveEvents() {
 
                                     formatElementTextSizes(allResizableIfSingleTeamElements, true);
 
+                                    allMeetCellTitles.hide();
+                                    allTeamNamePrefixes.show();
+
                                     printScheduleOnly.triggerHandler("click");
+
+                                    allTeamNamePrefixes.hide();
+                                    allMeetCellTitles.show();
 
                                     formatElementTextSizes(allResizableIfSingleTeamElements, false);
 
@@ -1282,7 +1294,8 @@ function initializeLiveEvents() {
 
                             // Add the team information.
                             const highlightTeamName = getByAndRemoveId(teamCardOrRow, isCardReport ? "teamName" : "nameColumn")
-                                .text(team.Name);
+                                .append($("<span />").addClass("team-name-prefix").hide().text(`${meet.Name}: `))
+                                .append($("<span />").text(team.Name));
                             if (!isRoomReport) {
 
                                 // Update the search index.
@@ -1868,6 +1881,8 @@ function initializeLiveEvents() {
 
             // Capture all the meet cells.
             const allMeetCells = $(".meet-cell");
+            const allMeetCellTitles = $(".meet-cell-title");
+            const allTeamNamePrefixes = $(".team-name-prefix");
             const allScheduleOnlyCells = $(".show-if-schedule");
             const allShowIfTeamCells = $(".show-if-single-team");
             const allIsFullIfSingleTeamElements = $(".is-full-if-single-team");
