@@ -1,14 +1,4 @@
 jbq:
-- id: 7548f3cb-6b57-4ff2-754a-08dcd29da0fd
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: North Texas District
-  dates: Jan 13 - 19, 2025
-  name: North Texas 2024-2025 Team Registration
-  scope: district
-  scopeLabel: North Texas
 - id: 4881da18-bbe6-4c3b-cb00-08dc9abf19f0
   season: 2025
   registrationDates: Closes Jan 20, 2025
@@ -97,6 +87,15 @@ jbq:
   dates: Feb 14 - 15, 2025
   name: John Crabtree Tournament
   scope: tournament
+- id: 108bef42-df83-4f74-837f-08dd33f8ba3f
+  season: 2025
+  registrationDates: Closes Feb 8, 2025
+  isVisible: true
+  locationName: various
+  dates: Feb 15, 2025
+  name: 'Tennessee Meet #4'
+  scope: region
+  scopeLabel: Gulf
 - id: 7e5e9577-4f4b-46da-4eef-08dd365fe28f
   season: 2025
   registrationDates: Closes Feb 10, 2025
@@ -157,7 +156,7 @@ jbq:
 tbq:
 - id: 8b803d72-9db7-41c5-83ff-08dd08c791b4
   season: 2025
-  registrationDates: Closes Jan 19, 2025
+  registrationDates: Closed
   isLive: true
   isVisible: true
   locationName: Oxford Assembly of God
@@ -214,6 +213,15 @@ tbq:
   name: '2025 Bible Quiz Georgia League Meet #4'
   scope: district
   scopeLabel: Georgia
+- id: bf69d004-6b0a-4847-8380-08dd33f8ba3f
+  season: 2025
+  registrationDates: Closes Feb 8, 2025
+  isVisible: true
+  locationName: various
+  dates: Feb 15, 2025
+  name: 'Tennessee Meet #4'
+  scope: district
+  scopeLabel: Tennessee
 - id: 99f0888e-8321-414e-78a8-08dd30abb71b
   season: 2025
   registrationDates: Closes Feb 10, 2025
