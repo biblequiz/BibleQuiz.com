@@ -22,6 +22,12 @@ Note that scripture portions purchased from My Healthy Church have additions and
 
 <a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">National Finals Info</a>
 
+## Official Competition Tie-Breaker Rules
+
+Applies to District, Regional, and National Finals.
+
+<a href="{% link assets/2025/24-25 TBQ Tie-Breaker Rules.pdf %}" class="button is-primary">Download Tie-Breaking Rules</a>
+
 ## Pronunciation Guide
 
 Have you or your quizzers struggled to pronounce any of the names and places in Acts? This guide can help!

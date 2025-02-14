@@ -58,9 +58,10 @@ Find answers to the most commonly asked questions.
 
 <a href="{% link _pages/history/2024/nationals/faq.md %}" class="button is-primary">National Finals FAQ</a> -->
 
-<!-- ### Tiebreakers -->
+### Tie-Breakers
 
-<!-- <a href="{% link assets/2023/2023 National Finals Tie Breaker Rules.pdf %}" class="button is-primary">Download tiebreaking rules</a> -->
+<a href="{% link assets/2025/24-25 TBQ Tie-Breaker Rules.pdf %}" class="button is-primary">Download Tie-Breaking Rules</a>
+
 <!--
 ### First time at National Finals?
 
