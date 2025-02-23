@@ -20,16 +20,6 @@ jbq:
   name: Meet#4 MIJBQ Metro Section 2025
   scope: district
   scopeLabel: Michigan
-- id: f3733c17-c2fb-45df-6a64-08dd516c20a3
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: Home
-  dates: Feb 22, 2025
-  name: MI TEST
-  scope: district
-  scopeLabel: Michigan
 - id: c00e0a77-385f-45fc-98e9-08dd4a1b48cb
   season: 2025
   registrationDates: Closed
@@ -62,9 +52,20 @@ jbq:
   name: Western Section League Meet 3
   scope: district
   scopeLabel: New York
+- id: 03f1dc58-302b-4378-d467-08dd51e1eeda
+  season: 2025
+  registrationDates: Closes Feb 23, 2025
+  isLive: true
+  isVisible: true
+  locationName: Greater Lansing AG
+  dates: Feb 23, 2025
+  name: Meet#2 (NOV 23, 2024) MIJBQ Metro Section 2024
+  scope: district
+  scopeLabel: Michigan
 - id: 88445d76-09e3-4895-2cde-08dced412524
   season: 2025
   registrationDates: Closes Feb 20, 2025
+  isLive: true
   isVisible: true
   locationName: Lighthouse Assembly of God
   locationCity: Greeneville, TN
@@ -297,6 +298,7 @@ tbq:
 - id: db6250ec-0035-4ec0-2cdd-08dced412524
   season: 2025
   registrationDates: Closes Feb 20, 2025
+  isLive: true
   isVisible: true
   locationName: Lighthouse Assembly of God
   locationCity: Greeneville, TN
@@ -306,6 +308,7 @@ tbq:
 - id: 4934e60a-22c8-4053-78a9-08dd30abb71b
   season: 2025
   registrationDates: Closes Feb 23, 2025
+  isLive: true
   isVisible: true
   locationName: Calvary Church
   locationCity: Naperville, IL
