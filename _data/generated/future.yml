@@ -22,7 +22,7 @@ jbq:
   scopeLabel: North Texas
 - id: 194c9814-d7c4-46b3-44e2-08dd5508d432
   season: 2025
-  registrationDates: Closes Feb 28, 2025
+  registrationDates: Closed
   isLive: true
   isVisible: true
   locationName: Kennebec Valley Assembly of God
@@ -33,7 +33,7 @@ jbq:
   scopeLabel: Northern New England
 - id: 6b944037-6cd4-45e9-18e0-08dd54822095
   season: 2025
-  registrationDates: Closes Feb 28, 2025
+  registrationDates: Closed
   isLive: true
   isVisible: true
   locationName: First Assembly of God
@@ -99,7 +99,7 @@ jbq:
   scopeLabel: South Texas
 - id: a05a638f-e12d-4626-3d94-08dd44a9c869
   season: 2025
-  registrationDates: Closes Feb 28, 2025
+  registrationDates: Closed
   isVisible: true
   locationName: The Assembly in Cabot
   locationCity: Cabot, AR
@@ -156,6 +156,16 @@ jbq:
   name: 2025-03 MN Central
   scope: district
   scopeLabel: Minnesota
+- id: 69929d05-77da-49df-d464-08dd51e1eeda
+  season: 2025
+  registrationDates: Closes Mar 12, 2025
+  isVisible: true
+  locationName: Lakeside Assembly of God
+  locationCity: Shelby Township, MI
+  dates: Mar 15, 2025
+  name: MIJBQ 2025 Metro Section Finals
+  scope: district
+  scopeLabel: Michigan
 - id: 86ea0a8b-d9b6-4fb7-89df-08dd4a368bda
   season: 2025
   registrationDates: Closes Mar 8, 2025
@@ -245,6 +255,16 @@ jbq:
   name: Northeast Region Finals
   scope: region
   scopeLabel: Northeast
+- id: da20b748-cf9b-4a24-a854-08dd45821c69
+  season: 2025
+  registrationDates: Closes Apr 20, 2025
+  isVisible: true
+  locationName: First A/G San Antonio
+  locationCity: San Antonio, TX
+  dates: Apr 25 - 26, 2025
+  name: South Central JBQ Regionals 2025
+  scope: region
+  scopeLabel: South Central
 tbq:
 - id: db6250ec-0035-4ec0-2cdd-08dced412524
   season: 2025
@@ -268,7 +288,7 @@ tbq:
   scope: tournament
 - id: 6d673e59-36bc-4b6a-44e3-08dd5508d432
   season: 2025
-  registrationDates: Closes Feb 27, 2025
+  registrationDates: Closed
   isLive: true
   isVisible: true
   locationName: Kennebec Valley Assembly of God
@@ -279,7 +299,7 @@ tbq:
   scopeLabel: Northern New England
 - id: ed912eb9-b864-497d-7e9f-08dd54dcf676
   season: 2025
-  registrationDates: Closes Feb 28, 2025
+  registrationDates: Closed
   isLive: true
   isVisible: true
   locationName: First Assembly of God
