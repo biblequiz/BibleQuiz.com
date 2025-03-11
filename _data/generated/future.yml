@@ -1,72 +1,18 @@
 jbq:
-- id: c7930282-d169-4069-b5d8-08dd5b640ec0
+- id: 56bd66f0-3fcf-4a8e-d468-08dd51e1eeda
   season: 2025
   registrationDates: Closed
   isLive: true
   isVisible: true
-  locationName: West Ridge Church
-  locationCity: Eau Claire, WI
-  dates: Mar 8, 2025
-  name: 2025 JBQ EauClaire League March Meet
+  locationName: Brightmoor
+  dates: Mar 9 - 11, 2025
+  name: Meet#3 (Jan 18, 2025) MIJBQ Metro Section
   scope: district
-  scopeLabel: Wisconsin-Northern Michigan
-- id: a05a638f-e12d-4626-3d94-08dd44a9c869
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: The Assembly in Cabot
-  locationCity: Cabot, AR
-  dates: Mar 8, 2025
-  name: Central Arkansas District Qualifying Meet
-  scope: district
-  scopeLabel: Arkansas
-- id: 7303c372-50af-47ee-18e4-08dd54822095
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: Journey Church
-  locationCity: Minot, ND
-  dates: Mar 8, 2025
-  name: March 8, 2025 ND JBQ meet
-  scope: district
-  scopeLabel: North Dakota
-- id: 2cc7fd68-4c7d-4fd6-b8a6-08dcb22aa716
-  season: 2025
-  registrationDates: Closes Mar 5, 2025
-  isLive: true
-  isVisible: true
-  locationName: TBD
-  dates: Mar 8, 2025
-  name: NC JBQ Season (October - Feb)
-  scope: district
-  scopeLabel: North Carolina
-- id: e9b63437-8f02-45f1-8821-08dd5369176e
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: Northridge Assembly of God
-  locationCity: Grand Island, NE
-  dates: Mar 8, 2025
-  name: Nebraska March 2025 JBQ Match
-  scope: district
-  scopeLabel: Nebraska
-- id: 98426feb-1487-4824-a853-08dd45821c69
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: Discovery Church
-  locationCity: Yukon, OK
-  dates: Mar 8, 2025
-  name: Oklahoma District Celebration 2025
-  scope: district
-  scopeLabel: Oklahoma
+  scopeLabel: Michigan
 - id: 51964e1f-f8aa-4133-ba70-08dd4a472dde
   season: 2025
   registrationDates: Closes Mar 10, 2025
+  isLive: true
   isVisible: true
   locationName: Springville Camp
   dates: Mar 14 - 15, 2025
@@ -76,6 +22,7 @@ jbq:
 - id: 5e94c0f0-1a4a-47f9-a1a6-08dcfcf6d577
   season: 2025
   registrationDates: Closes Mar 6, 2025
+  isLive: true
   isVisible: true
   locationName: Solid Rock Family Church
   locationCity: Sartell, MN
@@ -83,19 +30,10 @@ jbq:
   name: 2025-03 MN Central
   scope: district
   scopeLabel: Minnesota
-- id: 69929d05-77da-49df-d464-08dd51e1eeda
-  season: 2025
-  registrationDates: Closes Mar 12, 2025
-  isVisible: true
-  locationName: Lakeside Assembly of God
-  locationCity: Shelby Township, MI
-  dates: Mar 15, 2025
-  name: MIJBQ 2025 Metro Section Finals
-  scope: district
-  scopeLabel: Michigan
 - id: 62bfaa0f-f042-423d-7842-08dcf085fcce
   season: 2025
   registrationDates: Closes Mar 10, 2025
+  isLive: true
   isVisible: true
   locationName: Cedar Valley Assemblies of God
   locationCity: Bloomington, MN
@@ -105,7 +43,7 @@ jbq:
   scopeLabel: Minnesota
 - id: 86ea0a8b-d9b6-4fb7-89df-08dd4a368bda
   season: 2025
-  registrationDates: Closes Mar 8, 2025
+  registrationDates: Closed
   isVisible: true
   locationName: Evangel Chapel
   locationCity: Bridgewater, NJ
@@ -152,6 +90,16 @@ jbq:
   dates: Mar 22, 2025
   name: West Texas and Plains District JBQ Meet
   scope: nation
+- id: 25987eaa-edc3-48ed-d465-08dd51e1eeda
+  season: 2025
+  registrationDates: Closes Mar 21, 2025
+  isVisible: true
+  locationName: Lakeside Assembly of God
+  locationCity: Shelby Township, MI
+  dates: Mar 28 - 29, 2025
+  name: Michigan District Finals
+  scope: district
+  scopeLabel: Michigan
 - id: fb325651-d3a7-42b1-213b-08dd43d86991
   season: 2025
   registrationDates: Closes Mar 16, 2025
@@ -162,6 +110,16 @@ jbq:
   name: Wisconsin-Northern Michigan District Finals
   scope: district
   scopeLabel: Wisconsin-Northern Michigan
+- id: 9b4b36fe-a40e-4ab7-2e40-08dd5e83d929
+  season: 2025
+  registrationDates: Closes Mar 12, 2025
+  isVisible: true
+  locationName: Abundant Life Christian Academy
+  locationCity: Sherwood, AR
+  dates: Apr 5, 2025
+  name: Arkansas District Finals
+  scope: district
+  scopeLabel: Arkansas
 - id: 7671886a-48b4-4595-4320-08dd5a5d5ca2
   season: 2025
   registrationDates: Closes Apr 7, 2025
@@ -172,16 +130,6 @@ jbq:
   name: Illinois District Finals
   scope: district
   scopeLabel: Illinois
-- id: 66e50d1b-7d83-4f00-4a52-08dd2c42dae4
-  season: 2025
-  registrationDates: Closes Mar 4, 2025
-  isVisible: true
-  locationName: Southeastern University
-  locationCity: Lakeland, FL
-  dates: Apr 12, 2025
-  name: Peninsular Florida District Finals
-  scope: district
-  scopeLabel: Peninsular Florida
 - id: 6292e6c9-fef3-4d8c-44e1-08dd5508d432
   season: 2025
   registrationDates: Closes Apr 7, 2025
@@ -233,31 +181,10 @@ jbq:
   scope: region
   scopeLabel: Great Lakes
 tbq:
-- id: 18f7e445-59ce-4e13-83fe-08dd08c791b4
-  season: 2025
-  registrationDates: Closes Mar 7, 2025
-  isLive: true
-  isVisible: true
-  locationName: YpsiAG
-  locationCity: Ypsilanti, MI
-  dates: Mar 8, 2025
-  name: '2024-2025 MI TBQ League Meet #4'
-  scope: district
-  scopeLabel: Michigan
-- id: 424288ab-228c-4ca2-4321-08dd5a5d5ca2
-  season: 2025
-  registrationDates: Closes Mar 8, 2025
-  isLive: true
-  isVisible: true
-  locationName: Carlinville First
-  locationCity: Carlinville, IL
-  dates: Mar 8, 2025
-  name: 'Illinois District League Meet #5'
-  scope: district
-  scopeLabel: Illinois
 - id: 9ec7b1c8-936a-4ccd-754b-08dcd29da0fd
   season: 2025
-  registrationDates: Closes Mar 8, 2025
+  registrationDates: Closed
+  isLive: true
   isVisible: true
   locationName: North Texas TBQ District
   locationCity: Cedar Hill, TX
@@ -265,6 +192,17 @@ tbq:
   name: North Texas TBQ League Meets - 2024-25
   scope: region
   scopeLabel: South Central
+- id: 32ccf23e-7f01-4981-b5d5-08dd5b640ec0
+  season: 2025
+  registrationDates: Closes Mar 13, 2025
+  isLive: true
+  isVisible: true
+  locationName: River of God Church
+  locationCity: Enola, PA
+  dates: Mar 15, 2025
+  name: Pennsylvania-Delaware District Finals
+  scope: district
+  scopeLabel: Pennsylvania-Delaware
 - id: 7d03b33e-ce69-4d99-6a66-08dd516c20a3
   season: 2025
   registrationDates: Closes Mar 19, 2025
@@ -287,7 +225,7 @@ tbq:
   scopeLabel: Tennessee
 - id: fad760cc-1194-4a6e-9418-08dd4ecaa082
   season: 2025
-  registrationDates: Closes Mar 11, 2025
+  registrationDates: Closes Mar 12, 2025
   isVisible: true
   locationName: Trinity Fellowship Assembly of God
   locationCity: Sharpsburg, GA
@@ -302,9 +240,9 @@ tbq:
   locationName: Calvary Church
   locationCity: Greensboro, NC
   dates: Mar 29, 2025
-  name: North Carolina District Finals
-  scope: district
-  scopeLabel: North Carolina
+  name: Southeast Region Finals
+  scope: region
+  scopeLabel: Southeast
 - id: 5376e4dd-159b-45c0-daa3-08dd53ae56a1
   season: 2025
   registrationDates: Closes Mar 21, 2025
@@ -315,6 +253,16 @@ tbq:
   name: 2025 NJ District Finals
   scope: district
   scopeLabel: New Jersey
+- id: 6914b69c-4c2e-4dd4-b5d6-08dd5b640ec0
+  season: 2025
+  registrationDates: Closes Mar 30, 2025
+  isVisible: true
+  locationName: CrossPoint Assembly of God
+  locationCity: Portage, WI
+  dates: Apr 5, 2025
+  name: Wisconsin-Northern Michigan District Finals
+  scope: district
+  scopeLabel: Wisconsin-Northern Michigan
 - id: 37ab1f4a-42a7-4630-a856-08dd45821c69
   season: 2025
   registrationDates: Closes Mar 1, 2025
@@ -325,3 +273,22 @@ tbq:
   name: Peninsular Florida District Finals
   scope: district
   scopeLabel: Peninsular Florida
+- id: f377ad93-031f-4a7c-2343-08dd5f8101b1
+  season: 2025
+  registrationDates: Closes Apr 11, 2025
+  isVisible: true
+  locationName: Bethel Assembly of God
+  locationCity: Littlestown, PA
+  dates: May 2 - 3, 2025
+  name: Northeast Regionals 2025
+  scope: region
+  scopeLabel: Northeast
+- id: a3b17dec-bd6d-4d3a-2344-08dd5f8101b1
+  season: 2025
+  registrationDates: Closes May 25, 2025
+  isVisible: true
+  locationName: GT Church
+  locationCity: Tinton Falls, NJ
+  dates: May 30 - 31, 2025
+  name: 2025 Jersey Shore Pre-Nationals
+  scope: nation
