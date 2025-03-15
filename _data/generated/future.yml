@@ -1,15 +1,4 @@
 jbq:
-- id: 69929d05-77da-49df-d464-08dd51e1eeda
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: Lakeside Assembly of God
-  locationCity: Shelby Township, MI
-  dates: Mar 13 - 15, 2025
-  name: MIJBQ 2025 Metro Section Finals
-  scope: district
-  scopeLabel: Michigan
 - id: 51964e1f-f8aa-4133-ba70-08dd4a472dde
   season: 2025
   registrationDates: Closed
@@ -41,6 +30,17 @@ jbq:
   dates: Mar 15, 2025
   name: JBQ KC MO Season 2024-2025 - February/March
   scope: nation
+- id: 69929d05-77da-49df-d464-08dd51e1eeda
+  season: 2025
+  registrationDates: Closed
+  isLive: true
+  isVisible: true
+  locationName: Lakeside Assembly of God
+  locationCity: Shelby Township, MI
+  dates: Mar 15, 2025
+  name: MIJBQ 2025 Metro Section Finals
+  scope: district
+  scopeLabel: Michigan
 - id: 62bfaa0f-f042-423d-7842-08dcf085fcce
   season: 2025
   registrationDates: Closes Mar 10, 2025
@@ -223,6 +223,17 @@ jbq:
   scope: region
   scopeLabel: Great Lakes
 tbq:
+- id: 9ec7b1c8-936a-4ccd-754b-08dcd29da0fd
+  season: 2025
+  registrationDates: Closed
+  isLive: true
+  isVisible: true
+  locationName: North Texas TBQ District
+  locationCity: Cedar Hill, TX
+  dates: Mar 12 - 18, 2025
+  name: North Texas TBQ League Meets - 2024-25
+  scope: region
+  scopeLabel: South Central
 - id: 469d2680-cb8c-45e0-d295-08dd60d23258
   season: 2025
   registrationDates: Closed
@@ -234,17 +245,6 @@ tbq:
   name: 2025 Wisconsin/NM TBQ League Meet March
   scope: district
   scopeLabel: Wisconsin-Northern Michigan
-- id: 9ec7b1c8-936a-4ccd-754b-08dcd29da0fd
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: North Texas TBQ District
-  locationCity: Cedar Hill, TX
-  dates: Mar 15, 2025
-  name: North Texas TBQ League Meets - 2024-25
-  scope: region
-  scopeLabel: South Central
 - id: 32ccf23e-7f01-4981-b5d5-08dd5b640ec0
   season: 2025
   registrationDates: Closed
