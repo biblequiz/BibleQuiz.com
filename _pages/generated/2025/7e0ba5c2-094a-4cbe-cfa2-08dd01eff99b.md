@@ -110,8 +110,8 @@ menubar_toc_static:
 | # | Team / Church | W | L | Total | AVG | QO | Q% | 30s | 20s | 10s |
 |--:|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | 1 | Lighthouse Assembly of God (Greeneville) Holy Smokies | 5 | 0 | 1,010 | 202 | 5 | 79% | 11 | 25 | 27 |
-| 2 | Bible Warriors | 4 | 1 | 780 | 156 | 5 | 89% | 5 | 13 | 37 |
-| 3 | KidsHouse Golden Girls | 3 | 2 | 830 | 166 | 4 | 89% | 8 | 19 | 22 |
+| 2 | Bible Warriors | 4 | 1 | 780 | 156 | 5 | 89% | 5 | 14 | 37 |
+| 3 | KidsHouse Golden Girls | 3 | 2 | 830 | 166 | 4 | 89% | 8 | 19 | 23 |
 | **\*4** | KidsHouse Pink | 1 | 4 | 415 | 83 | 4 | 97% |  | 5 | 28 |
 | **\*5** | LifeHouse Orange | 1 | 4 | 315 | 63 | 1 | 84% | 1 | 12 | 8 |
 | **\*6** | KidsHouse Blue (a) | 1 | 4 | 290 | 58 | 1 | 85% |  | 9 | 13 |
@@ -130,12 +130,12 @@ menubar_toc_static:
 | 4 | Jeremiah Keck | Bible Warriors | 330 | 66 | 5 | 91% |  |  | 30 |
 | 5 | Jace Miller | Lighthouse Assembly of God (Greeneville) Holy Smokies | 310 | 62 | 3 | 92% | 3 |  | 20 |
 | 6 | Drake Kirkland | LifeHouse Orange | 245 | 49 | 1 | 87% | 1 | 11 | 1 |
-| 7 | Jackson Keck | Bible Warriors | 220 | 44 |  | 100% |  | 10 |  |
+| 7 | Jackson Keck | Bible Warriors | 220 | 44 |  | 100% |  | 11 |  |
 | 8 | Julia Moorehead | KidsHouse Golden Girls | 215 | 43 |  | 93% | 4 |  | 10 |
 | 9 | Nolan Moore | KidsHouse Blue (a) | 210 | 42 | 1 | 78% |  | 9 | 5 |
 | 10 | Savannah Murphy | Lighthouse Assembly of God (Greeneville) Holy Smokies | 175 | 35 |  | 58% | 1 | 9 | 4 |
 | 11 | Adia Witte | Bible Warriors | 160 | 32 |  | 67% | 5 | 3 |  |
-| 12 | Shekinah Ballard | KidsHouse Golden Girls | 90 | 18 |  | 100% |  |  | 8 |
+| 12 | Shekinah Ballard | KidsHouse Golden Girls | 90 | 18 |  | 100% |  |  | 9 |
 | 13 | Hudson Stiefel | KidsHouse Blue (a) | 60 | 12 |  | 100% |  |  | 6 |
 | 14 | Lily Mena | KidsHouse Pink | 50 | 10 |  | 100% |  | 2 | 1 |
 | 15 | Gabriel Shrove | Bible Warriors | 40 | 8 |  | 100% |  |  | 4 |
@@ -208,7 +208,7 @@ menubar_toc_static:
 
 | # | Team / Church | W | L | Total | AVG | QO | Q% | 30s | 20s | 10s |
 |--:|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| 1 | Full Life Assembly of God (Franklin) #1 | 9 | 0 | 1,640 | 182.2 | 4 | 91% |  | 53 | 60 |
+| 1 | Full Life Assembly of God (Franklin) #1 | 9 | 0 | 1,640 | 182.2 | 4 | 91% |  | 54 | 62 |
 | 2 | Kids of Grace | 6 | 3 | 1,095 | 121.7 | 6 | 88% |  | 38 | 34 |
 | 3 | Canvas Truth Seekers | 2 | 7 | 660 | 73.3 | 3 | 76% |  | 26 | 22 |
 | 4 | First Assembly of God (Lewisburg) #2 | 1 | 8 | 495 | 55 | 2 | 86% |  | 11 | 31 |
@@ -221,13 +221,13 @@ menubar_toc_static:
 |--:|---|---|--:|--:|--:|--:|--:|--:|--:|
 | 1 | Adalee Lacy | Kids of Grace | 775 | 86.1 | 5 | 92% |  | 28 | 19 |
 | 2 | Kaylen Gregory | Canvas Truth Seekers | 590 | 65.6 | 3 | 86% |  | 24 | 13 |
-| 3 | Extra-1 | Full Life Assembly of God (Franklin) #1 | 575 | 63.9 | 3 | 91% |  | 18 | 21 |
-| 4 | Sarah Moreno | Full Life Assembly of God (Franklin) #1 | 420 | 46.7 |  | 93% |  | 17 | 9 |
+| 3 | Extra-1 | Full Life Assembly of God (Franklin) #1 | 575 | 63.9 | 3 | 91% |  | 18 | 22 |
+| 4 | Sarah Moreno | Full Life Assembly of God (Franklin) #1 | 420 | 46.7 |  | 93% |  | 17 | 10 |
 | 5 | Eli Lunn | First Assembly of God (Lewisburg) #2 | 400 | 44.4 | 2 | 100% |  | 8 | 22 |
 | 6 | Lyla Roberts | Kids of Grace | 320 | 35.6 | 1 | 81% |  | 10 | 15 |
 | 7 | Victor Gomez | Full Life Assembly of God (Franklin) #1 | 275 | 30.6 | 1 | 92% |  | 5 | 18 |
 | **\*8** | Allie Serban | Full Life Assembly of God (Franklin) #1 | 190 | 21.1 |  | 100% |  | 6 | 7 |
-| **\*8** | Zoey Serban | Full Life Assembly of God (Franklin) #1 | 190 | 21.1 |  | 87% |  | 7 | 5 |
+| **\*8** | Zoey Serban | Full Life Assembly of God (Franklin) #1 | 190 | 21.1 |  | 87% |  | 8 | 5 |
 | 10 | Ryker O'Connell | First Assembly of God (Lewisburg) #2 | 85 | 9.4 |  | 67% |  | 2 | 8 |
 | **\*11** | Judy Smith | First Assembly of God (Lewisburg) #2 | 30 | 3.3 |  | 100% |  | 1 | 1 |
 | **\*11** | Avery Cordell | Canvas Truth Seekers | 30 | 3.3 |  | 67% |  |  | 4 |
@@ -338,7 +338,7 @@ menubar_toc_static:
 |--:|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | 1 | The Rock Church (Covington) #3 | 8 | 0 | 1,385 | 173.1 | 11 | 93% |  | 46 | 40 |
 | 2 | FA Memphis Word Wise Quiz Kids B2 | 5 | 3 | 470 | 58.8 | 1 | 75% |  | 17 | 21 |
-| **\*3** | Mighty Mississippi B1 | 3 | 5 | 470 | 58.8 | 1 | 81% |  | 14 | 23 |
+| **\*3** | Mighty Mississippi B1 | 3 | 5 | 470 | 58.8 | 1 | 81% |  | 14 | 24 |
 | **\*4** | FA Memphis Word Wise Quiz Kids B1 | 3 | 5 | 420 | 52.5 |  | 88% |  | 8 | 29 |
 | 5 | Mighty Mississippi B2 | 1 | 7 | 350 | 43.8 |  | 94% |  | 2 | 32 |
 
@@ -355,7 +355,7 @@ menubar_toc_static:
 | 3 | Kinsley McDonald | FA Memphis Word Wise Quiz Kids B2 | 395 | 49.4 | 1 | 90% |  | 15 | 11 |
 | 4 | Kristina Manuel | Mighty Mississippi B2 | 305 | 38.1 |  | 97% |  | 2 | 27 |
 | 5 | Elia Shelton | FA Memphis Word Wise Quiz Kids B1 | 295 | 36.9 |  | 88% |  | 8 | 15 |
-| 6 | Diya Mathew | Mighty Mississippi B1 | 240 | 30 | 1 | 85% |  | 2 | 20 |
+| 6 | Diya Mathew | Mighty Mississippi B1 | 240 | 30 | 1 | 85% |  | 2 | 21 |
 | 7 | Harrison Eppic | Mighty Mississippi B1 | 230 | 28.8 |  | 75% |  | 12 | 3 |
 | 8 | Emma Rupprecht | FA Memphis Word Wise Quiz Kids B1 | 140 | 17.5 |  | 100% |  |  | 14 |
 | 9 | Jayden Reed | FA Memphis Word Wise Quiz Kids B2 | 60 | 7.5 |  | 100% |  | 2 | 2 |
