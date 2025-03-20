@@ -10,17 +10,6 @@ jbq:
   name: Ohio District Finals
   scope: district
   scopeLabel: Ohio
-- id: 6830b4d5-298c-4fbd-1d8f-08dd3382099d
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: Hope Church
-  locationCity: Springfield, MO
-  dates: Mar 21 - 22, 2025
-  name: Southern Missouri District Finals
-  scope: district
-  scopeLabel: Southern Missouri
 - id: 86ea0a8b-d9b6-4fb7-89df-08dd4a368bda
   season: 2025
   registrationDates: Closed
@@ -43,6 +32,17 @@ jbq:
   name: North Texas District Finals
   scope: district
   scopeLabel: North Texas
+- id: 6830b4d5-298c-4fbd-1d8f-08dd3382099d
+  season: 2025
+  registrationDates: Closed
+  isLive: true
+  isVisible: true
+  locationName: Hope Church
+  locationCity: Springfield, MO
+  dates: Mar 22, 2025
+  name: Southern Missouri District Finals
+  scope: district
+  scopeLabel: Southern Missouri
 - id: 593236e1-2e2c-495c-ba72-08dd4a472dde
   season: 2025
   registrationDates: Closed
@@ -246,6 +246,16 @@ tbq:
   name: Southeast Region Finals
   scope: region
   scopeLabel: Southeast
+- id: b2977dd7-85fa-49a2-8811-08dd6759f4f9
+  season: 2025
+  registrationDates: Closes Mar 26, 2025
+  isVisible: true
+  locationName: Open Bible
+  locationCity: Rapid City, SD
+  dates: Apr 4 - 5, 2025
+  name: South Dakota State Finals
+  scope: district
+  scopeLabel: South Dakota
 - id: 5376e4dd-159b-45c0-daa3-08dd53ae56a1
   season: 2025
   registrationDates: Closes Mar 21, 2025
