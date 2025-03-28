@@ -1,15 +1,4 @@
 jbq:
-- id: 25987eaa-edc3-48ed-d465-08dd51e1eeda
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: Lakeside Assembly of God
-  locationCity: Shelby Township, MI
-  dates: Mar 28 - 29, 2025
-  name: Michigan District Finals
-  scope: district
-  scopeLabel: Michigan
 - id: 5fa987ae-1461-4ad8-2346-08dd5f8101b1
   season: 2025
   registrationDates: Closed
@@ -32,6 +21,17 @@ jbq:
   name: Wisconsin-Northern Michigan District Finals
   scope: district
   scopeLabel: Wisconsin-Northern Michigan
+- id: 25987eaa-edc3-48ed-d465-08dd51e1eeda
+  season: 2025
+  registrationDates: Closed
+  isLive: true
+  isVisible: true
+  locationName: Lakeside Assembly of God
+  locationCity: Shelby Township, MI
+  dates: Mar 29, 2025
+  name: Michigan District Finals
+  scope: district
+  scopeLabel: Michigan
 - id: afff966c-d0c5-43de-ba71-08dd4a472dde
   season: 2025
   registrationDates: Closes Apr 1, 2025
@@ -196,7 +196,7 @@ tbq:
   scopeLabel: Southeast
 - id: e7b4347c-af49-448d-38af-08dd6b41c2d6
   season: 2025
-  registrationDates: Closes Mar 26, 2025
+  registrationDates: Closes Mar 27, 2025
   isLive: true
   isVisible: true
   locationName: Cedar Park Church
