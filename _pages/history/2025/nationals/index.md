@@ -82,11 +82,11 @@ Included in each set of questions for the "Fun division" there will be 1 Applica
 
 Contact [Patti Smith](mailto:p.s.momof5@gmail.com) with any questions.
 
-<!-- ### Giving and Donation Opportunities
+### Giving and Donation Opportunities
 
 If you'd like to contribute and help make National Finals possible, take a look at the link below to see how you can make a difference.
 
-<a href="{% link _pages/history/2024/nationals/donations.md %}" class="button is-primary">National Finals Giving Opportunities</a> -->
+<a href="{% link _pages/history/2025/nationals/donations.md %}" class="button is-primary">National Finals Giving Opportunities</a>
 
 ### Tie-Breakers
 

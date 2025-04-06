@@ -59,8 +59,16 @@ Some districts will have a League Meet 5 ("League Final"), which will cover all 
 
 -   National-level questions, especially the 20s and 30s, will reflect the most difficult questions of the year. Quizzers will need to be able to quote the material perfectly and quickly.
 -   Nearly all 20- and 30-pointers will be asked from more than one verse, and many questions will require that quizzers have studied the concordance and chapter analysis beforehand.
+-   Approximately one third to one half of all 20- and 30-point questions will be based on the
+    concordance. The mix will vary within each set.
+-   Twenty-pointers will vary in length, with a few questions requiring a one-verse answer,
+    many requiring 2-3 verses, and a few requiring longer answers or a list.
+-   Thirty-pointers will be the most difficult questions of the year. Many questions require four
+    or more verses, long lists, or concordance-based answers that would need to be
+    previously studied thoroughly.
+-   Questions will reflect previous competitions’ style with more difficult answers.
 
-_Additional guidance on Regionals and Nationals questions will be provided in early 2025._
+<!-- _Additional guidance on Regionals and Nationals questions will be provided in early 2025._ -->
 
 ### Contender/XP5 Divisions written by Jon Galliers
 
