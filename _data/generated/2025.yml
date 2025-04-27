@@ -1,4 +1,19 @@
 jbq:
+  regionFinals:
+  - locationName: Life360 Church
+    locationCity: Springfield, MO
+    dates: Apr 26, 2025
+    name: Gulf Region Finals
+    scope: region
+    scopeLabel: Gulf
+    scoresLink: /jbq/2025/regionals/gulf
+  - locationName: Bethany Assembly of God
+    locationCity: Agawam, MA
+    dates: Apr 25 - 26, 2025
+    name: Northeast Region Finals
+    scope: region
+    scopeLabel: Northeast
+    scoresLink: /jbq/2025/regionals/northeast
   districtFinals:
   - locationName: Multiply Church
     locationCity: Concord, NC
@@ -111,6 +126,13 @@ jbq:
     scope: tournament
     scoresLink: /jbq/2025/tournaments/john-crabtree
   other:
+  - locationName: First A/G San Antonio
+    locationCity: San Antonio, TX
+    dates: Apr 25 - 26, 2025
+    name: South Central JBQ Regionals 2025
+    scope: region
+    scopeLabel: South Central
+    scoresLink: /jbq/2025/other/da20b748-cf9b-4a24-a854-08dd45821c69
   - locationName: Southeastern University
     locationCity: Lakeland, FL
     dates: Apr 12, 2025
@@ -881,6 +903,14 @@ jbq:
     scopeLabel: Northwest
     scoresLink: /jbq/2025/reports/3fd9bc47-18a5-42e1-5704-08dd738c64a6
 tbq:
+  regionFinals:
+  - locationName: New Life Church
+    locationCity: Sparta, WI
+    dates: Apr 26, 2025
+    name: North Central Region Finals
+    scope: region
+    scopeLabel: North Central
+    scoresLink: /history/2025/regionals/north-central
   districtFinals:
   - locationName: Southeastern University
     locationCity: Lakeland, FL
