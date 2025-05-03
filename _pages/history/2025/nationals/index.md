@@ -3,7 +3,7 @@ layout: page
 permalink: /history/2025/nationals/
 title: "2025 TBQ National Finals"
 date: "2025-03-10"
-menubar: menu_current_season
+menubar: menu_tbq_nationals
 ---
 
 ![]({% link assets/2025/stl-hotel-promo.jpg %})
@@ -27,6 +27,12 @@ Hotel registration opens Monday, April 28, 2025 for $119/night.
 <!-- <a href="https://www.hyatt.com/en-US/group-booking/DFWRD/G-BIBL" class="button is-primary">Book your room</a> -->
 
 <!-- NOTE: The deadline to get the discounted rate for the hotel is **Tuesday, May 28, 2024**. -->
+
+### Event Registration
+
+All attendees must register, including quizzers, coaches, parents, and officials.
+
+<a href="https://brushfire.com/agusa/NBQ/600295" class="button is-primary">Register with Brushfire</a>
 
 <!-- ### Schedule & Scores -->
 
@@ -88,6 +94,6 @@ If you'd like to contribute and help make National Finals possible, take a look 
 
 <a href="{% link _pages/history/2025/nationals/donations.md %}" class="button is-primary">National Finals Giving Opportunities</a>
 
-### Tie-Breakers
+<!-- ### Tie-Breakers
 
-<a href="{% link assets/2025/24-25 TBQ Tie-Breaker Rules.pdf %}" class="button is-primary">Download Tie-Breaking Rules</a>
+<a href="{% link assets/2025/24-25 TBQ Tie-Breaker Rules.pdf %}" class="button is-primary">Download Tie-Breaking Rules</a> -->
