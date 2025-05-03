@@ -64,17 +64,6 @@ jbq:
   name: 2025 National JBQ Festival
   scope: nation
 tbq:
-- id: cd575317-88d8-49bc-5570-08dd825eb400
-  season: 2025
-  registrationDates: Closes May 2, 2025
-  isLive: true
-  isVisible: true
-  locationName: International Assembly of God
-  locationCity: Chandler, AZ
-  dates: May 2 - 3, 2025
-  name: Southwest Region Finals
-  scope: region
-  scopeLabel: Southwest
 - id: f377ad93-031f-4a7c-2343-08dd5f8101b1
   season: 2025
   registrationDates: Closed
@@ -97,6 +86,17 @@ tbq:
   name: Northwest Region Finals
   scope: region
   scopeLabel: Northwest
+- id: cd575317-88d8-49bc-5570-08dd825eb400
+  season: 2025
+  registrationDates: Closes May 3, 2025
+  isLive: true
+  isVisible: true
+  locationName: International Assembly of God
+  locationCity: Chandler, AZ
+  dates: May 3, 2025
+  name: Southwest Region Finals
+  scope: region
+  scopeLabel: Southwest
 - id: 9c4595cd-38ed-4e87-aca5-08dd752ed7cc
   season: 2025
   registrationDates: Closed
