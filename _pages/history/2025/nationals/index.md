@@ -18,13 +18,13 @@ June 28, 2025 - July 4, 2025
 
 ### Venue
 
-All competition will take place at the [Renaissance St. Louis Airport Hotel](https://www.marriott.com/en-us/hotels/stlsa-renaissance-st-louis-airport-hotel/overview/). Free parking all week.
+All competition will take place at the [Renaissance St. Louis Airport Hotel](https://www.marriott.com/en-us/hotels/stlsa-renaissance-st-louis-airport-hotel/overview/).
 
-Hotel registration opens Monday, April 28, 2025 for $119/night.
+Hotel rooms are for 1-4 people for $119/night (regularly over $200/night). Discounted pricing is available for any number of nights between Wednesday, June 25 through Monday, July 7.
 
-<!-- Hotel for 1-4 in a room $139.00. (Regular rate $201.00). Discounted parking at $10.00 per day. (Regular rate $22.00) -->
+Free parking available all week.
 
-<!-- <a href="https://www.hyatt.com/en-US/group-booking/DFWRD/G-BIBL" class="button is-primary">Book your room</a> -->
+<a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1745523138385&key=GRP&guestreslink2=true&app=resvlink&fbclid=IwY2xjawKHn41leHRuA2FlbQIxMQBicmlkETFrWlR5Yk9tU3Q3bXRMZDJ1AR7zX9XgPzD2oHgUikduKV4uV1xqbGqwc0ANbaa6k-llCxrAlcmNZufLYzQyNA_aem_sbWtr2eXMExJz5cyX7KbZQ" class="button is-primary">Book your room</a>
 
 <!-- NOTE: The deadline to get the discounted rate for the hotel is **Tuesday, May 28, 2024**. -->
 
