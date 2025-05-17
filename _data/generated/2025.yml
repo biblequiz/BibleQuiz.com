@@ -28,6 +28,13 @@ jbq:
     scope: region
     scopeLabel: North Central
     scoresLink: /jbq/2025/regionals/north-central
+  - locationName: Valley Assembly of God
+    locationCity: Spokane, WA
+    dates: May 2 - 3, 2025
+    name: Northwest Region Finals
+    scope: region
+    scopeLabel: Northwest
+    scoresLink: /jbq/2025/regionals/Northwest
   - locationName: Life360 Church
     locationCity: Springfield, MO
     dates: Apr 26, 2025
@@ -42,6 +49,13 @@ jbq:
     scope: region
     scopeLabel: Northeast
     scoresLink: /jbq/2025/regionals/northeast
+  - locationName: First A/G San Antonio
+    locationCity: San Antonio, TX
+    dates: Apr 25 - 26, 2025
+    name: South Central Region Finals
+    scope: region
+    scopeLabel: South Central
+    scoresLink: /jbq/2025/regionals/South Central
   districtFinals:
   - locationName: Multiply Church
     locationCity: Concord, NC
@@ -154,20 +168,6 @@ jbq:
     scope: tournament
     scoresLink: /jbq/2025/tournaments/john-crabtree
   other:
-  - locationName: Valley Assembly of God
-    locationCity: Spokane, WA
-    dates: May 2 - 3, 2025
-    name: Northwest Regional Finals
-    scope: region
-    scopeLabel: Northwest
-    scoresLink: /jbq/2025/other/1edf3cab-7c11-4219-d296-08dd60d23258
-  - locationName: First A/G San Antonio
-    locationCity: San Antonio, TX
-    dates: Apr 25 - 26, 2025
-    name: South Central JBQ Regionals 2025
-    scope: region
-    scopeLabel: South Central
-    scoresLink: /jbq/2025/other/da20b748-cf9b-4a24-a854-08dd45821c69
   - locationName: Southeastern University
     locationCity: Lakeland, FL
     dates: Apr 12, 2025
@@ -939,6 +939,13 @@ jbq:
     scoresLink: /jbq/2025/reports/3fd9bc47-18a5-42e1-5704-08dd738c64a6
 tbq:
   regionFinals:
+  - locationName: Springhill Christian Center
+    locationCity: Mooresville, IN
+    dates: May 10, 2025
+    name: Great Lakes Region Finals
+    scope: region
+    scopeLabel: Great Lakes
+    scoresLink: /history/2025/regionals/great-lakes
   - locationName: International Assembly of God
     locationCity: Chandler, AZ
     dates: May 3, 2025
@@ -955,7 +962,7 @@ tbq:
     scoresLink: /history/2025/regionals/south-central
   - locationName: Spokane Valley Assembly of God
     locationCity: Spokane Valley, WA
-    dates: May 2 - 3, 2025
+    dates: May 2, 2025
     name: Northwest Region Finals
     scope: region
     scopeLabel: Northwest
@@ -1054,6 +1061,13 @@ tbq:
     scope: tournament
     scoresLink: /history/2025/tournaments/bluegrass-classic
   other:
+  - locationName: Bellevue Neighborhood Church
+    locationCity: Bellevue, WA
+    dates: May 10, 2025
+    name: Kevin Gallo Test
+    scope: district
+    scopeLabel: Northwest
+    scoresLink: /history/2025/other/ffc95e74-c30c-4996-11e3-08dd8f7bf321
   - locationName: Fountain of Life Center
     locationCity: Burlington, NJ
     dates: Apr 5, 2025
