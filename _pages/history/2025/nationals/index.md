@@ -10,8 +10,6 @@ menubar: menu_tbq_nationals
 
 40 teams from 8 regions compete over the course of a week for the 2025 AG Teen Bible Quiz National Championship.
 
-Championship quizzers whose teams don’t qualify for the National Finals can participate in a 1-on-1 Tournament. _(Note: A minimum of 5 quizzers must be registered for the 1-on-1 Tournament to take place.)_
-
 ### Date
 
 June 28, 2025 - July 4, 2025
@@ -22,9 +20,11 @@ All competition will take place at the [Renaissance St. Louis Airport Hotel](htt
 
 Hotel rooms are for 1-4 people for $119/night (regularly over $200/night). Discounted pricing is available for any number of nights between Wednesday, June 25 through Monday, July 7.
 
-Free parking available all week.
+Free parking available all week for those reserving their room through the link below.
 
-<a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1745523138385&key=GRP&guestreslink2=true&app=resvlink&fbclid=IwY2xjawKHn41leHRuA2FlbQIxMQBicmlkETFrWlR5Yk9tU3Q3bXRMZDJ1AR7zX9XgPzD2oHgUikduKV4uV1xqbGqwc0ANbaa6k-llCxrAlcmNZufLYzQyNA_aem_sbWtr2eXMExJz5cyX7KbZQ" class="button is-primary">Book your room</a>
+<a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1745523138385&key=GRP&guestreslink2=true&app=resvlink&fbclid=IwY2xjawKHn41leHRuA2FlbQIxMQBicmlkETFrWlR5Yk9tU3Q3bXRMZDJ1AR7zX9XgPzD2oHgUikduKV4uV1xqbGqwc0ANbaa6k-llCxrAlcmNZufLYzQyNA_aem_sbWtr2eXMExJz5cyX7KbZQ" class="button is-primary">Reserve your room</a>
+
+_⚠️ Please do not overbook your hotel rooms. A few churches have had multiple people book the same rooms. The last time we were in St. Louis, several teams cancelled rooms the week before, and it causes issues for teams. Please only book the exact rooms needed. As of 3 PM today, we have gone way over on our contract for rooms. June 2 is the absolute deadline, but I would take care of it ASAP. Contact [Pastor Bernie Elliot](pastorbernie@biblequiz.com) if you have any challenges booking._
 
 <!-- NOTE: The deadline to get the discounted rate for the hotel is **Tuesday, May 28, 2024**. -->
 
@@ -32,17 +32,23 @@ Free parking available all week.
 
 All attendees must register, including quizzers, coaches, parents, and officials.
 
-<a href="https://brushfire.com/agusa/NBQ/600295" class="button is-primary">Register with Brushfire</a>
+The online registration period is closed. To register, email [Pastor Bernie Elliot](pastorbernie@biblequiz.com).
 
-<!-- ### Schedule & Scores -->
+#### Upcoming deadlines
 
-<!-- 40 teams compete over 4 days for the National Chamionship.
+May 21: All seniors must [submit their bios and pictures](https://agyouth.formstack.com/forms/bq_seniors)
 
-There will be a 1-on-1 Tournament for those Championship quizzers whose team does not make it.
-_(need minimum of 5 quizzers for the 1 on 1 tournament)_ -->
+June 9 : Last day for accepting Scholarships. A couple of new ones and a couple of surprises at National BQ Finals. [Register here](https://agyouth.formstack.com/forms/scholarship2025).
 
-<!-- <a href="{% link _pages/history/2024/nationals/schedule.md %}" class="button is-primary">National Finals Schedule</a>
-<a href="{% link _pages/live-events.md %}?eventId=7857ed3d-7ac4-4b4a-1275-08dc791c223e" class="button is-primary">Match Schedule &amp; Live Scores</a> -->
+June 9: Last day for individuals to submit information about any food allergies to [Pastor Bernie Elliot](pastorbernie@biblequiz.com).
+
+<!-- <a href="https://brushfire.com/agusa/NBQ/600295" class="button is-primary">Register with Brushfire</a> -->
+
+<!-- ### Schedule & Scores
+
+<a href="{% link _pages/history/2025/nationals/schedule.md %}" class="button is-primary">National Finals Schedule</a> -->
+
+<!-- <a href="{% link _pages/live-events.md %}?eventId=7857ed3d-7ac4-4b4a-1275-08dc791c223e" class="button is-primary">Match Schedule &amp; Live Scores</a> -->
 
 <!-- ### Discord
 

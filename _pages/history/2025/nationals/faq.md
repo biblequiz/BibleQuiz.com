@@ -3,7 +3,7 @@ layout: page
 permalink: /history/2025/nationals/faq
 title: "2025 National Finals - FAQ"
 date: "2024-07-26"
-menubar: menu_current_season
+menubar: menu_tbq_nationals
 ---
 
 <a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">Back to National Finals Home</a>

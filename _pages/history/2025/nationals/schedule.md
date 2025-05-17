@@ -3,14 +3,14 @@ layout: page
 permalink: /history/2025/nationals/schedule
 title: "2025 National Finals Schedule"
 date: "2025-04-17"
+menubar: menu_tbq_nationals
 ---
 
-<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Nationals 2025 Home Page</a>
+<a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">Nationals 2025 Home Page</a>
 
 More information will be added closer to National Finals.
 
-<!--
-## Saturday, June 29
+## Saturday, June 28
 
 | Time           | Description                                                                                                   |
 | -------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -18,7 +18,7 @@ More information will be added closer to National Finals.
 | 7:15 p.m.      | First Time Coaches to National Finals Mtg. _(Location TBA at Registration)_                                   |
 | 8:00 p.m.      | Ice Cream Fellowship                                                                                          |
 
-## Sunday, June 30
+## Sunday, June 29
 
 | Time       | Description          |
 | ---------- | -------------------- |
@@ -28,7 +28,7 @@ More information will be added closer to National Finals.
 | 12:00 p.m. | Senior Shoot-out     |
 | 8:00 p.m.  | Officials Assignment |
 
-## Monday, July 1
+## Monday, June 30
 
 | Time       | Description                     |
 | ---------- | ------------------------------- |
@@ -45,7 +45,7 @@ More information will be added closer to National Finals.
 | 3:15 p.m.  | Playoffs (if necessary)         |
 | 8:00 p.m.  | District BQ Coordinator Meeting |
 
-## Tuesday, July 2
+## Tuesday, July 1
 
 | Time           | Description                     |
 | -------------- | ------------------------------- |
@@ -63,7 +63,7 @@ More information will be added closer to National Finals.
 | 4:00 p.m.      | Round 9                         |
 | 7:00-9:00 p.m. | Alumni Fellowship               |
 
-## Wednesday, July 3
+## Wednesday, July 2
 
 | Time       | Description                      |
 | ---------- | -------------------------------- |
@@ -80,7 +80,7 @@ More information will be added closer to National Finals.
 | 3:15 p.m.  | Round 17                         |
 | 8:00 p.m.  | Prayer meeting                   |
 
-## Thursday, July 4
+## Thursday, July 3
 
 | Time       | Description                                                                                       |
 | ---------- | ------------------------------------------------------------------------------------------------- |
@@ -92,9 +92,9 @@ More information will be added closer to National Finals.
 | 11:30 a.m. | Individual Tournament                                                                             |
 | 1:00 p.m.  | Lunch                                                                                             |
 | 1:30 p.m.  | Finish Individual Tournament if needed, if not start Adult Quizzing                               |
-| 7:30 p.m.  | Fellowship night off-site<br />_(more information will be announced later)_                       |
+| 7:30 p.m.  | Fellowship night (off-site)<br />_(more information will be announced later)_                     |
 
-## Friday, July 5
+## Friday, July 4
 
 | Time      | Description    |
 | --------- | -------------- |
@@ -104,7 +104,7 @@ More information will be added closer to National Finals.
 
 _Note: Any additional evening meetings will be announced during the morning services._
 
-<a href="{% link _pages/history/2024/nationals/index.md %}" class="button is-primary">Nationals 2024 Home Page</a>
+<a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">Nationals 2024 Home Page</a>
 
 <!-- ---
 
