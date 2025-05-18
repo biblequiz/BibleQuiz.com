@@ -1,12 +1,18 @@
 ---
 layout: page
 permalink: /history/2025/nationals/first-time
-title: "2025 National Finals - First Time"
+title: "2025 TBQ National Finals - First Time"
 date: "2024-07-26"
 menubar: menu_tbq_nationals
 ---
 
-<a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">Back to National Finals Home</a>
+## First time attending National Finals?
+
+Welcome! We look forward to enjoying a week studying and competing over the book of Acts.
+
+Make sure you read the [FAQ](/history/2025/nationals/faq) and [get connected on Discord](/history/2025/nationals/communication).
+
+And if you have any issues, make sure you email [Pastor Bernie Elliot](mailto:PastorBernie@BibleQuiz.com).
 
 ### Advice from Shreanna Powell, former National Champion
 
@@ -51,5 +57,3 @@ We asked people in [the official Facebook group](https://www.facebook.com/groups
 > Be prepared for all of the contesting.
 
 > Look for an experience with the Lord!
-
-<a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">Back to National Finals Home</a>

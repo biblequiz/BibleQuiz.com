@@ -1,14 +1,10 @@
 ---
 layout: page
 permalink: /history/2025/nationals/schedule
-title: "2025 National Finals Schedule"
+title: "2025 TBQ National Finals - Schedule"
 date: "2025-04-17"
 menubar: menu_tbq_nationals
 ---
-
-<a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">Nationals 2025 Home Page</a>
-
-More information will be added closer to National Finals.
 
 ## Saturday, June 28
 
@@ -102,9 +98,7 @@ More information will be added closer to National Finals.
 
 ---
 
-_Note: Any additional evening meetings will be announced during the morning services._
-
-<a href="{% link _pages/history/2025/nationals/index.md %}" class="button is-primary">Nationals 2024 Home Page</a>
+_Note: Any additional events will be announced during the morning services._
 
 <!-- ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /history/2025/nationals/donations
-title: "2025 National Finals - Donation Opportunities"
+title: "2025 TBQ National Finals - Donation Opportunities"
 date: "2024-03-21"
 menubar: menu_tbq_nationals
 ---

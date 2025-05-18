@@ -5,11 +5,20 @@
     - name: Nationals Home
       link: /history/2025/nationals/
       icon: fas fa-home
-    # - label: Compete
-    #   items:
+    - name: Venue and Registration
+      link: /history/2025/nationals/venue-registration/
+      icon: fas fa-hotel
     - name: Schedule
       link: /history/2025/nationals/schedule/
       icon: fas fa-calendar
+    - name: Communication
+      link: /history/2025/nationals/communication/
+      icon: fas fa-comments
+    - name: FAQ
+      link: /history/2025/nationals/faq/
+      icon: fas fa-question
     - name: First Time
       link: /history/2025/nationals/first-time/
       icon: fas fa-user
+    # - label: Compete
+    #   items:
