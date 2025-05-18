@@ -10,7 +10,7 @@ menubar: menu_tbq_nationals
 
 For questions about National Finals, email Pastor Bernie Elliot, National Bible Quiz Coordinator.
 
-<a href=mailto:PastorBernie@BibleQuiz.com" class="button is-primary">Email Pastor Bernie</a>
+<a href="mailto:PastorBernie@BibleQuiz.com" class="button is-primary">Email Pastor Bernie</a>
 
 ## Discord
 
