@@ -9,17 +9,6 @@ jbq:
   name: 2025 National JBQ Festival
   scope: nation
 tbq:
-- id: 848a7275-684f-4775-91de-08dd7d015ef6
-  season: 2025
-  registrationDates: Closed
-  isLive: true
-  isVisible: true
-  locationName: Oxford Assembly of God
-  locationCity: Oxford, FL
-  dates: May 17, 2025
-  name: 2025 TBQ XP5 Pen Florida Invitational
-  scope: region
-  scopeLabel: Southeast
 - id: a3b17dec-bd6d-4d3a-2344-08dd5f8101b1
   season: 2025
   registrationDates: Closes May 25, 2025
@@ -28,4 +17,13 @@ tbq:
   locationCity: Tinton Falls, NJ
   dates: May 30 - 31, 2025
   name: 2025 Jersey Shore Pre-Nationals
+  scope: nation
+- id: eff1b3a3-c365-4c9e-aaef-08dd9573769f
+  season: 2026
+  registrationDates: Closes Aug 10, 2025
+  isVisible: true
+  locationName: River of God Church
+  locationCity: Enola, PA
+  dates: Aug 15 - 16, 2025
+  name: Northeast TBQ Training Conference
   scope: nation
