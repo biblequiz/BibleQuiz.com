@@ -6,174 +6,204 @@ date: "2013-07-11"
 toc_title: Results
 menubar_toc: true
 menubar_toc_static:
-- items:
-  - name: 2013 Season
-    link: /history/2013/
-    icon: fas fa-home
+    - items:
+          - name: 2013 Season
+            link: /history/2013/
+            icon: fas fa-home
 ---
 
 ## Championship
 
 ### Teams
 
+James River A/G won the Final Four, single-elimination tournament to secure the National Championship.
+
 | #   | Team                                       | W/L  | Total | Avg    | Margin | Avg Margin |
 | --- | ------------------------------------------ | ---- | ----- | ------ | ------ | ---------- |
-| 1   | James River A/G, Ozark, MO                 | 15/4 | 3670  | 193.16 | 2020   | 106.32     |
-| 2   | Owasso First A/G, Owasso, OK               | 16/3 | 3770  | 198.42 | 1835   | 96.58      |
-| 3   | Cedar Park A/G #1, Bothell, WA             | 17/2 | 4580  | 241.05 | 2945   | 155        |
-| 4   | Bellevue Neighborhood Church, Bellevue, WA | 16/3 | 3330  | 175.26 | 1540   | 81.05      |
-| 5   | Spring First A/G, Spring, TX               | 14/5 | 2910  | 153.16 | 930    | 48.95      |
-| 6   | Pocono Community Church, Mt. Pocono, PA    | 11/8 | 2750  | 144.74 | 625    | 32.89      |
-| 7   | Cedar Park A/G #2, Bothell, WA             | 11/8 | 2635  | 138.68 | 185    | 9.74       |
-| 8   | New Life A/G, White Cloud, MI              | 10/9 | 2850  | 150    | 380    | 20         |
-| 9   | Central A/G, Springfield, MO               | 10/9 | 2175  | 114.47 | -500   | -26.32     |
-| 10  | Living Hope Worship Center, Swedesboro, NJ | 9/10 | 2135  | 112.37 | -380   | -20.26     |
-| 11  | Christian Temple, Houston, TX              | 9/10 | 1780  | 93.68  | -915   | -48.16     |
-| 12  | Highpointe Church, Oklahoma City, OK       | 8/11 | 2385  | 125.53 | -5     | -0.26      |
-| 13  | Living Hope Church, Colorado Springs, CO   | 8/11 | 1680  | 88.42  | -1005  | -52.89     |
-| 14  | Journey Church, Bridgeville, PA            | 7/12 | 1875  | 98.68  | -730   | -38.42     |
-| 15  | South Hills A/G, Bethel Park, PA           | 7/12 | 2065  | 108.68 | -270   | -14.21     |
-| 16  | First A/G, Muskogee, OK                    | 7/12 | 1515  | 79.74  | -1165  | -61.32     |
-| 17  | First A/G, Cedar Rapids, IA                | 7/12 | 1785  | 93.95  | -860   | -45.26     |
-| 18  | First Samoan A/G, Irvine, CA               | 4/15 | 2030  | 106.84 | -345   | -18.16     |
-| 19  | Vailsburg A/G, Newark, NJ                  | 3/16 | 995   | 52.37  | -2085  | -109.74    |
-| 20  | Toccoa A/G, Toccoa, GA                     | 1/18 | 1010  | 53.16  | -2195  | -115.53    |
+| 1   | James River A/G, Ozark, MO                 | 15-4 | 3670  | 193.16 | 2020   | 106.32     |
+| 2   | Owasso First A/G, Owasso, OK               | 16-3 | 3770  | 198.42 | 1835   | 96.58      |
+| 3   | Cedar Park A/G #1, Bothell, WA             | 17-2 | 4580  | 241.05 | 2945   | 155.00     |
+| 4   | Bellevue Neighborhood Church, Bellevue, WA | 16-3 | 3330  | 175.26 | 1540   | 81.05      |
+| 5   | Spring First A/G, Spring, TX               | 14-5 | 2910  | 153.16 | 930    | 48.95      |
+| 6   | Pocono Community Church, Mt. Pocono, PA    | 11-8 | 2750  | 144.74 | 625    | 32.89      |
+| 7   | Cedar Park A/G #2, Bothell, WA             | 11-8 | 2635  | 138.68 | 185    | 9.74       |
+| 8   | New Life A/G, White Cloud, MI              | 10-9 | 2850  | 150.00 | 380    | 20.00      |
+| 9   | Central A/G, Springfield, MO               | 10-9 | 2175  | 114.47 | -500   | -26.32     |
+| 10  | Living Hope Worship Center, Swedesboro, NJ | 9-10 | 2135  | 112.37 | -380   | -20.26     |
+| 11  | Christian Temple, Houston, TX              | 9-10 | 1780  | 93.68  | -915   | -48.16     |
+| 12  | Highpointe Church, Oklahoma City, OK       | 8-11 | 2385  | 125.53 | -5     | -0.26      |
+| 13  | Living Hope Church, Colorado Springs, CO   | 8-11 | 1680  | 88.42  | -1005  | -52.89     |
+| 14  | Journey Church, Bridgeville, PA            | 7-12 | 1875  | 98.68  | -730   | -38.42     |
+| 15  | South Hills A/G, Bethel Park, PA           | 7-12 | 2065  | 108.68 | -270   | -14.21     |
+| 16  | First A/G, Muskogee, OK                    | 7-12 | 1515  | 79.74  | -1165  | -61.32     |
+| 17  | First A/G, Cedar Rapids, IA                | 7-12 | 1785  | 93.95  | -860   | -45.26     |
+| 18  | First Samoan A/G, Irvine, CA               | 4-15 | 2030  | 106.84 | -345   | -18.16     |
+| 19  | Vailsburg A/G, Newark, NJ                  | 3-16 | 995   | 52.37  | -2085  | -109.74    |
+| 20  | Toccoa A/G, Toccoa, GA                     | 1-18 | 1010  | 53.16  | -2195  | -115.53    |
 
 ### Individuals
 
-| #   | Team                                          | W/L  | Total | Avg    | Margin | Avg Margin |
-| --- | --------------------------------------------- | ---- | ----- | ------ | ------ | ---------- |
-| 1   | Evangel Church, Kansas City, MO               | 16/3 | 2695  | 141.84 | 1920   | 101.05     |
-| 2   | Bethany Church, Wyckoff, NJ                   | 15/4 | 2485  | 130.79 | 1055   | 55.53      |
-| 3   | Bethelem Church, Richmond Hill, NY            | 14/5 | 2205  | 116.05 | 815    | 42.89      |
-| 4   | Northfield Church, Gering, NE                 | 14/5 | 2495  | 131.32 | 540    | 28.42      |
-| 5   | Racine A/G, Racine, WI                        | 12/7 | 1730  | 91.05  | 380    | 20         |
-| 6   | Southgate Church, South Bend, IN              | 11/8 | 1980  | 104.21 | 515    | 27.11      |
-| 7   | Falls Church, Sioux Falls, SD                 | 11/8 | 1985  | 104.47 | -10    | -0.52      |
-| 8   | Lakeview Church, Indianapolis, IN             | 10/9 | 1760  | 92.63  | 70     | 3.68       |
-| 9   | Victorious Life Church, Wesley Chapel, FL     | 9/10 | 1030  | 54.21  | -615   | -32.37     |
-| 10  | Tacoma Life Church, Tacoma, WA                | 9/10 | 1735  | 91.32  | -315   | -16.58     |
-| 11  | First A/G, East Lansing, MI                   | 9/10 | 1125  | 59.21  | -220   | -11.58     |
-| 12  | Bethel A/G, Rapid City, SD                    | 9/10 | 1950  | 102.63 | 230    | 12.11      |
-| 13  | First A/G, Lexington, KY                      | 9/10 | 1385  | 72.89  | -245   | -12.89     |
-| 14  | Newport Mesa Church, Costa Mesa, CA           | 9/10 | 1525  | 80.26  | -140   | -7.37      |
-| 15  | Evangel Community Church, Snellville, GA      | 8/11 | 940   | 49.47  | -620   | -32.63     |
-| 16  | Knox City A/G, Knox City, MO                  | 8/11 | 1475  | 77.63  | -55    | -2.89      |
-| 17  | The Church at Briargate, Colorado Springs, CO | 5/14 | 1215  | 63.95  | -660   | -34.74     |
-| 18  | New Life Church, Renton, WA                   | 5/14 | 955   | 50.26  | -695   | -36.58     |
-| 19  | The Assembly, Warner Robins, GA               | 4/15 | 1165  | 61.32  | -695   | -36.58     |
-| 20  | North Valley A/G, Phoenix, AZ                 | 3/16 | 715   | 37.63  | -1255  | -66.05     |
+| Position | Quizzer             | Church                    | Total Pts | Avg Pts | Q/out |
+| -------- | ------------------- | ------------------------- | --------- | ------- | ----- |
+| 1        | Abby Rogers         | Bothell, WA #1            | 2620      | 137.89  | 19    |
+| 2        | Daniel Wagner       | Owasso, OK                | 2415      | 127.11  | 19    |
+| 3        | Joseph Chacra       | Mt. Pocono, PA            | 2170      | 114.21  | 17    |
+| 4        | Devon Colegrove     | Ozark, MO                 | 2080      | 109.47  | 16    |
+| 5        | Samuel Pryer        | White Cloud, MI           | 2010      | 105.79  | 15    |
+| 6        | Jacob Wyatt         | Spring, TX                | 1980      | 104.21  | 15    |
+| 7        | Micah Samuelson     | Oklahoma City, OK         | 1440      | 75.79   | 10    |
+| 8        | Josh Gallo          | Bellevue, WA              | 1400      | 73.68   | 6     |
+| 9        | EJ Olsen            | Bothell, WA #2            | 1390      | 73.16   | 10    |
+| 10       | Jonathan Brown      | Bethel Park, PA           | 1280      | 67.37   | 8     |
+| 11       | Luke Wagner         | Owasso, OK                | 1275      | 67.11   | 14    |
+| 12       | Jared Hill          | Swedesboro, NJ            | 1275      | 67.11   | 9     |
+| 13       | Damon Comfort       | Bellevue, WA              | 1260      | 66.32   | 8     |
+| 14       | Colton Bononi       | Bridgeville, PA           | 1255      | 66.05   | 9     |
+| 15       | Josiah Coder        | Cedar Rapids, IA          | 1210      | 63.68   | 7     |
+| 16       | Meg Pace            | LHC, Colorado Springs, CO | 1165      | 61.32   | 7     |
+| 17       | Adi Purohith        | Bothell, WA #1            | 1110      | 58.42   | 12    |
+| 18       | Daniel Quick        | Springfield, MO           | 1075      | 56.58   | 9     |
+| 19       | Tiff any Wu         | Irvine, CA                | 1075      | 56.58   | 4     |
+| 20       | David Meddaugh      | Muskogee, OK              | 1050      | 55.26   | 6     |
+| 21       | Hannah Quick        | Springfield, MO           | 1045      | 55      | 10    |
+| 22       | Chris Knoth         | Ozark, MO                 | 990       | 52.11   | 9     |
+| 23       | Tim Pyle            | Houston, TX               | 960       | 50.53   | 8     |
+| 24       | Jacob Schumacher    | Bothell, WA #2            | 940       | 49.47   | 5     |
+| 25       | Sophia Ouyang       | Irvine, CA                | 920       | 48.42   | 11    |
+| 26       | Chase Hill          | Swedesboro, NJ            | 865       | 45.53   | 9     |
+| 27       | Ani Purohith        | Bothell, WA #1            | 850       | 44.74   | 8     |
+| 28       | Andrew Roach        | Houston, TX               | 825       | 43.42   | 8     |
+| 29       | Lindsay Cowan       | Toccoa, GA                | 710       | 37.37   | 5     |
+| 30       | Nick DePasquale     | Newark, NJ                | 670       | 35.26   | 5     |
+| 31       | Kara Gallo          | Bellevue, WA              | 665       | 35      | 4     |
+| 32       | Mitt Wyatt          | Spring, TX                | 635       | 33.42   | 6     |
+| 33       | Dana Warnock        | Bridgeville, PA           | 625       | 32.89   | 3     |
+| 34       | David Pryer         | White Cloud, MI           | 620       | 32.63   | 6     |
+| 35       | Joey Lemley         | Bethel Park, PA           | 605       | 31.84   | 5     |
+| 36       | Jennifer Maki       | Cedar Rapids, IA          | 540       | 28.42   | 2     |
+| 37       | Connor McGraw       | Oklahoma City, OK         | 535       | 28.16   | 3     |
+| 38       | Armando Sapien      | LHC, Colorado Springs, CO | 485       | 25.53   | 1     |
+| 39       | Natalie Garrison    | Ozark, MO                 | 455       | 23.95   | 2     |
+| 40       | Paul Meddaugh       | Muskogee, OK              | 440       | 23.16   | 2     |
+| 41       | Amanda Persaud      | Mt. Pocono, PA            | 360       | 18.95   | 3     |
+| 42       | John David Sullivan | Spring, TX                | 320       | 16.84   | 1     |
+| 43       | Matthew Samuelson   | Oklahoma City, OK         | 290       | 15.26   | 2     |
+| 44       | Samuel Schumacher   | Bothell, WA #2            | 255       | 13.42   | 0     |
+| 45       | Sarah Tomlinson     | Mt. Pocono, PA            | 225       | 11.84   | 1     |
+| 46       | Faith Pryer         | White Cloud, MI           | 220       | 11.58   | 0     |
+| 47       | Lacey Cowan         | Toccoa, GA                | 200       | 10.53   | 0     |
+| 48       | Shane Brown         | Newark, NJ                | 200       | 10.53   | 0     |
+| 49       | Hannah Tower        | Bethel Park, PA           | 185       | 9.74    | 0     |
+| 50       | Kacie Garrison      | Ozark, MO                 | 150       | 7.89    | 0     |
+| 51       | Trey Sederwall      | Newark, NJ                | 125       | 6.58    | 0     |
+| 52       | Debora Odefey       | Oklahoma City, OK         | 120       | 6.32    | 0     |
+| 53       | Allison Johnson     | Toccoa, GA                | 110       | 5.79    | 0     |
+| 54       | Matthew Garman      | Owasso, OK                | 95        | 5       | 0     |
+| 55       | Brock Peters        | Springfield, MO           | 75        | 3.95    | 0     |
+| 56       | Andre Nicolov       | Bothell, WA #2            | 50        | 2.63    | 0     |
+| 57       | Grace Xu            | Irvine, CA                | 35        | 1.84    | 0     |
+| 58       | Mary Meddaugh       | Muskogee, OK              | 25        | 1.32    | 0     |
+| 59       | Rachel Maki         | Cedar Rapids, IA          | 25        | 1.32    | 0     |
+| 60       | Eli Sapien          | LHC, Colorado Springs, CO | 20        | 1.05    | 0     |
+| 61       | Paloma Betrisey     | Bellevue, WA              | 20        | 1.05    | 0     |
+| 62       | Matthew Coder       | Cedar Rapids, IA          | 10        | 0.53    | 0     |
+| 63       | Emily Sapien        | LHC, Colorado Springs, CO | 10        | 0.53    | 0     |
 
 ## Challenger
 
 ### Teams
 
-| #   | Team                   | Church                       | W/L    | Total | AVG    |
-| --- | ---------------------- | ---------------------------- | ------ | ----- | ------ |
-| 1   | Richmond Hill NY       | Bethlehem Church             | 16 / 3 | 2395  | 126.05 |
-| 2   | Toccoa GA              | Toccoa AG                    | 14 / 5 | 1905  | 100.26 |
-| 3   | Bowie MD               | Cornerstone Church           | 14 / 5 | 2255  | 118.68 |
-| 4   | Lexington KY           | First AG                     | 13 / 6 | 1885  | 99.21  |
-| 5   | Garfield NJ            | Praise AG                    | 13 / 6 | 2260  | 118.95 |
-| 6   | Rapid City SD          | Bethel AG                    | 12 / 7 | 2110  | 111.05 |
-| 7   | Grant MI               | Grant AG                     | 12 / 7 | 1905  | 100.26 |
-| 8   | Mechanicsville VA      | Mechanicsville Christian Ctr | 11 / 8 | 1805  | 95     |
-| 9   | Gering NE              | Northfield Church            | 11 / 8 | 2050  | 107.89 |
-| 10  | Indianapolis IN        | Lakeview Church              | 10 / 9 | 1845  | 97.11  |
-| 11  | Wesley Chapel FL       | Victorious Life Church       | 9 / 10 | 1840  | 96.84  |
-| 12  | Houston TX Chr. Temple | Christian Temple             | 9 / 10 | 1680  | 88.42  |
-| 13  | South Bend IN          | Southgate Church             | 9 / 10 | 1125  | 59.21  |
-| 14  | Tacoma WA              | Life Center                  | 7 / 12 | 1515  | 79.74  |
-| 15  | Springfield MO         | King's Chapel                | 7 / 12 | 1195  | 62.89  |
-| 16  | East Lansing MI        | First AG                     | 7 / 12 | 1140  | 60     |
-| 17  | Warner Robins GA       | The Assembly                 | 6 / 13 | 930   | 48.95  |
-| 18  | Georgetown KY          | Trinity AG                   | 5 / 14 | 1150  | 60.53  |
-| 19  | Ft Lauderdale FL       | Christian Life Center        | 3 / 16 | 935   | 49.21  |
-| 20  | Plymouth WI            | Christian Life               | 2 / 17 | 550   | 28.95  |
+| Rank | Team                                          | Record | Total Pts | Avg Pts | Margin | Avg Margin |
+| ---- | --------------------------------------------- | ------ | --------- | ------- | ------ | ---------- |
+| 1    | Evangel Church, Kansas City, MO               | 16-3   | 2695      | 141.84  | 1920   | 101.05     |
+| 2    | Bethany Church, Wyckoff, NJ                   | 15-4   | 2485      | 130.79  | 1055   | 55.53      |
+| 3    | Bethelem Church, Richmond Hill, NY            | 14-5   | 2205      | 116.05  | 815    | 42.89      |
+| 4    | Northfield Church, Gering, NE                 | 14-5   | 2495      | 131.32  | 540    | 28.42      |
+| 5    | Racine A/G, Racine, WI                        | 12-7   | 1730      | 91.05   | 380    | 20.00      |
+| 6    | Southgate Church, South Bend, IN              | 11-8   | 1980      | 104.21  | 515    | 27.11      |
+| 7    | Falls Church, Sioux Falls, SD                 | 11-8   | 1985      | 104.47  | -10    | -0.52      |
+| 8    | Lakeview Church, Indianapolis, IN             | 10-9   | 1760      | 92.63   | 70     | 3.68       |
+| 9    | Victorious Life Church, Wesley Chapel, FL     | 9-10   | 1030      | 54.21   | -615   | -32.37     |
+| 10   | Tacoma Life Church, Tacoma, WA                | 9-10   | 1735      | 91.32   | -315   | -16.58     |
+| 11   | First A/G, East Lansing, MI                   | 9-10   | 1125      | 59.21   | -220   | -11.58     |
+| 12   | Bethel A/G, Rapid City, SD                    | 9-10   | 1950      | 102.63  | 230    | 12.11      |
+| 13   | First A/G, Lexington, KY                      | 9-10   | 1385      | 72.89   | -245   | -12.89     |
+| 14   | Newport Mesa Church, Costa Mesa, CA           | 9-10   | 1525      | 80.26   | -140   | -7.37      |
+| 15   | Evangel Community Church, Snellville, GA      | 8-11   | 940       | 49.47   | -620   | -32.63     |
+| 16   | Knox City A/G, Knox City, MO                  | 8-11   | 1475      | 77.63   | -55    | -2.89      |
+| 17   | The Church at Briargate, Colorado Springs, CO | 5-14   | 1215      | 63.95   | -660   | -34.74     |
+| 18   | New Life Church, Renton, WA                   | 5-14   | 955       | 50.26   | -695   | -36.58     |
+| 19   | The Assembly, Warner Robins, GA               | 4-15   | 1165      | 61.32   | -695   | -36.58     |
+| 20   | North Valley A/G, Phoenix, AZ                 | 3-16   | 715       | 37.63   | -1255  | -66.05     |
 
 ### Individuals
 
-| #   | Quizzer              | Team                   | Church                       | Total | AVG    | QO  |
-| --- | -------------------- | ---------------------- | ---------------------------- | ----- | ------ | --- |
-| 1   | Luke Hamilton        | Gering NE              | Northfield Church            | 1935  | 101.84 | 16  |
-| 2   | Spenser Wilhelm      | Rapid City SD          | Bethel AG                    | 1610  | 84.74  | 14  |
-| 3   | James Cary           | Indianapolis IN        | Lakeview Church              | 1510  | 79.47  | 13  |
-| 4   | Lindsay Cowan        | Toccoa GA              | Toccoa AG                    | 1505  | 79.21  | 13  |
-| 5   | Trey Sederwall       | Garfield NJ            | Praise AG                    | 1415  | 74.47  | 10  |
-| 6   | Rachael Singh        | Richmond Hill NY       | Bethlehem Church             | 1365  | 71.84  | 7   |
-| 7   | Abigail Peterson     | Tacoma WA              | Life Center                  | 1360  | 71.58  | 9   |
-| 8   | Andrew Roach         | Houston TX Chr. Temple | Christian Temple             | 1260  | 66.32  | 9   |
-| 9   | Faith Pryer          | Grant MI               | Grant AG                     | 1110  | 58.42  | 6   |
-| 10  | Erinn Wolf           | Wesley Chapel FL       | Victorious Life Church       | 1000  | 52.63  | 9   |
-| 11  | Brayden Laakkonen    | Lexington KY           | First AG                     | 945   | 49.74  | 6   |
-| 12  | Kenadee Schrock      | South Bend IN          | Southgate Church             | 920   | 48.42  | 9   |
-| 13  | Chris Turner         | Georgetown KY          | Trinity AG                   | 910   | 47.89  | 6   |
-| 14  | Tobias Garner        | Bowie MD               | Cornerstone Church           | 860   | 45.26  | 5   |
-| 15  | Seth Smith           | Lexington KY           | First AG                     | 850   | 44.74  | 7   |
-| 16  | Joshua Kukuvka       | Mechanicsville VA      | Mechanicsville Christian Ctr | 835   | 43.95  | 10  |
-| 17  | Oore Morakinyo       | Ft Lauderdale FL       | Christian Life Center        | 830   | 43.68  | 7   |
-| 18  | Holly Bowen          | Mechanicsville VA      | Mechanicsville Christian Ctr | 810   | 42.63  | 5   |
-| 19  | Marc Smith           | Bowie MD               | Cornerstone Church           | 785   | 41.32  | 9   |
-| 20  | Zach Wisz            | Garfield NJ            | Praise AG                    | 765   | 40.26  | 9   |
-| 21  | Kara Peters          | Springfield MO         | King's Chapel                | 695   | 36.58  | 7   |
-| 22  | Joy Okafor           | Richmond Hill NY       | Bethlehem Church             | 675   | 35.53  | 2   |
-| 23  | Claire Convis        | East Lansing MI        | First AG                     | 575   | 30.26  | 5   |
-| 24  | Bethany York         | Bowie MD               | Cornerstone Church           | 565   | 29.74  | 4   |
-| 25  | David Pryer          | Grant MI               | Grant AG                     | 540   | 28.42  | 5   |
-| 26  | Brock Peters         | Springfield MO         | King's Chapel                | 505   | 26.58  | 2   |
-| 27  | Emily Herron         | Warner Robins GA       | The Assembly                 | 470   | 24.74  | 3   |
-| 28  | Veronica Johnson     | Warner Robins GA       | The Assembly                 | 465   | 24.47  | 3   |
-| 29  | Shannon Wolf         | Wesley Chapel FL       | Victorious Life Church       | 465   | 24.47  |     |
-| 30  | Celah Convis         | East Lansing MI        | First AG                     | 445   | 23.42  | 4   |
-| 31  | Charlie Wilhelm      | Rapid City SD          | Bethel AG                    | 445   | 23.42  | 1   |
-| 32  | Elizabeth Olatunji   | Wesley Chapel FL       | Victorious Life Church       | 375   | 19.74  |     |
-| 33  | Rebecca Ford         | Richmond Hill NY       | Bethlehem Church             | 360   | 18.95  | 3   |
-| 34  | Zachariah Turnage    | Plymouth WI            | Christian Life               | 320   | 16.84  | 4   |
-| 35  | John Pryer           | Grant MI               | Grant AG                     | 265   | 13.95  |     |
-| 36  | Alexi Turnage        | Plymouth WI            | Christian Life               | 230   | 12.11  | 1   |
-| 37  | Courtney Turner      | Georgetown KY          | Trinity AG                   | 220   | 11.58  |     |
-| 37  | Sydny Bettis         | Houston TX Chr. Temple | Christian Temple             | 220   | 11.58  |     |
-| 38  | Allison Johnson      | Toccoa GA              | Toccoa AG                    | 210   | 11.05  |     |
-| 39  | Daniel Kirby         | Houston TX Chr. Temple | Christian Temple             | 205   | 10.79  | 1   |
-| 40  | Lacey Cowan          | Toccoa GA              | Toccoa AG                    | 190   | 10     |     |
-| 41  | Kyla Schrock         | South Bend IN          | Southgate Church             | 185   | 9.74   | 1   |
-| 42  | Alisa Hodge          | Indianapolis IN        | Lakeview Church              | 185   | 9.74   |     |
-| 43  | Nathaniel Walker     | Mechanicsville VA      | Mechanicsville Christian Ctr | 150   | 7.89   |     |
-| 43  | Katie Dowers         | Indianapolis IN        | Lakeview Church              | 150   | 7.89   |     |
-| 44  | Jacob Yanez          | Tacoma WA              | Life Center                  | 105   | 5.53   |     |
-| 45  | Eve Vargas           | Garfield NJ            | Praise AG                    | 90    | 4.74   |     |
-| 46  | Chase Buher          | East Lansing MI        | First AG                     | 80    | 4.21   |     |
-| 47  | Anthony Sangermano   | Ft Lauderdale FL       | Christian Life Center        | 75    | 3.95   |     |
-| 48  | Samuel Dawson        | Tacoma WA              | Life Center                  | 70    | 3.68   |     |
-| 49  | Levi Hamilton        | Gering NE              | Northfield Church            | 60    | 3.16   |     |
-| 49  | Matthew Walker       | Lexington KY           | First AG                     | 60    | 3.16   |     |
-| 50  | Bethia Hamilton      | Gering NE              | Northfield Church            | 55    | 2.89   |     |
-| 51  | Austin Harr          | East Lansing MI        | First AG                     | 45    | 2.37   |     |
-| 52  | Curtis Svenson       | Rapid City SD          | Bethel AG                    | 40    | 2.11   |     |
-| 53  | Elijah Deaton        | Georgetown KY          | Trinity AG                   | 35    | 1.84   |     |
-| 54  | Mariah Thompson      | Bowie MD               | Cornerstone Church           | 30    | 1.58   |     |
-| 54  | Ope Morakinyo        | Ft Lauderdale FL       | Christian Life Center        | 30    | 1.58   |     |
-| 54  | Alex McCracken       | Lexington KY           | First AG                     | 30    | 1.58   |     |
-| 55  | Ashlynn Schrock      | South Bend IN          | Southgate Church             | 25    | 1.32   |     |
-| 55  | Alyssa Walker        | Mechanicsville VA      | Mechanicsville Christian Ctr | 25    | 1.32   |     |
-| 56  | Maggie Thompson      | Bowie MD               | Cornerstone Church           | 15    | 0.79   |     |
-| 56  | Micah Pennel         | Rapid City SD          | Bethel AG                    | 15    | 0.79   |     |
-| 57  | Angela Magditch      | Warner Robins GA       | The Assembly                 | 10    | 0.53   |     |
-| 58  | Kayla Roettgers      | Houston TX Chr. Temple | Christian Temple             |       | 0      |     |
-| 58  | Beth Pyle            | Houston TX Chr. Temple | Christian Temple             |       | 0      |     |
-| 58  | Christina Okafor     | Richmond Hill NY       | Bethlehem Church             |       | 0      |     |
-| 58  | KIsabella Chittumuri | Richmond Hill NY       | Bethlehem Church             |       | 0      |     |
-| 58  | Johanna Nick         | Plymouth WI            | Christian Life               |       | 0      |     |
-| 58  | Aaron Pryer          | Grant MI               | Grant AG                     |       | 0      |     |
-| 58  | Daniel Olatunji      | Wesley Chapel FL       | Victorious Life Church       |       | 0      |     |
-| 58  | Helyn Dunn           | Wesley Chapel FL       | Victorious Life Church       |       | 0      |     |
-| 58  | Brooke Garcia        | Indianapolis IN        | Lakeview Church              |       | 0      |     |
-| 58  | Kiley Dowers         | Indianapolis IN        | Lakeview Church              |       | 0      |     |
-| 58  | Mary Olowofela       | Ft Lauderdale FL       | Christian Life Center        |       | 0      |     |
-| 58  | Josue Benjamin       | Ft Lauderdale FL       | Christian Life Center        |       | 0      |     |
-| 59  | Timi Fagbamiyo       | Warner Robins GA       | The Assembly                 | -15   | -0.79  |     |
-| 60  | Seth Donaldson       | Tacoma WA              | Life Center                  | -10   | -0.53  |     |
-| 60  | Will Turner          | Georgetown KY          | Trinity AG                   | -10   | -0.53  |     |
+| Position | Quizzer           | Church                          | Total Pts | Avg Pts | Q/out F-B |
+| -------- | ----------------- | ------------------------------- | --------- | ------- | --------- |
+| 1        | Luke Hamilton     | Gering, NE                      | 2180      | 114.74  | 18        |
+| 2        | Selena Rodriguez  | Sioux Falls, SD                 | 1765      | 92.89   | 14        |
+| 3        | Tyler Adelmann    | Wyckoff, NJ                     | 1710      | 90      | 13        |
+| 4        | Abigail Peterson  | Tacoma, WA                      | 1570      | 82.63   | 11        |
+| 5        | James Carey       | Indianapolis, IN                | 1565      | 82.37   | 13        |
+| 6        | Spenser Wilhelm   | Rapid City, SD                  | 1430      | 75.26   | 12        |
+| 7        | Ryan Toeller      | Racine, WI                      | 1415      | 74.47   | 10        |
+| 8        | Kelsey Cruz       | Costa Mesa, CA                  | 1380      | 72.63   | 13        |
+| 9        | Makena Schrock    | South Bend, IN                  | 1350      | 71.05   | 14        |
+| 10       | Rachael Singh     | Richmond Hill, NY               | 1305      | 68.68   | 9         |
+| 11       | Zach Brookbank    | Kansas City, MO                 | 1175      | 61.84   | 8         |
+| 12       | Emily Herron      | Warner Robbins, GA              | 1140      | 60      | 14        |
+| 13       | Claire Convis     | East Lansing, MI                | 980       | 51.58   | 6         |
+| 14       | Tirzah Brookbank  | Kansas City, MO                 | 910       | 47.89   | 9         |
+| 15       | Gabriel Flores    | Wyckoff, NJ                     | 765       | 40.26   | 8         |
+| 16       | Brayden Laakkonen | Lexington, KY                   | 730       | 38.42   | 5         |
+| 17       | Andrew Van Horn   | Knox City, MO                   | 695       | 36.58   | 3         |
+| 18       | Tiffani Phaneuf   | Briargate, Colorado Springs, CO | 690       | 36.32   | 3         |
+| 19       | Rebecca Ford      | Richmond Hill, NY               | 660       | 34.74   | 6         |
+| 20       | Jed Brookbank     | Kansas City, MO                 | 655       | 34.47   | 5         |
+| 21       | Andy Okala        | Snellville, GA                  | 555       | 29.21   | 3         |
+| 22       | J.B. Van Horn     | Knox City, MO                   | 535       | 28.16   | 2         |
+| 23       | Caleb Phaneuf     | Briargate, Colorado Springs, CO | 530       | 27.89   | 5         |
+| 24       | Charlie Wilhelm   | Rapid City, SD                  | 455       | 23.95   | 0         |
+| 25       | Kenadee Schrock   | South Bend, IN                  | 430       | 22.63   | 3         |
+| 26       | Mo Adewunmi       | Wesley Chapel, FL               | 395       | 20.79   | 3         |
+| 27       | Rojowo Okala      | Snellville, GA                  | 390       | 20.53   | 2         |
+| 28       | Liana Papini      | Renton, WA                      | 360       | 18.95   | 1         |
+| 29       | Christen Smith    | Lexington, KY                   | 350       | 18.42   | 0         |
+| 30       | Sean Daniels      | Racine, WI                      | 325       | 17.11   | 1         |
+| 31       | Erinn Wolf        | Wesley Chapel, FL               | 315       | 16.58   | 0         |
+| 32       | Chad Stogner      | Phoenix, AZ                     | 305       | 16.05   | 2         |
+| 33       | Geddy Walker      | Lexington, KY                   | 305       | 16.05   | 0         |
+| 34       | Iva Papini        | Renton, WA                      | 285       | 15      | 1         |
+| 35       | Wesley Jacobs     | Renton, WA                      | 255       | 13.42   | 0         |
+| 36       | Michael Van Horn  | Knox City, MO                   | 250       | 13.16   | 0         |
+| 37       | Rachel Schoon     | Sioux Falls, SD                 | 210       | 11.05   | 0         |
+| 38       | Morgan Nardozzi   | Phoenix, AZ                     | 210       | 11.05   | 0         |
+| 39       | Bethia Hamilton   | Gering, NE                      | 205       | 10.79   | 0         |
+| 40       | Kyla Schrock      | South Bend, IN                  | 200       | 10.53   | 1         |
+| 41       | Ashley Kellock    | Phoenix, AZ                     | 200       | 10.53   | 1         |
+| 42       | Daniel Adewunmi   | Wesley Chapel, FL               | 200       | 10.53   | 1         |
+| 43       | Katie Dowers      | Indianapolis, IN                | 155       | 8.16    | 0         |
+| 44       | Jessica Basketie  | Costa Mesa, CA                  | 150       | 7.89    | 0         |
+| 45       | Jacob Yanez       | Tacoma, WA                      | 135       | 7.11    | 0         |
+| 46       | Shannon Wolf      | Wesley Chapel, FL               | 135       | 7.11    | 0         |
+| 47       | Levi Hamilton     | Gering, NE                      | 120       | 6.32    | 0         |
+| 48       | Sara Singh        | Richmond Hill, NY               | 115       | 6.05    | 0         |
+| 49       | Omari Dixon       | Richmond Hill, NY               | 105       | 5.53    | 0         |
+| 50       | Drew Harr         | East Lansing, MI                | 85        | 4.47    | 0         |
+| 51       | Curtis Svenson    | Rapid City, SD                  | 80        | 4.21    | 0         |
+| 52       | Austin Harr       | East Lansing, MI                | 65        | 3.42    | 0         |
+| 53       | Stuart Jacobs     | Renton, WA                      | 60        | 3.16    | 0         |
+| 54       | Brooke Garcia     | Indianapolis, IN                | 50        | 2.63    | 0         |
+| 55       | Enrique Yanez     | Tacoma, WA                      | 30        | 1.58    | 0         |
+| 56       | Kimara Davis      | Richmond Hill, NY               | 30        | 1.58    | 0         |
+| 57       | Chad Schwartz     | Sioux Falls, SD                 | 20        | 1.05    | 0         |
+| 58       | Angela Magditch   | Warner Robbins, GA              | 20        | 1.05    | 0         |
+| 59       | Rachel Girimonte  | Wyckoff, NJ                     | 10        | 0.53    | 0         |
+| 60       | Alexis Adelmann   | Wyckoff, NJ                     | 10        | 0.53    | 0         |
+| 61       | Casey Bailey      | Snellville, GA                  | 10        | 0.53    | 0         |
+| 62       | Ashlynn Schrock   | South Bend, IN                  | 10        | 0.53    | 0         |
+| 63       | Tiffany Boykin    | Warner Robbins, GA              | 5         | 0.26    | 0         |
+| 64       | Dane Kuroishi     | Costa Mesa, CA                  | 5         | 0.26    | 0         |
 
 ## Preliminary Results
 
