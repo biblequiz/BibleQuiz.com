@@ -32,7 +32,7 @@ As I mentioned, attending Nationals is an investment, but with the right plannin
 
 Besides studying and financially planning for Nationals, expect this week to be one of the best of the year. Come ready to experience excellent competition, make new friends, and join a vibrant community of people who love the Word of God. Win or lose, Nationals is a week of growing and of making memories that will last a lifetime. See you in St. Louis!
 
-_Shreanna Powell, Napierville, IL_
+_Shreanna Powell, Naperville, IL_
 
 ### Advice from the Bible Quiz Community
 
