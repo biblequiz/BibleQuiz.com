@@ -10,7 +10,7 @@ menubar: menu_tbq_nationals
 
 The Quoting Bee is a Scripture-quoting competition similar to a Spelling Bee. Participants receive a verse reference and have 15 seconds to quote it perfectly. A correct quote advances to the next quizzer, with the round continuing until someone errors. But watch out: If no one gets eliminated after a few rounds, particpants may have their time to answer reduced or they may have to quote multiple verses!
 
-In the final round, scholarships will be awarded to the Top 3!
+Top 3 quizzers in the Finals receive scholarships to the school of their choice:
 
 1st Place: $650  
 2nd Place: $250  
