@@ -13,7 +13,12 @@ export default defineConfig({
 			social: [
 				{ icon: 'email', label: 'Email', href: 'mailto:hello@biblequiz.com' },
 				{ icon: 'facebook', label: 'Facebook', href: 'https://facebook.com/groups/agbiblequiz' },
-				{ icon: 'youtube', label: 'Youtube', href: 'https://youtube.com/@BibleQuiz-AG' }
+				{ icon: 'youtube', label: 'Youtube', href: 'https://youtube.com/@BibleQuiz-AG' },
+				{
+				  icon: 'email',
+				  label: 'foo',
+				  href: '/login',
+				}
 			],
 			favicon: '/favicon.png',
 			logo: {
@@ -27,6 +32,7 @@ export default defineConfig({
 			  './src/styles/custom.css',
 			],
 			components: {
+				Header: './src/components/Header.astro',
 				Footer: './src/components/Footer.astro',
 			},
 			lastUpdated: true,

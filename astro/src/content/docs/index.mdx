@@ -1,6 +1,7 @@
 ---
 title: "Home of Junior and Teen Bible Quiz"
 template: splash
+headings: false
 ---
 
 import { Card, CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/components';
@@ -40,32 +41,37 @@ import { Card, CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/compone
     </Card>
 
     <Card title="">
+        <div class="no-anchor-links">
+            #### Junior Bible Quiz (JBQ)
 
-        **Junior Bible Quiz (Up to Grade 6)**
+            Quizzing for Pre-K up to Grade 6.
 
-        <CardGrid>
-            <LinkButton 
-                href="/jbq/" 
-                icon="right-arrow" 
-                iconPlacement="end">Current Season</LinkButton>
-            <LinkButton 
-                href="/upcoming-events/jbq" 
-                icon="magnifier" 
-                iconPlacement="end">Upcoming Event</LinkButton>
-        </CardGrid>
+            <CardGrid>
+                <LinkButton 
+                    href="/jbq/" 
+                    icon="right-arrow" 
+                    iconPlacement="end">Current Season</LinkButton>
+                <LinkButton 
+                    href="/upcoming-events/jbq" 
+                    icon="magnifier" 
+                    iconPlacement="end">Upcoming Event</LinkButton>
+            </CardGrid>
 
-        **Teen Bible Quiz (Grades 6 - 12)**
+            #### Teen Bible Quiz (TBQ)
 
-        <CardGrid>
-            <LinkButton 
-                href="/current-season/" 
-                icon="right-arrow" 
-                iconPlacement="end">Current Season</LinkButton>
-            <LinkButton 
-                href="/upcoming-events/tbq/" 
-                icon="magnifier" 
-                iconPlacement="end">Upcoming Event</LinkButton>
-        </CardGrid>
+            Quizzing for Grades 6 - 12.
+
+            <CardGrid>
+                <LinkButton 
+                    href="/current-season/" 
+                    icon="right-arrow" 
+                    iconPlacement="end">Current Season</LinkButton>
+                <LinkButton 
+                    href="/upcoming-events/tbq/" 
+                    icon="magnifier" 
+                    iconPlacement="end">Upcoming Event</LinkButton>
+            </CardGrid>
+        </div>
     </Card>
 
 </CardGrid>
