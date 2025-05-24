@@ -1,7 +1,6 @@
 ---
 title: "Home Page"
 template: splash
-headings: false
 ---
 
 import { Card, CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/components';
@@ -12,12 +11,12 @@ import { marked } from 'marked';
     <LinkCard 
         title="Upcoming & Live Events"
         description="Register and see scores for any upcoming Junior or Teen Bible Quiz events."
-        href="/upcoming-events/jbq/" />
+        href="/upcoming-events/" />
 
     <LinkCard 
         title="TBQ National Finals"
         description="All the information for TBQ National Finals in St. Louis, MO."
-        href="history/2025/nationals/" />
+        href="/tbq/history/2025/nationals/" />
 </CardGrid>
 
 [//]: # (Since Nationals is only on the home page for a short period of time. If there was a single CardGrid, then)

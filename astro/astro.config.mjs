@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import sitemap from '@astrojs/sitemap';
 import path from 'path';
+import starlightLinksValidator from 'starlight-links-validator'
 
 export default defineConfig({
 	site: 'https://biblequiz.com',
@@ -37,7 +38,8 @@ export default defineConfig({
 				LinkCardWithSlot: './src/components/LinkCardWithSlot.astro',
 			},
 			lastUpdated: true,
-			pagination: true,
+			pagination: false,
+			plugins: [starlightLinksValidator()],
 		}),
 	],
 	output: 'static',
@@ -49,7 +51,10 @@ export default defineConfig({
 	  resolve: {
 		alias: {
 		  '@': path.resolve('./src'),
+		  '@assets': path.resolve('./src/assets'),
 		  '@components': path.resolve('./src/components'),
+		  '@layouts': path.resolve('./src/layouts'),
+		  '@pages': path.resolve('./src/pages'),
 		}
 	  }
 	}
