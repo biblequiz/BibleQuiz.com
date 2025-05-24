@@ -27,7 +27,6 @@ export default defineConfig({
 				dark: './src/assets/images/dark-logo.png',
 				replacesTitle: true,
 			},
-			sidebar: [],
 			customCss: [
 			  // Relative path to your custom CSS file
 			  './src/styles/custom.css',
