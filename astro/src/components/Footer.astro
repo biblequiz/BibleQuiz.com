@@ -1,0 +1,79 @@
+<footer class="custom-footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <a href="/src/assets/sponsors/Glide-Lock-Cabinets-2023.pdf">
+        <img src="/src/assets/sponsors/glide-lock-cabinets.jpg" alt="Glide Lock Cabinets" />
+      </a>
+    </div>
+    <div class="footer-section">
+      <a href="/src/assets/sponsors/Lindenwood-University.pdf">
+        <img src="/src/assets/sponsors/lindenwood.jpg" alt="Lindenwood University" />
+      </a>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <i>
+      Junior Bible Quiz graphics, logos, product images, and service names are trademarked by the General Council of the
+      Assemblies of God. Use of these images and trademarks without written authorization is forbidden and is a violation of
+      federal and international laws.
+    </i>
+  </div>
+</footer>
+
+<style>
+  .custom-footer {
+    background-color: var(--sl-color-bg-nav);
+    border-top: 1px solid var(--sl-color-hairline);
+    margin-top: auto;
+    padding: 2rem 0 1rem;
+  }
+  
+  .footer-content {
+    max-width: var(--sl-content-width);
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+  
+  .footer-section h3 {
+    color: var(--sl-color-white);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-section a {
+    color: var(--sl-color-gray-3);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .footer-section a:hover {
+    color: var(--sl-color-white);
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid var(--sl-color-hairline-shade);
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    color: var(--sl-color-gray-3);
+    margin: 0;
+    font-size: 0.9rem;
+  }
+</style>

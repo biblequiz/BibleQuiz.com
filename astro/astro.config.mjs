@@ -1,26 +1,41 @@
-// @ts-check
+// astro.config.mjs
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
 
-// https://astro.build/config
 export default defineConfig({
+	site: 'https://biblequiz.com',
 	integrations: [
+		sitemap(),
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+			title: 'BibleQuiz.com',
+			description: 'Home of AG Bible Quiz',
+			social: [
+				{ icon: 'email', label: 'Email', href: 'mailto:hello@biblequiz.com' },
+				{ icon: 'facebook', label: 'Facebook', href: 'https://facebook.com/groups/agbiblequiz' },
+				{ icon: 'youtube', label: 'Youtube', href: 'https://youtube.com/@BibleQuiz-AG' }
 			],
+			favicon: '/favicon.png',
+			logo: {
+				light: './src/assets/images/light-logo.png',
+				dark: './src/assets/images/dark-logo.png',
+				replacesTitle: true,
+			},
+			sidebar: [],
+			customCss: [
+			  // Relative path to your custom CSS file
+			  './src/styles/custom.css',
+			],
+			components: {
+				Footer: './src/components/Footer.astro',
+			},
+			lastUpdated: true,
+			pagination: true,
 		}),
 	],
+	output: 'static',
+	build: {
+		format: 'directory',
+		assets: '_astro',
+	},
 });
