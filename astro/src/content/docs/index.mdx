@@ -5,6 +5,7 @@ headings: false
 ---
 
 import { Card, CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/components';
+import { marked } from 'marked';
 
 <CardGrid>
     
@@ -17,61 +18,46 @@ import { Card, CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/compone
         title="TBQ National Finals"
         description="All the information for TBQ National Finals in St. Louis, MO."
         href="history/2025/nationals/" />
-
 </CardGrid>
+
+[//]: # (Since Nationals is only on the home page for a short period of time. If there was a single CardGrid, then)
+[//]: # (JBQ would jump up to the first line when Nationals is removed. By keeping them separate, JBQ and TBQ are aligned)
+[//]: # (on Desktop machines.)
 
 <CardGrid>
-    <Card title="Getting Started">
+    <LinkCard
+        title="Junior Bible Quiz (JBQ)"
+        href="/jbq"
+        description={marked(`
+An exciting way to teach kids using games with questions and answers about the Bible using 576 questions
+teaching about the Bible covering Genesis to Revelation from the Bible Fact-Pak. Grades 1 - 6 can compete,
+but many districts allow younger kids to join.`)} />
 
-        **New to Bible Quiz?** We highly recommend reaching out to Pastor Bernie Elliott, the
-        National Bible Quiz Coordinator.
-
-        Subscribing to the newsletter is the best way to stay up-to-date on news, information, and upcoming events.
-
-        <CardGrid>
-            <LinkButton 
-                href="mailto:pastorbernie@biblequiz.com" 
-                icon="email" 
-                iconPlacement="start">Pastor Bernie</LinkButton>
-            <LinkButton 
-                href="https://biblequiz.us11.list-manage.com/subscribe?u=089b34ce4234326ee935daca3&id=ff95fe96ee"
-                icon="document"
-                iconPlacement="start">Subscribe Now</LinkButton>
-        </CardGrid>
-    </Card>
-
-    <Card title="">
-        <div class="no-anchor-links">
-            #### Junior Bible Quiz (JBQ)
-
-            Quizzing for Pre-K up to Grade 6.
-
-            <CardGrid>
-                <LinkButton 
-                    href="/jbq/" 
-                    icon="right-arrow" 
-                    iconPlacement="end">Current Season</LinkButton>
-                <LinkButton 
-                    href="/upcoming-events/jbq" 
-                    icon="magnifier" 
-                    iconPlacement="end">Upcoming Event</LinkButton>
-            </CardGrid>
-
-            #### Teen Bible Quiz (TBQ)
-
-            Quizzing for Grades 6 - 12.
-
-            <CardGrid>
-                <LinkButton 
-                    href="/current-season/" 
-                    icon="right-arrow" 
-                    iconPlacement="end">Current Season</LinkButton>
-                <LinkButton 
-                    href="/upcoming-events/tbq/" 
-                    icon="magnifier" 
-                    iconPlacement="end">Upcoming Event</LinkButton>
-            </CardGrid>
-        </div>
-    </Card>
+    <LinkCard
+        title="Teen Bible Quiz (JBQ)"
+        href="/tbq"
+        description={marked(`
+Discipleship ministry geared for grades 6 - 12 memorizing different book(s) of the New Testament each year. Competitions
+are happening across the nation at tournaments, league, district, regional, and national level events. Each year, thousands
+of dollars in scholarships are awarded to students for their hard work. If you love God, enjoy the thrill of competition, and
+want to have fun, then TBQ is for you!`)} />
 
 </CardGrid>
+
+<div class="no-anchor-links">
+    ## Get Started
+
+    **New to Bible Quiz?** We highly recommend reaching out to Pastor Bernie Elliott, the
+    National Bible Quiz Coordinator.
+
+    Subscribing to the newsletter is the best way to stay up-to-date on news, information, and upcoming events.
+
+    <LinkButton 
+        href="mailto:pastorbernie@biblequiz.com" 
+        icon="email" 
+        iconPlacement="start">Pastor Bernie</LinkButton>
+    <LinkButton 
+        href="https://biblequiz.us11.list-manage.com/subscribe?u=089b34ce4234326ee935daca3&id=ff95fe96ee"
+        icon="document"
+        iconPlacement="start">Subscribe Now</LinkButton>
+</div>

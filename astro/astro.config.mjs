@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import sitemap from '@astrojs/sitemap';
+import path from 'path';
 
 export default defineConfig({
 	site: 'https://biblequiz.com',
@@ -34,6 +35,7 @@ export default defineConfig({
 			components: {
 				Header: './src/components/Header.astro',
 				Footer: './src/components/Footer.astro',
+				LinkCardWithSlot: './src/components/LinkCardWithSlot.astro',
 			},
 			lastUpdated: true,
 			pagination: true,
@@ -44,4 +46,12 @@ export default defineConfig({
 		format: 'directory',
 		assets: '_astro',
 	},
+	vite: {
+	  resolve: {
+		alias: {
+		  '@': path.resolve('./src'),
+		  '@components': path.resolve('./src/components'),
+		}
+	  }
+	}
 });
