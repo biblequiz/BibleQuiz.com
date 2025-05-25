@@ -1,15 +1,19 @@
 {
-  "name": "bulma-clean-theme",
-  "description": "This is a clean and simple Jekyll Theme built with the Bulma framework, providing a modern looking site to start with.",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "name": "astro",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "author": "chrisrhymes",
-  "license": "MIT",
   "dependencies": {
-      "bulma": "^1.0"
+    "@astrojs/starlight": "^0.34.3",
+    "astro": "^5.6.1",
+    "marked": "^15.0.12",
+    "sharp": "^0.32.5",
+    "starlight-links-validator": "^0.16.0"
   }
 }
