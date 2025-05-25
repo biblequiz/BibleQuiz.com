@@ -1,0 +1,506 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+
+const sidebar = [
+  {
+    label: "Junior Bible Quiz (JBQ)",
+    collapsed: true,
+    items: [
+      {
+        "label": "JBQ Rules",
+        "link": "/assets/2025/24-25_JBQ_Guidelines.pdf"
+      },
+      {
+        "label": "History by Season",
+        "link": "/jbq/"
+      },
+      {
+        "label": "Links",
+        "link": "/jbq/links/"
+      },
+      {
+        "label": "Quizzer Search",
+        "link": "/quizzers/"
+      },
+      {
+        "label": "Register",
+        "link": "https://registration.biblequiz.com"
+      },
+      {
+        "label": "Live Events",
+        "link": "/upcoming-events/jbq/"
+      },
+      {
+        "label": "JBQ Rules",
+        "link": "/assets/2025/24-25_JBQ_Guidelines.pdf"
+      },
+      {
+        "label": "History",
+        "link": "/jbq/"
+      },
+      {
+        "label": "Links",
+        "link": "/jbq/links/"
+      },
+      {
+        "label": "Quizzer Search",
+        "link": "/quizzers/"
+      }
+    ]
+  },
+  {
+    label: "Teen Bible Quiz (TBQ)",
+    collapsed: true,
+    items:[
+      {
+        "label": "Current Season",
+        "link": "/bigmenu"
+      },
+      {
+        label: "Next Season",
+        link: "/next-season/"
+      },
+      {
+        label: "Live Events",
+        link: "/upcoming-events/tbq/"
+      },
+      {
+        "label": "Links",
+        "link": "/tbq"
+      },
+      {
+        label: "Training",
+        link: "/training/"
+      },
+      {
+        label: "Quizzer Search",
+        link: "/quizzers/"
+      },
+      {
+        "label": "History",
+        collapsed: true,
+        "items": [
+          {
+            "label": "By Season",
+            collapsed: true,
+            "items": [
+              {
+                "label": "2025: Acts",
+                items: [
+                  {
+                    label: "Nationals",
+                    collapsed: true,
+                    items: [
+                      {
+                        "label": "General Info",
+                        "link": "/history/2025/nationals/"
+                      },
+                      {
+                        "label": "Venue and Registration",
+                        "link": "/history/2025/nationals/venue-registration/"
+                      },
+                      {
+                        "label": "Schedule",
+                        "link": "/history/2025/nationals/schedule/"
+                      },
+                      {
+                        "label": "Communication",
+                        "link": "/history/2025/nationals/communication/"
+                      },
+                      {
+                        "label": "FAQ",
+                        "link": "/history/2025/nationals/faq/"
+                      },
+                      {
+                        "label": "First Time",
+                        "link": "/history/2025/nationals/first-time/"
+                      }
+                    ]
+                  },
+                  {
+                    label: "Competition Results",
+                    link: "/2025/results"
+                  }
+                ]
+              },
+              {
+                "label": "2024: Romans and James",
+                "link": "/history/2024/index.md"
+              },
+              {
+                "label": "2023: 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, 1, 2, & 3 John",
+                "link": "/history/2023/index.md"
+              },
+              {
+                "label": "2022: Gospel of Matthew",
+                "link": "/history/2022/index.md"
+              },
+              {
+                "label": "2021: Hebrews, I & II Peter, Jude",
+                "link": "/history/2021/index.md"
+              },
+              {
+                "label": "2020: Gospel of John",
+                "link": "/history/2020/index.md"
+              },
+              {
+                "label": "2019: I & II Corinthians",
+                "link": "/history/2019/index.md"
+              },
+              {
+                "label": "2018: Gospel of Mark",
+                "link": "/history/2018/index.md"
+              },
+              {
+                "label": "2017: Galatians, Ephesians, Philippians, Colossians, Philemon",
+                "link": "/history/2017/index.md"
+              },
+              {
+                "label": "2016: Acts of the Apostles",
+                "link": "/history/2016/index.md"
+              },
+              {
+                "label": "2015: Romans and James",
+                "link": "/history/2015/index.md"
+              },
+              {
+                "label": "2014: I & II Thessalonians, I & II Timothy, Titus, I, II, & III John",
+                "link": "/history/2014/index.md"
+              },
+              {
+                "label": "2013: Gospel of Matthew",
+                "link": "/history/2013/index.md"
+              },
+              {
+                "label": "2012: Hebrews, I & II Peter, Jude",
+                "link": "/history/2012/index.md"
+              },
+              {
+                "label": "2011: Gospel of John",
+                "link": "/history/2011/index.md"
+              },
+              {
+                "label": "2010: I & II Corinthians",
+                "link": "/history/2010/index.md"
+              },
+              {
+                "label": "2009: Gospel of Mark",
+                "link": "/history/2009/index.md"
+              },
+              {
+                "label": "2008: Galatians, Ephesians, Philippians, Colossians, and Philemon",
+                "link": "/history/2008/index.md"
+              },
+              {
+                "label": "2007: Acts of the Apostles",
+                "link": "/history/2007/index.md"
+              },
+              {
+                "label": "2006: Romans and James",
+                "link": "/history/2006/index.md"
+              },
+              {
+                "label": "2005: Gospel of Matthew",
+                "link": "/history/2005/index.md"
+              },
+              {
+                "label": "2004: Hebrews, I & II Peter",
+                "link": "/history/2004/index.md"
+              },
+              {
+                "label": "2003: Gospel of John",
+                "link": "/history/2003/index.md"
+              },
+              {
+                "label": "2002: I & II Corinthians",
+                "link": "/history/2002/index.md"
+              },
+              {
+                "label": "2001: Gospel of Luke",
+                "link": "/history/2001/index.md"
+              },
+              {
+                "label": "2000: Galatians, Ephesians, Philippians, Colossians, and Philemon",
+                "link": "/history/2000/index.md"
+              },
+              {
+                "label": "1999: Acts of the Apostles",
+                "link": "/history/1999/index.md"
+              },
+              {
+                "label": "1998: Romans and James",
+                "link": "/history/1998/index.md"
+              },
+              {
+                "label": "1997: Gospel of Matthew",
+                "link": "/history/1997/index.md"
+              },
+              {
+                "label": "1996: Hebrews, I & II Peter",
+                "link": "/history/1996/index.md"
+              },
+              {
+                "label": "1995: Gospel of John",
+                "link": "/history/1995/index.md"
+              },
+              {
+                "label": "1994: I & II Corinthians",
+                "link": "/history/1994/index.md"
+              },
+              {
+                "label": "1993: Gospel of Luke",
+                "link": "/history/1993/index.md"
+              },
+              {
+                "label": "1992: Galatians, Ephesians, Philippians, Colossians, and Philemon",
+                "link": "/history/1992/index.md"
+              },
+              {
+                "label": "1991: Acts of the Apostles",
+                "link": "/history/1991/index.md"
+              },
+              {
+                "label": "1990: James and Romans",
+                "link": "/history/1990/index.md"
+              },
+              {
+                "label": "1989: Gospel of Matthew",
+                "link": "/history/1989/index.md"
+              },
+              {
+                "label": "1988: Hebrews, I & II Peter",
+                "link": "/history/1988/index.md"
+              },
+              {
+                "label": "1987: Gospel of John",
+                "link": "/history/1987/index.md"
+              },
+              {
+                "label": "1986: I & II Corinthians",
+                "link": "/history/1986/index.md"
+              },
+              {
+                "label": "1985: Gospel of Luke",
+                "link": "/history/1985/index.md"
+              },
+              {
+                "label": "1984: Galatians, Ephesians, Philippians, and Colossians",
+                "link": "/history/1984/index.md"
+              },
+              {
+                "label": "1983: Acts of the Apostles",
+                "link": "/history/1983/index.md"
+              },
+              {
+                "label": "1982: I & II Thessalonians, I & II Peter, James",
+                "link": "/history/1982/index.md"
+              },
+              {
+                "label": "1981: Gospel of Matthew",
+                "link": "/history/1981/index.md"
+              },
+              {
+                "label": "1980: Romans and James",
+                "link": "/history/1980/index.md"
+              },
+              {
+                "label": "1979: Gospel of John",
+                "link": "/history/1979/index.md"
+              },
+              {
+                "label": "1978: I & II Corinthians",
+                "link": "/history/1978/index.md"
+              },
+              {
+                "label": "1977: Gospel of Luke",
+                "link": "/history/1977/index.md"
+              },
+              {
+                "label": "1976: Galatians, Ephesians, Philippians, and Colossians",
+                "link": "/history/1976/index.md"
+              },
+              {
+                "label": "1975: Acts of the Apostles",
+                "link": "/history/1975/index.md"
+              },
+              {
+                "label": "1974: I & II Thessalonians, I & II Peter, James",
+                "link": "/history/1974/index.md"
+              },
+              {
+                "label": "1973: Gospel of John",
+                "link": "/history/1973/index.md"
+              },
+              {
+                "label": "1972: Romans and Galatians",
+                "link": "/history/1972/index.md"
+              },
+              {
+                "label": "1971: Gospel of Matthew",
+                "link": "/history/1971/index.md"
+              },
+              {
+                "label": "1970: I & II Corinthians",
+                "link": "/history/1970/index.md"
+              },
+              {
+                "label": "1969: Gospel of Mark",
+                "link": "/history/1969/index.md"
+              },
+              {
+                "label": "1968: Ephesians, Philippians, Colossians, I & II Timothy, Titus",
+                "link": "/history/1968/index.md"
+              },
+              {
+                "label": "1967: John",
+                "link": "/history/1967/index.md"
+              },
+              {
+                "label": "1966: Romans",
+                "link": "/history/1966/index.md"
+              },
+              {
+                "label": "1965: Gospel of Mark",
+                "link": "/history/1965/index.md"
+              },
+              {
+                "label": "1964: I & II Corinthians",
+                "link": "/history/1964/index.md"
+              },
+              {
+                "label": "1963: Gospel of Luke",
+                "link": "/history/1963/index.md"
+              },
+              {
+                "label": "1962: Acts of the Apostles",
+                "link": "/history/1962/index.md"
+              }
+            ]
+          },
+          {
+            "label": "Nationals History",
+            "items": [
+              {
+                "label": "National Champions",
+                "link": "/history/team-champions/"
+              },
+              {
+                "label": "Top Scorers",
+                "link": "/history/top-scorers/"
+              },
+              {
+                "label": "Individual Tournament Winners",
+                "link": "/history/individual-tournament/"
+              },
+              {
+                "label": "Quoting Bee Winners",
+                "link": "/history/quoting-bee/"
+              },
+              {
+                "label": "Quizzers of the Year",
+                "link": "/history/quizzers-of-the-year/"
+              },
+              {
+                "label": "One-on-One Tournament",
+                "link": "/history/one-on-one-tournament/"
+              },
+              {
+                "label": "Scholarship Recipients",
+                "link": "/history/scholarship-recipients/"
+              },
+              {
+                "label": "East vs West and Boys vs Girls",
+                "link": "/history/east-west/"
+              },
+              {
+                "label": "Discontinued Competitions",
+                "link": "/history/discontinued-competitions/"
+              },
+              {
+                "label": "National Finals Locations",
+                "link": "/history/locations/"
+              },
+              {
+                "label": "National Records",
+                "link": "/history/records/"
+              }
+            ]
+          },
+          {
+            "label": "General History",
+            "items": [
+              {
+                "label": "Memorization and Discipleship Awards",
+                "link": "/history/national-awards/"
+              },
+              {
+                "label": "50 Greatest Quizzers of the First 50 Years",
+                "link": "/history/50-greatest-quizzers-of-first-50-years/"
+              },
+              {
+                "label": "National Coordinators",
+                "link": "/history/coordinators/"
+              },
+              {
+                "label": "Question Writers",
+                "link": "/history/question-writers/"
+              },
+              {
+                "label": "Eras of Quizzing",
+                "link": "/history/eras-of-quizzing/"
+              },
+              {
+                "label": "Acknowledgements",
+                "link": "/history/acknowledgements/"
+              }
+            ]
+          },
+        ]
+      },
+      {
+        "label": "Compete",
+        "items": [
+          {
+            "label": "Register",
+            "link": "https://registration.biblequiz.com"
+          },
+          {
+            "label": "Tournaments",
+            "link": "/events/tournaments/"
+          }
+        ]
+      },
+      {
+        "label": "Prepare",
+        "items": [
+          {
+            "label": "League Meet Breakdown",
+            "link": "/breakdown/"
+          },
+          {
+            "label": "Downloads & Forms",
+            "link": "/downloads/"
+          }
+        ]
+      },
+      {
+        "label": "Materials",
+        "items": [
+          {
+            "label": "Questions",
+            "link": "/questions/"
+          },
+          {
+            "label": "Products",
+            "link": "/products/"
+          }
+        ]
+      }
+    ]
+  },
+];
+---
+
+<StarlightPage frontmatter={{ title: "Example of a Big Menu" }} sidebar={sidebar}>
+  <slot />
+</StarlightPage>
