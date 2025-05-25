@@ -1,0 +1,21 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+
+const sidebar = [
+  {
+    label: "Teen Bible Quiz",
+    items: [
+      "tbq",
+      "jbq",
+      "upcoming-events",
+      {
+        label: "Foo", link: "foo"
+      },
+    ],
+  },
+];
+---
+
+<StarlightPage frontmatter={{ title: Astro.props.frontmatter.title }} sidebar={sidebar}>
+  <slot />
+</StarlightPage>

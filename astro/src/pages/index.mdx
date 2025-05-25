@@ -1,10 +1,16 @@
 ---
 title: "Home Page"
+layout: '@astrojs/starlight/components/StarlightPage.astro'
 template: splash
 ---
 
 import { Card, CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/components';
 import { marked } from 'marked';
+
+<LinkCard 
+    title="Example of a Big Menu"
+    description="This is an example of all the items together"
+    href="/bigmenu" />
 
 <CardGrid>
     
