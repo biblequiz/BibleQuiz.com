@@ -1,6 +1,25 @@
 ---
-title: "Upcoming Events"
-layout: null
+title: "Upcoming & Live Events"
+sidebar:
+    order: 1
 ---
 
-Upcoming Events
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import EventFilters from '@components/EventFilters.astro';
+import EventList from '@components/EventList.astro';
+import EventScopeBadge from '@components/EventScopeBadge.astro';
+
+<EventFilters />
+_Some stars:_
+
+<Tabs syncKey="competitionType">
+  <TabItem label="Junior Bible Quiz (JBQ)">Bellatrix, Rigel, Betelgeuse</TabItem>
+  <TabItem label="Teen Bible Quiz (TBQ)">Pollux, Castor A, Castor B</TabItem>
+</Tabs>
+
+_Some exoplanets:_
+
+<Tabs syncKey="competitionType">
+  <TabItem label="Junior Bible Quiz (JBQ)">Bellatrix, Rigel, Betelgeuse</TabItem>
+  <TabItem label="Teen Bible Quiz (TBQ)">Pollux, Castor A, Castor B</TabItem>
+</Tabs>
