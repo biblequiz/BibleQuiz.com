@@ -1,9 +1,0 @@
----
-import { Badge } from '@astrojs/starlight/components';
-
-const { scope } = Astro.props;
----
-
-{scope && scope.toLowerCase() == "nation" && <Badge text="NATIONAL" variant="caution" size="medium" />}
-{scope && scope.toLowerCase() == "region" && <Badge text="REGIONAL" variant="note" size="medium" />}
-{scope && scope.toLowerCase() == "district" && <Badge text="DISTRICT" variant="success" size="medium" />}

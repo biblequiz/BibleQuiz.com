@@ -5,11 +5,11 @@ sidebar:
 ---
 
 import { Tabs, TabItem } from '@astrojs/starlight/components';
-import EventFilters from '@components/EventFilters.astro';
+import EventFilters from '@components/EventFilters.tsx';
 import EventList from '@components/EventList.astro';
-import EventScopeBadge from '@components/EventScopeBadge.astro';
 
 <EventFilters client:load />
+
 _Some stars:_
 
 <Tabs syncKey="competitionType">
