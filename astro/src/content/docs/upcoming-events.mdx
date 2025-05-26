@@ -5,10 +5,9 @@ sidebar:
 ---
 
 import { Tabs, TabItem } from '@astrojs/starlight/components';
-import EventFilters from '@components/EventFilters.tsx';
-import EventList from '@components/EventList.astro';
+import EventList from '@components/EventList.tsx';
 
-<EventFilters client:load />
+<EventList client:only="react" />
 
 _Some stars:_
 
