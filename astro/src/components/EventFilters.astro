@@ -5,49 +5,28 @@ import districts from '../data/districts.json';
 ---
 
 <div>
+  <label class="select">
+    <span class="label">Filter</span>
+    <select class="filterScope">
+      <option value="" selected>Any Region or District</option>
+      <option value="" disabled>----------------------</option>
+      {regions.map(region => (
+        <option value=`R${region.id}`>{region.name} Region</option>
+      ))}
+      <option value="" disabled>----------------------</option>
+      {districts.map(district => (
+        <option value=`D${district.id}`>{district.name} District</option>
+      ))}
+    </select>
+  </label>&nbsp;
 
-  <div class="mt-2 flex items-center space-x-4">
-    <label for="region" style="margin-top: 16px; margin-right: 16px"><b>Eligible event in</b></label>
-    <label class="inline-flex items-center" style="margin-top: 16px;margin-right:16px">
-      <input type="radio" class="align-middle" name="filterEligibility" value="any" checked />&nbsp;Nation
-    </label>
-    <label class="inline-flex items-center" style="margin-top: 16px;margin-right:16px">
-      <input type="radio" class="align-middle" name="filterEligibility" value="region" />&nbsp;
-      <select
-        id="region"
-        name="region"
-        class="rounded-md border-gray-300 shadow-sm"
-      >
-        <option value="">Any Region</option>
-        {regions.map(region => (
-          <option value={region.id}>{region.name} Region</option>
-        ))}
-      </select>
-    </label>
-    <label class="inline-flex items-center" style="margin-top: 16px;margin-right:16px">
-      <input type="radio" class="align-middle" name="filterEligibility" value="district" />&nbsp;
-      <select
-        id="district"
-        name="district"
-        class="rounded-md border-gray-300 shadow-sm"
-      >
-        <option value="">Any District</option>
-        {districts.map(district => (
-          <option value={district.id}>{district.name} District</option>
-        ))}
-      </select>
-    </label>
-  </div>
-
-  <div class="flex items-center space-x-4">
-    <label class="inline-flex items-center" style="margin-top: 16px;margin-right:16px">
-      <input type="checkbox" class="align-middle" name="filterScope" value="district" checked />&nbsp;<EventScopeBadge scope="district" />
-    </label>
-    <label class="inline-flex items-center" style="margin-top: 16px;margin-right:16px">
-      <input type="checkbox" class="align-middle" name="filterScope" value="region" checked />&nbsp;<EventScopeBadge scope="region" />
-    </label>
-    <label class="inline-flex items-center" style="margin-top: 16px;margin-right:16px">
-      <input type="checkbox" class="align-middle" name="filterScope" value="nation" checked />&nbsp;<EventScopeBadge scope="nation" />
-    </label>
-  </div>
+  <label>
+    <input type="checkbox" checked="checked" class="checkbox checkbox-m" name="filterScope" value="district" checked />&nbsp;<EventScopeBadge scope="district" />
+  </label>
+  <label>
+    <input type="checkbox" checked="checked" class="checkbox checkbox-m" name="filterScope" value="region" checked />&nbsp;<EventScopeBadge scope="region" />
+  </label>
+  <label>
+    <input type="checkbox" checked="checked" class="checkbox checkbox-m" name="filterScope" value="nation" checked />&nbsp;<EventScopeBadge scope="nation" />
+  </label>
 </div>
