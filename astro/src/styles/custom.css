@@ -33,3 +33,8 @@
 .no-anchor-links .sl-anchor-link {
   display: none;
 }
+
+/* Fixes the integration of daisyus and Starlight */
+.sl-link-card .description {
+	margin-top: 16px;
+}

@@ -54,11 +54,15 @@ export default function EventListFilters({ filters, setFilters }: EventFiltersPr
       });
   };
 
+  const selectedKey = filters.districtId
+    ? `${filters.regionId}_${filters.districtId}`
+    : (filters.regionId || '');
+
   return (
     <div>
       <label className="select">
         <span className="label">Filter</span>
-        <select defaultValue={filters.regionId || ''} onChange={handleRegionOrDistrictChange}>
+        <select defaultValue={selectedKey} onChange={handleRegionOrDistrictChange}>
           <option value="">
             Any Region or District
           </option>

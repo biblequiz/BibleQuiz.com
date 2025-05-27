@@ -1,12 +1,27 @@
-export default function EventListWrapper(props: {scope: 'district' | 'region' | 'nation'}) {
+interface EventScopeBadgeProps {
+    scope: 'district' | 'region' | 'nation';
+    label?: string | null;
+    showScopeLabel?: boolean;
+};
 
-    switch (props.scope) {
+export default function EventListWrapper({ scope, label }: EventScopeBadgeProps) {
+
+    switch (scope) {
         case 'nation':
-            return <span className="sl-badge caution medium astro-avdet4wd" style={{marginRight: "4px"}}>NATIONAL</span>;
+            const nationLabel: string = null != label
+                ? `National Event`
+                : "NATIONAL";
+            return <span className="badge badge-m badge-warning" style={{ marginRight: "4px" }}>{nationLabel}</span>
         case 'region':
-            return <span className="sl-badge note medium astro-avdet4wd" style={{marginRight: "4px"}}>REGIONAL</span>;
+            const regionLabel: string = label
+                ? `${label} Region`
+                : "REGION";
+            return <span className="badge badge-m badge-info" style={{ marginRight: "4px" }}>{regionLabel}</span>
         case 'district':
-            return <span className="sl-badge success medium astro-avdet4wd" style={{marginRight: "4px"}}>DISTRICT</span>;
+            const districtLabel: string = label
+                ? `${label} District`
+                : "DISTRICT";
+            return <span className="badge badge-m badge-success" style={{ marginRight: "4px" }}>{districtLabel}</span>;
         default:
             return null;
     }
