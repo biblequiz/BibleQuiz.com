@@ -5,9 +5,10 @@ import EventListTable from './EventListTable.tsx';
 
 interface EventListProps {
     persistenceKey: string;
+    hideFilters?: boolean;
 };
 
-export default function EventList({ persistenceKey }: EventListProps) {
+export default function EventList({ persistenceKey, hideFilters }: EventListProps) {
 
     const [filters, setFilters] = useState(
         () => {
@@ -40,7 +41,7 @@ export default function EventList({ persistenceKey }: EventListProps) {
 
     return (
         <div>
-            <EventListFilters filters={filters} setFilters={setFilters} />
+            {!hideFilters && <EventListFilters filters={filters} setFilters={setFilters} />}
             <EventListTable
                 filters={filters}
                 setFilters={setFilters}
