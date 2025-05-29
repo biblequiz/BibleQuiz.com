@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import sitemap from '@astrojs/sitemap';
 import path from 'path';
+import starlightBlog from 'starlight-blog';
 import starlightLinksValidator from 'starlight-links-validator'
 
 import tailwindcss from '@tailwindcss/vite';
@@ -41,7 +42,7 @@ export default defineConfig({
         },
         lastUpdated: true,
         pagination: false,
-        plugins: [starlightLinksValidator()],
+        plugins: [starlightLinksValidator(), starlightBlog()],
     }), react()],
     output: 'static',
     build: {
