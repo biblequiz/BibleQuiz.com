@@ -23,10 +23,10 @@ All high school seniors at National Finals quiz against each other _at the same 
 
 1. Quizzers receive a monetary award for each correct answer. The value for each award coincides with the question’s point value unless stated otherwise. Incorrect answers receive no award.
 2. Any question answered incorrectly will be reread for one quizzer whose name will be drawn at random. All quizzers are eligible for the draw.
- <ol type="a">
-   <li>After rereading, if a question is still not answered correctly, the award will be given by random draw to a senior whose name has not yet been drawn.</li>
-   <li>Once a quizzer's name has been drawn, they will not be eligible to be drawn again until all other names have been drawn.</li>
- </ol>
+    <ol type="a">
+    <li>After rereading, if a question is still not answered correctly, the award will be given by random draw to a senior whose name has not yet been drawn.</li>
+    <li>Once a quizzer's name has been drawn, they will not be eligible to be drawn again until all other names have been drawn.</li>
+    </ol>
 3. A quizzer quizzes out with two correct questions, strikes out with two incorrect questions, and fouls out with two fouls.
 4. Only a quizzer ruled incorrect may contest (including validity contests). Forty-five seconds will be allowed for contests. No responses are permitted. Once the Judges have ruled on the validity of a question, no further validity contests may be presented on that question.
 5. No coaches or time-outs are permitted.
