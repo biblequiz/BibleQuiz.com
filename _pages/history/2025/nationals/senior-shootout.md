@@ -8,14 +8,18 @@ menubar: menu_tbq_nationals
 
 ## What is the Senior Shootout?
 
-All 25+ high school seniors at National Finals quiz against each other _at the same time_ for major cash prizes! Each question is assigned a dollar value, and the first student to answer correctly wins that amount. If no one answers correctly, it all gets added to the next question!
+All high school seniors at National Finals quiz against each other _at the same time_ for major cash prizes! Each question is assigned a dollar value, and the first student to answer correctly gets the prize.
 
-## Quizzer Eligibility and Placement
+---
+
+## Rules
+
+### Quizzer Eligibility and Placement
 
 1. All registered high school seniors competing at National Finals may participate.
 2. All seniors will quiz simultaneously.
 
-## Match Structure
+### Match Structure
 
 1. Quizzers receive a monetary award for each correct answer. The value for each award coincides with the question’s point value unless stated otherwise. Incorrect answers receive no award.
 2. Any question answered incorrectly will be reread for one quizzer whose name will be drawn at random. All quizzers are eligible for the draw.

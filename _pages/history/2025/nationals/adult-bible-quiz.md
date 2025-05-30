@@ -18,6 +18,8 @@ Veteran division: Acts 1-3
 Fun division: Acts 2  
 Will also have the Adult Quoting Bee!
 
+---
+
 ## Rules
 
 As part of the Adult Bible Quiz for 2025, a Quoting Bee will be held first for all adults registered. There will be 2 Quoting Bees: The first, ages 18-39, and the second, ages 40 and up. The Quoting Bee will cover Acts Chapter 2.
