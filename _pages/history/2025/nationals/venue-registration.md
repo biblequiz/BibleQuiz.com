@@ -28,7 +28,7 @@ _⚠️ Please do not overbook your hotel rooms. A few churches have had multipl
 
 ## Upcoming deadlines
 
-May 21: All seniors must [submit their bios and pictures](https://agyouth.formstack.com/forms/bq_seniors)
+<!-- May 21: All seniors must [submit their bios and pictures](https://agyouth.formstack.com/forms/bq_seniors) -->
 
 June 9 : Last day for accepting Scholarships. A couple of new ones and a couple of surprises at National BQ Finals. [Register here](https://agyouth.formstack.com/forms/scholarship2025).
 
