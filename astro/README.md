@@ -2,7 +2,7 @@
 
 ## Docs
 
-* [Sidebar](https://starlight-auto-sidebar.netlify.app/getting-started/)
+* [Starlight](https://starlight.astro.build/getting-started/)
 
 ## /public vs. /src
 
