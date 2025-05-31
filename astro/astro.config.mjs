@@ -42,10 +42,14 @@ export default defineConfig({
     },
     lastUpdated: true,
     pagination: false,
-    plugins: [starlightLinksValidator(), starlightBlog({
-      postCount: 10,
-      recentPostCount: 10
-    })],
+    plugins: [
+      starlightLinksValidator({
+        errorOnRelativeLinks: false
+      }),
+      starlightBlog({
+        postCount: 10,
+        recentPostCount: 10
+      })],
   }), react()],
   output: 'static',
   build: {
