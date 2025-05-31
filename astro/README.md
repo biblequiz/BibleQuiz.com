@@ -17,3 +17,15 @@ the Starlight blog cuts it off in the feed. This isn't needed for shorter blogs.
 | Solid   | Yes  | Yes  | fas    | @fortawesome/free-solid-svg-icons   |
 | Regular | Yes  | Yes  | far    | @fortawesome/free-regular-svg-icons |
 | Brands  | Yes  | No   | fab    | @fortawesome/free-brands-svg-icons  |
+
+## Developing
+
+For local development, run:
+```
+npm run start
+```
+
+Before you submit, run to avoid failures remotely:
+```
+npm run build
+```
