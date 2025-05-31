@@ -9,3 +9,11 @@
 
 When writing a blog post, you need to add a line with just `{/* excerpt */}` near the beginning to ensure
 the Starlight blog cuts it off in the feed. This isn't needed for shorter blogs.
+
+## Icons
+
+| Name    | Free | Paid | Prefix | NPM Package (free)                  |
+| ------- | ---- | ---- | ------ | ----------------------------------- |
+| Solid   | Yes  | Yes  | fas    | @fortawesome/free-solid-svg-icons   |
+| Regular | Yes  | Yes  | far    | @fortawesome/free-regular-svg-icons |
+| Brands  | Yes  | No   | fab    | @fortawesome/free-brands-svg-icons  |
