@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 import sitemap from '@astrojs/sitemap';
 import path from 'path';
 import starlightBlog from 'starlight-blog';
+import starlightAutoSidebar from 'starlight-auto-sidebar'
 import starlightLinksValidator from 'starlight-links-validator'
 
 import tailwindcss from '@tailwindcss/vite';
@@ -46,9 +47,11 @@ export default defineConfig({
           label: 'Apps',
           slug: 'apps'
         },
+        // Intentionally included this second one due to a bug in the Starlight autoloader plugin that
+        // ignores the item before an auto-generated item.
         {
-          label: 'Subscribe',
-          slug: 'subscribe'
+          label: 'Apps',
+          slug: 'apps'
         },
         {
           label: 'Junior Bible Quiz (JBQ)',
@@ -59,6 +62,10 @@ export default defineConfig({
           label: 'Teen Bible Quiz (TBQ)',
           collapsed: true,
           autogenerate: { directory: 'tbq'}
+        },
+        {
+          label: 'Subscribe',
+          slug: 'subscribe'
         },
       ],
       components: {
@@ -75,7 +82,8 @@ export default defineConfig({
         starlightBlog({
           postCount: 10,
           recentPostCount: 10
-        })],
+        }),
+        starlightAutoSidebar()],
     }),
     react()],
   output: 'static',

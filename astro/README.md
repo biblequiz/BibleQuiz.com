@@ -1,5 +1,9 @@
 # Authoring Notes
 
+## Docs
+
+* [Sidebar](https://starlight-auto-sidebar.netlify.app/getting-started/)
+
 ## /public vs. /src
 
 * `/public`: Assets that will be accessed when the user is running the site (e.g., pdf file).
