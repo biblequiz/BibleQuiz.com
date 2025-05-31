@@ -1,0 +1,52 @@
+---
+layout: page
+permalink: /history/2025/nationals/quoting-bee
+title: "2025 TBQ National Finals - Quoting Bee"
+date: "2024-05-18"
+menubar: menu_tbq_nationals
+---
+
+## What is the Quoting Bee?
+
+The Quoting Bee is a Scripture-quoting competition similar to a Spelling Bee. Participants receive a verse reference and have 15 seconds to quote it perfectly. A correct quote advances to the next quizzer, with the round continuing until someone errors. But watch out: If no one gets eliminated after a few rounds, participants may have their time to answer reduced or they may have to quote multiple verses!
+
+Top 3 quizzers in the Finals receive scholarships to the school of their choice:
+
+1st Place: $650  
+2nd Place: $250  
+3rd Place: $100
+
+---
+
+## Rules
+
+### Quizzer Eligibility and Placement
+
+1. All registered National Finals quizzers may participate. Participation is optional.
+2. Quizzers are seeded into eight rooms using Regional Finals statistics.
+3. Room assignments will be available at team registration.
+4. All rooms will start at the same time.
+
+### Preliminary Rounds
+
+1. The officials for each room should include a Quizmaster, two Judges, and a Timekeeper. In addition to timing verses, the Timekeeper will note the start time and inform the Quizmaster when the thirty-minute time limit expires.
+2. The verses are pre-selected and grouped for similar difficulty levels.
+3. Quizzers stand facing the officials and audience while quoting. The quoting order begins with the quizzer farthest to one side, proceeds the opposite direction to the other side, then reverses for the remaining quizzers, alternating directions each round.
+4. For the first three rounds, quizzers are given fifteen seconds to quote one verse from the time the Quizmaster reads the verse by book, chapter, and number. For the remaining rounds, quizzers are given ten seconds to quote one verse. Multiple verses at once will not be required in the preliminaries.
+5. The answer must be a perfect quotation.
+6. If a quizzer misquotes a verse, the next quizzer receives a new verse.
+7. When only two quizzers remain in a room, the preliminary round in that room ends. If a room has more than two quizzers at the end of thirty minutes, all remaining quizzers advance to the Finals in Room A (top floor). _Note: Some rooms may only have one quizzer who advances, depending on how many quizzers misquote a verse._
+
+### Finals
+
+1. The officials for the Finals should include a Quizmaster (who will not vote), three Judges, and a Timekeeper.
+2. For the initial final round, quizzers are given fifteen seconds.
+3. After an undisclosed time, the amount of time may be shortened or multiple verses required.
+4. Should multiple verses be required, quizzers must quote them in the order in which they are read, even if they are not sequential (i.e. "Quote Acts 17:4 and 3:13.").
+5. Rounds will continue until the top three are determined.
+    <ol type="a">
+      <li>Those three quizzers will continue until only one remains.</li>
+      <li>To earn one of the top three spots, a quizzer must continue through one round more than the lower-placed quizzers. This may result in a tiebreaker where eliminated quizzers are brought back in to break the tie (i.e. if five quizzers remain and three are eliminated during the same round, the three eliminated quizzers will be brought back in to compete among themselves for 3rd place).</li>
+    </ol>
+
+All other [Bible Quiz Rules](https://biblequiz.com/downloads) are in effect.

@@ -10,15 +10,30 @@
       icon: fas fa-hotel
     - name: Schedule
       link: /history/2025/nationals/schedule/
-      icon: fas fa-calendar
+      icon: fas fa-calendar-days
     - name: Communication
       link: /history/2025/nationals/communication/
       icon: fas fa-comments
     - name: FAQ
       link: /history/2025/nationals/faq/
-      icon: fas fa-question
+      icon: fas fa-circle-question
     - name: First Time
       link: /history/2025/nationals/first-time/
       icon: fas fa-user
-    # - label: Compete
-    #   items:
+- label: Events
+  items:
+    - name: Quoting Bee
+      link: /history/2025/nationals/quoting-bee/
+      icon: fas fa-quote-left
+    - name: Individual Tournament
+      link: /history/2025/nationals/individual-tournament/
+      icon: fas fa-people-arrows
+    - name: East-West
+      link: /history/2025/nationals/east-west/
+      icon: fas fa-earth-americas
+    - name: Senior Shootout
+      link: /history/2025/nationals/senior-shootout/
+      icon: fas fa-sack-dollar
+    - name: Adult Bible Quiz
+      link: /history/2025/nationals/adult-bible-quiz/
+      icon: fas fa-person-cane
