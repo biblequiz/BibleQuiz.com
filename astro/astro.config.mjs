@@ -62,6 +62,11 @@ export default defineConfig({
         Sidebar: './src/components/sidebar/Sidebar.astro'
       },
       lastUpdated: true,
+      pagefind: {
+        ranking: {
+          termSimilarity: 0.4
+        }
+      },
       pagination: false,
       plugins: [
         starlightLinksValidator({
