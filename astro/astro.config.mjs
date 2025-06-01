@@ -58,7 +58,8 @@ export default defineConfig({
       ],
       components: {
         Header: './src/components/Header.astro',
-        Footer: './src/components/Footer.astro'
+        Footer: './src/components/Footer.astro',
+        Sidebar: './src/components/Sidebar.astro'
       },
       lastUpdated: true,
       pagination: false,

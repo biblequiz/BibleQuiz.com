@@ -1,0 +1,13 @@
+---
+import Default from "@astrojs/starlight/components/Sidebar.astro";
+---
+
+<Default />
+
+<script>
+    // Select the element that is currently selected (if any). Then ensure it is scrolled into view.
+    const element = document.querySelector('a[aria-current="page"]');
+    if (element && element.scrollIntoView) {
+        element.scrollIntoView();
+    }
+</script>
