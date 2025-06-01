@@ -42,9 +42,14 @@ export default defineConfig({
           slug: 'apps'
         },
         {
-          label: 'Junior Bible Quiz (JBQ)',
+          label: 'Junior Bible Quiz (JBQ)1',
           collapsed: true,
-          autogenerate: { directory: 'jbq' }
+          autogenerate: { directory: 'jbq1' }
+        },
+        {
+          label: 'Junior Bible Quiz (JBQ)2',
+          collapsed: true,
+          autogenerate: { directory: 'jbq2' }
         },
         {
           label: 'Teen Bible Quiz (TBQ)',
