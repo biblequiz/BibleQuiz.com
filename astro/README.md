@@ -41,6 +41,19 @@ sidebar:
     icon: fab fa-windows
 ```
 
+## Table of Contents
+
+### Change the Header Levels
+
+You can set the `minHeaderLevel` and `maxHeaderLevel` in the frontmatter for each page to override how deep
+into the headers the table of content generation will run.
+
+```yaml
+tableOfContents:
+  minHeadingLevel: 2
+  maxHeadingLevel: 4
+```
+
 ## Developing
 
 For local development, run:

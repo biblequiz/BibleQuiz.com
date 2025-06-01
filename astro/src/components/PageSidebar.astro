@@ -1,0 +1,28 @@
+---
+import Default from "@astrojs/starlight/components/PageSidebar.astro";
+
+const { toc } = Astro.locals.starlightRoute;
+let showToc = true;
+if (toc?.items.length == 1) {
+    const soleItem = toc.items[0];
+    if (soleItem.slug == "_top" && soleItem.children.length == 0) {
+        showToc = false;
+    }
+}
+---
+
+{
+    showToc && (
+        <Default {...Astro.props} {toc}>
+            <slot />
+        </Default>
+    )
+}
+
+<script>
+    //mobile-starlight-toc
+    alert({showToc});
+    if (!showToc) {
+
+    }
+</script>
