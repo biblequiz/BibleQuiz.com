@@ -20,12 +20,7 @@ export default defineConfig({
       social: [
         { icon: 'email', label: 'Email', href: 'mailto:hello@biblequiz.com' },
         { icon: 'facebook', label: 'Facebook', href: 'https://facebook.com/groups/agbiblequiz' },
-        { icon: 'youtube', label: 'Youtube', href: 'https://youtube.com/@BibleQuiz-AG' },
-        {
-          icon: 'email',
-          label: 'foo',
-          href: '/login',
-        }
+        { icon: 'youtube', label: 'Youtube', href: 'https://youtube.com/@BibleQuiz-AG' }
       ],
       favicon: '/favicon.png',
       logo: {
@@ -54,7 +49,7 @@ export default defineConfig({
         {
           label: 'Teen Bible Quiz (TBQ)',
           collapsed: true,
-          autogenerate: { directory: 'tbq'}
+          autogenerate: { directory: 'tbq' }
         },
         {
           label: 'Subscribe',
@@ -63,8 +58,7 @@ export default defineConfig({
       ],
       components: {
         Header: './src/components/Header.astro',
-        Footer: './src/components/Footer.astro',
-        LinkCardWithSlot: './src/components/LinkCardWithSlot.astro',
+        Footer: './src/components/Footer.astro'
       },
       lastUpdated: true,
       pagination: false,
