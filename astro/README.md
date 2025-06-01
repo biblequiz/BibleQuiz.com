@@ -16,11 +16,30 @@ the Starlight blog cuts it off in the feed. This isn't needed for shorter blogs.
 
 ## Icons
 
-| Name    | Free | Paid | Prefix | NPM Package (free)                  |
-| ------- | ---- | ---- | ------ | ----------------------------------- |
-| Solid   | Yes  | Yes  | fas    | @fortawesome/free-solid-svg-icons   |
-| Regular | Yes  | Yes  | far    | @fortawesome/free-regular-svg-icons |
-| Brands  | Yes  | No   | fab    | @fortawesome/free-brands-svg-icons  |
+When using the `FontAwesome` component, convert the CSS Style from fontawesome.com to:
+
+1. Prefix converts from `Docs Prefix` value to `Prefix` (e.g., `fa-brands` becomes `fab`).
+2. Icon name is converted to camel case where the `-` (dash) is removed and the following character
+   is replaced with upper case (e.g., `fa-battle-net` becomes `faBattleNet`).
+
+| Name    | Free | Paid | Prefix | Docs Prefix | NPM Package (free)                  |
+| ------- | ---- | ---- | ------ | ----------- | ----------------------------------- |
+| Brands  | Yes  | No   | fab    | fa-brands   | @fortawesome/free-brands-svg-icons  |
+| Regular | Yes  | Yes  | far    | fa-regular  | @fortawesome/free-regular-svg-icons |
+| Solid   | Yes  | Yes  | fas    | fa-solid    | @fortawesome/free-solid-svg-icons   |
+
+## Sidebar
+
+### Icon
+
+To use an icon on the sidebar, add the following to the frontmatter of the page (replacing the icon with the
+desired value):
+
+```yaml
+sidebar:
+  attrs:
+    icon: fab fa-windows
+```
 
 ## Developing
 
