@@ -45,7 +45,12 @@ const { sidebar } = Astro.locals.starlightRoute;
     // This script is customized
     // Select the element that is currently selected (if any). Then ensure it is scrolled into view.
     const element = document.querySelector('a[aria-current="page"]');
-    if (element && element.scrollIntoView) {
-        element.scrollIntoView();
+    if (element) {
+        if (element.scrollIntoViewIfNeeded) {
+            element.scrollIntoViewIfNeeded();
+        }
+        else if (element.scrollIntoView) {
+            element.scrollIntoView();
+        }
     }
 </script>

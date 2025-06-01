@@ -64,7 +64,7 @@ export default defineConfig({
       lastUpdated: true,
       pagefind: {
         ranking: {
-          termSimilarity: 0.4
+          termSimilarity: 0.6
         }
       },
       pagination: false,
