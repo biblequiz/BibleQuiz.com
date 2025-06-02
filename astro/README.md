@@ -41,6 +41,10 @@ sidebar:
     icon: fab fa-windows
 ```
 
+### Sorting
+
+By default, sorting happens based on the *file name*, not the title.
+
 ## Table of Contents
 
 ### Change the Header Levels
