@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Bible Quiz Newsletter - May 2025"
+title: "Bible Quiz Newsletter - June 2025"
 author: BibleQuiz.com Admin
-date: "2025-05-01"
-image: "May 2025.jpg"
+date: "2025-06-01"
+image: "June 2025.jpg"
 categories:
     - "newsletter"
 published: true
 ---
 
-Here is the May edition of the National Teen Bible Quiz Newsletter.
+Here is the June edition of the National Teen Bible Quiz Newsletter.
 
-<a href="{{site.url}}{% link assets/2025/tbq_newsletter_may_2025.pdf %}" class="button is-primary">Download Newsletter</a>
+<a href="{{site.url}}{% link assets/2025/tbq_newsletter_june_2025.pdf %}" class="button is-primary">Download Newsletter</a>
 
 You can quickly subscribe to the National Bible Quiz Newsletter by visiting [BibleQuiz.com/subscribe](https://biblequiz.com/subscribe/).
 
