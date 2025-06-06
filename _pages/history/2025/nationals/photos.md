@@ -6,11 +6,13 @@ date: "2025-06-05"
 menubar: menu_tbq_nationals
 ---
 
-All teams must schedule a photo session with Larry and Cindy Mullins using the link below. Participation is free regardless of whether you plan to order photos (though pre-ordering does include a discount!)
+All teams must schedule a photo session with Larry and Cindy Mullins using the link below.
 
-<a href="mailto:pictures@bibleq.org" class="button is-primary">Schedule Photoshoot</a>
+Participation is free regardless of whether you plan to order photos (though pre-ordering does include a discount!)
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSfuSPMisGj8Im5XPibjvgjFvGIfZfOJpDQk5eqlQ_VyWyt2Fw/viewform" class="button is-primary">Preorder Photos</a>
+<a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfcLm72lUPYCrheoAZ5wNMy_ZVNfZawdWVCyTdTfNzMHQEpeA/viewform" class="button is-primary">Schedule A Time For Your Photos</a>
+
+<a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfuSPMisGj8Im5XPibjvgjFvGIfZfOJpDQk5eqlQ_VyWyt2Fw/viewform" class="button is-primary">Preorder Photos</a>
 
 Photoshoots begin Saturday evening and will be completed by Monday evening.
 
