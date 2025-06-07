@@ -10,9 +10,57 @@ import type { SidebarEntry } from "@astrojs/starlight/utils/routing/types";
 //
 // This approach was simpler to implement than trying to create a custom sidebar integration, as that
 // required significantly more code and complexity.
-function sortSeasons(sidebar: SidebarEntry[]) {
-    sidebar.forEach((item) => {
-        if (item.label == "Seasons") {
+interface SeasonEntryIndexes {
+    currentPlaceholderIndex: number | null;
+    nextPlaceholderIndex: number | null;
+    seasons: SidebarEntry;
+}
+
+function replaceWithFirstEntryIfPlaceholderSet(
+    container: SidebarEntry,
+    entry: SidebarEntry,
+    placeholderIndex: number | null,
+): void {
+    if (placeholderIndex !== null && entry.entries.length > 0) {
+        // Replace the entry, but keep the original settings.
+        const currentEntry = container.entries[placeholderIndex];
+
+        const newEntry = entry.entries[0];
+        newEntry.label = currentEntry.label;
+        newEntry.attrs = currentEntry.attrs;
+
+        container.entries[placeholderIndex] = newEntry;
+
+        // Remove the original entry.
+        entry.entries.splice(0, 1);
+    }
+}
+
+function sortSeasons(sidebar: SidebarEntry[]): SeasonEntryIndexes | null {
+    let sidebarCurrentPlaceholder: number | null = null;
+    let sidebarNextPlaceholder: number | null = null;
+
+    let currentResult: SeasonEntryIndexes | null = null;
+
+    sidebar.forEach((item, index) => {
+        if (item.href) {
+            // If the currentResult is already set, the Seasons were seen before the placeholder. The object
+            // can be updated directly. Otherwise, persist into the variable for when the object is
+            // initialized.
+            if (item.href.endsWith("/current-season/")) {
+                if (currentResult) {
+                    currentResult.currentPlaceholderIndex = index;
+                } else {
+                    sidebarCurrentPlaceholder = index;
+                }
+            } else if (item.href.endsWith("/next-season/")) {
+                if (currentResult) {
+                    currentResult.nextPlaceholderIndex = index;
+                } else {
+                    sidebarNextPlaceholder = index;
+                }
+            }
+        } else if (item.label == "Seasons") {
             item.entries.sort((a: SidebarEntry, b: SidebarEntry) => {
                 // Sorting in reverse order.
                 if (a.label > b.label) {
@@ -22,10 +70,41 @@ function sortSeasons(sidebar: SidebarEntry[]) {
                 }
                 return 0;
             });
+
+            currentResult = {
+                currentPlaceholderIndex: sidebarCurrentPlaceholder,
+                nextPlaceholderIndex: sidebarNextPlaceholder,
+                seasons: item,
+            };
         } else if (item.entries && item.entries.length > 0) {
-            sortSeasons(item.entries);
+            const seasonsResult = sortSeasons(item.entries);
+
+            if (seasonsResult) {
+                // The item contains the Seasons group, which includes the current and next seasons. These
+                // must be moved to replace the current and next season pages in the sidebar.
+                //
+                // Process the next season first, as it is a newer year and will appear first.
+
+                replaceWithFirstEntryIfPlaceholderSet(
+                    item,
+                    seasonsResult.seasons,
+                    seasonsResult.nextPlaceholderIndex,
+                );
+
+                replaceWithFirstEntryIfPlaceholderSet(
+                    item,
+                    seasonsResult.seasons,
+                    seasonsResult.currentPlaceholderIndex,
+                );
+
+                seasonsResult.seasons.label = "Past Seasons";
+            }
+
+            currentResult = null;
         }
     });
+
+    return currentResult;
 }
 
 sortSeasons(Astro.locals.starlightRoute.sidebar);
@@ -48,8 +127,7 @@ const { sidebar } = Astro.locals.starlightRoute;
     if (element) {
         if (element.scrollIntoViewIfNeeded) {
             element.scrollIntoViewIfNeeded();
-        }
-        else if (element.scrollIntoView) {
+        } else if (element.scrollIntoView) {
             element.scrollIntoView();
         }
     }
