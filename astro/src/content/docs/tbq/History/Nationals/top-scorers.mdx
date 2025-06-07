@@ -338,13 +338,18 @@ rows:
   imagePath: /assets/1963/top-scorer.jpg
 ---
 
+import TablesOrPictures from "@components/TablesOrPictures.astro";
+
 These are the top scores at Nationals Finals since 1963.
 
-> Starting in 2000, the number of teams expanded from 24 teams to 40 teams, and the Championship and Challenger divisions were introduced. This list only contains the Championship division.
+:::note
+Starting in 2000, the number of teams expanded from 24 teams to 40 teams, and the Championship and
+Challenger divisions were introduced. This list only contains the Championship division.
+:::
 
-{% include table-or-pictures.html
-     tableLabel="View Quizzers by Table"
-     galleryLabel="View Quizzers by Picture"
-     columns=page.columns
-     rows=page.rows
-     showModal=false %}
+<TablesOrPictures
+  tableLabel="View Quizzers by Table"
+  galleryLabel="View Quizzer by Picture"
+  columns={frontmatter.columns}
+  rows={frontmatter.rows}
+  showModal={false} />

@@ -310,9 +310,11 @@ rows:
   imagePath: /assets/1963/team-champion.jpg
 ---
 
-{% include table-or-pictures.html
-     tableLabel="View Team by Table"
-     galleryLabel="View Team by Picture"
-     columns=page.columns
-     rows=page.rows
-     showModal=true %}
+import TablesOrPictures from "@components/TablesOrPictures.astro";
+
+<TablesOrPictures
+  tableLabel="View Teams by Table"
+  galleryLabel="View Teams by Picture"
+  columns={frontmatter.columns}
+  rows={frontmatter.rows}
+  showModal={true} />

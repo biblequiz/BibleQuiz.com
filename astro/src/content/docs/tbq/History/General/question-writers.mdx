@@ -2,11 +2,11 @@
 title: "TBQ Question Writers"
 date: 2020-02-09
 sidebar:
+  label: "Question Writers"
   order: -70
 columns:
 - name: Season
   tableClass: "has-text-right"
-  cardClass: "title is-5"
 - name: Material
 - name: A League
   cardPrefix: "<i>A:</i> "
@@ -278,12 +278,13 @@ rows:
   imagePath: /assets/question-writers/NicholasNikoloff.jpg
 ---
 
-<include table-or-pictures.html
-     tableLabel="View Writers by Table"
-     galleryLabel="View Writers by Picture"
-     columns=page.columns
-     rows=page.rows
-     cardColumnWidth=3
-     showModal=false />
+import TablesOrPictures from "@components/TablesOrPictures.astro";
+
+<TablesOrPictures
+  tableLabel="View Writers by Table"
+  galleryLabel="View Writers by Picture"
+  columns={frontmatter.columns}
+  rows={frontmatter.rows}
+  showModal={false} />
 
 \* Indicates the individual in the picture when looking at Picture View.

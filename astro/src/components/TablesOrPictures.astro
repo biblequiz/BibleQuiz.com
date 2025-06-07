@@ -1,0 +1,119 @@
+---
+interface Column {
+    name: string;
+    tableClass: string;
+    cardClass: string;
+}
+
+interface Props {
+    tableLabel: string;
+    galleryLabel: string;
+    columns: Column[];
+    rows: { [key: string]: string }[];
+    showModal: boolean;
+}
+
+const { tableLabel, galleryLabel, columns, rows, showModal } = Astro.props as Props;
+
+import { Tabs, TabItem, CardGrid, Card } from "@astrojs/starlight/components";
+---
+
+<Tabs>
+    <TabItem label={tableLabel} icon="list-format">
+        <div class="overflow-x-auto">
+            <table class="table table-zebra">
+                <!-- head -->
+                <thead>
+                    <tr>
+                        {
+                            columns.map((column) => (
+                                <th class={column.tableClass}>{column.name}</th>
+                            ))
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        rows.map((row) => (
+                            <tr>
+                                {columns.map((column) => (
+                                    <td class={column.cardClass}>
+                                        {row[column.name]}
+                                    </td>
+                                ))}
+                            </tr>
+                        ))
+                    }
+                </tbody>
+            </table>
+        </div>
+    </TabItem>
+    <TabItem label={galleryLabel} icon="open-book">
+        <CardGrid>
+            {
+                rows.map((row) => {
+
+					const imagePath = row["imagePath"];
+					const showModalForCard = showModal || row["showModal"];
+
+                    return (
+                        <Card title={row[columns[0].name]}>
+                            {imagePath && showModalForCard && (
+								<button type="button" class="link" onclick=`openModal('${imagePath}');`>
+									<img src=`${imagePath}` />
+								</button>)}
+							{imagePath && !showModalForCard && (<img src=`${imagePath}` />)}
+
+                            {columns.slice(1).map((column) => {
+                                if (column.name == "imagePath") {
+                                    return "";
+                                }
+
+                                // If there's no value, don't output it as a row.
+                                const cellValue = row[column.name];
+                                if (!cellValue) {
+                                    return "";
+                                }
+
+                                return (
+                                    <p class={column.cardClass}>
+                                        <strong>{column.name}:</strong>{" "}
+                                        {cellValue}
+                                    </p>
+                                );
+                            })}
+                        </Card>
+                    );
+                })
+            }
+        </CardGrid>
+    </TabItem>
+</Tabs>
+
+<dialog id="table_or_pictures_modal" class="modal">
+    <div class="modal-box max-w-2xl">
+		<div id="table_or_pictures_modal_content" />
+        <div class="modal-action">
+            <form method="dialog">
+                <button class="btn">Close</button>
+            </form>
+        </div>
+    </div>
+</dialog>
+
+<script>
+    declare global {
+        interface Window {
+            openModal: (imageUrl: string) => void;
+        }
+    }
+	
+    function openModal(imageUrl: string) {
+		document.getElementById("table_or_pictures_modal_content")!.innerHTML =`<img src="${imageUrl}" />`;
+
+		const modal = document.getElementById("table_or_pictures_modal")! as HTMLDialogElement;
+        modal.showModal();
+    }
+
+	window.openModal = openModal;
+</script>
