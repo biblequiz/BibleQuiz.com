@@ -1,5 +1,6 @@
 import React from 'react';
 import EventScopeBadge from './EventScopeBadge.tsx';
+import type { EventInfo } from "../types/EventTypes";
 
 interface EventFilterOptions {
     showNation: boolean;
@@ -10,23 +11,6 @@ interface EventFilterOptions {
     districtId: string | null;
 
     competitionType: string | null;
-};
-
-interface EventInfo {
-    id: string;
-    season: number;
-    name: string;
-    regionId: string | null;
-    districtId: string | null;
-    scope: string;
-    dates: string;
-    startDate: string,
-    endDate: string;
-    registrationDates: string | null;
-    registrationEndDate: string | null;
-    locationName: string;
-    locationCity: string;
-    isVisible: boolean;
 };
 
 interface EventListTableProps {

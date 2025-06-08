@@ -92,6 +92,8 @@ export default defineConfig({
         '@data': path.resolve('./src/data'),
         '@layouts': path.resolve('./src/layouts'),
         '@pages': path.resolve('./src/pages'),
+        '@types': path.resolve('./src/types'),
+        '@utils': path.resolve('./src/utils'),
       }
     },
 

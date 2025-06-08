@@ -1,0 +1,96 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+
+// Build the list of static routes based on the events file.
+import path from "path";
+import { promises as fs } from "fs";
+import { EventInfo } from "@types/EventTypes";
+import { EventScoringReport } from "@types/EventScoringReport";
+import { getAstroRootSourcePath, getFilesByWildcard } from "@utils/FileSystem";
+
+export async function getStaticPaths() {
+    // Load the JSON defining all the generated events.
+    const eventJsonFiles = await getFilesByWildcard(
+        path.resolve(
+            getAstroRootSourcePath(import.meta.url),
+            "data/generated/seasons",
+        ),
+        "*/events.json",
+    );
+
+    const routes: Array<{
+        params: { type: string; season: number; scope: string; slug: string };
+    }> = [];
+
+    for (const eventsFilePath of eventJsonFiles) {
+        const events = JSON.parse(await fs.readFile(eventsFilePath, "utf-8"));
+        for (const type of Object.keys(events)) {
+            for (const event of events[type] as EventInfo[]) {
+                // Determine the scope.
+                let scope: string = "";
+                if (event.scopeLabel) {
+                    switch (event.scope) {
+                        case "district":
+                            scope = "districts";
+                            break;
+                        case "regional":
+                            scope = "regionals";
+                            break;
+                        case "national":
+                            scope = "nationals";
+                            break;
+                        default:
+                            scope = "other";
+                            break;
+                    }
+                } else {
+                    scope = "other";
+                }
+
+                routes.push({
+                    params: {
+                        type: type,
+                        season: event.season,
+                        scope: scope,
+                        slug: event.urlSlug,
+                    },
+                });
+            }
+        }
+    }
+
+    return routes;
+}
+
+// Render the page based on the parameters.
+const { type, season, scope, slug } = Astro.params;
+
+const rootSourcePath = getAstroRootSourcePath(import.meta.url);
+const eventJsonFilePath = path.resolve(
+    rootSourcePath,
+    `data/generated/seasons/${season}/events.json`,
+);
+
+const seasonEvents = JSON.parse(await fs.readFile(eventJsonFilePath, "utf-8"));
+const events = seasonEvents[type] as EventInfo[];
+
+const eventFilePath = path.resolve(
+    rootSourcePath,
+    `data/generated/seasons/${season}/scores/${events.find((e) => e.urlSlug == slug).id}.json`,
+);
+
+const event = JSON.parse(await fs.readFile(eventFilePath, "utf-8")) as EventScoringReport;
+---
+
+<StarlightPage frontmatter={{ title: event.EventName }}>
+    <div>
+        <h1>Type: {type}</h1>
+        <h2>Season: {season}</h2>
+        <h3>Scope: {scope}</h3>
+        <p>Full URL: {Astro.url.pathname}</p>
+        <p>Base URL: {Astro.url.origin}</p>
+        <p>Full URL with Origin: {Astro.url.origin}{Astro.url.pathname}</p>
+        <p>Full URL with Search: {Astro.url.href}</p>
+        <p>Search Params: {Astro.url.search}</p>
+    </div>
+</StarlightPage>
