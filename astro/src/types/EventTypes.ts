@@ -12,6 +12,7 @@ export interface EventInfo {
     registrationEndDate: string | null;
     locationName: string;
     locationCity: string;
+    urlContainer: string;
     urlSlug: string;
     isVisible: boolean;
 }

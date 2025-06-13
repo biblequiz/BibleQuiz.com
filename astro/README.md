@@ -58,6 +58,10 @@ tableOfContents:
   maxHeadingLevel: 4
 ```
 
+### Hide Table of Contents
+
+Add `tableOfContents: false` to the frontmatter.
+
 ## Developing
 
 For local development, run:

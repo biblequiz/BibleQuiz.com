@@ -13,6 +13,7 @@
             "scope": "district",
             "scopeLabel": "Wisconsin-Northern Michigan",
             "isVisible": true,
+            "urlContainer": "districts",
             "urlSlug": "wisconsin-northern-michigan"
         },
         {
@@ -27,6 +28,7 @@
             "scope": "district",
             "scopeLabel": "Michigan",
             "isVisible": true,
+            "urlContainer": "districts",
             "urlSlug": "michigan"
         },
         {
@@ -40,7 +42,8 @@
             "name": "2024 Jersey Shore Pre-Nationals",
             "scope": "nation",
             "isVisible": true,
-            "urlSlug": "92e4ffed-18b4-4a56-037a-08dc3d22e42e"
+            "urlContainer": "tournaments",
+            "urlSlug": "jersey-shores-pre-nationals"
         }
     ]
 }

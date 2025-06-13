@@ -12,7 +12,10 @@
       "scope": "district",
       "scopeLabel": "Illinois",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
-      "districtId": "5997b04c-7fd8-4616-aad2-a84daced86fe"
+      "districtId": "5997b04c-7fd8-4616-aad2-a84daced86fe",
+      "isVisible": true,
+      "urlContainer": "districts",
+      "urlSlug": "illinois"
     },
     {
       "id": "7ccdf141-6027-4c07-2345-08dd5f8101b5",
@@ -27,7 +30,9 @@
       "scope": "district",
       "scopeLabel": "Northwest",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
-      "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb"
+      "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
+      "urlContainer": "districts",
+      "urlSlug": "live-event"
     },
     {
       "id": "7ccdf141-6027-4c07-2345-08dd5f8101b1",
@@ -44,7 +49,9 @@
       "scope": "district",
       "scopeLabel": "Illinois",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
-      "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb"
+      "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
+      "urlContainer": "districts",
+      "urlSlug": "live-event-2"
     },
     {
       "id": "7ccdf141-6027-4c07-2345-08dd5f8101b1",
@@ -58,7 +65,9 @@
       "startDate": "2025-06-12 00:00:00",
       "endDate": "2025-06-14 00:00:00",
       "name": "2025 National JBQ Festival",
-      "scope": "nation"
+      "scope": "nation",
+      "urlContainer": "nationals",
+      "urlSlug": "results"
     }
   ],
   "tbq": [
@@ -75,7 +84,9 @@
       "startDate": "2025-05-30 00:00:00",
       "endDate": "2025-05-31 00:00:00",
       "name": "2025 Jersey Shore Pre-Nationals",
-      "scope": "nation"
+      "scope": "nation",
+      "urlContainer": "other",
+      "urlSlug": "a3b17dec-bd6d-4d3a-2344-08dd5f8101b1"
     },
     {
       "id": "eff1b3a3-c365-4c9e-aaef-08dd9573769f",
@@ -89,10 +100,12 @@
       "startDate": "2025-08-15 00:00:00",
       "endDate": "2025-08-16 00:00:00",
       "name": "Northeast TBQ Training Conference",
-      "scope": "nation"
+      "scope": "nation",
+      "urlContainer": "other",
+      "urlSlug": "eff1b3a3-c365-4c9e-aaef-08dd9573769f"
     },
     {
-      "id": "eff1b3a3-c365-4c9e-aaef-08dd9573769f",
+      "id": "eff1b3a3-c365-4c9e-aaef-08dd9573769e",
       "season": 2026,
       "registrationDates": "Aug 10, 2025",
       "registrationEndDate": "2025-08-10 00:00:00",
@@ -103,7 +116,9 @@
       "startDate": "2025-08-15 00:00:00",
       "endDate": "2025-08-16 00:00:00",
       "name": "Northeast TBQ Training Conference1",
-      "scope": "nation"
+      "scope": "nation",
+      "urlContainer": "other",
+      "urlSlug": "eff1b3a3-c365-4c9e-aaef-08dd9573769e"
     }
   ]
 }

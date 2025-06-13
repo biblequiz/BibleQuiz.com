@@ -1,0 +1,187 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { Tabs, TabItem } from "@astrojs/starlight/components";
+import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
+import { StatsTabItem } from "@components/scores/EventScoresTabItem";
+
+// Build the list of static routes based on the events file.
+import path from "path";
+import { promises as fs } from "fs";
+import { EventInfo } from "@types/EventTypes";
+import { EventScoringReport } from "@types/EventScoringReport";
+import {
+    getAstroRootSourcePath,
+    getFilesByWildcard,
+    tryReadFileAsJson,
+} from "@utils/FileSystem";
+
+export async function getStaticPaths() {
+    // Load the JSON defining all the generated events.
+    const rootSourcePath = getAstroRootSourcePath(import.meta.url);
+    const eventJsonFiles = [
+        path.resolve(rootSourcePath, "data/generated/futureEvents.json"),
+        ...(await getFilesByWildcard(
+            path.resolve(rootSourcePath, "data/generated/seasons"),
+            "*/events.json",
+        )),
+    ];
+
+    const routes: Array<{
+        params: {
+            type: string;
+            season: number;
+            container: string;
+            slug: string;
+        };
+    }> = [];
+
+    for (const eventsFilePath of eventJsonFiles) {
+        const events = JSON.parse(await fs.readFile(eventsFilePath, "utf-8"));
+        for (const type of Object.keys(events)) {
+            for (const event of events[type] as EventInfo[]) {
+                routes.push({
+                    params: {
+                        type: type,
+                        season: event.season,
+                        container: event.urlContainer,
+                        slug: event.urlSlug,
+                    },
+                });
+            }
+        }
+    }
+
+    return routes;
+}
+
+// Find the event metadata.
+interface Props {
+    type: string;
+    season: number;
+    container: string;
+    slug: string;
+}
+
+const { type, season, container, slug } = Astro.params as Props;
+
+async function getEventIdFromUrl(
+    eventsFilePath: string,
+    type: string,
+    season: number,
+    container: string,
+    slug: string,
+): Promise<EventInfo | null> {
+    const seasonEvents = JSON.parse(await fs.readFile(eventsFilePath, "utf-8"));
+    const events = seasonEvents[type] as EventInfo[];
+
+    for (const event of events) {
+        if (
+            (event.season == season && event.urlContainer == container,
+            event.urlSlug == slug)
+        ) {
+            return event;
+        }
+    }
+
+    return null;
+}
+
+const rootSourcePath = getAstroRootSourcePath(import.meta.url);
+
+const eventInfo =
+    (await getEventIdFromUrl(
+        path.resolve(rootSourcePath, `data/generated/futureEvents.json`),
+        type,
+        season,
+        container,
+        slug,
+    )) ||
+    (await getEventIdFromUrl(
+        path.resolve(
+            rootSourcePath,
+            `data/generated/seasons/${season}/events.json`,
+        ),
+        type,
+        season,
+        container,
+        slug,
+    ));
+
+if (!eventInfo) {
+    throw new Error(
+        `Event /${type}/seasons/${season}/${container}/${slug} does not have a corresponding JSON file.`,
+    );
+}
+
+const eventFilePath = path.resolve(
+    rootSourcePath,
+    `data/generated/seasons/${season}/scores/${eventInfo.id}.json`,
+);
+
+const event = await tryReadFileAsJson<EventScoringReport>(eventFilePath);
+const initialScoresTabStyle = event ? "" : "display: none";
+---
+
+<StarlightPage frontmatter={{ title: eventInfo.name, tableOfContents: false }}>
+    {
+        !event && (
+            <EventScoringReportLoader
+                eventInfo={eventInfo}
+                parentTabId="scoreTabs"
+                statsTabId="statsTab"
+                scheduleTabId="scheduleTab"
+                coordinatorTabId="coordinatorTab"
+                questionStatsTabId="qStatsTab"
+                client:only="react"
+            />
+        )
+    }
+    <div id="scoreTabs" style={initialScoresTabStyle}>
+        <Tabs syncKey={`scores-${eventInfo.id}`}>
+            <div id="statsTab">
+                <TabItem label="Stats" icon="star">
+                    {
+                        event && (
+                            <StatsTabItem
+                                eventId={eventInfo.id}
+                                event={event}
+                            />
+                        )
+                    }
+                    {
+                        !event && (
+                            <StatsTabItem
+                                eventId={eventInfo.id}
+                                client:only="react"
+                            />
+                        )
+                    }
+                </TabItem>
+            </div>
+            <div id="scheduleTab">
+                <TabItem label="Schedule" icon="puzzle">
+                    Schedule Content
+                </TabItem>
+            </div>
+            <div id="coordinatorTab">
+                <TabItem label="Coordinator" icon="open-book">
+                    Coordinator Content
+                </TabItem>
+            </div>
+            <div id="qStatsTab">
+                <TabItem label="Q Stats" icon="list-format">
+                    Question Stats Content
+                </TabItem>
+            </div>
+            <TabItem label="QR" icon="seti:image"> QR Code Content </TabItem>
+        </Tabs>
+    </div>
+    <div>
+        <h1>Type: {type}</h1>
+        <h2>Season: {season}</h2>
+        <h3>Container: {container}</h3>
+        <p>Full URL with Origin: {Astro.url.origin}{Astro.url.pathname}</p>
+        <p>Full URL with Search: {Astro.url.href}</p>
+        <p>Search Params: {Astro.url.search}</p>
+    </div>
+</StarlightPage>
