@@ -3,6 +3,7 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
 import { StatsTabItem } from "@components/scores/EventScoresTabItem";
+import { QRCode } from "@components/QRCode.astro";
 
 // Build the list of static routes based on the events file.
 import path from "path";
@@ -173,7 +174,9 @@ const initialScoresTabStyle = event ? "" : "display: none";
                     Question Stats Content
                 </TabItem>
             </div>
-            <TabItem label="QR" icon="seti:image"> QR Code Content </TabItem>
+            <TabItem label="QR" icon="seti:image">
+                <QRCode url="https://biblequiz.com" />
+            </TabItem>
         </Tabs>
     </div>
     <div>
