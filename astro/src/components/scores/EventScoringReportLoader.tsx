@@ -1,45 +1,85 @@
+import { useEffect } from "react";
 import type { EventInfo } from "@types/EventTypes";
 
-import { useStore } from '@nanostores/react';
+import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
 
 interface Props {
     parentTabId: string;
     eventInfo: EventInfo;
-};
+}
 
 export default function EventScoringReportLoader({ parentTabId, eventInfo }: Props) {
 
-    const report = useStore(sharedEventScoringReportState);
-
+    const reportState = useStore(sharedEventScoringReportState);
     const parentTab = document.getElementById(parentTabId) as HTMLDivElement;
 
-    if (report) {
-
-        // TODO: Determine which tabs to display. Remove the tabs that are not supported by the report.
-
-        // The report is known, so the tabs can be displayed.
-        if (parentTab) {
-            parentTab.style.display = "";
+    useEffect(() => {
+        // If the report is not already loaded, fetch it in the background
+        if (!reportState) {
+            fetch(`https://scores.biblequiz.com/api/v1.0/reports/Events/${eventInfo.id}/ScoringReport`)
+                .then(async (response) => {
+                    const body = await response.json();
+                    if (response.ok) {
+                        sharedEventScoringReportState.set(
+                            {
+                                report: body,
+                                error: null
+                            });
+                    } else {
+                        sharedEventScoringReportState.set(
+                            {
+                                report: null,
+                                error: body.Message || "Failed to download the report for unknown reasons."
+                            });
+                    }
+                })
+                .catch((error) => {
+                    sharedEventScoringReportState.set({ report: null, error: `Unknown error occurred: ${error}` });
+                });
         }
+    }, [eventInfo.id, reportState]);
 
-        return (<div />);
-    }
-    else {
+    if (reportState) {
 
-        // If the report is loading, the tabs should be hidden.
+        if (reportState.error) {
+
+            // The report failed to load.
+            if (parentTab) {
+                parentTab.style.display = "none";
+            }
+
+            return (<div role="alert" className="alert alert-error">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>{reportState.error}</span>
+            </div>);
+        }
+        else {
+
+            // The report is known, so the tabs can be displayed
+            if (parentTab) {
+                parentTab.style.display = "";
+            }
+
+            return <div />;
+        }
+    } else {
+        // If the report is loading, the tabs should be hidden
         if (parentTab) {
             parentTab.style.display = "none";
         }
 
-        // TODO: Trigger the loading of the report.
-
-        // Show a loading indicator for the event.
+        // Show a loading indicator for the event
         return (
             <div>
                 <span className="loading loading-dots loading-xl"></span>
                 &nbsp;
-                <span className="text-lg"><i>Loading Stats and Schedules for Event ...</i></span>
-            </div>);
+                <span className="text-lg">
+                    <i>Loading Stats and Schedules for Event ...</i>
+                </span>
+            </div>
+        );
     }
-};
+}

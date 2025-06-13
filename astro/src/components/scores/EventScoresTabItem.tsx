@@ -1,4 +1,6 @@
 import { EventScoringReport } from "@types/EventScoringReport";
+
+import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
 
 interface EventScoresProps {
@@ -8,41 +10,52 @@ interface EventScoresProps {
 
 export function StatsTabItem({ eventId, event }: EventScoresProps) {
 
-    event ??= sharedEventScoringReportState.get();
+    event ??= useStore(sharedEventScoringReportState)?.report;
     if (!event) {
         return (<span>Event is Loading ...</span>);
     }
 
     return (
         <div>
-            <span>Stats Tab</span>
+            <span>Stats Tab Loaded: {event.EventName}</span>
         </div>);
 };
 
 export function ScheduleTabItem({ eventId, event }: EventScoresProps) {
+
+    event ??= useStore(sharedEventScoringReportState)?.report;
+    if (!event) {
+        return (<span>Event is Loading ...</span>);
+    }
+
     return (
         <div>
-            <span>Schedule Content</span>
-        </div>)
+            <span>Schedule Tab Loaded: {event.EventName}</span>
+        </div>);
 };
 
 export function CoordinatorTabItem({ eventId, event }: EventScoresProps) {
+
+    event ??= useStore(sharedEventScoringReportState)?.report;
+    if (!event) {
+        return (<span>Event is Loading ...</span>);
+    }
+
     return (
         <div>
-            <span>Coordinator Content</span>
-        </div>)
+            <span>Coordinator Tab Loaded: {event.EventName}</span>
+        </div>);
 };
 
 export function QuestionStatsTabItem({ eventId, event }: EventScoresProps) {
-    return (
-        <div>
-            <span>Question Stats</span>
-        </div>)
-};
 
-export function QRCodeTabItem({ eventId, event }: EventScoresProps) {
+    event ??= useStore(sharedEventScoringReportState)?.report;
+    if (!event) {
+        return (<span>Event is Loading ...</span>);
+    }
+
     return (
         <div>
-            <span>QR Code</span>
-        </div>)
+            <span>Question Stats Tab Loaded: {event.EventName}</span>
+        </div>);
 };
