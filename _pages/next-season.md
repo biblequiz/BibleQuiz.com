@@ -22,6 +22,6 @@ For the 2025-2026 season we will be quizzing over the books of Galatians, Ephesi
 
 <a href="{% link assets/2026/GEPCP_Application_Questions.doc %}" class="button is-primary">Application Questions</a>
 
-<a href="{% link assets/2025/GEPCP Discussion Questions-Final.doc %}" class="button is-primary">Discussion Questions</a>
+<a href="{% link assets/2026/GEPCP-Discussion-Questions-Final.pdf %}" class="button is-primary">Discussion Questions</a>
 
 <a href="{% link assets/2026/GEPCP_Discipleship_Award_Requirements.doc %}" class="button is-primary">Discipleship Award Requirements</a>
