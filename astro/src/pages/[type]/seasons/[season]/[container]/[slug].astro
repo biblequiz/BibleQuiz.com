@@ -1,9 +1,10 @@
 ---
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
-import { Tabs, TabItem } from "@astrojs/starlight/components";
+import { Tabs, TabItem, LinkButton } from "@astrojs/starlight/components";
+
 import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
+import QRCodeImage from "@components/QRCodeImage.astro";
 import { StatsTabItem } from "@components/scores/EventScoresTabItem";
-import { QRCode } from "@components/QRCode.astro";
 
 // Build the list of static routes based on the events file.
 import path from "path";
@@ -129,53 +130,39 @@ const initialScoresTabStyle = event ? "" : "display: none";
             <EventScoringReportLoader
                 eventInfo={eventInfo}
                 parentTabId="scoreTabs"
-                statsTabId="statsTab"
-                scheduleTabId="scheduleTab"
-                coordinatorTabId="coordinatorTab"
-                questionStatsTabId="qStatsTab"
                 client:only="react"
             />
         )
     }
     <div id="scoreTabs" style={initialScoresTabStyle}>
         <Tabs syncKey={`scores-${eventInfo.id}`}>
-            <div id="statsTab">
-                <TabItem label="Stats" icon="star">
-                    {
-                        event && (
-                            <StatsTabItem
-                                eventId={eventInfo.id}
-                                event={event}
-                            />
-                        )
-                    }
-                    {
-                        !event && (
-                            <StatsTabItem
-                                eventId={eventInfo.id}
-                                client:only="react"
-                            />
-                        )
-                    }
-                </TabItem>
-            </div>
-            <div id="scheduleTab">
-                <TabItem label="Schedule" icon="puzzle">
-                    Schedule Content
-                </TabItem>
-            </div>
-            <div id="coordinatorTab">
-                <TabItem label="Coordinator" icon="open-book">
-                    Coordinator Content
-                </TabItem>
-            </div>
-            <div id="qStatsTab">
-                <TabItem label="Q Stats" icon="list-format">
-                    Question Stats Content
-                </TabItem>
-            </div>
+            <TabItem label="Stats" icon="star">
+                {event && <StatsTabItem eventId={eventInfo.id} event={event} />}
+                {
+                    !event && (
+                        <StatsTabItem
+                            eventId={eventInfo.id}
+                            client:only="react"
+                        />
+                    )
+                }
+            </TabItem>
+            <TabItem label="Schedule" icon="puzzle"> Schedule Content </TabItem>
+            <TabItem label="Coordinator" icon="open-book">
+                Coordinator Content
+            </TabItem>
+            <TabItem label="Q Stats" icon="list-format">
+                Question Stats Content
+            </TabItem>
             <TabItem label="QR" icon="seti:image">
-                <QRCode url="https://biblequiz.com" />
+                <QRCodeImage
+                    url={`${Astro.url.origin}${Astro.url.pathname}`}
+                    width={400}
+                    color="#000000"
+                    backgroundColor="#ffffff"
+                    downloadFileNameWithoutExtension={eventInfo.name}
+                    cssClass="flex justify-center"
+                />
             </TabItem>
         </Tabs>
     </div>

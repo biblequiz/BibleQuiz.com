@@ -5,14 +5,10 @@ import { sharedEventScoringReportState } from "@utils/SharedState";
 
 interface Props {
     parentTabId: string;
-    statsTabId: string;
-    scheduleTabId: string;
-    coordinatorTabId: string;
-    questionStatsTabId: string;
     eventInfo: EventInfo;
 };
 
-export default function EventScoringReportLoader({ parentTabId, statsTabId, scheduleTabId, coordinatorTabId, questionStatsTabId, eventInfo }: Props) {
+export default function EventScoringReportLoader({ parentTabId, eventInfo }: Props) {
 
     const report = useStore(sharedEventScoringReportState);
 
