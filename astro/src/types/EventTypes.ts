@@ -1,4 +1,8 @@
+export type EventTypeList = { [type: string]: EventList };
+export type EventList = { [url: string]: EventInfo };
+
 export interface EventInfo {
+    order: number;
     id: string;
     season: number;
     name: string;
@@ -12,7 +16,5 @@ export interface EventInfo {
     registrationEndDate: string | null;
     locationName: string;
     locationCity: string;
-    urlContainer: string;
-    urlSlug: string;
     isVisible: boolean;
 }

@@ -9,7 +9,7 @@ import { StatsTabItem } from "@components/scores/EventScoresTabItem";
 // Build the list of static routes based on the events file.
 import path from "path";
 import { promises as fs } from "fs";
-import { EventInfo } from "@types/EventTypes";
+import { EventTypeList, EventList, EventInfo } from "@types/EventTypes";
 import { EventScoringReport } from "@types/EventScoringReport";
 import {
     getAstroRootSourcePath,
@@ -38,15 +38,21 @@ export async function getStaticPaths() {
     }> = [];
 
     for (const eventsFilePath of eventJsonFiles) {
-        const events = JSON.parse(await fs.readFile(eventsFilePath, "utf-8"));
+        const events = JSON.parse(
+            await fs.readFile(eventsFilePath, "utf-8"),
+        ) as EventTypeList;
         for (const type of Object.keys(events)) {
-            for (const event of events[type] as EventInfo[]) {
+            const typeEvents = events[type] as EventList;
+            for (const url of Object.keys(typeEvents)) {
+                const [container, slug] = url.split("/");
+                const event = typeEvents[url] as EventInfo;
+
                 routes.push({
                     params: {
                         type: type,
                         season: event.season,
-                        container: event.urlContainer,
-                        slug: event.urlSlug,
+                        container: container,
+                        slug: slug,
                     },
                 });
             }
@@ -73,19 +79,21 @@ async function getEventIdFromUrl(
     container: string,
     slug: string,
 ): Promise<EventInfo | null> {
-    const seasonEvents = JSON.parse(await fs.readFile(eventsFilePath, "utf-8"));
-    const events = seasonEvents[type] as EventInfo[];
+    const seasonEvents = JSON.parse(
+        await fs.readFile(eventsFilePath, "utf-8"),
+    ) as EventTypeList;
 
-    for (const event of events) {
-        if (
-            (event.season == season && event.urlContainer == container,
-            event.urlSlug == slug)
-        ) {
-            return event;
-        }
+    const typeEvents = seasonEvents[type] as EventTypeList;
+    if (!typeEvents) {
+        return null;
     }
 
-    return null;
+    const event = typeEvents[`${container}/${slug}`] as EventInfo;
+    if (!event) {
+        return null;
+    }
+
+    return event;
 }
 
 const rootSourcePath = getAstroRootSourcePath(import.meta.url);
