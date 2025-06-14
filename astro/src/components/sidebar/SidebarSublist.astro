@@ -56,15 +56,6 @@ const { sublist, nested, toc } = Astro.props;
                                     </span>
                                 </summary>
                                 <SidebarTableOfContents toc={toc} />
-                                <ul class:list={{ "top-level": false }}>
-                                    {toc.map((heading) => (
-                                        <li>
-                                            <a href={"#" + heading.slug}>
-                                                <span>{heading.text}</span>
-                                            </a>
-                                        </li>
-                                    ))}
-                                </ul>
                             </details>
                         )}
                     </div>
