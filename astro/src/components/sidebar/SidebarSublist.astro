@@ -5,11 +5,14 @@ import type {
 } from "@astrojs/starlight/utils/routing/types";
 import { Icon, Badge } from "@astrojs/starlight/components";
 import SidebarRestorePoint from "@components/sidebar/SidebarRestorePoint.astro";
+import SidebarTableOfContents from "@components/sidebar/SidebarTableOfContents.astro";
 import FontAwesomeIcon from "@components/FontAwesomeIcon.astro";
+import type { TocItem } from "@astrojs/starlight/utils/generateToC";
 
 interface Props {
     sublist: SidebarEntry[];
     nested?: boolean;
+    toc: TocItem[] | null;
 }
 
 function flattenSidebar(sidebar: SidebarEntry[]): SidebarLink[] {
@@ -18,7 +21,7 @@ function flattenSidebar(sidebar: SidebarEntry[]): SidebarLink[] {
     );
 }
 
-const { sublist, nested } = Astro.props;
+const { sublist, nested, toc } = Astro.props;
 ---
 
 <ul class:list={{ "top-level": !nested }}>
@@ -26,24 +29,45 @@ const { sublist, nested } = Astro.props;
         sublist.map((entry) => (
             <li>
                 {entry.type === "link" ? (
-                    <a
-                        href={entry.href}
-                        aria-current={entry.isCurrent && "page"}
-                        class:list={[{ large: !nested }, entry.attrs.class]}
-                        {...entry.attrs}
-                    >
-                        {entry.attrs.icon && (
-                            <FontAwesomeIcon icon={entry.attrs.icon} />
+                    <div>
+                        <a
+                            href={entry.href}
+                            aria-current={entry.isCurrent && "page"}
+                            class:list={[{ large: !nested }, entry.attrs.class]}
+                            {...entry.attrs}
+                        >
+                            {entry.attrs.icon && (
+                                <FontAwesomeIcon icon={entry.attrs.icon} />
+                            )}
+                            <span>{entry.label}</span>
+                            {entry.badge && (
+                                <Badge
+                                    variant={entry.badge.variant}
+                                    class={entry.badge.class}
+                                    text={entry.badge.text}
+                                />
+                            )}
+                        </a>
+                        {entry.isCurrent && toc && toc.length > 1 && (
+                            <details open={true} class="tocDetails caret">
+                                <summary class="tocSummary">
+                                    <span>
+                                        <b>On this page</b>
+                                    </span>
+                                </summary>
+                                <SidebarTableOfContents toc={toc} />
+                                <ul class:list={{ "top-level": false }}>
+                                    {toc.map((heading) => (
+                                        <li>
+                                            <a href={"#" + heading.slug}>
+                                                <span>{heading.text}</span>
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </details>
                         )}
-                        <span>{entry.label}</span>
-                        {entry.badge && (
-                            <Badge
-                                variant={entry.badge.variant}
-                                class={entry.badge.class}
-                                text={entry.badge.text}
-                            />
-                        )}
-                    </a>
+                    </div>
                 ) : (
                     <details
                         open={
@@ -70,7 +94,7 @@ const { sublist, nested } = Astro.props;
                                 size="1.25rem"
                             />
                         </summary>
-                        <Astro.self sublist={entry.entries} nested />
+                        <Astro.self sublist={entry.entries} toc={toc} nested />
                     </details>
                 )}
             </li>
@@ -118,6 +142,14 @@ const { sublist, nested } = Astro.props;
         summary::marker,
         summary::-webkit-details-marker {
             display: none;
+        }
+
+        summary.tocSummary {
+            font-size: var(--sl-text-sm);
+        }
+
+        details.tocDetails {
+            padding-left: var(--sl-sidebar-item-padding-inline);
         }
 
         .caret {
