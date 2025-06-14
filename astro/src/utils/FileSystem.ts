@@ -11,11 +11,27 @@ import { promises as fs } from "fs";
  * @returns Root source path of the Astro project.
  * @throws Error if the 'src' directory cannot be found in the path.
  */
-export function getAstroRootSourcePath(metaUrl: string): string {
+export async function getAstroRootSourcePath(metaUrl: string): Promise<string> {
 
     let potentialPath: string | null = fileURLToPath(metaUrl);
 
-    while (potentialPath && potentialPath.length > 0 && path.basename(potentialPath) != "src") {
+    while (potentialPath && potentialPath.length > 0) {
+        const directoryName = path.basename(potentialPath);
+
+        if (directoryName == "src") {
+            // This is the /src directory.
+            return potentialPath;
+        }
+        else if (directoryName == "dist") {
+            // During the official build process, the code is built in the /dist directory,
+            // a peer of /src.
+            potentialPath = path.join(potentialPath, "..", "src");
+            
+            if (await fileExists(potentialPath)) {
+                return potentialPath;
+            }
+        }
+
         potentialPath = path.dirname(potentialPath);
     }
 

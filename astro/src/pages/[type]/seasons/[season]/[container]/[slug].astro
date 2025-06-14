@@ -19,7 +19,8 @@ import {
 
 export async function getStaticPaths() {
     // Load the JSON defining all the generated events.
-    const rootSourcePath = getAstroRootSourcePath(import.meta.url);
+    const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
+
     const eventJsonFiles = [
         path.resolve(rootSourcePath, "data/generated/futureEvents.json"),
         ...(await getFilesByWildcard(
@@ -96,7 +97,7 @@ async function getEventIdFromUrl(
     return event;
 }
 
-const rootSourcePath = getAstroRootSourcePath(import.meta.url);
+const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
 
 const eventInfo =
     (await getEventIdFromUrl(
