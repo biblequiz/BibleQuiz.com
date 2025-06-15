@@ -153,6 +153,25 @@ switch (eventInfo.scope) {
     default:
         break;
 }
+
+// Identify whether certain tabs should be removed.
+let hasStatsTab = false;
+let hasQStatsTab = false;
+if (event) {
+    for (let meet of event.Report.Meets) {
+        // If there are any question stats, mark the flag.
+        if (meet.HasQuestionStats) {
+            hasQStatsTab = true;
+        }
+
+        if (meet.RankedQuizzers || meet.RankedTeams) {
+            hasStatsTab = true;
+        }
+    }
+} else {
+    hasStatsTab = true;
+    hasQStatsTab = true;
+}
 ---
 
 <StarlightPage frontmatter={frontmatter}>
@@ -167,24 +186,35 @@ switch (eventInfo.scope) {
     }
     <div id="scoreTabs" style={initialScoresTabStyle}>
         <Tabs syncKey={`scores-${eventInfo.id}`}>
-            <TabItem label="Stats" icon="star">
-                {event && <StatsTabItem eventId={eventInfo.id} event={event} />}
-                {
-                    !event && (
-                        <StatsTabItem
-                            eventId={eventInfo.id}
-                            client:only="react"
-                        />
-                    )
-                }
-            </TabItem>
+            {
+                hasStatsTab && (
+                    <TabItem label="Stats" icon="star">
+                        {event && (
+                            <StatsTabItem
+                                eventId={eventInfo.id}
+                                event={event}
+                            />
+                        )}
+                        {!event && (
+                            <StatsTabItem
+                                eventId={eventInfo.id}
+                                client:only="react"
+                            />
+                        )}
+                    </TabItem>
+                )
+            }
             <TabItem label="Schedule" icon="puzzle"> Schedule Content </TabItem>
             <TabItem label="Coordinator" icon="open-book">
                 Coordinator Content
             </TabItem>
-            <TabItem label="Q Stats" icon="list-format">
-                Question Stats Content
-            </TabItem>
+            {
+                hasQStatsTab && (
+                    <TabItem label="Q Stats" icon="list-format">
+                        Question Stats Content
+                    </TabItem>
+                )
+            }
             <TabItem label="QR" icon="seti:image">
                 <QRCodeImage
                     url={`${Astro.url.origin}${Astro.url.pathname}`}
