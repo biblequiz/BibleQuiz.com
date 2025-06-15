@@ -62,6 +62,24 @@ tableOfContents:
 
 Add `tableOfContents: false` to the frontmatter.
 
+### Event Pages
+
+Event pages are generated in a programmatic way with predictable links. If you want to override where it
+appears in the Sidebar, create a `*.mdx` file in the same path with the following content:
+
+```mdx
+---
+title: "Results"
+sidebar:
+  label: Results
+---
+
+:::note
+The content of this page is programmatically replaced by the automatic event page generation. The frontmatter is used to sort
+and label the item in the sidebar.
+:::
+```
+
 ## Developing
 
 For local development, run:
