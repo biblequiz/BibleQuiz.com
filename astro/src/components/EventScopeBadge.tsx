@@ -1,7 +1,6 @@
 interface EventScopeBadgeProps {
     scope: 'district' | 'region' | 'nation';
     label?: string | null;
-    showScopeLabel?: boolean;
 };
 
 export default function EventListWrapper({ scope, label }: EventScopeBadgeProps) {

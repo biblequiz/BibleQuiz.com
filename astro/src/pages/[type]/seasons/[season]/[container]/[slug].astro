@@ -6,6 +6,9 @@ import EventScoringReportLoader from "@components/scores/EventScoringReportLoade
 import QRCodeImage from "@components/QRCodeImage.astro";
 import { StatsTabItem } from "@components/scores/EventScoresTabItem";
 
+import regions from "@data/regions.json";
+import districts from "@data/districts.json";
+
 // Build the list of static routes based on the events file.
 import path from "path";
 import { promises as fs } from "fs";
@@ -65,7 +68,7 @@ export async function getStaticPaths() {
 
 // Find the event metadata.
 interface Props {
-    type: string;
+    type: "jbq" | "tbq";
     season: number;
     container: string;
     slug: string;
@@ -76,7 +79,6 @@ const { type, season, container, slug } = Astro.params as Props;
 async function getEventIdFromUrl(
     eventsFilePath: string,
     type: string,
-    season: number,
     container: string,
     slug: string,
 ): Promise<EventInfo | null> {
@@ -103,7 +105,6 @@ const eventInfo =
     (await getEventIdFromUrl(
         path.resolve(rootSourcePath, `data/generated/futureEvents.json`),
         type,
-        season,
         container,
         slug,
     )) ||
@@ -113,7 +114,6 @@ const eventInfo =
             `data/generated/seasons/${season}/events.json`,
         ),
         type,
-        season,
         container,
         slug,
     ));
@@ -131,9 +131,33 @@ const eventFilePath = path.resolve(
 
 const event = await tryReadFileAsJson<EventScoringReport>(eventFilePath);
 const initialScoresTabStyle = event ? "" : "display: none";
+
+// Find the label for the scope.
+let eventScopeLabel: string | null = null;
+switch (eventInfo.scope) {
+    case "region":
+        eventScopeLabel = `${regions.find((r: any) => r.id == eventInfo.regionId).name} Region`;
+        break;
+    case "district":
+        eventScopeLabel = `${districts.find((d: any) => d.id == eventInfo.districtId).name} District`;
+        break;
+    default:
+        eventScopeLabel = null;
+        break;
+}
 ---
 
-<StarlightPage frontmatter={{ title: eventInfo.name, tableOfContents: false }}>
+<StarlightPage
+    frontmatter={{
+        title: eventInfo.name,
+        tableOfContents: false,
+        eventType: type,
+        eventDates: eventInfo.dates,
+        eventScope: eventInfo.scope,
+        eventScopeLabel: eventScopeLabel,
+        eventLocation: eventInfo.locationCity,
+    }}
+>
     {
         !event && (
             <EventScoringReportLoader
@@ -174,14 +198,5 @@ const initialScoresTabStyle = event ? "" : "display: none";
                 />
             </TabItem>
         </Tabs>
-    </div>
-    <div>
-        <h1>Type: {type}</h1>
-        <h2>Season: {season}</h2>
-        <h3>Container: {container}</h3>
-        <p>ID: {eventInfo.id}</p>
-        <p>Full URL with Origin: {Astro.url.origin}{Astro.url.pathname}</p>
-        <p>Full URL with Search: {Astro.url.href}</p>
-        <p>Search Params: {Astro.url.search}</p>
     </div>
 </StarlightPage>

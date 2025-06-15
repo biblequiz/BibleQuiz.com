@@ -9,10 +9,18 @@ interface Props {
     eventInfo: EventInfo;
 }
 
+function removeTabAndPanel(linkElement: HTMLAnchorElement): void {
+    
+    // Remove the parent tab.
+    linkElement.parentElement?.remove();
+
+    // Remove the panel.
+    document.getElementById(linkElement.href.substring(1))?.remove();
+}
+
 export default function EventScoringReportLoader({ parentTabId, eventInfo }: Props) {
 
     const reportState = useStore(sharedEventScoringReportState);
-    const parentTab = document.getElementById(parentTabId) as HTMLDivElement;
 
     useEffect(() => {
         // If the report is not already loaded, fetch it in the background
@@ -40,6 +48,8 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo }: Pro
         }
     }, [eventInfo.id, reportState]);
 
+    // React based on the state of the report.
+    const parentTab = document.getElementById(parentTabId) as HTMLDivElement;
     if (reportState) {
 
         if (reportState.error) {
@@ -57,6 +67,32 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo }: Pro
             </div>);
         }
         else {
+
+            // Drop the unsupported tabs.
+            let hasStats = false;
+            let hasQStats = false;
+            for (let meet of reportState.report.Report.Meets) {
+
+                // If there are any question stats, mark the flag.
+                if (meet.HasQuestionStats) {
+                    hasQStats = true;
+                }
+
+                if (meet.RankedQuizzers || meet.RankedTeams) {
+                    hasStats = true;
+                }
+            }
+
+            if (!hasStats || !hasQStats) {
+                const tabLinks = parentTab.querySelectorAll('a[role="tab"]');
+                if (!hasQStats) {
+                    removeTabAndPanel(tabLinks[3] as HTMLAnchorElement);
+                }
+
+                if (!hasStats) {
+                    removeTabAndPanel(tabLinks[0] as HTMLAnchorElement);
+                }
+            }
 
             // The report is known, so the tabs can be displayed
             if (parentTab) {
