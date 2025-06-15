@@ -5,6 +5,7 @@ import { Tabs, TabItem, LinkButton } from "@astrojs/starlight/components";
 import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
 import QRCodeImage from "@components/QRCodeImage.astro";
 import { StatsTabItem } from "@components/scores/EventScoresTabItem";
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
 
 import regions from "@data/regions.json";
 import districts from "@data/districts.json";
@@ -133,31 +134,28 @@ const event = await tryReadFileAsJson<EventScoringReport>(eventFilePath);
 const initialScoresTabStyle = event ? "" : "display: none";
 
 // Find the label for the scope.
-let eventScopeLabel: string | null = null;
+const frontmatter: StarlightPageFrontmatter = {
+    title: eventInfo.name,
+    tableOfContents: false,
+    eventType: type,
+    eventDates: eventInfo.dates,
+    eventScope: eventInfo.scope,
+    eventLocation: eventInfo.locationCity,
+};
+
 switch (eventInfo.scope) {
     case "region":
-        eventScopeLabel = `${regions.find((r: any) => r.id == eventInfo.regionId).name} Region`;
+        frontmatter.eventScopeLabel = `${regions.find((r: any) => r.id == eventInfo.regionId).name} Region`;
         break;
     case "district":
-        eventScopeLabel = `${districts.find((d: any) => d.id == eventInfo.districtId).name} District`;
+        frontmatter.eventScopeLabel = `${districts.find((d: any) => d.id == eventInfo.districtId).name} District`;
         break;
     default:
-        eventScopeLabel = null;
         break;
 }
 ---
 
-<StarlightPage
-    frontmatter={{
-        title: eventInfo.name,
-        tableOfContents: false,
-        eventType: type,
-        eventDates: eventInfo.dates,
-        eventScope: eventInfo.scope,
-        eventScopeLabel: eventScopeLabel,
-        eventLocation: eventInfo.locationCity,
-    }}
->
+<StarlightPage frontmatter={frontmatter}>
     {
         !event && (
             <EventScoringReportLoader
