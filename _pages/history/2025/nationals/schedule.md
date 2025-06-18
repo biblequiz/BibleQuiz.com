@@ -29,8 +29,9 @@ menubar: menu_tbq_nationals
     <h2>Saturday, June 28</h2>
     <table>
       <tr><th>Time</th><th>Description</th></tr>
-      <tr><td>5:00-7:00 p.m.</td><td>Team & Officials Registration<br />(Bring Quiz Sets at this time, marked with Church Name, City, and State)</td></tr>
-      <tr><td>7:15 p.m.</td><td>First Time Coaches to National Finals Mtg. (Location TBA at Registration)</td></tr>
+      <tr><td>5:00-7:00 p.m.</td><td>Team & Officials Registration <button class="button is-primary is-small is-static">12th floor</button><br />
+      (Bring Quiz Sets at this time, marked with Church Name, City, and State)</td></tr>
+      <tr><td>7:15 p.m.</td><td>First Time Coaches at National Finals  <button class="button is-primary is-small is-static">12th floor</button></td></tr>
       <tr><td>8:00 p.m.</td><td>Ice Cream Fellowship</td></tr>
     </table>
   </div>
@@ -40,7 +41,7 @@ menubar: menu_tbq_nationals
     <table>
       <tr><th>Time</th><th>Description</th></tr>
       <tr><td>9:15 a.m.</td><td>Prayer</td></tr>
-      <tr><td>9:30 a.m.</td><td>Service</td></tr>
+      <tr><td>9:30 a.m.</td><td>Service <button class="button is-primary is-small is-static">12th floor</button></td></tr>
       <tr><td>11:15 a.m.</td><td>Quoting Bee</td></tr>
       <tr><td>12:00 p.m.</td><td>Senior Shoot-out</td></tr>
       <tr><td>8:00 p.m.</td><td>Officials Assignment</td></tr>
@@ -52,7 +53,7 @@ menubar: menu_tbq_nationals
     <table>
       <tr><th>Time</th><th>Description</th></tr>
       <tr><td>8:15 a.m.</td><td>Prayer</td></tr>
-      <tr><td>8:30 a.m.</td><td>Worship</td></tr>
+      <tr><td>8:30 a.m.</td><td>Worship <button class="button is-primary is-small is-static">12th floor</button></td></tr>
       <tr><td>9:15 a.m.</td><td>Round 1 (5 Pairing Groups)</td></tr>
       <tr><td>10:00 a.m.</td><td>Round 2</td></tr>
       <tr><td>10:45 a.m.</td><td>Round 3</td></tr>
@@ -64,6 +65,11 @@ menubar: menu_tbq_nationals
       <tr><td>3:15 p.m.</td><td>Playoffs (if necessary)</td></tr>
       <tr><td>8:00 p.m.</td><td>District BQ Coordinator Meeting</td></tr>
     </table>
+    <div class="box"> Bow-Tie Monday in honor of our dear friend, Kent Kloefkorn. Kent was the National Championship
+Coach in 2005 and the official writer for many years. He faithfully served on the Steering Committee for years and
+invested in many quizzers and coaches in training camps and other settings throughout America. Kent went home to be
+with Jesus, Dec 29, 2016. His memorial service was Saturday, January 14, 2017, at his home church, Cedar Park Church,
+Bothell, WA. His trademark was always wearing a Bowtie. So, wear your best Bowtie on that day.</div>
   </div>
 
   <div id="tuesday" class="tab-content">
@@ -71,7 +77,7 @@ menubar: menu_tbq_nationals
     <table>
       <tr><th>Time</th><th>Description</th></tr>
       <tr><td>8:15 a.m.</td><td>Prayer</td></tr>
-      <tr><td>8:30 a.m.</td><td>Worship</td></tr>
+      <tr><td>8:30 a.m.</td><td>Worship <button class="button is-primary is-small is-static">12th floor</button></td></tr>
       <tr><td>9:15 a.m.</td><td>Round 1 Championship/Challenger</td></tr>
       <tr><td>10:00 a.m.</td><td>Round 2</td></tr>
       <tr><td>10:45 a.m.</td><td>Round 3</td></tr>
@@ -91,7 +97,7 @@ menubar: menu_tbq_nationals
     <table>
       <tr><th>Time</th><th>Description</th></tr>
       <tr><td>8:15 a.m.</td><td>Prayer</td></tr>
-      <tr><td>8:30 a.m.</td><td>Worship</td></tr>
+      <tr><td>8:30 a.m.</td><td>Worship <button class="button is-primary is-small is-static">12th floor</button></td></tr>
       <tr><td>9:15 a.m.</td><td>Round 10 Championship/Challenger</td></tr>
       <tr><td>10:00 a.m.</td><td>Round 11</td></tr>
       <tr><td>10:45 a.m.</td><td>Round 12</td></tr>
@@ -110,7 +116,7 @@ menubar: menu_tbq_nationals
     <table>
       <tr><th>Time</th><th>Description</th></tr>
       <tr><td>8:15 a.m.</td><td>Prayer</td></tr>
-      <tr><td>8:30 a.m.</td><td>Worship</td></tr>
+      <tr><td>8:30 a.m.</td><td>Worship <button class="button is-primary is-small is-static">12th floor</button></td></tr>
       <tr><td>9:15 a.m.</td><td>Round 18 Championship/Challenger</td></tr>
       <tr><td>10:00 a.m.</td><td>Round 19</td></tr>
       <tr><td>10:45 a.m.</td><td>Playoff<br />(Only if needed to decide National Champion. If not, Individual Tournament begins)</td></tr>
@@ -178,7 +184,7 @@ menubar: menu_tbq_nationals
     });
   });
 </script>
-
+<p>&nbsp;</p>
 _Note: Any additional events will be announced during the morning services._
 
 <!-- ---
