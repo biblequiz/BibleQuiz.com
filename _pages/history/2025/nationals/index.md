@@ -6,7 +6,7 @@ date: "2025-03-10"
 menubar: menu_tbq_nationals
 ---
 
-![]({% link assets/2025/stl-hotel-promo.jpg %})
+![]({% link _pages/history/2025/nationals/2025-tbq-nats-main.jpg %})
 
 ## June 28, 2025 - July 4, 2025
 
