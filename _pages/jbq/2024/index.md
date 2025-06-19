@@ -7,7 +7,8 @@ menubar: menu_jbq
 ---
 
 ## Nationals
-*Details will be available closer to the National Festival.*
+
+<a href="/jbq/2024/nationals" class="button is-primary">National Finals</a>
 
 ## Tournaments
 
