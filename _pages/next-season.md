@@ -17,3 +17,7 @@ For the 2025-2026 season we will be quizzing over the books of Galatians, Ephesi
 | League Meet 3 | Philippian 1-4<br/>_(104 vs)_    | Eph 5-6<br/>_(57 vs)_          | Eph 5:-6:9<br/>_(42 vs)_           |
 | League Meet 4 | Col 1-4, Philemon<br/>_(120 vs)_ | Phil 1-2<br/>_(60 vs)_         | Eph 6:10-24 & Phil 2<br/>_(45 vs)_ |
 | **TOTAL**     | **528 verses**                   | **364 verses**                 | **174 verses**                     |
+
+## Discussion Questions
+
+<a href="{% link assets/2025/GEPCP Discussion Questions-Final.doc %}" class="button is-primary">Download Discussion Questions</a>

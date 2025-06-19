@@ -20,7 +20,10 @@
     - name: First Time
       link: /history/2025/nationals/first-time/
       icon: fas fa-user
-- label: Events
+    - name: Photos
+      link: /history/2025/nationals/photos/
+      icon: fas fa-camera
+- label: Events and Rules
   items:
     - name: Quoting Bee
       link: /history/2025/nationals/quoting-bee/
@@ -37,3 +40,6 @@
     - name: Adult Bible Quiz
       link: /history/2025/nationals/adult-bible-quiz/
       icon: fas fa-person-cane
+    - name: Tie-Breakers
+      link: /history/2025/nationals/tie-breakers/
+      icon: fas fa-scale-balanced

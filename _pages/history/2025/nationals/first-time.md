@@ -34,6 +34,11 @@ Besides studying and financially planning for Nationals, expect this week to be 
 
 _Shreanna Powell, Naperville, IL_
 
+### Tips
+
+-   All teams are required to sign up for a team photo. You can schedule a time for your team [on the Photos page]({% link _pages/history/2025/nationals/photos.md %}).
+-   We strongly recommend that all coaches [download the Discord app](({% link _pages/history/2025/nationals/communication.md %})). This is essential for receiving updates and information througout the week. It also includes sections for important announcements and advice for navigating St. Louis with your team.
+
 ### Advice from the Bible Quiz Community
 
 We asked people in [the official Facebook group](https://www.facebook.com/groups/agbiblequiz/posts/7232432523460542/) for their best advice for teams attending Nationals for the first time. Here are a few of the top responses:

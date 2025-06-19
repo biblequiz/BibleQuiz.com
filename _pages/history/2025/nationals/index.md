@@ -8,9 +8,77 @@ menubar: menu_tbq_nationals
 
 ![]({% link assets/2025/stl-hotel-promo.jpg %})
 
-### June 28, 2025 - July 4, 2025
+## June 28, 2025 - July 4, 2025
 
 40 teams from 8 regions compete over the course of a week for the 2025 AG Teen Bible Quiz National Championship.
+
+---
+
+## Participants
+
+### Northeast
+
+Redeemer Church, Utica, NY  
+Calvary Temple, Wayne, NJ  
+Calvary Christian Church, Lynnfield, MA  
+Word of Life, Springfield, VA  
+Central A/G, Houston, PA  
+Indians For Christ, Hyattsville, MD  
+Metuchen AG, Metuchen, NJ  
+Love of Jesus Indian Church, Metuchen, NJ
+
+### Southeast
+
+Atlanta Indian Prayer Fellowship, Marietta, GA  
+Faith AG, Orlando, FL  
+Resilient Go Ministries, Charlotte, NC
+
+### Great Lakes
+
+First A/G, Lexington, KY  
+Calvary Church, Naperville, IL “J”  
+Radiant Life Church, Dublin, OH  
+Painesville AG, Painesville, OH  
+Journey Life Church, Holt, MI  
+The Stone Church, Orland Park, IL  
+Calvary Church, Naperville, IL “C”  
+Firm Foundation Church, Paw Paw, MI
+
+### Gulf
+
+Hope Church, Springfield, MO
+
+### North Central
+
+Harvest AG, Oconto, WI  
+Discover Church, Oak Creek, WI  
+Life Change Church, Sioux Fall, SD  
+Open Bible Church, Rapid City, SD  
+Cross Point AG, Portage, WI  
+New Life AG, Sparta, WI
+
+### South Central
+
+Trinity Church, Cedar Hill, TX “One”  
+Braeswood AG, Houston, TX “DKY”  
+Gateway Church, Midlothian, TX  
+Trinity Church, Cedar Hill, TX “Black”  
+Braeswood AG, Houston, TX “TBD”  
+Dayspring AG, Porter, TX
+
+### Northwest
+
+Valley Assembly, Spokane Valley, WA  
+Bellevue Neighborhood Church, Bellevue, WA  
+Cedar Park AG, Bothell, WA  
+Seattle Tamil Assembly Church, Seattle WA “F.W.”  
+Seattle Tamil Assembly Church, Seattle, WA “A&D”
+
+### Southwest
+
+New Life Church, Colorado Springs, CO  
+Bethel Church of San Jose, San Jose CA  
+Living Waters Bible Church, San Diego, CA
 
 <!-- <a href="https://brushfire.com/agusa/NBQ/600295" class="button is-primary">Register with Brushfire</a> -->
 
@@ -28,12 +96,8 @@ Over $30,000 in scholarships will be awarded to quizzers at Nationals Finals. Hi
 
 <!-- <a href="https://agyouth.formstack.com/forms/scholarship2024" class="button is-primary">Apply for Scholarships</a> -->
 
-### Giving and Donation Opportunities
+<!-- ### Giving and Donation Opportunities -->
 
-If you'd like to contribute and help make National Finals possible, take a look at the link below to see how you can make a difference.
+<!-- If you'd like to contribute and help make National Finals possible, take a look at the link below to see how you can make a difference.
 
-<a href="{% link _pages/history/2025/nationals/donations.md %}" class="button is-primary">National Finals Giving Opportunities</a>
-
-<!-- ### Tie-Breakers
-
-<a href="{% link assets/2025/24-25 TBQ Tie-Breaker Rules.pdf %}" class="button is-primary">Download Tie-Breaking Rules</a> -->
+<a href="{% link _pages/history/2025/nationals/donations.md %}" class="button is-primary">National Finals Giving Opportunities</a> -->
