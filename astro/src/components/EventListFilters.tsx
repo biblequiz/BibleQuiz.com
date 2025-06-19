@@ -94,7 +94,7 @@ export default function EventListFilters({ filters, setFilters }: EventFiltersPr
           name="filterScope"
           value="district"
           onChange={handleScopeChange}
-        />&nbsp;<EventScopeBadge scope="district" />
+        />&nbsp;<EventScopeBadge scope="district" label="District Finals" />
       </label>
       <label>
         <input

@@ -1,8 +1,16 @@
-export type EventTypeList = { [type: string]: EventList };
-export type EventList = { [url: string]: EventInfo };
+export type EventTypeList = { [type: string]: EventCategories };
+
+export interface EventCategories {
+    nationals: EventInfo | null;
+    regionals: EventList;
+    districts: EventList;
+    other: EventList;
+    reports: ReportList;
+}
+export type EventList = { [slug: string]: EventInfo };
+export type ReportList = { [slug: string]: ReportInfo };
 
 export interface EventInfo {
-    order: number;
     id: string;
     season: number;
     name: string;
@@ -16,5 +24,13 @@ export interface EventInfo {
     registrationEndDate: string | null;
     locationName: string;
     locationCity: string;
-    isVisible: boolean;
+}
+
+export interface ReportInfo {
+    id: string;
+    season: number;
+    name: string;
+    regionId: string | null;
+    districtId: string | null;
+    scope: string;
 }
