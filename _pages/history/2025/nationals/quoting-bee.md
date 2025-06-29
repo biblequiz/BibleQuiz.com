@@ -6,6 +6,8 @@ date: "2024-05-18"
 menubar: menu_tbq_nationals
 ---
 
+<a target="blank" href="https://docs.google.com/spreadsheets/d/1sKMV28qmsbxjpZFKbCBigNbLY5yieWlbSarKMHfvSGs/edit?gid=0#gid=0" class="button is-primary">Quizzer and Official Assignments</a>
+
 ## What is the Quoting Bee?
 
 The Quoting Bee is a Scripture-quoting competition similar to a Spelling Bee. Participants receive a verse reference and have 15 seconds to quote it perfectly. A correct quote advances to the next quizzer, with the round continuing until someone errors. But watch out: If no one gets eliminated after a few rounds, participants may have their time to answer reduced or they may have to quote multiple verses!
