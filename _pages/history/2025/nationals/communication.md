@@ -18,8 +18,8 @@ Communication at National Finals will be done through a free app called Discord.
 
 Discord is the platform where you will find the latest announcements and news throughout the week. Plus, it is also a great place to connect with the community by finding rides to/from the airport, setting up a time for fellowship in the lobbies, scheduling your team photos, and much more.
 
-Complete instructions on how to get setup and running with Discord is [available here]({% link _pages/discord.md %}).
-
 <a href="https://discord.gg/URCCZpp9q5" class="button is-primary">Join the Bible Quiz Discord Server</a>
+
+<a href="{% link _pages/history/2025/nationals/notifications.md %}" class="button is-primary">Set up notifications</a>
 
 For technical help, email [hello@BibleQuiz.com](mailto:hello@biblequiz.com).
