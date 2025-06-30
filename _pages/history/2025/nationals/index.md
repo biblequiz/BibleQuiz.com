@@ -8,6 +8,9 @@ menubar: menu_tbq_nationals
 
 ![]({% link _pages/history/2025/nationals/2025-tbq-nats-main.jpg %})
 
+<a href="https://biblequiz.com/live-events/?eventId=e2ff54dd-83dc-4232-ba9a-08dd9c940a67
+" class="button is-primary">Schedule and Stats</a>
+
 ## June 28, 2025 - July 4, 2025
 
 40 teams from 8 regions compete over the course of a week for the 2025 AG Teen Bible Quiz National Championship.
