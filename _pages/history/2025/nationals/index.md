@@ -66,8 +66,7 @@ Trinity Church, Cedar Hill, TX “One”
 Braeswood AG, Houston, TX “DKY”  
 Gateway Church, Midlothian, TX  
 Trinity Church, Cedar Hill, TX “Black”  
-Braeswood AG, Houston, TX “TBD”  
-Dayspring AG, Porter, TX
+Braeswood AG, Houston, TX “TBD”
 
 ### Northwest
 
