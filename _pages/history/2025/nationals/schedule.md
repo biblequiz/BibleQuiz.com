@@ -44,7 +44,7 @@ menubar: menu_tbq_nationals
       <tr><td>9:30 a.m.</td><td>Service <button class="button is-primary is-small is-static">12th floor</button></td></tr>
       <tr><td>11:15 a.m.</td><td>Quoting Bee</td></tr>
       <tr><td>12:00 p.m.</td><td>Senior Shoot-out</td></tr>
-      <tr><td>8:00 p.m.</td><td>Officials Assignment</td></tr>
+      <tr><td>8:00 p.m.</td><td>Officials Assignment <button class="button is-primary is-small is-static">12th floor</button></td></tr>
     </table>
   </div>
 
@@ -63,7 +63,7 @@ menubar: menu_tbq_nationals
       <tr><td>1:45 p.m.</td><td>Round 6</td></tr>
       <tr><td>2:30 p.m.</td><td>Round 7</td></tr>
       <tr><td>3:15 p.m.</td><td>Playoffs (if necessary)</td></tr>
-      <tr><td>8:00 p.m.</td><td>District BQ Coordinator Meeting</td></tr>
+      <tr><td>8:00 p.m.</td><td>District BQ Coordinator Meeting <button class="button is-primary is-small is-static">12th floor</button></td></tr>
     </table>
     <div class="box"> Bow-Tie Monday in honor of our dear friend, Kent Kloefkorn. Kent was the National Championship
 Coach in 2005 and the official writer for many years. He faithfully served on the Steering Committee for years and
@@ -88,7 +88,7 @@ Bothell, WA. His trademark was always wearing a Bowtie. So, wear your best Bowti
       <tr><td>2:30 p.m.</td><td>Round 7</td></tr>
       <tr><td>3:15 p.m.</td><td>Round 8</td></tr>
       <tr><td>4:00 p.m.</td><td>Round 9</td></tr>
-      <tr><td>7:00-9:00 p.m.</td><td>Alumni Fellowship</td></tr>
+      <tr><td>7:00-9:00 p.m.</td><td>Alumni Fellowship <button class="button is-primary is-small is-static">12th floor</button></td></tr>
     </table>
   </div>
 
@@ -123,7 +123,7 @@ Bothell, WA. His trademark was always wearing a Bowtie. So, wear your best Bowti
       <tr><td>11:30 a.m.</td><td>Individual Tournament</td></tr>
       <tr><td>1:00 p.m.</td><td>Lunch</td></tr>
       <tr><td>1:30 p.m.</td><td>Finish Individual Tournament if needed, if not start Adult Quizzing</td></tr>
-      <tr><td>7:30 p.m.</td><td>Fellowship night (off-site)<br />(more information will be announced later)</td></tr>
+      <tr><td>7:30 p.m.</td><td>Fellowship night <button class="button is-primary is-small is-static">Off-site</button><br />(more information will be announced later)</td></tr>
     </table>
   </div>
 
