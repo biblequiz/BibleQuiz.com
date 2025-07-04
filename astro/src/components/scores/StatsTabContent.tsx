@@ -2,10 +2,9 @@ import { EventScoringReport, ScoringReportMeet } from "@types/EventScoringReport
 
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
-import CollapsibleSection from "@components/CollapsibleSection";
+import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
 import type { ScoringReportFootnote } from "@types/EventScoringReport";
 import type { EventScoresProps } from "@utils/Scores";
-import { formatLastUpdated } from "@utils/Scores";
 
 function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] | null, hasTie: boolean): JSX.Element {
     return (
@@ -39,12 +38,7 @@ export default function StatsTabContent({ event }: EventScoresProps) {
                 let hasTeamTie = false;
                 let hasQuizzerTie = false;
                 return (
-                    <CollapsibleSection
-                        key={`${meet.DatabaseId}_${meet.MeetId}`}
-                        pageId="stats"
-                        title={meet.Name}
-                        titleClass="text-xl"
-                        subtitle={`Last Updated: ${formatLastUpdated(meet)}`}>
+                    <CollapsableMeetSection meet={meet} pageId="stats">
 
                         <div className="columns is-mobile m-0">
                             <div className="column is-four-fifths">
@@ -180,7 +174,7 @@ export default function StatsTabContent({ event }: EventScoresProps) {
                                     </div>)}
                             </div>
                         </div>
-                    </CollapsibleSection>);
+                    </CollapsableMeetSection>);
             })}
         </>);
 };

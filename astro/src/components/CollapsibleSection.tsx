@@ -13,7 +13,7 @@ export default function CollapsibleSection({ pageId, title, titleClass, subtitle
             tabIndex={1}
             className="collapse collapse-arrow bg-base-100 border-base-300 border no-anchor-links"
         >
-            <input type="checkbox" id={pageId} className="peer" />
+            <input type="checkbox" name={pageId} className="peer" />
             <div className="collapse-title">
                 <p className={`font-semibold ${titleClass || "text-base"}`}>{title}</p>
                 {subtitle && <div className={`${subtitleClass || "subtitle italic text-sm"}`}>{subtitle}</div>}

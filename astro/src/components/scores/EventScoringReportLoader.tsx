@@ -10,11 +10,9 @@ interface Props {
     eventInfo: EventInfo;
 }
 
-function removeTabAndPanel(tabRadioElement: HTMLInputElement): void {
+function removeTabAndPanel(tabLinkElement: HTMLAnchorElement): void {
     // tabRadioElement.parentElement?.nextElementSibling?.remove();
-    // tabRadioElement.parentElement?.remove();
-
-    document.getElementById("scoreTabs")!.style.display = "";
+    tabLinkElement.parentElement?.remove();
 }
 
 export default function EventScoringReportLoader({ parentTabId, tabSyncKey, eventInfo }: Props) {
@@ -82,13 +80,13 @@ export default function EventScoringReportLoader({ parentTabId, tabSyncKey, even
             }
 
             if (!hasStats || !hasQStats) {
-                const tabLinks = parentTab.querySelectorAll(`label > input[role="tab"]`);
+                const tabLinks = parentTab.querySelectorAll(`li > a[role="tab"]`);
                 if (!hasQStats) {
-                    removeTabAndPanel(tabLinks[3] as HTMLInputElement);
+                    removeTabAndPanel(tabLinks[3] as HTMLAnchorElement);
                 }
 
                 if (!hasStats) {
-                    removeTabAndPanel(tabLinks[0] as HTMLInputElement);
+                    removeTabAndPanel(tabLinks[0] as HTMLAnchorElement);
                 }
             }
 
