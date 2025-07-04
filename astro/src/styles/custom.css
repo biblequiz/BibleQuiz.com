@@ -31,10 +31,19 @@
 
 /* Hides anchor links */
 .no-anchor-links .sl-anchor-link {
-  display: none;
+	display: none;
 }
 
 /* Fixes the integration of daisyus and Starlight */
 .sl-link-card .description {
 	margin-top: 16px;
+}
+
+/* Makes the scoring tables fit better. */
+@layer components {
+
+	.table-nowrap th,
+	.table-nowrap td {
+		@apply whitespace-nowrap;
+	}
 }

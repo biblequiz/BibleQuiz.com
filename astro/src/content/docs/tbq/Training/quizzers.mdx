@@ -8,11 +8,11 @@ sidebar:
   label: "Quizzers"
   order: -60
 ---
-import CollapsableSection from '@components/CollapsableSection.astro';
+import CollapsibleSection from '@components/CollapsibleSection';
 
 ## Getting Started
 
-<CollapsableSection title="How do I memorize?">
+<CollapsibleSection pageId="quizzers" title="How do I memorize?">
   Opening a Scripture Portion and seeing hundreds of verses that you must memorize can seem quite terrifying to a beginning quizzer. As with anything you do in life, if you break it up into little pieces, you'll be stunned at how much you have done by the end of the quiz year. Fortunately, the Bible is already divided into chapters, sections and verses. We'll start by looking at 1 Corinthians Chapter 1, but first I should discuss where you should memorize. There is no good answer to this question. Some quizzers can memorize while sitting completely still. Personally, I always needed to pace. The need to pace and the fact that there were too many distractions at home, led me to do much of my memorizing work at my church. You could also walk around your neighborhood and do it. What a better opportunity to run into someone and tell them what you're doing!
 
   Chapter 1 starts with the standard "Greetings and Salutations" that are common to Paul's epistles. Keep in mind that in the introductory remarks for questions, this will typically be referred to as "The Untitled Section of First Corinthians". The best way to memorize is by section, so typically you should divide the section into manageable chunks. Start with verse one. Read it, then try to recite it without looking. Check the portion to make sure you are saying it right. Remember, you want to be as accurate as possible, so don't ignore "little" mistakes. If you hit a quotation question on that verse, you don't want to lose the points because you didn't spend the extra time to get it right at the beginning. If you memorize the first verse with a mistake, then don't notice the mistake until several months later, it becomes much harder to fix, so take the time at the beginning. Now, repeat the verse five times (the exact number of times you repeat it is irrelevant). You want to have it down so well that if you were to play a video game for 30 minutes, at the end, you could immediately recall exactly how the verse goes (of course, I'm not recommending playing video games while you memorize). Go to the second verse and repeat. Once you have it down, recite verses 1 and 2 together three times (again, the exact number is irrelevant). Since many questions provide you a reference, you also want to learn the references while you're doing this. The way most quizzers do this is to say "1" just before quoting verse 1, then "2" just before quoting verse 2. Don't worry about getting yourself into the habit of saying these, because even if you give the verse reference when you answer a quotation question, provided it's accurate, you cannot be counted wrong. Repeat the whole process with verse 3, then say the entire section until you have it down well. I'll discuss this more later, but you should also take note of "analysis" items. By "analysis", I mean people, places, questions, exclamations, parenthetical statements and Old Testament Scriptures. Some might also put "statements" in here. By that, I mean "Do not" commands, "I tell you the truth" statements and the like. Keep in mind that the rules do not acknowledge these as analysis items, nor does the chapter analysis. This section has two individuals and one geographical location. A question writer could ask for either of these by verse or by section. On top of learning analysis for a verse or section, you will also have to learn it by chapter and eventually by book.
@@ -26,11 +26,11 @@ import CollapsableSection from '@components/CollapsableSection.astro';
   This looks like a lot to start off with, but keep in mind that this is not meant to be done in one sitting. If you start August 15, and memorize five verses a day, you'll be done around the New Year. Your coach should give you a rough schedule of what is expected of you, so you can work around that. For a beginning quizzer, there is such a thing as "burn out". This typically refers to when a quizzers starts memorizing the material as soon as district finals (or regionals or nationals) is over. They have about six months to memorize the material for the first league meet, but by the time the second league meet comes around, their lack of experience comes into play. Many quizzers who memorize large chunks of the material early, end up getting far behind and not finishing out the season. Don't let that be you. I would say the earliest that you should start is mid-July and you should pace yourself to be done around late January. It's not the end of the world if you finish later than that, but keep in mind that that's when most of the top quizzers will be finishing. If you push yourself to finish earlier, you run the risk of being "sick" of having to quote it all every week by the time official competition rolls around. My senior year, I was very motivated to win nationals and had the material done by early December. The only reason I didn't burn out was because I wanted to win so badly and I had the experience to know how to approach it.
 
   By the time you finish the last verse, you'll look back and be astonished at how much you have done. This material will never leave you. Not only have you learned valuable techniques for memorizing things (the bones in the human body, the periodic table of elements, etc) but you've also hidden God's word in your heart and that never returns void. Sure, you may forget the exact wording of a verse, but the general ideas make it into your subconscious. As an adult, you'll be shocked at how quickly you can recall verses that you memorized ten years ago.
-</CollapsableSection>
+</CollapsibleSection>
 
 ## Understanding Questions
 
-<CollapsableSection title="Types of questions">
+<CollapsibleSection pageId="quizzers" title="Types of questions">
   This question has many answers, depending on who is writing the questions and what the level of competition is. Let's look at First Corinthians 1:1.
 
   > Paul, called to be an apostle of Christ Jesus by the will of God, and our brother Sosthenes
@@ -50,9 +50,9 @@ import CollapsableSection from '@components/CollapsableSection.astro';
   There are others that can be written and you should try to write them yourself. See how many questions you can write for 1 Corinthians 1:2. The more questions you hear in practice, the better you will be at writing your own questions.
 
   There are many more types of questions that are more advanced and you may eventually want to start learning.
-</CollapsableSection>
+</CollapsibleSection>
 
-<CollapsableSection title="What do all the introductory remarks mean?">
+<CollapsibleSection pageId="quizzers" title="What do all the introductory remarks mean?">
   There are several types of introductory remarks. First, you have locators. This will narrow down the question and answer to a specific section, chapter or book. Second, you have "question" modifiers. These tell you what kind of question is going to be asked. Third, you have "answer" modifiers. These tell you how you have to give your answer.
 
   Question modifiers
@@ -162,25 +162,37 @@ import CollapsableSection from '@components/CollapsableSection.astro';
   Here, the answer would be the end of verse 4 and all of verses 5 and 6.
 
   The trickiest thing is to see what happens when you mix and match. For instance, see if you can find a question that might be labeled "Two Part Reference Question. Give Four Complete Answers."
-</CollapsableSection>
+</CollapsibleSection>
 
-<CollapsableSection title="TODO">
-  TODO
-</CollapsableSection>
+<CollapsibleSection pageId="quizzers" title="Question difficulty from Leagues to Nationals">
+  Most modern writers have a set word-limit for 10 point answers. You can quickly determine this by looking at their practice sets. Typically answers are no more than ten words. This does not mean that any answer with fewer words MUST be a 10. Some of the hardest question have five-word answer. It just so happens that those five words come from all over the book. The difficulty of 10's usually does not change depending on the competition. 10's at leagues could just as easily be asked at nationals. 20's and 30's are different depending on where you are.
 
-- [](types-of-questions)
-- [](introductory-remarks)
-- [Question difficulty from Leagues to Nationals](question-difficulty)
+  ### League Competitions
+
+  20's are typically limited to one verse. The exception would be simple analysis question, such as naming three people from a section. There is an upper limit to what most writers will ask at leagues, but it varies from writer to writer. 30's usually are limited to either one-verse answers for long verses, or maybe two-verse answers. Again, analysis items are fair-game at leagues. Concordance questions are fairly rare at leagues.
+
+  ### District Finals
+
+  20's are now what 30's were at leagues. 30's are usually at least two-verse answers, but probably not more than three. Larger analysis questions might be asked. Some concordance questions might be possible here, but typically they should be reserved to things that are "obvious". By that, I mean that you should be able to answer the question even if you haven't studied every concordance item.
+
+  ### Regional Finals
+
+  20's can now be two-verse answers. You also might see medium-size analysis and small, district level concordance being asked. 30's take a step up. Three verses is typical and four would not be unheard of. Concordance questions asking you to quote three verses are not unheard of. Listing chapters in which someone is name is also fair game. To answer these 30's, you will usually need to do separate study of the concordance. At this point, all but the longest analysis items are fair game.
+
+  ### National Finals
+
+  20's are somewhere around what the easier 30's were at regionals. However, they are not guaranteed to be that long. You might still see a district level 20 being asked. 30's are a step up from what they were at regionals. Any chunk of material that is answerable in 30 seconds while speaking at a reasonable speed can be asked. The upper limit on verses is undefined, mainly because sometimes these consecutive verses are short. Over Luke, there was an eleven-verse answer, but the verses were short. Four-verse answers might be a 30 if the verses are long. All analysis is fair-game here as is all concordance. Over gospels, some writers will tend to focus on major themes since the material is already a bit of an obstacle for quizzers. Over epistles, since the material is short, a wider variety of questions are asked. See the section for advanced quizzers to learn how to study for these harder concordance questions.
+</CollapsibleSection>
 
 ## Studying
 
-<CollapsableSection title="What else should I be studying?">
+<CollapsibleSection pageId="quizzers" title="What else should I be studying?">
   By now you've hopefully been to a few league meets and have seen the types of questions that are asked. Beyond simply learning the material, you might also want to start learning section/chapter analysis and concordance. You will have to do the section analysis yourself, but the chapter analysis is contained in between the portion and concordance. It is very important to look at this first to determine what is considered an analysis item and what isn't. In the portion text, individuals appear in bold, geographical locations appear in italics and Old Testament Scriptures are underlined. Compound individuals and geographical locations are also underlined. You will not have to worry about these in Corinthians as there are none. Occasionally, mistakes are made by those who typeset the portion or write the chapter analysis. The general rule of thumb is that in those cases, you go with what the book says. In extreme situations, corrections are issued, usually on the Bible Quiz websites. Two questions that often come up here are "Jesus" and "Israel". In gospels, Jesus is considered an individual, however in epistles, Jesus is considered deity and is not bolded. He is also usually considered a deity in Acts. Whether he is in the first eleven verses of Acts or not is usually decided each time we quiz over Acts. With "Israel", sometimes it refers to Jacob, sometimes it refers to the country and sometimes it refers to a race of people. Sometimes it actually refers to more than one of these. Another reason you should read the chapter analysis in the back is to learn what exactly is considered a question or exclamation. Again, there has never been a set rule for how we deal with colons in the text. Sometimes the words before the colon are included and sometimes they are not, so check the chapter analysis to be sure.
 
   If you've been to a few tournaments, you've probably also heard "cross-reference" or concordance questions. These are questions where the answers come from non-consecutive verses, possibly from across the entire material. These are some of the hardest questions to answer and it takes an enormous amount of effort to memorize answers for them. We'll discuss these in more detail in the section for advanced quizzers, but for now, when you review the material each week by quoting it, try to make parallels in your mind. For instance, you might have noticed that in 1 Cor 1, it speaks of the household of Chloe and also of the household of Stephanas. Make a special note of that as you might be asked to give those two verses, or even to answer whose households are mentioned. Once you notice something like this, you should always look the word up in the concordance. In this case, the household of Stephanas is also mentioned in 1 Cor 16:15. A writer could ask you to give the two verses which mention Stephanas' household, or he could also ask to give all three verses, usually as a two-part reference quotation quotation. You should not limit your concordance search to the word "household". Notice that just above the word "house" also appears. 1 Cor 16:19 speaks of the house of Aquila and Priscilla and 2 Cor 5:1 speaks of an eternal house (used to signify heaven). You could also look at the words "home" or "house".
-</CollapsableSection>
+</CollapsibleSection>
 
-<CollapsableSection title="Quoting by reference">
+<CollapsibleSection pageId="quizzers" title="Quoting by reference">
   After you have finished memorizing word-for-word a set of about 10 verses, one way of learning references is to do the following.
 
   1. If you have not already, purchase the quote cards from the Gospel Publishing House.
@@ -213,9 +225,9 @@ import CollapsableSection from '@components/CollapsableSection.astro';
   15. Combine and learn the references for verses 1 - 80.
 
   Remember, the more you follow this pattern, the faster you will become at naturally finding verses by their reference and quoting them. So after you have done this for a while, decrease the amount of time you give yourself to find and quote a verse. The faster you can find the verse, the better you know the Scripture you are studying, and the more time you have to think of the question and give the answer.
-</CollapsableSection>
+</CollapsibleSection>
 
-<CollapsableSection title="Studying the concordance">
+<CollapsibleSection pageId="quizzers" title="Studying the concordance">
   Studying the concordance is a very unique way of studying the Scripture. In quiz, there is a way to do it, and a way not to. In this lesson you will learn how to effectively study the concordance so that you can both do well at quiz, and learn the Word of God in a deeper and more meaningful way.
 
   First, I must point out that studying the concordance is usually reserved until after the material has been mastered and the quizzer can quote the required material word perfect, with references, and knowing the chapter analysis.
@@ -259,17 +271,17 @@ import CollapsableSection from '@components/CollapsableSection.astro';
   These are the things you have to do to achieve the status you want or to obtain the abilities you desire.
 
   How far do you want to go? How good do you want to be? That depends on how much you want to study.
-</CollapsableSection>
+</CollapsibleSection>
 
-<CollapsableSection title="Remembering what you've learned">
+<CollapsibleSection pageId="quizzers" title="Remembering what you've learned">
   You retain the material by constantly reviewing it. My coach taught me about what is meant by "rote memory". If you ask any teenager who grew up in church what John 3:16 is, most can say it right away. In fact, even though I've been through two quiz years on John in NIV, I can still do it, without thought, in KJV. This is because I said it so many times as a young kid that it's permanently in my mind. That's the way you want the quiz material to be stored in your memory. Not only will this help you with your quizzing, but it also ensures that the Word will always stay with you.
 
   The basic rule of thumb for retaining material is to quote everything you know, to someone else, at least once a week. As competition nears, you should probably step that up. Teams preparing for nationals will probably be quoting the entire material every day, on top of reviewing analysis and concordance. Think of it this way. You work hard to store the material in your memory and when a question comes up that tests your knowledge, you want to be able to earn the points. The longer it's been since you reviewed it, the more likely you will miss a question that you could've answered at one time.
-</CollapsableSection>
+</CollapsibleSection>
 
 ## Interrupting, Completing, and Answering Questions
 
-<CollapsableSection title="How do I interrupt questions?">
+<CollapsibleSection pageId="quizzers" title="How do I interrupt questions?">
   Interrupting questions is one of the biggest challenges for new quizzers. Unlike JBQ, you no longer have a list of the questions to be asked. The best way to learn how to interrupt questions is to listen to questions. Some writers have specific patterns they use. In general, questions are written today so as not to make it difficult to finish the question if you choose to interrupt it in a good spot. Some quizzers learn techniques such as "Hit on the second word" for certain types of questions. If that's the pattern the writer uses then you can take advantage of that, but the real rule should always be "Hit the question when you know how to finish it". Eventually, you learn to anticipate keywords, but to start off with, just hit where you have an idea of how to finish the question.
 
   Before getting to specific techniques, there are four guidelines that you must always follow when completing an interrupted question.
@@ -313,20 +325,20 @@ import CollapsableSection from '@components/CollapsableSection.astro';
   Ignore for the moment that there are two mentions of the word "household" in chapter 1. The answer to this question comes from 1 Corinthians 1:11, but how are you to know whether the question is "Whose household is mentioned?" or "Whose household informed Paul that there were quarrels among the Corinthians?" Those are NOT the same basic question. The way that good quizzers get around this is to complete the question "is mentioned that is also the same household that informed Paul that there were quarrels among the Corinthians?" Here, no matter what the question is, you are correct. Everything in your question is correct information, so in the worst case scenario, you can contest that you are still correct. However, most quizmasters know the material well enough to rule you correct right away, and even those who don't will look it up in their Scripture Portions. The more information you throw into your question the better.
 
   Practice makes perfect when it comes to interrupting and completing. When you are in practice and someone hits a question in a good spot and completes it, ask them how they did it. If you have an experienced coach, ask him to stop reading at the point where he thinks the question can be completed.
-</CollapsableSection>
+</CollapsibleSection>
 
-<CollapsableSection title="How do I learn to quote fast?">
+<CollapsibleSection pageId="quizzers" title="How do I learn to quote fast?">
   Any quizzer who has ever been to a national-level tournament or in a league with national-level quizzers has seen quizzers quote fast before. Some do it well and some do it quite poorly. The most important this is to know your limitations. The rules state that you are wrong if you fail to speak loudly and clearly. There is some obligation on the judges to be able to follow you, but there is a reasonable limit to what can be expected. If you don't have a lot of experience speaking fast, if you immediately try to quote as fast as the best fast quoters you have heard, you will likely be slurring words together all over the place. To give you an example of the difference between clean-fast and slurry-fast, take your favorite Mp3 song (or maybe the latest Bible Quiz Podcast) and open it up in Windows Media Player (sorry Mac users). If you scroll through the advanced options you will find that you can double the speed of the conversation. You might start by just increasing to 1.4 times speed. Now open the same Mp3 in Quicktime player and find the option to increase the speed. You should notice a difference. The Quicktime one is harder to understand, right? This is because the algorithm used to speed up the Mp3 in the programs is different. That's exactly what it's like being a quizmaster and listen to a sloppy quoter.
 
   The danger of quoting fast is that when you review every week, you might be speaking so fast that your parent or coach who listens to you quote cannot distinguish between "a" and "the" and you might be quoting the verse wrong! The solution to learning to speak fast is exactly the same as the solution to fixing sloppy-fast quoting. Buy a microphone for your computer and record yourself quoting at your fastest rate. Now open the file in either Windows Media Player or Quicktime and slow it down by 50%. Follow along in your portion and see how many of the words you said are understandable. You might even discover that you're "ghosting" some words. Now slow yourself down until you can hear every single word when you slow the Mp3 down. Practice quoting at that speed over the next few weeks until you get used to it. Then, gradually, increase the speed. You should actually keep the Mp3s you record just so you can track your progress. You'll be pretty shocked by the difference.
 
   I would also recommend that you know when it's appropriate to know fast and when it isn't. First off, every once in a while, you should do a slow-quote when you quote to someone else. This is to make double-sure that you have everything down right. Second, in matches, you should not use your fastest speed when you are quoting one verse. You should only be quoting that fast when you need to. Six or seven verses is where you need to, in most cases. In some cases, if the six or seven verses are small, you don't need to go nearly as fast.
-</CollapsableSection>
+</CollapsibleSection>
 
 ## Rules and Contesting
 
-<CollapsableSection title="How do I know when to contest a ruling?">
+<CollapsibleSection pageId="quizzers" title="How do I know when to contest a ruling?">
   The better you know the material, the better you will know when to contest a ruling or contest validity. You should also know the rules fairly well. When another team is answering the question, you should never tune out. Pretend that you are the quizmaster and follow their answer against what you have memorized. Listen to the question and try to decide if it violates one of the rules for interrupted questions. In this regard, you do not have the benefit of seeing what the actual question is, however the rule of thumb is that when the quizmaster rules a quizzer correct, their question is effectively the official question. This means that if there is some difference between the completion and the question on their page, the quizmaster and/or judges have made the decision that it is the "same basic question". Also, listen to their answer, making note of any differences between what the quizzer says and what the Scripture says. At the end make a ruling in your mind. If the quizmaster rules differently, you should consider a contest. Watch to see if the quizmaster and/or judges circle or write anything on their page. If they do, you know there is some difference. This can be your hint that there might be something to contest. If a quizmaster goes to the judges this means that there is something iffy and you should also consider contesting.
 
   All of this must be mitigated by the fact that some decisions are simply judgment calls. Some quizmasters go to the judges any time they think there might be something that makes a quote wrong. Judges make a split-second decision as to whether it is correct or incorrect. It is usually rare for a team to contest a ruling on a quote and get it overturned. The only instance in which I have seen this happen is when the judges have actually made a genuine mistake, either by forgetting it was a quote or not knowing the rules well enough. For many other issues it is a complete judgment call. By this, I mean that there is no black & white ruling available and that if you were to present the contest in 100 quiz rooms, 50 would accept and 50 would deny. You should also keep in mind that when a quizmaster and/or judges make a ruling, they are going from the limited information that the question writer has provided on their page. Most officials have not memorized the material therefore do not know if a quizzer came from a "different" verse when the answer is a complete answer.
-</CollapsableSection>
+</CollapsibleSection>

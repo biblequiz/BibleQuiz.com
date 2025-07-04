@@ -206,6 +206,12 @@ export class ScoringReportMeet {
      * Value indicating whether to include the ScoringReportQuizzer.YearsQuizzing column.
      */
     public readonly ShowYearsQuizzing!: boolean;
+
+    /**
+     * Value indicating whether this is a combined report based on multiple meets or if it was an
+     * actual competition.
+     */
+    public readonly IsCombinedReport!: boolean;
 }
 
 /**
