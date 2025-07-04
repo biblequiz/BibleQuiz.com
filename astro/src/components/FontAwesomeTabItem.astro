@@ -1,24 +1,19 @@
 ---
+import { TabItemTagname } from "./rehype-tabs";
+
 interface Props {
-    syncKey: string;
+    icon?: string;
     label: string;
-    icon: string;
     padding?: number;
-    defaultChecked?: boolean;
 }
 
-const { syncKey, label, icon, padding, defaultChecked } = Astro.props as Props;
+const { label, icon, padding } = Astro.props as Props;
 
-import FontAwesomeIcon from "./FontAwesomeIcon.tsx";
+if (!label) {
+    throw new Error("Missing prop `label` on `<TabItem>` component.");
+}
 ---
 
-<fontawesome-tab-item>
-    <label class="tab mt-4">
-        <input type="radio" role="tab" checked={defaultChecked} />
-        <FontAwesomeIcon icon={icon} />&nbsp;
-        {label}
-    </label>
-    <div class={`tab-content bg-base-100 border-base-300 p-${padding || 6}`}>
-        <slot />
-    </div>
-</fontawesome-tab-item>
+<TabItemTagname data-label={label} data-icon={icon} data-padding={padding}>
+    <slot />
+</TabItemTagname>

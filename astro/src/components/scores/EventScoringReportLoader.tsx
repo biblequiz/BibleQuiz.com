@@ -11,8 +11,10 @@ interface Props {
 }
 
 function removeTabAndPanel(tabRadioElement: HTMLInputElement): void {
-    tabRadioElement.parentElement?.nextElementSibling?.remove();
-    tabRadioElement.parentElement?.remove();
+    // tabRadioElement.parentElement?.nextElementSibling?.remove();
+    // tabRadioElement.parentElement?.remove();
+
+    document.getElementById("scoreTabs")!.style.display = "";
 }
 
 export default function EventScoringReportLoader({ parentTabId, tabSyncKey, eventInfo }: Props) {
