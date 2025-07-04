@@ -18,7 +18,7 @@ export default function CollapsibleSection({ pageId, title, titleClass, subtitle
                 <p className={`font-semibold ${titleClass || "text-base"}`}>{title}</p>
                 {subtitle && <div className={`${subtitleClass || "subtitle italic text-sm"}`}>{subtitle}</div>}
             </div>
-            <div className="collapse-content text-sm">{children}</div>
+            <div className="collapse-content text-sm overflow-x-auto">{children}</div>
         </div >
     );
 }
