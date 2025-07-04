@@ -1,5 +1,8 @@
+import FontAwesomeIcon from "@components/FontAwesomeIcon";
+
 interface Props {
     pageId: string;
+    icon?: string;
     title: string;
     titleClass?: string;
     subtitle?: string;
@@ -7,7 +10,7 @@ interface Props {
     children?: React.ReactNode;
 };
 
-export default function CollapsibleSection({ pageId, title, titleClass, subtitle, subtitleClass, children }: Props) {
+export default function CollapsibleSection({ pageId, icon, title, titleClass, subtitle, subtitleClass, children }: Props) {
     return (
         <div
             tabIndex={1}
@@ -15,7 +18,10 @@ export default function CollapsibleSection({ pageId, title, titleClass, subtitle
         >
             <input type="checkbox" name={pageId} className="peer" />
             <div className="collapse-title">
-                <p className={`font-semibold ${titleClass || "text-base"}`}>{title}</p>
+                <p className={`font-semibold ${titleClass || "text-base"}`}>
+                    {icon && (<><FontAwesomeIcon icon={icon} />&nbsp;</>)}
+                    {title}
+                </p>
                 {subtitle && <div className={`${subtitleClass || "subtitle italic text-sm"}`}>{subtitle}</div>}
             </div>
             <div className="collapse-content text-sm overflow-x-auto">{children}</div>
