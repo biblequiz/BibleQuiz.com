@@ -6,22 +6,18 @@ import { sharedEventScoringReportState } from "@utils/SharedState";
 
 interface Props {
     parentTabId: string;
+    tabSyncKey: string;
     eventInfo: EventInfo;
 }
 
-function removeTabAndPanel(linkElement: HTMLAnchorElement): void {
-    
-    // Remove the parent tab.
-    linkElement.parentElement?.remove();
-
-    // Remove the panel.
-    document.getElementById(linkElement.href.substring(1))?.remove();
+function removeTabAndPanel(tabRadioElement: HTMLInputElement): void {
+    tabRadioElement.parentElement?.nextElementSibling?.remove();
+    tabRadioElement.parentElement?.remove();
 }
 
-export default function EventScoringReportLoader({ parentTabId, eventInfo }: Props) {
+export default function EventScoringReportLoader({ parentTabId, tabSyncKey, eventInfo }: Props) {
 
     const reportState = useStore(sharedEventScoringReportState);
-
     useEffect(() => {
         // If the report is not already loaded, fetch it in the background
         if (!reportState) {
@@ -84,13 +80,13 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo }: Pro
             }
 
             if (!hasStats || !hasQStats) {
-                const tabLinks = parentTab.querySelectorAll('a[role="tab"]');
+                const tabLinks = parentTab.querySelectorAll(`label > input[role="tab"]`);
                 if (!hasQStats) {
-                    removeTabAndPanel(tabLinks[3] as HTMLAnchorElement);
+                    removeTabAndPanel(tabLinks[3] as HTMLInputElement);
                 }
 
                 if (!hasStats) {
-                    removeTabAndPanel(tabLinks[0] as HTMLAnchorElement);
+                    removeTabAndPanel(tabLinks[0] as HTMLInputElement);
                 }
             }
 

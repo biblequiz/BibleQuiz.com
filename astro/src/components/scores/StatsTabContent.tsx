@@ -2,13 +2,30 @@ import { EventScoringReport, ScoringReportMeet } from "@types/EventScoringReport
 
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
-import FontAwesomeIcon from "@components/FontAwesomeIcon";
 import CollapsibleSection from "@components/CollapsibleSection";
 import type { ScoringReportFootnote } from "@types/EventScoringReport";
 import type { EventScoresProps } from "@utils/Scores";
 import { formatLastUpdated } from "@utils/Scores";
 
-export function StatsTabItem({ event }: EventScoresProps) {
+function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] | null, hasTie: boolean): JSX.Element {
+    return (
+        <>
+            {footnotes && footnotes.length > 0 && (
+                <div>
+                    {footnotes.map((footnote: ScoringReportFootnote, index: number) => (
+                        <div key={`${keyPrefix}_${index}`}>
+                            {index > 0 && (<br />)}
+                            {footnote.Symbol.trim()} {footnote.Text}
+                        </div>))}
+                </div>)}
+            {hasTie && (
+                <div>
+                    <i>* Tie couldn't be broken by tie breaking rules.</i>
+                </div>)}
+        </>);
+}
+
+export default function StatsTabContent({ event }: EventScoresProps) {
 
     event ??= useStore(sharedEventScoringReportState)?.report;
     if (!event) {
@@ -92,18 +109,7 @@ export function StatsTabItem({ event }: EventScoresProps) {
                                                     })}
                                                 </tbody>
                                             </table>
-                                            {meet.TeamFootnotes && meet.TeamFootnotes.length > 0 && (
-                                                <div>
-                                                    {meet.TeamFootnotes.map((footnote: ScoringReportFootnote, index: number) => (
-                                                        <>
-                                                            {index > 0 && (<br />)}
-                                                            {footnote.Symbol.trim()} {footnote.Text}
-                                                        </>))}
-                                                </div>)}
-                                            {hasTeamTie && (
-                                                <div>
-                                                    <i>* Tie couldn't be broken by tie breaking rules.</i>
-                                                </div>)}
+                                            {formatFootnotes(`${meet.DatabaseId}_${meet.MeetId}_teamfoot`, meet.TeamFootnotes, hasTeamTie)}
                                         </div>
                                     </div>)}
                                 {meet.RankedQuizzers && (
@@ -169,18 +175,7 @@ export function StatsTabItem({ event }: EventScoresProps) {
                                                     })}
                                                 </tbody>
                                             </table>
-                                            {meet.TeamFootnotes && meet.TeamFootnotes.length > 0 && (
-                                                <div>
-                                                    {meet.TeamFootnotes.map((footnote: ScoringReportFootnote, index: number) => (
-                                                        <>
-                                                            {index > 0 && (<br />)}
-                                                            {footnote.Symbol.trim()} {footnote.Text}
-                                                        </>))}
-                                                </div>)}
-                                            {hasQuizzerTie && (
-                                                <div>
-                                                    <i>* Tie couldn't be broken by tie breaking rules.</i>
-                                                </div>)}
+                                            {formatFootnotes(`${meet.DatabaseId}_${meet.MeetId}_quizzerfoot`, meet.QuizzerFootnotes, hasQuizzerTie)}
                                         </div>
                                     </div>)}
                             </div>

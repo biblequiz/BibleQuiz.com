@@ -4,9 +4,10 @@ import { Tabs, TabItem, LinkButton } from "@astrojs/starlight/components";
 
 import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
 import QRCodeImage from "@components/QRCodeImage.astro";
-import { StatsTabItem } from "@components/scores/EventScoresTabItem";
+import StatsTabContent from "@components/scores/StatsTabContent";
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
-import FontAwesomeIcon from "@components/FontAwesomeIcon";
+import FontAwesomeTabItem from "@components/FontAwesomeTabItem.astro";
+import FontAwesomeTabItemContainer from "@components/FontAwesomeTabItemContainer.astro";
 
 import regions from "@data/regions.json";
 import districts from "@data/districts.json";
@@ -181,42 +182,93 @@ if (event) {
             <EventScoringReportLoader
                 eventInfo={eventInfo}
                 parentTabId="scoreTabs"
+                tabSyncKey={`scores-${eventInfo.id}`}
                 client:only="react"
             />
         )
     }
     <div id="scoreTabs" style={initialScoresTabStyle}>
-        <Tabs syncKey={`scores-${eventInfo.id}`}>
-            {
-                hasStatsTab && (
-                    <TabItem label="Stats" icon="star">
-                        {event && (
-                            <StatsTabItem
-                                eventId={eventInfo.id}
-                                event={event}
-                            />
-                        )}
-                        {!event && (
-                            <StatsTabItem
-                                eventId={eventInfo.id}
-                                client:only="react"
-                            />
-                        )}
-                    </TabItem>
-                )
-            }
-            <TabItem label="Schedule" icon="puzzle"> Schedule Content </TabItem>
-            <TabItem label="Coordinator" icon="open-book">
+        <FontAwesomeTabItemContainer syncKey={`scores-${eventInfo.id}`}>
+            <FontAwesomeTabItem
+                syncKey={`scores-${eventInfo.id}`}
+                key={`scores-${eventInfo.id}-stats`}
+                label="Stats"
+                icon="fas faTrophy"
+                defaultChecked={true}
+            >
+                {
+                    event && (
+                        <StatsTabContent eventId={eventInfo.id} event={event} />
+                    )
+                }
+                {
+                    !event && (
+                        <StatsTabContent
+                            eventId={eventInfo.id}
+                            client:only="react"
+                        />
+                    )
+                }
+            </FontAwesomeTabItem>
+            <FontAwesomeTabItem
+                syncKey={`scores-${eventInfo.id}`}
+                key={`scores-${eventInfo.id}-schedule`}
+                label="Schedules"
+                icon="fas faCalendarAlt"
+                padding="2"
+            >
+                <FontAwesomeTabItemContainer
+                    syncKey={`scores-${eventInfo.id}-schedule`}
+                >
+                    <FontAwesomeTabItem
+                        syncKey={`scores-${eventInfo.id}-schedule`}
+                        icon="fas faUsers"
+                        label="Team Schedule"
+                    >
+                        Team Schedule Content
+                    </FontAwesomeTabItem>
+                    <FontAwesomeTabItem
+                        syncKey={`scores-${eventInfo.id}-schedule`}
+                        icon="fas faDoorOpen"
+                        label="Room Schedule"
+                    >
+                        Room Schedule Content
+                    </FontAwesomeTabItem>
+                    <FontAwesomeTabItem
+                        syncKey={`scores-${eventInfo.id}-schedule`}
+                        icon="fas faBorderAll"
+                        label="Schedule Grid"
+                    >
+                        Schedule Grid Content
+                    </FontAwesomeTabItem>
+                </FontAwesomeTabItemContainer>
+            </FontAwesomeTabItem>
+            <FontAwesomeTabItem
+                syncKey={`scores-${eventInfo.id}`}
+                key={`scores-${eventInfo.id}-coordinator`}
+                label="Coordinator"
+                icon="fas faThermometerHalf"
+            >
                 Coordinator Content
-            </TabItem>
+            </FontAwesomeTabItem>
             {
                 hasQStatsTab && (
-                    <TabItem label="Q Stats" icon="list-format">
+                    <FontAwesomeTabItem
+                        syncKey={`scores-${eventInfo.id}`}
+                        key={`scores-${eventInfo.id}-qstats`}
+                        label="Q Stats"
+                        icon="fas faChartBar"
+                    >
                         Question Stats Content
-                    </TabItem>
+                    </FontAwesomeTabItem>
                 )
             }
-            <TabItem label="QR" icon="seti:image">
+            <FontAwesomeTabItem
+                syncKey={`scores-${eventInfo.id}`}
+                key={`scores-${eventInfo.id}-qrcode`}
+                label="QR"
+                icon="fas faQrcode"
+            >
                 <QRCodeImage
                     url={`${Astro.url.origin}${Astro.url.pathname}`}
                     width={400}
@@ -225,7 +277,7 @@ if (event) {
                     downloadFileNameWithoutExtension={eventInfo.name}
                     cssClass="flex justify-center"
                 />
-            </TabItem>
-        </Tabs>
+            </FontAwesomeTabItem>
+        </FontAwesomeTabItemContainer>
     </div>
 </StarlightPage>

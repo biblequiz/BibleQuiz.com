@@ -13,10 +13,15 @@ interface Props {
 
 export default function FontAwesomeIcon(inputProps: Props) {
 
-    const iconSegments: string[] = inputProps.icon.split(" ");
+    const iconName: string = inputProps.icon;
+    if (!iconName) {
+        throw new Error("icon property not set.");
+    }
+
+    const iconSegments: string[] = iconName.split(" ");
     if (iconSegments.length !== 2) {
         throw new Error(
-            `Invalid icon format: ${inputProps.icon}. Expected format is "prefix iconName".`,
+            `Invalid icon format: ${iconName}. Expected format is "prefix iconName".`,
         );
     }
 

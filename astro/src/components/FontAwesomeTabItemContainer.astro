@@ -1,0 +1,13 @@
+---
+const panelHtml = await Astro.slots.render("default");
+
+interface Props {
+    syncKey: string;
+}
+
+const { syncKey } = Astro.props;
+---
+
+<div class="tabs tabs-lift">
+	<Fragment set:html={panelHtml} />
+</div>
