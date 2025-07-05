@@ -21,7 +21,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
 
                 const key = `coordinator_${meet.DatabaseId}_${meet.MeetId}`;
                 if (meet.IsCombinedReport) {
-                    return (<span key={key}></span>);
+                    return null;
                 }
 
                 // Determine the maximum number of matches.
@@ -37,7 +37,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                                 <tr>
                                     <th className="text-right">Room</th>
                                     {Array.from({ length: maxMatchId }, (_, m) => (
-                                        <th className="text-center min-w-48" key={`coordinator_${meet.DatabaseId}_${meet.MeetId}_matchheader_${m + 1}`}>
+                                        <th className="text-center min-w-48" key={`${key}_matchheader_${m + 1}`}>
                                             {m + 1}
                                         </th>))}
                                 </tr>
@@ -45,15 +45,16 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                             <tbody>
                                 {Array.from({ length: meet.Rooms.length }, (_, r) => {
                                     const room: ScoringReportRoom = meet.Rooms[r];
+                                    const roomKey = `${key}_room_${r}`;
                                     return (
-                                        <tr key={`coordinator_${meet.DatabaseId}_${meet.MeetId}_${r}_room`}>
+                                        <tr key={roomKey}>
                                             <td className="text-right">{room.Name}</td>
                                             {Array.from({ length: maxMatchId }, (_, m) => {
-                                                const key = `coordinator_${meet.DatabaseId}_${meet.MeetId}_${r}_match_${m + 1}`;
+                                                const matchKey = `${roomKey}_match_${m + 1}`;
                                                 if (m >= room.Matches.length) {
                                                     // This meet doesn't have more matches.
                                                     return (
-                                                        <td key={key}>
+                                                        <td key={matchKey}>
                                                             &nbsp;
                                                         </td>);
                                                 }
@@ -62,7 +63,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                                                 if (null == match) {
                                                     // This is a bye.
                                                     return (
-                                                        <td key={key}>
+                                                        <td key={matchKey}>
                                                             --
                                                         </td>);
                                                 }
@@ -92,7 +93,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                                                 }
 
                                                 return (
-                                                    <td key={key} className="text-center">
+                                                    <td key={matchKey} className="text-center">
                                                         <RoomLink label={`Match ${matchId} in ${room.Name} @ ${resolvedMeet.Name}`} eventId={event.Id} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={matchId} roomId={roomId}>
                                                             <FontAwesomeIcon icon={iconName} classes={iconClasses} />
                                                             {meet.HasLinkedMeets && (<>
