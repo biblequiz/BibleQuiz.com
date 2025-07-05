@@ -18,7 +18,7 @@ export default function RoomScheduleTabContent({ event }: EventScoresProps) {
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
                 return (
-                    <CollapsableMeetSection meet={meet} pageId="roomschedule">
+                    <CollapsableMeetSection meet={meet} pageId="roomschedule" key={`roomschedule_${meet.DatabaseId}_${meet.MeetId}`}>
                         Room Schedule Tab Content
                     </CollapsableMeetSection>);
             })}

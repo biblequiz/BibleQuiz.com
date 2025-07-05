@@ -18,7 +18,7 @@ export default function QStatsTabContent({ event }: EventScoresProps) {
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
                 return (
-                    <CollapsableMeetSection meet={meet} pageId="qstats">
+                    <CollapsableMeetSection meet={meet} pageId="qstats" key={`qstats_${meet.DatabaseId}_${meet.MeetId}`}>
                         QStats Tab Content
                     </CollapsableMeetSection>);
             })}

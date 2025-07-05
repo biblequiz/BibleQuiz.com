@@ -8,7 +8,7 @@ import * as SolidIcons from "@fortawesome/free-solid-svg-icons";
 
 interface Props {
     icon: string;
-    class?: string;
+    classes?: string[] | null;
 }
 
 export default function FontAwesomeIcon(inputProps: Props) {
@@ -57,9 +57,7 @@ export default function FontAwesomeIcon(inputProps: Props) {
         );
     }
 
-    const html = icon(resolvedIcon, {
-        classes: Array.from(new Set(inputProps.class?.split(" "))),
-    }).html;
+    const html = icon(resolvedIcon, { classes: inputProps.classes || [] }).html;
 
     return (
         <span

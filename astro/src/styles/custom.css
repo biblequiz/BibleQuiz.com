@@ -47,3 +47,12 @@
 		@apply whitespace-nowrap;
 	}
 }
+
+/* For some reason Tailwind's min-w-x doesn't work */
+.min-w-48 {
+	min-width: calc(var(--spacing) * 12);
+}
+
+.completed-match {
+	color: #009900;
+}

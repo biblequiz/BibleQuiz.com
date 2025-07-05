@@ -1,11 +1,14 @@
-import { EventScoringReport, ScoringReportMeet } from "@types/EventScoringReport";
+
+import { ScoringReportMeet, ScoringReportRoom } from "@types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
 import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
+import RoomLink from "@components/scores/RoomLink";
 import type { EventScoresProps } from "@utils/Scores";
+import FontAwesomeIcon from "../FontAwesomeIcon";
 
-export default function CoordinatorTabContent({ event }: EventScoresProps) {
+export default function CoordinatorTabContent({ eventId, event }: EventScoresProps) {
 
     event ??= useStore(sharedEventScoringReportState)?.report;
     if (!event) {
@@ -15,11 +18,96 @@ export default function CoordinatorTabContent({ event }: EventScoresProps) {
     return (
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
+
+                const key = `coordinator_${meet.DatabaseId}_${meet.MeetId}`;
+                if (meet.IsCombinedReport) {
+                    return (<span key={key}></span>);
+                }
+
+                // Determine the maximum number of matches.
+                let maxMatchId = 0;
+                for (let room of meet.Rooms) {
+                    maxMatchId = Math.max(maxMatchId, room.Matches.length);
+                }
+
                 return (
-                    <CollapsableMeetSection meet={meet} pageId="coodinator">
-                        Coordinator Tab Content
+                    <CollapsableMeetSection meet={meet} pageId="coodinator" key={key}>
+                        <table className="table table-s table-nowrap">
+                            <thead>
+                                <tr>
+                                    <th className="text-right">Room</th>
+                                    {Array.from({ length: maxMatchId }, (_, m) => (
+                                        <th className="text-center min-w-48" key={`coordinator_${meet.DatabaseId}_${meet.MeetId}_matchheader_${m + 1}`}>
+                                            {m + 1}
+                                        </th>))}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {Array.from({ length: meet.Rooms.length }, (_, r) => {
+                                    const room: ScoringReportRoom = meet.Rooms[r];
+                                    return (
+                                        <tr key={`coordinator_${meet.DatabaseId}_${meet.MeetId}_${r}_room`}>
+                                            <td className="text-right">{room.Name}</td>
+                                            {Array.from({ length: maxMatchId }, (_, m) => {
+                                                const key = `coordinator_${meet.DatabaseId}_${meet.MeetId}_${r}_match_${m + 1}`;
+                                                if (m >= room.Matches.length) {
+                                                    // This meet doesn't have more matches.
+                                                    return (
+                                                        <td key={key}>
+                                                            &nbsp;
+                                                        </td>);
+                                                }
+
+                                                const match = room.Matches[m];
+                                                if (null == match) {
+                                                    // This is a bye.
+                                                    return (
+                                                        <td key={key}>
+                                                            --
+                                                        </td>);
+                                                }
+
+                                                const resolvedMeet = !meet.HasLinkedMeets || null == match.LinkedMeet
+                                                    ? meet
+                                                    : event.Report.Meets[match.LinkedMeet];
+
+                                                const matchId = resolvedMeet.Matches[m].Id;
+                                                const roomId = resolvedMeet.Teams[match.Team1].Matches[m].RoomId;
+
+                                                let iconName: string;
+                                                let iconClasses: string[] = [];
+                                                switch (match.State) {
+                                                    case "InProgress":
+                                                        iconName = "fas faHourglassStart";
+                                                        iconClasses = [];
+                                                        break;
+                                                    case "Completed":
+                                                        iconName = "fas faCheckCircle";
+                                                        iconClasses = ["completed-match"];
+                                                        break;
+                                                    default: // Not Started
+                                                        iconName = "fas faSatelliteDish";
+                                                        iconClasses = [];
+                                                        break;
+                                                }
+
+                                                return (
+                                                    <td key={key} className="text-center">
+                                                        <RoomLink label={`Match ${matchId} in ${room.Name} @ ${resolvedMeet.Name}`} eventId={event.Id} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={matchId} roomId={roomId}>
+                                                            <FontAwesomeIcon icon={iconName} classes={iconClasses} />
+                                                            {meet.HasLinkedMeets && (<>
+                                                                <br />
+                                                                <i>{resolvedMeet.Name}</i>
+                                                            </>)}
+                                                        </RoomLink>
+                                                    </td>);
+                                            })}
+                                        </tr>);
+                                })}
+                            </tbody>
+                        </table>
                     </CollapsableMeetSection>);
             })}
         </>);
-};
+}
 

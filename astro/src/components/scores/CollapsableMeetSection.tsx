@@ -16,7 +16,6 @@ export default function CollapsableMeetSection({ pageId, meet, children }: Props
 
     return (
         <CollapsibleSection
-            key={`${pageId}_${meet.DatabaseId}_${meet.MeetId}`}
             pageId={pageId}
             icon={icon}
             title={meet.Name}

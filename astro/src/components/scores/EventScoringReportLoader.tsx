@@ -11,7 +11,6 @@ interface Props {
 }
 
 function removeTabAndPanel(tabLinkElement: HTMLAnchorElement): void {
-    // tabRadioElement.parentElement?.nextElementSibling?.remove();
     tabLinkElement.parentElement?.remove();
 }
 

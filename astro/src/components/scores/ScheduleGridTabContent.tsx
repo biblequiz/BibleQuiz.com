@@ -18,7 +18,7 @@ export default function ScheduleGridTabContent({ event }: EventScoresProps) {
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
                 return (
-                    <CollapsableMeetSection meet={meet} pageId="schedulegrid">
+                    <CollapsableMeetSection meet={meet} pageId="schedulegrid" key={`schedulegrid_${meet.DatabaseId}_${meet.MeetId}`}>
                         Schedule Grid Tab Content
                     </CollapsableMeetSection>);
             })}
