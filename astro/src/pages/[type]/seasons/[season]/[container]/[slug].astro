@@ -5,8 +5,7 @@ import { Tabs, TabItem, LinkButton } from "@astrojs/starlight/components";
 import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
 import QRCodeImage from "@components/QRCodeImage.astro";
 import StatsTabContent from "@components/scores/StatsTabContent";
-import TeamScheduleTabContent from "@components/scores/TeamScheduleTabContent";
-import RoomScheduleTabContent from "@components/scores/RoomScheduleTabContent";
+import TeamOrRoomScheduleTabContent from "@components/scores/TeamOrRoomScheduleTabContent";
 import ScheduleGridTabContent from "@components/scores/ScheduleGridTabContent";
 import CoordinatorTabContent from "@components/scores/CoordinatorTabContent";
 import QStatsTabContent from "@components/scores/QStatsTabContent";
@@ -233,7 +232,8 @@ if (event) {
                     >
                         {
                             event && (
-                                <TeamScheduleTabContent
+                                <TeamOrRoomScheduleTabContent
+                                    type="Team"
                                     eventId={eventInfo.id}
                                     event={event}
                                 />
@@ -241,7 +241,8 @@ if (event) {
                         }
                         {
                             !event && (
-                                <TeamScheduleTabContent
+                                <TeamOrRoomScheduleTabContent
+                                    type="Team"
                                     eventId={eventInfo.id}
                                     client:only="react"
                                 />
@@ -255,7 +256,8 @@ if (event) {
                     >
                         {
                             event && (
-                                <RoomScheduleTabContent
+                                <TeamOrRoomScheduleTabContent
+                                    type="Room"
                                     eventId={eventInfo.id}
                                     event={event}
                                 />
@@ -263,7 +265,8 @@ if (event) {
                         }
                         {
                             !event && (
-                                <RoomScheduleTabContent
+                                <TeamOrRoomScheduleTabContent
+                                    type="Room"
                                     eventId={eventInfo.id}
                                     client:only="react"
                                 />

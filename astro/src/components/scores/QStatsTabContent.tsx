@@ -73,7 +73,7 @@ export default function QStatsTabContent({ event }: EventScoresProps) {
                                                         <br />
                                                         <div>
                                                             {stats.Correct > 0 && (<span className="badge badge-soft badge-xs badge-primary">{stats.Correct}</span>)}
-                                                            {stats.Incorrect > 0 && (<span className="badge badge-soft badge-xs badge-danger">{stats.Incorrect}</span>)}
+                                                            {stats.Incorrect > 0 && (<span className="badge badge-soft badge-xs badge-error">{stats.Incorrect}</span>)}
                                                             {stats.NoResponse > 0 && (<span className="badge badge-soft badge-xs badge-caution">{stats.NoResponse}</span>)}
                                                         </div>
                                                     </td>);

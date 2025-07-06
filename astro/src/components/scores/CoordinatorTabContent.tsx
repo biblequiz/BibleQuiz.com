@@ -47,7 +47,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                                     const room: ScoringReportRoom = meet.Rooms[r];
                                     const roomKey = `${key}_room_${r}`;
                                     return (
-                                        <tr key={roomKey}>
+                                        <tr key={roomKey} className="hover:bg-base-300">
                                             <td className="text-right">{room.Name}</td>
                                             {Array.from({ length: maxMatchId }, (_, m) => {
                                                 const matchKey = `${roomKey}_match_${m + 1}`;
@@ -84,7 +84,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                                                         break;
                                                     case "Completed":
                                                         iconName = "fas faCheckCircle";
-                                                        iconClasses = ["completed-match"];
+                                                        iconClasses = ["completed-match-icon"];
                                                         break;
                                                     default: // Not Started
                                                         iconName = "fas faSatelliteDish";
@@ -94,12 +94,13 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
 
                                                 return (
                                                     <td key={matchKey} className="text-center">
-                                                        <RoomLink label={`Match ${matchId} in ${room.Name} @ ${resolvedMeet.Name}`} eventId={event.Id} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={matchId} roomId={roomId}>
+                                                        <RoomLink label={`Match ${matchId} in ${room.Name} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={matchId} roomId={roomId}>
                                                             <FontAwesomeIcon icon={iconName} classes={iconClasses} />
-                                                            {meet.HasLinkedMeets && (<>
-                                                                <br />
-                                                                <i>{resolvedMeet.Name}</i>
-                                                            </>)}
+                                                            {meet.HasLinkedMeets && (
+                                                                <>
+                                                                    <br />
+                                                                    <i>{resolvedMeet.Name}</i>
+                                                                </>)}
                                                         </RoomLink>
                                                     </td>);
                                             })}

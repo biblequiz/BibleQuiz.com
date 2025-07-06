@@ -24,7 +24,7 @@ export default function CollapsibleSection({ pageId, icon, title, titleClass, su
                 </p>
                 {subtitle && <div className={`${subtitleClass || "subtitle italic text-sm"}`}>{subtitle}</div>}
             </div>
-            <div className="collapse-content text-sm overflow-x-auto">{children}</div>
+            <div className="collapse-content text-sm overflow-x-auto mt-0">{children}</div>
         </div >
     );
 }

@@ -1,5 +1,7 @@
 /* Dark mode colors. */
 :root {
+    --sl-content-width: 100%;
+
 	--sl-color-accent-low: #142827;
 	--sl-color-accent: #267876;
 	--sl-color-accent-high: #b6cecd;
@@ -15,6 +17,8 @@
 
 /* Light mode colors. */
 :root[data-theme='light'] {
+    --sl-content-width: 100%;
+
 	--sl-color-accent-low: #c9dbda;
 	--sl-color-accent: #005958;
 	--sl-color-accent-high: #183838;
@@ -53,6 +57,24 @@
 	min-width: calc(var(--spacing) * 12);
 }
 
-.completed-match {
+.completed-match-icon {
 	color: #009900;
+}
+
+.schedule-grid-result-W {
+	color: blue;
+}
+
+.schedule-grid-result-L {
+	color: red;
+}
+
+.team-card-right-border {
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+/* List for the schedule page */
+ol.schedule-list {
+	list-style: decimal;
+    content: counter(list-item) ". ";
 }
