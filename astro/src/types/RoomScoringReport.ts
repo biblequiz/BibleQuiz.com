@@ -1,3 +1,5 @@
+import {MatchRules} from "./MatchRules";
+
 /**
  * Report of scores for a specific match in a specific room.
  */
@@ -101,6 +103,11 @@ export class RoomScoringReport {
      * Remaining point values for the match (if it isn't completed).
      */
     public readonly RemainingPoints!: Record<number, number>;
+
+    /**
+     * Rules for the match.
+     */
+    public readonly Rules!: MatchRules;
 
     /**
      * Timestamp when the database was last updated in such a way that it impacts scoring.

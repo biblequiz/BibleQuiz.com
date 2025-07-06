@@ -79,13 +79,48 @@ ol.schedule-list {
 	content: counter(list-item) ". ";
 }
 
+/* Styles for the point numbers */
+td.header-point-10 {
+	background-color: white;
+}
+
+td.header-point-20 {
+	background-color: yellow;
+}
+
+td.header-point-30 {
+	background-color: lightgreen;
+}
+
+td.header-point-default {
+	background-color: lightgray;
+}
+
 /* Styles for the live scoring */
 tr.red-room-score {
 	background-color: #FFC0CB;
 }
 
+tr.red-room-score-alt {
+	background-color: #FFFFFF;
+}
+
 tr.green-room-score {
 	background-color: #98FB98;
+}
+
+tr.green-room-score-alt {
+	background-color: #FFFFFF;
+}
+
+td.quiz-out {
+	background-color: blue;
+	color: white;
+}
+
+td.strike-out {
+	background-color: black;
+	color: white;
 }
 
 td.circle {
