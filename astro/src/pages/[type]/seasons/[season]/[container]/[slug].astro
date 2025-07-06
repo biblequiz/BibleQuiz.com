@@ -1,14 +1,14 @@
 ---
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
-import { Tabs, TabItem, LinkButton } from "@astrojs/starlight/components";
 
 import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
-import QRCodeImage from "@components/QRCodeImage.astro";
+import RoomDialog from "@components/scores/RoomDialog.astro";
 import StatsTabContent from "@components/scores/StatsTabContent";
-import TeamOrRoomScheduleTabContent from "@components/scores/TeamOrRoomScheduleTabContent";
-import ScheduleGridTabContent from "@components/scores/ScheduleGridTabContent";
 import CoordinatorTabContent from "@components/scores/CoordinatorTabContent";
+import QRCodeImage from "@components/QRCodeImage.astro";
 import QStatsTabContent from "@components/scores/QStatsTabContent";
+import ScheduleGridTabContent from "@components/scores/ScheduleGridTabContent";
+import TeamOrRoomScheduleTabContent from "@components/scores/TeamOrRoomScheduleTabContent";
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
 import FontAwesomeTabItem from "@components/FontAwesomeTabItem.astro";
 import FontAwesomeTabs from "@components/FontAwesomeTabs.astro";
@@ -359,5 +359,6 @@ if (event) {
                 />
             </FontAwesomeTabItem>
         </FontAwesomeTabs>
+        <RoomDialog />
     </div>
 </StarlightPage>

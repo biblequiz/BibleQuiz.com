@@ -4,7 +4,7 @@ import { ScoringReportMeet, ScoringReportRoom } from "@types/EventScoringReport"
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
 import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
-import RoomLink from "@components/scores/RoomLink";
+import RoomDialogLink from "@components/scores/RoomDialogLink";
 import type { EventScoresProps } from "@utils/Scores";
 import FontAwesomeIcon from "../FontAwesomeIcon";
 
@@ -94,14 +94,14 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
 
                                                 return (
                                                     <td key={matchKey} className="text-center">
-                                                        <RoomLink label={`Match ${matchId} in ${room.Name} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={matchId} roomId={roomId}>
+                                                        <RoomDialogLink label={`Match ${matchId} in ${room.Name} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={matchId} roomId={roomId}>
                                                             <FontAwesomeIcon icon={iconName} classes={iconClasses} />
                                                             {meet.HasLinkedMeets && (
                                                                 <>
                                                                     <br />
                                                                     <i>{resolvedMeet.Name}</i>
                                                                 </>)}
-                                                        </RoomLink>
+                                                        </RoomDialogLink>
                                                     </td>);
                                             })}
                                         </tr>);

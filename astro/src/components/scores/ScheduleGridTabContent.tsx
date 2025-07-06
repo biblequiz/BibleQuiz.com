@@ -4,7 +4,7 @@ import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
 import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
 import type { EventScoresProps } from "@utils/Scores";
-import RoomLink from "./RoomLink";
+import RoomDialogLink from "./RoomDialogLink";
 
 export default function ScheduleGridTabContent({ eventId, event }: EventScoresProps) {
 
@@ -115,7 +115,7 @@ export default function ScheduleGridTabContent({ eventId, event }: EventScoresPr
                                                     <td className="text-center" key={matchKey}>
                                                         {!isLiveMatch && match.Score == null && (<span>{match.Room}</span>)}
                                                         {(isLiveMatch || match.Score != null) && (
-                                                            <RoomLink label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
+                                                            <RoomDialogLink label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
                                                                 {match.Room}
                                                                 {isLiveMatch && (
                                                                     <>
@@ -130,7 +130,7 @@ export default function ScheduleGridTabContent({ eventId, event }: EventScoresPr
                                                                         </span>
                                                                     </>
                                                                 )}
-                                                            </RoomLink>)}
+                                                            </RoomDialogLink>)}
                                                     </td>
                                                 )
                                             })}

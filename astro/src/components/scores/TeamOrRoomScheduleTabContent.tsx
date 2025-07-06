@@ -4,7 +4,7 @@ import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
 import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
 import type { ScoringReportTeam } from "../../types/EventScoringReport";
-import RoomLink from "./RoomLink";
+import RoomDialogLink from "./RoomDialogLink";
 
 export interface Props {
     type: "Team" | "Room";
@@ -198,7 +198,7 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event }: P
                                                         <li key={matchKey} className="ml-6">
                                                             {isScheduleOnly && (<>{cellHtml}</>)}
                                                             {!isScheduleOnly && (
-                                                                <RoomLink label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
+                                                                <RoomDialogLink label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
                                                                     {cellHtml}
                                                                     {isLiveMatch && (
                                                                         <>
@@ -206,7 +206,7 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event }: P
                                                                             <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match.CurrentQuestion}
                                                                         </>
                                                                     )}
-                                                                </RoomLink>)}
+                                                                </RoomDialogLink>)}
                                                         </li>);
                                                 })}
                                             </ol>
