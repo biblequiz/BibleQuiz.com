@@ -204,9 +204,12 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                     if (!report.IsCompleted && report.CurrentQuestion == q + 1) {
                         pointClass += " current-question-top";
                     }
+                    else {
+                        pointClass += " border border-gray-300";
+                    }
 
                     return (
-                        <td className={`font-bold text-center ${pointClass}`} key={`${primaryRowClass}-header-${q}`}>
+                        <td className={`font-bold border border-gray-300 text-center ${pointClass}`} key={`${primaryRowClass}-header-${q}`}>
                             {q + 1}
                         </td>);
                 })}
@@ -266,6 +269,9 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                             if (!report.IsCompleted && report.CurrentQuestion == q + 1) {
                                 pointClass += " current-question-middle";
                             }
+                            else {
+                                pointClass += " border border-gray-300";
+                            }
 
                             return (
                                 <td className={`text-center ${points < 0 ? "circle" : ""} ${pointClass}`} key={`${primaryRowClass}-quizzer-${quizzer.Id}-${q}`}>
@@ -289,7 +295,7 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                 {Array.from({ length: report.TotalQuestionCount }, (_, q) => {
                     const currentCellClass = !report.IsCompleted && report.CurrentQuestion == q + 1
                         ? "current-question-bottom"
-                        : "";
+                        : "border border-gray-300";
 
                     return (
                         <td key={`${primaryRowClass}-total-${q}`} className={currentCellClass}>&nbsp;</td>);
