@@ -123,25 +123,9 @@ td.strike-out {
 	color: white;
 }
 
-td.circle {
-	min-width: 20px;
-	min-height: 20px;
-	display: block;
-	border-radius: 50%;
+.circle {
+	border-radius: 75%;
 	border: 1px solid #000;
-	margin: auto;
-	padding: 1px;
-	padding-right: 4px;
-	padding-top: 4px;
-	text-align: center
-}
-
-td.nocircle {
-	min-width: 20px;
-	min-height: 20px;
-	display: block;
-	border-radius: 50%;
-	border: 1px solid transparent;
 	margin: auto;
 	padding: 1px;
 	padding-right: 4px;

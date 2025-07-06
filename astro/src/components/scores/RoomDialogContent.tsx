@@ -131,6 +131,18 @@ function getContestInfo(maxNumber: number | null): { hasContestType: boolean, nu
     }
 }
 
+function formatPoints(points: number | null, showZeros: boolean) {
+    if ((points == 0 && !showZeros) || points === undefined || points === null) {
+        return (<span>&nbsp;</span>);
+    }
+    else if (points < 0) {
+        return (<span className="circle">{points}</span>);
+    }
+    else {
+        return (<span>{points}</span>);
+    }
+}
+
 function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableProps) {
 
     const totalColumns = 5 + report.TotalQuestionCount;
@@ -209,7 +221,7 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                     }
 
                     return (
-                        <td className={`font-bold border border-gray-300 text-center ${pointClass}`} key={`${primaryRowClass}-header-${q}`}>
+                        <td className={`font-bold text-center ${pointClass}`} key={`${primaryRowClass}-header-${q}`}>
                             {q + 1}
                         </td>);
                 })}
@@ -233,11 +245,11 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                     <tr key={`${primaryRowClass}-quizzer-${quizzer.Id}`} className={currentRowClass}>
                         <td className={quizOutClass}>{quizzer.Position ?? "_"}</td>
                         <td className={quizOutClass}>{quizzer.Name}</td>
-                        <td className={`text-center ${quizOutClass} ${quizzer.TotalPoints < 0 ? "circle" : ""}`}>
-                            {quizzer.TotalPoints}
+                        <td className={`text-center ${quizOutClass}`}>
+                            {formatPoints(quizzer.TotalPoints, true)}
                         </td>
-                        <td className={`text-center ${quizOutClass} ${quizzer.Fouls < 0 ? "circle" : ""}`}>
-                            {quizzer.Fouls == 0 ? (<>&nbsp;&nbsp;</>) : quizzer.Fouls}
+                        <td className={`text-center ${quizOutClass}`}>
+                            {formatPoints(quizzer.Fouls, false)}
                         </td>
                         <td className={`text-center ${quizOutClass}`}>
                             {quizzer.QuizzedOutState === QuizzedOutState[QuizzedOutState.NotQuizzedOut] ? (<>&nbsp;</>) : "*"}
@@ -274,8 +286,8 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                             }
 
                             return (
-                                <td className={`text-center ${points < 0 ? "circle" : ""} ${pointClass}`} key={`${primaryRowClass}-quizzer-${quizzer.Id}-${q}`}>
-                                    {points ? points : (<>&nbsp;</>)}
+                                <td className={`text-center ${pointClass}`} key={`${primaryRowClass}-quizzer-${index}-${q + 1}`}>
+                                    {formatPoints(points, false)}
                                 </td>);
                         })}
                     </tr>);
@@ -283,11 +295,11 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
             <tr className={swapRowClass()}>
                 <td className="font-bold">&nbsp;</td>
                 <td className="font-bold">TEAM TOTALS</td>
-                <td className={`text-center ${team.TotalPoints < 0 ? "circle" : ""}`}>
-                    {team.TotalPoints}
+                <td className="text-center">
+                    {formatPoints(team.TotalPoints, true)}
                 </td>
-                <td className={`text-center ${team.TotalFoulPoints < 0 ? "circle" : ""}`}>
-                    {team.TotalFoulPoints == 0 ? (<>&nbsp;&nbsp;</>) : team.TotalFoulPoints}
+                <td className="text-center">
+                    {formatPoints(team.TotalFoulPoints, false)}
                 </td>
                 <td className="text-center">
                     &nbsp;
