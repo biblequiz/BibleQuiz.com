@@ -8,6 +8,7 @@ const {
     eventLocation,
 } = Astro.locals.starlightRoute.entry.data;
 
+import FontAwesomeIcon from "@components/FontAwesomeIcon";
 import EventScopeBadge from "./EventScopeBadge.tsx";
 ---
 
@@ -24,6 +25,14 @@ import EventScopeBadge from "./EventScopeBadge.tsx";
         )
     }
     <span class="title-text">{title}</span>
+    <span>
+        <button type="button" class="btn btn-primary btn-square">
+            <FontAwesomeIcon icon="fas faPrint" />
+        </button>
+        <button type="button" class="btn btn-warning btn-square">
+            <FontAwesomeIcon icon="fas faFileExcel" />
+        </button>
+    </span>
 </h1>
 {
     (eventScope || eventDates || eventLocation) && (
