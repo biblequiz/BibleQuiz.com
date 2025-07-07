@@ -1,0 +1,53 @@
+---
+import { ExportDialogModalIdPrefix } from "./ExportDialogContent";
+import ExportDialogContent from "./ExportDialogContent";
+
+interface Props {
+    eventName: string;
+}
+
+const { eventName } = Astro.props as Props;
+---
+
+<>
+    <dialog id={`${ExportDialogModalIdPrefix}-Print`} class="modal">
+        <div class="modal-box w-full max-w-5xl">
+            <form method="dialog">
+                <button
+                    class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                    >✕</button
+                >
+            </form>
+            <ExportDialogContent
+                type="Print"
+                eventName={eventName}
+                client:only="react"
+            />
+            <div class="modal-action">
+                <form method="dialog">
+                    <button class="btn">Close</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
+    <dialog id={`${ExportDialogModalIdPrefix}-Export`} class="modal">
+        <div class="modal-box w-full max-w-5xl">
+            <form method="dialog">
+                <button
+                    class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                    >✕</button
+                >
+            </form>
+            <ExportDialogContent
+                type="Export"
+                eventName={eventName}
+                client:only="react"
+            />
+            <div class="modal-action">
+                <form method="dialog">
+                    <button class="btn">Close</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
+</>

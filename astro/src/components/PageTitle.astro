@@ -8,8 +8,8 @@ const {
     eventLocation,
 } = Astro.locals.starlightRoute.entry.data;
 
-import FontAwesomeIcon from "@components/FontAwesomeIcon";
-import EventScopeBadge from "./EventScopeBadge.tsx";
+import ExportButton from "./scores/ExportButton";
+import EventScopeBadge from "./EventScopeBadge";
 ---
 
 <h1 id="_top" class="page-title">
@@ -26,12 +26,8 @@ import EventScopeBadge from "./EventScopeBadge.tsx";
     }
     <span class="title-text">{title}</span>
     <span>
-        <button type="button" class="btn btn-primary btn-square">
-            <FontAwesomeIcon icon="fas faPrint" />
-        </button>
-        <button type="button" class="btn btn-warning btn-square">
-            <FontAwesomeIcon icon="fas faFileExcel" />
-        </button>
+        <ExportButton type="Print" client:only="react" />
+        <ExportButton type="Export" client:only="react" />
     </span>
 </h1>
 {
@@ -71,3 +67,13 @@ import EventScopeBadge from "./EventScopeBadge.tsx";
         }
     }
 </style>
+
+<script is:inline>
+    function handlePrint() {
+        alert("Print");
+    }
+
+    function handleExport() {
+        alert("Export");
+    }
+</script>

@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { useStore } from "@nanostores/react";
 import { sharedRoomScoringReportState } from "@utils/SharedState";
 import { RoomScoringReport, RoomScoringReportTeam, RoomScoringReportQuizzer, QuizzedOutState } from "@types/RoomScoringReport";
-import { swap } from "astro/virtual-modules/transitions-swap-functions.js";
 
 export default function RoomDialogContent() {
 

@@ -2,6 +2,7 @@
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
 import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
+import ExportDialog from "@components/scores/ExportDialog.astro";
 import RoomDialog from "@components/scores/RoomDialog.astro";
 import StatsTabContent from "@components/scores/StatsTabContent";
 import CoordinatorTabContent from "@components/scores/CoordinatorTabContent";
@@ -359,6 +360,7 @@ if (event) {
                 />
             </FontAwesomeTabItem>
         </FontAwesomeTabs>
+        <ExportDialog eventName={eventInfo.name} />
         <RoomDialog />
     </div>
 </StarlightPage>

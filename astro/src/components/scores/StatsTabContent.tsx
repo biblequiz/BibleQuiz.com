@@ -3,6 +3,7 @@ import { EventScoringReport, ScoringReportMeet } from "@types/EventScoringReport
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
 import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
+import MeetProgressNotification from "@components/scores/MeetProgressNotification";
 import type { ScoringReportFootnote } from "@types/EventScoringReport";
 import type { EventScoresProps } from "@utils/Scores";
 
@@ -41,6 +42,7 @@ export default function StatsTabContent({ event }: EventScoresProps) {
                     <CollapsableMeetSection meet={meet} pageId="stats" key={`stats_${meet.DatabaseId}_${meet.MeetId}`}>
                         {meet.RankedTeams && (
                             <div>
+                                <MeetProgressNotification meet={meet} />
                                 <p className="text-lg"><b>Teams</b></p>
                                 <table className="table table-s table-nowrap">
                                     <thead>
