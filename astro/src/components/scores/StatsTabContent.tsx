@@ -1,4 +1,4 @@
-import { EventScoringReport, ScoringReportMeet } from "@types/EventScoringReport";
+import { ScoringReportMeet } from "@types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";

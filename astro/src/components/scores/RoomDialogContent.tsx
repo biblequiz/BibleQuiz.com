@@ -219,9 +219,13 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                         pointClass += " border border-gray-300";
                     }
 
+                    const questionLabel: string = q + 1 <= report.RegularQuestionCount 
+                        ? (q + 1).toString()
+                        : "OT";
+
                     return (
                         <td className={`font-bold text-center ${pointClass}`} key={`${primaryRowClass}-header-${q}`}>
-                            {q + 1}
+                            {questionLabel}
                         </td>);
                 })}
             </tr>
