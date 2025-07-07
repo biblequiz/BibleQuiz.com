@@ -17,6 +17,7 @@ export const collections = {
 						eventScope: z.enum(['district', 'region', 'nation']).optional(),
 						eventScopeLabel: z.string().optional(),
 						eventLocation: z.string().optional(),
+						eventIsLoaded: z.boolean().optional(),
 					}),
 			})
 		})

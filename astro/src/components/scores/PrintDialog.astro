@@ -1,9 +1,11 @@
 ---
 import { PrintDialogModalId } from "./PrintDialogContent";
 import PrintDialogContent from "./PrintDialogContent";
+import { EventScoringReport } from "@types/EventScoringReport";
 
 interface Props {
     eventName: string;
+    report: EventScoringReport | null;
 }
 
 const { eventName } = Astro.props as Props;
@@ -20,3 +22,20 @@ const { eventName } = Astro.props as Props;
         <PrintDialogContent eventName={eventName} client:only="react" />
     </div>
 </dialog>
+
+<script>
+    import { PrintDialogModalId } from "./PrintDialogContent";
+
+    function openPrintDialog(event: any) {
+        event.preventDefault();
+
+        const dialogElement = document.getElementById(PrintDialogModalId);
+        (dialogElement as any).showModal();
+    }
+
+    // Find our component DOM on the page.
+    const button: HTMLElement = document.getElementById(
+        `${PrintDialogModalId}-button`,
+    )!;
+    button.addEventListener("click", openPrintDialog);
+</script>

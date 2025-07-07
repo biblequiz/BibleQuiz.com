@@ -3,6 +3,8 @@ import type { EventInfo } from "@types/EventTypes";
 
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
+import { ExcelDialogModalId } from "./ExcelDialogContent";
+import { PrintDialogModalId } from "./PrintDialogContent";
 
 interface Props {
     parentTabId: string;
@@ -29,6 +31,16 @@ export default function EventScoringReportLoader({ parentTabId, tabSyncKey, even
                                 report: body,
                                 error: null
                             });
+
+                        const excelButton: HTMLButtonElement = document.getElementById(`${ExcelDialogModalId}-button`) as HTMLButtonElement;
+                        if (excelButton) {
+                            excelButton.disabled = false;
+                        }
+
+                        const printButton: HTMLButtonElement = document.getElementById(`${PrintDialogModalId}-button`) as HTMLButtonElement;
+                        if (printButton) {
+                            printButton.disabled = false;
+                        }
                     } else {
                         sharedEventScoringReportState.set(
                             {

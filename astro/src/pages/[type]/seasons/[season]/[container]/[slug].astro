@@ -1,9 +1,9 @@
 ---
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
-import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
 import ExcelDialog from "@components/scores/ExcelDialog.astro";
 import PrintDialog from "@components/scores/PrintDialog.astro";
+import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
 import RoomDialog from "@components/scores/RoomDialog.astro";
 import StatsTabContent from "@components/scores/StatsTabContent";
 import CoordinatorTabContent from "@components/scores/CoordinatorTabContent";
@@ -149,6 +149,7 @@ const frontmatter: StarlightPageFrontmatter = {
     eventDates: eventInfo.dates,
     eventScope: eventInfo.scope,
     eventLocation: eventInfo.locationCity,
+    eventIsLoaded: event ? true : false,
 };
 
 switch (eventInfo.scope) {
@@ -363,4 +364,6 @@ if (event) {
         </FontAwesomeTabs>
         <RoomDialog />
     </div>
+    <ExcelDialog eventId={eventInfo.eventId} eventName={eventInfo.name} report={event} />
+    <PrintDialog eventName={eventInfo.name} report={event} />
 </StarlightPage>

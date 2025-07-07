@@ -16,3 +16,10 @@ export interface EventScoresProps {
     eventId: string;
     event?: EventScoringReport;
 };
+
+export interface MeetReference {
+    eventId: string;
+    databaseId: string;
+    meetId: number;
+    label: string;
+};

@@ -3,11 +3,13 @@ import { sharedEventScoringReportState } from "@utils/SharedState";
 
 import { ScoringReportMeet } from "@types/EventScoringReport";
 import FontAwesomeIcon from "@components/FontAwesomeIcon";
+import { MeetReference } from "@utils/Scores";
 
 export const ExcelDialogModalId = "excel-dialog";
 
 interface Props {
     eventName: string;
+    meets: MeetReference[] | null;
 }
 
 const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {

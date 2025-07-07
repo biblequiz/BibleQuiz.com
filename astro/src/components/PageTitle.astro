@@ -6,12 +6,11 @@ const {
     eventScope,
     eventScopeLabel,
     eventLocation,
+    eventIsLoaded,
 } = Astro.locals.starlightRoute.entry.data;
 
-import ExcelDialog from "./scores/ExcelDialog.astro";
-import ExcelDialogButton from "./scores/ExcelDialogButton";
-import PrintDialog from "./scores/PrintDialog.astro";
-import PrintDialogButton from "./scores/PrintDialogButton";
+import ExcelDialogButton from "./scores/ExcelDialogButton.astro";
+import PrintDialogButton from "./scores/PrintDialogButton.astro";
 import EventScopeBadge from "./EventScopeBadge";
 ---
 
@@ -28,13 +27,15 @@ import EventScopeBadge from "./EventScopeBadge";
         )
     }
     <span class="title-text">{title}</span>
-    <span>
-        <PrintDialogButton client:only="react" />
-        <ExcelDialogButton client:only="react" />
-    </span>
+    {
+        eventType && (
+            <span>
+                <PrintDialogButton isLoaded={eventIsLoaded ?? false} />
+                <ExcelDialogButton isLoaded={eventIsLoaded ?? false} />
+            </span>
+        )
+    }
 </h1>
-<PrintDialog eventName={title} />
-<ExcelDialog eventName={title} />
 {
     (eventScope || eventDates || eventLocation) && (
         <div class="mt-0">

@@ -1,12 +1,31 @@
 ---
 import { ExcelDialogModalId } from "./ExcelDialogContent";
 import ExcelDialogContent from "./ExcelDialogContent";
+import { MeetReference } from "@utils/Scores";
+import {
+    EventScoringReport,
+    ScoringReportMeet,
+} from "@types/EventScoringReport";
 
 interface Props {
+    eventId: string;
     eventName: string;
+    report: EventScoringReport | null;
 }
 
-const { eventName } = Astro.props as Props;
+const { eventId, eventName, report } = Astro.props as Props;
+
+let existingMeets: MeetReference[] | null = null;
+if (report) {
+    existingMeets = report.Report.Meets.map((meet: ScoringReportMeet) => {
+        return {
+            eventId: eventId,
+            databaseId: meet.DatabaseId,
+            meetId: meet.MeetId,
+            label: meet.Label,
+        } as MeetReference;
+    });
+}
 ---
 
 <dialog id={ExcelDialogModalId} class="modal">
@@ -17,6 +36,23 @@ const { eventName } = Astro.props as Props;
                 >✕</button
             >
         </form>
-        <ExcelDialogContent eventName={eventName} client:only="react" />
+        <ExcelDialogContent eventName={eventName} meets={existingMeets} client:only="react" />
     </div>
 </dialog>
+
+<script>
+    import { ExcelDialogModalId } from "./ExcelDialogContent";
+
+    function openExcelDialog(event: any) {
+        event.preventDefault();
+
+        const dialogElement = document.getElementById(ExcelDialogModalId);
+        (dialogElement as any).showModal();
+    }
+
+    // Find our component DOM on the page.
+    const button: HTMLElement = document.getElementById(
+        `${ExcelDialogModalId}-button`,
+    )!;
+    button.addEventListener("click", openExcelDialog);
+</script>

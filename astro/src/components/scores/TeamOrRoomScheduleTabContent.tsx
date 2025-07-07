@@ -99,7 +99,7 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event }: P
                                                 {cardItem.Matches.map((match: ScoringReportTeamMatch | number, matchIndex: number) => {
                                                     const matchKey = `${key}_matches_${matchIndex}`;
                                                     if (null == match) {
-                                                        return (<li key={matchKey}>BYE</li>);
+                                                        return (<li key={matchKey} className="ml-6">BYE</li>);
                                                     }
 
                                                     const resolvedMeet = !meet.HasLinkedMeets || null == match.LinkedMeet
