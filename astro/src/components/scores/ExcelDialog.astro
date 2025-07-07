@@ -1,7 +1,7 @@
 ---
 import { ExcelDialogModalId } from "./ExcelDialogContent";
 import ExcelDialogContent from "./ExcelDialogContent";
-import { MeetReference } from "@utils/Scores";
+import type { MeetReference } from "@utils/Scores";
 import {
     EventScoringReport,
     ScoringReportMeet,
@@ -22,7 +22,9 @@ if (report) {
             eventId: eventId,
             databaseId: meet.DatabaseId,
             meetId: meet.MeetId,
-            label: meet.Label,
+            label: meet.Name,
+            isCombinedReport: meet.IsCombinedReport,
+            hasRanking: meet.RankedTeams || meet.RankedQuizzers ? true : false,
         } as MeetReference;
     });
 }
@@ -36,7 +38,12 @@ if (report) {
                 >✕</button
             >
         </form>
-        <ExcelDialogContent eventName={eventName} meets={existingMeets} client:only="react" />
+        <ExcelDialogContent
+            eventId={eventId}
+            eventName={eventName}
+            meets={existingMeets}
+            client:only="react"
+        />
     </div>
 </dialog>
 

@@ -364,6 +364,14 @@ if (event) {
         </FontAwesomeTabs>
         <RoomDialog />
     </div>
-    <ExcelDialog eventId={eventInfo.eventId} eventName={eventInfo.name} report={event} />
-    <PrintDialog eventName={eventInfo.name} report={event} />
+    <ExcelDialog
+        eventId={eventInfo.eventId}
+        eventName={eventInfo.name}
+        report={event}
+    />
+    <PrintDialog
+        eventId={eventInfo.eventId}
+        eventName={eventInfo.name}
+        report={event}
+    />
 </StarlightPage>

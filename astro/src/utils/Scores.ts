@@ -22,4 +22,6 @@ export interface MeetReference {
     databaseId: string;
     meetId: number;
     label: string;
+    isCombinedReport: boolean;
+    hasRanking: boolean;
 };

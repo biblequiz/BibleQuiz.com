@@ -1,14 +1,33 @@
 ---
 import { PrintDialogModalId } from "./PrintDialogContent";
 import PrintDialogContent from "./PrintDialogContent";
-import { EventScoringReport } from "@types/EventScoringReport";
+import type { MeetReference } from "@utils/Scores";
+import {
+    EventScoringReport,
+    ScoringReportMeet,
+} from "@types/EventScoringReport";
 
 interface Props {
+    eventId: string;
     eventName: string;
     report: EventScoringReport | null;
 }
 
-const { eventName } = Astro.props as Props;
+const { eventId, eventName, report } = Astro.props as Props;
+
+let existingMeets: MeetReference[] | null = null;
+if (report) {
+    existingMeets = report.Report.Meets.map((meet: ScoringReportMeet) => {
+        return {
+            eventId: eventId,
+            databaseId: meet.DatabaseId,
+            meetId: meet.MeetId,
+            label: meet.Name,
+            isCombinedReport: meet.IsCombinedReport,
+            hasRanking: meet.RankedTeams || meet.RankedQuizzers ? true : false,
+        } as MeetReference;
+    });
+}
 ---
 
 <dialog id={PrintDialogModalId} class="modal">
@@ -19,7 +38,12 @@ const { eventName } = Astro.props as Props;
                 >✕</button
             >
         </form>
-        <PrintDialogContent eventName={eventName} client:only="react" />
+        <PrintDialogContent
+            eventId={eventId}
+            eventName={eventName}
+            meets={existingMeets}
+            client:only="react"
+        />
     </div>
 </dialog>
 
