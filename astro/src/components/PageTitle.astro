@@ -1,6 +1,7 @@
 ---
 const {
     title,
+    eventId,
     eventType,
     eventDates,
     eventScope,
@@ -9,7 +10,7 @@ const {
     eventIsLoaded,
 } = Astro.locals.starlightRoute.entry.data;
 
-import ExcelDialogButton from "./scores/ExcelDialogButton.astro";
+import ExcelExportButton from "./scores/ExcelExportButton.astro";
 import PrintDialogButton from "./scores/PrintDialogButton.astro";
 import EventScopeBadge from "./EventScopeBadge";
 ---
@@ -31,7 +32,7 @@ import EventScopeBadge from "./EventScopeBadge";
         eventType && (
             <span>
                 <PrintDialogButton isLoaded={eventIsLoaded ?? false} />
-                <ExcelDialogButton isLoaded={eventIsLoaded ?? false} />
+                <ExcelExportButton eventId={eventId} eventName={title} isLoaded={eventIsLoaded ?? false} />
             </span>
         )
     }

@@ -1,7 +1,6 @@
 ---
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
-import ExcelDialog from "@components/scores/ExcelDialog.astro";
 import PrintDialog from "@components/scores/PrintDialog.astro";
 import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
 import RoomDialog from "@components/scores/RoomDialog.astro";
@@ -145,6 +144,7 @@ const initialScoresTabStyle = event ? "" : "display: none";
 const frontmatter: StarlightPageFrontmatter = {
     title: eventInfo.name,
     tableOfContents: false,
+    eventId: eventInfo.id,
     eventType: type,
     eventDates: eventInfo.dates,
     eventScope: eventInfo.scope,
@@ -364,11 +364,6 @@ if (event) {
         </FontAwesomeTabs>
         <RoomDialog />
     </div>
-    <ExcelDialog
-        eventId={eventInfo.eventId}
-        eventName={eventInfo.name}
-        report={event}
-    />
     <PrintDialog
         eventId={eventInfo.eventId}
         eventName={eventInfo.name}

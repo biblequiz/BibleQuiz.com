@@ -12,6 +12,7 @@ export const collections = {
 
 					// Add custom properties to the docs frontmatter schema.
 					.extend({
+						eventId: z.string().optional(),
 						eventType: z.enum(['jbq', 'tbq']).optional(),
 						eventDates: z.string().optional(),
 						eventScope: z.enum(['district', 'region', 'nation']).optional(),
