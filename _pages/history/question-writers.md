@@ -15,7 +15,7 @@ columns:
   cardPrefix: "<i>MSQ/N:</i> "
 rows:
 - Season: 2025
-  Material: Romans and James
+  Material: Acts
   A League: Danielle Mori
   MSQ/Novice: Jon Galliers
 - Season: 2024
