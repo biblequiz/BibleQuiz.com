@@ -20,7 +20,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
 
                 const key = `coordinator_${meet.DatabaseId}_${meet.MeetId}`;
-                if (meet.IsCombinedReport) {
+                if (meet.IsCombinedReport || !meet.Rooms) {
                     return null;
                 }
 

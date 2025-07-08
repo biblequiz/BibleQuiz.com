@@ -51,6 +51,9 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event }: P
                 const tabItems = isRoomReport
                     ? meet.Rooms
                     : meet.Teams;
+                if (!tabItems) {
+                    return null;
+                }
 
                 return (
                     <CollapsableMeetSection meet={meet} pageId={`${type}schedule`} key={key}>
