@@ -19,6 +19,8 @@ export const collections = {
 						eventScopeLabel: z.string().optional(),
 						eventLocation: z.string().optional(),
 						eventIsLoaded: z.boolean().optional(),
+						hidePageTitleOnPrint: z.boolean().optional(),
+						hideFooterOnPrint: z.boolean().optional(),
 					}),
 			})
 		})

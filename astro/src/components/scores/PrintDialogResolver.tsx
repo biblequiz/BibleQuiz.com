@@ -6,6 +6,7 @@ import { EventScoringReport } from "@types/EventScoringReport";
 import { OutputType } from "@utils/SharedState";
 import type { PrintConfiguration } from "@utils/SharedState";
 
+import FontAwesomeIcon from "@components/FontAwesomeIcon";
 import StatsTabContent from "@components/scores/StatsTabContent";
 import ScheduleGridTabContent from "@components/scores/ScheduleGridTabContent";
 import TeamOrRoomScheduleTabContent from "@components/scores/TeamOrRoomScheduleTabContent";
@@ -33,7 +34,10 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
     }, [printDialogState, reportState]);
 
     if (!printDialogState || !resolvedReport) {
-        return null;
+        return (
+            <div className="hide-if-not-print-screen">
+                Use the <FontAwesomeIcon icon="fas faPrint" /> button to print this page.
+            </div>);
     }
 
     switch (printDialogState.outputType) {

@@ -8,6 +8,7 @@ const {
     eventScopeLabel,
     eventLocation,
     eventIsLoaded,
+    hidePageTitleOnPrint,
 } = Astro.locals.starlightRoute.entry.data;
 
 import ExcelExportButton from "./scores/ExcelExportButton.astro";
@@ -15,7 +16,10 @@ import PrintDialogButton from "./scores/PrintDialogButton.astro";
 import EventScopeBadge from "./EventScopeBadge";
 ---
 
-<h1 id="_top" class="page-title hide-on-print">
+<h1
+    id="_top"
+    class={`page-title ${hidePageTitleOnPrint ? "hide-on-print" : ""}`}
+>
     {
         eventType && (
             <img
@@ -43,7 +47,7 @@ import EventScopeBadge from "./EventScopeBadge";
 </h1>
 {
     (eventScope || eventDates || eventLocation) && (
-        <div class="mt-0  hide-on-print">
+        <div class={`mt-0 ${hidePageTitleOnPrint ? "hide-on-print" : ""}`}>
             {eventScope && (
                 <EventScopeBadge scope={eventScope} label={eventScopeLabel} />
             )}
