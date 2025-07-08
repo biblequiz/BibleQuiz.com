@@ -209,6 +209,7 @@ if (event) {
                             <StatsTabContent
                                 eventId={eventInfo.id}
                                 event={event}
+                                client:visible
                             />
                         )}
                         {!event && (
@@ -239,6 +240,7 @@ if (event) {
                                     type="Team"
                                     eventId={eventInfo.id}
                                     event={event}
+                                    client:visible
                                 />
                             )
                         }
@@ -263,6 +265,7 @@ if (event) {
                                     type="Room"
                                     eventId={eventInfo.id}
                                     event={event}
+                                    client:visible
                                 />
                             )
                         }
@@ -286,6 +289,7 @@ if (event) {
                                 <ScheduleGridTabContent
                                     eventId={eventInfo.id}
                                     event={event}
+                                    client:visible
                                 />
                             )
                         }
@@ -311,6 +315,7 @@ if (event) {
                         <CoordinatorTabContent
                             eventId={eventInfo.id}
                             event={event}
+                            client:visible
                         />
                     )
                 }
@@ -335,6 +340,7 @@ if (event) {
                             <QStatsTabContent
                                 eventId={eventInfo.id}
                                 event={event}
+                                client:visible
                             />
                         )}
                         {!event && (

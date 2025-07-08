@@ -58,11 +58,11 @@ import RoomDialogContent from "./RoomDialogContent";
         (dialogElement as any).showModal();
     }
 
-    // Find our component DOM on the page.
-    const buttons = document.querySelectorAll(`a.${RoomDialogModalId}`);
+    declare global {
+        interface Window {
+            openRoomDialog: (event: any) => void;
+        }
+    }
 
-    // Add event listeners to fire confetti when a button is clicked.
-    buttons.forEach((button) => {
-        button.addEventListener("click", openRoomDialog);
-    });
+    window.openRoomDialog = openRoomDialog;
 </script>

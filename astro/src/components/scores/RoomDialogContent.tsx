@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useStore } from "@nanostores/react";
 import { sharedRoomScoringReportState } from "@utils/SharedState";
 import { RoomScoringReport, RoomScoringReportTeam, RoomScoringReportQuizzer, QuizzedOutState } from "@types/RoomScoringReport";
+import FontAwesomeIcon from "../FontAwesomeIcon";
 
 export default function RoomDialogContent() {
 
@@ -76,9 +77,23 @@ export default function RoomDialogContent() {
         }
     }
 
+    const handleRefreshClick = () => {
+        sharedRoomScoringReportState.set(
+            {
+                criteria: reportState.criteria,
+                report: null,
+                error: null
+            });
+    };
+
     return (
         <div className="overflow-x-auto overflow-y-auto">
-            <p className="text-xl font-bold">{reportState.criteria.label}</p>
+            <p className="text-xl font-bold">
+                <button type="button" className="btn btn-sm btn-primary" onClick={handleRefreshClick}>
+                    <FontAwesomeIcon icon="fas faArrowsRotate" />
+                </button>&nbsp;
+                {reportState.criteria.label}
+            </p>
             {(report.CurrentQuestion != null || report.IsCompleted) && (
                 <p className="text-xs ml-2">
                     <b>CURRENT QUESTION:</b>&nbsp;
@@ -87,17 +102,26 @@ export default function RoomDialogContent() {
                     {!report.IsCompleted && (
                         <>
                             <span>[ {report.CurrentQuestion} ]</span>
-                            <br />
-                            <b>REMAINING:</b> <span> {totalRemaining} points ({remainingPointCounts.join(", ")})</span>
+                            {totalRemaining > 0 && (
+                                <>
+                                    <br />
+                                    <b>REMAINING:</b> <span> {totalRemaining} points ({remainingPointCounts.join(", ")})</span>
+                                </>)}
                         </>)}
                     {report.StartTime != null && (report.RemainingTime != null || report.EndTime != null) && (
                         <>
                             <br />
-                            <b>TIMER:</b> Started: {report.StartTime}
+                            <b>Timer Started:</b> {report.StartTime}
                             {report.RemainingTime != null && (
-                                <span>Remaining: <mark><b> {report.RemainingTime} </b></mark></span>)}
+                                <>
+                                    <br />
+                                    <span><b>Timer Remaining:</b> <mark> {report.RemainingTime} </mark></span>
+                                </>)}
                             {report.EndTime != null && (
-                                <span>Stopped: {report.EndTime}</span>)}
+                                <>
+                                    <br />
+                                    <span><b>Timer Stopped:</b>  {report.EndTime}</span>
+                                </>)}
                         </>)}
                 </p>)}
             <table className="table table-xs table-nowrap">
@@ -219,7 +243,7 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                         pointClass += " border border-gray-300";
                     }
 
-                    const questionLabel: string = q + 1 <= report.RegularQuestionCount 
+                    const questionLabel: string = q + 1 <= report.RegularQuestionCount
                         ? (q + 1).toString()
                         : "OT";
 

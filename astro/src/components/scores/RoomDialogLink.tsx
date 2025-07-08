@@ -8,6 +8,12 @@ interface Props {
     children: React.ReactNode;
 };
 
+declare global {
+    interface Window {
+        openRoomDialog: (event: any) => void;
+    }
+}
+
 export const RoomDialogModalId = "room-dialog";
 
 export default function RoomDialogLink({ label, eventId, databaseId, meetId, matchId, roomId, children }: Props) {
@@ -15,7 +21,7 @@ export default function RoomDialogLink({ label, eventId, databaseId, meetId, mat
     return (
         <a style={{ cursor: "pointer" }} className={RoomDialogModalId} data-label={label} data-event-id={eventId}
             data-database-id={databaseId} data-meet-id={meetId} data-match-id={matchId}
-            data-room-id={roomId}>
+            data-room-id={roomId} onClick={window.openRoomDialog}>
             {children}
         </a>);
 };
