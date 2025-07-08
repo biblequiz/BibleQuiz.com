@@ -50,15 +50,44 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
         }
 
         case OutputType.TeamSchedule: {
-            return (<div>Team Schedule</div>);
+            return (
+                <div className="hide-if-not-print-screen">
+                    <TeamOrRoomScheduleTabContent
+                        type="Team"
+                        eventId={eventId}
+                        event={event}
+                        isPrinting={true}
+                        printSinglePerPage={printDialogState.showSinglePerPage}
+                        printStats={printDialogState.includeStats}
+                    />
+                </div>);
         }
 
         case OutputType.RoomSchedule: {
-            return (<div>Room Schedule</div>);
+            return (
+                <div className="hide-if-not-print-screen">
+                    <TeamOrRoomScheduleTabContent
+                        type="Room"
+                        eventId={eventId}
+                        event={event}
+                        isPrinting={true}
+                        printSinglePerPage={printDialogState.showSinglePerPage}
+                        printStats={printDialogState.includeStats}
+                    />
+                </div>);
         }
 
         case OutputType.ScheduleGrid: {
-            return (<div>Schedule Grid</div>);
+            return (
+                <div className="hide-if-not-print-screen">
+                    <ScheduleGridTabContent
+                        eventId={eventId}
+                        event={event}
+                        isPrinting={true}
+                        printSinglePerPage={printDialogState.showSinglePerPage}
+                        printStats={printDialogState.includeStats}
+                    />
+                </div>);
         }
 
         default:

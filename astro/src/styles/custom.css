@@ -176,6 +176,10 @@ td.current-question-bottom {
 		display: block;
 	}
 
+	.page-break-before {
+		break-before: page;
+	}
+
 	div.team-card {
 		break-inside: avoid;
 	}

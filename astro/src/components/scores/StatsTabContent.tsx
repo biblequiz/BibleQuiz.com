@@ -13,13 +13,12 @@ function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] |
             {footnotes && footnotes.length > 0 && (
                 <div>
                     {footnotes.map((footnote: ScoringReportFootnote, index: number) => (
-                        <div key={`${keyPrefix}_${index}`}>
-                            {index > 0 && (<br />)}
+                        <div className="mt-0" key={`${keyPrefix}_${index}`}>
                             {footnote.Symbol.trim()} {footnote.Text}
                         </div>))}
                 </div>)}
             {hasTie && (
-                <div>
+                <div className="mt-0">
                     <i>* Tie couldn't be broken by tie breaking rules.</i>
                 </div>)}
         </>);
@@ -122,11 +121,8 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                                 </table>
                                 {formatFootnotes(`${meet.DatabaseId}_${meet.MeetId}_teamfoot`, meet.TeamFootnotes, hasTeamTie)}
                             </div>)}
-                        {hasRankedTeams && hasRankedQuizzers && (
-                            <div style={{ breakBefore: "page" }} />
-                        )}
                         {hasRankedQuizzers && (
-                            <div>
+                            <div className={hasRankedTeams && hasRankedQuizzers && isPrinting ? "page-break-before" : ""}>
                                 <p className="text-lg"><b>Quizzers</b></p>
                                 <table className="table table-s table-nowrap">
                                     <thead>

@@ -238,7 +238,7 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
                                 onChange={handleShowSinglePerPageChanged} />
                             {singleOrMultipleLabel} per Page
                         </label>)}
-                    {outputType !== OutputType.Stats && (
+                    {outputType !== OutputType.Stats && outputType !== OutputType.RoomSchedule && (
                         <label className="label">
                             <input
                                 type="checkbox"

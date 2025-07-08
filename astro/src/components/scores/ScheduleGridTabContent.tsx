@@ -2,16 +2,27 @@ import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringRe
 
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
-import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
-import type { EventScoresProps } from "@utils/Scores";
+import CollapsableMeetSection from "./CollapsableMeetSection";
 import RoomLink from "./RoomDialogLink";
+import { EventScoringReport } from "@types/EventScoringReport";
+import type { EventScoresProps } from "@utils/Scores";
 
-export default function ScheduleGridTabContent({ eventId, event }: EventScoresProps) {
+export interface Props {
+    eventId: string;
+    event?: EventScoringReport;
+    isPrinting?: boolean;
+    printSinglePerPage?: boolean;
+    printStats?: boolean;
+};
+
+export default function ScheduleGridTabContent({ eventId, event, isPrinting, printSinglePerPage, printStats }: Props) {
 
     event ??= useStore(sharedEventScoringReportState)?.report;
     if (!event) {
         return (<span>Event is Loading ...</span>);
     }
+
+    let sectionIndex = 0;
 
     return (
         <>
@@ -24,7 +35,7 @@ export default function ScheduleGridTabContent({ eventId, event }: EventScoresPr
 
                 let teams: ScoringReportTeam[] | number[];
                 let hasRankedTeams: boolean;
-                if (meet.RankedTeams) {
+                if (meet.RankedTeams && (!isPrinting || printStats)) {
                     teams = meet.RankedTeams;
                     hasRankedTeams = true;
                 }
@@ -45,7 +56,13 @@ export default function ScheduleGridTabContent({ eventId, event }: EventScoresPr
                 const footerColSpan = hasRankedTeams ? 6 : 1;
 
                 return (
-                    <CollapsableMeetSection meet={meet} pageId="schedulegrid" key={key}>
+                    <CollapsableMeetSection
+                        meet={meet}
+                        pageId="schedulegrid"
+                        isPrinting={isPrinting}
+                        printSectionIndex={sectionIndex++}
+                        key={key}>
+
                         <table className="table table-s table-nowrap">
                             <thead>
                                 <tr>
@@ -148,7 +165,7 @@ export default function ScheduleGridTabContent({ eventId, event }: EventScoresPr
                                     </tr>
                                 </tfoot>)}
                         </table>
-                        <table className="table table-s table-nowrap">
+                        <table className="table table-s table-nowrap page-break-before">
                             <thead>
                                 <tr>
                                     <th>Team / Coach</th>
