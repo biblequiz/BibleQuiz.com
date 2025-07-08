@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import type { EventInfo } from "@types/EventTypes";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedPrintConfiguration } from "@utils/SharedState";
 import { PrintDialogModalId } from "./PrintDialogContent";
 
 interface Props {
@@ -18,6 +18,7 @@ function removeTabAndPanel(tabLinkElement: HTMLAnchorElement): void {
 export default function EventScoringReportLoader({ parentTabId, tabSyncKey, eventInfo }: Props) {
 
     const reportState = useStore(sharedEventScoringReportState);
+    useStore(sharedPrintConfiguration); // Registering the hook.
     useEffect(() => {
         // If the report is not already loaded, fetch it in the background
         if (!reportState) {

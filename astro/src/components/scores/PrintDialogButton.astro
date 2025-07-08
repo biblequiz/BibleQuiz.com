@@ -12,7 +12,7 @@ const { isLoaded } = Astro.props as Props;
 <button
     type="button"
     id={`${PrintDialogModalId}-button`}
-    class="btn btn-primary btn-square cursor-pointer"
+    class="btn btn-primary btn-square cursor-pointer hide-on-print"
     disabled={!isLoaded}
 >
     <FontAwesomeIcon icon="fas faPrint" />

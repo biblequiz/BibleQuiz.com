@@ -10,6 +10,7 @@ export interface Props {
     type: "Team" | "Room";
     eventId: string;
     event?: EventScoringReport;
+    isPrinting?: boolean;
 };
 
 function ordinalWithSuffix(number: number): string {
@@ -73,7 +74,7 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event }: P
                                 }
 
                                 return (
-                                    <div className="card bg-base-100 card-sm shadow-sm mt-4" key={cardKey}>
+                                    <div className="card bg-base-100 card-sm shadow-sm mt-4 team-card" key={cardKey}>
                                         <div className="card-body">
                                             <p className="text-sm mb-0 font-bold">{cardItem.Name}</p>
                                             {!isRoomReport && (
@@ -201,7 +202,7 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event }: P
                                                         <li key={matchKey} className="ml-6">
                                                             {isScheduleOnly && (<>{cellHtml}</>)}
                                                             {!isScheduleOnly && (
-                                                                <RoomDialogLink label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
+                                                                <RoomDialogLink id={matchKey} label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
                                                                     {cellHtml}
                                                                     {isLiveMatch && (
                                                                         <>

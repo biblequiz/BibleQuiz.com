@@ -1,7 +1,7 @@
 import { ScoringReportMeet } from "@types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState } from "@utils/SharedState";
+import { sharedEventScoringReportState, StatsFormat } from "@utils/SharedState";
 import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
 import MeetProgressNotification from "@components/scores/MeetProgressNotification";
 import type { ScoringReportFootnote } from "@types/EventScoringReport";
@@ -25,12 +25,14 @@ function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] |
         </>);
 }
 
-export default function StatsTabContent({ event }: EventScoresProps) {
+export default function StatsTabContent({ event, isPrinting, printingStatsFormat }: EventScoresProps) {
 
     event ??= useStore(sharedEventScoringReportState)?.report;
     if (!event) {
         return (<span>Event is Loading ...</span>);
     }
+
+    let sectionIndex: number = 0;
 
     return (
         <>
@@ -38,9 +40,26 @@ export default function StatsTabContent({ event }: EventScoresProps) {
 
                 let hasTeamTie = false;
                 let hasQuizzerTie = false;
+
+                const hasRankedTeams = meet.RankedTeams && meet.RankedTeams.length > 0 &&
+                    (!isPrinting || printingStatsFormat === StatsFormat.TeamsAndQuizzers || printingStatsFormat === StatsFormat.TeamsOnly);
+
+                const hasRankedQuizzers = meet.RankedQuizzers && meet.RankedQuizzers.length > 0 &&
+                    (!isPrinting || printingStatsFormat === StatsFormat.TeamsAndQuizzers || printingStatsFormat === StatsFormat.QuizzersOnly);
+
+                if (!hasRankedTeams && !hasRankedQuizzers) {
+                    return null;
+                }
+
                 return (
-                    <CollapsableMeetSection meet={meet} pageId="stats" key={`stats_${meet.DatabaseId}_${meet.MeetId}`}>
-                        {meet.RankedTeams && (
+                    <CollapsableMeetSection
+                        meet={meet}
+                        pageId="stats"
+                        isPrinting={isPrinting}
+                        printSectionIndex={sectionIndex++}
+                        key={`stats_${meet.DatabaseId}_${meet.MeetId}`}>
+
+                        {hasRankedTeams && (
                             <div>
                                 <MeetProgressNotification meet={meet} />
                                 <p className="text-lg"><b>Teams</b></p>
@@ -103,7 +122,10 @@ export default function StatsTabContent({ event }: EventScoresProps) {
                                 </table>
                                 {formatFootnotes(`${meet.DatabaseId}_${meet.MeetId}_teamfoot`, meet.TeamFootnotes, hasTeamTie)}
                             </div>)}
-                        {meet.RankedQuizzers && (
+                        {hasRankedTeams && hasRankedQuizzers && (
+                            <div style={{ breakBefore: "page" }} />
+                        )}
+                        {hasRankedQuizzers && (
                             <div>
                                 <p className="text-lg"><b>Quizzers</b></p>
                                 <table className="table table-s table-nowrap">

@@ -5,12 +5,14 @@ import { formatLastUpdated } from "@utils/Scores";
 interface Props {
     meet: ScoringReportMeet;
     pageId: string;
+    isPrinting?: boolean;
+    printSectionIndex?: number;
     children?: React.ReactNode;
 };
 
-export default function CollapsableMeetSection({ pageId, meet, children }: Props) {
+export default function CollapsableMeetSection({ pageId, meet, isPrinting, printSectionIndex, children }: Props) {
 
-    const icon = meet.IsCombinedReport 
+    const icon = meet.IsCombinedReport
         ? "fas faBook"
         : "fas faFutbol";
 
@@ -20,7 +22,9 @@ export default function CollapsableMeetSection({ pageId, meet, children }: Props
             icon={icon}
             title={meet.Name}
             titleClass="text-xl"
-            subtitle={`Last Updated: ${formatLastUpdated(meet)}`}>
+            subtitle={`Last Updated: ${formatLastUpdated(meet)}`}
+            isPrinting={isPrinting}
+            printSectionIndex={printSectionIndex}>
             {children}
         </CollapsibleSection>);
 };

@@ -25,3 +25,36 @@ export interface SharedRoomScoringReportState {
 }
 
 export const sharedRoomScoringReportState: SharedRoomScoringReportState | null = atom(null);
+
+
+export interface MeetReference {
+    eventId: string;
+    databaseId: string;
+    meetId: number;
+    label: string;
+    isCombinedReport: boolean;
+    hasRanking: boolean;
+};
+
+export enum OutputType {
+    Stats,
+    TeamSchedule,
+    RoomSchedule,
+    ScheduleGrid,
+};
+
+export enum StatsFormat {
+    TeamsAndQuizzers,
+    TeamsOnly,
+    QuizzersOnly,
+};
+
+export interface PrintConfiguration {
+    outputType: OutputType;
+    statsFormat: StatsFormat;
+    showSinglePerPage: boolean;
+    includeStats: boolean;
+    selectedMeets: MeetReference[];
+};
+
+export const sharedPrintConfiguration: PrintConfiguration | null = atom(null);

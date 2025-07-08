@@ -154,3 +154,29 @@ td.current-question-bottom {
 	border-bottom: solid 3px blue !important;
 	border-right: solid 3px blue !important;
 }
+
+.hide-if-not-print-screen {
+	display: none;
+}
+
+@media print {
+	.show-on-print {
+		display: unset;
+	}
+
+	.hide-if-not-print-screen {
+		display: unset;
+	}
+
+	.hide-on-print {
+		display: none;
+	}
+
+	.show-if-single-item-page {
+		display: block;
+	}
+
+	div.team-card {
+		break-inside: avoid;
+	}
+}

@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedPrintConfiguration } from "@utils/SharedState";
 
 import { ScoringReportMeet } from "@types/EventScoringReport";
 import FontAwesomeIcon from "@components/FontAwesomeIcon";
-import type { MeetReference } from "@utils/Scores";
+import { OutputType, StatsFormat } from "@utils/SharedState";
+import type { MeetReference, PrintConfiguration } from "@utils/SharedState";
 
 export const PrintDialogModalId = "print-dialog";
 
@@ -14,22 +15,10 @@ interface Props {
     meets: MeetReference[] | null;
 }
 
-enum OutputType {
-    Stats,
-    TeamSchedule,
-    RoomSchedule,
-    ScheduleGrid,
-}
-
-enum StatsFormat {
-    TeamsAndQuizzers,
-    TeamsOnly,
-    QuizzersOnly,
-}
-
 export default function PrintDialogContent({ eventId, eventName, meets }: Props) {
 
     const reportState = useStore(sharedEventScoringReportState);
+    useStore(sharedPrintConfiguration); // Registering the hooks.
 
     const [outputType, setOutputType] = useState(OutputType.Stats);
     const handleOutputTypeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -105,6 +94,26 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
         return null;
     }
 
+    let hasRanking: boolean = false;
+    const resolvedMeetFields = resolvedMeets.map((meet: ScoringReportMeet, index: number) => {
+        const isChecked = selectedMeets == null || selectedMeets.has(`${meet.databaseId}_${meet.meetId}`);
+
+        if (meet.hasRanking) {
+            hasRanking = true;
+        }
+
+        return (
+            <label key={`print-meet-${index}`} className="label text-sm cursor-pointer mt-0">
+                <input
+                    type="checkbox"
+                    name="meet"
+                    className="checkbox checkbox-sm checkbox-info"
+                    checked={isChecked}
+                    onChange={(e) => handleMeetSelectionChange(meet.databaseId, meet.meetId, e.target.checked)} />
+                <FontAwesomeIcon icon={meet.isCombinedReport ? "fas faBook" : "fas faFutbol"} />&nbsp;{meet.label}
+            </label>);
+    });
+
     let singleOrMultipleLabel: string | null = null;
     if (outputType !== OutputType.Stats) {
         switch (outputType) {
@@ -120,6 +129,23 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
         }
     }
 
+    const handlePrintClick = () => {
+
+        // Update the print configuration so the main window triggers a print.
+        const printConfig: PrintConfiguration = {
+            outputType: outputType,
+            statsFormat: statsFormat,
+            showSinglePerPage: showSinglePerPage,
+            includeStats: includeStats,
+            selectedMeets: resolvedMeets.filter(meet => selectedMeets == null || selectedMeets.has(`${meet.databaseId}_${meet.meetId}`)),
+        };
+
+        sharedPrintConfiguration.set(printConfig);
+
+        // Close the dialog.
+        (document.getElementById(PrintDialogModalId) as any).close();
+    };
+
     return (
         <div className="overflow-x-auto overflow-y-auto pl-4">
             <p className="text-2xl font-bold mb-4">
@@ -128,18 +154,19 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
             <form method="dialog">
                 <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
                     <legend className="fieldset-legend">Type</legend>
-                    <label className="label">
-                        <input
-                            type="radio"
-                            name="output-type"
-                            className="radio radio-info"
-                            value={OutputType.Stats}
-                            checked={outputType === OutputType.Stats}
-                            onChange={handleOutputTypeChange} />
-                        <span className="text-sm">
-                            <FontAwesomeIcon icon="fas faTrophy" />&nbsp;Stats
-                        </span>
-                    </label>
+                    {hasRanking && (
+                        <label className="label">
+                            <input
+                                type="radio"
+                                name="output-type"
+                                className="radio radio-info"
+                                value={OutputType.Stats}
+                                checked={outputType === OutputType.Stats}
+                                onChange={handleOutputTypeChange} />
+                            <span className="text-sm">
+                                <FontAwesomeIcon icon="fas faTrophy" />&nbsp;Stats
+                            </span>
+                        </label>)}
                     <label className="label">
                         <input
                             type="radio"
@@ -223,27 +250,15 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
                 </fieldset>
                 <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 grid grid-cols-1 md:grid-cols-2 md:grid-cols-3 gap-4">
                     <legend className="fieldset-legend">Meets</legend>
-                    {resolvedMeets.map((meet: ScoringReportMeet, index: number) => {
-                        const isChecked = selectedMeets == null || selectedMeets.has(`${meet.databaseId}_${meet.meetId}`);
-
-                        return (
-                            <label key={`print-meet-${index}`} className="label text-sm cursor-pointer mt-0">
-                                <input
-                                    type="checkbox"
-                                    name="meet"
-                                    className="checkbox checkbox-sm checkbox-info"
-                                    checked={isChecked}
-                                    onChange={(e) => handleMeetSelectionChange(meet.databaseId, meet.meetId, e.target.checked)} />
-                                <FontAwesomeIcon icon={meet.isCombinedReport ? "fas faBook" : "fas faFutbol"} />&nbsp;{meet.label}
-                            </label>);
-                    })}
+                    {resolvedMeetFields}
                 </fieldset>
             </form>
             <div className="modal-action">
                 <button
                     type="submit"
                     className="btn btn-primary mt-4"
-                    disabled={selectedMeets && selectedMeets.size === 0}>
+                    disabled={selectedMeets && selectedMeets.size === 0}
+                    onClick={handlePrintClick}>
                     <FontAwesomeIcon icon="fas faPrint" />&nbsp;Print
                 </button>
                 <button type="button" className="btn">Close</button>

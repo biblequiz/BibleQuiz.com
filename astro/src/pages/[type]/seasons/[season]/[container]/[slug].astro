@@ -2,6 +2,7 @@
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
 import PrintDialog from "@components/scores/PrintDialog.astro";
+import PrintDialogResolver from "@components/scores/PrintDialogResolver";
 import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
 import RoomDialog from "@components/scores/RoomDialog.astro";
 import StatsTabContent from "@components/scores/StatsTabContent";
@@ -194,7 +195,7 @@ if (event) {
             />
         )
     }
-    <div id="scoreTabs" style={initialScoresTabStyle}>
+    <div id="scoreTabs" class="hide-on-print" style={initialScoresTabStyle}>
         <FontAwesomeTabs syncKey={`scores-${eventInfo.id}`}>
             {
                 hasStatsTab && (
@@ -375,4 +376,17 @@ if (event) {
         eventName={eventInfo.name}
         report={event}
     />
+    <PrintDialogResolver
+        eventId={eventInfo.id}
+        event={event}
+        client:only="react"
+    />
 </StarlightPage>
+
+<style>
+    @media print {
+        @page {
+            size: landscape;
+        }
+    }
+</style>
