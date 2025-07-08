@@ -95,7 +95,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                                                 return (
                                                     <td key={matchKey} className="text-center">
                                                         <RoomDialogLink label={`Match ${matchId} in ${room.Name} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={matchId} roomId={roomId}>
-                                                            <FontAwesomeIcon icon={iconName} classes={iconClasses} />
+                                                            <FontAwesomeIcon icon={iconName} classNames={iconClasses} />
                                                             {meet.HasLinkedMeets && (
                                                                 <>
                                                                     <br />
