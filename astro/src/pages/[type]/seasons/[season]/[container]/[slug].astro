@@ -21,7 +21,7 @@ import districts from "@data/districts.json";
 // Build the list of static routes based on the events file.
 import path from "path";
 import { promises as fs } from "fs";
-import { EventTypeList, EventList, EventInfo } from "@types/EventTypes";
+import type { EventTypeList, EventList, EventInfo } from "../../../../../types/EventTypes";
 import { EventScoringReport } from "@types/EventScoringReport";
 import {
     getAstroRootSourcePath,
@@ -95,7 +95,7 @@ async function getEventIdFromUrl(
         await fs.readFile(eventsFilePath, "utf-8"),
     ) as EventTypeList;
 
-    const typeEvents = seasonEvents[type] as EventTypeList;
+    const typeEvents = seasonEvents[type] as EventList;
     if (!typeEvents) {
         return null;
     }
@@ -374,7 +374,7 @@ if (event) {
         <RoomDialog />
     </div>
     <PrintDialog
-        eventId={eventInfo.eventId}
+        eventId={eventInfo.id}
         eventName={eventInfo.name}
         report={event}
     />

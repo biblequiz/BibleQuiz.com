@@ -1,14 +1,5 @@
-export type EventTypeList = { [type: string]: EventCategories };
-
-export interface EventCategories {
-    nationals: EventInfo | null;
-    regionals: EventList;
-    districts: EventList;
-    other: EventList;
-    reports: ReportList;
-}
+export type EventTypeList = { [type: string]: EventList };
 export type EventList = { [slug: string]: EventInfo };
-export type ReportList = { [slug: string]: ReportInfo };
 
 export interface EventInfo {
     id: string;
@@ -16,21 +7,14 @@ export interface EventInfo {
     name: string;
     regionId: string | null;
     districtId: string | null;
-    scope: string;
-    dates: string;
-    startDate: string;
-    endDate: string;
+    scope: "district" | "region" | "tournament" | "nation";
+    dates: string | null;
+    startDate: string | null;
+    endDate: string | null;
     registrationDates: string | null;
     registrationEndDate: string | null;
-    locationName: string;
-    locationCity: string;
-}
-
-export interface ReportInfo {
-    id: string;
-    season: number;
-    name: string;
-    regionId: string | null;
-    districtId: string | null;
-    scope: string;
+    locationName: string | null;
+    locationCity: string | null;
+    isVisible: boolean;
+    isReport: boolean;
 }
