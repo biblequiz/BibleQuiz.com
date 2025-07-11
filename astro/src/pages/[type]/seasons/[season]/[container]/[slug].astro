@@ -149,7 +149,7 @@ const frontmatter: StarlightPageFrontmatter = {
     eventType: type,
     eventDates: eventInfo.dates,
     eventScope: eventInfo.scope,
-    eventLocation: eventInfo.locationCity,
+    eventLocation: eventInfo.locationCity ?? eventInfo.locationName,
     eventIsLoaded: event ? true : false,
     hidePageTitleOnPrint: true,
     hideFooterOnPrint: true,
