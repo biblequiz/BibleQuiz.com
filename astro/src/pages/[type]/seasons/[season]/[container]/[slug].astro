@@ -107,8 +107,6 @@ async function getEventIdFromUrl(
 
     const event = typeEvents[`${container}/${slug}/`] as EventInfo;
     if (!event) {
-        console.log(`no event info for ${type} ${container}/${slug}/`);
-        console.log(JSON.stringify(Object.keys(typeEvents)));
         return null;
     }
 

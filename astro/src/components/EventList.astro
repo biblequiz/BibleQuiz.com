@@ -36,25 +36,23 @@ const districts = hideFilters
           path.resolve(rootSourcePath, "data/districts.json"),
       );
 
-const allEvents = JSON.parse(
-    await fs.readFile(eventsFilePath, "utf-8"),
-) as EventTypeList;
-
+const allEvents = await tryReadFileAsJson<EventTypeList>(eventsFilePath);
 const jbqTabEvents: EventList | null =
-    jbq && tbq ? (allEvents["jbq"] as EventList) : null;
+    jbq && tbq && allEvents ? (allEvents["jbq"] as EventList) : null;
 const tbqTabEvents: EventList | null =
-    jbq && tbq ? (allEvents["tbq"] as EventList) : null;
+    jbq && tbq && allEvents ? (allEvents["tbq"] as EventList) : null;
 
 const typeEventsType: string | null = jbqTabEvents ? null : jbq ? "jbq" : "tbq";
 
-const typeEvents: EventList | null = typeEventsType
-    ? allEvents[typeEventsType]
-    : null;
+const typeEvents: EventList | null =
+    typeEventsType && allEvents ? allEvents[typeEventsType] : null;
 const regionalsTabEvents: EventList | null = typeEvents ? {} : null;
 const districtTabEvents: EventList | null = typeEvents ? {} : null;
 const tournamentTabEvents: EventList | null = typeEvents ? {} : null;
 const reportsTabEvents: EventList | null = typeEvents ? {} : null;
 const otherTabEvents: EventList | null = typeEvents ? {} : null;
+
+const hasAtLeastOneEvent = jbqTabEvents || tbqTabEvents || typeEvents;
 
 if (typeEvents) {
     for (let slug in typeEvents) {
@@ -93,49 +91,60 @@ if (typeEvents) {
         )
     }
     <div class="mt-4">
-        <FontAwesomeTabs syncKey={`events-${season}-${jbq}-${tbq}`}>
-            <EventListTabItem
-                label="Junior Bible Quiz (JBQ)"
-                id="jbq"
-                type="jbq"
-                events={jbqTabEvents}
-            />
-            <EventListTabItem
-                label="Teen Bible Quiz (TBQ)"
-                id="tbq"
-                type="tbq"
-                events={tbqTabEvents}
-            />
-            <EventListTabItem
-                label="Regional Finals"
-                id="regionals"
-                type={typeEventsType}
-                events={regionalsTabEvents}
-            />
-            <EventListTabItem
-                label="District Finals"
-                id="districts"
-                type={typeEventsType}
-                events={districtTabEvents}
-            />
-            <EventListTabItem
-                label="Tournaments"
-                id="tournaments"
-                type={typeEventsType}
-                events={tournamentTabEvents}
-            />
-            <EventListTabItem
-                label="Reports"
-                id="reports"
-                type={typeEventsType}
-                events={reportsTabEvents}
-            />
-            <EventListTabItem
-                label="Other Competitions"
-                id="other"
-                type={typeEventsType}
-                events={otherTabEvents}
-            />
-        </FontAwesomeTabs>
+        {
+            hasAtLeastOneEvent && (
+                <FontAwesomeTabs syncKey={`events-${season}-${jbq}-${tbq}`}>
+                    <EventListTabItem
+                        label="Junior Bible Quiz (JBQ)"
+                        id="jbq"
+                        type="jbq"
+                        events={jbqTabEvents}
+                    />
+                    <EventListTabItem
+                        label="Teen Bible Quiz (TBQ)"
+                        id="tbq"
+                        type="tbq"
+                        events={tbqTabEvents}
+                    />
+                    <EventListTabItem
+                        label="Regional Finals"
+                        id="regionals"
+                        type={typeEventsType}
+                        events={regionalsTabEvents}
+                    />
+                    <EventListTabItem
+                        label="District Finals"
+                        id="districts"
+                        type={typeEventsType}
+                        events={districtTabEvents}
+                    />
+                    <EventListTabItem
+                        label="Tournaments"
+                        id="tournaments"
+                        type={typeEventsType}
+                        events={tournamentTabEvents}
+                    />
+                    <EventListTabItem
+                        label="Reports"
+                        id="reports"
+                        type={typeEventsType}
+                        events={reportsTabEvents}
+                    />
+                    <EventListTabItem
+                        label="Other Competitions"
+                        id="other"
+                        type={typeEventsType}
+                        events={otherTabEvents}
+                    />
+                </FontAwesomeTabs>
+            )
+        }
+        {
+            !hasAtLeastOneEvent && (
+                <p class="text-center text-muted italic">
+                    No events found for this season yet. Please check back later.
+                </p>
+            )
+        }
     </div>
 </div>
