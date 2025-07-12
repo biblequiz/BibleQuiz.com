@@ -10,6 +10,7 @@ menubar: menu_history
 
 | Year | Individuals      | Material                                                | Time & Mistake Restrictions        |
 | ---- | ---------------- | ------------------------------------------------------- | ---------------------------------- |
+| 2025 | 39 quizzers      | Acts                                                    | 1 hour and 15 minutes, 15 mistakes |
 | 2024 | 39 quizzers      | Romans & James                                          | 55 minutes, 11 mistakes            |
 | 2023 | 32 quizzers      | Thessalonians, Timothy, Titus, 1, 2, 3 John             | 45 minutes, 5 mistakes             |
 | 2022 | 16 quizzers      | Gospel of Matthew                                       | 1 hour and 45 minutes, 10 mistakes |
@@ -35,6 +36,7 @@ menubar: menu_history
 
 | Year | Individuals        | Material                                                |
 | ---- | ------------------ | ------------------------------------------------------- |
+| 2025 | 173 quizzers (1C)  | Acts                                                    |
 | 2024 | 175 quizzers (2C)  | Romans & James                                          |
 | 2023 | 109 quizzers       | Thessalonians, Timothy, Titus, 1, 2, 3 John             |
 | 2022 | 95 quizzers        | Gospel of Matthew                                       |
@@ -65,6 +67,7 @@ menubar: menu_history
 
 | Year | Individuals     | Material                                                |
 | ---- | --------------- | ------------------------------------------------------- |
+| 2025 | 84 Individuals  | Acts                                                    |
 | 2024 | 72 Individuals  | Romans & James                                          |
 | 2023 | 69 Individuals  | Thessalonians, Timothy, Titus, 1,2,3 John               |
 | 2022 | 43 Individuals  | Gospel of Matthew                                       |
