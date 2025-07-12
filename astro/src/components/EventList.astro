@@ -86,7 +86,7 @@ if (jbq || tbq) {
             events: {},
         };
 
-        for (let slug in allEvents) {
+        for (let slug in typeEvents) {
             let tab: EventListTab;
             if (slug.startsWith("regionals/")) {
                 tab = regionalFinals;
@@ -130,7 +130,7 @@ if (jbq || tbq) {
 
 <div>
     {
-        hideFilters && (
+        !hideFilters && (
             <EventListFilters
                 regions={regions}
                 districts={districts}

@@ -1,7 +1,6 @@
 import React from 'react';
 import { useStore } from "@nanostores/react";
-import type { EventListFilterConfiguration } from "../utils/SharedState";
-import { sharedEventListFilter } from "@utils/SharedState";
+import { sharedEventListFilter, type EventListFilterConfiguration } from "../utils/SharedState";
 import EventScopeBadge from './EventScopeBadge.tsx';
 
 import type { RegionInfo, DistrictInfo } from "../types/RegionAndDistricts";
@@ -33,15 +32,15 @@ export default function EventListFilters({ regions, districts }: Props) {
     }
 
     sharedEventListFilter.set({
-      searchText: sharedEventListFilter?.searchText ?? null,
-      showNation: sharedEventListFilter?.showNation ?? true,
-      showRegion: sharedEventListFilter?.showRegion ?? true,
-      showDistrict: sharedEventListFilter?.showDistrict ?? true,
+      searchText: eventFilters?.searchText ?? null,
+      showNation: eventFilters?.showNation ?? true,
+      showRegion: eventFilters?.showRegion ?? true,
+      showDistrict: eventFilters?.showDistrict ?? true,
 
       regionId: regionId,
       districtId: districtId,
 
-      selectedTab: sharedEventListFilter?.selectedTab ?? null
+      selectedTab: eventFilters?.selectedTab ?? null
     });
   };
 
@@ -51,17 +50,28 @@ export default function EventListFilters({ regions, districts }: Props) {
     const checkedValue = e.target.value;
 
     sharedEventListFilter.set({
-      searchText: sharedEventListFilter?.searchText ?? null,
-      showNation: checkedValue == "nation" ? isChecked : (sharedEventListFilter?.showNation ?? true),
-      showRegion: checkedValue == "region" ? isChecked : (sharedEventListFilter?.showRegion ?? true),
-      showDistrict: checkedValue == "district" ? isChecked : (sharedEventListFilter?.showDistrict ?? true),
+      searchText: eventFilters?.searchText ?? null,
+      showNation: checkedValue == "nation" ? isChecked : (eventFilters?.showNation ?? true),
+      showRegion: checkedValue == "region" ? isChecked : (eventFilters?.showRegion ?? true),
+      showDistrict: checkedValue == "district" ? isChecked : (eventFilters?.showDistrict ?? true),
 
-      regionId: sharedEventListFilter?.regionId ?? null,
-      districtId: sharedEventListFilter?.districtId ?? null,
+      regionId: eventFilters?.regionId ?? null,
+      districtId: eventFilters?.districtId ?? null,
 
-      selectedTab: sharedEventListFilter?.selectedTab ?? null
+      selectedTab: eventFilters?.selectedTab ?? null
     });
   };
+
+  let selectedScope: string;
+  if (eventFilters?.districtId) {
+    selectedScope = `${eventFilters.regionId}_${eventFilters.districtId}`;
+  }
+  else if (eventFilters?.regionId) {
+    selectedScope = eventFilters.regionId;
+  }
+  else {
+    selectedScope = "";
+  }
 
   return (
     <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0">
@@ -69,15 +79,15 @@ export default function EventListFilters({ regions, districts }: Props) {
       <div>
         <label className="select">
           <span className="label">Filter</span>
-          <select onChange={handleRegionOrDistrictChange}>
-            <option value="" selected={!eventFilters || (!eventFilters.regionId && !eventFilters.districtId)}>
+          <select onChange={handleRegionOrDistrictChange} defaultValue={selectedScope}>
+            <option value="">
               Any Region or District
             </option>
             <option value="" disabled>
               ----------------------
             </option>
             {regions.map((region) => (
-              <option key={`reg_${region.id}`} value={region.id} selected={eventFilters?.regionId == region.id}>
+              <option key={`reg_${region.id}`} value={region.id}>
                 {region.name} Region
               </option>
             ))}
@@ -85,7 +95,7 @@ export default function EventListFilters({ regions, districts }: Props) {
               ----------------------
             </option>
             {districts.map((district) => (
-              <option key={`dis_${district.id}`} value={`${district.regionId}_${district.id}`} selected={eventFilters?.districtId == district.id}>
+              <option key={`dis_${district.id}`} value={`${district.regionId}_${district.id}`}>
                 {district.name} District
               </option>
             ))}
