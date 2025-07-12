@@ -8,6 +8,9 @@ interface Panel {
 	tabId: string;
 	label: string;
 	icon?: string;
+	badge?: string;
+	badgeClass?: string;
+	badgeId?: string;
 	padding?: number;
 }
 
@@ -61,7 +64,7 @@ const tabsProcessor = rehype()
 					return CONTINUE;
 				}
 
-				const { dataLabel, dataIcon, dataPadding } = node.properties;
+				const { dataLabel, dataIcon, dataPadding, dataBadge, dataBadgeClass, dataBadgeId } = node.properties;
 				const ids = getIDs();
 				const panel: Panel = {
 					...ids,
@@ -69,6 +72,15 @@ const tabsProcessor = rehype()
 					padding: dataPadding ? Number(dataPadding) : 6,
 				};
 				if (dataIcon) panel.icon = String(dataIcon);
+				if (dataBadge) {
+					panel.badge = String(dataBadge);
+					if (dataBadgeId) {
+						panel.badgeId = String(dataBadgeId);
+					}
+					if (dataBadgeClass) {
+						panel.badgeClass = String(dataBadgeClass);
+					}
+				}
 				file.data.panels?.push(panel);
 
 				// Remove `<TabItem>` props

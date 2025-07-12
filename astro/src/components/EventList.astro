@@ -1,11 +1,12 @@
 ---
 import EventListFilters from "./EventListFilters.tsx";
-import EventListTabs, { type EventListTab } from "./EventListTabs.tsx";
 import path from "path";
 import { promises as fs } from "fs";
 import { getAstroRootSourcePath, tryReadFileAsJson } from "@utils/FileSystem";
 import type { EventTypeList, EventList } from "../types/EventTypes";
 import type { RegionInfo, DistrictInfo } from "../types/RegionAndDistricts";
+import FontAwesomeTabs from "./FontAwesomeTabs.astro";
+import EventListTabItem from "./EventListTabItem.astro";
 
 interface Props {
     season: number | "future";
@@ -39,91 +40,46 @@ const allEvents = JSON.parse(
     await fs.readFile(eventsFilePath, "utf-8"),
 ) as EventTypeList;
 
-let tabs: EventListTab[] = [];
-if (jbq || tbq) {
-    if (jbq && tbq) {
-        tabs = [
-            {
-                label: "Junior Bible Quiz (JBQ)",
-                events: allEvents["jbq"] as EventList,
-                type: "jbq",
-            },
-            {
-                label: "Teen Bible Quiz (TBQ)",
-                events: allEvents["tbq"] as EventList,
-                type: "jbq",
-            },
-        ];
-    } else {
-        const type: string = jbq ? "jbq" : "tbq";
-        const typeEvents: EventList = jbq
-            ? (allEvents["jbq"] as EventList)
-            : (allEvents["tbq"] as EventList);
+const jbqTabEvents: EventList | null =
+    jbq && tbq ? (allEvents["jbq"] as EventList) : null;
+const tbqTabEvents: EventList | null =
+    jbq && tbq ? (allEvents["tbq"] as EventList) : null;
 
-        const regionalFinals: EventListTab = {
-            label: "Regional Finals",
-            type: type,
-            events: {},
-        };
-        const districtFinals: EventListTab = {
-            label: "District Finals",
-            type: type,
-            events: {},
-        };
-        const tournaments: EventListTab = {
-            label: "Tournaments",
-            type: type,
-            events: {},
-        };
-        const reports: EventListTab = {
-            label: "Reports",
-            type: type,
-            events: {},
-        };
-        const other: EventListTab = {
-            label: "Other Competitions",
-            type: type,
-            events: {},
-        };
+const typeEvents: EventList | null = jbqTabEvents
+    ? null
+    : jbq
+      ? allEvents["jbq"]
+      : allEvents["tbq"];
 
-        for (let slug in typeEvents) {
-            let tab: EventListTab;
-            if (slug.startsWith("regionals/")) {
-                tab = regionalFinals;
-            } else if (slug.startsWith("district/")) {
-                tab = districtFinals;
-            } else if (slug.startsWith("tournaments/")) {
-                tab = tournaments;
-            } else if (slug.startsWith("reports/")) {
-                tab = reports;
-            } else if (slug.startsWith("other/")) {
-                tab = other;
-            } else {
-                continue; // No matched event.
-            }
+(jbq || tbq) && !(jbq && tbq) ? jbqTabEvents || tbqTabEvents : null;
+const regionalsTabEvents: EventList | null = typeEvents ? {} : null;
+const districtTabEvents: EventList | null = typeEvents ? {} : null;
+const tournamentTabEvents: EventList | null = typeEvents ? {} : null;
+const reportsTabEvents: EventList | null = typeEvents ? {} : null;
+const otherTabEvents: EventList | null = typeEvents ? {} : null;
 
-            tab.events[slug] = typeEvents[slug];
+if (typeEvents) {
+    for (let slug in typeEvents) {
+        let tabEvents: EventList | null;
+        if (slug.startsWith("regionals/")) {
+            tabEvents = regionalsTabEvents;
+        } else if (slug.startsWith("districts/")) {
+            tabEvents = districtTabEvents;
+        } else if (slug.startsWith("tournaments/")) {
+            tabEvents = tournamentTabEvents;
+        } else if (slug.startsWith("reports/")) {
+            tabEvents = reportsTabEvents;
+        } else if (slug.startsWith("other/")) {
+            tabEvents = otherTabEvents;
+        } else {
+            continue; // No matched event.
         }
 
-        if (Object.keys(regionalFinals.events).length > 0) {
-            tabs.push(regionalFinals);
+        if (!tabEvents) {
+            continue;
         }
 
-        if (Object.keys(districtFinals.events).length > 0) {
-            tabs.push(districtFinals);
-        }
-
-        if (Object.keys(tournaments.events).length > 0) {
-            tabs.push(tournaments);
-        }
-
-        if (Object.keys(reports.events).length > 0) {
-            tabs.push(reports);
-        }
-
-        if (Object.keys(other.events).length > 0) {
-            tabs.push(other);
-        }
+        tabEvents[slug] = typeEvents[slug];
     }
 }
 ---
@@ -138,5 +94,15 @@ if (jbq || tbq) {
             />
         )
     }
-    <EventListTabs tabs={tabs} client:only="react" />
+    <div class="mt-4">
+        <FontAwesomeTabs syncKey={`events-${season}-${jbq}-${tbq}`}>
+            <EventListTabItem label="Junior Bible Quiz (JBQ)" id="jbq" events={jbqTabEvents} />
+            <EventListTabItem label="Teen Bible Quiz (TBQ)" id="tbq" events={tbqTabEvents} />
+            <EventListTabItem label="Regional Finals" id="regionals" events={regionalsTabEvents} />
+            <EventListTabItem label="District Finals" id="districts" events={districtTabEvents} />
+            <EventListTabItem label="Tournaments" id="tournaments" events={tournamentTabEvents} />
+            <EventListTabItem label="Reports" id="reports" events={reportsTabEvents} />
+            <EventListTabItem label="Other Competitions" id="other" events={otherTabEvents} />
+        </FontAwesomeTabs>
+    </div>
 </div>

@@ -1,0 +1,31 @@
+---
+import type { EventList } from "../types/EventTypes";
+import EventListTabContent from "./EventListTabContent";
+import FontAwesomeTabItem from "./FontAwesomeTabItem.astro";
+
+interface Props {
+    label: string;
+    id: string;
+    events: EventList | null;
+}
+
+const { id, label, events } = Astro.props as Props;
+const badgeId = `${id}-tab-badge`;
+---
+
+{
+    events && Object.keys(events).length > 0 && (
+        <FontAwesomeTabItem
+            label={label}
+            badge={Object.keys(events).length.toString()}
+            badgeId={badgeId}
+            badgeClass="badge-secondary"
+        >
+            <EventListTabContent
+                badgeId={badgeId}
+                events={events}
+                client:only="react"
+            />
+        </FontAwesomeTabItem>
+    )
+}

@@ -71,8 +71,6 @@ export interface EventListFilterConfiguration {
 
     regionId: string | null;
     districtId: string | null;
-
-    selectedTab: string | null;
 };
 
 export const sharedEventListFilter: EventListFilterConfiguration | null = atom(null);

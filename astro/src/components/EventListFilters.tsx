@@ -40,8 +40,6 @@ export default function EventListFilters({ regions, districts }: Props) {
 
       regionId: regionId,
       districtId: districtId,
-
-      selectedTab: eventFilters?.selectedTab ?? null
     });
   };
 
@@ -59,8 +57,6 @@ export default function EventListFilters({ regions, districts }: Props) {
 
       regionId: eventFilters?.regionId ?? null,
       districtId: eventFilters?.districtId ?? null,
-
-      selectedTab: eventFilters?.selectedTab ?? null
     });
   };
 
