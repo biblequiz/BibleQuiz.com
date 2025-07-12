@@ -5,6 +5,6 @@ sidebar:
     order: 1
 ---
 
-import EventList from '@components/EventList.tsx';
+import EventList from '@components/EventList.astro';
 
-<EventList client:only="react" persistenceKey="upcoming-events" />
+<EventList season="future" jbq={true} tbq={true} />

@@ -74,9 +74,9 @@ sidebar:
   label: Results
 ---
 
-:::note
+:::caution
 The content of this page is programmatically replaced by the automatic event page generation. The frontmatter is used to sort
-and label the item in the sidebar.
+and label the item in the sidebar. If you see this, it's an error.
 :::
 ```
 

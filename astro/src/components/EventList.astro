@@ -1,0 +1,142 @@
+---
+import EventListFilters from "./EventListFilters.tsx";
+import EventListTabs, { type EventListTab } from "./EventListTabs.tsx";
+import path from "path";
+import { promises as fs } from "fs";
+import { getAstroRootSourcePath, tryReadFileAsJson } from "@utils/FileSystem";
+import type { EventTypeList, EventList } from "../types/EventTypes";
+import type { RegionInfo, DistrictInfo } from "../types/RegionAndDistricts";
+
+interface Props {
+    season: number | "future";
+    jbq?: boolean;
+    tbq?: boolean;
+    hideFilters?: boolean;
+}
+
+const { season, jbq, tbq, hideFilters } = Astro.props as Props;
+
+const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
+const eventsFilePath = path.resolve(
+    rootSourcePath,
+    "data/generated",
+    season === "future" ? "futureEvents.json" : `seasons/${season}/events.json`,
+);
+
+const regions = hideFilters
+    ? null
+    : await tryReadFileAsJson<RegionInfo[]>(
+          path.resolve(rootSourcePath, "data/regions.json"),
+      );
+
+const districts = hideFilters
+    ? null
+    : await tryReadFileAsJson<DistrictInfo[]>(
+          path.resolve(rootSourcePath, "data/districts.json"),
+      );
+
+const allEvents = JSON.parse(
+    await fs.readFile(eventsFilePath, "utf-8"),
+) as EventTypeList;
+
+let tabs: EventListTab[] = [];
+if (jbq || tbq) {
+    if (jbq && tbq) {
+        tabs = [
+            {
+                label: "Junior Bible Quiz (JBQ)",
+                events: allEvents["jbq"] as EventList,
+                type: "jbq",
+            },
+            {
+                label: "Teen Bible Quiz (TBQ)",
+                events: allEvents["tbq"] as EventList,
+                type: "jbq",
+            },
+        ];
+    } else {
+        const type: string = jbq ? "jbq" : "tbq";
+        const typeEvents: EventList = jbq
+            ? (allEvents["jbq"] as EventList)
+            : (allEvents["tbq"] as EventList);
+
+        const regionalFinals: EventListTab = {
+            label: "Regional Finals",
+            type: type,
+            events: {},
+        };
+        const districtFinals: EventListTab = {
+            label: "District Finals",
+            type: type,
+            events: {},
+        };
+        const tournaments: EventListTab = {
+            label: "Tournaments",
+            type: type,
+            events: {},
+        };
+        const reports: EventListTab = {
+            label: "Reports",
+            type: type,
+            events: {},
+        };
+        const other: EventListTab = {
+            label: "Other Competitions",
+            type: type,
+            events: {},
+        };
+
+        for (let slug in allEvents) {
+            let tab: EventListTab;
+            if (slug.startsWith("regionals/")) {
+                tab = regionalFinals;
+            } else if (slug.startsWith("district/")) {
+                tab = districtFinals;
+            } else if (slug.startsWith("tournaments/")) {
+                tab = tournaments;
+            } else if (slug.startsWith("reports/")) {
+                tab = reports;
+            } else if (slug.startsWith("other/")) {
+                tab = other;
+            } else {
+                continue; // No matched event.
+            }
+
+            tab.events[slug] = typeEvents[slug];
+        }
+
+        if (Object.keys(regionalFinals.events).length > 0) {
+            tabs.push(regionalFinals);
+        }
+
+        if (Object.keys(districtFinals.events).length > 0) {
+            tabs.push(districtFinals);
+        }
+
+        if (Object.keys(tournaments.events).length > 0) {
+            tabs.push(tournaments);
+        }
+
+        if (Object.keys(reports.events).length > 0) {
+            tabs.push(reports);
+        }
+
+        if (Object.keys(other.events).length > 0) {
+            tabs.push(other);
+        }
+    }
+}
+---
+
+<div>
+    {
+        hideFilters && (
+            <EventListFilters
+                regions={regions}
+                districts={districts}
+                client:only="react"
+            />
+        )
+    }
+    <EventListTabs tabs={tabs} client:only="react" />
+</div>

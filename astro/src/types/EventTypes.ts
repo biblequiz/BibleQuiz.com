@@ -7,7 +7,8 @@ export interface EventInfo {
     name: string;
     regionId: string | null;
     districtId: string | null;
-    scope: "district" | "region" | "tournament" | "nation";
+    scope: "district" | "region" | "nation";
+    scopeLabel: string;
     dates: string | null;
     startDate: string | null;
     endDate: string | null;

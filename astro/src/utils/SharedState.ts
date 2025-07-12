@@ -1,7 +1,9 @@
 import { atom } from 'nanostores';
 import { EventScoringReport } from "@types/EventScoringReport";
 import { RoomScoringReport } from "@types/RoomScoringReport";
+import type { EventList } from '../types/EventTypes';
 
+/* Downloaded Event Report */
 export interface SharedEventScoringReportState {
     report: EventScoringReport | null;
     error: string | null;
@@ -18,6 +20,7 @@ export interface RoomDialogCriteria {
     roomId: number;
 }
 
+/* Downloaded Room Score Report */
 export interface SharedRoomScoringReportState {
     criteria: RoomDialogCriteria | null;
     report: RoomScoringReport | null;
@@ -26,7 +29,7 @@ export interface SharedRoomScoringReportState {
 
 export const sharedRoomScoringReportState: SharedRoomScoringReportState | null = atom(null);
 
-
+/* Print Dialog */
 export interface MeetReference {
     eventId: string;
     databaseId: string;
@@ -58,3 +61,18 @@ export interface PrintConfiguration {
 };
 
 export const sharedPrintConfiguration: PrintConfiguration | null = atom(null);
+
+/* Event List Filters */
+export interface EventListFilterConfiguration {
+    searchText: string | null;
+    showNation: boolean;
+    showRegion: boolean;
+    showDistrict: boolean;
+
+    regionId: string | null;
+    districtId: string | null;
+
+    selectedTab: string | null;
+};
+
+export const sharedEventListFilter: EventListFilterConfiguration | null = atom(null);
