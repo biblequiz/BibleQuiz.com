@@ -6,10 +6,11 @@ import FontAwesomeTabItem from "./FontAwesomeTabItem.astro";
 interface Props {
     label: string;
     id: string;
+    type: string;
     events: EventList | null;
 }
 
-const { id, label, events } = Astro.props as Props;
+const { id, label, events, type } = Astro.props as Props;
 const badgeId = `${id}-tab-badge`;
 ---
 
@@ -24,6 +25,7 @@ const badgeId = `${id}-tab-badge`;
             <EventListTabContent
                 badgeId={badgeId}
                 events={events}
+                type={type}
                 client:only="react"
             />
         </FontAwesomeTabItem>

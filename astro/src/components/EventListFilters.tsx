@@ -76,7 +76,7 @@ export default function EventListFilters({ regions, districts }: Props) {
       <legend className="fieldset-legend">Event Search Criteria</legend>
       <div>
         <label className="select">
-          <span className="label">Filter</span>
+          <span className="label">Scope</span>
           <select onChange={handleRegionOrDistrictChange} defaultValue={selectedScope}>
             <option value="">
               Any Region or District

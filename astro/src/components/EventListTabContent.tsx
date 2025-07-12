@@ -16,6 +16,10 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
     const today: Date = new Date();
     today.setHours(0, 0, 0, 0);
 
+    // Look two weeks into the future.
+    const scoresCutoff: Date = new Date(today.getTime());
+    scoresCutoff.setDate(today.getDate() + 14);
+
     let eventCount: number = 0;
     const eventRows = Object.keys(events).map((urlSlug: string, index: number) => {
         const event: EventInfo = events[urlSlug];
@@ -54,21 +58,23 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
 
         eventCount++;
 
-        let isRegistrationOpen: boolean = false;
         let registrationButtonText: string | null = null;
         if (event.registrationEndDate &&
             Date.parse(event.registrationEndDate) >= today.getTime()) {
-            isRegistrationOpen = true;
-            registrationButtonText = `Register until ${event.registrationDates}`;
+            registrationButtonText = `Register`;
         }
 
         let isPastEvent: boolean = false;
-        if (event.endDate &&
-            Date.parse(event.endDate) < today.getTime()) {
-            isPastEvent = true;
-        }
-        else {
-            registrationButtonText = "View Event Info";
+        let showScores: boolean = false;
+        if (event.endDate) {
+            const parsedDate = Date.parse(event.endDate);
+            if (parsedDate < today.getTime()) {
+                isPastEvent = true;
+                showScores = true;
+            }
+            else if (parsedDate < scoresCutoff.getTime()) {
+                showScores = true;
+            }
         }
 
         const registrationLink: string | null = registrationButtonText
@@ -80,10 +86,6 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
             Date.parse(event.startDate) <= today.getTime()) {
             isLiveEvent = true;
         }
-
-        const statsLink: string | null = isLiveEvent
-            ? `/${type}/seasons/${event.season}/${urlSlug}`
-            : null;
 
         let locationLabel: string | null = null;
         if (event.locationName || event.locationCity) {
@@ -104,31 +106,27 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
                     <EventScopeBadge scope={event.scope} label={event.scopeLabel ?? ""} />
                 </td>
                 <td>
-                    <h2 className="text-xl font-bold">{event.name}</h2>
-                    {locationLabel && <span className="text-gray-500 italic">{locationLabel}</span>}
+                    <div className="m-0 flex">
+                        {isLiveEvent && <div className="badge badge-primary mr-2">LIVE</div>}
+                        <p className="text-lg font-bold m-0">{event.name}</p>
+                    </div>
+                    {locationLabel && <p className="text-gray-500 italic m-0">{locationLabel}</p>}
                 </td>
                 <td>
                     {registrationLink &&
                         <a
-                            className="btn btn-secondary btn-block no-underline mb-4"
+                            className="btn btn-secondary btn-sm mr-2"
                             href={registrationLink}>
                             {registrationButtonText}
                         </a>}
-                    {!registrationLink && (<span className="italic">Closed</span>)}
-                </td>
-                <td>{event.dates}</td>
-                <td>
-                    {statsLink &&
+                    {showScores && (
                         <a
-                            className="btn btn-primary btn-block no-underline mb-4"
-                            href={statsLink}>
-                            <b><i>Live</i></b> Schedule & Scores
-                        </a>}
-                    {isPastEvent &&
-                        <a className="btn btn-info btn-block no-underline mb-4" href={`/${type}/seasons/${event.season}/${url}`}>
-                            Scores & Stats
-                        </a>}
+                            className="btn btn-primary btn-sm m-0"
+                            href={`/${type}/seasons/${event.season}/${urlSlug}`}>
+                            Schedule & Scores
+                        </a>)}
                 </td>
+                <td className="text-right">{event.dates}</td>
             </tr>);
     });
 
@@ -138,11 +136,10 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
         <table className="table table-s table-nowrap">
             <thead>
                 <tr>
-                    <th>Area</th>
+                    <th>Scope</th>
                     <th>Event</th>
-                    <th>Registration</th>
-                    <th>Date(s)</th>
                     <th>&nbsp;</th>
+                    <th className="text-right">Date(s)</th>
                 </tr>
             </thead>
             <tbody>

@@ -45,13 +45,11 @@ const jbqTabEvents: EventList | null =
 const tbqTabEvents: EventList | null =
     jbq && tbq ? (allEvents["tbq"] as EventList) : null;
 
-const typeEvents: EventList | null = jbqTabEvents
-    ? null
-    : jbq
-      ? allEvents["jbq"]
-      : allEvents["tbq"];
+const typeEventsType: string | null = jbqTabEvents ? null : jbq ? "jbq" : "tbq";
 
-(jbq || tbq) && !(jbq && tbq) ? jbqTabEvents || tbqTabEvents : null;
+const typeEvents: EventList | null = typeEventsType
+    ? allEvents[typeEventsType]
+    : null;
 const regionalsTabEvents: EventList | null = typeEvents ? {} : null;
 const districtTabEvents: EventList | null = typeEvents ? {} : null;
 const tournamentTabEvents: EventList | null = typeEvents ? {} : null;
@@ -96,13 +94,48 @@ if (typeEvents) {
     }
     <div class="mt-4">
         <FontAwesomeTabs syncKey={`events-${season}-${jbq}-${tbq}`}>
-            <EventListTabItem label="Junior Bible Quiz (JBQ)" id="jbq" events={jbqTabEvents} />
-            <EventListTabItem label="Teen Bible Quiz (TBQ)" id="tbq" events={tbqTabEvents} />
-            <EventListTabItem label="Regional Finals" id="regionals" events={regionalsTabEvents} />
-            <EventListTabItem label="District Finals" id="districts" events={districtTabEvents} />
-            <EventListTabItem label="Tournaments" id="tournaments" events={tournamentTabEvents} />
-            <EventListTabItem label="Reports" id="reports" events={reportsTabEvents} />
-            <EventListTabItem label="Other Competitions" id="other" events={otherTabEvents} />
+            <EventListTabItem
+                label="Junior Bible Quiz (JBQ)"
+                id="jbq"
+                type="jbq"
+                events={jbqTabEvents}
+            />
+            <EventListTabItem
+                label="Teen Bible Quiz (TBQ)"
+                id="tbq"
+                type="tbq"
+                events={tbqTabEvents}
+            />
+            <EventListTabItem
+                label="Regional Finals"
+                id="regionals"
+                type={typeEventsType}
+                events={regionalsTabEvents}
+            />
+            <EventListTabItem
+                label="District Finals"
+                id="districts"
+                type={typeEventsType}
+                events={districtTabEvents}
+            />
+            <EventListTabItem
+                label="Tournaments"
+                id="tournaments"
+                type={typeEventsType}
+                events={tournamentTabEvents}
+            />
+            <EventListTabItem
+                label="Reports"
+                id="reports"
+                type={typeEventsType}
+                events={reportsTabEvents}
+            />
+            <EventListTabItem
+                label="Other Competitions"
+                id="other"
+                type={typeEventsType}
+                events={otherTabEvents}
+            />
         </FontAwesomeTabs>
     </div>
 </div>
