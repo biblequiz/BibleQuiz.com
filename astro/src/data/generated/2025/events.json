@@ -1,10 +1,11 @@
 {
   "jbq": {
-    "nationals/results": {
+    "nationals/results/": {
       "id": "7ccdf141-6027-4c07-2345-08dd5f8101b1",
       "season": 2025,
       "name": "2025 JBQ National Festival",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Jun 12 - 17, 2025",
       "registrationDates": "Closed",
       "locationName": "Calvary Church",
@@ -12,12 +13,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/southwest": {
+    "regionals/southwest/": {
       "id": "2afc5a83-6e2d-4e00-de54-08dd7082ec3b",
       "season": 2025,
       "name": "2025 JBQ Regional Finals",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "scope": "region",
+      "scopeLabel": "Southwest Region",
       "dates": "May 3, 2025",
       "registrationDates": "Closed",
       "locationName": "International Assembly of God",
@@ -25,12 +27,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/southeast": {
+    "regionals/southeast/": {
       "id": "1102e168-0156-40d6-431f-08dd5a5d5ca2",
       "season": 2025,
       "name": "2025 JBQ Regional Finals",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "scope": "region",
+      "scopeLabel": "Southeast Region",
       "dates": "May 2 - 3, 2025",
       "registrationDates": "Closed",
       "locationName": "Lake Wylie Christian Assembly of God",
@@ -38,12 +41,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/great-lakes": {
+    "regionals/great-lakes/": {
       "id": "027acebf-8ffe-411e-b5d9-08dd5b640ec0",
       "season": 2025,
       "name": "2025 JBQ Regional Finals",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "scope": "region",
+      "scopeLabel": "Great Lakes Region",
       "dates": "May 2 - 3, 2025",
       "registrationDates": "Closed",
       "locationName": "Dayspring Assembly of God",
@@ -51,12 +55,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/north-central": {
+    "regionals/north-central/": {
       "id": "696b86d5-0321-473f-2347-08dd5f8101b1",
       "season": 2025,
       "name": "2025 JBQ Regional Finals",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "scope": "region",
+      "scopeLabel": "North Central Region",
       "dates": "May 2 - 3, 2025",
       "registrationDates": "Closed",
       "locationName": "Celebration Church",
@@ -64,12 +69,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/Northwest": {
+    "regionals/Northwest/": {
       "id": "1edf3cab-7c11-4219-d296-08dd60d23258",
       "season": 2025,
       "name": "2025 JBQ Regional Finals",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "scope": "region",
+      "scopeLabel": "Northwest Region",
       "dates": "May 2 - 3, 2025",
       "registrationDates": "Closed",
       "locationName": "Valley Assembly of God",
@@ -77,12 +83,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/gulf": {
+    "regionals/gulf/": {
       "id": "f7e34af5-34ca-4bbf-76f6-08dd65bc1503",
       "season": 2025,
       "name": "2025 JBQ Regional Finals",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "scope": "region",
+      "scopeLabel": "Gulf Region",
       "dates": "Apr 26, 2025",
       "registrationDates": "Closed",
       "locationName": "Life360 Church",
@@ -90,12 +97,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/northeast": {
+    "regionals/northeast/": {
       "id": "2534012e-545e-4530-78e4-08dd540bcd75",
       "season": 2025,
       "name": "2025 JBQ Regional Finals",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "scope": "region",
+      "scopeLabel": "Northeast Region",
       "dates": "Apr 25 - 26, 2025",
       "registrationDates": "Closed",
       "locationName": "Bethany Assembly of God",
@@ -103,12 +111,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/South Central": {
+    "regionals/South Central/": {
       "id": "da20b748-cf9b-4a24-a854-08dd45821c69",
       "season": 2025,
       "name": "2025 JBQ Regional Finals",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "scope": "region",
+      "scopeLabel": "South Central Region",
       "dates": "Apr 25 - 26, 2025",
       "registrationDates": "Closed",
       "locationName": "First A/G San Antonio",
@@ -116,13 +125,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/north-carolina": {
+    "districts/north-carolina/": {
       "id": "ba4373a1-5029-4306-b752-08dd6c04e0fd",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "647f4ee7-9764-41f4-a22f-7a50dad12f80",
       "scope": "district",
+      "scopeLabel": "North Carolina District",
       "dates": "Apr 12, 2025",
       "registrationDates": "Closed",
       "locationName": "Multiply Church",
@@ -130,13 +140,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/66e50d1b-7d83-4f00-4a52-08dd2c42dae4": {
+    "other/66e50d1b-7d83-4f00-4a52-08dd2c42dae4/": {
       "id": "66e50d1b-7d83-4f00-4a52-08dd2c42dae4",
       "season": 2025,
       "name": "Pen Florida District Finals 2025",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "c2e9f68c-4c78-437e-8fed-dc4ea0e392f1",
       "scope": "district",
+      "scopeLabel": "Peninsular Florida District",
       "dates": "Apr 12, 2025",
       "registrationDates": "Closed",
       "locationName": "Southeastern University",
@@ -144,13 +155,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/south-dakota": {
+    "districts/south-dakota/": {
       "id": "23e5d0e5-cf25-4adb-aca6-08dd752ed7cc",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Apr 12, 2025",
       "registrationDates": "Closed",
       "locationName": "LifeChange Church",
@@ -158,13 +170,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/west-florida": {
+    "districts/west-florida/": {
       "id": "6292e6c9-fef3-4d8c-44e1-08dd5508d432",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "de8846d4-b000-4a8a-aa5b-8afc700aef14",
       "scope": "district",
+      "scopeLabel": "West Florida District",
       "dates": "Apr 12, 2025",
       "registrationDates": "Closed",
       "locationName": "Carmel Assembly of God",
@@ -172,26 +185,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/alabama": {
+    "districts/alabama/": {
       "id": "afff966c-d0c5-43de-ba71-08dd4a472dde",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "ec9932c2-d567-4871-9cbb-05cbc104a1af",
       "scope": "district",
+      "scopeLabel": "Alabama District",
       "dates": "Apr 5, 2025",
       "registrationDates": "Closed",
       "locationName": "Evangel Church Montgomery",
       "isVisible": true,
       "isReport": false
     },
-    "districts/arkansas": {
+    "districts/arkansas/": {
       "id": "9b4b36fe-a40e-4ab7-2e40-08dd5e83d929",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "01e5d0ec-41a6-431a-8fb9-0ad9f727be17",
       "scope": "district",
+      "scopeLabel": "Arkansas District",
       "dates": "Apr 5, 2025",
       "registrationDates": "Closed",
       "locationName": "Abundant Life Christian Academy",
@@ -199,13 +214,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/99735d1a-a2db-4718-d8bf-08dd65b796d6": {
+    "other/99735d1a-a2db-4718-d8bf-08dd65b796d6/": {
       "id": "99735d1a-a2db-4718-d8bf-08dd65b796d6",
       "season": 2025,
       "name": "MN State JBQ Meet 2024/2025",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "93fc3d2d-6a06-44b3-affe-2d9892384347",
       "scope": "district",
+      "scopeLabel": "Minnesota District",
       "dates": "Apr 5, 2025",
       "registrationDates": "Closed",
       "locationName": "Cedar Valley Church",
@@ -213,13 +229,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/5fa987ae-1461-4ad8-2346-08dd5f8101b1": {
+    "other/5fa987ae-1461-4ad8-2346-08dd5f8101b1/": {
       "id": "5fa987ae-1461-4ad8-2346-08dd5f8101b1",
       "season": 2025,
       "name": "2025 ND State Meet",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "06ffb19f-f988-4803-a278-a755c4f92e3e",
       "scope": "district",
+      "scopeLabel": "North Dakota District",
       "dates": "Mar 29, 2025",
       "registrationDates": "Closed",
       "locationName": "Evangel Assembly of God",
@@ -227,13 +244,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/wisconsin-northern-michigan": {
+    "districts/wisconsin-northern-michigan/": {
       "id": "fb325651-d3a7-42b1-213b-08dd43d86991",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
       "scope": "district",
+      "scopeLabel": "Wisconsin-Northern Michigan District",
       "dates": "Mar 29, 2025",
       "registrationDates": "Closed",
       "locationName": "Christian Life Fellowship",
@@ -241,13 +259,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/michigan": {
+    "districts/michigan/": {
       "id": "25987eaa-edc3-48ed-d465-08dd51e1eeda",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "8b19786b-48be-4cf7-8399-dfdb9e3fe07a",
       "scope": "district",
+      "scopeLabel": "Michigan District",
       "dates": "Mar 29, 2025",
       "registrationDates": "Closed",
       "locationName": "Lakeside Assembly of God",
@@ -255,13 +274,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/Northwest": {
+    "districts/Northwest/": {
       "id": "4f51e008-be34-4339-fcc2-08dd67e56766",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Mar 29, 2025",
       "registrationDates": "Closed",
       "locationName": "Cedar Park Assembly of God",
@@ -269,13 +289,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/daf56f12-5f20-4947-18e2-08dd54822095": {
+    "other/daf56f12-5f20-4947-18e2-08dd54822095/": {
       "id": "daf56f12-5f20-4947-18e2-08dd54822095",
       "season": 2025,
       "name": "STX JBQ FINALS",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "e926b41f-c4fd-479d-9e91-85bdd1f1596f",
       "scope": "district",
+      "scopeLabel": "South Texas District",
       "dates": "Mar 29, 2025",
       "registrationDates": "Closed",
       "locationName": "First Assembly of God",
@@ -283,13 +304,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/new-jersey": {
+    "districts/new-jersey/": {
       "id": "86ea0a8b-d9b6-4fb7-89df-08dd4a368bda",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
       "scope": "district",
+      "scopeLabel": "New Jersey District",
       "dates": "Mar 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Evangel Chapel",
@@ -297,13 +319,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/Northern California-Nevada": {
+    "districts/Northern California-Nevada/": {
       "id": "f6bb904a-2da4-4077-765b-08dd6968ac32",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "districtId": "41f27781-da67-484a-84ed-d85740e603d3",
       "scope": "district",
+      "scopeLabel": "Northern California-Nevada District",
       "dates": "Mar 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Bethel Church of San Jose",
@@ -311,13 +334,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/north-texas": {
+    "districts/north-texas/": {
       "id": "5a8e3b5b-0dd8-4e0b-ba6f-08dd4a472dde",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "1f63f4ba-c86d-42e7-8efa-48d65d30710f",
       "scope": "district",
+      "scopeLabel": "North Texas District",
       "dates": "Mar 22, 2025",
       "registrationDates": "Closed",
       "locationName": "The Oaks Church",
@@ -325,13 +349,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/southern-missouri": {
+    "districts/southern-missouri/": {
       "id": "6830b4d5-298c-4fbd-1d8f-08dd3382099d",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "49429e46-b61f-4f58-9627-c2e375bdc55c",
       "scope": "district",
+      "scopeLabel": "Southern Missouri District",
       "dates": "Mar 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Hope Church",
@@ -339,12 +364,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/593236e1-2e2c-495c-ba72-08dd4a472dde": {
+    "other/593236e1-2e2c-495c-ba72-08dd4a472dde/": {
       "id": "593236e1-2e2c-495c-ba72-08dd4a472dde",
       "season": 2025,
       "name": "Tennessee Network Finals",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "scope": "region",
+      "scopeLabel": "Gulf Region",
       "dates": "Mar 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Cornerstone",
@@ -352,13 +378,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/West Texas": {
+    "districts/West Texas/": {
       "id": "14cfe4b4-1d05-4815-6d47-08dd4fb361e8",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "5851b0e6-151b-4f62-8e10-f9f81e3cecfa",
       "scope": "district",
+      "scopeLabel": "West Texas District",
       "dates": "Mar 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Christian Life Assembly of God",
@@ -366,13 +393,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/ohio": {
+    "districts/ohio/": {
       "id": "0e49fe04-1e36-4aca-c139-08dd61c4801c",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "69d15048-6c21-4863-9d01-86c736f430d3",
       "scope": "district",
+      "scopeLabel": "Ohio District",
       "dates": "Mar 21 - 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Christian Heritage Assembly of God",
@@ -380,13 +408,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/new-york": {
+    "districts/new-york/": {
       "id": "0fce7d98-20a1-4551-fcbf-08dd67e56766",
       "season": 2025,
       "name": "2025 JBQ District Finals",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "04900ef0-ba4e-4813-bf0a-4b142bdec0de",
       "scope": "district",
+      "scopeLabel": "New York District",
       "dates": "Mar 21 - 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Crosspoint Church",
@@ -394,13 +423,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/5e94c0f0-1a4a-47f9-a1a6-08dcfcf6d577": {
+    "other/5e94c0f0-1a4a-47f9-a1a6-08dcfcf6d577/": {
       "id": "5e94c0f0-1a4a-47f9-a1a6-08dcfcf6d577",
       "season": 2025,
       "name": "2025-03 MN Central",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "93fc3d2d-6a06-44b3-affe-2d9892384347",
       "scope": "district",
+      "scopeLabel": "Minnesota District",
       "dates": "Mar 15, 2025",
       "registrationDates": "Closed",
       "locationName": "Solid Rock Family Church",
@@ -408,11 +438,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/80530986-bc7e-4959-a7e1-08dd48979c23": {
+    "other/80530986-bc7e-4959-a7e1-08dd48979c23/": {
       "id": "80530986-bc7e-4959-a7e1-08dd48979c23",
       "season": 2025,
       "name": "JBQ KC MO Season 2024-2025 - February/March",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Mar 15, 2025",
       "registrationDates": "Closed",
       "locationName": "Blue Springs Assembly of God",
@@ -420,13 +451,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/62bfaa0f-f042-423d-7842-08dcf085fcce": {
+    "other/62bfaa0f-f042-423d-7842-08dcf085fcce/": {
       "id": "62bfaa0f-f042-423d-7842-08dcf085fcce",
       "season": 2025,
       "name": "MN Metro League Mar 2025",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "93fc3d2d-6a06-44b3-affe-2d9892384347",
       "scope": "district",
+      "scopeLabel": "Minnesota District",
       "dates": "Mar 15, 2025",
       "registrationDates": "Closed",
       "locationName": "Cedar Valley Assemblies of God",
@@ -434,26 +466,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/51964e1f-f8aa-4133-ba70-08dd4a472dde": {
+    "other/51964e1f-f8aa-4133-ba70-08dd4a472dde/": {
       "id": "51964e1f-f8aa-4133-ba70-08dd4a472dde",
       "season": 2025,
       "name": "Alabama March Meet - Semi Finals",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "ec9932c2-d567-4871-9cbb-05cbc104a1af",
       "scope": "district",
+      "scopeLabel": "Alabama District",
       "dates": "Mar 14 - 15, 2025",
       "registrationDates": "Closed",
       "locationName": "Springville Camp",
       "isVisible": true,
       "isReport": false
     },
-    "other/c7930282-d169-4069-b5d8-08dd5b640ec0": {
+    "other/c7930282-d169-4069-b5d8-08dd5b640ec0/": {
       "id": "c7930282-d169-4069-b5d8-08dd5b640ec0",
       "season": 2025,
       "name": "2025 JBQ EauClaire League March Meet",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
       "scope": "district",
+      "scopeLabel": "Wisconsin-Northern Michigan District",
       "dates": "Mar 8, 2025",
       "registrationDates": "Closed",
       "locationName": "West Ridge Church",
@@ -461,13 +495,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/a05a638f-e12d-4626-3d94-08dd44a9c869": {
+    "other/a05a638f-e12d-4626-3d94-08dd44a9c869/": {
       "id": "a05a638f-e12d-4626-3d94-08dd44a9c869",
       "season": 2025,
       "name": "Central Arkansas District Qualifying Meet",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "01e5d0ec-41a6-431a-8fb9-0ad9f727be17",
       "scope": "district",
+      "scopeLabel": "Arkansas District",
       "dates": "Mar 8, 2025",
       "registrationDates": "Closed",
       "locationName": "The Assembly in Cabot",
@@ -475,13 +510,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/7303c372-50af-47ee-18e4-08dd54822095": {
+    "other/7303c372-50af-47ee-18e4-08dd54822095/": {
       "id": "7303c372-50af-47ee-18e4-08dd54822095",
       "season": 2025,
       "name": "March 8, 2025 ND JBQ meet",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "06ffb19f-f988-4803-a278-a755c4f92e3e",
       "scope": "district",
+      "scopeLabel": "North Dakota District",
       "dates": "Mar 8, 2025",
       "registrationDates": "Closed",
       "locationName": "Journey Church",
@@ -489,26 +525,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/2cc7fd68-4c7d-4fd6-b8a6-08dcb22aa716": {
+    "other/2cc7fd68-4c7d-4fd6-b8a6-08dcb22aa716/": {
       "id": "2cc7fd68-4c7d-4fd6-b8a6-08dcb22aa716",
       "season": 2025,
       "name": "NC JBQ Season (October - Feb)",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "647f4ee7-9764-41f4-a22f-7a50dad12f80",
       "scope": "district",
+      "scopeLabel": "North Carolina District",
       "dates": "Mar 8, 2025",
       "registrationDates": "Closed",
       "locationName": "TBD",
       "isVisible": true,
       "isReport": false
     },
-    "other/98426feb-1487-4824-a853-08dd45821c69": {
+    "other/98426feb-1487-4824-a853-08dd45821c69/": {
       "id": "98426feb-1487-4824-a853-08dd45821c69",
       "season": 2025,
       "name": "Oklahoma District Celebration 2025",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "eac709f3-70d7-4710-8eae-988c912fdc7e",
       "scope": "district",
+      "scopeLabel": "Oklahoma District",
       "dates": "Mar 8, 2025",
       "registrationDates": "Closed",
       "locationName": "Discovery Church",
@@ -516,13 +554,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/ed18473a-66b0-4ddc-133a-08dd3456921f": {
+    "other/ed18473a-66b0-4ddc-133a-08dd3456921f/": {
       "id": "ed18473a-66b0-4ddc-133a-08dd3456921f",
       "season": 2025,
       "name": "2025-North Texas District - Beginner and Peewee Finals",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "1f63f4ba-c86d-42e7-8efa-48d65d30710f",
       "scope": "district",
+      "scopeLabel": "North Texas District",
       "dates": "Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Oaks Church",
@@ -530,13 +569,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/194c9814-d7c4-46b3-44e2-08dd5508d432": {
+    "other/194c9814-d7c4-46b3-44e2-08dd5508d432/": {
       "id": "194c9814-d7c4-46b3-44e2-08dd5508d432",
       "season": 2025,
       "name": "24-25 NNED Central Maine JBQ Meet 4",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "fc06490d-9163-4169-b023-e53158df55b0",
       "scope": "district",
+      "scopeLabel": "Northern New England District",
       "dates": "Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Kennebec Valley Assembly of God",
@@ -544,12 +584,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/6b944037-6cd4-45e9-18e0-08dd54822095": {
+    "other/6b944037-6cd4-45e9-18e0-08dd54822095/": {
       "id": "6b944037-6cd4-45e9-18e0-08dd54822095",
       "season": 2025,
       "name": "CenCAL League Finals",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "scope": "region",
+      "scopeLabel": "Southwest Region",
       "dates": "Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "First Assembly of God",
@@ -557,13 +598,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/32ca43c4-1f6d-43fc-18e1-08dd54822095": {
+    "other/32ca43c4-1f6d-43fc-18e1-08dd54822095/": {
       "id": "32ca43c4-1f6d-43fc-18e1-08dd54822095",
       "season": 2025,
       "name": "Georgia District 2024/2025 JBQ District Finals",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "5028f8d1-f0eb-4ed9-a487-1e328b46119f",
       "scope": "district",
+      "scopeLabel": "Georgia District",
       "dates": "Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Trinity Church",
@@ -571,13 +613,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/77897517-fc08-420d-18e3-08dd54822095": {
+    "other/77897517-fc08-420d-18e3-08dd54822095/": {
       "id": "77897517-fc08-420d-18e3-08dd54822095",
       "season": 2025,
       "name": "Kansas State Final 3/1/25",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "32ca0b21-693f-440f-9706-c81d197faf43",
       "scope": "district",
+      "scopeLabel": "Kansas District",
       "dates": "Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Bethel Life Center Assembly of God",
@@ -585,13 +628,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/344da974-8a4e-4184-ba74-08dd4a472dde": {
+    "other/344da974-8a4e-4184-ba74-08dd4a472dde/": {
       "id": "344da974-8a4e-4184-ba74-08dd4a472dde",
       "season": 2025,
       "name": "South Dakota West League Meet #5",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Open Bible Church",
@@ -599,13 +643,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/b7b59cf1-c676-422b-ba75-08dd4a472dde": {
+    "other/b7b59cf1-c676-422b-ba75-08dd4a472dde/": {
       "id": "b7b59cf1-c676-422b-ba75-08dd4a472dde",
       "season": 2025,
       "name": "STX JBQ Meet # 3 (Braeswood)",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "e926b41f-c4fd-479d-9e91-85bdd1f1596f",
       "scope": "district",
+      "scopeLabel": "South Texas District",
       "dates": "Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Braeswood Assembly of God",
@@ -613,11 +658,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "tournaments/smoky-mountain-invitational": {
+    "tournaments/smoky-mountain-invitational/": {
       "id": "88445d76-09e3-4895-2cde-08dced412524",
       "season": 2025,
       "name": "Smoky Mountain Invitational!",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Feb 28 - Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Lighthouse Assembly of God",
@@ -625,13 +671,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/c00e0a77-385f-45fc-98e9-08dd4a1b48cb": {
+    "other/c00e0a77-385f-45fc-98e9-08dd4a1b48cb/": {
       "id": "c00e0a77-385f-45fc-98e9-08dd4a1b48cb",
       "season": 2025,
       "name": "NW–JBQ League 4 (24|25)",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Feb 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Cedar Park Assembly of God",
@@ -639,26 +686,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/9aec7892-e063-4f23-e9f8-08dd1d8c3000": {
+    "other/9aec7892-e063-4f23-e9f8-08dd1d8c3000/": {
       "id": "9aec7892-e063-4f23-e9f8-08dd1d8c3000",
       "season": 2025,
       "name": "West Florida JBQ 2024-2025 Season",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "de8846d4-b000-4a8a-aa5b-8afc700aef14",
       "scope": "district",
+      "scopeLabel": "West Florida District",
       "dates": "Feb 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Various Locations in the West Florida Ministry Network",
       "isVisible": true,
       "isReport": false
     },
-    "other/bb4d00c6-0d72-421c-a858-08dd45821c69": {
+    "other/bb4d00c6-0d72-421c-a858-08dd45821c69/": {
       "id": "bb4d00c6-0d72-421c-a858-08dd45821c69",
       "season": 2025,
       "name": "Western Section League Meet 3",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "04900ef0-ba4e-4813-bf0a-4b142bdec0de",
       "scope": "district",
+      "scopeLabel": "New York District",
       "dates": "Feb 22, 2025",
       "registrationDates": "Closed",
       "locationName": "The Tabernacle",
@@ -666,26 +715,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/4881da18-bbe6-4c3b-cb00-08dc9abf19f0": {
+    "other/4881da18-bbe6-4c3b-cb00-08dc9abf19f0/": {
       "id": "4881da18-bbe6-4c3b-cb00-08dc9abf19f0",
       "season": 2025,
       "name": "Pen Florida Junior Bible Quiz League Registration",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "c2e9f68c-4c78-437e-8fed-dc4ea0e392f1",
       "scope": "district",
+      "scopeLabel": "Peninsular Florida District",
       "dates": "Feb 21 - 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Various Locations in the Pen Florida District",
       "isVisible": true,
       "isReport": false
     },
-    "other/b252c5ee-20b7-43d1-e77f-08dcef1b77a7": {
+    "other/b252c5ee-20b7-43d1-e77f-08dcef1b77a7/": {
       "id": "b252c5ee-20b7-43d1-e77f-08dcef1b77a7",
       "season": 2025,
       "name": "North Texas Greater Dallas League Meets - 2024-25",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "1f63f4ba-c86d-42e7-8efa-48d65d30710f",
       "scope": "district",
+      "scopeLabel": "North Texas District",
       "dates": "Feb 13 - 19, 2025",
       "registrationDates": "Closed",
       "locationName": "North Texas District",
@@ -693,25 +744,27 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/7548f3cb-6b57-4ff2-754a-08dcd29da0fd": {
+    "other/7548f3cb-6b57-4ff2-754a-08dcd29da0fd/": {
       "id": "7548f3cb-6b57-4ff2-754a-08dcd29da0fd",
       "season": 2025,
       "name": "North Texas 2024-2025 Team Registration",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "1f63f4ba-c86d-42e7-8efa-48d65d30710f",
       "scope": "district",
+      "scopeLabel": "North Texas District",
       "dates": "Feb 13 - 17, 2025",
       "registrationDates": "Closed",
       "locationName": "North Texas District",
       "isVisible": true,
       "isReport": false
     },
-    "other/fac65e1b-087c-4ed9-98e7-08dd4a1b48cb": {
+    "other/fac65e1b-087c-4ed9-98e7-08dd4a1b48cb/": {
       "id": "fac65e1b-087c-4ed9-98e7-08dd4a1b48cb",
       "season": 2025,
       "name": "CenCAL League Meet #4",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "scope": "region",
+      "scopeLabel": "Southwest Region",
       "dates": "Feb 15, 2025",
       "registrationDates": "Closed",
       "locationName": "Bethel Church",
@@ -719,13 +772,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/994b4e47-e865-4b36-a7e0-08dd48979c23": {
+    "other/994b4e47-e865-4b36-a7e0-08dd48979c23/": {
       "id": "994b4e47-e865-4b36-a7e0-08dd48979c23",
       "season": 2025,
       "name": "Long Island JBQ League Meet 3",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "04900ef0-ba4e-4813-bf0a-4b142bdec0de",
       "scope": "district",
+      "scopeLabel": "New York District",
       "dates": "Feb 15, 2025",
       "registrationDates": "Closed",
       "locationName": "Gospel Community Church",
@@ -733,13 +787,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/b65e2494-680b-4d79-a857-08dd45821c69": {
+    "other/b65e2494-680b-4d79-a857-08dd45821c69/": {
       "id": "b65e2494-680b-4d79-a857-08dd45821c69",
       "season": 2025,
       "name": "So. Carolina League meet #7",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "a4a34dc8-6a88-4963-8b98-5ebd6fa0fe87",
       "scope": "district",
+      "scopeLabel": "South Carolina District",
       "dates": "Feb 15, 2025",
       "registrationDates": "Closed",
       "locationName": "Lake Wylie Christian Assembly of God",
@@ -747,23 +802,25 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/108bef42-df83-4f74-837f-08dd33f8ba3f": {
+    "other/108bef42-df83-4f74-837f-08dd33f8ba3f/": {
       "id": "108bef42-df83-4f74-837f-08dd33f8ba3f",
       "season": 2025,
       "name": "Tennessee Meet #4",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "scope": "region",
+      "scopeLabel": "Gulf Region",
       "dates": "Feb 15, 2025",
       "registrationDates": "Closed",
       "locationName": "various",
       "isVisible": true,
       "isReport": false
     },
-    "other/7e5e9577-4f4b-46da-4eef-08dd365fe28f": {
+    "other/7e5e9577-4f4b-46da-4eef-08dd365fe28f/": {
       "id": "7e5e9577-4f4b-46da-4eef-08dd365fe28f",
       "season": 2025,
       "name": "West Texas and Plains JBQ 2024-2025 Season League Meet #4",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Feb 15, 2025",
       "registrationDates": "Closed",
       "locationName": "Christian Life Assembly of God",
@@ -771,11 +828,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "tournaments/john-crabtree": {
+    "tournaments/john-crabtree/": {
       "id": "dc1bab72-4379-4f4f-cfa0-08dd01eff99b",
       "season": 2025,
       "name": "John Crabtree Tournament",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Feb 14 - 15, 2025",
       "registrationDates": "Closed",
       "locationName": "First Assembly of God",
@@ -783,13 +841,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/fd9ebf1e-5a88-48d3-6071-08dd470cf195": {
+    "other/fd9ebf1e-5a88-48d3-6071-08dd470cf195/": {
       "id": "fd9ebf1e-5a88-48d3-6071-08dd470cf195",
       "season": 2025,
       "name": "2024-25 New Jersey JBQ Meet 3",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
       "scope": "district",
+      "scopeLabel": "New Jersey District",
       "dates": "Feb 8, 2025",
       "registrationDates": "Closed",
       "locationName": "Evangel Chapel",
@@ -797,13 +856,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/5998bee0-2a2c-4ec4-f889-08dd462d827e": {
+    "other/5998bee0-2a2c-4ec4-f889-08dd462d827e/": {
       "id": "5998bee0-2a2c-4ec4-f889-08dd462d827e",
       "season": 2025,
       "name": "Central OH Section February 2025",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "69d15048-6c21-4863-9d01-86c736f430d3",
       "scope": "district",
+      "scopeLabel": "Ohio District",
       "dates": "Feb 8, 2025",
       "registrationDates": "Closed",
       "locationName": "Radiant Life Church Assembly of God",
@@ -811,13 +871,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/34fc07b7-6ba0-4cf0-fb44-08dd4012ed34": {
+    "other/34fc07b7-6ba0-4cf0-fb44-08dd4012ed34/": {
       "id": "34fc07b7-6ba0-4cf0-fb44-08dd4012ed34",
       "season": 2025,
       "name": "February 8, 2025 ND JBQ meet",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "06ffb19f-f988-4803-a278-a755c4f92e3e",
       "scope": "district",
+      "scopeLabel": "North Dakota District",
       "dates": "Feb 8, 2025",
       "registrationDates": "Closed",
       "locationName": "Evangel Assembly of God",
@@ -825,13 +886,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/c77da9c3-89bf-411f-f88a-08dd462d827e": {
+    "other/c77da9c3-89bf-411f-f88a-08dd462d827e/": {
       "id": "c77da9c3-89bf-411f-f88a-08dd462d827e",
       "season": 2025,
       "name": "NE OH Section February 2025",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "69d15048-6c21-4863-9d01-86c736f430d3",
       "scope": "district",
+      "scopeLabel": "Ohio District",
       "dates": "Feb 8, 2025",
       "registrationDates": "Closed",
       "locationName": "Painesville Assembly of God",
@@ -839,13 +901,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/267bb537-4c18-431d-63af-08dd2f64f731": {
+    "other/267bb537-4c18-431d-63af-08dd2f64f731/": {
       "id": "267bb537-4c18-431d-63af-08dd2f64f731",
       "season": 2025,
       "name": "Oklahoma NE League (Tulsa) 24-25 Meet #4",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "eac709f3-70d7-4710-8eae-988c912fdc7e",
       "scope": "district",
+      "scopeLabel": "Oklahoma District",
       "dates": "Feb 8, 2025",
       "registrationDates": "Closed",
       "locationName": "Woodlake Church Bixby",
@@ -853,13 +916,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/709e2d37-213b-45ef-b37f-08dd3061f3a2": {
+    "other/709e2d37-213b-45ef-b37f-08dd3061f3a2/": {
       "id": "709e2d37-213b-45ef-b37f-08dd3061f3a2",
       "season": 2025,
       "name": "Wichita Feb 8th Meet",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "32ca0b21-693f-440f-9706-c81d197faf43",
       "scope": "district",
+      "scopeLabel": "Kansas District",
       "dates": "Feb 8, 2025",
       "registrationDates": "Closed",
       "locationName": "Bethel Life Center Assembly of God",
@@ -867,13 +931,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/48af781c-4eb8-4b66-b37e-08dd3061f3a2": {
+    "other/48af781c-4eb8-4b66-b37e-08dd3061f3a2/": {
       "id": "48af781c-4eb8-4b66-b37e-08dd3061f3a2",
       "season": 2025,
       "name": "Wichita Jan 11th Meet",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "32ca0b21-693f-440f-9706-c81d197faf43",
       "scope": "district",
+      "scopeLabel": "Kansas District",
       "dates": "Feb 8, 2025",
       "registrationDates": "Closed",
       "locationName": "Bethel Life Center Assembly of God",
@@ -881,13 +946,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/7cdb303e-786f-4571-f298-08dd335af574": {
+    "other/7cdb303e-786f-4571-f298-08dd335af574/": {
       "id": "7cdb303e-786f-4571-f298-08dd335af574",
       "season": 2025,
       "name": "2025 JBQ EauClaire League February Meet",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
       "scope": "district",
+      "scopeLabel": "Wisconsin-Northern Michigan District",
       "dates": "Feb 1, 2025",
       "registrationDates": "Closed",
       "locationName": "West Ridge Church",
@@ -895,26 +961,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/c2062e19-4ead-40fb-450b-08dcd72f2c7a": {
+    "other/c2062e19-4ead-40fb-450b-08dcd72f2c7a/": {
       "id": "c2062e19-4ead-40fb-450b-08dcd72f2c7a",
       "season": 2025,
       "name": "Alabama February Meet",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "ec9932c2-d567-4871-9cbb-05cbc104a1af",
       "scope": "district",
+      "scopeLabel": "Alabama District",
       "dates": "Feb 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Evangel Church Montgomery",
       "isVisible": true,
       "isReport": false
     },
-    "other/59d5dc69-5e5f-4867-a9ab-08dd3e7cea6f": {
+    "other/59d5dc69-5e5f-4867-a9ab-08dd3e7cea6f/": {
       "id": "59d5dc69-5e5f-4867-a9ab-08dd3e7cea6f",
       "season": 2025,
       "name": "Georgia District 2024/2025 JBQ Season Meet 4",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "5028f8d1-f0eb-4ed9-a487-1e328b46119f",
       "scope": "district",
+      "scopeLabel": "Georgia District",
       "dates": "Feb 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Trinity Church",
@@ -922,13 +990,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/91e58c1e-575f-4094-c7fa-08dd42d4894f": {
+    "other/91e58c1e-575f-4094-c7fa-08dd42d4894f/": {
       "id": "91e58c1e-575f-4094-c7fa-08dd42d4894f",
       "season": 2025,
       "name": "South Dakota East League Meet #4- 02/01/2025",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Feb 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Freedom Church",
@@ -936,13 +1005,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/94125c56-59d7-4a60-290d-08dd38121a85": {
+    "other/94125c56-59d7-4a60-290d-08dd38121a85/": {
       "id": "94125c56-59d7-4a60-290d-08dd38121a85",
       "season": 2025,
       "name": "South Dakota West League Meet #4",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Feb 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Open Bible Church",
@@ -950,24 +1020,26 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/1b3c6fb9-1ed2-40c4-5600-08dcb93daa23": {
+    "other/1b3c6fb9-1ed2-40c4-5600-08dcb93daa23/": {
       "id": "1b3c6fb9-1ed2-40c4-5600-08dcb93daa23",
       "season": 2025,
       "name": "Springfield Section - JBQ 2025 League Finals",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Feb 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Southern Missouri Various Locations",
       "isVisible": true,
       "isReport": false
     },
-    "other/6525e4a5-202d-42e2-1338-08dd3456921f": {
+    "other/6525e4a5-202d-42e2-1338-08dd3456921f/": {
       "id": "6525e4a5-202d-42e2-1338-08dd3456921f",
       "season": 2025,
       "name": "STX JBQ Meet #2 Bethel",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "e926b41f-c4fd-479d-9e91-85bdd1f1596f",
       "scope": "district",
+      "scopeLabel": "South Texas District",
       "dates": "Feb 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Bethel Covenant Assembly of God",
@@ -975,11 +1047,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/56435e69-4e82-41a8-94d1-08dd334f9d8c": {
+    "other/56435e69-4e82-41a8-94d1-08dd334f9d8c/": {
       "id": "56435e69-4e82-41a8-94d1-08dd334f9d8c",
       "season": 2025,
       "name": "JBQ KC MO Season 2024-2025 - January",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Jan 18, 2025",
       "registrationDates": "Closed",
       "locationName": "Blue Springs Assembly of God",
@@ -987,26 +1060,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/56bd66f0-3fcf-4a8e-d468-08dd51e1eeda": {
+    "other/56bd66f0-3fcf-4a8e-d468-08dd51e1eeda/": {
       "id": "56bd66f0-3fcf-4a8e-d468-08dd51e1eeda",
       "season": 2025,
       "name": "Meet#3 (Jan 18, 2025) MIJBQ Metro Section",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "8b19786b-48be-4cf7-8399-dfdb9e3fe07a",
       "scope": "district",
+      "scopeLabel": "Michigan District",
       "dates": "Jan 18, 2025",
       "registrationDates": "Closed",
       "locationName": "Brightmoor",
       "isVisible": true,
       "isReport": false
     },
-    "other/88e120df-2fff-45e5-85cd-08dd1f98a595": {
+    "other/88e120df-2fff-45e5-85cd-08dd1f98a595/": {
       "id": "88e120df-2fff-45e5-85cd-08dd1f98a595",
       "season": 2025,
       "name": "NW–JBQ League 3 (24|25)",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Jan 18, 2025",
       "registrationDates": "Closed",
       "locationName": "Cedar Park Assembly of God",
@@ -1014,25 +1089,27 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/7e0ba5c2-094a-4cbe-cfa2-08dd01eff99b": {
+    "other/7e0ba5c2-094a-4cbe-cfa2-08dd01eff99b/": {
       "id": "7e0ba5c2-094a-4cbe-cfa2-08dd01eff99b",
       "season": 2025,
       "name": "Tennessee Meet #3",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "scope": "region",
+      "scopeLabel": "Gulf Region",
       "dates": "Jan 18, 2025",
       "registrationDates": "Closed",
       "locationName": "various",
       "isVisible": true,
       "isReport": false
     },
-    "other/c089471a-cf1d-49b2-b37d-08dd3061f3a2": {
+    "other/c089471a-cf1d-49b2-b37d-08dd3061f3a2/": {
       "id": "c089471a-cf1d-49b2-b37d-08dd3061f3a2",
       "season": 2025,
       "name": "2024-25 New Jersey JBQ Meet 2",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
       "scope": "district",
+      "scopeLabel": "New Jersey District",
       "dates": "Jan 11, 2025",
       "registrationDates": "Closed",
       "locationName": "Evangel Chapel",
@@ -1040,13 +1117,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/3e22fdb2-48f8-44b3-a03d-08dccae570d1": {
+    "other/3e22fdb2-48f8-44b3-a03d-08dccae570d1/": {
       "id": "3e22fdb2-48f8-44b3-a03d-08dccae570d1",
       "season": 2025,
       "name": "2024-25 New Jersey Junior Bible Quiz Season",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
       "scope": "district",
+      "scopeLabel": "New Jersey District",
       "dates": "Jan 11, 2025",
       "registrationDates": "Closed",
       "locationName": "Evangel Chapel",
@@ -1054,13 +1132,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/517676d1-c83f-4929-d2b7-08dd19f35301": {
+    "other/517676d1-c83f-4929-d2b7-08dd19f35301/": {
       "id": "517676d1-c83f-4929-d2b7-08dd19f35301",
       "season": 2025,
       "name": "24-25 NNED Central Maine JBQ Meet 3",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "fc06490d-9163-4169-b023-e53158df55b0",
       "scope": "district",
+      "scopeLabel": "Northern New England District",
       "dates": "Jan 11, 2025",
       "registrationDates": "Closed",
       "locationName": "Charleston Church",
@@ -1068,12 +1147,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/b5120c9e-c11b-4f8d-83fa-08dd08c791b4": {
+    "other/b5120c9e-c11b-4f8d-83fa-08dd08c791b4/": {
       "id": "b5120c9e-c11b-4f8d-83fa-08dd08c791b4",
       "season": 2025,
       "name": "CenCAL JBQ Meet #3",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "scope": "region",
+      "scopeLabel": "Southwest Region",
       "dates": "Jan 11, 2025",
       "registrationDates": "Closed",
       "locationName": "Northpark Community Church",
@@ -1081,13 +1161,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/03b24ba4-4e24-4734-5f44-08dd253a77e5": {
+    "other/03b24ba4-4e24-4734-5f44-08dd253a77e5/": {
       "id": "03b24ba4-4e24-4734-5f44-08dd253a77e5",
       "season": 2025,
       "name": "January 11, 2025 ND JBQ meet (weather cancellation)",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "06ffb19f-f988-4803-a278-a755c4f92e3e",
       "scope": "district",
+      "scopeLabel": "North Dakota District",
       "dates": "Jan 11, 2025",
       "registrationDates": "Closed",
       "locationName": "Journey Church",
@@ -1095,13 +1176,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/09003c82-6e4f-444e-9176-08dd2a97607e": {
+    "other/09003c82-6e4f-444e-9176-08dd2a97607e/": {
       "id": "09003c82-6e4f-444e-9176-08dd2a97607e",
       "season": 2025,
       "name": "STX JBQ Meet #1 Victoria",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "e926b41f-c4fd-479d-9e91-85bdd1f1596f",
       "scope": "district",
+      "scopeLabel": "South Texas District",
       "dates": "Jan 11, 2025",
       "registrationDates": "Closed",
       "locationName": "Faith Family Church",
@@ -1109,11 +1191,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/91f9c0f6-794a-4b9b-4b14-08dd155ce9f1": {
+    "other/91f9c0f6-794a-4b9b-4b14-08dd155ce9f1/": {
       "id": "91f9c0f6-794a-4b9b-4b14-08dd155ce9f1",
       "season": 2025,
       "name": "West Texas & Plains JBQ 2024-2025 Season League Meet #3",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Jan 11, 2025",
       "registrationDates": "Closed",
       "locationName": "Christian Life Assembly of God",
@@ -1121,26 +1204,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/776cc6ab-4316-434d-9177-08dd2a97607e": {
+    "other/776cc6ab-4316-434d-9177-08dd2a97607e/": {
       "id": "776cc6ab-4316-434d-9177-08dd2a97607e",
       "season": 2025,
       "name": "West Florida Test",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "de8846d4-b000-4a8a-aa5b-8afc700aef14",
       "scope": "district",
+      "scopeLabel": "West Florida District",
       "dates": "Jan 10, 2025",
       "registrationDates": "Closed",
       "locationName": "Test Event",
       "isVisible": true,
       "isReport": false
     },
-    "other/dcf07a4a-7652-4c7b-4a50-08dd2c42dae4": {
+    "other/dcf07a4a-7652-4c7b-4a50-08dd2c42dae4/": {
       "id": "dcf07a4a-7652-4c7b-4a50-08dd2c42dae4",
       "season": 2025,
       "name": "Central OH Section January 2025",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "69d15048-6c21-4863-9d01-86c736f430d3",
       "scope": "district",
+      "scopeLabel": "Ohio District",
       "dates": "Jan 4, 2025",
       "registrationDates": "Closed",
       "locationName": "Radiant Life Church Assembly of God",
@@ -1148,13 +1233,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/b24b2db0-60d0-46c9-4dd8-08dd0b0e2ea9": {
+    "other/b24b2db0-60d0-46c9-4dd8-08dd0b0e2ea9/": {
       "id": "b24b2db0-60d0-46c9-4dd8-08dd0b0e2ea9",
       "season": 2025,
       "name": "Georgia District 2024/2025 JBQ Season Meet 3",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "5028f8d1-f0eb-4ed9-a487-1e328b46119f",
       "scope": "district",
+      "scopeLabel": "Georgia District",
       "dates": "Jan 4, 2025",
       "registrationDates": "Closed",
       "locationName": "Trinity Church",
@@ -1162,13 +1248,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/731d99a4-4838-4b05-0e60-08dd288ceba4": {
+    "other/731d99a4-4838-4b05-0e60-08dd288ceba4/": {
       "id": "731d99a4-4838-4b05-0e60-08dd288ceba4",
       "season": 2025,
       "name": "Long Island JBQ League Meet 2",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "04900ef0-ba4e-4813-bf0a-4b142bdec0de",
       "scope": "district",
+      "scopeLabel": "New York District",
       "dates": "Jan 4, 2025",
       "registrationDates": "Closed",
       "locationName": "Church Unleashed Commack",
@@ -1176,13 +1263,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/6ec3578a-0584-461d-4a51-08dd2c42dae4": {
+    "other/6ec3578a-0584-461d-4a51-08dd2c42dae4/": {
       "id": "6ec3578a-0584-461d-4a51-08dd2c42dae4",
       "season": 2025,
       "name": "NE OH Section January 2025",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "69d15048-6c21-4863-9d01-86c736f430d3",
       "scope": "district",
+      "scopeLabel": "Ohio District",
       "dates": "Jan 4, 2025",
       "registrationDates": "Closed",
       "locationName": "Connection Church",
@@ -1190,13 +1278,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/6e55230f-4f0a-4ffd-be3b-08dd01805c37": {
+    "other/6e55230f-4f0a-4ffd-be3b-08dd01805c37/": {
       "id": "6e55230f-4f0a-4ffd-be3b-08dd01805c37",
       "season": 2025,
       "name": "Oklahoma NE League (Tulsa) 24-25 Meet #3",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "eac709f3-70d7-4710-8eae-988c912fdc7e",
       "scope": "district",
+      "scopeLabel": "Oklahoma District",
       "dates": "Jan 4, 2025",
       "registrationDates": "Closed",
       "locationName": "Christian Chapel Assembly",
@@ -1204,13 +1293,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/dd756632-ff5c-4d44-c0f4-08dd2a9ca4d5": {
+    "other/dd756632-ff5c-4d44-c0f4-08dd2a9ca4d5/": {
       "id": "dd756632-ff5c-4d44-c0f4-08dd2a9ca4d5",
       "season": 2025,
       "name": "South Dakota East League Meet #3- 01/04/2025",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Jan 4, 2025",
       "registrationDates": "Closed",
       "locationName": "Crosswalk Community Church",
@@ -1218,13 +1308,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/0261cace-a1dd-40bf-85ce-08dd1f98a595": {
+    "other/0261cace-a1dd-40bf-85ce-08dd1f98a595/": {
       "id": "0261cace-a1dd-40bf-85ce-08dd1f98a595",
       "season": 2025,
       "name": "South Dakota West League Meet #3- 01/06/25",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Jan 4, 2025",
       "registrationDates": "Closed",
       "locationName": "Open Bible Church",
@@ -1232,13 +1323,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/22ebf7e9-af1c-4b3b-5f43-08dd253a77e5": {
+    "other/22ebf7e9-af1c-4b3b-5f43-08dd253a77e5/": {
       "id": "22ebf7e9-af1c-4b3b-5f43-08dd253a77e5",
       "season": 2025,
       "name": "Western Section League Meet 2",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "04900ef0-ba4e-4813-bf0a-4b142bdec0de",
       "scope": "district",
+      "scopeLabel": "New York District",
       "dates": "Jan 4, 2025",
       "registrationDates": "Closed",
       "locationName": "Evangel Assembly of God",
@@ -1246,13 +1338,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/a7904906-f982-4556-4b13-08dd155ce9f1": {
+    "other/a7904906-f982-4556-4b13-08dd155ce9f1/": {
       "id": "a7904906-f982-4556-4b13-08dd155ce9f1",
       "season": 2025,
       "name": "Christmas Quizfest",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "5851b0e6-151b-4f62-8e10-f9f81e3cecfa",
       "scope": "district",
+      "scopeLabel": "West Texas District",
       "dates": "Dec 14, 2024",
       "registrationDates": "Closed",
       "locationName": "Eastridge Mission Center",
@@ -1260,13 +1353,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/5369a682-29a4-41e4-d2b8-08dd19f35301": {
+    "other/5369a682-29a4-41e4-d2b8-08dd19f35301/": {
       "id": "5369a682-29a4-41e4-d2b8-08dd19f35301",
       "season": 2025,
       "name": "Wichita Dec 14th Event",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "32ca0b21-693f-440f-9706-c81d197faf43",
       "scope": "district",
+      "scopeLabel": "Kansas District",
       "dates": "Dec 14, 2024",
       "registrationDates": "Closed",
       "locationName": "Bethel Life Center Assembly of God",
@@ -1274,13 +1368,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/72dee510-c8d8-41f6-4b15-08dd155ce9f1": {
+    "other/72dee510-c8d8-41f6-4b15-08dd155ce9f1/": {
       "id": "72dee510-c8d8-41f6-4b15-08dd155ce9f1",
       "season": 2025,
       "name": "2024-25 JBQ EauClaire League December Meet",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
       "scope": "district",
+      "scopeLabel": "Wisconsin-Northern Michigan District",
       "dates": "Dec 7, 2024",
       "registrationDates": "Closed",
       "locationName": "West Ridge Church",
@@ -1288,13 +1383,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/5872b6fb-52dc-48d9-2579-08dcfba157c2": {
+    "other/5872b6fb-52dc-48d9-2579-08dcfba157c2/": {
       "id": "5872b6fb-52dc-48d9-2579-08dcfba157c2",
       "season": 2025,
       "name": "Central Arkansas Mid-Season Tournament",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "01e5d0ec-41a6-431a-8fb9-0ad9f727be17",
       "scope": "district",
+      "scopeLabel": "Arkansas District",
       "dates": "Dec 7, 2024",
       "registrationDates": "Closed",
       "locationName": "McArthur Church",
@@ -1302,13 +1398,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/7254607a-9732-4f92-8400-08dd08c791b4": {
+    "other/7254607a-9732-4f92-8400-08dd08c791b4/": {
       "id": "7254607a-9732-4f92-8400-08dd08c791b4",
       "season": 2025,
       "name": "NW–JBQ League 2 (24|25)",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Dec 7, 2024",
       "registrationDates": "Closed",
       "locationName": "Cedar Park Assembly of God",
@@ -1316,12 +1413,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/2353d037-2f33-4b1d-83f7-08dd08c791b4": {
+    "other/2353d037-2f33-4b1d-83f7-08dd08c791b4/": {
       "id": "2353d037-2f33-4b1d-83f7-08dd08c791b4",
       "season": 2025,
       "name": "CenCAL JBQ Meet #2",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "scope": "region",
+      "scopeLabel": "Southwest Region",
       "dates": "Nov 23, 2024",
       "registrationDates": "Closed",
       "locationName": "Bethel Church of San Jose",
@@ -1329,13 +1427,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/4809c6e9-18d5-4d5f-ceb9-08dcf381e17a": {
+    "other/4809c6e9-18d5-4d5f-ceb9-08dcf381e17a/": {
       "id": "4809c6e9-18d5-4d5f-ceb9-08dcf381e17a",
       "season": 2025,
       "name": "24-25 NNED Central Maine JBQ Meet 2",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "fc06490d-9163-4169-b023-e53158df55b0",
       "scope": "district",
+      "scopeLabel": "Northern New England District",
       "dates": "Nov 16, 2024",
       "registrationDates": "Closed",
       "locationName": "The Rock Church",
@@ -1343,11 +1442,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/0427fa51-dc0b-45cf-a5db-08dcf877f0d2": {
+    "other/0427fa51-dc0b-45cf-a5db-08dcf877f0d2/": {
       "id": "0427fa51-dc0b-45cf-a5db-08dcf877f0d2",
       "season": 2025,
       "name": "JBQ KC MO Season 2024-2025 - November",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Nov 16, 2024",
       "registrationDates": "Closed",
       "locationName": "Blue Springs Assembly of God",
@@ -1355,38 +1455,41 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/03f1dc58-302b-4378-d467-08dd51e1eeda": {
+    "other/03f1dc58-302b-4378-d467-08dd51e1eeda/": {
       "id": "03f1dc58-302b-4378-d467-08dd51e1eeda",
       "season": 2025,
       "name": "Meet#2 (NOV 23, 2024) MIJBQ Metro Section 2024",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "8b19786b-48be-4cf7-8399-dfdb9e3fe07a",
       "scope": "district",
+      "scopeLabel": "Michigan District",
       "dates": "Nov 16, 2024",
       "registrationDates": "Closed",
       "locationName": "Greater Lansing AG",
       "isVisible": true,
       "isReport": false
     },
-    "other/1e8b4467-6fb6-4c72-dbfa-08dcf5cb99ce": {
+    "other/1e8b4467-6fb6-4c72-dbfa-08dcf5cb99ce/": {
       "id": "1e8b4467-6fb6-4c72-dbfa-08dcf5cb99ce",
       "season": 2025,
       "name": "Tennessee Meet #2",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "scope": "region",
+      "scopeLabel": "Gulf Region",
       "dates": "Nov 16, 2024",
       "registrationDates": "Closed",
       "locationName": "various",
       "isVisible": true,
       "isReport": false
     },
-    "other/afcec8b5-1a65-411a-14fa-08dd035dd715": {
+    "other/afcec8b5-1a65-411a-14fa-08dd035dd715/": {
       "id": "afcec8b5-1a65-411a-14fa-08dd035dd715",
       "season": 2025,
       "name": "TEST Central Maine Harris JBQ",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "fc06490d-9163-4169-b023-e53158df55b0",
       "scope": "district",
+      "scopeLabel": "Northern New England District",
       "dates": "Nov 12, 2024",
       "registrationDates": "Closed",
       "locationName": "The Rock Church",
@@ -1394,13 +1497,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/78055390-d71b-431d-d2a2-08dcf84b3fb8": {
+    "other/78055390-d71b-431d-d2a2-08dcf84b3fb8/": {
       "id": "78055390-d71b-431d-d2a2-08dcf84b3fb8",
       "season": 2025,
       "name": "November 9, 2024 ND JBQ meet",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "06ffb19f-f988-4803-a278-a755c4f92e3e",
       "scope": "district",
+      "scopeLabel": "North Dakota District",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "Relevant Life Church",
@@ -1408,13 +1512,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/57ad88fb-c398-4c3b-bade-08dd00320ca0": {
+    "other/57ad88fb-c398-4c3b-bade-08dd00320ca0/": {
       "id": "57ad88fb-c398-4c3b-bade-08dd00320ca0",
       "season": 2025,
       "name": "Ohio Central OH Section November 2024",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "69d15048-6c21-4863-9d01-86c736f430d3",
       "scope": "district",
+      "scopeLabel": "Ohio District",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "Radiant Life Church Assembly of God",
@@ -1422,13 +1527,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/80760f83-f56c-42a1-bae1-08dd00320ca0": {
+    "other/80760f83-f56c-42a1-bae1-08dd00320ca0/": {
       "id": "80760f83-f56c-42a1-bae1-08dd00320ca0",
       "season": 2025,
       "name": "Ohio NE Section 2024 - 2025 November 2024",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "69d15048-6c21-4863-9d01-86c736f430d3",
       "scope": "district",
+      "scopeLabel": "Ohio District",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "Christian Heritage Assembly of God",
@@ -1436,13 +1542,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/fba14c8e-d498-4c8b-0f86-08dce3a3cfba": {
+    "other/fba14c8e-d498-4c8b-0f86-08dce3a3cfba/": {
       "id": "fba14c8e-d498-4c8b-0f86-08dce3a3cfba",
       "season": 2025,
       "name": "Oklahoma NE League (Tulsa) 24-25 Meet #2",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "eac709f3-70d7-4710-8eae-988c912fdc7e",
       "scope": "district",
+      "scopeLabel": "Oklahoma District",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "Carbondale Assembly of God",
@@ -1450,13 +1557,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/4cd4a7d8-0bfa-470e-7843-08dcf085fcce": {
+    "other/4cd4a7d8-0bfa-470e-7843-08dcf085fcce/": {
       "id": "4cd4a7d8-0bfa-470e-7843-08dcf085fcce",
       "season": 2025,
       "name": "South Dakota West League Meet #2",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "Open Bible Church",
@@ -1464,13 +1572,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/e9a5655b-697d-46ee-2778-08dcec91277e": {
+    "other/e9a5655b-697d-46ee-2778-08dcec91277e/": {
       "id": "e9a5655b-697d-46ee-2778-08dcec91277e",
       "season": 2025,
       "name": "STX  Scrimmage #2 - San Antonio",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "e926b41f-c4fd-479d-9e91-85bdd1f1596f",
       "scope": "district",
+      "scopeLabel": "South Texas District",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "Bethel Covenant Assembly of God",
@@ -1478,11 +1587,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/2f0df8ef-ca48-45d6-b2b4-08dce5b35255": {
+    "other/2f0df8ef-ca48-45d6-b2b4-08dce5b35255/": {
       "id": "2f0df8ef-ca48-45d6-b2b4-08dce5b35255",
       "season": 2025,
       "name": "West Texas JBQ 2024-2025 Season League Meet #2",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "Christian Life Assembly of God",
@@ -1490,13 +1600,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/23fb5456-6026-4e5d-2407-08dcfab6ad14": {
+    "other/23fb5456-6026-4e5d-2407-08dcfab6ad14/": {
       "id": "23fb5456-6026-4e5d-2407-08dcfab6ad14",
       "season": 2025,
       "name": "Wichita Nov 9th Meet",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "32ca0b21-693f-440f-9706-c81d197faf43",
       "scope": "district",
+      "scopeLabel": "Kansas District",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "Bethel Life Center Assembly of God",
@@ -1504,13 +1615,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/a6f9dce0-2f85-4480-a1a5-08dcfcf6d577": {
+    "other/a6f9dce0-2f85-4480-a1a5-08dcfcf6d577/": {
       "id": "a6f9dce0-2f85-4480-a1a5-08dcfcf6d577",
       "season": 2025,
       "name": "Douglas Practice Meet November",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "deec1399-4f23-4fcc-bf20-ecdacfd1ea4f",
       "scope": "district",
+      "scopeLabel": "Wyoming District",
       "dates": "Nov 7, 2024",
       "registrationDates": "Closed",
       "locationName": "Douglas Assembly of God",
@@ -1518,13 +1630,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/1cad222c-b75c-483f-ceb8-08dcf381e17a": {
+    "other/1cad222c-b75c-483f-ceb8-08dcf381e17a/": {
       "id": "1cad222c-b75c-483f-ceb8-08dcf381e17a",
       "season": 2025,
       "name": "2024-25 JBQ EauClaire League November Meet",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
       "scope": "district",
+      "scopeLabel": "Wisconsin-Northern Michigan District",
       "dates": "Nov 2, 2024",
       "registrationDates": "Closed",
       "locationName": "West Ridge Church",
@@ -1532,26 +1645,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/8052b394-1092-4a19-4509-08dcd72f2c7a": {
+    "other/8052b394-1092-4a19-4509-08dcd72f2c7a/": {
       "id": "8052b394-1092-4a19-4509-08dcd72f2c7a",
       "season": 2025,
       "name": "Alabama November Meet",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "ec9932c2-d567-4871-9cbb-05cbc104a1af",
       "scope": "district",
+      "scopeLabel": "Alabama District",
       "dates": "Nov 2, 2024",
       "registrationDates": "Closed",
       "locationName": "Evangel Church Montgomery",
       "isVisible": true,
       "isReport": false
     },
-    "other/2185cd08-d16a-4002-50ae-08dce593079d": {
+    "other/2185cd08-d16a-4002-50ae-08dce593079d/": {
       "id": "2185cd08-d16a-4002-50ae-08dce593079d",
       "season": 2025,
       "name": "Georgia District 2024/2025 JBQ Season Meet 2",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "5028f8d1-f0eb-4ed9-a487-1e328b46119f",
       "scope": "district",
+      "scopeLabel": "Georgia District",
       "dates": "Nov 2, 2024",
       "registrationDates": "Closed",
       "locationName": "Trinity Church",
@@ -1559,13 +1674,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/63c72e57-56dd-4c83-04cb-08dce67069f8": {
+    "other/63c72e57-56dd-4c83-04cb-08dce67069f8/": {
       "id": "63c72e57-56dd-4c83-04cb-08dce67069f8",
       "season": 2025,
       "name": "Long Island JBQ League Meet 1",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "04900ef0-ba4e-4813-bf0a-4b142bdec0de",
       "scope": "district",
+      "scopeLabel": "New York District",
       "dates": "Nov 2, 2024",
       "registrationDates": "Closed",
       "locationName": "Gospel Community Church",
@@ -1573,13 +1689,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/2e943303-9b2c-495b-a99e-08dccee3252c": {
+    "other/2e943303-9b2c-495b-a99e-08dccee3252c/": {
       "id": "2e943303-9b2c-495b-a99e-08dccee3252c",
       "season": 2025,
       "name": "Western Section League Meet 1",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "04900ef0-ba4e-4813-bf0a-4b142bdec0de",
       "scope": "district",
+      "scopeLabel": "New York District",
       "dates": "Nov 2, 2024",
       "registrationDates": "Closed",
       "locationName": "The Bridge Assembly of God",
@@ -1587,13 +1704,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/9da4cd0e-d301-49ed-577d-08dcf1aed9b5": {
+    "other/9da4cd0e-d301-49ed-577d-08dcf1aed9b5/": {
       "id": "9da4cd0e-d301-49ed-577d-08dcf1aed9b5",
       "season": 2025,
       "name": "NW–JBQ League 1 (24|25)",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Oct 26, 2024",
       "registrationDates": "Closed",
       "locationName": "Cedar Park Assembly of God",
@@ -1601,11 +1719,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/5587f287-c3a7-4491-baa1-08dce0e0f326": {
+    "other/5587f287-c3a7-4491-baa1-08dce0e0f326/": {
       "id": "5587f287-c3a7-4491-baa1-08dce0e0f326",
       "season": 2025,
       "name": "JBQ KC MO Season 2024-2025 - October",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Oct 19, 2024",
       "registrationDates": "Closed",
       "locationName": "Blue Springs Assembly of God",
@@ -1613,13 +1732,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/ef478868-6c19-4564-c695-08dcea1b22b9": {
+    "other/ef478868-6c19-4564-c695-08dcea1b22b9/": {
       "id": "ef478868-6c19-4564-c695-08dcea1b22b9",
       "season": 2025,
       "name": "October 19th Wichita Meet",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "32ca0b21-693f-440f-9706-c81d197faf43",
       "scope": "district",
+      "scopeLabel": "Kansas District",
       "dates": "Oct 19, 2024",
       "registrationDates": "Closed",
       "locationName": "Bethel Life Center Assembly of God",
@@ -1627,13 +1747,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/80596835-7428-496f-cc17-08dce1cd286a": {
+    "other/80596835-7428-496f-cc17-08dce1cd286a/": {
       "id": "80596835-7428-496f-cc17-08dce1cd286a",
       "season": 2025,
       "name": "October 12, 2024 ND JBQ meet",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "06ffb19f-f988-4803-a278-a755c4f92e3e",
       "scope": "district",
+      "scopeLabel": "North Dakota District",
       "dates": "Oct 12, 2024",
       "registrationDates": "Closed",
       "locationName": "Evangel Assembly of God",
@@ -1641,13 +1762,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/93d8251f-050d-4fb1-20b3-08dcea3f9ebb": {
+    "other/93d8251f-050d-4fb1-20b3-08dcea3f9ebb/": {
       "id": "93d8251f-050d-4fb1-20b3-08dcea3f9ebb",
       "season": 2025,
       "name": "STX Scrimmage #1 - Houston",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "e926b41f-c4fd-479d-9e91-85bdd1f1596f",
       "scope": "district",
+      "scopeLabel": "South Texas District",
       "dates": "Oct 12, 2024",
       "registrationDates": "Closed",
       "locationName": "His Touch Assembly of God",
@@ -1655,13 +1777,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/9ccfd2ab-05c6-42b5-4507-08dcd72f2c7a": {
+    "other/9ccfd2ab-05c6-42b5-4507-08dcd72f2c7a/": {
       "id": "9ccfd2ab-05c6-42b5-4507-08dcd72f2c7a",
       "season": 2025,
       "name": "AL Test Event",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "ec9932c2-d567-4871-9cbb-05cbc104a1af",
       "scope": "district",
+      "scopeLabel": "Alabama District",
       "dates": "Oct 5, 2024",
       "registrationDates": "Closed",
       "locationName": "Evangel Church Montgomery",
@@ -1669,26 +1792,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/3475b60c-f80d-4319-4508-08dcd72f2c7a": {
+    "other/3475b60c-f80d-4319-4508-08dcd72f2c7a/": {
       "id": "3475b60c-f80d-4319-4508-08dcd72f2c7a",
       "season": 2025,
       "name": "Alabama October Meet",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "ec9932c2-d567-4871-9cbb-05cbc104a1af",
       "scope": "district",
+      "scopeLabel": "Alabama District",
       "dates": "Oct 5, 2024",
       "registrationDates": "Closed",
       "locationName": "Evangel Church Montgomery",
       "isVisible": true,
       "isReport": false
     },
-    "other/ca87d414-4bbc-4ed7-55fd-08dcb93daa23": {
+    "other/ca87d414-4bbc-4ed7-55fd-08dcb93daa23/": {
       "id": "ca87d414-4bbc-4ed7-55fd-08dcb93daa23",
       "season": 2025,
       "name": "Georgia District 2024/2025 JBQ Season",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "5028f8d1-f0eb-4ed9-a487-1e328b46119f",
       "scope": "district",
+      "scopeLabel": "Georgia District",
       "dates": "Oct 5, 2024",
       "registrationDates": "Closed",
       "locationName": "Trinity Church",
@@ -1696,13 +1821,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/3f783a6a-f247-48ac-0f88-08dce3a3cfba": {
+    "other/3f783a6a-f247-48ac-0f88-08dce3a3cfba/": {
       "id": "3f783a6a-f247-48ac-0f88-08dce3a3cfba",
       "season": 2025,
       "name": "Ohio Central Section 2024 - 2025",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "69d15048-6c21-4863-9d01-86c736f430d3",
       "scope": "district",
+      "scopeLabel": "Ohio District",
       "dates": "Oct 5, 2024",
       "registrationDates": "Closed",
       "locationName": "Radiant Life Church",
@@ -1710,13 +1836,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/05e3e39b-d538-4327-0f87-08dce3a3cfba": {
+    "other/05e3e39b-d538-4327-0f87-08dce3a3cfba/": {
       "id": "05e3e39b-d538-4327-0f87-08dce3a3cfba",
       "season": 2025,
       "name": "Ohio NE Section 2024 - 2025 - October 2024",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "69d15048-6c21-4863-9d01-86c736f430d3",
       "scope": "district",
+      "scopeLabel": "Ohio District",
       "dates": "Oct 5, 2024",
       "registrationDates": "Closed",
       "locationName": "Faith Evangelical Free Church",
@@ -1724,13 +1851,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/b9e21702-189f-435b-565e-08dcce0e81d3": {
+    "other/b9e21702-189f-435b-565e-08dcce0e81d3/": {
       "id": "b9e21702-189f-435b-565e-08dcce0e81d3",
       "season": 2025,
       "name": "South Dakota East League Meet #1",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Oct 5, 2024",
       "registrationDates": "Closed",
       "locationName": "LifeChange Church",
@@ -1738,13 +1866,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/aaef3c95-1488-417f-5659-08dcce0e81d3": {
+    "other/aaef3c95-1488-417f-5659-08dcce0e81d3/": {
       "id": "aaef3c95-1488-417f-5659-08dcce0e81d3",
       "season": 2025,
       "name": "South Dakota West League Meet #1",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Oct 5, 2024",
       "registrationDates": "Closed",
       "locationName": "Open Bible Church",
@@ -1752,11 +1881,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/72dd2f66-f607-4e16-a9a0-08dccee3252c": {
+    "other/72dd2f66-f607-4e16-a9a0-08dccee3252c/": {
       "id": "72dd2f66-f607-4e16-a9a0-08dccee3252c",
       "season": 2025,
       "name": "West Texas JBQ League Meet #1",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Oct 5, 2024",
       "registrationDates": "Closed",
       "locationName": "Christian Life Assembly of God",
@@ -1764,13 +1894,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/b79d1050-102f-4629-38b7-08dcacec972e": {
+    "other/b79d1050-102f-4629-38b7-08dcacec972e/": {
       "id": "b79d1050-102f-4629-38b7-08dcacec972e",
       "season": 2025,
       "name": "Oklahoma NE League (Tulsa) 24-25",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "eac709f3-70d7-4710-8eae-988c912fdc7e",
       "scope": "district",
+      "scopeLabel": "Oklahoma District",
       "dates": "Sep 28 - 29, 2024",
       "registrationDates": "Closed",
       "locationName": "Carbondale Assembly of God",
@@ -1778,13 +1909,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/b407c353-8e52-4b3d-7549-08dcd29da0fd": {
+    "other/b407c353-8e52-4b3d-7549-08dcd29da0fd/": {
       "id": "b407c353-8e52-4b3d-7549-08dcd29da0fd",
       "season": 2025,
       "name": "NW–JBQ Icebreaker (24|25)",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Sep 28, 2024",
       "registrationDates": "Closed",
       "locationName": "Grace Church",
@@ -1792,11 +1924,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/5441da81-c6e1-4c4d-da42-08dcaab164ef": {
+    "other/5441da81-c6e1-4c4d-da42-08dcaab164ef/": {
       "id": "5441da81-c6e1-4c4d-da42-08dcaab164ef",
       "season": 2025,
       "name": "JBQ KC MO Season 2024-2025 - September",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Sep 21, 2024",
       "registrationDates": "Closed",
       "locationName": "Blue Springs Assembly of God",
@@ -1804,25 +1937,27 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/b055fcca-6f82-4535-5b4f-08dcbe4c1d62": {
+    "other/b055fcca-6f82-4535-5b4f-08dcbe4c1d62/": {
       "id": "b055fcca-6f82-4535-5b4f-08dcbe4c1d62",
       "season": 2025,
       "name": "Tennessee Meet #1",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "scope": "region",
+      "scopeLabel": "Gulf Region",
       "dates": "Sep 21, 2024",
       "registrationDates": "Closed",
       "locationName": "various",
       "isVisible": true,
       "isReport": false
     },
-    "other/32ab2c76-f6f1-4f6e-5b51-08dcbe4c1d62": {
+    "other/32ab2c76-f6f1-4f6e-5b51-08dcbe4c1d62/": {
       "id": "32ab2c76-f6f1-4f6e-5b51-08dcbe4c1d62",
       "season": 2025,
       "name": "Alabama September Meet",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "ec9932c2-d567-4871-9cbb-05cbc104a1af",
       "scope": "district",
+      "scopeLabel": "Alabama District",
       "dates": "Sep 7, 2024",
       "registrationDates": "Closed",
       "locationName": "Christian Life Fellowship",
@@ -1837,6 +1972,7 @@
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "eac709f3-70d7-4710-8eae-988c912fdc7e",
       "scope": "district",
+      "scopeLabel": "Oklahoma District",
       "dates": "Sep 28 - Feb 8, 2025",
       "isVisible": true,
       "isReport": true
@@ -1848,6 +1984,7 @@
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "eac709f3-70d7-4710-8eae-988c912fdc7e",
       "scope": "district",
+      "scopeLabel": "Oklahoma District",
       "dates": "Sep 28 - Feb 8, 2025",
       "isVisible": true,
       "isReport": true
@@ -1859,6 +1996,7 @@
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "eac709f3-70d7-4710-8eae-988c912fdc7e",
       "scope": "district",
+      "scopeLabel": "Oklahoma District",
       "dates": "Sep 28 - Feb 8, 2025",
       "isVisible": true,
       "isReport": true
@@ -1870,6 +2008,7 @@
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Oct 26 - Mar 29, 2025",
       "isVisible": true,
       "isReport": true
@@ -1881,6 +2020,7 @@
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
       "scope": "district",
+      "scopeLabel": "Wisconsin-Northern Michigan District",
       "dates": "Nov 2 - Dec 7, 2024",
       "isVisible": true,
       "isReport": true
@@ -1892,17 +2032,19 @@
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "04900ef0-ba4e-4813-bf0a-4b142bdec0de",
       "scope": "district",
+      "scopeLabel": "New York District",
       "dates": "Nov 2 - Jan 4, 2025",
       "isVisible": true,
       "isReport": true
     }
   },
   "tbq": {
-    "nationals/results": {
+    "nationals/results/": {
       "id": "e2ff54dd-83dc-4232-ba9a-08dd9c940a67",
       "season": 2025,
       "name": "2025 TBQ National Finals",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Jun 28 - Jul 4, 2025",
       "registrationDates": "Closed",
       "locationName": "Renaissance St. Louis Airport Hotel",
@@ -1910,13 +2052,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/ffc95e74-c30c-4996-11e3-08dd8f7bf321": {
+    "other/ffc95e74-c30c-4996-11e3-08dd8f7bf321/": {
       "id": "ffc95e74-c30c-4996-11e3-08dd8f7bf321",
       "season": 2025,
       "name": "Kevin Gallo Test",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Jun 22 - 29, 2025",
       "registrationDates": "Closed",
       "locationName": "Bellevue Neighborhood Church",
@@ -1924,11 +2067,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/a3b17dec-bd6d-4d3a-2344-08dd5f8101b1": {
+    "other/a3b17dec-bd6d-4d3a-2344-08dd5f8101b1/": {
       "id": "a3b17dec-bd6d-4d3a-2344-08dd5f8101b1",
       "season": 2025,
       "name": "2025 Jersey Shore Pre-Nationals",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "May 30 - 31, 2025",
       "registrationDates": "Closed",
       "locationName": "GT Church",
@@ -1936,12 +2080,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/848a7275-684f-4775-91de-08dd7d015ef6": {
+    "other/848a7275-684f-4775-91de-08dd7d015ef6/": {
       "id": "848a7275-684f-4775-91de-08dd7d015ef6",
       "season": 2025,
       "name": "2025 TBQ XP5 Pen Florida Invitational",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "scope": "region",
+      "scopeLabel": "Southeast Region",
       "dates": "May 17, 2025",
       "registrationDates": "Closed",
       "locationName": "Oxford Assembly of God",
@@ -1949,12 +2094,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/great-lakes": {
+    "regionals/great-lakes/": {
       "id": "aeb9baec-f6af-4a98-d6a4-08dd757a7ec9",
       "season": 2025,
       "name": "2025 TBQ Regional Finals",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "scope": "region",
+      "scopeLabel": "Great Lakes Region",
       "dates": "May 10, 2025",
       "registrationDates": "Closed",
       "locationName": "Springhill Christian Center",
@@ -1962,12 +2108,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/southwest": {
+    "regionals/southwest/": {
       "id": "cd575317-88d8-49bc-5570-08dd825eb400",
       "season": 2025,
       "name": "2025 TBQ Regional Finals",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "scope": "region",
+      "scopeLabel": "Southwest Region",
       "dates": "May 3, 2025",
       "registrationDates": "Closed",
       "locationName": "International Assembly of God",
@@ -1975,12 +2122,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/south-central": {
+    "regionals/south-central/": {
       "id": "9c4595cd-38ed-4e87-aca5-08dd752ed7cc",
       "season": 2025,
       "name": "2025 TBQ Regional Finals",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "scope": "region",
+      "scopeLabel": "South Central Region",
       "dates": "May 3, 2025",
       "registrationDates": "Closed",
       "locationName": "Braeswood Assembly of God",
@@ -1988,12 +2136,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/northwest": {
+    "regionals/northwest/": {
       "id": "1fcb19c9-b1e9-44be-08c2-08dd70877c7b",
       "season": 2025,
       "name": "2025 TBQ Regional Finals",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "scope": "region",
+      "scopeLabel": "Northwest Region",
       "dates": "May 2, 2025",
       "registrationDates": "Closed",
       "locationName": "Spokane Valley Assembly of God",
@@ -2001,12 +2150,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "regionals/north-central": {
+    "regionals/north-central/": {
       "id": "94794fce-9cef-4724-b5d7-08dd5b640ec0",
       "season": 2025,
       "name": "2025 TBQ Regional Finals",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "scope": "region",
+      "scopeLabel": "North Central Region",
       "dates": "Apr 26, 2025",
       "registrationDates": "Closed",
       "locationName": "New Life Church",
@@ -2014,13 +2164,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/Peninsular Florida": {
+    "districts/Peninsular Florida/": {
       "id": "37ab1f4a-42a7-4630-a856-08dd45821c69",
       "season": 2025,
       "name": "2025 TBQ District Finals",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "c2e9f68c-4c78-437e-8fed-dc4ea0e392f1",
       "scope": "district",
+      "scopeLabel": "Peninsular Florida District",
       "dates": "Apr 12, 2025",
       "registrationDates": "Closed",
       "locationName": "Southeastern University",
@@ -2028,11 +2179,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "tournaments/emerald-city": {
+    "tournaments/emerald-city/": {
       "id": "707604a6-e21d-41d9-b968-08dd6aa125c1",
       "season": 2025,
       "name": "Emerald City Tournament 2025",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Apr 11 - 12, 2025",
       "registrationDates": "Closed",
       "locationName": "Deeper Church",
@@ -2040,13 +2192,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/5376e4dd-159b-45c0-daa3-08dd53ae56a1": {
+    "other/5376e4dd-159b-45c0-daa3-08dd53ae56a1/": {
       "id": "5376e4dd-159b-45c0-daa3-08dd53ae56a1",
       "season": 2025,
       "name": "2025 NJ District Finals",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
       "scope": "district",
+      "scopeLabel": "New Jersey District",
       "dates": "Apr 5, 2025",
       "registrationDates": "Closed",
       "locationName": "Fountain of Life Center",
@@ -2054,13 +2207,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/wisconsin-northern-michigan": {
+    "districts/wisconsin-northern-michigan/": {
       "id": "6914b69c-4c2e-4dd4-b5d6-08dd5b640ec0",
       "season": 2025,
       "name": "2025 TBQ District Finals",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
       "scope": "district",
+      "scopeLabel": "Wisconsin-Northern Michigan District",
       "dates": "Apr 5, 2025",
       "registrationDates": "Closed",
       "locationName": "CrossPoint Assembly of God",
@@ -2068,13 +2222,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/north-texas": {
+    "districts/north-texas/": {
       "id": "c3907849-1232-470a-fcc0-08dd67e56766",
       "season": 2025,
       "name": "2025 TBQ District Finals",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "1f63f4ba-c86d-42e7-8efa-48d65d30710f",
       "scope": "district",
+      "scopeLabel": "North Texas District",
       "dates": "Apr 5, 2025",
       "registrationDates": "Closed",
       "locationName": "First at Firewheel",
@@ -2082,13 +2237,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/167fbcfe-8dd8-4484-924c-08dd6fb5e503": {
+    "other/167fbcfe-8dd8-4484-924c-08dd6fb5e503/": {
       "id": "167fbcfe-8dd8-4484-924c-08dd6fb5e503",
       "season": 2025,
       "name": "NYS TBQ District Finals",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "04900ef0-ba4e-4813-bf0a-4b142bdec0de",
       "scope": "district",
+      "scopeLabel": "New York District",
       "dates": "Apr 5, 2025",
       "registrationDates": "Closed",
       "locationName": "Webster Assembly of God",
@@ -2096,13 +2252,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/b2977dd7-85fa-49a2-8811-08dd6759f4f9": {
+    "other/b2977dd7-85fa-49a2-8811-08dd6759f4f9/": {
       "id": "b2977dd7-85fa-49a2-8811-08dd6759f4f9",
       "season": 2025,
       "name": "South Dakota State Finals",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Apr 4 - 5, 2025",
       "registrationDates": "Closed",
       "locationName": "Open Bible",
@@ -2110,13 +2267,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/bf23b27f-e133-4127-3434-08dd7056fa8b": {
+    "other/bf23b27f-e133-4127-3434-08dd7056fa8b/": {
       "id": "bf23b27f-e133-4127-3434-08dd7056fa8b",
       "season": 2025,
       "name": "2025 Michigan District Finals",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "8b19786b-48be-4cf7-8399-dfdb9e3fe07a",
       "scope": "district",
+      "scopeLabel": "Michigan District",
       "dates": "Mar 31, 2025",
       "registrationDates": "Closed",
       "locationName": "Journey Life Church",
@@ -2124,13 +2282,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/fad760cc-1194-4a6e-9418-08dd4ecaa082": {
+    "other/fad760cc-1194-4a6e-9418-08dd4ecaa082/": {
       "id": "fad760cc-1194-4a6e-9418-08dd4ecaa082",
       "season": 2025,
       "name": "2025 Bible Quiz Georgia District Finals",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "5028f8d1-f0eb-4ed9-a487-1e328b46119f",
       "scope": "district",
+      "scopeLabel": "Georgia District",
       "dates": "Mar 29, 2025",
       "registrationDates": "Closed",
       "locationName": "Trinity Fellowship Assembly of God",
@@ -2138,13 +2297,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/southeast": {
+    "districts/southeast/": {
       "id": "26e803e3-512b-4ad1-8a39-08dd52deef40",
       "season": 2025,
       "name": "2025 TBQ District Finals",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "647f4ee7-9764-41f4-a22f-7a50dad12f80",
       "scope": "district",
+      "scopeLabel": "North Carolina District",
       "dates": "Mar 29, 2025",
       "registrationDates": "Closed",
       "locationName": "Calvary Church",
@@ -2152,26 +2312,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/752cf1bf-9e0e-4e07-7548-08dcd29da0fd": {
+    "other/752cf1bf-9e0e-4e07-7548-08dcd29da0fd/": {
       "id": "752cf1bf-9e0e-4e07-7548-08dcd29da0fd",
       "season": 2025,
       "name": "North Carolina League Meets 2024-2025",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "647f4ee7-9764-41f4-a22f-7a50dad12f80",
       "scope": "district",
+      "scopeLabel": "North Carolina District",
       "dates": "Mar 29, 2025",
       "registrationDates": "Closed",
       "locationName": "To Be Determined",
       "isVisible": true,
       "isReport": false
     },
-    "districts/northwest": {
+    "districts/northwest/": {
       "id": "e7b4347c-af49-448d-38af-08dd6b41c2d6",
       "season": 2025,
       "name": "2025 TBQ District Finals",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Mar 29, 2025",
       "registrationDates": "Closed",
       "locationName": "Cedar Park Church",
@@ -2179,13 +2341,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/1199aac7-2f6b-4493-8812-08dd6759f4f9": {
+    "other/1199aac7-2f6b-4493-8812-08dd6759f4f9/": {
       "id": "1199aac7-2f6b-4493-8812-08dd6759f4f9",
       "season": 2025,
       "name": "OK TBQ Meet 4 2025",
       "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
       "districtId": "eac709f3-70d7-4710-8eae-988c912fdc7e",
       "scope": "district",
+      "scopeLabel": "Oklahoma District",
       "dates": "Mar 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Carbondale AG",
@@ -2193,13 +2356,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/7d03b33e-ce69-4d99-6a66-08dd516c20a3": {
+    "other/7d03b33e-ce69-4d99-6a66-08dd516c20a3/": {
       "id": "7d03b33e-ce69-4d99-6a66-08dd516c20a3",
       "season": 2025,
       "name": "Southern Missouri District  - District Finals",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "49429e46-b61f-4f58-9627-c2e375bdc55c",
       "scope": "district",
+      "scopeLabel": "Southern Missouri District",
       "dates": "Mar 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Hope Church",
@@ -2207,13 +2371,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/e6a2bfe0-fef3-4b22-ba73-08dd4a472dde": {
+    "other/e6a2bfe0-fef3-4b22-ba73-08dd4a472dde/": {
       "id": "e6a2bfe0-fef3-4b22-ba73-08dd4a472dde",
       "season": 2025,
       "name": "Tennessee Network Finals",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "8d4063ff-36a7-487b-bd7c-7265c4a5125c",
       "scope": "district",
+      "scopeLabel": "Tennessee District",
       "dates": "Mar 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Cornerstone",
@@ -2221,13 +2386,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/469d2680-cb8c-45e0-d295-08dd60d23258": {
+    "other/469d2680-cb8c-45e0-d295-08dd60d23258/": {
       "id": "469d2680-cb8c-45e0-d295-08dd60d23258",
       "season": 2025,
       "name": "2025 Wisconsin/NM TBQ League Meet March",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
       "scope": "district",
+      "scopeLabel": "Wisconsin-Northern Michigan District",
       "dates": "Mar 15, 2025",
       "registrationDates": "Closed",
       "locationName": "CrossPoint Assembly of God",
@@ -2235,13 +2401,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "districts/pennsylvania-delaware": {
+    "districts/pennsylvania-delaware/": {
       "id": "32ccf23e-7f01-4981-b5d5-08dd5b640ec0",
       "season": 2025,
       "name": "2025 TBQ District Finals",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "6b2a4565-02f3-4662-a185-7cccb1a08d0f",
       "scope": "district",
+      "scopeLabel": "Pennsylvania-Delaware District",
       "dates": "Mar 15, 2025",
       "registrationDates": "Closed",
       "locationName": "River of God Church",
@@ -2249,13 +2416,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/18f7e445-59ce-4e13-83fe-08dd08c791b4": {
+    "other/18f7e445-59ce-4e13-83fe-08dd08c791b4/": {
       "id": "18f7e445-59ce-4e13-83fe-08dd08c791b4",
       "season": 2025,
       "name": "2024-2025 MI TBQ League Meet #4",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "8b19786b-48be-4cf7-8399-dfdb9e3fe07a",
       "scope": "district",
+      "scopeLabel": "Michigan District",
       "dates": "Mar 8, 2025",
       "registrationDates": "Closed",
       "locationName": "YpsiAG",
@@ -2263,13 +2431,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/6d673e59-36bc-4b6a-44e3-08dd5508d432": {
+    "other/6d673e59-36bc-4b6a-44e3-08dd5508d432/": {
       "id": "6d673e59-36bc-4b6a-44e3-08dd5508d432",
       "season": 2025,
       "name": "24-25 NNED Central Maine TBQ Meet 4",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "fc06490d-9163-4169-b023-e53158df55b0",
       "scope": "district",
+      "scopeLabel": "Northern New England District",
       "dates": "Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Kennebec Valley Assembly of God",
@@ -2277,12 +2446,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/ed912eb9-b864-497d-7e9f-08dd54dcf676": {
+    "other/ed912eb9-b864-497d-7e9f-08dd54dcf676/": {
       "id": "ed912eb9-b864-497d-7e9f-08dd54dcf676",
       "season": 2025,
       "name": "CenCAL TBQ League Finals",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "scope": "region",
+      "scopeLabel": "Southwest Region",
       "dates": "Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "First Assembly of God",
@@ -2290,11 +2460,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "tournaments/smoky-mountain-invitational": {
+    "tournaments/smoky-mountain-invitational/": {
       "id": "db6250ec-0035-4ec0-2cdd-08dced412524",
       "season": 2025,
       "name": "Smoky Mountain Invitational",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Feb 28 - Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Lighthouse Assembly of God",
@@ -2302,11 +2473,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "tournaments/windy-city-classic": {
+    "tournaments/windy-city-classic/": {
       "id": "4934e60a-22c8-4053-78a9-08dd30abb71b",
       "season": 2025,
       "name": "Windy City Classic",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Feb 28 - Mar 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Calvary Church",
@@ -2314,13 +2486,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/2a0cf9c6-612c-442b-d469-08dd51e1eeda": {
+    "other/2a0cf9c6-612c-442b-d469-08dd51e1eeda/": {
       "id": "2a0cf9c6-612c-442b-d469-08dd51e1eeda",
       "season": 2025,
       "name": "NJ TBQ 2024-2025 League Meet #4",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
       "scope": "district",
+      "scopeLabel": "New Jersey District",
       "dates": "Feb 22, 2025",
       "registrationDates": "Closed",
       "locationName": "CTI",
@@ -2328,13 +2501,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/907c8471-ddcd-4130-98ea-08dd4a1b48cb": {
+    "other/907c8471-ddcd-4130-98ea-08dd4a1b48cb/": {
       "id": "907c8471-ddcd-4130-98ea-08dd4a1b48cb",
       "season": 2025,
       "name": "NW TBQ - League 4 (24|25)",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Feb 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Cedar Park Assembly of God",
@@ -2342,13 +2516,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/fa94e356-b5be-46c0-a54e-08dd43c91886": {
+    "other/fa94e356-b5be-46c0-a54e-08dd43c91886/": {
       "id": "fa94e356-b5be-46c0-a54e-08dd43c91886",
       "season": 2025,
       "name": "Pen Florida Teen Bible Quiz Meet 4",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "c2e9f68c-4c78-437e-8fed-dc4ea0e392f1",
       "scope": "district",
+      "scopeLabel": "Peninsular Florida District",
       "dates": "Feb 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Oxford Assembly of God",
@@ -2356,13 +2531,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/2e6e470d-776d-4250-98e6-08dd4a1b48cb": {
+    "other/2e6e470d-776d-4250-98e6-08dd4a1b48cb/": {
       "id": "2e6e470d-776d-4250-98e6-08dd4a1b48cb",
       "season": 2025,
       "name": "South Dakota Meet 4",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Feb 22, 2025",
       "registrationDates": "Closed",
       "locationName": "Bethel",
@@ -2370,13 +2546,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/3b29ffcb-d1b0-44ac-4a92-08dd38de4fa0": {
+    "other/3b29ffcb-d1b0-44ac-4a92-08dd38de4fa0/": {
       "id": "3b29ffcb-d1b0-44ac-4a92-08dd38de4fa0",
       "season": 2025,
       "name": "2025 Bible Quiz Georgia League Meet #4",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "5028f8d1-f0eb-4ed9-a487-1e328b46119f",
       "scope": "district",
+      "scopeLabel": "Georgia District",
       "dates": "Feb 15, 2025",
       "registrationDates": "Closed",
       "locationName": "Sherwood Baptist Church",
@@ -2384,12 +2561,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/eb7586e6-9e09-4185-98e8-08dd4a1b48cb": {
+    "other/eb7586e6-9e09-4185-98e8-08dd4a1b48cb/": {
       "id": "eb7586e6-9e09-4185-98e8-08dd4a1b48cb",
       "season": 2025,
       "name": "CenCAL League TBQ Meet #4",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "scope": "region",
+      "scopeLabel": "Southwest Region",
       "dates": "Feb 15, 2025",
       "registrationDates": "Closed",
       "locationName": "Bethel Church of San Jose",
@@ -2397,11 +2575,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/fc1395ac-0d85-412e-a9a9-08dd3e7cea6f": {
+    "other/fc1395ac-0d85-412e-a9a9-08dd3e7cea6f/": {
       "id": "fc1395ac-0d85-412e-a9a9-08dd3e7cea6f",
       "season": 2025,
       "name": "Open OH Feb League Meet",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Feb 15, 2025",
       "registrationDates": "Closed",
       "locationName": "Ohio District Office",
@@ -2409,26 +2588,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/bf69d004-6b0a-4847-8380-08dd33f8ba3f": {
+    "other/bf69d004-6b0a-4847-8380-08dd33f8ba3f/": {
       "id": "bf69d004-6b0a-4847-8380-08dd33f8ba3f",
       "season": 2025,
       "name": "Tennessee Meet #4",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "8d4063ff-36a7-487b-bd7c-7265c4a5125c",
       "scope": "district",
+      "scopeLabel": "Tennessee District",
       "dates": "Feb 15, 2025",
       "registrationDates": "Closed",
       "locationName": "various",
       "isVisible": true,
       "isReport": false
     },
-    "other/95cee6b7-0a0a-436c-f299-08dd335af574": {
+    "other/95cee6b7-0a0a-436c-f299-08dd335af574/": {
       "id": "95cee6b7-0a0a-436c-f299-08dd335af574",
       "season": 2025,
       "name": "2025 Wisconsin/NM TBQ League Meet February",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
       "scope": "district",
+      "scopeLabel": "Wisconsin-Northern Michigan District",
       "dates": "Feb 8, 2025",
       "registrationDates": "Closed",
       "locationName": "CrossPoint Assembly of God",
@@ -2436,13 +2617,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/346132eb-4593-4527-83fd-08dd08c791b4": {
+    "other/346132eb-4593-4527-83fd-08dd08c791b4/": {
       "id": "346132eb-4593-4527-83fd-08dd08c791b4",
       "season": 2025,
       "name": "2024-2025 MI TBQ League Meet #3",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "8b19786b-48be-4cf7-8399-dfdb9e3fe07a",
       "scope": "district",
+      "scopeLabel": "Michigan District",
       "dates": "Feb 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Compelled Church",
@@ -2450,11 +2632,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/74406bee-a2bc-4ab5-4dd6-08dd0b0e2ea9": {
+    "other/74406bee-a2bc-4ab5-4dd6-08dd0b0e2ea9/": {
       "id": "74406bee-a2bc-4ab5-4dd6-08dd0b0e2ea9",
       "season": 2025,
       "name": "President's Cup",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Feb 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Living Hope Worship Center",
@@ -2462,13 +2645,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/64dac89e-8a46-4045-cc0f-08dd2dbce9dd": {
+    "other/64dac89e-8a46-4045-cc0f-08dd2dbce9dd/": {
       "id": "64dac89e-8a46-4045-cc0f-08dd2dbce9dd",
       "season": 2025,
       "name": "Southern Missouri District League Finals",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "49429e46-b61f-4f58-9627-c2e375bdc55c",
       "scope": "district",
+      "scopeLabel": "Southern Missouri District",
       "dates": "Feb 1, 2025",
       "registrationDates": "Closed",
       "locationName": "Life360 Chesterfield",
@@ -2476,13 +2660,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/493bdfd5-f9c0-41f9-5f42-08dd253a77e5": {
+    "other/493bdfd5-f9c0-41f9-5f42-08dd253a77e5/": {
       "id": "493bdfd5-f9c0-41f9-5f42-08dd253a77e5",
       "season": 2025,
       "name": "Pen Florida Teen Bible Quiz Meet 3",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "c2e9f68c-4c78-437e-8fed-dc4ea0e392f1",
       "scope": "district",
+      "scopeLabel": "Peninsular Florida District",
       "dates": "Jan 25, 2025",
       "registrationDates": "Closed",
       "locationName": "Faith Assembly of God",
@@ -2490,11 +2675,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "tournaments/40th-friendship-classic": {
+    "tournaments/40th-friendship-classic/": {
       "id": "8b803d72-9db7-41c5-83ff-08dd08c791b4",
       "season": 2025,
       "name": "40th TBQ Friendship Classic 2025",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Jan 24 - 25, 2025",
       "registrationDates": "Closed",
       "locationName": "Oxford Assembly of God",
@@ -2502,13 +2688,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/9b90c898-63eb-436c-83fb-08dd08c791b4": {
+    "other/9b90c898-63eb-436c-83fb-08dd08c791b4/": {
       "id": "9b90c898-63eb-436c-83fb-08dd08c791b4",
       "season": 2025,
       "name": "2025 Bible Quiz Georgia League Meet #3",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "5028f8d1-f0eb-4ed9-a487-1e328b46119f",
       "scope": "district",
+      "scopeLabel": "Georgia District",
       "dates": "Jan 18, 2025",
       "registrationDates": "Closed",
       "locationName": "Waypoint Baptist Church",
@@ -2516,13 +2703,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/c388674e-0c8f-4bfa-4ef0-08dd365fe28f": {
+    "other/c388674e-0c8f-4bfa-4ef0-08dd365fe28f/": {
       "id": "c388674e-0c8f-4bfa-4ef0-08dd365fe28f",
       "season": 2025,
       "name": "NJ TBQ 2024-2025 League Meet #3",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
       "scope": "district",
+      "scopeLabel": "New Jersey District",
       "dates": "Jan 18, 2025",
       "registrationDates": "Closed",
       "locationName": "Bethany Church",
@@ -2530,13 +2718,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/ff3bc8c5-6de2-4b46-f9d8-08dd32b4f553": {
+    "other/ff3bc8c5-6de2-4b46-f9d8-08dd32b4f553/": {
       "id": "ff3bc8c5-6de2-4b46-f9d8-08dd32b4f553",
       "season": 2025,
       "name": "NW TBQ - League 3 (24|25)",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Jan 18, 2025",
       "registrationDates": "Closed",
       "locationName": "Cedar Park Assembly of God",
@@ -2544,26 +2733,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/34a6d8d6-ad50-44be-cfa3-08dd01eff99b": {
+    "other/34a6d8d6-ad50-44be-cfa3-08dd01eff99b/": {
       "id": "34a6d8d6-ad50-44be-cfa3-08dd01eff99b",
       "season": 2025,
       "name": "Tennessee Meet #3",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "8d4063ff-36a7-487b-bd7c-7265c4a5125c",
       "scope": "district",
+      "scopeLabel": "Tennessee District",
       "dates": "Jan 18, 2025",
       "registrationDates": "Closed",
       "locationName": "various",
       "isVisible": true,
       "isReport": false
     },
-    "other/c212bea9-3225-49cb-d2b6-08dd19f35301": {
+    "other/c212bea9-3225-49cb-d2b6-08dd19f35301/": {
       "id": "c212bea9-3225-49cb-d2b6-08dd19f35301",
       "season": 2025,
       "name": "24-25 NNED Central Maine TBQ Meet 3",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "fc06490d-9163-4169-b023-e53158df55b0",
       "scope": "district",
+      "scopeLabel": "Northern New England District",
       "dates": "Jan 11, 2025",
       "registrationDates": "Closed",
       "locationName": "Charleston Church",
@@ -2571,12 +2762,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/5009a941-6645-492f-83f9-08dd08c791b4": {
+    "other/5009a941-6645-492f-83f9-08dd08c791b4/": {
       "id": "5009a941-6645-492f-83f9-08dd08c791b4",
       "season": 2025,
       "name": "CenCAL TBQ Meet #3",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "scope": "region",
+      "scopeLabel": "Southwest Region",
       "dates": "Jan 11, 2025",
       "registrationDates": "Closed",
       "locationName": "Northpark Community Church",
@@ -2584,11 +2776,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "tournaments/mid-winter-classic": {
+    "tournaments/mid-winter-classic/": {
       "id": "8d8797d9-d621-4fe2-5683-08dd0506ec87",
       "season": 2025,
       "name": "Mid-Winter Classic 2025",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Jan 10 - 11, 2025",
       "registrationDates": "Closed",
       "locationName": "Sioux Falls First",
@@ -2596,13 +2789,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/05992147-ebc4-4e98-2e1a-08dd18b6075c": {
+    "other/05992147-ebc4-4e98-2e1a-08dd18b6075c/": {
       "id": "05992147-ebc4-4e98-2e1a-08dd18b6075c",
       "season": 2025,
       "name": "Southern Missouri District League Meet #4",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "49429e46-b61f-4f58-9627-c2e375bdc55c",
       "scope": "district",
+      "scopeLabel": "Southern Missouri District",
       "dates": "Jan 4, 2025",
       "registrationDates": "Closed",
       "locationName": "Oak Grove Assembly of God",
@@ -2610,13 +2804,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/6159ceff-ae93-4511-83fc-08dd08c791b4": {
+    "other/6159ceff-ae93-4511-83fc-08dd08c791b4/": {
       "id": "6159ceff-ae93-4511-83fc-08dd08c791b4",
       "season": 2025,
       "name": "2024-2025 MI TBQ League Meet #2",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "8b19786b-48be-4cf7-8399-dfdb9e3fe07a",
       "scope": "district",
+      "scopeLabel": "Michigan District",
       "dates": "Dec 7, 2024",
       "registrationDates": "Closed",
       "locationName": "Journey Life Church",
@@ -2624,26 +2819,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/2d0fea62-7f94-42fe-4dd9-08dd0b0e2ea9": {
+    "other/2d0fea62-7f94-42fe-4dd9-08dd0b0e2ea9/": {
       "id": "2d0fea62-7f94-42fe-4dd9-08dd0b0e2ea9",
       "season": 2025,
       "name": "NJ TBQ 2024-2025 League Meet #2",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
       "scope": "district",
+      "scopeLabel": "New Jersey District",
       "dates": "Dec 7, 2024",
       "registrationDates": "Closed",
       "locationName": "Metuchen AG",
       "isVisible": true,
       "isReport": false
     },
-    "other/e6c3289c-bffa-4147-8401-08dd08c791b4": {
+    "other/e6c3289c-bffa-4147-8401-08dd08c791b4/": {
       "id": "e6c3289c-bffa-4147-8401-08dd08c791b4",
       "season": 2025,
       "name": "NW TBQ - League 2 (24|25)",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Dec 7, 2024",
       "registrationDates": "Closed",
       "locationName": "Cedar Park Assembly of God",
@@ -2651,13 +2848,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/1b154c29-76c2-4416-4dd7-08dd0b0e2ea9": {
+    "other/1b154c29-76c2-4416-4dd7-08dd0b0e2ea9/": {
       "id": "1b154c29-76c2-4416-4dd7-08dd0b0e2ea9",
       "season": 2025,
       "name": "OH Meet #2",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "69d15048-6c21-4863-9d01-86c736f430d3",
       "scope": "district",
+      "scopeLabel": "Ohio District",
       "dates": "Dec 7, 2024",
       "registrationDates": "Closed",
       "locationName": "Radiant Life Church",
@@ -2665,13 +2863,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/960cceaf-a343-447a-257a-08dcfba157c2": {
+    "other/960cceaf-a343-447a-257a-08dcfba157c2/": {
       "id": "960cceaf-a343-447a-257a-08dcfba157c2",
       "season": 2025,
       "name": "Southern Missouri District League Meet #3",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "49429e46-b61f-4f58-9627-c2e375bdc55c",
       "scope": "district",
+      "scopeLabel": "Southern Missouri District",
       "dates": "Dec 7, 2024",
       "registrationDates": "Closed",
       "locationName": "Life360 Chesterfield",
@@ -2679,12 +2878,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/4d1617a2-97bc-4128-83f8-08dd08c791b4": {
+    "other/4d1617a2-97bc-4128-83f8-08dd08c791b4/": {
       "id": "4d1617a2-97bc-4128-83f8-08dd08c791b4",
       "season": 2025,
       "name": "CenCAL TBQ Meet #2",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "scope": "region",
+      "scopeLabel": "Southwest Region",
       "dates": "Nov 23, 2024",
       "registrationDates": "Closed",
       "locationName": "Bethel Church of San Jose",
@@ -2692,13 +2892,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/c1bf8838-a603-4802-cfa1-08dd01eff99b": {
+    "other/c1bf8838-a603-4802-cfa1-08dd01eff99b/": {
       "id": "c1bf8838-a603-4802-cfa1-08dd01eff99b",
       "season": 2025,
       "name": "Pen Florida Teen Bible Quiz League",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "c2e9f68c-4c78-437e-8fed-dc4ea0e392f1",
       "scope": "district",
+      "scopeLabel": "Peninsular Florida District",
       "dates": "Nov 23, 2024",
       "registrationDates": "Closed",
       "locationName": "Oxford Assembly of God",
@@ -2706,11 +2907,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "tournaments/gobblefest": {
+    "tournaments/gobblefest/": {
       "id": "8583d9e3-6ddb-4a01-d90e-08dcdaae8eb6",
       "season": 2025,
       "name": "Gobblefest 2024",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Nov 22 - 23, 2024",
       "registrationDates": "Closed",
       "locationName": "University of Valley Forge",
@@ -2718,13 +2920,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/dd6971af-f7a5-4d15-691e-08dcfdd1f102": {
+    "other/dd6971af-f7a5-4d15-691e-08dcfdd1f102/": {
       "id": "dd6971af-f7a5-4d15-691e-08dcfdd1f102",
       "season": 2025,
       "name": "24-25 NNED Central Maine TBQ Meet 2",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "fc06490d-9163-4169-b023-e53158df55b0",
       "scope": "district",
+      "scopeLabel": "Northern New England District",
       "dates": "Nov 16, 2024",
       "registrationDates": "Closed",
       "locationName": "The Rock Church",
@@ -2732,26 +2935,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/7723e230-0933-4698-dbfb-08dcf5cb99ce": {
+    "other/7723e230-0933-4698-dbfb-08dcf5cb99ce/": {
       "id": "7723e230-0933-4698-dbfb-08dcf5cb99ce",
       "season": 2025,
       "name": "Tennessee Meet #2",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "8d4063ff-36a7-487b-bd7c-7265c4a5125c",
       "scope": "district",
+      "scopeLabel": "Tennessee District",
       "dates": "Nov 16, 2024",
       "registrationDates": "Closed",
       "locationName": "various",
       "isVisible": true,
       "isReport": false
     },
-    "other/091d13e8-5f8f-4518-2408-08dcfab6ad14": {
+    "other/091d13e8-5f8f-4518-2408-08dcfab6ad14/": {
       "id": "091d13e8-5f8f-4518-2408-08dcfab6ad14",
       "season": 2025,
       "name": "2024-25 GA League Meet#2",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "5028f8d1-f0eb-4ed9-a487-1e328b46119f",
       "scope": "district",
+      "scopeLabel": "Georgia District",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "Atlanta Tamil Church",
@@ -2759,13 +2964,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/1bf9b68d-c162-4b8b-2779-08dcebb80354": {
+    "other/1bf9b68d-c162-4b8b-2779-08dcebb80354/": {
       "id": "1bf9b68d-c162-4b8b-2779-08dcebb80354",
       "season": 2025,
       "name": "2024-25 Wisconsin/NM TBQ League Meet November",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
       "scope": "district",
+      "scopeLabel": "Wisconsin-Northern Michigan District",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "CrossPoint Assembly of God",
@@ -2773,26 +2979,28 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/377f612d-86b1-443c-e5b3-08dca8349943": {
+    "other/377f612d-86b1-443c-e5b3-08dca8349943/": {
       "id": "377f612d-86b1-443c-e5b3-08dca8349943",
       "season": 2025,
       "name": "Pen Florida Teen Bible Quiz League Registration",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "c2e9f68c-4c78-437e-8fed-dc4ea0e392f1",
       "scope": "district",
+      "scopeLabel": "Peninsular Florida District",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "Various Locations in the Pen Florida District",
       "isVisible": true,
       "isReport": false
     },
-    "other/1c240ead-211e-46b9-20b5-08dcea3f9ebb": {
+    "other/1c240ead-211e-46b9-20b5-08dcea3f9ebb/": {
       "id": "1c240ead-211e-46b9-20b5-08dcea3f9ebb",
       "season": 2025,
       "name": "South Dakota Meet 2",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Nov 9, 2024",
       "registrationDates": "Closed",
       "locationName": "Open Bible Church",
@@ -2800,13 +3008,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/dce62682-56ec-4d92-20b4-08dcea3f9ebb": {
+    "other/dce62682-56ec-4d92-20b4-08dcea3f9ebb/": {
       "id": "dce62682-56ec-4d92-20b4-08dcea3f9ebb",
       "season": 2025,
       "name": "Southern Missouri District League Meet #2",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "49429e46-b61f-4f58-9627-c2e375bdc55c",
       "scope": "district",
+      "scopeLabel": "Southern Missouri District",
       "dates": "Nov 2, 2024",
       "registrationDates": "Closed",
       "locationName": "Grace Community Assembly",
@@ -2814,13 +3023,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/876edf51-3f11-4098-2406-08dcfab6ad14": {
+    "other/876edf51-3f11-4098-2406-08dcfab6ad14/": {
       "id": "876edf51-3f11-4098-2406-08dcfab6ad14",
       "season": 2025,
       "name": "Southern New England District Meet 2 (November 2nd 2024)",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "fa15ddef-04a6-4a1d-b586-9bb29a81be35",
       "scope": "district",
+      "scopeLabel": "Southern New England District",
       "dates": "Nov 1 - 2, 2024",
       "registrationDates": "Closed",
       "locationName": "Crossroads Community Cathedral - East Windsor Campus",
@@ -2828,11 +3038,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/d7cf8417-be7f-4db0-9aa7-08dcc44e82e0": {
+    "other/d7cf8417-be7f-4db0-9aa7-08dcc44e82e0/": {
       "id": "d7cf8417-be7f-4db0-9aa7-08dcc44e82e0",
       "season": 2025,
       "name": "40th Annual Gold Cup Tournament",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Oct 26, 2024",
       "registrationDates": "Closed",
       "locationName": "Trinity Church",
@@ -2840,11 +3051,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "tournaments/bluegrass-classic": {
+    "tournaments/bluegrass-classic/": {
       "id": "08822b3e-cba9-4a0d-50a0-08dcc8444413",
       "season": 2025,
       "name": "7th Annual Bluegrass Classic",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Oct 26, 2024",
       "registrationDates": "Closed",
       "locationName": "First Assembly of God",
@@ -2852,13 +3064,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/d8edf2f7-42a4-48b1-577c-08dcf1aed9b5": {
+    "other/d8edf2f7-42a4-48b1-577c-08dcf1aed9b5/": {
       "id": "d8edf2f7-42a4-48b1-577c-08dcf1aed9b5",
       "season": 2025,
       "name": "NW TBQ - League 1 (24|25)",
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Oct 26, 2024",
       "registrationDates": "Closed",
       "locationName": "Cedar Park Assembly of God",
@@ -2866,13 +3079,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/0bf27770-c343-46ba-5caa-08dca34e29a6": {
+    "other/0bf27770-c343-46ba-5caa-08dca34e29a6/": {
       "id": "0bf27770-c343-46ba-5caa-08dca34e29a6",
       "season": 2025,
       "name": "2024-2025 Bible Quiz Georgia League Meet #1",
       "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
       "districtId": "5028f8d1-f0eb-4ed9-a487-1e328b46119f",
       "scope": "district",
+      "scopeLabel": "Georgia District",
       "dates": "Oct 17 - 23, 2024",
       "registrationDates": "Closed",
       "locationName": "Atlanta Tamil Church",
@@ -2880,25 +3094,27 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/2520d22f-99e7-427c-e109-08dca4da0d24": {
+    "other/2520d22f-99e7-427c-e109-08dca4da0d24/": {
       "id": "2520d22f-99e7-427c-e109-08dca4da0d24",
       "season": 2025,
       "name": "NJ TBQ 2024-2025 League Meet #1",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "scope": "region",
+      "scopeLabel": "Northeast Region",
       "dates": "Oct 19, 2024",
       "registrationDates": "Closed",
       "locationName": "New Jersey TBQ",
       "isVisible": true,
       "isReport": false
     },
-    "other/17c4b331-aeef-49b3-c365-08dcd4019278": {
+    "other/17c4b331-aeef-49b3-c365-08dcd4019278/": {
       "id": "17c4b331-aeef-49b3-c365-08dcd4019278",
       "season": 2025,
       "name": "2024-25 Wisconsin/NM TBQ League Meet October",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
       "scope": "district",
+      "scopeLabel": "Wisconsin-Northern Michigan District",
       "dates": "Oct 12, 2024",
       "registrationDates": "Closed",
       "locationName": "New Life Assembly of God",
@@ -2906,12 +3122,13 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/56a72f32-314b-4c51-cc76-08dce73545f9": {
+    "other/56a72f32-314b-4c51-cc76-08dce73545f9/": {
       "id": "56a72f32-314b-4c51-cc76-08dce73545f9",
       "season": 2025,
       "name": "CenCAL TBQ Meet #1",
       "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
       "scope": "region",
+      "scopeLabel": "Southwest Region",
       "dates": "Oct 12, 2024",
       "registrationDates": "Closed",
       "locationName": "Glad Tidings Assembly of God",
@@ -2919,13 +3136,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/f6f04d3f-c918-4f21-de19-08dcdcb5faa8": {
+    "other/f6f04d3f-c918-4f21-de19-08dcdcb5faa8/": {
       "id": "f6f04d3f-c918-4f21-de19-08dcdcb5faa8",
       "season": 2025,
       "name": "2024-2025 MI TBQ League Meet #1",
       "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853",
       "districtId": "8b19786b-48be-4cf7-8399-dfdb9e3fe07a",
       "scope": "district",
+      "scopeLabel": "Michigan District",
       "dates": "Oct 5, 2024",
       "registrationDates": "Closed",
       "locationName": "YpsiAG",
@@ -2933,13 +3151,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/632104b4-becb-4b9b-a99f-08dccee3252c": {
+    "other/632104b4-becb-4b9b-a99f-08dccee3252c/": {
       "id": "632104b4-becb-4b9b-a99f-08dccee3252c",
       "season": 2025,
       "name": "South Dakota Meet 1",
       "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
       "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
       "scope": "district",
+      "scopeLabel": "South Dakota District",
       "dates": "Oct 5, 2024",
       "registrationDates": "Closed",
       "locationName": "Open Bible Church",
@@ -2947,13 +3166,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/5c7d9458-db37-43ff-3e52-08dcd5774eac": {
+    "other/5c7d9458-db37-43ff-3e52-08dcd5774eac/": {
       "id": "5c7d9458-db37-43ff-3e52-08dcd5774eac",
       "season": 2025,
       "name": "Southern Missouri District League Meet #1",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "49429e46-b61f-4f58-9627-c2e375bdc55c",
       "scope": "district",
+      "scopeLabel": "Southern Missouri District",
       "dates": "Oct 5, 2024",
       "registrationDates": "Closed",
       "locationName": "New Vision Ministries",
@@ -2961,11 +3181,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/64cdc23b-393d-47c0-8709-08dca5f0a11f": {
+    "other/64cdc23b-393d-47c0-8709-08dca5f0a11f/": {
       "id": "64cdc23b-393d-47c0-8709-08dca5f0a11f",
       "season": 2025,
       "name": "Liberty Classic 2024",
       "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Sep 21, 2024",
       "registrationDates": "Closed",
       "locationName": "Metuchen Assembly of God",
@@ -2973,13 +3194,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/1ea465be-45d4-44d4-5b50-08dcbe4c1d62": {
+    "other/1ea465be-45d4-44d4-5b50-08dcbe4c1d62/": {
       "id": "1ea465be-45d4-44d4-5b50-08dcbe4c1d62",
       "season": 2025,
       "name": "Tennessee Meet #1",
       "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
       "districtId": "8d4063ff-36a7-487b-bd7c-7265c4a5125c",
       "scope": "district",
+      "scopeLabel": "Tennessee District",
       "dates": "Sep 21, 2024",
       "registrationDates": "Closed",
       "locationName": "various",
@@ -2992,6 +3214,7 @@
       "name": "NJ 24-25 TBQ Totals",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "scope": "region",
+      "scopeLabel": "Northeast Region",
       "dates": "Oct 19 - Feb 22, 2025",
       "isVisible": true,
       "isReport": true
@@ -3003,6 +3226,7 @@
       "regionId": "dc530391-470e-459f-aca8-46c57805b362",
       "districtId": "35b0e408-763e-418d-b5f2-cd2eec325efb",
       "scope": "district",
+      "scopeLabel": "Northwest District",
       "dates": "Oct 26 - Mar 29, 2025",
       "isVisible": true,
       "isReport": true
