@@ -6,11 +6,13 @@ date: "2016-05-01"
 menubar: menu_current_season
 ---
 
-Use the menu to find information on the 2024-2025 Bible Quiz season covering Acts.
+Use the menu to find information on the 2025-2026 Bible Quiz season covering Galatians, Ephesians, Philippians, Colossians, and Philemon.
 
 ## Scripture portion
 
 You can find and buy scripture portions from the [Products page]({% link _pages/products.md %}).
+
+You can also generate a PDF of the officials scripture portion with the CoachApp. [Download for free!]({% link _pages/apps.md %})
 
 ## National Finals
 

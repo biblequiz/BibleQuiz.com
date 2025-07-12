@@ -2,9 +2,6 @@
     - name: Home
       link: /current-season/
       icon: fas fa-home
-    - name: Links
-      link: /tbq/links/
-      icon: fas fa-link
 - label: Compete
   items:
     - name: Register
@@ -13,6 +10,9 @@
     - name: Tournaments
       link: /events/tournaments/
       icon: fas fa-shuttle-van
+    - name: National Finals
+      link: /history/2026/nationals/
+      icon: fas fa-trophy
 - label: Prepare
   items:
     - name: League Meet Breakdown
@@ -21,8 +21,6 @@
     - name: Downloads & Forms
       link: /downloads/
       icon: fas fa-arrow-circle-down
-- label: Materials
-  items:
     - name: Questions
       link: /questions/
       icon: fas fa-shopping-cart

@@ -16,18 +16,7 @@ For new teams, memorizing all Application Questions guarantees at least two ques
 
 Recommended for all teams competing at League Meets.
 
-<a href="{% link assets/2025/24-25_Acts-application-questions.doc %}" class="button is-primary">Application Questions (.doc)</a>
-
----
-
-## Practice questions by Karl Dawson — FREE
-
-Download free practice questions for your XP5 team, courtesy of former quizzer Karl Dawson.
-
--   [Acts chapter 2]({% link assets/2025/XP5-Chapter-2.pdf %})
--   [Acts chapter 4]({% link assets/2025/XP5-Chapter-4.pdf %})
--   [Acts chapter 5]({% link assets/2025/XP5-Chapter-5.pdf %})
--   [Acts chapter 9]({% link assets/2025/XP5-Chapter-9.pdf %})
+<a href="{% link _pages/history/2026/files/25-26_GEPCP_Application_Questions.docx %}" class="button is-primary">Application Questions (.docx)</a> <a href="{% link _pages/history/2026/files/25-26_GEPCP_Application_Questions.pdf %}" class="button is-primary">Application Questions (.pdf)</a>
 
 ---
 
@@ -40,11 +29,11 @@ The Digital Bundle includes:
 -   Basic Five
 -   League Practice Questions
 -   Contender Practice Questions
--   Study Guide
+-   Study Guide Plus
 
 Duplication allowed within a single church.
 
-<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2024-2025/TBQ_Bundle_Acts_2024_2025" class="button is-primary">Go Now</a>
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2025-2026/TBQ_Bundle" class="button is-primary">Go Now</a>
 
 ---
 
@@ -62,31 +51,23 @@ The Basic Five includes:
 
 Duplication allowed within a single church.
 
-<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2024-2025/Basic_Five_Acts_2024_2025">Go Now</a>
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2025-2026/Basic_Five" class="button is-primary">Go Now</a>
 
 ---
 
-## Championship Practice Questions by Danielle Mori - $50
+## Championship Practice Questions - $50
 
 50 sets of practice questions for Championship quizzers written by the official Championship division writer.
 
-<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2024-2025/A_League_Practice_Sets_Acts_2024_2025" class="button is-primary">Go Now</a>
-
----
-
-## Championship Practice Questions by Karl Dawson - $50
-
-Nationals coach and quizzer Karl Dawson is selling 53 Championship League-level sets for $50. Contact him at [karltdawson@mac.com](mailto:karltdawson@mac.com) to place your order.
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2025-2026/Championship_Practice_Sets" class="button is-primary">Go Now</a>
 
 ---
 
 ## Contender Practice Questions - $30
 
-40 sets of practice questions for Contender quizzers.
+40 sets of practice questions for Contender quizzers written by the official Contender and XP5 division writer.
 
-Questions were written by the official Contender and XP5 division writer.
-
-<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2024-2025/MSQ_Practice_Sets_Acts_2024_2025" class="button is-primary">Go Now</a>
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2025-2026/Contender_Practice_Sets" class="button is-primary">Go Now</a>
 
 ---
 
@@ -100,7 +81,7 @@ Includes:
 
 For XP5 teams, there are additional assets that can supercharge your team!
 
-<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2024-2025/Study_Guide_Plus_Acts_2024_2025" class="button is-primary">Go Now</a>
+<a href="https://digital.myhealthychurch.com/Digital-Items/TBQ/2025-2026/Study_Guide_Plus" class="button is-primary">Go Now</a>
 
 ---
 

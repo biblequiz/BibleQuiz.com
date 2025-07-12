@@ -26,7 +26,7 @@ The fastest way to learn about Bible Quiz and a must-have for new teams at their
 
 For use in all Bible Quiz matches, all year long.
 
-<a href="{% link assets/2025/24-25 Bible Quiz Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a>
+<a href="{% link _pages/history/2026/files/25-26_GEPCP_TBQ_Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a>
 
 ### Simplified Rules
 
@@ -40,63 +40,58 @@ A few minor rule changes for XP5 competitions. All rules from the full set of Of
 
 <a href="{% link assets/2025/24-25_XP5-Match-Structure.pdf %}" class="button is-primary">Download XP5 Match Structure</a>
 
-### Tiebreakers
+<!-- ### Tiebreakers
 
-<a href="{% link assets/2023/2023 National Finals Tie Breaker Rules.pdf %}" class="button is-primary">Download tiebreaking rules</a>
+<a href="{% link assets/2023/2023 National Finals Tie Breaker Rules.pdf %}" class="button is-primary">Download tiebreaking rules</a> -->
 
 ---
 
 # Award Guidelines and Forms
 
-![]({% link assets/2025/NMA.jpg %})
+### National Memorization Award
+
+<!-- ![]({% link assets/2025/NMA.jpg %}) -->
 
 All of the material must be quoted one chapter at at time and in one sitting, with four mistakes or fewer. No time limit!
 
 <a href="{% link assets/2025/24-25 Acts NMA Guidelines.pdf %}" class="button is-primary">National Memorization Award Guidelines</a>
 
-<br /><br />
+<br />
 
-![]({% link assets/2025/MMA.jpg %})
+### Master Memorization Award
+
+<!-- ![]({% link assets/2025/MMA.jpg %}) -->
 
 All of the material must be quoted consecutively in one sitting with 15 mistakes or fewer in 75 minutes or less.
 
 <a href="{% link assets/2025/24-25 Acts MMA Guidelines.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
 
-<br /><br />
+<br />
 
-<!-- ### Memorization Award Form -->
+### Memorization Award Form
 
-![]({% link assets/2025/NMA MMA Form.jpg %})
+<!-- ![]({% link assets/2025/NMA MMA Form.jpg %}) -->
 
 Once you've earned the NMA and/or the MMA, fill out the following form and send to your District Bible Quiz Coordinator (DBQC). _If you are unsure of who your DBQC is, email <PastorBernie@BibleQuiz.com>._
 
 <a href="{% link assets/2025/24-25 Acts NMA MMA Form.pdf %}" class="button is-primary">Memorization Award Form</a>
 
-<br /><br />
+<br />
 
-![]({% link assets/2025/Discipleship.jpg %})
+<!-- ![]({% link assets/2025/Discipleship.jpg %}) -->
 
-<!-- ### Discipleship Award Guidelines -->
+### Discipleship Award Guidelines
 
 <a href="{% link assets/2025/24-25_Discipleship-Award-Guidelines.pdf %}" class="button is-primary">Discipleship Award Guidelines</a>
 <a href="{% link assets/2025/24-25 Acts Discussion Questions.pdf %}" class="button is-primary">Discussion Questions</a>
 
 ---
 
-## Pronunciation Guide
-
-Have you or your quizzers struggled to pronounce any of the names and places in Acts? This guide can help!
-
-<a href="{% link assets/2025/24-25 Acts Chapter Analysis Pronunciations.pdf %}" class="button is-primary">Acts Pronunciation Guide</a>
-
-<i>Note: This guide is not grounds for a contest.</i>
-
----
-
 # Coaching App
 
 Designed for coaches to keep score, lookup answers, research data, see the latest rulebook, see the online score, and get an online schedule for any online registered competition on BibleQuiz.com.
-<a href="{% link _pages/apps.md %}" class="button is-primary">Go to App Downloads</a>
+
+<a href="{% link _pages/apps.md %}" class="button is-primary">Download for Free</a>
 
 # Scoresheets
 
@@ -118,15 +113,16 @@ A free spreadsheet for tracking scores in a match.
 
 <!-- <!-- ### Scripture Portion Artwork -->
 
-<img src="{% link assets/2025/24-25_Acts Artwork.png %}" width="300">
+<!-- <img src="{% link assets/2025/24-25_Acts Artwork.png %}" width="300">
 
-<a href="{% link assets/2025/24-25_Acts Artwork.png %}" class="button is-primary">Download Scripture Portion Artwork</a>
+<a href="{% link assets/2025/24-25_Acts Artwork.png %}" class="button is-primary">Download Scripture Portion Artwork</a> -->
 
 ### Bible Quiz Logo
 
-<img src="{% link assets/pages/biblequizlogo-805x1024.jpg %}" width="300">
+<img src="{% link assets/logos/Teen Bible Quiz/Teen Bible Quiz Logo Green.png %}" width="200">
+<!-- <img src="{% link assets/logos/Teen Bible Quiz/Teen Bible Quiz Banner Logo Green.png %}" height="150"> -->
 
-<a href="{% link assets/pages/biblequizlogo-805x1024.jpg %}" class="button is-primary">Download Logo</a>
+<a href="{% link assets/logos/Teen Bible Quiz/Teen Bible Quiz Logo.zip %}" class="button is-primary">Download Logo Pack</a>
 
 ---
 

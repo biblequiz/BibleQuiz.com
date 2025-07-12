@@ -3,7 +3,7 @@ layout: page
 permalink: /history/2026/nationals/
 title: "2026 TBQ National Finals"
 date: "2025-07-11"
-menubar: menu_tbq_nationals
+menubar: menu_current_season
 ---
 
 ![]({% link _pages/history/2026/nationals/2026-tbq-tucson.jpg %})
