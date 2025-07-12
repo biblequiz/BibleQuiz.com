@@ -33,6 +33,7 @@ export default function EventListFilters({ regions, districts }: Props) {
 
     sharedEventListFilter.set({
       searchText: eventFilters?.searchText ?? null,
+
       showNation: eventFilters?.showNation ?? true,
       showRegion: eventFilters?.showRegion ?? true,
       showDistrict: eventFilters?.showDistrict ?? true,
@@ -51,6 +52,7 @@ export default function EventListFilters({ regions, districts }: Props) {
 
     sharedEventListFilter.set({
       searchText: eventFilters?.searchText ?? null,
+      
       showNation: checkedValue == "nation" ? isChecked : (eventFilters?.showNation ?? true),
       showRegion: checkedValue == "region" ? isChecked : (eventFilters?.showRegion ?? true),
       showDistrict: checkedValue == "district" ? isChecked : (eventFilters?.showDistrict ?? true),

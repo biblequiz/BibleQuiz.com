@@ -107,6 +107,7 @@ export default function EventListTabs({ tabs }: Props) {
 
                     sharedEventListFilter!.set({
                         searchText: eventFilters?.searchText ?? null,
+                        
                         showNation: eventFilters?.showNation ?? true,
                         showRegion: eventFilters?.showRegion ?? true,
                         showDistrict: eventFilters?.showDistrict ?? true,
