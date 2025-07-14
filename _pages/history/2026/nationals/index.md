@@ -11,7 +11,7 @@ menubar: menu_current_season
 <!-- <a href="https://biblequiz.com/live-events/?eventId=e2ff54dd-83dc-4232-ba9a-08dd9c940a67
 " class="button is-primary">Schedule and Stats</a> -->
 
-## June 27, 2025 - July 3, 2025
+## June 27 - July 3, 2026
 
 40 teams from 8 regions compete over the course of a week for the 2026 AG Teen Bible Quiz National Championship.
 
