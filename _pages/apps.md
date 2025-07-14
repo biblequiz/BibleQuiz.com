@@ -6,6 +6,26 @@ date: "2023-05-27"
 ---
 
 <div class="columns is-multiline is-centered">
+ <div class="column is-4">
+        <div class="icon callout-icon">
+            <img src="{% link assets/images/BQ-App-Coach-v1.png %}" alt="CoachApp" />
+        </div>
+        <p class="title is-5">CoachApp</p>
+        <p class="subtitle is-5">Coaching App</p>
+        <div class="content">
+            <p>Makes it easy for both JBQ and TBQ coaches to keep score, lookup answers, research data, see the latest rulebook, see the online score, and get an online schedule for any online registered competition on BibleQuiz.com. It is intended for use in conjunction with <a href="https://registration.biblequiz.com/" target="_blank">https://registration.biblequiz.com/</a>.</p>
+        </div>
+        <a href="https://github.com/biblequiz/Releases.CoachApp/releases/latest/download/com.biblequiz.coachapp.windows.msixbundle" class="button is-primary mt-1">
+            <i class="fab fa-windows"></i>&nbsp;Windows
+        </a>
+        <a href="https://github.com/biblequiz/Releases.CoachApp/releases" class="button is-warning mt-1" target="_blank">
+            <i class="fab fa-github"></i>&nbsp;All Releases
+        </a>
+        <p class="title is-6" style="margin-top:30px">CoachApp Training Videos</p>
+        <ul>
+            <li>Coming soon! In the meantime,</li>
+        </ul>
+    </div>
     <div class="column is-4">
         <div class="icon callout-icon">
             <img src="{% link assets/images/BQ-App-Score-v1.png %}" alt="EZScore" />
@@ -57,26 +77,8 @@ date: "2023-05-27"
             <li><a href="https://youtu.be/ur4lzA_SlQY">Add Quizzer to Current Meet</a></li>
         </ul>
     </div>
-    <div class="column is-4">
-        <div class="icon callout-icon">
-            <img src="{% link assets/images/BQ-App-Coach-v1.png %}" alt="CoachApp" />
-        </div>
-        <p class="title is-5">CoachApp</p>
-        <p class="subtitle is-5">Coaching App</p>
-        <div class="content">
-            <p>Makes it easy for both JBQ and TBQ coaches to keep score, lookup answers, research data, see the latest rulebook, see the online score, and get an online schedule for any online registered competition on BibleQuiz.com. It is intended for use in conjunction with <a href="https://registration.biblequiz.com/" target="_blank">https://registration.biblequiz.com/</a>.</p>
-        </div>
-        <a href="https://github.com/biblequiz/Releases.CoachApp/releases/latest/download/com.biblequiz.coachapp.windows.msixbundle" class="button is-primary mt-1">
-            <i class="fab fa-windows"></i>&nbsp;Windows
-        </a>
-        <a href="https://github.com/biblequiz/Releases.CoachApp/releases" class="button is-warning mt-1" target="_blank">
-            <i class="fab fa-github"></i>&nbsp;All Releases
-        </a>
-        <p class="title is-6" style="margin-top:30px">CoachApp Training Videos</p>
-        <ul>
-            <li>Coming soon!</li>
-        </ul>
-    </div></div>
+   
+    </div>
 
 ---
 
