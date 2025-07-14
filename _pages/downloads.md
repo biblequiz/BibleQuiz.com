@@ -22,11 +22,11 @@ The fastest way to learn about Bible Quiz and a must-have for new teams at their
 
 ### Official Rules
 
-<!-- The rules for the 2024-2025 season over Acts will be posted here in August. -->
+The rules for the 2025-2026 season over GEPCP will be posted here in August.
 
-For use in all Bible Quiz matches, all year long.
+<!-- For use in all Bible Quiz matches, all year long. -->
 
-<a href="{% link _pages/history/2026/files/25-26_GEPCP_TBQ_Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a>
+<!-- <a href="{% link _pages/history/2026/files/25-26_GEPCP_TBQ_Rules.pdf %}" class="button is-primary">Download Rules (PDF)</a> -->
 
 ### Simplified Rules
 
@@ -48,42 +48,43 @@ A few minor rule changes for XP5 competitions. All rules from the full set of Of
 
 # Award Guidelines and Forms
 
-### National Memorization Award
+<!-- ### National Memorization Award -->
 
-<!-- ![]({% link assets/2025/NMA.jpg %}) -->
+![]({% link assets/2026/NMA Requirements.jpg %})
 
 All of the material must be quoted one chapter at at time and in one sitting, with four mistakes or fewer. No time limit!
 
-<a href="{% link assets/2025/24-25 Acts NMA Guidelines.pdf %}" class="button is-primary">National Memorization Award Guidelines</a>
+<a href="{% link assets/2026/GEPCP_NMA_Requirements.pdf %}" class="button is-primary">National Memorization Award Guidelines</a>
 
 <br />
 
-### Master Memorization Award
+<!-- ### Master Memorization Award -->
 
-<!-- ![]({% link assets/2025/MMA.jpg %}) -->
+![]({% link assets/2026/MMA Requirements.jpg %})
 
 All of the material must be quoted consecutively in one sitting with 15 mistakes or fewer in 75 minutes or less.
 
-<a href="{% link assets/2025/24-25 Acts MMA Guidelines.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
+<a href="{% link assets/2026/GEPCP_MMA_Requirements.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
 
 <br />
 
-### Memorization Award Form
+<!-- ### Memorization Award Form -->
 
-<!-- ![]({% link assets/2025/NMA MMA Form.jpg %}) -->
+![]({% link assets/2026/Memorization Award Forms.jpg %})
 
 Once you've earned the NMA and/or the MMA, fill out the following form and send to your District Bible Quiz Coordinator (DBQC). _If you are unsure of who your DBQC is, email <PastorBernie@BibleQuiz.com>._
 
-<a href="{% link assets/2025/24-25 Acts NMA MMA Form.pdf %}" class="button is-primary">Memorization Award Form</a>
+<a href="{% link assets/2026/GEPCP_Memorization-Award-Form.pdf %}" class="button is-primary">Memorization Award Form</a>
 
 <br />
 
-<!-- ![]({% link assets/2025/Discipleship.jpg %}) -->
+<!-- ### Discipleship Award Guidelines -->
 
-### Discipleship Award Guidelines
+![]({% link assets/2026/Discipleship Requirements.jpg %})
 
-<a href="{% link assets/2025/24-25_Discipleship-Award-Guidelines.pdf %}" class="button is-primary">Discipleship Award Guidelines</a>
-<a href="{% link assets/2025/24-25 Acts Discussion Questions.pdf %}" class="button is-primary">Discussion Questions</a>
+<a href="{% link assets/2026/GEPCP_Discipleship_Award_Requirements.pdf %}" class="button is-primary">Discipleship Award Requirements</a>
+
+<!-- <a href="{% link assets/2025/24-25 Acts Discussion Questions.pdf %}" class="button is-primary">Discussion Questions</a> -->
 
 ---
 
