@@ -70,7 +70,7 @@ All of the material must be quoted consecutively in one sitting with 15 mistakes
 
 <!-- ### Memorization Award Form -->
 
-![]({% link assets/2026/Memorization Award Forms.jpg %})
+![]({% link assets/2026/Memorization Award Form.jpg %})
 
 Once you've earned the NMA and/or the MMA, fill out the following form and send to your District Bible Quiz Coordinator (DBQC). _If you are unsure of who your DBQC is, email <PastorBernie@BibleQuiz.com>._
 
