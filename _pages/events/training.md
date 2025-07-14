@@ -6,30 +6,27 @@ menubar: menu_current_season
 tabs: tabs_events
 ---
 
-**Pen-Florida BQ Training**\
-July 27th, 2024\
-Oxford, FL\
-_Contact_: Dan Anderson at [sejbqdan@gmail.com](mailto:sejbqdan@gmail.com)
+**Pen-Florida BQ Training Day**\
+July 26, 2025\
+Oxford Assembly of God, Oxford, FL\
+Training for coaches, officials and those interested in learning more about JBQ & TBQ!\
+_Contact_: Dan Anderson at [cfcitykidsdan@gmail.com](mailto:cfcitykidsdan@gmail.com) or 407-947-9927
 
 **Dakota Quiz**\
-August 15 - 17, 2024\
-Camp Rimrock, Rapid City, SD\
+August 14-16, 2025 (deadline for registration is July 14)\
+FLAME\
+Rimrock Camp & Retreat Center, Rapid City, SD\
 _Contact_: David & Denise Sullivan at [sullivan@rap.midco.net](mailto:sullivan@rap.midco.net)
 
-**Penn-Del BQ Camp**\
-August 16 - 18, 2024\
-Bongiorno Conference Center, Carlisle, PA\
-_Registration_: [penndelyouth.com/biblequiz](https://www.penndelyouth.com/biblequiz)\
-_Contact_: Patty Blake at [biblequiz@penndel.org](mailto:biblequiz@penndel.org) or 610-659-2059
-
-**Great Lakes Quiz Camp**\
-August 24, 2024\
-Lexington First Assembly\
-Cost $25—includes lunch\
-_Contact_: [tbqkentucky@gmail.com](mailto:tbqkentucky@gmail.com)
+**Northeast Bible Quiz Training Conference**\
+August 15-16, 2025\
+River Of God, Enola, PA\
+For both quizzers, coaches, officials and parents!\
+Cost $30 if registered by July 15\
+_Contact_: Beth Heller at [CapitalTBQ@gmail.com](mailto:CapitalTBQ@gmail.com) or 717-317-4233
 
 **Georgia BQ Training**\
-Training for coaches & all levels of quizzers\
-September 7, 2024\
+September 6, 2025\
 Johns Creek, GA\
-_Contact_: Doug Black [bqgeorgia@gmail.com](mailto:bqgeorgia@gmail.com) or 678-767-2249
+Training for coaches & all levels of quizzers\
+_Contact_: Doug Black at [bqgeorgia@gmail.com](mailto:bqgeorgia@gmail.com) or 678-767-2249

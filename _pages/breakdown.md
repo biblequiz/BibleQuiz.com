@@ -6,19 +6,17 @@ date: "2025-07-28"
 menubar: menu_current_season
 ---
 
-For the 2024-2025 season we will be quizzing over the book of Acts. This page will be updated as information becomes available.
-
-Once change from previous seasons: Championship division will only quiz on Acts 1-17 (more information available [here](https://biblequiz.com/2024/01/changes-for-acts-season)).
+For the 2025-2026 season we will be quizzing over the books of Galatians, Ephesians, Philippians, Colossians, and Philemon. This page will be updated as information becomes available.
 
 ## League Meet breakdown
 
-| **Meet**      | **Championship**     | **Contender**            | **XP5**         |
-| ------------- | -------------------- | ------------------------ | --------------- |
-| League Meet 1 | 1-5<br/>_(178 vs)_   | 1-4<br/>_(136 vs)_       | 2<br/>_(47 vs)_ |
-| League Meet 2 | 6-9<br/>_(158 vs)_   | 5-7<br/>_(117 vs)_       | 4<br/>_(37 vs)_ |
-| League Meet 3 | 10-13<br/>_(155 vs)_ | 8-9:19<br/>_(58 vs)_     | 5<br/>_(42 vs)_ |
-| League Meet 4 | 14-17<br/>_(142 vs)_ | 9:20-10:48<br/>_(73 vs)_ | 9<br/>_(43 vs)_ |
-| **TOTAL**     | **633 verses**       | **384 verses**           | **169 verses**  |
+| **Meet**      | **Championship**                  | **Contender**                   | **XP5**                           |
+| ------------- | --------------------------------- | ------------------------------- | --------------------------------- |
+| League Meet 1 | Gal. 1-6<br/>_(149 vs)_           | Gal. 1-5<br/>_(131 vs)_         | Gal. 3 & 5<br/>_(55 vs)_          |
+| League Meet 2 | Eph. 1-6<br/>_(155 vs)_           | Gal. 6, Eph. 1-4<br/>_(116 vs)_ | Eph. 4<br/>_(32 vs)_              |
+| League Meet 3 | Phil. 1-4<br/>_(104 vs)_          | Eph. 5-6<br/>_(57 vs)_          | Eph. 5-6:9<br/>_(42 vs)_          |
+| League Meet 4 | Col. 1-4, Philemon<br/>_(120 vs)_ | Phil. 1-2<br/>_(60 vs)_         | Eph. 6:10 - Phil. 2<br/>_(45 vs)_ |
+| **TOTAL**     | **528 verses**                    | **364 verses**                  | **174 verses**                    |
 
 _Championship League was formerly called A League; Contender League was formerly called Middle School Quiz (MSQ)_
 
@@ -28,9 +26,11 @@ Some districts will have a League Meet 5 ("League Final"), which will cover all 
 
 ## WRITER'S TIPS & BREAKDOWN
 
-### Championship Division written by Danielle Mori
+### Championship Division written by Solomon Stevens
 
-#### General points:
+Coming soon.
+
+<!-- #### General points:
 
 -   Most types of 10s will be of similar difficulty throughout the season.
 -   A few select types of 10s will ramp up in difficulty at the District, Regional, and National levels (i.e. the chapter required as the answer early in the season and the verse reference later in the season).
@@ -66,13 +66,15 @@ Some districts will have a League Meet 5 ("League Final"), which will cover all 
 -   Thirty-pointers will be the most difficult questions of the year. Many questions require four
     or more verses, long lists, or concordance-based answers that would need to be
     previously studied thoroughly.
--   Questions will reflect previous competitions’ style with more difficult answers.
+-   Questions will reflect previous competitions’ style with more difficult answers. -->
 
 <!-- _Additional guidance on Regionals and Nationals questions will be provided in early 2025._ -->
 
-### Contender/XP5 Divisions written by Jon Galliers
+### Contender/XP5 Divisions written by Cole Abbott
 
-#### General Style
+Coming soon.
+
+<!-- #### General Style
 
 I like to prepare quizzers for common question styles used in higher levels of quiz but demanding shorter answers. Acts is similar to a gospel in the storytelling aspect, so many questions will focus on:
 
@@ -112,4 +114,4 @@ Expect the difficulty of 20- and 30-point questions to increase. 30-point questi
 
 #### Regional Finals
 
-Expect Regional 20-point questions to be similar to 30-point questions at District Finals (1-2 verses in length). 30-point questions will span up to 2-3 consecutive verses may require medium chapter analysis lists, and some smaller concordance answers (up to 2 separate verses).
+Expect Regional 20-point questions to be similar to 30-point questions at District Finals (1-2 verses in length). 30-point questions will span up to 2-3 consecutive verses may require medium chapter analysis lists, and some smaller concordance answers (up to 2 separate verses). -->

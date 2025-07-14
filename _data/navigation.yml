@@ -25,7 +25,7 @@
       icon: fas fa-users
 - name: Teen Bible Quiz
   link: /#
-  image: /assets/images/icon-tbq-white-128px.png
+  image: /assets/logos/Teen Bible Quiz/Teen-Bible-Quiz-Logo-White-128.png
   dropdown:
     - name: Register
       link: https://registration.biblequiz.com
@@ -40,18 +40,9 @@
     - name: Current Season
       link: /current-season/
       icon: fas fa-calendar-check
-    - name: Material Breakdown
-      link: /breakdown/
-      icon: fas fa-sitemap
-    - name: Downloads & Forms
-      link: /downloads/
-      icon: fas fa-download
-    - name: Questions
-      link: /questions/
-      icon: fas fa-shopping-cart
-    - name: Products
-      link: /products/
-      icon: fas fa-shopping-cart
+    - name: National Finals
+      link: /history/2026/nationals/
+      icon: fas fa-trophy
     - name: Training
       link: /training/
       icon: fas fa-dumbbell
@@ -62,9 +53,6 @@
     - name: Next Season
       link: /next-season/
       icon: fas fa-hourglass-start
-    - name: Links
-      link: /tbq/links/
-      icon: fas fa-link
     - name: History
       link: /history/
       icon: fas fa-history
@@ -73,11 +61,11 @@
       link: /quizzers/
       icon: fas fa-users
 
-- name: Blog
+- name: News
   link: /blog/
   icon: fas fa-pencil-alt
   dropdown:
-    - name: Feed
+    - name: BibleQuiz.com Blog
       link: /blog/
       icon: fas fa-book-reader
     - name: TBQ Newsletter

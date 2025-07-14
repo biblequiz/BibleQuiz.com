@@ -17,6 +17,7 @@ The Female and Male Quizzers of the Year Awards receive a $1,000 scholarship and
 
 | Year | Quizzer              | Church                          | City                 |
 | ---- | -------------------- | ------------------------------- | -------------------- |
+| 2025 | Leah Gries           | Cedar Park AG                   | Bothell, WA          |
 | 2024 | Elizabeth Li         | Living Water Bible Church       | San Diego, CA        |
 | 2023 | Shaylee Powell       | Calvary Church                  | Naperville, IL       |
 | 2022 | Rachel Brookbank     | New Life                        | Colorado Springs, CO |
@@ -39,24 +40,25 @@ The Female and Male Quizzers of the Year Awards receive a $1,000 scholarship and
 
 ## Male Quizzer of the Year
 
-| Year | Quizzer              | Church              | City                |
-| ---- | -------------------- | ------------------- | ------------------- |
-| 2024 | Jayden Nimako        | Radiant Life Church | Dublin, OH          |
-| 2023 | Samuel Jebaraj       | Bethel Church       | San Jose, CA        |
-| 2022 | Sheldon Powell       | Calvary Church      | Naperville, IL      |
-| 2021 | Zach Ponraj          | Deeper Church       | Burien, WA          |
-| 2020 | None due to COVID-19 |                     |                     |
-| 2019 | Judah Stevens        | Redeemer Church     | Utica, NY           |
-| 2018 | Zak Kellock          | Dream City Church   | Scottsdale, AZ      |
-| 2017 | Solomon Stevens      | Maple Lane AG       | Deposit, NY         |
-| 2016 | Jonathan Brown       | New Day AG          | Upper St. Clair, PA |
-| 2015 | Daniel Quick         | James River Church  | Ozark, MO           |
-| 2014 | Luke Wagner          | First AG            | Muskogee, OK        |
-| 2013 | Daniel Wagner        | First AG            | Owasso, OK          |
-| 2012 | Daniel Wagner        | First AG            | Owasso, OK          |
-| 2011 | Daniel Wagner        | First AG            | Owasso, OK          |
-| 2010 | Jesse Wagner         | First AG            | Owasso, OK          |
-| 2009 | Jared Burkhalter     | Faith AG            | Orlando, FL         |
-| 2008 | Jared Burkhalter     | Faith AG            | Orlando, FL         |
-| 2007 | Jared Burkhalter     | Faith AG            | Orlando, FL         |
-| 2006 | Jon Galliers         | First AG            | Lexington, KY       |
+| Year | Quizzer              | Church                           | City                |
+| ---- | -------------------- | -------------------------------- | ------------------- |
+| 2025 | Steve Joy            | Atlanta Indian Prayer Fellowship | Marietta, GA        |
+| 2024 | Jayden Nimako        | Radiant Life Church              | Dublin, OH          |
+| 2023 | Samuel Jebaraj       | Bethel Church                    | San Jose, CA        |
+| 2022 | Sheldon Powell       | Calvary Church                   | Naperville, IL      |
+| 2021 | Zach Ponraj          | Deeper Church                    | Burien, WA          |
+| 2020 | None due to COVID-19 |                                  |                     |
+| 2019 | Judah Stevens        | Redeemer Church                  | Utica, NY           |
+| 2018 | Zak Kellock          | Dream City Church                | Scottsdale, AZ      |
+| 2017 | Solomon Stevens      | Maple Lane AG                    | Deposit, NY         |
+| 2016 | Jonathan Brown       | New Day AG                       | Upper St. Clair, PA |
+| 2015 | Daniel Quick         | James River Church               | Ozark, MO           |
+| 2014 | Luke Wagner          | First AG                         | Muskogee, OK        |
+| 2013 | Daniel Wagner        | First AG                         | Owasso, OK          |
+| 2012 | Daniel Wagner        | First AG                         | Owasso, OK          |
+| 2011 | Daniel Wagner        | First AG                         | Owasso, OK          |
+| 2010 | Jesse Wagner         | First AG                         | Owasso, OK          |
+| 2009 | Jared Burkhalter     | Faith AG                         | Orlando, FL         |
+| 2008 | Jared Burkhalter     | Faith AG                         | Orlando, FL         |
+| 2007 | Jared Burkhalter     | Faith AG                         | Orlando, FL         |
+| 2006 | Jon Galliers         | First AG                         | Lexington, KY       |

@@ -8,6 +8,7 @@ menubar: menu_history
 
 | Year | Location                            | City                       |
 | ---- | ----------------------------------- | -------------------------- |
+| 2026 | Loews Ventana Canyon Resort         | Tucson, Arizona            |
 | 2025 | Renaissance St. Louis Airport Hotel | St. Louis, MO              |
 | 2024 | Hyatt Regency Dallas                | Dallas, TX                 |
 | 2023 | Renaissance St. Louis Airport Hotel | St. Louis, MO              |

@@ -12,6 +12,7 @@ Top quizzers from the Northeast, Southeast, Gulf, and Great Lakes regions form t
 
 | Year | Winner               | Final Score |
 | ---- | -------------------- | ----------- |
+| 2025 | West                 | 100-90      |
 | 2024 | West                 | 115-50      |
 | 2023 | East                 | 145-40      |
 | 2022 | East                 | 130-125     |
