@@ -15,7 +15,7 @@ columns:
       cardPrefix: "<i>MSQ/N:</i> "
 rows:
     - Season: 2026
-      Material: Acts
+      Material: Galatians, Ephesians, Philippians, Colossians & Philemon
       A League: Solomon Stevens
       MSQ/Novice: Cole Abbott
     - Season: 2025
