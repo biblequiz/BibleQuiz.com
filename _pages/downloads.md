@@ -46,7 +46,7 @@ A few minor rule changes for XP5 competitions. All rules from the full set of Of
 
 ---
 
-# Award Guidelines and Forms
+# Award Requirements and Forms
 
 <!-- ### National Memorization Award -->
 
@@ -54,7 +54,7 @@ A few minor rule changes for XP5 competitions. All rules from the full set of Of
 
 All of the material must be quoted one chapter at at time and in one sitting, with four mistakes or fewer. No time limit!
 
-<a href="{% link assets/2026/GEPCP_NMA_Requirements.pdf %}" class="button is-primary">National Memorization Award Guidelines</a>
+<a href="{% link assets/2026/GEPCP_NMA_Requirements.pdf %}" class="button is-primary">National Memorization Award Requirements</a>
 
 <br />
 
@@ -64,7 +64,7 @@ All of the material must be quoted one chapter at at time and in one sitting, wi
 
 All of the material must be quoted consecutively in one sitting with 10 mistakes or fewer in 65 minutes or less.
 
-<a href="{% link assets/2026/GEPCP_MMA_Requirements.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
+<a href="{% link assets/2026/GEPCP_MMA_Requirements.pdf %}" class="button is-primary">Master Memorization Award Requirements</a>
 
 <br />
 
