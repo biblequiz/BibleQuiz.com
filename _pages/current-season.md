@@ -10,9 +10,9 @@ Use the menu to find information on the 2025-2026 Bible Quiz season covering Gal
 
 ## Scripture portion
 
-You can find and buy scripture portions from the [Products page]({% link _pages/products.md %}).
+You can find and buy Scripture Portions from the [Products page]({% link _pages/products.md %}).
 
-You can also generate a PDF of the officials scripture portion with the CoachApp. [Download for free!]({% link _pages/apps.md %})
+You can also generate a PDF of the official Scripture Portion with the CoachApp. [Download for free!]({% link _pages/apps.md %})
 
 ## National Finals
 
