@@ -17,7 +17,7 @@ The Female and Male Quizzers of the Year Awards receive a $1,000 scholarship and
 
 | Year | Quizzer              | Church                          | City                 |
 | ---- | -------------------- | ------------------------------- | -------------------- |
-| 2025 | Leah Gries           | Cedar Park AG                   | Bothell, WA          |
+| 2025 | Leiah Gries          | Cedar Park AG                   | Bothell, WA          |
 | 2024 | Elizabeth Li         | Living Water Bible Church       | San Diego, CA        |
 | 2023 | Shaylee Powell       | Calvary Church                  | Naperville, IL       |
 | 2022 | Rachel Brookbank     | New Life                        | Colorado Springs, CO |
