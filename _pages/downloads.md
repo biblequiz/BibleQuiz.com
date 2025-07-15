@@ -62,7 +62,7 @@ All of the material must be quoted one chapter at at time and in one sitting, wi
 
 ![]({% link assets/2026/MMA Requirements.jpg %})
 
-All of the material must be quoted consecutively in one sitting with 15 mistakes or fewer in 75 minutes or less.
+All of the material must be quoted consecutively in one sitting with 10 mistakes or fewer in 65 minutes or less.
 
 <a href="{% link assets/2026/GEPCP_MMA_Requirements.pdf %}" class="button is-primary">Master Memorization Award Guidelines</a>
 
