@@ -1,0 +1,19 @@
+---
+import { PrintDialogModalId } from "./PrintDialogContent";
+import FontAwesomeIcon from "@components/FontAwesomeIcon";
+
+interface Props {
+    isLoaded: boolean;
+}
+
+const { isLoaded } = Astro.props as Props;
+---
+
+<button
+    type="button"
+    id={`${PrintDialogModalId}-button`}
+    class="btn btn-primary btn-square cursor-pointer hide-on-print"
+    disabled={!isLoaded}
+>
+    <FontAwesomeIcon icon="fas faPrint" />
+</button>

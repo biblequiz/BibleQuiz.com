@@ -1,0 +1,68 @@
+---
+import { RoomDialogModalId } from "./RoomDialogLink";
+import RoomDialogContent from "./RoomDialogContent";
+---
+
+<dialog id={RoomDialogModalId} class="modal">
+    <div class="modal-box w-full max-w-5xl">
+        <form method="dialog">
+            <button
+                class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                >✕</button
+            >
+        </form>
+        <RoomDialogContent client:only="react" />
+        <div class="modal-action">
+            <form method="dialog">
+                <button class="btn">Close</button>
+            </form>
+        </div>
+    </div>
+</dialog>
+
+<script>
+    import { RoomDialogModalId } from "./RoomDialogLink";
+    import { sharedRoomScoringReportState } from "@utils/SharedState";
+
+    function openRoomDialog(event: any) {
+        // Prevent the default action of the link.
+        event.preventDefault();
+
+        // Get the clicked element.
+        const target = event.currentTarget;
+
+        // Extract data attributes from the clicked element.
+        const label: string = target.getAttribute("data-label");
+        const eventId: string = target.getAttribute("data-event-id");
+        const databaseId: string = target.getAttribute("data-database-id");
+        const meetId: number = target.getAttribute("data-meet-id");
+        const matchId: number = target.getAttribute("data-match-id");
+        const roomId: number = target.getAttribute("data-room-id");
+
+        // Update the state to be the current room.
+        sharedRoomScoringReportState.set({
+            criteria: {
+                label: label,
+                eventId: eventId,
+                databaseId: databaseId,
+                meetId: meetId,
+                matchId: matchId,
+                roomId: roomId,
+            },
+            report: null,
+            error: null,
+        });
+
+        // Show the modal dialog.
+        const dialogElement = document.getElementById(RoomDialogModalId);
+        (dialogElement as any).showModal();
+    }
+
+    declare global {
+        interface Window {
+            openRoomDialog: (event: any) => void;
+        }
+    }
+
+    window.openRoomDialog = openRoomDialog;
+</script>

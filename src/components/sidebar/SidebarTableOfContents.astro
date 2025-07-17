@@ -1,0 +1,62 @@
+---
+import type { TocItem } from "@astrojs/starlight/utils/generateToC";
+
+interface Props {
+    toc: TocItem[];
+}
+
+const { toc } = Astro.props;
+---
+
+<ul>
+    {
+        toc.map((heading) => (
+            <li>
+                <a href={"#" + heading.slug} class="tocLink">
+                    <span>{heading.text}</span>
+                </a>
+                {heading.children.length > 0 && (
+                    <Astro.self toc={heading.children} />
+                )}
+            </li>
+        ))
+    }
+</ul>
+
+<style>
+    @layer starlight.core {
+        ul {
+            --sl-sidebar-item-padding-inline: 0.5rem;
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            overflow-wrap: anywhere;
+        }
+
+        ul li {
+            margin-inline-start: var(--sl-sidebar-item-padding-inline);
+            border-inline-start: 1px solid var(--sl-color-hairline-light);
+            padding-inline-start: var(--sl-sidebar-item-padding-inline);
+        }
+
+        a.tocLink {
+            --pad-inline: 0.5rem;
+            display: block;
+            border-radius: 0.25rem;
+            padding-block: 0.25rem;
+            padding-inline: var(--pad-inline);
+            padding: 0.3em var(--sl-sidebar-item-padding-inline);
+            line-height: 1.4;
+            font-size: var(--sl-text-sm);
+            color: var(--sl-color-gray-2);
+            text-decoration: none;
+        }
+
+        a.tocLink:hover,
+        a.tocLink:focus {
+            color: var(--sl-color-white);
+        }
+    }
+</style>

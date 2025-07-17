@@ -1,0 +1,21 @@
+---
+interface Props {
+    source?: string | null;
+    alt?: string | null;
+}
+
+const { source, alt } = Astro.props as Props;
+---
+
+<div class="card card-border bg-base-100 card-sm shadow-sm">
+    <div class="card-body">
+        {
+            source && (
+                <figure>
+                    <img src={source} alt={alt} style="max-height: 500px;" />
+                </figure>
+            )
+        }
+        <slot />
+    </div>
+</div>

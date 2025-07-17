@@ -1,0 +1,417 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+
+import PrintDialog from "@components/scores/PrintDialog.astro";
+import PrintDialogResolver from "@components/scores/PrintDialogResolver";
+import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
+import RoomDialog from "@components/scores/RoomDialog.astro";
+import StatsTabContent from "@components/scores/StatsTabContent";
+import CoordinatorTabContent from "@components/scores/CoordinatorTabContent";
+import QRCodeImage from "@components/QRCodeImage.astro";
+import QStatsTabContent from "@components/scores/QStatsTabContent";
+import ScheduleGridTabContent from "@components/scores/ScheduleGridTabContent";
+import TeamOrRoomScheduleTabContent from "@components/scores/TeamOrRoomScheduleTabContent";
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import FontAwesomeTabItem from "@components/FontAwesomeTabItem.astro";
+import FontAwesomeTabs from "@components/FontAwesomeTabs.astro";
+
+// Build the list of static routes based on the events file.
+import path from "path";
+import { promises as fs } from "fs";
+import type {
+    EventTypeList,
+    EventList,
+    EventInfo,
+} from "../../../../../types/EventTypes";
+import { EventScoringReport } from "@types/EventScoringReport";
+import type {
+    RegionInfo,
+    DistrictInfo,
+} from "../../../../../types/RegionAndDistricts";
+import {
+    getAstroRootSourcePath,
+    getFilesByWildcard,
+    tryReadFileAsJson,
+} from "@utils/FileSystem";
+
+export async function getStaticPaths() {
+    // Load the JSON defining all the generated events.
+    const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
+
+    const eventJsonFiles = [
+        path.resolve(rootSourcePath, "data/generated/futureEvents.json"),
+        ...(await getFilesByWildcard(
+            path.resolve(rootSourcePath, "data/generated/seasons"),
+            "*/events.json",
+        )),
+    ];
+
+    const routes: Array<{
+        params: {
+            type: string;
+            season: number;
+            container: string;
+            slug: string;
+        };
+    }> = [];
+
+    for (const eventsFilePath of eventJsonFiles) {
+        const events = JSON.parse(
+            await fs.readFile(eventsFilePath, "utf-8"),
+        ) as EventTypeList;
+        for (const type of Object.keys(events)) {
+            const typeEvents = events[type] as EventList;
+            for (const url of Object.keys(typeEvents)) {
+                const [container, slug] = url.split("/");
+                const event = typeEvents[url] as EventInfo;
+
+                routes.push({
+                    params: {
+                        type: type,
+                        season: event.season,
+                        container: container,
+                        slug: slug,
+                    },
+                });
+            }
+        }
+    }
+
+    return routes;
+}
+
+// Find the event metadata.
+interface Props {
+    type: "jbq" | "tbq";
+    season: number;
+    container: string;
+    slug: string;
+}
+
+const { type, season, container, slug } = Astro.params as Props;
+
+async function getEventIdFromUrl(
+    eventsFilePath: string,
+    type: string,
+    container: string,
+    slug: string,
+): Promise<EventInfo | null> {
+    const seasonEvents = JSON.parse(
+        await fs.readFile(eventsFilePath, "utf-8"),
+    ) as EventTypeList;
+
+    const typeEvents = seasonEvents[type] as EventList;
+    if (!typeEvents) {
+        return null;
+    }
+
+    const event = typeEvents[`${container}/${slug}/`] as EventInfo;
+    if (!event) {
+        return null;
+    }
+
+    return event;
+}
+
+const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
+const regions = await tryReadFileAsJson<RegionInfo[]>(
+    path.resolve(rootSourcePath, "data/regions.json"),
+);
+const districts = await tryReadFileAsJson<DistrictInfo[]>(
+    path.resolve(rootSourcePath, "data/districts.json"),
+);
+
+const eventInfo =
+    (await getEventIdFromUrl(
+        path.resolve(rootSourcePath, `data/generated/futureEvents.json`),
+        type,
+        container,
+        slug,
+    )) ||
+    (await getEventIdFromUrl(
+        path.resolve(
+            rootSourcePath,
+            `data/generated/seasons/${season}/events.json`,
+        ),
+        type,
+        container,
+        slug,
+    ));
+
+if (!eventInfo) {
+    throw new Error(
+        `Event /${type}/seasons/${season}/${container}/${slug}/ does not have a corresponding JSON file.`,
+    );
+}
+
+const eventFilePath = path.resolve(
+    rootSourcePath,
+    `data/generated/seasons/${season}/scores/${eventInfo.id}.json`,
+);
+
+const event = await tryReadFileAsJson<EventScoringReport>(eventFilePath);
+const initialScoresTabStyle = event ? "" : "display: none";
+
+// Find the label for the scope.
+const frontmatter: StarlightPageFrontmatter = {
+    title: eventInfo.name,
+    tableOfContents: false,
+    pagefind: eventInfo.isVisible,
+    eventId: eventInfo.id,
+    eventType: type,
+    eventDates: eventInfo.dates,
+    eventScope: eventInfo.scope,
+    eventLocation: eventInfo.locationCity ?? eventInfo.locationName,
+    eventIsLoaded: event ? true : false,
+    hidePageTitleOnPrint: true,
+    hideFooterOnPrint: true,
+};
+
+switch (eventInfo.scope) {
+    case "region":
+        frontmatter.eventScopeLabel = `${regions.find((r: any) => r.id == eventInfo.regionId).name} Region`;
+        break;
+    case "district":
+        frontmatter.eventScopeLabel = `${districts.find((d: any) => d.id == eventInfo.districtId).name} District`;
+        break;
+    default:
+        break;
+}
+
+// Identify whether certain tabs should be removed.
+let hasStatsTab = false;
+let hasQStatsTab = false;
+if (event) {
+    for (let meet of event.Report.Meets) {
+        // If there are any question stats, mark the flag.
+        if (meet.HasQuestionStats) {
+            hasQStatsTab = true;
+        }
+
+        if (meet.RankedQuizzers || meet.RankedTeams) {
+            hasStatsTab = true;
+        }
+    }
+} else {
+    hasStatsTab = true;
+    hasQStatsTab = true;
+}
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    {
+        !event && (
+            <EventScoringReportLoader
+                eventInfo={eventInfo}
+                parentTabId="scoreTabs"
+                tabSyncKey={`scores-${eventInfo.id}`}
+                client:only="react"
+            />
+        )
+    }
+    <div id="scoreTabs" class="hide-on-print" style={initialScoresTabStyle}>
+        <FontAwesomeTabs syncKey={`scores-${eventInfo.id}`}>
+            {
+                event && (
+                    <>
+                        {hasStatsTab && (
+                            <FontAwesomeTabItem
+                                key={`scores-${eventInfo.id}-stats`}
+                                label="Stats"
+                                icon="fas faTrophy"
+                                defaultChecked={true}
+                            >
+                                <StatsTabContent
+                                    eventId={eventInfo.id}
+                                    event={event}
+                                    client:visible
+                                />
+                            </FontAwesomeTabItem>
+                        )}
+                        <FontAwesomeTabItem
+                            key={`scores-${eventInfo.id}-schedule`}
+                            label="Schedules"
+                            icon="fas faCalendarAlt"
+                            padding="2"
+                        >
+                            <FontAwesomeTabs
+                                syncKey={`scores-${eventInfo.id}-schedule`}
+                            >
+                                <FontAwesomeTabItem
+                                    icon="fas faUsers"
+                                    label="Team Schedule"
+                                >
+                                    <TeamOrRoomScheduleTabContent
+                                        type="Team"
+                                        eventId={eventInfo.id}
+                                        event={event}
+                                        client:visible
+                                    />
+                                </FontAwesomeTabItem>
+                                <FontAwesomeTabItem
+                                    icon="fas faDoorOpen"
+                                    label="Room Schedule"
+                                >
+                                    <TeamOrRoomScheduleTabContent
+                                        type="Room"
+                                        eventId={eventInfo.id}
+                                        event={event}
+                                        client:visible
+                                    />
+                                </FontAwesomeTabItem>
+                                <FontAwesomeTabItem
+                                    icon="fas faBorderAll"
+                                    label="Schedule Grid"
+                                >
+                                    <ScheduleGridTabContent
+                                        eventId={eventInfo.id}
+                                        event={event}
+                                        client:visible
+                                    />
+                                </FontAwesomeTabItem>
+                            </FontAwesomeTabs>
+                        </FontAwesomeTabItem>
+                    </>
+                )
+            }
+            {
+                !event && (
+                    <>
+                        <FontAwesomeTabItem
+                            key={`scores-${eventInfo.id}-schedule`}
+                            label="Schedules"
+                            icon="fas faCalendarAlt"
+                            padding="2"
+                        >
+                            <FontAwesomeTabs
+                                syncKey={`scores-${eventInfo.id}-schedule`}
+                            >
+                                <FontAwesomeTabItem
+                                    icon="fas faUsers"
+                                    label="Team Schedule"
+                                >
+                                    <TeamOrRoomScheduleTabContent
+                                        type="Team"
+                                        eventId={eventInfo.id}
+                                        client:only="react"
+                                    />
+                                </FontAwesomeTabItem>
+                                <FontAwesomeTabItem
+                                    icon="fas faDoorOpen"
+                                    label="Room Schedule"
+                                >
+                                    <TeamOrRoomScheduleTabContent
+                                        type="Room"
+                                        eventId={eventInfo.id}
+                                        client:only="react"
+                                    />
+                                </FontAwesomeTabItem>
+                                <FontAwesomeTabItem
+                                    icon="fas faBorderAll"
+                                    label="Schedule Grid"
+                                >
+                                    <ScheduleGridTabContent
+                                        eventId={eventInfo.id}
+                                        client:only="react"
+                                    />
+                                </FontAwesomeTabItem>
+                            </FontAwesomeTabs>
+                        </FontAwesomeTabItem>
+                        {hasStatsTab && (
+                            <FontAwesomeTabItem
+                                key={`scores-${eventInfo.id}-stats`}
+                                label="Stats"
+                                icon="fas faTrophy"
+                                defaultChecked={true}
+                            >
+                                <StatsTabContent
+                                    eventId={eventInfo.id}
+                                    client:only="react"
+                                />
+                            </FontAwesomeTabItem>
+                        )}
+                    </>
+                )
+            }
+            <FontAwesomeTabItem
+                key={`scores-${eventInfo.id}-coordinator`}
+                label="Coordinator"
+                icon="fas faThermometerHalf"
+            >
+                {
+                    event && (
+                        <CoordinatorTabContent
+                            eventId={eventInfo.id}
+                            event={event}
+                            client:visible
+                        />
+                    )
+                }
+                {
+                    !event && (
+                        <CoordinatorTabContent
+                            eventId={eventInfo.id}
+                            client:only="react"
+                        />
+                    )
+                }
+            </FontAwesomeTabItem>
+            {
+                hasQStatsTab && (
+                    <FontAwesomeTabItem
+                        key={`scores-${eventInfo.id}-qstats`}
+                        label="Q Stats"
+                        icon="fas faChartBar"
+                    >
+                        {event && (
+                            <QStatsTabContent
+                                eventId={eventInfo.id}
+                                event={event}
+                                client:visible
+                            />
+                        )}
+                        {!event && (
+                            <QStatsTabContent
+                                eventId={eventInfo.id}
+                                client:only="react"
+                            />
+                        )}
+                    </FontAwesomeTabItem>
+                )
+            }
+            <FontAwesomeTabItem
+                key={`scores-${eventInfo.id}-qrcode`}
+                label="QR"
+                icon="fas faQrcode"
+            >
+                <QRCodeImage
+                    url={`${Astro.url.origin}${Astro.url.pathname}`}
+                    width={400}
+                    color="#000000"
+                    backgroundColor="#ffffff"
+                    downloadFileNameWithoutExtension={eventInfo.name}
+                    cssClass="flex justify-center"
+                />
+            </FontAwesomeTabItem>
+        </FontAwesomeTabs>
+        <RoomDialog />
+    </div>
+    <PrintDialog
+        eventId={eventInfo.id}
+        eventName={eventInfo.name}
+        report={event}
+    />
+    <PrintDialogResolver
+        eventId={eventInfo.id}
+        event={event}
+        client:only="react"
+    />
+</StarlightPage>
+
+<style>
+    @media print {
+        @page {
+            size: landscape;
+        }
+    }
+</style>
