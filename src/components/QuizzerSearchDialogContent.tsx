@@ -87,7 +87,7 @@ export default function QuizzerSearchDialogContent() {
                                     <a href={page.u} target="_blank">{page.t}</a>&nbsp;<FontAwesomeIcon icon="fas faExternalLinkAlt" />
                                 </td>
                                 <td>{pageInfo.type}</td>
-                                <td>{pageInfo.season}{!pageInfo.season && (<>&nbsp;</>)}</td>
+                                <td className="text-right">{pageInfo.season}{!pageInfo.season && (<>&nbsp;</>)}</td>
                             </tr>);
                     })}
                 </tbody>
