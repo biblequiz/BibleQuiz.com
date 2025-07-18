@@ -1,0 +1,54 @@
+---
+interface ImageCard {
+    link: string;
+    alt: string;
+    description: string;
+}
+
+interface Props {
+    images: ImageCard[];
+}
+
+const { images } = Astro.props as Props;
+
+import { CardGrid, Card } from "@astrojs/starlight/components";
+---
+
+<CardGrid>
+    {images.map((image) => (
+        <Card title={image.alt}>
+            <button type="button" class="link" onclick=`openModal('${image.link}');`>
+                <img src={image.link} alt={image.alt} />
+            </button>
+            <p class="italic">{image.description}</p>
+        </Card>
+    ))}
+</CardGrid>
+
+<dialog id="legacy-photo-cards-modal" class="modal">
+    <div class="modal-box max-w-2xl">
+		<div id="legacy-photo-cards-modal-image" />
+        <div class="modal-action">
+            <form method="dialog">
+                <button class="btn">Close</button>
+            </form>
+        </div>
+    </div>
+</dialog>
+
+<script>
+    declare global {
+        interface Window {
+            openModal: (imageUrl: string) => void;
+        }
+    }
+	
+    function openModal(imageUrl: string) {
+		document.getElementById("legacy-photo-cards-modal-image")!.innerHTML =`<img src="${imageUrl}" />`;
+
+		const modal = document.getElementById("legacy-photo-cards-modal")! as HTMLDialogElement;
+        modal.showModal();
+    }
+
+	window.openModal = openModal;
+</script>

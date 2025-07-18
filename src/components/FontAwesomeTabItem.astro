@@ -1,0 +1,22 @@
+---
+import { TabItemTagname } from "./rehype-tabs";
+
+interface Props {
+    icon?: string;
+    label: string;
+    badge?: string;
+    badgeClass?: string;
+    badgeId?: string;
+    padding?: number;
+}
+
+const { label, icon, padding, badge, badgeClass, badgeId } = Astro.props as Props;
+
+if (!label) {
+    throw new Error("Missing prop `label` on `<TabItem>` component.");
+}
+---
+
+<TabItemTagname data-label={label} data-icon={icon} data-padding={padding} data-badge={badge} data-badge-id={badgeId} data-badge-class={badgeClass}>
+    <slot />
+</TabItemTagname>

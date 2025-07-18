@@ -1,0 +1,16 @@
+---
+interface Props {
+  id: string;
+  start?: number;
+}
+
+const { id, start = 0 } = Astro.props;
+---
+
+<figure class="image is-16by9"> 
+  <iframe class="has-ratio" 
+      src=`https://www.youtube.com/embed/${id}?start=${start}&showinfo=0`
+      allowfullscreen
+      >
+  </iframe>
+</figure>

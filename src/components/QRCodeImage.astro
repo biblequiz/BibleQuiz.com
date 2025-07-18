@@ -1,0 +1,55 @@
+---
+import QRCode from "qrcode";
+import FontAwesomeIcon from "@components/FontAwesomeIcon";
+
+interface Props {
+    url: string;
+    width?: number;
+    color?: string;
+    backgroundColor?: string;
+    downloadFileNameWithoutExtension?: string;
+    cssClass?: string;
+}
+
+const {
+    url,
+    width,
+    color,
+    backgroundColor,
+    downloadFileNameWithoutExtension,
+    cssClass,
+} = Astro.props as Props;
+
+const qrCodePNG = await QRCode.toDataURL(url, {
+    width: width ?? 256,
+    margin: 0,
+    rendererOpts: {
+        quality: 1,
+    },
+    color: {
+        dark: color ?? "#000000",
+        light: backgroundColor ?? "#ffffff",
+    },
+});
+---
+
+<>
+    <div class={cssClass}>
+        <img src={qrCodePNG} alt="QR Code" />
+    </div>
+    {
+        downloadFileNameWithoutExtension && (
+            <div class={cssClass}>
+                <a
+                    type="button"
+                    class="btn btn-primary"
+                    href={qrCodePNG}
+                    download={`${downloadFileNameWithoutExtension}.png`}
+                >
+                    <FontAwesomeIcon icon="fas faDownload" />
+                    Download QR Code Image
+                </a>
+            </div>
+        )
+    }
+</>

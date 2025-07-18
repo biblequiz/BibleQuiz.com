@@ -1,0 +1,77 @@
+---
+import Pagination from "virtual:starlight/components/Pagination";
+import { CardGrid } from "@astrojs/starlight/components";
+
+const {
+    hideFooterOnPrint,
+} = Astro.locals.starlightRoute.entry.data;
+---
+
+<footer class={`sl-flex ${hideFooterOnPrint ? "hide-on-print": ""}`}>
+    <Pagination />
+
+    <div>
+        <CardGrid>
+            <div class="sl-link-card">
+                <span class="sl-flex stack">
+                    <a href="/assets/sponsors/Glide-Lock-Cabinets-2023.pdf">
+                        <img
+                            src="/assets/sponsors/glide-lock-cabinets.jpg"
+                            alt="Glide Lock Cabinets"
+                        />
+                    </a>
+                </span>
+            </div>
+            <div class="sl-link-card">
+                <span class="sl-flex stack">
+                    <a href="/assets/sponsors/Lindenwood-University.pdf">
+                        <img
+                            src="/assets/sponsors/lindenwood.jpg"
+                            alt="Lindenwood University"
+                        />
+                    </a>
+                </span>
+            </div>
+        </CardGrid>
+    </div>
+
+    <div style={{ textAlign: "center" }}>
+        <i>
+            Junior Bible Quiz graphics, logos, product images, and service names
+            are trademarked by the General Council of the Assemblies of God. Use
+            of these images and trademarks without written authorization is
+            forbidden and is a violation of federal and international laws.
+        </i>
+    </div>
+</footer>
+
+<style>
+    @layer starlight.core {
+        footer {
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .meta {
+            gap: 0.75rem 3rem;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+            font-size: var(--sl-text-sm);
+            color: var(--sl-color-gray-3);
+        }
+        .meta > :global(p:only-child) {
+            margin-inline-start: auto;
+        }
+    }
+
+    @layer starlight.components {
+        .kudos :global(svg) {
+            color: var(--sl-color-orange);
+        }
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+</style>

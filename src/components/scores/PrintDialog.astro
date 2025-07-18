@@ -1,0 +1,65 @@
+---
+import { PrintDialogModalId } from "./PrintDialogContent";
+import PrintDialogContent from "./PrintDialogContent";
+import type { MeetReference } from "@utils/SharedState";
+import {
+    EventScoringReport,
+    ScoringReportMeet,
+} from "@types/EventScoringReport";
+
+interface Props {
+    eventId: string;
+    eventName: string;
+    report: EventScoringReport | null;
+}
+
+const { eventId, eventName, report } = Astro.props as Props;
+
+let existingMeets: MeetReference[] | null = null;
+if (report) {
+    existingMeets = report.Report.Meets.map((meet: ScoringReportMeet) => {
+        return {
+            eventId: eventId,
+            databaseId: meet.DatabaseId,
+            meetId: meet.MeetId,
+            label: meet.Name,
+            isCombinedReport: meet.IsCombinedReport,
+            hasRanking: meet.RankedTeams || meet.RankedQuizzers ? true : false,
+        } as MeetReference;
+    });
+}
+---
+
+<dialog id={PrintDialogModalId} class="modal">
+    <div class="modal-box w-full max-w-5xl">
+        <form method="dialog">
+            <button
+                class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                >✕</button
+            >
+        </form>
+        <PrintDialogContent
+            eventId={eventId}
+            eventName={eventName}
+            meets={existingMeets}
+            client:only="react"
+        />
+    </div>
+</dialog>
+
+<script>
+    import { PrintDialogModalId } from "./PrintDialogContent";
+
+    function openPrintDialog(event: any) {
+        event.preventDefault();
+
+        const dialogElement = document.getElementById(PrintDialogModalId);
+        (dialogElement as any).showModal();
+    }
+
+    // Find our component DOM on the page.
+    const button: HTMLElement = document.getElementById(
+        `${PrintDialogModalId}-button`,
+    )!;
+    button.addEventListener("click", openPrintDialog);
+</script>

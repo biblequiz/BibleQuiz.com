@@ -1,0 +1,148 @@
+---
+title: "Bible Quiz Apps"
+sidebar:
+  label: Apps
+  attrs:
+    icon: fas faTabletAlt
+---
+
+import { Aside, LinkButton, Card, CardGrid, Steps } from '@astrojs/starlight/components';
+import FontAwesomeIcon from '@components/FontAwesomeIcon';
+
+<Card>
+
+    ### Coaching App
+    
+    Makes it easy for both JBQ and TBQ coaches to keep score, lookup answers, research data, see the
+    latest rulebook, see the online score, and get an online schedule for any online registered competition
+    on BibleQuiz.com. It is intended for use in conjunction with https://registration.biblequiz.com/.
+
+    <LinkButton href="https://github.com/biblequiz/Releases.CoachApp/releases/latest/download/com.biblequiz.coachapp.windows.msixbundle">
+        <FontAwesomeIcon icon="fab faWindows" /> Windows
+    </LinkButton>
+    <LinkButton href="https://github.com/biblequiz/Releases.CoachApp/releases" variant="secondary">
+        <FontAwesomeIcon icon="fab faGithub" /> All Releases
+    </LinkButton>
+
+</Card>
+
+<Card>
+
+    ### EZScore: Electronic Score Sheet
+
+    Keeps score for each room during a Bible Quiz competition. You need to register your competitions
+    on https://registration.biblequiz.com/. The schedule for the
+    event is configured by the competition coordinator using ScoreKeep.
+
+    <Aside type="tip" title="Scoring Devices">
+        We use the [Amazon Fire HD 10 tablets](https://a.co/d/6hGs5Wg) for running EZScore at all our competitions
+        and ***strongly*** recommend them.
+    </Aside>
+
+    <LinkButton href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.windows.msixbundle">
+        <FontAwesomeIcon icon="fab faWindows" /> Windows
+    </LinkButton>
+    <LinkButton href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.android.apk">
+        <FontAwesomeIcon icon="fab faAndroid" /> Android
+    </LinkButton>
+    <LinkButton href="https://github.com/biblequiz/Releases.EZScore/releases" variant="secondary">
+        <FontAwesomeIcon icon="fab faGithub" /> All Releases
+    </LinkButton>
+
+    #### Training Videos
+
+    * [Setup and Seating](https://youtu.be/u1jXAshiqwA)
+    * [Scoring Tracking](https://youtu.be/-a2tAOe0DPk)
+    * [Closing a Match](https://youtu.be/h4KwA00jp80)
+
+</Card>
+
+<Card>
+
+    ### ScoreKeep: Meet Manager
+    
+    Manage a competition for use with EZScore and publishing scores on BibleQuiz.com. It is intended for
+    use in conjunction with https://registration.biblequiz.com/.
+
+    <LinkButton href="https://github.com/biblequiz/Releases.ScoreKeep/releases/latest/download/com.biblequiz.scorekeep.windows.msixbundle">
+        <FontAwesomeIcon icon="fab faWindows" /> Windows
+    </LinkButton>
+    <LinkButton href="https://github.com/biblequiz/Releases.ScoreKeep/releases" variant="secondary">
+        <FontAwesomeIcon icon="fab faGithub" /> All Releases
+    </LinkButton>
+
+    #### Training Videos
+
+    * Tablet Setup [Part 1](https://youtu.be/0ZEeuvC8u94) & [Part 2](https://youtu.be/AYCpEWIOYgA)
+    * [Add Meet and Load Questions](https://youtu.be/dG0jal8OAHQ)
+    * [Add or Move Quizzer after meet has started](https://youtu.be/eVUvARFDXpM)
+    * [Add Quizzer to Current Meet](https://youtu.be/ur4lzA_SlQY)
+</Card>
+
+## FAQ
+
+### How do I include my schedules and scores for [Upcoming & Live Events](/upcoming-events)?
+
+<Steps>
+
+1. After signing in to https://registration.biblequiz.com, go to the settings page for your event by
+    clicking the gears icon on the page.
+2. Click the Databases button at the top of the screen.
+3. If you have multiple databases uploaded for a single event, you may need to click Manage.
+4. Check the boxes for *Schedules* and *Scores* for the specific meets within the event.
+5. Click Save Database Settings.
+
+</Steps>
+
+### How do I include include my event in BibleQuiz.com history?
+
+<Steps>
+
+1. After signing in to https://registration.biblequiz.com, go to the settings page for your event by
+    clicking the gears icon on the page.
+2. In the Scoring Apps section, check the box for `Publish to BibleQuiz.com's Scoring Archives`.
+3. Specify the type of event.
+4. Click Save.
+
+</Steps>
+
+### How do I hide my event from Upcoming and Live Events pages?
+
+<Steps>
+
+1. After signing in to https://registration.biblequiz.com, go to the settings page for your event by
+    clicking the gears icon on the page.
+2. In the Scoring Apps section, check the box for `Publish to BibleQuiz.com's Scoring Archives`.
+3. Check the `Hide from Upcoming & Live section of BibleQuiz.com`
+4. Click Save.
+
+</Steps>
+
+### How do I upgrade from a *really* old version?
+
+EZScore and ScoreKeep were originally developed by Larry Mullins over 20 years ago when he recognized how difficult and error-prone it was to keep score by hand on a paper score sheet. Over that time, there have been multiple different versions of the application. These older versions are no longer supported and should be uninstalled from your machine.
+
+If you have one of the following apps installed, it is **STRONGLY** recommended to uninstall them and upgrade to the latest versions shown above:
+
+| Icon                                                                                          | Name                      | Purpose                                                                                 |
+| --------------------------------------------------------------------------------------------- | ------------------------- | --------------------------------------------------------------------------------------- |
+| ![EZScore (Beta)](/assets/images/old-app-instructions/icon-ezscore-beta.png)                  | EZScore (Beta)            | Latest EZScore rewrite forming the foundation for the current Windows EZScore.          |
+| ![ScoreKeep Uploader (Beta)](/assets/images/old-app-instructions/icon-scorekeep-uploader.png) | ScoreKeep Uploader (Beta) | Uploader of legacy ScoreKeep databases to Registration Site for the EZScore (Beta) app. |
+| ![EZScore](/assets/images/old-app-instructions/icon-ezscore.png)                              | EZScore                   | Last version before EZScore (Beta).                                                     |
+| ![ScoreKeep](/assets/images/old-app-instructions/icon-scorekeep.png)                          | ScoreKeep                 | Last version before ScoreKeep Uploader (Beta).                                          |
+
+If you have any of these applications installed, uninstalling is easy. The following example shows
+how to uninstall `EZScore (Beta)`:
+
+<Steps>
+1. Open Start Menu and type `EZScore (Beta)`. If the app isn't found, it isn't installed on your machine.\
+![](/assets/images/old-app-instructions/uninstall-start-menu.png)
+2. Click the `Uninstall` button.
+3. Find `EZScore (Beta)` in the list.\
+![](/assets/images/old-app-instructions/uninstall-control-panel.png)
+4. Click `Uninstall/Change`.
+5. Select `Remove the application from this computer.`\
+![](/assets/images/old-app-instructions/uninstall-confirmation.png)
+6. Click `OK`.
+7. Repeat these steps for each of the legacy apps.
+</Steps>

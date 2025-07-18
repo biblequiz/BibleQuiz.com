@@ -1,0 +1,128 @@
+---
+import FontAwesomeTabs from "./FontAwesomeTabs.astro";
+import FontAwesomeTabItem from "./FontAwesomeTabItem.astro";
+import QuizzerSearchTabContent from "./QuizzerSearchTabContent";
+
+import type { QuizzerIndex, QuizzerIndexEntry } from "../types/QuizzerSearch";
+import quizzerIndexJson from "../data/generated/quizzerIndex.json";
+import QuizzerSearchDialogContent, {
+    QuizzerSearchDialogId,
+} from "./QuizzerSearchDialogContent";
+import QuizzerSearchFilters, {
+    DefaultTabsContainerId,
+    FilteredContainerId,
+} from "./QuizzerSearchFilters";
+
+const quizzerIndex = quizzerIndexJson as any as QuizzerIndex;
+const indexedQuizzers: Record<
+    string,
+    { entry: QuizzerIndexEntry; index: number }[]
+> = {};
+let index: number = 0;
+
+for (const quizzer of quizzerIndex.quizzers) {
+    let letterIndex = indexedQuizzers[quizzer.l];
+    if (!letterIndex) {
+        letterIndex = [];
+        indexedQuizzers[quizzer.l] = letterIndex;
+    }
+
+    letterIndex.push({ entry: quizzer, index: index++ });
+}
+
+const includeStuff = false;
+---
+
+<QuizzerSearchFilters client:only="react" />
+
+<div id={DefaultTabsContainerId} class="italic text-center">
+    Enter a name above to filter the list of quizzers.
+</div>
+<div id={FilteredContainerId} style="display:none">
+    <QuizzerSearchTabContent client:only="react" id="quizzer-search-results" />
+</div>
+
+<dialog id={QuizzerSearchDialogId} class="modal">
+    <div class="modal-box w-full max-w-5xl">
+        <form method="dialog">
+            <button
+                class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                >✕</button
+            >
+        </form>
+        <QuizzerSearchDialogContent client:only="react" />
+        <div class="modal-action">
+            <form method="dialog">
+                <button class="btn">Close</button>
+            </form>
+        </div>
+    </div>
+</dialog>
+
+<script>
+    import Fuse from "fuse.js";
+
+    import quizzerIndexJson from "../data/generated/quizzerIndex.json";
+    import { QuizzerSearchDialogId } from "./QuizzerSearchDialogContent";
+    import { sharedQuizzerSearchState } from "@utils/SharedState";
+    import type {
+        QuizzerIndex,
+        QuizzerIndexEntry,
+    } from "../types/QuizzerSearch";
+
+    function openQuizzerDialog(event: any) {
+        // Prevent the default action of the link.
+        event.preventDefault();
+
+        // Extract data attributes from the clicked element.
+        const target = event.currentTarget;
+        const index: number | null = target.getAttribute("data-index");
+        if (index === null || index === undefined) {
+            return;
+        }
+
+        // Update the state to be the current room.
+        sharedQuizzerSearchState.set({
+            searchText: sharedQuizzerSearchState.get()?.searchText,
+            index: quizzerIndexJson,
+            quizzerIndex: index,
+        });
+
+        // Show the modal dialog.
+        const dialogElement = document.getElementById(QuizzerSearchDialogId);
+        (dialogElement as any).showModal();
+    }
+
+    for (let i = 0; i < 26; i++) {
+        const tableElement = document.getElementById(`letter_${i}`);
+        if (tableElement) {
+            const rows = tableElement.querySelectorAll("tr");
+            for (const row of rows) {
+                row.onclick = openQuizzerDialog;
+            }
+        }
+    }
+
+    const fuseOptions = {
+        shouldSort: false,
+        includeScore: true,
+        ignoreLocation: true,
+        keys: ["n"],
+        threshold: 0.4,
+    };
+
+    declare global {
+        interface Window {
+            quizzerIndex: QuizzerIndex;
+            quizzerSearchFuseIndex: Fuse<QuizzerIndexEntry>;
+            openQuizzerDialog: (event: any) => void;
+        }
+    }
+
+    window.quizzerIndex = quizzerIndexJson as any as QuizzerIndex;
+    window.quizzerSearchFuseIndex = new Fuse(
+        quizzerIndexJson.quizzers,
+        fuseOptions,
+    );
+    window.openQuizzerDialog = openQuizzerDialog;
+</script>

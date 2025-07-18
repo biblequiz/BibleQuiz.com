@@ -1,0 +1,189 @@
+---
+import MobileMenuFooter from "virtual:starlight/components/MobileMenuFooter";
+import SidebarPersister from "@astrojs/starlight/components/SidebarPersister.astro";
+import SidebarSublist from "@components/sidebar/SidebarSublist.astro";
+import type { SidebarEntry } from "@astrojs/starlight/utils/routing/types";
+
+// This logic finds all the Seasons group entries in the sidebar and sorts them in reverse order, which
+// is required since the sidebar sorts in alphabetical order by default. This logic is SPECIFIC to the
+// BibleQuiz.com site and doesn't make sense as a general concept.
+//
+// It also ensures there is always a page selected if at all possible, even if it is the parent.
+//
+// This approach was simpler to implement than trying to create a custom sidebar integration, as that
+// required significantly more code and complexity.
+
+interface SidebarIndex {
+    currentPagePathMap: { [key: string]: number };
+    currentPage: SidebarEntry | null;
+    potentialParentPage: SidebarEntry | null;
+    potentialParentMatch: number | null;
+
+    seasons: SidebarEntry | null;
+    currentPlaceholderIndex: number | null;
+    nextPlaceholderIndex: number | null;
+}
+
+function replaceWithFirstEntryIfPlaceholderSet(
+    container: SidebarEntry,
+    entry: SidebarEntry,
+    placeholderIndex: number | null,
+): void {
+    if (placeholderIndex !== null && entry.entries.length > 0) {
+        // Replace the entry, but keep the original settings.
+        const currentEntry = container.entries[placeholderIndex];
+
+        const newEntry = entry.entries[0];
+        newEntry.label = currentEntry.label;
+        newEntry.attrs = currentEntry.attrs;
+
+        container.entries[placeholderIndex] = newEntry;
+
+        // Remove the original entry.
+        entry.entries.splice(0, 1);
+    }
+}
+
+function getCurrentPageSegmentMap(urlPath: string): { [key: string]: number } {
+    const segments: string[] = urlPath.split("/");
+
+    const paths: { [key: string]: number } = {};
+    paths[urlPath] = segments.length - 1;
+
+    for (let i = segments.length - 1; i > 0; i--) {
+        if (segments[i - 1].length === 0) {
+            continue;
+        }
+
+        const partialPath = segments.slice(0, i).join("/") + "/";
+        paths[partialPath] = i - 1;
+    }
+
+    return paths;
+}
+
+function sortSeasonsAndIndexSidebar(
+    sidebar: SidebarEntry[],
+    sidebarIndex: SidebarIndex,
+): void {
+    sidebar.forEach((item, index) => {
+        if (item.href) {
+            // If the currentResult is already set, the Seasons were seen before the placeholder. The object
+            // can be updated directly. Otherwise, persist into the variable for when the object is
+            // initialized.
+            if (item.href.endsWith("/current-season/")) {
+                sidebarIndex.currentPlaceholderIndex = index;
+            } else if (item.href.endsWith("/next-season/")) {
+                sidebarIndex.nextPlaceholderIndex = index;
+            }
+
+            if (item.isCurrent) {
+                sidebarIndex.currentPage = item;
+            } else if (null == sidebarIndex.currentPage) {
+                const newMatch = sidebarIndex.currentPagePathMap[item.href];
+                if (newMatch !== undefined) {
+                    // If the current page is not set, but this item matches the current page, then set it.
+                    if (
+                        sidebarIndex.potentialParentMatch === null ||
+                        newMatch > sidebarIndex.potentialParentMatch
+                    ) {
+                        sidebarIndex.potentialParentPage = item;
+                        sidebarIndex.potentialParentMatch = newMatch;
+                    }
+                }
+            }
+        } else if (item.label == "Seasons") {
+            // Sort the seasons in reverse order.
+            item.entries.sort((a: SidebarEntry, b: SidebarEntry) => {
+                if (a.label > b.label) {
+                    return -1;
+                } else if (a.label < b.label) {
+                    return 1;
+                }
+                return 0;
+            });
+
+            // Continue processing the children.
+            sortSeasonsAndIndexSidebar(item.entries, sidebarIndex);
+
+            // Set the seasons now so the parent can detect it and apply the changes.
+            sidebarIndex.seasons = item;
+        } else if (item.entries && item.entries.length > 0) {
+            // Sort children.
+            sortSeasonsAndIndexSidebar(item.entries, sidebarIndex);
+
+            if (null != sidebarIndex.seasons) {
+                // The item contains the Seasons group, which includes the current and next seasons. These
+                // must be moved to replace the current and next season pages in the sidebar.
+                //
+                // Process the next season first, as it is a newer year and will appear first.
+
+                replaceWithFirstEntryIfPlaceholderSet(
+                    item,
+                    sidebarIndex.seasons,
+                    sidebarIndex.nextPlaceholderIndex,
+                );
+
+                replaceWithFirstEntryIfPlaceholderSet(
+                    item,
+                    sidebarIndex.seasons,
+                    sidebarIndex.currentPlaceholderIndex,
+                );
+
+                // Update the label for any remaining seasons.
+                sidebarIndex.seasons.label = "Past Seasons";
+
+                // Reset the properties.
+                sidebarIndex.seasons = null;
+                sidebarIndex.currentPlaceholderIndex = null;
+                sidebarIndex.nextPlaceholderIndex = null;
+            }
+        }
+    });
+}
+
+// Sort the sidebar and build the index.
+const sidebarIndex: SidebarIndex = {
+    currentPagePathMap: getCurrentPageSegmentMap(Astro.url.pathname as string),
+    currentPage: null,
+    potentialParentPage: null,
+    potentialParentMatch: null,
+
+    seasons: null,
+    currentPlaceholderIndex: null,
+    nextPlaceholderIndex: null,
+};
+
+sortSeasonsAndIndexSidebar(Astro.locals.starlightRoute.sidebar, sidebarIndex);
+
+// Check if the current page hasn't been identified, set the parent as the current page.
+if (
+    sidebarIndex.currentPage === null &&
+    sidebarIndex.potentialParentPage !== null
+) {
+    sidebarIndex.potentialParentPage.isCurrent = true;
+}
+
+const { sidebar, toc } = Astro.locals.starlightRoute;
+---
+
+<SidebarPersister>
+    <SidebarSublist sublist={sidebar} toc={toc?.items} />
+</SidebarPersister>
+
+<div class="md:sl-hidden">
+    <MobileMenuFooter />
+</div>
+
+<script>
+    // This script is customized
+    // Select the element that is currently selected (if any). Then ensure it is scrolled into view.
+    const element = document.querySelector('a[aria-current="page"]');
+    if (element) {
+        if (element.scrollIntoViewIfNeeded) {
+            element.scrollIntoViewIfNeeded();
+        } else if (element.scrollIntoView) {
+            element.scrollIntoView();
+        }
+    }
+</script>

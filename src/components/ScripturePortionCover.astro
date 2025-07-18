@@ -1,0 +1,11 @@
+---
+interface Props {
+    season: number;
+}
+
+const { season } = Astro.props as Props;
+---
+
+<div class="text-center">
+    <img src={`/assets/scripture-portions/${season}.jpg`} alt="Cover Art" style="max-height:300px" />
+</div>
