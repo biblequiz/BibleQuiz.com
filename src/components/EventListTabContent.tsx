@@ -2,6 +2,7 @@ import { useStore } from "@nanostores/react";
 import EventScopeBadge from './EventScopeBadge.tsx';
 import { sharedEventListFilter, type EventListFilterConfiguration } from "../utils/SharedState.ts";
 import type { EventInfo, EventList } from '../types/EventTypes.ts';
+import FontAwesomeIcon from "./FontAwesomeIcon.js";
 
 interface Props {
     badgeId: string;
@@ -62,15 +63,14 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
 
         eventCount++;
 
-        let registrationButtonText: string | null = null;
+        let showRegistration: boolean = false;
         if (event.registrationEndDate &&
             Date.parse(event.registrationEndDate) >= today.getTime()) {
-            registrationButtonText = `Register`;
+            showRegistration = true;
         }
 
         let isPastEvent: boolean = false;
         let showScores: boolean = false;
-        let scoresText: string = "View Schedules & Scores";
         if (event.endDate) {
             const parsedDate = Date.parse(event.endDate);
             if (parsedDate < today.getTime()) {
@@ -83,12 +83,7 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
         }
         else if (!event.startDate) {
             showScores = true;
-            scoresText = "View Stats & Scores";
         }
-
-        const registrationLink: string | null = registrationButtonText
-            ? `https://registration.biblequiz.com/#/Registration/${event.id}`
-            : null;
 
         let isLiveEvent: boolean = false;
         if (!isPastEvent && event.startDate &&
@@ -113,29 +108,27 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
             <tr key={`eventrow_${event.id}`}>
                 <td>
                     <EventScopeBadge scope={event.scope} label={event.scopeLabel ?? ""} />
-                </td>
-                <td>
                     <div className="m-0 flex">
                         {isLiveEvent && <div className="badge badge-primary mr-2">LIVE</div>}
                         <p className="text-lg font-bold m-0">{event.name}</p>
                     </div>
                     {locationLabel && <p className="text-gray-500 italic m-0">{locationLabel}</p>}
                 </td>
-                <td>
-                    {registrationLink &&
+                <td className="text-right">{event.dates}</td>
+                <td className="text-right">
+                    {showRegistration &&
                         <a
                             className="btn btn-secondary btn-sm mr-2"
-                            href={registrationLink}>
-                            {registrationButtonText}
+                            href={`https://registration.biblequiz.com/#/Registration/${event.id}`}>
+                            <FontAwesomeIcon icon="fas faPenToSquare" />&nbsp;Register
                         </a>}
                     {showScores && (
                         <a
                             className="btn btn-primary btn-sm m-0"
                             href={`/${type}/seasons/${event.season}/${urlSlug}`}>
-                            {scoresText}
+                            <FontAwesomeIcon icon="fas faSquarePollVertical" />&nbsp;Scores
                         </a>)}
                 </td>
-                <td className="text-right">{event.dates}</td>
             </tr>);
     });
 
@@ -145,10 +138,9 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
         <table className="table table-s table-nowrap">
             <thead>
                 <tr>
-                    <th>Scope</th>
                     <th>Event</th>
-                    <th>&nbsp;</th>
                     <th className="text-right">Date(s)</th>
+                    <th>&nbsp;</th>
                 </tr>
             </thead>
             <tbody>
