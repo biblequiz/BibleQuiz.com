@@ -15,6 +15,8 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
         return (<span>Event is Loading ...</span>);
     }
 
+    let sectionIndex = 0;
+
     return (
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
@@ -31,7 +33,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                 }
 
                 return (
-                    <CollapsableMeetSection meet={meet} pageId="coodinator" key={key}>
+                    <CollapsableMeetSection meet={meet} pageId="coodinator" printSectionIndex={sectionIndex++} key={key}>
                         <table className="table table-s table-nowrap">
                             <thead>
                                 <tr>

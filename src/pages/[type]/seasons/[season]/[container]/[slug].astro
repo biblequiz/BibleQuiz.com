@@ -224,7 +224,6 @@ if (event) {
                                 <StatsTabContent
                                     eventId={eventInfo.id}
                                     event={event}
-                                    client:visible
                                 />
                             </FontAwesomeTabItem>
                         )}
@@ -245,7 +244,6 @@ if (event) {
                                         type="Team"
                                         eventId={eventInfo.id}
                                         event={event}
-                                        client:visible
                                     />
                                 </FontAwesomeTabItem>
                                 <FontAwesomeTabItem
@@ -256,7 +254,6 @@ if (event) {
                                         type="Room"
                                         eventId={eventInfo.id}
                                         event={event}
-                                        client:visible
                                     />
                                 </FontAwesomeTabItem>
                                 <FontAwesomeTabItem
@@ -266,7 +263,6 @@ if (event) {
                                     <ScheduleGridTabContent
                                         eventId={eventInfo.id}
                                         event={event}
-                                        client:visible
                                     />
                                 </FontAwesomeTabItem>
                             </FontAwesomeTabs>
@@ -343,7 +339,6 @@ if (event) {
                         <CoordinatorTabContent
                             eventId={eventInfo.id}
                             event={event}
-                            client:visible
                         />
                     )
                 }
@@ -367,7 +362,6 @@ if (event) {
                             <QStatsTabContent
                                 eventId={eventInfo.id}
                                 event={event}
-                                client:visible
                             />
                         )}
                         {!event && (

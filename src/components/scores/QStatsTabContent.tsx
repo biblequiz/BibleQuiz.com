@@ -1,4 +1,4 @@
-import {  ScoringReportMeet, ScoringReportMeetMatch } from "@types/EventScoringReport";
+import { ScoringReportMeet, ScoringReportMeetMatch } from "@types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "@utils/SharedState";
@@ -11,6 +11,8 @@ export default function QStatsTabContent({ event }: EventScoresProps) {
     if (!event) {
         return (<span>Event is Loading ...</span>);
     }
+
+    let sectionIndex = 0;
 
     return (
         <>
@@ -37,7 +39,7 @@ export default function QStatsTabContent({ event }: EventScoresProps) {
                 }
 
                 return (
-                    <CollapsableMeetSection meet={meet} pageId="qstats" key={key}>
+                    <CollapsableMeetSection meet={meet} pageId="qstats" printSectionIndex={sectionIndex++} key={key}>
                         <table className="table table-s table-nowrap">
                             <thead>
                                 <tr>

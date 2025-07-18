@@ -5,7 +5,6 @@ import { sharedEventScoringReportState } from "@utils/SharedState";
 import CollapsableMeetSection from "./CollapsableMeetSection";
 import RoomLink from "./RoomDialogLink";
 import { EventScoringReport } from "@types/EventScoringReport";
-import type { EventScoresProps } from "@utils/Scores";
 
 export interface Props {
     eventId: string;

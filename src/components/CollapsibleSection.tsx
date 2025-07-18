@@ -40,7 +40,7 @@ export default function CollapsibleSection({ pageId, icon, title, titleClass, su
                 className="collapse collapse-arrow bg-base-100 border-base-300 border no-anchor-links"
             >
                 <input type="checkbox" name={pageId} className="peer" />
-                <div className="collapse-title">
+                <div className={`collapse-title ${printSectionIndex === 0 ? "" : "pt-0"}`}>
                     {titleElement}
                 </div>
                 <div className="collapse-content text-sm overflow-x-auto mt-0">{children}</div>
