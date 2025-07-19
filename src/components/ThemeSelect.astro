@@ -1,0 +1,29 @@
+---
+import Default from '@astrojs/starlight/components/ThemeSelect.astro'
+import type { Props } from '@astrojs/starlight/props'
+
+const isBlog = Astro.props.slug?.startsWith('blog')
+---
+
+<div>
+  <a href={isBlog ? '/' : '/blog/'}>{isBlog ? 'Docs' : 'News'}</a>
+</div>
+<Default {...Astro.props}><slot /></Default>
+
+<style>
+  div {
+    border-inline-end: 1px solid var(--sl-color-gray-5);
+    display: none;
+    padding-inline-end: 1rem;
+  }
+  @media (min-width: 50rem) {
+    div {
+      display: flex;
+    }
+  }
+  a {
+    color: var(--sl-color-text-accent);
+    font-weight: 600;
+    text-decoration: none;
+  }
+</style> 

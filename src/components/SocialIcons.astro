@@ -1,0 +1,47 @@
+---
+import config from 'virtual:starlight/user-config';
+import { Icon } from '@astrojs/starlight/components';
+
+// Filter out RSS icon from social links
+const socialLinks = config.social?.filter(link => link.icon !== 'rss') || [];
+---
+
+{
+	socialLinks.length > 0 && (
+		<ul class="sl-flex social-links">
+			{
+				socialLinks.map((link) => (
+					<li>
+						<a
+							href={link.href}
+							target="_blank"
+							rel="noopener"
+							class="sl-flex social-link pl-1"
+							aria-label={link.label}
+						>
+							<Icon name={link.icon} />
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	)
+}
+
+<style>
+	@layer starlight.core {
+		.social-links {
+			gap: 0.5rem;
+			align-items: center;
+		}
+
+		.social-link {
+			color: var(--sl-color-text-accent);
+			transition: color 0.2s ease;
+		}
+
+		.social-link:hover {
+			color: var(--sl-color-accent);
+		}
+	}
+</style> 

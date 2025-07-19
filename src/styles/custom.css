@@ -1,217 +1,240 @@
 /* Dark mode colors. */
 :root {
-	--sl-content-width: 100%;
+    --sl-content-width: 100%;
 
-	--sl-color-accent-low: #142827;
-	--sl-color-accent: #267876;
-	--sl-color-accent-high: #b6cecd;
-	--sl-color-white: #ffffff;
-	--sl-color-gray-1: #d7f5f3;
-	--sl-color-gray-2: #b0d4d3;
-	--sl-color-gray-3: #65b2b0;
-	--sl-color-gray-4: #086564;
-	--sl-color-gray-5: #004141;
-	--sl-color-gray-6: #002e2d;
-	--sl-color-black: #001d1d;
+    --sl-color-accent-low: #142827;
+    --sl-color-accent: #267876;
+    --sl-color-accent-high: #b6cecd;
+    --sl-color-white: #ffffff;
+    --sl-color-gray-1: #d7f5f3;
+    --sl-color-gray-2: #b0d4d3;
+    --sl-color-gray-3: #65b2b0;
+    --sl-color-gray-4: #086564;
+    --sl-color-gray-5: #004141;
+    --sl-color-gray-6: #002e2d;
+    --sl-color-black: #001d1d;
 }
 
 /* Light mode colors. */
-:root[data-theme='light'] {
-	--sl-content-width: 100%;
+:root[data-theme="light"] {
+    --sl-content-width: 100%;
 
-	--sl-color-accent-low: #c9dbda;
-	--sl-color-accent: #005958;
-	--sl-color-accent-high: #183838;
-	--sl-color-white: #001d1d;
-	--sl-color-gray-1: #002e2d;
-	--sl-color-gray-2: #004141;
-	--sl-color-gray-3: #056463;
-	--sl-color-gray-4: #4d9a99;
-	--sl-color-gray-5: #a6cac9;
-	--sl-color-gray-6: #d7f5f3;
-	--sl-color-gray-7: #ebfaf9;
-	--sl-color-black: #ffffff;
+    --sl-color-accent-low: #c9dbda;
+    --sl-color-accent: #005958;
+    --sl-color-accent-high: #183838;
+    --sl-color-white: #001d1d;
+    --sl-color-gray-1: #002e2d;
+    --sl-color-gray-2: #004141;
+    --sl-color-gray-3: #056463;
+    --sl-color-gray-4: #4d9a99;
+    --sl-color-gray-5: #a6cac9;
+    --sl-color-gray-6: #d7f5f3;
+    --sl-color-gray-7: #ebfaf9;
+    --sl-color-black: #ffffff;
 }
 
 /* Hides anchor links */
 .no-anchor-links .sl-anchor-link {
-	display: none;
+    display: none;
 }
 
 /* Fixes the integration of daisyus and Starlight */
 .sl-link-card .description {
-	margin-top: 16px;
+    margin-top: 16px;
 }
 
 /* Makes the scoring tables fit better. */
 @layer components {
-
-	.table-nowrap th,
-	.table-nowrap td {
-		@apply whitespace-nowrap;
-	}
+    .table-nowrap th,
+    .table-nowrap td {
+        @apply whitespace-nowrap;
+    }
 }
 
 /* For some reason Tailwind's min-w-x doesn't work */
 .min-w-48 {
-	min-width: calc(var(--spacing) * 12);
+    min-width: calc(var(--spacing) * 12);
 }
 
 .completed-match-icon {
-	color: #009900;
+    color: #009900;
 }
 
 .schedule-grid-result-W {
-	color: blue;
+    color: blue;
 }
 
 .schedule-grid-result-L {
-	color: red;
+    color: red;
 }
 
 .team-card-right-border {
-	border-right: 1px solid rgba(128, 128, 128, 0.5);
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
 }
 
 /* List for the schedule page */
 ol.schedule-list {
-	list-style: decimal;
-	content: counter(list-item) ". ";
+    list-style: decimal;
+    content: counter(list-item) ". ";
 }
 
 /* Styles for the point numbers */
 td.header-point-10 {
-	background-color: white;
+    background-color: white;
 }
 
 td.header-point-20 {
-	background-color: yellow;
+    background-color: yellow;
 }
 
 td.header-point-30 {
-	background-color: lightgreen;
+    background-color: lightgreen;
 }
 
 td.header-point-default {
-	background-color: lightgray;
+    background-color: lightgray;
 }
 
 /* Styles for the live scoring */
 tr.red-room-score {
-	background-color: #FFC0CB;
+    background-color: #ffc0cb;
 }
 
 tr.red-room-score-alt {
-	background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 tr.green-room-score {
-	background-color: #98FB98;
+    background-color: #98fb98;
 }
 
 tr.green-room-score-alt {
-	background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 td.quiz-out {
-	background-color: blue;
-	color: white;
+    background-color: blue;
+    color: white;
 }
 
 td.strike-out {
-	background-color: black;
-	color: white;
+    background-color: black;
+    color: white;
 }
 
 .circle {
-	border-radius: 75%;
-	border: 1px solid #000;
-	margin: auto;
-	padding: 1px;
-	padding-right: 4px;
-	padding-top: 4px;
-	text-align: center
+    border-radius: 75%;
+    border: 1px solid #000;
+    margin: auto;
+    padding: 1px;
+    padding-right: 4px;
+    padding-top: 4px;
+    text-align: center;
 }
 
 .done {
-	background-color: palegreen;
-	color: black;
+    background-color: palegreen;
+    color: black;
 }
 
 td.current-question-top {
-	border-left: solid 3px blue !important;
-	border-top: solid 3px blue !important;
-	border-right: solid 3px blue !important;
+    border-left: solid 3px blue !important;
+    border-top: solid 3px blue !important;
+    border-right: solid 3px blue !important;
 }
 
 td.current-question-middle {
-	border-left: solid 3px blue !important;
-	border-right: solid 3px blue !important;
+    border-left: solid 3px blue !important;
+    border-right: solid 3px blue !important;
 }
 
 td.current-question-bottom {
-	border-left: solid 3px blue !important;
-	border-bottom: solid 3px blue !important;
-	border-right: solid 3px blue !important;
+    border-left: solid 3px blue !important;
+    border-bottom: solid 3px blue !important;
+    border-right: solid 3px blue !important;
 }
 
 .hide-if-not-print-screen {
-	display: none;
+    display: none;
 }
 
 @media print {
-	.show-on-print {
-		display: unset;
-	}
+    .show-on-print {
+        display: unset;
+    }
 
-	.hide-if-not-print-screen {
-		display: unset;
-	}
+    .hide-if-not-print-screen {
+        display: unset;
+    }
 
-	.hide-on-print {
-		display: none;
-	}
+    .hide-on-print {
+        display: none;
+    }
 
-	.show-if-single-item-page {
-		display: block;
-	}
+    .show-if-single-item-page {
+        display: block;
+    }
 
-	.page-break-before {
-		break-before: page;
-	}
+    .page-break-before {
+        break-before: page;
+    }
 
-	div.team-card {
-		break-inside: avoid;
-	}
+    div.team-card {
+        break-inside: avoid;
+    }
 }
 
 /* Overriding the default Starlight styles for lists. */
-.sl-markdown-content ol>li {
-	list-style-type: decimal;
-	margin-left: 1.5em;
+.sl-markdown-content ol > li {
+    list-style-type: decimal;
+    margin-left: 1.5em;
 }
 
-.sl-markdown-content ol ol>li {
-	list-style-type: lower-alpha;
-	margin-left: 3em;
+.sl-markdown-content ol ol > li {
+    list-style-type: lower-alpha;
+    margin-left: 3em;
 }
 
-.sl-markdown-content ol ol ol>li {
-	list-style-type: lower-roman;
-	margin-left: 4.5em;
+.sl-markdown-content ol ol ol > li {
+    list-style-type: lower-roman;
+    margin-left: 4.5em;
 }
 
-.sl-markdown-content ul>li {
-	list-style-type: disc;
-	margin-left: 1.5em;
+.sl-markdown-content ul > li {
+    list-style-type: disc;
+    margin-left: 1.5em;
 }
 
-.sl-markdown-content ul ul>li {
-	list-style-type: circle;
-	margin-left: 3em;
+.sl-markdown-content ul ul > li {
+    list-style-type: circle;
+    margin-left: 3em;
 }
 
-.sl-markdown-content ul ul ul>li {
-	list-style-type: square;
-	margin-left: 4.5em;
+.sl-markdown-content ul ul ul > li {
+    list-style-type: square;
+    margin-left: 4.5em;
+}
+
+/* Force header to always use dark mode colors */
+.header {
+    --sl-color-accent-low: #142827;
+    --sl-color-accent: #267876;
+    --sl-color-accent-high: #b6cecd;
+    --sl-color-white: #ffffff;
+    --sl-color-gray-1: #d7f5f3;
+    --sl-color-gray-2: #b0d4d3;
+    --sl-color-gray-3: #65b2b0;
+    --sl-color-gray-4: #086564;
+    --sl-color-gray-5: #004141;
+    --sl-color-gray-6: #002e2d;
+    --sl-color-black: #001d1d;
+
+    /* Ensure text and background colors work well in dark mode */
+    background-color: var(--sl-color-gray-6);
+    color: var(--sl-color-white);
+}
+
+/* Ensure all header child elements also use dark mode colors */
+.header * {
+    color: inherit;
 }
