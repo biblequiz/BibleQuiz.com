@@ -76,6 +76,7 @@ export default defineConfig({
                 Sidebar: "./src/components/sidebar/Sidebar.astro",
                 TwoColumnContent: "./src/components/TwoColumnContent.astro",
                 ThemeSelect: "./src/components/ThemeSelect.astro",
+                SocialIcons: "./src/components/SocialIcons.astro",
             },
             lastUpdated: true,
             pagefind: {
