@@ -1,0 +1,1954 @@
+{
+  "EventName": "First AG ParentBowl",
+  "DatabaseNames": {
+    "8d7ab301-af27-4a95-9eaf-d96d8ea04d8f": "ParentBowl"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "8d7ab301-af27-4a95-9eaf-d96d8ea04d8f",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Parent PW",
+        "LastUpdated": "6/25/25 5:48 AM",
+        "DatabaseLastUpdated": "2025-01-26T19:46:01.5430349+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              3,
+              4,
+              6,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_9",
+            "Name": "Avengers Love PW",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 83.3,
+              "AverageCorrect": 7.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 20,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              2,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_10",
+            "Name": "Parents PW",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 136.7,
+              "AverageCorrect": 8.7,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 12,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Avengers Love PW",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_78",
+            "Name": "Amen Huluf",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Parents PW",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_83",
+            "Name": "Hannah Silva",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 310,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 103.3,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Parents PW",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_85",
+            "Name": "Jason Andrews",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.3,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 4,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Love PW",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_74",
+            "Name": "Josiah Koleber",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Love PW",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_77",
+            "Name": "Madi Andrews",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.7,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Parents PW",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_84",
+            "Name": "Rendy Koleber",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Love PW",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_76",
+            "Name": "Ryan Andrews",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 165,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 11,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Love PW",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_75",
+            "Name": "Sofia Silva",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          1,
+          6,
+          2,
+          0,
+          4,
+          7,
+          3,
+          5
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "8d7ab301-af27-4a95-9eaf-d96d8ea04d8f",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Parent A1",
+        "LastUpdated": "6/25/25 5:48 AM",
+        "DatabaseLastUpdated": "2025-01-26T19:46:01.5430349+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              2,
+              5,
+              6,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_5",
+            "Name": "Avengers Joy A1",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 390,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 130.0,
+              "AverageCorrect": 10.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 21,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              3,
+              4,
+              8
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_6",
+            "Name": "Parent A1",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 131.7,
+              "AverageCorrect": 7.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 7,
+              "Correct20s": 9,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Parent A1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_49",
+            "Name": "Awolou Sossa",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 23.3,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Joy A1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_39",
+            "Name": "Charlotte Minchin",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Joy A1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_38",
+            "Name": "Eli SIlva",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.3,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 0,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Parent A1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_47",
+            "Name": "Freddy Silva",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 96.7,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 0,
+              "Correct20s": 8,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Parent A1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_50",
+            "Name": "Joann Abate",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Joy A1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_40",
+            "Name": "Joshua Sossa",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.7,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 11,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Joy A1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_42",
+            "Name": "Nathaniel Abate",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 65,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.7,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Joy A1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_41",
+            "Name": "Rehoboth Mehari",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.7,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Parent A1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_48",
+            "Name": "Tyler Minchin",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.7,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          3,
+          2,
+          5,
+          0,
+          6,
+          7,
+          8,
+          4,
+          1
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "8d7ab301-af27-4a95-9eaf-d96d8ea04d8f",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Parent A2",
+        "LastUpdated": "6/25/25 5:48 AM",
+        "DatabaseLastUpdated": "2025-01-26T19:46:01.5430349+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              1,
+              3,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_7",
+            "Name": "Avengers Peace A2",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              4,
+              6
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_8",
+            "Name": "Parents A2",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Avengers Peace A2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_56",
+            "Name": "Abigail Amadasun",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Avengers Peace A2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_60",
+            "Name": "Alaina Koleber",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Parents A2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_65",
+            "Name": "Ejiro Amadasun",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Avengers Peace A2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_57",
+            "Name": "Hosanna Habte",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Parents A2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_66",
+            "Name": "Joann Abate",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Avengers Peace A2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_59",
+            "Name": "Nathaniel Abate",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Parents A2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_67",
+            "Name": "Tsega Habte",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "8d7ab301-af27-4a95-9eaf-d96d8ea04d8f",
+        "MeetId": 4,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Parent AA1",
+        "LastUpdated": "6/25/25 5:48 AM",
+        "DatabaseLastUpdated": "2025-01-26T19:46:01.5430349+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              3,
+              4,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_1",
+            "Name": "Avengers Justice AA1",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 310,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 103.3,
+              "AverageCorrect": 10.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 18,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              2,
+              6
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_2",
+            "Name": "Parent AA1",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 91.7,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 7,
+              "Correct20s": 7,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Avengers Justice AA1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_2",
+            "Name": "Ellie Guntle",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 58,
+              "Correct10s": 11,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Parent AA1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_13",
+            "Name": "Gisel Hoglund",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 175,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 58.3,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 1,
+              "Correct20s": 5,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Parent AA1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_14",
+            "Name": "Jina Rios",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Justice AA1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_4",
+            "Name": "Julian Hoglund",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 0,
+              "Correct20s": 12,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Justice AA1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_5",
+            "Name": "Kairos Rios",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 44,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Justice AA1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_6",
+            "Name": "Naomi Huluf",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.7,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Parent AA1",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_11",
+            "Name": "Nate Guntle",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 3,
+              "IsTie": true,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          3,
+          1,
+          2,
+          6,
+          0,
+          5,
+          4
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "8d7ab301-af27-4a95-9eaf-d96d8ea04d8f",
+        "MeetId": 5,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Parent AA2",
+        "LastUpdated": "6/25/25 5:48 AM",
+        "DatabaseLastUpdated": "2025-01-26T19:46:01.5430349+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              2,
+              4,
+              5,
+              8
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 195,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_4",
+            "Name": "Avengers Alliance AA2",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 3,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 575,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 191.7,
+              "AverageCorrect": 12.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 16,
+              "Correct20s": 14,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              3,
+              6,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_3",
+            "Name": "Parent AA2",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 3,
+              "WinPercentage": 0,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 295,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 98.3,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 12,
+              "Correct20s": 7,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Parent AA2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_21",
+            "Name": "Claire Rola",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 71.7,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 2,
+              "Correct20s": 7,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Alliance AA2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_32",
+            "Name": "Danielle Keller",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Alliance AA2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_29",
+            "Name": "Jude Devadoss",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Parent AA2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_23",
+            "Name": "Kyle Keller",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -3.3,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Alliance AA2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_33",
+            "Name": "Miles Haley",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.3,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Alliance AA2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_30",
+            "Name": "Noah Minchin",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 115,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.3,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 10,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Parent AA2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_20",
+            "Name": "Priscilla Minchin",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Parent AA2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_22",
+            "Name": "Sanjay Devadoss",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Alliance AA2",
+            "YearsQuizzing": null,
+            "Id": "q_8d7ab301-af27-4a95-9eaf-d96d8ea04d8f_31",
+            "Name": "Vhiel Rola",
+            "ChurchName": "1AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.7,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 0,
+              "Correct20s": 4,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          8,
+          0,
+          4,
+          5,
+          6,
+          1,
+          2,
+          7,
+          3
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2025-06-25T05:48:59.3504008+00:00"
+}
