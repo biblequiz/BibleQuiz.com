@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import type { EventInfo } from "@types/EventTypes";
+import type { EventScoringReport } from "@types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState, sharedPrintConfiguration } from "@utils/SharedState";
@@ -8,40 +9,53 @@ import FontAwesomeIcon from "../FontAwesomeIcon";
 
 interface Props {
     parentTabId: string;
-    tabSyncKey: string;
     eventInfo: EventInfo;
+    event: EventScoringReport | null;
 }
 
 function removeTabAndPanel(tabLinkElement: HTMLAnchorElement): void {
     tabLinkElement.parentElement?.remove();
 }
 
-export default function EventScoringReportLoader({ parentTabId, tabSyncKey, eventInfo }: Props) {
+export default function EventScoringReportLoader({ parentTabId, eventInfo, event }: Props) {
 
     const reportState = useStore(sharedEventScoringReportState);
     useStore(sharedPrintConfiguration); // Registering the hook.
+
     useEffect(() => {
-        // If the report is not already loaded, fetch it in the background
+
+        const initializeReport = (report: EventScoringReport) => {
+            sharedEventScoringReportState.set(
+                {
+                    report: report,
+                    error: null
+                });
+
+            const excelButton: HTMLElement | null = document.getElementById("excel-export-button");
+            if (excelButton) {
+                excelButton.removeAttribute("disabled");
+            }
+
+            const printButton: HTMLElement | null = document.getElementById(`${PrintDialogModalId}-button`);
+            if (printButton) {
+                printButton.removeAttribute("disabled");
+            }
+        };
+
         if (!reportState) {
+
+            if (event) {
+                // The event is already loaded and just needs to be initialized.
+                initializeReport(event);
+                return;
+            }
+
+            // If the report is not already loaded, fetch it in the background
             fetch(`https://scores.biblequiz.com/api/v1.0/reports/Events/${eventInfo.id}/ScoringReport`)
                 .then(async (response) => {
                     const body = await response.json();
                     if (response.ok) {
-                        sharedEventScoringReportState.set(
-                            {
-                                report: body,
-                                error: null
-                            });
-
-                        const excelButton: HTMLElement | null = document.getElementById("excel-export-button");
-                        if (excelButton) {
-                            excelButton.removeAttribute("disabled");
-                        }
-
-                        const printButton: HTMLElement | null = document.getElementById(`${PrintDialogModalId}-button`);
-                        if (printButton) {
-                            printButton.removeAttribute("disabled");
-                        }
+                        initializeReport(body);
                     } else {
                         sharedEventScoringReportState.set(
                             {

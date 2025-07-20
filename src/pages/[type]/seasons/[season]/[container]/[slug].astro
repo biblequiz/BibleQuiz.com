@@ -150,7 +150,6 @@ const eventFilePath = path.resolve(
 );
 
 const event = await tryReadFileAsJson<EventScoringReport>(eventFilePath);
-const initialScoresTabStyle = event ? "" : "display: none";
 
 // Find the label for the scope.
 const frontmatter: StarlightPageFrontmatter = {
@@ -199,134 +198,65 @@ if (event) {
 ---
 
 <StarlightPage frontmatter={frontmatter}>
-    {
-        !event && (
-            <EventScoringReportLoader
-                eventInfo={eventInfo}
-                parentTabId="scoreTabs"
-                tabSyncKey={`scores-${eventInfo.id}`}
-                client:only="react"
-            />
-        )
-    }
-    <div id="scoreTabs" class="hide-on-print" style={initialScoresTabStyle}>
+    <EventScoringReportLoader
+        parentTabId="scoreTabs"
+        eventInfo={eventInfo}
+        event={event}
+        client:only="react"
+    />
+    <div id="scoreTabs" class="hide-on-print" style={{ display: "none" }}>
         <FontAwesomeTabs syncKey={`scores-${eventInfo.id}`}>
+            <FontAwesomeTabItem
+                key={`scores-${eventInfo.id}-schedule`}
+                label="Schedules"
+                icon="fas faCalendarAlt"
+                padding="2"
+            >
+                <FontAwesomeTabs syncKey={`scores-${eventInfo.id}-schedule`}>
+                    <FontAwesomeTabItem
+                        icon="fas faUsers"
+                        label="Team Schedule"
+                    >
+                        <TeamOrRoomScheduleTabContent
+                            type="Team"
+                            eventId={eventInfo.id}
+                            client:only="react"
+                        />
+                    </FontAwesomeTabItem>
+                    <FontAwesomeTabItem
+                        icon="fas faDoorOpen"
+                        label="Room Schedule"
+                    >
+                        <TeamOrRoomScheduleTabContent
+                            type="Room"
+                            eventId={eventInfo.id}
+                            client:only="react"
+                        />
+                    </FontAwesomeTabItem>
+                    <FontAwesomeTabItem
+                        icon="fas faBorderAll"
+                        label="Schedule Grid"
+                    >
+                        <ScheduleGridTabContent
+                            eventId={eventInfo.id}
+                            client:only="react"
+                        />
+                    </FontAwesomeTabItem>
+                </FontAwesomeTabs>
+            </FontAwesomeTabItem>
             {
-                event && (
-                    <>
-                        {hasStatsTab && (
-                            <FontAwesomeTabItem
-                                key={`scores-${eventInfo.id}-stats`}
-                                label="Stats"
-                                icon="fas faTrophy"
-                                defaultChecked={true}
-                            >
-                                <StatsTabContent
-                                    eventId={eventInfo.id}
-                                    event={event}
-                                />
-                            </FontAwesomeTabItem>
-                        )}
-                        <FontAwesomeTabItem
-                            key={`scores-${eventInfo.id}-schedule`}
-                            label="Schedules"
-                            icon="fas faCalendarAlt"
-                            padding="2"
-                        >
-                            <FontAwesomeTabs
-                                syncKey={`scores-${eventInfo.id}-schedule`}
-                            >
-                                <FontAwesomeTabItem
-                                    icon="fas faUsers"
-                                    label="Team Schedule"
-                                >
-                                    <TeamOrRoomScheduleTabContent
-                                        type="Team"
-                                        eventId={eventInfo.id}
-                                        event={event}
-                                    />
-                                </FontAwesomeTabItem>
-                                <FontAwesomeTabItem
-                                    icon="fas faDoorOpen"
-                                    label="Room Schedule"
-                                >
-                                    <TeamOrRoomScheduleTabContent
-                                        type="Room"
-                                        eventId={eventInfo.id}
-                                        event={event}
-                                    />
-                                </FontAwesomeTabItem>
-                                <FontAwesomeTabItem
-                                    icon="fas faBorderAll"
-                                    label="Schedule Grid"
-                                >
-                                    <ScheduleGridTabContent
-                                        eventId={eventInfo.id}
-                                        event={event}
-                                    />
-                                </FontAwesomeTabItem>
-                            </FontAwesomeTabs>
-                        </FontAwesomeTabItem>
-                    </>
-                )
-            }
-            {
-                !event && (
-                    <>
-                        <FontAwesomeTabItem
-                            key={`scores-${eventInfo.id}-schedule`}
-                            label="Schedules"
-                            icon="fas faCalendarAlt"
-                            padding="2"
-                        >
-                            <FontAwesomeTabs
-                                syncKey={`scores-${eventInfo.id}-schedule`}
-                            >
-                                <FontAwesomeTabItem
-                                    icon="fas faUsers"
-                                    label="Team Schedule"
-                                >
-                                    <TeamOrRoomScheduleTabContent
-                                        type="Team"
-                                        eventId={eventInfo.id}
-                                        client:only="react"
-                                    />
-                                </FontAwesomeTabItem>
-                                <FontAwesomeTabItem
-                                    icon="fas faDoorOpen"
-                                    label="Room Schedule"
-                                >
-                                    <TeamOrRoomScheduleTabContent
-                                        type="Room"
-                                        eventId={eventInfo.id}
-                                        client:only="react"
-                                    />
-                                </FontAwesomeTabItem>
-                                <FontAwesomeTabItem
-                                    icon="fas faBorderAll"
-                                    label="Schedule Grid"
-                                >
-                                    <ScheduleGridTabContent
-                                        eventId={eventInfo.id}
-                                        client:only="react"
-                                    />
-                                </FontAwesomeTabItem>
-                            </FontAwesomeTabs>
-                        </FontAwesomeTabItem>
-                        {hasStatsTab && (
-                            <FontAwesomeTabItem
-                                key={`scores-${eventInfo.id}-stats`}
-                                label="Stats"
-                                icon="fas faTrophy"
-                                defaultChecked={true}
-                            >
-                                <StatsTabContent
-                                    eventId={eventInfo.id}
-                                    client:only="react"
-                                />
-                            </FontAwesomeTabItem>
-                        )}
-                    </>
+                hasStatsTab && (
+                    <FontAwesomeTabItem
+                        key={`scores-${eventInfo.id}-stats`}
+                        label="Stats"
+                        icon="fas faTrophy"
+                        defaultChecked={true}
+                    >
+                        <StatsTabContent
+                            eventId={eventInfo.id}
+                            client:only="react"
+                        />
+                    </FontAwesomeTabItem>
                 )
             }
             <FontAwesomeTabItem
@@ -334,22 +264,10 @@ if (event) {
                 label="Coordinator"
                 icon="fas faThermometerHalf"
             >
-                {
-                    event && (
-                        <CoordinatorTabContent
-                            eventId={eventInfo.id}
-                            event={event}
-                        />
-                    )
-                }
-                {
-                    !event && (
-                        <CoordinatorTabContent
-                            eventId={eventInfo.id}
-                            client:only="react"
-                        />
-                    )
-                }
+                <CoordinatorTabContent
+                    eventId={eventInfo.id}
+                    client:only="react"
+                />
             </FontAwesomeTabItem>
             {
                 hasQStatsTab && (
@@ -358,18 +276,10 @@ if (event) {
                         label="Q Stats"
                         icon="fas faChartBar"
                     >
-                        {event && (
-                            <QStatsTabContent
-                                eventId={eventInfo.id}
-                                event={event}
-                            />
-                        )}
-                        {!event && (
-                            <QStatsTabContent
-                                eventId={eventInfo.id}
-                                client:only="react"
-                            />
-                        )}
+                        <QStatsTabContent
+                            eventId={eventInfo.id}
+                            client:only="react"
+                        />
                     </FontAwesomeTabItem>
                 )
             }

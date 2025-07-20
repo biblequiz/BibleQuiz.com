@@ -285,6 +285,12 @@ export abstract class ScoringReportScoreBase {
  * Base class for items within a ScoringReportMeet
  */
 export abstract class ScoringReportItemBase<T extends ScoringReportScoreBase> {
+
+    /**
+     * Unique identifier for this team or quizzer within the event.
+     */
+    public readonly Id!: string;
+    
     /**
      * Name of the team or quizzer.
      */
