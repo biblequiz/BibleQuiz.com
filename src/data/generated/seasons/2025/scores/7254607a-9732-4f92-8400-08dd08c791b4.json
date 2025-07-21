@@ -1423,6 +1423,9 @@
         "HasRoomCompletionMismatch": true,
         "HasScoringCompleted": false,
         "ScoringProgressMessage": "6 of 7 Match(es) Done, +1 by some Room(s)",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -3139,6 +3142,9 @@
         "HasRoomCompletionMismatch": true,
         "HasScoringCompleted": false,
         "ScoringProgressMessage": "6 of 7 Match(es) Done, +1 by some Room(s)",
+        "HasRoomCompletionMismatchForCombined": true,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": "Different number of match(es) completed across room(s).",
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -4157,6 +4163,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -5402,6 +5411,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -6588,6 +6600,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       }

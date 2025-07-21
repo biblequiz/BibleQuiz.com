@@ -15,7 +15,7 @@
         "HasLinkedMeets": true,
         "HasQuestionStats": false,
         "Name": "Championship",
-        "LastUpdated": "7/11/25 8:56 PM",
+        "LastUpdated": "5/10/25 12:34 PM",
         "DatabaseLastUpdated": "2025-05-10T04:34:55.488504+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
@@ -94,16 +94,16 @@
               },
               null,
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "Y",
-                "State": "InProgress",
-                "CurrentQuestion": 21,
-                "Score": null,
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
                 "OtherTeam": 4
               }
             ],
-            "CurrentMatchId": 9,
+            "CurrentMatchId": null,
             "Id": "t_eb29b36e-1fdd-447f-82f4-c128bbd340af",
             "Name": "Armed & Dangerous (STA)",
             "ChurchName": "Seattle Tamil Assembly Church",
@@ -111,17 +111,17 @@
             "State": "WA",
             "Scores": {
               "Wins": 0,
-              "Losses": 7,
+              "Losses": 8,
               "WinPercentage": 0,
               "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 150,
+              "TotalPoints": 155,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 21.4,
+              "AveragePoints": 19.4,
               "AverageCorrect": 3.6,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 54,
-              "Correct10s": 18,
+              "Correct10s": 22,
               "Correct20s": 6,
               "Correct30s": 1,
               "FootnoteIndex": null
@@ -248,12 +248,12 @@
             ],
             "Matches": [
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "Y",
-                "State": "InProgress",
-                "CurrentQuestion": 20,
-                "Score": null,
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
                 "OtherTeam": 3
               },
               {
@@ -322,7 +322,7 @@
               },
               null
             ],
-            "CurrentMatchId": 0,
+            "CurrentMatchId": null,
             "Id": "t_0ec5fd55-5382-42d5-9cf5-a1bfc099e699",
             "Name": "Cedar Park (CP)",
             "ChurchName": "Cedar Park Assembly of God",
@@ -330,20 +330,20 @@
             "State": "WA",
             "Scores": {
               "Wins": 4,
-              "Losses": 3,
-              "WinPercentage": 57,
+              "Losses": 4,
+              "WinPercentage": 50,
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 1150,
+              "TotalPoints": 1265,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 164.3,
-              "AverageCorrect": 10.6,
+              "AveragePoints": 158.1,
+              "AverageCorrect": 10.5,
               "QuizOuts": 8,
               "QuestionCorrectPercentage": 69,
-              "Correct10s": 29,
-              "Correct20s": 33,
+              "Correct10s": 34,
+              "Correct20s": 38,
               "Correct30s": 12,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -356,12 +356,12 @@
             ],
             "Matches": [
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "Y",
-                "State": "InProgress",
-                "CurrentQuestion": 20,
-                "Score": null,
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
                 "OtherTeam": 2
               },
               null,
@@ -430,27 +430,27 @@
                 "OtherTeam": 1
               }
             ],
-            "CurrentMatchId": 0,
+            "CurrentMatchId": null,
             "Id": "t_a049d00a-5669-47cc-b6ac-a6be56a81585",
             "Name": "The Rumors are False (SVA)",
             "ChurchName": "Spokane Valley Assembly of God",
             "City": "Spokane Valley",
             "State": "WA",
             "Scores": {
-              "Wins": 6,
+              "Wins": 7,
               "Losses": 1,
-              "WinPercentage": 86,
+              "WinPercentage": 88,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 1375,
+              "TotalPoints": 1535,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 196.4,
-              "AverageCorrect": 10.9,
-              "QuizOuts": 11,
+              "AveragePoints": 191.9,
+              "AverageCorrect": 10.5,
+              "QuizOuts": 12,
               "QuestionCorrectPercentage": 71,
-              "Correct10s": 26,
-              "Correct20s": 35,
-              "Correct30s": 15,
+              "Correct10s": 28,
+              "Correct20s": 39,
+              "Correct30s": 17,
               "FootnoteIndex": null
             }
           },
@@ -530,37 +530,37 @@
                 "OtherTeam": 3
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "Y",
-                "State": "InProgress",
-                "CurrentQuestion": 21,
-                "Score": null,
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
                 "OtherTeam": 0
               }
             ],
-            "CurrentMatchId": 9,
+            "CurrentMatchId": null,
             "Id": "t_3171d247-f5b2-41c4-9939-da12bec3695b",
             "Name": "what's the first word (STA)",
             "ChurchName": "Seattle Tamil Assembly Church",
             "City": "Bothell",
             "State": "WA",
             "Scores": {
-              "Wins": 3,
+              "Wins": 4,
               "Losses": 4,
-              "WinPercentage": 43,
+              "WinPercentage": 50,
               "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 895,
+              "TotalPoints": 1045,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 127.9,
+              "AveragePoints": 130.6,
               "AverageCorrect": 9.1,
-              "QuizOuts": 5,
+              "QuizOuts": 6,
               "QuestionCorrectPercentage": 70,
-              "Correct10s": 30,
-              "Correct20s": 30,
-              "Correct30s": 4,
-              "FootnoteIndex": null
+              "Correct10s": 33,
+              "Correct20s": 35,
+              "Correct30s": 5,
+              "FootnoteIndex": 0
             }
           }
         ],
@@ -571,7 +571,12 @@
           4,
           0
         ],
-        "TeamFootnotes": [],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "Quizzers": [
           {
             "TeamName": "The Rumors are False (SVA)",
@@ -582,16 +587,16 @@
             "City": "Spokane Valley",
             "State": "WA",
             "Scores": {
-              "Rank": 8,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 215,
+              "TotalPoints": 240,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 30.7,
+              "AveragePoints": 30.0,
               "AverageCorrect": 2.4,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 65,
-              "Correct10s": 10,
-              "Correct20s": 6,
+              "QuestionCorrectPercentage": 66,
+              "Correct10s": 11,
+              "Correct20s": 7,
               "Correct30s": 1,
               "FootnoteIndex": null
             }
@@ -607,16 +612,16 @@
             "Scores": {
               "Rank": 10,
               "IsTie": false,
-              "TotalPoints": 175,
+              "TotalPoints": 205,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 25.0,
+              "AveragePoints": 25.6,
               "AverageCorrect": 1.6,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 92,
+              "QuestionCorrectPercentage": 87,
               "Correct10s": 4,
-              "Correct20s": 7,
+              "Correct20s": 9,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -632,8 +637,8 @@
               "IsTie": false,
               "TotalPoints": 40,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 5.7,
-              "AverageCorrect": 0.7,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.6,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 83,
               "Correct10s": 5,
@@ -651,15 +656,15 @@
             "City": "Bothell",
             "State": "WA",
             "Scores": {
-              "Rank": 18,
+              "Rank": 23,
               "IsTie": false,
-              "TotalPoints": 10,
+              "TotalPoints": -5,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 1.4,
-              "AverageCorrect": 0.4,
+              "AveragePoints": -0.6,
+              "AverageCorrect": 0.5,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 43,
-              "Correct10s": 2,
+              "QuestionCorrectPercentage": 40,
+              "Correct10s": 3,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -676,15 +681,15 @@
             "Scores": {
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 880,
+              "TotalPoints": 1000,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 125.7,
+              "AveragePoints": 125.0,
               "AverageCorrect": 5.0,
-              "QuizOuts": 7,
-              "QuestionCorrectPercentage": 81,
-              "Correct10s": 1,
-              "Correct20s": 20,
-              "Correct30s": 14,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 2,
+              "Correct20s": 22,
+              "Correct30s": 16,
               "FootnoteIndex": null
             }
           },
@@ -708,7 +713,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             }
           },
           {
@@ -720,14 +725,14 @@
             "City": "Bothell",
             "State": "WA",
             "Scores": {
-              "Rank": 7,
+              "Rank": 9,
               "IsTie": false,
-              "TotalPoints": 220,
+              "TotalPoints": 205,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 31.4,
-              "AverageCorrect": 3.1,
+              "AveragePoints": 25.6,
+              "AverageCorrect": 2.8,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 63,
+              "QuestionCorrectPercentage": 58,
               "Correct10s": 18,
               "Correct20s": 3,
               "Correct30s": 1,
@@ -747,8 +752,8 @@
               "IsTie": false,
               "TotalPoints": 35,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 5.0,
-              "AverageCorrect": 0.7,
+              "AveragePoints": 4.4,
+              "AverageCorrect": 0.6,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 56,
               "Correct10s": 4,
@@ -777,7 +782,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             }
           },
           {
@@ -789,17 +794,17 @@
             "City": "Bothell",
             "State": "WA",
             "Scores": {
-              "Rank": 5,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 435,
+              "TotalPoints": 550,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 62.1,
-              "AverageCorrect": 3.9,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 68,
-              "Correct10s": 7,
-              "Correct20s": 17,
-              "Correct30s": 3,
+              "AveragePoints": 68.8,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 8,
+              "Correct20s": 20,
+              "Correct30s": 4,
               "FootnoteIndex": null
             }
           },
@@ -816,8 +821,8 @@
               "IsTie": false,
               "TotalPoints": 20,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.9,
-              "AverageCorrect": 0.3,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 50,
               "Correct10s": 1,
@@ -835,7 +840,7 @@
             "City": "Bellevue",
             "State": "WA",
             "Scores": {
-              "Rank": 9,
+              "Rank": 8,
               "IsTie": false,
               "TotalPoints": 225,
               "PerMeetTotalPoints": null,
@@ -869,7 +874,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             }
           },
           {
@@ -881,16 +886,16 @@
             "City": "Bothell",
             "State": "WA",
             "Scores": {
-              "Rank": 4,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 480,
+              "TotalPoints": 525,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 68.6,
+              "AveragePoints": 65.6,
               "AverageCorrect": 3.9,
               "QuizOuts": 3,
               "QuestionCorrectPercentage": 66,
-              "Correct10s": 5,
-              "Correct20s": 14,
+              "Correct10s": 6,
+              "Correct20s": 17,
               "Correct30s": 8,
               "FootnoteIndex": null
             }
@@ -906,13 +911,13 @@
             "Scores": {
               "Rank": 13,
               "IsTie": false,
-              "TotalPoints": 65,
+              "TotalPoints": 75,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 9.3,
+              "AveragePoints": 9.4,
               "AverageCorrect": 0.6,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
+              "Correct10s": 2,
               "Correct20s": 3,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -938,7 +943,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             }
           },
           {
@@ -952,14 +957,14 @@
             "Scores": {
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 515,
+              "TotalPoints": 555,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 73.6,
+              "AveragePoints": 69.4,
               "AverageCorrect": 4.4,
               "QuizOuts": 4,
-              "QuestionCorrectPercentage": 72,
-              "Correct10s": 11,
-              "Correct20s": 16,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 14,
+              "Correct20s": 17,
               "Correct30s": 4,
               "FootnoteIndex": null
             }
@@ -975,14 +980,14 @@
             "Scores": {
               "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 140,
+              "TotalPoints": 170,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 20.0,
+              "AveragePoints": 21.2,
               "AverageCorrect": 2.0,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 11,
-              "Correct20s": 3,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 12,
+              "Correct20s": 4,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -998,14 +1003,14 @@
             "Scores": {
               "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 250,
+              "TotalPoints": 265,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 35.7,
-              "AverageCorrect": 2.7,
+              "AveragePoints": 33.1,
+              "AverageCorrect": 2.5,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 66,
+              "QuestionCorrectPercentage": 65,
               "Correct10s": 11,
-              "Correct20s": 8,
+              "Correct20s": 9,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -1019,18 +1024,18 @@
             "City": "Bothell",
             "State": "WA",
             "Scores": {
-              "Rank": 19,
-              "IsTie": true,
-              "TotalPoints": 0,
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 1.2,
+              "AverageCorrect": 0.1,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -1044,13 +1049,13 @@
             "Scores": {
               "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 80,
+              "TotalPoints": 100,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 11.4,
-              "AverageCorrect": 2.1,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 2.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 52,
-              "Correct10s": 10,
+              "QuestionCorrectPercentage": 53,
+              "Correct10s": 13,
               "Correct20s": 5,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -1069,8 +1074,8 @@
               "IsTie": false,
               "TotalPoints": 15,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.1,
-              "AverageCorrect": 0.3,
+              "AveragePoints": 1.9,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 67,
               "Correct10s": 2,
@@ -1130,12 +1135,12 @@
           4,
           23,
           16,
-          13,
           9,
+          13,
           18,
-          6,
           0,
           11,
+          6,
           1,
           17,
           20,
@@ -1144,17 +1149,21 @@
           7,
           10,
           21,
-          3,
+          19,
           5,
           8,
           12,
           15,
-          19,
+          3,
           22
         ],
         "QuizzerFootnotes": [
           {
             "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
             "Text": "Tie couldn't be broken by tie breaking rules."
           }
         ],
@@ -1226,9 +1235,12 @@
             "RegularQuestionStats": null
           }
         ],
-        "HasRoomCompletionMismatch": true,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "8 of 10 Match(es) Done, +2 by some Room(s)",
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -1239,7 +1251,7 @@
         "HasLinkedMeets": true,
         "HasQuestionStats": false,
         "Name": "Contender",
-        "LastUpdated": "7/11/25 8:56 PM",
+        "LastUpdated": "5/10/25 12:34 PM",
         "DatabaseLastUpdated": "2025-05-10T04:34:55.488504+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
@@ -1830,11 +1842,11 @@
             "Name": "Y",
             "Matches": [
               {
-                "CurrentQuestion": 20,
+                "CurrentQuestion": null,
                 "LinkedMeet": 0,
                 "Team1": 3,
                 "Team2": 2,
-                "State": "InProgress",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1902,11 +1914,11 @@
                 "Blockers": null
               },
               {
-                "CurrentQuestion": 21,
+                "CurrentQuestion": null,
                 "LinkedMeet": 0,
                 "Team1": 4,
                 "Team2": 0,
-                "State": "InProgress",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
@@ -2010,6 +2022,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": true,
+        "ScoringProgressMessageForCombined": "All Room(s) Reported",
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -3435,6 +3450,9 @@
         "HasRoomCompletionMismatch": true,
         "HasScoringCompleted": false,
         "ScoringProgressMessage": "5 of 7 Match(es) Done, +2 by some Room(s)",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -5167,6 +5185,9 @@
         "HasRoomCompletionMismatch": true,
         "HasScoringCompleted": false,
         "ScoringProgressMessage": "6 of 7 Match(es) Done, +1 by some Room(s)",
+        "HasRoomCompletionMismatchForCombined": true,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": "Different number of match(es) completed across room(s).",
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -6185,6 +6206,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -7430,6 +7454,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -8616,6 +8643,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -10196,6 +10226,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -10911,6 +10944,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -11965,6 +12001,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": true,
+        "ScoringProgressMessageForCombined": "All Room(s) Reported",
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -12922,6 +12961,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -13901,6 +13943,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -15655,6 +15700,9 @@
         "HasRoomCompletionMismatch": true,
         "HasScoringCompleted": false,
         "ScoringProgressMessage": "0 of 9 Match(es) Done, +1 by some Room(s)",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -16449,6 +16497,9 @@
         "HasRoomCompletionMismatch": true,
         "HasScoringCompleted": false,
         "ScoringProgressMessage": "0 of 8 Match(es) Done, +1 by some Room(s)",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -17114,6 +17165,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": false,
         "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       },
@@ -18119,6 +18173,9 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": false,
         "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
       }
@@ -18350,5 +18407,5 @@
       }
     }
   ],
-  "Freshness": "2025-07-11T20:56:12.3761415+00:00"
+  "Freshness": "2025-07-11T15:02:30.6998737+00:00"
 }
