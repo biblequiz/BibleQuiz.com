@@ -67,6 +67,8 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                 return (
                     <CollapsableMeetSection
                         meet={meet}
+                        showCombinedName={isRoomReport}
+                        showMeetStatus={false}
                         pageId={`${type}schedule`}
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}

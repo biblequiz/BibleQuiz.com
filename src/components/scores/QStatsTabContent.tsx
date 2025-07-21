@@ -39,7 +39,13 @@ export default function QStatsTabContent({ event }: EventScoresProps) {
                 }
 
                 return (
-                    <CollapsableMeetSection meet={meet} pageId="qstats" printSectionIndex={sectionIndex++} key={key}>
+                    <CollapsableMeetSection
+                        meet={meet}
+                        showCombinedName={false}
+                        showMeetStatus={false}
+                        pageId="qstats"
+                        printSectionIndex={sectionIndex++}
+                        key={key}>
                         <table className="table table-s table-nowrap">
                             <thead>
                                 <tr>

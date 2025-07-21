@@ -33,7 +33,13 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                 }
 
                 return (
-                    <CollapsableMeetSection meet={meet} pageId="coodinator" printSectionIndex={sectionIndex++} key={key}>
+                    <CollapsableMeetSection
+                        meet={meet}
+                        showCombinedName={true}
+                        showMeetStatus={true}
+                        pageId="coodinator"
+                        printSectionIndex={sectionIndex++}
+                        key={key}>
                         <table className="table table-s table-nowrap">
                             <thead>
                                 <tr>

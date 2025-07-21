@@ -200,7 +200,22 @@ export class ScoringReportMeet {
     /**
      * Message regarding scoring progress.
      */
-    public readonly ScoringProgressMessage!: string;
+    public readonly ScoringProgressMessage!: string | null;;
+
+    /**
+     * Value indicating whether there is a mismatch in the number of matches all rooms have completed if this is a combined meet due to linked meets.
+     */
+    public readonly HasRoomCompletionMismatchForCombined!: boolean;
+
+    /**
+     * Value indicating whether scoring has completed if this is a combined meet due to linked meets.
+     */
+    public readonly HasScoringCompletedForCombined!: boolean;
+
+    /**
+     * Message regarding scoring progress if this is a combined meet due to linked meets.
+     */
+    public readonly ScoringProgressMessageForCombined!: string | null;
 
     /**
      * Value indicating whether to include the ScoringReportQuizzer.YearsQuizzing column.
@@ -290,7 +305,7 @@ export abstract class ScoringReportItemBase<T extends ScoringReportScoreBase> {
      * Unique identifier for this team or quizzer within the event.
      */
     public readonly Id!: string;
-    
+
     /**
      * Name of the team or quizzer.
      */

@@ -54,6 +54,8 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                     <CollapsableMeetSection
                         meet={meet}
                         pageId="stats"
+                        showCombinedName={false}
+                        showMeetStatus={true}
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}
                         key={`stats_${meet.DatabaseId}_${meet.MeetId}`}>
