@@ -13,7 +13,7 @@
         "HasQuestionStats": false,
         "Name": "A Team Report",
         "LastUpdated": "7/3/25 11:38 PM",
-        "DatabaseLastUpdated": "2025-07-03T23:01:49.3876302+00:00",
+        "DatabaseLastUpdated": "2025-07-21T06:41:03.4161926+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -279,12 +279,12 @@
       {
         "DatabaseId": "d161d006-8974-433f-90ab-a86947a9cc7b",
         "MeetId": 6,
-        "CombinedName": "CHAMPIONSHIP & CHALLENGER",
+        "CombinedName": "Championship & Challenger",
         "HasLinkedMeets": true,
         "HasQuestionStats": false,
-        "Name": "CHAMPIONSHIP",
+        "Name": "Championship",
         "LastUpdated": "7/3/25 11:38 PM",
-        "DatabaseLastUpdated": "2025-07-03T23:01:49.3876302+00:00",
+        "DatabaseLastUpdated": "2025-07-21T06:41:03.4161926+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -10663,9 +10663,9 @@
         "CombinedName": null,
         "HasLinkedMeets": true,
         "HasQuestionStats": false,
-        "Name": "CHALLENGER",
+        "Name": "Challenger",
         "LastUpdated": "7/3/25 11:38 PM",
-        "DatabaseLastUpdated": "2025-07-03T23:01:49.3876302+00:00",
+        "DatabaseLastUpdated": "2025-07-21T06:41:03.4161926+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -16333,13 +16333,2004 @@
       },
       {
         "DatabaseId": "d161d006-8974-433f-90ab-a86947a9cc7b",
+        "MeetId": 10,
+        "CombinedName": "Adult - Veteran League A & Adult - Veteran League B",
+        "HasLinkedMeets": true,
+        "HasQuestionStats": false,
+        "Name": "Adult - Veteran League A",
+        "LastUpdated": "7/3/25 11:38 PM",
+        "DatabaseLastUpdated": "2025-07-21T06:41:03.4161926+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              5,
+              6,
+              14
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "F",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "G",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "H",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 205,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_46",
+            "Name": "I Have to do Surgery",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 565,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 188.3,
+              "AverageCorrect": 10.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 15,
+              "Correct20s": 14,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              3,
+              10,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "F",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "I",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "F",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "H",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_50",
+            "Name": "Mother & Brothers",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 3,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 510,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 170.0,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 10,
+              "Correct20s": 10,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              8,
+              9,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "H",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -20,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "G",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "G",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "H",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_45",
+            "Name": "People From the Province of Asia",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 2,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 45,
+              "Correct10s": 5,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              4,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "H",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "F",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "F",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_43",
+            "Name": "We Ain’t Came to Lose",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 1,
+              "Losses": 1,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.5,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 58,
+              "Correct10s": 7,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              2,
+              13
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "I",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "H",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "G",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "F",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_42",
+            "Name": "Why Stare at Us",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 2,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 77.5,
+              "AverageCorrect": 7.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 54,
+              "Correct10s": 5,
+              "Correct20s": 9,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0,
+          3,
+          4,
+          2
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "We Ain’t Came to Lose",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_381",
+            "Name": "Brent Ellwein",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 5,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Why Stare at Us",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_373",
+            "Name": "Carolyn Bielby",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -5.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 25,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Why Stare at Us",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_371",
+            "Name": "Elizabeth Li",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.5,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Mother & Brothers",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_443",
+            "Name": "Jolene Powell",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 115,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.3,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 5,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "We Ain’t Came to Lose",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_380",
+            "Name": "Josh Gallo",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": -25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -12.5,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 25,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "I Have to do Surgery",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_408",
+            "Name": "Lester Cowan",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 10,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "I Have to do Surgery",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_407",
+            "Name": "Lindsay Thomas",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 315,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 3,
+              "Correct20s": 10,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "We Ain’t Came to Lose",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_382",
+            "Name": "Melissa Ellwein",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "People From the Province of Asia",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_400",
+            "Name": "Noel Siony",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": -20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -10.0,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "People From the Province of Asia",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_399",
+            "Name": "Sarah Lin",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Mother & Brothers",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_444",
+            "Name": "Shaymis Powell",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.3,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Mother & Brothers",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_445",
+            "Name": "Sheldon Powell",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 113.3,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 0,
+              "Correct20s": 7,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "People From the Province of Asia",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_398",
+            "Name": "Shreya Joy",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Why Stare at Us",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_372",
+            "Name": "Solomon Stevens",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 1,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "I Have to do Surgery",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_409",
+            "Name": "Tyler Thomas",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          11,
+          6,
+          5,
+          13,
+          0,
+          3,
+          9,
+          10,
+          2,
+          14,
+          12,
+          7,
+          1,
+          8,
+          4
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "F",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "G",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "H",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "I",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "J",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 4,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "3 of 5 Match(es) Done",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": "3 of 5 Match(es) Done",
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "d161d006-8974-433f-90ab-a86947a9cc7b",
+        "MeetId": 8,
+        "CombinedName": null,
+        "HasLinkedMeets": true,
+        "HasQuestionStats": false,
+        "Name": "Adult - Veteran League B",
+        "LastUpdated": "7/3/25 11:38 PM",
+        "DatabaseLastUpdated": "2025-07-21T06:41:03.4161926+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              2,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "J",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 295,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "H",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "G",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 255,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "F",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "J",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_48",
+            "Name": "9 o’clock in the Morning is Too Early",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 3,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 730,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 243.3,
+              "AverageCorrect": 13.0,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 16,
+              "Correct20s": 19,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              4,
+              13,
+              15
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "G",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "J",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "I",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "F",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_44",
+            "Name": "ABCD’s",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 101.7,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 12,
+              "Correct20s": 8,
+              "Correct30s": 4,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              10,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "I",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "J",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "G",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "H",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "G",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_49",
+            "Name": "Baptized and Still Wet",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 3,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 51.7,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 54,
+              "Correct10s": 5,
+              "Correct20s": 6,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              14,
+              16,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "J",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "F",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "J",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "H",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_41",
+            "Name": "Charlotte’s Team",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 46.7,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 53,
+              "Correct10s": 9,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              3,
+              5,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "I",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "F",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "I",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "J",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "J",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_47",
+            "Name": "Drunk as You Suppose",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 65,
+              "Correct10s": 6,
+              "Correct20s": 5,
+              "Correct30s": 4,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              6,
+              8,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "G",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "H",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "J",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "J",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "G",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_51",
+            "Name": "Household Servants",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 475,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 158.3,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 9,
+              "Correct20s": 15,
+              "Correct30s": 4,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          5,
+          4,
+          1,
+          3,
+          2
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "9 o’clock in the Morning is Too Early",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_426",
+            "Name": "Beth Galliers",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 41.7,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 7,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Baptized and Still Wet",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_436",
+            "Name": "Camden Haney",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 40,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "9 o’clock in the Morning is Too Early",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_427",
+            "Name": "Courtney Walin",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 85.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 6,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Drunk as You Suppose",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_418",
+            "Name": "Danielle Mori",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.3,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "ABCD’s",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_391",
+            "Name": "Gideon Thomas",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Drunk as You Suppose",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_416",
+            "Name": "Heather Cox",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 165,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 3,
+              "Correct20s": 3,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Household Servants",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_454",
+            "Name": "Joe Lemley",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 113.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 1,
+              "Correct20s": 10,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "9 o’clock in the Morning is Too Early",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_425",
+            "Name": "Jon Galliers",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 350,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 116.7,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 3,
+              "Correct20s": 8,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Household Servants",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_452",
+            "Name": "Jonathan Brown",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.3,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 5,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Household Servants",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_453",
+            "Name": "Josh Fuller",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.7,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Baptized and Still Wet",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_434",
+            "Name": "Josi Haugo",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": -25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -8.3,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Drunk as You Suppose",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_417",
+            "Name": "Lucas Cox",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -3.3,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Baptized and Still Wet",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_435",
+            "Name": "Ryan Schiebel",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 60.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 5,
+              "Correct20s": 4,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "ABCD’s",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_390",
+            "Name": "Sam Clinston",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 195,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 3,
+              "Correct20s": 5,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Charlotte’s Team",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_363",
+            "Name": "Sam Klco",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 46,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "ABCD’s",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_389",
+            "Name": "Samuel Jebaraj",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 6,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Charlotte’s Team",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_364",
+            "Name": "Sarah Klco",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": -20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -6.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Charlotte’s Team",
+            "YearsQuizzing": null,
+            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_362",
+            "Name": "Tammy Hoffmann",
+            "ChurchName": ".",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.3,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 5,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          7,
+          6,
+          2,
+          13,
+          12,
+          5,
+          17,
+          0,
+          8,
+          15,
+          3,
+          4,
+          9,
+          14,
+          1,
+          11,
+          16,
+          10
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "3 of 5 Match(es) Done",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "d161d006-8974-433f-90ab-a86947a9cc7b",
         "MeetId": 9,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "Adult Fun League",
+        "Name": "Adult - Fun League",
         "LastUpdated": "7/3/25 11:38 PM",
-        "DatabaseLastUpdated": "2025-07-03T23:01:49.3876302+00:00",
+        "DatabaseLastUpdated": "2025-07-21T06:41:03.4161926+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -18287,2004 +20278,13 @@
       },
       {
         "DatabaseId": "d161d006-8974-433f-90ab-a86947a9cc7b",
-        "MeetId": 10,
-        "CombinedName": "Adult Veteran League B & Adult Veteran League A",
-        "HasLinkedMeets": true,
-        "HasQuestionStats": false,
-        "Name": "Adult Veteran League B",
-        "LastUpdated": "7/3/25 11:38 PM",
-        "DatabaseLastUpdated": "2025-07-03T23:01:49.3876302+00:00",
-        "CompetitionType": "TBQ",
-        "Teams": [
-          {
-            "CoachName": null,
-            "Quizzers": [
-              5,
-              6,
-              14
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "F",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 145,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "G",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 215,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "H",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 205,
-                "OtherTeam": 4
-              },
-              {
-                "Result": null,
-                "RoomId": 4,
-                "Room": "I",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 3
-              },
-              null
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_46",
-            "Name": "I Have to do Surgery",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 2,
-              "Losses": 1,
-              "WinPercentage": 67,
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 565,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 188.3,
-              "AverageCorrect": 10.7,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 15,
-              "Correct20s": 14,
-              "Correct30s": 3,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              3,
-              10,
-              11
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "F",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 165,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "I",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 210,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "F",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 135,
-                "OtherTeam": 3
-              },
-              null,
-              {
-                "Result": null,
-                "RoomId": 3,
-                "Room": "H",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 2
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_50",
-            "Name": "Mother & Brothers",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 3,
-              "Losses": 0,
-              "WinPercentage": 100,
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 510,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 170.0,
-              "AverageCorrect": 9.0,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 10,
-              "Correct20s": 10,
-              "Correct30s": 7,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              8,
-              9,
-              12
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "H",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": -20,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "G",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 0
-              },
-              null,
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "G",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 4
-              },
-              {
-                "Result": null,
-                "RoomId": 3,
-                "Room": "H",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_45",
-            "Name": "People From the Province of Asia",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 0,
-              "Losses": 2,
-              "WinPercentage": 0,
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 50,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 25.0,
-              "AverageCorrect": 4.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 45,
-              "Correct10s": 5,
-              "Correct20s": 3,
-              "Correct30s": 1,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              0,
-              4,
-              7
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "H",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 2
-              },
-              null,
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "F",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 35,
-                "OtherTeam": 1
-              },
-              {
-                "Result": null,
-                "RoomId": 4,
-                "Room": "I",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 0
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "F",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 4
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_43",
-            "Name": "We Ain’t Came to Lose",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 1,
-              "Losses": 1,
-              "WinPercentage": 50,
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 75,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 37.5,
-              "AverageCorrect": 5.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 58,
-              "Correct10s": 7,
-              "Correct20s": 4,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              1,
-              2,
-              13
-            ],
-            "Matches": [
-              null,
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "I",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "H",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 25,
-                "OtherTeam": 0
-              },
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "G",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 2
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "F",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 3
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_42",
-            "Name": "Why Stare at Us",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 0,
-              "Losses": 2,
-              "WinPercentage": 0,
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 155,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 77.5,
-              "AverageCorrect": 7.5,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 54,
-              "Correct10s": 5,
-              "Correct20s": 9,
-              "Correct30s": 1,
-              "FootnoteIndex": 0
-            }
-          }
-        ],
-        "RankedTeams": [
-          1,
-          0,
-          3,
-          4,
-          2
-        ],
-        "TeamFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie couldn't be broken by tie breaking rules."
-          }
-        ],
-        "Quizzers": [
-          {
-            "TeamName": "We Ain’t Came to Lose",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_381",
-            "Name": "Brent Ellwein",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 80,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 40.0,
-              "AverageCorrect": 3.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 5,
-              "Correct20s": 2,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Why Stare at Us",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_373",
-            "Name": "Carolyn Bielby",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 13,
-              "IsTie": false,
-              "TotalPoints": -10,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": -5.0,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 25,
-              "Correct10s": 0,
-              "Correct20s": 2,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Why Stare at Us",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_371",
-            "Name": "Elizabeth Li",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 9,
-              "IsTie": false,
-              "TotalPoints": 35,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 17.5,
-              "AverageCorrect": 2.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 62,
-              "Correct10s": 4,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Mother & Brothers",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_443",
-            "Name": "Jolene Powell",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 115,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 38.3,
-              "AverageCorrect": 2.7,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 89,
-              "Correct10s": 5,
-              "Correct20s": 2,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "We Ain’t Came to Lose",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_380",
-            "Name": "Josh Gallo",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 15,
-              "IsTie": false,
-              "TotalPoints": -25,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": -12.5,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 25,
-              "Correct10s": 0,
-              "Correct20s": 2,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "I Have to do Surgery",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_408",
-            "Name": "Lester Cowan",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 210,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 70.0,
-              "AverageCorrect": 4.7,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 10,
-              "Correct20s": 3,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "I Have to do Surgery",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_407",
-            "Name": "Lindsay Thomas",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 315,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 105.0,
-              "AverageCorrect": 5.0,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 3,
-              "Correct20s": 10,
-              "Correct30s": 2,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "We Ain’t Came to Lose",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_382",
-            "Name": "Melissa Ellwein",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 12,
-              "IsTie": false,
-              "TotalPoints": 20,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 2,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "People From the Province of Asia",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_400",
-            "Name": "Noel Siony",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 14,
-              "IsTie": false,
-              "TotalPoints": -20,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": -10.0,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 33,
-              "Correct10s": 2,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "People From the Province of Asia",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_399",
-            "Name": "Sarah Lin",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 7,
-              "IsTie": false,
-              "TotalPoints": 45,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 22.5,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 60,
-              "Correct10s": 1,
-              "Correct20s": 1,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Mother & Brothers",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_444",
-            "Name": "Shaymis Powell",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 8,
-              "IsTie": false,
-              "TotalPoints": 55,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 18.3,
-              "AverageCorrect": 2.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 75,
-              "Correct10s": 5,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Mother & Brothers",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_445",
-            "Name": "Sheldon Powell",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 340,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 113.3,
-              "AverageCorrect": 4.3,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 81,
-              "Correct10s": 0,
-              "Correct20s": 7,
-              "Correct30s": 6,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "People From the Province of Asia",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_398",
-            "Name": "Shreya Joy",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 11,
-              "IsTie": false,
-              "TotalPoints": 25,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 12.5,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 2,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Why Stare at Us",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_372",
-            "Name": "Solomon Stevens",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 130,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 65.0,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 1,
-              "Correct20s": 6,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "I Have to do Surgery",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_409",
-            "Name": "Tyler Thomas",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 10,
-              "IsTie": false,
-              "TotalPoints": 40,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 13.3,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 2,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          }
-        ],
-        "RankedQuizzers": [
-          11,
-          6,
-          5,
-          13,
-          0,
-          3,
-          9,
-          10,
-          2,
-          14,
-          12,
-          7,
-          1,
-          8,
-          4
-        ],
-        "QuizzerFootnotes": [],
-        "MeetNames": null,
-        "Rooms": [
-          {
-            "Name": "F",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 4,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 0,
-                "Team2": 1,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 4,
-                "State": "NotStarted",
-                "Blockers": null
-              }
-            ]
-          },
-          {
-            "Name": "G",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 5,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 0,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 2,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 5,
-                "Team2": 2,
-                "State": "NotStarted",
-                "Blockers": null
-              }
-            ]
-          },
-          {
-            "Name": "H",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 0,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 3,
-                "Team2": 2,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 2,
-                "State": "NotStarted",
-                "Blockers": null
-              }
-            ]
-          },
-          {
-            "Name": "I",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 4,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 4,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 3,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 1,
-                "Team2": 3,
-                "State": "NotStarted",
-                "Blockers": null
-              }
-            ]
-          },
-          {
-            "Name": "J",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 0,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 1,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 5,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 5,
-                "Team2": 4,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": 5,
-                "Team1": 0,
-                "Team2": 4,
-                "State": "NotStarted",
-                "Blockers": null
-              }
-            ]
-          }
-        ],
-        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
-        "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
-        "QuizzerRankingAwardsLabel": "Excellence",
-        "Matches": [
-          {
-            "Id": 1,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 2,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 3,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 4,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 5,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          }
-        ],
-        "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "3 of 5 Match(es) Done",
-        "HasRoomCompletionMismatchForCombined": false,
-        "HasScoringCompletedForCombined": false,
-        "ScoringProgressMessageForCombined": "3 of 5 Match(es) Done",
-        "ShowYearsQuizzing": false,
-        "IsCombinedReport": false
-      },
-      {
-        "DatabaseId": "d161d006-8974-433f-90ab-a86947a9cc7b",
-        "MeetId": 8,
-        "CombinedName": null,
-        "HasLinkedMeets": true,
-        "HasQuestionStats": false,
-        "Name": "Adult Veteran League A",
-        "LastUpdated": "7/3/25 11:38 PM",
-        "DatabaseLastUpdated": "2025-07-03T23:01:49.3876302+00:00",
-        "CompetitionType": "TBQ",
-        "Teams": [
-          {
-            "CoachName": null,
-            "Quizzers": [
-              0,
-              2,
-              7
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 5,
-                "Room": "J",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 295,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "H",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 180,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "G",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 255,
-                "OtherTeam": 2
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "F",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 1
-              },
-              {
-                "Result": null,
-                "RoomId": 5,
-                "Room": "J",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 4
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_48",
-            "Name": "9 o’clock in the Morning is Too Early",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 3,
-              "Losses": 0,
-              "WinPercentage": 100,
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 730,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 243.3,
-              "AverageCorrect": 13.0,
-              "QuizOuts": 7,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 16,
-              "Correct20s": 19,
-              "Correct30s": 4,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              4,
-              13,
-              15
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "G",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 5,
-                "Room": "J",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 185,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "I",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 4
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "F",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 0
-              },
-              {
-                "Result": null,
-                "RoomId": 4,
-                "Room": "I",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 3
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_44",
-            "Name": "ABCD’s",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 1,
-              "Losses": 2,
-              "WinPercentage": 33,
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 305,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 101.7,
-              "AverageCorrect": 8.0,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 69,
-              "Correct10s": 12,
-              "Correct20s": 8,
-              "Correct30s": 4,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              1,
-              10,
-              12
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "I",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 5,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 5,
-                "Room": "J",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "G",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 0
-              },
-              {
-                "Result": null,
-                "RoomId": 3,
-                "Room": "H",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 3
-              },
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "G",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 5
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_49",
-            "Name": "Baptized and Still Wet",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 0,
-              "Losses": 3,
-              "WinPercentage": 0,
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 155,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 51.7,
-              "AverageCorrect": 4.7,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 54,
-              "Correct10s": 5,
-              "Correct20s": 6,
-              "Correct30s": 3,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              14,
-              16,
-              17
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 5,
-                "Room": "J",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 25,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "F",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 55,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 5,
-                "Room": "J",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 5
-              },
-              {
-                "Result": null,
-                "RoomId": 3,
-                "Room": "H",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 2
-              },
-              {
-                "Result": null,
-                "RoomId": 4,
-                "Room": "I",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_41",
-            "Name": "Charlotte’s Team",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 1,
-              "Losses": 2,
-              "WinPercentage": 33,
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 140,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 46.7,
-              "AverageCorrect": 5.3,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 53,
-              "Correct10s": 9,
-              "Correct20s": 6,
-              "Correct30s": 1,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              3,
-              5,
-              11
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "I",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "F",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "I",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 75,
-                "OtherTeam": 1
-              },
-              {
-                "Result": null,
-                "RoomId": 5,
-                "Room": "J",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 5
-              },
-              {
-                "Result": null,
-                "RoomId": 5,
-                "Room": "J",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 0
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_47",
-            "Name": "Drunk as You Suppose",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 2,
-              "Losses": 1,
-              "WinPercentage": 67,
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 210,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 70.0,
-              "AverageCorrect": 5.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 65,
-              "Correct10s": 6,
-              "Correct20s": 5,
-              "Correct30s": 4,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              6,
-              8,
-              9
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "G",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 160,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "H",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 5,
-                "Room": "J",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 185,
-                "OtherTeam": 3
-              },
-              {
-                "Result": null,
-                "RoomId": 5,
-                "Room": "J",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 4
-              },
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "G",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 2
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d161d006-8974-433f-90ab-a86947a9cc7b_51",
-            "Name": "Household Servants",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 2,
-              "Losses": 1,
-              "WinPercentage": 67,
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 475,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 158.3,
-              "AverageCorrect": 9.3,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 74,
-              "Correct10s": 9,
-              "Correct20s": 15,
-              "Correct30s": 4,
-              "FootnoteIndex": 0
-            }
-          }
-        ],
-        "RankedTeams": [
-          0,
-          5,
-          4,
-          1,
-          3,
-          2
-        ],
-        "TeamFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie couldn't be broken by tie breaking rules."
-          }
-        ],
-        "Quizzers": [
-          {
-            "TeamName": "9 o’clock in the Morning is Too Early",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_426",
-            "Name": "Beth Galliers",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 8,
-              "IsTie": false,
-              "TotalPoints": 125,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 41.7,
-              "AverageCorrect": 3.0,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 7,
-              "Correct20s": 2,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Baptized and Still Wet",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_436",
-            "Name": "Camden Haney",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 15,
-              "IsTie": false,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.7,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 40,
-              "Correct10s": 0,
-              "Correct20s": 2,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "9 o’clock in the Morning is Too Early",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_427",
-            "Name": "Courtney Walin",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 255,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 85.0,
-              "AverageCorrect": 5.0,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 79,
-              "Correct10s": 6,
-              "Correct20s": 9,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Drunk as You Suppose",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_418",
-            "Name": "Danielle Mori",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 11,
-              "IsTie": false,
-              "TotalPoints": 55,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 18.3,
-              "AverageCorrect": 2.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 3,
-              "Correct20s": 2,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "ABCD’s",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_391",
-            "Name": "Gideon Thomas",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 12,
-              "IsTie": false,
-              "TotalPoints": 50,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 16.7,
-              "AverageCorrect": 2.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 60,
-              "Correct10s": 3,
-              "Correct20s": 2,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Drunk as You Suppose",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_416",
-            "Name": "Heather Cox",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 165,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 55.0,
-              "AverageCorrect": 3.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 3,
-              "Correct20s": 3,
-              "Correct30s": 3,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Household Servants",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_454",
-            "Name": "Joe Lemley",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 340,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 113.3,
-              "AverageCorrect": 5.0,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 1,
-              "Correct20s": 10,
-              "Correct30s": 4,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "9 o’clock in the Morning is Too Early",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_425",
-            "Name": "Jon Galliers",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 350,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 116.7,
-              "AverageCorrect": 5.0,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 3,
-              "Correct20s": 8,
-              "Correct30s": 4,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Household Servants",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_452",
-            "Name": "Jonathan Brown",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 9,
-              "IsTie": false,
-              "TotalPoints": 100,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 33.3,
-              "AverageCorrect": 3.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 69,
-              "Correct10s": 5,
-              "Correct20s": 4,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Household Servants",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_453",
-            "Name": "Josh Fuller",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 13,
-              "IsTie": false,
-              "TotalPoints": 35,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 11.7,
-              "AverageCorrect": 1.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 57,
-              "Correct10s": 3,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Baptized and Still Wet",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_434",
-            "Name": "Josi Haugo",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 18,
-              "IsTie": false,
-              "TotalPoints": -25,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": -8.3,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Drunk as You Suppose",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_417",
-            "Name": "Lucas Cox",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 16,
-              "IsTie": false,
-              "TotalPoints": -10,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": -3.3,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Baptized and Still Wet",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_435",
-            "Name": "Ryan Schiebel",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 180,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 60.0,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 71,
-              "Correct10s": 5,
-              "Correct20s": 4,
-              "Correct30s": 3,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "ABCD’s",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_390",
-            "Name": "Sam Clinston",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 195,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 65.0,
-              "AverageCorrect": 3.7,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 73,
-              "Correct10s": 3,
-              "Correct20s": 5,
-              "Correct30s": 3,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Charlotte’s Team",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_363",
-            "Name": "Sam Klco",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 14,
-              "IsTie": false,
-              "TotalPoints": 30,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 2.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 46,
-              "Correct10s": 4,
-              "Correct20s": 2,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "ABCD’s",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_389",
-            "Name": "Samuel Jebaraj",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 10,
-              "IsTie": false,
-              "TotalPoints": 60,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 20.0,
-              "AverageCorrect": 2.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 70,
-              "Correct10s": 6,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Charlotte’s Team",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_364",
-            "Name": "Sarah Klco",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 17,
-              "IsTie": false,
-              "TotalPoints": -20,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": -6.7,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Charlotte’s Team",
-            "YearsQuizzing": null,
-            "Id": "q_d161d006-8974-433f-90ab-a86947a9cc7b_362",
-            "Name": "Tammy Hoffmann",
-            "ChurchName": ".",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 7,
-              "IsTie": false,
-              "TotalPoints": 130,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 43.3,
-              "AverageCorrect": 3.3,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 71,
-              "Correct10s": 5,
-              "Correct20s": 4,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          }
-        ],
-        "RankedQuizzers": [
-          7,
-          6,
-          2,
-          13,
-          12,
-          5,
-          17,
-          0,
-          8,
-          15,
-          3,
-          4,
-          9,
-          14,
-          1,
-          11,
-          16,
-          10
-        ],
-        "QuizzerFootnotes": [],
-        "MeetNames": null,
-        "Rooms": null,
-        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
-        "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
-        "QuizzerRankingAwardsLabel": "Excellence",
-        "Matches": [
-          {
-            "Id": 1,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 2,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 3,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 4,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 5,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          }
-        ],
-        "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "3 of 5 Match(es) Done",
-        "HasRoomCompletionMismatchForCombined": false,
-        "HasScoringCompletedForCombined": false,
-        "ScoringProgressMessageForCombined": null,
-        "ShowYearsQuizzing": false,
-        "IsCombinedReport": false
-      },
-      {
-        "DatabaseId": "d161d006-8974-433f-90ab-a86947a9cc7b",
         "MeetId": 1,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "M-Group A",
+        "Name": "Monday - Group A",
         "LastUpdated": "7/3/25 11:38 PM",
-        "DatabaseLastUpdated": "2025-07-03T23:01:49.3876302+00:00",
+        "DatabaseLastUpdated": "2025-07-21T06:41:03.4161926+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -22042,9 +22042,9 @@
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "M-Group B",
+        "Name": "Monday - Group B",
         "LastUpdated": "7/3/25 11:38 PM",
-        "DatabaseLastUpdated": "2025-07-03T23:01:49.3876302+00:00",
+        "DatabaseLastUpdated": "2025-07-21T06:41:03.4161926+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -23803,9 +23803,9 @@
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "M-Group C",
+        "Name": "Monday - Group C",
         "LastUpdated": "7/3/25 11:38 PM",
-        "DatabaseLastUpdated": "2025-07-03T23:01:49.3876302+00:00",
+        "DatabaseLastUpdated": "2025-07-21T06:41:03.4161926+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -25643,9 +25643,9 @@
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "M-Group D",
+        "Name": "Monday - Group D",
         "LastUpdated": "7/3/25 11:38 PM",
-        "DatabaseLastUpdated": "2025-07-03T23:01:49.3876302+00:00",
+        "DatabaseLastUpdated": "2025-07-21T06:41:03.4161926+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -27318,9 +27318,9 @@
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "M-Group E",
+        "Name": "Monday - Group E",
         "LastUpdated": "7/3/25 11:38 PM",
-        "DatabaseLastUpdated": "2025-07-03T23:01:49.3876302+00:00",
+        "DatabaseLastUpdated": "2025-07-21T06:41:03.4161926+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -29205,5 +29205,5 @@
       }
     }
   ],
-  "Freshness": "2025-07-08T23:47:13.7216665+00:00"
+  "Freshness": "2025-07-21T06:41:03.7009788+00:00"
 }
