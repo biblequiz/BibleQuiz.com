@@ -3,16 +3,18 @@ import FontAwesomeIcon from "@components/FontAwesomeIcon";
 interface Props {
     pageId: string;
     icon?: string;
+    iconChildren?: React.ReactNode;
     title: string;
     titleClass?: string;
     subtitle?: string;
     subtitleClass?: string;
+    titleChildren?: React.ReactNode;
     isPrinting?: boolean;
     printSectionIndex?: number;
     children?: React.ReactNode;
 };
 
-export default function CollapsibleSection({ pageId, icon, title, titleClass, subtitle, subtitleClass, isPrinting, printSectionIndex, children }: Props) {
+export default function CollapsibleSection({ pageId, icon, iconChildren,title, titleClass, subtitle, subtitleClass, titleChildren, isPrinting, printSectionIndex, children }: Props) {
 
     const titleElement = (
         <>
@@ -21,9 +23,11 @@ export default function CollapsibleSection({ pageId, icon, title, titleClass, su
             )}
             <p className={`font-semibold mb-0 ${titleClass || "text-base"}`}>
                 {icon && (<><FontAwesomeIcon icon={icon} />&nbsp;</>)}
+                {iconChildren}
                 {title}
             </p>
             {subtitle && <div className={`${subtitleClass || "subtitle italic text-sm"} mt-0`}>{subtitle}</div>}
+            {titleChildren}
         </>);
 
     if (isPrinting) {

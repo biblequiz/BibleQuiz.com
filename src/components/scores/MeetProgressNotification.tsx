@@ -1,31 +1,79 @@
 import { ScoringReportMeet } from "@types/EventScoringReport";
+import FontAwesomeIcon from "../FontAwesomeIcon";
 
 interface Props {
     meet: ScoringReportMeet;
+    showCombinedState?: boolean;
+    noAlert?: boolean;
+    hideIcon?: boolean;
+    hideText?: boolean;
 }
 
-export default function MeetProgressNotification({ meet }: Props) {
+function getAlertInfo(
+    meet: ScoringReportMeet,
+    showCombinedState: boolean | undefined): { icon: string | null, alertClassName: string | null, message: string } | null {
 
-    if (!meet.RankedTeams || !meet.ScoringProgressMessage) {
+    const progressMessage = showCombinedState && meet.CombinedName
+        ? meet.ScoringProgressMessageForCombined
+        : meet.ScoringProgressMessage;
+
+    if (!meet.RankedTeams || !progressMessage || progressMessage.length === 0) {
         return null;
     }
 
-    if (meet.HasScoringCompleted) {
-        return (
-            <div role="alert" className="alert alert-success">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>{meet.ScoringProgressMessage}</span>
-            </div>);
+    const hasScoringCompleted = showCombinedState && meet.CombinedName
+        ? meet.HasScoringCompletedForCombined
+        : meet.HasScoringCompleted;
+    const hasRoomCompletionMismatch = showCombinedState && meet.CombinedName
+        ? meet.HasRoomCompletionMismatchForCombined
+        : meet.HasRoomCompletionMismatch;
+
+    if (hasScoringCompleted || !hasRoomCompletionMismatch) {
+        return {
+            message: progressMessage,
+            icon: "far faCheckCircle",
+            alertClassName: "alert alert-success hide-on-print"
+        };
     }
-    else if (meet.HasRoomCompletionMismatch) {
-        return (<div role="alert" className="alert alert-warning">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-            </svg>
-            <span>{meet.ScoringProgressMessage}</span>
-          </div>);
+    else if (hasRoomCompletionMismatch) {
+        return {
+            message: progressMessage,
+            icon: "fas faTriangleExclamation",
+            alertClassName: "alert alert-warning hide-on-print"
+        };
+    }
+
+    return null;
+}
+
+export function hasMeetNotification(meet: ScoringReportMeet, showCombinedState: boolean): boolean {
+    return getAlertInfo(meet, showCombinedState) !== null;
+}
+
+export default function MeetProgressNotification({ meet, showCombinedState, noAlert, hideIcon, hideText }: Props) {
+
+    const alertInfo = getAlertInfo(meet, showCombinedState);
+    if (!alertInfo) {
+        return null;
+    }
+
+    const { icon, alertClassName } = alertInfo;
+    if (alertClassName) {
+
+        const alertContents = (
+            <>
+                {!hideIcon && icon && (<FontAwesomeIcon icon={icon} classNames={["text-xl"]} />)}
+                {noAlert && <span>&nbsp;</span>}
+                {!hideText && (<span>{alertInfo.message}</span>)}
+            </>);
+        if (noAlert) {
+            return alertContents;
+        }
+
+        return (
+            <div role="alert" className={alertClassName}>
+                {alertContents}
+            </div>);
     }
 
     return null;

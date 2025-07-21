@@ -57,6 +57,8 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                 return (
                     <CollapsableMeetSection
                         meet={meet}
+                        showCombinedName={false}
+                        showMeetStatus={false}
                         pageId="schedulegrid"
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}

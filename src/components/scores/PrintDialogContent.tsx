@@ -110,7 +110,8 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
                     className="checkbox checkbox-sm checkbox-info"
                     checked={isChecked}
                     onChange={(e) => handleMeetSelectionChange(meet.databaseId, meet.meetId, e.target.checked)} />
-                <FontAwesomeIcon icon={meet.isCombinedReport ? "fas faBook" : "fas faFutbol"} />&nbsp;{meet.label}
+                {meet.IsCombinedReport && (<><FontAwesomeIcon icon="fas faBook" />&nbsp;</>)}
+                {meet.label}
             </label>);
     });
 
