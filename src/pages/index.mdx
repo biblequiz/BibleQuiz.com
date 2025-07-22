@@ -1,11 +1,11 @@
 ---
 title: "Home Page"
-layout: '@astrojs/starlight/components/StarlightPage.astro'
+layout: "@astrojs/starlight/components/StarlightPage.astro"
 template: splash
 ---
 
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
-import { marked } from 'marked';
+import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
+import { marked } from "marked";
 
 <CardGrid>
     
@@ -14,32 +14,42 @@ import { marked } from 'marked';
         description="Register and see scores for any upcoming Junior or Teen Bible Quiz events."
         href="/upcoming-events/" />
 
-[//]: # (    <LinkCard )
-[//]: # (        title="TBQ National Finals")
-[//]: # (        description="All the information for TBQ National Finals in Tuscon, AZ.")
-[//]: # (        href="/tbq/seasons/2026/nationals/" />)
+[//]: # "    <LinkCard "
+[//]: # '        title="TBQ National Finals"'
+[//]: # '        description="All the information for TBQ National Finals in Tuscon, AZ."'
+[//]: # '        href="/tbq/seasons/2026/nationals/" />'
+
 </CardGrid>
 
-[//]: # (Since Nationals is only on the home page for a short period of time. If there was a single CardGrid, then)
-[//]: # (JBQ would jump up to the first line when Nationals is removed. By keeping them separate, JBQ and TBQ are aligned)
-[//]: # (on Desktop machines.)
+[//]: # "Since Nationals is only on the home page for a short period of time. If there was a single CardGrid, then"
+[//]: # "JBQ would jump up to the first line when Nationals is removed. By keeping them separate, JBQ and TBQ are aligned"
+[//]: # "on Desktop machines."
 
 <CardGrid>
     <LinkCard
         title="Junior Bible Quiz (JBQ)"
         href="/jbq"
-        description={marked(`
+        description={`
+        <div class="flex items-start gap-4">
+            <img src="/assets/logos/jbq/jbq-logo.png" alt="JBQ Logo" class="w-20 h-20 flex-shrink-0 mt-6" />
+            <div>${marked(`
 An exciting way to teach kids using games with questions and answers about the Bible using 576 questions
 teaching about the Bible covering Genesis to Revelation from the Bible Fact-Pak. Grades 1 - 6 can compete,
-but many districts allow younger kids to join.`)} />
+but many districts allow younger kids to join.`)}</div>
+        </div>`} />
 
     <LinkCard
-        title="Teen Bible Quiz (JBQ)"
+        title="Teen Bible Quiz (TBQ)"
         href="/tbq"
-        description={marked(`
+        description={`
+        <div class="flex items-start gap-4">
+            <img src="/assets/logos/tbq/tbq-logo.png" alt="TBQ Logo" class="w-20 h-20 flex-shrink-0 mt-6" />
+            <div>${marked(`
+
 Discipleship ministry geared for grades 6 - 12 memorizing different book(s) of the New Testament each year. Competitions
 are happening across the nation at tournaments, league, district, regional, and national level events. Each year, thousands
 of dollars in scholarships are awarded to students for their hard work. If you love God, enjoy the thrill of competition, and
-want to have fun, then TBQ is for you!`)} />
+want to have fun, then TBQ is for you!`)}</div>
+        </div>`} />
 
 </CardGrid>
