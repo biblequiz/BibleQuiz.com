@@ -28,6 +28,16 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
             return null;
         }
 
+        if (eventFilters?.searchText) {
+            const searchText = eventFilters.searchText.toLocaleLowerCase();
+            
+            if (!event.name.toLocaleLowerCase().includes(searchText) &&
+                !event.locationName?.toLocaleLowerCase().includes(searchText) &&
+                !event.locationCity?.toLocaleLowerCase().includes(searchText)) {
+                return null;
+            }
+        }
+
         switch (event.scope) {
             case "nation":
                 if (eventFilters && !eventFilters.showNation) {
