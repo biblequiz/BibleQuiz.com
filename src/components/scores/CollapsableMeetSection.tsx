@@ -3,6 +3,13 @@ import MeetProgressNotification, { hasMeetNotification } from "./MeetProgressNot
 import { ScoringReportMeet } from "@types/EventScoringReport";
 import { formatLastUpdated } from "@utils/Scores";
 
+interface SectionBadge {
+    id?: string;
+    className: string;
+    icon?: string;
+    text: string;
+}
+
 interface Props {
     meet: ScoringReportMeet;
     showCombinedName: boolean;
@@ -13,9 +20,10 @@ interface Props {
     printSectionIndex?: number;
     forceOpen?: boolean;
     children?: React.ReactNode;
+    badges?: SectionBadge[];
 };
 
-export default function CollapsableMeetSection({ pageId, elementId, meet, showCombinedName, showMeetStatus, isPrinting, printSectionIndex, forceOpen, children }: Props) {
+export default function CollapsableMeetSection({ pageId, elementId, meet, showCombinedName, showMeetStatus, isPrinting, printSectionIndex, forceOpen, children, badges }: Props) {
 
     const icon = meet.IsCombinedReport
         ? "fas faBook"
@@ -47,6 +55,7 @@ export default function CollapsableMeetSection({ pageId, elementId, meet, showCo
             titleChildren={titleChildren}
             isPrinting={isPrinting}
             printSectionIndex={printSectionIndex}
+            badges={badges}
             forceOpen={forceOpen}>
             {children}
         </CollapsibleSection>);

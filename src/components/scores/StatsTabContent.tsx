@@ -72,8 +72,146 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                 const forceOpen = eventFilters?.openMeetDatabaseId === meet.DatabaseId &&
                     eventFilters.openMeetMeetId === meet.MeetId;
 
-                let hasAnyTeams = false;
-                let hasAnyQuizzers = false;
+                let teamCount = 0;
+                let quizzerCount = 0;
+
+                const rankedTeams = hasRankedTeams
+                    ? meet.RankedTeams.map((teamId: number) => {
+                        const team = meet.Teams[teamId];
+
+                        let highlightColor: string = "";
+                        if (!isPrinting) {
+                            const isFavorite = favorites.teamIds.has(team.Id);
+                            if (eventFilters?.highlightTeamId === team.Id) {
+                                highlightColor = "bg-yellow-200";
+                            }
+                            else if (isFavorite) {
+                                highlightColor = "bg-accent-100";
+                            }
+
+                            if (showOnlyFavorites && !isFavorite) {
+                                return null;
+                            }
+                        }
+
+                        teamCount++;
+
+                        if (team.Scores.FootnoteIndex == null && team.Scores.IsTie) {
+                            hasTeamTie = true;
+                        }
+
+                        return (
+                            <tr
+                                className={`hover:bg-base-300 ${highlightColor}`}
+                                id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
+                                key={`team_${meet.DatabaseId}_${meet.MeetId}_${teamId}`}>
+                                <th className="text-right">
+                                    {team.Scores.FootnoteIndex != null && (
+                                        <b>
+                                            {meet.TeamFootnotes[team.Scores.FootnoteIndex].Symbol}{team.Scores.Rank}
+                                        </b>)}
+                                    {team.Scores.FootnoteIndex == null && team.Scores.IsTie && (
+                                        <b>
+                                            {team.Scores.Rank}
+                                        </b>)}
+                                    {team.Scores.FootnoteIndex == null && !team.Scores.IsTie && (
+                                        <span>{team.Scores.Rank}</span>)}
+                                </th>
+                                <th className="pl-0">
+                                    <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} showText={false} />&nbsp;
+                                    {team.Name}<br />
+                                    <span className="font-normal italic">{team.ChurchName}</span>
+                                </th>
+                                <td className="text-right">{team.Scores.Wins}</td>
+                                <td className="text-right">{team.Scores.Losses}</td>
+                                <td className="text-right">{team.Scores.WinPercentage}%</td>
+                                <td className="text-right">{team.Scores.TotalPoints}</td>
+                                <td className="text-right">{team.Scores.AveragePoints ? team.Scores.AveragePoints : (<>&nbsp;</>)}</td>
+                                <td className="text-right">{team.Scores.QuizOuts ? team.Scores.QuizOuts : (<>&nbsp;</>)}</td>
+                                <td className="text-right">{team.Scores.QuestionCorrectPercentage ? (<span>{team.Scores.QuestionCorrectPercentage}%</span>) : (<>&nbsp;</>)}</td>
+                                <td className="text-right">{team.Scores.Correct30s ? team.Scores.Correct30s : (<>&nbsp;</>)}</td>
+                                <td className="text-right">{team.Scores.Correct20s ? team.Scores.Correct20s : (<>&nbsp;</>)}</td>
+                                <td className="text-right">{team.Scores.Correct10s ? team.Scores.Correct10s : (<>&nbsp;</>)}</td>
+                            </tr>);
+                    })
+                    : null;
+
+                const rankedQuizzers = hasRankedQuizzers
+                    ? meet.RankedQuizzers.map((quizzerId: number) => {
+                        const quizzer = meet.Quizzers[quizzerId];
+
+                        let highlightColor: string = "";
+                        if (!isPrinting) {
+                            const isFavorite = favorites.quizzerIds.has(quizzer.Id);
+                            if (eventFilters?.highlightQuizzerId === quizzer.Id) {
+                                highlightColor = "bg-yellow-200";
+                            }
+                            else if (isFavorite) {
+                                highlightColor = "bg-accent-100";
+                            }
+
+                            if (showOnlyFavorites && !isFavorite) {
+                                return null;
+                            }
+                        }
+
+                        quizzerCount++;
+
+                        if (quizzer.Scores.FootnoteIndex == null && quizzer.Scores.IsTie) {
+                            hasQuizzerTie = true;
+                        }
+
+                        return (
+                            <tr
+                                className={`hover:bg-base-300 ${highlightColor}`}
+                                id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
+                                key={`quizzer_${meet.DatabaseId}_${meet.MeetId}_${quizzerId}`}>
+                                <th className="text-right">
+                                    {quizzer.Scores.FootnoteIndex != null && (
+                                        <b>
+                                            {meet.QuizzerFootnotes[quizzer.Scores.FootnoteIndex].Symbol}{quizzer.Scores.Rank}
+                                        </b>)}
+                                    {quizzer.Scores.FootnoteIndex == null && quizzer.Scores.IsTie && (
+                                        <b>
+                                            {quizzer.Scores.Rank}
+                                        </b>)}
+                                    {quizzer.Scores.FootnoteIndex == null && !quizzer.Scores.IsTie && (
+                                        <span>{quizzer.Scores.Rank}</span>)}
+                                </th>
+                                <th className="pl-0">
+                                    <ToggleTeamOrQuizzerFavoriteButton type="quizzer" id={quizzer.Id} showText={false} />&nbsp;
+                                    {quizzer.Name}
+                                </th>
+                                <td>
+                                    {quizzer.TeamName}<br />
+                                    <span className="font-normal italic">{quizzer.ChurchName}</span>
+                                </td>
+                                {meet.ShowYearsQuizzing && (
+                                    <td className="text-right">
+                                        {quizzer.YearsQuizzing == null ? (<>&nbsp;</>) : quizzer.YearsQuizzing}
+                                    </td>)}
+                                <td className="text-right">{quizzer.Scores.TotalPoints}</td>
+                                <td className="text-right">{quizzer.Scores.AveragePoints ? quizzer.Scores.AveragePoints : (<>&nbsp;</>)}</td>
+                                <td className="text-right">{quizzer.Scores.QuizOuts ? quizzer.Scores.QuizOuts : (<>&nbsp;</>)}</td>
+                                <td className="text-right">{quizzer.Scores.QuestionCorrectPercentage ? (<span>{quizzer.Scores.QuestionCorrectPercentage}%</span>) : (<>&nbsp;</>)}</td>
+                                <td className="text-right">{quizzer.Scores.Correct30s ? quizzer.Scores.Correct30s : (<>&nbsp;</>)}</td>
+                                <td className="text-right">{quizzer.Scores.Correct20s ? quizzer.Scores.Correct20s : (<>&nbsp;</>)}</td>
+                                <td className="text-right">{quizzer.Scores.Correct10s ? quizzer.Scores.Correct10s : (<>&nbsp;</>)}</td>
+                            </tr>);
+                    })
+                    : null;
+
+                const sectionBadges = [
+                    {
+                        className: "badge-lg badge-soft badge-primary",
+                        icon: "fas faPeopleGroup",
+                        text: teamCount.toString()
+                    },
+                    {
+                        className: "badge-lg badge-info",
+                        icon: "fas faPerson",
+                        text: quizzerCount.toString()
+                    }];
 
                 return (
                     <CollapsableMeetSection
@@ -84,9 +222,10 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}
                         forceOpen={forceOpen}
+                        badges={sectionBadges}
                         key={`stats_${meet.DatabaseId}_${meet.MeetId}`}>
 
-                        {hasRankedTeams && (
+                        {rankedTeams && (
                             <div>
                                 <MeetProgressNotification meet={meet} />
                                 <p className="text-lg"><b>Teams</b></p>
@@ -108,65 +247,8 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {meet.RankedTeams.map((teamId: number) => {
-                                            const team = meet.Teams[teamId];
-
-                                            let highlightColor: string = "";
-                                            if (!isPrinting) {
-                                                const isFavorite = favorites.teamIds.has(team.Id);
-                                                if (eventFilters?.highlightTeamId === team.Id) {
-                                                    highlightColor = "bg-yellow-200";
-                                                }
-                                                else if (isFavorite) {
-                                                    highlightColor = "bg-accent-100";
-                                                }
-
-                                                if (showOnlyFavorites && !isFavorite) {
-                                                    return null;
-                                                }
-                                            }
-
-                                            hasAnyTeams = true;
-
-                                            if (team.Scores.FootnoteIndex == null && team.Scores.IsTie) {
-                                                hasTeamTie = true;
-                                            }
-
-                                            return (
-                                                <tr
-                                                    className={`hover:bg-base-300 ${highlightColor}`}
-                                                    id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
-                                                    key={`team_${meet.DatabaseId}_${meet.MeetId}_${teamId}`}>
-                                                    <th className="text-right">
-                                                        {team.Scores.FootnoteIndex != null && (
-                                                            <b>
-                                                                {meet.TeamFootnotes[team.Scores.FootnoteIndex].Symbol}{team.Scores.Rank}
-                                                            </b>)}
-                                                        {team.Scores.FootnoteIndex == null && team.Scores.IsTie && (
-                                                            <b>
-                                                                {team.Scores.Rank}
-                                                            </b>)}
-                                                        {team.Scores.FootnoteIndex == null && !team.Scores.IsTie && (
-                                                            <span>{team.Scores.Rank}</span>)}
-                                                    </th>
-                                                    <th className="pl-0">
-                                                        <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} showText={false} />&nbsp;
-                                                        {team.Name}<br />
-                                                        <span className="font-normal italic">{team.ChurchName}</span>
-                                                    </th>
-                                                    <td className="text-right">{team.Scores.Wins}</td>
-                                                    <td className="text-right">{team.Scores.Losses}</td>
-                                                    <td className="text-right">{team.Scores.WinPercentage}%</td>
-                                                    <td className="text-right">{team.Scores.TotalPoints}</td>
-                                                    <td className="text-right">{team.Scores.AveragePoints ? team.Scores.AveragePoints : (<>&nbsp;</>)}</td>
-                                                    <td className="text-right">{team.Scores.QuizOuts ? team.Scores.QuizOuts : (<>&nbsp;</>)}</td>
-                                                    <td className="text-right">{team.Scores.QuestionCorrectPercentage ? (<span>{team.Scores.QuestionCorrectPercentage}%</span>) : (<>&nbsp;</>)}</td>
-                                                    <td className="text-right">{team.Scores.Correct30s ? team.Scores.Correct30s : (<>&nbsp;</>)}</td>
-                                                    <td className="text-right">{team.Scores.Correct20s ? team.Scores.Correct20s : (<>&nbsp;</>)}</td>
-                                                    <td className="text-right">{team.Scores.Correct10s ? team.Scores.Correct10s : (<>&nbsp;</>)}</td>
-                                                </tr>);
-                                        })}
-                                        {!hasAnyTeams && (
+                                        {rankedTeams}
+                                        {teamCount === 0 && (
                                             <tr>
                                                 <td colSpan={12} className="text-center">No favorite teams found.</td>
                                             </tr>
@@ -196,69 +278,8 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {meet.RankedQuizzers.map((quizzerId: number) => {
-                                            const quizzer = meet.Quizzers[quizzerId];
-
-                                            let highlightColor: string = "";
-                                            if (!isPrinting) {
-                                                const isFavorite = favorites.quizzerIds.has(quizzer.Id);
-                                                if (eventFilters?.highlightQuizzerId === quizzer.Id) {
-                                                    highlightColor = "bg-yellow-200";
-                                                }
-                                                else if (isFavorite) {
-                                                    highlightColor = "bg-accent-100";
-                                                }
-
-                                                if (showOnlyFavorites && !isFavorite) {
-                                                    return null;
-                                                }
-                                            }
-
-                                            hasAnyQuizzers = true;
-
-                                            if (quizzer.Scores.FootnoteIndex == null && quizzer.Scores.IsTie) {
-                                                hasQuizzerTie = true;
-                                            }
-
-                                            return (
-                                                <tr
-                                                    className={`hover:bg-base-300 ${highlightColor}`}
-                                                    id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
-                                                    key={`quizzer_${meet.DatabaseId}_${meet.MeetId}_${quizzerId}`}>
-                                                    <th className="text-right">
-                                                        {quizzer.Scores.FootnoteIndex != null && (
-                                                            <b>
-                                                                {meet.QuizzerFootnotes[quizzer.Scores.FootnoteIndex].Symbol}{quizzer.Scores.Rank}
-                                                            </b>)}
-                                                        {quizzer.Scores.FootnoteIndex == null && quizzer.Scores.IsTie && (
-                                                            <b>
-                                                                {quizzer.Scores.Rank}
-                                                            </b>)}
-                                                        {quizzer.Scores.FootnoteIndex == null && !quizzer.Scores.IsTie && (
-                                                            <span>{quizzer.Scores.Rank}</span>)}
-                                                    </th>
-                                                    <th className="pl-0">
-                                                        <ToggleTeamOrQuizzerFavoriteButton type="quizzer" id={quizzer.Id} showText={false} />&nbsp;
-                                                        {quizzer.Name}
-                                                    </th>
-                                                    <td>
-                                                        {quizzer.TeamName}<br />
-                                                        <span className="font-normal italic">{quizzer.ChurchName}</span>
-                                                    </td>
-                                                    {meet.ShowYearsQuizzing && (
-                                                        <td className="text-right">
-                                                            {quizzer.YearsQuizzing == null ? (<>&nbsp;</>) : quizzer.YearsQuizzing}
-                                                        </td>)}
-                                                    <td className="text-right">{quizzer.Scores.TotalPoints}</td>
-                                                    <td className="text-right">{quizzer.Scores.AveragePoints ? quizzer.Scores.AveragePoints : (<>&nbsp;</>)}</td>
-                                                    <td className="text-right">{quizzer.Scores.QuizOuts ? quizzer.Scores.QuizOuts : (<>&nbsp;</>)}</td>
-                                                    <td className="text-right">{quizzer.Scores.QuestionCorrectPercentage ? (<span>{quizzer.Scores.QuestionCorrectPercentage}%</span>) : (<>&nbsp;</>)}</td>
-                                                    <td className="text-right">{quizzer.Scores.Correct30s ? quizzer.Scores.Correct30s : (<>&nbsp;</>)}</td>
-                                                    <td className="text-right">{quizzer.Scores.Correct20s ? quizzer.Scores.Correct20s : (<>&nbsp;</>)}</td>
-                                                    <td className="text-right">{quizzer.Scores.Correct10s ? quizzer.Scores.Correct10s : (<>&nbsp;</>)}</td>
-                                                </tr>);
-                                        })}
-                                        {!hasAnyTeams && (
+                                        {rankedQuizzers}
+                                        {quizzerCount === 0 && (
                                             <tr>
                                                 <td colSpan={12} className="text-center">No favorite quizzers found.</td>
                                             </tr>

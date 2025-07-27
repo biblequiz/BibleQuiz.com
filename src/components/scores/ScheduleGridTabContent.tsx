@@ -76,7 +76,108 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                 const forceOpen = eventFilters?.openMeetDatabaseId === meet.DatabaseId &&
                     eventFilters.openMeetMeetId === meet.MeetId;
 
-                let hasAnyTeams = false;
+                let teamRowCount = 0;
+
+                const teamRows = teams.map((teamId: ScoringReportTeam | number, teamIndex: number) => {
+                    const team = hasRankedTeams
+                        ? meet.Teams[teamId as number]
+                        : teamId as ScoringReportTeam;
+
+                    let highlightColor: string = "";
+                    if (!isPrinting) {
+                        const isFavorite = favorites.teamIds.has(team.Id);
+                        if (eventFilters?.highlightTeamId === team.Id) {
+                            highlightColor = "bg-yellow-200";
+                        }
+                        else if (isFavorite) {
+                            highlightColor = "bg-accent-100";
+                        }
+
+                        if (showOnlyFavorites && !isFavorite) {
+                            return null;
+                        }
+                    }
+
+                    teamRowCount++;
+
+                    return (
+                        <tr
+                            key={`${key}_teams_${teamIndex}`}
+                            id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
+                            className={`hover:bg-base-300 ${highlightColor}`}>
+                            {hasRankedTeams && (
+                                <td className="text-right">
+                                    {team.Scores.Rank}{team.Scores.IsTie ? '*' : ''}
+                                </td>)}
+                            <td className="pl-0">
+                                <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} showText={false} /> {team.Name}
+                            </td>
+                            {hasRankedTeams && (
+                                <>
+                                    <td className="text-right">{team.Scores.Wins}</td>
+                                    <td className="text-right">{team.Scores.Losses}</td>
+                                    <td className="text-right">{team.Scores.TotalPoints}</td>
+                                    <td className="text-right">{team.Scores.AveragePoints}</td>
+                                </>)}
+                            {team.Matches.map((match: ScoringReportTeamMatch, matchIndex: number) => {
+                                const matchKey = `${key}_teams_${teamIndex}match_${teamIndex}_matches_${matchIndex}`;
+                                if (null == match) {
+                                    return (<td key={matchKey}>--</td>);
+                                }
+
+                                const isLiveMatch = null != match.CurrentQuestion;
+
+                                const resolvedMeet = !meet.HasLinkedMeets || null == match.LinkedMeet
+                                    ? meet
+                                    : event.Report.Meets[match.LinkedMeet];
+
+                                const resolvedMatch = resolvedMeet.Matches[matchIndex];
+
+                                let badgeClass: string;
+                                switch (match.Result) {
+                                    case "W":
+                                        badgeClass = "badge-outline badge-primary";
+                                        break;
+                                    case "L":
+                                        badgeClass = "badge-error";
+                                        break;
+                                    default:
+                                        badgeClass = "badge-ghost";
+                                        break;
+                                }
+
+                                return (
+                                    <td className="text-center" key={matchKey}>
+                                        {!isLiveMatch && match.Score == null && (<span>{match.Room}</span>)}
+                                        {(isLiveMatch || match.Score != null) && (
+                                            <RoomLink id={matchKey} label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
+                                                {match.Room}
+                                                {isLiveMatch && (
+                                                    <>
+                                                        <br />
+                                                        <span className="italic">#{match.CurrentQuestion}</span>
+                                                    </>)}
+                                                {!isLiveMatch && hasRankedTeams && match.Score != null && (
+                                                    <>
+                                                        <br />
+                                                        <span className={`badge badge-xs ${badgeClass}`}>
+                                                            {match.Score}
+                                                        </span>
+                                                    </>
+                                                )}
+                                            </RoomLink>)}
+                                    </td>
+                                )
+                            })}
+                        </tr>);
+                });
+
+                const sectionBadges = [
+                    {
+                        className: "badge-lg badge-soft badge-primary",
+                        icon: "fas faPeopleGroup",
+                        text: teamRowCount.toString()
+                    }];
 
                 return (
                     <CollapsableMeetSection
@@ -87,6 +188,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}
                         forceOpen={forceOpen}
+                        badges={sectionBadges}
                         key={key}>
 
                         <table className="table table-s table-nowrap">
@@ -108,106 +210,13 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                 </tr>
                             </thead>
                             <tbody>
-                                {teams.map((teamId: ScoringReportTeam | number, teamIndex: number) => {
-                                    const team = hasRankedTeams
-                                        ? meet.Teams[teamId as number]
-                                        : teamId as ScoringReportTeam;
-
-                                    let highlightColor: string = "";
-                                    if (!isPrinting) {
-                                        const isFavorite = favorites.teamIds.has(team.Id);
-                                        if (eventFilters?.highlightTeamId === team.Id) {
-                                            highlightColor = "bg-yellow-200";
-                                        }
-                                        else if (isFavorite) {
-                                            highlightColor = "bg-accent-100";
-                                        }
-
-                                        if (showOnlyFavorites && !isFavorite) {
-                                            return null;
-                                        }
-                                    }
-
-                                    hasAnyTeams = true;
-
-                                    return (
-                                        <tr
-                                            key={`${key}_teams_${teamIndex}`}
-                                            id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
-                                            className={`hover:bg-base-300 ${highlightColor}`}>
-                                            {hasRankedTeams && (
-                                                <td className="text-right">
-                                                    {team.Scores.Rank}{team.Scores.IsTie ? '*' : ''}
-                                                </td>)}
-                                            <td className="pl-0">
-                                                <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} showText={false} /> {team.Name}
-                                            </td>
-                                            {hasRankedTeams && (
-                                                <>
-                                                    <td className="text-right">{team.Scores.Wins}</td>
-                                                    <td className="text-right">{team.Scores.Losses}</td>
-                                                    <td className="text-right">{team.Scores.TotalPoints}</td>
-                                                    <td className="text-right">{team.Scores.AveragePoints}</td>
-                                                </>)}
-                                            {team.Matches.map((match: ScoringReportTeamMatch, matchIndex: number) => {
-                                                const matchKey = `${key}_teams_${teamIndex}match_${teamIndex}_matches_${matchIndex}`;
-                                                if (null == match) {
-                                                    return (<td key={matchKey}>--</td>);
-                                                }
-
-                                                const isLiveMatch = null != match.CurrentQuestion;
-
-                                                const resolvedMeet = !meet.HasLinkedMeets || null == match.LinkedMeet
-                                                    ? meet
-                                                    : event.Report.Meets[match.LinkedMeet];
-
-                                                const resolvedMatch = resolvedMeet.Matches[matchIndex];
-
-                                                let badgeClass: string;
-                                                switch (match.Result) {
-                                                    case "W":
-                                                        badgeClass = "badge-outline badge-primary";
-                                                        break;
-                                                    case "L":
-                                                        badgeClass = "badge-error";
-                                                        break;
-                                                    default:
-                                                        badgeClass = "badge-ghost";
-                                                        break;
-                                                }
-
-                                                return (
-                                                    <td className="text-center" key={matchKey}>
-                                                        {!isLiveMatch && match.Score == null && (<span>{match.Room}</span>)}
-                                                        {(isLiveMatch || match.Score != null) && (
-                                                            <RoomLink id={matchKey} label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
-                                                                {match.Room}
-                                                                {isLiveMatch && (
-                                                                    <>
-                                                                        <br />
-                                                                        <span className="italic">#{match.CurrentQuestion}</span>
-                                                                    </>)}
-                                                                {!isLiveMatch && hasRankedTeams && match.Score != null && (
-                                                                    <>
-                                                                        <br />
-                                                                        <span className={`badge badge-xs ${badgeClass}`}>
-                                                                            {match.Score}
-                                                                        </span>
-                                                                    </>
-                                                                )}
-                                                            </RoomLink>)}
-                                                    </td>
-                                                )
-                                            })}
-                                        </tr>);
-                                })}
-                                {!hasAnyTeams && (
+                                {teamRows}
+                                {teamRowCount === 0 && (
                                     <tr>
                                         <td colSpan={footerColSpan + meet.Matches.length} className="text-center text-sm italic">
                                             No favorite teams found.
                                         </td>
-                                    </tr>
-                                )}
+                                    </tr>)}
                             </tbody>
                             {hasAnyMatchTimes && (
                                 <tfoot>
@@ -220,7 +229,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                     </tr>
                                 </tfoot>)}
                         </table>
-                        {hasAnyTeams && (
+                        {teamRowCount === 0 && (
                             <table className="table table-s table-nowrap page-break-before">
                                 <thead>
                                     <tr>

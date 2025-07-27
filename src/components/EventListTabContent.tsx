@@ -71,8 +71,6 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
                 break;
         }
 
-        eventCount++;
-
         let showRegistration: boolean = false;
         if (event.registrationEndDate &&
             Date.parse(event.registrationEndDate) >= today.getTime()) {
@@ -113,6 +111,8 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
                 locationLabel = event.locationCity;
             }
         }
+
+        eventCount++;
 
         return (
             <tr key={`eventrow_${event.id}`}>
@@ -155,6 +155,13 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
             </thead>
             <tbody>
                 {eventRows}
+                {eventCount === 0 && (
+                    <tr>
+                        <td colSpan={3} className="text-center italic">
+                            No events found matching the current filters.
+                        </td>
+                    </tr>
+                )}
             </tbody>
         </table>);
 }

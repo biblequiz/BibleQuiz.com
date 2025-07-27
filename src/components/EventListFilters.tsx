@@ -112,9 +112,10 @@ export default function EventListFilters({ regions, districts }: Props) {
             placeholder="Name or Location"
             value={eventFilters?.searchText ?? ""}
             onChange={handleSearchTextChange} />
-          <button className="btn btn-ghost btn-xs" onClick={clearSearchText}>
-            <FontAwesomeIcon icon="fas faCircleXmark" />
-          </button>
+          {eventFilters?.searchText && eventFilters.searchText.length > 0 && (
+            <button className="btn btn-ghost btn-xs" onClick={clearSearchText}>
+              <FontAwesomeIcon icon="fas faCircleXmark" />
+            </button>)}
         </label>
       </div>
       <div>
