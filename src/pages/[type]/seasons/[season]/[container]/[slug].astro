@@ -4,6 +4,7 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 import PrintDialog from "@components/scores/PrintDialog.astro";
 import PrintDialogResolver from "@components/scores/PrintDialogResolver";
 import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
+import EventScoringReportSearch from "@components/scores/EventScoringReportSearch";
 import RoomDialog from "@components/scores/RoomDialog.astro";
 import StatsTabContent from "@components/scores/StatsTabContent";
 import CoordinatorTabContent from "@components/scores/CoordinatorTabContent";
@@ -195,6 +196,12 @@ if (event) {
     hasStatsTab = true;
     hasQStatsTab = true;
 }
+
+const schedulesTabId = "schedules_tab";
+const teamScheduleTabId = "team_schedule_tab";
+const roomScheduleTabId = "room_schedule_tab";
+const scheduleGridTabId = "schedule_grid_tab";
+const statsTabId = "stats_tab";
 ---
 
 <StarlightPage frontmatter={frontmatter}>
@@ -204,6 +211,7 @@ if (event) {
         event={event}
         client:only="react"
     />
+    <EventScoringReportSearch parentTabId="scoreTabs" client:only="react" />
     <div id="scoreTabs" class="hide-on-print" style={{ display: "none" }}>
         <FontAwesomeTabs syncKey={`scores-${eventInfo.id}`}>
             <FontAwesomeTabItem
@@ -211,34 +219,44 @@ if (event) {
                 label="Schedules"
                 icon="fas faCalendarAlt"
                 padding="2"
+                tabElementId={schedulesTabId}
             >
                 <FontAwesomeTabs syncKey={`scores-${eventInfo.id}-schedule`}>
                     <FontAwesomeTabItem
                         icon="fas faUsers"
                         label="Team Schedule"
+                        tabElementId={teamScheduleTabId}
                     >
                         <TeamOrRoomScheduleTabContent
                             type="Team"
                             eventId={eventInfo.id}
+                            rootTabId={schedulesTabId}
+                            schedulesTabId={teamScheduleTabId}
                             client:only="react"
                         />
                     </FontAwesomeTabItem>
                     <FontAwesomeTabItem
                         icon="fas faDoorOpen"
                         label="Room Schedule"
+                        tabElementId={roomScheduleTabId}
                     >
                         <TeamOrRoomScheduleTabContent
                             type="Room"
                             eventId={eventInfo.id}
+                            rootTabId={schedulesTabId}
+                            schedulesTabId={roomScheduleTabId}
                             client:only="react"
                         />
                     </FontAwesomeTabItem>
                     <FontAwesomeTabItem
                         icon="fas faBorderAll"
                         label="Schedule Grid"
+                        tabElementId={scheduleGridTabId}
                     >
                         <ScheduleGridTabContent
                             eventId={eventInfo.id}
+                            rootTabId={schedulesTabId}
+                            schedulesTabId={scheduleGridTabId}
                             client:only="react"
                         />
                     </FontAwesomeTabItem>
@@ -250,10 +268,12 @@ if (event) {
                         key={`scores-${eventInfo.id}-stats`}
                         label="Stats"
                         icon="fas faTrophy"
+                        tabElementId={statsTabId}
                         defaultChecked={true}
                     >
                         <StatsTabContent
                             eventId={eventInfo.id}
+                            parentTabId={statsTabId}
                             client:only="react"
                         />
                     </FontAwesomeTabItem>
@@ -314,9 +334,9 @@ if (event) {
 
 <style>
     @media print {
-		.header {
+        .header {
             display: none;
-		}
+        }
 
         @page {
             size: landscape;

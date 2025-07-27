@@ -8,12 +8,14 @@ interface Props {
     showCombinedName: boolean;
     showMeetStatus: boolean;
     pageId: string;
+    elementId?: string;
     isPrinting?: boolean;
     printSectionIndex?: number;
+    forceOpen?: boolean;
     children?: React.ReactNode;
 };
 
-export default function CollapsableMeetSection({ pageId, meet, showCombinedName, showMeetStatus, isPrinting, printSectionIndex, children }: Props) {
+export default function CollapsableMeetSection({ pageId, elementId, meet, showCombinedName, showMeetStatus, isPrinting, printSectionIndex, forceOpen, children }: Props) {
 
     const icon = meet.IsCombinedReport
         ? "fas faBook"
@@ -37,13 +39,15 @@ export default function CollapsableMeetSection({ pageId, meet, showCombinedName,
     return (
         <CollapsibleSection
             pageId={pageId}
+            elementId={elementId}
             icon={icon}
             iconChildren={iconChildren}
             title={showCombinedName ? (meet.CombinedName || meet.Name) : meet.Name}
             titleClass="text-xl"
             titleChildren={titleChildren}
             isPrinting={isPrinting}
-            printSectionIndex={printSectionIndex}>
+            printSectionIndex={printSectionIndex}
+            forceOpen={forceOpen}>
             {children}
         </CollapsibleSection>);
 };

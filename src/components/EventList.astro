@@ -2,7 +2,7 @@
 import EventListFilters from "./EventListFilters.tsx";
 import path from "path";
 import { getAstroRootSourcePath, tryReadFileAsJson } from "@utils/FileSystem";
-import type { EventTypeList, EventList } from "../types/EventTypes";
+import type { EventTypeList, EventList, EventInfo } from "../types/EventTypes";
 import type { RegionInfo, DistrictInfo } from "../types/RegionAndDistricts";
 import FontAwesomeTabs from "./FontAwesomeTabs.astro";
 import EventListTabItem from "./EventListTabItem.astro";
@@ -18,7 +18,7 @@ const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
 
 const { season, type, source, hideFilters } = Astro.props as Props;
 
-const importedEvents =
+const importedEvents: EventTypeList | null =
     source === "generated"
         ? null
         : await tryReadFileAsJson<EventTypeList>(
@@ -28,7 +28,7 @@ const importedEvents =
               ),
           );
 
-const generatedEvents =
+const generatedEvents: EventTypeList | null =
     source === "imported"
         ? null
         : await tryReadFileAsJson<EventTypeList>(
@@ -77,7 +77,7 @@ const hasAtLeastOneEvent =
 
 if (showTypeEvents) {
     const allEvents = [generatedEvents, importedEvents];
-    for (let sourceEvents of allEvents) {
+    for (const sourceEvents of allEvents) {
         if (!sourceEvents) {
             continue;
         }

@@ -1,6 +1,4 @@
 ---
-import FontAwesomeTabs from "./FontAwesomeTabs.astro";
-import FontAwesomeTabItem from "./FontAwesomeTabItem.astro";
 import QuizzerSearchTabContent from "./QuizzerSearchTabContent";
 
 import type { QuizzerIndex, QuizzerIndexEntry } from "../types/QuizzerSearch";
@@ -29,8 +27,6 @@ for (const quizzer of quizzerIndex.quizzers) {
 
     letterIndex.push({ entry: quizzer, index: index++ });
 }
-
-const includeStuff = false;
 ---
 
 <QuizzerSearchFilters client:only="react" />

@@ -1,7 +1,8 @@
 import React from 'react';
 import { useStore } from "@nanostores/react";
-import { sharedEventListFilter, type EventListFilterConfiguration } from "../utils/SharedState";
+import { sharedEventListFilter, type EventListFilterConfiguration } from "@utils/SharedState";
 import EventScopeBadge from './EventScopeBadge.tsx';
+import FontAwesomeIcon from './FontAwesomeIcon';
 
 import type { RegionInfo, DistrictInfo } from "../types/RegionAndDistricts";
 
@@ -13,6 +14,34 @@ interface Props {
 export default function EventListFilters({ regions, districts }: Props) {
 
   const eventFilters: EventListFilterConfiguration = useStore(sharedEventListFilter as any);
+
+  const handleSearchTextChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+
+    sharedEventListFilter.set({
+      searchText: e.target.value ?? null,
+
+      showNation: eventFilters?.showNation ?? true,
+      showRegion: eventFilters?.showRegion ?? true,
+      showDistrict: eventFilters?.showDistrict ?? true,
+
+      regionId: eventFilters?.regionId ?? null,
+      districtId: eventFilters?.districtId ?? null,
+    });
+  };
+
+  const clearSearchText = (e: React.MouseEvent<HTMLButtonElement>) => {
+
+    sharedEventListFilter.set({
+      searchText: null,
+
+      showNation: eventFilters?.showNation ?? true,
+      showRegion: eventFilters?.showRegion ?? true,
+      showDistrict: eventFilters?.showDistrict ?? true,
+
+      regionId: eventFilters?.regionId ?? null,
+      districtId: eventFilters?.districtId ?? null,
+    });
+  };
 
   const handleRegionOrDistrictChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
 
@@ -50,7 +79,7 @@ export default function EventListFilters({ regions, districts }: Props) {
 
     sharedEventListFilter.set({
       searchText: eventFilters?.searchText ?? null,
-      
+
       showNation: checkedValue == "nation" ? isChecked : (eventFilters?.showNation ?? true),
       showRegion: checkedValue == "region" ? isChecked : (eventFilters?.showRegion ?? true),
       showDistrict: checkedValue == "district" ? isChecked : (eventFilters?.showDistrict ?? true),
@@ -74,6 +103,20 @@ export default function EventListFilters({ regions, districts }: Props) {
   return (
     <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0">
       <legend className="fieldset-legend">Event Search Criteria</legend>
+      <div>
+        <label className="input w-lg mt-0">
+          <FontAwesomeIcon icon="fas faSearch" classNames={["h-[1em]", "opacity-50"]} />
+          <input
+            type="text"
+            className="grow"
+            placeholder="Name or Location"
+            value={eventFilters?.searchText ?? ""}
+            onChange={handleSearchTextChange} />
+          <button className="btn btn-ghost btn-xs" onClick={clearSearchText}>
+            <FontAwesomeIcon icon="fas faCircleXmark" />
+          </button>
+        </label>
+      </div>
       <div>
         <label className="select">
           <span className="label">Scope</span>

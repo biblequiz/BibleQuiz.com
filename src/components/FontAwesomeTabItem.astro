@@ -8,15 +8,25 @@ interface Props {
     badgeClass?: string;
     badgeId?: string;
     padding?: number;
+    tabElementId?: string;
 }
 
-const { label, icon, padding, badge, badgeClass, badgeId } = Astro.props as Props;
+const { label, icon, padding, badge, badgeClass, badgeId, tabElementId } =
+    Astro.props as Props;
 
 if (!label) {
     throw new Error("Missing prop `label` on `<TabItem>` component.");
 }
 ---
 
-<TabItemTagname data-label={label} data-icon={icon} data-padding={padding} data-badge={badge} data-badge-id={badgeId} data-badge-class={badgeClass}>
+<TabItemTagname
+    data-label={label}
+    data-icon={icon}
+    data-padding={padding}
+    data-badge={badge}
+    data-badge-id={badgeId}
+    data-badge-class={badgeClass}
+    data-tab-element-id={tabElementId}
+>
     <slot />
 </TabItemTagname>

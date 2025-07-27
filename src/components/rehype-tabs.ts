@@ -12,6 +12,7 @@ interface Panel {
 	badgeClass?: string;
 	badgeId?: string;
 	padding?: number;
+	tabElementId?: string;
 }
 
 declare module 'vfile' {
@@ -64,7 +65,7 @@ const tabsProcessor = rehype()
 					return CONTINUE;
 				}
 
-				const { dataLabel, dataIcon, dataPadding, dataBadge, dataBadgeClass, dataBadgeId } = node.properties;
+				const { dataLabel, dataIcon, dataPadding, dataBadge, dataBadgeClass, dataBadgeId, dataTabElementId } = node.properties;
 				const ids = getIDs();
 				const panel: Panel = {
 					...ids,
@@ -72,6 +73,7 @@ const tabsProcessor = rehype()
 					padding: dataPadding ? Number(dataPadding) : 6,
 				};
 				if (dataIcon) panel.icon = String(dataIcon);
+				if (dataTabElementId) panel.tabElementId = String(dataTabElementId);
 				if (dataBadge) {
 					panel.badge = String(dataBadge);
 					if (dataBadgeId) {

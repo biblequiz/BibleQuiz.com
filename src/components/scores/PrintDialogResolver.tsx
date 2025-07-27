@@ -88,7 +88,6 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
                         eventId={eventId}
                         event={event}
                         isPrinting={true}
-                        printSinglePerPage={printDialogState.showSinglePerPage}
                         printStats={printDialogState.includeStats}
                     />
                 </div>);

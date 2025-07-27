@@ -1,10 +1,14 @@
+import { useEffect } from "react";
 import { EventScoringReport, ScoringReportMeet, ScoringReportTeamMatch, ScoringReportRoom } from "@types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "@utils/SharedState";
 import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
 import type { ScoringReportTeam } from "../../types/EventScoringReport";
 import RoomDialogLink from "./RoomDialogLink";
+import { isTabActive } from "@utils/Tabs";
+import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
+import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
 
 export interface Props {
     type: "Team" | "Room";
@@ -13,6 +17,8 @@ export interface Props {
     isPrinting?: boolean;
     printSinglePerPage?: boolean;
     printStats?: boolean;
+    rootTabId: string;
+    schedulesTabId: string;
 };
 
 function ordinalWithSuffix(number: number): string {
@@ -32,13 +38,28 @@ function ordinalWithSuffix(number: number): string {
     return number + "th";
 }
 
-export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isPrinting, printSinglePerPage, printStats }: Props) {
+export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isPrinting, printSinglePerPage, printStats, rootTabId, schedulesTabId }: Props) {
 
-    event ??= useStore(sharedEventScoringReportState)?.report;
+    const scrollToViewElementId = `schedule_${type}_scroll_elem`;
+
+    const reportState = useStore(sharedEventScoringReportState);
+    event ??= reportState?.report;
+    const eventFilters = useStore(sharedEventScoringReportFilterState as any);
+    const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
+
+    // Add an effect to scroll the item into view once it is loaded.
+    useEffect(() => {
+        const highlightCard = document.getElementById(scrollToViewElementId) as HTMLDivElement;
+        if (isTabActive(rootTabId) && isTabActive(schedulesTabId) && highlightCard?.scrollIntoView) {
+            highlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    }, [eventFilters]);
+
     if (!event) {
         return (<span>Event is Loading ...</span>);
     }
 
+    const favorites: TeamAndQuizzerFavorites = reportState.favorites;
     let sectionIndex = 0;
 
     return (
@@ -60,9 +81,14 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                     return null;
                 }
 
+                const forceOpen = eventFilters?.openMeetDatabaseId === meet.DatabaseId &&
+                    eventFilters.openMeetMeetId === meet.MeetId;
+
                 const gridColumns = isPrinting
                     ? (printSinglePerPage ? "grid-cols-1" : "grid-cols-2")
                     : "sm:grid-cols-1 md:grid-cols-2";
+
+                let hasAnyTeamCards = false;
 
                 return (
                     <CollapsableMeetSection
@@ -72,6 +98,8 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                         pageId={`${type}schedule`}
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}
+                        forceOpen={forceOpen}
+                        elementId={forceOpen && isRoomReport ? scrollToViewElementId : undefined}
                         key={key}>
 
                         <div className={`grid ${gridColumns} gap-2`}>
@@ -89,17 +117,193 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                     }
                                 }
 
+                                let teamCardHighlightColor: string = "";
+                                if (!isPrinting && !isRoomReport) {
+                                    const isFavorite = favorites.teamIds.has(cardItem.Id);
+                                    if (eventFilters?.highlightTeamId === cardItem.Id) {
+                                        teamCardHighlightColor = "bg-yellow-200";
+                                    }
+                                    else if (isFavorite) {
+                                        teamCardHighlightColor = "bg-accent-100";
+                                    }
+
+                                    if (showOnlyFavorites && !isFavorite) {
+                                        return null;
+                                    }
+                                }
+
                                 // Determine if the card should have a break before for printing.
                                 const borderClass = isPrinting
                                     ? (isPrinting && tabIndex > 0 && printSinglePerPage
                                         ? "page-break-before"
                                         : "")
-                                    : "bg-base-100 shadow-sm";
+                                    : `${teamCardHighlightColor || "bg-base-100"} shadow-sm`;
+
+                                let hasAnyMatchItems = false;
+                                const matchItems = cardItem.Matches.map((match: ScoringReportTeamMatch | number, matchIndex: number) => {
+                                    const matchKey = `${key}_matches_${matchIndex}`;
+                                    if (null == match) {
+                                        return (<li key={matchKey} className="ml-6">BYE</li>);
+                                    }
+
+                                    const resolvedMeet = !meet.HasLinkedMeets || null == match.LinkedMeet
+                                        ? meet
+                                        : event.Report.Meets[match.LinkedMeet];
+
+                                    const resolvedMatch = resolvedMeet.Matches[matchIndex];
+                                    let matchTeam = null;
+                                    let shouldHighlightSearchResult = false;
+                                    let shouldHighlightFavorite = false;
+                                    if (match && isRoomReport) {
+                                        matchTeam = resolvedMeet.Teams[match.Team1];
+                                        match = matchTeam.Matches[matchIndex];
+                                        shouldHighlightSearchResult = eventFilters?.highlightTeamId === matchTeam?.Id;
+                                        shouldHighlightFavorite = favorites.teamIds.has(matchTeam?.Id);
+                                    }
+
+                                    const isLiveMatch = null != match.CurrentQuestion;
+                                    const isScheduleOnly = !hasRanking || (!isLiveMatch && null == match.Score);
+
+                                    // Determine the prefix before each match.
+                                    let cellText = [];
+                                    if (null != resolvedMatch.PlayoffIndex) {
+                                        cellText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
+                                    }
+
+                                    if (isRoomReport) {
+                                        cellText.push(`"${matchTeam.Name}"`);
+                                    }
+
+                                    if (isScheduleOnly) {
+                                        cellText.push("vs.");
+                                    }
+                                    else {
+                                        switch (match.Result) {
+                                            case "W":
+                                                cellText.push(`${isRoomReport ? 'w' : 'W'}on against`);
+                                                break;
+                                            case "L":
+                                                cellText.push(`${isRoomReport ? 'l' : 'L'}ost to`);
+                                                break;
+                                            default:
+                                                if (!match.CurrentQuestion && null != match.Score) {
+                                                    cellText.push(`${isRoomReport ? 'p' : 'P'}layed`);
+                                                }
+                                                else if (isLiveMatch) {
+                                                    cellText.push(`${isRoomReport ? 'p' : 'P'}laying`);
+                                                }
+
+                                                break;
+                                        }
+                                    }
+
+                                    // Append the other team name and scores.
+                                    if (null != match.OtherTeam) {
+
+                                        const otherTeam = resolvedMeet.Teams[match.OtherTeam];
+                                        if (!shouldHighlightSearchResult && eventFilters?.highlightTeamId == otherTeam.Id) {
+                                            shouldHighlightSearchResult = true;
+                                        }
+
+                                        if (!shouldHighlightFavorite && favorites.teamIds.has(otherTeam.Id)) {
+                                            shouldHighlightFavorite = true;
+                                        }
+
+                                        cellText.push(otherTeam.Name);
+                                        if (!isScheduleOnly) {
+                                            if (isLiveMatch) {
+                                                if (!isRoomReport) {
+                                                    cellText.push(`in ${match.Room}`);
+                                                }
+                                            }
+                                            else {
+                                                cellText.push(`${match.Score} to ${otherTeam.Matches[matchIndex].Score}`);
+                                            }
+                                        }
+                                    }
+                                    else {
+
+                                        cellText.push("\"BYE TEAM\"");
+
+                                        if (match.Score != null) {
+                                            cellText.push(`\"BYE TEAM\" ${match.Score}`);
+                                        }
+                                    }
+
+                                    // Add the scheduled room and time.
+                                    if (isScheduleOnly) {
+                                        if (!isRoomReport) {
+                                            cellText.push(`in ${match.Room}`);
+                                        }
+
+                                        const matchTime = resolvedMeet.Matches[matchIndex].MatchTime;
+                                        if (matchTime) {
+                                            cellText.push(`@ ${matchTime}`);
+                                        }
+                                        if (isRoomReport && resolvedMeet.HasLinkedMeets) {
+                                            cellText.push(`(${resolvedMeet.Name})`);
+                                        }
+                                    }
+                                    else if (isRoomReport && resolvedMeet.HasLinkedMeets) {
+                                        cellText.push(`(${resolvedMeet.Name})`);
+                                    }
+
+                                    // Determine the highlight color (if any).
+                                    let matchHighlightColor: string = "";
+                                    if (!isPrinting) {
+                                        if (shouldHighlightSearchResult) {
+                                            matchHighlightColor = "bg-yellow-200";
+                                        }
+                                        else if (shouldHighlightFavorite) {
+                                            matchHighlightColor = "bg-accent-100";
+                                        }
+
+                                        if (showOnlyFavorites && !shouldHighlightFavorite && isRoomReport) {
+                                            return null; // Skip this match if not a favorite.
+                                        }
+                                    }
+
+                                    hasAnyMatchItems = true;
+
+                                    // Combine into HTML.
+                                    const cellHtml = cellText.join(" ");
+
+                                    return (
+                                        <li
+                                            key={matchKey}
+                                            className={`ml-6 ${matchHighlightColor}`}
+                                            value={matchIndex + 1}
+                                        >
+                                            {isScheduleOnly && (<>{cellHtml}</>)}
+                                            {!isScheduleOnly && (
+                                                <RoomDialogLink id={matchKey} label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
+                                                    {cellHtml}
+                                                    {isLiveMatch && (
+                                                        <>
+                                                            <br />
+                                                            <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match.CurrentQuestion}
+                                                        </>
+                                                    )}
+                                                </RoomDialogLink>)}
+                                        </li>);
+                                });
+
+                                if (!hasAnyMatchItems) {
+                                    return null;
+                                }
+
+                                hasAnyTeamCards = true;
 
                                 return (
-                                    <div className={`card ${borderClass} card-sm mt-4 team-card`} key={cardKey}>
+                                    <div
+                                        className={`card ${borderClass} ${teamCardHighlightColor} card-sm mt-4 team-card`}
+                                        id={teamCardHighlightColor && forceOpen ? scrollToViewElementId : undefined}
+                                        key={cardKey}>
                                         <div className="card-body">
-                                            <p className="text-sm mb-0 font-bold">{cardItem.Name}</p>
+                                            <p className="text-sm mb-0 font-bold">
+                                                {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={cardItem.Id} showText={false} />&nbsp;</>)}
+                                                {cardItem.Name}
+                                            </p>
                                             {!isRoomReport && hasRanking && (
                                                 <>
                                                     <p className="subtitle italic mt-0">{cardItem.ChurchName}</p>
@@ -123,122 +327,10 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                                     </div>
                                                 </>)}
                                             <ol className="mt-0 schedule-list">
-                                                {cardItem.Matches.map((match: ScoringReportTeamMatch | number, matchIndex: number) => {
-                                                    const matchKey = `${key}_matches_${matchIndex}`;
-                                                    if (null == match) {
-                                                        return (<li key={matchKey} className="ml-6">BYE</li>);
-                                                    }
-
-                                                    const resolvedMeet = !meet.HasLinkedMeets || null == match.LinkedMeet
-                                                        ? meet
-                                                        : event.Report.Meets[match.LinkedMeet];
-
-                                                    const resolvedMatch = resolvedMeet.Matches[matchIndex];
-                                                    let matchTeam = null;
-                                                    if (match && isRoomReport) {
-                                                        matchTeam = resolvedMeet.Teams[match.Team1];
-                                                        match = matchTeam.Matches[matchIndex];
-                                                    }
-
-                                                    const isLiveMatch = null != match.CurrentQuestion;
-                                                    const isScheduleOnly = !hasRanking || (!isLiveMatch && null == match.Score);
-
-                                                    // Determine the prefix before each match.
-                                                    let cellText = [];
-                                                    if (null != resolvedMatch.PlayoffIndex) {
-                                                        cellText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
-                                                    }
-
-                                                    if (isRoomReport) {
-                                                        cellText.push(`"${matchTeam.Name}"`);
-                                                    }
-
-                                                    if (isScheduleOnly) {
-                                                        cellText.push("vs.");
-                                                    }
-                                                    else {
-                                                        switch (match.Result) {
-                                                            case "W":
-                                                                cellText.push(`${isRoomReport ? 'w' : 'W'}on against`);
-                                                                break;
-                                                            case "L":
-                                                                cellText.push(`${isRoomReport ? 'l' : 'L'}ost to`);
-                                                                break;
-                                                            default:
-                                                                if (!match.CurrentQuestion && null != match.Score) {
-                                                                    cellText.push(`${isRoomReport ? 'p' : 'P'}layed`);
-                                                                }
-                                                                else if (isLiveMatch) {
-                                                                    cellText.push(`${isRoomReport ? 'p' : 'P'}laying`);
-                                                                }
-
-                                                                break;
-                                                        }
-                                                    }
-
-                                                    // Append the other team name and scores.
-                                                    if (null != match.OtherTeam) {
-
-                                                        cellText.push(resolvedMeet.Teams[match.OtherTeam].Name);
-                                                        if (!isScheduleOnly) {
-                                                            if (isLiveMatch) {
-                                                                if (!isRoomReport) {
-                                                                    cellText.push(`in ${match.Room}`);
-                                                                }
-                                                            }
-                                                            else {
-                                                                cellText.push(`${match.Score} to ${resolvedMeet.Teams[match.OtherTeam].Matches[matchIndex].Score}`);
-                                                            }
-                                                        }
-                                                    }
-                                                    else {
-
-                                                        cellText.push("\"BYE TEAM\"");
-
-                                                        if (match.Score != null) {
-                                                            cellText.push(`\"BYE TEAM\" ${match.Score}`);
-                                                        }
-                                                    }
-
-                                                    // Add the scheduled room and time.
-                                                    if (isScheduleOnly) {
-                                                        if (!isRoomReport) {
-                                                            cellText.push(`in ${match.Room}`);
-                                                        }
-
-                                                        const matchTime = resolvedMeet.Matches[matchIndex].MatchTime;
-                                                        if (matchTime) {
-                                                            cellText.push(`@ ${matchTime}`);
-                                                        }
-                                                        if (isRoomReport && resolvedMeet.HasLinkedMeets) {
-                                                            cellText.push(`(${resolvedMeet.Name})`);
-                                                        }
-                                                    }
-                                                    else if (isRoomReport && resolvedMeet.HasLinkedMeets) {
-                                                        cellText.push(`(${resolvedMeet.Name})`);
-                                                    }
-
-                                                    // Combine into HTML.
-                                                    const cellHtml = cellText.join(" ");
-
-                                                    return (
-                                                        <li key={matchKey} className="ml-6">
-                                                            {isScheduleOnly && (<>{cellHtml}</>)}
-                                                            {!isScheduleOnly && (
-                                                                <RoomDialogLink id={matchKey} label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
-                                                                    {cellHtml}
-                                                                    {isLiveMatch && (
-                                                                        <>
-                                                                            <br />
-                                                                            <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match.CurrentQuestion}
-                                                                        </>
-                                                                    )}
-                                                                </RoomDialogLink>)}
-                                                        </li>);
-                                                })}
+                                                {matchItems}
                                             </ol>
                                             {!isRoomReport && (
-                                                <div className="text-xs mt-0">91
+                                                <div className="text-xs mt-0">
                                                     {cardItem.CoachName && (
                                                         <p className="text-xs">
                                                             <b>Head Coach:</b> {cardItem.CoachName}
@@ -252,6 +344,12 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                     </div>);
                             })}
                         </div>
+
+                        {!hasAnyTeamCards && (
+                            <div className="text-center text-sm italic mt-4">
+                                No favorite teams found.
+                            </div>
+                        )}
                     </CollapsableMeetSection >);
             })}
         </>);

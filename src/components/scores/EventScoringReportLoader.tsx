@@ -1,11 +1,14 @@
 import { useEffect } from "react";
-import type { EventInfo } from "@types/EventTypes";
-import type { EventScoringReport } from "@types/EventScoringReport";
+import Fuse from "fuse.js";
 
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState, sharedPrintConfiguration } from "@utils/SharedState";
+import type { EventScoringReportSearchIndexItem, EventScoringReportSearchIndexSection } from "@utils/SharedState";
 import { PrintDialogModalId } from "./PrintDialogContent";
 import FontAwesomeIcon from "../FontAwesomeIcon";
+import type { EventInfo } from "@types/EventTypes";
+import type { EventScoringReport, ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from "@types/EventScoringReport";
+import { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
 
 interface Props {
     parentTabId: string;
@@ -25,9 +28,83 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
     useEffect(() => {
 
         const initializeReport = (report: EventScoringReport) => {
+
+            const teamIndexSource: EventScoringReportSearchIndexItem<ScoringReportTeam>[] = [];
+            const teamIndexMeets: Record<string, ScoringReportMeet[]> = {};
+
+            const quizzerIndexSource: EventScoringReportSearchIndexItem<ScoringReportQuizzer>[] = [];
+            const quizzerIndexMeets: Record<string, ScoringReportMeet[]> = {};
+
+            for (const meet of report.Report.Meets) {
+                if (meet.Teams) {
+                    for (const team of meet.Teams) {
+
+                        let teamMeets = teamIndexMeets[team.Id] || null;
+
+                        // If the meets don't exist, this is the first time we have seen this team
+                        // and it needs to be added to the index.
+                        if (!teamMeets) {
+
+                            teamMeets = [];
+                            teamIndexMeets[team.Id] = teamMeets;
+
+                            teamIndexSource.push({
+                                meets: teamMeets,
+                                item: team
+                            });
+                        }
+
+                        // Add the meet for this item.
+                        teamMeets.push(meet);
+                    }
+                }
+
+                if (meet.Quizzers) {
+                    for (const quizzer of meet.Quizzers) {
+
+                        let quizzerMeets = quizzerIndexMeets[quizzer.Id] || null;
+
+                        // If the meets don't exist, this is the first time we have seen this quizzer
+                        // and it needs to be added to the index.
+                        if (!quizzerMeets) {
+
+                            quizzerMeets = [];
+                            quizzerIndexMeets[quizzer.Id] = quizzerMeets;
+
+                            quizzerIndexSource.push({
+                                meets: quizzerMeets,
+                                item: quizzer
+                            });
+                        }
+
+                        // Add the meet for this item.
+                        quizzerMeets.push(meet);
+                    }
+                }
+            }
+
             sharedEventScoringReportState.set(
                 {
                     report: report,
+                    favorites: TeamAndQuizzerFavorites.load(),
+                    teamIndex: new Fuse<ScoringReportTeam>(
+                        teamIndexSource,
+                        {
+                            shouldSort: false,
+                            includeScore: true,
+                            ignoreLocation: true,
+                            keys: ["item.Name", "item.ChurchName"],
+                            threshold: 0.4
+                        }),
+                    quizzerIndex: new Fuse<ScoringReportQuizzer>(
+                        quizzerIndexSource,
+                        {
+                            shouldSort: false,
+                            includeScore: true,
+                            ignoreLocation: true,
+                            keys: ["item.Name", "item.ChurchName", "item.TeamName"],
+                            threshold: 0.4
+                        }),
                     error: null
                 });
 
@@ -60,12 +137,22 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
                         sharedEventScoringReportState.set(
                             {
                                 report: null,
+                                favorites: null,
+                                teamIndex: null,
+                                quizzerIndex: null,
                                 error: body.Message || "Failed to download the report for unknown reasons."
                             });
                     }
                 })
                 .catch((error) => {
-                    sharedEventScoringReportState.set({ report: null, error: `Unknown error occurred: ${error}` });
+                    sharedEventScoringReportState.set(
+                        {
+                            report: null,
+                            favorites: null,
+                            teamIndex: null,
+                            quizzerIndex: null,
+                            error: `Unknown error occurred: ${error}`
+                        });
                 });
         }
     }, [eventInfo.id, reportState]);
