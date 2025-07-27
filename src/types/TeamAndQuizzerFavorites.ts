@@ -6,11 +6,13 @@ export class TeamAndQuizzerFavorites {
 
     private static readonly StorageKey: string = "team_quizzer_favorites";
 
+    private currentVersion: number;
+
     /**
      * Private constructor.
      */
     private constructor(existing: SerializedFavorites | null) {
-        this.version = existing?.version ?? 1;
+        this.currentVersion = existing?.version ?? 1;
         this.teamIds = new Set(existing?.teams.slice(-250) ?? []);
         this.quizzerIds = new Set(existing?.quizzers.slice(-250) ?? []);
     }
@@ -18,7 +20,9 @@ export class TeamAndQuizzerFavorites {
     /**
      * Version of the favorites.
      */
-    public readonly version: number;
+    public get version(): number {
+        return this.currentVersion;
+    }
 
     /**
      * Ids for the favorite teams.
@@ -56,13 +60,18 @@ export class TeamAndQuizzerFavorites {
      * Persists the current favorites to local storage.
      */
     public save(): void {
+
+        // Persist the results.
         const serialized: SerializedFavorites = {
-            version: this.version,
+            version: this.currentVersion + 1,
             teams: Array.from(this.teamIds),
             quizzers: Array.from(this.quizzerIds),
         };
 
         localStorage.setItem(TeamAndQuizzerFavorites.StorageKey, JSON.stringify(serialized));
+
+        // Increment the current version.
+        this.currentVersion++;
     }
 }
 

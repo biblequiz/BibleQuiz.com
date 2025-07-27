@@ -8,6 +8,7 @@ import type { ScoringReportTeam } from "../../types/EventScoringReport";
 import RoomDialogLink from "./RoomDialogLink";
 import { isTabActive } from "@utils/Tabs";
 import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
+import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
 
 export interface Props {
     type: "Team" | "Room";
@@ -299,7 +300,10 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                         id={teamCardHighlightColor && forceOpen ? scrollToViewElementId : undefined}
                                         key={cardKey}>
                                         <div className="card-body">
-                                            <p className="text-sm mb-0 font-bold">{cardItem.Name}</p>
+                                            <p className="text-sm mb-0 font-bold">
+                                                {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={cardItem.Id} showText={false} />&nbsp;</>)}
+                                                {cardItem.Name}
+                                            </p>
                                             {!isRoomReport && hasRanking && (
                                                 <>
                                                     <p className="subtitle italic mt-0">{cardItem.ChurchName}</p>

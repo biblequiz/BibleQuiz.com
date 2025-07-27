@@ -8,6 +8,7 @@ import RoomLink from "./RoomDialogLink";
 import { EventScoringReport } from "@types/EventScoringReport";
 import { isTabActive } from "@utils/Tabs";
 import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
+import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
 
 export interface Props {
     eventId: string;
@@ -92,7 +93,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                             <thead>
                                 <tr>
                                     {hasRankedTeams && <th className="text-right">#</th>}
-                                    <th>Team</th>
+                                    <th className="pl-0">Team</th>
                                     {hasRankedTeams &&
                                         (<>
                                             <th className="text-right">W</th>
@@ -138,7 +139,9 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                                 <td className="text-right">
                                                     {team.Scores.Rank}{team.Scores.IsTie ? '*' : ''}
                                                 </td>)}
-                                            <td>{team.Name}</td>
+                                            <td className="pl-0">
+                                                <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} showText={false} /> {team.Name}
+                                            </td>
                                             {hasRankedTeams && (
                                                 <>
                                                     <td className="text-right">{team.Scores.Wins}</td>

@@ -6,7 +6,8 @@ import type { SharedEventScoringReportFilterState, SharedEventScoringReportState
 import FontAwesomeIcon from "../FontAwesomeIcon";
 import type { FuseResult } from "fuse.js";
 import type { ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from "@types/EventScoringReport";
-import type { TeamAndQuizzerFavorites } from "../../types/TeamAndQuizzerFavorites";
+import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
+import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
 
 interface Props {
     parentTabId: string;
@@ -170,12 +171,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                                                     {team.ChurchName}
                                                 </p>
                                                 <div className="card-actions grid grid-cols-1 gap-2">
-                                                    <button
-                                                        className="btn btn-warning mt-0"
-                                                        onClick={e => handleFavoritesButtonClick(updateFavorites)}>
-                                                        <FontAwesomeIcon icon={isFavorite ? "fas faStar" : "far faStar"} />
-                                                        {isFavorite ? "Remove from Favorites" : "Add to Favorites"}
-                                                    </button>
+                                                    <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} showText={true} buttonSize="md" />
                                                     {indexItem.meets.map((meet: ScoringReportMeet) => (
                                                         <button
                                                             className="btn btn-primary mt-0"
@@ -216,15 +212,10 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                                                     <span className="font-normal italic">{quizzer.ChurchName}</span>
                                                 </p>
                                                 <div className="card-actions grid grid-cols-1 gap-2">
-                                                    <button
-                                                        className="btn btn-warning mt-0"
-                                                        onClick={e => handleFavoritesButtonClick(updateFavorites)}>
-                                                        <FontAwesomeIcon icon={isFavorite ? "fas faStar" : "far faStar"} />
-                                                        {isFavorite ? "Remove from Favorites" : "Add to Favorites"}
-                                                    </button>
+                                                    <ToggleTeamOrQuizzerFavoriteButton type="quizzer" id={quizzer.Id} showText={true} buttonSize="md" />
                                                     {indexItem.meets.map((meet: ScoringReportMeet) => (
                                                         <button
-                                                            className="btn btn-primary mt-0"
+                                                            className="btn btn-primary mt-0 btn-md"
                                                             onClick={e => handleHighlightButtonClick(meet, null, quizzer.Id)}
                                                             key={`${key}_meet_${meet.DatabaseId}_${meet.MeetId}`}>
                                                             {meet.IsCombinedReport && <FontAwesomeIcon icon="fas faBook" classNames={["mr-1"]} />}
