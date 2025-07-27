@@ -43,7 +43,7 @@ export default function QuizzerSearchFilters() {
     return (
         <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0">
             <legend className="fieldset-legend">Search by Name</legend>
-            <div className="flex justify-left">
+            <div className="flex justify-left w-full">
                 <input
                     id={inputId}
                     className="input"

@@ -1,11 +1,13 @@
+import { useEffect } from "react";
 import { ScoringReportMeet } from "@types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, StatsFormat } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, StatsFormat } from "@utils/SharedState";
 import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
 import MeetProgressNotification from "@components/scores/MeetProgressNotification";
 import type { ScoringReportFootnote } from "@types/EventScoringReport";
 import type { EventScoresProps } from "@utils/Scores";
+import { isTabActive } from "@utils/Tabs";
 
 function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] | null, hasTie: boolean): JSX.Element {
     return (
@@ -24,9 +26,21 @@ function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] |
         </>);
 }
 
-export default function StatsTabContent({ event, isPrinting, printingStatsFormat }: EventScoresProps) {
+export default function StatsTabContent({ event, isPrinting, printingStatsFormat, parentTabId }: EventScoresProps) {
+
+    const scrollToViewElementId = `stats_tab_scroll_elem`;
 
     event ??= useStore(sharedEventScoringReportState)?.report;
+    const eventFilters = useStore(sharedEventScoringReportFilterState as any);
+
+    // Add an effect to scroll the item into view once it is loaded.
+    useEffect(() => {
+        const highlightCard = document.getElementById(scrollToViewElementId) as HTMLDivElement;
+        if (isTabActive(parentTabId) && highlightCard?.scrollIntoView) {
+            highlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    }, [eventFilters]);
+
     if (!event) {
         return (<span>Event is Loading ...</span>);
     }
@@ -50,6 +64,9 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                     return null;
                 }
 
+                const forceOpen = eventFilters?.openMeetDatabaseId === meet.DatabaseId &&
+                    eventFilters.openMeetMeetId === meet.MeetId;
+
                 return (
                     <CollapsableMeetSection
                         meet={meet}
@@ -58,6 +75,7 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                         showMeetStatus={true}
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}
+                        forceOpen={forceOpen}
                         key={`stats_${meet.DatabaseId}_${meet.MeetId}`}>
 
                         {hasRankedTeams && (
@@ -84,13 +102,17 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                                     <tbody>
                                         {meet.RankedTeams.map((teamId: number) => {
                                             const team = meet.Teams[teamId];
+                                            const shouldHighlight = !isPrinting && eventFilters?.highlightTeamId === team.Id;
 
                                             if (team.Scores.FootnoteIndex == null && team.Scores.IsTie) {
                                                 hasTeamTie = true;
                                             }
 
                                             return (
-                                                <tr className="hover:bg-base-300" key={`team_${meet.DatabaseId}_${meet.MeetId}_${teamId}`}>
+                                                <tr
+                                                    className={`hover:bg-base-300 ${shouldHighlight ? " bg-yellow-200 font-bold" : ""}`}
+                                                    id={shouldHighlight && forceOpen ? scrollToViewElementId : undefined}
+                                                    key={`team_${meet.DatabaseId}_${meet.MeetId}_${teamId}`}>
                                                     <th className="text-right">
                                                         {team.Scores.FootnoteIndex != null && (
                                                             <b>
@@ -146,13 +168,17 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                                     <tbody>
                                         {meet.RankedQuizzers.map((quizzerId: number) => {
                                             const quizzer = meet.Quizzers[quizzerId];
+                                            const shouldHighlight = !isPrinting && eventFilters?.highlightQuizzerId === quizzer.Id;
 
                                             if (quizzer.Scores.FootnoteIndex == null && quizzer.Scores.IsTie) {
                                                 hasQuizzerTie = true;
                                             }
 
                                             return (
-                                                <tr className="hover:bg-base-300" key={`quizzer_${meet.DatabaseId}_${meet.MeetId}_${quizzerId}`}>
+                                                <tr
+                                                    className={`hover:bg-base-300 ${shouldHighlight ? " bg-yellow-200 font-bold" : ""}`}
+                                                    id={shouldHighlight && forceOpen ? scrollToViewElementId : undefined}
+                                                    key={`quizzer_${meet.DatabaseId}_${meet.MeetId}_${quizzerId}`}>
                                                     <th className="text-right">
                                                         {quizzer.Scores.FootnoteIndex != null && (
                                                             <b>

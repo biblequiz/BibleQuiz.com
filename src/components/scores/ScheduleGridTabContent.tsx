@@ -1,22 +1,37 @@
+import { useEffect } from "react";
 import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch } from "@types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState } from "@utils/SharedState";
 import CollapsableMeetSection from "./CollapsableMeetSection";
 import RoomLink from "./RoomDialogLink";
 import { EventScoringReport } from "@types/EventScoringReport";
+import { isTabActive } from "@utils/Tabs";
 
 export interface Props {
     eventId: string;
     event?: EventScoringReport;
     isPrinting?: boolean;
-    printSinglePerPage?: boolean;
     printStats?: boolean;
+    rootTabId: string;
+    schedulesTabId: string;
 };
 
-export default function ScheduleGridTabContent({ eventId, event, isPrinting, printSinglePerPage, printStats }: Props) {
+export default function ScheduleGridTabContent({ eventId, event, isPrinting, printStats, rootTabId, schedulesTabId }: Props) {
+
+    const scrollToViewElementId = `schedule_grid_scroll_elem`;
 
     event ??= useStore(sharedEventScoringReportState)?.report;
+    const eventFilters = useStore(sharedEventScoringReportFilterState as any);
+
+    // Add an effect to scroll the item into view once it is loaded.
+    useEffect(() => {
+        const highlightCard = document.getElementById(scrollToViewElementId) as HTMLDivElement;
+        if (isTabActive(rootTabId) && isTabActive(schedulesTabId) && highlightCard?.scrollIntoView) {
+            highlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    }, [eventFilters]);
+
     if (!event) {
         return (<span>Event is Loading ...</span>);
     }
@@ -53,6 +68,8 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                 }
 
                 const footerColSpan = hasRankedTeams ? 6 : 1;
+                const forceOpen = eventFilters?.openMeetDatabaseId === meet.DatabaseId &&
+                    eventFilters.openMeetMeetId === meet.MeetId;
 
                 return (
                     <CollapsableMeetSection
@@ -62,6 +79,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                         pageId="schedulegrid"
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}
+                        forceOpen={forceOpen}
                         key={key}>
 
                         <table className="table table-s table-nowrap">
@@ -87,9 +105,13 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                     const team = hasRankedTeams
                                         ? meet.Teams[teamId as number]
                                         : teamId as ScoringReportTeam;
+                                    const shouldHighlight = !isPrinting && eventFilters?.highlightTeamId === team.Id;
 
                                     return (
-                                        <tr key={`${key}_teams_${teamIndex}`} className="hover:bg-base-300">
+                                        <tr
+                                            key={`${key}_teams_${teamIndex}`}
+                                            id={shouldHighlight && forceOpen ? scrollToViewElementId : undefined}
+                                            className={`hover:bg-base-300 ${shouldHighlight ? "bg-yellow-200" : ""}`}>
                                             {hasRankedTeams && (
                                                 <td className="text-right">
                                                     {team.Scores.Rank}{team.Scores.IsTie ? '*' : ''}

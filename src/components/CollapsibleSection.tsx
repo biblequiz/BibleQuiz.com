@@ -2,6 +2,7 @@ import FontAwesomeIcon from "@components/FontAwesomeIcon";
 
 interface Props {
     pageId: string;
+    elementId?: string;
     icon?: string;
     iconChildren?: React.ReactNode;
     title: string;
@@ -11,10 +12,11 @@ interface Props {
     titleChildren?: React.ReactNode;
     isPrinting?: boolean;
     printSectionIndex?: number;
+    forceOpen?: boolean;
     children?: React.ReactNode;
 };
 
-export default function CollapsibleSection({ pageId, icon, iconChildren,title, titleClass, subtitle, subtitleClass, titleChildren, isPrinting, printSectionIndex, children }: Props) {
+export default function CollapsibleSection({ pageId, elementId, icon, iconChildren,title, titleClass, subtitle, subtitleClass, titleChildren, isPrinting, printSectionIndex, forceOpen, children }: Props) {
 
     const titleElement = (
         <>
@@ -40,8 +42,9 @@ export default function CollapsibleSection({ pageId, icon, iconChildren,title, t
     else {
         return (
             <div
+                id={elementId}
                 tabIndex={1}
-                className="collapse collapse-arrow bg-base-100 border-base-300 border no-anchor-links"
+                className={`collapse collapse-arrow bg-base-100 border-base-300 border no-anchor-links ${forceOpen ? "collapse-open" : ""}`}
             >
                 <input type="checkbox" name={pageId} className="peer" />
                 <div className={`collapse-title ${printSectionIndex === 0 ? "" : "pt-0"}`}>

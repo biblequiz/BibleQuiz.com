@@ -1,10 +1,12 @@
+import { useEffect } from "react";
 import { EventScoringReport, ScoringReportMeet, ScoringReportTeamMatch, ScoringReportRoom } from "@types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState } from "@utils/SharedState";
 import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
 import type { ScoringReportTeam } from "../../types/EventScoringReport";
 import RoomDialogLink from "./RoomDialogLink";
+import { isTabActive } from "@utils/Tabs";
 
 export interface Props {
     type: "Team" | "Room";
@@ -13,6 +15,8 @@ export interface Props {
     isPrinting?: boolean;
     printSinglePerPage?: boolean;
     printStats?: boolean;
+    rootTabId: string;
+    schedulesTabId: string;
 };
 
 function ordinalWithSuffix(number: number): string {
@@ -32,9 +36,21 @@ function ordinalWithSuffix(number: number): string {
     return number + "th";
 }
 
-export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isPrinting, printSinglePerPage, printStats }: Props) {
+export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isPrinting, printSinglePerPage, printStats, rootTabId, schedulesTabId }: Props) {
+
+    const scrollToViewElementId = `schedule_${type}_scroll_elem`;
 
     event ??= useStore(sharedEventScoringReportState)?.report;
+    const eventFilters = useStore(sharedEventScoringReportFilterState as any);
+
+    // Add an effect to scroll the item into view once it is loaded.
+    useEffect(() => {
+        const highlightCard = document.getElementById(scrollToViewElementId) as HTMLDivElement;
+        if (isTabActive(rootTabId) && isTabActive(schedulesTabId) && highlightCard?.scrollIntoView) {
+            highlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    }, [eventFilters]);
+
     if (!event) {
         return (<span>Event is Loading ...</span>);
     }
@@ -60,6 +76,9 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                     return null;
                 }
 
+                const forceOpen = eventFilters?.openMeetDatabaseId === meet.DatabaseId &&
+                    eventFilters.openMeetMeetId === meet.MeetId;
+
                 const gridColumns = isPrinting
                     ? (printSinglePerPage ? "grid-cols-1" : "grid-cols-2")
                     : "sm:grid-cols-1 md:grid-cols-2";
@@ -72,6 +91,8 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                         pageId={`${type}schedule`}
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}
+                        forceOpen={forceOpen}
+                        elementId={forceOpen && isRoomReport ? scrollToViewElementId : undefined}
                         key={key}>
 
                         <div className={`grid ${gridColumns} gap-2`}>
@@ -96,8 +117,13 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                         : "")
                                     : "bg-base-100 shadow-sm";
 
+                                const shouldHighlightTeamCard = !isPrinting && !isRoomReport && eventFilters?.highlightTeamId == cardItem.Id;
+
                                 return (
-                                    <div className={`card ${borderClass} card-sm mt-4 team-card`} key={cardKey}>
+                                    <div
+                                        className={`card ${borderClass} ${shouldHighlightTeamCard ? "bg-yellow-200" : ""} card-sm mt-4 team-card`}
+                                        id={shouldHighlightTeamCard && forceOpen ? scrollToViewElementId : undefined}
+                                        key={cardKey}>
                                         <div className="card-body">
                                             <p className="text-sm mb-0 font-bold">{cardItem.Name}</p>
                                             {!isRoomReport && hasRanking && (
@@ -135,9 +161,11 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
 
                                                     const resolvedMatch = resolvedMeet.Matches[matchIndex];
                                                     let matchTeam = null;
+                                                    let shouldHighlight = false;
                                                     if (match && isRoomReport) {
                                                         matchTeam = resolvedMeet.Teams[match.Team1];
                                                         match = matchTeam.Matches[matchIndex];
+                                                        shouldHighlight = !isPrinting && eventFilters?.highlightTeamId === matchTeam?.Id;
                                                     }
 
                                                     const isLiveMatch = null != match.CurrentQuestion;
@@ -179,7 +207,12 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                                     // Append the other team name and scores.
                                                     if (null != match.OtherTeam) {
 
-                                                        cellText.push(resolvedMeet.Teams[match.OtherTeam].Name);
+                                                        const otherTeam = resolvedMeet.Teams[match.OtherTeam];
+                                                        if (!shouldHighlight && !isPrinting && eventFilters?.highlightTeamId == otherTeam.Id) {
+                                                            shouldHighlight = true;
+                                                        }
+
+                                                        cellText.push(otherTeam.Name);
                                                         if (!isScheduleOnly) {
                                                             if (isLiveMatch) {
                                                                 if (!isRoomReport) {
@@ -187,7 +220,7 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                                                 }
                                                             }
                                                             else {
-                                                                cellText.push(`${match.Score} to ${resolvedMeet.Teams[match.OtherTeam].Matches[matchIndex].Score}`);
+                                                                cellText.push(`${match.Score} to ${otherTeam.Matches[matchIndex].Score}`);
                                                             }
                                                         }
                                                     }
@@ -222,7 +255,10 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                                     const cellHtml = cellText.join(" ");
 
                                                     return (
-                                                        <li key={matchKey} className="ml-6">
+                                                        <li
+                                                            key={matchKey}
+                                                            className={`ml-6${shouldHighlight ? " bg-yellow-200 font-bold" : ""}`}
+                                                        >
                                                             {isScheduleOnly && (<>{cellHtml}</>)}
                                                             {!isScheduleOnly && (
                                                                 <RoomDialogLink id={matchKey} label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
@@ -238,7 +274,7 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                                 })}
                                             </ol>
                                             {!isRoomReport && (
-                                                <div className="text-xs mt-0">91
+                                                <div className="text-xs mt-0">
                                                     {cardItem.CoachName && (
                                                         <p className="text-xs">
                                                             <b>Head Coach:</b> {cardItem.CoachName}

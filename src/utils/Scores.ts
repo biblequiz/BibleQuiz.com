@@ -18,4 +18,5 @@ export interface EventScoresProps {
     event?: EventScoringReport;
     isPrinting?: boolean;
     printingStatsFormat?: StatsFormat;
+    parentTabId?: string;
 };

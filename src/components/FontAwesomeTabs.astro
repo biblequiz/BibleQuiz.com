@@ -78,7 +78,7 @@ if (isSynced) {
     {
         panels && (
             <div class="tabs tabs-lift" role="tablist">
-				{panels.map(({ icon, label, panelId, tabId, badge, badgeId, badgeClass }, idx) => {
+				{panels.map(({ icon, label, panelId, tabId, badge, badgeId, badgeClass, tabElementId }, idx) => {
 
 					let tabList: string = "tab mt-0";
 					if (idx === 0) {
@@ -86,7 +86,7 @@ if (isSynced) {
 					}
 
 					return (
-						<li role="presentation" class={tabList}>
+						<li role="presentation" class={tabList} id={tabElementId}>
 							<a
 								role="tab"
 								href={'#' + panelId}

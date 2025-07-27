@@ -1,16 +1,43 @@
 import { atom } from 'nanostores';
+import Fuse, { type FuseResult } from "fuse.js";
+
 import { EventScoringReport } from "@types/EventScoringReport";
 import { RoomScoringReport } from "@types/RoomScoringReport";
-import type { QuizzerIndex, QuizzerIndexEntry } from "../types/QuizzerSearch";
+import type { QuizzerIndex } from "../types/QuizzerSearch";
+import type { ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from '../types/EventScoringReport';
+import type { TeamAndQuizzerFavorites } from '../types/TeamAndQuizzerFavorites';
 
 /* Downloaded Event Report */
+export interface EventScoringReportSearchIndexItem<T> {
+    meets: ScoringReportMeet[];
+    item: T;
+}
+
 export interface SharedEventScoringReportState {
     report: EventScoringReport | null;
+    favorites: TeamAndQuizzerFavorites;
+    teamIndex: Fuse<EventScoringReportSearchIndexItem<ScoringReportTeam>> | null;
+    quizzerIndex: Fuse<EventScoringReportSearchIndexItem<ScoringReportQuizzer>> | null;
     error: string | null;
 }
 
 export const sharedEventScoringReportState: SharedEventScoringReportState | null = atom(null);
 
+/* Event Report Search */
+export interface SharedEventScoringReportFilterState {
+    searchText: string | null;
+    teamResults: FuseResult<EventScoringReportSearchIndexItem<ScoringReportTeam>>[] | null;
+    quizzerResults: FuseResult<EventScoringReportSearchIndexItem<ScoringReportTeam>>[] | null;
+    openMeetDatabaseId: string | null;
+    openMeetMeetId: number | null;
+    highlightTeamId: string | null;
+    highlightQuizzerId: string | null;
+    favoritesVersion: number | null;
+}
+
+export const sharedEventScoringReportFilterState: SharedEventScoringReportFilterState | null = atom(null);
+
+/* Downloaded Room Score Report */
 export interface RoomDialogCriteria {
     label: string;
     eventId: string;
@@ -20,7 +47,6 @@ export interface RoomDialogCriteria {
     roomId: number;
 }
 
-/* Downloaded Room Score Report */
 export interface SharedRoomScoringReportState {
     criteria: RoomDialogCriteria | null;
     report: RoomScoringReport | null;
