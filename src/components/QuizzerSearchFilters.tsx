@@ -43,15 +43,17 @@ export default function QuizzerSearchFilters() {
     return (
         <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0">
             <legend className="fieldset-legend">Search by Name</legend>
-            <div className="flex justify-left w-full">
-                <input
-                    id={inputId}
-                    className="input"
-                    type="text"
-                    placeholder="Search All Quizzers ..."
-                    onKeyDown={handleEnterPress}
-                />
-                <a id="search-button" className="btn btn-info ml-4" onClick={handleSearchClick}>
+            <div className="flex w-full">
+                <label className="input w-full mt-0 mb-4">
+                    <input
+                        id={inputId}
+                        className="input"
+                        type="text"
+                        placeholder="Search All Quizzers ..."
+                        onKeyDown={handleEnterPress}
+                    />
+                </label>
+                <a id="search-button" className="btn btn-info ml-4">
                     <FontAwesomeIcon icon="fas faSearch" />
                     Search
                 </a>

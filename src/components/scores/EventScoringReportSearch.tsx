@@ -24,9 +24,21 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
 
     const favorites: TeamAndQuizzerFavorites = reportState.favorites;
 
-    const handleSearchTextChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const handleEnterPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === "Enter") {
+            handleSearchClick(e as any);
+        }
+    };
 
-        const searchText = e.target.value ?? null;
+    const inputTextBoxId = "event-search";
+    const handleSearchClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+
+        e.preventDefault();
+
+        const searchText: string | null = (document.getElementById(inputTextBoxId) as HTMLInputElement)?.value ?? null;
+        if (!searchText || searchText.length === 0) {
+            return;
+        }
 
         const teamResults: FuseResult<ScoringReportTeam>[] | null = reportState?.teamIndex?.search(searchText) ?? null;
         const quizzerResults: FuseResult<ScoringReportQuizzer>[] | null = reportState?.quizzerIndex?.search(searchText) ?? null;
@@ -59,11 +71,18 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
             openMeetMeetId: null,
             highlightTeamId: null,
             highlightQuizzerId: null,
-            favoritesVersion: favorites.version,
+            favoritesVersion: eventFilters?.favoritesVersion ?? favorites.version,
         });
     };
 
     const clearSearchText = (e: React.MouseEvent<HTMLButtonElement>) => {
+        e.preventDefault();
+
+        const searchBox = document.getElementById(inputTextBoxId) as HTMLInputElement;
+        if (searchBox) {
+            searchBox.value = "";
+        }
+
         sharedEventScoringReportFilterState.set(null);
     };
 
@@ -102,22 +121,27 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
     // Hide the parent tab if there the search results.
     const showResults = eventFilters?.searchText && eventFilters.searchText.length > 0;
     (document.getElementById(parentTabId) as HTMLDivElement).style.display = showResults ? "none" : "";
+    let hasAnyResults = false;
 
     return (
         <>
-            <div>
+            <div className="flex w-full">
                 <label className="input w-full mt-0 mb-4">
                     <FontAwesomeIcon icon="fas faSearch" classNames={["h-[1em]", "opacity-50"]} />
                     <input
+                        id={inputTextBoxId}
                         type="text"
                         className="grow"
                         placeholder="Quizzer or Team Name/Church"
-                        value={eventFilters?.searchText ?? ""}
-                        onChange={handleSearchTextChange} />
+                        onKeyDown={handleEnterPress} />
                     <button className="btn btn-ghost btn-xs" onClick={clearSearchText}>
                         <FontAwesomeIcon icon="fas faCircleXmark" />
                     </button>
                 </label>
+                <button className="btn btn-info ml-4 mt-0" onClick={handleSearchClick}>
+                    <FontAwesomeIcon icon="fas faSearch" />
+                    Search
+                </button>
             </div>
             {showResults && (
                 <div>
@@ -126,6 +150,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                             <p className="text-lg"><b>Teams</b></p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
                                 {eventFilters.teamResults.map((result: FuseResult<EventScoringReportSearchIndexItem<ScoringReportTeam>>) => {
+                                    hasAnyResults = true;
 
                                     const indexItem = result.item;
                                     const team: ScoringReportTeam = indexItem.item;
@@ -137,7 +162,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                                         : (f: TeamAndQuizzerFavorites) => f.teamIds.add(team.Id);
 
                                     return (
-                                        <div className="cardbg-base-100 card-sm shadow-sm" key={key}>
+                                        <div className="cardbg-base-100 card-sm shadow-sm mt-4" key={key}>
                                             <div className="card-body">
                                                 <h2 className="card-title">{team.Name}</h2>
                                                 <p className="mt-0 font-normal italic">
@@ -170,6 +195,8 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
                                 {eventFilters.quizzerResults.map((result: FuseResult<EventScoringReportSearchIndexItem<ScoringReportQuizzer>>) => {
 
+                                    hasAnyResults = true;
+
                                     const indexItem = result.item;
                                     const quizzer: ScoringReportQuizzer = indexItem.item;
                                     const key: string = `search_quizzer_${quizzer.Id}`;
@@ -180,7 +207,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                                         : (f: TeamAndQuizzerFavorites) => f.quizzerIds.add(quizzer.Id);
 
                                     return (
-                                        <div className="cardbg-base-100 card-sm shadow-sm" key={key}>
+                                        <div className="cardbg-base-100 card-sm shadow-sm mt-4" key={key}>
                                             <div className="card-body">
                                                 <h2 className="card-title">{quizzer.Name}</h2>
                                                 <p className="mt-0 font-normal italic">
@@ -208,6 +235,11 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                                 })}
                             </div>
                         </div>)}
+                    {!hasAnyResults && (
+                        <div className="text-center text-gray-500 italic">
+                            <p>No results found for "{eventFilters?.searchText}".</p>
+                        </div>
+                    )}
                 </div >)
             }
         </>);
