@@ -2,11 +2,12 @@ import { useEffect } from "react";
 import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch } from "@types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedEventScoringReportFilterState } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "@utils/SharedState";
 import CollapsableMeetSection from "./CollapsableMeetSection";
 import RoomLink from "./RoomDialogLink";
 import { EventScoringReport } from "@types/EventScoringReport";
 import { isTabActive } from "@utils/Tabs";
+import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
 
 export interface Props {
     eventId: string;
@@ -21,8 +22,10 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
 
     const scrollToViewElementId = `schedule_grid_scroll_elem`;
 
-    event ??= useStore(sharedEventScoringReportState)?.report;
+    const reportState = useStore(sharedEventScoringReportState);
+    event ??= reportState?.report;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
+    const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
     // Add an effect to scroll the item into view once it is loaded.
     useEffect(() => {
@@ -36,6 +39,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
         return (<span>Event is Loading ...</span>);
     }
 
+    const favorites: TeamAndQuizzerFavorites = reportState.favorites;
     let sectionIndex = 0;
 
     return (
@@ -71,6 +75,8 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                 const forceOpen = eventFilters?.openMeetDatabaseId === meet.DatabaseId &&
                     eventFilters.openMeetMeetId === meet.MeetId;
 
+                let hasAnyTeams = false;
+
                 return (
                     <CollapsableMeetSection
                         meet={meet}
@@ -105,13 +111,29 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                     const team = hasRankedTeams
                                         ? meet.Teams[teamId as number]
                                         : teamId as ScoringReportTeam;
-                                    const shouldHighlight = !isPrinting && eventFilters?.highlightTeamId === team.Id;
+
+                                    let highlightColor: string = "";
+                                    if (!isPrinting) {
+                                        const isFavorite = favorites.teamIds.has(team.Id);
+                                        if (eventFilters?.highlightTeamId === team.Id) {
+                                            highlightColor = "bg-yellow-200";
+                                        }
+                                        else if (isFavorite) {
+                                            highlightColor = "bg-accent-100";
+                                        }
+
+                                        if (showOnlyFavorites && !isFavorite) {
+                                            return null;
+                                        }
+                                    }
+
+                                    hasAnyTeams = true;
 
                                     return (
                                         <tr
                                             key={`${key}_teams_${teamIndex}`}
-                                            id={shouldHighlight && forceOpen ? scrollToViewElementId : undefined}
-                                            className={`hover:bg-base-300 ${shouldHighlight ? "bg-yellow-200" : ""}`}>
+                                            id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
+                                            className={`hover:bg-base-300 ${highlightColor}`}>
                                             {hasRankedTeams && (
                                                 <td className="text-right">
                                                     {team.Scores.Rank}{team.Scores.IsTie ? '*' : ''}
@@ -176,6 +198,13 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                             })}
                                         </tr>);
                                 })}
+                                {!hasAnyTeams && (
+                                    <tr>
+                                        <td colSpan={footerColSpan + meet.Matches.length} className="text-center text-sm italic">
+                                            No favorite teams found.
+                                        </td>
+                                    </tr>
+                                )}
                             </tbody>
                             {hasAnyMatchTimes && (
                                 <tfoot>
@@ -188,61 +217,69 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                     </tr>
                                 </tfoot>)}
                         </table>
-                        <table className="table table-s table-nowrap page-break-before">
-                            <thead>
-                                <tr>
-                                    <th>Team / Coach</th>
-                                    <th colSpan={2}>Quizzers</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {meet.Teams.map((team: ScoringReportTeam, teamIndex: number) => {
+                        {hasAnyTeams && (
+                            <table className="table table-s table-nowrap page-break-before">
+                                <thead>
+                                    <tr>
+                                        <th>Team / Coach</th>
+                                        <th colSpan={2}>Quizzers</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {meet.Teams.map((team: ScoringReportTeam, teamIndex: number) => {
 
-                                    const column1Count = team.Quizzers.length > 0
-                                        ? Math.ceil(team.Quizzers.length / 2)
-                                        : 0;
+                                        if (!isPrinting &&
+                                            showOnlyFavorites &&
+                                            !favorites.teamIds.has(team.Id)) {
 
-                                    const column2Count = team.Quizzers.length - column1Count;
+                                            return null;
+                                        }
 
-                                    const column1ColSpan = column2Count > 0 ? 1 : 2;
+                                        const column1Count = team.Quizzers.length > 0
+                                            ? Math.ceil(team.Quizzers.length / 2)
+                                            : 0;
 
-                                    return (
-                                        <tr key={`${key}_roster_${teamIndex}`}>
-                                            <td>
-                                                <span className="font-bold">{team.Name}</span>
-                                                <br />
-                                                <span className="italic">{team.ChurchName}</span>
-                                                {team.CoachName && (
-                                                    <>
-                                                        <br />
-                                                        <span>Coach: {team.CoachName}</span>
-                                                    </>)}
-                                            </td>
-                                            <td colSpan={column1ColSpan}>
-                                                {Array.from({ length: column1Count }, (_, q) => {
-                                                    const quizzerKey = `${key}_quizzer_c1_${q}`;
-                                                    return (
-                                                        <span key={quizzerKey}>
-                                                            {q > 0 && <br />}
-                                                            <span>{meet.Quizzers[team.Quizzers[q]].Name}</span>
-                                                        </span>);
-                                                })}
-                                            </td>
-                                            {column2Count > 0 && (
+                                        const column2Count = team.Quizzers.length - column1Count;
+
+                                        const column1ColSpan = column2Count > 0 ? 1 : 2;
+
+                                        return (
+                                            <tr key={`${key}_roster_${teamIndex}`}>
                                                 <td>
-                                                    {Array.from({ length: column2Count }, (_, q) => {
-                                                        const quizzerKey = `${key}_quizzer_c2_${q}`;
+                                                    <span className="font-bold">{team.Name}</span>
+                                                    <br />
+                                                    <span className="italic">{team.ChurchName}</span>
+                                                    {team.CoachName && (
+                                                        <>
+                                                            <br />
+                                                            <span>Coach: {team.CoachName}</span>
+                                                        </>)}
+                                                </td>
+                                                <td colSpan={column1ColSpan}>
+                                                    {Array.from({ length: column1Count }, (_, q) => {
+                                                        const quizzerKey = `${key}_quizzer_c1_${q}`;
                                                         return (
                                                             <span key={quizzerKey}>
                                                                 {q > 0 && <br />}
-                                                                <span>{meet.Quizzers[team.Quizzers[q + column1Count]].Name}</span>
+                                                                <span>{meet.Quizzers[team.Quizzers[q]].Name}</span>
                                                             </span>);
                                                     })}
-                                                </td>)}
-                                        </tr>);
-                                })}
-                            </tbody>
-                        </table>
+                                                </td>
+                                                {column2Count > 0 && (
+                                                    <td>
+                                                        {Array.from({ length: column2Count }, (_, q) => {
+                                                            const quizzerKey = `${key}_quizzer_c2_${q}`;
+                                                            return (
+                                                                <span key={quizzerKey}>
+                                                                    {q > 0 && <br />}
+                                                                    <span>{meet.Quizzers[team.Quizzers[q + column1Count]].Name}</span>
+                                                                </span>);
+                                                        })}
+                                                    </td>)}
+                                            </tr>);
+                                    })}
+                                </tbody>
+                            </table>)}
                     </CollapsableMeetSection>);
             })}
         </>);

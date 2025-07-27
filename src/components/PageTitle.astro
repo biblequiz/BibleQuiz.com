@@ -13,6 +13,7 @@ const {
 
 import ExcelExportButton from "./scores/ExcelExportButton.astro";
 import PrintDialogButton from "./scores/PrintDialogButton.astro";
+import ToggleFavoritesOnlyButton from "./scores/ToggleFavoritesOnlyButton";
 import EventScopeBadge from "./EventScopeBadge";
 ---
 
@@ -41,6 +42,7 @@ import EventScopeBadge from "./EventScopeBadge";
                     eventName={title}
                     isLoaded={eventIsLoaded ?? false}
                 />
+                <ToggleFavoritesOnlyButton isLoaded={eventIsLoaded ?? false} client:only="react" />
             </span>
         )
     }

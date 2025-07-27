@@ -1,6 +1,6 @@
 import type React from "react";
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedEventScoringReportFilterState } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "@utils/SharedState";
 import type { SharedEventScoringReportFilterState, SharedEventScoringReportState, EventScoringReportSearchIndexItem } from "@utils/SharedState";
 
 import FontAwesomeIcon from "../FontAwesomeIcon";
@@ -16,6 +16,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
 
     const reportState: SharedEventScoringReportState = useStore(sharedEventScoringReportState as any);
     const eventFilters: SharedEventScoringReportFilterState = useStore(sharedEventScoringReportFilterState as any);
+    const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
     // If there is no report, it is still loading.
     if (!reportState) {
@@ -240,7 +241,17 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                             <p>No results found for "{eventFilters?.searchText}".</p>
                         </div>
                     )}
-                </div >)
+                </div>)
             }
+            {showOnlyFavorites && (
+                <div
+                    role="alert"
+                    className="alert alert-warning"
+                >
+                    <span>
+                        Only favorites are being displayed. If you want to remove this, click
+                        the&nbsp;<FontAwesomeIcon icon="fas faStar" />&nbsp;button in the top-right.
+                    </span>
+                </div>)}
         </>);
 };

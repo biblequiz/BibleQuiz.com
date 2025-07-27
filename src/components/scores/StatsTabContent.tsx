@@ -2,12 +2,13 @@ import { useEffect } from "react";
 import { ScoringReportMeet } from "@types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedEventScoringReportFilterState, StatsFormat } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, StatsFormat, showFavoritesOnlyToggle } from "@utils/SharedState";
 import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
 import MeetProgressNotification from "@components/scores/MeetProgressNotification";
 import type { ScoringReportFootnote } from "@types/EventScoringReport";
 import type { EventScoresProps } from "@utils/Scores";
 import { isTabActive } from "@utils/Tabs";
+import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
 
 function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] | null, hasTie: boolean): JSX.Element {
     return (
@@ -30,8 +31,10 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
 
     const scrollToViewElementId = `stats_tab_scroll_elem`;
 
-    event ??= useStore(sharedEventScoringReportState)?.report;
+    const reportState = useStore(sharedEventScoringReportState);
+    event ??= reportState?.report;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
+    const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
     // Add an effect to scroll the item into view once it is loaded.
     useEffect(() => {
@@ -45,6 +48,7 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
         return (<span>Event is Loading ...</span>);
     }
 
+    const favorites: TeamAndQuizzerFavorites = reportState.favorites;
     let sectionIndex: number = 0;
 
     return (
@@ -66,6 +70,9 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
 
                 const forceOpen = eventFilters?.openMeetDatabaseId === meet.DatabaseId &&
                     eventFilters.openMeetMeetId === meet.MeetId;
+
+                let hasAnyTeams = false;
+                let hasAnyQuizzers = false;
 
                 return (
                     <CollapsableMeetSection
@@ -102,7 +109,23 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                                     <tbody>
                                         {meet.RankedTeams.map((teamId: number) => {
                                             const team = meet.Teams[teamId];
-                                            const shouldHighlight = !isPrinting && eventFilters?.highlightTeamId === team.Id;
+
+                                            let highlightColor: string = "";
+                                            if (!isPrinting) {
+                                                const isFavorite = favorites.teamIds.has(team.Id);
+                                                if (eventFilters?.highlightTeamId === team.Id) {
+                                                    highlightColor = "bg-yellow-200 font-bold";
+                                                }
+                                                else if (isFavorite) {
+                                                    highlightColor = "bg-accent-100 font-bold";
+                                                }
+
+                                                if (showOnlyFavorites && !isFavorite) {
+                                                    return null;
+                                                }
+                                            }
+
+                                            hasAnyTeams = true;
 
                                             if (team.Scores.FootnoteIndex == null && team.Scores.IsTie) {
                                                 hasTeamTie = true;
@@ -110,8 +133,8 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
 
                                             return (
                                                 <tr
-                                                    className={`hover:bg-base-300 ${shouldHighlight ? " bg-yellow-200 font-bold" : ""}`}
-                                                    id={shouldHighlight && forceOpen ? scrollToViewElementId : undefined}
+                                                    className={`hover:bg-base-300 ${highlightColor}`}
+                                                    id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
                                                     key={`team_${meet.DatabaseId}_${meet.MeetId}_${teamId}`}>
                                                     <th className="text-right">
                                                         {team.Scores.FootnoteIndex != null && (
@@ -141,6 +164,11 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                                                     <td className="text-right">{team.Scores.Correct10s ? team.Scores.Correct10s : (<>&nbsp;</>)}</td>
                                                 </tr>);
                                         })}
+                                        {!hasAnyTeams && (
+                                            <tr>
+                                                <td colSpan={12} className="text-center">No favorite teams found.</td>
+                                            </tr>
+                                        )}
                                     </tbody>
                                 </table>
                                 {formatFootnotes(`${meet.DatabaseId}_${meet.MeetId}_teamfoot`, meet.TeamFootnotes, hasTeamTie)}
@@ -168,7 +196,23 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                                     <tbody>
                                         {meet.RankedQuizzers.map((quizzerId: number) => {
                                             const quizzer = meet.Quizzers[quizzerId];
-                                            const shouldHighlight = !isPrinting && eventFilters?.highlightQuizzerId === quizzer.Id;
+
+                                            let highlightColor: string = "";
+                                            if (!isPrinting) {
+                                                const isFavorite = favorites.quizzerIds.has(quizzer.Id);
+                                                if (eventFilters?.highlightQuizzerId === quizzer.Id) {
+                                                    highlightColor = "bg-yellow-200 font-bold";
+                                                }
+                                                else if (isFavorite) {
+                                                    highlightColor = "bg-accent-100 font-bold";
+                                                }
+
+                                                if (showOnlyFavorites && !isFavorite) {
+                                                    return null;
+                                                }
+                                            }
+
+                                            hasAnyQuizzers = true;
 
                                             if (quizzer.Scores.FootnoteIndex == null && quizzer.Scores.IsTie) {
                                                 hasQuizzerTie = true;
@@ -176,8 +220,8 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
 
                                             return (
                                                 <tr
-                                                    className={`hover:bg-base-300 ${shouldHighlight ? " bg-yellow-200 font-bold" : ""}`}
-                                                    id={shouldHighlight && forceOpen ? scrollToViewElementId : undefined}
+                                                    className={`hover:bg-base-300 ${highlightColor}`}
+                                                    id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
                                                     key={`quizzer_${meet.DatabaseId}_${meet.MeetId}_${quizzerId}`}>
                                                     <th className="text-right">
                                                         {quizzer.Scores.FootnoteIndex != null && (
@@ -209,6 +253,11 @@ export default function StatsTabContent({ event, isPrinting, printingStatsFormat
                                                     <td className="text-right">{quizzer.Scores.Correct10s ? quizzer.Scores.Correct10s : (<>&nbsp;</>)}</td>
                                                 </tr>);
                                         })}
+                                        {!hasAnyTeams && (
+                                            <tr>
+                                                <td colSpan={12} className="text-center">No favorite quizzers found.</td>
+                                            </tr>
+                                        )}
                                     </tbody>
                                 </table>
                                 {formatFootnotes(`${meet.DatabaseId}_${meet.MeetId}_quizzerfoot`, meet.QuizzerFootnotes, hasQuizzerTie)}

@@ -21,7 +21,7 @@ export interface SharedEventScoringReportState {
     error: string | null;
 }
 
-export const sharedEventScoringReportState: SharedEventScoringReportState | null = atom(null);
+export const sharedEventScoringReportState = atom<SharedEventScoringReportState | null>(null);
 
 /* Event Report Search */
 export interface SharedEventScoringReportFilterState {
@@ -35,7 +35,10 @@ export interface SharedEventScoringReportFilterState {
     favoritesVersion: number | null;
 }
 
-export const sharedEventScoringReportFilterState: SharedEventScoringReportFilterState | null = atom(null);
+export const sharedEventScoringReportFilterState = atom<SharedEventScoringReportFilterState | null>(null);
+
+/* Toggle for Favorites */
+export const showFavoritesOnlyToggle = atom<boolean>(false);
 
 /* Downloaded Room Score Report */
 export interface RoomDialogCriteria {
@@ -53,7 +56,7 @@ export interface SharedRoomScoringReportState {
     error: string | null;
 }
 
-export const sharedRoomScoringReportState: SharedRoomScoringReportState | null = atom(null);
+export const sharedRoomScoringReportState = atom<SharedRoomScoringReportState | null>(null);
 
 /* Print Dialog */
 export interface MeetReference {
@@ -86,7 +89,7 @@ export interface PrintConfiguration {
     selectedMeets: MeetReference[];
 };
 
-export const sharedPrintConfiguration: PrintConfiguration | null = atom(null);
+export const sharedPrintConfiguration = atom<PrintConfiguration | null>(null);
 
 /* Event List Filters */
 export interface EventListFilterConfiguration {
@@ -99,7 +102,7 @@ export interface EventListFilterConfiguration {
     districtId: string | null;
 };
 
-export const sharedEventListFilter: EventListFilterConfiguration | null = atom(null);
+export const sharedEventListFilter = atom<EventListFilterConfiguration | null>(null);
 
 /* Quizzer Search Dialog */
 export interface QuizzerSearchState {
@@ -108,4 +111,4 @@ export interface QuizzerSearchState {
     quizzerIndex: number | null;
 };
 
-export const sharedQuizzerSearchState: QuizzerSearchState | null = atom(null);
+export const sharedQuizzerSearchState = atom<QuizzerSearchState | null>(null);
