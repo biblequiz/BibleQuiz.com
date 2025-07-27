@@ -1,5 +1,12 @@
 import FontAwesomeIcon from "@components/FontAwesomeIcon";
 
+interface SectionBadge {
+    id: string;
+    className: string;
+    icon?: string;
+    text: string;
+}
+
 interface Props {
     pageId: string;
     elementId?: string;
@@ -14,9 +21,10 @@ interface Props {
     printSectionIndex?: number;
     forceOpen?: boolean;
     children?: React.ReactNode;
+    badges?: SectionBadge[];
 };
 
-export default function CollapsibleSection({ pageId, elementId, icon, iconChildren,title, titleClass, subtitle, subtitleClass, titleChildren, isPrinting, printSectionIndex, forceOpen, children }: Props) {
+export default function CollapsibleSection({ pageId, elementId, icon, iconChildren, title, titleClass, subtitle, subtitleClass, titleChildren, isPrinting, printSectionIndex, forceOpen, children, badges }: Props) {
 
     const titleElement = (
         <>
@@ -27,6 +35,12 @@ export default function CollapsibleSection({ pageId, elementId, icon, iconChildr
                 {icon && (<><FontAwesomeIcon icon={icon} />&nbsp;</>)}
                 {iconChildren}
                 {title}
+                {!isPrinting && badges && badges.map((badge) => (
+                    <span key={badge.id} className={`badge ${badge.className} badge-sm ml-2`} id={badge.id}>
+                        {badge.icon && <FontAwesomeIcon icon={badge.icon} className="mr-1" />}
+                        {badge.text}
+                    </span>
+                ))}
             </p>
             {subtitle && <div className={`${subtitleClass || "subtitle italic text-sm"} mt-0`}>{subtitle}</div>}
             {titleChildren}
