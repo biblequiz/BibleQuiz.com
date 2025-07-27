@@ -1,7 +1,7 @@
 import FontAwesomeIcon from "@components/FontAwesomeIcon";
 
 interface SectionBadge {
-    id: string;
+    id?: string;
     className: string;
     icon?: string;
     text: string;
@@ -35,8 +35,8 @@ export default function CollapsibleSection({ pageId, elementId, icon, iconChildr
                 {icon && (<><FontAwesomeIcon icon={icon} />&nbsp;</>)}
                 {iconChildren}
                 {title}
-                {!isPrinting && badges && badges.map((badge) => (
-                    <span key={badge.id} className={`badge ${badge.className} badge-sm ml-2`} id={badge.id}>
+                {!isPrinting && badges && badges.map((badge, index) => (
+                    <span key={`${pageId}_${index}`} className={`badge ${badge.className} badge-sm ml-2`} id={badge.id}>
                         {badge.icon && <FontAwesomeIcon icon={badge.icon} className="mr-1" />}
                         {badge.text}
                     </span>

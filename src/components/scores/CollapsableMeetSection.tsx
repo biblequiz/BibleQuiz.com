@@ -4,7 +4,7 @@ import { ScoringReportMeet } from "@types/EventScoringReport";
 import { formatLastUpdated } from "@utils/Scores";
 
 interface SectionBadge {
-    id: string;
+    id?: string;
     className: string;
     icon?: string;
     text: string;
