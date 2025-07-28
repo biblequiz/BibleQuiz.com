@@ -76,7 +76,6 @@ export default defineConfig({
                 PageTitle: "./src/components/PageTitle.astro",
                 Sidebar: "./src/components/sidebar/Sidebar.astro",
                 TwoColumnContent: "./src/components/TwoColumnContent.astro",
-                ThemeSelect: "./src/components/ThemeSelect.astro",
                 SocialIcons: "./src/components/SocialIcons.astro",
             },
             lastUpdated: true,
@@ -91,6 +90,8 @@ export default defineConfig({
                     errorOnRelativeLinks: false,
                 }),
                 starlightBlog({
+                    title: "News",
+                    prefix: "news",
                     postCount: 10,
                     recentPostCount: 10,
                 }),
