@@ -1,0 +1,76 @@
+---
+
+---
+
+<script>
+    import { AuthManager, UserAccountProfile } from "../../types/AuthManager";
+    import { sharedAuthManager } from "../../utils/SharedState";
+
+    import {
+        LogLevel,
+        PublicClientApplication,
+        type IPublicClientApplication,
+    } from "@azure/msal-browser";
+
+    // Initialize the MSAL client and active account. This happens in the background so that
+    // other processing can happen at the same time.
+    const redirectPath = "/auth";
+
+    const accountChangeCallback = (
+        client: IPublicClientApplication | null,
+        state: any | null,
+    ) => {
+        sharedAuthManager.set(new AuthManager(client, state, accountChangeCallback));
+    };
+
+    PublicClientApplication.createPublicClientApplication({
+        auth: {
+            clientId: "1058ea35-28ff-4b8a-953a-269f36d90235", // This is the ONLY mandatory field that you need to supply.
+            authority: "https://biblequizusers.ciamlogin.com/", // Replace the placeholder with your tenant subdomain
+            redirectUri: window.location.origin + redirectPath, // Points to window.location.origin. You must register this URI on Microsoft Entra admin center/App Registration.
+            // postLogoutRedirectUri: "/", // Indicates the page to navigate after logout.
+            navigateToLoginRequestUrl: false, // If "true", will navigate back to the original request location before processing the auth code response.
+        },
+        cache: {
+            cacheLocation: "localStorage", // Configures cache location. "sessionStorage" is more secure, but "localStorage" gives you SSO between tabs.
+            storeAuthStateInCookie: false, // Set this to "true" if you are having issues on IE11 or Edge
+            secureCookies: true, // Set this to "true" to enable secure cookies in browsers that support it (e.g., Chrome, Firefox, Edge). This is recommended for production environments.
+        },
+        system: {
+            loggerOptions: {
+                loggerCallback: (
+                    level: LogLevel,
+                    message: string,
+                    containsPii: boolean,
+                ) => {
+                    if (containsPii) {
+                        return;
+                    }
+                    switch (level) {
+                        case LogLevel.Error:
+                            console.error(message);
+                            return;
+                        case LogLevel.Info:
+                            console.info(message);
+                            return;
+                        case LogLevel.Verbose:
+                            console.debug(message);
+                            return;
+                        case LogLevel.Warning:
+                            console.warn(message);
+                            return;
+                        default:
+                            return;
+                    }
+                },
+            },
+        },
+    })
+        .then((instance) => {
+            // Initialize the shared auth manager with the new instance.
+            accountChangeCallback(instance, null);
+        })
+        .catch((error) => {
+            console.error("Error creating MSAL instance:", error);
+        });
+</script>

@@ -1,0 +1,49 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+import { CardGrid, LinkCard } from "@astrojs/starlight/components";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Home Page",
+    template: "splash",
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+
+    <CardGrid>
+        <LinkCard
+            title="Upcoming & Live Events"
+            description="Register and see scores for any upcoming Junior or Teen Bible Quiz events."
+            href="/upcoming-events/"
+        />
+
+        <!--    <LinkCard
+            title="TBQ National Finals
+            description="All the information for TBQ National Finals in Tuscon, AZ."
+            href="/tbq/seasons/2026/nationals/" /> -->
+    </CardGrid>
+
+    <CardGrid>
+        <LinkCard
+            title="Junior Bible Quiz (JBQ)"
+            href="/jbq"
+            description={`
+            <div class="flex items-start gap-4">
+                <img src="/assets/logos/jbq/jbq-logo.png" alt="JBQ Logo" class="w-20 h-20 flex-shrink-0 mt-6" />
+                <div>An exciting program for kids in grades 1-6 that helps them grow in faith by learning the Bible from Genesis to Revelation. Using a 576-question 'Fact-Pak', children memorize key facts about Scripture and put their knowledge to the test through fun, fast-paced competitions.</div>
+            </div>`}
+        />
+
+        <LinkCard
+            title="Teen Bible Quiz (TBQ)"
+            href="/tbq"
+            description={`
+            <div class="flex items-start gap-4">
+                <img src="/assets/logos/tbq/tbq-logo.png" alt="TBQ Logo" class="w-20 h-20 flex-shrink-0 mt-6" />
+                <div>Teen Bible Quiz helps middle and high school students grow in faith by memorizing and mastering New Testament books. Through competition at local, regional, and national tournaments, students develop spiritual maturity, critical thinking skills, and lifelong friendships — along with opportunities to earn scholarships.</div>
+            </div>`}
+        />
+    </CardGrid>
+</StarlightPage>
