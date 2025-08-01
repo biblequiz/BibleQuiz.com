@@ -1,5 +1,6 @@
 import { useStore } from "@nanostores/react";
 import { sharedAuthManager } from "../../utils/SharedState";
+import FontAwesomeIcon from "../FontAwesomeIcon";
 
 export default function AuthButton() {
 
@@ -8,11 +9,14 @@ export default function AuthButton() {
     const userProfile = authManager.userProfile;
     if (userProfile) {
         return (
-            <button className="btn btn-warning" disabled={authManager.isPopupOpen} onClick={() => {
-                authManager.logout();
-            }}>
-                Sign Out for {userProfile.displayName}
-            </button>);
+            <div>
+                <FontAwesomeIcon icon="fas faUser" />&nbsp;{userProfile.displayName}
+                <button className="btn btn-warning btn-sm" disabled={authManager.isPopupOpen} onClick={() => {
+                    authManager.logout();
+                }}>
+                    <FontAwesomeIcon icon="fas faArrowRightFromBracket" />
+                </button>
+            </div>);
     }
     else {
         return (
