@@ -10,7 +10,7 @@ export default function AuthButton() {
     if (userProfile) {
         return (
             <div>
-                <FontAwesomeIcon icon="fas faUser" />&nbsp;{userProfile.displayName}
+                <FontAwesomeIcon icon="fas faUser" />&nbsp;{userProfile.displayName}&nbsp;
                 <button className="btn btn-warning btn-sm" disabled={authManager.isPopupOpen} onClick={() => {
                     authManager.logout();
                 }}>
