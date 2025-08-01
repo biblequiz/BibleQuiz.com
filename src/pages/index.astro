@@ -2,8 +2,9 @@
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
 
-import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
-import AuthButton from "@components/AuthButton.tsx";
+import { CardGrid, LinkCard } from "@astrojs/starlight/components";
+import AuthManagerLoader from "@components/auth/AuthManagerLoader.astro";
+import AuthButton from "@components/auth/AuthButton.tsx";
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "Home Page",
@@ -12,6 +13,8 @@ const frontmatter: StarlightPageFrontmatter = {
 ---
 
 <StarlightPage frontmatter={frontmatter}>
+
+    <AuthManagerLoader />
     <AuthButton client:only="react" />
 
     <CardGrid>

@@ -7,24 +7,6 @@
     <head>
         <title>Redirecting from BibleQuiz.com login ...</title>
     </head>
-    <body></body>
+    <body>
+    </body>
 </html>
-
-<script>
-    import { getMsalConfig } from "../utils/AuthState";
-    import { PublicClientApplication } from "@azure/msal-browser";
-
-    const client = await PublicClientApplication.createPublicClientApplication(
-        getMsalConfig(window.location.origin),
-    );
-
-    client
-        .handleRedirectPromise()
-        .then((tokenResponse) => {
-            // Persist the result of the login.
-            client.setActiveAccount(tokenResponse?.account ?? null);
-        })
-        .catch((error) => {
-            // handle error, either in the library or coming back from the server
-        });
-</script>

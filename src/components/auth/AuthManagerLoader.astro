@@ -1,21 +1,34 @@
-import { atom } from 'nanostores';
-import { LogLevel, type Configuration, type IPublicClientApplication } from '@azure/msal-browser';
+---
 
-export const sharedAuthClient = atom<IPublicClientApplication | null>(null);
+---
 
-/**
- * Gets the MSAL configuration for initializing a client.
- * 
- * @param rootUrl Root URL for the service.
- * @returns MSAL configuration object.
- */
-export function getMsalConfig(rootUrl: string): Configuration {
-    return {
+<script>
+    import { AuthManager, UserAccountProfile } from "../../types/AuthManager";
+    import { sharedAuthManager } from "../../utils/SharedState";
+
+    import {
+        LogLevel,
+        PublicClientApplication,
+        type IPublicClientApplication,
+    } from "@azure/msal-browser";
+
+    // Initialize the MSAL client and active account. This happens in the background so that
+    // other processing can happen at the same time.
+    const redirectPath = "/auth";
+
+    const accountChangeCallback = (
+        client: IPublicClientApplication | null,
+        state: any | null,
+    ) => {
+        sharedAuthManager.set(new AuthManager(client, state, accountChangeCallback));
+    };
+
+    PublicClientApplication.createPublicClientApplication({
         auth: {
             clientId: "1058ea35-28ff-4b8a-953a-269f36d90235", // This is the ONLY mandatory field that you need to supply.
             authority: "https://biblequizusers.ciamlogin.com/", // Replace the placeholder with your tenant subdomain
-            redirectUri: `${rootUrl}/auth`, // Points to window.location.origin. You must register this URI on Microsoft Entra admin center/App Registration.
-            postLogoutRedirectUri: "/", // Indicates the page to navigate after logout.
+            redirectUri: window.location.origin + redirectPath, // Points to window.location.origin. You must register this URI on Microsoft Entra admin center/App Registration.
+            // postLogoutRedirectUri: "/", // Indicates the page to navigate after logout.
             navigateToLoginRequestUrl: false, // If "true", will navigate back to the original request location before processing the auth code response.
         },
         cache: {
@@ -52,5 +65,12 @@ export function getMsalConfig(rootUrl: string): Configuration {
                 },
             },
         },
-    };
-}
+    })
+        .then((instance) => {
+            // Initialize the shared auth manager with the new instance.
+            accountChangeCallback(instance, null);
+        })
+        .catch((error) => {
+            console.error("Error creating MSAL instance:", error);
+        });
+</script>
