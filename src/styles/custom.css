@@ -45,6 +45,7 @@
 
 /* Makes the scoring tables fit better. */
 @layer components {
+
     .table-nowrap th,
     .table-nowrap td {
         @apply whitespace-nowrap;
@@ -185,32 +186,32 @@ td.current-question-bottom {
 }
 
 /* Overriding the default Starlight styles for lists. */
-.sl-markdown-content ol > li {
+.sl-markdown-content ol>li {
     list-style-type: decimal;
     margin-left: 1.5em;
 }
 
-.sl-markdown-content ol ol > li {
+.sl-markdown-content ol ol>li {
     list-style-type: lower-alpha;
     margin-left: 3em;
 }
 
-.sl-markdown-content ol ol ol > li {
+.sl-markdown-content ol ol ol>li {
     list-style-type: lower-roman;
     margin-left: 4.5em;
 }
 
-.sl-markdown-content ul > li {
+.sl-markdown-content ul>li {
     list-style-type: disc;
     margin-left: 1.5em;
 }
 
-.sl-markdown-content ul ul > li {
+.sl-markdown-content ul ul>li {
     list-style-type: circle;
     margin-left: 3em;
 }
 
-.sl-markdown-content ul ul ul > li {
+.sl-markdown-content ul ul ul>li {
     list-style-type: square;
     margin-left: 4.5em;
 }
@@ -235,7 +236,7 @@ td.current-question-bottom {
 }
 
 /* Ensure all header child elements also use dark mode colors */
-.header * {
+.header *:not(.text-base-content) {
     color: inherit;
 }
 
