@@ -14,7 +14,8 @@
     --sl-color-black: #001d1d;
 }
 
-:root a {
+/* Dark mode link colors. */
+:root[data-theme="dark"] div.main-pane a {
     color: white;
 }
 
