@@ -1,7 +1,6 @@
 /* Dark mode colors. */
 :root {
     --sl-content-width: 100%;
-
     --sl-color-accent-low: #142827;
     --sl-color-accent: #267876;
     --sl-color-accent-high: #b6cecd;
@@ -15,10 +14,15 @@
     --sl-color-black: #001d1d;
 }
 
+/* Dark mode link colors. */
+:root[data-theme="dark"] div.main-pane p a {
+    color: white;
+}
+
 /* Light mode colors. */
 :root[data-theme="light"] {
     --sl-content-width: 100%;
-
+    --sl-color-text: rgb(48, 46, 46);
     --sl-color-accent-low: #c9dbda;
     --sl-color-accent: #005958;
     --sl-color-accent-high: #183838;
