@@ -1,6 +1,7 @@
 import type { AccountInfo, AuthenticationResult, IPublicClientApplication } from "@azure/msal-browser";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
+const TOKEN_SCOPES = ["offline_access", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
 
 /**
  * Manager for auth.
@@ -11,7 +12,8 @@ export class AuthManager {
     private readonly _profile: UserAccountProfile | null;
     private readonly _stateChangedCallback: (client: IPublicClientApplication | null, state: any | null) => void;
 
-    private _isPopupOpen: boolean = false;
+    private readonly _isPopupOpen: boolean = false;
+    private readonly _isRetrievingProfile: boolean = false;
 
     /**
      * Creates a new instance of the AuthManager.
@@ -27,10 +29,12 @@ export class AuthManager {
         if (!state) {
             this._profile = AuthManager.loadProfile();
             this._isPopupOpen = false;
+            this._isRetrievingProfile = false;
         }
         else {
             this._profile = state.profile;
-            this._isPopupOpen = state.isPopupOpen;
+            this._isPopupOpen = state.isPopupOpen ?? false;
+            this._isRetrievingProfile = state.isRetrievingProfile ?? false;
         }
 
         this._client = client;
@@ -53,6 +57,20 @@ export class AuthManager {
     }
 
     /**
+     * Value indicating whether the profile is being retrieved.
+     */
+    public get isRetrievingProfile(): boolean {
+        return this._isRetrievingProfile;
+    }
+
+    /**
+     * Value indicating whether the user is fully authenticated.
+     */
+    public get isAuthenticated(): boolean {
+        return this._profile !== null && this._profile.type !== UserProfileType.NotConfigured;
+    }
+
+    /**
      * Current profile for the user (if any).
      */
     public get userProfile(): UserAccountProfile | null {
@@ -67,11 +85,11 @@ export class AuthManager {
             return Promise.reject(new Error("Auth client is not initialized."));
         }
 
-        this._stateChangedCallback(this._client, { isPopupOpen: true, profile: null });
+        this._stateChangedCallback(this._client, { isPopupOpen: true, isRetrievingProfile: true, profile: null });
 
         return this._client
             .loginPopup({
-                scopes: [],
+                scopes: TOKEN_SCOPES,
                 prompt: 'select_account',
                 state: window.location.pathname
             })
@@ -82,14 +100,35 @@ export class AuthManager {
                     tokenResponse?.account ?? null,
                 );
 
-                const newProfile = new UserAccountProfile(tokenResponse.account?.name ?? null);
+                fetch("https://registration.biblequiz.com/api/v1.0/users/profile", {
+                    method: "GET",
+                    headers: {
+                        // "Authorization": `Bearer ${tokenResponse.idToken}`,
+                        "Authorization": `Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Im1VRzZ2WW5SbG9mdUx4Y2lacnU3U3B0ZjZOTSJ9.eyJhdWQiOiIxMDU4ZWEzNS0yOGZmLTRiOGEtOTUzYS0yNjlmMzZkOTAyMzUiLCJpc3MiOiJodHRwczovLzRlNzFkZjM0LWNiOTItNGZlMS1iZDZiLTkwY2RkZjkwYTc5My5jaWFtbG9naW4uY29tLzRlNzFkZjM0LWNiOTItNGZlMS1iZDZiLTkwY2RkZjkwYTc5My92Mi4wIiwiaWF0IjoxNzU0MjgyMDM1LCJuYmYiOjE3NTQyODIwMzUsImV4cCI6MTc1NDI4NTkzNSwiYWNjdCI6MCwiYWlvIjoiQVZRQXEvOFpBQUFBd08xaFRrNWxBZ2dMK3NNbEZET1c2YTRMK01sdWFSTWhqRXlkaUQzRHVyL3pMQlJBUENETGRNcmQxZjA4RERhVUNkQ3k5V0psbkJVM3c1eVhnQXVKSEU1Y2FXcXgvZjZPT0JoTjV6TlZLaGc9IiwiZW1haWwiOiJzY290dG1AbWljaGFlbGJzY290dC5jb20iLCJuYW1lIjoiTWljaGFlbCBTY290dCIsIm9pZCI6IjFhNTlmZTIxLTk0ZWItNDIxYS04OTc3LWJhNDA2M2RmMDUzOSIsInByZWZlcnJlZF91c2VybmFtZSI6InNjb3R0bUBtaWNoYWVsYnNjb3R0LmNvbSIsInJoIjoiMS5BYmdBTk45eFRwTEw0VS05YTVETjM1Q25relhxV0JEX0tJcExsVG9tbnpiWkFqVzRBTHU0QUEuIiwic2lkIjoiZTlmMTU2NDEtNWU5Yi00Nzk5LWEzYzMtYzAxZWUxNDBlYzAwIiwic3ViIjoiVGFLRnFUd25BOVFwanhVN3QwZmlmSUxJcHhQOXl3V1VUYjdwSkZpSHR1ayIsInRpZCI6IjRlNzFkZjM0LWNiOTItNGZlMS1iZDZiLTkwY2RkZjkwYTc5MyIsInVwbiI6IjFhNTlmZTIxLTk0ZWItNDIxYS04OTc3LWJhNDA2M2RmMDUzOUBiaWJsZXF1aXp1c2Vycy5vbm1pY3Jvc29mdC5jb20iLCJ1dGkiOiJ2a3kxamoxT3hVR19uaG5oLTlnR0FBIiwidmVyIjoiMi4wIn0.R6024IRxCBUgUZUDPMXOaNmetjFlVw-FbdX_2L79eu71r0B_TOzxW0q0a-4DDSbvyzG221EmBvyxoyfm4K_CYOdluYedtiTYN03f0-RsXpw3Y1ieTbTVMrz9y0CC_SDThXVasFtwGEZW_SSMW8eEjCs72xLUwPxEIvetV9KhoYp5sgyEQKFxTmYYpcXnkLdBVVSqCFDF8PkV7Y9xliBdnCsNFs75DPzbjTd_xtOSkVVli8mWhjZtsak4YTzv8_KP1dnR-LcvjezExmLRPRGyJQZwhe8trQpX2PVX2Ze5HbqKLHXMIx2r2XaqkpZHzaLHj0Bo2XOcUWNTsamWUVT19Q`,
+                    }
+                })
+                    .then(response => response.json())
+                    .then(response => {
 
-                AuthManager.saveProfile(newProfile);
-                this._stateChangedCallback(this._client, { isPopupOpen: false, profile: newProfile });
+                        const remoteProfile = JSON.parse(response.body) as RemoteUserProfile;
+
+                        const newProfile = new UserAccountProfile(
+                            remoteProfile.PersonId,
+                            remoteProfile.Name,
+                            remoteProfile.Type,
+                            remoteProfile.IsJbqAdmin,
+                            remoteProfile.IsTbqAdmin);
+
+                        AuthManager.saveProfile(newProfile);
+                        this._stateChangedCallback(this._client, { isPopupOpen: false, isRetrievingProfile: false, profile: newProfile });
+                    })
+                    .catch((error) => {
+                        console.error("Failed to fetch user profile:", error);
+                    });
             })
             .catch((error) => {
                 console.log(error);
-                this._stateChangedCallback(this._client, { isPopupOpen: false, profile: this._profile });
+                this._stateChangedCallback(this._client, { isPopupOpen: false, isRetrievingProfile: false, profile: this._profile });
             });
     }
 
@@ -101,7 +140,7 @@ export class AuthManager {
             return Promise.reject(new Error("Auth client is not initialized."));
         }
 
-        this._stateChangedCallback(this._client, { isPopupOpen: true, profile: this._profile });
+        this._stateChangedCallback(this._client, { isPopupOpen: true, isRetrievingProfile: false, profile: this._profile });
 
         return this._client
             .logoutPopup({
@@ -109,11 +148,11 @@ export class AuthManager {
             })
             .then(() => {
                 AuthManager.saveProfile(null);
-                this._stateChangedCallback(this._client, { isPopupOpen: false, profile: null });
+                this._stateChangedCallback(this._client, { isPopupOpen: false, isRetrievingProfile: false, profile: null });
             })
             .catch((error) => {
                 console.log(error);
-                this._stateChangedCallback(this._client, { isPopupOpen: false, profile: this._profile });
+                this._stateChangedCallback(this._client, { isPopupOpen: false, isRetrievingProfile: false, profile: this._profile });
             });
     }
 
@@ -134,7 +173,7 @@ export class AuthManager {
 
         return this._client
             .acquireTokenSilent({
-                scopes: [],
+                scopes: TOKEN_SCOPES,
                 account: activeAccount,
             })
             .then((tokenResponse: AuthenticationResult) => {
@@ -156,7 +195,12 @@ export class AuthManager {
         if (serialized) {
             const serializedProfile = JSON.parse(serialized) as SerializedAccountProfile;
             if (serializedProfile) {
-                return new UserAccountProfile(serializedProfile.displayName);
+                return new UserAccountProfile(
+                    serializedProfile.personId,
+                    serializedProfile.displayName,
+                    serializedProfile.type,
+                    serializedProfile.isJbqAdmin,
+                    serializedProfile.isTbqAdmin);
             }
         }
 
@@ -172,7 +216,11 @@ export class AuthManager {
         if (profile) {
 
             const serializedProfile: SerializedAccountProfile = {
-                displayName: profile.displayName
+                personId: profile.personId,
+                displayName: profile.displayName,
+                type: profile.type,
+                isJbqAdmin: profile.isJbqAdmin,
+                isTbqAdmin: profile.isTbqAdmin
             };
 
             localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(serializedProfile));
@@ -186,29 +234,121 @@ export class AuthManager {
  * Profile for the current user.
  */
 export class UserAccountProfile {
-    private readonly _displayName: string | null;
 
     /**
      * Creates a new instance of the AccountProfile.
-     * @param account The account information.
+     * @param personId  Id of the person in the remote system.
+     * @param displayName Display name of the user.
+     * @param type Type of the user's profile.
+     * @param isJbqAdmin Value indicating whether the user is a JBQ administrator.
+     * @param isTbqAdmin Value indicating whether the user is a TBQ administrator.
      */
-    public constructor(displayName: string | null) {
-        this._displayName = displayName;
+    public constructor(
+        personId: string | null,
+        displayName: string | null,
+        type: UserProfileType | null,
+        isJbqAdmin: boolean,
+        isTbqAdmin: boolean) {
+
+        this.personId = personId;
+        this.displayName = displayName;
+        this.type = type;
+        this.isJbqAdmin = isJbqAdmin;
+        this.isTbqAdmin = isTbqAdmin;
     }
+
+    /**
+     * Id of the person in the remote system.
+     */
+    public readonly personId: string | null;
 
     /**
      * Display name of the current user (if user is authenticated).
      */
-    public get displayName(): string | null {
-        return this._displayName;
-    }
+    public readonly displayName: string | null;
+
+    /**
+     * Type of the user's profile.
+     */
+    public readonly type!: UserProfileType | null;
+
+    /**
+     * Value indicating whether the user is a JBQ administrator.
+     */
+    public readonly isJbqAdmin!: boolean;
+
+    /**
+     * Value indicating whether the user is a TBQ administrator.
+     */
+    public readonly isTbqAdmin!: boolean;
 }
 
-interface AuthManagerState {
-    isPopupOpen: boolean;
-    profile: UserAccountProfile | null;
+/// <summary>
+/// User profile information from the service.
+/// </summary>
+class RemoteUserProfile {
+
+    /**
+     * Id for the person within the system.
+     */
+    public readonly PersonId!: string | null;
+
+    /**
+     * Display name for the user.
+     */
+    public readonly Name!: string | null;
+
+    /**
+     * Type of the user's profile.
+     */
+    public readonly Type!: UserProfileType;
+
+    /**
+     * Value indicating whether the user is a TBQ administrator.
+     */
+    public readonly IsTbqAdmin!: boolean;
+
+    /**
+     * Value indicating whether the user is a JBQ administrator.
+     */
+    public readonly IsJbqAdmin!: boolean;
+}
+
+/**
+ * Type of the user's profile.
+ */
+export enum UserProfileType {
+
+    /**
+     * User hasn't been configured yet.
+     */
+    NotConfigured,
+
+    /**
+     * Administrator for the organization.
+     */
+    OrganizationAdmin,
+
+    /**
+     * Administrator for one or more regions.
+     */
+    RegionAdmin,
+
+    /**
+     * Administrator for one or more districts.
+     */
+    DistrictAdmin,
+
+    /**
+     * Administrator for one or more churches.
+     */
+    ChurchAdmin,
 }
 
 interface SerializedAccountProfile {
+    personId: string | null;
     displayName: string | null;
+    type: UserProfileType | null;
+    isJbqAdmin: boolean;
+    isTbqAdmin: boolean;
 }

@@ -8,6 +8,7 @@ import SidebarRestorePoint from "@components/sidebar/SidebarRestorePoint.astro";
 import SidebarTableOfContents from "@components/sidebar/SidebarTableOfContents.astro";
 import FontAwesomeIcon from "@components/FontAwesomeIcon";
 import type { TocItem } from "@astrojs/starlight/utils/generateToC";
+import AuthButton from "../auth/AuthButton";
 
 interface Props {
     sublist: SidebarEntry[];
@@ -27,8 +28,11 @@ const { sublist, nested, toc } = Astro.props;
 <ul class:list={{ "top-level": !nested }}>
     {
         sublist.map((entry) => (
-            <li>
-                {entry.type === "link" ? (
+            <li class={entry.type === "authButton" ? "md:sl-hidden" : ""}>
+                {entry.type == "authButton" && (
+                    <AuthButton isMobile={true} client:only="react" />
+                )}
+                {entry.type === "link" && (
                     <div>
                         <a
                             href={entry.href}
@@ -59,7 +63,8 @@ const { sublist, nested, toc } = Astro.props;
                             </details>
                         )}
                     </div>
-                ) : (
+                )}
+                {entry.type === "group" && (
                     <details
                         open={
                             flattenSidebar(entry.entries).some(

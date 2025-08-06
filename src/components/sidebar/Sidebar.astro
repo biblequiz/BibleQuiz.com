@@ -157,7 +157,10 @@ function sortSeasonsAndIndexSidebar(
 }
 
 // Filter out the Authors entry from the sidebar
-const filteredSidebar = filterOutAuthors(Astro.locals.starlightRoute.sidebar);
+const filteredSidebar = [
+    { type: "authButton", entries: [] },
+    ...filterOutAuthors(Astro.locals.starlightRoute.sidebar),
+];
 
 // Sort the sidebar and build the index.
 const sidebarIndex: SidebarIndex = {
