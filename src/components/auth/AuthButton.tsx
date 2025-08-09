@@ -2,7 +2,7 @@ import { useStore } from "@nanostores/react";
 import { sharedAuthManager } from "../../utils/SharedState";
 import FontAwesomeIcon from "../FontAwesomeIcon";
 import Dialog from "../Dialog";
-import { UserProfileType } from "../../types/AuthManager";
+import { PopupType, UserProfileType } from "../../types/AuthManager";
 
 interface Props {
     isMobile: boolean;
@@ -13,10 +13,10 @@ export default function AuthButton({ isMobile }: Props) {
     const authManager = useStore(sharedAuthManager);
 
     const userProfile = authManager.userProfile;
-    if (authManager.isPopupOpen || authManager.isRetrievingProfile) {
+    if (authManager.popupType != PopupType.None || authManager.isRetrievingProfile) {
         return (
             <div className={`w-${isMobile ? "full" : "24 text-xs"} text-center`}>
-                <div>Logging In</div>
+                <div>{authManager.popupType === PopupType.Logout ? "Logging Out" : "Logging In"}</div>
                 <progress className="progress"></progress>
             </div>);
     }
@@ -26,7 +26,7 @@ export default function AuthButton({ isMobile }: Props) {
             return (
                 <>
                     <div className={`w-${isMobile ? "full" : "24 text-xs"} text-center`}>
-                        <div>Logging In</div>
+                        <div>Configuring</div>
                         <progress className="progress"></progress>
                     </div>
                     <div className="text-base-content">
@@ -51,7 +51,7 @@ export default function AuthButton({ isMobile }: Props) {
                 >
                     <li className="text-base-content">
                         <a onClick={() => {
-                            if (!authManager.isPopupOpen) {
+                            if (authManager.popupType == PopupType.None) {
                                 authManager.logout();
                             }
                         }}>
@@ -64,7 +64,7 @@ export default function AuthButton({ isMobile }: Props) {
     }
     else {
         return (
-            <button className="btn btn-primary" disabled={!authManager.isReady || authManager.isPopupOpen} onClick={() => {
+            <button className="btn btn-primary" disabled={!authManager.isReady || authManager.popupType != PopupType.None} onClick={() => {
                 authManager.login();
             }}>
                 Sign In / Sign-Up
