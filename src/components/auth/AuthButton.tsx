@@ -35,6 +35,11 @@ export default function AuthButton({ isMobile }: Props) {
                             <p className="py-4">
                                 Add the sign-up form here!
                             </p>
+                            <button className="btn btn-primary" onClick={() => {
+                                authManager.logout();
+                            }}>
+                                <FontAwesomeIcon icon="fas faCheck" />&nbsp;Sign Out
+                            </button> 
                         </Dialog>
                     </div>
                 </>);
