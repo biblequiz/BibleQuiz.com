@@ -1,8 +1,8 @@
 import { useStore } from "@nanostores/react";
 import { sharedAuthManager } from "../../utils/SharedState";
 import FontAwesomeIcon from "../FontAwesomeIcon";
-import Dialog from "../Dialog";
 import { PopupType, UserProfileType } from "../../types/AuthManager";
+import SignUpDialog from "./SignUpDialog";
 
 interface Props {
     isMobile: boolean;
@@ -30,17 +30,7 @@ export default function AuthButton({ isMobile }: Props) {
                         <progress className="progress"></progress>
                     </div>
                     <div className="text-base-content">
-                        <Dialog isOpen={true}>
-                            <h3 className="font-bold text-lg">Sign Up!</h3>
-                            <p className="py-4">
-                                Add the sign-up form here!
-                            </p>
-                            <button className="btn btn-primary" onClick={() => {
-                                authManager.logout();
-                            }}>
-                                <FontAwesomeIcon icon="fas faCheck" />&nbsp;Sign Out
-                            </button> 
-                        </Dialog>
+                        <SignUpDialog isOpen={true} />
                     </div>
                 </>);
         }

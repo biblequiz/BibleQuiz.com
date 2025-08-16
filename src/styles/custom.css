@@ -240,7 +240,7 @@ td.current-question-bottom {
 }
 
 /* Ensure all header child elements also use dark mode colors */
-.header *:not(.text-base-content) {
+.header *:not(.text-base-content):not(.primary-content):not(.text-base-content *):not(.primary-content *) {
     color: inherit;
 }
 

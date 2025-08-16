@@ -100,6 +100,8 @@ export class AuthManager {
                     tokenResponse?.account ?? null,
                 );
 
+                const tokenProfile = AuthManager.getAuthTokenProfile(tokenResponse.account);
+
                 fetch("https://registration.biblequiz.com/api/v1.0/users/profile", {
                     method: "GET",
                     headers: {
@@ -114,7 +116,8 @@ export class AuthManager {
                             remoteProfile.Name,
                             remoteProfile.Type,
                             remoteProfile.IsJbqAdmin,
-                            remoteProfile.IsTbqAdmin);
+                            remoteProfile.IsTbqAdmin,
+                            tokenProfile);
 
                         AuthManager.saveProfile(newProfile);
                         this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: newProfile });
@@ -182,6 +185,34 @@ export class AuthManager {
             });
     }
 
+    private static getAuthTokenProfile(account: AccountInfo): AuthTokenProfile | null {
+
+        const fullName = account.name || "";
+        if (!fullName || fullName.trim().length === 0) {
+            return null;
+        }
+
+        let firstName = "";
+        let lastName = "";
+
+        // Split by spaces, remove empty entries, and trim each part
+        const parts = fullName
+            .split(" ")
+            .map(part => part.trim())
+            .filter(part => part.length > 0);
+
+        if (parts.length > 0) {
+            if (parts.length > 1) {
+                firstName = parts.slice(0, parts.length - 1).join(" ");
+                lastName = parts[parts.length - 1];
+            } else {
+                firstName = fullName.trim();
+            }
+        }
+
+        return new AuthTokenProfile(firstName, lastName, account.username);
+    }
+
     private static loadProfile(): UserAccountProfile | null {
 
         if (typeof window === "undefined" || !window.localStorage) {
@@ -197,7 +228,8 @@ export class AuthManager {
                     serializedProfile.displayName,
                     serializedProfile.type,
                     serializedProfile.isJbqAdmin,
-                    serializedProfile.isTbqAdmin);
+                    serializedProfile.isTbqAdmin,
+                    serializedProfile.authTokenProfile);
             }
         }
 
@@ -217,7 +249,8 @@ export class AuthManager {
                 displayName: profile.displayName,
                 type: profile.type,
                 isJbqAdmin: profile.isJbqAdmin,
-                isTbqAdmin: profile.isTbqAdmin
+                isTbqAdmin: profile.isTbqAdmin,
+                authTokenProfile: profile.authTokenProfile
             };
 
             localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(serializedProfile));
@@ -239,19 +272,22 @@ export class UserAccountProfile {
      * @param type Type of the user's profile.
      * @param isJbqAdmin Value indicating whether the user is a JBQ administrator.
      * @param isTbqAdmin Value indicating whether the user is a TBQ administrator.
+     * @param authTokenProfile Profile from the auth token.
      */
     public constructor(
         personId: string | null,
         displayName: string | null,
         type: UserProfileType | null,
         isJbqAdmin: boolean,
-        isTbqAdmin: boolean) {
+        isTbqAdmin: boolean,
+        authTokenProfile: AuthTokenProfile | null) {
 
         this.personId = personId;
         this.displayName = displayName;
         this.type = type;
         this.isJbqAdmin = isJbqAdmin;
         this.isTbqAdmin = isTbqAdmin;
+        this.authTokenProfile = authTokenProfile;
     }
 
     /**
@@ -272,12 +308,54 @@ export class UserAccountProfile {
     /**
      * Value indicating whether the user is a JBQ administrator.
      */
-    public readonly isJbqAdmin!: boolean;
+    public readonly isJbqAdmin: boolean;
 
     /**
      * Value indicating whether the user is a TBQ administrator.
      */
-    public readonly isTbqAdmin!: boolean;
+    public readonly isTbqAdmin: boolean;
+
+    /**
+     * Profile from the auth token (if the user has one).
+     */
+    public readonly authTokenProfile: AuthTokenProfile | null;
+}
+
+/**
+ * Profile for the user from the auth token.
+ */
+export class AuthTokenProfile {
+
+    /**
+     * Creates an instance of the AuthTokenProfile.
+     * @param firstName First name of the user.
+     * @param lastName Last name of the user.
+     * @param email E-mail address of the user.
+     */
+    constructor(
+        firstName: string,
+        lastName: string,
+        email: string) {
+
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+    }
+
+    /**
+     * First name of the user.
+     */
+    public readonly firstName: string;
+
+    /**
+     * Last name of the user.
+     */
+    public readonly lastName: string;
+
+    /**
+     * E-mail address of the user.
+     */
+    public readonly email: string;
 }
 
 /**
@@ -369,4 +447,5 @@ interface SerializedAccountProfile {
     type: UserProfileType | null;
     isJbqAdmin: boolean;
     isTbqAdmin: boolean;
+    authTokenProfile: AuthTokenProfile | null;
 }
