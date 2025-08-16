@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useStore } from '@nanostores/react';
 import FontAwesomeIcon from './FontAwesomeIcon';
 import { Church, ChurchesService, ChurchResultFilter } from '../types/services/ChurchesService.ts';
@@ -12,6 +12,8 @@ export interface SelectedChurch {
 }
 
 interface Props {
+  regionId?: string;
+  districtId?: string;
   required?: boolean;
   readOnly?: boolean;
   currentChurch?: SelectedChurch | null;
@@ -19,6 +21,8 @@ interface Props {
 }
 
 interface ChurchSearchState {
+  regionId: string | null;
+  districtId: string | null;
   isLoading: boolean;
   pageNumber: number;
   page: RemoteServicePage<Church> | null;
@@ -26,12 +30,18 @@ interface ChurchSearchState {
   error: RemoteServiceError | null;
 }
 
-export default function ChurchLookup({ required, readOnly, currentChurch, onSelect }: Props) {
+export default function ChurchLookup({ regionId, districtId, required, readOnly, currentChurch, onSelect }: Props) {
 
   const authManager = useStore(sharedAuthManager);
 
   const [searchText, setSearchText] = useState(currentChurch?.displayName || "");
   const [searchState, setSearchState] = useState(null as ChurchSearchState | null);
+
+  useEffect(() => {
+    if (searchState?.regionId !== regionId || searchState?.districtId !== districtId) {
+      startSearch(searchState?.pageNumber, searchState?.pageSize);
+    }
+  }, [regionId, districtId]);
 
   function handleEnter(event: React.KeyboardEvent<HTMLInputElement>): void {
     if (event.key === "Enter") {
@@ -46,6 +56,8 @@ export default function ChurchLookup({ required, readOnly, currentChurch, onSele
 
     setSearchState({
       isLoading: true,
+      regionId: regionId ?? null,
+      districtId: districtId ?? null,
       pageNumber: pageNumber,
       pageSize: pageSize,
       page: null,
@@ -57,12 +69,14 @@ export default function ChurchLookup({ required, readOnly, currentChurch, onSele
       pageSize, // Page size
       pageNumber, // Page number
       searchText,
-      null, // Region ID
-      null, // District ID
+      regionId ?? null, // Region ID
+      districtId ?? null, // District ID
       ChurchResultFilter.All)// List All churches.
       .then((page => {
         setSearchState({
           isLoading: false,
+          regionId: regionId ?? null,
+          districtId: districtId ?? null,
           pageNumber: pageNumber,
           pageSize: pageSize,
           page: page,
@@ -72,6 +86,8 @@ export default function ChurchLookup({ required, readOnly, currentChurch, onSele
       .catch((error) => {
         setSearchState({
           isLoading: false,
+          regionId: regionId ?? null,
+          districtId: districtId ?? null,
           pageNumber: pageNumber,
           pageSize: pageSize,
           page: null,
