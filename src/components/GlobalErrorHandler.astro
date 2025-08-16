@@ -1,0 +1,17 @@
+---
+
+---
+
+<script>
+
+    const unhandledExceptionHandler = (event: ErrorEvent) => {
+        alert("Unhandled Exception: " + event);
+    };
+
+    const unhandledRejectionHandler = (event: PromiseRejectionEvent) => {
+        alert("Unhandled Rejection: " + event);
+    };
+
+    window.addEventListener("error", unhandledExceptionHandler);
+    window.addEventListener("unhandledrejection", unhandledRejectionHandler);
+</script>

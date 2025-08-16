@@ -1,42 +1,36 @@
-﻿import { ApiModel, type ApiPage, type HttpServiceErrorCallback, ServiceBase } from "./ServiceBase"
+﻿import { ParameterHelpers } from "../../utils/ParameterHelpers";
+import type { AuthManager } from "../AuthManager";
+import { RemoteServiceUrlBase, RemoteServiceModelBase, RemoteServiceUtility, type RemoteServicePage } from "./RemoteServiceUtility"
 import { Address } from "./models/Address";
+
+const URL_ROOT_PATH = "/api/Churches";
 
 /**
  * Wrapper for the Churches service.
  */
-export class ChurchesService extends ServiceBase<Church> {
-
-    /**
-     * Constructor for ChurchesService class.
-     * @param authToken Authentication token for the service.
-     */
-    constructor(authToken: string | null) {
-        super("/api/Churches", authToken);
-    }
+export class ChurchesService {
 
     /**
      * Retrieves a single church.
      *
-     * @param successCallback Callback if the operation is successful.
-     * @param errorCallback Callback if the operation isn't successful.
+     * @param auth AuthManager to use for authentication.
      * @param id Id for the church.
      */
-    public getChurch(
-        successCallback: (church: Church) => void,
-        errorCallback: HttpServiceErrorCallback,
-        id: string) {
+    public static getChurch(
+        auth: AuthManager,
+        id: string): Promise<Church> {
 
-        this.getSingle(
-            successCallback,
-            errorCallback,
+        return RemoteServiceUtility.getSingle<Church>(
+            auth,
+            RemoteServiceUrlBase.Registration,
+            URL_ROOT_PATH,
             id);
     }
 
     /**
      * Retrieves the existing churches.
      *
-     * @param successCallback Callback if the operation is successful.
-     * @param errorCallback Callback if the operation isn't successful.
+     * @param auth AuthManager to use for authentication.
      * @param pageSize Size of the page.
      * @param pageNumber Page number to retrieve (starts at 0).
      * @param searchText Text to search for churches.
@@ -46,9 +40,8 @@ export class ChurchesService extends ServiceBase<Church> {
      * @param includeOnlyManuallyAdded Include only the churches that were manually added.
      * @param includeOnlyPotentialDuplicates Include only the potentially duplicated churches.
      */
-    public getChurches(
-        successCallback: (churches: Church[], pageCount: number) => void,
-        errorCallback: HttpServiceErrorCallback,
+    public static getChurches(
+        auth: AuthManager,
         pageSize: number,
         pageNumber: number,
         searchText: string | null = null,
@@ -56,124 +49,113 @@ export class ChurchesService extends ServiceBase<Church> {
         districtId: string | null = null,
         filter: ChurchResultFilter = ChurchResultFilter.All,
         includeOnlyManuallyAdded: boolean = false,
-        includeOnlyPotentialDuplicates: boolean = false): void {
+        includeOnlyPotentialDuplicates: boolean = false): Promise<RemoteServicePage<Church>> {
 
-        let urlParameters: string = this.buildUrlParameters({
-            f: ChurchResultFilter[filter],
-            d: districtId,
-            r: regionId,
-            srch: searchText,
-            man: includeOnlyManuallyAdded,
-            dupe: includeOnlyPotentialDuplicates
-        });
-
-        this.getMany(
-            (result: ApiPage<Church>): void => {
-
-                successCallback(<Church[]>result.Items, <number>result.PageCount);
-            },
-
-            errorCallback,
+        return RemoteServiceUtility.getMany<RemoteServicePage<Church>>(
+            auth,
+            RemoteServiceUrlBase.Registration,
+            URL_ROOT_PATH,
             pageSize,
             pageNumber,
             true, // Indicates the count should be included.
-            urlParameters);
+            RemoteServiceUtility.getFilteredUrlParameters({
+                f: ChurchResultFilter[filter],
+                d: districtId,
+                r: regionId,
+                srch: searchText,
+                man: includeOnlyManuallyAdded,
+                dupe: includeOnlyPotentialDuplicates
+            }));
     }
 
     /**
      * Creates a new church.
      *
-     * @param successCallback Callback if the operation is successful.
-     * @param errorCallback Callback if the operation isn't successful.
+     * @param auth AuthManager to use for authentication.
      * @param church Church to be created.
      * @param authorize Indicates whether the church should be authorized for this person.
      * @param email E-mail address for the person creating the church (if any).
      */
-    public create(
-        successCallback: (entry: Church) => void,
-        errorCallback: HttpServiceErrorCallback,
+    public static create(
+        auth: AuthManager,
         church: Church,
         authorize: boolean,
-        email: string | null = null): void {
+        email: string | null = null): Promise<Church> {
 
-        this.executeHttpRequest(
-            successCallback,
-            errorCallback,
+        return RemoteServiceUtility.executeHttpRequest<Church>(
+            auth,
             "POST",
-            "?" + this.buildUrlParameters({ a: authorize, m: email }),
+            RemoteServiceUrlBase.Registration,
+            URL_ROOT_PATH,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                a: authorize,
+                m: email
+            }),
             church);
     }
 
     /**
      * Updates an existing church.
      *
-     * @param successCallback Callback if the operation is successful.
-     * @param errorCallback Callback if the operation isn't successful.
+     * @param auth AuthManager to use for authentication.
      * @param church Church to be updated.
      * @param mergeWithChurchId Id for a church to merge into this one. The value have already been set on church.
      */
-    public update(
-        successCallback: (entry: Church) => void,
-        errorCallback: HttpServiceErrorCallback,
+    public static update(
+        auth: AuthManager,
         church: Church,
-        mergeWithChurchId: string | null = null): void {
+        mergeWithChurchId: string | null = null): Promise<Church> {
 
-        let urlParameters: string = this.buildUrlParameters({ mid: mergeWithChurchId });
-        if (0 != urlParameters.length) {
-            urlParameters = "?" + urlParameters;
-        }
-
-        this.executeHttpRequest(
-            successCallback,
-            errorCallback,
+        return RemoteServiceUtility.executeHttpRequest<Church>(
+            auth,
             "PUT",
-            "/" + church.Id + urlParameters,
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${ParameterHelpers.urlEncode(church.Id)}`,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                mid: mergeWithChurchId
+            }),
             church);
     }
 
     /**
      * Authorizes the current user for access to the church.
      *
-     * @param successCallback Callback if the operation is successful.
-     * @param errorCallback Callback if the operation isn't successful.
+     * @param auth AuthManager to use for authentication.
      * @param id Identifier for the church.
      */
-    public authorizeChurch(
-        successCallback: (result: AuthorizationResult) => void,
-        errorCallback: HttpServiceErrorCallback,
-        id: string) {
+    public static  authorizeChurch(
+        auth: AuthManager,
+        id: string): Promise<AuthorizationResult> {
 
-        this.executeHttpRequest(
-            successCallback,
-            errorCallback,
+        return RemoteServiceUtility.executeHttpRequest<AuthorizationResult>(
+            auth,
             "POST",
-            "/" + id + "/Authorize");
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${id}/Authorize`);
     }
 
     /**
      * Removes authorization for the current user from access to the church.
      * 
-     * @param successCallback Callback if the operation is successful.
-     * @param errorCallback Callback if the operation isn't successful.
+     * @param auth AuthManager to use for authentication.
      * @param id Identifier for the church.
      */
-    public deauthorizeChurch(
-        successCallback: () => void,
-        errorCallback: HttpServiceErrorCallback,
-        id: string) {
+    public static deauthorizeChurch(
+        auth: AuthManager,
+        id: string): Promise<void> {
 
-        this.executeHttpRequest(
-            successCallback,
-            errorCallback,
+        return RemoteServiceUtility.executeHttpRequest<void>(
+            auth,
             "POST",
-            "/" + id + "/Deauthorize");
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${id}/Deauthorize`);
     }
 }
 
 /**
  * Church.
  */
-export class Church extends ApiModel<string> {
+export class Church extends RemoteServiceModelBase<string> {
 
     /**
      * Gets or sets the District ID for this church.

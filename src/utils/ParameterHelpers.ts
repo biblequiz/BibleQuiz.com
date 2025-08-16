@@ -14,7 +14,7 @@ export class ParameterHelpers {
             return "";
         }
 
-        let encodedHtml: string = rawHtml
+        const encodedHtml: string = rawHtml
             .replace("\t", "    ")
             .replace(" ", "&nbsp;")
             .replace("<", "&lt;")
@@ -45,13 +45,13 @@ export class ParameterHelpers {
      */
     public static getUrlParameter(name: string): string | null {
 
-        let queryString = window.location.search;
+        const queryString = window.location.search;
         if (null == queryString || 0 == queryString.length) {
             return null;
         }
 
-        let pattern: string = "[\\?&]" + name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]') + "=([^&#]*)";
-        let results: string[] = new RegExp(pattern).exec(queryString);
+        const pattern: string = "[\\?&]" + name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]') + "=([^&#]*)";
+        const results: RegExpExecArray | null = new RegExp(pattern).exec(queryString);
 
         return null == results || 0 == results.length
             ? null

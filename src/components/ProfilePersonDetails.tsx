@@ -17,7 +17,6 @@ export default function ProfilePersonDetails({ }: Props) {
     const [lastName, setLastName] = useState(existingProfile?.lastName || "");
     const [email, setEmail] = useState(existingProfile?.email || "");
     const [competitionType, setCompetitionType] = useState("");
-    const [churchDisplayName, setChurchDisplayName] = useState("");
     const [churchId, setChurchId] = useState("");
     const [termsAgreed, setTermsAgreed] = useState(false);
 
@@ -82,7 +81,7 @@ export default function ProfilePersonDetails({ }: Props) {
                     <span className="label-text font-medium">Church</span>
                     <span className="label-text-alt text-error">*</span>
                 </label>
-                <ChurchLookup required />
+                <ChurchLookup required onSelect={church => setChurchId(church.id)} />
             </div>
             <div className="w-full">
                 <label className="label">
@@ -117,20 +116,20 @@ export default function ProfilePersonDetails({ }: Props) {
                     </span>
                 </label>
             </div>
-            <div className="flex justify-end">
+            <div className="flex justify-end flex-wrap">
                 <button
                     type="submit"
-                    className="btn btn-primary"
+                    className="btn btn-primary mt-4"
                     disabled={!firstName || !lastName || !email || !churchId || !termsAgreed}
                 >
-                    Sign Up
+                    Complete Profile
                 </button>
                 <button
                     type="button"
                     className="btn btn-warning ml-2"
                     onClick={() => authManager.logout()}
                 >
-                    Sign Out
+                    Sign Out & Change User
                 </button>
             </div>
         </form>);
