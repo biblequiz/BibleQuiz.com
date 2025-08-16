@@ -8,7 +8,7 @@ export class ParameterHelpers {
      * 
      * @param rawHtml HTML to be encoded.
      */
-    public static htmlEncode(rawHtml: string): string {
+    public static htmlEncode(rawHtml: string | null): string {
 
         if (null == rawHtml) {
             return "";
