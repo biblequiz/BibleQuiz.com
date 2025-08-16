@@ -117,7 +117,8 @@ export class AuthManager {
                             remoteProfile.Type,
                             remoteProfile.IsJbqAdmin,
                             remoteProfile.IsTbqAdmin,
-                            tokenProfile);
+                            tokenProfile,
+                            false);
 
                         AuthManager.saveProfile(newProfile);
                         this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: newProfile });
@@ -185,6 +186,33 @@ export class AuthManager {
             });
     }
 
+    /**
+     * Marks the sign-up dialog as displayed.
+     */
+    public markDisplaySignUpDialogAsDisplayed() {
+
+        if (this._profile) {
+            const newProfile = new UserAccountProfile(
+                this._profile.personId,
+                this._profile.displayName,
+                this._profile.type,
+                this._profile.isJbqAdmin ?? false,
+                this._profile.isTbqAdmin ?? false,
+                this._profile.authTokenProfile ?? null,
+                true);
+            AuthManager.saveProfile(newProfile);
+
+            this._stateChangedCallback(
+                this._client,
+                {
+                    popupType: PopupType.None,
+                    isRetrievingProfile: false,
+                    hasDisplayedSignUpDialog: true,
+                    profile: newProfile
+                });
+        }
+    }
+
     private static getAuthTokenProfile(account: AccountInfo): AuthTokenProfile | null {
 
         const fullName = account.name || "";
@@ -210,6 +238,13 @@ export class AuthManager {
             }
         }
 
+        const lastSpaceInFirstName = firstName.lastIndexOf(" ");
+        const parenthesisInLastName = lastName.lastIndexOf("(");
+        if (lastSpaceInFirstName > 0 && parenthesisInLastName >= 0) {
+            lastName = `${firstName.substring(lastSpaceInFirstName + 1)} ${lastName}`;
+            firstName = firstName.substring(0, lastSpaceInFirstName);
+        }
+
         return new AuthTokenProfile(firstName, lastName, account.username);
     }
 
@@ -229,7 +264,8 @@ export class AuthManager {
                     serializedProfile.type,
                     serializedProfile.isJbqAdmin,
                     serializedProfile.isTbqAdmin,
-                    serializedProfile.authTokenProfile);
+                    serializedProfile.authTokenProfile,
+                    serializedProfile.hasDisplayedSignUpDialog ?? false);
             }
         }
 
@@ -250,7 +286,8 @@ export class AuthManager {
                 type: profile.type,
                 isJbqAdmin: profile.isJbqAdmin,
                 isTbqAdmin: profile.isTbqAdmin,
-                authTokenProfile: profile.authTokenProfile
+                authTokenProfile: profile.authTokenProfile,
+                hasDisplayedSignUpDialog: profile.hasSignUpDialogDisplayed
             };
 
             localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(serializedProfile));
@@ -273,6 +310,7 @@ export class UserAccountProfile {
      * @param isJbqAdmin Value indicating whether the user is a JBQ administrator.
      * @param isTbqAdmin Value indicating whether the user is a TBQ administrator.
      * @param authTokenProfile Profile from the auth token.
+     * @param hasSignUpDialogDisplayed Value indicating whether the sign-up dialog has been displayed.
      */
     public constructor(
         personId: string | null,
@@ -280,7 +318,8 @@ export class UserAccountProfile {
         type: UserProfileType | null,
         isJbqAdmin: boolean,
         isTbqAdmin: boolean,
-        authTokenProfile: AuthTokenProfile | null) {
+        authTokenProfile: AuthTokenProfile | null,
+        hasSignUpDialogDisplayed: boolean) {
 
         this.personId = personId;
         this.displayName = displayName;
@@ -288,6 +327,7 @@ export class UserAccountProfile {
         this.isJbqAdmin = isJbqAdmin;
         this.isTbqAdmin = isTbqAdmin;
         this.authTokenProfile = authTokenProfile;
+        this.hasSignUpDialogDisplayed = hasSignUpDialogDisplayed;
     }
 
     /**
@@ -319,6 +359,11 @@ export class UserAccountProfile {
      * Profile from the auth token (if the user has one).
      */
     public readonly authTokenProfile: AuthTokenProfile | null;
+
+    /**
+     * Value indicating whether the sign-up dialog has been displayed.
+     */
+    public readonly hasSignUpDialogDisplayed: boolean = false;
 }
 
 /**
@@ -448,4 +493,5 @@ interface SerializedAccountProfile {
     isJbqAdmin: boolean;
     isTbqAdmin: boolean;
     authTokenProfile: AuthTokenProfile | null;
+    hasDisplayedSignUpDialog?: boolean;
 }

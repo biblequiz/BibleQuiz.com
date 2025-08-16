@@ -1,7 +1,6 @@
 import React, { useState, type ReactEventHandler } from 'react';
 import { useStore } from '@nanostores/react';
 import FontAwesomeIcon from './FontAwesomeIcon';
-import Dialog from './Dialog.tsx';
 import { ChurchesService, ChurchResultFilter } from '../types/services/ChurchesService.ts';
 import { sharedAuthManager } from '../utils/SharedState.ts';
 
@@ -11,18 +10,26 @@ export interface SelectedChurch {
 }
 
 interface Props {
-  required: boolean;
+  required?: boolean;
+  readOnly?: boolean;
   currentChurch?: SelectedChurch | null;
 }
 
-export default function ChurchLookup({ required, currentChurch }: Props) {
+enum ChurchLookupState {
+  Initialized,
+  Querying,
+  Displaying
+}
+
+export default function ChurchLookup({ required, readOnly, currentChurch }: Props) {
 
   const authManager = useStore(sharedAuthManager);
 
-  const [searchText, setSearchText] = useState("");
+  const [searchText, setSearchText] = useState(currentChurch?.displayName || "");
+  const [lookupState, setLookupState] = useState<ChurchLookupState>(ChurchLookupState.Initialized);
+  const [isSearching, setIsSearching] = useState(false);
   const [selectedChurch, setSelectedChurch] = useState(currentChurch || null);
   const [isChurchDialogOpen, setIsChurchDialogOpen] = useState(false);
-  const [isLoadingResults, setIsLoadingResults] = useState(false);
   const [churchResults, setChurchResults] = useState([]);
 
   function handleClick(event: React.KeyboardEvent<HTMLInputElement>): void {
@@ -32,7 +39,8 @@ export default function ChurchLookup({ required, currentChurch }: Props) {
   }
 
   async function startSearch(): Promise<void> {
-    setIsLoadingResults(true);
+
+    setLookupState(ChurchLookupState.Querying);
 
     const token = await authManager.getLatestAccessToken();
     const churchService = new ChurchesService(token);
@@ -62,24 +70,7 @@ export default function ChurchLookup({ required, currentChurch }: Props) {
       ChurchResultFilter.All); // List All churches.
   }
 
-  return (
-    <>
-      <input
-        type="text"
-        className="input input-bordered grow"
-        placeholder="Select a Church"
-        value={currentChurch?.displayName || ""}
-        readOnly
-        required={required ?? false}
-      />
-      <button
-        type="button"
-        className="btn btn-primary"
-        onClick={e => setIsChurchDialogOpen(true)}
-      >
-        <FontAwesomeIcon icon="fas faSearch" />
-      </button>
-
+  /*
       <Dialog isOpen={isChurchDialogOpen} width="max-w-full">
         <h3 className="font-bold text-lg mb-4">Select a Church</h3>
         <div className="grid grid-cols-1">
@@ -123,6 +114,50 @@ export default function ChurchLookup({ required, currentChurch }: Props) {
             </ul>
           </div>
         </div>
-      </Dialog>
+      </Dialog>*/
+
+  return (
+    <>
+      <div className="relative flex gap-2">
+        <input
+          type="text"
+          className="input input-bordered grow"
+          placeholder="Name or location"
+          value={searchText}
+          onChange={e => setSearchText(e.target.value)}
+          required={required ?? false}
+          readOnly={lookupState === ChurchLookupState.Querying || (readOnly ?? false)}
+        />
+        {!readOnly && (
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={e => startSearch()}
+            disabled={lookupState === ChurchLookupState.Querying}
+          >
+            <FontAwesomeIcon icon="fas faSearch" />
+            Search
+          </button>)}
+      </div>
+      {!readOnly && (
+        <span className="text-xs">
+          Enter <b>Name</b> (e.g., "Cedar Park"), <b>City & State</b> (e.g., "Seattle, WA"), or <b>both</b> (e.g., "Cedar Park, Bothell, WA"), and then click <b>Search</b>.
+        </span>)}
+      {lookupState !== ChurchLookupState.Initialized && (
+        <fieldset className="fieldset border-base-300 rounded-box w-full border p-4 relative flex gap-2 mt-2">
+          <legend className="fieldset-legend">Church Search Results</legend>
+          {lookupState === ChurchLookupState.Querying && (
+            <>
+              <span className="loading loading-spinner loading-sm"></span>&nbsp;
+              <span className="text-sm">
+                Searching ...
+              </span>
+            </>)}
+          {lookupState === ChurchLookupState.Displaying && (
+            <div className="w-full">
+              {churchResults.length}
+            </div>)}
+        </fieldset>
+      )}
     </>);
 }
