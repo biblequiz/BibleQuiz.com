@@ -26,7 +26,7 @@ export default function AuthButton({ isMobile }: Props) {
         let displayName: string = "";
 
         if (userProfile.type === UserProfileType.NotConfigured) {
-            if (window.location.pathname === "/profile") {
+            if (window.location.pathname === "/profile" || window.location.pathname === "/profile/") {
                 const profile = userProfile.authTokenProfile;
                 if (profile) {
                     displayName = `${profile.firstName} ${profile.lastName}`;
