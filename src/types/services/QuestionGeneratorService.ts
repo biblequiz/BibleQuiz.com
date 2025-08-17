@@ -230,7 +230,7 @@ export enum QuestionLanguage {
     /**
      * English.
      */
-    English
+    English = "English",
 }
 
 /**

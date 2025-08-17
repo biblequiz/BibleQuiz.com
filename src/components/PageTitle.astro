@@ -34,7 +34,7 @@ import EventScopeBadge from "./EventScopeBadge";
     }
     <span class="title-text">{title}</span>
     {
-        eventType && (
+        eventType && eventId && (
             <span>
                 <PrintDialogButton isLoaded={eventIsLoaded ?? false} />
                 <ExcelExportButton

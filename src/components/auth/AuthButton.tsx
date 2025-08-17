@@ -101,7 +101,7 @@ export default function AuthButton({ isMobile }: Props) {
     }
     else {
         return (
-            <button className="btn btn-primary" disabled={!authManager.isReady || authManager.popupType != PopupType.None} onClick={() => {
+            <button className="btn btn-primary" disabled={authManager.popupType != PopupType.None} onClick={() => {
                 authManager.login();
             }}>
                 Sign In / Sign-Up

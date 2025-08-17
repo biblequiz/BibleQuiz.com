@@ -1,20 +1,29 @@
-import type { AccountInfo, AuthenticationResult, IPublicClientApplication } from "@azure/msal-browser";
+import { LogLevel, PublicClientApplication, type AccountInfo, type AuthenticationResult, type IPublicClientApplication } from "@azure/msal-browser";
 import type { Person } from "./services/PeopleService";
+import { AsyncLock } from "../utils/AsyncLock";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const TOKEN_SCOPES = ["offline_access", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
+
+// Initialize the MSAL client and active account. This happens in the background so that
+// other processing can happen at the same time.
+const REDIRECT_PATH = "/auth";
 
 /**
  * Manager for auth.
  */
 export class AuthManager {
 
-    private readonly _client: IPublicClientApplication | null;
+    private readonly _lock: AsyncLock = new AsyncLock();
     private readonly _profile: UserAccountProfile | null;
-    private readonly _stateChangedCallback: (client: IPublicClientApplication | null, state: any | null) => void;
+    private readonly _stateChangedCallback: (
+        client: IPublicClientApplication | null,
+        state: CallbackState | null) => void;
 
     private readonly _popupType: PopupType = PopupType.None;
     private readonly _isRetrievingProfile: boolean = false;
+
+    private _resolvedClient: IPublicClientApplication | null;
 
     /**
      * Creates a new instance of the AuthManager.
@@ -38,16 +47,8 @@ export class AuthManager {
             this._isRetrievingProfile = state.isRetrievingProfile ?? false;
         }
 
-        this._client = client;
+        this._resolvedClient = client;
         this._stateChangedCallback = stateChangedCallback;
-    }
-
-    /**
-     * Value indicating whether the auth manager is ready for auth activity. If this is false,
-     * only the userProfile will be available.
-     */
-    public get isReady(): boolean {
-        return this._client !== null;
     }
 
     /**
@@ -97,7 +98,7 @@ export class AuthManager {
             AuthManager.saveProfile(newProfile);
 
             this._stateChangedCallback(
-                this._client,
+                this._resolvedClient,
                 {
                     popupType: this._popupType,
                     isRetrievingProfile: this._isRetrievingProfile,
@@ -109,14 +110,19 @@ export class AuthManager {
     /**
      * Starts the login flow.
      */
-    public login(): Promise<void | AuthenticationResult> {
-        if (!this._client) {
-            return Promise.reject(new Error("Auth client is not initialized."));
-        }
+    public async login(): Promise<void | AuthenticationResult> {
 
-        this._stateChangedCallback(this._client, { popupType: PopupType.Login, isRetrievingProfile: true, profile: null });
+        const client = await this.getInitializedClient();
 
-        return this._client
+        this._stateChangedCallback(
+            client,
+            {
+                popupType: PopupType.Login,
+                isRetrievingProfile: true,
+                profile: null
+            });
+
+        return client
             .loginPopup({
                 scopes: TOKEN_SCOPES,
                 prompt: 'select_account',
@@ -125,7 +131,7 @@ export class AuthManager {
             .then((tokenResponse: AuthenticationResult) => {
 
                 // Persist the result of the login.
-                this._client!.setActiveAccount(
+                client.setActiveAccount(
                     tokenResponse?.account ?? null,
                 );
 
@@ -135,31 +141,54 @@ export class AuthManager {
             })
             .catch((error) => {
                 console.log(error);
-                this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: this._profile });
+                this._stateChangedCallback(
+                    client,
+                    {
+                        popupType: PopupType.None,
+                        isRetrievingProfile: false,
+                        profile: this._profile
+                    });
             });
     }
 
     /**
      * Starts the logout flow.
      */
-    public logout(): Promise<void> {
-        if (!this._client) {
-            return Promise.reject(new Error("Auth client is not initialized."));
-        }
+    public async logout(): Promise<void> {
 
-        this._stateChangedCallback(this._client, { popupType: PopupType.Logout, isRetrievingProfile: false, profile: this._profile });
+        const client = await this.getInitializedClient();
 
-        return this._client
+        this._stateChangedCallback(
+            client,
+            {
+                popupType: PopupType.Logout,
+                isRetrievingProfile: false,
+                profile: this._profile
+            });
+
+        return client
             .logoutPopup({
                 state: window.location.pathname
             })
             .then(() => {
                 AuthManager.saveProfile(null);
-                this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: null });
+                this._stateChangedCallback(
+                    client,
+                    {
+                        popupType: PopupType.None,
+                        isRetrievingProfile: false,
+                        profile: null
+                    });
             })
             .catch((error) => {
                 console.log(error);
-                this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: this._profile });
+                this._stateChangedCallback(
+                    client,
+                    {
+                        popupType: PopupType.None,
+                        isRetrievingProfile: false,
+                        profile: this._profile
+                    });
             });
     }
 
@@ -167,18 +196,16 @@ export class AuthManager {
      * Retrieves the latest access token for the current user.
      * @returns The latest access token or null if not available.
      */
-    public getLatestAccessToken(): Promise<string | null> {
+    public async getLatestAccessToken(): Promise<string | null> {
 
-        if (!this._client) {
-            return Promise.reject(new Error("Auth client is not initialized."));
-        }
+        const client = await this.getInitializedClient();
 
-        const activeAccount: AccountInfo | null = this._client.getActiveAccount();
+        const activeAccount: AccountInfo | null = client.getActiveAccount();
         if (!activeAccount) {
             return Promise.resolve(null);
         }
 
-        return this._client
+        return client
             .acquireTokenSilent({
                 scopes: TOKEN_SCOPES,
                 account: activeAccount,
@@ -209,11 +236,10 @@ export class AuthManager {
             AuthManager.saveProfile(newProfile);
 
             this._stateChangedCallback(
-                this._client,
+                this._resolvedClient,
                 {
                     popupType: PopupType.None,
                     isRetrievingProfile: false,
-                    hasDisplayedSignUpDialog: true,
                     profile: newProfile
                 });
         }
@@ -254,7 +280,13 @@ export class AuthManager {
                     false);
 
                 AuthManager.saveProfile(newProfile);
-                this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: newProfile });
+                this._stateChangedCallback(
+                    this._resolvedClient,
+                    {
+                        popupType: PopupType.None,
+                        isRetrievingProfile: false,
+                        profile: newProfile
+                    });
             });
     }
 
@@ -340,6 +372,85 @@ export class AuthManager {
             localStorage.removeItem(PROFILE_STORAGE_KEY);
         }
     }
+
+    private async getInitializedClient(): Promise<IPublicClientApplication> {
+
+        if (this._resolvedClient) {
+            return this._resolvedClient;
+        }
+
+        await this._lock.acquireOrWait();
+        try {
+            this._resolvedClient = await PublicClientApplication.createPublicClientApplication({
+                auth: {
+                    clientId: "1058ea35-28ff-4b8a-953a-269f36d90235", // This is the ONLY mandatory field that you need to supply.
+                    authority: "https://biblequizusers.ciamlogin.com/", // Replace the placeholder with your tenant subdomain
+                    redirectUri: window.location.origin + REDIRECT_PATH, // Points to window.location.origin. You must register this URI on Microsoft Entra admin center/App Registration.
+                    // postLogoutRedirectUri: "/", // Indicates the page to navigate after logout.
+                    navigateToLoginRequestUrl: false, // If "true", will navigate back to the original request location before processing the auth code response.
+                },
+                cache: {
+                    cacheLocation: "localStorage", // Configures cache location. "sessionStorage" is more secure, but "localStorage" gives you SSO between tabs.
+                    storeAuthStateInCookie: false, // Set this to "true" if you are having issues on IE11 or Edge
+                    secureCookies: true, // Set this to "true" to enable secure cookies in browsers that support it (e.g., Chrome, Firefox, Edge). This is recommended for production environments.
+                },
+                system: {
+                    loggerOptions: {
+                        loggerCallback: (
+                            level: LogLevel,
+                            message: string,
+                            containsPii: boolean,
+                        ) => {
+                            if (containsPii) {
+                                return;
+                            }
+                            switch (level) {
+                                case LogLevel.Error:
+                                    console.error(message);
+                                    return;
+                                case LogLevel.Info:
+                                    console.info(message);
+                                    return;
+                                case LogLevel.Verbose:
+                                    console.debug(message);
+                                    return;
+                                case LogLevel.Warning:
+                                    console.warn(message);
+                                    return;
+                                default:
+                                    return;
+                            }
+                        },
+                    },
+                },
+            });
+        } finally {
+            this._lock.release();
+        }
+
+        return this._resolvedClient;
+    }
+}
+
+/**
+ * State for the callback.
+ */
+interface CallbackState {
+
+    /**
+     * Type of the popup.
+     */
+    popupType: PopupType;
+
+    /**
+     * Value indicating whether the profile is being retrieved.
+     */
+    isRetrievingProfile: boolean;
+
+    /**
+     * Current user profile.
+     */
+    profile: UserAccountProfile | null;
 }
 
 /**
