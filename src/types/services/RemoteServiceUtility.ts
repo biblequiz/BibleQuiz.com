@@ -182,7 +182,14 @@ export class RemoteServiceUtility {
         return result;
     }
 
-    private static buildUrl(
+    /**
+     * Builds the URL for the specified service, path, and URL parameters.
+     * @param service Service defining the endpoint to execute.
+     * @param path Path to the endpoint on the service.
+     * @param urlParameters URL parameters to be included in the request.
+     * @returns The fully constructed URL.
+     */
+    public static buildUrl(
         service: RemoteServiceUrlBase,
         path: string,
         urlParameters: URLSearchParams | null | undefined): string {

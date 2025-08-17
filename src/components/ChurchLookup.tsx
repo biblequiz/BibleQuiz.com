@@ -5,6 +5,7 @@ import { Church, ChurchesService, ChurchResultFilter } from '../types/services/C
 import { sharedAuthManager } from '../utils/SharedState.ts';
 import { type RemoteServicePage, type RemoteServiceError } from '../types/services/RemoteServiceUtility.ts';
 import Pagination from './Pagination.tsx';
+import LoadingPlaceholder from './LoadingPlaceholder.tsx';
 
 export interface SelectedChurch {
   id: string;
@@ -142,12 +143,7 @@ export default function ChurchLookup({ regionId, districtId, required, disabled,
         <fieldset className="fieldset border-base-300 rounded-box w-full border p-4 relative flex gap-2 mt-2">
           <legend className="fieldset-legend">Church Search Results</legend>
           {searchState.isLoading && (
-            <>
-              <span className="loading loading-spinner loading-sm"></span>&nbsp;
-              <span className="text-sm">
-                Searching ...
-              </span>
-            </>)}
+            <LoadingPlaceholder text="Searching ..." spinnerSize="sm" textSize="sm" />)}
           {!searchState.isLoading && (
             <>
               {searchState.error && (

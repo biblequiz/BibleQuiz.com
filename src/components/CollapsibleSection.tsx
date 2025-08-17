@@ -22,9 +22,11 @@ interface Props {
     forceOpen?: boolean;
     children?: React.ReactNode;
     badges?: SectionBadge[];
+    allowMultipleOpen?: boolean;
+    defaultOpen?: boolean;
 };
 
-export default function CollapsibleSection({ pageId, elementId, icon, iconChildren, title, titleClass, subtitle, subtitleClass, titleChildren, isPrinting, printSectionIndex, forceOpen, children, badges }: Props) {
+export default function CollapsibleSection({ pageId, elementId, icon, iconChildren, title, titleClass, subtitle, subtitleClass, titleChildren, isPrinting, printSectionIndex, forceOpen, children, badges, allowMultipleOpen, defaultOpen }: Props) {
 
     const titleElement = (
         <>
@@ -60,7 +62,7 @@ export default function CollapsibleSection({ pageId, elementId, icon, iconChildr
                 tabIndex={1}
                 className={`collapse collapse-arrow bg-base-100 border-base-300 border no-anchor-links ${forceOpen ? "collapse-open" : ""}`}
             >
-                <input type="checkbox" name={pageId} className="peer" />
+                <input type={(allowMultipleOpen ?? true) ? "checkbox" : "radio"} name={pageId} className="peer" defaultChecked={defaultOpen ?? false} />
                 <div className={`collapse-title ${printSectionIndex === 0 ? "" : "pt-0"}`}>
                     {titleElement}
                 </div>
