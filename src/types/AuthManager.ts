@@ -1,4 +1,5 @@
 import type { AccountInfo, AuthenticationResult, IPublicClientApplication } from "@azure/msal-browser";
+import type { Person } from "./services/PeopleService";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const TOKEN_SCOPES = ["offline_access", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
@@ -78,6 +79,34 @@ export class AuthManager {
     }
 
     /**
+     * Refreshes the person if the current user is the same as the parameter.
+     * @param person Person to refresh.
+     */
+    public refreshPersonIfCurrentUser(person: Person): void {
+
+        if (this._profile && this._profile.personId === person.Id) {
+
+            const newProfile = new UserAccountProfile(
+                this._profile.personId,
+                `${person.FirstName} ${person.LastName}`,
+                this._profile.type,
+                this._profile.isJbqAdmin ?? false,
+                this._profile.isTbqAdmin ?? false,
+                this._profile.authTokenProfile ?? null,
+                this._profile.hasSignUpDialogDisplayed);
+            AuthManager.saveProfile(newProfile);
+
+            this._stateChangedCallback(
+                this._client,
+                {
+                    popupType: this._popupType,
+                    isRetrievingProfile: this._isRetrievingProfile,
+                    profile: newProfile
+                });
+        }
+    }
+
+    /**
      * Starts the login flow.
      */
     public login(): Promise<void | AuthenticationResult> {
@@ -102,30 +131,7 @@ export class AuthManager {
 
                 const tokenProfile = AuthManager.getAuthTokenProfile(tokenResponse.account);
 
-                fetch("https://registration.biblequiz.com/api/v1.0/users/profile", {
-                    method: "GET",
-                    headers: {
-                        "Authorization": `Bearer ${tokenResponse.idToken}`,
-                    }
-                })
-                    .then(response => response.json())
-                    .then((remoteProfile: RemoteUserProfile) => {
-
-                        const newProfile = new UserAccountProfile(
-                            remoteProfile.PersonId,
-                            remoteProfile.Name,
-                            remoteProfile.Type,
-                            remoteProfile.IsJbqAdmin,
-                            remoteProfile.IsTbqAdmin,
-                            tokenProfile,
-                            false);
-
-                        AuthManager.saveProfile(newProfile);
-                        this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: newProfile });
-                    })
-                    .catch((error) => {
-                        console.error("Failed to fetch user profile:", error);
-                    });
+                this.retrieveRemoteProfile(tokenResponse.accessToken, tokenProfile);
             })
             .catch((error) => {
                 console.log(error);
@@ -211,6 +217,45 @@ export class AuthManager {
                     profile: newProfile
                 });
         }
+    }
+
+    /**
+     * Refreshes the remote profile for the user.
+     */
+    public async refreshRemoteProfile(): Promise<void> {
+        const accessToken = await this.getLatestAccessToken();
+        if (!accessToken) {
+            throw new Error("No access token available to refresh the profile.");
+        }
+
+        return this.retrieveRemoteProfile(accessToken, this._profile?.authTokenProfile ?? null);
+    }
+
+    private retrieveRemoteProfile(
+        accessToken: string,
+        tokenProfile: AuthTokenProfile | null): Promise<void> {
+
+        return fetch("https://registration.biblequiz.com/api/v1.0/users/profile", {
+            method: "GET",
+            headers: {
+                "Authorization": `Bearer ${accessToken}`,
+            }
+        })
+            .then(response => response.json())
+            .then((remoteProfile: RemoteUserProfile) => {
+
+                const newProfile = new UserAccountProfile(
+                    remoteProfile.PersonId,
+                    remoteProfile.Name,
+                    remoteProfile.Type,
+                    remoteProfile.IsJbqAdmin,
+                    remoteProfile.IsTbqAdmin,
+                    tokenProfile,
+                    false);
+
+                AuthManager.saveProfile(newProfile);
+                this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: newProfile });
+            });
     }
 
     private static getAuthTokenProfile(account: AccountInfo): AuthTokenProfile | null {

@@ -31,7 +31,7 @@ export class RemoteServiceUtility {
         service: RemoteServiceUrlBase,
         path: string,
         id: string,
-        additionalUrlParameters?: URLSearchParams): Promise<T> {
+        additionalUrlParameters?: URLSearchParams | null): Promise<T> {
 
         if (path.length > 0 && path[path.length - 1] !== "/") {
             path += `/${id}`;
@@ -66,9 +66,9 @@ export class RemoteServiceUtility {
         pageSize?: number,
         pageNumber?: number,
         includeCount?: boolean,
-        additionalUrlParameters?: URLSearchParams): Promise<T> {
+        additionalUrlParameters?: URLSearchParams | null): Promise<T> {
 
-        const urlParameters: URLSearchParams = new URLSearchParams(additionalUrlParameters);
+        const urlParameters: URLSearchParams = new URLSearchParams(additionalUrlParameters ?? undefined);
         if (null != pageSize) {
             urlParameters.set("pgsz", pageSize.toString());
         }
@@ -104,7 +104,7 @@ export class RemoteServiceUtility {
         method: string,
         service: RemoteServiceUrlBase,
         path: string,
-        urlParameters?: URLSearchParams,
+        urlParameters?: URLSearchParams | null,
         data?: any): Promise<T> {
 
         const url = this.buildUrl(service, path, urlParameters);
@@ -225,7 +225,7 @@ export class RemoteServiceUtility {
     private static buildUrl(
         service: RemoteServiceUrlBase,
         path: string,
-        urlParameters: URLSearchParams | undefined): string {
+        urlParameters: URLSearchParams | null | undefined): string {
 
         // Build the base URL.
         let baseUrl: string;

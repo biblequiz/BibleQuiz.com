@@ -15,7 +15,7 @@ interface Props {
   regionId?: string;
   districtId?: string;
   required?: boolean;
-  readOnly?: boolean;
+  disabled?: boolean;
   currentChurch?: SelectedChurch | null;
   onSelect: (church: SelectedChurch) => void;
 }
@@ -30,7 +30,7 @@ interface ChurchSearchState {
   error: RemoteServiceError | null;
 }
 
-export default function ChurchLookup({ regionId, districtId, required, readOnly, currentChurch, onSelect }: Props) {
+export default function ChurchLookup({ regionId, districtId, required, disabled, currentChurch, onSelect }: Props) {
 
   const authManager = useStore(sharedAuthManager);
 
@@ -53,6 +53,11 @@ export default function ChurchLookup({ regionId, districtId, required, readOnly,
 
     const pageNumber = newPageNumber ?? 0;
     const pageSize = newPageSize ?? searchState?.pageSize ?? 10;
+
+    if (!searchText || searchText.trim() === "") {
+      setSearchState(null);
+      return;
+    }
 
     setSearchState({
       isLoading: true,
@@ -116,9 +121,9 @@ export default function ChurchLookup({ regionId, districtId, required, readOnly,
           onKeyDown={handleEnter}
           onChange={e => setSearchText(e.target.value)}
           required={required ?? false}
-          readOnly={(searchState?.isLoading ?? false) || (readOnly ?? false)}
+          disabled={(searchState?.isLoading ?? false) || (disabled ?? false)}
         />
-        {!readOnly && (
+        {!disabled && (
           <button
             type="button"
             className="btn btn-primary"
@@ -129,7 +134,7 @@ export default function ChurchLookup({ regionId, districtId, required, readOnly,
             Search
           </button>)}
       </div>
-      {!readOnly && (
+      {!disabled && (
         <span className="text-xs">
           Enter <b>Name</b> (e.g., "Cedar Park"), <b>City & State</b> (e.g., "Seattle, WA"), or <b>both</b> (e.g., "Cedar Park, Bothell, WA"), and then click <b>Search</b>.
         </span>)}

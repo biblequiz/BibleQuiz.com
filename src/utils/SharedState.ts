@@ -116,3 +116,19 @@ export const sharedQuizzerSearchState = atom<QuizzerSearchState | null>(null);
 
 /* Auth Manager */
 export const sharedAuthManager = atom<AuthManager>(new AuthManager(null, null, (c, p) => { }));
+
+/* Error Messages */
+export interface GlobalToastMessage {
+    type: "error" | "success" | "info";
+    title: string;
+    message: string;
+    timeout?: number;
+    keepOpen?: boolean;
+    icon?: string;
+    showLoading?: boolean;
+}
+
+export const sharedGlobalStatusToast = atom<GlobalToastMessage | null>(null);
+
+/* Dirty Window State */
+export const sharedDirtyWindowState = atom<boolean>(false);

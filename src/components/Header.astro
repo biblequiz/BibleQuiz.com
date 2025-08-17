@@ -7,7 +7,7 @@ import SocialIcons from "./SocialIcons.astro";
 import ThemeSelect from "virtual:starlight/components/ThemeSelect";
 import AuthManagerLoader from "./auth/AuthManagerLoader.astro";
 import AuthButton from "./auth/AuthButton";
-import GlobalErrorHandler from "./GlobalErrorHandler.astro";
+import GlobalNotificationManager from "./GlobalNotificationManager.astro";
 
 /**
  * Render the `Search` component if Pagefind is enabled or the default search component has been overridden.
@@ -17,7 +17,7 @@ const shouldRenderSearch =
     config.components.Search !== "@astrojs/starlight/components/Search.astro";
 ---
 
-<GlobalErrorHandler />
+<GlobalNotificationManager />
 <AuthManagerLoader />
 
 <div class="header">

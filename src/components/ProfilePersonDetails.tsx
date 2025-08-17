@@ -1,9 +1,13 @@
 import { useState } from "react";
 import { useStore } from "@nanostores/react";
-import { sharedAuthManager } from "../utils/SharedState";
+import { sharedAuthManager, sharedDirtyWindowState, sharedGlobalStatusToast } from "../utils/SharedState";
 import ChurchLookup from "./ChurchLookup";
 import regions from "../data/regions.json";
 import districts from "../data/districts.json";
+import { AuthService, UserSignUpInfo } from "../types/services/AuthService";
+import { CloudflareTurnstile } from "../utils/CloudflareTurnstile";
+import { Person } from "../types/services/PeopleService";
+import type { RemoteServiceError } from "../types/services/RemoteServiceUtility";
 
 interface Props {
 }
@@ -17,6 +21,7 @@ interface ChurchScopeInfo {
 export default function ProfilePersonDetails({ }: Props) {
 
     const authManager = useStore(sharedAuthManager);
+    useStore(sharedGlobalStatusToast);
 
     const existingProfile = authManager.userProfile?.authTokenProfile;
 
@@ -27,6 +32,7 @@ export default function ProfilePersonDetails({ }: Props) {
     const [churchScope, setChurchScope] = useState<ChurchScopeInfo | null>(null);
     const [churchId, setChurchId] = useState("");
     const [termsAgreed, setTermsAgreed] = useState(false);
+    const [isProcessing, setIsProcessing] = useState(false);
 
     function selectRegionOrDistrict(selectedValue: string): void {
 
@@ -55,11 +61,60 @@ export default function ProfilePersonDetails({ }: Props) {
         }
     }
 
-    function handleSubmit(event: React.FormEvent<HTMLFormElement>): void {
+    async function handleSubmit(event: React.FormEvent<HTMLFormElement>): Promise<void> {
         event.preventDefault();
         event.stopPropagation();
 
-        alert("Test");
+        sharedGlobalStatusToast.set({
+            type: "info",
+            title: "Saving",
+            message: "We are completing your profile setup now ...",
+            showLoading: true,
+            keepOpen: true,
+        });
+
+        setIsProcessing(true);
+
+        await authManager.refreshRemoteProfile();
+
+        // Create the user information.
+        const newPerson = new Person();
+        newPerson.FirstName = firstName;
+        newPerson.LastName = lastName;
+        newPerson.Email = email;
+        newPerson.CurrentChurchId = churchId;
+        newPerson.DefaultCompetitionTypeId = competitionType;
+        newPerson.NotifyOnRegistrationChanges = true;
+
+        if (null == newPerson.PhoneNumber || 0 == newPerson.PhoneNumber.length) {
+            newPerson.PhoneNumber = null;
+        }
+
+        const newUser = new UserSignUpInfo();
+        newUser.Id = newPerson.Email;
+        newUser.Person = newPerson;
+        newUser.TermsAgree = termsAgreed;
+        newUser.CaptchaResponse = CloudflareTurnstile.getCaptchaResponse();
+
+        AuthService.signUp(
+            authManager,
+            newUser)
+            .then(async () => {
+                await authManager.refreshRemoteProfile();
+                sharedDirtyWindowState.set(false);
+                setIsProcessing(false);
+            })
+            .catch((error: RemoteServiceError) => {
+                CloudflareTurnstile.resetCaptcha();
+                sharedGlobalStatusToast.set({
+                    type: "error",
+                    title: "Error",
+                    message: error.message || "An error occurred while saving your profile.",
+                    timeout: 10000,
+                });
+
+                setIsProcessing(false);
+            });
     }
 
     return (
@@ -74,9 +129,13 @@ export default function ProfilePersonDetails({ }: Props) {
                         type="text"
                         name="firstName"
                         value={firstName}
-                        onChange={e => setFirstName(e.target.value)}
+                        onChange={e => {
+                            setFirstName(e.target.value);
+                            sharedDirtyWindowState.set(true);
+                        }}
                         placeholder="Enter your first name"
                         className="input input-bordered w-full"
+                        disabled={isProcessing}
                         required
                     />
                 </div>
@@ -89,9 +148,13 @@ export default function ProfilePersonDetails({ }: Props) {
                         type="text"
                         name="lastName"
                         value={lastName}
-                        onChange={e => setLastName(e.target.value)}
+                        onChange={e => {
+                            setLastName(e.target.value);
+                            sharedDirtyWindowState.set(true);
+                        }}
                         placeholder="Enter your last name"
                         className="input input-bordered w-full"
+                        disabled={isProcessing}
                         required
                     />
                 </div>
@@ -105,9 +168,13 @@ export default function ProfilePersonDetails({ }: Props) {
                     type="email"
                     name="email"
                     value={email}
-                    onChange={e => setEmail(e.target.value)}
+                    onChange={e => {
+                        setEmail(e.target.value);
+                        sharedDirtyWindowState.set(true);
+                    }}
                     placeholder="Enter your email address"
                     className="input input-bordered w-full"
+                    disabled={isProcessing}
                     required
                 />
             </div>
@@ -120,7 +187,11 @@ export default function ProfilePersonDetails({ }: Props) {
                     <select
                         className="select select-bordered w-full"
                         value={churchScope?.selectedValue || ""}
-                        onChange={e => selectRegionOrDistrict(e.target.value)}
+                        onChange={e => {
+                            selectRegionOrDistrict(e.target.value);
+                            sharedDirtyWindowState.set(true);
+                        }}
+                        disabled={isProcessing}
                         required
                     >
                         <option value="" disabled>
@@ -151,7 +222,11 @@ export default function ProfilePersonDetails({ }: Props) {
                     <ChurchLookup
                         regionId={churchScope.regionId}
                         districtId={churchScope.districtId ?? undefined}
-                        onSelect={church => setChurchId(church.id)}
+                        onSelect={church => {
+                            setChurchId(church.id);
+                            sharedDirtyWindowState.set(true);
+                        }}
+                        disabled={isProcessing}
                         required
                     />
                 </div>)}
@@ -164,12 +239,23 @@ export default function ProfilePersonDetails({ }: Props) {
                     <select
                         className="select select-bordered w-full"
                         value={competitionType}
-                        onChange={e => setCompetitionType(e.target.value)}
+                        onChange={e => {
+                            setCompetitionType(e.target.value);
+                            sharedDirtyWindowState.set(true);
+                        }}
+                        disabled={isProcessing}
                         required
                     >
                         <option value="agjbq">Junior Bible Quiz (JBQ)</option>
                         <option value="agtbq">Teen Bible Quiz (TBQ)</option>
                     </select>
+                </div>
+            </div>
+
+            <div className="form-group row">
+                <div className="col-md-12">
+                    Turnstile
+                    <div className="cf-turnstile" data-sitekey={CloudflareTurnstile.siteKey}></div>
                 </div>
             </div>
             <div className="w-full">
@@ -178,7 +264,11 @@ export default function ProfilePersonDetails({ }: Props) {
                         type="checkbox"
                         className="checkbox"
                         checked={termsAgreed}
-                        onChange={e => setTermsAgreed(e.target.checked)}
+                        onChange={e => {
+                            setTermsAgreed(e.target.checked);
+                            sharedDirtyWindowState.set(true);
+                        }}
+                        disabled={isProcessing}
                         required
                     />
                     <span>
@@ -192,14 +282,19 @@ export default function ProfilePersonDetails({ }: Props) {
                 <button
                     type="submit"
                     className="btn btn-primary mt-4"
-                    disabled={!firstName || !lastName || !email || !churchId || !termsAgreed}
+                    disabled={!firstName || !lastName || !email || !churchId || !termsAgreed || isProcessing}
                 >
+                    {isProcessing && (<span className="loading loading-spinner loading-md"></span>)}
                     Complete Profile
                 </button>
                 <button
                     type="button"
                     className="btn btn-warning ml-2"
-                    onClick={() => authManager.logout()}
+                    onClick={() => {
+                        authManager.logout();
+                        sharedDirtyWindowState.set(false);
+                    }}
+                    disabled={isProcessing}
                 >
                     Sign Out & Change User
                 </button>
