@@ -35,5 +35,18 @@ export default function ProfilePage({ loadingElementId }: Props) {
             </>);
     }
 
-    return (<div>Show the Profile</div>);
+    return (
+        <>
+            <div>
+                We are in the process of merging the old Registration site with BibleQuiz.com. This page is
+                still in progress.
+            </div>
+            <div>
+                <b>Name: </b> {authManager.userProfile!.displayName}<br />
+                <b>Type: </b> {UserProfileType[authManager.userProfile!.type!]}<br />
+                <b>JBQ Admin: </b> {authManager.userProfile!.isJbqAdmin ? "true" : "false"}<br />
+                <b>TBQ Admin: </b> {authManager.userProfile!.isTbqAdmin ? "true" : "false"}<br />
+                <b>User Name: </b> {authManager.userProfile!.authTokenProfile?.email}
+            </div>
+        </>);
 }

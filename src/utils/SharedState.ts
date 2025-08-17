@@ -119,7 +119,7 @@ export const sharedAuthManager = atom<AuthManager>(new AuthManager(null, null, (
 
 /* Error Messages */
 export interface GlobalToastMessage {
-    type: "error" | "success" | "info";
+    type: "error" | "success" | "info" | "warning";
     title: string;
     message: string;
     timeout?: number;

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useStore } from "@nanostores/react";
+import { Turnstile } from '@marsidev/react-turnstile'
 import { sharedAuthManager, sharedDirtyWindowState, sharedGlobalStatusToast } from "../utils/SharedState";
 import ChurchLookup from "./ChurchLookup";
 import regions from "../data/regions.json";
@@ -66,7 +67,7 @@ export default function ProfilePersonDetails({ }: Props) {
         event.stopPropagation();
 
         sharedGlobalStatusToast.set({
-            type: "info",
+            type: "warning",
             title: "Saving",
             message: "We are completing your profile setup now ...",
             showLoading: true,
@@ -74,8 +75,6 @@ export default function ProfilePersonDetails({ }: Props) {
         });
 
         setIsProcessing(true);
-
-        await authManager.refreshRemoteProfile();
 
         // Create the user information.
         const newPerson = new Person();
@@ -102,6 +101,7 @@ export default function ProfilePersonDetails({ }: Props) {
             .then(async () => {
                 await authManager.refreshRemoteProfile();
                 sharedDirtyWindowState.set(false);
+                sharedGlobalStatusToast.set(null);
                 setIsProcessing(false);
             })
             .catch((error: RemoteServiceError) => {
@@ -251,13 +251,6 @@ export default function ProfilePersonDetails({ }: Props) {
                     </select>
                 </div>
             </div>
-
-            <div className="form-group row">
-                <div className="col-md-12">
-                    Turnstile
-                    <div className="cf-turnstile" data-sitekey={CloudflareTurnstile.siteKey}></div>
-                </div>
-            </div>
             <div className="w-full">
                 <label className="cursor-pointer flex items-center gap-2">
                     <input
@@ -273,10 +266,13 @@ export default function ProfilePersonDetails({ }: Props) {
                     />
                     <span>
                         I agree to the <a href="/terms" target="_blank" className="link">Terms &amp;
-                            Conditions</a> and <a href="/privacy" target="_blank" className="link">PrivacyPolicy</a>
+                            Conditions</a> and <a href="/privacy" target="_blank" className="link">Privacy Policy</a>
                         <span className="text-danger"> *</span>
                     </span>
                 </label>
+            </div>
+            <div className="w-full">
+                <Turnstile siteKey={CloudflareTurnstile.siteKey} />
             </div>
             <div className="flex justify-end flex-wrap">
                 <button

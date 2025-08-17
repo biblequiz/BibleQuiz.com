@@ -144,7 +144,7 @@ export class ChurchesService {
         auth: AuthManager,
         id: string): Promise<void> {
 
-        return RemoteServiceUtility.executeHttpRequest<void>(
+        return RemoteServiceUtility.executeHttpRequestWithoutResponse(
             auth,
             "POST",
             RemoteServiceUrlBase.Registration,

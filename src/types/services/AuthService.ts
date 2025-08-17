@@ -19,7 +19,7 @@ export class AuthService {
         auth: AuthManager,
         id: string | null): Promise<void> {
 
-        return RemoteServiceUtility.executeHttpRequest(
+        return RemoteServiceUtility.executeHttpRequestWithoutResponse(
             auth,
             "POST",
             RemoteServiceUrlBase.Registration,
@@ -36,7 +36,7 @@ export class AuthService {
         auth: AuthManager,
         info: UserSignUpInfo): Promise<void> {
 
-        return RemoteServiceUtility.executeHttpRequest<void>(
+        return RemoteServiceUtility.executeHttpRequestWithoutResponse(
             auth,
             "POST",
             RemoteServiceUrlBase.Registration,
@@ -70,7 +70,7 @@ export class AuthService {
         auth: AuthManager,
         id: string): Promise<void> {
 
-        return RemoteServiceUtility.executeHttpRequest<void>(
+        return RemoteServiceUtility.executeHttpRequestWithoutResponse(
             auth,
             "DELETE",
             RemoteServiceUrlBase.Registration,

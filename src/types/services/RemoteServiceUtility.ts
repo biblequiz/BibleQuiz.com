@@ -107,9 +107,116 @@ export class RemoteServiceUtility {
         urlParameters?: URLSearchParams | null,
         data?: any): Promise<T> {
 
+        return new Promise<T>(async (resolve, reject) => {
+            this.executeHttpRequestCore(
+                auth,
+                method,
+                service,
+                path,
+                urlParameters,
+                data)
+                .then(async response => {
+                    // This is a successful response, but it may not have a body (depending on the method).
+                    if (response.body) {
+                        try {
+                            resolve(await response.json() as T);
+                        }
+                        catch (error) {
+                            reject({
+                                message: "Failed to parse response body: " + (error as Error).message,
+                            } as RemoteServiceError);
+                            return;
+                        }
+                    }
+                })
+                .catch(error => reject(error));
+        });
+    }
+
+    /**
+     * Executes an HTTP request without a response body.
+     * 
+     * @param auth AuthManager to use for authentication.
+     * @param method HTTP method.
+     * @param service Service defining the endpoint to execute.
+     * @param path Path to the endpoint on the service.
+     * @param urlParameters URL parameters to be included in the request.
+     * @param data Data (if any) to submit.
+     */
+    public static executeHttpRequestWithoutResponse(
+        auth: AuthManager,
+        method: string,
+        service: RemoteServiceUrlBase,
+        path: string,
+        urlParameters?: URLSearchParams | null,
+        data?: any): Promise<void> {
+
+        return new Promise<void>(async (resolve, reject) => {
+            this.executeHttpRequestCore(
+                auth,
+                method,
+                service,
+                path,
+                urlParameters,
+                data)
+                .then(response => resolve())
+                .catch(error => reject(error));
+        });
+    }
+
+    /**
+     * Builds the URL parameters without null or empty values.
+     * @param params Parameters to be included in the URL.
+     */
+    public static getFilteredUrlParameters(
+        params: Record<string, any | null>): URLSearchParams {
+
+        const result = new URLSearchParams();
+
+        for (const key in params) {
+            const value = params[key];
+            if (value !== null && value !== undefined && (value.length === undefined || value.length > 0)) {
+                result.set(key, value);
+            }
+        }
+        return result;
+    }
+
+    private static buildUrl(
+        service: RemoteServiceUrlBase,
+        path: string,
+        urlParameters: URLSearchParams | null | undefined): string {
+
+        // Build the base URL.
+        let baseUrl: string;
+        switch (service) {
+            case RemoteServiceUrlBase.Registration:
+                baseUrl = "https://registration.biblequiz.com";
+                break;
+            default:
+                throw new Error(`Unsupported service: ${RemoteServiceUrlBase[service]}`);
+        }
+
+        const resolvedUrl = new URL(path, baseUrl);
+
+        if (urlParameters) {
+            resolvedUrl.search = urlParameters.toString();
+        }
+
+        return resolvedUrl.toString();
+    }
+
+    private static executeHttpRequestCore(
+        auth: AuthManager,
+        method: string,
+        service: RemoteServiceUrlBase,
+        path: string,
+        urlParameters?: URLSearchParams | null,
+        data?: any): Promise<Response> {
+
         const url = this.buildUrl(service, path, urlParameters);
 
-        return new Promise<T>(async (resolve, reject) => {
+        return new Promise<Response>(async (resolve, reject) => {
 
             // Retrieve the latest access token and setup the request.
             let accessToken: string | null;
@@ -183,17 +290,7 @@ export class RemoteServiceUtility {
                     }
 
                     // This is a successful response, but it may not have a body (depending on the method).
-                    if (response.body) {
-                        try {
-                            resolve(await response.json() as T);
-                        }
-                        catch (error) {
-                            reject({
-                                message: "Failed to parse response body: " + (error as Error).message,
-                            } as RemoteServiceError);
-                            return;
-                        }
-                    }
+                    resolve(response);
                 })
                 .catch(error => {
                     // Network or parsing error
@@ -202,48 +299,6 @@ export class RemoteServiceUtility {
                     } as RemoteServiceError);
                 });
         });
-    }
-
-    /**
-     * Builds the URL parameters without null or empty values.
-     * @param params Parameters to be included in the URL.
-     */
-    public static getFilteredUrlParameters(
-        params: Record<string, any | null>): URLSearchParams {
-
-        const result = new URLSearchParams();
-
-        for (const key in params) {
-            const value = params[key];
-            if (value !== null && value !== undefined && (value.length === undefined || value.length > 0)) {
-                result.set(key, value);
-            }
-        }
-        return result;
-    }
-
-    private static buildUrl(
-        service: RemoteServiceUrlBase,
-        path: string,
-        urlParameters: URLSearchParams | null | undefined): string {
-
-        // Build the base URL.
-        let baseUrl: string;
-        switch (service) {
-            case RemoteServiceUrlBase.Registration:
-                baseUrl = "https://registration.biblequiz.com";
-                break;
-            default:
-                throw new Error(`Unsupported service: ${RemoteServiceUrlBase[service]}`);
-        }
-
-        const resolvedUrl = new URL(path, baseUrl);
-
-        if (urlParameters) {
-            resolvedUrl.search = urlParameters.toString();
-        }
-
-        return resolvedUrl.toString();
     }
 }
 
