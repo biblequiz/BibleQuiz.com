@@ -68,6 +68,14 @@ export default defineConfig({
                     label: "Subscribe",
                     slug: "subscribe",
                 },
+                {
+                    label: "Terms & Conditions",
+                    slug: "terms",
+                },
+                {
+                    label: "Privacy Policy",
+                    slug: "privacy",
+                },
             ],
             components: {
                 Header: "./src/components/Header.astro",

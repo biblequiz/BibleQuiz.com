@@ -1,0 +1,45 @@
+---
+import GlobalStatusToast from "./GlobalStatusToast";
+---
+
+<GlobalStatusToast client:only="react" />
+
+<script>
+    import {
+        sharedGlobalStatusToast,
+        sharedDirtyWindowState,
+    } from "../utils/SharedState";
+
+    const showGlobalToast = (title: string, message: string) => {
+        sharedGlobalStatusToast.set({
+            type: "error",
+            title: title,
+            message: message,
+        });
+    };
+
+    const beforeUnloadHandler = (event: BeforeUnloadEvent) => {
+        if (sharedDirtyWindowState.get()) {
+            event.preventDefault();
+            event.returnValue = ""; // Required for Chrome
+        }
+    };
+
+    const unhandledExceptionHandler = (event: ErrorEvent) => {
+        showGlobalToast(
+            "Unhandled Error",
+            `An unhandled error occurred: ${event.message} at ${event.filename}:${event.lineno}`,
+        );
+    };
+
+    const unhandledRejectionHandler = (event: PromiseRejectionEvent) => {
+        showGlobalToast(
+            "Unhandled Error",
+            `An unhandled error occurred: ${event.reason}`,
+        );
+    };
+
+    window.addEventListener("beforeunload", beforeUnloadHandler);
+    window.addEventListener("error", unhandledExceptionHandler);
+    window.addEventListener("unhandledrejection", unhandledRejectionHandler);
+</script>

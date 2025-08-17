@@ -1,0 +1,20 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import ProfilePage from "../components/ProfilePage";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "My Profile",
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div id="profile-fallback" class="flex justify-center items-center">
+        <span class="loading loading-spinner loading-xl"></span>&nbsp;
+        Loading the Profile Page ...
+    </div>
+    <ProfilePage
+        client:only="react"
+        loadingElementId="profile-fallback"
+    />
+</StarlightPage>
