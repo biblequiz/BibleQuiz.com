@@ -33,10 +33,17 @@ import GlobalStatusToast from "./GlobalStatusToast";
     };
 
     const unhandledRejectionHandler = (event: PromiseRejectionEvent) => {
-        showGlobalToast(
-            "Unhandled Error",
-            `An unhandled error occurred: ${event.reason}`,
-        );
+        let title: string;
+        let message: string;
+        if (event.reason && event.reason.message) {
+            title = "Error";
+            message = event.reason.message;
+        } else {
+            title = "Unhandled Error";
+            message = event.reason?.toString() ?? "Unknown error";
+        }
+
+        showGlobalToast(title, `${message}`);
     };
 
     window.addEventListener("beforeunload", beforeUnloadHandler);

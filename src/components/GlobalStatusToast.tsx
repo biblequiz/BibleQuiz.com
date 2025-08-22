@@ -6,7 +6,7 @@ import FontAwesomeIcon from "./FontAwesomeIcon";
 interface Props {
 }
 
-export default function GlobalErrorToast({ }: Props) {
+export default function GlobalStatusToast({ }: Props) {
 
     const toastState = useStore(sharedGlobalStatusToast);
     useEffect(() => {
