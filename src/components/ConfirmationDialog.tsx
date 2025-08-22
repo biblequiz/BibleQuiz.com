@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 
 interface Props {
+    id?: string;
     title: string;
     children: React.ReactNode;
     yesLabel?: string;
@@ -9,12 +10,17 @@ interface Props {
     onNo?: () => void;
 }
 
-const CONFIRMATION_DIALOG_ID = "confirmation-dialog";
-
-export default function ConfirmationDialog({ title, children, yesLabel, onYes, noLabel, onNo }: Props) {
+export default function ConfirmationDialog({
+    id = "confirmation-dialog",
+    title,
+    children,
+    yesLabel,
+    onYes,
+    noLabel,
+    onNo }: Props) {
 
     return (
-        <dialog id={CONFIRMATION_DIALOG_ID} className="modal" open>
+        <dialog id={id} className="modal" open>
             <div className="modal-box w-11/12 max-w-full md:w-3/4 lg:w-1/2">
                 <h3 className="font-bold text-lg">{title}</h3>
                 <div>
@@ -31,7 +37,7 @@ export default function ConfirmationDialog({ title, children, yesLabel, onYes, n
                                     onYes();
                                 }
 
-                                (document.getElementById(CONFIRMATION_DIALOG_ID) as any).close();
+                                (document.getElementById(id) as any).close();
                             }}>
                             {yesLabel || "Yes"}
                         </button>
@@ -45,7 +51,7 @@ export default function ConfirmationDialog({ title, children, yesLabel, onYes, n
                                         onNo();
                                     }
 
-                                    (document.getElementById(CONFIRMATION_DIALOG_ID) as any).close();
+                                    (document.getElementById(id) as any).close();
                                 }}>
                                 {noLabel || "No"}
                             </button>)}
