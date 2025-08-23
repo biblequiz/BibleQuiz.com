@@ -1,3 +1,5 @@
+import type { QuestionRangeFilter } from "./services/QuestionGeneratorService";
+
 /**
  * Settings for the JBQ question generator page.
  */
@@ -27,4 +29,9 @@ export interface JbqQuestionGeneratorSettings {
      * Labels for Categories
      */
     CategoryLabels: Record<string, string>;
+
+    /**
+     * Allowed ranges of question numbers.
+     */
+    AllowedRange: QuestionRangeFilter;
 }

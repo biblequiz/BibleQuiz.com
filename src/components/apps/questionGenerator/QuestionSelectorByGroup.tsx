@@ -27,7 +27,7 @@ export default function QuestionSelectorByGroup({ groups, setGroups }: Props) {
                     <input
                         type="checkbox"
                         name="question-group"
-                        className="checkbox"
+                        className="checkbox checkbox-sm checkbox-info"
                         value={groupNumber}
                         checked={groups?.has(groupNumber) ?? true}
                         onChange={e => {

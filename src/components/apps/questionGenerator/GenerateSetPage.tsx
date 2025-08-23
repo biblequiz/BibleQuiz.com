@@ -9,13 +9,15 @@ import TemplateSelector, { CriteriaTemplateType } from "./TemplateSelector";
 import type { CustomRules } from "./CustomRulesSelector";
 import CustomRulesSelector from "./CustomRulesSelector";
 import { QuestionSelectionType } from "./QuestionSelector";
+import { PointValueOrdering } from "./PointValueCountSelector";
 
 interface Props {
+    elementId: string;
 }
 
 const GENERATOR_SETTINGS = settings as JbqQuestionGeneratorSettings;
 
-export default function GenerateSetPage({ }: Props) {
+export default function GenerateSetPage({ elementId }: Props) {
 
     const [generalCriteria, setGeneralCriteria] = useState<GeneralCriteria>({
         rounds: 1,
@@ -26,52 +28,55 @@ export default function GenerateSetPage({ }: Props) {
     const [mode, setMode] = useState<QuestionMode>(QuestionMode.Competition);
     const [templateType, setTemplateType] = useState<CriteriaTemplateType>(CriteriaTemplateType.Beginner);
     const [customRules, setCustomRules] = useState<CustomRules>({
-        regularPointValueCounts: { 10: 10, 20: 7, 30: 3 },
-        substitutePointValueCounts: { 10: 1, 20: 1, 30: 1 },
-        overtimePointValueCounts: { 10: 1, 20: 1, 30: 1 },
+        regularQuestions: { counts: { 10: 10, 20: 7, 30: 3 }, manualOrder: [], type: PointValueOrdering.Random },
+        substituteQuestions: { counts: { 10: 1, 20: 1, 30: 1 } },
+        overtimeQuestions: { counts: { 10: 1, 20: 1, 30: 1 } },
         questionFilter: QuestionTypeFilter.All,
         questionCriteria: { type: QuestionSelectionType.Group },
     });
 
     return (
-        <form id="generatorForm" className="space-y-6">
+        <div className="overflow-x-auto" id={elementId}>
+            <h4>Generate New Set</h4>
+            <form id="generatorForm" className="space-y-6">
 
-            <GeneralCriteriaSelector
-                criteria={generalCriteria}
-                setCriteria={c => {
-                    setGeneralCriteria(c);
-                    sharedDirtyWindowState.set(true);
-                }} />
-
-            <QuestionModeSelector
-                mode={mode}
-                setMode={m => {
-                    setMode(m);
-
-                    if (m === QuestionMode.Competition) {
-                        setTemplateType(CriteriaTemplateType.Beginner);
-                    }
-                    else {
-                        setTemplateType(CriteriaTemplateType.BibleDiscoverer);
-                    }
-
-                    sharedDirtyWindowState.set(true);
-                }} />
-
-            <TemplateSelector
-                mode={mode}
-                template={templateType}
-                setTemplate={t => {
-                    setTemplateType(t);
-                    sharedDirtyWindowState.set(true);
-                }} />
-
-            {templateType === CriteriaTemplateType.Custom && (
-                <CustomRulesSelector
-                    criteria={customRules}
+                <GeneralCriteriaSelector
+                    criteria={generalCriteria}
                     setCriteria={c => {
-                        setCustomRules(c);
+                        setGeneralCriteria(c);
                         sharedDirtyWindowState.set(true);
-                    }} />)}
-        </form>);
+                    }} />
+
+                <QuestionModeSelector
+                    mode={mode}
+                    setMode={m => {
+                        setMode(m);
+
+                        if (m === QuestionMode.Competition) {
+                            setTemplateType(CriteriaTemplateType.Beginner);
+                        }
+                        else {
+                            setTemplateType(CriteriaTemplateType.BibleDiscoverer);
+                        }
+
+                        sharedDirtyWindowState.set(true);
+                    }} />
+
+                <TemplateSelector
+                    mode={mode}
+                    template={templateType}
+                    setTemplate={t => {
+                        setTemplateType(t);
+                        sharedDirtyWindowState.set(true);
+                    }} />
+
+                {templateType === CriteriaTemplateType.Custom && (
+                    <CustomRulesSelector
+                        criteria={customRules}
+                        setCriteria={c => {
+                            setCustomRules(c);
+                            sharedDirtyWindowState.set(true);
+                        }} />)}
+            </form>
+        </div>);
 }

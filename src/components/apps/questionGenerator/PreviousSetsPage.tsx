@@ -3,33 +3,38 @@ import { QuestionGeneratorService, type PreviouslyGeneratedSet } from "../../../
 import LoadingPlaceholder from "../../LoadingPlaceholder";
 import FontAwesomeIcon from "../../FontAwesomeIcon";
 import { AuthManager } from "../../../types/AuthManager";
-import { useNavigate } from "react-router-dom";
-import { ROUTE_GENERATE_SET } from "./QuestionGeneratorRoot";
 
 interface Props {
-    previousSets: PreviouslyGeneratedSet[] | null;
-    setPreviousSets: (sets: PreviouslyGeneratedSet[] | null) => void;
-    retrieveError: string | null;
-    hasAutoRedirected: boolean;
-    setAutoRedirected: (value: boolean) => void;
+    generateSetElementId: string;
 }
 
-export default function PreviousSetsSection({
-    previousSets,
-    setPreviousSets,
-    retrieveError,
-    hasAutoRedirected,
-    setAutoRedirected }: Props) {
+export default function PreviousSetsSection({ generateSetElementId }: Props) {
 
     const authManager = AuthManager.useNanoStore();
-    const navigate = useNavigate();
 
+    const [previousSets, setPreviousSets] = useState<PreviouslyGeneratedSet[] | null>(null);
+    const [latestError, setLatestError] = useState<string | null>(null);
     const [isProcessing, setIsProcessing] = useState<boolean>(false);
 
-    if (previousSets && previousSets.length === 0 && !hasAutoRedirected) {
-        setAutoRedirected(true);
-        navigate(ROUTE_GENERATE_SET);
-    }
+    useEffect(
+        () => {
+            if (!previousSets) {
+                QuestionGeneratorService.getPreviousSets(authManager)
+                    .then(s => {
+                        setPreviousSets(s);
+
+                        if (s && s.length === 0) {
+                            const generateSetElement = document.getElementById(generateSetElementId);
+                            if (generateSetElement) {
+                                generateSetElement.scrollIntoView({ behavior: "smooth" });
+                            }
+                        }
+                    })
+                    .catch(error => {
+                        setLatestError(error.message);
+                    });
+            }
+        }, [authManager]);
 
     const handleDelete = (event: React.MouseEvent<HTMLButtonElement>, setId: string) => {
         event.preventDefault();
@@ -49,14 +54,15 @@ export default function PreviousSetsSection({
     };
 
     return (
-        <>
-            {!previousSets && !retrieveError && (
+        <div className="overflow-x-auto">
+            <h4>Previous Sets</h4>
+            {!previousSets && !latestError && (
                 <LoadingPlaceholder text="Loading previously generated sets ..." />)}
-            {retrieveError && (
+            {latestError && (
                 <div className={`alert alert-error flex flex-col`}>
                     <p className="text-sm">
                         <FontAwesomeIcon icon="fas faCircleExclamation" classNames={["mr-2"]} />&nbsp;
-                        <b>Failed to Retrieve Sets: </b>{retrieveError}
+                        <b>Failed to Retrieve Sets: </b>{latestError}
                     </p>
                 </div>)}
             {previousSets && (
@@ -74,7 +80,7 @@ export default function PreviousSetsSection({
                         {previousSets.length === 0 && (
                             <tr>
                                 <td colSpan={5} className="text-center">
-                                    <i>No previous sets found.</i>
+                                    <i>You haven't generated any question sets yet. Create a new one below.</i>
                                 </td>
                             </tr>
                         )}
@@ -116,5 +122,5 @@ export default function PreviousSetsSection({
                     </tbody>
                 </table>
             )}
-        </>);
+        </div>);
 }

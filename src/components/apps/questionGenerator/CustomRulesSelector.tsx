@@ -1,5 +1,5 @@
 import { QuestionTypeFilter } from "../../../types/services/QuestionGeneratorService";
-import PointValueCountSelector from "./PointValueCountSelector";
+import PointValueCountSelector, { type PointValueCriteria } from "./PointValueCountSelector";
 import QuestionSelector, { type QuestionCriteria } from "./QuestionSelector";
 
 interface Props {
@@ -8,9 +8,9 @@ interface Props {
 }
 
 export interface CustomRules {
-    regularPointValueCounts: Record<number, number>;
-    substitutePointValueCounts: Record<number, number>;
-    overtimePointValueCounts: Record<number, number>;
+    regularQuestions: PointValueCriteria;
+    substituteQuestions: PointValueCriteria;
+    overtimeQuestions: PointValueCriteria;
 
     questionFilter: QuestionTypeFilter;
     questionCriteria: QuestionCriteria;
@@ -21,19 +21,25 @@ export default function CustomRulesSelector({ criteria, setCriteria }: Props) {
     return (
         <div>
             <PointValueCountSelector
+                id="regular"
                 label="Regular Questions"
-                initialPoints={criteria.regularPointValueCounts}
-                onPointsChange={c => setCriteria({ ...criteria, regularPointValueCounts: c })}
+                criteria={criteria.regularQuestions}
+                setCriteria={c => setCriteria({ ...criteria, regularQuestions: c })}
+                allowManual={true}
             />
             <PointValueCountSelector
+                id="substitute"
                 label="Substitute Questions"
-                initialPoints={criteria.substitutePointValueCounts}
-                onPointsChange={c => setCriteria({ ...criteria, substitutePointValueCounts: c })}
+                criteria={criteria.substituteQuestions}
+                setCriteria={c => setCriteria({ ...criteria, substituteQuestions: c })}
+                allowManual={false}
             />
             <PointValueCountSelector
+                id="overtime"
                 label="Overtime Questions"
-                initialPoints={criteria.overtimePointValueCounts}
-                onPointsChange={c => setCriteria({ ...criteria, overtimePointValueCounts: c })}
+                criteria={criteria.overtimeQuestions}
+                setCriteria={c => setCriteria({ ...criteria, overtimeQuestions: c })}
+                allowManual={false}
             />
 
             <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 mt-0 mb-0">

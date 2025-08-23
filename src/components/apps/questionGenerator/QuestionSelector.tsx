@@ -1,5 +1,7 @@
+import type { QuestionRangeFilter } from "../../../types/services/QuestionGeneratorService";
 import QuestionSelectorByCategory from "./QuestionSelectorByCategory";
 import QuestionSelectorByGroup from "./QuestionSelectorByGroup";
+import QuestionSelectorByRange from "./QuestionSelectorByRange";
 
 interface Props {
     criteria: QuestionCriteria;
@@ -16,6 +18,7 @@ export interface QuestionCriteria {
     type: QuestionSelectionType;
     groups?: Set<number>;
     categories?: Set<string>;
+    ranges?: QuestionRangeFilter[];
 }
 
 export default function QuestionSelector({ criteria, setCriteria }: Props) {
@@ -44,6 +47,11 @@ export default function QuestionSelector({ criteria, setCriteria }: Props) {
                 <QuestionSelectorByCategory
                     categories={criteria.categories}
                     setCategories={categories => setCriteria({ ...criteria, categories })}
+                />)}
+            {criteria.type === QuestionSelectionType.Range && (
+                <QuestionSelectorByRange
+                    ranges={criteria.ranges || []}
+                    setRanges={ranges => setCriteria({ ...criteria, ranges })}
                 />)}
         </>
     );
