@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { QuestionRangeFilter } from "../../../types/services/QuestionGeneratorService";
 import settings from "../../../data/generated/questionGenerator.json";
 import FontAwesomeIcon from "../../FontAwesomeIcon";
@@ -9,6 +9,12 @@ interface Props {
     setRanges: (ranges: QuestionRangeFilter[]) => void;
 }
 
+interface AddRangeState {
+    min: number | null;
+    max: number | null;
+    isFocused: boolean;
+}
+
 const GENERATOR_SETTINGS = settings as JbqQuestionGeneratorSettings;
 const MIN_ELEMENT_ID = "range-new-min";
 const MAX_ELEMENT_ID = "range-new-max";
@@ -17,13 +23,22 @@ export default function QuestionSelectorByRange({
     ranges,
     setRanges }: Props) {
 
-    const [isAdding, setIsAdding] = useState<boolean>(false);
-    const [minValue, setMinValue] = useState<number | null>(null);
-    const [maxValue, setMaxValue] = useState<number | null>(null);
+    const [addState, setAddState] = useState<AddRangeState | null>(null);
+
+    useEffect(() => {
+        if (addState && !addState.isFocused) {
+            const minElement = document.getElementById(MIN_ELEMENT_ID);
+            if (minElement) {
+                minElement.focus();
+            }
+
+            setAddState({ ...addState, isFocused: true });
+        }
+    }, [addState]);
 
     const startAddRange = (event: React.MouseEvent<HTMLButtonElement>) => {
         event.preventDefault();
-        setIsAdding(true);
+        setAddState({ min: null, max: null, isFocused: false });
     };
 
     const completeAddRange = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -34,14 +49,21 @@ export default function QuestionSelectorByRange({
 
         // Check the range before the other validity checks to ensure the check doesn't detect
         // an old failure.
-        const firstQuestion = minValue as number;
-        const lastQuestion = maxValue as number;
+        const firstQuestion = addState!.min as number;
+        const lastQuestion = addState!.max as number;
         if (firstQuestion && lastQuestion) {
             if (firstQuestion > lastQuestion) {
                 minElement.setCustomValidity("Cannot be greater than the last question.");
             }
             else {
                 minElement.setCustomValidity("");
+            }
+
+            for (const existingRange of ranges) {
+                if (!(lastQuestion < existingRange.Start || firstQuestion > existingRange.End)) {
+                    minElement.setCustomValidity(`Overlaps with the range ${existingRange.Start}-${existingRange.End}.`);
+                    break;
+                }
             }
         }
 
@@ -55,9 +77,16 @@ export default function QuestionSelectorByRange({
             return;
         }
 
-        const newRange = { Start: firstQuestion, End: lastQuestion };
-        setRanges([...ranges, newRange].sort((a, b) => a.Start - b.Start));
-        setIsAdding(false);
+        setRanges([
+            ...ranges,
+            { Start: firstQuestion, End: lastQuestion }]
+            .sort((a, b) => a.Start - b.Start));
+        setAddState(null);
+    };
+
+    const cancelAddRange = (event: React.MouseEvent<HTMLButtonElement>) => {
+        event.preventDefault();
+        setAddState(null);
     };
 
     const removeRange = (index: number) => {
@@ -81,14 +110,17 @@ export default function QuestionSelectorByRange({
                         <FontAwesomeIcon icon="fas faX" />
                     </button>
                 </div>))}
-            {isAdding && (
+            {addState && (
                 <div className="bg-base-200 border-base-400 rounded-box border p-4 mt-0">
                     <input
                         type="number"
                         name={MIN_ELEMENT_ID}
                         id={MIN_ELEMENT_ID}
-                        value={minValue ?? ""}
-                        onChange={e => setMinValue(Number(e.target.value))}
+                        value={addState?.min ?? ""}
+                        onChange={e => {
+                            e.target.setCustomValidity("");
+                            setAddState({ ...addState, min: Number(e.target.value) });
+                        }}
                         className="input input-bordered w-16 input-sm"
                         min={GENERATOR_SETTINGS.AllowedRange.Start}
                         max={GENERATOR_SETTINGS.AllowedRange.End}
@@ -100,8 +132,11 @@ export default function QuestionSelectorByRange({
                         type="number"
                         name={MAX_ELEMENT_ID}
                         id={MAX_ELEMENT_ID}
-                        value={maxValue ?? ""}
-                        onChange={e => setMaxValue(Number(e.target.value))}
+                        value={addState?.max ?? ""}
+                        onChange={e => {
+                            e.target.setCustomValidity("");
+                            setAddState({ ...addState, max: Number(e.target.value) });
+                        }}
                         className="input input-bordered w-16 input-sm"
                         min={GENERATOR_SETTINGS.AllowedRange.Start}
                         max={GENERATOR_SETTINGS.AllowedRange.End}
@@ -115,13 +150,21 @@ export default function QuestionSelectorByRange({
                         onClick={completeAddRange}>
                         <FontAwesomeIcon icon="far faCircleCheck" />
                     </button>
+                    <button
+                        className="btn btn-warning btn-sm mt-0 ml-2 cursor-pointer"
+                        type="button"
+                        aria-label="Cancel"
+                        onClick={cancelAddRange}>
+                        <FontAwesomeIcon icon="far faCircleXmark" />
+                    </button>
                 </div>)}
-            {!isAdding && (
+            {!addState && (
                 <button
                     className="badge badge-secondary mt-0 text-secondary-content hover:bg-secondary-focus cursor-pointer"
                     type="button"
                     aria-label="Add Range"
-                    onClick={startAddRange}>
+                    onClick={startAddRange}
+                >
                     <FontAwesomeIcon icon="fas faPlus" />
                     <span>Add</span>
                 </button>)}

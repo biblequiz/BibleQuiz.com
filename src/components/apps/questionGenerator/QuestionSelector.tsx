@@ -35,7 +35,7 @@ export default function QuestionSelector({ criteria, setCriteria }: Props) {
                 >
                     <option value={QuestionSelectionType.Group}>Select by Group</option>
                     <option value={QuestionSelectionType.Category}>Select by Category</option>
-                    <option value={QuestionSelectionType.Range}>Select by Range</option>
+                    <option value={QuestionSelectionType.Range}>Select by Question Number Range</option>
                 </select>
             </div>
             {criteria.type === QuestionSelectionType.Group && (
