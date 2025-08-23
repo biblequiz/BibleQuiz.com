@@ -7,34 +7,29 @@ import { useNavigate } from "react-router-dom";
 import { ROUTE_GENERATE_SET } from "./QuestionGeneratorRoot";
 
 interface Props {
+    previousSets: PreviouslyGeneratedSet[] | null;
+    setPreviousSets: (sets: PreviouslyGeneratedSet[] | null) => void;
+    retrieveError: string | null;
+    hasAutoRedirected: boolean;
+    setAutoRedirected: (value: boolean) => void;
 }
 
-export default function PreviousSetsSection({ }: Props) {
+export default function PreviousSetsSection({
+    previousSets,
+    setPreviousSets,
+    retrieveError,
+    hasAutoRedirected,
+    setAutoRedirected }: Props) {
 
     const authManager = AuthManager.useNanoStore();
     const navigate = useNavigate();
 
-    const [previousSets, setPreviousSets] = useState<PreviouslyGeneratedSet[] | null>(null);
     const [isProcessing, setIsProcessing] = useState<boolean>(false);
-    const [latestError, setLatestError] = useState<string | null>(null);
 
-    useEffect(
-        () => {
-            if (!previousSets) {
-                QuestionGeneratorService.getPreviousSets(authManager)
-                    .then(s => {
-                        setPreviousSets(s);
-                        
-                        if (s && s.length === 0) {
-                            navigate(ROUTE_GENERATE_SET);
-                        }
-                    })
-                    .catch(error => {
-                        setLatestError(error.message);
-                        setIsProcessing(false);
-                    });
-            }
-        }, [authManager]);
+    if (previousSets && previousSets.length === 0 && !hasAutoRedirected) {
+        setAutoRedirected(true);
+        navigate(ROUTE_GENERATE_SET);
+    }
 
     const handleDelete = (event: React.MouseEvent<HTMLButtonElement>, setId: string) => {
         event.preventDefault();
@@ -44,7 +39,9 @@ export default function PreviousSetsSection({ }: Props) {
 
         QuestionGeneratorService.deletePreviousSet(authManager, setId)
             .then(() => {
-                setPreviousSets((prev) => prev ? prev.filter(set => set.Id !== setId) : null);
+                if (previousSets) {
+                    setPreviousSets(previousSets.filter(set => set.Id !== setId));
+                }
             })
             .finally(() => {
                 setIsProcessing(false);
@@ -53,13 +50,13 @@ export default function PreviousSetsSection({ }: Props) {
 
     return (
         <>
-            {!previousSets && !latestError && (
+            {!previousSets && !retrieveError && (
                 <LoadingPlaceholder text="Loading previously generated sets ..." />)}
-            {latestError && (
+            {retrieveError && (
                 <div className={`alert alert-error flex flex-col`}>
                     <p className="text-sm">
                         <FontAwesomeIcon icon="fas faCircleExclamation" classNames={["mr-2"]} />&nbsp;
-                        <b>Failed to Retrieve Sets: </b>{latestError}
+                        <b>Failed to Retrieve Sets: </b>{retrieveError}
                     </p>
                 </div>)}
             {previousSets && (
