@@ -4,6 +4,7 @@ import { AsyncLock } from "../utils/AsyncLock";
 import { map, type PreinitializedMapStore, type WritableAtom } from "nanostores";
 import { useStore } from "@nanostores/react";
 import Auth from "../pages/auth.astro";
+import { init } from "astro/virtual-modules/prefetch.js";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const TOKEN_SCOPES = ["offline_access", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
@@ -189,8 +190,16 @@ export class AuthManager {
      */
     private constructor() {
 
+        let initialProfile: UserAccountProfile | null;
+        if (AuthManager.isPersistenceSupported()) {
+            initialProfile = AuthManager.parseProfile(localStorage.getItem(PROFILE_STORAGE_KEY));
+            AuthManager.registerProfileChangeListener();
+        } else {
+            initialProfile = null;
+        }
+
         const store = map({
-            profile: AuthManager.loadProfile(),
+            profile: initialProfile,
             popupType: PopupType.None,
             isRetrievingProfile: false,
             loginResolve: null,
@@ -383,13 +392,18 @@ export class AuthManager {
     }
 
     /**
-     * Marks the sign-up dialog as displayed.
+     * Sets the value of whether the sign-up confirmation dialog has been displayed.
+     * @param value New value for the property.
      */
-    public markDisplaySignUpDialogAsDisplayed() {
+    public setHasSignUpDialogDisplayed(value: boolean) {
 
         const currentProfile = this.userProfile;
 
         if (currentProfile) {
+            if (currentProfile.hasSignUpDialogDisplayed === value) {
+                return;
+            }
+
             const newProfile = new UserAccountProfile(
                 currentProfile.personId,
                 currentProfile.displayName,
@@ -397,7 +411,7 @@ export class AuthManager {
                 currentProfile.isJbqAdmin ?? false,
                 currentProfile.isTbqAdmin ?? false,
                 currentProfile.authTokenProfile ?? null,
-                true);
+                value);
             AuthManager.saveProfile(newProfile);
 
             this.getNanoState().setKey("profile", newProfile);
@@ -488,13 +502,8 @@ export class AuthManager {
         return new AuthTokenProfile(firstName, lastName, account.username);
     }
 
-    private static loadProfile(): UserAccountProfile | null {
+    private static parseProfile(serialized: string | null): UserAccountProfile | null {
 
-        if (typeof window === "undefined" || !window.localStorage) {
-            return null;
-        }
-
-        const serialized = localStorage.getItem(PROFILE_STORAGE_KEY);
         if (serialized) {
             const serializedProfile = JSON.parse(serialized) as SerializedAccountProfile;
             if (serializedProfile) {
@@ -514,7 +523,7 @@ export class AuthManager {
 
     private static saveProfile(profile: UserAccountProfile | null) {
 
-        if (typeof window === "undefined" || !window.localStorage) {
+        if (!AuthManager.isPersistenceSupported()) {
             return;
         }
 
@@ -534,6 +543,30 @@ export class AuthManager {
         } else {
             localStorage.removeItem(PROFILE_STORAGE_KEY);
         }
+    }
+
+    private static registerProfileChangeListener(): void {
+        if (!AuthManager.isPersistenceSupported()) {
+            return;
+        }
+
+        // Add listener for changes to the profile in other tabs.
+        window.addEventListener(
+            "storage",
+            (event: StorageEvent) => {
+                if (event.key === PROFILE_STORAGE_KEY) {
+                    console.log("Detected change to user profile in another tab.");
+                    AuthManager._instance.getNanoState().setKey(
+                        "profile",
+                        AuthManager.parseProfile(event.newValue));
+                }
+            });
+    }
+
+    private static isPersistenceSupported(): boolean {
+        return typeof window === "undefined" || !window.localStorage
+            ? false
+            : true;
     }
 
     private async getInitializedClient(): Promise<IPublicClientApplication> {

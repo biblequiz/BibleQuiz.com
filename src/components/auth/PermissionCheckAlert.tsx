@@ -2,10 +2,11 @@ import type { JSX } from "react";
 import FontAwesomeIcon from "../FontAwesomeIcon";
 import { AuthManager, UserProfileType } from "../../types/AuthManager";
 
-export function getOptionalPermissionCheckAlert(authManager: AuthManager): JSX.Element | null {
+export function getOptionalPermissionCheckAlert(authManager: AuthManager, isProfilePage?: boolean): JSX.Element | null {
 
     // The user isn't signed in at all.
-    if (!authManager.userProfile) {
+    const currentProfile = authManager.userProfile;
+    if (!currentProfile) {
         return (<div role="alert" className="alert alert-warning">
             <FontAwesomeIcon icon="fas faTriangleExclamation" />
             <div>
@@ -17,8 +18,11 @@ export function getOptionalPermissionCheckAlert(authManager: AuthManager): JSX.E
 
     // The user is signed in, but they haven't completed their profile setup. If this isn't the profile page,
     // they don't have permissions to view this page.
-    if (window.location.pathname !== "/profile" && window.location.pathname !== "/profile/" &&
+    if (!isProfilePage &&
         authManager.userProfile.type === UserProfileType.NotConfigured) {
+
+        authManager.setHasSignUpDialogDisplayed(false);
+        
         return (<div role="alert" className="alert alert-warning">
             <FontAwesomeIcon icon="fas faTriangleExclamation" />
             <div>

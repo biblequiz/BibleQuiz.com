@@ -18,7 +18,7 @@ export default function ProfilePage({ loadingElementId }: Props) {
         if (fallback) fallback.style.display = "none";
     }, [loadingElementId]);
 
-    const permissionAlert = getOptionalPermissionCheckAlert(authManager);
+    const permissionAlert = getOptionalPermissionCheckAlert(authManager, true);
     if (permissionAlert) {
         return permissionAlert;
     }

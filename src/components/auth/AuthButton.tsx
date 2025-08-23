@@ -72,7 +72,7 @@ export default function AuthButton({ isMobile }: Props) {
                                 title="Complete Account Setup"
                                 yesLabel="Enter Remaining Information"
                                 onYes={() => {
-                                    authManager.markDisplaySignUpDialogAsDisplayed();
+                                    authManager.setHasSignUpDialogDisplayed(true);
                                     window.location.href = "/profile";
                                 }}
                                 noLabel="Sign Out & Change Account"
