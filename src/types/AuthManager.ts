@@ -1,6 +1,9 @@
 import { LogLevel, PublicClientApplication, type AccountInfo, type AuthenticationResult, type IPublicClientApplication } from "@azure/msal-browser";
 import type { Person } from "./services/PeopleService";
 import { AsyncLock } from "../utils/AsyncLock";
+import { map, type PreinitializedMapStore, type WritableAtom } from "nanostores";
+import { useStore } from "@nanostores/react";
+import Auth from "../pages/auth.astro";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const TOKEN_SCOPES = ["offline_access", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
@@ -10,73 +13,228 @@ const TOKEN_SCOPES = ["offline_access", "1058ea35-28ff-4b8a-953a-269f36d90235/.d
 const REDIRECT_PATH = "/auth";
 
 /**
+ * The private state of the auth manager.
+ */
+const privateStores = new WeakMap<AuthManager, PreinitializedMapStore<AuthManagerReactState>>();
+
+/**
+ * State of the auth manager that must trigger React reloads.
+ */
+interface AuthManagerReactState {
+
+    /**
+     * Type of the popup.
+     */
+    popupType: PopupType;
+
+    /**
+     * Value indicating whether the profile is being retrieved.
+     */
+    isRetrievingProfile: boolean;
+
+    /**
+     * Current user profile.
+     */
+    profile: UserAccountProfile | null;
+}
+
+/**
+ * Profile for the current user.
+ */
+export class UserAccountProfile {
+
+    /**
+     * Creates a new instance of the AccountProfile.
+     * @param personId  Id of the person in the remote system.
+     * @param displayName Display name of the user.
+     * @param type Type of the user's profile.
+     * @param isJbqAdmin Value indicating whether the user is a JBQ administrator.
+     * @param isTbqAdmin Value indicating whether the user is a TBQ administrator.
+     * @param authTokenProfile Profile from the auth token.
+     * @param hasSignUpDialogDisplayed Value indicating whether the sign-up dialog has been displayed.
+     */
+    public constructor(
+        personId: string | null,
+        displayName: string | null,
+        type: UserProfileType | null,
+        isJbqAdmin: boolean,
+        isTbqAdmin: boolean,
+        authTokenProfile: AuthTokenProfile | null,
+        hasSignUpDialogDisplayed: boolean) {
+
+        this.personId = personId;
+        this.displayName = displayName;
+        this.type = type;
+        this.isJbqAdmin = isJbqAdmin;
+        this.isTbqAdmin = isTbqAdmin;
+        this.authTokenProfile = authTokenProfile;
+        this.hasSignUpDialogDisplayed = hasSignUpDialogDisplayed;
+    }
+
+    /**
+     * Id of the person in the remote system.
+     */
+    public readonly personId: string | null;
+
+    /**
+     * Display name of the current user (if user is authenticated).
+     */
+    public readonly displayName: string | null;
+
+    /**
+     * Type of the user's profile.
+     */
+    public readonly type!: UserProfileType | null;
+
+    /**
+     * Value indicating whether the user is a JBQ administrator.
+     */
+    public readonly isJbqAdmin: boolean;
+
+    /**
+     * Value indicating whether the user is a TBQ administrator.
+     */
+    public readonly isTbqAdmin: boolean;
+
+    /**
+     * Profile from the auth token (if the user has one).
+     */
+    public readonly authTokenProfile: AuthTokenProfile | null;
+
+    /**
+     * Value indicating whether the sign-up dialog has been displayed.
+     */
+    public readonly hasSignUpDialogDisplayed: boolean;
+}
+
+/**
+ * Profile for the user from the auth token.
+ */
+export class AuthTokenProfile {
+
+    /**
+     * Creates an instance of the AuthTokenProfile.
+     * @param firstName First name of the user.
+     * @param lastName Last name of the user.
+     * @param email E-mail address of the user.
+     */
+    constructor(
+        firstName: string,
+        lastName: string,
+        email: string) {
+
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+    }
+
+    /**
+     * First name of the user.
+     */
+    public readonly firstName: string;
+
+    /**
+     * Last name of the user.
+     */
+    public readonly lastName: string;
+
+    /**
+     * E-mail address of the user.
+     */
+    public readonly email: string;
+}
+
+/**
+ * Type of popup that is currently open, if any.
+ */
+export enum PopupType {
+
+    /**
+     * No popup is present.
+     */
+    None,
+
+    /**
+     * Login popup is present.
+     */
+    Login,
+
+    /**
+     * Confirmation Dialog is present indicating to the user that they need to login.
+     */
+    LoginConfirmationDialog,
+
+    /**
+     * Logout popup is present.
+     */
+    Logout
+}
+
+/**
  * Manager for auth.
  */
 export class AuthManager {
 
+    private static readonly _instance: AuthManager = new AuthManager();
+
     private readonly _lock: AsyncLock = new AsyncLock();
-    private readonly _profile: UserAccountProfile | null;
-    private readonly _stateChangedCallback: (
-        client: IPublicClientApplication | null,
-        state: CallbackState | null) => void;
 
-    private readonly _popupType: PopupType = PopupType.None;
-    private readonly _isRetrievingProfile: boolean = false;
+    private _resolvedClient: IPublicClientApplication | null = null;
 
-    private _resolvedClient: IPublicClientApplication | null;
+    private _accessTokenResolve: ((value: string | null | PromiseLike<string | null>) => void) | null = null;
+    private _accessTokenReject: ((reason?: any) => void) | null = null
 
     /**
-     * Creates a new instance of the AuthManager.
-     * @param client Initialized MSAL client.
-     * @param state The current user state.
-     * @param stateChangedCallback Callback to invoke when the state changes.
+     * Private constructor for the AuthManager.
      */
-    public constructor(
-        client: IPublicClientApplication | null,
-        state: any | null,
-        stateChangedCallback: (client: IPublicClientApplication | null, state: any | null) => void) {
+    private constructor() {
 
-        if (!state) {
-            this._profile = AuthManager.loadProfile();
-            this._popupType = PopupType.None;
-            this._isRetrievingProfile = false;
-        }
-        else {
-            this._profile = state.profile;
-            this._popupType = state.popupType ?? PopupType.None;
-            this._isRetrievingProfile = state.isRetrievingProfile ?? false;
-        }
+        const store = map({
+            profile: AuthManager.loadProfile(),
+            popupType: PopupType.None,
+            isRetrievingProfile: false,
+            loginResolve: null,
+            loginReject: null
+        } as AuthManagerReactState);
 
-        this._resolvedClient = client;
-        this._stateChangedCallback = stateChangedCallback;
+        privateStores.set(this, store);
     }
 
     /**
      * Value indicating whether an auth popup is currently open.
      */
     public get popupType(): PopupType {
-        return this._popupType;
+        return this.getNanoState().get().popupType;
     }
 
     /**
      * Value indicating whether the profile is being retrieved.
      */
     public get isRetrievingProfile(): boolean {
-        return this._isRetrievingProfile;
+        return this.getNanoState().get().isRetrievingProfile;
     }
 
     /**
      * Value indicating whether the user is fully authenticated.
      */
     public get isAuthenticated(): boolean {
-        return this._profile !== null && this._profile.type !== UserProfileType.NotConfigured;
+        const currentProfile = this.userProfile;
+        return currentProfile !== null && currentProfile.type !== UserProfileType.NotConfigured;
     }
 
     /**
      * Current profile for the user (if any).
      */
     public get userProfile(): UserAccountProfile | null {
-        return this._profile;
+        return this.getNanoState().get().profile;
+    }
+
+    /**
+     * Uses the nano store for the auth manager to trigger re-renders.
+     */
+    public static useNanoStore(): AuthManager {
+        useStore(AuthManager._instance.getNanoState());
+        return AuthManager._instance;
     }
 
     /**
@@ -85,70 +243,72 @@ export class AuthManager {
      */
     public refreshPersonIfCurrentUser(person: Person): void {
 
-        if (this._profile && this._profile.personId === person.Id) {
+        const currentProfile = this.userProfile;
+        if (currentProfile && currentProfile.personId === person.Id) {
 
             const newProfile = new UserAccountProfile(
-                this._profile.personId,
+                currentProfile.personId,
                 `${person.FirstName} ${person.LastName}`,
-                this._profile.type,
-                this._profile.isJbqAdmin ?? false,
-                this._profile.isTbqAdmin ?? false,
-                this._profile.authTokenProfile ?? null,
-                this._profile.hasSignUpDialogDisplayed);
+                currentProfile.type,
+                currentProfile.isJbqAdmin ?? false,
+                currentProfile.isTbqAdmin ?? false,
+                currentProfile.authTokenProfile ?? null,
+                currentProfile.hasSignUpDialogDisplayed);
             AuthManager.saveProfile(newProfile);
 
-            this._stateChangedCallback(
-                this._resolvedClient,
-                {
-                    popupType: this._popupType,
-                    isRetrievingProfile: this._isRetrievingProfile,
-                    profile: newProfile
-                });
+            this.getNanoState().setKey("profile", newProfile);
         }
     }
 
     /**
      * Starts the login flow.
      */
-    public async login(): Promise<void | AuthenticationResult> {
+    public async login(): Promise<void> {
 
         const client = await this.getInitializedClient();
 
-        this._stateChangedCallback(
-            client,
-            {
-                popupType: PopupType.Login,
-                isRetrievingProfile: true,
-                profile: null
-            });
+        const state = this.getNanoState();
+        state.setKey("popupType", PopupType.Login);
+        state.setKey("isRetrievingProfile", true);
 
-        return client
-            .loginPopup({
-                scopes: TOKEN_SCOPES,
-                prompt: 'select_account',
-                state: window.location.pathname
-            })
-            .then((tokenResponse: AuthenticationResult) => {
+        return new Promise<void>((resolve, reject) => {
+            client
+                .loginPopup({
+                    scopes: TOKEN_SCOPES,
+                    prompt: 'select_account',
+                    state: window.location.pathname
+                })
+                .then((tokenResponse: AuthenticationResult) => {
 
-                // Persist the result of the login.
-                client.setActiveAccount(
-                    tokenResponse?.account ?? null,
-                );
+                    // Persist the result of the login.
+                    client.setActiveAccount(
+                        tokenResponse?.account ?? null,
+                    );
 
-                const tokenProfile = AuthManager.getAuthTokenProfile(tokenResponse.account);
+                    const tokenProfile = AuthManager.getAuthTokenProfile(tokenResponse.account);
 
-                this.retrieveRemoteProfile(tokenResponse.accessToken, tokenProfile);
-            })
-            .catch((error) => {
-                console.log(error);
-                this._stateChangedCallback(
-                    client,
-                    {
-                        popupType: PopupType.None,
-                        isRetrievingProfile: false,
-                        profile: this._profile
-                    });
-            });
+                    this.retrieveRemoteProfile(tokenResponse.accessToken, tokenProfile)
+                        .then(resolve);
+                })
+                .catch((error) => {
+
+                    console.log(error);
+
+                    state.setKey("popupType", PopupType.None);
+                    state.setKey("isRetrievingProfile", false);
+
+                    if (this._accessTokenReject) {
+                        this._accessTokenReject(error);
+                        resolve();
+                    }
+                    else {
+                        resolve();
+                    }
+
+                    this._accessTokenResolve = null;
+                    this._accessTokenReject = null;
+                });
+        });
     }
 
     /**
@@ -158,13 +318,7 @@ export class AuthManager {
 
         const client = await this.getInitializedClient();
 
-        this._stateChangedCallback(
-            client,
-            {
-                popupType: PopupType.Logout,
-                isRetrievingProfile: false,
-                profile: this._profile
-            });
+        this.getNanoState().setKey("popupType", PopupType.Logout);
 
         return client
             .logoutPopup({
@@ -172,50 +326,59 @@ export class AuthManager {
             })
             .then(() => {
                 AuthManager.saveProfile(null);
-                this._stateChangedCallback(
-                    client,
-                    {
-                        popupType: PopupType.None,
-                        isRetrievingProfile: false,
-                        profile: null
-                    });
+
+                const state = this.getNanoState();
+                state.setKey("popupType", PopupType.None);
+                state.setKey("profile", null);
             })
             .catch((error) => {
                 console.log(error);
-                this._stateChangedCallback(
-                    client,
-                    {
-                        popupType: PopupType.None,
-                        isRetrievingProfile: false,
-                        profile: this._profile
-                    });
+
+                this.getNanoState().setKey("popupType", PopupType.None);
             });
     }
 
     /**
-     * Retrieves the latest access token for the current user.
+     * Retrieves the latest access token for the current user. If the user was signed in, but their
+     * token expired, this may display a popup for the user to sign in again.
      * @returns The latest access token or null if not available.
      */
     public async getLatestAccessToken(): Promise<string | null> {
 
-        const client = await this.getInitializedClient();
+        return new Promise<string | null>(
+            async (resolve, reject) => {
+                const client = await this.getInitializedClient();
 
-        const activeAccount: AccountInfo | null = client.getActiveAccount();
-        if (!activeAccount) {
-            return Promise.resolve(null);
-        }
+                const activeAccount: AccountInfo | null = client.getActiveAccount();
+                if (!activeAccount) {
+                    return Promise.resolve(null);
+                }
 
-        return client
-            .acquireTokenSilent({
-                scopes: TOKEN_SCOPES,
-                account: activeAccount,
-            })
-            .then((tokenResponse: AuthenticationResult) => {
-                return tokenResponse.accessToken;
-            })
-            .catch((error) => {
-                console.error("Error acquiring token silently:", error);
-                return null;
+                try {
+                    const tokenResponse = await client
+                        .acquireTokenSilent({
+                            scopes: TOKEN_SCOPES,
+                            account: activeAccount,
+                        });
+
+                    resolve(tokenResponse.accessToken);
+                }
+                catch (error) {
+
+                    // If the resolve/reject is already present, this might be an infinite loop.
+                    if (this._accessTokenResolve || this._accessTokenReject) {
+                        console.log("Already attempting to get a new access token. Failing to avoid an infinite loop.");
+                        reject(error);
+                        return;
+                    }
+
+                    // It's possible the user is no longer signed in. In this case, save the resolve
+                    // and reject so the user can be prompted to sign in again.
+                    this._accessTokenResolve = resolve;
+                    this._accessTokenReject = reject;
+
+                    this.getNanoState().setKey("popupType", PopupType.LoginConfirmationDialog);
+                }
             });
     }
 
@@ -224,24 +387,20 @@ export class AuthManager {
      */
     public markDisplaySignUpDialogAsDisplayed() {
 
-        if (this._profile) {
+        const currentProfile = this.userProfile;
+
+        if (currentProfile) {
             const newProfile = new UserAccountProfile(
-                this._profile.personId,
-                this._profile.displayName,
-                this._profile.type,
-                this._profile.isJbqAdmin ?? false,
-                this._profile.isTbqAdmin ?? false,
-                this._profile.authTokenProfile ?? null,
+                currentProfile.personId,
+                currentProfile.displayName,
+                currentProfile.type,
+                currentProfile.isJbqAdmin ?? false,
+                currentProfile.isTbqAdmin ?? false,
+                currentProfile.authTokenProfile ?? null,
                 true);
             AuthManager.saveProfile(newProfile);
 
-            this._stateChangedCallback(
-                this._resolvedClient,
-                {
-                    popupType: PopupType.None,
-                    isRetrievingProfile: false,
-                    profile: newProfile
-                });
+            this.getNanoState().setKey("profile", newProfile);
         }
     }
 
@@ -254,7 +413,7 @@ export class AuthManager {
             throw new Error("No access token available to refresh the profile.");
         }
 
-        return this.retrieveRemoteProfile(accessToken, this._profile?.authTokenProfile ?? null);
+        return this.retrieveRemoteProfile(accessToken, this.userProfile?.authTokenProfile ?? null);
     }
 
     private retrieveRemoteProfile(
@@ -280,13 +439,17 @@ export class AuthManager {
                     false);
 
                 AuthManager.saveProfile(newProfile);
-                this._stateChangedCallback(
-                    this._resolvedClient,
-                    {
-                        popupType: PopupType.None,
-                        isRetrievingProfile: false,
-                        profile: newProfile
-                    });
+
+                const state = this.getNanoState();
+                state.setKey("popupType", PopupType.None);
+                state.setKey("isRetrievingProfile", false);
+                state.setKey("profile", newProfile);
+
+                if (this._accessTokenResolve) {
+                    this._accessTokenResolve(accessToken);
+                    this._accessTokenResolve = null;
+                    this._accessTokenReject = null;
+                }
             });
     }
 
@@ -430,154 +593,10 @@ export class AuthManager {
 
         return this._resolvedClient;
     }
-}
 
-/**
- * State for the callback.
- */
-interface CallbackState {
-
-    /**
-     * Type of the popup.
-     */
-    popupType: PopupType;
-
-    /**
-     * Value indicating whether the profile is being retrieved.
-     */
-    isRetrievingProfile: boolean;
-
-    /**
-     * Current user profile.
-     */
-    profile: UserAccountProfile | null;
-}
-
-/**
- * Profile for the current user.
- */
-export class UserAccountProfile {
-
-    /**
-     * Creates a new instance of the AccountProfile.
-     * @param personId  Id of the person in the remote system.
-     * @param displayName Display name of the user.
-     * @param type Type of the user's profile.
-     * @param isJbqAdmin Value indicating whether the user is a JBQ administrator.
-     * @param isTbqAdmin Value indicating whether the user is a TBQ administrator.
-     * @param authTokenProfile Profile from the auth token.
-     * @param hasSignUpDialogDisplayed Value indicating whether the sign-up dialog has been displayed.
-     */
-    public constructor(
-        personId: string | null,
-        displayName: string | null,
-        type: UserProfileType | null,
-        isJbqAdmin: boolean,
-        isTbqAdmin: boolean,
-        authTokenProfile: AuthTokenProfile | null,
-        hasSignUpDialogDisplayed: boolean) {
-
-        this.personId = personId;
-        this.displayName = displayName;
-        this.type = type;
-        this.isJbqAdmin = isJbqAdmin;
-        this.isTbqAdmin = isTbqAdmin;
-        this.authTokenProfile = authTokenProfile;
-        this.hasSignUpDialogDisplayed = hasSignUpDialogDisplayed;
+    private getNanoState(): PreinitializedMapStore<AuthManagerReactState> {
+        return privateStores.get(this)!;
     }
-
-    /**
-     * Id of the person in the remote system.
-     */
-    public readonly personId: string | null;
-
-    /**
-     * Display name of the current user (if user is authenticated).
-     */
-    public readonly displayName: string | null;
-
-    /**
-     * Type of the user's profile.
-     */
-    public readonly type!: UserProfileType | null;
-
-    /**
-     * Value indicating whether the user is a JBQ administrator.
-     */
-    public readonly isJbqAdmin: boolean;
-
-    /**
-     * Value indicating whether the user is a TBQ administrator.
-     */
-    public readonly isTbqAdmin: boolean;
-
-    /**
-     * Profile from the auth token (if the user has one).
-     */
-    public readonly authTokenProfile: AuthTokenProfile | null;
-
-    /**
-     * Value indicating whether the sign-up dialog has been displayed.
-     */
-    public readonly hasSignUpDialogDisplayed: boolean = false;
-}
-
-/**
- * Profile for the user from the auth token.
- */
-export class AuthTokenProfile {
-
-    /**
-     * Creates an instance of the AuthTokenProfile.
-     * @param firstName First name of the user.
-     * @param lastName Last name of the user.
-     * @param email E-mail address of the user.
-     */
-    constructor(
-        firstName: string,
-        lastName: string,
-        email: string) {
-
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-    }
-
-    /**
-     * First name of the user.
-     */
-    public readonly firstName: string;
-
-    /**
-     * Last name of the user.
-     */
-    public readonly lastName: string;
-
-    /**
-     * E-mail address of the user.
-     */
-    public readonly email: string;
-}
-
-/**
- * Type of popup that is currently open, if any.
- */
-export enum PopupType {
-
-    /**
-     * No popup is present.
-     */
-    None,
-
-    /**
-     * Login popup is present.
-     */
-    Login,
-
-    /**
-     * Logout popup is present.
-     */
-    Logout
 }
 
 /**

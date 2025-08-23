@@ -1,6 +1,5 @@
-import { useStore } from "@nanostores/react";
 import React, { useEffect, useState } from "react";
-import { sharedAuthManager, sharedDirtyWindowState, sharedGlobalStatusToast } from "../../../utils/SharedState";
+import { sharedDirtyWindowState } from "../../../utils/SharedState";
 import { getOptionalPermissionCheckAlert } from "../../auth/PermissionCheckAlert";
 import CollapsibleSection from "../../CollapsibleSection";
 import { QuestionGeneratorService, QuestionLanguage, type PreviouslyGeneratedSet } from "../../../types/services/QuestionGeneratorService";
@@ -9,6 +8,7 @@ import FontAwesomeIcon from "../../FontAwesomeIcon";
 import settings from "../../../data/generated/questionGenerator.json";
 import type { JbqQuestionGeneratorSettings } from "../../../types/QuestionGeneratorSettings";
 import PointValueCountSelector from "./PointValueCountSelector";
+import { AuthManager } from "../../../types/AuthManager";
 
 interface Props {
     loadingElementId: string;
@@ -34,8 +34,8 @@ enum QuestionRuleType {
 
 export default function QuestionGeneratorPage({ loadingElementId }: Props) {
 
-    const authManager = useStore(sharedAuthManager);
-    const permissionAlert = getOptionalPermissionCheckAlert(authManager, true);
+    const authManager = AuthManager.useNanoStore();
+    const permissionAlert = getOptionalPermissionCheckAlert(authManager);
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);

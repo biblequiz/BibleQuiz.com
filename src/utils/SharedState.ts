@@ -6,7 +6,6 @@ import { RoomScoringReport } from "@types/RoomScoringReport";
 import type { QuizzerIndex } from "../types/QuizzerSearch";
 import type { ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from '../types/EventScoringReport';
 import type { TeamAndQuizzerFavorites } from '../types/TeamAndQuizzerFavorites';
-import { AuthManager } from '../types/AuthManager';
 import type { IPublicClientApplication } from '@azure/msal-browser';
 
 /* Downloaded Event Report */
@@ -114,16 +113,6 @@ export interface QuizzerSearchState {
 };
 
 export const sharedQuizzerSearchState = atom<QuizzerSearchState | null>(null);
-
-/* Auth Manager */
-const accountChangeCallback = (
-    client: IPublicClientApplication | null,
-    state: any | null,
-) => {
-    sharedAuthManager.set(new AuthManager(client, state, accountChangeCallback));
-}
-
-export const sharedAuthManager = atom<AuthManager>(new AuthManager(null, null, accountChangeCallback));
 
 /* Error Messages */
 export interface GlobalToastMessage {

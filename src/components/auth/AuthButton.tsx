@@ -1,7 +1,6 @@
 import { useStore } from "@nanostores/react";
-import { sharedAuthManager } from "../../utils/SharedState";
 import FontAwesomeIcon from "../FontAwesomeIcon";
-import { PopupType, UserProfileType } from "../../types/AuthManager";
+import { AuthManager, PopupType, UserProfileType } from "../../types/AuthManager";
 import ConfirmationDialog from "../ConfirmationDialog";
 
 interface Props {
@@ -10,15 +9,32 @@ interface Props {
 
 export default function AuthButton({ isMobile }: Props) {
 
-    const authManager = useStore(sharedAuthManager);
+    const authManager = AuthManager.useNanoStore();
 
     const userProfile = authManager.userProfile;
     if (authManager.popupType != PopupType.None || authManager.isRetrievingProfile) {
         return (
-            <div className={`w-${isMobile ? "full" : "24 text-xs"} text-center`}>
-                <div>{authManager.popupType === PopupType.Logout ? "Logging Out" : "Logging In"}</div>
-                <progress className="progress"></progress>
-            </div>);
+            <>
+                <div className={`w-${isMobile ? "full" : "24 text-xs"} text-center`}>
+                    <div>{authManager.popupType === PopupType.Logout ? "Logging Out" : "Logging In"}</div>
+                    <progress className="progress"></progress>
+                </div>
+                {authManager.popupType === PopupType.LoginConfirmationDialog && (
+                    <div className="text-base-content">
+                        <ConfirmationDialog
+                            id="confirmation-dialog-complete-profile"
+                            title="Sign-In Required"
+                            yesLabel="Sign In"
+                            onYes={() => authManager.login()}
+                            noLabel="Cancel"
+                            onNo={() => authManager.logout()}>
+                            <p>
+                                Your session has expired or you have signed out. You need to sign in again
+                                to avoid losing any unsaved changes.
+                            </p>
+                        </ConfirmationDialog>
+                    </div>)}
+            </>);
     }
 
     if (userProfile) {
@@ -35,6 +51,14 @@ export default function AuthButton({ isMobile }: Props) {
                     displayName = "Unknown";
                 }
             }
+            else if (userProfile.hasSignUpDialogDisplayed) {
+                return (
+                    <a
+                        className="btn btn-primary"
+                        href="/profile">
+                        Complete Sign-Up
+                    </a>);
+            }
             else {
                 return (
                     <>
@@ -44,6 +68,7 @@ export default function AuthButton({ isMobile }: Props) {
                         </div>
                         <div className="text-base-content">
                             <ConfirmationDialog
+                                id="confirmation-dialog-complete-profile"
                                 title="Complete Account Setup"
                                 yesLabel="Enter Remaining Information"
                                 onYes={() => {

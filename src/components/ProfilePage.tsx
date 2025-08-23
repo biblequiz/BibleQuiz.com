@@ -2,7 +2,7 @@ import { useStore } from "@nanostores/react";
 import { sharedAuthManager } from "../utils/SharedState";
 import { useEffect } from "react";
 import { getOptionalPermissionCheckAlert } from "./auth/PermissionCheckAlert";
-import { UserProfileType } from "../types/AuthManager";
+import { AuthManager, UserProfileType } from "../types/AuthManager";
 import ProfilePersonDetails from "./ProfilePersonDetails";
 
 interface Props {
@@ -11,14 +11,14 @@ interface Props {
 
 export default function ProfilePage({ loadingElementId }: Props) {
 
-    const authManager = useStore(sharedAuthManager);
+    const authManager = AuthManager.useNanoStore();
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);
         if (fallback) fallback.style.display = "none";
     }, [loadingElementId]);
 
-    const permissionAlert = getOptionalPermissionCheckAlert(authManager, true);
+    const permissionAlert = getOptionalPermissionCheckAlert(authManager);
     if (permissionAlert) {
         return permissionAlert;
     }
