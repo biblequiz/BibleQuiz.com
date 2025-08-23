@@ -1,12 +1,12 @@
 ---
-import QuestionGeneratorPage from "./QuestionGeneratorPage";
+import QuestionGeneratorRoot from "./QuestionGeneratorRoot";
 ---
 
 <div id="generator-fallback" class="flex justify-center items-center">
     <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading the
     Question Generator ...
 </div>
-<QuestionGeneratorPage
+<QuestionGeneratorRoot
     client:only="react"
     loadingElementId="generator-fallback"
 />

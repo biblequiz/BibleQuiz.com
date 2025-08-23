@@ -3,14 +3,16 @@ import { QuestionGeneratorService, type PreviouslyGeneratedSet } from "../../../
 import LoadingPlaceholder from "../../LoadingPlaceholder";
 import FontAwesomeIcon from "../../FontAwesomeIcon";
 import { AuthManager } from "../../../types/AuthManager";
+import { useNavigate } from "react-router-dom";
+import { ROUTE_GENERATE_SET } from "./QuestionGeneratorRoot";
 
 interface Props {
-    onSetsLoaded: (count: number) => void;
 }
 
-export default function PreviousSetsSection({ onSetsLoaded }: Props) {
+export default function PreviousSetsSection({ }: Props) {
 
     const authManager = AuthManager.useNanoStore();
+    const navigate = useNavigate();
 
     const [previousSets, setPreviousSets] = useState<PreviouslyGeneratedSet[] | null>(null);
     const [isProcessing, setIsProcessing] = useState<boolean>(false);
@@ -20,11 +22,13 @@ export default function PreviousSetsSection({ onSetsLoaded }: Props) {
         () => {
             if (!previousSets) {
                 QuestionGeneratorService.getPreviousSets(authManager)
-                    .then(
-                        (newSets) => {
-                            setPreviousSets(newSets);
-                            onSetsLoaded(newSets ? newSets.length : 0);
-                        })
+                    .then(s => {
+                        setPreviousSets(s);
+                        
+                        if (s && s.length === 0) {
+                            navigate(ROUTE_GENERATE_SET);
+                        }
+                    })
                     .catch(error => {
                         setLatestError(error.message);
                         setIsProcessing(false);
