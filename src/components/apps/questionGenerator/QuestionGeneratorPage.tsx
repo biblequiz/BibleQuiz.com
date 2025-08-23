@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { sharedDirtyWindowState } from "../../../utils/SharedState";
 import { getOptionalPermissionCheckAlert } from "../../auth/PermissionCheckAlert";
 import CollapsibleSection from "../../CollapsibleSection";
-import { QuestionGeneratorService, QuestionLanguage, type PreviouslyGeneratedSet } from "../../../types/services/QuestionGeneratorService";
+import { QuestionGeneratorService, QuestionLanguage, QuestionTypeFilter, type PreviouslyGeneratedSet } from "../../../types/services/QuestionGeneratorService";
 import LoadingPlaceholder from "../../LoadingPlaceholder";
 import FontAwesomeIcon from "../../FontAwesomeIcon";
 import settings from "../../../data/generated/questionGenerator.json";
@@ -67,6 +67,7 @@ export default function QuestionGeneratorPage({ loadingElementId }: Props) {
     const [regularPointValueCounts, setRegularPointValueCounts] = useState<Record<number, number>>({ 10: 10, 20: 7, 30: 3 });
     const [substitutePointValueCounts, setSubstitutePointValueCounts] = useState<Record<number, number>>({ 10: 1, 20: 1, 30: 1 });
     const [overtimePointValueCounts, setOvertimePointValueCounts] = useState<Record<number, number>>({ 10: 1, 20: 1, 30: 1 });
+    const [questionType, setQuestionType] = useState<QuestionTypeFilter>(QuestionTypeFilter.All);
 
     if (permissionAlert) {
         return permissionAlert;
@@ -465,24 +466,20 @@ export default function QuestionGeneratorPage({ loadingElementId }: Props) {
                             <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 mt-0 mb-0">
                                 <legend className="fieldset-legend">Questions</legend>
                                 <div className="w-full mt-0">
-                                    <label className="label">
-                                        <span className="label-text font-medium">Season</span>
-                                        <span className="label-text-alt text-error">*</span>
-                                    </label>
                                     <select
-                                        name="season"
+                                        name="question-type"
                                         className="select select-bordered w-full mt-0"
-                                        value={season}
+                                        value={questionType}
                                         onChange={e => {
-                                            setSeason(Number(e.target.value));
+                                            setQuestionType(QuestionTypeFilter[e.target.value as keyof typeof QuestionTypeFilter]);
                                             sharedDirtyWindowState.set(true);
                                         }}
                                         disabled={isProcessing}
                                         required
                                     >
-                                        {generatorSettings.Seasons.map((s) => (
-                                            <option key={`season_${s}`} value={s}>{s}</option>
-                                        ))}
+                                        <option value={QuestionTypeFilter.All}>Quotations and Non-Quotations</option>
+                                        <option value={QuestionTypeFilter.QuotationOnly}>Quotations Only</option>
+                                        <option value={QuestionTypeFilter.NonQuotation}>No Quotation Questions</option>
                                     </select>
                                 </div>
                             </fieldset>

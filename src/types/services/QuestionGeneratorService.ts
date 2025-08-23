@@ -304,17 +304,17 @@ export enum QuestionTypeFilter {
     /**
      * All types of questions.
      */
-    All,
+    All = "All",
 
     /**
      * Only quotation questions.
      */
-    QuotationOnly,
+    QuotationOnly = "QuotationOnly",
 
     /**
      * All questions except quotations.
      */
-    NonQuotation
+    NonQuotation = "NonQuotation"
 }
 
 /**

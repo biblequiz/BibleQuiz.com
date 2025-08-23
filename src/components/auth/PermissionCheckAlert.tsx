@@ -20,9 +20,6 @@ export function getOptionalPermissionCheckAlert(authManager: AuthManager, isProf
     // they don't have permissions to view this page.
     if (!isProfilePage &&
         authManager.userProfile.type === UserProfileType.NotConfigured) {
-
-        authManager.setHasSignUpDialogDisplayed(false);
-        
         return (<div role="alert" className="alert alert-warning">
             <FontAwesomeIcon icon="fas faTriangleExclamation" />
             <div>
