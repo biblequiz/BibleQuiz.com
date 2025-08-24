@@ -92,7 +92,7 @@ export default function QuestionSelectorByRange({
     return (
         <div className="flex flex-wrap gap-2">
             {ranges.map((range, index) => (
-                <div className="badge badge-primary mt-0" key={`custom-range-${index}`}>
+                <div className="badge badge-primary mt-0" key={`custom-range-${range.Start}-${range.End}`}>
                     <span>{range.Start} - {range.End}</span>
                     <button
                         type="button"

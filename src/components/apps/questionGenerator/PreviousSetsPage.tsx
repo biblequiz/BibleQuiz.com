@@ -3,14 +3,16 @@ import { QuestionGeneratorService, type PreviouslyGeneratedSet } from "../../../
 import LoadingPlaceholder from "../../LoadingPlaceholder";
 import FontAwesomeIcon from "../../FontAwesomeIcon";
 import { AuthManager } from "../../../types/AuthManager";
+import { useNavigate } from "react-router-dom";
 
 interface Props {
-    generateSetElementId: string;
+    generateSetElement: React.RefObject<HTMLDivElement | null>;
 }
 
-export default function PreviousSetsSection({ generateSetElementId }: Props) {
+export default function PreviousSetsSection({ generateSetElement }: Props) {
 
     const authManager = AuthManager.useNanoStore();
+    const navigate = useNavigate();
 
     const [previousSets, setPreviousSets] = useState<PreviouslyGeneratedSet[] | null>(null);
     const [latestError, setLatestError] = useState<string | null>(null);
@@ -24,9 +26,8 @@ export default function PreviousSetsSection({ generateSetElementId }: Props) {
                         setPreviousSets(s);
 
                         if (s && s.length === 0) {
-                            const generateSetElement = document.getElementById(generateSetElementId);
-                            if (generateSetElement) {
-                                generateSetElement.scrollIntoView({ behavior: "smooth" });
+                            if (generateSetElement.current) {
+                                generateSetElement.current.scrollIntoView({ behavior: "smooth" });
                             }
                         }
                     })
@@ -35,6 +36,17 @@ export default function PreviousSetsSection({ generateSetElementId }: Props) {
                     });
             }
         }, [authManager]);
+
+    const handleRegenerate = async (event: React.MouseEvent<HTMLButtonElement>, setId: string) => {
+        event.preventDefault();
+        event.stopPropagation();
+
+        setIsProcessing(true);
+
+        await navigate(`/${setId}`);
+
+        setIsProcessing(false);
+    };
 
     const handleDelete = (event: React.MouseEvent<HTMLButtonElement>, setId: string) => {
         event.preventDefault();
@@ -106,7 +118,8 @@ export default function PreviousSetsSection({ generateSetElementId }: Props) {
                                     <button
                                         type="button"
                                         disabled={isProcessing}
-                                        className="btn btn-primary btn-sm mt-0 mr-2">
+                                        className="btn btn-primary btn-sm mt-0 mr-2"
+                                        onClick={e => handleRegenerate(e, set.Id)}>
                                         <FontAwesomeIcon icon="fas faRedo" />
                                     </button>
                                     <button

@@ -25,11 +25,17 @@ export default function PointValueRulesSelector({ pointValue, rules, setRules }:
                     onChange={e => setRules({ ...rules, First: QuestionPositionRequirement[e.target.value as keyof typeof QuestionPositionRequirement] })}
                     required
                 >
-                    {Object.values(QuestionPositionRequirement).map((requirement) => (
-                        <option key={`first-question-${pointValue}-${requirement}`} value={requirement}>
-                            {requirement}
-                        </option>
-                    ))}
+                    {Object.values(QuestionPositionRequirement).map((requirement) => {
+                        if (typeof requirement === "number") {
+                            return null;
+                        }
+
+                        return (
+                            <option key={`first-question-${pointValue}-${requirement}`} value={requirement}>
+                                {requirement === QuestionPositionRequirement.NotAllowed ? "Not Allowed" : requirement}
+                            </option>
+                        );
+                    })}
                 </select>
             </div>
             <div className="w-full mt-0">
@@ -44,11 +50,17 @@ export default function PointValueRulesSelector({ pointValue, rules, setRules }:
                     onChange={e => setRules({ ...rules, Last: QuestionPositionRequirement[e.target.value as keyof typeof QuestionPositionRequirement] })}
                     required
                 >
-                    {Object.values(QuestionPositionRequirement).map((requirement) => (
-                        <option key={`last-question-${pointValue}-${requirement}`} value={requirement}>
-                            {requirement}
-                        </option>
-                    ))}
+                    {Object.values(QuestionPositionRequirement).map((requirement) => {
+                        if (typeof requirement === "number") {
+                            return null;
+                        }
+
+                        return (
+                            <option key={`last-question-${pointValue}-${requirement}`} value={requirement}>
+                                {requirement === QuestionPositionRequirement.NotAllowed ? "Not Allowed" : requirement}
+                            </option>
+                        );
+                    })}
                 </select>
             </div>
             <div className="w-full mb-0">
@@ -75,7 +87,7 @@ export default function PointValueRulesSelector({ pointValue, rules, setRules }:
                     name={`min-per-half-${pointValue}`}
                     value={perHalfCount}
                     onChange={e => setPerHalfCount(Number(e.target.value))}
-                    onBlur={e => setRules({ ...rules, PerHalfCount: perHalfCount})}
+                    onBlur={e => setRules({ ...rules, PerHalfCount: perHalfCount })}
                     className="input input-bordered w-full"
                     min={0}
                     max={5}

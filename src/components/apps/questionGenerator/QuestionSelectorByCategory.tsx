@@ -12,12 +12,12 @@ export default function QuestionSelectorByCategory({ categories, setCategories }
 
     return (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {GENERATOR_SETTINGS.OrderedCategoryKeys.map((categoryKey, index) => {
+            {GENERATOR_SETTINGS.OrderedCategoryKeys.map((categoryKey) => {
                 const categoryLabel: string = GENERATOR_SETTINGS.CategoryLabels[categoryKey];
                 const isChecked = categories ? categories.has(categoryKey) : true;
 
                 return (
-                    <label key={`question-category-${index}`} className="label text-sm cursor-pointer mt-0">
+                    <label key={`question-category-${categoryKey}`} className="label text-sm cursor-pointer mt-0">
                         <input
                             type="checkbox"
                             name="question-category"
@@ -41,7 +41,7 @@ export default function QuestionSelectorByCategory({ categories, setCategories }
 
                                 setCategories(newCategories);
                             }} />
-                        {GENERATOR_SETTINGS.CategoryLabels[categoryKey]}
+                        {categoryLabel}
                     </label>);
             })}
         </div>);

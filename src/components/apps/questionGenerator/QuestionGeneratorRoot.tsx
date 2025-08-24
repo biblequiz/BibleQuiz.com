@@ -1,7 +1,7 @@
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { AuthManager } from '../../../types/AuthManager';
 import { getOptionalPermissionCheckAlert } from '../../auth/PermissionCheckAlert';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import PreviousSetsPage from './PreviousSetsPage';
 import GenerateSetPage from './GenerateSetPage';
 import { QuestionGeneratorService, type PreviouslyGeneratedSet } from '../../../types/services/QuestionGeneratorService';
@@ -10,12 +10,12 @@ interface Props {
     loadingElementId: string;
 }
 
-export const ROUTE_SET_SELECTION = "/";
-const GENERATE_SET_ELEMENT_ID = "new-set-page";
-
 export default function QuestionGeneratorRoot({ loadingElementId }: Props) {
 
     const authManager = AuthManager.useNanoStore();
+
+    const generateSetElement = useRef<HTMLDivElement>(null);
+
     const permissionAlert = getOptionalPermissionCheckAlert(authManager);
 
     useEffect(() => {
@@ -30,15 +30,20 @@ export default function QuestionGeneratorRoot({ loadingElementId }: Props) {
     return (
         <HashRouter>
             <Routes>
-                <Route path={ROUTE_SET_SELECTION} element={
+                <Route path="/:setId?" element={
                     <>
                         <PreviousSetsPage
-                            generateSetElementId={GENERATE_SET_ELEMENT_ID}
+                            generateSetElement={generateSetElement}
                         />
                         <div className="divider" />
                         <GenerateSetPage
-                            elementId={GENERATE_SET_ELEMENT_ID}
+                            generateSetElement={generateSetElement}
                         />
+                    </>}
+                />
+                <Route path="/generate/:setId" element={
+                    <>
+                        <span>Generate</span>
                     </>}
                 />
             </Routes>

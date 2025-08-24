@@ -139,7 +139,7 @@ export class QuestionSelectionCriteria {
     /**
      * Season for the Factpak. If this is null, the current season will be used.
      */
-    public Season!: number | null;
+    public Season!: number;
 
     /**
      * Language to use for the questions.
@@ -149,7 +149,7 @@ export class QuestionSelectionCriteria {
     /**
      * Title for the criteria.
      */
-    public Title!: string | null;
+    public Title!: string;
 
     /**
      * Mode for the generated set.
@@ -174,12 +174,12 @@ export class QuestionSelectionCriteria {
     /**
      * Override for the number of point values of each count.
      */
-    public PointValueCounts: { [key: string]: number } | null = {};
+    public PointValueCounts: Record<number, number> | null = {};
 
     /**
      * Override for the rules for each point value.
      */
-    public PointValueRules!: { [key: string]: QuestionPointValueRules; } | null;
+    public PointValueRules!: Record<number, QuestionPointValueRules> | null;
 
     /**
      * Explicit ordering of point values for regular questions for each match. If this is non-null, it overrides PointValueCounts and PointValueRules.
@@ -194,7 +194,7 @@ export class QuestionSelectionCriteria {
     /**
      * Point value counts for any overtime questions (if any). These will be randomized.
      */
-    public OvertimeQuestions: { [key: string]: number } = {};
+    public OvertimeQuestions: Record<number, number> = {};
 
     /**
      * Type of questions to include.
@@ -246,7 +246,7 @@ export enum DuplicateQuestionMode {
     /**
      * No duplicates will be selected within a single match but may be selected in other matches.
      */
-    AllowDuplicatesInOtherMatches = "AllowDuplicatesInOtherMatches" 
+    AllowDuplicatesInOtherMatches = "AllowDuplicatesInOtherMatches"
 }
 
 /**
@@ -283,17 +283,17 @@ export enum QuestionPositionRequirement {
     /**
      * Allowed to be in the position, but not required.
      */
-    Allowed,
+    Allowed = "Allowed",
 
     /**
      * Required to be at the specified position.
      */
-    Required,
+    Required = "Required",
 
     /**
      * Not allowed to be in the specific position.
      */
-    NotAllowed
+    NotAllowed = "NotAllowed",
 }
 
 /**

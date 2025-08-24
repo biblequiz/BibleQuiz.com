@@ -22,7 +22,7 @@ export default function QuestionSelectorByGroup({ groups, setGroups }: Props) {
         const groupNumber = index + 1;
 
         return (
-            <div key={`question-group-${index}`}>
+            <div key={`question-group-${groupNumber}`}>
                 <label className="label text-wrap">
                     <input
                         type="checkbox"
