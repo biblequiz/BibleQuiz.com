@@ -1,6 +1,7 @@
 import { QuestionLanguage } from "../../../types/services/QuestionGeneratorService";
 import settings from "../../../data/generated/questionGenerator.json";
 import type { JbqQuestionGeneratorSettings } from "../../../types/QuestionGeneratorSettings";
+import { useState } from "react";
 
 interface Props {
     criteria: GeneralCriteria;
@@ -20,6 +21,9 @@ export default function GeneralCriteriaSelector({
     criteria,
     setCriteria }: Props) {
 
+    const [title, setTitle] = useState<string>(criteria.title || "");
+    const [rounds, setRounds] = useState<number>(criteria.rounds);
+
     return (
         <>
             <div className="w-full">
@@ -30,8 +34,9 @@ export default function GeneralCriteriaSelector({
                 <input
                     type="text"
                     name="title"
-                    value={criteria.title}
-                    onChange={e => setCriteria({ ...criteria, title: e.target.value })}
+                    value={title}
+                    onChange={e => setTitle(e.target.value)}
+                    onBlur={e => setCriteria({ ...criteria, title: title.trim() })}
                     placeholder="Enter title for the set"
                     className="input input-bordered w-full"
                     maxLength={80}
@@ -47,8 +52,9 @@ export default function GeneralCriteriaSelector({
                     <input
                         type="number"
                         name="rounds"
-                        value={criteria.rounds}
-                        onChange={e => setCriteria({ ...criteria, rounds: Number(e.target.value) })}
+                        value={rounds}
+                        onChange={e => setRounds(Number(e.target.value))}
+                        onBlur={e => setCriteria({ ...criteria, rounds: rounds })}
                         placeholder="Enter number of rounds"
                         className="input input-bordered w-full"
                         min={1}

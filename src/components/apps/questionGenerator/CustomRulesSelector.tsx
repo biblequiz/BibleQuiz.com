@@ -1,4 +1,6 @@
 import { QuestionTypeFilter } from "../../../types/services/QuestionGeneratorService";
+import type { OtherCriteria } from "./OtherSettingsSelector";
+import OtherSettingsSelector from "./OtherSettingsSelector";
 import PointValueCountSelector, { type PointValueCriteria } from "./PointValueCountSelector";
 import QuestionSelector, { type QuestionCriteria } from "./QuestionSelector";
 
@@ -14,6 +16,8 @@ export interface CustomRules {
 
     questionFilter: QuestionTypeFilter;
     questionCriteria: QuestionCriteria;
+
+    other: OtherCriteria;
 }
 
 export default function CustomRulesSelector({ criteria, setCriteria }: Props) {
@@ -61,5 +65,9 @@ export default function CustomRulesSelector({ criteria, setCriteria }: Props) {
                     criteria={criteria.questionCriteria}
                     setCriteria={c => setCriteria({ ...criteria, questionCriteria: c })} />
             </fieldset>
+
+            <OtherSettingsSelector
+                criteria={criteria.other}
+                setCriteria={c => setCriteria({ ...criteria, other: c })} />
         </div>);
 }

@@ -241,12 +241,12 @@ export enum DuplicateQuestionMode {
     /**
      * No duplicates will be selected until ALL other questions have been chosen.
      */
-    NoDuplicates,
+    NoDuplicates = "NoDuplicates",
 
     /**
      * No duplicates will be selected within a single match but may be selected in other matches.
      */
-    AllowDuplicatesInOtherMatches
+    AllowDuplicatesInOtherMatches = "AllowDuplicatesInOtherMatches" 
 }
 
 /**

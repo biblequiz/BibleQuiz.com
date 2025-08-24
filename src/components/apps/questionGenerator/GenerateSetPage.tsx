@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { sharedDirtyWindowState } from "../../../utils/SharedState";
-import { QuestionLanguage, QuestionTypeFilter } from "../../../types/services/QuestionGeneratorService";
+import { DuplicateQuestionMode, QuestionLanguage, QuestionPositionRequirement, QuestionTypeFilter } from "../../../types/services/QuestionGeneratorService";
 import settings from "../../../data/generated/questionGenerator.json";
 import type { JbqQuestionGeneratorSettings } from "../../../types/QuestionGeneratorSettings";
 import QuestionModeSelector, { QuestionMode } from "./QuestionModeSelector";
@@ -33,6 +33,29 @@ export default function GenerateSetPage({ elementId }: Props) {
         overtimeQuestions: { counts: { 10: 1, 20: 1, 30: 1 } },
         questionFilter: QuestionTypeFilter.All,
         questionCriteria: { type: QuestionSelectionType.Group },
+        other: {
+            duplicates: DuplicateQuestionMode.NoDuplicates,
+            pointValueRules: {
+                10: {
+                    First: QuestionPositionRequirement.Allowed,
+                    Last: QuestionPositionRequirement.Allowed,
+                    AllowConsecutive: true,
+                    PerHalfCount: 0
+                },
+                20: {
+                    First: QuestionPositionRequirement.Allowed,
+                    Last: QuestionPositionRequirement.Allowed,
+                    AllowConsecutive: true,
+                    PerHalfCount: 3
+                },
+                30: {
+                    First: QuestionPositionRequirement.NotAllowed,
+                    Last: QuestionPositionRequirement.NotAllowed,
+                    AllowConsecutive: false,
+                    PerHalfCount: 1
+                }
+            }
+        }
     });
 
     return (
