@@ -2,7 +2,7 @@ import settings from "../../../data/generated/questionGenerator.json";
 import type { JbqQuestionGeneratorSettings } from "../../../types/QuestionGeneratorSettings";
 
 interface Props {
-    groups?: Set<number>;
+    groups: Set<number>;
     setGroups: (groups: Set<number>) => void;
 }
 
@@ -29,16 +29,10 @@ export default function QuestionSelectorByGroup({ groups, setGroups }: Props) {
                         name="question-group"
                         className="checkbox checkbox-sm checkbox-info"
                         value={groupNumber}
-                        checked={groups?.has(groupNumber) ?? true}
+                        checked={groups.has(groupNumber) ?? true}
                         onChange={e => {
                             const newGroups = new Set(groups);
-
-                            if (!groups) {
-                                for (let i = 1; i <= GROUP_LABELS.length; i++) {
-                                    newGroups.add(i);
-                                }
-                            }
-
+                            
                             if (e.target.checked) {
                                 newGroups.add(groupNumber);
                             }

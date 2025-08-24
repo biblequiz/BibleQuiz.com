@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { QuestionPositionRequirement, type QuestionPointValueRules } from "../../../types/services/QuestionGeneratorService";
 
 interface Props {
@@ -10,6 +10,10 @@ interface Props {
 export default function PointValueRulesSelector({ pointValue, rules, setRules }: Props) {
 
     const [perHalfCount, setPerHalfCount] = useState<number>(rules.PerHalfCount ?? 0);
+
+    useEffect(() => {
+        setPerHalfCount(rules.PerHalfCount ?? 0);
+    }, [rules]);
 
     return (
         <div className="bg-base-100 border-base-300 rounded-box border p-4 grid grid-cols-2 md:grid-cols-4 gap-4">

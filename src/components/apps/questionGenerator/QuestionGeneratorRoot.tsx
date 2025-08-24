@@ -1,51 +1,76 @@
-import { HashRouter, Routes, Route, Link } from 'react-router-dom';
+import { createHashRouter, RouterProvider, useBlocker, Outlet } from 'react-router-dom';
+import { useStore } from '@nanostores/react';
 import { AuthManager } from '../../../types/AuthManager';
 import { getOptionalPermissionCheckAlert } from '../../auth/PermissionCheckAlert';
-import { useEffect, useRef, useState } from 'react';
-import PreviousSetsPage from './PreviousSetsPage';
-import GenerateSetPage from './GenerateSetPage';
-import { QuestionGeneratorService, type PreviouslyGeneratedSet } from '../../../types/services/QuestionGeneratorService';
+import { useEffect } from 'react';
+import { sharedDirtyWindowState } from '../../../utils/SharedState';
+import ConfirmationDialog from '../../ConfirmationDialog';
+import MainPage from './MainPage';
+import GeneratePage from './GeneratePage';
 
 interface Props {
     loadingElementId: string;
 }
 
-export default function QuestionGeneratorRoot({ loadingElementId }: Props) {
-
+function RootLayout({ loadingElementId }: Props) {
     const authManager = AuthManager.useNanoStore();
 
-    const generateSetElement = useRef<HTMLDivElement>(null);
-
-    const permissionAlert = getOptionalPermissionCheckAlert(authManager);
+    // Subscribe to dirty state
+    useStore(sharedDirtyWindowState);
+    const blocker = useBlocker(
+        ({ currentLocation, nextLocation }) => {
+            return sharedDirtyWindowState.get() && currentLocation.pathname !== nextLocation.pathname;
+        }
+    );
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);
         if (fallback) fallback.style.display = "none";
     }, [loadingElementId]);
 
+    const permissionAlert = getOptionalPermissionCheckAlert(authManager);
+
     if (permissionAlert) {
         return permissionAlert;
     }
 
     return (
-        <HashRouter>
-            <Routes>
-                <Route path="/:setId?" element={
-                    <>
-                        <PreviousSetsPage
-                            generateSetElement={generateSetElement}
-                        />
-                        <div className="divider" />
-                        <GenerateSetPage
-                            generateSetElement={generateSetElement}
-                        />
-                    </>}
-                />
-                <Route path="/generate/:setId" element={
-                    <>
-                        <span>Generate</span>
-                    </>}
-                />
-            </Routes>
-        </HashRouter>);
+        <>
+            {blocker.state === "blocked" && (
+                <ConfirmationDialog
+                    title="Unsaved Changes"
+                    yesLabel="Leave Page"
+                    onYes={() => {
+                        sharedDirtyWindowState.set(false);
+                        blocker.proceed();
+                    }}
+                    noLabel="Stay on Page"
+                    onNo={() => blocker.reset()}
+                    className="sm:w-full lg:w-1/2"
+                >
+                    You have unsaved changes on this page. Are you sure you want to leave?
+                </ConfirmationDialog>)}
+            <Outlet />
+        </>);
+}
+
+const router = createHashRouter([
+    {
+        path: "/",
+        element: <RootLayout loadingElementId="generator-fallback" />,
+        children: [
+            {
+                path: ":setId?",
+                element: <MainPage key="main-page" />
+            },
+            {
+                path: "generate/:setId",
+                element: <GeneratePage />
+            }
+        ]
+    }
+]);
+
+export default function QuestionGeneratorRoot({ }: Props) {
+    return <RouterProvider router={router} />;
 }

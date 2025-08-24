@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface Props {
     id: string;
@@ -34,6 +34,13 @@ export default function PointValueCountSelector({
     const [random30Count, setRandom30Count] = useState<number>(counts[30] || 0);
     const [manualOrderText, setManualOrderText] = useState<string>((criteria.manualOrder ?? []).join(", "));
 
+    useEffect(() => {
+        setRandom10Count(counts[10] || 0);
+        setRandom20Count(counts[20] || 0);
+        setRandom30Count(counts[30] || 0);
+        setManualOrderText((criteria.manualOrder ?? []).join(", "));
+    }, [criteria]);
+    
     const handleTypeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const newType = PointValueOrdering[e.target.value as keyof typeof PointValueOrdering];
         setCriteria({

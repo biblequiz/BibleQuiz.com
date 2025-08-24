@@ -18,7 +18,6 @@ interface Props {
     generateSetElement: React.RefObject<HTMLDivElement | null>;
 }
 
-
 const getGeneratorCriteria = (
     general: GeneralCriteria,
     mode: QuestionMode,
@@ -30,6 +29,9 @@ const getGeneratorCriteria = (
     criteria.Matches = general.rounds;
     criteria.Season = general.season;
     criteria.Language = general.language;
+
+    criteria.Mode = mode;
+    criteria.Rules = template;
 
     criteria.PointValueCounts ??= {};
     criteria.SubstituteQuestions ??= [];
@@ -158,9 +160,70 @@ const getGeneratorCriteria = (
     return criteria;
 }
 
+const ensureAllPointValuesPresent = (counts: Record<number, number>): void => {
+    if (counts[10] === undefined) {
+        counts[10] = 0;
+    }
+
+    if (counts[20] === undefined) {
+        counts[20] = 0;
+    }
+
+    if (counts[30] === undefined) {
+        counts[30] = 0;
+    }
+};
+
 const GENERATOR_SETTINGS = settings as JbqQuestionGeneratorSettings;
 
-export default function GenerateSetPage({ generateSetElement }: Props) {
+const DEFAULT_QUESTION_MODE = QuestionMode.Competition;
+const DEFAULT_TEMPLATE = CriteriaTemplateType.Beginner;
+
+const DEFAULT_GENERAL_CRITERIA: GeneralCriteria = {
+    title: "",
+    rounds: 1,
+    season: GENERATOR_SETTINGS.CurrentSeason,
+    language: QuestionLanguage.English
+};
+
+const DEFAULT_CUSTOM_RULES: CustomRules = {
+    regularQuestions: { counts: { 10: 10, 20: 7, 30: 3 }, manualOrder: [], type: PointValueOrdering.Random },
+    substituteQuestions: { counts: { 10: 1, 20: 1, 30: 1 } },
+    overtimeQuestions: { counts: { 10: 1, 20: 1, 30: 1 } },
+    questionFilter: QuestionTypeFilter.All,
+    questionCriteria: {
+        type: QuestionSelectionType.Group,
+        groups: new Set<number>(
+            Array.from({ length: GENERATOR_SETTINGS.GroupCategoryKeys.length }, (_, i) => i + 1)),
+        categories: new Set<string>(GENERATOR_SETTINGS.OrderedCategoryKeys),
+        ranges: []
+    },
+    other: {
+        duplicates: DuplicateQuestionMode.NoDuplicates,
+        pointValueRules: {
+            10: {
+                First: QuestionPositionRequirement.Allowed,
+                Last: QuestionPositionRequirement.Allowed,
+                AllowConsecutive: true,
+                PerHalfCount: 0
+            },
+            20: {
+                First: QuestionPositionRequirement.Allowed,
+                Last: QuestionPositionRequirement.Allowed,
+                AllowConsecutive: true,
+                PerHalfCount: 3
+            },
+            30: {
+                First: QuestionPositionRequirement.NotAllowed,
+                Last: QuestionPositionRequirement.NotAllowed,
+                AllowConsecutive: false,
+                PerHalfCount: 1
+            }
+        }
+    }
+};
+
+export default function GenerateSetSection({ generateSetElement }: Props) {
 
     const auth = AuthManager.useNanoStore();
     const navigate = useNavigate();
@@ -169,18 +232,16 @@ export default function GenerateSetPage({ generateSetElement }: Props) {
     const [isLoading, setIsLoading] = useState<boolean>(previousSetId ? true : false);
     const [loadingError, setLoadingError] = useState<string | null>(null);
     const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
-    const [generalCriteria, setGeneralCriteria] = useState<GeneralCriteria>({
-        rounds: 1,
-        season: GENERATOR_SETTINGS.CurrentSeason,
-        language: QuestionLanguage.English
-    });
-
-    const [mode, setMode] = useState<QuestionMode>(QuestionMode.Competition);
-    const [templateType, setTemplateType] = useState<CriteriaTemplateType>(CriteriaTemplateType.Beginner);
-    const [customRules, setCustomRules] = useState<CustomRules>();
+    const [generalCriteria, setGeneralCriteria] = useState<GeneralCriteria>(DEFAULT_GENERAL_CRITERIA);
+    const [mode, setMode] = useState<QuestionMode>(DEFAULT_QUESTION_MODE);
+    const [templateType, setTemplateType] = useState<CriteriaTemplateType>(DEFAULT_TEMPLATE);
+    const [customRules, setCustomRules] = useState<CustomRules>(DEFAULT_CUSTOM_RULES);
 
     useEffect(() => {
         if (previousSetId) {
+            setIsLoading(true);
+            setLoadingError(null);
+
             QuestionGeneratorService.getPreviousSetCriteria(auth, previousSetId)
                 .then(previousSet => {
                     setGeneralCriteria({
@@ -193,30 +254,49 @@ export default function GenerateSetPage({ generateSetElement }: Props) {
                     setMode(QuestionMode[previousSet.Mode as keyof typeof QuestionMode] ?? QuestionMode.Competition);
                     setTemplateType(CriteriaTemplateType[previousSet.Rules as keyof typeof CriteriaTemplateType] ?? CriteriaTemplateType.Beginner);
 
-                    setCustomRules({
-                        regularQuestions: {
-                            counts: previousSet.PointValueCounts ?? {},
-                            manualOrder: previousSet.RegularPointOverride ?? [],
-                            type: previousSet.RegularPointOverride
-                                ? PointValueOrdering.Manual
-                                : PointValueOrdering.Random
-                        },
-                        substituteQuestions: { counts: previousSet.SubstituteQuestions },
-                        overtimeQuestions: { counts: previousSet.OvertimeQuestions },
-                        questionFilter: previousSet.QuestionTypes,
-                        questionCriteria: {
-                            type: previousSet.QuestionRanges
-                                ? QuestionSelectionType.Range
-                                : (previousSet.Categories ? QuestionSelectionType.Category : QuestionSelectionType.Group),
-                            groups: new Set(previousSet.CategoryGroups),
-                            categories: new Set(previousSet.Categories),
-                            ranges: previousSet.QuestionRanges ?? undefined
-                        },
-                        other: {
-                            duplicates: previousSet.Duplicates,
-                            pointValueRules: previousSet.PointValueRules ?? {}
+                    if (previousSet.Rules === CriteriaTemplateType.Custom) {
+
+                        const newSubstituteCounts: Record<number, number> = {};
+                        for (const points of previousSet.SubstituteQuestions ?? []) {
+                            newSubstituteCounts[points] = (newSubstituteCounts[points] || 0) + 1;
                         }
-                    });
+
+                        ensureAllPointValuesPresent(previousSet.PointValueCounts ??= DEFAULT_CUSTOM_RULES.regularQuestions.counts);
+                        ensureAllPointValuesPresent(newSubstituteCounts);
+                        ensureAllPointValuesPresent(previousSet.OvertimeQuestions ??= {});
+
+                        setCustomRules({
+                            regularQuestions: {
+                                counts: previousSet.PointValueCounts,
+                                manualOrder: previousSet.RegularPointOverride ?? DEFAULT_CUSTOM_RULES.regularQuestions.manualOrder,
+                                type: previousSet.RegularPointOverride
+                                    ? PointValueOrdering.Manual
+                                    : PointValueOrdering.Random
+                            },
+                            substituteQuestions: { counts: newSubstituteCounts },
+                            overtimeQuestions: { counts: previousSet.OvertimeQuestions },
+                            questionFilter: previousSet.QuestionTypes,
+                            questionCriteria: {
+                                type: previousSet.Categories
+                                    ? QuestionSelectionType.Category
+                                    : (previousSet.QuestionRanges ? QuestionSelectionType.Range : QuestionSelectionType.Group),
+                                groups: new Set<number>(previousSet.CategoryGroups ?? DEFAULT_CUSTOM_RULES.questionCriteria.groups),
+                                categories: new Set<string>(previousSet.Categories ?? GENERATOR_SETTINGS.OrderedCategoryKeys),
+                                ranges: previousSet.QuestionRanges ?? []
+                            },
+                            other: {
+                                duplicates: previousSet.Duplicates,
+                                pointValueRules: {
+                                    10: previousSet.PointValueRules?.[10] ?? DEFAULT_CUSTOM_RULES.other.pointValueRules[10],
+                                    20: previousSet.PointValueRules?.[20] ?? DEFAULT_CUSTOM_RULES.other.pointValueRules[20],
+                                    30: previousSet.PointValueRules?.[30] ?? DEFAULT_CUSTOM_RULES.other.pointValueRules[30]
+                                }
+                            }
+                        });
+                    }
+                    else {
+                        setCustomRules(DEFAULT_CUSTOM_RULES);
+                    }
                 })
                 .catch(error => {
                     setLoadingError(error.message);
@@ -224,19 +304,30 @@ export default function GenerateSetPage({ generateSetElement }: Props) {
                 .finally(
                     () => setIsLoading(false));
         }
+        else {
+            setGeneralCriteria(DEFAULT_GENERAL_CRITERIA);
+            setMode(DEFAULT_QUESTION_MODE);
+            setTemplateType(DEFAULT_TEMPLATE);
+            setCustomRules(DEFAULT_CUSTOM_RULES);
+        }
     }, [previousSetId]);
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
 
+        // If nothing has changed, don't create a new set.
+        if (!sharedDirtyWindowState.get() && previousSetId) {
+            navigate(`/generate/${previousSetId}`);
+            return;
+        }
+
         const criteria = getGeneratorCriteria(generalCriteria, mode, templateType, customRules);
 
         setIsSubmitting(true);
 
-        QuestionGeneratorService.selectQuestions(
-            auth,
-            criteria)
+        QuestionGeneratorService.selectQuestions(auth, criteria)
             .then((result) => {
+                sharedDirtyWindowState.set(false);
                 navigate(`/generate/${result.Id}`);
             })
             .finally(() => setIsSubmitting(false));

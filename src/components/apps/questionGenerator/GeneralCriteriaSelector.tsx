@@ -1,7 +1,7 @@
 import { QuestionLanguage } from "../../../types/services/QuestionGeneratorService";
 import settings from "../../../data/generated/questionGenerator.json";
 import type { JbqQuestionGeneratorSettings } from "../../../types/QuestionGeneratorSettings";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface Props {
     criteria: GeneralCriteria;
@@ -23,6 +23,11 @@ export default function GeneralCriteriaSelector({
 
     const [title, setTitle] = useState<string>(criteria.title || "");
     const [rounds, setRounds] = useState<number>(criteria.rounds);
+
+    useEffect(() => {
+        setTitle(criteria.title || "");
+        setRounds(criteria.rounds);
+    }, [criteria]);
 
     return (
         <>

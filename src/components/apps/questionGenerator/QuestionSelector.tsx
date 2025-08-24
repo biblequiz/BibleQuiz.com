@@ -16,9 +16,9 @@ export enum QuestionSelectionType {
 
 export interface QuestionCriteria {
     type: QuestionSelectionType;
-    groups?: Set<number>;
-    categories?: Set<string>;
-    ranges?: QuestionRangeFilter[];
+    groups: Set<number>;
+    categories: Set<string>;
+    ranges: QuestionRangeFilter[];
 }
 
 export default function QuestionSelector({ criteria, setCriteria }: Props) {

@@ -577,6 +577,10 @@ export class AuthManager {
 
         await this._lock.acquireOrWait();
         try {
+            if (this._resolvedClient) {
+                return this._resolvedClient;
+            }
+
             this._resolvedClient = await PublicClientApplication.createPublicClientApplication({
                 auth: {
                     clientId: "1058ea35-28ff-4b8a-953a-269f36d90235", // This is the ONLY mandatory field that you need to supply.

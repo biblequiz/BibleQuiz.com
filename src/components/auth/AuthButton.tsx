@@ -22,7 +22,6 @@ export default function AuthButton({ isMobile }: Props) {
                 {authManager.popupType === PopupType.LoginConfirmationDialog && (
                     <div className="text-base-content">
                         <ConfirmationDialog
-                            id="confirmation-dialog-complete-profile"
                             title="Sign-In Required"
                             yesLabel="Sign In"
                             onYes={() => authManager.login()}
@@ -68,7 +67,6 @@ export default function AuthButton({ isMobile }: Props) {
                         </div>
                         <div className="text-base-content">
                             <ConfirmationDialog
-                                id="confirmation-dialog-complete-profile"
                                 title="Complete Account Setup"
                                 yesLabel="Enter Remaining Information"
                                 onYes={() => {
