@@ -68,6 +68,7 @@ export default function CustomRulesSelector({ criteria, setCriteria }: Props) {
 
             <OtherSettingsSelector
                 criteria={criteria.other}
+                regularQuestions={criteria.regularQuestions}
                 setCriteria={c => setCriteria({ ...criteria, other: c })} />
         </div>);
 }

@@ -4,10 +4,15 @@ import { QuestionPositionRequirement, type QuestionPointValueRules } from "../..
 interface Props {
     pointValue: number;
     rules: QuestionPointValueRules;
+    maxPerHalfMin: number;
     setRules: (criteria: QuestionPointValueRules) => void;
 }
 
-export default function PointValueRulesSelector({ pointValue, rules, setRules }: Props) {
+export default function PointValueRulesSelector({
+    pointValue,
+    rules,
+    maxPerHalfMin,
+    setRules }: Props) {
 
     const [perHalfCount, setPerHalfCount] = useState<number>(rules.PerHalfCount ?? 0);
 
@@ -94,10 +99,13 @@ export default function PointValueRulesSelector({ pointValue, rules, setRules }:
                     onBlur={e => setRules({ ...rules, PerHalfCount: perHalfCount })}
                     className="input input-bordered w-full"
                     min={0}
-                    max={5}
+                    max={maxPerHalfMin}
                     step={1}
                     required
                 />
+                <span>
+                    Maximum {maxPerHalfMin} based on total questions.
+                </span>
             </div>
         </div>);
 };
