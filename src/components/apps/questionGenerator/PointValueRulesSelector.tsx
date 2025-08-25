@@ -30,21 +30,13 @@ export default function PointValueRulesSelector({
                 <select
                     name={`first-question-${pointValue}`}
                     className="select select-bordered w-full mt-0"
-                    value={QuestionPositionRequirement[rules.First]}
-                    onChange={e => setRules({ ...rules, First: QuestionPositionRequirement[e.target.value as keyof typeof QuestionPositionRequirement] })}
+                    value={rules.First}
+                    onChange={e => setRules({ ...rules, First: Number(e.target.value) as QuestionPositionRequirement })}
                     required
                 >
-                    {Object.values(QuestionPositionRequirement).map((requirement) => {
-                        if (typeof requirement === "number") {
-                            return null;
-                        }
-
-                        return (
-                            <option key={`first-question-${pointValue}-${requirement}`} value={requirement}>
-                                {requirement === QuestionPositionRequirement.NotAllowed ? "Not Allowed" : requirement}
-                            </option>
-                        );
-                    })}
+                    <option value={QuestionPositionRequirement.Required}>Required</option>
+                    <option value={QuestionPositionRequirement.Allowed}>Allowed</option>
+                    <option value={QuestionPositionRequirement.NotAllowed}>Not Allowed</option>
                 </select>
             </div>
             <div className="w-full mt-0">
@@ -55,21 +47,13 @@ export default function PointValueRulesSelector({
                 <select
                     name={`last-question-${pointValue}`}
                     className="select select-bordered w-full mt-0"
-                    value={QuestionPositionRequirement[rules.Last]}
-                    onChange={e => setRules({ ...rules, Last: QuestionPositionRequirement[e.target.value as keyof typeof QuestionPositionRequirement] })}
+                    value={rules.Last}
+                    onChange={e => setRules({ ...rules, Last: Number(e.target.value) as QuestionPositionRequirement })}
                     required
                 >
-                    {Object.values(QuestionPositionRequirement).map((requirement) => {
-                        if (typeof requirement === "number") {
-                            return null;
-                        }
-
-                        return (
-                            <option key={`last-question-${pointValue}-${requirement}`} value={requirement}>
-                                {requirement === QuestionPositionRequirement.NotAllowed ? "Not Allowed" : requirement}
-                            </option>
-                        );
-                    })}
+                    <option value={QuestionPositionRequirement.Required}>Required</option>
+                    <option value={QuestionPositionRequirement.Allowed}>Allowed</option>
+                    <option value={QuestionPositionRequirement.NotAllowed}>Not Allowed</option>
                 </select>
             </div>
             <div className="w-full mb-0">

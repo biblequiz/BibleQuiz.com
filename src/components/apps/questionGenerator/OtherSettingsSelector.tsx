@@ -61,7 +61,7 @@ export default function OtherSettingsSelector({ criteria, regularQuestions, setC
 
     const handleDuplicateModeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 
-        const newValue = DuplicateQuestionMode[event.target.value as keyof typeof DuplicateQuestionMode];
+        const newValue = Number(event.target.value) as DuplicateQuestionMode;
         setCriteria({
             ...criteria,
             duplicates: newValue

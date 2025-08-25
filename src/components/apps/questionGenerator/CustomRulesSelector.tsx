@@ -53,7 +53,7 @@ export default function CustomRulesSelector({ criteria, setCriteria }: Props) {
                         name="question-type"
                         className="select select-bordered w-full mt-0"
                         value={criteria.questionFilter}
-                        onChange={e => setCriteria({ ...criteria, questionFilter: QuestionTypeFilter[e.target.value as keyof typeof QuestionTypeFilter] })}
+                        onChange={e => setCriteria({ ...criteria, questionFilter: Number(e.target.value) as QuestionTypeFilter })}
                         required
                     >
                         <option value={QuestionTypeFilter.All}>Quotations and Non-Quotations</option>

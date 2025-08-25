@@ -38,6 +38,17 @@ export default function PreviousSetsSection({ generateSetElement }: Props) {
             }
         }, [authManager]);
 
+    const handleView = async (event: React.MouseEvent<HTMLButtonElement>, setId: string) => {
+        event.preventDefault();
+        event.stopPropagation();
+
+        setIsProcessing(true);
+
+        await navigate(`/print/${setId}`);
+
+        setIsProcessing(false);
+    };
+
     const handleRegenerate = async (event: React.MouseEvent<HTMLButtonElement>, setId: string) => {
         event.preventDefault();
         event.stopPropagation();
@@ -108,14 +119,9 @@ export default function PreviousSetsSection({ generateSetElement }: Props) {
                                         <button
                                             type="button"
                                             disabled={isProcessing}
-                                            className="btn btn-success btn-sm mt-0 mr-2">
-                                            <FontAwesomeIcon icon="fas faPrint" />
-                                        </button>
-                                        <button
-                                            type="button"
-                                            disabled={isProcessing}
-                                            className="btn btn-info btn-sm mt-0 mr-2">
-                                            <FontAwesomeIcon icon="fas faFileDownload" />
+                                            className="btn btn-success btn-sm mt-0 mr-2"
+                                            onClick={e => handleView(e, set.Id)}>
+                                            <FontAwesomeIcon icon="fas faEye" />
                                         </button>
                                         <button
                                             type="button"

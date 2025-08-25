@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import { sharedDirtyWindowState } from '../../../utils/SharedState';
 import ConfirmationDialog from '../../ConfirmationDialog';
 import MainPage from './MainPage';
-import GeneratePage from './GeneratePage';
+import PrintPage from './PrintPage';
 
 interface Props {
     loadingElementId: string;
@@ -64,8 +64,8 @@ const router = createHashRouter([
                 element: <MainPage key="main-page" />
             },
             {
-                path: "generate/:setId",
-                element: <GeneratePage />
+                path: "print/:setId",
+                element: <PrintPage />
             }
         ]
     }

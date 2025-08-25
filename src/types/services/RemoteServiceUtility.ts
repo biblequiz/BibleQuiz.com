@@ -165,6 +165,66 @@ export class RemoteServiceUtility {
     }
 
     /**
+     * Downloads a file from an HTTP request.
+     * 
+     * @param auth AuthManager to use for authentication.
+     * @param method HTTP method.
+     * @param service Service defining the endpoint to execute.
+     * @param path Path to the endpoint on the service.
+     * @param urlParameters URL parameters to be included in the request.
+     * @param data Data (if any) to submit.
+     */
+    public static downloadFromHttpRequest(
+        auth: AuthManager,
+        method: string,
+        service: RemoteServiceUrlBase,
+        path: string,
+        urlParameters?: URLSearchParams | null,
+        data?: any): Promise<void> {
+
+        return new Promise<void>(async (resolve, reject) => {
+            this.executeHttpRequestCore(
+                auth,
+                method,
+                service,
+                path,
+                urlParameters,
+                data)
+                .then(response => {
+                    response.blob()
+                        .then(blob => {
+
+                            const fileName = RemoteServiceUtility.getFileNameFromContentDisposition(
+                                response.headers.get("Content-Disposition"));
+
+                            const downloadUrl = window.URL.createObjectURL(blob);
+                            try {
+                                // Create temporary link and trigger download
+                                const link = document.createElement('a');
+                                link.href = downloadUrl;
+                                link.download = fileName || 'download';
+                                link.target = "_blank";
+
+                                document.body.appendChild(link);
+                                try {
+                                    link.click();
+                                }
+                                finally {
+                                    document.body.removeChild(link);
+                                }
+                            } finally {
+                                window.URL.revokeObjectURL(downloadUrl);
+                            }
+
+                            resolve();
+                        })
+                        .catch(reject);
+                })
+                .catch(error => reject(error));
+        });
+    }
+
+    /**
      * Builds the URL parameters without null or empty values.
      * @param params Parameters to be included in the URL.
      */
@@ -306,6 +366,36 @@ export class RemoteServiceUtility {
                     } as RemoteServiceError);
                 });
         });
+    }
+
+    private static getFileNameFromContentDisposition(contentDisposition: string | null): string | null {
+        if (!contentDisposition) {
+            return null;
+        }
+
+        // Try RFC 6266 format first: filename*=UTF-8''encoded-filename
+        const rfc6266Match = contentDisposition.match(/filename\*=UTF-8''([^;]+)/i);
+        if (rfc6266Match) {
+            try {
+                return decodeURIComponent(rfc6266Match[1]);
+            } catch {
+                // Fall through to other methods if decoding fails
+            }
+        }
+
+        // Try quoted filename: filename="filename.ext"
+        const quotedMatch = contentDisposition.match(/filename="([^"]+)"/i);
+        if (quotedMatch) {
+            return quotedMatch[1];
+        }
+
+        // Try unquoted filename: filename=filename.ext
+        const unquotedMatch = contentDisposition.match(/filename=([^;]+)/i);
+        if (unquotedMatch) {
+            return unquotedMatch[1].trim();
+        }
+
+        return null;
     }
 }
 

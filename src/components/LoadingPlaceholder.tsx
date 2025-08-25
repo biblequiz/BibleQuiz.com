@@ -3,13 +3,14 @@ interface Props {
     text: string;
     spinnerSize?: "sm" | "md" | "lg" | "xl";
     textSize?: "sm" | "md" | "lg" | "xl";
+    isItalic?: boolean;
 }
 
-export default function LoadingPlaceholder({ id, text, spinnerSize, textSize }: Props) {
+export default function LoadingPlaceholder({ id, text, spinnerSize, textSize, isItalic }: Props) {
 
     const textClass = textSize
-        ? `text-${textSize}`
-        : "";
+        ? `text-${textSize} ${isItalic ? "italic" : ""}`
+        : (isItalic ? "italic" : "");
 
     return (
         <div id={id} className="flex justify-center items-center">

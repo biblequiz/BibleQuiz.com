@@ -317,7 +317,7 @@ export default function GenerateSetSection({ generateSetElement }: Props) {
 
         // If nothing has changed, don't create a new set.
         if (!sharedDirtyWindowState.get() && previousSetId) {
-            navigate(`/generate/${previousSetId}`);
+            navigate(`/print/${previousSetId}`);
             return;
         }
 
@@ -328,7 +328,7 @@ export default function GenerateSetSection({ generateSetElement }: Props) {
         QuestionGeneratorService.selectQuestions(auth, criteria)
             .then((result) => {
                 sharedDirtyWindowState.set(false);
-                navigate(`/generate/${result.Id}`);
+                navigate(`/print/${result.Id}`);
             })
             .finally(() => setIsSubmitting(false));
     };

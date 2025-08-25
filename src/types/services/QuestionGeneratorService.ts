@@ -77,8 +77,9 @@ export class QuestionGeneratorService {
     }
 
     /**
-     * Generates a URL for creating the set.
+     * Downloads the generated file in the specified format.
      *
+     * @param auth AuthManager to use for authentication.
      * @param id Id for the set.
      * @param format Format for the output.
      * @param fontName Name of the font when format is Pdf.
@@ -87,14 +88,17 @@ export class QuestionGeneratorService {
      * 
      * @returns URL to download the file.
      */
-    public static getGeneratedSetUrl(
+    public static downloadGeneratedFile(
+        auth: AuthManager,
         id: string,
         format: QuestionOutputFormat,
         fontName: string | null = null,
         fontSize: number | null = null,
-        columns: number | null = null): string {
+        columns: number | null = null): Promise<Blob> {
 
-        return RemoteServiceUtility.buildUrl(
+        return RemoteServiceUtility.downloadFromHttpRequest(
+            auth,
+            "GET",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/Previous/${id}/Generate`,
             RemoteServiceUtility.getFilteredUrlParameters({
@@ -102,7 +106,8 @@ export class QuestionGeneratorService {
                 font: fontName,
                 size: fontSize,
                 col: columns
-            }));
+            })
+        );
     }
 }
 
@@ -230,7 +235,7 @@ export enum QuestionLanguage {
     /**
      * English.
      */
-    English = "English",
+    English,
 }
 
 /**
@@ -241,12 +246,12 @@ export enum DuplicateQuestionMode {
     /**
      * No duplicates will be selected until ALL other questions have been chosen.
      */
-    NoDuplicates = "NoDuplicates",
+    NoDuplicates,
 
     /**
      * No duplicates will be selected within a single match but may be selected in other matches.
      */
-    AllowDuplicatesInOtherMatches = "AllowDuplicatesInOtherMatches"
+    AllowDuplicatesInOtherMatches
 }
 
 /**
@@ -283,17 +288,17 @@ export enum QuestionPositionRequirement {
     /**
      * Allowed to be in the position, but not required.
      */
-    Allowed = "Allowed",
+    Allowed,
 
     /**
      * Required to be at the specified position.
      */
-    Required = "Required",
+    Required,
 
     /**
      * Not allowed to be in the specific position.
      */
-    NotAllowed = "NotAllowed",
+    NotAllowed,
 }
 
 /**
@@ -304,17 +309,17 @@ export enum QuestionTypeFilter {
     /**
      * All types of questions.
      */
-    All = "All",
+    All,
 
     /**
      * Only quotation questions.
      */
-    QuotationOnly = "QuotationOnly",
+    QuotationOnly,
 
     /**
      * All questions except quotations.
      */
-    NonQuotation = "NonQuotation"
+    NonQuotation
 }
 
 /**
