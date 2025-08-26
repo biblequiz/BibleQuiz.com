@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useStore } from "@nanostores/react";
 import { Turnstile } from '@marsidev/react-turnstile'
-import { sharedAuthManager, sharedDirtyWindowState, sharedGlobalStatusToast } from "../utils/SharedState";
+import { sharedDirtyWindowState, sharedGlobalStatusToast } from "../utils/SharedState";
 import ChurchLookup from "./ChurchLookup";
 import regions from "../data/regions.json";
 import districts from "../data/districts.json";
@@ -9,6 +9,7 @@ import { AuthService, UserSignUpInfo } from "../types/services/AuthService";
 import { CloudflareTurnstile } from "../utils/CloudflareTurnstile";
 import { Person } from "../types/services/PeopleService";
 import type { RemoteServiceError } from "../types/services/RemoteServiceUtility";
+import { AuthManager } from "../types/AuthManager";
 
 interface Props {
 }
@@ -21,7 +22,7 @@ interface ChurchScopeInfo {
 
 export default function ProfilePersonDetails({ }: Props) {
 
-    const authManager = useStore(sharedAuthManager);
+    const authManager = AuthManager.useNanoStore();
     useStore(sharedGlobalStatusToast);
 
     const existingProfile = authManager.userProfile?.authTokenProfile;

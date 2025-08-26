@@ -1,5 +1,3 @@
-import { useStore } from "@nanostores/react";
-import { sharedAuthManager } from "../utils/SharedState";
 import { useEffect } from "react";
 import { getOptionalPermissionCheckAlert } from "./auth/PermissionCheckAlert";
 import { AuthManager, UserProfileType } from "../types/AuthManager";

@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { useStore } from '@nanostores/react';
 import FontAwesomeIcon from './FontAwesomeIcon';
 import { Church, ChurchesService, ChurchResultFilter } from '../types/services/ChurchesService.ts';
-import { sharedAuthManager } from '../utils/SharedState.ts';
 import { type RemoteServicePage, type RemoteServiceError } from '../types/services/RemoteServiceUtility.ts';
 import Pagination from './Pagination.tsx';
 import LoadingPlaceholder from './LoadingPlaceholder.tsx';
+import { AuthManager } from '../types/AuthManager.ts';
 
 export interface SelectedChurch {
   id: string;
@@ -33,7 +32,7 @@ interface ChurchSearchState {
 
 export default function ChurchLookup({ regionId, districtId, required, disabled, currentChurch, onSelect }: Props) {
 
-  const authManager = useStore(sharedAuthManager);
+  const authManager = AuthManager.useNanoStore();
 
   const [searchText, setSearchText] = useState(currentChurch?.displayName || "");
   const [searchState, setSearchState] = useState(null as ChurchSearchState | null);
