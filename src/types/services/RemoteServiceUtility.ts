@@ -254,15 +254,14 @@ export class RemoteServiceUtility {
         path: string,
         urlParameters: URLSearchParams | null | undefined): string {
 
-        if (path.startsWith("/api/")) {
-            path = `/api/reg/${path.substring(5)}`;
-        }
-
         // Build the base URL.
         let baseUrl: string;
         switch (service) {
             case RemoteServiceUrlBase.Registration:
                 baseUrl = "https://biblequiz.com";
+                if (path.startsWith("/api/")) {
+                    // path = `/api/reg/${path.substring(5)}`;
+                }
                 break;
             default:
                 throw new Error(`Unsupported service: ${RemoteServiceUrlBase[service]}`);
