@@ -249,16 +249,20 @@ export class RemoteServiceUtility {
      * @param urlParameters URL parameters to be included in the request.
      * @returns The fully constructed URL.
      */
-    public static buildUrl(
+    private static buildUrl(
         service: RemoteServiceUrlBase,
         path: string,
         urlParameters: URLSearchParams | null | undefined): string {
+
+        if (path.startsWith("/api/")) {
+            path = `/api/reg/${path.substring(5)}`;
+        }
 
         // Build the base URL.
         let baseUrl: string;
         switch (service) {
             case RemoteServiceUrlBase.Registration:
-                baseUrl = "https://registration.biblequiz.com";
+                baseUrl = "https://biblequiz.com";
                 break;
             default:
                 throw new Error(`Unsupported service: ${RemoteServiceUrlBase[service]}`);
