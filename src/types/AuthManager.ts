@@ -52,7 +52,6 @@ export class UserAccountProfile {
      * @param isJbqAdmin Value indicating whether the user is a JBQ administrator.
      * @param isTbqAdmin Value indicating whether the user is a TBQ administrator.
      * @param authTokenProfile Profile from the auth token.
-     * @param hasSignUpDialogDisplayed Value indicating whether the sign-up dialog has been displayed.
      */
     public constructor(
         personId: string | null,
@@ -60,8 +59,7 @@ export class UserAccountProfile {
         type: UserProfileType | null,
         isJbqAdmin: boolean,
         isTbqAdmin: boolean,
-        authTokenProfile: AuthTokenProfile | null,
-        hasSignUpDialogDisplayed: boolean) {
+        authTokenProfile: AuthTokenProfile | null) {
 
         this.personId = personId;
         this.displayName = displayName;
@@ -69,7 +67,6 @@ export class UserAccountProfile {
         this.isJbqAdmin = isJbqAdmin;
         this.isTbqAdmin = isTbqAdmin;
         this.authTokenProfile = authTokenProfile;
-        this.hasSignUpDialogDisplayed = hasSignUpDialogDisplayed;
     }
 
     /**
@@ -101,11 +98,6 @@ export class UserAccountProfile {
      * Profile from the auth token (if the user has one).
      */
     public readonly authTokenProfile: AuthTokenProfile | null;
-
-    /**
-     * Value indicating whether the sign-up dialog has been displayed.
-     */
-    public readonly hasSignUpDialogDisplayed: boolean;
 }
 
 /**
@@ -261,8 +253,7 @@ export class AuthManager {
                 currentProfile.type,
                 currentProfile.isJbqAdmin ?? false,
                 currentProfile.isTbqAdmin ?? false,
-                currentProfile.authTokenProfile ?? null,
-                currentProfile.hasSignUpDialogDisplayed);
+                currentProfile.authTokenProfile ?? null);
             AuthManager.saveProfile(newProfile);
 
             this.getNanoState().setKey("profile", newProfile);
@@ -392,33 +383,6 @@ export class AuthManager {
     }
 
     /**
-     * Sets the value of whether the sign-up confirmation dialog has been displayed.
-     * @param value New value for the property.
-     */
-    public setHasSignUpDialogDisplayed(value: boolean) {
-
-        const currentProfile = this.userProfile;
-
-        if (currentProfile) {
-            if (currentProfile.hasSignUpDialogDisplayed === value) {
-                return;
-            }
-
-            const newProfile = new UserAccountProfile(
-                currentProfile.personId,
-                currentProfile.displayName,
-                currentProfile.type,
-                currentProfile.isJbqAdmin ?? false,
-                currentProfile.isTbqAdmin ?? false,
-                currentProfile.authTokenProfile ?? null,
-                value);
-            AuthManager.saveProfile(newProfile);
-
-            this.getNanoState().setKey("profile", newProfile);
-        }
-    }
-
-    /**
      * Refreshes the remote profile for the user.
      */
     public async refreshRemoteProfile(): Promise<void> {
@@ -535,8 +499,7 @@ export class AuthManager {
                 type: profile.type,
                 isJbqAdmin: profile.isJbqAdmin,
                 isTbqAdmin: profile.isTbqAdmin,
-                authTokenProfile: profile.authTokenProfile,
-                hasDisplayedSignUpDialog: profile.hasSignUpDialogDisplayed
+                authTokenProfile: profile.authTokenProfile
             };
 
             localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(serializedProfile));

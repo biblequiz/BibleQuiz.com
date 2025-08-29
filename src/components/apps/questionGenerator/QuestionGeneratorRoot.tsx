@@ -1,10 +1,9 @@
 import { createHashRouter, RouterProvider, useBlocker, Outlet } from 'react-router-dom';
 import { useStore } from '@nanostores/react';
-import { AuthManager } from '../../../types/AuthManager';
-import { getOptionalPermissionCheckAlert } from '../../auth/PermissionCheckAlert';
 import { useEffect } from 'react';
 import { sharedDirtyWindowState } from '../../../utils/SharedState';
 import ConfirmationDialog from '../../ConfirmationDialog';
+import ProtectedRoute from '../../auth/ProtectedRoute';
 import MainPage from './MainPage';
 import PrintPage from './PrintPage';
 
@@ -13,7 +12,6 @@ interface Props {
 }
 
 function RootLayout({ loadingElementId }: Props) {
-    const authManager = AuthManager.useNanoStore();
 
     // Subscribe to dirty state
     useStore(sharedDirtyWindowState);
@@ -27,12 +25,6 @@ function RootLayout({ loadingElementId }: Props) {
         const fallback = document.getElementById(loadingElementId);
         if (fallback) fallback.style.display = "none";
     }, [loadingElementId]);
-
-    const permissionAlert = getOptionalPermissionCheckAlert(authManager);
-
-    if (permissionAlert) {
-        return permissionAlert;
-    }
 
     return (
         <>
@@ -60,12 +52,18 @@ const router = createHashRouter([
         element: <RootLayout loadingElementId="generator-fallback" />,
         children: [
             {
-                path: ":setId?",
-                element: <MainPage key="main-page" />
-            },
-            {
-                path: "print/:setId",
-                element: <PrintPage />
+                path: "/",
+                element: <ProtectedRoute />,
+                children: [
+                    {
+                        path: ":setId?",
+                        element: <MainPage key="main-page" />
+                    },
+                    {
+                        path: "print/:setId",
+                        element: <PrintPage />
+                    }
+                ]
             }
         ]
     }

@@ -38,61 +38,11 @@ export default function AuthButton({ isMobile }: Props) {
 
     if (userProfile) {
 
-        let displayName: string = "";
-
         if (userProfile.type === UserProfileType.NotConfigured) {
-            if (window.location.pathname === "/profile" || window.location.pathname === "/profile/") {
-                const profile = userProfile.authTokenProfile;
-                if (profile) {
-                    displayName = `${profile.firstName} ${profile.lastName}`;
-                }
-                else {
-                    displayName = "Unknown";
-                }
-            }
-            else if (userProfile.hasSignUpDialogDisplayed) {
-                return (
-                    <a
-                        className="btn btn-primary"
-                        href="/profile">
-                        Complete Sign-Up
-                    </a>);
-            }
-            else {
-                return (
-                    <>
-                        <div className={`w-${isMobile ? "full" : "24 text-xs"} text-center`}>
-                            <div>Logging In</div>
-                            <progress className="progress"></progress>
-                        </div>
-                        <div className="text-base-content">
-                            <ConfirmationDialog
-                                title="Complete Account Setup"
-                                yesLabel="Enter Remaining Information"
-                                onYes={() => {
-                                    authManager.setHasSignUpDialogDisplayed(true);
-                                    window.location.href = "/profile";
-                                }}
-                                noLabel="Sign Out & Change Account"
-                                onNo={async () => {
-                                    await authManager.logout();
-                                }}>
-                                <p>
-                                    You're almost done setting up your BibleQuiz.com account. You just need to finish
-                                    setting up your profile.
-                                </p>
-                                <p className="mt-2 mb-4">
-                                    Click the "Enter Remaining Information" button below to complete the information.
-                                    Some of it was collected when you created your user account.
-                                </p>
-                            </ConfirmationDialog>
-                        </div>
-                    </>);
-            }
+            return null;
         }
-        else {
-            displayName = userProfile.displayName || "Unknown User";
-        }
+
+        const displayName = userProfile.displayName || "Unknown User";
 
         return (
             <div className={`dropdown dropdown-${isMobile ? "start" : "end"}`}>
@@ -103,12 +53,6 @@ export default function AuthButton({ isMobile }: Props) {
                     tabIndex={0}
                     className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
                 >
-                    <li className="text-base-content">
-                        <a href="/profile">
-                            <FontAwesomeIcon icon="fas faAddressCard" />
-                            My Profile
-                        </a>
-                    </li>
                     <li className="text-base-content">
                         <a onClick={() => {
                             if (authManager.popupType == PopupType.None) {
@@ -123,11 +67,6 @@ export default function AuthButton({ isMobile }: Props) {
             </div>);
     }
     else {
-        return (
-            <button className="btn btn-primary" disabled={authManager.popupType != PopupType.None} onClick={() => {
-                authManager.login();
-            }}>
-                Sign In / Sign-Up
-            </button>);
+        return null;
     }
 }

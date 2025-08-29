@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { useStore } from "@nanostores/react";
 import { Turnstile } from '@marsidev/react-turnstile'
-import { sharedDirtyWindowState, sharedGlobalStatusToast } from "../utils/SharedState";
-import ChurchLookup from "./ChurchLookup";
-import regions from "../data/regions.json";
-import districts from "../data/districts.json";
-import { AuthService, UserSignUpInfo } from "../types/services/AuthService";
-import { CloudflareTurnstile } from "../utils/CloudflareTurnstile";
-import { Person } from "../types/services/PeopleService";
-import type { RemoteServiceError } from "../types/services/RemoteServiceUtility";
-import { AuthManager } from "../types/AuthManager";
+import { sharedDirtyWindowState, sharedGlobalStatusToast } from "../../utils/SharedState";
+import ChurchLookup from "../ChurchLookup";
+import regions from "../../data/regions.json";
+import districts from "../../data/districts.json";
+import { AuthService, UserSignUpInfo } from "../../types/services/AuthService";
+import { CloudflareTurnstile } from "../../utils/CloudflareTurnstile";
+import { Person } from "../../types/services/PeopleService";
+import type { RemoteServiceError } from "../../types/services/RemoteServiceUtility";
+import { AuthManager } from "../../types/AuthManager";
 
 interface Props {
 }
@@ -20,7 +20,7 @@ interface ChurchScopeInfo {
     districtId: string | null;
 }
 
-export default function ProfilePersonDetails({ }: Props) {
+export default function CompleteProfileSection({ }: Props) {
 
     const authManager = AuthManager.useNanoStore();
     useStore(sharedGlobalStatusToast);
@@ -120,6 +120,20 @@ export default function ProfilePersonDetails({ }: Props) {
 
     return (
         <form id="registrationForm" className="space-y-6" onSubmit={handleSubmit}>
+            <div className="w-full mb-0">
+                <h2 className="text-xl font-semibold">Complete Your Profile</h2>
+                <p className="text-base-content/70">
+                    You've successfully signed in with a BibleQuiz.com account, but your
+                    profile is not yet complete. Please provide the information below.
+                    Fields marked with an asterisk (<span className="text-error">*</span>)
+                    are required.
+                </p>
+                <p className="text-base-content/70 text-sm italic">
+                    If you accidentally signed into the wrong account, you can use the
+                    "Sign Out &amp; Change User" button at the bottom of the page.
+                </p>
+            </div>
+            <div className="divider mb-0" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="w-full mt-4">
                     <label className="label">

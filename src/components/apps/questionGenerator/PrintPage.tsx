@@ -105,7 +105,7 @@ export default function PrintPage({ }: Props) {
                 </button>
                 <button
                     type="button"
-                    className="btn btn-primary mb-4 mt-0"
+                    className="btn btn-secondary mb-4 mt-0"
                     disabled={isDownloading}
                     onClick={e => handleDownload(e, QuestionOutputFormat.ScoreKeep)}
                 >
