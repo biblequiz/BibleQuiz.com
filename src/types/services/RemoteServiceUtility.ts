@@ -258,6 +258,8 @@ export class RemoteServiceUtility {
         let baseUrl: string;
         switch (service) {
             case RemoteServiceUrlBase.Registration:
+                // TODO: Change the path to exclude the api to allow for the /api/reg/ to be added without
+                //       substring.
                 baseUrl = "https://biblequiz.com";
                 if (path.startsWith("/api/")) {
                     // path = `/api/reg/${path.substring(5)}`;
