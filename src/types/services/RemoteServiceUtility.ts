@@ -360,9 +360,8 @@ export class RemoteServiceUtility {
                     resolve(response);
                 })
                 .catch(error => {
-                    // Network or parsing error
                     reject({
-                        message: "Network error: " + (error.message || "Unknown error")
+                        message: "Unable to execute request. Check to make sure you have an internet connection and try again."
                     } as RemoteServiceError);
                 });
         });

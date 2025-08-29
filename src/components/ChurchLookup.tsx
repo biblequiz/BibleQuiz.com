@@ -146,7 +146,7 @@ export default function ChurchLookup({ regionId, districtId, required, disabled,
           {!searchState.isLoading && (
             <>
               {searchState.error && (
-                <div role="alert" className="alert alert-error">
+                <div role="alert" className="alert alert-error mt-0 w-full">
                   <FontAwesomeIcon icon="fas faCircleExclamation" />
                   <div>
                     <b>Error: </b> {searchState.error.message}
