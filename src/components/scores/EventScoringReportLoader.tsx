@@ -9,6 +9,7 @@ import FontAwesomeIcon from "../FontAwesomeIcon";
 import type { EventInfo } from "@types/EventTypes";
 import type { EventScoringReport, ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from "@types/EventScoringReport";
 import { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
+import { ReportService } from "../../types/services/ReportService";
 
 interface Props {
     parentTabId: string;
@@ -111,6 +112,27 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
             const excelButton: HTMLElement | null = document.getElementById("excel-export-button");
             if (excelButton) {
                 excelButton.removeAttribute("disabled");
+                
+                excelButton.addEventListener(
+                    "click",
+                    () => {
+                        excelButton.setAttribute("disabled", "true");
+
+                        ReportService.downloadEventStatsExcelFile(
+                            null, // No auth.
+                            eventInfo.id,
+                            `Stats - ${eventInfo.name}.xlsx`)
+                            .then(() => {
+                                excelButton.removeAttribute("disabled");
+                            })
+                            .catch((error) => {
+                                // eslint-disable-next-line no-console
+                                console.error("Failed to download the excel file: ", error);
+                                alert(`Failed to download the excel file: ${error}`);
+
+                                excelButton.removeAttribute("disabled");
+                            });
+                    });
             }
 
             const printButton: HTMLElement | null = document.getElementById(`${PrintDialogModalId}-button`);

@@ -10,6 +10,11 @@ export enum RemoteServiceUrlBase {
      * Registration service.
      */
     Registration,
+
+    /**
+     * Scores service.
+     */
+    Scores,
 }
 
 /**
@@ -20,14 +25,14 @@ export class RemoteServiceUtility {
     /**
      * Gets a single record.
      *
-     * @param auth AuthManager to use for authentication.
+     * @param auth AuthManager to use if the request should be authenticated.
      * @param service Service defining the endpoint to execute.
      * @param path Path to the endpoint on the service.
      * @param id Id for the record.
      * @param additionalUrlParameters Additional URL parameters to be included in the request.
      */
     public static getSingle<T>(
-        auth: AuthManager,
+        auth: AuthManager | null,
         service: RemoteServiceUrlBase,
         path: string,
         id: string,
@@ -51,7 +56,7 @@ export class RemoteServiceUtility {
     /**
      * Gets a paginated result from the server.
      * 
-     * @param auth AuthManager to use for authentication.
+     * @param auth AuthManager to use if the request should be authenticated.
      * @param service Service defining the endpoint to execute.
      * @param path Path to the endpoint on the service.
      * @param pageSize Size of the page to return.
@@ -60,7 +65,7 @@ export class RemoteServiceUtility {
      * @param additionalUrlParameters Additional URL parameters to be included in the request.
      */
     public static getMany<T>(
-        auth: AuthManager,
+        auth: AuthManager | null,
         service: RemoteServiceUrlBase,
         path: string,
         pageSize?: number,
@@ -92,7 +97,7 @@ export class RemoteServiceUtility {
     /**
      * Executes an HTTP request.
      * 
-     * @param auth AuthManager to use for authentication.
+     * @param auth AuthManager to use if the request should be authenticated.
      * @param method HTTP method.
      * @param service Service defining the endpoint to execute.
      * @param path Path to the endpoint on the service.
@@ -100,7 +105,7 @@ export class RemoteServiceUtility {
      * @param data Data (if any) to submit.
      */
     public static executeHttpRequest<T>(
-        auth: AuthManager,
+        auth: AuthManager | null,
         method: string,
         service: RemoteServiceUrlBase,
         path: string,
@@ -136,7 +141,7 @@ export class RemoteServiceUtility {
     /**
      * Executes an HTTP request without a response body.
      * 
-     * @param auth AuthManager to use for authentication.
+     * @param auth AuthManager to use if the request should be authenticated.
      * @param method HTTP method.
      * @param service Service defining the endpoint to execute.
      * @param path Path to the endpoint on the service.
@@ -144,7 +149,7 @@ export class RemoteServiceUtility {
      * @param data Data (if any) to submit.
      */
     public static executeHttpRequestWithoutResponse(
-        auth: AuthManager,
+        auth: AuthManager | null,
         method: string,
         service: RemoteServiceUrlBase,
         path: string,
@@ -167,19 +172,21 @@ export class RemoteServiceUtility {
     /**
      * Downloads a file from an HTTP request.
      * 
-     * @param auth AuthManager to use for authentication.
+     * @param auth AuthManager to use if the request should be authenticated.
      * @param method HTTP method.
      * @param service Service defining the endpoint to execute.
      * @param path Path to the endpoint on the service.
      * @param urlParameters URL parameters to be included in the request.
+     * @param suggestedFileName Suggested file name for the downloaded file.
      * @param data Data (if any) to submit.
      */
     public static downloadFromHttpRequest(
-        auth: AuthManager,
+        auth: AuthManager | null,
         method: string,
         service: RemoteServiceUrlBase,
         path: string,
         urlParameters?: URLSearchParams | null,
+        suggestedFileName?: string,
         data?: any): Promise<void> {
 
         return new Promise<void>(async (resolve, reject) => {
@@ -194,8 +201,9 @@ export class RemoteServiceUtility {
                     response.blob()
                         .then(blob => {
 
-                            const fileName = RemoteServiceUtility.getFileNameFromContentDisposition(
-                                response.headers.get("Content-Disposition"));
+                            const fileName = suggestedFileName ??
+                                RemoteServiceUtility.getFileNameFromContentDisposition(
+                                    response.headers.get("Content-Disposition"));
 
                             const downloadUrl = window.URL.createObjectURL(blob);
                             try {
@@ -260,6 +268,9 @@ export class RemoteServiceUtility {
             case RemoteServiceUrlBase.Registration:
                 baseUrl = "https://registration.biblequiz.com";
                 break;
+            case RemoteServiceUrlBase.Scores:
+                baseUrl = "https://scores.biblequiz.com";
+                break;
             default:
                 throw new Error(`Unsupported service: ${RemoteServiceUrlBase[service]}`);
         }
@@ -274,7 +285,7 @@ export class RemoteServiceUtility {
     }
 
     private static executeHttpRequestCore(
-        auth: AuthManager,
+        auth: AuthManager | null,
         method: string,
         service: RemoteServiceUrlBase,
         path: string,
@@ -286,24 +297,26 @@ export class RemoteServiceUtility {
         return new Promise<Response>(async (resolve, reject) => {
 
             // Retrieve the latest access token and setup the request.
-            let accessToken: string | null;
-            try {
-                accessToken = await auth.getLatestAccessToken();
-            } catch (error: any) {
-                console.log("Failed to get the latest access token: " + error?.message || error);
-                reject({
-                    message: "You are no longer signed in. Please sign-in again.",
-                } as RemoteServiceError);
-                return;
-            }
-
             const fetchOptions: RequestInit = {
                 method,
                 headers: {},
             };
 
-            if (accessToken && accessToken.length > 0) {
-                (fetchOptions.headers as Record<string, string>)["Authorization"] = `Bearer ${accessToken}`;
+            let accessToken: string | null;
+            if (auth) {
+                try {
+                    accessToken = await auth.getLatestAccessToken();
+                } catch (error: any) {
+                    console.log("Failed to get the latest access token: " + error?.message || error);
+                    reject({
+                        message: "You are no longer signed in. Please sign-in again.",
+                    } as RemoteServiceError);
+                    return;
+                }
+
+                if (accessToken && accessToken.length > 0) {
+                    (fetchOptions.headers as Record<string, string>)["Authorization"] = `Bearer ${accessToken}`;
+                }
             }
 
             if (data) {

@@ -85,8 +85,6 @@ export class QuestionGeneratorService {
      * @param fontName Name of the font when format is Pdf.
      * @param fontSize Size of the font when format is Pdf.
      * @param columns Number of columns to use when format is Pdf.
-     * 
-     * @returns URL to download the file.
      */
     public static downloadGeneratedFile(
         auth: AuthManager,
@@ -94,7 +92,7 @@ export class QuestionGeneratorService {
         format: QuestionOutputFormat,
         fontName: string | null = null,
         fontSize: number | null = null,
-        columns: number | null = null): Promise<Blob> {
+        columns: number | null = null): Promise<void> {
 
         return RemoteServiceUtility.downloadFromHttpRequest(
             auth,
