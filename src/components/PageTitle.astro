@@ -37,12 +37,11 @@ import EventScopeBadge from "./EventScopeBadge";
         eventType && eventId && (
             <span>
                 <PrintDialogButton isLoaded={eventIsLoaded ?? false} />
-                <ExcelExportButton
-                    eventId={eventId}
-                    eventName={title}
+                <ExcelExportButton isLoaded={eventIsLoaded ?? false} />
+                <ToggleFavoritesOnlyButton
                     isLoaded={eventIsLoaded ?? false}
+                    client:only="react"
                 />
-                <ToggleFavoritesOnlyButton isLoaded={eventIsLoaded ?? false} client:only="react" />
             </span>
         )
     }

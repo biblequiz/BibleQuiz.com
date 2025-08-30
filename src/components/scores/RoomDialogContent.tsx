@@ -3,6 +3,8 @@ import { useStore } from "@nanostores/react";
 import { sharedRoomScoringReportState } from "@utils/SharedState";
 import { RoomScoringReport, RoomScoringReportTeam, RoomScoringReportQuizzer, QuizzedOutState } from "@types/RoomScoringReport";
 import FontAwesomeIcon from "../FontAwesomeIcon";
+import { ReportService } from "../../types/services/ReportService";
+import type { RemoteServiceError } from "../../types/services/RemoteServiceUtility";
 
 export default function RoomDialogContent() {
 
@@ -17,27 +19,26 @@ export default function RoomDialogContent() {
                 return;
             }
 
-            fetch(`https://scores.biblequiz.com/api/v1.0/reports/Events/${eventId}/ScoringReport/${databaseId}/${meetId}/${matchId}/${roomId}`)
-                .then(async (response) => {
-                    const body = await response.json();
-                    if (response.ok) {
-                        sharedRoomScoringReportState.set(
-                            {
-                                criteria: reportState.criteria,
-                                report: body,
-                                error: null
-                            });
-                    } else {
-                        sharedRoomScoringReportState.set(
-                            {
-                                criteria: null,
-                                report: null,
-                                error: body.Message || "Failed to download the report for unknown reasons."
-                            });
-                    }
-                })
-                .catch((error) => {
-                    sharedRoomScoringReportState.set({ report: null, error: `Unknown error occurred: ${error}` });
+            ReportService
+                .getRoomScoringReport(
+                    null, // No auth
+                    eventId,
+                    databaseId,
+                    meetId,
+                    matchId,
+                    roomId)
+                .then(report =>
+                    sharedRoomScoringReportState.set(
+                        {
+                            criteria: reportState.criteria,
+                            report: report,
+                            error: null
+                        }))
+                .catch((error: RemoteServiceError) => {
+                    sharedRoomScoringReportState.set({
+                        report: null,
+                        error: `Unknown error occurred: ${error.message}`
+                    });
                 });
         }
     }, [reportState]);

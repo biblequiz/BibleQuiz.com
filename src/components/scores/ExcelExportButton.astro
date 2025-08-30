@@ -2,20 +2,16 @@
 import FontAwesomeIcon from "@components/FontAwesomeIcon";
 
 interface Props {
-    eventId: string;
-    eventName: string;
     isLoaded: boolean;
 }
 
-const { eventId, eventName, isLoaded } = Astro.props as Props;
+const { isLoaded } = Astro.props as Props;
 ---
 
-<a
+<button
     id="excel-export-button"
-    href={`https://scores.biblequiz.com/api/v1.0/reports/Events/${eventId}/Stats`}
-    download={`Stats - ${eventName}.xlsx`}
     class="btn btn-warning cursor-pointer hide-on-print"
     disabled={!isLoaded}
 >
     <FontAwesomeIcon icon="fas faFileExcel" />
-</a>
+</button>
