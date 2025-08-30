@@ -135,25 +135,29 @@ export default function TeamOrRoomScheduleTabContent({
 
                     let hasAnyMatchItems = false;
                     const matchItems = cardItem.Matches!.map(
-                        (match: ScoringReportTeamMatch | ScoringReportRoomMatch | null, matchIndex: number) => {
+                        (matchItem: ScoringReportTeamMatch | ScoringReportRoomMatch | null, matchIndex: number) => {
                             const matchKey = `${key}_matches_${matchIndex}`;
-                            if (null == match) {
+                            if (null == matchItem) {
                                 return (<li key={matchKey} className="ml-6">BYE</li>);
                             }
 
-                            const resolvedMeet = !meet.HasLinkedMeets || !(match as ScoringReportRoomMatch).LinkedMeet
+                            const resolvedMeet = !meet.HasLinkedMeets || !(matchItem as ScoringReportRoomMatch).LinkedMeet
                                 ? meet
-                                : event.Report.Meets[(match as ScoringReportRoomMatch).LinkedMeet!];
+                                : event.Report.Meets[(matchItem as ScoringReportRoomMatch).LinkedMeet!];
 
                             const resolvedMatch = resolvedMeet.Matches![matchIndex];
                             let matchTeam: ScoringReportTeam | null = null;
                             let shouldHighlightSearchResult = false;
                             let shouldHighlightFavorite = false;
-                            if (match && isRoomReport) {
-                                matchTeam = resolvedMeet.Teams![(match as ScoringReportRoomMatch).Team1];
+                            let match: ScoringReportTeamMatch | null = null;
+                            if (matchItem && isRoomReport) {
+                                matchTeam = resolvedMeet.Teams![(matchItem as ScoringReportRoomMatch).Team1];
                                 match = matchTeam.Matches![matchIndex];
                                 shouldHighlightSearchResult = eventFilters?.highlightTeamId === matchTeam?.Id;
                                 shouldHighlightFavorite = favorites?.teamIds.has(matchTeam?.Id) ?? false;
+                            }
+                            else {
+                                match = matchItem as ScoringReportTeamMatch | null;
                             }
 
                             const isLiveMatch = null != match && null != match.CurrentQuestion;
@@ -193,9 +197,9 @@ export default function TeamOrRoomScheduleTabContent({
                             }
 
                             // Append the other team name and scores.
-                            if (null != match.OtherTeam) {
+                            if (null != match?.OtherTeam) {
 
-                                const otherTeam = resolvedMeet.Teams[match.OtherTeam];
+                                const otherTeam = resolvedMeet.Teams![match.OtherTeam];
                                 if (!shouldHighlightSearchResult && eventFilters?.highlightTeamId == otherTeam.Id) {
                                     shouldHighlightSearchResult = true;
                                 }
@@ -212,7 +216,7 @@ export default function TeamOrRoomScheduleTabContent({
                                         }
                                     }
                                     else {
-                                        cellText.push(`${match.Score} to ${otherTeam.Matches[matchIndex].Score}`);
+                                        cellText.push(`${match.Score} to ${otherTeam.Matches![matchIndex]!.Score}`);
                                     }
                                 }
                             }
@@ -220,18 +224,18 @@ export default function TeamOrRoomScheduleTabContent({
 
                                 cellText.push("\"BYE TEAM\"");
 
-                                if (match.Score != null) {
-                                    cellText.push(`\"BYE TEAM\" ${match.Score}`);
+                                if (match!.Score != null) {
+                                    cellText.push(`\"BYE TEAM\" ${match!.Score}`);
                                 }
                             }
 
                             // Add the scheduled room and time.
                             if (isScheduleOnly) {
                                 if (!isRoomReport) {
-                                    cellText.push(`in ${match.Room}`);
+                                    cellText.push(`in ${match!.Room}`);
                                 }
 
-                                const matchTime = resolvedMeet.Matches[matchIndex].MatchTime;
+                                const matchTime = resolvedMeet.Matches![matchIndex].MatchTime;
                                 if (matchTime) {
                                     cellText.push(`@ ${matchTime}`);
                                 }
@@ -271,12 +275,19 @@ export default function TeamOrRoomScheduleTabContent({
                                 >
                                     {isScheduleOnly && (<>{cellHtml}</>)}
                                     {!isScheduleOnly && (
-                                        <RoomDialogLink id={matchKey} label={`Match ${resolvedMatch.Id} in ${match!.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
+                                        <RoomDialogLink
+                                            id={matchKey}
+                                            label={`Match ${resolvedMatch.Id} in ${match!.Room} @ ${resolvedMeet.Name}`}
+                                            eventId={eventId}
+                                            databaseId={resolvedMeet.DatabaseId}
+                                            meetId={resolvedMeet.MeetId}
+                                            matchId={resolvedMatch.Id}
+                                            roomId={match!.RoomId}>
                                             {cellHtml}
                                             {isLiveMatch && (
                                                 <>
                                                     <br />
-                                                    <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match.CurrentQuestion}
+                                                    <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match!.CurrentQuestion}
                                                 </>
                                             )}
                                         </RoomDialogLink>)}

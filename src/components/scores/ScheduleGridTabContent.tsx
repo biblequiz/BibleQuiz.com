@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch, ScoringReportRoomMatch } from "types/EventScoringReport";
+import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "utils/SharedState";
@@ -125,7 +125,7 @@ export default function ScheduleGridTabContent({
                                     <td className="text-right">{team.Scores!.TotalPoints}</td>
                                     <td className="text-right">{team.Scores!.AveragePoints}</td>
                                 </>)}
-                            {team.Matches!.map((match: ScoringReportTeamMatch | ScoringReportRoomMatch | null, matchIndex: number) => {
+                            {team.Matches!.map((match: ScoringReportTeamMatch | null, matchIndex: number) => {
                                 const matchKey = `${key}_teams_${teamIndex}match_${teamIndex}_matches_${matchIndex}`;
                                 if (null == match) {
                                     return (<td key={matchKey}>--</td>);
@@ -133,10 +133,7 @@ export default function ScheduleGridTabContent({
 
                                 const isLiveMatch = null != match.CurrentQuestion;
 
-                                const resolvedMeet = !meet.HasLinkedMeets || !(match as ScoringReportRoomMatch)?.LinkedMeet
-                                    ? meet
-                                    : event.Report.Meets[(match as ScoringReportRoomMatch).LinkedMeet!];
-
+                                const resolvedMeet = meet;
                                 const resolvedMatch = resolvedMeet.Matches![matchIndex];
 
                                 let badgeClass: string;
@@ -156,7 +153,14 @@ export default function ScheduleGridTabContent({
                                     <td className="text-center" key={matchKey}>
                                         {!isLiveMatch && match.Score == null && (<span>{match.Room}</span>)}
                                         {(isLiveMatch || match.Score != null) && (
-                                            <RoomLink id={matchKey} label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
+                                            <RoomLink
+                                                id={matchKey}
+                                                label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`}
+                                                eventId={eventId}
+                                                databaseId={resolvedMeet.DatabaseId}
+                                                meetId={resolvedMeet.MeetId}
+                                                matchId={resolvedMatch.Id}
+                                                roomId={match.RoomId}>
                                                 {match.Room}
                                                 {isLiveMatch && (
                                                     <>
