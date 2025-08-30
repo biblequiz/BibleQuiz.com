@@ -2,22 +2,14 @@ import { useState } from "react";
 import { useStore } from "@nanostores/react";
 import { Turnstile } from '@marsidev/react-turnstile'
 import { sharedDirtyWindowState, sharedGlobalStatusToast } from "../../utils/SharedState";
-import ChurchLookup from "../ChurchLookup";
-import regions from "../../data/regions.json";
-import districts from "../../data/districts.json";
 import { AuthService, UserSignUpInfo } from "../../types/services/AuthService";
 import { CloudflareTurnstile } from "../../utils/CloudflareTurnstile";
 import { Person } from "../../types/services/PeopleService";
 import type { RemoteServiceError } from "../../types/services/RemoteServiceUtility";
 import { AuthManager } from "../../types/AuthManager";
+import ChurchLookupByState from "./ChurchLookupByState";
 
 interface Props {
-}
-
-interface ChurchScopeInfo {
-    selectedValue: string;
-    regionId: string;
-    districtId: string | null;
 }
 
 export default function CompleteProfileSection({ }: Props) {
@@ -31,37 +23,9 @@ export default function CompleteProfileSection({ }: Props) {
     const [lastName, setLastName] = useState(existingProfile?.lastName || "");
     const [email, setEmail] = useState(existingProfile?.email || "");
     const [competitionType, setCompetitionType] = useState("");
-    const [churchScope, setChurchScope] = useState<ChurchScopeInfo | null>(null);
     const [churchId, setChurchId] = useState("");
     const [termsAgreed, setTermsAgreed] = useState(false);
     const [isProcessing, setIsProcessing] = useState(false);
-
-    function selectRegionOrDistrict(selectedValue: string): void {
-
-        let regionId: string | null = null;
-        let districtId: string | null = null;
-        if (selectedValue) {
-            const parts: string[] = selectedValue.split('_');
-            if (parts.length > 0) {
-                regionId = parts[0];
-            }
-
-            if (parts.length > 1) {
-                districtId = parts[1];
-            }
-        }
-
-        if (!regionId) {
-            setChurchScope(null);
-        }
-        else {
-            setChurchScope({
-                selectedValue: selectedValue,
-                regionId: regionId,
-                districtId: districtId
-            });
-        }
-    }
 
     async function handleSubmit(event: React.FormEvent<HTMLFormElement>): Promise<void> {
         event.preventDefault();
@@ -193,58 +157,13 @@ export default function CompleteProfileSection({ }: Props) {
                     required
                 />
             </div>
-            <div className="w-full">
-                <label className="label">
-                    <span className="label-text font-medium">Church Location</span>
-                    <span className="label-text-alt text-error">*</span>
-                </label>
-                <div>
-                    <select
-                        className="select select-bordered w-full"
-                        value={churchScope?.selectedValue || ""}
-                        onChange={e => {
-                            selectRegionOrDistrict(e.target.value);
-                            sharedDirtyWindowState.set(true);
-                        }}
-                        disabled={isProcessing}
-                        required
-                    >
-                        <option value="" disabled>
-                            Select Region or District
-                        </option>
-                        {regions.map((region) => (
-                            <option key={`reg_${region.id}`} value={region.id}>
-                                {region.name}: {region.states.join(", ")}
-                            </option>
-                        ))}
-                        <option value="" disabled>
-                            ----------------------
-                        </option>
-                        {districts.map((district) => (
-                            <option key={`dis_${district.id}`} value={`${district.regionId}_${district.id}`}>
-                                {district.name}: {district.states.join(", ")}
-                            </option>
-                        ))}
-                    </select>
-                </div>
-            </div>
-            {churchScope && (
-                <div className="w-full">
-                    <label className="label">
-                        <span className="label-text font-medium">Church</span>
-                        <span className="label-text-alt text-error">*</span>
-                    </label>
-                    <ChurchLookup
-                        regionId={churchScope.regionId}
-                        districtId={churchScope.districtId ?? undefined}
-                        onSelect={church => {
-                            setChurchId(church.id);
-                            sharedDirtyWindowState.set(true);
-                        }}
-                        disabled={isProcessing}
-                        required
-                    />
-                </div>)}
+            <ChurchLookupByState
+                disabled={isProcessing}
+                onSelect={church => {
+                    setChurchId(church.id);
+                    sharedDirtyWindowState.set(true);
+                }}
+            />
             <div className="w-full">
                 <label className="label">
                     <span className="label-text font-medium">Default Type of Competition</span>

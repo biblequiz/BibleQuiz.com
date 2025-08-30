@@ -7,7 +7,7 @@ import Auth from "../pages/auth.astro";
 import { init } from "astro/virtual-modules/prefetch.js";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
-const TOKEN_SCOPES = ["offline_access", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
+const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
 
 // Initialize the MSAL client and active account. This happens in the background so that
 // other processing can happen at the same time.
@@ -199,6 +199,9 @@ export class AuthManager {
         } as AuthManagerReactState);
 
         privateStores.set(this, store);
+
+        // Initialize background token renewal.
+        this.setupPeriodicTokenRefresh();
     }
 
     /**
@@ -276,7 +279,11 @@ export class AuthManager {
                 .loginPopup({
                     scopes: TOKEN_SCOPES,
                     prompt: 'select_account',
-                    state: window.location.pathname
+                    state: window.location.pathname,
+                    extraQueryParameters: {
+                        // Request offline access for refresh tokens
+                        "access_type": "offline"
+                    }
                 })
                 .then((tokenResponse: AuthenticationResult) => {
 
@@ -351,7 +358,7 @@ export class AuthManager {
 
                 const activeAccount: AccountInfo | null = client.getActiveAccount();
                 if (!activeAccount) {
-                    return Promise.resolve(null);
+                    return resolve(null);
                 }
 
                 try {
@@ -359,17 +366,26 @@ export class AuthManager {
                         .acquireTokenSilent({
                             scopes: TOKEN_SCOPES,
                             account: activeAccount,
+                            forceRefresh: false, // Allow cached tokens
                         });
 
                     resolve(tokenResponse.accessToken);
                 }
-                catch (error) {
+                catch (error: any) {
 
                     // If the resolve/reject is already present, this might be an infinite loop.
                     if (this._accessTokenResolve || this._accessTokenReject) {
                         console.log("Already attempting to get a new access token. Failing to avoid an infinite loop.");
                         reject(error);
                         return;
+                    }
+
+                    // Check if this is a consent required or interaction required error
+                    if (error.errorCode === "consent_required" ||
+                        error.errorCode === "interaction_required" ||
+                        error.errorCode === "login_required") {
+
+                        console.log("Token acquisition requires interaction, prompting user to sign in again");
                     }
 
                     // It's possible the user is no longer signed in. In this case, save the resolve
@@ -394,6 +410,26 @@ export class AuthManager {
         return this.retrieveRemoteProfile(accessToken, this.userProfile?.authTokenProfile ?? null);
     }
 
+    /**
+     * Set up periodic token refresh to prevent expiration
+     */
+    private setupPeriodicTokenRefresh(): void {
+
+        // Renew the token once.
+        this.renewTokenWithoutError();
+
+        // Refresh token every 30 minutes (tokens typically last 1 hour)
+        setInterval(this.renewTokenWithoutError, 30 * 60 * 1000); // 30 minutes
+    }
+
+    private async renewTokenWithoutError(): Promise<void> {
+        try {
+            await this.getLatestAccessToken();
+        } catch (error) {
+            console.log("Periodic token refresh failed:", error);
+        }
+    }
+
     private retrieveRemoteProfile(
         accessToken: string,
         tokenProfile: AuthTokenProfile | null): Promise<void> {
@@ -413,8 +449,7 @@ export class AuthManager {
                     remoteProfile.Type,
                     remoteProfile.IsJbqAdmin,
                     remoteProfile.IsTbqAdmin,
-                    tokenProfile,
-                    false);
+                    tokenProfile);
 
                 AuthManager.saveProfile(newProfile);
 
@@ -477,8 +512,7 @@ export class AuthManager {
                     serializedProfile.type,
                     serializedProfile.isJbqAdmin,
                     serializedProfile.isTbqAdmin,
-                    serializedProfile.authTokenProfile,
-                    serializedProfile.hasDisplayedSignUpDialog ?? false);
+                    serializedProfile.authTokenProfile);
             }
         }
 
@@ -554,8 +588,9 @@ export class AuthManager {
                 },
                 cache: {
                     cacheLocation: "localStorage", // Configures cache location. "sessionStorage" is more secure, but "localStorage" gives you SSO between tabs.
-                    storeAuthStateInCookie: false, // Set this to "true" if you are having issues on IE11 or Edge
+                    storeAuthStateInCookie: true, // Set this to "true" if you are having issues on IE11 or Edge or want better persistence
                     secureCookies: true, // Set this to "true" to enable secure cookies in browsers that support it (e.g., Chrome, Firefox, Edge). This is recommended for production environments.
+                    claimsBasedCachingEnabled: true, // Enable claims-based caching for better token management
                 },
                 system: {
                     loggerOptions: {
