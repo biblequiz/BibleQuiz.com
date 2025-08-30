@@ -152,7 +152,7 @@ export default function ChurchLookup({
             type="button"
             className="btn btn-primary"
             onClick={e => startSearch()}
-            disabled={searchState?.isLoading ?? false}
+            disabled={!searchText || (searchState?.isLoading ?? false)}
           >
             <FontAwesomeIcon icon="fas faSearch" />
             Search
