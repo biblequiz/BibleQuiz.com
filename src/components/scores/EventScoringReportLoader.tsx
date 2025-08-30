@@ -1,16 +1,14 @@
 import { useEffect } from "react";
 import Fuse from "fuse.js";
-
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedPrintConfiguration } from "@utils/SharedState";
-import type { EventScoringReportSearchIndexItem, EventScoringReportSearchIndexSection } from "@utils/SharedState";
-import { PrintDialogModalId } from "./PrintDialogContent";
-import FontAwesomeIcon from "../FontAwesomeIcon";
-import type { EventInfo } from "@types/EventTypes";
-import type { EventScoringReport, ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from "@types/EventScoringReport";
-import { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
-import { ReportService } from "../../types/services/ReportService";
+import { EventScoringReport, ScoringReportTeam, ScoringReportMeet, ScoringReportQuizzer } from "../../types/EventScoringReport";
+import type { EventInfo } from "../../types/EventTypes";
 import type { RemoteServiceError } from "../../types/services/RemoteServiceUtility";
+import { ReportService } from "../../types/services/ReportService";
+import { TeamAndQuizzerFavorites } from "../../types/TeamAndQuizzerFavorites";
+import { sharedEventScoringReportState, sharedPrintConfiguration, type EventScoringReportSearchIndexItem } from "../../utils/SharedState";
+import FontAwesomeIcon from "../FontAwesomeIcon";
+import { PrintDialogModalId } from "./PrintDialogContent";
 
 interface Props {
     parentTabId: string;
@@ -89,7 +87,7 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
                 {
                     report: report,
                     favorites: TeamAndQuizzerFavorites.load(),
-                    teamIndex: new Fuse<ScoringReportTeam>(
+                    teamIndex: new Fuse<EventScoringReportSearchIndexItem<ScoringReportTeam>>(
                         teamIndexSource,
                         {
                             shouldSort: false,
@@ -98,7 +96,7 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
                             keys: ["item.Name", "item.ChurchName"],
                             threshold: 0.4
                         }),
-                    quizzerIndex: new Fuse<ScoringReportQuizzer>(
+                    quizzerIndex: new Fuse<EventScoringReportSearchIndexItem<ScoringReportQuizzer>>(
                         quizzerIndexSource,
                         {
                             shouldSort: false,
@@ -160,7 +158,7 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
                     sharedEventScoringReportState.set(
                         {
                             report: null,
-                            favorites: null,
+                            favorites: null!,
                             teamIndex: null,
                             quizzerIndex: null,
                             error: error.message || "Failed to download the report for unknown reasons.",
@@ -190,7 +188,7 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
             // Drop the unsupported tabs.
             let hasStats = false;
             let hasQStats = false;
-            for (let meet of reportState.report.Report.Meets) {
+            for (let meet of reportState.report!.Report.Meets) {
 
                 // If there are any question stats, mark the flag.
                 if (meet.HasQuestionStats) {

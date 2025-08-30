@@ -1,11 +1,10 @@
 import { atom } from 'nanostores';
 import Fuse, { type FuseResult } from "fuse.js";
 
-import { EventScoringReport } from "@types/EventScoringReport";
-import { RoomScoringReport } from "@types/RoomScoringReport";
 import type { QuizzerIndex } from "../types/QuizzerSearch";
-import type { ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from '../types/EventScoringReport';
+import type { EventScoringReport, ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from '../types/EventScoringReport';
 import type { TeamAndQuizzerFavorites } from '../types/TeamAndQuizzerFavorites';
+import type { RoomScoringReport } from '../types/RoomScoringReport';
 
 /* Downloaded Event Report */
 export interface EventScoringReportSearchIndexItem<T> {
@@ -27,7 +26,7 @@ export const sharedEventScoringReportState = atom<SharedEventScoringReportState 
 export interface SharedEventScoringReportFilterState {
     searchText: string | null;
     teamResults: FuseResult<EventScoringReportSearchIndexItem<ScoringReportTeam>>[] | null;
-    quizzerResults: FuseResult<EventScoringReportSearchIndexItem<ScoringReportTeam>>[] | null;
+    quizzerResults: FuseResult<EventScoringReportSearchIndexItem<ScoringReportQuizzer>>[] | null;
     openMeetDatabaseId: string | null;
     openMeetMeetId: number | null;
     highlightTeamId: string | null;

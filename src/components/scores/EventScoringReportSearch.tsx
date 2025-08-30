@@ -1,12 +1,12 @@
 import type React from "react";
 import { useStore } from "@nanostores/react";
 
-import FontAwesomeIcon from "../FontAwesomeIcon";
 import type { FuseResult } from "fuse.js";
-import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
 import type { ScoringReportTeam, ScoringReportQuizzer, ScoringReportMeet } from "../../types/EventScoringReport";
 import type { TeamAndQuizzerFavorites } from "../../types/TeamAndQuizzerFavorites";
-import { type SharedEventScoringReportState, sharedEventScoringReportState, type SharedEventScoringReportFilterState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle, EventScoringReportSearchIndexItem } from "../../utils/SharedState";
+import { type SharedEventScoringReportState, sharedEventScoringReportState, type SharedEventScoringReportFilterState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle, type EventScoringReportSearchIndexItem } from "../../utils/SharedState";
+import FontAwesomeIcon from "../FontAwesomeIcon";
+import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
 
 interface Props {
     parentTabId: string;
@@ -41,8 +41,8 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
             return;
         }
 
-        const teamResults: FuseResult<ScoringReportTeam>[] | null = reportState?.teamIndex?.search(searchText) ?? null;
-        const quizzerResults: FuseResult<ScoringReportQuizzer>[] | null = reportState?.quizzerIndex?.search(searchText) ?? null;
+        const teamResults = reportState?.teamIndex?.search(searchText) ?? null;
+        const quizzerResults = reportState?.quizzerIndex?.search(searchText) ?? null;
 
         function sortSearchResults(a: any, b: any) {
             if (a.score < b.score) {
@@ -85,25 +85,6 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
         }
 
         sharedEventScoringReportFilterState.set(null);
-    };
-
-    const handleFavoritesButtonClick = (updateFavorites: (f: TeamAndQuizzerFavorites) => void) => {
-
-        // Update the favorites object.
-        updateFavorites(favorites);
-        favorites.save();
-
-        // Update the state.
-        sharedEventScoringReportFilterState.set({
-            searchText: eventFilters?.searchText ?? null,
-            teamResults: eventFilters?.teamResults ?? null,
-            quizzerResults: eventFilters?.quizzerResults ?? null,
-            openMeetDatabaseId: null,
-            openMeetMeetId: null,
-            highlightTeamId: null,
-            highlightQuizzerId: null,
-            favoritesVersion: favorites.version,
-        });
     };
 
     const handleHighlightButtonClick = (meet: ScoringReportMeet, highlightTeamId: string | null, highlightQuizzerId: string | null) => {
@@ -150,7 +131,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                         <div>
                             <p className="text-lg"><b>Teams</b></p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
-                                {eventFilters.teamResults.map((result: FuseResult<EventScoringReportSearchIndexItem<ScoringReportTeam>>) => {
+                                {eventFilters.teamResults!.map((result: FuseResult<EventScoringReportSearchIndexItem<ScoringReportTeam>>) => {
                                     hasAnyResults = true;
 
                                     const indexItem = result.item;
@@ -189,7 +170,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                         <div>
                             <p className="text-lg"><b>Quizzers</b></p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
-                                {eventFilters.quizzerResults.map((result: FuseResult<EventScoringReportSearchIndexItem<ScoringReportQuizzer>>) => {
+                                {eventFilters.quizzerResults!.map((result: FuseResult<EventScoringReportSearchIndexItem<ScoringReportQuizzer>>) => {
 
                                     hasAnyResults = true;
 
