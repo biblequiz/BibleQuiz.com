@@ -29,7 +29,7 @@ export default function EventListFilters({ regions, districts }: Props) {
     });
   };
 
-  const clearSearchText = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const clearSearchText = () => {
 
     sharedEventListFilter.set({
       searchText: null,

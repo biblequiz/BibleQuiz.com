@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch } from "types/EventScoringReport";
+import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch, ScoringReportRoomMatch } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "utils/SharedState";
@@ -19,7 +19,13 @@ export interface Props {
     schedulesTabId: string;
 };
 
-export default function ScheduleGridTabContent({ eventId, event, isPrinting, printStats, rootTabId, schedulesTabId }: Props) {
+export default function ScheduleGridTabContent({
+    eventId,
+    event,
+    isPrinting,
+    printStats,
+    rootTabId,
+    schedulesTabId }: Props) {
 
     const scrollToViewElementId = `schedule_grid_scroll_elem`;
 
@@ -80,7 +86,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
 
                 const teamRows = teams.map((teamId: ScoringReportTeam | number, teamIndex: number) => {
                     const team = hasRankedTeams
-                        ? meet.Teams[teamId as number]
+                        ? meet.Teams![teamId as number]
                         : teamId as ScoringReportTeam;
 
                     let highlightColor: string = "";
@@ -114,12 +120,12 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                             </td>
                             {hasRankedTeams && (
                                 <>
-                                    <td className="text-right">{team.Scores.Wins}</td>
-                                    <td className="text-right">{team.Scores.Losses}</td>
-                                    <td className="text-right">{team.Scores.TotalPoints}</td>
-                                    <td className="text-right">{team.Scores.AveragePoints}</td>
+                                    <td className="text-right">{team.Scores!.Wins}</td>
+                                    <td className="text-right">{team.Scores!.Losses}</td>
+                                    <td className="text-right">{team.Scores!.TotalPoints}</td>
+                                    <td className="text-right">{team.Scores!.AveragePoints}</td>
                                 </>)}
-                            {team.Matches.map((match: ScoringReportTeamMatch, matchIndex: number) => {
+                            {team.Matches!.map((match: ScoringReportTeamMatch | ScoringReportRoomMatch | null, matchIndex: number) => {
                                 const matchKey = `${key}_teams_${teamIndex}match_${teamIndex}_matches_${matchIndex}`;
                                 if (null == match) {
                                     return (<td key={matchKey}>--</td>);
@@ -127,11 +133,11 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
 
                                 const isLiveMatch = null != match.CurrentQuestion;
 
-                                const resolvedMeet = !meet.HasLinkedMeets || null == match.LinkedMeet
+                                const resolvedMeet = !meet.HasLinkedMeets || !(match as ScoringReportRoomMatch)?.LinkedMeet
                                     ? meet
-                                    : event.Report.Meets[match.LinkedMeet];
+                                    : event.Report.Meets[(match as ScoringReportRoomMatch).LinkedMeet!];
 
-                                const resolvedMatch = resolvedMeet.Matches[matchIndex];
+                                const resolvedMatch = resolvedMeet.Matches![matchIndex];
 
                                 let badgeClass: string;
                                 switch (match.Result) {
@@ -238,11 +244,11 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {meet.Teams.map((team: ScoringReportTeam, teamIndex: number) => {
+                                    {meet.Teams!.map((team: ScoringReportTeam, teamIndex: number) => {
 
                                         if (!isPrinting &&
                                             showOnlyFavorites &&
-                                            !favorites.teamIds.has(team.Id)) {
+                                            !favorites?.teamIds.has(team.Id)) {
 
                                             return null;
                                         }
@@ -273,7 +279,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                                         return (
                                                             <span key={quizzerKey}>
                                                                 {q > 0 && <br />}
-                                                                <span>{meet.Quizzers[team.Quizzers[q]].Name}</span>
+                                                                <span>{meet.Quizzers![team.Quizzers[q]].Name}</span>
                                                             </span>);
                                                     })}
                                                 </td>
@@ -284,7 +290,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                                             return (
                                                                 <span key={quizzerKey}>
                                                                     {q > 0 && <br />}
-                                                                    <span>{meet.Quizzers[team.Quizzers[q + column1Count]].Name}</span>
+                                                                    <span>{meet.Quizzers![team.Quizzers[q + column1Count]].Name}</span>
                                                                 </span>);
                                                         })}
                                                     </td>)}

@@ -241,7 +241,7 @@ export default function CompleteProfileSection({ }: Props) {
                     title="Add Church"
                     addState={addingChurchState}
                     creatorEmail={email}
-                    onSave={(church) => setAddingChurchState(null)}
+                    onSave={() => setAddingChurchState(null)}
                 />)}
         </>);
 }

@@ -1,4 +1,3 @@
-import type { JSX } from "astro/jsx-runtime";
 import { useEffect } from "react";
 
 interface Props {

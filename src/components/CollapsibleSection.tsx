@@ -39,7 +39,7 @@ export default function CollapsibleSection({ pageId, elementId, icon, iconChildr
                 {title}
                 {!isPrinting && badges && badges.map((badge, index) => (
                     <span key={`${pageId}_${index}`} className={`badge ${badge.className} badge-sm ml-2`} id={badge.id}>
-                        {badge.icon && <FontAwesomeIcon icon={badge.icon} className="mr-1" />}
+                        {badge.icon && <FontAwesomeIcon icon={badge.icon} classNames={["mr-1"]} />}
                         {badge.text}
                     </span>
                 ))}

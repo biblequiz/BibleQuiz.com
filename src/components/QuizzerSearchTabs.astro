@@ -79,7 +79,7 @@ for (const quizzer of quizzerIndex.quizzers) {
 
         // Update the state to be the current room.
         sharedQuizzerSearchState.set({
-            searchText: sharedQuizzerSearchState.get()?.searchText,
+            searchText: sharedQuizzerSearchState.get()?.searchText || null,
             index: quizzerIndexJson,
             quizzerIndex: index,
         });

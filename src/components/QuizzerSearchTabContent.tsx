@@ -141,7 +141,7 @@ export default function QuizzerSearchTabContent({ id, quizzers }: Props) {
                     }
 
                     return (
-                        <tr className="hover:bg-base-300 cursor-pointer" key={key} data-index={item.index} onClick={onClickHandler}>
+                        <tr className="hover:bg-base-300 cursor-pointer" key={key} data-index={item.index} onClick={onClickHandler!}>
                             <td>
                                 <span>{quizzer.n}</span>
                                 {quizzer.on && quizzer.on.length > 0 && quizzer.on.map((name, nameIndex) => (

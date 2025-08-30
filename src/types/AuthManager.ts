@@ -428,7 +428,7 @@ export class AuthManager {
         }
     }
 
-    // @ts-ignore: TS80006 - keeping Promise-based pattern intentionally
+    // @ts-ignore
     private retrieveRemoteProfile(
         accessToken: string,
         tokenProfile: AuthTokenProfile | null): Promise<void> {

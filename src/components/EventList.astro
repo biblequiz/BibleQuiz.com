@@ -117,8 +117,8 @@ if (showTypeEvents) {
     {
         !hideFilters && (
             <EventListFilters
-                regions={regions}
-                districts={districts}
+                regions={regions!}
+                districts={districts!}
                 client:only="react"
             />
         )

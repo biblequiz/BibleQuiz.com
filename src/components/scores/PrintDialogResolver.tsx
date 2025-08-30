@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState, sharedPrintConfiguration } from "utils/SharedState";
-import type { EventInfo } from "types/EventTypes";
 import { EventScoringReport } from "types/EventScoringReport";
 import { OutputType } from "utils/SharedState";
 import type { PrintConfiguration } from "utils/SharedState";
@@ -59,7 +58,7 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
                     <TeamOrRoomScheduleTabContent
                         type="Team"
                         eventId={eventId}
-                        event={event}
+                        event={event || undefined}
                         isPrinting={true}
                         printSinglePerPage={printDialogState.showSinglePerPage}
                         printStats={printDialogState.includeStats}
@@ -73,7 +72,7 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
                     <TeamOrRoomScheduleTabContent
                         type="Room"
                         eventId={eventId}
-                        event={event}
+                        event={event || undefined}
                         isPrinting={true}
                         printSinglePerPage={printDialogState.showSinglePerPage}
                         printStats={printDialogState.includeStats}
@@ -86,7 +85,7 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
                 <div className="hide-if-not-print-screen">
                     <ScheduleGridTabContent
                         eventId={eventId}
-                        event={event}
+                        event={event || undefined}
                         isPrinting={true}
                         printStats={printDialogState.includeStats}
                     />

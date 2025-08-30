@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, type JSX } from "react";
 import { ScoringReportMeet } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
@@ -28,12 +28,16 @@ function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] |
         </>);
 }
 
-export default function StatsTabContent({ event, isPrinting, printingStatsFormat, parentTabId }: EventScoresProps) {
+export default function StatsTabContent({
+    event,
+    isPrinting,
+    printingStatsFormat,
+    parentTabId }: EventScoresProps) {
 
     const scrollToViewElementId = `stats_tab_scroll_elem`;
 
     const reportState = useStore(sharedEventScoringReportState);
-    event ??= reportState?.report;
+    event ??= reportState?.report || undefined;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 

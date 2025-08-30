@@ -138,11 +138,6 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                                     const team: ScoringReportTeam = indexItem.item;
                                     const key: string = `search_team_${team.Id}`;
 
-                                    const isFavorite: boolean = favorites.teamIds.has(team.Id);
-                                    const updateFavorites = isFavorite
-                                        ? (f: TeamAndQuizzerFavorites) => f.teamIds.delete(team.Id)
-                                        : (f: TeamAndQuizzerFavorites) => f.teamIds.add(team.Id);
-
                                     return (
                                         <div className="cardbg-base-100 card-sm shadow-sm mt-4" key={key}>
                                             <div className="card-body">
@@ -155,7 +150,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                                                     {indexItem.meets.map((meet: ScoringReportMeet) => (
                                                         <button
                                                             className="btn btn-primary mt-0"
-                                                            onClick={e => handleHighlightButtonClick(meet, team.Id, null)}
+                                                            onClick={() => handleHighlightButtonClick(meet, team.Id, null)}
                                                             key={`${key}_meet_${meet.DatabaseId}_${meet.MeetId}`}>
                                                             {meet.IsCombinedReport && <FontAwesomeIcon icon="fas faBook" classNames={["mr-1"]} />}
                                                             {meet.Name}
@@ -178,11 +173,6 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                                     const quizzer: ScoringReportQuizzer = indexItem.item;
                                     const key: string = `search_quizzer_${quizzer.Id}`;
 
-                                    const isFavorite: boolean = favorites.quizzerIds.has(quizzer.Id);
-                                    const updateFavorites = isFavorite
-                                        ? (f: TeamAndQuizzerFavorites) => f.quizzerIds.delete(quizzer.Id)
-                                        : (f: TeamAndQuizzerFavorites) => f.quizzerIds.add(quizzer.Id);
-
                                     return (
                                         <div className="cardbg-base-100 card-sm shadow-sm mt-4" key={key}>
                                             <div className="card-body">
@@ -196,7 +186,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                                                     {indexItem.meets.map((meet: ScoringReportMeet) => (
                                                         <button
                                                             className="btn btn-primary mt-0 btn-md"
-                                                            onClick={e => handleHighlightButtonClick(meet, null, quizzer.Id)}
+                                                            onClick={() => handleHighlightButtonClick(meet, null, quizzer.Id)}
                                                             key={`${key}_meet_${meet.DatabaseId}_${meet.MeetId}`}>
                                                             {meet.IsCombinedReport && <FontAwesomeIcon icon="fas faBook" classNames={["mr-1"]} />}
                                                             {meet.Name}

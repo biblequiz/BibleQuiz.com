@@ -80,12 +80,12 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                                                     ? meet
                                                     : event.Report.Meets[match.LinkedMeet];
 
-                                                const matchId = resolvedMeet.Matches[m].Id;
-                                                const roomId = resolvedMeet.Teams[match.Team1].Matches[m].RoomId;
+                                                const matchId = resolvedMeet.Matches![m].Id;
+                                                const roomId = resolvedMeet.Teams![match.Team1].Matches![m]!.RoomId;
 
                                                 let iconName: string;
                                                 let iconClasses: string[] = [];
-                                                switch (ScoringReportMatchState[match.State as any as keyof typeof ScoringReportMatchState]) {
+                                                switch (ScoringReportMatchState[match.State as keyof typeof ScoringReportMatchState]) {
                                                     case ScoringReportMatchState.InProgress:
                                                         iconName = "fas faHourglassStart";
                                                         iconClasses = [];

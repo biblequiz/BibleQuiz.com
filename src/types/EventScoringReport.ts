@@ -435,17 +435,17 @@ export enum ScoringReportMatchState {
     /**
      * Scoring hasn't started.
      */
-    NotStarted,
+    NotStarted = "NotStarted",
 
     /**
      * Match is in progress.
      */
-    InProgress,
+    InProgress = "InProgress",
 
     /**
      * Match is completed.
      */
-    Completed
+    Completed = "Completed"
 }
 
 /**

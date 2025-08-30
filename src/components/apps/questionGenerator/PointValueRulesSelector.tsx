@@ -80,7 +80,7 @@ export default function PointValueRulesSelector({
                     name={`min-per-half-${pointValue}`}
                     value={perHalfCount}
                     onChange={e => setPerHalfCount(Number(e.target.value))}
-                    onBlur={e => setRules({ ...rules, PerHalfCount: perHalfCount })}
+                    onBlur={() => setRules({ ...rules, PerHalfCount: perHalfCount })}
                     className="input input-bordered w-full"
                     min={0}
                     max={maxPerHalfMin}

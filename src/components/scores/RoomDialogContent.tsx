@@ -36,6 +36,7 @@ export default function RoomDialogContent() {
                         }))
                 .catch((error: RemoteServiceError) => {
                     sharedRoomScoringReportState.set({
+                        criteria: null,
                         report: null,
                         error: `Unknown error occurred: ${error.message}`
                     });
