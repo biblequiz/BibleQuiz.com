@@ -3,7 +3,7 @@ import type { AuthManager } from "../AuthManager";
 import type { EventScoringReport } from "../EventScoringReport";
 import type { RoomScoringReport } from "../RoomScoringReport";
 
-const URL_ROOT_PATH = "/api/v1.0/Reports";
+const URL_ROOT_PATH = "/api/v1.0/reports";
 
 /**
  * Wrapper for the Reports service.
@@ -24,7 +24,7 @@ export class ReportService {
             auth,
             "GET",
             RemoteServiceUrlBase.Scores,
-            `${URL_ROOT_PATH}/events/${eventId}/ScoringReport`);
+            `${URL_ROOT_PATH}/Events/${eventId}/ScoringReport`);
     }
 
     /**

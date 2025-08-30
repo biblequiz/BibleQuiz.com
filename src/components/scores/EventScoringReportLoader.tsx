@@ -10,6 +10,7 @@ import type { EventInfo } from "@types/EventTypes";
 import type { EventScoringReport, ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from "@types/EventScoringReport";
 import { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
 import { ReportService } from "../../types/services/ReportService";
+import type { RemoteServiceError } from "../../types/services/RemoteServiceUtility";
 
 interface Props {
     parentTabId: string;
@@ -109,28 +110,28 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
                     error: null
                 });
 
-            const excelButton: HTMLElement | null = document.getElementById("excel-export-button");
+            const excelButton: HTMLButtonElement | null = document.getElementById("excel-export-button") as HTMLButtonElement;
             if (excelButton) {
-                excelButton.removeAttribute("disabled");
-                
+                excelButton.disabled = false;
+
                 excelButton.addEventListener(
                     "click",
                     () => {
-                        excelButton.setAttribute("disabled", "true");
+                        excelButton.disabled = true;
 
                         ReportService.downloadEventStatsExcelFile(
                             null, // No auth.
                             eventInfo.id,
                             `Stats - ${eventInfo.name}.xlsx`)
                             .then(() => {
-                                excelButton.removeAttribute("disabled");
+                                excelButton.disabled = false;
                             })
                             .catch((error) => {
                                 // eslint-disable-next-line no-console
                                 console.error("Failed to download the excel file: ", error);
                                 alert(`Failed to download the excel file: ${error}`);
 
-                                excelButton.removeAttribute("disabled");
+                                excelButton.disabled = false;
                             });
                     });
             }
@@ -150,30 +151,19 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
             }
 
             // If the report is not already loaded, fetch it in the background
-            fetch(`https://scores.biblequiz.com/api/v1.0/reports/Events/${eventInfo.id}/ScoringReport`)
-                .then(async (response) => {
-                    const body = await response.json();
-                    if (response.ok) {
-                        initializeReport(body);
-                    } else {
-                        sharedEventScoringReportState.set(
-                            {
-                                report: null,
-                                favorites: null,
-                                teamIndex: null,
-                                quizzerIndex: null,
-                                error: body.Message || "Failed to download the report for unknown reasons."
-                            });
-                    }
-                })
-                .catch((error) => {
+            ReportService
+                .getScoringReportForAllDatabases(
+                    null, // No auth
+                    eventInfo.id)
+                .then(initializeReport)
+                .catch((error: RemoteServiceError) => {
                     sharedEventScoringReportState.set(
                         {
                             report: null,
                             favorites: null,
                             teamIndex: null,
                             quizzerIndex: null,
-                            error: `Unknown error occurred: ${error}`
+                            error: error.message || "Failed to download the report for unknown reasons.",
                         });
                 });
         }
