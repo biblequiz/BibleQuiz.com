@@ -1,6 +1,6 @@
-import FontAwesomeIcon from "@components/FontAwesomeIcon";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useStore } from "@nanostores/react";
-import { showFavoritesOnlyToggle } from "../../utils/SharedState";
+import { showFavoritesOnlyToggle } from 'utils/SharedState';
 
 interface Props {
     isLoaded: boolean;

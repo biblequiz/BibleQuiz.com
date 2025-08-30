@@ -1,7 +1,7 @@
-import settings from "../../../data/generated/questionGenerator.json";
-import { DuplicateQuestionMode, QuestionLanguage, QuestionSelectionCriteria, QuestionTypeFilter } from "../../../types/services/QuestionGeneratorService";
-import { QuestionPositionRequirement, type QuestionPointValueRules } from "../../../types/MatchRules";
-import type { JbqQuestionGeneratorSettings } from "../../../types/QuestionGeneratorSettings";
+import settings from 'data/generated/questionGenerator.json';
+import { DuplicateQuestionMode, QuestionLanguage, QuestionSelectionCriteria, QuestionTypeFilter } from 'types/services/QuestionGeneratorService';
+import { QuestionPositionRequirement, type QuestionPointValueRules } from 'types/MatchRules';
+import type { JbqQuestionGeneratorSettings } from 'types/QuestionGeneratorSettings';
 
 interface Props {
     criteria: QuestionSelectionCriteria;

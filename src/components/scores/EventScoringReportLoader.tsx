@@ -1,12 +1,12 @@
 import { useEffect } from "react";
 import Fuse from "fuse.js";
 import { useStore } from "@nanostores/react";
-import { EventScoringReport, ScoringReportTeam, ScoringReportMeet, ScoringReportQuizzer } from "../../types/EventScoringReport";
-import type { EventInfo } from "../../types/EventTypes";
-import type { RemoteServiceError } from "../../types/services/RemoteServiceUtility";
-import { ReportService } from "../../types/services/ReportService";
-import { TeamAndQuizzerFavorites } from "../../types/TeamAndQuizzerFavorites";
-import { sharedEventScoringReportState, sharedPrintConfiguration, type EventScoringReportSearchIndexItem } from "../../utils/SharedState";
+import { EventScoringReport, ScoringReportTeam, ScoringReportMeet, ScoringReportQuizzer } from 'types/EventScoringReport';
+import type { EventInfo } from 'types/EventTypes';
+import type { RemoteServiceError } from 'types/services/RemoteServiceUtility';
+import { ReportService } from 'types/services/ReportService';
+import { TeamAndQuizzerFavorites } from 'types/TeamAndQuizzerFavorites';
+import { sharedEventScoringReportState, sharedPrintConfiguration, type EventScoringReportSearchIndexItem } from 'utils/SharedState';
 import FontAwesomeIcon from "../FontAwesomeIcon";
 import { PrintDialogModalId } from "./PrintDialogContent";
 

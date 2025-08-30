@@ -1,14 +1,14 @@
 import { useEffect } from "react";
-import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch } from "@types/EventScoringReport";
+import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "@utils/SharedState";
-import CollapsableMeetSection from "./CollapsableMeetSection";
-import RoomLink from "./RoomDialogLink";
-import { EventScoringReport } from "@types/EventScoringReport";
-import { isTabActive } from "@utils/Tabs";
-import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
-import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "utils/SharedState";
+import CollapsableMeetSection from './CollapsableMeetSection';
+import RoomLink from './RoomDialogLink';
+import { EventScoringReport } from "types/EventScoringReport";
+import { isTabActive } from "utils/Tabs";
+import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
+import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
 
 export interface Props {
     eventId: string;
@@ -24,7 +24,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
     const scrollToViewElementId = `schedule_grid_scroll_elem`;
 
     const reportState = useStore(sharedEventScoringReportState);
-    event ??= reportState?.report;
+    event ??= reportState?.report || undefined;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
@@ -40,7 +40,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
         return (<span>Event is Loading ...</span>);
     }
 
-    const favorites: TeamAndQuizzerFavorites = reportState.favorites;
+    const favorites: TeamAndQuizzerFavorites | null = reportState?.favorites ?? null;
     let sectionIndex = 0;
 
     return (
@@ -48,7 +48,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
 
                 const key = `schedulegrid_${meet.DatabaseId}_${meet.MeetId}`;
-                if (meet.IsCombinedReport) {
+                if (meet.IsCombinedReport || !meet.Matches) {
                     return null;
                 }
 
@@ -59,7 +59,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                     hasRankedTeams = true;
                 }
                 else {
-                    teams = meet.Teams;
+                    teams = meet.Teams || [];
                     hasRankedTeams = false;
                 }
 
@@ -85,7 +85,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
 
                     let highlightColor: string = "";
                     if (!isPrinting) {
-                        const isFavorite = favorites.teamIds.has(team.Id);
+                        const isFavorite = favorites?.teamIds.has(team.Id) ?? false;
                         if (eventFilters?.highlightTeamId === team.Id) {
                             highlightColor = "bg-yellow-200";
                         }
@@ -107,7 +107,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                             className={`hover:bg-base-300 ${highlightColor}`}>
                             {hasRankedTeams && (
                                 <td className="text-right">
-                                    {team.Scores.Rank}{team.Scores.IsTie ? '*' : ''}
+                                    {team.Scores!.Rank}{team.Scores!.IsTie ? '*' : ''}
                                 </td>)}
                             <td className="pl-0">
                                 <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} showText={false} /> {team.Name}

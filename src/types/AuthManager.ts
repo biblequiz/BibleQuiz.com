@@ -1,9 +1,9 @@
 import { LogLevel, PublicClientApplication, type AccountInfo, type AuthenticationResult, type IPublicClientApplication } from "@azure/msal-browser";
-import type { Person } from "./services/PeopleService";
-import { AsyncLock } from "../utils/AsyncLock";
+import type { Person } from 'types/services/PeopleService';
+import { AsyncLock } from 'utils/AsyncLock';
 import { map, type PreinitializedMapStore, type WritableAtom } from "nanostores";
 import { useStore } from "@nanostores/react";
-import Auth from "../pages/auth.astro";
+import Auth from 'pages/auth.astro';
 import { init } from "astro/virtual-modules/prefetch.js";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";

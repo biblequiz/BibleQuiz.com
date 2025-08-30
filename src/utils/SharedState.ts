@@ -1,10 +1,10 @@
 import { atom } from 'nanostores';
 import Fuse, { type FuseResult } from "fuse.js";
 
-import type { QuizzerIndex } from "../types/QuizzerSearch";
-import type { EventScoringReport, ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from '../types/EventScoringReport';
-import type { TeamAndQuizzerFavorites } from '../types/TeamAndQuizzerFavorites';
-import type { RoomScoringReport } from '../types/RoomScoringReport';
+import type { QuizzerIndex } from 'types/QuizzerSearch';
+import type { EventScoringReport, ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from 'types/EventScoringReport';
+import type { TeamAndQuizzerFavorites } from 'types/TeamAndQuizzerFavorites';
+import type { RoomScoringReport } from 'types/RoomScoringReport';
 
 /* Downloaded Event Report */
 export interface EventScoringReportSearchIndexItem<T> {

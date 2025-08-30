@@ -2,11 +2,11 @@ import type React from "react";
 import { useStore } from "@nanostores/react";
 
 import type { FuseResult } from "fuse.js";
-import type { ScoringReportTeam, ScoringReportQuizzer, ScoringReportMeet } from "../../types/EventScoringReport";
-import type { TeamAndQuizzerFavorites } from "../../types/TeamAndQuizzerFavorites";
-import { type SharedEventScoringReportState, sharedEventScoringReportState, type SharedEventScoringReportFilterState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle, type EventScoringReportSearchIndexItem } from "../../utils/SharedState";
+import type { ScoringReportTeam, ScoringReportQuizzer, ScoringReportMeet } from 'types/EventScoringReport';
+import type { TeamAndQuizzerFavorites } from 'types/TeamAndQuizzerFavorites';
+import { type SharedEventScoringReportState, sharedEventScoringReportState, type SharedEventScoringReportFilterState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle, type EventScoringReportSearchIndexItem } from 'utils/SharedState';
 import FontAwesomeIcon from "../FontAwesomeIcon";
-import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
+import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
 
 interface Props {
     parentTabId: string;

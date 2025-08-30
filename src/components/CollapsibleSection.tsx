@@ -1,4 +1,4 @@
-import FontAwesomeIcon from "@components/FontAwesomeIcon";
+import FontAwesomeIcon from './FontAwesomeIcon';
 
 interface SectionBadge {
     id?: string;

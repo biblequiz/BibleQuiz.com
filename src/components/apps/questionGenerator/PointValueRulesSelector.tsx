@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { QuestionPositionRequirement, type QuestionPointValueRules } from "../../../types/services/QuestionGeneratorService";
+import { QuestionPositionRequirement, type QuestionPointValueRules } from 'types/services/QuestionGeneratorService';
 
 interface Props {
     pointValue: number;

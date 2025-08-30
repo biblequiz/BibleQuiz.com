@@ -1,6 +1,6 @@
 ﻿import type { AuthManager } from "../AuthManager";
-import type { Person } from "./PeopleService";
-import { RemoteServiceModelBase, RemoteServiceUrlBase, RemoteServiceUtility } from "./RemoteServiceUtility";
+import type { Person } from './PeopleService';
+import { RemoteServiceModelBase, RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility';
 
 const URL_ROOT_PATH = "/api/Auth";
 

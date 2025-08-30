@@ -1,4 +1,4 @@
-﻿import type { Address } from "../types/services/models/Address";
+﻿import type { Address } from 'types/services/models/Address';
 
 /**
  * Helpers for interacting with data types.

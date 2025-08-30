@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import NotAuthenticatedSection from './NotAuthenticatedSection';
-import { AuthManager, UserProfileType } from '../../types/AuthManager';
+import { AuthManager, UserProfileType } from 'types/AuthManager';
 import CompleteProfileSection from './CompleteProfileSection';
 
 interface Props {

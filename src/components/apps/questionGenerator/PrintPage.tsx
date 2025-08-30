@@ -1,11 +1,11 @@
 import { useNavigate, useParams } from "react-router-dom";
-import { AuthManager } from "../../../types/AuthManager";
+import { AuthManager } from 'types/AuthManager';
 import { useEffect, useState } from "react";
-import { QuestionGeneratorService, QuestionOutputFormat, QuestionSelectionCriteria } from "../../../types/services/QuestionGeneratorService";
+import { QuestionGeneratorService, QuestionOutputFormat, QuestionSelectionCriteria } from 'types/services/QuestionGeneratorService';
 import LoadingPlaceholder from "../../LoadingPlaceholder";
 import FontAwesomeIcon from "../../FontAwesomeIcon";
-import CriteriaSummary from "./CriteriaSummary";
-import FormatSelector, { DEFAULT_COLUMN, DEFAULT_FONT, DEFAULT_SIZE } from "./FormatSelector";
+import CriteriaSummary from './CriteriaSummary';
+import FormatSelector, { DEFAULT_COLUMN, DEFAULT_FONT, DEFAULT_SIZE } from './FormatSelector';
 
 interface Props {
 }

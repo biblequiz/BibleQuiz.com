@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { DuplicateQuestionMode, QuestionPointValueRules } from "../../../types/services/QuestionGeneratorService";
-import { PointValueOrdering, type PointValueCriteria } from "./PointValueCountSelector";
-import PointValueRulesSelector from "./PointValueRulesSelector";
+import { DuplicateQuestionMode, QuestionPointValueRules } from 'types/services/QuestionGeneratorService';
+import { PointValueOrdering, type PointValueCriteria } from './PointValueCountSelector';
+import PointValueRulesSelector from './PointValueRulesSelector';
 
 interface Props {
     criteria: OtherCriteria;

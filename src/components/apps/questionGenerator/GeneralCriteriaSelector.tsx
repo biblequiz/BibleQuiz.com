@@ -1,6 +1,6 @@
-import { QuestionLanguage } from "../../../types/services/QuestionGeneratorService";
-import settings from "../../../data/generated/questionGenerator.json";
-import type { JbqQuestionGeneratorSettings } from "../../../types/QuestionGeneratorSettings";
+import { QuestionLanguage } from 'types/services/QuestionGeneratorService';
+import settings from 'data/generated/questionGenerator.json';
+import type { JbqQuestionGeneratorSettings } from 'types/QuestionGeneratorSettings';
 import { useEffect, useState } from "react";
 
 interface Props {

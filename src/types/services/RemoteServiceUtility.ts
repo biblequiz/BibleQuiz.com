@@ -1,4 +1,4 @@
-﻿import { ParameterHelpers } from "../../utils/ParameterHelpers";
+﻿import { ParameterHelpers } from 'utils/ParameterHelpers';
 import type { AuthManager } from "../AuthManager";
 
 /**

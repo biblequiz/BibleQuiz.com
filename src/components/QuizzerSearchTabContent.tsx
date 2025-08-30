@@ -1,9 +1,9 @@
 import { useStore } from "@nanostores/react";
-import { sharedQuizzerSearchState } from "@utils/SharedState";
+import { sharedQuizzerSearchState } from "utils/SharedState";
 
 import Fuse from 'fuse.js';
 
-import type { QuizzerIndex, QuizzerIndexEntry } from "../types/QuizzerSearch";
+import type { QuizzerIndex, QuizzerIndexEntry } from 'types/QuizzerSearch';
 
 interface Props {
     id: string;

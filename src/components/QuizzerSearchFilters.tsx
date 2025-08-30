@@ -1,10 +1,10 @@
 import { useStore } from "@nanostores/react";
-import { sharedQuizzerSearchState } from "@utils/SharedState";
+import { sharedQuizzerSearchState } from "utils/SharedState";
 
-import quizzerIndexJson from "../data/generated/quizzerIndex.json";
-import type { QuizzerIndex } from "../types/QuizzerSearch";
+import quizzerIndexJson from 'data/generated/quizzerIndex.json';
+import type { QuizzerIndex } from 'types/QuizzerSearch';
 
-import FontAwesomeIcon from "./FontAwesomeIcon";
+import FontAwesomeIcon from './FontAwesomeIcon';
 import type React from "react";
 
 export const DefaultTabsContainerId = "quizzer-search-default-tabs";

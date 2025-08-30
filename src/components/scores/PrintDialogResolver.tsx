@@ -1,15 +1,15 @@
 import { useEffect } from "react";
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedPrintConfiguration } from "@utils/SharedState";
-import type { EventInfo } from "@types/EventTypes";
-import { EventScoringReport } from "@types/EventScoringReport";
-import { OutputType } from "@utils/SharedState";
-import type { PrintConfiguration } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedPrintConfiguration } from "utils/SharedState";
+import type { EventInfo } from "types/EventTypes";
+import { EventScoringReport } from "types/EventScoringReport";
+import { OutputType } from "utils/SharedState";
+import type { PrintConfiguration } from "utils/SharedState";
 
-import FontAwesomeIcon from "@components/FontAwesomeIcon";
-import StatsTabContent from "@components/scores/StatsTabContent";
-import ScheduleGridTabContent from "@components/scores/ScheduleGridTabContent";
-import TeamOrRoomScheduleTabContent from "@components/scores/TeamOrRoomScheduleTabContent";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+import StatsTabContent from "components/scores/StatsTabContent";
+import ScheduleGridTabContent from "components/scores/ScheduleGridTabContent";
+import TeamOrRoomScheduleTabContent from "components/scores/TeamOrRoomScheduleTabContent";
 
 interface Props {
     eventId: string;

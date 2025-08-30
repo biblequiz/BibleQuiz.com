@@ -1,7 +1,7 @@
 import { useStore } from "@nanostores/react";
-import { sharedGlobalStatusToast } from "../utils/SharedState";
+import { sharedGlobalStatusToast } from 'utils/SharedState';
 import { useEffect } from "react";
-import FontAwesomeIcon from "./FontAwesomeIcon";
+import FontAwesomeIcon from './FontAwesomeIcon';
 
 interface Props {
 }

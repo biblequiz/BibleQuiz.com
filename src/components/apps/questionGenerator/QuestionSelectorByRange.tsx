@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import type { QuestionRangeFilter } from "../../../types/services/QuestionGeneratorService";
-import settings from "../../../data/generated/questionGenerator.json";
+import type { QuestionRangeFilter } from 'types/services/QuestionGeneratorService';
+import settings from 'data/generated/questionGenerator.json';
 import FontAwesomeIcon from "../../FontAwesomeIcon";
-import type { JbqQuestionGeneratorSettings } from "../../../types/QuestionGeneratorSettings";
+import type { JbqQuestionGeneratorSettings } from 'types/QuestionGeneratorSettings';
 
 interface Props {
     ranges: QuestionRangeFilter[];

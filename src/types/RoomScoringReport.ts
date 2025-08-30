@@ -1,4 +1,4 @@
-import {MatchRules} from "./MatchRules";
+import {MatchRules} from 'types/MatchRules';
 
 /**
  * Report of scores for a specific match in a specific room.

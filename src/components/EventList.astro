@@ -1,11 +1,11 @@
 ---
-import EventListFilters from "./EventListFilters.tsx";
+import EventListFilters from './EventListFilters.tsx';
 import path from "path";
-import { getAstroRootSourcePath, tryReadFileAsJson } from "@utils/FileSystem";
-import type { EventTypeList, EventList, EventInfo } from "../types/EventTypes";
-import type { RegionInfo, DistrictInfo } from "../types/RegionAndDistricts";
-import FontAwesomeTabs from "./FontAwesomeTabs.astro";
-import EventListTabItem from "./EventListTabItem.astro";
+import { getAstroRootSourcePath, tryReadFileAsJson } from "utils/FileSystem";
+import type { EventTypeList, EventList } from 'types/EventTypes';
+import type { RegionInfo, DistrictInfo } from 'types/RegionAndDistricts';
+import FontAwesomeTabs from './FontAwesomeTabs.astro';
+import EventListTabItem from './EventListTabItem.astro';
 
 interface Props {
     season: number | "future";

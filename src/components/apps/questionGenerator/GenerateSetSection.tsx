@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
-import { sharedDirtyWindowState } from "../../../utils/SharedState";
-import { DuplicateQuestionMode, QuestionGeneratorService, QuestionLanguage, QuestionPositionRequirement, QuestionSelectionCriteria, QuestionTypeFilter } from "../../../types/services/QuestionGeneratorService";
-import settings from "../../../data/generated/questionGenerator.json";
-import type { JbqQuestionGeneratorSettings } from "../../../types/QuestionGeneratorSettings";
-import QuestionModeSelector, { QuestionMode } from "./QuestionModeSelector";
-import GeneralCriteriaSelector, { type GeneralCriteria } from "./GeneralCriteriaSelector";
-import TemplateSelector, { CriteriaTemplateType } from "./TemplateSelector";
-import type { CustomRules } from "./CustomRulesSelector";
-import CustomRulesSelector from "./CustomRulesSelector";
-import { QuestionSelectionType } from "./QuestionSelector";
-import { PointValueOrdering } from "./PointValueCountSelector";
-import { AuthManager } from "../../../types/AuthManager";
+import { sharedDirtyWindowState } from 'utils/SharedState';
+import { DuplicateQuestionMode, QuestionGeneratorService, QuestionLanguage, QuestionPositionRequirement, QuestionSelectionCriteria, QuestionTypeFilter } from 'types/services/QuestionGeneratorService';
+import settings from 'data/generated/questionGenerator.json';
+import type { JbqQuestionGeneratorSettings } from 'types/QuestionGeneratorSettings';
+import QuestionModeSelector, { QuestionMode } from './QuestionModeSelector';
+import GeneralCriteriaSelector, { type GeneralCriteria } from './GeneralCriteriaSelector';
+import TemplateSelector, { CriteriaTemplateType } from './TemplateSelector';
+import type { CustomRules } from './CustomRulesSelector';
+import CustomRulesSelector from './CustomRulesSelector';
+import { QuestionSelectionType } from './QuestionSelector';
+import { PointValueOrdering } from './PointValueCountSelector';
+import { AuthManager } from 'types/AuthManager';
 import { useNavigate, useParams } from "react-router-dom";
 import FontAwesomeIcon from "../../FontAwesomeIcon";
 

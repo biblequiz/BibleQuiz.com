@@ -1,20 +1,20 @@
 ---
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 
-import PrintDialog from "@components/scores/PrintDialog.astro";
-import PrintDialogResolver from "@components/scores/PrintDialogResolver";
-import EventScoringReportLoader from "@components/scores/EventScoringReportLoader";
-import EventScoringReportSearch from "@components/scores/EventScoringReportSearch";
-import RoomDialog from "@components/scores/RoomDialog.astro";
-import StatsTabContent from "@components/scores/StatsTabContent";
-import CoordinatorTabContent from "@components/scores/CoordinatorTabContent";
-import QRCodeImage from "@components/QRCodeImage.astro";
-import QStatsTabContent from "@components/scores/QStatsTabContent";
-import ScheduleGridTabContent from "@components/scores/ScheduleGridTabContent";
-import TeamOrRoomScheduleTabContent from "@components/scores/TeamOrRoomScheduleTabContent";
+import PrintDialog from "components/scores/PrintDialog.astro";
+import PrintDialogResolver from "components/scores/PrintDialogResolver";
+import EventScoringReportLoader from "components/scores/EventScoringReportLoader";
+import EventScoringReportSearch from "components/scores/EventScoringReportSearch";
+import RoomDialog from "components/scores/RoomDialog.astro";
+import StatsTabContent from "components/scores/StatsTabContent";
+import CoordinatorTabContent from "components/scores/CoordinatorTabContent";
+import QRCodeImage from "components/QRCodeImage.astro";
+import QStatsTabContent from "components/scores/QStatsTabContent";
+import ScheduleGridTabContent from "components/scores/ScheduleGridTabContent";
+import TeamOrRoomScheduleTabContent from "components/scores/TeamOrRoomScheduleTabContent";
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
-import FontAwesomeTabItem from "@components/FontAwesomeTabItem.astro";
-import FontAwesomeTabs from "@components/FontAwesomeTabs.astro";
+import FontAwesomeTabItem from "components/FontAwesomeTabItem.astro";
+import FontAwesomeTabs from "components/FontAwesomeTabs.astro";
 
 // Build the list of static routes based on the events file.
 import path from "path";
@@ -24,7 +24,7 @@ import type {
     EventList,
     EventInfo,
 } from "../../../../../types/EventTypes";
-import { EventScoringReport } from "@types/EventScoringReport";
+import { EventScoringReport } from "types/EventScoringReport";
 import type {
     RegionInfo,
     DistrictInfo,
@@ -33,7 +33,7 @@ import {
     getAstroRootSourcePath,
     getFilesByWildcard,
     tryReadFileAsJson,
-} from "@utils/FileSystem";
+} from "utils/FileSystem";
 
 export async function getStaticPaths() {
     // Load the JSON defining all the generated events.

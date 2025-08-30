@@ -1,15 +1,15 @@
 import { useEffect } from "react";
-import { ScoringReportMeet } from "@types/EventScoringReport";
+import { ScoringReportMeet } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedEventScoringReportFilterState, StatsFormat, showFavoritesOnlyToggle } from "@utils/SharedState";
-import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
-import MeetProgressNotification from "@components/scores/MeetProgressNotification";
-import type { ScoringReportFootnote } from "@types/EventScoringReport";
-import type { EventScoresProps } from "@utils/Scores";
-import { isTabActive } from "@utils/Tabs";
-import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
-import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, StatsFormat, showFavoritesOnlyToggle } from "utils/SharedState";
+import CollapsableMeetSection from "components/scores/CollapsableMeetSection";
+import MeetProgressNotification from "components/scores/MeetProgressNotification";
+import type { ScoringReportFootnote } from "types/EventScoringReport";
+import type { EventScoresProps } from "utils/Scores";
+import { isTabActive } from "utils/Tabs";
+import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
+import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
 
 function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] | null, hasTie: boolean): JSX.Element {
     return (

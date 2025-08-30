@@ -1,5 +1,5 @@
-import PreviousSetsSection from "./PreviousSetsSection";
-import GenerateSetSection from "./GenerateSetSection";
+import PreviousSetsSection from './PreviousSetsSection';
+import GenerateSetSection from './GenerateSetSection';
 import { useRef } from "react";
 
 interface Props {

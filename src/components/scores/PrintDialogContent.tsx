@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedPrintConfiguration } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedPrintConfiguration } from "utils/SharedState";
 
-import { ScoringReportMeet } from "@types/EventScoringReport";
-import FontAwesomeIcon from "@components/FontAwesomeIcon";
-import { OutputType, StatsFormat } from "@utils/SharedState";
-import type { MeetReference, PrintConfiguration } from "@utils/SharedState";
+import { ScoringReportMeet } from "types/EventScoringReport";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { OutputType, StatsFormat } from "utils/SharedState";
+import type { MeetReference, PrintConfiguration } from "utils/SharedState";
 
 export const PrintDialogModalId = "print-dialog";
 

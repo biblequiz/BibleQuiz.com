@@ -1,4 +1,4 @@
-import type { QuestionRangeFilter } from "./services/QuestionGeneratorService";
+import type { QuestionRangeFilter } from 'types/services/QuestionGeneratorService';
 
 /**
  * Settings for the JBQ question generator page.

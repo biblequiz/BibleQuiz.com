@@ -1,5 +1,5 @@
-import { QuestionMode } from "./QuestionModeSelector";
-import TemplateSelectorItem from "./TemplateSelectorItem";
+import { QuestionMode } from './QuestionModeSelector';
+import TemplateSelectorItem from './TemplateSelectorItem';
 
 interface Props {
     mode: QuestionMode;

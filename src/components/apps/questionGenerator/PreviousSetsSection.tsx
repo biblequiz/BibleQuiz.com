@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { QuestionGeneratorService, type PreviouslyGeneratedSet } from "../../../types/services/QuestionGeneratorService";
+import { QuestionGeneratorService, type PreviouslyGeneratedSet } from 'types/services/QuestionGeneratorService';
 import LoadingPlaceholder from "../../LoadingPlaceholder";
 import FontAwesomeIcon from "../../FontAwesomeIcon";
-import { AuthManager } from "../../../types/AuthManager";
+import { AuthManager } from 'types/AuthManager';
 import { useNavigate, useParams } from "react-router-dom";
 
 interface Props {

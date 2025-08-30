@@ -1,5 +1,5 @@
-import settings from "../../../data/generated/questionGenerator.json";
-import type { JbqQuestionGeneratorSettings } from "../../../types/QuestionGeneratorSettings";
+import settings from 'data/generated/questionGenerator.json';
+import type { JbqQuestionGeneratorSettings } from 'types/QuestionGeneratorSettings';
 
 interface Props {
     groups: Set<number>;

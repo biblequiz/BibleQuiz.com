@@ -1,8 +1,8 @@
 import { useStore } from "@nanostores/react";
 import EventScopeBadge from './EventScopeBadge.tsx';
-import { sharedEventListFilter, type EventListFilterConfiguration } from "../utils/SharedState.ts";
-import type { EventInfo, EventList } from '../types/EventTypes.ts';
-import FontAwesomeIcon from "./FontAwesomeIcon.js";
+import { sharedEventListFilter, type EventListFilterConfiguration } from 'utils/SharedState.ts';
+import type { EventInfo, EventList } from 'types/EventTypes.ts';
+import FontAwesomeIcon from './FontAwesomeIcon.js';
 
 interface Props {
     badgeId: string;

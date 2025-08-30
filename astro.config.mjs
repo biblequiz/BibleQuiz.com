@@ -12,6 +12,10 @@ import react from "@astrojs/react";
 
 export default defineConfig({
     site: "https://biblequiz.com",
+    typescript: {
+        strict: true,
+        noErrorTruncation: true,
+    },
     integrations: [
         sitemap(),
         starlight({
@@ -115,14 +119,13 @@ export default defineConfig({
     vite: {
         resolve: {
             alias: {
-                "@": path.resolve("./src"),
-                "@assets": path.resolve("./src/assets"),
-                "@components": path.resolve("./src/components"),
-                "@data": path.resolve("./src/data"),
-                "@layouts": path.resolve("./src/layouts"),
-                "@pages": path.resolve("./src/pages"),
-                "@types": path.resolve("./src/types"),
-                "@utils": path.resolve("./src/utils"),
+                "assets": path.resolve("./src/assets"),
+                "components": path.resolve("./src/components"),
+                "data": path.resolve("./src/data"),
+                "layouts": path.resolve("./src/layouts"),
+                "pages": path.resolve("./src/pages"),
+                "types": path.resolve("./src/types"),
+                "utils": path.resolve("./src/utils"),
             },
         },
 

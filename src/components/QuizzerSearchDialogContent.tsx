@@ -1,7 +1,7 @@
 import { useStore } from "@nanostores/react";
-import FontAwesomeIcon from "./FontAwesomeIcon.tsx";
-import { sharedQuizzerSearchState } from "@utils/SharedState";
-import type { QuizzerIndex } from "../types/QuizzerSearch";
+import FontAwesomeIcon from './FontAwesomeIcon.tsx';
+import { sharedQuizzerSearchState } from "utils/SharedState";
+import type { QuizzerIndex } from 'types/QuizzerSearch';
 
 export const QuizzerSearchDialogId = "quizzer-search-dialog";
 

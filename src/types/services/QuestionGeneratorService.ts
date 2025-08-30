@@ -1,5 +1,5 @@
 ﻿import type { AuthManager } from "../AuthManager";
-import { RemoteServiceModelBase, RemoteServiceUrlBase, RemoteServiceUtility } from "./RemoteServiceUtility";
+import { RemoteServiceModelBase, RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility';
 
 const URL_ROOT_PATH = "/api/QuestionGenerator";
 

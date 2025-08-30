@@ -1,8 +1,8 @@
-import { QuestionTypeFilter } from "../../../types/services/QuestionGeneratorService";
-import type { OtherCriteria } from "./OtherSettingsSelector";
-import OtherSettingsSelector from "./OtherSettingsSelector";
-import PointValueCountSelector, { type PointValueCriteria } from "./PointValueCountSelector";
-import QuestionSelector, { type QuestionCriteria } from "./QuestionSelector";
+import { QuestionTypeFilter } from 'types/services/QuestionGeneratorService';
+import type { OtherCriteria } from './OtherSettingsSelector';
+import OtherSettingsSelector from './OtherSettingsSelector';
+import PointValueCountSelector, { type PointValueCriteria } from './PointValueCountSelector';
+import QuestionSelector, { type QuestionCriteria } from './QuestionSelector';
 
 interface Props {
     criteria: CustomRules;

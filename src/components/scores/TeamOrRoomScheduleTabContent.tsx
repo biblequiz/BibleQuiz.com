@@ -1,14 +1,14 @@
 import { useEffect } from "react";
-import { EventScoringReport, ScoringReportMeet, ScoringReportTeamMatch, ScoringReportRoom } from "@types/EventScoringReport";
+import { EventScoringReport, ScoringReportMeet, ScoringReportTeamMatch, ScoringReportRoom } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "@utils/SharedState";
-import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
-import type { ScoringReportTeam } from "../../types/EventScoringReport";
-import RoomDialogLink from "./RoomDialogLink";
-import { isTabActive } from "@utils/Tabs";
-import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
-import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "utils/SharedState";
+import CollapsableMeetSection from "components/scores/CollapsableMeetSection";
+import type { ScoringReportTeam } from 'types/EventScoringReport';
+import RoomDialogLink from './RoomDialogLink';
+import { isTabActive } from "utils/Tabs";
+import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
+import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
 
 export interface Props {
     type: "Team" | "Room";
@@ -43,7 +43,7 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
     const scrollToViewElementId = `schedule_${type}_scroll_elem`;
 
     const reportState = useStore(sharedEventScoringReportState);
-    event ??= reportState?.report;
+    event ??= reportState?.report || undefined;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
