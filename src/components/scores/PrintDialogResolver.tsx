@@ -13,9 +13,19 @@ import TeamOrRoomScheduleTabContent from "components/scores/TeamOrRoomScheduleTa
 interface Props {
     eventId: string;
     event: EventScoringReport | null;
+    rootSchedulesTabId: string;
+    teamScheduleTabId: string;
+    roomScheduleTabId: string;
+    scheduleGridTabId: string;
 }
 
-export default function PrintDialogResolver({ eventId, event }: Props) {
+export default function PrintDialogResolver({
+    eventId,
+    event,
+    rootSchedulesTabId,
+    teamScheduleTabId,
+    roomScheduleTabId,
+    scheduleGridTabId }: Props) {
 
     const reportState = useStore(sharedEventScoringReportState);
     const printDialogState: PrintConfiguration | null = useStore(sharedPrintConfiguration);
@@ -59,6 +69,8 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
                         type="Team"
                         eventId={eventId}
                         event={event || undefined}
+                        rootTabId={rootSchedulesTabId}
+                        schedulesTabId={teamScheduleTabId}
                         isPrinting={true}
                         printSinglePerPage={printDialogState.showSinglePerPage}
                         printStats={printDialogState.includeStats}
@@ -73,6 +85,8 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
                         type="Room"
                         eventId={eventId}
                         event={event || undefined}
+                        rootTabId={rootSchedulesTabId}
+                        schedulesTabId={roomScheduleTabId}
                         isPrinting={true}
                         printSinglePerPage={printDialogState.showSinglePerPage}
                         printStats={printDialogState.includeStats}
@@ -86,6 +100,8 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
                     <ScheduleGridTabContent
                         eventId={eventId}
                         event={event || undefined}
+                        rootTabId={rootSchedulesTabId}
+                        schedulesTabId={scheduleGridTabId}
                         isPrinting={true}
                         printStats={printDialogState.includeStats}
                     />

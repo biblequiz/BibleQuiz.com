@@ -37,7 +37,15 @@ function ordinalWithSuffix(number: number): string {
     return number + "th";
 }
 
-export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isPrinting, printSinglePerPage, printStats, rootTabId, schedulesTabId }: Props) {
+export default function TeamOrRoomScheduleTabContent({
+    type,
+    eventId,
+    event,
+    isPrinting,
+    printSinglePerPage,
+    printStats,
+    rootTabId,
+    schedulesTabId }: Props) {
 
     const scrollToViewElementId = `schedule_${type}_scroll_elem`;
 

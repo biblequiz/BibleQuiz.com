@@ -12,7 +12,7 @@ import { QuestionSelectionType } from './QuestionSelector';
 import { PointValueOrdering } from './PointValueCountSelector';
 import { AuthManager } from 'types/AuthManager';
 import { useNavigate, useParams } from "react-router-dom";
-import FontAwesomeIcon from "../../FontAwesomeIcon";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
 
 interface Props {
     generateSetElement: React.RefObject<HTMLDivElement | null>;

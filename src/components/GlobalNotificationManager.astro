@@ -21,8 +21,6 @@ import GlobalStatusToast from './GlobalStatusToast';
     const beforeUnloadHandler = (event: BeforeUnloadEvent) => {
         if (sharedDirtyWindowState.get()) {
             event.preventDefault();
-            // @ts-ignore - returnValue is deprecated but still required for Chrome compatibility
-            event.returnValue = ""; // Required for Chrome
         }
     };
 
