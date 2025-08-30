@@ -1,345 +1,42 @@
-import type { AccountInfo, AuthenticationResult, IPublicClientApplication } from "@azure/msal-browser";
+import { LogLevel, PublicClientApplication, type AccountInfo, type AuthenticationResult, type IPublicClientApplication } from "@azure/msal-browser";
 import type { Person } from "./services/PeopleService";
+import { AsyncLock } from "../utils/AsyncLock";
+import { map, type PreinitializedMapStore, type WritableAtom } from "nanostores";
+import { useStore } from "@nanostores/react";
+import Auth from "../pages/auth.astro";
+import { init } from "astro/virtual-modules/prefetch.js";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
-const TOKEN_SCOPES = ["offline_access", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
+const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
+
+// Initialize the MSAL client and active account. This happens in the background so that
+// other processing can happen at the same time.
+const REDIRECT_PATH = "/auth";
 
 /**
- * Manager for auth.
+ * The private state of the auth manager.
  */
-export class AuthManager {
+const privateStores = new WeakMap<AuthManager, PreinitializedMapStore<AuthManagerReactState>>();
 
-    private readonly _client: IPublicClientApplication | null;
-    private readonly _profile: UserAccountProfile | null;
-    private readonly _stateChangedCallback: (client: IPublicClientApplication | null, state: any | null) => void;
-
-    private readonly _popupType: PopupType = PopupType.None;
-    private readonly _isRetrievingProfile: boolean = false;
+/**
+ * State of the auth manager that must trigger React reloads.
+ */
+interface AuthManagerReactState {
 
     /**
-     * Creates a new instance of the AuthManager.
-     * @param client Initialized MSAL client.
-     * @param state The current user state.
-     * @param stateChangedCallback Callback to invoke when the state changes.
+     * Type of the popup.
      */
-    public constructor(
-        client: IPublicClientApplication | null,
-        state: any | null,
-        stateChangedCallback: (client: IPublicClientApplication | null, state: any | null) => void) {
-
-        if (!state) {
-            this._profile = AuthManager.loadProfile();
-            this._popupType = PopupType.None;
-            this._isRetrievingProfile = false;
-        }
-        else {
-            this._profile = state.profile;
-            this._popupType = state.popupType ?? PopupType.None;
-            this._isRetrievingProfile = state.isRetrievingProfile ?? false;
-        }
-
-        this._client = client;
-        this._stateChangedCallback = stateChangedCallback;
-    }
-
-    /**
-     * Value indicating whether the auth manager is ready for auth activity. If this is false,
-     * only the userProfile will be available.
-     */
-    public get isReady(): boolean {
-        return this._client !== null;
-    }
-
-    /**
-     * Value indicating whether an auth popup is currently open.
-     */
-    public get popupType(): PopupType {
-        return this._popupType;
-    }
+    popupType: PopupType;
 
     /**
      * Value indicating whether the profile is being retrieved.
      */
-    public get isRetrievingProfile(): boolean {
-        return this._isRetrievingProfile;
-    }
+    isRetrievingProfile: boolean;
 
     /**
-     * Value indicating whether the user is fully authenticated.
+     * Current user profile.
      */
-    public get isAuthenticated(): boolean {
-        return this._profile !== null && this._profile.type !== UserProfileType.NotConfigured;
-    }
-
-    /**
-     * Current profile for the user (if any).
-     */
-    public get userProfile(): UserAccountProfile | null {
-        return this._profile;
-    }
-
-    /**
-     * Refreshes the person if the current user is the same as the parameter.
-     * @param person Person to refresh.
-     */
-    public refreshPersonIfCurrentUser(person: Person): void {
-
-        if (this._profile && this._profile.personId === person.Id) {
-
-            const newProfile = new UserAccountProfile(
-                this._profile.personId,
-                `${person.FirstName} ${person.LastName}`,
-                this._profile.type,
-                this._profile.isJbqAdmin ?? false,
-                this._profile.isTbqAdmin ?? false,
-                this._profile.authTokenProfile ?? null,
-                this._profile.hasSignUpDialogDisplayed);
-            AuthManager.saveProfile(newProfile);
-
-            this._stateChangedCallback(
-                this._client,
-                {
-                    popupType: this._popupType,
-                    isRetrievingProfile: this._isRetrievingProfile,
-                    profile: newProfile
-                });
-        }
-    }
-
-    /**
-     * Starts the login flow.
-     */
-    public login(): Promise<void | AuthenticationResult> {
-        if (!this._client) {
-            return Promise.reject(new Error("Auth client is not initialized."));
-        }
-
-        this._stateChangedCallback(this._client, { popupType: PopupType.Login, isRetrievingProfile: true, profile: null });
-
-        return this._client
-            .loginPopup({
-                scopes: TOKEN_SCOPES,
-                prompt: 'select_account',
-                state: window.location.pathname
-            })
-            .then((tokenResponse: AuthenticationResult) => {
-
-                // Persist the result of the login.
-                this._client!.setActiveAccount(
-                    tokenResponse?.account ?? null,
-                );
-
-                const tokenProfile = AuthManager.getAuthTokenProfile(tokenResponse.account);
-
-                this.retrieveRemoteProfile(tokenResponse.accessToken, tokenProfile);
-            })
-            .catch((error) => {
-                console.log(error);
-                this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: this._profile });
-            });
-    }
-
-    /**
-     * Starts the logout flow.
-     */
-    public logout(): Promise<void> {
-        if (!this._client) {
-            return Promise.reject(new Error("Auth client is not initialized."));
-        }
-
-        this._stateChangedCallback(this._client, { popupType: PopupType.Logout, isRetrievingProfile: false, profile: this._profile });
-
-        return this._client
-            .logoutPopup({
-                state: window.location.pathname
-            })
-            .then(() => {
-                AuthManager.saveProfile(null);
-                this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: null });
-            })
-            .catch((error) => {
-                console.log(error);
-                this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: this._profile });
-            });
-    }
-
-    /**
-     * Retrieves the latest access token for the current user.
-     * @returns The latest access token or null if not available.
-     */
-    public getLatestAccessToken(): Promise<string | null> {
-
-        if (!this._client) {
-            return Promise.reject(new Error("Auth client is not initialized."));
-        }
-
-        const activeAccount: AccountInfo | null = this._client.getActiveAccount();
-        if (!activeAccount) {
-            return Promise.resolve(null);
-        }
-
-        return this._client
-            .acquireTokenSilent({
-                scopes: TOKEN_SCOPES,
-                account: activeAccount,
-            })
-            .then((tokenResponse: AuthenticationResult) => {
-                return tokenResponse.accessToken;
-            })
-            .catch((error) => {
-                console.error("Error acquiring token silently:", error);
-                return null;
-            });
-    }
-
-    /**
-     * Marks the sign-up dialog as displayed.
-     */
-    public markDisplaySignUpDialogAsDisplayed() {
-
-        if (this._profile) {
-            const newProfile = new UserAccountProfile(
-                this._profile.personId,
-                this._profile.displayName,
-                this._profile.type,
-                this._profile.isJbqAdmin ?? false,
-                this._profile.isTbqAdmin ?? false,
-                this._profile.authTokenProfile ?? null,
-                true);
-            AuthManager.saveProfile(newProfile);
-
-            this._stateChangedCallback(
-                this._client,
-                {
-                    popupType: PopupType.None,
-                    isRetrievingProfile: false,
-                    hasDisplayedSignUpDialog: true,
-                    profile: newProfile
-                });
-        }
-    }
-
-    /**
-     * Refreshes the remote profile for the user.
-     */
-    public async refreshRemoteProfile(): Promise<void> {
-        const accessToken = await this.getLatestAccessToken();
-        if (!accessToken) {
-            throw new Error("No access token available to refresh the profile.");
-        }
-
-        return this.retrieveRemoteProfile(accessToken, this._profile?.authTokenProfile ?? null);
-    }
-
-    private retrieveRemoteProfile(
-        accessToken: string,
-        tokenProfile: AuthTokenProfile | null): Promise<void> {
-
-        return fetch("https://registration.biblequiz.com/api/v1.0/users/profile", {
-            method: "GET",
-            headers: {
-                "Authorization": `Bearer ${accessToken}`,
-            }
-        })
-            .then(response => response.json())
-            .then((remoteProfile: RemoteUserProfile) => {
-
-                const newProfile = new UserAccountProfile(
-                    remoteProfile.PersonId,
-                    remoteProfile.Name,
-                    remoteProfile.Type,
-                    remoteProfile.IsJbqAdmin,
-                    remoteProfile.IsTbqAdmin,
-                    tokenProfile,
-                    false);
-
-                AuthManager.saveProfile(newProfile);
-                this._stateChangedCallback(this._client, { popupType: PopupType.None, isRetrievingProfile: false, profile: newProfile });
-            });
-    }
-
-    private static getAuthTokenProfile(account: AccountInfo): AuthTokenProfile | null {
-
-        const fullName = account.name || "";
-        if (!fullName || fullName.trim().length === 0) {
-            return null;
-        }
-
-        let firstName = "";
-        let lastName = "";
-
-        // Split by spaces, remove empty entries, and trim each part
-        const parts = fullName
-            .split(" ")
-            .map(part => part.trim())
-            .filter(part => part.length > 0);
-
-        if (parts.length > 0) {
-            if (parts.length > 1) {
-                firstName = parts.slice(0, parts.length - 1).join(" ");
-                lastName = parts[parts.length - 1];
-            } else {
-                firstName = fullName.trim();
-            }
-        }
-
-        const lastSpaceInFirstName = firstName.lastIndexOf(" ");
-        const parenthesisInLastName = lastName.lastIndexOf("(");
-        if (lastSpaceInFirstName > 0 && parenthesisInLastName >= 0) {
-            lastName = `${firstName.substring(lastSpaceInFirstName + 1)} ${lastName}`;
-            firstName = firstName.substring(0, lastSpaceInFirstName);
-        }
-
-        return new AuthTokenProfile(firstName, lastName, account.username);
-    }
-
-    private static loadProfile(): UserAccountProfile | null {
-
-        if (typeof window === "undefined" || !window.localStorage) {
-            return null;
-        }
-
-        const serialized = localStorage.getItem(PROFILE_STORAGE_KEY);
-        if (serialized) {
-            const serializedProfile = JSON.parse(serialized) as SerializedAccountProfile;
-            if (serializedProfile) {
-                return new UserAccountProfile(
-                    serializedProfile.personId,
-                    serializedProfile.displayName,
-                    serializedProfile.type,
-                    serializedProfile.isJbqAdmin,
-                    serializedProfile.isTbqAdmin,
-                    serializedProfile.authTokenProfile,
-                    serializedProfile.hasDisplayedSignUpDialog ?? false);
-            }
-        }
-
-        return null;
-    }
-
-    private static saveProfile(profile: UserAccountProfile | null) {
-
-        if (typeof window === "undefined" || !window.localStorage) {
-            return;
-        }
-
-        if (profile) {
-
-            const serializedProfile: SerializedAccountProfile = {
-                personId: profile.personId,
-                displayName: profile.displayName,
-                type: profile.type,
-                isJbqAdmin: profile.isJbqAdmin,
-                isTbqAdmin: profile.isTbqAdmin,
-                authTokenProfile: profile.authTokenProfile,
-                hasDisplayedSignUpDialog: profile.hasSignUpDialogDisplayed
-            };
-
-            localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(serializedProfile));
-        } else {
-            localStorage.removeItem(PROFILE_STORAGE_KEY);
-        }
-    }
+    profile: UserAccountProfile | null;
 }
 
 /**
@@ -355,7 +52,6 @@ export class UserAccountProfile {
      * @param isJbqAdmin Value indicating whether the user is a JBQ administrator.
      * @param isTbqAdmin Value indicating whether the user is a TBQ administrator.
      * @param authTokenProfile Profile from the auth token.
-     * @param hasSignUpDialogDisplayed Value indicating whether the sign-up dialog has been displayed.
      */
     public constructor(
         personId: string | null,
@@ -363,8 +59,7 @@ export class UserAccountProfile {
         type: UserProfileType | null,
         isJbqAdmin: boolean,
         isTbqAdmin: boolean,
-        authTokenProfile: AuthTokenProfile | null,
-        hasSignUpDialogDisplayed: boolean) {
+        authTokenProfile: AuthTokenProfile | null) {
 
         this.personId = personId;
         this.displayName = displayName;
@@ -372,7 +67,6 @@ export class UserAccountProfile {
         this.isJbqAdmin = isJbqAdmin;
         this.isTbqAdmin = isTbqAdmin;
         this.authTokenProfile = authTokenProfile;
-        this.hasSignUpDialogDisplayed = hasSignUpDialogDisplayed;
     }
 
     /**
@@ -404,11 +98,6 @@ export class UserAccountProfile {
      * Profile from the auth token (if the user has one).
      */
     public readonly authTokenProfile: AuthTokenProfile | null;
-
-    /**
-     * Value indicating whether the sign-up dialog has been displayed.
-     */
-    public readonly hasSignUpDialogDisplayed: boolean = false;
 }
 
 /**
@@ -464,9 +153,485 @@ export enum PopupType {
     Login,
 
     /**
+     * Confirmation Dialog is present indicating to the user that they need to login.
+     */
+    LoginConfirmationDialog,
+
+    /**
      * Logout popup is present.
      */
     Logout
+}
+
+/**
+ * Manager for auth.
+ */
+export class AuthManager {
+
+    private static readonly _instance: AuthManager = new AuthManager();
+
+    private readonly _lock: AsyncLock = new AsyncLock();
+
+    private _resolvedClient: IPublicClientApplication | null = null;
+
+    private _accessTokenResolve: ((value: string | null | PromiseLike<string | null>) => void) | null = null;
+    private _accessTokenReject: ((reason?: any) => void) | null = null
+
+    /**
+     * Private constructor for the AuthManager.
+     */
+    private constructor() {
+
+        let initialProfile: UserAccountProfile | null;
+        if (AuthManager.isPersistenceSupported()) {
+            initialProfile = AuthManager.parseProfile(localStorage.getItem(PROFILE_STORAGE_KEY));
+            AuthManager.registerProfileChangeListener();
+        } else {
+            initialProfile = null;
+        }
+
+        const store = map({
+            profile: initialProfile,
+            popupType: PopupType.None,
+            isRetrievingProfile: false,
+            loginResolve: null,
+            loginReject: null
+        } as AuthManagerReactState);
+
+        privateStores.set(this, store);
+
+        // Initialize background token renewal.
+        this.setupPeriodicTokenRefresh();
+    }
+
+    /**
+     * Value indicating whether an auth popup is currently open.
+     */
+    public get popupType(): PopupType {
+        return this.getNanoState().get().popupType;
+    }
+
+    /**
+     * Value indicating whether the profile is being retrieved.
+     */
+    public get isRetrievingProfile(): boolean {
+        return this.getNanoState().get().isRetrievingProfile;
+    }
+
+    /**
+     * Value indicating whether the user is fully authenticated.
+     */
+    public get isAuthenticated(): boolean {
+        const currentProfile = this.userProfile;
+        return currentProfile !== null && currentProfile.type !== UserProfileType.NotConfigured;
+    }
+
+    /**
+     * Current profile for the user (if any).
+     */
+    public get userProfile(): UserAccountProfile | null {
+        return this.getNanoState().get().profile;
+    }
+
+    /**
+     * Uses the nano store for the auth manager to trigger re-renders.
+     */
+    public static useNanoStore(): AuthManager {
+        useStore(AuthManager._instance.getNanoState());
+        return AuthManager._instance;
+    }
+
+    /**
+     * Refreshes the person if the current user is the same as the parameter.
+     * @param person Person to refresh.
+     */
+    public refreshPersonIfCurrentUser(person: Person): void {
+
+        const currentProfile = this.userProfile;
+        if (currentProfile && currentProfile.personId === person.Id) {
+
+            const newProfile = new UserAccountProfile(
+                currentProfile.personId,
+                `${person.FirstName} ${person.LastName}`,
+                currentProfile.type,
+                currentProfile.isJbqAdmin ?? false,
+                currentProfile.isTbqAdmin ?? false,
+                currentProfile.authTokenProfile ?? null);
+            AuthManager.saveProfile(newProfile);
+
+            this.getNanoState().setKey("profile", newProfile);
+        }
+    }
+
+    /**
+     * Starts the login flow.
+     */
+    public async login(): Promise<void> {
+
+        const client = await this.getInitializedClient();
+
+        const state = this.getNanoState();
+        state.setKey("popupType", PopupType.Login);
+        state.setKey("isRetrievingProfile", true);
+
+        return new Promise<void>((resolve, reject) => {
+            client
+                .loginPopup({
+                    scopes: TOKEN_SCOPES,
+                    prompt: 'select_account',
+                    state: window.location.pathname,
+                    extraQueryParameters: {
+                        // Request offline access for refresh tokens
+                        "access_type": "offline"
+                    }
+                })
+                .then((tokenResponse: AuthenticationResult) => {
+
+                    // Persist the result of the login.
+                    client.setActiveAccount(
+                        tokenResponse?.account ?? null,
+                    );
+
+                    const tokenProfile = AuthManager.getAuthTokenProfile(tokenResponse.account);
+
+                    this.retrieveRemoteProfile(tokenResponse.accessToken, tokenProfile)
+                        .then(resolve);
+                })
+                .catch((error) => {
+
+                    console.log(error);
+
+                    state.setKey("popupType", PopupType.None);
+                    state.setKey("isRetrievingProfile", false);
+
+                    if (this._accessTokenReject) {
+                        this._accessTokenReject(error);
+                        resolve();
+                    }
+                    else {
+                        resolve();
+                    }
+
+                    this._accessTokenResolve = null;
+                    this._accessTokenReject = null;
+                });
+        });
+    }
+
+    /**
+     * Starts the logout flow.
+     */
+    public async logout(): Promise<void> {
+
+        const client = await this.getInitializedClient();
+
+        this.getNanoState().setKey("popupType", PopupType.Logout);
+
+        return client
+            .logoutPopup({
+                state: window.location.pathname
+            })
+            .then(() => {
+                AuthManager.saveProfile(null);
+
+                const state = this.getNanoState();
+                state.setKey("popupType", PopupType.None);
+                state.setKey("profile", null);
+            })
+            .catch((error) => {
+                console.log(error);
+
+                this.getNanoState().setKey("popupType", PopupType.None);
+            });
+    }
+
+    /**
+     * Retrieves the latest access token for the current user. If the user was signed in, but their
+     * token expired, this may display a popup for the user to sign in again.
+     * @returns The latest access token or null if not available.
+     */
+    public async getLatestAccessToken(): Promise<string | null> {
+
+        return new Promise<string | null>(
+            async (resolve, reject) => {
+                const client = await this.getInitializedClient();
+
+                const activeAccount: AccountInfo | null = client.getActiveAccount();
+                if (!activeAccount) {
+                    return resolve(null);
+                }
+
+                try {
+                    const tokenResponse = await client
+                        .acquireTokenSilent({
+                            scopes: TOKEN_SCOPES,
+                            account: activeAccount,
+                            forceRefresh: false, // Allow cached tokens
+                        });
+
+                    resolve(tokenResponse.accessToken);
+                }
+                catch (error: any) {
+
+                    // If the resolve/reject is already present, this might be an infinite loop.
+                    if (this._accessTokenResolve || this._accessTokenReject) {
+                        console.log("Already attempting to get a new access token. Failing to avoid an infinite loop.");
+                        reject(error);
+                        return;
+                    }
+
+                    // Check if this is a consent required or interaction required error
+                    if (error.errorCode === "consent_required" ||
+                        error.errorCode === "interaction_required" ||
+                        error.errorCode === "login_required") {
+
+                        console.log("Token acquisition requires interaction, prompting user to sign in again");
+                    }
+
+                    // It's possible the user is no longer signed in. In this case, save the resolve
+                    // and reject so the user can be prompted to sign in again.
+                    this._accessTokenResolve = resolve;
+                    this._accessTokenReject = reject;
+
+                    this.getNanoState().setKey("popupType", PopupType.LoginConfirmationDialog);
+                }
+            });
+    }
+
+    /**
+     * Refreshes the remote profile for the user.
+     */
+    public async refreshRemoteProfile(): Promise<void> {
+        const accessToken = await this.getLatestAccessToken();
+        if (!accessToken) {
+            throw new Error("No access token available to refresh the profile.");
+        }
+
+        return this.retrieveRemoteProfile(accessToken, this.userProfile?.authTokenProfile ?? null);
+    }
+
+    /**
+     * Set up periodic token refresh to prevent expiration
+     */
+    private setupPeriodicTokenRefresh(): void {
+
+        // Renew the token once.
+        this.renewTokenWithoutError();
+
+        // Refresh token every 30 minutes (tokens typically last 1 hour)
+        setInterval(this.renewTokenWithoutError, 30 * 60 * 1000); // 30 minutes
+    }
+
+    private async renewTokenWithoutError(): Promise<void> {
+        try {
+            await this.getLatestAccessToken();
+        } catch (error) {
+            console.log("Periodic token refresh failed:", error);
+        }
+    }
+
+    private retrieveRemoteProfile(
+        accessToken: string,
+        tokenProfile: AuthTokenProfile | null): Promise<void> {
+
+        return fetch("https://registration.biblequiz.com/api/v1.0/users/profile", {
+            method: "GET",
+            headers: {
+                "Authorization": `Bearer ${accessToken}`,
+            }
+        })
+            .then(response => response.json())
+            .then((remoteProfile: RemoteUserProfile) => {
+
+                const newProfile = new UserAccountProfile(
+                    remoteProfile.PersonId,
+                    remoteProfile.Name,
+                    remoteProfile.Type,
+                    remoteProfile.IsJbqAdmin,
+                    remoteProfile.IsTbqAdmin,
+                    tokenProfile);
+
+                AuthManager.saveProfile(newProfile);
+
+                const state = this.getNanoState();
+                state.setKey("popupType", PopupType.None);
+                state.setKey("isRetrievingProfile", false);
+                state.setKey("profile", newProfile);
+
+                if (this._accessTokenResolve) {
+                    this._accessTokenResolve(accessToken);
+                    this._accessTokenResolve = null;
+                    this._accessTokenReject = null;
+                }
+            });
+    }
+
+    private static getAuthTokenProfile(account: AccountInfo): AuthTokenProfile | null {
+
+        const fullName = account.name || "";
+        if (!fullName || fullName.trim().length === 0) {
+            return null;
+        }
+
+        let firstName = "";
+        let lastName = "";
+
+        // Split by spaces, remove empty entries, and trim each part
+        const parts = fullName
+            .split(" ")
+            .map(part => part.trim())
+            .filter(part => part.length > 0);
+
+        if (parts.length > 0) {
+            if (parts.length > 1) {
+                firstName = parts.slice(0, parts.length - 1).join(" ");
+                lastName = parts[parts.length - 1];
+            } else {
+                firstName = fullName.trim();
+            }
+        }
+
+        const lastSpaceInFirstName = firstName.lastIndexOf(" ");
+        const parenthesisInLastName = lastName.lastIndexOf("(");
+        if (lastSpaceInFirstName > 0 && parenthesisInLastName >= 0) {
+            lastName = `${firstName.substring(lastSpaceInFirstName + 1)} ${lastName}`;
+            firstName = firstName.substring(0, lastSpaceInFirstName);
+        }
+
+        return new AuthTokenProfile(firstName, lastName, account.username);
+    }
+
+    private static parseProfile(serialized: string | null): UserAccountProfile | null {
+
+        if (serialized) {
+            const serializedProfile = JSON.parse(serialized) as SerializedAccountProfile;
+            if (serializedProfile) {
+                return new UserAccountProfile(
+                    serializedProfile.personId,
+                    serializedProfile.displayName,
+                    serializedProfile.type,
+                    serializedProfile.isJbqAdmin,
+                    serializedProfile.isTbqAdmin,
+                    serializedProfile.authTokenProfile);
+            }
+        }
+
+        return null;
+    }
+
+    private static saveProfile(profile: UserAccountProfile | null) {
+
+        if (!AuthManager.isPersistenceSupported()) {
+            return;
+        }
+
+        if (profile) {
+
+            const serializedProfile: SerializedAccountProfile = {
+                personId: profile.personId,
+                displayName: profile.displayName,
+                type: profile.type,
+                isJbqAdmin: profile.isJbqAdmin,
+                isTbqAdmin: profile.isTbqAdmin,
+                authTokenProfile: profile.authTokenProfile
+            };
+
+            localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(serializedProfile));
+        } else {
+            localStorage.removeItem(PROFILE_STORAGE_KEY);
+        }
+    }
+
+    private static registerProfileChangeListener(): void {
+        if (!AuthManager.isPersistenceSupported()) {
+            return;
+        }
+
+        // Add listener for changes to the profile in other tabs.
+        window.addEventListener(
+            "storage",
+            (event: StorageEvent) => {
+                if (event.key === PROFILE_STORAGE_KEY) {
+                    console.log("Detected change to user profile in another tab.");
+                    AuthManager._instance.getNanoState().setKey(
+                        "profile",
+                        AuthManager.parseProfile(event.newValue));
+                }
+            });
+    }
+
+    private static isPersistenceSupported(): boolean {
+        return typeof window === "undefined" || !window.localStorage
+            ? false
+            : true;
+    }
+
+    private async getInitializedClient(): Promise<IPublicClientApplication> {
+
+        if (this._resolvedClient) {
+            return this._resolvedClient;
+        }
+
+        await this._lock.acquireOrWait();
+        try {
+            if (this._resolvedClient) {
+                return this._resolvedClient;
+            }
+
+            this._resolvedClient = await PublicClientApplication.createPublicClientApplication({
+                auth: {
+                    clientId: "1058ea35-28ff-4b8a-953a-269f36d90235", // This is the ONLY mandatory field that you need to supply.
+                    authority: "https://biblequizusers.ciamlogin.com/", // Replace the placeholder with your tenant subdomain
+                    redirectUri: window.location.origin + REDIRECT_PATH, // Points to window.location.origin. You must register this URI on Microsoft Entra admin center/App Registration.
+                    // postLogoutRedirectUri: "/", // Indicates the page to navigate after logout.
+                    navigateToLoginRequestUrl: false, // If "true", will navigate back to the original request location before processing the auth code response.
+                },
+                cache: {
+                    cacheLocation: "localStorage", // Configures cache location. "sessionStorage" is more secure, but "localStorage" gives you SSO between tabs.
+                    storeAuthStateInCookie: true, // Set this to "true" if you are having issues on IE11 or Edge or want better persistence
+                    secureCookies: true, // Set this to "true" to enable secure cookies in browsers that support it (e.g., Chrome, Firefox, Edge). This is recommended for production environments.
+                    claimsBasedCachingEnabled: true, // Enable claims-based caching for better token management
+                },
+                system: {
+                    loggerOptions: {
+                        loggerCallback: (
+                            level: LogLevel,
+                            message: string,
+                            containsPii: boolean,
+                        ) => {
+                            if (containsPii) {
+                                return;
+                            }
+                            switch (level) {
+                                case LogLevel.Error:
+                                    console.error(message);
+                                    return;
+                                case LogLevel.Info:
+                                    console.info(message);
+                                    return;
+                                case LogLevel.Verbose:
+                                    console.debug(message);
+                                    return;
+                                case LogLevel.Warning:
+                                    console.warn(message);
+                                    return;
+                                default:
+                                    return;
+                            }
+                        },
+                    },
+                },
+            });
+        } finally {
+            this._lock.release();
+        }
+
+        return this._resolvedClient;
+    }
+
+    private getNanoState(): PreinitializedMapStore<AuthManagerReactState> {
+        return privateStores.get(this)!;
+    }
 }
 
 /**

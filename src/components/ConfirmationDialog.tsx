@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 interface Props {
     title: string;
@@ -7,23 +7,33 @@ interface Props {
     onYes: () => void;
     noLabel?: string;
     onNo?: () => void;
+    className?: string;
 }
 
-const CONFIRMATION_DIALOG_ID = "confirmation-dialog";
+export default function ConfirmationDialog({
+    title,
+    children,
+    yesLabel,
+    onYes,
+    noLabel,
+    onNo,
+    className }: Props) {
 
-export default function ConfirmationDialog({ title, children, yesLabel, onYes, noLabel, onNo }: Props) {
+    const dialogRef = useRef<HTMLDialogElement>(null);
+
+    const sizeClassName = className ? className : "w-11/12 max-w-full md:w-3/4 lg:w-1/2";
 
     return (
-        <dialog id={CONFIRMATION_DIALOG_ID} className="modal" open>
-            <div className="modal-box w-11/12 max-w-full md:w-3/4 lg:w-1/2">
+        <dialog ref={dialogRef} className="modal" open>
+            <div className={`modal-box ${sizeClassName}`}>
                 <h3 className="font-bold text-lg">{title}</h3>
                 <div>
                     {children}
                 </div>
                 <div className="mt-2 text-center">
-                    <form method="dialog">
+                    <form method="dialog gap-2">
                         <button
-                            className="btn btn-primary"
+                            className="btn btn-primary mr-2 mt-0"
                             type="button"
                             tabIndex={1}
                             onClick={() => {
@@ -31,13 +41,13 @@ export default function ConfirmationDialog({ title, children, yesLabel, onYes, n
                                     onYes();
                                 }
 
-                                (document.getElementById(CONFIRMATION_DIALOG_ID) as any).close();
+                                dialogRef.current?.close();
                             }}>
                             {yesLabel || "Yes"}
                         </button>
                         {noLabel && (
                             <button
-                                className="btn btn-warning ml-2"
+                                className="btn btn-warning mt-0"
                                 type="button"
                                 tabIndex={2}
                                 onClick={() => {
@@ -45,7 +55,7 @@ export default function ConfirmationDialog({ title, children, yesLabel, onYes, n
                                         onNo();
                                     }
 
-                                    (document.getElementById(CONFIRMATION_DIALOG_ID) as any).close();
+                                    dialogRef.current?.close();
                                 }}>
                                 {noLabel || "No"}
                             </button>)}

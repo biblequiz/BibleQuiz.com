@@ -1,14 +1,27 @@
 import React, { useEffect, useState } from 'react';
-import { useStore } from '@nanostores/react';
 import FontAwesomeIcon from './FontAwesomeIcon';
 import { Church, ChurchesService, ChurchResultFilter } from '../types/services/ChurchesService.ts';
-import { sharedAuthManager } from '../utils/SharedState.ts';
 import { type RemoteServicePage, type RemoteServiceError } from '../types/services/RemoteServiceUtility.ts';
 import Pagination from './Pagination.tsx';
+import LoadingPlaceholder from './LoadingPlaceholder.tsx';
+import { AuthManager } from '../types/AuthManager.ts';
+import type { AddingChurchState } from './ChurchSettingsDialog.tsx';
 
 export interface SelectedChurch {
   id: string;
   displayName: string;
+}
+
+export interface AddChurchConfig {
+  authorizeChurch?: boolean;
+  state?: string;
+  onAdding: (state: AddingChurchState) => void;
+}
+
+export enum ChurchSearchTips {
+  None,
+  Basic,
+  BasicWithDistrictChange
 }
 
 interface Props {
@@ -17,6 +30,8 @@ interface Props {
   required?: boolean;
   disabled?: boolean;
   currentChurch?: SelectedChurch | null;
+  showTips?: ChurchSearchTips;
+  allowAdd?: AddChurchConfig;
   onSelect: (church: SelectedChurch) => void;
 }
 
@@ -30,12 +45,21 @@ interface ChurchSearchState {
   error: RemoteServiceError | null;
 }
 
-export default function ChurchLookup({ regionId, districtId, required, disabled, currentChurch, onSelect }: Props) {
+export default function ChurchLookup({
+  regionId,
+  districtId,
+  showTips = ChurchSearchTips.Basic,
+  required,
+  disabled = false,
+  currentChurch,
+  onSelect,
+  allowAdd }: Props) {
 
-  const authManager = useStore(sharedAuthManager);
+  const authManager = AuthManager.useNanoStore();
 
   const [searchText, setSearchText] = useState(currentChurch?.displayName || "");
   const [searchState, setSearchState] = useState(null as ChurchSearchState | null);
+  const [isAdding, setIsAdding] = useState(false);
 
   useEffect(() => {
     if (searchState?.regionId !== regionId || searchState?.districtId !== districtId) {
@@ -107,7 +131,7 @@ export default function ChurchLookup({ regionId, districtId, required, disabled,
     setSearchText(displayName);
     setSearchState(null); // Clear search state after selection
 
-    onSelect({ id: church.Id, displayName });
+    onSelect({ id: church.Id!, displayName });
   }
 
   return (
@@ -121,9 +145,9 @@ export default function ChurchLookup({ regionId, districtId, required, disabled,
           onKeyDown={handleEnter}
           onChange={e => setSearchText(e.target.value)}
           required={required ?? false}
-          disabled={(searchState?.isLoading ?? false) || (disabled ?? false)}
+          disabled={(searchState?.isLoading ?? false) || disabled || isAdding}
         />
-        {!disabled && (
+        {!disabled && !isAdding && (
           <button
             type="button"
             className="btn btn-primary"
@@ -134,68 +158,109 @@ export default function ChurchLookup({ regionId, districtId, required, disabled,
             Search
           </button>)}
       </div>
-      {!disabled && (
+      {!disabled && !isAdding && (
         <span className="text-xs">
           Enter <b>Name</b> (e.g., "Cedar Park"), <b>City & State</b> (e.g., "Seattle, WA"), or <b>both</b> (e.g., "Cedar Park, Bothell, WA"), and then click <b>Search</b>.
         </span>)}
       {searchState && (
-        <fieldset className="fieldset border-base-300 rounded-box w-full border p-4 relative flex gap-2 mt-2">
+        <fieldset className="fieldset border-base-300 rounded-box w-full border p-4 relative mt-2 flex gap-2">
           <legend className="fieldset-legend">Church Search Results</legend>
           {searchState.isLoading && (
-            <>
-              <span className="loading loading-spinner loading-sm"></span>&nbsp;
-              <span className="text-sm">
-                Searching ...
-              </span>
-            </>)}
+            <LoadingPlaceholder text="Searching ..." spinnerSize="sm" textSize="sm" />)}
           {!searchState.isLoading && (
             <>
               {searchState.error && (
-                <div role="alert" className="alert alert-error">
+                <div role="alert" className="alert alert-error mt-0 w-full">
                   <FontAwesomeIcon icon="fas faCircleExclamation" />
                   <div>
                     <b>Error: </b> {searchState.error.message}
                   </div>
                 </div>)}
               {searchState.page && (
-                <div className="w-full mt-0">
-                  {searchState.page.Items.length === 0 && (
-                    <div className="text-sm">
-                      No churches found matching your search criteria.
-                    </div>)}
-                  {searchState.page.Items.length > 0 && (
-                    <div className="overflow-x-auto">
-                      <table className="table table-s table-nowrap w-full">
-                        <tbody>
-                          {searchState.page.Items.map((church) => (
-                            <tr key={`church_${church.Id}`}>
-                              <td>
-                                <button
-                                  type="button"
-                                  className="btn btn-primary btn-sm"
-                                  onClick={() => selectChurch(church)}
-                                >
-                                  Select
-                                </button>
-                              </td>
-                              <td className="w-full">
-                                <b>{church.Name}</b><br />
-                                {church.PhysicalAddress.StreetAddress}, {church.PhysicalAddress.City}, {church.PhysicalAddress.State}
-                              </td>
-                            </tr>))}
-                        </tbody>
-                      </table>
-                      <Pagination
-                        currentPage={searchState.pageNumber + 1}
-                        pageCount={searchState.page.PageCount!}
-                        pageSize={searchState.pageSize}
-                        setPageSettings={(newPageNumber, newPageSize) => {
-                          startSearch(newPageNumber - 1, newPageSize);
-                        }} />
-                    </div>)}
-                </div>)}
+                <>
+                  <div className="w-full mt-0">
+                    {searchState.page.Items.length === 0 && (
+                      <div className="text-sm">
+                        No churches found matching your search criteria.
+                      </div>)}
+                    {searchState.page.Items.length > 0 && (
+                      <div className="overflow-x-auto">
+                        <table className="table table-s table-nowrap w-full">
+                          <tbody>
+                            {searchState.page.Items.map((church) => (
+                              <tr key={`church_${church.Id}`}>
+                                <td>
+                                  <button
+                                    type="button"
+                                    className="btn btn-primary btn-sm"
+                                    onClick={() => selectChurch(church)}
+                                  >
+                                    Select
+                                  </button>
+                                </td>
+                                <td className="w-full">
+                                  <b>{church.Name}</b><br />
+                                  {church.PhysicalAddress.StreetAddress}, {church.PhysicalAddress.City}, {church.PhysicalAddress.State}
+                                </td>
+                              </tr>))}
+                          </tbody>
+                        </table>
+                        <Pagination
+                          currentPage={searchState.pageNumber + 1}
+                          pageCount={searchState.page.PageCount!}
+                          pageSize={searchState.pageSize}
+                          setPageSettings={(newPageNumber, newPageSize) => {
+                            startSearch(newPageNumber - 1, newPageSize);
+                          }} />
+                      </div>)}
+                    {showTips !== ChurchSearchTips.None && (
+                      <ul className="text-md italic">
+                        <li>
+                          Churches change names or may move locations. If you can't find your
+                          church, try searching by just the city and state.
+                        </li>
+                        <li>
+                          If you find your church with an older name, the name can be changed
+                          in Settings (if you are signed in).
+                        </li>
+                        {showTips === ChurchSearchTips.BasicWithDistrictChange && districtId && (
+                          <li>
+                            If you still can't find your church, try changing the District.
+                          </li>)}
+                        {allowAdd && (
+                          <li>
+                            If you still can't find your church, click the
+                            &quot;Add Non-Assemblies of God Church&quot; button below to add your
+                            church.
+                          </li>)}
+                      </ul>)}
+                    {allowAdd && (
+                      <>
+                        <button
+                          type="button"
+                          className="btn btn-secondary btn-sm cursor-pointer"
+                          disabled={disabled || isAdding}
+                          onClick={() => {
+                            setIsAdding(true);
+                            allowAdd.onAdding({
+                              districtId: districtId ?? null,
+                              state: allowAdd.state ?? null,
+                              onCompleted: c => {
+                                setIsAdding(false);
+                                if (c) {
+                                  selectChurch(c);
+                                }
+                              }
+                            });
+                          }}
+                        >
+                          <FontAwesomeIcon icon="fas faPlus" />
+                          <span className="ml-2">Non-Assemblies of God Church</span>
+                        </button>
+                      </>)}
+                  </div>
+                </>)}
             </>)}
-        </fieldset>
-      )}
+        </fieldset>)}
     </>);
 }

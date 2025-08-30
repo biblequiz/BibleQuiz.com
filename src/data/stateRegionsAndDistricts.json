@@ -1,0 +1,947 @@
+[
+  {
+    "code": "AK",
+    "label": "Alaska",
+    "regions": [
+      {
+        "id": "dc530391-470e-459f-aca8-46c57805b362",
+        "name": "Northwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "b0468c22-4552-4ff0-8170-5fa06cffd52e",
+        "name": "Alaska",
+        "regionId": "dc530391-470e-459f-aca8-46c57805b362"
+      }
+    ]
+  },
+  {
+    "code": "AL",
+    "label": "Alabama",
+    "regions": [
+      {
+        "id": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
+        "name": "Southeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "ec9932c2-d567-4871-9cbb-05cbc104a1af",
+        "name": "Alabama",
+        "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005"
+      }
+    ]
+  },
+  {
+    "code": "AR",
+    "label": "Arkansas",
+    "regions": [
+      {
+        "id": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
+        "name": "Gulf"
+      }
+    ],
+    "districts": [
+      {
+        "id": "01e5d0ec-41a6-431a-8fb9-0ad9f727be17",
+        "name": "Arkansas",
+        "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a"
+      }
+    ]
+  },
+  {
+    "code": "AZ",
+    "label": "Arizona",
+    "regions": [
+      {
+        "id": "247f245d-eb6b-4b28-bd95-36f94af92f33",
+        "name": "Southwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "62bea95b-2d7c-4940-9e1d-013f02adbd05",
+        "name": "Arizona",
+        "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33"
+      }
+    ]
+  },
+  {
+    "code": "CA",
+    "label": "California",
+    "regions": [
+      {
+        "id": "247f245d-eb6b-4b28-bd95-36f94af92f33",
+        "name": "Southwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "41f27781-da67-484a-84ed-d85740e603d3",
+        "name": "Northern California-Nevada",
+        "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33"
+      },
+      {
+        "id": "551074c4-5fd9-4c79-9f1c-77c30db7097f",
+        "name": "Southern California",
+        "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33"
+      }
+    ]
+  },
+  {
+    "code": "CO",
+    "label": "Colorado",
+    "regions": [
+      {
+        "id": "247f245d-eb6b-4b28-bd95-36f94af92f33",
+        "name": "Southwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "86f4ae26-5449-4fca-9007-41befce9e90d",
+        "name": "Rocky Mountain",
+        "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33"
+      }
+    ]
+  },
+  {
+    "code": "CT",
+    "label": "Connecticut",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "fa15ddef-04a6-4a1d-b586-9bb29a81be35",
+        "name": "Southern New England",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "DC",
+    "label": "District of Columbia",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "ffd9fe18-df28-4998-a179-ffc22ac07b76",
+        "name": "Potomac",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "DE",
+    "label": "Delaware",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      },
+      {
+        "id": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
+        "name": "Southeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "6b2a4565-02f3-4662-a185-7cccb1a08d0f",
+        "name": "Pennsylvania-Delaware",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "FL",
+    "label": "Florida",
+    "regions": [
+      {
+        "id": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
+        "name": "Southeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "c2e9f68c-4c78-437e-8fed-dc4ea0e392f1",
+        "name": "Peninsular Florida",
+        "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005"
+      },
+      {
+        "id": "de8846d4-b000-4a8a-aa5b-8afc700aef14",
+        "name": "West Florida",
+        "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005"
+      }
+    ]
+  },
+  {
+    "code": "GA",
+    "label": "Georgia",
+    "regions": [
+      {
+        "id": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
+        "name": "Southeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "5028f8d1-f0eb-4ed9-a487-1e328b46119f",
+        "name": "Georgia",
+        "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005"
+      }
+    ]
+  },
+  {
+    "code": "HI",
+    "label": "Hawaii",
+    "regions": [
+      {
+        "id": "247f245d-eb6b-4b28-bd95-36f94af92f33",
+        "name": "Southwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "f5e2bbd0-16e8-4b31-b822-8e254a3d9072",
+        "name": "Hawaii",
+        "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33"
+      }
+    ]
+  },
+  {
+    "code": "IA",
+    "label": "Iowa",
+    "regions": [
+      {
+        "id": "e01fa24b-10c1-491a-96ac-9bd047712d53",
+        "name": "North Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "47e0682c-f881-45b5-8a15-b8bfc288981a",
+        "name": "Iowa",
+        "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53"
+      }
+    ]
+  },
+  {
+    "code": "ID",
+    "label": "Idaho",
+    "regions": [
+      {
+        "id": "dc530391-470e-459f-aca8-46c57805b362",
+        "name": "Northwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "35b0e408-763e-418d-b5f2-cd2eec325efb",
+        "name": "Northwest",
+        "regionId": "dc530391-470e-459f-aca8-46c57805b362"
+      },
+      {
+        "id": "ba988755-3dc3-4952-be31-6ed92301808b",
+        "name": "Southern Idaho",
+        "regionId": "dc530391-470e-459f-aca8-46c57805b362"
+      }
+    ]
+  },
+  {
+    "code": "IL",
+    "label": "Illinois",
+    "regions": [
+      {
+        "id": "6d56f017-930a-42a3-a6e9-1858e1631853",
+        "name": "Great Lakes"
+      }
+    ],
+    "districts": [
+      {
+        "id": "5997b04c-7fd8-4616-aad2-a84daced86fe",
+        "name": "Illinois",
+        "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853"
+      }
+    ]
+  },
+  {
+    "code": "IN",
+    "label": "Indiana",
+    "regions": [
+      {
+        "id": "6d56f017-930a-42a3-a6e9-1858e1631853",
+        "name": "Great Lakes"
+      }
+    ],
+    "districts": [
+      {
+        "id": "0e8f7621-1c82-4cff-b07a-2f21919a52bb",
+        "name": "Indiana",
+        "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853"
+      }
+    ]
+  },
+  {
+    "code": "KS",
+    "label": "Kansas",
+    "regions": [
+      {
+        "id": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
+        "name": "South Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "32ca0b21-693f-440f-9706-c81d197faf43",
+        "name": "Kansas",
+        "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc"
+      }
+    ]
+  },
+  {
+    "code": "KY",
+    "label": "Kentucky",
+    "regions": [
+      {
+        "id": "6d56f017-930a-42a3-a6e9-1858e1631853",
+        "name": "Great Lakes"
+      }
+    ],
+    "districts": [
+      {
+        "id": "2051c3e5-8acc-4953-82b8-e0e36bdd561a",
+        "name": "Kentucky",
+        "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853"
+      }
+    ]
+  },
+  {
+    "code": "LA",
+    "label": "Louisiana",
+    "regions": [
+      {
+        "id": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
+        "name": "Gulf"
+      }
+    ],
+    "districts": [
+      {
+        "id": "1847215f-a895-44ee-a137-96ae40b17b8b",
+        "name": "Louisiana",
+        "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a"
+      }
+    ]
+  },
+  {
+    "code": "MA",
+    "label": "Massachusetts",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "fa15ddef-04a6-4a1d-b586-9bb29a81be35",
+        "name": "Southern New England",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "MD",
+    "label": "Maryland",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "ffd9fe18-df28-4998-a179-ffc22ac07b76",
+        "name": "Potomac",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "ME",
+    "label": "Maine",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "fc06490d-9163-4169-b023-e53158df55b0",
+        "name": "Northern New England",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "MI",
+    "label": "Michigan",
+    "regions": [
+      {
+        "id": "6d56f017-930a-42a3-a6e9-1858e1631853",
+        "name": "Great Lakes"
+      },
+      {
+        "id": "e01fa24b-10c1-491a-96ac-9bd047712d53",
+        "name": "North Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "8b19786b-48be-4cf7-8399-dfdb9e3fe07a",
+        "name": "Michigan",
+        "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853"
+      },
+      {
+        "id": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
+        "name": "Wisconsin-Northern Michigan",
+        "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53"
+      }
+    ]
+  },
+  {
+    "code": "MN",
+    "label": "Minnesota",
+    "regions": [
+      {
+        "id": "e01fa24b-10c1-491a-96ac-9bd047712d53",
+        "name": "North Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "93fc3d2d-6a06-44b3-affe-2d9892384347",
+        "name": "Minnesota",
+        "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53"
+      }
+    ]
+  },
+  {
+    "code": "MO",
+    "label": "Missouri",
+    "regions": [
+      {
+        "id": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
+        "name": "Gulf"
+      },
+      {
+        "id": "e01fa24b-10c1-491a-96ac-9bd047712d53",
+        "name": "North Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "e7894625-742c-4737-a003-7e869da96505",
+        "name": "Northern Missouri",
+        "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53"
+      },
+      {
+        "id": "49429e46-b61f-4f58-9627-c2e375bdc55c",
+        "name": "Southern Missouri",
+        "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a"
+      }
+    ]
+  },
+  {
+    "code": "MS",
+    "label": "Mississippi",
+    "regions": [
+      {
+        "id": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
+        "name": "Gulf"
+      }
+    ],
+    "districts": [
+      {
+        "id": "37769b36-b66d-4624-99f4-6129f9d89b53",
+        "name": "Mississippi",
+        "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a"
+      }
+    ]
+  },
+  {
+    "code": "MT",
+    "label": "Montana",
+    "regions": [
+      {
+        "id": "dc530391-470e-459f-aca8-46c57805b362",
+        "name": "Northwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "bc27f10b-1f0f-4c8e-a5eb-90ef210fc4e3",
+        "name": "Montana",
+        "regionId": "dc530391-470e-459f-aca8-46c57805b362"
+      }
+    ]
+  },
+  {
+    "code": "NC",
+    "label": "North Carolina",
+    "regions": [
+      {
+        "id": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
+        "name": "Southeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "647f4ee7-9764-41f4-a22f-7a50dad12f80",
+        "name": "North Carolina",
+        "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005"
+      }
+    ]
+  },
+  {
+    "code": "ND",
+    "label": "North Dakota",
+    "regions": [
+      {
+        "id": "e01fa24b-10c1-491a-96ac-9bd047712d53",
+        "name": "North Central"
+      },
+      {
+        "id": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
+        "name": "South Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "06ffb19f-f988-4803-a278-a755c4f92e3e",
+        "name": "North Dakota",
+        "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53"
+      }
+    ]
+  },
+  {
+    "code": "NE",
+    "label": "Nebraska",
+    "regions": [
+      {
+        "id": "e01fa24b-10c1-491a-96ac-9bd047712d53",
+        "name": "North Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "871bcb5b-011b-488a-9806-08e0849c5aa5",
+        "name": "Nebraska",
+        "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53"
+      }
+    ]
+  },
+  {
+    "code": "NH",
+    "label": "New Hampshire",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "fc06490d-9163-4169-b023-e53158df55b0",
+        "name": "Northern New England",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "NJ",
+    "label": "New Jersey",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "26fe993c-ced1-4f45-82d4-81310c1a9727",
+        "name": "New Jersey",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "NM",
+    "label": "New Mexico",
+    "regions": [
+      {
+        "id": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
+        "name": "South Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "d3c4184a-e977-49d1-bb5c-f80662cacf50",
+        "name": "New Mexico",
+        "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc"
+      }
+    ]
+  },
+  {
+    "code": "NV",
+    "label": "Nevada",
+    "regions": [
+      {
+        "id": "247f245d-eb6b-4b28-bd95-36f94af92f33",
+        "name": "Southwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "41f27781-da67-484a-84ed-d85740e603d3",
+        "name": "Northern California-Nevada",
+        "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33"
+      }
+    ]
+  },
+  {
+    "code": "NY",
+    "label": "New York",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "04900ef0-ba4e-4813-bf0a-4b142bdec0de",
+        "name": "New York",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "OH",
+    "label": "Ohio",
+    "regions": [
+      {
+        "id": "6d56f017-930a-42a3-a6e9-1858e1631853",
+        "name": "Great Lakes"
+      }
+    ],
+    "districts": [
+      {
+        "id": "69d15048-6c21-4863-9d01-86c736f430d3",
+        "name": "Ohio",
+        "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853"
+      }
+    ]
+  },
+  {
+    "code": "OK",
+    "label": "Oklahoma",
+    "regions": [
+      {
+        "id": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
+        "name": "South Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "eac709f3-70d7-4710-8eae-988c912fdc7e",
+        "name": "Oklahoma",
+        "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc"
+      }
+    ]
+  },
+  {
+    "code": "OR",
+    "label": "Oregon",
+    "regions": [
+      {
+        "id": "dc530391-470e-459f-aca8-46c57805b362",
+        "name": "Northwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "3f4afd00-e983-4c9d-9ca5-fc7c879be36f",
+        "name": "Oregon",
+        "regionId": "dc530391-470e-459f-aca8-46c57805b362"
+      }
+    ]
+  },
+  {
+    "code": "PA",
+    "label": "Pennsylvania",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      },
+      {
+        "id": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
+        "name": "Southeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "6b2a4565-02f3-4662-a185-7cccb1a08d0f",
+        "name": "Pennsylvania-Delaware",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "RI",
+    "label": "Rhode Island",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "fa15ddef-04a6-4a1d-b586-9bb29a81be35",
+        "name": "Southern New England",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "SC",
+    "label": "South Carolina",
+    "regions": [
+      {
+        "id": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
+        "name": "Southeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "a4a34dc8-6a88-4963-8b98-5ebd6fa0fe87",
+        "name": "South Carolina",
+        "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005"
+      }
+    ]
+  },
+  {
+    "code": "SD",
+    "label": "South Dakota",
+    "regions": [
+      {
+        "id": "e01fa24b-10c1-491a-96ac-9bd047712d53",
+        "name": "North Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
+        "name": "South Dakota",
+        "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53"
+      }
+    ]
+  },
+  {
+    "code": "TN",
+    "label": "Tennessee",
+    "regions": [
+      {
+        "id": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
+        "name": "Gulf"
+      }
+    ],
+    "districts": [
+      {
+        "id": "8d4063ff-36a7-487b-bd7c-7265c4a5125c",
+        "name": "Tennessee",
+        "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a"
+      }
+    ]
+  },
+  {
+    "code": "TX",
+    "label": "Texas",
+    "regions": [
+      {
+        "id": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
+        "name": "South Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "1f63f4ba-c86d-42e7-8efa-48d65d30710f",
+        "name": "North Texas",
+        "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc"
+      },
+      {
+        "id": "e926b41f-c4fd-479d-9e91-85bdd1f1596f",
+        "name": "South Texas",
+        "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc"
+      },
+      {
+        "id": "5851b0e6-151b-4f62-8e10-f9f81e3cecfa",
+        "name": "West Texas",
+        "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc"
+      },
+      {
+        "id": "3b1008fe-b208-4b0f-b4a3-30f05f8d5ec8",
+        "name": "West Texas & Plains",
+        "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc"
+      }
+    ]
+  },
+  {
+    "code": "UT",
+    "label": "Utah",
+    "regions": [
+      {
+        "id": "247f245d-eb6b-4b28-bd95-36f94af92f33",
+        "name": "Southwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "86f4ae26-5449-4fca-9007-41befce9e90d",
+        "name": "Rocky Mountain",
+        "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33"
+      }
+    ]
+  },
+  {
+    "code": "VA",
+    "label": "Virginia",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      },
+      {
+        "id": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
+        "name": "Southeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "c981d5fc-1ca5-4fc1-8b78-2fd075640a91",
+        "name": "Appalachian",
+        "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853"
+      },
+      {
+        "id": "ffd9fe18-df28-4998-a179-ffc22ac07b76",
+        "name": "Potomac",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "VT",
+    "label": "Vermont",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "fc06490d-9163-4169-b023-e53158df55b0",
+        "name": "Northern New England",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "WA",
+    "label": "Washington",
+    "regions": [
+      {
+        "id": "dc530391-470e-459f-aca8-46c57805b362",
+        "name": "Northwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "35b0e408-763e-418d-b5f2-cd2eec325efb",
+        "name": "Northwest",
+        "regionId": "dc530391-470e-459f-aca8-46c57805b362"
+      }
+    ]
+  },
+  {
+    "code": "WI",
+    "label": "Wisconsin",
+    "regions": [
+      {
+        "id": "e01fa24b-10c1-491a-96ac-9bd047712d53",
+        "name": "North Central"
+      }
+    ],
+    "districts": [
+      {
+        "id": "afee1f62-4e1b-407c-9ea3-a0eaf7a7ba6c",
+        "name": "Wisconsin-Northern Michigan",
+        "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53"
+      }
+    ]
+  },
+  {
+    "code": "WV",
+    "label": "West Virginia",
+    "regions": [
+      {
+        "id": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+        "name": "Northeast"
+      },
+      {
+        "id": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
+        "name": "Southeast"
+      }
+    ],
+    "districts": [
+      {
+        "id": "c981d5fc-1ca5-4fc1-8b78-2fd075640a91",
+        "name": "Appalachian",
+        "regionId": "6d56f017-930a-42a3-a6e9-1858e1631853"
+      },
+      {
+        "id": "ffd9fe18-df28-4998-a179-ffc22ac07b76",
+        "name": "Potomac",
+        "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d"
+      }
+    ]
+  },
+  {
+    "code": "WY",
+    "label": "Wyoming",
+    "regions": [
+      {
+        "id": "dc530391-470e-459f-aca8-46c57805b362",
+        "name": "Northwest"
+      }
+    ],
+    "districts": [
+      {
+        "id": "deec1399-4f23-4fcc-bf20-ecdacfd1ea4f",
+        "name": "Wyoming",
+        "regionId": "dc530391-470e-459f-aca8-46c57805b362"
+      }
+    ]
+  }
+]
