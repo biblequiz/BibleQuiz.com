@@ -1,9 +1,10 @@
 import { useState } from "react";
-import ChurchLookup, { type SelectedChurch } from "../ChurchLookup";
+import ChurchLookup, { ChurchSearchTips, type AddChurchConfig, type SelectedChurch } from "../ChurchLookup";
 import stateRegionAndDistricts from "../../data/stateRegionsAndDistricts.json";
 import type { StateRegionAndDistricts } from "../../types/RegionAndDistricts";
 
 interface Props {
+    allowAdd?: AddChurchConfig;
     disabled?: boolean;
     onSelect: (church: SelectedChurch) => void;
 }
@@ -65,7 +66,7 @@ const SCOPES_BY_STATE: Record<string, StateScopes> = {};
     }
 }
 
-export default function ChurchLookupByState({ disabled = false, onSelect }: Props) {
+export default function ChurchLookupByState({ disabled = false, allowAdd, onSelect }: Props) {
 
     const [stateScope, setStateScope] = useState<StateScopes | null>(null);
     const [churchScope, setChurchScope] = useState<SelectedScopeInfo | null>(null);
@@ -153,6 +154,13 @@ export default function ChurchLookupByState({ disabled = false, onSelect }: Prop
                     <ChurchLookup
                         regionId={churchScope.regionId}
                         districtId={churchScope.districtId ?? undefined}
+                        allowAdd={allowAdd
+                            ? {
+                                ...allowAdd,
+                                state: stateScope?.state ?? undefined
+                            }
+                            : undefined}
+                        showTips={(stateScope?.districts.length ?? 0) > 1 ? ChurchSearchTips.BasicWithDistrictChange : ChurchSearchTips.Basic}
                         onSelect={church => onSelect(church)}
                         disabled={disabled}
                         required

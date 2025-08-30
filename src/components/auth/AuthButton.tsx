@@ -1,7 +1,7 @@
-import { useStore } from "@nanostores/react";
 import FontAwesomeIcon from "../FontAwesomeIcon";
 import { AuthManager, PopupType, UserProfileType } from "../../types/AuthManager";
 import ConfirmationDialog from "../ConfirmationDialog";
+import type { JSX } from "react";
 
 interface Props {
     isMobile: boolean;
@@ -12,8 +12,9 @@ export default function AuthButton({ isMobile }: Props) {
     const authManager = AuthManager.useNanoStore();
 
     const userProfile = authManager.userProfile;
+    let buttonElement: JSX.Element;
     if (authManager.popupType != PopupType.None || authManager.isRetrievingProfile) {
-        return (
+        buttonElement = (
             <>
                 <div className={`w-${isMobile ? "full" : "24 text-xs"} text-center`}>
                     <div>{authManager.popupType === PopupType.Logout ? "Logging Out" : "Logging In"}</div>
@@ -35,8 +36,7 @@ export default function AuthButton({ isMobile }: Props) {
                     </div>)}
             </>);
     }
-
-    if (userProfile) {
+    else if (userProfile) {
 
         if (userProfile.type === UserProfileType.NotConfigured) {
             return null;
@@ -44,7 +44,7 @@ export default function AuthButton({ isMobile }: Props) {
 
         const displayName = userProfile.displayName || "Unknown User";
 
-        return (
+        buttonElement = (
             <div className={`dropdown dropdown-${isMobile ? "start" : "end"}`}>
                 <div tabIndex={0} role="button" className="btn btn-primary m-1">
                     <FontAwesomeIcon icon="fas faUser" />&nbsp;{displayName}
@@ -68,5 +68,15 @@ export default function AuthButton({ isMobile }: Props) {
     }
     else {
         return null;
+    }
+
+    if (isMobile) {
+        return buttonElement;
+    }
+    else {
+        return (
+            <div className="sl-flex">
+                {buttonElement}
+            </div>);
     }
 }

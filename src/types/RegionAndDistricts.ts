@@ -12,6 +12,6 @@ export interface RegionInfo {
 export interface DistrictInfo {
     id: string;
     name: string;
-    states?: string[];
+    states: string[];
     regionId: string;
 }
