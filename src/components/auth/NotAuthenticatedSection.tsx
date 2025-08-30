@@ -1,4 +1,5 @@
 import { AuthManager, PopupType } from "../../types/AuthManager";
+import FontAwesomeIcon from "../FontAwesomeIcon";
 
 interface Props {
 }
@@ -12,11 +13,13 @@ export default function NotAuthenticatedSection({ }: Props) {
             <div className="hero-content text-center py-16 px-8">
                 <div className="max-w-4xl">
                     <h1 className="text-3xl font-bold text-base-content mb-4">
-                        Sign-in Required
+                        <FontAwesomeIcon icon="fas faLock" />
+                        <span className="ml-4">Sign-in Required</span>
                     </h1>
                     <p className="text-lg text-base-content/70 mb-8">
                         Some features of BibleQuiz.com require you to sign in with your BibleQuiz.com
-                        account. If you've never signed up before, don't worry - it's free and easy to
+                        account.<br />
+                        If you've never signed up before, don't worry - it's free and easy to
                         do!
                     </p>
                     <button

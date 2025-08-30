@@ -1,4 +1,5 @@
 export interface StateRegionAndDistricts {
+    code: string;
     label: string;
     regions: RegionInfo[];
     districts: DistrictInfo[];

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ChurchLookup, { type SelectedChurch } from "../ChurchLookup";
-import stateRegionAndDistricts from "../../data/stateRegionAndDistricts.json";
+import stateRegionAndDistricts from "../../data/stateRegionsAndDistricts.json";
 import type { StateRegionAndDistricts } from "../../types/RegionAndDistricts";
 
 interface Props {
@@ -10,6 +10,7 @@ interface Props {
 
 interface StateScopes {
     state: string;
+    label: string;
     scopes: Record<string, SelectedScopeInfo>;
     regions: SelectedScopeInfo[];
     districts: SelectedScopeInfo[];
@@ -26,61 +27,41 @@ interface SelectedScopeInfo {
 const SCOPES_BY_STATE: Record<string, StateScopes> = {};
 {
     // Create the list of states.
-    for (const state of stateRegionAndDistricts) {
-        const stateInfo = {
+    for (const state of (stateRegionAndDistricts as any as StateRegionAndDistricts[])) {
+
+        const stateInfo: StateScopes = {
+            state: state.code,
             label: state.label,
-            regions: state.regions,
-            districts: state.districts
-        };
-    }
-
-    for (const region of regions) {
-        for (const state of region.states) {
-            uniqueStates.add(state);
-        }
-    }
-
-    for (const district of districts) {
-        for (const state of district.states) {
-            uniqueStates.add(state);
-        }
-    }
-
-    // Sort the states.
-    const sortedStates = Array.from(uniqueStates).sort();
-    for (const state of sortedStates) {
-        SCOPES_BY_STATE[state] = { state: state, scopes: {}, regions: [], districts: [] };
-    }
-
-    // Add regions and districts to the list of scopes by state.
-    for (const region of regions) {
-        const scopeInfo: SelectedScopeInfo = {
-            key: `reg_${region.id}`,
-            name: region.name,
-            regionId: region.id,
-            districtId: null
+            scopes: {},
+            regions: [],
+            districts: []
         };
 
-        for (const state of region.states) {
-            const stateScope = SCOPES_BY_STATE[state];
-            stateScope.scopes[scopeInfo.key] = scopeInfo;
-            stateScope.regions.push(scopeInfo);
-        }
-    }
+        for (const region of state.regions) {
+            const scopeInfo: SelectedScopeInfo = {
+                key: `reg_${region.id}`,
+                name: region.name,
+                regionId: region.id,
+                districtId: null
+            };
 
-    for (const district of districts) {
-        const scopeInfo: SelectedScopeInfo = {
-            key: `dis_${district.id}`,
-            name: district.name,
-            regionId: district.regionId,
-            districtId: district.id
-        };
-
-        for (const state of district.states) {
-            const stateScope = SCOPES_BY_STATE[state];
-            stateScope.scopes[scopeInfo.key] = scopeInfo;
-            stateScope.districts.push(scopeInfo);
+            stateInfo.scopes[scopeInfo.key] = scopeInfo;
+            stateInfo.regions.push(scopeInfo);
         }
+
+        for (const district of state.districts) {
+            const scopeInfo: SelectedScopeInfo = {
+                key: `dis_${district.id}`,
+                name: district.name,
+                regionId: district.regionId,
+                districtId: district.id
+            };
+
+            stateInfo.scopes[scopeInfo.key] = scopeInfo;
+            stateInfo.districts.push(scopeInfo);
+        }
+
+        SCOPES_BY_STATE[state.code] = stateInfo;
     }
 }
 
@@ -100,7 +81,17 @@ export default function ChurchLookupByState({ disabled = false, onSelect }: Prop
                     <select
                         className="select select-bordered w-full"
                         value={stateScope?.state || ""}
-                        onChange={e => setStateScope(SCOPES_BY_STATE[e.target.value])}
+                        onChange={e => {
+                            const newScope = SCOPES_BY_STATE[e.target.value];
+                            setStateScope(newScope);
+
+                            if (newScope.districts.length === 1) {
+                                setChurchScope(newScope.districts[0]);
+                            }
+                            else {
+                                setChurchScope(null);
+                            }
+                        }}
                         disabled={disabled}
                         required
                     >
@@ -109,12 +100,12 @@ export default function ChurchLookupByState({ disabled = false, onSelect }: Prop
                         </option>
                         {Object.keys(SCOPES_BY_STATE).map((stateKey) => (
                             <option key={`state_${stateKey}`} value={stateKey}>
-                                {stateKey}
+                                {SCOPES_BY_STATE[stateKey].label}
                             </option>))}
                     </select>
                 </div>
             </div>
-            {stateScope && stateScope.districts.length > 0 && (
+            {stateScope && stateScope.districts.length > 1 && (
                 <div className="w-full">
                     <label className="label">
                         <span className="label-text font-medium">Church Location</span>
@@ -129,16 +120,17 @@ export default function ChurchLookupByState({ disabled = false, onSelect }: Prop
                             required
                         >
                             <option value="" disabled>
-                                Select Region or District by State
+                                {stateScope.regions.length > 1 ? "Select Region or District" : "Select District"}
                             </option>
-                            {stateScope.regions.map((scope) => (
+                            {stateScope.regions.length > 1 && stateScope.regions.map((scope) => (
                                 <option key={scope.key} value={scope.key}>
                                     {scope.name}
                                 </option>
                             ))}
-                            <option value="" disabled>
-                                ----------------------
-                            </option>
+                            {stateScope.regions.length > 1 && (
+                                <option value="" disabled>
+                                    ----------------------
+                                </option>)}
                             {stateScope.districts.map((scope) => (
                                 <option key={scope.key} value={scope.key}>
                                     {scope.name}
@@ -146,6 +138,11 @@ export default function ChurchLookupByState({ disabled = false, onSelect }: Prop
                             ))}
                         </select>
                     </div>
+                    <p className="text-sm italic mt-1">
+                        If you can't find your church, try changing the Location to another
+                        {stateScope.regions.length > 1 ? " Region/District" : " District"} and
+                        try again.
+                    </p>
                 </div>)}
             {churchScope && (
                 <div className="w-full">
