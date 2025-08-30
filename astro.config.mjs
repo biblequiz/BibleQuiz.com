@@ -15,6 +15,7 @@ export default defineConfig({
     typescript: {
         strict: true,
         noErrorTruncation: true,
+        ignoredDiagnosticCodes: [80006],
     },
     integrations: [
         sitemap(),

@@ -169,10 +169,10 @@ const frontmatter: StarlightPageFrontmatter = {
 
 switch (eventInfo.scope) {
     case "region":
-        frontmatter.eventScopeLabel = `${regions.find((r: any) => r.id == eventInfo.regionId).name} Region`;
+        frontmatter.eventScopeLabel = `${regions!.find((r: any) => r.id == eventInfo.regionId)?.name} Region`;
         break;
     case "district":
-        frontmatter.eventScopeLabel = `${districts.find((d: any) => d.id == eventInfo.districtId).name} District`;
+        frontmatter.eventScopeLabel = `${districts!.find((d: any) => d.id == eventInfo.districtId)?.name} District`;
         break;
     default:
         break;
@@ -215,10 +215,8 @@ const statsTabId = "stats_tab";
     <div id="scoreTabs" class="hide-on-print" style={{ display: "none" }}>
         <FontAwesomeTabs syncKey={`scores-${eventInfo.id}`}>
             <FontAwesomeTabItem
-                key={`scores-${eventInfo.id}-schedule`}
                 label="Schedules"
                 icon="fas faCalendarAlt"
-                padding="2"
                 tabElementId={schedulesTabId}
             >
                 <FontAwesomeTabs syncKey={`scores-${eventInfo.id}-schedule`}>
@@ -265,11 +263,9 @@ const statsTabId = "stats_tab";
             {
                 hasStatsTab && (
                     <FontAwesomeTabItem
-                        key={`scores-${eventInfo.id}-stats`}
                         label="Stats"
                         icon="fas faTrophy"
                         tabElementId={statsTabId}
-                        defaultChecked={true}
                     >
                         <StatsTabContent
                             eventId={eventInfo.id}
@@ -280,7 +276,6 @@ const statsTabId = "stats_tab";
                 )
             }
             <FontAwesomeTabItem
-                key={`scores-${eventInfo.id}-coordinator`}
                 label="Coordinator"
                 icon="fas faThermometerHalf"
             >
@@ -292,7 +287,6 @@ const statsTabId = "stats_tab";
             {
                 hasQStatsTab && (
                     <FontAwesomeTabItem
-                        key={`scores-${eventInfo.id}-qstats`}
                         label="Q Stats"
                         icon="fas faChartBar"
                     >
@@ -304,7 +298,6 @@ const statsTabId = "stats_tab";
                 )
             }
             <FontAwesomeTabItem
-                key={`scores-${eventInfo.id}-qrcode`}
                 label="QR"
                 icon="fas faQrcode"
             >

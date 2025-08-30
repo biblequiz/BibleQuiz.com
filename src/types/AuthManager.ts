@@ -1,10 +1,8 @@
 import { LogLevel, PublicClientApplication, type AccountInfo, type AuthenticationResult, type IPublicClientApplication } from "@azure/msal-browser";
 import type { Person } from 'types/services/PeopleService';
 import { AsyncLock } from 'utils/AsyncLock';
-import { map, type PreinitializedMapStore, type WritableAtom } from "nanostores";
+import { map, type PreinitializedMapStore } from "nanostores";
 import { useStore } from "@nanostores/react";
-import Auth from 'pages/auth.astro';
-import { init } from "astro/virtual-modules/prefetch.js";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
@@ -274,7 +272,7 @@ export class AuthManager {
         state.setKey("popupType", PopupType.Login);
         state.setKey("isRetrievingProfile", true);
 
-        return new Promise<void>((resolve, reject) => {
+        return new Promise<void>((resolve) => {
             client
                 .loginPopup({
                     scopes: TOKEN_SCOPES,
@@ -430,6 +428,7 @@ export class AuthManager {
         }
     }
 
+    // @ts-ignore: TS80006 - keeping Promise-based pattern intentionally
     private retrieveRemoteProfile(
         accessToken: string,
         tokenProfile: AuthTokenProfile | null): Promise<void> {
