@@ -428,42 +428,41 @@ export class AuthManager {
         }
     }
 
-    // @ts-ignore
-    // @ts-nocheck
-    private retrieveRemoteProfile(
+    private async retrieveRemoteProfile(
         accessToken: string,
         tokenProfile: AuthTokenProfile | null): Promise<void> {
 
-        return fetch("https://registration.biblequiz.com/api/v1.0/users/profile", {
-            method: "GET",
-            headers: {
-                "Authorization": `Bearer ${accessToken}`,
-            }
-        })
-            .then(response => response.json())
-            .then((remoteProfile: RemoteUserProfile) => {
-
-                const newProfile = new UserAccountProfile(
-                    remoteProfile.PersonId,
-                    remoteProfile.Name,
-                    remoteProfile.Type,
-                    remoteProfile.IsJbqAdmin,
-                    remoteProfile.IsTbqAdmin,
-                    tokenProfile);
-
-                AuthManager.saveProfile(newProfile);
-
-                const state = this.getNanoState();
-                state.setKey("popupType", PopupType.None);
-                state.setKey("isRetrievingProfile", false);
-                state.setKey("profile", newProfile);
-
-                if (this._accessTokenResolve) {
-                    this._accessTokenResolve(accessToken);
-                    this._accessTokenResolve = null;
-                    this._accessTokenReject = null;
+        const response = await fetch(
+            "https://registration.biblequiz.com/api/v1.0/users/profile",
+            {
+                method: "GET",
+                headers: {
+                    "Authorization": `Bearer ${accessToken}`,
                 }
             });
+
+        const remoteProfile = await response.json();
+
+        const newProfile = new UserAccountProfile(
+            remoteProfile.PersonId,
+            remoteProfile.Name,
+            remoteProfile.Type,
+            remoteProfile.IsJbqAdmin,
+            remoteProfile.IsTbqAdmin,
+            tokenProfile);
+
+        AuthManager.saveProfile(newProfile);
+
+        const state = this.getNanoState();
+        state.setKey("popupType", PopupType.None);
+        state.setKey("isRetrievingProfile", false);
+        state.setKey("profile", newProfile);
+        
+        if (this._accessTokenResolve) {
+            this._accessTokenResolve(accessToken);
+            this._accessTokenResolve = null;
+            this._accessTokenReject = null;
+        }
     }
 
     private static getAuthTokenProfile(account: AccountInfo): AuthTokenProfile | null {
