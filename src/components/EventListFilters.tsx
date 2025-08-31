@@ -1,10 +1,10 @@
 import React from 'react';
 import { useStore } from "@nanostores/react";
-import { sharedEventListFilter, type EventListFilterConfiguration } from "@utils/SharedState";
+import { sharedEventListFilter, type EventListFilterConfiguration } from "utils/SharedState";
 import EventScopeBadge from './EventScopeBadge.tsx';
 import FontAwesomeIcon from './FontAwesomeIcon';
 
-import type { RegionInfo, DistrictInfo } from "../types/RegionAndDistricts";
+import type { RegionInfo, DistrictInfo } from 'types/RegionAndDistricts';
 
 interface Props {
   regions: RegionInfo[];
@@ -29,7 +29,7 @@ export default function EventListFilters({ regions, districts }: Props) {
     });
   };
 
-  const clearSearchText = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const clearSearchText = () => {
 
     sharedEventListFilter.set({
       searchText: null,

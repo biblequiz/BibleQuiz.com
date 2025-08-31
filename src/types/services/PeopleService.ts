@@ -1,8 +1,8 @@
-﻿import { Church } from "./ChurchesService";
-import { Address } from "./models/Address";
-import { RemoteServiceModelBase, RemoteServiceUrlBase, RemoteServiceUtility, type RemoteServicePage } from "./RemoteServiceUtility";
+﻿import { Church } from './ChurchesService';
+import { Address } from './models/Address';
+import { RemoteServiceModelBase, RemoteServiceUrlBase, RemoteServiceUtility, type RemoteServicePage } from './RemoteServiceUtility';
 import type { AuthManager } from "../AuthManager";
-import { DataTypeHelpers } from "../../utils/DataTypeHelpers";
+import { DataTypeHelpers } from 'utils/DataTypeHelpers';
 
 const URL_ROOT_PATH = "/api/People";
 

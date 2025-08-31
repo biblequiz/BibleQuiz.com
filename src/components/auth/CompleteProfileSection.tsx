@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { useStore } from "@nanostores/react";
 import { Turnstile } from '@marsidev/react-turnstile'
-import { sharedDirtyWindowState, sharedGlobalStatusToast } from "../../utils/SharedState";
-import { AuthService, UserSignUpInfo } from "../../types/services/AuthService";
-import { CloudflareTurnstile } from "../../utils/CloudflareTurnstile";
-import { Person } from "../../types/services/PeopleService";
-import type { RemoteServiceError } from "../../types/services/RemoteServiceUtility";
-import { AuthManager } from "../../types/AuthManager";
-import ChurchLookupByState from "./ChurchLookupByState";
+import { sharedDirtyWindowState, sharedGlobalStatusToast } from 'utils/SharedState';
+import { AuthService, UserSignUpInfo } from 'types/services/AuthService';
+import { CloudflareTurnstile } from 'utils/CloudflareTurnstile';
+import { Person } from 'types/services/PeopleService';
+import type { RemoteServiceError } from 'types/services/RemoteServiceUtility';
+import { AuthManager } from 'types/AuthManager';
+import ChurchLookupByState from './ChurchLookupByState';
 import ChurchSettingsDialog, { type AddingChurchState } from "../ChurchSettingsDialog";
 
 interface Props {
@@ -241,7 +241,7 @@ export default function CompleteProfileSection({ }: Props) {
                     title="Add Church"
                     addState={addingChurchState}
                     creatorEmail={email}
-                    onSave={(church) => setAddingChurchState(null)}
+                    onSave={() => setAddingChurchState(null)}
                 />)}
         </>);
 }

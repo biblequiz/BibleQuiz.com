@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ChurchLookup, { ChurchSearchTips, type AddChurchConfig, type SelectedChurch } from "../ChurchLookup";
-import stateRegionAndDistricts from "../../data/stateRegionsAndDistricts.json";
-import type { StateRegionAndDistricts } from "../../types/RegionAndDistricts";
+import stateRegionAndDistricts from 'data/stateRegionsAndDistricts.json';
+import type { StateRegionAndDistricts } from 'types/RegionAndDistricts';
 
 interface Props {
     allowAdd?: AddChurchConfig;

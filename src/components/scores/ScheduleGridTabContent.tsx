@@ -1,14 +1,14 @@
 import { useEffect } from "react";
-import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch } from "@types/EventScoringReport";
+import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "@utils/SharedState";
-import CollapsableMeetSection from "./CollapsableMeetSection";
-import RoomLink from "./RoomDialogLink";
-import { EventScoringReport } from "@types/EventScoringReport";
-import { isTabActive } from "@utils/Tabs";
-import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
-import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "utils/SharedState";
+import CollapsableMeetSection from './CollapsableMeetSection';
+import RoomLink from './RoomDialogLink';
+import { EventScoringReport } from "types/EventScoringReport";
+import { isTabActive } from "utils/Tabs";
+import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
+import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
 
 export interface Props {
     eventId: string;
@@ -19,12 +19,18 @@ export interface Props {
     schedulesTabId: string;
 };
 
-export default function ScheduleGridTabContent({ eventId, event, isPrinting, printStats, rootTabId, schedulesTabId }: Props) {
+export default function ScheduleGridTabContent({
+    eventId,
+    event,
+    isPrinting,
+    printStats,
+    rootTabId,
+    schedulesTabId }: Props) {
 
     const scrollToViewElementId = `schedule_grid_scroll_elem`;
 
     const reportState = useStore(sharedEventScoringReportState);
-    event ??= reportState?.report;
+    event ??= reportState?.report || undefined;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
@@ -40,7 +46,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
         return (<span>Event is Loading ...</span>);
     }
 
-    const favorites: TeamAndQuizzerFavorites = reportState.favorites;
+    const favorites: TeamAndQuizzerFavorites | null = reportState?.favorites ?? null;
     let sectionIndex = 0;
 
     return (
@@ -48,7 +54,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
 
                 const key = `schedulegrid_${meet.DatabaseId}_${meet.MeetId}`;
-                if (meet.IsCombinedReport) {
+                if (meet.IsCombinedReport || !meet.Matches) {
                     return null;
                 }
 
@@ -59,7 +65,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                     hasRankedTeams = true;
                 }
                 else {
-                    teams = meet.Teams;
+                    teams = meet.Teams || [];
                     hasRankedTeams = false;
                 }
 
@@ -80,12 +86,12 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
 
                 const teamRows = teams.map((teamId: ScoringReportTeam | number, teamIndex: number) => {
                     const team = hasRankedTeams
-                        ? meet.Teams[teamId as number]
+                        ? meet.Teams![teamId as number]
                         : teamId as ScoringReportTeam;
 
                     let highlightColor: string = "";
                     if (!isPrinting) {
-                        const isFavorite = favorites.teamIds.has(team.Id);
+                        const isFavorite = favorites?.teamIds.has(team.Id) ?? false;
                         if (eventFilters?.highlightTeamId === team.Id) {
                             highlightColor = "bg-yellow-200";
                         }
@@ -107,19 +113,19 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                             className={`hover:bg-base-300 ${highlightColor}`}>
                             {hasRankedTeams && (
                                 <td className="text-right">
-                                    {team.Scores.Rank}{team.Scores.IsTie ? '*' : ''}
+                                    {team.Scores!.Rank}{team.Scores!.IsTie ? '*' : ''}
                                 </td>)}
                             <td className="pl-0">
                                 <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} showText={false} /> {team.Name}
                             </td>
                             {hasRankedTeams && (
                                 <>
-                                    <td className="text-right">{team.Scores.Wins}</td>
-                                    <td className="text-right">{team.Scores.Losses}</td>
-                                    <td className="text-right">{team.Scores.TotalPoints}</td>
-                                    <td className="text-right">{team.Scores.AveragePoints}</td>
+                                    <td className="text-right">{team.Scores!.Wins}</td>
+                                    <td className="text-right">{team.Scores!.Losses}</td>
+                                    <td className="text-right">{team.Scores!.TotalPoints}</td>
+                                    <td className="text-right">{team.Scores!.AveragePoints}</td>
                                 </>)}
-                            {team.Matches.map((match: ScoringReportTeamMatch, matchIndex: number) => {
+                            {team.Matches!.map((match: ScoringReportTeamMatch | null, matchIndex: number) => {
                                 const matchKey = `${key}_teams_${teamIndex}match_${teamIndex}_matches_${matchIndex}`;
                                 if (null == match) {
                                     return (<td key={matchKey}>--</td>);
@@ -127,11 +133,8 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
 
                                 const isLiveMatch = null != match.CurrentQuestion;
 
-                                const resolvedMeet = !meet.HasLinkedMeets || null == match.LinkedMeet
-                                    ? meet
-                                    : event.Report.Meets[match.LinkedMeet];
-
-                                const resolvedMatch = resolvedMeet.Matches[matchIndex];
+                                const resolvedMeet = meet;
+                                const resolvedMatch = resolvedMeet.Matches![matchIndex];
 
                                 let badgeClass: string;
                                 switch (match.Result) {
@@ -150,7 +153,14 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                     <td className="text-center" key={matchKey}>
                                         {!isLiveMatch && match.Score == null && (<span>{match.Room}</span>)}
                                         {(isLiveMatch || match.Score != null) && (
-                                            <RoomLink id={matchKey} label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
+                                            <RoomLink
+                                                id={matchKey}
+                                                label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`}
+                                                eventId={eventId}
+                                                databaseId={resolvedMeet.DatabaseId}
+                                                meetId={resolvedMeet.MeetId}
+                                                matchId={resolvedMatch.Id}
+                                                roomId={match.RoomId}>
                                                 {match.Room}
                                                 {isLiveMatch && (
                                                     <>
@@ -238,11 +248,11 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {meet.Teams.map((team: ScoringReportTeam, teamIndex: number) => {
+                                    {meet.Teams!.map((team: ScoringReportTeam, teamIndex: number) => {
 
                                         if (!isPrinting &&
                                             showOnlyFavorites &&
-                                            !favorites.teamIds.has(team.Id)) {
+                                            !favorites?.teamIds.has(team.Id)) {
 
                                             return null;
                                         }
@@ -273,7 +283,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                                         return (
                                                             <span key={quizzerKey}>
                                                                 {q > 0 && <br />}
-                                                                <span>{meet.Quizzers[team.Quizzers[q]].Name}</span>
+                                                                <span>{meet.Quizzers![team.Quizzers[q]].Name}</span>
                                                             </span>);
                                                     })}
                                                 </td>
@@ -284,7 +294,7 @@ export default function ScheduleGridTabContent({ eventId, event, isPrinting, pri
                                                             return (
                                                                 <span key={quizzerKey}>
                                                                     {q > 0 && <br />}
-                                                                    <span>{meet.Quizzers[team.Quizzers[q + column1Count]].Name}</span>
+                                                                    <span>{meet.Quizzers![team.Quizzers[q + column1Count]].Name}</span>
                                                                 </span>);
                                                         })}
                                                     </td>)}

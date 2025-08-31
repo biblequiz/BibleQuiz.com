@@ -1,4 +1,4 @@
-﻿import { ParameterHelpers } from "../../utils/ParameterHelpers";
+﻿import { ParameterHelpers } from 'utils/ParameterHelpers';
 import type { AuthManager } from "../AuthManager";
 
 /**
@@ -164,7 +164,7 @@ export class RemoteServiceUtility {
                 path,
                 urlParameters,
                 data)
-                .then(response => resolve())
+                .then(() => resolve())
                 .catch(error => reject(error));
         });
     }
@@ -373,6 +373,7 @@ export class RemoteServiceUtility {
                     resolve(response);
                 })
                 .catch(error => {
+                    console.error(error);
                     reject({
                         message: "Unable to execute request. Check to make sure you have an internet connection and try again."
                     } as RemoteServiceError);

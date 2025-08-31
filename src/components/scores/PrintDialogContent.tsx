@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedPrintConfiguration } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedPrintConfiguration } from "utils/SharedState";
 
-import { ScoringReportMeet } from "@types/EventScoringReport";
-import FontAwesomeIcon from "@components/FontAwesomeIcon";
-import { OutputType, StatsFormat } from "@utils/SharedState";
-import type { MeetReference, PrintConfiguration } from "@utils/SharedState";
+import { ScoringReportMeet } from "types/EventScoringReport";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { OutputType, StatsFormat } from "utils/SharedState";
+import type { MeetReference, PrintConfiguration } from "utils/SharedState";
 
 export const PrintDialogModalId = "print-dialog";
 
@@ -95,7 +95,7 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
     }
 
     let hasRanking: boolean = false;
-    const resolvedMeetFields = resolvedMeets.map((meet: ScoringReportMeet, index: number) => {
+    const resolvedMeetFields = resolvedMeets.map((meet: MeetReference, index: number) => {
         const isChecked = selectedMeets == null || selectedMeets.has(`${meet.databaseId}_${meet.meetId}`);
 
         if (meet.hasRanking) {
@@ -110,7 +110,7 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
                     className="checkbox checkbox-sm checkbox-info"
                     checked={isChecked}
                     onChange={(e) => handleMeetSelectionChange(meet.databaseId, meet.meetId, e.target.checked)} />
-                {meet.IsCombinedReport && (<><FontAwesomeIcon icon="fas faBook" />&nbsp;</>)}
+                {meet.isCombinedReport && (<><FontAwesomeIcon icon="fas faBook" />&nbsp;</>)}
                 {meet.label}
             </label>);
     });
@@ -258,7 +258,7 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
                 <button
                     type="submit"
                     className="btn btn-primary mt-4"
-                    disabled={selectedMeets && selectedMeets.size === 0}
+                    disabled={selectedMeets && selectedMeets.size === 0 || false}
                     onClick={handlePrintClick}>
                     <FontAwesomeIcon icon="fas faPrint" />&nbsp;Print
                 </button>

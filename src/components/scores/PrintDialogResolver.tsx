@@ -1,22 +1,31 @@
 import { useEffect } from "react";
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedPrintConfiguration } from "@utils/SharedState";
-import type { EventInfo } from "@types/EventTypes";
-import { EventScoringReport } from "@types/EventScoringReport";
-import { OutputType } from "@utils/SharedState";
-import type { PrintConfiguration } from "@utils/SharedState";
+import { sharedEventScoringReportState, sharedPrintConfiguration } from "utils/SharedState";
+import { EventScoringReport } from "types/EventScoringReport";
+import { OutputType } from "utils/SharedState";
+import type { PrintConfiguration } from "utils/SharedState";
 
-import FontAwesomeIcon from "@components/FontAwesomeIcon";
-import StatsTabContent from "@components/scores/StatsTabContent";
-import ScheduleGridTabContent from "@components/scores/ScheduleGridTabContent";
-import TeamOrRoomScheduleTabContent from "@components/scores/TeamOrRoomScheduleTabContent";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+import StatsTabContent from "components/scores/StatsTabContent";
+import ScheduleGridTabContent from "components/scores/ScheduleGridTabContent";
+import TeamOrRoomScheduleTabContent from "components/scores/TeamOrRoomScheduleTabContent";
 
 interface Props {
     eventId: string;
     event: EventScoringReport | null;
+    rootSchedulesTabId: string;
+    teamScheduleTabId: string;
+    roomScheduleTabId: string;
+    scheduleGridTabId: string;
 }
 
-export default function PrintDialogResolver({ eventId, event }: Props) {
+export default function PrintDialogResolver({
+    eventId,
+    event,
+    rootSchedulesTabId,
+    teamScheduleTabId,
+    roomScheduleTabId,
+    scheduleGridTabId }: Props) {
 
     const reportState = useStore(sharedEventScoringReportState);
     const printDialogState: PrintConfiguration | null = useStore(sharedPrintConfiguration);
@@ -59,7 +68,9 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
                     <TeamOrRoomScheduleTabContent
                         type="Team"
                         eventId={eventId}
-                        event={event}
+                        event={event || undefined}
+                        rootTabId={rootSchedulesTabId}
+                        schedulesTabId={teamScheduleTabId}
                         isPrinting={true}
                         printSinglePerPage={printDialogState.showSinglePerPage}
                         printStats={printDialogState.includeStats}
@@ -73,7 +84,9 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
                     <TeamOrRoomScheduleTabContent
                         type="Room"
                         eventId={eventId}
-                        event={event}
+                        event={event || undefined}
+                        rootTabId={rootSchedulesTabId}
+                        schedulesTabId={roomScheduleTabId}
                         isPrinting={true}
                         printSinglePerPage={printDialogState.showSinglePerPage}
                         printStats={printDialogState.includeStats}
@@ -86,7 +99,9 @@ export default function PrintDialogResolver({ eventId, event }: Props) {
                 <div className="hide-if-not-print-screen">
                     <ScheduleGridTabContent
                         eventId={eventId}
-                        event={event}
+                        event={event || undefined}
+                        rootTabId={rootSchedulesTabId}
+                        schedulesTabId={scheduleGridTabId}
                         isPrinting={true}
                         printStats={printDialogState.includeStats}
                     />

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import FontAwesomeIcon from './FontAwesomeIcon';
-import { Church, ChurchesService, ChurchResultFilter } from '../types/services/ChurchesService.ts';
-import { type RemoteServicePage, type RemoteServiceError } from '../types/services/RemoteServiceUtility.ts';
+import { Church, ChurchesService, ChurchResultFilter } from 'types/services/ChurchesService.ts';
+import { type RemoteServicePage, type RemoteServiceError } from 'types/services/RemoteServiceUtility.ts';
 import Pagination from './Pagination.tsx';
 import LoadingPlaceholder from './LoadingPlaceholder.tsx';
-import { AuthManager } from '../types/AuthManager.ts';
+import { AuthManager } from 'types/AuthManager.ts';
 import type { AddingChurchState } from './ChurchSettingsDialog.tsx';
 
 export interface SelectedChurch {
@@ -151,7 +151,7 @@ export default function ChurchLookup({
           <button
             type="button"
             className="btn btn-primary"
-            onClick={e => startSearch()}
+            onClick={() => startSearch()}
             disabled={!searchText || (searchState?.isLoading ?? false)}
           >
             <FontAwesomeIcon icon="fas faSearch" />

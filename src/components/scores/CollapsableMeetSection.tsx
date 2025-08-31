@@ -1,7 +1,7 @@
 import CollapsibleSection from "../CollapsibleSection";
-import MeetProgressNotification, { hasMeetNotification } from "./MeetProgressNotification";
-import { ScoringReportMeet } from "@types/EventScoringReport";
-import { formatLastUpdated } from "@utils/Scores";
+import MeetProgressNotification, { hasMeetNotification } from './MeetProgressNotification';
+import { ScoringReportMeet } from "types/EventScoringReport";
+import { formatLastUpdated } from "utils/Scores";
 
 interface SectionBadge {
     id?: string;

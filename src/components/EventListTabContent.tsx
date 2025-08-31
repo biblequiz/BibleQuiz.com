@@ -1,8 +1,8 @@
 import { useStore } from "@nanostores/react";
 import EventScopeBadge from './EventScopeBadge.tsx';
-import { sharedEventListFilter, type EventListFilterConfiguration } from "../utils/SharedState.ts";
-import type { EventInfo, EventList } from '../types/EventTypes.ts';
-import FontAwesomeIcon from "./FontAwesomeIcon.js";
+import { sharedEventListFilter, type EventListFilterConfiguration } from 'utils/SharedState.ts';
+import type { EventInfo, EventList } from 'types/EventTypes.ts';
+import FontAwesomeIcon from './FontAwesomeIcon.js';
 
 interface Props {
     badgeId: string;
@@ -22,7 +22,7 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
     scoresCutoff.setDate(today.getDate() + 14);
 
     let eventCount: number = 0;
-    const eventRows = Object.keys(events).map((urlSlug: string, index: number) => {
+    const eventRows = Object.keys(events).map((urlSlug: string) => {
         const event: EventInfo = events[urlSlug];
         if (!event.isVisible) {
             return null;

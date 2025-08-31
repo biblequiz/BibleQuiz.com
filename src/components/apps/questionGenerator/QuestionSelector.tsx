@@ -1,7 +1,7 @@
-import type { QuestionRangeFilter } from "../../../types/services/QuestionGeneratorService";
-import QuestionSelectorByCategory from "./QuestionSelectorByCategory";
-import QuestionSelectorByGroup from "./QuestionSelectorByGroup";
-import QuestionSelectorByRange from "./QuestionSelectorByRange";
+import type { QuestionRangeFilter } from 'types/services/QuestionGeneratorService';
+import QuestionSelectorByCategory from './QuestionSelectorByCategory';
+import QuestionSelectorByGroup from './QuestionSelectorByGroup';
+import QuestionSelectorByRange from './QuestionSelectorByRange';
 
 interface Props {
     criteria: QuestionCriteria;

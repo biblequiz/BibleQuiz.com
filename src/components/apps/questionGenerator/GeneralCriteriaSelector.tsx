@@ -1,6 +1,6 @@
-import { QuestionLanguage } from "../../../types/services/QuestionGeneratorService";
-import settings from "../../../data/generated/questionGenerator.json";
-import type { JbqQuestionGeneratorSettings } from "../../../types/QuestionGeneratorSettings";
+import { QuestionLanguage } from 'types/services/QuestionGeneratorService';
+import settings from 'data/generated/questionGenerator.json';
+import type { JbqQuestionGeneratorSettings } from 'types/QuestionGeneratorSettings';
 import { useEffect, useState } from "react";
 
 interface Props {
@@ -41,7 +41,7 @@ export default function GeneralCriteriaSelector({
                     name="title"
                     value={title}
                     onChange={e => setTitle(e.target.value)}
-                    onBlur={e => setCriteria({ ...criteria, title: title.trim() })}
+                    onBlur={() => setCriteria({ ...criteria, title: title.trim() })}
                     placeholder="Enter title for the set"
                     className="input input-bordered w-full"
                     maxLength={80}
@@ -59,7 +59,7 @@ export default function GeneralCriteriaSelector({
                         name="rounds"
                         value={rounds}
                         onChange={e => setRounds(Number(e.target.value))}
-                        onBlur={e => setCriteria({ ...criteria, rounds: rounds })}
+                        onBlur={() => setCriteria({ ...criteria, rounds: rounds })}
                         placeholder="Enter number of rounds"
                         className="input input-bordered w-full"
                         min={1}

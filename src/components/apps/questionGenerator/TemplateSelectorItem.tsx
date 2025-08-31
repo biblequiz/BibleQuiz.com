@@ -1,4 +1,4 @@
-import { CriteriaTemplateType } from "./TemplateSelector";
+import { CriteriaTemplateType } from './TemplateSelector';
 
 interface Props {
     template: CriteriaTemplateType;

@@ -1,13 +1,13 @@
-import { ScoringReportMeet, ScoringReportMeetMatch } from "@types/EventScoringReport";
+import { ScoringReportMeet, ScoringReportMeetMatch } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState } from "@utils/SharedState";
-import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
-import type { EventScoresProps } from "@utils/Scores";
+import { sharedEventScoringReportState } from "utils/SharedState";
+import CollapsableMeetSection from "components/scores/CollapsableMeetSection";
+import type { EventScoresProps } from "utils/Scores";
 
 export default function QStatsTabContent({ event }: EventScoresProps) {
 
-    event ??= useStore(sharedEventScoringReportState)?.report;
+    event ??= useStore(sharedEventScoringReportState)?.report || undefined;
     if (!event) {
         return (<span>Event is Loading ...</span>);
     }
@@ -58,7 +58,7 @@ export default function QStatsTabContent({ event }: EventScoresProps) {
                             </thead>
                             <tbody>
                                 {Array.from({ length: meet.Matches.length }, (_, m) => {
-                                    const match: ScoringReportMeetMatch = meet.Matches[m];
+                                    const match: ScoringReportMeetMatch = meet.Matches![m];
                                     const matchKey = `${key}_match_${m}`;
                                     return (
                                         <tr key={matchKey}>
@@ -66,11 +66,11 @@ export default function QStatsTabContent({ event }: EventScoresProps) {
                                             {Array.from({ length: maxQuestionId }, (_, q) => {
                                                 const questionKey = `${matchKey}_question_${q + 1}`;
 
-                                                if (q >= match.RegularQuestionStats.length) {
+                                                if (q >= match.RegularQuestionStats!.length) {
                                                     return (<td key={questionKey}>&nbsp;</td>);
                                                 }
 
-                                                const stats = match.RegularQuestionStats[q];
+                                                const stats = match.RegularQuestionStats![q];
                                                 if (null == stats || stats.PointValue == 0) {
                                                     return (<td key={questionKey}>--</td>);
                                                 }

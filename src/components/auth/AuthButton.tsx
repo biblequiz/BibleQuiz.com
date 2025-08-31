@@ -1,5 +1,5 @@
 import FontAwesomeIcon from "../FontAwesomeIcon";
-import { AuthManager, PopupType, UserProfileType } from "../../types/AuthManager";
+import { AuthManager, PopupType, UserProfileType } from 'types/AuthManager';
 import ConfirmationDialog from "../ConfirmationDialog";
 import type { JSX } from "react";
 

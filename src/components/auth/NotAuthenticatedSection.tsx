@@ -1,4 +1,4 @@
-import { AuthManager, PopupType } from "../../types/AuthManager";
+import { AuthManager, PopupType } from 'types/AuthManager';
 import FontAwesomeIcon from "../FontAwesomeIcon";
 
 interface Props {

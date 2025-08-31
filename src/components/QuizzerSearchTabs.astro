@@ -1,8 +1,8 @@
 ---
-import QuizzerSearchTabContent from "./QuizzerSearchTabContent";
+import QuizzerSearchTabContent from './QuizzerSearchTabContent';
 
-import type { QuizzerIndex, QuizzerIndexEntry } from "../types/QuizzerSearch";
-import quizzerIndexJson from "../data/generated/quizzerIndex.json";
+import type { QuizzerIndex, QuizzerIndexEntry } from 'types/QuizzerSearch';
+import quizzerIndexJson from 'data/generated/quizzerIndex.json';
 import QuizzerSearchDialogContent, {
     QuizzerSearchDialogId,
 } from "./QuizzerSearchDialogContent";
@@ -58,9 +58,9 @@ for (const quizzer of quizzerIndex.quizzers) {
 <script>
     import Fuse from "fuse.js";
 
-    import quizzerIndexJson from "../data/generated/quizzerIndex.json";
-    import { QuizzerSearchDialogId } from "./QuizzerSearchDialogContent";
-    import { sharedQuizzerSearchState } from "@utils/SharedState";
+    import quizzerIndexJson from 'data/generated/quizzerIndex.json';
+    import { QuizzerSearchDialogId } from './QuizzerSearchDialogContent';
+    import { sharedQuizzerSearchState } from "utils/SharedState";
     import type {
         QuizzerIndex,
         QuizzerIndexEntry,
@@ -79,7 +79,7 @@ for (const quizzer of quizzerIndex.quizzers) {
 
         // Update the state to be the current room.
         sharedQuizzerSearchState.set({
-            searchText: sharedQuizzerSearchState.get()?.searchText,
+            searchText: sharedQuizzerSearchState.get()?.searchText || null,
             index: quizzerIndexJson,
             quizzerIndex: index,
         });

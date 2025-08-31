@@ -1,4 +1,4 @@
-﻿import { RemoteServiceUrlBase, RemoteServiceUtility } from "./RemoteServiceUtility";
+﻿import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility';
 import type { AuthManager } from "../AuthManager";
 import type { EventScoringReport } from "../EventScoringReport";
 import type { RoomScoringReport } from "../RoomScoringReport";

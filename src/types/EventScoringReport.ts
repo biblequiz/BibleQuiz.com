@@ -435,17 +435,17 @@ export enum ScoringReportMatchState {
     /**
      * Scoring hasn't started.
      */
-    NotStarted,
+    NotStarted = "NotStarted",
 
     /**
      * Match is in progress.
      */
-    InProgress,
+    InProgress = "InProgress",
 
     /**
      * Match is completed.
      */
-    Completed
+    Completed = "Completed"
 }
 
 /**
@@ -491,7 +491,7 @@ export class ScoringReportRoom {
      * Scheduled matches for the room. If there is a null value in the array, the room is either an
      * unscored bye or no match is being played in the room.
      */
-    public readonly Matches!: (number | null)[];
+    public readonly Matches!: ScoringReportRoomMatch[];
 }
 
 /**

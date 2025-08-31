@@ -1,4 +1,5 @@
-﻿import type { Address } from "../types/services/models/Address";
+﻿import type { Address } from 'types/services/models/Address';
+import { format } from 'date-fns';
 
 /**
  * Helpers for interacting with data types.
@@ -117,9 +118,9 @@ export class DataTypeHelpers {
      * Formats a single date.
      * 
      * @param date Date to format.
-     * @param format Format to apply.
+     * @param formatPattern Format to apply (using date-fns format patterns).
      */
-    public static formatDate(date: Date | string | null, format: string = "MMM d, yyyy"): string | null {
+    public static formatDate(date: Date | string | null, formatPattern: string = "MMM d, yyyy"): string | null {
 
         if (typeof date == "string") {
             date = this.parseDateOnly(date);
@@ -129,8 +130,7 @@ export class DataTypeHelpers {
             return null;
         }
         else {
-            throw new Error("No Date formatting library is available.");
-            // return (<any>$).format.date(date, format);
+            return format(date, formatPattern);
         }
     }
 

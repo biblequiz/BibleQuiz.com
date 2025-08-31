@@ -1,5 +1,5 @@
 ---
-import GlobalStatusToast from "./GlobalStatusToast";
+import GlobalStatusToast from './GlobalStatusToast';
 ---
 
 <GlobalStatusToast client:only="react" />
@@ -21,7 +21,6 @@ import GlobalStatusToast from "./GlobalStatusToast";
     const beforeUnloadHandler = (event: BeforeUnloadEvent) => {
         if (sharedDirtyWindowState.get()) {
             event.preventDefault();
-            event.returnValue = ""; // Required for Chrome
         }
     };
 

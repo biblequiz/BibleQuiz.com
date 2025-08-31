@@ -1,10 +1,8 @@
 import { LogLevel, PublicClientApplication, type AccountInfo, type AuthenticationResult, type IPublicClientApplication } from "@azure/msal-browser";
-import type { Person } from "./services/PeopleService";
-import { AsyncLock } from "../utils/AsyncLock";
-import { map, type PreinitializedMapStore, type WritableAtom } from "nanostores";
+import type { Person } from 'types/services/PeopleService';
+import { AsyncLock } from 'utils/AsyncLock';
+import { map, type PreinitializedMapStore } from "nanostores";
 import { useStore } from "@nanostores/react";
-import Auth from "../pages/auth.astro";
-import { init } from "astro/virtual-modules/prefetch.js";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
@@ -274,7 +272,7 @@ export class AuthManager {
         state.setKey("popupType", PopupType.Login);
         state.setKey("isRetrievingProfile", true);
 
-        return new Promise<void>((resolve, reject) => {
+        return new Promise<void>((resolve) => {
             client
                 .loginPopup({
                     scopes: TOKEN_SCOPES,
@@ -430,40 +428,41 @@ export class AuthManager {
         }
     }
 
-    private retrieveRemoteProfile(
+    private async retrieveRemoteProfile(
         accessToken: string,
         tokenProfile: AuthTokenProfile | null): Promise<void> {
 
-        return fetch("https://registration.biblequiz.com/api/v1.0/users/profile", {
-            method: "GET",
-            headers: {
-                "Authorization": `Bearer ${accessToken}`,
-            }
-        })
-            .then(response => response.json())
-            .then((remoteProfile: RemoteUserProfile) => {
-
-                const newProfile = new UserAccountProfile(
-                    remoteProfile.PersonId,
-                    remoteProfile.Name,
-                    remoteProfile.Type,
-                    remoteProfile.IsJbqAdmin,
-                    remoteProfile.IsTbqAdmin,
-                    tokenProfile);
-
-                AuthManager.saveProfile(newProfile);
-
-                const state = this.getNanoState();
-                state.setKey("popupType", PopupType.None);
-                state.setKey("isRetrievingProfile", false);
-                state.setKey("profile", newProfile);
-
-                if (this._accessTokenResolve) {
-                    this._accessTokenResolve(accessToken);
-                    this._accessTokenResolve = null;
-                    this._accessTokenReject = null;
+        const response = await fetch(
+            "https://registration.biblequiz.com/api/v1.0/users/profile",
+            {
+                method: "GET",
+                headers: {
+                    "Authorization": `Bearer ${accessToken}`,
                 }
             });
+
+        const remoteProfile = await response.json();
+
+        const newProfile = new UserAccountProfile(
+            remoteProfile.PersonId,
+            remoteProfile.Name,
+            remoteProfile.Type,
+            remoteProfile.IsJbqAdmin,
+            remoteProfile.IsTbqAdmin,
+            tokenProfile);
+
+        AuthManager.saveProfile(newProfile);
+
+        const state = this.getNanoState();
+        state.setKey("popupType", PopupType.None);
+        state.setKey("isRetrievingProfile", false);
+        state.setKey("profile", newProfile);
+        
+        if (this._accessTokenResolve) {
+            this._accessTokenResolve(accessToken);
+            this._accessTokenResolve = null;
+            this._accessTokenReject = null;
+        }
     }
 
     private static getAuthTokenProfile(account: AccountInfo): AuthTokenProfile | null {

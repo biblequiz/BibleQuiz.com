@@ -1,9 +1,9 @@
 import { useStore } from "@nanostores/react";
-import { sharedQuizzerSearchState } from "@utils/SharedState";
+import { sharedQuizzerSearchState } from "utils/SharedState";
 
 import Fuse from 'fuse.js';
 
-import type { QuizzerIndex, QuizzerIndexEntry } from "../types/QuizzerSearch";
+import type { QuizzerIndex, QuizzerIndexEntry } from 'types/QuizzerSearch';
 
 interface Props {
     id: string;
@@ -141,7 +141,7 @@ export default function QuizzerSearchTabContent({ id, quizzers }: Props) {
                     }
 
                     return (
-                        <tr className="hover:bg-base-300 cursor-pointer" key={key} data-index={item.index} onClick={onClickHandler}>
+                        <tr className="hover:bg-base-300 cursor-pointer" key={key} data-index={item.index} onClick={onClickHandler!}>
                             <td>
                                 <span>{quizzer.n}</span>
                                 {quizzer.on && quizzer.on.length > 0 && quizzer.on.map((name, nameIndex) => (

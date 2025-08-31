@@ -1,11 +1,11 @@
 import { useRef, useState } from "react";
-import { Church, ChurchesService } from "../types/services/ChurchesService";
-import districts from "../data/districts.json";
-import FontAwesomeIcon from "./FontAwesomeIcon";
-import type { DistrictInfo } from "../types/RegionAndDistricts";
-import type { Address } from "../types/services/models/Address";
-import { AuthManager } from "../types/AuthManager";
-import type { RemoteServiceError } from "../types/services/RemoteServiceUtility";
+import { Church, ChurchesService } from 'types/services/ChurchesService';
+import districts from 'data/districts.json';
+import FontAwesomeIcon from './FontAwesomeIcon';
+import type { DistrictInfo } from 'types/RegionAndDistricts';
+import type { Address } from 'types/services/models/Address';
+import { AuthManager } from 'types/AuthManager';
+import type { RemoteServiceError } from 'types/services/RemoteServiceUtility';
 
 export interface AddingChurchState {
     districtId: string | null;

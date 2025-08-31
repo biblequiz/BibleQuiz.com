@@ -1,4 +1,4 @@
-import {MatchRules} from "./MatchRules";
+import {MatchRules} from 'types/MatchRules';
 
 /**
  * Report of scores for a specific match in a specific room.
@@ -250,15 +250,15 @@ export enum QuizzedOutState {
     /**
      * Quizzer is not quizzed out.
      */
-    NotQuizzedOut,
+    NotQuizzedOut = "NotQuizzedOut",
 
     /**
      * Quizzer quizzed out forward.
      */
-    QuizzedOutForward,
+    QuizzedOutForward = "QuizzedOutForward",
 
     /**
      * Quizzer quizzed out backward.
      */
-    QuizzedOutBackward,
+    QuizzedOutBackward = "QuizzedOutBackward",
 }

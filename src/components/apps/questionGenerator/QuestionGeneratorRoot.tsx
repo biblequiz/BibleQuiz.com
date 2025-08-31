@@ -1,7 +1,7 @@
 import { createHashRouter, RouterProvider, useBlocker, Outlet } from 'react-router-dom';
 import { useStore } from '@nanostores/react';
 import { useEffect } from 'react';
-import { sharedDirtyWindowState } from '../../../utils/SharedState';
+import { sharedDirtyWindowState } from 'utils/SharedState';
 import ConfirmationDialog from '../../ConfirmationDialog';
 import ProtectedRoute from '../../auth/ProtectedRoute';
 import MainPage from './MainPage';

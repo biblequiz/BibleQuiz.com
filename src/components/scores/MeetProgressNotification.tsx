@@ -1,4 +1,4 @@
-import { ScoringReportMeet } from "@types/EventScoringReport";
+import { ScoringReportMeet } from "types/EventScoringReport";
 import FontAwesomeIcon from "../FontAwesomeIcon";
 
 interface Props {

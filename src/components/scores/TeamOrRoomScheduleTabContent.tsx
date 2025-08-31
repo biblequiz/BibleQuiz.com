@@ -1,14 +1,13 @@
 import { useEffect } from "react";
-import { EventScoringReport, ScoringReportMeet, ScoringReportTeamMatch, ScoringReportRoom } from "@types/EventScoringReport";
+import { EventScoringReport, ScoringReportMeet, ScoringReportTeamMatch, ScoringReportRoom } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "@utils/SharedState";
-import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
-import type { ScoringReportTeam } from "../../types/EventScoringReport";
-import RoomDialogLink from "./RoomDialogLink";
-import { isTabActive } from "@utils/Tabs";
-import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
-import ToggleTeamOrQuizzerFavoriteButton from "./ToggleTeamOrQuizzerFavoriteButton";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "utils/SharedState";
+import CollapsableMeetSection from "components/scores/CollapsableMeetSection";
+import type { ScoringReportRoomMatch, ScoringReportTeam } from 'types/EventScoringReport';
+import RoomDialogLink from './RoomDialogLink';
+import { isTabActive } from "utils/Tabs";
+import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
 
 export interface Props {
     type: "Team" | "Room";
@@ -38,12 +37,20 @@ function ordinalWithSuffix(number: number): string {
     return number + "th";
 }
 
-export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isPrinting, printSinglePerPage, printStats, rootTabId, schedulesTabId }: Props) {
+export default function TeamOrRoomScheduleTabContent({
+    type,
+    eventId,
+    event,
+    isPrinting,
+    printSinglePerPage,
+    printStats,
+    rootTabId,
+    schedulesTabId }: Props) {
 
     const scrollToViewElementId = `schedule_${type}_scroll_elem`;
 
     const reportState = useStore(sharedEventScoringReportState);
-    event ??= reportState?.report;
+    event ??= reportState?.report || undefined;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
@@ -59,7 +66,7 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
         return (<span>Event is Loading ...</span>);
     }
 
-    const favorites: TeamAndQuizzerFavorites = reportState.favorites;
+    const favorites = reportState?.favorites ?? null;
     let sectionIndex = 0;
 
     return (
@@ -95,19 +102,19 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
 
                     // Build the list of quizzers.
                     let quizzerNames: string[] | null = null;;
-                    if (!isRoomReport && cardItem.Quizzers.length > 0) {
+                    if (!isRoomReport && (cardItem as ScoringReportTeam).Quizzers.length > 0) {
 
                         quizzerNames = [];
 
-                        for (let quizzerId of cardItem.Quizzers) {
-                            quizzerNames.push(meet.Quizzers[quizzerId].Name);
+                        for (let quizzerId of (cardItem as ScoringReportTeam).Quizzers) {
+                            quizzerNames.push(meet.Quizzers![quizzerId].Name);
                         }
                     }
 
                     let teamCardHighlightColor: string = "";
                     if (!isPrinting && !isRoomReport) {
-                        const isFavorite = favorites.teamIds.has(cardItem.Id);
-                        if (eventFilters?.highlightTeamId === cardItem.Id) {
+                        const isFavorite = favorites?.teamIds.has((cardItem as ScoringReportTeam).Id) || false;
+                        if (eventFilters?.highlightTeamId === (cardItem as ScoringReportTeam).Id) {
                             teamCardHighlightColor = "bg-yellow-200";
                         }
                         else if (isFavorite) {
@@ -127,29 +134,33 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                         : `${teamCardHighlightColor || "bg-base-100"} shadow-sm`;
 
                     let hasAnyMatchItems = false;
-                    const matchItems = cardItem.Matches.map((match: ScoringReportTeamMatch | number, matchIndex: number) => {
+                    const matchItems = cardItem.Matches!.map((matchItem: ScoringReportTeamMatch | ScoringReportRoomMatch | null, matchIndex: number) => {
                         const matchKey = `${key}_matches_${matchIndex}`;
-                        if (null == match) {
+                        if (null == matchItem) {
                             return (<li key={matchKey} className="ml-6">BYE</li>);
                         }
 
-                        const resolvedMeet = !meet.HasLinkedMeets || null == match.LinkedMeet
+                        const resolvedMeet = !meet.HasLinkedMeets || !(matchItem as ScoringReportRoomMatch).LinkedMeet
                             ? meet
-                            : event.Report.Meets[match.LinkedMeet];
+                            : event.Report.Meets[(matchItem as ScoringReportRoomMatch).LinkedMeet!];
 
-                        const resolvedMatch = resolvedMeet.Matches[matchIndex];
-                        let matchTeam = null;
+                        const resolvedMatch = resolvedMeet.Matches![matchIndex];
+                        let matchTeam: ScoringReportTeam | null = null;
                         let shouldHighlightSearchResult = false;
                         let shouldHighlightFavorite = false;
-                        if (match && isRoomReport) {
-                            matchTeam = resolvedMeet.Teams[match.Team1];
-                            match = matchTeam.Matches[matchIndex];
+                        let match: ScoringReportTeamMatch | null = null;
+                        if (matchItem && isRoomReport) {
+                            matchTeam = resolvedMeet.Teams![(matchItem as ScoringReportRoomMatch).Team1];
+                            match = matchTeam.Matches![matchIndex];
                             shouldHighlightSearchResult = eventFilters?.highlightTeamId === matchTeam?.Id;
-                            shouldHighlightFavorite = favorites.teamIds.has(matchTeam?.Id);
+                            shouldHighlightFavorite = favorites?.teamIds.has(matchTeam?.Id) ?? false;
+                        }
+                        else {
+                            match = matchItem as ScoringReportTeamMatch | null;
                         }
 
-                        const isLiveMatch = null != match.CurrentQuestion;
-                        const isScheduleOnly = !hasRanking || (!isLiveMatch && null == match.Score);
+                        const isLiveMatch = null != match && null != match.CurrentQuestion;
+                        const isScheduleOnly = !hasRanking || (!isLiveMatch && (match as ScoringReportTeamMatch).Score);
 
                         // Determine the prefix before each match.
                         let cellText = [];
@@ -158,14 +169,14 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                         }
 
                         if (isRoomReport) {
-                            cellText.push(`"${matchTeam.Name}"`);
+                            cellText.push(`"${matchTeam!.Name}"`);
                         }
 
                         if (isScheduleOnly) {
                             cellText.push("vs.");
                         }
                         else {
-                            switch (match.Result) {
+                            switch (match?.Result) {
                                 case "W":
                                     cellText.push(`${isRoomReport ? 'w' : 'W'}on against`);
                                     break;
@@ -173,7 +184,7 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                     cellText.push(`${isRoomReport ? 'l' : 'L'}ost to`);
                                     break;
                                 default:
-                                    if (!match.CurrentQuestion && null != match.Score) {
+                                    if (!match?.CurrentQuestion && null != match?.Score) {
                                         cellText.push(`${isRoomReport ? 'p' : 'P'}layed`);
                                     }
                                     else if (isLiveMatch) {
@@ -185,14 +196,14 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                         }
 
                         // Append the other team name and scores.
-                        if (null != match.OtherTeam) {
+                        if (null != match?.OtherTeam) {
 
-                            const otherTeam = resolvedMeet.Teams[match.OtherTeam];
+                            const otherTeam = resolvedMeet.Teams![match.OtherTeam];
                             if (!shouldHighlightSearchResult && eventFilters?.highlightTeamId == otherTeam.Id) {
                                 shouldHighlightSearchResult = true;
                             }
 
-                            if (!shouldHighlightFavorite && favorites.teamIds.has(otherTeam.Id)) {
+                            if (!shouldHighlightFavorite && (favorites?.teamIds.has(otherTeam.Id) ?? false)) {
                                 shouldHighlightFavorite = true;
                             }
 
@@ -204,7 +215,7 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                     }
                                 }
                                 else {
-                                    cellText.push(`${match.Score} to ${otherTeam.Matches[matchIndex].Score}`);
+                                    cellText.push(`${match.Score} to ${otherTeam.Matches![matchIndex]!.Score}`);
                                 }
                             }
                         }
@@ -212,18 +223,18 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
 
                             cellText.push("\"BYE TEAM\"");
 
-                            if (match.Score != null) {
-                                cellText.push(`\"BYE TEAM\" ${match.Score}`);
+                            if (match!.Score != null) {
+                                cellText.push(`\"BYE TEAM\" ${match!.Score}`);
                             }
                         }
 
                         // Add the scheduled room and time.
                         if (isScheduleOnly) {
                             if (!isRoomReport) {
-                                cellText.push(`in ${match.Room}`);
+                                cellText.push(`in ${match!.Room}`);
                             }
 
-                            const matchTime = resolvedMeet.Matches[matchIndex].MatchTime;
+                            const matchTime = resolvedMeet.Matches![matchIndex].MatchTime;
                             if (matchTime) {
                                 cellText.push(`@ ${matchTime}`);
                             }
@@ -263,12 +274,19 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                             >
                                 {isScheduleOnly && (<>{cellHtml}</>)}
                                 {!isScheduleOnly && (
-                                    <RoomDialogLink id={matchKey} label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`} eventId={eventId} databaseId={resolvedMeet.DatabaseId} meetId={resolvedMeet.MeetId} matchId={resolvedMatch.Id} roomId={match.RoomId}>
+                                    <RoomDialogLink
+                                        id={matchKey}
+                                        label={`Match ${resolvedMatch.Id} in ${match!.Room} @ ${resolvedMeet.Name}`}
+                                        eventId={eventId}
+                                        databaseId={resolvedMeet.DatabaseId}
+                                        meetId={resolvedMeet.MeetId}
+                                        matchId={resolvedMatch.Id}
+                                        roomId={match!.RoomId}>
                                         {cellHtml}
                                         {isLiveMatch && (
                                             <>
                                                 <br />
-                                                <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match.CurrentQuestion}
+                                                <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match!.CurrentQuestion}
                                             </>
                                         )}
                                     </RoomDialogLink>)}
@@ -288,27 +306,27 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                             key={cardKey}>
                             <div className="card-body">
                                 <p className="text-sm mb-0 font-bold">
-                                    {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={cardItem.Id} showText={false} />&nbsp;</>)}
+                                    {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={(cardItem as ScoringReportTeam).Id} showText={false} />&nbsp;</>)}
                                     {cardItem.Name}
                                 </p>
                                 {!isRoomReport && hasRanking && (
                                     <>
-                                        <p className="subtitle italic mt-0">{cardItem.ChurchName}</p>
+                                        <p className="subtitle italic mt-0">{(cardItem as ScoringReportTeam).ChurchName}</p>
                                         <div className="columns-4">
                                             <div className="text-center team-card-right-border">
-                                                <span className="text-lg font-bold">{ordinalWithSuffix(cardItem.Scores.Rank)}{cardItem.Scores.IsTie ? '*' : ''}</span><br />
+                                                <span className="text-lg font-bold">{ordinalWithSuffix((cardItem as ScoringReportTeam).Scores!.Rank)}{(cardItem as ScoringReportTeam).Scores!.IsTie ? '*' : ''}</span><br />
                                                 <i className="subtitle">PLACE</i>
                                             </div>
                                             <div className="text-center team-card-right-border">
-                                                <span className="text-lg font-bold">{cardItem.Scores.Wins}-{cardItem.Scores.Losses}</span><br />
+                                                <span className="text-lg font-bold">{(cardItem as ScoringReportTeam).Scores!.Wins}-{(cardItem as ScoringReportTeam).Scores!.Losses}</span><br />
                                                 <i className="subtitle">W-L</i>
                                             </div>
                                             <div className="text-center team-card-right-border">
-                                                <span className="text-lg font-bold">{cardItem.Scores.TotalPoints}</span><br />
+                                                <span className="text-lg font-bold">{(cardItem as ScoringReportTeam).Scores!.TotalPoints}</span><br />
                                                 <i className="subtitle">PTS</i>
                                             </div>
                                             <div className="text-center">
-                                                <span className="text-lg font-bold">{cardItem.Scores.AveragePoints}</span><br />
+                                                <span className="text-lg font-bold">{(cardItem as ScoringReportTeam).Scores!.AveragePoints}</span><br />
                                                 <i className="subtitle">AVG</i>
                                             </div>
                                         </div>
@@ -318,9 +336,9 @@ export default function TeamOrRoomScheduleTabContent({ type, eventId, event, isP
                                 </ol>
                                 {!isRoomReport && (
                                     <div className="text-xs mt-0">
-                                        {cardItem.CoachName && (
+                                        {(cardItem as ScoringReportTeam).CoachName && (
                                             <p className="text-xs">
-                                                <b>Head Coach:</b> {cardItem.CoachName}
+                                                <b>Head Coach:</b> {(cardItem as ScoringReportTeam).CoachName}
                                             </p>)}
                                         {quizzerNames && (
                                             <p className="mb-0 mt-0">

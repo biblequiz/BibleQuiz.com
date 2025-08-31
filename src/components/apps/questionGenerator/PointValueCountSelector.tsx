@@ -95,7 +95,7 @@ export default function PointValueCountSelector({
                             name={`point-10s-${id}`}
                             value={random10Count}
                             onChange={e => setRandom10Count(Number(e.target.value))}
-                            onBlur={e => setCriteria({ ...criteria, counts: { ...criteria.counts, 10: random10Count } })}
+                            onBlur={() => setCriteria({ ...criteria, counts: { ...criteria.counts, 10: random10Count } })}
                             placeholder="# of 10-point questions"
                             className="input input-bordered w-full"
                             disabled={disabled}
@@ -115,7 +115,7 @@ export default function PointValueCountSelector({
                             name={`point-20s-${id}`}
                             value={random20Count}
                             onChange={e => setRandom20Count(Number(e.target.value))}
-                            onBlur={e => setCriteria({ ...criteria, counts: { ...criteria.counts, 20: random20Count } })}
+                            onBlur={() => setCriteria({ ...criteria, counts: { ...criteria.counts, 20: random20Count } })}
                             placeholder="# of 20-point questions"
                             className="input input-bordered w-full"
                             disabled={disabled}
@@ -135,7 +135,7 @@ export default function PointValueCountSelector({
                             name={`point-30s-${id}`}
                             value={random30Count}
                             onChange={e => setRandom30Count(Number(e.target.value))}
-                            onBlur={e => setCriteria({ ...criteria, counts: { ...criteria.counts, 30: random30Count } })}
+                            onBlur={() => setCriteria({ ...criteria, counts: { ...criteria.counts, 30: random30Count } })}
                             placeholder="# of 30-point questions"
                             className="input input-bordered w-full"
                             disabled={disabled}

@@ -1,7 +1,7 @@
-import FontAwesomeIcon from "@components/FontAwesomeIcon";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportFilterState, sharedEventScoringReportState, type SharedEventScoringReportFilterState, type SharedEventScoringReportState } from "../../utils/SharedState";
-import type { TeamAndQuizzerFavorites } from "@types/TeamAndQuizzerFavorites";
+import { sharedEventScoringReportFilterState, sharedEventScoringReportState, type SharedEventScoringReportFilterState, type SharedEventScoringReportState } from 'utils/SharedState';
+import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
 
 interface Props {
     id: string;

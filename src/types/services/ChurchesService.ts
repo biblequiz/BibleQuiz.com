@@ -1,7 +1,7 @@
-﻿import { ParameterHelpers } from "../../utils/ParameterHelpers";
+﻿import { ParameterHelpers } from 'utils/ParameterHelpers';
 import type { AuthManager } from "../AuthManager";
-import { RemoteServiceUrlBase, RemoteServiceModelBase, RemoteServiceUtility, type RemoteServicePage } from "./RemoteServiceUtility"
-import { Address } from "./models/Address";
+import { RemoteServiceUrlBase, RemoteServiceModelBase, RemoteServiceUtility, type RemoteServicePage } from './RemoteServiceUtility'
+import { Address } from './models/Address';
 
 const URL_ROOT_PATH = "/api/Churches";
 

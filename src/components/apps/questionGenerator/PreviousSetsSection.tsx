@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { QuestionGeneratorService, type PreviouslyGeneratedSet } from "../../../types/services/QuestionGeneratorService";
+import { QuestionGeneratorService, type PreviouslyGeneratedSet } from 'types/services/QuestionGeneratorService';
 import LoadingPlaceholder from "../../LoadingPlaceholder";
 import FontAwesomeIcon from "../../FontAwesomeIcon";
-import { AuthManager } from "../../../types/AuthManager";
+import { AuthManager } from 'types/AuthManager';
 import { useNavigate, useParams } from "react-router-dom";
 
 interface Props {
@@ -120,20 +120,20 @@ export default function PreviousSetsSection({ generateSetElement }: Props) {
                                             type="button"
                                             disabled={isProcessing}
                                             className="btn btn-success btn-sm mt-0 mr-2"
-                                            onClick={e => handleView(e, set.Id)}>
+                                            onClick={e => handleView(e, set.Id!)}>
                                             <FontAwesomeIcon icon="fas faEye" />
                                         </button>
                                         <button
                                             type="button"
                                             disabled={isProcessing}
                                             className="btn btn-primary btn-sm mt-0 mr-2"
-                                            onClick={e => handleRegenerate(e, set.Id)}>
+                                            onClick={e => handleRegenerate(e, set.Id!)}>
                                             <FontAwesomeIcon icon="fas faRedo" />
                                         </button>
                                         <button
                                             type="button"
                                             disabled={isProcessing}
-                                            onClick={e => handleDelete(e, set.Id)}
+                                            onClick={e => handleDelete(e, set.Id!)}
                                             className="btn btn-error btn-sm mt-0">
                                             <FontAwesomeIcon icon="fas faTrashAlt" />
                                         </button>

@@ -1,16 +1,16 @@
 
-import { ScoringReportMeet, ScoringReportRoom } from "@types/EventScoringReport";
+import { ScoringReportMatchState, ScoringReportMeet, ScoringReportRoom } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState } from "@utils/SharedState";
-import CollapsableMeetSection from "@components/scores/CollapsableMeetSection";
-import RoomDialogLink from "@components/scores/RoomDialogLink";
-import type { EventScoresProps } from "@utils/Scores";
+import { sharedEventScoringReportState } from "utils/SharedState";
+import CollapsableMeetSection from "components/scores/CollapsableMeetSection";
+import RoomDialogLink from "components/scores/RoomDialogLink";
+import type { EventScoresProps } from "utils/Scores";
 import FontAwesomeIcon from "../FontAwesomeIcon";
 
 export default function CoordinatorTabContent({ eventId, event }: EventScoresProps) {
 
-    event ??= useStore(sharedEventScoringReportState)?.report;
+    event ??= useStore(sharedEventScoringReportState)?.report || undefined;
     if (!event) {
         return (<span>Event is Loading ...</span>);
     }
@@ -52,7 +52,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                             </thead>
                             <tbody>
                                 {Array.from({ length: meet.Rooms.length }, (_, r) => {
-                                    const room: ScoringReportRoom = meet.Rooms[r];
+                                    const room: ScoringReportRoom = meet.Rooms![r];
                                     const roomKey = `${key}_room_${r}`;
                                     return (
                                         <tr key={roomKey} className="hover:bg-base-300">
@@ -80,17 +80,17 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                                                     ? meet
                                                     : event.Report.Meets[match.LinkedMeet];
 
-                                                const matchId = resolvedMeet.Matches[m].Id;
-                                                const roomId = resolvedMeet.Teams[match.Team1].Matches[m].RoomId;
+                                                const matchId = resolvedMeet.Matches![m].Id;
+                                                const roomId = resolvedMeet.Teams![match.Team1].Matches![m]!.RoomId;
 
                                                 let iconName: string;
                                                 let iconClasses: string[] = [];
-                                                switch (match.State) {
-                                                    case "InProgress":
+                                                switch (ScoringReportMatchState[match.State as keyof typeof ScoringReportMatchState]) {
+                                                    case ScoringReportMatchState.InProgress:
                                                         iconName = "fas faHourglassStart";
                                                         iconClasses = [];
                                                         break;
-                                                    case "Completed":
+                                                    case ScoringReportMatchState.Completed:
                                                         iconName = "fas faCheckCircle";
                                                         iconClasses = ["completed-match-icon"];
                                                         break;

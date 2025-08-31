@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { useStore } from "@nanostores/react";
-import { sharedRoomScoringReportState } from "@utils/SharedState";
-import { RoomScoringReport, RoomScoringReportTeam, RoomScoringReportQuizzer, QuizzedOutState } from "@types/RoomScoringReport";
+import { sharedRoomScoringReportState } from "utils/SharedState";
+import { RoomScoringReport, RoomScoringReportTeam, RoomScoringReportQuizzer, QuizzedOutState } from "types/RoomScoringReport";
 import FontAwesomeIcon from "../FontAwesomeIcon";
-import { ReportService } from "../../types/services/ReportService";
-import type { RemoteServiceError } from "../../types/services/RemoteServiceUtility";
+import { ReportService } from 'types/services/ReportService';
+import type { RemoteServiceError } from 'types/services/RemoteServiceUtility';
 
 export default function RoomDialogContent() {
 
@@ -36,6 +36,7 @@ export default function RoomDialogContent() {
                         }))
                 .catch((error: RemoteServiceError) => {
                     sharedRoomScoringReportState.set({
+                        criteria: null,
                         report: null,
                         error: `Unknown error occurred: ${error.message}`
                     });
