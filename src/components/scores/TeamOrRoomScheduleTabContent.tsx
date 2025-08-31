@@ -134,165 +134,164 @@ export default function TeamOrRoomScheduleTabContent({
                         : `${teamCardHighlightColor || "bg-base-100"} shadow-sm`;
 
                     let hasAnyMatchItems = false;
-                    const matchItems = cardItem.Matches!.map(
-                        (matchItem: ScoringReportTeamMatch | ScoringReportRoomMatch | null, matchIndex: number) => {
-                            const matchKey = `${key}_matches_${matchIndex}`;
-                            if (null == matchItem) {
-                                return (<li key={matchKey} className="ml-6">BYE</li>);
-                            }
+                    const matchItems = cardItem.Matches!.map((matchItem: ScoringReportTeamMatch | ScoringReportRoomMatch | null, matchIndex: number) => {
+                        const matchKey = `${key}_matches_${matchIndex}`;
+                        if (null == matchItem) {
+                            return (<li key={matchKey} className="ml-6">BYE</li>);
+                        }
 
-                            const resolvedMeet = !meet.HasLinkedMeets || !(matchItem as ScoringReportRoomMatch).LinkedMeet
-                                ? meet
-                                : event.Report.Meets[(matchItem as ScoringReportRoomMatch).LinkedMeet!];
+                        const resolvedMeet = !meet.HasLinkedMeets || !(matchItem as ScoringReportRoomMatch).LinkedMeet
+                            ? meet
+                            : event.Report.Meets[(matchItem as ScoringReportRoomMatch).LinkedMeet!];
 
-                            const resolvedMatch = resolvedMeet.Matches![matchIndex];
-                            let matchTeam: ScoringReportTeam | null = null;
-                            let shouldHighlightSearchResult = false;
-                            let shouldHighlightFavorite = false;
-                            let match: ScoringReportTeamMatch | null = null;
-                            if (matchItem && isRoomReport) {
-                                matchTeam = resolvedMeet.Teams![(matchItem as ScoringReportRoomMatch).Team1];
-                                match = matchTeam.Matches![matchIndex];
-                                shouldHighlightSearchResult = eventFilters?.highlightTeamId === matchTeam?.Id;
-                                shouldHighlightFavorite = favorites?.teamIds.has(matchTeam?.Id) ?? false;
-                            }
-                            else {
-                                match = matchItem as ScoringReportTeamMatch | null;
-                            }
+                        const resolvedMatch = resolvedMeet.Matches![matchIndex];
+                        let matchTeam: ScoringReportTeam | null = null;
+                        let shouldHighlightSearchResult = false;
+                        let shouldHighlightFavorite = false;
+                        let match: ScoringReportTeamMatch | null = null;
+                        if (matchItem && isRoomReport) {
+                            matchTeam = resolvedMeet.Teams![(matchItem as ScoringReportRoomMatch).Team1];
+                            match = matchTeam.Matches![matchIndex];
+                            shouldHighlightSearchResult = eventFilters?.highlightTeamId === matchTeam?.Id;
+                            shouldHighlightFavorite = favorites?.teamIds.has(matchTeam?.Id) ?? false;
+                        }
+                        else {
+                            match = matchItem as ScoringReportTeamMatch | null;
+                        }
 
-                            const isLiveMatch = null != match && null != match.CurrentQuestion;
-                            const isScheduleOnly = !hasRanking || (!isLiveMatch && (match as ScoringReportTeamMatch).Score);
+                        const isLiveMatch = null != match && null != match.CurrentQuestion;
+                        const isScheduleOnly = !hasRanking || (!isLiveMatch && (match as ScoringReportTeamMatch).Score);
 
-                            // Determine the prefix before each match.
-                            let cellText = [];
-                            if (null != resolvedMatch.PlayoffIndex) {
-                                cellText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
-                            }
+                        // Determine the prefix before each match.
+                        let cellText = [];
+                        if (null != resolvedMatch.PlayoffIndex) {
+                            cellText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
+                        }
 
-                            if (isRoomReport) {
-                                cellText.push(`"${matchTeam!.Name}"`);
-                            }
+                        if (isRoomReport) {
+                            cellText.push(`"${matchTeam!.Name}"`);
+                        }
 
-                            if (isScheduleOnly) {
-                                cellText.push("vs.");
-                            }
-                            else {
-                                switch (match?.Result) {
-                                    case "W":
-                                        cellText.push(`${isRoomReport ? 'w' : 'W'}on against`);
-                                        break;
-                                    case "L":
-                                        cellText.push(`${isRoomReport ? 'l' : 'L'}ost to`);
-                                        break;
-                                    default:
-                                        if (!match?.CurrentQuestion && null != match?.Score) {
-                                            cellText.push(`${isRoomReport ? 'p' : 'P'}layed`);
-                                        }
-                                        else if (isLiveMatch) {
-                                            cellText.push(`${isRoomReport ? 'p' : 'P'}laying`);
-                                        }
-
-                                        break;
-                                }
-                            }
-
-                            // Append the other team name and scores.
-                            if (null != match?.OtherTeam) {
-
-                                const otherTeam = resolvedMeet.Teams![match.OtherTeam];
-                                if (!shouldHighlightSearchResult && eventFilters?.highlightTeamId == otherTeam.Id) {
-                                    shouldHighlightSearchResult = true;
-                                }
-
-                                if (!shouldHighlightFavorite && (favorites?.teamIds.has(otherTeam.Id) ?? false)) {
-                                    shouldHighlightFavorite = true;
-                                }
-
-                                cellText.push(otherTeam.Name);
-                                if (!isScheduleOnly) {
-                                    if (isLiveMatch) {
-                                        if (!isRoomReport) {
-                                            cellText.push(`in ${match.Room}`);
-                                        }
+                        if (isScheduleOnly) {
+                            cellText.push("vs.");
+                        }
+                        else {
+                            switch (match?.Result) {
+                                case "W":
+                                    cellText.push(`${isRoomReport ? 'w' : 'W'}on against`);
+                                    break;
+                                case "L":
+                                    cellText.push(`${isRoomReport ? 'l' : 'L'}ost to`);
+                                    break;
+                                default:
+                                    if (!match?.CurrentQuestion && null != match?.Score) {
+                                        cellText.push(`${isRoomReport ? 'p' : 'P'}layed`);
                                     }
-                                    else {
-                                        cellText.push(`${match.Score} to ${otherTeam.Matches![matchIndex]!.Score}`);
+                                    else if (isLiveMatch) {
+                                        cellText.push(`${isRoomReport ? 'p' : 'P'}laying`);
+                                    }
+
+                                    break;
+                            }
+                        }
+
+                        // Append the other team name and scores.
+                        if (null != match?.OtherTeam) {
+
+                            const otherTeam = resolvedMeet.Teams![match.OtherTeam];
+                            if (!shouldHighlightSearchResult && eventFilters?.highlightTeamId == otherTeam.Id) {
+                                shouldHighlightSearchResult = true;
+                            }
+
+                            if (!shouldHighlightFavorite && (favorites?.teamIds.has(otherTeam.Id) ?? false)) {
+                                shouldHighlightFavorite = true;
+                            }
+
+                            cellText.push(otherTeam.Name);
+                            if (!isScheduleOnly) {
+                                if (isLiveMatch) {
+                                    if (!isRoomReport) {
+                                        cellText.push(`in ${match.Room}`);
                                     }
                                 }
-                            }
-                            else {
-
-                                cellText.push("\"BYE TEAM\"");
-
-                                if (match!.Score != null) {
-                                    cellText.push(`\"BYE TEAM\" ${match!.Score}`);
+                                else {
+                                    cellText.push(`${match.Score} to ${otherTeam.Matches![matchIndex]!.Score}`);
                                 }
                             }
+                        }
+                        else {
 
-                            // Add the scheduled room and time.
-                            if (isScheduleOnly) {
-                                if (!isRoomReport) {
-                                    cellText.push(`in ${match!.Room}`);
-                                }
+                            cellText.push("\"BYE TEAM\"");
 
-                                const matchTime = resolvedMeet.Matches![matchIndex].MatchTime;
-                                if (matchTime) {
-                                    cellText.push(`@ ${matchTime}`);
-                                }
-                                if (isRoomReport && resolvedMeet.HasLinkedMeets) {
-                                    cellText.push(`(${resolvedMeet.Name})`);
-                                }
+                            if (match!.Score != null) {
+                                cellText.push(`\"BYE TEAM\" ${match!.Score}`);
                             }
-                            else if (isRoomReport && resolvedMeet.HasLinkedMeets) {
+                        }
+
+                        // Add the scheduled room and time.
+                        if (isScheduleOnly) {
+                            if (!isRoomReport) {
+                                cellText.push(`in ${match!.Room}`);
+                            }
+
+                            const matchTime = resolvedMeet.Matches![matchIndex].MatchTime;
+                            if (matchTime) {
+                                cellText.push(`@ ${matchTime}`);
+                            }
+                            if (isRoomReport && resolvedMeet.HasLinkedMeets) {
                                 cellText.push(`(${resolvedMeet.Name})`);
                             }
+                        }
+                        else if (isRoomReport && resolvedMeet.HasLinkedMeets) {
+                            cellText.push(`(${resolvedMeet.Name})`);
+                        }
 
-                            // Determine the highlight color (if any).
-                            let matchHighlightColor: string = "";
-                            if (!isPrinting) {
-                                if (shouldHighlightSearchResult) {
-                                    matchHighlightColor = "bg-yellow-200";
-                                }
-                                else if (shouldHighlightFavorite) {
-                                    matchHighlightColor = "bg-accent-100";
-                                }
-
-                                if (showOnlyFavorites && !shouldHighlightFavorite && isRoomReport) {
-                                    return null; // Skip this match if not a favorite.
-                                }
+                        // Determine the highlight color (if any).
+                        let matchHighlightColor: string = "";
+                        if (!isPrinting) {
+                            if (shouldHighlightSearchResult) {
+                                matchHighlightColor = "bg-yellow-200";
+                            }
+                            else if (shouldHighlightFavorite) {
+                                matchHighlightColor = "bg-accent-100";
                             }
 
-                            hasAnyMatchItems = true;
+                            if (showOnlyFavorites && !shouldHighlightFavorite && isRoomReport) {
+                                return null; // Skip this match if not a favorite.
+                            }
+                        }
 
-                            // Combine into HTML.
-                            const cellHtml = cellText.join(" ");
+                        hasAnyMatchItems = true;
 
-                            return (
-                                <li
-                                    key={matchKey}
-                                    className={`ml-6 ${matchHighlightColor}`}
-                                    value={matchIndex + 1}
-                                >
-                                    {isScheduleOnly && (<>{cellHtml}</>)}
-                                    {!isScheduleOnly && (
-                                        <RoomDialogLink
-                                            id={matchKey}
-                                            label={`Match ${resolvedMatch.Id} in ${match!.Room} @ ${resolvedMeet.Name}`}
-                                            eventId={eventId}
-                                            databaseId={resolvedMeet.DatabaseId}
-                                            meetId={resolvedMeet.MeetId}
-                                            matchId={resolvedMatch.Id}
-                                            roomId={match!.RoomId}>
-                                            {cellHtml}
-                                            {isLiveMatch && (
-                                                <>
-                                                    <br />
-                                                    <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match!.CurrentQuestion}
-                                                </>
-                                            )}
-                                        </RoomDialogLink>)}
-                                </li>);
-                        });
+                        // Combine into HTML.
+                        const cellHtml = cellText.join(" ");
+
+                        return (
+                            <li
+                                key={matchKey}
+                                className={`ml-6 ${matchHighlightColor}`}
+                                value={matchIndex + 1}
+                            >
+                                {isScheduleOnly && (<>{cellHtml}</>)}
+                                {!isScheduleOnly && (
+                                    <RoomDialogLink
+                                        id={matchKey}
+                                        label={`Match ${resolvedMatch.Id} in ${match!.Room} @ ${resolvedMeet.Name}`}
+                                        eventId={eventId}
+                                        databaseId={resolvedMeet.DatabaseId}
+                                        meetId={resolvedMeet.MeetId}
+                                        matchId={resolvedMatch.Id}
+                                        roomId={match!.RoomId}>
+                                        {cellHtml}
+                                        {isLiveMatch && (
+                                            <>
+                                                <br />
+                                                <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match!.CurrentQuestion}
+                                            </>
+                                        )}
+                                    </RoomDialogLink>)}
+                            </li>);
+                    });
 
                     if (!hasAnyMatchItems) {
                         return null;
