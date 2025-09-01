@@ -233,7 +233,7 @@ export enum QuestionLanguage {
     /**
      * English.
      */
-    English,
+    English = "English",
 }
 
 /**
@@ -244,12 +244,12 @@ export enum DuplicateQuestionMode {
     /**
      * No duplicates will be selected until ALL other questions have been chosen.
      */
-    NoDuplicates,
+    NoDuplicates = "NoDuplicates",
 
     /**
      * No duplicates will be selected within a single match but may be selected in other matches.
      */
-    AllowDuplicatesInOtherMatches
+    AllowDuplicatesInOtherMatches = "AllowDuplicatesInOtherMatches"
 }
 
 /**
@@ -286,17 +286,17 @@ export enum QuestionPositionRequirement {
     /**
      * Allowed to be in the position, but not required.
      */
-    Allowed,
+    Allowed = "Allowed",
 
     /**
      * Required to be at the specified position.
      */
-    Required,
+    Required = "Required",
 
     /**
      * Not allowed to be in the specific position.
      */
-    NotAllowed,
+    NotAllowed = "NotAllowed",
 }
 
 /**

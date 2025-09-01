@@ -34,7 +34,7 @@ export default function CompleteProfileSection({ }: Props) {
         event.stopPropagation();
 
         sharedGlobalStatusToast.set({
-            type: "warning",
+            type: "success",
             title: "Saving",
             message: "We are completing your profile setup now ...",
             showLoading: true,

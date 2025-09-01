@@ -61,7 +61,7 @@ export default function OtherSettingsSelector({ criteria, regularQuestions, setC
 
     const handleDuplicateModeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 
-        const newValue = Number(event.target.value) as DuplicateQuestionMode;
+        const newValue = event.target.value as DuplicateQuestionMode;
         setCriteria({
             ...criteria,
             duplicates: newValue
@@ -101,24 +101,26 @@ export default function OtherSettingsSelector({ criteria, regularQuestions, setC
                     </span>
                 </label>
             </div>
-
-            <PointValueRulesSelector
-                pointValue={10}
-                maxPerHalfMin={maxPerHalfMin10}
-                rules={criteria.pointValueRules[10] || {}}
-                setRules={rules => setCriteria({ ...criteria, pointValueRules: { ...criteria.pointValueRules, 10: rules } })}
-            />
-            <PointValueRulesSelector
-                pointValue={20}
-                maxPerHalfMin={maxPerHalfMin20}
-                rules={criteria.pointValueRules[20] || {}}
-                setRules={rules => setCriteria({ ...criteria, pointValueRules: { ...criteria.pointValueRules, 20: rules } })}
-            />
-            <PointValueRulesSelector
-                pointValue={30}
-                maxPerHalfMin={maxPerHalfMin30}
-                rules={criteria.pointValueRules[30] || {}}
-                setRules={rules => setCriteria({ ...criteria, pointValueRules: { ...criteria.pointValueRules, 30: rules } })}
-            />
+            {regularQuestions.type !== PointValueOrdering.Manual && (
+                <>
+                    <PointValueRulesSelector
+                        pointValue={10}
+                        maxPerHalfMin={maxPerHalfMin10}
+                        rules={criteria.pointValueRules[10] || {}}
+                        setRules={rules => setCriteria({ ...criteria, pointValueRules: { ...criteria.pointValueRules, 10: rules } })}
+                    />
+                    <PointValueRulesSelector
+                        pointValue={20}
+                        maxPerHalfMin={maxPerHalfMin20}
+                        rules={criteria.pointValueRules[20] || {}}
+                        setRules={rules => setCriteria({ ...criteria, pointValueRules: { ...criteria.pointValueRules, 20: rules } })}
+                    />
+                    <PointValueRulesSelector
+                        pointValue={30}
+                        maxPerHalfMin={maxPerHalfMin30}
+                        rules={criteria.pointValueRules[30] || {}}
+                        setRules={rules => setCriteria({ ...criteria, pointValueRules: { ...criteria.pointValueRules, 30: rules } })}
+                    />
+                </>)}
         </fieldset>);
 }
