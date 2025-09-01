@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { sharedDirtyWindowState, sharedGlobalStatusToast } from 'utils/SharedState';
+import { sharedDirtyWindowState } from 'utils/SharedState';
 import { DuplicateQuestionMode, QuestionGeneratorService, QuestionLanguage, QuestionPositionRequirement, QuestionSelectionCriteria, QuestionTypeFilter } from 'types/services/QuestionGeneratorService';
 import settings from 'data/generated/questionGenerator.json';
 import type { JbqQuestionGeneratorSettings } from 'types/QuestionGeneratorSettings';

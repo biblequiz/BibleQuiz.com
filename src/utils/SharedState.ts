@@ -116,12 +116,11 @@ export const sharedQuizzerSearchState = atom<QuizzerSearchState | null>(null);
 export interface GlobalToastMessage {
     type: "error" | "success" | "info" | "warning";
     title: string;
-    message?: string;
+    message: string;
     timeout?: number;
     keepOpen?: boolean;
     icon?: string;
     showLoading?: boolean;
-    messageChildren?: React.ReactNode;
 }
 
 export const sharedGlobalStatusToast = atom<GlobalToastMessage | null>(null);
