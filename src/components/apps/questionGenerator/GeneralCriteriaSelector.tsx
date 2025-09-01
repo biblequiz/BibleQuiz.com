@@ -94,7 +94,7 @@ export default function GeneralCriteriaSelector({
                         name="language"
                         className="select select-bordered w-full mt-0"
                         value={criteria.language}
-                        onChange={e => setCriteria({ ...criteria, language: Number(e.target.value) as QuestionLanguage })}
+                        onChange={e => setCriteria({ ...criteria, language: e.target.value as QuestionLanguage })}
                         required
                     >
                         {Object.values(QuestionLanguage).map((lang) => (

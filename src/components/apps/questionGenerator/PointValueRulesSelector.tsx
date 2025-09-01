@@ -31,7 +31,7 @@ export default function PointValueRulesSelector({
                     name={`first-question-${pointValue}`}
                     className="select select-bordered w-full mt-0"
                     value={rules.First}
-                    onChange={e => setRules({ ...rules, First: Number(e.target.value) as QuestionPositionRequirement })}
+                    onChange={e => setRules({ ...rules, First: e.target.value as QuestionPositionRequirement })}
                     required
                 >
                     <option value={QuestionPositionRequirement.Required}>Required</option>
@@ -48,7 +48,7 @@ export default function PointValueRulesSelector({
                     name={`last-question-${pointValue}`}
                     className="select select-bordered w-full mt-0"
                     value={rules.Last}
-                    onChange={e => setRules({ ...rules, Last: Number(e.target.value) as QuestionPositionRequirement })}
+                    onChange={e => setRules({ ...rules, Last: e.target.value as QuestionPositionRequirement })}
                     required
                 >
                     <option value={QuestionPositionRequirement.Required}>Required</option>

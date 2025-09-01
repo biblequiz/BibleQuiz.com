@@ -1,5 +1,6 @@
 ﻿import { ParameterHelpers } from 'utils/ParameterHelpers';
 import type { AuthManager } from "../AuthManager";
+import { sharedGlobalStatusToast } from 'utils/SharedState';
 
 /**
  * Endpoint in the service to use.
@@ -327,10 +328,12 @@ export class RemoteServiceUtility {
             fetch(url, fetchOptions)
                 .then(async response => {
 
-                    // If the response isn't okay, it is possible it contains an error message.
-                    if (!response.ok) {
-
-                        // Attempt to read the data as JSON.
+                    if (response.ok) {
+                        // Clear any error currently displayed in case the user was retrying.
+                        sharedGlobalStatusToast.set(null);
+                    }
+                    else {
+                        // If the response isn't okay, it is possible it contains an error message.
                         let errorDetails: ApiError | null;
                         try {
                             errorDetails = await response.json();

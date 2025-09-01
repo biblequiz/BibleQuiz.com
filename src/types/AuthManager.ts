@@ -441,7 +441,7 @@ export class AuthManager {
                 }
             });
 
-        const remoteProfile = await response.json();
+        const remoteProfile = await response.json() as RemoteUserProfile;
 
         const newProfile = new UserAccountProfile(
             remoteProfile.PersonId,

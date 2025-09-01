@@ -265,13 +265,24 @@ export default function GenerateSetSection({ generateSetElement }: Props) {
                         ensureAllPointValuesPresent(newSubstituteCounts);
                         ensureAllPointValuesPresent(previousSet.OvertimeQuestions ??= {});
 
+                        const regularOrderingType = previousSet.RegularPointOverride
+                            ? PointValueOrdering.Manual
+                            : PointValueOrdering.Random;
+
+                        const pointValueRules =
+                            regularOrderingType === PointValueOrdering.Manual
+                                ? DEFAULT_CUSTOM_RULES.other.pointValueRules
+                                : {
+                                    10: previousSet.PointValueRules?.[10] ?? DEFAULT_CUSTOM_RULES.other.pointValueRules[10],
+                                    20: previousSet.PointValueRules?.[20] ?? DEFAULT_CUSTOM_RULES.other.pointValueRules[20],
+                                    30: previousSet.PointValueRules?.[30] ?? DEFAULT_CUSTOM_RULES.other.pointValueRules[30]
+                                };
+
                         setCustomRules({
                             regularQuestions: {
                                 counts: previousSet.PointValueCounts,
                                 manualOrder: previousSet.RegularPointOverride ?? DEFAULT_CUSTOM_RULES.regularQuestions.manualOrder,
-                                type: previousSet.RegularPointOverride
-                                    ? PointValueOrdering.Manual
-                                    : PointValueOrdering.Random
+                                type: regularOrderingType
                             },
                             substituteQuestions: { counts: newSubstituteCounts },
                             overtimeQuestions: { counts: previousSet.OvertimeQuestions },
@@ -286,11 +297,7 @@ export default function GenerateSetSection({ generateSetElement }: Props) {
                             },
                             other: {
                                 duplicates: previousSet.Duplicates,
-                                pointValueRules: {
-                                    10: previousSet.PointValueRules?.[10] ?? DEFAULT_CUSTOM_RULES.other.pointValueRules[10],
-                                    20: previousSet.PointValueRules?.[20] ?? DEFAULT_CUSTOM_RULES.other.pointValueRules[20],
-                                    30: previousSet.PointValueRules?.[30] ?? DEFAULT_CUSTOM_RULES.other.pointValueRules[30]
-                                }
+                                pointValueRules: pointValueRules
                             }
                         });
                     }
@@ -314,12 +321,6 @@ export default function GenerateSetSection({ generateSetElement }: Props) {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-
-        // If nothing has changed, don't create a new set.
-        if (!sharedDirtyWindowState.get() && previousSetId) {
-            navigate(`/print/${previousSetId}`);
-            return;
-        }
 
         const criteria = getGeneratorCriteria(generalCriteria, mode, templateType, customRules);
 

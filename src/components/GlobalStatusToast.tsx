@@ -11,7 +11,7 @@ export default function GlobalStatusToast({ }: Props) {
     const toastState = useStore(sharedGlobalStatusToast);
     useEffect(() => {
         if (toastState && !toastState.keepOpen) {
-            setTimeout(() => sharedGlobalStatusToast.set(null), toastState?.timeout || 5000);
+            setTimeout(() => sharedGlobalStatusToast.set(null), toastState?.timeout || 30000);
         }
     }, [toastState]);
 

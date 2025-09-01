@@ -6,6 +6,7 @@ import LoadingPlaceholder from "../../LoadingPlaceholder";
 import FontAwesomeIcon from "../../FontAwesomeIcon";
 import CriteriaSummary from './CriteriaSummary';
 import FormatSelector, { DEFAULT_COLUMN, DEFAULT_FONT, DEFAULT_SIZE } from './FormatSelector';
+import { sharedGlobalStatusToast } from "utils/SharedState";
 
 interface Props {
 }
@@ -59,6 +60,14 @@ export default function PrintPage({ }: Props) {
 
         setIsDownloading(true);
 
+        sharedGlobalStatusToast.set({
+            type: "success",
+            title: "Preparing",
+            message: "We are preparing the question set now ...",
+            showLoading: true,
+            keepOpen: true,
+        });
+
         await QuestionGeneratorService.downloadGeneratedFile(
             auth,
             setId!,
@@ -66,7 +75,11 @@ export default function PrintPage({ }: Props) {
             font,
             fontSize,
             columns)
-            .catch(error => setLatestError(error));
+            .then(() => sharedGlobalStatusToast.set(null))
+            .catch(error => {
+                sharedGlobalStatusToast.set(null);
+                setLatestError(error);
+            });
 
         setIsDownloading(false);
     };
