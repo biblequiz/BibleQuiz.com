@@ -58,7 +58,7 @@ export default defineConfig({
                 {
                     label: "Junior Bible Quiz (JBQ)",
                     collapsed: true,
-                    autogenerate: { directory: "jbq" },
+                    autogenerate: { directory: "jbq" }
                 },
                 {
                     label: "Teen Bible Quiz (TBQ)",

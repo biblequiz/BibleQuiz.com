@@ -37,7 +37,7 @@ const { sublist, nested, toc } = Astro.props;
                 {entry.type === "link" && (
                     <div>
                         <a
-                            href={entry.href}
+                            href={entry.attrs?.href || entry.href}
                             aria-current={entry.isCurrent && "page"}
                             class:list={[{ large: !nested }, entry.attrs.class]}
                             {...entry.attrs}
