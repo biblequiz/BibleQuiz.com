@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { DuplicateQuestionMode, QuestionPointValueRules } from 'types/services/QuestionGeneratorService';
+import { DuplicateQuestionMode, QuestionPointValueRules, QuestionPositionRequirement } from 'types/services/QuestionGeneratorService';
 import { PointValueOrdering, type PointValueCriteria } from './PointValueCountSelector';
 import PointValueRulesSelector from './PointValueRulesSelector';
 
@@ -68,6 +68,33 @@ export default function OtherSettingsSelector({ criteria, regularQuestions, setC
         });
     };
 
+    const isFirstRequired = (pointValue: number) => {
+        return regularQuestions.counts[pointValue] > 0 &&
+            criteria.pointValueRules[pointValue]?.First === QuestionPositionRequirement.Required;
+    }
+
+    const isLastRequired = (pointValue: number) => {
+        return regularQuestions.counts[pointValue] > 0 &&
+            criteria.pointValueRules[pointValue]?.Last === QuestionPositionRequirement.Required;
+    }
+
+    const setOtherRequirements = (
+        rules: QuestionPointValueRules,
+        allRules: Record<number, QuestionPointValueRules>,
+        otherPointValue: number) => {
+
+        const otherRules = allRules[otherPointValue];
+        if (rules.First === QuestionPositionRequirement.Required &&
+            otherRules?.First === QuestionPositionRequirement.Required) {
+            otherRules.First = QuestionPositionRequirement.Allowed;
+        }
+
+        if (rules.Last === QuestionPositionRequirement.Required &&
+            otherRules?.Last === QuestionPositionRequirement.Required) {
+            otherRules.Last = QuestionPositionRequirement.Allowed;
+        }
+    }
+
     return (
         <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 mt-0 mb-0">
             <legend className="fieldset-legend">Other Settings</legend>
@@ -103,24 +130,48 @@ export default function OtherSettingsSelector({ criteria, regularQuestions, setC
             </div>
             {regularQuestions.type !== PointValueOrdering.Manual && (
                 <>
-                    <PointValueRulesSelector
-                        pointValue={10}
-                        maxPerHalfMin={maxPerHalfMin10}
-                        rules={criteria.pointValueRules[10] || {}}
-                        setRules={rules => setCriteria({ ...criteria, pointValueRules: { ...criteria.pointValueRules, 10: rules } })}
-                    />
-                    <PointValueRulesSelector
-                        pointValue={20}
-                        maxPerHalfMin={maxPerHalfMin20}
-                        rules={criteria.pointValueRules[20] || {}}
-                        setRules={rules => setCriteria({ ...criteria, pointValueRules: { ...criteria.pointValueRules, 20: rules } })}
-                    />
-                    <PointValueRulesSelector
-                        pointValue={30}
-                        maxPerHalfMin={maxPerHalfMin30}
-                        rules={criteria.pointValueRules[30] || {}}
-                        setRules={rules => setCriteria({ ...criteria, pointValueRules: { ...criteria.pointValueRules, 30: rules } })}
-                    />
+                    {regularQuestions.counts[10] > 0 && (
+                        <PointValueRulesSelector
+                            pointValue={10}
+                            maxPerHalfMin={maxPerHalfMin10}
+                            rules={criteria.pointValueRules[10] || {}}
+                            setRules={rules => {
+                                const newRules = { ...criteria.pointValueRules, 10: rules };
+                                setOtherRequirements(rules, newRules, 20);
+                                setOtherRequirements(rules, newRules, 30);
+                                setCriteria({ ...criteria, pointValueRules: newRules });
+                            }}
+                            disableFirstRequirement={isFirstRequired(20) || isFirstRequired(30)}
+                            disableLastRequirement={isLastRequired(20) || isLastRequired(30)}
+                        />)}
+                    {regularQuestions.counts[20] > 0 && (
+                        <PointValueRulesSelector
+                            pointValue={20}
+                            maxPerHalfMin={maxPerHalfMin20}
+                            rules={criteria.pointValueRules[20] || {}}
+                            setRules={rules => {
+                                const newRules = { ...criteria.pointValueRules, 20: rules };
+                                setOtherRequirements(rules, newRules, 10);
+                                setOtherRequirements(rules, newRules, 30);
+                                setCriteria({ ...criteria, pointValueRules: newRules });
+                            }}
+                            disableFirstRequirement={isFirstRequired(10) || isFirstRequired(30)}
+                            disableLastRequirement={isLastRequired(10) || isLastRequired(30)}
+                        />)}
+                    {regularQuestions.counts[30] > 0 && (
+                        <PointValueRulesSelector
+                            pointValue={30}
+                            maxPerHalfMin={maxPerHalfMin30}
+                            rules={criteria.pointValueRules[30] || {}}
+                            setRules={rules => {
+                                const newRules = { ...criteria.pointValueRules, 30: rules };
+                                setOtherRequirements(rules, newRules, 10);
+                                setOtherRequirements(rules, newRules, 20);
+                                setCriteria({ ...criteria, pointValueRules: newRules });
+                            }}
+                            disableFirstRequirement={isFirstRequired(10) || isFirstRequired(20)}
+                            disableLastRequirement={isLastRequired(10) || isLastRequired(20)}
+                        />)}
                 </>)}
         </fieldset>);
 }
