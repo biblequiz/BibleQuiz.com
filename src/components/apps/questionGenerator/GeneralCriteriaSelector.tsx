@@ -22,11 +22,9 @@ export default function GeneralCriteriaSelector({
     setCriteria }: Props) {
 
     const [title, setTitle] = useState<string>(criteria.title || "");
-    const [rounds, setRounds] = useState<number>(criteria.rounds);
 
     useEffect(() => {
         setTitle(criteria.title || "");
-        setRounds(criteria.rounds);
     }, [criteria]);
 
     return (
@@ -54,19 +52,32 @@ export default function GeneralCriteriaSelector({
                         <span className="label-text font-medium">Rounds</span>
                         <span className="label-text-alt text-error">*</span>
                     </label>
-                    <input
-                        type="number"
+                    <select
                         name="rounds"
-                        value={rounds}
-                        onChange={e => setRounds(Number(e.target.value))}
-                        onBlur={() => setCriteria({ ...criteria, rounds: rounds })}
-                        placeholder="Enter number of rounds"
-                        className="input input-bordered w-full"
-                        min={1}
-                        max={18}
-                        step={1}
+                        className="select select-bordered w-full mt-0"
+                        value={criteria.rounds}
+                        onChange={e => setCriteria({ ...criteria, rounds: Number(e.target.value) })}
                         required
-                    />
+                    >
+                        <option value={1}>1</option>
+                        <option value={2}>2</option>
+                        <option value={3}>3</option>
+                        <option value={4}>4</option>
+                        <option value={5}>5</option>
+                        <option value={6}>6</option>
+                        <option value={7}>7</option>
+                        <option value={8}>8</option>
+                        <option value={9}>9</option>
+                        <option value={10}>10</option>
+                        <option value={11}>11</option>
+                        <option value={12}>12</option>
+                        <option value={13}>13</option>
+                        <option value={14}>14</option>
+                        <option value={15}>15</option>
+                        <option value={16}>16</option>
+                        <option value={17}>17</option>
+                        <option value={18}>18</option>
+                    </select>
                 </div>
                 <div className="w-full mt-0">
                     <label className="label">

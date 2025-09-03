@@ -196,7 +196,7 @@ const DEFAULT_CUSTOM_RULES: CustomRules = {
         groups: new Set<number>(
             Array.from({ length: GENERATOR_SETTINGS.GroupCategoryKeys.length }, (_, i) => i + 1)),
         categories: new Set<string>(GENERATOR_SETTINGS.OrderedCategoryKeys),
-        ranges: []
+        ranges: [{ Start: 1, End: 288 }, { Start: 289, End: 480 }, { Start: 481, End: 576 }]
     },
     other: {
         duplicates: DuplicateQuestionMode.NoDuplicates,

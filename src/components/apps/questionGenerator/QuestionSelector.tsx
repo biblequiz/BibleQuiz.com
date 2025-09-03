@@ -33,8 +33,8 @@ export default function QuestionSelector({ criteria, setCriteria }: Props) {
                     onChange={e => setCriteria({ ...criteria, type: QuestionSelectionType[e.target.value as keyof typeof QuestionSelectionType] })}
                     required
                 >
-                    <option value={QuestionSelectionType.Group}>Select by Group</option>
-                    <option value={QuestionSelectionType.Category}>Select by Category</option>
+                    <option value={QuestionSelectionType.Group}>Select by Category Group</option>
+                    <option value={QuestionSelectionType.Category}>Select by Individual Category</option>
                     <option value={QuestionSelectionType.Range}>Select by Question Number Range</option>
                 </select>
             </div>

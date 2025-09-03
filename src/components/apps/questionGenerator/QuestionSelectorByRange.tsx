@@ -154,7 +154,7 @@ export default function QuestionSelectorByRange({
                 </div>)}
             {!addState && (
                 <button
-                    className="badge badge-secondary mt-0 text-secondary-content hover:bg-secondary-focus cursor-pointer"
+                    className="badge badge-success mt-0 text-success-content hover:bg-success-focus cursor-pointer"
                     type="button"
                     aria-label="Add Range"
                     onClick={startAddRange}
