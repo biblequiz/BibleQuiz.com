@@ -4,13 +4,13 @@ import { QuestionGeneratorService, QuestionOutputFormat, QuestionSelectionCriter
 import FontAwesomeIcon from "../../FontAwesomeIcon";
 import FormatSelector, { DEFAULT_COLUMN, DEFAULT_FONT, DEFAULT_SIZE } from './FormatSelector';
 import { sharedGlobalStatusToast } from "utils/SharedState";
+import type { RemoteServiceError } from 'types/services/RemoteServiceUtility';
+import { DataTypeHelpers } from 'utils/DataTypeHelpers';
 
 interface Props {
     criteria: QuestionSelectionCriteria;
     onClose: () => void;
 }
-
-const SESSION_STORAGE_KEY = "question-generator-format";
 
 export default function DownloadSetDialog({ criteria, onClose }: Props) {
 
@@ -18,25 +18,13 @@ export default function DownloadSetDialog({ criteria, onClose }: Props) {
     const formRef = useRef<HTMLFormElement>(null);
 
     const [isDownloading, setIsDownloading] = useState<boolean>(false);
-    const [title, setTitle] = useState<string>(() => {
-        return sessionStorage.getItem(SESSION_STORAGE_KEY) || "";
-    });
+    const [title, setTitle] = useState<string>("Generated");
     const [font, setFont] = useState<string>(DEFAULT_FONT);
     const [fontSize, setFontSize] = useState<number>(DEFAULT_SIZE);
     const [columns, setColumns] = useState<number>(DEFAULT_COLUMN);
     const [seed, setSeed] = useState<string | null>(criteria.Seed);
 
     const [latestError, setLatestError] = useState<string | null>(null);
-
-    if (latestError) {
-        return (
-            <div className={`alert alert-error flex flex-col`}>
-                <p className="text-sm">
-                    <FontAwesomeIcon icon="fas faCircleExclamation" classNames={["mr-2"]} />&nbsp;
-                    <b>Failed to Download File: </b>{latestError}
-                </p>
-            </div>);
-    }
 
     const handleDownload = async (event: React.MouseEvent<HTMLButtonElement>, format: QuestionOutputFormat) => {
         event.preventDefault();
@@ -69,9 +57,9 @@ export default function DownloadSetDialog({ criteria, onClose }: Props) {
             fontSize,
             columns)
             .then(() => sharedGlobalStatusToast.set(null))
-            .catch(error => {
+            .catch((error: RemoteServiceError) => {
                 sharedGlobalStatusToast.set(null);
-                setLatestError(error);
+                setLatestError(error.message);
             });
 
         setIsDownloading(false);
@@ -87,26 +75,34 @@ export default function DownloadSetDialog({ criteria, onClose }: Props) {
                         <span className="text-lg font-bold">IMPORTANT</span>
                     </div>
                     <div className="mt-0">
-                        This will create 
+                        This will create
                         Be sure to download the PDF and ScoreKeep file from this
                         dialog <b><i>before</i></b> closing it. A new random order (i.e.,
                         seed) will be used if you close and reopen the dialog.
                     </div>
                 </div>
+                {latestError && (
+                    <div className={`alert alert-error flex flex-col`}>
+                        <p className="text-sm">
+                            <FontAwesomeIcon icon="fas faCircleExclamation" classNames={["mr-2"]} />&nbsp;
+                            <b>Failed to Download File: </b>{latestError}
+                        </p>
+                    </div>)}
                 <form ref={formRef} method="dialog" className="gap-2" onSubmit={onClose}>
                     <div className="w-full mt-0">
                         <label className="label">
                             <span className="label-text font-medium">Title</span>
+                            <span className="label-text-alt text-error">*</span>
                         </label>
                         <input
                             type="text"
                             name="title"
                             value={title}
                             onChange={e => setTitle(e.target.value)}
-                            onBlur={() => sessionStorage.setItem(SESSION_STORAGE_KEY, title)}
                             placeholder="Enter title for the set"
                             className="input input-bordered w-full"
                             maxLength={80}
+                            required
                         />
                     </div>
                     <FormatSelector
