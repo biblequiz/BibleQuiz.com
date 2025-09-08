@@ -1,5 +1,5 @@
 ﻿import type { AuthManager } from "../AuthManager";
-import { RemoteServiceModelBase, RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility';
+import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility';
 
 const URL_ROOT_PATH = "/api/QuestionGenerator";
 
@@ -9,44 +9,67 @@ const URL_ROOT_PATH = "/api/QuestionGenerator";
 export class QuestionGeneratorService {
 
     /**
-     * Retrieves the previously generated sets.
+     * Retrieves previously saved templates.
      *
      * @param auth AuthManager to use for authentication.
      */
-    public static getPreviousSets(
-        auth: AuthManager): Promise<PreviouslyGeneratedSet[]> {
+    public static getTemplates(
+        auth: AuthManager): Promise<Record<string, QuestionSelectionCriteria>> {
 
-        return RemoteServiceUtility.executeHttpRequest<PreviouslyGeneratedSet[]>(
+        return RemoteServiceUtility.executeHttpRequest<Record<string, QuestionSelectionCriteria>>(
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/Previous`);
+            `${URL_ROOT_PATH}/Templates`);
     }
 
     /**
-     * Retrieves the criteria for a previously generated set.
+     * Creates a new template.
      *
      * @param auth AuthManager to use for authentication.
-     * @param id Id for the set.
+     * @param criteria Criteria about questions.
+     * @returns Normalized criteria.
      */
-    public static getPreviousSetCriteria(
+    public static createTemplate(
         auth: AuthManager,
-        id: string): Promise<QuestionSelectionCriteria> {
+        criteria: QuestionSelectionCriteria): Promise<QuestionSelectionCriteria> {
 
         return RemoteServiceUtility.executeHttpRequest<QuestionSelectionCriteria>(
             auth,
-            "GET",
+            "POST",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/Previous/${id}/Criteria`);
+            `${URL_ROOT_PATH}/Templates`,
+            null,
+            criteria);
     }
 
     /**
-     * Deletes an existing previous set.
+     * Updates an existing template.
      *
      * @param auth AuthManager to use for authentication.
-     * @param id Id for the set.
+     * @param criteria Criteria about questions.
+     * @returns Normalized criteria.
      */
-    public static deletePreviousSet(
+    public static createOrUpdateTemplate(
+        auth: AuthManager,
+        criteria: QuestionSelectionCriteria): Promise<QuestionSelectionCriteria> {
+
+        return RemoteServiceUtility.executeHttpRequest<QuestionSelectionCriteria>(
+            auth,
+            "PUT",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/Templates`,
+            null,
+            criteria);
+    }
+
+    /**
+     * Deletes an existing template.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param id Id for the template.
+     */
+    public static deleteTemplate(
         auth: AuthManager,
         id: string): Promise<void> {
 
@@ -54,24 +77,23 @@ export class QuestionGeneratorService {
             auth,
             "DELETE",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/Previous/${id}`);
+            `${URL_ROOT_PATH}/Templates/${id}`);
     }
 
     /**
-     * Generates questions based on criteria.
+     * Validates criteria. If it succeeds, the criteria is considered valid.
      *
      * @param auth AuthManager to use for authentication.
-     * @param criteria Criteria for generating questions.
      */
-    public static selectQuestions(
+    public static validateCriteria(
         auth: AuthManager,
-        criteria: QuestionSelectionCriteria): Promise<QuestionSelectionResult> {
+        criteria: QuestionSelectionCriteria): Promise<QuestionSelectionCriteria> {
 
-        return RemoteServiceUtility.executeHttpRequest<QuestionSelectionResult>(
+        return RemoteServiceUtility.executeHttpRequest<QuestionSelectionCriteria>(
             auth,
             "POST",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/Select`,
+            `${URL_ROOT_PATH}/Validate`,
             null,
             criteria);
     }
@@ -80,15 +102,15 @@ export class QuestionGeneratorService {
      * Downloads the generated file in the specified format.
      *
      * @param auth AuthManager to use for authentication.
-     * @param id Id for the set.
+     * @param criteria Criteria to use for the question.
      * @param format Format for the output.
      * @param fontName Name of the font when format is Pdf.
      * @param fontSize Size of the font when format is Pdf.
      * @param columns Number of columns to use when format is Pdf.
      */
-    public static downloadGeneratedFile(
+    public static downloadFile(
         auth: AuthManager,
-        id: string,
+        criteria: QuestionSelectionCriteria,
         format: QuestionOutputFormat,
         fontName: string | null = null,
         fontSize: number | null = null,
@@ -96,48 +118,29 @@ export class QuestionGeneratorService {
 
         return RemoteServiceUtility.downloadFromHttpRequest(
             auth,
-            "GET",
+            "POST",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/Previous/${id}/Generate`,
+            `${URL_ROOT_PATH}/File`,
             RemoteServiceUtility.getFilteredUrlParameters({
                 format: QuestionOutputFormat[format],
                 font: fontName,
                 size: fontSize,
                 col: columns
-            })
-        );
+            }),
+            undefined,
+            criteria);
     }
-}
-
-/**
- * Previously generated sets of questions.
- */
-export class PreviouslyGeneratedSet extends RemoteServiceModelBase<string> {
-    /**
-     * Title for the set.
-     */
-    public readonly Title!: string;
-
-    /**
-     * Date when the set was generated.
-     */
-    public readonly Generated!: string;
-
-    /**
-     * Number of matches in the set.
-     */
-    public readonly Matches!: number;
-
-    /**
-     * Number of questions in the set.
-     */
-    public readonly Questions!: number;
 }
 
 /**
  * Criteria for selecting questions.
  */
 export class QuestionSelectionCriteria {
+
+    /**
+     * Id for the selection (if it is persisted).
+     */
+    public Id!: string | null;
 
     /**
      * Season for the Factpak. If this is null, the current season will be used.
@@ -355,10 +358,10 @@ export enum QuestionOutputFormat {
     /**
      * PDF File.
      */
-    Pdf,
+    Pdf = "Pdf",
 
     /**
      * ScoreKeep File.
      */
-    ScoreKeep
+    ScoreKeep = "ScoreKeep"
 }

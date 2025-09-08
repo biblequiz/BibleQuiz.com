@@ -1,10 +1,18 @@
+import type { QuestionSelectionCriteria } from 'types/services/QuestionGeneratorService';
 import { QuestionMode } from './QuestionModeSelector';
 import TemplateSelectorItem from './TemplateSelectorItem';
+import CustomTemplateSelector from './CustomTemplateSelector';
 
 interface Props {
     mode: QuestionMode;
-    template: CriteriaTemplateType;
-    setTemplate: (template: CriteriaTemplateType) => void;
+    template: CriteriaTemplateType | string | null;
+    setTemplate: (template: CriteriaTemplateType | string) => void;
+
+    customTemplates: Record<string, QuestionSelectionCriteria> | null;
+    setCustomTemplates: (newTemplates: Record<string, QuestionSelectionCriteria> | null) => void;
+
+    setIsLoadingTemplates: (isLoadingTemplates: boolean) => void;
+    setDialogTemplateId: (id: string | null) => void;
 }
 
 export enum CriteriaTemplateType {
@@ -19,7 +27,14 @@ export enum CriteriaTemplateType {
     Custom = "Custom",
 }
 
-export default function TemplateSelector({ mode, template, setTemplate }: Props) {
+export default function TemplateSelector({
+    mode,
+    template,
+    setTemplate,
+    customTemplates,
+    setCustomTemplates,
+    setIsLoadingTemplates,
+    setDialogTemplateId }: Props) {
 
     return (
         <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 mt-0 mb-0">
@@ -95,5 +110,14 @@ export default function TemplateSelector({ mode, template, setTemplate }: Props)
                         Random set of 95 questions from 107 verses.
                     </TemplateSelectorItem>
                 </>)}
+            {mode === QuestionMode.MyTemplates && (
+                <CustomTemplateSelector
+                    customTemplates={customTemplates}
+                    setCustomTemplates={setCustomTemplates}
+                    currentTemplate={template as string}
+                    setCurrentTemplate={setTemplate}
+                    setIsLoadingTemplates={setIsLoadingTemplates}
+                    setDialogTemplateId={setDialogTemplateId}
+                />)}
         </fieldset>);
 }

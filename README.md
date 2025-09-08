@@ -41,6 +41,27 @@ sidebar:
     icon: fab fa-windows
 ```
 
+### External Link
+
+To use a link not backed by a page, you can add an `href` to the attrs that will be used by the sidebar.
+For example:
+
+```mdx
+---
+title: "Results"
+sidebar:
+  attrs:
+    href: /assets/2026/2026-jbq-rules.pdf
+    target: _blank
+---
+
+:::caution
+The content of this page is programmatically replaced by the automatic event page generation. The 
+frontmatter is used to sort and label the item in the sidebar. If you see this, it's an error or you
+manually navigated to this page.
+:::
+```
+
 ### Sorting
 
 By default, sorting happens based on the *file name*, not the title.

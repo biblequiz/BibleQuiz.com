@@ -1,10 +1,11 @@
-import { useEffect, useState } from "react";
 import { QuestionPositionRequirement, type QuestionPointValueRules } from 'types/services/QuestionGeneratorService';
 
 interface Props {
     pointValue: number;
     rules: QuestionPointValueRules;
     maxPerHalfMin: number;
+    disableFirstRequirement: boolean;
+    disableLastRequirement: boolean;
     setRules: (criteria: QuestionPointValueRules) => void;
 }
 
@@ -12,13 +13,11 @@ export default function PointValueRulesSelector({
     pointValue,
     rules,
     maxPerHalfMin,
+    disableFirstRequirement,
+    disableLastRequirement,
     setRules }: Props) {
 
-    const [perHalfCount, setPerHalfCount] = useState<number>(rules.PerHalfCount ?? 0);
-
-    useEffect(() => {
-        setPerHalfCount(rules.PerHalfCount ?? 0);
-    }, [rules]);
+    const minPerHalfKey = `min-per-half-${pointValue}`;
 
     return (
         <div className="bg-base-100 border-base-300 rounded-box border p-4 grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -32,6 +31,7 @@ export default function PointValueRulesSelector({
                     className="select select-bordered w-full mt-0"
                     value={rules.First}
                     onChange={e => setRules({ ...rules, First: e.target.value as QuestionPositionRequirement })}
+                    disabled={disableFirstRequirement}
                     required
                 >
                     <option value={QuestionPositionRequirement.Required}>Required</option>
@@ -49,6 +49,7 @@ export default function PointValueRulesSelector({
                     className="select select-bordered w-full mt-0"
                     value={rules.Last}
                     onChange={e => setRules({ ...rules, Last: e.target.value as QuestionPositionRequirement })}
+                    disabled={disableLastRequirement}
                     required
                 >
                     <option value={QuestionPositionRequirement.Required}>Required</option>
@@ -75,21 +76,18 @@ export default function PointValueRulesSelector({
                     <span className="label-text font-medium">Min {pointValue}-point per Half</span>
                     <span className="label-text-alt text-error">*</span>
                 </label>
-                <input
-                    type="number"
-                    name={`min-per-half-${pointValue}`}
-                    value={perHalfCount}
-                    onChange={e => setPerHalfCount(Number(e.target.value))}
-                    onBlur={() => setRules({ ...rules, PerHalfCount: perHalfCount })}
-                    className="input input-bordered w-full"
-                    min={0}
-                    max={maxPerHalfMin}
-                    step={1}
+                <select
+                    name={minPerHalfKey}
+                    className="select select-bordered w-full mt-0"
+                    value={rules.PerHalfCount ?? 0}
+                    onChange={e => setRules({ ...rules, PerHalfCount: Number(e.target.value) })}
                     required
-                />
-                <span>
-                    Maximum {maxPerHalfMin} based on total questions.
-                </span>
+                >
+                    {Array.from({ length: maxPerHalfMin + 1 }, (_, i) => (
+                        <option key={`minPerHalfKey-${i}`} value={i}>
+                            {i}
+                        </option>))}
+                </select>
             </div>
         </div>);
 };
