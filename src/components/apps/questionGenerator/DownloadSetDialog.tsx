@@ -5,7 +5,6 @@ import FontAwesomeIcon from "../../FontAwesomeIcon";
 import FormatSelector, { DEFAULT_COLUMN, DEFAULT_FONT, DEFAULT_SIZE } from './FormatSelector';
 import { sharedGlobalStatusToast } from "utils/SharedState";
 import type { RemoteServiceError } from 'types/services/RemoteServiceUtility';
-import { DataTypeHelpers } from 'utils/DataTypeHelpers';
 
 interface Props {
     criteria: QuestionSelectionCriteria;
