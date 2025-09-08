@@ -1,8 +1,7 @@
 import { AuthManager } from 'types/AuthManager';
-import { useState, useRef, useEffect } from "react";
-import { QuestionGeneratorService, QuestionOutputFormat, QuestionSelectionCriteria } from 'types/services/QuestionGeneratorService';
+import { useState } from "react";
+import { QuestionGeneratorService, QuestionSelectionCriteria } from 'types/services/QuestionGeneratorService';
 import FontAwesomeIcon from "../../FontAwesomeIcon";
-import FormatSelector, { DEFAULT_COLUMN, DEFAULT_FONT, DEFAULT_SIZE } from './FormatSelector';
 import { sharedGlobalStatusToast } from "utils/SharedState";
 
 interface Props {

@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react';
 import { AuthManager } from 'types/AuthManager';
 import type { RemoteServiceError } from 'types/services/RemoteServiceUtility';
 import FontAwesomeIcon from 'components/FontAwesomeIcon';
-import { CriteriaTemplateType } from './TemplateSelector';
 
 interface Props {
     customTemplates: Record<string, QuestionSelectionCriteria> | null;
