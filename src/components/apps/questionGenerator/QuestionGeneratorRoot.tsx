@@ -5,7 +5,6 @@ import { sharedDirtyWindowState } from 'utils/SharedState';
 import ConfirmationDialog from '../../ConfirmationDialog';
 import ProtectedRoute from '../../auth/ProtectedRoute';
 import MainPage from './MainPage';
-import PrintPage from './PrintPage';
 
 interface Props {
     loadingElementId: string;
@@ -56,12 +55,8 @@ const router = createHashRouter([
                 element: <ProtectedRoute />,
                 children: [
                     {
-                        path: ":setId?",
+                        path: "",
                         element: <MainPage key="main-page" />
-                    },
-                    {
-                        path: "print/:setId",
-                        element: <PrintPage />
                     }
                 ]
             }

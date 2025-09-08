@@ -4,14 +4,16 @@ import FontAwesomeIcon from "../../FontAwesomeIcon";
 interface Props {
     mode: QuestionMode;
     setMode: (mode: QuestionMode) => void;
+    isLoadingTemplates: boolean;
 }
 
 export enum QuestionMode {
     Competition = "Competition",
     BibleMaster = "BibleMaster",
+    MyTemplates = "MyTemplates",
 }
 
-export default function QuestionModeSelector({ mode, setMode }: Props) {
+export default function QuestionModeSelector({ mode, setMode, isLoadingTemplates }: Props) {
 
     const handleModeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setMode(QuestionMode[event.target.value as keyof typeof QuestionMode]);
@@ -27,7 +29,8 @@ export default function QuestionModeSelector({ mode, setMode }: Props) {
                     className="radio radio-info"
                     value={QuestionMode[QuestionMode.Competition]}
                     checked={mode === QuestionMode.Competition}
-                    onChange={handleModeChange} />
+                    onChange={handleModeChange}
+                    disabled={isLoadingTemplates} />
                 <span className="text-sm">
                     <FontAwesomeIcon icon="fas faFutbol" />&nbsp;Competition or Practice
                 </span>
@@ -39,9 +42,23 @@ export default function QuestionModeSelector({ mode, setMode }: Props) {
                     className="radio radio-info"
                     value={QuestionMode[QuestionMode.BibleMaster]}
                     checked={mode === QuestionMode.BibleMaster}
-                    onChange={handleModeChange} />
+                    onChange={handleModeChange}
+                    disabled={isLoadingTemplates} />
                 <span className="text-sm">
                     <FontAwesomeIcon icon="fas faTrophy" />&nbsp;Bible Master Awards
+                </span>
+            </label>
+            <label className="label text-wrap">
+                <input
+                    type="radio"
+                    name="question-mode"
+                    className="radio radio-info"
+                    value={QuestionMode[QuestionMode.MyTemplates]}
+                    checked={mode === QuestionMode.MyTemplates}
+                    onChange={handleModeChange}
+                    disabled={isLoadingTemplates} />
+                <span className="text-sm">
+                    <FontAwesomeIcon icon="fas faFolderOpen" />&nbsp;My Templates
                 </span>
             </label>
         </fieldset>);

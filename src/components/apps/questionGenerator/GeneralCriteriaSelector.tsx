@@ -9,7 +9,6 @@ interface Props {
 }
 
 export interface GeneralCriteria {
-    title?: string;
     rounds: number;
     season: number;
     language: QuestionLanguage;
@@ -21,31 +20,8 @@ export default function GeneralCriteriaSelector({
     criteria,
     setCriteria }: Props) {
 
-    const [title, setTitle] = useState<string>(criteria.title || "");
-
-    useEffect(() => {
-        setTitle(criteria.title || "");
-    }, [criteria]);
-
     return (
         <>
-            <div className="w-full">
-                <label className="label">
-                    <span className="label-text font-medium">Title</span>
-                    <span className="label-text-alt text-error">*</span>
-                </label>
-                <input
-                    type="text"
-                    name="title"
-                    value={title}
-                    onChange={e => setTitle(e.target.value)}
-                    onBlur={() => setCriteria({ ...criteria, title: title.trim() })}
-                    placeholder="Enter title for the set"
-                    className="input input-bordered w-full"
-                    maxLength={80}
-                    required
-                />
-            </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="w-full mt-0">
                     <label className="label">
