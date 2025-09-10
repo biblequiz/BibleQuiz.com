@@ -121,7 +121,7 @@ export default function StatsTabContent({
                                         <span>{team.Scores!.Rank}</span>)}
                                 </th>
                                 <th className="pl-0">
-                                    <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} showText={false} />&nbsp;
+                                    <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} /><br />
                                     {team.Name}<br />
                                     <span className="font-normal italic">{team.ChurchName}</span>
                                 </th>
@@ -182,7 +182,7 @@ export default function StatsTabContent({
                                         <span>{quizzer.Scores!.Rank}</span>)}
                                 </th>
                                 <th className="pl-0">
-                                    <ToggleTeamOrQuizzerFavoriteButton type="quizzer" id={quizzer.Id} showText={false} />&nbsp;
+                                    <ToggleTeamOrQuizzerFavoriteButton type="quizzer" id={quizzer.Id} /><br />
                                     {quizzer.Name}
                                 </th>
                                 <td>

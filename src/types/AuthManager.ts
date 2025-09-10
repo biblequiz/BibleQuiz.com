@@ -158,7 +158,12 @@ export enum PopupType {
     /**
      * Logout popup is present.
      */
-    Logout
+    Logout,
+
+    /**
+     * Login is required, but it has been disabled.
+     */
+    LoginRequired,
 }
 
 /**
@@ -171,6 +176,7 @@ export class AuthManager {
     private readonly _lock: AsyncLock = new AsyncLock();
 
     private _resolvedClient: IPublicClientApplication | null = null;
+    private _showLoginWindowFromBackground: boolean = false;
 
     private _accessTokenResolve: ((value: string | null | PromiseLike<string | null>) => void) | null = null;
     private _accessTokenReject: ((reason?: any) => void) | null = null
@@ -192,8 +198,6 @@ export class AuthManager {
             profile: initialProfile,
             popupType: PopupType.None,
             isRetrievingProfile: false,
-            loginResolve: null,
-            loginReject: null
         } as AuthManagerReactState);
 
         privateStores.set(this, store);
@@ -346,9 +350,10 @@ export class AuthManager {
     /**
      * Retrieves the latest access token for the current user. If the user was signed in, but their
      * token expired, this may display a popup for the user to sign in again.
+     * @param isBackground Value indicating whether this is a background process.
      * @returns The latest access token or null if not available.
      */
-    public async getLatestAccessToken(): Promise<string | null> {
+    public async getLatestAccessToken(isBackground: boolean = false): Promise<string | null> {
 
         return new Promise<string | null>(
             async (resolve, reject) => {
@@ -386,12 +391,17 @@ export class AuthManager {
                         console.log("Token acquisition requires interaction, prompting user to sign in again");
                     }
 
-                    // It's possible the user is no longer signed in. In this case, save the resolve
-                    // and reject so the user can be prompted to sign in again.
-                    this._accessTokenResolve = resolve;
-                    this._accessTokenReject = reject;
+                    if (!isBackground || this._showLoginWindowFromBackground) {
+                        // It's possible the user is no longer signed in. In this case, save the resolve
+                        // and reject so the user can be prompted to sign in again.
+                        this._accessTokenResolve = resolve;
+                        this._accessTokenReject = reject;
 
-                    this.getNanoState().setKey("popupType", PopupType.LoginConfirmationDialog);
+                        this.getNanoState().setKey("popupType", PopupType.LoginConfirmationDialog);
+                    }
+                    else {
+                        this.getNanoState().setKey("popupType", PopupType.LoginRequired);
+                    }
                 }
             });
     }
@@ -409,6 +419,13 @@ export class AuthManager {
     }
 
     /**
+     * Enable the login window to appear if required by the background refresh.
+     */
+    public showLoginWindowFromBackground(): void {
+        this._showLoginWindowFromBackground = true;
+    }
+
+    /**
      * Set up periodic token refresh to prevent expiration
      */
     private setupPeriodicTokenRefresh(): void {
@@ -422,7 +439,7 @@ export class AuthManager {
 
     private async renewTokenWithoutError(): Promise<void> {
         try {
-            await this.getLatestAccessToken();
+            await this.getLatestAccessToken(true);
         } catch (error) {
             console.log("Periodic token refresh failed:", error);
         }
@@ -457,7 +474,7 @@ export class AuthManager {
         state.setKey("popupType", PopupType.None);
         state.setKey("isRetrievingProfile", false);
         state.setKey("profile", newProfile);
-        
+
         if (this._accessTokenResolve) {
             this._accessTokenResolve(accessToken);
             this._accessTokenResolve = null;

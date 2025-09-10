@@ -24,10 +24,11 @@ export default function ToggleFavoritesOnlyButton({ isLoaded }: Props) {
 
     return (
         <button
-            className="btn btn-accent cursor-pointer hide-on-print"
+            className={`btn ${showOnlyFavorites ? "btn-accent" : "btn-outline"} cursor-pointer hide-on-print break-words`}
             onClick={handleSearchClick}
             disabled={!isLoaded}
         >
             <FontAwesomeIcon icon={showOnlyFavorites ? "fas faStar" : "far faStar"} />
+            <span>Show {showOnlyFavorites ? "All" : "Followed"}</span>
         </button>);
 }
