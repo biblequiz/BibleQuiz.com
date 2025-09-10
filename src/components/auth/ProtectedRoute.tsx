@@ -9,6 +9,7 @@ interface Props {
 export default function ProtectedRoute({ }: Props) {
 
     const authManager = AuthManager.useNanoStore();
+    authManager.showLoginWindowFromBackground();
 
     // The user isn't signed in at all.
     const currentProfile = authManager.userProfile;

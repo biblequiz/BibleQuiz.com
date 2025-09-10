@@ -6,11 +6,10 @@ import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
 interface Props {
     id: string;
     type: "team" | "quizzer";
-    showText: boolean;
     buttonSize?: string;
 }
 
-export default function ToggleTeamOrQuizzerFavoriteButton({ id, type, showText, buttonSize }: Props) {
+export default function ToggleTeamOrQuizzerFavoriteButton({ id, type, buttonSize }: Props) {
 
     const reportState: SharedEventScoringReportState = useStore(sharedEventScoringReportState as any);
     const eventFilters: SharedEventScoringReportFilterState = useStore(sharedEventScoringReportFilterState as any);
@@ -22,13 +21,16 @@ export default function ToggleTeamOrQuizzerFavoriteButton({ id, type, showText, 
 
     // Capture the id set for the type.
     let favoriteIdSet: Set<string>;
+    let objectText: string;
     switch (type) {
         case "team":
             favoriteIdSet = favorites.teamIds;
+            objectText = "Team";
             break;
 
         case "quizzer":
             favoriteIdSet = favorites.quizzerIds;
+            objectText = "Quizzer";
             break;
 
         default:
@@ -63,10 +65,10 @@ export default function ToggleTeamOrQuizzerFavoriteButton({ id, type, showText, 
 
     return (
         <button
-            className={`btn ${isCurrentFavorite ? "btn-accent" : "btn-warning"} cursor-pointer hide-on-print pt-0 pb-0 btn-${buttonSize ?? "xs"}`}
+            className={`btn ${isCurrentFavorite ? "btn-accent" : "btn-outline"} cursor-pointer hide-on-print pt-0 pb-0 btn-${buttonSize ?? "xs"} text-nowrap`}
             onClick={handleFavoritesButtonClick}
         >
             <FontAwesomeIcon icon={isCurrentFavorite ? "fas faStar" : "far faStar"} />
-            {showText && (isCurrentFavorite ? "Remove from Favorites" : "Add to Favorites")}
+            {isCurrentFavorite ? "Unfollow" : "Follow"} {objectText}
         </button>);
 }
