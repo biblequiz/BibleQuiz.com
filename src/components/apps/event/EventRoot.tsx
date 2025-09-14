@@ -48,7 +48,7 @@ function RootLayout({ loadingElementId }: Props) {
 const router = createHashRouter([
     {
         path: "/",
-        element: <RootLayout loadingElementId="generator-fallback" />,
+        element: <RootLayout loadingElementId="event-fallback" />,
         children: [
             {
                 path: "/",
@@ -64,6 +64,6 @@ const router = createHashRouter([
     }
 ]);
 
-export default function QuestionGeneratorRoot() {
+export default function EventRoot() {
     return <RouterProvider router={router} />;
 }

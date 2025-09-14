@@ -1,0 +1,14 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import EventApp from "components/apps/event/EventApp.astro";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Manage My Event"
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <EventApp />
+</StarlightPage>
