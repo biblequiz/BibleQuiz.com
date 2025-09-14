@@ -8,7 +8,7 @@ import SiteTitle from "virtual:starlight/components/SiteTitle";
 import SocialIcons from "./SocialIcons.astro";
 // @ts-ignore
 import ThemeSelect from "virtual:starlight/components/ThemeSelect";
-import AuthButton from "./auth/AuthButton";
+import AuthButton, { AuthButtonType } from "./auth/AuthButton";
 import GlobalNotificationManager from "./GlobalNotificationManager.astro";
 
 /**
@@ -33,7 +33,7 @@ const shouldRenderSearch =
             <SocialIcons />
         </div>
         <ThemeSelect />
-        <AuthButton isMobile={false} client:only="react" />
+        <AuthButton type={AuthButtonType.Desktop} client:only="react" />
     </div>
 </div>
 

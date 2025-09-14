@@ -333,6 +333,11 @@ export class RemoteServiceUtility {
                         sharedGlobalStatusToast.set(null);
                     }
                     else {
+
+                        if (response.status == 401 && auth) {
+                            auth.requireLoginWindow();
+                        }
+
                         // If the response isn't okay, it is possible it contains an error message.
                         let errorDetails: ApiError | null;
                         try {
