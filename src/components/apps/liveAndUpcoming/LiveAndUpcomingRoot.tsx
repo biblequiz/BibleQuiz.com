@@ -20,6 +20,7 @@ interface EventItem {
     urlSlug: string;
     sortDate: Date;
     isNationals: boolean;
+    isRegistrationOpen: boolean;
 }
 
 export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props) {
@@ -63,7 +64,8 @@ export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props)
                         sortDate: startDate,
                         type: type,
                         urlSlug: urlSlug,
-                        isNationals: urlSlug === "nationals/results/"
+                        isNationals: urlSlug === "nationals/results/",
+                        isRegistrationOpen: false
                     };
 
                     // TBQ has a special landing page for Nationals. If the date is in the future,
@@ -80,9 +82,12 @@ export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props)
                         if (eventItem.isNationals && startDate > today && startDate < nationalsCutoff) {
                             isUpcoming = true;
                         }
-                        else if (event.registrationEndDate) {
-                            const date = DataTypeHelpers.parseDateOnly(event.registrationEndDate)!;
-                            isUpcoming = date > today && date <= upcomingCutoff;
+                        else {
+                            isUpcoming = startDate > today && startDate <= upcomingCutoff;
+                            if (event.registrationEndDate) {
+                                const date = DataTypeHelpers.parseDateOnly(event.registrationEndDate)!;
+                                eventItem.isRegistrationOpen = date > today && date <= upcomingCutoff;
+                            }
                         }
 
                         if (isUpcoming) {
@@ -116,7 +121,13 @@ export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props)
                         {liveEvents.map(event => (
                             <EventCard
                                 key={event.info.id}
-                                info={{ type: event.type, urlSlug: event.urlSlug, event: event.info, isNationals: event.isNationals }}
+                                info={{
+                                    type: event.type,
+                                    urlSlug: event.urlSlug,
+                                    event: event.info,
+                                    isNationals: event.isNationals,
+                                    isRegistrationOpen: event.isRegistrationOpen
+                                }}
                                 isLive={true}
                             />
                         ))}
@@ -133,7 +144,13 @@ export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props)
                         {upcomingEvents.map(event => (
                             <EventCard
                                 key={event.info.id}
-                                info={{ type: event.type, urlSlug: event.urlSlug, event: event.info, isNationals: event.isNationals }}
+                                info={{
+                                    type: event.type,
+                                    urlSlug: event.urlSlug,
+                                    event: event.info,
+                                    isNationals: event.isNationals,
+                                    isRegistrationOpen: event.isRegistrationOpen
+                                }}
                                 isLive={false}
                             />
                         ))}

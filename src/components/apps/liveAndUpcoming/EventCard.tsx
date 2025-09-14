@@ -11,18 +11,22 @@ interface EventWrapper {
     urlSlug: string;
     event: EventInfo;
     isNationals: boolean;
+    isRegistrationOpen: boolean;
 }
 
 export default function EventCard({ info, isLive }: Props) {
 
     const cardLink = info
-        ? ((isLive || info.isNationals)
+        ? ((isLive || info.isNationals || !info.isRegistrationOpen)
             ? `/${info.type}/seasons/${info.event.season}/${info.urlSlug}`
             : `https://registration.biblequiz.com/#/Registration/${info.event.id}`)
         : "/upcoming-events/";
 
     return (
-        <a className="card live-events-card w-96 card-sm shadow-sm border-2 border-solid mt-0 relative" href={cardLink}>
+        <a
+            className="card live-events-card w-96 card-sm shadow-sm border-2 border-solid mt-0 relative"
+            href={cardLink}
+            target={cardLink.startsWith("http") ? "_blank" : "_self"}>
             <div className="card-body">
                 {info && (
                     <div className="flex items-start gap-4">
@@ -36,6 +40,9 @@ export default function EventCard({ info, isLive }: Props) {
                                 {info.event.name}
                             </h2>
                             <p className="mt-0">{info.event.dates}</p>
+                            {info.isRegistrationOpen && (
+                                <span className="badge badge-neutral">Registration Available</span>
+                            )}
                         </div>
                     </div>)}
                 {!info && (
