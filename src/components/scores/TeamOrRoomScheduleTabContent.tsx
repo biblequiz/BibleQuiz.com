@@ -306,7 +306,7 @@ export default function TeamOrRoomScheduleTabContent({
                             key={cardKey}>
                             <div className="card-body">
                                 <p className="text-sm mb-0 font-bold">
-                                    {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={(cardItem as ScoringReportTeam).Id} showText={false} />&nbsp;</>)}
+                                    {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={(cardItem as ScoringReportTeam).Id} />&nbsp;</>)}
                                     {cardItem.Name}
                                 </p>
                                 {!isRoomReport && hasRanking && (

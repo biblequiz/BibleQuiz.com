@@ -146,7 +146,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                                                     {team.ChurchName}
                                                 </p>
                                                 <div className="card-actions grid grid-cols-1 gap-2">
-                                                    <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} showText={true} buttonSize="md" />
+                                                    <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} buttonSize="md" />
                                                     {indexItem.meets.map((meet: ScoringReportMeet) => (
                                                         <button
                                                             className="btn btn-primary mt-0"
@@ -182,7 +182,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                                                     <span className="font-normal italic">{quizzer.ChurchName}</span>
                                                 </p>
                                                 <div className="card-actions grid grid-cols-1 gap-2">
-                                                    <ToggleTeamOrQuizzerFavoriteButton type="quizzer" id={quizzer.Id} showText={true} buttonSize="md" />
+                                                    <ToggleTeamOrQuizzerFavoriteButton type="quizzer" id={quizzer.Id} buttonSize="md" />
                                                     {indexItem.meets.map((meet: ScoringReportMeet) => (
                                                         <button
                                                             className="btn btn-primary mt-0 btn-md"
@@ -210,7 +210,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                     className="alert alert-warning"
                 >
                     <span>
-                        Only favorites are being displayed. If you want to remove this, click
+                        Only followed teams and quizzers are displayed. If you want to remove this, click
                         the&nbsp;<FontAwesomeIcon icon="fas faStar" />&nbsp;button in the top-right.
                     </span>
                 </div>)}

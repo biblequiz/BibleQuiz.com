@@ -13,7 +13,10 @@ export default function AuthButton({ isMobile }: Props) {
 
     const userProfile = authManager.userProfile;
     let buttonElement: JSX.Element;
-    if (authManager.popupType != PopupType.None || authManager.isRetrievingProfile) {
+    if (authManager.popupType === PopupType.LoginRequired) {
+        return null;
+    }
+    else if (authManager.popupType != PopupType.None || authManager.isRetrievingProfile) {
         buttonElement = (
             <>
                 <div className={`w-${isMobile ? "full" : "24 text-xs"} text-center`}>
