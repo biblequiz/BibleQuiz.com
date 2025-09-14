@@ -4,27 +4,20 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
 
 import { CardGrid, LinkCard } from "@astrojs/starlight/components";
+import LiveAndUpcomingApp from "components/apps/liveAndUpcoming/LiveAndUpcomingApp.astro";
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "Home Page",
     template: "splash",
+    hidePageTitle: true
 };
 ---
 
 <StarlightPage frontmatter={frontmatter}>
 
-    <CardGrid>
-        <LinkCard
-            title="Upcoming & Live Events"
-            description="Register and see scores for any upcoming Junior or Teen Bible Quiz events."
-            href="/upcoming-events/"
-        />
+    <LiveAndUpcomingApp />
 
-        <!--    <LinkCard
-            title="TBQ National Finals
-            description="All the information for TBQ National Finals in Tuscon, AZ."
-            href="/tbq/seasons/2026/nationals/" /> -->
-    </CardGrid>
+    <div class="divider"></div>
 
     <CardGrid>
         <LinkCard

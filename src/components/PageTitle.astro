@@ -8,46 +8,47 @@ const {
     eventScopeLabel,
     eventLocation,
     eventIsLoaded,
+    hidePageTitle,
     hidePageTitleOnPrint,
 } = Astro.locals.starlightRoute.entry.data;
 
-import ExcelExportButton from './scores/ExcelExportButton.astro';
-import PrintDialogButton from './scores/PrintDialogButton.astro';
-import ToggleFavoritesOnlyButton from './scores/ToggleFavoritesOnlyButton';
-import EventScopeBadge from './EventScopeBadge';
+import ExcelExportButton from "./scores/ExcelExportButton.astro";
+import PrintDialogButton from "./scores/PrintDialogButton.astro";
+import ToggleFavoritesOnlyButton from "./scores/ToggleFavoritesOnlyButton";
+import EventScopeBadge from "./EventScopeBadge";
 ---
 
-<h1
-    id="_top"
-    class={`page-title ${hidePageTitleOnPrint ? "hide-on-print" : ""}`}
->
-    {
-        eventType && (
-            <img
-                src={`/assets/logos/${eventType}/${eventType}-logo.png`}
-                alt={eventType}
-                width="72"
-                height="72"
-                class="event-icon"
-            />
-        )
-    }
-    <span class="title-text">{title}</span>
-    {
-        eventType && eventId && (
-            <span>
-                <PrintDialogButton isLoaded={eventIsLoaded ?? false} />
-                <ExcelExportButton isLoaded={eventIsLoaded ?? false} />
-                <ToggleFavoritesOnlyButton
-                    isLoaded={eventIsLoaded ?? false}
-                    client:only="react"
-                />
-            </span>
-        )
-    }
-</h1>
 {
-    (eventScope || eventDates || eventLocation) && (
+    !hidePageTitle && (
+        <h1
+            id="_top"
+            class={`page-title ${hidePageTitleOnPrint ? "hide-on-print" : ""}`}
+        >
+            {eventType && (
+                <img
+                    src={`/assets/logos/${eventType}/${eventType}-logo.png`}
+                    alt={eventType}
+                    width="72"
+                    height="72"
+                    class="event-icon"
+                />
+            )}
+            <span class="title-text">{title}</span>
+            {eventType && eventId && (
+                <span>
+                    <PrintDialogButton isLoaded={eventIsLoaded ?? false} />
+                    <ExcelExportButton isLoaded={eventIsLoaded ?? false} />
+                    <ToggleFavoritesOnlyButton
+                        isLoaded={eventIsLoaded ?? false}
+                        client:only="react"
+                    />
+                </span>
+            )}
+        </h1>
+    )
+}
+{
+    !hidePageTitle && (eventScope || eventDates || eventLocation) && (
         <div class={`mt-0 ${hidePageTitleOnPrint ? "hide-on-print" : ""}`}>
             {eventScope && (
                 <EventScopeBadge scope={eventScope} label={eventScopeLabel} />
