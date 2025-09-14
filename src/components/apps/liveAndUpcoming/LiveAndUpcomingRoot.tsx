@@ -19,6 +19,7 @@ interface EventItem {
     type: string;
     urlSlug: string;
     sortDate: Date;
+    isNationals: boolean;
 }
 
 export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props) {
@@ -39,6 +40,9 @@ export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props)
             const upcomingCutoff: Date = new Date(today.getTime());
             upcomingCutoff.setDate(today.getDate() + 14);
 
+            const nationalsCutoff: Date = new Date(upcomingCutoff.getTime());
+            nationalsCutoff.setDate(upcomingCutoff.getDate() + 14);
+
             for (const type in events) {
                 const typeEvents = events[type];
                 for (const urlSlug in typeEvents) {
@@ -51,21 +55,37 @@ export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props)
                         continue;
                     }
 
-                    const startDate = DataTypeHelpers.parseDateOnly(event.startDate)!;
+                    let startDate = DataTypeHelpers.parseDateOnly(event.startDate)!;
                     const endDate = DataTypeHelpers.parseDateOnly(event.endDate)!;
 
                     const eventItem: EventItem = {
                         info: event,
                         sortDate: startDate,
                         type: type,
-                        urlSlug: urlSlug
+                        urlSlug: urlSlug,
+                        isNationals: urlSlug === "nationals/results/"
                     };
 
-                    if (startDate <= today && endDate >= today) {
+                    // TBQ has a special landing page for Nationals. If the date is in the future,
+                    // redirect to the special landing page.
+                    const isLive = startDate <= today && endDate >= today;
+                    if (eventItem.isNationals && !isLive && type === "tbq") {
+                        eventItem.urlSlug = "nationals/";
+                    }
+
+                    if (isLive) {
                         liveEvents.push(eventItem);
-                    } else if (event.registrationEndDate) {
-                        const date = DataTypeHelpers.parseDateOnly(event.registrationEndDate)!;
-                        if (date > today && date <= upcomingCutoff) {
+                    } else {
+                        let isUpcoming = false;
+                        if (eventItem.isNationals && startDate > today && startDate < nationalsCutoff) {
+                            isUpcoming = true;
+                        }
+                        else if (event.registrationEndDate) {
+                            const date = DataTypeHelpers.parseDateOnly(event.registrationEndDate)!;
+                            isUpcoming = date > today && date <= upcomingCutoff;
+                        }
+
+                        if (isUpcoming) {
                             upcomingEvents.push(eventItem);
                         }
                     }
@@ -96,7 +116,7 @@ export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props)
                         {liveEvents.map(event => (
                             <EventCard
                                 key={event.info.id}
-                                info={{ type: event.type, urlSlug: event.urlSlug, event: event.info }}
+                                info={{ type: event.type, urlSlug: event.urlSlug, event: event.info, isNationals: event.isNationals }}
                                 isLive={true}
                             />
                         ))}
@@ -107,18 +127,21 @@ export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props)
                 <div className="mt-4">
                     <div className="badge badge-primary badge-danger text-md p-4 mt-0">
                         <FontAwesomeIcon icon="fas faCalendarDays" />
-                        <span className="font-bold">NEXT 2 WEEKS</span>
+                        <span className="font-bold">UP NEXT</span>
                     </div>
                     <div className="flex flex-wrap gap-4">
                         {upcomingEvents.map(event => (
                             <EventCard
                                 key={event.info.id}
-                                info={{ type: event.type, urlSlug: event.urlSlug, event: event.info }}
+                                info={{ type: event.type, urlSlug: event.urlSlug, event: event.info, isNationals: event.isNationals }}
                                 isLive={false}
                             />
                         ))}
                         <EventCard isLive={false} />
                     </div>
                 </div>)}
+            {liveEvents.length === 0 && upcomingEvents.length === 0 && (
+                <EventCard isLive={false} />
+            )}
         </>);
 }

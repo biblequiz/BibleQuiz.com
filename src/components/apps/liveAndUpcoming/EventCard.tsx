@@ -10,12 +10,13 @@ interface EventWrapper {
     type: string;
     urlSlug: string;
     event: EventInfo;
+    isNationals: boolean;
 }
 
 export default function EventCard({ info, isLive }: Props) {
 
     const cardLink = info
-        ? (isLive
+        ? ((isLive || info.isNationals)
             ? `/${info.type}/seasons/${info.event.season}/${info.urlSlug}`
             : `https://registration.biblequiz.com/#/Registration/${info.event.id}`)
         : "/upcoming-events/";
