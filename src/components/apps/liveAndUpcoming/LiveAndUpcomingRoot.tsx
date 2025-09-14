@@ -1,12 +1,47 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
+import type { EventInfo, EventTypeList } from "types/EventTypes";
 
 interface Props {
+    events: EventTypeList | null;
     loadingElementId: string;
 }
 
-export default function LiveAndUpcomingRoot({ loadingElementId }: Props) {
-    
+interface ProcessedEvents {
+    liveEvents: EventInfo[];
+    upcomingEvents: EventInfo[];
+}
+
+export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props) {
+
+    const { liveEvents, upcomingEvents } = useMemo(
+        () => {
+            if (!events) {
+                return { liveEvents: [], upcomingEvents: [] } as ProcessedEvents;
+            }
+
+            const liveEvents: EventInfo[] = [];
+            const upcomingEvents: EventInfo[] = [];
+
+            for (const type in events) {
+                const typeEvents = events[type];
+                for (const urlSlug in typeEvents) {
+                    const event = typeEvents[urlSlug];
+                    if (!event.isVisible || !event.isReport) {
+                        continue;
+                    }
+
+                    if (event.isLive) {
+                        liveEvents.push(event);
+                    } else {
+                        upcomingEvents.push(event);
+                    }
+                }
+            }
+
+            return { liveEvents, upcomingEvents };
+        }, [events]);
+
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);
         if (fallback) fallback.style.display = "none";
@@ -19,7 +54,7 @@ export default function LiveAndUpcomingRoot({ loadingElementId }: Props) {
                 <span className="font-bold">LIVE EVENTS</span>
             </div>
             <div className="flex flex-wrap gap-4">
-                <a className="card w-96 card-sm shadow-sm border-2 border-solid mt-0" href="/">
+                <a className="card live-events-card w-96 card-sm shadow-sm border-2 border-solid mt-0" href="/">
                     <div className="card-body">
                         <div className="flex items-start gap-4">
                             <img

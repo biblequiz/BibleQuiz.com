@@ -1,42 +1,24 @@
 ---
+import type { EventTypeList } from "types/EventTypes";
 import LiveAndUpcomingRoot from "./LiveAndUpcomingRoot";
+import path from "path";
+import { getAstroRootSourcePath, tryReadFileAsJson } from "utils/FileSystem";
+
+const importedEvents: EventTypeList | null =
+    await tryReadFileAsJson<EventTypeList>(
+        path.resolve(
+            await getAstroRootSourcePath(import.meta.url),
+            "data/imported/seasons/future.json",
+        ),
+    );
 ---
 
 <div id="generator-fallback" class="flex justify-center items-center">
-    <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading the Live and Upcoming Events ...
+    <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading the
+    Live and Upcoming Events ...
 </div>
 <LiveAndUpcomingRoot
     client:only="react"
+    events={importedEvents}
     loadingElementId="generator-fallback"
 />
-
-<style>
-    .card {
-        border: 1px solid var(--sl-color-gray-5);
-        border-radius: 0.5rem;
-        box-shadow: var(--sl-shadow-sm);
-        position: relative;
-    }
-
-    a {
-        text-decoration: none;
-        line-height: var(--sl-line-height-headings);
-    }
-
-    /* a11y fix for https://github.com/withastro/starlight/issues/487 */
-    a::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-    }
-
-    /* Hover state */
-    .card:hover {
-        background: var(--sl-color-gray-7, var(--sl-color-gray-6));
-        border-color: var(--sl-color-gray-2);
-    }
-
-    .card:hover .icon {
-        color: var(--sl-color-white);
-    }
-</style>
