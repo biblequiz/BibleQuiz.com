@@ -3,6 +3,7 @@ import EventScopeBadge from './EventScopeBadge.tsx';
 import { sharedEventListFilter, type EventListFilterConfiguration } from 'utils/SharedState.ts';
 import type { EventInfo, EventList } from 'types/EventTypes.ts';
 import FontAwesomeIcon from './FontAwesomeIcon.js';
+import { DataTypeHelpers } from "utils/DataTypeHelpers.ts";
 
 interface Props {
     badgeId: string;
@@ -73,14 +74,14 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
 
         let showRegistration: boolean = false;
         if (event.registrationEndDate &&
-            Date.parse(event.registrationEndDate) >= today.getTime()) {
+            DataTypeHelpers.parseDateOnly(event.registrationEndDate)!.getTime() >= today.getTime()) {
             showRegistration = true;
         }
 
         let isPastEvent: boolean = false;
         let showScores: boolean = false;
         if (event.endDate) {
-            const parsedDate = Date.parse(event.endDate);
+            const parsedDate = DataTypeHelpers.parseDateOnly(event.endDate)!.getTime();
             if (parsedDate < today.getTime()) {
                 isPastEvent = true;
                 showScores = true;

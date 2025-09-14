@@ -1,6 +1,8 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEffect, useMemo } from "react";
 import type { EventInfo, EventTypeList } from "types/EventTypes";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import EventCard from "./EventCard";
 
 interface Props {
     events: EventTypeList | null;
@@ -8,8 +10,15 @@ interface Props {
 }
 
 interface ProcessedEvents {
-    liveEvents: EventInfo[];
-    upcomingEvents: EventInfo[];
+    liveEvents: EventItem[];
+    upcomingEvents: EventItem[];
+}
+
+interface EventItem {
+    info: EventInfo;
+    type: string;
+    urlSlug: string;
+    sortDate: Date;
 }
 
 export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props) {
@@ -20,26 +29,54 @@ export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props)
                 return { liveEvents: [], upcomingEvents: [] } as ProcessedEvents;
             }
 
-            const liveEvents: EventInfo[] = [];
-            const upcomingEvents: EventInfo[] = [];
+            const liveEvents: EventItem[] = [];
+            const upcomingEvents: EventItem[] = [];
+
+            // Collect all the events.
+            const today: Date = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            const upcomingCutoff: Date = new Date(today.getTime());
+            upcomingCutoff.setDate(today.getDate() + 14);
 
             for (const type in events) {
                 const typeEvents = events[type];
                 for (const urlSlug in typeEvents) {
                     const event = typeEvents[urlSlug];
-                    if (!event.isVisible || !event.isReport) {
+                    if (!event.isVisible || event.isReport) {
                         continue;
                     }
 
-                    if (event.isLive) {
-                        liveEvents.push(event);
-                    } else {
-                        upcomingEvents.push(event);
+                    if (!event.startDate || !event.endDate) {
+                        continue;
+                    }
+
+                    const startDate = DataTypeHelpers.parseDateOnly(event.startDate)!;
+                    const endDate = DataTypeHelpers.parseDateOnly(event.endDate)!;
+
+                    const eventItem: EventItem = {
+                        info: event,
+                        sortDate: startDate,
+                        type: type,
+                        urlSlug: urlSlug
+                    };
+
+                    if (startDate <= today && endDate >= today) {
+                        liveEvents.push(eventItem);
+                    } else if (event.registrationEndDate) {
+                        const date = DataTypeHelpers.parseDateOnly(event.registrationEndDate)!;
+                        if (date > today && date <= upcomingCutoff) {
+                            upcomingEvents.push(eventItem);
+                        }
                     }
                 }
             }
 
-            return { liveEvents, upcomingEvents };
+            // Sort the lists.
+            const sortedLive = liveEvents.sort((a, b) => a.sortDate.getTime() - b.sortDate.getTime());
+            const sortedUpcoming = upcomingEvents.sort((a, b) => a.sortDate.getTime() - b.sortDate.getTime());
+
+            return { liveEvents: sortedLive, upcomingEvents: sortedUpcoming };
         }, [events]);
 
     useEffect(() => {
@@ -49,78 +86,39 @@ export default function LiveAndUpcomingRoot({ events, loadingElementId }: Props)
 
     return (
         <>
-            <div className="badge badge-primary badge-danger text-lg p-4 mt-0">
-                <FontAwesomeIcon icon="fas faTowerBroadcast" />
-                <span className="font-bold">LIVE EVENTS</span>
-            </div>
-            <div className="flex flex-wrap gap-4">
-                <a className="card live-events-card w-96 card-sm shadow-sm border-2 border-solid mt-0" href="/">
-                    <div className="card-body">
-                        <div className="flex items-start gap-4">
-                            <img
-                                src="/assets/logos/tbq/tbq-logo.png"
-                                alt="TBQ Logo"
-                                className="w-20 h-20 flex-shrink-0 mt-2"
-                            />
-                            <div>
-                                <h2 className="card-title mb-0">
-                                    West Texas & Plains/West Texas Meet 1 in Amarillo
-                                </h2>
-                                <p className="mt-0">Sep 13, 2025</p>
-                            </div>
-                            <FontAwesomeIcon
-                                icon="fas faArrowRight"
-                                classNames={["icon text-2xl rtl:flip"]}
-                            />
-                        </div>
+            {liveEvents.length > 0 && (
+                <>
+                    <div className="badge badge-success badge-danger text-md p-4 mt-0">
+                        <FontAwesomeIcon icon="fas faTowerBroadcast" />
+                        <span className="font-bold">LIVE EVENTS</span>
                     </div>
-                </a>
-                <div
-                    className="card w-96 bg-base-200 card-sm shadow-sm border-2 border-solid mt-0"
-                >
-                    <div className="card-body">
-                        <div className="flex items-start gap-4">
-                            <img
-                                src="/assets/logos/jbq/jbq-logo.png"
-                                alt="JBQ Logo"
-                                className="w-20 h-20 flex-shrink-0 mt-2"
+                    <div className="flex flex-wrap gap-4">
+                        {liveEvents.map(event => (
+                            <EventCard
+                                key={event.info.id}
+                                info={{ type: event.type, urlSlug: event.urlSlug, event: event.info }}
+                                isLive={true}
                             />
-                            <div>
-                                <h2 className="card-title mb-0">
-                                    West Texas & Plains/West Texas Meet 1 in Amarillo
-                                </h2>
-                                <p className="mt-0">Sep 13, 2025</p>
-                            </div>
-                            <FontAwesomeIcon
-                                icon="fas faArrowRight"
-                                classNames={["text-2xl rtl:flip"]}
-                            />
-                        </div>
+                        ))}
+                        <EventCard isLive={true} />
                     </div>
-                </div>
-                <div
-                    className="card w-96 bg-base-200 card-sm shadow-sm border-2 border-solid mt-0"
-                >
-                    <div className="card-body">
-                        <div className="flex items-start gap-4">
-                            <img
-                                src="/assets/logos/tbq/tbq-logo.png"
-                                alt="TBQ Logo"
-                                className="w-20 h-20 flex-shrink-0 mt-2"
-                            />
-                            <div>
-                                <h2 className="card-title mb-0">
-                                    West Texas & Plains/West Texas Meet 1 in Amarillo
-                                </h2>
-                                <p className="mt-0">Sep 13, 2025</p>
-                            </div>
-                            <FontAwesomeIcon
-                                icon="fas faArrowRight"
-                                classNames={["text-2xl rtl:flip"]}
-                            />
-                        </div>
+                </>)}
+            {upcomingEvents.length > 0 && (
+                <div className="mt-4">
+                    <div className="badge badge-primary badge-danger text-md p-4 mt-0">
+                        <FontAwesomeIcon icon="fas faCalendarDays" />
+                        <span className="font-bold">NEXT 2 WEEKS</span>
                     </div>
-                </div>
-            </div>
+                    <div className="flex flex-wrap gap-4">
+                        {upcomingEvents.map(event => (
+                            <EventCard
+                                key={event.info.id}
+                                info={{ type: event.type, urlSlug: event.urlSlug, event: event.info }}
+                                isLive={false}
+                            />
+                        ))}
+                        <EventCard isLive={false} />
+                    </div>
+                </div>)}
         </>);
 }
