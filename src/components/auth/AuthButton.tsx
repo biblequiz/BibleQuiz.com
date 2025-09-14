@@ -3,13 +3,21 @@ import { AuthManager, PopupType, UserProfileType } from 'types/AuthManager';
 import ConfirmationDialog from "../ConfirmationDialog";
 import type { JSX } from "react";
 
-interface Props {
-    isMobile: boolean;
+export enum AuthButtonType {
+    Desktop,
+    Mobile,
+    ProtectedRoute
 }
 
-export default function AuthButton({ isMobile }: Props) {
+interface Props {
+    type: AuthButtonType;
+}
+
+export default function AuthButton({ type }: Props) {
 
     const authManager = AuthManager.useNanoStore();
+
+    const isMobile = type !== AuthButtonType.Desktop;
 
     const userProfile = authManager.userProfile;
     let buttonElement: JSX.Element;
@@ -22,6 +30,9 @@ export default function AuthButton({ isMobile }: Props) {
                 <div className={`w-${isMobile ? "full" : "24 text-xs"} text-center`}>
                     <div>{authManager.popupType === PopupType.Logout ? "Logging Out" : "Logging In"}</div>
                     <progress className="progress"></progress>
+                    {type === AuthButtonType.ProtectedRoute && (
+                        <span className="italic">Sometimes this takes 10+ seconds ...</span>
+                    )}
                 </div>
                 {authManager.popupType === PopupType.LoginConfirmationDialog && (
                     <div className="text-base-content">
@@ -68,6 +79,17 @@ export default function AuthButton({ isMobile }: Props) {
                     </li>
                 </ul>
             </div>);
+    }
+    else if (type === AuthButtonType.ProtectedRoute) {
+        buttonElement = (
+            <button
+                className="btn btn-primary mt-0 mb-0"
+                disabled={authManager.popupType != PopupType.None}
+                onClick={() => {
+                    authManager.login();
+                }}>
+                Sign In or Sign-Up
+            </button>);
     }
     else {
         return null;

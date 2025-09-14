@@ -426,6 +426,13 @@ export class AuthManager {
     }
 
     /**
+     * Causes the login to be displayed.
+     */
+    public requireLoginWindow(): void {
+        this.getNanoState().setKey("popupType", PopupType.LoginConfirmationDialog);
+    }
+
+    /**
      * Set up periodic token refresh to prevent expiration
      */
     private setupPeriodicTokenRefresh(): void {
