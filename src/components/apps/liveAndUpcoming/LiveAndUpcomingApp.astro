@@ -1,0 +1,24 @@
+---
+import type { EventTypeList } from "types/EventTypes";
+import LiveAndUpcomingRoot from "./LiveAndUpcomingRoot";
+import path from "path";
+import { getAstroRootSourcePath, tryReadFileAsJson } from "utils/FileSystem";
+
+const futureEvents: EventTypeList | null =
+    await tryReadFileAsJson<EventTypeList>(
+        path.resolve(
+            await getAstroRootSourcePath(import.meta.url),
+            "data/generated/futureEvents.json",
+        ),
+    );
+---
+
+<div id="generator-fallback" class="flex justify-center items-center">
+    <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading the
+    Live and Upcoming Events ...
+</div>
+<LiveAndUpcomingRoot
+    client:only="react"
+    events={futureEvents}
+    loadingElementId="generator-fallback"
+/>

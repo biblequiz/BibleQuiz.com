@@ -255,3 +255,33 @@ summary.tocSummary {
     color: var(--sl-color-gray-2);
     text-transform: uppercase;
 }
+
+/* Live and Upcoming Events Styles */
+.live-events-card {
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    box-shadow: var(--sl-shadow-sm);
+    position: relative;
+}
+
+.live-events-card a {
+    text-decoration: none;
+    line-height: var(--sl-line-height-headings);
+}
+
+/* a11y fix for https://github.com/withastro/starlight/issues/487 */
+.live-events-card a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+}
+
+/* Hover state */
+.live-events-card:hover {
+    background: var(--sl-color-gray-7, var(--sl-color-gray-6));
+    border-color: var(--sl-color-gray-2);
+}
+
+.live-events-card:hover .icon {
+    color: var(--sl-color-white);
+}
