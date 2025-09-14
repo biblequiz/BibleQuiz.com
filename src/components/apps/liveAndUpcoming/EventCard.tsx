@@ -1,5 +1,5 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import type { EventInfo, EventTypeList } from "types/EventTypes";
+import type { EventInfo } from "types/EventTypes";
 
 interface Props {
     info?: EventWrapper;
