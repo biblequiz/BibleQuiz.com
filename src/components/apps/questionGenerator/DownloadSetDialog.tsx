@@ -131,7 +131,7 @@ export default function DownloadSetDialog({ criteria, onClose }: Props) {
                             Set this value to regenerate a previously generated set. You won't usually need this field.
                         </small>
                     </div>
-                    <div className="flex gap-2 justify-end">
+                    <div className="flex gap-1 justify-end">
                         <button
                             type="button"
                             className="btn btn-success mb-4 mt-0"

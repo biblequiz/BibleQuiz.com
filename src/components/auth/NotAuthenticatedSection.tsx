@@ -1,12 +1,10 @@
-import { AuthManager, PopupType } from 'types/AuthManager';
 import FontAwesomeIcon from "../FontAwesomeIcon";
+import AuthButton, { AuthButtonType } from './AuthButton';
 
 interface Props {
 }
 
 export default function NotAuthenticatedSection({ }: Props) {
-
-    const authManager = AuthManager.useNanoStore();
 
     return (
         <div className="hero bg-base-300 rounded-2xl shadow-lg">
@@ -22,14 +20,7 @@ export default function NotAuthenticatedSection({ }: Props) {
                         If you've never signed up before, don't worry - it's free and easy to
                         do!
                     </p>
-                    <button
-                        className="btn btn-primary mt-0 mb-0"
-                        disabled={authManager.popupType != PopupType.None}
-                        onClick={() => {
-                            authManager.login();
-                        }}>
-                        Sign In or Sign-Up
-                    </button>
+                    <AuthButton type={AuthButtonType.ProtectedRoute} />
                     <p className="text-sm italic text-base-content/70 mt-2">
                         If you've previously signed in on registration.biblequiz.com, this is the same
                         account.
