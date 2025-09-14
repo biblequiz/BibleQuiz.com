@@ -9,6 +9,12 @@ sidebar:
     icon: fas faCashRegister
 ---
 
-import QuestionGeneratorApp from 'components/apps/questionGenerator/QuestionGeneratorApp.astro';
+import IslandLoader from 'components/IslandLoader.tsx';
+import QuestionGeneratorRoot from 'components/apps/questionGenerator/QuestionGeneratorRoot.tsx';
 
-<QuestionGeneratorApp />
+<IslandLoader client:load>
+  <QuestionGeneratorRoot
+      client:only="react"
+      loadingElementId="generator-fallback"
+  />
+</IslandLoader>
