@@ -13,3 +13,6 @@ several reasons:
 2. **Reverse Sort Seasons**
    The `Sidebar` componenet has specialized coding to reverse order the `Seasons` navigation item to put the
    most recent year at the top.
+
+3. **Enable React Client-Side Sidebar**
+   Allows for the use of a React component rendered client-side.

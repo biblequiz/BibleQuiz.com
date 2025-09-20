@@ -6,5 +6,10 @@ interface Props {
 export default function MainPage({ }: Props) {
     const auth = AuthManager.useNanoStore();
 
-    return (<div>Placeholder for {auth.userProfile?.displayName}</div>);
+    return (
+        <>
+            <div>
+                Placeholder for {auth.userProfile?.displayName}
+            </div>
+        </>);
 }

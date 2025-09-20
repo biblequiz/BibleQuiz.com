@@ -5,6 +5,7 @@ import { sharedDirtyWindowState } from 'utils/SharedState';
 import ConfirmationDialog from '../../ConfirmationDialog';
 import ProtectedRoute from '../../auth/ProtectedRoute';
 import MainPage from './MainPage';
+import ReactSidebarEntry, { reactSidebarEntries, type ReactSidebarLink } from 'components/sidebar/ReactSidebar';
 
 interface Props {
     loadingElementId: string;
@@ -19,6 +20,15 @@ function RootLayout({ loadingElementId }: Props) {
             return sharedDirtyWindowState.get() && currentLocation.pathname !== nextLocation.pathname;
         }
     );
+
+    const sidebar = useStore(reactSidebarEntries);
+    useEffect(() => {
+        if (!sidebar || sidebar.length === 0) {
+            reactSidebarEntries.set([ 
+                { type: 'link', label: "foo", href: "/manage-event/#foo", isCurrent: false, attrs: {} } as ReactSidebarLink
+            ]);
+        }
+    }, [sidebar]);
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);
