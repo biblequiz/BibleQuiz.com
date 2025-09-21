@@ -3,7 +3,6 @@ import type { Person } from 'types/services/PeopleService';
 import { AsyncLock } from 'utils/AsyncLock';
 import { map, type PreinitializedMapStore } from "nanostores";
 import { useStore } from "@nanostores/react";
-import Auth from "pages/auth.astro";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
@@ -173,7 +172,7 @@ export enum PopupType {
 export class AuthManager {
 
     private static readonly _instance: AuthManager = new AuthManager();
-    private static readonly _lock: AsyncLock = new AsyncLock();
+    private readonly _lock: AsyncLock = new AsyncLock();
 
     private _resolvedClient: IPublicClientApplication | null = null;
     private _showLoginWindowFromBackground: boolean = false;
@@ -364,7 +363,6 @@ export class AuthManager {
                     return resolve(null);
                 }
 
-                await AuthManager._lock.acquireOrWait();
                 try {
                     const tokenResponse = await client
                         .acquireTokenSilent({
@@ -403,9 +401,6 @@ export class AuthManager {
                     else {
                         this.getNanoState().setKey("popupType", PopupType.LoginRequired);
                     }
-                }
-                finally {
-                    AuthManager._lock.release();
                 }
             });
     }
