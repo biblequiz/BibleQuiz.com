@@ -3,6 +3,7 @@ import type { Person } from 'types/services/PeopleService';
 import { AsyncLock } from 'utils/AsyncLock';
 import { map, type PreinitializedMapStore } from "nanostores";
 import { useStore } from "@nanostores/react";
+import Auth from "pages/auth.astro";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
@@ -172,8 +173,7 @@ export enum PopupType {
 export class AuthManager {
 
     private static readonly _instance: AuthManager = new AuthManager();
-
-    private readonly _lock: AsyncLock = new AsyncLock();
+    private static readonly _lock: AsyncLock = new AsyncLock();
 
     private _resolvedClient: IPublicClientApplication | null = null;
     private _showLoginWindowFromBackground: boolean = false;
@@ -364,6 +364,7 @@ export class AuthManager {
                     return resolve(null);
                 }
 
+                await AuthManager._lock.acquireOrWait();
                 try {
                     const tokenResponse = await client
                         .acquireTokenSilent({
@@ -402,6 +403,9 @@ export class AuthManager {
                     else {
                         this.getNanoState().setKey("popupType", PopupType.LoginRequired);
                     }
+                }
+                finally {
+                    AuthManager._lock.release();
                 }
             });
     }
@@ -445,15 +449,7 @@ export class AuthManager {
     }
 
     private async renewTokenWithoutError(): Promise<void> {
-        await this._lock.acquireOrWait();
-        try {
-            await this.getLatestAccessToken(true);
-        } catch (error) {
-            console.log("Periodic token refresh failed:", error);
-        }
-        finally {
-            this._lock.release();
-        }
+        await this.getLatestAccessToken(true);
     }
 
     private async retrieveRemoteProfile(
@@ -599,7 +595,7 @@ export class AuthManager {
             return this._resolvedClient;
         }
 
-        await this._lock.acquireOrWait();
+        await AuthManager._lock.acquireOrWait();
         try {
             if (this._resolvedClient) {
                 return this._resolvedClient;
@@ -654,7 +650,7 @@ export class AuthManager {
                 },
             });
         } finally {
-            this._lock.release();
+            AuthManager._lock.release();
         }
 
         return this._resolvedClient;
