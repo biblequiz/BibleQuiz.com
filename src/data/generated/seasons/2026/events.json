@@ -1,5 +1,82 @@
 {
   "jbq": {
+    "other/25751597-c302-4d62-9d8a-08ddd875b668/": {
+      "id": "25751597-c302-4d62-9d8a-08ddd875b668",
+      "season": 2026,
+      "name": "JBQ KC MO Season 2025-2026 - Sept",
+      "scope": "nation",
+      "scopeLabel": "Nation",
+      "dates": "Sep 20, 2025",
+      "startDate": "09/20/2025",
+      "endDate": "09/20/2025",
+      "registrationDates": "Closed",
+      "locationName": "Northland Cathedral",
+      "locationCity": "Kansas City, MO",
+      "isVisible": true,
+      "isReport": false
+    },
+    "other/86e48751-942d-4fb3-f527-08dde4ef52a4/": {
+      "id": "86e48751-942d-4fb3-f527-08dde4ef52a4",
+      "season": 2026,
+      "name": "JBQ Saint Louis Section 2025-2026",
+      "scope": "nation",
+      "scopeLabel": "Nation",
+      "dates": "Sep 20, 2025",
+      "startDate": "09/20/2025",
+      "endDate": "09/20/2025",
+      "registrationDates": "Closed",
+      "locationName": "Saint Louis",
+      "isVisible": true,
+      "isReport": false
+    },
+    "other/af60d3e0-81f7-4017-0d01-08ddf0cdce5a/": {
+      "id": "af60d3e0-81f7-4017-0d01-08ddf0cdce5a",
+      "season": 2026,
+      "name": "South Dakota WEST Meet 1",
+      "regionId": "e01fa24b-10c1-491a-96ac-9bd047712d53",
+      "districtId": "c53e3af8-489a-4ef2-ae5b-c331bc399dc8",
+      "scope": "district",
+      "scopeLabel": "South Dakota District",
+      "dates": "Sep 20, 2025",
+      "startDate": "09/20/2025",
+      "endDate": "09/20/2025",
+      "registrationDates": "Closed",
+      "locationName": "Open Bible Church",
+      "locationCity": "Rapid City, SD",
+      "isVisible": true,
+      "isReport": false
+    },
+    "other/708ee5d0-54f8-4156-6371-08ddde6bc88c/": {
+      "id": "708ee5d0-54f8-4156-6371-08ddde6bc88c",
+      "season": 2026,
+      "name": "Tennessee Meet #1",
+      "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
+      "scope": "region",
+      "scopeLabel": "Gulf Region",
+      "dates": "Sep 20, 2025",
+      "startDate": "09/20/2025",
+      "endDate": "09/20/2025",
+      "registrationDates": "Closed",
+      "locationName": "various",
+      "isVisible": true,
+      "isReport": false
+    },
+    "other/c3c481b1-f68c-4576-0e7b-08ddd812610e/": {
+      "id": "c3c481b1-f68c-4576-0e7b-08ddd812610e",
+      "season": 2026,
+      "name": "West Florida JBQ 2025-2026 Season",
+      "regionId": "0fd75ccb-5c24-4d9e-b604-a64614ee0005",
+      "districtId": "de8846d4-b000-4a8a-aa5b-8afc700aef14",
+      "scope": "district",
+      "scopeLabel": "West Florida District",
+      "dates": "Sep 20, 2025",
+      "startDate": "09/20/2025",
+      "endDate": "09/20/2025",
+      "registrationDates": "Closed",
+      "locationName": "Various Locations in the West Florida Ministry Network",
+      "isVisible": true,
+      "isReport": false
+    },
     "other/aba7e3b7-951e-4724-bad4-08dde4d8a806/": {
       "id": "aba7e3b7-951e-4724-bad4-08dde4d8a806",
       "season": 2026,
@@ -50,5 +127,37 @@
       "isReport": false
     }
   },
-  "tbq": {}
+  "tbq": {
+    "tournaments/liberty-classic/": {
+      "id": "8e57ef73-39e4-4ce7-064b-08ddbbfcc534",
+      "season": 2026,
+      "name": "Liberty Classic 2025",
+      "scope": "nation",
+      "scopeLabel": "Nation",
+      "dates": "Sep 20, 2025",
+      "startDate": "09/20/2025",
+      "endDate": "09/20/2025",
+      "registrationDates": "Closed",
+      "locationName": "Metuchen Assembly of God",
+      "locationCity": "Metuchen, NJ",
+      "isVisible": true,
+      "isReport": false
+    },
+    "other/a9c57833-e4a2-4a90-6372-08ddde6bc88c/": {
+      "id": "a9c57833-e4a2-4a90-6372-08ddde6bc88c",
+      "season": 2026,
+      "name": "Teneesee Meet #1",
+      "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
+      "districtId": "8d4063ff-36a7-487b-bd7c-7265c4a5125c",
+      "scope": "district",
+      "scopeLabel": "Tennessee District",
+      "dates": "Sep 20, 2025",
+      "startDate": "09/20/2025",
+      "endDate": "09/20/2025",
+      "registrationDates": "Closed",
+      "locationName": "various",
+      "isVisible": true,
+      "isReport": false
+    }
+  }
 }
