@@ -172,6 +172,7 @@ export enum PopupType {
 export class AuthManager {
 
     private static readonly _instance: AuthManager = new AuthManager();
+
     private readonly _lock: AsyncLock = new AsyncLock();
 
     private _resolvedClient: IPublicClientApplication | null = null;
@@ -444,7 +445,11 @@ export class AuthManager {
     }
 
     private async renewTokenWithoutError(): Promise<void> {
-        await this.getLatestAccessToken(true);
+        try {
+            await this.getLatestAccessToken(true);
+        } catch (error) {
+            console.log("Periodic token refresh failed:", error);
+        }
     }
 
     private async retrieveRemoteProfile(
