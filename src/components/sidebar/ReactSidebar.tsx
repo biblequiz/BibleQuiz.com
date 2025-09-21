@@ -2,10 +2,16 @@ import { useEffect } from "react";
 import { useStore } from "@nanostores/react";
 import ReactSidebarSublist from "./ReactSidebarSublist";
 import { createMultiReactAtom } from "utils/MultiReactNanoStore";
+import type { NavigateFunction } from "react-router-dom";
 
 interface Props {
     loadingElementId: string;
     nested: boolean;
+}
+
+export interface ReactSidebarManifest {
+    entries: ReactSidebarEntry[];
+    navigate: NavigateFunction;
 }
 
 export interface ReactSidebarBadge {
@@ -31,20 +37,24 @@ export interface ReactSidebarGroup {
 
 export type ReactSidebarEntry = ReactSidebarLink | ReactSidebarGroup;
 
-export const reactSidebarEntries = createMultiReactAtom<ReactSidebarEntry[]>("reactSidebarEntries", []);
+export const reactSidebarManifest = createMultiReactAtom<ReactSidebarManifest | undefined>("reactSidebarEntries", undefined);
 
 export default function ReactSidebar({ loadingElementId, nested }: Props) {
 
-    const entries = useStore(reactSidebarEntries);
+    const manifest = useStore(reactSidebarManifest);
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);
-        if (fallback) fallback.style.display = entries.length > 0 ? "none" : "";
-    }, [loadingElementId, entries]);
+        if (fallback) fallback.style.display = manifest && manifest.entries.length > 0 ? "none" : "";
+    }, [loadingElementId, manifest]);
 
-    if (entries.length === 0) {
+    if (!manifest || manifest.entries.length === 0) {
         return null;
     }
 
-    return <ReactSidebarSublist entries={entries} keyPrefix="reactsb-" nested={nested} />;
+    return <ReactSidebarSublist
+        entries={manifest.entries}
+        navigate={manifest.navigate}
+        keyPrefix="reactsb-"
+        nested={nested} />;
 }

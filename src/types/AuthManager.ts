@@ -445,10 +445,14 @@ export class AuthManager {
     }
 
     private async renewTokenWithoutError(): Promise<void> {
+        await this._lock.acquireOrWait();
         try {
             await this.getLatestAccessToken(true);
         } catch (error) {
             console.log("Periodic token refresh failed:", error);
+        }
+        finally {
+            this._lock.release();
         }
     }
 

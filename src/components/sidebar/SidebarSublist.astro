@@ -54,7 +54,7 @@ const { sublist, nested, toc = false } = Astro.props;
                                 {...entry.attrs}
                             >
                                 {entry.attrs.icon && (
-                                    <FontAwesomeIcon icon={entry.attrs.icon} />
+                                    <FontAwesomeIcon icon={entry.attrs.icon} classNames={["fa-fw"]} />
                                 )}
                                 <span>{entry.label}</span>
                                 {entry.badge && (
