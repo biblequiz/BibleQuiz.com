@@ -1,0 +1,1619 @@
+{
+  "EventName": "Teneesee Meet #1",
+  "DatabaseNames": {
+    "24f282cc-c35d-478a-b078-d90733fad473": "September_20__2025_XP5"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "24f282cc-c35d-478a-b078-d90733fad473",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Tri Cities",
+        "LastUpdated": "9/20/25 4:33 PM",
+        "DatabaseLastUpdated": "2025-09-16T12:35:04.2050705+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Stephen Toner",
+            "Quizzers": [
+              0,
+              1,
+              2
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -20,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_222d074b-07b7-4166-8594-b85161f8ca08",
+            "Name": "ATL",
+            "ChurchName": "Lighthouse Assembly of God",
+            "City": "Greeneville",
+            "State": "TN",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 380,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.3,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 15,
+              "Correct20s": 10,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Sierra Gibson",
+            "Quizzers": [
+              3,
+              4,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_c1add179-2428-49d6-bae6-d3cba4ba6fcf",
+            "Name": "Grace & Faith",
+            "ChurchName": "Lighthouse Assembly of God",
+            "City": "Greeneville",
+            "State": "TN",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 370,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 61.7,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 13,
+              "Correct20s": 11,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "ATL",
+            "YearsQuizzing": null,
+            "Id": "q_daeba43eda10481c7d7308da929026bd",
+            "Name": "Gabby Anderson",
+            "ChurchName": "Lighthouse Assembly of God",
+            "City": "Greeneville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "ATL",
+            "YearsQuizzing": null,
+            "Id": "q_bb40f3b95b1e440f6dfa08dbb0cb2340",
+            "Name": "Gabby Shelton",
+            "ChurchName": "Lighthouse Assembly of God",
+            "City": "Greeneville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "ATL",
+            "YearsQuizzing": null,
+            "Id": "q_36ef7c34d8c745a26f2808ddee77000d",
+            "Name": "Jordann Bradford",
+            "ChurchName": "Lighthouse Assembly of God",
+            "City": "Greeneville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 300,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 12,
+              "Correct20s": 7,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Grace & Faith",
+            "YearsQuizzing": null,
+            "Id": "q_def76b0d6ed34d267d7d08da929026bd",
+            "Name": "Parks Gibson",
+            "ChurchName": "Lighthouse Assembly of God",
+            "City": "Greeneville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": true,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.7,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 2,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Grace & Faith",
+            "YearsQuizzing": null,
+            "Id": "q_bc162075434e4e10991b08dcd4f08ea8",
+            "Name": "Sophia Camacho",
+            "ChurchName": "Lighthouse Assembly of God",
+            "City": "Greeneville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.7,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Grace & Faith",
+            "YearsQuizzing": null,
+            "Id": "q_d8d0f68787bf4257991508dcd4f08ea8",
+            "Name": "Valeria Camacho",
+            "ChurchName": "Lighthouse Assembly of God",
+            "City": "Greeneville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.3,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          2,
+          4,
+          3,
+          5,
+          0,
+          1
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "24f282cc-c35d-478a-b078-d90733fad473",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "East",
+        "LastUpdated": "9/20/25 4:33 PM",
+        "DatabaseLastUpdated": "2025-09-16T12:35:04.2050705+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Stephanie Shrove",
+            "Quizzers": [
+              2,
+              6
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 1
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_05f6bd83-0daf-4068-b760-09e8672728fc",
+            "Name": "Jesus Seekers",
+            "ChurchName": "Alcoa Maryville Church of God",
+            "City": "Maryville",
+            "State": "TN",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.5,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 12,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Ben Stiefel",
+            "Quizzers": [
+              0,
+              3,
+              4
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_e612d3ef-292d-45a9-be06-3bbba4ab0f22",
+            "Name": "LH Blue",
+            "ChurchName": "LifeHouse Church Assembly of God",
+            "City": "Oak Ridge",
+            "State": "TN",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.5,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 9,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Drew Moorehead",
+            "Quizzers": [
+              1,
+              5,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_de404b02-069d-4f1a-992a-7aa557044e7b",
+            "Name": "LH Pink & Green",
+            "ChurchName": "LifeHouse Church Assembly of God",
+            "City": "Oak Ridge",
+            "State": "TN",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 205,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 51.2,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 6,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": 1
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1,
+          2
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie broken by comparing total points of each team."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "LH Blue",
+            "YearsQuizzing": null,
+            "Id": "q_3216364d2b33427d7b6b08da929026bd",
+            "Name": "Brayden Stiefel",
+            "ChurchName": "LifeHouse Church Assembly of God",
+            "City": "Oak Ridge",
+            "State": "TN",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 4,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LH Pink & Green",
+            "YearsQuizzing": null,
+            "Id": "q_461efe223b064939f95a08ddf34bb206",
+            "Name": "Elisabeth White",
+            "ChurchName": "LifeHouse Church Assembly of God",
+            "City": "Oak Ridge",
+            "State": "TN",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Jesus Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_d17470fcea6e4dad613008dbe37b4974",
+            "Name": "Jeremiah Keck",
+            "ChurchName": "Alcoa Maryville Church of God",
+            "City": "Maryville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.5,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 6,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LH Blue",
+            "YearsQuizzing": null,
+            "Id": "q_e422ca6b622e4cfd7b7108da929026bd",
+            "Name": "Liam Moore",
+            "ChurchName": "LifeHouse Church Assembly of God",
+            "City": "Oak Ridge",
+            "State": "TN",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LH Blue",
+            "YearsQuizzing": null,
+            "Id": "q_da5b37f76c1c447797e008dcd4f08ea8",
+            "Name": "Lucas Dean",
+            "ChurchName": "LifeHouse Church Assembly of God",
+            "City": "Oak Ridge",
+            "State": "TN",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LH Pink & Green",
+            "YearsQuizzing": null,
+            "Id": "q_cb0bc28b6a894d1a7b7e08da929026bd",
+            "Name": "Olivia Moorehead",
+            "ChurchName": "LifeHouse Church Assembly of God",
+            "City": "Oak Ridge",
+            "State": "TN",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Jesus Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_0f751ad6740841254b0508dbafc02107",
+            "Name": "Raelynn Shrove",
+            "ChurchName": "Alcoa Maryville Church of God",
+            "City": "Maryville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 6,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LH Pink & Green",
+            "YearsQuizzing": null,
+            "Id": "q_1929b119c05049557b8808da929026bd",
+            "Name": "Shekinah Ballard",
+            "ChurchName": "LifeHouse Church Assembly of God",
+            "City": "Oak Ridge",
+            "State": "TN",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 23.8,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 4,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          2,
+          0,
+          7,
+          5,
+          4,
+          6,
+          3,
+          1
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "24f282cc-c35d-478a-b078-d90733fad473",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Middle",
+        "LastUpdated": "9/20/25 4:33 PM",
+        "DatabaseLastUpdated": "2025-09-16T12:35:04.2050705+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Jay Harrelson",
+            "Quizzers": [
+              6,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 1
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_55ae32d3-1730-4da3-beb0-558a08b79787",
+            "Name": "Lewisburg First Assembly XP5",
+            "ChurchName": "First Assembly of God",
+            "City": "Lewisburg",
+            "State": "TN",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 195,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 48.8,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 7,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jonathan Newms Holding",
+            "Quizzers": [
+              0,
+              1,
+              8
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_41489fd7-44df-4902-9c0c-e1b6da7a197e",
+            "Name": "Springhouse Church (Smyrna) #1",
+            "ChurchName": "Springhouse Church",
+            "City": "Smyrna",
+            "State": "TN",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 1,
+              "WinPercentage": 75,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 325,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 81.2,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 12,
+              "Correct20s": 7,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Hallie Beecham",
+            "Quizzers": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_e610ea82-691a-429b-855c-63d5ec2b9da7",
+            "Name": "Trinity Overcomers",
+            "ChurchName": "Trinity Assembly of God",
+            "City": "Decaturville",
+            "State": "TN",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 1,
+              "WinPercentage": 75,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 83.8,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 17,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          2,
+          1,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Springhouse Church (Smyrna) #1",
+            "YearsQuizzing": null,
+            "Id": "q_2de9137ebdd34b41785708da929026bd",
+            "Name": "Allyssa Entzminger",
+            "ChurchName": "Springhouse Church",
+            "City": "Smyrna",
+            "State": "TN",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 315,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 78.8,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 11,
+              "Correct20s": 7,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Springhouse Church (Smyrna) #1",
+            "YearsQuizzing": null,
+            "Id": "q_15eee78499c740b4462808da15a26e8f",
+            "Name": "Hadassah O'dea",
+            "ChurchName": "Springhouse Church",
+            "City": "Smyrna",
+            "State": "TN",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Trinity Overcomers",
+            "YearsQuizzing": null,
+            "Id": "q_3363087a42b34e5f057e08ddf3458d70",
+            "Name": "Harley Kinchen",
+            "ChurchName": "Trinity Assembly of God",
+            "City": "Decaturville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Trinity Overcomers",
+            "YearsQuizzing": null,
+            "Id": "q_fda262b2817445c5af6e08dbe3208b6b",
+            "Name": "Jace Azbill",
+            "ChurchName": "Trinity Assembly of God",
+            "City": "Decaturville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.5,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 4,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Trinity Overcomers",
+            "YearsQuizzing": null,
+            "Id": "q_e92e52e007fb4d04af6208dbe3208b6b",
+            "Name": "Jagger Azbill",
+            "ChurchName": "Trinity Assembly of God",
+            "City": "Decaturville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 105,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.2,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 6,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Trinity Overcomers",
+            "YearsQuizzing": null,
+            "Id": "q_6262500ac7524cb2af6808dbe3208b6b",
+            "Name": "Jance Azbill",
+            "ChurchName": "Trinity Assembly of God",
+            "City": "Decaturville",
+            "State": "TN",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Lewisburg First Assembly XP5",
+            "YearsQuizzing": null,
+            "Id": "q_b4f286bf429e42abb13808dd1880467e",
+            "Name": "Jaxson Croffut",
+            "ChurchName": "First Assembly of God",
+            "City": "Lewisburg",
+            "State": "TN",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.8,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 5,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Lewisburg First Assembly XP5",
+            "YearsQuizzing": null,
+            "Id": "q_7f75b3293be143684b7b08dbafc02107",
+            "Name": "Olivia Croffut",
+            "ChurchName": "First Assembly of God",
+            "City": "Lewisburg",
+            "State": "TN",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Springhouse Church (Smyrna) #1",
+            "YearsQuizzing": null,
+            "Id": "q_1bc88419892d4475886108dd00dcffc4",
+            "Name": "Zoie B",
+            "ChurchName": "Springhouse Church",
+            "City": "Smyrna",
+            "State": "TN",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          0,
+          6,
+          3,
+          4,
+          5,
+          7,
+          2,
+          8,
+          1
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2025-09-20T16:34:12.6083812+00:00"
+}
