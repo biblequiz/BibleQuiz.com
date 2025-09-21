@@ -173,8 +173,7 @@ export class AuthManager {
 
     private static readonly _instance: AuthManager = new AuthManager();
 
-    private readonly _acquireLock: AsyncLock = new AsyncLock();
-    private readonly _clientLock: AsyncLock = new AsyncLock();
+    private readonly _lock: AsyncLock = new AsyncLock();
 
     private _resolvedClient: IPublicClientApplication | null = null;
     private _showLoginWindowFromBackground: boolean = false;
@@ -203,8 +202,8 @@ export class AuthManager {
 
         privateStores.set(this, store);
 
-        // Initialize background token renewal after the constructor has completed.
-        setTimeout(() => this.setupPeriodicTokenRefresh(), 5);
+        // Initialize background token renewal.
+        // this.setupPeriodicTokenRefresh();
     }
 
     /**
@@ -356,14 +355,14 @@ export class AuthManager {
      */
     public async getLatestAccessToken(isBackground: boolean = false): Promise<string | null> {
 
-        const client = await this.getInitializedClient();
+        return new Promise<string | null>(
+            async (resolve, reject) => {
+                const client = await this.getInitializedClient();
+
                 const activeAccount: AccountInfo | null = client.getActiveAccount();
                 if (!activeAccount) {
                     return resolve(null);
                 }
-
-        return new Promise<string | null>(
-            async (resolve, reject) => {
 
                 try {
                     const tokenResponse = await client
@@ -395,8 +394,10 @@ export class AuthManager {
                     if (!isBackground || this._showLoginWindowFromBackground) {
                         // It's possible the user is no longer signed in. In this case, save the resolve
                         // and reject so the user can be prompted to sign in again.
-                        this._accessTokenResolve = resolve;
-                        this._accessTokenReject = reject;
+                        if (!isBackground) {
+                            this._accessTokenResolve = resolve;
+                            this._accessTokenReject = reject;
+                        }
 
                         this.getNanoState().setKey("popupType", PopupType.LoginConfirmationDialog);
                     }
@@ -442,18 +443,14 @@ export class AuthManager {
         this.renewTokenWithoutError();
 
         // Refresh token every 30 minutes (tokens typically last 1 hour)
-        setInterval(() => this.renewTokenWithoutError(), 30 * 60 * 1000); // 30 minutes
+        setInterval(this.renewTokenWithoutError, 30 * 60 * 1000); // 30 minutes
     }
 
     private async renewTokenWithoutError(): Promise<void> {
-        await this._acquireLock.acquireOrWait();
         try {
             await this.getLatestAccessToken(true);
         } catch (error) {
             console.log("Periodic token refresh failed:", error);
-        }
-        finally {
-            this._acquireLock.release();
         }
     }
 
@@ -600,7 +597,7 @@ export class AuthManager {
             return this._resolvedClient;
         }
 
-        await this._clientLock.acquireOrWait();
+        await this._lock.acquireOrWait();
         try {
             if (this._resolvedClient) {
                 return this._resolvedClient;
@@ -655,7 +652,7 @@ export class AuthManager {
                 },
             });
         } finally {
-            this._clientLock.release();
+            this._lock.release();
         }
 
         return this._resolvedClient;
