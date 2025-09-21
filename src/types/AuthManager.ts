@@ -173,7 +173,8 @@ export class AuthManager {
 
     private static readonly _instance: AuthManager = new AuthManager();
 
-    private readonly _lock: AsyncLock = new AsyncLock();
+    private readonly _acquireLock: AsyncLock = new AsyncLock();
+    private readonly _clientLock: AsyncLock = new AsyncLock();
 
     private _resolvedClient: IPublicClientApplication | null = null;
     private _showLoginWindowFromBackground: boolean = false;
@@ -202,8 +203,8 @@ export class AuthManager {
 
         privateStores.set(this, store);
 
-        // Initialize background token renewal.
-        this.setupPeriodicTokenRefresh();
+        // Initialize background token renewal after the constructor has completed.
+        setTimeout(() => this.setupPeriodicTokenRefresh(), 5);
     }
 
     /**
@@ -441,14 +442,18 @@ export class AuthManager {
         this.renewTokenWithoutError();
 
         // Refresh token every 30 minutes (tokens typically last 1 hour)
-        setInterval(this.renewTokenWithoutError, 30 * 60 * 1000); // 30 minutes
+        setInterval(() => this.renewTokenWithoutError(), 30 * 60 * 1000); // 30 minutes
     }
 
     private async renewTokenWithoutError(): Promise<void> {
+        await this._acquireLock.acquireOrWait();
         try {
             await this.getLatestAccessToken(true);
         } catch (error) {
             console.log("Periodic token refresh failed:", error);
+        }
+        finally {
+            this._acquireLock.release();
         }
     }
 
@@ -595,7 +600,7 @@ export class AuthManager {
             return this._resolvedClient;
         }
 
-        await AuthManager._lock.acquireOrWait();
+        await this._clientLock.acquireOrWait();
         try {
             if (this._resolvedClient) {
                 return this._resolvedClient;
@@ -650,7 +655,7 @@ export class AuthManager {
                 },
             });
         } finally {
-            AuthManager._lock.release();
+            this._clientLock.release();
         }
 
         return this._resolvedClient;

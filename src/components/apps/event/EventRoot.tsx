@@ -4,8 +4,8 @@ import { useEffect } from 'react';
 import { sharedDirtyWindowState } from 'utils/SharedState';
 import ConfirmationDialog from '../../ConfirmationDialog';
 import ProtectedRoute from '../../auth/ProtectedRoute';
-import { reactSidebarManifest, type ReactSidebarEntry, type ReactSidebarGroup, type ReactSidebarLink, type ReactSidebarManifest } from 'components/sidebar/ReactSidebar';
-import RegistrationPage from './RegistrationPage';
+import { reactSidebarEntries, type ReactSidebarEntry, type ReactSidebarGroup, type ReactSidebarLink, type ReactSidebarManifest } from 'components/sidebar/ReactSidebar';
+import RegistrationPage, { RegistrationPageSection, registrationPageSection } from './RegistrationPage';
 import PermissionsPage from './PermissionsPage';
 import ReportsPage from './ReportsPage';
 import ScoringPage from './ScoringPage';
@@ -39,7 +39,7 @@ function RootLayout({ loadingElementId }: Props) {
     const location = useLocation();
 
     useEffect(() => {
-        reactSidebarManifest.set(buildSidebar(routeMatches, routeParameters, navigate));
+        reactSidebarEntries.set(buildSidebar(routeMatches, routeParameters, navigate));
     }, [location.pathname]);
 
     return (
@@ -60,6 +60,172 @@ function RootLayout({ loadingElementId }: Props) {
                 </ConfirmationDialog>)}
             <Outlet />
         </>);
+}
+
+function buildSidebar(
+    routeMatches: UIMatch<unknown, unknown>[],
+    routeParameters: Readonly<Params<string>>,
+    navigate: NavigateFunction): ReactSidebarEntry[] {
+
+    if (routeParameters["*"]) {
+        return [];
+    }
+
+    const eventId = routeParameters.eventId as string;
+    if (!eventId) {
+        return [
+            {
+                type: 'link' as const,
+                label: "Registration",
+                navigate: () => { },
+                isCurrent: true,
+                attrs: {
+                    icon: "fas faPeopleArrows"
+                }
+            }
+        ];
+    }
+
+    const rootPath = `/${eventId}`;
+    const entries: ReactSidebarEntry[] = [
+        {
+            type: 'group' as const,
+            label: "Registration",
+            entries: [
+                {
+                    type: 'link' as const,
+                    label: "General",
+                    navigate: () => {
+                        if (!registrationPageSection.get()) {
+                            navigate(rootPath);
+                        }
+
+                        registrationPageSection.set(RegistrationPageSection.General);
+                    },
+                    isCurrent: false,
+                    attrs: {
+                        icon: "fas faPeopleArrows"
+                    }
+                },
+                {
+                    type: 'link' as const,
+                    label: "Eligibility",
+                    navigate: () => {
+                        if (!registrationPageSection.get()) {
+                            navigate(rootPath);
+                        }
+
+                        registrationPageSection.set(RegistrationPageSection.Eligibility);
+                    },
+                    isCurrent: false,
+                    attrs: {
+                        icon: "fas faPeopleArrows"
+                    }
+                },
+                {
+                    type: 'link' as const,
+                    label: "Fields",
+                    navigate: () => {
+                        if (!registrationPageSection.get()) {
+                            navigate(rootPath);
+                        }
+
+                        registrationPageSection.set(RegistrationPageSection.Fields);
+                    },
+                    isCurrent: false,
+                    attrs: {
+                        icon: "fas faPeopleArrows"
+                    }
+                },
+                {
+                    type: 'link' as const,
+                    label: "Divisions",
+                    navigate: () => {
+                        if (!registrationPageSection.get()) {
+                            navigate(rootPath);
+                        }
+
+                        registrationPageSection.set(RegistrationPageSection.Eligibility);
+                    },
+                    isCurrent: false,
+                    attrs: {
+                        icon: "fas faPeopleArrows"
+                    }
+                },
+                {
+                    type: 'link' as const,
+                    label: "Forms",
+                    navigate: () => {
+                        if (!registrationPageSection.get()) {
+                            navigate(rootPath);
+                        }
+
+                        registrationPageSection.set(RegistrationPageSection.Forms);
+                    },
+                    isCurrent: false,
+                    attrs: {
+                        icon: "fas faPeopleArrows"
+                    }
+                }
+            ],
+            collapsed: true
+        },
+        {
+            type: 'link' as const,
+            label: "Money",
+            navigate: () => navigate(`${rootPath}/money`),
+            isCurrent: false,
+            attrs: {
+                icon: "fas faDollarSign"
+            }
+        },
+        {
+            type: 'link' as const,
+            label: "Scoring",
+            navigate: () => navigate(`${rootPath}/scoring`),
+            isCurrent: false,
+            attrs: {
+                icon: "fas faChartLine"
+            }
+        },
+        {
+            type: 'link' as const,
+            label: "Downloads & Reports",
+            navigate: () => navigate(`${rootPath}/reports`),
+            isCurrent: false,
+            attrs: {
+                icon: "fas faFileImport"
+            }
+        },
+        {
+            type: 'link' as const,
+            label: "Permissions",
+            navigate: () => navigate(`${rootPath}/permissions`),
+            isCurrent: false,
+            attrs: {
+                icon: "fas faLock"
+            }
+        }
+    ];
+
+    // Determine the current page.
+    const segmentIndexes = routeMatches[routeMatches.length - 1].id.substring(4).split("-");
+    let currentPage: any = { entries: entries };
+    for (const segment of segmentIndexes) {
+        currentPage = currentPage.entries[parseInt(segment)];
+    }
+
+    if (currentPage.type === "group") {
+        while (currentPage?.type === "group") {
+            currentPage = (currentPage as ReactSidebarGroup).entries[0];
+        }
+    }
+
+    if (currentPage.type === "link") {
+        (currentPage as ReactSidebarLink).isCurrent = true;
+    }
+
+    return entries;
 }
 
 const router = createHashRouter([
@@ -101,105 +267,6 @@ const router = createHashRouter([
         ]
     }
 ]);
-
-function buildSidebar(
-    routeMatches: UIMatch<unknown, unknown>[],
-    routeParameters: Readonly<Params<string>>,
-    navigate: NavigateFunction): ReactSidebarManifest {
-
-    if (routeParameters["*"]) {
-        return { entries: [], navigate: navigate };
-    }
-
-    const eventId = routeParameters.eventId as string;
-    if (!eventId) {
-        return {
-            entries: [
-                {
-                    type: 'link' as const,
-                    label: "Registration",
-                    href: "/",
-                    isCurrent: true,
-                    attrs: {
-                        icon: "fas faPeopleArrows"
-                    }
-                }
-            ],
-            navigate: navigate
-        };
-    }
-
-    const rootPath = `/${eventId}`;
-    const entries: ReactSidebarEntry[] = [
-        {
-            type: 'link' as const,
-            label: "Registration",
-            href: rootPath,
-            isCurrent: false,
-            attrs: {
-                icon: "fas faPeopleArrows"
-            }
-        },
-        {
-            type: 'link' as const,
-            label: "Money",
-            href: `${rootPath}/money`,
-            isCurrent: false,
-            attrs: {
-                icon: "fas faDollarSign"
-            }
-        },
-        {
-            type: 'link' as const,
-            label: "Scoring",
-            href: `${rootPath}/scoring`,
-            isCurrent: false,
-            attrs: {
-                icon: "fas faChartLine"
-            }
-        },
-        {
-            type: 'link' as const,
-            label: "Downloads & Reports",
-            href: `${rootPath}/reports`,
-            isCurrent: false,
-            attrs: {
-                icon: "fas faFileImport"
-            }
-        },
-        {
-            type: 'link' as const,
-            label: "Permissions",
-            href: `${rootPath}/permissions`,
-            isCurrent: false,
-            attrs: {
-                icon: "fas faLock"
-            }
-        }
-    ];
-
-    // Determine the current page.
-    const segmentIndexes = routeMatches[routeMatches.length - 1].id.substring(4).split("-");
-    let currentPage: any = { entries: entries };
-    for (const segment of segmentIndexes) {
-        currentPage = currentPage.entries[parseInt(segment)];
-    }
-
-    if (currentPage.type === "group") {
-        while (currentPage?.type === "group") {
-            currentPage = (currentPage as ReactSidebarGroup).entries[0];
-        }
-    }
-
-    if (currentPage.type === "link") {
-        (currentPage as ReactSidebarLink).isCurrent = true;
-    }
-
-    return {
-        entries: entries,
-        navigate: navigate
-    } as ReactSidebarManifest;
-}
 
 export default function EventRoot() {
     return <RouterProvider router={router} />;
