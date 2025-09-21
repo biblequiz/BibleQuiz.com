@@ -356,14 +356,14 @@ export class AuthManager {
      */
     public async getLatestAccessToken(isBackground: boolean = false): Promise<string | null> {
 
-        return new Promise<string | null>(
-            async (resolve, reject) => {
-                const client = await this.getInitializedClient();
-
+        const client = await this.getInitializedClient();
                 const activeAccount: AccountInfo | null = client.getActiveAccount();
                 if (!activeAccount) {
                     return resolve(null);
                 }
+
+        return new Promise<string | null>(
+            async (resolve, reject) => {
 
                 try {
                     const tokenResponse = await client
