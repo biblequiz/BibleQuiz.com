@@ -75,7 +75,7 @@ function buildSidebar(
     const registrationGroup: ReactSidebarGroup = {
         type: 'group' as const,
         label: "Registration",
-        icon: "fas faPeopleArrows",
+        icon: "fas faUserPen",
         entries: [
             {
                 type: 'link' as const,
@@ -88,11 +88,11 @@ function buildSidebar(
                     registrationPageSection.set(RegistrationPageSection.General);
                 },
                 isCurrent: false,
-                icon: "fas faPeopleArrows"
+                icon: "fas faCalendar"
             },
             {
                 type: 'link' as const,
-                label: "Eligibility",
+                label: "Eligibility & Rules",
                 navigate: () => {
                     if (!registrationPageSection.get()) {
                         navigate(rootPath);
@@ -101,7 +101,7 @@ function buildSidebar(
                     registrationPageSection.set(RegistrationPageSection.Eligibility);
                 },
                 isCurrent: false,
-                icon: "fas faPeopleArrows"
+                icon: "fas faBook"
             },
             {
                 type: 'link' as const,
@@ -114,7 +114,7 @@ function buildSidebar(
                     registrationPageSection.set(RegistrationPageSection.Fields);
                 },
                 isCurrent: false,
-                icon: "fas faPeopleArrows"
+                icon: "fas faBars"
             },
             {
                 type: 'link' as const,
@@ -124,10 +124,10 @@ function buildSidebar(
                         navigate(rootPath);
                     }
 
-                    registrationPageSection.set(RegistrationPageSection.Eligibility);
+                    registrationPageSection.set(RegistrationPageSection.Divisions);
                 },
                 isCurrent: false,
-                icon: "fas faPeopleArrows"
+                icon: "fas faLayerGroup"
             },
             {
                 type: 'link' as const,
@@ -140,7 +140,7 @@ function buildSidebar(
                     registrationPageSection.set(RegistrationPageSection.Forms);
                 },
                 isCurrent: false,
-                icon: "fas faPeopleArrows"
+                icon: "fas faGavel"
             },
             {
                 type: 'link' as const,
@@ -154,6 +154,19 @@ function buildSidebar(
                 },
                 isCurrent: false,
                 icon: "fas faDollarSign"
+            },
+            {
+                type: 'link' as const,
+                label: "Other",
+                navigate: () => {
+                    if (!registrationPageSection.get()) {
+                        navigate(rootPath);
+                    }
+
+                    registrationPageSection.set(RegistrationPageSection.Other);
+                },
+                isCurrent: false,
+                icon: "fas faEllipsis"
             }
         ],
         collapsed: true
