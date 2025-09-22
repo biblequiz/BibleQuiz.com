@@ -9,7 +9,6 @@ import RegistrationPage, { RegistrationPageSection, registrationPageSection } fr
 import PermissionsPage from './PermissionsPage';
 import ReportsPage from './ReportsPage';
 import ScoringPage from './ScoringPage';
-import MoneyPage from './MoneyPage';
 import ErrorPage from '../ErrorPage';
 import NotFoundError from 'components/NotFoundError';
 
@@ -72,141 +71,120 @@ function buildSidebar(
     }
 
     const eventId = routeParameters.eventId as string;
-    if (!eventId) {
-        return [
+    const rootPath = eventId ? `/${eventId}` : "/";
+    const registrationGroup: ReactSidebarGroup = {
+        type: 'group' as const,
+        label: "Registration",
+        icon: "fas faPeopleArrows",
+        entries: [
             {
                 type: 'link' as const,
-                label: "Registration",
-                navigate: () => { },
-                isCurrent: true,
-                attrs: {
-                    icon: "fas faPeopleArrows"
-                }
-            }
-        ];
-    }
-
-    const rootPath = `/${eventId}`;
-    const entries: ReactSidebarEntry[] = [
-        {
-            type: 'group' as const,
-            label: "Registration",
-            entries: [
-                {
-                    type: 'link' as const,
-                    label: "General",
-                    navigate: () => {
-                        if (!registrationPageSection.get()) {
-                            navigate(rootPath);
-                        }
-
-                        registrationPageSection.set(RegistrationPageSection.General);
-                    },
-                    isCurrent: false,
-                    attrs: {
-                        icon: "fas faPeopleArrows"
+                label: "General",
+                navigate: () => {
+                    if (!registrationPageSection.get()) {
+                        navigate(rootPath);
                     }
+
+                    registrationPageSection.set(RegistrationPageSection.General);
                 },
-                {
-                    type: 'link' as const,
-                    label: "Eligibility",
-                    navigate: () => {
-                        if (!registrationPageSection.get()) {
-                            navigate(rootPath);
-                        }
-
-                        registrationPageSection.set(RegistrationPageSection.Eligibility);
-                    },
-                    isCurrent: false,
-                    attrs: {
-                        icon: "fas faPeopleArrows"
+                isCurrent: false,
+                icon: "fas faPeopleArrows"
+            },
+            {
+                type: 'link' as const,
+                label: "Eligibility",
+                navigate: () => {
+                    if (!registrationPageSection.get()) {
+                        navigate(rootPath);
                     }
+
+                    registrationPageSection.set(RegistrationPageSection.Eligibility);
                 },
-                {
-                    type: 'link' as const,
-                    label: "Fields",
-                    navigate: () => {
-                        if (!registrationPageSection.get()) {
-                            navigate(rootPath);
-                        }
-
-                        registrationPageSection.set(RegistrationPageSection.Fields);
-                    },
-                    isCurrent: false,
-                    attrs: {
-                        icon: "fas faPeopleArrows"
+                isCurrent: false,
+                icon: "fas faPeopleArrows"
+            },
+            {
+                type: 'link' as const,
+                label: "Fields",
+                navigate: () => {
+                    if (!registrationPageSection.get()) {
+                        navigate(rootPath);
                     }
+
+                    registrationPageSection.set(RegistrationPageSection.Fields);
                 },
-                {
-                    type: 'link' as const,
-                    label: "Divisions",
-                    navigate: () => {
-                        if (!registrationPageSection.get()) {
-                            navigate(rootPath);
-                        }
-
-                        registrationPageSection.set(RegistrationPageSection.Eligibility);
-                    },
-                    isCurrent: false,
-                    attrs: {
-                        icon: "fas faPeopleArrows"
+                isCurrent: false,
+                icon: "fas faPeopleArrows"
+            },
+            {
+                type: 'link' as const,
+                label: "Divisions",
+                navigate: () => {
+                    if (!registrationPageSection.get()) {
+                        navigate(rootPath);
                     }
+
+                    registrationPageSection.set(RegistrationPageSection.Eligibility);
                 },
-                {
-                    type: 'link' as const,
-                    label: "Forms",
-                    navigate: () => {
-                        if (!registrationPageSection.get()) {
-                            navigate(rootPath);
-                        }
-
-                        registrationPageSection.set(RegistrationPageSection.Forms);
-                    },
-                    isCurrent: false,
-                    attrs: {
-                        icon: "fas faPeopleArrows"
+                isCurrent: false,
+                icon: "fas faPeopleArrows"
+            },
+            {
+                type: 'link' as const,
+                label: "Forms",
+                navigate: () => {
+                    if (!registrationPageSection.get()) {
+                        navigate(rootPath);
                     }
-                }
-            ],
-            collapsed: true
-        },
-        {
-            type: 'link' as const,
-            label: "Money",
-            navigate: () => navigate(`${rootPath}/money`),
-            isCurrent: false,
-            attrs: {
+
+                    registrationPageSection.set(RegistrationPageSection.Forms);
+                },
+                isCurrent: false,
+                icon: "fas faPeopleArrows"
+            },
+            {
+                type: 'link' as const,
+                label: "Money",
+                navigate: () => {
+                    if (!registrationPageSection.get()) {
+                        navigate(rootPath);
+                    }
+
+                    registrationPageSection.set(RegistrationPageSection.Money);
+                },
+                isCurrent: false,
                 icon: "fas faDollarSign"
             }
-        },
-        {
-            type: 'link' as const,
-            label: "Scoring",
-            navigate: () => navigate(`${rootPath}/scoring`),
-            isCurrent: false,
-            attrs: {
+        ],
+        collapsed: true
+    };
+
+    const entries = !eventId
+        ? [registrationGroup]
+        : [
+            registrationGroup,
+            {
+                type: 'link' as const,
+                label: "Scoring",
+                navigate: () => navigate(`${rootPath}/scoring`),
+                isCurrent: false,
                 icon: "fas faChartLine"
-            }
-        },
-        {
-            type: 'link' as const,
-            label: "Downloads & Reports",
-            navigate: () => navigate(`${rootPath}/reports`),
-            isCurrent: false,
-            attrs: {
+            },
+            {
+                type: 'link' as const,
+                label: "Downloads & Reports",
+                navigate: () => navigate(`${rootPath}/reports`),
+                isCurrent: false,
                 icon: "fas faFileImport"
-            }
-        },
-        {
-            type: 'link' as const,
-            label: "Permissions",
-            navigate: () => navigate(`${rootPath}/permissions`),
-            isCurrent: false,
-            attrs: {
+            },
+            {
+                type: 'link' as const,
+                label: "Permissions",
+                navigate: () => navigate(`${rootPath}/permissions`),
+                isCurrent: false,
                 icon: "fas faLock"
             }
-        }
-    ];
+        ];
 
     // Determine the current page.
     const segmentIndexes = routeMatches[routeMatches.length - 1].id.substring(4).split("-");
@@ -241,10 +219,6 @@ const router = createHashRouter([
                     {
                         path: "/:eventId?",
                         element: <RegistrationPage key="registration-page" />
-                    },
-                    {
-                        path: "/:eventId/money",
-                        element: <MoneyPage key="money-page" />
                     },
                     {
                         path: "/:eventId/scoring",

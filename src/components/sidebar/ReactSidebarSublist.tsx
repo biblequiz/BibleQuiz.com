@@ -36,11 +36,11 @@ export default function ReactSidebarSublist({
                                         setCurrentPage(entry);
                                     }}
                                     aria-current={entry.isCurrent && "page"}
-                                    className={`cursor-pointer ${entry.attrs.className} ${nested ? "" : "large"}`}
+                                    className={`cursor-pointer ${entry.attrs?.className} ${nested ? "" : "large"}`}
                                     {...entry.attrs}
                                 >
-                                    {entry.attrs.icon && (
-                                        <FontAwesomeIcon icon={entry.attrs.icon} classNames={["fa-fw"]} />
+                                    {entry.icon && (
+                                        <FontAwesomeIcon icon={entry.icon} classNames={["fa-fw"]} />
                                     )}
                                     <span>{entry.label}</span>
                                 </a>
@@ -56,6 +56,9 @@ export default function ReactSidebarSublist({
                             >
                                 <summary>
                                     <div className="group-label">
+                                        {entry.icon && (
+                                            <FontAwesomeIcon icon={entry.icon} classNames={["fa-fw"]} />
+                                        )}
                                         <span className="large">{entry.label}</span>
                                     </div>
                                     <svg

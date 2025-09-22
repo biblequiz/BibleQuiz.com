@@ -24,7 +24,8 @@ export interface ReactSidebarLink {
     type: 'link';
     label: string;
     isCurrent: boolean;
-    attrs: any;
+    icon?: string;
+    attrs?: any;
     navigate: () => void;
 }
 
@@ -33,6 +34,7 @@ export interface ReactSidebarGroup {
     label: string;
     entries: (ReactSidebarLink | ReactSidebarGroup)[];
     collapsed: boolean;
+    icon?: string;
 }
 
 export type ReactSidebarEntry = ReactSidebarLink | ReactSidebarGroup;

@@ -83,7 +83,7 @@ export default defineConfig({
                 },
                 {
                     label: "Manage Event",
-                    link: "manage-event",
+                    link: "manage-event/",
                     badge: {
                         text: "EXPERIMENTAL",
                         variant: "caution"

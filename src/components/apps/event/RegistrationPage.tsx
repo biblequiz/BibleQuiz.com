@@ -10,7 +10,8 @@ export enum RegistrationPageSection {
     Eligibility,
     Divisions,
     Fields,
-    Forms
+    Forms,
+    Money
 }
 
 export const registrationPageSection = atom<RegistrationPageSection>(RegistrationPageSection.General);
