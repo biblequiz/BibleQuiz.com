@@ -357,7 +357,7 @@ export class AuthManager {
 
         return new Promise<string | null>(
             async (resolve, reject) => {
-                const client = await this.getInitializedClient();
+                const client = await this.getInitializedClient(isBackground);
 
                 const activeAccount: AccountInfo | null = client.getActiveAccount();
                 if (!activeAccount) {
@@ -437,18 +437,25 @@ export class AuthManager {
      */
     private setupPeriodicTokenRefresh(): void {
 
-        // Renew the token once.
-        this.renewTokenWithoutError();
+        // Delay setup to allow the static instance to be fully constructed.
+        setTimeout(() => {
+            // Renew the token once.
+            this.renewTokenWithoutError();
 
-        // Refresh token every 30 minutes (tokens typically last 1 hour)
-        setInterval(this.renewTokenWithoutError, 30 * 60 * 1000); // 30 minutes
+            // Refresh token every 30 minutes (tokens typically last 1 hour)
+            setInterval(this.renewTokenWithoutError, 30 * 60 * 1000); // 30 minutes
+        }, 5);
     }
 
     private async renewTokenWithoutError(): Promise<void> {
+        await this._lock.acquireOrWait();
         try {
             await this.getLatestAccessToken(true);
         } catch (error) {
             console.log("Periodic token refresh failed:", error);
+        }
+        finally {
+            this._lock.release();
         }
     }
 
@@ -589,13 +596,16 @@ export class AuthManager {
             : true;
     }
 
-    private async getInitializedClient(): Promise<IPublicClientApplication> {
+    private async getInitializedClient(skipLock: boolean = false): Promise<IPublicClientApplication> {
 
         if (this._resolvedClient) {
             return this._resolvedClient;
         }
 
-        await this._lock.acquireOrWait();
+        if (!skipLock) {
+            await this._lock.acquireOrWait();
+        }
+
         try {
             if (this._resolvedClient) {
                 return this._resolvedClient;
@@ -650,7 +660,9 @@ export class AuthManager {
                 },
             });
         } finally {
-            this._lock.release();
+            if (!skipLock) {
+                this._lock.release();
+            }
         }
 
         return this._resolvedClient;
