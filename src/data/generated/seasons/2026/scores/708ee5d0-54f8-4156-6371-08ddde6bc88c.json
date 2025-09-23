@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Middle A",
-        "LastUpdated": "9/20/25 5:39 PM",
-        "DatabaseLastUpdated": "2025-09-19T23:33:17.2769354+00:00",
+        "LastUpdated": "9/23/25 1:56 PM",
+        "DatabaseLastUpdated": "2025-09-23T13:58:13.1816967+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -892,8 +892,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Jackson A",
-        "LastUpdated": "9/20/25 5:39 PM",
-        "DatabaseLastUpdated": "2025-09-19T23:33:17.2769354+00:00",
+        "LastUpdated": "9/23/25 1:56 PM",
+        "DatabaseLastUpdated": "2025-09-23T13:58:13.1816967+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -1519,8 +1519,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Memphis A",
-        "LastUpdated": "9/20/25 5:39 PM",
-        "DatabaseLastUpdated": "2025-09-19T23:33:17.2769354+00:00",
+        "LastUpdated": "9/23/25 1:56 PM",
+        "DatabaseLastUpdated": "2025-09-23T13:58:13.1816967+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -2157,8 +2157,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Tri Cities A",
-        "LastUpdated": "9/20/25 5:39 PM",
-        "DatabaseLastUpdated": "2025-09-19T23:33:17.2769354+00:00",
+        "LastUpdated": "9/23/25 1:56 PM",
+        "DatabaseLastUpdated": "2025-09-23T13:58:13.1816967+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -2170,12 +2170,12 @@
             ],
             "Matches": [
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 300,
                 "OtherTeam": 1
               }
             ],
@@ -2185,7 +2185,23 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Wins": 1,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 300,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 300.0,
+              "AverageCorrect": 18.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 10,
+              "Correct20s": 5,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
           },
           {
             "CoachName": "Lisa Anderson",
@@ -2196,12 +2212,12 @@
             ],
             "Matches": [
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 40,
                 "OtherTeam": 0
               }
             ],
@@ -2211,11 +2227,30 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Wins": 0,
+              "Losses": 1,
+              "WinPercentage": 0,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           }
         ],
-        "RankedTeams": null,
-        "TeamFootnotes": null,
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
             "TeamName": "Holy Smokies",
@@ -2225,7 +2260,20 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 140.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 0,
+              "Correct20s": 3,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Quizzing Queens",
@@ -2235,7 +2283,20 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Holy Smokies",
@@ -2245,7 +2306,20 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Quizzing Queens",
@@ -2255,7 +2329,20 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           },
           {
             "TeamName": "Quizzing Queens",
@@ -2265,7 +2352,20 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 5,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           },
           {
             "TeamName": "Holy Smokies",
@@ -2275,11 +2375,36 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           }
         ],
-        "RankedQuizzers": null,
-        "QuizzerFootnotes": null,
+        "RankedQuizzers": [
+          0,
+          5,
+          2,
+          1,
+          3,
+          4
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "MeetNames": null,
         "Rooms": [
           {
@@ -2290,16 +2415,16 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 1,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
           }
         ],
-        "TeamRankingLabel": null,
-        "TeamRankingAwardsLabel": null,
-        "QuizzerRankingLabel": null,
-        "QuizzerRankingAwardsLabel": null,
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
             "Id": 1,
@@ -2309,8 +2434,8 @@
           }
         ],
         "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "",
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -2324,8 +2449,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "East A",
-        "LastUpdated": "9/20/25 5:39 PM",
-        "DatabaseLastUpdated": "2025-09-19T23:33:17.2769354+00:00",
+        "LastUpdated": "9/23/25 1:56 PM",
+        "DatabaseLastUpdated": "2025-09-23T13:58:13.1816967+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -3899,8 +4024,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Tri Cities B",
-        "LastUpdated": "9/20/25 5:39 PM",
-        "DatabaseLastUpdated": "2025-09-19T23:33:17.2769354+00:00",
+        "LastUpdated": "9/23/25 1:56 PM",
+        "DatabaseLastUpdated": "2025-09-23T13:58:13.1816967+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -3913,21 +4038,21 @@
             ],
             "Matches": [
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 100,
                 "OtherTeam": 2
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 40,
                 "OtherTeam": 1
               },
               null
@@ -3938,7 +4063,23 @@
             "ChurchName": "Crossroads Assembly of God",
             "City": "Rogersville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Wins": 1,
+              "Losses": 1,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 8.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 13,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "CoachName": "Whitney Estes",
@@ -3950,21 +4091,21 @@
             "Matches": [
               null,
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 65,
                 "OtherTeam": 0
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 80,
                 "OtherTeam": 2
               }
             ],
@@ -3974,7 +4115,23 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Wins": 2,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 72.5,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 11,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "CoachName": "Chris Taylor",
@@ -3985,22 +4142,22 @@
             ],
             "Matches": [
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 10,
                 "OtherTeam": 0
               },
               null,
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 70,
                 "OtherTeam": 1
               }
             ],
@@ -4010,11 +4167,31 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Wins": 0,
+              "Losses": 2,
+              "WinPercentage": 0,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           }
         ],
-        "RankedTeams": null,
-        "TeamFootnotes": null,
+        "RankedTeams": [
+          1,
+          0,
+          2
+        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
             "TeamName": "Radical Rascals",
@@ -4024,7 +4201,20 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           },
           {
             "TeamName": "Radical Rascals",
@@ -4034,7 +4224,20 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 72.5,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 11,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Crossroads Assembly of God (Rogersville) #1",
@@ -4044,7 +4247,20 @@
             "ChurchName": "Crossroads Assembly of God",
             "City": "Rogersville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 7,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Radical Rascals",
@@ -4054,7 +4270,20 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           },
           {
             "TeamName": "Crossroads Assembly of God (Rogersville) #1",
@@ -4064,7 +4293,20 @@
             "ChurchName": "Crossroads Assembly of God",
             "City": "Rogersville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 3,
+              "IsTie": true,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           },
           {
             "TeamName": "The Armor Bearers",
@@ -4074,7 +4316,20 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           },
           {
             "TeamName": "Crossroads Assembly of God (Rogersville) #1",
@@ -4084,7 +4339,20 @@
             "ChurchName": "Crossroads Assembly of God",
             "City": "Rogersville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           },
           {
             "TeamName": "Crossroads Assembly of God (Rogersville) #1",
@@ -4094,7 +4362,20 @@
             "ChurchName": "Crossroads Assembly of God",
             "City": "Rogersville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           },
           {
             "TeamName": "The Armor Bearers",
@@ -4104,7 +4385,20 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "The Armor Bearers",
@@ -4114,11 +4408,40 @@
             "ChurchName": "Lighthouse Assembly of God",
             "City": "Greeneville",
             "State": "TN",
-            "Scores": null
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           }
         ],
-        "RankedQuizzers": null,
-        "QuizzerFootnotes": null,
+        "RankedQuizzers": [
+          1,
+          2,
+          5,
+          4,
+          8,
+          9,
+          7,
+          0,
+          3,
+          6
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "MeetNames": null,
         "Rooms": [
           {
@@ -4129,15 +4452,15 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 2,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 1,
-                "State": "NotStarted",
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -4145,16 +4468,16 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 2,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
           }
         ],
-        "TeamRankingLabel": null,
-        "TeamRankingAwardsLabel": null,
-        "QuizzerRankingLabel": null,
-        "QuizzerRankingAwardsLabel": null,
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
             "Id": 1,
@@ -4176,8 +4499,8 @@
           }
         ],
         "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "",
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -4191,8 +4514,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Memphis B",
-        "LastUpdated": "9/20/25 5:39 PM",
-        "DatabaseLastUpdated": "2025-09-19T23:33:17.2769354+00:00",
+        "LastUpdated": "9/23/25 1:56 PM",
+        "DatabaseLastUpdated": "2025-09-23T13:58:13.1816967+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -6052,8 +6375,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Middle B",
-        "LastUpdated": "9/20/25 5:39 PM",
-        "DatabaseLastUpdated": "2025-09-19T23:33:17.2769354+00:00",
+        "LastUpdated": "9/23/25 1:56 PM",
+        "DatabaseLastUpdated": "2025-09-23T13:58:13.1816967+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -6499,8 +6822,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "East B",
-        "LastUpdated": "9/20/25 5:39 PM",
-        "DatabaseLastUpdated": "2025-09-19T23:33:17.2769354+00:00",
+        "LastUpdated": "9/23/25 1:56 PM",
+        "DatabaseLastUpdated": "2025-09-23T13:58:13.1816967+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -7404,8 +7727,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Jackson B",
-        "LastUpdated": "9/20/25 5:39 PM",
-        "DatabaseLastUpdated": "2025-09-19T23:33:17.2769354+00:00",
+        "LastUpdated": "9/23/25 1:56 PM",
+        "DatabaseLastUpdated": "2025-09-23T13:58:13.1816967+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -8093,5 +8416,5 @@
       }
     }
   ],
-  "Freshness": "2025-09-20T17:40:10.7939342+00:00"
+  "Freshness": "2025-09-23T13:58:13.2374877+00:00"
 }
