@@ -25,10 +25,16 @@ import ScoringDatabasePlayoffsPage from './ScoringDatabasePlayoffsPage';
 import ScoringDatabaseTeamsAndQuizzersPage from './ScoringDatabaseTeamsAndQuizzersPage';
 import ScoringDatabaseAwardsPage from './ScoringDatabaseAwardsPage';
 import ScoringDatabaseManualEntryPage from './ScoringDatabaseManualEntryPage';
+import EventProvider from './EventProvider';
+import ScoringDatabaseNewPage from './ScoringDatabaseNewPage';
+import ScoringDatabaseGeneralPage from './ScoringDatabaseGeneralPage';
 
 interface Props {
     loadingElementId: string;
 }
+
+const SCORES_GROUP_ID = "scores";
+const DATABASE_GROUP_ID_PREFIX = "db-";
 
 function RootLayout({ loadingElementId }: Props) {
 
@@ -151,7 +157,7 @@ function buildSidebar(
             {
                 type: 'group' as const,
                 label: "Scoring",
-                icon: "fas faChartLine",
+                id: SCORES_GROUP_ID,
                 collapsed: true,
                 entries: [
                     {
@@ -162,12 +168,21 @@ function buildSidebar(
                         icon: "fas faChartLine"
                     },
                     {
-                        type: 'link' as const,
+                        type: 'group' as const,
                         label: "Databases",
-                        navigate: () => navigate(`${rootPath}/scoring/databases`),
-                        isCurrent: false,
-                        icon: "fas faDatabase"
-                    },
+                        collapsed: true,
+                        entries: [
+                            buildDatabaseEntry(rootPath, "db1", "Database 1", navigate),
+                            buildDatabaseEntry(rootPath, "db2", "Database 2", navigate),
+                            {
+                                type: 'link' as const,
+                                label: "Add Database",
+                                navigate: () => navigate(`${rootPath}/scoring/addDatabase`),
+                                isCurrent: false,
+                                icon: "fas faPlus"
+                            },
+                        ]
+                    }
                 ]
             },
             {
@@ -187,11 +202,29 @@ function buildSidebar(
         ];
 
     // Determine the current page.
-    const segmentIndexes = routeMatches[routeMatches.length - 1].id.substring(4).split("-");
+    const databaseId = routeParameters.databaseId;
+    const segmentIndexes = routeMatches[routeMatches.length - 1].id.substring(6).split('-');
+
     let currentPage: any = { entries: entries };
     for (const segment of segmentIndexes) {
         if (!currentPage.entries) {
             break;
+        }
+
+        if (currentPage.id === SCORES_GROUP_ID) {
+            // Skip to the databases section.
+            currentPage = currentPage.entries[1];
+
+            if (routeParameters.databaseId) {
+                // Find the matching database.
+                const findId = DATABASE_GROUP_ID_PREFIX + databaseId;
+                currentPage = currentPage.entries.find((e: ReactSidebarGroup) => e.id === findId);
+                continue;
+            }
+            else {
+                currentPage = currentPage.entries[2];
+                break;
+            }
         }
 
         currentPage = currentPage.entries[parseInt(segment)];
@@ -210,6 +243,71 @@ function buildSidebar(
     return entries;
 }
 
+function buildDatabaseEntry(
+    rootPath: string,
+    databaseId: string,
+    databaseName: string,
+    navigate: (path: string) => void): ReactSidebarGroup {
+
+    return {
+        type: 'group' as const,
+        label: databaseName,
+        collapsed: true,
+        icon: "fas faDatabase",
+        id: DATABASE_GROUP_ID_PREFIX + databaseId,
+        entries: [
+            {
+                type: 'link' as const,
+                label: "General",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}`),
+                isCurrent: false,
+                icon: "fas faHome"
+            },
+            {
+                type: 'link' as const,
+                label: "Meets",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/meets`),
+                isCurrent: false,
+                icon: "fas faCalendarDays"
+            },
+            {
+                type: 'link' as const,
+                label: "Teams & Quizzers",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/teamsAndQuizzers`),
+                isCurrent: false,
+                icon: "fas faUserGroup"
+            },
+            {
+                type: 'link' as const,
+                label: "Live Scores",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/liveScores`),
+                isCurrent: false,
+                icon: "fas faBroadcastTower"
+            },
+            {
+                type: 'link' as const,
+                label: "Playoffs",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/playoffs`),
+                isCurrent: false,
+                icon: "fas faPeopleArrows"
+            },
+            {
+                type: 'link' as const,
+                label: "Awards",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/awards`),
+                isCurrent: false,
+                icon: "fas faTrophy"
+            },
+            {
+                type: 'link' as const,
+                label: "Manual Entry",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/manualEntry`),
+                isCurrent: false,
+                icon: "fas faPenToSquare"
+            }]
+    };
+}
+
 const router = createHashRouter([
     {
         path: "/",
@@ -221,86 +319,100 @@ const router = createHashRouter([
                 element: <ProtectedRoute />,
                 children: [
                     {
-                        path: "/:eventId?",
-                        element: <RegistrationProvider />,
+                        path: "/",
+                        element: <EventProvider />,
                         children: [
                             {
                                 path: "/:eventId?",
-                                element: <RegistrationGeneralPage />
-                            },
-                            {
-                                path: "/:eventId?/registration/eligibility",
-                                element: <RegistrationEligibilityPage />
-                            },
-                            {
-                                path: "/:eventId?/registration/fields",
-                                element: <RegistrationFieldsPage />
-                            },
-                            {
-                                path: "/:eventId?/registration/divisions",
-                                element: <RegistrationDivisionsPage />
-                            },
-                            {
-                                path: "/:eventId?/registration/forms",
-                                element: <RegistrationFormsPage />
-                            },
-                            {
-                                path: "/:eventId?/registration/money",
-                                element: <RegistrationMoneyPage />
-                            },
-                            {
-                                path: "/:eventId?/registration/other",
-                                element: <RegistrationOtherPage />
-                            },
-                        ],
-                    },
-                    {
-                        path: "/:eventId/scoring",
-                        children: [
-                            {
-                                path: "/:eventId/scoring",
-                                element: <ScoringSettingsPage />
-                            },
-                            {
-                                path: "/:eventId/scoring/databases/:databaseId?",
-                                element: <ScoringDatabaseProvider />,
+                                element: <RegistrationProvider />,
                                 children: [
                                     {
-                                        path: "/:eventId/scoring/databases/:databaseId?",
-                                        element: <ScoringDatabaseMeetsPage />
+                                        path: "/:eventId?",
+                                        element: <RegistrationGeneralPage />
                                     },
                                     {
-                                        path: "/:eventId/scoring/databases/:databaseId?/teamsAndQuizzers",
-                                        element: <ScoringDatabaseTeamsAndQuizzersPage />
+                                        path: "/:eventId?/registration/eligibility",
+                                        element: <RegistrationEligibilityPage />
                                     },
                                     {
-                                        path: "/:eventId/scoring/databases/:databaseId?/liveScores",
-                                        element: <ScoringDatabaseLiveScoresPage />
+                                        path: "/:eventId?/registration/fields",
+                                        element: <RegistrationFieldsPage />
                                     },
                                     {
-                                        path: "/:eventId/scoring/databases/:databaseId?/playoffs",
-                                        element: <ScoringDatabasePlayoffsPage />
+                                        path: "/:eventId?/registration/divisions",
+                                        element: <RegistrationDivisionsPage />
                                     },
                                     {
-                                        path: "/:eventId/scoring/databases/:databaseId?/awards",
-                                        element: <ScoringDatabaseAwardsPage />
+                                        path: "/:eventId?/registration/forms",
+                                        element: <RegistrationFormsPage />
                                     },
                                     {
-                                        path: "/:eventId/scoring/databases/:databaseId?/manualEntry",
-                                        element: <ScoringDatabaseManualEntryPage />
+                                        path: "/:eventId?/registration/money",
+                                        element: <RegistrationMoneyPage />
+                                    },
+                                    {
+                                        path: "/:eventId?/registration/other",
+                                        element: <RegistrationOtherPage />
+                                    },
+                                ],
+                            },
+                            {
+                                path: "/:eventId/scoring",
+                                children: [
+                                    {
+                                        path: "/:eventId/scoring",
+                                        element: <ScoringSettingsPage />
+                                    },
+                                    {
+                                        path: "/:eventId/scoring/databases/:databaseId",
+                                        element: <ScoringDatabaseProvider />,
+                                        children: [
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId",
+                                                element: <ScoringDatabaseGeneralPage />
+                                            },
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId/meets",
+                                                element: <ScoringDatabaseMeetsPage />
+                                            },
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId/teamsAndQuizzers",
+                                                element: <ScoringDatabaseTeamsAndQuizzersPage />
+                                            },
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId/liveScores",
+                                                element: <ScoringDatabaseLiveScoresPage />
+                                            },
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId/playoffs",
+                                                element: <ScoringDatabasePlayoffsPage />
+                                            },
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId/awards",
+                                                element: <ScoringDatabaseAwardsPage />
+                                            },
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId/manualEntry",
+                                                element: <ScoringDatabaseManualEntryPage />
+                                            },
+                                        ]
+                                    },
+                                    {
+                                        path: "/:eventId/scoring/addDatabase",
+                                        element: <ScoringDatabaseNewPage />
                                     },
                                 ]
                             },
+                            {
+                                path: "/:eventId/reports",
+                                element: <ReportsPage />
+                            },
+                            {
+                                path: "/:eventId/permissions",
+                                element: <PermissionsPage />
+                            },
                         ]
-                    },
-                    {
-                        path: "/:eventId/reports",
-                        element: <ReportsPage />
-                    },
-                    {
-                        path: "/:eventId/permissions",
-                        element: <PermissionsPage />
-                    },
+                    }
                 ]
             },
             {

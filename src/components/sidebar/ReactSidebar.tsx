@@ -35,6 +35,7 @@ export interface ReactSidebarGroup {
     entries: (ReactSidebarLink | ReactSidebarGroup)[];
     collapsed: boolean;
     icon?: string;
+    id?: string;
 }
 
 export type ReactSidebarEntry = ReactSidebarLink | ReactSidebarGroup;

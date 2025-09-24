@@ -172,7 +172,7 @@ export enum PopupType {
 export class AuthManager {
 
     private static readonly _instance: AuthManager = new AuthManager();
-    private static readonly _lock: AsyncLock = new AsyncLock();
+    private readonly _lock: AsyncLock = new AsyncLock();
 
     private _resolvedClient: IPublicClientApplication | null = null;
     private _showLoginWindowFromBackground: boolean = false;
@@ -202,7 +202,9 @@ export class AuthManager {
         privateStores.set(this, store);
 
         // Initialize background token renewal.
-        // this.setupPeriodicTokenRefresh();
+        if (AuthManager.isPersistenceSupported()) {
+            this.setupPeriodicTokenRefresh();
+        }
     }
 
     /**
@@ -444,11 +446,17 @@ export class AuthManager {
             this.renewTokenWithoutError();
 
             // Refresh token every 30 minutes (tokens typically last 1 hour)
-            setInterval(this.renewTokenWithoutError, 30 * 60 * 1000); // 30 minutes
+            setInterval(this.renewTokenWithoutError, 5 * 60 * 1000); // 30 minutes
         }, 5);
     }
 
     private async renewTokenWithoutError(): Promise<void> {
+
+        if (this !== AuthManager._instance) {
+            // Only do the renewal on the singleton instance.
+            return;
+        }
+
         await this._lock.acquireOrWait();
         try {
             await this.getLatestAccessToken(true);

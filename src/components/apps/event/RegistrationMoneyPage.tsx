@@ -10,13 +10,14 @@ export default function RegistrationOtherPage({ }: Props) {
     return (
         <>
             <div>
-                <b>Other Section</b>
+                <b>Money Section</b>
             </div>
             <p>
                 This page includes the following fields:
             </p>
             <ul>
-                <li>Hide event from the public.</li>
+                <li>Will you collect money?</li>
+                <li>Setup credit card transactions.</li>
             </ul>
             <div>
                 Placeholder for {auth.userProfile?.displayName}

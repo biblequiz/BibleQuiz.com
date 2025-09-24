@@ -1,10 +1,12 @@
-import { AuthManager } from "types/AuthManager";
+import type { EventProviderContext } from "./EventProvider";
+import { useOutletContext } from "react-router-dom";
 
 interface Props {
 }
 
 export default function ScoringSettingsPage({ }: Props) {
-    const auth = AuthManager.useNanoStore();
+    const context = useOutletContext<EventProviderContext>();
+    const auth = context.auth;
 
     return (
         <>
@@ -19,8 +21,6 @@ export default function ScoringSettingsPage({ }: Props) {
                 <li>Set the EZScore code.</li>
                 <li>Show the Scores in Live & Upcoming Events</li>
                 <li>Show the Scores in BibleQuiz.com Archive</li>
-                <li>List of databases</li>
-                <li>Button to add database.</li>
             </ul>
             <div>
                 Placeholder for {auth.userProfile?.displayName}
