@@ -4,14 +4,27 @@ import { useEffect } from 'react';
 import { sharedDirtyWindowState } from 'utils/SharedState';
 import ConfirmationDialog from '../../ConfirmationDialog';
 import ProtectedRoute from '../../auth/ProtectedRoute';
-import { reactSidebarEntries, type ReactSidebarEntry, type ReactSidebarGroup, type ReactSidebarLink, type ReactSidebarManifest } from 'components/sidebar/ReactSidebar';
-import RegistrationPage, { RegistrationPageSection, registrationPageSection } from './RegistrationPage';
+import { reactSidebarEntries, type ReactSidebarEntry, type ReactSidebarGroup, type ReactSidebarLink } from 'components/sidebar/ReactSidebar';
 import PermissionsPage from './PermissionsPage';
 import ReportsPage from './ReportsPage';
-import ScoringGeneralPage from './ScoringGeneralPage';
 import ErrorPage from '../ErrorPage';
 import NotFoundError from 'components/NotFoundError';
-import ScoringAllDatabasesPage from './ScoringAllDatabasesPage';
+import RegistrationProvider from './RegistrationProvider';
+import RegistrationGeneralPage from './RegistrationGeneralPage';
+import RegistrationEligibilityPage from './RegistrationEligibilityPage';
+import RegistrationFieldsPage from './RegistrationFieldsPage';
+import RegistrationDivisionsPage from './RegistrationDivisionsPage';
+import RegistrationFormsPage from './RegistrationFormsPage';
+import RegistrationMoneyPage from './RegistrationMoneyPage';
+import RegistrationOtherPage from './RegistrationMoneyPage';
+import ScoringSettingsPage from './ScoringSettingsPage';
+import ScoringDatabaseProvider from './ScoringDatabaseProvider';
+import ScoringDatabaseMeetsPage from './ScoringDatabaseMeetsPage';
+import ScoringDatabaseLiveScoresPage from './ScoringDatabaseLiveScoresPage';
+import ScoringDatabasePlayoffsPage from './ScoringDatabasePlayoffsPage';
+import ScoringDatabaseTeamsAndQuizzersPage from './ScoringDatabaseTeamsAndQuizzersPage';
+import ScoringDatabaseAwardsPage from './ScoringDatabaseAwardsPage';
+import ScoringDatabaseManualEntryPage from './ScoringDatabaseManualEntryPage';
 
 interface Props {
     loadingElementId: string;
@@ -72,7 +85,7 @@ function buildSidebar(
     }
 
     const eventId = routeParameters.eventId as string;
-    const rootPath = eventId ? `/${eventId}` : "/";
+    const rootPath = eventId ? `/${eventId}` : "";
     const registrationGroup: ReactSidebarGroup = {
         type: 'group' as const,
         label: "Registration",
@@ -81,91 +94,49 @@ function buildSidebar(
             {
                 type: 'link' as const,
                 label: "General",
-                navigate: () => {
-                    if (!registrationPageSection.get()) {
-                        navigate(rootPath);
-                    }
-
-                    registrationPageSection.set(RegistrationPageSection.General);
-                },
+                navigate: () => navigate(rootPath),
                 isCurrent: false,
                 icon: "fas faCalendar"
             },
             {
                 type: 'link' as const,
                 label: "Eligibility & Rules",
-                navigate: () => {
-                    if (!registrationPageSection.get()) {
-                        navigate(rootPath);
-                    }
-
-                    registrationPageSection.set(RegistrationPageSection.Eligibility);
-                },
+                navigate: () => navigate(`${rootPath}/registration/eligibility`),
                 isCurrent: false,
                 icon: "fas faBook"
             },
             {
                 type: 'link' as const,
                 label: "Fields",
-                navigate: () => {
-                    if (!registrationPageSection.get()) {
-                        navigate(rootPath);
-                    }
-
-                    registrationPageSection.set(RegistrationPageSection.Fields);
-                },
+                navigate: () => navigate(`${rootPath}/registration/fields`),
                 isCurrent: false,
                 icon: "fas faBars"
             },
             {
                 type: 'link' as const,
                 label: "Divisions",
-                navigate: () => {
-                    if (!registrationPageSection.get()) {
-                        navigate(rootPath);
-                    }
-
-                    registrationPageSection.set(RegistrationPageSection.Divisions);
-                },
+                navigate: () => navigate(`${rootPath}/registration/divisions`),
                 isCurrent: false,
                 icon: "fas faLayerGroup"
             },
             {
                 type: 'link' as const,
                 label: "Forms",
-                navigate: () => {
-                    if (!registrationPageSection.get()) {
-                        navigate(rootPath);
-                    }
-
-                    registrationPageSection.set(RegistrationPageSection.Forms);
-                },
+                navigate: () => navigate(`${rootPath}/registration/forms`),
                 isCurrent: false,
                 icon: "fas faGavel"
             },
             {
                 type: 'link' as const,
                 label: "Money",
-                navigate: () => {
-                    if (!registrationPageSection.get()) {
-                        navigate(rootPath);
-                    }
-
-                    registrationPageSection.set(RegistrationPageSection.Money);
-                },
+                navigate: () => navigate(`${rootPath}/registration/money`),
                 isCurrent: false,
                 icon: "fas faDollarSign"
             },
             {
                 type: 'link' as const,
                 label: "Other",
-                navigate: () => {
-                    if (!registrationPageSection.get()) {
-                        navigate(rootPath);
-                    }
-
-                    registrationPageSection.set(RegistrationPageSection.Other);
-                },
+                navigate: () => navigate(`${rootPath}/registration/other`),
                 isCurrent: false,
                 icon: "fas faEllipsis"
             }
@@ -219,18 +190,16 @@ function buildSidebar(
     const segmentIndexes = routeMatches[routeMatches.length - 1].id.substring(4).split("-");
     let currentPage: any = { entries: entries };
     for (const segment of segmentIndexes) {
+        if (!currentPage.entries) {
+            break;
+        }
+
         currentPage = currentPage.entries[parseInt(segment)];
     }
 
     if (currentPage.type === "group") {
-        if (currentPage === registrationGroup) {
-            const sectionIndex: number = registrationPageSection.get();
-            (registrationGroup.entries[sectionIndex] as ReactSidebarLink).isCurrent = true;
-        }
-        else {
-            while (currentPage?.type === "group") {
-                currentPage = (currentPage as ReactSidebarGroup).entries[0];
-            }
+        while (currentPage?.type === "group") {
+            currentPage = (currentPage as ReactSidebarGroup).entries[0];
         }
     }
 
@@ -253,29 +222,90 @@ const router = createHashRouter([
                 children: [
                     {
                         path: "/:eventId?",
-                        element: <RegistrationPage key="registration-page" />
+                        element: <RegistrationProvider />,
+                        children: [
+                            {
+                                path: "/:eventId?",
+                                element: <RegistrationGeneralPage />
+                            },
+                            {
+                                path: "/:eventId?/registration/eligibility",
+                                element: <RegistrationEligibilityPage />
+                            },
+                            {
+                                path: "/:eventId?/registration/fields",
+                                element: <RegistrationFieldsPage />
+                            },
+                            {
+                                path: "/:eventId?/registration/divisions",
+                                element: <RegistrationDivisionsPage />
+                            },
+                            {
+                                path: "/:eventId?/registration/forms",
+                                element: <RegistrationFormsPage />
+                            },
+                            {
+                                path: "/:eventId?/registration/money",
+                                element: <RegistrationMoneyPage />
+                            },
+                            {
+                                path: "/:eventId?/registration/other",
+                                element: <RegistrationOtherPage />
+                            },
+                        ],
                     },
                     {
                         path: "/:eventId/scoring",
-                        element: <ScoringGeneralPage key="scoring-general-page" />
-                    },
-                    {
-                        path: "/:eventId/scoring/databases",
-                        element: <ScoringAllDatabasesPage key="scoring-databases-page" />
+                        children: [
+                            {
+                                path: "/:eventId/scoring",
+                                element: <ScoringSettingsPage />
+                            },
+                            {
+                                path: "/:eventId/scoring/databases/:databaseId?",
+                                element: <ScoringDatabaseProvider />,
+                                children: [
+                                    {
+                                        path: "/:eventId/scoring/databases/:databaseId?",
+                                        element: <ScoringDatabaseMeetsPage />
+                                    },
+                                    {
+                                        path: "/:eventId/scoring/databases/:databaseId?/teamsAndQuizzers",
+                                        element: <ScoringDatabaseTeamsAndQuizzersPage />
+                                    },
+                                    {
+                                        path: "/:eventId/scoring/databases/:databaseId?/liveScores",
+                                        element: <ScoringDatabaseLiveScoresPage />
+                                    },
+                                    {
+                                        path: "/:eventId/scoring/databases/:databaseId?/playoffs",
+                                        element: <ScoringDatabasePlayoffsPage />
+                                    },
+                                    {
+                                        path: "/:eventId/scoring/databases/:databaseId?/awards",
+                                        element: <ScoringDatabaseAwardsPage />
+                                    },
+                                    {
+                                        path: "/:eventId/scoring/databases/:databaseId?/manualEntry",
+                                        element: <ScoringDatabaseManualEntryPage />
+                                    },
+                                ]
+                            },
+                        ]
                     },
                     {
                         path: "/:eventId/reports",
-                        element: <ReportsPage key="reports-page" />
+                        element: <ReportsPage />
                     },
                     {
                         path: "/:eventId/permissions",
-                        element: <PermissionsPage key="permissions-page" />
+                        element: <PermissionsPage />
                     },
                 ]
             },
             {
                 path: "*",
-                element: <NotFoundError key="notfound-page" />
+                element: <NotFoundError />
             },
         ]
     }
