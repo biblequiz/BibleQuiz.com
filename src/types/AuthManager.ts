@@ -172,8 +172,7 @@ export enum PopupType {
 export class AuthManager {
 
     private static readonly _instance: AuthManager = new AuthManager();
-
-    private readonly _lock: AsyncLock = new AsyncLock();
+    private static readonly _lock: AsyncLock = new AsyncLock();
 
     private _resolvedClient: IPublicClientApplication | null = null;
     private _showLoginWindowFromBackground: boolean = false;

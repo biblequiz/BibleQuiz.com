@@ -8,9 +8,10 @@ import { reactSidebarEntries, type ReactSidebarEntry, type ReactSidebarGroup, ty
 import RegistrationPage, { RegistrationPageSection, registrationPageSection } from './RegistrationPage';
 import PermissionsPage from './PermissionsPage';
 import ReportsPage from './ReportsPage';
-import ScoringPage from './ScoringPage';
+import ScoringGeneralPage from './ScoringGeneralPage';
 import ErrorPage from '../ErrorPage';
 import NotFoundError from 'components/NotFoundError';
+import ScoringAllDatabasesPage from './ScoringAllDatabasesPage';
 
 interface Props {
     loadingElementId: string;
@@ -177,11 +178,26 @@ function buildSidebar(
         : [
             registrationGroup,
             {
-                type: 'link' as const,
+                type: 'group' as const,
                 label: "Scoring",
-                navigate: () => navigate(`${rootPath}/scoring`),
-                isCurrent: false,
-                icon: "fas faChartLine"
+                icon: "fas faChartLine",
+                collapsed: true,
+                entries: [
+                    {
+                        type: 'link' as const,
+                        label: "General",
+                        navigate: () => navigate(`${rootPath}/scoring`),
+                        isCurrent: false,
+                        icon: "fas faChartLine"
+                    },
+                    {
+                        type: 'link' as const,
+                        label: "Databases",
+                        navigate: () => navigate(`${rootPath}/scoring/databases`),
+                        isCurrent: false,
+                        icon: "fas faDatabase"
+                    },
+                ]
             },
             {
                 type: 'link' as const,
@@ -207,8 +223,14 @@ function buildSidebar(
     }
 
     if (currentPage.type === "group") {
-        while (currentPage?.type === "group") {
-            currentPage = (currentPage as ReactSidebarGroup).entries[0];
+        if (currentPage === registrationGroup) {
+            const sectionIndex: number = registrationPageSection.get();
+            (registrationGroup.entries[sectionIndex] as ReactSidebarLink).isCurrent = true;
+        }
+        else {
+            while (currentPage?.type === "group") {
+                currentPage = (currentPage as ReactSidebarGroup).entries[0];
+            }
         }
     }
 
@@ -235,7 +257,11 @@ const router = createHashRouter([
                     },
                     {
                         path: "/:eventId/scoring",
-                        element: <ScoringPage key="scoring-page" />
+                        element: <ScoringGeneralPage key="scoring-general-page" />
+                    },
+                    {
+                        path: "/:eventId/scoring/databases",
+                        element: <ScoringAllDatabasesPage key="scoring-databases-page" />
                     },
                     {
                         path: "/:eventId/reports",

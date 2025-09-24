@@ -11,8 +11,12 @@ export default function ReportsPage({ }: Props) {
             <div>
                 <b>Downloads & Reports Page</b>
             </div>
-            <div>
-                Placeholder for {auth.userProfile?.displayName}
-            </div>
+            <p>
+                This page includes the following fields:
+            </p>
+            <ul>
+                <li>Registration Report & File</li>
+                <li>ScoreKeep File (Excel and Text)</li>
+            </ul>
         </>);
 }

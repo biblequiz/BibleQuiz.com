@@ -34,9 +34,13 @@ export default function RegistrationPage({ }: Props) {
                     <li>Event Name</li>
                     <li>Event Type (JBQ or TBQ)</li>
                     <li>Event & Registration Dates</li>
-                    <li>Location</li>
-                    <li>Description</li>
-                    <li>Team Eligibility (National, District, etc.)</li>
+                    <li>If Registration is enabled, then:
+                        <ul>
+                            <li>Location</li>
+                            <li>Description</li>
+                            <li>Team Eligibility (National, District, etc.)</li>
+                        </ul>
+                    </li>
                 </ul>
             )}
             {section === RegistrationPageSection.Eligibility && (

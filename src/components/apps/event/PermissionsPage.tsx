@@ -11,8 +11,9 @@ export default function PermissionsPage({ }: Props) {
             <div>
                 <b>Permissions Page</b>
             </div>
-            <div>
-                Placeholder for {auth.userProfile?.displayName}
-            </div>
+            <p>
+                This page allows the event coordinator to manage permissions for who can
+                administer the event.
+            </p>
         </>);
 }
