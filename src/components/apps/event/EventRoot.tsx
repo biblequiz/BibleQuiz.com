@@ -28,6 +28,7 @@ import ScoringDatabaseManualEntryPage from './ScoringDatabaseManualEntryPage';
 import EventProvider from './EventProvider';
 import ScoringDatabaseNewPage from './ScoringDatabaseNewPage';
 import ScoringDatabaseGeneralPage from './ScoringDatabaseGeneralPage';
+import { AuthManager } from 'types/AuthManager';
 
 interface Props {
     loadingElementId: string;
@@ -37,6 +38,8 @@ const SCORES_GROUP_ID = "scores";
 const DATABASE_GROUP_ID_PREFIX = "db-";
 
 function RootLayout({ loadingElementId }: Props) {
+
+    const auth = AuthManager.useNanoStore();
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);
@@ -58,8 +61,11 @@ function RootLayout({ loadingElementId }: Props) {
     const location = useLocation();
 
     useEffect(() => {
-        reactSidebarEntries.set(buildSidebar(routeMatches, routeParameters, navigate));
-    }, [location.pathname]);
+        reactSidebarEntries.set({
+            showParent: auth.userProfile?.canCreateEvents ?? false,
+            entries: buildSidebar(routeMatches, routeParameters, navigate)
+        });
+    }, [location.pathname, auth]);
 
     return (
         <>
@@ -316,7 +322,7 @@ const router = createHashRouter([
         children: [
             {
                 path: "/",
-                element: <ProtectedRoute />,
+                element: <ProtectedRoute permissionCheck={profile => profile.canCreateEvents} />,
                 children: [
                     {
                         path: "/",

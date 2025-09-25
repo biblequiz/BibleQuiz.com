@@ -47,23 +47,38 @@ export class UserAccountProfile {
      * @param personId  Id of the person in the remote system.
      * @param displayName Display name of the user.
      * @param type Type of the user's profile.
-     * @param isJbqAdmin Value indicating whether the user is a JBQ administrator.
-     * @param isTbqAdmin Value indicating whether the user is a TBQ administrator.
+     * @param organizationPermission Organization-level permission.
+     * @param regionPermissions Region-level permissions.
+     * @param districtPermissions District-level permissions.
+     * @param eventPermissions Events for which the user is considered an administrator.
+     * @param churchPermissions Churches for which the user is considered an administrator.
+     * @param canCreateEvents Value indicating whether the user can create events.
+     * @param isPayoutManager Value indicating if the user is a payout manager.
      * @param authTokenProfile Profile from the auth token.
      */
     public constructor(
         personId: string | null,
         displayName: string | null,
         type: UserProfileType | null,
-        isJbqAdmin: boolean,
-        isTbqAdmin: boolean,
+        organizationPermission: RemoteUserPermission | null,
+        regionPermissions: Record<string, RemoteUserPermission | null> | null,
+        districtPermissions: Record<string, RemoteUserPermission | null> | null,
+        churchPermissions: Set<string> | null,
+        eventPermissions: Set<string> | null,
+        canCreateEvents: boolean,
+        isPayoutManager: boolean,
         authTokenProfile: AuthTokenProfile | null) {
 
         this.personId = personId;
         this.displayName = displayName;
         this.type = type;
-        this.isJbqAdmin = isJbqAdmin;
-        this.isTbqAdmin = isTbqAdmin;
+        this.organizationPermission = organizationPermission;
+        this.regionPermissions = regionPermissions;
+        this.districtPermissions = districtPermissions;
+        this.churchPermissions = churchPermissions;
+        this.eventPermissions = eventPermissions;
+        this.canCreateEvents = canCreateEvents;
+        this.isPayoutManager = isPayoutManager;
         this.authTokenProfile = authTokenProfile;
     }
 
@@ -83,19 +98,60 @@ export class UserAccountProfile {
     public readonly type!: UserProfileType | null;
 
     /**
-     * Value indicating whether the user is a JBQ administrator.
+     * Organization-level permission.
      */
-    public readonly isJbqAdmin: boolean;
+    public readonly organizationPermission!: RemoteUserPermission | null;
 
     /**
-     * Value indicating whether the user is a TBQ administrator.
+     * Region-level permissions.
      */
-    public readonly isTbqAdmin: boolean;
+    public readonly regionPermissions!: Record<string, RemoteUserPermission | null> | null;
+
+    /**
+     * District-level permissions.
+     */
+    public readonly districtPermissions!: Record<string, RemoteUserPermission | null> | null;
+
+    /**
+     * Churches for which the user is considered an administrator.
+     */
+    public readonly churchPermissions!: Set<string> | null;
+
+    /**
+     * Events for which the user is considered an administrator.
+     */
+    public readonly eventPermissions!: Set<string> | null;
+
+    /**
+     * Value indicating whether the user can create events.
+     */
+    public readonly canCreateEvents!: boolean;
+
+    /**
+     * Value indicating if the user is a payout manager.
+     */
+    public readonly isPayoutManager!: boolean;
 
     /**
      * Profile from the auth token (if the user has one).
      */
     public readonly authTokenProfile: AuthTokenProfile | null;
+}
+
+/**
+ * Restriction on a permission.
+ */
+enum UserPermissionRestriction {
+    
+    /**
+     * Restrict to JBQ objects.
+     */
+    JbqOnly = "JbqOnly",
+
+    /**
+     * Restrict to TBQ objects.
+     */
+    TbqOnly = "TbqOnly",
 }
 
 /**
@@ -257,8 +313,13 @@ export class AuthManager {
                 currentProfile.personId,
                 `${person.FirstName} ${person.LastName}`,
                 currentProfile.type,
-                currentProfile.isJbqAdmin ?? false,
-                currentProfile.isTbqAdmin ?? false,
+                currentProfile.organizationPermission ?? null,
+                currentProfile.regionPermissions ?? null,
+                currentProfile.districtPermissions ?? null,
+                currentProfile.churchPermissions ?? null,
+                currentProfile.eventPermissions ?? null,
+                currentProfile.canCreateEvents ?? false,
+                currentProfile.isPayoutManager ?? false,
                 currentProfile.authTokenProfile ?? null);
             AuthManager.saveProfile(newProfile);
 
@@ -487,8 +548,13 @@ export class AuthManager {
             remoteProfile.PersonId,
             remoteProfile.Name,
             remoteProfile.Type,
-            remoteProfile.IsJbqAdmin,
-            remoteProfile.IsTbqAdmin,
+            remoteProfile.OrganizationPermission ?? null,
+            remoteProfile.RegionPermissions ?? null,
+            remoteProfile.DistrictPermissions ?? null,
+            remoteProfile.ChurchPermissions ?? null,
+            remoteProfile.EventPermissions ?? null,
+            remoteProfile.CanCreateEvents ?? false,
+            remoteProfile.IsPayoutManager ?? false,
             tokenProfile);
 
         AuthManager.saveProfile(newProfile);
@@ -549,8 +615,13 @@ export class AuthManager {
                     serializedProfile.personId,
                     serializedProfile.displayName,
                     serializedProfile.type,
-                    serializedProfile.isJbqAdmin,
-                    serializedProfile.isTbqAdmin,
+                    serializedProfile.organizationPermission ?? null,
+                    serializedProfile.regionPermissions ?? null,
+                    serializedProfile.districtPermissions ?? null,
+                    serializedProfile.churchPermissions ?? null,
+                    serializedProfile.eventPermissions ?? null,
+                    serializedProfile.canCreateEvents ?? false,
+                    serializedProfile.isPayoutManager ?? false,
                     serializedProfile.authTokenProfile);
             }
         }
@@ -570,8 +641,13 @@ export class AuthManager {
                 personId: profile.personId,
                 displayName: profile.displayName,
                 type: profile.type,
-                isJbqAdmin: profile.isJbqAdmin,
-                isTbqAdmin: profile.isTbqAdmin,
+                organizationPermission: profile.organizationPermission,
+                regionPermissions: profile.regionPermissions,
+                districtPermissions: profile.districtPermissions,
+                churchPermissions: profile.churchPermissions,
+                eventPermissions: profile.eventPermissions,
+                canCreateEvents: profile.canCreateEvents,
+                isPayoutManager: profile.isPayoutManager,
                 authTokenProfile: profile.authTokenProfile
             };
 
@@ -703,14 +779,50 @@ class RemoteUserProfile {
     public readonly Type!: UserProfileType;
 
     /**
-     * Value indicating whether the user is a TBQ administrator.
+     * Organization-level permission.
      */
-    public readonly IsTbqAdmin!: boolean;
+    public readonly OrganizationPermission!: RemoteUserPermission | null;
 
     /**
-     * Value indicating whether the user is a JBQ administrator.
+     * Region-level permissions.
      */
-    public readonly IsJbqAdmin!: boolean;
+    public readonly RegionPermissions!: Record<string, RemoteUserPermission | null> | null;
+
+    /**
+     * District-level permissions.
+     */
+    public readonly DistrictPermissions!: Record<string, RemoteUserPermission | null> | null;
+
+    /**
+     * Churches for which the user is considered an administrator.
+     */
+    public readonly ChurchPermissions!: Set<string> | null;
+
+    /**
+     * Events for which the user is considered an administrator.
+     */
+    public readonly EventPermissions!: Set<string> | null;
+
+    /**
+     * Value indicating whether the user can create events.
+     */
+    public readonly CanCreateEvents!: boolean;
+
+    /**
+     * Value indicating if the user is a payout manager.
+     */
+    public readonly IsPayoutManager!: boolean;
+}
+
+/**
+ * Permission for a user.
+ */
+class RemoteUserPermission {
+
+    /**
+     * Restriction on the permission (if any).
+     */
+    public readonly Restriction!: UserPermissionRestriction | null;
 }
 
 /**
@@ -748,8 +860,13 @@ interface SerializedAccountProfile {
     personId: string | null;
     displayName: string | null;
     type: UserProfileType | null;
-    isJbqAdmin: boolean;
-    isTbqAdmin: boolean;
+    organizationPermission: RemoteUserPermission | null;
+    regionPermissions: Record<string, RemoteUserPermission | null> | null;
+    districtPermissions: Record<string, RemoteUserPermission | null> | null;
+    churchPermissions: Set<string> | null;
+    eventPermissions: Set<string> | null;
+    canCreateEvents: boolean;
+    isPayoutManager: boolean;
     authTokenProfile: AuthTokenProfile | null;
     hasDisplayedSignUpDialog?: boolean;
 }

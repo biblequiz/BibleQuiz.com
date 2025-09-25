@@ -6,6 +6,7 @@ import type { NavigateFunction } from "react-router-dom";
 
 interface Props {
     loadingElementId: string;
+    parentId: string;
     nested: boolean;
 }
 
@@ -40,7 +41,12 @@ export interface ReactSidebarGroup {
 
 export type ReactSidebarEntry = ReactSidebarLink | ReactSidebarGroup;
 
-export const reactSidebarEntries = createMultiReactAtom<ReactSidebarEntry[]>("reactSidebarEntries", []);
+export interface ReactSidebarState {
+    showParent: boolean;
+    entries: ReactSidebarEntry[];
+}
+
+export const reactSidebarEntries = createMultiReactAtom<ReactSidebarState>("reactSidebarEntries", []);
 
 function getCurrentPage(entries: ReactSidebarEntry[]): ReactSidebarLink | null {
     for (const entry of entries) {
@@ -57,27 +63,34 @@ function getCurrentPage(entries: ReactSidebarEntry[]): ReactSidebarLink | null {
     return null;
 }
 
-export default function ReactSidebar({ loadingElementId, nested }: Props) {
+export default function ReactSidebar({ loadingElementId, parentId, nested }: Props) {
 
-    const entries = useStore(reactSidebarEntries);
+    const sidebarState = useStore(reactSidebarEntries);
 
     const [currentPage, setCurrentPage] = useState<ReactSidebarLink | null>(null);
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);
-        if (fallback) fallback.style.display = entries.length > 0 ? "none" : "";
-
-        if (entries.length > 0) {
-            setCurrentPage(getCurrentPage(entries));
+        if (fallback) {
+            fallback.style.display = sidebarState.entries.length > 0 ? "none" : "";
         }
-    }, [loadingElementId, entries]);
 
-    if (entries.length === 0) {
+        const parent = document.getElementById(parentId);
+        if (parent) {
+            parent.style.display = sidebarState.showParent ? "" : "none";
+        }
+
+        if (sidebarState.entries.length > 0) {
+            setCurrentPage(getCurrentPage(sidebarState.entries));
+        }
+    }, [loadingElementId, sidebarState]);
+
+    if (!sidebarState || sidebarState.entries.length === 0) {
         return null;
     }
 
     return <ReactSidebarSublist
-        entries={entries}
+        entries={sidebarState.entries}
         keyPrefix="reactsb-"
         nested={nested}
         setCurrentPage={p => {

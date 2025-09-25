@@ -79,6 +79,7 @@ const { sublist, nested, toc = false } = Astro.props;
                     )}
                     {(renderAsReactEntry || entry.type === "group") && (
                         <details
+                            id={renderAsReactEntry ? "reactsidebar-root" : undefined}
                             open={
                                 !entry.collapsed ||
                                 renderAsReactEntry ||
@@ -118,6 +119,7 @@ const { sublist, nested, toc = false } = Astro.props;
                                     </div>
                                     <ReactSidebar
                                         loadingElementId="react-sidebar-fallback"
+                                        parentId="reactsidebar-root"
                                         nested={true}
                                         client:only="react"
                                     />
