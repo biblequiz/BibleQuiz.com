@@ -1,12 +1,14 @@
 import { Outlet } from 'react-router-dom';
 import NotAuthenticatedSection from './NotAuthenticatedSection';
-import { AuthManager, UserProfileType } from 'types/AuthManager';
+import { AuthManager, UserAccountProfile, UserProfileType } from 'types/AuthManager';
 import CompleteProfileSection from './CompleteProfileSection';
+import InsufficientPermissionsSection from './InsufficientPermissionsSection';
 
 interface Props {
+    permissionCheck?: (profile: UserAccountProfile) => boolean;
 }
 
-export default function ProtectedRoute({ }: Props) {
+export default function ProtectedRoute({ permissionCheck }: Props) {
 
     const authManager = AuthManager.useNanoStore();
     authManager.showLoginWindowFromBackground();
@@ -20,6 +22,10 @@ export default function ProtectedRoute({ }: Props) {
     // The user is signed in, but they haven't completed their profile setup.
     if (currentProfile.type === UserProfileType.NotConfigured) {
         return <CompleteProfileSection />;
+    }
+
+    if (permissionCheck && !permissionCheck(currentProfile)) {
+        return <InsufficientPermissionsSection />;
     }
 
     return <Outlet />;

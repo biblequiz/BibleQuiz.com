@@ -1,0 +1,17 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+import NotFoundError from "components/NotFoundError";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Error",
+    template: "splash",
+    hidePageTitle: true,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <NotFoundError />
+</StarlightPage>

@@ -1,0 +1,20 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import EventRoot from "components/apps/event/EventRoot";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Manage My Event",
+    hidePageTitle: true,
+    pagefind: false
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div id="event-fallback" class="flex justify-center items-center">
+        <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading
+        Event Management ...
+    </div>
+    <EventRoot client:only="react" />
+</StarlightPage>

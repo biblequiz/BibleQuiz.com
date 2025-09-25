@@ -81,6 +81,15 @@ export default defineConfig({
                     label: "Privacy Policy",
                     slug: "privacy",
                 },
+                {
+                    label: "Manage Event",
+                    link: "manage-event/",
+                    badge: {
+                        text: "EXPERIMENTAL",
+                        variant: "caution"
+                    },
+                    attrs: { useReactSidebar: true },
+                },
             ],
             components: {
                 Header: "./src/components/Header.astro",
