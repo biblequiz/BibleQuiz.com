@@ -46,7 +46,9 @@ export interface ReactSidebarState {
     entries: ReactSidebarEntry[];
 }
 
-export const reactSidebarEntries = createMultiReactAtom<ReactSidebarState>("reactSidebarEntries", []);
+export const reactSidebarEntries = createMultiReactAtom<ReactSidebarState>(
+    "reactSidebarEntries",
+    { showParent: true, entries: [] });
 
 function getCurrentPage(entries: ReactSidebarEntry[]): ReactSidebarLink | null {
     for (const entry of entries) {

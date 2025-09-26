@@ -1,6 +1,5 @@
-import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { use, useEffect, useRef, useState } from "react";
-import { Outlet, useNavigate, useOutletContext, useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Outlet, useOutletContext, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import type { EventProviderContext } from "./EventProvider";
 
@@ -20,7 +19,6 @@ export default function ScoringDatabaseProvider({ }: Props) {
 
     const context = useOutletContext<EventProviderContext>();
     const auth = context.auth;
-    const navigate = useNavigate();
 
     const urlParameters = useParams();
     const databaseId = urlParameters.databaseId || null;
