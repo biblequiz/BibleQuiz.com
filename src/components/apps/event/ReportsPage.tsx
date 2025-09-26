@@ -18,5 +18,8 @@ export default function ReportsPage({ }: Props) {
                 <li>Registration Report & File</li>
                 <li>ScoreKeep File (Excel and Text)</li>
             </ul>
+            <div>
+                Placeholder for {auth.userProfile?.displayName}
+            </div>
         </>);
 }

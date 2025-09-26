@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useRouteError, isRouteErrorResponse, Link } from "react-router-dom";
+import { useRouteError, isRouteErrorResponse } from "react-router-dom";
 
 interface Props {
     loadingElementId: string;
