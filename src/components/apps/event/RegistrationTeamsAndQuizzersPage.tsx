@@ -4,13 +4,13 @@ import { useOutletContext } from "react-router-dom";
 interface Props {
 }
 
-export default function RegistrationEligibilityPage({ }: Props) {
+export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
     const auth = useOutletContext<RegistrationProviderContext>().auth;
 
     return (
         <>
             <div>
-                <b>Eligibility Section</b>
+                <b>Teams & Quizzers Section</b>
             </div>
             <p>
                 This page includes the following fields:
@@ -20,8 +20,6 @@ export default function RegistrationEligibilityPage({ }: Props) {
                 <li>Quizzers per team</li>
                 <li>Require coach</li>
                 <li>Allow individuals without a church</li>
-                <li>Allow attendees</li>
-                <li>Required roles for officials (e.g., judge, scorekeeper, timekeeper)</li>
             </ul>
             <div>
                 Placeholder for {auth.userProfile?.displayName}

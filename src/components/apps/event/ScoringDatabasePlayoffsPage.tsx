@@ -17,6 +17,7 @@ export default function ScoringDatabasePlayoffsPage({ }: Props) {
             </p>
             <ul>
                 <li>Add and manage playoffs.</li>
+                <li>Manually adjust rankings.</li>
             </ul>
             <div>
                 Placeholder for {auth.userProfile?.displayName}

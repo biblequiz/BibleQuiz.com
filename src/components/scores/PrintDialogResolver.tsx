@@ -13,7 +13,6 @@ import TeamOrRoomScheduleTabContent from "components/scores/TeamOrRoomScheduleTa
 interface Props {
     eventId: string;
     event: EventScoringReport | null;
-    rootSchedulesTabId: string;
     teamScheduleTabId: string;
     roomScheduleTabId: string;
     scheduleGridTabId: string;
@@ -22,7 +21,6 @@ interface Props {
 export default function PrintDialogResolver({
     eventId,
     event,
-    rootSchedulesTabId,
     teamScheduleTabId,
     roomScheduleTabId,
     scheduleGridTabId }: Props) {
@@ -69,7 +67,6 @@ export default function PrintDialogResolver({
                         type="Team"
                         eventId={eventId}
                         event={event || undefined}
-                        rootTabId={rootSchedulesTabId}
                         schedulesTabId={teamScheduleTabId}
                         isPrinting={true}
                         printSinglePerPage={printDialogState.showSinglePerPage}
@@ -85,7 +82,6 @@ export default function PrintDialogResolver({
                         type="Room"
                         eventId={eventId}
                         event={event || undefined}
-                        rootTabId={rootSchedulesTabId}
                         schedulesTabId={roomScheduleTabId}
                         isPrinting={true}
                         printSinglePerPage={printDialogState.showSinglePerPage}
@@ -100,7 +96,6 @@ export default function PrintDialogResolver({
                     <ScheduleGridTabContent
                         eventId={eventId}
                         event={event || undefined}
-                        rootTabId={rootSchedulesTabId}
                         schedulesTabId={scheduleGridTabId}
                         isPrinting={true}
                         printStats={printDialogState.includeStats}

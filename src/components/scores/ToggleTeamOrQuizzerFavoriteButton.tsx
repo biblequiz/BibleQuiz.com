@@ -21,16 +21,13 @@ export default function ToggleTeamOrQuizzerFavoriteButton({ id, type, buttonSize
 
     // Capture the id set for the type.
     let favoriteIdSet: Set<string>;
-    let objectText: string;
     switch (type) {
         case "team":
             favoriteIdSet = favorites.teamIds;
-            objectText = "Team";
             break;
 
         case "quizzer":
             favoriteIdSet = favorites.quizzerIds;
-            objectText = "Quizzer";
             break;
 
         default:
@@ -69,6 +66,6 @@ export default function ToggleTeamOrQuizzerFavoriteButton({ id, type, buttonSize
             onClick={handleFavoritesButtonClick}
         >
             <FontAwesomeIcon icon={isCurrentFavorite ? "fas faStar" : "far faStar"} />
-            {isCurrentFavorite ? "Unfollow" : "Follow"} {objectText}
+            {isCurrentFavorite ? "Unfollow" : "Follow"}
         </button>);
 }

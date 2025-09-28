@@ -11,12 +11,13 @@ import ErrorPage from '../ErrorPage';
 import NotFoundError from 'components/NotFoundError';
 import RegistrationProvider from './RegistrationProvider';
 import RegistrationGeneralPage from './RegistrationGeneralPage';
-import RegistrationEligibilityPage from './RegistrationEligibilityPage';
+import RegistrationTeamsAndQuizzersPage from './RegistrationTeamsAndQuizzersPage';
+import RegistrationOfficialsPage from './RegistrationOfficialsPage';
 import RegistrationFieldsPage from './RegistrationFieldsPage';
 import RegistrationDivisionsPage from './RegistrationDivisionsPage';
 import RegistrationFormsPage from './RegistrationFormsPage';
 import RegistrationMoneyPage from './RegistrationMoneyPage';
-import RegistrationOtherPage from './RegistrationMoneyPage';
+import RegistrationOtherPage from './RegistrationOtherPage';
 import ScoringSettingsPage from './ScoringSettingsPage';
 import ScoringDatabaseProvider from './ScoringDatabaseProvider';
 import ScoringDatabaseMeetsPage from './ScoringDatabaseMeetsPage';
@@ -112,10 +113,17 @@ function buildSidebar(
             },
             {
                 type: 'link' as const,
-                label: "Eligibility & Rules",
-                navigate: () => navigate(`${rootPath}/registration/eligibility`),
+                label: "Teams & Quizzers",
+                navigate: () => navigate(`${rootPath}/registration/teamsAndQuizzers`),
                 isCurrent: false,
-                icon: "fas faBook"
+                icon: "fas faUserGroup"
+            },
+            {
+                type: 'link' as const,
+                label: "Officials & Attendees",
+                navigate: () => navigate(`${rootPath}/registration/officials`),
+                isCurrent: false,
+                icon: "fas faHelmetSafety"
             },
             {
                 type: 'link' as const,
@@ -218,6 +226,12 @@ function buildSidebar(
         }
 
         if (currentPage.id === SCORES_GROUP_ID) {
+
+            if (segment === "0") {
+                currentPage = currentPage.entries[0];
+                break;
+            }
+
             // Skip to the databases section.
             currentPage = currentPage.entries[1];
 
@@ -271,10 +285,10 @@ function buildDatabaseEntry(
             },
             {
                 type: 'link' as const,
-                label: "Meets",
+                label: "Divisions",
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/meets`),
                 isCurrent: false,
-                icon: "fas faCalendarDays"
+                icon: "fas faLayerGroup"
             },
             {
                 type: 'link' as const,
@@ -337,8 +351,12 @@ const router = createHashRouter([
                                         element: <RegistrationGeneralPage />
                                     },
                                     {
-                                        path: "/:eventId?/registration/eligibility",
-                                        element: <RegistrationEligibilityPage />
+                                        path: "/:eventId?/registration/teamsAndQuizzers",
+                                        element: <RegistrationTeamsAndQuizzersPage />
+                                    },
+                                    {
+                                        path: "/:eventId?/registration/officials",
+                                        element: <RegistrationOfficialsPage />
                                     },
                                     {
                                         path: "/:eventId?/registration/fields",
