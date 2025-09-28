@@ -226,6 +226,12 @@ function buildSidebar(
         }
 
         if (currentPage.id === SCORES_GROUP_ID) {
+
+            if (segment === "0") {
+                currentPage = currentPage.entries[0];
+                break;
+            }
+
             // Skip to the databases section.
             currentPage = currentPage.entries[1];
 
