@@ -15,7 +15,6 @@ export interface Props {
     event?: EventScoringReport;
     isPrinting?: boolean;
     printStats?: boolean;
-    rootTabId: string;
     schedulesTabId: string;
 };
 
@@ -24,7 +23,6 @@ export default function ScheduleGridTabContent({
     event,
     isPrinting,
     printStats,
-    rootTabId,
     schedulesTabId }: Props) {
 
     const scrollToViewElementId = `schedule_grid_scroll_elem`;
@@ -37,7 +35,7 @@ export default function ScheduleGridTabContent({
     // Add an effect to scroll the item into view once it is loaded.
     useEffect(() => {
         const highlightCard = document.getElementById(scrollToViewElementId) as HTMLDivElement;
-        if (isTabActive(rootTabId) && isTabActive(schedulesTabId) && highlightCard?.scrollIntoView) {
+        if (isTabActive(schedulesTabId) && highlightCard?.scrollIntoView) {
             highlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
         }
     }, [eventFilters]);

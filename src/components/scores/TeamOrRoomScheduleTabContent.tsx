@@ -16,7 +16,6 @@ export interface Props {
     isPrinting?: boolean;
     printSinglePerPage?: boolean;
     printStats?: boolean;
-    rootTabId: string;
     schedulesTabId: string;
 };
 
@@ -44,7 +43,6 @@ export default function TeamOrRoomScheduleTabContent({
     isPrinting,
     printSinglePerPage,
     printStats,
-    rootTabId,
     schedulesTabId }: Props) {
 
     const scrollToViewElementId = `schedule_${type}_scroll_elem`;
@@ -57,7 +55,7 @@ export default function TeamOrRoomScheduleTabContent({
     // Add an effect to scroll the item into view once it is loaded.
     useEffect(() => {
         const highlightCard = document.getElementById(scrollToViewElementId) as HTMLDivElement;
-        if (isTabActive(rootTabId) && isTabActive(schedulesTabId) && highlightCard?.scrollIntoView) {
+        if (isTabActive(schedulesTabId) && highlightCard?.scrollIntoView) {
             highlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
         }
     }, [eventFilters]);
