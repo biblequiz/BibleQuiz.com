@@ -74,7 +74,6 @@ export default function DownloadSetDialog({ criteria, onClose }: Props) {
                         <span className="text-lg font-bold">IMPORTANT</span>
                     </div>
                     <div className="mt-0">
-                        This will create
                         Be sure to download the PDF and ScoreKeep file from this
                         dialog <b><i>before</i></b> closing it. A new random order (i.e.,
                         seed) will be used if you close and reopen the dialog.
