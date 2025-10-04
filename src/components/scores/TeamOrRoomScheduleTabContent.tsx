@@ -158,7 +158,7 @@ export default function TeamOrRoomScheduleTabContent({
                         }
 
                         const isLiveMatch = null != match && null != match.CurrentQuestion;
-                        const isScheduleOnly = !hasRanking || (!isLiveMatch && (match as ScoringReportTeamMatch).Score);
+                        const isScheduleOnly = !hasRanking || (!isLiveMatch && (match as ScoringReportTeamMatch).Score === undefined);
 
                         // Determine the prefix before each match.
                         let cellText = [];
