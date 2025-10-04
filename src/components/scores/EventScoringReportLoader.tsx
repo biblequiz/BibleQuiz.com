@@ -203,11 +203,11 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
             if (!hasStats || !hasQStats) {
                 const tabLinks = parentTab.querySelectorAll(`li > a[role="tab"]`);
                 if (!hasQStats) {
-                    removeTabAndPanel(tabLinks[3] as HTMLAnchorElement);
+                    removeTabAndPanel(tabLinks[5] as HTMLAnchorElement);
                 }
 
                 if (!hasStats) {
-                    removeTabAndPanel(tabLinks[0] as HTMLAnchorElement);
+                    removeTabAndPanel(tabLinks[3] as HTMLAnchorElement);
                 }
             }
 
