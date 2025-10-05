@@ -33,7 +33,7 @@ import EventScopeBadge from "./EventScopeBadge";
                     class="event-icon"
                 />
             )}
-            <span class="title-text">{title}</span>
+            <span class="event-title-text">{title}</span>
             {eventType && eventId && (
                 <span>
                     <PrintDialogButton isLoaded={eventIsLoaded ?? false} />
@@ -62,25 +62,3 @@ import EventScopeBadge from "./EventScopeBadge";
     )
 }
 
-<style>
-    @layer starlight.core {
-        h1.page-title {
-            display: flex; /* Use Flexbox for horizontal alignment */
-            align-items: center; /* Align items vertically */
-            gap: 1rem; /* Add spacing between the image and text */
-            margin-top: 1rem;
-            font-size: var(--sl-text-h1);
-            line-height: var(--sl-line-height-headings);
-            font-weight: 600;
-            color: var(--sl-color-white);
-        }
-
-        .event-icon {
-            flex-shrink: 0; /* Prevent the image from shrinking */
-        }
-
-        .title-text {
-            flex-grow: 1; /* Allow the text to take up remaining space */
-        }
-    }
-</style>
