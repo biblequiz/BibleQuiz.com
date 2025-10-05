@@ -86,35 +86,43 @@ ol.schedule-list {
 /* Styles for the point numbers */
 td.header-point-10 {
     background-color: white;
+    color: black;
 }
 
 td.header-point-20 {
     background-color: yellow;
+    color: black;
 }
 
 td.header-point-30 {
     background-color: lightgreen;
+    color: black;
 }
 
 td.header-point-default {
     background-color: lightgray;
+    color: black;
 }
 
 /* Styles for the live scoring */
 tr.red-room-score {
     background-color: #ffc0cb;
+    color: black;
 }
 
 tr.red-room-score-alt {
     background-color: #ffffff;
+    color: black;
 }
 
 tr.green-room-score {
     background-color: #98fb98;
+    color: black;
 }
 
 tr.green-room-score-alt {
     background-color: #ffffff;
+    color: black;
 }
 
 td.quiz-out {
