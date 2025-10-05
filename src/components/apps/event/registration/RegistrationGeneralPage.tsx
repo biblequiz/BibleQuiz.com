@@ -1,5 +1,5 @@
 import { useOutletContext } from "react-router-dom";
-import type { RegistrationProviderContext } from "./RegistrationProvider";
+import type { RegistrationProviderContext } from "../RegistrationProvider";
 
 interface Props {
 }

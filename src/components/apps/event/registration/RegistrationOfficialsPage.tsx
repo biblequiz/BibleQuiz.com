@@ -1,23 +1,23 @@
+import type { RegistrationProviderContext } from "../RegistrationProvider";
 import { useOutletContext } from "react-router-dom";
-import type { RegistrationProviderContext } from "./RegistrationProvider";
 
 interface Props {
 }
 
-export default function RegistrationFieldsPage({ }: Props) {
+export default function RegistrationOfficialsPage({ }: Props) {
     const auth = useOutletContext<RegistrationProviderContext>().auth;
 
     return (
         <>
             <div>
-                <b>Fields Section</b>
+                <b>Officials and Attendees Section</b>
             </div>
             <p>
                 This page includes the following fields:
             </p>
             <ul>
-                <li>Required fields for people</li>
-                <li>Custom fields (e.g., Grade, T-Shirt, etc.)</li>
+                <li>Allow attendees</li>
+                <li>Required roles for officials (e.g., judge, scorekeeper, timekeeper)</li>
             </ul>
             <div>
                 Placeholder for {auth.userProfile?.displayName}
