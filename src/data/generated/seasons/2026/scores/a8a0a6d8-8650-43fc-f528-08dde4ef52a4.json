@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "JBQ STL Section 2025-2026",
-        "LastUpdated": "10/4/25 4:55 PM",
-        "DatabaseLastUpdated": "2025-10-03T22:43:47.2794134+00:00",
+        "LastUpdated": "10/5/25 9:43 PM",
+        "DatabaseLastUpdated": "2025-10-05T21:41:45.5134431+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -708,8 +708,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Oct A League 2025",
-        "LastUpdated": "10/4/25 4:55 PM",
-        "DatabaseLastUpdated": "2025-10-03T22:43:47.2794134+00:00",
+        "LastUpdated": "10/5/25 9:43 PM",
+        "DatabaseLastUpdated": "2025-10-05T21:41:45.5134431+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -2015,8 +2015,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Oct B League 2025",
-        "LastUpdated": "10/4/25 4:55 PM",
-        "DatabaseLastUpdated": "2025-10-03T22:43:47.2794134+00:00",
+        "LastUpdated": "10/5/25 9:43 PM",
+        "DatabaseLastUpdated": "2025-10-05T21:41:45.5134431+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -4408,8 +4408,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Oct R League 2025",
-        "LastUpdated": "10/4/25 4:55 PM",
-        "DatabaseLastUpdated": "2025-10-03T22:43:47.2794134+00:00",
+        "LastUpdated": "10/5/25 9:43 PM",
+        "DatabaseLastUpdated": "2025-10-05T21:41:45.5134431+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -4417,7 +4417,7 @@
             "Quizzers": [
               4,
               7,
-              11,
+              9,
               18
             ],
             "Matches": [
@@ -4593,7 +4593,7 @@
             "CoachName": "Cara Hemphill",
             "Quizzers": [
               3,
-              8,
+              14,
               19
             ],
             "Matches": [
@@ -4681,9 +4681,9 @@
             "CoachName": "Lindsay Linder",
             "Quizzers": [
               1,
+              10,
+              11,
               12,
-              13,
-              14,
               16
             ],
             "Matches": [
@@ -4764,8 +4764,8 @@
             "Quizzers": [
               5,
               6,
-              9,
-              10,
+              8,
+              13,
               17
             ],
             "Matches": [
@@ -5041,52 +5041,6 @@
             }
           },
           {
-            "TeamName": "Rooted Rookies (Dixon Assembly of God)",
-            "YearsQuizzing": null,
-            "Id": "q_49dc3841-9921-408e-96bf-d5edc939062b_4",
-            "Name": "Extra-1",
-            "ChurchName": "Assembly of God",
-            "City": "Dixon",
-            "State": "MO",
-            "Scores": {
-              "Rank": 14,
-              "IsTie": false,
-              "TotalPoints": 15,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 3.0,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 44,
-              "Correct10s": 4,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Hope Boys",
-            "YearsQuizzing": null,
-            "Id": "q_49dc3841-9921-408e-96bf-d5edc939062b_51",
-            "Name": "Extra-1",
-            "ChurchName": "Hope Church",
-            "City": "Springfield",
-            "State": "MO",
-            "Scores": {
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 200,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 50.0,
-              "AverageCorrect": 4.5,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 18,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
             "TeamName": "The Hope Boys",
             "YearsQuizzing": null,
             "Id": "q_372a17f310354ca16e0108ddf523e127",
@@ -5196,6 +5150,52 @@
               "QuizOuts": 3,
               "QuestionCorrectPercentage": 96,
               "Correct10s": 27,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Hope Boys",
+            "YearsQuizzing": null,
+            "Id": "q_49dc3841-9921-408e-96bf-d5edc939062b_51",
+            "Name": "Joe Smith",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 18,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Rooted Rookies (Dixon Assembly of God)",
+            "YearsQuizzing": null,
+            "Id": "q_49dc3841-9921-408e-96bf-d5edc939062b_4",
+            "Name": "Journey Lietz",
+            "ChurchName": "Assembly of God",
+            "City": "Dixon",
+            "State": "MO",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 44,
+              "Correct10s": 4,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -5318,9 +5318,9 @@
           }
         ],
         "RankedQuizzers": [
-          14,
-          9,
-          10,
+          12,
+          13,
+          8,
           2,
           0,
           5,
@@ -5328,13 +5328,13 @@
           4,
           1,
           3,
-          11,
+          9,
           15,
-          12,
-          8,
+          10,
+          14,
           6,
           7,
-          13,
+          11,
           18,
           19,
           17
@@ -5534,8 +5534,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Oct J League 2025",
-        "LastUpdated": "10/4/25 4:55 PM",
-        "DatabaseLastUpdated": "2025-10-03T22:43:47.2794134+00:00",
+        "LastUpdated": "10/5/25 9:43 PM",
+        "DatabaseLastUpdated": "2025-10-05T21:41:45.5134431+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -6058,5 +6058,5 @@
       }
     }
   ],
-  "Freshness": "2025-10-04T16:55:04.8798887+00:00"
+  "Freshness": "2025-10-05T21:41:45.991551+00:00"
 }
