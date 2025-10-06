@@ -57,7 +57,7 @@ export default function EventProvider({ }: Props) {
                             <span className="ml-4">Loading Event ...</span>
                         </h1>
                         <p className="text-lg text-base-content/70 mb-8">
-                            The event information is being downloaded and prepared. This should just take a second.
+                            The event information is being downloaded and prepared. This should just take a second or two ...
                         </p>
                     </div>
                 </div>

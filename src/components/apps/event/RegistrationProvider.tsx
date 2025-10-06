@@ -41,10 +41,11 @@ export default function RegistrationProvider({ }: Props) {
         endDate: normalizeDate(info?.EndDate || null) || "",
         registrationStartDate: normalizeDate(info?.RegistrationStartDate || null) || "",
         registrationEndDate: normalizeDate(info?.RegistrationEndDate || null) || "",
-        extendedOfficialsEndDate: normalizeDate(info?.ExtendedOfficialsEndDate || null),
-
-        allowAttendees: info?.AllowAttendees || false,
-        extendedAttendeesEndDate: normalizeDate(info?.ExtendedAttendeesEndDate || null)
+        districtId: info?.DistrictId || null,
+        regionId: info?.RegionId || null,
+        isOfficial: info?.IsOfficial || false,
+        locationName: info?.LocationName || null,
+        locationAddress: info?.Location || null,
     }));
 
     return (
