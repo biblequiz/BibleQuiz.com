@@ -36,6 +36,7 @@ export default function RegistrationProvider({ }: Props) {
     const [generalState, setGeneralState] = useState<RegistrationGeneralInfo>(() =>
     ({
         name: info?.Name || "",
+        description: info?.Description || "",
         typeId: info?.TypeId || "",
         startDate: normalizeDate(info?.StartDate || null) || "",
         endDate: normalizeDate(info?.EndDate || null) || "",

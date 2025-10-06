@@ -1,8 +1,5 @@
-import { useOutletContext } from "react-router-dom";
-import type { RegistrationProviderContext } from "../RegistrationProvider";
 import { useState } from "react";
 import regions from "data/regions.json";
-import districts from "data/districts.json";
 import type { Address } from "types/services/models/Address";
 
 interface Props {
