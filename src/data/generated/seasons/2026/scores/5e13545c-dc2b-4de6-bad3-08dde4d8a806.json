@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Advanced and Intermediate League",
-        "LastUpdated": "9/6/25 6:19 PM",
-        "DatabaseLastUpdated": "2025-09-06T15:27:45.4591239+00:00",
+        "LastUpdated": "10/11/25 9:03 PM",
+        "DatabaseLastUpdated": "2025-10-11T16:24:05.9289302+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -892,15 +892,15 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Beginners and PeeWee League",
-        "LastUpdated": "9/6/25 6:19 PM",
-        "DatabaseLastUpdated": "2025-09-06T15:27:45.4591239+00:00",
+        "LastUpdated": "10/11/25 9:03 PM",
+        "DatabaseLastUpdated": "2025-10-11T16:24:05.9289302+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": "Brianna Strickland",
             "Quizzers": [
-              6,
-              7
+              8,
+              10
             ],
             "Matches": [
               {
@@ -919,7 +919,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -928,7 +928,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 85,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -946,7 +946,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 50,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": null,
@@ -955,7 +955,7 @@
                 "State": "InProgress",
                 "CurrentQuestion": 20,
                 "Score": null,
-                "OtherTeam": 3
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": 5,
@@ -985,7 +985,7 @@
           {
             "CoachName": "Tonya Thurlby",
             "Quizzers": [
-              3
+              5
             ],
             "Matches": [
               {
@@ -1004,7 +1004,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 5,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -1013,7 +1013,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 15,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -1031,7 +1031,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 5,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -1040,7 +1040,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 70,
-                "OtherTeam": 2
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -1068,97 +1068,13 @@
             }
           },
           {
-            "CoachName": "Cindy Guerra",
+            "CoachName": "Isela Santillan",
             "Quizzers": [
               0,
-              5
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 120,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_892e5cc0-69c9-4ff8-ae82-2c7fbc45e2c1",
-            "Name": "OFA Alphas",
-            "ChurchName": "First Assembly of God",
-            "City": "Odessa",
-            "State": "TX",
-            "Scores": {
-              "Wins": 5,
-              "Losses": 1,
-              "WinPercentage": 83,
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 760,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 126.7,
-              "AverageCorrect": 11.0,
-              "QuizOuts": 10,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 66,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": "Tonya Thurlby",
-            "Quizzers": [
-              1,
               2,
-              4
+              4,
+              6,
+              9
             ],
             "Matches": [
               {
@@ -1168,7 +1084,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 130,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -1195,7 +1111,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -1218,7 +1134,7 @@
             ],
             "CurrentMatchId": 5,
             "Id": "t_2eaf2252-df53-4454-8778-b516c4d8f973",
-            "Name": "OFA Overcomers",
+            "Name": "OFA Legacy",
             "ChurchName": "First Assembly of God",
             "City": "Odessa",
             "State": "TX",
@@ -1239,18 +1155,128 @@
               "Correct30s": 0,
               "FootnoteIndex": null
             }
+          },
+          {
+            "CoachName": "Cindy Guerra",
+            "Quizzers": [
+              1,
+              3,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_892e5cc0-69c9-4ff8-ae82-2c7fbc45e2c1",
+            "Name": "OFA Risen Warriors of God",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 760,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 126.7,
+              "AverageCorrect": 11.0,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 66,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           }
         ],
         "RankedTeams": [
-          2,
           3,
+          2,
           0,
           1
         ],
         "TeamFootnotes": [],
         "Quizzers": [
           {
-            "TeamName": "OFA Alphas",
+            "TeamName": "OFA Legacy",
+            "YearsQuizzing": null,
+            "Id": "q_b088c1d586ed4b6cf20c08dde44dc889",
+            "Name": "Addi Santillan",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "OFA Risen Warriors of God",
             "YearsQuizzing": null,
             "Id": "q_7c98b320bae44cf3bc3808ddeaf8bf58",
             "Name": "Addilynn Santillan",
@@ -1273,7 +1299,7 @@
             }
           },
           {
-            "TeamName": "OFA Overcomers",
+            "TeamName": "OFA Legacy",
             "YearsQuizzing": null,
             "Id": "q_473fe9cc6e514be2f21208dde44dc889",
             "Name": "Diana Ako",
@@ -1296,7 +1322,30 @@
             }
           },
           {
-            "TeamName": "OFA Overcomers",
+            "TeamName": "OFA Risen Warriors of God",
+            "YearsQuizzing": null,
+            "Id": "q_ea7f8a8b7478421fbd2908dcfa81fbd4",
+            "Name": "Elizabeth Smock",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "OFA Legacy",
             "YearsQuizzing": null,
             "Id": "q_d1a66b30a6e64e73f21d08dde44dc889",
             "Name": "Faith Ako",
@@ -1342,7 +1391,7 @@
             }
           },
           {
-            "TeamName": "OFA Overcomers",
+            "TeamName": "OFA Legacy",
             "YearsQuizzing": null,
             "Id": "q_b0461e0d584d469725e608ddea676075",
             "Name": "Jayleen Zepeda",
@@ -1365,10 +1414,10 @@
             }
           },
           {
-            "TeamName": "OFA Alphas",
+            "TeamName": "OFA Risen Warriors of God",
             "YearsQuizzing": null,
             "Id": "q_7bafe381630044f2bc3e08ddeaf8bf58",
-            "Name": "Karime Karime Jimenez",
+            "Name": "Karime Jimenez",
             "ChurchName": "First Assembly of God",
             "City": "Odessa",
             "State": "TX",
@@ -1411,6 +1460,29 @@
             }
           },
           {
+            "TeamName": "OFA Legacy",
+            "YearsQuizzing": null,
+            "Id": "q_2a98eec88fb84d5dbd2008dcfa81fbd4",
+            "Name": "Meagan Shelton",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Bible Warriors",
             "YearsQuizzing": null,
             "Id": "q_79c497e3d8fb48a4317508dcfdc41969",
@@ -1435,16 +1507,24 @@
           }
         ],
         "RankedQuizzers": [
+          7,
+          1,
+          2,
+          8,
+          6,
+          10,
+          4,
           5,
           0,
-          1,
-          6,
-          4,
-          7,
-          2,
-          3
+          3,
+          9
         ],
-        "QuizzerFootnotes": [],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "MeetNames": null,
         "Rooms": [
           {
@@ -1453,15 +1533,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
+                "Team1": 3,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 2,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -1469,7 +1549,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 3,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -1485,7 +1565,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 3,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -1493,7 +1573,7 @@
               {
                 "CurrentQuestion": 20,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 2,
                 "Team2": 0,
                 "State": "InProgress",
                 "Blockers": null
@@ -1514,14 +1594,6 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 3,
                 "Team2": 0,
                 "State": "Completed",
@@ -1531,7 +1603,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 2,
-                "Team2": 3,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1539,6 +1611,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -1546,7 +1626,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 3,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -1637,5 +1717,5 @@
       }
     }
   ],
-  "Freshness": "2025-09-06T18:19:14.2496325+00:00"
+  "Freshness": "2025-10-11T16:24:06.7906476+00:00"
 }
