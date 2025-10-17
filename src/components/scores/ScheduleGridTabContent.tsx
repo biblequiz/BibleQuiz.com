@@ -4,7 +4,7 @@ import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringRe
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "utils/SharedState";
 import CollapsableMeetSection from './CollapsableMeetSection';
-import RoomLink from './RoomDialogLink';
+import RoomDialogLink from './RoomDialogLink';
 import { EventScoringReport } from "types/EventScoringReport";
 import { isTabActive } from "utils/Tabs";
 import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
@@ -152,7 +152,7 @@ export default function ScheduleGridTabContent({
                                     <td className="text-center" key={matchKey}>
                                         {!isLiveMatch && match.Score == null && (<span>{match.Room}</span>)}
                                         {(isLiveMatch || match.Score != null) && (
-                                            <RoomLink
+                                            <RoomDialogLink
                                                 id={matchKey}
                                                 label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`}
                                                 eventId={eventId}
@@ -174,7 +174,7 @@ export default function ScheduleGridTabContent({
                                                         </span>
                                                     </>
                                                 )}
-                                            </RoomLink>)}
+                                            </RoomDialogLink>)}
                                     </td>
                                 )
                             })}

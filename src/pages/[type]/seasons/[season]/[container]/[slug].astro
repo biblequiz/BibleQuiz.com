@@ -35,6 +35,7 @@ import {
     getFilesByWildcard,
     tryReadFileAsJson,
 } from "utils/FileSystem";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 export async function getStaticPaths() {
     // Load the JSON defining all the generated events.
@@ -151,7 +152,16 @@ const eventFilePath = path.resolve(
     `data/generated/seasons/${season}/scores/${eventInfo.id}.json`,
 );
 
-const event = await tryReadFileAsJson<EventScoringReport>(eventFilePath);
+// Determine whether the archive can be used. In some cases, dates for existing events that are
+// already in the archive are changed into the future (i.e., reusing the same event).
+const eventEndDate = DataTypeHelpers.parseDateOnly(eventInfo.endDate);
+const isArchiveAllowed =
+    !eventEndDate ||
+    new Date().getTime() > eventEndDate.setHours(23, 59, 59, 999);
+
+const event = isArchiveAllowed
+    ? await tryReadFileAsJson<EventScoringReport>(eventFilePath)
+    : null;
 
 // Find the label for the scope.
 const frontmatter: StarlightPageFrontmatter = {
