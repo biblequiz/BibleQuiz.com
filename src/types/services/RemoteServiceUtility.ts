@@ -96,6 +96,38 @@ export class RemoteServiceUtility {
     }
 
     /**
+     * Gets a paginated result from the server.
+     * 
+     * @param auth AuthManager to use if the request should be authenticated.
+     * @param service Service defining the endpoint to execute.
+     * @param path Path to the endpoint on the service.
+     * @param convert Function to convert the server type to the callback type.
+     * @param pageSize Size of the page to return.
+     * @param pageNumber Page number for the result.
+     * @param includeCount Indicates the count should be included in the response.
+     * @param additionalUrlParameters Additional URL parameters to be included in the request.
+     */
+    public static getManyWithConvert<TServer, TCallback>(
+        auth: AuthManager | null,
+        service: RemoteServiceUrlBase,
+        path: string,
+        convert: (server: TServer) => TCallback,
+        pageSize?: number,
+        pageNumber?: number,
+        includeCount?: boolean,
+        additionalUrlParameters?: URLSearchParams | null): Promise<TCallback> {
+
+        return this.getMany<TServer>(
+            auth,
+            service,
+            path,
+            pageSize,
+            pageNumber,
+            includeCount,
+            additionalUrlParameters).then(convert);
+    }
+
+    /**
      * Executes an HTTP request.
      * 
      * @param auth AuthManager to use if the request should be authenticated.

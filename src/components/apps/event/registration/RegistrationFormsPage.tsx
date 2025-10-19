@@ -1,23 +1,22 @@
 import { useOutletContext } from "react-router-dom";
-import type { RegistrationProviderContext } from "./RegistrationProvider";
+import type { RegistrationProviderContext } from "../RegistrationProvider";
 
 interface Props {
 }
 
-export default function RegistrationMoneyPage({ }: Props) {
+export default function RegistrationFormsPage({ }: Props) {
     const auth = useOutletContext<RegistrationProviderContext>().auth;
 
     return (
         <>
             <div>
-                <b>Money Section</b>
+                <b>Forms Section</b>
             </div>
             <p>
                 This page includes the following fields:
             </p>
             <ul>
-                <li>Will you collect money?</li>
-                <li>Setup credit card transactions.</li>
+                <li>Custom forms to collect (e.g., Waiver).</li>
             </ul>
             <div>
                 Placeholder for {auth.userProfile?.displayName}
