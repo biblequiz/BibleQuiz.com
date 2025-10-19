@@ -1,0 +1,2194 @@
+{
+  "EventName": "South Dakota WEST Meet 2",
+  "DatabaseNames": {
+    "9d36b9ed-b6d1-4cbf-8815-098e282c4475": "JBQ__Meet_2_OCT_25",
+    "b6e95a25-e03b-4aaf-9ca2-b960302032f2": "JBQ_Meet_2_OCT_25"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "9d36b9ed-b6d1-4cbf-8815-098e282c4475",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "A LEAGUE MEET 2",
+        "LastUpdated": "10/17/25 1:47 AM",
+        "DatabaseLastUpdated": "2025-10-17T01:47:02.5193242+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Francis Akowuah",
+            "Quizzers": [
+              2,
+              5,
+              6,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6e0b6977-0b48-40e9-8056-37f608a5e201",
+            "Name": "Absolutely Necessary",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "CoachName": "James Dye",
+            "Quizzers": [
+              0,
+              3,
+              4
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_31cf00cb-dccc-4be3-ab9d-963b6682807f",
+            "Name": "Journey",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "CoachName": "Kris Giffin",
+            "Quizzers": [
+              1,
+              7,
+              8,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_9d36b9ed-b6d1-4cbf-8815-098e282c4475_7",
+            "Name": "Nebraska",
+            "ChurchName": "Nebraska",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "CoachName": "Andrea Rossignol",
+            "Quizzers": [
+              10,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_9d36b9ed-b6d1-4cbf-8815-098e282c4475_6",
+            "Name": "Wyoming",
+            "ChurchName": "Wyoming",
+            "City": null,
+            "State": null,
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Journey",
+            "YearsQuizzing": null,
+            "Id": "q_3757671eed7d4528b06808dd2612f922",
+            "Name": "Andrew Dye",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Nebraska",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_59",
+            "Name": "Aydrien Solvie",
+            "ChurchName": "Nebraska",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Absolutely Necessary",
+            "YearsQuizzing": null,
+            "Id": "q_f8cc0707eac74065100008dce09cedfe",
+            "Name": "Fosuah Akowuah",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey",
+            "YearsQuizzing": null,
+            "Id": "q_dc16d888dfb643a6b06308dd2612f922",
+            "Name": "Jimmy Dye",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey",
+            "YearsQuizzing": null,
+            "Id": "q_1e903358d4a6456436dd08dd247ebae8",
+            "Name": "Kinsley Young",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Absolutely Necessary",
+            "YearsQuizzing": null,
+            "Id": "q_064aac69392547470fe708dce09cedfe",
+            "Name": "Kyerewaa Akowuah",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Absolutely Necessary",
+            "YearsQuizzing": null,
+            "Id": "q_97baa71070694323101a08dce09cedfe",
+            "Name": "Leah Buntain",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Nebraska",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_56",
+            "Name": "Nehemiah Storer",
+            "ChurchName": "Nebraska",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Nebraska",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_58",
+            "Name": "Noah Stein",
+            "ChurchName": "Nebraska",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Absolutely Necessary",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_14",
+            "Name": "Nora Bray",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Wyoming",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_48",
+            "Name": "Richard Rossignol",
+            "ChurchName": "Wyoming",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Nebraska",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_57",
+            "Name": "Simeon Storer",
+            "ChurchName": "Nebraska",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Wyoming",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_47",
+            "Name": "William Rossignol",
+            "ChurchName": "Wyoming",
+            "City": null,
+            "State": null,
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              null,
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              null,
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "3",
+            "Matches": [
+              null,
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": [
+                  {
+                    "RoomId": 1,
+                    "Match": 0,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 2,
+                    "Match": 0,
+                    "Team": 2,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Name": "4",
+            "Matches": [
+              null,
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": [
+                  {
+                    "RoomId": 1,
+                    "Match": 0,
+                    "Team": 1,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 2,
+                    "Match": 0,
+                    "Team": 3,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "9d36b9ed-b6d1-4cbf-8815-098e282c4475",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "B LEAGUE MEET 2",
+        "LastUpdated": "10/17/25 1:47 AM",
+        "DatabaseLastUpdated": "2025-10-17T01:47:02.5193242+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Jenny Curtis",
+            "Quizzers": [
+              0,
+              2,
+              3,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_fcbfdf32-246b-478f-8948-ff33d61c81a4",
+            "Name": "Breath of Life",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "CoachName": "Mary Meeks",
+            "Quizzers": [
+              1,
+              4
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_9d36b9ed-b6d1-4cbf-8815-098e282c4475_9",
+            "Name": "RC",
+            "ChurchName": "Open Bible",
+            "City": null,
+            "State": null,
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Breath of Life",
+            "YearsQuizzing": null,
+            "Id": "q_38c4b5846ec248bc0f6208dce09cedfe",
+            "Name": "Aseda Akowuah",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "RC",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_74",
+            "Name": "Colton Bryan",
+            "ChurchName": "Open Bible",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Breath of Life",
+            "YearsQuizzing": null,
+            "Id": "q_fcc597fc1b9f48620fe108dce09cedfe",
+            "Name": "Holleigh Thibodeau",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Breath of Life",
+            "YearsQuizzing": null,
+            "Id": "q_cd86101640b34b480fdb08dce09cedfe",
+            "Name": "Julia Curtis",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "RC",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_75",
+            "Name": "Noelle Bray",
+            "ChurchName": "Open Bible",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Breath of Life",
+            "YearsQuizzing": null,
+            "Id": "q_570a91c0a812422284e808ddf066650f",
+            "Name": "Tatiana Phelps",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "2",
+            "Matches": [
+              null,
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": [
+                  {
+                    "RoomId": 3,
+                    "Match": 0,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 3,
+                    "Match": 0,
+                    "Team": 1,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "9d36b9ed-b6d1-4cbf-8815-098e282c4475",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "C LEAGUE MEET 2",
+        "LastUpdated": "10/17/25 1:47 AM",
+        "DatabaseLastUpdated": "2025-10-17T01:47:02.5193242+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              8,
+              9,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_9d36b9ed-b6d1-4cbf-8815-098e282c4475_11",
+            "Name": "BYE",
+            "ChurchName": "BYE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "CoachName": "Luke Storer",
+            "Quizzers": [
+              0,
+              2,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_9d36b9ed-b6d1-4cbf-8815-098e282c4475_10",
+            "Name": "Great Rulers (someday)",
+            "ChurchName": "Combo",
+            "City": "SD/NE",
+            "State": null,
+            "Scores": null
+          },
+          {
+            "CoachName": "Rebekah Dye",
+            "Quizzers": [
+              1,
+              3,
+              4,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8a01bc57-d65a-48ab-a9f7-28430dcb9a34",
+            "Name": "Journey",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "CoachName": "Cindra Solvie",
+            "Quizzers": [
+              6,
+              7,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_251ff466-4a47-499b-b8a5-1c37d77a675c",
+            "Name": "RC",
+            "ChurchName": "Open Bible",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Great Rulers (someday)",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_85",
+            "Name": "Ashlynn Vee",
+            "ChurchName": "Combo",
+            "City": "SD/NE",
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey",
+            "YearsQuizzing": null,
+            "Id": "q_26e4335eca864a239e1008de045d4f17",
+            "Name": "Ester Wildeboer",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Great Rulers (someday)",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_83",
+            "Name": "Esther Storer",
+            "ChurchName": "Combo",
+            "City": "SD/NE",
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey",
+            "YearsQuizzing": null,
+            "Id": "q_7cdc5e87d4bc4e799e0a08de045d4f17",
+            "Name": "Henry Young",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey",
+            "YearsQuizzing": null,
+            "Id": "q_af2b3311e2194f91b04f08dd2612f922",
+            "Name": "Hilma Lundgren",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey",
+            "YearsQuizzing": null,
+            "Id": "q_daddf6726ff74336b05908dd2612f922",
+            "Name": "Kingsley Larson",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "RC",
+            "YearsQuizzing": null,
+            "Id": "q_39cb91d793c84ef10a3908ddf3458d70",
+            "Name": "Nathan Ollila",
+            "ChurchName": "Open Bible",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "RC",
+            "YearsQuizzing": null,
+            "Id": "q_fc24ab624fa44566706508de04845ac9",
+            "Name": "Neely Bray",
+            "ChurchName": "Open Bible",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "BYE",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_92",
+            "Name": "Quizzer-1",
+            "ChurchName": "BYE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "BYE",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_93",
+            "Name": "Quizzer-2",
+            "ChurchName": "BYE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "BYE",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_94",
+            "Name": "Quizzer-3",
+            "ChurchName": "BYE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "RC",
+            "YearsQuizzing": null,
+            "Id": "q_55da6eb3426d42c9676608dcfc7f161e",
+            "Name": "Shiyah LaDuke",
+            "ChurchName": "Open Bible",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Great Rulers (someday)",
+            "YearsQuizzing": null,
+            "Id": "q_9d36b9ed-b6d1-4cbf-8815-098e282c4475_84",
+            "Name": "Tyr Vee",
+            "ChurchName": "Combo",
+            "City": "SD/NE",
+            "State": null,
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              null,
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": [
+                  {
+                    "RoomId": 4,
+                    "Match": 0,
+                    "Team": 2,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 5,
+                    "Match": 0,
+                    "Team": 3,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Name": "3",
+            "Matches": [
+              null,
+              null,
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": [
+                  {
+                    "RoomId": 4,
+                    "Match": 0,
+                    "Team": 1,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 5,
+                    "Match": 1,
+                    "Team": 1,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 5,
+                    "Match": 0,
+                    "Team": 3,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 1,
+                    "Match": 1,
+                    "Team": 3,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Name": "4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "b6e95a25-e03b-4aaf-9ca2-b960302032f2",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "A MEET 2",
+        "LastUpdated": "10/16/25 11:08 PM",
+        "DatabaseLastUpdated": "2025-10-16T22:40:25.4583606+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Kris Giffin",
+            "Quizzers": [
+              2,
+              5,
+              6,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6e0b6977-0b48-40e9-8056-37f608a5e201",
+            "Name": "Absolutely Necessary",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "CoachName": "James Dye",
+            "Quizzers": [
+              0,
+              3,
+              4
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_31cf00cb-dccc-4be3-ab9d-963b6682807f",
+            "Name": "Journey Church (Rapid City) #2",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "CoachName": "Kris Giffin",
+            "Quizzers": [
+              1,
+              7,
+              8,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_b6e95a25-e03b-4aaf-9ca2-b960302032f2_7",
+            "Name": "SD NE",
+            "ChurchName": "SD NE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "CoachName": "Andrea Rossignol",
+            "Quizzers": [
+              10,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_b6e95a25-e03b-4aaf-9ca2-b960302032f2_6",
+            "Name": "Wyoming",
+            "ChurchName": "Wyoming",
+            "City": null,
+            "State": null,
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Journey Church (Rapid City) #2",
+            "YearsQuizzing": null,
+            "Id": "q_3757671eed7d4528b06808dd2612f922",
+            "Name": "Andrew Dye",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "SD NE",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_59",
+            "Name": "Aydrien Solvie",
+            "ChurchName": "SD NE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Absolutely Necessary",
+            "YearsQuizzing": null,
+            "Id": "q_f8cc0707eac74065100008dce09cedfe",
+            "Name": "Fosuah Akowuah",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Church (Rapid City) #2",
+            "YearsQuizzing": null,
+            "Id": "q_dc16d888dfb643a6b06308dd2612f922",
+            "Name": "Jimmy Dye",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Church (Rapid City) #2",
+            "YearsQuizzing": null,
+            "Id": "q_1e903358d4a6456436dd08dd247ebae8",
+            "Name": "Kinsley Young",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Absolutely Necessary",
+            "YearsQuizzing": null,
+            "Id": "q_064aac69392547470fe708dce09cedfe",
+            "Name": "Kyerewaa Akowuah",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Absolutely Necessary",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_14",
+            "Name": "Leah Buntain",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "SD NE",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_56",
+            "Name": "Nehemiah Storer",
+            "ChurchName": "SD NE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "SD NE",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_58",
+            "Name": "Noah Stein",
+            "ChurchName": "SD NE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Absolutely Necessary",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_15",
+            "Name": "Nora Bray",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Wyoming",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_48",
+            "Name": "Richard Rossignol",
+            "ChurchName": "Wyoming",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "SD NE",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_57",
+            "Name": "Simeon Storer",
+            "ChurchName": "SD NE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Wyoming",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_47",
+            "Name": "William Rossignol",
+            "ChurchName": "Wyoming",
+            "City": null,
+            "State": null,
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "b6e95a25-e03b-4aaf-9ca2-b960302032f2",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "B MEET 2",
+        "LastUpdated": "10/16/25 11:08 PM",
+        "DatabaseLastUpdated": "2025-10-16T22:40:25.4583606+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Jenny Curtis",
+            "Quizzers": [
+              0,
+              2,
+              3,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_fcbfdf32-246b-478f-8948-ff33d61c81a4",
+            "Name": "Breath of Life",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "CoachName": "Mary Meeks",
+            "Quizzers": [
+              1,
+              4
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_b6e95a25-e03b-4aaf-9ca2-b960302032f2_8",
+            "Name": "Open Bible",
+            "ChurchName": "Open Bible",
+            "City": null,
+            "State": null,
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Breath of Life",
+            "YearsQuizzing": null,
+            "Id": "q_38c4b5846ec248bc0f6208dce09cedfe",
+            "Name": "Aseda Akowuah",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Open Bible",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_65",
+            "Name": "Colton Brian",
+            "ChurchName": "Open Bible",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Breath of Life",
+            "YearsQuizzing": null,
+            "Id": "q_fcc597fc1b9f48620fe108dce09cedfe",
+            "Name": "Holleigh Thibodeau",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Breath of Life",
+            "YearsQuizzing": null,
+            "Id": "q_cd86101640b34b480fdb08dce09cedfe",
+            "Name": "Julia Curtis",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Open Bible",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_66",
+            "Name": "Noelle Bray",
+            "ChurchName": "Open Bible",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Breath of Life",
+            "YearsQuizzing": null,
+            "Id": "q_570a91c0a812422284e808ddf066650f",
+            "Name": "Tatiana Phelps",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "b6e95a25-e03b-4aaf-9ca2-b960302032f2",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "C MEET 2",
+        "LastUpdated": "10/16/25 11:08 PM",
+        "DatabaseLastUpdated": "2025-10-16T22:40:25.4583606+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              2,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_b6e95a25-e03b-4aaf-9ca2-b960302032f2_9",
+            "Name": "Great Rulers Someday",
+            "ChurchName": "Bethel/NE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "CoachName": "Rebekah Dye",
+            "Quizzers": [
+              1,
+              3,
+              4,
+              5
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8a01bc57-d65a-48ab-a9f7-28430dcb9a34",
+            "Name": "Journey Church (Rapid City) #1",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "CoachName": "Cindra Solvie",
+            "Quizzers": [
+              6,
+              7,
+              8
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_251ff466-4a47-499b-b8a5-1c37d77a675c",
+            "Name": "Open Bible Church Rapid City (Rapid City) #2",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Great Rulers Someday",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_75",
+            "Name": "Ashlynn Vee",
+            "ChurchName": "Bethel/NE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Church (Rapid City) #1",
+            "YearsQuizzing": null,
+            "Id": "q_26e4335eca864a239e1008de045d4f17",
+            "Name": "Ester Wildeboer",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Great Rulers Someday",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_76",
+            "Name": "Esther Storer",
+            "ChurchName": "Bethel/NE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Church (Rapid City) #1",
+            "YearsQuizzing": null,
+            "Id": "q_7cdc5e87d4bc4e799e0a08de045d4f17",
+            "Name": "Henry Young",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Church (Rapid City) #1",
+            "YearsQuizzing": null,
+            "Id": "q_af2b3311e2194f91b04f08dd2612f922",
+            "Name": "Hilma Lundgren",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Church (Rapid City) #1",
+            "YearsQuizzing": null,
+            "Id": "q_daddf6726ff74336b05908dd2612f922",
+            "Name": "Kingsley Larson",
+            "ChurchName": "Journey Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City (Rapid City) #2",
+            "YearsQuizzing": null,
+            "Id": "q_39cb91d793c84ef10a3908ddf3458d70",
+            "Name": "Nathan Ollila",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City (Rapid City) #2",
+            "YearsQuizzing": null,
+            "Id": "q_fc24ab624fa44566706508de04845ac9",
+            "Name": "Neely Bray",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City (Rapid City) #2",
+            "YearsQuizzing": null,
+            "Id": "q_55da6eb3426d42c9676608dcfc7f161e",
+            "Name": "Shiyah LaDuke",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": null
+          },
+          {
+            "TeamName": "Great Rulers Someday",
+            "YearsQuizzing": null,
+            "Id": "q_b6e95a25-e03b-4aaf-9ca2-b960302032f2_74",
+            "Name": "Tyr Vee",
+            "ChurchName": "Bethel/NE",
+            "City": null,
+            "State": null,
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2025-10-17T01:47:25.5770259+00:00"
+}
