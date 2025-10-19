@@ -1,7 +1,7 @@
 import { Outlet, useOutletContext } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import type { EventProviderContext } from "./EventProvider";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import type { RegistrationGeneralInfo } from "./registration/RegistrationGeneralPage";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
@@ -27,7 +27,6 @@ const normalizeDate = (date: string | null): string | null => {
 export default function RegistrationProvider({ }: Props) {
     const {
         auth,
-        eventId,
         info,
         setEventTitle,
         setEventType

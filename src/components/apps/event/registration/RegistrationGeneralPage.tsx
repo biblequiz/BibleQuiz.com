@@ -5,7 +5,7 @@ import regions from "data/regions.json";
 import districts from "data/districts.json";
 import AddressSelector from "../AddressSelector";
 import type { Address } from "types/services/models/Address";
-import RichTextEditor from "../RichTextEditor";
+import RichTextEditor from "components/RichTextEditor";
 
 interface Props {
 }
@@ -33,7 +33,6 @@ enum EventScope {
 
 export default function RegistrationGeneralPage({ }: Props) {
     const {
-        auth,
         setEventTitle,
         setEventType,
         general,
@@ -59,6 +58,7 @@ export default function RegistrationGeneralPage({ }: Props) {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         alert("submit");
+        alert(setGeneral);
     };
 
     return (
@@ -77,6 +77,7 @@ export default function RegistrationGeneralPage({ }: Props) {
                             className="input w-full"
                             value={name}
                             maxLength={60}
+                            placeholder="Name of your event"
                             onChange={e => {
                                 setName(e.target.value);
                                 setEventTitle(e.target.value);
