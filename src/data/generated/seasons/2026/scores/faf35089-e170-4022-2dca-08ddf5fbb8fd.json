@@ -1,0 +1,678 @@
+{
+  "EventName": "OH League Meet #1",
+  "DatabaseNames": {
+    "d241d284-7521-4517-a5d0-d570b3a5cdd5": "OCT_26_OH_Meet__1"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "d241d284-7521-4517-a5d0-d570b3a5cdd5",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2025 Oct Meet 1",
+        "LastUpdated": "10/20/25 12:14 AM",
+        "DatabaseLastUpdated": "2025-10-19T21:50:48.3523727+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Spike McCorcle",
+            "Quizzers": [],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "C",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "C",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_369eec59-32ac-4e87-9acd-b6b9898549db",
+            "Name": "Flying Pigs",
+            "ChurchName": "Connection Church",
+            "City": "Wooster",
+            "State": "OH",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 0,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Suzanne Mangeri",
+            "Quizzers": [],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "C",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "C",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_eddaeee4-41ac-41d4-a709-8271d94dca86",
+            "Name": "Life Church Assembly of God (Garrettsville) #1",
+            "ChurchName": "Life Church Assembly of God",
+            "City": "Garrettsville",
+            "State": "OH",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 0,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jessica Rogers",
+            "Quizzers": [],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "C",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "InProgress",
+                "CurrentQuestion": 1,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "C",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": 2,
+            "Id": "t_e6fd6f3c-f7db-4a0a-92b0-1d415e091d30",
+            "Name": "Painesville Team #1",
+            "ChurchName": "Painesville Assembly of God",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 0,
+              "WinPercentage": 0,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Sam Klco",
+            "Quizzers": [],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "InProgress",
+                "CurrentQuestion": 2,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "C",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": 0,
+            "Id": "t_d34d4457-001b-4886-9075-250c02a079aa",
+            "Name": "Painesville Team #2",
+            "ChurchName": "Painesville Assembly of God",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 0,
+              "WinPercentage": 0,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Janelle Nimako",
+            "Quizzers": [],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "InProgress",
+                "CurrentQuestion": 2,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "C",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "C",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": 0,
+            "Id": "t_0623f267-8140-49d6-a6f0-abe3c649c23f",
+            "Name": "Radiant Quizzers",
+            "ChurchName": "Radiant Life Church Assembly of God",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 0,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Ryan Schiebel",
+            "Quizzers": [],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "C",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "InProgress",
+                "CurrentQuestion": 1,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": 2,
+            "Id": "t_564da866-2176-4c06-be9e-8479677df14c",
+            "Name": "Schiebel Family (Morrow) #1",
+            "ChurchName": "Schiebel Family",
+            "City": "Morrow",
+            "State": "OH",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 0,
+              "WinPercentage": 0,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          2,
+          3,
+          5,
+          0,
+          1,
+          4
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [],
+        "RankedQuizzers": [],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": 2,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "InProgress",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": 1,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "InProgress",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "C",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "12:00 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "Scoring Started",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2025-10-19T23:04:30.8931856+00:00"
+}
