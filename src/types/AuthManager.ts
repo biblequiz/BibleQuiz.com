@@ -610,6 +610,7 @@ export class AuthManager {
 
         if (serialized) {
             const serializedProfile = JSON.parse(serialized) as SerializedAccountProfile;
+            console.log(serializedProfile);
             if (serializedProfile) {
                 return new UserAccountProfile(
                     serializedProfile.personId,

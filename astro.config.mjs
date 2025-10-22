@@ -45,7 +45,7 @@ export default defineConfig({
                 dark: "./src/assets/images/dark-logo.png",
                 replacesTitle: true,
             },
-            customCss: ["./src/styles/custom.css", "./src/styles/global.css"],
+            customCss: ["./src/styles/custom.css", "./src/styles/global.css","./src/styles/rte_theme_default.css"],
             sidebar: [
                 {
                     label: "Upcoming & Live Events",
