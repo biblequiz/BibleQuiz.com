@@ -116,7 +116,7 @@ export default function TeamOrRoomScheduleTabContent({
                             teamCardHighlightColor = "bg-yellow-200";
                         }
                         else if (isFavorite) {
-                            teamCardHighlightColor = "bg-accent-100";
+                            teamCardHighlightColor = "bg-green-600";
                         }
 
                         if (showOnlyFavorites && !isFavorite) {
@@ -253,7 +253,7 @@ export default function TeamOrRoomScheduleTabContent({
                                 matchHighlightColor = "bg-yellow-200";
                             }
                             else if (shouldHighlightFavorite) {
-                                matchHighlightColor = "bg-accent-100";
+                                matchHighlightColor = "bg-green-600";
                             }
 
                             if (showOnlyFavorites && !shouldHighlightFavorite && isRoomReport) {

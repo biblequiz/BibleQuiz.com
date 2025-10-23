@@ -5,7 +5,7 @@ import regions from "data/regions.json";
 import districts from "data/districts.json";
 import AddressSelector from "../AddressSelector";
 import type { Address } from "types/services/models/Address";
-//import RichTextEditor from "components/RichTextEditor";
+import RichTextEditor from "components/RichTextEditor";
 //import { set } from "date-fns";
 import Editor from 'react-simple-wysiwyg';
 
@@ -242,10 +242,9 @@ export default function RegistrationGeneralPage({ }: Props) {
                 </div>
 
                 <h5 className="mb-0">Additional Details</h5>
-                <Editor 
-                    value={description} 
-                    onChange={e => setDescription(e.target.value)}
-                    style={{ minHeight: "6em" }} // ~3 lines
+                <RichTextEditor
+                    text={description}
+                    setText={setDescription}
                 />
             </form>
         </div>);

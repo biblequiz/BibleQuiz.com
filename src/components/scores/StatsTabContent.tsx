@@ -89,7 +89,7 @@ export default function StatsTabContent({
                                 highlightColor = "bg-yellow-200";
                             }
                             else if (isFavorite) {
-                                highlightColor = "bg-accent-100";
+                                highlightColor = "bg-green-600";
                             }
 
                             if (showOnlyFavorites && !isFavorite) {
@@ -150,7 +150,7 @@ export default function StatsTabContent({
                                 highlightColor = "bg-yellow-200";
                             }
                             else if (isFavorite) {
-                                highlightColor = "bg-accent-100";
+                                highlightColor = "bg-green-600";
                             }
 
                             if (showOnlyFavorites && !isFavorite) {
