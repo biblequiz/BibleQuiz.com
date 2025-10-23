@@ -8,7 +8,6 @@ import type { Address } from "types/services/models/Address";
 import RichTextEditor from "components/RichTextEditor";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import RegistrationPageForm from "./RegistrationPageForm";
-import { set } from "date-fns";
 
 interface Props {
 }
@@ -43,7 +42,9 @@ export default function RegistrationGeneralPage({ }: Props) {
         general,
         setGeneral,
         teamsAndQuizzers,
-        setTeamsAndQuizzers } = useOutletContext<RegistrationProviderContext>();
+        setTeamsAndQuizzers,
+        officialsAndAttendees,
+        setOfficialsAndAttendees } = useOutletContext<RegistrationProviderContext>();
 
     const [name, setName] = useState(general?.name || "");
     const [description, setDescription] = useState(general?.description || "");
@@ -134,6 +135,11 @@ export default function RegistrationGeneralPage({ }: Props) {
                                 minTeamMembers: isJbq ? 1 : 2,
                                 maxTeamMembers: isJbq ? 8 : 6,
                                 requireTeamCoaches: isJbq
+                            });
+
+                            setOfficialsAndAttendees({
+                                ...officialsAndAttendees,
+                                allowTimekeepers: isJbq
                             });
 
                             sharedDirtyWindowState.set(true);
@@ -278,7 +284,7 @@ export default function RegistrationGeneralPage({ }: Props) {
                     </div>)}
             </div>
 
-            <div className="w-full pl-2">
+            <div className="w-full p-2 border border-base-400 bg-base-300 rounded-lg">
                 <label className="label text-wrap">
                     <input
                         type="checkbox"

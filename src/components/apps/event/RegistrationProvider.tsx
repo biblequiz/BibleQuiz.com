@@ -5,6 +5,7 @@ import { useState } from "react";
 import type { RegistrationGeneralInfo } from "./registration/RegistrationGeneralPage";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import type { RegistrationTeamsAndQuizzersInfo } from "./registration/RegistrationTeamsAndQuizzersPage";
+import type { RegistrationOfficialsAndAttendeesInfo } from "./registration/RegistrationOfficialsPage";
 
 interface Props {
 }
@@ -22,6 +23,9 @@ export interface RegistrationProviderContext {
 
     teamsAndQuizzers: RegistrationTeamsAndQuizzersInfo;
     setTeamsAndQuizzers: (updated: RegistrationTeamsAndQuizzersInfo) => void;
+
+    officialsAndAttendees: RegistrationOfficialsAndAttendeesInfo;
+    setOfficialsAndAttendees: (updated: RegistrationOfficialsAndAttendeesInfo) => void;
 }
 
 const normalizeDate = (date: string | null): string | null => {
@@ -62,6 +66,13 @@ export default function RegistrationProvider({ }: Props) {
         requireTeamCoaches: info?.RequireTeamCoaches || true,
         allowCustomTeamNames: info?.AllowTeamNames || true,
         allowIndividuals: info?.AllowIndividuals || false,
+    }));
+
+    const [officialsAndAttendees, setOfficialsAndAttendees] = useState<RegistrationOfficialsAndAttendeesInfo>(() =>
+    ({
+        allowJudges: info?.HasJudges || true,
+        allowScorekeepers: info?.HasScorekeepers || true,
+        allowTimekeepers: info?.HasTimekeepers || true,
         allowAttendees: info?.AllowAttendees || false,
     }));
 
@@ -86,6 +97,9 @@ export default function RegistrationProvider({ }: Props) {
 
                 teamsAndQuizzers: teamsAndQuizzers,
                 setTeamsAndQuizzers: setTeamsAndQuizzers,
+
+                officialsAndAttendees: officialsAndAttendees,
+                setOfficialsAndAttendees: setOfficialsAndAttendees
             } as RegistrationProviderContext} />
         </div>);
 }

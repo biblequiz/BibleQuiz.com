@@ -13,7 +13,6 @@ export interface RegistrationTeamsAndQuizzersInfo {
     requireTeamCoaches: boolean;
     allowCustomTeamNames: boolean;
     allowIndividuals: boolean;
-    allowAttendees: boolean;
 }
 
 export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
@@ -28,7 +27,6 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
     const [requireTeamCoaches, setRequireTeamCoaches] = useState(teamsAndQuizzers.requireTeamCoaches);
     const [allowCustomTeamNames, setAllowCustomTeamNames] = useState(teamsAndQuizzers.allowCustomTeamNames);
     const [allowIndividuals, setAllowIndividuals] = useState(teamsAndQuizzers.allowIndividuals);
-    const [allowAttendees, setAllowAttendees] = useState(teamsAndQuizzers.allowAttendees);
 
     return (
         <RegistrationPageForm
@@ -39,11 +37,11 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
                     maxTeamMembers,
                     requireTeamCoaches,
                     allowCustomTeamNames,
-                    allowIndividuals,
-                    allowAttendees
+                    allowIndividuals
                 });
             }}
             saveRegistration={saveRegistration}
+            previousPageLink={rootEventUrl}
             nextPageLink={`${rootEventUrl}/registration/officials`}>
 
             <h5 className="mb-0">Team Requirements</h5>
@@ -140,24 +138,6 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
                     />
                     <span>
                         Individuals can register outside of a team (e.g. individual tournament).
-                    </span>
-                </label>
-            </div>
-
-            <div className="w-full ml-2 mt-1 mb-0">
-                <label className="label text-wrap">
-                    <input
-                        type="checkbox"
-                        name="allowAttendees"
-                        className="checkbox checkbox-sm checkbox-info"
-                        checked={allowAttendees}
-                        onChange={e => {
-                            setAllowAttendees(e.target.checked);
-                            sharedDirtyWindowState.set(true);
-                        }}
-                    />
-                    <span>
-                        Attendees (i.e., non-quizzers) can register for a church.
                     </span>
                 </label>
             </div>

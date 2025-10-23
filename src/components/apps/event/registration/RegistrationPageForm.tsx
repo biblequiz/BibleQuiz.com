@@ -4,13 +4,15 @@ import { useNavigate } from "react-router-dom";
 import { sharedDirtyWindowState } from "utils/SharedState";
 
 interface Props {
-    nextPageLink: string | null;
+    previousPageLink?: string;
+    nextPageLink?: string;
     persistFormToEventInfo(): void;
     saveRegistration: () => Promise<void>;
     children: React.ReactNode;
 }
 
 export default function RegistrationPageForm({
+    previousPageLink,
     nextPageLink,
     children,
     persistFormToEventInfo,
@@ -28,6 +30,16 @@ export default function RegistrationPageForm({
         navigate(nextPageLink!);
     };
 
+    const handlePrevious = (e: React.MouseEvent) => {
+        e.preventDefault();
+
+        // Persist the current form.
+        persistFormToEventInfo();
+
+        // Navigate to the previous page.
+        navigate(previousPageLink!);
+    };
+
     const handleSave = async (e: React.MouseEvent) => {
         e.preventDefault();
 
@@ -43,11 +55,19 @@ export default function RegistrationPageForm({
     return (
         <form className="space-y-6 mt-0" onSubmit={handleSubmit}>
             <div className="w-full mt-0 flex justify-end gap-2">
+                {previousPageLink && (
+                    <button
+                        type="button"
+                        className="btn btn-primary m-0"
+                        onClick={handlePrevious}>
+                        <FontAwesomeIcon icon="fas faArrowLeft" />
+                        Previous
+                    </button>)}
                 {nextPageLink && (
                     <button
                         type="submit"
                         className="btn btn-success m-0">
-                        Next Page
+                        Next
                         <FontAwesomeIcon icon="fas faArrowRight" />
                     </button>)}
                 <button
@@ -63,11 +83,19 @@ export default function RegistrationPageForm({
             {children}
 
             <div className="w-full mt-0 flex justify-end gap-2">
+                {previousPageLink && (
+                    <button
+                        type="button"
+                        className="btn btn-primary m-0"
+                        onClick={handlePrevious}>
+                        <FontAwesomeIcon icon="fas faArrowLeft" />
+                        Previous
+                    </button>)}
                 {nextPageLink && (
                     <button
                         type="submit"
                         className="btn btn-success m-0">
-                        Next Page
+                        Next
                         <FontAwesomeIcon icon="fas faArrowRight" />
                     </button>)}
                 <button

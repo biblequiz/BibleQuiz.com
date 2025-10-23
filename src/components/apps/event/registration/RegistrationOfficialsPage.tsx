@@ -1,26 +1,123 @@
 import type { RegistrationProviderContext } from "../RegistrationProvider";
 import { useOutletContext } from "react-router-dom";
+import RegistrationPageForm from "./RegistrationPageForm";
+import { useState } from "react";
+import { sharedDirtyWindowState } from "utils/SharedState";
 
 interface Props {
 }
 
+export interface RegistrationOfficialsAndAttendeesInfo {
+    allowJudges: boolean;
+    allowScorekeepers: boolean;
+    allowTimekeepers: boolean;
+    allowAttendees: boolean;
+}
+
 export default function RegistrationOfficialsPage({ }: Props) {
-    const auth = useOutletContext<RegistrationProviderContext>().auth;
+    const {
+        rootEventUrl,
+        saveRegistration,
+        officialsAndAttendees,
+        setOfficialsAndAttendees } = useOutletContext<RegistrationProviderContext>();
+
+    const [allowJudges, setAllowJudges] = useState(officialsAndAttendees.allowJudges);
+    const [allowScorekeepers, setAllowScorekeepers] = useState(officialsAndAttendees.allowScorekeepers);
+    const [allowTimekeepers, setAllowTimekeepers] = useState(officialsAndAttendees.allowTimekeepers);
+    const [allowAttendees, setAllowAttendees] = useState(officialsAndAttendees.allowAttendees);
 
     return (
-        <>
-            <div>
-                <b>Officials and Attendees Section</b>
-            </div>
-            <p>
-                This page includes the following fields:
+        <RegistrationPageForm
+            persistFormToEventInfo={() => {
+                setOfficialsAndAttendees({
+                    ...officialsAndAttendees,
+                    allowJudges,
+                    allowScorekeepers,
+                    allowTimekeepers,
+                    allowAttendees,
+                });
+            }}
+            saveRegistration={saveRegistration}
+            previousPageLink={`${rootEventUrl}/registration/teamsAndQuizzers`}
+            nextPageLink={`${rootEventUrl}/registration/fields`}>
+
+            <h5 className="mb-0">Roles for Officials</h5>
+            <p className="mb-0">
+                Will you officially designate officials with the following roles or will these
+                be covered by existing officials (e.g. Quizmaster and Judge)?
             </p>
-            <ul>
-                <li>Allow attendees</li>
-                <li>Required roles for officials (e.g., judge, scorekeeper, timekeeper)</li>
-            </ul>
-            <div>
-                Placeholder for {auth.userProfile?.displayName}
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-2 p-2 mt-0 mb-0">
+                <div className="w-full mt-0">
+                    <label className="label text-wrap">
+                        <input
+                            type="checkbox"
+                            name="allowJudges"
+                            className="checkbox checkbox-sm checkbox-info"
+                            checked={allowJudges}
+                            onChange={e => {
+                                setAllowJudges(e.target.checked);
+                                sharedDirtyWindowState.set(true);
+                            }}
+                        />
+                        <span>
+                            Judge
+                        </span>
+                    </label>
+                </div>
+                <div className="w-full mt-0">
+                    <label className="label text-wrap">
+                        <input
+                            type="checkbox"
+                            name="allowScorekeepers"
+                            className="checkbox checkbox-sm checkbox-info"
+                            checked={allowScorekeepers}
+                            onChange={e => {
+                                setAllowScorekeepers(e.target.checked);
+                                sharedDirtyWindowState.set(true);
+                            }}
+                        />
+                        <span>
+                            Scorekeeper
+                        </span>
+                    </label>
+                </div>
+                <div className="w-full mt-0">
+                    <label className="label text-wrap">
+                        <input
+                            type="checkbox"
+                            name="allowTimekeepers"
+                            className="checkbox checkbox-sm checkbox-info"
+                            checked={allowTimekeepers}
+                            onChange={e => {
+                                setAllowTimekeepers(e.target.checked);
+                                sharedDirtyWindowState.set(true);
+                            }}
+                        />
+                        <span>
+                            Timekeeper
+                        </span>
+                    </label>
+                </div>
             </div>
-        </>);
+
+            <h5 className="mb-0">Can others register?</h5>
+            <div className="w-full ml-2 mt-1 mb-0">
+                <label className="label text-wrap">
+                    <input
+                        type="checkbox"
+                        name="allowAttendees"
+                        className="checkbox checkbox-sm checkbox-info"
+                        checked={allowAttendees}
+                        onChange={e => {
+                            setAllowAttendees(e.target.checked);
+                            sharedDirtyWindowState.set(true);
+                        }}
+                    />
+                    <span>
+                        Attendees (i.e., non-quizzers) can register for a church.
+                    </span>
+                </label>
+            </div>
+        </RegistrationPageForm>);
 }
