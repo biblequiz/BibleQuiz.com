@@ -10,9 +10,11 @@ interface Props {
 
 export interface RegistrationProviderContext {
     auth: AuthManager;
+    rootEventUrl: string;
 
     setEventTitle: (title: string) => void;
     setEventType: (typeId: string) => void;
+    saveRegistration: () => Promise<void>;
 
     general: RegistrationGeneralInfo;
     setGeneral: (updated: RegistrationGeneralInfo) => void;
@@ -29,7 +31,8 @@ export default function RegistrationProvider({ }: Props) {
         auth,
         info,
         setEventTitle,
-        setEventType
+        setEventType,
+        rootUrl
     } = useOutletContext<EventProviderContext>();
 
     const [generalState, setGeneralState] = useState<RegistrationGeneralInfo>(() =>
@@ -48,12 +51,21 @@ export default function RegistrationProvider({ }: Props) {
         locationAddress: info?.Location || null,
     }));
 
+    const saveRegistration =
+        () => {
+            alert("Save registration called");
+            return Promise.resolve();
+        };
+
     return (
         <div className="overflow-x-auto">
             <Outlet context={{
                 auth: auth,
+                rootEventUrl: rootUrl,
+
                 setEventTitle: setEventTitle,
                 setEventType: setEventType,
+                saveRegistration: saveRegistration,
 
                 general: generalState,
                 setGeneral: setGeneralState,

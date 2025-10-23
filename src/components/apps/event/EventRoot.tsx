@@ -48,16 +48,42 @@ function RootLayout({ loadingElementId }: Props) {
     }, [loadingElementId]);
 
     // Subscribe to dirty state
+    const routeParameters: Readonly<Params<string>> = useParams();
+
     useStore(sharedDirtyWindowState);
     const blocker = useBlocker(
         ({ currentLocation, nextLocation }) => {
-            return sharedDirtyWindowState.get() && currentLocation.pathname !== nextLocation.pathname;
+            if (sharedDirtyWindowState.get() && currentLocation.pathname !== nextLocation.pathname) {
+
+                // Navigation between registration pages is allowed without blocking
+                // as they are all updating the same data. The registration page will do
+                // appropriate validation to ensure data integrity.
+                const eventId = routeParameters.eventId;
+                const firstRegistration = eventId
+                    ? `/${eventId}`
+                    : "";
+                const registrationPrefix = eventId
+                    ? `/${eventId}/registration/`
+                    : "/registration/";
+
+                const isCurrentRegistration = currentLocation.pathname === firstRegistration ||
+                    currentLocation.pathname.startsWith(registrationPrefix);
+                const isNextRegistration = nextLocation.pathname === firstRegistration ||
+                    nextLocation.pathname.startsWith(registrationPrefix);
+
+                if (isCurrentRegistration && isNextRegistration) {
+                    return false;
+                }
+
+                return true;
+            }
+
+            return false;
         }
     );
 
     // Configure the routing.
     const routeMatches: UIMatch<unknown, unknown>[] = useMatches();
-    const routeParameters: Readonly<Params<string>> = useParams();
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -66,7 +92,7 @@ function RootLayout({ loadingElementId }: Props) {
             showParent: auth.userProfile?.canCreateEvents ?? false,
             entries: buildSidebar(routeMatches, routeParameters, navigate)
         });
-    }, [location.pathname, auth]);
+    }, [location.pathname, auth, blocker]);
 
     return (
         <>
