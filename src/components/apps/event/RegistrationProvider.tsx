@@ -4,6 +4,7 @@ import type { EventProviderContext } from "./EventProvider";
 import { useState } from "react";
 import type { RegistrationGeneralInfo } from "./registration/RegistrationGeneralPage";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import type { RegistrationTeamsAndQuizzersInfo } from "./registration/RegistrationTeamsAndQuizzersPage";
 
 interface Props {
 }
@@ -18,6 +19,9 @@ export interface RegistrationProviderContext {
 
     general: RegistrationGeneralInfo;
     setGeneral: (updated: RegistrationGeneralInfo) => void;
+
+    teamsAndQuizzers: RegistrationTeamsAndQuizzersInfo;
+    setTeamsAndQuizzers: (updated: RegistrationTeamsAndQuizzersInfo) => void;
 }
 
 const normalizeDate = (date: string | null): string | null => {
@@ -51,6 +55,16 @@ export default function RegistrationProvider({ }: Props) {
         locationAddress: info?.Location || null,
     }));
 
+    const [teamsAndQuizzers, setTeamsAndQuizzers] = useState<RegistrationTeamsAndQuizzersInfo>(() =>
+    ({
+        minTeamMembers: info?.MinTeamMembers || 1,
+        maxTeamMembers: info?.MaxTeamMembers || 8,
+        requireTeamCoaches: info?.RequireTeamCoaches || true,
+        allowCustomTeamNames: info?.AllowTeamNames || true,
+        allowIndividuals: info?.AllowIndividuals || false,
+        allowAttendees: info?.AllowAttendees || false,
+    }));
+
     const saveRegistration =
         () => {
             alert("Save registration called");
@@ -69,6 +83,9 @@ export default function RegistrationProvider({ }: Props) {
 
                 general: generalState,
                 setGeneral: setGeneralState,
+
+                teamsAndQuizzers: teamsAndQuizzers,
+                setTeamsAndQuizzers: setTeamsAndQuizzers,
             } as RegistrationProviderContext} />
         </div>);
 }

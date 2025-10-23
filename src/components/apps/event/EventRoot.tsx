@@ -11,7 +11,7 @@ import ErrorPage from '../ErrorPage';
 import NotFoundError from 'components/NotFoundError';
 import RegistrationProvider from './RegistrationProvider';
 import RegistrationGeneralPage from './registration/RegistrationGeneralPage';
-import RegistrationTeamsAndQuizzersPage from './RegistrationTeamsAndQuizzersPage';
+import RegistrationTeamsAndQuizzersPage from './registration/RegistrationTeamsAndQuizzersPage';
 import RegistrationOfficialsPage from './registration/RegistrationOfficialsPage';
 import RegistrationFieldsPage from './registration/RegistrationFieldsPage';
 import RegistrationDivisionsPage from './registration/RegistrationDivisionsPage';

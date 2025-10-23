@@ -8,6 +8,7 @@ import type { Address } from "types/services/models/Address";
 import RichTextEditor from "components/RichTextEditor";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import RegistrationPageForm from "./RegistrationPageForm";
+import { set } from "date-fns";
 
 interface Props {
 }
@@ -40,7 +41,9 @@ export default function RegistrationGeneralPage({ }: Props) {
         setEventTitle,
         setEventType,
         general,
-        setGeneral } = useOutletContext<RegistrationProviderContext>();
+        setGeneral,
+        teamsAndQuizzers,
+        setTeamsAndQuizzers } = useOutletContext<RegistrationProviderContext>();
 
     const [name, setName] = useState(general?.name || "");
     const [description, setDescription] = useState(general?.description || "");
@@ -123,6 +126,16 @@ export default function RegistrationGeneralPage({ }: Props) {
                         onChange={e => {
                             setTypeId(e.target.value);
                             setEventType(e.target.value);
+
+                            const isJbq = e.target.value === "agjbq";
+
+                            setTeamsAndQuizzers({
+                                ...teamsAndQuizzers,
+                                minTeamMembers: isJbq ? 1 : 2,
+                                maxTeamMembers: isJbq ? 8 : 6,
+                                requireTeamCoaches: isJbq
+                            });
+
                             sharedDirtyWindowState.set(true);
                         }}
                         required
