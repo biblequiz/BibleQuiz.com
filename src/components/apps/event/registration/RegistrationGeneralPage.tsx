@@ -6,8 +6,6 @@ import districts from "data/districts.json";
 import AddressSelector from "../AddressSelector";
 import type { Address } from "types/services/models/Address";
 import RichTextEditor from "components/RichTextEditor";
-//import { set } from "date-fns";
-import Editor from 'react-simple-wysiwyg';
 
 interface Props {
 }
