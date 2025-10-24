@@ -254,8 +254,8 @@ td.current-question-bottom {
 
 /* Styles for the table of contents */
 details.tocDetails {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
 }
 
 summary.tocSummary {
@@ -316,4 +316,9 @@ h1.page-title {
 .event-title-text {
     flex-grow: 1;
     /* Allow the text to take up remaining space */
+}
+
+/* Rich Text Editor adjustments */
+button.rsw-btn,select.rsw-dd {
+    margin-top: 0px;
 }

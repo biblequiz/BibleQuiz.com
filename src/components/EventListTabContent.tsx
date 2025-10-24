@@ -116,53 +116,63 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
         eventCount++;
 
         return (
-            <tr key={`eventrow_${event.id}`}>
-                <td>
+            <div key={`eventrow_${event.id}`}>
+                <div>
                     <EventScopeBadge scope={event.scope} label={event.scopeLabel ?? ""} />
-                    <div className="m-0 flex">
-                        {isLiveEvent && <div className="badge badge-primary mr-2">LIVE</div>}
-                        <p className="text-lg font-bold m-0">{event.name}</p>
+                    <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full">
+                        <div className="flex-1 min-w-0">
+                            <div className="m-0 flex items-center">
+                                {isLiveEvent && <div className="badge badge-primary mr-2">LIVE</div>}
+                                <p className="text-lg font-bold m-0 truncate">{event.name}</p>
+                            </div>
+                            {locationLabel && <p className="text-gray-500 italic m-0">{locationLabel}</p>}
+                        </div>
+                        <div className="text-sm text-gray-500 italic md:mx-4 md:text-right whitespace-nowrap">
+                            {event.dates}
+                        </div>
+                        <div className="flex-shrink-0 mt-2 md:mt-0 flex gap-2">
+                            {showRegistration && (
+                                <a
+                                    className="btn btn-secondary btn-sm"
+                                    href={`https://registration.biblequiz.com/#/Registration/${event.id}`}>
+                                    <FontAwesomeIcon icon="fas faPenToSquare" />&nbsp;Register
+                                </a>
+                            )}
+                            {showScores && (
+                                <a
+                                    className="btn btn-primary btn-sm"
+                                    href={`/${type}/seasons/${event.season}/${urlSlug}`}>
+                                    <FontAwesomeIcon icon="fas faSquarePollVertical" />&nbsp;Scores
+                                </a>
+                            )}
+                        </div>
                     </div>
-                    {locationLabel && <p className="text-gray-500 italic m-0">{locationLabel}</p>}
-                </td>
-                <td className="text-right">{event.dates}</td>
-                <td className="text-right">
-                    {showRegistration &&
-                        <a
-                            className="btn btn-secondary btn-sm mr-2"
-                            href={`https://registration.biblequiz.com/#/Registration/${event.id}`}>
-                            <FontAwesomeIcon icon="fas faPenToSquare" />&nbsp;Register
-                        </a>}
-                    {showScores && (
-                        <a
-                            className="btn btn-primary btn-sm m-0"
-                            href={`/${type}/seasons/${event.season}/${urlSlug}`}>
-                            <FontAwesomeIcon icon="fas faSquarePollVertical" />&nbsp;Scores
-                        </a>)}
-                </td>
-            </tr>);
+                </div>
+            </div>);
     });
 
     document.getElementById(badgeId)!.innerText = eventCount.toString();
 
     return (
-        <table className="table table-s table-nowrap">
-            <thead>
-                <tr>
-                    <th>Event</th>
-                    <th className="text-right">Date(s)</th>
-                    <th>&nbsp;</th>
-                </tr>
-            </thead>
-            <tbody>
-                {eventRows}
-                {eventCount === 0 && (
-                    <tr>
-                        <td colSpan={3} className="text-center italic">
+        <div className="space-y-4">
+                <div>
+                    <div>
+                        <div className="flex flex-row items-center w-full mb-2">
+                            <div className="flex-1 min-w-0 font-semibold ">
+                                Event
+                            </div>
+                            <div className="font-semibold min-w-0 text-right whitespace-nowrap flex-shrink-0" style={{ minWidth: 80 }}>
+                                Dates
+                            </div>
+                        </div>
+                        <hr className="my-2 border-t border-gray-300" />
+                        {eventRows}
+                        {eventCount === 0 && (
+                        <div className="text-center italic py-4">
                             No events found matching the current filters.
-                        </td>
-                    </tr>
-                )}
-            </tbody>
-        </table>);
+                        </div>
+                        )}
+                    </div>
+                </div>
+        </div>);
 }
