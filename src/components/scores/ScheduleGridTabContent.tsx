@@ -88,13 +88,16 @@ export default function ScheduleGridTabContent({
                         : teamId as ScoringReportTeam;
 
                     let highlightColor: string = "";
+                    let highlightTextColor: string = "";
                     if (!isPrinting) {
                         const isFavorite = favorites?.teamIds.has(team.Id) ?? false;
                         if (eventFilters?.highlightTeamId === team.Id) {
                             highlightColor = "bg-yellow-200";
+                            highlightTextColor = "text-accent-content";
                         }
                         else if (isFavorite) {
-                            highlightColor = "bg-green-600";
+                            highlightColor = "bg-accent-300";
+                            highlightTextColor = "text-acceent-content";
                         }
 
                         if (showOnlyFavorites && !isFavorite) {
@@ -108,7 +111,7 @@ export default function ScheduleGridTabContent({
                         <tr
                             key={`${key}_teams_${teamIndex}`}
                             id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
-                            className={`hover:bg-base-300 ${highlightColor}`}>
+                            className={`hover:bg-base-300 ${highlightColor} ${highlightTextColor}`}>
                             {hasRankedTeams && (
                                 <td className="text-right">
                                     {team.Scores!.Rank}{team.Scores!.IsTie ? '*' : ''}
