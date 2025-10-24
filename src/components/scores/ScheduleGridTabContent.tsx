@@ -97,7 +97,7 @@ export default function ScheduleGridTabContent({
                         }
                         else if (isFavorite) {
                             highlightColor = "bg-accent-300";
-                            highlightTextColor = "text-acceent-content";
+                            highlightTextColor = "text-accent-content";
                         }
 
                         if (showOnlyFavorites && !isFavorite) {
