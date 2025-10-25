@@ -6,6 +6,7 @@ import type { RegistrationGeneralInfo } from "./registration/RegistrationGeneral
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import type { RegistrationTeamsAndQuizzersInfo } from "./registration/RegistrationTeamsAndQuizzersPage";
 import type { RegistrationOfficialsAndAttendeesInfo } from "./registration/RegistrationOfficialsPage";
+import type { EventField } from "types/services/EventsService";
 
 interface Props {
 }
@@ -26,6 +27,9 @@ export interface RegistrationProviderContext {
 
     officialsAndAttendees: RegistrationOfficialsAndAttendeesInfo;
     setOfficialsAndAttendees: (updated: RegistrationOfficialsAndAttendeesInfo) => void;
+
+    fields: EventField[];
+    setFields: (updated: EventField[]) => void;
 }
 
 const normalizeDate = (date: string | null): string | null => {
@@ -76,6 +80,8 @@ export default function RegistrationProvider({ }: Props) {
         allowAttendees: info?.AllowAttendees || false,
     }));
 
+    const [fields, setFields] = useState<EventField[]>(info?.Fields || []);
+
     const saveRegistration =
         () => {
             alert("Save registration called");
@@ -99,7 +105,10 @@ export default function RegistrationProvider({ }: Props) {
                 setTeamsAndQuizzers: setTeamsAndQuizzers,
 
                 officialsAndAttendees: officialsAndAttendees,
-                setOfficialsAndAttendees: setOfficialsAndAttendees
+                setOfficialsAndAttendees: setOfficialsAndAttendees,
+
+                fields: fields,
+                setFields: setFields,
             } as RegistrationProviderContext} />
         </div>);
 }
