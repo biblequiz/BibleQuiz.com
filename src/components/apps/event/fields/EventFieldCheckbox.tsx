@@ -19,6 +19,7 @@ export default function EventFieldCheckbox({
 
     const checkbox = (<input
         type="checkbox"
+        className="checkbox checkbox-sm checkbox-info"
         name={`${controlNamePrefix}${field.Label}`}
         disabled={isDisabled}
         checked={value === "1"}
@@ -27,7 +28,7 @@ export default function EventFieldCheckbox({
     />);
 
     const isHtmlCaption = EventFieldControlType.HtmlCheckbox == field.ControlType;
-    let captionHtml = field.Caption?.trim();
+    let captionHtml = field.Caption?.trim() ?? "";
     if (isHtmlCaption &&
         captionHtml?.length > 0 &&
         '<' !== captionHtml.charAt(0)) {
@@ -38,18 +39,19 @@ export default function EventFieldCheckbox({
         <div className="w-full mt-0">
             <label className="label text-wrap">
                 {checkbox}
-                {isHtmlCaption && (
-                    <span>
-                        {field.Label.toUpperCase()}
-                    </span>)}
-                {isHtmlCaption && captionHtml && (<div dangerouslySetInnerHTML={{ __html: captionHtml }} />)}
-                {!isHtmlCaption && (
-                    <h6>
-                        <small>
-                            {captionHtml}
-                            {field.MaxCount != null && ` (Max ${field.MaxCount})`}
-                        </small>
-                    </h6>)}
+                <span className="text-base-content">
+                    {isHtmlCaption ? field.Label.toUpperCase() : field.Label}
+                </span>
             </label>
+            {isHtmlCaption && captionHtml && (
+                <div
+                    className="mt-0 font-bold text-base-content text-xs"
+                    dangerouslySetInnerHTML={{ __html: captionHtml }} />)}
+            {!isHtmlCaption && (
+                <div
+                    className="mt-0 font-bold text-base-content text-xs"
+                >
+                    {captionHtml}
+                </div>)}
         </div>);
 }

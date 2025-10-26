@@ -27,7 +27,7 @@ export default function EventFieldRadioButton({
 
     const control = (
         <>
-            {field.Values.map(fieldValue => {
+            {field.Values!.map(fieldValue => {
                 return (
                     <label className="label text-wrap">
                         <input
@@ -46,7 +46,7 @@ export default function EventFieldRadioButton({
             })}
         </>);
 
-    if (field.Caption?.length > 0) {
+    if (field.Caption?.length ?? 0 > 0) {
         return (
             <div>
                 {control}

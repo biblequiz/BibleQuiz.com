@@ -1,4 +1,4 @@
-import { useState, type JSX, type ReactNode } from "react";
+import { useState } from "react";
 import { EventFieldControlType, type EventField } from "types/services/EventsService";
 import EventFieldCheckbox from "./EventFieldCheckbox";
 import EventFieldDropdownList from "./EventFieldDropdownList";
@@ -41,9 +41,6 @@ export default function EventFieldControl({
     };
 
     // Configure the control per data type.
-    let control: JSX.Element | null = null;
-    let innerControl: JSX.Element | null = null;
-    let ignoreCaption: boolean = false;
     switch (field.ControlType) {
 
         case EventFieldControlType.Checkbox:
@@ -114,9 +111,8 @@ export default function EventFieldControl({
                     isDisabled={isDisabled}
                     controlNamePrefix={controlNamePrefix}
                 />);
-            break;
 
         default:
-            throw Error("Not Implemented (Control Type): " + field.ControlType);
+            throw Error(`Not Implemented (Control Type): ${field.ControlType}`);
     }
 }

@@ -13,7 +13,6 @@ export default function EventFieldMultiItemCheckbox({
     field,
     value,
     setValue,
-    isExampleOnly,
     isDisabled = false,
     controlNamePrefix = "" }: Props) {
 
@@ -40,7 +39,7 @@ export default function EventFieldMultiItemCheckbox({
 
     const control = (
         <>
-            {field.Values.map(fieldValue => {
+            {field.Values!.map(fieldValue => {
                 const isChecked = checkedItems.has(fieldValue);
                 return (
                     <label className="label text-wrap">
@@ -60,7 +59,7 @@ export default function EventFieldMultiItemCheckbox({
             })}
         </>);
 
-    if (field.Caption?.length > 0) {
+    if (field.Caption?.length ?? 0 > 0) {
         return (
             <div>
                 {control}

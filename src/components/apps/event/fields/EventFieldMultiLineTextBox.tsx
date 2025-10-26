@@ -19,6 +19,7 @@ export default function EventFieldMultiLineTextBox({
 
     const control = (
         <textarea
+            className="textarea w-full"
             rows={3}
             name={`${controlNamePrefix}${field.Label}`}
             maxLength={4000}
@@ -28,16 +29,13 @@ export default function EventFieldMultiLineTextBox({
             onChange={e => setValue(e.target.value)}
         />);
 
-    if (field.Caption?.length > 0) {
+    if (field.Caption?.length ?? 0 > 0) {
         return (
             <div>
                 {control}
-                <h6>
-                    <small>
-                        {field.Caption}
-                        {field.MaxCount != null && ` (Max ${field.MaxCount})`}
-                    </small>
-                </h6>
+                <div className="mt-0 font-bold text-xs">
+                    {field.Caption}
+                </div>
             </div>);
     }
 

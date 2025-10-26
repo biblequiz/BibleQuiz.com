@@ -850,12 +850,12 @@ export class EventField extends RemoteServiceModelBase<string> {
     /**
      * Gets or sets the caption for this field (if any).
      */
-    public Caption!: string;
+    public Caption!: string | null;
 
     /**
      * Gets or sets the values for this field.
      */
-    public Values!: string[];
+    public Values!: string[] | null;
 
     /**
      * Gets or sets a value indicating whether this field is required.
@@ -873,7 +873,7 @@ export class EventField extends RemoteServiceModelBase<string> {
     public MaxNumberValue!: number | null;
 
     /**
-     * Gets or sets the maximum number of items for the field is a list.
+     * Gets or sets the maximum number of items if the field is a list.
      */
     public MaxCount!: number | null;
 

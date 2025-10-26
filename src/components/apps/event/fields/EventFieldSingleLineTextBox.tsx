@@ -27,8 +27,8 @@ export default function EventFieldSingleLineTextBox({
             break;
         case EventFieldDataType.Number:
             type = "number";
-            min = field.MinNumberValue ?? undefined;
-            max = field.MaxNumberValue ?? undefined;
+            min = field.MinNumberValue ?? -2_147_483_648;
+            max = field.MaxNumberValue ?? 2_147_483_647;
             break;
         case EventFieldDataType.Text:
             maxLength = 60;
@@ -40,6 +40,7 @@ export default function EventFieldSingleLineTextBox({
     const control = (
         <input
             type={type}
+            className="input w-full"
             min={min}
             max={max}
             maxLength={maxLength}
@@ -49,19 +50,16 @@ export default function EventFieldSingleLineTextBox({
             disabled={isDisabled}
             required={field.IsRequired && !isExampleOnly}
             value={value}
-            onChange={e=>setValue(e.target.value)}
+            onChange={e => setValue(e.target.value)}
         />);
 
-    if (field.Caption?.length > 0) {
+    if (field.Caption?.length ?? 0 > 0) {
         return (
             <div>
                 {control}
-                <h6>
-                    <small>
-                        {field.Caption}
-                        {field.MaxCount != null && ` (Max ${field.MaxCount})`}
-                    </small>
-                </h6>
+                <div className="mt-0 font-bold text-xs">
+                    {field.Caption}
+                </div>
             </div>);
     }
 
