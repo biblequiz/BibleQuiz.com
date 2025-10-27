@@ -26,16 +26,17 @@ export default function EventFieldRadioButton({
     };
 
     const control = (
-        <>
+        <div className="flex gap-2">
             {field.Values!.map(fieldValue => {
                 return (
-                    <label className="label text-wrap">
+                    <label key={`${field.Id}_${field.Label}_${fieldValue}`} className="label text-wrap mt-0">
                         <input
                             type="radio"
-                            name={`${controlNamePrefix}${field.Label}`}
-                            className="radio radio-info"
+                            name={`${controlNamePrefix}${field.Label ?? "NoLabel"}`}
+                            className="radio radio-info radio-sm"
                             disabled={isDisabled}
                             checked={fieldValue == value}
+                            value={fieldValue}
                             required={field.IsRequired && !isExampleOnly}
                             onChange={handleChange}
                         />
@@ -44,18 +45,17 @@ export default function EventFieldRadioButton({
                         </span>
                     </label>);
             })}
-        </>);
+        </div>);
 
     if (field.Caption?.length ?? 0 > 0) {
         return (
             <div>
                 {control}
-                <h6>
-                    <small>
-                        {field.Caption}
-                        {field.MaxCount != null && ` (Max ${field.MaxCount})`}
-                    </small>
-                </h6>
+                <div
+                    className="mt-1 font-bold text-base-content text-xs"
+                >
+                    {field.Caption}
+                </div>
             </div>);
     }
 

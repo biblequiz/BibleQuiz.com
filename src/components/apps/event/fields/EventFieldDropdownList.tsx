@@ -67,12 +67,11 @@ export default function EventFieldDropdownList({
         return (
             <div>
                 {control}
-                <h6>
-                    <small>
-                        {field.Caption}
-                        {field.MaxCount != null && ` (Max ${field.MaxCount})`}
-                    </small>
-                </h6>
+                <div
+                    className="mt-0 font-bold text-base-content text-xs"
+                >
+                    {field.Caption}
+                </div>
             </div>);
     }
 

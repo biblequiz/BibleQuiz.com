@@ -17,7 +17,7 @@ export default function RegistrationFieldsPage({ }: Props) {
         setFields } = useOutletContext<RegistrationProviderContext>();
 
     const [eventFields, setEventFields] = useState<EventField[]>(fields);
-    const [textField, setTextField] = useState<string>("");
+    const [textField, setTextField] = useState<string>("0");
     const [numberField, setNumberField] = useState<string>("1");
     const [dateField, setDateField] = useState<string>("");
 
@@ -40,17 +40,17 @@ export default function RegistrationFieldsPage({ }: Props) {
                     <EventFieldControl
                         field={{
                             Id: "example1",
-                            ControlType: EventFieldControlType.Checkbox,
-                            DataType: EventFieldDataType.Boolean,
+                            ControlType: EventFieldControlType.RadioButton,
+                            DataType: EventFieldDataType.Text,
                             IsRequired: true,
                             Label: "My Text Field",
-                            Caption: "My caption",
+                            Caption: null,
                             Visibility: EventFieldVisibility.ReadWrite,
                             Scopes: EventFieldScopes.Coach,
-                            Values: null,
+                            Values: ["0", "1", "2", "3"],
                             MinNumberValue: null,
                             MaxNumberValue: null,
-                            MaxCount: null,
+                            MaxCount: 2,
                             PaymentIfSelected: null,
                             PaymentScopes: null,
                             PaymentUnselectValue: null,
