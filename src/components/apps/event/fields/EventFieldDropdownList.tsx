@@ -65,7 +65,7 @@ export default function EventFieldDropdownList({
 
     if (field.Caption?.length ?? 0 > 0) {
         return (
-            <div>
+            <div className="flex-1">
                 {control}
                 <div
                     className="mt-0 font-bold text-base-content text-xs"
