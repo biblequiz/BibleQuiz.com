@@ -1,0 +1,4817 @@
+{
+  "EventName": "STX San Antonio Scrimmage",
+  "DatabaseNames": {
+    "6ef7720a-9a40-44a8-ab09-d3be69a866b1": "Scrimmage_25_26"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "6ef7720a-9a40-44a8-ab09-d3be69a866b1",
+        "MeetId": 4,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "SA Scrimmage - A",
+        "LastUpdated": "11/1/25 5:59 PM",
+        "DatabaseLastUpdated": "2025-10-26T05:06:31.083754+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Freddy Silva",
+            "Quizzers": [
+              0,
+              4,
+              13,
+              37
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 205,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_21",
+            "Name": "Avengers Freedom",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 695,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 115.8,
+              "AverageCorrect": 7.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 15,
+              "Correct20s": 22,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Priscilla Minchin",
+            "Quizzers": [
+              8,
+              17,
+              28,
+              45
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_23",
+            "Name": "Avengers Joy",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 660,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 110.0,
+              "AverageCorrect": 8.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 33,
+              "Correct20s": 19,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jason Andrews",
+            "Quizzers": [
+              25,
+              26,
+              36,
+              41
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 9
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_22",
+            "Name": "Avengers Republic",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 930,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 155.0,
+              "AverageCorrect": 12.2,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 45,
+              "Correct20s": 24,
+              "Correct30s": 4,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Erasmus Quaye",
+            "Quizzers": [
+              2,
+              10,
+              14,
+              35,
+              43
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_30",
+            "Name": "Bethel Eagles",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 535,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 89.2,
+              "AverageCorrect": 7.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 31,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "CoachName": "Blessing Maduka",
+            "Quizzers": [
+              11,
+              27,
+              30,
+              32,
+              38,
+              39
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 6
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_29",
+            "Name": "Bethel Lions",
+            "ChurchName": "Bethel Convenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.7,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 30,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "CoachName": "Anita Omo-Okhuasuyi",
+            "Quizzers": [
+              7,
+              9,
+              19,
+              21,
+              29
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_28",
+            "Name": "Bethel Praise",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 815,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 135.8,
+              "AverageCorrect": 10.3,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 39,
+              "Correct20s": 17,
+              "Correct30s": 6,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Glori Ann Ried",
+            "Quizzers": [
+              5,
+              12,
+              18,
+              31,
+              44
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_11",
+            "Name": "Friendship",
+            "ChurchName": "Friendship Church",
+            "City": "Richmond",
+            "State": "TX",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.8,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 10,
+              "Correct20s": 6,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Josh Talltree",
+            "Quizzers": [
+              6,
+              15,
+              22,
+              23,
+              40
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 8
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_3",
+            "Name": "Gospel Wizards",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 220,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.7,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 13,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Elizabeth Olaoye",
+            "Quizzers": [
+              3,
+              16,
+              24,
+              33
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 7
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_4",
+            "Name": "The 4 Gospel Slays",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 360,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 60.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 12,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Tomasita Jaramillo",
+            "Quizzers": [
+              1,
+              20,
+              34,
+              42
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_5",
+            "Name": "Thunderdogs",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          2,
+          5,
+          1,
+          0,
+          3,
+          4,
+          8,
+          9,
+          6,
+          7
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Avengers Freedom",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_184",
+            "Name": "Abigail Amadasun",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Thunderdogs",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_39",
+            "Name": "Abigail Taylor",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 32,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Eagles",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_264",
+            "Name": "Adesuwa Obanor",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": true,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 0,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The 4 Gospel Slays",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_30",
+            "Name": "Angel Olaoye",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 46.7,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 3,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Freedom",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_185",
+            "Name": "Ariam Alay",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 24,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Friendship",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_95",
+            "Name": "Asher Lefler",
+            "ChurchName": "Friendship Church",
+            "City": "Richmond",
+            "State": "TX",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Gospel Wizards",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_24",
+            "Name": "Caleb Sepulveda",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 3,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Praise",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_249",
+            "Name": "Cayden Mbachu",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Joy",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_200",
+            "Name": "Charlotte Minchin",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": true,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 9,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Praise",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_246",
+            "Name": "Daniel Fakorede",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.8,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 9,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Eagles",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_267",
+            "Name": "Daniel Quaye",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.2,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Lions",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_256",
+            "Name": "David Quaye",
+            "ChurchName": "Bethel Convenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.7,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 12,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Friendship",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_94",
+            "Name": "David Ukpong",
+            "ChurchName": "Friendship Church",
+            "City": "Richmond",
+            "State": "TX",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.7,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 5,
+              "Correct20s": 3,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Freedom",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_182",
+            "Name": "Eli Silva",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 390,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 5,
+              "Correct20s": 8,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Eagles",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_265",
+            "Name": "Esther Awolusi",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 32,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Gospel Wizards",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_23",
+            "Name": "Georgia Baughman",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 30,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The 4 Gospel Slays",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_31",
+            "Name": "Hannah Gonzalez",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 43,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Joy",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_202",
+            "Name": "Hosanna Habte",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 380,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.3,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 18,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Friendship",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_96",
+            "Name": "Isaac Lefler",
+            "ChurchName": "Friendship Church",
+            "City": "Richmond",
+            "State": "TX",
+            "Scores": {
+              "Rank": 43,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Praise",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_245",
+            "Name": "Israel Ajayi",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 485,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.8,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 28,
+              "Correct20s": 4,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Thunderdogs",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_41",
+            "Name": "Jackie Solis",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 32,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Praise",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_247",
+            "Name": "Jaya Mull",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 32,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Gospel Wizards",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_22",
+            "Name": "Jayden Talltree",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 5,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Gospel Wizards",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_20",
+            "Name": "John Solis",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 32,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The 4 Gospel Slays",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_29",
+            "Name": "Jordin Talltree",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.2,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Republic",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_192",
+            "Name": "Joshua Sossa",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 525,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 87.5,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 19,
+              "Correct20s": 17,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Republic",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_191",
+            "Name": "Kairos Rios",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 300,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 14,
+              "Correct20s": 7,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Lions",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_257",
+            "Name": "Kelsie Tata",
+            "ChurchName": "Bethel Convenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 32,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Joy",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_203",
+            "Name": "Lexi Garcia",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.3,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 23,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Praise",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_248",
+            "Name": "Lizette Gakuu",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 43,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 25,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Lions",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_255",
+            "Name": "Lolu Bamiro",
+            "ChurchName": "Bethel Convenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 31.7,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 16,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Friendship",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_97",
+            "Name": "Luke Lefler",
+            "ChurchName": "Friendship Church",
+            "City": "Richmond",
+            "State": "TX",
+            "Scores": {
+              "Rank": 32,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Lions",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_259",
+            "Name": "Maya-Rose Lekeaka",
+            "ChurchName": "Bethel Convenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 32,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The 4 Gospel Slays",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_32",
+            "Name": "Mayeli Salinas",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 32,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Thunderdogs",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_40",
+            "Name": "Natalee Tervo",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Eagles",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_266",
+            "Name": "Oluwaferanmi Adigun",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 30,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Republic",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_194",
+            "Name": "Rehoboth Mehari",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Freedom",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_183",
+            "Name": "Ryan Andrews",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 240,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 2,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Lions",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_254",
+            "Name": "Sarah Omo-Okhuasuyi",
+            "ChurchName": "Bethel Convenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Lions",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_258",
+            "Name": "Sundelive Kadiosha",
+            "ChurchName": "Bethel Convenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 32,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Gospel Wizards",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_21",
+            "Name": "Tobias Marroquin",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": true,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Republic",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_193",
+            "Name": "Trey Recendez",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Thunderdogs",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_38",
+            "Name": "Trinity Marroquin",
+            "ChurchName": "Life Church",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 43,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Eagles",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_263",
+            "Name": "Uyiosa Edegbe",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 360,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 60.0,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 20,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Friendship",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_92",
+            "Name": "Wesley Clifton",
+            "ChurchName": "Friendship Church",
+            "City": "Richmond",
+            "State": "TX",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Joy",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_201",
+            "Name": "Willow McKee",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 32,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          25,
+          19,
+          13,
+          17,
+          43,
+          26,
+          3,
+          9,
+          37,
+          28,
+          30,
+          11,
+          12,
+          22,
+          5,
+          6,
+          10,
+          24,
+          34,
+          8,
+          2,
+          36,
+          7,
+          4,
+          44,
+          41,
+          38,
+          40,
+          0,
+          15,
+          35,
+          1,
+          14,
+          20,
+          21,
+          23,
+          27,
+          31,
+          32,
+          33,
+          39,
+          45,
+          18,
+          29,
+          16,
+          42
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 8,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 9,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 8,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 9,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 9,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 8,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 9,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "5",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 9,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 8,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "6ef7720a-9a40-44a8-ab09-d3be69a866b1",
+        "MeetId": 5,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "SA Scrimmage - PW",
+        "LastUpdated": "11/1/25 5:59 PM",
+        "DatabaseLastUpdated": "2025-10-26T05:06:31.083754+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Hannah Silva",
+            "Quizzers": [
+              3,
+              5,
+              8,
+              22,
+              23
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_18",
+            "Name": "Avengers Love",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 505,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 101.0,
+              "AverageCorrect": 8.4,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 35,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Rendy Koleber",
+            "Quizzers": [
+              2,
+              4,
+              11,
+              12,
+              19,
+              27
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_19",
+            "Name": "Avengers Peace",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 545,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 109.0,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 34,
+              "Correct20s": 11,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Grace Obanor",
+            "Quizzers": [
+              7,
+              9,
+              14,
+              15,
+              16,
+              18,
+              20,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_27",
+            "Name": "Bethel Angels",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 320,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 64.0,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 32,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Amarachi Ogu",
+            "Quizzers": [
+              1,
+              6,
+              10,
+              13,
+              24,
+              25
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_26",
+            "Name": "Bethel Warriors",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 405,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 81.0,
+              "AverageCorrect": 8.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 31,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Dawn Clifton",
+            "Quizzers": [
+              0,
+              17,
+              26
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 3
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_12",
+            "Name": "Friendship PW",
+            "ChurchName": "Friendship",
+            "City": "Richmond",
+            "State": "TX",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.2,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          3,
+          0,
+          2,
+          4
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Friendship PW",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_101",
+            "Name": "Abby Clifton",
+            "ChurchName": "Friendship",
+            "City": "Richmond",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.2,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_227",
+            "Name": "Adaeze Ogu",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 34.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 7,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Peace",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_167",
+            "Name": "Adeleine Minchin",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Love",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_158",
+            "Name": "Amen Huluf",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 315,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 29,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Peace",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_166",
+            "Name": "Anaiah Alay",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Love",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_159",
+            "Name": "Ariel Yosief",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_230",
+            "Name": "Cadence Simmons",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Angels",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_236",
+            "Name": "Caleb Nwaneshiudu",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 3,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Love",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_157",
+            "Name": "Carter Canak",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Angels",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_242",
+            "Name": "Chistina Simmons",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_229",
+            "Name": "Dorcas-Rose Ajayi",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Peace",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_169",
+            "Name": "Elia Rios",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Peace",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_165",
+            "Name": "Enam Sossa",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 22,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_231",
+            "Name": "Esosa Edegbe",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Angels",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_240",
+            "Name": "Esosa Obanor",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 55,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Angels",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_238",
+            "Name": "Fara Bamiro",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Angels",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_241",
+            "Name": "Gabriel Awolusi",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Friendship PW",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_102",
+            "Name": "Joanna Blanchard",
+            "ChurchName": "Friendship",
+            "City": "Richmond",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Angels",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_237",
+            "Name": "Joshua Omo-Okhuasuyi",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Peace",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_164",
+            "Name": "Josiah Kohleber",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 11,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Angels",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_243",
+            "Name": "Josiah Olademehim",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 31.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 20,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Angels",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_239",
+            "Name": "Kenzie Willis",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Love",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_156",
+            "Name": "Liliana Silva",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 9.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Love",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_155",
+            "Name": "Madalyn Andrews",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_228",
+            "Name": "Mirabel Nwaneshiudu",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 64,
+              "Correct10s": 12,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_232",
+            "Name": "Oluwafifunmi Adigun",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 65,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.0,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Friendship PW",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_103",
+            "Name": "Quizzer-3",
+            "ChurchName": "Friendship",
+            "City": "Richmond",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Peace",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_168",
+            "Name": "Sofia Silva",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          3,
+          12,
+          27,
+          1,
+          20,
+          23,
+          24,
+          19,
+          7,
+          25,
+          0,
+          22,
+          9,
+          13,
+          14,
+          4,
+          2,
+          6,
+          8,
+          10,
+          15,
+          16,
+          17,
+          18,
+          21,
+          26,
+          5,
+          11
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "6ef7720a-9a40-44a8-ab09-d3be69a866b1",
+        "MeetId": 6,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "SA Scrimmage - AA",
+        "LastUpdated": "11/1/25 5:59 PM",
+        "DatabaseLastUpdated": "2025-10-26T05:06:31.083754+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Michael Koleber",
+            "Quizzers": [
+              0,
+              1,
+              5,
+              18
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -20,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_25",
+            "Name": "Avengers Alliance",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 355,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 71.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 16,
+              "Correct20s": 12,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Sanjay Devadoss",
+            "Quizzers": [
+              4,
+              7,
+              11,
+              20
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 260,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_24",
+            "Name": "Avengers Justice",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 935,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 187.0,
+              "AverageCorrect": 12.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 26,
+              "Correct20s": 22,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Ifyanyi Maduka",
+            "Quizzers": [
+              12,
+              13,
+              16,
+              17,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 4
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_33",
+            "Name": "Bethel Conquerors",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 365,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.0,
+              "AverageCorrect": 6.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 22,
+              "Correct20s": 9,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Nnenna Anowo",
+            "Quizzers": [
+              8,
+              9,
+              14,
+              19,
+              22
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 245,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 0
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_31",
+            "Name": "Bethel Fire",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 755,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 188.8,
+              "AverageCorrect": 13.5,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 29,
+              "Correct20s": 17,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Kolade Ajayi",
+            "Quizzers": [
+              2,
+              3,
+              6,
+              10,
+              15
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ef7720a-9a40-44a8-ab09-d3be69a866b1_32",
+            "Name": "Bethel Worshippers",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 420,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 84.0,
+              "AverageCorrect": 8.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 59,
+              "Correct10s": 25,
+              "Correct20s": 14,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          3,
+          1,
+          2,
+          4,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Avengers Alliance",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_221",
+            "Name": "Alaina Koleber",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Alliance",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_218",
+            "Name": "Azaria Alay",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Worshippers",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_282",
+            "Name": "Chinedum Anowo",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 59,
+              "Correct10s": 5,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Worshippers",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_281",
+            "Name": "Dade Bamiro",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 52,
+              "Correct10s": 12,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Justice",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_212",
+            "Name": "Daniel Habte",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Alliance",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_220",
+            "Name": "Danielle Keller",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 0,
+              "Correct20s": 10,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Worshippers",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_283",
+            "Name": "David Omo-Okhuasuyi",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Justice",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_209",
+            "Name": "Ellie Guntle",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 185,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.0,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 22,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Fire",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_273",
+            "Name": "Emmanuel Aniemeke",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.5,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 15,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Fire",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_272",
+            "Name": "Enoque Francisco",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 56,
+              "Correct10s": 0,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Worshippers",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_284",
+            "Name": "Ethan Gakuu",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.0,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 54,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Justice",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_210",
+            "Name": "Isaiah Koleber",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 0,
+              "Correct20s": 15,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_291",
+            "Name": "Ivie Edegbe",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 0,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_290",
+            "Name": "Lillian Ajayi",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 31.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 11,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Fire",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_274",
+            "Name": "Michael Maduka",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.5,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 0,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Worshippers",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_285",
+            "Name": "Michelle Muhia",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_294",
+            "Name": "Monea Olayande",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 120,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 24.0,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 11,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_292",
+            "Name": "Nadia Quaye",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Avengers Alliance",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_219",
+            "Name": "Naomi Huluf",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 165,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 13,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Fire",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_275",
+            "Name": "Nnamdi Anowo",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.5,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 0,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Avengers Justice",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_211",
+            "Name": "Noah Minchin",
+            "ChurchName": "First AG",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 390,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 78.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 1,
+              "Correct20s": 7,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_293",
+            "Name": "Rachel Awolusi",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Fire",
+            "YearsQuizzing": null,
+            "Id": "q_6ef7720a-9a40-44a8-ab09-d3be69a866b1_276",
+            "Name": "Timothy Aniemeke",
+            "ChurchName": "Bethel Covenant",
+            "City": "San Antonio",
+            "State": "TX",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.2,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          22,
+          20,
+          11,
+          8,
+          7,
+          5,
+          18,
+          14,
+          13,
+          15,
+          2,
+          16,
+          4,
+          12,
+          19,
+          3,
+          9,
+          10,
+          6,
+          0,
+          1,
+          17,
+          21
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2025-11-01T17:59:23.4407913+00:00"
+}
