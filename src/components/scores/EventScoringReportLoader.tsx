@@ -17,7 +17,10 @@ interface Props {
 }
 
 function removeTabAndPanel(tabLinkElement: HTMLAnchorElement): void {
-    tabLinkElement.parentElement?.remove();
+    const style = tabLinkElement?.parentElement?.style;
+    if (style) {
+        style.display = "none";
+    }
 }
 
 export default function EventScoringReportLoader({ parentTabId, eventInfo, event }: Props) {

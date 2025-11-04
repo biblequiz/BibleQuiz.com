@@ -62,3 +62,17 @@ import EventScopeBadge from "./EventScopeBadge";
     )
 }
 
+<script>
+    import { PrintDialogModalId } from "./scores/PrintDialogContent";
+    const button: HTMLElement = document.getElementById(
+        `${PrintDialogModalId}-button`,
+    )!;
+
+    const title = button.closest("h1.page-title");
+    if (title && title.classList.contains("hide-on-print")) {
+        const ancestor = title.closest("div.content-panel");
+        if (ancestor) {
+            ancestor.classList.add("hide-on-print");
+        }
+    }
+</script>

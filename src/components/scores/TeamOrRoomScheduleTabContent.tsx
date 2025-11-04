@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { EventScoringReport, ScoringReportMeet, ScoringReportTeamMatch, ScoringReportRoom } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "utils/SharedState";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle, type MeetReference } from "utils/SharedState";
 import CollapsableMeetSection from "components/scores/CollapsableMeetSection";
 import type { ScoringReportRoomMatch, ScoringReportTeam } from 'types/EventScoringReport';
 import RoomDialogLink from './RoomDialogLink';
@@ -17,6 +17,7 @@ export interface Props {
     printSinglePerPage?: boolean;
     printStats?: boolean;
     schedulesTabId: string;
+    selectedMeets?: MeetReference[];
 };
 
 function ordinalWithSuffix(number: number): string {
@@ -43,7 +44,8 @@ export default function TeamOrRoomScheduleTabContent({
     isPrinting,
     printSinglePerPage,
     printStats,
-    schedulesTabId }: Props) {
+    schedulesTabId,
+    selectedMeets }: Props) {
 
     const scrollToViewElementId = `schedule_${type}_scroll_elem`;
 
@@ -73,6 +75,13 @@ export default function TeamOrRoomScheduleTabContent({
 
                 if (meet.IsCombinedReport) {
                     return null;
+                }
+                else if (selectedMeets && selectedMeets.length > 0) {
+                    const selectedMeetRef = selectedMeets.find(
+                        m => m.databaseId === meet.DatabaseId && m.meetId === meet.MeetId);
+                    if (!selectedMeetRef) {
+                        return null;
+                    }
                 }
 
                 const hasRanking = meet.RankedTeams && (!isPrinting || printStats);
@@ -280,22 +289,22 @@ export default function TeamOrRoomScheduleTabContent({
                             >
                                 {isScheduleOnly && (<>{cellHtml}</>)}
                                 {!isScheduleOnly && (
-                                        <RoomDialogLink
-                                            id={matchKey}
-                                            label={`Match ${resolvedMatch.Id} in ${match!.Room} @ ${resolvedMeet.Name}`}
-                                            eventId={eventId}
-                                            databaseId={resolvedMeet.DatabaseId}
-                                            meetId={resolvedMeet.MeetId}
-                                            matchId={resolvedMatch.Id}
-                                            roomId={match!.RoomId}>
-                                            {cellHtml}
-                                            {isLiveMatch && (
-                                                <>
-                                                    <br />
-                                                    <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match!.CurrentQuestion}
-                                                </>
-                                            )}
-                                        </RoomDialogLink>
+                                    <RoomDialogLink
+                                        id={matchKey}
+                                        label={`Match ${resolvedMatch.Id} in ${match!.Room} @ ${resolvedMeet.Name}`}
+                                        eventId={eventId}
+                                        databaseId={resolvedMeet.DatabaseId}
+                                        meetId={resolvedMeet.MeetId}
+                                        matchId={resolvedMatch.Id}
+                                        roomId={match!.RoomId}>
+                                        {cellHtml}
+                                        {isLiveMatch && (
+                                            <>
+                                                <br />
+                                                <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match!.CurrentQuestion}
+                                            </>
+                                        )}
+                                    </RoomDialogLink>
                                 )}
                             </li>
                         );

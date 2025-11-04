@@ -1,5 +1,5 @@
 import { EventScoringReport, ScoringReportMeet } from "types/EventScoringReport";
-import { StatsFormat } from "utils/SharedState";
+import { StatsFormat, type MeetReference } from "utils/SharedState";
 
 export function formatLastUpdated(meet: ScoringReportMeet): string {
     const lastUpdatedDate = new Date(meet.LastUpdated);
@@ -19,4 +19,5 @@ export interface EventScoresProps {
     isPrinting?: boolean;
     printingStatsFormat?: StatsFormat;
     parentTabId?: string;
+    selectedMeets?: MeetReference[];
 };
