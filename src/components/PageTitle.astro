@@ -68,11 +68,13 @@ import EventScopeBadge from "./EventScopeBadge";
         `${PrintDialogModalId}-button`,
     )!;
 
-    const title = button.closest("h1.page-title");
-    if (title && title.classList.contains("hide-on-print")) {
-        const ancestor = title.closest("div.content-panel");
-        if (ancestor) {
-            ancestor.classList.add("hide-on-print");
+    if (button) {
+        const title = button.closest("h1.page-title");
+        if (title && title.classList.contains("hide-on-print")) {
+            const ancestor = title.closest("div.content-panel");
+            if (ancestor) {
+                ancestor.classList.add("hide-on-print");
+            }
         }
     }
 </script>
