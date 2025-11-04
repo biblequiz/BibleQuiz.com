@@ -106,7 +106,7 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
     let hasAnyResults = false;
 
     return (
-        <>
+        <div className="hide-on-print">
             <div className="flex w-full">
                 <label className="input w-full mt-0 mb-4">
                     <FontAwesomeIcon icon="fas faSearch" classNames={["h-[1em]", "opacity-50"]} />
@@ -214,5 +214,5 @@ export default function EventScoringReportSearch({ parentTabId }: Props) {
                         the&nbsp;<FontAwesomeIcon icon="fas faStar" />&nbsp;button in the top-right.
                     </span>
                 </div>)}
-        </>);
+        </div>);
 };

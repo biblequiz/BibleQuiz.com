@@ -31,7 +31,8 @@ export default function StatsTabContent({
     event,
     isPrinting,
     printingStatsFormat,
-    parentTabId }: EventScoresProps) {
+    parentTabId,
+    selectedMeets }: EventScoresProps) {
 
     const scrollToViewElementId = `stats_tab_scroll_elem`;
 
@@ -58,6 +59,14 @@ export default function StatsTabContent({
     return (
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
+                
+                if (selectedMeets && selectedMeets.length > 0) {
+                    const selectedMeetRef = selectedMeets.find(
+                        m => m.databaseId === meet.DatabaseId && m.meetId === meet.MeetId);
+                    if (!selectedMeetRef) {
+                        return null;
+                    }
+                }
 
                 let hasTeamTie = false;
                 let hasQuizzerTie = false;
