@@ -6,10 +6,9 @@ interface Props {
 }
 
 export default function EventFieldCard({ field }: Props) {
-    console.log(field.ControlType);
     return (
         <div
-            className="card live-events-card w-96 card-sm shadow-sm border-2 border-solid mt-0 relative"
+            className="card live-events-card w-84 card-sm shadow-sm border-2 border-solid mt-0 relative"
         >
             <div className="card-body">
                 <div className="flex items-start gap-4">
