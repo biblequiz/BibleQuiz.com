@@ -1,8 +1,8 @@
 {
   "EventName": "Pen Florida Junior Bible Quiz League Registration",
   "DatabaseNames": {
-    "356d7e33-3f1c-417a-b424-75172fa33c0d": "North Central League",
     "c2b26284-182f-4431-b19a-a8329545cb07": "PF_Central_League_25-26",
+    "356d7e33-3f1c-417a-b424-75172fa33c0d": "PF_Northcentral_League_25-26",
     "3e5fae50-c396-4daf-afb5-525cbadea1b0": "PF_South_League_25-26",
     "549cd7a7-f5cd-45b9-8620-459922023002": "PF_Southwest_League_25-26",
     "82e0bbdf-1a72-464d-9052-7af8030b4c80": "PF_West_League_25-26",
@@ -8186,1606 +8186,6 @@
         "IsCombinedReport": true
       },
       {
-        "DatabaseId": "356d7e33-3f1c-417a-b424-75172fa33c0d",
-        "MeetId": 1,
-        "CombinedName": null,
-        "HasLinkedMeets": false,
-        "HasQuestionStats": false,
-        "Name": "Northcentral: October: Achiever Division",
-        "LastUpdated": "10/11/25 4:35 PM",
-        "DatabaseLastUpdated": "2025-10-06T20:54:47.8589848+00:00",
-        "CompetitionType": "JBQ",
-        "Teams": [
-          {
-            "CoachName": "Jacob Cullen",
-            "Quizzers": [
-              3,
-              19,
-              22,
-              27,
-              28
-            ],
-            "Matches": [
-              null,
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 55,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 65,
-                "OtherTeam": 5
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_e99f7b58-df62-473a-b214-22b368714cf0",
-            "Name": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
-            "ChurchName": "Oxford Assembly of God",
-            "City": "Oxford",
-            "State": "FL",
-            "Scores": {
-              "Wins": 1,
-              "Losses": 5,
-              "WinPercentage": 17,
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 330,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 55.0,
-              "AverageCorrect": 6.5,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 62,
-              "Correct10s": 35,
-              "Correct20s": 2,
-              "Correct30s": 2,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": "Donny Sisk",
-            "Quizzers": [
-              2,
-              6,
-              16,
-              17,
-              24
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 6
-              },
-              null,
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 95,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 4
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_f9d33eeb-6957-4d64-a586-c579e4b59153",
-            "Name": "LIFE Church Assembly of God (FP) Blue",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Wins": 3,
-              "Losses": 3,
-              "WinPercentage": 50,
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 445,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 74.2,
-              "AverageCorrect": 6.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 31,
-              "Correct20s": 0,
-              "Correct30s": 5,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": "Ron Loynes",
-            "Quizzers": [
-              7,
-              15,
-              21,
-              26
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 1
-              },
-              null,
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 35,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 120,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 55,
-                "OtherTeam": 3
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_000d39ee-4fc1-4456-aa58-2676210137e3",
-            "Name": "LIFE Church Assembly of God (FP) Green",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Wins": 1,
-              "Losses": 5,
-              "WinPercentage": 17,
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 340,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 56.7,
-              "AverageCorrect": 5.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 79,
-              "Correct10s": 21,
-              "Correct20s": 9,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": "Aaron Weiler",
-            "Quizzers": [
-              1,
-              4,
-              20
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 290,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 275,
-                "OtherTeam": 0
-              },
-              null,
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 240,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 255,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 210,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 270,
-                "OtherTeam": 2
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_b6443c1e-4564-44ca-a80f-5b863845c9b0",
-            "Name": "LIFE Church Assembly of God (FP) Red",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Wins": 6,
-              "Losses": 0,
-              "WinPercentage": 100,
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 1540,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 256.7,
-              "AverageCorrect": 14.2,
-              "QuizOuts": 9,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 34,
-              "Correct20s": 36,
-              "Correct30s": 15,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": "Katie Stephenson",
-            "Quizzers": [
-              8,
-              9,
-              10,
-              11
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 210,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 270,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 220,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 105,
-                "OtherTeam": 3
-              },
-              null,
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 175,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 265,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_9dafa706-311f-47d8-84a2-5f15bf4cc523",
-            "Name": "The Bible Nuggies - Wings of Faith Fellowship Ocala, FL",
-            "ChurchName": "Wings of Faith Fellowship",
-            "City": "Ocala",
-            "State": "FL",
-            "Scores": {
-              "Wins": 5,
-              "Losses": 1,
-              "WinPercentage": 83,
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 1245,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 207.5,
-              "AverageCorrect": 11.3,
-              "QuizOuts": 8,
-              "QuestionCorrectPercentage": 96,
-              "Correct10s": 30,
-              "Correct20s": 24,
-              "Correct30s": 14,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": "Teka Chaya",
-            "Quizzers": [
-              0,
-              5,
-              18
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 25,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 2
-              },
-              null,
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 0
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_32274992-96a0-49ac-9d28-194fd6920a0b",
-            "Name": "The Faithful Fireflies - Praise Assembly of God (Hudson) #1",
-            "ChurchName": "Praise Assembly of God",
-            "City": "Hudson",
-            "State": "FL",
-            "Scores": {
-              "Wins": 1,
-              "Losses": 5,
-              "WinPercentage": 17,
-              "Rank": 7,
-              "IsTie": false,
-              "TotalPoints": 305,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 50.8,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 89,
-              "Correct10s": 15,
-              "Correct20s": 9,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": "David Chaya",
-            "Quizzers": [
-              12,
-              13,
-              14,
-              23,
-              25
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 235,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 200,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 235,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 115,
-                "OtherTeam": 4
-              },
-              null
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_ba4f850c-bfcc-4496-b00e-b3006cacc0bb",
-            "Name": "The Fearless Five - Praise Assembly of God (Hudson) #2",
-            "ChurchName": "Praise Assembly of God",
-            "City": "Hudson",
-            "State": "FL",
-            "Scores": {
-              "Wins": 4,
-              "Losses": 2,
-              "WinPercentage": 67,
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 910,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 151.7,
-              "AverageCorrect": 9.8,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 29,
-              "Correct20s": 21,
-              "Correct30s": 9,
-              "FootnoteIndex": null
-            }
-          }
-        ],
-        "RankedTeams": [
-          3,
-          4,
-          6,
-          1,
-          2,
-          0,
-          5
-        ],
-        "TeamFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie broken by comparing total points of each team."
-          }
-        ],
-        "Quizzers": [
-          {
-            "TeamName": "The Faithful Fireflies - Praise Assembly of God (Hudson) #1",
-            "YearsQuizzing": null,
-            "Id": "q_1c99ed3bdd2f4a1d519c08dcc9399ae6",
-            "Name": "Addy Balserio",
-            "ChurchName": "Praise Assembly of God",
-            "City": "Hudson",
-            "State": "FL",
-            "Scores": {
-              "Rank": 15,
-              "IsTie": false,
-              "TotalPoints": 85,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 14.2,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 8,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Red",
-            "YearsQuizzing": null,
-            "Id": "q_b94b1e3297b84f1efe3b08d851552bad",
-            "Name": "Arie Weiler",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 740,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 123.3,
-              "AverageCorrect": 6.0,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 1,
-              "Correct20s": 35,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Blue",
-            "YearsQuizzing": null,
-            "Id": "q_ddc76ab8c4774097571f08dcd6e915b1",
-            "Name": "Austin Walker",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 21,
-              "IsTie": false,
-              "TotalPoints": 10,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 1.7,
-              "AverageCorrect": 0.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
-            "YearsQuizzing": null,
-            "Id": "q_f7905784d49648f4f84208da88f23c42",
-            "Name": "Braylen Manns",
-            "ChurchName": "Oxford Assembly of God",
-            "City": "Oxford",
-            "State": "FL",
-            "Scores": {
-              "Rank": 25,
-              "IsTie": false,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Red",
-            "YearsQuizzing": null,
-            "Id": "q_d51990112ee040ba10df08d72e4131c1",
-            "Name": "Caroline Thompson",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 345,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 57.5,
-              "AverageCorrect": 2.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 7,
-              "Correct20s": 1,
-              "Correct30s": 9,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Faithful Fireflies - Praise Assembly of God (Hudson) #1",
-            "YearsQuizzing": null,
-            "Id": "q_cf297af73a6f4d07517708dcc9399ae6",
-            "Name": "Celeste Balserio",
-            "ChurchName": "Praise Assembly of God",
-            "City": "Hudson",
-            "State": "FL",
-            "Scores": {
-              "Rank": 21,
-              "IsTie": true,
-              "TotalPoints": 10,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 1.7,
-              "AverageCorrect": 0.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Blue",
-            "YearsQuizzing": null,
-            "Id": "q_33764c953d70495556e208dcd6e915b1",
-            "Name": "Clayton Walker",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 18,
-              "IsTie": false,
-              "TotalPoints": 50,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 8.3,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 5,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Green",
-            "YearsQuizzing": null,
-            "Id": "q_fa55be90f3a145c9eec108ddff6180fc",
-            "Name": "Colton Sisk",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 19,
-              "IsTie": false,
-              "TotalPoints": 45,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 7.5,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 6,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Bible Nuggies - Wings of Faith Fellowship Ocala, FL",
-            "YearsQuizzing": null,
-            "Id": "q_ae7ee15e3dc84ffcfea608dba97a958c",
-            "Name": "Eliana Marshall",
-            "ChurchName": "Wings of Faith Fellowship",
-            "City": "Ocala",
-            "State": "FL",
-            "Scores": {
-              "Rank": 16,
-              "IsTie": false,
-              "TotalPoints": 75,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 12.5,
-              "AverageCorrect": 1.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 89,
-              "Correct10s": 7,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Bible Nuggies - Wings of Faith Fellowship Ocala, FL",
-            "YearsQuizzing": null,
-            "Id": "q_31cd96a505ed4740de2308dce092d0a5",
-            "Name": "Elliott Stephenson",
-            "ChurchName": "Wings of Faith Fellowship",
-            "City": "Ocala",
-            "State": "FL",
-            "Scores": {
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 875,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 145.8,
-              "AverageCorrect": 6.0,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 97,
-              "Correct10s": 3,
-              "Correct20s": 19,
-              "Correct30s": 14,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Bible Nuggies - Wings of Faith Fellowship Ocala, FL",
-            "YearsQuizzing": null,
-            "Id": "q_b1849790b8b54345de0008dce092d0a5",
-            "Name": "Emmy Smith",
-            "ChurchName": "Wings of Faith Fellowship",
-            "City": "Ocala",
-            "State": "FL",
-            "Scores": {
-              "Rank": 20,
-              "IsTie": false,
-              "TotalPoints": 20,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 3.3,
-              "AverageCorrect": 0.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 2,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Bible Nuggies - Wings of Faith Fellowship Ocala, FL",
-            "YearsQuizzing": null,
-            "Id": "q_df83a17ff4fe4486fe8e08dba97a958c",
-            "Name": "Israel Marshall",
-            "ChurchName": "Wings of Faith Fellowship",
-            "City": "Ocala",
-            "State": "FL",
-            "Scores": {
-              "Rank": 7,
-              "IsTie": false,
-              "TotalPoints": 275,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 45.8,
-              "AverageCorrect": 3.7,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 96,
-              "Correct10s": 18,
-              "Correct20s": 4,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Fearless Five - Praise Assembly of God (Hudson) #2",
-            "YearsQuizzing": null,
-            "Id": "q_6aa8c35dee7d4f43520808dcc9399ae6",
-            "Name": "Jackson Chaya",
-            "ChurchName": "Praise Assembly of God",
-            "City": "Hudson",
-            "State": "FL",
-            "Scores": {
-              "Rank": 23,
-              "IsTie": false,
-              "TotalPoints": 5,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.8,
-              "AverageCorrect": 0.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 1,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "The Fearless Five - Praise Assembly of God (Hudson) #2",
-            "YearsQuizzing": null,
-            "Id": "q_73b2cddc4cbd4a01517208dcc9399ae6",
-            "Name": "Jayce Chaya",
-            "ChurchName": "Praise Assembly of God",
-            "City": "Hudson",
-            "State": "FL",
-            "Scores": {
-              "Rank": 28,
-              "IsTie": false,
-              "TotalPoints": -10,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": -1.7,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "The Fearless Five - Praise Assembly of God (Hudson) #2",
-            "YearsQuizzing": null,
-            "Id": "q_27e30724c6fe48d5902c08dbd414c39b",
-            "Name": "Jhe'kyrie Chaya",
-            "ChurchName": "Praise Assembly of God",
-            "City": "Hudson",
-            "State": "FL",
-            "Scores": {
-              "Rank": 14,
-              "IsTie": false,
-              "TotalPoints": 110,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 18.3,
-              "AverageCorrect": 1.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 65,
-              "Correct10s": 7,
-              "Correct20s": 4,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Green",
-            "YearsQuizzing": null,
-            "Id": "q_b11091d0cc814a91eec708ddff6180fc",
-            "Name": "Liliana Lower",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 13,
-              "IsTie": false,
-              "TotalPoints": 135,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 22.5,
-              "AverageCorrect": 2.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 15,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Blue",
-            "YearsQuizzing": null,
-            "Id": "q_581c4bcc80ce495eeebb08ddff6180fc",
-            "Name": "Lily Sisk",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 10,
-              "IsTie": false,
-              "TotalPoints": 205,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 34.2,
-              "AverageCorrect": 3.7,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 22,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Blue",
-            "YearsQuizzing": null,
-            "Id": "q_a3ed7b3d558f4470316d08d95f2290ed",
-            "Name": "Lindsey Hostetler",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 11,
-              "IsTie": false,
-              "TotalPoints": 180,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 30.0,
-              "AverageCorrect": 1.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 0,
-              "Correct30s": 5,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Faithful Fireflies - Praise Assembly of God (Hudson) #1",
-            "YearsQuizzing": null,
-            "Id": "q_52031f965a184f1f902908dbd414c39b",
-            "Name": "Madison Chaya",
-            "ChurchName": "Praise Assembly of God",
-            "City": "Hudson",
-            "State": "FL",
-            "Scores": {
-              "Rank": 9,
-              "IsTie": false,
-              "TotalPoints": 210,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 35.0,
-              "AverageCorrect": 2.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 6,
-              "Correct20s": 8,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
-            "YearsQuizzing": null,
-            "Id": "q_b9adcfab93214519f8a308da88f23c42",
-            "Name": "Makayla Jackson",
-            "ChurchName": "Oxford Assembly of God",
-            "City": "Oxford",
-            "State": "FL",
-            "Scores": {
-              "Rank": 17,
-              "IsTie": false,
-              "TotalPoints": 65,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 10.8,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 42,
-              "Correct10s": 1,
-              "Correct20s": 2,
-              "Correct30s": 2,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Red",
-            "YearsQuizzing": null,
-            "Id": "q_800f06a4976d454b10e608d72e4131c1",
-            "Name": "Nathan Thompson",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 455,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 75.8,
-              "AverageCorrect": 5.3,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 26,
-              "Correct20s": 0,
-              "Correct30s": 6,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Green",
-            "YearsQuizzing": null,
-            "Id": "q_80b29767b4bb4ce0fe9808d851552bad",
-            "Name": "Pablo Banda",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 25,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
-            "YearsQuizzing": null,
-            "Id": "q_a913936a21b14a22f52d08ddff6180fc",
-            "Name": "Raelyn Douglas",
-            "ChurchName": "Oxford Assembly of God",
-            "City": "Oxford",
-            "State": "FL",
-            "Scores": {
-              "Rank": 28,
-              "IsTie": true,
-              "TotalPoints": -10,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": -1.7,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "The Fearless Five - Praise Assembly of God (Hudson) #2",
-            "YearsQuizzing": null,
-            "Id": "q_113d3ad9d46b4773903a08dbd414c39b",
-            "Name": "Riley Dilg",
-            "ChurchName": "Praise Assembly of God",
-            "City": "Hudson",
-            "State": "FL",
-            "Scores": {
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 375,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 62.5,
-              "AverageCorrect": 3.8,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 10,
-              "Correct20s": 11,
-              "Correct30s": 2,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Blue",
-            "YearsQuizzing": null,
-            "Id": "q_1d729cdc54564cccfe6b08d851552bad",
-            "Name": "Riley Madak",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 25,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "The Fearless Five - Praise Assembly of God (Hudson) #2",
-            "YearsQuizzing": null,
-            "Id": "q_0cd70ee77ade4d69903508dbd414c39b",
-            "Name": "Robby Dilg",
-            "ChurchName": "Praise Assembly of God",
-            "City": "Hudson",
-            "State": "FL",
-            "Scores": {
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 430,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 71.7,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 89,
-              "Correct10s": 11,
-              "Correct20s": 6,
-              "Correct30s": 7,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "LIFE Church Assembly of God (FP) Green",
-            "YearsQuizzing": null,
-            "Id": "q_33068d43986545f5ee9508ddff6180fc",
-            "Name": "Skylar Johnston",
-            "ChurchName": "LIFE Church Assembly of God",
-            "City": "Fruitland Park",
-            "State": "FL",
-            "Scores": {
-              "Rank": 12,
-              "IsTie": false,
-              "TotalPoints": 160,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 26.7,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 0,
-              "Correct20s": 9,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
-            "YearsQuizzing": null,
-            "Id": "q_696cf60e65c24f91bad808d97e950dfc",
-            "Name": "Xander Cullen",
-            "ChurchName": "Oxford Assembly of God",
-            "City": "Oxford",
-            "State": "FL",
-            "Scores": {
-              "Rank": 23,
-              "IsTie": true,
-              "TotalPoints": 5,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.8,
-              "AverageCorrect": 1.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 37,
-              "Correct10s": 7,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
-            "YearsQuizzing": null,
-            "Id": "q_2dfe08e413c8461d129b08d72e4131c1",
-            "Name": "Zoe Hahn",
-            "ChurchName": "Oxford Assembly of God",
-            "City": "Oxford",
-            "State": "FL",
-            "Scores": {
-              "Rank": 8,
-              "IsTie": false,
-              "TotalPoints": 270,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 45.0,
-              "AverageCorrect": 4.5,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 27,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          }
-        ],
-        "RankedQuizzers": [
-          9,
-          1,
-          20,
-          25,
-          23,
-          4,
-          11,
-          28,
-          18,
-          16,
-          17,
-          26,
-          15,
-          14,
-          0,
-          8,
-          19,
-          6,
-          7,
-          10,
-          2,
-          5,
-          12,
-          27,
-          3,
-          21,
-          24,
-          13,
-          22
-        ],
-        "QuizzerFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie couldn't be broken by tie breaking rules."
-          }
-        ],
-        "MeetNames": null,
-        "Rooms": [
-          {
-            "Name": "1",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 6,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              }
-            ]
-          },
-          {
-            "Name": "2",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 6,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              }
-            ]
-          },
-          {
-            "Name": "3",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              }
-            ]
-          }
-        ],
-        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
-        "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
-        "QuizzerRankingAwardsLabel": "Excellence",
-        "Matches": [
-          {
-            "Id": 1,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 2,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 3,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 4,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 5,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 6,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 7,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          }
-        ],
-        "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": true,
-        "ScoringProgressMessage": "All Room(s) Reported",
-        "HasRoomCompletionMismatchForCombined": false,
-        "HasScoringCompletedForCombined": false,
-        "ScoringProgressMessageForCombined": null,
-        "ShowYearsQuizzing": false,
-        "IsCombinedReport": false
-      },
-      {
         "DatabaseId": "c2b26284-182f-4431-b19a-a8329545cb07",
         "MeetId": 1,
         "CombinedName": null,
@@ -11943,6 +10343,1606 @@
           {
             "Id": 5,
             "MatchTime": "11:20 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "356d7e33-3f1c-417a-b424-75172fa33c0d",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Northcentral: October: Achiever Division",
+        "LastUpdated": "11/5/25 9:03 PM",
+        "DatabaseLastUpdated": "2025-11-05T20:30:48.6062062+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Jacob Cullen",
+            "Quizzers": [
+              3,
+              19,
+              22,
+              27,
+              28
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_e99f7b58-df62-473a-b214-22b368714cf0",
+            "Name": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
+            "ChurchName": "Oxford Assembly of God",
+            "City": "Oxford",
+            "State": "FL",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 35,
+              "Correct20s": 2,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Donny Sisk",
+            "Quizzers": [
+              2,
+              6,
+              16,
+              17,
+              24
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 6
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_f9d33eeb-6957-4d64-a586-c579e4b59153",
+            "Name": "LIFE Church Assembly of God (FP) Blue",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 445,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 74.2,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 31,
+              "Correct20s": 0,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Ron Loynes",
+            "Quizzers": [
+              7,
+              15,
+              21,
+              26
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_000d39ee-4fc1-4456-aa58-2676210137e3",
+            "Name": "LIFE Church Assembly of God (FP) Green",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.7,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 21,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Aaron Weiler",
+            "Quizzers": [
+              1,
+              4,
+              20
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 290,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 275,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 255,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 270,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_b6443c1e-4564-44ca-a80f-5b863845c9b0",
+            "Name": "LIFE Church Assembly of God (FP) Red",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1540,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 256.7,
+              "AverageCorrect": 14.2,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 34,
+              "Correct20s": 36,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Katie Stephenson",
+            "Quizzers": [
+              8,
+              9,
+              10,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 270,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 265,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_9dafa706-311f-47d8-84a2-5f15bf4cc523",
+            "Name": "The Bible Nuggies - Wings of Faith Fellowship Ocala, FL",
+            "ChurchName": "Wings of Faith Fellowship",
+            "City": "Ocala",
+            "State": "FL",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 207.5,
+              "AverageCorrect": 11.3,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 30,
+              "Correct20s": 24,
+              "Correct30s": 14,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Teka Chaya",
+            "Quizzers": [
+              0,
+              5,
+              18
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_32274992-96a0-49ac-9d28-194fd6920a0b",
+            "Name": "The Faithful Fireflies - Praise Assembly of God (Hudson) #1",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Hudson",
+            "State": "FL",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.8,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 15,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "David Chaya",
+            "Quizzers": [
+              12,
+              13,
+              14,
+              23,
+              25
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 235,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 235,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 4
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_ba4f850c-bfcc-4496-b00e-b3006cacc0bb",
+            "Name": "The Fearless Five - Praise Assembly of God (Hudson) #2",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Hudson",
+            "State": "FL",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 910,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 151.7,
+              "AverageCorrect": 9.8,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 29,
+              "Correct20s": 21,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          3,
+          4,
+          6,
+          1,
+          2,
+          0,
+          5
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "The Faithful Fireflies - Praise Assembly of God (Hudson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_1c99ed3bdd2f4a1d519c08dcc9399ae6",
+            "Name": "Addy Balserio",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Hudson",
+            "State": "FL",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.2,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Red",
+            "YearsQuizzing": null,
+            "Id": "q_b94b1e3297b84f1efe3b08d851552bad",
+            "Name": "Arie Weiler",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 740,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 123.3,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 1,
+              "Correct20s": 35,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Blue",
+            "YearsQuizzing": null,
+            "Id": "q_ddc76ab8c4774097571f08dcd6e915b1",
+            "Name": "Austin Walker",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
+            "YearsQuizzing": null,
+            "Id": "q_f7905784d49648f4f84208da88f23c42",
+            "Name": "Braylen Manns",
+            "ChurchName": "Oxford Assembly of God",
+            "City": "Oxford",
+            "State": "FL",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Red",
+            "YearsQuizzing": null,
+            "Id": "q_d51990112ee040ba10df08d72e4131c1",
+            "Name": "Caroline Thompson",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 57.5,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 7,
+              "Correct20s": 1,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Faithful Fireflies - Praise Assembly of God (Hudson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_cf297af73a6f4d07517708dcc9399ae6",
+            "Name": "Celeste Balserio",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Hudson",
+            "State": "FL",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Blue",
+            "YearsQuizzing": null,
+            "Id": "q_33764c953d70495556e208dcd6e915b1",
+            "Name": "Clayton Walker",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Green",
+            "YearsQuizzing": null,
+            "Id": "q_fa55be90f3a145c9eec108ddff6180fc",
+            "Name": "Colton Sisk",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Bible Nuggies - Wings of Faith Fellowship Ocala, FL",
+            "YearsQuizzing": null,
+            "Id": "q_ae7ee15e3dc84ffcfea608dba97a958c",
+            "Name": "Eliana Marshall",
+            "ChurchName": "Wings of Faith Fellowship",
+            "City": "Ocala",
+            "State": "FL",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 7,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Bible Nuggies - Wings of Faith Fellowship Ocala, FL",
+            "YearsQuizzing": null,
+            "Id": "q_31cd96a505ed4740de2308dce092d0a5",
+            "Name": "Elliott Stephenson",
+            "ChurchName": "Wings of Faith Fellowship",
+            "City": "Ocala",
+            "State": "FL",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 875,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 145.8,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 3,
+              "Correct20s": 19,
+              "Correct30s": 14,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Bible Nuggies - Wings of Faith Fellowship Ocala, FL",
+            "YearsQuizzing": null,
+            "Id": "q_b1849790b8b54345de0008dce092d0a5",
+            "Name": "Emmy Smith",
+            "ChurchName": "Wings of Faith Fellowship",
+            "City": "Ocala",
+            "State": "FL",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Bible Nuggies - Wings of Faith Fellowship Ocala, FL",
+            "YearsQuizzing": null,
+            "Id": "q_df83a17ff4fe4486fe8e08dba97a958c",
+            "Name": "Israel Marshall",
+            "ChurchName": "Wings of Faith Fellowship",
+            "City": "Ocala",
+            "State": "FL",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.8,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 18,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Fearless Five - Praise Assembly of God (Hudson) #2",
+            "YearsQuizzing": null,
+            "Id": "q_6aa8c35dee7d4f43520808dcc9399ae6",
+            "Name": "Jackson Chaya",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Hudson",
+            "State": "FL",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The Fearless Five - Praise Assembly of God (Hudson) #2",
+            "YearsQuizzing": null,
+            "Id": "q_73b2cddc4cbd4a01517208dcc9399ae6",
+            "Name": "Jayce Chaya",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Hudson",
+            "State": "FL",
+            "Scores": {
+              "Rank": 28,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The Fearless Five - Praise Assembly of God (Hudson) #2",
+            "YearsQuizzing": null,
+            "Id": "q_27e30724c6fe48d5902c08dbd414c39b",
+            "Name": "Jhe'kyrie Chaya",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Hudson",
+            "State": "FL",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.3,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 65,
+              "Correct10s": 7,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Green",
+            "YearsQuizzing": null,
+            "Id": "q_b11091d0cc814a91eec708ddff6180fc",
+            "Name": "Liliana Lower",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 15,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Blue",
+            "YearsQuizzing": null,
+            "Id": "q_581c4bcc80ce495eeebb08ddff6180fc",
+            "Name": "Lily Sisk",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 205,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 34.2,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 22,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Blue",
+            "YearsQuizzing": null,
+            "Id": "q_a3ed7b3d558f4470316d08d95f2290ed",
+            "Name": "Lindsey Hostetler",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Faithful Fireflies - Praise Assembly of God (Hudson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_52031f965a184f1f902908dbd414c39b",
+            "Name": "Madison Chaya",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Hudson",
+            "State": "FL",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 6,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
+            "YearsQuizzing": null,
+            "Id": "q_b9adcfab93214519f8a308da88f23c42",
+            "Name": "Makayla Jackson",
+            "ChurchName": "Oxford Assembly of God",
+            "City": "Oxford",
+            "State": "FL",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 65,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.8,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 42,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Red",
+            "YearsQuizzing": null,
+            "Id": "q_800f06a4976d454b10e608d72e4131c1",
+            "Name": "Nathan Thompson",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 455,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 75.8,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 26,
+              "Correct20s": 0,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Green",
+            "YearsQuizzing": null,
+            "Id": "q_80b29767b4bb4ce0fe9808d851552bad",
+            "Name": "Pablo Banda",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a913936a21b14a22f52d08ddff6180fc",
+            "Name": "Raelyn Douglas",
+            "ChurchName": "Oxford Assembly of God",
+            "City": "Oxford",
+            "State": "FL",
+            "Scores": {
+              "Rank": 28,
+              "IsTie": true,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The Fearless Five - Praise Assembly of God (Hudson) #2",
+            "YearsQuizzing": null,
+            "Id": "q_113d3ad9d46b4773903a08dbd414c39b",
+            "Name": "Riley Dilg",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Hudson",
+            "State": "FL",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 375,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.5,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 10,
+              "Correct20s": 11,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Blue",
+            "YearsQuizzing": null,
+            "Id": "q_1d729cdc54564cccfe6b08d851552bad",
+            "Name": "Riley Madak",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The Fearless Five - Praise Assembly of God (Hudson) #2",
+            "YearsQuizzing": null,
+            "Id": "q_0cd70ee77ade4d69903508dbd414c39b",
+            "Name": "Robby Dilg",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Hudson",
+            "State": "FL",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 430,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 71.7,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 11,
+              "Correct20s": 6,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LIFE Church Assembly of God (FP) Green",
+            "YearsQuizzing": null,
+            "Id": "q_33068d43986545f5ee9508ddff6180fc",
+            "Name": "Skylar Johnston",
+            "ChurchName": "LIFE Church Assembly of God",
+            "City": "Fruitland Park",
+            "State": "FL",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 0,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
+            "YearsQuizzing": null,
+            "Id": "q_696cf60e65c24f91bad808d97e950dfc",
+            "Name": "Xander Cullen",
+            "ChurchName": "Oxford Assembly of God",
+            "City": "Oxford",
+            "State": "FL",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": true,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.8,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 37,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ignited Racers - Oxford Assembly of God (Oxford) #1",
+            "YearsQuizzing": null,
+            "Id": "q_2dfe08e413c8461d129b08d72e4131c1",
+            "Name": "Zoe Hahn",
+            "ChurchName": "Oxford Assembly of God",
+            "City": "Oxford",
+            "State": "FL",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 27,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          9,
+          1,
+          20,
+          25,
+          23,
+          4,
+          11,
+          28,
+          18,
+          16,
+          17,
+          26,
+          15,
+          14,
+          0,
+          8,
+          19,
+          6,
+          7,
+          10,
+          2,
+          5,
+          12,
+          27,
+          3,
+          21,
+          24,
+          13,
+          22
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           }
@@ -31479,5 +31479,5 @@
       }
     }
   ],
-  "Freshness": "2025-10-26T22:37:01.7681952+00:00"
+  "Freshness": "2025-11-05T20:30:48.9565709+00:00"
 }
