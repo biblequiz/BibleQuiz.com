@@ -111,8 +111,6 @@ if (showTypeEvents) {
         }
     }
 }
-
-const containerId = `event-list-${season}-${type}`;
 ---
 
 <div>
@@ -125,7 +123,7 @@ const containerId = `event-list-${season}-${type}`;
             />
         )
     }
-    <div class="mt-4" id={containerId}>
+    <div class="mt-4" id="event-list-container">
         {
             hasAtLeastOneEvent && (
                 <FontAwesomeTabs syncKey={`events-${season}-${type}`}>
@@ -192,19 +190,21 @@ const containerId = `event-list-${season}-${type}`;
     </div>
 </div>
 
-<script define:vars={{ containerId }}>
-    window.addEventListener('load', () => {
-        const container = document.getElementById(containerId);
+<script>
+    window.addEventListener("load", () => {
+        const container = document.getElementById("event-list-container");
         if (container) {
             const tabLinks = container.querySelectorAll(`li > a[role="tab"]`);
             if (tabLinks) {
-                const urlParameters = new URLSearchParams(window.location.search);
+                const urlParameters = new URLSearchParams(
+                    window.location.search,
+                );
                 const selectTypeFromUrl = urlParameters.get("type");
                 if (selectTypeFromUrl) {
                     if (selectTypeFromUrl === "tbq") {
-                        tabLinks[1].click();
+                        (tabLinks[1] as HTMLAnchorElement).click();
                     } else {
-                        tabLinks[0].click();
+                        (tabLinks[0] as HTMLAnchorElement).click();
                     }
                 }
             }

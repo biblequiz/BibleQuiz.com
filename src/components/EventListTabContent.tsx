@@ -1,8 +1,6 @@
 import { useStore } from "@nanostores/react";
-import EventScopeBadge from './EventScopeBadge.tsx';
 import { sharedEventListFilter, type EventListFilterConfiguration } from 'utils/SharedState.ts';
 import type { EventInfo, EventList } from 'types/EventTypes.ts';
-import FontAwesomeIcon from './FontAwesomeIcon.js';
 import { DataTypeHelpers } from "utils/DataTypeHelpers.ts";
 import EventCard from "./apps/liveAndUpcoming/EventCard.tsx";
 
@@ -80,38 +78,17 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
         }
 
         let isPastEvent: boolean = false;
-        let showScores: boolean = false;
         if (event.endDate) {
             const parsedDate = DataTypeHelpers.parseDateOnly(event.endDate)!.getTime();
             if (parsedDate < today.getTime()) {
                 isPastEvent = true;
-                showScores = true;
             }
-            else if (parsedDate < scoresCutoff.getTime()) {
-                showScores = true;
-            }
-        }
-        else if (!event.startDate) {
-            showScores = true;
         }
 
         let isLiveEvent: boolean = false;
         if (!isPastEvent && event.startDate &&
             Date.parse(event.startDate) <= today.getTime()) {
             isLiveEvent = true;
-        }
-
-        let locationLabel: string | null = null;
-        if (event.locationName || event.locationCity) {
-            if (event.locationName && event.locationCity) {
-                locationLabel = `${event.locationName}, ${event.locationCity}`;
-            }
-            else if (event.locationName) {
-                locationLabel = event.locationName;
-            }
-            else {
-                locationLabel = event.locationCity;
-            }
         }
 
         eventCount++;
@@ -130,6 +107,8 @@ export default function EventListTabContent({ badgeId, events, type }: Props) {
                 isLive={isLiveEvent}
             />);
     });
+
+    document.getElementById(badgeId)!.innerText = eventCount.toString();
 
     return (
         <div className="flex flex-wrap gap-4">
