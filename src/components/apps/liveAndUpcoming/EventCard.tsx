@@ -1,9 +1,11 @@
+import EventScopeBadge from "components/EventScopeBadge";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { EventInfo } from "types/EventTypes";
 
 interface Props {
     info?: EventWrapper;
     isLive: boolean;
+    showLiveBadge?: boolean;
 }
 
 interface EventWrapper {
@@ -14,7 +16,7 @@ interface EventWrapper {
     isRegistrationOpen: boolean;
 }
 
-export default function EventCard({ info, isLive }: Props) {
+export default function EventCard({ info, isLive, showLiveBadge = false }: Props) {
 
     const cardLink = info
         ? ((isLive || info.isNationals || !info.isRegistrationOpen)
@@ -22,12 +24,27 @@ export default function EventCard({ info, isLive }: Props) {
             : `https://registration.biblequiz.com/#/Registration/${info.event.id}`)
         : "/upcoming-events/";
 
+    let locationLabel: string | null = null;
+    if (info && info.event) {
+        if (info.event.locationName || info.event.locationCity) {
+            if (info.event.locationName && info.event.locationCity) {
+                locationLabel = `${info.event.locationName}, ${info.event.locationCity}`;
+            }
+            else if (info.event.locationName) {
+                locationLabel = info.event.locationName;
+            }
+            else {
+                locationLabel = info.event.locationCity;
+            }
+        }
+    }
+
     return (
         <a
-            className="card live-events-card w-96 card-sm shadow-sm border-2 border-solid mt-0 relative"
+            className="card live-events-card w-90 card-sm shadow-sm border-2 border-solid mt-0 relative"
             href={cardLink}
             target={cardLink.startsWith("http") ? "_blank" : "_self"}>
-            <div className="card-body">
+            <div className="card-body p-2 pl-4">
                 {info && (
                     <div className="flex items-start gap-4">
                         <img
@@ -35,14 +52,19 @@ export default function EventCard({ info, isLive }: Props) {
                             alt={`${info.type.toUpperCase()} Logo`}
                             className="w-20 h-20 flex-shrink-0 mt-2"
                         />
-                        <div className="flex-1 pr-4">
-                            <h2 className="card-title mb-0">
+                        <div className="flex-1 pr-6 mt-2">
+                            {isLive && showLiveBadge && (
+                                <span className="badge badge-info mr-1">LIVE</span>
+                            )}
+                            <EventScopeBadge scope={info.event.scope} label={info.event.scopeLabel ?? ""} />
+                            {info.isRegistrationOpen && (
+                                <span className="badge badge-neutral">Registration</span>
+                            )}
+                            <h2 className="card-title mb-0 mt-1">
                                 {info.event.name}
                             </h2>
                             <p className="mt-0">{info.event.dates}</p>
-                            {info.isRegistrationOpen && (
-                                <span className="badge badge-neutral">Registration Available</span>
-                            )}
+                            {locationLabel && <p className="text-gray-500 italic m-0">{locationLabel}</p>}
                         </div>
                     </div>)}
                 {!info && (
