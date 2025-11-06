@@ -1,11 +1,11 @@
 ---
-import EventListFilters from './EventListFilters.tsx';
+import EventListFilters from "./EventListFilters.tsx";
 import path from "path";
 import { getAstroRootSourcePath, tryReadFileAsJson } from "utils/FileSystem";
-import type { EventTypeList, EventList } from 'types/EventTypes';
-import type { RegionInfo, DistrictInfo } from 'types/RegionAndDistricts';
-import FontAwesomeTabs from './FontAwesomeTabs.astro';
-import EventListTabItem from './EventListTabItem.astro';
+import type { EventTypeList, EventList } from "types/EventTypes";
+import type { RegionInfo, DistrictInfo } from "types/RegionAndDistricts";
+import FontAwesomeTabs from "./FontAwesomeTabs.astro";
+import EventListTabItem from "./EventListTabItem.astro";
 
 interface Props {
     season: number | "future";
@@ -111,6 +111,8 @@ if (showTypeEvents) {
         }
     }
 }
+
+const containerId = `event-list-${season}-${type}`;
 ---
 
 <div>
@@ -123,7 +125,7 @@ if (showTypeEvents) {
             />
         )
     }
-    <div class="mt-4">
+    <div class="mt-4" id={containerId}>
         {
             hasAtLeastOneEvent && (
                 <FontAwesomeTabs syncKey={`events-${season}-${type}`}>
@@ -189,3 +191,23 @@ if (showTypeEvents) {
         }
     </div>
 </div>
+
+<script define:vars={{ containerId }}>
+    window.addEventListener('load', () => {
+        const container = document.getElementById(containerId);
+        if (container) {
+            const tabLinks = container.querySelectorAll(`li > a[role="tab"]`);
+            if (tabLinks) {
+                const urlParameters = new URLSearchParams(window.location.search);
+                const selectTypeFromUrl = urlParameters.get("type");
+                if (selectTypeFromUrl) {
+                    if (selectTypeFromUrl === "tbq") {
+                        tabLinks[1].click();
+                    } else {
+                        tabLinks[0].click();
+                    }
+                }
+            }
+        }
+    });
+</script>
