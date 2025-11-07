@@ -13107,8 +13107,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Southwest: September: Rising Stars",
-        "LastUpdated": "10/11/25 3:16 PM",
-        "DatabaseLastUpdated": "2025-10-11T13:11:22.9344317+00:00",
+        "LastUpdated": "11/7/25 9:02 PM",
+        "DatabaseLastUpdated": "2025-11-07T19:03:04.5462005+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -13721,8 +13721,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Southwest: September: Achiever",
-        "LastUpdated": "10/11/25 3:16 PM",
-        "DatabaseLastUpdated": "2025-10-11T13:11:22.9344317+00:00",
+        "LastUpdated": "11/7/25 9:02 PM",
+        "DatabaseLastUpdated": "2025-11-07T19:03:04.5462005+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -14853,8 +14853,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Southwest: October: Achiever",
-        "LastUpdated": "10/11/25 3:16 PM",
-        "DatabaseLastUpdated": "2025-10-11T13:11:22.9344317+00:00",
+        "LastUpdated": "11/7/25 9:02 PM",
+        "DatabaseLastUpdated": "2025-11-07T19:03:04.5462005+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -14884,7 +14884,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 105,
-                "OtherTeam": 4
+                "OtherTeam": 3
               },
               null,
               {
@@ -14903,7 +14903,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 60,
-                "OtherTeam": 3
+                "OtherTeam": 4
               }
             ],
             "CurrentMatchId": null,
@@ -14958,7 +14958,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -14967,7 +14967,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 0,
-                "OtherTeam": 4
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -15021,7 +15021,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -15030,7 +15030,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 40,
-                "OtherTeam": 4
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -15076,77 +15076,6 @@
             }
           },
           {
-            "CoachName": "Rita Massaro",
-            "Quizzers": [
-              6,
-              10,
-              13,
-              21
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 225,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 295,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 245,
-                "OtherTeam": 1
-              },
-              null,
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 275,
-                "OtherTeam": 0
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_549cd7a7-f5cd-45b9-8620-459922023002_12",
-            "Name": "Scripture Seekers Team 1",
-            "ChurchName": "First Assembly of God",
-            "City": "Fort Myers",
-            "State": "FL",
-            "Scores": {
-              "Wins": 4,
-              "Losses": 0,
-              "WinPercentage": 100,
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 1040,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 260.0,
-              "AverageCorrect": 15.5,
-              "QuizOuts": 7,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 34,
-              "Correct20s": 17,
-              "Correct30s": 11,
-              "FootnoteIndex": null
-            }
-          },
-          {
             "CoachName": "Sarah Joshua",
             "Quizzers": [
               4,
@@ -15162,7 +15091,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -15195,7 +15124,7 @@
             ],
             "CurrentMatchId": null,
             "Id": "t_549cd7a7-f5cd-45b9-8620-459922023002_13",
-            "Name": "Scripture Seekers Team 2",
+            "Name": "Scripture Seekers Forever Faithful",
             "ChurchName": "First Assembly of God",
             "City": "Fort Myers",
             "State": "FL",
@@ -15216,11 +15145,82 @@
               "Correct30s": 3,
               "FootnoteIndex": null
             }
+          },
+          {
+            "CoachName": "Rita Massaro",
+            "Quizzers": [
+              6,
+              10,
+              13,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 225,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 295,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 245,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 275,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_549cd7a7-f5cd-45b9-8620-459922023002_12",
+            "Name": "Scripture Seekers United Believers",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Myers",
+            "State": "FL",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1040,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 260.0,
+              "AverageCorrect": 15.5,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 34,
+              "Correct20s": 17,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
           }
         ],
         "RankedTeams": [
-          3,
           4,
+          3,
           0,
           1,
           2
@@ -15320,7 +15320,7 @@
             }
           },
           {
-            "TeamName": "Scripture Seekers Team 2",
+            "TeamName": "Scripture Seekers Forever Faithful",
             "YearsQuizzing": null,
             "Id": "q_7002cd115e5d4c0a0aca08dde41a774d",
             "Name": "Camden Hubbard",
@@ -15343,7 +15343,7 @@
             }
           },
           {
-            "TeamName": "Scripture Seekers Team 2",
+            "TeamName": "Scripture Seekers Forever Faithful",
             "YearsQuizzing": null,
             "Id": "q_99793bc96ce0435c8a5908dcc8f34e4a",
             "Name": "Christopher Dorsainvil",
@@ -15366,7 +15366,7 @@
             }
           },
           {
-            "TeamName": "Scripture Seekers Team 1",
+            "TeamName": "Scripture Seekers United Believers",
             "YearsQuizzing": null,
             "Id": "q_9da742092aeb4c8873ab08dce6219480",
             "Name": "David Absher",
@@ -15458,7 +15458,7 @@
             }
           },
           {
-            "TeamName": "Scripture Seekers Team 1",
+            "TeamName": "Scripture Seekers United Believers",
             "YearsQuizzing": null,
             "Id": "q_71aa0e916c1242272b6208db3f66d354",
             "Name": "Ian Victor",
@@ -15527,7 +15527,7 @@
             }
           },
           {
-            "TeamName": "Scripture Seekers Team 1",
+            "TeamName": "Scripture Seekers United Believers",
             "YearsQuizzing": null,
             "Id": "q_ace49b24f2224502f75008da88f23c42",
             "Name": "Juniper Victor",
@@ -15711,7 +15711,7 @@
             }
           },
           {
-            "TeamName": "Scripture Seekers Team 1",
+            "TeamName": "Scripture Seekers United Believers",
             "YearsQuizzing": null,
             "Id": "q_99ced832845a4cb8bce308d97f7e73fa",
             "Name": "Maya Sifford",
@@ -15734,7 +15734,7 @@
             }
           },
           {
-            "TeamName": "Scripture Seekers Team 2",
+            "TeamName": "Scripture Seekers Forever Faithful",
             "YearsQuizzing": null,
             "Id": "q_8a2d974c49c548f60add08dde41a774d",
             "Name": "Noah Oliveira",
@@ -15757,7 +15757,7 @@
             }
           },
           {
-            "TeamName": "Scripture Seekers Team 2",
+            "TeamName": "Scripture Seekers Forever Faithful",
             "YearsQuizzing": null,
             "Id": "q_2f527863a0ce4b8f8a7008dcc8f34e4a",
             "Name": "Sarah Dorsainvil",
@@ -15844,15 +15844,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 4,
+                "Team1": 4,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
+                "Team1": 3,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -15860,7 +15860,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 4,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -15897,6 +15897,14 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
                 "Team1": 3,
                 "Team2": 2,
                 "State": "Completed",
@@ -15905,15 +15913,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
+                "Team1": 3,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -15921,7 +15921,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 4,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -15981,8 +15981,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Southwest: October: Rising Stars",
-        "LastUpdated": "10/11/25 3:16 PM",
-        "DatabaseLastUpdated": "2025-10-11T13:11:22.9344317+00:00",
+        "LastUpdated": "11/7/25 9:02 PM",
+        "DatabaseLastUpdated": "2025-11-07T19:03:04.5462005+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -31479,5 +31479,5 @@
       }
     }
   ],
-  "Freshness": "2025-11-05T20:30:48.9565709+00:00"
+  "Freshness": "2025-11-07T19:03:05.2146701+00:00"
 }
