@@ -17,8 +17,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "West League: October",
-        "LastUpdated": "10/11/25 7:33 PM",
-        "DatabaseLastUpdated": "2025-10-11T18:56:54.6645227+00:00",
+        "LastUpdated": "11/8/25 3:18 AM",
+        "DatabaseLastUpdated": "2025-11-08T01:21:09.9920826+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -26,8 +26,8 @@
             "Quizzers": [
               24,
               26,
-              94,
-              100
+              97,
+              103
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -63,9 +63,9 @@
             "Quizzers": [
               14,
               16,
-              56,
-              98,
-              107
+              57,
+              101,
+              110
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -100,9 +100,9 @@
             "CoachName": "Christy Weatherholt",
             "Quizzers": [
               18,
-              41,
-              67,
-              81
+              43,
+              68,
+              82
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -134,50 +134,13 @@
             }
           },
           {
-            "CoachName": "Courtney Olson",
-            "Quizzers": [
-              46,
-              77,
-              103,
-              113
-            ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_28d1f2d5-0841-490b-a2cf-e43ed8323aac",
-            "Name": "Creekside #1",
-            "ChurchName": "Creekside Church",
-            "City": "Lutz",
-            "State": "FL",
-            "Scores": {
-              "Wins": 5,
-              "Losses": 4,
-              "WinPercentage": 56,
-              "Rank": 12,
-              "IsTie": false,
-              "TotalPoints": 1170,
-              "PerMeetTotalPoints": [
-                1170,
-                null,
-                null
-              ],
-              "AveragePoints": 130.0,
-              "AverageCorrect": 9.3,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 84,
-              "Correct10s": 52,
-              "Correct20s": 21,
-              "Correct30s": 11,
-              "FootnoteIndex": null
-            }
-          },
-          {
             "CoachName": "Whitney Nall",
             "Quizzers": [
-              33,
-              42,
+              34,
               44,
-              53,
-              60
+              46,
+              54,
+              61
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -209,12 +172,49 @@
             }
           },
           {
+            "CoachName": "Ivette Valentin",
+            "Quizzers": [
+              19,
+              56,
+              83,
+              88
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_786cf612-0285-4bb5-8ce9-4c55076c97aa",
+            "Name": "God's Girls",
+            "ChurchName": "Family Worship Center",
+            "City": "Lakeland",
+            "State": "FL",
+            "Scores": {
+              "Wins": 8,
+              "Losses": 1,
+              "WinPercentage": 89,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1770,
+              "PerMeetTotalPoints": [
+                1770,
+                null,
+                null
+              ],
+              "AveragePoints": 196.7,
+              "AverageCorrect": 13.1,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 60,
+              "Correct20s": 47,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
             "CoachName": "Kourtney Williams",
             "Quizzers": [
               20,
-              86,
-              97,
-              108
+              87,
+              100,
+              111
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -246,38 +246,75 @@
             }
           },
           {
-            "CoachName": "Ivette Valentin",
+            "CoachName": "John Kirchon",
             "Quizzers": [
-              19,
-              55,
-              82,
-              87
+              6,
+              17,
+              90,
+              95
             ],
             "Matches": null,
             "CurrentMatchId": null,
-            "Id": "t_786cf612-0285-4bb5-8ce9-4c55076c97aa",
-            "Name": "J.B.Quties",
-            "ChurchName": "Family Worship Center",
+            "Id": "t_db0c57ce-f152-46e0-b362-e14032be7199",
+            "Name": "Holy Guacamoles",
+            "ChurchName": "Victory Church",
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Wins": 8,
-              "Losses": 1,
-              "WinPercentage": 89,
-              "Rank": 3,
+              "Wins": 4,
+              "Losses": 4,
+              "WinPercentage": 50,
+              "Rank": 13,
               "IsTie": false,
-              "TotalPoints": 1770,
+              "TotalPoints": 935,
               "PerMeetTotalPoints": [
-                1770,
+                null,
+                935,
+                null
+              ],
+              "AveragePoints": 116.9,
+              "AverageCorrect": 8.9,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 42,
+              "Correct20s": 29,
+              "Correct30s": 0,
+              "FootnoteIndex": 2
+            }
+          },
+          {
+            "CoachName": "Courtney Olson",
+            "Quizzers": [
+              48,
+              78,
+              106,
+              116
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_28d1f2d5-0841-490b-a2cf-e43ed8323aac",
+            "Name": "Kingdom Quizzers",
+            "ChurchName": "Creekside Church",
+            "City": "Lutz",
+            "State": "FL",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 4,
+              "WinPercentage": 56,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 1170,
+              "PerMeetTotalPoints": [
+                1170,
                 null,
                 null
               ],
-              "AveragePoints": 196.7,
-              "AverageCorrect": 13.1,
-              "QuizOuts": 9,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 60,
-              "Correct20s": 47,
+              "AveragePoints": 130.0,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 52,
+              "Correct20s": 21,
               "Correct30s": 11,
               "FootnoteIndex": null
             }
@@ -285,11 +322,11 @@
           {
             "CoachName": "Ramon Valentin",
             "Quizzers": [
-              54,
-              62,
-              78,
-              101,
-              110
+              55,
+              63,
+              79,
+              104,
+              113
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -325,9 +362,9 @@
             "Quizzers": [
               21,
               23,
-              43,
-              90,
-              105
+              45,
+              92,
+              108
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -363,10 +400,10 @@
             "Quizzers": [
               4,
               30,
-              49,
               50,
-              58,
-              102
+              51,
+              59,
+              105
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -402,11 +439,11 @@
             "Quizzers": [
               1,
               10,
-              71,
-              74,
-              76,
-              104,
-              106
+              72,
+              75,
+              77,
+              107,
+              109
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -441,10 +478,10 @@
             "CoachName": "Laura Horton",
             "Quizzers": [
               22,
-              75,
-              92,
-              96,
-              99
+              76,
+              94,
+              99,
+              102
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -478,8 +515,8 @@
           {
             "CoachName": "Danielle Taylor",
             "Quizzers": [
-              111,
-              112
+              114,
+              115
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -514,8 +551,8 @@
             "CoachName": null,
             "Quizzers": [
               25,
-              35,
-              39
+              36,
+              40
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -549,10 +586,10 @@
           {
             "CoachName": "Simon Bennett",
             "Quizzers": [
-              37,
-              61,
-              91,
-              109
+              38,
+              62,
+              93,
+              112
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -588,8 +625,8 @@
             "Quizzers": [
               28,
               32,
-              34,
-              45
+              35,
+              47
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -625,7 +662,7 @@
             "Quizzers": [
               9,
               13,
-              66
+              67
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -659,9 +696,9 @@
           {
             "CoachName": "Allison Johnson",
             "Quizzers": [
-              47,
-              51,
-              73
+              52,
+              74,
+              91
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -696,10 +733,11 @@
             "CoachName": "Sue Bull",
             "Quizzers": [
               8,
-              63,
+              33,
               64,
               65,
-              85
+              66,
+              86
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -734,8 +772,8 @@
             "CoachName": "Brittany Alicea",
             "Quizzers": [
               15,
-              40,
-              52
+              42,
+              53
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -770,9 +808,9 @@
             "CoachName": "Ruth Markham",
             "Quizzers": [
               29,
-              48,
-              57,
-              79
+              49,
+              58,
+              80
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -808,9 +846,9 @@
             "Quizzers": [
               3,
               12,
-              36,
-              59,
-              88
+              37,
+              60,
+              89
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -846,8 +884,8 @@
             "Quizzers": [
               2,
               7,
-              69,
-              80
+              70,
+              81
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -881,9 +919,11 @@
           {
             "CoachName": "Faith Osibodu",
             "Quizzers": [
-              68,
-              70,
-              84
+              41,
+              69,
+              71,
+              85,
+              96
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -919,9 +959,9 @@
             "Quizzers": [
               27,
               31,
-              38,
-              72,
-              95
+              39,
+              73,
+              98
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -958,7 +998,7 @@
               0,
               5,
               11,
-              83
+              84
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -988,73 +1028,36 @@
               "Correct30s": 4,
               "FootnoteIndex": 2
             }
-          },
-          {
-            "CoachName": "John Kirchon",
-            "Quizzers": [
-              6,
-              17,
-              89,
-              93
-            ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_db0c57ce-f152-46e0-b362-e14032be7199",
-            "Name": "Victory Church #2",
-            "ChurchName": "Victory Church",
-            "City": "Lakeland",
-            "State": "FL",
-            "Scores": {
-              "Wins": 4,
-              "Losses": 4,
-              "WinPercentage": 50,
-              "Rank": 13,
-              "IsTie": false,
-              "TotalPoints": 935,
-              "PerMeetTotalPoints": [
-                null,
-                935,
-                null
-              ],
-              "AveragePoints": 116.9,
-              "AverageCorrect": 8.9,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 42,
-              "Correct20s": 29,
-              "Correct30s": 0,
-              "FootnoteIndex": 2
-            }
           }
         ],
         "RankedTeams": [
-          11,
-          4,
-          6,
-          7,
-          19,
-          1,
-          24,
-          22,
-          2,
-          23,
-          0,
-          3,
-          26,
-          21,
-          25,
-          16,
-          5,
-          17,
-          18,
-          15,
           12,
+          3,
+          4,
           8,
-          14,
-          9,
-          10,
+          20,
+          1,
+          25,
+          23,
+          2,
+          24,
+          0,
+          7,
+          6,
+          22,
+          26,
+          17,
+          5,
+          18,
+          19,
+          16,
           13,
-          20
+          9,
+          15,
+          10,
+          11,
+          14,
+          21
         ],
         "TeamFootnotes": [
           {
@@ -1234,7 +1237,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_8297ee484f4d4a7de18908dc3747d8d6",
             "Name": "Addie Cruz",
@@ -1296,7 +1299,7 @@
             "City": "Wesley Chapel",
             "State": "FL",
             "Scores": {
-              "Rank": 109,
+              "Rank": 112,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": [
@@ -1531,7 +1534,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_0340b8fabbaf4c99bb3f08dde8cec80b",
             "Name": "Atlas Johnson",
@@ -1585,7 +1588,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_00000000-0000-0000-0000-000000000002_10",
             "Name": "Belle Saylor",
@@ -1695,7 +1698,7 @@
           {
             "TeamName": "Marshmallow Stars",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_104",
+            "Id": "q_00000000-0000-0000-0000-000000000002_107",
             "Name": "Bri Grant",
             "ChurchName": "Harvest Assembly of God",
             "City": "Lakeland",
@@ -1722,7 +1725,7 @@
           {
             "TeamName": "Bible Explorers",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_99",
+            "Id": "q_00000000-0000-0000-0000-000000000002_102",
             "Name": "Bryce Jarriel",
             "ChurchName": "Family Worship Center",
             "City": "Lakeland",
@@ -1749,13 +1752,13 @@
           {
             "TeamName": "Suncoast Glow Girls",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_79",
+            "Id": "q_00000000-0000-0000-0000-000000000002_82",
             "Name": "Brylie Anderson",
             "ChurchName": "Suncoast Church",
             "City": "Saint Petersburg",
             "State": "FL",
             "Scores": {
-              "Rank": 112,
+              "Rank": 115,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": [
@@ -1963,6 +1966,33 @@
             }
           },
           {
+            "TeamName": "The Secret Searchers",
+            "YearsQuizzing": null,
+            "Id": "q_00000000-0000-0000-0000-000000000002_80",
+            "Name": "Daniella Acheampong",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
+            "State": "FL",
+            "Scores": {
+              "Rank": 94,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                null,
+                0,
+                null
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
             "TeamName": "Faith Finders",
             "YearsQuizzing": null,
             "Id": "q_f07de297bd434054bc2c08dde8cec80b",
@@ -1971,7 +2001,7 @@
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Rank": 114,
+              "Rank": 117,
               "IsTie": false,
               "TotalPoints": -25,
               "PerMeetTotalPoints": [
@@ -2019,7 +2049,7 @@
           {
             "TeamName": "Suncoast Glow Girls",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_80",
+            "Id": "q_00000000-0000-0000-0000-000000000002_83",
             "Name": "Elena Gunter",
             "ChurchName": "Suncoast Church",
             "City": "Saint Petersburg",
@@ -2139,6 +2169,33 @@
               "PerMeetTotalPoints": [
                 null,
                 0,
+                null
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_00000000-0000-0000-0000-000000000002_37",
+            "Name": "Ellae Higgins",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
+            "State": "FL",
+            "Scores": {
+              "Rank": 94,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                null,
                 null
               ],
               "AveragePoints": 0.0,
@@ -2314,7 +2371,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_160d5570e1114e7b02f908da83a9aa2a",
             "Name": "Evelyn Olson",
@@ -2338,33 +2395,6 @@
               "Correct20s": 12,
               "Correct30s": 3,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Mighty Noodles",
-            "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_112",
-            "Name": "Extra-1",
-            "ChurchName": "Victory Church",
-            "City": "Lakeland",
-            "State": "FL",
-            "Scores": {
-              "Rank": 57,
-              "IsTie": false,
-              "TotalPoints": 115,
-              "PerMeetTotalPoints": [
-                null,
-                null,
-                115
-              ],
-              "AveragePoints": 14.4,
-              "AverageCorrect": 1.6,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 72,
-              "Correct10s": 13,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
             }
           },
           {
@@ -2557,7 +2587,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_f88a4c5cf1e544e453c608db1204418a",
             "Name": "Hope Williams",
@@ -3151,15 +3181,15 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_2393bc8713c84efbbc1d08dde3580778",
-            "Name": "Leah D'Souza",
+            "Name": "Leah D`Souza",
             "ChurchName": "Creekside Church",
             "City": "Lutz",
             "State": "FL",
             "Scores": {
-              "Rank": 113,
+              "Rank": 116,
               "IsTie": false,
               "TotalPoints": -15,
               "PerMeetTotalPoints": [
@@ -3234,7 +3264,7 @@
           {
             "TeamName": "Trumpet Troopers",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_95",
+            "Id": "q_00000000-0000-0000-0000-000000000002_98",
             "Name": "Liam Wheeler",
             "ChurchName": "Family Worship Center",
             "City": "Lakeland",
@@ -3286,7 +3316,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_00000000-0000-0000-0000-000000000002_11",
             "Name": "Lilly Liebl",
@@ -3421,7 +3451,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_0b8c4480cccc49913bb108dba675c3b5",
             "Name": "Lucy Liebl",
@@ -3475,7 +3505,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_e5dfd8bc1f9c4ddefbf008dccab8b5fe",
             "Name": "Lydia Kirchon",
@@ -3502,9 +3532,36 @@
             }
           },
           {
+            "TeamName": "The Mighty Noodles",
+            "YearsQuizzing": null,
+            "Id": "q_00000000-0000-0000-0000-000000000002_115",
+            "Name": "Maddi White",
+            "ChurchName": "Victory Church",
+            "City": "Lakeland",
+            "State": "FL",
+            "Scores": {
+              "Rank": 57,
+              "IsTie": false,
+              "TotalPoints": 115,
+              "PerMeetTotalPoints": [
+                null,
+                null,
+                115
+              ],
+              "AveragePoints": 14.4,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Marshmallow Stars",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_103",
+            "Id": "q_00000000-0000-0000-0000-000000000002_106",
             "Name": "Maddie LeBryk",
             "ChurchName": "Harvest Assembly of God",
             "City": "Lakeland",
@@ -3583,7 +3640,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_26ee7ed0ca7f4df0018008dba6933274",
             "Name": "Mary Ogle",
@@ -3604,6 +3661,33 @@
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 50,
               "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_00000000-0000-0000-0000-000000000002_38",
+            "Name": "Mayah Acheampong",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
+            "State": "FL",
+            "Scores": {
+              "Rank": 94,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                null,
+                null
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 1
@@ -3780,7 +3864,7 @@
             "City": "Lakeland",
             "State": "Fl",
             "Scores": {
-              "Rank": 109,
+              "Rank": 112,
               "IsTie": true,
               "TotalPoints": -5,
               "PerMeetTotalPoints": [
@@ -3853,7 +3937,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_9dbda717a1494403bc1908dde3580778",
             "Name": "Ryker Metcalf",
@@ -3883,7 +3967,7 @@
             "TeamName": "Ratatouille",
             "YearsQuizzing": null,
             "Id": "q_e290426e01b64b3ea1ad08dde8fa23fc",
-            "Name": "Sadatiel Santiago (Jr)",
+            "Name": "Sadatiel (Jr) Santiago",
             "ChurchName": "Harvest Assembly of God",
             "City": "Lakeland",
             "State": "FL",
@@ -3996,7 +4080,7 @@
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Rank": 109,
+              "Rank": 112,
               "IsTie": true,
               "TotalPoints": -5,
               "PerMeetTotalPoints": [
@@ -4071,7 +4155,7 @@
           {
             "TeamName": "Suncoast Glow Bugs",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_114",
+            "Id": "q_00000000-0000-0000-0000-000000000002_117",
             "Name": "Weston Tyree",
             "ChurchName": "Suncoast Church",
             "City": "Saint Petersburg",
@@ -4098,7 +4182,7 @@
           {
             "TeamName": "Suncoast Glow Bugs",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_113",
+            "Id": "q_00000000-0000-0000-0000-000000000002_116",
             "Name": "Zion Le",
             "ChurchName": "Suncoast Church",
             "City": "Saint Petersburg",
@@ -4123,7 +4207,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_dbc65085682c4e4374a708dde30b48e2",
             "Name": "Zoe Hoopes",
@@ -4153,95 +4237,95 @@
         "RankedQuizzers": [
           11,
           15,
-          111,
+          114,
           7,
           16,
-          38,
-          42,
+          39,
+          44,
+          70,
+          89,
           69,
+          79,
+          48,
+          82,
           88,
           68,
-          78,
-          46,
-          81,
-          87,
-          67,
-          52,
-          94,
-          89,
-          54,
-          107,
-          62,
-          96,
-          65,
+          53,
+          97,
+          90,
+          55,
+          110,
+          63,
+          99,
+          66,
           17,
           19,
-          37,
-          97,
+          38,
+          100,
           5,
-          99,
+          102,
           13,
-          75,
-          44,
-          51,
-          103,
+          76,
+          46,
+          52,
+          106,
           9,
           22,
           28,
-          95,
-          90,
-          55,
-          70,
+          98,
+          92,
+          56,
+          71,
           3,
           32,
-          82,
-          60,
+          83,
+          61,
           20,
           4,
-          92,
+          94,
           0,
           27,
           31,
-          40,
-          58,
-          113,
-          41,
-          26,
-          47,
-          35,
-          98,
-          36,
-          105,
-          66,
-          10,
-          63,
-          72,
-          104,
-          43,
-          45,
-          2,
-          57,
-          83,
-          86,
-          101,
-          6,
-          106,
-          50,
-          76,
-          61,
-          24,
-          53,
-          49,
-          84,
-          74,
-          112,
-          79,
-          12,
-          91,
-          93,
-          85,
+          42,
           59,
+          116,
+          43,
+          26,
+          91,
+          36,
+          101,
+          37,
+          108,
+          67,
+          10,
+          64,
+          73,
+          107,
+          45,
+          47,
+          2,
+          58,
+          84,
+          87,
+          104,
+          6,
+          109,
+          51,
+          77,
+          62,
+          24,
+          54,
+          50,
+          85,
+          75,
+          115,
           80,
+          12,
+          93,
+          95,
+          86,
+          60,
+          81,
           21,
           23,
           1,
@@ -4249,22 +4333,25 @@
           18,
           29,
           30,
-          34,
-          39,
-          48,
-          56,
-          64,
-          71,
-          73,
-          102,
-          109,
-          110,
+          33,
+          35,
+          40,
+          41,
+          49,
+          57,
+          65,
+          72,
+          74,
+          96,
+          105,
+          112,
+          113,
           8,
-          100,
-          108,
+          103,
+          111,
           25,
-          77,
-          33
+          78,
+          34
         ],
         "QuizzerFootnotes": [
           {
@@ -4303,8 +4390,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "West League: September Quizmeet",
-        "LastUpdated": "10/11/25 7:33 PM",
-        "DatabaseLastUpdated": "2025-10-11T18:56:54.6645227+00:00",
+        "LastUpdated": "11/8/25 3:18 AM",
+        "DatabaseLastUpdated": "2025-11-08T01:21:09.9920826+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -4312,9 +4399,9 @@
             "Quizzers": [
               14,
               16,
-              49,
-              91,
-              100
+              51,
+              95,
+              104
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4349,9 +4436,9 @@
             "CoachName": "Christy Weatherholt",
             "Quizzers": [
               18,
-              37,
-              60,
-              74
+              39,
+              62,
+              76
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4383,50 +4470,13 @@
             }
           },
           {
-            "CoachName": "Courtney Olson",
-            "Quizzers": [
-              42,
-              70,
-              96,
-              104
-            ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_28d1f2d5-0841-490b-a2cf-e43ed8323aac",
-            "Name": "Creekside #1",
-            "ChurchName": "Creekside Church",
-            "City": "Lutz",
-            "State": "FL",
-            "Scores": {
-              "Wins": 2,
-              "Losses": 6,
-              "WinPercentage": 25,
-              "Rank": 18,
-              "IsTie": false,
-              "TotalPoints": 805,
-              "PerMeetTotalPoints": [
-                805,
-                null,
-                null
-              ],
-              "AveragePoints": 100.6,
-              "AverageCorrect": 8.0,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 45,
-              "Correct20s": 13,
-              "Correct30s": 6,
-              "FootnoteIndex": 1
-            }
-          },
-          {
             "CoachName": "Whitney Nall",
             "Quizzers": [
-              30,
-              38,
+              31,
               40,
-              46,
-              53
+              42,
+              48,
+              55
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4458,12 +4508,53 @@
             }
           },
           {
+            "CoachName": "Ivette Valentin",
+            "Quizzers": [
+              4,
+              19,
+              50,
+              53,
+              73,
+              77,
+              82,
+              99
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_786cf612-0285-4bb5-8ce9-4c55076c97aa",
+            "Name": "God's Girls",
+            "ChurchName": "Family Worship Center",
+            "City": "Lakeland",
+            "State": "FL",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 4,
+              "WinPercentage": 50,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 1255,
+              "PerMeetTotalPoints": [
+                1255,
+                null,
+                null
+              ],
+              "AveragePoints": 156.9,
+              "AverageCorrect": 11.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 50,
+              "Correct20s": 30,
+              "Correct30s": 8,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "CoachName": "Kourtney Williams",
             "Quizzers": [
               20,
-              79,
-              90,
-              101
+              81,
+              94,
+              105
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4495,53 +4586,86 @@
             }
           },
           {
-            "CoachName": "Ivette Valentin",
+            "CoachName": "John Kirchon",
             "Quizzers": [
-              4,
-              19,
-              48,
-              51,
-              71,
-              75,
-              80,
-              95
+              6,
+              17,
+              84,
+              89
             ],
             "Matches": null,
             "CurrentMatchId": null,
-            "Id": "t_786cf612-0285-4bb5-8ce9-4c55076c97aa",
-            "Name": "J.B.Quties",
-            "ChurchName": "Family Worship Center",
+            "Id": "t_db0c57ce-f152-46e0-b362-e14032be7199",
+            "Name": "Holy Guacamoles",
+            "ChurchName": "Victory Church",
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Wins": 4,
-              "Losses": 4,
-              "WinPercentage": 50,
-              "Rank": 12,
+              "Wins": 2,
+              "Losses": 7,
+              "WinPercentage": 22,
+              "Rank": 19,
               "IsTie": false,
-              "TotalPoints": 1255,
+              "TotalPoints": 570,
               "PerMeetTotalPoints": [
-                1255,
+                null,
+                570,
+                null
+              ],
+              "AveragePoints": 63.3,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 15,
+              "Correct20s": 23,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Courtney Olson",
+            "Quizzers": [
+              44,
+              72,
+              100,
+              108
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_28d1f2d5-0841-490b-a2cf-e43ed8323aac",
+            "Name": "Kingdom Quizzers",
+            "ChurchName": "Creekside Church",
+            "City": "Lutz",
+            "State": "FL",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 6,
+              "WinPercentage": 25,
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 805,
+              "PerMeetTotalPoints": [
+                805,
                 null,
                 null
               ],
-              "AveragePoints": 156.9,
-              "AverageCorrect": 11.0,
+              "AveragePoints": 100.6,
+              "AverageCorrect": 8.0,
               "QuizOuts": 5,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 50,
-              "Correct20s": 30,
-              "Correct30s": 8,
-              "FootnoteIndex": 0
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 45,
+              "Correct20s": 13,
+              "Correct30s": 6,
+              "FootnoteIndex": 1
             }
           },
           {
             "CoachName": "Ramon Valentin",
             "Quizzers": [
-              47,
-              55,
-              94,
-              103
+              49,
+              57,
+              98,
+              107
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4577,9 +4701,9 @@
             "Quizzers": [
               21,
               23,
-              39,
-              83,
-              98
+              41,
+              86,
+              102
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4615,11 +4739,11 @@
             "Quizzers": [
               1,
               10,
-              64,
-              67,
+              66,
               69,
-              97,
-              99
+              71,
+              101,
+              103
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4654,10 +4778,10 @@
             "CoachName": "Laura Horton",
             "Quizzers": [
               22,
-              68,
-              85,
-              89,
-              92
+              70,
+              88,
+              93,
+              96
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4691,11 +4815,11 @@
           {
             "CoachName": "Simon Bennett",
             "Quizzers": [
-              33,
-              35,
-              54,
-              84,
-              102
+              34,
+              36,
+              56,
+              87,
+              106
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4731,8 +4855,8 @@
             "Quizzers": [
               26,
               29,
-              31,
-              41
+              32,
+              43
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4768,7 +4892,7 @@
             "Quizzers": [
               9,
               13,
-              59
+              61
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4802,8 +4926,9 @@
           {
             "CoachName": "Allison Johnson",
             "Quizzers": [
-              44,
-              66
+              46,
+              68,
+              85
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4838,10 +4963,11 @@
             "CoachName": "Sue Bull",
             "Quizzers": [
               8,
-              56,
-              57,
+              30,
               58,
-              78
+              59,
+              60,
+              80
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4876,8 +5002,8 @@
             "CoachName": "Brittany Alicea",
             "Quizzers": [
               15,
-              36,
-              45
+              38,
+              47
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4912,9 +5038,9 @@
             "CoachName": "Ruth Markham",
             "Quizzers": [
               27,
-              43,
-              50,
-              72
+              45,
+              52,
+              74
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4950,9 +5076,9 @@
             "Quizzers": [
               3,
               12,
-              32,
-              52,
-              81
+              33,
+              54,
+              83
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -4989,10 +5115,10 @@
               2,
               7,
               24,
-              62,
-              73,
-              87,
-              93
+              64,
+              75,
+              91,
+              97
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -5026,9 +5152,11 @@
           {
             "CoachName": "Faith Osibodu",
             "Quizzers": [
-              61,
+              37,
               63,
-              77
+              65,
+              79,
+              90
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -5064,9 +5192,9 @@
             "Quizzers": [
               25,
               28,
-              34,
-              65,
-              88
+              35,
+              67,
+              92
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -5103,7 +5231,7 @@
               0,
               5,
               11,
-              76
+              78
             ],
             "Matches": null,
             "CurrentMatchId": null,
@@ -5133,69 +5261,32 @@
               "Correct30s": 1,
               "FootnoteIndex": 1
             }
-          },
-          {
-            "CoachName": "John Kirchon",
-            "Quizzers": [
-              6,
-              17,
-              82,
-              86
-            ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_db0c57ce-f152-46e0-b362-e14032be7199",
-            "Name": "Victory Church #2",
-            "ChurchName": "Victory Church",
-            "City": "Lakeland",
-            "State": "FL",
-            "Scores": {
-              "Wins": 2,
-              "Losses": 7,
-              "WinPercentage": 22,
-              "Rank": 19,
-              "IsTie": false,
-              "TotalPoints": 570,
-              "PerMeetTotalPoints": [
-                null,
-                570,
-                null
-              ],
-              "AveragePoints": 63.3,
-              "AverageCorrect": 4.2,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 15,
-              "Correct20s": 23,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
           }
         ],
         "RankedTeams": [
-          9,
-          17,
-          1,
+          10,
           18,
-          3,
-          0,
-          15,
-          6,
+          1,
           19,
-          21,
+          2,
+          0,
+          16,
+          7,
           20,
-          5,
-          13,
+          22,
+          21,
+          3,
+          14,
           4,
+          13,
           12,
           11,
-          10,
-          2,
-          22,
-          7,
-          14,
+          6,
+          5,
           8,
-          16
+          15,
+          9,
+          17
         ],
         "TeamFootnotes": [
           {
@@ -5317,7 +5408,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_f18e7632849a48353bab08dba675c3b5",
             "Name": "Abigail Nall",
@@ -5371,7 +5462,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_8297ee484f4d4a7de18908dc3747d8d6",
             "Name": "Addie Cruz",
@@ -5668,7 +5759,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_0340b8fabbaf4c99bb3f08dde8cec80b",
             "Name": "Atlas Johnson",
@@ -5722,7 +5813,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_00000000-0000-0000-0000-000000000002_14",
             "Name": "Belle Saylor",
@@ -5832,7 +5923,7 @@
           {
             "TeamName": "Marshmallow Stars",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_98",
+            "Id": "q_00000000-0000-0000-0000-000000000002_101",
             "Name": "Bri Grant",
             "ChurchName": "Harvest Assembly of God",
             "City": "Lakeland",
@@ -6019,6 +6110,33 @@
             }
           },
           {
+            "TeamName": "The Secret Searchers",
+            "YearsQuizzing": null,
+            "Id": "q_00000000-0000-0000-0000-000000000002_78",
+            "Name": "Daniella Acheampong",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
+            "State": "FL",
+            "Scores": {
+              "Rank": 74,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                null,
+                0,
+                null
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Faith Finders",
             "YearsQuizzing": null,
             "Id": "q_f07de297bd434054bc2c08dde8cec80b",
@@ -6027,7 +6145,7 @@
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Rank": 103,
+              "Rank": 107,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": [
@@ -6160,6 +6278,33 @@
             "Name": "Ella Knellinger",
             "ChurchName": "Suncoast Church",
             "City": "Saint Petersburg",
+            "State": "FL",
+            "Scores": {
+              "Rank": 74,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                null,
+                null
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_00000000-0000-0000-0000-000000000002_35",
+            "Name": "Ellae Higgins",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
             "State": "FL",
             "Scores": {
               "Rank": 74,
@@ -6343,7 +6488,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_160d5570e1114e7b02f908da83a9aa2a",
             "Name": "Evelyn Olson",
@@ -6505,7 +6650,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_f88a4c5cf1e544e453c608db1204418a",
             "Name": "Hope Williams",
@@ -6586,7 +6731,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_cc8f6c25aa604a11502c08dcc9399ae6",
             "Name": "Isaiah Marshall",
@@ -7099,7 +7244,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_2393bc8713c84efbbc1d08dde3580778",
             "Name": "Leah D`Souza",
@@ -7107,7 +7252,7 @@
             "City": "Lutz",
             "State": "FL",
             "Scores": {
-              "Rank": 104,
+              "Rank": 108,
               "IsTie": false,
               "TotalPoints": -15,
               "PerMeetTotalPoints": [
@@ -7126,7 +7271,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_347be2991ae1434e507b08dcc9399ae6",
             "Name": "Leo Frazier",
@@ -7161,7 +7306,7 @@
             "City": "Spring Hill",
             "State": "FL",
             "Scores": {
-              "Rank": 105,
+              "Rank": 109,
               "IsTie": false,
               "TotalPoints": -30,
               "PerMeetTotalPoints": [
@@ -7182,7 +7327,7 @@
           {
             "TeamName": "Trumpet Troopers",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_93",
+            "Id": "q_00000000-0000-0000-0000-000000000002_96",
             "Name": "Liam Wheeler",
             "ChurchName": "Family Worship Center",
             "City": "Lakeland",
@@ -7234,7 +7379,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_00000000-0000-0000-0000-000000000002_15",
             "Name": "Lilly Liebl",
@@ -7369,7 +7514,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_0b8c4480cccc49913bb108dba675c3b5",
             "Name": "Lucy Liebl",
@@ -7423,7 +7568,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_e5dfd8bc1f9c4ddefbf008dccab8b5fe",
             "Name": "Lydia Kirchon",
@@ -7450,9 +7595,36 @@
             }
           },
           {
+            "TeamName": "The Mighty Noodles",
+            "YearsQuizzing": null,
+            "Id": "q_00000000-0000-0000-0000-000000000002_109",
+            "Name": "Maddi White",
+            "ChurchName": "Victory Church",
+            "City": "Lakeland",
+            "State": "FL",
+            "Scores": {
+              "Rank": 74,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                null,
+                null,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Marshmallow Stars",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_97",
+            "Id": "q_00000000-0000-0000-0000-000000000002_100",
             "Name": "Maddie LeBryk",
             "ChurchName": "Harvest Assembly of God",
             "City": "Lakeland",
@@ -7531,7 +7703,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_26ee7ed0ca7f4df0018008dba6933274",
             "Name": "Mary Ogle",
@@ -7545,6 +7717,33 @@
               "PerMeetTotalPoints": [
                 null,
                 0,
+                null
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_00000000-0000-0000-0000-000000000002_36",
+            "Name": "Mayah Acheampong",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
+            "State": "FL",
+            "Scores": {
+              "Rank": 74,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                null,
                 null
               ],
               "AveragePoints": 0.0,
@@ -7728,7 +7927,7 @@
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Rank": 102,
+              "Rank": 106,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": [
@@ -7774,7 +7973,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_a523225a71cd4444501108dcc9399ae6",
             "Name": "Ruby Jane Denton",
@@ -7801,7 +8000,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_9dbda717a1494403bc1908dde3580778",
             "Name": "Ryker Metcalf",
@@ -8017,7 +8216,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_dbc65085682c4e4374a708dde30b48e2",
             "Name": "Zoe Hoopes",
@@ -8045,80 +8244,80 @@
           }
         ],
         "RankedQuizzers": [
-          60,
-          81,
-          68,
-          38,
-          61,
-          55,
-          0,
-          58,
-          28,
-          31,
-          22,
-          42,
-          13,
-          85,
-          7,
-          33,
           62,
-          74,
+          83,
+          70,
           40,
-          95,
-          15,
-          48,
           63,
-          100,
+          57,
+          0,
+          60,
+          28,
+          32,
+          22,
+          44,
+          13,
+          88,
+          7,
+          34,
+          64,
+          76,
+          42,
+          99,
+          15,
+          50,
+          65,
+          104,
           5,
           17,
-          47,
-          36,
-          88,
+          49,
+          38,
+          92,
           20,
           9,
-          44,
-          49,
-          98,
-          91,
-          87,
-          92,
-          3,
-          96,
-          32,
-          25,
+          46,
           51,
-          90,
-          69,
-          34,
+          102,
+          95,
+          91,
+          96,
+          3,
+          100,
+          33,
+          25,
+          53,
+          94,
+          71,
+          35,
           29,
           26,
-          45,
-          79,
-          76,
-          104,
-          54,
+          47,
+          81,
+          78,
+          108,
+          56,
           6,
-          101,
-          59,
-          71,
-          80,
-          52,
-          37,
-          46,
-          53,
+          105,
+          61,
+          73,
+          82,
+          54,
+          39,
+          48,
+          55,
           4,
           27,
-          89,
-          43,
+          93,
+          45,
           2,
-          99,
-          97,
-          57,
+          103,
+          101,
+          59,
           24,
-          94,
-          41,
+          98,
+          43,
           12,
-          50,
+          52,
           1,
           8,
           10,
@@ -8129,27 +8328,31 @@
           19,
           21,
           23,
-          35,
-          39,
-          56,
-          64,
-          65,
+          30,
+          36,
+          37,
+          41,
+          58,
           66,
           67,
-          73,
+          68,
+          69,
           75,
           77,
-          78,
-          82,
-          83,
+          79,
+          80,
           84,
+          85,
           86,
-          102,
-          103,
-          93,
-          30,
-          70,
-          72
+          87,
+          89,
+          90,
+          106,
+          107,
+          97,
+          31,
+          72,
+          74
         ],
         "QuizzerFootnotes": [
           {
@@ -16600,17 +16803,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "West: September: Achiever",
-        "LastUpdated": "10/11/25 7:33 PM",
-        "DatabaseLastUpdated": "2025-10-11T18:56:54.6645227+00:00",
+        "LastUpdated": "11/8/25 3:18 AM",
+        "DatabaseLastUpdated": "2025-11-08T01:21:09.9920826+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": "Christy Weatherholt",
             "Quizzers": [
               8,
-              13,
-              19,
-              28
+              14,
+              20,
+              29
             ],
             "Matches": [
               {
@@ -16665,7 +16868,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 200,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               null,
               {
@@ -16675,7 +16878,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 195,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -16712,12 +16915,123 @@
             }
           },
           {
+            "CoachName": "Ivette Valentin",
+            "Quizzers": [
+              2,
+              9,
+              16,
+              17,
+              28,
+              30,
+              33,
+              39
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 245,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_786cf612-0285-4bb5-8ce9-4c55076c97aa",
+            "Name": "God's Girls",
+            "ChurchName": "Family Worship Center",
+            "City": "Lakeland",
+            "State": "FL",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 4,
+              "WinPercentage": 50,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 1255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 156.9,
+              "AverageCorrect": 11.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 50,
+              "Correct20s": 30,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            }
+          },
+          {
             "CoachName": "Courtney Olson",
             "Quizzers": [
-              14,
-              26,
-              38,
-              42
+              15,
+              27,
+              40,
+              44
             ],
             "Matches": [
               {
@@ -16763,7 +17077,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 75,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               null,
               {
@@ -16796,7 +17110,7 @@
             ],
             "CurrentMatchId": null,
             "Id": "t_28d1f2d5-0841-490b-a2cf-e43ed8323aac",
-            "Name": "Creekside #1",
+            "Name": "Kingdom Quizzers",
             "ChurchName": "Creekside Church",
             "City": "Lutz",
             "State": "FL",
@@ -16819,126 +17133,15 @@
             }
           },
           {
-            "CoachName": "Ivette Valentin",
-            "Quizzers": [
-              2,
-              9,
-              15,
-              16,
-              27,
-              29,
-              32,
-              37
-            ],
-            "Matches": [
-              null,
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 110,
-                "OtherTeam": 8
-              },
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 210,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 175,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 110,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 190,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 145,
-                "OtherTeam": 7
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 245,
-                "OtherTeam": 3
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_786cf612-0285-4bb5-8ce9-4c55076c97aa",
-            "Name": "J.B.Quties",
-            "ChurchName": "Family Worship Center",
-            "City": "Lakeland",
-            "State": "FL",
-            "Scores": {
-              "Wins": 4,
-              "Losses": 4,
-              "WinPercentage": 50,
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 1255,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 156.9,
-              "AverageCorrect": 11.0,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 50,
-              "Correct20s": 30,
-              "Correct30s": 8,
-              "FootnoteIndex": null
-            }
-          },
-          {
             "CoachName": "Elizabeth Paisley",
             "Quizzers": [
               1,
               5,
-              22,
               23,
-              25,
-              39,
-              40
+              24,
+              26,
+              41,
+              42
             ],
             "Matches": [
               {
@@ -16957,7 +17160,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 60,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -17012,7 +17215,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": -20,
-                "OtherTeam": 2
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -17043,10 +17246,10 @@
             "CoachName": "Laura Horton",
             "Quizzers": [
               10,
-              24,
-              34,
+              25,
               35,
-              36
+              37,
+              38
             ],
             "Matches": [
               {
@@ -17074,7 +17277,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 235,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -17110,7 +17313,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 350,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -17152,9 +17355,9 @@
             "Quizzers": [
               11,
               12,
-              17,
-              33,
-              41
+              18,
+              34,
+              43
             ],
             "Matches": [
               {
@@ -17174,7 +17377,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 160,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -17183,7 +17386,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 0,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -17260,7 +17463,7 @@
             "Quizzers": [
               4,
               7,
-              18
+              19
             ],
             "Matches": [
               {
@@ -17270,7 +17473,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 200,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -17316,7 +17519,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 5,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -17364,9 +17567,11 @@
           {
             "CoachName": "Faith Osibodu",
             "Quizzers": [
-              20,
+              13,
               21,
-              31
+              22,
+              32,
+              36
             ],
             "Matches": [
               {
@@ -17431,7 +17636,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 170,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -17440,7 +17645,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 130,
-                "OtherTeam": 1
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -17473,7 +17678,7 @@
               0,
               3,
               6,
-              30
+              31
             ],
             "Matches": [
               {
@@ -17492,7 +17697,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 165,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -17510,7 +17715,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 165,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               null,
               {
@@ -17580,10 +17785,10 @@
           0,
           7,
           8,
-          2,
+          1,
           6,
           5,
-          1,
+          2,
           3
         ],
         "TeamFootnotes": [
@@ -17640,7 +17845,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_f18e7632849a48353bab08dba675c3b5",
             "Name": "Abigail Nall",
@@ -17801,7 +18006,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_62",
             "Name": "Belle Saylor",
@@ -17893,6 +18098,29 @@
             }
           },
           {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_203",
+            "Name": "Ellae Higgins",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
+            "State": "FL",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Christian Cookie Crew",
             "YearsQuizzing": null,
             "Id": "q_81cf317a4e344d893aa008d988717fa0",
@@ -17916,7 +18144,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_160d5570e1114e7b02f908da83a9aa2a",
             "Name": "Evelyn Olson",
@@ -17939,7 +18167,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_f88a4c5cf1e544e453c608db1204418a",
             "Name": "Hope Williams",
@@ -17962,7 +18190,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_cc8f6c25aa604a11502c08dcc9399ae6",
             "Name": "Isaiah Marshall",
@@ -18192,7 +18420,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_2393bc8713c84efbbc1d08dde3580778",
             "Name": "Leah D`Souza",
@@ -18200,7 +18428,7 @@
             "City": "Lutz",
             "State": "FL",
             "Scores": {
-              "Rank": 43,
+              "Rank": 45,
               "IsTie": false,
               "TotalPoints": -15,
               "PerMeetTotalPoints": null,
@@ -18215,7 +18443,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_347be2991ae1434e507b08dcc9399ae6",
             "Name": "Leo Frazier",
@@ -18261,7 +18489,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_63",
             "Name": "Lilly Liebl",
@@ -18330,7 +18558,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_0b8c4480cccc49913bb108dba675c3b5",
             "Name": "Lucy Liebl",
@@ -18399,6 +18627,29 @@
             }
           },
           {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_204",
+            "Name": "Mayah Acheampong",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
+            "State": "FL",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Spirit Squad",
             "YearsQuizzing": null,
             "Id": "q_a96935d04b0e4d74f55208da88f23c42",
@@ -18445,7 +18696,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_a523225a71cd4444501108dcc9399ae6",
             "Name": "Ruby Jane Denton",
@@ -18468,7 +18719,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_9dbda717a1494403bc1908dde3580778",
             "Name": "Ryker Metcalf",
@@ -18560,7 +18811,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_dbc65085682c4e4374a708dde30b48e2",
             "Name": "Zoe Hoopes",
@@ -18584,49 +18835,51 @@
           }
         ],
         "RankedQuizzers": [
-          19,
-          24,
           20,
+          25,
+          21,
           0,
           10,
-          14,
-          7,
-          34,
-          11,
-          28,
-          37,
           15,
-          21,
+          7,
+          35,
+          11,
+          29,
+          39,
+          16,
+          22,
           3,
           4,
-          36,
           38,
-          16,
-          25,
-          30,
-          42,
-          17,
-          18,
-          27,
-          32,
-          13,
-          2,
-          35,
           40,
-          39,
+          17,
+          26,
+          31,
+          44,
+          18,
+          19,
+          28,
+          33,
+          14,
+          2,
+          37,
+          42,
+          41,
           1,
           5,
           6,
           8,
           9,
           12,
-          22,
+          13,
           23,
-          29,
-          31,
-          33,
-          41,
-          26
+          24,
+          30,
+          32,
+          34,
+          36,
+          43,
+          27
         ],
         "QuizzerFootnotes": [
           {
@@ -18647,7 +18900,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 6,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -18670,7 +18923,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
@@ -18703,14 +18956,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
@@ -18740,7 +18993,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -18764,7 +19017,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 2,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -18780,7 +19033,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 7,
-                "Team2": 2,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -18809,7 +19062,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 8,
-                "Team2": 2,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -18825,7 +19078,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 8,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -18849,7 +19102,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 4,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -18865,7 +19118,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 7,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -18885,7 +19138,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 2,
                 "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
@@ -18894,7 +19147,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 4,
-                "Team2": 2,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -18909,8 +19162,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
+                "Team1": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -18925,7 +19178,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 6,
                 "State": "Completed",
                 "Blockers": null
@@ -19025,18 +19278,18 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "West: September: Searcher",
-        "LastUpdated": "10/11/25 7:33 PM",
-        "DatabaseLastUpdated": "2025-10-11T18:56:54.6645227+00:00",
+        "LastUpdated": "11/8/25 3:18 AM",
+        "DatabaseLastUpdated": "2025-11-08T01:21:09.9920826+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": "Whitney Nall",
             "Quizzers": [
-              10,
-              14,
+              11,
               15,
-              17,
-              20
+              16,
+              18,
+              21
             ],
             "Matches": [
               {
@@ -19046,7 +19299,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 90,
-                "OtherTeam": 7
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -19055,7 +19308,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 205,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -19064,7 +19317,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 155,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "W",
@@ -19073,7 +19326,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 125,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -19091,7 +19344,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 95,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "W",
@@ -19100,7 +19353,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 175,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
@@ -19109,7 +19362,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 215,
-                "OtherTeam": 7
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -19118,7 +19371,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 190,
-                "OtherTeam": 2
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -19149,9 +19402,9 @@
             "CoachName": "Kourtney Williams",
             "Quizzers": [
               5,
-              27,
-              32,
-              34
+              28,
+              33,
+              35
             ],
             "Matches": [
               {
@@ -19161,7 +19414,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 40,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -19170,7 +19423,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 110,
-                "OtherTeam": 7
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -19179,7 +19432,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 45,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "W",
@@ -19188,7 +19441,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 150,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -19206,7 +19459,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 65,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -19215,7 +19468,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 75,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "W",
@@ -19224,7 +19477,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 115,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -19233,7 +19486,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 160,
-                "OtherTeam": 7
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -19261,12 +19514,127 @@
             }
           },
           {
+            "CoachName": "John Kirchon",
+            "Quizzers": [
+              1,
+              4,
+              30,
+              31
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "7",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "6",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "8",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "6",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "7",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "6",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "8",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_db0c57ce-f152-46e0-b362-e14032be7199",
+            "Name": "Holy Guacamoles",
+            "ChurchName": "Victory Church",
+            "City": "Lakeland",
+            "State": "FL",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 7,
+              "WinPercentage": 22,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 570,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.3,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 15,
+              "Correct20s": 23,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
             "CoachName": "Ramon Valentin",
             "Quizzers": [
-              18,
-              21,
-              33,
-              35
+              19,
+              22,
+              34,
+              36
             ],
             "Matches": [
               {
@@ -19276,7 +19644,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 105,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -19294,7 +19662,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 145,
-                "OtherTeam": 7
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -19303,7 +19671,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 105,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "W",
@@ -19312,7 +19680,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 140,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -19330,7 +19698,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "W",
@@ -19339,7 +19707,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 210,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -19380,8 +19748,8 @@
             "Quizzers": [
               7,
               9,
-              11,
-              16
+              12,
+              17
             ],
             "Matches": [
               {
@@ -19400,7 +19768,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 115,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "W",
@@ -19409,7 +19777,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 150,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -19427,7 +19795,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 105,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -19436,7 +19804,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 120,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "W",
@@ -19445,7 +19813,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 170,
-                "OtherTeam": 7
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -19463,7 +19831,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 120,
-                "OtherTeam": 5
+                "OtherTeam": 6
               }
             ],
             "CurrentMatchId": null,
@@ -19494,10 +19862,11 @@
             "CoachName": "Sue Bull",
             "Quizzers": [
               2,
-              22,
+              10,
               23,
               24,
-              26
+              25,
+              27
             ],
             "Matches": [
               {
@@ -19507,7 +19876,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -19516,7 +19885,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 40,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "L",
@@ -19525,7 +19894,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 60,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -19543,7 +19912,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 60,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "W",
@@ -19552,7 +19921,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 150,
-                "OtherTeam": 7
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -19570,7 +19939,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -19579,7 +19948,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 65,
-                "OtherTeam": 6
+                "OtherTeam": 7
               }
             ],
             "CurrentMatchId": null,
@@ -19611,9 +19980,9 @@
             "Quizzers": [
               0,
               3,
-              12,
-              19,
-              28
+              13,
+              20,
+              29
             ],
             "Matches": [
               {
@@ -19623,7 +19992,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 110,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "W",
@@ -19632,7 +20001,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 170,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -19650,7 +20019,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 265,
-                "OtherTeam": 7
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -19659,7 +20028,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 195,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
@@ -19677,7 +20046,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 180,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -19686,7 +20055,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 155,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "W",
@@ -19695,7 +20064,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 145,
-                "OtherTeam": 3
+                "OtherTeam": 4
               }
             ],
             "CurrentMatchId": null,
@@ -19727,9 +20096,9 @@
             "Quizzers": [
               6,
               8,
-              13,
-              25,
-              31
+              14,
+              26,
+              32
             ],
             "Matches": [
               {
@@ -19739,7 +20108,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 145,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "W",
@@ -19748,7 +20117,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 240,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -19766,7 +20135,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -19775,7 +20144,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 180,
-                "OtherTeam": 7
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -19784,7 +20153,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 110,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -19802,7 +20171,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 105,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "W",
@@ -19811,7 +20180,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 190,
-                "OtherTeam": 4
+                "OtherTeam": 5
               }
             ],
             "CurrentMatchId": null,
@@ -19837,132 +20206,17 @@
               "Correct30s": 0,
               "FootnoteIndex": null
             }
-          },
-          {
-            "CoachName": "John Kirchon",
-            "Quizzers": [
-              1,
-              4,
-              29,
-              30
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "5",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "7",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 120,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "6",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "8",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": -10,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "6",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "7",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "5",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "6",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "8",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_db0c57ce-f152-46e0-b362-e14032be7199",
-            "Name": "Victory Church #2",
-            "ChurchName": "Victory Church",
-            "City": "Lakeland",
-            "State": "FL",
-            "Scores": {
-              "Wins": 2,
-              "Losses": 7,
-              "WinPercentage": 22,
-              "Rank": 7,
-              "IsTie": false,
-              "TotalPoints": 570,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 63.3,
-              "AverageCorrect": 4.2,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 15,
-              "Correct20s": 23,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
           }
         ],
         "RankedTeams": [
-          5,
-          0,
-          2,
           6,
-          1,
+          0,
           3,
           7,
-          4
+          1,
+          4,
+          2,
+          5
         ],
         "TeamFootnotes": [],
         "Quizzers": [
@@ -19990,7 +20244,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_8297ee484f4d4a7de18908dc3747d8d6",
             "Name": "Addie Cruz",
@@ -20059,7 +20313,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_0340b8fabbaf4c99bb3f08dde8cec80b",
             "Name": "Atlas Johnson",
@@ -20197,6 +20451,29 @@
             }
           },
           {
+            "TeamName": "The Secret Searchers",
+            "YearsQuizzing": null,
+            "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_214",
+            "Name": "Daniella Acheampong",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
+            "State": "FL",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Faith Finders",
             "YearsQuizzing": null,
             "Id": "q_f07de297bd434054bc2c08dde8cec80b",
@@ -20205,7 +20482,7 @@
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Rank": 36,
+              "Rank": 37,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": null,
@@ -20634,7 +20911,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_e5dfd8bc1f9c4ddefbf008dccab8b5fe",
             "Name": "Lydia Kirchon",
@@ -20657,7 +20934,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_26ee7ed0ca7f4df0018008dba6933274",
             "Name": "Mary Ogle",
@@ -20796,42 +21073,43 @@
           }
         ],
         "RankedQuizzers": [
-          28,
-          14,
-          21,
-          24,
-          8,
-          11,
+          29,
           15,
-          4,
-          18,
-          31,
-          5,
-          0,
-          12,
-          6,
-          32,
-          13,
-          9,
-          7,
-          27,
-          1,
-          34,
-          19,
-          17,
-          20,
-          23,
-          33,
-          16,
-          3,
-          2,
           22,
           25,
-          26,
-          29,
-          30,
+          8,
+          12,
+          16,
+          4,
+          19,
+          32,
+          5,
+          0,
+          13,
+          6,
+          33,
+          14,
+          9,
+          7,
+          28,
+          1,
           35,
-          10
+          20,
+          18,
+          21,
+          24,
+          34,
+          17,
+          3,
+          2,
+          10,
+          23,
+          26,
+          27,
+          30,
+          31,
+          36,
+          11
         ],
         "QuizzerFootnotes": [
           {
@@ -20848,14 +21126,6 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 7,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
                 "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
@@ -20863,24 +21133,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 6,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 4,
+                "Team1": 0,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -20888,7 +21142,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 6,
-                "Team2": 3,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -20903,138 +21157,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 6,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              }
-            ]
-          },
-          {
-            "Name": "6",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 7,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 7,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 7,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              }
-            ]
-          },
-          {
-            "Name": "7",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 6,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 7,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 1,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -21049,7 +21173,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
+                "Team1": 4,
                 "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
@@ -21057,7 +21181,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -21065,21 +21189,21 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 3,
+                "Team1": 7,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               }
             ]
           },
           {
-            "Name": "8",
+            "Name": "6",
             "Matches": [
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 3,
+                "Team1": 3,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -21094,15 +21218,68 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 6,
+                "Team1": 3,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "7",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
                 "Team2": 7,
                 "State": "Completed",
                 "Blockers": null
@@ -21110,16 +21287,16 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
+                "Team1": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
+                "Team1": 4,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -21134,8 +21311,109 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 6,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "8",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 7,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -21143,7 +21421,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 7,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -21226,8 +21504,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "West: September: Rising Stars",
-        "LastUpdated": "10/11/25 7:33 PM",
-        "DatabaseLastUpdated": "2025-10-11T18:56:54.6645227+00:00",
+        "LastUpdated": "11/8/25 3:18 AM",
+        "DatabaseLastUpdated": "2025-11-08T01:21:09.9920826+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -21236,8 +21514,8 @@
               2,
               4,
               14,
-              22,
-              25
+              23,
+              26
             ],
             "Matches": [
               {
@@ -21343,8 +21621,8 @@
               5,
               6,
               10,
-              20,
-              24
+              21,
+              25
             ],
             "Matches": [
               {
@@ -21448,7 +21726,8 @@
             "CoachName": "Allison Johnson",
             "Quizzers": [
               12,
-              17
+              17,
+              20
             ],
             "Matches": [
               {
@@ -21767,8 +22046,8 @@
               7,
               16,
               19,
-              21,
-              23
+              22,
+              24
             ],
             "Matches": [
               {
@@ -22307,7 +22586,7 @@
             "City": "Spring Hill",
             "State": "FL",
             "Scores": {
-              "Rank": 26,
+              "Rank": 27,
               "IsTie": false,
               "TotalPoints": -30,
               "PerMeetTotalPoints": null,
@@ -22327,6 +22606,29 @@
             "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_98",
             "Name": "Liam Wheeler",
             "ChurchName": "Family Worship Center",
+            "City": "Lakeland",
+            "State": "FL",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "The Mighty Noodles",
+            "YearsQuizzing": null,
+            "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_265",
+            "Name": "Maddi White",
+            "ChurchName": "Victory Church",
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
@@ -22422,7 +22724,7 @@
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Rank": 25,
+              "Rank": 26,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -22487,13 +22789,13 @@
           1,
           16,
           3,
-          25,
+          26,
           9,
           12,
           14,
-          24,
+          25,
+          23,
           22,
-          21,
           13,
           8,
           11,
@@ -22508,7 +22810,8 @@
           17,
           19,
           20,
-          23,
+          21,
+          24,
           18
         ],
         "QuizzerFootnotes": [
@@ -22801,17 +23104,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "West: October: Achiever Division",
-        "LastUpdated": "10/11/25 7:33 PM",
-        "DatabaseLastUpdated": "2025-10-11T18:56:54.6645227+00:00",
+        "LastUpdated": "11/8/25 3:18 AM",
+        "DatabaseLastUpdated": "2025-11-08T01:21:09.9920826+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": "Christy Weatherholt",
             "Quizzers": [
               8,
-              13,
-              21,
-              29
+              14,
+              22,
+              30
             ],
             "Matches": [
               {
@@ -22821,7 +23124,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 195,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -22866,7 +23169,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -22921,127 +23224,12 @@
             }
           },
           {
-            "CoachName": "Courtney Olson",
-            "Quizzers": [
-              14,
-              28,
-              39,
-              43
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 220,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "W",
-                "RoomId": 5,
-                "Room": "5",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 190,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 125,
-                "OtherTeam": 8
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 145,
-                "OtherTeam": 7
-              },
-              {
-                "Result": "L",
-                "RoomId": 5,
-                "Room": "5",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 135,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 165,
-                "OtherTeam": 9
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_28d1f2d5-0841-490b-a2cf-e43ed8323aac",
-            "Name": "Creekside #1",
-            "ChurchName": "Creekside Church",
-            "City": "Lutz",
-            "State": "FL",
-            "Scores": {
-              "Wins": 5,
-              "Losses": 4,
-              "WinPercentage": 56,
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 1170,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 130.0,
-              "AverageCorrect": 9.3,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 84,
-              "Correct10s": 52,
-              "Correct20s": 21,
-              "Correct30s": 11,
-              "FootnoteIndex": null
-            }
-          },
-          {
             "CoachName": "Ivette Valentin",
             "Quizzers": [
               9,
-              17,
-              30,
-              33
+              18,
+              31,
+              34
             ],
             "Matches": [
               {
@@ -23105,7 +23293,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 215,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -23128,7 +23316,7 @@
             ],
             "CurrentMatchId": null,
             "Id": "t_786cf612-0285-4bb5-8ce9-4c55076c97aa",
-            "Name": "J.B.Quties",
+            "Name": "God's Girls",
             "ChurchName": "Family Worship Center",
             "City": "Lakeland",
             "State": "FL",
@@ -23151,14 +23339,129 @@
             }
           },
           {
+            "CoachName": "Courtney Olson",
+            "Quizzers": [
+              15,
+              29,
+              41,
+              45
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 9
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_28d1f2d5-0841-490b-a2cf-e43ed8323aac",
+            "Name": "Kingdom Quizzers",
+            "ChurchName": "Creekside Church",
+            "City": "Lutz",
+            "State": "FL",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 4,
+              "WinPercentage": 56,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 1170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 130.0,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 52,
+              "Correct20s": 21,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
             "CoachName": null,
             "Quizzers": [
               2,
               11,
-              15,
               16,
-              18,
-              38
+              17,
+              19,
+              40
             ],
             "Matches": [
               {
@@ -23186,7 +23489,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -23204,7 +23507,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 40,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -23272,11 +23575,11 @@
             "Quizzers": [
               1,
               5,
-              24,
               25,
-              27,
-              40,
-              41
+              26,
+              28,
+              42,
+              43
             ],
             "Matches": [
               {
@@ -23295,7 +23598,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 15,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -23358,7 +23661,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 2
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -23389,10 +23692,10 @@
             "CoachName": "Laura Horton",
             "Quizzers": [
               10,
-              26,
-              35,
+              27,
               36,
-              37
+              38,
+              39
             ],
             "Matches": [
               {
@@ -23420,7 +23723,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 215,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -23429,7 +23732,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 250,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -23505,9 +23808,9 @@
             "CoachName": "Simon Bennett",
             "Quizzers": [
               12,
-              19,
-              34,
-              42
+              20,
+              35,
+              44
             ],
             "Matches": [
               {
@@ -23526,7 +23829,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 40,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -23580,7 +23883,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -23621,7 +23924,7 @@
             "Quizzers": [
               4,
               7,
-              20
+              21
             ],
             "Matches": [
               {
@@ -23658,7 +23961,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -23676,7 +23979,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 105,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -23733,9 +24036,11 @@
           {
             "CoachName": "Faith Osibodu",
             "Quizzers": [
-              22,
+              13,
               23,
-              32
+              24,
+              33,
+              37
             ],
             "Matches": [
               {
@@ -23781,7 +24086,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 155,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -23808,7 +24113,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 120,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -23850,7 +24155,7 @@
               0,
               3,
               6,
-              31
+              32
             ],
             "Matches": [
               {
@@ -23860,7 +24165,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 50,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -23932,7 +24237,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 95,
-                "OtherTeam": 1
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -23962,10 +24267,10 @@
         ],
         "RankedTeams": [
           5,
-          2,
+          1,
           0,
           8,
-          1,
+          2,
           9,
           7,
           6,
@@ -24187,7 +24492,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_62",
             "Name": "Belle Saylor",
@@ -24279,6 +24584,29 @@
             }
           },
           {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_203",
+            "Name": "Ellae Higgins",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
+            "State": "FL",
+            "Scores": {
+              "Rank": 38,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
             "TeamName": "Christian Cookie Crew",
             "YearsQuizzing": null,
             "Id": "q_81cf317a4e344d893aa008d988717fa0",
@@ -24302,7 +24630,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_160d5570e1114e7b02f908da83a9aa2a",
             "Name": "Evelyn Olson",
@@ -24371,7 +24699,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_f88a4c5cf1e544e453c608db1204418a",
             "Name": "Hope Williams",
@@ -24624,15 +24952,15 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_2393bc8713c84efbbc1d08dde3580778",
-            "Name": "Leah D'Souza",
+            "Name": "Leah D`Souza",
             "ChurchName": "Creekside Church",
             "City": "Lutz",
             "State": "FL",
             "Scores": {
-              "Rank": 44,
+              "Rank": 46,
               "IsTie": false,
               "TotalPoints": -15,
               "PerMeetTotalPoints": null,
@@ -24670,7 +24998,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_63",
             "Name": "Lilly Liebl",
@@ -24739,7 +25067,7 @@
             }
           },
           {
-            "TeamName": "J.B.Quties",
+            "TeamName": "God's Girls",
             "YearsQuizzing": null,
             "Id": "q_0b8c4480cccc49913bb108dba675c3b5",
             "Name": "Lucy Liebl",
@@ -24805,6 +25133,29 @@
               "Correct20s": 16,
               "Correct30s": 0,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_204",
+            "Name": "Mayah Acheampong",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
+            "State": "FL",
+            "Scores": {
+              "Rank": 38,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
             }
           },
           {
@@ -24877,7 +25228,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_9dbda717a1494403bc1908dde3580778",
             "Name": "Ryker Metcalf",
@@ -24903,7 +25254,7 @@
             "TeamName": "Ratatouille",
             "YearsQuizzing": null,
             "Id": "q_e290426e01b64b3ea1ad08dde8fa23fc",
-            "Name": "Sadatiel Santiago (Jr)",
+            "Name": "Sadatiel (Jr) Santiago",
             "ChurchName": "Harvest Assembly of God",
             "City": "Lakeland",
             "State": "FL",
@@ -24969,7 +25320,7 @@
             }
           },
           {
-            "TeamName": "Creekside #1",
+            "TeamName": "Kingdom Quizzers",
             "YearsQuizzing": null,
             "Id": "q_dbc65085682c4e4374a708dde30b48e2",
             "Name": "Zoe Hoopes",
@@ -24993,50 +25344,52 @@
           }
         ],
         "RankedQuizzers": [
+          23,
           22,
-          21,
-          26,
+          27,
           6,
           9,
-          14,
+          15,
           3,
-          29,
+          30,
           12,
           4,
-          33,
-          36,
-          17,
-          37,
-          39,
-          7,
-          23,
-          30,
-          35,
-          10,
-          18,
-          2,
-          43,
-          20,
-          0,
-          13,
-          5,
-          40,
-          41,
-          16,
-          31,
-          27,
-          19,
-          32,
-          25,
-          15,
           34,
+          38,
+          18,
+          39,
+          41,
+          7,
+          24,
+          31,
+          36,
+          10,
+          19,
+          2,
+          45,
+          21,
+          0,
+          14,
+          5,
+          42,
+          43,
+          17,
+          32,
+          28,
+          20,
+          33,
+          26,
+          16,
+          35,
           1,
           8,
           11,
-          24,
-          38,
-          42,
-          28
+          13,
+          25,
+          37,
+          40,
+          44,
+          29
         ],
         "QuizzerFootnotes": [
           {
@@ -25064,7 +25417,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 2,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -25080,7 +25433,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 7,
                 "State": "Completed",
                 "Blockers": null
@@ -25112,7 +25465,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 8,
                 "State": "Completed",
                 "Blockers": null
@@ -25134,7 +25487,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -25150,7 +25503,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 2,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -25173,7 +25526,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 2,
                 "Team2": 7,
                 "State": "Completed",
                 "Blockers": null
@@ -25197,7 +25550,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -25235,14 +25588,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
@@ -25274,7 +25627,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 2,
                 "Team2": 9,
                 "State": "Completed",
                 "Blockers": null
@@ -25295,7 +25648,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 6,
                 "State": "Completed",
                 "Blockers": null
@@ -25320,14 +25673,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 8,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -25343,7 +25696,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 2,
                 "Team2": 6,
                 "State": "Completed",
                 "Blockers": null
@@ -25364,7 +25717,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 9,
                 "State": "Completed",
                 "Blockers": null
@@ -25380,7 +25733,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 2,
                 "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
@@ -25412,8 +25765,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
+                "Team1": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -25512,18 +25865,18 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "West: October: Searcher Division",
-        "LastUpdated": "10/11/25 7:33 PM",
-        "DatabaseLastUpdated": "2025-10-11T18:56:54.6645227+00:00",
+        "LastUpdated": "11/8/25 3:18 AM",
+        "DatabaseLastUpdated": "2025-11-08T01:21:09.9920826+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": "Whitney Nall",
             "Quizzers": [
-              11,
-              17,
+              12,
               18,
-              20,
-              23
+              19,
+              21,
+              24
             ],
             "Matches": [
               null,
@@ -25534,7 +25887,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 195,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -25543,7 +25896,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 105,
-                "OtherTeam": 7
+                "OtherTeam": 8
               },
               {
                 "Result": "W",
@@ -25552,7 +25905,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 155,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "W",
@@ -25561,7 +25914,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 150,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -25570,7 +25923,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 165,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "W",
@@ -25579,7 +25932,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 165,
-                "OtherTeam": 8
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -25597,7 +25950,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 155,
-                "OtherTeam": 4
+                "OtherTeam": 5
               }
             ],
             "CurrentMatchId": null,
@@ -25628,9 +25981,9 @@
             "CoachName": "Kourtney Williams",
             "Quizzers": [
               5,
-              31,
-              36,
-              38
+              32,
+              37,
+              39
             ],
             "Matches": [
               {
@@ -25640,7 +25993,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 35,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "L",
@@ -25649,7 +26002,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 8
+                "OtherTeam": 2
               },
               null,
               {
@@ -25659,7 +26012,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 60,
-                "OtherTeam": 7
+                "OtherTeam": 8
               },
               {
                 "Result": "W",
@@ -25668,7 +26021,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "W",
@@ -25677,7 +26030,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
@@ -25686,7 +26039,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 150,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -25704,7 +26057,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 40,
-                "OtherTeam": 2
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -25732,13 +26085,120 @@
             }
           },
           {
+            "CoachName": "John Kirchon",
+            "Quizzers": [
+              1,
+              4,
+              34,
+              35
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "6",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "7",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "8",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 6
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "7",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "6",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "9",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "8",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "7",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_db0c57ce-f152-46e0-b362-e14032be7199",
+            "Name": "Holy Guacamoles",
+            "ChurchName": "Victory Church",
+            "City": "Lakeland",
+            "State": "FL",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 4,
+              "WinPercentage": 50,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 935,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 116.9,
+              "AverageCorrect": 8.9,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 42,
+              "Correct20s": 29,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "CoachName": "Ramon Valentin",
             "Quizzers": [
-              21,
-              24,
-              29,
-              37,
-              39
+              22,
+              25,
+              30,
+              38,
+              40
             ],
             "Matches": [
               {
@@ -25748,7 +26208,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 170,
-                "OtherTeam": 8
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -25757,7 +26217,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 260,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
@@ -25766,7 +26226,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 150,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "W",
@@ -25775,7 +26235,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 270,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -25794,7 +26254,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 240,
-                "OtherTeam": 7
+                "OtherTeam": 8
               },
               {
                 "Result": "W",
@@ -25803,7 +26263,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 205,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "W",
@@ -25843,8 +26303,8 @@
             "CoachName": null,
             "Quizzers": [
               6,
-              13,
-              16
+              14,
+              17
             ],
             "Matches": [
               {
@@ -25854,7 +26314,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "L",
@@ -25872,7 +26332,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 0,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -25881,7 +26341,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               null,
               {
@@ -25891,7 +26351,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "L",
@@ -25909,7 +26369,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 0,
-                "OtherTeam": 7
+                "OtherTeam": 8
               },
               {
                 "Result": "L",
@@ -25918,7 +26378,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 20,
-                "OtherTeam": 8
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -25950,8 +26410,8 @@
             "Quizzers": [
               8,
               10,
-              12,
-              19
+              13,
+              20
             ],
             "Matches": [
               {
@@ -25961,7 +26421,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 7
+                "OtherTeam": 8
               },
               {
                 "Result": "L",
@@ -25970,7 +26430,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 25,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -25979,7 +26439,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 70,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -25988,7 +26448,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 140,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "L",
@@ -25997,7 +26457,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 45,
-                "OtherTeam": 8
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -26015,7 +26475,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 75,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               null,
               {
@@ -26056,10 +26516,11 @@
             "CoachName": "Sue Bull",
             "Quizzers": [
               2,
-              25,
+              11,
               26,
               27,
-              30
+              28,
+              31
             ],
             "Matches": [
               {
@@ -26069,7 +26530,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 160,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -26078,7 +26539,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 15,
-                "OtherTeam": 7
+                "OtherTeam": 8
               },
               {
                 "Result": "W",
@@ -26087,7 +26548,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 8
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -26096,7 +26557,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 120,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -26124,7 +26585,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 15,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -26133,7 +26594,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 20,
-                "OtherTeam": 6
+                "OtherTeam": 7
               }
             ],
             "CurrentMatchId": null,
@@ -26165,9 +26626,9 @@
             "Quizzers": [
               0,
               3,
-              14,
-              22,
-              32
+              15,
+              23,
+              33
             ],
             "Matches": [
               {
@@ -26187,7 +26648,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 75,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -26205,33 +26666,6 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 7
-              },
-              {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "9",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 230,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "7",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 150,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "8",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 135,
                 "OtherTeam": 8
               },
               {
@@ -26240,8 +26674,35 @@
                 "Room": "9",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 210,
+                "Score": 230,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "7",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
                 "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "8",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "9",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 6
               }
             ],
             "CurrentMatchId": null,
@@ -26273,9 +26734,9 @@
             "Quizzers": [
               7,
               9,
-              15,
-              28,
-              35
+              16,
+              29,
+              36
             ],
             "Matches": [
               {
@@ -26285,7 +26746,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 210,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
@@ -26294,7 +26755,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 240,
-                "OtherTeam": 5
+                "OtherTeam": 6
               },
               {
                 "Result": "L",
@@ -26321,7 +26782,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 190,
-                "OtherTeam": 6
+                "OtherTeam": 7
               },
               {
                 "Result": "W",
@@ -26330,7 +26791,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 190,
-                "OtherTeam": 8
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -26339,7 +26800,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 60,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -26348,7 +26809,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 195,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               null
             ],
@@ -26375,125 +26836,18 @@
               "Correct30s": 0,
               "FootnoteIndex": null
             }
-          },
-          {
-            "CoachName": "John Kirchon",
-            "Quizzers": [
-              1,
-              4,
-              33,
-              34
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "6",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "7",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 125,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "8",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 95,
-                "OtherTeam": 5
-              },
-              null,
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "7",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 160,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "6",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 7
-              },
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "9",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "8",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 160,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "7",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 135,
-                "OtherTeam": 3
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_db0c57ce-f152-46e0-b362-e14032be7199",
-            "Name": "Victory Church #2",
-            "ChurchName": "Victory Church",
-            "City": "Lakeland",
-            "State": "FL",
-            "Scores": {
-              "Wins": 4,
-              "Losses": 4,
-              "WinPercentage": 50,
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 935,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 116.9,
-              "AverageCorrect": 8.9,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 42,
-              "Correct20s": 29,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
           }
         ],
         "RankedTeams": [
           0,
+          3,
+          8,
           2,
           7,
-          8,
-          6,
           1,
-          4,
           5,
-          3
+          6,
+          4
         ],
         "TeamFootnotes": [
           {
@@ -26526,7 +26880,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_8297ee484f4d4a7de18908dc3747d8d6",
             "Name": "Addie Cruz",
@@ -26557,7 +26911,7 @@
             "City": "Wesley Chapel",
             "State": "FL",
             "Scores": {
-              "Rank": 36,
+              "Rank": 37,
               "IsTie": true,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -26595,7 +26949,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_0340b8fabbaf4c99bb3f08dde8cec80b",
             "Name": "Atlas Johnson",
@@ -26649,7 +27003,7 @@
             "City": "Saint Petersburg",
             "State": "FL",
             "Scores": {
-              "Rank": 39,
+              "Rank": 40,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": null,
@@ -26756,6 +27110,29 @@
             }
           },
           {
+            "TeamName": "The Secret Searchers",
+            "YearsQuizzing": null,
+            "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_214",
+            "Name": "Daniella Acheampong",
+            "ChurchName": "Life Church",
+            "City": "Wesley Chapel",
+            "State": "FL",
+            "Scores": {
+              "Rank": 30,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
             "TeamName": "Faith Finders",
             "YearsQuizzing": null,
             "Id": "q_f07de297bd434054bc2c08dde8cec80b",
@@ -26764,7 +27141,7 @@
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Rank": 40,
+              "Rank": 41,
               "IsTie": false,
               "TotalPoints": -25,
               "PerMeetTotalPoints": null,
@@ -27017,7 +27394,7 @@
             "City": "Winter Haven",
             "State": "FL",
             "Scores": {
-              "Rank": 36,
+              "Rank": 37,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -27262,7 +27639,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_e5dfd8bc1f9c4ddefbf008dccab8b5fe",
             "Name": "Lydia Kirchon",
@@ -27285,7 +27662,7 @@
             }
           },
           {
-            "TeamName": "Victory Church #2",
+            "TeamName": "Holy Guacamoles",
             "YearsQuizzing": null,
             "Id": "q_26ee7ed0ca7f4df0018008dba6933274",
             "Name": "Mary Ogle",
@@ -27385,7 +27762,7 @@
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Rank": 36,
+              "Rank": 37,
               "IsTie": true,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -27424,46 +27801,47 @@
           }
         ],
         "RankedQuizzers": [
-          32,
-          17,
-          24,
-          29,
-          27,
-          21,
-          4,
-          15,
           33,
-          35,
-          36,
           18,
+          25,
+          30,
+          28,
+          22,
+          4,
+          16,
+          34,
+          36,
+          37,
+          19,
           8,
-          23,
+          24,
           9,
           0,
           5,
           10,
           7,
-          13,
-          28,
-          31,
           14,
-          19,
-          1,
-          37,
-          25,
+          29,
+          32,
+          15,
           20,
-          3,
-          34,
-          30,
-          12,
-          16,
-          26,
-          39,
-          22,
-          2,
+          1,
           38,
+          26,
+          21,
+          3,
+          35,
+          31,
+          11,
+          13,
+          17,
+          27,
+          40,
+          23,
+          2,
+          39,
           6,
-          11
+          12
         ],
         "QuizzerFootnotes": [
           {
@@ -27483,31 +27861,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 8,
+                "Team1": 3,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
+                "Team1": 8,
                 "Team2": 6,
                 "State": "Completed",
                 "Blockers": null
@@ -27515,32 +27877,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 7,
-                "Team2": 8,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 5,
+                "Team1": 5,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -27548,7 +27886,47 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
                 "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -27560,8 +27938,24 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 3,
+                "Team1": 6,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 7,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -27577,6 +27971,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 2,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
                 "Team2": 6,
                 "State": "Completed",
                 "Blockers": null
@@ -27585,22 +27987,6 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 7,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 8,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
                 "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
@@ -27608,14 +27994,6 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 1,
                 "State": "Completed",
@@ -27624,8 +28002,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 8,
-                "Team2": 3,
+                "Team1": 2,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -27637,22 +28015,6 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 8,
                 "Team2": 5,
                 "State": "Completed",
@@ -27661,15 +28023,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
+                "Team1": 0,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
+                "Team1": 2,
                 "Team2": 6,
                 "State": "Completed",
                 "Blockers": null
@@ -27677,8 +28039,32 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 3,
                 "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 8,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -27693,15 +28079,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 8,
-                "Team2": 6,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 3,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -27714,7 +28092,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
+                "Team1": 7,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -27722,8 +28100,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 4,
+                "Team1": 3,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -27731,15 +28109,31 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 7,
+                "Team2": 8,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 5,
+                "Team1": 5,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -27754,16 +28148,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 8,
+                "Team1": 8,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -27771,15 +28157,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 7,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 5,
+                "Team2": 6,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -27862,8 +28240,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "West: October: Rising Stars Division",
-        "LastUpdated": "10/11/25 7:33 PM",
-        "DatabaseLastUpdated": "2025-10-11T18:56:54.6645227+00:00",
+        "LastUpdated": "11/8/25 3:18 AM",
+        "DatabaseLastUpdated": "2025-11-08T01:21:09.9920826+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -27977,7 +28355,7 @@
             "Quizzers": [
               2,
               4,
-              16,
+              15,
               24,
               27
             ],
@@ -28293,9 +28671,9 @@
           {
             "CoachName": "Allison Johnson",
             "Quizzers": [
-              12,
-              14,
-              19
+              13,
+              18,
+              21
             ],
             "Matches": [
               {
@@ -28400,7 +28778,7 @@
             "Quizzers": [
               3,
               10,
-              15
+              14
             ],
             "Matches": [
               {
@@ -28504,9 +28882,9 @@
             "CoachName": "Ruth Markham",
             "Quizzers": [
               9,
-              13,
-              17,
-              20
+              12,
+              16,
+              19
             ],
             "Matches": [
               {
@@ -28611,8 +28989,8 @@
             "Quizzers": [
               0,
               1,
-              18,
-              21
+              17,
+              20
             ],
             "Matches": [
               {
@@ -29007,29 +29385,6 @@
             }
           },
           {
-            "TeamName": "The Mighty Noodles",
-            "YearsQuizzing": null,
-            "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_265",
-            "Name": "Extra-1",
-            "ChurchName": "Victory Church",
-            "City": "Lakeland",
-            "State": "FL",
-            "Scores": {
-              "Rank": 13,
-              "IsTie": false,
-              "TotalPoints": 115,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 14.4,
-              "AverageCorrect": 1.6,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 72,
-              "Correct10s": 13,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
             "TeamName": "The Wigglin Warriors",
             "YearsQuizzing": null,
             "Id": "q_d9c77fb2e027489aba8908dde83eaa58",
@@ -29237,6 +29592,29 @@
             }
           },
           {
+            "TeamName": "The Mighty Noodles",
+            "YearsQuizzing": null,
+            "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_265",
+            "Name": "Maddi White",
+            "ChurchName": "Victory Church",
+            "City": "Lakeland",
+            "State": "FL",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 115,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.4,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
             "TeamName": "Marshmallow Stars",
             "YearsQuizzing": null,
             "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_140",
@@ -29425,31 +29803,31 @@
           3,
           1,
           4,
-          18,
+          17,
           28,
-          15,
+          14,
           23,
           27,
-          14,
+          13,
           22,
           8,
           10,
-          12,
+          21,
           24,
           26,
           11,
           7,
           0,
           29,
-          17,
+          16,
           2,
           9,
-          13,
-          16,
-          19,
-          21,
-          25,
+          12,
+          15,
+          18,
           20,
+          25,
+          19,
           5,
           6
         ],
@@ -31479,5 +31857,5 @@
       }
     }
   ],
-  "Freshness": "2025-11-07T19:03:05.2146701+00:00"
+  "Freshness": "2025-11-08T01:21:10.9886079+00:00"
 }
