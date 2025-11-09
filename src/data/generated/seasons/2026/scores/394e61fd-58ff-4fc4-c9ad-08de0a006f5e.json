@@ -1,0 +1,4683 @@
+{
+  "EventName": "2025-2025 Bible Quiz Georgia League Meet #2",
+  "DatabaseNames": {
+    "2fc512bc-6e9c-4e1e-9f31-75cdafdba982": "2025-2025_League"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "2fc512bc-6e9c-4e1e-9f31-75cdafdba982",
+        "MeetId": 4,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Champ Meet #2",
+        "LastUpdated": "11/8/25 7:34 PM",
+        "DatabaseLastUpdated": "2025-11-04T16:02:43.8762602+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Alan Florence",
+            "Quizzers": [
+              0,
+              2,
+              8
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_02074dd9-3d97-4eff-8d1d-53955936f2c4",
+            "Name": "Ambassadors for Christ (AIPF)",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 5,
+              "WinPercentage": 29,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 740,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.7,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 11,
+              "Correct20s": 21,
+              "Correct30s": 5,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Daniel Samuelraj",
+            "Quizzers": [
+              3,
+              6
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_276c2043-e44f-4f5c-88bb-b2fd67ac1883",
+            "Name": "Light Bearers",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 4,
+              "WinPercentage": 43,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 700,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 100.0,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 17,
+              "Correct20s": 16,
+              "Correct30s": 4,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Christabel Joy",
+            "Quizzers": [
+              10,
+              14
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 225,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 235,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_4c32fd81-605e-4eb8-a3ca-d552e725301f",
+            "Name": "More Than Conquerors (AIPF)",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1385,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 197.9,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 13,
+              "Correct20s": 34,
+              "Correct30s": 16,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Merlin Gunasingh",
+            "Quizzers": [
+              1,
+              5,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_32453a0f-e380-48e3-919e-1b18af183d71",
+            "Name": "Overcomers (AIPF)",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 4,
+              "WinPercentage": 43,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 830,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 118.6,
+              "AverageCorrect": 8.6,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 32,
+              "Correct20s": 22,
+              "Correct30s": 6,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Simon Nadar",
+            "Quizzers": [
+              4,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_70d320f1-ec95-440a-9010-ac9f0f7a4d29",
+            "Name": "Rooted & Grounded",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 3,
+              "WinPercentage": 57,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 855,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 122.1,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 11,
+              "Correct20s": 19,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Sriraman Seshadri",
+            "Quizzers": [
+              11,
+              12,
+              13
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_349a452b-45e4-4e57-ae85-4590ba459bfe",
+            "Name": "Salt & Light - Mountain West Church",
+            "ChurchName": "Mountainwest Church of God",
+            "City": "Stone Mountain",
+            "State": "GA",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 5,
+              "WinPercentage": 29,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 525,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 75.0,
+              "AverageCorrect": 5.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 16,
+              "Correct20s": 16,
+              "Correct30s": 4,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          2,
+          4,
+          1,
+          3,
+          5,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Ambassadors for Christ (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_3d18430aae9d4dcb85f3717f97988c5f",
+            "Name": "Alwin Stephen",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 640,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 91.4,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 8,
+              "Correct20s": 18,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Overcomers (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_7e3264c1fd9f4d1567f508d71ab479e4",
+            "Name": "Daniel Harshish Jay",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 175,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 4,
+              "Correct20s": 5,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Ambassadors for Christ (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_bc49bcec6c9f4015f37308dcc5bd4e63",
+            "Name": "Daphna Kingston",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Light Bearers",
+            "YearsQuizzing": null,
+            "Id": "q_7ff059d2324c4fc9d8dd08d8f272c07b",
+            "Name": "Hans Asher Daniel",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 670,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 95.7,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 14,
+              "Correct20s": 16,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Rooted & Grounded",
+            "YearsQuizzing": null,
+            "Id": "q_b4a27240df744540d40508daf1e486d0",
+            "Name": "Jayden Nadar",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 835,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 119.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 6,
+              "Correct20s": 19,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Overcomers (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_241b0b4da24d4e252d8508d95f2290ed",
+            "Name": "Joash Prince",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 425,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 60.7,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 14,
+              "Correct20s": 11,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Light Bearers",
+            "YearsQuizzing": null,
+            "Id": "q_a3e18d32876c4cb48ef583e44357e79e",
+            "Name": "Joel Christopher",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Rooted & Grounded",
+            "YearsQuizzing": null,
+            "Id": "q_54446c61b0384d67d3fa08daf1e486d0",
+            "Name": "Johan Yogarajan",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.9,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Ambassadors for Christ (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_8961d94106e745b367fa08d71ab479e4",
+            "Name": "John Ben Florence",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.3,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 3,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Overcomers (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_586e8c3ae5e2490a87d449af4b501074",
+            "Name": "Joshua Gunasingh",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 230,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.9,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 14,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "More Than Conquerors (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_454a0ade67d9437b4d3908da1403e0fb",
+            "Name": "Leslie Cowan",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 565,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.7,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 13,
+              "Correct20s": 19,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Salt & Light - Mountain West Church",
+            "YearsQuizzing": null,
+            "Id": "q_6a25685b4c4b42b7fa1508db1c4cce3c",
+            "Name": "Renat Sriraman",
+            "ChurchName": "Mountainwest Church of God",
+            "City": "Stone Mountain",
+            "State": "GA",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.1,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 8,
+              "Correct20s": 8,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Salt & Light - Mountain West Church",
+            "YearsQuizzing": null,
+            "Id": "q_947946d16a37433bfa1808db1c4cce3c",
+            "Name": "Renee Sriraman",
+            "ChurchName": "Mountainwest Church of God",
+            "City": "Stone Mountain",
+            "State": "GA",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 165,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 23.6,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 5,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Salt & Light - Mountain West Church",
+            "YearsQuizzing": null,
+            "Id": "q_5e75b65fc0aa40139d9e08dcde30b60d",
+            "Name": "Ritvik Shetty",
+            "ChurchName": "Mountainwest Church of God",
+            "City": "Stone Mountain",
+            "State": "GA",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.3,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 3,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "More Than Conquerors (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_8fb1d418fc314724984e3e658426beef",
+            "Name": "Steve Joy",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 820,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 117.1,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 0,
+              "Correct20s": 15,
+              "Correct30s": 16,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          4,
+          14,
+          3,
+          0,
+          10,
+          5,
+          11,
+          9,
+          1,
+          12,
+          8,
+          13,
+          6,
+          7,
+          2
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "2fc512bc-6e9c-4e1e-9f31-75cdafdba982",
+        "MeetId": 5,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Contender Meet #2",
+        "LastUpdated": "11/8/25 7:34 PM",
+        "DatabaseLastUpdated": "2025-11-04T16:02:43.8762602+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Sangeetha Jacob",
+            "Quizzers": [
+              5,
+              8,
+              14
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 195,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_ca725f38-9b4c-4d68-918a-10bb0401968b",
+            "Name": "CACOG 1 - Teens for Christ",
+            "ChurchName": "Calvary Assembly Church Of God",
+            "City": "Sugar Hill",
+            "State": "GA",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 164.3,
+              "AverageCorrect": 8.9,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 27,
+              "Correct20s": 28,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Sheeja Lejo",
+            "Quizzers": [
+              1,
+              4
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_7ddcf2e8-569b-4878-8372-b3f54859a4c2",
+            "Name": "CACOG 2 - Alabasters",
+            "ChurchName": "Calvary Assembly Church Of God",
+            "City": "Sugar Hill",
+            "State": "GA",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 1,
+              "WinPercentage": 86,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1035,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 147.9,
+              "AverageCorrect": 8.4,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 24,
+              "Correct20s": 24,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jay Karnan",
+            "Quizzers": [
+              7,
+              13,
+              16
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_a30f3872-952d-4a91-9437-42d142702268",
+            "Name": "Epistles of Christ (AIPF)",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 6,
+              "WinPercentage": 14,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.4,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 6,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Pradha Krishnan",
+            "Quizzers": [
+              3,
+              15
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_3cbb2a0b-0289-426f-976a-139860fd82f0",
+            "Name": "Faithful Friends",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 5,
+              "WinPercentage": 29,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 265,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.9,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 14,
+              "Correct20s": 6,
+              "Correct30s": 4,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Sangeetha Jacob",
+            "Quizzers": [
+              0,
+              2,
+              10,
+              11,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_24",
+            "Name": "The Bible Conquerors",
+            "ChurchName": "CACOG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 2,
+              "Losses": 5,
+              "WinPercentage": 29,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 385,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 14,
+              "Correct20s": 13,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Suba Yogarajan",
+            "Quizzers": [
+              6,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_761971df-64e6-42ed-ab59-e5d23bba0ed8",
+            "Name": "Warriors for Christ",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 4,
+              "WinPercentage": 43,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 805,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 115.0,
+              "AverageCorrect": 6.3,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 17,
+              "Correct20s": 23,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1,
+          5,
+          4,
+          3,
+          2
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "The Bible Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_66b0aef4e7c343695afb08ddf5ebf858",
+            "Name": "Aceline Jestin",
+            "ChurchName": "CACOG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.4,
+              "AverageCorrect": 3.1,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 61,
+              "Correct10s": 10,
+              "Correct20s": 10,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "CACOG 2 - Alabasters",
+            "YearsQuizzing": null,
+            "Id": "q_cf3727c632b84ffb7b1308dbb0cb2340",
+            "Name": "Aiden Samuel",
+            "ChurchName": "Calvary Assembly Church Of God",
+            "City": "Sugar Hill",
+            "State": "GA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 685,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 97.9,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 6,
+              "Correct20s": 17,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Bible Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_2ce65961660e4fe404cc08db9ad08123",
+            "Name": "Angelina Biju",
+            "ChurchName": "CACOG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.6,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faithful Friends",
+            "YearsQuizzing": null,
+            "Id": "q_dbfde8f1e8304fae632408d84f5ec185",
+            "Name": "Evangelin Grace Sheen",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 42,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "CACOG 2 - Alabasters",
+            "YearsQuizzing": null,
+            "Id": "q_448f4250ab8c48817b1f08dbb0cb2340",
+            "Name": "Gaius Lejo",
+            "ChurchName": "Calvary Assembly Church Of God",
+            "City": "Sugar Hill",
+            "State": "GA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 355,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.7,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 18,
+              "Correct20s": 7,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "CACOG 1 - Teens for Christ",
+            "YearsQuizzing": null,
+            "Id": "q_a3a42b00d90d4f387b2b08dbb0cb2340",
+            "Name": "Hannah Jacob",
+            "ChurchName": "Calvary Assembly Church Of God",
+            "City": "Sugar Hill",
+            "State": "GA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.4,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 15,
+              "Correct20s": 9,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Warriors for Christ",
+            "YearsQuizzing": null,
+            "Id": "q_5579748857fb4481d41708daf1e486d0",
+            "Name": "Jenisha Sherlyn Yogarajan",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 195,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.9,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 8,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Epistles of Christ (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_8d712157b84c41a858f108ddf5ebf858",
+            "Name": "Jesse Davis Jebaraj",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "CACOG 1 - Teens for Christ",
+            "YearsQuizzing": null,
+            "Id": "q_23c5ddd3b0014f13052408db9ad08123",
+            "Name": "Johanna Shinu",
+            "ChurchName": "Calvary Assembly Church Of God",
+            "City": "Sugar Hill",
+            "State": "GA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 745,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 106.4,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 11,
+              "Correct20s": 19,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Warriors for Christ",
+            "YearsQuizzing": null,
+            "Id": "q_d2c292a271e9491ad41d08daf1e486d0",
+            "Name": "Karunya Karthikeyan",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 610,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 87.1,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 9,
+              "Correct20s": 17,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Bible Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_209",
+            "Name": "Quizzer-1",
+            "ChurchName": "CACOG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "The Bible Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_210",
+            "Name": "Quizzer-2",
+            "ChurchName": "CACOG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "The Bible Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_211",
+            "Name": "Quizzer-3",
+            "ChurchName": "CACOG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Epistles of Christ (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_4661753f0c6e4d0e67f008d71ab479e4",
+            "Name": "Ruth Harshine Jay",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.4,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 6,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "CACOG 1 - Teens for Christ",
+            "YearsQuizzing": null,
+            "Id": "q_efd9a27b943d44335ab108ddf5ebf858",
+            "Name": "Sera Lejo",
+            "ChurchName": "Calvary Assembly Church Of God",
+            "City": "Sugar Hill",
+            "State": "GA",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Faithful Friends",
+            "YearsQuizzing": null,
+            "Id": "q_b337d008096e4654d41108daf1e486d0",
+            "Name": "Sherin Jenefa Selvin Prabaharan",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.4,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 11,
+              "Correct20s": 5,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Epistles of Christ (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_6c8350ebe7fd4c722d7f08d95f2290ed",
+            "Name": "Steven Daniel",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          8,
+          1,
+          9,
+          5,
+          4,
+          0,
+          15,
+          6,
+          13,
+          2,
+          14,
+          3,
+          7,
+          10,
+          11,
+          12,
+          16
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "2fc512bc-6e9c-4e1e-9f31-75cdafdba982",
+        "MeetId": 6,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "XP5 Meet #2",
+        "LastUpdated": "11/8/25 7:34 PM",
+        "DatabaseLastUpdated": "2025-11-04T16:02:43.8762602+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 7
+              },
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 10
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 8
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_23",
+            "Name": "Bereans",
+            "ChurchName": "Georgia Christian Assembly",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 0,
+              "WinPercentage": 0,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Josh Cheatwood",
+            "Quizzers": [
+              6,
+              20,
+              25
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_5606f4c2-1832-46b2-a089-8e99a1737def",
+            "Name": "Central Christian School (Sharpsburg) #1",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 710,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 118.3,
+              "AverageCorrect": 7.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 22,
+              "Correct20s": 19,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Mitchell Davis",
+            "Quizzers": [
+              1,
+              7,
+              21,
+              22
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 10
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 6
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_87d64c02-55b9-4580-b48b-27a6313c8d8b",
+            "Name": "Central Christian School (Sharpsburg) #2",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 400,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 66.7,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 17,
+              "Correct20s": 10,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Micthell Davis",
+            "Quizzers": [
+              5,
+              23,
+              27
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 10
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_95f71445-d8bd-4556-980d-5861af067330",
+            "Name": "Central Christian School (Sharpsburg) #3",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 455,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 91.0,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 11,
+              "Correct20s": 14,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Mitchell Davis",
+            "Quizzers": [
+              2,
+              11,
+              26
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 7
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_0b4474df-0716-4136-8d04-e477c77123ff",
+            "Name": "Central Christian School (Sharpsburg) #4",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 900,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 180.0,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 98,
+              "Correct10s": 17,
+              "Correct20s": 20,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Dainty Moses",
+            "Quizzers": [
+              0,
+              3,
+              4
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_1c210dad-c0d7-4cb2-9a72-a6231f8ed911",
+            "Name": "Fishers of Men",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 1010,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 168.3,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 24,
+              "Correct20s": 22,
+              "Correct30s": 8,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Aruna Danny",
+            "Quizzers": [
+              10,
+              13
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 230,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8e2aff04-8f7d-4fba-8489-48dcae97ca07",
+            "Name": "Flame of fire (AIPF)",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 204.2,
+              "AverageCorrect": 9.5,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 19,
+              "Correct20s": 26,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Seetha Stephen",
+            "Quizzers": [
+              9,
+              12,
+              18
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 10
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 8
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 230,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 230,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_795d6830-34ac-4b5e-8043-03d088b755dc",
+            "Name": "Fruitful Bough (AIPF)",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 985,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 197.0,
+              "AverageCorrect": 9.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 16,
+              "Correct20s": 24,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Calvin Jeremy",
+            "Quizzers": [
+              14,
+              15,
+              24
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 7
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 10
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 9
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_23bf7e29-fc54-4a7c-b71e-681998c41929",
+            "Name": "Olive Trees (AIPF)",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 865,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 144.2,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 29,
+              "Correct20s": 24,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Vimala Arun",
+            "Quizzers": [
+              17,
+              19
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 10
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 195,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 8
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2350b546-cc9c-4fa9-8d25-09b8e1ebf1c2",
+            "Name": "Sword of the Spirit",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1020,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 170.0,
+              "AverageCorrect": 9.2,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 27,
+              "Correct20s": 25,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "McLean Mary Francis",
+            "Quizzers": [
+              8,
+              16
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 5,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 8
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6e85949a-11a9-4d6a-b054-2fd44d0b4779",
+            "Name": "World Turners",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 830,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 166.0,
+              "AverageCorrect": 8.2,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 15,
+              "Correct20s": 21,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          6,
+          7,
+          9,
+          4,
+          5,
+          8,
+          1,
+          10,
+          3,
+          2
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Fishers of Men",
+            "YearsQuizzing": null,
+            "Id": "q_570828eada274b1fc58c08d71a778d78",
+            "Name": "Abigail Solomon",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 560,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.3,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 13,
+              "Correct20s": 9,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #2",
+            "YearsQuizzing": null,
+            "Id": "q_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_41",
+            "Name": "Addi Haddock",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #4",
+            "YearsQuizzing": null,
+            "Id": "q_6885a1ba605a4a13b43208dd08b90e65",
+            "Name": "Addi Klingler",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 440,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 88.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 10,
+              "Correct20s": 11,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Fishers of Men",
+            "YearsQuizzing": null,
+            "Id": "q_b2b93e1d0cbd4b046d2708dbb0cb2340",
+            "Name": "Adrian Washburn",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 460,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 76.7,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 11,
+              "Correct20s": 13,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Fishers of Men",
+            "YearsQuizzing": null,
+            "Id": "q_b243b33b0cda46e8c5d208d71a778d78",
+            "Name": "Adriel Solomon",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 28,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #3",
+            "YearsQuizzing": null,
+            "Id": "q_ff0cb7d9b8b248b8938208ddfc3ef602",
+            "Name": "Anna Wilson",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #1",
+            "YearsQuizzing": null,
+            "Id": "q_60dceed8e4c741b1931608ddfc3ef602",
+            "Name": "Caleb Leigh",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 9.2,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #2",
+            "YearsQuizzing": null,
+            "Id": "q_1f1c3bc5bb7241d2b44608dd08b90e65",
+            "Name": "Cayden Gazaway",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 24,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "World Turners",
+            "YearsQuizzing": null,
+            "Id": "q_debb52acd9ff4415d42e08daf1e486d0",
+            "Name": "Cherisha Karthikeyan",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 595,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 119.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 3,
+              "Correct20s": 17,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Fruitful Bough (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_9744904f5aaf4212590908ddf5ebf858",
+            "Name": "Daniel Nelson",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Flame of fire (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_661c20bff36c45e7c5c108d71a778d78",
+            "Name": "Davis Devadasan",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 690,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 115.0,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 15,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #4",
+            "YearsQuizzing": null,
+            "Id": "q_27dfe6d827ac4d7393a608ddfc3ef602",
+            "Name": "Ethan Renz",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 420,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 84.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 6,
+              "Correct20s": 9,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Fruitful Bough (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_3534ee8f36284e2a590f08ddf5ebf858",
+            "Name": "Isaac Nelson",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 69.0,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 13,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Flame of fire (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_58389b090d0449ec814108dd58ed233f",
+            "Name": "Jaddua Flavius Jibinsingh",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 535,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 89.2,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 15,
+              "Correct20s": 11,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Olive Trees (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_72b3072509b1440821b308da9275ed7d",
+            "Name": "Jaron Chris Jeremy",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 57.5,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 16,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Olive Trees (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_9beef735ad3648cb023b08dba97a958d",
+            "Name": "Jason Israel Peter",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 520,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.7,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 13,
+              "Correct20s": 15,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "World Turners",
+            "YearsQuizzing": null,
+            "Id": "q_9d055ca24ff04a73bee308dccebed830",
+            "Name": "Jerusha Rajesh",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 47.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 12,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sword of the Spirit",
+            "YearsQuizzing": null,
+            "Id": "q_7a31d6ca4b674e404a2d08d7c5ca2243",
+            "Name": "Jessica Abraham",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 485,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.8,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 15,
+              "Correct20s": 9,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Fruitful Bough (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_7395b95c93c444e8681808d71ab479e4",
+            "Name": "Jessy Stephen",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 610,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 122.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 14,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sword of the Spirit",
+            "YearsQuizzing": null,
+            "Id": "q_0f5b1536a25641cec5e408d71a778d78",
+            "Name": "Joshua Abraham",
+            "ChurchName": "Atlanta Tamil Church",
+            "City": "Norcross",
+            "State": "GA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": true,
+              "TotalPoints": 535,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 89.2,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 12,
+              "Correct20s": 16,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #1",
+            "YearsQuizzing": null,
+            "Id": "q_2d323b55b5fa41967a1b08dd18789b43",
+            "Name": "Joshua Cheatwood",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 530,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 88.3,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 8,
+              "Correct20s": 16,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #2",
+            "YearsQuizzing": null,
+            "Id": "q_8978b2b1b3d9441f934c08ddfc3ef602",
+            "Name": "Kaden Barnes-Cloud",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #2",
+            "YearsQuizzing": null,
+            "Id": "q_97dde0c85e55401e9d1208dcde30b60d",
+            "Name": "Kimari Poitier -. Bullard",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 8,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #3",
+            "YearsQuizzing": null,
+            "Id": "q_b79959b5e4674db19d0f08dcde30b60d",
+            "Name": "Miriam Holst",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 385,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 77.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 4,
+              "Correct20s": 13,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Olive Trees (AIPF)",
+            "YearsQuizzing": null,
+            "Id": "q_af7d5f30b8074e76f91e08db1c4cce3c",
+            "Name": "Niven Vijay",
+            "ChurchName": "Atlanta Indian Prayer Fellowship",
+            "City": "Marietta",
+            "State": "GA",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #1",
+            "YearsQuizzing": null,
+            "Id": "q_0595f07a57aa48bc930a08ddfc3ef602",
+            "Name": "Owen Wolke",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.8,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 8,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #4",
+            "YearsQuizzing": null,
+            "Id": "q_efe2799859b2486193a008ddfc3ef602",
+            "Name": "Sadie Holt",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #3",
+            "YearsQuizzing": null,
+            "Id": "q_91ef74fac48d4b75937b08ddfc3ef602",
+            "Name": "Vania Vasquez",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.0,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 7,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          18,
+          8,
+          10,
+          0,
+          13,
+          19,
+          20,
+          2,
+          15,
+          11,
+          17,
+          23,
+          3,
+          12,
+          14,
+          16,
+          1,
+          22,
+          25,
+          27,
+          6,
+          26,
+          9,
+          7,
+          5,
+          21,
+          24,
+          4
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie broken by total quiz outs."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 10,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 9,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 8,
+                "State": "NotStarted",
+                "Blockers": [
+                  {
+                    "RoomId": 4,
+                    "Match": 0,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 5,
+                    "Match": 1,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 3,
+                    "Match": 2,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 2,
+                    "Match": 3,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  }
+                ]
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 8,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 10,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": [
+                  {
+                    "RoomId": 4,
+                    "Match": 0,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 5,
+                    "Match": 1,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 3,
+                    "Match": 2,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  }
+                ]
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 10,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 8,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": [
+                  {
+                    "RoomId": 4,
+                    "Match": 0,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 5,
+                    "Match": 1,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  }
+                ]
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 10,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 7,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 8,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 10,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "5",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 10,
+                "State": "NotStarted",
+                "Blockers": [
+                  {
+                    "RoomId": 4,
+                    "Match": 0,
+                    "Team": 0,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  }
+                ]
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 8,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 9,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": true,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "0 of 7 Match(es) Done, +7 by some Room(s)",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2025-11-08T19:34:42.1461909+00:00"
+}
