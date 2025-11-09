@@ -31,7 +31,8 @@ export default function StatsTabContent({
     event,
     isPrinting,
     printingStatsFormat,
-    parentTabId }: EventScoresProps) {
+    parentTabId,
+    selectedMeets }: EventScoresProps) {
 
     const scrollToViewElementId = `stats_tab_scroll_elem`;
 
@@ -58,6 +59,14 @@ export default function StatsTabContent({
     return (
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
+                
+                if (selectedMeets && selectedMeets.length > 0) {
+                    const selectedMeetRef = selectedMeets.find(
+                        m => m.databaseId === meet.DatabaseId && m.meetId === meet.MeetId);
+                    if (!selectedMeetRef) {
+                        return null;
+                    }
+                }
 
                 let hasTeamTie = false;
                 let hasQuizzerTie = false;
@@ -83,13 +92,16 @@ export default function StatsTabContent({
                         const team = meet.Teams![teamId];
 
                         let highlightColor: string = "";
+                        let highlightTextColor: string = "";
                         if (!isPrinting) {
                             const isFavorite = favorites?.teamIds.has(team.Id) ?? false;
                             if (eventFilters?.highlightTeamId === team.Id) {
                                 highlightColor = "bg-yellow-200";
+                                highlightTextColor = "text-accent-content";
                             }
                             else if (isFavorite) {
-                                highlightColor = "bg-accent-100";
+                                highlightColor = "bg-accent-300";
+                                highlightTextColor = "text-accent-content";
                             }
 
                             if (showOnlyFavorites && !isFavorite) {
@@ -105,7 +117,7 @@ export default function StatsTabContent({
 
                         return (
                             <tr
-                                className={`hover:bg-base-300 ${highlightColor}`}
+                                className={`hover:bg-base-300 ${highlightColor} ${highlightTextColor}`}
                                 id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
                                 key={`team_${meet.DatabaseId}_${meet.MeetId}_${teamId}`}>
                                 <th className="text-right">
@@ -144,13 +156,16 @@ export default function StatsTabContent({
                         const quizzer = meet.Quizzers![quizzerId];
 
                         let highlightColor: string = "";
+                        let highlightTextColor: string = "";
                         if (!isPrinting) {
                             const isFavorite = favorites?.quizzerIds.has(quizzer.Id) ?? false;
                             if (eventFilters?.highlightQuizzerId === quizzer.Id) {
                                 highlightColor = "bg-yellow-200";
+                                highlightTextColor = "text-accent-content";
                             }
                             else if (isFavorite) {
-                                highlightColor = "bg-accent-100";
+                                highlightColor = "bg-accent-300";
+                                highlightTextColor = "text-accent-content";
                             }
 
                             if (showOnlyFavorites && !isFavorite) {
@@ -166,7 +181,7 @@ export default function StatsTabContent({
 
                         return (
                             <tr
-                                className={`hover:bg-base-300 ${highlightColor}`}
+                                className={`hover:bg-base-300 ${highlightColor} ${highlightTextColor}`}
                                 id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
                                 key={`quizzer_${meet.DatabaseId}_${meet.MeetId}_${quizzerId}`}>
                                 <th className="text-right">

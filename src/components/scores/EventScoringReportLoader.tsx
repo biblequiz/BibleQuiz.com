@@ -16,8 +16,20 @@ interface Props {
     event: EventScoringReport | null;
 }
 
-function removeTabAndPanel(tabLinkElement: HTMLAnchorElement): void {
-    tabLinkElement.parentElement?.remove();
+function removeTabAndPanel(
+    tabLinkElement: HTMLAnchorElement,
+    selectNewElementIfActive: HTMLAnchorElement): void {
+
+    const style = tabLinkElement?.parentElement?.style;
+    if (style) {
+        style.display = "none";
+
+        if (tabLinkElement.ariaSelected === "true" &&
+            selectNewElementIfActive) {
+                
+            selectNewElementIfActive.click();
+        }
+    }
 }
 
 export default function EventScoringReportLoader({ parentTabId, eventInfo, event }: Props) {
@@ -203,11 +215,15 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
             if (!hasStats || !hasQStats) {
                 const tabLinks = parentTab.querySelectorAll(`li > a[role="tab"]`);
                 if (!hasQStats) {
-                    removeTabAndPanel(tabLinks[5] as HTMLAnchorElement);
+                    removeTabAndPanel(
+                        tabLinks[5] as HTMLAnchorElement,
+                        tabLinks[0] as HTMLAnchorElement);
                 }
 
                 if (!hasStats) {
-                    removeTabAndPanel(tabLinks[3] as HTMLAnchorElement);
+                    removeTabAndPanel(
+                        tabLinks[0] as HTMLAnchorElement,
+                        tabLinks[1] as HTMLAnchorElement);
                 }
             }
 

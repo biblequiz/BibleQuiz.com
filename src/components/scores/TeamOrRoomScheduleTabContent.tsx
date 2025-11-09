@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { EventScoringReport, ScoringReportMeet, ScoringReportTeamMatch, ScoringReportRoom } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "utils/SharedState";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle, type MeetReference } from "utils/SharedState";
 import CollapsableMeetSection from "components/scores/CollapsableMeetSection";
 import type { ScoringReportRoomMatch, ScoringReportTeam } from 'types/EventScoringReport';
 import RoomDialogLink from './RoomDialogLink';
@@ -17,6 +17,7 @@ export interface Props {
     printSinglePerPage?: boolean;
     printStats?: boolean;
     schedulesTabId: string;
+    selectedMeets?: MeetReference[];
 };
 
 function ordinalWithSuffix(number: number): string {
@@ -43,7 +44,8 @@ export default function TeamOrRoomScheduleTabContent({
     isPrinting,
     printSinglePerPage,
     printStats,
-    schedulesTabId }: Props) {
+    schedulesTabId,
+    selectedMeets }: Props) {
 
     const scrollToViewElementId = `schedule_${type}_scroll_elem`;
 
@@ -73,6 +75,13 @@ export default function TeamOrRoomScheduleTabContent({
 
                 if (meet.IsCombinedReport) {
                     return null;
+                }
+                else if (selectedMeets && selectedMeets.length > 0) {
+                    const selectedMeetRef = selectedMeets.find(
+                        m => m.databaseId === meet.DatabaseId && m.meetId === meet.MeetId);
+                    if (!selectedMeetRef) {
+                        return null;
+                    }
                 }
 
                 const hasRanking = meet.RankedTeams && (!isPrinting || printStats);
@@ -110,13 +119,16 @@ export default function TeamOrRoomScheduleTabContent({
                     }
 
                     let teamCardHighlightColor: string = "";
+                    let teamCardHighlightTextColor: string = "";
                     if (!isPrinting && !isRoomReport) {
                         const isFavorite = favorites?.teamIds.has((cardItem as ScoringReportTeam).Id) || false;
                         if (eventFilters?.highlightTeamId === (cardItem as ScoringReportTeam).Id) {
                             teamCardHighlightColor = "bg-yellow-200";
+                            teamCardHighlightTextColor = "text-accent-content";
                         }
                         else if (isFavorite) {
-                            teamCardHighlightColor = "bg-accent-100";
+                            teamCardHighlightColor = "bg-accent-300";
+                            teamCardHighlightTextColor = "text-accent-content";
                         }
 
                         if (showOnlyFavorites && !isFavorite) {
@@ -248,12 +260,15 @@ export default function TeamOrRoomScheduleTabContent({
 
                         // Determine the highlight color (if any).
                         let matchHighlightColor: string = "";
+                        let matchHighlightTextColor: string = "";
                         if (!isPrinting) {
                             if (shouldHighlightSearchResult) {
                                 matchHighlightColor = "bg-yellow-200";
+                                matchHighlightTextColor = "text-accent-content";
                             }
                             else if (shouldHighlightFavorite) {
-                                matchHighlightColor = "bg-accent-100";
+                                matchHighlightColor = "bg-green-400";
+                                matchHighlightTextColor = "text-accent-content";
                             }
 
                             if (showOnlyFavorites && !shouldHighlightFavorite && isRoomReport) {
@@ -269,7 +284,7 @@ export default function TeamOrRoomScheduleTabContent({
                         return (
                             <li
                                 key={matchKey}
-                                className={`ml-6 ${matchHighlightColor}`}
+                                className={`ml-6 ${matchHighlightColor} ${matchHighlightTextColor}`}
                                 value={matchIndex + 1}
                             >
                                 {isScheduleOnly && (<>{cellHtml}</>)}
@@ -289,8 +304,10 @@ export default function TeamOrRoomScheduleTabContent({
                                                 <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match!.CurrentQuestion}
                                             </>
                                         )}
-                                    </RoomDialogLink>)}
-                            </li>);
+                                    </RoomDialogLink>
+                                )}
+                            </li>
+                        );
                     });
 
                     if (!hasAnyMatchItems) {
@@ -301,7 +318,7 @@ export default function TeamOrRoomScheduleTabContent({
 
                     return (
                         <div
-                            className={`card ${borderClass} ${teamCardHighlightColor} card-sm mt-4 team-card`}
+                            className={`card ${borderClass} ${teamCardHighlightColor} ${teamCardHighlightTextColor} card-sm mt-4 team-card`}
                             id={teamCardHighlightColor && forceOpen ? scrollToViewElementId : undefined}
                             key={cardKey}>
                             <div className="card-body">
@@ -321,7 +338,7 @@ export default function TeamOrRoomScheduleTabContent({
                                                 <span className="text-lg font-bold">{(cardItem as ScoringReportTeam).Scores!.Wins}-{(cardItem as ScoringReportTeam).Scores!.Losses}</span><br />
                                                 <i className="subtitle">W-L</i>
                                             </div>
-                                            <div className="text-center team-card-right-border">
+                                            <div className="text-center team-card-right-borderi">
                                                 <span className="text-lg font-bold">{(cardItem as ScoringReportTeam).Scores!.TotalPoints}</span><br />
                                                 <i className="subtitle">PTS</i>
                                             </div>
@@ -331,7 +348,7 @@ export default function TeamOrRoomScheduleTabContent({
                                             </div>
                                         </div>
                                     </>)}
-                                <ol className="mt-0 schedule-list">
+                                <ol className={`mt-0 schedule-list ${teamCardHighlightColor} ${teamCardHighlightTextColor}`}>
                                     {matchItems}
                                 </ol>
                                 {!isRoomReport && (

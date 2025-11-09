@@ -7,11 +7,11 @@ export default function EventListWrapper({ scope, label }: EventScopeBadgeProps)
 
     switch (scope) {
         case 'nation':
-            return <span className="badge badge-m badge-warning" style={{ marginRight: "4px" }}>{label ?? "NATIONAL"}</span>
+            return <span className="badge badge-m badge-warning" style={{ marginRight: "4px", height: "unset" }}>{label ?? "NATIONAL"}</span>
         case 'region':
-            return <span className="badge badge-m badge-info" style={{ marginRight: "4px" }}>{label ?? "REGION"}</span>
+            return <span className="badge badge-m badge-info" style={{ marginRight: "4px", height: "unset" }}>{label ?? "REGION"}</span>
         case 'district':
-            return <span className="badge badge-m badge-success" style={{ marginRight: "4px" }}>{label ?? "DISTRICT"}</span>;
+            return <span className="badge badge-m badge-success" style={{ marginRight: "4px", height: "unset" }}>{label ?? "DISTRICT"}</span>;
         default:
             return null;
     }

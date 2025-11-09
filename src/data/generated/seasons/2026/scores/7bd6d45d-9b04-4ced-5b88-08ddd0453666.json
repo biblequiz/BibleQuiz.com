@@ -2132,16 +2132,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "West: October: XP5 Division",
-        "LastUpdated": "10/11/25 6:57 PM",
-        "DatabaseLastUpdated": "2025-10-11T18:55:53.429133+00:00",
+        "LastUpdated": "11/8/25 3:18 AM",
+        "DatabaseLastUpdated": "2025-11-08T01:21:10.4971309+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
             "CoachName": null,
             "Quizzers": [
-              6,
-              10,
-              13
+              3,
+              7,
+              11,
+              14
             ],
             "Matches": [
               {
@@ -2227,10 +2228,10 @@
             "CoachName": "Antionette Robinson",
             "Quizzers": [
               1,
-              14,
               15,
-              17,
-              18
+              16,
+              18,
+              19
             ],
             "Matches": [
               {
@@ -2315,9 +2316,9 @@
           {
             "CoachName": null,
             "Quizzers": [
-              16,
-              21,
-              24
+              17,
+              22,
+              25
             ],
             "Matches": [
               {
@@ -2403,9 +2404,9 @@
             "CoachName": "Shanna Rowe",
             "Quizzers": [
               0,
-              4,
-              11,
-              29
+              5,
+              12,
+              30
             ],
             "Matches": [
               {
@@ -2490,9 +2491,9 @@
           {
             "CoachName": null,
             "Quizzers": [
-              25,
               26,
-              27
+              27,
+              28
             ],
             "Matches": [
               {
@@ -2577,10 +2578,10 @@
           {
             "CoachName": "Jennifer Stalvey",
             "Quizzers": [
-              5,
-              12,
-              23,
-              30
+              6,
+              13,
+              24,
+              31
             ],
             "Matches": [
               {
@@ -2666,10 +2667,10 @@
             "CoachName": "Karianne Groves",
             "Quizzers": [
               2,
-              3,
-              8,
+              4,
               9,
-              22
+              10,
+              23
             ],
             "Matches": [
               {
@@ -2754,10 +2755,10 @@
           {
             "CoachName": "Abigail Soriano",
             "Quizzers": [
-              7,
-              19,
+              8,
               20,
-              28
+              21,
+              29
             ],
             "Matches": [
               {
@@ -2912,7 +2913,7 @@
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Rank": 31,
+              "Rank": 32,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": null,
@@ -2924,6 +2925,29 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Storytellaz",
+            "YearsQuizzing": null,
+            "Id": "q_82e0bbdf-1a72-464d-9052-7af8030b4c80_374",
+            "Name": "Christian Gonzalez",
+            "ChurchName": "Harvest Assembly of God",
+            "City": "Lakeland",
+            "State": "FL",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -3028,7 +3052,7 @@
             "State": "FL",
             "Scores": {
               "Rank": 23,
-              "IsTie": false,
+              "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -3349,7 +3373,7 @@
             "City": "Lakeland",
             "State": "FL",
             "Scores": {
-              "Rank": 30,
+              "Rank": 31,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -3572,36 +3596,37 @@
           }
         ],
         "RankedQuizzers": [
-          20,
-          11,
-          28,
-          24,
-          14,
-          6,
-          30,
-          4,
-          23,
-          16,
-          9,
-          18,
-          3,
-          13,
-          1,
-          17,
-          19,
-          5,
-          22,
-          8,
-          0,
+          21,
+          12,
+          29,
+          25,
           15,
           7,
+          31,
+          5,
+          24,
+          17,
           10,
-          12,
-          25,
+          19,
+          4,
+          14,
+          1,
+          18,
+          20,
+          6,
+          23,
+          9,
+          0,
+          16,
+          3,
+          8,
+          11,
+          13,
           26,
           27,
-          29,
-          21,
+          28,
+          30,
+          22,
           2
         ],
         "QuizzerFootnotes": [
@@ -4578,5 +4603,5 @@
       }
     }
   ],
-  "Freshness": "2025-10-18T17:17:56.1656738+00:00"
+  "Freshness": "2025-11-08T01:21:10.986609+00:00"
 }

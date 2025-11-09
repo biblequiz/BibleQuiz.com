@@ -144,6 +144,10 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
         sharedPrintConfiguration.set(printConfig);
 
         // Close the dialog.
+        handleCloseClick();
+    };
+
+    const handleCloseClick = () => {
         (document.getElementById(PrintDialogModalId) as any).close();
     };
 
@@ -262,7 +266,12 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
                     onClick={handlePrintClick}>
                     <FontAwesomeIcon icon="fas faPrint" />&nbsp;Print
                 </button>
-                <button type="button" className="btn">Close</button>
+                <button
+                    type="button"
+                    className="btn"
+                    onClick={handleCloseClick}>
+                    Close
+                </button>
             </div>
         </div>);
 }

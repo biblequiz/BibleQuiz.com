@@ -36,6 +36,7 @@ import {
     tryReadFileAsJson,
 } from "utils/FileSystem";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import EventRegistrationBanner from "components/scores/EventRegistrationBanner";
 
 export async function getStaticPaths() {
     // Load the JSON defining all the generated events.
@@ -163,6 +164,12 @@ const event = isArchiveAllowed
     ? await tryReadFileAsJson<EventScoringReport>(eventFilePath)
     : null;
 
+const today: Date = new Date();
+today.setHours(0, 0, 0, 0);
+
+const date = DataTypeHelpers.parseDateOnly(eventInfo.registrationEndDate)!;
+const isRegistrationOpen = date && date > today;
+
 // Find the label for the scope.
 const frontmatter: StarlightPageFrontmatter = {
     title: eventInfo.name,
@@ -215,6 +222,7 @@ const statsTabId = "stats_tab";
 ---
 
 <StarlightPage frontmatter={frontmatter}>
+    {isRegistrationOpen && <EventRegistrationBanner eventId={eventInfo.id} client:only="react" />}
     <EventScoringReportLoader
         parentTabId="scoreTabs"
         eventInfo={eventInfo}
@@ -224,6 +232,21 @@ const statsTabId = "stats_tab";
     <EventScoringReportSearch parentTabId="scoreTabs" client:only="react" />
     <div id="scoreTabs" class="hide-on-print" style={{ display: "none" }}>
         <FontAwesomeTabs syncKey={`scores-${eventInfo.id}`}>
+            {
+                hasStatsTab && (
+                    <FontAwesomeTabItem
+                        label="Stats"
+                        icon="fas faTrophy"
+                        tabElementId={statsTabId}
+                    >
+                        <StatsTabContent
+                            eventId={eventInfo.id}
+                            parentTabId={statsTabId}
+                            client:only="react"
+                        />
+                    </FontAwesomeTabItem>
+                )
+            }
             <FontAwesomeTabItem
                 icon="fas faUsers"
                 label="Teams"
@@ -259,21 +282,6 @@ const statsTabId = "stats_tab";
                     client:only="react"
                 />
             </FontAwesomeTabItem>
-            {
-                hasStatsTab && (
-                    <FontAwesomeTabItem
-                        label="Stats"
-                        icon="fas faTrophy"
-                        tabElementId={statsTabId}
-                    >
-                        <StatsTabContent
-                            eventId={eventInfo.id}
-                            parentTabId={statsTabId}
-                            client:only="react"
-                        />
-                    </FontAwesomeTabItem>
-                )
-            }
             <FontAwesomeTabItem
                 label="Coordinator"
                 icon="fas faThermometerHalf"

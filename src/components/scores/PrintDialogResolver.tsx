@@ -56,6 +56,7 @@ export default function PrintDialogResolver({
                         event={resolvedReport}
                         isPrinting={true}
                         printingStatsFormat={printDialogState.statsFormat}
+                        selectedMeets={printDialogState.selectedMeets}
                     />
                 </div>);
         }
@@ -71,6 +72,7 @@ export default function PrintDialogResolver({
                         isPrinting={true}
                         printSinglePerPage={printDialogState.showSinglePerPage}
                         printStats={printDialogState.includeStats}
+                        selectedMeets={printDialogState.selectedMeets}
                     />
                 </div>);
         }
@@ -86,6 +88,7 @@ export default function PrintDialogResolver({
                         isPrinting={true}
                         printSinglePerPage={printDialogState.showSinglePerPage}
                         printStats={printDialogState.includeStats}
+                        selectedMeets={printDialogState.selectedMeets}
                     />
                 </div>);
         }
@@ -99,6 +102,7 @@ export default function PrintDialogResolver({
                         schedulesTabId={scheduleGridTabId}
                         isPrinting={true}
                         printStats={printDialogState.includeStats}
+                        selectedMeets={printDialogState.selectedMeets}
                     />
                 </div>);
         }

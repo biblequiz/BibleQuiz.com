@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
-import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle } from "utils/SharedState";
+import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle, type MeetReference } from "utils/SharedState";
 import CollapsableMeetSection from './CollapsableMeetSection';
 import RoomDialogLink from './RoomDialogLink';
 import { EventScoringReport } from "types/EventScoringReport";
@@ -16,6 +16,7 @@ export interface Props {
     isPrinting?: boolean;
     printStats?: boolean;
     schedulesTabId: string;
+    selectedMeets?: MeetReference[];
 };
 
 export default function ScheduleGridTabContent({
@@ -23,7 +24,8 @@ export default function ScheduleGridTabContent({
     event,
     isPrinting,
     printStats,
-    schedulesTabId }: Props) {
+    schedulesTabId,
+    selectedMeets }: Props) {
 
     const scrollToViewElementId = `schedule_grid_scroll_elem`;
 
@@ -54,6 +56,13 @@ export default function ScheduleGridTabContent({
                 const key = `schedulegrid_${meet.DatabaseId}_${meet.MeetId}`;
                 if (meet.IsCombinedReport || !meet.Matches) {
                     return null;
+                }
+                else if (selectedMeets && selectedMeets.length > 0) {
+                    const selectedMeetRef = selectedMeets.find(
+                        m => m.databaseId === meet.DatabaseId && m.meetId === meet.MeetId);
+                    if (!selectedMeetRef) {
+                        return null;
+                    }
                 }
 
                 let teams: ScoringReportTeam[] | number[];
@@ -88,13 +97,16 @@ export default function ScheduleGridTabContent({
                         : teamId as ScoringReportTeam;
 
                     let highlightColor: string = "";
+                    let highlightTextColor: string = "";
                     if (!isPrinting) {
                         const isFavorite = favorites?.teamIds.has(team.Id) ?? false;
                         if (eventFilters?.highlightTeamId === team.Id) {
                             highlightColor = "bg-yellow-200";
+                            highlightTextColor = "text-accent-content";
                         }
                         else if (isFavorite) {
-                            highlightColor = "bg-accent-100";
+                            highlightColor = "bg-accent-300";
+                            highlightTextColor = "text-accent-content";
                         }
 
                         if (showOnlyFavorites && !isFavorite) {
@@ -108,7 +120,7 @@ export default function ScheduleGridTabContent({
                         <tr
                             key={`${key}_teams_${teamIndex}`}
                             id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
-                            className={`hover:bg-base-300 ${highlightColor}`}>
+                            className={`hover:bg-base-300 ${highlightColor} ${highlightTextColor}`}>
                             {hasRankedTeams && (
                                 <td className="text-right">
                                     {team.Scores!.Rank}{team.Scores!.IsTie ? '*' : ''}
