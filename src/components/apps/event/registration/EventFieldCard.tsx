@@ -1,25 +1,16 @@
-import type { EventField } from "types/services/EventsService";
-import EventFieldControl from "../fields/EventFieldControl";
+import type { ReactNode } from "react";
 
 interface Props {
-    field: EventField;
+    children: ReactNode;
 }
 
-export default function EventFieldCard({ field }: Props) {
+export default function EventFieldCard({ children }: Props) {
     return (
         <div
-            className="card live-events-card w-84 card-sm shadow-sm border-2 border-solid mt-0 relative"
+            className="card live-events-card w-full lg:w-90 card-sm shadow-sm border-2 border-solid mt-0 relative"
         >
             <div className="card-body">
-                <div className="flex items-start gap-4">
-                    <div className="flex-1 pr-4">
-                        <div className="card-title mb-0">
-                            <EventFieldControl field={field} isExampleOnly={true} />
-                        </div>
-                        <p className="mt-0">Text</p>
-                        <span className="badge badge-neutral">Registration Available</span>
-                    </div>
-                </div>
+                {children}
             </div>
         </div>);
 }
