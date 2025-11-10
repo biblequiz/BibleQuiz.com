@@ -59,7 +59,7 @@ export default function EventFieldDropdownList({
         >
             {field.ControlType === EventFieldControlType.GradeList
                 ? getGradeListOptions(field)
-                : field.Values!.map((value) => (
+                : (field.Values ?? []).map((value) => (
                     <option key={value} value={value}>{value}</option>))}
         </select>);
 

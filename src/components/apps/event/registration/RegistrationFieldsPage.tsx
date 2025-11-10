@@ -7,6 +7,7 @@ import EventFieldCard from "./EventFieldCard";
 import EventFieldCardBody from "./EventFieldCardBody";
 import EventFieldCommonDialog from "./EventFieldCommonDialog";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { sharedDirtyWindowState } from "utils/SharedState";
 
 interface Props {
 }
@@ -16,6 +17,7 @@ export default function RegistrationFieldsPage({ }: Props) {
         rootEventUrl,
         saveRegistration,
         general,
+        officialsAndAttendees,
         fields,
         setFields } = useOutletContext<RegistrationProviderContext>();
 
@@ -35,10 +37,13 @@ export default function RegistrationFieldsPage({ }: Props) {
                 <div className="flex flex-wrap gap-4">
                     {eventFields.map(field => (
                         <EventFieldCard key={field.Id}>
-                            <EventFieldCardBody field={field} />
+                            <EventFieldCardBody
+                                field={field}
+                                allowAttendees={officialsAndAttendees.allowAttendees}
+                            />
                         </EventFieldCard>
                     ))}
-                    <EventFieldCard>
+                    <EventFieldCard alignMiddle={true}>
                         <button
                             tabIndex={0}
                             type="button"
@@ -66,6 +71,7 @@ export default function RegistrationFieldsPage({ }: Props) {
                                 };
 
                                 setEventFields(prevFields => [...prevFields, newField]);
+                                sharedDirtyWindowState.set(true);
                             }}>
                             <FontAwesomeIcon icon="fas faPlus" />
                             Other Field
@@ -77,6 +83,7 @@ export default function RegistrationFieldsPage({ }: Props) {
                 typeId={general.typeId}
                 addField={(field: EventField) => {
                     setEventFields(prevFields => [...prevFields, field]);
+                    sharedDirtyWindowState.set(true);
                 }}
                 dialogRef={commonDialogRef}
             />

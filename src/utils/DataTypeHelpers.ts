@@ -286,4 +286,17 @@ export class DataTypeHelpers {
     public static isNullOrEmpty(value: string | null): boolean {
         return null == value || 0 == value.length;
     }
+
+    /**
+     * Trims the string and returns null if the result is empty.
+     * @param value Value to be trimmed.
+     */
+    public static trimToNull(value: string | null | undefined): string | null {
+        if (value === undefined || value === null) {
+            return null;
+        }
+
+        const trimmed = value.trim();
+        return trimmed.length === 0 ? null : trimmed;
+    }
 }
