@@ -14,25 +14,19 @@ interface Props {
     parentTabId: string;
     eventInfo: EventInfo;
     event: EventScoringReport | null;
+    statsTabId: string;
+    qstatsTabId: string;
 }
 
-function removeTabAndPanel(
-    tabLinkElement: HTMLAnchorElement,
-    selectNewElementIfActive: HTMLAnchorElement): void {
+function removeTabAndPanel(tabLinkElement: HTMLAnchorElement): void {
 
-    const style = tabLinkElement?.parentElement?.style;
+    const style = tabLinkElement?.style;
     if (style) {
         style.display = "none";
-
-        if (tabLinkElement.ariaSelected === "true" &&
-            selectNewElementIfActive) {
-                
-            selectNewElementIfActive.click();
-        }
     }
 }
 
-export default function EventScoringReportLoader({ parentTabId, eventInfo, event }: Props) {
+export default function EventScoringReportLoader({ eventInfo, event, parentTabId, qstatsTabId, statsTabId }: Props) {
 
     const reportState = useStore(sharedEventScoringReportState);
     useStore(sharedPrintConfiguration); // Registering the hook.
@@ -212,19 +206,38 @@ export default function EventScoringReportLoader({ parentTabId, eventInfo, event
                 }
             }
 
-            if (!hasStats || !hasQStats) {
-                const tabLinks = parentTab.querySelectorAll(`li > a[role="tab"]`);
-                if (!hasQStats) {
-                    removeTabAndPanel(
-                        tabLinks[5] as HTMLAnchorElement,
-                        tabLinks[0] as HTMLAnchorElement);
+            if (!hasStats) {
+                const statsTab = document.getElementById(statsTabId) as HTMLAnchorElement;
+                if (statsTab) {
+                    removeTabAndPanel(statsTab);
+                }
+            }
+
+            if (!hasQStats) {
+                const qstatsTab = document.getElementById(qstatsTabId) as HTMLAnchorElement;
+                if (qstatsTab) {
+                    removeTabAndPanel(qstatsTab);
+                }
+            }
+
+            let selectTab: HTMLAnchorElement | null = null;
+            const tabLinks = parentTab.querySelectorAll(`li > a[role="tab"]`) as NodeListOf<HTMLAnchorElement>;
+            for (const tabLink of tabLinks) {
+                const isVisible = tabLink.style.display === "none";
+                if (!selectTab && isVisible) {
+                    selectTab = tabLink;
                 }
 
-                if (!hasStats) {
-                    removeTabAndPanel(
-                        tabLinks[0] as HTMLAnchorElement,
-                        tabLinks[1] as HTMLAnchorElement);
+                const isSelected = tabLink.ariaSelected === "true";
+                if (isSelected && isVisible) {
+                    selectTab = null;
+                    break;
                 }
+
+            }
+
+            if (selectTab) {
+                selectTab.click();
             }
 
             // The report is known, so the tabs can be displayed
