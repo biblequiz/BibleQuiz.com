@@ -1,6 +1,6 @@
-import { EventField, EventFieldControlType, EventFieldScopes, EventFieldVisibility } from "types/services/EventsService";
+import { EventField, EventFieldControlType, EventFieldDataType, EventFieldScopes, EventFieldVisibility } from "types/services/EventsService";
 import EventFieldControl from "../fields/EventFieldControl";
-import { useState } from "react";
+import { use, useState } from "react";
 import RichTextEditor from "components/RichTextEditor";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
@@ -35,24 +35,31 @@ function trimAndUpdateState(
 }
 
 class ControlTypeRestrictions {
-    constructor(isTeamOnlyScope: boolean, allowRequired: boolean) {
+    constructor(
+        isTeamOnlyScope: boolean,
+        allowRequired: boolean,
+        dataType?: EventFieldDataType) {
+
         this.isTeamOnlyScope = isTeamOnlyScope;
         this.allowRequired = allowRequired;
+        this.dataType = dataType;
     }
 
     public readonly isTeamOnlyScope: boolean;
 
     public readonly allowRequired: boolean;
+
+    public readonly dataType?: EventFieldDataType;
 }
 
 const controlTypeRestrictions: Record<EventFieldControlType, ControlTypeRestrictions> = {
-    [EventFieldControlType.Checkbox]: new ControlTypeRestrictions(false, true),
-    [EventFieldControlType.DropdownList]: new ControlTypeRestrictions(false, true),
-    [EventFieldControlType.GradeList]: new ControlTypeRestrictions(false, true),
-    [EventFieldControlType.HtmlCheckbox]: new ControlTypeRestrictions(true, true),
-    [EventFieldControlType.MultilineTextbox]: new ControlTypeRestrictions(true, true),
-    [EventFieldControlType.MultiItemCheckbox]: new ControlTypeRestrictions(false, false),
-    [EventFieldControlType.RadioButton]: new ControlTypeRestrictions(false, true),
+    [EventFieldControlType.Checkbox]: new ControlTypeRestrictions(false, true, EventFieldDataType.Boolean),
+    [EventFieldControlType.DropdownList]: new ControlTypeRestrictions(false, true, EventFieldDataType.Text),
+    [EventFieldControlType.GradeList]: new ControlTypeRestrictions(false, true, EventFieldDataType.Number),
+    [EventFieldControlType.HtmlCheckbox]: new ControlTypeRestrictions(true, true, EventFieldDataType.Boolean),
+    [EventFieldControlType.MultilineTextbox]: new ControlTypeRestrictions(true, true, EventFieldDataType.Text),
+    [EventFieldControlType.MultiItemCheckbox]: new ControlTypeRestrictions(false, false, EventFieldDataType.TextList),
+    [EventFieldControlType.RadioButton]: new ControlTypeRestrictions(false, true, EventFieldDataType.Text),
     [EventFieldControlType.Textbox]: new ControlTypeRestrictions(false, true),
 };
 
@@ -64,6 +71,9 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
     const [scopes, setScopes] = useState<EventFieldScopes>(field.Scopes);
     const [caption, setCaption] = useState<string | undefined>(field.Caption ?? undefined);
     const [isRequired, setIsRequired] = useState<boolean>(field.IsRequired);
+    const [dataType, setDataType] = useState(field.DataType);
+    const [minNumber, setMinNumber] = useState<number | null>(field.MinNumberValue ?? null);
+    const [maxNumber, setMaxNumber] = useState<number | null>(field.MaxNumberValue ?? null);
 
     const getScopeCheckbox = (
         scope: EventFieldScopes,
@@ -152,9 +162,20 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
                         const newControlType: EventFieldControlType = parseInt(e.target.value);
                         setControlType(newControlType);
 
-                        if (controlTypeRestrictions[newControlType].isTeamOnlyScope) {
+                        const restriction = controlTypeRestrictions[newControlType];
+                        if (restriction.isTeamOnlyScope) {
                             setScopes(EventFieldScopes.Team);
                             field.Scopes = EventFieldScopes.Team;
+                        }
+
+                        if (restriction.dataType !== undefined) {
+                            setDataType(restriction.dataType);
+                            field.DataType = restriction.dataType;
+                        }
+                        else if (controlType !== newControlType &&
+                            dataType !== EventFieldDataType.Text) {
+                            setDataType(EventFieldDataType.Text);
+                            field.DataType = EventFieldDataType.Text;
                         }
 
                         field.ControlType = newControlType;
@@ -171,6 +192,28 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
                     <option value={EventFieldControlType.Textbox}>Text</option>
                 </select>
             </div>
+            {controlType === EventFieldControlType.Textbox && (
+                <div className="w-full mt-0">
+                    <label className="label mb-0">
+                        <span className="label-text font-medium text-sm">Type</span>
+                        <span className="label-text-alt text-error">*</span>
+                    </label>
+                    <select
+                        className="select select-info w-full mt-0"
+                        value={dataType}
+                        onChange={e => {
+                            const newDataType: EventFieldDataType = parseInt(e.target.value);
+                            setDataType(newDataType);
+
+                            field.DataType = newDataType;
+                            sharedDirtyWindowState.set(true);
+                        }}
+                        required>
+                        <option value={EventFieldDataType.Date}>Date</option>
+                        <option value={EventFieldDataType.Number}>Number</option>
+                        <option value={EventFieldDataType.Text}>Text</option>
+                    </select>
+                </div>)}
             {controlRestrictions.allowRequired && (
                 <div className="w-full mt-0">
                     <div className="mt-0 ml-2">
@@ -229,6 +272,79 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
                             sharedDirtyWindowState.set(true);
                         }}
                     />)}
+                {dataType === EventFieldDataType.Number && (
+                    <div className="w-full mt-2">
+                        <label className="label mb-0">
+                            <span className="label-text font-medium text-sm">Range</span>
+                            <span className="label-text-alt text-error">*</span>
+                        </label>
+                        {controlType === EventFieldControlType.GradeList && (
+                            <div className="mt-0">
+                                <select
+                                    className="select select-info w-auto mt-0"
+                                    value={minNumber ?? 0}
+                                    onChange={e => {
+                                        const newMinValue: EventFieldDataType = parseInt(e.target.value);
+                                        setMinNumber(newMinValue);
+
+                                        field.MinNumberValue = newMinValue;
+                                        sharedDirtyWindowState.set(true);
+                                    }}
+                                    required>
+                                    {Array.from({ length: 13 }, (_, i) => (
+                                        <option key={`min_${i}`} value={i} disabled={maxNumber !== null && i > maxNumber}>
+                                            {i == 0 ? "K" : i}
+                                        </option>))}
+                                </select>
+                                <span> - </span>
+                                <select
+                                    className="select select-info w-auto mt-0"
+                                    value={maxNumber ?? 12}
+                                    onChange={e => {
+                                        const newMaxValue: EventFieldDataType = parseInt(e.target.value);
+                                        setMaxNumber(newMaxValue);
+
+                                        field.MaxNumberValue = newMaxValue;
+                                        sharedDirtyWindowState.set(true);
+                                    }}
+                                    required>
+                                    {Array.from({ length: 13 }, (_, i) => (
+                                        <option key={`max_${i}`} value={i} disabled={minNumber !== null && i < minNumber}>
+                                            {i == 0 ? "K" : i}
+                                        </option>))}
+                                </select>
+                            </div>)}
+                        {controlType !== EventFieldControlType.GradeList && (
+                            <div className="mt-0">
+                                <input
+                                    type="number"
+                                    className="input input-info w-1/4 mt-0"
+                                    value={minNumber ?? undefined}
+                                    onChange={e => setMinNumber(parseInt(e.target.value))}
+                                    onBlur={e => {
+                                        e.preventDefault();
+                                        field.MinNumberValue = minNumber;
+                                        sharedDirtyWindowState.set(true);
+                                    }}
+                                    min={-2147483648}
+                                    max={maxNumber ?? 2147483647}
+                                />
+                                <span> - </span>
+                                <input
+                                    type="number"
+                                    className="input input-info w-1/4 mt-0"
+                                    value={maxNumber ?? undefined}
+                                    onChange={e => setMaxNumber(parseInt(e.target.value))}
+                                    onBlur={e => {
+                                        e.preventDefault();
+                                        field.MaxNumberValue = maxNumber;
+                                        sharedDirtyWindowState.set(true);
+                                    }}
+                                    min={-2147483648}
+                                    max={maxNumber ?? 2147483647}
+                                />
+                            </div>)}
+                    </div>)}
             </div>
         </>);
 }
