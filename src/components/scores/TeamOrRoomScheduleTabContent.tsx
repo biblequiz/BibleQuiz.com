@@ -235,7 +235,7 @@ export default function TeamOrRoomScheduleTabContent({
 
                             cellText.push("\"BYE TEAM\"");
 
-                            if (match!.Score != null) {
+                            if (match?.Score != null) {
                                 cellText.push(`\"BYE TEAM\" ${match!.Score}`);
                             }
                         }
