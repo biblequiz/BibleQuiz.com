@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "JBQ-BEGINNER-OCTOBER-2025",
-        "LastUpdated": "10/18/25 8:06 PM",
-        "DatabaseLastUpdated": "2025-10-17T22:34:39.430901+00:00",
+        "LastUpdated": "11/14/25 3:23 AM",
+        "DatabaseLastUpdated": "2025-11-14T01:10:44.6548849+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -1481,8 +1481,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "JBQ-INTERMEDIATE-OCTOBER-2025",
-        "LastUpdated": "10/18/25 8:06 PM",
-        "DatabaseLastUpdated": "2025-10-17T22:34:39.430901+00:00",
+        "LastUpdated": "11/14/25 3:23 AM",
+        "DatabaseLastUpdated": "2025-11-14T01:10:44.6548849+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -3045,16 +3045,18 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "JBQ-ADVANCED-OCTOBER-2025",
-        "LastUpdated": "10/18/25 8:06 PM",
-        "DatabaseLastUpdated": "2025-10-17T22:34:39.430901+00:00",
+        "LastUpdated": "11/14/25 3:23 AM",
+        "DatabaseLastUpdated": "2025-11-14T01:10:44.6548849+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": "Ramesh Antony Raj",
             "Quizzers": [
               0,
-              3,
-              4
+              2,
+              4,
+              5,
+              6
             ],
             "Matches": [
               {
@@ -3122,7 +3124,7 @@
             "CoachName": "Videgla Sekpe",
             "Quizzers": [
               1,
-              2
+              3
             ],
             "Matches": [
               {
@@ -3245,6 +3247,29 @@
             }
           },
           {
+            "TeamName": "Chi Rho Bros",
+            "YearsQuizzing": null,
+            "Id": "q_2bc1be5d-7fb6-40a3-9d47-5a8c1ad1cee6_113",
+            "Name": "David Sekpe",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Cross Trainers",
             "YearsQuizzing": null,
             "Id": "q_d7ca00c791a74b9bf37f08ddff6180fc",
@@ -3270,14 +3295,14 @@
           {
             "TeamName": "Chi Rho Bros",
             "YearsQuizzing": null,
-            "Id": "q_2bc1be5d-7fb6-40a3-9d47-5a8c1ad1cee6_112",
-            "Name": "Victor Joseph",
+            "Id": "q_2bc1be5d-7fb6-40a3-9d47-5a8c1ad1cee6_114",
+            "Name": "Jack Sekpe",
             "ChurchName": "First at Firewheel",
             "City": "Garland",
             "State": "TX",
             "Scores": {
               "Rank": 5,
-              "IsTie": false,
+              "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -3287,7 +3312,30 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Chi Rho Bros",
+            "YearsQuizzing": null,
+            "Id": "q_2bc1be5d-7fb6-40a3-9d47-5a8c1ad1cee6_112",
+            "Name": "Victor Joseph",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -3315,13 +3363,20 @@
           }
         ],
         "RankedQuizzers": [
-          4,
+          6,
           1,
-          2,
+          3,
           0,
-          3
+          2,
+          4,
+          5
         ],
-        "QuizzerFootnotes": [],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "MeetNames": null,
         "Rooms": [
           {
@@ -3447,5 +3502,5 @@
       }
     }
   ],
-  "Freshness": "2025-10-18T20:06:32.7636871+00:00"
+  "Freshness": "2025-11-14T01:10:44.8516486+00:00"
 }
