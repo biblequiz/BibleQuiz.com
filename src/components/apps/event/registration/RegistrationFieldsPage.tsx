@@ -25,8 +25,6 @@ export default function RegistrationFieldsPage({ }: Props) {
 
     const commonDialogRef = useRef<HTMLDialogElement>(null);
 
-    // TODO: Multi-line text is only allowed for team.
-
     return (
         <>
             <RegistrationPageForm

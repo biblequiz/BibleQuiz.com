@@ -1,9 +1,10 @@
 import { EventField, EventFieldControlType, EventFieldDataType, EventFieldScopes, EventFieldVisibility } from "types/services/EventsService";
 import EventFieldControl from "../fields/EventFieldControl";
-import { use, useState } from "react";
+import { useState } from "react";
 import RichTextEditor from "components/RichTextEditor";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import EventFieldValueSelector from "./EventFieldValueSelector";
 
 interface Props {
     allowAttendees: boolean;
@@ -38,10 +39,14 @@ class ControlTypeRestrictions {
     constructor(
         isTeamOnlyScope: boolean,
         allowRequired: boolean,
+        hasValues: boolean,
+        hasMaxCount: boolean,
         dataType?: EventFieldDataType) {
 
         this.isTeamOnlyScope = isTeamOnlyScope;
         this.allowRequired = allowRequired;
+        this.hasValues = hasValues;
+        this.hasMaxCount = hasMaxCount
         this.dataType = dataType;
     }
 
@@ -49,18 +54,22 @@ class ControlTypeRestrictions {
 
     public readonly allowRequired: boolean;
 
+    public readonly hasValues: boolean;
+
+    public readonly hasMaxCount: boolean;
+
     public readonly dataType?: EventFieldDataType;
 }
 
 const controlTypeRestrictions: Record<EventFieldControlType, ControlTypeRestrictions> = {
-    [EventFieldControlType.Checkbox]: new ControlTypeRestrictions(false, true, EventFieldDataType.Boolean),
-    [EventFieldControlType.DropdownList]: new ControlTypeRestrictions(false, true, EventFieldDataType.Text),
-    [EventFieldControlType.GradeList]: new ControlTypeRestrictions(false, true, EventFieldDataType.Number),
-    [EventFieldControlType.HtmlCheckbox]: new ControlTypeRestrictions(true, true, EventFieldDataType.Boolean),
-    [EventFieldControlType.MultilineTextbox]: new ControlTypeRestrictions(true, true, EventFieldDataType.Text),
-    [EventFieldControlType.MultiItemCheckbox]: new ControlTypeRestrictions(false, false, EventFieldDataType.TextList),
-    [EventFieldControlType.RadioButton]: new ControlTypeRestrictions(false, true, EventFieldDataType.Text),
-    [EventFieldControlType.Textbox]: new ControlTypeRestrictions(false, true),
+    [EventFieldControlType.Checkbox]: new ControlTypeRestrictions(false, true, false, false, EventFieldDataType.Boolean),
+    [EventFieldControlType.DropdownList]: new ControlTypeRestrictions(false, true, true, false, EventFieldDataType.Text),
+    [EventFieldControlType.GradeList]: new ControlTypeRestrictions(false, true, false, false, EventFieldDataType.Number),
+    [EventFieldControlType.HtmlCheckbox]: new ControlTypeRestrictions(true, true, false, false, EventFieldDataType.Boolean),
+    [EventFieldControlType.MultilineTextbox]: new ControlTypeRestrictions(true, true, false, false, EventFieldDataType.Text),
+    [EventFieldControlType.MultiItemCheckbox]: new ControlTypeRestrictions(false, false, true, true, EventFieldDataType.TextList),
+    [EventFieldControlType.RadioButton]: new ControlTypeRestrictions(false, true, true, false, EventFieldDataType.Text),
+    [EventFieldControlType.Textbox]: new ControlTypeRestrictions(false, true, false, false),
 };
 
 export default function EventFieldCardBody({ allowAttendees, field }: Props) {
@@ -74,6 +83,8 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
     const [dataType, setDataType] = useState(field.DataType);
     const [minNumber, setMinNumber] = useState<number | null>(field.MinNumberValue ?? null);
     const [maxNumber, setMaxNumber] = useState<number | null>(field.MaxNumberValue ?? null);
+    const [maxCount, setMaxCount] = useState<number>(0);
+    const [values, setValues] = useState<string[]>(field.Values ?? []);
 
     const getScopeCheckbox = (
         scope: EventFieldScopes,
@@ -121,7 +132,6 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
                     value={label}
                     onChange={e => setLabel(e.target.value)}
                     onBlur={e => {
-                        e.preventDefault();
                         field.Label = trimAndUpdateRequiredState(label, setLabel);
                         sharedDirtyWindowState.set(true);
                     }}
@@ -344,6 +354,44 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
                                     max={maxNumber ?? 2147483647}
                                 />
                             </div>)}
+                    </div>)}
+                {controlRestrictions.hasValues && (
+                    <div className="w-full mt-2">
+                        <label className="label mb-0">
+                            <span className="label-text font-medium text-sm">Values</span>
+                            <span className="label-text-alt text-error">*</span>
+                        </label>
+                        <div className="mt-0">
+                            <EventFieldValueSelector
+                                values={values}
+                                setValues={(newValues: string[]) => {
+                                    setValues(newValues);
+                                    field.Values = newValues;
+                                    sharedDirtyWindowState.set(true);
+                                }} />
+                        </div>
+                    </div>)}
+                {controlRestrictions.hasMaxCount && (
+                    <div className="w-full mt-2">
+                        <label className="label mb-0">
+                            <span className="label-text font-medium text-sm">Max Selections</span>
+                            <span className="label-text-alt text-error">*</span>
+                        </label>
+                        <select
+                            className="select select-info w-full mt-0"
+                            value={maxCount}
+                            onChange={e => {
+                                const newMaxCount: number = parseInt(e.target.value);
+                                setMaxCount(newMaxCount);
+
+                                field.MaxCount = newMaxCount;
+                                sharedDirtyWindowState.set(true);
+                            }}
+                            required>
+                            <option value={0}>No Limit</option>
+                            {Array.from({ length: values.length }, (_, i) => (
+                                <option key={`maxCount_${i + 1}`}>{i + 1}</option>))}
+                        </select>
                     </div>)}
             </div>
         </>);

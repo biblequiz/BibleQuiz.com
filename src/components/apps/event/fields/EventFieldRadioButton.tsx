@@ -26,7 +26,7 @@ export default function EventFieldRadioButton({
     };
 
     const control = (
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
             {(field.Values ?? []).map(fieldValue => {
                 return (
                     <label key={`${field.Id}_${field.Label}_${fieldValue}`} className="label text-wrap mt-0">

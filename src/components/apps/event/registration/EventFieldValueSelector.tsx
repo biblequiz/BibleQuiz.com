@@ -1,163 +1,155 @@
 import { useEffect, useRef, useState } from "react";
-import type { QuestionRangeFilter } from 'types/services/QuestionGeneratorService';
-import settings from 'data/generated/questionGenerator.json';
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import type { JbqQuestionGeneratorSettings } from 'types/QuestionGeneratorSettings';
 
 interface Props {
-    ranges: QuestionRangeFilter[];
-    setRanges: (ranges: QuestionRangeFilter[]) => void;
+    values: string[];
+    setValues: (values: string[]) => void;
 }
 
-interface AddRangeState {
-    min: number | null;
-    max: number | null;
+interface PossibleValue {
+    text: string | null;
+    index?: number | undefined;
     isFocused: boolean;
 }
 
-const GENERATOR_SETTINGS = settings as JbqQuestionGeneratorSettings;
+export default function EventFieldValueSelector({ values, setValues }: Props) {
 
-export default function EventFieldValueSelector({
-    ranges,
-    setRanges }: Props) {
-
-    const [addState, setAddState] = useState<AddRangeState | null>(null);
-    const minInputRef = useRef<HTMLInputElement>(null);
-    const maxInputRef = useRef<HTMLInputElement>(null);
+    const [possibleValue, setPossibleValue] = useState<PossibleValue | null>(null);
+    const possibleValueRef = useRef<HTMLInputElement>(null);
 
     useEffect(() => {
-        if (addState && !addState.isFocused) {
-            if (minInputRef.current) {
-                minInputRef.current.focus();
+        if (possibleValue && !possibleValue.isFocused) {
+            if (possibleValueRef.current) {
+                possibleValueRef.current.focus();
             }
 
-            setAddState({ ...addState, isFocused: true });
+            setPossibleValue({ ...possibleValue, isFocused: true });
         }
-    }, [addState]);
+    }, [possibleValue]);
 
-    const startAddRange = (event: React.MouseEvent<HTMLButtonElement>) => {
-        event.preventDefault();
-        setAddState({ min: null, max: null, isFocused: false });
-    };
+    const getPossibleValueControl = () => {
+        return (
+            <div className="bg-base-200 border-base-400 rounded-box border p-4 mt-0">
+                <input
+                    type="text"
+                    ref={possibleValueRef}
+                    value={possibleValue?.text ?? ""}
+                    onChange={e => {
+                        e.target.setCustomValidity("");
+                        setPossibleValue({ ...possibleValue, text: e.target.value, isFocused: true });
+                    }}
+                    className="input input-bordered w-32 input-sm"
+                    maxLength={60}
+                    required
+                />
+                <button
+                    className="btn btn-secondary btn-sm mt-0 ml-2 cursor-pointer"
+                    type="button"
+                    aria-label="Add"
+                    onClick={() => {
+                        const newArray = [...values];
 
-    const completeAddRange = (event: React.MouseEvent<HTMLButtonElement>) => {
-        event.preventDefault();
+                        for (let i = 0; i < newArray.length; i++) {
+                            if (possibleValue!.index !== i && newArray[i] == possibleValue!.text) {
+                                possibleValueRef.current?.setCustomValidity("Must be a unique value.");
+                                possibleValueRef.current?.reportValidity();
+                                return;
+                            }
+                        }
 
-        // Check the range before the other validity checks to ensure the check doesn't detect
-        // an old failure.
-        const firstQuestion = addState!.min as number;
-        const lastQuestion = addState!.max as number;
-        if (firstQuestion && lastQuestion) {
-            if (firstQuestion > lastQuestion) {
-                minInputRef.current!.setCustomValidity("Cannot be greater than the last question.");
-            }
-            else {
-                minInputRef.current!.setCustomValidity("");
-            }
+                        possibleValueRef.current?.setCustomValidity("");
 
-            for (const existingRange of ranges) {
-                if (!(lastQuestion < existingRange.Start || firstQuestion > existingRange.End)) {
-                    minInputRef.current!.setCustomValidity(`Overlaps with the range ${existingRange.Start}-${existingRange.End}.`);
-                    break;
-                }
-            }
-        }
+                        if (possibleValue?.index !== undefined) {
+                            newArray[possibleValue.index] = possibleValue.text!;
+                        }
+                        else {
+                            newArray.push(possibleValue!.text!);
+                        }
 
-        const isMinValid = minInputRef.current!.checkValidity();
-        minInputRef.current!.reportValidity();
-
-        const isMaxValid = maxInputRef.current!.checkValidity();
-        maxInputRef.current!.reportValidity();
-
-        if (!isMinValid || !isMaxValid) {
-            return;
-        }
-
-        setRanges([
-            ...ranges,
-            { Start: firstQuestion, End: lastQuestion }]
-            .sort((a, b) => a.Start - b.Start));
-        setAddState(null);
-    };
-
-    const cancelAddRange = (event: React.MouseEvent<HTMLButtonElement>) => {
-        event.preventDefault();
-        setAddState(null);
-    };
-
-    const removeRange = (index: number) => {
-        setRanges(ranges.filter((_, i) => i !== index));
+                        setValues(newArray);
+                        setPossibleValue(null);
+                    }}>
+                    <FontAwesomeIcon icon="far faCircleCheck" />
+                </button>
+                <button
+                    className="btn btn-warning btn-sm mt-0 ml-2 cursor-pointer"
+                    type="button"
+                    aria-label="Cancel"
+                    onClick={() => setPossibleValue(null)}
+                >
+                    <FontAwesomeIcon icon="far faCircleXmark" />
+                </button>
+            </div>);
     };
 
     return (
         <div className="flex flex-wrap gap-2">
-            {ranges.map((range, index) => (
-                <div className="badge badge-primary mt-0" key={`custom-range-${range.Start}-${range.End}`}>
-                    <span>{range.Start} - {range.End}</span>
-                    <button
-                        type="button"
-                        className="btn btn-ghost btn-xs text-primary-content hover:bg-primary-focus rounded-full w-4 h-4 min-h-0 p-0"
-                        onClick={(e) => {
-                            e.stopPropagation();
-                            removeRange(index);
-                        }}
-                        aria-label={`Remove ${range.Start}-${range.End}`}
-                    >
-                        <FontAwesomeIcon icon="fas faX" />
-                    </button>
-                </div>))}
-            {addState && (
-                <div className="bg-base-200 border-base-400 rounded-box border p-4 mt-0">
-                    <input
-                        type="number"
-                        ref={minInputRef}
-                        value={addState?.min ?? ""}
-                        onChange={e => {
-                            e.target.setCustomValidity("");
-                            setAddState({ ...addState, min: Number(e.target.value) });
-                        }}
-                        className="input input-bordered w-16 input-sm"
-                        min={GENERATOR_SETTINGS.AllowedRange.Start}
-                        max={GENERATOR_SETTINGS.AllowedRange.End}
-                        step={1}
-                        required
-                    />
-                    <FontAwesomeIcon icon="fas faMinus" classNames={["ml-2", "mr-2"]} />
-                    <input
-                        type="number"
-                        ref={maxInputRef}
-                        value={addState?.max ?? ""}
-                        onChange={e => {
-                            e.target.setCustomValidity("");
-                            setAddState({ ...addState, max: Number(e.target.value) });
-                        }}
-                        className="input input-bordered w-16 input-sm"
-                        min={GENERATOR_SETTINGS.AllowedRange.Start}
-                        max={GENERATOR_SETTINGS.AllowedRange.End}
-                        step={1}
-                        required
-                    />
-                    <button
-                        className="btn btn-secondary btn-sm mt-0 ml-2 cursor-pointer"
-                        type="button"
-                        aria-label="Add"
-                        onClick={completeAddRange}>
-                        <FontAwesomeIcon icon="far faCircleCheck" />
-                    </button>
-                    <button
-                        className="btn btn-warning btn-sm mt-0 ml-2 cursor-pointer"
-                        type="button"
-                        aria-label="Cancel"
-                        onClick={cancelAddRange}>
-                        <FontAwesomeIcon icon="far faCircleXmark" />
-                    </button>
-                </div>)}
-            {!addState && (
+            {values.map((value, index) => {
+                if (possibleValue && possibleValue.index === index) {
+                    return getPossibleValueControl();
+                }
+
+                return (
+                    <div className="badge badge-primary mt-0" key={`value-${value}`}>
+                        {index > 0 && (
+                            <button
+                                type="button"
+                                className="btn btn-ghost btn-xs text-primary-content hover:bg-primary-focus rounded-full w-4 h-4 min-h-0 p-0"
+                                onClick={() => {
+                                    const newArray = [...values];
+                                    const currentItem = newArray[index];
+                                    newArray[index] = newArray[index - 1];
+                                    newArray[index - 1] = currentItem;
+
+                                    setValues(newArray);
+                                    setPossibleValue(null);
+                                }}
+                                aria-label={`Move ${value} Left`}
+                            >
+                                <FontAwesomeIcon icon="fas faArrowLeft" />
+                            </button>)}
+                        {index < values.length - 1 && (
+                            <button
+                                type="button"
+                                className="btn btn-ghost btn-xs text-primary-content hover:bg-primary-focus rounded-full w-4 h-4 min-h-0 p-0 mt-0"
+                                onClick={() => {
+                                    const newArray = [...values];
+                                    const currentItem = newArray[index];
+                                    newArray[index] = newArray[index + 1];
+                                    newArray[index + 1] = currentItem;
+
+                                    setValues(newArray);
+                                    setPossibleValue(null);
+                                }}
+                                aria-label={`Move ${value} Right`}
+                            >
+                                <FontAwesomeIcon icon="fas faArrowRight" />
+                            </button>)}
+                        <span onClick={() => setPossibleValue({
+                            text: value,
+                            index: index,
+                            isFocused: true
+                        })}>{value}</span>
+                        <button
+                            type="button"
+                            className="btn btn-ghost btn-xs text-primary-content hover:bg-primary-focus rounded-full w-4 h-4 min-h-0 p-0 mt-0"
+                            onClick={() => {
+                                setValues(values.filter((_, i) => i !== index));
+                                setPossibleValue(null);
+                            }}
+                            aria-label={`Remove ${value}`}
+                        >
+                            <FontAwesomeIcon icon="fas faX" />
+                        </button>
+                    </div>);
+            })}
+            {possibleValue && possibleValue.index === undefined && getPossibleValueControl()}
+            {!possibleValue && (
                 <button
                     className="badge badge-success mt-0 text-success-content hover:bg-success-focus cursor-pointer"
                     type="button"
                     aria-label="Add Range"
-                    onClick={startAddRange}
+                    onClick={() => setPossibleValue({ text: null, isFocused: true })}
                 >
                     <FontAwesomeIcon icon="fas faPlus" />
                     <span>Add</span>
