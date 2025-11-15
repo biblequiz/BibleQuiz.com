@@ -1,0 +1,2642 @@
+{
+  "EventName": "MIJBQ Dummy",
+  "DatabaseNames": {
+    "852f5ff9-8d3d-4d85-9035-9651529dbcf3": "MIJBQ_2025_2026_Sections"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "852f5ff9-8d3d-4d85-9035-9651529dbcf3",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Emilys Test matches",
+        "LastUpdated": "11/14/25 1:52 PM",
+        "DatabaseLastUpdated": "2025-11-11T04:38:26.2372231+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Paul Chapman",
+            "Quizzers": [
+              1
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_5579cad4-5551-41cb-a320-5ff1a2f7152c",
+            "Name": "Brightmoor Christian Church (Novi) #1",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 75.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Sandy Kodi",
+            "Quizzers": [
+              3,
+              6
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_82ab9643-ff6b-4743-bbe2-2fdcf57eb7ab",
+            "Name": "Brightmoor Christian Church (Novi) #2",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 1,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 75.0,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 7,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Andrea Cioaca",
+            "Quizzers": [
+              0,
+              2
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_3c24109e-d4fb-48cf-8a4c-e5ccc849f343",
+            "Name": "Brightmoor Christian Church (Novi) #3",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 150.0,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Stephanie Jundt",
+            "Quizzers": [
+              4,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "InProgress",
+                "CurrentQuestion": 18,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": 2,
+            "Id": "t_74c5d72a-8191-436c-a825-53e850192c64",
+            "Name": "Brightmoor Christian Church (Novi) #4",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 1,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 2,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Madelyn Yatooma",
+            "Quizzers": [],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_db5d577b-215e-44ac-b74b-e8c6d94b8b0b",
+            "Name": "Brightmoor Christian Church (Novi) #5",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 0,
+              "WinPercentage": 0,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Stacey Horne",
+            "Quizzers": [],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "InProgress",
+                "CurrentQuestion": 18,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": 2,
+            "Id": "t_15b03c73-6aa6-401d-9305-0764f4d1ab8c",
+            "Name": "Brightmoor Christian Church (Novi) #7",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 0,
+              "WinPercentage": 0,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          4,
+          5,
+          2,
+          0,
+          1,
+          3
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #3",
+            "YearsQuizzing": null,
+            "Id": "q_43e7829d27ba497a932108dd5453051f",
+            "Name": "Ayden Clemente",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 130.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #1",
+            "YearsQuizzing": null,
+            "Id": "q_1af94a2c04b64d994a9508db2721723e",
+            "Name": "David Song",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 75.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #3",
+            "YearsQuizzing": null,
+            "Id": "q_91f82fbc4da64462247b08dc609df86d",
+            "Name": "Dylan Clemente",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #2",
+            "YearsQuizzing": null,
+            "Id": "q_a5ddaedc889b43f2930f08dd5453051f",
+            "Name": "Eliora Chen",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #4",
+            "YearsQuizzing": null,
+            "Id": "q_bc39d4afa59f4d91927708dd5453051f",
+            "Name": "Leala Fedrick",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 2,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #4",
+            "YearsQuizzing": null,
+            "Id": "q_b84e81d203ba42e892d908dd5453051f",
+            "Name": "Michael Beck",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #2",
+            "YearsQuizzing": null,
+            "Id": "q_950a149b6581481b927e08dd5453051f",
+            "Name": "Sharon Joshlyn",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 60.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          0,
+          1,
+          4,
+          6,
+          3,
+          2,
+          5
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": 18,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "InProgress",
+                "Blockers": [
+                  {
+                    "RoomId": 1,
+                    "Match": 0,
+                    "Team": 5,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 2,
+                    "Match": 1,
+                    "Team": 5,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  },
+                  {
+                    "RoomId": 1,
+                    "Match": 1,
+                    "Team": 3,
+                    "State": "NotStarted",
+                    "CurrentQuestion": null
+                  }
+                ]
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": true,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "0 of 5 Match(es) Done, +2 by some Room(s)",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "852f5ff9-8d3d-4d85-9035-9651529dbcf3",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Alyssas Test Matches",
+        "LastUpdated": "11/14/25 1:52 PM",
+        "DatabaseLastUpdated": "2025-11-11T04:38:26.2372231+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Andrea Cioaca",
+            "Quizzers": [
+              0,
+              2
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_3c24109e-d4fb-48cf-8a4c-e5ccc849f343",
+            "Name": "Brightmoor Christian Church (Novi) #3",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "CoachName": "Stephanie Jundt",
+            "Quizzers": [
+              7,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_74c5d72a-8191-436c-a825-53e850192c64",
+            "Name": "Brightmoor Christian Church (Novi) #4",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "CoachName": "Madelyn Yatooma",
+            "Quizzers": [
+              5,
+              6
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_db5d577b-215e-44ac-b74b-e8c6d94b8b0b",
+            "Name": "Brightmoor Christian Church (Novi) #5",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "CoachName": "Jun Chen",
+            "Quizzers": [
+              4
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_c7f86447-52e0-470d-85af-199ece6cae6d",
+            "Name": "Brightmoor Christian Church (Novi) #6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "CoachName": "Stacey Horne",
+            "Quizzers": [
+              3,
+              8
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_15b03c73-6aa6-401d-9305-0764f4d1ab8c",
+            "Name": "Brightmoor Christian Church (Novi) #7",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "CoachName": "Kunbi Usman",
+            "Quizzers": [
+              1,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "5",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_fa5c955b-534b-475a-b4f5-ee5136962d04",
+            "Name": "Brightmoor Christian Church (Novi) #8",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #3",
+            "YearsQuizzing": null,
+            "Id": "q_43e7829d27ba497a932108dd5453051f",
+            "Name": "Ayden Clemente",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #8",
+            "YearsQuizzing": null,
+            "Id": "q_36b79ce8e9b14a69937b08dd5453051f",
+            "Name": "Cianna Ridgeway",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #3",
+            "YearsQuizzing": null,
+            "Id": "q_91f82fbc4da64462247b08dc609df86d",
+            "Name": "Dylan Clemente",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #7",
+            "YearsQuizzing": null,
+            "Id": "q_5382595e939b4d14cd8408dc5be0be98",
+            "Name": "Elizabeth Horne",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #6",
+            "YearsQuizzing": null,
+            "Id": "q_6b12c9e7cae042a3934508dd5453051f",
+            "Name": "Elliot Chen",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #5",
+            "YearsQuizzing": null,
+            "Id": "q_d0f6571d2b4d4b614a9008db2721723e",
+            "Name": "Henry Yatooma",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #5",
+            "YearsQuizzing": null,
+            "Id": "q_249a4bff006c416f931b08dd5453051f",
+            "Name": "Kingsley Jundt",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #4",
+            "YearsQuizzing": null,
+            "Id": "q_bc39d4afa59f4d91927708dd5453051f",
+            "Name": "Leala Fedrick",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #7",
+            "YearsQuizzing": null,
+            "Id": "q_7f41c5eaa2a1499492d308dd5453051f",
+            "Name": "Matthew Lee",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #4",
+            "YearsQuizzing": null,
+            "Id": "q_b84e81d203ba42e892d908dd5453051f",
+            "Name": "Michael Beck",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #8",
+            "YearsQuizzing": null,
+            "Id": "q_3a09a0e1384148ce936908dd5453051f",
+            "Name": "Shiloh Usman",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "5",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "852f5ff9-8d3d-4d85-9035-9651529dbcf3",
+        "MeetId": 4,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Roys Test Matches",
+        "LastUpdated": "11/14/25 1:52 PM",
+        "DatabaseLastUpdated": "2025-11-11T04:38:26.2372231+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Korinne King",
+            "Quizzers": [
+              4,
+              6,
+              16
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_eb5c08f8-589e-40a2-af5c-9b609eab3bbe",
+            "Name": "A Living & Holy Sacrifice",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "CoachName": "Paul Chapman",
+            "Quizzers": [
+              0,
+              7,
+              15,
+              26
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_f8fc983d-81d8-472b-b85e-2abf59e1b59e",
+            "Name": "All in the Family",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "CoachName": "Paul Chapman",
+            "Quizzers": [
+              8
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_5579cad4-5551-41cb-a320-5ff1a2f7152c",
+            "Name": "Brightmoor Christian Church (Novi) #1",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "CoachName": "Sandy Kodi",
+            "Quizzers": [
+              11,
+              25
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_82ab9643-ff6b-4743-bbe2-2fdcf57eb7ab",
+            "Name": "Brightmoor Christian Church (Novi) #2",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "CoachName": "Jun Chen",
+            "Quizzers": [
+              2,
+              9,
+              10,
+              12,
+              13,
+              19,
+              24
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_a5f0dd65-be71-4ef3-bda3-16452a4b0076",
+            "Name": "JBQ Koalas",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "CoachName": "Rick Harr",
+            "Quizzers": [
+              1,
+              5,
+              14,
+              17,
+              20,
+              22
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_bfb8b17d-2727-4ba7-b989-9e0d9a3896e0",
+            "Name": "Journey Life Church (Holt) #1",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "CoachName": "ROY MILLS",
+            "Quizzers": [
+              3,
+              18,
+              21,
+              23,
+              27
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_53a9dae9-0e25-473c-a1b3-b378db15cda2",
+            "Name": "Not Those Kids",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_db953d3b3f824fc31aee08dc25f7bba1",
+            "Name": "Abigail Usman",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8639d094d1c54e25a58308dd6a45f98a",
+            "Name": "Adelaide Blevins",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_43e7829d27ba497a932108dd5453051f",
+            "Name": "Ayden Clemente",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_c4ba81ac5c5143ffe3bd08dd6bc45088",
+            "Name": "Barrett Ward",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "A Living & Holy Sacrifice",
+            "YearsQuizzing": null,
+            "Id": "q_57669f4b089e47471dbf08dd6e6b2000",
+            "Name": "Brooklyn Warf",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_7a88c0de73b744d4b35f08dd439aeab0",
+            "Name": "Chloe Meyers",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "A Living & Holy Sacrifice",
+            "YearsQuizzing": null,
+            "Id": "q_3e51c70bc36247157eab08db0ac77150",
+            "Name": "Coby Vandercook",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_1af94a2c04b64d994a9508db2721723e",
+            "Name": "David Song",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #1",
+            "YearsQuizzing": null,
+            "Id": "q_1af94a2c04b64d994a9508db2721723e",
+            "Name": "David Song",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_91f82fbc4da64462247b08dc609df86d",
+            "Name": "Dylan Clemente",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_a5ddaedc889b43f2930f08dd5453051f",
+            "Name": "Eliora Chen",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #2",
+            "YearsQuizzing": null,
+            "Id": "q_a5ddaedc889b43f2930f08dd5453051f",
+            "Name": "Eliora Chen",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_6b12c9e7cae042a3934508dd5453051f",
+            "Name": "Elliot Chen",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_c96ba509a87d4dff1adb08dc25f7bba1",
+            "Name": "Emily Cioaca",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_5b121482a4c240f9f61408dd5f7ffcc6",
+            "Name": "Emmeline Blevins",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_d0f6571d2b4d4b614a9008db2721723e",
+            "Name": "Henry Yatooma",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "A Living & Holy Sacrifice",
+            "YearsQuizzing": null,
+            "Id": "q_71b42c31d26c47f5f4b808dd5b8c5103",
+            "Name": "Jacob King",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8378d5ad6323471df8f708d8f2259de8",
+            "Name": "JJ Burns",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_f9b2ae21026b4b3be3c308dd6bc45088",
+            "Name": "Jonah Simon",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_e7c1c26ae8fe423092cd08dd5453051f",
+            "Name": "Joseph Oyekoya",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_10c8279877e64371f62808dd5f7ffcc6",
+            "Name": "Lily Meyers",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_5f95a69d977542f25efb08dd38b93b05",
+            "Name": "Neva Ward",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_728b77e0e3dd416fa57d08dd6a45f98a",
+            "Name": "Olivia Burns",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_cbb2985470cf47ebe3b708dd6bc45088",
+            "Name": "Raphael Gideon",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_950a149b6581481b927e08dd5453051f",
+            "Name": "Sharon Joshlyn",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Brightmoor Christian Church (Novi) #2",
+            "YearsQuizzing": null,
+            "Id": "q_950a149b6581481b927e08dd5453051f",
+            "Name": "Sharon Joshlyn",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_c6352b101d274bda5df908da1b51e388",
+            "Name": "Truitt Jundt",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_9c8fa0652bb44130e3a708dd6bc45088",
+            "Name": "William Ward",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:55 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:20 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:10 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:35 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": "12:00 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2025-11-14T13:52:22.421285+00:00"
+}
