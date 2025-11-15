@@ -8,6 +8,7 @@ import EventFieldCardBody from "./EventFieldCardBody";
 import EventFieldCommonDialog from "./EventFieldCommonDialog";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { sharedDirtyWindowState } from "utils/SharedState";
+import LocalIdGenerator from "utils/LocalIdGenerator";
 
 interface Props {
 }
@@ -34,7 +35,7 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
                 nextPageLink={`${rootEventUrl}/registration/divisions`}>
                 <div className="flex flex-wrap gap-4">
                     {eventFields.map(field => (
-                        <EventFieldCard key={field.Id}>
+                        <EventFieldCard key={`label_${field.Label}`}>
                             <EventFieldCardBody
                                 field={field}
                                 allowAttendees={officialsAndAttendees.allowAttendees}
@@ -68,6 +69,8 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
                                     Visibility: EventFieldVisibility.ReadWrite
                                 };
 
+                                newField.Id = LocalIdGenerator.getLocalId(newField);
+
                                 setEventFields(prevFields => [...prevFields, newField]);
                                 sharedDirtyWindowState.set(true);
                             }}>
@@ -80,6 +83,7 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
             <EventFieldCommonDialog
                 typeId={general.typeId}
                 addField={(field: EventField) => {
+                    field.Id = LocalIdGenerator.getLocalId(field);
                     setEventFields(prevFields => [...prevFields, field]);
                     sharedDirtyWindowState.set(true);
                 }}
