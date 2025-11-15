@@ -5,6 +5,7 @@ import RichTextEditor from "components/RichTextEditor";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import EventFieldValueSelector from "./EventFieldValueSelector";
+import EventFieldPaymentSelector from "./EventFieldPaymentSelector";
 
 interface Props {
     allowAttendees: boolean;
@@ -37,20 +38,16 @@ function trimAndUpdateState(
 
 class ControlTypeRestrictions {
     constructor(
-        isTeamOnlyScope: boolean,
         allowRequired: boolean,
         hasValues: boolean,
         hasMaxCount: boolean,
         dataType?: EventFieldDataType) {
 
-        this.isTeamOnlyScope = isTeamOnlyScope;
         this.allowRequired = allowRequired;
         this.hasValues = hasValues;
         this.hasMaxCount = hasMaxCount
         this.dataType = dataType;
     }
-
-    public readonly isTeamOnlyScope: boolean;
 
     public readonly allowRequired: boolean;
 
@@ -62,14 +59,14 @@ class ControlTypeRestrictions {
 }
 
 const controlTypeRestrictions: Record<EventFieldControlType, ControlTypeRestrictions> = {
-    [EventFieldControlType.Checkbox]: new ControlTypeRestrictions(false, true, false, false, EventFieldDataType.Boolean),
-    [EventFieldControlType.DropdownList]: new ControlTypeRestrictions(false, true, true, false, EventFieldDataType.Text),
-    [EventFieldControlType.GradeList]: new ControlTypeRestrictions(false, true, false, false, EventFieldDataType.Number),
-    [EventFieldControlType.HtmlCheckbox]: new ControlTypeRestrictions(true, true, false, false, EventFieldDataType.Boolean),
-    [EventFieldControlType.MultilineTextbox]: new ControlTypeRestrictions(true, true, false, false, EventFieldDataType.Text),
-    [EventFieldControlType.MultiItemCheckbox]: new ControlTypeRestrictions(false, false, true, true, EventFieldDataType.TextList),
-    [EventFieldControlType.RadioButton]: new ControlTypeRestrictions(false, true, true, false, EventFieldDataType.Text),
-    [EventFieldControlType.Textbox]: new ControlTypeRestrictions(false, true, false, false),
+    [EventFieldControlType.Checkbox]: new ControlTypeRestrictions(true, false, false, EventFieldDataType.Boolean),
+    [EventFieldControlType.DropdownList]: new ControlTypeRestrictions(true, true, false, EventFieldDataType.Text),
+    [EventFieldControlType.GradeList]: new ControlTypeRestrictions(true, false, false, EventFieldDataType.Number),
+    [EventFieldControlType.HtmlCheckbox]: new ControlTypeRestrictions(true, false, false, EventFieldDataType.Boolean),
+    [EventFieldControlType.MultilineTextbox]: new ControlTypeRestrictions(true, false, false, EventFieldDataType.Text),
+    [EventFieldControlType.MultiItemCheckbox]: new ControlTypeRestrictions(false, true, true, EventFieldDataType.TextList),
+    [EventFieldControlType.RadioButton]: new ControlTypeRestrictions(true, true, false, EventFieldDataType.Text),
+    [EventFieldControlType.Textbox]: new ControlTypeRestrictions(true, false, false),
 };
 
 export default function EventFieldCardBody({ allowAttendees, field }: Props) {
@@ -77,7 +74,10 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
     const [label, setLabel] = useState<string>(field.Label);
     const [visibility, setVisibility] = useState<EventFieldVisibility>(field.Visibility);
     const [controlType, setControlType] = useState(field.ControlType);
-    const [scopes, setScopes] = useState<EventFieldScopes>(field.Scopes);
+    const [scopes, setScopes] = useState<EventFieldScopes>(
+        allowAttendees
+            ? field.Scopes
+            : (field.Scopes & ~EventFieldScopes.Attendee));
     const [caption, setCaption] = useState<string | undefined>(field.Caption ?? undefined);
     const [isRequired, setIsRequired] = useState<boolean>(field.IsRequired);
     const [dataType, setDataType] = useState(field.DataType);
@@ -85,6 +85,7 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
     const [maxNumber, setMaxNumber] = useState<number | null>(field.MaxNumberValue ?? null);
     const [maxCount, setMaxCount] = useState<number>(0);
     const [values, setValues] = useState<string[]>(field.Values ?? []);
+    const [paymentScopes, setPaymentScopes] = useState<EventFieldScopes>(field.PaymentScopes ?? EventFieldScopes.None);
 
     const getScopeCheckbox = (
         scope: EventFieldScopes,
@@ -101,6 +102,14 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
                         const newScopes = e.target.checked
                             ? (scopes | scope)
                             : (scopes & ~scope);
+
+                        const newPaymentScopes = e.target.checked
+                            ? (paymentScopes | scope)
+                            : (paymentScopes & ~scope);
+
+                        setPaymentScopes(newPaymentScopes);
+                        field.PaymentScopes = newPaymentScopes;
+
                         setScopes(newScopes);
                         field.Scopes = newScopes;
 
@@ -115,7 +124,7 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
     };
 
     const controlRestrictions = controlTypeRestrictions[controlType];
-    const disableScopeSelection = controlRestrictions.isTeamOnlyScope;
+    const isTeamOnlyScope = EventField.IsTeamOnlyField(controlType);
 
     return (
         <>
@@ -173,7 +182,7 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
                         setControlType(newControlType);
 
                         const restriction = controlTypeRestrictions[newControlType];
-                        if (restriction.isTeamOnlyScope) {
+                        if (isTeamOnlyScope) {
                             setScopes(EventFieldScopes.Team);
                             field.Scopes = EventFieldScopes.Team;
                         }
@@ -249,12 +258,12 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
                     <span className="label-text font-medium text-sm">Show For</span>
                     <span className="label-text-alt text-error">*</span>
                 </label>
-                <div className="mt-0">
-                    {getScopeCheckbox(EventFieldScopes.Team, "Team", disableScopeSelection)}
-                    {getScopeCheckbox(EventFieldScopes.Quizzer, "Quizzer", disableScopeSelection)}
-                    {getScopeCheckbox(EventFieldScopes.Coach, "Coach", disableScopeSelection)}
-                    {getScopeCheckbox(EventFieldScopes.Official, "Official", disableScopeSelection)}
-                    {allowAttendees && getScopeCheckbox(EventFieldScopes.Attendee, "Attendee", disableScopeSelection)}
+                <div className="rounded-md border-primary border-1 border-dashed mt-0 relative p-2 mt-0">
+                    {getScopeCheckbox(EventFieldScopes.Team, "Team", isTeamOnlyScope)}
+                    {getScopeCheckbox(EventFieldScopes.Quizzer, "Quizzer", isTeamOnlyScope)}
+                    {getScopeCheckbox(EventFieldScopes.Coach, "Coach", isTeamOnlyScope)}
+                    {getScopeCheckbox(EventFieldScopes.Official, "Official", isTeamOnlyScope)}
+                    {allowAttendees && getScopeCheckbox(EventFieldScopes.Attendee, "Attendee", isTeamOnlyScope)}
                 </div>
             </div>
             <div className="w-full mt-0">
@@ -392,6 +401,36 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
                             {Array.from({ length: values.length }, (_, i) => (
                                 <option key={`maxCount_${i + 1}`}>{i + 1}</option>))}
                         </select>
+                    </div>)}
+                {EventField.SupportsPayment(controlType, dataType, isRequired) && (
+                    <div className="w-full mt-2">
+                        <label className="label mb-0">
+                            <span className="label-text font-medium text-sm">Cost</span>
+                            <span className="label-text-alt text-error">*</span>
+                        </label>
+                        <EventFieldPaymentSelector
+                            fieldLabel={label}
+                            paymentScopes={paymentScopes}
+                            setPaymentScopes={s => {
+                                setPaymentScopes(s);
+                                field.PaymentScopes = s;
+                                sharedDirtyWindowState.set(true);
+                            }}
+                            paymentInfo={{
+                                paymentIfSelected: field.PaymentIfSelected ?? 0,
+                                paymentUnselectValue: field.PaymentUnselectValue ?? null,
+                                paymentOverrides: field.PaymentOverrides ?? []
+                            }}
+                            setPaymentInfo={(info) => {
+                                field.PaymentIfSelected = info.paymentIfSelected;
+                                field.PaymentUnselectValue = info.paymentUnselectValue;
+                                field.PaymentOverrides = info.paymentOverrides;
+
+                                sharedDirtyWindowState.set(true);
+                            }}
+                            allowedScopes={scopes}
+                            possibleValues={values}
+                        />
                     </div>)}
             </div>
         </>);

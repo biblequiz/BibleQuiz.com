@@ -83,7 +83,7 @@ export default function EventFieldValueSelector({ values, setValues }: Props) {
     };
 
     return (
-        <div className="flex flex-wrap gap-2">
+        <div className="rounded-md border-primary border-1 border-dashed mt-0 relative p-2 flex flex-wrap gap-2">
             {values.map((value, index) => {
                 if (possibleValue && possibleValue.index === index) {
                     return getPossibleValueControl();
