@@ -27,7 +27,7 @@ export interface ReactSidebarLink {
     isCurrent: boolean;
     icon?: string;
     attrs?: any;
-    navigate: () => void;
+    navigate: () => void | Promise<void>;
 }
 
 export interface ReactSidebarGroup {

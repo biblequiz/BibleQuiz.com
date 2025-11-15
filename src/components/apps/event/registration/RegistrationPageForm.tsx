@@ -1,6 +1,7 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type React from "react";
-import { useNavigate } from "react-router-dom";
+import { useRef } from "react";
+import { useBlocker, useNavigate } from "react-router-dom";
 import { sharedDirtyWindowState } from "utils/SharedState";
 
 interface Props {
@@ -19,6 +20,7 @@ export default function RegistrationPageForm({
     saveRegistration }: Props) {
 
     const navigate = useNavigate();
+    const registrationFormRef = useRef<HTMLFormElement>(null);
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
@@ -30,8 +32,20 @@ export default function RegistrationPageForm({
         navigate(nextPageLink!);
     };
 
+    const checkValidity = (): boolean => {
+        if (registrationFormRef.current) {
+            return registrationFormRef.current.reportValidity();
+        }
+
+        return true;
+    }
+
     const handlePrevious = (e: React.MouseEvent) => {
         e.preventDefault();
+
+        if (!checkValidity()) {
+            return;
+        }
 
         // Persist the current form.
         persistFormToEventInfo();
@@ -43,6 +57,10 @@ export default function RegistrationPageForm({
     const handleSave = async (e: React.MouseEvent) => {
         e.preventDefault();
 
+        if (!checkValidity()) {
+            return;
+        }
+
         // Persist the current form before saving.
         persistFormToEventInfo();
 
@@ -52,8 +70,22 @@ export default function RegistrationPageForm({
 
     const allowSave = sharedDirtyWindowState.get();
 
+    useBlocker(
+        ({ currentLocation, nextLocation }) => {
+            if (currentLocation.pathname !== nextLocation.pathname) {
+                if (!checkValidity()) {
+                    return true;
+                }
+
+                persistFormToEventInfo();
+            }
+
+            return false;
+        }
+    );
+
     return (
-        <form className="space-y-6 mt-0" onSubmit={handleSubmit}>
+        <form ref={registrationFormRef} className="space-y-6 mt-0" onSubmit={handleSubmit}>
             <div className="w-full mt-0 flex justify-end gap-2">
                 {previousPageLink && (
                     <button
