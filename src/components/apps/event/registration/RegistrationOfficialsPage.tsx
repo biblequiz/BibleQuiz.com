@@ -39,7 +39,7 @@ export default function RegistrationOfficialsPage({ }: Props) {
             }}
             saveRegistration={saveRegistration}
             previousPageLink={`${rootEventUrl}/registration/teamsAndQuizzers`}
-            nextPageLink={`${rootEventUrl}/registration/fields`}>
+            nextPageLink={`${rootEventUrl}/registration/requiredFields`}>
 
             <h5 className="mb-0">Roles for Officials</h5>
             <p className="mb-0">

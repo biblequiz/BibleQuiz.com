@@ -12,7 +12,7 @@ import { sharedDirtyWindowState } from "utils/SharedState";
 interface Props {
 }
 
-export default function RegistrationFieldsPage({ }: Props) {
+export default function RegistrationCustomFieldsPage({ }: Props) {
     const {
         rootEventUrl,
         saveRegistration,
@@ -30,7 +30,7 @@ export default function RegistrationFieldsPage({ }: Props) {
             <RegistrationPageForm
                 persistFormToEventInfo={() => setFields(eventFields)}
                 saveRegistration={saveRegistration}
-                previousPageLink={`${rootEventUrl}/registration/officials`}
+                previousPageLink={`${rootEventUrl}/registration/requiredFields`}
                 nextPageLink={`${rootEventUrl}/registration/divisions`}>
                 <div className="flex flex-wrap gap-4">
                     {eventFields.map(field => (

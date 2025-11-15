@@ -13,7 +13,8 @@ import RegistrationProvider from './RegistrationProvider';
 import RegistrationGeneralPage from './registration/RegistrationGeneralPage';
 import RegistrationTeamsAndQuizzersPage from './registration/RegistrationTeamsAndQuizzersPage';
 import RegistrationOfficialsPage from './registration/RegistrationOfficialsPage';
-import RegistrationFieldsPage from './registration/RegistrationFieldsPage';
+import RegistrationRequiredFieldsPage from './registration/RegistrationRequiredFieldsPage';
+import RegistrationCustomFieldsPage from './registration/RegistrationCustomFieldsPage';
 import RegistrationDivisionsPage from './registration/RegistrationDivisionsPage';
 import RegistrationFormsPage from './registration/RegistrationFormsPage';
 import RegistrationMoneyPage from './registration/RegistrationMoneyPage';
@@ -153,8 +154,15 @@ function buildSidebar(
             },
             {
                 type: 'link' as const,
-                label: "Fields",
-                navigate: () => navigate(`${rootPath}/registration/fields`),
+                label: "Required Fields",
+                navigate: () => navigate(`${rootPath}/registration/requiredFields`),
+                isCurrent: false,
+                icon: "fas faUser"
+            },
+            {
+                type: 'link' as const,
+                label: "Custom Fields",
+                navigate: () => navigate(`${rootPath}/registration/customFields`),
                 isCurrent: false,
                 icon: "fas faBars"
             },
@@ -385,8 +393,12 @@ const router = createHashRouter([
                                         element: <RegistrationOfficialsPage />
                                     },
                                     {
-                                        path: "/:eventId?/registration/fields",
-                                        element: <RegistrationFieldsPage />
+                                        path: "/:eventId?/registration/requiredFields",
+                                        element: <RegistrationRequiredFieldsPage />
+                                    },
+                                    {
+                                        path: "/:eventId?/registration/customFields",
+                                        element: <RegistrationCustomFieldsPage />
                                     },
                                     {
                                         path: "/:eventId?/registration/divisions",

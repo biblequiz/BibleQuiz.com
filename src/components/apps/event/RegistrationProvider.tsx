@@ -6,7 +6,9 @@ import type { RegistrationGeneralInfo } from "./registration/RegistrationGeneral
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import type { RegistrationTeamsAndQuizzersInfo } from "./registration/RegistrationTeamsAndQuizzersPage";
 import type { RegistrationOfficialsAndAttendeesInfo } from "./registration/RegistrationOfficialsPage";
-import type { EventField } from "types/services/EventsService";
+import { RequiredPersonFields, type EventField } from "types/services/EventsService";
+import type { RegistrationRoleRequiredFields } from "./registration/RegistrationRequiredFieldsPage";
+import { PersonRole } from "types/services/PeopleService";
 
 interface Props {
 }
@@ -27,6 +29,9 @@ export interface RegistrationProviderContext {
 
     officialsAndAttendees: RegistrationOfficialsAndAttendeesInfo;
     setOfficialsAndAttendees: (updated: RegistrationOfficialsAndAttendeesInfo) => void;
+
+    requiredFields: RegistrationRoleRequiredFields;
+    setRequiredFields: (updated: RegistrationRoleRequiredFields) => void;
 
     fields: EventField[];
     setFields: (updated: EventField[]) => void;
@@ -80,6 +85,11 @@ export default function RegistrationProvider({ }: Props) {
         allowAttendees: info?.AllowAttendees || false,
     }));
 
+    const [requiredFields, setRequiredFields] = useState<RegistrationRoleRequiredFields>({
+        contactFields: info?.RequiredPointOfContactFields ?? RequiredPersonFields.Email,
+        roleFields: info?.RequiredRoleFields ?? {}
+    });
+
     const [fields, setFields] = useState<EventField[]>(info?.Fields || []);
 
     const saveRegistration =
@@ -106,6 +116,9 @@ export default function RegistrationProvider({ }: Props) {
 
                 officialsAndAttendees: officialsAndAttendees,
                 setOfficialsAndAttendees: setOfficialsAndAttendees,
+
+                requiredFields: requiredFields,
+                setRequiredFields: setRequiredFields,
 
                 fields: fields,
                 setFields: setFields,
