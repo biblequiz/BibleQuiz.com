@@ -34,12 +34,62 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
                 previousPageLink={`${rootEventUrl}/registration/requiredFields`}
                 nextPageLink={`${rootEventUrl}/registration/divisions`}>
                 <div className="flex flex-wrap gap-4">
-                    {eventFields.map(field => (
-                        <EventFieldCard key={`label_${field.Label}`}>
+                    {eventFields.map((field, index) => (
+                        <EventFieldCard key={`field_${field.Id ?? LocalIdGenerator.getLocalId(field)}`}>
+                            <div className="w-full mt-0">
+                                <button
+                                    type="button"
+                                    className="btn btn-primary w-3/8 mt-0 mb-0 pt-1 pb-1"
+                                    onClick={() => {
+                                        const newFields = [...eventFields];
+                                        const current = newFields[index];
+                                        newFields[index] = newFields[index - 1];
+                                        newFields[index - 1] = current;
+
+                                        setEventFields(newFields);
+                                        setFields(newFields);
+                                        sharedDirtyWindowState.set(true);
+                                    }}
+                                    disabled={index < 1}>
+                                    <FontAwesomeIcon icon="fas faArrowLeft" />
+                                    Move
+                                </button>
+                                <button
+                                    type="button"
+                                    className="btn btn-primary w-3/8 mt-0 mb-0 ml-2 pt-1 pb-1"
+                                    onClick={() => {
+                                        const newFields = [...eventFields];
+                                        const current = newFields[index];
+                                        newFields[index] = newFields[index + 1];
+                                        newFields[index + 1] = current;
+
+                                        setEventFields(newFields);
+                                        setFields(newFields);
+                                        sharedDirtyWindowState.set(true);
+                                    }}
+                                    disabled={index >= eventFields.length - 1}>
+                                    <FontAwesomeIcon icon="fas faArrowRight" />
+                                    Move
+                                </button>
+                            </div>
                             <EventFieldCardBody
                                 field={field}
                                 allowAttendees={officialsAndAttendees.allowAttendees}
                             />
+                            <div className="w-full mt-0">
+                                <button
+                                    type="button"
+                                    className="btn btn-error text-white w-full mt-0 mb-0 pt-1 pb-1"
+                                    onClick={() => {
+                                        const newFields = eventFields.filter((_, i) => i !== index);
+                                        setEventFields(newFields);
+                                        setFields(newFields);
+                                        sharedDirtyWindowState.set(true);
+                                    }}>
+                                    <FontAwesomeIcon icon="fas faTrash" />
+                                    Delete Field
+                                </button>
+                            </div>
                         </EventFieldCard>
                     ))}
                     <EventFieldCard alignMiddle={true}>
@@ -69,8 +119,6 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
                                     Visibility: EventFieldVisibility.ReadWrite
                                 };
 
-                                newField.Id = LocalIdGenerator.getLocalId(newField);
-
                                 setEventFields(prevFields => [...prevFields, newField]);
                                 sharedDirtyWindowState.set(true);
                             }}>
@@ -83,7 +131,6 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
             <EventFieldCommonDialog
                 typeId={general.typeId}
                 addField={(field: EventField) => {
-                    field.Id = LocalIdGenerator.getLocalId(field);
                     setEventFields(prevFields => [...prevFields, field]);
                     sharedDirtyWindowState.set(true);
                 }}

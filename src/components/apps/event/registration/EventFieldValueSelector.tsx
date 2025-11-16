@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { EventField } from "types/services/EventsService";
 
 interface Props {
     values: string[];
@@ -38,6 +39,7 @@ export default function EventFieldValueSelector({ values, setValues }: Props) {
                         e.target.setCustomValidity("");
                         setPossibleValue({ ...possibleValue, text: e.target.value, isFocused: true });
                     }}
+                    pattern={`^([^${EventField.ListValueSeparator}]*)$`}
                     className="input input-bordered w-32 input-sm"
                     maxLength={60}
                     required

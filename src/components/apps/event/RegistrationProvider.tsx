@@ -6,9 +6,8 @@ import type { RegistrationGeneralInfo } from "./registration/RegistrationGeneral
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import type { RegistrationTeamsAndQuizzersInfo } from "./registration/RegistrationTeamsAndQuizzersPage";
 import type { RegistrationOfficialsAndAttendeesInfo } from "./registration/RegistrationOfficialsPage";
-import { RequiredPersonFields, type EventField } from "types/services/EventsService";
+import { EventDivision, RequiredPersonFields, type EventField } from "types/services/EventsService";
 import type { RegistrationRoleRequiredFields } from "./registration/RegistrationRequiredFieldsPage";
-import { PersonRole } from "types/services/PeopleService";
 
 interface Props {
 }
@@ -35,6 +34,9 @@ export interface RegistrationProviderContext {
 
     fields: EventField[];
     setFields: (updated: EventField[]) => void;
+
+    divisions: EventDivision[];
+    setDivisions: (updated: EventDivision[]) => void;
 }
 
 const normalizeDate = (date: string | null): string | null => {
@@ -91,6 +93,7 @@ export default function RegistrationProvider({ }: Props) {
     });
 
     const [fields, setFields] = useState<EventField[]>(info?.Fields || []);
+    const [divisions, setDivisions] = useState<EventDivision[]>(info?.Divisions || []);
 
     const saveRegistration =
         () => {
@@ -122,6 +125,9 @@ export default function RegistrationProvider({ }: Props) {
 
                 fields: fields,
                 setFields: setFields,
+
+                divisions: divisions,
+                setDivisions: setDivisions,
             } as RegistrationProviderContext} />
         </div>);
 }
