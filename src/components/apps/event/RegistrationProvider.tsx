@@ -8,6 +8,7 @@ import type { RegistrationTeamsAndQuizzersInfo } from "./registration/Registrati
 import type { RegistrationOfficialsAndAttendeesInfo } from "./registration/RegistrationOfficialsPage";
 import { EventDivision, EventExternalForm, RequiredPersonFields, type EventField } from "types/services/EventsService";
 import type { RegistrationRoleRequiredFields } from "./registration/RegistrationRequiredFieldsPage";
+import type { RegistrationMoneyInfo } from "./registration/RegistrationMoneyPage";
 
 interface Props {
 }
@@ -40,6 +41,9 @@ export interface RegistrationProviderContext {
 
     forms: EventExternalForm[];
     setForms: (updated: EventExternalForm[]) => void;
+
+    money: RegistrationMoneyInfo;
+    setMoney: (updated: RegistrationMoneyInfo) => void;
 }
 
 const normalizeDate = (date: string | null): string | null => {
@@ -99,6 +103,20 @@ export default function RegistrationProvider({ }: Props) {
     const [divisions, setDivisions] = useState<EventDivision[]>(info?.Divisions || []);
     const [forms, setForms] = useState<EventExternalForm[]>(info?.Forms || []);
 
+    const [moneyState, setMoneyState] = useState<RegistrationMoneyInfo>(() =>
+    ({
+        calculatePayment: info?.CalculatePayment || false,
+        trackPayments: info?.TrackPayments || false,
+        automatedFeeType: info?.AutomatedFeeType || null,
+        automatedPaymentDescriptor: info?.AutomatedPaymentDescriptor || null,
+        payeeName: info?.PayeeName || null,
+        payeeEmail: info?.PayeeEmail || null,
+        payeeAddress: info?.PayeeAddress || null,
+        perChurchCost: info?.PerChurchCost || null,
+        perTeamCost: info?.PerTeamCost || null,
+        rolePayment: info?.RolePayment || null,
+    }));
+
     const saveRegistration =
         () => {
             alert("Save registration called");
@@ -134,7 +152,10 @@ export default function RegistrationProvider({ }: Props) {
                 setDivisions: setDivisions,
 
                 forms: forms,
-                setForms: setForms
+                setForms: setForms,
+
+                money: moneyState,
+                setMoney: setMoneyState,
             } as RegistrationProviderContext} />
         </div>);
 }

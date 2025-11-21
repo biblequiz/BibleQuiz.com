@@ -1,6 +1,6 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type React from "react";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { sharedDirtyWindowState, sharedRequireBlockerCallback as sharedShouldBlockCallback } from "utils/SharedState";
 

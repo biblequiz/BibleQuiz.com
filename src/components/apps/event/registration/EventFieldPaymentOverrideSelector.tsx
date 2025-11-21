@@ -5,9 +5,13 @@ import type { EventFieldPaymentOverride } from "types/services/EventsService";
 interface Props {
     overrides: EventFieldPaymentOverride[];
     setOverrides: (values: EventFieldPaymentOverride[]) => void;
+    addLabel?: string;
 }
 
-export default function EventFieldPaymentOverrideSelector({ overrides, setOverrides }: Props) {
+export default function EventFieldPaymentOverrideSelector({
+    addLabel = "Add",
+    overrides,
+    setOverrides }: Props) {
 
     const [overrideCost, setOverrideCost] = useState<number | undefined>(undefined);
     const [overrideMinAge, setOverrideMinAge] = useState<number | null | undefined>(undefined);
@@ -227,7 +231,7 @@ export default function EventFieldPaymentOverrideSelector({ overrides, setOverri
                     }}
                 >
                     <FontAwesomeIcon icon="fas faPlus" />
-                    <span>Add</span>
+                    <span>{addLabel}</span>
                 </button>)}
         </div>);
 };

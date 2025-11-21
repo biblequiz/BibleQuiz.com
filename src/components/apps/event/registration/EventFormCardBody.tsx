@@ -1,13 +1,9 @@
-import { EventExternalForm, EventField, EventFieldControlType, EventFieldDataType, EventFieldScopes, EventFieldVisibility } from "types/services/EventsService";
-import EventFieldControl from "../fields/EventFieldControl";
+import { EventExternalForm } from "types/services/EventsService";
 import { useState } from "react";
 import RichTextEditor from "components/RichTextEditor";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
-import EventFieldValueSelector from "./EventFieldValueSelector";
-import EventFieldPaymentSelector from "./EventFieldPaymentSelector";
 import { PersonRole } from "types/services/PeopleService";
-import { set } from "date-fns";
 
 interface Props {
     allowAttendees: boolean;

@@ -61,8 +61,10 @@ function RootLayout({ loadingElementId }: Props) {
                 if (callback) {
                     if (!callback(nextLocation.pathname)) {
                         sharedRequireBlockerCallback.set(null);
-                        return true;
+                        return false;
                     }
+
+                    return true;
                 }
                 else {
                     return true;
