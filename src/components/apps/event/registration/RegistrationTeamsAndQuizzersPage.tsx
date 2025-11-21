@@ -30,6 +30,7 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
 
     return (
         <RegistrationPageForm
+            rootEventUrl={rootEventUrl}
             persistFormToEventInfo={() => {
                 setTeamsAndQuizzers({
                     ...teamsAndQuizzers,

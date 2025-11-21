@@ -23,6 +23,7 @@ export default function RegistrationDivisionsPage({ }: Props) {
 
     return (
         <RegistrationPageForm
+            rootEventUrl={rootEventUrl}
             persistFormToEventInfo={() => setDivisions(eventDivisions)}
             saveRegistration={saveRegistration}
             previousPageLink={`${rootEventUrl}/registration/customFields`}

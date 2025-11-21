@@ -32,6 +32,7 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
 
     return (
         <RegistrationPageForm
+            rootEventUrl={rootEventUrl}
             persistFormToEventInfo={() => {
 
                 const newRoleFields: EventRoleFields = {

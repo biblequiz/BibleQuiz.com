@@ -29,6 +29,7 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
     return (
         <>
             <RegistrationPageForm
+                rootEventUrl={rootEventUrl}
                 persistFormToEventInfo={() => setFields(eventFields)}
                 saveRegistration={saveRegistration}
                 previousPageLink={`${rootEventUrl}/registration/requiredFields`}

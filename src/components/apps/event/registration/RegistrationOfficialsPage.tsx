@@ -28,6 +28,7 @@ export default function RegistrationOfficialsPage({ }: Props) {
 
     return (
         <RegistrationPageForm
+            rootEventUrl={rootEventUrl}
             persistFormToEventInfo={() => {
                 setOfficialsAndAttendees({
                     ...officialsAndAttendees,

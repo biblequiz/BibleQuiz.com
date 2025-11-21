@@ -65,6 +65,7 @@ export default function RegistrationGeneralPage({ }: Props) {
 
     return (
         <RegistrationPageForm
+            rootEventUrl={rootEventUrl}
             persistFormToEventInfo={() => {
 
                 const districtId = scope === EventScope.District ? regionOrDistrictId : null;

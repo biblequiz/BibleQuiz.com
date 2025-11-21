@@ -1,7 +1,7 @@
-import { createHashRouter, RouterProvider, useBlocker, Outlet, useNavigate, useMatches, type UIMatch, useParams, type Params, type NavigateFunction, useLocation } from 'react-router-dom';
+import { createHashRouter, RouterProvider, Outlet, useNavigate, useMatches, type UIMatch, useParams, type Params, type NavigateFunction, useLocation, useBlocker } from 'react-router-dom';
 import { useStore } from '@nanostores/react';
 import { useEffect } from 'react';
-import { sharedDirtyWindowState } from 'utils/SharedState';
+import { sharedDirtyWindowState, sharedRequireBlockerCallback } from 'utils/SharedState';
 import ConfirmationDialog from '../../ConfirmationDialog';
 import ProtectedRoute from '../../auth/ProtectedRoute';
 import { reactSidebarEntries, type ReactSidebarEntry, type ReactSidebarGroup, type ReactSidebarLink } from 'components/sidebar/ReactSidebar';
@@ -54,31 +54,22 @@ function RootLayout({ loadingElementId }: Props) {
     useStore(sharedDirtyWindowState);
     const blocker = useBlocker(
         ({ currentLocation, nextLocation }) => {
-            if (sharedDirtyWindowState.get() && currentLocation.pathname !== nextLocation.pathname) {
+            if (sharedDirtyWindowState.get() &&
+                currentLocation.pathname !== nextLocation.pathname) {
 
-                // Navigation between registration pages is allowed without blocking
-                // as they are all updating the same data. The registration page will do
-                // appropriate validation to ensure data integrity.
-                const eventId = routeParameters.eventId;
-                const firstRegistration = eventId
-                    ? `/${eventId}`
-                    : "";
-                const registrationPrefix = eventId
-                    ? `/${eventId}/registration/`
-                    : "/registration/";
-
-                const isCurrentRegistration = currentLocation.pathname === firstRegistration ||
-                    currentLocation.pathname.startsWith(registrationPrefix);
-                const isNextRegistration = nextLocation.pathname === firstRegistration ||
-                    nextLocation.pathname.startsWith(registrationPrefix);
-
-                if (isCurrentRegistration && isNextRegistration) {
-                    return false;
+                const callback = sharedRequireBlockerCallback.get();
+                if (callback) {
+                    if (!callback(nextLocation.pathname)) {
+                        sharedRequireBlockerCallback.set(null);
+                        return true;
+                    }
                 }
-
-                return true;
+                else {
+                    return true;
+                }
             }
 
+            sharedRequireBlockerCallback.set(null);
             return false;
         }
     );
