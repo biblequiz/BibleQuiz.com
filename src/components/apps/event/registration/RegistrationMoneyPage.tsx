@@ -156,7 +156,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                         name="feeType"
                         className="radio radio-info"
                         checked={!calculatePayment}
-                        onChange={e => handleFeeTypeChange(false, false, null)}
+                        onChange={() => handleFeeTypeChange(false, false, null)}
                     />
                     <span className="text-sm">
                         <b>None</b><br />
@@ -171,7 +171,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                         name="feeType"
                         className="radio radio-info"
                         checked={trackPayments && automatedFeeType === EventPaymentFeeType.PlusFive}
-                        onChange={e => handleFeeTypeChange(true, true, EventPaymentFeeType.PlusFive)}
+                        onChange={() => handleFeeTypeChange(true, true, EventPaymentFeeType.PlusFive)}
                     />
                     <span className="text-sm">
                         <b>Accept Credits Cards (5% + 30¢ per Transaction)</b><br />
@@ -188,7 +188,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                         name="feeType"
                         className="radio radio-info"
                         checked={trackPayments && automatedFeeType === EventPaymentFeeType.PlusThree}
-                        onChange={e => handleFeeTypeChange(true, true, EventPaymentFeeType.PlusThree)}
+                        onChange={() => handleFeeTypeChange(true, true, EventPaymentFeeType.PlusThree)}
                     />
                     <span className="text-sm">
                         <b>Accept Credits Cards (3% + 30¢ per Transaction)</b><br />
@@ -205,7 +205,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                         name="feeType"
                         className="radio radio-info"
                         checked={trackPayments && automatedFeeType === null}
-                        onChange={e => handleFeeTypeChange(true, true, null)}
+                        onChange={() => handleFeeTypeChange(true, true, null)}
                     />
                     <span className="text-sm">
                         <b>Display & Track</b><br />
@@ -222,7 +222,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                         name="feeType"
                         className="radio radio-info"
                         checked={calculatePayment && !trackPayments}
-                        onChange={e => handleFeeTypeChange(true, false, null)}
+                        onChange={() => handleFeeTypeChange(true, false, null)}
                     />
                     <span className="text-sm">
                         <b>Display Only</b><br />

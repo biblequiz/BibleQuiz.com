@@ -5,7 +5,6 @@ import { useState } from "react";
 import { RequiredPersonFields, type EventRoleFields } from "types/services/EventsService";
 import { PersonRole } from "types/services/PeopleService";
 import EventRequiredFieldCardBody from "./EventRequiredFieldCardBody";
-import EventCard from "components/apps/liveAndUpcoming/EventCard";
 import EventFieldCard from "./EventFieldCard";
 
 interface Props {

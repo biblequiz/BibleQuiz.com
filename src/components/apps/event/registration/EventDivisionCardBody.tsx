@@ -2,7 +2,6 @@ import { EventDivision } from "types/services/EventsService";
 import { useState } from "react";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
-import FontAwesomeIcon from "components/FontAwesomeIcon";
 
 interface Props {
     division: EventDivision;
@@ -37,7 +36,7 @@ export default function EventDivisionCardBody({ division }: Props) {
                     className="input input-info w-full mt-0"
                     value={abbreviation}
                     onChange={e => setAbbreviation(e.target.value)}
-                    onBlur={e => {
+                    onBlur={() => {
                         division.Abbreviation = trimAndUpdateRequiredState(abbreviation, setAbbreviation);
                         sharedDirtyWindowState.set(true);
                     }}
@@ -55,7 +54,7 @@ export default function EventDivisionCardBody({ division }: Props) {
                     className="input input-info w-full mt-0"
                     value={labelText}
                     onChange={e => setLabelText(e.target.value)}
-                    onBlur={e => {
+                    onBlur={() => {
                         division.Label = trimAndUpdateRequiredState(labelText, setLabelText);
                         sharedDirtyWindowState.set(true);
                     }}
