@@ -850,12 +850,12 @@ export class EventField extends RemoteServiceModelBase<string> {
     /**
      * Gets or sets the caption for this field (if any).
      */
-    public Caption!: string;
+    public Caption?: string | null;
 
     /**
      * Gets or sets the values for this field.
      */
-    public Values!: string[];
+    public Values?: string[] | null;
 
     /**
      * Gets or sets a value indicating whether this field is required.
@@ -865,39 +865,39 @@ export class EventField extends RemoteServiceModelBase<string> {
     /**
      * Gets or sets the minimum value for this field if the field is a number.
      */
-    public MinNumberValue!: number | null;
+    public MinNumberValue?: number | null;
 
     /**
      * Gets or sets the maximum value for this field if the field is a number.
      */
-    public MaxNumberValue!: number | null;
+    public MaxNumberValue?: number | null;
 
     /**
-     * Gets or sets the maximum number of items for the field is a list.
+     * Gets or sets the maximum number of items if the field is a list.
      */
-    public MaxCount!: number | null;
+    public MaxCount?: number | null;
 
     /**
      * Gets or sets the amount to apply to the payment if this field is selected. It will not be applied
      * if the PaymentUnselectValue is selected.
      */
-    public PaymentIfSelected!: number | null;
+    public PaymentIfSelected?: number | null;
 
     /**
      * Gets or sets the list of scopes payment applies to if this field is selected and PaymentIfSelected is specified.
      * If the scope isn't in the list, no payment will be required.
      */
-    public PaymentScopes!: EventFieldScopes | null;
+    public PaymentScopes?: EventFieldScopes | null;
 
     /**
      * Gets or sets the value (if any) that indicates the field is unselected and shouldn't be considered for payment.
      */
-    public PaymentUnselectValue!: string | null;
+    public PaymentUnselectValue?: string | null;
 
     /**
      * Gets or sets the list of overrides for payment for this field (if any).
      */
-    public PaymentOverrides!: EventFieldPaymentOverride[] | null;
+    public PaymentOverrides?: EventFieldPaymentOverride[] | null;
 
     /**
      * Determines whether the type is a team-only field.

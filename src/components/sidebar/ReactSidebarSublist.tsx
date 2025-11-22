@@ -30,13 +30,29 @@ export default function ReactSidebarSublist({
                         {entry.type === "link" && (
                             <div>
                                 <a
-                                    onClick={e => {
+                                    onClick={async e => {
                                         e.preventDefault();
-                                        entry.navigate();
-                                        setCurrentPage(entry);
+
+                                        // Capture the previous state to ensure navigation
+                                        // occurred before changing the current entry.
+                                        const previousHash = window.location.hash;
+                                        const currentPath = window.location.pathname;
+
+                                        const navigationResult = entry.navigate();
+                                        if (navigationResult &&
+                                            (navigationResult instanceof Promise || typeof (navigationResult as any).then === "function")) {
+                                            await navigationResult;
+                                        }
+
+                                        // Check if the current state has actually changed.
+                                        const currentHash = window.location.hash;
+                                        if (previousHash !== currentHash ||
+                                            currentPath !== window.location.pathname) {
+                                            setCurrentPage(entry);
+                                        }
                                     }}
                                     aria-current={entry.isCurrent && "page"}
-                                    className={`cursor-pointer ${entry.attrs?.className} ${nested ? "" : "large"}`}
+                                    className={`cursor-pointer ${entry.attrs?.className ?? ""} ${nested ? "" : "large"}`}
                                     {...entry.attrs}
                                 >
                                     {entry.icon && (
@@ -45,43 +61,46 @@ export default function ReactSidebarSublist({
                                     <span>{entry.label}</span>
                                 </a>
                             </div>
-                        )}
-                        {entry.type === "group" && (
-                            <details
-                                open={
-                                    flattenSidebar(entry.entries).some(
-                                        (i) => i.isCurrent,
-                                    ) || !entry.collapsed
-                                }
-                            >
-                                <summary>
-                                    <div className="group-label">
-                                        {entry.icon && (
-                                            <FontAwesomeIcon icon={entry.icon} classNames={["fa-fw"]} />
-                                        )}
-                                        <span className="large">{entry.label}</span>
-                                    </div>
-                                    <svg
-                                        aria-hidden={true}
-                                        className="caret"
-                                        width="16"
-                                        height="16"
-                                        style={{ fontSize: "1.25rem" }}
-                                        viewBox="0 0 24 24"
-                                        fill="currentColor"
-                                        dangerouslySetInnerHTML={{ __html: Icons["right-caret"] }}>
-                                    </svg>
-                                </summary>
-                                <ReactSidebarSublist
-                                    keyPrefix={`${keyPrefix}${index}-`}
-                                    entries={entry.entries}
-                                    setCurrentPage={setCurrentPage}
-                                    nested
-                                />
-                            </details>
-                        )}
+                        )
+                        }
+                        {
+                            entry.type === "group" && (
+                                <details
+                                    open={
+                                        flattenSidebar(entry.entries).some(
+                                            (i) => i.isCurrent,
+                                        ) || !entry.collapsed
+                                    }
+                                >
+                                    <summary>
+                                        <div className="group-label">
+                                            {entry.icon && (
+                                                <FontAwesomeIcon icon={entry.icon} classNames={["fa-fw"]} />
+                                            )}
+                                            <span className="large">{entry.label}</span>
+                                        </div>
+                                        <svg
+                                            aria-hidden={true}
+                                            className="caret"
+                                            width="16"
+                                            height="16"
+                                            style={{ fontSize: "1.25rem" }}
+                                            viewBox="0 0 24 24"
+                                            fill="currentColor"
+                                            dangerouslySetInnerHTML={{ __html: Icons["right-caret"] }}>
+                                        </svg>
+                                    </summary>
+                                    <ReactSidebarSublist
+                                        keyPrefix={`${keyPrefix}${index}-`}
+                                        entries={entry.entries}
+                                        setCurrentPage={setCurrentPage}
+                                        nested
+                                    />
+                                </details>
+                            )
+                        }
                     </li>
                 );
             })}
-        </ul>);
+        </ul >);
 }

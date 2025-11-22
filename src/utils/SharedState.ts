@@ -127,3 +127,10 @@ export const sharedGlobalStatusToast = atom<GlobalToastMessage | null>(null);
 
 /* Dirty Window State */
 export const sharedDirtyWindowState = atom<boolean>(false);
+
+export enum BlockerCallbackResult {
+    Block,
+    ShowPrompt,
+    Allow
+};
+export const sharedRequireBlockerCallback = atom<((nextLocation: string)=> BlockerCallbackResult) | null>(null);

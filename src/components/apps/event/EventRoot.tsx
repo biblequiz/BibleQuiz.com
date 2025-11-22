@@ -1,7 +1,7 @@
-import { createHashRouter, RouterProvider, useBlocker, Outlet, useNavigate, useMatches, type UIMatch, useParams, type Params, type NavigateFunction, useLocation } from 'react-router-dom';
+import { createHashRouter, RouterProvider, Outlet, useNavigate, useMatches, type UIMatch, useParams, type Params, type NavigateFunction, useLocation, useBlocker } from 'react-router-dom';
 import { useStore } from '@nanostores/react';
-import { useEffect } from 'react';
-import { sharedDirtyWindowState } from 'utils/SharedState';
+import { useEffect, useState } from 'react';
+import { BlockerCallbackResult, sharedDirtyWindowState, sharedRequireBlockerCallback } from 'utils/SharedState';
 import ConfirmationDialog from '../../ConfirmationDialog';
 import ProtectedRoute from '../../auth/ProtectedRoute';
 import { reactSidebarEntries, type ReactSidebarEntry, type ReactSidebarGroup, type ReactSidebarLink } from 'components/sidebar/ReactSidebar';
@@ -11,9 +11,10 @@ import ErrorPage from '../ErrorPage';
 import NotFoundError from 'components/NotFoundError';
 import RegistrationProvider from './RegistrationProvider';
 import RegistrationGeneralPage from './registration/RegistrationGeneralPage';
-import RegistrationTeamsAndQuizzersPage from './RegistrationTeamsAndQuizzersPage';
+import RegistrationTeamsAndQuizzersPage from './registration/RegistrationTeamsAndQuizzersPage';
 import RegistrationOfficialsPage from './registration/RegistrationOfficialsPage';
-import RegistrationFieldsPage from './registration/RegistrationFieldsPage';
+import RegistrationRequiredFieldsPage from './registration/RegistrationRequiredFieldsPage';
+import RegistrationCustomFieldsPage from './registration/RegistrationCustomFieldsPage';
 import RegistrationDivisionsPage from './registration/RegistrationDivisionsPage';
 import RegistrationFormsPage from './registration/RegistrationFormsPage';
 import RegistrationMoneyPage from './registration/RegistrationMoneyPage';
@@ -48,16 +49,39 @@ function RootLayout({ loadingElementId }: Props) {
     }, [loadingElementId]);
 
     // Subscribe to dirty state
+    const routeParameters: Readonly<Params<string>> = useParams();
+    const [showPrompt, setShowPrompt] = useState(false);
+
     useStore(sharedDirtyWindowState);
     const blocker = useBlocker(
         ({ currentLocation, nextLocation }) => {
-            return sharedDirtyWindowState.get() && currentLocation.pathname !== nextLocation.pathname;
+            if (sharedDirtyWindowState.get() &&
+                currentLocation.pathname !== nextLocation.pathname) {
+
+                const callback = sharedRequireBlockerCallback.get();
+                if (callback) {
+                    const result = callback(nextLocation.pathname);
+                    if (result === BlockerCallbackResult.Allow) {
+                        sharedRequireBlockerCallback.set(null);
+                        return false;
+                    }
+
+                    setShowPrompt(result === BlockerCallbackResult.ShowPrompt);
+                    return true;
+                }
+                else {
+                    setShowPrompt(true);
+                    return true;
+                }
+            }
+
+            sharedRequireBlockerCallback.set(null);
+            return false;
         }
     );
 
     // Configure the routing.
     const routeMatches: UIMatch<unknown, unknown>[] = useMatches();
-    const routeParameters: Readonly<Params<string>> = useParams();
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -66,11 +90,11 @@ function RootLayout({ loadingElementId }: Props) {
             showParent: auth.userProfile?.canCreateEvents ?? false,
             entries: buildSidebar(routeMatches, routeParameters, navigate)
         });
-    }, [location.pathname, auth]);
+    }, [location.pathname, auth, blocker]);
 
     return (
         <>
-            {blocker.state === "blocked" && (
+            {blocker.state === "blocked" && showPrompt && (
                 <ConfirmationDialog
                     title="Unsaved Changes"
                     yesLabel="Leave Page"
@@ -127,8 +151,15 @@ function buildSidebar(
             },
             {
                 type: 'link' as const,
-                label: "Fields",
-                navigate: () => navigate(`${rootPath}/registration/fields`),
+                label: "Required Fields",
+                navigate: () => navigate(`${rootPath}/registration/requiredFields`),
+                isCurrent: false,
+                icon: "fas faUser"
+            },
+            {
+                type: 'link' as const,
+                label: "Custom Fields",
+                navigate: () => navigate(`${rootPath}/registration/customFields`),
                 isCurrent: false,
                 icon: "fas faBars"
             },
@@ -359,8 +390,12 @@ const router = createHashRouter([
                                         element: <RegistrationOfficialsPage />
                                     },
                                     {
-                                        path: "/:eventId?/registration/fields",
-                                        element: <RegistrationFieldsPage />
+                                        path: "/:eventId?/registration/requiredFields",
+                                        element: <RegistrationRequiredFieldsPage />
+                                    },
+                                    {
+                                        path: "/:eventId?/registration/customFields",
+                                        element: <RegistrationCustomFieldsPage />
                                     },
                                     {
                                         path: "/:eventId?/registration/divisions",
