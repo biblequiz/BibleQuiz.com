@@ -53,10 +53,13 @@ export default function QuizzerSearchFilters() {
                         onKeyDown={handleEnterPress}
                     />
                 </label>
-                <a id="search-button" className="btn btn-info ml-4">
+                <button
+                    type="button"
+                    className="btn btn-info ml-4 mt-0"
+                    onClick={handleSearchClick}>
                     <FontAwesomeIcon icon="fas faSearch" />
                     Search
-                </a>
+                </button>
             </div>
         </fieldset>);
 };

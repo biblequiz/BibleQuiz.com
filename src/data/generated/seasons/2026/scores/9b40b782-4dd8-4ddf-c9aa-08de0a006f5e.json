@@ -1,5 +1,5 @@
 {
-  "EventName": "2025-26 NNED Central Maine JBQ Meet 1",
+  "EventName": "2025-26 NNED Central Maine JBQ Meet 2",
   "DatabaseNames": {
     "674cf302-df8e-4d0b-aa1e-7f74770ad21b": "CMJBQ_25-26"
   },
@@ -7,61 +7,133 @@
     "Meets": [
       {
         "DatabaseId": "674cf302-df8e-4d0b-aa1e-7f74770ad21b",
-        "MeetId": 1,
+        "MeetId": 2,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "JBQ 1",
-        "LastUpdated": "11/18/25 3:24 PM",
-        "DatabaseLastUpdated": "2025-11-18T15:16:58.0247217+00:00",
+        "Name": "JBQ Meet 2",
+        "LastUpdated": "11/18/25 3:17 PM",
+        "DatabaseLastUpdated": "2025-11-18T15:16:58.0245475+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
-            "CoachName": "Kara Churchill",
+            "CoachName": "Mark Churchill",
             "Quizzers": [
+              1,
               2,
-              7,
-              14,
-              15,
-              17
+              12,
+              13,
+              16
             ],
             "Matches": [
-              null,
               {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "J2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 125,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "J2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 165,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "J1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 130,
+                "Score": 60,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
                 "OtherTeam": 3
               },
               {
                 "Result": "W",
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 2
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_674cf302-df8e-4d0b-aa1e-7f74770ad21b_6",
+            "Name": "Built Upon The Rock",
+            "ChurchName": "Penobscot Christian School",
+            "City": "Bangor",
+            "State": "ME",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 285,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 71.2,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 12,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Kara Churchill",
+            "Quizzers": [
+              4,
+              9,
+              19,
+              20,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "J1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 170,
+                "Score": 100,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
                 "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -71,51 +143,33 @@
             "City": "Charleston",
             "State": "ME",
             "Scores": {
-              "Wins": 4,
-              "Losses": 0,
-              "WinPercentage": 100,
-              "Rank": 1,
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 590,
+              "TotalPoints": 315,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 147.5,
-              "AverageCorrect": 10.8,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 84,
-              "Correct10s": 30,
-              "Correct20s": 13,
-              "Correct30s": 0,
-              "FootnoteIndex": null
+              "AveragePoints": 78.8,
+              "AverageCorrect": 6.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 22,
+              "Correct20s": 1,
+              "Correct30s": 4,
+              "FootnoteIndex": 0
             }
           },
           {
             "CoachName": "Kara Churchill",
             "Quizzers": [
-              4,
               6,
-              12,
-              13,
-              23
+              8,
+              17,
+              18,
+              25
             ],
             "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "J1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "J1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 3
-              },
               {
                 "Result": "L",
                 "RoomId": 2,
@@ -123,18 +177,36 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 0
+                "OtherTeam": 3
               },
+              null,
               {
                 "Result": "W",
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "J2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 125,
-                "OtherTeam": 4
+                "Score": 75,
+                "OtherTeam": 0
               },
-              null
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 4
+              }
             ],
             "CurrentMatchId": null,
             "Id": "t_674cf302-df8e-4d0b-aa1e-7f74770ad21b_1",
@@ -148,98 +220,26 @@
               "WinPercentage": 25,
               "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 245,
+              "TotalPoints": 300,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 61.2,
+              "AveragePoints": 75.0,
               "AverageCorrect": 5.0,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 74,
-              "Correct10s": 13,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 12,
               "Correct20s": 7,
-              "Correct30s": 0,
-              "FootnoteIndex": null
+              "Correct30s": 1,
+              "FootnoteIndex": 0
             }
           },
           {
             "CoachName": "Cindy Waller",
             "Quizzers": [
               0,
-              3,
-              8,
-              9,
-              11,
-              18
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "J1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "J2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 35,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "J1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 155,
-                "OtherTeam": 4
-              },
-              null,
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "J2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 3
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_674cf302-df8e-4d0b-aa1e-7f74770ad21b_2",
-            "Name": "KVAG Kids",
-            "ChurchName": "Kennebec Valley AG",
-            "City": "Chelsea",
-            "State": "ME",
-            "Scores": {
-              "Wins": 3,
-              "Losses": 1,
-              "WinPercentage": 75,
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 350,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 87.5,
-              "AverageCorrect": 7.0,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 20,
-              "Correct20s": 8,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": "Mark Churchill",
-            "Quizzers": [
-              1,
               5,
               10,
-              20,
+              11,
+              15,
               22
             ],
             "Matches": [
@@ -249,8 +249,8 @@
                 "Room": "J2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 85,
-                "OtherTeam": 4
+                "Score": 225,
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -258,18 +258,72 @@
                 "Room": "J1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 110,
-                "OtherTeam": 1
+                "Score": 210,
+                "OtherTeam": 0
               },
               null,
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "J1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 0
+                "Score": 155,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_674cf302-df8e-4d0b-aa1e-7f74770ad21b_2",
+            "Name": "KVAG Kids",
+            "ChurchName": "Kennebec Valley AG",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 725,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 181.2,
+              "AverageCorrect": 11.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 27,
+              "Correct20s": 16,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Mark Churchill",
+            "Quizzers": [
+              3,
+              7,
+              14,
+              23,
+              24
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -277,7 +331,25 @@
                 "Room": "J2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 60,
+                "Score": 65,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
                 "OtherTeam": 2
               }
             ],
@@ -293,218 +365,61 @@
               "WinPercentage": 50,
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 285,
+              "TotalPoints": 415,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 71.2,
+              "AveragePoints": 103.8,
               "AverageCorrect": 6.2,
-              "QuizOuts": 2,
+              "QuizOuts": 3,
               "QuestionCorrectPercentage": 89,
-              "Correct10s": 23,
-              "Correct20s": 2,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": "Sean Lebida",
-            "Quizzers": [
-              16,
-              19,
-              21
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "J2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 3
-              },
-              null,
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "J1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 5,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "J2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "J1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": -10,
-                "OtherTeam": 0
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_674cf302-df8e-4d0b-aa1e-7f74770ad21b_3",
-            "Name": "TRC TBD",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
-            "Scores": {
-              "Wins": 0,
-              "Losses": 4,
-              "WinPercentage": 0,
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 55,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 13.8,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 75,
-              "Correct10s": 5,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
+              "Correct10s": 13,
+              "Correct20s": 11,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
             }
           }
         ],
         "RankedTeams": [
-          0,
-          2,
           3,
-          1,
-          4
+          0,
+          4,
+          2,
+          1
         ],
-        "TeamFootnotes": [],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
         "Quizzers": [
           {
             "TeamName": "KVAG Kids",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_13",
+            "Id": "q_d2fe5bfb0e424bd491f408de2462bbf7",
             "Name": "Abraham Jackson",
             "ChurchName": "Kennebec Valley AG",
             "City": "Chelsea",
             "State": "ME",
             "Scores": {
-              "Rank": 7,
+              "Rank": 8,
               "IsTie": false,
-              "TotalPoints": 80,
+              "TotalPoints": 105,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 20.0,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 4,
-              "Correct20s": 2,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Rebuilders",
-            "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_30",
-            "Name": "Avery Quimby",
-            "ChurchName": "Penobscot Christian School",
-            "City": "Bangor",
-            "State": "ME",
-            "Scores": {
-              "Rank": 11,
-              "IsTie": false,
-              "TotalPoints": 45,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 11.2,
+              "AveragePoints": 26.2,
               "AverageCorrect": 1.2,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 83,
-              "Correct10s": 5,
-              "Correct20s": 0,
-              "Correct30s": 0,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 3,
               "FootnoteIndex": null
             }
           },
           {
-            "TeamName": "CC JBQ #1",
+            "TeamName": "Built Upon The Rock",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_38",
-            "Name": "Braylea Guptil",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 130,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 32.5,
-              "AverageCorrect": 2.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 5,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "KVAG Kids",
-            "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_16",
-            "Name": "Calvin Gilbert",
-            "ChurchName": "Kennebec Valley AG",
-            "City": "Chelsea",
-            "State": "ME",
-            "Scores": {
-              "Rank": 12,
-              "IsTie": false,
-              "TotalPoints": 30,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 7.5,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "CC JBQ #2",
-            "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_4",
-            "Name": "Dakota Rose",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 190,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 47.5,
-              "AverageCorrect": 3.2,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 8,
-              "Correct20s": 5,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "The Rebuilders",
-            "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_32",
-            "Name": "Dorothy Hiatt",
+            "Id": "q_f70339cd2332434b92ce08de2462bbf7",
+            "Name": "Adeline Bergman",
             "ChurchName": "Penobscot Christian School",
             "City": "Bangor",
             "State": "ME",
@@ -520,14 +435,60 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
-            "TeamName": "CC JBQ #2",
+            "TeamName": "Built Upon The Rock",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_6",
-            "Name": "Ebonie Quimby",
+            "Id": "q_72a8f053a84445cb92e008de2462bbf7",
+            "Name": "Ashabella Seekins",
+            "ChurchName": "Penobscot Christian School",
+            "City": "Bangor",
+            "State": "ME",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Rebuilders",
+            "YearsQuizzing": null,
+            "Id": "q_9222cd3324ee445b929e08de2462bbf7",
+            "Name": "Avery Quimby",
+            "ChurchName": "Penobscot Christian School",
+            "City": "Bangor",
+            "State": "ME",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "CC JBQ #1",
+            "YearsQuizzing": null,
+            "Id": "q_ad93605c99ea458c920b08de2462bbf7",
+            "Name": "Braylea Guptil",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -543,83 +504,60 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
-            "TeamName": "CC JBQ #1",
+            "TeamName": "KVAG Kids",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_42",
-            "Name": "Elijah Shepherd",
+            "Id": "q_facde9ceecf046ea91ee08de2462bbf7",
+            "Name": "Calvin Gilbert",
+            "ChurchName": "Kennebec Valley AG",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.2,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "CC JBQ #2",
+            "YearsQuizzing": null,
+            "Id": "q_1269093696f54ec8923f08de2462bbf7",
+            "Name": "Dakota Rose",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
             "Scores": {
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 205,
+              "TotalPoints": 300,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 51.2,
+              "AveragePoints": 75.0,
               "AverageCorrect": 4.2,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 81,
-              "Correct10s": 14,
-              "Correct20s": 3,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "KVAG Kids",
-            "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_12",
-            "Name": "Emma Dearman",
-            "ChurchName": "Kennebec Valley AG",
-            "City": "Chelsea",
-            "State": "ME",
-            "Scores": {
-              "Rank": 13,
-              "IsTie": false,
-              "TotalPoints": 5,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 1.2,
-              "AverageCorrect": 0.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 1,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 1
-            }
-          },
-          {
-            "TeamName": "KVAG Kids",
-            "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_11",
-            "Name": "Emmy Booker",
-            "ChurchName": "Kennebec Valley AG",
-            "City": "Chelsea",
-            "State": "ME",
-            "Scores": {
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 240,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 60.0,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 2,
+              "QuizOuts": 3,
               "QuestionCorrectPercentage": 94,
-              "Correct10s": 11,
-              "Correct20s": 5,
-              "Correct30s": 0,
+              "Correct10s": 10,
+              "Correct20s": 6,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
           {
             "TeamName": "The Rebuilders",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_29",
-            "Name": "Glenn Quimby",
+            "Id": "q_37bff9e6e500407292a708de2462bbf7",
+            "Name": "Dorothy Hiatt",
             "ChurchName": "Penobscot Christian School",
             "City": "Bangor",
             "State": "ME",
@@ -631,17 +569,178 @@
               "AveragePoints": 12.5,
               "AverageCorrect": 1.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 5,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "CC JBQ #2",
+            "YearsQuizzing": null,
+            "Id": "q_89facbf48f5c4d10925108de2462bbf7",
+            "Name": "Ebonie Quimby",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": false,
+              "TotalPoints": -40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -10.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "CC JBQ #1",
+            "YearsQuizzing": null,
+            "Id": "q_8efd0f0ffd3d4408922308de2462bbf7",
+            "Name": "Elijah Shepherd",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.8,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 9,
+              "Correct20s": 1,
+              "Correct30s": 2,
+              "FootnoteIndex": null
             }
           },
           {
             "TeamName": "KVAG Kids",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_15",
+            "Id": "q_3167a7642f984d8f91dc08de2462bbf7",
+            "Name": "Emma Dearman",
+            "ChurchName": "Kennebec Valley AG",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.8,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 13,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "KVAG Kids",
+            "YearsQuizzing": null,
+            "Id": "q_4dd0a2d5e940401391d608de2462bbf7",
+            "Name": "Emmy Booker",
+            "ChurchName": "Kennebec Valley AG",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 355,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 88.8,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 8,
+              "Correct20s": 10,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Built Upon The Rock",
+            "YearsQuizzing": null,
+            "Id": "q_59ef23afe01040a092d408de2462bbf7",
+            "Name": "Evelyn Mitchell",
+            "ChurchName": "Penobscot Christian School",
+            "City": "Bangor",
+            "State": "ME",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Built Upon The Rock",
+            "YearsQuizzing": null,
+            "Id": "q_67937c93ee31454d92c808de2462bbf7",
+            "Name": "Ezra Mitchell",
+            "ChurchName": "Penobscot Christian School",
+            "City": "Bangor",
+            "State": "ME",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Rebuilders",
+            "YearsQuizzing": null,
+            "Id": "q_ace821a4dd164dc0929b08de2462bbf7",
+            "Name": "Glenn Quimby",
+            "ChurchName": "Penobscot Christian School",
+            "City": "Bangor",
+            "State": "ME",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "KVAG Kids",
+            "YearsQuizzing": null,
+            "Id": "q_d94e5e9985734e4d91e808de2462bbf7",
             "Name": "Jordan Gilbert",
             "ChurchName": "Kennebec Valley AG",
             "City": "Chelsea",
@@ -658,13 +757,36 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Built Upon The Rock",
+            "YearsQuizzing": null,
+            "Id": "q_59a4aeb107ce4d5092da08de2462bbf7",
+            "Name": "Josie Gleason",
+            "ChurchName": "Penobscot Christian School",
+            "City": "Bangor",
+            "State": "ME",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.8,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
             "TeamName": "CC JBQ #2",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_3",
+            "Id": "q_4de52a34919240a7924b08de2462bbf7",
             "Name": "Judah Eckman",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
@@ -681,13 +803,13 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
             "TeamName": "CC JBQ #2",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_2",
+            "Id": "q_aa278f872709432b923908de2462bbf7",
             "Name": "Levi Eckman",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
@@ -704,41 +826,64 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
             "TeamName": "CC JBQ #1",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_41",
+            "Id": "q_612e8ce788c84884921d08de2462bbf7",
             "Name": "Luke Shepherd",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
             "Scores": {
-              "Rank": 1,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 250,
+              "TotalPoints": 120,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 62.5,
-              "AverageCorrect": 4.2,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 85,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 81,
               "Correct10s": 12,
-              "Correct20s": 5,
-              "Correct30s": 0,
+              "Correct20s": 0,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
           {
             "TeamName": "CC JBQ #1",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_40",
+            "Id": "q_d52555581b484e5a921708de2462bbf7",
             "Name": "Makenna Mailman",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
             "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "CC JBQ #1",
+            "YearsQuizzing": null,
+            "Id": "q_5c0af83dc3024d77921108de2462bbf7",
+            "Name": "Merrytt Guptil",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
               "Rank": 16,
               "IsTie": true,
               "TotalPoints": 0,
@@ -750,72 +895,49 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
-            }
-          },
-          {
-            "TeamName": "TRC TBD",
-            "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_20",
-            "Name": "Matthew Lebida",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
-            "Scores": {
-              "Rank": 13,
-              "IsTie": true,
-              "TotalPoints": 5,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 1.2,
-              "AverageCorrect": 0.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 2,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 1
-            }
-          },
-          {
-            "TeamName": "CC JBQ #1",
-            "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_39",
-            "Name": "Merrytt Guptil",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Rank": 13,
-              "IsTie": true,
-              "TotalPoints": 5,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 1.2,
-              "AverageCorrect": 0.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 1,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
             "TeamName": "KVAG Kids",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_14",
+            "Id": "q_78a75a280cca459c91e208de2462bbf7",
             "Name": "Micah Gilbert",
             "ChurchName": "Kennebec Valley AG",
             "City": "Chelsea",
             "State": "ME",
             "Scores": {
-              "Rank": 24,
-              "IsTie": false,
-              "TotalPoints": -5,
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 15,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -1.2,
+              "AveragePoints": 3.8,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The Rebuilders",
+            "YearsQuizzing": null,
+            "Id": "q_59820c4a0a174f5392ad08de2462bbf7",
+            "Name": "Penelope Thomes",
+            "ChurchName": "Penobscot Christian School",
+            "City": "Bangor",
+            "State": "ME",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.2,
               "AverageCorrect": 0.5,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 33,
+              "QuestionCorrectPercentage": 67,
               "Correct10s": 1,
               "Correct20s": 1,
               "Correct30s": 0,
@@ -823,154 +945,83 @@
             }
           },
           {
-            "TeamName": "TRC TBD",
-            "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_22",
-            "Name": "Nivea Nagella",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
-            "Scores": {
-              "Rank": 16,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 1
-            }
-          },
-          {
             "TeamName": "The Rebuilders",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_33",
-            "Name": "Penelope Thomes",
-            "ChurchName": "Penobscot Christian School",
-            "City": "Bangor",
-            "State": "ME",
-            "Scores": {
-              "Rank": 16,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 1
-            }
-          },
-          {
-            "TeamName": "TRC TBD",
-            "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_21",
-            "Name": "Rayannah Rosner",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
-            "Scores": {
-              "Rank": 9,
-              "IsTie": true,
-              "TotalPoints": 50,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 12.5,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": 1
-            }
-          },
-          {
-            "TeamName": "The Rebuilders",
-            "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_31",
+            "Id": "q_13eff635006e4b8a92a208de2462bbf7",
             "Name": "Simon Lambert",
             "ChurchName": "Penobscot Christian School",
             "City": "Bangor",
             "State": "ME",
             "Scores": {
-              "Rank": 4,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 190,
+              "TotalPoints": 340,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 47.5,
-              "AverageCorrect": 3.8,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 13,
-              "Correct20s": 2,
-              "Correct30s": 0,
+              "AveragePoints": 85.0,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 9,
+              "Correct20s": 8,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
           {
             "TeamName": "CC JBQ #2",
             "YearsQuizzing": null,
-            "Id": "q_674cf302-df8e-4d0b-aa1e-7f74770ad21b_5",
+            "Id": "q_26b46ace34cb4f4f924508de2462bbf7",
             "Name": "Spencer Little",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
             "Scores": {
-              "Rank": 8,
-              "IsTie": false,
-              "TotalPoints": 55,
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 40,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 13.8,
-              "AverageCorrect": 1.8,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 58,
-              "Correct10s": 5,
-              "Correct20s": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 1,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           }
         ],
         "RankedQuizzers": [
-          14,
-          9,
-          7,
-          22,
-          4,
-          2,
-          0,
-          23,
+          11,
+          24,
+          6,
+          13,
           10,
-          21,
+          9,
+          19,
+          0,
+          7,
+          20,
+          25,
+          23,
+          16,
+          22,
+          2,
           1,
           3,
-          8,
-          16,
-          17,
-          5,
-          6,
-          11,
+          4,
           12,
-          13,
+          14,
           15,
-          19,
-          20,
-          18
+          17,
+          18,
+          21,
+          5,
+          8
         ],
         "QuizzerFootnotes": [
           {
             "Symbol": "*",
-            "Text": "Tie broken by total quiz outs."
-          },
-          {
-            "Symbol": "**",
             "Text": "Tie couldn't be broken by tie breaking rules."
           }
         ],
@@ -979,6 +1030,22 @@
           {
             "Name": "J1",
             "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
@@ -991,14 +1058,6 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -1006,16 +1065,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 4,
+                "Team1": 4,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1028,6 +1079,22 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -1043,24 +1110,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 0,
+                "Team1": 3,
                 "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1130,5 +1181,5 @@
       }
     }
   ],
-  "Freshness": "2025-11-18T15:24:16.0590441+00:00"
+  "Freshness": "2025-11-18T15:24:43.1777213+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "EventName": "JBQ KC MO Season 2025-2026 - Oct",
+  "EventName": "JBQ KC MO Season 2025-2026 - Nov",
   "DatabaseNames": {
     "3065cfca-249b-4bb6-88a0-0fc7268c6a7c": "KC_2025"
   },
@@ -7,69 +7,111 @@
     "Meets": [
       {
         "DatabaseId": "3065cfca-249b-4bb6-88a0-0fc7268c6a7c",
-        "MeetId": 4,
+        "MeetId": 7,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "Oct PW Div",
-        "LastUpdated": "11/10/25 3:27 AM",
-        "DatabaseLastUpdated": "2025-11-10T00:53:00.8770912+00:00",
+        "Name": "Nov PW Div",
+        "LastUpdated": "11/16/25 9:03 PM",
+        "DatabaseLastUpdated": "2025-11-16T18:44:00.8617801+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
-            "CoachName": "Phyllis Shipley",
+            "CoachName": "Jessica Schmid",
             "Quizzers": [
               12,
+              22
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_b12d7885-ad9c-44b2-8e83-542373d93e6c",
+            "Name": "Hope Chapel Legends - Beginner",
+            "ChurchName": "Village West Assembly of God",
+            "City": "Kansas City",
+            "State": "KS",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 25,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Phyllis Shipley",
+            "Quizzers": [
               13,
               14,
               15,
-              17,
-              21
+              16,
+              18,
+              23
             ],
             "Matches": [
               {
                 "Result": "W",
-                "RoomId": 2,
-                "Room": "P2",
+                "RoomId": 1,
+                "Room": "P1",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 95,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "P1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 115,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "P1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 65,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "P1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 110,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "P2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
                 "OtherTeam": 2
               },
               {
@@ -78,8 +120,36 @@
                 "Room": "P2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 1
+                "Score": 135,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -89,18 +159,18 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Wins": 6,
+              "Wins": 5,
               "Losses": 0,
               "WinPercentage": 100,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 585,
+              "TotalPoints": 595,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 97.5,
-              "AverageCorrect": 11.8,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 69,
-              "Correct10s": 71,
+              "AveragePoints": 119.0,
+              "AverageCorrect": 11.6,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 58,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -114,7 +184,7 @@
               4,
               6,
               10,
-              18
+              19
             ],
             "Matches": [
               {
@@ -123,35 +193,8 @@
                 "Room": "P1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "P2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 85,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "P1",
-                "State": "Completed",
-                "CurrentQuestion": null,
                 "Score": 40,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "P2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -159,17 +202,36 @@
                 "Room": "P1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 140,
+                "Score": 110,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
                 "OtherTeam": 3
               },
+              null,
               {
                 "Result": "L",
                 "RoomId": 2,
                 "Room": "P2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 0
+                "Score": 70,
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -179,21 +241,21 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Wins": 2,
-              "Losses": 4,
-              "WinPercentage": 33,
-              "Rank": 3,
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 385,
+              "TotalPoints": 420,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 64.2,
-              "AverageCorrect": 6.5,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 39,
+              "AveragePoints": 84.0,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 45,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -208,48 +270,40 @@
             "Matches": [
               {
                 "Result": "W",
-                "RoomId": 1,
-                "Room": "P1",
+                "RoomId": 2,
+                "Room": "P2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 125,
-                "OtherTeam": 1
+                "Score": 140,
+                "OtherTeam": 0
               },
+              null,
               {
                 "Result": "L",
                 "RoomId": 1,
                 "Room": "P1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 0
+                "Score": 35,
+                "OtherTeam": 1
               },
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "P2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 135,
-                "OtherTeam": 3
+                "Score": 30,
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
-                "RoomId": 2,
-                "Room": "P2",
+                "RoomId": 1,
+                "Room": "P1",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 115,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "P2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 0
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -257,8 +311,8 @@
                 "Room": "P1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 105,
-                "OtherTeam": 3
+                "Score": 155,
+                "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
@@ -268,21 +322,21 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Wins": 4,
+              "Wins": 3,
               "Losses": 2,
-              "WinPercentage": 67,
-              "Rank": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 605,
+              "TotalPoints": 475,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 100.8,
-              "AverageCorrect": 10.5,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 81,
-              "Correct10s": 63,
+              "AveragePoints": 95.0,
+              "AverageCorrect": 9.2,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 46,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -290,27 +344,19 @@
             "Quizzers": [
               3,
               9,
-              16,
-              19,
-              20
+              17,
+              20,
+              21
             ],
             "Matches": [
+              null,
               {
                 "Result": "L",
                 "RoomId": 2,
                 "Room": "P2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 5,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "P2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 55,
+                "Score": 25,
                 "OtherTeam": 1
               },
               {
@@ -323,12 +369,12 @@
                 "OtherTeam": 2
               },
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "P1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 10,
+                "Score": 95,
                 "OtherTeam": 0
               },
               {
@@ -337,18 +383,10 @@
                 "Room": "P1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 5,
-                "OtherTeam": 1
+                "Score": 35,
+                "OtherTeam": 3
               },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "P1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 10,
-                "OtherTeam": 2
-              }
+              null
             ],
             "CurrentMatchId": null,
             "Id": "t_ab0ddb21-92f7-44b5-82c3-f8fc356d7f32",
@@ -357,18 +395,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Wins": 0,
-              "Losses": 6,
-              "WinPercentage": 0,
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
               "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 95,
+              "TotalPoints": 165,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 15.8,
-              "AverageCorrect": 1.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 79,
-              "Correct10s": 11,
+              "AveragePoints": 41.2,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 17,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -376,12 +414,18 @@
           }
         ],
         "RankedTeams": [
-          0,
-          2,
           1,
-          3
+          2,
+          3,
+          4,
+          0
         ],
-        "TeamFootnotes": [],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
         "Quizzers": [
           {
             "TeamName": "Northland Christian Schools Peewee #1 - Super Bible Ninjas",
@@ -392,18 +436,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 2,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 280,
+              "TotalPoints": 225,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 46.7,
-              "AverageCorrect": 4.3,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 4.4,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 26,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 22,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -415,15 +459,15 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 10,
+              "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 25,
+              "TotalPoints": 20,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 4.2,
-              "AverageCorrect": 0.5,
+              "AveragePoints": 4.0,
+              "AverageCorrect": 0.4,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 75,
-              "Correct10s": 3,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -438,15 +482,15 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 4,
+              "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 225,
+              "TotalPoints": 155,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 37.5,
-              "AverageCorrect": 3.8,
+              "AveragePoints": 31.0,
+              "AverageCorrect": 3.0,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 23,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 15,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -461,18 +505,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 14,
+              "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 0,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -486,13 +530,13 @@
             "Scores": {
               "Rank": 13,
               "IsTie": false,
-              "TotalPoints": 5,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.8,
-              "AverageCorrect": 0.3,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 40,
-              "Correct10s": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -507,18 +551,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 11,
-              "IsTie": true,
-              "TotalPoints": 15,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 60,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.5,
-              "AverageCorrect": 0.8,
+              "AveragePoints": 12.0,
+              "AverageCorrect": 1.4,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 42,
-              "Correct10s": 5,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 7,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -530,15 +574,15 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 6,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 80,
+              "TotalPoints": 180,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 13.3,
-              "AverageCorrect": 1.3,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 8,
+              "AveragePoints": 36.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 20,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -553,15 +597,15 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 1,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 370,
+              "TotalPoints": 260,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 61.7,
-              "AverageCorrect": 5.8,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 35,
+              "AveragePoints": 52.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 24,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -576,8 +620,8 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 14,
-              "IsTie": true,
+              "Rank": 15,
+              "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -599,18 +643,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 7,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 80,
+              "TotalPoints": 140,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 13.3,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 9,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 13,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": null
             }
           },
           {
@@ -622,7 +666,30 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 14,
+              "Rank": 24,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Northland Christian Schools Peewee #2 - BKs (Bible Kids)",
+            "YearsQuizzing": null,
+            "Id": "q_be2216db408c4ae6bdd708ddeaf8bf58",
+            "Name": "Hudson Turley",
+            "ChurchName": "Northland Christian Schools",
+            "City": "Kansas City",
+            "State": "MO",
+            "Scores": {
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -637,23 +704,23 @@
             }
           },
           {
-            "TeamName": "Northland Christian Schools Peewee #2 - BKs (Bible Kids)",
+            "TeamName": "Hope Chapel Legends - Beginner",
             "YearsQuizzing": null,
-            "Id": "q_be2216db408c4ae6bdd708ddeaf8bf58",
-            "Name": "Hudson Turley",
-            "ChurchName": "Northland Christian Schools",
+            "Id": "q_ceaa99271b9a4c808a8308de1c8546f0",
+            "Name": "Ivory Vang",
+            "ChurchName": "Village West Assembly of God",
             "City": "Kansas City",
-            "State": "MO",
+            "State": "KS",
             "Scores": {
-              "Rank": 14,
-              "IsTie": true,
-              "TotalPoints": 0,
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": -5,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 25,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -668,18 +735,18 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 2,
-              "IsTie": true,
-              "TotalPoints": 280,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 340,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 46.7,
-              "AverageCorrect": 4.8,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 29,
+              "AveragePoints": 68.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 30,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -691,18 +758,18 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 8,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 60,
+              "TotalPoints": 125,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 1.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 8,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 12,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -714,7 +781,7 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -737,18 +804,18 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 190,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 31.7,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 63,
-              "Correct10s": 24,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -760,7 +827,7 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -784,17 +851,17 @@
             "State": "IA",
             "Scores": {
               "Rank": 14,
-              "IsTie": true,
-              "TotalPoints": 0,
+              "IsTie": false,
+              "TotalPoints": 5,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 1.0,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -806,11 +873,11 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 14,
+              "Rank": 21,
               "IsTie": true,
-              "TotalPoints": 0,
+              "TotalPoints": -5,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
+              "AveragePoints": -1.0,
               "AverageCorrect": 0.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 0,
@@ -829,7 +896,53 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 14,
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.2,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 25,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Northland Christian Schools Peewee #3 - Bible Stars",
+            "YearsQuizzing": null,
+            "Id": "q_f4970d97a17942eff4b408ddf069fc0f",
+            "Name": "Sophie Smith",
+            "ChurchName": "Northland Christian Schools",
+            "City": "Kansas City",
+            "State": "MO",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Hope Chapel Legends - Beginner",
+            "YearsQuizzing": null,
+            "Id": "q_e453af09187047588a8808de1c8546f0",
+            "Name": "Theodore Ortiz",
+            "ChurchName": "Village West Assembly of God",
+            "City": "Kansas City",
+            "State": "KS",
+            "Scores": {
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -844,29 +957,6 @@
             }
           },
           {
-            "TeamName": "Northland Christian Schools Peewee #3 - Bible Stars",
-            "YearsQuizzing": null,
-            "Id": "q_f4970d97a17942eff4b408ddf069fc0f",
-            "Name": "Sophie Smith",
-            "ChurchName": "Northland Christian Schools",
-            "City": "Kansas City",
-            "State": "MO",
-            "Scores": {
-              "Rank": 11,
-              "IsTie": false,
-              "TotalPoints": 15,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 2.5,
-              "AverageCorrect": 0.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 2,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
             "TeamName": "Nodaway Valley Christian Fellowship \"Faith Fighters\"",
             "YearsQuizzing": null,
             "Id": "q_249322a22d8e474cf0ea08dcc5bd4e63",
@@ -875,53 +965,51 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 9,
-              "IsTie": false,
-              "TotalPoints": 55,
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 125,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 9.2,
-              "AverageCorrect": 1.7,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 53,
-              "Correct10s": 10,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 15,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           }
         ],
         "RankedQuizzers": [
+          13,
           7,
           0,
-          12,
-          2,
-          15,
           6,
           9,
-          13,
+          2,
+          14,
+          23,
+          5,
           21,
           1,
-          20,
-          5,
-          4,
           3,
+          4,
+          18,
           8,
-          10,
           11,
-          14,
+          15,
           16,
           17,
-          18,
-          19
+          22,
+          12,
+          19,
+          20,
+          10
         ],
         "QuizzerFootnotes": [
           {
             "Symbol": "*",
             "Text": "Tie couldn't be broken by tie breaking rules."
-          },
-          {
-            "Symbol": "**",
-            "Text": "Tie broken by total quiz outs."
           }
         ],
         "MeetNames": null,
@@ -932,15 +1020,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
+                "Team1": 1,
                 "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
@@ -948,16 +1028,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 3,
+                "Team1": 2,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -972,8 +1044,24 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -985,7 +1073,31 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 0,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
                 "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
@@ -994,39 +1106,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 3,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
+                "Team1": 1,
                 "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1086,13 +1174,13 @@
       },
       {
         "DatabaseId": "3065cfca-249b-4bb6-88a0-0fc7268c6a7c",
-        "MeetId": 5,
+        "MeetId": 8,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "Oct A Div",
-        "LastUpdated": "11/10/25 3:27 AM",
-        "DatabaseLastUpdated": "2025-11-10T00:53:00.8770912+00:00",
+        "Name": "Nov A Div",
+        "LastUpdated": "11/16/25 9:03 PM",
+        "DatabaseLastUpdated": "2025-11-16T18:44:00.8617801+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -1104,24 +1192,6 @@
               26
             ],
             "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": -5,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 6
-              },
               null,
               {
                 "Result": "L",
@@ -1129,8 +1199,8 @@
                 "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 10,
-                "OtherTeam": 3
+                "Score": 30,
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -1138,26 +1208,44 @@
                 "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 10,
+                "Score": 40,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
                 "OtherTeam": 1
               },
               {
                 "Result": "L",
-                "RoomId": 3,
-                "Room": "A3",
+                "RoomId": 2,
+                "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": -10,
-                "OtherTeam": 2
+                "Score": 35,
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
-                "RoomId": 3,
-                "Room": "A3",
+                "RoomId": 1,
+                "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 5,
-                "OtherTeam": 4
+                "Score": 25,
+                "OtherTeam": 5
               }
             ],
             "CurrentMatchId": null,
@@ -1167,21 +1255,21 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Wins": 0,
-              "Losses": 6,
-              "WinPercentage": 0,
-              "Rank": 7,
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 70,
+              "TotalPoints": 260,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 11.7,
-              "AverageCorrect": 1.5,
+              "AveragePoints": 43.3,
+              "AverageCorrect": 4.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 56,
-              "Correct10s": 6,
-              "Correct20s": 2,
-              "Correct30s": 1,
-              "FootnoteIndex": null
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 20,
+              "Correct20s": 3,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1199,25 +1287,26 @@
                 "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 2
+                "Score": 60,
+                "OtherTeam": 6
               },
+              null,
               {
                 "Result": "L",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "A3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 20,
+                "Score": 75,
                 "OtherTeam": 5
               },
               {
@@ -1226,28 +1315,27 @@
                 "Room": "A3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 25,
+                "Score": 10,
                 "OtherTeam": 0
               },
               {
                 "Result": "L",
-                "RoomId": 1,
-                "Room": "A1",
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 20,
-                "OtherTeam": 3
-              },
-              null
+                "OtherTeam": 4
+              }
             ],
             "CurrentMatchId": null,
             "Id": "t_8923a27b-562a-4b79-af6d-35eacd0952ee",
@@ -1261,16 +1349,16 @@
               "WinPercentage": 17,
               "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 125,
+              "TotalPoints": 235,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 20.8,
-              "AverageCorrect": 2.7,
+              "AveragePoints": 39.2,
+              "AverageCorrect": 4.0,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 73,
-              "Correct10s": 16,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 21,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1283,12 +1371,21 @@
             "Matches": [
               {
                 "Result": "W",
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 185,
-                "OtherTeam": 1
+                "Score": 50,
+                "OtherTeam": 0
               },
               null,
               {
@@ -1297,7 +1394,7 @@
                 "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 70,
+                "Score": 50,
                 "OtherTeam": 4
               },
               {
@@ -1306,16 +1403,7 @@
                 "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 220,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "A3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
+                "Score": 140,
                 "OtherTeam": 6
               },
               {
@@ -1325,15 +1413,15 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 210,
-                "OtherTeam": 0
+                "OtherTeam": 1
               },
               {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "A2",
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "A3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 95,
+                "Score": 140,
                 "OtherTeam": 3
               }
             ],
@@ -1344,21 +1432,21 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Wins": 4,
-              "Losses": 2,
-              "WinPercentage": 67,
-              "Rank": 3,
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 910,
+              "TotalPoints": 760,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 151.7,
-              "AverageCorrect": 10.3,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 91,
+              "AveragePoints": 126.7,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 90,
               "Correct10s": 39,
-              "Correct20s": 16,
-              "Correct30s": 7,
-              "FootnoteIndex": 0
+              "Correct20s": 6,
+              "Correct30s": 9,
+              "FootnoteIndex": null
             }
           },
           {
@@ -1376,25 +1464,16 @@
                 "Room": "A3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 60,
+                "Score": 0,
                 "OtherTeam": 4
               },
               {
                 "Result": "W",
-                "RoomId": 3,
-                "Room": "A3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 215,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "L",
                 "RoomId": 2,
                 "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 80,
+                "Score": 170,
                 "OtherTeam": 6
               },
               {
@@ -1403,8 +1482,8 @@
                 "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 260,
-                "OtherTeam": 0
+                "Score": 100,
+                "OtherTeam": 1
               },
               null,
               {
@@ -1413,8 +1492,8 @@
                 "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 195,
-                "OtherTeam": 1
+                "Score": 140,
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
@@ -1422,7 +1501,16 @@
                 "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 110,
+                "Score": 205,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
                 "OtherTeam": 2
               }
             ],
@@ -1436,18 +1524,18 @@
               "Wins": 4,
               "Losses": 2,
               "WinPercentage": 67,
-              "Rank": 2,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 920,
+              "TotalPoints": 700,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 153.3,
-              "AverageCorrect": 10.3,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 79,
-              "Correct10s": 31,
-              "Correct20s": 22,
-              "Correct30s": 9,
-              "FootnoteIndex": 0
+              "AveragePoints": 116.7,
+              "AverageCorrect": 7.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 19,
+              "Correct20s": 21,
+              "Correct30s": 5,
+              "FootnoteIndex": null
             }
           },
           {
@@ -1465,8 +1553,17 @@
                 "Room": "A3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 235,
+                "Score": 350,
                 "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
@@ -1474,8 +1571,8 @@
                 "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 175,
-                "OtherTeam": 1
+                "Score": 275,
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
@@ -1483,7 +1580,7 @@
                 "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 210,
+                "Score": 190,
                 "OtherTeam": 2
               },
               null,
@@ -1493,8 +1590,8 @@
                 "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 190,
-                "OtherTeam": 5
+                "Score": 200,
+                "OtherTeam": 6
               },
               {
                 "Result": "W",
@@ -1502,17 +1599,8 @@
                 "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 175,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "A3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 205,
-                "OtherTeam": 0
+                "Score": 220,
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -1527,15 +1615,15 @@
               "WinPercentage": 100,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 1190,
+              "TotalPoints": 1380,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 198.3,
-              "AverageCorrect": 14.7,
+              "AveragePoints": 230.0,
+              "AverageCorrect": 14.8,
               "QuizOuts": 7,
-              "QuestionCorrectPercentage": 77,
+              "QuestionCorrectPercentage": 87,
               "Correct10s": 48,
-              "Correct20s": 32,
-              "Correct30s": 8,
+              "Correct20s": 31,
+              "Correct30s": 10,
               "FootnoteIndex": null
             }
           },
@@ -1548,59 +1636,59 @@
             ],
             "Matches": [
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 0
+                "Score": 50,
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
                 "RoomId": 3,
                 "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
                 "OtherTeam": 3
               },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "A3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": -10,
-                "OtherTeam": 4
-              },
               null,
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 6
+                "Score": 35,
+                "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
@@ -1610,21 +1698,21 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Wins": 2,
-              "Losses": 4,
-              "WinPercentage": 33,
-              "Rank": 5,
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 205,
+              "TotalPoints": 145,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 34.2,
-              "AverageCorrect": 3.5,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 17,
-              "Correct20s": 4,
+              "AveragePoints": 24.2,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 14,
+              "Correct20s": 1,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1637,23 +1725,22 @@
               22
             ],
             "Matches": [
-              null,
               {
                 "Result": "W",
                 "RoomId": 1,
                 "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 85,
-                "OtherTeam": 0
+                "Score": 90,
+                "OtherTeam": 1
               },
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 110,
+                "Score": 30,
                 "OtherTeam": 3
               },
               {
@@ -1662,8 +1749,8 @@
                 "Room": "A3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 120,
-                "OtherTeam": 1
+                "Score": 125,
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -1672,7 +1759,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 70,
-                "OtherTeam": 2
+                "OtherTeam": 0
               },
               {
                 "Result": "L",
@@ -1680,18 +1767,19 @@
                 "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 4
+                "Score": 30,
+                "OtherTeam": 2
               },
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 150,
-                "OtherTeam": 5
-              }
+                "Score": 0,
+                "OtherTeam": 4
+              },
+              null
             ],
             "CurrentMatchId": null,
             "Id": "t_9d3aa15d-8c55-45a9-907f-1b4055f4fe9e",
@@ -1700,37 +1788,37 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Wins": 4,
-              "Losses": 2,
-              "WinPercentage": 67,
-              "Rank": 4,
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 615,
+              "TotalPoints": 345,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 102.5,
-              "AverageCorrect": 7.2,
+              "AveragePoints": 57.5,
+              "AverageCorrect": 4.3,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 96,
-              "Correct10s": 27,
-              "Correct20s": 13,
-              "Correct30s": 3,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 15,
+              "Correct20s": 10,
+              "Correct30s": 1,
               "FootnoteIndex": 0
             }
           }
         ],
         "RankedTeams": [
           4,
-          3,
           2,
+          3,
+          0,
           6,
-          5,
           1,
-          0
+          5
         ],
         "TeamFootnotes": [
           {
             "Symbol": "*",
-            "Text": "Tie broken by comparing total points of each team."
+            "Text": "Tie broken by head-to-head record of teams."
           }
         ],
         "Quizzers": [
@@ -1743,17 +1831,17 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 7,
+              "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 225,
+              "TotalPoints": 280,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 37.5,
-              "AverageCorrect": 2.7,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 8,
-              "Correct20s": 5,
-              "Correct30s": 3,
+              "AveragePoints": 46.7,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 12,
+              "Correct20s": 2,
+              "Correct30s": 4,
               "FootnoteIndex": null
             }
           },
@@ -1766,15 +1854,15 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 21,
-              "IsTie": true,
-              "TotalPoints": 0,
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -1789,17 +1877,17 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 5,
+              "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 305,
+              "TotalPoints": 105,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 50.8,
-              "AverageCorrect": 3.2,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 76,
+              "AveragePoints": 17.5,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
               "Correct10s": 6,
-              "Correct20s": 11,
-              "Correct30s": 2,
+              "Correct20s": 3,
+              "Correct30s": 0,
               "FootnoteIndex": null
             }
           },
@@ -1813,7 +1901,7 @@
             "State": "MO",
             "Scores": {
               "Rank": 21,
-              "IsTie": true,
+              "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -1835,18 +1923,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 15,
-              "IsTie": false,
-              "TotalPoints": 80,
+              "Rank": 19,
+              "IsTie": true,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 13.3,
-              "AverageCorrect": 1.3,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 8,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1858,17 +1946,17 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 2,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 475,
+              "TotalPoints": 460,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 79.2,
-              "AverageCorrect": 5.8,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 97,
-              "Correct10s": 31,
+              "AveragePoints": 76.7,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 27,
               "Correct20s": 0,
-              "Correct30s": 4,
+              "Correct30s": 5,
               "FootnoteIndex": null
             }
           },
@@ -1881,18 +1969,18 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 12,
-              "IsTie": false,
-              "TotalPoints": 125,
+              "Rank": 21,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 20.8,
-              "AverageCorrect": 2.5,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 79,
-              "Correct10s": 15,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1904,18 +1992,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 16,
-              "IsTie": false,
-              "TotalPoints": 70,
+              "Rank": 21,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 11.7,
-              "AverageCorrect": 1.2,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 7,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1927,18 +2015,18 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 8,
-              "IsTie": false,
-              "TotalPoints": 210,
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 20,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 35.0,
-              "AverageCorrect": 1.8,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.7,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 92,
+              "QuestionCorrectPercentage": 40,
               "Correct10s": 0,
-              "Correct20s": 11,
+              "Correct20s": 4,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1950,17 +2038,17 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 3,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 445,
+              "TotalPoints": 530,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 74.2,
-              "AverageCorrect": 3.3,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 95,
+              "AveragePoints": 88.3,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 89,
               "Correct10s": 2,
-              "Correct20s": 11,
-              "Correct30s": 7,
+              "Correct20s": 18,
+              "Correct30s": 5,
               "FootnoteIndex": null
             }
           },
@@ -1973,18 +2061,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 13,
+              "Rank": 16,
               "IsTie": false,
-              "TotalPoints": 105,
+              "TotalPoints": 30,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 17.5,
-              "AverageCorrect": 1.5,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 6,
-              "Correct20s": 3,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -1996,18 +2084,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 10,
+              "Rank": 17,
               "IsTie": false,
-              "TotalPoints": 150,
+              "TotalPoints": 20,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 25.0,
-              "AverageCorrect": 2.0,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 9,
-              "Correct20s": 3,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -2019,17 +2107,17 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 6,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 250,
+              "TotalPoints": 355,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 41.7,
+              "AveragePoints": 59.2,
               "AverageCorrect": 4.5,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 68,
-              "Correct10s": 20,
-              "Correct20s": 5,
-              "Correct30s": 2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 17,
+              "Correct20s": 9,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -2044,15 +2132,15 @@
             "Scores": {
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 705,
+              "TotalPoints": 660,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 117.5,
-              "AverageCorrect": 5.8,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 5,
-              "Correct20s": 25,
-              "Correct30s": 5,
+              "AveragePoints": 110.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 1,
+              "Correct20s": 20,
+              "Correct30s": 8,
               "FootnoteIndex": null
             }
           },
@@ -2111,18 +2199,18 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Rank": 19,
-              "IsTie": true,
-              "TotalPoints": 20,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 135,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 3.3,
-              "AverageCorrect": 0.5,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 1.7,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 43,
-              "Correct10s": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 7,
               "Correct20s": 1,
-              "Correct30s": 1,
-              "FootnoteIndex": 0
+              "Correct30s": 2,
+              "FootnoteIndex": null
             }
           },
           {
@@ -2134,18 +2222,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 19,
+              "Rank": 27,
               "IsTie": false,
-              "TotalPoints": 20,
+              "TotalPoints": -5,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 3.3,
-              "AverageCorrect": 0.5,
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 60,
-              "Correct10s": 2,
-              "Correct20s": 1,
+              "QuestionCorrectPercentage": 25,
+              "Correct10s": 1,
+              "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -2157,18 +2245,18 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Rank": 21,
-              "IsTie": true,
-              "TotalPoints": 0,
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 80,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 1.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 1,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -2180,18 +2268,18 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 13,
-              "IsTie": true,
-              "TotalPoints": 105,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 250,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 17.5,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 7,
-              "Correct20s": 1,
+              "AveragePoints": 41.7,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 18,
+              "Correct20s": 2,
               "Correct30s": 1,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -2205,14 +2293,14 @@
             "Scores": {
               "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 130,
+              "TotalPoints": 115,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 21.7,
-              "AverageCorrect": 2.8,
+              "AveragePoints": 19.2,
+              "AverageCorrect": 2.0,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 71,
-              "Correct10s": 16,
-              "Correct20s": 1,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 12,
+              "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -2226,16 +2314,16 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 18,
+              "Rank": 10,
               "IsTie": false,
-              "TotalPoints": 35,
+              "TotalPoints": 130,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 5.8,
-              "AverageCorrect": 1.0,
+              "AveragePoints": 21.7,
+              "AverageCorrect": 2.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 6,
-              "Correct20s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 11,
+              "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -2249,17 +2337,17 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 4,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 360,
+              "TotalPoints": 295,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 60.0,
-              "AverageCorrect": 3.2,
+              "AveragePoints": 49.2,
+              "AverageCorrect": 3.7,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 6,
-              "Correct20s": 10,
-              "Correct30s": 3,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 12,
+              "Correct20s": 9,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -2268,6 +2356,29 @@
             "YearsQuizzing": null,
             "Id": "q_2b7aaade57bb4388059608db9ad08123",
             "Name": "Shimon Robbins",
+            "ChurchName": "Englewood Assembly of God",
+            "City": "Independence",
+            "State": "MO",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 39.2,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 21,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Englewood Assembly (Independence) #1 Sword of the Spirit",
+            "YearsQuizzing": null,
+            "Id": "q_eac634f28bd24d3fbe3408ddeaf8bf58",
+            "Name": "Sophia Large",
             "ChurchName": "Englewood Assembly of God",
             "City": "Independence",
             "State": "MO",
@@ -2281,29 +2392,6 @@
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 0,
               "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Englewood Assembly (Independence) #1 Sword of the Spirit",
-            "YearsQuizzing": null,
-            "Id": "q_eac634f28bd24d3fbe3408ddeaf8bf58",
-            "Name": "Sophia Large",
-            "ChurchName": "Englewood Assembly of God",
-            "City": "Independence",
-            "State": "MO",
-            "Scores": {
-              "Rank": 21,
-              "IsTie": false,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 33,
-              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -2318,15 +2406,15 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 9,
+              "Rank": 14,
               "IsTie": false,
-              "TotalPoints": 170,
+              "TotalPoints": 65,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 28.3,
-              "AverageCorrect": 3.8,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 72,
-              "Correct10s": 23,
+              "AveragePoints": 10.8,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 65,
+              "Correct10s": 11,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -2341,15 +2429,15 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Rank": 17,
+              "Rank": 15,
               "IsTie": false,
-              "TotalPoints": 50,
+              "TotalPoints": 45,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 8.3,
-              "AverageCorrect": 1.0,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 1.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 5,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 7,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -2358,32 +2446,32 @@
         ],
         "RankedQuizzers": [
           13,
-          5,
           9,
-          22,
-          2,
+          5,
           12,
+          22,
           0,
-          8,
-          25,
-          11,
-          20,
-          6,
-          10,
           19,
-          4,
-          7,
-          26,
-          21,
-          17,
+          23,
           16,
-          24,
+          21,
+          20,
+          2,
+          18,
+          25,
+          26,
+          10,
+          11,
+          8,
           1,
+          4,
           3,
+          6,
+          7,
           14,
           15,
-          18,
-          23
+          24,
+          17
         ],
         "QuizzerFootnotes": [
           {
@@ -2399,7 +2487,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 6,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -2407,8 +2495,16 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
+                "Team1": 2,
                 "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -2424,14 +2520,6 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
                 "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
@@ -2439,15 +2527,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 1,
+                "Team1": 4,
+                "Team2": 6,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
+                "Team1": 0,
                 "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
@@ -2460,7 +2548,47 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -2470,46 +2598,6 @@
                 "LinkedMeet": null,
                 "Team1": 4,
                 "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 6,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 6,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -2529,7 +2617,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 4,
                 "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
@@ -2537,23 +2625,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 6,
-                "Team2": 1,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 0,
                 "Team2": 6,
                 "State": "Completed",
                 "Blockers": null
@@ -2561,16 +2641,24 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 0,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -2636,49 +2724,49 @@
       },
       {
         "DatabaseId": "3065cfca-249b-4bb6-88a0-0fc7268c6a7c",
-        "MeetId": 6,
+        "MeetId": 9,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "Oct B Div",
-        "LastUpdated": "11/10/25 3:27 AM",
-        "DatabaseLastUpdated": "2025-11-10T00:53:00.8770912+00:00",
+        "Name": "Nov B Div",
+        "LastUpdated": "11/16/25 9:03 PM",
+        "DatabaseLastUpdated": "2025-11-16T18:44:00.8617801+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": "Josh Scott",
             "Quizzers": [
-              10,
-              22,
-              35
+              13,
+              25,
+              38
             ],
             "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": -10,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "B4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 4
-              },
               {
                 "Result": "L",
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 7
+                "Score": -20,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 6
               },
               {
                 "Result": "L",
@@ -2686,8 +2774,8 @@
                 "Room": "B3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 5
+                "Score": 20,
+                "OtherTeam": 9
               },
               {
                 "Result": "L",
@@ -2696,17 +2784,25 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": -5,
-                "OtherTeam": 2
+                "OtherTeam": 8
               },
-              null,
               {
                 "Result": "L",
-                "RoomId": 3,
-                "Room": "B3",
+                "RoomId": 2,
+                "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 0,
-                "OtherTeam": 6
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -2716,48 +2812,39 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Wins": 0,
+              "Wins": 1,
               "Losses": 6,
-              "WinPercentage": 0,
+              "WinPercentage": 14,
               "Rank": 9,
               "IsTie": false,
-              "TotalPoints": 5,
+              "TotalPoints": 45,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.8,
-              "AverageCorrect": 0.3,
+              "AveragePoints": 6.4,
+              "AverageCorrect": 2.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 40,
-              "Correct10s": 1,
-              "Correct20s": 1,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 12,
+              "Correct20s": 2,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 2
             }
           },
           {
             "CoachName": "Katie Pucket",
             "Quizzers": [
-              3,
-              16,
-              33
+              5,
+              19,
+              36
             ],
             "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 95,
-                "OtherTeam": 0
-              },
               {
                 "Result": "W",
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 120,
-                "OtherTeam": 3
+                "Score": 105,
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
@@ -2765,17 +2852,25 @@
                 "Room": "B3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 55,
-                "OtherTeam": 8
+                "Score": 45,
+                "OtherTeam": 2
               },
-              null,
               {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B2",
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "B4",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 15,
+                "Score": 105,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
                 "OtherTeam": 4
               },
               {
@@ -2784,8 +2879,8 @@
                 "Room": "B1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 6
+                "Score": 25,
+                "OtherTeam": 9
               },
               {
                 "Result": "W",
@@ -2793,8 +2888,17 @@
                 "Room": "B4",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 2
+                "Score": 105,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 8
               }
             ],
             "CurrentMatchId": null,
@@ -2804,50 +2908,49 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Wins": 4,
-              "Losses": 2,
-              "WinPercentage": 67,
-              "Rank": 4,
+              "Wins": 6,
+              "Losses": 1,
+              "WinPercentage": 86,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 455,
+              "TotalPoints": 485,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 75.8,
-              "AverageCorrect": 7.0,
+              "AveragePoints": 69.3,
+              "AverageCorrect": 7.7,
               "QuizOuts": 3,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 30,
+              "QuestionCorrectPercentage": 66,
+              "Correct10s": 40,
               "Correct20s": 12,
-              "Correct30s": 0,
-              "FootnoteIndex": null
+              "Correct30s": 2,
+              "FootnoteIndex": 0
             }
           },
           {
             "CoachName": "Debbie Craig",
             "Quizzers": [
               1,
-              9,
-              29,
-              38
+              12,
+              32,
+              42
             ],
             "Matches": [
-              null,
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 3
+              },
               {
                 "Result": "L",
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "B4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": -10,
-                "OtherTeam": 6
+                "Score": 40,
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -2855,25 +2958,7 @@
                 "Room": "B1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 35,
-                "OtherTeam": 7
-              },
-              {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "B4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 65,
+                "Score": 25,
                 "OtherTeam": 8
               },
               {
@@ -2882,8 +2967,35 @@
                 "Room": "B4",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 1
+                "Score": 40,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 7
               }
             ],
             "CurrentMatchId": null,
@@ -2893,57 +3005,56 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Wins": 2,
-              "Losses": 4,
-              "WinPercentage": 33,
-              "Rank": 6,
+              "Wins": 1,
+              "Losses": 6,
+              "WinPercentage": 14,
+              "Rank": 8,
               "IsTie": false,
-              "TotalPoints": 210,
+              "TotalPoints": 330,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 35.0,
-              "AverageCorrect": 4.3,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 76,
-              "Correct10s": 26,
-              "Correct20s": 0,
+              "AveragePoints": 47.1,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 32,
+              "Correct20s": 1,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 2
             }
           },
           {
             "CoachName": "Yaw Owusu-Ansah",
             "Quizzers": [
-              19,
-              26
+              22,
+              29
             ],
             "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 2
+              },
               {
                 "Result": "L",
                 "RoomId": 4,
                 "Room": "B4",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 55,
-                "OtherTeam": 7
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 1
-              },
-              null,
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
                 "Score": 20,
-                "OtherTeam": 6
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 9
               },
               {
                 "Result": "L",
@@ -2951,8 +3062,8 @@
                 "Room": "B1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 8
+                "Score": 50,
+                "OtherTeam": 7
               },
               {
                 "Result": "L",
@@ -2960,17 +3071,26 @@
                 "Room": "B3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 4
+                "Score": 35,
+                "OtherTeam": 6
               },
               {
                 "Result": "L",
-                "RoomId": 1,
-                "Room": "B1",
+                "RoomId": 4,
+                "Room": "B4",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 5
+                "Score": 20,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
@@ -2980,40 +3100,137 @@
             "City": "Overland Park",
             "State": "KS",
             "Scores": {
-              "Wins": 0,
-              "Losses": 6,
-              "WinPercentage": 0,
-              "Rank": 8,
+              "Wins": 2,
+              "Losses": 5,
+              "WinPercentage": 29,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 185,
+              "TotalPoints": 285,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 30.8,
-              "AverageCorrect": 2.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 13,
-              "Correct20s": 4,
+              "AveragePoints": 40.7,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 24,
+              "Correct20s": 2,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Alyssa Schmid",
+            "Quizzers": [
+              2,
+              4,
+              11,
+              41
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 6
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_a2994188-b6b4-4580-af36-e11fc65de93e",
+            "Name": "Hope Chapel Legends- Buzzers",
+            "ChurchName": "Village West Assembly of God",
+            "City": "Kansas City",
+            "State": "KS",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 7,
+              "WinPercentage": 0,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.6,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 11,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
             }
           },
           {
             "CoachName": "Jaclyn Holmes",
             "Quizzers": [
-              4,
-              5,
-              18,
-              23,
-              34
+              6,
+              7,
+              21,
+              26,
+              37
             ],
             "Matches": [
               {
                 "Result": "W",
-                "RoomId": 3,
-                "Room": "B3",
+                "RoomId": 1,
+                "Room": "B1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 150,
+                "Score": 135,
                 "OtherTeam": 6
               },
               {
@@ -3022,35 +3239,8 @@
                 "Room": "B4",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 120,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 115,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "B4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 8
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 55,
-                "OtherTeam": 1
+                "Score": 105,
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -3058,17 +3248,44 @@
                 "Room": "B3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 170,
-                "OtherTeam": 3
+                "Score": 125,
+                "OtherTeam": 4
               },
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 140,
+                "Score": 55,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
                 "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 9
               }
             ],
             "CurrentMatchId": null,
@@ -3078,74 +3295,46 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Wins": 7,
-              "Losses": 0,
-              "WinPercentage": 100,
-              "Rank": 1,
+              "Wins": 6,
+              "Losses": 1,
+              "WinPercentage": 86,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 890,
+              "TotalPoints": 705,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 127.1,
-              "AverageCorrect": 10.4,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 54,
+              "AveragePoints": 100.7,
+              "AverageCorrect": 8.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 41,
               "Correct20s": 16,
-              "Correct30s": 3,
-              "FootnoteIndex": null
+              "Correct30s": 1,
+              "FootnoteIndex": 0
             }
           },
           {
             "CoachName": "Yani Vazquez",
             "Quizzers": [
-              21,
-              25,
-              27,
+              24,
+              28,
               30,
-              32
+              33,
+              35
             ],
             "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 150,
-                "OtherTeam": 8
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 105,
-                "OtherTeam": 2
-              },
               {
                 "Result": "L",
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 110,
-                "OtherTeam": 4
+                "Score": 90,
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 170,
-                "OtherTeam": 0
-              },
-              null,
-              {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "B4",
+                "RoomId": 2,
+                "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 95,
@@ -3153,12 +3342,48 @@
               },
               {
                 "Result": "W",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 9
+              },
+              {
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 3
+                "Score": 125,
+                "OtherTeam": 4
               }
             ],
             "CurrentMatchId": null,
@@ -3168,41 +3393,59 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Wins": 5,
+              "Wins": 6,
               "Losses": 1,
-              "WinPercentage": 83,
-              "Rank": 3,
+              "WinPercentage": 86,
+              "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 770,
+              "TotalPoints": 730,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 128.3,
-              "AverageCorrect": 8.7,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 96,
-              "Correct10s": 32,
-              "Correct20s": 17,
-              "Correct30s": 3,
-              "FootnoteIndex": null
+              "AveragePoints": 104.3,
+              "AverageCorrect": 6.9,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 29,
+              "Correct20s": 14,
+              "Correct30s": 5,
+              "FootnoteIndex": 0
             }
           },
           {
             "CoachName": "Katy Lungren",
             "Quizzers": [
-              7,
-              8,
-              15,
-              31,
-              36
+              9,
+              10,
+              18,
+              34,
+              39
             ],
             "Matches": [
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 110,
-                "OtherTeam": 4
+                "Score": 200,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -3210,17 +3453,17 @@
                 "Room": "B1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 260,
-                "OtherTeam": 8
+                "Score": 175,
+                "OtherTeam": 3
               },
               {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "B4",
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "B5",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 265,
-                "OtherTeam": 2
+                "Score": 55,
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
@@ -3228,35 +3471,17 @@
                 "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 240,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 240,
-                "OtherTeam": 7
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 200,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 225,
+                "Score": 180,
                 "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -3266,52 +3491,51 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Wins": 6,
-              "Losses": 1,
-              "WinPercentage": 86,
-              "Rank": 2,
+              "Wins": 4,
+              "Losses": 3,
+              "WinPercentage": 57,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 1540,
+              "TotalPoints": 965,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 220.0,
-              "AverageCorrect": 13.1,
-              "QuizOuts": 11,
-              "QuestionCorrectPercentage": 96,
-              "Correct10s": 47,
-              "Correct20s": 35,
-              "Correct30s": 10,
-              "FootnoteIndex": null
+              "AveragePoints": 137.9,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 36,
+              "Correct20s": 23,
+              "Correct30s": 6,
+              "FootnoteIndex": 1
             }
           },
           {
             "CoachName": "Tegan Marasco",
             "Quizzers": [
               0,
-              20,
-              24,
-              28,
-              37,
-              39
+              23,
+              27,
+              31,
+              40,
+              43
             ],
             "Matches": [
               {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "B4",
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "B3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 3
+                "Score": 70,
+                "OtherTeam": 7
               },
-              null,
               {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "B5",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 0
+                "Score": 30,
+                "OtherTeam": 9
               },
               {
                 "Result": "W",
@@ -3319,26 +3543,35 @@
                 "Room": "B1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 120,
+                "Score": 140,
                 "OtherTeam": 2
               },
               {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "B3",
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 10,
-                "OtherTeam": 6
+                "Score": 75,
+                "OtherTeam": 5
               },
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 4,
                 "Room": "B4",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 5
+                "Score": 75,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -3346,8 +3579,8 @@
                 "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 65,
-                "OtherTeam": 4
+                "Score": 25,
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -3357,51 +3590,87 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Wins": 3,
+              "Wins": 4,
               "Losses": 3,
-              "WinPercentage": 50,
-              "Rank": 5,
+              "WinPercentage": 57,
+              "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 485,
+              "TotalPoints": 525,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 80.8,
-              "AverageCorrect": 6.3,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 95,
-              "Correct10s": 28,
-              "Correct20s": 9,
-              "Correct30s": 1,
-              "FootnoteIndex": null
+              "AveragePoints": 75.0,
+              "AverageCorrect": 6.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 31,
+              "Correct20s": 10,
+              "Correct30s": 2,
+              "FootnoteIndex": 1
             }
           },
           {
             "CoachName": "Abigail Crain",
             "Quizzers": [
-              2,
-              6,
-              11,
-              12,
-              13,
+              3,
+              8,
               14,
-              17
+              15,
+              16,
+              17,
+              20
             ],
             "Matches": [
               {
-                "Result": "L",
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": -10,
-                "OtherTeam": 5
+                "Score": 105,
+                "OtherTeam": 3
               },
               {
-                "Result": "L",
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
+                "Score": 30,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
                 "OtherTeam": 6
               },
               {
@@ -3410,37 +3679,9 @@
                 "Room": "B3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 35,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "B4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 2
-              },
-              null
+                "Score": 30,
+                "OtherTeam": 5
+              }
             ],
             "CurrentMatchId": null,
             "Id": "t_91b79fcf-d928-4f78-bfd2-b8cf23827433",
@@ -3449,38 +3690,47 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Wins": 1,
-              "Losses": 5,
-              "WinPercentage": 17,
-              "Rank": 7,
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 175,
+              "TotalPoints": 380,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 29.2,
-              "AverageCorrect": 3.3,
+              "AveragePoints": 54.3,
+              "AverageCorrect": 4.6,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 71,
-              "Correct10s": 17,
-              "Correct20s": 2,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 25,
+              "Correct20s": 6,
               "Correct30s": 1,
               "FootnoteIndex": null
             }
           }
         ],
         "RankedTeams": [
-          4,
           6,
           5,
           1,
+          9,
           7,
-          2,
           8,
           3,
-          0
+          2,
+          0,
+          4
         ],
         "TeamFootnotes": [
           {
             "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie broken by head-to-head record of teams."
+          },
+          {
+            "Symbol": "† ",
             "Text": "Tie couldn't be broken by tie breaking rules."
           }
         ],
@@ -3494,16 +3744,16 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 7,
+              "Rank": 10,
               "IsTie": false,
-              "TotalPoints": 235,
+              "TotalPoints": 155,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 39.2,
-              "AverageCorrect": 3.7,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 20,
-              "Correct20s": 2,
+              "AveragePoints": 22.1,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 12,
+              "Correct20s": 3,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -3517,18 +3767,41 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 29,
+              "Rank": 41,
               "IsTie": false,
-              "TotalPoints": 0,
+              "TotalPoints": -5,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
+              "AveragePoints": -0.7,
               "AverageCorrect": 0.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 0,
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Hope Chapel Legends- Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_0c16d61e9f9d4d0f8a6908de1c8546f0",
+            "Name": "Amos Nyakaro",
+            "ChurchName": "Village West Assembly of God",
+            "City": "Kansas City",
+            "State": "KS",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.3,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 10,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3542,16 +3815,39 @@
             "Scores": {
               "Rank": 21,
               "IsTie": false,
-              "TotalPoints": 30,
+              "TotalPoints": 55,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 5.0,
-              "AverageCorrect": 0.8,
+              "AveragePoints": 7.9,
+              "AverageCorrect": 0.7,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 62,
-              "Correct10s": 5,
-              "Correct20s": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 4,
+              "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Hope Chapel Legends- Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_32fb259c387f4cac8a6708de1c8546f0",
+            "Name": "Apollo Vang",
+            "ChurchName": "Village West Assembly of God",
+            "City": "Kansas City",
+            "State": "KS",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3563,11 +3859,11 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Rank": 40,
+              "Rank": 44,
               "IsTie": false,
-              "TotalPoints": -25,
+              "TotalPoints": -65,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -4.2,
+              "AveragePoints": -9.3,
               "AverageCorrect": 0.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 0,
@@ -3586,18 +3882,18 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 17,
-              "IsTie": false,
-              "TotalPoints": 55,
+              "Rank": 28,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 7.9,
-              "AverageCorrect": 0.9,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 75,
-              "Correct10s": 5,
-              "Correct20s": 1,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3609,18 +3905,18 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 38,
+              "Rank": 26,
               "IsTie": false,
-              "TotalPoints": -15,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -2.1,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.1,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3632,7 +3928,7 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 29,
+              "Rank": 28,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -3643,7 +3939,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3655,18 +3951,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 5,
+              "Rank": 13,
               "IsTie": false,
-              "TotalPoints": 350,
+              "TotalPoints": 100,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 50.0,
-              "AverageCorrect": 4.3,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 26,
-              "Correct20s": 3,
-              "Correct30s": 1,
-              "FootnoteIndex": null
+              "AveragePoints": 14.3,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3679,17 +3975,40 @@
             "State": "MO",
             "Scores": {
               "Rank": 19,
-              "IsTie": false,
-              "TotalPoints": 50,
+              "IsTie": true,
+              "TotalPoints": 65,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 7.1,
-              "AverageCorrect": 0.6,
+              "AveragePoints": 9.3,
+              "AverageCorrect": 1.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 1,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 7,
+              "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Hope Chapel Legends- Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_12290c9e7c9e49ed8a7008de1c8546f0",
+            "Name": "Damari Ortiz",
+            "ChurchName": "Village West Assembly of God",
+            "City": "Kansas City",
+            "State": "KS",
+            "Scores": {
+              "Rank": 28,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3701,18 +4020,18 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 22,
-              "IsTie": false,
-              "TotalPoints": 25,
+              "Rank": 26,
+              "IsTie": true,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 4.2,
-              "AverageCorrect": 0.5,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.1,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3724,18 +4043,18 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Rank": 29,
-              "IsTie": true,
-              "TotalPoints": 0,
+              "Rank": 43,
+              "IsTie": false,
+              "TotalPoints": -25,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": -3.6,
+              "AverageCorrect": 0.7,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 38,
+              "Correct10s": 5,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -3747,17 +4066,17 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 16,
+              "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 50,
+              "TotalPoints": 145,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 8.3,
-              "AverageCorrect": 1.0,
+              "AveragePoints": 20.7,
+              "AverageCorrect": 1.4,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 86,
+              "QuestionCorrectPercentage": 91,
               "Correct10s": 6,
-              "Correct20s": 0,
-              "Correct30s": 0,
+              "Correct20s": 3,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -3770,18 +4089,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 23,
-              "IsTie": false,
-              "TotalPoints": 20,
+              "Rank": 28,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 3.3,
-              "AverageCorrect": 0.2,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
+              "QuestionCorrectPercentage": 0,
               "Correct10s": 0,
-              "Correct20s": 1,
+              "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3793,18 +4112,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 14,
+              "Rank": 9,
               "IsTie": false,
-              "TotalPoints": 105,
+              "TotalPoints": 185,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 17.5,
-              "AverageCorrect": 1.3,
+              "AveragePoints": 26.4,
+              "AverageCorrect": 2.4,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 89,
-              "Correct10s": 6,
-              "Correct20s": 1,
-              "Correct30s": 1,
-              "FootnoteIndex": null
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 15,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -3816,18 +4135,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 39,
-              "IsTie": false,
-              "TotalPoints": -20,
+              "Rank": 41,
+              "IsTie": true,
+              "TotalPoints": -5,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -3.3,
+              "AveragePoints": -0.7,
               "AverageCorrect": 0.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 0,
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3839,17 +4158,17 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 10,
+              "Rank": 16,
               "IsTie": false,
-              "TotalPoints": 195,
+              "TotalPoints": 80,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 27.9,
-              "AverageCorrect": 2.1,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 12,
-              "Correct20s": 2,
-              "Correct30s": 1,
+              "AveragePoints": 11.4,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 7,
+              "Correct20s": 1,
+              "Correct30s": 0,
               "FootnoteIndex": null
             }
           },
@@ -3862,17 +4181,17 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Rank": 4,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 310,
+              "TotalPoints": 260,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 51.7,
-              "AverageCorrect": 4.7,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 21,
-              "Correct20s": 7,
-              "Correct30s": 0,
+              "AveragePoints": 37.1,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 25,
+              "Correct20s": 4,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -3885,18 +4204,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 37,
-              "IsTie": false,
-              "TotalPoints": -10,
+              "Rank": 28,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -1.7,
+              "AveragePoints": 0.0,
               "AverageCorrect": 0.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 0,
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3910,15 +4229,15 @@
             "Scores": {
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 630,
+              "TotalPoints": 515,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 90.0,
-              "AverageCorrect": 5.9,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 24,
+              "AveragePoints": 73.6,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 19,
               "Correct20s": 15,
-              "Correct30s": 2,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -3931,16 +4250,16 @@
             "City": "Overland Park",
             "State": "KS",
             "Scores": {
-              "Rank": 18,
+              "Rank": 8,
               "IsTie": false,
-              "TotalPoints": 45,
+              "TotalPoints": 185,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 7.5,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 71,
-              "Correct10s": 4,
-              "Correct20s": 1,
+              "AveragePoints": 26.4,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 14,
+              "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -3954,18 +4273,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 25,
-              "IsTie": false,
-              "TotalPoints": 10,
+              "Rank": 28,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 1.7,
-              "AverageCorrect": 0.2,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             }
           },
           {
@@ -3979,15 +4298,15 @@
             "Scores": {
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 585,
+              "TotalPoints": 590,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 97.5,
-              "AverageCorrect": 5.8,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 97,
-              "Correct10s": 18,
-              "Correct20s": 14,
-              "Correct30s": 3,
+              "AveragePoints": 84.3,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 17,
+              "Correct20s": 13,
+              "Correct30s": 4,
               "FootnoteIndex": null
             }
           },
@@ -4000,18 +4319,18 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Rank": 26,
-              "IsTie": true,
-              "TotalPoints": 5,
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 70,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.8,
-              "AverageCorrect": 0.3,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 40,
-              "Correct10s": 1,
-              "Correct20s": 1,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 7,
+              "Correct20s": 2,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -4023,15 +4342,15 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 15,
+              "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 60,
+              "TotalPoints": 135,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 8.6,
-              "AverageCorrect": 1.3,
+              "AveragePoints": 19.3,
+              "AverageCorrect": 2.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 69,
-              "Correct10s": 9,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 16,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -4046,7 +4365,7 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 29,
+              "Rank": 28,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4057,7 +4376,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             }
           },
           {
@@ -4069,18 +4388,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 13,
+              "Rank": 19,
               "IsTie": false,
-              "TotalPoints": 130,
+              "TotalPoints": 65,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 21.7,
-              "AverageCorrect": 1.8,
+              "AveragePoints": 9.3,
+              "AverageCorrect": 1.1,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 9,
-              "Correct20s": 2,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 8,
+              "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             }
           },
           {
@@ -4092,18 +4411,18 @@
             "City": "Overland Park",
             "State": "KS",
             "Scores": {
-              "Rank": 11,
-              "IsTie": false,
-              "TotalPoints": 140,
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 100,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 23.3,
-              "AverageCorrect": 2.0,
+              "AveragePoints": 14.3,
+              "AverageCorrect": 1.4,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 9,
-              "Correct20s": 3,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 10,
+              "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             }
           },
           {
@@ -4115,17 +4434,17 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 20,
+              "Rank": 17,
               "IsTie": false,
-              "TotalPoints": 40,
+              "TotalPoints": 75,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 6.7,
-              "AverageCorrect": 0.5,
+              "AveragePoints": 10.7,
+              "AverageCorrect": 0.9,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 2,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 4,
               "Correct20s": 1,
-              "Correct30s": 0,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -4138,18 +4457,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 29,
-              "IsTie": true,
-              "TotalPoints": 0,
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": 25,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 3.6,
+              "AverageCorrect": 0.4,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -4161,18 +4480,18 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 26,
-              "IsTie": false,
-              "TotalPoints": 5,
+              "Rank": 28,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.8,
-              "AverageCorrect": 0.7,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 4,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             }
           },
           {
@@ -4184,18 +4503,18 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 24,
-              "IsTie": false,
-              "TotalPoints": 15,
+              "Rank": 28,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.5,
-              "AverageCorrect": 0.5,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 75,
-              "Correct10s": 3,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             }
           },
           {
@@ -4209,15 +4528,15 @@
             "Scores": {
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 940,
+              "TotalPoints": 720,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 134.3,
-              "AverageCorrect": 6.0,
-              "QuizOuts": 7,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 5,
-              "Correct20s": 29,
-              "Correct30s": 8,
+              "AveragePoints": 102.9,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 13,
+              "Correct20s": 21,
+              "Correct30s": 6,
               "FootnoteIndex": null
             }
           },
@@ -4230,7 +4549,7 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 29,
+              "Rank": 28,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4241,29 +4560,29 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             }
           },
           {
             "TeamName": "Connection Point Church (Raytown) #3",
             "YearsQuizzing": null,
             "Id": "q_fa2d40acefea412a3e2008dba675c3b5",
-            "Name": "Penelope (PJ) Pucket",
+            "Name": "Penelope Pucket (PJ)",
             "ChurchName": "Connection Point Church",
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Rank": 9,
+              "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 170,
+              "TotalPoints": 290,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 28.3,
-              "AverageCorrect": 2.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 9,
-              "Correct20s": 5,
-              "Correct30s": 0,
+              "AveragePoints": 41.4,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 15,
+              "Correct20s": 8,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -4276,17 +4595,17 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 12,
+              "Rank": 22,
               "IsTie": false,
-              "TotalPoints": 160,
+              "TotalPoints": 45,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 22.9,
-              "AverageCorrect": 2.4,
+              "AveragePoints": 6.4,
+              "AverageCorrect": 0.9,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 77,
-              "Correct10s": 16,
-              "Correct20s": 0,
-              "Correct30s": 1,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 0,
               "FootnoteIndex": null
             }
           },
@@ -4299,7 +4618,7 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Rank": 29,
+              "Rank": 28,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4310,7 +4629,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             }
           },
           {
@@ -4324,16 +4643,16 @@
             "Scores": {
               "Rank": 28,
               "IsTie": false,
-              "TotalPoints": 5,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.7,
+              "AveragePoints": 0.0,
               "AverageCorrect": 0.1,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 50,
               "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             }
           },
           {
@@ -4345,18 +4664,41 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 6,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 240,
+              "TotalPoints": 315,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 40.0,
-              "AverageCorrect": 2.5,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 3.4,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 7,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 16,
               "Correct20s": 7,
               "Correct30s": 1,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Hope Chapel Legends- Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_1e4a3fcee61841f58a6c08de1c8546f0",
+            "Name": "Sparrow Vang",
+            "ChurchName": "Village West Assembly of God",
+            "City": "Kansas City",
+            "State": "KS",
+            "Scores": {
+              "Rank": 28,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
             }
           },
           {
@@ -4368,16 +4710,16 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 8,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 180,
+              "TotalPoints": 325,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 30.0,
-              "AverageCorrect": 3.2,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 19,
-              "Correct20s": 0,
+              "AveragePoints": 46.4,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 31,
+              "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -4391,66 +4733,74 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 29,
+              "Rank": 23,
               "IsTie": true,
-              "TotalPoints": 0,
+              "TotalPoints": 30,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 0.1,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
+              "QuestionCorrectPercentage": 100,
               "Correct10s": 0,
               "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
+              "Correct30s": 1,
+              "FootnoteIndex": 1
             }
           }
         ],
         "RankedQuizzers": [
-          31,
-          21,
-          18,
-          16,
-          7,
-          37,
-          0,
-          38,
-          33,
-          15,
-          26,
           34,
-          25,
-          13,
-          23,
-          11,
-          4,
-          19,
-          8,
-          27,
-          2,
-          9,
-          12,
-          30,
-          20,
-          29,
-          22,
-          36,
-          1,
-          6,
-          10,
           24,
-          28,
-          32,
-          35,
-          39,
-          17,
-          5,
+          21,
+          42,
+          40,
+          36,
+          19,
+          22,
+          16,
+          0,
           14,
-          3
+          26,
+          9,
+          29,
+          2,
+          18,
+          30,
+          25,
+          28,
+          10,
+          3,
+          37,
+          4,
+          43,
+          31,
+          7,
+          12,
+          39,
+          6,
+          8,
+          11,
+          15,
+          20,
+          23,
+          27,
+          32,
+          33,
+          35,
+          38,
+          41,
+          1,
+          17,
+          13,
+          5
         ],
         "QuizzerFootnotes": [
           {
             "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
             "Text": "Tie couldn't be broken by tie breaking rules."
           }
         ],
@@ -4462,23 +4812,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 6,
-                "Team2": 8,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
                 "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
@@ -4486,8 +4820,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
-                "Team2": 2,
+                "Team1": 0,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -4495,6 +4829,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 8,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
                 "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
@@ -4502,8 +4844,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 1,
+                "Team1": 1,
+                "Team2": 9,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -4511,7 +4853,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -4523,6 +4873,30 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
                 "Team1": 5,
                 "Team2": 8,
                 "State": "Completed",
@@ -4531,8 +4905,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 3,
+                "Team1": 2,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -4547,32 +4921,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 8,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 7,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -4584,23 +4934,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 6,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 7,
                 "Team2": 8,
                 "State": "Completed",
                 "Blockers": null
@@ -4608,7 +4942,23 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
                 "Team1": 5,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -4617,14 +4967,6 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 6,
-                "Team2": 7,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
                 "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
@@ -4632,8 +4974,16 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 0,
+                "Team1": 8,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 9,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -4645,7 +4995,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
+                "Team1": 9,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
                 "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
@@ -4653,8 +5011,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 0,
+                "Team1": 1,
+                "Team2": 7,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -4669,7 +5027,44 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
+                "Team1": 8,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B5",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
                 "Team2": 8,
                 "State": "Completed",
                 "Blockers": null
@@ -4677,8 +5072,16 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 6,
                 "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -4693,8 +5096,16 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 2,
+                "Team1": 6,
+                "Team2": 9,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -4804,5 +5215,5 @@
       }
     }
   ],
-  "Freshness": "2025-11-10T00:53:01.0574909+00:00"
+  "Freshness": "2025-11-16T18:44:01.4343896+00:00"
 }

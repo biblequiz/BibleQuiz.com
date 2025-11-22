@@ -219,12 +219,22 @@ const teamScheduleTabId = "team_schedule_tab";
 const roomScheduleTabId = "room_schedule_tab";
 const scheduleGridTabId = "schedule_grid_tab";
 const statsTabId = "stats_tab";
+const qstatsTabId = "qstats_tab";
 ---
 
 <StarlightPage frontmatter={frontmatter}>
-    {isRegistrationOpen && <EventRegistrationBanner eventId={eventInfo.id} client:only="react" />}
+    {
+        isRegistrationOpen && (
+            <EventRegistrationBanner
+                eventId={eventInfo.id}
+                client:only="react"
+            />
+        )
+    }
     <EventScoringReportLoader
         parentTabId="scoreTabs"
+        statsTabId={statsTabId}
+        qstatsTabId={qstatsTabId}
         eventInfo={eventInfo}
         event={event}
         client:only="react"
@@ -293,7 +303,11 @@ const statsTabId = "stats_tab";
             </FontAwesomeTabItem>
             {
                 hasQStatsTab && (
-                    <FontAwesomeTabItem label="Q Stats" icon="fas faChartBar">
+                    <FontAwesomeTabItem
+                        label="Q Stats"
+                        icon="fas faChartBar"
+                        tabElementId={qstatsTabId}
+                    >
                         <QStatsTabContent
                             eventId={eventInfo.id}
                             client:only="react"

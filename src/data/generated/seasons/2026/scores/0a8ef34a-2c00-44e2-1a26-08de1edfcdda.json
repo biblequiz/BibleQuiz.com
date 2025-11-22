@@ -1,32 +1,697 @@
 {
-  "EventName": "2025-26 NNED Central Maine TBQ Meet 1",
+  "EventName": "CenCAL TBQ Meet #2",
   "DatabaseNames": {
-    "9c8c8586-a3fc-4cae-a62e-8973b508d65a": "CMTBQ_25-26"
+    "5f408b08-f0ab-40d2-a460-a68166fee6a2": "2025_TBQ_CenCAL_November"
   },
   "Report": {
     "Meets": [
       {
-        "DatabaseId": "9c8c8586-a3fc-4cae-a62e-8973b508d65a",
+        "DatabaseId": "5f408b08-f0ab-40d2-a460-a68166fee6a2",
         "MeetId": 1,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "Contender Meet 1",
-        "LastUpdated": "11/17/25 9:03 PM",
-        "DatabaseLastUpdated": "2025-11-17T19:53:14.9134303+00:00",
+        "Name": "Champion TBQ_CenCAL November 2025",
+        "LastUpdated": "11/15/25 9:13 PM",
+        "DatabaseLastUpdated": "2025-11-15T06:30:42.4213054+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
-            "CoachName": "Kara Churchill",
+            "CoachName": "Pamela Samuel",
             "Quizzers": [
+              1,
+              4,
+              6
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_88cd1a14-52d5-49d0-a8a4-284273aa01fc",
+            "Name": "Bethel Church of San Jose (San Jose) #1",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 760,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 190.0,
+              "AverageCorrect": 10.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 14,
+              "Correct20s": 24,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Daniel Sirvent",
+            "Quizzers": [
+              0,
               2,
-              3
+              3,
+              5
             ],
             "Matches": [
               {
                 "Result": "L",
                 "RoomId": 1,
-                "Room": "C1",
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_0de6d974-c406-4eec-b99c-dc8c03df99e7",
+            "Name": "Indecisive Disciples",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.8,
+              "AverageCorrect": 6.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 66,
+              "Correct10s": 17,
+              "Correct20s": 7,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Indecisive Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_add471e4dd9d4264155308dc574ad0b9",
+            "Name": "Chloe Obagi",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 31.2,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 65,
+              "Correct10s": 11,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Church of San Jose (San Jose) #1",
+            "YearsQuizzing": null,
+            "Id": "q_e3aedb64fa7a497e237008db412b2f55",
+            "Name": "Gloria Joan Ravikumar",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.5,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Indecisive Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_9fd356f91d1a4ad0154708dc574ad0b9",
+            "Name": "Hazel Stout",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 120,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 2,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Indecisive Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_0d45d9c7afae4b25154508dc574ad0b9",
+            "Name": "Jericho Sirvent",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Church of San Jose (San Jose) #1",
+            "YearsQuizzing": null,
+            "Id": "q_0bddd660e34f40a1706608da165e0775",
+            "Name": "Krysle John",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 83.8,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 8,
+              "Correct20s": 10,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Indecisive Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_5f408b08-f0ab-40d2-a460-a68166fee6a2_23",
+            "Name": "Odie Mo",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Church of San Jose (San Jose) #1",
+            "YearsQuizzing": null,
+            "Id": "q_d9acd77a9bd341b4935608d7e50c366c",
+            "Name": "Tehillah Jebaraj",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 295,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.8,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 1,
+              "Correct20s": 10,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          4,
+          6,
+          1,
+          0,
+          2,
+          3,
+          5
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "T1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "12:05 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "4 of 6 Match(es) Done",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "5f408b08-f0ab-40d2-a460-a68166fee6a2",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Contender TBQ_CenCAL November 2025",
+        "LastUpdated": "11/15/25 9:13 PM",
+        "DatabaseLastUpdated": "2025-11-15T06:30:42.4213054+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Abi David",
+            "Quizzers": [
+              0,
+              3
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "T3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "T3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "T3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_72e35227-0d53-4b7d-afff-c43089f6f3c8",
+            "Name": "Bethel Church of San Jose (San Jose) #2",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 540,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.0,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 18,
+              "Correct20s": 12,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Heather Wolf",
+            "Quizzers": [
+              2,
+              8,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "T3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "T3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "T3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_abea971f-26c6-4160-8bdf-e1f2a85e5a06",
+            "Name": "Kingdom Crew",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              5,
+              6,
+              10,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "T3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "T3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "T3",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 65,
@@ -35,517 +700,94 @@
               {
                 "Result": "W",
                 "RoomId": 1,
-                "Room": "C1",
+                "Room": "T2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 25,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 105,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 95,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_6",
-            "Name": "Pure Blooded Troublemakers",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Wins": 2,
-              "Losses": 3,
-              "WinPercentage": 40,
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 380,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 76.0,
-              "AverageCorrect": 5.8,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 19,
-              "Correct20s": 9,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": "Kara Churchill",
-            "Quizzers": [
-              0,
-              1,
-              4
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 85,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 10,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 120,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 110,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 0
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_5",
-            "Name": "VFD-Valuable Forevermore Disciples",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Wins": 3,
-              "Losses": 2,
-              "WinPercentage": 60,
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 415,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 83.0,
-              "AverageCorrect": 4.6,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 9,
-              "Correct20s": 10,
-              "Correct30s": 4,
-              "FootnoteIndex": null
-            }
-          }
-        ],
-        "RankedTeams": [
-          1,
-          0
-        ],
-        "TeamFootnotes": [],
-        "Quizzers": [
-          {
-            "TeamName": "VFD-Valuable Forevermore Disciples",
-            "YearsQuizzing": null,
-            "Id": "q_3a2ff882761b4d37b09908de251e06b1",
-            "Name": "Baylor Willey",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "VFD-Valuable Forevermore Disciples",
-            "YearsQuizzing": null,
-            "Id": "q_9870ad8037084ee4b09d08de251e06b1",
-            "Name": "Joey Pellerin",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Rank": 4,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Pure Blooded Troublemakers",
-            "YearsQuizzing": null,
-            "Id": "q_69158e7a35964deeb0aa08de251e06b1",
-            "Name": "Kristina Parks",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 195,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 39.0,
-              "AverageCorrect": 2.6,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 7,
-              "Correct20s": 5,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Pure Blooded Troublemakers",
-            "YearsQuizzing": null,
-            "Id": "q_b7195354482c40d6b0b008de251e06b1",
-            "Name": "Mason Little",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 185,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 37.0,
-              "AverageCorrect": 3.2,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 76,
-              "Correct10s": 12,
-              "Correct20s": 4,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "VFD-Valuable Forevermore Disciples",
-            "YearsQuizzing": null,
-            "Id": "q_9561d4b9809c4b14b09608de251e06b1",
-            "Name": "Woodney Parker",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 415,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 83.0,
-              "AverageCorrect": 4.6,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 9,
-              "Correct20s": 10,
-              "Correct30s": 4,
-              "FootnoteIndex": null
-            }
-          }
-        ],
-        "RankedQuizzers": [
-          4,
-          2,
-          3,
-          0,
-          1
-        ],
-        "QuizzerFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie couldn't be broken by tie breaking rules."
-          }
-        ],
-        "MeetNames": null,
-        "Rooms": [
-          {
-            "Name": "C1",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              }
-            ]
-          }
-        ],
-        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
-        "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
-        "QuizzerRankingAwardsLabel": "Excellence",
-        "Matches": [
-          {
-            "Id": 1,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 2,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 3,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 4,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 5,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          }
-        ],
-        "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": true,
-        "ScoringProgressMessage": "All Room(s) Reported",
-        "HasRoomCompletionMismatchForCombined": false,
-        "HasScoringCompletedForCombined": false,
-        "ScoringProgressMessageForCombined": null,
-        "ShowYearsQuizzing": false,
-        "IsCombinedReport": false
-      },
-      {
-        "DatabaseId": "9c8c8586-a3fc-4cae-a62e-8973b508d65a",
-        "MeetId": 2,
-        "CombinedName": null,
-        "HasLinkedMeets": false,
-        "HasQuestionStats": false,
-        "Name": "XP5 Meet 1",
-        "LastUpdated": "11/17/25 9:03 PM",
-        "DatabaseLastUpdated": "2025-11-17T19:53:14.9134303+00:00",
-        "CompetitionType": "TBQ",
-        "Teams": [
-          {
-            "CoachName": "Ruth Harris",
-            "Quizzers": [
-              1,
-              3
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "X2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 40,
+                "Score": 60,
                 "OtherTeam": 3
               },
               {
                 "Result": "W",
                 "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "X2",
+                "Room": "T2",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 75,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
                 "RoomId": 1,
-                "Room": "X1",
+                "Room": "T2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "X2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 2
+                "Score": 15,
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_1",
-            "Name": "430 Experienced Descendants",
-            "ChurchName": "KVAG",
-            "City": "Chelsea",
-            "State": "ME",
+            "Id": "t_750a5975-a5ea-44be-9c0e-e804e8ed2cc4",
+            "Name": "Scripture Sloths",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
             "Scores": {
               "Wins": 6,
               "Losses": 0,
               "WinPercentage": 100,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 335,
+              "TotalPoints": 375,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 55.8,
-              "AverageCorrect": 4.2,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 18,
-              "Correct20s": 6,
-              "Correct30s": 1,
+              "AveragePoints": 62.5,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 20,
+              "Correct20s": 10,
+              "Correct30s": 2,
               "FootnoteIndex": null
             }
           },
           {
-            "CoachName": "Kara Churchill",
+            "CoachName": "Daniel Morales",
             "Quizzers": [
-              0,
-              5,
-              7,
-              10
+              1,
+              4,
+              7
             ],
             "Matches": [
               {
                 "Result": "L",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "X1",
+                "RoomId": 2,
+                "Room": "T3",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 30,
                 "OtherTeam": 2
               },
               {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "X2",
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T2",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 20,
-                "OtherTeam": 3
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
-                "RoomId": 2,
-                "Room": "X2",
+                "RoomId": 1,
+                "Room": "T2",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": -5,
+                "Score": 40,
                 "OtherTeam": 0
               },
               {
                 "Result": "L",
-                "RoomId": 2,
-                "Room": "X2",
+                "RoomId": 1,
+                "Room": "T2",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
@@ -553,473 +795,96 @@
               },
               {
                 "Result": "W",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 3
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_2",
-            "Name": "KPSRKPEL",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Wins": 2,
-              "Losses": 4,
-              "WinPercentage": 33,
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 55,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 9.2,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 6,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": "Whitney Geleney",
-            "Quizzers": [
-              4,
-              8,
-              9
-            ],
-            "Matches": [
-              {
-                "Result": "L",
                 "RoomId": 2,
-                "Room": "X2",
+                "Room": "T3",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 30,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "X2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 20,
                 "OtherTeam": 1
               },
               {
                 "Result": "L",
                 "RoomId": 2,
-                "Room": "X2",
+                "Room": "T3",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 0,
+                "Score": 60,
                 "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_4",
-            "Name": "TRC XP5 #1",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
+            "Id": "t_0f69d968-c24d-430e-82b9-d053d1997918",
+            "Name": "Truth Tribe",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
             "Scores": {
               "Wins": 2,
               "Losses": 4,
               "WinPercentage": 33,
               "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 160,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 26.7,
-              "AverageCorrect": 2.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 12,
-              "Correct20s": 2,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": "Holly Lebida",
-            "Quizzers": [
-              2,
-              6,
-              11
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "X2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "X2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "X2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": -5,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_3",
-            "Name": "TRC XP5 #2",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
-            "Scores": {
-              "Wins": 2,
-              "Losses": 4,
-              "WinPercentage": 33,
-              "Rank": 2,
               "IsTie": false,
               "TotalPoints": 190,
               "PerMeetTotalPoints": null,
               "AveragePoints": 31.7,
-              "AverageCorrect": 3.2,
+              "AverageCorrect": 2.7,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 76,
-              "Correct10s": 15,
-              "Correct20s": 3,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 11,
+              "Correct20s": 4,
               "Correct30s": 1,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           }
         ],
         "RankedTeams": [
+          2,
           0,
           3,
-          2,
           1
         ],
-        "TeamFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie broken by comparing total points of each team."
-          }
-        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
-            "TeamName": "KPSRKPEL",
+            "TeamName": "Bethel Church of San Jose (San Jose) #2",
             "YearsQuizzing": null,
-            "Id": "q_d3b23fd465a44ec7b0cb08de251e06b1",
-            "Name": "Edythe Little",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Rank": 9,
-              "IsTie": false,
-              "TotalPoints": 5,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.8,
-              "AverageCorrect": 0.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 1,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "430 Experienced Descendants",
-            "YearsQuizzing": null,
-            "Id": "q_ba5488575cc4417db05e08de251e06b1",
-            "Name": "Emmie Godbout",
-            "ChurchName": "KVAG",
-            "City": "Chelsea",
-            "State": "ME",
-            "Scores": {
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 80,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 13.3,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 1,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "TRC XP5 #2",
-            "YearsQuizzing": null,
-            "Id": "q_39190e699b474b1eb10308de251e06b1",
-            "Name": "Esha Nagella",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
-            "Scores": {
-              "Rank": 10,
-              "IsTie": false,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "430 Experienced Descendants",
-            "YearsQuizzing": null,
-            "Id": "q_404ed216f4a74190b05808de251e06b1",
-            "Name": "Jonathan Lewis",
-            "ChurchName": "KVAG",
-            "City": "Chelsea",
-            "State": "ME",
-            "Scores": {
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 255,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 42.5,
-              "AverageCorrect": 3.3,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 15,
-              "Correct20s": 5,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "TRC XP5 #1",
-            "YearsQuizzing": null,
-            "Id": "q_1685bef12ef7419fb0ec08de251e06b1",
-            "Name": "Joshua Lebida",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
-            "Scores": {
-              "Rank": 7,
-              "IsTie": false,
-              "TotalPoints": 20,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 3.3,
-              "AverageCorrect": 0.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 2,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "KPSRKPEL",
-            "YearsQuizzing": null,
-            "Id": "q_3d4db39f1a2b4aa3b0c508de251e06b1",
-            "Name": "Kimberline Parker",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 30,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 5.0,
-              "AverageCorrect": 0.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "TRC XP5 #2",
-            "YearsQuizzing": null,
-            "Id": "q_3d9966cbbb364bf2b0fd08de251e06b1",
-            "Name": "Kylee Lebida",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
-            "Scores": {
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 160,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 26.7,
-              "AverageCorrect": 2.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 79,
-              "Correct10s": 11,
-              "Correct20s": 3,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "KPSRKPEL",
-            "YearsQuizzing": null,
-            "Id": "q_3da3ca8cdc0f4702b0d708de251e06b1",
-            "Name": "Kylie Parks",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
-            "Scores": {
-              "Rank": 10,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "TRC XP5 #1",
-            "YearsQuizzing": null,
-            "Id": "q_31031479369b4f92b0e908de251e06b1",
-            "Name": "Quinton Rosner",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
-            "Scores": {
-              "Rank": 10,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "TRC XP5 #1",
-            "YearsQuizzing": null,
-            "Id": "q_bdf9ae7e63fc4fcdb0f008de251e06b1",
-            "Name": "Samuel Nelson",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
+            "Id": "q_06526c59667742196e3608da1b18cfc1",
+            "Name": "Aaryanna Aaron",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
             "Scores": {
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 140,
+              "TotalPoints": 150,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 23.3,
-              "AverageCorrect": 2.0,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 10,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 12,
               "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
           },
           {
-            "TeamName": "KPSRKPEL",
+            "TeamName": "Truth Tribe",
             "YearsQuizzing": null,
-            "Id": "q_a6baf815b16641bab0d108de251e06b1",
-            "Name": "Sophia Rowe",
-            "ChurchName": "Charleston Church",
-            "City": "Charleston",
-            "State": "ME",
+            "Id": "q_bad491a1e58040bc395208dce61ae87e",
+            "Name": "Eli Rivera",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
             "Scores": {
-              "Rank": 7,
-              "IsTie": true,
-              "TotalPoints": 20,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 3.3,
+              "AveragePoints": 0.0,
               "AverageCorrect": 0.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
+              "QuestionCorrectPercentage": 50,
               "Correct10s": 2,
               "Correct20s": 0,
               "Correct30s": 0,
@@ -1027,42 +892,249 @@
             }
           },
           {
-            "TeamName": "TRC XP5 #2",
+            "TeamName": "Kingdom Crew",
             "YearsQuizzing": null,
-            "Id": "q_f7b6cd33f332431bb10908de251e06b1",
-            "Name": "Zayka Nelson",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
+            "Id": "q_53a5c3fee4464bd5468708de1e1489a6",
+            "Name": "Ellie Gaytan",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
             "Scores": {
-              "Rank": 5,
+              "Rank": 8,
               "IsTie": true,
-              "TotalPoints": 30,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 5.0,
-              "AverageCorrect": 0.7,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 4,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Church of San Jose (San Jose) #2",
+            "YearsQuizzing": null,
+            "Id": "q_caae4fa4716f4fe2cf4608dc589f8f34",
+            "Name": "Jebin Sathish Reginald",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 390,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 6,
+              "Correct20s": 10,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Truth Tribe",
+            "YearsQuizzing": null,
+            "Id": "q_a3635ff345784631392408dce61ae87e",
+            "Name": "Jenaveah Morales",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.7,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Scripture Sloths",
+            "YearsQuizzing": null,
+            "Id": "q_9cd2882da88f488938a808dce61ae87e",
+            "Name": "Jilibean Mo",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Scripture Sloths",
+            "YearsQuizzing": null,
+            "Id": "q_5f408b08-f0ab-40d2-a460-a68166fee6a2_41",
+            "Name": "Kelilah Sirvent",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.7,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 12,
+              "Correct20s": 9,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Truth Tribe",
+            "YearsQuizzing": null,
+            "Id": "q_d1d57511073544ae38d808dce61ae87e",
+            "Name": "Liam Rivera",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 120,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 4,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Kingdom Crew",
+            "YearsQuizzing": null,
+            "Id": "q_2c95d34bdf654f04394c08dce61ae87e",
+            "Name": "Lily Caudle",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Kingdom Crew",
+            "YearsQuizzing": null,
+            "Id": "q_99426e9d26fc420038c208dce61ae87e",
+            "Name": "Lucas Wolf",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Scripture Sloths",
+            "YearsQuizzing": null,
+            "Id": "q_cf4a07dc020745c138a208dce61ae87e",
+            "Name": "Meyyean Chan",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Scripture Sloths",
+            "YearsQuizzing": null,
+            "Id": "q_61ed8c44fe7b46d2156308dc574ad0b9",
+            "Name": "Scarlett Stout",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.8,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 53,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
             }
           }
         ],
         "RankedQuizzers": [
           3,
           6,
-          9,
-          1,
-          5,
-          11,
-          4,
-          10,
           0,
-          2,
           7,
-          8
+          4,
+          9,
+          11,
+          1,
+          2,
+          5,
+          8,
+          10
         ],
         "QuizzerFootnotes": [
           {
@@ -1073,7 +1145,7 @@
         "MeetNames": null,
         "Rooms": [
           {
-            "Name": "X1",
+            "Name": "T2",
             "Matches": [
               {
                 "CurrentQuestion": null,
@@ -1086,24 +1158,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 2,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1118,7 +1174,23 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -1126,20 +1198,12 @@
             ]
           },
           {
-            "Name": "X2",
+            "Name": "T3",
             "Matches": [
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
+                "Team1": 2,
                 "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
@@ -1147,16 +1211,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 1,
+                "Team1": 2,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1172,7 +1228,23 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1186,37 +1258,37 @@
         "Matches": [
           {
             "Id": 1,
-            "MatchTime": null,
+            "MatchTime": "10:00 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 2,
-            "MatchTime": null,
+            "MatchTime": "10:25 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 3,
-            "MatchTime": null,
+            "MatchTime": "10:50 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 4,
-            "MatchTime": null,
+            "MatchTime": "11:15 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 5,
-            "MatchTime": null,
+            "MatchTime": "11:40 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 6,
-            "MatchTime": null,
+            "MatchTime": "12:05 PM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           }
@@ -1262,5 +1334,5 @@
       }
     }
   ],
-  "Freshness": "2025-11-19T14:49:27.9969174+00:00"
+  "Freshness": "2025-11-15T21:13:21.9030086+00:00"
 }
