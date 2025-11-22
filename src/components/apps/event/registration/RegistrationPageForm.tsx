@@ -2,7 +2,7 @@ import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type React from "react";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { sharedDirtyWindowState, sharedRequireBlockerCallback as sharedShouldBlockCallback } from "utils/SharedState";
+import { BlockerCallbackResult, sharedDirtyWindowState, sharedRequireBlockerCallback as sharedShouldBlockCallback } from "utils/SharedState";
 
 interface Props {
     rootEventUrl: string;
@@ -75,16 +75,16 @@ export default function RegistrationPageForm({
     const allowSave = sharedDirtyWindowState.get();
     sharedShouldBlockCallback.set(nextLocation => {
         if (!checkValidity()) {
-            return true;
+            return BlockerCallbackResult.Block;
         }
 
         // Check if the registration page has changed.
         if (nextLocation === rootEventUrl ||
             nextLocation.startsWith(`${rootEventUrl}/registration/`)) {
-            return false;
+            return BlockerCallbackResult.Allow;
         }
 
-        return true;
+        return BlockerCallbackResult.ShowPrompt;
     });
 
     return (

@@ -1,7 +1,7 @@
 import { createHashRouter, RouterProvider, Outlet, useNavigate, useMatches, type UIMatch, useParams, type Params, type NavigateFunction, useLocation, useBlocker } from 'react-router-dom';
 import { useStore } from '@nanostores/react';
-import { useEffect } from 'react';
-import { sharedDirtyWindowState, sharedRequireBlockerCallback } from 'utils/SharedState';
+import { useEffect, useState } from 'react';
+import { BlockerCallbackResult, sharedDirtyWindowState, sharedRequireBlockerCallback } from 'utils/SharedState';
 import ConfirmationDialog from '../../ConfirmationDialog';
 import ProtectedRoute from '../../auth/ProtectedRoute';
 import { reactSidebarEntries, type ReactSidebarEntry, type ReactSidebarGroup, type ReactSidebarLink } from 'components/sidebar/ReactSidebar';
@@ -50,6 +50,7 @@ function RootLayout({ loadingElementId }: Props) {
 
     // Subscribe to dirty state
     const routeParameters: Readonly<Params<string>> = useParams();
+    const [showPrompt, setShowPrompt] = useState(false);
 
     useStore(sharedDirtyWindowState);
     const blocker = useBlocker(
@@ -59,14 +60,17 @@ function RootLayout({ loadingElementId }: Props) {
 
                 const callback = sharedRequireBlockerCallback.get();
                 if (callback) {
-                    if (!callback(nextLocation.pathname)) {
+                    const result = callback(nextLocation.pathname);
+                    if (result === BlockerCallbackResult.Allow) {
                         sharedRequireBlockerCallback.set(null);
                         return false;
                     }
 
+                    setShowPrompt(result === BlockerCallbackResult.ShowPrompt);
                     return true;
                 }
                 else {
+                    setShowPrompt(true);
                     return true;
                 }
             }
@@ -90,7 +94,7 @@ function RootLayout({ loadingElementId }: Props) {
 
     return (
         <>
-            {blocker.state === "blocked" && (
+            {blocker.state === "blocked" && showPrompt && (
                 <ConfirmationDialog
                     title="Unsaved Changes"
                     yesLabel="Leave Page"

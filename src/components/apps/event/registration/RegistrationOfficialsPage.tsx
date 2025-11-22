@@ -8,6 +8,8 @@ interface Props {
 }
 
 export interface RegistrationOfficialsAndAttendeesInfo {
+    extendedOfficialsEndDate: string | null;
+    extendedAttendeesEndDate: string | null;
     allowJudges: boolean;
     allowScorekeepers: boolean;
     allowTimekeepers: boolean;
@@ -18,6 +20,7 @@ export default function RegistrationOfficialsPage({ }: Props) {
     const {
         rootEventUrl,
         saveRegistration,
+        general,
         officialsAndAttendees,
         setOfficialsAndAttendees } = useOutletContext<RegistrationProviderContext>();
 
@@ -25,6 +28,12 @@ export default function RegistrationOfficialsPage({ }: Props) {
     const [allowScorekeepers, setAllowScorekeepers] = useState(officialsAndAttendees.allowScorekeepers);
     const [allowTimekeepers, setAllowTimekeepers] = useState(officialsAndAttendees.allowTimekeepers);
     const [allowAttendees, setAllowAttendees] = useState(officialsAndAttendees.allowAttendees);
+    const [allowExtendedOfficials, setAllowExtendedOfficials] = useState(!!officialsAndAttendees.extendedOfficialsEndDate);
+    const [extendedOfficialsEndDate, setExtendedOfficialsEndDate] = useState(officialsAndAttendees.extendedOfficialsEndDate || null);
+    const [allowExtendedAttendees, setAllowExtendedAttendees] = useState(!!officialsAndAttendees.extendedAttendeesEndDate);
+    const [extendedAttendeesEndDate, setExtendedAttendeesEndDate] = useState(officialsAndAttendees.extendedAttendeesEndDate || null);
+
+    // TODO: Add extended registration dates.
 
     return (
         <RegistrationPageForm
@@ -120,5 +129,79 @@ export default function RegistrationOfficialsPage({ }: Props) {
                     </span>
                 </label>
             </div>
-        </RegistrationPageForm>);
+
+            <h5 className="mb-0">Are there extended registration dates?</h5>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 p-2 mt-0">
+                <label className="label text-wrap">
+                    <input
+                        type="checkbox"
+                        className="checkbox checkbox-sm checkbox-info"
+                        checked={allowExtendedOfficials}
+                        onChange={e => {
+                            setAllowExtendedOfficials(e.target.checked);
+                            sharedDirtyWindowState.set(true);
+                        }}
+                    />
+                    <span>
+                        Officials can register after the main registration period.
+                    </span>
+                </label>
+                <input
+                    type="date"
+                    className="input w-full"
+                    value={extendedOfficialsEndDate || undefined}
+                    onChange={e => {
+                        setExtendedOfficialsEndDate(e.target.value);
+                    }}
+                    onBlur={e => {
+                        setOfficialsAndAttendees({
+                            ...officialsAndAttendees,
+                            extendedOfficialsEndDate: e.target.value,
+                        });
+                        sharedDirtyWindowState.set(true);
+                    }}
+                    min={general.registrationStartDate}
+                    max={general.endDate}
+                    required={allowExtendedOfficials}
+                    disabled={!allowExtendedOfficials}
+                />
+                {allowAttendees && (
+                    <>
+                        <label className="label text-wrap">
+                            <input
+                                type="checkbox"
+                                className="checkbox checkbox-sm checkbox-info"
+                                checked={allowExtendedAttendees}
+                                onChange={e => {
+                                    setAllowExtendedAttendees(e.target.checked);
+                                    sharedDirtyWindowState.set(true);
+                                }}
+                            />
+                            <span>
+                                Attendees can register after the main registration period.
+                            </span>
+                        </label>
+                        <input
+                            type="date"
+                            className="input w-full"
+                            value={extendedAttendeesEndDate || undefined}
+                            onChange={e => {
+                                setExtendedAttendeesEndDate(e.target.value);
+                            }}
+                            onBlur={e => {
+                                setOfficialsAndAttendees({
+                                    ...officialsAndAttendees,
+                                    extendedAttendeesEndDate: e.target.value,
+                                });
+                                sharedDirtyWindowState.set(true);
+                            }}
+                            min={general.registrationStartDate}
+                            max={general.endDate}
+                            required={allowExtendedAttendees}
+                            disabled={!allowExtendedAttendees}
+                        />
+                    </>
+                )}
+            </div>
+        </RegistrationPageForm >);
 }

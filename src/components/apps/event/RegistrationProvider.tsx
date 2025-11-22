@@ -88,6 +88,8 @@ export default function RegistrationProvider({ }: Props) {
 
     const [officialsAndAttendees, setOfficialsAndAttendees] = useState<RegistrationOfficialsAndAttendeesInfo>(() =>
     ({
+        extendedOfficialsEndDate: normalizeDate(info?.ExtendedOfficialsEndDate || null),
+        extendedAttendeesEndDate: normalizeDate(info?.ExtendedAttendeesEndDate || null),
         allowJudges: info?.HasJudges || true,
         allowScorekeepers: info?.HasScorekeepers || true,
         allowTimekeepers: info?.HasTimekeepers || true,
@@ -115,6 +117,11 @@ export default function RegistrationProvider({ }: Props) {
         perChurchCost: info?.PerChurchCost || null,
         perTeamCost: info?.PerTeamCost || null,
         rolePayment: info?.RolePayment || null,
+    }));
+
+    const [otherInfo, setOtherInfo] = useState(() => ({
+        isHidden: info?.IsHidden || false,
+        isHiddenFromLiveEvents: info?.IsHiddenFromLiveEvents || false,
     }));
 
     const saveRegistration =
@@ -156,6 +163,9 @@ export default function RegistrationProvider({ }: Props) {
 
                 money: moneyState,
                 setMoney: setMoneyState,
+
+                other: otherInfo,
+                setOther: setOtherInfo,
             } as RegistrationProviderContext} />
         </div>);
 }
