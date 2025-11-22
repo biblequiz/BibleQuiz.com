@@ -22,18 +22,6 @@ function trimAndUpdateRequiredState(
     return trimmed;
 }
 
-function trimAndUpdateState(
-    fieldValue: string | null | undefined,
-    setFieldValue: (value: string | undefined) => void): string | null | undefined {
-
-    const trimmed = DataTypeHelpers.trimToNull(fieldValue) ?? undefined;
-    if (trimmed !== fieldValue) {
-        setFieldValue(trimmed);
-    }
-
-    return trimmed;
-}
-
 const DESCRIPTION_HTML_TEMPLATE = `All registrants <b>MUST</b> complete the waiver form. No paper waivers will be accepted on site.`;
 const FORM_WAIVER_HTML_TEMPLATE = `
 <h4 style="margin-bottom:0px">GENERAL</h4>
@@ -144,7 +132,7 @@ export default function EventFormCardBody({ allowAttendees, form }: Props) {
                     className="input input-info w-full mt-0"
                     value={label}
                     onChange={e => setLabel(e.target.value)}
-                    onBlur={e => {
+                    onBlur={() => {
                         form.Label = trimAndUpdateRequiredState(label, setLabel);
                         sharedDirtyWindowState.set(true);
                     }}
@@ -207,7 +195,7 @@ export default function EventFormCardBody({ allowAttendees, form }: Props) {
                             className="input input-info w-full mt-0"
                             value={url}
                             onChange={e => setUrl(e.target.value)}
-                            onBlur={e => {
+                            onBlur={() => {
                                 form.Url = trimAndUpdateRequiredState(url, setUrl);
                                 sharedDirtyWindowState.set(true);
                             }}
@@ -225,7 +213,7 @@ export default function EventFormCardBody({ allowAttendees, form }: Props) {
                             className="input input-info w-full mt-0"
                             value={url}
                             onChange={e => setUrl(e.target.value)}
-                            onBlur={e => {
+                            onBlur={() => {
                                 form.Url = trimAndUpdateRequiredState(url, setUrl);
                                 sharedDirtyWindowState.set(true);
                             }}

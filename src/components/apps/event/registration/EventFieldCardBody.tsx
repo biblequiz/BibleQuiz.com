@@ -140,7 +140,7 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
                     className="input input-info w-full mt-0"
                     value={label}
                     onChange={e => setLabel(e.target.value)}
-                    onBlur={e => {
+                    onBlur={() => {
                         field.Label = trimAndUpdateRequiredState(label, setLabel);
                         sharedDirtyWindowState.set(true);
                     }}

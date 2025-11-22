@@ -1,7 +1,6 @@
 import type { RegistrationProviderContext } from "../RegistrationProvider";
 import { useOutletContext } from "react-router-dom";
 import RegistrationPageForm from "./RegistrationPageForm";
-import { useState } from "react";
 import { sharedDirtyWindowState } from "utils/SharedState";
 
 interface Props {

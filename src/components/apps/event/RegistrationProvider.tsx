@@ -9,6 +9,7 @@ import type { RegistrationOfficialsAndAttendeesInfo } from "./registration/Regis
 import { EventDivision, EventExternalForm, RequiredPersonFields, type EventField } from "types/services/EventsService";
 import type { RegistrationRoleRequiredFields } from "./registration/RegistrationRequiredFieldsPage";
 import type { RegistrationMoneyInfo } from "./registration/RegistrationMoneyPage";
+import type { RegistrationOtherInfo } from "./registration/RegistrationOtherPage";
 
 interface Props {
 }
@@ -44,6 +45,9 @@ export interface RegistrationProviderContext {
 
     money: RegistrationMoneyInfo;
     setMoney: (updated: RegistrationMoneyInfo) => void;
+
+    other: RegistrationOtherInfo;
+    setOther: (updated: RegistrationOtherInfo) => void;
 }
 
 const normalizeDate = (date: string | null): string | null => {

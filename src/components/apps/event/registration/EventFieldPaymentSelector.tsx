@@ -32,7 +32,6 @@ export default function EventFieldPaymentSelector({
 
     const [cost, setCost] = useState<number>(paymentInfo.paymentIfSelected);
     const [overrides, setOverrides] = useState<EventFieldPaymentOverride[]>(paymentInfo.paymentOverrides);
-    const [unselectValue, setUnselectValue] = useState<string | undefined>(paymentInfo.paymentUnselectValue ?? undefined);
 
     const getScopeCheckbox = (scope: EventFieldScopes, labelText: string) => {
 
@@ -93,7 +92,7 @@ export default function EventFieldPaymentSelector({
                 <select
                     name={`paymentexceptions_${fieldLabel}`}
                     className="select select-bordered w-1/2 mt-0"
-                    value={unselectValue}
+                    value={paymentInfo.paymentUnselectValue ?? undefined}
                     onChange={e => setPaymentInfo({ ...paymentInfo, paymentUnselectValue: e.target.value })}
                 >
                     {possibleValues.map((value) => (
