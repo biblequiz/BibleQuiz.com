@@ -215,7 +215,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                     </span>
                 </label>
             </div>
-            <div className="w-full mb-2">
+            <div className="w-full mb-4">
                 <label className="label text-wrap">
                     <input
                         type="radio"
@@ -233,7 +233,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                 </label>
             </div>
             {automatedFeeType !== null && (
-                <div className="w-full p-2 border border-base-400 bg-base-300 rounded-lg mt-4">
+                <div className="w-full p-2 border border-base-400 bg-base-300 rounded-lg mt-4 mb-4">
                     <ul>
                         <li>
                             All registration costs will be increased by {automatedFeeType === EventPaymentFeeType.PlusFive ? "5%" : "3%"} plus 30¢.
@@ -293,30 +293,33 @@ export default function RegistrationMoneyPage({ }: Props) {
                     />
                 </div>)}
 
-            <h5 className="mb-2 mt-4">What are the fees?</h5>
-            <div className="flex flex-wrap gap-4">
-                <EventFieldCard title="Church" width={PAYMENT_CARD_WIDTH}>
-                    <EventRolePaymentCardBody
-                        currentCost={perChurchCost ?? 0}
-                        setValue={cost => {
-                            setPerChurchCost(cost);
-                            sharedDirtyWindowState.set(true);
-                        }}
-                    />
-                </EventFieldCard>
-                <EventFieldCard title="Team" width={PAYMENT_CARD_WIDTH}>
-                    <EventRolePaymentCardBody
-                        currentCost={perTeamCost ?? 0}
-                        setValue={cost => {
-                            setPerTeamCost(cost);
-                            sharedDirtyWindowState.set(true);
-                        }}
-                    />
-                </EventFieldCard>
-                {getRolePaymentControl("Quizzer", PersonRole.Quizzer, rolePayment, setRolePayment)}
-                {getRolePaymentControl("Coach", PersonRole.Coach, rolePayment, setRolePayment)}
-                {getRolePaymentControl("Official", PersonRole.Official, rolePayment, setRolePayment)}
-                {officialsAndAttendees.allowAttendees && getRolePaymentControl("Attendee", PersonRole.Attendee, rolePayment, setRolePayment)}
-            </div>
+            {calculatePayment && (
+                <>
+                    <h5 className="mb-2 mt-0">What are the fees?</h5>
+                    <div className="flex flex-wrap gap-4">
+                        <EventFieldCard title="Church" width={PAYMENT_CARD_WIDTH}>
+                            <EventRolePaymentCardBody
+                                currentCost={perChurchCost ?? 0}
+                                setValue={cost => {
+                                    setPerChurchCost(cost);
+                                    sharedDirtyWindowState.set(true);
+                                }}
+                            />
+                        </EventFieldCard>
+                        <EventFieldCard title="Team" width={PAYMENT_CARD_WIDTH}>
+                            <EventRolePaymentCardBody
+                                currentCost={perTeamCost ?? 0}
+                                setValue={cost => {
+                                    setPerTeamCost(cost);
+                                    sharedDirtyWindowState.set(true);
+                                }}
+                            />
+                        </EventFieldCard>
+                        {getRolePaymentControl("Quizzer", PersonRole.Quizzer, rolePayment, setRolePayment)}
+                        {getRolePaymentControl("Coach", PersonRole.Coach, rolePayment, setRolePayment)}
+                        {getRolePaymentControl("Official", PersonRole.Official, rolePayment, setRolePayment)}
+                        {officialsAndAttendees.allowAttendees && getRolePaymentControl("Attendee", PersonRole.Attendee, rolePayment, setRolePayment)}
+                    </div>
+                </>)}
         </RegistrationPageForm>);
 }
