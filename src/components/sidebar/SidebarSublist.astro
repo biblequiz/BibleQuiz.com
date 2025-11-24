@@ -35,7 +35,7 @@ const { sublist, nested, toc = false } = Astro.props;
             const renderAsReactEntry =
                 entry.isCurrent && (entry.attrs?.useReactSidebar ?? false);
             return (
-                <li class={entry.type === "authButton" ? "md:sl-hidden" : ""}>
+                <li class={entry.type === "authButton" ? "lg:sl-hidden" : ""}>
                     {entry.type == "authButton" && (
                         <AuthButton
                             type={AuthButtonType.Mobile}

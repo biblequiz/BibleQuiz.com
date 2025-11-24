@@ -42,7 +42,7 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
                 });
             }}
             saveRegistration={saveRegistration}
-            previousPageLink={rootEventUrl}
+            previousPageLink={`${rootEventUrl}/registration/general`}
             nextPageLink={`${rootEventUrl}/registration/officials`}>
 
             <h5 className="mb-0">Team Requirements</h5>

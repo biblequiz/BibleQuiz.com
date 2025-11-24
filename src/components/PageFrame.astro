@@ -1,6 +1,6 @@
 ---
 // @ts-ignore
-import MobileMenuToggle from 'virtual:starlight/components/MobileMenuToggle';
+import MobileMenuToggle from "components/MobileMenuToggle.astro";
 
 const { hasSidebar } = Astro.locals.starlightRoute;
 ---
@@ -71,19 +71,26 @@ const { hasSidebar } = Astro.locals.starlightRoute;
 			gap: 1rem;
 		}
 
-		@media (min-width: 50rem) {
-			.sidebar-content::after {
-				content: '';
-				padding-bottom: 1px;
-			}
-		}
+        @media (min-width: 64rem) {
+            .sidebar-content::after {
+                content: "";
+                padding-bottom: 1px;
+            }
+        }
 
-		.main-frame {
-			padding-top: calc(var(--sl-nav-height) + var(--sl-mobile-toc-height));
-			padding-inline-start: var(--sl-content-inline-start);
-		}
+        .main-frame {
+            padding-top: calc(
+                var(--sl-nav-height) + var(--sl-mobile-toc-height)
+            );
+        }
 
-		@media (min-width: 50rem) {
+        @media (min-width: 64rem) {
+            .main-frame {
+                padding-inline-start: var(--sl-content-inline-start);
+            }
+        }
+
+		@media (min-width: 64rem) {
 			:global([data-has-sidebar]) .header {
 				padding-inline-end: var(--sl-nav-pad-x);
 			}

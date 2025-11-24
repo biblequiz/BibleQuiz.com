@@ -24,7 +24,7 @@ export default function RegistrationFormsPage({ }: Props) {
         <RegistrationPageForm
             rootEventUrl={rootEventUrl}
             saveRegistration={saveRegistration}
-            previousPageLink={`${rootEventUrl}/registration/customFields`}
+            previousPageLink={`${rootEventUrl}/registration/divisions`}
             nextPageLink={`${rootEventUrl}/registration/money`}>
             <div className="flex flex-wrap gap-4">
                 {(forms ?? []).map((form, index) => (

@@ -123,6 +123,15 @@ function buildSidebar(
 
     const eventId = routeParameters.eventId as string;
     const rootPath = eventId ? `/${eventId}` : "";
+
+    const allEventsLink: ReactSidebarLink = {
+        type: 'link' as const,
+        label: "All Events",
+        navigate: () => navigate(rootPath),
+        isCurrent: false,
+        icon: "fas faEllipsis"
+    };
+
     const registrationGroup: ReactSidebarGroup = {
         type: 'group' as const,
         label: "Registration",
@@ -131,7 +140,7 @@ function buildSidebar(
             {
                 type: 'link' as const,
                 label: "General",
-                navigate: () => navigate(rootPath),
+                navigate: () => navigate(`${rootPath}/registration/general`),
                 isCurrent: false,
                 icon: "fas faCalendar"
             },
@@ -196,8 +205,12 @@ function buildSidebar(
     };
 
     const entries = !eventId
-        ? [registrationGroup]
+        ? [
+            allEventsLink,
+            registrationGroup,
+        ]
         : [
+            allEventsLink,
             registrationGroup,
             {
                 type: 'group' as const,
@@ -249,6 +262,10 @@ function buildSidebar(
     // Determine the current page.
     const databaseId = routeParameters.databaseId;
     const segmentIndexes = routeMatches[routeMatches.length - 1].id.substring(6).split('-');
+    if (segmentIndexes.length > 1 && segmentIndexes[0] === "0") {
+        // This adjust for the "All Events" item in the sidebar.
+        segmentIndexes[0] = "1";
+    }
 
     let currentPage: any = { entries: entries };
     for (const segment of segmentIndexes) {
@@ -378,7 +395,7 @@ const router = createHashRouter([
                                 element: <RegistrationProvider />,
                                 children: [
                                     {
-                                        path: "/:eventId?",
+                                        path: "/:eventId?/registration/general",
                                         element: <RegistrationGeneralPage />
                                     },
                                     {
