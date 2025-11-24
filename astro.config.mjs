@@ -82,10 +82,10 @@ export default defineConfig({
                     slug: "privacy",
                 },
                 {
-                    label: "Manage Event",
+                    label: "Manage Events",
                     link: "manage-event/",
                     badge: {
-                        text: "EXPERIMENTAL",
+                        text: "EXPERIMENT",
                         variant: "caution"
                     },
                     attrs: { useReactSidebar: true },
