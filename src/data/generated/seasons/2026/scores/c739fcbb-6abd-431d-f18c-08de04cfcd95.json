@@ -17,7 +17,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Central: November: Achiever",
-        "LastUpdated": "11/14/25 3:18 AM",
+        "LastUpdated": "11/23/25 7:23 PM",
         "DatabaseLastUpdated": "2025-11-04T02:02:59.0553041+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
@@ -1306,7 +1306,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Central: November: Rising Stars",
-        "LastUpdated": "11/14/25 3:18 AM",
+        "LastUpdated": "11/23/25 7:23 PM",
         "DatabaseLastUpdated": "2025-11-04T02:02:59.0553041+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
@@ -1711,12 +1711,12 @@
               },
               null,
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "InProgress",
-                "CurrentQuestion": 20,
-                "Score": null,
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
                 "OtherTeam": 6
               },
               {
@@ -1729,28 +1729,28 @@
                 "OtherTeam": 1
               }
             ],
-            "CurrentMatchId": 5,
+            "CurrentMatchId": null,
             "Id": "t_dadce6d7-c3ff-4c76-b629-3d7cfacc9125",
             "Name": "Radiant Vessels",
             "ChurchName": "City Church of Orlando",
             "City": "Sanford",
             "State": "FL",
             "Scores": {
-              "Wins": 3,
+              "Wins": 4,
               "Losses": 2,
-              "WinPercentage": 60,
+              "WinPercentage": 67,
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 485,
+              "TotalPoints": 635,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 97.0,
-              "AverageCorrect": 9.2,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 46,
+              "AveragePoints": 105.8,
+              "AverageCorrect": 10.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 60,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": null
             }
           },
           {
@@ -1895,17 +1895,17 @@
                 "OtherTeam": 2
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "InProgress",
-                "CurrentQuestion": 20,
-                "Score": null,
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
                 "OtherTeam": 4
               },
               null
             ],
-            "CurrentMatchId": 5,
+            "CurrentMatchId": null,
             "Id": "t_3312e0c0-f556-4573-a3dc-f83ec7203654",
             "Name": "Trinity Treasures",
             "ChurchName": "Faith Assembly of God",
@@ -1913,20 +1913,20 @@
             "State": "FL",
             "Scores": {
               "Wins": 3,
-              "Losses": 2,
-              "WinPercentage": 60,
+              "Losses": 3,
+              "WinPercentage": 50,
               "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 420,
+              "TotalPoints": 460,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 84.0,
-              "AverageCorrect": 7.8,
+              "AveragePoints": 76.7,
+              "AverageCorrect": 7.2,
               "QuizOuts": 4,
-              "QuestionCorrectPercentage": 95,
-              "Correct10s": 39,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 43,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": null
             }
           }
         ],
@@ -1943,10 +1943,6 @@
           {
             "Symbol": "*",
             "Text": "Tie broken by head-to-head record of teams."
-          },
-          {
-            "Symbol": "**",
-            "Text": "Tie couldn't be broken by tie breaking rules."
           }
         ],
         "Quizzers": [
@@ -1959,7 +1955,7 @@
             "City": "Orlando",
             "State": "FL",
             "Scores": {
-              "Rank": 20,
+              "Rank": 21,
               "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1982,18 +1978,18 @@
             "City": "Sanford",
             "State": "FL",
             "Scores": {
-              "Rank": 20,
-              "IsTie": true,
-              "TotalPoints": 0,
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 20,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -2051,7 +2047,7 @@
             "City": "Orlando",
             "State": "FL",
             "Scores": {
-              "Rank": 2,
+              "Rank": 1,
               "IsTie": false,
               "TotalPoints": 385,
               "PerMeetTotalPoints": null,
@@ -2076,13 +2072,13 @@
             "Scores": {
               "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 260,
+              "TotalPoints": 320,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 52.0,
-              "AverageCorrect": 4.8,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 24,
+              "AveragePoints": 53.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 30,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -2122,13 +2118,13 @@
             "Scores": {
               "Rank": 8,
               "IsTie": false,
-              "TotalPoints": 215,
+              "TotalPoints": 285,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 43.0,
-              "AverageCorrect": 4.2,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 21,
+              "AveragePoints": 47.5,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 27,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -2304,7 +2300,7 @@
             "City": "Orlando",
             "State": "FL",
             "Scores": {
-              "Rank": 20,
+              "Rank": 21,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2327,11 +2323,11 @@
             "City": "Sanford",
             "State": "FL",
             "Scores": {
-              "Rank": 19,
+              "Rank": 20,
               "IsTie": false,
               "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.0,
+              "AveragePoints": 1.7,
               "AverageCorrect": 0.2,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
@@ -2354,8 +2350,8 @@
               "IsTie": false,
               "TotalPoints": 95,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 19.0,
-              "AverageCorrect": 2.0,
+              "AveragePoints": 15.8,
+              "AverageCorrect": 1.7,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 91,
               "Correct10s": 10,
@@ -2373,7 +2369,7 @@
             "City": "Ocoee",
             "State": "FL",
             "Scores": {
-              "Rank": 20,
+              "Rank": 21,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2419,15 +2415,15 @@
             "City": "Orlando",
             "State": "FL",
             "Scores": {
-              "Rank": 1,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 325,
+              "TotalPoints": 365,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 65.0,
-              "AverageCorrect": 5.8,
+              "AveragePoints": 60.8,
+              "AverageCorrect": 5.5,
               "QuizOuts": 4,
               "QuestionCorrectPercentage": 97,
-              "Correct10s": 29,
+              "Correct10s": 33,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -2488,7 +2484,7 @@
             "City": "Sanford",
             "State": "FL",
             "Scores": {
-              "Rank": 20,
+              "Rank": 21,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2504,8 +2500,8 @@
           }
         ],
         "RankedQuizzers": [
-          20,
           4,
+          20,
           21,
           9,
           5,
@@ -2522,9 +2518,9 @@
           11,
           8,
           19,
+          1,
           16,
           0,
-          1,
           15,
           18,
           23
@@ -2581,11 +2577,11 @@
                 "Blockers": null
               },
               {
-                "CurrentQuestion": 20,
+                "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 4,
                 "Team2": 6,
-                "State": "InProgress",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -2769,9 +2765,9 @@
             "RegularQuestionStats": null
           }
         ],
-        "HasRoomCompletionMismatch": true,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "6 of 7 Match(es) Done, +1 by some Room(s)",
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -16066,5 +16062,5 @@
       }
     }
   ],
-  "Freshness": "2025-11-23T17:49:16.5486559+00:00"
+  "Freshness": "2025-11-23T19:23:51.7726706+00:00"
 }
