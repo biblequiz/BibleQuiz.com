@@ -6,23 +6,20 @@ const { hasSidebar } = Astro.locals.starlightRoute;
 ---
 
 <div class="page sl-flex">
-    <header class="header hide-on-print"><slot name="header" /></header>
-    {
-        hasSidebar && (
-            <nav
-                class="sidebar print:hidden"
-                aria-label={Astro.locals.t("sidebarNav.accessibleLabel")}
-            >
-                <MobileMenuToggle />
-                <div id="starlight__sidebar" class="sidebar-pane">
-                    <div class="sidebar-content sl-flex">
-                        <slot name="sidebar" />
-                    </div>
-                </div>
-            </nav>
-        )
-    }
-    <div class="main-frame"><slot /></div>
+	<header class="header hide-on-print"><slot name="header" /></header>
+	{
+		hasSidebar && (
+			<nav class="sidebar print:hidden" aria-label={Astro.locals.t('sidebarNav.accessibleLabel')}>
+				<MobileMenuToggle />
+				<div id="starlight__sidebar" class="sidebar-pane">
+					<div class="sidebar-content sl-flex">
+						<slot name="sidebar" />
+					</div>
+				</div>
+			</nav>
+		)
+	}
+	<div class="main-frame"><slot /></div>
 </div>
 
 <style>
