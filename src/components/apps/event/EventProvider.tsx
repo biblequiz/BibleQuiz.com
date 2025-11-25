@@ -1,8 +1,9 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEffect, useState } from "react";
-import { Outlet, useParams } from "react-router-dom";
+import { Outlet, useLocation, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { EventInfo, EventsService } from "types/services/EventsService";
+import AllEventsPage from "./AllEventsPage";
 
 interface Props {
 }
@@ -19,8 +20,11 @@ export interface EventProviderContext {
 
 export default function EventProvider({ }: Props) {
     const auth = AuthManager.useNanoStore();
+    const location = useLocation();
     const urlParameters = useParams();
-    const eventId = urlParameters.eventId || null;
+    const eventId = urlParameters.eventId === "registration"
+        ? null
+        : (urlParameters.eventId || null);
 
     const [isLoading, setIsLoading] = useState(eventId !== null);
     const [loadingError, setLoadingError] = useState<string | null>(null);
@@ -46,6 +50,10 @@ export default function EventProvider({ }: Props) {
                 });
         }
     }, [eventId, auth]);
+
+    if (location.pathname === "/") {
+        return (<AllEventsPage />);
+    }
 
     if (isLoading) {
         return (

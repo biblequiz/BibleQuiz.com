@@ -88,7 +88,10 @@ function RootLayout({ loadingElementId }: Props) {
     useEffect(() => {
         reactSidebarEntries.set({
             showParent: auth.userProfile?.canCreateEvents ?? false,
-            entries: buildSidebar(routeMatches, routeParameters, navigate)
+            entries: buildSidebar(
+                routeMatches,
+                routeParameters,
+                navigate)
         });
     }, [location.pathname, auth, blocker]);
 
@@ -122,96 +125,100 @@ function buildSidebar(
     }
 
     const eventId = routeParameters.eventId as string;
-    const rootPath = eventId ? `/${eventId}` : "";
+    const rootEventPath = eventId ? `/${eventId}` : "";
 
-    const allEventsLink: ReactSidebarLink = {
-        type: 'link' as const,
-        label: "All Events",
-        navigate: () => navigate(rootPath),
-        isCurrent: false,
-        icon: "fas faEllipsis"
-    };
+    const segmentIndexes = routeMatches[routeMatches.length - 1].id.substring(6).split('-');
+    const sidebarEntries: ReactSidebarEntry[] = [
+        {
+            type: 'link' as const,
+            label: "All Events",
+            navigate: () => navigate(""),
+            isCurrent: false,
+            icon: "fas faList"
+        }];
+    if (segmentIndexes.length > 1 || segmentIndexes[0] !== "0") {
+        segmentIndexes[0] = "1";
+    }
+    else {
+        (sidebarEntries[0] as ReactSidebarLink).isCurrent = true;
+        return sidebarEntries;
+    }
 
-    const registrationGroup: ReactSidebarGroup = {
-        type: 'group' as const,
-        label: "Registration",
-        icon: "fas faUserPen",
-        entries: [
-            {
-                type: 'link' as const,
-                label: "General",
-                navigate: () => navigate(`${rootPath}/registration/general`),
-                isCurrent: false,
-                icon: "fas faCalendar"
-            },
-            {
-                type: 'link' as const,
-                label: "Teams & Quizzers",
-                navigate: () => navigate(`${rootPath}/registration/teamsAndQuizzers`),
-                isCurrent: false,
-                icon: "fas faUserGroup"
-            },
-            {
-                type: 'link' as const,
-                label: "Officials & Attendees",
-                navigate: () => navigate(`${rootPath}/registration/officials`),
-                isCurrent: false,
-                icon: "fas faHelmetSafety"
-            },
-            {
-                type: 'link' as const,
-                label: "Required Fields",
-                navigate: () => navigate(`${rootPath}/registration/requiredFields`),
-                isCurrent: false,
-                icon: "fas faUser"
-            },
-            {
-                type: 'link' as const,
-                label: "Custom Fields",
-                navigate: () => navigate(`${rootPath}/registration/customFields`),
-                isCurrent: false,
-                icon: "fas faBars"
-            },
-            {
-                type: 'link' as const,
-                label: "Divisions",
-                navigate: () => navigate(`${rootPath}/registration/divisions`),
-                isCurrent: false,
-                icon: "fas faLayerGroup"
-            },
-            {
-                type: 'link' as const,
-                label: "Forms",
-                navigate: () => navigate(`${rootPath}/registration/forms`),
-                isCurrent: false,
-                icon: "fas faGavel"
-            },
-            {
-                type: 'link' as const,
-                label: "Money",
-                navigate: () => navigate(`${rootPath}/registration/money`),
-                isCurrent: false,
-                icon: "fas faDollarSign"
-            },
-            {
-                type: 'link' as const,
-                label: "Other",
-                navigate: () => navigate(`${rootPath}/registration/other`),
-                isCurrent: false,
-                icon: "fas faEllipsis"
-            }
-        ],
-        collapsed: true
-    };
+    sidebarEntries.push(
+        {
+            type: 'group' as const,
+            label: "Registration",
+            icon: "fas faUserPen",
+            entries: [
+                {
+                    type: 'link' as const,
+                    label: "General",
+                    navigate: () => navigate(`${rootEventPath}/registration/general`),
+                    isCurrent: false,
+                    icon: "fas faCalendar"
+                },
+                {
+                    type: 'link' as const,
+                    label: "Teams & Quizzers",
+                    navigate: () => navigate(`${rootEventPath}/registration/teamsAndQuizzers`),
+                    isCurrent: false,
+                    icon: "fas faUserGroup"
+                },
+                {
+                    type: 'link' as const,
+                    label: "Officials & Attendees",
+                    navigate: () => navigate(`${rootEventPath}/registration/officials`),
+                    isCurrent: false,
+                    icon: "fas faHelmetSafety"
+                },
+                {
+                    type: 'link' as const,
+                    label: "Required Fields",
+                    navigate: () => navigate(`${rootEventPath}/registration/requiredFields`),
+                    isCurrent: false,
+                    icon: "fas faUser"
+                },
+                {
+                    type: 'link' as const,
+                    label: "Custom Fields",
+                    navigate: () => navigate(`${rootEventPath}/registration/customFields`),
+                    isCurrent: false,
+                    icon: "fas faBars"
+                },
+                {
+                    type: 'link' as const,
+                    label: "Divisions",
+                    navigate: () => navigate(`${rootEventPath}/registration/divisions`),
+                    isCurrent: false,
+                    icon: "fas faLayerGroup"
+                },
+                {
+                    type: 'link' as const,
+                    label: "Forms",
+                    navigate: () => navigate(`${rootEventPath}/registration/forms`),
+                    isCurrent: false,
+                    icon: "fas faGavel"
+                },
+                {
+                    type: 'link' as const,
+                    label: "Money",
+                    navigate: () => navigate(`${rootEventPath}/registration/money`),
+                    isCurrent: false,
+                    icon: "fas faDollarSign"
+                },
+                {
+                    type: 'link' as const,
+                    label: "Other",
+                    navigate: () => navigate(`${rootEventPath}/registration/other`),
+                    isCurrent: false,
+                    icon: "fas faEllipsis"
+                }
+            ],
+            collapsed: true
+        } as ReactSidebarGroup);
 
-    const entries = !eventId
-        ? [
-            allEventsLink,
-            registrationGroup,
-        ]
-        : [
-            allEventsLink,
-            registrationGroup,
+    if (eventId) {
+        sidebarEntries.push(
             {
                 type: 'group' as const,
                 label: "Scoring",
@@ -221,7 +228,7 @@ function buildSidebar(
                     {
                         type: 'link' as const,
                         label: "General",
-                        navigate: () => navigate(`${rootPath}/scoring`),
+                        navigate: () => navigate(`${rootEventPath}/scoring`),
                         isCurrent: false,
                         icon: "fas faChartLine"
                     },
@@ -230,44 +237,47 @@ function buildSidebar(
                         label: "Databases",
                         collapsed: true,
                         entries: [
-                            buildDatabaseEntry(rootPath, "db1", "Database 1", navigate),
-                            buildDatabaseEntry(rootPath, "db2", "Database 2", navigate),
+                            buildDatabaseEntry(rootEventPath, "db1", "Database 1", navigate),
+                            buildDatabaseEntry(rootEventPath, "db2", "Database 2", navigate),
                             {
                                 type: 'link' as const,
                                 label: "Add Database",
-                                navigate: () => navigate(`${rootPath}/scoring/addDatabase`),
+                                navigate: () => navigate(`${rootEventPath}/scoring/addDatabase`),
                                 isCurrent: false,
                                 icon: "fas faPlus"
                             },
                         ]
                     }
                 ]
-            },
+            } as ReactSidebarGroup);
+
+        sidebarEntries.push(
             {
                 type: 'link' as const,
                 label: "Downloads & Reports",
-                navigate: () => navigate(`${rootPath}/reports`),
+                navigate: () => navigate(`${rootEventPath}/reports`),
                 isCurrent: false,
                 icon: "fas faFileImport"
-            },
+            } as ReactSidebarLink);
+
+        sidebarEntries.push(
             {
                 type: 'link' as const,
                 label: "Permissions",
-                navigate: () => navigate(`${rootPath}/permissions`),
+                navigate: () => navigate(`${rootEventPath}/permissions`),
                 isCurrent: false,
                 icon: "fas faLock"
-            }
-        ];
+            } as ReactSidebarLink);
+    }
 
     // Determine the current page.
     const databaseId = routeParameters.databaseId;
-    const segmentIndexes = routeMatches[routeMatches.length - 1].id.substring(6).split('-');
     if (segmentIndexes.length > 1 && segmentIndexes[0] === "0") {
         // This adjust for the "All Events" item in the sidebar.
         segmentIndexes[0] = "1";
     }
 
-    let currentPage: any = { entries: entries };
+    let currentPage: any = { entries: sidebarEntries };
     for (const segment of segmentIndexes) {
         if (!currentPage.entries) {
             break;
@@ -308,7 +318,7 @@ function buildSidebar(
         (currentPage as ReactSidebarLink).isCurrent = true;
     }
 
-    return entries;
+    return sidebarEntries;
 }
 
 function buildDatabaseEntry(
