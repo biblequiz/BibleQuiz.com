@@ -150,7 +150,7 @@ if (!eventInfo) {
 
 const eventFilePath = path.resolve(
     rootSourcePath,
-    `data/generated/seasons/${season}/scores/${eventInfo.id}.json`,
+    `data/generated/seasons/${season}/${eventInfo.isReport ? "reports" : "scores"}/${eventInfo.id}.json`,
 );
 
 // Determine whether the archive can be used. In some cases, dates for existing events that are
@@ -241,91 +241,100 @@ const qstatsTabId = "qstats_tab";
     />
     <EventScoringReportSearch parentTabId="scoreTabs" client:only="react" />
     <div id="scoreTabs" class="hide-on-print" style={{ display: "none" }}>
-        <FontAwesomeTabs syncKey={`scores-${eventInfo.id}`}>
-            {
-                hasStatsTab && (
+        {
+            eventInfo.isReport && (
+                <StatsTabContent
+                    eventId={eventInfo.id}
+                    parentTabId={statsTabId}
+                    client:only="react"
+                />
+            )
+        }
+        {
+            !eventInfo.isReport && (
+                <FontAwesomeTabs syncKey={`scores-${eventInfo.id}`}>
+                    {hasStatsTab && (
+                        <FontAwesomeTabItem
+                            label="Stats"
+                            icon="fas faTrophy"
+                            tabElementId={statsTabId}
+                        >
+                            <StatsTabContent
+                                eventId={eventInfo.id}
+                                parentTabId={statsTabId}
+                                client:only="react"
+                            />
+                        </FontAwesomeTabItem>
+                    )}
                     <FontAwesomeTabItem
-                        label="Stats"
-                        icon="fas faTrophy"
-                        tabElementId={statsTabId}
+                        icon="fas faUsers"
+                        label="Teams"
+                        tabElementId={teamScheduleTabId}
                     >
-                        <StatsTabContent
+                        <TeamOrRoomScheduleTabContent
+                            type="Team"
                             eventId={eventInfo.id}
-                            parentTabId={statsTabId}
+                            schedulesTabId={teamScheduleTabId}
                             client:only="react"
                         />
                     </FontAwesomeTabItem>
-                )
-            }
-            <FontAwesomeTabItem
-                icon="fas faUsers"
-                label="Teams"
-                tabElementId={teamScheduleTabId}
-            >
-                <TeamOrRoomScheduleTabContent
-                    type="Team"
-                    eventId={eventInfo.id}
-                    schedulesTabId={teamScheduleTabId}
-                    client:only="react"
-                />
-            </FontAwesomeTabItem>
-            <FontAwesomeTabItem
-                icon="fas faDoorOpen"
-                label="Rooms"
-                tabElementId={roomScheduleTabId}
-            >
-                <TeamOrRoomScheduleTabContent
-                    type="Room"
-                    eventId={eventInfo.id}
-                    schedulesTabId={roomScheduleTabId}
-                    client:only="react"
-                />
-            </FontAwesomeTabItem>
-            <FontAwesomeTabItem
-                icon="fas faBorderAll"
-                label="Grid"
-                tabElementId={scheduleGridTabId}
-            >
-                <ScheduleGridTabContent
-                    eventId={eventInfo.id}
-                    schedulesTabId={scheduleGridTabId}
-                    client:only="react"
-                />
-            </FontAwesomeTabItem>
-            <FontAwesomeTabItem
-                label="Coordinator"
-                icon="fas faThermometerHalf"
-            >
-                <CoordinatorTabContent
-                    eventId={eventInfo.id}
-                    client:only="react"
-                />
-            </FontAwesomeTabItem>
-            {
-                hasQStatsTab && (
                     <FontAwesomeTabItem
-                        label="Q Stats"
-                        icon="fas faChartBar"
-                        tabElementId={qstatsTabId}
+                        icon="fas faDoorOpen"
+                        label="Rooms"
+                        tabElementId={roomScheduleTabId}
                     >
-                        <QStatsTabContent
+                        <TeamOrRoomScheduleTabContent
+                            type="Room"
+                            eventId={eventInfo.id}
+                            schedulesTabId={roomScheduleTabId}
+                            client:only="react"
+                        />
+                    </FontAwesomeTabItem>
+                    <FontAwesomeTabItem
+                        icon="fas faBorderAll"
+                        label="Grid"
+                        tabElementId={scheduleGridTabId}
+                    >
+                        <ScheduleGridTabContent
+                            eventId={eventInfo.id}
+                            schedulesTabId={scheduleGridTabId}
+                            client:only="react"
+                        />
+                    </FontAwesomeTabItem>
+                    <FontAwesomeTabItem
+                        label="Coordinator"
+                        icon="fas faThermometerHalf"
+                    >
+                        <CoordinatorTabContent
                             eventId={eventInfo.id}
                             client:only="react"
                         />
                     </FontAwesomeTabItem>
-                )
-            }
-            <FontAwesomeTabItem label="QR" icon="fas faQrcode">
-                <QRCodeImage
-                    url={`${Astro.url.origin}${Astro.url.pathname}`}
-                    width={400}
-                    color="#000000"
-                    backgroundColor="#ffffff"
-                    downloadFileNameWithoutExtension={eventInfo.name}
-                    cssClass="flex justify-center"
-                />
-            </FontAwesomeTabItem>
-        </FontAwesomeTabs>
+                    {hasQStatsTab && (
+                        <FontAwesomeTabItem
+                            label="Q Stats"
+                            icon="fas faChartBar"
+                            tabElementId={qstatsTabId}
+                        >
+                            <QStatsTabContent
+                                eventId={eventInfo.id}
+                                client:only="react"
+                            />
+                        </FontAwesomeTabItem>
+                    )}
+                    <FontAwesomeTabItem label="QR" icon="fas faQrcode">
+                        <QRCodeImage
+                            url={`${Astro.url.origin}${Astro.url.pathname}`}
+                            width={400}
+                            color="#000000"
+                            backgroundColor="#ffffff"
+                            downloadFileNameWithoutExtension={eventInfo.name}
+                            cssClass="flex justify-center"
+                        />
+                    </FontAwesomeTabItem>
+                </FontAwesomeTabs>
+            )
+        }
         <RoomDialog />
     </div>
     <PrintDialog
