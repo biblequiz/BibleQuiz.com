@@ -24,7 +24,7 @@ export default function RoomDialogLink({ id, label, eventId, databaseId, meetId,
             style={{
                 cursor: "pointer",
                 color: "var(--accent-content)",
-                fontSize: "smaller",
+                fontSize: "small",
                 textDecorationColor: "var(--accent-content)",
                 transition: "color 0.3s ease"
             }}

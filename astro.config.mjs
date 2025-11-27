@@ -24,6 +24,11 @@ export default defineConfig({
             description: "Home of AG Bible Quiz",
             social: [
                 {
+                    icon: "npm",
+                    label: "Apps",
+                    href: "apps",
+                },
+                {
                     icon: "email",
                     label: "Email",
                     href: "mailto:hello@biblequiz.com",
@@ -116,7 +121,8 @@ export default defineConfig({
                     prefix: "news",
                     postCount: 10,
                     recentPostCount: 10,
-                }),
+                }
+                ),
             ],
         }),
         react(),
