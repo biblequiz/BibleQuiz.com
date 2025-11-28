@@ -26,7 +26,9 @@ export default function RoomDialogLink({ id, label, eventId, databaseId, meetId,
                 color: "var(--accent-content)",
                 fontSize: "small",
                 textDecorationColor: "var(--accent-content)",
-                transition: "color 0.3s ease"
+                transition: "color 0.3s ease text-decoration-color 0.3s ease",
+                textDecoration: "underline"
+
             }}
             id={id}
             data-label={label}
@@ -36,8 +38,8 @@ export default function RoomDialogLink({ id, label, eventId, databaseId, meetId,
             data-match-id={matchId}
             data-room-id={roomId}
             onClick={e => window.openRoomDialog(e)}
-            onMouseOver={e => (e.currentTarget.style.fontWeight = "bold", e.currentTarget.style.color = "var(--accent-focus)", e.currentTarget.style.textDecoration = "underline", e.currentTarget.style.textUnderlinePosition = "under") }
-            onMouseOut={e => (e.currentTarget.style.fontWeight = "normal", e.currentTarget.style.color = "var(--accent-content)", e.currentTarget.style.textDecoration = "none") }
+            onMouseOver={e => (e.currentTarget.style.textDecorationColor = "var(--accent-focus)",e.currentTarget.style.fontWeight="bold" ) }
+            onMouseOut={e => (e.currentTarget.style.color = "var(--accent-content)", e.currentTarget.style.fontWeight="normal") }
         >
             {children}
         </a>
