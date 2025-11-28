@@ -82,10 +82,10 @@ export default defineConfig({
                     slug: "privacy",
                 },
                 {
-                    label: "Manage Events",
+                    label: "Manage Event",
                     link: "manage-event/",
                     badge: {
-                        text: "EXPERIMENT",
+                        text: "EXPERIMENTAL",
                         variant: "caution"
                     },
                     attrs: { useReactSidebar: true },
@@ -94,7 +94,6 @@ export default defineConfig({
             components: {
                 Header: "./src/components/Header.astro",
                 Footer: "./src/components/Footer.astro",
-                MobileMenuToggle: "./src/components/MobileMenuToggle.astro",
                 PageFrame: "./src/components/PageFrame.astro",
                 PageTitle: "./src/components/PageTitle.astro",
                 Sidebar: "./src/components/sidebar/Sidebar.astro",
