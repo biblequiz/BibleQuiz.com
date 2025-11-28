@@ -17,54 +17,74 @@ import { LinkButton, LinkCard, CardGrid, Card } from '@astrojs/starlight/compone
     <LinkButton href={`/jbq/seasons/${new Date().getFullYear() - 1}`}> Past Seasons </LinkButton>
   </div>
 </div>
-<div class="flex justify-left items-left block-02 bg-green-200 p-4">
-  <div class="flex italic ">
-An exciting way to teach kids using games with questions and answers about the Bible using 576 questions
-teaching about the Bible covering Genesis to Revelation from the Bible Fact-Pak. Grades 1 - 6 can compete,
-but many districts allow younger kids to join.  
-</div>
+<div class="bg-green-200 dark:bg-green-700 p-2 rounded">
+  <div class="italic text-gray-900 dark:text-gray-100">
+    An exciting way to teach kids using games with questions and answers about the Bible using 576 questions
+    teaching about the Bible covering Genesis to Revelation from the Bible Fact-Pak. Grades 1 - 6 can compete,
+    but many districts allow younger kids to join.
+  </div>
 </div>
 
 
 <CardGrid class="grid grid-cols-3 gap-3 mt-6 items-stretch" >
-  <a target="_blank" href="/assets/2026/2026-jbq-rules.pdf" alt="Bible Quiz Rules">
-  <Card title="Learn the rules of Bible Quiz" icon="open-book">
-    <div class="flex items-center  justify-center gap-3">
-    <img src="/assets/images/JBQ_black.png" alt="Bible Fact Pack" class="h-24" />
-One of the key purposes of the Junior Bible Quiz (JBQ) ministry is to <b>"Cultivate, through competition, a proper attitude toward winning and losing."</b>
-<br/> That requires rules and guidelines. Please familiarize with the Junior Bible Quiz program's purpose, guidelines and rules. 
-    </div>
-  </Card>
+  <a target="_blank" href="/assets/2026/2026-jbq-rules.pdf" alt="Bible Quiz Rules" class="h-full flex">
+    <Card title="Learn the rules of Bible Quiz" icon="open-book" class="h-full flex flex-col">
+      <div class="flex items-center justify-center gap-3 flex-1">
+        <img src="/assets/images/jbq-rules.png" alt="Bible Fact Pack" class="h-24" />
+        The heart of Junior Bible Quiz (JBQ) is helping kids grow in character and faith—while having fun! 
+        <br/> Competition is a wonderful way to learn teamwork, respect, and a healthy attitude toward both winning and losing.
+        <br/> To make JBQ a positive experience for everyone, please take time to review the program’s purpose, guidelines, and rules. 
+        <br/> Let’s work together to create an encouraging and fair environment for all!
+      </div>
+    </Card>
   </a>
-  <a target="_blank" href="/jbq/question-generator" alt="JBQ Question Generator">
-  <Card title="Question Generator" icon="seti:json">
-    <div class="flex items-center justify-center gap-3" >
-   <img src="/assets/images/JBQ_black.png" alt="JBQ Logo" class="h-24" />
-    As a leader, coach or parent, you can use the question generator to create question sets for practice and tournament quizzing competitions.
-    &nbsp;&nbsp;   
-    &nbsp;&nbsp;   
-    &nbsp;&nbsp;   
-    </div>
-  </Card>
+  <a target="_blank" href="/jbq/question-generator" alt="JBQ Question Generator" class="h-full flex">
+    <Card title="Question Generator" icon="seti:json" class="h-full flex flex-col">
+      <div class="flex items-center justify-center gap-3 flex-1">
+        <img src="/assets/images/jbq-qg.png" alt="JBQ Logo" class="h-24" />
+        The question generator is a valuable tool for coaches, parents, and leaders to create custom question sets for practices and tournaments. It is available for free to support your JBQ journey.
+        &nbsp;&nbsp;   
+        &nbsp;&nbsp;   
+        &nbsp;&nbsp;   
+      </div>
+    </Card>
   </a>
-  <a target="_blnak" href="https://myhealthychurch.com/store/startitem.cfm?item=020870&cat=iBFACTPAK&mastercat=&path=" alt="Bible Fact Pack">
-  <Card title="Bible Fact Pack" icon="open-book">
-    <div class="flex items-center  justify-center gap-3">
-    <img src="/assets/images/BFP_Box_Book.png" alt="Bible Fact Pack" class="h-24" />
-    With Junior Bible Quiz, there is no reason to choose between kids having a blast and a robust Bible-based program.
-    With Take a few minutes today to become familiar with the <b>Bible Fact Pak</b> and how it can increase the fun and Bible knowledge at the same time.
-    </div>
-  </Card>
+  <a target="_blank" href="https://myhealthychurch.com/store/startcat.cfm?cat=iBFACTPAK" alt="Bible Fact Pack" class="h-full flex">
+    <Card title="Bible Fact Pack" icon="open-book" class="h-full flex flex-col">
+      <div class="flex items-center justify-center gap-3 flex-1">
+        <img src="/assets/images/factpack.jpg" alt="Bible Fact Pack" class="h-24" />
+        With Junior Bible Quiz, kids can have fun while building a strong foundation in God’s Word. The Bible Fact-Pak features 576 questions about people, places, events, and lessons throughout the Bible—serving as the core resource for JBQ. Explore these resources to help your kids grow in their knowledge and love for Scripture!
+      </div>
+    </Card>
   </a>  
-  <a href="https://facebook.com/NationalJBQ" target="_blank" alt="JBQ Question Generator">
-  <Card title="JBQ Community" icon="facebook">
-    <p>
-    Join the JBQ community across the nation.
-    <br/>facebook.com/NationalJBQ
-    <br/>Groups: facebook.com/groups/natjbq 
-    <br/>ConquerTheCards #BibleStrong #NationalJBQ
-    </p>
-  </Card>
+  <a target="_blank" href="https://jbq.ag.org/BibleMaster" alt="Bible Master" class="h-full flex">
+    <Card title="Bible Master Awards" icon="document" class="h-full flex flex-col">
+      <div class="flex items-center justify-center gap-3 flex-1">
+        <img src="/assets/images/biblemaster.jpg" alt="Bible Fact Pack" class="h-24" />
+      The Bible Master Award celebrates anyone who memorizes questions and answers from the Bible Fact-Pak! 
+      Take the Bible Master Challenge—open to all ages, whether or not you’re on a quizzing team. 
+      Discover how fun and rewarding it can be to learn God’s Word together!
+      </div>
+    </Card>
+  </a>  
+  <a href="https://facebook.com/NationalJBQ" target="_blank" alt="JBQ Question Generator" class="h-full flex">
+    <Card title="JBQ Community" icon="facebook" class="h-full flex flex-col flex-1">
+      <div class="flex items-center justify-center gap-3 flex-1">
+        <img src="/assets/images/social-media.png" alt="Social Media" class="h-24" />
+      Connect with JBQ families and leaders nationwide!
+      <br/>Join the conversation at <b>facebook.com/NationalJBQ</b>
+      <br/>Be part of our group: <b>facebook.com/groups/natjbq</b>
+      <br/>Share your journey with #ConquerTheCards #BibleStrong #NationalJBQ
+      </div>
+    </Card>
+  </a>
+  <a href="https://jbq.ag.org" target="_blank" alt="JBQ" class="h-full flex">
+    <Card title="Find a JBQ Church & Parent Resources" icon="magnifier" class="h-full flex flex-col flex-1">
+      <div class="flex items-center justify-center gap-3 flex-1">
+      <img src="/assets/images/jbq-church.png" alt="Bible Fact Pack" class="h-24" />
+      Want to discover more about JBQ or find a local church that uses JBQ to help kids grow in faith? Visit JBQ.AG.ORG/Parents for helpful resources and to connect with a welcoming community!
+      </div>
+    </Card>
   </a>
 </CardGrid>
 
