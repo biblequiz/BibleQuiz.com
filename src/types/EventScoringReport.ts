@@ -1,5 +1,3 @@
-import { authCodeRequired } from "node_modules/@azure/msal-browser/dist/error/BrowserAuthErrorCodes";
-
 /**
  * Scoring report for an event.
  */

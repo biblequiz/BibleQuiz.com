@@ -71,15 +71,15 @@ function getTeamShortName(churchName:string, city:string, state:string): string 
         
     console.log("Generating acronym for church:", churchName,city,state);
     let acronym = generateChurchAcronym(churchName,4);
-    //if (acronym) {
-    //   parts.push(acronym);
-    //}
+    if (acronym) {
+       parts.push(acronym);
+    }
     if (city) {
         parts.push(city);
     }
-    if (state) {
-        parts.push(state);
-    }
+    //if (state) {
+    //    parts.push(state);
+    //}
     return parts.join(", ");
 } 
 

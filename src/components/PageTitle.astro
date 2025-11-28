@@ -1,6 +1,7 @@
 ---
 const {
     title,
+    description,
     eventId,
     eventType,
     eventDates,
@@ -33,7 +34,9 @@ import EventScopeBadge from "./EventScopeBadge";
                     class="event-icon"
                 />
             )}
-            <span class="event-title-text">{title}</span>
+            <span class="event-title-text">{title}
+            {description && <p class="italic text-sm">{description}</p>}
+            </span>
             {eventType && eventId && (
                 <span>
                     <PrintDialogButton isLoaded={eventIsLoaded ?? false} />
