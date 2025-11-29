@@ -3,18 +3,22 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 // @ts-ignore
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
 
-import {CardGrid, LinkCard } from "@astrojs/starlight/components";
+import { CardGrid, LinkCard } from "@astrojs/starlight/components";
 import LiveAndUpcomingApp from "components/apps/liveAndUpcoming/LiveAndUpcomingApp.astro";
+import SearchFilters from "components/SearchFilters";
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "Home Page",
     template: "doc",
-    hidePageTitle: true
+    hidePageTitle: true,
 };
 ---
 
 <StarlightPage frontmatter={frontmatter}>
-    <div style="display: flex; flex-direction: column" class="home-flex-container mb-0">
+    <div
+        style="display: flex; flex-direction: column"
+        class="home-flex-container mb-0"
+    >
         <div class="m-0">
             <CardGrid>
                 <LinkCard
@@ -37,6 +41,9 @@ const frontmatter: StarlightPageFrontmatter = {
                     </div>`}
                 />
             </CardGrid>
+        </div>
+        <div class="m-0">
+            <SearchFilters client:load />
         </div>
         <div class="mt-0" style="flex: 1">
             <LiveAndUpcomingApp />
