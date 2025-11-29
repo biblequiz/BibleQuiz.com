@@ -26,8 +26,6 @@ export default function AllEventsPage({ }: Props) {
                       - The same filters should flow across all the pages.
                 TODO: Eliminate the selection bar for different types of competition after the scoping has changed. This will make it
                       easier for people to select events.
-                TODO: Add a link to the current season's results on the home page for each type of event. That way, it makes it easy
-                      to jump.
                 TODO: The list of events in All Events and Home Page should include past events. The Home Page should include events
                       in the last two weeks.
             </p>
