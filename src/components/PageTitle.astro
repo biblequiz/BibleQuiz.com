@@ -1,6 +1,7 @@
 ---
 const {
     title,
+    description,
     eventId,
     eventType,
     eventDates,
@@ -8,6 +9,7 @@ const {
     eventScopeLabel,
     eventLocation,
     eventIsLoaded,
+    showSeasonButtons,
     hidePageTitle,
     hidePageTitleOnPrint,
 } = Astro.locals.starlightRoute.entry.data;
@@ -16,6 +18,49 @@ import ExcelExportButton from "./scores/ExcelExportButton.astro";
 import PrintDialogButton from "./scores/PrintDialogButton.astro";
 import ToggleFavoritesOnlyButton from "./scores/ToggleFavoritesOnlyButton";
 import EventScopeBadge from "./EventScopeBadge";
+import { getAstroRootSourcePath, getFilesByWildcard } from "utils/FileSystem";
+import { fileExists } from "utils/FileSystem";
+
+const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
+
+let currentSeasonLink: string | undefined = undefined;
+if (eventType && showSeasonButtons) {
+    const patternSuffix = "/index.mdx";
+    const rootSeasonsForType = `${rootSourcePath}/content/docs/${eventType}/Seasons`;
+    const pattern = "[0-9][0-9][0-9][0-9]" + patternSuffix;
+    const seasonFiles = await getFilesByWildcard(rootSeasonsForType, pattern);
+
+    let maxSeason = undefined;
+    for (const file of seasonFiles) {
+        const startPosition = file.lastIndexOf(
+            "/",
+            file.length - patternSuffix.length - 1,
+        );
+        if (startPosition >= 0) {
+            const parts = file
+                .substring(
+                    startPosition + 1,
+                    file.length - patternSuffix.length,
+                )
+                .split("/");
+            if (parts.length === 1) {
+                const season = parseInt(parts[0]);
+                if (!maxSeason || season > maxSeason) {
+                    maxSeason = season;
+                }
+            }
+        }
+    }
+
+    if (maxSeason) {
+        if (await fileExists(`${rootSeasonsForType}/${maxSeason - 1}/results.mdx`)) {
+            currentSeasonLink = `/${eventType}/seasons/${maxSeason - 1}/results/`;
+        }
+        else {
+            currentSeasonLink = `/${eventType}/seasons/${maxSeason - 1}/`;
+        }
+    }
+}
 ---
 
 {
@@ -25,15 +70,28 @@ import EventScopeBadge from "./EventScopeBadge";
             class={`page-title ${hidePageTitleOnPrint ? "hide-on-print" : ""}`}
         >
             {eventType && (
-                <img
-                    src={`/assets/logos/${eventType}/${eventType}-logo.png`}
-                    alt={eventType}
-                    width="72"
-                    height="72"
-                    class="event-icon"
-                />
+                <div class="align-top shrink-0">
+                    <img
+                        src={`/assets/logos/${eventType}/${eventType}-logo.png`}
+                        alt={eventType}
+                        width="72"
+                        height="72"
+                        class="event-icon"
+                    />
+                </div>
             )}
-            <span class="event-title-text">{title}</span>
+            <span class="event-title-text">
+                {title}
+                {description && <p class="italic text-sm">{description}</p>}
+                {showSeasonButtons && currentSeasonLink && (
+                    <a
+                        class="btn btn-primary cursor-pointer hide-on-print whitespace-nowrap"
+                        href={currentSeasonLink}
+                    >
+                        Current Season Results
+                    </a>
+                )}
+            </span>
             {eventType && eventId && (
                 <span>
                     <PrintDialogButton isLoaded={eventIsLoaded ?? false} />

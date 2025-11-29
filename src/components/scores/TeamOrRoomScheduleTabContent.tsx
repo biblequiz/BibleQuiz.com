@@ -37,6 +37,52 @@ function ordinalWithSuffix(number: number): string {
     return number + "th";
 }
 
+/**
+* Create a Acronym for the ChurchName 
+*/
+function generateChurchAcronym(churchName: string, maxLength: number = 3): string {
+    if (!churchName) return '';
+        
+    const words = churchName
+        .toUpperCase()
+        .replace(/\b(AND|THE|OF|IN|ON|AT|FOR|WITH|BY|CH|ST|SAINT)\b/gi, '')
+        .split(/\s+/)
+        .filter((word: string) => word.length > 0 && /[A-Z]/i.test(word.charAt(0)));
+        
+    if (words.length === 0) {
+          // Fallback for single word or unusual names
+        return churchName
+        .replace(/[^A-Z]/gi, '')
+        .substring(0, maxLength)
+        .toUpperCase();
+    }
+        
+    return words
+        .slice(0, maxLength)
+        .map(word => word.charAt(0))
+        .join('');
+} 
+
+    /**
+     * Get a short name for the church including acronym, city, and state.
+     */
+function getTeamShortName(churchName:string, city:string, state:string): string {
+    let parts: string[] = [];
+        
+    console.log("Generating acronym for church:", churchName,city,state);
+    let acronym = generateChurchAcronym(churchName,4);
+    if (acronym) {
+       parts.push(acronym);
+    }
+    if (city) {
+        parts.push(city);
+    }
+    //if (state) {
+    //    parts.push(state);
+    //}
+    return parts.join(", ");
+} 
+
 export default function TeamOrRoomScheduleTabContent({
     type,
     eventId,
@@ -50,6 +96,7 @@ export default function TeamOrRoomScheduleTabContent({
     const scrollToViewElementId = `schedule_${type}_scroll_elem`;
 
     const reportState = useStore(sharedEventScoringReportState);
+    
     event ??= reportState?.report || undefined;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
@@ -179,9 +226,12 @@ export default function TeamOrRoomScheduleTabContent({
                         if (null != resolvedMatch.PlayoffIndex) {
                             cellText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
                         }
-
+                        
                         if (isRoomReport) {
+                            console.log("Room report match team:", matchTeam);
+                            //const shortName = getTeamShortName(matchTeam!.ChurchName, matchTeam!.City, matchTeam!.State);
                             cellText.push(`"${matchTeam!.Name}"`);
+                            //cellText.push(matchTeam!.Name+"("+(shortName)+")");
                         }
 
                         if (isScheduleOnly) {
@@ -202,7 +252,6 @@ export default function TeamOrRoomScheduleTabContent({
                                     else if (isLiveMatch) {
                                         cellText.push(`${isRoomReport ? 'p' : 'P'}laying`);
                                     }
-
                                     break;
                             }
                         }
@@ -218,7 +267,8 @@ export default function TeamOrRoomScheduleTabContent({
                             if (!shouldHighlightFavorite && (favorites?.teamIds.has(otherTeam.Id) ?? false)) {
                                 shouldHighlightFavorite = true;
                             }
-
+                            //const shortName = getTeamShortName(otherTeam.ChurchName, otherTeam.City,otherTeam.State);
+                            //cellText.push(otherTeam.Name+"("+shortName +")");
                             cellText.push(otherTeam.Name);
                             if (!isScheduleOnly) {
                                 if (isLiveMatch) {
@@ -324,11 +374,11 @@ export default function TeamOrRoomScheduleTabContent({
                             <div className="card-body">
                                 <p className="text-sm mb-0 font-bold">
                                     {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={(cardItem as ScoringReportTeam).Id} />&nbsp;</>)}
-                                    {cardItem.Name}
+                                    {(cardItem as ScoringReportTeam).ChurchName}
                                 </p>
                                 {!isRoomReport && hasRanking && (
                                     <>
-                                        <p className="subtitle italic mt-0">{(cardItem as ScoringReportTeam).ChurchName}</p>
+                                        <p className="subtitle italic mt-0">{(cardItem as ScoringReportTeam).Name}</p>
                                         <div className="columns-4">
                                             <div className="text-center team-card-right-border">
                                                 <span className="text-lg font-bold">{ordinalWithSuffix((cardItem as ScoringReportTeam).Scores!.Rank)}{(cardItem as ScoringReportTeam).Scores!.IsTie ? '*' : ''}</span><br />
