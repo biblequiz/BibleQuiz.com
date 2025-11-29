@@ -7,7 +7,7 @@ interface FilterProps {
 export default function SearchFilters({ onFilterChange }: FilterProps) {
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
     const [selectedYears, setSelectedYears] = useState<string[]>([]);
-    
+
     // Refs to manage dropdown state
     const categoryDropdownRef = useRef<HTMLDetailsElement>(null);
     const yearDropdownRef = useRef<HTMLDetailsElement>(null);
@@ -19,7 +19,7 @@ export default function SearchFilters({ onFilterChange }: FilterProps) {
         const newCategories = selectedCategories.includes(cat)
             ? selectedCategories.filter(c => c !== cat)
             : [...selectedCategories, cat];
-        
+
         setSelectedCategories(newCategories);
         onFilterChange?.({ categories: newCategories, years: selectedYears });
     };
@@ -28,7 +28,7 @@ export default function SearchFilters({ onFilterChange }: FilterProps) {
         const newYears = selectedYears.includes(yr)
             ? selectedYears.filter(y => y !== yr)
             : [...selectedYears, yr];
-        
+
         setSelectedYears(newYears);
         onFilterChange?.({ categories: selectedCategories, years: newYears });
     };
@@ -50,8 +50,25 @@ export default function SearchFilters({ onFilterChange }: FilterProps) {
             }
         };
 
+        const handleDropdownToggle = (event: Event) => {
+            const details = event.target as HTMLDetailsElement;
+            if (details.hasAttribute('open')) {
+                details.classList.remove("mb-4");
+            }
+            else {
+                details.classList.add("mb-4");
+            }
+        };
+
+        categoryDropdownRef.current?.addEventListener('toggle', handleDropdownToggle);
+        yearDropdownRef.current?.addEventListener('toggle', handleDropdownToggle);
+
         document.addEventListener('mousedown', handleClickOutside);
-        return () => document.removeEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+            categoryDropdownRef.current?.removeEventListener('toggle', handleDropdownToggle);
+            yearDropdownRef.current?.removeEventListener('toggle', handleDropdownToggle);
+        };
     }, []);
 
     const getCategoryLabel = () => {
@@ -69,7 +86,7 @@ export default function SearchFilters({ onFilterChange }: FilterProps) {
     return (
         <div className="flex flex-wrap gap-2 items-top mt-2">
             {/* Category Dropdown with Multi-Select */}
-            <details className="dropdown border-none" ref={categoryDropdownRef}>
+            <details className="dropdown border-none mb-4" ref={categoryDropdownRef}>
                 <summary className="btn btn-sm btn-outline">
                     Category: <span className="font-bold ml-1">{getCategoryLabel()}</span>
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -112,7 +129,7 @@ export default function SearchFilters({ onFilterChange }: FilterProps) {
             </details>
 
             {/* Year Dropdown with Multi-Select */}
-            <details className="dropdown mt-0 border-none" ref={yearDropdownRef}>
+            <details className="dropdown mt-0 border-none mb-4" ref={yearDropdownRef}>
                 <summary className="btn btn-sm btn-outline">
                     Year: <span className="font-bold ml-1">{getYearLabel()}</span>
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
