@@ -229,9 +229,9 @@ export default function TeamOrRoomScheduleTabContent({
                         
                         if (isRoomReport) {
                             console.log("Room report match team:", matchTeam);
-                            const shortName = getTeamShortName(matchTeam!.ChurchName, matchTeam!.City, matchTeam!.State);
-                            //cellText.push(`"${matchTeam!.Name}"`);
-                            cellText.push(matchTeam!.Name+"("+(shortName)+")");
+                            //const shortName = getTeamShortName(matchTeam!.ChurchName, matchTeam!.City, matchTeam!.State);
+                            cellText.push(`"${matchTeam!.Name}"`);
+                            //cellText.push(matchTeam!.Name+"("+(shortName)+")");
                         }
 
                         if (isScheduleOnly) {
@@ -267,8 +267,9 @@ export default function TeamOrRoomScheduleTabContent({
                             if (!shouldHighlightFavorite && (favorites?.teamIds.has(otherTeam.Id) ?? false)) {
                                 shouldHighlightFavorite = true;
                             }
-                            const shortName = getTeamShortName(otherTeam.ChurchName, otherTeam.City,otherTeam.State);
-                            cellText.push(otherTeam.Name+"("+shortName +")");
+                            //const shortName = getTeamShortName(otherTeam.ChurchName, otherTeam.City,otherTeam.State);
+                            //cellText.push(otherTeam.Name+"("+shortName +")");
+                            cellText.push(otherTeam.Name);
                             if (!isScheduleOnly) {
                                 if (isLiveMatch) {
                                     if (!isRoomReport) {
