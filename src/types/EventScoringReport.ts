@@ -330,8 +330,6 @@ export abstract class ScoringReportItemBase<T extends ScoringReportScoreBase> {
      * Scores for the team or quizzer. If this is null, scores aren't enabled.
      */
     public readonly Scores!: T | null;
-
-    
 }
 
 /**
@@ -386,9 +384,6 @@ export class ScoringReportTeam extends ScoringReportItemBase<ScoringReportTeamSc
      * Id for the current match (if the team is actively playing in a match).
      */
     public readonly CurrentMatchId!: number | null;
-
-    public shortName: string = "Hello!";
-
 }
 
 /**
