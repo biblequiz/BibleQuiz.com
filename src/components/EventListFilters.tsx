@@ -1,178 +1,217 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useStore } from "@nanostores/react";
-import { sharedEventListFilter, type EventListFilterConfiguration } from "utils/SharedState";
+import { $eventFilters, type EventFilterConfiguration } from "utils/SharedState";
 import EventScopeBadge from './EventScopeBadge.tsx';
 import FontAwesomeIcon from './FontAwesomeIcon';
 
 import type { RegionInfo, DistrictInfo } from 'types/RegionAndDistricts';
+import FilterDropdownButton from './FilterDropdownButton.tsx';
+import { DataTypeHelpers } from 'utils/DataTypeHelpers.ts';
+import { set } from 'date-fns';
 
 interface Props {
   regions: RegionInfo[];
   districts: DistrictInfo[];
 }
 
+const FILTERS_STORAGE_KEY = "event-list-filters--";
+
+interface ScopeAndLabel {
+  scope: string;
+  label: string;
+}
+
 export default function EventListFilters({ regions, districts }: Props) {
 
-  const eventFilters: EventListFilterConfiguration = useStore(sharedEventListFilter as any);
+  const currentEventFilters = useStore($eventFilters);
 
-  const handleSearchTextChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const [scope, setScope] = useState<ScopeAndLabel | undefined>();
 
-    sharedEventListFilter.set({
-      searchText: e.target.value ?? null,
+  useEffect(() => {
+    if (!currentEventFilters.isLoaded) {
 
-      showNation: eventFilters?.showNation ?? true,
-      showRegion: eventFilters?.showRegion ?? true,
-      showDistrict: eventFilters?.showDistrict ?? true,
+      // Read the serialized instance.
+      const serialized = localStorage.getItem(FILTERS_STORAGE_KEY);
+      if (serialized) {
+        const deserialized = JSON.parse(serialized) as EventFilterConfiguration;
+        if (deserialized) {
+          $eventFilters.set(deserialized);
 
-      regionId: eventFilters?.regionId ?? null,
-      districtId: eventFilters?.districtId ?? null,
-    });
-  };
+          // Set the scope data based on the loaded filters.
+          if (deserialized.districtId) {
+            const { regionId, districtId } = deserialized;
+            setScope({
+              scope: `${regionId}_${districtId}`,
+              label: districts.find(d => d.id == districtId)?.name ?? "District"
+            });
+          }
+          else if (deserialized.regionId) {
+            const regionId = deserialized.regionId;
+            setScope({
+              scope: regionId,
+              label: regions.find(r => r.id == regionId)?.name ?? "Region"
+            });
+          }
+          else {
+            setScope(undefined);
+          }
+        }
+      }
 
-  const clearSearchText = () => {
+      // Mark the in-memory state as loaded.
+      $eventFilters.setKey("isLoaded", true);
 
-    sharedEventListFilter.set({
-      searchText: null,
+      // Listen for changes to the filter state and persist them.
+      $eventFilters.listen(
+        newFilters => {
+          const serialized = JSON.stringify(newFilters);
+          localStorage.setItem(FILTERS_STORAGE_KEY, serialized);
+        });
+    }
+  }, []);
 
-      showNation: eventFilters?.showNation ?? true,
-      showRegion: eventFilters?.showRegion ?? true,
-      showDistrict: eventFilters?.showDistrict ?? true,
-
-      regionId: eventFilters?.regionId ?? null,
-      districtId: eventFilters?.districtId ?? null,
-    });
-  };
-
-  const handleRegionOrDistrictChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+  const handleScopeChanged = (e: React.ChangeEvent<HTMLSelectElement>) => {
 
     const selectedValue = e.target.value;
 
-    let regionId: string | null = null;
-    let districtId: string | null = null;
+    let newRegionId: string | undefined = undefined;
+    let newDistrictId: string | undefined = undefined;
     if (selectedValue) {
       const parts: string[] = selectedValue.split('_');
       if (parts.length > 0) {
-        regionId = parts[0];
+        newRegionId = parts[0];
       }
 
       if (parts.length > 1) {
-        districtId = parts[1];
+        newDistrictId = parts[1];
       }
     }
+    
+    const newScope = newRegionId || newDistrictId
+      ? { scope: selectedValue, label: e.target.options[e.target.selectedIndex].text }
+      : undefined;
 
-    sharedEventListFilter.set({
-      searchText: eventFilters?.searchText ?? null,
+    setScope(newScope);
 
-      showNation: eventFilters?.showNation ?? true,
-      showRegion: eventFilters?.showRegion ?? true,
-      showDistrict: eventFilters?.showDistrict ?? true,
-
-      regionId: regionId,
-      districtId: districtId,
+    $eventFilters.set({
+      ...currentEventFilters,
+      regionId: newRegionId,
+      districtId: newDistrictId,
     });
   };
 
-  const handleScopeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleTypeChanged = (e: React.ChangeEvent<HTMLSelectElement>) => {
 
-    const isChecked = e.target.checked;
-    const checkedValue = e.target.value;
+    const selectedValue = e.target.value;
+    const newTypeFilter = DataTypeHelpers.isNullOrEmpty(selectedValue)
+      ? undefined
+      : selectedValue.toLowerCase() as "jbq" | "tbq";
 
-    sharedEventListFilter.set({
-      searchText: eventFilters?.searchText ?? null,
-
-      showNation: checkedValue == "nation" ? isChecked : (eventFilters?.showNation ?? true),
-      showRegion: checkedValue == "region" ? isChecked : (eventFilters?.showRegion ?? true),
-      showDistrict: checkedValue == "district" ? isChecked : (eventFilters?.showDistrict ?? true),
-
-      regionId: eventFilters?.regionId ?? null,
-      districtId: eventFilters?.districtId ?? null,
+    $eventFilters.set({
+      ...currentEventFilters,
+      typeFilter: newTypeFilter
     });
   };
 
-  let selectedScope: string;
-  if (eventFilters?.districtId) {
-    selectedScope = `${eventFilters.regionId}_${eventFilters.districtId}`;
-  }
-  else if (eventFilters?.regionId) {
-    selectedScope = eventFilters.regionId;
-  }
-  else {
-    selectedScope = "";
-  }
+  const handleClearFilters = (e: React.MouseEvent<HTMLButtonElement>) => {
+    setScope(undefined);
+    $eventFilters.set({
+      isLoaded: true
+    } as EventFilterConfiguration);
+  };
+
+  const { searchText, typeFilter } = currentEventFilters;
 
   return (
-    <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0">
+    <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pb-2 pt-0">
       <legend className="fieldset-legend">Event Search Criteria</legend>
-      <div>
+      <div className="mt-2">
         <label className="input w-lg mt-0">
           <FontAwesomeIcon icon="fas faSearch" classNames={["h-[1em]", "opacity-50"]} />
           <input
             type="text"
             className="grow"
             placeholder="Name or Location"
-            value={eventFilters?.searchText ?? ""}
-            onChange={handleSearchTextChange} />
-          {eventFilters?.searchText && eventFilters.searchText.length > 0 && (
-            <button className="btn btn-ghost btn-xs" onClick={clearSearchText}>
+            value={searchText}
+            onChange={e => {
+              const currentValue = e.target.value;
+              const newText = DataTypeHelpers.isNullOrEmpty(currentValue)
+                ? undefined
+                : currentValue;
+              $eventFilters.setKey("searchText", newText);
+            }} />
+          {(searchText?.length ?? 0) > 0 && (
+            <button
+              className="btn btn-ghost btn-xs"
+              onClick={() => $eventFilters.setKey("searchText", undefined)}>
               <FontAwesomeIcon icon="fas faCircleXmark" />
             </button>)}
         </label>
       </div>
-      <div>
-        <label className="select">
-          <span className="label">Scope</span>
-          <select onChange={handleRegionOrDistrictChange} defaultValue={selectedScope}>
-            <option value="">
-              Any Region or District
-            </option>
-            <option value="" disabled>
-              ----------------------
-            </option>
-            {regions.map((region) => (
-              <option key={`reg_${region.id}`} value={region.id}>
-                {region.name} Region
-              </option>
-            ))}
-            <option value="" disabled>
-              ----------------------
-            </option>
-            {districts.map((district) => (
-              <option key={`dis_${district.id}`} value={`${district.regionId}_${district.id}`}>
-                {district.name} District
-              </option>
-            ))}
-          </select>
-        </label>
-        <label className="ml-2">
-          <input
-            type="checkbox"
-            checked={!eventFilters || eventFilters.showDistrict}
-            className="checkbox checkbox-m"
-            name="filterScope"
-            value="district"
-            onChange={handleScopeChange}
-          />&nbsp;<EventScopeBadge scope="district" />
-        </label>
-        <label className="ml-2">
-          <input
-            type="checkbox"
-            checked={!eventFilters || eventFilters.showRegion}
-            className="checkbox checkbox-m"
-            name="filterScope"
-            value="region"
-            onChange={handleScopeChange}
-          />&nbsp;<EventScopeBadge scope="region" />
-        </label>
-        <label className="ml-2">
-          <input
-            type="checkbox"
-            checked={!eventFilters || eventFilters.showNation}
-            className="checkbox checkbox-m"
-            name="filterScope"
-            value="nation"
-            onChange={handleScopeChange}
-          />&nbsp;<EventScopeBadge scope="nation" />
-        </label>
+      <div className="flex flex-wrap gap-2 mt-0 mb-0">
+        <FilterDropdownButton
+          id="event-list-filters-who"
+          label={`Who: Teams in ${scope?.label ?? "All Districts"}`}
+          buttons={false}
+        >
+          <div>
+            <span>Display Teams in any of these:</span>
+            <div className="form-control">
+              <select
+                className="select select-sm"
+                onChange={handleScopeChanged}
+                value={scope?.scope}>
+                <option value="">
+                  All Districts
+                </option>
+                <option value="" disabled>
+                  ----------------------
+                </option>
+                {regions.map((region) => (
+                  <option key={`reg_${region.id}`} value={region.id}>
+                    {region.name} Region
+                  </option>
+                ))}
+                <option value="" disabled>
+                  ----------------------
+                </option>
+                {districts.map((district) => (
+                  <option key={`dis_${district.id}`} value={`${district.regionId}_${district.id}`}>
+                    {district.name} District
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
+        </FilterDropdownButton>
+        <FilterDropdownButton
+          id="event-list-filters-what"
+          label={`What: ${typeFilter ? `${typeFilter.toUpperCase()} Events Only` : "JBQ or TBQ Events"}`}
+          buttons={false}
+        >
+          <div>
+            <div className="form-control">
+              <select
+                className="select select-sm"
+                onChange={handleTypeChanged}
+                value={typeFilter}>
+                <option value="">
+                  JBQ and TBQ Events
+                </option>
+                <option value="jbq">JBQ Events Only</option>
+                <option value="tbq">TBQ Events Only</option>
+              </select>
+            </div>
+          </div>
+        </FilterDropdownButton>
+        {(searchText || scope || typeFilter) && (
+          <button
+            type="button"
+            className="btn btn-sm btn-outline mt-2"
+            onClick={handleClearFilters}>
+            <FontAwesomeIcon icon={`fas faFilterCircleXmark`} />
+            Clear Filters
+          </button>)}
       </div>
     </fieldset>);
 }

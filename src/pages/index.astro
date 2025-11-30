@@ -5,7 +5,10 @@ import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
 
 import { CardGrid, LinkCard } from "@astrojs/starlight/components";
 import LiveAndUpcomingApp from "components/apps/liveAndUpcoming/LiveAndUpcomingApp.astro";
-import EventListFilterButton, { EventFilterType } from "components/EventListFilterButton";
+import EventListFilters from "components/EventListFilters";
+
+import regions from "data/regions.json";
+import districts from "data/districts.json";
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "Home Page",
@@ -43,24 +46,11 @@ const frontmatter: StarlightPageFrontmatter = {
             </CardGrid>
         </div>
         <div class="m-0">
-            <EventListFilterButton
-                id="home-events-filter"
-                label="Type"
-                allLabel="JBQ and TBQ"
-                type={EventFilterType.MultiSelect}
-                possible={["jbq", "tbq"]}
-                selected={[]}
-                setSelected={updated=>{}}
-                client:load />
-            <EventListFilterButton
-                id="home-events-filter1"
-                label="Type"
-                allLabel="JBQ and TBQ"
-                type={EventFilterType.MultiSelect}
-                possible={["jbq", "tbq"]}
-                selected={[]}
-                setSelected={updated=>{}}
-                client:load />
+            <EventListFilters
+                regions={regions!}
+                districts={districts!}
+                client:load
+             />
         </div>
         <div class="mt-0" style="flex: 1">
             <LiveAndUpcomingApp />

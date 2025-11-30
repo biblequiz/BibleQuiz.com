@@ -1,4 +1,4 @@
-import { atom } from 'nanostores';
+import { atom, map } from 'nanostores';
 import Fuse, { type FuseResult } from "fuse.js";
 
 import type { QuizzerIndex } from 'types/QuizzerSearch';
@@ -101,7 +101,39 @@ export interface EventListFilterConfiguration {
     districtId: string | null;
 };
 
+/**
+ * Filters for event lists.
+ */
+export interface EventFilterConfiguration {
+
+    /**
+     * Value indicating whether the filter state has been loaded.
+     */
+    isLoaded: boolean;
+
+    /**
+     * Include only events where the name or location includes this text.
+     */
+    searchText: string | undefined;
+
+    /**
+     * Include only events where the region id matches this value.
+     */
+    regionId: string | undefined;
+
+    /**
+     * Include only events where the district id matches this value.
+     */
+    districtId: string | undefined;
+
+    /**
+     * Include only events of this type.
+     */
+    typeFilter: "jbq" | "tbq" | undefined;
+}
+
 export const sharedEventListFilter = atom<EventListFilterConfiguration | null>(null);
+export const $eventFilters = map({ isLoaded: false } as EventFilterConfiguration);
 
 /* Quizzer Search Dialog */
 export interface QuizzerSearchState {
@@ -133,4 +165,4 @@ export enum BlockerCallbackResult {
     ShowPrompt,
     Allow
 };
-export const sharedRequireBlockerCallback = atom<((nextLocation: string)=> BlockerCallbackResult) | null>(null);
+export const sharedRequireBlockerCallback = atom<((nextLocation: string) => BlockerCallbackResult) | null>(null);
