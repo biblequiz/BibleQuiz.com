@@ -1,10 +1,11 @@
 import { useState, useRef, useEffect } from 'react';
+import FontAwesomeIcon from './FontAwesomeIcon';
 
 interface FilterProps {
     onFilterChange?: (filters: { categories: string[]; years: string[] }) => void;
 }
 
-export default function SearchFilters({ onFilterChange }: FilterProps) {
+export default function EventListFilter({ onFilterChange }: FilterProps) {
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
     const [selectedYears, setSelectedYears] = useState<string[]>([]);
 
@@ -71,6 +72,24 @@ export default function SearchFilters({ onFilterChange }: FilterProps) {
         };
     }, []);
 
+    // Add state to track popover visibility
+    const [isCategoryPopoverOpen, setIsCategoryPopoverOpen] = useState(false);
+
+    // Add useEffect to listen for popover toggle events
+    useEffect(() => {
+        const popover = document.getElementById('popover-1');
+
+        const handleToggle = () => {
+            setIsCategoryPopoverOpen(popover?.matches(':popover-open') || false);
+        };
+
+        popover?.addEventListener('toggle', handleToggle);
+
+        return () => {
+            popover?.removeEventListener('toggle', handleToggle);
+        };
+    }, []);
+
     const getCategoryLabel = () => {
         if (selectedCategories.length === 0) return 'All';
         if (selectedCategories.length === 1) return selectedCategories[0];
@@ -85,15 +104,23 @@ export default function SearchFilters({ onFilterChange }: FilterProps) {
 
     return (
         <div className="flex flex-wrap gap-2 items-top mt-2">
-            {/* Category Dropdown with Multi-Select */}
-            <details className="dropdown border-none mb-4" ref={categoryDropdownRef}>
-                <summary className="btn btn-sm btn-outline">
-                    Category: <span className="font-bold ml-1">{getCategoryLabel()}</span>
-                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-                    </svg>
-                </summary>
-                <div className="dropdown-content menu bg-base-100 rounded-box z-[1] w-64 p-4 shadow mt-0">
+            <div className="mt-0">
+                {/* change popover-1 and --anchor-1 names. Use unique names for each dropdown */}
+                {/* For TSX uncomment the commented types below */}
+                <div className="indicator">
+                    <span className="indicator-item badge badge-primary badge-sm">+1</span>
+                    <button
+                        className="btn btn-sm btn-outline"
+                        popoverTarget="popover-1"
+                        style={{ anchorName: "--anchor-1" } as React.CSSProperties}>
+                        <FontAwesomeIcon icon={`fas ${isCategoryPopoverOpen ? "faCaretDown" : "faCaretRight"}`} />
+                        Category: <span className="font-bold ml-1">{getCategoryLabel()}</span>
+                    </button>
+                </div>
+                <div className="dropdown menu w-64 rounded-box bg-base-100 border-2 border-solidshadow-sm mt-1"
+                    popover="auto"
+                    id="popover-1"
+                    style={{ positionAnchor: "--anchor-1" } as React.CSSProperties}>
                     <div className="form-control">
                         {categories.map(cat => (
                             <label key={cat} className="label cursor-pointer justify-start gap-2">
@@ -126,50 +153,7 @@ export default function SearchFilters({ onFilterChange }: FilterProps) {
                         </button>
                     </div>
                 </div>
-            </details>
-
-            {/* Year Dropdown with Multi-Select */}
-            <details className="dropdown mt-0 border-none mb-4" ref={yearDropdownRef}>
-                <summary className="btn btn-sm btn-outline">
-                    Year: <span className="font-bold ml-1">{getYearLabel()}</span>
-                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-                    </svg>
-                </summary>
-                <div className="dropdown-content menu bg-base-100 rounded-box z-[1] w-64 p-4 shadow mt-0">
-                    <div className="form-control">
-                        {years.map(yr => (
-                            <label key={yr} className="label cursor-pointer justify-start gap-2">
-                                <input
-                                    type="checkbox"
-                                    className="checkbox checkbox-sm"
-                                    checked={selectedYears.includes(yr)}
-                                    onChange={() => toggleYear(yr)}
-                                />
-                                <span className="label-text">{yr}</span>
-                            </label>
-                        ))}
-                    </div>
-                    <div className="divider my-2"></div>
-                    <div className="flex gap-2">
-                        <button
-                            className="btn btn-xs btn-primary flex-1"
-                            onClick={() => closeDropdown(yearDropdownRef)}
-                        >
-                            Apply
-                        </button>
-                        <button
-                            className="btn btn-xs btn-ghost flex-1"
-                            onClick={() => {
-                                setSelectedYears([]);
-                                onFilterChange?.({ categories: selectedCategories, years: [] });
-                            }}
-                        >
-                            Clear
-                        </button>
-                    </div>
-                </div>
-            </details>
+            </div>
 
             {/* Clear All Filters Button */}
             {(selectedCategories.length > 0 || selectedYears.length > 0) && (

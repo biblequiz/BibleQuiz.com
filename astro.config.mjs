@@ -133,13 +133,11 @@ export default defineConfig({
                 "assets": path.resolve("./src/assets"),
                 "components": path.resolve("./src/components"),
                 "data": path.resolve("./src/data"),
-                "layouts": path.resolve("./src/layouts"),
                 "pages": path.resolve("./src/pages"),
                 "types": path.resolve("./src/types"),
                 "utils": path.resolve("./src/utils"),
             },
         },
-
         plugins: [tailwindcss()],
     },
 });
