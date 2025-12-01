@@ -2,6 +2,47 @@
 import type { EventTypeList } from "types/EventTypes";
 import LiveAndUpcomingRoot from "./LiveAndUpcomingRoot";
 import futureEvents from "data/generated/futureEvents.json";
+
+import regions from "data/regions.json";
+import districts from "data/districts.json";
+
+import path from "path";
+import { getAstroRootSourcePath, getFilesByWildcard, tryReadFileAsJson } from "utils/FileSystem";
+
+const fileUrl = import.meta.url;
+const rootSourcePath = await getAstroRootSourcePath(fileUrl);
+const patternSuffix = "/index.mdx";
+const seasonFiles = await getFilesByWildcard(
+    `${rootSourcePath}/content/docs`, 
+    "*/Seasons/[0-9][0-9][0-9][0-9]" + patternSuffix);
+
+let maxSeason = 0;
+for (const file of seasonFiles) {
+    const startPosition = file.lastIndexOf(
+        "/",
+        file.length - patternSuffix.length - 1,
+    );
+    if (startPosition >= 0) {
+        const parts = file
+            .substring(
+                startPosition + 1,
+                file.length - patternSuffix.length,
+            )
+            .split("/");
+        if (parts.length === 1) {
+            const fileSeason = parseInt(parts[0]);
+            if (fileSeason > maxSeason) {
+                maxSeason = fileSeason;
+            }
+        }
+    }
+}
+
+const maxSeasonPath = path.resolve(rootSourcePath, `data/generated/seasons/${maxSeason}/events.json`);
+const lastSeasonPath = path.resolve(rootSourcePath, `data/generated/seasons/${maxSeason - 1}/events.json`);
+
+const recentSeasonEvents = (await tryReadFileAsJson<EventTypeList>(maxSeasonPath)) ??
+    (await tryReadFileAsJson<EventTypeList>(lastSeasonPath));
 ---
 
 <div id="generator-fallback" class="flex justify-center items-center">
@@ -9,7 +50,11 @@ import futureEvents from "data/generated/futureEvents.json";
     Live and Upcoming Events ...
 </div>
 <LiveAndUpcomingRoot
-    client:only="react"
-    events={(futureEvents as any) as EventTypeList}
+    client:load
+    regions={regions}
+    districts={districts}
+    recentSeasonEvents={recentSeasonEvents}
+    futureEvents={(futureEvents as any) as EventTypeList}
     loadingElementId="generator-fallback"
 />
+

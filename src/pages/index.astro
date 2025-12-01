@@ -5,10 +5,6 @@ import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
 
 import { CardGrid, LinkCard } from "@astrojs/starlight/components";
 import LiveAndUpcomingApp from "components/apps/liveAndUpcoming/LiveAndUpcomingApp.astro";
-import EventListFilters from "components/EventListFilters";
-
-import regions from "data/regions.json";
-import districts from "data/districts.json";
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "Home Page",
@@ -44,13 +40,6 @@ const frontmatter: StarlightPageFrontmatter = {
                     </div>`}
                 />
             </CardGrid>
-        </div>
-        <div class="m-0">
-            <EventListFilters
-                regions={regions!}
-                districts={districts!}
-                client:load
-             />
         </div>
         <div class="mt-0" style="flex: 1">
             <LiveAndUpcomingApp />

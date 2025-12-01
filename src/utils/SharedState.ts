@@ -1,4 +1,4 @@
-import { atom, map } from 'nanostores';
+import { atom } from 'nanostores';
 import Fuse, { type FuseResult } from "fuse.js";
 
 import type { QuizzerIndex } from 'types/QuizzerSearch';
@@ -90,17 +90,6 @@ export interface PrintConfiguration {
 
 export const sharedPrintConfiguration = atom<PrintConfiguration | null>(null);
 
-/* Event List Filters */
-export interface EventListFilterConfiguration {
-    searchText: string | null;
-    showNation: boolean;
-    showRegion: boolean;
-    showDistrict: boolean;
-
-    regionId: string | null;
-    districtId: string | null;
-};
-
 /**
  * Filters for event lists.
  */
@@ -130,10 +119,19 @@ export interface EventFilterConfiguration {
      * Include only events of this type.
      */
     typeFilter: "jbq" | "tbq" | undefined;
+
+    /**
+     * Temporary override for the type filter from the URL parameter. This won't be persisted.
+     */
+    typeFilterOverride: "jbq" | "tbq" | undefined;
+
+    /**
+     * Include only events in this season.
+     */
+    season: number | undefined;
 }
 
-export const sharedEventListFilter = atom<EventListFilterConfiguration | null>(null);
-export const $eventFilters = map({ isLoaded: false } as EventFilterConfiguration);
+export const $eventFilters = atom<EventFilterConfiguration>({ isLoaded: false } as EventFilterConfiguration);
 
 /* Quizzer Search Dialog */
 export interface QuizzerSearchState {

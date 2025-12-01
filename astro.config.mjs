@@ -48,10 +48,6 @@ export default defineConfig({
             customCss: ["./src/styles/custom.css", "./src/styles/global.css"],
             sidebar: [
                 {
-                    label: "Upcoming & Live Events",
-                    slug: "upcoming-events",
-                },
-                {
                     label: "Apps",
                     slug: "apps",
                 },

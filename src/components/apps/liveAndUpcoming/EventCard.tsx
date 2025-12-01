@@ -3,7 +3,7 @@ import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { EventInfo } from "types/EventTypes";
 
 interface Props {
-    info?: EventWrapper;
+    info: EventWrapper;
     isLive: boolean;
     showLiveBadge?: boolean;
 }
@@ -18,11 +18,9 @@ interface EventWrapper {
 
 export default function EventCard({ info, isLive, showLiveBadge = false }: Props) {
 
-    const cardLink = info
-        ? ((isLive || info.isNationals || !info.isRegistrationOpen)
-            ? `/${info.type}/seasons/${info.event.season}/${info.urlSlug}`
-            : `https://registration.biblequiz.com/#/Registration/${info.event.id}`)
-        : "/upcoming-events/";
+    const cardLink = (isLive || info.isNationals || !info.isRegistrationOpen)
+        ? `/${info.type}/seasons/${info.event.season}/${info.urlSlug}`
+        : `https://registration.biblequiz.com/#/Registration/${info.event.id}`;
 
     let locationLabel: string | null = null;
     if (info && info.event) {

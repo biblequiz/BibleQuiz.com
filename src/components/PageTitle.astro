@@ -64,6 +64,16 @@ if (eventType && showSeasonButtons) {
         }
     }
 }
+
+let resolvedEventType = eventType;
+if (!resolvedEventType) {
+    const path = new URL(Astro.request.url).pathname;
+    if (path.startsWith("/jbq/")) {
+        resolvedEventType = "jbq";
+    } else if (path.startsWith("/tbq/")) {
+        resolvedEventType = "tbq";
+    }
+}
 ---
 
 {hidePageTitle && <div id="_top_hide_parent_id" />}
@@ -73,11 +83,11 @@ if (eventType && showSeasonButtons) {
             id="_top"
             class={`page-title ${hidePageTitleOnPrint ? "hide-on-print" : ""}`}
         >
-            {eventType && (
+            {resolvedEventType && (
                 <div class="align-top shrink-0">
                     <img
-                        src={`/assets/logos/${eventType}/${eventType}-logo.png`}
-                        alt={eventType}
+                        src={`/assets/logos/${resolvedEventType}/${resolvedEventType}-logo.png`}
+                        alt={resolvedEventType}
                         width="72"
                         height="72"
                         class="event-icon"
