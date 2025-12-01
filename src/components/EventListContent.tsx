@@ -11,17 +11,22 @@ interface Props {
     events: EventTypeList;
     loadingElementId: string;
     containerElementId: string;
+    excludeMissingDates: boolean;
 }
 
 interface EventItem {
     info: EventInfo;
     type: string;
     urlSlug: string;
-    sortDate: Date;
+    sortDate?: Date;
     isNationals: boolean;
 }
 
-export default function EventListContent({ events, loadingElementId, containerElementId }: Props) {
+export default function EventListContent({
+    events,
+    loadingElementId,
+    containerElementId,
+    excludeMissingDates }: Props) {
 
     const eventFilters = useStore($eventFilters);
 
@@ -45,13 +50,15 @@ export default function EventListContent({ events, loadingElementId, containerEl
                         continue;
                     }
 
-                    if (!event.startDate || !event.endDate) {
+                    if (excludeMissingDates && (!event.startDate || !event.endDate)) {
                         continue;
                     }
 
                     allEvents.push({
                         info: event,
-                        sortDate: DataTypeHelpers.parseDateOnly(event.startDate)!,
+                        sortDate: excludeMissingDates
+                            ? DataTypeHelpers.parseDateOnly(event.startDate)!
+                            : undefined,
                         type: type,
                         urlSlug: urlSlug,
                         isNationals: urlSlug === "nationals/results/",
@@ -59,8 +66,11 @@ export default function EventListContent({ events, loadingElementId, containerEl
                 }
             }
 
-            // Sort the lists.
-            return allEvents.sort((a, b) => b.sortDate.getTime() - a.sortDate.getTime());
+            if (excludeMissingDates) {
+                return allEvents.sort((a, b) => b.sortDate!.getTime() - a.sortDate!.getTime());
+            }
+
+            return allEvents;
         }, [events]);
 
     // Hide the loading element once the page is loaded.

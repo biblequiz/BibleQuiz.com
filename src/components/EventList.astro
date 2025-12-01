@@ -16,17 +16,14 @@ interface Props {
     includeRecent?: boolean;
 }
 
+const { season, type, source } = Astro.props as Props;
 
-const { 
-    season,
-    type,
-    source } = Astro.props as Props;
-
-const loadEventsFile = async (filePath: string): Promise<EventTypeList | null> => {
+const loadEventsFile = async (
+    filePath: string,
+): Promise<EventTypeList | null> => {
     const events = await tryReadFileAsJson<EventTypeList>(
-        path.resolve(
-            await getAstroRootSourcePath(import.meta.url),
-            filePath));
+        path.resolve(await getAstroRootSourcePath(import.meta.url), filePath),
+    );
 
     if (type && events) {
         const keys = Object.keys(events || []);
@@ -61,6 +58,7 @@ const events: EventTypeList | null =
         events={events || {}}
         loadingElementId="events-fallback"
         containerElementId="events-list"
+        excludeMissingDates={source === "generated"}
         client:only="react"
     />
 </div>
