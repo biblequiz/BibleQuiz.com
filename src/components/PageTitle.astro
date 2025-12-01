@@ -137,14 +137,11 @@ if (!resolvedEventType) {
 <script>
     const hideParentElement = document.getElementById("_top_hide_parent_id");
     if (hideParentElement) {
-        const contentPanel = hideParentElement.closest("div.content-panel") as HTMLDivElement;
+        const contentPanel = hideParentElement.closest(
+            "div.content-panel",
+        ) as HTMLDivElement;
         if (contentPanel) {
             contentPanel.style.display = "none";
-
-            const mainFrame = contentPanel.closest("div.main-frame") as HTMLDivElement;
-            if (mainFrame) {
-                mainFrame.style.paddingTop = "56px";
-            }
         }
     }
 
