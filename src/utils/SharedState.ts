@@ -124,11 +124,6 @@ export interface EventFilterConfiguration {
      * Temporary override for the type filter from the URL parameter. This won't be persisted.
      */
     typeFilterOverride: "jbq" | "tbq" | undefined;
-
-    /**
-     * Include only events in this season.
-     */
-    season: number | undefined;
 }
 
 export const $eventFilters = atom<EventFilterConfiguration>({ isLoaded: false } as EventFilterConfiguration);

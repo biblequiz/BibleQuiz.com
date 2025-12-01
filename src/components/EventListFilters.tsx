@@ -10,7 +10,6 @@ import type { EventInfo } from 'types/EventTypes';
 interface Props {
   regions: RegionInfo[];
   districts: DistrictInfo[];
-  seasons?: number[];
   allowTypeFilter?: boolean;
 }
 
@@ -73,14 +72,13 @@ export function matchesFilter(filter: EventFilterConfiguration, event: EventInfo
   return true;
 }
 
-export default function EventListFilters({ regions, districts, seasons, allowTypeFilter }: Props) {
+export default function EventListFilters({ regions, districts, allowTypeFilter }: Props) {
 
   const currentEventFilters = useStore($eventFilters);
 
   const [searchText, setSearchText] = useState<string | undefined>(undefined);
   const [typeFilter, setTypeFilter] = useState<string | undefined>(undefined);
   const [scope, setScope] = useState<string | undefined>(undefined);
-  const [seasonFilter, setSeasonFilter] = useState<number | undefined>(seasons ? seasons[1] : undefined);
   const [typeFilterOverride, setTypeFilterOverride] = useState<string | undefined>(undefined);
 
   useEffect(() => {
@@ -117,7 +115,6 @@ export default function EventListFilters({ regions, districts, seasons, allowTyp
         // Set the values from the deserialized instance.
         setSearchText(deserialized.searchText);
         setTypeFilter(deserialized.typeFilter);
-        setSeasonFilter(deserialized.season);
         setTypeFilterOverride(newTypeFilterOverride);
 
         if (deserialized.districtId) {
@@ -179,37 +176,20 @@ export default function EventListFilters({ regions, districts, seasons, allowTyp
     });
   };
 
-  const handleSeasonChanged = (e: React.ChangeEvent<HTMLSelectElement>) => {
-
-    const selectedValue = e.target.value;
-    const newSeasonFilter = DataTypeHelpers.isNullOrEmpty(selectedValue)
-      ? undefined
-      : parseInt(selectedValue);
-
-    setSeasonFilter(newSeasonFilter);
-
-    setSharedStateAndPersist({
-      ...currentEventFilters,
-      season: newSeasonFilter
-    });
-  };
-
   const handleClearFilters = () => {
     setSearchText(undefined);
     setTypeFilter(undefined);
     setScope(undefined);
-    setSeasonFilter(seasons ? seasons[1] : undefined);
     setSharedStateAndPersist({
       isLoaded: true,
       searchText: undefined,
       regionId: undefined,
       districtId: undefined,
       typeFilter: undefined,
-      season: seasons ? seasons[1] : undefined,
     } as EventFilterConfiguration);
   };
 
-  const hasFilters = (searchText || scope || typeFilter || (seasons && seasonFilter != seasons[1]));
+  const hasFilters = (searchText || scope || typeFilter);
 
   return (
     <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-2 pt-0">
@@ -217,8 +197,8 @@ export default function EventListFilters({ regions, districts, seasons, allowTyp
         <FontAwesomeIcon icon="fas faSearch" />
         Filter Events
       </legend>
-      <div className="w-full mt-0">
-        <label className="input input-sm mt-0 w-full max-w-2xl">
+      <div className="flex flex-wrap gap-2 mt-0 mb-0">
+        <label className="input input-sm mt-0 max-w-2xl">
           <FontAwesomeIcon icon="fas faSearch" classNames={["h-[1em]", "opacity-50"]} />
           <input
             type="text"
@@ -249,8 +229,6 @@ export default function EventListFilters({ regions, districts, seasons, allowTyp
               <FontAwesomeIcon icon="fas faCircleXmark" />
             </button>)}
         </label>
-      </div>
-      <div className="flex flex-wrap gap-2 mt-0 mb-0">
         <select
           className="select select-sm mt-0 w-auto"
           onChange={handleScopeChanged}
@@ -285,17 +263,6 @@ export default function EventListFilters({ regions, districts, seasons, allowTyp
             </option>
             <option value="jbq">JBQ Events Only</option>
             <option value="tbq">TBQ Events Only</option>
-          </select>)}
-        {seasons && (
-          <select
-            className="select select-sm mt-0 w-auto"
-            onChange={handleSeasonChanged}
-            value={seasonFilter ?? ""}>
-            {seasons.map((season) => (
-              <option key={`season_${season}`} value={season}>
-                {season} Season
-              </option>
-            ))}
           </select>)}
       </div>
       {hasFilters && (
