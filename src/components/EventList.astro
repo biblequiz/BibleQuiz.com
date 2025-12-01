@@ -3,211 +3,62 @@ import EventListFilters from "./EventListFilters.tsx";
 import path from "path";
 import { getAstroRootSourcePath, tryReadFileAsJson } from "utils/FileSystem";
 import type { EventTypeList, EventList } from "types/EventTypes";
-import type { RegionInfo, DistrictInfo } from "types/RegionAndDistricts";
-import FontAwesomeTabs from "./FontAwesomeTabs.astro";
-import EventListTabItem from "./EventListTabItem.astro";
+import regions from "data/regions.json";
+import districts from "data/districts.json";
+import EventListContent from "./EventListContent";
 
 interface Props {
-    season: number | "future";
+    season: number;
     type: "tbq" | "jbq" | "both";
     source?: "generated" | "imported" | "both" | null;
-    hideFilters?: boolean;
+    includeLive?: boolean;
+    includeUpcoming?: boolean;
+    includeRecent?: boolean;
 }
 
-const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
+const { season, type, source } = Astro.props as Props;
 
-const { season, type, source, hideFilters } = Astro.props as Props;
+const loadEventsFile = async (
+    filePath: string,
+): Promise<EventTypeList | null> => {
+    const events = await tryReadFileAsJson<EventTypeList>(
+        path.resolve(await getAstroRootSourcePath(import.meta.url), filePath),
+    );
 
-const importedEvents: EventTypeList | null =
-    source === "generated"
-        ? null
-        : await tryReadFileAsJson<EventTypeList>(
-              path.resolve(
-                  rootSourcePath,
-                  `data/imported/seasons/${season}.json`,
-              ),
-          );
-
-const generatedEvents: EventTypeList | null =
-    source === "imported"
-        ? null
-        : await tryReadFileAsJson<EventTypeList>(
-              path.resolve(
-                  rootSourcePath,
-                  "data/generated",
-                  season === "future"
-                      ? "futureEvents.json"
-                      : `seasons/${season}/events.json`,
-              ),
-          );
-
-const regions = hideFilters
-    ? null
-    : await tryReadFileAsJson<RegionInfo[]>(
-          path.resolve(rootSourcePath, "data/regions.json"),
-      );
-
-const districts = hideFilters
-    ? null
-    : await tryReadFileAsJson<DistrictInfo[]>(
-          path.resolve(rootSourcePath, "data/districts.json"),
-      );
-
-const jbqTabEvents: EventList | null =
-    type === "both" && generatedEvents
-        ? (generatedEvents["jbq"] as EventList)
-        : null;
-const tbqTabEvents: EventList | null =
-    type === "both" && generatedEvents
-        ? (generatedEvents["tbq"] as EventList)
-        : null;
-
-const showTypeEvents = type !== "both";
-const regionalsTabEvents: EventList | null = showTypeEvents ? {} : null;
-const districtTabEvents: EventList | null = showTypeEvents ? {} : null;
-const tournamentTabEvents: EventList | null = showTypeEvents ? {} : null;
-const reportsTabEvents: EventList | null = showTypeEvents ? {} : null;
-const otherTabEvents: EventList | null = showTypeEvents ? {} : null;
-
-const hasAtLeastOneEvent =
-    jbqTabEvents ||
-    tbqTabEvents ||
-    (generatedEvents && generatedEvents[type]) ||
-    (importedEvents && importedEvents[type]);
-
-if (showTypeEvents) {
-    const allEvents = [generatedEvents, importedEvents];
-    for (const sourceEvents of allEvents) {
-        if (!sourceEvents) {
-            continue;
-        }
-
-        const typeEvents = sourceEvents[type];
-        if (!typeEvents) {
-            continue;
-        }
-
-        for (let slug in typeEvents) {
-            let tabEvents: EventList | null;
-            if (slug.startsWith("regionals/")) {
-                tabEvents = regionalsTabEvents;
-            } else if (slug.startsWith("districts/")) {
-                tabEvents = districtTabEvents;
-            } else if (slug.startsWith("tournaments/")) {
-                tabEvents = tournamentTabEvents;
-            } else if (slug.startsWith("reports/")) {
-                tabEvents = reportsTabEvents;
-            } else if (slug.startsWith("other/")) {
-                tabEvents = otherTabEvents;
-            } else {
-                continue; // No matched event.
+    if (type && events) {
+        const keys = Object.keys(events || []);
+        for (const key of keys) {
+            if (type !== key) {
+                delete events[key];
             }
-
-            if (!tabEvents) {
-                continue;
-            }
-
-            tabEvents[slug] = typeEvents[slug];
         }
     }
-}
+
+    return events;
+};
+
+const events: EventTypeList | null =
+    source === "imported"
+        ? await loadEventsFile(`data/imported/seasons/${season}.json`)
+        : await loadEventsFile(`data/generated/seasons/${season}/events.json`);
 ---
 
-<div>
-    {
-        !hideFilters && (
-            <EventListFilters
-                regions={regions!}
-                districts={districts!}
-                client:only="react"
-            />
-        )
-    }
-    <div class="mt-4" id="event-list-container">
-        {
-            hasAtLeastOneEvent && (
-                <FontAwesomeTabs syncKey={`events-${season}-${type}`}>
-                    <EventListTabItem
-                        label="Junior Bible Quiz (JBQ)"
-                        id="jbq"
-                        type="jbq"
-                        events={jbqTabEvents}
-                        hiddenFilters={hideFilters ?? false}
-                    />
-                    <EventListTabItem
-                        label="Teen Bible Quiz (TBQ)"
-                        id="tbq"
-                        type="tbq"
-                        events={tbqTabEvents}
-                        hiddenFilters={hideFilters ?? false}
-                    />
-                    <EventListTabItem
-                        label="Regional Finals"
-                        id="regionals"
-                        type={type}
-                        events={regionalsTabEvents}
-                        hiddenFilters={hideFilters ?? false}
-                    />
-                    <EventListTabItem
-                        label="District Finals"
-                        id="districts"
-                        type={type}
-                        events={districtTabEvents}
-                        hiddenFilters={hideFilters ?? false}
-                    />
-                    <EventListTabItem
-                        label="Tournaments"
-                        id="tournaments"
-                        type={type}
-                        events={tournamentTabEvents}
-                        hiddenFilters={hideFilters ?? false}
-                    />
-                    <EventListTabItem
-                        label="Reports"
-                        id="reports"
-                        type={type}
-                        events={reportsTabEvents}
-                        hiddenFilters={hideFilters ?? false}
-                    />
-                    <EventListTabItem
-                        label="Other Competitions"
-                        id="other"
-                        type={type}
-                        events={otherTabEvents}
-                        hiddenFilters={hideFilters ?? false}
-                    />
-                </FontAwesomeTabs>
-            )
-        }
-        {
-            !hasAtLeastOneEvent && (
-                <p class="text-center text-muted italic">
-                    No events found for this season yet. Please check back
-                    later.
-                </p>
-            )
-        }
-    </div>
+<div id="events-fallback" class="flex justify-center items-center">
+    <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading the
+    Loading Events ...
 </div>
-
-<script>
-    window.addEventListener("load", () => {
-        const container = document.getElementById("event-list-container");
-        if (container) {
-            const tabLinks = container.querySelectorAll(`li > a[role="tab"]`);
-            if (tabLinks) {
-                const urlParameters = new URLSearchParams(
-                    window.location.search,
-                );
-                const selectTypeFromUrl = urlParameters.get("type");
-                if (selectTypeFromUrl) {
-                    if (selectTypeFromUrl === "tbq") {
-                        (tabLinks[1] as HTMLAnchorElement).click();
-                    } else {
-                        (tabLinks[0] as HTMLAnchorElement).click();
-                    }
-                }
-            }
-        }
-    });
-</script>
+<div id="events-list" class="mt-0" style="display: none;">
+    <EventListFilters
+        regions={regions}
+        districts={districts}
+        allowTypeFilter={!type}
+        client:load
+    />
+    <EventListContent
+        events={events || {}}
+        loadingElementId="events-fallback"
+        containerElementId="events-list"
+        excludeMissingDates={source === "generated"}
+        client:only="react"
+    />
+</div>

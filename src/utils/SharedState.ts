@@ -90,18 +90,48 @@ export interface PrintConfiguration {
 
 export const sharedPrintConfiguration = atom<PrintConfiguration | null>(null);
 
-/* Event List Filters */
-export interface EventListFilterConfiguration {
-    searchText: string | null;
-    showNation: boolean;
-    showRegion: boolean;
-    showDistrict: boolean;
+/**
+ * Filters for event lists.
+ */
+export interface EventFilterConfiguration {
 
-    regionId: string | null;
-    districtId: string | null;
-};
+    /**
+     * Value indicating whether the filter state has been loaded.
+     */
+    isLoaded: boolean;
 
-export const sharedEventListFilter = atom<EventListFilterConfiguration | null>(null);
+    /**
+     * Include only events where the name or location includes this text.
+     */
+    searchText: string | undefined;
+
+    /**
+     * Include only events where the region id matches this value.
+     */
+    regionId: string | undefined;
+
+    /**
+     * Include only events where the district id matches this value.
+     */
+    districtId: string | undefined;
+
+    /**
+     * Include only events of this type.
+     */
+    typeFilter: "jbq" | "tbq" | undefined;
+
+    /**
+     * Temporary override for the type filter from the URL parameter. This won't be persisted.
+     */
+    typeFilterOverride: "jbq" | "tbq" | undefined;
+
+    /**
+     * Include only events in this season.
+     */
+    season: number | undefined;
+}
+
+export const $eventFilters = atom<EventFilterConfiguration>({ isLoaded: false } as EventFilterConfiguration);
 
 /* Quizzer Search Dialog */
 export interface QuizzerSearchState {
@@ -133,4 +163,4 @@ export enum BlockerCallbackResult {
     ShowPrompt,
     Allow
 };
-export const sharedRequireBlockerCallback = atom<((nextLocation: string)=> BlockerCallbackResult) | null>(null);
+export const sharedRequireBlockerCallback = atom<((nextLocation: string) => BlockerCallbackResult) | null>(null);

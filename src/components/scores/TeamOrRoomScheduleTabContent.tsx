@@ -38,41 +38,39 @@ function ordinalWithSuffix(number: number): string {
 }
 
 /**
-* Create a Acronym for the ChurchName 
-*/
+* Create a Acronym for the ChurchName
 function generateChurchAcronym(churchName: string, maxLength: number = 3): string {
     if (!churchName) return '';
-        
+
     const words = churchName
         .toUpperCase()
         .replace(/\b(AND|THE|OF|IN|ON|AT|FOR|WITH|BY|CH|ST|SAINT)\b/gi, '')
         .split(/\s+/)
         .filter((word: string) => word.length > 0 && /[A-Z]/i.test(word.charAt(0)));
-        
+
     if (words.length === 0) {
-          // Fallback for single word or unusual names
+        // Fallback for single word or unusual names
         return churchName
-        .replace(/[^A-Z]/gi, '')
-        .substring(0, maxLength)
-        .toUpperCase();
+            .replace(/[^A-Z]/gi, '')
+            .substring(0, maxLength)
+            .toUpperCase();
     }
-        
+
     return words
         .slice(0, maxLength)
         .map(word => word.charAt(0))
         .join('');
-} 
+}*/
 
-    /**
-     * Get a short name for the church including acronym, city, and state.
-     */
-function getTeamShortName(churchName:string, city:string, state:string): string {
+/**
+ * Get a short name for the church including acronym, city, and state.
+function getTeamShortName(churchName: string, city: string, state: string): string {
     let parts: string[] = [];
-        
-    console.log("Generating acronym for church:", churchName,city,state);
-    let acronym = generateChurchAcronym(churchName,4);
+
+    console.log("Generating acronym for church:", churchName, city, state);
+    let acronym = generateChurchAcronym(churchName, 4);
     if (acronym) {
-       parts.push(acronym);
+        parts.push(acronym);
     }
     if (city) {
         parts.push(city);
@@ -81,7 +79,7 @@ function getTeamShortName(churchName:string, city:string, state:string): string 
     //    parts.push(state);
     //}
     return parts.join(", ");
-} 
+}*/
 
 export default function TeamOrRoomScheduleTabContent({
     type,
@@ -96,7 +94,7 @@ export default function TeamOrRoomScheduleTabContent({
     const scrollToViewElementId = `schedule_${type}_scroll_elem`;
 
     const reportState = useStore(sharedEventScoringReportState);
-    
+
     event ??= reportState?.report || undefined;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
@@ -226,7 +224,7 @@ export default function TeamOrRoomScheduleTabContent({
                         if (null != resolvedMatch.PlayoffIndex) {
                             cellText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
                         }
-                        
+
                         if (isRoomReport) {
                             console.log("Room report match team:", matchTeam);
                             //const shortName = getTeamShortName(matchTeam!.ChurchName, matchTeam!.City, matchTeam!.State);

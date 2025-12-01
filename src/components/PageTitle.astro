@@ -53,27 +53,41 @@ if (eventType && showSeasonButtons) {
     }
 
     if (maxSeason) {
-        if (await fileExists(`${rootSeasonsForType}/${maxSeason - 1}/results.mdx`)) {
+        if (
+            await fileExists(
+                `${rootSeasonsForType}/${maxSeason - 1}/results.mdx`,
+            )
+        ) {
             currentSeasonLink = `/${eventType}/seasons/${maxSeason - 1}/results/`;
-        }
-        else {
+        } else {
             currentSeasonLink = `/${eventType}/seasons/${maxSeason - 1}/`;
         }
     }
 }
+
+let resolvedEventType = eventType;
+if (!resolvedEventType) {
+    const path = new URL(Astro.request.url).pathname;
+    if (path.startsWith("/jbq/")) {
+        resolvedEventType = "jbq";
+    } else if (path.startsWith("/tbq/")) {
+        resolvedEventType = "tbq";
+    }
+}
 ---
 
+{hidePageTitle && <div id="_top_hide_parent_id" />}
 {
     !hidePageTitle && (
         <h1
             id="_top"
             class={`page-title ${hidePageTitleOnPrint ? "hide-on-print" : ""}`}
         >
-            {eventType && (
+            {resolvedEventType && (
                 <div class="align-top shrink-0">
                     <img
-                        src={`/assets/logos/${eventType}/${eventType}-logo.png`}
-                        alt={eventType}
+                        src={`/assets/logos/${resolvedEventType}/${resolvedEventType}-logo.png`}
+                        alt={resolvedEventType}
                         width="72"
                         height="72"
                         class="event-icon"
@@ -121,6 +135,19 @@ if (eventType && showSeasonButtons) {
 }
 
 <script>
+    const hideParentElement = document.getElementById("_top_hide_parent_id");
+    if (hideParentElement) {
+        const contentPanel = hideParentElement.closest("div.content-panel") as HTMLDivElement;
+        if (contentPanel) {
+            contentPanel.style.display = "none";
+
+            const mainFrame = contentPanel.closest("div.main-frame") as HTMLDivElement;
+            if (mainFrame) {
+                mainFrame.style.paddingTop = "56px";
+            }
+        }
+    }
+
     import { PrintDialogModalId } from "./scores/PrintDialogContent";
     const button: HTMLElement = document.getElementById(
         `${PrintDialogModalId}-button`,

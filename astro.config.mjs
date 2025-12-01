@@ -48,10 +48,6 @@ export default defineConfig({
             customCss: ["./src/styles/custom.css", "./src/styles/global.css"],
             sidebar: [
                 {
-                    label: "Upcoming & Live Events",
-                    slug: "upcoming-events",
-                },
-                {
                     label: "Apps",
                     slug: "apps",
                 },
@@ -133,13 +129,11 @@ export default defineConfig({
                 "assets": path.resolve("./src/assets"),
                 "components": path.resolve("./src/components"),
                 "data": path.resolve("./src/data"),
-                "layouts": path.resolve("./src/layouts"),
                 "pages": path.resolve("./src/pages"),
                 "types": path.resolve("./src/types"),
                 "utils": path.resolve("./src/utils"),
             },
         },
-
         plugins: [tailwindcss()],
     },
 });
