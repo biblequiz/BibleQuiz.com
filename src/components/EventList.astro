@@ -1,10 +1,8 @@
 ---
 import EventListFilters from "./EventListFilters.tsx";
 import path from "path";
-import { getAstroRootSourcePath, getFilesByWildcard, tryReadFileAsJson } from "utils/FileSystem";
-import type { EventTypeList, EventList, EventInfo } from "types/EventTypes";
-import FontAwesomeTabs from "./FontAwesomeTabs.astro";
-import EventListTabItem from "./EventListTabItem.astro";
+import { getAstroRootSourcePath, tryReadFileAsJson } from "utils/FileSystem";
+import type { EventTypeList, EventList } from "types/EventTypes";
 import regions from "data/regions.json";
 import districts from "data/districts.json";
 import EventListContent from "./EventListContent";

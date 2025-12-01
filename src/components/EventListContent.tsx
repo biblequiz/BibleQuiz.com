@@ -2,7 +2,7 @@ import { useStore } from "@nanostores/react";
 import type { EventInfo, EventTypeList } from 'types/EventTypes.ts';
 import { DataTypeHelpers } from "utils/DataTypeHelpers.ts";
 import EventCard from "./apps/liveAndUpcoming/EventCard.tsx";
-import { $eventFilters, type EventFilterConfiguration } from "utils/SharedState.ts";
+import { $eventFilters } from "utils/SharedState.ts";
 import { useEffect, useMemo } from "react";
 import { matchesFilter } from "./EventListFilters.tsx";
 import FontAwesomeIcon from "./FontAwesomeIcon.tsx";
