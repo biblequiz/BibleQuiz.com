@@ -50,7 +50,7 @@ const recentSeasonEvents = (await tryReadFileAsJson<EventTypeList>(maxSeasonPath
     Live and Upcoming Events ...
 </div>
 <LiveAndUpcomingRoot
-    client:load
+    client:only="react"
     regions={regions}
     districts={districts}
     recentSeasonEvents={recentSeasonEvents}
