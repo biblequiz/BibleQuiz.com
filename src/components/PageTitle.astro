@@ -136,22 +136,12 @@ if (!resolvedEventType) {
 
 <script>
     const hideParentElement = document.getElementById("_top_hide_parent_id");
-    const parentElement = document.getElementById("_top");
-    if (hideParentElement || parentElement) {
-        const contentPanel = (hideParentElement || parentElement)!.closest(
+    if (hideParentElement) {
+        const contentPanel = hideParentElement.closest(
             "div.content-panel",
         ) as HTMLDivElement;
         if (contentPanel) {
-            if (hideParentElement) {
-                contentPanel.style.display = "none";
-            }
-
-            const mainFrame = contentPanel.closest(
-                "div.main-frame",
-            ) as HTMLDivElement;
-            if (mainFrame) {
-                mainFrame.style.paddingTop = "56px";
-            }
+            contentPanel.style.display = "none";
         }
     }
 

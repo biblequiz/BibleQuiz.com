@@ -319,6 +319,11 @@ h1.page-title {
 }
 
 /* Rich Text Editor adjustments */
-button.rsw-btn,select.rsw-dd {
+button.rsw-btn,
+select.rsw-dd {
     margin-top: 0px;
+}
+
+div.main-frame {
+    padding-top: 56px;
 }
