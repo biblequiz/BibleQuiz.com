@@ -368,7 +368,7 @@ export class EventInfo extends RemoteServiceModelBase<string> {
     /**
      * Gets the ID for the region.
      */
-    public RegionId!: string;
+    public RegionId!: string | null;
 
     /**
      * Gets the name of the region.
@@ -378,12 +378,32 @@ export class EventInfo extends RemoteServiceModelBase<string> {
     /**
      * Gets the ID for the district.
      */
-    public DistrictId!: string;
+    public DistrictId!: string | null;
 
     /**
      * Gets the name of the district.
      */
     public readonly DistrictName!: string | null;
+
+    /**
+     * Gets or sets the ID for the region when overriding the scope for the archives.
+     */
+    public ArchiveRegionId!: string | null;
+
+    /**
+     * Gets the name of the region when overriding the scope for the archives.
+     */
+    public readonly ArchiveRegionName!: string | null;
+
+    /**
+     * Gets or sets the ID for the district when overriding the scope for the archives.
+     */
+    public ArchiveDistrictId!: string | null;
+
+    /**
+     * Gets the name of the district when overriding the scope for the archives.
+     */
+    public readonly ArchiveDistrictName!: string | null;
 
     /**
      * Gets or sets the eligibility for teams registering for this event.
