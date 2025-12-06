@@ -126,8 +126,8 @@ export default function ScheduleGridTabContent({
                                     {team.Scores!.Rank}{team.Scores!.IsTie ? '*' : ''}
                                 </td>)}
                             <td className="pl-0">
-                                <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} /><br />
-                                <span>{team.Name}</span>
+                                <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} />&nbsp;<span className="font-bold">{team.ChurchName}</span><br />
+                                <span className="italic">{team.Name}</span>
                             </td>
                             {hasRankedTeams && (
                                 <>
