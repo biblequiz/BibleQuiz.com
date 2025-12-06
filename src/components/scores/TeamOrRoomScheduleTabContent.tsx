@@ -206,9 +206,14 @@ export default function TeamOrRoomScheduleTabContent({
                         let match: ScoringReportTeamMatch | null = null;
                         if (matchItem && isRoomReport) {
                             matchTeam = resolvedMeet.Teams![(matchItem as ScoringReportRoomMatch).Team1];
-                            match = matchTeam.Matches![matchIndex];
-                            shouldHighlightSearchResult = eventFilters?.highlightTeamId === matchTeam?.Id;
-                            shouldHighlightFavorite = favorites?.teamIds.has(matchTeam?.Id) ?? false;
+                            if (matchTeam) {
+                                match = matchTeam.Matches![matchIndex];
+                                shouldHighlightSearchResult = eventFilters?.highlightTeamId === matchTeam?.Id;
+                                shouldHighlightFavorite = favorites?.teamIds.has(matchTeam?.Id) ?? false;
+                            }
+                            else {
+                                match = null;
+                            }
                         }
                         else {
                             match = matchItem as ScoringReportTeamMatch | null;
@@ -225,8 +230,7 @@ export default function TeamOrRoomScheduleTabContent({
                             cellText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
                         }
 
-                        if (isRoomReport) {
-                            console.log("Room report match team:", matchTeam);
+                        if (isRoomReport && matchTeam) {
                             //const shortName = getTeamShortName(matchTeam!.ChurchName, matchTeam!.City, matchTeam!.State);
                             cellText.push(`"${matchTeam!.Name}"`);
                             //cellText.push(matchTeam!.Name+"("+(shortName)+")");
@@ -373,6 +377,9 @@ export default function TeamOrRoomScheduleTabContent({
                                 <p className="text-sm mb-0 font-bold">
                                     {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={(cardItem as ScoringReportTeam).Id} />&nbsp;</>)}
                                     {(cardItem as ScoringReportTeam).ChurchName}
+                                </p>
+                                <p className="mb-0 mt-0 italic text-md">
+                                    {(cardItem as ScoringReportTeam).Name}
                                 </p>
                                 {!isRoomReport && hasRanking && (
                                     <>
