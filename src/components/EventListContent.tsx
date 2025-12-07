@@ -102,7 +102,7 @@ export default function EventListContent({
                     No events match your filter criteria. Click the
                     <div className="border-1 p-1 rounded-md inline-block ml-1 mr-1">
                         <FontAwesomeIcon icon="fas faFilterCircleXmark" />&nbsp;
-                        Clear Search Filters</div> button above
+                        Reset Search Filters</div> button above
                     to clear all filters.
                 </span>
             </div>);
