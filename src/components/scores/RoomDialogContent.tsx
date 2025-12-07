@@ -143,7 +143,7 @@ interface TableProps {
 }
 
 function getContestInfo(maxNumber: number | null): { hasContestType: boolean, numberSuffix: string | null } {
-    if (null === maxNumber) {
+    if (null === maxNumber || undefined === maxNumber) {
         return { hasContestType: true, numberSuffix: null };
     }
     else if (maxNumber <= 0) {
