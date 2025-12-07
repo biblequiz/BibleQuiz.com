@@ -7,6 +7,7 @@ export interface StateRegionAndDistricts {
 export interface RegionInfo {
     id: string;
     name: string;
+    states: string[];
 }
 
 export interface DistrictInfo {

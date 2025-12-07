@@ -231,9 +231,7 @@ export default function TeamOrRoomScheduleTabContent({
                         }
 
                         if (isRoomReport && matchTeam) {
-                            //const shortName = getTeamShortName(matchTeam!.ChurchName, matchTeam!.City, matchTeam!.State);
                             cellText.push(`"${matchTeam!.Name}"`);
-                            //cellText.push(matchTeam!.Name+"("+(shortName)+")");
                         }
 
                         if (isScheduleOnly) {
@@ -269,9 +267,7 @@ export default function TeamOrRoomScheduleTabContent({
                             if (!shouldHighlightFavorite && (favorites?.teamIds.has(otherTeam.Id) ?? false)) {
                                 shouldHighlightFavorite = true;
                             }
-                            //const shortName = getTeamShortName(otherTeam.ChurchName, otherTeam.City,otherTeam.State);
-                            //cellText.push(otherTeam.Name+"("+shortName +")");
-                            cellText.push(otherTeam.Name);
+                            cellText.push(`"${otherTeam.Name}"`);
                             if (!isScheduleOnly) {
                                 if (isLiveMatch) {
                                     if (!isRoomReport) {
@@ -378,12 +374,11 @@ export default function TeamOrRoomScheduleTabContent({
                                     {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={(cardItem as ScoringReportTeam).Id} />&nbsp;</>)}
                                     {(cardItem as ScoringReportTeam).ChurchName}
                                 </p>
-                                <p className="mb-0 mt-0 italic text-md">
+                                <p className="subtitle italic mt-0">
                                     {(cardItem as ScoringReportTeam).Name}
                                 </p>
                                 {!isRoomReport && hasRanking && (
                                     <>
-                                        <p className="subtitle italic mt-0">{(cardItem as ScoringReportTeam).Name}</p>
                                         <div className="columns-4">
                                             <div className="text-center team-card-right-border">
                                                 <span className="text-lg font-bold">{ordinalWithSuffix((cardItem as ScoringReportTeam).Scores!.Rank)}{(cardItem as ScoringReportTeam).Scores!.IsTie ? '*' : ''}</span><br />

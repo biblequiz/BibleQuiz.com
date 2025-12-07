@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { useStore } from "@nanostores/react";
 import { $eventFilters, type EventFilterConfiguration } from "utils/SharedState";
 import FontAwesomeIcon from './FontAwesomeIcon';
@@ -6,6 +6,7 @@ import FontAwesomeIcon from './FontAwesomeIcon';
 import type { RegionInfo, DistrictInfo } from 'types/RegionAndDistricts';
 import { DataTypeHelpers } from 'utils/DataTypeHelpers.ts';
 import type { EventInfo } from 'types/EventTypes';
+import EventListFiltersDefaultDialog, { getDefaultRegionAndDistrict, type DefaultRegionAndDistrict } from './EventListFiltersDefaultDialog';
 
 interface Props {
   regions: RegionInfo[];
@@ -72,6 +73,18 @@ export function matchesFilter(filter: EventFilterConfiguration, event: EventInfo
   return true;
 }
 
+const getKeyFromLocation = (location?: DefaultRegionAndDistrict): string | undefined => {
+  if (location?.districtId) {
+    return `${location.regionId}_${location.districtId}`;
+  }
+  else if (location?.regionId) {
+    return location.regionId;
+  }
+  else {
+    return undefined;
+  }
+}
+
 export default function EventListFilters({ regions, districts, allowTypeFilter }: Props) {
 
   const currentEventFilters = useStore($eventFilters);
@@ -80,6 +93,7 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
   const [typeFilter, setTypeFilter] = useState<string | undefined>(undefined);
   const [scope, setScope] = useState<string | undefined>(undefined);
   const [typeFilterOverride, setTypeFilterOverride] = useState<string | undefined>(undefined);
+  const [showDefaultDialog, setShowDefaultDialog] = useState<boolean>(() => !getDefaultRegionAndDistrict());
 
   useEffect(() => {
     if (!currentEventFilters.isLoaded) {
@@ -176,104 +190,139 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
     });
   };
 
+  const hasDefaultFilters = useMemo(() => {
+    return getKeyFromLocation(getDefaultRegionAndDistrict()) === scope;
+  }, [scope]);
+
   const handleClearFilters = () => {
     setSearchText(undefined);
     setTypeFilter(undefined);
-    setScope(undefined);
+
+    const defaultLocation = getDefaultRegionAndDistrict();
+    setScope(getKeyFromLocation(defaultLocation));
+
     setSharedStateAndPersist({
       isLoaded: true,
       searchText: undefined,
-      regionId: undefined,
-      districtId: undefined,
+      regionId: defaultLocation?.regionId,
+      districtId: defaultLocation?.districtId,
       typeFilter: undefined,
     } as EventFilterConfiguration);
   };
 
-  const hasFilters = (searchText || scope || typeFilter);
+  const hasFilters = (searchText || !hasDefaultFilters || typeFilter);
 
   return (
-    <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-2 pt-0">
-      <legend className="fieldset-legend ml-2">
-        <FontAwesomeIcon icon="fas faSearch" />
-        Filter Events
-      </legend>
-      <div className="flex flex-wrap gap-2 mt-0 mb-0">
-        <label className="input input-sm mt-0 max-w-2xl">
-          <FontAwesomeIcon icon="fas faSearch" classNames={["h-[1em]", "opacity-50"]} />
-          <input
-            type="text"
-            className="grow"
-            placeholder="Name or Location"
-            value={searchText ?? ""}
-            onChange={e => {
-              const currentValue = e.target.value;
-              const newText = DataTypeHelpers.isNullOrEmpty(currentValue)
-                ? undefined
-                : currentValue;
-              setSearchText(newText);
-              setSharedStateAndPersist({
-                ...currentEventFilters,
-                searchText: newText
-              });
-            }} />
-          {(searchText?.length ?? 0) > 0 && (
-            <button
-              className="btn btn-ghost btn-xs"
-              onClick={() => {
-                setSearchText(undefined);
+    <>
+      <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-2 pt-0">
+        <legend className="fieldset-legend ml-2">
+          <FontAwesomeIcon icon="fas faSearch" />
+          Filter Events
+        </legend>
+        <div className="flex flex-wrap gap-2 mt-0 mb-0">
+          <label className="input input-sm mt-0 max-w-2xl">
+            <FontAwesomeIcon icon="fas faSearch" classNames={["h-[1em]", "opacity-50"]} />
+            <input
+              type="text"
+              className="grow"
+              placeholder="Name or Location"
+              value={searchText ?? ""}
+              onChange={e => {
+                const currentValue = e.target.value;
+                const newText = DataTypeHelpers.isNullOrEmpty(currentValue)
+                  ? undefined
+                  : currentValue;
+                setSearchText(newText);
                 setSharedStateAndPersist({
                   ...currentEventFilters,
-                  searchText: undefined
+                  searchText: newText
                 });
-              }}>
-              <FontAwesomeIcon icon="fas faCircleXmark" />
-            </button>)}
-        </label>
-        <select
-          className="select select-sm mt-0 w-auto"
-          onChange={handleScopeChanged}
-          value={scope ?? ""}>
-          <option value="">
-            Teams in All Districts
-          </option>
-          <option value="" disabled>
-            ----------------------
-          </option>
-          {regions.map((region) => (
-            <option key={`reg_${region.id}`} value={region.id}>
-              Teams in {region.name} Region
-            </option>
-          ))}
-          <option value="" disabled>
-            ----------------------
-          </option>
-          {districts.map((district) => (
-            <option key={`dis_${district.id}`} value={`${district.regionId}_${district.id}`}>
-              Teams in {district.name} District
-            </option>
-          ))}
-        </select>
-        {!typeFilterOverride && allowTypeFilter && (
-          <select
-            className="select select-sm mt-0 w-auto"
-            onChange={handleTypeChanged}
-            value={typeFilter ?? ""}>
-            <option value="">
-              JBQ and TBQ Events
-            </option>
-            <option value="jbq">JBQ Events Only</option>
-            <option value="tbq">TBQ Events Only</option>
-          </select>)}
-      </div>
-      {hasFilters && (
-        <div className="mt-0">
-          <button
-            type="button"
-            className="btn btn-sm btn-outline mt-0"
-            onClick={handleClearFilters}>
-            <FontAwesomeIcon icon={`fas faFilterCircleXmark`} />
-            Clear Search Filters
-          </button>
-        </div>)}
-    </fieldset>);
+              }} />
+            {(searchText?.length ?? 0) > 0 && (
+              <button
+                className="btn btn-ghost btn-xs"
+                onClick={() => {
+                  setSearchText(undefined);
+                  setSharedStateAndPersist({
+                    ...currentEventFilters,
+                    searchText: undefined
+                  });
+                }}>
+                <FontAwesomeIcon icon="fas faCircleXmark" />
+              </button>)}
+          </label>
+          <div className="flex items-center gap-2 rounded-box border border-neutral-color p-0 pl-2 mb-0 mt-0">
+            Teams in
+            <select
+              className="select select-sm mt-0 w-auto"
+              onChange={handleScopeChanged}
+              value={scope ?? ""}>
+              <option value="">
+                All Districts
+              </option>
+              <option value="" disabled>
+                ----------------------
+              </option>
+              {regions.map((region) => (
+                <option key={`reg_${region.id}`} value={region.id}>
+                  {region.name} Region
+                </option>
+              ))}
+              <option value="" disabled>
+                ----------------------
+              </option>
+              {districts.map((district) => (
+                <option key={`dis_${district.id}`} value={`${district.regionId}_${district.id}`}>
+                  {district.name} District
+                </option>
+              ))}
+            </select>
+          </div>
+          {!typeFilterOverride && allowTypeFilter && (
+            <select
+              className="select select-sm mt-0 w-auto"
+              onChange={handleTypeChanged}
+              value={typeFilter ?? ""}>
+              <option value="">
+                JBQ and TBQ Events
+              </option>
+              <option value="jbq">JBQ Events Only</option>
+              <option value="tbq">TBQ Events Only</option>
+            </select>)}
+          {hasDefaultFilters && (
+            <div className="mt-0">
+              <button
+                type="button"
+                className="btn btn-sm btn-outline mt-0"
+                onClick={() => setShowDefaultDialog(true)}>
+                <FontAwesomeIcon icon={`fas faHouse`} />
+                Set Default Location
+              </button>
+            </div>
+          )}
+          {hasFilters && (
+            <div className="mt-0">
+              <button
+                type="button"
+                className="btn btn-sm btn-outline mt-0"
+                onClick={handleClearFilters}>
+                <FontAwesomeIcon icon={`fas faFilterCircleXmark`} />
+                Reset Search Filters
+              </button>
+            </div>)}
+        </div>
+      </fieldset >
+      {showDefaultDialog && (
+        <EventListFiltersDefaultDialog
+          regions={regions}
+          districts={districts}
+          onClose={newLocation => {
+            setShowDefaultDialog(false);
+
+            if (newLocation) {
+              setScope(getKeyFromLocation(newLocation));
+            }
+          }} />)
+      }
+    </>);
 }
