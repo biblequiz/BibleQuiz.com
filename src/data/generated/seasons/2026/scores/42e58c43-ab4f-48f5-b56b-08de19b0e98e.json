@@ -1,0 +1,5075 @@
+{
+  "EventName": "North Central Midseason Tournament",
+  "DatabaseNames": {
+    "f70c8f62-f2cd-4ad2-abde-4277d976cd72": "NC_Midseason"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "f70c8f62-f2cd-4ad2-abde-4277d976cd72",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2nd Under",
+        "LastUpdated": "12/6/25 6:19 PM",
+        "DatabaseLastUpdated": "2025-12-06T14:53:26.8381702+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Kayden Moore",
+            "Quizzers": [
+              0,
+              4,
+              13,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -15,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -15,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d189bd6d-d85d-4b9f-af8a-9d0bb2c2f0fe",
+            "Name": "Bethel Assembly - Kayden's Kids",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 7,
+              "WinPercentage": 0,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": -50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -7.1,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Addyson Herbert",
+            "Quizzers": [
+              3,
+              16,
+              24
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6fbfb9ca-6e67-4f90-a164-fc4165f3f597",
+            "Name": "Bethel Assembly 'A' team",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 5,
+              "WinPercentage": 29,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 440,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.9,
+              "AverageCorrect": 6.1,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 36,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jordyn Smith",
+            "Quizzers": [
+              1,
+              11,
+              23
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_4d941633-37ae-4e00-8141-74d7874665ac",
+            "Name": "Bethel Assembly Princess Team",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 6,
+              "WinPercentage": 14,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.7,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 43,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              19,
+              22,
+              28,
+              29
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_f70c8f62-f2cd-4ad2-abde-4277d976cd72_22",
+            "Name": "Cabot Assembly",
+            "ChurchName": "The Assembly Cabot",
+            "City": "Cabot/AR",
+            "State": null,
+            "Scores": {
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 510,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 72.9,
+              "AverageCorrect": 6.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 37,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Missy Wright",
+            "Quizzers": [
+              9,
+              26
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_628ccd54-ab73-4ef9-993c-3e47991ca81e",
+            "Name": "Calvary Full Gospel (Cardwell) #3",
+            "ChurchName": "Calvary Full Gospel",
+            "City": "Cardwell",
+            "State": "MO",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 685,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 97.9,
+              "AverageCorrect": 8.4,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 49,
+              "Correct20s": 9,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Tina Stewart",
+            "Quizzers": [
+              6,
+              7,
+              8,
+              10,
+              14,
+              15,
+              18,
+              25
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_27681b65-4b92-48b8-80f0-f31f52c3148c",
+            "Name": "City Hope Church (Jacksonville) #1 2nd-Under",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 625,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 89.3,
+              "AverageCorrect": 7.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 31,
+              "Correct20s": 17,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Melanie Miller",
+            "Quizzers": [
+              2,
+              5,
+              27
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 7
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6a51a903-78a0-4560-b26b-10db9699afaa",
+            "Name": "Life Connections",
+            "ChurchName": "El Paso Life Connections",
+            "City": "Mt. Vernon",
+            "State": "AR",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 4,
+              "WinPercentage": 43,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 49.3,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 33,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Cooper Meckfessel",
+            "Quizzers": [
+              12,
+              17,
+              20
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 6
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_fc3400a2-7c35-42d9-9a1c-d1876387e02a",
+            "Name": "The Ridge Assembly",
+            "ChurchName": "The Ridge Assembly of Sherwood",
+            "City": "Sherwood",
+            "State": "AR",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 575,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 82.1,
+              "AverageCorrect": 7.3,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 48,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          4,
+          5,
+          7,
+          3,
+          6,
+          1,
+          2,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Bethel Assembly - Kayden's Kids",
+            "YearsQuizzing": null,
+            "Id": "q_187ececacfc74f447c6508de2b0d038c",
+            "Name": "Abel Whidden",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly Princess Team",
+            "YearsQuizzing": null,
+            "Id": "q_6104e257996446157c4708de2b0d038c",
+            "Name": "Alyvia Ford",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Life Connections",
+            "YearsQuizzing": null,
+            "Id": "q_ae26b2889d354eb0652208de2c5fabf1",
+            "Name": "Anna Porter",
+            "ChurchName": "El Paso Life Connections",
+            "City": "Mt. Vernon",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly 'A' team",
+            "YearsQuizzing": null,
+            "Id": "q_b51491fd490e4412295e08dacaaa933a",
+            "Name": "Blake Moore",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 105,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly - Kayden's Kids",
+            "YearsQuizzing": null,
+            "Id": "q_5061abfcb9854c2f7c5f08de2b0d038c",
+            "Name": "Brooklyn Gibson",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Life Connections",
+            "YearsQuizzing": null,
+            "Id": "q_8e4d7413ca744e63652808de2c5fabf1",
+            "Name": "Charlie Porter",
+            "ChurchName": "El Paso Life Connections",
+            "City": "Mt. Vernon",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 2nd-Under",
+            "YearsQuizzing": null,
+            "Id": "q_27abf834c6f6464d67e808dd072a4197",
+            "Name": "Dawson Witcher",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": false,
+              "TotalPoints": -25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -3.6,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 27,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 2nd-Under",
+            "YearsQuizzing": null,
+            "Id": "q_981a9e888acb43f9482808de1e1489a6",
+            "Name": "Diamond Hanner",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.9,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 2nd-Under",
+            "YearsQuizzing": null,
+            "Id": "q_d5d713857dfd4c3d67fb08dd072a4197",
+            "Name": "Elayla Edmiston",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 115,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.4,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 8,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Calvary Full Gospel (Cardwell) #3",
+            "YearsQuizzing": null,
+            "Id": "q_e13fd49384bb40ec17aa08de2c21fed1",
+            "Name": "Elijah Wright",
+            "ChurchName": "Calvary Full Gospel",
+            "City": "Cardwell",
+            "State": "MO",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 2.9,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 13,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 2nd-Under",
+            "YearsQuizzing": null,
+            "Id": "q_27a5c8a70c374ee0484008de1e1489a6",
+            "Name": "Elowynn Williamson",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly Princess Team",
+            "YearsQuizzing": null,
+            "Id": "q_72931d0ca5464524653b08dd072a4197",
+            "Name": "Eva Burton",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The Ridge Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_3b976758adc649f268e508de1fa529f9",
+            "Name": "Everlee Stager",
+            "ChurchName": "The Ridge Assembly of Sherwood",
+            "City": "Sherwood",
+            "State": "AR",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 22,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly - Kayden's Kids",
+            "YearsQuizzing": null,
+            "Id": "q_7c4310ab136d4cd37c5408de2b0d038c",
+            "Name": "Grayson Gibson",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 2nd-Under",
+            "YearsQuizzing": null,
+            "Id": "q_9ba358807a5f403467dc08dd072a4197",
+            "Name": "Haddie Grace Stewart",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 480,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.6,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 15,
+              "Correct20s": 14,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 2nd-Under",
+            "YearsQuizzing": null,
+            "Id": "q_fad89e682ca145a0483a08de1e1489a6",
+            "Name": "Jack Taylor",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly 'A' team",
+            "YearsQuizzing": null,
+            "Id": "q_3efb9a4805534a4f296408dacaaa933a",
+            "Name": "Keaton Moore",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.4,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Ridge Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_41d0560edc9749d868eb08de1fa529f9",
+            "Name": "Lilly Van Horn",
+            "ChurchName": "The Ridge Assembly of Sherwood",
+            "City": "Sherwood",
+            "State": "AR",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 41.4,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 25,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 2nd-Under",
+            "YearsQuizzing": null,
+            "Id": "q_aadb023558e94b79482e08de1e1489a6",
+            "Name": "Noah Prokepek",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Cabot Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_191",
+            "Name": "Norah Sanders",
+            "ChurchName": "The Assembly Cabot",
+            "City": "Cabot/AR",
+            "State": null,
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 165,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 23.6,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 16,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Ridge Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_56c46741afd1411368f108de1fa529f9",
+            "Name": "Olivia Furman",
+            "ChurchName": "The Ridge Assembly of Sherwood",
+            "City": "Sherwood",
+            "State": "AR",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.7,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly - Kayden's Kids",
+            "YearsQuizzing": null,
+            "Id": "q_51cb597732c24b0e656508dd072a4197",
+            "Name": "Opie Whidden",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 30,
+              "IsTie": false,
+              "TotalPoints": -45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -6.4,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Cabot Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_194",
+            "Name": "Owen Pruett",
+            "ChurchName": "The Assembly Cabot",
+            "City": "Cabot/AR",
+            "State": null,
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly Princess Team",
+            "YearsQuizzing": null,
+            "Id": "q_1dd462dc6e4d4b8f7c4d08de2b0d038c",
+            "Name": "Presley Ford",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 28,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.7,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 43,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly 'A' team",
+            "YearsQuizzing": null,
+            "Id": "q_7a85e3eed47e4bd258a008dbedce97ff",
+            "Name": "Rafael Garcia",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.4,
+              "AverageCorrect": 2.9,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 13,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 2nd-Under",
+            "YearsQuizzing": null,
+            "Id": "q_373c6b86a6194cb7482208de1e1489a6",
+            "Name": "Shepard Featherston",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Calvary Full Gospel (Cardwell) #3",
+            "YearsQuizzing": null,
+            "Id": "q_0ecfc15819a841f617a408de2c21fed1",
+            "Name": "Teagan Wright",
+            "ChurchName": "Calvary Full Gospel",
+            "City": "Cardwell",
+            "State": "MO",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 440,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.9,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 36,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Life Connections",
+            "YearsQuizzing": null,
+            "Id": "q_08c9b67a490d41d0651c08de2c5fabf1",
+            "Name": "Thomas Johnston",
+            "ChurchName": "El Paso Life Connections",
+            "City": "Mt. Vernon",
+            "State": "AR",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 49.3,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 33,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Cabot Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_192",
+            "Name": "Zeke Sullivan",
+            "ChurchName": "The Assembly Cabot",
+            "City": "Cabot/AR",
+            "State": null,
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.1,
+              "AverageCorrect": 1.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Cabot Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_193",
+            "Name": "Zellie Sullivan",
+            "ChurchName": "The Assembly Cabot",
+            "City": "Cabot/AR",
+            "State": null,
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.9,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 11,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          14,
+          26,
+          27,
+          17,
+          12,
+          24,
+          9,
+          28,
+          19,
+          29,
+          8,
+          3,
+          16,
+          7,
+          22,
+          20,
+          0,
+          1,
+          2,
+          4,
+          5,
+          10,
+          11,
+          13,
+          15,
+          18,
+          25,
+          23,
+          6,
+          21
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "C",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "D",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "f70c8f62-f2cd-4ad2-abde-4277d976cd72",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "3/4",
+        "LastUpdated": "12/6/25 6:19 PM",
+        "DatabaseLastUpdated": "2025-12-06T14:53:26.8381702+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Brenda Sullivan",
+            "Quizzers": [
+              9,
+              11,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_87a30bd4-d45d-4809-bf42-83cf1228f254",
+            "Name": "Bethel Assembly of God #1",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 690,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 138.0,
+              "AverageCorrect": 8.4,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 19,
+              "Correct20s": 14,
+              "Correct30s": 9,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Ashley Johnson",
+            "Quizzers": [
+              7,
+              14,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_86a23b8e-465e-4b4c-9ddf-546621323604",
+            "Name": "Bethel Assembly of God #2",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 315,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 14,
+              "Correct20s": 10,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              2,
+              6,
+              22
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_f70c8f62-f2cd-4ad2-abde-4277d976cd72_23",
+            "Name": "Cabot Assembly",
+            "ChurchName": "The Asembly Cabot",
+            "City": "Cabot/AR",
+            "State": null,
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 49.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 20,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Jonathan Wright",
+            "Quizzers": [
+              4,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_13096380-833b-4bae-8a13-e98ae71c8789",
+            "Name": "Calvary Full Gospel (Cardwell) #2",
+            "ChurchName": "Calvary Full Gospel",
+            "City": "Cardwell",
+            "State": "MO",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 545,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 109.0,
+              "AverageCorrect": 7.6,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 21,
+              "Correct20s": 16,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Angie Witcher",
+            "Quizzers": [
+              0,
+              8,
+              13,
+              16,
+              18,
+              19,
+              20,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_4ad6c180-5d82-4a64-986c-cbe50ab6f756",
+            "Name": "City Hope Church (Jacksonville) #1 3rd-4th",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 520,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 104.0,
+              "AverageCorrect": 7.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 24,
+              "Correct20s": 9,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Colton Curtis",
+            "Quizzers": [
+              3,
+              10,
+              15
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 255,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_e30e508b-0b68-4d35-ae03-947ad277ce99",
+            "Name": "Searcy Sharks 3/4",
+            "ChurchName": "Searcy First Assembly",
+            "City": "Searcy",
+            "State": "AR",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 800,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 160.0,
+              "AverageCorrect": 11.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 33,
+              "Correct20s": 15,
+              "Correct30s": 7,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 3rd-4th",
+            "YearsQuizzing": null,
+            "Id": "q_dc6e07a0c49843be680c08dd072a4197",
+            "Name": "Adalee Wallace",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Cabot Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_201",
+            "Name": "Beau Pruett",
+            "ChurchName": "The Asembly Cabot",
+            "City": "Cabot/AR",
+            "State": null,
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Cabot Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_200",
+            "Name": "Blade Turner",
+            "ChurchName": "The Asembly Cabot",
+            "City": "Cabot/AR",
+            "State": null,
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 165,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 11,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Searcy Sharks 3/4",
+            "YearsQuizzing": null,
+            "Id": "q_dbb9f05141a44b8f3fe308de2b05e79b",
+            "Name": "Calvin Ledbetter",
+            "ChurchName": "Searcy First Assembly",
+            "City": "Searcy",
+            "State": "AR",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 450,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 12,
+              "Correct20s": 7,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Calvary Full Gospel (Cardwell) #2",
+            "YearsQuizzing": null,
+            "Id": "q_78bda4ade3824560178308de2c21fed1",
+            "Name": "Cash Wright",
+            "ChurchName": "Calvary Full Gospel",
+            "City": "Cardwell",
+            "State": "MO",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 480,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 96.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 13,
+              "Correct20s": 16,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Calvary Full Gospel (Cardwell) #2",
+            "YearsQuizzing": null,
+            "Id": "q_bf83bd6ec62a4e36179308de2c21fed1",
+            "Name": "Connor Brannum",
+            "ChurchName": "Calvary Full Gospel",
+            "City": "Cardwell",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 65,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.0,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Cabot Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_202",
+            "Name": "Easton Huckey",
+            "ChurchName": "The Asembly Cabot",
+            "City": "Cabot/AR",
+            "State": null,
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #2",
+            "YearsQuizzing": null,
+            "Id": "q_e355668c35b443cb7c1608de2b0d038c",
+            "Name": "Ellie Gibson",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 3rd-4th",
+            "YearsQuizzing": null,
+            "Id": "q_2a7253cb91c44a5c48fd08de1e1489a6",
+            "Name": "Emeryson Faulkner",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #1",
+            "YearsQuizzing": null,
+            "Id": "q_49159d00772a42167bfe08de2b0d038c",
+            "Name": "Hoyt Faughn",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Searcy Sharks 3/4",
+            "YearsQuizzing": null,
+            "Id": "q_d00a5346212840404e1608dbee1d74f3",
+            "Name": "Isaiah Overstreet",
+            "ChurchName": "Searcy First Assembly",
+            "City": "Searcy",
+            "State": "AR",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 320,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 64.0,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 18,
+              "Correct20s": 7,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #1",
+            "YearsQuizzing": null,
+            "Id": "q_7bcc07b57a0149f37bf808de2b0d038c",
+            "Name": "Izzy Naquin",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 19,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #1",
+            "YearsQuizzing": null,
+            "Id": "q_a85c418857bd4829589408dbedce97ff",
+            "Name": "Jedi Stone",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 500,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 100.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 0,
+              "Correct20s": 14,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 3rd-4th",
+            "YearsQuizzing": null,
+            "Id": "q_54a287aab068402b683b08dd072a4197",
+            "Name": "Kayleigh Maxwell",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #2",
+            "YearsQuizzing": null,
+            "Id": "q_fad798f491dc41e01afd08d9f59f42e5",
+            "Name": "Leighton Burton",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 61.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 12,
+              "Correct20s": 10,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Searcy Sharks 3/4",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_157",
+            "Name": "Lewis Alexander",
+            "ChurchName": "Searcy First Assembly",
+            "City": "Searcy",
+            "State": "AR",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 3rd-4th",
+            "YearsQuizzing": null,
+            "Id": "q_c489446687b94af3683008dd072a4197",
+            "Name": "Lynlea Rycraw",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #2",
+            "YearsQuizzing": null,
+            "Id": "q_816c2c2286014fea657708dd072a4197",
+            "Name": "Lyric Tillman",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 3rd-4th",
+            "YearsQuizzing": null,
+            "Id": "q_1df2e528e20348991c7808dbee83da9f",
+            "Name": "Parker Burke",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 31.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 15,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 3rd-4th",
+            "YearsQuizzing": null,
+            "Id": "q_b4ee43ad336249f9490908de1e1489a6",
+            "Name": "RC Gehres",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 365,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 9,
+              "Correct20s": 9,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 3rd-4th",
+            "YearsQuizzing": null,
+            "Id": "q_de85eb01f5fd4bb1682a08dd072a4197",
+            "Name": "Scarlett Witcher",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 3rd-4th",
+            "YearsQuizzing": null,
+            "Id": "q_37ba815488dc46ceaa3b08dacbe90308",
+            "Name": "Stella Seigrist",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Cabot Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_203",
+            "Name": "Waylon Huckey",
+            "ChurchName": "The Asembly Cabot",
+            "City": "Cabot/AR",
+            "State": null,
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          12,
+          4,
+          3,
+          19,
+          10,
+          14,
+          11,
+          2,
+          18,
+          1,
+          5,
+          15,
+          17,
+          0,
+          6,
+          8,
+          9,
+          13,
+          16,
+          20,
+          21,
+          22,
+          7
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "C",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "f70c8f62-f2cd-4ad2-abde-4277d976cd72",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "5/6",
+        "LastUpdated": "12/6/25 6:19 PM",
+        "DatabaseLastUpdated": "2025-12-06T14:53:26.8381702+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Melonie Burton",
+            "Quizzers": [
+              15,
+              18,
+              19,
+              24,
+              28
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_39719b35-60e3-4852-973d-81468c2506d2",
+            "Name": "Bethel Assembly of God #1",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 5,
+              "WinPercentage": 29,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 430,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 61.4,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 30,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Beth Smith",
+            "Quizzers": [
+              6,
+              16,
+              26,
+              29
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 290,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 260,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6e9d9856-b73a-4c58-a738-d32eda2e613c",
+            "Name": "Bethel Assembly of God #2",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 1,
+              "WinPercentage": 86,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 190.0,
+              "AverageCorrect": 12.1,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 48,
+              "Correct20s": 31,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Matthew Davidson",
+            "Quizzers": [
+              2,
+              10,
+              13,
+              22
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_f42044a6-30d1-40d7-8046-3f25743ab09f",
+            "Name": "Calvary Full Gospel (Cardwell #1",
+            "ChurchName": "Calvary Full Gospel",
+            "City": "Cardwell",
+            "State": "MO",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 7,
+              "WinPercentage": 0,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.4,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Gloria Taylor",
+            "Quizzers": [
+              12,
+              14,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_bd175003-9d69-41e5-b38a-724e6502afa5",
+            "Name": "City Hope Church (Jacksonville) #1 5th-6th",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 4,
+              "WinPercentage": 43,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 440,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.9,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 22,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Jan Maxey",
+            "Quizzers": [
+              0,
+              1,
+              4,
+              8
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 205,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_9ef82667-381e-4fd2-ae9b-0df0cdcc23f4",
+            "Name": "City Hope Church (Jacksonville) #2 5th-6th",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 179.3,
+              "AverageCorrect": 11.4,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 38,
+              "Correct20s": 39,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Anna Stout",
+            "Quizzers": [
+              9,
+              11,
+              23
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 225,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 230,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 255,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d7f713c7-5ca5-4af7-a6ef-4f3f92f94823",
+            "Name": "City Hope Church (Jacksonville) #3 5th-6th",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 186.4,
+              "AverageCorrect": 11.1,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 37,
+              "Correct20s": 24,
+              "Correct30s": 17,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Hannah West",
+            "Quizzers": [
+              3,
+              5,
+              20,
+              27,
+              31,
+              32
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 7
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_d167653c-5614-43c5-a19e-2e9db1ab9b7e",
+            "Name": "Life Connections",
+            "ChurchName": "El Paso Life Connections",
+            "City": "Mt. Vernon",
+            "State": "AR",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 5,
+              "WinPercentage": 29,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 435,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.1,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 23,
+              "Correct20s": 14,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Alexis Garcia",
+            "Quizzers": [
+              7,
+              17,
+              25,
+              30,
+              33
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 6
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_970c9cda-6215-41f6-ab35-7329ab8ce7e7",
+            "Name": "Searcy Sharks 5/6",
+            "ChurchName": "Searcy First Assembly",
+            "City": "Searcy",
+            "State": "AR",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 4,
+              "WinPercentage": 43,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 515,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.6,
+              "AverageCorrect": 6.1,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 34,
+              "Correct20s": 7,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          4,
+          1,
+          5,
+          3,
+          7,
+          0,
+          6,
+          2
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "City Hope Church (Jacksonville) #2 5th-6th",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_121",
+            "Name": "Addilyn Durham",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 870,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 124.3,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 4,
+              "Correct20s": 36,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #2 5th-6th",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_122",
+            "Name": "Addy Ingram",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Calvary Full Gospel (Cardwell #1",
+            "YearsQuizzing": null,
+            "Id": "q_502f0f30b1414efc177408de2c21fed1",
+            "Name": "Aiden Brannum",
+            "ChurchName": "Calvary Full Gospel",
+            "City": "Cardwell",
+            "State": "MO",
+            "Scores": {
+              "Rank": 24,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Life Connections",
+            "YearsQuizzing": null,
+            "Id": "q_6f0c56d04eab4e9464e608de2c5fabf1",
+            "Name": "Aliza English",
+            "ChurchName": "El Paso Life Connections",
+            "City": "Mt. Vernon",
+            "State": "AR",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 175,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 0,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #2 5th-6th",
+            "YearsQuizzing": null,
+            "Id": "q_da06ea7916414b71aa4208dacbe90308",
+            "Name": "Arabella Kubin",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.7,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Life Connections",
+            "YearsQuizzing": null,
+            "Id": "q_4a7dda423af44abd650908de2c5fabf1",
+            "Name": "Caleb Lee",
+            "ChurchName": "El Paso Life Connections",
+            "City": "Mt. Vernon",
+            "State": "AR",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #2",
+            "YearsQuizzing": null,
+            "Id": "q_a64f46c2671940d07be508de2b0d038c",
+            "Name": "Chad Naquin",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.1,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 16,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Searcy Sharks 5/6",
+            "YearsQuizzing": null,
+            "Id": "q_d30ee147a6b54a91590708dbedce97ff",
+            "Name": "Emma Overstreet",
+            "ChurchName": "Searcy First Assembly",
+            "City": "Searcy",
+            "State": "AR",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.7,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #2 5th-6th",
+            "YearsQuizzing": null,
+            "Id": "q_1074d5f058844813fa3608d8d4195980",
+            "Name": "Emma Shalter",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 39.3,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 22,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #3 5th-6th",
+            "YearsQuizzing": null,
+            "Id": "q_8f4f1e1ac569478b681808dd072a4197",
+            "Name": "Griffin Stout",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 48.6,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 33,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Calvary Full Gospel (Cardwell #1",
+            "YearsQuizzing": null,
+            "Id": "q_6e55a00e7d8a446b177d08de2c21fed1",
+            "Name": "Hunter Davidson",
+            "ChurchName": "Calvary Full Gospel",
+            "City": "Cardwell",
+            "State": "MO",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #3 5th-6th",
+            "YearsQuizzing": null,
+            "Id": "q_3d14433cccbb4abeba0b08d7b7ceb317",
+            "Name": "Jaxson Shalter",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 905,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 129.3,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 0,
+              "Correct20s": 22,
+              "Correct30s": 17,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 5th-6th",
+            "YearsQuizzing": null,
+            "Id": "q_02f90a18d85149f5685308dd072a4197",
+            "Name": "Jayde Counts",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.9,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Calvary Full Gospel (Cardwell #1",
+            "YearsQuizzing": null,
+            "Id": "q_b8faf86b46414f2e177108de2c21fed1",
+            "Name": "Jaylynn Johnson",
+            "ChurchName": "Calvary Full Gospel",
+            "City": "Cardwell",
+            "State": "MO",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 5th-6th",
+            "YearsQuizzing": null,
+            "Id": "q_f70c8f62-f2cd-4ad2-abde-4277d976cd72_112",
+            "Name": "Jimmy Ingram",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #1",
+            "YearsQuizzing": null,
+            "Id": "q_c88ba426407e4e767bbd08de2b0d038c",
+            "Name": "Kaydence Faughn",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #2",
+            "YearsQuizzing": null,
+            "Id": "q_ab55c78bec73426dc13008d8f272c07b",
+            "Name": "Kinsley Moore",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Searcy Sharks 5/6",
+            "YearsQuizzing": null,
+            "Id": "q_fcbcf06e16e74558590c08dbedce97ff",
+            "Name": "Kirsten Garcia",
+            "ChurchName": "Searcy First Assembly",
+            "City": "Searcy",
+            "State": "AR",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #1",
+            "YearsQuizzing": null,
+            "Id": "q_c3730ec0b87946be9508e7a1a90015d7",
+            "Name": "Layne Burton",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #1",
+            "YearsQuizzing": null,
+            "Id": "q_d8d3b5fcda8649d2c15108d8f272c07b",
+            "Name": "Leah Ford",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Life Connections",
+            "YearsQuizzing": null,
+            "Id": "q_6608042530dc404e64ec08de2c5fabf1",
+            "Name": "Levi English",
+            "ChurchName": "El Paso Life Connections",
+            "City": "Mt. Vernon",
+            "State": "AR",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.1,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 5,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #1 5th-6th",
+            "YearsQuizzing": null,
+            "Id": "q_940729500c074294fa3008d8d4195980",
+            "Name": "Londen Cotner",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 390,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.7,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 17,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Calvary Full Gospel (Cardwell #1",
+            "YearsQuizzing": null,
+            "Id": "q_afcfc115a05e4692176f08de2c21fed1",
+            "Name": "Maddie Davidson",
+            "ChurchName": "Calvary Full Gospel",
+            "City": "Cardwell",
+            "State": "MO",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "City Hope Church (Jacksonville) #3 5th-6th",
+            "YearsQuizzing": null,
+            "Id": "q_574d203b701940311cfa08dbee83da9f",
+            "Name": "Noah Burke",
+            "ChurchName": "City Hope Church",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.6,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #1",
+            "YearsQuizzing": null,
+            "Id": "q_9c6a2194e44c470ec15708d8f272c07b",
+            "Name": "Noah Ford",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 360,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 51.4,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 25,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Searcy Sharks 5/6",
+            "YearsQuizzing": null,
+            "Id": "q_c2e2dce91e7d451960bc08dac977431f",
+            "Name": "Ryleigh Lindsey",
+            "ChurchName": "Searcy First Assembly",
+            "City": "Searcy",
+            "State": "AR",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.6,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 8,
+              "Correct20s": 5,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #2",
+            "YearsQuizzing": null,
+            "Id": "q_dfd1729528614923c13908d8f272c07b",
+            "Name": "Savannah Smith",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 630,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.0,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 23,
+              "Correct20s": 14,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Life Connections",
+            "YearsQuizzing": null,
+            "Id": "q_261d6aab5491453d64f208de2c5fabf1",
+            "Name": "Sophie Taylor",
+            "ChurchName": "El Paso Life Connections",
+            "City": "Mt. Vernon",
+            "State": "AR",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.7,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #1",
+            "YearsQuizzing": null,
+            "Id": "q_c54f4eabd50d4a5d926b08dd5453051f",
+            "Name": "Taryn Aaron",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Bethel Assembly of God #2",
+            "YearsQuizzing": null,
+            "Id": "q_1ceb15ffda2a4188585d08dbedce97ff",
+            "Name": "TG Stone",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Jacksonville",
+            "State": "AR",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 515,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.6,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 6,
+              "Correct20s": 17,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Searcy Sharks 5/6",
+            "YearsQuizzing": null,
+            "Id": "q_e3972dd32d5c49ac3fb708de2b05e79b",
+            "Name": "Trenton Sherman",
+            "ChurchName": "Searcy First Assembly",
+            "City": "Searcy",
+            "State": "AR",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.9,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Life Connections",
+            "YearsQuizzing": null,
+            "Id": "q_12780be7a4274e8564f808de2c5fabf1",
+            "Name": "Trevor Taylor",
+            "ChurchName": "El Paso Life Connections",
+            "City": "Mt. Vernon",
+            "State": "AR",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Life Connections",
+            "YearsQuizzing": null,
+            "Id": "q_02dfa06ac4d74a8a650308de2c5fabf1",
+            "Name": "Tristan Lee",
+            "ChurchName": "El Paso Life Connections",
+            "City": "Mt. Vernon",
+            "State": "AR",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Searcy Sharks 5/6",
+            "YearsQuizzing": null,
+            "Id": "q_8198389a1c2a48a6591108dbedce97ff",
+            "Name": "Tristen Sales",
+            "ChurchName": "Searcy First Assembly",
+            "City": "Searcy",
+            "State": "AR",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 19.3,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 13,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          11,
+          0,
+          26,
+          29,
+          21,
+          24,
+          9,
+          8,
+          25,
+          3,
+          6,
+          20,
+          30,
+          33,
+          4,
+          27,
+          18,
+          23,
+          22,
+          14,
+          16,
+          31,
+          12,
+          2,
+          7,
+          1,
+          5,
+          10,
+          13,
+          15,
+          17,
+          19,
+          28,
+          32
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "C",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "D",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2025-12-06T18:19:56.5706553+00:00"
+}

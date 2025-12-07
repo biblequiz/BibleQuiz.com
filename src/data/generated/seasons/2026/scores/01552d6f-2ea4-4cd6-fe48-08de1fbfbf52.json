@@ -1,0 +1,2461 @@
+{
+  "EventName": "Northern Indiana District League Meet",
+  "DatabaseNames": {
+    "039087e4-6d3b-41e9-81e6-762025a8711e": "Dec_6"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "039087e4-6d3b-41e9-81e6-762025a8711e",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Discover",
+        "LastUpdated": "12/6/25 4:59 PM",
+        "DatabaseLastUpdated": "2025-12-05T01:06:01.720388+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              5,
+              6,
+              11,
+              13
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 3
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_039087e4-6d3b-41e9-81e6-762025a8711e_10",
+            "Name": "Bible Brainiacs",
+            "ChurchName": "Shepherd Church",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 0,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Andrea Urban",
+            "Quizzers": [
+              8,
+              14,
+              15
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_bc03847d-d325-4f77-ad2f-7ad9abb0532f",
+            "Name": "SouthGate Angel Jrs.",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 310,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 77.5,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 20,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Alese Miller",
+            "Quizzers": [
+              1,
+              9,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_b3d57338-a18e-45e7-aac6-36cb95abb301",
+            "Name": "SouthGate Chicken Rockets",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 58.8,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 18,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Adam Miller",
+            "Quizzers": [
+              3,
+              4,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 195,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_140c65dc-bc79-462e-97e0-0919b0588420",
+            "Name": "SouthGate Ducks",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 470,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 117.5,
+              "AverageCorrect": 8.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 24,
+              "Correct20s": 8,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jennie Schlatter",
+            "Quizzers": [
+              0,
+              2,
+              12
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_ad84bbaf-773d-42d3-9b60-f6f14c5c7b18",
+            "Name": "Whoppers",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.2,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 18,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          3,
+          1,
+          2,
+          4,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Whoppers",
+            "YearsQuizzing": null,
+            "Id": "q_bf167bbacaa3409ec46208dcfa7d4329",
+            "Name": "Abigail Schlatter",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.2,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "SouthGate Chicken Rockets",
+            "YearsQuizzing": null,
+            "Id": "q_42b468534b5442093cf208ddfc56c036",
+            "Name": "Alayna Ward",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.5,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Whoppers",
+            "YearsQuizzing": null,
+            "Id": "q_e5aa91517fe444efc46808dcfa7d4329",
+            "Name": "Andre Tambwe",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "SouthGate Ducks",
+            "YearsQuizzing": null,
+            "Id": "q_5d43c8d84885480f3cd508ddfc56c036",
+            "Name": "Benjamin Miller",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 58.8,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 10,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "SouthGate Ducks",
+            "YearsQuizzing": null,
+            "Id": "q_c3eb8d613acc47953cd908ddfc56c036",
+            "Name": "Colin Shuppert",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 230,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 57.5,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 13,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Bible Brainiacs",
+            "YearsQuizzing": null,
+            "Id": "q_039087e4-6d3b-41e9-81e6-762025a8711e_83",
+            "Name": "Elijah Abernathy",
+            "ChurchName": "Shepherd Church",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 0,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Brainiacs",
+            "YearsQuizzing": null,
+            "Id": "q_039087e4-6d3b-41e9-81e6-762025a8711e_86",
+            "Name": "Hana Schaeffner",
+            "ChurchName": "Shepherd Church",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "SouthGate Ducks",
+            "YearsQuizzing": null,
+            "Id": "q_fe44bc96e9f1471e3cde08ddfc56c036",
+            "Name": "Henry Bloss",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.2,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "SouthGate Angel Jrs.",
+            "YearsQuizzing": null,
+            "Id": "q_8605c662252947af3ccc08ddfc56c036",
+            "Name": "Isabella Atkins",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.2,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "SouthGate Chicken Rockets",
+            "YearsQuizzing": null,
+            "Id": "q_818fe0c9382f4ce63cec08ddfc56c036",
+            "Name": "Josie Atkins",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 11,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "SouthGate Chicken Rockets",
+            "YearsQuizzing": null,
+            "Id": "q_a15d1edb815b44d92e9c08de1ee74da6",
+            "Name": "Jude Urban",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.2,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 7,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Brainiacs",
+            "YearsQuizzing": null,
+            "Id": "q_039087e4-6d3b-41e9-81e6-762025a8711e_84",
+            "Name": "Lucas Blocher",
+            "ChurchName": "Shepherd Church",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Whoppers",
+            "YearsQuizzing": null,
+            "Id": "q_95619ab9ddf04899c45008dcfa7d4329",
+            "Name": "Natalie Fritts",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 47.5,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 16,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Brainiacs",
+            "YearsQuizzing": null,
+            "Id": "q_039087e4-6d3b-41e9-81e6-762025a8711e_85",
+            "Name": "no one",
+            "ChurchName": "Shepherd Church",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "SouthGate Angel Jrs.",
+            "YearsQuizzing": null,
+            "Id": "q_0a37463f213043b22e4d08de1ee74da6",
+            "Name": "Scarlett Urban",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.8,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "SouthGate Angel Jrs.",
+            "YearsQuizzing": null,
+            "Id": "q_bfb918ee7d5844c33cce08ddfc56c036",
+            "Name": "Sophia Bloss",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": true,
+              "TotalPoints": 230,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 57.5,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 12,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          3,
+          4,
+          15,
+          12,
+          10,
+          9,
+          8,
+          5,
+          14,
+          0,
+          2,
+          11,
+          7,
+          6,
+          13,
+          1
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "039087e4-6d3b-41e9-81e6-762025a8711e",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "PeeWee",
+        "LastUpdated": "12/6/25 4:59 PM",
+        "DatabaseLastUpdated": "2025-12-05T01:06:01.720388+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Sonya Keller",
+            "Quizzers": [
+              1,
+              3,
+              4
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 1
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6ff85d29-1205-42d0-927a-b42736da4b7f",
+            "Name": "Columbia City #1 victory disciples",
+            "ChurchName": "Victory Christian Fellowship Assembly of God",
+            "City": "Columbia City",
+            "State": "IN",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 76.2,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 32,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Betty Kocsis",
+            "Quizzers": [
+              0,
+              2,
+              6,
+              8
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_96d626c8-0470-4484-ad27-4481db13c23c",
+            "Name": "SouthGate Dino-Mights",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 85.0,
+              "AverageCorrect": 7.5,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 30,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Bibiche Tambwe",
+            "Quizzers": [
+              5,
+              7,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2ade1fff-6c13-49a0-99d8-22ac10509fc7",
+            "Name": "Tootsies",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.8,
+              "AverageCorrect": 6.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 27,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0,
+          2
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "SouthGate Dino-Mights",
+            "YearsQuizzing": null,
+            "Id": "q_44389ef242e5418a3cfe08ddfc56c036",
+            "Name": "Asher Miller",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 240,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 60.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 20,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Columbia City #1 victory disciples",
+            "YearsQuizzing": null,
+            "Id": "q_c2b41b3f9280443a4f6b08dd2b99e7e0",
+            "Name": "Isaac Keller",
+            "ChurchName": "Victory Christian Fellowship Assembly of God",
+            "City": "Columbia City",
+            "State": "IN",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.5,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 58,
+              "Correct10s": 11,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "SouthGate Dino-Mights",
+            "YearsQuizzing": null,
+            "Id": "q_c23ec22a223b4e4b3d0d08ddfc56c036",
+            "Name": "Jayda Jacob",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Columbia City #1 victory disciples",
+            "YearsQuizzing": null,
+            "Id": "q_c5030627cd9e4d504f6608dd2b99e7e0",
+            "Name": "JD Reinhard",
+            "ChurchName": "Victory Christian Fellowship Assembly of God",
+            "City": "Columbia City",
+            "State": "IN",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 58.8,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 20,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Columbia City #1 victory disciples",
+            "YearsQuizzing": null,
+            "Id": "q_b6e0d8d3529e4b63ed5c08ddff6180fc",
+            "Name": "Levy Keller",
+            "ChurchName": "Victory Christian Fellowship Assembly of God",
+            "City": "Columbia City",
+            "State": "IN",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Tootsies",
+            "YearsQuizzing": null,
+            "Id": "q_ad2da71ca3f643fe97df08ddfc3ef602",
+            "Name": "Liam Schlatter",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "SouthGate Dino-Mights",
+            "YearsQuizzing": null,
+            "Id": "q_3b158458cb5548d43d1308ddfc56c036",
+            "Name": "Madelyn Kocsis",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Tootsies",
+            "YearsQuizzing": null,
+            "Id": "q_147c299625da47563bf608ddfc56c036",
+            "Name": "Rosalie Zuniga",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 42.5,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 17,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "SouthGate Dino-Mights",
+            "YearsQuizzing": null,
+            "Id": "q_338c6b6ce46646643d1908ddfc56c036",
+            "Name": "Teddy Bloss",
+            "ChurchName": "Southgate Church",
+            "City": "South Bend",
+            "State": "IN",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Tootsies",
+            "YearsQuizzing": null,
+            "Id": "q_b986e7c5d2e14f483be908ddfc56c036",
+            "Name": "Therese Tambwe",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.2,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 25,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          0,
+          3,
+          7,
+          2,
+          5,
+          1,
+          8,
+          4,
+          6,
+          9
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "039087e4-6d3b-41e9-81e6-762025a8711e",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Searcher",
+        "LastUpdated": "12/6/25 4:59 PM",
+        "DatabaseLastUpdated": "2025-12-05T01:06:01.720388+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Michael Keller",
+            "Quizzers": [
+              3,
+              4,
+              6,
+              14
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_469a4214-1cf2-4ec1-8ec4-548dcd625dbb",
+            "Name": "Columbia City #1 victory warriors",
+            "ChurchName": "Victory Christian Fellowship Assembly of God",
+            "City": "Columbia City",
+            "State": "IN",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 590,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 98.3,
+              "AverageCorrect": 7.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 26,
+              "Correct20s": 19,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "David Alvarez",
+            "Quizzers": [
+              0,
+              1,
+              7,
+              9,
+              13
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 300,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 300,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 255,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 275,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 270,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_769759b8-4c0a-4316-b94b-25140acfcbcd",
+            "Name": "LifeSavers",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1620,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 270.0,
+              "AverageCorrect": 16.3,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 53,
+              "Correct20s": 30,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              5,
+              8
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_039087e4-6d3b-41e9-81e6-762025a8711e_12",
+            "Name": "Team Nada",
+            "ChurchName": "First Assembly of God",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              10,
+              11,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -15,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_039087e4-6d3b-41e9-81e6-762025a8711e_11",
+            "Name": "Wisdom Warriors",
+            "ChurchName": "Shepherd Outreach",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 9,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "LifeSavers",
+            "YearsQuizzing": null,
+            "Id": "q_f23fd6555dc34de83c3e08ddfc56c036",
+            "Name": "Alexa Guzman Ochoa",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.2,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LifeSavers",
+            "YearsQuizzing": null,
+            "Id": "q_dddcddb0c5a64ac3aca008dc53e1935e",
+            "Name": "Anaiah Perumala",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 895,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 149.2,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 1,
+              "Correct20s": 20,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Team Nada",
+            "YearsQuizzing": null,
+            "Id": "q_039087e4-6d3b-41e9-81e6-762025a8711e_103",
+            "Name": "December",
+            "ChurchName": "First Assembly of God",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Columbia City #1 victory warriors",
+            "YearsQuizzing": null,
+            "Id": "q_a825b5c6570e42be4f5508dd2b99e7e0",
+            "Name": "Ember Reinhard",
+            "ChurchName": "Victory Christian Fellowship Assembly of God",
+            "City": "Columbia City",
+            "State": "IN",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.8,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 22,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Columbia City #1 victory warriors",
+            "YearsQuizzing": null,
+            "Id": "q_52ddbf0333eb40c64f5308dd2b99e7e0",
+            "Name": "Jotham Hull",
+            "ChurchName": "Victory Christian Fellowship Assembly of God",
+            "City": "Columbia City",
+            "State": "IN",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 310,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 51.7,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 0,
+              "Correct20s": 17,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Team Nada",
+            "YearsQuizzing": null,
+            "Id": "q_039087e4-6d3b-41e9-81e6-762025a8711e_102",
+            "Name": "Joy",
+            "ChurchName": "First Assembly of God",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Columbia City #1 victory warriors",
+            "YearsQuizzing": null,
+            "Id": "q_40ade07121ca49b3ed0308ddff6180fc",
+            "Name": "KK Huskey",
+            "ChurchName": "Victory Christian Fellowship Assembly of God",
+            "City": "Columbia City",
+            "State": "IN",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LifeSavers",
+            "YearsQuizzing": null,
+            "Id": "q_67887215cfaa47d7ac9a08dc53e1935e",
+            "Name": "Kofi Osei",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 465,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 77.5,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 25,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Team Nada",
+            "YearsQuizzing": null,
+            "Id": "q_039087e4-6d3b-41e9-81e6-762025a8711e_101",
+            "Name": "Merry",
+            "ChurchName": "First Assembly of God",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "LifeSavers",
+            "YearsQuizzing": null,
+            "Id": "q_330fac9c4f404997c45608dcfa7d4329",
+            "Name": "Nikolai Fritts",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.8,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 21,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Wisdom Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_039087e4-6d3b-41e9-81e6-762025a8711e_92",
+            "Name": "Raleigh Shepherd",
+            "ChurchName": "Shepherd Outreach",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 6,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Wisdom Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_039087e4-6d3b-41e9-81e6-762025a8711e_93",
+            "Name": "Ross Shepherd",
+            "ChurchName": "Shepherd Outreach",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Wisdom Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_039087e4-6d3b-41e9-81e6-762025a8711e_94",
+            "Name": "Sarah Blocher",
+            "ChurchName": "Shepherd Outreach",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 105,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.5,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 3,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "LifeSavers",
+            "YearsQuizzing": null,
+            "Id": "q_54c73a678ed645443c3808ddfc56c036",
+            "Name": "Tobias Alvarez",
+            "ChurchName": "First Assembly of God",
+            "City": "Fort Wayne",
+            "State": "IN",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Columbia City #1 victory warriors",
+            "YearsQuizzing": null,
+            "Id": "q_b595bc6268ec4a7aecfd08ddff6180fc",
+            "Name": "Walker Huskey",
+            "ChurchName": "Victory Christian Fellowship Assembly of God",
+            "City": "Columbia City",
+            "State": "IN",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 40,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          1,
+          7,
+          4,
+          3,
+          9,
+          12,
+          10,
+          0,
+          13,
+          6,
+          2,
+          5,
+          8,
+          14,
+          11
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2025-12-06T16:59:09.8342064+00:00"
+}
