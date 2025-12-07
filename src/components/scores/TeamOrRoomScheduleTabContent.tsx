@@ -374,12 +374,11 @@ export default function TeamOrRoomScheduleTabContent({
                                     {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={(cardItem as ScoringReportTeam).Id} />&nbsp;</>)}
                                     {(cardItem as ScoringReportTeam).ChurchName}
                                 </p>
-                                <p className="mb-0 mt-0 italic text-md">
+                                <p className="subtitle italic mt-0">
                                     {(cardItem as ScoringReportTeam).Name}
                                 </p>
                                 {!isRoomReport && hasRanking && (
                                     <>
-                                        <p className="subtitle italic mt-0">{(cardItem as ScoringReportTeam).Name}</p>
                                         <div className="columns-4">
                                             <div className="text-center team-card-right-border">
                                                 <span className="text-lg font-bold">{ordinalWithSuffix((cardItem as ScoringReportTeam).Scores!.Rank)}{(cardItem as ScoringReportTeam).Scores!.IsTie ? '*' : ''}</span><br />
