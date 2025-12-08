@@ -195,7 +195,8 @@ export default function TeamOrRoomScheduleTabContent({
                             return (<li key={matchKey} className="ml-6">BYE</li>);
                         }
 
-                        const resolvedMeet = !meet.HasLinkedMeets || !(matchItem as ScoringReportRoomMatch).LinkedMeet
+                        const resolvedMeet = !meet.HasLinkedMeets || 
+                            (!(matchItem as ScoringReportRoomMatch).LinkedMeet && (matchItem as ScoringReportRoomMatch).LinkedMeet !== 0)
                             ? meet
                             : event.Report.Meets[(matchItem as ScoringReportRoomMatch).LinkedMeet!];
 
