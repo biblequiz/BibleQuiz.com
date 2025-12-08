@@ -83,10 +83,16 @@ export default function EventListFiltersDefaultDialog({
 
   const stateToRegionAndDistricts = useMemo(
     () => {
+      const currentDefault = getDefaultRegionAndDistrict();
+
       const indexedRegions: Map<string, RegionWithDistricts> = new Map();
       for (const region of regions) {
         indexedRegions.set(region.id, { info: region, districts: [] });
       }
+
+      let currentState: string | undefined = undefined;
+      const currentRegionId = currentDefault?.regionId;
+      const currentDistrictId = currentDefault?.districtId;
 
       const allStates: Map<string, { regions: Set<string>; districts: DistrictInfo[] }> = new Map();
       for (const district of districts) {
@@ -96,6 +102,13 @@ export default function EventListFiltersDefaultDialog({
         }
         else {
           continue;
+        }
+
+        if (district.id === currentDistrictId) {
+          currentState = district.states[0];
+        }
+        else if (!currentState && !currentDistrictId && district.regionId === currentRegionId) {
+          currentState = region.info.states[0];
         }
 
         for (const state of district.states) {
@@ -131,7 +144,18 @@ export default function EventListFiltersDefaultDialog({
         }
       }
 
-      setStateAndDefaultDistrict(sortedStateKeys[0], sortedStates.get(sortedStateKeys[0]));
+      if (currentState && currentRegionId) {
+        setState(currentState);
+        if (currentDistrictId) {
+          setRegionOrDistrict(`${currentRegionId}_${currentDistrictId}`);
+        }
+        else {
+          setRegionOrDistrict(currentRegionId);
+        }
+      }
+      else {
+        setStateAndDefaultDistrict(sortedStateKeys[0], sortedStates.get(sortedStateKeys[0]));
+      }
 
       return sortedStates;
     }, [regions, districts]);
