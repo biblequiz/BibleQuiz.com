@@ -205,7 +205,7 @@ export default function LiveAndUpcomingRoot({
                 districts={districts}
             />
             {renderEventSection("LIVE EVENTS", "success", "faTowerBroadcast", liveEvents, eventFilters, true)}
-            {renderEventSection("JUST HAPPENED", "secondary", "faClockRotateLeft", recentEvents, eventFilters, true)}
+            {renderEventSection("JUST HAPPENED", "info", "faClockRotateLeft", recentEvents, eventFilters, true)}
             {renderEventSection("UP NEXT", "primary", "faCalendarDays", upcomingEvents, eventFilters, false)}
         </div>);
 }

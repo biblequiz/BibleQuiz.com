@@ -18,6 +18,11 @@ const DEFAULT_LOCATION_STORAGE_KEY = "event-list-filters-defaults--";
 export interface DefaultRegionAndDistrict {
 
   /**
+   * Selected state.
+   */
+  state?: string;
+
+  /**
    * Region id.
    */
   regionId?: string;
@@ -131,7 +136,20 @@ export default function EventListFiltersDefaultDialog({
         }
       }
 
-      setStateAndDefaultDistrict(sortedStateKeys[0], sortedStates.get(sortedStateKeys[0]));
+      const currentDefault = getDefaultRegionAndDistrict();
+      const currentDefaultEntry = allStates.get(currentDefault?.state ?? "");
+      if (currentDefaultEntry) {
+        setState(currentDefault!.state);
+        if (currentDefault!.districtId) {
+          setRegionOrDistrict(`${currentDefault!.regionId}_${currentDefault!.districtId}`);
+        }
+        else {
+          setRegionOrDistrict(currentDefault!.regionId);
+        }
+      }
+      else {
+        setStateAndDefaultDistrict(sortedStateKeys[0], sortedStates.get(sortedStateKeys[0]));
+      }
 
       return sortedStates;
     }, [regions, districts]);
@@ -148,6 +166,7 @@ export default function EventListFiltersDefaultDialog({
 
     const key = regionOrDistrict.split('_');
     const newValues: DefaultRegionAndDistrict = {
+      state: state,
       regionId: key.length > 0 ? key[0] : undefined,
       districtId: key.length > 1 ? key[1] : undefined,
     };

@@ -368,7 +368,7 @@ export class EventInfo extends RemoteServiceModelBase<string> {
     /**
      * Gets the ID for the region.
      */
-    public RegionId!: string;
+    public RegionId!: string | null;
 
     /**
      * Gets the name of the region.
@@ -378,7 +378,7 @@ export class EventInfo extends RemoteServiceModelBase<string> {
     /**
      * Gets the ID for the district.
      */
-    public DistrictId!: string;
+    public DistrictId!: string | null;
 
     /**
      * Gets the name of the district.

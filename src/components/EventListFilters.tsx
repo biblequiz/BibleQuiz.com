@@ -321,6 +321,12 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
 
             if (newLocation) {
               setScope(getKeyFromLocation(newLocation));
+
+              setSharedStateAndPersist({
+                ...currentEventFilters,
+                regionId: newLocation.regionId,
+                districtId: newLocation.districtId,
+              });
             }
           }} />)
       }
