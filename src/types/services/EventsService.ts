@@ -386,26 +386,6 @@ export class EventInfo extends RemoteServiceModelBase<string> {
     public readonly DistrictName!: string | null;
 
     /**
-     * Gets or sets the ID for the region when overriding the scope for the archives.
-     */
-    public ArchiveRegionId!: string | null;
-
-    /**
-     * Gets the name of the region when overriding the scope for the archives.
-     */
-    public readonly ArchiveRegionName!: string | null;
-
-    /**
-     * Gets or sets the ID for the district when overriding the scope for the archives.
-     */
-    public ArchiveDistrictId!: string | null;
-
-    /**
-     * Gets the name of the district when overriding the scope for the archives.
-     */
-    public readonly ArchiveDistrictName!: string | null;
-
-    /**
      * Gets or sets the eligibility for teams registering for this event.
      */
     public Eligibility!: EventEligibility;
