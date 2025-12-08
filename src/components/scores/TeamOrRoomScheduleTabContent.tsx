@@ -206,9 +206,14 @@ export default function TeamOrRoomScheduleTabContent({
                         let match: ScoringReportTeamMatch | null = null;
                         if (matchItem && isRoomReport) {
                             matchTeam = resolvedMeet.Teams![(matchItem as ScoringReportRoomMatch).Team1];
-                            match = matchTeam.Matches![matchIndex];
-                            shouldHighlightSearchResult = eventFilters?.highlightTeamId === matchTeam?.Id;
-                            shouldHighlightFavorite = favorites?.teamIds.has(matchTeam?.Id) ?? false;
+                            if (matchTeam) {
+                                match = matchTeam.Matches![matchIndex];
+                                shouldHighlightSearchResult = eventFilters?.highlightTeamId === matchTeam?.Id;
+                                shouldHighlightFavorite = favorites?.teamIds.has(matchTeam?.Id) ?? false;
+                            }
+                            else {
+                                match = null;
+                            }
                         }
                         else {
                             match = matchItem as ScoringReportTeamMatch | null;
@@ -217,7 +222,7 @@ export default function TeamOrRoomScheduleTabContent({
                         const isLiveMatch = null != match && null != match.CurrentQuestion;
                         const isScheduleOnly = !hasRanking ||
                             (!isLiveMatch &&
-                                ((match as ScoringReportTeamMatch).Score === null || (match as ScoringReportTeamMatch).Score === undefined));
+                                ((match as ScoringReportTeamMatch)?.Score === null || (match as ScoringReportTeamMatch)?.Score === undefined));
 
                         // Determine the prefix before each match.
                         let cellText = [];
@@ -225,11 +230,8 @@ export default function TeamOrRoomScheduleTabContent({
                             cellText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
                         }
 
-                        if (isRoomReport) {
-                            console.log("Room report match team:", matchTeam);
-                            //const shortName = getTeamShortName(matchTeam!.ChurchName, matchTeam!.City, matchTeam!.State);
+                        if (isRoomReport && matchTeam) {
                             cellText.push(`"${matchTeam!.Name}"`);
-                            //cellText.push(matchTeam!.Name+"("+(shortName)+")");
                         }
 
                         if (isScheduleOnly) {
@@ -265,9 +267,7 @@ export default function TeamOrRoomScheduleTabContent({
                             if (!shouldHighlightFavorite && (favorites?.teamIds.has(otherTeam.Id) ?? false)) {
                                 shouldHighlightFavorite = true;
                             }
-                            //const shortName = getTeamShortName(otherTeam.ChurchName, otherTeam.City,otherTeam.State);
-                            //cellText.push(otherTeam.Name+"("+shortName +")");
-                            cellText.push(otherTeam.Name);
+                            cellText.push(`"${otherTeam.Name}"`);
                             if (!isScheduleOnly) {
                                 if (isLiveMatch) {
                                     if (!isRoomReport) {
@@ -374,9 +374,11 @@ export default function TeamOrRoomScheduleTabContent({
                                     {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={(cardItem as ScoringReportTeam).Id} />&nbsp;</>)}
                                     {(cardItem as ScoringReportTeam).ChurchName}
                                 </p>
+                                <p className="subtitle italic mt-0">
+                                    {(cardItem as ScoringReportTeam).Name}
+                                </p>
                                 {!isRoomReport && hasRanking && (
                                     <>
-                                        <p className="subtitle italic mt-0">{(cardItem as ScoringReportTeam).Name}</p>
                                         <div className="columns-4">
                                             <div className="text-center team-card-right-border">
                                                 <span className="text-lg font-bold">{ordinalWithSuffix((cardItem as ScoringReportTeam).Scores!.Rank)}{(cardItem as ScoringReportTeam).Scores!.IsTie ? '*' : ''}</span><br />

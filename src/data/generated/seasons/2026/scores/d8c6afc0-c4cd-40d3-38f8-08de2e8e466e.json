@@ -1,5 +1,5 @@
 {
-  "EventName": "2025-2026 JBQ Eau Claire November League Meet",
+  "EventName": "2025-2026 JBQ Eau Claire December League Meet",
   "DatabaseNames": {
     "b262d0af-f62b-4e17-ab82-26848dc02f21": "2025-2026_Eau_Claire_League_Meet"
   },
@@ -7,13 +7,13 @@
     "Meets": [
       {
         "DatabaseId": "b262d0af-f62b-4e17-ab82-26848dc02f21",
-        "MeetId": 1,
+        "MeetId": 2,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "November 25",
-        "LastUpdated": "12/5/25 3:28 AM",
-        "DatabaseLastUpdated": "2025-12-05T00:24:51.6842742+00:00",
+        "Name": "December 25",
+        "LastUpdated": "12/6/25 7:12 PM",
+        "DatabaseLastUpdated": "2025-12-05T00:32:02.2535201+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -24,15 +24,6 @@
               18
             ],
             "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 5
-              },
               {
                 "Result": "L",
                 "RoomId": 3,
@@ -48,8 +39,8 @@
                 "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 75,
-                "OtherTeam": 1
+                "Score": 85,
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -57,26 +48,44 @@
                 "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 80,
+                "Score": 100,
                 "OtherTeam": 4
               },
               {
                 "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
+                "RoomId": 1,
+                "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 3
+                "Score": 60,
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
+                "RoomId": 3,
+                "Room": "C",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 100,
+                "Score": 60,
                 "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -87,19 +96,19 @@
             "State": "WI",
             "Scores": {
               "Wins": 0,
-              "Losses": 6,
+              "Losses": 7,
               "WinPercentage": 0,
               "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 445,
+              "TotalPoints": 545,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 74.2,
-              "AverageCorrect": 5.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 18,
-              "Correct20s": 8,
-              "Correct30s": 4,
+              "AveragePoints": 77.9,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 22,
+              "Correct20s": 14,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -113,30 +122,12 @@
             "Matches": [
               {
                 "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 165,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
                 "RoomId": 1,
                 "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 50,
+                "Score": 165,
                 "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 155,
-                "OtherTeam": 0
               },
               {
                 "Result": "L",
@@ -144,26 +135,53 @@
                 "Room": "C",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "C",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 170,
+                "Score": 130,
                 "OtherTeam": 4
               },
               {
                 "Result": "W",
-                "RoomId": 3,
-                "Room": "C",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 210,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
                 "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 4
               }
             ],
             "CurrentMatchId": null,
@@ -174,20 +192,20 @@
             "State": "WI",
             "Scores": {
               "Wins": 5,
-              "Losses": 1,
-              "WinPercentage": 83,
-              "Rank": 3,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 890,
+              "TotalPoints": 1200,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 148.3,
-              "AverageCorrect": 10.5,
+              "AveragePoints": 171.4,
+              "AverageCorrect": 11.4,
               "QuizOuts": 7,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 35,
-              "Correct20s": 23,
-              "Correct30s": 5,
-              "FootnoteIndex": 0
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 43,
+              "Correct20s": 28,
+              "Correct30s": 9,
+              "FootnoteIndex": null
             }
           },
           {
@@ -200,21 +218,12 @@
             ],
             "Matches": [
               {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 1
-              },
-              {
                 "Result": "W",
                 "RoomId": 3,
                 "Room": "C",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 210,
+                "Score": 175,
                 "OtherTeam": 0
               },
               {
@@ -223,8 +232,44 @@
                 "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 110,
+                "Score": 165,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
                 "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 195,
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
@@ -232,26 +277,8 @@
                 "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 190,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
+                "Score": 170,
                 "OtherTeam": 5
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "C",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 115,
-                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -261,21 +288,21 @@
             "City": "Eau Claire",
             "State": "WI",
             "Scores": {
-              "Wins": 2,
-              "Losses": 4,
-              "WinPercentage": 33,
+              "Wins": 4,
+              "Losses": 3,
+              "WinPercentage": 57,
               "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 835,
+              "TotalPoints": 1005,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 139.2,
-              "AverageCorrect": 8.5,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 24,
-              "Correct20s": 16,
-              "Correct30s": 11,
-              "FootnoteIndex": null
+              "AveragePoints": 143.6,
+              "AverageCorrect": 8.6,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 26,
+              "Correct20s": 20,
+              "Correct30s": 14,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -290,39 +317,12 @@
             "Matches": [
               {
                 "Result": "L",
-                "RoomId": 3,
-                "Room": "C",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
                 "RoomId": 1,
                 "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 35,
+                "Score": -20,
                 "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "C",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 125,
-                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -330,8 +330,26 @@
                 "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 205,
+                "Score": 180,
                 "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -339,8 +357,26 @@
                 "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 70,
+                "Score": 105,
                 "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
@@ -350,20 +386,20 @@
             "City": "New Richmond",
             "State": "WI",
             "Scores": {
-              "Wins": 1,
+              "Wins": 2,
               "Losses": 5,
-              "WinPercentage": 17,
+              "WinPercentage": 29,
               "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 555,
+              "TotalPoints": 715,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 92.5,
-              "AverageCorrect": 8.3,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 68,
-              "Correct10s": 29,
-              "Correct20s": 20,
-              "Correct30s": 1,
+              "AveragePoints": 102.1,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 30,
+              "Correct20s": 23,
+              "Correct30s": 3,
               "FootnoteIndex": null
             }
           },
@@ -377,48 +413,21 @@
             ],
             "Matches": [
               {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "C",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 220,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 200,
+                "Score": 105,
                 "OtherTeam": 5
               },
               {
                 "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 185,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 265,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
                 "RoomId": 3,
                 "Room": "C",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 165,
+                "Score": 190,
                 "OtherTeam": 1
               },
               {
@@ -427,8 +436,44 @@
                 "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 180,
+                "Score": 230,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 265,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
                 "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -438,21 +483,21 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Wins": 5,
+              "Wins": 6,
               "Losses": 1,
-              "WinPercentage": 83,
+              "WinPercentage": 86,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 1215,
+              "TotalPoints": 1390,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 202.5,
-              "AverageCorrect": 11.7,
+              "AveragePoints": 198.6,
+              "AverageCorrect": 11.4,
               "QuizOuts": 9,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 34,
-              "Correct20s": 21,
-              "Correct30s": 15,
-              "FootnoteIndex": 0
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 37,
+              "Correct20s": 25,
+              "Correct30s": 18,
+              "FootnoteIndex": null
             }
           },
           {
@@ -465,12 +510,21 @@
             "Matches": [
               {
                 "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 255,
-                "OtherTeam": 0
+                "Score": 170,
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -478,8 +532,8 @@
                 "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 4
+                "Score": 150,
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -487,7 +541,7 @@
                 "Room": "C",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 175,
+                "Score": 170,
                 "OtherTeam": 3
               },
               {
@@ -496,26 +550,26 @@
                 "Room": "C",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 210,
-                "OtherTeam": 1
+                "Score": 200,
+                "OtherTeam": 0
               },
               {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 190,
-                "OtherTeam": 2
+                "Score": 155,
+                "OtherTeam": 4
               },
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 215,
-                "OtherTeam": 0
+                "Score": 60,
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -525,19 +579,19 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Wins": 5,
-              "Losses": 1,
-              "WinPercentage": 83,
-              "Rank": 2,
+              "Wins": 4,
+              "Losses": 3,
+              "WinPercentage": 57,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 1185,
+              "TotalPoints": 1040,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 197.5,
-              "AverageCorrect": 12.2,
-              "QuizOuts": 8,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 36,
-              "Correct20s": 32,
+              "AveragePoints": 148.6,
+              "AverageCorrect": 10.9,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 48,
+              "Correct20s": 23,
               "Correct30s": 5,
               "FootnoteIndex": 0
             }
@@ -545,8 +599,8 @@
         ],
         "RankedTeams": [
           4,
-          5,
           1,
+          5,
           2,
           3,
           0
@@ -554,7 +608,7 @@
         "TeamFootnotes": [
           {
             "Symbol": "*",
-            "Text": "Tie broken by comparing total points of each team."
+            "Text": "Tie couldn't be broken by tie breaking rules."
           }
         ],
         "Quizzers": [
@@ -567,18 +621,18 @@
             "City": "New Richmond",
             "State": "WI",
             "Scores": {
-              "Rank": 13,
-              "IsTie": true,
-              "TotalPoints": 60,
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 15,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 1.2,
+              "AveragePoints": 2.1,
+              "AverageCorrect": 0.4,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 7,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 3,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -590,18 +644,18 @@
             "City": "New Richmond",
             "State": "WI",
             "Scores": {
-              "Rank": 18,
+              "Rank": 17,
               "IsTie": false,
-              "TotalPoints": 15,
+              "TotalPoints": 20,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.5,
+              "AveragePoints": 2.9,
               "AverageCorrect": 0.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
+              "QuestionCorrectPercentage": 100,
               "Correct10s": 2,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -613,15 +667,15 @@
             "City": "Eau Claire",
             "State": "WI",
             "Scores": {
-              "Rank": 19,
+              "Rank": 13,
               "IsTie": false,
-              "TotalPoints": 10,
+              "TotalPoints": 85,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 1.7,
-              "AverageCorrect": 0.3,
+              "AveragePoints": 12.1,
+              "AverageCorrect": 1.9,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 2,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 13,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -636,15 +690,15 @@
             "City": "Eau Claire",
             "State": "WI",
             "Scores": {
-              "Rank": 7,
+              "Rank": 9,
               "IsTie": false,
-              "TotalPoints": 365,
+              "TotalPoints": 315,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 60.8,
-              "AverageCorrect": 5.5,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 33,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 30,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -661,9 +715,9 @@
             "Scores": {
               "Rank": 21,
               "IsTie": false,
-              "TotalPoints": -5,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -0.8,
+              "AveragePoints": 0.0,
               "AverageCorrect": 0.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 0,
@@ -682,15 +736,15 @@
             "City": "Eau Claire",
             "State": "WI",
             "Scores": {
-              "Rank": 16,
+              "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 35,
+              "TotalPoints": 90,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 5.8,
-              "AverageCorrect": 0.7,
+              "AveragePoints": 12.9,
+              "AverageCorrect": 1.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 9,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -705,18 +759,18 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 2,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 640,
+              "TotalPoints": 525,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 106.7,
-              "AverageCorrect": 5.3,
+              "AveragePoints": 75.0,
+              "AverageCorrect": 4.4,
               "QuizOuts": 3,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 1,
-              "Correct20s": 31,
-              "Correct30s": 0,
-              "FootnoteIndex": null
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 5,
+              "Correct20s": 23,
+              "Correct30s": 3,
+              "FootnoteIndex": 1
             }
           },
           {
@@ -728,8 +782,8 @@
             "City": "Dallas",
             "State": "WI",
             "Scores": {
-              "Rank": 20,
-              "IsTie": false,
+              "Rank": 21,
+              "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -739,7 +793,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -752,17 +806,17 @@
             "State": "WI",
             "Scores": {
               "Rank": 17,
-              "IsTie": false,
+              "IsTie": true,
               "TotalPoints": 20,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 3.3,
+              "AveragePoints": 2.9,
               "AverageCorrect": 0.3,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
               "Correct10s": 2,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -774,15 +828,15 @@
             "City": "Eau Claire",
             "State": "WI",
             "Scores": {
-              "Rank": 10,
+              "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 185,
+              "TotalPoints": 115,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 30.8,
-              "AverageCorrect": 3.2,
+              "AveragePoints": 16.4,
+              "AverageCorrect": 1.7,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 95,
-              "Correct10s": 19,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 12,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -797,18 +851,18 @@
             "City": "Eau Claire",
             "State": "WI",
             "Scores": {
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 620,
+              "Rank": 2,
+              "IsTie": true,
+              "TotalPoints": 800,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 103.3,
-              "AverageCorrect": 4.7,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 1,
-              "Correct20s": 16,
-              "Correct30s": 11,
-              "FootnoteIndex": null
+              "AveragePoints": 114.3,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 5,
+              "Correct20s": 20,
+              "Correct30s": 14,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -822,14 +876,14 @@
             "Scores": {
               "Rank": 15,
               "IsTie": false,
-              "TotalPoints": 40,
+              "TotalPoints": 45,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 6.7,
-              "AverageCorrect": 0.7,
+              "AveragePoints": 6.4,
+              "AverageCorrect": 0.6,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 3,
-              "Correct20s": 1,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 2,
+              "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -843,15 +897,15 @@
             "City": "New Richmond",
             "State": "WI",
             "Scores": {
-              "Rank": 11,
+              "Rank": 10,
               "IsTie": false,
-              "TotalPoints": 140,
+              "TotalPoints": 265,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 23.3,
-              "AverageCorrect": 3.2,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 61,
-              "Correct10s": 19,
+              "AveragePoints": 37.9,
+              "AverageCorrect": 3.6,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 25,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -868,15 +922,15 @@
             "Scores": {
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 870,
+              "TotalPoints": 985,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 145.0,
-              "AverageCorrect": 6.0,
+              "AveragePoints": 140.7,
+              "AverageCorrect": 5.9,
               "QuizOuts": 6,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 1,
-              "Correct20s": 20,
-              "Correct30s": 15,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 0,
+              "Correct20s": 23,
+              "Correct30s": 18,
               "FootnoteIndex": null
             }
           },
@@ -889,18 +943,18 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 21,
-              "IsTie": true,
-              "TotalPoints": -5,
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -0.8,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.1,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -912,17 +966,17 @@
             "City": "New Richmond",
             "State": "WI",
             "Scores": {
-              "Rank": 9,
+              "Rank": 8,
               "IsTie": false,
-              "TotalPoints": 230,
+              "TotalPoints": 335,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 38.3,
-              "AverageCorrect": 2.7,
+              "AveragePoints": 47.9,
+              "AverageCorrect": 3.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 64,
+              "QuestionCorrectPercentage": 72,
               "Correct10s": 0,
-              "Correct20s": 15,
-              "Correct30s": 1,
+              "Correct20s": 21,
+              "Correct30s": 0,
               "FootnoteIndex": null
             }
           },
@@ -935,15 +989,15 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 8,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 310,
+              "TotalPoints": 350,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 51.7,
-              "AverageCorrect": 5.0,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 4.9,
               "QuizOuts": 3,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 30,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 34,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -958,18 +1012,18 @@
             "City": "Eau Claire",
             "State": "WI",
             "Scores": {
-              "Rank": 4,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 515,
+              "TotalPoints": 800,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 85.8,
-              "AverageCorrect": 4.7,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 76,
+              "AveragePoints": 114.3,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 86,
               "Correct10s": 0,
-              "Correct20s": 23,
-              "Correct30s": 5,
-              "FootnoteIndex": null
+              "Correct20s": 28,
+              "Correct30s": 9,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -981,17 +1035,17 @@
             "City": "Dallas",
             "State": "WI",
             "Scores": {
-              "Rank": 6,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 425,
+              "TotalPoints": 525,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 70.8,
-              "AverageCorrect": 4.7,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 16,
-              "Correct20s": 8,
-              "Correct30s": 4,
+              "AveragePoints": 75.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 20,
+              "Correct20s": 14,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -1004,17 +1058,17 @@
             "City": "New Richmond",
             "State": "WI",
             "Scores": {
-              "Rank": 12,
+              "Rank": 14,
               "IsTie": false,
-              "TotalPoints": 110,
+              "TotalPoints": 80,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 18.3,
-              "AverageCorrect": 1.0,
+              "AveragePoints": 11.4,
+              "AverageCorrect": 0.7,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
-              "Correct20s": 5,
-              "Correct30s": 0,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 3,
               "FootnoteIndex": null
             }
           },
@@ -1027,18 +1081,18 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 13,
+              "Rank": 16,
               "IsTie": false,
-              "TotalPoints": 60,
+              "TotalPoints": 35,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 1.0,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.7,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 6,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 5,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -1050,49 +1104,53 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 5,
+              "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 485,
+              "TotalPoints": 480,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 80.8,
-              "AverageCorrect": 5.8,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 29,
-              "Correct20s": 1,
-              "Correct30s": 5,
+              "AveragePoints": 68.6,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 38,
+              "Correct20s": 0,
+              "Correct30s": 2,
               "FootnoteIndex": null
             }
           }
         ],
         "RankedQuizzers": [
           13,
-          6,
-          10,
           17,
-          21,
+          10,
           18,
-          3,
+          6,
+          21,
           16,
           15,
-          9,
+          3,
           12,
-          19,
-          20,
-          0,
-          11,
+          9,
           5,
-          8,
-          1,
           2,
-          7,
+          19,
+          11,
+          20,
+          1,
+          8,
+          0,
+          14,
           4,
-          14
+          7
         ],
         "QuizzerFootnotes": [
           {
             "Symbol": "*",
             "Text": "Tie couldn't be broken by tie breaking rules."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie broken by total quiz outs."
           }
         ],
         "MeetNames": null,
@@ -1100,14 +1158,6 @@
           {
             "Name": "A",
             "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
@@ -1119,7 +1169,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
+                "Team1": 5,
                 "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
@@ -1135,8 +1185,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 2,
+                "Team1": 1,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1145,6 +1195,22 @@
                 "LinkedMeet": null,
                 "Team1": 4,
                 "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1156,32 +1222,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 4,
                 "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1196,8 +1238,40 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 0,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1209,14 +1283,6 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 2,
                 "Team2": 0,
                 "State": "Completed",
@@ -1225,6 +1291,22 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
                 "Team1": 5,
                 "Team2": 3,
                 "State": "Completed",
@@ -1234,7 +1316,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 1,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1242,15 +1324,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 4,
-                "Team2": 1,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 2,
+                "Team1": 3,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1264,37 +1346,43 @@
         "Matches": [
           {
             "Id": 1,
-            "MatchTime": "09:50 AM",
+            "MatchTime": "09:45 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 2,
-            "MatchTime": "10:20 AM",
+            "MatchTime": "10:15 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 3,
-            "MatchTime": "10:50 AM",
+            "MatchTime": "10:45 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 4,
-            "MatchTime": "11:20 AM",
+            "MatchTime": "11:15 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 5,
-            "MatchTime": "11:50 AM",
+            "MatchTime": "11:45 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 6,
-            "MatchTime": "12:20 PM",
+            "MatchTime": "12:15 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": "12:45 PM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           }
@@ -1326,5 +1414,5 @@
       }
     }
   ],
-  "Freshness": "2025-12-05T00:24:52.0023525+00:00"
+  "Freshness": "2025-12-06T19:12:00.6381702+00:00"
 }
