@@ -6,6 +6,7 @@ import type { EventTypeList, EventList } from "types/EventTypes";
 import regions from "data/regions.json";
 import districts from "data/districts.json";
 import EventListContent from "./EventListContent";
+import futureEvents from "data/generated/futureEvents.json";
 
 interface Props {
     season: number;
@@ -56,6 +57,7 @@ const events: EventTypeList | null =
     />
     <EventListContent
         events={events || {}}
+        futureEvents={(futureEvents as any as EventTypeList) || {}}
         loadingElementId="events-fallback"
         containerElementId="events-list"
         excludeMissingDates={source === "generated"}

@@ -135,7 +135,7 @@ export default function LiveAndUpcomingRoot({
                             continue;
                         }
 
-                        let startDate = DataTypeHelpers.parseDateOnly(event.startDate)!;
+                        const startDate = DataTypeHelpers.parseDateOnly(event.startDate)!;
                         const endDate = DataTypeHelpers.parseDateOnly(event.endDate)!;
 
                         const eventItem: EventItem = {
