@@ -18,6 +18,11 @@ const DEFAULT_LOCATION_STORAGE_KEY = "event-list-filters-defaults--";
 export interface DefaultRegionAndDistrict {
 
   /**
+   * Selected state.
+   */
+  state?: string;
+
+  /**
    * Region id.
    */
   regionId?: string;
@@ -83,16 +88,10 @@ export default function EventListFiltersDefaultDialog({
 
   const stateToRegionAndDistricts = useMemo(
     () => {
-      const currentDefault = getDefaultRegionAndDistrict();
-
       const indexedRegions: Map<string, RegionWithDistricts> = new Map();
       for (const region of regions) {
         indexedRegions.set(region.id, { info: region, districts: [] });
       }
-
-      let currentState: string | undefined = undefined;
-      const currentRegionId = currentDefault?.regionId;
-      const currentDistrictId = currentDefault?.districtId;
 
       const allStates: Map<string, { regions: Set<string>; districts: DistrictInfo[] }> = new Map();
       for (const district of districts) {
@@ -102,13 +101,6 @@ export default function EventListFiltersDefaultDialog({
         }
         else {
           continue;
-        }
-
-        if (district.id === currentDistrictId) {
-          currentState = district.states[0];
-        }
-        else if (!currentState && !currentDistrictId && district.regionId === currentRegionId) {
-          currentState = region.info.states[0];
         }
 
         for (const state of district.states) {
@@ -144,13 +136,15 @@ export default function EventListFiltersDefaultDialog({
         }
       }
 
-      if (currentState && currentRegionId) {
-        setState(currentState);
-        if (currentDistrictId) {
-          setRegionOrDistrict(`${currentRegionId}_${currentDistrictId}`);
+      const currentDefault = getDefaultRegionAndDistrict();
+      const currentDefaultEntry = allStates.get(currentDefault?.state ?? "");
+      if (currentDefaultEntry) {
+        setState(currentDefault!.state);
+        if (currentDefault!.districtId) {
+          setRegionOrDistrict(`${currentDefault!.regionId}_${currentDefault!.districtId}`);
         }
         else {
-          setRegionOrDistrict(currentRegionId);
+          setRegionOrDistrict(currentDefault!.regionId);
         }
       }
       else {
@@ -172,6 +166,7 @@ export default function EventListFiltersDefaultDialog({
 
     const key = regionOrDistrict.split('_');
     const newValues: DefaultRegionAndDistrict = {
+      state: state,
       regionId: key.length > 0 ? key[0] : undefined,
       districtId: key.length > 1 ? key[1] : undefined,
     };
