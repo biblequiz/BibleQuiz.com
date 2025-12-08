@@ -44,7 +44,7 @@ function renderEventSection(
     }
 
     const filteredEvents = eventFilters
-        ? events.filter(event => matchesFilter(eventFilters, event.info, event.type))
+        ? events.filter(event => matchesFilter(eventFilters, event.urlSlug, event.info, event.type))
         : events;
 
     return (
@@ -203,6 +203,7 @@ export default function LiveAndUpcomingRoot({
             <EventListFilters
                 regions={regions}
                 districts={districts}
+                allowTypeFilter={true}
             />
             {renderEventSection("LIVE EVENTS", "success", "faTowerBroadcast", liveEvents, eventFilters, true)}
             {renderEventSection("JUST HAPPENED", "info", "faClockRotateLeft", recentEvents, eventFilters, true)}
