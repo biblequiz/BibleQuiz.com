@@ -27,10 +27,17 @@ const setSharedStateAndPersist = (newFilters: EventFilterConfiguration) => {
  * Determines whether the given event matches the provided filter configuration.
  *
  * @param filter The filter configuration to apply.
+ * @param urlSlug The URL slug of the event.
  * @param event The event to check against the filter.
+ * @param type The type of the event.
+ *
  * @returns True if the event matches the filter; otherwise, false.
  */
-export function matchesFilter(filter: EventFilterConfiguration, event: EventInfo, type: string): boolean {
+export function matchesFilter(
+  filter: EventFilterConfiguration,
+  urlSlug: string,
+  event: EventInfo,
+  type: string): boolean {
   if (!event.isVisible) {
     return false;
   }
@@ -50,6 +57,10 @@ export function matchesFilter(filter: EventFilterConfiguration, event: EventInfo
       !event.locationCity?.toLocaleLowerCase().includes(searchText)) {
       return false;
     }
+  }
+
+  if (filter.urlPrefix && !urlSlug.toLowerCase().startsWith(filter.urlPrefix)) {
+    return false;
   }
 
   switch (event.scope) {
@@ -93,6 +104,7 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
   const [typeFilter, setTypeFilter] = useState<string | undefined>(undefined);
   const [scope, setScope] = useState<string | undefined>(undefined);
   const [typeFilterOverride, setTypeFilterOverride] = useState<string | undefined>(undefined);
+  const [urlPrefix, setUrlPrefix] = useState<string | undefined>(undefined);
   const [showDefaultDialog, setShowDefaultDialog] = useState<boolean>(() => !getDefaultRegionAndDistrict());
 
   useEffect(() => {
@@ -130,6 +142,7 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
         setSearchText(deserialized.searchText);
         setTypeFilter(deserialized.typeFilter);
         setTypeFilterOverride(newTypeFilterOverride);
+        setUrlPrefix(deserialized.urlPrefix);
 
         if (deserialized.districtId) {
           const { regionId, districtId } = deserialized;
@@ -190,6 +203,21 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
     });
   };
 
+  const handleUrlPrefixChanged = (e: React.ChangeEvent<HTMLSelectElement>) => {
+
+    const selectedValue = e.target.value;
+    const newFilter = DataTypeHelpers.isNullOrEmpty(selectedValue)
+      ? undefined
+      : selectedValue.toLowerCase();
+
+    setUrlPrefix(newFilter);
+
+    setSharedStateAndPersist({
+      ...currentEventFilters,
+      urlPrefix: newFilter
+    });
+  };
+
   const hasDefaultFilters = useMemo(() => {
     return getKeyFromLocation(getDefaultRegionAndDistrict()) === scope;
   }, [scope]);
@@ -197,6 +225,7 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
   const handleClearFilters = () => {
     setSearchText(undefined);
     setTypeFilter(undefined);
+    setUrlPrefix(undefined);
 
     const defaultLocation = getDefaultRegionAndDistrict();
     setScope(getKeyFromLocation(defaultLocation));
@@ -210,7 +239,7 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
     } as EventFilterConfiguration);
   };
 
-  const hasFilters = (searchText || !hasDefaultFilters || typeFilter);
+  const hasFilters = (searchText || !hasDefaultFilters || typeFilter || !!urlPrefix);
 
   return (
     <>
@@ -284,12 +313,25 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
               onChange={handleTypeChanged}
               value={typeFilter ?? ""}>
               <option value="">
-                JBQ and TBQ Events
+                JBQ &amp; TBQ
               </option>
-              <option value="jbq">JBQ Events Only</option>
-              <option value="tbq">TBQ Events Only</option>
+              <option value="jbq">JBQ Only</option>
+              <option value="tbq">TBQ Only</option>
             </select>)}
-          {hasDefaultFilters && (
+          <select
+            className="select select-sm mt-0 w-auto"
+            onChange={handleUrlPrefixChanged}
+            value={urlPrefix ?? ""}>
+            <option value="">
+              All
+            </option>
+            <option value="nationals/">Nationals</option>
+            <option value="regionals/">Regionals</option>
+            <option value="districts/">Districts</option>
+            <option value="tournaments/">Tournaments</option>
+            <option value="other/">Local</option>
+          </select>
+          {!hasFilters && (
             <div className="mt-0">
               <button
                 type="button"

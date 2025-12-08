@@ -91,7 +91,7 @@ export default function EventListContent({
     }
 
     const filteredEvents = eventFilters
-        ? mergedEvents.filter(event => matchesFilter(eventFilters, event.info, event.type))
+        ? mergedEvents.filter(event => matchesFilter(eventFilters, event.urlSlug, event.info, event.type))
         : mergedEvents;
 
     if (filteredEvents.length === 0) {

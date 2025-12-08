@@ -124,6 +124,11 @@ export interface EventFilterConfiguration {
      * Temporary override for the type filter from the URL parameter. This won't be persisted.
      */
     typeFilterOverride: "jbq" | "tbq" | undefined;
+
+    /**
+     * Filter on the URL prefix for different types of events.
+     */
+    urlPrefix: string | undefined;
 }
 
 export const $eventFilters = atom<EventFilterConfiguration>({ isLoaded: false } as EventFilterConfiguration);
