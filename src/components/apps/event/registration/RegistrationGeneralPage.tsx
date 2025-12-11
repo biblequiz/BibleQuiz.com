@@ -8,6 +8,8 @@ import type { Address } from "types/services/models/Address";
 import RichTextEditor from "components/RichTextEditor";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import RegistrationPageForm from "./RegistrationPageForm";
+import { EventPublishType } from "types/services/EventsService";
+import EventTypeSelectorCards from "./EventTypeSelectorCards";
 
 interface Props {
 }
@@ -22,6 +24,7 @@ export interface RegistrationGeneralInfo {
     registrationEndDate: string;
     regionId: string | null;
     districtId: string | null;
+    publishType: EventPublishType;
     isOfficial: boolean;
     locationName: string | null;
     locationAddress: Address | null;
@@ -58,7 +61,9 @@ export default function RegistrationGeneralPage({ }: Props) {
         (general?.regionId
             ? EventScope.Regional
             : (general ? EventScope.National : EventScope.District)));
-    const [regionOrDistrictId, setRegionOrDistrictId] = useState(general?.districtId || general?.regionId || null);
+    const [regionId, setRegionId] = useState(general?.regionId || null);
+    const [districtId, setDistrictId] = useState(general?.districtId || null);
+    const [publishType, setPublishType] = useState(general?.publishType || EventPublishType.Regular);
     const [isOfficial, setIsOfficial] = useState(general?.isOfficial || false);
     const [locationName, setLocationName] = useState(general?.locationName || "");
     const [eventLocation, setEventLocation] = useState<Address | null>(general?.locationAddress || null);
@@ -67,14 +72,6 @@ export default function RegistrationGeneralPage({ }: Props) {
         <RegistrationPageForm
             rootEventUrl={rootEventUrl}
             persistFormToEventInfo={() => {
-
-                const districtId = scope === EventScope.District ? regionOrDistrictId : null;
-                const regionId = scope === EventScope.Regional
-                    ? regionOrDistrictId
-                    : (scope === EventScope.District
-                        ? districts.find(d => d.id === districtId)?.regionId
-                        : null);
-
                 setGeneral({
                     ...general,
                     name,
@@ -85,7 +82,8 @@ export default function RegistrationGeneralPage({ }: Props) {
                     registrationStartDate,
                     registrationEndDate,
                     regionId: regionId || null,
-                    districtId: districtId,
+                    districtId: districtId || null,
+                    publishType,
                     isOfficial,
                     locationName,
                     locationAddress: eventLocation
@@ -118,7 +116,7 @@ export default function RegistrationGeneralPage({ }: Props) {
                 </div>
                 <div className="w-full mt-0">
                     <label className="label">
-                        <span className="label-text font-medium">Type</span>
+                        <span className="label-text font-medium">Type of Competition</span>
                         <span className="label-text-alt text-error">*</span>
                     </label>
                     <select
@@ -241,49 +239,17 @@ export default function RegistrationGeneralPage({ }: Props) {
                 }}
             />
 
-            <h5 className="mb-0">Who can compete?</h5>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 p-2 mt-0 mb-0">
-                <div className="w-full mt-0">
-                    <select
-                        name="scope"
-                        className="select select-bordered w-full mt-0"
-                        value={scope || EventScope.District}
-                        onChange={e => {
-                            setScope(e.target.value as EventScope);
-                            setRegionOrDistrictId(null);
-                            sharedDirtyWindowState.set(true);
-                        }}
-                        required
-                    >
-                        <option value={EventScope.District}>Any Church in the District</option>
-                        <option value={EventScope.Regional}>Any Church in the Region</option>
-                        <option value={EventScope.National}>Any Church in the Nation</option>
-                    </select>
-                </div>
-                {scope !== EventScope.National && (
-                    <div className="w-full mt-0">
-                        <select
-                            name="regionOrDistrict"
-                            className="select select-bordered w-full mt-0"
-                            value={regionOrDistrictId || undefined}
-                            onChange={e => {
-                                setRegionOrDistrictId(e.target.value);
-                                sharedDirtyWindowState.set(true);
-                            }}
-                            required
-                        >
-                            <option value="" disabled>Select {scope}</option>
-                            {scope === EventScope.District && districts.map((district => (
-                                <option key={`district_${district.id}`} value={district.id}>
-                                    {district.name}
-                                </option>)))}
-                            {scope === EventScope.Regional && regions.map((region => (
-                                <option key={`region_${region.id}`} value={region.id}>
-                                    {region.name}
-                                </option>)))}
-                        </select>
-                    </div>)}
-            </div>
+            <h5 className="mb-2">What type of event?</h5>
+            <EventTypeSelectorCards
+                regionId={regionId}
+                setRegionId={setRegionId}
+                districtId={districtId}
+                setDistrictId={setDistrictId}
+                publishType={publishType}
+                setPublishType={setPublishType}
+                isOfficial={isOfficial}
+                setIsOfficial={setIsOfficial}
+            />
 
             <div className="w-full p-2 border border-base-400 bg-base-300 rounded-lg">
                 <label className="label text-wrap">

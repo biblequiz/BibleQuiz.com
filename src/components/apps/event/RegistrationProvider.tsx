@@ -6,7 +6,7 @@ import type { RegistrationGeneralInfo } from "./registration/RegistrationGeneral
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import type { RegistrationTeamsAndQuizzersInfo } from "./registration/RegistrationTeamsAndQuizzersPage";
 import type { RegistrationOfficialsAndAttendeesInfo } from "./registration/RegistrationOfficialsPage";
-import { EventDivision, EventExternalForm, RequiredPersonFields, type EventField } from "types/services/EventsService";
+import { EventDivision, EventExternalForm, EventPublishType, RequiredPersonFields, type EventField } from "types/services/EventsService";
 import type { RegistrationRoleRequiredFields } from "./registration/RegistrationRequiredFieldsPage";
 import type { RegistrationMoneyInfo } from "./registration/RegistrationMoneyPage";
 import type { RegistrationOtherInfo } from "./registration/RegistrationOtherPage";
@@ -76,6 +76,7 @@ export default function RegistrationProvider({ }: Props) {
         registrationEndDate: normalizeDate(info?.RegistrationEndDate || null) || "",
         districtId: info?.DistrictId || null,
         regionId: info?.RegionId || null,
+        publishType: info?.PublishType || EventPublishType.Regular,
         isOfficial: info?.IsOfficial || false,
         locationName: info?.LocationName || null,
         locationAddress: info?.Location || null,
