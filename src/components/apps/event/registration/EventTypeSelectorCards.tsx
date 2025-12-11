@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import regions from "data/regions.json";
 import districts from "data/districts.json";
 import { EventPublishType } from "types/services/EventsService";
@@ -7,7 +7,7 @@ import { AuthManager } from "types/AuthManager";
 import type { DistrictInfo, RegionInfo } from "types/RegionAndDistricts";
 
 interface Props {
-    eventId: string | null;
+    isNewEvent: boolean;
     type: string,
     regionId: string | null;
     setRegionId: (regionId: string | null) => void;
@@ -15,7 +15,6 @@ interface Props {
     setDistrictId: (districtId: string | null) => void;
     publishType: EventPublishType;
     setPublishType: (publishType: EventPublishType) => void;
-    isOfficial: boolean;
     setIsOfficial: (isOfficial: boolean) => void;
 }
 
@@ -36,7 +35,6 @@ export default function EventTypeSelectorCards({
     setDistrictId,
     publishType,
     setPublishType,
-    isOfficial,
     setIsOfficial }: Props) {
 
     const auth = AuthManager.useNanoStore();

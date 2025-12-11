@@ -3,7 +3,6 @@ import type { Person } from 'types/services/PeopleService';
 import { AsyncLock } from 'utils/AsyncLock';
 import { map, type PreinitializedMapStore } from "nanostores";
 import { useStore } from "@nanostores/react";
-import { min } from "date-fns";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];

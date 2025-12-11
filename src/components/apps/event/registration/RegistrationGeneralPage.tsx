@@ -28,12 +28,6 @@ export interface RegistrationGeneralInfo {
     locationAddress: Address | null;
 }
 
-enum EventScope {
-    National = "N",
-    Regional = "Region",
-    District = "District"
-}
-
 export default function RegistrationGeneralPage({ }: Props) {
     const {
         isNewEvent,
@@ -55,11 +49,6 @@ export default function RegistrationGeneralPage({ }: Props) {
     const [endDate, setEndDate] = useState(general?.endDate || "");
     const [registrationStartDate, setRegistrationStartDate] = useState(general?.registrationStartDate || "");
     const [registrationEndDate, setRegistrationEndDate] = useState(general?.registrationEndDate || "");
-    const [scope, setScope] = useState(general?.districtId
-        ? EventScope.District :
-        (general?.regionId
-            ? EventScope.Regional
-            : (general ? EventScope.National : EventScope.District)));
     const [regionId, setRegionId] = useState(general?.regionId || null);
     const [districtId, setDistrictId] = useState(general?.districtId || null);
     const [publishType, setPublishType] = useState(general?.publishType || EventPublishType.Regular);
@@ -248,7 +237,6 @@ export default function RegistrationGeneralPage({ }: Props) {
                 setDistrictId={setDistrictId}
                 publishType={publishType}
                 setPublishType={setPublishType}
-                isOfficial={isOfficial}
                 setIsOfficial={setIsOfficial}
             />
 
