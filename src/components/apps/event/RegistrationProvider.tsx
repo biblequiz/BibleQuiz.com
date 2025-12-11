@@ -16,6 +16,7 @@ interface Props {
 
 export interface RegistrationProviderContext {
     auth: AuthManager;
+    isNewEvent: boolean;
     rootEventUrl: string;
 
     setEventTitle: (title: string) => void;
@@ -139,6 +140,7 @@ export default function RegistrationProvider({ }: Props) {
         <div className="overflow-x-auto">
             <Outlet context={{
                 auth: auth,
+                isNewEvent: !info,
                 rootEventUrl: rootUrl,
 
                 setEventTitle: setEventTitle,

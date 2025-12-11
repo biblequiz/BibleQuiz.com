@@ -3,6 +3,7 @@ import type { Person } from 'types/services/PeopleService';
 import { AsyncLock } from 'utils/AsyncLock';
 import { map, type PreinitializedMapStore } from "nanostores";
 import { useStore } from "@nanostores/react";
+import { min } from "date-fns";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
@@ -136,13 +137,103 @@ export class UserAccountProfile {
      * Profile from the auth token (if the user has one).
      */
     public readonly authTokenProfile: AuthTokenProfile | null;
+
+    /**
+     * Checks if the current user has organization-level permission.
+     * 
+     * @param minimumRestriction Minimum restriction on the permission.
+     */
+    public hasOrganizationPermission(
+        minimumRestriction: string | null) {
+
+        if (UserAccountProfile.hasMinimumRestriction(this.organizationPermission, minimumRestriction)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * Checks if the current user has region-level permission.
+     * 
+     * @param regionId Id for the region.
+     * @param minimumRestriction Minimum restriction on the permission.
+     */
+    public hasRegionPermission(
+        regionId: string,
+        minimumRestriction: string | null) {
+
+        if (this.hasOrganizationPermission(minimumRestriction)) {
+            return true;
+        }
+
+        if (!this.regionPermissions) {
+            return false;
+        }
+
+        if (UserAccountProfile.hasMinimumRestriction(this.regionPermissions[regionId], minimumRestriction)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * Checks if the current user has district-level permission.
+     * 
+     * @param districtId Id for the district.
+     * @param regionId Id for the region.
+     * @param minimumRestriction Minimum restriction on the permission.
+     */
+    public hasDistrictPermission(
+        districtId: string,
+        regionId: string,
+        minimumRestriction: string | null) {
+
+        if (this.hasRegionPermission(regionId, minimumRestriction)) {
+            return true;
+        }
+
+        if (!this.districtPermissions) {
+            return false;
+        }
+
+        if (UserAccountProfile.hasMinimumRestriction(this.districtPermissions[districtId], minimumRestriction)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    private static hasMinimumRestriction(
+        permission: RemoteUserPermission | null | undefined,
+        minimumRestriction: string | null): boolean {
+
+        if (!permission) {
+            return false;
+        }
+
+        const currentRestriction = permission.Restriction;
+        if (!currentRestriction) {
+            return true;
+        }
+
+        switch (minimumRestriction) {
+            case "agjbq":
+                return currentRestriction === UserPermissionRestriction.JbqOnly;
+            case "agtbq":
+                return currentRestriction === UserPermissionRestriction.TbqOnly;
+            default:
+                return false;
+        }
+    }
 }
 
 /**
  * Restriction on a permission.
  */
 enum UserPermissionRestriction {
-    
+
     /**
      * Restrict to JBQ objects.
      */

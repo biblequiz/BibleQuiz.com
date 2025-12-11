@@ -1,9 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import regions from "data/regions.json";
 import districts from "data/districts.json";
 import { EventPublishType } from "types/services/EventsService";
+import { sharedDirtyWindowState } from "utils/SharedState";
+import { AuthManager } from "types/AuthManager";
+import type { DistrictInfo, RegionInfo } from "types/RegionAndDistricts";
 
 interface Props {
+    eventId: string | null;
+    type: string,
     regionId: string | null;
     setRegionId: (regionId: string | null) => void;
     districtId: string | null;
@@ -23,6 +28,8 @@ enum EventType {
 }
 
 export default function EventTypeSelectorCards({
+    isNewEvent,
+    type,
     regionId,
     setRegionId,
     districtId,
@@ -32,105 +39,167 @@ export default function EventTypeSelectorCards({
     isOfficial,
     setIsOfficial }: Props) {
 
-    const [eventType, setEventType] = useState<EventType | undefined>();
+    const auth = AuthManager.useNanoStore();
 
-    useEffect(() => {
-        switch (publishType) {
-            case EventPublishType.Regular:
-                if (districtId) {
-                    setEventType(EventType.Local);
-                }
-                break;
-            case EventPublishType.Tournament:
-                setEventType(EventType.Tournament);
-                break;
-            case EventPublishType.Finals:
-                if (districtId) {
-                    setEventType(EventType.DistrictFinal);
-                }
-                else if (regionId) {
-                    setEventType(EventType.RegionalFinal);
-                }
-                else {
-                    setEventType(EventType.NationalFinal);
-                }
+    const [eventType, setEventType] = useState<EventType | undefined>(
+        () => {
+            switch (publishType) {
+                case EventPublishType.Regular:
+                    if (districtId) {
+                        return EventType.Local;
+                    }
+                    break;
+                case EventPublishType.Tournament:
+                    return EventType.Tournament;
+                case EventPublishType.Finals:
+                    if (districtId) {
+                        return EventType.DistrictFinal;
+                    }
+                    else if (regionId) {
+                        return EventType.RegionalFinal;
+                    }
+                    else {
+                        return EventType.NationalFinal;
+                    }
+            }
 
-                break;
+            return isNewEvent ? EventType.Local : undefined;
+        });
+
+    const filteredRegions = useMemo(() => {
+        const filtered: RegionInfo[] = [];
+        for (const region of regions) {
+            if (regionId === region.id ||
+                (auth.userProfile &&
+                    auth.userProfile.hasRegionPermission(region.id, type))) {
+                filtered.push(region);
+            }
         }
-    }, [regionId, districtId, publishType, isOfficial]);
+
+        return filtered;
+    }, [auth, type, ]);
+
+    const filteredDistricts = useMemo(() => {
+        const filtered: DistrictInfo[] = [];
+        for (const district of districts) {
+            if (districtId === district.id ||
+                (auth.userProfile &&
+                    auth.userProfile.hasDistrictPermission(district.id, district.regionId, type))) {
+                filtered.push(district);
+            }
+        }
+
+        return filtered;
+    }, [auth, type]);
+
+    const getCard = (
+        label: string,
+        description: React.ReactNode,
+        eligibility: string,
+        cardType: EventType,
+        cardPublishType: EventPublishType,
+        cardIsOfficial: boolean,
+        listLabel?: string | undefined,
+        currentListItemId?: string | null | undefined,
+        setListItem?: ((id: string) => void) | undefined,
+        listItems?: { id: string, name: string }[] | undefined) => {
+
+        return (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-2 p-2 mt-0 mb-4 border border-base-400 bg-base-300 rounded-lg">
+                <div className={`w-full mt-0 ${listItems ? "md:col-span-2" : "col-span-3"}`}>
+                    <label className="label text-wrap">
+                        <input
+                            type="radio"
+                            name="EventType"
+                            className="radio radio-info"
+                            checked={cardType === eventType}
+                            value={cardType}
+                            onChange={() => {
+                                setEventType(cardType);
+                                setPublishType(cardPublishType);
+                                setIsOfficial(cardIsOfficial);
+                                sharedDirtyWindowState.set(true);
+                            }}
+                            required
+                        />
+                        <span className="text-sm">
+                            <b>{label}</b>
+                        </span>
+                    </label>
+                    <p className="text-sm mt-0">
+                        {description}
+                    </p>
+                    <p className="text-sm">
+                        <b><i>Who can register?</i></b> {eligibility}
+                    </p>
+                </div>
+                {setListItem && listLabel && listItems && (
+                    <div className="w-full mt-0">
+                        <select
+                            className="select select-bordered w-full mt-0"
+                            value={currentListItemId || ""}
+                            onChange={e => setListItem(e.target.value)}
+                            required={eventType === cardType}
+                            disabled={eventType !== cardType}
+                        >
+                            <option value="" disabled>Select {listLabel}</option>
+                            {listItems?.map((item => (
+                                <option key={`${listLabel}_${item.id}`} value={item.id}>
+                                    {item.name}
+                                </option>)))}
+                        </select>
+                    </div>)}
+            </div>);
+    };
 
     return (
-        <div className="flex flex-wrap gap-4">
-            <div
-                className="card w-90 card-sm shadow-sm border-2 border-solid mt-0 relative"
-            >
-                <div className="card-body p-2 pl-4">
-                    <label className="label text-wrap">
-                        <input
-                            type="radio"
-                            name="EventType"
-                            className="radio radio-info"
-                            checked={eventType === EventType.Local}
-                            onChange={() => {
-                                setEventType(EventType.Local);
-                                setPublishType(EventPublishType.Regular);
-                                setIsOfficial(false);
-                            }}
-                            required
-                        />
-                        <span className="text-md">
-                            <b>LOCAL EVENT</b>
-                        </span>
-                    </label>
-                    <p className="text-sm mt-0">
-                        Local competition such as league meets. Churches outside the district must select <i>Eligible Events in All Districts/Regions</i> to see the event.
-                    </p>
-                    <select
-                        className="select select-bordered w-full mt-0"
-                        value={districtId || ""}
-                        onChange={e => setDistrictId(e.target.value)}
-                        required={eventType === EventType.Local}
-                    >
-                        <option value="" disabled>Select District</option>
-                        {districts.map((district => (
-                            <option key={`district_${district.id}`} value={district.id}>
-                                {district.name}
-                            </option>)))}
-                    </select>
-                    <p className="text-sm">
-                        <b><i>Who can register?</i></b> Any church in any district.
-                    </p>
-                </div>
-            </div>
-
-            <div
-                className="card w-90 card-sm shadow-sm border-2 border-solid mt-0 relative"
-            >
-                <div className="card-body p-2 pl-4">
-                    <label className="label text-wrap">
-                        <input
-                            type="radio"
-                            name="EventType"
-                            className="radio radio-info"
-                            checked={eventType === EventType.Tournament}
-                            onChange={() => {
-                                setEventType(EventType.Tournament);
-                                setPublishType(EventPublishType.Tournament);
-                                setIsOfficial(false);
-                            }}
-                            required
-                        />
-                        <span className="text-md">
-                            <b>NATIONAL TOURNAMENT</b>
-                        </span>
-                    </label>
-                    <p className="text-sm mt-0">
-                        Tournament such as Gobblefest or the Snow Bowl.
-                    </p>
-                    <p className="text-sm">
-                        <b><i>Who can register?</i></b> Any church in any district.
-                    </p>
-                </div>
-            </div>
-        </div>);
+        <>
+            {getCard(
+                "LOCAL EVENT",
+                <>Local competition such as league meets. Churches outside the district must select <i>Eligible Events in All Districts/Regions</i> to see the event.</>,
+                "Any church in any district.",
+                EventType.Local,
+                EventPublishType.Regular,
+                false,
+                "District",
+                districtId,
+                setDistrictId,
+                filteredDistricts)}
+            {getCard(
+                "NATIONAL TOURNAMENT",
+                <>Tournament such as Gobblefest or the Snow Bowl.</>,
+                "Any church in any district.",
+                EventType.Tournament,
+                EventPublishType.Tournament,
+                false)}
+            {getCard(
+                "DISTRICT FINALS",
+                <>District Finals using official eligibility rules.</>,
+                "Any church in the District.",
+                EventType.DistrictFinal,
+                EventPublishType.Finals,
+                true,
+                "District",
+                districtId,
+                setDistrictId,
+                filteredDistricts)}
+            {getCard(
+                "REGIONAL FINALS",
+                <>Regional Finals using official eligibility rules.</>,
+                "Any church in the Region.",
+                EventType.RegionalFinal,
+                EventPublishType.Finals,
+                true,
+                "Region",
+                regionId,
+                setRegionId,
+                filteredRegions)}
+            {getCard(
+                "NATIONAL FINALS",
+                <>National Finals using official eligibility rules.</>,
+                "Any church in any district.",
+                EventType.NationalFinal,
+                EventPublishType.Finals,
+                true)}
+        </>);
 };

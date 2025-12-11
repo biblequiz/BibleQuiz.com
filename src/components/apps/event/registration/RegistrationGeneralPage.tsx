@@ -1,8 +1,6 @@
 import { useOutletContext } from "react-router-dom";
 import type { RegistrationProviderContext } from "../RegistrationProvider";
 import { useState } from "react";
-import regions from "data/regions.json";
-import districts from "data/districts.json";
 import AddressSelector from "../AddressSelector";
 import type { Address } from "types/services/models/Address";
 import RichTextEditor from "components/RichTextEditor";
@@ -38,6 +36,7 @@ enum EventScope {
 
 export default function RegistrationGeneralPage({ }: Props) {
     const {
+        isNewEvent,
         rootEventUrl,
         saveRegistration,
         setEventTitle,
@@ -241,6 +240,8 @@ export default function RegistrationGeneralPage({ }: Props) {
 
             <h5 className="mb-2">What type of event?</h5>
             <EventTypeSelectorCards
+                isNewEvent={isNewEvent}
+                type={typeId}
                 regionId={regionId}
                 setRegionId={setRegionId}
                 districtId={districtId}
@@ -250,32 +251,6 @@ export default function RegistrationGeneralPage({ }: Props) {
                 isOfficial={isOfficial}
                 setIsOfficial={setIsOfficial}
             />
-
-            <div className="w-full p-2 border border-base-400 bg-base-300 rounded-lg">
-                <label className="label text-wrap">
-                    <input
-                        type="checkbox"
-                        name="isOfficial"
-                        className="checkbox checkbox-sm checkbox-info"
-                        checked={isOfficial}
-                        onChange={e => {
-                            setIsOfficial(e.target.checked);
-                            sharedDirtyWindowState.set(true);
-                        }}
-                    />
-                    <span className="font-bold">
-                        Official Competition which applies the following restrictions (per rules):
-                    </span>
-                </label>
-                <br />
-                <ul>
-                    <li>Defaults to at least 2 quizzers per team (can be changed below).</li>
-                    <li>Teams can only compete in events within their district/region or at National events.</li>
-                    <li>Quizzers can only compete for their official church.</li>
-                    <li>Maximum number of 3 coaches.</li>
-                    <li>If qualifying by team, new quizzers cannot be added once the qualifying event occurs.</li>
-                </ul>
-            </div>
 
             <h5 className="mb-0">Additional Details</h5>
             <RichTextEditor
