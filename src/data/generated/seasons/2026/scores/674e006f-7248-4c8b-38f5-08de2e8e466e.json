@@ -12,388 +12,316 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Dec 25 OH Meet # 2 Championship",
-        "LastUpdated": "12/4/25 4:19 PM",
-        "DatabaseLastUpdated": "2025-12-04T16:18:42.77988+00:00",
+        "LastUpdated": "12/15/25 12:16 AM",
+        "DatabaseLastUpdated": "2025-12-14T23:55:56.1447748+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
             "CoachName": "Sam Klco",
             "Quizzers": [
-              4,
-              5
+              1,
+              3,
+              4
             ],
             "Matches": [
               {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 3
-              },
-              {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 2
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
+                "Score": 155,
                 "OtherTeam": 1
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 3
+                "Score": 180,
+                "OtherTeam": 1
               },
               {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 2
+                "Score": 115,
+                "OtherTeam": 1
               },
               {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 130,
                 "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
             "Id": "t_9f08307c-bcbc-4edf-a831-8b787354bbbb",
             "Name": "Painesville Assembly of God (And Sarah is our mother)",
+            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesville",
             "State": "OH",
-            "Scores": null
-          },
-          {
-            "CoachName": "Jessica Rogers",
-            "Quizzers": [
-              1,
-              6
-            ],
-            "Matches": [
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 2
-              },
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 3
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 0
-              },
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 2
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 3
-              },
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 0
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_0f49ae1c-335a-41db-8379-104124a66dbe",
-            "Name": "Painesville Assembly of God #1",
-            "ChurchName": "Painesville Assembly of God",
-            "City": "Painesville",
-            "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 580,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 145.0,
+              "AverageCorrect": 8.2,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 12,
+              "Correct20s": 15,
+              "Correct30s": 6,
+              "FootnoteIndex": 0
+            }
           },
           {
             "CoachName": "George Nimako",
             "Quizzers": [
+              0,
               2,
-              7
+              5
             ],
             "Matches": [
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 1
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
+                "Score": 205,
                 "OtherTeam": 0
               },
               {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 3
-              },
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 1
-              },
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
+                "Score": 130,
                 "OtherTeam": 0
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 3
+                "Score": 195,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
             "Id": "t_7e357ce7-368d-4489-b7ea-3e2828623654",
             "Name": "Radiant Quizzers-1",
+            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null
-          },
-          {
-            "CoachName": "Karthik Rajaram",
-            "Quizzers": [
-              0,
-              3,
-              8
-            ],
-            "Matches": [
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 0
-              },
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 1
-              },
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 2
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 0
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 1
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 2
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_4882bc99-2482-4092-96cd-b21c2073361d",
-            "Name": "Radiant Quizzers-2",
-            "ChurchName": "Radiant Life Church Assembly of God",
-            "City": "Dublin",
-            "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 585,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 146.2,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 14,
+              "Correct20s": 17,
+              "Correct30s": 5,
+              "FootnoteIndex": 0
+            }
           }
         ],
-        "RankedTeams": null,
-        "TeamFootnotes": null,
+        "RankedTeams": [
+          1,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "Quizzers": [
           {
-            "TeamName": "Radiant Quizzers-2",
+            "TeamName": "Radiant Quizzers-1",
             "YearsQuizzing": null,
             "Id": "q_2c073f455a574a37bd4508d8cc562a24",
             "Name": "Caleb Karthik",
+            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.2,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 43,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
-            "TeamName": "Painesville Assembly of God #1",
+            "TeamName": "Painesville Assembly of God (And Sarah is our mother)",
             "YearsQuizzing": null,
             "Id": "q_b3131a40948444fb958308ddfc3ef602",
             "Name": "Eli Cullins",
+            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesville",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": -20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -5.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Radiant Quizzers-1",
             "YearsQuizzing": null,
             "Id": "q_d108ac126634413ca33e08db3b8adc45",
             "Name": "Evan Ryan",
+            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null
-          },
-          {
-            "TeamName": "Radiant Quizzers-2",
-            "YearsQuizzing": null,
-            "Id": "q_0e83c0de6541458ebd4b08d8cc562a24",
-            "Name": "Jacey Pathri",
-            "ChurchName": "Radiant Life Church Assembly of God",
-            "City": "Dublin",
-            "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 42.5,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 8,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Painesville Assembly of God (And Sarah is our mother)",
             "YearsQuizzing": null,
             "Id": "q_7fd8afe62bcd4115f92608dd6fe50b30",
             "Name": "Jeremiah Klco",
+            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesville",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.5,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 11,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Painesville Assembly of God (And Sarah is our mother)",
             "YearsQuizzing": null,
             "Id": "q_39c697fcfc9c4c230b0608dce5ae031e",
             "Name": "Justin Klco",
+            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesville",
             "State": "OH",
-            "Scores": null
-          },
-          {
-            "TeamName": "Painesville Assembly of God #1",
-            "YearsQuizzing": null,
-            "Id": "q_380d0001b1544599992d8d04f4f73987",
-            "Name": "Keira Rogers",
-            "ChurchName": "Painesville Assembly of God",
-            "City": "Painesville",
-            "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 475,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 118.8,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 1,
+              "Correct20s": 13,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Radiant Quizzers-1",
             "YearsQuizzing": null,
             "Id": "q_45aead74e162467fb24508d6d70ba173",
             "Name": "Nathan Nimako",
+            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null
-          },
-          {
-            "TeamName": "Radiant Quizzers-2",
-            "YearsQuizzing": null,
-            "Id": "q_c4ff0ac85d034bdfaa1c08dd7b0fc094",
-            "Name": "Steve George Esak Siga",
-            "ChurchName": "Radiant Life Church Assembly of God",
-            "City": "Dublin",
-            "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 102.5,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 3,
+              "Correct20s": 11,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
           }
         ],
-        "RankedQuizzers": null,
-        "QuizzerFootnotes": null,
+        "RankedQuizzers": [
+          4,
+          5,
+          2,
+          3,
+          0,
+          1
+        ],
+        "QuizzerFootnotes": [],
         "MeetNames": null,
         "Rooms": [
           {
@@ -403,16 +331,8 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 2,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
                 "Team2": 0,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -420,76 +340,7 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 0,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 0,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 3,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
-                "State": "NotStarted",
-                "Blockers": null
-              }
-            ]
-          },
-          {
-            "Name": "A2",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 0,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 3,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 2,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -497,16 +348,24 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 0,
-                "State": "NotStarted",
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
                 "Blockers": null
               }
             ]
           }
         ],
-        "TeamRankingLabel": null,
-        "TeamRankingAwardsLabel": null,
-        "QuizzerRankingLabel": null,
-        "QuizzerRankingAwardsLabel": null,
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
             "Id": 1,
@@ -531,23 +390,11 @@
             "MatchTime": "10:45 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
-          },
-          {
-            "Id": 5,
-            "MatchTime": "11:15 AM",
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 6,
-            "MatchTime": "11:45 AM",
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
           }
         ],
         "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "",
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -561,8 +408,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Dec 25 OH Meet # 2 Contender",
-        "LastUpdated": "12/4/25 4:19 PM",
-        "DatabaseLastUpdated": "2025-12-04T16:18:42.77988+00:00",
+        "LastUpdated": "12/15/25 12:16 AM",
+        "DatabaseLastUpdated": "2025-12-14T23:55:56.1447748+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -574,67 +421,84 @@
             ],
             "Matches": [
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 30,
                 "OtherTeam": 2
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": -5,
                 "OtherTeam": 3
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 90,
                 "OtherTeam": 1
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 0,
                 "OtherTeam": 2
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 40,
                 "OtherTeam": 3
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 50,
                 "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
             "Id": "t_820aab78-4f86-48fd-9003-6a837bee482d",
             "Name": "Flying Pigs",
+            "ChurchId": "ad5a12ac-f511-45cd-90ef-829480479a61",
             "ChurchName": "Connection Church",
             "City": "Wooster",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 205,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 34.2,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 9,
+              "Correct20s": 3,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            }
           },
           {
             "CoachName": "Suzanne Mangeri",
@@ -646,67 +510,84 @@
             ],
             "Matches": [
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 45,
                 "OtherTeam": 3
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 10,
                 "OtherTeam": 2
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 0,
                 "OtherTeam": 0
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 40,
                 "OtherTeam": 3
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 20,
                 "OtherTeam": 2
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 40,
                 "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
             "Id": "t_eddaeee4-41ac-41d4-a709-8271d94dca86",
             "Name": "Life Church Assembly of God (Garrettsville) #1",
+            "ChurchId": "238e4f2a-ef06-425c-b670-60e770e8ea2a",
             "ChurchName": "Life Church Assembly of God",
             "City": "Garrettsville",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.8,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 7,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           },
           {
             "CoachName": "Janelle Nimako",
@@ -716,67 +597,84 @@
             ],
             "Matches": [
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 125,
                 "OtherTeam": 0
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 130,
                 "OtherTeam": 1
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 140,
                 "OtherTeam": 3
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 75,
                 "OtherTeam": 0
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 70,
                 "OtherTeam": 1
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 95,
                 "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
             "Id": "t_d6687be8-1be8-4a82-9b18-5e93066e1037",
             "Name": "Radiant Quizzers",
+            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 635,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.8,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 17,
+              "Correct20s": 16,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
           },
           {
             "CoachName": "Ryan Schiebel",
@@ -786,185 +684,383 @@
             ],
             "Matches": [
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 15,
                 "OtherTeam": 1
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 60,
                 "OtherTeam": 0
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 10,
                 "OtherTeam": 2
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 10,
                 "OtherTeam": 1
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": 50,
                 "OtherTeam": 0
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "B2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": null,
+                "Score": -15,
                 "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
             "Id": "t_dafbc204-4f1e-48fc-bfdc-bc2eb6dc4f0e",
             "Name": "Schiebel Family (Morrow) #1",
+            "ChurchId": "b5576520-5cae-4fd1-2281-08dcebd9f838",
             "ChurchName": "Schiebel Family",
             "City": "Morrow",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.7,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 9,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           }
         ],
-        "RankedTeams": null,
-        "TeamFootnotes": null,
+        "RankedTeams": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          }
+        ],
         "Quizzers": [
           {
             "TeamName": "Life Church Assembly of God (Garrettsville) #1",
             "YearsQuizzing": null,
             "Id": "q_39b15f61465c4c59770308dd3433f194",
             "Name": "April Campbell",
+            "ChurchId": "238e4f2a-ef06-425c-b670-60e770e8ea2a",
             "ChurchName": "Life Church Assembly of God",
             "City": "Garrettsville",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           },
           {
             "TeamName": "Flying Pigs",
             "YearsQuizzing": null,
             "Id": "q_f515ab62061540eb76c608de2c3f75fd",
             "Name": "Camille Denny",
+            "ChurchId": "ad5a12ac-f511-45cd-90ef-829480479a61",
             "ChurchName": "Connection Church",
             "City": "Wooster",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.7,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
           },
           {
             "TeamName": "Schiebel Family (Morrow) #1",
             "YearsQuizzing": null,
             "Id": "q_a20a9381b14e418fac4308dcebd9f8e8",
             "Name": "Elijah Schiebel",
+            "ChurchId": "b5576520-5cae-4fd1-2281-08dcebd9f838",
             "ChurchName": "Schiebel Family",
             "City": "Morrow",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.7,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 8,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Radiant Quizzers",
             "YearsQuizzing": null,
             "Id": "q_7626343991334745626608da2316c5d3",
             "Name": "Gavin Swamidass",
+            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 500,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 83.3,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 12,
+              "Correct20s": 12,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Life Church Assembly of God (Garrettsville) #1",
             "YearsQuizzing": null,
             "Id": "q_0e6f248a13a84e13770808dd3433f194",
             "Name": "Hannah Mangeri",
+            "ChurchId": "238e4f2a-ef06-425c-b670-60e770e8ea2a",
             "ChurchName": "Life Church Assembly of God",
             "City": "Garrettsville",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 5,
+              "IsTie": true,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.7,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           },
           {
             "TeamName": "Flying Pigs",
             "YearsQuizzing": null,
             "Id": "q_2d8fc7610edc421e9cab08dcde30b60d",
             "Name": "Jackson McCorcle",
+            "ChurchId": "ad5a12ac-f511-45cd-90ef-829480479a61",
             "ChurchName": "Connection Church",
             "City": "Wooster",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.8,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 6,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Schiebel Family (Morrow) #1",
             "YearsQuizzing": null,
             "Id": "q_65ff90fdcd174be0ac4608dcebd9f8e8",
             "Name": "Jenny Schiebel",
+            "ChurchId": "b5576520-5cae-4fd1-2281-08dcebd9f838",
             "ChurchName": "Schiebel Family",
             "City": "Morrow",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Life Church Assembly of God (Garrettsville) #1",
             "YearsQuizzing": null,
             "Id": "q_0347e0b3e9114e7276ff08dd3433f194",
             "Name": "Jeremiah Mangeri",
+            "ChurchId": "238e4f2a-ef06-425c-b670-60e770e8ea2a",
             "ChurchName": "Life Church Assembly of God",
             "City": "Garrettsville",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.5,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 20,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Radiant Quizzers",
             "YearsQuizzing": null,
             "Id": "q_17087374ec59484193ba08dc4b3901c6",
             "Name": "Lloys Anyidoho",
+            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 5,
+              "Correct20s": 4,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Flying Pigs",
             "YearsQuizzing": null,
             "Id": "q_ce9eee25d33b41259ca408dcde30b60d",
             "Name": "MaKenzie Zimmerly",
+            "ChurchId": "ad5a12ac-f511-45cd-90ef-829480479a61",
             "ChurchName": "Connection Church",
             "City": "Wooster",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           },
           {
             "TeamName": "Life Church Assembly of God (Garrettsville) #1",
             "YearsQuizzing": null,
             "Id": "q_6196562be6c645bf76fa08dd3433f194",
             "Name": "Micah Mangeri",
+            "ChurchId": "238e4f2a-ef06-425c-b670-60e770e8ea2a",
             "ChurchName": "Life Church Assembly of God",
             "City": "Garrettsville",
             "State": "OH",
-            "Scores": null
+            "Scores": {
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
           }
         ],
-        "RankedQuizzers": null,
-        "QuizzerFootnotes": null,
+        "RankedQuizzers": [
+          3,
+          8,
+          2,
+          5,
+          1,
+          4,
+          0,
+          10,
+          9,
+          6,
+          7
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "MeetNames": null,
         "Rooms": [
           {
@@ -975,7 +1071,7 @@
                 "LinkedMeet": null,
                 "Team1": 2,
                 "Team2": 0,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -983,7 +1079,7 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 3,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -991,7 +1087,7 @@
                 "LinkedMeet": null,
                 "Team1": 2,
                 "Team2": 3,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -999,7 +1095,7 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 3,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1007,7 +1103,7 @@
                 "LinkedMeet": null,
                 "Team1": 2,
                 "Team2": 1,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1015,7 +1111,7 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 1,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
@@ -1028,7 +1124,7 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 3,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1036,7 +1132,7 @@
                 "LinkedMeet": null,
                 "Team1": 2,
                 "Team2": 1,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1044,7 +1140,7 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 1,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1052,7 +1148,7 @@
                 "LinkedMeet": null,
                 "Team1": 2,
                 "Team2": 0,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1060,7 +1156,7 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 3,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1068,16 +1164,16 @@
                 "LinkedMeet": null,
                 "Team1": 2,
                 "Team2": 3,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
           }
         ],
-        "TeamRankingLabel": null,
-        "TeamRankingAwardsLabel": null,
-        "QuizzerRankingLabel": null,
-        "QuizzerRankingAwardsLabel": null,
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
             "Id": 1,
@@ -1117,8 +1213,8 @@
           }
         ],
         "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "",
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -1157,5 +1253,5 @@
       }
     }
   ],
-  "Freshness": "2025-12-04T16:19:59.1642366+00:00"
+  "Freshness": "2025-12-14T23:55:56.7088093+00:00"
 }
