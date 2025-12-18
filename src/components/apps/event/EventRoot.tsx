@@ -38,6 +38,8 @@ interface Props {
 
 const SCORES_GROUP_ID = "scores";
 const DATABASE_GROUP_ID_PREFIX = "db-";
+const PERMISSIONS_ID = "permissions";
+const REPORTS_ID = "reports";
 
 function RootLayout({ loadingElementId }: Props) {
 
@@ -127,7 +129,6 @@ function buildSidebar(
     const eventId = routeParameters.eventId as string;
     const rootEventPath = eventId ? `/${eventId}` : "";
 
-    const segmentIndexes = routeMatches[routeMatches.length - 1].id.substring(6).split('-');
     const sidebarEntries: ReactSidebarEntry[] = [
         {
             type: 'link' as const,
@@ -136,12 +137,14 @@ function buildSidebar(
             isCurrent: false,
             icon: "fas faList"
         }];
-    if (segmentIndexes.length > 1 || segmentIndexes[0] !== "0") {
-        segmentIndexes[0] = "1";
-    }
-    else {
-        (sidebarEntries[0] as ReactSidebarLink).isCurrent = true;
-        return sidebarEntries;
+
+    if (routeMatches.length < 5) {
+        const lastId = routeMatches[routeMatches.length - 1].id;
+        if (lastId !== REPORTS_ID && lastId !== PERMISSIONS_ID) {
+            // This means it is the All Entries page.
+            (sidebarEntries[0] as ReactSidebarLink).isCurrent = true;
+            return sidebarEntries;
+        }
     }
 
     sidebarEntries.push(
@@ -241,6 +244,7 @@ function buildSidebar(
                             buildDatabaseEntry(rootEventPath, "db2", "Database 2", navigate),
                             {
                                 type: 'link' as const,
+                                id: DATABASE_GROUP_ID_PREFIX + "new",
                                 label: "Add Database",
                                 navigate: () => navigate(`${rootEventPath}/scoring/addDatabase`),
                                 isCurrent: false,
@@ -271,41 +275,41 @@ function buildSidebar(
     }
 
     // Determine the current page.
-    const databaseId = routeParameters.databaseId;
-    if (segmentIndexes.length > 1 && segmentIndexes[0] === "0") {
-        // This adjust for the "All Events" item in the sidebar.
-        segmentIndexes[0] = "1";
-    }
-
     let currentPage: any = { entries: sidebarEntries };
-    for (const segment of segmentIndexes) {
-        if (!currentPage.entries) {
-            break;
-        }
-
-        if (currentPage.id === SCORES_GROUP_ID) {
-
-            if (segment === "0") {
-                currentPage = currentPage.entries[0];
+    if (routeMatches.length < 5) {
+        switch (routeMatches[routeMatches.length - 1].id) {
+            case REPORTS_ID:
+                currentPage = sidebarEntries[3];
                 break;
-            }
-
-            // Skip to the databases section.
-            currentPage = currentPage.entries[1];
-
-            if (routeParameters.databaseId) {
-                // Find the matching database.
-                const findId = DATABASE_GROUP_ID_PREFIX + databaseId;
-                currentPage = currentPage.entries.find((e: ReactSidebarGroup) => e.id === findId);
-                continue;
-            }
-            else {
-                currentPage = currentPage.entries[2];
+            case PERMISSIONS_ID:
+                currentPage = sidebarEntries[4];
                 break;
-            }
         }
+    }
+    else {
+        const segmentIndexes = routeMatches[routeMatches.length - 1].id
+            .substring(routeMatches[routeMatches.length - 2].id.length - 1)
+            .split('-')
+            .map(s => parseInt(s));
+        segmentIndexes[0]++;
+        for (const segment of segmentIndexes) {
+            const currentPageGroup = currentPage as ReactSidebarGroup;
+            let segmentOffset = 0;
+            if (currentPageGroup.id === SCORES_GROUP_ID && segment > 0) {
+                currentPage = currentPage.entries[1]; // Databases section.
 
-        currentPage = currentPage.entries[parseInt(segment)];
+                const findId = DATABASE_GROUP_ID_PREFIX + (routeParameters.databaseId ?? "new");
+                for (const child of currentPage.entries) {
+                    if (child.id === findId) {
+                        currentPage = child;
+                        segmentOffset--;
+                        break;
+                    }
+                }
+            }
+
+            currentPage = (currentPage as ReactSidebarGroup).entries[segment + segmentOffset];
+        }
     }
 
     if (currentPage.type === "group") {
@@ -334,13 +338,6 @@ function buildDatabaseEntry(
         icon: "fas faDatabase",
         id: DATABASE_GROUP_ID_PREFIX + databaseId,
         entries: [
-            {
-                type: 'link' as const,
-                label: "General",
-                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}`),
-                isCurrent: false,
-                icon: "fas faHome"
-            },
             {
                 type: 'link' as const,
                 label: "Divisions",
@@ -491,10 +488,12 @@ const router = createHashRouter([
                             },
                             {
                                 path: "/:eventId/reports",
+                                id: REPORTS_ID,
                                 element: <ReportsPage />
                             },
                             {
                                 path: "/:eventId/permissions",
+                                id: PERMISSIONS_ID,
                                 element: <PermissionsPage />
                             },
                         ]
