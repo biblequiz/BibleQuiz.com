@@ -50,6 +50,7 @@ export default defineConfig({
                 {
                     label: "Upcoming & Live Events",
                     link: "/",
+                    attrs: { icon: "fas faTowerBroadcast" }
                 },
                 {
                     label: "Apps",
