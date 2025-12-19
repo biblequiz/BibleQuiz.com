@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { Outlet, useLocation, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { EventInfo, EventsService } from "types/services/EventsService";
-import AllEventsPage from "./AllEventsPage";
 
 interface Props {
 }
@@ -18,11 +17,12 @@ export interface EventProviderContext {
     setEventType: (typeId: string) => void;
 }
 
+export const NEW_ID_PLACEHOLDER = "new";
+
 export default function EventProvider({ }: Props) {
     const auth = AuthManager.useNanoStore();
-    const location = useLocation();
     const urlParameters = useParams();
-    const eventId = urlParameters.eventId === "registration"
+    const eventId = urlParameters.eventId === NEW_ID_PLACEHOLDER
         ? null
         : (urlParameters.eventId || null);
 
@@ -33,7 +33,7 @@ export default function EventProvider({ }: Props) {
     const [eventTypeId, setEventTypeId] = useState<string>("agjbq");
 
     useEffect(() => {
-        if (eventId) {
+        if (eventId && eventId != NEW_ID_PLACEHOLDER) {
             setIsLoading(true);
 
             EventsService
@@ -50,10 +50,6 @@ export default function EventProvider({ }: Props) {
                 });
         }
     }, [eventId, auth]);
-
-    if (location.pathname === "/") {
-        return (<AllEventsPage />);
-    }
 
     if (isLoading) {
         return (
@@ -108,7 +104,7 @@ export default function EventProvider({ }: Props) {
                 auth: auth,
                 eventId: eventId,
                 info: currentEvent,
-                rootUrl: eventId ? `/${eventId}` : "",
+                rootUrl: eventId ? `/${eventId}` : `/${NEW_ID_PLACEHOLDER}`,
                 setEventTitle: newTitle => setEventTitle(
                     newTitle.trim().length > 0
                         ? newTitle.trim()

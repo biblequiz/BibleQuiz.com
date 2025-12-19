@@ -34,6 +34,12 @@ const { sublist, nested, toc = false } = Astro.props;
         sublist.map((entry) => {
             const renderAsReactEntry =
                 entry.isCurrent && (entry.attrs?.useReactSidebar ?? false);
+            const hideEntry =
+                !entry.isCurrent && (entry.attrs?.hideIfNotCurrent ?? false);
+            if (hideEntry) {
+                return null;
+            }
+
             return (
                 <li class={entry.type === "authButton" ? "lg:sl-hidden" : ""}>
                     {entry.type == "authButton" && (

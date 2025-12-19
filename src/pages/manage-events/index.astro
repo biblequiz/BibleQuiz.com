@@ -1,0 +1,41 @@
+---
+import { getSeasons } from "utils/Seasons";
+import regions from "data/regions.json";
+import districts from "data/districts.json";
+import AllOwnedEventsRoot from "components/AllOwnedEventsRoot";
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+const seasons = await getSeasons(import.meta.url, 2019);
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Manage Events",
+    hidePageTitle: true,
+    pagefind: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div id="events-fallback" class="flex justify-center items-center">
+        <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading
+        your Events ...
+    </div>
+    <AllOwnedEventsRoot
+        client:only="react"
+        regions={regions}
+        districts={districts}
+        seasons={seasons}
+        loadingElementId="events-fallback"
+    />
+</StarlightPage>
+
+<script lang="ts">
+    const linkElement = document.getElementById("manage-event-sidebar-link");
+    if (linkElement) {
+        const parentElement = linkElement.closest("li");
+        if (parentElement) {
+            parentElement.remove();
+        }
+    }
+</script>

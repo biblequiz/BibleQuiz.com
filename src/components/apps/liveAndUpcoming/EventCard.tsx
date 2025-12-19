@@ -6,6 +6,7 @@ interface Props {
     info: EventWrapper;
     isLive: boolean;
     showLiveBadge?: boolean;
+    urlFormatter?: (event: EventInfo) => string;
 }
 
 interface EventWrapper {
@@ -16,11 +17,16 @@ interface EventWrapper {
     isRegistrationOpen: boolean;
 }
 
-export default function EventCard({ info, isLive, showLiveBadge = false }: Props) {
+export default function EventCard({
+    info,
+    isLive,
+    showLiveBadge = false,
+    urlFormatter }: Props) {
 
-    const cardLink = (isLive || info.isNationals || !info.isRegistrationOpen)
-        ? `/${info.type}/seasons/${info.event.season}/${info.urlSlug}`
-        : `https://registration.biblequiz.com/#/Registration/${info.event.id}`;
+    const cardLink = urlFormatter ? urlFormatter(info.event) : (
+        (isLive || info.isNationals || !info.isRegistrationOpen)
+            ? `/${info.type}/seasons/${info.event.season}/${info.urlSlug}`
+            : `https://registration.biblequiz.com/#/Registration/${info.event.id}`);
 
     let locationLabel: string | null = null;
     if (info && info.event) {

@@ -78,6 +78,7 @@ export class UserAccountProfile {
         this.churchPermissions = churchPermissions;
         this.eventPermissions = eventPermissions;
         this.canCreateEvents = canCreateEvents;
+        this.canManageEvents = canCreateEvents || (eventPermissions !== null && eventPermissions.size > 0);
         this.isPayoutManager = isPayoutManager;
         this.authTokenProfile = authTokenProfile;
     }
@@ -126,6 +127,11 @@ export class UserAccountProfile {
      * Value indicating whether the user can create events.
      */
     public readonly canCreateEvents!: boolean;
+
+    /**
+     * Value indicating whether the user can manage events.
+     */
+    public readonly canManageEvents!: boolean;
 
     /**
      * Value indicating if the user is a payout manager.

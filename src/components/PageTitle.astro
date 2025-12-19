@@ -20,48 +20,21 @@ import ToggleFavoritesOnlyButton from "./scores/ToggleFavoritesOnlyButton";
 import EventScopeBadge from "./EventScopeBadge";
 import { getAstroRootSourcePath, getFilesByWildcard } from "utils/FileSystem";
 import { fileExists } from "utils/FileSystem";
+import { getSeasons } from "utils/Seasons";
 
 const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
 
 let currentSeasonLink: string | undefined = undefined;
 if (eventType && showSeasonButtons) {
-    const patternSuffix = "/index.mdx";
     const rootSeasonsForType = `${rootSourcePath}/content/docs/${eventType}/Seasons`;
-    const pattern = "[0-9][0-9][0-9][0-9]" + patternSuffix;
-    const seasonFiles = await getFilesByWildcard(rootSeasonsForType, pattern);
 
-    let maxSeason = undefined;
-    for (const file of seasonFiles) {
-        const startPosition = file.lastIndexOf(
-            "/",
-            file.length - patternSuffix.length - 1,
-        );
-        if (startPosition >= 0) {
-            const parts = file
-                .substring(
-                    startPosition + 1,
-                    file.length - patternSuffix.length,
-                )
-                .split("/");
-            if (parts.length === 1) {
-                const season = parseInt(parts[0]);
-                if (!maxSeason || season > maxSeason) {
-                    maxSeason = season;
-                }
-            }
-        }
-    }
-
-    if (maxSeason) {
-        if (
-            await fileExists(
-                `${rootSeasonsForType}/${maxSeason - 1}/results.mdx`,
-            )
-        ) {
-            currentSeasonLink = `/${eventType}/seasons/${maxSeason - 1}/results/`;
-        } else {
-            currentSeasonLink = `/${eventType}/seasons/${maxSeason - 1}/`;
-        }
+    const seasons = await getSeasons(import.meta.url);
+    if (
+        await fileExists(`${rootSeasonsForType}/${seasons[1]}/results.mdx`)
+    ) {
+        currentSeasonLink = `/${eventType}/seasons/${seasons[1]}/results/`;
+    } else {
+        currentSeasonLink = `/${eventType}/seasons/${seasons[1]}/`;
     }
 }
 

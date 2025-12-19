@@ -27,7 +27,7 @@ import ScoringDatabasePlayoffsPage from './ScoringDatabasePlayoffsPage';
 import ScoringDatabaseTeamsAndQuizzersPage from './ScoringDatabaseTeamsAndQuizzersPage';
 import ScoringDatabaseAwardsPage from './ScoringDatabaseAwardsPage';
 import ScoringDatabaseManualEntryPage from './ScoringDatabaseManualEntryPage';
-import EventProvider from './EventProvider';
+import EventProvider, { NEW_ID_PLACEHOLDER } from './EventProvider';
 import ScoringDatabaseNewPage from './ScoringDatabaseNewPage';
 import ScoringDatabaseGeneralPage from './ScoringDatabaseGeneralPage';
 import { AuthManager } from 'types/AuthManager';
@@ -89,7 +89,7 @@ function RootLayout({ loadingElementId }: Props) {
 
     useEffect(() => {
         reactSidebarEntries.set({
-            showParent: auth.userProfile?.canCreateEvents ?? false,
+            showParent: auth.userProfile?.canManageEvents ?? false,
             entries: buildSidebar(
                 routeMatches,
                 routeParameters,
@@ -129,98 +129,82 @@ function buildSidebar(
     const eventId = routeParameters.eventId as string;
     const rootEventPath = eventId ? `/${eventId}` : "";
 
-    const sidebarEntries: ReactSidebarEntry[] = [
-        {
-            type: 'link' as const,
-            label: "All Events",
-            navigate: () => navigate(""),
-            isCurrent: false,
-            icon: "fas faList"
-        }];
+    const sidebarEntries: ReactSidebarEntry[] =
+        [
+            {
+                type: 'group' as const,
+                label: "Registration",
+                icon: "fas faUserPen",
+                entries: [
+                    {
+                        type: 'link' as const,
+                        label: "General",
+                        navigate: () => navigate(`${rootEventPath}/registration/general`),
+                        isCurrent: false,
+                        icon: "fas faCalendar"
+                    },
+                    {
+                        type: 'link' as const,
+                        label: "Teams & Quizzers",
+                        navigate: () => navigate(`${rootEventPath}/registration/teamsAndQuizzers`),
+                        isCurrent: false,
+                        icon: "fas faUserGroup"
+                    },
+                    {
+                        type: 'link' as const,
+                        label: "Officials & Attendees",
+                        navigate: () => navigate(`${rootEventPath}/registration/officials`),
+                        isCurrent: false,
+                        icon: "fas faHelmetSafety"
+                    },
+                    {
+                        type: 'link' as const,
+                        label: "Required Fields",
+                        navigate: () => navigate(`${rootEventPath}/registration/requiredFields`),
+                        isCurrent: false,
+                        icon: "fas faUser"
+                    },
+                    {
+                        type: 'link' as const,
+                        label: "Custom Fields",
+                        navigate: () => navigate(`${rootEventPath}/registration/customFields`),
+                        isCurrent: false,
+                        icon: "fas faBars"
+                    },
+                    {
+                        type: 'link' as const,
+                        label: "Divisions",
+                        navigate: () => navigate(`${rootEventPath}/registration/divisions`),
+                        isCurrent: false,
+                        icon: "fas faLayerGroup"
+                    },
+                    {
+                        type: 'link' as const,
+                        label: "Forms",
+                        navigate: () => navigate(`${rootEventPath}/registration/forms`),
+                        isCurrent: false,
+                        icon: "fas faGavel"
+                    },
+                    {
+                        type: 'link' as const,
+                        label: "Money",
+                        navigate: () => navigate(`${rootEventPath}/registration/money`),
+                        isCurrent: false,
+                        icon: "fas faDollarSign"
+                    },
+                    {
+                        type: 'link' as const,
+                        label: "Other",
+                        navigate: () => navigate(`${rootEventPath}/registration/other`),
+                        isCurrent: false,
+                        icon: "fas faEllipsis"
+                    }
+                ],
+                collapsed: true
+            } as ReactSidebarGroup
+        ];
 
-    if (routeMatches.length < 5) {
-        const lastId = routeMatches[routeMatches.length - 1].id;
-        if (lastId !== REPORTS_ID && lastId !== PERMISSIONS_ID) {
-            // This means it is the All Entries page.
-            (sidebarEntries[0] as ReactSidebarLink).isCurrent = true;
-            return sidebarEntries;
-        }
-    }
-
-    sidebarEntries.push(
-        {
-            type: 'group' as const,
-            label: "Registration",
-            icon: "fas faUserPen",
-            entries: [
-                {
-                    type: 'link' as const,
-                    label: "General",
-                    navigate: () => navigate(`${rootEventPath}/registration/general`),
-                    isCurrent: false,
-                    icon: "fas faCalendar"
-                },
-                {
-                    type: 'link' as const,
-                    label: "Teams & Quizzers",
-                    navigate: () => navigate(`${rootEventPath}/registration/teamsAndQuizzers`),
-                    isCurrent: false,
-                    icon: "fas faUserGroup"
-                },
-                {
-                    type: 'link' as const,
-                    label: "Officials & Attendees",
-                    navigate: () => navigate(`${rootEventPath}/registration/officials`),
-                    isCurrent: false,
-                    icon: "fas faHelmetSafety"
-                },
-                {
-                    type: 'link' as const,
-                    label: "Required Fields",
-                    navigate: () => navigate(`${rootEventPath}/registration/requiredFields`),
-                    isCurrent: false,
-                    icon: "fas faUser"
-                },
-                {
-                    type: 'link' as const,
-                    label: "Custom Fields",
-                    navigate: () => navigate(`${rootEventPath}/registration/customFields`),
-                    isCurrent: false,
-                    icon: "fas faBars"
-                },
-                {
-                    type: 'link' as const,
-                    label: "Divisions",
-                    navigate: () => navigate(`${rootEventPath}/registration/divisions`),
-                    isCurrent: false,
-                    icon: "fas faLayerGroup"
-                },
-                {
-                    type: 'link' as const,
-                    label: "Forms",
-                    navigate: () => navigate(`${rootEventPath}/registration/forms`),
-                    isCurrent: false,
-                    icon: "fas faGavel"
-                },
-                {
-                    type: 'link' as const,
-                    label: "Money",
-                    navigate: () => navigate(`${rootEventPath}/registration/money`),
-                    isCurrent: false,
-                    icon: "fas faDollarSign"
-                },
-                {
-                    type: 'link' as const,
-                    label: "Other",
-                    navigate: () => navigate(`${rootEventPath}/registration/other`),
-                    isCurrent: false,
-                    icon: "fas faEllipsis"
-                }
-            ],
-            collapsed: true
-        } as ReactSidebarGroup);
-
-    if (eventId) {
+    if (eventId && eventId !== NEW_ID_PLACEHOLDER) {
         sidebarEntries.push(
             {
                 type: 'group' as const,
@@ -276,40 +260,27 @@ function buildSidebar(
 
     // Determine the current page.
     let currentPage: any = { entries: sidebarEntries };
-    if (routeMatches.length < 5) {
-        switch (routeMatches[routeMatches.length - 1].id) {
-            case REPORTS_ID:
-                currentPage = sidebarEntries[3];
-                break;
-            case PERMISSIONS_ID:
-                currentPage = sidebarEntries[4];
-                break;
-        }
-    }
-    else {
-        const segmentIndexes = routeMatches[routeMatches.length - 1].id
-            .substring(routeMatches[routeMatches.length - 2].id.length - 1)
-            .split('-')
-            .map(s => parseInt(s));
-        segmentIndexes[0]++;
-        for (const segment of segmentIndexes) {
-            const currentPageGroup = currentPage as ReactSidebarGroup;
-            let segmentOffset = 0;
-            if (currentPageGroup.id === SCORES_GROUP_ID && segment > 0) {
-                currentPage = currentPage.entries[1]; // Databases section.
+    const segmentIndexes = routeMatches[routeMatches.length - 1].id
+        .substring(routeMatches[routeMatches.length - 2].id.length - 1)
+        .split('-')
+        .map(s => parseInt(s));
+    for (const segment of segmentIndexes) {
+        const currentPageGroup = currentPage as ReactSidebarGroup;
+        let segmentOffset = 0;
+        if (currentPageGroup.id === SCORES_GROUP_ID && segment > 0) {
+            currentPage = currentPage.entries[1]; // Databases section.
 
-                const findId = DATABASE_GROUP_ID_PREFIX + (routeParameters.databaseId ?? "new");
-                for (const child of currentPage.entries) {
-                    if (child.id === findId) {
-                        currentPage = child;
-                        segmentOffset--;
-                        break;
-                    }
+            const findId = DATABASE_GROUP_ID_PREFIX + (routeParameters.databaseId ?? "new");
+            for (const child of currentPage.entries) {
+                if (child.id === findId) {
+                    currentPage = child;
+                    segmentOffset--;
+                    break;
                 }
             }
-
-            currentPage = (currentPage as ReactSidebarGroup).entries[segment + segmentOffset];
         }
+
+        currentPage = (currentPage as ReactSidebarGroup).entries[segment + segmentOffset];
     }
 
     if (currentPage.type === "group") {
@@ -398,43 +369,43 @@ const router = createHashRouter([
                         element: <EventProvider />,
                         children: [
                             {
-                                path: "/:eventId?",
+                                path: "/:eventId",
                                 element: <RegistrationProvider />,
                                 children: [
                                     {
-                                        path: "/:eventId?/registration/general",
+                                        path: "/:eventId/registration/general",
                                         element: <RegistrationGeneralPage />
                                     },
                                     {
-                                        path: "/:eventId?/registration/teamsAndQuizzers",
+                                        path: "/:eventId/registration/teamsAndQuizzers",
                                         element: <RegistrationTeamsAndQuizzersPage />
                                     },
                                     {
-                                        path: "/:eventId?/registration/officials",
+                                        path: "/:eventId/registration/officials",
                                         element: <RegistrationOfficialsPage />
                                     },
                                     {
-                                        path: "/:eventId?/registration/requiredFields",
+                                        path: "/:eventId/registration/requiredFields",
                                         element: <RegistrationRequiredFieldsPage />
                                     },
                                     {
-                                        path: "/:eventId?/registration/customFields",
+                                        path: "/:eventId/registration/customFields",
                                         element: <RegistrationCustomFieldsPage />
                                     },
                                     {
-                                        path: "/:eventId?/registration/divisions",
+                                        path: "/:eventId/registration/divisions",
                                         element: <RegistrationDivisionsPage />
                                     },
                                     {
-                                        path: "/:eventId?/registration/forms",
+                                        path: "/:eventId/registration/forms",
                                         element: <RegistrationFormsPage />
                                     },
                                     {
-                                        path: "/:eventId?/registration/money",
+                                        path: "/:eventId/registration/money",
                                         element: <RegistrationMoneyPage />
                                     },
                                     {
-                                        path: "/:eventId?/registration/other",
+                                        path: "/:eventId/registration/other",
                                         element: <RegistrationOtherPage />
                                     },
                                 ],

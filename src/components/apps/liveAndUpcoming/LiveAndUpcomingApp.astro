@@ -8,38 +8,13 @@ import districts from "data/districts.json";
 
 import path from "path";
 import { getAstroRootSourcePath, getFilesByWildcard, tryReadFileAsJson } from "utils/FileSystem";
+import { getSeasons } from "utils/Seasons";
 
-const fileUrl = import.meta.url;
-const rootSourcePath = await getAstroRootSourcePath(fileUrl);
-const patternSuffix = "/index.mdx";
-const seasonFiles = await getFilesByWildcard(
-    `${rootSourcePath}/content/docs`, 
-    "*/Seasons/[0-9][0-9][0-9][0-9]" + patternSuffix);
+const seasons = await getSeasons(import.meta.url);
+const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
 
-let maxSeason = 0;
-for (const file of seasonFiles) {
-    const startPosition = file.lastIndexOf(
-        "/",
-        file.length - patternSuffix.length - 1,
-    );
-    if (startPosition >= 0) {
-        const parts = file
-            .substring(
-                startPosition + 1,
-                file.length - patternSuffix.length,
-            )
-            .split("/");
-        if (parts.length === 1) {
-            const fileSeason = parseInt(parts[0]);
-            if (fileSeason > maxSeason) {
-                maxSeason = fileSeason;
-            }
-        }
-    }
-}
-
-const maxSeasonPath = path.resolve(rootSourcePath, `data/generated/seasons/${maxSeason}/events.json`);
-const lastSeasonPath = path.resolve(rootSourcePath, `data/generated/seasons/${maxSeason - 1}/events.json`);
+const maxSeasonPath = path.resolve(rootSourcePath, `data/generated/seasons/${seasons[0]}/events.json`);
+const lastSeasonPath = path.resolve(rootSourcePath, `data/generated/seasons/${seasons[1]}/events.json`);
 
 const recentSeasonEvents = (await tryReadFileAsJson<EventTypeList>(maxSeasonPath)) ??
     (await tryReadFileAsJson<EventTypeList>(lastSeasonPath));
