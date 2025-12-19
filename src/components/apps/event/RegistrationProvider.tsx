@@ -161,7 +161,6 @@ export default function RegistrationProvider({ }: Props) {
             // Ensure the required fields are present for forms.
             const newMissingBirthdateForRoles: string[] = [];
             if (forms.length > 0) {
-                let changeFormRoles: string[] = [];
                 for (const form of forms) {
                     if (form.IsMinorOnly) {
                         for (let role of form.Roles) {

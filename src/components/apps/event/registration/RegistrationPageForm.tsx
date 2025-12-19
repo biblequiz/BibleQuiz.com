@@ -101,7 +101,7 @@ export default function RegistrationPageForm({
     });
 
     return (
-        <form ref={registrationFormRef} className="space-y-6 mt-0" onSubmit={handleSubmit} disabled={isSaving}>
+        <form ref={registrationFormRef} className="space-y-6 mt-0" onSubmit={handleSubmit}>
             <div className="w-full mt-0 flex justify-end gap-2">
                 {previousPageLink && (
                     <button
