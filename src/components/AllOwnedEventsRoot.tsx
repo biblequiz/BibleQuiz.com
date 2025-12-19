@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { AuthManager } from "types/AuthManager";
 import type { EventInfo } from "types/EventTypes";
 import type { DistrictInfo, RegionInfo } from "types/RegionAndDistricts";
-import { AstroEventsService, EventInfoWithUrl } from "types/services/AstroEventsService";
+import { AstroEventsService } from "types/services/AstroEventsService";
 import EventListFilters, { matchesFilter } from "./EventListFilters";
 import { $eventFilters } from "utils/SharedState";
 import FontAwesomeIcon from "./FontAwesomeIcon";

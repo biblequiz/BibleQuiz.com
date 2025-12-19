@@ -10,6 +10,7 @@ import EventFieldPaymentSelector from "./EventFieldPaymentSelector";
 interface Props {
     allowAttendees: boolean;
     field: EventField;
+    getLabelValidityMessage: (label: string) => string | null;
 }
 
 function trimAndUpdateRequiredState(
@@ -69,7 +70,7 @@ const controlTypeRestrictions: Record<EventFieldControlType, ControlTypeRestrict
     [EventFieldControlType.Textbox]: new ControlTypeRestrictions(true, false, false),
 };
 
-export default function EventFieldCardBody({ allowAttendees, field }: Props) {
+export default function EventFieldCardBody({ allowAttendees, field, getLabelValidityMessage }: Props) {
 
     const [label, setLabel] = useState<string>(field.Label);
     const [visibility, setVisibility] = useState<EventFieldVisibility>(field.Visibility);
@@ -139,8 +140,16 @@ export default function EventFieldCardBody({ allowAttendees, field }: Props) {
                     type="text"
                     className="input input-info w-full mt-0"
                     value={label}
-                    onChange={e => setLabel(e.target.value)}
-                    onBlur={() => {
+                    onChange={e => {
+                        e.target.setCustomValidity("");
+                        setLabel(e.target.value);
+                    }}
+                    onBlur={e => {
+
+                        const validityMessage = getLabelValidityMessage(label);
+                        (e.target as HTMLInputElement).setCustomValidity(
+                            validityMessage || "");
+
                         field.Label = trimAndUpdateRequiredState(label, setLabel);
                         sharedDirtyWindowState.set(true);
                     }}

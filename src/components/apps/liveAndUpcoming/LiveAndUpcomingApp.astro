@@ -7,7 +7,7 @@ import regions from "data/regions.json";
 import districts from "data/districts.json";
 
 import path from "path";
-import { getAstroRootSourcePath, getFilesByWildcard, tryReadFileAsJson } from "utils/FileSystem";
+import { getAstroRootSourcePath, tryReadFileAsJson } from "utils/FileSystem";
 import { getSeasons } from "utils/Seasons";
 
 const seasons = await getSeasons(import.meta.url);

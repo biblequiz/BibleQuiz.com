@@ -19,6 +19,7 @@ export interface RegistrationOfficialsAndAttendeesInfo {
 export default function RegistrationOfficialsPage({ }: Props) {
     const {
         rootEventUrl,
+        isSaving,
         saveRegistration,
         general,
         officialsAndAttendees,
@@ -38,6 +39,7 @@ export default function RegistrationOfficialsPage({ }: Props) {
     return (
         <RegistrationPageForm
             rootEventUrl={rootEventUrl}
+            isSaving={isSaving}
             persistFormToEventInfo={() => {
                 setOfficialsAndAttendees({
                     ...officialsAndAttendees,

@@ -15,6 +15,7 @@ interface Props {
 export default function RegistrationFormsPage({ }: Props) {
     const {
         rootEventUrl,
+        isSaving,
         saveRegistration,
         officialsAndAttendees,
         forms,
@@ -23,6 +24,7 @@ export default function RegistrationFormsPage({ }: Props) {
     return (
         <RegistrationPageForm
             rootEventUrl={rootEventUrl}
+            isSaving={isSaving}
             saveRegistration={saveRegistration}
             previousPageLink={`${rootEventUrl}/registration/divisions`}
             nextPageLink={`${rootEventUrl}/registration/money`}>
@@ -66,6 +68,17 @@ export default function RegistrationFormsPage({ }: Props) {
                         <EventFormCardBody
                             form={form}
                             allowAttendees={officialsAndAttendees.allowAttendees}
+                            getLabelValidityMessage={newLabel => {
+                                if (newLabel) {
+                                    newLabel = newLabel.trim().toLowerCase();
+                                    const duplicates = forms.filter(f => f !== form && f.Label && f.Label.toLowerCase() === newLabel);
+                                    if (duplicates.length > 0) {
+                                        return "Labels must be unique across forms.";
+                                    }
+                                }
+
+                                return null;
+                            }}
                         />
                         <div className="w-full mt-0">
                             <button

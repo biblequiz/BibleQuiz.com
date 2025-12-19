@@ -1,6 +1,6 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEffect, useState } from "react";
-import { Outlet, useLocation, useParams } from "react-router-dom";
+import { Outlet, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { EventInfo, EventsService } from "types/services/EventsService";
 

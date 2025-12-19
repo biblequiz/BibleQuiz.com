@@ -15,6 +15,7 @@ interface Props {
 export default function RegistrationDivisionsPage({ }: Props) {
     const {
         rootEventUrl,
+        isSaving,
         saveRegistration,
         divisions,
         setDivisions } = useOutletContext<RegistrationProviderContext>();
@@ -24,6 +25,7 @@ export default function RegistrationDivisionsPage({ }: Props) {
     return (
         <RegistrationPageForm
             rootEventUrl={rootEventUrl}
+            isSaving={isSaving}
             persistFormToEventInfo={() => setDivisions(eventDivisions)}
             saveRegistration={saveRegistration}
             previousPageLink={`${rootEventUrl}/registration/customFields`}
@@ -67,7 +69,30 @@ export default function RegistrationDivisionsPage({ }: Props) {
                                 Move
                             </button>
                         </div>
-                        <EventDivisionCardBody division={division} />
+                        <EventDivisionCardBody
+                            division={division}
+                            getAbbreviationValidityMessage={newAbbreviation => {
+                                if (newAbbreviation) {
+                                    newAbbreviation = newAbbreviation.trim().toLowerCase();
+                                    const duplicates = eventDivisions.filter(d => d !== division && d.Abbreviation && d.Abbreviation.toLowerCase() === newAbbreviation);
+                                    if (duplicates.length > 0) {
+                                        return "Abbreviations must be unique among divisions.";
+                                    }
+                                }
+
+                                return null;
+                            }}
+                            getLabelValidityMessage={newLabel  => {
+                                if (newLabel) {
+                                    newLabel = newLabel.trim().toLowerCase();
+                                    const duplicates = eventDivisions.filter(d => d !== division && d.Label && d.Label.toLowerCase() === newLabel);
+                                    if (duplicates.length > 0) {
+                                        return "Labels must be unique among divisions.";
+                                    }
+                                }
+
+                                return null;
+                            }} />
                         <div className="w-full mt-0">
                             <button
                                 type="button"

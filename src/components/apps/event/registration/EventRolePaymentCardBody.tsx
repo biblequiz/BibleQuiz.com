@@ -4,7 +4,7 @@ import EventFieldPaymentOverrideSelector from "./EventFieldPaymentOverrideSelect
 
 interface Props {
     currentCost: number;
-    setValue: (cost: number,overrides: EventFieldPaymentOverride[]) => void;
+    setValue: (cost: number, overrides: EventFieldPaymentOverride[]) => void;
     currentOverrides?: EventFieldPaymentOverride[];
 }
 

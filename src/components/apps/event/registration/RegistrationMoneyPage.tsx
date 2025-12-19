@@ -68,6 +68,7 @@ const getRolePaymentControl = (
 export default function RegistrationMoneyPage({ }: Props) {
     const {
         rootEventUrl,
+        isSaving,
         saveRegistration,
         officialsAndAttendees,
         money,
@@ -98,6 +99,7 @@ export default function RegistrationMoneyPage({ }: Props) {
     return (
         <RegistrationPageForm
             rootEventUrl={rootEventUrl}
+            isSaving={isSaving}
             persistFormToEventInfo={() => {
                 setMoney({
                     ...money,
@@ -245,12 +247,13 @@ export default function RegistrationMoneyPage({ }: Props) {
                     <div className="w-full mt-0 ml-2 pr-4">
                         <label className="label">
                             <span className="label-text font-medium">Description for charges on Credit Card statements (prefixed with "BQ* ")</span>
+                            <span className="label-text-alt text-error">*</span>
                         </label>
                         <input
-                            type="email"
+                            type="text"
                             className="input w-full"
                             value={automatedPaymentDescriptor || undefined}
-                            maxLength={150}
+                            maxLength={22}
                             placeholder="Description for charges on Credit Card statements"
                             onChange={e => {
                                 setAutomatedPaymentDescriptor(e.target.value);
@@ -290,6 +293,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                             setPayeeAddress(a);
                             sharedDirtyWindowState.set(true);
                         }}
+                        required
                     />
                 </div>)}
 

@@ -16,6 +16,7 @@ interface Props {
 export default function RegistrationCustomFieldsPage({ }: Props) {
     const {
         rootEventUrl,
+        isSaving,
         saveRegistration,
         general,
         officialsAndAttendees,
@@ -30,6 +31,7 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
         <>
             <RegistrationPageForm
                 rootEventUrl={rootEventUrl}
+                isSaving={isSaving}
                 persistFormToEventInfo={() => setFields(eventFields)}
                 saveRegistration={saveRegistration}
                 previousPageLink={`${rootEventUrl}/registration/requiredFields`}
@@ -76,6 +78,17 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
                             <EventFieldCardBody
                                 field={field}
                                 allowAttendees={officialsAndAttendees.allowAttendees}
+                                getLabelValidityMessage={newLabel => {
+                                    if (newLabel) {
+                                        newLabel = newLabel.trim().toLowerCase();
+                                        const duplicates = eventFields.filter(f => f !== field && f.Label && f.Label.toLowerCase() === newLabel);
+                                        if (duplicates.length > 0) {
+                                            return "Labels must be unique across fields.";
+                                        }
+                                    }
+
+                                    return null;
+                                }}
                             />
                             <div className="w-full mt-0">
                                 <button

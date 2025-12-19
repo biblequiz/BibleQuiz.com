@@ -14,6 +14,7 @@ export interface RegistrationOtherInfo {
 export default function RegistrationOtherPage({ }: Props) {
     const {
         rootEventUrl,
+        isSaving,
         saveRegistration,
         other,
         setOther } = useOutletContext<RegistrationProviderContext>();
@@ -23,6 +24,7 @@ export default function RegistrationOtherPage({ }: Props) {
     return (
         <RegistrationPageForm
             rootEventUrl={rootEventUrl}
+            isSaving={isSaving}
             saveRegistration={saveRegistration}
             previousPageLink={`${rootEventUrl}/registration/money`}>
 

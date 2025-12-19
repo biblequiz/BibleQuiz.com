@@ -1,15 +1,20 @@
 import { Outlet, useOutletContext } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import type { EventProviderContext } from "./EventProvider";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { RegistrationGeneralInfo } from "./registration/RegistrationGeneralPage";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import type { RegistrationTeamsAndQuizzersInfo } from "./registration/RegistrationTeamsAndQuizzersPage";
 import type { RegistrationOfficialsAndAttendeesInfo } from "./registration/RegistrationOfficialsPage";
-import { EventDivision, EventExternalForm, EventPublishType, RequiredPersonFields, type EventField } from "types/services/EventsService";
+import { EventDivision, EventExternalForm, EventInfo, EventPublishType, EventsService, RequiredPersonFields, type EventField } from "types/services/EventsService";
 import type { RegistrationRoleRequiredFields } from "./registration/RegistrationRequiredFieldsPage";
 import type { RegistrationMoneyInfo } from "./registration/RegistrationMoneyPage";
 import type { RegistrationOtherInfo } from "./registration/RegistrationOtherPage";
+import RegistrationFormsPageFieldsDialog from "./registration/RegistrationFormsPageFieldsDialog";
+import { PersonRole } from "types/services/PeopleService";
+import RegistrationImpactingDialog from "./registration/RegistrationImpactingDialog";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { sharedDirtyWindowState } from "utils/SharedState";
 
 interface Props {
 }
@@ -17,6 +22,7 @@ interface Props {
 export interface RegistrationProviderContext {
     auth: AuthManager;
     isNewEvent: boolean;
+    isSaving: boolean;
     rootEventUrl: string;
 
     setEventTitle: (title: string) => void;
@@ -56,6 +62,13 @@ const normalizeDate = (date: string | null): string | null => {
         date,
         "yyyy-MM-dd");
 };
+
+function getDefaultEventInfo(): EventInfo {
+    const eventInfo = new EventInfo();
+    eventInfo.Id = null;
+    eventInfo.PublishToArchives = true;
+    return eventInfo;
+}
 
 export default function RegistrationProvider({ }: Props) {
     const {
@@ -108,14 +121,17 @@ export default function RegistrationProvider({ }: Props) {
     });
 
     const [fields, setFields] = useState<EventField[]>(info?.Fields || []);
+    const [hasChangedFields, setHasChangedFields] = useState(false);
     const [divisions, setDivisions] = useState<EventDivision[]>(info?.Divisions || []);
     const [forms, setForms] = useState<EventExternalForm[]>(info?.Forms || []);
+    const [hasChangedForms, setHasChangedForms] = useState(false);
+    const [missingBirthdateForRoles, setMissingBirthdateForRoles] = useState<string[] | undefined>(undefined);
 
     const [moneyState, setMoneyState] = useState<RegistrationMoneyInfo>(() =>
     ({
         calculatePayment: info?.CalculatePayment || false,
         trackPayments: info?.TrackPayments || false,
-        automatedFeeType: info?.AutomatedFeeType || null,
+        automatedFeeType: info && info.AutomatedFeeType !== null ? info.AutomatedFeeType : null,
         automatedPaymentDescriptor: info?.AutomatedPaymentDescriptor || null,
         payeeName: info?.PayeeName || null,
         payeeEmail: info?.PayeeEmail || null,
@@ -124,28 +140,218 @@ export default function RegistrationProvider({ }: Props) {
         perTeamCost: info?.PerTeamCost || null,
         rolePayment: info?.RolePayment || null,
     }));
+    const [hasChangedCosts, setHasChangedCosts] = useState(false);
 
     const [otherInfo, setOtherInfo] = useState(() => ({
         isHidden: info?.IsHidden || false,
         isHiddenFromLiveEvents: info?.IsHiddenFromLiveEvents || false,
     }));
 
+    const [initializeSavingRegistration, setInitializeSavingRegistration] = useState(false);
+    const [impactingChanges, setImpactingChanges] = useState<string[] | undefined>(undefined);
+    const [isSavingRegistration, setIsSavingRegistration] = useState(false);
+    const [savingError, setSavingError] = useState<string | undefined>(undefined);
+
     const saveRegistration =
-        () => {
-            alert("Save registration called");
-            return Promise.resolve();
+        async () => {
+
+            setInitializeSavingRegistration(false);
+            setImpactingChanges(undefined);
+
+            // Ensure the required fields are present for forms.
+            const newMissingBirthdateForRoles: string[] = [];
+            if (forms.length > 0) {
+                let changeFormRoles: string[] = [];
+                for (const form of forms) {
+                    if (form.IsMinorOnly) {
+                        for (let role of form.Roles) {
+                            const currentRequirements: RequiredPersonFields = requiredFields.roleFields[PersonRole[role]];
+                            if (!DataTypeHelpers.hasEnumFlag(currentRequirements, RequiredPersonFields.DateOfBirth)) {
+                                newMissingBirthdateForRoles.push(PersonRole[role]);
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (moneyState.calculatePayment) {
+                for (const roleKey in moneyState.rolePayment) {
+                    const payment = moneyState.rolePayment[roleKey];
+                    if (payment.Overrides && payment.Overrides.length > 0) {
+                        const currentRequirements: RequiredPersonFields = requiredFields.roleFields[roleKey];
+                        if (!DataTypeHelpers.hasEnumFlag(currentRequirements, RequiredPersonFields.DateOfBirth)) {
+                            newMissingBirthdateForRoles.push(roleKey);
+                        }
+                    }
+                }
+            }
+
+            setMissingBirthdateForRoles(newMissingBirthdateForRoles.length > 0 ? newMissingBirthdateForRoles : undefined);
+            if (newMissingBirthdateForRoles.length > 0) {
+                return Promise.resolve();
+            }
+
+            // If there are changes that will impact existing registrations, notify the user.
+            if (info?.HasAnyRegistrations && !impactingChanges) {
+                const impactingChanges: string[] = [];
+
+                // If allowing attendees or individuals has become more restrictive, inform the user.
+                if (!teamsAndQuizzers.allowIndividuals && info.AllowIndividuals) {
+                    impactingChanges.push("Any existing individuals will no longer show up in reports.");
+                }
+
+                if (!officialsAndAttendees.allowAttendees && info.AllowAttendees) {
+                    impactingChanges.push("Any existing attendees will no longer show up in reports.");
+                }
+
+                // Determine if there are new fields.
+                if (hasChangedFields) {
+                    impactingChanges.push("Any existing registration won't have values for the new/updated field. If you want them to be filled in, you may need to send them an e-mail using the <i class=\"fa fa-envelope\"></i> button.");
+                }
+
+                // If there are changes to costs.
+                if (hasChangedCosts) {
+                    impactingChanges.push("Any existing registration will use the old values for payment until they reopen their registration.");
+                }
+
+                // If there are changes to the forms.
+                if (hasChangedForms) {
+                    impactingChanges.push("Any existing registration will use the old forms until they reopen their registration.");
+                }
+
+                if (impactingChanges.length > 0) {
+                    setImpactingChanges(impactingChanges);
+                    return Promise.resolve();
+                }
+                else {
+                    setImpactingChanges(undefined);
+                }
+            }
+
+            // Persist everything from the states to the object.
+            const updatedInfo = info ?? getDefaultEventInfo();
+            updatedInfo.Id = info?.Id || null;
+            updatedInfo.Name = generalState.name;
+            updatedInfo.Description = generalState.description;
+            updatedInfo.TypeId = generalState.typeId;
+            updatedInfo.StartDate = generalState.startDate;
+            updatedInfo.EndDate = generalState.endDate;
+            updatedInfo.RegistrationStartDate = generalState.registrationStartDate;
+            updatedInfo.RegistrationEndDate = generalState.registrationEndDate;
+            updatedInfo.DistrictId = generalState.districtId;
+            updatedInfo.RegionId = generalState.regionId;
+            updatedInfo.PublishType = generalState.publishType;
+            updatedInfo.IsOfficial = generalState.isOfficial;
+            updatedInfo.LocationName = generalState.locationName!;
+            updatedInfo.Location = generalState.locationAddress!;
+
+            updatedInfo.MinTeamMembers = teamsAndQuizzers.minTeamMembers;
+            updatedInfo.MaxTeamMembers = teamsAndQuizzers.maxTeamMembers;
+            updatedInfo.RequireTeamCoaches = teamsAndQuizzers.requireTeamCoaches;
+            updatedInfo.AllowTeamNames = teamsAndQuizzers.allowCustomTeamNames;
+            updatedInfo.AllowIndividuals = teamsAndQuizzers.allowIndividuals;
+
+            updatedInfo.ExtendedOfficialsEndDate = officialsAndAttendees.extendedOfficialsEndDate;
+            updatedInfo.ExtendedAttendeesEndDate = officialsAndAttendees.extendedAttendeesEndDate;
+            updatedInfo.HasJudges = officialsAndAttendees.allowJudges;
+            updatedInfo.HasScorekeepers = officialsAndAttendees.allowScorekeepers;
+            updatedInfo.HasTimekeepers = officialsAndAttendees.allowTimekeepers;
+            updatedInfo.AllowAttendees = officialsAndAttendees.allowAttendees;
+
+            updatedInfo.RequiredRoleFields = requiredFields.roleFields;
+            updatedInfo.RequiredPointOfContactFields = requiredFields.contactFields;
+
+            updatedInfo.Fields = fields;
+            updatedInfo.Divisions = divisions;
+            updatedInfo.Forms = forms;
+
+            updatedInfo.CalculatePayment = moneyState.calculatePayment;
+            updatedInfo.TrackPayments = updatedInfo.CalculatePayment && moneyState.trackPayments;
+            if (updatedInfo.TrackPayments && null !== moneyState.automatedFeeType) {
+                updatedInfo.AutomatedFeeType = moneyState.automatedFeeType;
+                updatedInfo.AutomatedPaymentDescriptor = moneyState.automatedPaymentDescriptor;
+                updatedInfo.PayeeName = moneyState.payeeName;
+                updatedInfo.PayeeEmail = moneyState.payeeEmail;
+                updatedInfo.PayeeAddress = moneyState.payeeAddress;
+            }
+            else {
+                updatedInfo.AutomatedFeeType = null;
+                updatedInfo.AutomatedPaymentDescriptor = null;
+                updatedInfo.PayeeName = null;
+                updatedInfo.PayeeEmail = null;
+                updatedInfo.PayeeAddress = null;
+            }
+
+            if (updatedInfo.CalculatePayment) {
+                updatedInfo.PerChurchCost = moneyState.perChurchCost;
+                updatedInfo.PerTeamCost = moneyState.perTeamCost;
+                updatedInfo.RolePayment = moneyState.rolePayment;
+            }
+            else {
+                updatedInfo.PerChurchCost = null;
+                updatedInfo.PerTeamCost = null;
+                updatedInfo.RolePayment = null;
+            }
+
+            if (!updatedInfo.AllowAttendees) {
+                delete updatedInfo.RequiredRoleFields[PersonRole[PersonRole.Attendee]];
+
+                if (updatedInfo.RolePayment) {
+                    delete updatedInfo.RolePayment[PersonRole[PersonRole.Attendee]];
+                }
+            }
+
+            updatedInfo.IsHidden = otherInfo.isHidden;
+            updatedInfo.IsHiddenFromLiveEvents = otherInfo.isHiddenFromLiveEvents;
+
+            setIsSavingRegistration(true);
+            setSavingError(undefined);
+
+            const promise = updatedInfo.Id
+                ? EventsService.update(auth, updatedInfo)
+                : EventsService.create(auth, updatedInfo);
+
+            return promise
+                .then(() => {
+                    setIsSavingRegistration(false);
+                    sharedDirtyWindowState.set(false);
+                })
+                .catch(err => {
+                    setSavingError(err);
+                });
         };
+
+    if (initializeSavingRegistration) {
+        saveRegistration();
+    }
+
+    const formsDialogRef = useRef<HTMLDialogElement>(null);
 
     return (
         <div className="overflow-x-auto">
+            {savingError && (
+                <div className="hero bg-base-300 rounded-2xl shadow-lg mb-4">
+                    <div className="hero-content text-center py-16 px-8">
+                        <div className="max-w-4xl">
+                            <h1 className="text-3xl font-bold text-base-content mb-4">
+                                <FontAwesomeIcon icon="fas faTriangleExclamation" />
+                                <span className="ml-4">Error</span>
+                            </h1>
+                            <p className="text-lg text-base-content/70 mb-8">
+                                {savingError}
+                            </p>
+                        </div>
+                    </div>
+                </div>)}
             <Outlet context={{
                 auth: auth,
                 isNewEvent: !info,
+                isSaving: isSavingRegistration,
                 rootEventUrl: rootUrl,
 
                 setEventTitle: setEventTitle,
                 setEventType: setEventType,
-                saveRegistration: saveRegistration,
+                saveRegistration: () => setInitializeSavingRegistration(true),
 
                 general: generalState,
                 setGeneral: setGeneralState,
@@ -160,19 +366,59 @@ export default function RegistrationProvider({ }: Props) {
                 setRequiredFields: setRequiredFields,
 
                 fields: fields,
-                setFields: setFields,
+                setFields: f => {
+                    setFields(f);
+                    setHasChangedFields(true);
+                },
 
                 divisions: divisions,
                 setDivisions: setDivisions,
 
                 forms: forms,
-                setForms: setForms,
+                setForms: f => {
+                    setForms(f);
+                    setHasChangedForms(true);
+                },
 
                 money: moneyState,
-                setMoney: setMoneyState,
+                setMoney: m => {
+                    setMoneyState(m);
+                    setHasChangedCosts(true);
+                },
 
                 other: otherInfo,
                 setOther: setOtherInfo,
             } as RegistrationProviderContext} />
+            {missingBirthdateForRoles && (
+                <RegistrationFormsPageFieldsDialog
+                    dialogRef={formsDialogRef}
+                    missingForRoles={missingBirthdateForRoles}
+                    setDialogResult={result => {
+                        if (result) {
+                            const newRequiredFields = { ...requiredFields };
+                            for (const role of missingBirthdateForRoles) {
+                                newRequiredFields.roleFields[role] |= RequiredPersonFields.DateOfBirth;
+                            }
+
+                            setRequiredFields(newRequiredFields);
+                            setInitializeSavingRegistration(true);
+                        }
+
+                        setMissingBirthdateForRoles(undefined);
+                        formsDialogRef.current?.close();
+                    }}
+                />)}
+            {impactingChanges && (
+                <RegistrationImpactingDialog
+                    dialogRef={formsDialogRef}
+                    changes={impactingChanges}
+                    setDialogResult={result => {
+                        setInitializeSavingRegistration(result);
+                        if (!result) {
+                            setImpactingChanges(undefined);
+                        }
+                        formsDialogRef.current?.close();
+                    }}
+                />)}
         </div>);
 }

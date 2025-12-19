@@ -1,11 +1,12 @@
 import { useOutletContext } from "react-router-dom";
 import type { RegistrationProviderContext } from "../RegistrationProvider";
 import RegistrationPageForm from "./RegistrationPageForm";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { RequiredPersonFields, type EventRoleFields } from "types/services/EventsService";
 import { PersonRole } from "types/services/PeopleService";
 import EventRequiredFieldCardBody from "./EventRequiredFieldCardBody";
 import EventFieldCard from "./EventFieldCard";
+import { sharedDirtyWindowState } from "utils/SharedState";
 
 interface Props {
 }
@@ -18,20 +19,32 @@ export interface RegistrationRoleRequiredFields {
 export default function RegistrationRequiredFieldsPage({ }: Props) {
     const {
         rootEventUrl,
+        isSaving,
         saveRegistration,
         officialsAndAttendees,
         requiredFields,
         setRequiredFields } = useOutletContext<RegistrationProviderContext>();
 
-    const [contactFields, setContactFields] = useState<RequiredPersonFields>(() => requiredFields.contactFields);
-    const [quizzerFields, setQuizzerFields] = useState<RequiredPersonFields>(() => requiredFields.roleFields[PersonRole[PersonRole.Quizzer]] ?? RequiredPersonFields.None);
-    const [coachFields, setCoachFields] = useState<RequiredPersonFields>(() => requiredFields.roleFields[PersonRole[PersonRole.Coach]] ?? RequiredPersonFields.None);
-    const [officialFields, setOfficialFields] = useState<RequiredPersonFields>(() => requiredFields.roleFields[PersonRole[PersonRole.Official]] ?? RequiredPersonFields.None);
-    const [attendeeFields, setAttendeeFields] = useState<RequiredPersonFields>(() => requiredFields.roleFields[PersonRole[PersonRole.Attendee]] ?? RequiredPersonFields.None);
+    const [contactFields, setContactFields] = useState<RequiredPersonFields>(RequiredPersonFields.None);
+    const [quizzerFields, setQuizzerFields] = useState<RequiredPersonFields>(RequiredPersonFields.None);
+    const [coachFields, setCoachFields] = useState<RequiredPersonFields>(RequiredPersonFields.None);
+    const [officialFields, setOfficialFields] = useState<RequiredPersonFields>(RequiredPersonFields.None);
+    const [attendeeFields, setAttendeeFields] = useState<RequiredPersonFields>(RequiredPersonFields.None);
+
+    useEffect(() => {
+        setContactFields(requiredFields.contactFields);
+        setQuizzerFields(requiredFields.roleFields[PersonRole[PersonRole.Quizzer]] ?? RequiredPersonFields.None);
+        setCoachFields(requiredFields.roleFields[PersonRole[PersonRole.Coach]] ?? RequiredPersonFields.None);
+        setOfficialFields(requiredFields.roleFields[PersonRole[PersonRole.Official]] ?? RequiredPersonFields.None);
+        if (officialsAndAttendees.allowAttendees) {
+            setAttendeeFields(requiredFields.roleFields[PersonRole[PersonRole.Attendee]] ?? RequiredPersonFields.None);
+        }
+    }, [requiredFields]);
 
     return (
         <RegistrationPageForm
             rootEventUrl={rootEventUrl}
+            isSaving={isSaving}
             persistFormToEventInfo={() => {
 
                 const newRoleFields: EventRoleFields = {
@@ -64,28 +77,40 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
                 <EventFieldCard title="Team Contact" width="lg:w-50">
                     <EventRequiredFieldCardBody
                         fields={contactFields}
-                        setFields={setContactFields}
+                        setFields={f => {
+                            setContactFields(f);
+                            sharedDirtyWindowState.set(true);
+                        }}
                         includeBirthdate={false}
                     />
                 </EventFieldCard>
                 <EventFieldCard title="Quizzer" width="lg:w-50">
                     <EventRequiredFieldCardBody
                         fields={quizzerFields}
-                        setFields={setQuizzerFields}
+                        setFields={f => {
+                            setQuizzerFields(f);
+                            sharedDirtyWindowState.set(true);
+                        }}
                         includeBirthdate={true}
                     />
                 </EventFieldCard>
                 <EventFieldCard title="Coach" width="lg:w-50">
                     <EventRequiredFieldCardBody
                         fields={coachFields}
-                        setFields={setCoachFields}
+                        setFields={f => {
+                            setCoachFields(f);
+                            sharedDirtyWindowState.set(true);
+                        }}
                         includeBirthdate={true}
                     />
                 </EventFieldCard>
                 <EventFieldCard title="Official" width="lg:w-50">
                     <EventRequiredFieldCardBody
                         fields={officialFields}
-                        setFields={setOfficialFields}
+                        setFields={f => {
+                            setOfficialFields(f);
+                            sharedDirtyWindowState.set(true);
+                        }}
                         includeBirthdate={true}
                     />
                 </EventFieldCard>
@@ -93,7 +118,10 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
                     <EventFieldCard title="Attendee" width="lg:w-50">
                         <EventRequiredFieldCardBody
                             fields={attendeeFields}
-                            setFields={setAttendeeFields}
+                            setFields={f => {
+                                setAttendeeFields(f);
+                                sharedDirtyWindowState.set(true);
+                            }}
                             includeBirthdate={true}
                         />
                     </EventFieldCard>)}

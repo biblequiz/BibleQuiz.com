@@ -31,6 +31,7 @@ export interface RegistrationGeneralInfo {
 export default function RegistrationGeneralPage({ }: Props) {
     const {
         isNewEvent,
+        isSaving,
         rootEventUrl,
         saveRegistration,
         setEventTitle,
@@ -59,6 +60,7 @@ export default function RegistrationGeneralPage({ }: Props) {
     return (
         <RegistrationPageForm
             rootEventUrl={rootEventUrl}
+            isSaving={isSaving}
             persistFormToEventInfo={() => {
                 setGeneral({
                     ...general,

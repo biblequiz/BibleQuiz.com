@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { RegistrationProviderContext } from "../RegistrationProvider";
 import { useOutletContext } from "react-router-dom";
 import RegistrationPageForm from "./RegistrationPageForm";
@@ -18,6 +18,7 @@ export interface RegistrationTeamsAndQuizzersInfo {
 export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
     const {
         rootEventUrl,
+        isSaving,
         saveRegistration,
         teamsAndQuizzers,
         setTeamsAndQuizzers } = useOutletContext<RegistrationProviderContext>();
@@ -28,9 +29,19 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
     const [allowCustomTeamNames, setAllowCustomTeamNames] = useState(teamsAndQuizzers.allowCustomTeamNames);
     const [allowIndividuals, setAllowIndividuals] = useState(teamsAndQuizzers.allowIndividuals);
 
+    const minTeamMembersRef = useRef<HTMLInputElement>(null);
+
     return (
         <RegistrationPageForm
             rootEventUrl={rootEventUrl}
+            isSaving={isSaving}
+            setCustomValidation={() => {
+                if (minTeamMembersRef.current && maxTeamMembers < minTeamMembers) {
+                    minTeamMembersRef.current.setCustomValidity("Cannot be greater than Max Team Members.");
+                }
+
+                return true;
+            }}
             persistFormToEventInfo={() => {
                 setTeamsAndQuizzers({
                     ...teamsAndQuizzers,
@@ -59,7 +70,9 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
                         min={1}
                         max={8}
                         value={minTeamMembers}
+                        ref={minTeamMembersRef}
                         onChange={e => {
+                            e.target.setCustomValidity("");
                             setMinTeamMembers(e.target.valueAsNumber);
                             sharedDirtyWindowState.set(true);
                         }}
