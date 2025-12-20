@@ -9,6 +9,7 @@ import FontAwesomeIcon from "./FontAwesomeIcon";
 import EventCard from "./apps/liveAndUpcoming/EventCard";
 import { useStore } from "@nanostores/react";
 import { NEW_ID_PLACEHOLDER } from "./apps/event/EventProvider";
+import ProtectedRoute from "./auth/ProtectedRoute";
 
 interface Props {
     regions: RegionInfo[];
@@ -35,11 +36,15 @@ export default function AllOwnedEventsRoot({
     const [events, setEvents] = useState<ResolvedEventInfo[] | undefined>(undefined);
     const [isLoading, setIsLoading] = useState<boolean>(false);
     const [error, setError] = useState<string | null>(null);
+    const [isAuthenticated, setIsAuthenticated] = useState<boolean>(auth.userProfile?.canManageEvents === true);
 
     const eventFilters = useStore($eventFilters);
 
     useEffect(() => {
         if (!events || season != eventFilters.season) {
+            if (!isAuthenticated) {
+                return;
+            }
 
             const newSeason = eventFilters.season || seasons[1];
             if (events && newSeason === season) {
@@ -76,7 +81,7 @@ export default function AllOwnedEventsRoot({
                     setIsLoading(false);
                 });
         }
-    }, [auth, eventFilters])
+    }, [auth, eventFilters, isAuthenticated])
 
     const eventListRef = useRef<HTMLDivElement>(null);
 
@@ -90,7 +95,23 @@ export default function AllOwnedEventsRoot({
         }
     }, [isLoading]);
 
-    if (isLoading || !events) {
+    if (!isAuthenticated) {
+        return <ProtectedRoute
+            permissionCheck={p => {
+                const newIsAuthenticated = p.canManageEvents === true;
+                if (newIsAuthenticated !== isAuthenticated) {
+                    setIsAuthenticated(newIsAuthenticated);
+                    if (isAuthenticated) {
+                        setIsLoading(true);
+                    }
+                }
+
+                return newIsAuthenticated;
+            }}>
+            <></>
+        </ProtectedRoute>;
+    }
+    else if (isLoading || !events) {
         return null;
     }
     else if (error) {

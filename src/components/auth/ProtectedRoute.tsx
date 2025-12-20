@@ -6,9 +6,10 @@ import InsufficientPermissionsSection from './InsufficientPermissionsSection';
 
 interface Props {
     permissionCheck?: (profile: UserAccountProfile) => boolean;
+    children?: React.ReactNode;
 }
 
-export default function ProtectedRoute({ permissionCheck }: Props) {
+export default function ProtectedRoute({ permissionCheck, children }: Props) {
 
     const authManager = AuthManager.useNanoStore();
     authManager.showLoginWindowFromBackground();
@@ -28,5 +29,10 @@ export default function ProtectedRoute({ permissionCheck }: Props) {
         return <InsufficientPermissionsSection />;
     }
 
-    return <Outlet />;
+    if (children) {
+        return children;
+    }
+    else {
+        return <Outlet />;
+    }
 }
