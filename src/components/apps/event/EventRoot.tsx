@@ -31,15 +31,23 @@ import EventProvider, { NEW_ID_PLACEHOLDER } from './EventProvider';
 import ScoringDatabaseNewPage from './scoring/ScoringDatabaseNewPage';
 import ScoringDatabaseGeneralPage from './scoring/ScoringDatabaseGeneralPage';
 import { AuthManager } from 'types/AuthManager';
+import EventDashboardPage from './EventDashboardPage';
+import DeleteEventPage from './DeleteEventPage';
+import EmailEventPage from './EmailEventPage';
+import CloneEventPage from './CloneEventPage';
 
 interface Props {
     loadingElementId: string;
 }
 
+const DASHBOARD_ID = "dashboard";
 const SCORES_GROUP_ID = "scores";
 const DATABASE_GROUP_ID_PREFIX = "db-";
 const PERMISSIONS_ID = "permissions";
 const REPORTS_ID = "reports";
+const CLONE_ID = "clone";
+const EMAIL_ID = "email";
+const DELETE_ID = "delete";
 
 function RootLayout({ loadingElementId }: Props) {
 
@@ -204,7 +212,20 @@ function buildSidebar(
             } as ReactSidebarGroup
         ];
 
+    let currentPage: any = undefined;
+    const lastSegmentId = routeMatches[routeMatches.length - 1].id;
     if (eventId && eventId !== NEW_ID_PLACEHOLDER) {
+
+        const dashboardEntry: ReactSidebarLink =
+        {
+            type: 'link' as const,
+            label: "Dashboard",
+            navigate: () => navigate(`${rootEventPath}/dashboard`),
+            isCurrent: false,
+            icon: "fas faGauge"
+        };
+        sidebarEntries.unshift(dashboardEntry);
+
         sidebarEntries.push(
             {
                 type: 'group' as const,
@@ -239,48 +260,110 @@ function buildSidebar(
                 ]
             } as ReactSidebarGroup);
 
-        sidebarEntries.push(
-            {
-                type: 'link' as const,
-                label: "Downloads & Reports",
-                navigate: () => navigate(`${rootEventPath}/reports`),
-                isCurrent: false,
-                icon: "fas faFileImport"
-            } as ReactSidebarLink);
+        const reportsEntry: ReactSidebarLink =
+        {
+            type: 'link' as const,
+            label: "Downloads & Reports",
+            navigate: () => navigate(`${rootEventPath}/reports`),
+            isCurrent: false,
+            icon: "fas faFileImport"
+        };
+        sidebarEntries.push(reportsEntry);
 
-        sidebarEntries.push(
-            {
-                type: 'link' as const,
-                label: "Permissions",
-                navigate: () => navigate(`${rootEventPath}/permissions`),
-                isCurrent: false,
-                icon: "fas faLock"
-            } as ReactSidebarLink);
+        const permissionsEntry: ReactSidebarLink =
+        {
+            type: 'link' as const,
+            label: "Permissions",
+            navigate: () => navigate(`${rootEventPath}/permissions`),
+            isCurrent: false,
+            icon: "fas faLock"
+        };
+        sidebarEntries.push(permissionsEntry);
+
+        const emailEntry: ReactSidebarLink =
+        {
+            type: 'link' as const,
+            label: "E-mail",
+            navigate: () => navigate(`${rootEventPath}/email`),
+            isCurrent: false,
+            icon: "fas faEnvelope"
+        };
+        sidebarEntries.push(emailEntry);
+
+        const cloneEntry: ReactSidebarLink =
+        {
+            type: 'link' as const,
+            label: "Clone",
+            navigate: () => navigate(`${rootEventPath}/clone`),
+            isCurrent: false,
+            icon: "fas faClone"
+        };
+        sidebarEntries.push(cloneEntry);
+
+        const deleteEntry: ReactSidebarLink =
+        {
+            type: 'link' as const,
+            label: "Delete",
+            navigate: () => navigate(`${rootEventPath}/delete`),
+            isCurrent: false,
+            icon: "fas faTrash"
+        };
+        sidebarEntries.push(deleteEntry);
+
+        switch (lastSegmentId) {
+            case DASHBOARD_ID:
+                currentPage = dashboardEntry;
+                break;
+            case REPORTS_ID:
+                currentPage = reportsEntry;
+                break;
+            case PERMISSIONS_ID:
+                currentPage = permissionsEntry;
+                break;
+            case EMAIL_ID:
+                currentPage = emailEntry;
+                break;
+            case CLONE_ID:
+                currentPage = cloneEntry;
+                break;
+            case DELETE_ID:
+                currentPage = deleteEntry;
+                break;
+        }
     }
 
-    // Determine the current page.
-    let currentPage: any = { entries: sidebarEntries };
-    const segmentIndexes = routeMatches[routeMatches.length - 1].id
-        .substring(routeMatches[routeMatches.length - 2].id.length - 1)
-        .split('-')
-        .map(s => parseInt(s));
-    for (const segment of segmentIndexes) {
-        const currentPageGroup = currentPage as ReactSidebarGroup;
-        let segmentOffset = 0;
-        if (currentPageGroup.id === SCORES_GROUP_ID && segment > 0) {
-            currentPage = currentPage.entries[1]; // Databases section.
+    // Determine the current page (if it isn't already known).
+    if (!currentPage) {
+        const segmentIndexes = lastSegmentId
+            .substring(6)
+            .split('-')
+            .map(s => parseInt(s));
 
-            const findId = DATABASE_GROUP_ID_PREFIX + (routeParameters.databaseId ?? "new");
-            for (const child of currentPage.entries) {
-                if (child.id === findId) {
-                    currentPage = child;
-                    segmentOffset--;
-                    break;
+        currentPage = { entries: sidebarEntries };
+        let isDatabaseGroup = false;
+        for (const segment of segmentIndexes) {
+            const currentPageGroup = currentPage as ReactSidebarGroup;
+
+            let segmentOffset = isDatabaseGroup ? -1 : 0;
+            if (currentPageGroup.id === SCORES_GROUP_ID && segment > 0) {
+                currentPage = currentPage.entries[1]; // Databases section.
+
+                const findId = DATABASE_GROUP_ID_PREFIX + (routeParameters.databaseId ?? "new");
+                for (const child of currentPage.entries) {
+                    if (child.id === findId) {
+                        // currentPage = child;
+                        segmentOffset--;
+                        isDatabaseGroup = true;
+                        break;
+                    }
+                    else {
+                        segmentOffset++;
+                    }
                 }
             }
-        }
 
-        currentPage = (currentPage as ReactSidebarGroup).entries[segment + segmentOffset];
+            currentPage = (currentPage as ReactSidebarGroup).entries[segment + segmentOffset];
+        }
     }
 
     if (currentPage.type === "group") {
@@ -368,6 +451,11 @@ const router = createHashRouter([
                         path: "/",
                         element: <EventProvider />,
                         children: [
+                            {
+                                path: "/:eventId/dashboard",
+                                id: DASHBOARD_ID,
+                                element: <EventDashboardPage />
+                            },
                             {
                                 path: "/:eventId",
                                 element: <RegistrationProvider />,
@@ -463,9 +551,24 @@ const router = createHashRouter([
                                 element: <ReportsPage />
                             },
                             {
+                                path: "/:eventId/email",
+                                id: EMAIL_ID,
+                                element: <EmailEventPage />
+                            },
+                            {
+                                path: "/:eventId/clone",
+                                id: CLONE_ID,
+                                element: <CloneEventPage />
+                            },
+                            {
                                 path: "/:eventId/permissions",
                                 id: PERMISSIONS_ID,
                                 element: <PermissionsPage />
+                            },
+                            {
+                                path: "/:eventId/delete",
+                                id: DELETE_ID,
+                                element: <DeleteEventPage />
                             },
                         ]
                     }

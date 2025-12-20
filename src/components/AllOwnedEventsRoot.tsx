@@ -148,7 +148,7 @@ export default function AllOwnedEventsRoot({
                                     isLive={true}
                                     showLiveBadge={false}
                                     showHiddenBadge={!event.isVisible}
-                                    urlFormatter={e => `event/#/${e.id}/registration/general`}
+                                    urlFormatter={e => `event/#/${e.id}/dashboard`}
                                 />
                             );
                         })}

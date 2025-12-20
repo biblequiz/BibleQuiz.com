@@ -16,6 +16,7 @@ export interface EventProviderContext {
     setEventTitle: (title: string) => void;
     setEventType: (typeId: string) => void;
     setEventIsHidden: (isHidden: boolean) => void;
+    setLatestEvent: (event: EventInfo | null) => void;
 }
 
 export const NEW_ID_PLACEHOLDER = "new";
@@ -121,6 +122,7 @@ export default function EventProvider({ }: Props) {
                         : "Untitled Event"),
                 setEventType: setEventTypeId,
                 setEventIsHidden: setEventIsHidden,
+                setLatestEvent: setCurrentEvent
             } as EventProviderContext} />
         </>);
 }
