@@ -19,17 +19,17 @@ import RegistrationDivisionsPage from './registration/RegistrationDivisionsPage'
 import RegistrationFormsPage from './registration/RegistrationFormsPage';
 import RegistrationMoneyPage from './registration/RegistrationMoneyPage';
 import RegistrationOtherPage from './registration/RegistrationOtherPage';
-import ScoringSettingsPage from './ScoringSettingsPage';
-import ScoringDatabaseProvider from './ScoringDatabaseProvider';
-import ScoringDatabaseMeetsPage from './ScoringDatabaseMeetsPage';
-import ScoringDatabaseLiveScoresPage from './ScoringDatabaseLiveScoresPage';
-import ScoringDatabasePlayoffsPage from './ScoringDatabasePlayoffsPage';
-import ScoringDatabaseTeamsAndQuizzersPage from './ScoringDatabaseTeamsAndQuizzersPage';
-import ScoringDatabaseAwardsPage from './ScoringDatabaseAwardsPage';
-import ScoringDatabaseManualEntryPage from './ScoringDatabaseManualEntryPage';
+import ScoringSettingsPage from './scoring/ScoringSettingsPage';
+import ScoringDatabaseProvider from './scoring/ScoringDatabaseProvider';
+import ScoringDatabaseMeetsPage from './scoring/ScoringDatabaseMeetsPage';
+import ScoringDatabaseLiveScoresPage from './scoring/ScoringDatabaseLiveScoresPage';
+import ScoringDatabasePlayoffsPage from './scoring/ScoringDatabasePlayoffsPage';
+import ScoringDatabaseTeamsAndQuizzersPage from './scoring/ScoringDatabaseTeamsAndQuizzersPage';
+import ScoringDatabaseAwardsPage from './scoring/ScoringDatabaseAwardsPage';
+import ScoringDatabaseManualEntryPage from './scoring/ScoringDatabaseManualEntryPage';
 import EventProvider, { NEW_ID_PLACEHOLDER } from './EventProvider';
-import ScoringDatabaseNewPage from './ScoringDatabaseNewPage';
-import ScoringDatabaseGeneralPage from './ScoringDatabaseGeneralPage';
+import ScoringDatabaseNewPage from './scoring/ScoringDatabaseNewPage';
+import ScoringDatabaseGeneralPage from './scoring/ScoringDatabaseGeneralPage';
 import { AuthManager } from 'types/AuthManager';
 
 interface Props {

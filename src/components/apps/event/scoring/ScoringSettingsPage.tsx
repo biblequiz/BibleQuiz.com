@@ -1,4 +1,4 @@
-import type { EventProviderContext } from "./EventProvider";
+import type { EventProviderContext } from "../EventProvider";
 import { useOutletContext } from "react-router-dom";
 
 interface Props {

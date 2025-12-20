@@ -1,4 +1,4 @@
-import type { ScoringDatabaseProviderContext } from "./ScoringDatabaseProvider";
+import type { ScoringDatabaseProviderContext } from "../ScoringDatabaseProvider";
 import { useOutletContext } from "react-router-dom";
 
 interface Props {

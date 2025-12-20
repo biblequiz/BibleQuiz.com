@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Outlet, useOutletContext, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
-import type { EventProviderContext } from "./EventProvider";
+import type { EventProviderContext } from "../EventProvider";
 
 interface Props {
 }
