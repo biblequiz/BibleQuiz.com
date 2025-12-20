@@ -3,21 +3,20 @@ import { AuthManager } from "types/AuthManager";
 interface Props {
 }
 
-export default function ReportsPage({ }: Props) {
+export default function EventDashboardPage({ }: Props) {
     const auth = AuthManager.useNanoStore();
 
     return (
         <>
             <div>
-                <b>Downloads & Reports Page</b>
+                <b>Event Dashboard</b>
             </div>
             <p>
-                This page includes the following fields:
+                This is a landing page for the event. It will include:
             </p>
             <ul>
-                <li>Registration Report & File</li>
-                <li>ScoreKeep File (Excel and Text)</li>
-                <li>Ability to manage the registrations</li>
+                <li>Summary of registrations and databases.</li>
+                <li>Links to common tasks (edit registration, download reports, manage databases).</li>
             </ul>
             <div>
                 Placeholder for {auth.userProfile?.displayName}

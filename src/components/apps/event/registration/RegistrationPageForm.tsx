@@ -11,10 +11,6 @@ export interface RegistrationFormContext {
     isNewEvent: boolean;
     hasRegistrations: boolean;
     saveRegistration: () => Promise<void>;
-    cloneEvent: () => Promise<void>;
-    copyRegistrations: () => Promise<void>;
-    sendEmail: () => Promise<void>;
-    deleteEvent: () => Promise<void>;
 }
 
 interface Props {
@@ -144,29 +140,6 @@ export default function RegistrationPageForm({
             <button
                 type="button"
                 className={`btn btn-accent m-0`}
-                onClick={context.cloneEvent}
-                disabled={isSaving || context.isNewEvent}>
-                <FontAwesomeIcon icon="fas faClone" />
-                <span className="hidden md:inline">Clone Event</span>
-            </button>
-            <button
-                type="button"
-                className={`btn btn-accent m-0`}
-                onClick={context.copyRegistrations}
-                disabled={isSaving || context.isNewEvent}>
-                <FontAwesomeIcon icon="fas faUserPen" />
-                <span className="hidden md:inline">Copy Registrations</span>
-            </button>
-            <button
-                type="button"
-                className={`btn btn-accent m-0`}
-                onClick={context.sendEmail}
-                disabled={isSaving || context.isNewEvent}>
-                <FontAwesomeIcon icon="fas faEnvelope" />
-            </button>
-            <button
-                type="button"
-                className={`btn btn-accent m-0`}
                 onClick={async () => {
                     if (context.registrationLink) {
                         await navigator.clipboard.writeText(context.registrationLink);
@@ -180,14 +153,6 @@ export default function RegistrationPageForm({
                 disabled={isSaving || context.isNewEvent}>
                 <FontAwesomeIcon icon={`fas ${hasCopiedLink ? "faCheck" : "faLink"}`} />
             </button>
-            {!context.hasRegistrations && (
-                <button
-                    type="button"
-                    className={`btn btn-error m-0`}
-                    onClick={context.deleteEvent}
-                    disabled={isSaving || context.hasRegistrations || context.isNewEvent}>
-                    <FontAwesomeIcon icon="fas faTrash" />
-                </button>)}
         </>);
 
     return (
