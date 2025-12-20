@@ -17,6 +17,7 @@ import { sharedDirtyWindowState } from "utils/SharedState";
 import type { RegistrationFormContext } from "./registration/RegistrationPageForm";
 import { Address } from "types/services/models/Address";
 import ConfirmationDialog from "components/ConfirmationDialog";
+import { getDefaultFieldsForNewEvent } from "./registration/EventFieldCommonDialog";
 
 interface Props {
 }
@@ -30,6 +31,8 @@ export interface RegistrationProviderContext {
     setEventTitle: (title: string) => void;
     setEventType: (typeId: string) => void;
     setEventIsHidden: (isHidden: boolean) => void;
+
+    originalEventType?: string;
 
     general: RegistrationGeneralInfo;
     setGeneral: (updated: RegistrationGeneralInfo) => void;
@@ -130,9 +133,26 @@ export default function RegistrationProvider({ }: Props) {
         roleFields: info?.RequiredRoleFields ?? {}
     });
 
-    const [fields, setFields] = useState<EventField[]>(info?.Fields || []);
+    const [fields, setFields] = useState<EventField[]>(info?.Fields || getDefaultFieldsForNewEvent(generalState.typeId ?? "agjbq"));
     const [hasChangedFields, setHasChangedFields] = useState(false);
-    const [divisions, setDivisions] = useState<EventDivision[]>(info?.Divisions || []);
+    const [divisions, setDivisions] = useState<EventDivision[]>(
+        info?.Divisions || [
+            {
+                Id: null,
+                Abbreviation: "A",
+                Label: "Advanced"
+            },
+            {
+                Id: null,
+                Abbreviation: "I",
+                Label: "Intermediate"
+            },
+            {
+                Id: null,
+                Abbreviation: "B",
+                Label: "Beginner"
+            }
+        ]);
     const [forms, setForms] = useState<EventExternalForm[]>(info?.Forms || []);
     const [hasChangedForms, setHasChangedForms] = useState(false);
     const [missingBirthdateForRoles, setMissingBirthdateForRoles] = useState<string[] | undefined>(undefined);
@@ -404,6 +424,7 @@ export default function RegistrationProvider({ }: Props) {
                 setEventIsHidden: setEventIsHidden,
                 saveRegistration: () => setInitializeSavingRegistration(true),
 
+                originalEventType: info?.TypeId || undefined,
                 general: generalState,
                 setGeneral: setGeneralState,
 

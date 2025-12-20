@@ -31,9 +31,11 @@ export interface RegistrationGeneralInfo {
 
 export default function RegistrationGeneralPage({ }: Props) {
     const {
+        auth,
         isNewEvent,
         isSaving,
         context,
+        originalEventType,
         setEventTitle,
         setEventType,
         general,
@@ -46,6 +48,8 @@ export default function RegistrationGeneralPage({ }: Props) {
     const [name, setName] = useState(general?.name || "");
     const [description, setDescription] = useState(general?.description || "");
     const [typeId, setTypeId] = useState(general?.typeId || "");
+    const [allowJbqEvents, setAllowJbqEvents] = useState<boolean>(true);
+    const [allowTbqEvents, setAllowTbqEvents] = useState<boolean>(true);
     const [startDate, setStartDate] = useState(general?.startDate || "");
     const [endDate, setEndDate] = useState(general?.endDate || "");
     const [registrationStartDate, setRegistrationStartDate] = useState(general?.registrationStartDate || "");
@@ -56,6 +60,10 @@ export default function RegistrationGeneralPage({ }: Props) {
     const [isOfficial, setIsOfficial] = useState(general?.isOfficial || false);
     const [locationName, setLocationName] = useState(general?.locationName || "");
     const [eventLocation, setEventLocation] = useState<Address | null>(general?.locationAddress || null);
+
+    const isTypeReadOnly = isNewEvent ||
+        ((originalEventType === "agjbq" && !allowJbqEvents) ||
+            (originalEventType === "agtbq" && !allowTbqEvents));
 
     return (
         <RegistrationPageForm
@@ -132,10 +140,11 @@ export default function RegistrationGeneralPage({ }: Props) {
 
                             sharedDirtyWindowState.set(true);
                         }}
-                        required
+                        disabled={isTypeReadOnly}
+                        required={!isTypeReadOnly}
                     >
-                        <option value="agjbq">Junior Bible Quiz (JBQ)</option>
-                        <option value="agtbq">Teen Bible Quiz (TBQ)</option>
+                        {allowJbqEvents && <option value="agjbq">Junior Bible Quiz (JBQ)</option>}
+                        {allowTbqEvents && <option value="agtbq">Teen Bible Quiz (TBQ)</option>}
                     </select>
                 </div>
             </div>
@@ -266,9 +275,31 @@ export default function RegistrationGeneralPage({ }: Props) {
                 isNewEvent={isNewEvent}
                 type={typeId}
                 regionId={regionId}
-                setRegionId={setRegionId}
+                setRegionId={newRegionId => {
+                    const profile = auth.userProfile;
+                    if (newRegionId) {
+                        setAllowJbqEvents(profile?.hasRegionPermission(newRegionId, "agjbq") ?? false);
+                        setAllowTbqEvents(profile?.hasRegionPermission(newRegionId, "agtbq") ?? false);
+                    } else {
+                        setAllowJbqEvents(profile?.hasOrganizationPermission("agjbq") ?? false);
+                        setAllowTbqEvents(profile?.hasOrganizationPermission("agtbq") ?? false);
+                    }
+
+                    setRegionId(newRegionId);
+                }}
                 districtId={districtId}
-                setDistrictId={setDistrictId}
+                setDistrictId={(newDistrictId, newRegionId) => {
+                    const profile = auth.userProfile;
+                    if (newDistrictId) {
+                        setAllowJbqEvents(profile?.hasDistrictPermission(newDistrictId, newRegionId!, "agjbq") ?? false);
+                        setAllowTbqEvents(profile?.hasDistrictPermission(newDistrictId, newRegionId!, "agtbq") ?? false);
+                    } else {
+                        setAllowJbqEvents(profile?.hasOrganizationPermission("agjbq") ?? false);
+                        setAllowTbqEvents(profile?.hasOrganizationPermission("agtbq") ?? false);
+                    }
+
+                    setDistrictId(newDistrictId);
+                }}
                 publishType={publishType}
                 setPublishType={setPublishType}
                 setIsOfficial={setIsOfficial}

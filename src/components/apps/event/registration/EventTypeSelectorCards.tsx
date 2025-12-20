@@ -12,7 +12,7 @@ interface Props {
     regionId: string | null;
     setRegionId: (regionId: string | null) => void;
     districtId: string | null;
-    setDistrictId: (districtId: string | null) => void;
+    setDistrictId: (districtId: string | null, regionId: string | null) => void;
     publishType: EventPublishType;
     setPublishType: (publishType: EventPublishType) => void;
     setIsOfficial: (isOfficial: boolean) => void;
@@ -75,7 +75,7 @@ export default function EventTypeSelectorCards({
         }
 
         return filtered;
-    }, [auth, type, ]);
+    }, [auth, type,]);
 
     const filteredDistricts = useMemo(() => {
         const filtered: DistrictInfo[] = [];
@@ -150,6 +150,16 @@ export default function EventTypeSelectorCards({
             </div>);
     };
 
+    const setDistrictWithRegionId = (newDistrictId: string | null) => {
+        if (!newDistrictId) {
+            setDistrictId(null, null);
+        }
+        else {
+            const newRegionId = districts.find(d => d.id === districtId)!.regionId;
+            setDistrictId(newDistrictId, newRegionId);
+        }
+    };
+
     return (
         <>
             {getCard(
@@ -161,7 +171,7 @@ export default function EventTypeSelectorCards({
                 false,
                 "District",
                 districtId,
-                setDistrictId,
+                setDistrictWithRegionId,
                 filteredDistricts)}
             {getCard(
                 "NATIONAL TOURNAMENT",
@@ -179,7 +189,7 @@ export default function EventTypeSelectorCards({
                 true,
                 "District",
                 districtId,
-                setDistrictId,
+                setDistrictWithRegionId,
                 filteredDistricts)}
             {getCard(
                 "REGIONAL FINALS",
