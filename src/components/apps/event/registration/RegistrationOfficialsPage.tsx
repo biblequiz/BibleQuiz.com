@@ -33,8 +33,6 @@ export default function RegistrationOfficialsPage({ }: Props) {
     const [allowExtendedAttendees, setAllowExtendedAttendees] = useState(!!officialsAndAttendees.extendedAttendeesEndDate);
     const [extendedAttendeesEndDate, setExtendedAttendeesEndDate] = useState(officialsAndAttendees.extendedAttendeesEndDate || general.registrationEndDate);
 
-    // TODO: Add extended registration dates.
-
     return (
         <RegistrationPageForm
             context={context}
