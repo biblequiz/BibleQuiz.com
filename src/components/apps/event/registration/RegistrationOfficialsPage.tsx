@@ -18,9 +18,8 @@ export interface RegistrationOfficialsAndAttendeesInfo {
 
 export default function RegistrationOfficialsPage({ }: Props) {
     const {
-        rootEventUrl,
+        context,
         isSaving,
-        saveRegistration,
         general,
         officialsAndAttendees,
         setOfficialsAndAttendees } = useOutletContext<RegistrationProviderContext>();
@@ -30,15 +29,15 @@ export default function RegistrationOfficialsPage({ }: Props) {
     const [allowTimekeepers, setAllowTimekeepers] = useState(officialsAndAttendees.allowTimekeepers);
     const [allowAttendees, setAllowAttendees] = useState(officialsAndAttendees.allowAttendees);
     const [allowExtendedOfficials, setAllowExtendedOfficials] = useState(!!officialsAndAttendees.extendedOfficialsEndDate);
-    const [extendedOfficialsEndDate, setExtendedOfficialsEndDate] = useState(officialsAndAttendees.extendedOfficialsEndDate || null);
+    const [extendedOfficialsEndDate, setExtendedOfficialsEndDate] = useState(officialsAndAttendees.extendedOfficialsEndDate || general.registrationEndDate);
     const [allowExtendedAttendees, setAllowExtendedAttendees] = useState(!!officialsAndAttendees.extendedAttendeesEndDate);
-    const [extendedAttendeesEndDate, setExtendedAttendeesEndDate] = useState(officialsAndAttendees.extendedAttendeesEndDate || null);
+    const [extendedAttendeesEndDate, setExtendedAttendeesEndDate] = useState(officialsAndAttendees.extendedAttendeesEndDate || general.registrationEndDate);
 
     // TODO: Add extended registration dates.
 
     return (
         <RegistrationPageForm
-            rootEventUrl={rootEventUrl}
+            context={context}
             isSaving={isSaving}
             persistFormToEventInfo={() => {
                 setOfficialsAndAttendees({
@@ -47,11 +46,12 @@ export default function RegistrationOfficialsPage({ }: Props) {
                     allowScorekeepers,
                     allowTimekeepers,
                     allowAttendees,
+                    extendedOfficialsEndDate: allowExtendedOfficials ? extendedOfficialsEndDate : null,
+                    extendedAttendeesEndDate: allowExtendedAttendees ? extendedAttendeesEndDate : null,
                 });
             }}
-            saveRegistration={saveRegistration}
-            previousPageLink={`${rootEventUrl}/registration/teamsAndQuizzers`}
-            nextPageLink={`${rootEventUrl}/registration/requiredFields`}>
+            previousPageLink={`${context.rootEventUrl}/registration/teamsAndQuizzers`}
+            nextPageLink={`${context.rootEventUrl}/registration/requiredFields`}>
 
             <h5 className="mb-0">Roles for Officials</h5>
             <p className="mb-0">

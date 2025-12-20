@@ -1,6 +1,7 @@
 import { useState } from "react";
 import regions from "data/regions.json";
 import type { Address } from "types/services/models/Address";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
     id: string;
@@ -8,8 +9,9 @@ interface Props {
     name?: string;
     address?: Address;
     setName: (name: string) => void;
-    setAddress: (address: Address) => void;
-    required?: boolean;
+    setAddress: (address: Address | null) => void;
+    nameRequired?: boolean;
+    addressRequired?: boolean;
 }
 
 const uniqueStates: Set<string> = new Set();
@@ -30,7 +32,8 @@ export default function AddressSelector({
     address,
     setName: setAddressName,
     setAddress,
-    required = false }: Props) {
+    nameRequired = false,
+    addressRequired = false }: Props) {
 
     const [name, setName] = useState(addressName || "");
     const [streetAddress, setStreetAddress] = useState(address?.StreetAddress || "");
@@ -38,7 +41,14 @@ export default function AddressSelector({
     const [state, setState] = useState(address?.State || "");
     const [zipCode, setZipCode] = useState(address?.ZipCode || undefined);
 
-    const getLatestAddress = (): Address => {
+    const getLatestAddress = (): Address | null => {
+        if (DataTypeHelpers.isNullOrEmpty(streetAddress) &&
+            DataTypeHelpers.isNullOrEmpty(city) &&
+            !zipCode) {
+
+            return null;
+        }
+
         return {
             StreetAddress: streetAddress,
             City: city,
@@ -52,7 +62,7 @@ export default function AddressSelector({
             <div className="w-full mt-0 md:col-span-6">
                 <label className="label">
                     <span className="label-text font-medium">{label}</span>
-                    {required && (<span className="label-text-alt text-error">*</span>)}
+                    {addressRequired && (<span className="label-text-alt text-error">*</span>)}
                 </label>
                 <input
                     name={`name-${id}`}
@@ -62,7 +72,7 @@ export default function AddressSelector({
                     maxLength={500}
                     onChange={e => setName(e.target.value)}
                     onBlur={e => setAddressName(e.target.value)}
-                    required={required}
+                    required={nameRequired}
                     placeholder={label}
                 />
             </div>
@@ -75,7 +85,7 @@ export default function AddressSelector({
                     maxLength={200}
                     onChange={e => setStreetAddress(e.target.value)}
                     onBlur={() => setAddress(getLatestAddress())}
-                    required={required}
+                    required={addressRequired}
                     placeholder="123 Main St (Street Address)"
                 />
             </div>
@@ -88,7 +98,7 @@ export default function AddressSelector({
                     maxLength={100}
                     onChange={e => setCity(e.target.value)}
                     onBlur={() => setAddress(getLatestAddress())}
-                    required={required}
+                    required={addressRequired}
                     placeholder="Anytown (City)"
                 />
             </div>
@@ -116,7 +126,7 @@ export default function AddressSelector({
                     maxLength={5}
                     onChange={e => setZipCode(e.target.valueAsNumber)}
                     onBlur={() => setAddress(getLatestAddress())}
-                    required={required}
+                    required={addressRequired}
                     placeholder="12345 (Zip Code)"
                 />
             </div>

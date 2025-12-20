@@ -14,9 +14,8 @@ interface Props {
 
 export default function RegistrationDivisionsPage({ }: Props) {
     const {
-        rootEventUrl,
+        context,
         isSaving,
-        saveRegistration,
         divisions,
         setDivisions } = useOutletContext<RegistrationProviderContext>();
 
@@ -24,12 +23,11 @@ export default function RegistrationDivisionsPage({ }: Props) {
 
     return (
         <RegistrationPageForm
-            rootEventUrl={rootEventUrl}
+            context={context}
             isSaving={isSaving}
             persistFormToEventInfo={() => setDivisions(eventDivisions)}
-            saveRegistration={saveRegistration}
-            previousPageLink={`${rootEventUrl}/registration/customFields`}
-            nextPageLink={`${rootEventUrl}/registration/forms`}>
+            previousPageLink={`${context.rootEventUrl}/registration/customFields`}
+            nextPageLink={`${context.rootEventUrl}/registration/forms`}>
             <div className="flex flex-wrap gap-4">
                 {eventDivisions.map((division, index) => (
                     <EventFieldCard key={`division_${division.Id ?? LocalIdGenerator.getLocalId(division)}`}>

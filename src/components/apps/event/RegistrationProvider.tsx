@@ -1,4 +1,4 @@
-import { Outlet, useOutletContext } from "react-router-dom";
+import { Outlet, useNavigate, useOutletContext } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import type { EventProviderContext } from "./EventProvider";
 import { useRef, useState } from "react";
@@ -13,8 +13,9 @@ import type { RegistrationOtherInfo } from "./registration/RegistrationOtherPage
 import RegistrationFormsPageFieldsDialog from "./registration/RegistrationFormsPageFieldsDialog";
 import { PersonRole } from "types/services/PeopleService";
 import RegistrationImpactingDialog from "./registration/RegistrationImpactingDialog";
-import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { sharedDirtyWindowState } from "utils/SharedState";
+import type { RegistrationFormContext } from "./registration/RegistrationPageForm";
+import { Address } from "types/services/models/Address";
 
 interface Props {
 }
@@ -23,11 +24,10 @@ export interface RegistrationProviderContext {
     auth: AuthManager;
     isNewEvent: boolean;
     isSaving: boolean;
-    rootEventUrl: string;
+    context: RegistrationFormContext;
 
     setEventTitle: (title: string) => void;
     setEventType: (typeId: string) => void;
-    saveRegistration: () => Promise<void>;
 
     general: RegistrationGeneralInfo;
     setGeneral: (updated: RegistrationGeneralInfo) => void;
@@ -65,7 +65,7 @@ const normalizeDate = (date: string | null): string | null => {
 
 function getDefaultEventInfo(): EventInfo {
     const eventInfo = new EventInfo();
-    eventInfo.Id = null;
+    eventInfo.Id = undefined;
     eventInfo.PublishToArchives = true;
     return eventInfo;
 }
@@ -78,6 +78,8 @@ export default function RegistrationProvider({ }: Props) {
         setEventType,
         rootUrl
     } = useOutletContext<EventProviderContext>();
+
+    const navigate = useNavigate();
 
     const [generalState, setGeneralState] = useState<RegistrationGeneralInfo>(() =>
     ({
@@ -229,7 +231,10 @@ export default function RegistrationProvider({ }: Props) {
 
             // Persist everything from the states to the object.
             const updatedInfo = info ?? getDefaultEventInfo();
-            updatedInfo.Id = info?.Id || null;
+            if (info?.Id) {
+                updatedInfo.Id = info.Id;
+            }
+
             updatedInfo.Name = generalState.name;
             updatedInfo.Description = generalState.description;
             updatedInfo.TypeId = generalState.typeId;
@@ -242,7 +247,7 @@ export default function RegistrationProvider({ }: Props) {
             updatedInfo.PublishType = generalState.publishType;
             updatedInfo.IsOfficial = generalState.isOfficial;
             updatedInfo.LocationName = generalState.locationName!;
-            updatedInfo.Location = generalState.locationAddress!;
+            updatedInfo.Location = generalState.locationAddress ?? new Address();
 
             updatedInfo.MinTeamMembers = teamsAndQuizzers.minTeamMembers;
             updatedInfo.MaxTeamMembers = teamsAndQuizzers.maxTeamMembers;
@@ -311,14 +316,50 @@ export default function RegistrationProvider({ }: Props) {
                 : EventsService.create(auth, updatedInfo);
 
             return promise
-                .then(() => {
+                .then(updated => {
                     setIsSavingRegistration(false);
                     sharedDirtyWindowState.set(false);
+
+                    if (!updatedInfo.Id) {
+                        navigate(`/${updated.Id}/registration/general`);
+                    }
                 })
                 .catch(err => {
-                    setSavingError(err);
+                    if (err.message) {
+                        setSavingError(err.message);
+                    }
+                    else {
+                        setSavingError(err);
+                    }
+
+                    setIsSavingRegistration(false);
                 });
         };
+
+    const cloneEvent = async () => {
+        alert("Clone Event");
+        return Promise.resolve();
+    };
+
+    const copyRegistrations = async () => {
+        alert("Copy Registrations");
+        return Promise.resolve();
+    };
+
+    const copyLink = async () => {
+        alert("Copy Link");
+        return Promise.resolve();
+    };
+
+    const sendEmail = async () => {
+        alert("Send E-mail");
+        return Promise.resolve();
+    };
+
+    const deleteEvent = async () => {
+        alert("Delete Event");
+        return Promise.resolve();
+    };
 
     if (initializeSavingRegistration) {
         saveRegistration();
@@ -329,24 +370,30 @@ export default function RegistrationProvider({ }: Props) {
     return (
         <div className="overflow-x-auto">
             {savingError && (
-                <div className="hero bg-base-300 rounded-2xl shadow-lg mb-4">
-                    <div className="hero-content text-center py-16 px-8">
-                        <div className="max-w-4xl">
-                            <h1 className="text-3xl font-bold text-base-content mb-4">
-                                <FontAwesomeIcon icon="fas faTriangleExclamation" />
-                                <span className="ml-4">Error</span>
-                            </h1>
-                            <p className="text-lg text-base-content/70 mb-8">
-                                {savingError}
-                            </p>
-                        </div>
-                    </div>
+                <div className="alert alert-warning rounded-2xl mb-4">
+                    <div
+                        className="w-full"
+                        dangerouslySetInnerHTML={{ __html: savingError }} />
                 </div>)}
             <Outlet context={{
                 auth: auth,
                 isNewEvent: !info,
                 isSaving: isSavingRegistration,
-                rootEventUrl: rootUrl,
+                context: {
+                    rootEventUrl: rootUrl,
+                    isNewEvent: !info,
+                    hasRegistrations: info?.HasAnyRegistrations || false,
+                    saveRegistration: async () => {
+                        // This is required to allow asynchronous saving of the state.
+                        setInitializeSavingRegistration(true);
+                        return Promise.resolve();
+                    },
+                    cloneEvent: cloneEvent,
+                    copyRegistrations: copyRegistrations,
+                    copyLink: copyLink,
+                    sendEmail: sendEmail,
+                    deleteEvent: deleteEvent,
+                },
 
                 setEventTitle: setEventTitle,
                 setEventType: setEventType,
@@ -387,7 +434,8 @@ export default function RegistrationProvider({ }: Props) {
 
                 other: otherInfo,
                 setOther: setOtherInfo,
-            } as RegistrationProviderContext} />
+            } as RegistrationProviderContext
+            } />
             {missingBirthdateForRoles && (
                 <RegistrationFormsPageFieldsDialog
                     dialogRef={formsDialogRef}

@@ -18,9 +18,8 @@ export interface RegistrationRoleRequiredFields {
 
 export default function RegistrationRequiredFieldsPage({ }: Props) {
     const {
-        rootEventUrl,
+        context,
         isSaving,
-        saveRegistration,
         officialsAndAttendees,
         requiredFields,
         setRequiredFields } = useOutletContext<RegistrationProviderContext>();
@@ -43,7 +42,7 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
 
     return (
         <RegistrationPageForm
-            rootEventUrl={rootEventUrl}
+            context={context}
             isSaving={isSaving}
             persistFormToEventInfo={() => {
 
@@ -62,9 +61,8 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
                     roleFields: newRoleFields
                 });
             }}
-            saveRegistration={saveRegistration}
-            previousPageLink={`${rootEventUrl}/registration/officials`}
-            nextPageLink={`${rootEventUrl}/registration/customFields`}>
+            previousPageLink={`${context.rootEventUrl}/registration/officials`}
+            nextPageLink={`${context.rootEventUrl}/registration/customFields`}>
 
             <p>
                 By default, only a person's name is required. However, there are cases where additional information

@@ -67,9 +67,8 @@ const getRolePaymentControl = (
 
 export default function RegistrationMoneyPage({ }: Props) {
     const {
-        rootEventUrl,
+        context,
         isSaving,
-        saveRegistration,
         officialsAndAttendees,
         money,
         setMoney } = useOutletContext<RegistrationProviderContext>();
@@ -98,7 +97,7 @@ export default function RegistrationMoneyPage({ }: Props) {
 
     return (
         <RegistrationPageForm
-            rootEventUrl={rootEventUrl}
+            context={context}
             isSaving={isSaving}
             persistFormToEventInfo={() => {
                 setMoney({
@@ -115,9 +114,8 @@ export default function RegistrationMoneyPage({ }: Props) {
                     rolePayment
                 });
             }}
-            saveRegistration={saveRegistration}
-            previousPageLink={`${rootEventUrl}/registration/forms`}
-            nextPageLink={`${rootEventUrl}/registration/other`}>
+            previousPageLink={`${context.rootEventUrl}/registration/forms`}
+            nextPageLink={`${context.rootEventUrl}/registration/other`}>
 
             <h5 className="mb-2">How do you charge registration fees?</h5>
             {calculatePayment && automatedFeeType === null && (
@@ -293,7 +291,8 @@ export default function RegistrationMoneyPage({ }: Props) {
                             setPayeeAddress(a);
                             sharedDirtyWindowState.set(true);
                         }}
-                        required
+                        nameRequired
+                        addressRequired
                     />
                 </div>)}
 

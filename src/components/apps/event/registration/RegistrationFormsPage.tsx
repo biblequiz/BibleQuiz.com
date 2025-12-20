@@ -14,20 +14,18 @@ interface Props {
 
 export default function RegistrationFormsPage({ }: Props) {
     const {
-        rootEventUrl,
+        context,
         isSaving,
-        saveRegistration,
         officialsAndAttendees,
         forms,
         setForms } = useOutletContext<RegistrationProviderContext>();
 
     return (
         <RegistrationPageForm
-            rootEventUrl={rootEventUrl}
+            context={context}
             isSaving={isSaving}
-            saveRegistration={saveRegistration}
-            previousPageLink={`${rootEventUrl}/registration/divisions`}
-            nextPageLink={`${rootEventUrl}/registration/money`}>
+            previousPageLink={`${context.rootEventUrl}/registration/divisions`}
+            nextPageLink={`${context.rootEventUrl}/registration/money`}>
             <div className="flex flex-wrap gap-4">
                 {(forms ?? []).map((form, index) => (
                     <EventFieldCard key={`form_${form.Id ?? LocalIdGenerator.getLocalId(form)}`} width="lg:w-3/8">

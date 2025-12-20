@@ -15,9 +15,8 @@ interface Props {
 
 export default function RegistrationCustomFieldsPage({ }: Props) {
     const {
-        rootEventUrl,
+        context,
         isSaving,
-        saveRegistration,
         general,
         officialsAndAttendees,
         fields,
@@ -30,12 +29,11 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
     return (
         <>
             <RegistrationPageForm
-                rootEventUrl={rootEventUrl}
+                context={context}
                 isSaving={isSaving}
                 persistFormToEventInfo={() => setFields(eventFields)}
-                saveRegistration={saveRegistration}
-                previousPageLink={`${rootEventUrl}/registration/requiredFields`}
-                nextPageLink={`${rootEventUrl}/registration/divisions`}>
+                previousPageLink={`${context.rootEventUrl}/registration/requiredFields`}
+                nextPageLink={`${context.rootEventUrl}/registration/divisions`}>
                 <div className="flex flex-wrap gap-4">
                     {eventFields.map((field, index) => (
                         <EventFieldCard key={`field_${field.Id ?? LocalIdGenerator.getLocalId(field)}`}>

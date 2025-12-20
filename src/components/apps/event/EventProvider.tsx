@@ -46,7 +46,13 @@ export default function EventProvider({ }: Props) {
                     setEventTypeId(info.TypeId);
                 })
                 .catch(error => {
-                    setLoadingError(error.message || "An error occured while retrieving this event.");
+                    setIsLoading(false);
+                    if (error.statusCode === 404) {
+                        setLoadingError("Cannot find the specified event.");
+                    }
+                    else {
+                        setLoadingError(error.message || "An error occured while retrieving this event.");
+                    }
                 });
         }
     }, [eventId, auth]);

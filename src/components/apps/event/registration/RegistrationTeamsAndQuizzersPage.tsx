@@ -17,9 +17,8 @@ export interface RegistrationTeamsAndQuizzersInfo {
 
 export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
     const {
-        rootEventUrl,
+        context,
         isSaving,
-        saveRegistration,
         teamsAndQuizzers,
         setTeamsAndQuizzers } = useOutletContext<RegistrationProviderContext>();
 
@@ -33,7 +32,7 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
 
     return (
         <RegistrationPageForm
-            rootEventUrl={rootEventUrl}
+            context={context}
             isSaving={isSaving}
             setCustomValidation={() => {
                 if (minTeamMembersRef.current && maxTeamMembers < minTeamMembers) {
@@ -52,9 +51,8 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
                     allowIndividuals
                 });
             }}
-            saveRegistration={saveRegistration}
-            previousPageLink={`${rootEventUrl}/registration/general`}
-            nextPageLink={`${rootEventUrl}/registration/officials`}>
+            previousPageLink={`${context.rootEventUrl}/registration/general`}
+            nextPageLink={`${context.rootEventUrl}/registration/officials`}>
 
             <h5 className="mb-0">Team Requirements</h5>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 p-2 mt-0 mb-0">

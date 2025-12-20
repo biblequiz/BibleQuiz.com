@@ -13,20 +13,16 @@ export interface RegistrationOtherInfo {
 
 export default function RegistrationOtherPage({ }: Props) {
     const {
-        rootEventUrl,
+        context,
         isSaving,
-        saveRegistration,
         other,
         setOther } = useOutletContext<RegistrationProviderContext>();
 
-    // TODO: Add extended registration dates.
-
-    return (
+        return (
         <RegistrationPageForm
-            rootEventUrl={rootEventUrl}
+            context={context}
             isSaving={isSaving}
-            saveRegistration={saveRegistration}
-            previousPageLink={`${rootEventUrl}/registration/money`}>
+            previousPageLink={`${context.rootEventUrl}/registration/money`}>
 
             <div className="w-full ml-2 mt-1 mb-0">
                 <label className="label text-wrap">
