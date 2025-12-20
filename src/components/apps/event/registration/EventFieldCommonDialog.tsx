@@ -1,10 +1,46 @@
 import { EventFieldControlType, EventFieldDataType, EventFieldScopes, EventFieldVisibility, type EventField } from "types/services/EventsService";
 import EventFieldCommonCard from "./EventFieldCommonCard";
+import { add } from "date-fns";
 
 interface Props {
     dialogRef: React.RefObject<HTMLDialogElement | null>;
     typeId: string;
     addField(field: EventField): void;
+}
+
+const getGradeField = (typeId: string) => {
+    return {
+        Id: null,
+        ControlType: EventFieldControlType.GradeList,
+        DataType: EventFieldDataType.Number,
+        Scopes: EventFieldScopes.Quizzer,
+        IsRequired: true,
+        Visibility: EventFieldVisibility.ReadWrite,
+        Label: "Grade",
+        MinNumberValue: typeId === "agtbq" ? 6 : 0,
+        MaxNumberValue: typeId === "agtbq" ? 12 : 6
+    } as EventField;
+}
+
+const getMeetsExperience = () => {
+    return {
+        Id: null,
+        Label: "# of Meets Exp.",
+        Caption: "# of Meets as Official",
+        ControlType: EventFieldControlType.DropdownList,
+        DataType: EventFieldDataType.Text,
+        Scopes: EventFieldScopes.Official,
+        IsRequired: true,
+        Values: ["0", "1", "2", "3+"],
+        Visibility: EventFieldVisibility.ReadWrite
+    } as EventField;
+}
+
+export function getDefaultFieldsForNewEvent(typeId: string): EventField[] {
+    return [
+        getGradeField(typeId),
+        getMeetsExperience()
+    ];
 }
 
 export default function EventFieldCommonDialog({ dialogRef, typeId, addField }: Props) {
@@ -39,40 +75,12 @@ export default function EventFieldCommonDialog({ dialogRef, typeId, addField }: 
                             title="Experience as Official"
                             description="Dropdown for number of meets."
                             restriction="Officials Only"
-                            addField={() => {
-                                const newField: EventField = {
-                                    Id: null,
-                                    Label: "# of Meets Exp.",
-                                    Caption: "# of Meets as Official",
-                                    ControlType: EventFieldControlType.DropdownList,
-                                    DataType: EventFieldDataType.Text,
-                                    Scopes: EventFieldScopes.Official,
-                                    IsRequired: true,
-                                    Values: ["0", "1", "2", "3+"],
-                                    Visibility: EventFieldVisibility.ReadWrite
-                                };
-
-                                addField(newField);
-                            }} />
+                            addField={() => addField(getMeetsExperience())} />
                         <EventFieldCommonCard
                             title="Grade"
                             description="Grade of the quizzer."
                             restriction="Quizzers Only"
-                            addField={() => {
-                                const newField: EventField = {
-                                    Id: null,
-                                    ControlType: EventFieldControlType.GradeList,
-                                    DataType: EventFieldDataType.Number,
-                                    Scopes: EventFieldScopes.Quizzer,
-                                    IsRequired: true,
-                                    Visibility: EventFieldVisibility.ReadWrite,
-                                    Label: "Grade",
-                                    MinNumberValue: typeId === "agtbq" ? 6 : 0,
-                                    MaxNumberValue: typeId === "agtbq" ? 12 : 6
-                                };
-
-                                addField(newField);
-                            }} />
+                            addField={() => addField(getGradeField(typeId))} />
                         <EventFieldCommonCard
                             title="1:1"
                             description="Participant in the 1:1 tournament."
