@@ -3,6 +3,7 @@ import { useStore } from "@nanostores/react";
 import ReactSidebarSublist from "./ReactSidebarSublist";
 import { createMultiReactAtom } from "utils/MultiReactNanoStore";
 import type { NavigateFunction } from "react-router-dom";
+import { AuthManager, type UserAccountProfile, type UserProfileType } from "types/AuthManager";
 
 interface Props {
     loadingElementId: string;
@@ -44,6 +45,7 @@ export type ReactSidebarEntry = ReactSidebarLink | ReactSidebarGroup;
 export interface ReactSidebarState {
     showParent: boolean;
     entries: ReactSidebarEntry[];
+    refreshShowParent?: (state: ReactSidebarState, profile?: UserAccountProfile) => void;
 }
 
 export const reactSidebarEntries = createMultiReactAtom<ReactSidebarState>(
@@ -67,9 +69,11 @@ function getCurrentPage(entries: ReactSidebarEntry[]): ReactSidebarLink | null {
 
 export default function ReactSidebar({ loadingElementId, parentId, nested }: Props) {
 
+    const auth = AuthManager.useNanoStore();
     const sidebarState = useStore(reactSidebarEntries);
 
     const [currentPage, setCurrentPage] = useState<ReactSidebarLink | null>(null);
+    const [isLatestShowParent, setIsLatestShowParent] = useState<boolean>(true);
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);
@@ -85,10 +89,18 @@ export default function ReactSidebar({ loadingElementId, parentId, nested }: Pro
         if (sidebarState.entries.length > 0) {
             setCurrentPage(getCurrentPage(sidebarState.entries));
         }
-    }, [loadingElementId, sidebarState]);
+    }, [loadingElementId, sidebarState, isLatestShowParent]);
 
     if (!sidebarState || sidebarState.entries.length === 0) {
         return null;
+    }
+
+    if (sidebarState.refreshShowParent && isLatestShowParent) {
+        const originalShowParent = sidebarState.showParent;
+        sidebarState.refreshShowParent(sidebarState, auth.userProfile ?? undefined);
+        if (originalShowParent !== sidebarState.showParent) {
+            setIsLatestShowParent(!isLatestShowParent);
+        }
     }
 
     return <ReactSidebarSublist

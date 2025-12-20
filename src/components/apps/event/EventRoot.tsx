@@ -98,6 +98,7 @@ function RootLayout({ loadingElementId }: Props) {
     useEffect(() => {
         reactSidebarEntries.set({
             showParent: auth.userProfile?.canManageEvents ?? false,
+            refreshShowParent: (s, p) => s.showParent = p?.canManageEvents ?? false,
             entries: buildSidebar(
                 routeMatches,
                 routeParameters,
@@ -451,7 +452,7 @@ const router = createHashRouter([
         children: [
             {
                 path: "/",
-                element: <ProtectedRoute permissionCheck={profile => profile.canCreateEvents} />,
+                element: <ProtectedRoute permissionCheck={profile => profile.canManageEvents} />,
                 children: [
                     {
                         path: "/",
