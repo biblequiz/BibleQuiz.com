@@ -24,7 +24,7 @@ export default function DeleteEventPage({ }: Props) {
 
         setIsDeleting(true);
 
-        return EventsService.delete(auth, info!.Id!)
+        return EventsService.delete(auth, eventId)
             .then(() => {
                 setIsDeleting(false);
                 setDeleteError(undefined);

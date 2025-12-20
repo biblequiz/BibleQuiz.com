@@ -155,7 +155,7 @@ export default function EventTypeSelectorCards({
             setDistrictId(null, null);
         }
         else {
-            const newRegionId = districts.find(d => d.id === districtId)!.regionId;
+            const newRegionId = districts.find(d => d.id === newDistrictId)!.regionId;
             setDistrictId(newDistrictId, newRegionId);
         }
     };

@@ -339,6 +339,12 @@ function buildSidebar(
             .split('-')
             .map(s => parseInt(s));
 
+        // When there is a new event, the first link for the dashboard doesn't appear.
+        if (eventId === NEW_ID_PLACEHOLDER && segmentIndexes.length > 0 &&
+            segmentIndexes[0] === 1) {
+            segmentIndexes[0] = 0;
+        }
+
         currentPage = { entries: sidebarEntries };
         let isDatabaseGroup = false;
         for (const segment of segmentIndexes) {

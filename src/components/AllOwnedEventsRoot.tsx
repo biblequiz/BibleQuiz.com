@@ -127,7 +127,7 @@ export default function AllOwnedEventsRoot({
                     <a
                         type="button"
                         className="btn btn-primary mt-0"
-                        href={`event/#/${NEW_ID_PLACEHOLDER}/registration/general`}>
+                        href={`/manage-events/event/#/${NEW_ID_PLACEHOLDER}/registration/general`}>
                         <FontAwesomeIcon icon="fas faPlus" />&nbsp;Add New Event
                     </a>
                 </div>)}

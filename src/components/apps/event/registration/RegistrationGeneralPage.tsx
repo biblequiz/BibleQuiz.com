@@ -61,7 +61,7 @@ export default function RegistrationGeneralPage({ }: Props) {
     const [locationName, setLocationName] = useState(general?.locationName || "");
     const [eventLocation, setEventLocation] = useState<Address | null>(general?.locationAddress || null);
 
-    const isTypeReadOnly = isNewEvent ||
+    const isTypeReadOnly = !isNewEvent ||
         ((originalEventType === "agjbq" && !allowJbqEvents) ||
             (originalEventType === "agtbq" && !allowTbqEvents));
 
