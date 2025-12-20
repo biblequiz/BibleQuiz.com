@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import regions from "data/regions.json";
 import type { Address } from "types/services/models/Address";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";

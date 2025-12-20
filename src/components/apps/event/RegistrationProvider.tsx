@@ -395,7 +395,6 @@ export default function RegistrationProvider({ }: Props) {
                     },
                     cloneEvent: cloneEvent,
                     copyRegistrations: copyRegistrations,
-                    copyLink: copyLink,
                     sendEmail: sendEmail,
                     deleteEvent: deleteEvent,
                 },
