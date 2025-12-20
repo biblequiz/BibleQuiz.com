@@ -6,6 +6,7 @@ interface Props {
     info: EventWrapper;
     isLive: boolean;
     showLiveBadge?: boolean;
+    showHiddenBadge?: boolean;
     urlFormatter?: (event: EventInfo) => string;
 }
 
@@ -21,6 +22,7 @@ export default function EventCard({
     info,
     isLive,
     showLiveBadge = false,
+    showHiddenBadge = false,
     urlFormatter }: Props) {
 
     const cardLink = urlFormatter ? urlFormatter(info.event) : (
@@ -59,6 +61,9 @@ export default function EventCard({
                         <div className="flex-1 pr-6 mt-2">
                             {isLive && showLiveBadge && (
                                 <span className="badge badge-info mr-1">LIVE</span>
+                            )}
+                            {showHiddenBadge && (
+                                <span className="badge badge-error mr-1">HIDDEN</span>
                             )}
                             <EventScopeBadge scope={info.event.scope} label={info.event.scopeLabel ?? ""} />
                             {info.isRegistrationOpen && (

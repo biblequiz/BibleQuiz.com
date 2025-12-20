@@ -1,19 +1,19 @@
 import { useStore } from "@nanostores/react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type React from "react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { BlockerCallbackResult, sharedDirtyWindowState, sharedRequireBlockerCallback as sharedShouldBlockCallback } from "utils/SharedState";
 
 export interface RegistrationFormContext {
     rootEventUrl: string;
+    registrationLink: string | null;
     isNewEvent: boolean;
     hasRegistrations: boolean;
     saveRegistration: () => Promise<void>;
     cloneEvent: () => Promise<void>;
     copyRegistrations: () => Promise<void>;
     sendEmail: () => Promise<void>;
-    copyLink: () => Promise<void>;
     deleteEvent: () => Promise<void>;
 }
 
@@ -38,6 +38,8 @@ export default function RegistrationPageForm({
 
     const navigate = useNavigate();
     const registrationFormRef = useRef<HTMLFormElement>(null);
+
+    const [hasCopiedLink, setHasCopiedLink] = useState(false);
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
@@ -92,7 +94,7 @@ export default function RegistrationPageForm({
         }
 
         // Save the registration information.
-        
+
         await context.saveRegistration();
     };
 
@@ -111,72 +113,87 @@ export default function RegistrationPageForm({
         return BlockerCallbackResult.ShowPrompt;
     });
 
-    return (
-        <form ref={registrationFormRef} className="space-y-6 mt-0" onSubmit={handleSubmit}>
-            <div className="w-full mt-0 mb-0 flex flex-wrap justify-end gap-2">
-                {previousPageLink && (
-                    <button
-                        type="button"
-                        className="btn btn-primary m-0"
-                        onClick={handlePrevious}
-                        disabled={isSaving}>
-                        <FontAwesomeIcon icon="fas faArrowLeft" />
-                        Previous
-                    </button>)}
-                {nextPageLink && (
-                    <button
-                        type="submit"
-                        className="btn btn-success m-0"
-                        disabled={isSaving}>
-                        Next
-                        <FontAwesomeIcon icon="fas faArrowRight" />
-                    </button>)}
+    const buttons = (
+        <>
+            {previousPageLink && (
                 <button
-                    type={nextPageLink ? "button" : "submit"}
-                    className={`btn btn-${nextPageLink ? "primary" : "success"} m-0`}
-                    onClick={handleSave}
-                    disabled={!allowSave || isSaving}>
-                    <FontAwesomeIcon icon="fas faFloppyDisk" />
-                    Save Changes
-                </button>
+                    type="button"
+                    className="btn btn-primary m-0"
+                    onClick={handlePrevious}
+                    disabled={isSaving}>
+                    <FontAwesomeIcon icon="fas faArrowLeft" />
+                    Previous
+                </button>)}
+            {nextPageLink && (
+                <button
+                    type="submit"
+                    className="btn btn-success m-0"
+                    disabled={isSaving}>
+                    Next
+                    <FontAwesomeIcon icon="fas faArrowRight" />
+                </button>)}
+            <button
+                type={nextPageLink ? "button" : "submit"}
+                className={`btn btn-${nextPageLink ? "primary" : "success"} m-0`}
+                onClick={handleSave}
+                disabled={!allowSave || isSaving}>
+                <FontAwesomeIcon icon="fas faFloppyDisk" />
+                Save Changes
+            </button>
 
-                <button
-                    type="button"
-                    className={`btn btn-accent m-0`}
-                    onClick={context.cloneEvent}
-                    disabled={isSaving || context.isNewEvent}>
-                    <FontAwesomeIcon icon="fas faClone" />
-                    <span className="hidden md:inline">Clone Event</span>
-                </button>
-                <button
-                    type="button"
-                    className={`btn btn-accent m-0`}
-                    onClick={context.copyRegistrations}
-                    disabled={isSaving || context.isNewEvent}>
-                    <FontAwesomeIcon icon="fas faUserPen" />
-                    <span className="hidden md:inline">Copy Registrations</span>
-                </button>
-                <button
-                    type="button"
-                    className={`btn btn-accent m-0`}
-                    onClick={context.sendEmail}
-                    disabled={isSaving || context.isNewEvent}>
-                    <FontAwesomeIcon icon="fas faEnvelope" />
-                </button>
-                <button
-                    type="button"
-                    className={`btn btn-accent m-0`}
-                    onClick={context.copyLink}
-                    disabled={isSaving || context.isNewEvent}>
-                    <FontAwesomeIcon icon="fas faLink" />
-                </button>
+            <button
+                type="button"
+                className={`btn btn-accent m-0`}
+                onClick={context.cloneEvent}
+                disabled={isSaving || context.isNewEvent}>
+                <FontAwesomeIcon icon="fas faClone" />
+                <span className="hidden md:inline">Clone Event</span>
+            </button>
+            <button
+                type="button"
+                className={`btn btn-accent m-0`}
+                onClick={context.copyRegistrations}
+                disabled={isSaving || context.isNewEvent}>
+                <FontAwesomeIcon icon="fas faUserPen" />
+                <span className="hidden md:inline">Copy Registrations</span>
+            </button>
+            <button
+                type="button"
+                className={`btn btn-accent m-0`}
+                onClick={context.sendEmail}
+                disabled={isSaving || context.isNewEvent}>
+                <FontAwesomeIcon icon="fas faEnvelope" />
+            </button>
+            <button
+                type="button"
+                className={`btn btn-accent m-0`}
+                onClick={async () => {
+                    if (context.registrationLink) {
+                        await navigator.clipboard.writeText(context.registrationLink);
+                    }
+
+                    if (!hasCopiedLink) {
+                        setHasCopiedLink(true);
+                        setTimeout(() => setHasCopiedLink(false), 5000);
+                    }
+                }}
+                disabled={isSaving || context.isNewEvent}>
+                <FontAwesomeIcon icon={`fas ${hasCopiedLink ? "faCheck" : "faLink"}`} />
+            </button>
+            {!context.hasRegistrations && (
                 <button
                     type="button"
                     className={`btn btn-error m-0`}
                     onClick={context.deleteEvent}
                     disabled={isSaving || context.hasRegistrations || context.isNewEvent}>
                     <FontAwesomeIcon icon="fas faTrash" />
-                </button>
+                </button>)}
+        </>);
+
+    return (
+        <form ref={registrationFormRef} className="space-y-6 mt-0" onSubmit={handleSubmit}>
+            <div className="w-full mt-0 mb-0 flex flex-wrap justify-end gap-2">
+                {buttons}
             </div>
 
             <div className="divider mt-0" />
@@ -201,68 +218,7 @@ export default function RegistrationPageForm({
             <div className="divider mb-0" />
 
             <div className="w-full mt-0 flex flex-wrap justify-end gap-2">
-                {previousPageLink && (
-                    <button
-                        type="button"
-                        className="btn btn-primary m-0"
-                        onClick={handlePrevious}
-                        disabled={isSaving}>
-                        <FontAwesomeIcon icon="fas faArrowLeft" />
-                        Previous
-                    </button>)}
-                {nextPageLink && (
-                    <button
-                        type="submit"
-                        className="btn btn-success m-0"
-                        disabled={isSaving}>
-                        Next
-                        <FontAwesomeIcon icon="fas faArrowRight" />
-                    </button>)}
-                <button
-                    type={nextPageLink ? "button" : "submit"}
-                    className={`btn btn-${nextPageLink ? "primary" : "success"} m-0`}
-                    onClick={handleSave}
-                    disabled={!allowSave || isSaving}>
-                    <FontAwesomeIcon icon="fas faFloppyDisk" />
-                    Save Changes
-                </button>
-                <button
-                    type="button"
-                    className={`btn btn-accent m-0`}
-                    onClick={context.cloneEvent}
-                    disabled={isSaving || context.isNewEvent}>
-                    <FontAwesomeIcon icon="fas faClone" />
-                    <span className="hidden md:inline">Clone Event</span>
-                </button>
-                <button
-                    type="button"
-                    className={`btn btn-accent m-0`}
-                    onClick={context.copyRegistrations}
-                    disabled={isSaving || context.isNewEvent}>
-                    <FontAwesomeIcon icon="fas faUserPen" />
-                    <span className="hidden md:inline">Copy Registrations</span>
-                </button>
-                <button
-                    type="button"
-                    className={`btn btn-accent m-0`}
-                    onClick={context.sendEmail}
-                    disabled={isSaving || context.isNewEvent}>
-                    <FontAwesomeIcon icon="fas faEnvelope" />
-                </button>
-                <button
-                    type="button"
-                    className={`btn btn-accent m-0`}
-                    onClick={context.copyLink}
-                    disabled={isSaving || context.isNewEvent}>
-                    <FontAwesomeIcon icon="fas faLink" />
-                </button>
-                <button
-                    type="button"
-                    className={`btn btn-error m-0`}
-                    onClick={context.deleteEvent}
-                    disabled={isSaving || context.hasRegistrations || context.isNewEvent}>
-                    <FontAwesomeIcon icon="fas faTrash" />
-                </button>
+                {buttons}
             </div>
         </form>);
 }

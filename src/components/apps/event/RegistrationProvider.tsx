@@ -16,6 +16,7 @@ import RegistrationImpactingDialog from "./registration/RegistrationImpactingDia
 import { sharedDirtyWindowState } from "utils/SharedState";
 import type { RegistrationFormContext } from "./registration/RegistrationPageForm";
 import { Address } from "types/services/models/Address";
+import ConfirmationDialog from "components/ConfirmationDialog";
 
 interface Props {
 }
@@ -28,6 +29,7 @@ export interface RegistrationProviderContext {
 
     setEventTitle: (title: string) => void;
     setEventType: (typeId: string) => void;
+    setEventIsHidden: (isHidden: boolean) => void;
 
     general: RegistrationGeneralInfo;
     setGeneral: (updated: RegistrationGeneralInfo) => void;
@@ -70,12 +72,18 @@ function getDefaultEventInfo(): EventInfo {
     return eventInfo;
 }
 
+enum DialogType {
+    None,
+    DeleteConfirmation
+};
+
 export default function RegistrationProvider({ }: Props) {
     const {
         auth,
         info,
         setEventTitle,
         setEventType,
+        setEventIsHidden,
         rootUrl
     } = useOutletContext<EventProviderContext>();
 
@@ -153,6 +161,7 @@ export default function RegistrationProvider({ }: Props) {
     const [impactingChanges, setImpactingChanges] = useState<string[] | undefined>(undefined);
     const [isSavingRegistration, setIsSavingRegistration] = useState(false);
     const [savingError, setSavingError] = useState<string | undefined>(undefined);
+    const [dialogType, setDialogType] = useState<DialogType>(DialogType.None);
 
     const saveRegistration =
         async () => {
@@ -337,27 +346,22 @@ export default function RegistrationProvider({ }: Props) {
         };
 
     const cloneEvent = async () => {
-        alert("Clone Event");
+        alert("IN PROGRESS: Clone Event");
         return Promise.resolve();
     };
 
     const copyRegistrations = async () => {
-        alert("Copy Registrations");
-        return Promise.resolve();
-    };
-
-    const copyLink = async () => {
-        alert("Copy Link");
+        alert("IN PROGRESS: Copy Registrations");
         return Promise.resolve();
     };
 
     const sendEmail = async () => {
-        alert("Send E-mail");
+        alert("IN PROGRESS: Send E-mail");
         return Promise.resolve();
     };
 
     const deleteEvent = async () => {
-        alert("Delete Event");
+        setDialogType(DialogType.DeleteConfirmation);
         return Promise.resolve();
     };
 
@@ -381,6 +385,7 @@ export default function RegistrationProvider({ }: Props) {
                 isSaving: isSavingRegistration,
                 context: {
                     rootEventUrl: rootUrl,
+                    registrationLink: info ? `https://registration.biblequiz.com/#/Registration/${info.Id}` : null,
                     isNewEvent: !info,
                     hasRegistrations: info?.HasAnyRegistrations || false,
                     saveRegistration: async () => {
@@ -397,6 +402,7 @@ export default function RegistrationProvider({ }: Props) {
 
                 setEventTitle: setEventTitle,
                 setEventType: setEventType,
+                setEventIsHidden: setEventIsHidden,
                 saveRegistration: () => setInitializeSavingRegistration(true),
 
                 general: generalState,
@@ -467,5 +473,19 @@ export default function RegistrationProvider({ }: Props) {
                         formsDialogRef.current?.close();
                     }}
                 />)}
+            {dialogType === DialogType.DeleteConfirmation && (
+                <ConfirmationDialog
+                    title="Delete Event"
+                    yesLabel="Yes"
+                    onYes={async () => {
+                        setIsSavingRegistration(true);
+                        await EventsService.delete(auth, info!.Id!);
+                        window.location.href = "/manage-events";
+                    }}
+                    noLabel="No"
+                    onNo={() => setDialogType(DialogType.None)}
+                >
+                    Are you sure you want to delete this event?
+                </ConfirmationDialog>)}
         </div>);
 }

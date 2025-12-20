@@ -31,6 +31,7 @@ const setSharedStateAndPersist = (newFilters: EventFilterConfiguration) => {
  * @param urlSlug The URL slug of the event.
  * @param event The event to check against the filter.
  * @param type The type of the event.
+ * @param includeHidden Whether to include hidden events in the match check.
  *
  * @returns True if the event matches the filter; otherwise, false.
  */
@@ -38,8 +39,10 @@ export function matchesFilter(
   filter: EventFilterConfiguration,
   urlSlug: string,
   event: EventInfo,
-  type: string): boolean {
-  if (!event.isVisible) {
+  type: string,
+  includeHidden?: boolean): boolean {
+    
+  if (!event.isVisible && !includeHidden) {
     return false;
   }
   else if (!filter) {

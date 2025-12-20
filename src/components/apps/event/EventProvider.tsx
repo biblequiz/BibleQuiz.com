@@ -15,6 +15,7 @@ export interface EventProviderContext {
 
     setEventTitle: (title: string) => void;
     setEventType: (typeId: string) => void;
+    setEventIsHidden: (isHidden: boolean) => void;
 }
 
 export const NEW_ID_PLACEHOLDER = "new";
@@ -31,6 +32,7 @@ export default function EventProvider({ }: Props) {
     const [currentEvent, setCurrentEvent] = useState<EventInfo | null>(null);
     const [eventTitle, setEventTitle] = useState<string>("Untitled Event");
     const [eventTypeId, setEventTypeId] = useState<string>("agjbq");
+    const [eventIsHidden, setEventIsHidden] = useState<boolean>(false);
 
     useEffect(() => {
         if (eventId && eventId != NEW_ID_PLACEHOLDER) {
@@ -44,6 +46,7 @@ export default function EventProvider({ }: Props) {
                     setLoadingError(null);
                     setEventTitle(info.Name);
                     setEventTypeId(info.TypeId);
+                    setEventIsHidden(info.IsHidden && info.IsHiddenFromLiveEvents);
                 })
                 .catch(error => {
                     setIsLoading(false);
@@ -105,6 +108,7 @@ export default function EventProvider({ }: Props) {
                     />
                 )}
                 <span className="event-title-text">{eventTitle}</span>
+                {eventIsHidden && <span className="badge badge-error mr-1 text-nowrap">HIDDEN</span>}
             </h1>
             <Outlet context={{
                 auth: auth,
@@ -116,6 +120,7 @@ export default function EventProvider({ }: Props) {
                         ? newTitle.trim()
                         : "Untitled Event"),
                 setEventType: setEventTypeId,
+                setEventIsHidden: setEventIsHidden,
             } as EventProviderContext} />
         </>);
 }

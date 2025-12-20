@@ -111,7 +111,7 @@ export default function AllOwnedEventsRoot({
     }
 
     const filteredEvents = eventFilters
-        ? events.filter(event => matchesFilter(eventFilters, event.urlSlug, event, event.type))
+        ? events.filter(event => matchesFilter(eventFilters, event.urlSlug, event, event.type, true))
         : events;
 
     return (
@@ -147,6 +147,7 @@ export default function AllOwnedEventsRoot({
                                     }}
                                     isLive={true}
                                     showLiveBadge={false}
+                                    showHiddenBadge={!event.isVisible}
                                     urlFormatter={e => `event/#/${e.id}/registration/general`}
                                 />
                             );

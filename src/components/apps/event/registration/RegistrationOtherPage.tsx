@@ -14,11 +14,12 @@ export interface RegistrationOtherInfo {
 export default function RegistrationOtherPage({ }: Props) {
     const {
         context,
+        setEventIsHidden,
         isSaving,
         other,
         setOther } = useOutletContext<RegistrationProviderContext>();
 
-        return (
+    return (
         <RegistrationPageForm
             context={context}
             isSaving={isSaving}
@@ -32,7 +33,9 @@ export default function RegistrationOtherPage({ }: Props) {
                         className="checkbox checkbox-sm checkbox-info"
                         checked={other.isHidden}
                         onChange={e => {
-                            setOther({ ...other, isHidden: e.target.checked });
+                            const newChecked = e.target.checked;
+                            setOther({ ...other, isHidden: newChecked });
+                            setEventIsHidden(newChecked && other.isHiddenFromLiveEvents);
                             sharedDirtyWindowState.set(true);
                         }}
                     />
@@ -50,7 +53,9 @@ export default function RegistrationOtherPage({ }: Props) {
                         className="checkbox checkbox-sm checkbox-info"
                         checked={other.isHiddenFromLiveEvents}
                         onChange={e => {
-                            setOther({ ...other, isHiddenFromLiveEvents: e.target.checked });
+                            const newChecked = e.target.checked;
+                            setOther({ ...other, isHiddenFromLiveEvents: newChecked });
+                            setEventIsHidden(newChecked && other.isHidden);
                             sharedDirtyWindowState.set(true);
                         }}
                     />
