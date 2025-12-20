@@ -11,6 +11,7 @@ import EventListFiltersDefaultDialog, { getDefaultRegionAndDistrict, type Defaul
 interface Props {
   regions: RegionInfo[];
   districts: DistrictInfo[];
+  seasons?: number[];
   allowTypeFilter?: boolean;
 }
 
@@ -30,6 +31,7 @@ const setSharedStateAndPersist = (newFilters: EventFilterConfiguration) => {
  * @param urlSlug The URL slug of the event.
  * @param event The event to check against the filter.
  * @param type The type of the event.
+ * @param includeHidden Whether to include hidden events in the match check.
  *
  * @returns True if the event matches the filter; otherwise, false.
  */
@@ -37,8 +39,10 @@ export function matchesFilter(
   filter: EventFilterConfiguration,
   urlSlug: string,
   event: EventInfo,
-  type: string): boolean {
-  if (!event.isVisible) {
+  type: string,
+  includeHidden?: boolean): boolean {
+    
+  if (!event.isVisible && !includeHidden) {
     return false;
   }
   else if (!filter) {
@@ -96,15 +100,19 @@ const getKeyFromLocation = (location?: DefaultRegionAndDistrict): string | undef
   }
 }
 
-export default function EventListFilters({ regions, districts, allowTypeFilter }: Props) {
+export default function EventListFilters({ regions, districts, allowTypeFilter, seasons }: Props) {
 
   const currentEventFilters = useStore($eventFilters);
 
-  const [searchText, setSearchText] = useState<string | undefined>(undefined);
-  const [typeFilter, setTypeFilter] = useState<string | undefined>(undefined);
-  const [scope, setScope] = useState<string | undefined>(undefined);
-  const [typeFilterOverride, setTypeFilterOverride] = useState<string | undefined>(undefined);
-  const [urlPrefix, setUrlPrefix] = useState<string | undefined>(undefined);
+  const [searchText, setSearchText] = useState<string | undefined>(currentEventFilters?.searchText);
+  const [typeFilter, setTypeFilter] = useState<string | undefined>(currentEventFilters?.typeFilter);
+  const [scope, setScope] = useState<string | undefined>(() => getKeyFromLocation({
+    regionId: currentEventFilters?.regionId,
+    districtId: currentEventFilters?.districtId
+  }));
+  const [typeFilterOverride, setTypeFilterOverride] = useState<string | undefined>(currentEventFilters?.typeFilterOverride);
+  const [urlPrefix, setUrlPrefix] = useState<string | undefined>(currentEventFilters?.urlPrefix);
+  const [season, setSeason] = useState<number | undefined>(seasons ? (currentEventFilters?.season ?? seasons[1]) : undefined);
   const [showDefaultDialog, setShowDefaultDialog] = useState<boolean>(() => !getDefaultRegionAndDistrict());
 
   useEffect(() => {
@@ -203,6 +211,21 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
     });
   };
 
+  const handleSeasonChanged = (e: React.ChangeEvent<HTMLSelectElement>) => {
+
+    const selectedValue = e.target.value;
+    const newSeason = DataTypeHelpers.isNullOrEmpty(selectedValue)
+      ? undefined
+      : parseInt(selectedValue);
+
+    setSeason(newSeason);
+
+    setSharedStateAndPersist({
+      ...currentEventFilters,
+      season: newSeason
+    });
+  };
+
   const handleUrlPrefixChanged = (e: React.ChangeEvent<HTMLSelectElement>) => {
 
     const selectedValue = e.target.value;
@@ -226,6 +249,7 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
     setSearchText(undefined);
     setTypeFilter(undefined);
     setUrlPrefix(undefined);
+    setSeason(seasons ? seasons[1] : undefined);
 
     const defaultLocation = getDefaultRegionAndDistrict();
     setScope(getKeyFromLocation(defaultLocation));
@@ -239,7 +263,7 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
     } as EventFilterConfiguration);
   };
 
-  const hasFilters = (searchText || !hasDefaultFilters || typeFilter || !!urlPrefix);
+  const hasFilters = (searchText || !hasDefaultFilters || typeFilter || !!urlPrefix || (seasons && season != seasons[1]));
 
   return (
     <>
@@ -317,6 +341,17 @@ export default function EventListFilters({ regions, districts, allowTypeFilter }
               </option>
               <option value="jbq">JBQ Only</option>
               <option value="tbq">TBQ Only</option>
+            </select>)}
+          {seasons && (
+            <select
+              className="select select-sm mt-0 w-auto"
+              onChange={handleSeasonChanged}
+              value={season ?? ""}>
+              {seasons.map(seasonOption => (
+                <option key={`season-${seasonOption}`} value={seasonOption}>
+                  {seasonOption}
+                </option>
+              ))}
             </select>)}
           <select
             className="select select-sm mt-0 w-auto"

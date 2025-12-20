@@ -126,6 +126,11 @@ export interface EventFilterConfiguration {
     typeFilterOverride: "jbq" | "tbq" | undefined;
 
     /**
+     * Include only events in this season.
+     */
+    season: number | undefined;
+
+    /**
      * Filter on the URL prefix for different types of events.
      */
     urlPrefix: string | undefined;

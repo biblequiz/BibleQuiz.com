@@ -8,6 +8,7 @@ import { PersonRole } from "types/services/PeopleService";
 interface Props {
     allowAttendees: boolean;
     form: EventExternalForm;
+    getLabelValidityMessage: (label: string) => string | null;
 }
 
 function trimAndUpdateRequiredState(
@@ -81,7 +82,7 @@ const FORM_WAIVER_HTML_TEMPLATE = `
     this Release as my own free act and deed; and that this Release shall be binding upon me, my heirs, legal representatives and assigns.
 </p>`;
 
-export default function EventFormCardBody({ allowAttendees, form }: Props) {
+export default function EventFormCardBody({ allowAttendees, form, getLabelValidityMessage }: Props) {
 
     const [isExternalUrl, setIsExternalUrl] = useState(() => DataTypeHelpers.isNullOrEmpty(form.WaiverHtml) || !DataTypeHelpers.isNullOrEmpty(form.Url));
     const [label, setLabel] = useState(form.Label);
@@ -131,8 +132,15 @@ export default function EventFormCardBody({ allowAttendees, form }: Props) {
                     type="text"
                     className="input input-info w-full mt-0"
                     value={label}
-                    onChange={e => setLabel(e.target.value)}
-                    onBlur={() => {
+                    onChange={e => {
+                        e.target.setCustomValidity("");
+                        setLabel(e.target.value);
+                    }}
+                    onBlur={e => {
+                        const validityMessage = getLabelValidityMessage(label);
+                        (e.target as HTMLInputElement).setCustomValidity(
+                            validityMessage || "");
+
                         form.Label = trimAndUpdateRequiredState(label, setLabel);
                         sharedDirtyWindowState.set(true);
                     }}
@@ -153,7 +161,7 @@ export default function EventFormCardBody({ allowAttendees, form }: Props) {
                         setIsExternalUrl(newIsExternalUrl);
                         if (newIsExternalUrl) {
                             setWaiverHtml("");
-                                form.WaiverHtml = "";
+                            form.WaiverHtml = "";
                         }
                         else {
                             setUrl("");
@@ -185,24 +193,6 @@ export default function EventFormCardBody({ allowAttendees, form }: Props) {
             </div>
             {isExternalUrl && (
                 <>
-                    <div className="w-full mt-0">
-                        <label className="label mb-0">
-                            <span className="label-text font-medium text-sm">URL</span>
-                            <span className="label-text-alt text-error">*</span>
-                        </label>
-                        <input
-                            type="url"
-                            className="input input-info w-full mt-0"
-                            value={url}
-                            onChange={e => setUrl(e.target.value)}
-                            onBlur={() => {
-                                form.Url = trimAndUpdateRequiredState(url, setUrl);
-                                sharedDirtyWindowState.set(true);
-                            }}
-                            maxLength={255}
-                            required
-                        />
-                    </div>
                     <div className="w-full mt-0">
                         <label className="label mb-0">
                             <span className="label-text font-medium text-sm">URL</span>

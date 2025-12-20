@@ -50,6 +50,7 @@ export default defineConfig({
                 {
                     label: "Upcoming & Live Events",
                     link: "/",
+                    attrs: { icon: "fas faTowerBroadcast" }
                 },
                 {
                     label: "Apps",
@@ -83,12 +84,25 @@ export default defineConfig({
                 },
                 {
                     label: "Manage Events",
-                    link: "manage-event/",
+                    collapsed: true,
                     badge: {
                         text: "EXPERIMENT",
                         variant: "caution"
                     },
-                    attrs: { useReactSidebar: true },
+                    items: [
+                        {
+                            label: "All Events",
+                            link: "manage-events/",
+                            attrs: { icon: "fas faList" }
+                        },
+                        {
+                            label: "My Event",
+                            link: "manage-events/event/",
+                            attrs: { 
+                                useReactSidebar: true,
+                                hideIfNotCurrent: true }
+                        },
+                    ]
                 },
             ],
             components: {

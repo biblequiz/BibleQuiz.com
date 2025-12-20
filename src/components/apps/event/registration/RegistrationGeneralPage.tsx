@@ -8,6 +8,7 @@ import { sharedDirtyWindowState } from "utils/SharedState";
 import RegistrationPageForm from "./RegistrationPageForm";
 import { EventPublishType } from "types/services/EventsService";
 import EventTypeSelectorCards from "./EventTypeSelectorCards";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
 }
@@ -31,8 +32,8 @@ export interface RegistrationGeneralInfo {
 export default function RegistrationGeneralPage({ }: Props) {
     const {
         isNewEvent,
-        rootEventUrl,
-        saveRegistration,
+        isSaving,
+        context,
         setEventTitle,
         setEventType,
         general,
@@ -58,7 +59,8 @@ export default function RegistrationGeneralPage({ }: Props) {
 
     return (
         <RegistrationPageForm
-            rootEventUrl={rootEventUrl}
+            context={context}
+            isSaving={isSaving}
             persistFormToEventInfo={() => {
                 setGeneral({
                     ...general,
@@ -77,8 +79,7 @@ export default function RegistrationGeneralPage({ }: Props) {
                     locationAddress: eventLocation
                 });
             }}
-            saveRegistration={saveRegistration}
-            nextPageLink={`${rootEventUrl}/registration/teamsAndQuizzers`}>
+            nextPageLink={`${context.rootEventUrl}/registration/teamsAndQuizzers`}>
 
             <h5 className="mb-0">What's the event?</h5>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 p-2 mt-0">
@@ -155,6 +156,38 @@ export default function RegistrationGeneralPage({ }: Props) {
                             setStartDate(e.target.value);
                             sharedDirtyWindowState.set(true);
                         }}
+                        onBlur={e => {
+                            const now = DataTypeHelpers.nowDateOnly;
+                            const newStartDate = e.target.value;
+                            const parsedStartDate = DataTypeHelpers.parseDateOnly(newStartDate);
+                            if (parsedStartDate && parsedStartDate.getTime() > now.getTime()) {
+
+                                // The end date is assumed to be the first date if missing.
+                                if (!DataTypeHelpers.parseDateOnly(endDate)) {
+                                    setEndDate(newStartDate);
+                                }
+
+                                // The registration start date is assumed to be today if missing.
+                                let newRegistrationStart = DataTypeHelpers.parseDateOnly(registrationStartDate);
+                                if (null == newRegistrationStart) {
+                                    newRegistrationStart = now;
+                                    setRegistrationStartDate(DataTypeHelpers.formatDate(now, "yyyy-MM-dd")!);
+                                }
+
+                                // The registration end date is assumed to be 5 days before the start of the event if missing.
+                                if (null == DataTypeHelpers.parseDateOnly(registrationEndDate)) {
+
+                                    let newRegistrationEnd = new Date(parsedStartDate.getTime());
+                                    newRegistrationEnd.setDate(newRegistrationEnd.getDate() - 5);
+
+                                    if (newRegistrationEnd.getTime() < newRegistrationStart.getTime()) {
+                                        newRegistrationEnd = newRegistrationStart;
+                                    }
+
+                                    setRegistrationEndDate(DataTypeHelpers.formatDate(newRegistrationEnd, "yyyy-MM-dd")!);
+                                }
+                            }
+                        }}
                         required
                     />
                 </div>
@@ -225,6 +258,7 @@ export default function RegistrationGeneralPage({ }: Props) {
                     setEventLocation(a);
                     sharedDirtyWindowState.set(true);
                 }}
+                nameRequired
             />
 
             <h5 className="mb-2">What type of event?</h5>

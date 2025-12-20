@@ -5,6 +5,8 @@ import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
     division: EventDivision;
+    getAbbreviationValidityMessage: (abbreviation: string) => string | null;
+    getLabelValidityMessage: (label: string) => string | null;
 }
 
 function trimAndUpdateRequiredState(
@@ -19,7 +21,10 @@ function trimAndUpdateRequiredState(
     return trimmed;
 }
 
-export default function EventDivisionCardBody({ division }: Props) {
+export default function EventDivisionCardBody({
+    division,
+    getAbbreviationValidityMessage,
+    getLabelValidityMessage }: Props) {
 
     const [abbreviation, setAbbreviation] = useState<string>(division.Abbreviation || "");
     const [labelText, setLabelText] = useState<string>(division.Label || "");
@@ -35,8 +40,16 @@ export default function EventDivisionCardBody({ division }: Props) {
                     type="text"
                     className="input input-info w-full mt-0"
                     value={abbreviation}
-                    onChange={e => setAbbreviation(e.target.value)}
-                    onBlur={() => {
+                    onChange={e => {
+                        e.target.setCustomValidity("");
+                        setAbbreviation(e.target.value);
+                    }}
+                    onBlur={e => {
+
+                        const validityMessage = getAbbreviationValidityMessage(abbreviation);
+                        (e.target as HTMLInputElement).setCustomValidity(
+                            validityMessage || "");
+
                         division.Abbreviation = trimAndUpdateRequiredState(abbreviation, setAbbreviation);
                         sharedDirtyWindowState.set(true);
                     }}
@@ -53,8 +66,16 @@ export default function EventDivisionCardBody({ division }: Props) {
                     type="text"
                     className="input input-info w-full mt-0"
                     value={labelText}
-                    onChange={e => setLabelText(e.target.value)}
-                    onBlur={() => {
+                    onChange={e => {
+                        e.target.setCustomValidity("");
+                        setLabelText(e.target.value);
+                    }}
+                    onBlur={e => {
+
+                        const validityMessage = getLabelValidityMessage(labelText);
+                        (e.target as HTMLInputElement).setCustomValidity(
+                            validityMessage || "");
+
                         division.Label = trimAndUpdateRequiredState(labelText, setLabelText);
                         sharedDirtyWindowState.set(true);
                     }}

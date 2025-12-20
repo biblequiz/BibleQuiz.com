@@ -38,8 +38,8 @@ export class EventsService {
         auth: AuthManager,
         pageSize: number,
         pageNumber: number,
-        typeId: string,
-        churchId: string,
+        typeId: string | null,
+        churchId: string | null,
         regionId: string | null,
         districtId: string | null,
         filter: EventFilter,
@@ -183,9 +183,9 @@ export class EventsService {
     public static create(
         auth: AuthManager,
         event: EventInfo,
-        clonePermissionsFromEventId: string | null = null): Promise<void> {
+        clonePermissionsFromEventId: string | null = null): Promise<EventInfo> {
 
-        return RemoteServiceUtility.executeHttpRequestWithoutResponse(
+        return RemoteServiceUtility.executeHttpRequest<EventInfo>(
             auth,
             "POST",
             RemoteServiceUrlBase.Registration,
@@ -204,9 +204,9 @@ export class EventsService {
      */
     public static update(
         auth: AuthManager,
-        event: EventInfo): Promise<void> {
+        event: EventInfo): Promise<EventInfo> {
 
-        return RemoteServiceUtility.executeHttpRequestWithoutResponse(
+        return RemoteServiceUtility.executeHttpRequest<EventInfo>(
             auth,
             "PUT",
             RemoteServiceUrlBase.Registration,

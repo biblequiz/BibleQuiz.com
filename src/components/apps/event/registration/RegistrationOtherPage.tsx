@@ -13,18 +13,17 @@ export interface RegistrationOtherInfo {
 
 export default function RegistrationOtherPage({ }: Props) {
     const {
-        rootEventUrl,
-        saveRegistration,
+        context,
+        setEventIsHidden,
+        isSaving,
         other,
         setOther } = useOutletContext<RegistrationProviderContext>();
 
-    // TODO: Add extended registration dates.
-
     return (
         <RegistrationPageForm
-            rootEventUrl={rootEventUrl}
-            saveRegistration={saveRegistration}
-            previousPageLink={`${rootEventUrl}/registration/money`}>
+            context={context}
+            isSaving={isSaving}
+            previousPageLink={`${context.rootEventUrl}/registration/money`}>
 
             <div className="w-full ml-2 mt-1 mb-0">
                 <label className="label text-wrap">
@@ -34,7 +33,9 @@ export default function RegistrationOtherPage({ }: Props) {
                         className="checkbox checkbox-sm checkbox-info"
                         checked={other.isHidden}
                         onChange={e => {
-                            setOther({ ...other, isHidden: e.target.checked });
+                            const newChecked = e.target.checked;
+                            setOther({ ...other, isHidden: newChecked });
+                            setEventIsHidden(newChecked && other.isHiddenFromLiveEvents);
                             sharedDirtyWindowState.set(true);
                         }}
                     />
@@ -52,7 +53,9 @@ export default function RegistrationOtherPage({ }: Props) {
                         className="checkbox checkbox-sm checkbox-info"
                         checked={other.isHiddenFromLiveEvents}
                         onChange={e => {
-                            setOther({ ...other, isHiddenFromLiveEvents: e.target.checked });
+                            const newChecked = e.target.checked;
+                            setOther({ ...other, isHiddenFromLiveEvents: newChecked });
+                            setEventIsHidden(newChecked && other.isHidden);
                             sharedDirtyWindowState.set(true);
                         }}
                     />

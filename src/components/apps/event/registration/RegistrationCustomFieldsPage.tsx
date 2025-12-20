@@ -9,31 +9,33 @@ import EventFieldCommonDialog from "./EventFieldCommonDialog";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import LocalIdGenerator from "utils/LocalIdGenerator";
+import ConfirmationDialog from "components/ConfirmationDialog";
 
 interface Props {
 }
 
 export default function RegistrationCustomFieldsPage({ }: Props) {
     const {
-        rootEventUrl,
-        saveRegistration,
+        context,
+        isSaving,
         general,
         officialsAndAttendees,
         fields,
         setFields } = useOutletContext<RegistrationProviderContext>();
 
     const [eventFields, setEventFields] = useState<EventField[]>(() => [...fields]);
+    const [deleteIndex, setDeleteIndex] = useState<number | null>(null);
 
     const commonDialogRef = useRef<HTMLDialogElement>(null);
 
     return (
         <>
             <RegistrationPageForm
-                rootEventUrl={rootEventUrl}
+                context={context}
+                isSaving={isSaving}
                 persistFormToEventInfo={() => setFields(eventFields)}
-                saveRegistration={saveRegistration}
-                previousPageLink={`${rootEventUrl}/registration/requiredFields`}
-                nextPageLink={`${rootEventUrl}/registration/divisions`}>
+                previousPageLink={`${context.rootEventUrl}/registration/requiredFields`}
+                nextPageLink={`${context.rootEventUrl}/registration/divisions`}>
                 <div className="flex flex-wrap gap-4">
                     {eventFields.map((field, index) => (
                         <EventFieldCard key={`field_${field.Id ?? LocalIdGenerator.getLocalId(field)}`}>
@@ -76,17 +78,23 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
                             <EventFieldCardBody
                                 field={field}
                                 allowAttendees={officialsAndAttendees.allowAttendees}
+                                getLabelValidityMessage={newLabel => {
+                                    if (newLabel) {
+                                        newLabel = newLabel.trim().toLowerCase();
+                                        const duplicates = eventFields.filter(f => f !== field && f.Label && f.Label.toLowerCase() === newLabel);
+                                        if (duplicates.length > 0) {
+                                            return "Labels must be unique across fields.";
+                                        }
+                                    }
+
+                                    return null;
+                                }}
                             />
                             <div className="w-full mt-0">
                                 <button
                                     type="button"
                                     className="btn btn-error text-white w-full mt-0 mb-0 pt-1 pb-1"
-                                    onClick={() => {
-                                        const newFields = eventFields.filter((_, i) => i !== index);
-                                        setEventFields(newFields);
-                                        setFields(newFields);
-                                        sharedDirtyWindowState.set(true);
-                                    }}>
+                                    onClick={() => setDeleteIndex(index)}>
                                     <FontAwesomeIcon icon="fas faTrash" />
                                     Delete Field
                                 </button>
@@ -137,5 +145,26 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
                 }}
                 dialogRef={commonDialogRef}
             />
+            {deleteIndex !== null && (
+                <ConfirmationDialog
+                    title="Confirm Deletion?"
+                    yesLabel="Delete"
+                    onYes={() => {
+                        const newFields = eventFields.filter((_, i) => i !== deleteIndex);
+                        setEventFields(newFields);
+                        setFields(newFields);
+                        setDeleteIndex(null);
+                        sharedDirtyWindowState.set(true);
+                    }}
+                    noLabel="Cancel"
+                    onNo={() => setDeleteIndex(null)}
+                >
+                    <p>
+                        This field may already be in use. Are you sure you want to delete it?
+                    </p>
+                    <p>
+                        You <b>CANNOT</b> undo this change if you save it.
+                    </p>
+                </ConfirmationDialog>)}
         </>);
 }

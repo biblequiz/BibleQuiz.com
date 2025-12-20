@@ -589,5 +589,5 @@ export abstract class RemoteServiceModelBase<TId> {
     /**
      * ID for this model.
      */
-    Id!: TId | null;
+    Id!: TId | null | undefined;
 }

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { RegistrationProviderContext } from "../RegistrationProvider";
 import { useOutletContext } from "react-router-dom";
 import RegistrationPageForm from "./RegistrationPageForm";
@@ -17,8 +17,8 @@ export interface RegistrationTeamsAndQuizzersInfo {
 
 export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
     const {
-        rootEventUrl,
-        saveRegistration,
+        context,
+        isSaving,
         teamsAndQuizzers,
         setTeamsAndQuizzers } = useOutletContext<RegistrationProviderContext>();
 
@@ -28,9 +28,19 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
     const [allowCustomTeamNames, setAllowCustomTeamNames] = useState(teamsAndQuizzers.allowCustomTeamNames);
     const [allowIndividuals, setAllowIndividuals] = useState(teamsAndQuizzers.allowIndividuals);
 
+    const minTeamMembersRef = useRef<HTMLInputElement>(null);
+
     return (
         <RegistrationPageForm
-            rootEventUrl={rootEventUrl}
+            context={context}
+            isSaving={isSaving}
+            setCustomValidation={() => {
+                if (minTeamMembersRef.current && maxTeamMembers < minTeamMembers) {
+                    minTeamMembersRef.current.setCustomValidity("Cannot be greater than Max Team Members.");
+                }
+
+                return true;
+            }}
             persistFormToEventInfo={() => {
                 setTeamsAndQuizzers({
                     ...teamsAndQuizzers,
@@ -41,9 +51,8 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
                     allowIndividuals
                 });
             }}
-            saveRegistration={saveRegistration}
-            previousPageLink={`${rootEventUrl}/registration/general`}
-            nextPageLink={`${rootEventUrl}/registration/officials`}>
+            previousPageLink={`${context.rootEventUrl}/registration/general`}
+            nextPageLink={`${context.rootEventUrl}/registration/officials`}>
 
             <h5 className="mb-0">Team Requirements</h5>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 p-2 mt-0 mb-0">
@@ -59,7 +68,9 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
                         min={1}
                         max={8}
                         value={minTeamMembers}
+                        ref={minTeamMembersRef}
                         onChange={e => {
+                            e.target.setCustomValidity("");
                             setMinTeamMembers(e.target.valueAsNumber);
                             sharedDirtyWindowState.set(true);
                         }}

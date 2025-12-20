@@ -8,100 +8,143 @@ import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import LocalIdGenerator from "utils/LocalIdGenerator";
 import EventDivisionCardBody from "./EventDivisionCardBody";
+import ConfirmationDialog from "components/ConfirmationDialog";
 
 interface Props {
 }
 
 export default function RegistrationDivisionsPage({ }: Props) {
     const {
-        rootEventUrl,
-        saveRegistration,
+        context,
+        isSaving,
         divisions,
         setDivisions } = useOutletContext<RegistrationProviderContext>();
 
     const [eventDivisions, setEventDivisions] = useState<EventDivision[]>(() => [...divisions]);
+    const [deleteIndex, setDeleteIndex] = useState<number | null>(null);
 
     return (
-        <RegistrationPageForm
-            rootEventUrl={rootEventUrl}
-            persistFormToEventInfo={() => setDivisions(eventDivisions)}
-            saveRegistration={saveRegistration}
-            previousPageLink={`${rootEventUrl}/registration/customFields`}
-            nextPageLink={`${rootEventUrl}/registration/forms`}>
-            <div className="flex flex-wrap gap-4">
-                {eventDivisions.map((division, index) => (
-                    <EventFieldCard key={`division_${division.Id ?? LocalIdGenerator.getLocalId(division)}`}>
-                        <div className="w-full mt-0">
-                            <button
-                                type="button"
-                                className="btn btn-primary w-3/8 mt-0 mb-0 pt-1 pb-1"
-                                onClick={() => {
-                                    const newDivisions = [...eventDivisions];
-                                    const current = newDivisions[index];
-                                    newDivisions[index] = newDivisions[index - 1];
-                                    newDivisions[index - 1] = current;
+        <>
+            <RegistrationPageForm
+                context={context}
+                isSaving={isSaving}
+                persistFormToEventInfo={() => setDivisions(eventDivisions)}
+                previousPageLink={`${context.rootEventUrl}/registration/customFields`}
+                nextPageLink={`${context.rootEventUrl}/registration/forms`}>
+                <div className="flex flex-wrap gap-4">
+                    {eventDivisions.map((division, index) => (
+                        <EventFieldCard key={`division_${division.Id ?? LocalIdGenerator.getLocalId(division)}`}>
+                            <div className="w-full mt-0">
+                                <button
+                                    type="button"
+                                    className="btn btn-primary w-3/8 mt-0 mb-0 pt-1 pb-1"
+                                    onClick={() => {
+                                        const newDivisions = [...eventDivisions];
+                                        const current = newDivisions[index];
+                                        newDivisions[index] = newDivisions[index - 1];
+                                        newDivisions[index - 1] = current;
 
-                                    setEventDivisions(newDivisions);
-                                    setDivisions(newDivisions);
-                                    sharedDirtyWindowState.set(true);
-                                }}
-                                disabled={index < 1}>
-                                <FontAwesomeIcon icon="fas faArrowLeft" />
-                                Move
-                            </button>
-                            <button
-                                type="button"
-                                className="btn btn-primary w-3/8 mt-0 mb-0 ml-2 pt-1 pb-1"
-                                onClick={() => {
-                                    const newDivisions = [...eventDivisions];
-                                    const current = newDivisions[index];
-                                    newDivisions[index] = newDivisions[index + 1];
-                                    newDivisions[index + 1] = current;
+                                        setEventDivisions(newDivisions);
+                                        setDivisions(newDivisions);
+                                        sharedDirtyWindowState.set(true);
+                                    }}
+                                    disabled={index < 1}>
+                                    <FontAwesomeIcon icon="fas faArrowLeft" />
+                                    Move
+                                </button>
+                                <button
+                                    type="button"
+                                    className="btn btn-primary w-3/8 mt-0 mb-0 ml-2 pt-1 pb-1"
+                                    onClick={() => {
+                                        const newDivisions = [...eventDivisions];
+                                        const current = newDivisions[index];
+                                        newDivisions[index] = newDivisions[index + 1];
+                                        newDivisions[index + 1] = current;
 
-                                    setEventDivisions(newDivisions);
-                                    setDivisions(newDivisions);
-                                    sharedDirtyWindowState.set(true);
+                                        setEventDivisions(newDivisions);
+                                        setDivisions(newDivisions);
+                                        sharedDirtyWindowState.set(true);
+                                    }}
+                                    disabled={index >= eventDivisions.length - 1}>
+                                    <FontAwesomeIcon icon="fas faArrowRight" />
+                                    Move
+                                </button>
+                            </div>
+                            <EventDivisionCardBody
+                                division={division}
+                                getAbbreviationValidityMessage={newAbbreviation => {
+                                    if (newAbbreviation) {
+                                        newAbbreviation = newAbbreviation.trim().toLowerCase();
+                                        const duplicates = eventDivisions.filter(d => d !== division && d.Abbreviation && d.Abbreviation.toLowerCase() === newAbbreviation);
+                                        if (duplicates.length > 0) {
+                                            return "Abbreviations must be unique among divisions.";
+                                        }
+                                    }
+
+                                    return null;
                                 }}
-                                disabled={index >= eventDivisions.length - 1}>
-                                <FontAwesomeIcon icon="fas faArrowRight" />
-                                Move
-                            </button>
-                        </div>
-                        <EventDivisionCardBody division={division} />
-                        <div className="w-full mt-0">
-                            <button
-                                type="button"
-                                className="btn btn-error text-white w-full mt-0 mb-0 pt-1 pb-1"
-                                onClick={() => {
-                                    const newDivisions = eventDivisions.filter((_, i) => i !== index);
-                                    setEventDivisions(newDivisions);
-                                    setDivisions(newDivisions);
-                                    sharedDirtyWindowState.set(true);
-                                }}>
-                                <FontAwesomeIcon icon="fas faTrash" />
-                                Delete Division
-                            </button>
-                        </div>
+                                getLabelValidityMessage={newLabel => {
+                                    if (newLabel) {
+                                        newLabel = newLabel.trim().toLowerCase();
+                                        const duplicates = eventDivisions.filter(d => d !== division && d.Label && d.Label.toLowerCase() === newLabel);
+                                        if (duplicates.length > 0) {
+                                            return "Labels must be unique among divisions.";
+                                        }
+                                    }
+
+                                    return null;
+                                }} />
+                            <div className="w-full mt-0">
+                                <button
+                                    type="button"
+                                    className="btn btn-error text-white w-full mt-0 mb-0 pt-1 pb-1"
+                                    onClick={() => setDeleteIndex(index)}>
+                                    <FontAwesomeIcon icon="fas faTrash" />
+                                    Delete Division
+                                </button>
+                            </div>
+                        </EventFieldCard>
+                    ))}
+                    <EventFieldCard alignMiddle={true}>
+                        <button
+                            type="button"
+                            className="btn btn-primary w-full mt-0 mb-0 pt-1 pb-1"
+                            onClick={() => {
+                                const newDivision: EventDivision = {
+                                    Id: null,
+                                    Abbreviation: "",
+                                    Label: ""
+                                };
+
+                                setEventDivisions(prevFields => [...prevFields, newDivision]);
+                                sharedDirtyWindowState.set(true);
+                            }}>
+                            <FontAwesomeIcon icon="fas faPlus" />
+                            Division
+                        </button>
                     </EventFieldCard>
-                ))}
-                <EventFieldCard alignMiddle={true}>
-                    <button
-                        type="button"
-                        className="btn btn-primary w-full mt-0 mb-0 pt-1 pb-1"
-                        onClick={() => {
-                            const newDivision: EventDivision = {
-                                Id: null,
-                                Abbreviation: "",
-                                Label: ""
-                            };
-
-                            setEventDivisions(prevFields => [...prevFields, newDivision]);
-                            sharedDirtyWindowState.set(true);
-                        }}>
-                        <FontAwesomeIcon icon="fas faPlus" />
-                        Division
-                    </button>
-                </EventFieldCard>
-            </div>
-        </RegistrationPageForm>);
+                </div>
+            </RegistrationPageForm>
+            {deleteIndex !== null && (
+                <ConfirmationDialog
+                    title="Confirm Deletion?"
+                    yesLabel="Delete"
+                    onYes={() => {
+                        const newDivisions = eventDivisions.filter((_, i) => i !== deleteIndex);
+                        setEventDivisions(newDivisions);
+                        setDivisions(newDivisions);
+                        setDeleteIndex(null);
+                        sharedDirtyWindowState.set(true);
+                    }}
+                    noLabel="Cancel"
+                    onNo={() => setDeleteIndex(null)}
+                >
+                    <p>
+                        This division may already be in use. Are you sure you want to delete it?
+                    </p>
+                    <p>
+                        You <b>CANNOT</b> undo this change if you save it.
+                    </p>
+                </ConfirmationDialog>)}
+        </>);
 }

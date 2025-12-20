@@ -29,9 +29,9 @@ export class ParameterHelpers {
      * 
      * @param rawValue Value to be converted.
      */
-    public static urlEncode(rawValue: string | null): string {
+    public static urlEncode(rawValue: string | null | undefined): string {
 
-        if (null == rawValue) {
+        if (!rawValue) {
             return "";
         }
 

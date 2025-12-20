@@ -1,9 +1,8 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEffect, useState } from "react";
-import { Outlet, useLocation, useParams } from "react-router-dom";
+import { Outlet, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { EventInfo, EventsService } from "types/services/EventsService";
-import AllEventsPage from "./AllEventsPage";
 
 interface Props {
 }
@@ -16,13 +15,15 @@ export interface EventProviderContext {
 
     setEventTitle: (title: string) => void;
     setEventType: (typeId: string) => void;
+    setEventIsHidden: (isHidden: boolean) => void;
 }
+
+export const NEW_ID_PLACEHOLDER = "new";
 
 export default function EventProvider({ }: Props) {
     const auth = AuthManager.useNanoStore();
-    const location = useLocation();
     const urlParameters = useParams();
-    const eventId = urlParameters.eventId === "registration"
+    const eventId = urlParameters.eventId === NEW_ID_PLACEHOLDER
         ? null
         : (urlParameters.eventId || null);
 
@@ -31,9 +32,10 @@ export default function EventProvider({ }: Props) {
     const [currentEvent, setCurrentEvent] = useState<EventInfo | null>(null);
     const [eventTitle, setEventTitle] = useState<string>("Untitled Event");
     const [eventTypeId, setEventTypeId] = useState<string>("agjbq");
+    const [eventIsHidden, setEventIsHidden] = useState<boolean>(false);
 
     useEffect(() => {
-        if (eventId) {
+        if (eventId && eventId != NEW_ID_PLACEHOLDER) {
             setIsLoading(true);
 
             EventsService
@@ -44,16 +46,19 @@ export default function EventProvider({ }: Props) {
                     setLoadingError(null);
                     setEventTitle(info.Name);
                     setEventTypeId(info.TypeId);
+                    setEventIsHidden(info.IsHidden && info.IsHiddenFromLiveEvents);
                 })
                 .catch(error => {
-                    setLoadingError(error.message || "An error occured while retrieving this event.");
+                    setIsLoading(false);
+                    if (error.statusCode === 404) {
+                        setLoadingError("Cannot find the specified event.");
+                    }
+                    else {
+                        setLoadingError(error.message || "An error occured while retrieving this event.");
+                    }
                 });
         }
     }, [eventId, auth]);
-
-    if (location.pathname === "/") {
-        return (<AllEventsPage />);
-    }
 
     if (isLoading) {
         return (
@@ -103,17 +108,19 @@ export default function EventProvider({ }: Props) {
                     />
                 )}
                 <span className="event-title-text">{eventTitle}</span>
+                {eventIsHidden && <span className="badge badge-error mr-1 text-nowrap">HIDDEN</span>}
             </h1>
             <Outlet context={{
                 auth: auth,
                 eventId: eventId,
                 info: currentEvent,
-                rootUrl: eventId ? `/${eventId}` : "",
+                rootUrl: eventId ? `/${eventId}` : `/${NEW_ID_PLACEHOLDER}`,
                 setEventTitle: newTitle => setEventTitle(
                     newTitle.trim().length > 0
                         ? newTitle.trim()
                         : "Untitled Event"),
                 setEventType: setEventTypeId,
+                setEventIsHidden: setEventIsHidden,
             } as EventProviderContext} />
         </>);
 }
