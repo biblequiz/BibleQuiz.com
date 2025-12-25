@@ -1,127 +1,76 @@
 import { useEffect, useRef, useState } from "react";
-import { Church } from 'types/services/ChurchesService';
-import FontAwesomeIcon from './FontAwesomeIcon';
 import { AuthManager } from 'types/AuthManager';
-import { PeopleService, Person, PersonParentType } from "types/services/PeopleService";
-import { RequiredPersonFields } from "types/services/EventsService";
+import { EventFilter, EventInfo, EventsService } from "types/services/EventsService";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
-import PersonCard from "./PersonCard";
-import PaginationControl from "./apps/event/PaginationControl";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+import PaginationControl from "./PaginationControl";
 
 interface Props {
 
     /**
-     * Title for the dialog.
-     */
-    title: string,
-
-    /**
-     * Description for the dialog.
-     */
-    description: string,
-
-    /**
-     * Selection handler when a person is selected.
+     * Handler for selecting an event.
      * 
-     * @param person Selected person. If this is null, it indicates the selection was cancelled.
+     * @param event Selected event or null (if canceled).
      */
-    onSelect: (person: Person | null) => void,
+    onSelect: (event: EventInfo | null) => void;
 
     /**
-     * Type of the parent entity.
+     * Id for the competition type.
      */
-    parentType?: PersonParentType;
+    typeId: string;
 
     /**
-     * Id for the parent entity.
+     * Season for the events to include.
      */
-    parentId?: string;
+    season: number;
 
     /**
-     * Optional Id to use when looking up people for an event in order to infer permissions.
+     * Optional exclusion for a specific event.
      */
-    eventId?: string;
+    excludeEventId?: string;
 
     /**
-     * List of ids for people that shouldn't be returned.
+     * Optional region id for any events.
      */
-    excludeIds?: Set<string>;
+    regionId?: string;
 
     /**
-     * Indicates a permission scope that should be excluded.
+     * Optional district id for any events.
      */
-    excludeWithScope?: boolean;
+    districtId?: string;
 
     /**
-     * Indicates whether the parent can be changed.
+     * Optional value indicating just the district events should be included.
      */
-    allowParentChange?: boolean;
+    includeDistrict?: boolean;
 
     /**
-     * Region ID to use when filtering new parent selection.
+     * Optional value indicating just the region events should be included.
      */
-    newParentRegionId?: string;
+    includeRegion?: boolean;
 
     /**
-     * District ID to use when filtering new parent selection.
+     * Optional value indicating just the national events should be included.
      */
-    newParentDistrictId?: string;
+    includeNation?: boolean;
 
     /**
-     * Label for the new entity. If this is null, it is assumed that a new object cannot be added.
+     * Optional value indicating the event must have databases.
      */
-    newEntityLabel?: string;
-
-    /**
-     * Parent being used for selection.
-     */
-    currentParent?: Church;
-
-    /**
-     * Exclude the people who don't have an e-mail address.
-     */
-    excludePeopleWithoutEmail?: boolean;
-
-    /**
-     * List of additional required fields for people.
-     */
-    requiredFields?: RequiredPersonFields;
-
-    /**
-     * Hides optional fields on the person page.
-     */
-    hideOptionalFieldsOnPersonPage?: boolean;
-
-    /**
-     * Value indicating whether only users should be included.
-     */
-    includeOnlyUsers?: boolean;
-
-    /*
-     * Value indicating whether users from all regions and districts should be included.
-     */
-    includeAllUsers?: boolean;
+    requireDatabases?: boolean;
 }
 
-export default function PersonLookupDialog({
-    title,
-    description,
+export default function EventLookupDialog({
     onSelect,
-    eventId,
-    excludeIds,
-    excludeWithScope = false,
-    allowParentChange = false,
-    newParentRegionId,
-    newParentDistrictId,
-    newEntityLabel,
-    currentParent,
-    parentType = PersonParentType.Organization,
-    parentId,
-    excludePeopleWithoutEmail = false,
-    requiredFields = RequiredPersonFields.None,
-    hideOptionalFieldsOnPersonPage = false,
-    includeOnlyUsers = false,
-    includeAllUsers = false }: Props) {
+    typeId,
+    season,
+    excludeEventId,
+    regionId,
+    districtId,
+    includeDistrict = true,
+    includeRegion = true,
+    includeNation = true,
+    requireDatabases = false }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
 
@@ -129,7 +78,7 @@ export default function PersonLookupDialog({
 
     const [intermediateSearchText, setIntermediateSearchText] = useState<string | undefined>(undefined);
     const [searchText, setSearchText] = useState<string | undefined>(undefined);
-    const [people, setPeople] = useState<Person[] | undefined>(undefined);
+    const [events, setEvents] = useState<EventInfo[] | undefined>(undefined);
     const [currentPageNumber, setCurrentPageNumber] = useState<number | undefined>(0);
     const [pageCount, setPageCount] = useState<number>(0);
     const [isLoading, setIsLoading] = useState(false);
@@ -141,28 +90,30 @@ export default function PersonLookupDialog({
         setIsLoading(true);
 
         if (!isLoading && !isAssigning) {
-            PeopleService.getPeople(
+            EventsService.getEvents(
                 auth,
-                15,
+                6,
                 newPageNumber,
-                parentType,
-                parentId ?? null,
-                searchText,
-                excludeWithScope,
-                true, // TODO: Add church support
-                false, // Include people regardless of whether they are approved.
-                false, // Indicates only potential duplicates should be listed.
-                includeOnlyUsers,
-                excludePeopleWithoutEmail,
-                eventId ?? null,
-                includeAllUsers)
+                typeId,
+                null, // Church ID
+                regionId ?? null,
+                districtId ?? null,
+                EventFilter.MyDistrictRegionNation,
+                searchText ?? "",
+                requireDatabases,
+                false, // Include Only Scores
+                includeDistrict,
+                includeRegion,
+                includeNation,
+                null, // Include all time periods.
+                true, // Include only what the user is authorized to view.
+                season,
+                excludeEventId ?? null)
                 .then(page => {
-                    setPeople(page.Items);
-                    setPageCount(page.PageCount ?? 0);
-                    setCurrentPageNumber(newPageNumber);
-
                     setIsLoading(false);
                     setLoadingOrSavingError(null);
+                    setEvents(page[0].events);
+                    setPageCount(page[0].pageCount);
                 })
                 .catch(err => {
                     setIsLoading(false);
@@ -174,7 +125,7 @@ export default function PersonLookupDialog({
     return (
         <dialog ref={dialogRef} className="modal" open>
             <div className="modal-box w-full max-w-3xl">
-                <h3 className="font-bold text-lg">{title}</h3>
+                <h3 className="font-bold text-lg">Select an Event</h3>
                 <button
                     type="button"
                     className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
@@ -183,7 +134,7 @@ export default function PersonLookupDialog({
                         dialogRef.current?.close();
                     }}
                 >✕</button>
-                <div className="mt-0">
+                <div className="mt-4">
                     {loadingOrSavingError && (
                         <div role="alert" className="alert alert-error mt-2 mb-2 w-full">
                             <FontAwesomeIcon icon="fas faCircleExclamation" />
@@ -191,7 +142,6 @@ export default function PersonLookupDialog({
                                 <b>Error: </b> {loadingOrSavingError}
                             </div>
                         </div>)}
-                    <p className="mt-0">{description}</p>
                     <div className="w-full">
                         <label className="input input-sm mt-0 w-full">
                             <FontAwesomeIcon icon="fas faSearch" classNames={["h-[1em]", "opacity-50"]} />
@@ -229,29 +179,63 @@ export default function PersonLookupDialog({
                 {(isLoading || isAssigning) && (
                     <div className="flex justify-center items-center">
                         <span className="loading loading-spinner loading-xl"></span>&nbsp;
-                        {isLoading ? "Loading people ..." : "Selecting person ..."}
+                        {isLoading ? "Loading events ..." : "Selecting event ..."}
                     </div>)}
                 {(!isLoading && !isAssigning) && (
                     <>
                         <div className="mt-4">
-                            {people && people.length > 0 && (
+                            {events && events.length > 0 && (
                                 <div className="flex flex-wrap gap-4">
-                                    {people.map(person => {
+                                    {events.map(event => {
+
+                                        let locationLabel: string | null = null;
+                                        if (event.LocationName || event.Location) {
+                                            if (event.LocationName && event.Location) {
+                                                locationLabel = `${event.LocationName}, ${event.Location.City}, ${event.Location.State}`;
+                                            }
+                                            else if (event.LocationName) {
+                                                locationLabel = event.LocationName;
+                                            }
+                                            else {
+                                                locationLabel = `${event.Location.City}, ${event.Location.State}`;
+                                            }
+                                        }
+
+                                        const typeId = event.TypeId.substring(2).toLowerCase();
+
                                         return (
-                                            <PersonCard
-                                                key={`person_${person.Id}`}
-                                                person={person}
-                                                onSelect={p => {
-                                                    setIsAssigning(true);
-                                                    onSelect(p);
-                                                }} />);
+                                            <button
+                                                type="button"
+                                                className="card live-events-card w-85 card-sm shadow-sm border-2 border-solid mt-0 relative"
+                                                onClick={() => onSelect(event)}>
+                                                <div className="card-body p-2 pl-4">
+                                                    <div className="flex items-start gap-4">
+                                                        <img
+                                                            src={`/assets/logos/${typeId}/${typeId}-logo.png`}
+                                                            alt={`${typeId.toUpperCase()} Logo`}
+                                                            className="w-20 h-20 flex-shrink-0 mt-2"
+                                                        />
+                                                        <div className="flex-1 pr-6 mt-2">
+                                                            <h2 className="card-title mb-0 mt-1">
+                                                                {event.Name}
+                                                            </h2>
+                                                            <p className="mt-0">{event.StartDate} - {event.EndDate}</p>
+                                                            {locationLabel && <p className="text-gray-500 italic m-0">{locationLabel}</p>}
+                                                        </div>
+                                                    </div>
+                                                    <FontAwesomeIcon
+                                                        icon="fas faArrowRight"
+                                                        classNames={["icon text-lg rtl:flip absolute top-4 right-4"]}
+                                                    />
+                                                </div>
+                                            </button>);
                                     })}
                                 </div>)}
-                            {!people || people.length === 0 && (
+                            {!events || events.length === 0 && (
                                 <div role="alert" className="alert alert-info alert-outline">
                                     <FontAwesomeIcon icon="far faLightbulb" />
                                     <span className="text-base-content">
-                                        No people match your search criteria.
+                                        No events match your search criteria.
                                     </span>
                                 </div>)}
                         </div>

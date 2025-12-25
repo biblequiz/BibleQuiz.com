@@ -22,7 +22,6 @@ enum DialogState {
 export default function EventPermissionsPage({ }: Props) {
     const {
         auth,
-        info,
         eventId
     } = useOutletContext<EventProviderContext>();
 

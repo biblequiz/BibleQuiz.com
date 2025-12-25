@@ -12,11 +12,13 @@ export interface EventProviderContext {
     eventId: string;
     info: EventInfo | null;
     rootUrl: string;
+    clonePermissionsFromEventId?: string;
 
     setEventTitle: (title: string) => void;
     setEventType: (typeId: string) => void;
     setEventIsHidden: (isHidden: boolean) => void;
     setLatestEvent: (event: EventInfo | null) => void;
+    setClonePermissionsFromEventId: (eventId: string | undefined) => void;
 }
 
 export const NEW_ID_PLACEHOLDER = "new";
@@ -34,6 +36,7 @@ export default function EventProvider({ }: Props) {
     const [eventTitle, setEventTitle] = useState<string>("Untitled Event");
     const [eventTypeId, setEventTypeId] = useState<string>("agjbq");
     const [eventIsHidden, setEventIsHidden] = useState<boolean>(false);
+    const [clonePermissionsFromEventId, setClonePermissionsFromEventId] = useState<string | undefined>(undefined);
 
     useEffect(() => {
         if (eventId && eventId != NEW_ID_PLACEHOLDER) {
@@ -47,10 +50,12 @@ export default function EventProvider({ }: Props) {
                     setLoadingError(null);
                     setEventTitle(info.Name);
                     setEventTypeId(info.TypeId);
+                    setClonePermissionsFromEventId(undefined);
                     setEventIsHidden(info.IsHidden && info.IsHiddenFromLiveEvents);
                 })
                 .catch(error => {
                     setIsLoading(false);
+                    setClonePermissionsFromEventId(undefined);
                     if (error.statusCode === 404) {
                         setLoadingError("Cannot find the specified event.");
                     }
@@ -114,6 +119,7 @@ export default function EventProvider({ }: Props) {
             <Outlet context={{
                 auth: auth,
                 eventId: eventId,
+                clonePermissionsFromEventId: clonePermissionsFromEventId,
                 info: currentEvent,
                 rootUrl: eventId ? `/${eventId}` : `/${NEW_ID_PLACEHOLDER}`,
                 setEventTitle: newTitle => setEventTitle(
@@ -122,7 +128,8 @@ export default function EventProvider({ }: Props) {
                         : "Untitled Event"),
                 setEventType: setEventTypeId,
                 setEventIsHidden: setEventIsHidden,
-                setLatestEvent: setCurrentEvent
+                setLatestEvent: setCurrentEvent,
+                setClonePermissionsFromEventId: setClonePermissionsFromEventId
             } as EventProviderContext} />
         </>);
 }

@@ -78,6 +78,7 @@ export default function RegistrationProvider({ }: Props) {
     const {
         auth,
         info,
+        clonePermissionsFromEventId,
         setEventTitle,
         setEventType,
         setEventIsHidden,
@@ -336,7 +337,7 @@ export default function RegistrationProvider({ }: Props) {
 
             const promise = updatedInfo.Id
                 ? EventsService.update(auth, updatedInfo)
-                : EventsService.create(auth, updatedInfo);
+                : EventsService.create(auth, updatedInfo, clonePermissionsFromEventId);
 
             return promise
                 .then(updated => {
