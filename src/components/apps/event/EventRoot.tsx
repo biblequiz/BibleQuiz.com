@@ -5,7 +5,7 @@ import { BlockerCallbackResult, sharedDirtyWindowState, sharedRequireBlockerCall
 import ConfirmationDialog from '../../ConfirmationDialog';
 import ProtectedRoute from '../../auth/ProtectedRoute';
 import { reactSidebarEntries, type ReactSidebarEntry, type ReactSidebarGroup, type ReactSidebarLink } from 'components/sidebar/ReactSidebar';
-import PermissionsPage from './PermissionsPage';
+import EventPermissionsPage from './EventPermissionsPage';
 import ReportsPage from './ReportsPage';
 import ErrorPage from '../ErrorPage';
 import NotFoundError from 'components/NotFoundError';
@@ -294,7 +294,7 @@ function buildSidebar(
         const cloneEntry: ReactSidebarLink =
         {
             type: 'link' as const,
-            label: "Clone",
+            label: "Clone & Copy",
             navigate: () => navigate(`${rootEventPath}/clone`),
             isCurrent: false,
             icon: "fas faClone"
@@ -570,7 +570,7 @@ const router = createHashRouter([
                             {
                                 path: "/:eventId/permissions",
                                 id: PERMISSIONS_ID,
-                                element: <PermissionsPage />
+                                element: <EventPermissionsPage />
                             },
                             {
                                 path: "/:eventId/delete",

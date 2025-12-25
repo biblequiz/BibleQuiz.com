@@ -388,7 +388,7 @@ export default function EventListFilters({ regions, districts, allowTypeFilter, 
               </button>
             </div>)}
         </div>
-      </fieldset >
+      </fieldset>
       {showDefaultDialog && (
         <EventListFiltersDefaultDialog
           regions={regions}
