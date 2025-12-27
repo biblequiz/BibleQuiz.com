@@ -2,7 +2,6 @@ import { useNavigate, useOutletContext } from "react-router-dom";
 import type { EventProviderContext } from "./EventProvider";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
-import type { EventPaymentFeeType } from "types/services/EventsService";
 
 interface Props {
 }
