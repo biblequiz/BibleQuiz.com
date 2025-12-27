@@ -1,10 +1,13 @@
+import { useStore } from "@nanostores/react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { reactSidebarEntries } from "components/sidebar/ReactSidebar";
 import { useEffect, useState } from "react";
 import { Outlet, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { AstroEventsService } from "types/services/AstroEventsService";
 import type { DatabaseSettings } from "types/services/DatabasesService";
 import { EventInfo } from "types/services/EventsService";
+import { currentDatabaseSettings } from "./EventRoot";
 
 interface Props {
 }
@@ -152,6 +155,8 @@ export default function EventProvider({ }: Props) {
         ? null
         : (urlParameters.eventId || null);
 
+    const reactSidebar = useStore(reactSidebarEntries);
+
     const [isLoading, setIsLoading] = useState(eventId !== null);
     const [loadingError, setLoadingError] = useState<string | null>(null);
     const [currentEventResultsUrl, setCurrentEventResultsUrl] = useState<string | null>(null);
@@ -193,6 +198,8 @@ export default function EventProvider({ }: Props) {
                     else {
                         setPayments(null);
                     }
+
+                    currentDatabaseSettings.set(summary.Databases);
 
                     setIsLoading(false);
                     setLoadingError(null);
