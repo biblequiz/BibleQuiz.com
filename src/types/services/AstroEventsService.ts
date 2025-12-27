@@ -1,7 +1,8 @@
 ﻿import type { AuthManager } from "../AuthManager";
 import type { DatabaseSettings } from "./DatabasesService";
 import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility'
-import type { EventInfo } from "types/EventTypes";
+import type { EventInfo as ServiceEventInfo } from "./EventsService";
+import type { EventInfo as TypeEventInfo } from "types/EventTypes";
 
 const URL_ROOT_PATH = "/api/v1.0/events";
 
@@ -57,7 +58,7 @@ export class EventInfoWithUrl {
   /**
    * Event information.
    */
-  public readonly Event!: EventInfo;
+  public readonly Event!: TypeEventInfo;
 
   /**
    * URL for the event.
@@ -71,9 +72,14 @@ export class EventInfoWithUrl {
 export class EventInfoWithSummary {
 
   /**
+   * Full URL for the event.
+   */
+  public readonly FullUrl!: string;
+
+  /**
    * Event information.
    */
-  public readonly Event!: EventInfo;
+  public readonly Event!: ServiceEventInfo;
 
   /**
    * List of databases associated with the event.

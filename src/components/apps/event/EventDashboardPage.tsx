@@ -1,16 +1,32 @@
-import { AuthManager } from "types/AuthManager";
+import { useOutletContext } from "react-router-dom";
+import type { EventProviderContext } from "./EventProvider";
 
 interface Props {
 }
 
 export default function EventDashboardPage({ }: Props) {
-    const auth = AuthManager.useNanoStore();
+    const {
+        auth,
+        eventId,
+        eventResultsUrl,
+        registrations,
+        payments
+    } = useOutletContext<EventProviderContext>();
 
     return (
         <>
             <div>
                 <b>Event Dashboard</b>
             </div>
+            <p>
+                Results URL: {eventResultsUrl}
+            </p>
+            <p>
+                Registrations: {JSON.stringify(registrations)}
+            </p>
+            <p>
+                Payments: {JSON.stringify(payments)}
+            </p>
             <p>
                 This is a landing page for the event. It will include:
             </p>
