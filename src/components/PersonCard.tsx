@@ -14,7 +14,7 @@ export default function PersonCard({
     return (
         <button
             type="button"
-            className="card live-events-card w-full lg:w-57 card-sm shadow-sm border-2 border-solid mt-0 relative cursor-pointer"
+            className={`card live-events-card w-full lg:w-57 card-sm shadow-sm border-2 border-solid mt-0 relative cursor-pointer ${isDisabled ? "bg-base-500 cursor-not-allowed opacity-50" : ""}`}
             onClick={() => onSelect(person)}
             disabled={isDisabled}
         >

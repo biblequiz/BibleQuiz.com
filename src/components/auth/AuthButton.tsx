@@ -67,12 +67,14 @@ export default function AuthButton({ type }: Props) {
                     tabIndex={0}
                     className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
                 >
-                    <li className="text-base-content">
-                        <a onClick={() => {
-                            if (authManager.popupType == PopupType.None) {
-                                authManager.logout();
-                            }
-                        }}>
+                    <li>
+                        <a
+                            className="text-base-content"
+                            onClick={() => {
+                                if (authManager.popupType == PopupType.None) {
+                                    authManager.logout();
+                                }
+                            }}>
                             <FontAwesomeIcon icon="fas faArrowRightFromBracket" />
                             Sign Out
                         </a>

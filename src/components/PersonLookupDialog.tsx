@@ -244,7 +244,8 @@ export default function PersonLookupDialog({
                                                 onSelect={p => {
                                                     setIsAssigning(true);
                                                     onSelect(p);
-                                                }} />);
+                                                }}
+                                                isDisabled={excludeIds && excludeIds.has(person.Id!)} />);
                                     })}
                                 </div>)}
                             {!people || people.length === 0 && (
