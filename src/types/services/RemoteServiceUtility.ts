@@ -136,6 +136,7 @@ export class RemoteServiceUtility {
      * @param path Path to the endpoint on the service.
      * @param urlParameters URL parameters to be included in the request.
      * @param data Data (if any) to submit.
+     * @param isMultipartForm Value indicating whether this is a multipart form submission.
      */
     public static executeHttpRequest<T>(
         auth: AuthManager | null,
@@ -143,7 +144,8 @@ export class RemoteServiceUtility {
         service: RemoteServiceUrlBase,
         path: string,
         urlParameters?: URLSearchParams | null,
-        data?: any): Promise<T> {
+        data?: any,
+        isMultipartForm: boolean = false): Promise<T> {
 
         return new Promise<T>(async (resolve, reject) => {
             this.executeHttpRequestCore(
@@ -152,7 +154,8 @@ export class RemoteServiceUtility {
                 service,
                 path,
                 urlParameters,
-                data)
+                data,
+                isMultipartForm)
                 .then(async response => {
                     // This is a successful response, but it may not have a body (depending on the method).
                     if (response.body) {
@@ -180,6 +183,7 @@ export class RemoteServiceUtility {
      * @param path Path to the endpoint on the service.
      * @param urlParameters URL parameters to be included in the request.
      * @param data Data (if any) to submit.
+     * @param isMultipartForm Value indicating whether this is a multipart form submission.
      */
     public static executeHttpRequestWithoutResponse(
         auth: AuthManager | null,
@@ -187,7 +191,8 @@ export class RemoteServiceUtility {
         service: RemoteServiceUrlBase,
         path: string,
         urlParameters?: URLSearchParams | null,
-        data?: any): Promise<void> {
+        data?: any,
+        isMultipartForm: boolean = false): Promise<void> {
 
         return new Promise<void>(async (resolve, reject) => {
             this.executeHttpRequestCore(
@@ -196,7 +201,8 @@ export class RemoteServiceUtility {
                 service,
                 path,
                 urlParameters,
-                data)
+                data,
+                isMultipartForm)
                 .then(() => resolve())
                 .catch(error => reject(error));
         });
@@ -323,7 +329,8 @@ export class RemoteServiceUtility {
         service: RemoteServiceUrlBase,
         path: string,
         urlParameters?: URLSearchParams | null,
-        data?: any): Promise<Response> {
+        data?: any,
+        isMultipartForm?: boolean): Promise<Response> {
 
         const url = this.buildUrl(service, path, urlParameters);
 
@@ -353,8 +360,13 @@ export class RemoteServiceUtility {
             }
 
             if (data) {
-                (fetchOptions.headers as Record<string, string>)["Content-Type"] = "application/json";
-                fetchOptions.body = JSON.stringify(data);
+                if (isMultipartForm) {
+                    fetchOptions.body = data;
+                }
+                else {
+                    (fetchOptions.headers as Record<string, string>)["Content-Type"] = "application/json";
+                    fetchOptions.body = JSON.stringify(data);
+                }
             }
 
             fetch(url, fetchOptions)

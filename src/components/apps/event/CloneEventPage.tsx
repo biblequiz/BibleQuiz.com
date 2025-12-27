@@ -7,7 +7,6 @@ import { EventsService, type EventInfo } from "types/services/EventsService";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import EventLookupDialog from "./EventLookupDialog";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
-import { set } from "date-fns";
 
 interface Props {
 }
@@ -115,7 +114,7 @@ export default function CloneEventPage({ }: Props) {
                                     </span>
                                 </label>
                                 <ul className="mt-0 mb-2">
-                                    {permissions.map((permission, index) => (
+                                    {permissions.map(permission => (
                                         <li key={`permission_${permission.Id}`}>
                                             {permission.Requestor.FirstName} {permission.Requestor.LastName}
                                         </li>))}

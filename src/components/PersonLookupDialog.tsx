@@ -110,16 +110,9 @@ export default function PersonLookupDialog({
     eventId,
     excludeIds,
     excludeWithScope = false,
-    allowParentChange = false,
-    newParentRegionId,
-    newParentDistrictId,
-    newEntityLabel,
-    currentParent,
     parentType = PersonParentType.Organization,
     parentId,
     excludePeopleWithoutEmail = false,
-    requiredFields = RequiredPersonFields.None,
-    hideOptionalFieldsOnPersonPage = false,
     includeOnlyUsers = false,
     includeAllUsers = false }: Props) {
 

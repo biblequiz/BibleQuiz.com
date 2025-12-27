@@ -252,6 +252,7 @@ export default function EventLookupDialog({
                         disabled={isLoading || isAssigning}
                         tabIndex={2}
                         onClick={() => {
+                            setIsAssigning(true);
                             onSelect(null);
                             dialogRef.current?.close();
                         }}>
