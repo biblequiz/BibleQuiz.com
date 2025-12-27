@@ -91,7 +91,7 @@ export default defineConfig({
                     },
                     items: [
                         {
-                            label: "All Events",
+                            label: "All Events & Reports",
                             link: "manage-events/",
                             attrs: { icon: "fas faList" }
                         },

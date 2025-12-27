@@ -169,7 +169,7 @@ export default function AllOwnedEventsRoot({
                                     isLive={true}
                                     showLiveBadge={false}
                                     showHiddenBadge={!event.isVisible}
-                                    urlFormatter={e => `/manage-events/event/#/${e.id}/dashboard`}
+                                    urlFormatter={e => e.isReport ? `/manage-events/report/#/${e.id}` : `/manage-events/event/#/${e.id}/dashboard`}
                                 />
                             );
                         })}

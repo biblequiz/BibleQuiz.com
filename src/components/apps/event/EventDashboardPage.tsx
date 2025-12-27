@@ -1,8 +1,21 @@
 import { useNavigate, useOutletContext } from "react-router-dom";
 import type { EventProviderContext } from "./EventProvider";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import type { EventPaymentFeeType } from "types/services/EventsService";
 
 interface Props {
+}
+
+const getIconCountCard = (tip: string, icon: string, count: number) => {
+    return (
+        <div
+            className="card live-events-card w-16 card-sm shadow-sm border-2 border-solid mt-0 relative tooltip" data-tip={tip}>
+            <div className="card-body p-1 m-1 text-center text-lg">
+                <span className="font-bold">{count}</span>
+                <FontAwesomeIcon icon={icon} classNames={["fa-sw", "text-2xl"]} />
+            </div>
+        </div>);
 }
 
 export default function EventDashboardPage({ }: Props) {
@@ -11,7 +24,8 @@ export default function EventDashboardPage({ }: Props) {
         databases,
         rootUrl,
         eventResultsUrl,
-        registrations    } = useOutletContext<EventProviderContext>();
+        registrations,
+        payments } = useOutletContext<EventProviderContext>();
 
     const navigate = useNavigate();
 
@@ -24,7 +38,7 @@ export default function EventDashboardPage({ }: Props) {
                 <div className="card-body p-2 pl-4">
                     <div className="flex items-start gap-4">
                         <div className="flex-1 mt-2 pr-6 text-left">
-                            <h2 className="card-title mb-0 mt-1">
+                            <h2 className="card-title mb-0 mt-0">
                                 <FontAwesomeIcon icon="fas faUserPen" /> Registrations
                             </h2>
                             <p className="text-base mt-1">
@@ -45,7 +59,7 @@ export default function EventDashboardPage({ }: Props) {
                 <div className="card-body p-2 pl-4">
                     <div className="flex items-start gap-4">
                         <div className="flex-1 mt-2 pr-6 text-left">
-                            <h2 className="card-title mb-0 mt-1">
+                            <h2 className="card-title mb-0 mt-0">
                                 <FontAwesomeIcon icon="fas faChartLine" /> Live Scores
                             </h2>
                             <p className="text-base mt-1">
@@ -66,7 +80,7 @@ export default function EventDashboardPage({ }: Props) {
                 <div className="card-body p-2 pl-4">
                     <div className="flex items-start gap-4">
                         <div className="flex-1 mt-2 pr-6 text-left">
-                            <h2 className="card-title mb-0 mt-1">
+                            <h2 className="card-title mb-0 mt-0">
                                 <FontAwesomeIcon icon="fas faFileImport" /> Reports
                             </h2>
                             <p className="text-base mt-1">
@@ -74,22 +88,12 @@ export default function EventDashboardPage({ }: Props) {
                                 reports (e.g., ScoreKeep).
                             </p>
                             <div className="flex flex-wrap gap-2">
-                                {Object.keys(registrations).map(key => {
-                                    if (key === "Attendees" && !info?.AllowAttendees) {
-                                        return null;
-                                    }
-
-                                    const count: number = (registrations as any)[key];
-                                    return (
-                                        <div
-                                            key={`registrations_${key}`}
-                                            className="card live-events-card w-24 card-sm shadow-sm border-2 border-solid mt-0 relative">
-                                            <div className="card-body p-1 m-1 text-center">
-                                                <span className="text-md font-bold">{count}</span>
-                                                <i className="subtitle">{key}</i>
-                                            </div>
-                                        </div>);
-                                })}
+                                {getIconCountCard("Churches", "fas faChurch", registrations.Churches)}
+                                {getIconCountCard("Teams", "fas faPeopleGroup", registrations.Teams)}
+                                {getIconCountCard("Quizzers", "fas faPersonRunning", registrations.Quizzers)}
+                                {getIconCountCard("Coaches", "fas faUserTie", registrations.Coaches)}
+                                {getIconCountCard("Officials", "fas faGavel", registrations.Officials)}
+                                {info!.AllowAttendees && getIconCountCard("Attendees", "fas faPerson", registrations.Attendees)}
                             </div>
                         </div>
                         <FontAwesomeIcon
@@ -99,6 +103,52 @@ export default function EventDashboardPage({ }: Props) {
                     </div>
                 </div>
             </button>
+            {payments && (
+                <button
+                    className="card live-events-card w-full md:w-128 card-sm shadow-sm border-2 border-solid mt-0 relative cursor-pointer"
+                    onClick={() => navigate(`${rootUrl}/reports`)}
+                >
+                    <div className="card-body p-2 pl-4">
+                        <div className="flex items-start gap-4">
+                            <div className="flex-1 mt-2 pr-6 text-left">
+                                <h2 className="card-title mb-0 mt-0">
+                                    <FontAwesomeIcon icon="fas faSackDollar" /> Money
+                                </h2>
+                                <p className="text-base mt-1">
+                                    View the state of payments for this event.
+                                </p>
+                                <div
+                                    className="card live-events-card w-full card-sm shadow-sm border-2 border-solid mt-2 relative">
+                                    <div className="card-body p-0 m-1 text-center space-y-0 gap-0">
+                                        <p className="text-lg font-bold m-0">
+                                            ${DataTypeHelpers.formatNumber(payments.AmountPaid, 2)}{payments.AmountPending > 0 ? "*" : ""} of
+                                            ${DataTypeHelpers.formatNumber(payments.AmountDue, 2)}
+                                        </p>
+                                        {payments.AmountPending > 0 && (
+                                            <p className="text-sm italic m-0">
+                                                * Additional ${DataTypeHelpers.formatNumber(payments.AmountPending, 2)} credit card payments are pending.
+                                            </p>)}
+                                        <p className="text-md italic m-0">Registration Payments</p>
+                                    </div>
+                                </div>
+                                {info!.TrackPayments && info!.AutomatedFeeType !== null && (
+                                    <div
+                                        className="card live-events-card w-full card-sm shadow-sm border-2 border-solid mt-2 relative">
+                                        <div className="card-body p-0 m-1 text-center space-y-0 gap-0">
+                                            <p className="text-lg font-bold m-0">
+                                                ${DataTypeHelpers.formatNumber(payments.PayoutDue - payments.PayoutPaid, 2)}
+                                            </p>
+                                            <p className="text-md italic m-0">Money Ready to Pay Out</p>
+                                        </div>
+                                    </div>)}
+                            </div>
+                            <FontAwesomeIcon
+                                icon="fas faArrowRight"
+                                classNames={["icon text-lg rtl:flip absolute top-4 right-4"]}
+                            />
+                        </div>
+                    </div>
+                </button>)}
             {databases.map(d => (
                 <button
                     key={`database_${d.DatabaseId}`}
@@ -108,38 +158,18 @@ export default function EventDashboardPage({ }: Props) {
                     <div className="card-body p-2 pl-4">
                         <div className="flex items-start gap-4">
                             <div className="flex-1 mt-2 pr-6 text-left">
-                                <h2 className="card-title mb-0 mt-1">
-                                    <FontAwesomeIcon icon="fas faDatabase" /> {d.DatabaseName.replaceAll('_', ' ')}
+                                <h2 className="card-title mb-0 mt-0">
+                                    <FontAwesomeIcon icon="fas faDatabase" /> Database: {d.DatabaseName.replaceAll('_', ' ')}
                                 </h2>
+                                <p className="text-base mt-1">
+                                    Manage the settings for this database.
+                                </p>
                                 <div className="flex flex-wrap gap-2">
-                                    <div
-                                        className="card live-events-card w-24 card-sm shadow-sm border-2 border-solid mt-0 relative">
-                                        <div className="card-body p-1 m-1 text-center">
-                                            <span className="text-md font-bold">{d.ActiveMeetCount}</span>
-                                            <i className="subtitle">Active Divisions</i>
-                                        </div>
-                                    </div>
-                                    <div
-                                        className="card live-events-card w-24 card-sm shadow-sm border-2 border-solid mt-0 relative">
-                                        <div className="card-body p-1 m-1 text-center">
-                                            <span className="text-md font-bold">{d.InactiveMeetCount}</span>
-                                            <i className="subtitle">Inactive Divisions</i>
-                                        </div>
-                                    </div>
-                                    <div
-                                        className="card live-events-card w-24 card-sm shadow-sm border-2 border-solid mt-0 relative">
-                                        <div className="card-body p-1 m-1 text-center">
-                                            <span className="text-md font-bold">{d.TeamCount}</span>
-                                            <i className="subtitle">Teams</i>
-                                        </div>
-                                    </div>
-                                    <div
-                                        className="card live-events-card w-24 card-sm shadow-sm border-2 border-solid mt-0 relative">
-                                        <div className="card-body p-1 m-1 text-center">
-                                            <span className="text-md font-bold">{d.QuizzerCount}</span>
-                                            <i className="subtitle">Quizzers</i>
-                                        </div>
-                                    </div>
+                                    {getIconCountCard("Active Divisions", "fas faLayerGroup", d.ActiveMeetCount)}
+                                    {getIconCountCard("Inactive Divisions", "fas faSquare", d.ActiveMeetCount)}
+                                    {getIconCountCard("Inactive Divisions", "fas faSquare", d.InactiveMeetCount)}
+                                    {getIconCountCard("Teams", "fas faPeopleGroup", d.TeamCount)}
+                                    {getIconCountCard("Quizzers", "fas faPersonRunning", d.QuizzerCount)}
                                 </div>
                             </div>
                             <FontAwesomeIcon
@@ -156,7 +186,7 @@ export default function EventDashboardPage({ }: Props) {
                 <div className="card-body p-2 pl-4">
                     <div className="flex items-start gap-4">
                         <div className="flex-1 mt-2 pr-6 text-left">
-                            <h2 className="card-title mb-0 mt-1">
+                            <h2 className="card-title mb-0 mt-0">
                                 <FontAwesomeIcon icon="fas faPlus" /> Add Database
                             </h2>
                             <p className="text-base mt-1">
