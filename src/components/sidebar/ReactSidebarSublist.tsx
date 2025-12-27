@@ -25,6 +25,11 @@ export default function ReactSidebarSublist({
     return (
         <ul className={nested ? "" : "top-level"}>
             {entries.map((entry, index) => {
+                const iconClassNames = ["fa-fw"];
+                if (entry.iconClass) {
+                    iconClassNames.push(...entry.iconClass);
+                }
+
                 return (
                     <li key={`${keyPrefix}${index}`}>
                         {entry.type === "link" && (
@@ -56,7 +61,7 @@ export default function ReactSidebarSublist({
                                     {...entry.attrs}
                                 >
                                     {entry.icon && (
-                                        <FontAwesomeIcon icon={entry.icon} classNames={["fa-fw"]} />
+                                        <FontAwesomeIcon icon={entry.icon} classNames={iconClassNames} />
                                     )}
                                     <span>{entry.label}</span>
                                 </a>
@@ -75,7 +80,7 @@ export default function ReactSidebarSublist({
                                     <summary>
                                         <div className="group-label">
                                             {entry.icon && (
-                                                <FontAwesomeIcon icon={entry.icon} classNames={["fa-fw"]} />
+                                                <FontAwesomeIcon icon={entry.icon} classNames={iconClassNames} />
                                             )}
                                             <span className="large">{entry.label}</span>
                                         </div>

@@ -35,6 +35,8 @@ import EventDashboardPage from './EventDashboardPage';
 import DeleteEventPage from './DeleteEventPage';
 import EmailEventPage from './EmailEventPage';
 import CloneEventPage from './CloneEventPage';
+import type { DatabaseSettings } from 'types/services/DatabasesService';
+import { createMultiReactAtom } from 'utils/MultiReactNanoStore';
 
 interface Props {
     loadingElementId: string;
@@ -43,15 +45,21 @@ interface Props {
 const DASHBOARD_ID = "dashboard";
 const SCORES_GROUP_ID = "scores";
 const DATABASE_GROUP_ID_PREFIX = "db-";
+const DATABASE_LOADING_ID = DATABASE_GROUP_ID_PREFIX + "loading";
 const PERMISSIONS_ID = "permissions";
 const REPORTS_ID = "reports";
 const CLONE_ID = "clone";
 const EMAIL_ID = "email";
 const DELETE_ID = "delete";
 
+export const currentDatabaseSettings = createMultiReactAtom<DatabaseSettings[] | undefined>(
+    "databaseSettings",
+    undefined);
+
 function RootLayout({ loadingElementId }: Props) {
 
     const auth = AuthManager.useNanoStore();
+    const databases = useStore(currentDatabaseSettings);
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);
@@ -102,9 +110,10 @@ function RootLayout({ loadingElementId }: Props) {
             entries: buildSidebar(
                 routeMatches,
                 routeParameters,
+                databases,
                 navigate)
         });
-    }, [location.pathname, auth, blocker]);
+    }, [location.pathname, auth, blocker, databases]);
 
     return (
         <>
@@ -129,6 +138,7 @@ function RootLayout({ loadingElementId }: Props) {
 function buildSidebar(
     routeMatches: UIMatch<unknown, unknown>[],
     routeParameters: Readonly<Params<string>>,
+    databases: DatabaseSettings[] | undefined,
     navigate: NavigateFunction): ReactSidebarEntry[] {
 
     if (routeParameters["*"]) {
@@ -227,6 +237,32 @@ function buildSidebar(
         };
         sidebarEntries.unshift(dashboardEntry);
 
+        let databaseEntries: ReactSidebarEntry[];
+        if (databases) {
+            databaseEntries = databases.map(
+                db => buildDatabaseEntry(rootEventPath, db.DatabaseId, db.DatabaseName.replaceAll('_', ' '), navigate));
+
+            databaseEntries.push({
+                type: 'link' as const,
+                id: DATABASE_GROUP_ID_PREFIX + "new",
+                label: "Add Database",
+                navigate: () => navigate(`${rootEventPath}/scoring/addDatabase`),
+                isCurrent: false,
+                icon: "fas faPlus"
+            } as ReactSidebarEntry);
+        }
+        else {
+            databaseEntries = [{
+                type: 'link' as const,
+                id: DATABASE_LOADING_ID,
+                label: "Loading Databases ...",
+                navigate: () => { },
+                isCurrent: false,
+                icon: "fas faSpinner",
+                iconClass: ["fa-spin"]
+            } as ReactSidebarEntry];
+        }
+
         sidebarEntries.push(
             {
                 type: 'group' as const,
@@ -245,18 +281,7 @@ function buildSidebar(
                         type: 'group' as const,
                         label: "Databases",
                         collapsed: true,
-                        entries: [
-                            buildDatabaseEntry(rootEventPath, "db1", "Database 1", navigate),
-                            buildDatabaseEntry(rootEventPath, "db2", "Database 2", navigate),
-                            {
-                                type: 'link' as const,
-                                id: DATABASE_GROUP_ID_PREFIX + "new",
-                                label: "Add Database",
-                                navigate: () => navigate(`${rootEventPath}/scoring/addDatabase`),
-                                isCurrent: false,
-                                icon: "fas faPlus"
-                            },
-                        ]
+                        entries: databaseEntries
                     }
                 ]
             } as ReactSidebarGroup);
@@ -304,7 +329,7 @@ function buildSidebar(
         const deleteEntry: ReactSidebarLink =
         {
             type: 'link' as const,
-            label: "Delete",
+            label: "Delete Event",
             navigate: () => navigate(`${rootEventPath}/delete`),
             isCurrent: false,
             icon: "fas faTrash"
@@ -355,17 +380,19 @@ function buildSidebar(
             if (currentPageGroup.id === SCORES_GROUP_ID && segment > 0) {
                 currentPage = currentPage.entries[1]; // Databases section.
 
+                let entryIndex = 0;
                 const findId = DATABASE_GROUP_ID_PREFIX + (routeParameters.databaseId ?? "new");
                 for (const child of currentPage.entries) {
                     if (child.id === findId) {
-                        // currentPage = child;
-                        segmentOffset--;
                         isDatabaseGroup = true;
                         break;
                     }
-                    else {
-                        segmentOffset++;
-                    }
+
+                    entryIndex++;
+                }
+
+                if (entryIndex < currentPage.entries.length) {
+                    segmentOffset = entryIndex - segment;
                 }
             }
 

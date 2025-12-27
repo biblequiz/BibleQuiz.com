@@ -1,6 +1,4 @@
-import { useStore } from "@nanostores/react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { reactSidebarEntries } from "components/sidebar/ReactSidebar";
 import { useEffect, useState } from "react";
 import { Outlet, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
@@ -154,8 +152,6 @@ export default function EventProvider({ }: Props) {
     const eventId = urlParameters.eventId === NEW_ID_PLACEHOLDER
         ? null
         : (urlParameters.eventId || null);
-
-    const reactSidebar = useStore(reactSidebarEntries);
 
     const [isLoading, setIsLoading] = useState(eventId !== null);
     const [loadingError, setLoadingError] = useState<string | null>(null);
