@@ -374,7 +374,6 @@ function buildSidebar(
         }
 
         currentPage = { entries: sidebarEntries };
-        let isDatabaseGroup = false;
         for (const segment of segmentIndexes) {
             const currentPageGroup = currentPage as ReactSidebarGroup;
 
