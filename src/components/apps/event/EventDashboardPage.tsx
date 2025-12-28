@@ -120,26 +120,37 @@ export default function EventDashboardPage({ }: Props) {
                                     className="card live-events-card w-full card-sm shadow-sm border-2 border-solid mt-2 relative">
                                     <div className="card-body p-0 m-1 text-center space-y-0 gap-0">
                                         <p className="text-lg font-bold m-0">
-                                            ${DataTypeHelpers.formatNumber(payments.AmountPaid, 2)}{payments.AmountPending > 0 ? "*" : ""} of
                                             ${DataTypeHelpers.formatNumber(payments.AmountDue, 2)}
                                         </p>
-                                        {payments.AmountPending > 0 && (
-                                            <p className="text-sm italic m-0">
-                                                * Additional ${DataTypeHelpers.formatNumber(payments.AmountPending, 2)} credit card payments are pending.
-                                            </p>)}
-                                        <p className="text-md italic m-0">Registration Payments</p>
+                                        <p className="text-md italic m-0">Total Registration Fees</p>
                                     </div>
                                 </div>
-                                {info!.TrackPayments && info!.AutomatedFeeType !== null && (
-                                    <div
-                                        className="card live-events-card w-full card-sm shadow-sm border-2 border-solid mt-2 relative">
-                                        <div className="card-body p-0 m-1 text-center space-y-0 gap-0">
-                                            <p className="text-lg font-bold m-0">
-                                                ${DataTypeHelpers.formatNumber(payments.PayoutDue - payments.PayoutPaid, 2)}
-                                            </p>
-                                            <p className="text-md italic m-0">Money Ready to Pay Out</p>
+                                {info!.TrackPayments && (
+                                    <>
+                                        <div
+                                            className="card live-events-card w-full card-sm shadow-sm border-2 border-solid mt-2 relative">
+                                            <div className="card-body p-0 m-1 text-center space-y-0 gap-0">
+                                                <p className="text-lg font-bold m-0">
+                                                    ${DataTypeHelpers.formatNumber(Math.max(payments.AmountDue - payments.AmountPaid, 0), 2)}{payments.AmountPending > 0 ? "*" : ""}
+                                                </p>
+                                                {payments.AmountPending > 0 && (
+                                                    <p className="text-sm italic m-0">
+                                                        * Additional ${DataTypeHelpers.formatNumber(payments.AmountPending, 2)} credit card payments are pending.
+                                                    </p>)}
+                                                <p className="text-md italic m-0">Unpaid Registration Fees</p>
+                                            </div>
                                         </div>
-                                    </div>)}
+                                        {info!.AutomatedFeeType !== null && (
+                                            <div
+                                                className="card live-events-card w-full card-sm shadow-sm border-2 border-solid mt-2 relative">
+                                                <div className="card-body p-0 m-1 text-center space-y-0 gap-0">
+                                                    <p className="text-lg font-bold m-0">
+                                                        ${DataTypeHelpers.formatNumber(Math.max(payments.PayoutDue - payments.PayoutPaid, 0), 2)}
+                                                    </p>
+                                                    <p className="text-md italic m-0">Ready to Pay Out</p>
+                                                </div>
+                                            </div>)}
+                                    </>)}
                             </div>
                             <FontAwesomeIcon
                                 icon="fas faArrowRight"
@@ -164,9 +175,7 @@ export default function EventDashboardPage({ }: Props) {
                                     Manage the settings for this database.
                                 </p>
                                 <div className="flex flex-wrap gap-2">
-                                    {getIconCountCard("Active Divisions", "fas faLayerGroup", d.ActiveMeetCount)}
-                                    {getIconCountCard("Inactive Divisions", "fas faSquare", d.ActiveMeetCount)}
-                                    {getIconCountCard("Inactive Divisions", "fas faSquare", d.InactiveMeetCount)}
+                                    {getIconCountCard("Divisions", "fas faLayerGroup", d.ActiveMeetCount + d.InactiveMeetCount)}
                                     {getIconCountCard("Teams", "fas faPeopleGroup", d.TeamCount)}
                                     {getIconCountCard("Quizzers", "fas faPersonRunning", d.QuizzerCount)}
                                 </div>
