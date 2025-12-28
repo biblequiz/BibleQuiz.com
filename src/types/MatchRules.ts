@@ -4,79 +4,100 @@
 export class MatchRules {
 
     /**
+     * Initializes a new instance of the MatchRules class.
+     */
+    constructor() {
+        this.CompetitionName = "";
+        this.CompetitionFullName = undefined;
+        this.Type = undefined;
+        this.IncorrectPointMultiplier = 0;
+        this.QuizzersPerTeam = 0;
+        this.QuizOutForward = new QuizOutRule();
+        this.QuizOutBackward = new QuizOutRule();
+        this.PointValueRules = undefined;
+        this.PointValueCounts = {};
+        this.FoulPoints = 0;
+        this.MaxTimeouts = 0;
+        this.ContestRules = new ContestRules();
+        this.TimingRules = undefined;
+        this.IsIndividualCompetition = false;
+        this.RequiredScoreReading = undefined;
+    }
+
+    /**
      * Abbreviation for the type of competition.
      */
-    public readonly CompetitionName!: string;
+    public CompetitionName: string;
 
     /**
      * Full name for the type of competition.
      */
-    public readonly CompetitionFullName!: string;
+    public CompetitionFullName?: string;
 
     /**
      * The type of competition.
      */
-    public readonly Type!: CompetitionType | null;
+    public Type?: CompetitionType;
 
     /**
-     * Multiplier for points when a question is incorrect.
+     * Mulitplier for points when a question is incorrect.
      */
-    public readonly IncorrectPointMultiplier!: number;
+    public IncorrectPointMultiplier: number;
 
     /**
      * Number of quizzers allowed for individual team tables.
      */
-    public readonly QuizzersPerTeam!: number;
+    public QuizzersPerTeam: number;
 
     /**
      * Rule for quizzing out forward.
      */
-    public readonly QuizOutForward!: QuizOutRule;
+    public QuizOutForward: QuizOutRule;
 
     /**
      * Rule for quizzing out backward.
      */
-    public readonly QuizOutBackward!: QuizOutRule;
+    public QuizOutBackward: QuizOutRule;
 
     /**
      * Rules for each question point value.
      */
-    public readonly PointValueRules!: Record<number, QuestionPointValueRules>;
+    public PointValueRules?: Record<number, QuestionPointValueRules>;
 
     /**
      * Count of the number of questions for each point value.
      */
-    public readonly PointValueCounts!: Record<number, number>;
+    public PointValueCounts: Record<number, number>;
 
     /**
      * Number of points assigned when a foul is assessed.
      */
-    public readonly FoulPoints!: number;
+    public FoulPoints: number;
 
     /**
      * Number of regular timeouts as part of the match.
      */
-    public readonly MaxTimeouts!: number;
+    public MaxTimeouts: number;
 
     /**
      * Rules about contesting.
      */
-    public readonly ContestRules!: ContestRules;
+    public ContestRules: ContestRules;
 
     /**
      * Rules for timing.
      */
-    public readonly TimingRules!: TimingRules;
+    public TimingRules?: TimingRules;
 
     /**
      * Value indicating whether the competition is an individual tournament (i.e., team scores don't matter).
      */
-    public readonly IsIndividualCompetition!: boolean;
+    public IsIndividualCompetition: boolean;
 
     /**
      * List of question numbers when the score is required to be read. If this isn't set, there are no required readings.
      */
-    public readonly RequiredScoreReading!: Set<number>;
+    public RequiredScoreReading?: Set<number>;
 }
 
 /**
@@ -87,12 +108,12 @@ export enum CompetitionType {
     /**
      * Junior Bible Quiz
      */
-    JBQ,
+    JBQ = 0,
 
     /**
      * Teen Bible Quiz
      */
-    TBQ
+    TBQ = 1
 }
 
 /**
@@ -101,24 +122,33 @@ export enum CompetitionType {
 export class QuizOutRule {
 
     /**
+     * Initializes a new instance of the QuizOutRule class.
+     */
+    constructor() {
+        this.QuestionCount = 0;
+        this.ShouldUnseatIfUnbeatable = false;
+        this.BonusPoints = 0;
+    }
+
+    /**
      * Number of questions that must be answered to quiz out.
      */
-    public readonly QuestionCount!: number;
+    public QuestionCount: number;
 
     /**
      * Number of fouls the quizzer may receive for this rule to be satisfied.
      */
-    public readonly FoulCount!: number | null;
+    public FoulCount?: number;
 
     /**
      * Value indicating whether the quizzer should be unseated if it is no longer possible to reach the quizzer's score.
      */
-    public readonly ShouldUnseatIfUnbeatable!: boolean;
+    public ShouldUnseatIfUnbeatable: boolean;
 
     /**
      * Number of bonus points received when quizzing out.
      */
-    public readonly BonusPoints!: number;
+    public BonusPoints: number;
 }
 
 /**
@@ -127,24 +157,33 @@ export class QuizOutRule {
 export class QuestionPointValueRules {
 
     /**
+     * Initializes a new instance of the QuestionPointValueRules class.
+     */
+    constructor() {
+        this.First = QuestionPositionRequirement.Allowed;
+        this.Last = QuestionPositionRequirement.Allowed;
+        this.AllowConsecutive = false;
+    }
+
+    /**
      * Value indicating requirements for this point value for the first question.
      */
-    public readonly First!: QuestionPositionRequirement;
+    public First: QuestionPositionRequirement;
 
     /**
      * Value indicating requirements for this point value for the last question.
      */
-    public readonly Last!: QuestionPositionRequirement;
+    public Last: QuestionPositionRequirement;
 
     /**
      * Number of questions of this point value that must be in each half of the match.
      */
-    public readonly PerHalfCount!: number | null;
+    public PerHalfCount?: number;
 
     /**
      * Value indicating whether this point value can be asked consecutively.
      */
-    public readonly AllowConsecutive!: boolean;
+    public AllowConsecutive: boolean;
 }
 
 /**
@@ -155,17 +194,17 @@ export enum QuestionPositionRequirement {
     /**
      * Allowed to be in the position, but not required.
      */
-    Allowed,
+    Allowed = 0,
 
     /**
      * Required to be at the specified position.
      */
-    Required,
+    Required = 1,
 
     /**
      * Not allowed to be in the specific position.
      */
-    NotAllowed
+    NotAllowed = 2
 }
 
 /**
@@ -174,48 +213,68 @@ export enum QuestionPositionRequirement {
 export class ContestRules {
 
     /**
+     * Initializes a new instance of the ContestRules class.
+     */
+    constructor() {
+        this.ContestLabel = "";
+        this.UnsuccessfulContestsWithoutFouls = undefined;
+        this.MaxSuccessfulContests = undefined;
+        this.MaxUnsuccessfulContests = undefined;
+        this.AreContestsRulings = false;
+    }
+
+    /**
      * Label for contests.
      */
-    public readonly ContestLabel!: string;
+    public ContestLabel: string;
 
     /**
      * Total number of successful contests allowed for the match. If this is null, it means there is no limit.
      */
-    public readonly MaxSuccessfulContests!: number | null;
+    public MaxSuccessfulContests?: number;
 
     /**
      * Total number of unsuccessful contests allowed for the match. If this is null, it means there is no limit.
      */
-    public readonly MaxUnsuccessfulContests!: number | null;
+    public MaxUnsuccessfulContests?: number;
 
     /**
      * Number of unsuccessful contests that can be attempted before a foul is assessed.
      */
-    public readonly UnsuccessfulContestsWithoutFouls!: number | null;
+    public UnsuccessfulContestsWithoutFouls?: number;
 
     /**
      * Value indicating whether contests are rulings or contests (legacy).
      */
-    public readonly AreContestsRulings!: boolean;
+    public AreContestsRulings: boolean;
 }
 
 /**
  * Rules about timing.
  */
 export class TimingRules {
-    
+
+    /**
+     * Initializes a new instance of the TimingRules class.
+     */
+    constructor() {
+        this.InitialRemainingTime = undefined;
+        this.WarnIfRemaining = undefined;
+        this.AlertIfRemaining = undefined;
+    }
+
     /**
      * Initial time remaining for the timer (if any).
      */
-    public readonly InitialRemainingTime!: string | null; // Use ISO string for TimeSpan
+    public InitialRemainingTime?: string;
 
     /**
      * Value indicating when a warning should be displayed after remaining time has dropped below this value.
      */
-    public readonly WarnIfRemaining!: string | null; // Use ISO string for TimeSpan
+    public WarnIfRemaining?: string;
 
     /**
      * Value indicating when an alert should be displayed after remaining time has dropped below this value.
      */
-    public readonly AlertIfRemaining!: string | null; // Use ISO string for TimeSpan
+    public AlertIfRemaining?: string;
 }
