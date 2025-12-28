@@ -136,6 +136,7 @@ export class ContactInfo {
  * Rules for quizzing out.
  */
 export class MatchQuestion {
+
     /**
      * Initializes a new instance of the MatchQuestion class.
      */
@@ -170,6 +171,7 @@ export class MatchQuestion {
  * Metadata about a scheduled match in a room.
  */
 export class MatchScheduledRoom {
+
     /**
      * Initializes a new instance of the MatchScheduledRoom class.
      */
@@ -203,6 +205,7 @@ export class MatchScheduledRoom {
  * Set of questions.
  */
 export class MatchQuestionSet {
+
     /**
      * Initializes a new instance of the MatchQuestionSet class.
      */
@@ -220,6 +223,7 @@ export class MatchQuestionSet {
  * Metadata about an individual match.
  */
 export class Match {
+
     /**
      * Initializes a new instance of the Match class.
      */
@@ -261,17 +265,13 @@ export class Match {
  * Overrides for scoring.
  */
 export class MeetRanking {
+
     /**
      * Initializes a new instance of the MeetRanking class.
      */
     constructor() {
         this.IncludeByesInScores = false;
-        this.TeamOverrideMessage = undefined;
-        this.TeamRankOverrides = undefined;
         this.TeamsRankByWinRate = false;
-        this.QuizzerOverrideMessage = undefined;
-        this.QuizzerRankOverrides = undefined;
-        this.QuizzersRankByAverageCorrectPointValue = undefined;
         this.QuizzersRankByAverageCorrect = false;
     }
 
@@ -324,6 +324,7 @@ export class MeetRanking {
  * Information about building a schedule.
  */
 export class MeetSchedule {
+
     /**
      * Initializes a new instance of the MeetSchedule class.
      */
@@ -356,6 +357,7 @@ export class MeetSchedule {
  * Progress of scoring for a given meet.
  */
 export class MeetScoringProgress {
+
     /**
      * Initializes a new instance of the MeetScoringProgress class.
      */
@@ -415,6 +417,7 @@ export class MeetScoringProgress {
  * Scope for a question set for either JBQ or TBQ questions.
  */
 export class QuestionSetScope {
+
     /**
      * Initializes a new instance of the QuestionSetScope class.
      */
@@ -457,6 +460,7 @@ export class QuestionSetScope {
  * Metadata about an individual meet.
  */
 export class Meet {
+
     /**
      * Initializes a new instance of the Meet class.
      */
@@ -602,6 +606,7 @@ export class Meet {
  * Manifest for a given meet.
  */
 export class MeetManifest {
+
     /**
      * Initializes a new instance of the MeetManifest class.
      */
@@ -660,6 +665,7 @@ export class MeetManifest {
  * Official individual information.
  */
 export class Official {
+
     /**
      * Initializes a new instance of the Official class.
      */
@@ -754,6 +760,7 @@ export class Official {
  * Individual research for a question in a Room.
  */
 export class QuestionResearch {
+
     /**
      * Initializes a new instance of the QuestionResearch class.
      */
@@ -816,6 +823,7 @@ export class QuestionResearch {
  * Summary of stats about a specific question.
  */
 export class QuestionSummary {
+
     /**
      * Initializes a new instance of the QuestionSummary class.
      */
@@ -857,6 +865,7 @@ export class QuestionSummary {
  * Quizzer information.
  */
 export class Quizzer {
+
     /**
      * Initializes a new instance of the Quizzer class.
      */
@@ -932,6 +941,7 @@ export class Quizzer {
  * Points for an individual within a RoomQuestion.
  */
 export class RoomQuestionQuizzerScore {
+
     /**
      * Initializes a new instance of the RoomQuestionQuizzerScore class.
      */
@@ -955,6 +965,7 @@ export class RoomQuestionQuizzerScore {
  * Individual question for a Room.
  */
 export class RoomQuestion {
+
     /**
      * Initializes a new instance of the RoomQuestion class.
      */
@@ -972,6 +983,7 @@ export class RoomQuestion {
  * State of a quizzer within a room.
  */
 export class RoomQuizzer {
+
     /**
      * Initializes a new instance of the RoomQuizzer class.
      */
@@ -1046,6 +1058,7 @@ export class RoomQuizzer {
  * Summary of a room's scores.
  */
 export class RoomSummary {
+
     /**
      * Initializes a new instance of the RoomSummary class.
      */
@@ -1068,6 +1081,7 @@ export class RoomSummary {
  * State of a team within a room.
  */
 export class RoomTeam {
+
     /**
      * Initializes a new instance of the RoomTeam class.
      */
@@ -1121,6 +1135,7 @@ export class RoomTeam {
  * Metadata about a single room in a match.
  */
 export class Room {
+
     /**
      * Initializes a new instance of the Room class.
      */
@@ -1226,6 +1241,7 @@ export class Room {
  * Summary of a score for a meet.
  */
 export class ScoreSummary {
+
     /**
      * Initializes a new instance of the ScoreSummary class.
      */
@@ -1358,6 +1374,7 @@ export class ScoreSummary {
  * Metadata about a team.
  */
 export class Team {
+
     /**
      * Initializes a new instance of the Team class.
      */
