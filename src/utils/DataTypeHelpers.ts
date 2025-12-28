@@ -320,4 +320,33 @@ export class DataTypeHelpers {
             return parsedDate.getFullYear();
         }
     }
+
+    /**
+     * Formats a time span for C# TimeSpan.Parse compatibility.
+     * @param days Days component (optional).
+     * @param hours Hours component.
+     * @param minutes Minutes component.
+     * @param seconds Seconds component (optional).
+     * @returns A string that can be parsed by C# TimeSpan.Parse.
+     */
+    public static formatTimeSpan(
+        hours: number,
+        minutes: number,
+        seconds: number = 0,
+        days: number = 0): string {
+
+        const isNegative = hours < 0 || minutes < 0 || seconds < 0 || days < 0;
+        const sign = isNegative ? "-" : "";
+
+        days = Math.abs(days);
+        hours = Math.abs(hours);
+        minutes = Math.abs(minutes);
+        seconds = Math.abs(seconds);
+
+        const hh = hours.toString().padStart(2, "0");
+        const mm = minutes.toString().padStart(2, "0");
+        const ss = seconds.toString().padStart(2, "0");
+
+        return `${sign}${days}.${hh}:${mm}:${ss}`;
+    }
 }

@@ -4,23 +4,18 @@ import { useOutletContext } from "react-router-dom";
 interface Props {
 }
 
-export default function ScoringDatabaseGeneralPage({ }: Props) {
+export default function ScoringDatabaseDeletePage({ }: Props) {
     const context = useOutletContext<ScoringDatabaseProviderContext>();
     const auth = context.auth;
 
     return (
         <>
             <div>
-                <b>General Section</b>
+                <b>Delete Database Page</b>
             </div>
             <p>
-                This page includes the following:
+                This page allows you to delete the database.
             </p>
-            <ul>
-                <li>Name the database.</li>
-                <li>Hide the database.</li>
-                <li>Delete the database.</li>
-            </ul>
             <div>
                 Placeholder for {auth.userProfile?.displayName}
             </div>

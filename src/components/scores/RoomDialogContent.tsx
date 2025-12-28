@@ -142,7 +142,7 @@ interface TableProps {
     report: RoomScoringReport;
 }
 
-function getContestInfo(maxNumber: number | null): { hasContestType: boolean, numberSuffix: string | null } {
+function getContestInfo(maxNumber: number | undefined): { hasContestType: boolean, numberSuffix: string | null } {
     if (null === maxNumber || undefined === maxNumber) {
         return { hasContestType: true, numberSuffix: null };
     }
