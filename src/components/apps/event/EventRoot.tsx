@@ -37,6 +37,8 @@ import EmailEventPage from './EmailEventPage';
 import CloneEventPage from './CloneEventPage';
 import type { DatabaseSettings } from 'types/services/DatabasesService';
 import { createMultiReactAtom } from 'utils/MultiReactNanoStore';
+import ScoringDatabaseDeletePage from './scoring/ScoringDatabaseDeletePage';
+import ScoringDatabaseAppsPage from './scoring/ScoringDatabaseAppsPage';
 
 interface Props {
     loadingElementId: string;
@@ -428,6 +430,20 @@ function buildDatabaseEntry(
         entries: [
             {
                 type: 'link' as const,
+                label: "Dashboard",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/dashboard`),
+                isCurrent: false,
+                icon: "fas faGauge"
+            },
+            {
+                type: 'link' as const,
+                label: "Name & Visibility",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/general`),
+                isCurrent: false,
+                icon: "fas faRectangleList"
+            },
+            {
+                type: 'link' as const,
                 label: "Divisions",
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/meets`),
                 isCurrent: false,
@@ -446,6 +462,13 @@ function buildDatabaseEntry(
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/liveScores`),
                 isCurrent: false,
                 icon: "fas faBroadcastTower"
+            },
+            {
+                type: 'link' as const,
+                label: "Devices & Apps",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/apps`),
+                isCurrent: false,
+                icon: "fas faTabletAlt"
             },
             {
                 type: 'link' as const,
@@ -544,7 +567,11 @@ const router = createHashRouter([
                                         element: <ScoringDatabaseProvider />,
                                         children: [
                                             {
-                                                path: "/:eventId/scoring/databases/:databaseId",
+                                                path: "/:eventId/scoring/databases/:databaseId/dashboard",
+                                                element: <ScoringDatabaseAwardsPage />
+                                            },
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId/general",
                                                 element: <ScoringDatabaseGeneralPage />
                                             },
                                             {
@@ -560,6 +587,10 @@ const router = createHashRouter([
                                                 element: <ScoringDatabaseLiveScoresPage />
                                             },
                                             {
+                                                path: "/:eventId/scoring/databases/:databaseId/apps",
+                                                element: <ScoringDatabaseAppsPage />
+                                            },
+                                            {
                                                 path: "/:eventId/scoring/databases/:databaseId/playoffs",
                                                 element: <ScoringDatabasePlayoffsPage />
                                             },
@@ -570,6 +601,10 @@ const router = createHashRouter([
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/manualEntry",
                                                 element: <ScoringDatabaseManualEntryPage />
+                                            },
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId/delete",
+                                                element: <ScoringDatabaseDeletePage />
                                             },
                                         ]
                                     },
