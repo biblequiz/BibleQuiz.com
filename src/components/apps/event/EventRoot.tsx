@@ -29,7 +29,6 @@ import ScoringDatabaseAwardsPage from './scoring/ScoringDatabaseAwardsPage';
 import ScoringDatabaseManualEntryPage from './scoring/ScoringDatabaseManualEntryPage';
 import EventProvider, { NEW_ID_PLACEHOLDER } from './EventProvider';
 import ScoringDatabaseNewPage from './scoring/ScoringDatabaseNewPage';
-import ScoringDatabaseGeneralPage from './scoring/ScoringDatabaseGeneralPage';
 import { AuthManager } from 'types/AuthManager';
 import EventDashboardPage from './EventDashboardPage';
 import DeleteEventPage from './DeleteEventPage';
@@ -39,6 +38,7 @@ import type { DatabaseSettings } from 'types/services/DatabasesService';
 import { createMultiReactAtom } from 'utils/MultiReactNanoStore';
 import ScoringDatabaseDeletePage from './scoring/ScoringDatabaseDeletePage';
 import ScoringDatabaseAppsPage from './scoring/ScoringDatabaseAppsPage';
+import ScoringDashboardPage from './scoring/ScoringDashboardPage';
 
 interface Props {
     loadingElementId: string;
@@ -378,9 +378,15 @@ function buildSidebar(
         for (const segment of segmentIndexes) {
             const currentPageGroup = currentPage as ReactSidebarGroup;
 
-            let segmentOffset = isDatabaseGroup ? -1 : 0;
+            let segmentOffset = 0;
             if (currentPageGroup.id === SCORES_GROUP_ID && segment > 0) {
                 currentPage = currentPage.entries[1]; // Databases section.
+
+                // Handle the scenario where the databases are still loading.
+                if (currentPage.entries.length === 1 &&
+                    currentPage.entries[0].id === DATABASE_LOADING_ID) {
+                    return sidebarEntries;
+                }
 
                 let entryIndex = 0;
                 const findId = DATABASE_GROUP_ID_PREFIX + (routeParameters.databaseId ?? "new");
@@ -437,13 +443,6 @@ function buildDatabaseEntry(
             },
             {
                 type: 'link' as const,
-                label: "Name & Visibility",
-                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/general`),
-                isCurrent: false,
-                icon: "fas faRectangleList"
-            },
-            {
-                type: 'link' as const,
                 label: "Divisions",
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/meets`),
                 isCurrent: false,
@@ -465,17 +464,17 @@ function buildDatabaseEntry(
             },
             {
                 type: 'link' as const,
-                label: "Devices & Apps",
-                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/apps`),
-                isCurrent: false,
-                icon: "fas faTabletAlt"
-            },
-            {
-                type: 'link' as const,
                 label: "Playoffs",
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/playoffs`),
                 isCurrent: false,
                 icon: "fas faPeopleArrows"
+            },
+            {
+                type: 'link' as const,
+                label: "Devices & Apps",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/apps`),
+                isCurrent: false,
+                icon: "fas faTabletAlt"
             },
             {
                 type: 'link' as const,
@@ -490,6 +489,13 @@ function buildDatabaseEntry(
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/manualEntry`),
                 isCurrent: false,
                 icon: "fas faPenToSquare"
+            },
+            {
+                type: 'link' as const,
+                label: "Delete Database",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/delete`),
+                isCurrent: false,
+                icon: "fas faTrash"
             }]
     };
 }
@@ -568,11 +574,7 @@ const router = createHashRouter([
                                         children: [
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/dashboard",
-                                                element: <ScoringDatabaseAwardsPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/general",
-                                                element: <ScoringDatabaseGeneralPage />
+                                                element: <ScoringDashboardPage />
                                             },
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/meets",
@@ -587,12 +589,12 @@ const router = createHashRouter([
                                                 element: <ScoringDatabaseLiveScoresPage />
                                             },
                                             {
-                                                path: "/:eventId/scoring/databases/:databaseId/apps",
-                                                element: <ScoringDatabaseAppsPage />
-                                            },
-                                            {
                                                 path: "/:eventId/scoring/databases/:databaseId/playoffs",
                                                 element: <ScoringDatabasePlayoffsPage />
+                                            },
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId/apps",
+                                                element: <ScoringDatabaseAppsPage />
                                             },
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/awards",

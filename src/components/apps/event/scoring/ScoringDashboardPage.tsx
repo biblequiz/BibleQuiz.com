@@ -17,6 +17,7 @@ export default function ScoringDashboardPage({ }: Props) {
                 This page includes the following:
             </p>
             <ul>
+                <li>Ability to change the name and visibility of the database.</li>
                 <li>Ability to see the current state of the database.</li>
                 <li>Stats about the current scoring.</li>
                 <li>Cards and links to other sections.</li>
