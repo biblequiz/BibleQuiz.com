@@ -115,14 +115,6 @@ export enum ScoreSummaryFootnoteType {
  * Metadata about a contact.
  */
 export class ContactInfo {
-    /**
-     * Initializes a new instance of the ContactInfo class.
-     */
-    constructor() {
-        this.Name = undefined;
-        this.Phone = undefined;
-        this.Email = undefined;
-    }
 
     /**
      * Name of the contact.
@@ -150,7 +142,6 @@ export class MatchQuestion {
     constructor() {
         this.PointValue = 0;
         this.PlainText = "";
-        this.HtmlText = undefined;
         this.Usage = MatchQuestionUsage.Regular;
     }
 
@@ -183,9 +174,6 @@ export class MatchScheduledRoom {
      * Initializes a new instance of the MatchScheduledRoom class.
      */
     constructor() {
-        this.TeamIds = undefined;
-        this.QuizzerIds = undefined;
-        this.PlacementRoomRouting = undefined;
         this.IsByeRound = false;
     }
 
@@ -238,8 +226,6 @@ export class Match {
     constructor() {
         this.Questions = {};
         this.RoomSchedule = {};
-        this.MatchTime = undefined;
-        this.HasImportedQuestions = undefined;
         this.IsPlayoff = false;
     }
 
@@ -343,9 +329,6 @@ export class MeetSchedule {
      */
     constructor() {
         this.MatchLengthInMinutes = 0;
-        this.LinkedMeetIds = undefined;
-        this.OptimizedSchedule = undefined;
-        this.CustomSchedule = undefined;
     }
 
     /**
@@ -437,11 +420,6 @@ export class QuestionSetScope {
      */
     constructor() {
         this.CompetitionType = CompetitionType.JBQ;
-        this.Name = undefined;
-        this.JbqMode = undefined;
-        this.JbqType = undefined;
-        this.JbqQuestionCategories = undefined;
-        this.TbqBookSections = undefined;
     }
 
     /**
@@ -484,29 +462,18 @@ export class Meet {
      */
     constructor() {
         this.Id = 0;
-        this.RemoteMeetId = undefined;
-        this.RemoteDivisionId = undefined;
-        this.RemoteMeetName = undefined;
         this.Name = "";
         this.IsOffline = false;
         this.ContactInfo = "";
         this.MatchRules = new MatchRules();
         this.HasCustomRules = false;
-        this.PointValueCountsOverride = undefined;
         this.Matches = {};
-        this.AdditionalQuestions = undefined;
         this.Teams = {};
         this.Quizzers = {};
         this.RoomNames = {};
-        this.Scheduling = undefined;
-        this.Ranking = undefined;
-        this.StartingTemplateRoundOverride = undefined;
-        this.TemplateRoundCountOverride = undefined;
         this.HasUnsyncedChanges = false;
         this.IsScoringActive = false;
         this.IsClosed = false;
-        this.QuestionSetScope = undefined;
-        this.QuestionSetScopeOverride = undefined;
     }
 
     /**
@@ -646,7 +613,6 @@ export class MeetManifest {
         this.QuestionSummaries = {};
         this.Scores = {};
         this.ScoringProgress = new MeetScoringProgress();
-        this.MeetNames = undefined;
     }
 
     /**
@@ -699,14 +665,7 @@ export class Official {
      */
     constructor() {
         this.Id = 0;
-        this.RemotePersonId = undefined;
-        this.RemoteChurchId = undefined;
         this.Name = "";
-        this.TeamId = undefined;
-        this.QuizMasterPreference = undefined;
-        this.JudgePreference = undefined;
-        this.ScorekeeperPreference = undefined;
-        this.TimekeeperPreference = undefined;
         this.YearsOfExperience = 0;
         this.DuplicateRemotePersonIds = new Set<string>();
         this.IsYouth = false;
@@ -799,9 +758,6 @@ export class QuestionResearch {
      * Initializes a new instance of the QuestionResearch class.
      */
     constructor() {
-        this.InputPhrase = undefined;
-        this.SearchPhrase = undefined;
-        this.Notes = undefined;
         this.SearchSelections = [];
         this.Remarks = [];
         this.ScriptureRemarks = [];
@@ -906,17 +862,9 @@ export class Quizzer {
      */
     constructor() {
         this.Id = 0;
-        this.RemotePersonId = undefined;
-        this.RemoteChurchId = undefined;
         this.Name = "";
-        this.ChurchName = undefined;
-        this.TeamId = undefined;
-        this.DateOfBirth = undefined;
-        this.Grade = undefined;
-        this.YearsQuizzing = undefined;
         this.DuplicateRemotePersonIds = new Set<string>();
         this.IsHidden = false;
-        this.IsVerifiedRemotely = undefined;
     }
 
     /**
@@ -1028,13 +976,10 @@ export class RoomQuizzer {
      * Initializes a new instance of the RoomQuizzer class.
      */
     constructor() {
-        this.TeamId = undefined;
         this.FoulCount = 0;
         this.TotalFoulPoints = 0;
         this.TotalPoints = 0;
-        this.LastQuestionAnswered = undefined;
         this.Color = BuzzerColor.Red;
-        this.Position = undefined;
         this.QuizzedOutState = QuizzedOutState.NotQuizzedOut;
         this.Correct = 0;
         this.Incorrect = 0;
@@ -1106,7 +1051,6 @@ export class RoomSummary {
      */
     constructor() {
         this.TeamScores = {};
-        this.CurrentQuestion = undefined;
     }
 
     /**
@@ -1181,23 +1125,14 @@ export class Room {
      * Initializes a new instance of the Room class.
      */
     constructor() {
-        this.RedTeamId = undefined;
-        this.GreenTeamId = undefined;
         this.CurrentQuestion = 0;
         this.Questions = {};
         this.PointValueOverrides = {};
         this.Quizzers = {};
         this.Teams = {};
         this.IsCompleted = false;
-        this.TimerStarted = undefined;
-        this.TimerRemaining = undefined;
-        this.MatchStarted = undefined;
-        this.MatchStopped = undefined;
         this.HasUnsyncedChanges = false;
         this.Research = {};
-        this.IsQuestionSetScopeEnabled = undefined;
-        this.QuestionSetScope = undefined;
-        this.RemoteVersion = undefined;
     }
 
     /**
@@ -1295,16 +1230,11 @@ export class ScoreSummary {
      * Initializes a new instance of the ScoreSummary class.
      */
     constructor() {
-        this.Rank = undefined;
-        this.Order = undefined;
-        this.RankMessage = undefined;
-        this.RankFootnote = undefined;
         this.Wins = new Set<number>();
         this.HeadToHeadRecord = {};
         this.PlayoffRecord = {};
         this.Losses = new Set<number>();
         this.Playoffs = new Set<number>();
-        this.TotalPointsPerMeet = undefined;
         this.Matches = 0;
         this.ScorableMatches = 0;
         this.TotalPoints = 0;
@@ -1433,16 +1363,7 @@ export class Team {
      */
     constructor() {
         this.Id = 0;
-        this.RemoteTeamId = undefined;
-        this.RemotePersistentId = undefined;
-        this.RemoteChurchId = undefined;
         this.Name = "";
-        this.League = undefined;
-        this.TotalQuizzerId = undefined;
-        this.FullChurchName = undefined;
-        this.Church = undefined;
-        this.City = undefined;
-        this.State = undefined;
         this.PrimaryContact = new ContactInfo();
         this.Coach = new ContactInfo();
         this.DefaultPositions = {};

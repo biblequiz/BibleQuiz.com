@@ -1,3 +1,5 @@
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
+
 /**
  * Rules about the matches for a specific meet.
  */
@@ -8,20 +10,15 @@ export class MatchRules {
      */
     constructor() {
         this.CompetitionName = "";
-        this.CompetitionFullName = undefined;
-        this.Type = undefined;
-        this.IncorrectPointMultiplier = 0;
-        this.QuizzersPerTeam = 0;
+        this.IncorrectPointMultiplier = -0.5;
+        this.QuizzersPerTeam = 3;
         this.QuizOutForward = new QuizOutRule();
         this.QuizOutBackward = new QuizOutRule();
-        this.PointValueRules = undefined;
         this.PointValueCounts = {};
-        this.FoulPoints = 0;
-        this.MaxTimeouts = 0;
+        this.FoulPoints = 5;
+        this.MaxTimeouts = 3;
         this.ContestRules = new ContestRules();
-        this.TimingRules = undefined;
         this.IsIndividualCompetition = false;
-        this.RequiredScoreReading = undefined;
     }
 
     /**
@@ -98,6 +95,81 @@ export class MatchRules {
      * List of question numbers when the score is required to be read. If this isn't set, there are no required readings.
      */
     public RequiredScoreReading?: Set<number>;
+
+    /**
+     * Gets the default rules for a specific competition type.
+     * 
+     * @param competitionType Type of competition.
+     * @param isIndividualTournament Value indicating whether this is an individual tournament.
+     * @param defaultMatchLength Default length for matches.
+     * @returns Match rules for the specified competition type.
+     */
+    public static getDefaultRules(
+        competitionType: CompetitionType,
+        isIndividualTournament: boolean,
+        defaultMatchLengthInMinutes?: number): MatchRules {
+
+        if (isIndividualTournament) {
+            throw new Error("Individual tournaments aren't supported.");
+        }
+
+        const timing = new TimingRules();
+        if (defaultMatchLengthInMinutes !== undefined) {
+            timing.InitialRemainingTime = DataTypeHelpers.formatTimeSpan(0, defaultMatchLengthInMinutes);;
+
+            if (defaultMatchLengthInMinutes > 5) {
+                timing.WarnIfRemaining = DataTypeHelpers.formatTimeSpan(0, 5);
+                timing.AlertIfRemaining = DataTypeHelpers.formatTimeSpan(0, 0);;
+            }
+        }
+
+        switch (competitionType) {
+            case CompetitionType.JBQ:
+                const jbqRules = new MatchRules();
+                jbqRules.CompetitionName = "JBQ";
+                jbqRules.CompetitionFullName = "Junior Bible Quiz";
+                jbqRules.Type = CompetitionType.JBQ;
+                jbqRules.PointValueCounts = { 10: 10, 20: 7, 30: 3 };
+                jbqRules.PointValueRules = {
+                    10: { First: QuestionPositionRequirement.Allowed, Last: QuestionPositionRequirement.Allowed, AllowConsecutive: true },
+                    20: { PerHalfCount: 3, First: QuestionPositionRequirement.Allowed, Last: QuestionPositionRequirement.Allowed, AllowConsecutive: true },
+                    30: { PerHalfCount: 1, First: QuestionPositionRequirement.NotAllowed, Last: QuestionPositionRequirement.NotAllowed, AllowConsecutive: false }
+                };
+                jbqRules.QuizOutForward = { BonusPoints: 10, QuestionCount: 6, ShouldUnseatIfUnbeatable: false };
+                jbqRules.QuizOutBackward = { BonusPoints: 0, QuestionCount: 3, FoulCount: 3, ShouldUnseatIfUnbeatable: false };
+                jbqRules.QuizzersPerTeam = 4;
+                jbqRules.ContestRules = {
+                    ContestLabel: "Coach's Appeals",
+                    MaxSuccessfulContests: 2,
+                    MaxUnsuccessfulContests: 0,
+                    AreContestsRulings: true
+                };
+                jbqRules.TimingRules = timing;
+                jbqRules.IsIndividualCompetition = false;
+                return jbqRules;
+
+            case CompetitionType.TBQ:
+                const tbqRules = new MatchRules();
+                tbqRules.CompetitionName = "TBQ";
+                tbqRules.CompetitionFullName = "Teen Bible Quiz";
+                tbqRules.Type = CompetitionType.TBQ;
+                tbqRules.PointValueCounts = { 10: 8, 20: 9, 30: 3 };
+                tbqRules.QuizOutForward = { BonusPoints: 20, QuestionCount: 5, ShouldUnseatIfUnbeatable: false, FoulCount: undefined };
+                tbqRules.QuizOutBackward = { BonusPoints: 0, QuestionCount: 3, FoulCount: 3, ShouldUnseatIfUnbeatable: false };
+                tbqRules.QuizzersPerTeam = 3;
+                tbqRules.ContestRules = {
+                    ContestLabel: "Contests",
+                    MaxUnsuccessfulContests: 3,
+                    AreContestsRulings: false
+                };
+                tbqRules.TimingRules = timing;
+                tbqRules.IsIndividualCompetition = false;
+                return tbqRules;
+
+            default:
+                throw new Error(`CompetitionType = ${competitionType} is not implemented`);
+        }
+    }
 }
 
 /**
@@ -217,9 +289,6 @@ export class ContestRules {
      */
     constructor() {
         this.ContestLabel = "";
-        this.UnsuccessfulContestsWithoutFouls = undefined;
-        this.MaxSuccessfulContests = undefined;
-        this.MaxUnsuccessfulContests = undefined;
         this.AreContestsRulings = false;
     }
 
@@ -253,15 +322,6 @@ export class ContestRules {
  * Rules about timing.
  */
 export class TimingRules {
-
-    /**
-     * Initializes a new instance of the TimingRules class.
-     */
-    constructor() {
-        this.InitialRemainingTime = undefined;
-        this.WarnIfRemaining = undefined;
-        this.AlertIfRemaining = undefined;
-    }
 
     /**
      * Initial time remaining for the timer (if any).
