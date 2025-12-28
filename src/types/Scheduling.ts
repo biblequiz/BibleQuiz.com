@@ -1,3 +1,5 @@
+import type { MatchScheduledRoom } from "./Meets";
+
 /**
  * Template for building a schedule.
  */

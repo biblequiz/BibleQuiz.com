@@ -1,3 +1,5 @@
+import type { ScheduleTemplate } from "./Scheduling";
+
 /**
  * Color of a buzzer.
  */
@@ -151,9 +153,9 @@ export class ContactInfo {
      * Initializes a new instance of the ContactInfo class.
      */
     constructor() {
-        this.Name = null;
-        this.Phone = null;
-        this.Email = null;
+        this.Name = undefined;
+        this.Phone = undefined;
+        this.Email = undefined;
     }
 
     /**
@@ -181,9 +183,9 @@ export class ContestRules {
      */
     constructor() {
         this.ContestLabel = "";
-        this.MaxSuccessfulContests = null;
-        this.MaxUnsuccessfulContests = null;
-        this.UnsuccessfulContestsWithoutFouls = null;
+        this.MaxSuccessfulContests = undefined;
+        this.MaxUnsuccessfulContests = undefined;
+        this.UnsuccessfulContestsWithoutFouls = undefined;
         this.AreContestsRulings = false;
     }
 
@@ -221,9 +223,9 @@ export class TimingRules {
      * Initializes a new instance of the TimingRules class.
      */
     constructor() {
-        this.InitialRemainingTime = null;
-        this.WarnIfRemaining = null;
-        this.AlertIfRemaining = null;
+        this.InitialRemainingTime = undefined;
+        this.WarnIfRemaining = undefined;
+        this.AlertIfRemaining = undefined;
     }
 
     /**
@@ -251,7 +253,7 @@ export class QuizOutRule {
      */
     constructor() {
         this.QuestionCount = 0;
-        this.FoulCount = null;
+        this.FoulCount = undefined;
         this.ShouldUnseatIfUnbeatable = false;
         this.BonusPoints = 0;
     }
@@ -287,7 +289,7 @@ export class QuestionPointValueRules {
     constructor() {
         this.First = QuestionPositionRequirement.Allowed;
         this.Last = QuestionPositionRequirement.Allowed;
-        this.PerHalfCount = null;
+        this.PerHalfCount = undefined;
         this.AllowConsecutive = true;
     }
 
@@ -322,8 +324,8 @@ export class MatchRules {
     constructor() {
         this.PointValueCounts = {};
         this.CompetitionName = "";
-        this.CompetitionFullName = null;
-        this.Type = null;
+        this.CompetitionFullName = undefined;
+        this.Type = undefined;
         this.IncorrectPointMultiplier = 0;
         this.QuizzersPerTeam = 0;
         this.QuizOutForward = new QuizOutRule();
@@ -332,9 +334,9 @@ export class MatchRules {
         this.FoulPoints = 0;
         this.MaxTimeouts = 0;
         this.ContestRules = new ContestRules();
-        this.TimingRules = null;
+        this.TimingRules = undefined;
         this.IsIndividualCompetition = false;
-        this.RequiredScoreReading = null;
+        this.RequiredScoreReading = undefined;
     }
 
     /**
@@ -423,7 +425,7 @@ export class MatchQuestion {
     constructor() {
         this.PointValue = 0;
         this.PlainText = "";
-        this.HtmlText = null;
+        this.HtmlText = undefined;
         this.Usage = MatchQuestionUsage.Regular;
     }
 
@@ -456,9 +458,9 @@ export class MatchScheduledRoom {
      * Initializes a new instance of the MatchScheduledRoom class.
      */
     constructor() {
-        this.TeamIds = null;
-        this.QuizzerIds = null;
-        this.PlacementRoomRouting = null;
+        this.TeamIds = undefined;
+        this.QuizzerIds = undefined;
+        this.PlacementRoomRouting = undefined;
         this.IsByeRound = false;
     }
 
@@ -511,8 +513,8 @@ export class Match {
     constructor() {
         this.Questions = {};
         this.RoomSchedule = {};
-        this.MatchTime = null;
-        this.HasImportedQuestions = null;
+        this.MatchTime = undefined;
+        this.HasImportedQuestions = undefined;
         this.IsPlayoff = false;
     }
 
@@ -553,12 +555,12 @@ export class MeetRanking {
      */
     constructor() {
         this.IncludeByesInScores = false;
-        this.TeamOverrideMessage = null;
-        this.TeamRankOverrides = null;
+        this.TeamOverrideMessage = undefined;
+        this.TeamRankOverrides = undefined;
         this.TeamsRankByWinRate = false;
-        this.QuizzerOverrideMessage = null;
-        this.QuizzerRankOverrides = null;
-        this.QuizzersRankByAverageCorrectPointValue = null;
+        this.QuizzerOverrideMessage = undefined;
+        this.QuizzerRankOverrides = undefined;
+        this.QuizzersRankByAverageCorrectPointValue = undefined;
         this.QuizzersRankByAverageCorrect = false;
     }
 
@@ -616,9 +618,9 @@ export class MeetSchedule {
      */
     constructor() {
         this.MatchLengthInMinutes = 0;
-        this.LinkedMeetIds = null;
-        this.OptimizedSchedule = null;
-        this.CustomSchedule = null;
+        this.LinkedMeetIds = undefined;
+        this.OptimizedSchedule = undefined;
+        this.CustomSchedule = undefined;
     }
 
     /**
@@ -710,11 +712,11 @@ export class QuestionSetScope {
      */
     constructor() {
         this.CompetitionType = CompetitionType.JBQ;
-        this.Name = null;
-        this.JbqMode = null;
-        this.JbqType = null;
-        this.JbqQuestionCategories = null;
-        this.TbqBookSections = null;
+        this.Name = undefined;
+        this.JbqMode = undefined;
+        this.JbqType = undefined;
+        this.JbqQuestionCategories = undefined;
+        this.TbqBookSections = undefined;
     }
 
     /**
@@ -757,29 +759,29 @@ export class Meet {
      */
     constructor() {
         this.Id = 0;
-        this.RemoteMeetId = null;
-        this.RemoteDivisionId = null;
-        this.RemoteMeetName = null;
+        this.RemoteMeetId = undefined;
+        this.RemoteDivisionId = undefined;
+        this.RemoteMeetName = undefined;
         this.Name = "";
         this.IsOffline = false;
         this.ContactInfo = "";
         this.MatchRules = new MatchRules();
         this.HasCustomRules = false;
-        this.PointValueCountsOverride = null;
+        this.PointValueCountsOverride = undefined;
         this.Matches = {};
-        this.AdditionalQuestions = null;
+        this.AdditionalQuestions = undefined;
         this.Teams = {};
         this.Quizzers = {};
         this.RoomNames = {};
-        this.Scheduling = null;
-        this.Ranking = null;
-        this.StartingTemplateRoundOverride = null;
-        this.TemplateRoundCountOverride = null;
+        this.Scheduling = undefined;
+        this.Ranking = undefined;
+        this.StartingTemplateRoundOverride = undefined;
+        this.TemplateRoundCountOverride = undefined;
         this.HasUnsyncedChanges = false;
         this.IsScoringActive = false;
         this.IsClosed = false;
-        this.QuestionSetScope = null;
-        this.QuestionSetScopeOverride = null;
+        this.QuestionSetScope = undefined;
+        this.QuestionSetScopeOverride = undefined;
     }
 
     /**
@@ -919,7 +921,7 @@ export class MeetManifest {
         this.QuestionSummaries = {};
         this.Scores = {};
         this.ScoringProgress = new MeetScoringProgress();
-        this.MeetNames = null;
+        this.MeetNames = undefined;
     }
 
     /**
@@ -972,14 +974,14 @@ export class Official {
      */
     constructor() {
         this.Id = 0;
-        this.RemotePersonId = null;
-        this.RemoteChurchId = null;
+        this.RemotePersonId = undefined;
+        this.RemoteChurchId = undefined;
         this.Name = "";
-        this.TeamId = null;
-        this.QuizMasterPreference = null;
-        this.JudgePreference = null;
-        this.ScorekeeperPreference = null;
-        this.TimekeeperPreference = null;
+        this.TeamId = undefined;
+        this.QuizMasterPreference = undefined;
+        this.JudgePreference = undefined;
+        this.ScorekeeperPreference = undefined;
+        this.TimekeeperPreference = undefined;
         this.YearsOfExperience = 0;
         this.DuplicateRemotePersonIds = new Set<string>();
         this.IsYouth = false;
@@ -1072,9 +1074,9 @@ export class QuestionResearch {
      * Initializes a new instance of the QuestionResearch class.
      */
     constructor() {
-        this.InputPhrase = null;
-        this.SearchPhrase = null;
-        this.Notes = null;
+        this.InputPhrase = undefined;
+        this.SearchPhrase = undefined;
+        this.Notes = undefined;
         this.SearchSelections = [];
         this.Remarks = [];
         this.ScriptureRemarks = [];
@@ -1179,17 +1181,17 @@ export class Quizzer {
      */
     constructor() {
         this.Id = 0;
-        this.RemotePersonId = null;
-        this.RemoteChurchId = null;
+        this.RemotePersonId = undefined;
+        this.RemoteChurchId = undefined;
         this.Name = "";
-        this.ChurchName = null;
-        this.TeamId = null;
-        this.DateOfBirth = null;
-        this.Grade = null;
-        this.YearsQuizzing = null;
+        this.ChurchName = undefined;
+        this.TeamId = undefined;
+        this.DateOfBirth = undefined;
+        this.Grade = undefined;
+        this.YearsQuizzing = undefined;
         this.DuplicateRemotePersonIds = new Set<string>();
         this.IsHidden = false;
-        this.IsVerifiedRemotely = null;
+        this.IsVerifiedRemotely = undefined;
     }
 
     /**
@@ -1301,13 +1303,13 @@ export class RoomQuizzer {
      * Initializes a new instance of the RoomQuizzer class.
      */
     constructor() {
-        this.TeamId = null;
+        this.TeamId = undefined;
         this.FoulCount = 0;
         this.TotalFoulPoints = 0;
         this.TotalPoints = 0;
-        this.LastQuestionAnswered = null;
+        this.LastQuestionAnswered = undefined;
         this.Color = BuzzerColor.Red;
-        this.Position = null;
+        this.Position = undefined;
         this.QuizzedOutState = QuizzedOutState.NotQuizzedOut;
         this.Correct = 0;
         this.Incorrect = 0;
@@ -1379,7 +1381,7 @@ export class RoomSummary {
      */
     constructor() {
         this.TeamScores = {};
-        this.CurrentQuestion = null;
+        this.CurrentQuestion = undefined;
     }
 
     /**
@@ -1454,23 +1456,23 @@ export class Room {
      * Initializes a new instance of the Room class.
      */
     constructor() {
-        this.RedTeamId = null;
-        this.GreenTeamId = null;
+        this.RedTeamId = undefined;
+        this.GreenTeamId = undefined;
         this.CurrentQuestion = 0;
         this.Questions = {};
         this.PointValueOverrides = {};
         this.Quizzers = {};
         this.Teams = {};
         this.IsCompleted = false;
-        this.TimerStarted = null;
-        this.TimerRemaining = null;
-        this.MatchStarted = null;
-        this.MatchStopped = null;
+        this.TimerStarted = undefined;
+        this.TimerRemaining = undefined;
+        this.MatchStarted = undefined;
+        this.MatchStopped = undefined;
         this.HasUnsyncedChanges = false;
         this.Research = {};
-        this.IsQuestionSetScopeEnabled = null;
-        this.QuestionSetScope = null;
-        this.RemoteVersion = null;
+        this.IsQuestionSetScopeEnabled = undefined;
+        this.QuestionSetScope = undefined;
+        this.RemoteVersion = undefined;
     }
 
     /**
@@ -1568,16 +1570,16 @@ export class ScoreSummary {
      * Initializes a new instance of the ScoreSummary class.
      */
     constructor() {
-        this.Rank = null;
-        this.Order = null;
-        this.RankMessage = null;
-        this.RankFootnote = null;
+        this.Rank = undefined;
+        this.Order = undefined;
+        this.RankMessage = undefined;
+        this.RankFootnote = undefined;
         this.Wins = new Set<number>();
         this.HeadToHeadRecord = {};
         this.PlayoffRecord = {};
         this.Losses = new Set<number>();
         this.Playoffs = new Set<number>();
-        this.TotalPointsPerMeet = null;
+        this.TotalPointsPerMeet = undefined;
         this.Matches = 0;
         this.ScorableMatches = 0;
         this.TotalPoints = 0;
@@ -1706,16 +1708,16 @@ export class Team {
      */
     constructor() {
         this.Id = 0;
-        this.RemoteTeamId = null;
-        this.RemotePersistentId = null;
-        this.RemoteChurchId = null;
+        this.RemoteTeamId = undefined;
+        this.RemotePersistentId = undefined;
+        this.RemoteChurchId = undefined;
         this.Name = "";
-        this.League = null;
-        this.TotalQuizzerId = null;
-        this.FullChurchName = null;
-        this.Church = null;
-        this.City = null;
-        this.State = null;
+        this.League = undefined;
+        this.TotalQuizzerId = undefined;
+        this.FullChurchName = undefined;
+        this.Church = undefined;
+        this.City = undefined;
+        this.State = undefined;
         this.PrimaryContact = new ContactInfo();
         this.Coach = new ContactInfo();
         this.DefaultPositions = {};
